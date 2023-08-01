@@ -48,12 +48,12 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.htaccess` | Medium
-2 | File | `/uncpath/` | Medium
-3 | File | `/wp-json/oembed/1.0/embed?url` | High
-4 | File | `add_vhost.php` | High
+2 | File | `/api/baskets/{name}` | High
+3 | File | `/forum/away.php` | High
+4 | File | `/uncpath/` | Medium
 5 | ... | ... | ...
 
-There are 28 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 34 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

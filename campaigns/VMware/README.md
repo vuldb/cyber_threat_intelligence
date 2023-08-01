@@ -47,7 +47,8 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+6 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
 
@@ -58,46 +59,46 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/blog/blogcategory/add/?_to_field=id&_popup=1` | High
-2 | File | `/api/users/admin/check` | High
-3 | File | `/config/getuser` | High
-4 | File | `/connectors/index.php` | High
-5 | File | `/etc/init.d/opsview-reporting-module` | High
-6 | File | `/goform/form2userconfig.cgi` | High
-7 | File | `/gracemedia-media-player/templates/files/ajax_controller.php` | High
-8 | File | `/guest/index.html` | High
-9 | File | `/include/logs` | High
-10 | File | `/index.php` | Medium
-11 | File | `/index.php?page=forums&action=search` | High
-12 | File | `/index.php?page=signup` | High
-13 | File | `/index.php?page=viewnews` | High
-14 | File | `/job-details` | Medium
-15 | File | `/list-gitolite` | High
-16 | File | `/login` | Low
-17 | File | `/member/pm.php` | High
-18 | File | `/objects/getSpiritsFromVideo.php` | High
-19 | File | `/onvif/device_service` | High
-20 | File | `/rapi/read_url` | High
-21 | File | `/secure/QueryComponent!Default.jspa` | High
-22 | File | `/tab_tariffe.php` | High
-23 | File | `/var/log/drachtio` | High
-24 | File | `/var/log/groonga` | High
-25 | File | `/visualizza_tabelle.php` | High
-26 | File | `/wp-admin/admin-ajax.php` | High
-27 | File | `/wp-json/wc/v3/webhooks` | High
-28 | File | `acrord32.exe` | Medium
-29 | File | `admin.php/user/add` | High
-30 | File | `admin.php?m=Member&a=adminadd` | High
-31 | File | `admin/conf_users_edit.php` | High
-32 | File | `admin/content.php` | High
-33 | File | `admin/content/search.html` | High
-34 | File | `admin/index.php?lfj=member&action=addmember` | High
-35 | File | `admin/tool/ShowPic.php` | High
-36 | File | `admin/ueditor/uploadFile` | High
-37 | File | `adv_remotelog.asp` | High
-38 | File | `AjaxApplication.java` | High
-39 | File | `album_cat.php` | High
-40 | File | `AndroidManifest.xml` | High
-41 | File | `Annot.c` | Low
+2 | File | `/api/baskets/{name}` | High
+3 | File | `/api/users/admin/check` | High
+4 | File | `/category_view.php` | High
+5 | File | `/config/getuser` | High
+6 | File | `/connectors/index.php` | High
+7 | File | `/etc/init.d/opsview-reporting-module` | High
+8 | File | `/etc/passwd` | Medium
+9 | File | `/goform/form2userconfig.cgi` | High
+10 | File | `/gracemedia-media-player/templates/files/ajax_controller.php` | High
+11 | File | `/guest/index.html` | High
+12 | File | `/HNAP1` | Low
+13 | File | `/include/logs` | High
+14 | File | `/index.php` | Medium
+15 | File | `/index.php?page=forums&action=search` | High
+16 | File | `/index.php?page=signup` | High
+17 | File | `/index.php?page=viewnews` | High
+18 | File | `/job-details` | Medium
+19 | File | `/list-gitolite` | High
+20 | File | `/login` | Low
+21 | File | `/member/pm.php` | High
+22 | File | `/objects/getSpiritsFromVideo.php` | High
+23 | File | `/onvif/device_service` | High
+24 | File | `/rapi/read_url` | High
+25 | File | `/secure/QueryComponent!Default.jspa` | High
+26 | File | `/SetTriggerWPS/PIN` | High
+27 | File | `/tab_tariffe.php` | High
+28 | File | `/var/log/drachtio` | High
+29 | File | `/var/log/groonga` | High
+30 | File | `/visualizza_tabelle.php` | High
+31 | File | `/wp-admin/admin-ajax.php` | High
+32 | File | `/wp-json/wc/v3/webhooks` | High
+33 | File | `acrord32.exe` | Medium
+34 | File | `admin.php/user/add` | High
+35 | File | `admin.php?m=Member&a=adminadd` | High
+36 | File | `admin/conf_users_edit.php` | High
+37 | File | `admin/content.php` | High
+38 | File | `admin/content/search.html` | High
+39 | File | `admin/index.php?lfj=member&action=addmember` | High
+40 | File | `admin/tool/ShowPic.php` | High
+41 | File | `admin/ueditor/uploadFile` | High
 42 | ... | ... | ...
 
 There are 363 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.

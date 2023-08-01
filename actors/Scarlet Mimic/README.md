@@ -62,7 +62,7 @@ ID | Type | Indicator | Confidence
 7 | File | `admin/mcart_xls_import.php` | High
 8 | ... | ... | ...
 
-There are 52 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 54 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

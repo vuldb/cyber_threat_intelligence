@@ -198,10 +198,9 @@ ID | Type | Indicator | Confidence
 18 | File | `/proc/ftxxxx-debug` | High
 19 | File | `/proc/pid/syscall` | High
 20 | File | `/public/launchNewWindow.jsp` | High
-21 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-22 | ... | ... | ...
+21 | ... | ... | ...
 
-There are 181 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 178 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

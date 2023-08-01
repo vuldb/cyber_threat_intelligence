@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
-* [GB](https://vuldb.com/?country.gb)
+* [ES](https://vuldb.com/?country.es)
 * ...
 
 There are 10 more country items available. Please use our online service to access the data.
@@ -49,7 +49,7 @@ ID | Type | Indicator | Confidence
 5 | File | `/uncpath/` | Medium
 6 | ... | ... | ...
 
-There are 39 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 41 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

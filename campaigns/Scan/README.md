@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CH](https://vuldb.com/?country.ch)
 * ...
 
-There are 5 more country items available. Please use our online service to access the data.
+There are 6 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -64,19 +64,19 @@ ID | Type | Indicator | Confidence
 1 | File | `/admin/admin.php` | High
 2 | File | `/admin/maintenance/view_designation.php` | High
 3 | File | `/adminlogin.asp` | High
-4 | File | `/mc-admin/post.php?state=delete&delete` | High
-5 | File | `addmember.php` | High
-6 | File | `addtocart.asp` | High
-7 | File | `addtomylist.asp` | High
-8 | File | `admin.x-shop.php` | High
-9 | File | `admin/adminlogin.php` | High
-10 | File | `admin/article_save.php` | High
-11 | File | `admin/auth.php` | High
-12 | File | `admin/ueditor/uploadFile` | High
-13 | File | `admincp/auth/checklogin.php` | High
+4 | File | `/forum/away.php` | High
+5 | File | `/mc-admin/post.php?state=delete&delete` | High
+6 | File | `addmember.php` | High
+7 | File | `addtocart.asp` | High
+8 | File | `addtomylist.asp` | High
+9 | File | `admin.x-shop.php` | High
+10 | File | `admin/adminlogin.php` | High
+11 | File | `admin/article_save.php` | High
+12 | File | `admin/auth.php` | High
+13 | File | `admin/ueditor/uploadFile` | High
 14 | ... | ... | ...
 
-There are 109 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 111 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

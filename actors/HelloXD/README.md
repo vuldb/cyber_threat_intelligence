@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 8 more country items available. Please use our online service to access the data.
+There are 9 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -50,13 +50,13 @@ ID | Type | Indicator | Confidence
 1 | File | `.bash_history` | High
 2 | File | `.procmailrc` | Medium
 3 | File | `/cgi-bin/changepw.cgi` | High
-4 | File | `/editbrand.php` | High
-5 | File | `/etc/raspap/hostapd/enablelog.sh` | High
-6 | File | `/mnt/idea0` | Medium
-7 | File | `/phppath/php` | Medium
+4 | File | `/debug/pprof` | Medium
+5 | File | `/editbrand.php` | High
+6 | File | `/etc/raspap/hostapd/enablelog.sh` | High
+7 | File | `/mnt/idea0` | Medium
 8 | ... | ... | ...
 
-There are 54 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 57 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

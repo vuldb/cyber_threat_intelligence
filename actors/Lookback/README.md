@@ -8,8 +8,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Lookback:
 
-* [VN](https://vuldb.com/?country.vn)
 * [US](https://vuldb.com/?country.us)
+* [VN](https://vuldb.com/?country.vn)
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
@@ -48,50 +48,51 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
 2 | File | `/admin/upload/upload` | High
-3 | File | `/api/gen/clients/{language}` | High
-4 | File | `/apply.cgi` | Medium
-5 | File | `/cgi-bin/wlogin.cgi` | High
-6 | File | `/config/getuser` | High
-7 | File | `/config/myfield/test.php` | High
-8 | File | `/debug/pprof` | Medium
-9 | File | `/ecshop/admin/template.php` | High
-10 | File | `/example/editor` | High
+3 | File | `/api/baskets/{name}` | High
+4 | File | `/api/gen/clients/{language}` | High
+5 | File | `/apply.cgi` | Medium
+6 | File | `/cgi-bin/wlogin.cgi` | High
+7 | File | `/config/getuser` | High
+8 | File | `/config/myfield/test.php` | High
+9 | File | `/debug/pprof` | Medium
+10 | File | `/ecshop/admin/template.php` | High
 11 | File | `/file/upload/1` | High
 12 | File | `/forum/away.php` | High
 13 | File | `/forum/PostPrivateMessage` | High
-14 | File | `/HNAP1` | Low
+14 | File | `/goform/set_LimitClient_cfg` | High
 15 | File | `/home/www/cgi-bin/login.cgi` | High
-16 | File | `/iu-application/controllers/administration/auth.php` | High
-17 | File | `/Kofax/KFS/ThinClient/document/upload/` | High
-18 | File | `/multi-vendor-shopping-script/product-list.php` | High
-19 | File | `/net-banking/customer_transactions.php` | High
-20 | File | `/obs/book.php` | High
-21 | File | `/ossn/administrator/com_installer` | High
-22 | File | `/pms/update_user.php?user_id=1` | High
+16 | File | `/multi-vendor-shopping-script/product-list.php` | High
+17 | File | `/net-banking/customer_transactions.php` | High
+18 | File | `/obs/book.php` | High
+19 | File | `/ossn/administrator/com_installer` | High
+20 | File | `/owa/auth/logon.aspx` | High
+21 | File | `/pms/update_user.php?user_id=1` | High
+22 | File | `/preview.php` | Medium
 23 | File | `/requests.php` | High
 24 | File | `/spip.php` | Medium
-25 | File | `/sre/params.php` | High
-26 | File | `/tmp` | Low
-27 | File | `/uncpath/` | Medium
-28 | File | `/user/upload/upload` | High
-29 | File | `/Users` | Low
-30 | File | `/var/spool/hylafax` | High
-31 | File | `/vendor` | Low
-32 | File | `accountrecoveryendpoint/recoverpassword.do` | High
-33 | File | `action/addproject.php` | High
-34 | File | `adclick.php` | Medium
-35 | File | `add_contestant.php` | High
-36 | File | `admin.php` | Medium
-37 | File | `admin/index.php` | High
-38 | File | `admin/make_payments.php` | High
-39 | File | `Advanced_ASUSDDNS_Content.asp` | High
-40 | File | `af_netlink.c` | Medium
-41 | File | `album_portal.php` | High
-42 | File | `api_jsonrpc.php` | High
-43 | File | `appserv/main.php` | High
-44 | ... | ... | ...
+25 | File | `/sqlite3_aflpp/shell.c` | High
+26 | File | `/sre/params.php` | High
+27 | File | `/SVFE2/pages/feegroups/service_group.jsf` | High
+28 | File | `/uncpath/` | Medium
+29 | File | `/user/upload/upload` | High
+30 | File | `/Users` | Low
+31 | File | `/var/spool/hylafax` | High
+32 | File | `/vendor` | Low
+33 | File | `AccessibilityManagerService.java` | High
+34 | File | `accountrecoveryendpoint/recoverpassword.do` | High
+35 | File | `adclick.php` | Medium
+36 | File | `add_contestant.php` | High
+37 | File | `admin.php` | Medium
+38 | File | `admin/edit_category.php` | High
+39 | File | `admin/index.php` | High
+40 | File | `admin/make_payments.php` | High
+41 | File | `af_netlink.c` | Medium
+42 | File | `album_portal.php` | High
+43 | File | `api/auth.go` | Medium
+44 | File | `api_jsonrpc.php` | High
+45 | ... | ... | ...
 
-There are 380 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 385 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

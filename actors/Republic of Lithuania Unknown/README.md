@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [GB](https://vuldb.com/?country.gb)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 14 more country items available. Please use our online service to access the data.
+There are 20 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -335,9 +335,10 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -348,61 +349,61 @@ ID | Type | Indicator | Confidence
 1 | File | `//WEB-INF` | Medium
 2 | File | `/?p=products` | Medium
 3 | File | `/about.php` | Medium
-4 | File | `/admin.php/accessory/filesdel.html` | High
-5 | File | `/admin.php/update/getFile.html` | High
-6 | File | `/admin/` | Low
-7 | File | `/admin/?page=user/manage` | High
-8 | File | `/admin/add-new.php` | High
-9 | File | `/admin/cashadvance_row.php` | High
-10 | File | `/admin/doctors.php` | High
-11 | File | `/admin/maintenance/view_designation.php` | High
-12 | File | `/admin/userprofile.php` | High
-13 | File | `/alphaware/summary.php` | High
-14 | File | `/api/` | Low
-15 | File | `/api/admin/store/product/list` | High
-16 | File | `/api/stl/actions/search` | High
-17 | File | `/api/v2/cli/commands` | High
-18 | File | `/APR/login.php` | High
-19 | File | `/APR/signup.php` | High
-20 | File | `/boat/login.php` | High
-21 | File | `/cgi-bin` | Medium
-22 | File | `/cgi-bin/wapopen` | High
-23 | File | `/cgi-bin/wlogin.cgi` | High
-24 | File | `/debug/pprof` | Medium
-25 | File | `/E-mobile/App/System/File/downfile.php` | High
-26 | File | `/Electron/download` | High
-27 | File | `/etc/tomcat8/Catalina/attack` | High
-28 | File | `/feeds/post/publish` | High
-29 | File | `/forum/away.php` | High
-30 | File | `/inc/jquery/uploadify/uploadify.php` | High
-31 | File | `/index.php?app=main&func=passport&action=login` | High
-32 | File | `/index.php?page=category_list` | High
-33 | File | `/mims/login.php` | High
-34 | File | `/Moosikay/order.php` | High
-35 | File | `/opac/Actions.php?a=login` | High
+4 | File | `/admin.php/update/getFile.html` | High
+5 | File | `/admin/?page=maintenance/brand` | High
+6 | File | `/admin/cashadvance_row.php` | High
+7 | File | `/admin/maintenance/view_designation.php` | High
+8 | File | `/admin/sys_sql_query.php` | High
+9 | File | `/admin/userprofile.php` | High
+10 | File | `/api/` | Low
+11 | File | `/api/admin/store/product/list` | High
+12 | File | `/api/stl/actions/search` | High
+13 | File | `/api/v2/cli/commands` | High
+14 | File | `/bin/ate` | Medium
+15 | File | `/booking/show_bookings/` | High
+16 | File | `/cgi-bin` | Medium
+17 | File | `/cgi-bin/wapopen` | High
+18 | File | `/cgi-bin/wlogin.cgi` | High
+19 | File | `/company/store` | High
+20 | File | `/Controller/Ajaxfileupload.ashx` | High
+21 | File | `/debug/pprof` | Medium
+22 | File | `/E-mobile/App/System/File/downfile.php` | High
+23 | File | `/Electron/download` | High
+24 | File | `/env` | Low
+25 | File | `/etc/tomcat8/Catalina/attack` | High
+26 | File | `/feeds/post/publish` | High
+27 | File | `/forum/away.php` | High
+28 | File | `/h/` | Low
+29 | File | `/inc/jquery/uploadify/uploadify.php` | High
+30 | File | `/index.php?app=main&func=passport&action=login` | High
+31 | File | `/index.php?page=category_list` | High
+32 | File | `/jobinfo/` | Medium
+33 | File | `/Moosikay/order.php` | High
+34 | File | `/opac/Actions.php?a=login` | High
+35 | File | `/php-sms/admin/?page=user/manage_user` | High
 36 | File | `/PreviewHandler.ashx` | High
-37 | File | `/proxy` | Low
-38 | File | `/public/launchNewWindow.jsp` | High
-39 | File | `/reservation/add_message.php` | High
-40 | File | `/reviewer/system/system/admins/manage/users/user-update.php` | High
-41 | File | `/send_order.cgi?parameter=access_detect` | High
-42 | File | `/text/pdf/PdfReader.java` | High
-43 | File | `/textpattern/index.php` | High
-44 | File | `/tmp` | Low
-45 | File | `/user/updatePwd` | High
-46 | File | `/wireless/security.asp` | High
-47 | File | `/wp-admin/admin-ajax.php` | High
-48 | File | `a-forms.php` | Medium
-49 | File | `account/signup.php` | High
-50 | File | `AcquisiAction.class.php` | High
-51 | File | `activenews_view.asp` | High
-52 | File | `adclick.php` | Medium
-53 | File | `addentry.php` | Medium
-54 | File | `addressbook/backends/ldap/e-book-backend-ldap.c` | High
-55 | File | `admin.a6mambocredits.php` | High
+37 | File | `/process/aprocess.php` | High
+38 | File | `/proxy` | Low
+39 | File | `/public/launchNewWindow.jsp` | High
+40 | File | `/recipe-result` | High
+41 | File | `/reservation/add_message.php` | High
+42 | File | `/resources//../` | High
+43 | File | `/reviewer/system/system/admins/manage/users/user-update.php` | High
+44 | File | `/send_order.cgi?parameter=access_detect` | High
+45 | File | `/Service/ImageStationDataService.asmx` | High
+46 | File | `/student/bookdetails.php` | High
+47 | File | `/text/pdf/PdfReader.java` | High
+48 | File | `/uploads/exam_question/` | High
+49 | File | `/user/ticket/create` | High
+50 | File | `/user/updatePwd` | High
+51 | File | `/var/lib/docker/<remapping>` | High
+52 | File | `/wireless/security.asp` | High
+53 | File | `/wp-admin/admin-ajax.php` | High
+54 | File | `a-forms.php` | Medium
+55 | File | `AcquisiAction.class.php` | High
 56 | ... | ... | ...
 
-There are 493 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 489 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

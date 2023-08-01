@@ -52,13 +52,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23, CWE-24, CWE-29, CWE-425 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-29, CWE-425 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 16 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -74,24 +74,26 @@ ID | Type | Indicator | Confidence
 6 | File | `/admin/edit_subject.php` | High
 7 | File | `/admin/modal_add_product.php` | High
 8 | File | `/admin/reportupload.aspx` | High
-9 | File | `/admin/save_teacher.php` | High
-10 | File | `/admin/service.php` | High
-11 | File | `/admin/update_s6.php` | High
-12 | File | `/ajax.php?action=read_msg` | High
-13 | File | `/ajax.php?action=save_company` | High
-14 | File | `/api/stl/actions/search` | High
-15 | File | `/bin/login` | Medium
-16 | File | `/cas/logout` | Medium
-17 | File | `/changeimage.php` | High
-18 | File | `/classes/Users.php?f=save` | High
-19 | File | `/DXR.axd` | Medium
-20 | File | `/index.php?app=main&func=passport&action=login` | High
-21 | File | `/Login/CheckLogin` | High
-22 | File | `/note/index/delete` | High
-23 | File | `/owa/auth/logon.aspx` | High
-24 | ... | ... | ...
+9 | File | `/admin/service.php` | High
+10 | File | `/admin/update_s6.php` | High
+11 | File | `/ajax.php?action=read_msg` | High
+12 | File | `/ajax.php?action=save_company` | High
+13 | File | `/api/baskets/{name}` | High
+14 | File | `/api/common/ping` | High
+15 | File | `/api/stl/actions/search` | High
+16 | File | `/bin/login` | Medium
+17 | File | `/cas/logout` | Medium
+18 | File | `/changeimage.php` | High
+19 | File | `/classes/Users.php?f=save` | High
+20 | File | `/DXR.axd` | Medium
+21 | File | `/forum/away.php` | High
+22 | File | `/librarian/bookdetails.php` | High
+23 | File | `/Login/CheckLogin` | High
+24 | File | `/note/index/delete` | High
+25 | File | `/osms/assets/plugins/jquery-validation-1.11.1/demo/captcha/index.php` | High
+26 | ... | ... | ...
 
-There are 202 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 216 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

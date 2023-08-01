@@ -53,9 +53,10 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+5 | T1068 | CWE-250, CWE-264, CWE-266, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -65,33 +66,34 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `%PROGRAMFILES(X86)%\Steam` | High
 2 | File | `/admin/blog/blogcategory/add/?_to_field=id&_popup=1` | High
-3 | File | `/adminzone/index.php?page=admin-commandr` | High
-4 | File | `/admin_giant/` | High
-5 | File | `/admin_giant/add_gallery.php` | High
-6 | File | `/admin_giant/add_team_member.php` | High
-7 | File | `/ajax/networking/get_netcfg.php` | High
-8 | File | `/api/v2/cli/commands` | High
-9 | File | `/cgi-bin/supervisor/CloudSetup.cgi` | High
-10 | File | `/cgi-bin/system_mgr.cgi` | High
-11 | File | `/cloud_config/router_post/reset_cloud_pwd` | High
-12 | File | `/config/getuser` | High
-13 | File | `/etc/passwd` | Medium
-14 | File | `/etc/tomcat8/Catalina/attack` | High
-15 | File | `/filemanager/upload.php` | High
-16 | File | `/include/chart_generator.php` | High
-17 | File | `/login` | Low
-18 | File | `/mgmt/tm/util/bash` | High
-19 | File | `/panel/uploads` | High
-20 | File | `/product.php` | Medium
-21 | File | `/see_more_details.php` | High
-22 | File | `/Side.php` | Medium
-23 | File | `/tmp/app/.env` | High
-24 | File | `/uncpath/` | Medium
-25 | File | `/uploads/exam_question/` | High
-26 | File | `/usr/local/www/pkg.php` | High
-27 | ... | ... | ...
+3 | File | `/admin/edit.php` | High
+4 | File | `/adminzone/index.php?page=admin-commandr` | High
+5 | File | `/admin_giant/` | High
+6 | File | `/admin_giant/add_gallery.php` | High
+7 | File | `/admin_giant/add_team_member.php` | High
+8 | File | `/ajax/networking/get_netcfg.php` | High
+9 | File | `/api/baskets/{name}` | High
+10 | File | `/api/v2/cli/commands` | High
+11 | File | `/cgi-bin/supervisor/CloudSetup.cgi` | High
+12 | File | `/cgi-bin/system_mgr.cgi` | High
+13 | File | `/cloud_config/router_post/reset_cloud_pwd` | High
+14 | File | `/config/getuser` | High
+15 | File | `/etc/passwd` | Medium
+16 | File | `/etc/tomcat8/Catalina/attack` | High
+17 | File | `/filemanager/upload.php` | High
+18 | File | `/forum/away.php` | High
+19 | File | `/include/chart_generator.php` | High
+20 | File | `/login` | Low
+21 | File | `/mgmt/tm/util/bash` | High
+22 | File | `/owa/auth/logon.aspx` | High
+23 | File | `/panel/uploads` | High
+24 | File | `/product.php` | Medium
+25 | File | `/see_more_details.php` | High
+26 | File | `/Side.php` | Medium
+27 | File | `/tmp/app/.env` | High
+28 | ... | ... | ...
 
-There are 229 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 232 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

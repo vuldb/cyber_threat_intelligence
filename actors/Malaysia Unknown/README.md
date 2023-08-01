@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 15 more country items available. Please use our online service to access the data.
+There are 20 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -571,7 +571,8 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
 
@@ -589,55 +590,56 @@ ID | Type | Indicator | Confidence
 6 | File | `/admin/inquiries/view_inquiry.php` | High
 7 | File | `/admin/maintenance/view_designation.php` | High
 8 | File | `/admin/report/index.php` | High
-9 | File | `/admin/userprofile.php` | High
-10 | File | `/Application/Admin/Controller/ConfigController.class.php` | High
-11 | File | `/APR/login.php` | High
-12 | File | `/APR/signup.php` | High
-13 | File | `/cgi-bin/wapopen` | High
-14 | File | `/cgi-bin/wlogin.cgi` | High
-15 | File | `/classes/Master.php?f=delete_service` | High
-16 | File | `/classes/Master.php?f=save_course` | High
-17 | File | `/E-mobile/App/System/File/downfile.php` | High
-18 | File | `/Electron/download` | High
-19 | File | `/feeds/post/publish` | High
-20 | File | `/forum/away.php` | High
-21 | File | `/inc/jquery/uploadify/uploadify.php` | High
-22 | File | `/inc/topBarNav.php` | High
-23 | File | `/index.php?app=main&func=passport&action=login` | High
-24 | File | `/index.php?page=category_list` | High
-25 | File | `/KK_LS9ReportingPortal/GetData` | High
-26 | File | `/mims/login.php` | High
-27 | File | `/Moosikay/order.php` | High
-28 | File | `/opac/Actions.php?a=login` | High
-29 | File | `/PreviewHandler.ashx` | High
-30 | File | `/proxy` | Low
-31 | File | `/public/launchNewWindow.jsp` | High
-32 | File | `/reservation/add_message.php` | High
-33 | File | `/reviewer/system/system/admins/manage/users/user-update.php` | High
-34 | File | `/send_order.cgi?parameter=access_detect` | High
-35 | File | `/spip.php` | Medium
-36 | File | `/text/pdf/PdfReader.java` | High
-37 | File | `/textpattern/index.php` | High
-38 | File | `/tmp` | Low
-39 | File | `/user/updatePwd` | High
-40 | File | `/wp-admin/admin-ajax.php` | High
-41 | File | `a-forms.php` | Medium
-42 | File | `account/signup.php` | High
-43 | File | `activenews_view.asp` | High
-44 | File | `adclick.php` | Medium
-45 | File | `addentry.php` | Medium
-46 | File | `addressbook/backends/ldap/e-book-backend-ldap.c` | High
-47 | File | `admin.a6mambocredits.php` | High
-48 | File | `admin.cropcanvas.php` | High
-49 | File | `admin.jcomments.php` | High
-50 | File | `admin.php` | Medium
-51 | File | `admin/?page=students/view_student` | High
-52 | File | `admin/admin_editor.php` | High
-53 | File | `admin/asset/grid-proxy` | High
-54 | File | `admin/auditTrail.jsf` | High
-55 | ... | ... | ...
+9 | File | `/admin/sys_sql_query.php` | High
+10 | File | `/admin/userprofile.php` | High
+11 | File | `/Application/Admin/Controller/ConfigController.class.php` | High
+12 | File | `/APR/login.php` | High
+13 | File | `/bin/boa` | Medium
+14 | File | `/cgi-bin/wapopen` | High
+15 | File | `/cgi-bin/wlogin.cgi` | High
+16 | File | `/cimom` | Low
+17 | File | `/classes/Master.php?f=delete_service` | High
+18 | File | `/classes/Master.php?f=save_course` | High
+19 | File | `/company/store` | High
+20 | File | `/Controller/Ajaxfileupload.ashx` | High
+21 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
+22 | File | `/E-mobile/App/System/File/downfile.php` | High
+23 | File | `/Electron/download` | High
+24 | File | `/feeds/post/publish` | High
+25 | File | `/forum/away.php` | High
+26 | File | `/h/` | Low
+27 | File | `/inc/jquery/uploadify/uploadify.php` | High
+28 | File | `/inc/topBarNav.php` | High
+29 | File | `/index.php?app=main&func=passport&action=login` | High
+30 | File | `/index.php?page=category_list` | High
+31 | File | `/jobinfo/` | Medium
+32 | File | `/KK_LS9ReportingPortal/GetData` | High
+33 | File | `/Moosikay/order.php` | High
+34 | File | `/opac/Actions.php?a=login` | High
+35 | File | `/PreviewHandler.ashx` | High
+36 | File | `/proxy` | Low
+37 | File | `/public/launchNewWindow.jsp` | High
+38 | File | `/recipe-result` | High
+39 | File | `/reservation/add_message.php` | High
+40 | File | `/reviewer/system/system/admins/manage/users/user-update.php` | High
+41 | File | `/send_order.cgi?parameter=access_detect` | High
+42 | File | `/Service/ImageStationDataService.asmx` | High
+43 | File | `/spip.php` | Medium
+44 | File | `/student/bookdetails.php` | High
+45 | File | `/text/pdf/PdfReader.java` | High
+46 | File | `/uploads/exam_question/` | High
+47 | File | `/user/ticket/create` | High
+48 | File | `/user/updatePwd` | High
+49 | File | `/var/lib/docker/<remapping>` | High
+50 | File | `/wp-admin/admin-ajax.php` | High
+51 | File | `a-forms.php` | Medium
+52 | File | `account/signup.php` | High
+53 | File | `activenews_view.asp` | High
+54 | File | `adclick.php` | Medium
+55 | File | `addentry.php` | Medium
+56 | ... | ... | ...
 
-There are 480 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 493 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

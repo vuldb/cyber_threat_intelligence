@@ -37,7 +37,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -47,43 +47,43 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
 2 | File | `/admin/upload/upload` | High
-3 | File | `/api/gen/clients/{language}` | High
-4 | File | `/cgi-bin/wlogin.cgi` | High
-5 | File | `/config/getuser` | High
-6 | File | `/config/myfield/test.php` | High
-7 | File | `/debug/pprof` | Medium
-8 | File | `/ecshop/admin/template.php` | High
-9 | File | `/example/editor` | High
+3 | File | `/api/baskets/{name}` | High
+4 | File | `/api/gen/clients/{language}` | High
+5 | File | `/cgi-bin/wlogin.cgi` | High
+6 | File | `/config/getuser` | High
+7 | File | `/config/myfield/test.php` | High
+8 | File | `/debug/pprof` | Medium
+9 | File | `/ecshop/admin/template.php` | High
 10 | File | `/file/upload/1` | High
 11 | File | `/forum/away.php` | High
 12 | File | `/forum/PostPrivateMessage` | High
-13 | File | `/HNAP1` | Low
+13 | File | `/goform/set_LimitClient_cfg` | High
 14 | File | `/home/www/cgi-bin/login.cgi` | High
-15 | File | `/iu-application/controllers/administration/auth.php` | High
-16 | File | `/Kofax/KFS/ThinClient/document/upload/` | High
-17 | File | `/multi-vendor-shopping-script/product-list.php` | High
-18 | File | `/net-banking/customer_transactions.php` | High
-19 | File | `/obs/book.php` | High
-20 | File | `/ossn/administrator/com_installer` | High
-21 | File | `/owa/auth/logon.aspx` | High
-22 | File | `/pms/update_user.php?user_id=1` | High
-23 | File | `/requests.php` | High
-24 | File | `/spip.php` | Medium
+15 | File | `/multi-vendor-shopping-script/product-list.php` | High
+16 | File | `/net-banking/customer_transactions.php` | High
+17 | File | `/obs/book.php` | High
+18 | File | `/ossn/administrator/com_installer` | High
+19 | File | `/owa/auth/logon.aspx` | High
+20 | File | `/pms/update_user.php?user_id=1` | High
+21 | File | `/preview.php` | Medium
+22 | File | `/requests.php` | High
+23 | File | `/spip.php` | Medium
+24 | File | `/sqlite3_aflpp/shell.c` | High
 25 | File | `/sre/params.php` | High
-26 | File | `/tmp` | Low
+26 | File | `/SVFE2/pages/feegroups/service_group.jsf` | High
 27 | File | `/uncpath/` | Medium
 28 | File | `/user/upload/upload` | High
 29 | File | `/Users` | Low
 30 | File | `/var/spool/hylafax` | High
 31 | File | `/vendor` | Low
-32 | File | `accountrecoveryendpoint/recoverpassword.do` | High
-33 | File | `action/addproject.php` | High
+32 | File | `AccessibilityManagerService.java` | High
+33 | File | `accountrecoveryendpoint/recoverpassword.do` | High
 34 | File | `adclick.php` | Medium
 35 | File | `add_contestant.php` | High
 36 | File | `admin.php` | Medium
-37 | File | `admin/index.php` | High
-38 | File | `admin/make_payments.php` | High
-39 | File | `Advanced_ASUSDDNS_Content.asp` | High
+37 | File | `admin/edit_category.php` | High
+38 | File | `admin/index.php` | High
+39 | File | `admin/make_payments.php` | High
 40 | File | `af_netlink.c` | Medium
 41 | File | `album_portal.php` | High
 42 | File | `api/auth.go` | Medium

@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with PrivateLoader:
 
 * [US](https://vuldb.com/?country.us)
-* [DE](https://vuldb.com/?country.de)
 * [LU](https://vuldb.com/?country.lu)
+* [DE](https://vuldb.com/?country.de)
 * ...
 
-There are 17 more country items available. Please use our online service to access the data.
+There are 15 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -23,12 +23,13 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [5.181.80.133](https://vuldb.com/?ip.5.181.80.133) | navbarlatino.alarmedbook.de | - | High
 2 | [5.182.36.101](https://vuldb.com/?ip.5.182.36.101) | vz.darytelecom.ru | - | High
-3 | [79.174.12.174](https://vuldb.com/?ip.79.174.12.174) | king420.lazy.fvds.ru | - | High
-4 | [89.38.131.151](https://vuldb.com/?ip.89.38.131.151) | no-reverse-yet.local | - | High
-5 | [89.38.131.155](https://vuldb.com/?ip.89.38.131.155) | no-reverse-yet.local | - | High
-6 | ... | ... | ... | ...
+3 | [45.15.156.229](https://vuldb.com/?ip.45.15.156.229) | - | - | High
+4 | [79.174.12.174](https://vuldb.com/?ip.79.174.12.174) | king420.lazy.fvds.ru | - | High
+5 | [85.208.136.10](https://vuldb.com/?ip.85.208.136.10) | - | - | High
+6 | [89.38.131.151](https://vuldb.com/?ip.89.38.131.151) | no-reverse-yet.local | - | High
+7 | ... | ... | ... | ...
 
-There are 21 more IOC items available. Please use our online service to access the data.
+There are 22 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -44,7 +45,7 @@ ID | Technique | Weakness | Description | Confidence
 6 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 7 | ... | ... | ... | ...
 
-There are 25 more TTP items available. Please use our online service to access the data.
+There are 23 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -52,48 +53,62 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/.env` | Low
-2 | File | `/admin.php/singer/admin/singer/del` | High
-3 | File | `/admin/?page=product/manage_product&id=2` | High
-4 | File | `/Admin/add-student.php` | High
-5 | File | `/admin/index.PHP` | High
-6 | File | `/admin/transactions/update_status.php` | High
-7 | File | `/api/user/password/sent-reset-email` | High
-8 | File | `/baseOpLog.do` | High
-9 | File | `/cgi/get_param.cgi` | High
-10 | File | `/classes/Users.php` | High
-11 | File | `/common/download_agent_installer.php` | High
-12 | File | `/common/info.cgi` | High
-13 | File | `/common/logViewer/logViewer.jsf` | High
-14 | File | `/common/run_cross_report.php` | High
-15 | File | `/Config/SaveUploadedHotspotLogoFile` | High
-16 | File | `/confirm` | Medium
-17 | File | `/controller/Index.php` | High
-18 | File | `/cwc/login` | Medium
-19 | File | `/debug/pprof` | Medium
-20 | File | `/download` | Medium
-21 | File | `/EXCU_SHELL` | Medium
-22 | File | `/foms/all-orders.php?status=Cancelled%20by%20Customer` | High
-23 | File | `/goform/addressNat` | High
-24 | File | `/goform/NatStaticSetting` | High
-25 | File | `/goform/setMacFilterCfg` | High
-26 | File | `/goform/SysToolChangePwd` | High
-27 | File | `/goform/WifiBasicSet` | High
-28 | File | `/GponForm/device_Form?script/` | High
-29 | File | `/HNAP1` | Low
-30 | File | `/home/resume/index` | High
-31 | File | `/includes/lib/detail.php` | High
-32 | File | `/includes/lib/get.php` | High
-33 | File | `/includes/lib/tree.php` | High
-34 | File | `/includes/rrdtool.inc.php` | High
-35 | File | `/index.php?action=seomatic/file/seo-file-link` | High
-36 | File | `/iwguestbook/admin/badwords_edit.asp` | High
-37 | File | `/iwguestbook/admin/messages_edit.asp` | High
-38 | File | `/MagickCore/enhance.c` | High
-39 | File | `/MagickCore/quantize.c` | High
-40 | ... | ... | ...
+1 | File | `/+CSCOE+/logon.html` | High
+2 | File | `/.env` | Low
+3 | File | `/admin.php/singer/admin/singer/del` | High
+4 | File | `/admin/?page=product/manage_product&id=2` | High
+5 | File | `/Admin/add-student.php` | High
+6 | File | `/admin/index.PHP` | High
+7 | File | `/admin/transactions/update_status.php` | High
+8 | File | `/api/user/password/sent-reset-email` | High
+9 | File | `/baseOpLog.do` | High
+10 | File | `/bl-plugins/backup/plugin.php` | High
+11 | File | `/cgi-bin/nightled.cgi` | High
+12 | File | `/cgi/get_param.cgi` | High
+13 | File | `/classes/Users.php` | High
+14 | File | `/common/download_agent_installer.php` | High
+15 | File | `/common/info.cgi` | High
+16 | File | `/common/logViewer/logViewer.jsf` | High
+17 | File | `/common/run_cross_report.php` | High
+18 | File | `/Config/SaveUploadedHotspotLogoFile` | High
+19 | File | `/confirm` | Medium
+20 | File | `/controller/Index.php` | High
+21 | File | `/cwc/login` | Medium
+22 | File | `/debug/pprof` | Medium
+23 | File | `/etc/master.passwd` | High
+24 | File | `/etc/passwd` | Medium
+25 | File | `/EXCU_SHELL` | Medium
+26 | File | `/foms/all-orders.php?status=Cancelled%20by%20Customer` | High
+27 | File | `/goform/addressNat` | High
+28 | File | `/goform/NatStaticSetting` | High
+29 | File | `/goform/setMacFilterCfg` | High
+30 | File | `/goform/SysToolChangePwd` | High
+31 | File | `/goform/WifiBasicSet` | High
+32 | File | `/HNAP1` | Low
+33 | File | `/home/resume/index` | High
+34 | File | `/index.php?action=seomatic/file/seo-file-link` | High
+35 | File | `/iwguestbook/admin/badwords_edit.asp` | High
+36 | File | `/iwguestbook/admin/messages_edit.asp` | High
+37 | File | `/MagickCore/enhance.c` | High
+38 | File | `/MagickCore/quantize.c` | High
+39 | File | `/MagickCore/statistic.c` | High
+40 | File | `/ofrs/admin/?page=reports` | High
+41 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+42 | File | `/page.php` | Medium
+43 | File | `/pages/permit/permit.php` | High
+44 | File | `/pet_shop/classes/Master.php?f=delete_category` | High
+45 | File | `/php-sms/admin/?page=services/manage_service` | High
+46 | File | `/ping.html` | Medium
+47 | File | `/plugin/jcapture/applet.php` | High
+48 | File | `/query` | Low
+49 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+50 | File | `/secure/admin/RestoreDefaults.jspa` | High
+51 | File | `/services/view_service.php` | High
+52 | File | `/sistema/flash/reboot` | High
+53 | File | `/spip.php` | Medium
+54 | ... | ... | ...
 
-There are 344 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 468 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

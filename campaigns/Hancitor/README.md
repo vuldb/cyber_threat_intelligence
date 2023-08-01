@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 15 more country items available. Please use our online service to access the data.
+There are 14 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -106,7 +106,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
@@ -120,40 +120,41 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/card_scan.php` | High
-2 | File | `/cgi-bin/wlogin.cgi` | High
-3 | File | `/classes/Master.php?f=delete_message` | High
-4 | File | `/cwc/login` | Medium
-5 | File | `/etc/quagga` | Medium
-6 | File | `/files.md5` | Medium
-7 | File | `/forms/doLogin` | High
-8 | File | `/forum/away.php` | High
-9 | File | `/h/calendar` | Medium
-10 | File | `/hrm/employeeview.php` | High
-11 | File | `/index.php` | Medium
-12 | File | `/lan.asp` | Medium
-13 | File | `/librarian/bookdetails.php` | High
-14 | File | `/lists/index.php` | High
-15 | File | `/members/view_member.php` | High
-16 | File | `/messageboard/view.php` | High
-17 | File | `/nova/bin/console` | High
-18 | File | `/nova/bin/detnet` | High
-19 | File | `/out.php` | Medium
-20 | File | `/owa/auth/logon.aspx` | High
-21 | File | `/rom-0` | Low
-22 | File | `/SAP_Information_System/controllers/add_admin.php` | High
-23 | File | `/ServletAPI/accounts/login` | High
-24 | File | `/textpattern/index.php` | High
-25 | File | `/trx_addons/v2/get/sc_layout` | High
-26 | File | `/v2/quantum/save-data-upload-big-file` | High
-27 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-28 | File | `/wp-json` | Medium
-29 | File | `4.edu.php` | Medium
-30 | File | `adclick.php` | Medium
-31 | File | `adm.cgi` | Low
-32 | ... | ... | ...
+1 | File | `/admin/reminders/manage_reminder.php` | High
+2 | File | `/card_scan.php` | High
+3 | File | `/cgi-bin/wlogin.cgi` | High
+4 | File | `/classes/Master.php?f=delete_message` | High
+5 | File | `/csms/admin/inquiries/view_details.php` | High
+6 | File | `/cwc/login` | Medium
+7 | File | `/etc/quagga` | Medium
+8 | File | `/files.md5` | Medium
+9 | File | `/forms/doLogin` | High
+10 | File | `/forum/away.php` | High
+11 | File | `/h/calendar` | Medium
+12 | File | `/hrm/employeeview.php` | High
+13 | File | `/include/chart_generator.php` | High
+14 | File | `/index.php` | Medium
+15 | File | `/lan.asp` | Medium
+16 | File | `/librarian/bookdetails.php` | High
+17 | File | `/lists/index.php` | High
+18 | File | `/members/view_member.php` | High
+19 | File | `/messageboard/view.php` | High
+20 | File | `/nova/bin/detnet` | High
+21 | File | `/out.php` | Medium
+22 | File | `/owa/auth/logon.aspx` | High
+23 | File | `/rom-0` | Low
+24 | File | `/ServletAPI/accounts/login` | High
+25 | File | `/SVFE2/pages/feegroups/country_group.jsf` | High
+26 | File | `/textpattern/index.php` | High
+27 | File | `/trx_addons/v2/get/sc_layout` | High
+28 | File | `/v2/quantum/save-data-upload-big-file` | High
+29 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+30 | File | `/wp-json` | Medium
+31 | File | `4.edu.php` | Medium
+32 | File | `adclick.php` | Medium
+33 | ... | ... | ...
 
-There are 271 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 284 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

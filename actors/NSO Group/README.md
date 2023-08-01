@@ -21,7 +21,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 16 more country items available. Please use our online service to access the data.
+There are 15 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -77,10 +77,10 @@ ID | Type | Indicator | Confidence
 11 | File | `/classes/Users.php` | High
 12 | File | `/dashboard/updatelogo.php` | High
 13 | File | `/dipam/save-delegates.php` | High
-14 | File | `/etc/controller-agent/agent.conf` | High
-15 | File | `/etc/openshift/server_priv.pem` | High
-16 | File | `/forms/web_importTFTP` | High
-17 | File | `/forum/away.php` | High
+14 | File | `/ecommerce/support_ticket` | High
+15 | File | `/etc/controller-agent/agent.conf` | High
+16 | File | `/etc/openshift/server_priv.pem` | High
+17 | File | `/forms/web_importTFTP` | High
 18 | File | `/goform/SysToolReboot` | High
 19 | File | `/goform/SysToolRestoreSet` | High
 20 | File | `/graphql` | Medium

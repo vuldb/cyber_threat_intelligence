@@ -10,6 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
+* [TH](https://vuldb.com/?country.th)
 
 ## IOC - Indicator of Compromise
 
@@ -17,9 +18,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [116.193.155.38](https://vuldb.com/?ip.116.193.155.38) | - | - | High
-2 | [137.220.176.165](https://vuldb.com/?ip.137.220.176.165) | - | - | High
-3 | [196.44.49.154](https://vuldb.com/?ip.196.44.49.154) | - | - | High
+1 | [0.0.0.0](https://vuldb.com/?ip.0.0.0.0) | - | - | High
+2 | [61.90.202.197](https://vuldb.com/?ip.61.90.202.197) | 61-90-202-197.static.asianet.co.th | - | High
+3 | [61.90.202.198](https://vuldb.com/?ip.61.90.202.198) | 61-90-202-198.static.asianet.co.th | - | High
+4 | ... | ... | ... | ...
+
+There are 5 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -32,7 +36,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 2 more TTP items available. Please use our online service to access the data.
+There are 6 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -40,15 +44,19 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `restore.php` | Medium
-2 | Library | `system/libraries/Email.php` | High
-3 | Argument | `email->from` | Medium
+1 | File | `browse_group.asp` | High
+2 | File | `data/gbconfiguration.dat` | High
+3 | File | `restore.php` | Medium
+4 | ... | ... | ...
+
+There are 8 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://1275.ru/ioc/368/bisonal-malware-iocs/
+* https://blog.talosintelligence.com/2020/03/bisonal-10-years-of-play.html?m=1
 * https://www.threatminer.org/report.php?q=BisonalMalwareUsedinAttacksAgainstRussiaandSouthKorea-PaloAltoNetworksBlog.pdf&y=2018
 
 ## Literature

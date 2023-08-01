@@ -59,7 +59,7 @@ ID | IP address | Hostname | Campaign | Confidence
 30 | [45.133.174.131](https://vuldb.com/?ip.45.133.174.131) | - | - | High
 31 | ... | ... | ... | ...
 
-There are 118 more IOC items available. Please use our online service to access the data.
+There are 120 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -81,24 +81,24 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/bin/boa` | Medium
-2 | File | `/dev/urandom` | Medium
-3 | File | `/etc/quantum/quantum.conf` | High
-4 | File | `/exec/` | Low
-5 | File | `/getcfg.php` | Medium
-6 | File | `/HNAP1` | Low
-7 | File | `/mgmt/tm/util/bash` | High
-8 | File | `/modules/projects/vw_files.php` | High
-9 | File | `/plain` | Low
-10 | File | `/staff/tools/custom-fields` | High
-11 | File | `/uncpath/` | Medium
-12 | File | `/xyhai.php?s=/Auth/editUser` | High
-13 | File | `/_next` | Low
-14 | File | `actionHandler/ajax_managed_services.php` | High
-15 | File | `admin/admin.shtml` | High
-16 | File | `ajax-actions.php` | High
+2 | File | `/cgi-bin/wapopen` | High
+3 | File | `/dev/urandom` | Medium
+4 | File | `/etc/quantum/quantum.conf` | High
+5 | File | `/exec/` | Low
+6 | File | `/getcfg.php` | Medium
+7 | File | `/HNAP1` | Low
+8 | File | `/mgmt/tm/util/bash` | High
+9 | File | `/modules/projects/vw_files.php` | High
+10 | File | `/plain` | Low
+11 | File | `/staff/tools/custom-fields` | High
+12 | File | `/uncpath/` | Medium
+13 | File | `/xyhai.php?s=/Auth/editUser` | High
+14 | File | `/_next` | Low
+15 | File | `actionHandler/ajax_managed_services.php` | High
+16 | File | `admin/admin.shtml` | High
 17 | ... | ... | ...
 
-There are 137 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 141 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -125,6 +125,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://github.com/executemalware/Malware-IOCs/blob/main/2022-02-15%20Nanocore%20IOCs
 * https://isc.sans.edu/forums/diary/Malspam+delivers+NanoCore+RAT/21615/
 * https://unit42.paloaltonetworks.com/nanocorerat-behind-an-increase-in-tax-themed-phishing-e-mails/
+* https://www.cyber45.com
 
 ## Literature
 

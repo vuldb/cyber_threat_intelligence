@@ -59,22 +59,23 @@ ID | Type | Indicator | Confidence
 2 | File | `/DesignTools/CssEditor.aspx` | High
 3 | File | `/dev/tty` | Medium
 4 | File | `/etc/passwd` | Medium
-5 | File | `/movie.php` | Medium
-6 | File | `/out.php` | Medium
-7 | File | `/pet_shop/admin/?page=inventory/manage_inventory` | High
-8 | File | `/phppath/php` | Medium
-9 | File | `/search_events.php` | High
-10 | File | `/StartingPage/link_req_2.php` | High
-11 | File | `/user/s.php` | Medium
-12 | File | `/vendor` | Low
-13 | File | `/ViewUserHover.jspa` | High
-14 | File | `admin.php` | Medium
-15 | File | `admin/AJAX_lookup_handler.php` | High
-16 | File | `admin/general.php` | High
-17 | File | `admin/index.php` | High
-18 | File | `admin/login.asp` | High
-19 | File | `admin/movieedit.php` | High
-20 | ... | ... | ...
+5 | File | `/forum/away.php` | High
+6 | File | `/movie.php` | Medium
+7 | File | `/out.php` | Medium
+8 | File | `/pet_shop/admin/?page=inventory/manage_inventory` | High
+9 | File | `/phppath/php` | Medium
+10 | File | `/search_events.php` | High
+11 | File | `/StartingPage/link_req_2.php` | High
+12 | File | `/user/s.php` | Medium
+13 | File | `/vendor` | Low
+14 | File | `/ViewUserHover.jspa` | High
+15 | File | `admin.php` | Medium
+16 | File | `admin/AJAX_lookup_handler.php` | High
+17 | File | `admin/general.php` | High
+18 | File | `admin/index.php` | High
+19 | File | `admin/login.asp` | High
+20 | File | `admin/movieedit.php` | High
+21 | ... | ... | ...
 
 There are 169 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 

@@ -44,18 +44,18 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.htaccess` | Medium
-2 | File | `/manager?action=getlogcat` | High
-3 | File | `/spip.php` | Medium
-4 | File | `/tmp` | Low
-5 | File | `admin/admin.php` | High
-6 | File | `admin/conf_users_edit.php` | High
-7 | File | `admin/developer/` | High
-8 | File | `admin/index.php` | High
-9 | File | `admin/ueditor/uploadFile` | High
-10 | File | `ajaxRequest/methodCall.do` | High
+2 | File | `/forum/away.php` | High
+3 | File | `/manager?action=getlogcat` | High
+4 | File | `/spip.php` | Medium
+5 | File | `/tmp` | Low
+6 | File | `admin/admin.php` | High
+7 | File | `admin/conf_users_edit.php` | High
+8 | File | `admin/developer/` | High
+9 | File | `admin/index.php` | High
+10 | File | `admin/ueditor/uploadFile` | High
 11 | ... | ... | ...
 
-There are 79 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 84 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

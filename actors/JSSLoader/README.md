@@ -47,7 +47,7 @@ ID | Technique | Weakness | Description | Confidence
 6 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 7 | ... | ... | ... | ...
 
-There are 24 more TTP items available. Please use our online service to access the data.
+There are 23 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -55,55 +55,53 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/addNotifyServlet` | High
+1 | File | `/+CSCOE+/logon.html` | High
 2 | File | `/admin/ajax.php?action=delete_window` | High
 3 | File | `/admin/assign/assign.php` | High
 4 | File | `/admin/bookings/view_details.php` | High
-5 | File | `/admin/index.PHP` | High
-6 | File | `/admin/maintenance/manage_category.php` | High
-7 | File | `/admin/maintenance/view_designation.php` | High
-8 | File | `/admin/mechanics/manage_mechanic.php` | High
-9 | File | `/admin/modal_add_product.php` | High
+5 | File | `/admin/maintenance/manage_category.php` | High
+6 | File | `/admin/maintenance/view_designation.php` | High
+7 | File | `/admin/mechanics/manage_mechanic.php` | High
+8 | File | `/admin/modal_add_product.php` | High
+9 | File | `/admin/reg.php` | High
 10 | File | `/admin/service.php` | High
 11 | File | `/admin/service_requests/manage_inventory.php` | High
-12 | File | `/admin/subnets/ripe-query.php` | High
+12 | File | `/admin/sys_sql_query.php` | High
 13 | File | `/api /v3/auth` | High
 14 | File | `/apply.cgi` | Medium
-15 | File | `/asan/asan_interceptors_memintrinsics.cpp` | High
-16 | File | `/boaform/admin/formPing` | High
-17 | File | `/bsms_ci/index.php` | High
+15 | File | `/App_Resource/UEditor/server/upload.aspx` | High
+16 | File | `/asan/asan_interceptors_memintrinsics.cpp` | High
+17 | File | `/boaform/admin/formPing` | High
 18 | File | `/bsms_ci/index.php/book` | High
-19 | File | `/catcompany.php` | High
-20 | File | `/cgi-bin/nobody` | High
-21 | File | `/cgi-bin/nobody/Search.cgi` | High
-22 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-23 | File | `/cgi-bin/touchlist_sync.cgi` | High
-24 | File | `/cgi-bin/user/Config.cgi` | High
-25 | File | `/cgi-bin/wlogin.cgi` | High
-26 | File | `/churchcrm/EventAttendance.php` | High
-27 | File | `/classes/Login.php` | High
-28 | File | `/classes/Master.php` | High
-29 | File | `/classes/Master.php?f=save_course` | High
-30 | File | `/classes/Master.php?f=save_service` | High
-31 | File | `/classes/Users.php` | High
-32 | File | `/common/run_cross_report.php` | High
-33 | File | `/dcim/rack/` | Medium
-34 | File | `/debug/pprof` | Medium
-35 | File | `/E-mobile/App/System/File/downfile.php` | High
-36 | File | `/EditEventTypes.php` | High
-37 | File | `/Electron/download` | High
-38 | File | `/etc/tomcat8/Catalina/attack` | High
-39 | File | `/filemanager/php/connector.php` | High
-40 | File | `/gaia-job-admin/user/add` | High
-41 | File | `/goform/aspForm` | High
-42 | File | `/goform/SysToolChangePwd` | High
-43 | File | `/goform/WifiBasicSet` | High
-44 | File | `/group1/uploa` | High
-45 | File | `/inc/topBarNav.php` | High
-46 | File | `/includes/event-management/index.php` | High
-47 | ... | ... | ...
+19 | File | `/cgi-bin/nobody` | High
+20 | File | `/cgi-bin/nobody/Search.cgi` | High
+21 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
+22 | File | `/cgi-bin/touchlist_sync.cgi` | High
+23 | File | `/cgi-bin/user/Config.cgi` | High
+24 | File | `/cgi-bin/wlogin.cgi` | High
+25 | File | `/churchcrm/EventAttendance.php` | High
+26 | File | `/classes/Login.php` | High
+27 | File | `/classes/Master.php` | High
+28 | File | `/classes/Master.php?f=save_course` | High
+29 | File | `/classes/Master.php?f=save_service` | High
+30 | File | `/classes/Users.php` | High
+31 | File | `/common/run_cross_report.php` | High
+32 | File | `/company/store` | High
+33 | File | `/controllers/Blocks.php` | High
+34 | File | `/dcim/rack/` | Medium
+35 | File | `/debug/pprof` | Medium
+36 | File | `/download` | Medium
+37 | File | `/E-mobile/App/System/File/downfile.php` | High
+38 | File | `/EditEventTypes.php` | High
+39 | File | `/Electron/download` | High
+40 | File | `/etc/tomcat8/Catalina/attack` | High
+41 | File | `/filemanager/php/connector.php` | High
+42 | File | `/gaia-job-admin/user/add` | High
+43 | File | `/goform/aspForm` | High
+44 | File | `/goform/SysToolChangePwd` | High
+45 | ... | ... | ...
 
-There are 409 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 389 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

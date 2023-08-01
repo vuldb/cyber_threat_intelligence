@@ -17,7 +17,11 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [5.189.159.23](https://vuldb.com/?ip.5.189.159.23) | mail.camzx.com | - | High
-2 | [213.152.161.174](https://vuldb.com/?ip.213.152.161.174) | hosted-by.airvpn.org | - | High
+2 | [75.2.37.224](https://vuldb.com/?ip.75.2.37.224) | a68b99834d539a7e9.awsglobalaccelerator.com | - | High
+3 | [104.21.12.211](https://vuldb.com/?ip.104.21.12.211) | - | - | High
+4 | ... | ... | ... | ...
+
+There are 4 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -124,16 +128,16 @@ ID | Type | Indicator | Confidence
 83 | File | `collect` | Low
 84 | File | `comments.php` | Medium
 85 | File | `CommentsService.ashx` | High
-86 | File | `comment_delete_cgi.php` | High
-87 | ... | ... | ...
+86 | ... | ... | ...
 
-There are 764 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 762 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://www.cyber45.com
+* https://www.welivesecurity.com/2023/06/15/android-gravityrat-goes-after-whatsapp-backups/
 
 ## Literature
 

@@ -18,33 +18,35 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [5.8.88.198](https://vuldb.com/?ip.5.8.88.198) | - | - | High
-2 | [5.45.73.87](https://vuldb.com/?ip.5.45.73.87) | - | - | High
-3 | [5.188.60.7](https://vuldb.com/?ip.5.188.60.7) | - | - | High
-4 | [5.188.60.18](https://vuldb.com/?ip.5.188.60.18) | - | - | High
-5 | [5.188.60.24](https://vuldb.com/?ip.5.188.60.24) | - | - | High
-6 | [5.188.60.30](https://vuldb.com/?ip.5.188.60.30) | - | - | High
-7 | [5.188.60.54](https://vuldb.com/?ip.5.188.60.54) | - | - | High
-8 | [5.188.60.68](https://vuldb.com/?ip.5.188.60.68) | - | - | High
-9 | [5.188.60.74](https://vuldb.com/?ip.5.188.60.74) | - | - | High
-10 | [5.188.60.101](https://vuldb.com/?ip.5.188.60.101) | - | - | High
-11 | [5.188.60.115](https://vuldb.com/?ip.5.188.60.115) | - | - | High
-12 | [5.188.60.206](https://vuldb.com/?ip.5.188.60.206) | - | - | High
-13 | [5.188.231.96](https://vuldb.com/?ip.5.188.231.96) | - | - | High
-14 | [5.188.231.210](https://vuldb.com/?ip.5.188.231.210) | - | - | High
-15 | [18.207.217.146](https://vuldb.com/?ip.18.207.217.146) | ec2-18-207-217-146.compute-1.amazonaws.com | - | Medium
-16 | [18.221.49.166](https://vuldb.com/?ip.18.221.49.166) | ec2-18-221-49-166.us-east-2.compute.amazonaws.com | - | Medium
-17 | [23.19.58.101](https://vuldb.com/?ip.23.19.58.101) | - | - | High
-18 | [23.95.95.61](https://vuldb.com/?ip.23.95.95.61) | 23-95-95-61-host.colocrossing.com | - | High
-19 | [23.254.217.112](https://vuldb.com/?ip.23.254.217.112) | hwsrv-930282.hostwindsdns.com | - | High
-20 | [23.254.225.240](https://vuldb.com/?ip.23.254.225.240) | sha29.phpautomailer.com | - | High
-21 | [45.64.186.10](https://vuldb.com/?ip.45.64.186.10) | 45-64-186-10.static.bangmod-idc.com | - | High
-22 | [45.77.252.143](https://vuldb.com/?ip.45.77.252.143) | 45.77.252.143.vultr.com | - | Medium
-23 | [46.30.42.130](https://vuldb.com/?ip.46.30.42.130) | assetshub.com | - | High
-24 | [46.249.62.196](https://vuldb.com/?ip.46.249.62.196) | - | - | High
-25 | ... | ... | ... | ...
+1 | [1.23.82.72](https://vuldb.com/?ip.1.23.82.72) | - | - | High
+2 | [2.2.82.64](https://vuldb.com/?ip.2.2.82.64) | - | - | High
+3 | [2.12.51.56](https://vuldb.com/?ip.2.12.51.56) | arennes-655-1-148-56.w2-12.abo.wanadoo.fr | - | High
+4 | [3.95.29.25](https://vuldb.com/?ip.3.95.29.25) | ec2-3-95-29-25.compute-1.amazonaws.com | - | Medium
+5 | [4.96.46.65](https://vuldb.com/?ip.4.96.46.65) | - | - | High
+6 | [5.8.88.198](https://vuldb.com/?ip.5.8.88.198) | - | - | High
+7 | [5.45.73.87](https://vuldb.com/?ip.5.45.73.87) | - | - | High
+8 | [5.188.60.7](https://vuldb.com/?ip.5.188.60.7) | - | - | High
+9 | [5.188.60.18](https://vuldb.com/?ip.5.188.60.18) | - | - | High
+10 | [5.188.60.24](https://vuldb.com/?ip.5.188.60.24) | - | - | High
+11 | [5.188.60.30](https://vuldb.com/?ip.5.188.60.30) | - | - | High
+12 | [5.188.60.54](https://vuldb.com/?ip.5.188.60.54) | - | - | High
+13 | [5.188.60.68](https://vuldb.com/?ip.5.188.60.68) | - | - | High
+14 | [5.188.60.74](https://vuldb.com/?ip.5.188.60.74) | - | - | High
+15 | [5.188.60.101](https://vuldb.com/?ip.5.188.60.101) | - | - | High
+16 | [5.188.60.115](https://vuldb.com/?ip.5.188.60.115) | - | - | High
+17 | [5.188.60.206](https://vuldb.com/?ip.5.188.60.206) | - | - | High
+18 | [5.188.231.96](https://vuldb.com/?ip.5.188.231.96) | - | - | High
+19 | [5.188.231.210](https://vuldb.com/?ip.5.188.231.210) | - | - | High
+20 | [18.207.217.146](https://vuldb.com/?ip.18.207.217.146) | ec2-18-207-217-146.compute-1.amazonaws.com | - | Medium
+21 | [18.221.49.166](https://vuldb.com/?ip.18.221.49.166) | ec2-18-221-49-166.us-east-2.compute.amazonaws.com | - | Medium
+22 | [19.2.45.3](https://vuldb.com/?ip.19.2.45.3) | - | - | High
+23 | [21.15.46.55](https://vuldb.com/?ip.21.15.46.55) | - | - | High
+24 | [23.19.58.101](https://vuldb.com/?ip.23.19.58.101) | - | - | High
+25 | [23.95.95.61](https://vuldb.com/?ip.23.95.95.61) | 23-95-95-61-host.colocrossing.com | - | High
+26 | [23.254.217.112](https://vuldb.com/?ip.23.254.217.112) | hwsrv-930282.hostwindsdns.com | - | High
+27 | ... | ... | ... | ...
 
-There are 97 more IOC items available. Please use our online service to access the data.
+There are 103 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -53,12 +55,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
-2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94 | Cross Site Scripting | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-94 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 16 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -91,10 +93,9 @@ ID | Type | Indicator | Confidence
 23 | File | `/user/loader.php?api=1` | High
 24 | File | `/var/log/nginx` | High
 25 | File | `/var/run/watchman.pid` | High
-26 | File | `/viewer/krpano.html` | High
-27 | ... | ... | ...
+26 | ... | ... | ...
 
-There are 224 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 223 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

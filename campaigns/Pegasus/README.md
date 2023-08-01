@@ -76,36 +76,36 @@ ID | Type | Indicator | Confidence
 8 | File | `/apply.cgi` | Medium
 9 | File | `/classes/Users.php` | High
 10 | File | `/dipam/save-delegates.php` | High
-11 | File | `/etc/controller-agent/agent.conf` | High
-12 | File | `/forms/web_importTFTP` | High
-13 | File | `/goform/SysToolReboot` | High
-14 | File | `/goform/SysToolRestoreSet` | High
-15 | File | `/graphql` | Medium
-16 | File | `/individual` | Medium
-17 | File | `/jeecg-boot/jmreport/upload` | High
-18 | File | `/jeecg-boot/jmreport/view` | High
-19 | File | `/jsoa/hntdCustomDesktopActionContent` | High
-20 | File | `/localhost/u` | Medium
-21 | File | `/net` | Low
-22 | File | `/opt/bin/cli` | Medium
-23 | File | `/PluXml/core/admin/parametres_edittpl.php` | High
-24 | File | `/public/plugins/` | High
-25 | File | `/public_html/admin/plugins/bad_behavior2/blacklist.php` | High
-26 | File | `/root/run/adm.php?admin-ediy&part=exdiy` | High
-27 | File | `/setNTP.cgi` | Medium
-28 | File | `/setting/setWanIeCfg` | High
-29 | File | `/templates/header.inc.php` | High
-30 | File | `/tmp` | Low
-31 | File | `/v2/devices/add` | High
-32 | File | `/var/ipfire/backup/bin/backup.pl` | High
-33 | File | `/wp-json/wc/v3/webhooks` | High
-34 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-35 | File | `account.php` | Medium
-36 | File | `accounts/view_details.php` | High
-37 | File | `AddEvent.php` | Medium
+11 | File | `/ecommerce/support_ticket` | High
+12 | File | `/etc/controller-agent/agent.conf` | High
+13 | File | `/forms/web_importTFTP` | High
+14 | File | `/goform/SysToolReboot` | High
+15 | File | `/goform/SysToolRestoreSet` | High
+16 | File | `/graphql` | Medium
+17 | File | `/individual` | Medium
+18 | File | `/jeecg-boot/jmreport/upload` | High
+19 | File | `/jeecg-boot/jmreport/view` | High
+20 | File | `/jsoa/hntdCustomDesktopActionContent` | High
+21 | File | `/localhost/u` | Medium
+22 | File | `/net` | Low
+23 | File | `/opt/bin/cli` | Medium
+24 | File | `/PluXml/core/admin/parametres_edittpl.php` | High
+25 | File | `/public/plugins/` | High
+26 | File | `/public_html/admin/plugins/bad_behavior2/blacklist.php` | High
+27 | File | `/root/run/adm.php?admin-ediy&part=exdiy` | High
+28 | File | `/setNTP.cgi` | Medium
+29 | File | `/setting/setWanIeCfg` | High
+30 | File | `/templates/header.inc.php` | High
+31 | File | `/tmp` | Low
+32 | File | `/v2/devices/add` | High
+33 | File | `/var/ipfire/backup/bin/backup.pl` | High
+34 | File | `/wp-json/wc/v3/webhooks` | High
+35 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+36 | File | `account.php` | Medium
+37 | File | `accounts/view_details.php` | High
 38 | ... | ... | ...
 
-There are 327 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 323 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

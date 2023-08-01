@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [FR](https://vuldb.com/?country.fr)
 * ...
 
-There are 6 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -215,32 +215,33 @@ ID | Type | Indicator | Confidence
 7 | File | `/cgi-bin/wlogin.cgi` | High
 8 | File | `/classes/Master.php?f=delete_service` | High
 9 | File | `/classes/Master.php?f=save_course` | High
-10 | File | `/E-mobile/App/System/File/downfile.php` | High
-11 | File | `/Electron/download` | High
-12 | File | `/forum/away.php` | High
-13 | File | `/inc/topBarNav.php` | High
-14 | File | `/mims/login.php` | High
-15 | File | `/out.php` | Medium
-16 | File | `/php-scrm/login.php` | High
-17 | File | `/proxy` | Low
-18 | File | `/reviewer/system/system/admins/manage/users/user-update.php` | High
-19 | File | `/send_order.cgi?parameter=access_detect` | High
-20 | File | `/spip.php` | Medium
-21 | File | `/text/pdf/PdfReader.java` | High
-22 | File | `/textpattern/index.php` | High
-23 | File | `/tmp` | Low
-24 | File | `/wp-admin/admin-ajax.php` | High
-25 | File | `account-signup.php` | High
-26 | File | `account/signup.php` | High
-27 | File | `adclick.php` | Medium
-28 | File | `addentry.php` | Medium
-29 | File | `addressbook/backends/ldap/e-book-backend-ldap.c` | High
-30 | File | `admin.jcomments.php` | High
-31 | File | `admin.php` | Medium
-32 | File | `admin/?page=students/view_student` | High
-33 | ... | ... | ...
+10 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
+11 | File | `/E-mobile/App/System/File/downfile.php` | High
+12 | File | `/Electron/download` | High
+13 | File | `/forum/away.php` | High
+14 | File | `/inc/topBarNav.php` | High
+15 | File | `/mims/login.php` | High
+16 | File | `/out.php` | Medium
+17 | File | `/php-scrm/login.php` | High
+18 | File | `/proxy` | Low
+19 | File | `/reviewer/system/system/admins/manage/users/user-update.php` | High
+20 | File | `/send_order.cgi?parameter=access_detect` | High
+21 | File | `/spip.php` | Medium
+22 | File | `/text/pdf/PdfReader.java` | High
+23 | File | `/textpattern/index.php` | High
+24 | File | `/tmp` | Low
+25 | File | `/wp-admin/admin-ajax.php` | High
+26 | File | `account-signup.php` | High
+27 | File | `account/signup.php` | High
+28 | File | `adclick.php` | Medium
+29 | File | `addentry.php` | Medium
+30 | File | `addressbook/backends/ldap/e-book-backend-ldap.c` | High
+31 | File | `admin.jcomments.php` | High
+32 | File | `admin.php` | Medium
+33 | File | `admin/?page=students/view_student` | High
+34 | ... | ... | ...
 
-There are 283 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 288 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

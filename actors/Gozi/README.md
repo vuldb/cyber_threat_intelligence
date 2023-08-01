@@ -37,9 +37,10 @@ ID | IP address | Hostname | Campaign | Confidence
 14 | [37.10.71.221](https://vuldb.com/?ip.37.10.71.221) | smtp1.cloudmailsys.com | - | High
 15 | [37.120.206.71](https://vuldb.com/?ip.37.120.206.71) | - | - | High
 16 | [37.120.206.84](https://vuldb.com/?ip.37.120.206.84) | - | - | High
-17 | ... | ... | ... | ...
+17 | [37.120.206.91](https://vuldb.com/?ip.37.120.206.91) | - | - | High
+18 | ... | ... | ... | ...
 
-There are 66 more IOC items available. Please use our online service to access the data.
+There are 67 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -98,23 +99,24 @@ ID | Type | Indicator | Confidence
 33 | File | `/php-jms/review_se_result.php` | High
 34 | File | `/plesk-site-preview/` | High
 35 | File | `/plugins/servlet/gadgets/makeRequest` | High
-36 | File | `/ptms/classes/Users.php` | High
-37 | File | `/REBOOTSYSTEM` | High
-38 | File | `/rest/project-templates/1.0/createshared` | High
-39 | File | `/secure/admin/ImporterFinishedPage.jspa` | High
-40 | File | `/secure/QueryComponent!Default.jspa` | High
-41 | File | `/see_more_details.php` | High
-42 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
-43 | File | `/tmp` | Low
-44 | File | `/tmp/csman/0` | Medium
-45 | File | `/uncpath/` | Medium
-46 | File | `/usr/bin/at` | Medium
-47 | File | `/v3/credentials` | High
-48 | File | `/var/run/jboss-eap/` | High
-49 | File | `/vdesk` | Low
-50 | ... | ... | ...
+36 | File | `/pms/admin/crimes/manage_crime.php` | High
+37 | File | `/ptms/classes/Users.php` | High
+38 | File | `/REBOOTSYSTEM` | High
+39 | File | `/rest/project-templates/1.0/createshared` | High
+40 | File | `/secure/admin/ImporterFinishedPage.jspa` | High
+41 | File | `/secure/QueryComponent!Default.jspa` | High
+42 | File | `/see_more_details.php` | High
+43 | File | `/sitecore/shell/Invoke.aspx` | High
+44 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
+45 | File | `/tmp` | Low
+46 | File | `/tmp/csman/0` | Medium
+47 | File | `/uncpath/` | Medium
+48 | File | `/usr/bin/at` | Medium
+49 | File | `/v3/credentials` | High
+50 | File | `/var/run/jboss-eap/` | High
+51 | ... | ... | ...
 
-There are 436 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 444 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

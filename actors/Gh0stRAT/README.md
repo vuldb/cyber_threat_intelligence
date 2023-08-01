@@ -101,7 +101,8 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+6 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
 
@@ -112,45 +113,49 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/?r=email/api/mark&op=delFromSend` | High
-2 | File | `/admin/maintenance/view_designation.php` | High
-3 | File | `/ajax.php?action=read_msg` | High
-4 | File | `/analysisProject/pagingQueryData` | High
-5 | File | `/api/admin/system/store/order/list` | High
-6 | File | `/api/gen/clients/{language}` | High
-7 | File | `/api/geojson` | Medium
-8 | File | `/bin/ate` | Medium
-9 | File | `/bin/sh` | Low
-10 | File | `/cgi-bin/wlogin.cgi` | High
-11 | File | `/classes/Master.php?f=delete_category` | High
-12 | File | `/classes/Master.php?f=save_service` | High
-13 | File | `/common/sysFile/list` | High
-14 | File | `/config/myfield/test.php` | High
-15 | File | `/context/%2e/WEB-INF/web.xml` | High
-16 | File | `/data/remove` | Medium
-17 | File | `/debug/pprof` | Medium
-18 | File | `/Default/Bd` | Medium
-19 | File | `/ebics-server/ebics.aspx` | High
-20 | File | `/ecshop/admin/template.php` | High
-21 | File | `/etc/openstack-dashboard/local_settings` | High
-22 | File | `/file/upload/1` | High
-23 | File | `/forum/away.php` | High
-24 | File | `/forum/PostPrivateMessage` | High
-25 | File | `/goform/addressNat` | High
-26 | File | `/goform/AdvSetLanip` | High
-27 | File | `/goform/fromSetWirelessRepeat` | High
-28 | File | `/goform/setmac` | High
-29 | File | `/goform/setMacFilterCfg` | High
-30 | File | `/goform/SetSysTimeCfg` | High
-31 | File | `/goform/set_LimitClient_cfg` | High
-32 | File | `/goform/WifiGuestSet` | High
-33 | File | `/HNAP1` | Low
-34 | File | `/HNAP1/SetClientInfo` | High
-35 | File | `/home/www/cgi-bin/login.cgi` | High
-36 | File | `/inc/jquery/uploadify/uploadify.php` | High
-37 | File | `/js/player/dmplayer/dmku/index.php` | High
-38 | ... | ... | ...
+2 | File | `/act/ActDao.xml` | High
+3 | File | `/admin/maintenance/view_designation.php` | High
+4 | File | `/ajax.php?action=read_msg` | High
+5 | File | `/analysisProject/pagingQueryData` | High
+6 | File | `/api/admin/system/store/order/list` | High
+7 | File | `/api/baskets/{name}` | High
+8 | File | `/api/gen/clients/{language}` | High
+9 | File | `/api/geojson` | Medium
+10 | File | `/bin/ate` | Medium
+11 | File | `/booking/show_bookings/` | High
+12 | File | `/cgi-bin/wlogin.cgi` | High
+13 | File | `/classes/Master.php?f=delete_category` | High
+14 | File | `/classes/Master.php?f=save_service` | High
+15 | File | `/common/sysFile/list` | High
+16 | File | `/concat?/%2557EB-INF/web.xml` | High
+17 | File | `/config/myfield/test.php` | High
+18 | File | `/Controller/Ajaxfileupload.ashx` | High
+19 | File | `/data/remove` | Medium
+20 | File | `/debug/pprof` | Medium
+21 | File | `/Default/Bd` | Medium
+22 | File | `/ecshop/admin/template.php` | High
+23 | File | `/env` | Low
+24 | File | `/etc/openstack-dashboard/local_settings` | High
+25 | File | `/etc/passwd` | Medium
+26 | File | `/file/upload/1` | High
+27 | File | `/forum/away.php` | High
+28 | File | `/goform/addressNat` | High
+29 | File | `/goform/AdvSetLanip` | High
+30 | File | `/goform/fromSetWirelessRepeat` | High
+31 | File | `/goform/setmac` | High
+32 | File | `/goform/setMacFilterCfg` | High
+33 | File | `/goform/SetSysTimeCfg` | High
+34 | File | `/goform/set_LimitClient_cfg` | High
+35 | File | `/goform/WifiGuestSet` | High
+36 | File | `/HNAP1` | Low
+37 | File | `/HNAP1/SetClientInfo` | High
+38 | File | `/home/www/cgi-bin/login.cgi` | High
+39 | File | `/inc/jquery/uploadify/uploadify.php` | High
+40 | File | `/js/player/dmplayer/dmku/index.php` | High
+41 | File | `/kelasdosen/data` | High
+42 | ... | ... | ...
 
-There are 330 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 365 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

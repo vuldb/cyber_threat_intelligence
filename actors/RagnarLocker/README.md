@@ -63,21 +63,22 @@ ID | Type | Indicator | Confidence
 10 | File | `/public/login.htm` | High
 11 | File | `/spip.php` | Medium
 12 | File | `/student/bookdetails.php` | High
-13 | File | `/usr/ucb/mail` | High
-14 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-15 | File | `adclick.php` | Medium
-16 | File | `addmember.php` | High
-17 | File | `addtocart.asp` | High
-18 | File | `addtomylist.asp` | High
-19 | File | `admin.x-shop.php` | High
-20 | File | `admin/auth.php` | High
-21 | File | `admin/import/class-import-settings.php` | High
-22 | File | `admin/sqlpatch.php` | High
-23 | File | `admincp/auth/checklogin.php` | High
-24 | File | `adminlogin.asp` | High
-25 | ... | ... | ...
+13 | File | `/user/profile` | High
+14 | File | `/usr/ucb/mail` | High
+15 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+16 | File | `adclick.php` | Medium
+17 | File | `addmember.php` | High
+18 | File | `addtocart.asp` | High
+19 | File | `addtomylist.asp` | High
+20 | File | `admin.x-shop.php` | High
+21 | File | `admin/auth.php` | High
+22 | File | `admin/import/class-import-settings.php` | High
+23 | File | `admin/sqlpatch.php` | High
+24 | File | `admincp/auth/checklogin.php` | High
+25 | File | `adminlogin.asp` | High
+26 | ... | ... | ...
 
-There are 213 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 220 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [US](https://vuldb.com/?country.us)
 * ...
 
-There are 15 more country items available. Please use our online service to access the data.
+There are 19 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -28,7 +28,8 @@ ID | Actor | Confidence
 5 | [Moobot](https://vuldb.com/?actor.moobot) | High
 6 | [Ripprbot](https://vuldb.com/?actor.ripprbot) | High
 7 | [Unknown](https://vuldb.com/?actor.unknown) | High
-8 | ... | ...
+8 | [UAC-0056](https://vuldb.com/?actor.uac-0056) | High
+9 | ... | ...
 
 There are 15 more actor items available. Please use our online service to access the data.
 
@@ -1186,7 +1187,7 @@ ID | IP address | Hostname | Actor | Confidence
 1146 | [80.93.127.148](https://vuldb.com/?ip.80.93.127.148) | od0-kv0-nw.ett.ua | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
 1147 | ... | ... | ... | ...
 
-There are 4582 more IOC items available. Please use our online service to access the data.
+There are 4583 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -1194,13 +1195,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-425 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-29, CWE-425 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 16 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -1208,37 +1210,46 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/action/import_cert_file/` | High
-2 | File | `/admin.php?c=upload&f=zip&_noCache=0.1683794968` | High
+1 | File | `/?ajax-request=jnews` | High
+2 | File | `/action/import_cert_file/` | High
 3 | File | `/admin/?page=user/list` | High
-4 | File | `/admin/addproduct.php` | High
-5 | File | `/admin/ajax.php?action=save_area` | High
-6 | File | `/admin/contacts/organizations/edit/2` | High
+4 | File | `/admin/?page=user/manage_user&id=3` | High
+5 | File | `/admin/addproduct.php` | High
+6 | File | `/admin/ajax.php?action=save_area` | High
 7 | File | `/admin/modal_add_product.php` | High
-8 | File | `/admin/reportupload.aspx` | High
-9 | File | `/admin/scripts/pi-hole/phpqueryads.php` | High
+8 | File | `/admin/scripts/pi-hole/phpqueryads.php` | High
+9 | File | `/admin/sys_sql_query.php` | High
 10 | File | `/admin/update_s6.php` | High
 11 | File | `/ajax.php?action=read_msg` | High
-12 | File | `/ajax.php?action=save_company` | High
-13 | File | `/bin/ate` | Medium
-14 | File | `/bin/login` | Medium
-15 | File | `/changeimage.php` | High
-16 | File | `/classes/Users.php?f=save` | High
-17 | File | `/cwms/classes/Master.php?f=save_contact` | High
-18 | File | `/DXR.axd` | Medium
-19 | File | `/env` | Low
-20 | File | `/forum/away.php` | High
-21 | File | `/index.php?app=main&func=passport&action=login` | High
-22 | File | `/index.php?page=category_list` | High
-23 | File | `/jobinfo/` | Medium
-24 | File | `/Login/CheckLogin` | High
-25 | File | `/note/index/delete` | High
-26 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-27 | File | `/owa/auth/logon.aspx` | High
-28 | File | `/php-sms/admin/?page=user/manage_user` | High
-29 | ... | ... | ...
+12 | File | `/api/baskets/{name}` | High
+13 | File | `/api/common/ping` | High
+14 | File | `/bin/ate` | Medium
+15 | File | `/booking/show_bookings/` | High
+16 | File | `/changeimage.php` | High
+17 | File | `/classes/Users.php?f=save` | High
+18 | File | `/company/store` | High
+19 | File | `/Controller/Ajaxfileupload.ashx` | High
+20 | File | `/cwms/classes/Master.php?f=save_contact` | High
+21 | File | `/DXR.axd` | Medium
+22 | File | `/en/blog-comment-4` | High
+23 | File | `/env` | Low
+24 | File | `/forum/away.php` | High
+25 | File | `/h/` | Low
+26 | File | `/index.php?app=main&func=passport&action=login` | High
+27 | File | `/jobinfo/` | Medium
+28 | File | `/librarian/bookdetails.php` | High
+29 | File | `/note/index/delete` | High
+30 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+31 | File | `/osms/assets/plugins/jquery-validation-1.11.1/demo/captcha/index.php` | High
+32 | File | `/out.php` | Medium
+33 | File | `/owa/auth/logon.aspx` | High
+34 | File | `/php-sms/admin/?page=user/manage_user` | High
+35 | File | `/recipe-result` | High
+36 | File | `/resources//../` | High
+37 | File | `/rom-0` | Low
+38 | ... | ... | ...
 
-There are 246 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 331 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -1252,6 +1263,7 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://blog.talosintelligence.com/2022/03/ukraine-invasion-scams-malware.html
 * https://blog.talosintelligence.com/2022/07/attackers-target-ukraine-using-gomet.html
 * https://blog.talosintelligence.com/2022/09/gamaredon-apt-targets-ukrainian-agencies.html
+* https://blog.talosintelligence.com/malicious-campaigns-target-entities-in-ukraine-poland/
 * https://blogs.blackberry.com/en/2023/06/romcom-resurfaces-targeting-ukraine
 * https://blogs.infoblox.com/cyber-threat-intelligence/cyber-threat-advisory/ukraine-scam-campaigns/
 * https://businessinsights.bitdefender.com/deep-dive-into-the-elephant-framework-a-new-cyber-threat-in-ukraine

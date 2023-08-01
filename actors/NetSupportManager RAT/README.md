@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 4 more country items available. Please use our online service to access the data.
+There are 5 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -21,34 +21,34 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [5.45.72.55](https://vuldb.com/?ip.5.45.72.55) | - | - | High
-2 | [5.45.74.233](https://vuldb.com/?ip.5.45.74.233) | zmta37.corpresponse.com | - | High
-3 | [5.45.83.127](https://vuldb.com/?ip.5.45.83.127) | - | - | High
-4 | [5.252.176.69](https://vuldb.com/?ip.5.252.176.69) | 5-252-176-69.mivocloud.com | - | High
-5 | [5.252.179.5](https://vuldb.com/?ip.5.252.179.5) | 5-252-179-5.mivocloud.com | - | High
-6 | [5.252.179.13](https://vuldb.com/?ip.5.252.179.13) | 5-252-179-13.mivocloud.com | - | High
-7 | [5.252.179.17](https://vuldb.com/?ip.5.252.179.17) | mail-good-treat.livewirearea.com | - | High
-8 | [5.252.179.50](https://vuldb.com/?ip.5.252.179.50) | no-rdns.mivocloud.com | - | High
-9 | [5.252.179.60](https://vuldb.com/?ip.5.252.179.60) | no-rdns.mivocloud.com | - | High
-10 | [5.252.179.89](https://vuldb.com/?ip.5.252.179.89) | no-rdns.mivocloud.com | - | High
-11 | [5.252.179.93](https://vuldb.com/?ip.5.252.179.93) | no-rdns.mivocloud.com | - | High
-12 | [5.252.179.97](https://vuldb.com/?ip.5.252.179.97) | 5-252-179-97.mivocloud.com | - | High
-13 | [5.252.179.111](https://vuldb.com/?ip.5.252.179.111) | 5-252-179-111.mivocloud.com | - | High
-14 | [23.163.0.13](https://vuldb.com/?ip.23.163.0.13) | ht087348.fronews.com | - | High
-15 | [23.227.193.80](https://vuldb.com/?ip.23.227.193.80) | 23-227-193-80.static.hvvc.us | - | High
-16 | [37.61.213.242](https://vuldb.com/?ip.37.61.213.242) | - | - | High
-17 | [45.11.180.120](https://vuldb.com/?ip.45.11.180.120) | - | - | High
-18 | [45.15.157.144](https://vuldb.com/?ip.45.15.157.144) | - | - | High
-19 | [45.61.136.72](https://vuldb.com/?ip.45.61.136.72) | - | - | High
-20 | [45.61.138.73](https://vuldb.com/?ip.45.61.138.73) | - | - | High
-21 | [45.76.172.113](https://vuldb.com/?ip.45.76.172.113) | 45.76.172.113.vultrusercontent.com | - | High
-22 | [45.77.31.210](https://vuldb.com/?ip.45.77.31.210) | 45.77.31.210.vultrusercontent.com | - | High
-23 | [45.133.203.205](https://vuldb.com/?ip.45.133.203.205) | - | - | High
-24 | [46.17.106.110](https://vuldb.com/?ip.46.17.106.110) | zaphim2.ru | - | High
-25 | [46.17.106.230](https://vuldb.com/?ip.46.17.106.230) | vds2364993.my-ihor.ru | - | High
+1 | [5.42.74.53](https://vuldb.com/?ip.5.42.74.53) | - | - | High
+2 | [5.45.72.55](https://vuldb.com/?ip.5.45.72.55) | - | - | High
+3 | [5.45.74.233](https://vuldb.com/?ip.5.45.74.233) | zmta37.corpresponse.com | - | High
+4 | [5.45.83.127](https://vuldb.com/?ip.5.45.83.127) | - | - | High
+5 | [5.79.72.218](https://vuldb.com/?ip.5.79.72.218) | - | - | High
+6 | [5.252.176.69](https://vuldb.com/?ip.5.252.176.69) | 5-252-176-69.mivocloud.com | - | High
+7 | [5.252.179.5](https://vuldb.com/?ip.5.252.179.5) | 5-252-179-5.mivocloud.com | - | High
+8 | [5.252.179.13](https://vuldb.com/?ip.5.252.179.13) | 5-252-179-13.mivocloud.com | - | High
+9 | [5.252.179.17](https://vuldb.com/?ip.5.252.179.17) | mail-good-treat.livewirearea.com | - | High
+10 | [5.252.179.50](https://vuldb.com/?ip.5.252.179.50) | no-rdns.mivocloud.com | - | High
+11 | [5.252.179.60](https://vuldb.com/?ip.5.252.179.60) | no-rdns.mivocloud.com | - | High
+12 | [5.252.179.89](https://vuldb.com/?ip.5.252.179.89) | no-rdns.mivocloud.com | - | High
+13 | [5.252.179.93](https://vuldb.com/?ip.5.252.179.93) | no-rdns.mivocloud.com | - | High
+14 | [5.252.179.97](https://vuldb.com/?ip.5.252.179.97) | 5-252-179-97.mivocloud.com | - | High
+15 | [5.252.179.111](https://vuldb.com/?ip.5.252.179.111) | 5-252-179-111.mivocloud.com | - | High
+16 | [23.163.0.13](https://vuldb.com/?ip.23.163.0.13) | ht087348.fronews.com | - | High
+17 | [23.227.193.80](https://vuldb.com/?ip.23.227.193.80) | 23-227-193-80.static.hvvc.us | - | High
+18 | [37.61.213.242](https://vuldb.com/?ip.37.61.213.242) | - | - | High
+19 | [45.11.180.120](https://vuldb.com/?ip.45.11.180.120) | - | - | High
+20 | [45.15.157.144](https://vuldb.com/?ip.45.15.157.144) | - | - | High
+21 | [45.61.136.72](https://vuldb.com/?ip.45.61.136.72) | - | - | High
+22 | [45.61.138.73](https://vuldb.com/?ip.45.61.138.73) | - | - | High
+23 | [45.76.172.113](https://vuldb.com/?ip.45.76.172.113) | 45.76.172.113.vultrusercontent.com | - | High
+24 | [45.77.31.210](https://vuldb.com/?ip.45.77.31.210) | 45.77.31.210.vultrusercontent.com | - | High
+25 | [45.133.203.205](https://vuldb.com/?ip.45.133.203.205) | - | - | High
 26 | ... | ... | ... | ...
 
-There are 98 more IOC items available. Please use our online service to access the data.
+There are 102 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -61,7 +61,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1055 | CWE-74 | Injection | High
 4 | ... | ... | ... | ...
 
-There are 12 more TTP items available. Please use our online service to access the data.
+There are 13 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -70,24 +70,24 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/index2.html` | High
-2 | File | `/api/RecordingList/DownloadRecord?file=` | High
-3 | File | `/apply.cgi` | Medium
-4 | File | `/forum/away.php` | High
-5 | File | `/include/makecvs.php` | High
-6 | File | `/out.php` | Medium
-7 | File | `/rapi/read_url` | High
-8 | File | `/requests.php` | High
-9 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
-10 | File | `/wp-admin/admin.php?page=wp_file_manager_properties` | High
-11 | File | `add.php` | Low
-12 | File | `admin/index.php` | High
-13 | File | `appserv/main.php` | High
-14 | File | `base/ErrorHandler.php` | High
-15 | File | `browser/thumbnails/render_widget_snapshot_taker.cc` | High
-16 | File | `cat.asp` | Low
+2 | File | `/api/baskets/{name}` | High
+3 | File | `/api/RecordingList/DownloadRecord?file=` | High
+4 | File | `/apply.cgi` | Medium
+5 | File | `/forum/away.php` | High
+6 | File | `/include/makecvs.php` | High
+7 | File | `/out.php` | Medium
+8 | File | `/rapi/read_url` | High
+9 | File | `/requests.php` | High
+10 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
+11 | File | `/wp-admin/admin.php?page=wp_file_manager_properties` | High
+12 | File | `add.php` | Low
+13 | File | `admin/index.php` | High
+14 | File | `appserv/main.php` | High
+15 | File | `base/ErrorHandler.php` | High
+16 | File | `browser/thumbnails/render_widget_snapshot_taker.cc` | High
 17 | ... | ... | ...
 
-There are 133 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 137 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -95,6 +95,7 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://bazaar.abuse.ch/sample/1a9b3968a2f3a4ae0c9c51e6fc41a48829ac4a0fa118a7530c36715638ef0209/
 * https://bazaar.abuse.ch/sample/26cad4ec29bc07d7b2c32c94dbbef397391babf1c78cc533950b325aaf11bba8/
+* https://bazaar.abuse.ch/sample/48a8c57895c2cfdf13a402e669a9964f56128521404e47b4727672f8ca91a90d/
 * https://bazaar.abuse.ch/sample/759e159da0592063bb0eb967dd45802caa0a1538867994868d5b883f099286a5/
 * https://bazaar.abuse.ch/sample/2174b4c58eb43aac8e5e0061ff0bc45125f4cb64404d552fe25ea6ac1777113d/
 * https://bazaar.abuse.ch/sample/ae49d8d6d68069696428ebd3fce5a003af4a6ccaf4f67331eea37a0cd4dfbb77/

@@ -55,15 +55,15 @@ ID | Type | Indicator | Confidence
 6 | File | `/magnoliaPublic/travel/members/login.html` | High
 7 | File | `/register.do` | Medium
 8 | File | `/secure/EditSubscription.jspa` | High
-9 | File | `admin.php` | Medium
-10 | File | `admin/admin.php` | High
-11 | File | `admin/conf_users_edit.php` | High
-12 | File | `admin/index.php` | High
-13 | File | `AppCompatCache.exe` | High
-14 | File | `ardguest.php` | Medium
+9 | File | `addentry.php` | Medium
+10 | File | `admin.php` | Medium
+11 | File | `admin/admin.php` | High
+12 | File | `admin/conf_users_edit.php` | High
+13 | File | `admin/index.php` | High
+14 | File | `AppCompatCache.exe` | High
 15 | ... | ... | ...
 
-There are 121 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 122 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

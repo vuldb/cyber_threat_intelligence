@@ -51,15 +51,17 @@ ID | Type | Indicator | Confidence
 2 | File | `/.flatpak-info` | High
 3 | File | `/admin/edit.php` | High
 4 | File | `/admin/googleads.php` | High
-5 | File | `/admin/renewaldue.php` | High
-6 | File | `/analysisProject/pagingQueryData` | High
-7 | File | `/dashboard/add-portfolio.php` | High
-8 | File | `/E-mobile/App/System/File/downfile.php` | High
-9 | File | `/jurusanmatkul/data` | High
-10 | File | `/login.php` | Medium
-11 | ... | ... | ...
+5 | File | `/admin/reg.php` | High
+6 | File | `/admin/renewaldue.php` | High
+7 | File | `/analysisProject/pagingQueryData` | High
+8 | File | `/booking/show_bookings/` | High
+9 | File | `/cgi-bin/adm.cgi` | High
+10 | File | `/dashboard/add-portfolio.php` | High
+11 | File | `/dipam/save-delegates.php` | High
+12 | File | `/E-mobile/App/System/File/downfile.php` | High
+13 | ... | ... | ...
 
-There are 80 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 103 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

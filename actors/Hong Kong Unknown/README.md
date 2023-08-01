@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Hong Kong Unknown:
 
 * [VN](https://vuldb.com/?country.vn)
-* [US](https://vuldb.com/?country.us)
+* [IO](https://vuldb.com/?country.io)
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 8 more country items available. Please use our online service to access the data.
+There are 17 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -4428,13 +4428,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-29, CWE-36, CWE-425 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-29, CWE-36 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+3 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+5 | T1068 | CWE-264, CWE-266, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+6 | ... | ... | ... | ...
 
-There are 15 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -4442,35 +4443,46 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin.php?c=upload&f=zip&_noCache=0.1683794968` | High
-2 | File | `/admin/?page=user/list` | High
-3 | File | `/admin/ajax.php?action=save_area` | High
-4 | File | `/admin/contacts/organizations/edit/2` | High
+1 | File | `.github/workflows/comment.yml` | High
+2 | File | `//proc/kcore` | Medium
+3 | File | `/admin/bookings/manage_booking.php` | High
+4 | File | `/admin/index.php` | High
 5 | File | `/admin/modal_add_product.php` | High
-6 | File | `/admin/reportupload.aspx` | High
-7 | File | `/admin/update_s6.php` | High
-8 | File | `/ajax.php?action=read_msg` | High
-9 | File | `/ajax.php?action=save_company` | High
-10 | File | `/api/user/password/sent-reset-email` | High
-11 | File | `/Application/Admin/Controller/ConfigController.class.php` | High
-12 | File | `/bin/login` | Medium
-13 | File | `/bsms_ci/index.php/user/edit_user/` | High
-14 | File | `/cgi-bin/upload_vpntar` | High
-15 | File | `/cgi-bin/wlogin.cgi` | High
-16 | File | `/debug/pprof` | Medium
-17 | File | `/E-mobile/App/System/File/downfile.php` | High
-18 | File | `/forum/away.php` | High
-19 | File | `/hrm/controller/employee.php` | High
-20 | File | `/hrm/employeeadd.php` | High
-21 | File | `/hrm/employeeview.php` | High
-22 | File | `/index.php?app=main&func=passport&action=login` | High
-23 | File | `/index.php?page=category_list` | High
-24 | File | `/note/index/delete` | High
-25 | File | `/PreviewHandler.ashx` | High
-26 | File | `/services/indexing/preview` | High
-27 | ... | ... | ...
+6 | File | `/api/` | Low
+7 | File | `/api/baskets/{name}` | High
+8 | File | `/api/common/ping` | High
+9 | File | `/api?path=profile` | High
+10 | File | `/App_Resource/UEditor/server/upload.aspx` | High
+11 | File | `/blog` | Low
+12 | File | `/booking/show_bookings/` | High
+13 | File | `/category.php` | High
+14 | File | `/cgi-bin/wlogin.cgi` | High
+15 | File | `/chaincity/user/ticket/create` | High
+16 | File | `/classes/Master.php?f=delete_inquiry` | High
+17 | File | `/classes/Master.php?f=delete_item` | High
+18 | File | `/classes/Master.php?f=delete_service` | High
+19 | File | `/classes/Master.php?f=save_inquiry` | High
+20 | File | `/classes/Master.php?f=save_service` | High
+21 | File | `/classes/Users.php` | High
+22 | File | `/company/store` | High
+23 | File | `/config/getuser` | High
+24 | File | `/Controller/Ajaxfileupload.ashx` | High
+25 | File | `/csms/?page=contact_us` | High
+26 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
+27 | File | `/ecommerce/support_ticket` | High
+28 | File | `/forum/away.php` | High
+29 | File | `/friends/ajax_invite` | High
+30 | File | `/FuguHub/cmsdocs/` | High
+31 | File | `/h/` | Low
+32 | File | `/h/autoSaveDraft` | High
+33 | File | `/HNAP1` | Low
+34 | File | `/home/kickPlayer` | High
+35 | File | `/index.php` | Medium
+36 | File | `/index.php/client/message/message_read/xxxxxxxx[random-msg-hash]` | High
+37 | File | `/index.php/coins/update_marketboxslider` | High
+38 | ... | ... | ...
 
-There are 227 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 326 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -74,7 +74,8 @@ ID | Type | Indicator | Confidence
 9 | File | `bidhistory.php` | High
 10 | File | `bl-kernel/ajax/upload-images.php` | High
 11 | File | `BlogEngine/BlogEngine.Core/Services/Security/Security.cs` | High
-12 | ... | ... | ...
+12 | File | `bookPerPub.php` | High
+13 | ... | ... | ...
 
 There are 97 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 

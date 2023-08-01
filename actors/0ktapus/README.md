@@ -45,9 +45,10 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-22 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-94 | Cross Site Scripting | High
-4 | ... | ... | ... | ...
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 15 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -90,11 +91,12 @@ ID | Type | Indicator | Confidence
 33 | File | `/out.php` | Medium
 34 | File | `/p` | Low
 35 | File | `/pages/processlogin.php` | High
-36 | File | `/product/savenewproduct.php?flag=1` | High
-37 | File | `/services/Card/findUser` | High
-38 | ... | ... | ...
+36 | File | `/preview.php` | Medium
+37 | File | `/product/savenewproduct.php?flag=1` | High
+38 | File | `/services/Card/findUser` | High
+39 | ... | ... | ...
 
-There are 325 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 331 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

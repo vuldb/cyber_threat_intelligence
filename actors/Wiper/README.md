@@ -58,25 +58,25 @@ ID | Type | Indicator | Confidence
 5 | File | `/timeline2.php` | High
 6 | File | `/tmp` | Low
 7 | File | `/uncpath/` | Medium
-8 | File | `/wp-admin/admin-ajax.php` | High
-9 | File | `AbstractController.php` | High
-10 | File | `ActBar.ocx` | Medium
-11 | File | `adclick.php` | Medium
-12 | File | `add_comment.php` | High
-13 | File | `add_ons.php` | Medium
-14 | File | `admin.comms.php` | High
-15 | File | `admin.php` | Medium
-16 | File | `admin/bad.php` | High
-17 | File | `admincp.php?app=user&do=save` | High
-18 | File | `ajax.php?type=../admin-panel/autoload&page=manage-users` | High
-19 | File | `apc.php` | Low
-20 | File | `auction.cgi` | Medium
-21 | File | `base_maintenance.php` | High
-22 | File | `cgi-bin/` | Medium
-23 | File | `cmd/gpt.c` | Medium
+8 | File | `/user-utils/users/md5.json` | High
+9 | File | `/wp-admin/admin-ajax.php` | High
+10 | File | `AbstractController.php` | High
+11 | File | `ActBar.ocx` | Medium
+12 | File | `adclick.php` | Medium
+13 | File | `add_comment.php` | High
+14 | File | `add_ons.php` | Medium
+15 | File | `admin.comms.php` | High
+16 | File | `admin.php` | Medium
+17 | File | `admin/bad.php` | High
+18 | File | `admin/users/new` | High
+19 | File | `admincp.php?app=user&do=save` | High
+20 | File | `ajax.php?type=../admin-panel/autoload&page=manage-users` | High
+21 | File | `apc.php` | Low
+22 | File | `auction.cgi` | Medium
+23 | File | `base_maintenance.php` | High
 24 | ... | ... | ...
 
-There are 202 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 205 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

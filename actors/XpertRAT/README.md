@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with XpertRAT:
 
 * [US](https://vuldb.com/?country.us)
-* [FR](https://vuldb.com/?country.fr)
+* [CN](https://vuldb.com/?country.cn)
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 10 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -21,13 +21,14 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [23.105.131.209](https://vuldb.com/?ip.23.105.131.209) | mail209.nessfist.com | - | High
-2 | [37.0.8.125](https://vuldb.com/?ip.37.0.8.125) | kellyschultz.capitolreservations.com | - | High
-3 | [37.0.11.150](https://vuldb.com/?ip.37.0.11.150) | - | - | High
-4 | [37.0.11.215](https://vuldb.com/?ip.37.0.11.215) | - | - | High
-5 | ... | ... | ... | ...
+1 | [5.206.224.43](https://vuldb.com/?ip.5.206.224.43) | shp-fe02 | - | High
+2 | [23.105.131.209](https://vuldb.com/?ip.23.105.131.209) | mail209.nessfist.com | - | High
+3 | [31.210.21.252](https://vuldb.com/?ip.31.210.21.252) | ll40.top | - | High
+4 | [37.0.8.125](https://vuldb.com/?ip.37.0.8.125) | kellyschultz.capitolreservations.com | - | High
+5 | [37.0.11.150](https://vuldb.com/?ip.37.0.11.150) | - | - | High
+6 | ... | ... | ... | ...
 
-There are 15 more IOC items available. Please use our online service to access the data.
+There are 20 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -56,11 +57,12 @@ ID | Type | Indicator | Confidence
 5 | File | `/DataHandler/AM/AM_Handler.ashx` | High
 6 | File | `/debug/pprof` | Medium
 7 | File | `/etc/sudoers` | Medium
-8 | File | `/product.php` | Medium
-9 | File | `/uncpath/` | Medium
-10 | ... | ... | ...
+8 | File | `/forum/away.php` | High
+9 | File | `/product.php` | Medium
+10 | File | `/rest/api/2/user/picker` | High
+11 | ... | ... | ...
 
-There are 74 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 87 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

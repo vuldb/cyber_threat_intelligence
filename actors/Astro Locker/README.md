@@ -31,12 +31,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1078.001 | CWE-259 | Use of Hard-coded Password | High
-2 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
-3 | T1202 | CWE-78 | Command Injection | High
+1 | T1068 | CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+2 | T1078.001 | CWE-259 | Use of Hard-coded Password | High
+3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
-There are 5 more TTP items available. Please use our online service to access the data.
+There are 6 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -49,7 +49,7 @@ ID | Type | Indicator | Confidence
 3 | File | `ajax_php_pecl.php` | High
 4 | ... | ... | ...
 
-There are 14 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 15 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -89,17 +89,17 @@ ID | Type | Indicator | Confidence
 23 | File | `/VPortal/mgtconsole/Subscriptions.jsp` | High
 24 | File | `/wbms/classes/Master.php?f=delete_client` | High
 25 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-26 | File | `act.php` | Low
-27 | File | `adclick.php` | Medium
-28 | File | `add_comment.php` | High
-29 | File | `admin` | Low
-30 | File | `admin.php` | Medium
-31 | File | `admin/adminsignin.html` | High
-32 | File | `admin/movieview.php` | High
-33 | File | `admin/versions.html` | High
+26 | File | `?r=dashboard/roleadmin/edit&op=member` | High
+27 | File | `act.php` | Low
+28 | File | `adclick.php` | Medium
+29 | File | `add_comment.php` | High
+30 | File | `admin` | Low
+31 | File | `admin.php` | Medium
+32 | File | `admin/adminsignin.html` | High
+33 | File | `admin/movieview.php` | High
 34 | ... | ... | ...
 
-There are 291 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 294 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

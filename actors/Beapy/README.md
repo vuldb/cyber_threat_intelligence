@@ -36,10 +36,10 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-425 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94 | Cross Site Scripting | High
+3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 11 more TTP items available. Please use our online service to access the data.
+There are 12 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -47,15 +47,15 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/cgi-bin/webproc` | High
-2 | File | `/crmeb/crmeb/services/UploadService.php` | High
-3 | File | `/env` | Low
-4 | File | `/expert_wizard.php` | High
-5 | File | `/s/` | Low
-6 | File | `/static/ueditor/php/controller.php` | High
+1 | File | `.htaccess` | Medium
+2 | File | `/cgi-bin/webproc` | High
+3 | File | `/crmeb/crmeb/services/UploadService.php` | High
+4 | File | `/env` | Low
+5 | File | `/expert_wizard.php` | High
+6 | File | `/s/` | Low
 7 | ... | ... | ...
 
-There are 45 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 46 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

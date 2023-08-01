@@ -19,43 +19,44 @@ ID | IP address | Hostname | Campaign | Confidence
 1 | [1.161.79.139](https://vuldb.com/?ip.1.161.79.139) | 1-161-79-139.dynamic-ip.hinet.net | - | High
 2 | [1.161.79.166](https://vuldb.com/?ip.1.161.79.166) | 1-161-79-166.dynamic-ip.hinet.net | - | High
 3 | [1.161.79.219](https://vuldb.com/?ip.1.161.79.219) | 1-161-79-219.dynamic-ip.hinet.net | - | High
-4 | [24.158.23.45](https://vuldb.com/?ip.24.158.23.45) | mailserver.superiorusa.com | - | High
-5 | [24.158.23.104](https://vuldb.com/?ip.24.158.23.104) | 024-158-023-104.biz.spectrum.com | - | High
-6 | [24.158.23.204](https://vuldb.com/?ip.24.158.23.204) | 024-158-023-204.biz.spectrum.com | - | High
-7 | [24.158.23.219](https://vuldb.com/?ip.24.158.23.219) | 024-158-023-219.biz.spectrum.com | - | High
-8 | [24.178.196.74](https://vuldb.com/?ip.24.178.196.74) | 024-178-196-074.biz.spectrum.com | - | High
-9 | [24.178.196.177](https://vuldb.com/?ip.24.178.196.177) | 024-178-196-177.biz.spectrum.com | - | High
-10 | [24.178.196.227](https://vuldb.com/?ip.24.178.196.227) | 024-178-196-227.biz.spectrum.com | - | High
-11 | [24.178.196.228](https://vuldb.com/?ip.24.178.196.228) | 024-178-196-228.biz.spectrum.com | - | High
-12 | [32.221.224.7](https://vuldb.com/?ip.32.221.224.7) | - | - | High
-13 | [32.221.224.83](https://vuldb.com/?ip.32.221.224.83) | - | - | High
-14 | [32.221.224.102](https://vuldb.com/?ip.32.221.224.102) | - | - | High
-15 | [32.221.224.201](https://vuldb.com/?ip.32.221.224.201) | - | - | High
-16 | [37.186.58.18](https://vuldb.com/?ip.37.186.58.18) | - | - | High
-17 | [37.186.58.41](https://vuldb.com/?ip.37.186.58.41) | - | - | High
-18 | [37.186.58.153](https://vuldb.com/?ip.37.186.58.153) | - | - | High
-19 | [37.208.131.96](https://vuldb.com/?ip.37.208.131.96) | - | - | High
-20 | [37.208.131.224](https://vuldb.com/?ip.37.208.131.224) | - | - | High
-21 | [37.208.131.230](https://vuldb.com/?ip.37.208.131.230) | - | - | High
-22 | [37.208.131.249](https://vuldb.com/?ip.37.208.131.249) | - | - | High
-23 | [38.70.253.56](https://vuldb.com/?ip.38.70.253.56) | 38.70.253.56.sumofiber.net | - | High
-24 | [38.70.253.70](https://vuldb.com/?ip.38.70.253.70) | 38.70.253.70.sumofiber.net | - | High
-25 | [38.70.253.154](https://vuldb.com/?ip.38.70.253.154) | 38.70.253.154.sumofiber.net | - | High
-26 | [38.70.253.213](https://vuldb.com/?ip.38.70.253.213) | 38.70.253.213.sumofiber.net | - | High
-27 | [39.41.16.31](https://vuldb.com/?ip.39.41.16.31) | - | - | High
-28 | [39.41.16.33](https://vuldb.com/?ip.39.41.16.33) | - | - | High
-29 | [39.41.16.109](https://vuldb.com/?ip.39.41.16.109) | - | - | High
-30 | [39.44.60.51](https://vuldb.com/?ip.39.44.60.51) | - | - | High
-31 | [39.44.60.65](https://vuldb.com/?ip.39.44.60.65) | - | - | High
-32 | [39.44.60.187](https://vuldb.com/?ip.39.44.60.187) | - | - | High
-33 | [39.49.41.28](https://vuldb.com/?ip.39.49.41.28) | - | - | High
-34 | [39.49.41.55](https://vuldb.com/?ip.39.49.41.55) | - | - | High
-35 | [39.49.41.181](https://vuldb.com/?ip.39.49.41.181) | - | - | High
-36 | [39.52.59.37](https://vuldb.com/?ip.39.52.59.37) | - | - | High
-37 | [39.52.59.184](https://vuldb.com/?ip.39.52.59.184) | - | - | High
-38 | ... | ... | ... | ...
+4 | [6.43.51.17](https://vuldb.com/?ip.6.43.51.17) | - | - | High
+5 | [10.9.0.15](https://vuldb.com/?ip.10.9.0.15) | - | - | High
+6 | [24.158.23.45](https://vuldb.com/?ip.24.158.23.45) | mailserver.superiorusa.com | - | High
+7 | [24.158.23.104](https://vuldb.com/?ip.24.158.23.104) | 024-158-023-104.biz.spectrum.com | - | High
+8 | [24.158.23.204](https://vuldb.com/?ip.24.158.23.204) | 024-158-023-204.biz.spectrum.com | - | High
+9 | [24.158.23.219](https://vuldb.com/?ip.24.158.23.219) | 024-158-023-219.biz.spectrum.com | - | High
+10 | [24.178.196.74](https://vuldb.com/?ip.24.178.196.74) | 024-178-196-074.biz.spectrum.com | - | High
+11 | [24.178.196.177](https://vuldb.com/?ip.24.178.196.177) | 024-178-196-177.biz.spectrum.com | - | High
+12 | [24.178.196.227](https://vuldb.com/?ip.24.178.196.227) | 024-178-196-227.biz.spectrum.com | - | High
+13 | [24.178.196.228](https://vuldb.com/?ip.24.178.196.228) | 024-178-196-228.biz.spectrum.com | - | High
+14 | [32.221.224.7](https://vuldb.com/?ip.32.221.224.7) | - | - | High
+15 | [32.221.224.83](https://vuldb.com/?ip.32.221.224.83) | - | - | High
+16 | [32.221.224.102](https://vuldb.com/?ip.32.221.224.102) | - | - | High
+17 | [32.221.224.201](https://vuldb.com/?ip.32.221.224.201) | - | - | High
+18 | [37.186.58.18](https://vuldb.com/?ip.37.186.58.18) | - | - | High
+19 | [37.186.58.41](https://vuldb.com/?ip.37.186.58.41) | - | - | High
+20 | [37.186.58.153](https://vuldb.com/?ip.37.186.58.153) | - | - | High
+21 | [37.208.131.96](https://vuldb.com/?ip.37.208.131.96) | - | - | High
+22 | [37.208.131.224](https://vuldb.com/?ip.37.208.131.224) | - | - | High
+23 | [37.208.131.230](https://vuldb.com/?ip.37.208.131.230) | - | - | High
+24 | [37.208.131.249](https://vuldb.com/?ip.37.208.131.249) | - | - | High
+25 | [38.70.253.56](https://vuldb.com/?ip.38.70.253.56) | 38.70.253.56.sumofiber.net | - | High
+26 | [38.70.253.70](https://vuldb.com/?ip.38.70.253.70) | 38.70.253.70.sumofiber.net | - | High
+27 | [38.70.253.154](https://vuldb.com/?ip.38.70.253.154) | 38.70.253.154.sumofiber.net | - | High
+28 | [38.70.253.213](https://vuldb.com/?ip.38.70.253.213) | 38.70.253.213.sumofiber.net | - | High
+29 | [39.41.16.31](https://vuldb.com/?ip.39.41.16.31) | - | - | High
+30 | [39.41.16.33](https://vuldb.com/?ip.39.41.16.33) | - | - | High
+31 | [39.41.16.109](https://vuldb.com/?ip.39.41.16.109) | - | - | High
+32 | [39.44.60.51](https://vuldb.com/?ip.39.44.60.51) | - | - | High
+33 | [39.44.60.65](https://vuldb.com/?ip.39.44.60.65) | - | - | High
+34 | [39.44.60.187](https://vuldb.com/?ip.39.44.60.187) | - | - | High
+35 | [39.49.41.28](https://vuldb.com/?ip.39.49.41.28) | - | - | High
+36 | [39.49.41.55](https://vuldb.com/?ip.39.49.41.55) | - | - | High
+37 | [39.49.41.181](https://vuldb.com/?ip.39.49.41.181) | - | - | High
+38 | [39.52.59.37](https://vuldb.com/?ip.39.52.59.37) | - | - | High
+39 | ... | ... | ... | ...
 
-There are 149 more IOC items available. Please use our online service to access the data.
+There are 153 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -70,7 +71,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -78,40 +79,44 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/?ajax-request=jnews` | High
-2 | File | `/Admin/add-student.php` | High
-3 | File | `/admin/blog/blogcategory/add/?_to_field=id&_popup=1` | High
-4 | File | `/admin/maintenance/view_designation.php` | High
-5 | File | `/aya/module/admin/fst_down.inc.php` | High
-6 | File | `/boat/login.php` | High
-7 | File | `/bsms_ci/index.php/user/edit_user/` | High
-8 | File | `/cas/logout` | Medium
-9 | File | `/componetns/user/class.user.php` | High
-10 | File | `/etc/tomcat8/Catalina/attack` | High
-11 | File | `/forum/away.php` | High
-12 | File | `/goform/wizard_end` | High
-13 | File | `/ims/login.php` | High
-14 | File | `/mhds/clinic/view_details.php` | High
-15 | File | `/modules/profile/index.php` | High
-16 | File | `/out.php` | Medium
-17 | File | `/php-opos/index.php` | High
-18 | File | `/rest/api/latest/projectvalidate/key` | High
-19 | File | `/reviewer_0/admins/assessments/pretest/questions-view.php` | High
-20 | File | `/shell` | Low
-21 | File | `/tourism/rate_review.php` | High
-22 | File | `/uncpath/` | Medium
-23 | File | `/usr/www/ja/mnt_cmd.cgi` | High
-24 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
-25 | File | `/wp-admin/admin-ajax.php` | High
-26 | File | `action-visitor.php` | High
-27 | File | `action.php` | Medium
-28 | File | `adclick.php` | Medium
-29 | File | `AdHocQuery_Processor.aspx` | High
-30 | File | `admin/ajax.php?action=save_user` | High
-31 | File | `admin/expense_report.php` | High
-32 | ... | ... | ...
+1 | File | `.FBCIndex` | Medium
+2 | File | `/+CSCOE+/logon.html` | High
+3 | File | `/?ajax-request=jnews` | High
+4 | File | `/Admin/add-student.php` | High
+5 | File | `/admin/blog/blogcategory/add/?_to_field=id&_popup=1` | High
+6 | File | `/admin/categories/manage_category.php` | High
+7 | File | `/admin/edit_product.php` | High
+8 | File | `/admin/maintenance/view_designation.php` | High
+9 | File | `/admin/sales/manage_sale.php` | High
+10 | File | `/api/baskets/{name}` | High
+11 | File | `/aya/module/admin/fst_down.inc.php` | High
+12 | File | `/blog` | Low
+13 | File | `/boat/login.php` | High
+14 | File | `/bsms_ci/index.php/user/edit_user/` | High
+15 | File | `/cas/logout` | Medium
+16 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
+17 | File | `/CPE` | Low
+18 | File | `/etc/tomcat8/Catalina/attack` | High
+19 | File | `/forum/away.php` | High
+20 | File | `/ghost/preview` | High
+21 | File | `/goform/wizard_end` | High
+22 | File | `/home/search` | Medium
+23 | File | `/ims/login.php` | High
+24 | File | `/mhds/clinic/view_details.php` | High
+25 | File | `/modules/profile/index.php` | High
+26 | File | `/out.php` | Medium
+27 | File | `/php-opos/index.php` | High
+28 | File | `/reviewer_0/admins/assessments/pretest/questions-view.php` | High
+29 | File | `/shell` | Low
+30 | File | `/tourism/rate_review.php` | High
+31 | File | `/uncpath/` | Medium
+32 | File | `/usr/www/ja/mnt_cmd.cgi` | High
+33 | File | `/vdesk` | Low
+34 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
+35 | File | `action-visitor.php` | High
+36 | ... | ... | ...
 
-There are 277 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 304 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -119,6 +124,8 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://blogs.trellix.jp/demystifying-qbot-malware
 * https://community.blueliv.com/#!/s/5fa3bb7882df413eb2352497
+* https://pastebin.com/errfGxRE
+* https://www.fortinet.com/blog/threat-research/deep-analysis-of-a-qbot-campaign-part-1
 
 ## Literature
 

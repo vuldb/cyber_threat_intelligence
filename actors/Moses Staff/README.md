@@ -16,6 +16,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [RU](https://vuldb.com/?country.ru)
 * [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
 
 ## IOC - Indicator of Compromise
 
@@ -33,9 +34,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1068 | CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
-2 | T1505 | CWE-89 | SQL Injection | High
-3 | T1592 | CWE-200 | Configuration | High
+1 | T1059.007 | CWE-79 | Cross Site Scripting | High
+2 | T1068 | CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+3 | T1505 | CWE-89 | SQL Injection | High
+4 | ... | ... | ... | ...
+
+There are 1 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -43,8 +47,9 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/jpg/image.jpg` | High
-2 | File | `readrec.c` | Medium
+1 | File | `/h/autoSaveDraft` | High
+2 | File | `/jpg/image.jpg` | High
+3 | File | `readrec.c` | Medium
 
 ## References
 

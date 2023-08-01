@@ -9,6 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with FTP Info Stealer:
 
 * [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
+* [RU](https://vuldb.com/?country.ru)
+* ...
+
+There are 17 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -16,8 +21,17 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [89.46.222.42](https://vuldb.com/?ip.89.46.222.42) | 42.222.46.89.in-addr.arpa | - | High
-2 | [205.186.187.108](https://vuldb.com/?ip.205.186.187.108) | ekiaiooqio.c06.mtsvc.net | - | High
+1 | [37.221.67.219](https://vuldb.com/?ip.37.221.67.219) | raiden2023 | - | High
+2 | [45.67.34.152](https://vuldb.com/?ip.45.67.34.152) | vm1401885.stark-industries.solutions | - | High
+3 | [45.67.34.234](https://vuldb.com/?ip.45.67.34.234) | vm1407334.stark-industries.solutions | - | High
+4 | [45.67.34.238](https://vuldb.com/?ip.45.67.34.238) | vps.hostry.com | - | High
+5 | [45.84.0.152](https://vuldb.com/?ip.45.84.0.152) | vm1338883.stark-industries.solutions | - | High
+6 | [45.133.216.145](https://vuldb.com/?ip.45.133.216.145) | vm1309698.stark-industries.solutions | - | High
+7 | [45.133.216.170](https://vuldb.com/?ip.45.133.216.170) | mail.stiegl-at.com | - | High
+8 | [45.133.216.249](https://vuldb.com/?ip.45.133.216.249) | vm699942.stark-industries.solutions | - | High
+9 | ... | ... | ... | ...
+
+There are 33 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -25,9 +39,15 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-80 | Cross Site Scripting | High
-2 | T1505 | CWE-89 | SQL Injection | High
-3 | T1592 | CWE-200 | Configuration | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+7 | ... | ... | ... | ...
+
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -35,17 +55,50 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `add_comment.php` | High
-2 | File | `administrator/components/com_media/helpers/media.php` | High
-3 | File | `data/gbconfiguration.dat` | High
-4 | ... | ... | ...
+1 | File | `/acms/classes/Master.php?f=delete_cargo` | High
+2 | File | `/admin.php/news/admin/topic/save` | High
+3 | File | `/admin/comn/service/update.json` | High
+4 | File | `/api/files/` | Medium
+5 | File | `/api/RecordingList/DownloadRecord?file=` | High
+6 | File | `/apply.cgi` | Medium
+7 | File | `/card_scan.php` | High
+8 | File | `/cgi-bin/luci/api/switch` | High
+9 | File | `/cgi-bin/sm_changepassword.cgi` | High
+10 | File | `/cgi-bin/touchlist_sync.cgi` | High
+11 | File | `/cgi-bin/wlogin.cgi` | High
+12 | File | `/cwc/login` | Medium
+13 | File | `/dev/shm` | Medium
+14 | File | `/dl/dl_print.php` | High
+15 | File | `/download` | Medium
+16 | File | `/etc/quagga` | Medium
+17 | File | `/etc/shadow` | Medium
+18 | File | `/export` | Low
+19 | File | `/forms/doLogin` | High
+20 | File | `/getcfg.php` | Medium
+21 | File | `/guest_auth/cfg/upLoadCfg.php` | High
+22 | File | `/h/calendar` | Medium
+23 | File | `/inc/extensions.php` | High
+24 | File | `/include/chart_generator.php` | High
+25 | File | `/index.php` | Medium
+26 | File | `/jsonrpc` | Medium
+27 | File | `/mims/login.php` | High
+28 | File | `/nova/bin/console` | High
+29 | File | `/nova/bin/detnet` | High
+30 | File | `/ofcms/company-c-47` | High
+31 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+32 | File | `/out.php` | Medium
+33 | File | `/rapi/read_url` | High
+34 | File | `/req_password_user.php` | High
+35 | File | `/rom-0` | Low
+36 | ... | ... | ...
 
-There are 7 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 307 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://github.com/threatlabz/iocs/blob/main/infostealer/pirated_software_iocs.txt
 * https://www.malware-traffic-analysis.net/2019/02/07/index.html
 
 ## Literature

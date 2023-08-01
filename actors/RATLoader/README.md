@@ -26,7 +26,7 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [185.81.157.136](https://vuldb.com/?ip.185.81.157.136) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 1 more IOC items available. Please use our online service to access the data.
+There are 2 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -59,12 +59,13 @@ ID | Type | Indicator | Confidence
 10 | File | `apage.cgi` | Medium
 11 | ... | ... | ...
 
-There are 80 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 83 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://github.com/threatlabz/iocs/blob/main/snip3/c2s.txt
 * https://www.zscaler.com/blogs/security-research/snip3-crypter-reveals-new-ttps-over-time
 
 ## Literature

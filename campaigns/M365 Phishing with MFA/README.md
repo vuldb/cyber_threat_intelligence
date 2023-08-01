@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 19 more country items available. Please use our online service to access the data.
+There are 20 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -45,7 +45,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059 | CWE-94 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -53,42 +53,42 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/ClickAndBanexDemo/admin/admin.asp` | High
-2 | File | `/configs/application.ini` | High
-3 | File | `/HNAP1` | Low
-4 | File | `/iissamples/sdk/asp/interaction/Form_JScript.asp` | High
-5 | File | `/index.php` | Medium
-6 | File | `/iwgallery/admin/pictures_edit.asp` | High
-7 | File | `/lists/index.php` | High
-8 | File | `/mail/index.html` | High
-9 | File | `/okm:root` | Medium
-10 | File | `/public/plugins/` | High
-11 | File | `/replication` | Medium
-12 | File | `/TeamMate/Upload/DomainObjectDocumentUpload.ashx` | High
-13 | File | `/uncpath/` | Medium
-14 | File | `/uploads/dede` | High
-15 | File | `/WEB-INF/web.xml` | High
-16 | File | `AccessPoint.aspx` | High
-17 | File | `activateuser.aspx` | High
-18 | File | `AdHocQuery_Processor.aspx` | High
-19 | File | `admin.asp` | Medium
-20 | File | `admin/admin.asp` | High
-21 | File | `admin/images.aspx` | High
-22 | File | `admin/index.php` | High
-23 | File | `admin/login.asp` | High
-24 | File | `advsearch.asp` | High
-25 | File | `AEAgent.cpp` | Medium
-26 | File | `ajax.php` | Medium
-27 | File | `ajax_calls.php` | High
-28 | File | `ajax_cmd.php` | Medium
-29 | File | `allmanageup.pl` | High
-30 | File | `appfeed.c` | Medium
-31 | File | `ara.asp` | Low
-32 | File | `aspx` | Low
-33 | File | `auctionweaver.pl` | High
+1 | File | `/about.php` | Medium
+2 | File | `/ClickAndBanexDemo/admin/admin.asp` | High
+3 | File | `/configs/application.ini` | High
+4 | File | `/HNAP1` | Low
+5 | File | `/iissamples/sdk/asp/interaction/Form_JScript.asp` | High
+6 | File | `/index.php` | Medium
+7 | File | `/iwgallery/admin/pictures_edit.asp` | High
+8 | File | `/lists/index.php` | High
+9 | File | `/mail/index.html` | High
+10 | File | `/okm:root` | Medium
+11 | File | `/public/plugins/` | High
+12 | File | `/replication` | Medium
+13 | File | `/TeamMate/Upload/DomainObjectDocumentUpload.ashx` | High
+14 | File | `/uncpath/` | Medium
+15 | File | `/uploads/dede` | High
+16 | File | `/WEB-INF/web.xml` | High
+17 | File | `AccessPoint.aspx` | High
+18 | File | `activateuser.aspx` | High
+19 | File | `AdHocQuery_Processor.aspx` | High
+20 | File | `admin.asp` | Medium
+21 | File | `admin/admin.asp` | High
+22 | File | `admin/images.aspx` | High
+23 | File | `admin/index.php` | High
+24 | File | `admin/login.asp` | High
+25 | File | `advsearch.asp` | High
+26 | File | `AEAgent.cpp` | Medium
+27 | File | `ajax.php` | Medium
+28 | File | `ajax_calls.php` | High
+29 | File | `ajax_cmd.php` | Medium
+30 | File | `allmanageup.pl` | High
+31 | File | `appfeed.c` | Medium
+32 | File | `ara.asp` | Low
+33 | File | `aspx` | Low
 34 | ... | ... | ...
 
-There are 287 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 290 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

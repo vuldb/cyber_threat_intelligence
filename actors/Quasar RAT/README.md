@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Quasar RAT:
 
 * [VN](https://vuldb.com/?country.vn)
-* [CN](https://vuldb.com/?country.cn)
 * [LA](https://vuldb.com/?country.la)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
 There are 2 more country items available. Please use our online service to access the data.
@@ -72,7 +72,8 @@ ID | IP address | Hostname | Campaign | Confidence
 49 | [43.240.48.46](https://vuldb.com/?ip.43.240.48.46) | - | - | High
 50 | [45.12.213.244](https://vuldb.com/?ip.45.12.213.244) | vm2521174.52ssd.had.wf | - | High
 51 | [45.14.13.20](https://vuldb.com/?ip.45.14.13.20) | free.example.com | - | High
-52 | ... | ... | ... | ...
+52 | [45.14.50.120](https://vuldb.com/?ip.45.14.50.120) | - | - | High
+53 | ... | ... | ... | ...
 
 There are 206 more IOC items available. Please use our online service to access the data.
 
@@ -82,13 +83,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-29, CWE-425 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-29 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 16 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -96,38 +98,41 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/?page=user/list` | High
-2 | File | `/admin/addproduct.php` | High
-3 | File | `/admin/ajax.php?action=save_area` | High
-4 | File | `/admin/contacts/organizations/edit/2` | High
-5 | File | `/admin/modal_add_product.php` | High
-6 | File | `/admin/reportupload.aspx` | High
-7 | File | `/admin/update_s6.php` | High
-8 | File | `/ajax.php?action=read_msg` | High
-9 | File | `/ajax.php?action=save_company` | High
-10 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
-11 | File | `/authenticationendpoint/login.do` | High
-12 | File | `/bin/login` | Medium
-13 | File | `/cgi-bin/luci` | High
-14 | File | `/cgi-bin/wlogin.cgi` | High
-15 | File | `/changeimage.php` | High
-16 | File | `/classes/Users.php?f=save` | High
-17 | File | `/DXR.axd` | Medium
-18 | File | `/forum/away.php` | High
-19 | File | `/HNAP1` | Low
-20 | File | `/Log/Query?appid=0B736354-9473-4D66-B9C0-15CAC149EB05&tabid=tab_0B73635494734D66B9C015CAC149EB05` | High
-21 | File | `/mc` | Low
-22 | File | `/note/index/delete` | High
-23 | File | `/owa/auth/logon.aspx` | High
-24 | File | `/php-inventory-management-system/product.php` | High
-25 | File | `/send_order.cgi?parameter=restart` | High
+1 | File | `/admin/addproduct.php` | High
+2 | File | `/admin/modal_add_product.php` | High
+3 | File | `/admin/update_s6.php` | High
+4 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
+5 | File | `/authenticationendpoint/login.do` | High
+6 | File | `/bin/login` | Medium
+7 | File | `/cgi-bin/luci` | High
+8 | File | `/cgi-bin/wlogin.cgi` | High
+9 | File | `/changeimage.php` | High
+10 | File | `/classes/Users.php?f=save` | High
+11 | File | `/contact/store` | High
+12 | File | `/DXR.axd` | Medium
+13 | File | `/ecommerce/support_ticket` | High
+14 | File | `/forum/away.php` | High
+15 | File | `/HNAP1` | Low
+16 | File | `/Log/Query?appid=0B736354-9473-4D66-B9C0-15CAC149EB05&tabid=tab_0B73635494734D66B9C015CAC149EB05` | High
+17 | File | `/mc` | Low
+18 | File | `/note/index/delete` | High
+19 | File | `/out.php` | Medium
+20 | File | `/owa/auth/logon.aspx` | High
+21 | File | `/php-inventory-management-system/product.php` | High
+22 | File | `/plain` | Low
+23 | File | `/send_order.cgi?parameter=restart` | High
+24 | File | `/spip.php` | Medium
+25 | File | `/student/bookdetails.php` | High
 26 | File | `/tmp/boa-temp` | High
-27 | File | `/userfs/bin/tcapi` | High
-28 | File | `/var/log/nginx` | High
-29 | File | `/wp-admin/admin-ajax.php` | High
-30 | ... | ... | ...
+27 | File | `/uncpath/` | Medium
+28 | File | `/userfs/bin/tcapi` | High
+29 | File | `/var/log/nginx` | High
+30 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
+31 | File | `/wp-admin/admin-ajax.php` | High
+32 | File | `?r=dashboard/approval/del` | High
+33 | ... | ... | ...
 
-There are 254 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 281 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

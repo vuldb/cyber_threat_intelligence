@@ -17,11 +17,11 @@ The following _campaigns_ are known and can be associated with APT33:
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with APT33:
 
 * [PL](https://vuldb.com/?country.pl)
-* [FR](https://vuldb.com/?country.fr)
 * [ES](https://vuldb.com/?country.es)
+* [FR](https://vuldb.com/?country.fr)
 * ...
 
-There are 9 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -78,7 +78,7 @@ ID | Type | Indicator | Confidence
 6 | File | `/admin/userprofile.php` | High
 7 | File | `/api/audits` | Medium
 8 | File | `/bin/sh` | Low
-9 | File | `/bsms_ci/index.php/user/edit_user/` | High
+9 | File | `/booking/show_bookings/` | High
 10 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
 11 | File | `/calendar/viewcalendar.php` | High
 12 | File | `/cas/logout` | Medium
@@ -88,41 +88,44 @@ ID | Type | Indicator | Confidence
 16 | File | `/classes/Users.php?f=delete_client` | High
 17 | File | `/clients/profile` | High
 18 | File | `/cms/notify` | Medium
-19 | File | `/depotHead/list` | High
-20 | File | `/env` | Low
-21 | File | `/ext/phar/phar_object.c` | High
-22 | File | `/file_manager/admin/save_user.php` | High
-23 | File | `/forum/away.php` | High
-24 | File | `/goform/setSysPwd` | High
-25 | File | `/goform/SysToolReboot` | High
-26 | File | `/goform/SysToolRestoreSet` | High
-27 | File | `/goform/WifiBasicSet` | High
-28 | File | `/goform/wifiSSIDset` | High
-29 | File | `/hrm/employeeadd.php` | High
-30 | File | `/hss/?page=product_per_brand` | High
-31 | File | `/hss/admin/?page=client/manage_client` | High
-32 | File | `/hss/admin/?page=user/manage_user` | High
-33 | File | `/inc/jquery/uploadify/uploadify.php` | High
-34 | File | `/index.php?module=configuration/application` | High
-35 | File | `/index.php?module=entities/forms&entities_id=24` | High
-36 | File | `/index.php?module=help_pages/pages&entities_id=24` | High
-37 | File | `/jurusan/data` | High
-38 | File | `/kelasdosen/data` | High
-39 | File | `/login` | Low
-40 | File | `/network_test.php` | High
-41 | File | `/odlms//classes/Master.php?f=delete_activity` | High
-42 | File | `/php-sms/admin/quotes/manage_remark.php` | High
-43 | File | `/plugin/getList` | High
-44 | File | `/projects/listprojects.php` | High
-45 | File | `/queuing/admin/ajax.php?action=save_settings` | High
-46 | File | `/rukovoditel/index.php?module=users/login` | High
-47 | File | `/tmp` | Low
-48 | File | `/v1/sql-runner` | High
-49 | File | `/var/polycom/cma/upgrade/scripts` | High
-50 | File | `/var/tmp/abrt/*/maps` | High
-51 | ... | ... | ...
+19 | File | `/contact/store` | High
+20 | File | `/depotHead/list` | High
+21 | File | `/env` | Low
+22 | File | `/ext/phar/phar_object.c` | High
+23 | File | `/file_manager/admin/save_user.php` | High
+24 | File | `/forum/away.php` | High
+25 | File | `/goform/RgUrlBlock.asp` | High
+26 | File | `/goform/setSysPwd` | High
+27 | File | `/goform/SysToolReboot` | High
+28 | File | `/goform/SysToolRestoreSet` | High
+29 | File | `/goform/WifiBasicSet` | High
+30 | File | `/goform/wifiSSIDset` | High
+31 | File | `/h/` | Low
+32 | File | `/hrm/employeeadd.php` | High
+33 | File | `/hss/?page=product_per_brand` | High
+34 | File | `/hss/admin/?page=client/manage_client` | High
+35 | File | `/hss/admin/?page=user/manage_user` | High
+36 | File | `/inc/jquery/uploadify/uploadify.php` | High
+37 | File | `/index.php?module=configuration/application` | High
+38 | File | `/index.php?module=entities/forms&entities_id=24` | High
+39 | File | `/index.php?module=help_pages/pages&entities_id=24` | High
+40 | File | `/jurusan/data` | High
+41 | File | `/kelasdosen/data` | High
+42 | File | `/Log/Query?appid=0B736354-9473-4D66-B9C0-15CAC149EB05&tabid=tab_0B73635494734D66B9C015CAC149EB05` | High
+43 | File | `/login` | Low
+44 | File | `/odlms//classes/Master.php?f=delete_activity` | High
+45 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+46 | File | `/paysystem/datatable.php` | High
+47 | File | `/plugin/getList` | High
+48 | File | `/projects/listprojects.php` | High
+49 | File | `/queuing/admin/ajax.php?action=save_settings` | High
+50 | File | `/rukovoditel/index.php?module=users/login` | High
+51 | File | `/tmp` | Low
+52 | File | `/v1/sql-runner` | High
+53 | File | `/var/polycom/cma/upgrade/scripts` | High
+54 | ... | ... | ...
 
-There are 446 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 470 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

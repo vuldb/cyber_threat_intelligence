@@ -47,15 +47,15 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/etc/sudoers` | Medium
-2 | File | `/uncpath/` | Medium
-3 | File | `admin.php?reqGadget=Components&reqAction=InstallGadget&comp=FileBrowser` | High
-4 | File | `cat.php` | Low
-5 | File | `category.cfm` | Medium
-6 | File | `core/lists/PAGING.php` | High
+1 | File | `/Controller/Ajaxfileupload.ashx` | High
+2 | File | `/etc/sudoers` | Medium
+3 | File | `/uncpath/` | Medium
+4 | File | `admin.php?reqGadget=Components&reqAction=InstallGadget&comp=FileBrowser` | High
+5 | File | `cat.php` | Low
+6 | File | `category.cfm` | Medium
 7 | ... | ... | ...
 
-There are 46 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 49 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -87,9 +87,10 @@ ID | Type | Indicator | Confidence
 33 | File | `/index.php?case=table&act=add&table=archive&admin_dir=admin` | High
 34 | File | `/members/view_member.php` | High
 35 | File | `/mgm_dev_reboot.asp` | High
-36 | ... | ... | ...
+36 | File | `/MicroStrategyWS/happyaxis.jsp` | High
+37 | ... | ... | ...
 
-There are 306 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 318 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

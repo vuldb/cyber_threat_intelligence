@@ -22,7 +22,8 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [79.134.225.85](https://vuldb.com/?ip.79.134.225.85) | - | - | High
-2 | [208.67.106.143](https://vuldb.com/?ip.208.67.106.143) | - | - | High
+2 | [185.196.220.62](https://vuldb.com/?ip.185.196.220.62) | - | - | High
+3 | [208.67.106.143](https://vuldb.com/?ip.208.67.106.143) | - | - | High
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -57,6 +58,7 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://bazaar.abuse.ch/sample/4e3815d3fa28d83e1499f53f457f63b7299bc62cac9b7bcc2431e1095bbf2a29/
 * https://bazaar.abuse.ch/sample/8f28276377caac4c17ee2284e90cc4581f7d302ace8f34b7fe04f0c92c9ab10a/
+* https://www.esentire.com/blog/google-firebase-hosting-abused-to-deliver-sorillus-rat-phishing-page
 
 ## Literature
 

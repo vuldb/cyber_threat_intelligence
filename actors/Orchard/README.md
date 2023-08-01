@@ -37,7 +37,7 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -56,25 +56,26 @@ ID | Type | Indicator | Confidence
 5 | File | `/admin/profile/save_profile` | High
 6 | File | `/admin/reports.php` | High
 7 | File | `/api/v1/chat.getThreadsList` | High
-8 | File | `/bin/sh` | Low
-9 | File | `/cgi-bin/luci/api/diagnose` | High
-10 | File | `/classes/conf/db.properties&config=filemanager.config.js` | High
-11 | File | `/coders/palm.c` | High
-12 | File | `/dcim/rack/` | Medium
-13 | File | `/EditEventTypes.php` | High
-14 | File | `/etc/groups` | Medium
-15 | File | `/formSetPortTr` | High
-16 | File | `/forum/away.php` | High
-17 | File | `/goform/wlanPrimaryNetwork` | High
-18 | File | `/index.php?module=help_pages/pages&entities_id=24` | High
-19 | File | `/it-IT/splunkd/__raw/services/get_snapshot` | High
-20 | File | `/nova/bin/user` | High
-21 | File | `/novel-admin/src/main/java/com/java2nb/common/controller/FileController.java` | High
-22 | File | `/plesk-site-preview/` | High
-23 | File | `/question/ask` | High
-24 | ... | ... | ...
+8 | File | `/App_Resource/UEditor/server/upload.aspx` | High
+9 | File | `/bin/sh` | Low
+10 | File | `/cgi-bin/luci/api/diagnose` | High
+11 | File | `/classes/conf/db.properties&config=filemanager.config.js` | High
+12 | File | `/coders/palm.c` | High
+13 | File | `/dcim/rack/` | Medium
+14 | File | `/EditEventTypes.php` | High
+15 | File | `/etc/groups` | Medium
+16 | File | `/formSetPortTr` | High
+17 | File | `/forum/away.php` | High
+18 | File | `/goform/wlanPrimaryNetwork` | High
+19 | File | `/index.php?module=help_pages/pages&entities_id=24` | High
+20 | File | `/it-IT/splunkd/__raw/services/get_snapshot` | High
+21 | File | `/nova/bin/user` | High
+22 | File | `/novel-admin/src/main/java/com/java2nb/common/controller/FileController.java` | High
+23 | File | `/plesk-site-preview/` | High
+24 | File | `/public/admin/profile/update.html` | High
+25 | ... | ... | ...
 
-There are 204 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 211 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

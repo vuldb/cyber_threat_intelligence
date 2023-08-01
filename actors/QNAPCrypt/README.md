@@ -10,6 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [GB](https://vuldb.com/?country.gb)
+* [RU](https://vuldb.com/?country.ru)
 
 ## IOC - Indicator of Compromise
 
@@ -45,7 +46,7 @@ ID | Type | Indicator | Confidence
 3 | File | `account/gallery.php` | High
 4 | ... | ... | ...
 
-There are 11 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 12 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

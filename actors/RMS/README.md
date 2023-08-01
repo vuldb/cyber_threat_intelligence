@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [IT](https://vuldb.com/?country.it)
 * ...
 
-There are 15 more country items available. Please use our online service to access the data.
+There are 16 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -23,16 +23,20 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [5.133.65.53](https://vuldb.com/?ip.5.133.65.53) | - | - | High
 2 | [37.58.60.5](https://vuldb.com/?ip.37.58.60.5) | hosted-by.zenex5.com | - | High
-3 | [45.144.30.30](https://vuldb.com/?ip.45.144.30.30) | polzovatel.com | - | High
-4 | [50.240.232.117](https://vuldb.com/?ip.50.240.232.117) | 50-240-232-117-static.hfc.comcastbusiness.net | - | High
-5 | [51.83.171.223](https://vuldb.com/?ip.51.83.171.223) | hosted.by.majorcore.com | - | High
-6 | [52.208.217.243](https://vuldb.com/?ip.52.208.217.243) | ec2-52-208-217-243.eu-west-1.compute.amazonaws.com | - | Medium
-7 | [66.23.226.254](https://vuldb.com/?ip.66.23.226.254) | - | - | High
-8 | [66.208.244.253](https://vuldb.com/?ip.66.208.244.253) | sbs.heraldtech.net | - | High
-9 | [77.223.124.211](https://vuldb.com/?ip.77.223.124.211) | - | - | High
-10 | ... | ... | ... | ...
+3 | [43.255.175.215](https://vuldb.com/?ip.43.255.175.215) | - | - | High
+4 | [45.82.71.172](https://vuldb.com/?ip.45.82.71.172) | cathost.io | - | High
+5 | [45.144.30.30](https://vuldb.com/?ip.45.144.30.30) | polzovatel.com | - | High
+6 | [50.240.232.117](https://vuldb.com/?ip.50.240.232.117) | 50-240-232-117-static.hfc.comcastbusiness.net | - | High
+7 | [51.83.171.208](https://vuldb.com/?ip.51.83.171.208) | hosted.by.majorcore.com | - | High
+8 | [51.83.171.223](https://vuldb.com/?ip.51.83.171.223) | hosted.by.majorcore.com | - | High
+9 | [52.208.217.243](https://vuldb.com/?ip.52.208.217.243) | ec2-52-208-217-243.eu-west-1.compute.amazonaws.com | - | Medium
+10 | [54.188.107.146](https://vuldb.com/?ip.54.188.107.146) | ec2-54-188-107-146.us-west-2.compute.amazonaws.com | - | Medium
+11 | [65.0.5.240](https://vuldb.com/?ip.65.0.5.240) | ec2-65-0-5-240.ap-south-1.compute.amazonaws.com | - | Medium
+12 | [66.23.226.254](https://vuldb.com/?ip.66.23.226.254) | - | - | High
+13 | [66.208.244.253](https://vuldb.com/?ip.66.208.244.253) | sbs.heraldtech.net | - | High
+14 | ... | ... | ... | ...
 
-There are 35 more IOC items available. Please use our online service to access the data.
+There are 52 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -56,43 +60,46 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/api/addusers` | High
-2 | File | `/api/v11/users/sessions` | High
-3 | File | `/apply.cgi` | Medium
-4 | File | `/category.php` | High
-5 | File | `/cgi-bin/diagnostics` | High
-6 | File | `/cgi-bin/pass` | High
-7 | File | `/cmf/process/<process_id>/logs` | High
-8 | File | `/config.cgi?webmin` | High
-9 | File | `/connectors/index.php` | High
-10 | File | `/data/wps.setup.json` | High
-11 | File | `/index.php` | Medium
-12 | File | `/mcategory.php` | High
-13 | File | `/movie.php` | Medium
-14 | File | `/multi-vendor-shopping-script/product-list.php` | High
-15 | File | `/news-portal-script/information.php` | High
-16 | File | `/page.php` | Medium
-17 | File | `/public/login.htm` | High
-18 | File | `/public/plugins/` | High
-19 | File | `/real-estate-script/search_property.php` | High
-20 | File | `/recordings/index.php` | High
-21 | File | `/searchJob.php` | High
-22 | File | `/uncpath/` | Medium
-23 | File | `/user/loader.php?api=1` | High
-24 | File | `/var/miniupnpd.conf` | High
-25 | File | `/wp-admin/options-general.php` | High
-26 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-27 | File | `addrtoname.c` | Medium
-28 | File | `admin/languages.php` | High
-29 | File | `admin/src/containers/InputModalStepperProvider/index.js` | High
-30 | File | `adm_program/modules/dates/dates_function.php` | High
-31 | ... | ... | ...
+2 | File | `/api/baskets/{name}` | High
+3 | File | `/api/v11/users/sessions` | High
+4 | File | `/apply.cgi` | Medium
+5 | File | `/category.php` | High
+6 | File | `/cgi-bin/diagnostics` | High
+7 | File | `/cgi-bin/pass` | High
+8 | File | `/cmf/process/<process_id>/logs` | High
+9 | File | `/config.cgi?webmin` | High
+10 | File | `/connectors/index.php` | High
+11 | File | `/data/wps.setup.json` | High
+12 | File | `/download` | Medium
+13 | File | `/index.php` | Medium
+14 | File | `/mcategory.php` | High
+15 | File | `/movie.php` | Medium
+16 | File | `/multi-vendor-shopping-script/product-list.php` | High
+17 | File | `/news-portal-script/information.php` | High
+18 | File | `/page.php` | Medium
+19 | File | `/public/login.htm` | High
+20 | File | `/public/plugins/` | High
+21 | File | `/real-estate-script/search_property.php` | High
+22 | File | `/recordings/index.php` | High
+23 | File | `/searchJob.php` | High
+24 | File | `/uncpath/` | Medium
+25 | File | `/user/loader.php?api=1` | High
+26 | File | `/var/miniupnpd.conf` | High
+27 | File | `/wp-admin/options-general.php` | High
+28 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+29 | File | `addentry.php` | Medium
+30 | File | `addrtoname.c` | Medium
+31 | File | `add_edit_cat.asp` | High
+32 | File | `admin/languages.php` | High
+33 | ... | ... | ...
 
-There are 264 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 285 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://bazaar.abuse.ch/sample/de7fab866e4ec43a9421d6f98ee5d37ab55c0d341261eb93b564d39786b882ae/
 * https://threatfox.abuse.ch
 
 ## Literature

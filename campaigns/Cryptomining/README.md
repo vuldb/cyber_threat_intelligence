@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [HU](https://vuldb.com/?country.hu)
 * ...
 
-There are 6 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -57,23 +57,24 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/cgi-bin/editBookmark` | High
-2 | File | `/debug/pprof` | Medium
-3 | File | `/env` | Low
-4 | File | `/goform/SetNetControlList` | High
-5 | File | `/modules/tasks/summary.inc.php` | High
-6 | File | `/rest/api/2/user/picker` | High
-7 | File | `/uncpath/` | Medium
-8 | File | `/wp-json` | Medium
-9 | File | `admin/categories_industry.php` | High
-10 | File | `admin/category.inc.php` | High
-11 | File | `admin/content/postcategory` | High
-12 | File | `Adminstrator/Users/Edit/` | High
-13 | File | `agent.cfg` | Medium
-14 | File | `ALL_IN_THE_BOX.OCX` | High
-15 | ... | ... | ...
+1 | File | `/ajax.php?action=read_msg` | High
+2 | File | `/cgi-bin/editBookmark` | High
+3 | File | `/debug/pprof` | Medium
+4 | File | `/env` | Low
+5 | File | `/goform/SetNetControlList` | High
+6 | File | `/modules/tasks/summary.inc.php` | High
+7 | File | `/rest/api/2/user/picker` | High
+8 | File | `/src/chatbotapp/chatWindow.java` | High
+9 | File | `/uncpath/` | Medium
+10 | File | `/wp-json` | Medium
+11 | File | `admin/categories_industry.php` | High
+12 | File | `admin/category.inc.php` | High
+13 | File | `admin/content/postcategory` | High
+14 | File | `Adminstrator/Users/Edit/` | High
+15 | File | `agent.cfg` | Medium
+16 | ... | ... | ...
 
-There are 117 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 125 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

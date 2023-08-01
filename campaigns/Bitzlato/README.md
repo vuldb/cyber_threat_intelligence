@@ -120,7 +120,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -143,33 +143,35 @@ ID | Type | Indicator | Confidence
 13 | File | `/api/v2/cli/commands` | High
 14 | File | `/app/options.py` | High
 15 | File | `/attachments` | Medium
-16 | File | `/boat/login.php` | High
-17 | File | `/bsms_ci/index.php/book` | High
-18 | File | `/cgi-bin` | Medium
-19 | File | `/cgi-bin/luci/api/wireless` | High
-20 | File | `/cgi-bin/wlogin.cgi` | High
-21 | File | `/context/%2e/WEB-INF/web.xml` | High
-22 | File | `/dashboard/reports/logs/view` | High
-23 | File | `/dashboard/updatelogo.php` | High
-24 | File | `/debian/patches/load_ppp_generic_if_needed` | High
-25 | File | `/debug/pprof` | Medium
-26 | File | `/etc/hosts` | Medium
-27 | File | `/etc/openshift/server_priv.pem` | High
-28 | File | `/forum/away.php` | High
-29 | File | `/goform/setmac` | High
-30 | File | `/goform/wizard_end` | High
-31 | File | `/index.php` | Medium
-32 | File | `/manage-apartment.php` | High
-33 | File | `/medicines/profile.php` | High
-34 | File | `/mkshop/Men/profile.php` | High
-35 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-36 | File | `/Noxen-master/users.php` | High
-37 | File | `/pages/apply_vacancy.php` | High
-38 | File | `/proc/<PID>/mem` | High
-39 | File | `/proxy` | Low
-40 | ... | ... | ...
+16 | File | `/bin/ate` | Medium
+17 | File | `/boat/login.php` | High
+18 | File | `/booking/show_bookings/` | High
+19 | File | `/bsms_ci/index.php/book` | High
+20 | File | `/cgi-bin` | Medium
+21 | File | `/cgi-bin/luci/api/wireless` | High
+22 | File | `/cgi-bin/wlogin.cgi` | High
+23 | File | `/context/%2e/WEB-INF/web.xml` | High
+24 | File | `/dashboard/reports/logs/view` | High
+25 | File | `/dashboard/updatelogo.php` | High
+26 | File | `/debian/patches/load_ppp_generic_if_needed` | High
+27 | File | `/debug/pprof` | Medium
+28 | File | `/env` | Low
+29 | File | `/etc/hosts` | Medium
+30 | File | `/etc/openshift/server_priv.pem` | High
+31 | File | `/forum/away.php` | High
+32 | File | `/goform/setmac` | High
+33 | File | `/goform/wizard_end` | High
+34 | File | `/index.php` | Medium
+35 | File | `/manage-apartment.php` | High
+36 | File | `/medicines/profile.php` | High
+37 | File | `/mkshop/Men/profile.php` | High
+38 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+39 | File | `/Noxen-master/users.php` | High
+40 | File | `/pages/apply_vacancy.php` | High
+41 | File | `/php-sms/admin/?page=user/manage_user` | High
+42 | ... | ... | ...
 
-There are 342 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 362 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

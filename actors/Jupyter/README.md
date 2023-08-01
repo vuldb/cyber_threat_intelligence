@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
-* [GB](https://vuldb.com/?country.gb)
+* [DE](https://vuldb.com/?country.de)
 * ...
 
-There are 32 more country items available. Please use our online service to access the data.
+There are 33 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -36,7 +36,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-36, CWE-37 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-36, CWE-37 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
@@ -44,7 +44,7 @@ ID | Technique | Weakness | Description | Confidence
 6 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 7 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 23 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -52,40 +52,40 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `%PROGRAMDATA%\Razer\Synapse3\Service\bin` | High
-2 | File | `.../gogo/` | Medium
-3 | File | `.procmailrc` | Medium
-4 | File | `/?ajax-request=jnews` | High
-5 | File | `/admin/` | Low
-6 | File | `/admin/?page=system_info/contact_info` | High
-7 | File | `/admin/communitymanagement.php` | High
-8 | File | `/admin/contenttemp` | High
-9 | File | `/admin/edit_subject.php` | High
-10 | File | `/admin/extended` | High
-11 | File | `/admin/featured.php` | High
-12 | File | `/admin/generalsettings.php` | High
-13 | File | `/admin/login.php` | High
-14 | File | `/admin/modules/system/custom_field.php` | High
-15 | File | `/admin/newsletter1.php` | High
-16 | File | `/admin/payment.php` | High
-17 | File | `/admin/products/manage_product.php` | High
-18 | File | `/admin/students/manage.php` | High
-19 | File | `/admin/students/view_student.php` | High
-20 | File | `/admin/usermanagement.php` | High
-21 | File | `/api/addusers` | High
-22 | File | `/api/crontab` | Medium
-23 | File | `/api/user/upsert/<uuid>` | High
-24 | File | `/api2/html/` | Medium
-25 | File | `/apiadmin/notice/add` | High
-26 | File | `/appliance/users?action=edit` | High
-27 | File | `/backup.pl` | Medium
-28 | File | `/cgi-bin/wapopen` | High
-29 | File | `/cgi-bin/wlogin.cgi` | High
-30 | File | `/cgi-mod/lookup.cgi` | High
-31 | File | `/cloud_config/router_post/register` | High
-32 | File | `/dashboard/updatelogo.php` | High
-33 | File | `/designer/add/layout` | High
-34 | File | `/E-mobile/App/System/File/downfile.php` | High
+1 | File | `.../gogo/` | Medium
+2 | File | `.procmailrc` | Medium
+3 | File | `/?ajax-request=jnews` | High
+4 | File | `/admin/` | Low
+5 | File | `/admin/?page=system_info/contact_info` | High
+6 | File | `/admin/communitymanagement.php` | High
+7 | File | `/admin/contenttemp` | High
+8 | File | `/admin/edit_subject.php` | High
+9 | File | `/admin/extended` | High
+10 | File | `/admin/featured.php` | High
+11 | File | `/admin/generalsettings.php` | High
+12 | File | `/admin/login.php` | High
+13 | File | `/admin/newsletter1.php` | High
+14 | File | `/admin/payment.php` | High
+15 | File | `/admin/products/manage_product.php` | High
+16 | File | `/admin/reg.php` | High
+17 | File | `/admin/students/manage.php` | High
+18 | File | `/admin/students/view_student.php` | High
+19 | File | `/admin/usermanagement.php` | High
+20 | File | `/api/addusers` | High
+21 | File | `/api/crontab` | Medium
+22 | File | `/api/user/upsert/<uuid>` | High
+23 | File | `/api2/html/` | Medium
+24 | File | `/apiadmin/notice/add` | High
+25 | File | `/appliance/users?action=edit` | High
+26 | File | `/backup.pl` | Medium
+27 | File | `/booking/show_bookings/` | High
+28 | File | `/cgi-bin/wlogin.cgi` | High
+29 | File | `/cgi-mod/lookup.cgi` | High
+30 | File | `/dashboard/updatelogo.php` | High
+31 | File | `/designer/add/layout` | High
+32 | File | `/dipam/athlete-profile.php` | High
+33 | File | `/E-mobile/App/System/File/downfile.php` | High
+34 | File | `/ecommerce/support_ticket` | High
 35 | File | `/edoc/doctor/patient.php` | High
 36 | File | `/etc/ldap.conf` | High
 37 | File | `/etc/shadow` | Medium
@@ -109,9 +109,11 @@ ID | Type | Indicator | Confidence
 55 | File | `/mkshop/Men/profile.php` | High
 56 | File | `/Noxen-master/users.php` | High
 57 | File | `/opac/Actions.php?a=login` | High
-58 | ... | ... | ...
+58 | File | `/osm/REGISTER.cmd` | High
+59 | File | `/out.php` | Medium
+60 | ... | ... | ...
 
-There are 511 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 526 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

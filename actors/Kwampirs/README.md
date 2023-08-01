@@ -24,7 +24,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [NZ](https://vuldb.com/?country.nz)
 * ...
 
-There are 10 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -138,11 +138,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
-2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
 
@@ -154,41 +153,44 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.htaccess` | Medium
 2 | File | `/?r=email/api/mark&op=delFromSend` | High
-3 | File | `/admin/maintenance/view_designation.php` | High
-4 | File | `/ajax.php?action=read_msg` | High
-5 | File | `/analysisProject/pagingQueryData` | High
-6 | File | `/api/admin/system/store/order/list` | High
-7 | File | `/api/gen/clients/{language}` | High
-8 | File | `/api/geojson` | Medium
-9 | File | `/api/v2/cli/commands` | High
-10 | File | `/apply_noauth.cgi` | High
-11 | File | `/bin/sh` | Low
-12 | File | `/CFIDE/probe.cfm` | High
-13 | File | `/cgi-bin/system_mgr.cgi` | High
-14 | File | `/classes/Master.php?f=delete_category` | High
-15 | File | `/classes/Master.php?f=save_service` | High
-16 | File | `/common/sysFile/list` | High
-17 | File | `/context/%2e/WEB-INF/web.xml` | High
-18 | File | `/ctcprotocol/Protocol` | High
-19 | File | `/data/remove` | Medium
-20 | File | `/debug/pprof` | Medium
-21 | File | `/Default/Bd` | Medium
-22 | File | `/ebics-server/ebics.aspx` | High
-23 | File | `/etc/openstack-dashboard/local_settings` | High
-24 | File | `/filemanager/upload.php` | High
-25 | File | `/forum/away.php` | High
-26 | File | `/goform/addressNat` | High
-27 | File | `/HNAP1` | Low
-28 | File | `/HNAP1/SetClientInfo` | High
-29 | File | `/inc/jquery/uploadify/uploadify.php` | High
-30 | File | `/js/player/dmplayer/dmku/index.php` | High
-31 | File | `/KK_LS9ReportingPortal/GetData` | High
-32 | File | `/menu.html` | Medium
-33 | File | `/modules/profile/index.php` | High
-34 | File | `/orrs/admin/?page=user/manage_user` | High
-35 | ... | ... | ...
+3 | File | `/act/ActDao.xml` | High
+4 | File | `/admin/edit.php` | High
+5 | File | `/admin/maintenance/view_designation.php` | High
+6 | File | `/ajax.php?action=read_msg` | High
+7 | File | `/analysisProject/pagingQueryData` | High
+8 | File | `/api/admin/system/store/order/list` | High
+9 | File | `/api/baskets/{name}` | High
+10 | File | `/api/gen/clients/{language}` | High
+11 | File | `/api/geojson` | Medium
+12 | File | `/api/v2/cli/commands` | High
+13 | File | `/bin/ate` | Medium
+14 | File | `/bin/sh` | Low
+15 | File | `/booking/show_bookings/` | High
+16 | File | `/CFIDE/probe.cfm` | High
+17 | File | `/cgi-bin/system_mgr.cgi` | High
+18 | File | `/classes/Master.php?f=delete_category` | High
+19 | File | `/classes/Master.php?f=save_service` | High
+20 | File | `/common/sysFile/list` | High
+21 | File | `/concat?/%2557EB-INF/web.xml` | High
+22 | File | `/context/%2e/WEB-INF/web.xml` | High
+23 | File | `/Controller/Ajaxfileupload.ashx` | High
+24 | File | `/data/remove` | Medium
+25 | File | `/debug/pprof` | Medium
+26 | File | `/Default/Bd` | Medium
+27 | File | `/ebics-server/ebics.aspx` | High
+28 | File | `/env` | Low
+29 | File | `/etc/openstack-dashboard/local_settings` | High
+30 | File | `/etc/passwd` | Medium
+31 | File | `/forum/away.php` | High
+32 | File | `/goform/addressNat` | High
+33 | File | `/goform/AdvSetLanip` | High
+34 | File | `/goform/fromSetWirelessRepeat` | High
+35 | File | `/goform/setmac` | High
+36 | File | `/goform/setMacFilterCfg` | High
+37 | File | `/goform/SetSysTimeCfg` | High
+38 | ... | ... | ...
 
-There are 297 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 323 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

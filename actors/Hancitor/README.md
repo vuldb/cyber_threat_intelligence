@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 14 more country items available. Please use our online service to access the data.
+There are 13 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -43,13 +43,17 @@ ID | IP address | Hostname | Campaign | Confidence
 14 | [27.124.124.97](https://vuldb.com/?ip.27.124.124.97) | server-2p-r17.ipv4.per01.ds.network | - | High
 15 | [31.44.184.36](https://vuldb.com/?ip.31.44.184.36) | - | - | High
 16 | [31.44.184.62](https://vuldb.com/?ip.31.44.184.62) | - | - | High
-17 | [34.213.214.65](https://vuldb.com/?ip.34.213.214.65) | ec2-34-213-214-65.us-west-2.compute.amazonaws.com | - | Medium
-18 | [45.40.182.1](https://vuldb.com/?ip.45.40.182.1) | ip-45-40-182-1.ip.secureserver.net | - | High
-19 | [45.49.169.80](https://vuldb.com/?ip.45.49.169.80) | cpe-45-49-169-80.socal.res.rr.com | - | High
-20 | [45.153.73.33](https://vuldb.com/?ip.45.153.73.33) | - | - | High
-21 | ... | ... | ... | ...
+17 | [31.44.184.123](https://vuldb.com/?ip.31.44.184.123) | - | - | High
+18 | [34.213.214.65](https://vuldb.com/?ip.34.213.214.65) | ec2-34-213-214-65.us-west-2.compute.amazonaws.com | - | Medium
+19 | [45.40.182.1](https://vuldb.com/?ip.45.40.182.1) | ip-45-40-182-1.ip.secureserver.net | - | High
+20 | [45.49.169.80](https://vuldb.com/?ip.45.49.169.80) | cpe-45-49-169-80.socal.res.rr.com | - | High
+21 | [45.153.73.33](https://vuldb.com/?ip.45.153.73.33) | - | - | High
+22 | [46.163.119.217](https://vuldb.com/?ip.46.163.119.217) | plesk17.it-center.at | - | High
+23 | [47.52.45.178](https://vuldb.com/?ip.47.52.45.178) | - | - | High
+24 | [47.74.181.177](https://vuldb.com/?ip.47.74.181.177) | - | - | High
+25 | ... | ... | ... | ...
 
-There are 80 more IOC items available. Please use our online service to access the data.
+There are 96 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -58,13 +62,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -72,41 +76,41 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/card_scan.php` | High
-2 | File | `/cgi-bin/wlogin.cgi` | High
-3 | File | `/cwc/login` | Medium
-4 | File | `/etc/quagga` | Medium
-5 | File | `/files.md5` | Medium
-6 | File | `/forms/doLogin` | High
-7 | File | `/forum/away.php` | High
-8 | File | `/h/calendar` | Medium
-9 | File | `/hrm/employeeview.php` | High
-10 | File | `/index.php` | Medium
-11 | File | `/lan.asp` | Medium
-12 | File | `/librarian/bookdetails.php` | High
-13 | File | `/lists/index.php` | High
-14 | File | `/members/view_member.php` | High
-15 | File | `/messageboard/view.php` | High
-16 | File | `/nova/bin/console` | High
-17 | File | `/nova/bin/detnet` | High
-18 | File | `/one_church/userregister.php` | High
-19 | File | `/out.php` | Medium
-20 | File | `/owa/auth/logon.aspx` | High
-21 | File | `/rom-0` | Low
-22 | File | `/SAP_Information_System/controllers/add_admin.php` | High
-23 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-24 | File | `/ServletAPI/accounts/login` | High
+1 | File | `/admin/reminders/manage_reminder.php` | High
+2 | File | `/card_scan.php` | High
+3 | File | `/cgi-bin/wlogin.cgi` | High
+4 | File | `/csms/admin/inquiries/view_details.php` | High
+5 | File | `/cwc/login` | Medium
+6 | File | `/etc/quagga` | Medium
+7 | File | `/files.md5` | Medium
+8 | File | `/forms/doLogin` | High
+9 | File | `/forum/away.php` | High
+10 | File | `/h/calendar` | Medium
+11 | File | `/hrm/employeeview.php` | High
+12 | File | `/include/chart_generator.php` | High
+13 | File | `/index.php` | Medium
+14 | File | `/lan.asp` | Medium
+15 | File | `/librarian/bookdetails.php` | High
+16 | File | `/lists/index.php` | High
+17 | File | `/members/view_member.php` | High
+18 | File | `/messageboard/view.php` | High
+19 | File | `/nova/bin/detnet` | High
+20 | File | `/out.php` | Medium
+21 | File | `/owa/auth/logon.aspx` | High
+22 | File | `/rom-0` | Low
+23 | File | `/ServletAPI/accounts/login` | High
+24 | File | `/SVFE2/pages/feegroups/country_group.jsf` | High
 25 | File | `/textpattern/index.php` | High
 26 | File | `/trx_addons/v2/get/sc_layout` | High
 27 | File | `/v2/quantum/save-data-upload-big-file` | High
 28 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
 29 | File | `/wp-json` | Medium
-30 | File | `/wp-json/oembed/1.0/embed?url` | High
-31 | File | `4.edu.php` | Medium
-32 | File | `adclick.php` | Medium
+30 | File | `4.edu.php` | Medium
+31 | File | `adclick.php` | Medium
+32 | File | `adm.cgi` | Low
 33 | ... | ... | ...
 
-There are 277 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 285 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -123,9 +127,11 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://isc.sans.edu/forums/diary/June+2021+Forensic+Contest+Answers+and+Analysis/27582/
 * https://isc.sans.edu/forums/diary/Malspam+pushing+Word+documents+with+Hancitor+malware/22858/
 * https://isc.sans.edu/forums/diary/RTF+files+for+Hancitor+utilize+exploit+for+CVE201711882/23271/
+* https://pastebin.com/XXANB1uP
 * https://thedfirreport.com/2021/06/28/hancitor-continues-to-push-cobalt-strike/
 * https://thedfirreport.com/2021/11/01/from-zero-to-domain-admin/
 * https://tria.ge/220328-wn8kwshcdj
+* https://www.cyber45.com
 
 ## Literature
 

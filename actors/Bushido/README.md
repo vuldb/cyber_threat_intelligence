@@ -48,11 +48,11 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `comments/feed` | High
-2 | File | `drivers/hwmon/xgene-hwmon.c` | High
-3 | File | `mainfunction.cgi` | High
+2 | File | `default.asp` | Medium
+3 | File | `drivers/hwmon/xgene-hwmon.c` | High
 4 | ... | ... | ...
 
-There are 7 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 9 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

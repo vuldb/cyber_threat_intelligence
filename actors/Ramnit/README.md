@@ -80,25 +80,27 @@ ID | IP address | Hostname | Campaign | Confidence
 51 | [37.220.31.41](https://vuldb.com/?ip.37.220.31.41) | mail.joefre.com | - | High
 52 | [39.107.34.197](https://vuldb.com/?ip.39.107.34.197) | - | - | High
 53 | [43.231.4.7](https://vuldb.com/?ip.43.231.4.7) | - | - | High
-54 | [45.55.36.236](https://vuldb.com/?ip.45.55.36.236) | - | - | High
-55 | [45.63.25.55](https://vuldb.com/?ip.45.63.25.55) | 45.63.25.55.vultrusercontent.com | - | High
-56 | [45.90.34.87](https://vuldb.com/?ip.45.90.34.87) | - | - | High
-57 | [45.118.145.96](https://vuldb.com/?ip.45.118.145.96) | - | - | High
-58 | [46.17.47.67](https://vuldb.com/?ip.46.17.47.67) | fxchfjhtftfr.net | - | High
-59 | [46.161.40.50](https://vuldb.com/?ip.46.161.40.50) | hosting-by.ankas-group.net | - | High
-60 | [46.165.220.141](https://vuldb.com/?ip.46.165.220.141) | - | - | High
-61 | [46.165.220.142](https://vuldb.com/?ip.46.165.220.142) | - | - | High
-62 | [46.165.220.143](https://vuldb.com/?ip.46.165.220.143) | - | - | High
-63 | [46.165.220.144](https://vuldb.com/?ip.46.165.220.144) | - | - | High
-64 | [46.165.220.145](https://vuldb.com/?ip.46.165.220.145) | - | - | High
-65 | [46.165.220.146](https://vuldb.com/?ip.46.165.220.146) | - | - | High
-66 | [46.165.220.147](https://vuldb.com/?ip.46.165.220.147) | - | - | High
-67 | [46.165.220.148](https://vuldb.com/?ip.46.165.220.148) | - | - | High
-68 | [46.165.220.149](https://vuldb.com/?ip.46.165.220.149) | - | - | High
-69 | [46.165.220.150](https://vuldb.com/?ip.46.165.220.150) | - | - | High
-70 | ... | ... | ... | ...
+54 | [45.33.2.79](https://vuldb.com/?ip.45.33.2.79) | li956-79.members.linode.com | - | High
+55 | [45.33.18.44](https://vuldb.com/?ip.45.33.18.44) | li972-44.members.linode.com | - | High
+56 | [45.33.20.235](https://vuldb.com/?ip.45.33.20.235) | li974-235.members.linode.com | - | High
+57 | [45.33.23.183](https://vuldb.com/?ip.45.33.23.183) | li977-183.members.linode.com | - | High
+58 | [45.33.30.197](https://vuldb.com/?ip.45.33.30.197) | li1047-197.members.linode.com | - | High
+59 | [45.55.36.236](https://vuldb.com/?ip.45.55.36.236) | - | - | High
+60 | [45.56.79.23](https://vuldb.com/?ip.45.56.79.23) | li929-23.members.linode.com | - | High
+61 | [45.63.25.55](https://vuldb.com/?ip.45.63.25.55) | 45.63.25.55.vultrusercontent.com | - | High
+62 | [45.79.19.196](https://vuldb.com/?ip.45.79.19.196) | li1118-196.members.linode.com | - | High
+63 | [45.90.34.87](https://vuldb.com/?ip.45.90.34.87) | - | - | High
+64 | [45.118.145.96](https://vuldb.com/?ip.45.118.145.96) | - | - | High
+65 | [46.17.47.67](https://vuldb.com/?ip.46.17.47.67) | fxchfjhtftfr.net | - | High
+66 | [46.161.40.50](https://vuldb.com/?ip.46.161.40.50) | hosting-by.ankas-group.net | - | High
+67 | [46.165.220.141](https://vuldb.com/?ip.46.165.220.141) | - | - | High
+68 | [46.165.220.142](https://vuldb.com/?ip.46.165.220.142) | - | - | High
+69 | [46.165.220.143](https://vuldb.com/?ip.46.165.220.143) | - | - | High
+70 | [46.165.220.144](https://vuldb.com/?ip.46.165.220.144) | - | - | High
+71 | [46.165.220.145](https://vuldb.com/?ip.46.165.220.145) | - | - | High
+72 | ... | ... | ... | ...
 
-There are 275 more IOC items available. Please use our online service to access the data.
+There are 286 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -147,9 +149,10 @@ ID | Type | Indicator | Confidence
 25 | File | `/server-status` | High
 26 | File | `/uncpath/` | Medium
 27 | File | `?page=about` | Medium
-28 | ... | ... | ...
+28 | File | `adclick.php` | Medium
+29 | ... | ... | ...
 
-There are 234 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 242 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -182,6 +185,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/threat-roundup-0421-0428-2/
 * https://blog.talosintelligence.com/threat-roundup-0428-0505/
 * https://blog.talosintelligence.com/threat-roundup-0519-0526-23/
+* https://blog.talosintelligence.com/threat-roundup-0602-0609-23/
 * https://blog.talosintelligence.com/threat-roundup-1028-1104/
 * https://github.com/firehol/blocklist-ipsets/blob/master/bambenek_ramnit.ipset
 * https://research.checkpoint.com/2018/new-ramnit-campaign-spreads-azorult-malware/

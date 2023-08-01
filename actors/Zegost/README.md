@@ -69,7 +69,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -79,23 +79,23 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
 2 | File | `/?admin/user.html` | High
-3 | File | `/admin/addemployee.php` | High
-4 | File | `/admin/inquiries/view_inquiry.php` | High
-5 | File | `/admin/maintenance/view_designation.php` | High
-6 | File | `/admin/report/index.php` | High
-7 | File | `/ajax.php?action=read_msg` | High
-8 | File | `/api/gen/clients/{language}` | High
-9 | File | `/app/options.py` | High
-10 | File | `/bin/httpd` | Medium
-11 | File | `/cgi-bin/wapopen` | High
-12 | File | `/cgi-bin/webadminget.cgi` | High
-13 | File | `/ci_spms/admin/category` | High
-14 | File | `/ci_spms/admin/search/searching/` | High
-15 | File | `/classes/Master.php?f=delete_appointment` | High
-16 | File | `/classes/Master.php?f=delete_service` | High
-17 | File | `/classes/Master.php?f=delete_train` | High
-18 | File | `/classes/Master.php?f=save_course` | High
-19 | File | `/Content/Template/root/reverse-shell.aspx` | High
+3 | File | `/act/ActDao.xml` | High
+4 | File | `/admin/addemployee.php` | High
+5 | File | `/admin/inquiries/view_inquiry.php` | High
+6 | File | `/admin/maintenance/view_designation.php` | High
+7 | File | `/admin/report/index.php` | High
+8 | File | `/ajax.php?action=read_msg` | High
+9 | File | `/api/gen/clients/{language}` | High
+10 | File | `/app/options.py` | High
+11 | File | `/bin/httpd` | Medium
+12 | File | `/cgi-bin/wapopen` | High
+13 | File | `/cgi-bin/webadminget.cgi` | High
+14 | File | `/ci_spms/admin/category` | High
+15 | File | `/ci_spms/admin/search/searching/` | High
+16 | File | `/classes/Master.php?f=delete_appointment` | High
+17 | File | `/classes/Master.php?f=delete_service` | High
+18 | File | `/classes/Master.php?f=delete_train` | High
+19 | File | `/classes/Master.php?f=save_course` | High
 20 | File | `/ctcprotocol/Protocol` | High
 21 | File | `/dashboard/menu-list.php` | High
 22 | File | `/ebics-server/ebics.aspx` | High
@@ -124,7 +124,7 @@ ID | Type | Indicator | Confidence
 45 | File | `/sys/dict/queryTableData` | High
 46 | ... | ... | ...
 
-There are 397 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 401 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

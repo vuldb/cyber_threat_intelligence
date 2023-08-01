@@ -37,7 +37,7 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-28 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -67,30 +67,33 @@ ID | Type | Indicator | Confidence
 16 | File | `/attachments` | Medium
 17 | File | `/bin/ate` | Medium
 18 | File | `/boat/login.php` | High
-19 | File | `/bsms_ci/index.php/book` | High
-20 | File | `/cgi-bin` | Medium
-21 | File | `/cgi-bin/luci/api/wireless` | High
-22 | File | `/cgi-bin/wlogin.cgi` | High
-23 | File | `/context/%2e/WEB-INF/web.xml` | High
-24 | File | `/dashboard/reports/logs/view` | High
-25 | File | `/debian/patches/load_ppp_generic_if_needed` | High
-26 | File | `/debug/pprof` | Medium
-27 | File | `/env` | Low
-28 | File | `/etc/hosts` | Medium
-29 | File | `/forum/away.php` | High
-30 | File | `/goform/setmac` | High
-31 | File | `/goform/wizard_end` | High
-32 | File | `/manage-apartment.php` | High
-33 | File | `/medicines/profile.php` | High
-34 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-35 | File | `/pages/apply_vacancy.php` | High
-36 | File | `/php-sms/admin/?page=user/manage_user` | High
-37 | File | `/proc/<PID>/mem` | High
-38 | File | `/proxy` | Low
-39 | File | `/reservation/add_message.php` | High
-40 | ... | ... | ...
+19 | File | `/booking/show_bookings/` | High
+20 | File | `/bsms_ci/index.php/book` | High
+21 | File | `/cgi-bin` | Medium
+22 | File | `/cgi-bin/luci/api/wireless` | High
+23 | File | `/cgi-bin/wlogin.cgi` | High
+24 | File | `/context/%2e/WEB-INF/web.xml` | High
+25 | File | `/dashboard/reports/logs/view` | High
+26 | File | `/debian/patches/load_ppp_generic_if_needed` | High
+27 | File | `/debug/pprof` | Medium
+28 | File | `/env` | Low
+29 | File | `/etc/hosts` | Medium
+30 | File | `/forum/away.php` | High
+31 | File | `/goform/setmac` | High
+32 | File | `/goform/wizard_end` | High
+33 | File | `/manage-apartment.php` | High
+34 | File | `/medicines/profile.php` | High
+35 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+36 | File | `/pages/apply_vacancy.php` | High
+37 | File | `/php-sms/admin/?page=user/manage_user` | High
+38 | File | `/proc/<PID>/mem` | High
+39 | File | `/proxy` | Low
+40 | File | `/reservation/add_message.php` | High
+41 | File | `/spip.php` | Medium
+42 | File | `/tmp` | Low
+43 | ... | ... | ...
 
-There are 349 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 369 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

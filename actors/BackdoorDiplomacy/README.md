@@ -47,8 +47,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | T1068 | CWE-250, CWE-264, CWE-266, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
-7 | ... | ... | ... | ...
+6 | ... | ... | ... | ...
 
 There are 22 more TTP items available. Please use our online service to access the data.
 
@@ -59,52 +58,52 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/administrator/components/table_manager/` | High
-3 | File | `/ajax.php?action=read_msg` | High
-4 | File | `/ajax/networking/get_netcfg.php` | High
-5 | File | `/api/gen/clients/{language}` | High
-6 | File | `/app/options.py` | High
-7 | File | `/bin/httpd` | Medium
-8 | File | `/cgi-bin/wapopen` | High
-9 | File | `/ci_spms/admin/category` | High
-10 | File | `/ci_spms/admin/search/searching/` | High
-11 | File | `/classes/Master.php?f=delete_appointment` | High
-12 | File | `/classes/Master.php?f=delete_train` | High
-13 | File | `/cms/print.php` | High
-14 | File | `/concat?/%2557EB-INF/web.xml` | High
-15 | File | `/Content/Template/root/reverse-shell.aspx` | High
-16 | File | `/ctcprotocol/Protocol` | High
-17 | File | `/dashboard/menu-list.php` | High
-18 | File | `/data/remove` | Medium
-19 | File | `/ebics-server/ebics.aspx` | High
-20 | File | `/ffos/classes/Master.php?f=save_category` | High
-21 | File | `/filemanager/upload/drop` | High
-22 | File | `/forum/away.php` | High
-23 | File | `/goforms/rlminfo` | High
-24 | File | `/HNAP1` | Low
-25 | File | `/HNAP1/SetClientInfo` | High
-26 | File | `/index.php/newsletter/subscriber/new/` | High
-27 | File | `/Items/*/RemoteImages/Download` | High
-28 | File | `/menu.html` | Medium
-29 | File | `/mkshop/Men/profile.php` | High
-30 | File | `/modules/profile/index.php` | High
-31 | File | `/navigate/navigate_download.php` | High
-32 | File | `/ocwbs/admin/?page=user/manage_user` | High
-33 | File | `/ofrs/admin/?page=user/manage_user` | High
-34 | File | `/out.php` | Medium
-35 | File | `/password.html` | High
-36 | File | `/php_action/fetchSelectedUser.php` | High
-37 | File | `/property-list/property_view.php` | High
-38 | File | `/ptms/classes/Users.php` | High
-39 | File | `/resources//../` | High
-40 | File | `/rest/api/2/search` | High
-41 | File | `/s/` | Low
-42 | File | `/scripts/cpan_config` | High
-43 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-44 | File | `/spip.php` | Medium
+2 | File | `/act/ActDao.xml` | High
+3 | File | `/administrator/components/table_manager/` | High
+4 | File | `/ajax.php?action=read_msg` | High
+5 | File | `/ajax/networking/get_netcfg.php` | High
+6 | File | `/api/gen/clients/{language}` | High
+7 | File | `/app/options.py` | High
+8 | File | `/bin/httpd` | Medium
+9 | File | `/cgi-bin/wapopen` | High
+10 | File | `/ci_spms/admin/category` | High
+11 | File | `/ci_spms/admin/search/searching/` | High
+12 | File | `/classes/Master.php?f=delete_appointment` | High
+13 | File | `/classes/Master.php?f=delete_train` | High
+14 | File | `/cms/print.php` | High
+15 | File | `/concat?/%2557EB-INF/web.xml` | High
+16 | File | `/Content/Template/root/reverse-shell.aspx` | High
+17 | File | `/ctcprotocol/Protocol` | High
+18 | File | `/dashboard/menu-list.php` | High
+19 | File | `/data/remove` | Medium
+20 | File | `/ebics-server/ebics.aspx` | High
+21 | File | `/ffos/classes/Master.php?f=save_category` | High
+22 | File | `/filemanager/upload/drop` | High
+23 | File | `/forum/away.php` | High
+24 | File | `/goforms/rlminfo` | High
+25 | File | `/HNAP1` | Low
+26 | File | `/HNAP1/SetClientInfo` | High
+27 | File | `/index.php/newsletter/subscriber/new/` | High
+28 | File | `/Items/*/RemoteImages/Download` | High
+29 | File | `/menu.html` | Medium
+30 | File | `/mkshop/Men/profile.php` | High
+31 | File | `/modules/profile/index.php` | High
+32 | File | `/navigate/navigate_download.php` | High
+33 | File | `/ocwbs/admin/?page=user/manage_user` | High
+34 | File | `/ofrs/admin/?page=user/manage_user` | High
+35 | File | `/out.php` | Medium
+36 | File | `/password.html` | High
+37 | File | `/php_action/fetchSelectedUser.php` | High
+38 | File | `/property-list/property_view.php` | High
+39 | File | `/ptms/classes/Users.php` | High
+40 | File | `/resources//../` | High
+41 | File | `/rest/api/2/search` | High
+42 | File | `/s/` | Low
+43 | File | `/scripts/cpan_config` | High
+44 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
 45 | ... | ... | ...
 
-There are 387 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 389 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

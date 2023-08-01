@@ -10,7 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
-* [IT](https://vuldb.com/?country.it)
+* [GB](https://vuldb.com/?country.gb)
+* ...
+
+There are 1 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -19,11 +22,11 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [45.151.137.145](https://vuldb.com/?ip.45.151.137.145) | vps257016.vpsville.ru | - | High
-2 | [85.192.63.194](https://vuldb.com/?ip.85.192.63.194) | available-fog.aeza.network | - | High
-3 | [185.220.35.84](https://vuldb.com/?ip.185.220.35.84) | vps07019.vpsville.ru | - | High
+2 | [77.105.147.158](https://vuldb.com/?ip.77.105.147.158) | square-jar.aeza.network | - | High
+3 | [85.192.63.194](https://vuldb.com/?ip.85.192.63.194) | available-fog.aeza.network | - | High
 4 | ... | ... | ... | ...
 
-There are 1 more IOC items available. Please use our online service to access the data.
+There are 2 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -52,12 +55,13 @@ ID | Type | Indicator | Confidence
 6 | File | `adclick.php` | Medium
 7 | ... | ... | ...
 
-There are 51 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 52 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://app.any.run/tasks/0f74e166-1bbc-4e43-9063-a7f571f69c09
 * https://app.any.run/tasks/f43fcedd-fdfc-4fed-9e26-ffca5797e9bd
 * https://blog.cyble.com/2022/06/30/infostealer/
 * https://threatfox.abuse.ch

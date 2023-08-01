@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [US](https://vuldb.com/?country.us)
 * ...
 
-There are 4 more country items available. Please use our online service to access the data.
+There are 2 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -40,9 +40,10 @@ ID | IP address | Hostname | Actor | Confidence
 8 | [37.44.244.106](https://vuldb.com/?ip.37.44.244.106) | - | [Tsunami](https://vuldb.com/?actor.tsunami) | High
 9 | [37.44.244.124](https://vuldb.com/?ip.37.44.244.124) | - | [Tsunami](https://vuldb.com/?actor.tsunami) | High
 10 | [45.9.148.44](https://vuldb.com/?ip.45.9.148.44) | - | [Tsunami](https://vuldb.com/?actor.tsunami) | High
-11 | ... | ... | ... | ...
+11 | [45.9.148.182](https://vuldb.com/?ip.45.9.148.182) | - | [Tsunami](https://vuldb.com/?actor.tsunami) | High
+12 | ... | ... | ... | ...
 
-There are 41 more IOC items available. Please use our online service to access the data.
+There are 42 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -50,14 +51,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-29, CWE-37, CWE-425 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79 | Cross Site Scripting | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-29, CWE-36 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1068 | CWE-264, CWE-269, CWE-274, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -67,46 +68,40 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.htaccess` | Medium
 2 | File | `//proc/kcore` | Medium
-3 | File | `/?p=products` | Medium
-4 | File | `/action/wirelessConnect` | High
-5 | File | `/admin-ajax.php?action=eps_redirect_save` | High
-6 | File | `/admin/assign/assign.php` | High
-7 | File | `/admin/cashadvance_row.php` | High
-8 | File | `/admin/contacts/organizations/edit/2` | High
-9 | File | `/admin/curriculum/view_curriculum.php` | High
-10 | File | `/admin/departments/view_department.php` | High
-11 | File | `/admin/login.php` | High
-12 | File | `/admin/maintenance/view_designation.php` | High
-13 | File | `/admin/suppliers/view_details.php` | High
-14 | File | `/admin/user/manage_user.php` | High
-15 | File | `/admin/user/uploadImg` | High
-16 | File | `/ajax.php?action=read_msg` | High
-17 | File | `/api/admin/store/product/list` | High
-18 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
-19 | File | `/authenticationendpoint/login.do` | High
-20 | File | `/bin/login` | Medium
-21 | File | `/cgi-bin/kerbynet` | High
-22 | File | `/cgi-bin/luci` | High
-23 | File | `/cgi-bin/wlogin.cgi` | High
-24 | File | `/classes/Master.php` | High
-25 | File | `/classes/Master.php?f=delete_item` | High
-26 | File | `/config/getuser` | High
-27 | File | `/Content/Template/root/reverse-shell.aspx` | High
-28 | File | `/debug/pprof` | Medium
-29 | File | `/env` | Low
-30 | File | `/forms/doLogin` | High
-31 | File | `/forum/away.php` | High
-32 | File | `/HNAP1` | Low
-33 | File | `/licenses` | Medium
-34 | File | `/Log/Query?appid=0B736354-9473-4D66-B9C0-15CAC149EB05&tabid=tab_0B73635494734D66B9C015CAC149EB05` | High
-35 | File | `/login/index.php` | High
-36 | File | `/mc` | Low
-37 | File | `/menu.html` | Medium
-38 | File | `/mims/login.php` | High
-39 | File | `/out.php` | Medium
-40 | ... | ... | ...
+3 | File | `/admin/contacts/organizations/edit/2` | High
+4 | File | `/ajax.php?action=read_msg` | High
+5 | File | `/api/baskets/{name}` | High
+6 | File | `/api/upload.php` | High
+7 | File | `/api?path=profile` | High
+8 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
+9 | File | `/authenticationendpoint/login.do` | High
+10 | File | `/bin/login` | Medium
+11 | File | `/cgi-bin/luci` | High
+12 | File | `/cgi-bin/wlogin.cgi` | High
+13 | File | `/contact/store` | High
+14 | File | `/debug/pprof` | Medium
+15 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
+16 | File | `/ecommerce/support_ticket` | High
+17 | File | `/env` | Low
+18 | File | `/forum/away.php` | High
+19 | File | `/FuguHub/cmsdocs/` | High
+20 | File | `/h/autoSaveDraft` | High
+21 | File | `/HNAP1` | Low
+22 | File | `/index.php` | Medium
+23 | File | `/Log/Query?appid=0B736354-9473-4D66-B9C0-15CAC149EB05&tabid=tab_0B73635494734D66B9C015CAC149EB05` | High
+24 | File | `/mc` | Low
+25 | File | `/menu.html` | Medium
+26 | File | `/out.php` | Medium
+27 | File | `/php-inventory-management-system/product.php` | High
+28 | File | `/plain` | Low
+29 | File | `/registration.php` | High
+30 | File | `/release-x64/otfccdump+0x61731f` | High
+31 | File | `/search.php` | Medium
+32 | File | `/settings/account` | High
+33 | File | `/src/chatbotapp/chatWindow.java` | High
+34 | ... | ... | ...
 
-There are 344 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 289 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -128,10 +123,12 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://bazaar.abuse.ch/sample/355807fc92869c656200c3c8a7f41cd204c92a5abf3437324e4a0a6a8a68ed78/
 * https://bazaar.abuse.ch/sample/aaa03b1810498597909ddb7756779921fd187df1baea91faafeee0e00ffdaccc/
 * https://bazaar.abuse.ch/sample/b30702b6432c4a5ca65ebc060b72f28ba71f60b20bb38b6f858af5e6aa61896f/
+* https://bazaar.abuse.ch/sample/d335c83c0dd5bc9a078e796016f9a9f845ff89ee434c63c7a2e7b360e8be3e95/
 * https://bazaar.abuse.ch/sample/db31b258371a7e643cb35cb84798090a00c6c02cd9879f02187cdbba60be1ce3/
 * https://bazaar.abuse.ch/sample/e21ba3f25330cf22713367d510a50510ec807e73240f4f9ad3e37987754de534/
 * https://bazaar.abuse.ch/sample/fe3c5c4f94b90619f7385606dfb86b6211b030efe19b49c12ead507c8156507a/
 * https://blog.netlab.360.com/threat-alert-log4j-vulnerability-has-been-adopted-by-two-linux-botnets/
+* https://exchange.xforce.ibmcloud.com/threats/guid:94e798f76e8cfd2feab41ea2d028135a
 * https://threatfox.abuse.ch
 * https://unit42.paloaltonetworks.com/analysis-of-smoke-loader-in-new-tsunami-campaign/
 * https://urlhaus.abuse.ch/host/202.110.187.205/

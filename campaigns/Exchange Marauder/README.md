@@ -45,7 +45,8 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-22, CWE-23 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
-4 | ... | ... | ... | ...
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
 There are 14 more TTP items available. Please use our online service to access the data.
 
@@ -62,11 +63,11 @@ ID | Type | Indicator | Confidence
 5 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
 6 | File | `/wp-json/oembed/1.0/embed?url` | High
 7 | File | `admin/modules/tools/ip_history_logs.php` | High
-8 | File | `admin_feature.php` | High
-9 | File | `api_poller.php` | High
+8 | File | `adminer.php` | Medium
+9 | File | `admin_feature.php` | High
 10 | ... | ... | ...
 
-There are 71 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 72 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

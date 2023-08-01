@@ -32,6 +32,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1059 | CWE-94 | Cross Site Scripting | High
+2 | T1600.001 | CWE-334 | Key Management Error | High
 
 ## IOA - Indicator of Attack
 
@@ -40,11 +41,11 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/cgi-bin/nobody/VerifyCode.cgi` | High
-2 | File | `Util/PHP/eval-stdin.php` | High
-3 | Argument | `login` | Low
+2 | File | `ext/soap/php_http.c` | High
+3 | File | `Util/PHP/eval-stdin.php` | High
 4 | ... | ... | ...
 
-There are 1 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 2 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

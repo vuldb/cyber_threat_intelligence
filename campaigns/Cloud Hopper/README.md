@@ -66,7 +66,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -75,15 +75,15 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/../conf/config.properties` | High
-2 | File | `/dashboard/updatelogo.php` | High
-3 | File | `/drivers/infiniband/core/cm.c` | High
-4 | File | `/etc/openshift/server_priv.pem` | High
-5 | File | `/files.md5` | Medium
-6 | File | `/forum/away.php` | High
-7 | File | `/horde/util/go.php` | High
+2 | File | `/admin/reminders/manage_reminder.php` | High
+3 | File | `/csms/admin/inquiries/view_details.php` | High
+4 | File | `/dashboard/updatelogo.php` | High
+5 | File | `/etc/openshift/server_priv.pem` | High
+6 | File | `/files.md5` | Medium
+7 | File | `/forum/away.php` | High
 8 | File | `/hrm/employeeview.php` | High
 9 | File | `/images/` | Medium
-10 | File | `/inc/parser/xhtml.php` | High
+10 | File | `/include/chart_generator.php` | High
 11 | File | `/index.php` | Medium
 12 | File | `/librarian/bookdetails.php` | High
 13 | File | `/login` | Low
@@ -101,15 +101,16 @@ ID | Type | Indicator | Confidence
 25 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
 26 | File | `/secure/admin/ViewInstrumentation.jspa` | High
 27 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
-28 | File | `/textpattern/index.php` | High
-29 | File | `/uncpath/` | Medium
+28 | File | `/SVFE2/pages/feegroups/country_group.jsf` | High
+29 | File | `/textpattern/index.php` | High
 30 | File | `/v2/quantum/save-data-upload-big-file` | High
 31 | File | `4.edu.php` | Medium
 32 | File | `adclick.php` | Medium
 33 | File | `addentry.php` | Medium
-34 | ... | ... | ...
+34 | File | `admin.cropcanvas.php` | High
+35 | ... | ... | ...
 
-There are 290 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 299 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

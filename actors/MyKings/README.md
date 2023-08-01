@@ -72,40 +72,41 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin/download_frame.php` | High
 3 | File | `/admin/index.html` | High
 4 | File | `/bin/boa` | Medium
-5 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-6 | File | `/cgi-bin/wapopen` | High
-7 | File | `/dev/urandom` | Medium
-8 | File | `/DroboAccess/enable_user` | High
-9 | File | `/etc/quantum/quantum.conf` | High
-10 | File | `/exec/` | Low
-11 | File | `/getcfg.php` | Medium
-12 | File | `/HNAP1` | Low
-13 | File | `/jquery_file_upload/server/php/index.php` | High
-14 | File | `/mgmt/tm/util/bash` | High
-15 | File | `/modules/projects/vw_files.php` | High
-16 | File | `/mysql/api/drobo.php` | High
-17 | File | `/plain` | Low
-18 | File | `/rating.php` | Medium
-19 | File | `/rom-0` | Low
-20 | File | `/secure/admin/ConfigureBatching!default.jspa` | High
-21 | File | `/staff/tools/custom-fields` | High
-22 | File | `/uncpath/` | Medium
-23 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
-24 | File | `/var/log/nginx` | High
-25 | File | `/wordpress/wp-admin/admin.php` | High
-26 | File | `/xyhai.php?s=/Auth/editUser` | High
-27 | File | `/_next` | Low
-28 | File | `actionHandler/ajax_managed_services.php` | High
-29 | File | `actions.hsp` | Medium
-30 | File | `addtocart.asp` | High
-31 | File | `admin/admin.shtml` | High
-32 | File | `admin/shophelp.php` | High
-33 | File | `ajax-actions.php` | High
-34 | File | `ajax/api/hook/decodeArguments` | High
-35 | File | `akocomments.php` | High
-36 | ... | ... | ...
+5 | File | `/cgi-bin/luci/admin/network/wireless/status` | High
+6 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
+7 | File | `/cgi-bin/wapopen` | High
+8 | File | `/dev/urandom` | Medium
+9 | File | `/DroboAccess/enable_user` | High
+10 | File | `/etc/quantum/quantum.conf` | High
+11 | File | `/exec/` | Low
+12 | File | `/getcfg.php` | Medium
+13 | File | `/HNAP1` | Low
+14 | File | `/jquery_file_upload/server/php/index.php` | High
+15 | File | `/mgmt/tm/util/bash` | High
+16 | File | `/modules/projects/vw_files.php` | High
+17 | File | `/mysql/api/drobo.php` | High
+18 | File | `/plain` | Low
+19 | File | `/rating.php` | Medium
+20 | File | `/rom-0` | Low
+21 | File | `/secure/admin/ConfigureBatching!default.jspa` | High
+22 | File | `/staff/tools/custom-fields` | High
+23 | File | `/uncpath/` | Medium
+24 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
+25 | File | `/var/log/nginx` | High
+26 | File | `/wordpress/wp-admin/admin.php` | High
+27 | File | `/xyhai.php?s=/Auth/editUser` | High
+28 | File | `/_next` | Low
+29 | File | `actionHandler/ajax_managed_services.php` | High
+30 | File | `actions.hsp` | Medium
+31 | File | `addtocart.asp` | High
+32 | File | `admin.jcomments.php` | High
+33 | File | `admin/admin.shtml` | High
+34 | File | `admin/shophelp.php` | High
+35 | File | `ajax-actions.php` | High
+36 | File | `ajax/api/hook/decodeArguments` | High
+37 | ... | ... | ...
 
-There are 311 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 317 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

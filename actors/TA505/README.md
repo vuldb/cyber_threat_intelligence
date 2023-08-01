@@ -24,7 +24,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 18 more country items available. Please use our online service to access the data.
+There are 20 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -74,53 +74,53 @@ ID | Type | Indicator | Confidence
 4 | File | `/api/` | Low
 5 | File | `/api/plugin/uninstall` | High
 6 | File | `/cgi-bin-sdb/ExportSettings.sh` | High
-7 | File | `/cgi-bin/wlogin.cgi` | High
-8 | File | `/common/ticket_associated_tickets.php` | High
-9 | File | `/crmeb/crmeb/services/UploadService.php` | High
-10 | File | `/debug/pprof` | Medium
-11 | File | `/dosen/data` | Medium
-12 | File | `/dus/shopliste/index.php` | High
-13 | File | `/etc/path` | Medium
-14 | File | `/etc/puppetlabs/puppetserver/conf.d/ca.conf` | High
-15 | File | `/include/chart_generator.php` | High
-16 | File | `/jeecg-boot/jmreport/upload` | High
-17 | File | `/mgmt/tm/util/bash` | High
-18 | File | `/modules/profile/index.php` | High
-19 | File | `/nagiosql/admin/checkcommands.php` | High
-20 | File | `/out.php` | Medium
-21 | File | `/php-sms/classes/Master.php?f=save_quote` | High
-22 | File | `/send_order.cgi?parameter=restart` | High
-23 | File | `/SysInfo.htm` | Medium
-24 | File | `/tmp` | Low
-25 | File | `/uncpath/` | Medium
-26 | File | `/usr/5bin/su` | Medium
-27 | File | `/usr/bin/mail` | High
-28 | File | `/usr/bin/pkexec` | High
-29 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-30 | File | `add_2_basket.asp` | High
-31 | File | `admin-ajax.php` | High
-32 | File | `admin.asp` | Medium
-33 | File | `admin.jcomments.php` | High
-34 | File | `admin.php` | Medium
-35 | File | `admin/` | Low
-36 | File | `admin/?page=categories/manage_category` | High
-37 | File | `admin/?page=system_info` | High
-38 | File | `admin/aboutus.php` | High
-39 | File | `admin/article_save.php` | High
-40 | File | `admin/import/class-import-settings.php` | High
-41 | File | `admin/manage-comments.php` | High
-42 | File | `administration/comments.php` | High
-43 | File | `administrator/mail/download.cfm` | High
-44 | File | `AdminViewError/AdminAddadmin` | High
-45 | File | `admin\user\manage_user.php` | High
-46 | File | `admin_edit_comment.php` | High
-47 | File | `agentdisplay.php` | High
-48 | File | `apply.cgi` | Medium
-49 | File | `appointment.php` | High
-50 | File | `armv8_deprecated.c` | High
+7 | File | `/cgi-bin/adm.cgi` | High
+8 | File | `/cgi-bin/wlogin.cgi` | High
+9 | File | `/common/ticket_associated_tickets.php` | High
+10 | File | `/crmeb/crmeb/services/UploadService.php` | High
+11 | File | `/debug/pprof` | Medium
+12 | File | `/dipam/athlete-profile.php` | High
+13 | File | `/dosen/data` | Medium
+14 | File | `/dus/shopliste/index.php` | High
+15 | File | `/etc/path` | Medium
+16 | File | `/etc/puppetlabs/puppetserver/conf.d/ca.conf` | High
+17 | File | `/include/chart_generator.php` | High
+18 | File | `/jeecg-boot/jmreport/upload` | High
+19 | File | `/mgmt/tm/util/bash` | High
+20 | File | `/modules/profile/index.php` | High
+21 | File | `/nagiosql/admin/checkcommands.php` | High
+22 | File | `/out.php` | Medium
+23 | File | `/php-sms/classes/Master.php?f=save_quote` | High
+24 | File | `/preview.php` | Medium
+25 | File | `/send_order.cgi?parameter=restart` | High
+26 | File | `/SysInfo.htm` | Medium
+27 | File | `/uncpath/` | Medium
+28 | File | `/usr/5bin/su` | Medium
+29 | File | `/usr/bin/mail` | High
+30 | File | `/usr/bin/pkexec` | High
+31 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+32 | File | `add_2_basket.asp` | High
+33 | File | `admin-ajax.php` | High
+34 | File | `admin.asp` | Medium
+35 | File | `admin.jcomments.php` | High
+36 | File | `admin.php` | Medium
+37 | File | `admin/` | Low
+38 | File | `admin/?page=categories/manage_category` | High
+39 | File | `admin/?page=system_info` | High
+40 | File | `admin/aboutus.php` | High
+41 | File | `admin/article_save.php` | High
+42 | File | `admin/import/class-import-settings.php` | High
+43 | File | `admin/manage-comments.php` | High
+44 | File | `administration/comments.php` | High
+45 | File | `administrator/mail/download.cfm` | High
+46 | File | `admin\user\manage_user.php` | High
+47 | File | `admin_edit_comment.php` | High
+48 | File | `agentdisplay.php` | High
+49 | File | `apply.cgi` | Medium
+50 | File | `appointment.php` | High
 51 | ... | ... | ...
 
-There are 448 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 446 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

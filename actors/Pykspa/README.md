@@ -37,7 +37,7 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
@@ -56,12 +56,12 @@ ID | Type | Indicator | Confidence
 6 | File | `/mgmt/tm/util/bash` | High
 7 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
 8 | File | `/setSystemAdmin` | High
-9 | File | `/updown/upload.cgi` | High
-10 | File | `/usr/bin/pkexec` | High
-11 | File | `acl.c` | Low
+9 | File | `/sp/ListSp.php` | High
+10 | File | `/updown/upload.cgi` | High
+11 | File | `/usr/bin/pkexec` | High
 12 | ... | ... | ...
 
-There are 91 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 96 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

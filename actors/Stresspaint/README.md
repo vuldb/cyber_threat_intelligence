@@ -4,15 +4,50 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.stresspaint](https://vuldb.com/?actor.stresspaint)
 
+## Countries
+
+These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Stresspaint:
+
+* [US](https://vuldb.com/?country.us)
+
 ## IOC - Indicator of Compromise
 
 These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of Stresspaint.
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [179.60.195.36](https://vuldb.com/?ip.179.60.195.36) | edge-star-mini-shv-01-bru2.facebook.com | - | High
-2 | [185.60.216.35](https://vuldb.com/?ip.185.60.216.35) | - | - | High
-3 | [187.60.195.17](https://vuldb.com/?ip.187.60.195.17) | - | - | High
+1 | [31.13.65.17](https://vuldb.com/?ip.31.13.65.17) | edge-secure-shv-01-atl3.facebook.com | - | High
+2 | [31.13.65.36](https://vuldb.com/?ip.31.13.65.36) | edge-star-mini-shv-01-atl3.facebook.com | - | High
+3 | [179.60.195.36](https://vuldb.com/?ip.179.60.195.36) | edge-star-mini-shv-01-bru2.facebook.com | - | High
+4 | ... | ... | ... | ...
+
+There are 3 more IOC items available. Please use our online service to access the data.
+
+## TTP - Tactics, Techniques, Procedures
+
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _Stresspaint_. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1059 | CWE-94 | Cross Site Scripting | High
+2 | T1202 | CWE-78 | Command Injection | High
+3 | T1505 | CWE-89 | SQL Injection | High
+4 | ... | ... | ... | ...
+
+There are 1 more TTP items available. Please use our online service to access the data.
+
+## IOA - Indicator of Attack
+
+These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by Stresspaint. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Type | Indicator | Confidence
+-- | ---- | --------- | ----------
+1 | File | `/getcfg.php` | Medium
+2 | File | `email.php` | Medium
+3 | File | `inc/config.php` | High
+4 | ... | ... | ...
+
+There are 8 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

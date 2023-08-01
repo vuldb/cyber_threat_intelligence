@@ -39,7 +39,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 5 more TTP items available. Please use our online service to access the data.
+There are 10 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -48,20 +48,42 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/admin/maintenance/brand.php` | High
-3 | File | `/fastfood/purchase.php` | High
-4 | File | `/librarian/bookdetails.php` | High
-5 | File | `/mkshop/Men/profile.php` | High
-6 | File | `/multi-vendor-shopping-script/product-list.php` | High
-7 | File | `/public/login.htm` | High
-8 | File | `account.asp` | Medium
-9 | File | `adherents/cartes/carte.php` | High
-10 | File | `admin.php` | Medium
-11 | File | `album_portal.php` | High
-12 | File | `announcements.php` | High
-13 | ... | ... | ...
+2 | File | `/action.php` | Medium
+3 | File | `/admin/edit.php` | High
+4 | File | `/admin/index.php` | High
+5 | File | `/admin/login.php` | High
+6 | File | `/admin/maintenance/brand.php` | High
+7 | File | `/admin/operations/tax.php` | High
+8 | File | `/admin/payment.php` | High
+9 | File | `/admin/search-result.php` | High
+10 | File | `/Applications/Content%20Manager/Execute.aspx?cmd=convert&mode=HTML` | High
+11 | File | `/carbon/mediation_secure_vault/properties/ajaxprocessor.jsp` | High
+12 | File | `/dipam/athlete-profile.php` | High
+13 | File | `/download` | Medium
+14 | File | `/fastfood/purchase.php` | High
+15 | File | `/librarian/bookdetails.php` | High
+16 | File | `/mkshop/Men/profile.php` | High
+17 | File | `/Moosikay/order.php` | High
+18 | File | `/multi-vendor-shopping-script/product-list.php` | High
+19 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
+20 | File | `/opac/Actions.php?a=login` | High
+21 | File | `/pages/animals.php` | High
+22 | File | `/pet_shop/classes/Master.php?f=delete_category` | High
+23 | File | `/public/login.htm` | High
+24 | File | `/templates/ajax/pager.php` | High
+25 | File | `/UserSelfServiceSettings.jsp` | High
+26 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
+27 | File | `/VPortal/mgtconsole/GroupCopy.jsp` | High
+28 | File | `/WebCM/Applications/Reports/index.jsp` | High
+29 | File | `account.asp` | Medium
+30 | File | `accountmanagement.php` | High
+31 | File | `action-visitor.php` | High
+32 | File | `action.asp` | Medium
+33 | File | `action.php` | Medium
+34 | File | `actions.php` | Medium
+35 | ... | ... | ...
 
-There are 97 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 303 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

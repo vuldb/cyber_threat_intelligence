@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [VN](https://vuldb.com/?country.vn)
 * [CN](https://vuldb.com/?country.cn)
-* [US](https://vuldb.com/?country.us)
+* [IN](https://vuldb.com/?country.in)
 * ...
 
-There are 13 more country items available. Please use our online service to access the data.
+There are 16 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -328,14 +328,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-29, CWE-50 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-29, CWE-36 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-274, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+5 | T1068 | CWE-250, CWE-264, CWE-266, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -343,43 +343,43 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.FBCIndex` | Medium
-2 | File | `/admin/contacts/organizations/edit/2` | High
-3 | File | `/api/geojson` | Medium
-4 | File | `/api/login` | Medium
-5 | File | `/api/upload.php` | High
-6 | File | `/application/common.php#action_log` | High
-7 | File | `/Applications/Content%20Manager/Execute.aspx?cmd=convert&mode=HTML` | High
-8 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
-9 | File | `/authenticationendpoint/login.do` | High
-10 | File | `/bin/ate` | Medium
-11 | File | `/bin/login` | Medium
-12 | File | `/bitrix/admin/ldap_server_edit.php` | High
-13 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
-14 | File | `/cgi-bin/luci` | High
-15 | File | `/cgi-bin/wlogin.cgi` | High
-16 | File | `/classes/Master.php?f=delete_category` | High
-17 | File | `/classes/Users.php?f=save` | High
-18 | File | `/debug/pprof` | Medium
-19 | File | `/DXR.axd` | Medium
-20 | File | `/forum/away.php` | High
-21 | File | `/ghost/preview` | High
-22 | File | `/goform/AdvSetLanip` | High
-23 | File | `/goForm/aspForm` | High
-24 | File | `/goform/fromSetWirelessRepeat` | High
-25 | File | `/goform/setmac` | High
-26 | File | `/goform/setMacFilterCfg` | High
-27 | File | `/goform/SetSysTimeCfg` | High
-28 | File | `/goform/WifiGuestSet` | High
-29 | File | `/HNAP1` | Low
-30 | File | `/index.php?app=main&func=passport&action=login` | High
-31 | File | `/index.php?page=category_list` | High
-32 | File | `/jobinfo/` | Medium
-33 | File | `/kelasdosen/data` | High
-34 | File | `/Log/Query?appid=0B736354-9473-4D66-B9C0-15CAC149EB05&tabid=tab_0B73635494734D66B9C015CAC149EB05` | High
-35 | File | `/login.php` | Medium
-36 | File | `/mc` | Low
-37 | File | `/news/*.html` | Medium
+1 | File | `/+CSCOE+/logon.html` | High
+2 | File | `//proc/kcore` | Medium
+3 | File | `/act/ActDao.xml` | High
+4 | File | `/admin/bookings/manage_booking.php` | High
+5 | File | `/admin/edit_product.php` | High
+6 | File | `/admin/index.php` | High
+7 | File | `/admin/sys_sql_query.php` | High
+8 | File | `/api/baskets/{name}` | High
+9 | File | `/api/upload.php` | High
+10 | File | `/api?path=profile` | High
+11 | File | `/aya/module/admin/fst_down.inc.php` | High
+12 | File | `/blog` | Low
+13 | File | `/cgi-bin/wlogin.cgi` | High
+14 | File | `/classes/Master.php?f=delete_category` | High
+15 | File | `/classes/Master.php?f=delete_inquiry` | High
+16 | File | `/classes/Master.php?f=delete_item` | High
+17 | File | `/classes/Master.php?f=delete_service` | High
+18 | File | `/classes/Master.php?f=save_service` | High
+19 | File | `/classes/Users.php` | High
+20 | File | `/classes/Users.php?f=save` | High
+21 | File | `/company/store` | High
+22 | File | `/concat?/%2557EB-INF/web.xml` | High
+23 | File | `/Controller/Ajaxfileupload.ashx` | High
+24 | File | `/CPE` | Low
+25 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
+26 | File | `/ecommerce/support_ticket` | High
+27 | File | `/etc/passwd` | Medium
+28 | File | `/forum/away.php` | High
+29 | File | `/FuguHub/cmsdocs/` | High
+30 | File | `/graphql` | Medium
+31 | File | `/group1/uploa` | High
+32 | File | `/h/` | Low
+33 | File | `/h/autoSaveDraft` | High
+34 | File | `/HNAP1` | Low
+35 | File | `/home/search` | Medium
+36 | File | `/index.php` | Medium
+37 | File | `/install/index.php` | High
 38 | ... | ... | ...
 
 There are 329 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.

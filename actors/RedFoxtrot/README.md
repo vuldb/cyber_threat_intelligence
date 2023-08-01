@@ -8,8 +8,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with RedFoxtrot:
 
-* [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
@@ -50,28 +50,29 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/maintenance/view_designation.php` | High
-2 | File | `/app/Http/Controllers/Admin/NEditorController.php` | High
-3 | File | `/forum/away.php` | High
-4 | File | `/getcfg.php` | Medium
-5 | File | `/group1/uploa` | High
-6 | File | `/inc/lists/csvexport.php` | High
-7 | File | `/server-status` | High
-8 | File | `/sgmi/` | Low
-9 | File | `/system/user/resetPwd` | High
-10 | File | `/tos/index.php?editor/fileGet` | High
-11 | File | `/uncpath/` | Medium
-12 | File | `/user/updatePwd` | High
-13 | File | `/var/log/nginx` | High
-14 | File | `addentry.php` | Medium
-15 | File | `admin-ajax.php?action=get_wdtable order[0][dir]` | High
-16 | File | `admin/plib/api-rpc/Agent.php` | High
-17 | File | `auth-gss2.c` | Medium
-18 | File | `bcbadmSettings.jsp` | High
-19 | File | `books.php` | Medium
-20 | File | `cgi.c` | Low
-21 | ... | ... | ...
+2 | File | `/admin/sys_sql_query.php` | High
+3 | File | `/app/Http/Controllers/Admin/NEditorController.php` | High
+4 | File | `/cgi-bin/luci/api/wireless` | High
+5 | File | `/forum/away.php` | High
+6 | File | `/getcfg.php` | Medium
+7 | File | `/group1/uploa` | High
+8 | File | `/inc/lists/csvexport.php` | High
+9 | File | `/server-status` | High
+10 | File | `/sgmi/` | Low
+11 | File | `/system/user/resetPwd` | High
+12 | File | `/tos/index.php?editor/fileGet` | High
+13 | File | `/uncpath/` | Medium
+14 | File | `/user/updatePwd` | High
+15 | File | `/var/log/nginx` | High
+16 | File | `addentry.php` | Medium
+17 | File | `admin-ajax.php?action=get_wdtable order[0][dir]` | High
+18 | File | `admin/plib/api-rpc/Agent.php` | High
+19 | File | `applications/core/modules/front/system/content.php` | High
+20 | File | `auth-gss2.c` | Medium
+21 | File | `bcbadmSettings.jsp` | High
+22 | ... | ... | ...
 
-There are 169 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 180 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

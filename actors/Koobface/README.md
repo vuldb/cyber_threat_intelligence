@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GR](https://vuldb.com/?country.gr)
 * ...
 
-There are 14 more country items available. Please use our online service to access the data.
+There are 15 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -62,14 +62,14 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.htaccess` | Medium
-2 | File | `/tmp` | Low
-3 | File | `/uncpath/` | Medium
-4 | File | `/var/log/nginx` | High
-5 | File | `auth-gss2.c` | Medium
-6 | File | `class.cs_phpmailer.php` | High
+2 | File | `/api/baskets/{name}` | High
+3 | File | `/tmp` | Low
+4 | File | `/uncpath/` | Medium
+5 | File | `/var/log/nginx` | High
+6 | File | `auth-gss2.c` | Medium
 7 | ... | ... | ...
 
-There are 50 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 52 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

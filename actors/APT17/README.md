@@ -14,8 +14,8 @@ The following _campaigns_ are known and can be associated with APT17:
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with APT17:
 
-* [DE](https://vuldb.com/?country.de)
 * [US](https://vuldb.com/?country.us)
+* [DE](https://vuldb.com/?country.de)
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
@@ -62,7 +62,7 @@ ID | Type | Indicator | Confidence
 6 | File | `detail.php` | Medium
 7 | ... | ... | ...
 
-There are 48 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 49 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

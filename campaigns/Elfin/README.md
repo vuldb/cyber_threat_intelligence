@@ -75,24 +75,24 @@ ID | Type | Indicator | Confidence
 11 | File | `/export` | Low
 12 | File | `/forum/away.php` | High
 13 | File | `/goform/aspForm` | High
-14 | File | `/hocms/classes/Master.php?f=delete_collection` | High
-15 | File | `/horde/util/go.php` | High
-16 | File | `/index.php` | Medium
-17 | File | `/mifs/c/i/reg/reg.html` | High
-18 | File | `/ms/cms/content/list.do` | High
-19 | File | `/orms/` | Low
-20 | File | `/plesk-site-preview/` | High
-21 | File | `/project/PROJECTNAME/reports/` | High
-22 | File | `/public/login.htm` | High
-23 | File | `/school/model/get_admin_profile.php` | High
-24 | File | `/show_news.php` | High
-25 | File | `/student-grading-system/rms.php?page=grade` | High
-26 | File | `/style/` | Low
-27 | File | `/timeline2.php` | High
-28 | File | `/uncpath/` | Medium
+14 | File | `/h/` | Low
+15 | File | `/hocms/classes/Master.php?f=delete_collection` | High
+16 | File | `/horde/util/go.php` | High
+17 | File | `/index.php` | Medium
+18 | File | `/mifs/c/i/reg/reg.html` | High
+19 | File | `/ms/cms/content/list.do` | High
+20 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+21 | File | `/orms/` | Low
+22 | File | `/plesk-site-preview/` | High
+23 | File | `/project/PROJECTNAME/reports/` | High
+24 | File | `/public/login.htm` | High
+25 | File | `/school/model/get_admin_profile.php` | High
+26 | File | `/show_news.php` | High
+27 | File | `/student-grading-system/rms.php?page=grade` | High
+28 | File | `/style/` | Low
 29 | ... | ... | ...
 
-There are 247 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 248 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

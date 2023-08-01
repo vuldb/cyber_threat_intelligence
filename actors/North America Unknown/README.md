@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with North America Unknown:
 
-* [VN](https://vuldb.com/?country.vn)
 * [US](https://vuldb.com/?country.us)
-* [JP](https://vuldb.com/?country.jp)
+* [VN](https://vuldb.com/?country.vn)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 15 more country items available. Please use our online service to access the data.
+There are 28 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -37256,13 +37256,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-24, CWE-29, CWE-36, CWE-425 | Pathname Traversal | High
-2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-425 | Pathname Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -37270,35 +37271,54 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin.php?c=upload&f=zip&_noCache=0.1683794968` | High
-2 | File | `/admin/?page=user/list` | High
-3 | File | `/admin/ajax.php?action=save_area` | High
-4 | File | `/admin/contacts/organizations/edit/2` | High
-5 | File | `/admin/edit_subject.php` | High
-6 | File | `/admin/modal_add_product.php` | High
-7 | File | `/admin/reportupload.aspx` | High
-8 | File | `/admin/save_teacher.php` | High
-9 | File | `/admin/service.php` | High
-10 | File | `/admin/update_s6.php` | High
-11 | File | `/advanced-tools/nova/bin/netwatch` | High
-12 | File | `/ajax.php?action=read_msg` | High
-13 | File | `/ajax.php?action=save_company` | High
-14 | File | `/Application/Admin/Controller/ConfigController.class.php` | High
-15 | File | `/cas/logout` | Medium
-16 | File | `/circuits/circuit-types/` | High
-17 | File | `/circuits/provider-accounts/` | High
-18 | File | `/classes/Master.php?f=delete_category` | High
-19 | File | `/common/info.cgi` | High
-20 | File | `/data/app` | Medium
-21 | File | `/dcim/locations/` | High
-22 | File | `/dcim/power-panels/` | High
-23 | File | `/dcim/rack-roles/` | High
-24 | File | `/dcim/rack/` | Medium
-25 | File | `/dcim/regions/` | High
-26 | File | `/dcim/sites/` | Medium
-27 | ... | ... | ...
+1 | File | `.github/workflows/comment.yml` | High
+2 | File | `/?r=recruit/resume/edit&op=status` | High
+3 | File | `/account/delivery` | High
+4 | File | `/act/ActDao.xml` | High
+5 | File | `/admin/?page=user/list` | High
+6 | File | `/admin/?page=user/manage_user&id=3` | High
+7 | File | `/admin/about-us.php` | High
+8 | File | `/admin/add_user_modal.php` | High
+9 | File | `/admin/del_category.php` | High
+10 | File | `/admin/del_feedback.php` | High
+11 | File | `/admin/del_service.php` | High
+12 | File | `/admin/edit-accepted-appointment.php` | High
+13 | File | `/admin/edit-services.php` | High
+14 | File | `/admin/edit_category.php` | High
+15 | File | `/admin/forgot-password.php` | High
+16 | File | `/admin/index.php` | High
+17 | File | `/admin/index/index.html#/admin/mall.goods/index.html` | High
+18 | File | `/admin/index2.html` | High
+19 | File | `/admin/modal_add_product.php` | High
+20 | File | `/admin/router.php` | High
+21 | File | `/admin/search-appointment.php` | High
+22 | File | `/admin/sys_sql_query.php` | High
+23 | File | `/admin/test_status.php` | High
+24 | File | `/api/baskets/{name}` | High
+25 | File | `/api/ping` | Medium
+26 | File | `/App_Resource/UEditor/server/upload.aspx` | High
+27 | File | `/author_posts.php` | High
+28 | File | `/blog` | Low
+29 | File | `/browse` | Low
+30 | File | `/chaincity/user/ticket/create` | High
+31 | File | `/classes/Master.php?f=delete_category` | High
+32 | File | `/classes/Master.php?f=delete_inquiry` | High
+33 | File | `/classes/Master.php?f=delete_item` | High
+34 | File | `/classes/Master.php?f=save_inquiry` | High
+35 | File | `/classes/Master.php?f=save_item` | High
+36 | File | `/classes/Master.php?f=save_service` | High
+37 | File | `/company/store` | High
+38 | File | `/config` | Low
+39 | File | `/config/getuser` | High
+40 | File | `/contact.php` | Medium
+41 | File | `/Controller/Ajaxfileupload.ashx` | High
+42 | File | `/Duty/AjaxHandle/UpLoadFloodPlanFile.ashx` | High
+43 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
+44 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+45 | File | `/en/blog-comment-4` | High
+46 | ... | ... | ...
 
-There are 223 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 400 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

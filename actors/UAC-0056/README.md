@@ -62,26 +62,26 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin.php` | Medium
 2 | File | `/admin/?page=system_info/contact_info` | High
-3 | File | `/admin/doctors/view_doctor.php` | High
-4 | File | `/admin/edit_user.php` | High
-5 | File | `/admin/products/controller.php?action=add` | High
-6 | File | `/admin/question/edit` | High
-7 | File | `/admin/students/manage.php` | High
-8 | File | `/adminlogin.asp` | High
-9 | File | `/api/` | Low
-10 | File | `/app/controller/Books.php` | High
-11 | File | `/auth/register` | High
-12 | File | `/bifs/field_decode.c` | High
-13 | File | `/bin/proc.cgi` | High
-14 | File | `/cgi/get_param.cgi` | High
-15 | File | `/common/download_agent_installer.php` | High
-16 | File | `/common/run_cross_report.php` | High
-17 | File | `/Core/Ap4File.cpp` | High
-18 | File | `/csms/?page=contact_us` | High
-19 | File | `/debug/pprof` | Medium
-20 | File | `/dev/audio` | Medium
-21 | File | `/DS/LM_API/api/SelectionService/InsertQueryWithActiveRelationsReturnId` | High
-22 | File | `/DXR.axd` | Medium
+3 | File | `/admin/edit_user.php` | High
+4 | File | `/admin/products/controller.php?action=add` | High
+5 | File | `/admin/question/edit` | High
+6 | File | `/admin/students/manage.php` | High
+7 | File | `/adminlogin.asp` | High
+8 | File | `/api/` | Low
+9 | File | `/app/controller/Books.php` | High
+10 | File | `/auth/register` | High
+11 | File | `/bifs/field_decode.c` | High
+12 | File | `/bin/proc.cgi` | High
+13 | File | `/cgi/get_param.cgi` | High
+14 | File | `/common/download_agent_installer.php` | High
+15 | File | `/common/run_cross_report.php` | High
+16 | File | `/Core/Ap4File.cpp` | High
+17 | File | `/csms/?page=contact_us` | High
+18 | File | `/debug/pprof` | Medium
+19 | File | `/dev/audio` | Medium
+20 | File | `/DS/LM_API/api/SelectionService/InsertQueryWithActiveRelationsReturnId` | High
+21 | File | `/DXR.axd` | Medium
+22 | File | `/en/blog-comment-4` | High
 23 | File | `/etc/crash` | Medium
 24 | File | `/etc/master.passwd` | High
 25 | File | `/etc/passwd` | Medium
@@ -93,24 +93,22 @@ ID | Type | Indicator | Confidence
 31 | File | `/goform/aspForm` | High
 32 | File | `/goform/NatStaticSetting` | High
 33 | File | `/goform/WifiBasicSet` | High
-34 | File | `/hocms/classes/Master.php?f=delete_collection` | High
-35 | File | `/index.php` | Medium
-36 | File | `/index.php?module=configuration/application` | High
-37 | File | `/index.php?route=extension/module/so_filter_shop_by/filter_data` | High
-38 | File | `/isomedia/box_funcs.c` | High
-39 | File | `/isomedia/meta.c` | High
-40 | File | `/kruxton/receipt.php` | High
-41 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-42 | File | `/pages/animals.php` | High
-43 | File | `/pages/apply_vacancy.php` | High
-44 | File | `/php-sms/admin/?page=services/manage_service` | High
-45 | File | `/php_action/editProductImage.php` | High
-46 | File | `/plesk-site-preview/` | High
-47 | File | `/project/PROJECTNAME/reports/` | High
-48 | File | `/sacco_shield/manage_loan.php` | High
-49 | ... | ... | ...
+34 | File | `/h/` | Low
+35 | File | `/hocms/classes/Master.php?f=delete_collection` | High
+36 | File | `/index.php` | Medium
+37 | File | `/index.php?module=configuration/application` | High
+38 | File | `/index.php?route=extension/module/so_filter_shop_by/filter_data` | High
+39 | File | `/isomedia/box_funcs.c` | High
+40 | File | `/isomedia/meta.c` | High
+41 | File | `/kruxton/receipt.php` | High
+42 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+43 | File | `/pages/animals.php` | High
+44 | File | `/pages/apply_vacancy.php` | High
+45 | File | `/php-sms/admin/?page=services/manage_service` | High
+46 | File | `/php_action/editProductImage.php` | High
+47 | ... | ... | ...
 
-There are 424 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 407 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

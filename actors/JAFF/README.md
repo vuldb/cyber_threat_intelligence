@@ -56,25 +56,25 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin/maintenance/view_designation.php` | High
 3 | File | `/category/list?limit=10&offset=0&order=desc` | High
 4 | File | `/classes/Master.php?f=delete_brand` | High
-5 | File | `/forum/PostPrivateMessage` | High
-6 | File | `/HNAP1` | Low
-7 | File | `/owa/auth/logon.aspx` | High
-8 | File | `/pages/systemcall.php?command={COMMAND}` | High
-9 | File | `/phppath/php` | Medium
-10 | File | `/setSystemAdmin` | High
-11 | File | `/shell` | Low
-12 | File | `/spip.php` | Medium
-13 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
-14 | File | `/uncpath/` | Medium
-15 | File | `/user/loader.php?api=1` | High
-16 | File | `/usr/bin/pkexec` | High
-17 | File | `/webpages/data` | High
-18 | File | `/wp-admin/options.php` | High
-19 | File | `/xxl-job-admin/user/add` | High
-20 | File | `/__r1/` | Low
+5 | File | `/diag_ping_admin.asp` | High
+6 | File | `/forum/PostPrivateMessage` | High
+7 | File | `/HNAP1` | Low
+8 | File | `/owa/auth/logon.aspx` | High
+9 | File | `/pages/systemcall.php?command={COMMAND}` | High
+10 | File | `/phppath/php` | Medium
+11 | File | `/setSystemAdmin` | High
+12 | File | `/shell` | Low
+13 | File | `/spip.php` | Medium
+14 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
+15 | File | `/uncpath/` | Medium
+16 | File | `/user/loader.php?api=1` | High
+17 | File | `/usr/bin/pkexec` | High
+18 | File | `/webpages/data` | High
+19 | File | `/wp-admin/options.php` | High
+20 | File | `/xxl-job-admin/user/add` | High
 21 | ... | ... | ...
 
-There are 172 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 176 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

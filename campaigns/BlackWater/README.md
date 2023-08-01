@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [GB](https://vuldb.com/?country.gb)
-* [CA](https://vuldb.com/?country.ca)
+* [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 2 more country items available. Please use our online service to access the data.
+There are 3 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -46,7 +46,8 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-22, CWE-36 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-94 | Cross Site Scripting | High
-4 | ... | ... | ... | ...
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
 There are 14 more TTP items available. Please use our online service to access the data.
 
@@ -60,15 +61,17 @@ ID | Type | Indicator | Confidence
 2 | File | `/.flatpak-info` | High
 3 | File | `/admin/edit.php` | High
 4 | File | `/admin/googleads.php` | High
-5 | File | `/admin/renewaldue.php` | High
-6 | File | `/analysisProject/pagingQueryData` | High
-7 | File | `/dashboard/add-portfolio.php` | High
-8 | File | `/E-mobile/App/System/File/downfile.php` | High
-9 | File | `/jurusanmatkul/data` | High
-10 | File | `/login.php` | Medium
-11 | ... | ... | ...
+5 | File | `/admin/reg.php` | High
+6 | File | `/admin/renewaldue.php` | High
+7 | File | `/analysisProject/pagingQueryData` | High
+8 | File | `/booking/show_bookings/` | High
+9 | File | `/cgi-bin/adm.cgi` | High
+10 | File | `/dashboard/add-portfolio.php` | High
+11 | File | `/dipam/save-delegates.php` | High
+12 | File | `/E-mobile/App/System/File/downfile.php` | High
+13 | ... | ... | ...
 
-There are 80 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 103 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

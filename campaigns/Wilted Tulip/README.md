@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Wilted Tulip:
 
 * [AR](https://vuldb.com/?country.ar)
-* [PT](https://vuldb.com/?country.pt)
 * [PL](https://vuldb.com/?country.pl)
+* [PT](https://vuldb.com/?country.pt)
 * ...
 
 There are 10 more country items available. Please use our online service to access the data.
@@ -70,48 +70,50 @@ ID | Type | Indicator | Confidence
 2 | File | `/action/wirelessConnect` | High
 3 | File | `/admin.php` | Medium
 4 | File | `/admin/add-fee.php` | High
-5 | File | `/admin/baojia_list.php` | High
-6 | File | `/admin/categories/view_category.php` | High
-7 | File | `/admin/loginc.php` | High
-8 | File | `/admin/maintenance/view_designation.php` | High
-9 | File | `/admin/report/index.php` | High
-10 | File | `/api/common/ping` | High
-11 | File | `/api/v2/open/rowsInfo` | High
-12 | File | `/appointments/update_status.php` | High
-13 | File | `/binbloom-master/src/helpers.c` | High
-14 | File | `/bookings/update_status.php` | High
-15 | File | `/classes/Users.php?f=delete_client` | High
-16 | File | `/contacts/listcontacts.php` | High
-17 | File | `/Core/Ap4File.cpp` | High
-18 | File | `/data/app` | Medium
-19 | File | `/dede/file_manage_control.php` | High
-20 | File | `/depotHead/list` | High
-21 | File | `/etc/openshift/server_priv.pem` | High
-22 | File | `/etc/os-release` | High
-23 | File | `/etc/pki/pulp/nodes/` | High
-24 | File | `/forms/web_runScript` | High
-25 | File | `/fs/nfsd/nfs4proc.c` | High
-26 | File | `/garage/php_action/createBrand.php` | High
-27 | File | `/general/search.php?searchtype=simple` | High
-28 | File | `/goform/AddSysLogRule` | High
-29 | File | `/goform/AdvSetWrlsafeset` | High
-30 | File | `/goform/qossetting` | High
-31 | File | `/goform/setAutoPing` | High
-32 | File | `/hrm/employeeview.php` | High
-33 | File | `/hss/?page=product_per_brand` | High
-34 | File | `/meetings/listmeetings.php` | High
-35 | File | `/odlms/?page=appointments/view_appointment` | High
-36 | File | `/odlms/classes/Users.php?f=delete` | High
-37 | File | `/one/siteinfo.php` | High
-38 | File | `/proc/*/exe` | Medium
-39 | File | `/projects/listprojects.php` | High
-40 | File | `/release-x64/otfccdump+0x4adcdb` | High
-41 | File | `/release-x64/otfccdump+0x6e41b8` | High
-42 | File | `/release-x64/otfccdump+0x6e412a` | High
-43 | File | `/release-x64/otfccdump+0x6e420d` | High
-44 | ... | ... | ...
+5 | File | `/admin/add_user_modal.php` | High
+6 | File | `/admin/baojia_list.php` | High
+7 | File | `/admin/categories/view_category.php` | High
+8 | File | `/admin/loginc.php` | High
+9 | File | `/admin/maintenance/view_designation.php` | High
+10 | File | `/admin/project/update/2` | High
+11 | File | `/admin/report/index.php` | High
+12 | File | `/api/common/ping` | High
+13 | File | `/api/v2/open/rowsInfo` | High
+14 | File | `/appointments/update_status.php` | High
+15 | File | `/binbloom-master/src/helpers.c` | High
+16 | File | `/blog` | Low
+17 | File | `/bookings/update_status.php` | High
+18 | File | `/category.php` | High
+19 | File | `/classes/Users.php?f=delete_client` | High
+20 | File | `/contacts/listcontacts.php` | High
+21 | File | `/Core/Ap4File.cpp` | High
+22 | File | `/data/app` | Medium
+23 | File | `/dede/file_manage_control.php` | High
+24 | File | `/depotHead/list` | High
+25 | File | `/etc/os-release` | High
+26 | File | `/etc/pki/pulp/nodes/` | High
+27 | File | `/forms/web_runScript` | High
+28 | File | `/fs/nfsd/nfs4proc.c` | High
+29 | File | `/garage/php_action/createBrand.php` | High
+30 | File | `/general/search.php?searchtype=simple` | High
+31 | File | `/ghost/preview` | High
+32 | File | `/goform/AddSysLogRule` | High
+33 | File | `/goform/AdvSetWrlsafeset` | High
+34 | File | `/goform/qossetting` | High
+35 | File | `/goform/setAutoPing` | High
+36 | File | `/hrm/employeeview.php` | High
+37 | File | `/hss/?page=product_per_brand` | High
+38 | File | `/load.php` | Medium
+39 | File | `/meetings/listmeetings.php` | High
+40 | File | `/odlms/?page=appointments/view_appointment` | High
+41 | File | `/odlms/classes/Users.php?f=delete` | High
+42 | File | `/one/siteinfo.php` | High
+43 | File | `/preview.php` | Medium
+44 | File | `/proc/*/exe` | Medium
+45 | File | `/projects/listprojects.php` | High
+46 | ... | ... | ...
 
-There are 377 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 403 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

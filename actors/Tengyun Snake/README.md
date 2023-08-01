@@ -18,12 +18,14 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [111.223.101.72](https://vuldb.com/?ip.111.223.101.72) | 111.223.101-72.unknown.starhub.net.sg | - | High
 2 | [117.21.191.165](https://vuldb.com/?ip.117.21.191.165) | - | - | High
+3 | [119.45.55.69](https://vuldb.com/?ip.119.45.55.69) | - | - | High
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://exchange.xforce.ibmcloud.com/threats/guid:3929bcc8c131c0eab400fe349e072479
+* https://infosecwriteups.com/unleashing-the-tengyun-snake-trojan-the-stealthy-threat-lurking-in-your-system-4863f03422c0
 
 ## Literature
 

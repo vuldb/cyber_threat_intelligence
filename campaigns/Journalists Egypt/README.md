@@ -4,6 +4,12 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor](https://vuldb.com/?actor)
 
+## Countries
+
+These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Journalists Egypt:
+
+* [RU](https://vuldb.com/?country.ru)
+
 ## Actors
 
 These _actors_ are associated with Journalists Egypt or other actors linked to the campaign.
@@ -20,6 +26,14 @@ ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
 1 | [185.125.130.195](https://vuldb.com/?ip.185.125.130.195) | 130-195.broum.net | [Unknown](https://vuldb.com/?actor.unknown) | High
 2 | [185.125.228.0](https://vuldb.com/?ip.185.125.228.0) | subnet.ihor-hosting.ru | [Unknown](https://vuldb.com/?actor.unknown) | High
+
+## TTP - Tactics, Techniques, Procedures
+
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used within Journalists Egypt. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1505 | CWE-89 | SQL Injection | High
 
 ## References
 

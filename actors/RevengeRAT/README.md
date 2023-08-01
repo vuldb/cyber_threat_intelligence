@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with RevengeRAT:
 
 * [US](https://vuldb.com/?country.us)
-* [GB](https://vuldb.com/?country.gb)
-* [RU](https://vuldb.com/?country.ru)
+* [VN](https://vuldb.com/?country.vn)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 15 more country items available. Please use our online service to access the data.
+There are 9 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -21,12 +21,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [45.147.230.231](https://vuldb.com/?ip.45.147.230.231) | - | - | High
-2 | [79.134.225.8](https://vuldb.com/?ip.79.134.225.8) | - | - | High
-3 | [91.221.66.6](https://vuldb.com/?ip.91.221.66.6) | post.mholding.ru | - | High
+1 | [6.43.51.17](https://vuldb.com/?ip.6.43.51.17) | - | - | High
+2 | [10.0.2.15](https://vuldb.com/?ip.10.0.2.15) | - | - | High
+3 | [45.147.230.231](https://vuldb.com/?ip.45.147.230.231) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 8 more IOC items available. Please use our online service to access the data.
+There are 14 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -34,12 +34,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
-2 | T1059 | CWE-94 | Cross Site Scripting | High
-3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-25, CWE-29 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+6 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -48,29 +50,52 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `//` | Low
-3 | File | `/admin/edit_member.php` | High
-4 | File | `/admin/launch_time.php` | High
-5 | File | `/admin/settings.php` | High
-6 | File | `/apps/app_article/controller/editor.php` | High
-7 | File | `/editbrand.php` | High
-8 | File | `/etc/sudoers` | Medium
-9 | File | `/front/actions.php` | High
-10 | File | `/front/search.php` | High
-11 | File | `/gadgets/definitions/uptime.CapacityWhatIfGadget/getmetrics.php` | High
-12 | File | `/gadgets/definitions/uptime.CapacityWhatifGadget/getxenmetrics.php` | High
-13 | File | `/qsr_server/device/reboot` | High
-14 | File | `/sqlitemanager/main.php?dbsel=-1%20or%2072%20=%2072` | High
-15 | File | `/timeline2.php` | High
-16 | File | `/tmp` | Low
-17 | File | `/uncpath/` | Medium
-18 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-19 | File | `adduser.php` | Medium
-20 | File | `admin.php` | Medium
-21 | File | `Admin.php` | Medium
-22 | ... | ... | ...
+2 | File | `/admin/upload/upload` | High
+3 | File | `/api/baskets/{name}` | High
+4 | File | `/api/gen/clients/{language}` | High
+5 | File | `/cgi-bin/wlogin.cgi` | High
+6 | File | `/config/getuser` | High
+7 | File | `/config/myfield/test.php` | High
+8 | File | `/debug/pprof` | Medium
+9 | File | `/ecshop/admin/template.php` | High
+10 | File | `/file/upload/1` | High
+11 | File | `/forum/away.php` | High
+12 | File | `/forum/PostPrivateMessage` | High
+13 | File | `/goform/set_LimitClient_cfg` | High
+14 | File | `/home/www/cgi-bin/login.cgi` | High
+15 | File | `/multi-vendor-shopping-script/product-list.php` | High
+16 | File | `/net-banking/customer_transactions.php` | High
+17 | File | `/obs/book.php` | High
+18 | File | `/ossn/administrator/com_installer` | High
+19 | File | `/owa/auth/logon.aspx` | High
+20 | File | `/pms/update_user.php?user_id=1` | High
+21 | File | `/preview.php` | Medium
+22 | File | `/requests.php` | High
+23 | File | `/spip.php` | Medium
+24 | File | `/sqlite3_aflpp/shell.c` | High
+25 | File | `/sre/params.php` | High
+26 | File | `/SVFE2/pages/feegroups/service_group.jsf` | High
+27 | File | `/tmp` | Low
+28 | File | `/uncpath/` | Medium
+29 | File | `/user/upload/upload` | High
+30 | File | `/Users` | Low
+31 | File | `/var/spool/hylafax` | High
+32 | File | `/vendor` | Low
+33 | File | `AccessibilityManagerService.java` | High
+34 | File | `accountrecoveryendpoint/recoverpassword.do` | High
+35 | File | `adclick.php` | Medium
+36 | File | `add_contestant.php` | High
+37 | File | `admin.php` | Medium
+38 | File | `admin/edit_category.php` | High
+39 | File | `admin/index.php` | High
+40 | File | `admin/make_payments.php` | High
+41 | File | `af_netlink.c` | Medium
+42 | File | `album_portal.php` | High
+43 | File | `api/auth.go` | Medium
+44 | File | `api_jsonrpc.php` | High
+45 | ... | ... | ...
 
-There are 183 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 391 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -79,6 +104,8 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://1275.ru/ioc/149/revengerat-iocs/
 * https://blog.talosintelligence.com/2019/07/threat-roundup-0628-0705.html
 * https://blog.talosintelligence.com/2019/08/rat-ratatouille-revrat-orcus.html
+* https://blog.talosintelligence.com/threat-roundup-0616-0623-2/
+* https://www.fortinet.com/blog/threat-research/malware-analysis-revenge-rat-sample.html
 
 ## Literature
 

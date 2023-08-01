@@ -95,36 +95,36 @@ ID | Type | Indicator | Confidence
 28 | File | `/attachments` | Medium
 29 | File | `/bin/ate` | Medium
 30 | File | `/boat/login.php` | High
-31 | File | `/bsms_ci/index.php` | High
-32 | File | `/bsms_ci/index.php/book` | High
-33 | File | `/cgi-bin` | Medium
-34 | File | `/cgi-bin/luci/api/wireless` | High
-35 | File | `/cgi-bin/wlogin.cgi` | High
-36 | File | `/classes/Master.php?f=delete_sub_category` | High
-37 | File | `/classes/Users.php?f=save` | High
-38 | File | `/common/info.cgi` | High
-39 | File | `/context/%2e/WEB-INF/web.xml` | High
-40 | File | `/debug/pprof` | Medium
-41 | File | `/env` | Low
-42 | File | `/etc/hosts` | Medium
-43 | File | `/foms/place-order.php` | High
-44 | File | `/forum/away.php` | High
-45 | File | `/front/roomtype-details.php` | High
-46 | File | `/goform/setmac` | High
-47 | File | `/goform/wizard_end` | High
-48 | File | `/jsoa/hntdCustomDesktopActionContent` | High
-49 | File | `/librarian/bookdetails.php` | High
-50 | File | `/Log/Query?appid=0B736354-9473-4D66-B9C0-15CAC149EB05&tabid=tab_0B73635494734D66B9C015CAC149EB05` | High
-51 | File | `/manage-apartment.php` | High
-52 | File | `/medicines/profile.php` | High
-53 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-54 | File | `/pages/apply_vacancy.php` | High
-55 | File | `/php-sms/admin/` | High
-56 | File | `/php-sms/admin/?page=user/manage_user` | High
-57 | File | `/product/savenewproduct.php?flag=1` | High
+31 | File | `/booking/show_bookings/` | High
+32 | File | `/bsms_ci/index.php` | High
+33 | File | `/bsms_ci/index.php/book` | High
+34 | File | `/cgi-bin` | Medium
+35 | File | `/cgi-bin/luci/api/wireless` | High
+36 | File | `/cgi-bin/wlogin.cgi` | High
+37 | File | `/classes/Master.php?f=delete_sub_category` | High
+38 | File | `/classes/Users.php?f=save` | High
+39 | File | `/common/info.cgi` | High
+40 | File | `/context/%2e/WEB-INF/web.xml` | High
+41 | File | `/debug/pprof` | Medium
+42 | File | `/env` | Low
+43 | File | `/etc/hosts` | Medium
+44 | File | `/foms/place-order.php` | High
+45 | File | `/forum/away.php` | High
+46 | File | `/front/roomtype-details.php` | High
+47 | File | `/goform/setmac` | High
+48 | File | `/goform/wizard_end` | High
+49 | File | `/jsoa/hntdCustomDesktopActionContent` | High
+50 | File | `/librarian/bookdetails.php` | High
+51 | File | `/Log/Query?appid=0B736354-9473-4D66-B9C0-15CAC149EB05&tabid=tab_0B73635494734D66B9C015CAC149EB05` | High
+52 | File | `/manage-apartment.php` | High
+53 | File | `/medicines/profile.php` | High
+54 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+55 | File | `/pages/apply_vacancy.php` | High
+56 | File | `/php-sms/admin/` | High
+57 | File | `/php-sms/admin/?page=user/manage_user` | High
 58 | ... | ... | ...
 
-There are 510 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 502 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

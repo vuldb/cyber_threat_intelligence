@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Grandoreiro:
 
 * [US](https://vuldb.com/?country.us)
+* [ES](https://vuldb.com/?country.es)
 * [PT](https://vuldb.com/?country.pt)
-* [CN](https://vuldb.com/?country.cn)
 * ...
 
 There are 2 more country items available. Please use our online service to access the data.
@@ -22,11 +22,11 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [15.188.63.127](https://vuldb.com/?ip.15.188.63.127) | ec2-15-188-63-127.eu-west-3.compute.amazonaws.com | - | Medium
-2 | [35.180.117.32](https://vuldb.com/?ip.35.180.117.32) | ec2-35-180-117-32.eu-west-3.compute.amazonaws.com | - | Medium
-3 | [35.181.59.254](https://vuldb.com/?ip.35.181.59.254) | ec2-35-181-59-254.eu-west-3.compute.amazonaws.com | - | Medium
+2 | [15.228.57.146](https://vuldb.com/?ip.15.228.57.146) | ec2-15-228-57-146.sa-east-1.compute.amazonaws.com | - | Medium
+3 | [15.228.233.242](https://vuldb.com/?ip.15.228.233.242) | ec2-15-228-233-242.sa-east-1.compute.amazonaws.com | - | Medium
 4 | ... | ... | ... | ...
 
-There are 7 more IOC items available. Please use our online service to access the data.
+There are 11 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -59,8 +59,10 @@ There are 34 more IOA items available (file, library, argument, input value, pat
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://threatfox.abuse.ch
 * https://tracker.viriback.com/index.php?q=51.77.193.20
 * https://twitter.com/beethzydyaz/status/1382737444169265160
+* https://twitter.com/Dkavalanche/status/1670618649651040256
 * https://twitter.com/Merlax_/status/1594862075897339904
 * https://www.zscaler.com/blogs/security-research/grandoreiro-banking-trojan-new-ttps-targeting-various-industry-verticals
 

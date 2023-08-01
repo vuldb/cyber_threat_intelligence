@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 24 more country items available. Please use our online service to access the data.
+There are 22 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -353,11 +353,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-28, CWE-36, CWE-37 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-28, CWE-36, CWE-37 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80, CWE-87 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 7 | ... | ... | ... | ...
 
@@ -378,50 +378,52 @@ ID | Type | Indicator | Confidence
 7 | File | `/admin/doctors.php` | High
 8 | File | `/admin/edit_subject.php` | High
 9 | File | `/admin/products/manage_product.php` | High
-10 | File | `/admin/students/manage.php` | High
+10 | File | `/admin/reg.php` | High
 11 | File | `/admin/submit-articles` | High
 12 | File | `/alphaware/summary.php` | High
 13 | File | `/api/` | Low
 14 | File | `/api/admin/store/product/list` | High
 15 | File | `/api/stl/actions/search` | High
-16 | File | `/api/user/upsert/<uuid>` | High
-17 | File | `/api/v2/cli/commands` | High
-18 | File | `/appliance/users?action=edit` | High
-19 | File | `/attachments` | Medium
-20 | File | `/backup.pl` | Medium
+16 | File | `/api/v2/cli/commands` | High
+17 | File | `/appliance/users?action=edit` | High
+18 | File | `/attachments` | Medium
+19 | File | `/backup.pl` | Medium
+20 | File | `/bin/ate` | Medium
 21 | File | `/boat/login.php` | High
-22 | File | `/bsms_ci/index.php/book` | High
-23 | File | `/cgi-bin` | Medium
-24 | File | `/cgi-bin/wlogin.cgi` | High
-25 | File | `/context/%2e/WEB-INF/web.xml` | High
-26 | File | `/debug/pprof` | Medium
-27 | File | `/E-mobile/App/System/File/downfile.php` | High
-28 | File | `/edoc/doctor/patient.php` | High
-29 | File | `/etc/hosts` | Medium
-30 | File | `/etc/ldap.conf` | High
-31 | File | `/etc/passwd` | Medium
-32 | File | `/etc/shadow` | Medium
-33 | File | `/forum/away.php` | High
-34 | File | `/goform/SysToolChangePwd` | High
-35 | File | `/goform/wizard_end` | High
-36 | File | `/h/calendar` | Medium
-37 | File | `/h/compose` | Medium
-38 | File | `/h/search?action=voicemail&action=listen` | High
+22 | File | `/booking/show_bookings/` | High
+23 | File | `/bsms_ci/index.php/book` | High
+24 | File | `/cgi-bin` | Medium
+25 | File | `/cgi-bin/wlogin.cgi` | High
+26 | File | `/context/%2e/WEB-INF/web.xml` | High
+27 | File | `/debug/pprof` | Medium
+28 | File | `/dipam/athlete-profile.php` | High
+29 | File | `/E-mobile/App/System/File/downfile.php` | High
+30 | File | `/edoc/doctor/patient.php` | High
+31 | File | `/env` | Low
+32 | File | `/etc/hosts` | Medium
+33 | File | `/etc/ldap.conf` | High
+34 | File | `/etc/passwd` | Medium
+35 | File | `/etc/shadow` | Medium
+36 | File | `/forum/away.php` | High
+37 | File | `/goform/SysToolChangePwd` | High
+38 | File | `/goform/wizard_end` | High
 39 | File | `/index.php` | Medium
 40 | File | `/index.php?app=main&func=passport&action=login` | High
 41 | File | `/kelasdosen/data` | High
-42 | File | `/manager/index.php` | High
-43 | File | `/medicines/profile.php` | High
-44 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-45 | File | `/opac/Actions.php?a=login` | High
-46 | File | `/osm/REGISTER.cmd` | High
+42 | File | `/medicines/profile.php` | High
+43 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+44 | File | `/osm/REGISTER.cmd` | High
+45 | File | `/out.php` | Medium
+46 | File | `/paysystem/datatable.php` | High
 47 | File | `/php-scrm/login.php` | High
-48 | File | `/php-sms/classes/Master.php` | High
-49 | File | `/php-sms/classes/SystemSettings.php` | High
-50 | File | `/php_action/createOrder.php` | High
-51 | ... | ... | ...
+48 | File | `/php-sms/admin/?page=user/manage_user` | High
+49 | File | `/proxy` | Low
+50 | File | `/reservation/add_message.php` | High
+51 | File | `/reviewer/system/system/admins/manage/users/user-update.php` | High
+52 | File | `/reviewer_0/admins/assessments/pretest/questions-view.php` | High
+53 | ... | ... | ...
 
-There are 443 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 457 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

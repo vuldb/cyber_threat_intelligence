@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with ERMAC:
 
 * [US](https://vuldb.com/?country.us)
-* [PL](https://vuldb.com/?country.pl)
-* [CH](https://vuldb.com/?country.ch)
+* [CN](https://vuldb.com/?country.cn)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 7 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -26,7 +26,7 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [5.42.199.91](https://vuldb.com/?ip.5.42.199.91) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 12 more IOC items available. Please use our online service to access the data.
+There are 14 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -34,13 +34,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 15 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -49,32 +50,41 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/api/theme-edit/` | High
-2 | File | `/cgi-bin/viewcert` | High
-3 | File | `/cwc/login` | Medium
-4 | File | `/face-recognition-php/facepay-master/camera.php` | High
-5 | File | `/forum/PostPrivateMessage` | High
-6 | File | `/home/masterConsole` | High
-7 | File | `/hrm/employeeadd.php` | High
-8 | File | `/hrm/employeeview.php` | High
-9 | File | `/iwguestbook/admin/badwords_edit.asp` | High
-10 | File | `/iwguestbook/admin/messages_edit.asp` | High
-11 | File | `/TemplateManager/indexExternalLocation.jsp` | High
-12 | File | `action.php` | Medium
-13 | File | `admin.php&r=article/AdminContent/edit` | High
-14 | File | `admin/?page=admin` | High
-15 | File | `admin/dashboard.php` | High
-16 | File | `admin/general.php` | High
-17 | File | `admincp.php?app=prop&do=add` | High
-18 | File | `ajax/aj_*.php` | High
-19 | File | `append/override_content_security_policy_directives` | High
-20 | File | `application/controllers/timedtext.php` | High
-21 | File | `books.php` | Medium
-22 | File | `browse.videos.php` | High
-23 | File | `category.cfm` | Medium
-24 | File | `coin_includes/db.php` | High
-25 | ... | ... | ...
+2 | File | `/card_scan.php` | High
+3 | File | `/cgi-bin/viewcert` | High
+4 | File | `/cgi-bin/wlogin.cgi` | High
+5 | File | `/cwc/login` | Medium
+6 | File | `/download` | Medium
+7 | File | `/etc/quagga` | Medium
+8 | File | `/etc/shadow` | Medium
+9 | File | `/face-recognition-php/facepay-master/camera.php` | High
+10 | File | `/forms/doLogin` | High
+11 | File | `/forum/PostPrivateMessage` | High
+12 | File | `/h/calendar` | Medium
+13 | File | `/home/masterConsole` | High
+14 | File | `/hrm/employeeadd.php` | High
+15 | File | `/hrm/employeeview.php` | High
+16 | File | `/inc/extensions.php` | High
+17 | File | `/iwguestbook/admin/badwords_edit.asp` | High
+18 | File | `/iwguestbook/admin/messages_edit.asp` | High
+19 | File | `/nova/bin/console` | High
+20 | File | `/nova/bin/detnet` | High
+21 | File | `/out.php` | Medium
+22 | File | `/req_password_user.php` | High
+23 | File | `/rom-0` | Low
+24 | File | `/secure/QueryComponent!Default.jspa` | High
+25 | File | `/ServletAPI/accounts/login` | High
+26 | File | `/TemplateManager/indexExternalLocation.jsp` | High
+27 | File | `/uncpath/` | Medium
+28 | File | `/usr/syno/etc/mount.conf` | High
+29 | File | `/WEB-INF/web.xml` | High
+30 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+31 | File | `/wp-json` | Medium
+32 | File | `action.php` | Medium
+33 | File | `adm.cgi` | Low
+34 | ... | ... | ...
 
-There are 208 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 289 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

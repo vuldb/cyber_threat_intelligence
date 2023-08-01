@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 6 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -29,9 +29,10 @@ ID | IP address | Hostname | Campaign | Confidence
 6 | [34.91.185.62](https://vuldb.com/?ip.34.91.185.62) | 62.185.91.34.bc.googleusercontent.com | - | Medium
 7 | [34.107.35.186](https://vuldb.com/?ip.34.107.35.186) | 186.35.107.34.bc.googleusercontent.com | - | Medium
 8 | [34.107.84.7](https://vuldb.com/?ip.34.107.84.7) | 7.84.107.34.bc.googleusercontent.com | - | Medium
-9 | ... | ... | ... | ...
+9 | [34.141.92.1](https://vuldb.com/?ip.34.141.92.1) | 1.92.141.34.bc.googleusercontent.com | - | Medium
+10 | ... | ... | ... | ...
 
-There are 32 more IOC items available. Please use our online service to access the data.
+There are 36 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -60,23 +61,29 @@ ID | Type | Indicator | Confidence
 4 | File | `/banner/add.html` | High
 5 | File | `/coreframe/app/pay/admin/index.php` | High
 6 | File | `/forum/away.php` | High
-7 | File | `/mics/j_spring_security_check` | High
-8 | File | `/opac/Actions.php?a=login` | High
-9 | File | `/public/launchNewWindow.jsp` | High
-10 | File | `/public/login.htm` | High
-11 | File | `/rpc/membership/setProfile` | High
-12 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-13 | File | `/simple_chat_bot/admin/?page=responses/manage_response` | High
-14 | File | `/spip.php` | Medium
-15 | File | `/src/main/java/com/dotmarketing/filters/CMSFilter.java` | High
-16 | File | `adclick.php` | Medium
-17 | File | `add_comment.php` | High
-18 | File | `admin/admin.php` | High
-19 | File | `books.php` | Medium
-20 | File | `C:\Strawberry` | High
-21 | ... | ... | ...
+7 | File | `/librarian/bookdetails.php` | High
+8 | File | `/mics/j_spring_security_check` | High
+9 | File | `/opac/Actions.php?a=login` | High
+10 | File | `/public/launchNewWindow.jsp` | High
+11 | File | `/public/login.htm` | High
+12 | File | `/rpc/membership/setProfile` | High
+13 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+14 | File | `/simple_chat_bot/admin/?page=responses/manage_response` | High
+15 | File | `/spip.php` | Medium
+16 | File | `/src/main/java/com/dotmarketing/filters/CMSFilter.java` | High
+17 | File | `/staff/bookdetails.php` | High
+18 | File | `about.php` | Medium
+19 | File | `adclick.php` | Medium
+20 | File | `add_comment.php` | High
+21 | File | `admin.color.php` | High
+22 | File | `admin/addons/archive/archive.php` | High
+23 | File | `admin/admin.php` | High
+24 | File | `admincp/auth/secure.php` | High
+25 | File | `advsearch.php` | High
+26 | File | `appserv/main.php` | High
+27 | ... | ... | ...
 
-There are 172 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 228 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

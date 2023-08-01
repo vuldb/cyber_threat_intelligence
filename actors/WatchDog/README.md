@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -54,35 +54,36 @@ ID | Type | Indicator | Confidence
 1 | File | `/.vnc/sesman_${username}_passwd` | High
 2 | File | `/admin` | Low
 3 | File | `/admin/uesrs.php&action=display&value=Hide` | High
-4 | File | `/asms/classes/Master.php?f=delete_transaction` | High
-5 | File | `/catalog/admin/categories.php?cPath=&action=new_product` | High
-6 | File | `/cgi-bin/editBookmark` | High
-7 | File | `/cgi-bin/nobody` | High
-8 | File | `/cgi-bin/nobody/Search.cgi` | High
-9 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-10 | File | `/cgi-bin/user/Config.cgi` | High
-11 | File | `/chat_im/chat_window.php` | High
-12 | File | `/cloud_config/router_post/get_reg_verify_code` | High
-13 | File | `/debug/pprof` | Medium
-14 | File | `/env` | Low
-15 | File | `/etc/openstack-dashboard/local_settings` | High
-16 | File | `/etc/passwd` | Medium
-17 | File | `/filemanager/upload.php` | High
-18 | File | `/FreshRSS/p/ext.php` | High
-19 | File | `/goform/addressNat` | High
-20 | File | `/goform/addRouting` | High
-21 | File | `/goform/aspForm` | High
-22 | File | `/goform/SetNetControlList` | High
-23 | File | `/include/menu_v.inc.php` | High
-24 | File | `/Interface/DevManage/EC.php?cmd=upload` | High
-25 | File | `/librarian/lab.php` | High
-26 | File | `/MagickCore/statistic.c` | High
-27 | File | `/omos/admin/?page=user/list` | High
-28 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-29 | File | `/panel/fields/add` | High
-30 | ... | ... | ...
+4 | File | `/ajax.php?action=read_msg` | High
+5 | File | `/asms/classes/Master.php?f=delete_transaction` | High
+6 | File | `/catalog/admin/categories.php?cPath=&action=new_product` | High
+7 | File | `/cgi-bin/editBookmark` | High
+8 | File | `/cgi-bin/nobody` | High
+9 | File | `/cgi-bin/nobody/Search.cgi` | High
+10 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
+11 | File | `/cgi-bin/user/Config.cgi` | High
+12 | File | `/chat_im/chat_window.php` | High
+13 | File | `/cloud_config/router_post/get_reg_verify_code` | High
+14 | File | `/debug/pprof` | Medium
+15 | File | `/env` | Low
+16 | File | `/etc/openstack-dashboard/local_settings` | High
+17 | File | `/etc/passwd` | Medium
+18 | File | `/filemanager/upload.php` | High
+19 | File | `/FreshRSS/p/ext.php` | High
+20 | File | `/goform/addressNat` | High
+21 | File | `/goform/addRouting` | High
+22 | File | `/goform/aspForm` | High
+23 | File | `/goform/SetNetControlList` | High
+24 | File | `/include/menu_v.inc.php` | High
+25 | File | `/Interface/DevManage/EC.php?cmd=upload` | High
+26 | File | `/librarian/lab.php` | High
+27 | File | `/MagickCore/statistic.c` | High
+28 | File | `/omos/admin/?page=user/list` | High
+29 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+30 | File | `/panel/fields/add` | High
+31 | ... | ... | ...
 
-There are 253 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 261 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

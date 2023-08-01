@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [LA](https://vuldb.com/?country.la)
 * ...
 
-There are 9 more country items available. Please use our online service to access the data.
+There are 8 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -104,64 +104,60 @@ ID | Type | Indicator | Confidence
 1 | File | `/?p=products` | Medium
 2 | File | `/admin/?page=product/manage_product&id=2` | High
 3 | File | `/admin/casedetails.php` | High
-4 | File | `/admin/maintenance/brand.php` | High
-5 | File | `/admin/mechanics/manage_mechanic.php` | High
-6 | File | `/admin/positions_add.php` | High
-7 | File | `/admin/user/manage_user.php` | High
-8 | File | `/admin/userprofile.php` | High
-9 | File | `/admin/voters_row.php` | High
-10 | File | `/ad_js.php` | Medium
-11 | File | `/agc/vicidial.php` | High
-12 | File | `/ajax.php?action=save_company` | High
-13 | File | `/ajax.php?action=save_user` | High
-14 | File | `/ajax/myshop` | Medium
-15 | File | `/alumni/admin/ajax.php?action=save_settings` | High
-16 | File | `/api/gen/clients/{language}` | High
-17 | File | `/APR/signup.php` | High
-18 | File | `/authenticationendpoint/login.do` | High
-19 | File | `/aux` | Low
-20 | File | `/backup.pl` | Medium
-21 | File | `/cas/logout` | Medium
-22 | File | `/categorypage.php` | High
-23 | File | `/cgi-bin/system_mgr.cgi` | High
-24 | File | `/cgi-bin/wlogin.cgi` | High
-25 | File | `/cha.php` | Medium
-26 | File | `/College/admin/teacher.php` | High
-27 | File | `/contactform/contactform.php` | High
-28 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
-29 | File | `/dayrui/Fcms/View/system_log.html` | High
-30 | File | `/dcim/rack-roles/` | High
-31 | File | `/drivers/block/floppy.c` | High
-32 | File | `/DXR.axd` | Medium
-33 | File | `/ecommerce/admin/category/controller.php` | High
-34 | File | `/etc/shadow` | Medium
-35 | File | `/forum/away.php` | High
-36 | File | `/fos/admin/ajax.php` | High
-37 | File | `/goform/aspForm` | High
-38 | File | `/goform/WifiGuestSet` | High
-39 | File | `/inc/topBarNav.php` | High
-40 | File | `/index.php?s=/article/ApiAdminArticle/itemAdd` | High
-41 | File | `/kelas/data` | Medium
-42 | File | `/kelasdosen/data` | High
-43 | File | `/modules/projects/vw_files.php` | High
-44 | File | `/Moosikay/order.php` | High
-45 | File | `/multi-vendor-shopping-script/product-list.php` | High
-46 | File | `/nasm/nasm-parse.c` | High
-47 | File | `/ordering/admin/orders/loaddata.php` | High
-48 | File | `/ordering/admin/stockin/loaddata.php` | High
-49 | File | `/owa/auth/logon.aspx` | High
-50 | File | `/paysystem/branch.php` | High
-51 | File | `/paysystem/datatable.php` | High
-52 | File | `/philosophy/admin/login.php` | High
-53 | File | `/php-opos/login.php` | High
-54 | File | `/priv_mgt.html` | High
-55 | File | `/resources//../` | High
-56 | File | `/see_more_details.php` | High
-57 | File | `/services/indexing/preview` | High
-58 | File | `/Taier/API/tenant/listTenant` | High
-59 | ... | ... | ...
+4 | File | `/admin/del_feedback.php` | High
+5 | File | `/admin/maintenance/brand.php` | High
+6 | File | `/admin/mechanics/manage_mechanic.php` | High
+7 | File | `/admin/modal_add_product.php` | High
+8 | File | `/admin/positions_add.php` | High
+9 | File | `/admin/user/manage_user.php` | High
+10 | File | `/admin/userprofile.php` | High
+11 | File | `/admin/voters_row.php` | High
+12 | File | `/ad_js.php` | Medium
+13 | File | `/ajax.php?action=save_company` | High
+14 | File | `/ajax.php?action=save_user` | High
+15 | File | `/ajax/myshop` | Medium
+16 | File | `/alumni/admin/ajax.php?action=save_settings` | High
+17 | File | `/api/baskets/{name}` | High
+18 | File | `/api/gen/clients/{language}` | High
+19 | File | `/App_Resource/UEditor/server/upload.aspx` | High
+20 | File | `/APR/signup.php` | High
+21 | File | `/authenticationendpoint/login.do` | High
+22 | File | `/aux` | Low
+23 | File | `/backup.pl` | Medium
+24 | File | `/cas/logout` | Medium
+25 | File | `/category.php` | High
+26 | File | `/categorypage.php` | High
+27 | File | `/cgi-bin/system_mgr.cgi` | High
+28 | File | `/cha.php` | Medium
+29 | File | `/chaincity/user/ticket/create` | High
+30 | File | `/College/admin/teacher.php` | High
+31 | File | `/contactform/contactform.php` | High
+32 | File | `/Controller/Ajaxfileupload.ashx` | High
+33 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
+34 | File | `/dayrui/Fcms/View/system_log.html` | High
+35 | File | `/dcim/rack-roles/` | High
+36 | File | `/drivers/block/floppy.c` | High
+37 | File | `/DXR.axd` | Medium
+38 | File | `/ecommerce/admin/category/controller.php` | High
+39 | File | `/ecommerce/support_ticket` | High
+40 | File | `/etc/shadow` | Medium
+41 | File | `/forum/away.php` | High
+42 | File | `/fos/admin/ajax.php` | High
+43 | File | `/friends/ajax_invite` | High
+44 | File | `/goform/aspForm` | High
+45 | File | `/goform/WifiGuestSet` | High
+46 | File | `/home/filter_listings` | High
+47 | File | `/inc/topBarNav.php` | High
+48 | File | `/index.php` | Medium
+49 | File | `/index.php/client/message/message_read/xxxxxxxx[random-msg-hash]` | High
+50 | File | `/index.php?app=main&func=passport&action=login` | High
+51 | File | `/index.php?s=/article/ApiAdminArticle/itemAdd` | High
+52 | File | `/items/search` | High
+53 | File | `/kelas/data` | Medium
+54 | File | `/kelasdosen/data` | High
+55 | ... | ... | ...
 
-There are 512 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 482 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

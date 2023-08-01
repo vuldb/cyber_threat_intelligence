@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Buer:
 
 * [US](https://vuldb.com/?country.us)
+* [AT](https://vuldb.com/?country.at)
 * [GB](https://vuldb.com/?country.gb)
-* [CH](https://vuldb.com/?country.ch)
 * ...
 
-There are 1 more country items available. Please use our online service to access the data.
+There are 4 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -22,11 +22,11 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [142.93.102.244](https://vuldb.com/?ip.142.93.102.244) | dev.dotyeti.com | - | High
-2 | [178.128.162.45](https://vuldb.com/?ip.178.128.162.45) | - | - | High
-3 | [178.128.170.109](https://vuldb.com/?ip.178.128.170.109) | 961887.cloudwaysapps.com | - | High
+2 | [149.154.152.244](https://vuldb.com/?ip.149.154.152.244) | 244.152.154.149.in-addr.arpa | - | High
+3 | [178.128.162.45](https://vuldb.com/?ip.178.128.162.45) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 1 more IOC items available. Please use our online service to access the data.
+There are 2 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -34,12 +34,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1055 | CWE-74 | Injection | High
-2 | T1059 | CWE-94 | Cross Site Scripting | High
-3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+1 | T1006 | CWE-22 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 7 more TTP items available. Please use our online service to access the data.
+There are 13 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -48,12 +48,16 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/backups/` | Medium
-2 | File | `/cgi-bin/editBookmark` | High
-3 | File | `/goform/RgDdns` | High
-4 | File | `/goform/RgDhcp` | High
-5 | ... | ... | ...
+2 | File | `/cgi-bin/admin/testserver.cgi` | High
+3 | File | `/cgi-bin/editBookmark` | High
+4 | File | `/dev/kvm` | Medium
+5 | File | `/goform/RgDdns` | High
+6 | File | `/goform/RgDhcp` | High
+7 | File | `/goform/RGFirewallEL` | High
+8 | File | `/goform/RgTime` | High
+9 | ... | ... | ...
 
-There are 34 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 65 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

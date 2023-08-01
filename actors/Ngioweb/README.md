@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Ngioweb:
 
 * [US](https://vuldb.com/?country.us)
-* [WS](https://vuldb.com/?country.ws)
 * [LA](https://vuldb.com/?country.la)
+* [WS](https://vuldb.com/?country.ws)
 * ...
 
 There are 13 more country items available. Please use our online service to access the data.
@@ -66,40 +66,41 @@ ID | Type | Indicator | Confidence
 15 | File | `/classes/Master.php?f=delete_student` | High
 16 | File | `/course/api/upload/pic` | High
 17 | File | `/DXR.axd` | Medium
-18 | File | `/htdocs/cgibin` | High
-19 | File | `/icingaweb2/navigation/add` | High
-20 | File | `/mkshop/Men/profile.php` | High
-21 | File | `/module/index.php` | High
-22 | File | `/Monitoring-History.php` | High
-23 | File | `/my_photo_gallery/image.php` | High
-24 | File | `/owa/auth/logon.aspx` | High
-25 | File | `/product.php` | Medium
-26 | File | `/ServletAPI/accounts/login` | High
-27 | File | `/spip.php` | Medium
-28 | File | `/uncpath/` | Medium
-29 | File | `/usr/bin/pkexec` | High
-30 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
-31 | File | `/videotalk` | Medium
-32 | File | `/vloggers_merch/?p=products` | High
-33 | File | `/vloggers_merch/classes/Master.php?f=delete_category` | High
-34 | File | `/vloggers_merch/classes/Master.php?f=delete_product` | High
-35 | File | `/web/MCmsAction.java` | High
-36 | File | `/zm/index.php` | High
-37 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-38 | File | `activity_log.php` | High
-39 | File | `adclick.php` | Medium
-40 | File | `adm/systools.asp` | High
-41 | File | `admin.cropcanvas.php` | High
-42 | File | `admin.jcomments.php` | High
-43 | File | `admin/dashboard.php` | High
-44 | File | `admin/departments/manage_department.php` | High
-45 | File | `admin/getparam.cgi` | High
-46 | File | `admin/login.asp` | High
-47 | File | `admin/media/index.php"` | High
-48 | File | `adminCons.php` | High
-49 | ... | ... | ...
+18 | File | `/forum/away.php` | High
+19 | File | `/htdocs/cgibin` | High
+20 | File | `/icingaweb2/navigation/add` | High
+21 | File | `/mkshop/Men/profile.php` | High
+22 | File | `/module/index.php` | High
+23 | File | `/Monitoring-History.php` | High
+24 | File | `/my_photo_gallery/image.php` | High
+25 | File | `/owa/auth/logon.aspx` | High
+26 | File | `/product.php` | Medium
+27 | File | `/ServletAPI/accounts/login` | High
+28 | File | `/spip.php` | Medium
+29 | File | `/uncpath/` | Medium
+30 | File | `/usr/bin/pkexec` | High
+31 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
+32 | File | `/videotalk` | Medium
+33 | File | `/vloggers_merch/?p=products` | High
+34 | File | `/vloggers_merch/classes/Master.php?f=delete_category` | High
+35 | File | `/vloggers_merch/classes/Master.php?f=delete_product` | High
+36 | File | `/web/MCmsAction.java` | High
+37 | File | `/zm/index.php` | High
+38 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+39 | File | `activity_log.php` | High
+40 | File | `adclick.php` | Medium
+41 | File | `adm/systools.asp` | High
+42 | File | `admin.cropcanvas.php` | High
+43 | File | `admin.jcomments.php` | High
+44 | File | `admin/dashboard.php` | High
+45 | File | `admin/departments/manage_department.php` | High
+46 | File | `admin/getparam.cgi` | High
+47 | File | `admin/login.asp` | High
+48 | File | `admin/media/index.php"` | High
+49 | File | `adminCons.php` | High
+50 | ... | ... | ...
 
-There are 426 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 436 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

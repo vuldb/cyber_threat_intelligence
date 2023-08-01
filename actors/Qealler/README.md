@@ -89,9 +89,10 @@ ID | Type | Indicator | Confidence
 38 | File | `/rom-0` | Low
 39 | File | `/setSystemAdmin` | High
 40 | File | `/theme/default/img/%2e%2e/../etc/passwd` | High
-41 | ... | ... | ...
+41 | File | `/uncpath/` | Medium
+42 | ... | ... | ...
 
-There are 356 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 359 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

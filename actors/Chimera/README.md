@@ -10,7 +10,6 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [VN](https://vuldb.com/?country.vn)
 * [CN](https://vuldb.com/?country.cn)
-* [US](https://vuldb.com/?country.us)
 
 ## IOC - Indicator of Compromise
 
@@ -39,7 +38,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -48,47 +47,44 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `//proc/kcore` | Medium
-2 | File | `/?p=products` | Medium
-3 | File | `/action/wirelessConnect` | High
-4 | File | `/admin-ajax.php?action=eps_redirect_save` | High
-5 | File | `/admin/assign/assign.php` | High
-6 | File | `/admin/cashadvance_row.php` | High
-7 | File | `/admin/contacts/organizations/edit/2` | High
-8 | File | `/admin/curriculum/view_curriculum.php` | High
-9 | File | `/admin/departments/view_department.php` | High
-10 | File | `/admin/login.php` | High
-11 | File | `/admin/maintenance/view_designation.php` | High
-12 | File | `/admin/suppliers/view_details.php` | High
-13 | File | `/admin/user/manage_user.php` | High
-14 | File | `/admin/user/uploadImg` | High
-15 | File | `/api/admin/store/product/list` | High
-16 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
-17 | File | `/authenticationendpoint/login.do` | High
-18 | File | `/bin/login` | Medium
-19 | File | `/cgi-bin/cstecgi.cgi` | High
-20 | File | `/cgi-bin/kerbynet` | High
-21 | File | `/cgi-bin/luci` | High
-22 | File | `/cgi-bin/wlogin.cgi` | High
-23 | File | `/classes/Master.php` | High
-24 | File | `/classes/Master.php?f=delete_item` | High
-25 | File | `/config/getuser` | High
-26 | File | `/Content/Template/root/reverse-shell.aspx` | High
-27 | File | `/forms/doLogin` | High
-28 | File | `/forum/away.php` | High
-29 | File | `/HNAP1` | Low
-30 | File | `/lan.asp` | Medium
-31 | File | `/licenses` | Medium
-32 | File | `/Log/Query?appid=0B736354-9473-4D66-B9C0-15CAC149EB05&tabid=tab_0B73635494734D66B9C015CAC149EB05` | High
-33 | File | `/login/index.php` | High
-34 | File | `/mc` | Low
-35 | File | `/menu.html` | Medium
-36 | File | `/mims/login.php` | High
-37 | File | `/out.php` | Medium
-38 | File | `/php-inventory-management-system/product.php` | High
-39 | File | `/public/launchNewWindow.jsp` | High
-40 | ... | ... | ...
+2 | File | `/action/wirelessConnect` | High
+3 | File | `/admin/assign/assign.php` | High
+4 | File | `/admin/contacts/organizations/edit/2` | High
+5 | File | `/admin/curriculum/view_curriculum.php` | High
+6 | File | `/admin/departments/view_department.php` | High
+7 | File | `/admin/maintenance/view_designation.php` | High
+8 | File | `/admin/suppliers/view_details.php` | High
+9 | File | `/admin/user/manage_user.php` | High
+10 | File | `/admin/user/uploadImg` | High
+11 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
+12 | File | `/authenticationendpoint/login.do` | High
+13 | File | `/bin/login` | Medium
+14 | File | `/cgi-bin/cstecgi.cgi` | High
+15 | File | `/cgi-bin/kerbynet` | High
+16 | File | `/cgi-bin/luci` | High
+17 | File | `/cgi-bin/wlogin.cgi` | High
+18 | File | `/classes/Master.php` | High
+19 | File | `/classes/Master.php?f=delete_item` | High
+20 | File | `/config/getuser` | High
+21 | File | `/contact/store` | High
+22 | File | `/Content/Template/root/reverse-shell.aspx` | High
+23 | File | `/forms/doLogin` | High
+24 | File | `/forum/away.php` | High
+25 | File | `/HNAP1` | Low
+26 | File | `/lan.asp` | Medium
+27 | File | `/Log/Query?appid=0B736354-9473-4D66-B9C0-15CAC149EB05&tabid=tab_0B73635494734D66B9C015CAC149EB05` | High
+28 | File | `/login/index.php` | High
+29 | File | `/mc` | Low
+30 | File | `/menu.html` | Medium
+31 | File | `/mims/login.php` | High
+32 | File | `/out.php` | Medium
+33 | File | `/php-inventory-management-system/product.php` | High
+34 | File | `/plain` | Low
+35 | File | `/qsr_server/device/reboot` | High
+36 | File | `/spip.php` | Medium
+37 | ... | ... | ...
 
-There are 342 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 315 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

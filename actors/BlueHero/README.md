@@ -32,13 +32,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-37 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -47,40 +47,43 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.FBCIndex` | Medium
-2 | File | `/?ajax-request=jnews` | High
-3 | File | `/Admin/add-student.php` | High
-4 | File | `/admin/blog/blogcategory/add/?_to_field=id&_popup=1` | High
-5 | File | `/admin/edit.php` | High
-6 | File | `/admin/maintenance/view_designation.php` | High
-7 | File | `/aya/module/admin/fst_down.inc.php` | High
-8 | File | `/boat/login.php` | High
-9 | File | `/bsms_ci/index.php/user/edit_user/` | High
-10 | File | `/cas/logout` | Medium
-11 | File | `/debug/pprof` | Medium
-12 | File | `/etc/tomcat8/Catalina/attack` | High
-13 | File | `/forum/away.php` | High
-14 | File | `/goform/wizard_end` | High
-15 | File | `/ims/login.php` | High
-16 | File | `/mhds/clinic/view_details.php` | High
-17 | File | `/modules/profile/index.php` | High
-18 | File | `/out.php` | Medium
-19 | File | `/php-opos/index.php` | High
-20 | File | `/reviewer_0/admins/assessments/pretest/questions-view.php` | High
-21 | File | `/shell` | Low
-22 | File | `/spip.php` | Medium
-23 | File | `/tourism/rate_review.php` | High
-24 | File | `/uncpath/` | Medium
-25 | File | `/usr/www/ja/mnt_cmd.cgi` | High
-26 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
-27 | File | `/wp-admin/admin-ajax.php` | High
-28 | File | `action-visitor.php` | High
-29 | File | `action.php` | Medium
-30 | File | `adclick.php` | Medium
-31 | File | `AdHocQuery_Processor.aspx` | High
-32 | File | `admin.php?action=file&ctrl=download&path=../../1.txt` | High
-33 | ... | ... | ...
+2 | File | `/+CSCOE+/logon.html` | High
+3 | File | `/?ajax-request=jnews` | High
+4 | File | `/Admin/add-student.php` | High
+5 | File | `/admin/blog/blogcategory/add/?_to_field=id&_popup=1` | High
+6 | File | `/admin/categories/manage_category.php` | High
+7 | File | `/admin/edit.php` | High
+8 | File | `/admin/edit_product.php` | High
+9 | File | `/admin/maintenance/view_designation.php` | High
+10 | File | `/admin/sales/manage_sale.php` | High
+11 | File | `/api/baskets/{name}` | High
+12 | File | `/aya/module/admin/fst_down.inc.php` | High
+13 | File | `/blog` | Low
+14 | File | `/boat/login.php` | High
+15 | File | `/bsms_ci/index.php/user/edit_user/` | High
+16 | File | `/cas/logout` | Medium
+17 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
+18 | File | `/CPE` | Low
+19 | File | `/etc/tomcat8/Catalina/attack` | High
+20 | File | `/forum/away.php` | High
+21 | File | `/ghost/preview` | High
+22 | File | `/goform/wizard_end` | High
+23 | File | `/home/search` | Medium
+24 | File | `/ims/login.php` | High
+25 | File | `/mhds/clinic/view_details.php` | High
+26 | File | `/modules/profile/index.php` | High
+27 | File | `/out.php` | Medium
+28 | File | `/php-opos/index.php` | High
+29 | File | `/reviewer_0/admins/assessments/pretest/questions-view.php` | High
+30 | File | `/shell` | Low
+31 | File | `/spip.php` | Medium
+32 | File | `/tourism/rate_review.php` | High
+33 | File | `/uncpath/` | Medium
+34 | File | `/vdesk` | Low
+35 | File | `action-visitor.php` | High
+36 | ... | ... | ...
 
-There are 283 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 309 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

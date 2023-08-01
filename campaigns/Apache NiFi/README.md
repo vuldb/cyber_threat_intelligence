@@ -9,6 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Apache NiFi:
 
 * [US](https://vuldb.com/?country.us)
+* [UA](https://vuldb.com/?country.ua)
+* [RU](https://vuldb.com/?country.ru)
 
 ## Actors
 
@@ -25,7 +27,11 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
 1 | [31.184.240.34](https://vuldb.com/?ip.31.184.240.34) | 106863.web.hosting-russia.ru | [Unknown](https://vuldb.com/?actor.unknown) | High
-2 | [185.237.224.182](https://vuldb.com/?ip.185.237.224.182) | kimgo14917.vds | [Unknown](https://vuldb.com/?actor.unknown) | High
+2 | [93.189.46.81](https://vuldb.com/?ip.93.189.46.81) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
+3 | [185.122.204.197](https://vuldb.com/?ip.185.122.204.197) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
+4 | ... | ... | ... | ...
+
+There are 3 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -33,9 +39,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
-3 | T1505 | CWE-89 | SQL Injection | High
+1 | T1055 | CWE-74 | Injection | High
+2 | T1059 | CWE-94 | Cross Site Scripting | High
+3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+4 | ... | ... | ... | ...
+
+There are 5 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -44,17 +53,18 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/includes/event-management/index.php` | High
-2 | File | `admin/conf_users_edit.php` | High
-3 | File | `ExportToCsvUtf8.php` | High
+2 | File | `/spip.php` | Medium
+3 | File | `admin/conf_users_edit.php` | High
 4 | ... | ... | ...
 
-There are 4 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 14 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the campaign and the associated activities:
 
 * https://exchange.xforce.ibmcloud.com/threats/guid:f2289a3500a18206c66ea957c56442af
+* https://isc.sans.edu/diary/Your+Business+Data+and+Machine+Learning+at+Risk+Attacks+Against+Apache+NiFi/29900
 
 ## Literature
 

@@ -60,10 +60,11 @@ ID | Type | Indicator | Confidence
 5 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
 6 | File | `/wp-content/uploads/photo-gallery/` | High
 7 | File | `appserv/main.php` | High
-8 | File | `coders/png.c` | Medium
-9 | ... | ... | ...
+8 | File | `arch/x86/kvm/vmx/nested.c` | High
+9 | File | `coders/png.c` | Medium
+10 | ... | ... | ...
 
-There are 69 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 70 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

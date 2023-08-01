@@ -50,7 +50,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 11 more TTP items available. Please use our online service to access the data.
+There are 12 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -61,15 +61,16 @@ ID | Type | Indicator | Confidence
 1 | File | `/admin/dl_sendmail.php` | High
 2 | File | `/api/v2/cli/commands` | High
 3 | File | `/DXR.axd` | Medium
-4 | File | `/owa/auth/logon.aspx` | High
-5 | File | `/spip.php` | Medium
-6 | File | `/zm/index.php` | High
-7 | File | `admin.jcomments.php` | High
-8 | File | `app/Model/Event.php` | High
-9 | File | `application/modules/admin/views/ecommerce/products.php` | High
-10 | ... | ... | ...
+4 | File | `/forum/away.php` | High
+5 | File | `/owa/auth/logon.aspx` | High
+6 | File | `/spip.php` | Medium
+7 | File | `/zm/index.php` | High
+8 | File | `admin.jcomments.php` | High
+9 | File | `app/Model/Event.php` | High
+10 | File | `application/modules/admin/views/ecommerce/products.php` | High
+11 | ... | ... | ...
 
-There are 76 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 79 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

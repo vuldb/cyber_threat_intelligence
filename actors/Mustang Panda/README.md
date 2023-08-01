@@ -51,7 +51,7 @@ ID | IP address | Hostname | Campaign | Confidence
 17 | [45.154.14.235](https://vuldb.com/?ip.45.154.14.235) | - | Hodur | High
 18 | ... | ... | ... | ...
 
-There are 69 more IOC items available. Please use our online service to access the data.
+There are 70 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -146,10 +146,11 @@ ID | Type | Indicator | Confidence
 69 | File | `/group1/uploa` | High
 70 | File | `/HNAP1/SetAccessPointMode` | High
 71 | File | `/home/<user>/SecurityOnion/setup/so-setup` | High
-72 | File | `/home/www/cgi-bin/diagnostics.cgi` | High
-73 | ... | ... | ...
+72 | File | `/home/search` | Medium
+73 | File | `/home/www/cgi-bin/diagnostics.cgi` | High
+74 | ... | ... | ...
 
-There are 646 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 649 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -166,6 +167,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://www.anomali.com/blog/china-based-apt-mustang-panda-targets-minority-groups-public-and-private-sector-organizations#When:17:14:00Z
 * https://www.mcafee.com/enterprise/en-us/assets/reports/rp-operation-dianxun.pdf
 * https://www.secureworks.com/blog/bronze-president-targets-russian-speakers-with-updated-plugx
+* https://www.trendmicro.com/en_us/research/23/f/behind-the-scenes-unveiling-the-hidden-workings-of-earth-preta.html
 * https://www.welivesecurity.com/2022/03/23/mustang-panda-hodur-old-tricks-new-korplug-variant/
 * https://www.welivesecurity.com/2023/03/02/mqsttang-mustang-panda-latest-backdoor-treads-new-ground-qt-mqtt/
 

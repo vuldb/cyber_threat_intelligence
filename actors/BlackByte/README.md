@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [FR](https://vuldb.com/?country.fr)
 * ...
 
-There are 2 more country items available. Please use our online service to access the data.
+There are 4 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -23,6 +23,7 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [45.9.148.114](https://vuldb.com/?ip.45.9.148.114) | - | - | High
 2 | [185.93.6.31](https://vuldb.com/?ip.185.93.6.31) | free.example.com | - | High
+3 | [185.225.73.244](https://vuldb.com/?ip.185.225.73.244) | - | - | High
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -36,7 +37,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 15 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -44,23 +45,25 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/debug/pprof` | Medium
-2 | File | `/env` | Low
-3 | File | `/goform/SetNetControlList` | High
-4 | File | `/server-status` | High
-5 | File | `addentry.php` | Medium
-6 | File | `admin/categories_industry.php` | High
-7 | File | `admin/content/postcategory` | High
-8 | File | `Adminstrator/Users/Edit/` | High
-9 | ... | ... | ...
+1 | File | `/ajax.php?action=read_msg` | High
+2 | File | `/debug/pprof` | Medium
+3 | File | `/env` | Low
+4 | File | `/fos/admin/ajax.php` | High
+5 | File | `/goform/SetNetControlList` | High
+6 | File | `/server-status` | High
+7 | File | `/src/chatbotapp/chatWindow.java` | High
+8 | File | `addentry.php` | Medium
+9 | File | `admin/categories_industry.php` | High
+10 | ... | ... | ...
 
-There are 64 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 72 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://1275.ru/ioc/196/blackbyte-ransomware-iocs/
+* https://www.microsoft.com/en-us/security/blog/2023/07/06/the-five-day-job-a-blackbyte-ransomware-intrusion-case-study/
 * https://www.trustwave.com/en-us/resources/blogs/spiderlabs-blog/blackbyte-ransomware-pt-1-in-depth-analysis/
 
 ## Literature

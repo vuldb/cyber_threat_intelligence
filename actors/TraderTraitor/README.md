@@ -52,24 +52,25 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin/countrymanagement.php` | High
 3 | File | `/admin/newsletter1.php` | High
 4 | File | `/admin/payment.php` | High
-5 | File | `/doc/packages` | High
-6 | File | `/forum/away.php` | High
-7 | File | `/getcfg.php` | Medium
-8 | File | `/hrm/employeeview.php` | High
-9 | File | `/login` | Low
-10 | File | `/mkshop/Men/profile.php` | High
-11 | File | `/newsDia.php` | Medium
-12 | File | `/product_list.php` | High
-13 | File | `/reviewer/system/system/admins/manage/users/user-update.php` | High
-14 | File | `/rom-0` | Low
-15 | File | `/scas/admin/` | Medium
-16 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-17 | File | `/tpts/manage_user.php` | High
-18 | File | `/var/log/nginx` | High
-19 | File | `/web/entry/en/address/adrsSetUserWizard.cgi` | High
-20 | ... | ... | ...
+5 | File | `/admin/reg.php` | High
+6 | File | `/doc/packages` | High
+7 | File | `/forum/away.php` | High
+8 | File | `/getcfg.php` | Medium
+9 | File | `/hrm/employeeview.php` | High
+10 | File | `/login` | Low
+11 | File | `/mkshop/Men/profile.php` | High
+12 | File | `/newsDia.php` | Medium
+13 | File | `/product_list.php` | High
+14 | File | `/reviewer/system/system/admins/manage/users/user-update.php` | High
+15 | File | `/rom-0` | Low
+16 | File | `/scas/admin/` | Medium
+17 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+18 | File | `/tpts/manage_user.php` | High
+19 | File | `/var/log/nginx` | High
+20 | File | `/web/entry/en/address/adrsSetUserWizard.cgi` | High
+21 | ... | ... | ...
 
-There are 168 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 173 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

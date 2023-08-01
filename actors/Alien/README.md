@@ -18,12 +18,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [5.78.74.58](https://vuldb.com/?ip.5.78.74.58) | static.58.74.78.5.clients.your-server.de | - | High
-2 | [5.78.105.58](https://vuldb.com/?ip.5.78.105.58) | static.58.105.78.5.clients.your-server.de | - | High
-3 | [5.161.178.107](https://vuldb.com/?ip.5.161.178.107) | static.107.178.161.5.clients.your-server.de | - | High
+1 | [5.75.176.47](https://vuldb.com/?ip.5.75.176.47) | static.47.176.75.5.clients.your-server.de | - | High
+2 | [5.78.74.58](https://vuldb.com/?ip.5.78.74.58) | static.58.74.78.5.clients.your-server.de | - | High
+3 | [5.78.105.58](https://vuldb.com/?ip.5.78.105.58) | static.58.105.78.5.clients.your-server.de | - | High
 4 | ... | ... | ... | ...
 
-There are 9 more IOC items available. Please use our online service to access the data.
+There are 12 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -31,13 +31,15 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23, CWE-425 | Pathname Traversal | High
-2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94 | Cross Site Scripting | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Pathname Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-94 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | T1068 | CWE-264, CWE-266, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+7 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -45,24 +47,35 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin.php?controller=admin_commonuser` | High
-2 | File | `/admin/content/index` | High
-3 | File | `/admin/convert/export_z3950_new.php` | High
-4 | File | `/adms/admin/?page=vehicles/sell_vehicle` | High
-5 | File | `/ajax/update_certificate` | High
-6 | File | `/api/admin/system/store/order/list` | High
-7 | File | `/api/jmeter/download/files` | High
-8 | File | `/cgi-bin/wlogin.cgi` | High
-9 | File | `/customs/loan_by_class.php?reportView` | High
-10 | File | `/ecommerce/admin/settings/setDiscount.php` | High
-11 | File | `/editor/index.php` | High
-12 | File | `/forum/away.php` | High
-13 | File | `/fos/admin/ajax.php` | High
-14 | File | `/goform/WifiBasicSet` | High
-15 | File | `/intern/controller.php` | High
-16 | ... | ... | ...
+1 | File | `%PROGRAMFILES(X86)%\IDriveWindows` | High
+2 | File | `/.dbus-keyrings` | High
+3 | File | `/.env` | Low
+4 | File | `/admin` | Low
+5 | File | `/admin.php?controller=admin_commonuser` | High
+6 | File | `/admin/?page=inmates/view_inmate` | High
+7 | File | `/admin/?page=user/list` | High
+8 | File | `/admin/content/index` | High
+9 | File | `/admin/convert/export_z3950_new.php` | High
+10 | File | `/admin/edit_product.php` | High
+11 | File | `/admin/reg.php` | High
+12 | File | `/adms/admin/?page=vehicles/sell_vehicle` | High
+13 | File | `/ajax/update_certificate` | High
+14 | File | `/api/admin/system/store/order/list` | High
+15 | File | `/api/jmeter/download/files` | High
+16 | File | `/cgi-bin/wlogin.cgi` | High
+17 | File | `/configs/application.ini` | High
+18 | File | `/customs/loan_by_class.php?reportView` | High
+19 | File | `/ecommerce/admin/settings/setDiscount.php` | High
+20 | File | `/editor/index.php` | High
+21 | File | `/forum/away.php` | High
+22 | File | `/fos/admin/ajax.php` | High
+23 | File | `/goform/WifiBasicSet` | High
+24 | File | `/intern/controller.php` | High
+25 | File | `/LEPTON_stable_2.2.2/upload/account/logout.php` | High
+26 | File | `/master/core/PostHandler.php` | High
+27 | ... | ... | ...
 
-There are 124 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 230 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

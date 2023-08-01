@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Revenge RAT:
 
 * [US](https://vuldb.com/?country.us)
-* [FR](https://vuldb.com/?country.fr)
+* [DE](https://vuldb.com/?country.de)
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 13 more country items available. Please use our online service to access the data.
+There are 19 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -22,13 +22,16 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [3.138.180.119](https://vuldb.com/?ip.3.138.180.119) | ec2-3-138-180-119.us-east-2.compute.amazonaws.com | - | Medium
-2 | [23.237.25.123](https://vuldb.com/?ip.23.237.25.123) | - | - | High
-3 | [38.132.101.45](https://vuldb.com/?ip.38.132.101.45) | - | - | High
-4 | [42.118.133.241](https://vuldb.com/?ip.42.118.133.241) | - | - | High
-5 | [45.137.22.152](https://vuldb.com/?ip.45.137.22.152) | hosted-by.rootlayer.net | - | High
-6 | ... | ... | ... | ...
+2 | [5.39.19.8](https://vuldb.com/?ip.5.39.19.8) | - | - | High
+3 | [18.228.214.231](https://vuldb.com/?ip.18.228.214.231) | ec2-18-228-214-231.sa-east-1.compute.amazonaws.com | - | Medium
+4 | [23.237.25.123](https://vuldb.com/?ip.23.237.25.123) | - | - | High
+5 | [37.0.11.45](https://vuldb.com/?ip.37.0.11.45) | - | - | High
+6 | [38.132.101.45](https://vuldb.com/?ip.38.132.101.45) | - | - | High
+7 | [40.127.163.74](https://vuldb.com/?ip.40.127.163.74) | - | - | High
+8 | [42.118.133.241](https://vuldb.com/?ip.42.118.133.241) | - | - | High
+9 | ... | ... | ... | ...
 
-There are 19 more IOC items available. Please use our online service to access the data.
+There are 33 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -36,13 +39,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+5 | T1068 | CWE-264, CWE-266, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -50,33 +54,52 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin_giant/add_team_member.php` | High
-2 | File | `/common/info.cgi` | High
-3 | File | `/etc/sudoers` | Medium
-4 | File | `/forum/away.php` | High
-5 | File | `/get_getnetworkconf.cgi` | High
-6 | File | `/goform/setmac` | High
-7 | File | `/include/chart_generator.php` | High
-8 | File | `/integrations.json` | High
-9 | File | `/lists/admin/` | High
-10 | File | `/phppath/php` | Medium
-11 | File | `/services/details.asp` | High
-12 | File | `/spip.php` | Medium
-13 | File | `/uncpath/` | Medium
-14 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
-15 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-16 | File | `adclick.php` | Medium
-17 | File | `admin.php` | Medium
-18 | File | `admin.php?mod=user&act=del` | High
-19 | File | `admin/index.php` | High
-20 | File | `admin/login.asp` | High
-21 | File | `adminquery.php` | High
-22 | File | `and/or` | Low
-23 | File | `applications/luci-app-ddns/luasrc/model/cbi/ddns/detail.lua` | High
-24 | File | `apport/hookutils.py` | High
-25 | ... | ... | ...
+1 | File | `%PROGRAMDATA%\checkmk\agent\local` | High
+2 | File | `/?Key=PhoneRequestAuthorization` | High
+3 | File | `/account/ResetPassword` | High
+4 | File | `/admin/access` | High
+5 | File | `/admin/index.html` | High
+6 | File | `/admin/syslog` | High
+7 | File | `/admin_giant/add_team_member.php` | High
+8 | File | `/bin/login` | Medium
+9 | File | `/cgi-bin/ExportALLSettings.sh` | High
+10 | File | `/common/info.cgi` | High
+11 | File | `/DXR.axd` | Medium
+12 | File | `/etc/gsissh/sshd_config` | High
+13 | File | `/etc/sudoers` | Medium
+14 | File | `/fhconf/umconfig.txt` | High
+15 | File | `/forum/away.php` | High
+16 | File | `/get_getnetworkconf.cgi` | High
+17 | File | `/goform/setmac` | High
+18 | File | `/home` | Low
+19 | File | `/horde/util/go.php` | High
+20 | File | `/include/chart_generator.php` | High
+21 | File | `/integrations.json` | High
+22 | File | `/lists/admin/` | High
+23 | File | `/phppath/php` | Medium
+24 | File | `/product.php` | Medium
+25 | File | `/public` | Low
+26 | File | `/public/login.htm` | High
+27 | File | `/services/details.asp` | High
+28 | File | `/spip.php` | Medium
+29 | File | `/uncpath/` | Medium
+30 | File | `/users/admin/user_activity.php` | High
+31 | File | `/var/www/rhcert` | High
+32 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
+33 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+34 | File | `a2billing/customer/iridium_threed.php` | High
+35 | File | `adclick.php` | Medium
+36 | File | `admin.php` | Medium
+37 | File | `admin.php/comments/batchdel/` | High
+38 | File | `admin.php/User/del/ucode/` | High
+39 | File | `admin.php?c=a_adminuser&a=add&run=1` | High
+40 | File | `admin.php?m=Member&a=adminaddsave` | High
+41 | File | `admin.php?mod=user&act=del` | High
+42 | File | `admin/?/layout/edit/1` | High
+43 | File | `admin/?/page/edit/1` | High
+44 | ... | ... | ...
 
-There are 208 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 379 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

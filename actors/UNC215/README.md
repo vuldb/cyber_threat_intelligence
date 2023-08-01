@@ -48,13 +48,14 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/config/getuser` | High
-3 | File | `/img/main.cgi` | High
-4 | File | `/lan.asp` | Medium
-5 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-6 | ... | ... | ...
+2 | File | `/api/baskets/{name}` | High
+3 | File | `/config/getuser` | High
+4 | File | `/h/` | Low
+5 | File | `/img/main.cgi` | High
+6 | File | `/lan.asp` | Medium
+7 | ... | ... | ...
 
-There are 42 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 43 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

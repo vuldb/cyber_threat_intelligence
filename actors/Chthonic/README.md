@@ -61,12 +61,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
-2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94 | Cross Site Scripting | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-94 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 16 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -77,31 +77,31 @@ ID | Type | Indicator | Confidence
 1 | File | `.travis.yml` | Medium
 2 | File | `/.env` | Low
 3 | File | `/admin.php` | Medium
-4 | File | `/admin/subnets/ripe-query.php` | High
-5 | File | `/core/conditions/AbstractWrapper.java` | High
-6 | File | `/debug/pprof` | Medium
-7 | File | `/export` | Low
-8 | File | `/file?action=download&file` | High
-9 | File | `/hardware` | Medium
-10 | File | `/medical/inventories.php` | High
-11 | File | `/monitoring` | Medium
-12 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-13 | File | `/plugin/LiveChat/getChat.json.php` | High
-14 | File | `/plugins/servlet/audit/resource` | High
-15 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
-16 | File | `/replication` | Medium
-17 | File | `/RestAPI` | Medium
-18 | File | `/tmp/speedtest_urls.xml` | High
-19 | File | `/tmp/zarafa-vacation-*` | High
-20 | File | `/uncpath/` | Medium
-21 | File | `/upload` | Low
-22 | File | `/user/loader.php?api=1` | High
-23 | File | `/var/log/nginx` | High
-24 | File | `/var/run/watchman.pid` | High
-25 | File | `/viewer/krpano.html` | High
+4 | File | `/admin/read.php?mudi=getSignal` | High
+5 | File | `/admin/subnets/ripe-query.php` | High
+6 | File | `/core/conditions/AbstractWrapper.java` | High
+7 | File | `/debug/pprof` | Medium
+8 | File | `/export` | Low
+9 | File | `/file?action=download&file` | High
+10 | File | `/hardware` | Medium
+11 | File | `/librarian/bookdetails.php` | High
+12 | File | `/medical/inventories.php` | High
+13 | File | `/monitoring` | Medium
+14 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+15 | File | `/plugin/LiveChat/getChat.json.php` | High
+16 | File | `/plugins/servlet/audit/resource` | High
+17 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
+18 | File | `/replication` | Medium
+19 | File | `/RestAPI` | Medium
+20 | File | `/tmp/speedtest_urls.xml` | High
+21 | File | `/tmp/zarafa-vacation-*` | High
+22 | File | `/uncpath/` | Medium
+23 | File | `/upload` | Low
+24 | File | `/user/loader.php?api=1` | High
+25 | File | `/var/log/nginx` | High
 26 | ... | ... | ...
 
-There are 216 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 221 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

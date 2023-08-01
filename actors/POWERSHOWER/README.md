@@ -10,7 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [AR](https://vuldb.com/?country.ar)
-* [CA](https://vuldb.com/?country.ca)
+* [IR](https://vuldb.com/?country.ir)
+* ...
+
+There are 1 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -18,8 +21,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [108.170.52.158](https://vuldb.com/?ip.108.170.52.158) | bbdnd.stylesmeprettyblog.org | - | High
-2 | [200.122.128.208](https://vuldb.com/?ip.200.122.128.208) | - | - | High
+1 | [51.255.139.194](https://vuldb.com/?ip.51.255.139.194) | ip194.ip-51-255-139.eu | - | High
+2 | [108.170.52.158](https://vuldb.com/?ip.108.170.52.158) | bbdnd.stylesmeprettyblog.org | - | High
+3 | [188.165.62.40](https://vuldb.com/?ip.188.165.62.40) | 14z0.gaurented.com | - | High
+4 | ... | ... | ... | ...
+
+There are 1 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -28,11 +35,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22 | Pathname Traversal | High
-2 | T1059.007 | CWE-79 | Cross Site Scripting | High
-3 | T1068 | CWE-264 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+2 | T1059 | CWE-94 | Cross Site Scripting | High
+3 | T1059.007 | CWE-79 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 3 more TTP items available. Please use our online service to access the data.
+There are 5 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -45,7 +52,7 @@ ID | Type | Indicator | Confidence
 3 | File | `data/gbconfiguration.dat` | High
 4 | ... | ... | ...
 
-There are 7 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 15 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

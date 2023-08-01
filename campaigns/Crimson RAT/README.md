@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [DE](https://vuldb.com/?country.de)
 * ...
 
-There are 13 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -41,9 +41,10 @@ ID | IP address | Hostname | Actor | Confidence
 9 | [66.154.103.101](https://vuldb.com/?ip.66.154.103.101) | 66.154.103.101.static.quadranet.com | [Crimson RAT](https://vuldb.com/?actor.crimson_rat) | High
 10 | [75.119.133.15](https://vuldb.com/?ip.75.119.133.15) | ip-15-133-119-75.static.contabo.net | [Crimson RAT](https://vuldb.com/?actor.crimson_rat) | High
 11 | [79.143.177.122](https://vuldb.com/?ip.79.143.177.122) | vmi183368.contaboserver.net | [Crimson RAT](https://vuldb.com/?actor.crimson_rat) | High
-12 | ... | ... | ... | ...
+12 | [79.143.181.178](https://vuldb.com/?ip.79.143.181.178) | ip-178-181-143-79.static.contabo.net | [Crimson RAT](https://vuldb.com/?actor.crimson_rat) | High
+13 | ... | ... | ... | ...
 
-There are 46 more IOC items available. Please use our online service to access the data.
+There are 47 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -68,46 +69,47 @@ ID | Type | Indicator | Confidence
 1 | File | `/+CSCOE+/logon.html` | High
 2 | File | `/admin/inventory/manage_stock.php` | High
 3 | File | `/admin/login.php` | High
-4 | File | `/admin/new-content` | High
-5 | File | `/admin/reportupload.aspx` | High
-6 | File | `/api/upload` | Medium
-7 | File | `/app/tag/controller/ApiAdminTagCategory.php` | High
-8 | File | `/common/info.cgi` | High
-9 | File | `/ecodesource/search_list.php` | High
-10 | File | `/etc/tcsd.conf` | High
-11 | File | `/file` | Low
-12 | File | `/filemanager/upload.php` | High
-13 | File | `/forum/away.php` | High
-14 | File | `/fudforum/index.php` | High
-15 | File | `/horde/imp/search.php` | High
-16 | File | `/index.php?page=search/rentals` | High
-17 | File | `/login.php` | Medium
-18 | File | `/modules/profile/index.php` | High
-19 | File | `/modules/registration_admission/patient_register.php` | High
-20 | File | `/netflow/jspui/selectDevice.jsp` | High
-21 | File | `/out.php` | Medium
-22 | File | `/plugin/rundeck/webhook/` | High
-23 | File | `/pms/admin/crimes/view_crime.php` | High
-24 | File | `/scheduler/addSchedule.php` | High
-25 | File | `/spip.php` | Medium
-26 | File | `/TeamMate/Upload/DomainObjectDocumentUpload.ashx` | High
-27 | File | `/uncpath/` | Medium
-28 | File | `/wp-admin/admin-ajax.php` | High
-29 | File | `4.edu.php` | Medium
-30 | File | `5.2.9\syscrb.exe` | High
-31 | File | `adclick.php` | Medium
-32 | File | `add-vehicle.php` | High
-33 | File | `addentry.php` | Medium
-34 | File | `admin.php` | Medium
-35 | File | `admin/admin.php` | High
-36 | File | `admin/conf_users_edit.php` | High
-37 | File | `adminHome.php` | High
-38 | File | `admin_add.php` | High
-39 | File | `admin_gallery.php3` | High
-40 | File | `admsession.php` | High
-41 | ... | ... | ...
+4 | File | `/admin/maintenance/view_designation.php` | High
+5 | File | `/admin/new-content` | High
+6 | File | `/admin/reportupload.aspx` | High
+7 | File | `/api/upload` | Medium
+8 | File | `/app/tag/controller/ApiAdminTagCategory.php` | High
+9 | File | `/common/info.cgi` | High
+10 | File | `/csms/?page=contact_us` | High
+11 | File | `/ecodesource/search_list.php` | High
+12 | File | `/etc/tcsd.conf` | High
+13 | File | `/file` | Low
+14 | File | `/filemanager/upload.php` | High
+15 | File | `/forum/away.php` | High
+16 | File | `/fudforum/index.php` | High
+17 | File | `/horde/imp/search.php` | High
+18 | File | `/index.php?page=search/rentals` | High
+19 | File | `/login.php` | Medium
+20 | File | `/modules/profile/index.php` | High
+21 | File | `/modules/registration_admission/patient_register.php` | High
+22 | File | `/netflow/jspui/selectDevice.jsp` | High
+23 | File | `/out.php` | Medium
+24 | File | `/plugin/rundeck/webhook/` | High
+25 | File | `/pms/admin/crimes/view_crime.php` | High
+26 | File | `/scheduler/addSchedule.php` | High
+27 | File | `/spip.php` | Medium
+28 | File | `/TeamMate/Upload/DomainObjectDocumentUpload.ashx` | High
+29 | File | `/uncpath/` | Medium
+30 | File | `/wp-admin/admin-ajax.php` | High
+31 | File | `4.edu.php` | Medium
+32 | File | `5.2.9\syscrb.exe` | High
+33 | File | `adclick.php` | Medium
+34 | File | `add-vehicle.php` | High
+35 | File | `addentry.php` | Medium
+36 | File | `admin.php` | Medium
+37 | File | `admin/admin.php` | High
+38 | File | `admin/conf_users_edit.php` | High
+39 | File | `adminHome.php` | High
+40 | File | `admin_add.php` | High
+41 | File | `admin_gallery.php3` | High
+42 | ... | ... | ...
 
-There are 358 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 361 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -119,6 +121,7 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://twitter.com/RedDrip7/status/1622908094606094338
 * https://twitter.com/StopMalvertisin/status/1645805949234597889
 * https://twitter.com/StopMalvertisin/status/1670660520540770305
+* https://twitter.com/StopMalvertisin/status/1676869449394327553
 
 ## Literature
 

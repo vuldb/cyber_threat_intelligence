@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 10 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -55,18 +55,19 @@ ID | Type | Indicator | Confidence
 3 | File | `/category.php` | High
 4 | File | `/cgi-bin/delete_CA` | High
 5 | File | `/Config/SaveUploadedHotspotLogoFile` | High
-6 | File | `/download` | Medium
-7 | File | `/get_getnetworkconf.cgi` | High
-8 | File | `/GponForm/device_Form?script/` | High
-9 | File | `/includes/rrdtool.inc.php` | High
-10 | File | `/Main_AdmStatus_Content.asp` | High
-11 | File | `/NAGErrors` | Medium
-12 | File | `/sgms/TreeControl` | High
-13 | File | `/tmp` | Low
-14 | File | `/uncpath/` | Medium
-15 | ... | ... | ...
+6 | File | `/display/map` | Medium
+7 | File | `/download` | Medium
+8 | File | `/get_getnetworkconf.cgi` | High
+9 | File | `/GponForm/device_Form?script/` | High
+10 | File | `/includes/rrdtool.inc.php` | High
+11 | File | `/Main_AdmStatus_Content.asp` | High
+12 | File | `/NAGErrors` | Medium
+13 | File | `/sgms/TreeControl` | High
+14 | File | `/tmp` | Low
+15 | File | `/uncpath/` | Medium
+16 | ... | ... | ...
 
-There are 118 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 124 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

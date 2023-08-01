@@ -8,8 +8,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with XOR DDoS:
 
-* [SG](https://vuldb.com/?country.sg)
 * [US](https://vuldb.com/?country.us)
+* [SG](https://vuldb.com/?country.sg)
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
@@ -23,10 +23,10 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [23.228.113.246](https://vuldb.com/?ip.23.228.113.246) | - | - | High
 2 | [23.248.237.29](https://vuldb.com/?ip.23.248.237.29) | - | - | High
-3 | [43.229.113.27](https://vuldb.com/?ip.43.229.113.27) | - | - | High
+3 | [23.253.46.64](https://vuldb.com/?ip.23.253.46.64) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 10 more IOC items available. Please use our online service to access the data.
+There are 13 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -34,12 +34,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-23 | Pathname Traversal | High
-2 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-3 | T1068 | CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 6 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -47,18 +48,46 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/tmp` | Low
-2 | File | `data/gbconfiguration.dat` | High
-3 | File | `index.php` | Medium
-4 | ... | ... | ...
+1 | File | `/../conf/config.properties` | High
+2 | File | `/admin/reminders/manage_reminder.php` | High
+3 | File | `/csms/admin/inquiries/view_details.php` | High
+4 | File | `/drivers/infiniband/core/cm.c` | High
+5 | File | `/files.md5` | Medium
+6 | File | `/forum/away.php` | High
+7 | File | `/horde/util/go.php` | High
+8 | File | `/hrm/employeeview.php` | High
+9 | File | `/images/` | Medium
+10 | File | `/inc/parser/xhtml.php` | High
+11 | File | `/include/chart_generator.php` | High
+12 | File | `/librarian/bookdetails.php` | High
+13 | File | `/login` | Low
+14 | File | `/messageboard/view.php` | High
+15 | File | `/modules/profile/index.php` | High
+16 | File | `/one_church/userregister.php` | High
+17 | File | `/out.php` | Medium
+18 | File | `/public/plugins/` | High
+19 | File | `/SAP_Information_System/controllers/add_admin.php` | High
+20 | File | `/SASWebReportStudio/logonAndRender.do` | High
+21 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+22 | File | `/secure/admin/ViewInstrumentation.jspa` | High
+23 | File | `/SVFE2/pages/feegroups/country_group.jsf` | High
+24 | File | `/textpattern/index.php` | High
+25 | File | `/tmp` | Low
+26 | File | `/v2/quantum/save-data-upload-big-file` | High
+27 | File | `4.edu.php` | Medium
+28 | File | `adclick.php` | Medium
+29 | File | `addentry.php` | Medium
+30 | File | `admin.cropcanvas.php` | High
+31 | ... | ... | ...
 
-There are 8 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 267 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://bazaar.abuse.ch/browse/signature/XorDDoS/
+* https://bazaar.abuse.ch/sample/0f00c2e074c6284c556040012ef23357853ccac4ad1373d1dea683562dc24bca/
 * https://bazaar.abuse.ch/sample/022e101f1d4671796972c9ae6eed81920a59003e751a0fd449b543f630ba36a8/
 * https://bazaar.abuse.ch/sample/5a7d7f1d53f039e7b69cf8d040cc043d1264b14107a8a73034e6b90d8e81f87a/
 * https://bazaar.abuse.ch/sample/b1b32e4ca117a393ad2dec01b112819864f34261a56b0dbebe5263840f769076/
@@ -67,6 +96,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://bazaar.abuse.ch/sample/b277f80d0f288f4284dd071ccf388dad5cb99ac2ba3e6708c0496406dac09799/
 * https://bazaar.abuse.ch/sample/c0b0225201fd3a4c08245e58bbb4b844e0d3426e89b9ac3fc34db37d994fb182
 * https://bazaar.abuse.ch/sample/ccc4e17f1cb512b4710372f10908a3852968c7ae547dca563e76d472e7136689/
+* https://bazaar.abuse.ch/sample/da3d038a95cb558469ee54f695c4be745a50824079c8d377a279a7c46d415aa4/
 * https://bazaar.abuse.ch/sample/ea40ecec0b30982fbb1662e67f97f0e9d6f43d2d587f2f588525fae683abea73/
 * https://bazaar.abuse.ch/sample/f4a25e8d960c631699e1b9adab8d29e5e4a2ae0d3be1c7739275a6a72b9b0876/
 * https://bazaar.abuse.ch/sample/f48d2e608faeb0747b32205489e8ca88a3b10ecfd3c2cc2ff31fabf11fac03b3/

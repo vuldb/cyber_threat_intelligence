@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
-* [SV](https://vuldb.com/?country.sv)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
 There are 5 more country items available. Please use our online service to access the data.
@@ -34,7 +34,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23, CWE-36 | Pathname Traversal | High
+1 | T1006 | CWE-22, CWE-23, CWE-24, CWE-36 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94 | Cross Site Scripting | High
@@ -58,41 +58,44 @@ ID | Type | Indicator | Confidence
 7 | File | `/admin/maintenance/manage_category.php` | High
 8 | File | `/admin/maintenance/view_designation.php` | High
 9 | File | `/admin/modal_add_product.php` | High
-10 | File | `/admin/report/index.php` | High
-11 | File | `/admin/reportupload.aspx` | High
-12 | File | `/admin/service.php` | High
-13 | File | `/admin/service_requests/manage_inventory.php` | High
-14 | File | `/admin/update_s6.php` | High
-15 | File | `/admin/user/manage_user.php` | High
-16 | File | `/admin_area/login_transfer.php` | High
-17 | File | `/adms/admin/?page=user/manage_user` | High
-18 | File | `/adms/admin/?page=vehicles/view_transaction` | High
-19 | File | `/ajax.php?action=save_company` | High
-20 | File | `/ajax/update_certificate` | High
-21 | File | `/alphaware/details.php` | High
-22 | File | `/apply.cgi` | Medium
-23 | File | `/cgi-bin/ping.cgi` | High
-24 | File | `/cgi-bin/touchlist_sync.cgi` | High
-25 | File | `/cgi-bin/wlogin.cgi` | High
-26 | File | `/classes/Master.php` | High
-27 | File | `/classes/Users.php` | High
-28 | File | `/file_manager/admin/save_user.php` | High
-29 | File | `/forum/away.php` | High
-30 | File | `/fudforum/adm/hlplist.php` | High
-31 | File | `/goForm/aspForm` | High
-32 | File | `/goform/formDefault` | High
-33 | File | `/goform/formSysCmd` | High
-34 | File | `/goform/fromSetWirelessRepeat` | High
-35 | File | `/ipms/imageConvert/image` | High
-36 | File | `/jurusan/data` | High
-37 | File | `/kelas/data` | Medium
-38 | File | `/login/index.php` | High
-39 | File | `/mahasiswa/data` | High
-40 | File | `/mogu-picture/file/uploadPicsByUrl` | High
-41 | File | `/Moosikay/order.php` | High
-42 | ... | ... | ...
+10 | File | `/admin/read.php?mudi=getSignal` | High
+11 | File | `/admin/report/index.php` | High
+12 | File | `/admin/reportupload.aspx` | High
+13 | File | `/admin/service.php` | High
+14 | File | `/admin/service_requests/manage_inventory.php` | High
+15 | File | `/admin/update_s6.php` | High
+16 | File | `/admin/user/manage_user.php` | High
+17 | File | `/admin_area/login_transfer.php` | High
+18 | File | `/adms/admin/?page=user/manage_user` | High
+19 | File | `/adms/admin/?page=vehicles/view_transaction` | High
+20 | File | `/ajax.php?action=read_msg` | High
+21 | File | `/ajax.php?action=save_company` | High
+22 | File | `/ajax/update_certificate` | High
+23 | File | `/alphaware/details.php` | High
+24 | File | `/apply.cgi` | Medium
+25 | File | `/bin/sh` | Low
+26 | File | `/blog` | Low
+27 | File | `/cgi-bin/ping.cgi` | High
+28 | File | `/cgi-bin/touchlist_sync.cgi` | High
+29 | File | `/cgi-bin/wlogin.cgi` | High
+30 | File | `/changeimage.php` | High
+31 | File | `/classes/Master.php` | High
+32 | File | `/classes/Users.php` | High
+33 | File | `/dipam/save-delegates.php` | High
+34 | File | `/file_manager/admin/save_user.php` | High
+35 | File | `/forum/away.php` | High
+36 | File | `/fudforum/adm/hlplist.php` | High
+37 | File | `/goForm/aspForm` | High
+38 | File | `/goform/formDefault` | High
+39 | File | `/goform/formSysCmd` | High
+40 | File | `/goform/fromSetWirelessRepeat` | High
+41 | File | `/goform/SetVirtualServerCfg` | High
+42 | File | `/index.php` | Medium
+43 | File | `/index.php/payment/getcoinaddress` | High
+44 | File | `/ipms/imageConvert/image` | High
+45 | ... | ... | ...
 
-There are 364 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 390 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

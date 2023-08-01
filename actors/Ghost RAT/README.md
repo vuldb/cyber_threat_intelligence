@@ -39,7 +39,7 @@ ID | IP address | Hostname | Campaign | Confidence
 16 | [43.249.195.178](https://vuldb.com/?ip.43.249.195.178) | - | - | High
 17 | ... | ... | ... | ...
 
-There are 63 more IOC items available. Please use our online service to access the data.
+There are 66 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 

@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [DE](https://vuldb.com/?country.de)
-* [RU](https://vuldb.com/?country.ru)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 18 more country items available. Please use our online service to access the data.
+There are 19 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -61,19 +61,20 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin/ajax.php?action=save_area` | High
 3 | File | `/admin/reportupload.aspx` | High
 4 | File | `/api/plugin/uninstall` | High
-5 | File | `/cgi-bin/webproc` | High
-6 | File | `/dosen/data` | Medium
-7 | File | `/etc/puppetlabs/puppetserver/conf.d/ca.conf` | High
-8 | File | `/jeecg-boot/jmreport/upload` | High
-9 | File | `/modules/tasks/summary.inc.php` | High
-10 | File | `/rest/api/2/user/picker` | High
-11 | File | `/secure/QueryComponent!Default.jspa` | High
-12 | File | `/send_order.cgi?parameter=restart` | High
-13 | File | `/uncpath/` | Medium
-14 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
-15 | ... | ... | ...
+5 | File | `/cgi-bin/adm.cgi` | High
+6 | File | `/cgi-bin/webproc` | High
+7 | File | `/dipam/athlete-profile.php` | High
+8 | File | `/dosen/data` | Medium
+9 | File | `/etc/puppetlabs/puppetserver/conf.d/ca.conf` | High
+10 | File | `/jeecg-boot/jmreport/upload` | High
+11 | File | `/modules/tasks/summary.inc.php` | High
+12 | File | `/preview.php` | Medium
+13 | File | `/rest/api/2/user/picker` | High
+14 | File | `/secure/QueryComponent!Default.jspa` | High
+15 | File | `/send_order.cgi?parameter=restart` | High
+16 | ... | ... | ...
 
-There are 124 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 131 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

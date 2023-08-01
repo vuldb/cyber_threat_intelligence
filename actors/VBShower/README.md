@@ -59,34 +59,36 @@ ID | Type | Indicator | Confidence
 12 | File | `/api/v2/cli/commands` | High
 13 | File | `/api/v2/open/rowsInfo` | High
 14 | File | `/api/v3/flows/instances/default-user-settings-flow/execute/` | High
-15 | File | `/asms/admin/?page=user/manage_user` | High
-16 | File | `/blog/comment` | High
-17 | File | `/classes/Login.php` | High
-18 | File | `/dosen/data` | Medium
-19 | File | `/E-mobile/App/System/File/downfile.php` | High
-20 | File | `/env` | Low
-21 | File | `/etc/master.passwd` | High
-22 | File | `/etc/os-release` | High
-23 | File | `/file_manager/admin/save_user.php` | High
-24 | File | `/front/search.php` | High
-25 | File | `/garage/php_action/createBrand.php` | High
-26 | File | `/goform/addressNat` | High
-27 | File | `/goform/AdvSetWrlsafeset` | High
-28 | File | `/goform/editFileName` | High
-29 | File | `/goform/form2WizardStep54` | High
-30 | File | `/goform/setSysAdm` | High
-31 | File | `/goform/webExcptypemanFilter` | High
-32 | File | `/goform/WifiBasicSet` | High
-33 | File | `/goform/WifiMacFilterGet` | High
-34 | File | `/hss/admin/categories/view_category.php` | High
-35 | File | `/isomedia/meta.c` | High
-36 | File | `/jurusanmatkul/data` | High
-37 | File | `/mods/_core/courses/users/create_course.php` | High
-38 | File | `/module/report_event/index.php` | High
-39 | File | `/Redcock-Farm/farm/category.php` | High
-40 | ... | ... | ...
+15 | File | `/api/wechat/app_auth` | High
+16 | File | `/asms/admin/?page=user/manage_user` | High
+17 | File | `/blog/comment` | High
+18 | File | `/classes/Login.php` | High
+19 | File | `/dosen/data` | Medium
+20 | File | `/E-mobile/App/System/File/downfile.php` | High
+21 | File | `/env` | Low
+22 | File | `/etc/master.passwd` | High
+23 | File | `/etc/os-release` | High
+24 | File | `/file_manager/admin/save_user.php` | High
+25 | File | `/front/search.php` | High
+26 | File | `/garage/php_action/createBrand.php` | High
+27 | File | `/goform/addressNat` | High
+28 | File | `/goform/AdvSetWrlsafeset` | High
+29 | File | `/goform/editFileName` | High
+30 | File | `/goform/form2WizardStep54` | High
+31 | File | `/goform/setSysAdm` | High
+32 | File | `/goform/webExcptypemanFilter` | High
+33 | File | `/goform/WifiBasicSet` | High
+34 | File | `/goform/WifiMacFilterGet` | High
+35 | File | `/hss/admin/categories/view_category.php` | High
+36 | File | `/index.php` | Medium
+37 | File | `/isomedia/meta.c` | High
+38 | File | `/jurusanmatkul/data` | High
+39 | File | `/load.php` | Medium
+40 | File | `/mods/_core/courses/users/create_course.php` | High
+41 | File | `/module/report_event/index.php` | High
+42 | ... | ... | ...
 
-There are 344 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 365 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

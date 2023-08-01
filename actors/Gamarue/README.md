@@ -57,7 +57,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -67,38 +67,41 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `%PROGRAMDATA%\OpenVPN Connect\drivers\tap\amd64\win10` | High
 2 | File | `%PROGRAMDATA%\Razer\Synapse3\Service\bin` | High
-3 | File | `/+CSCOE+/logon.html` | High
-4 | File | `/admin/config.php?display=disa&view=form` | High
-5 | File | `/admin/settings/sites/new` | High
-6 | File | `/ajax/networking/get_netcfg.php` | High
-7 | File | `/api/admin/store/product/save` | High
-8 | File | `/app/admin/nat/item-add-submit.php` | High
+3 | File | `/admin/config.php?display=disa&view=form` | High
+4 | File | `/admin/settings/sites/new` | High
+5 | File | `/ajax/networking/get_netcfg.php` | High
+6 | File | `/api/admin/store/product/save` | High
+7 | File | `/app/admin/nat/item-add-submit.php` | High
+8 | File | `/cgi-bin/adm.cgi` | High
 9 | File | `/cgi-bin/wapopen` | High
 10 | File | `/config/netconf.cmd` | High
 11 | File | `/etc/config/image_sign` | High
 12 | File | `/folder/list` | Medium
 13 | File | `/forms/nslookupHandler` | High
 14 | File | `/group/comment` | High
-15 | File | `/lookin/info` | Medium
-16 | File | `/plugins/servlet/jira-blockers/` | High
-17 | File | `/ptipupgrade.cgi` | High
-18 | File | `/register.do` | Medium
-19 | File | `/sessions/sess_<sessionid>` | High
-20 | File | `/themes/<php_file_name>` | High
-21 | File | `/tmp/speedtest_urls.xml` | High
-22 | File | `/uncpath/` | Medium
-23 | File | `/upload` | Low
-24 | File | `/var/log/nginx` | High
-25 | File | `/wbg/core/_includes/authorization.inc.php` | High
-26 | File | `/wp-admin/admin.php` | High
-27 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-28 | File | `adclick.php` | Medium
-29 | File | `admin.php` | Medium
-30 | File | `admin/?n=tags&c=index&a=doSaveTags` | High
-31 | File | `admin/controller/pages/localisation/language.php` | High
-32 | ... | ... | ...
+15 | File | `/ipms/imageConvert/image` | High
+16 | File | `/librarian/bookdetails.php` | High
+17 | File | `/lookin/info` | Medium
+18 | File | `/plugins/servlet/jira-blockers/` | High
+19 | File | `/ptipupgrade.cgi` | High
+20 | File | `/register.do` | Medium
+21 | File | `/sessions/sess_<sessionid>` | High
+22 | File | `/themes/<php_file_name>` | High
+23 | File | `/tmp/speedtest_urls.xml` | High
+24 | File | `/uncpath/` | Medium
+25 | File | `/upload` | Low
+26 | File | `/var/log/nginx` | High
+27 | File | `/wbg/core/_includes/authorization.inc.php` | High
+28 | File | `/wp-admin/admin.php` | High
+29 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+30 | File | `adclick.php` | Medium
+31 | File | `admin.php` | Medium
+32 | File | `admin/?n=tags&c=index&a=doSaveTags` | High
+33 | File | `admin/controller/pages/localisation/language.php` | High
+34 | File | `admincp/attachment.php&do=rebuild&type` | High
+35 | ... | ... | ...
 
-There are 274 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 299 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

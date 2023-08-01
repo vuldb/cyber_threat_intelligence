@@ -63,7 +63,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -84,23 +84,23 @@ ID | Type | Indicator | Confidence
 11 | File | `/ConsoleHelp/` | High
 12 | File | `/etc/sudoers` | Medium
 13 | File | `/export` | Low
-14 | File | `/horde/imp/search.php` | High
-15 | File | `/index.php` | Medium
-16 | File | `/jsoa/hntdCustomDesktopActionContent` | High
-17 | File | `/LEPTON_stable_2.2.2/upload/admins/media/index.php` | High
-18 | File | `/login` | Low
-19 | File | `/messageboard/view.php` | High
-20 | File | `/modules/projects/vw_files.php` | High
-21 | File | `/opensis/modules/grades/InputFinalGrades.php` | High
-22 | File | `/opensis/modules/users/Staff.php` | High
-23 | File | `/plesk-site-preview/` | High
-24 | File | `/proc/self/environ` | High
-25 | File | `/rest/api/2/user/picker` | High
-26 | File | `/s/` | Low
-27 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-28 | File | `/secure/QueryComponent!Default.jspa` | High
-29 | File | `/sendrcpackage?keyid=-2544&keysymbol=-4081` | High
-30 | File | `/services` | Medium
+14 | File | `/home/filter_listings` | High
+15 | File | `/horde/imp/search.php` | High
+16 | File | `/index.php` | Medium
+17 | File | `/jsoa/hntdCustomDesktopActionContent` | High
+18 | File | `/LEPTON_stable_2.2.2/upload/admins/media/index.php` | High
+19 | File | `/login` | Low
+20 | File | `/messageboard/view.php` | High
+21 | File | `/modules/projects/vw_files.php` | High
+22 | File | `/opensis/modules/grades/InputFinalGrades.php` | High
+23 | File | `/opensis/modules/users/Staff.php` | High
+24 | File | `/plesk-site-preview/` | High
+25 | File | `/proc/self/environ` | High
+26 | File | `/rest/api/2/user/picker` | High
+27 | File | `/s/` | Low
+28 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+29 | File | `/secure/QueryComponent!Default.jspa` | High
+30 | File | `/sendrcpackage?keyid=-2544&keysymbol=-4081` | High
 31 | File | `/system?action=ServiceAdmin` | High
 32 | File | `/var/WEB-GUI/cgi-bin/downloadfile.cgi` | High
 33 | File | `/vicidial/user_stats.php` | High
@@ -109,32 +109,32 @@ ID | Type | Indicator | Confidence
 36 | File | `adclick.php` | Medium
 37 | File | `addsuppliers.php` | High
 38 | File | `admin.php` | Medium
-39 | File | `admin.php?m=backup&c=backup&a=doback` | High
-40 | File | `admin.remository.php` | High
-41 | File | `admin/admin_users.php` | High
-42 | File | `admin/login.php` | High
-43 | File | `admin/upload.php` | High
-44 | File | `administers` | Medium
-45 | File | `Administrator_list.php` | High
-46 | File | `advancedsetup_websiteblocking.html` | High
-47 | File | `affich.php` | Medium
-48 | File | `ajax_mail_autoreply.php` | High
-49 | File | `ajax_save_name.php` | High
-50 | File | `album_portal.php` | High
-51 | File | `allocator.cc` | Medium
-52 | File | `announcements.php` | High
-53 | File | `ap1.com` | Low
-54 | File | `apache2/modsecurity.c` | High
-55 | File | `api_jsonrpc.php` | High
-56 | File | `app/admin/controller/Ajax.php` | High
-57 | File | `App/Modules/Admin/Tpl/default/Public/dwz/uploadify/scripts/uploadify.swf` | High
-58 | File | `application.php` | High
-59 | File | `apply.cgi` | Medium
-60 | File | `asp:.jpg` | Medium
-61 | File | `authfiles/login.asp` | High
+39 | File | `admin.remository.php` | High
+40 | File | `admin/admin_users.php` | High
+41 | File | `admin/login.php` | High
+42 | File | `admin/upload.php` | High
+43 | File | `administers` | Medium
+44 | File | `Administrator_list.php` | High
+45 | File | `advancedsetup_websiteblocking.html` | High
+46 | File | `affich.php` | Medium
+47 | File | `ajax_mail_autoreply.php` | High
+48 | File | `ajax_save_name.php` | High
+49 | File | `album_portal.php` | High
+50 | File | `allocator.cc` | Medium
+51 | File | `announcements.php` | High
+52 | File | `ap1.com` | Low
+53 | File | `apache2/modsecurity.c` | High
+54 | File | `api_jsonrpc.php` | High
+55 | File | `app/admin/controller/Ajax.php` | High
+56 | File | `App/Modules/Admin/Tpl/default/Public/dwz/uploadify/scripts/uploadify.swf` | High
+57 | File | `application.php` | High
+58 | File | `apply.cgi` | Medium
+59 | File | `asp:.jpg` | Medium
+60 | File | `authfiles/login.asp` | High
+61 | File | `bb_usage_stats.php` | High
 62 | ... | ... | ...
 
-There are 547 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 538 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

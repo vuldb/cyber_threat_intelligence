@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [ES](https://vuldb.com/?country.es)
-* [UA](https://vuldb.com/?country.ua)
+* [NL](https://vuldb.com/?country.nl)
 * ...
 
-There are 1 more country items available. Please use our online service to access the data.
+There are 2 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -59,9 +59,10 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin/orders/update_status.php` | High
 3 | File | `/cgi-bin/wapopen` | High
 4 | File | `/etc/fstab` | Medium
-5 | ... | ... | ...
+5 | File | `/paysystem/datatable.php` | High
+6 | ... | ... | ...
 
-There are 31 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 37 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

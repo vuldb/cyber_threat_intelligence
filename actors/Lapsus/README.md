@@ -58,9 +58,10 @@ ID | Type | Indicator | Confidence
 12 | File | `/uncpath/` | Medium
 13 | File | `admin/admin.shtml` | High
 14 | File | `admin/area.php` | High
-15 | ... | ... | ...
+15 | File | `admin/import/class-import-settings.php` | High
+16 | ... | ... | ...
 
-There are 124 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 126 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

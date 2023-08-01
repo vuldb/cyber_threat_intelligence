@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 12 more country items available. Please use our online service to access the data.
+There are 13 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -55,21 +55,23 @@ ID | Type | Indicator | Confidence
 2 | File | `/apply.cgi` | Medium
 3 | File | `/cgi-bin/luci/api/switch` | High
 4 | File | `/cgi-bin/sm_changepassword.cgi` | High
-5 | File | `/export` | Low
-6 | File | `/guest_auth/cfg/upLoadCfg.php` | High
-7 | File | `/include/chart_generator.php` | High
-8 | File | `/index.php` | Medium
-9 | File | `/jsonrpc` | Medium
-10 | File | `/mims/login.php` | High
-11 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-12 | File | `/rapi/read_url` | High
-13 | File | `/SetTriggerWPS/PIN` | High
-14 | File | `/wp-admin/admin-ajax.php` | High
-15 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
-16 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-17 | ... | ... | ...
+5 | File | `/classes/Master.php?f=delete_inquiry` | High
+6 | File | `/contact.php` | Medium
+7 | File | `/export` | Low
+8 | File | `/guest_auth/cfg/upLoadCfg.php` | High
+9 | File | `/include/chart_generator.php` | High
+10 | File | `/index.php` | Medium
+11 | File | `/items/search` | High
+12 | File | `/jsonrpc` | Medium
+13 | File | `/load.php` | Medium
+14 | File | `/mims/login.php` | High
+15 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+16 | File | `/rapi/read_url` | High
+17 | File | `/SetTriggerWPS/PIN` | High
+18 | File | `/users` | Low
+19 | ... | ... | ...
 
-There are 135 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 154 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

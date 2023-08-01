@@ -83,10 +83,9 @@ ID | Type | Indicator | Confidence
 29 | File | `admin.cropcanvas.php` | High
 30 | File | `Admin.PHP` | Medium
 31 | File | `admin.php` | Medium
-32 | File | `admin/article_category.php?rec=update` | High
-33 | ... | ... | ...
+32 | ... | ... | ...
 
-There are 278 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 271 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -65,29 +65,29 @@ ID | Type | Indicator | Confidence
 1 | File | `/+CSCOE+/logon.html` | High
 2 | File | `/cgi-bin/live_api.cgi` | High
 3 | File | `/cgi-bin/wapopen` | High
-4 | File | `/etc/ajenti/config.yml` | High
-5 | File | `/etc/shadow` | Medium
-6 | File | `/forum/away.php` | High
-7 | File | `/getcfg.php` | Medium
-8 | File | `/goform/telnet` | High
-9 | File | `/infusions/shoutbox_panel/shoutbox_admin.php` | High
-10 | File | `/modules/profile/index.php` | High
-11 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-12 | File | `/oscommerce/admin/currencies.php` | High
-13 | File | `/proc/pid/syscall` | High
-14 | File | `/rom-0` | Low
-15 | File | `/session/list/allActiveSession` | High
-16 | File | `/syslog_rules` | High
-17 | File | `/tmp/phpglibccheck` | High
-18 | File | `/uncpath/` | Medium
-19 | File | `/upload` | Low
-20 | File | `/users/{id}` | Medium
-21 | File | `/usr/bin/pkexec` | High
-22 | File | `/var/tmp/sess_*` | High
-23 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
-24 | File | `/video` | Low
-25 | File | `/videotalk` | Medium
-26 | File | `action.php` | Medium
+4 | File | `/csms/?page=contact_us` | High
+5 | File | `/etc/ajenti/config.yml` | High
+6 | File | `/etc/shadow` | Medium
+7 | File | `/forum/away.php` | High
+8 | File | `/getcfg.php` | Medium
+9 | File | `/goform/telnet` | High
+10 | File | `/infusions/shoutbox_panel/shoutbox_admin.php` | High
+11 | File | `/modules/profile/index.php` | High
+12 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+13 | File | `/oscommerce/admin/currencies.php` | High
+14 | File | `/proc/pid/syscall` | High
+15 | File | `/rom-0` | Low
+16 | File | `/session/list/allActiveSession` | High
+17 | File | `/syslog_rules` | High
+18 | File | `/tmp/phpglibccheck` | High
+19 | File | `/uncpath/` | Medium
+20 | File | `/upload` | Low
+21 | File | `/users/{id}` | Medium
+22 | File | `/usr/bin/pkexec` | High
+23 | File | `/var/tmp/sess_*` | High
+24 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
+25 | File | `/video` | Low
+26 | File | `/videotalk` | Medium
 27 | File | `actionphp/download.File.php` | High
 28 | File | `ActivityManagerService.java` | High
 29 | File | `adaptmap_reg.c` | High
@@ -97,10 +97,9 @@ ID | Type | Indicator | Confidence
 33 | File | `admin/admin.php` | High
 34 | File | `admin/content.php` | High
 35 | File | `admin/index.php?id=users/action=edit/user_id=1` | High
-36 | File | `admin_gallery.php3` | High
-37 | ... | ... | ...
+36 | ... | ... | ...
 
-There are 316 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 309 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -10,6 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
+* [PT](https://vuldb.com/?country.pt)
 
 ## IOC - Indicator of Compromise
 
@@ -17,7 +18,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [5.101.0.13](https://vuldb.com/?ip.5.101.0.13) | - | - | High
+1 | [5.45.69.149](https://vuldb.com/?ip.5.45.69.149) | northgarden.ru | - | High
+2 | [5.101.0.13](https://vuldb.com/?ip.5.101.0.13) | - | - | High
+3 | [6.43.51.17](https://vuldb.com/?ip.6.43.51.17) | - | - | High
+4 | ... | ... | ... | ...
+
+There are 1 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -30,7 +36,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1068 | CWE-264, CWE-269 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 4 | ... | ... | ... | ...
 
-There are 3 more TTP items available. Please use our online service to access the data.
+There are 6 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -39,11 +45,13 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/settings/avatar` | High
-2 | File | `bin/icinga` | Medium
-3 | File | `inc/config.php` | High
-4 | ... | ... | ...
+2 | File | `admin_login.asp` | High
+3 | File | `bin/icinga` | Medium
+4 | File | `custom/run.cgi` | High
+5 | File | `ficha.php` | Medium
+6 | ... | ... | ...
 
-There are 21 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 35 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Crimson RAT:
 
 * [US](https://vuldb.com/?country.us)
-* [DE](https://vuldb.com/?country.de)
 * [CN](https://vuldb.com/?country.cn)
+* [DE](https://vuldb.com/?country.de)
 * ...
 
-There are 13 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -28,10 +28,14 @@ ID | IP address | Hostname | Campaign | Confidence
 5 | [23.226.132.105](https://vuldb.com/?ip.23.226.132.105) | 23.226.132.105.static.quadranet.com | - | High
 6 | [62.171.130.47](https://vuldb.com/?ip.62.171.130.47) | ip-47-130-171-62.static.contabo.net | - | High
 7 | [62.171.135.174](https://vuldb.com/?ip.62.171.135.174) | vmi875832.contaboserver.net | - | High
-8 | [75.119.133.15](https://vuldb.com/?ip.75.119.133.15) | ip-15-133-119-75.static.contabo.net | - | High
-9 | ... | ... | ... | ...
+8 | [66.154.103.101](https://vuldb.com/?ip.66.154.103.101) | 66.154.103.101.static.quadranet.com | - | High
+9 | [75.119.133.15](https://vuldb.com/?ip.75.119.133.15) | ip-15-133-119-75.static.contabo.net | - | High
+10 | [79.143.177.122](https://vuldb.com/?ip.79.143.177.122) | vmi183368.contaboserver.net | - | High
+11 | [79.143.181.178](https://vuldb.com/?ip.79.143.181.178) | ip-178-181-143-79.static.contabo.net | - | High
+12 | [91.229.77.1](https://vuldb.com/?ip.91.229.77.1) | 91.229.77.1.deltahost-ptr | - | High
+13 | ... | ... | ... | ...
 
-There are 33 more IOC items available. Please use our online service to access the data.
+There are 46 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -45,7 +49,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 15 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -54,34 +58,49 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/admin/new-content` | High
-3 | File | `/common/info.cgi` | High
-4 | File | `/etc/tcsd.conf` | High
-5 | File | `/file` | Low
-6 | File | `/filemanager/upload.php` | High
-7 | File | `/forum/away.php` | High
-8 | File | `/fudforum/index.php` | High
-9 | File | `/horde/imp/search.php` | High
-10 | File | `/index.php?page=search/rentals` | High
-11 | File | `/login.php` | Medium
-12 | File | `/modules/profile/index.php` | High
-13 | File | `/modules/registration_admission/patient_register.php` | High
-14 | File | `/out.php` | Medium
-15 | File | `/plugin/rundeck/webhook/` | High
-16 | File | `/TeamMate/Upload/DomainObjectDocumentUpload.ashx` | High
-17 | File | `/uncpath/` | Medium
-18 | File | `5.2.9\syscrb.exe` | High
-19 | File | `adclick.php` | Medium
-20 | File | `addentry.php` | Medium
-21 | File | `admin.jcomments.php` | High
-22 | File | `admin.php` | Medium
-23 | File | `admin/admin.php` | High
-24 | File | `admin/conf_users_edit.php` | High
-25 | File | `administrator/components/com_media/helpers/media.php` | High
-26 | File | `admin_add.php` | High
-27 | ... | ... | ...
+2 | File | `/admin/inventory/manage_stock.php` | High
+3 | File | `/admin/login.php` | High
+4 | File | `/admin/maintenance/view_designation.php` | High
+5 | File | `/admin/new-content` | High
+6 | File | `/admin/reportupload.aspx` | High
+7 | File | `/api/upload` | Medium
+8 | File | `/app/tag/controller/ApiAdminTagCategory.php` | High
+9 | File | `/common/info.cgi` | High
+10 | File | `/csms/?page=contact_us` | High
+11 | File | `/ecodesource/search_list.php` | High
+12 | File | `/etc/tcsd.conf` | High
+13 | File | `/file` | Low
+14 | File | `/filemanager/upload.php` | High
+15 | File | `/forum/away.php` | High
+16 | File | `/fudforum/index.php` | High
+17 | File | `/horde/imp/search.php` | High
+18 | File | `/index.php?page=search/rentals` | High
+19 | File | `/login.php` | Medium
+20 | File | `/modules/profile/index.php` | High
+21 | File | `/modules/registration_admission/patient_register.php` | High
+22 | File | `/netflow/jspui/selectDevice.jsp` | High
+23 | File | `/out.php` | Medium
+24 | File | `/plugin/rundeck/webhook/` | High
+25 | File | `/pms/admin/crimes/view_crime.php` | High
+26 | File | `/scheduler/addSchedule.php` | High
+27 | File | `/spip.php` | Medium
+28 | File | `/TeamMate/Upload/DomainObjectDocumentUpload.ashx` | High
+29 | File | `/uncpath/` | Medium
+30 | File | `/wp-admin/admin-ajax.php` | High
+31 | File | `4.edu.php` | Medium
+32 | File | `5.2.9\syscrb.exe` | High
+33 | File | `adclick.php` | Medium
+34 | File | `add-vehicle.php` | High
+35 | File | `addentry.php` | Medium
+36 | File | `admin.php` | Medium
+37 | File | `admin/admin.php` | High
+38 | File | `admin/conf_users_edit.php` | High
+39 | File | `adminHome.php` | High
+40 | File | `admin_add.php` | High
+41 | File | `admin_gallery.php3` | High
+42 | ... | ... | ...
 
-There are 225 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 361 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -91,6 +110,8 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://twitter.com/0xrb/status/1492030514035060741?s=20&t=LxxFCank6LgKGEWxOnVa0Q
 * https://twitter.com/RedDrip7/status/1622908094606094338
 * https://twitter.com/StopMalvertisin/status/1645805949234597889
+* https://twitter.com/StopMalvertisin/status/1670660520540770305
+* https://twitter.com/StopMalvertisin/status/1676869449394327553
 
 ## Literature
 

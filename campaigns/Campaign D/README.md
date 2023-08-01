@@ -53,7 +53,8 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
 
@@ -76,31 +77,32 @@ ID | Type | Indicator | Confidence
 11 | File | `/files.md5` | Medium
 12 | File | `/forum/away.php` | High
 13 | File | `/getcfg.php` | Medium
-14 | File | `/modules/profile/index.php` | High
-15 | File | `/modules/registration_admission/patient_register.php` | High
-16 | File | `/news.dtl.php` | High
-17 | File | `/public/plugins/` | High
-18 | File | `/rapi/read_url` | High
-19 | File | `/rest/api/2/user/picker` | High
-20 | File | `/sbin/acos_service` | High
-21 | File | `/scripts/iisadmin/bdir.htr` | High
-22 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-23 | File | `/squashfs-root/www/HNAP1/control/SetWizardConfig.php` | High
-24 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
-25 | File | `/uncpath/` | Medium
-26 | File | `/usr/bin/pkexec` | High
-27 | File | `/ViewUserHover.jspa` | High
-28 | File | `/WEB-INF/web.xml` | High
-29 | File | `/wp-admin/admin-ajax.php` | High
-30 | File | `/wp-json/oembed/1.0/embed?url` | High
-31 | File | `/www/cgi-bin/popen.cgi` | High
-32 | File | `5.2.9\syscrb.exe` | High
-33 | File | `ad.cgi` | Low
-34 | File | `adclick.php` | Medium
-35 | File | `add-category.php` | High
-36 | ... | ... | ...
+14 | File | `/load.php` | Medium
+15 | File | `/modules/profile/index.php` | High
+16 | File | `/modules/registration_admission/patient_register.php` | High
+17 | File | `/news.dtl.php` | High
+18 | File | `/public/plugins/` | High
+19 | File | `/rapi/read_url` | High
+20 | File | `/rest/api/2/user/picker` | High
+21 | File | `/sbin/acos_service` | High
+22 | File | `/scripts/iisadmin/bdir.htr` | High
+23 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+24 | File | `/squashfs-root/www/HNAP1/control/SetWizardConfig.php` | High
+25 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
+26 | File | `/uncpath/` | Medium
+27 | File | `/usr/bin/pkexec` | High
+28 | File | `/ViewUserHover.jspa` | High
+29 | File | `/WEB-INF/web.xml` | High
+30 | File | `/wp-admin/admin-ajax.php` | High
+31 | File | `/wp-json/oembed/1.0/embed?url` | High
+32 | File | `/www/cgi-bin/popen.cgi` | High
+33 | File | `5.2.9\syscrb.exe` | High
+34 | File | `accountrecoveryendpoint/recoverpassword.do` | High
+35 | File | `ad.cgi` | Low
+36 | File | `adclick.php` | Medium
+37 | ... | ... | ...
 
-There are 309 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 313 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

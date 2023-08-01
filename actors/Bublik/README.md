@@ -4,18 +4,51 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.bublik](https://vuldb.com/?actor.bublik)
 
+## Countries
+
+These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Bublik:
+
+* [US](https://vuldb.com/?country.us)
+* [NE](https://vuldb.com/?country.ne)
+
 ## IOC - Indicator of Compromise
 
 These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of Bublik.
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [66.128.53.179](https://vuldb.com/?ip.66.128.53.179) | - | - | High
-2 | [104.21.57.186](https://vuldb.com/?ip.104.21.57.186) | - | - | High
-3 | [143.248.35.28](https://vuldb.com/?ip.143.248.35.28) | - | - | High
+1 | [66.23.234.229](https://vuldb.com/?ip.66.23.234.229) | host.double-six.net | - | High
+2 | [66.128.53.179](https://vuldb.com/?ip.66.128.53.179) | - | - | High
+3 | [69.10.32.149](https://vuldb.com/?ip.69.10.32.149) | hots.bali66.net | - | High
 4 | ... | ... | ... | ...
 
-There are 4 more IOC items available. Please use our online service to access the data.
+There are 6 more IOC items available. Please use our online service to access the data.
+
+## TTP - Tactics, Techniques, Procedures
+
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _Bublik_. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1055 | CWE-74 | Injection | High
+2 | T1059.007 | CWE-79 | Cross Site Scripting | High
+3 | T1068 | CWE-264 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+4 | ... | ... | ... | ...
+
+There are 2 more TTP items available. Please use our online service to access the data.
+
+## IOA - Indicator of Attack
+
+These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by Bublik. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Type | Indicator | Confidence
+-- | ---- | --------- | ----------
+1 | File | `/cvms-hub/privado/seccionesmib/secciones.xhtml` | High
+2 | File | `kbdint.c` | Medium
+3 | File | `ProxyServlet.java` | High
+4 | ... | ... | ...
+
+There are 3 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -25,6 +58,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/2020/08/threat-roundup-0821-0827.html
 * https://blog.talosintelligence.com/2020/09/threat-roundup-0828-0904.html
 * https://blog.talosintelligence.com/2021/05/threat-roundup-0507-0514.html
+* https://blog.talosintelligence.com/threat-roundup-0616-0623-2/
 
 ## Literature
 

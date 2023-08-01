@@ -110,7 +110,7 @@ ID | Type | Indicator | Confidence
 47 | File | `add_ons.php` | Medium
 48 | ... | ... | ...
 
-There are 418 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 419 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -8,7 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Amazon Web Services:
 
-* [DE](https://vuldb.com/?country.de)
+* [CN](https://vuldb.com/?country.cn)
+* [US](https://vuldb.com/?country.us)
+* [ES](https://vuldb.com/?country.es)
+* ...
+
+There are 3 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -17,6 +22,7 @@ These _actors_ are associated with Amazon Web Services or other actors linked to
 ID | Actor | Confidence
 -- | ----- | ----------
 1 | [TeamTNT](https://vuldb.com/?actor.teamtnt) | High
+2 | [Unknown](https://vuldb.com/?actor.unknown) | High
 
 ## IOC - Indicator of Compromise
 
@@ -26,10 +32,10 @@ ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
 1 | [3.125.10.23](https://vuldb.com/?ip.3.125.10.23) | ec2-3-125-10-23.eu-central-1.compute.amazonaws.com | [TeamTNT](https://vuldb.com/?actor.teamtnt) | Medium
 2 | [15.236.100.141](https://vuldb.com/?ip.15.236.100.141) | ec2-15-236-100-141.eu-west-3.compute.amazonaws.com | [TeamTNT](https://vuldb.com/?actor.teamtnt) | Medium
-3 | [51.195.105.101](https://vuldb.com/?ip.51.195.105.101) | p11.2miners.com | [TeamTNT](https://vuldb.com/?actor.teamtnt) | High
+3 | [45.9.148.108](https://vuldb.com/?ip.45.9.148.108) | mx1.dendrite.network | [Unknown](https://vuldb.com/?actor.unknown) | High
 4 | ... | ... | ... | ...
 
-There are 2 more IOC items available. Please use our online service to access the data.
+There are 4 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -37,7 +43,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1068 | CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+1 | T1006 | CWE-22, CWE-425 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
+
+There are 15 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -45,13 +57,24 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/usr/bin/pkexec` | High
+1 | File | `/ajax.php?action=read_msg` | High
+2 | File | `/debug/pprof` | Medium
+3 | File | `/env` | Low
+4 | File | `/goform/SetNetControlList` | High
+5 | File | `/src/chatbotapp/chatWindow.java` | High
+6 | File | `/usr/bin/pkexec` | High
+7 | File | `admin/categories_industry.php` | High
+8 | File | `admin/content/postcategory` | High
+9 | ... | ... | ...
+
+There are 65 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the campaign and the associated activities:
 
 * https://blog.talosintelligence.com/2022/04/teamtnt-targeting-aws-alibaba.html
+* https://www.sentinelone.com/labs/cloudy-with-a-chance-of-credentials-aws-targeting-cred-stealer-expands-to-azure-gcp/
 
 ## Literature
 

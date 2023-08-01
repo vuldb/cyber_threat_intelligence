@@ -232,7 +232,8 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
 
@@ -246,23 +247,24 @@ ID | Type | Indicator | Confidence
 2 | File | `/+CSCOE+/logon.html` | High
 3 | File | `/admin/students/manage.php` | High
 4 | File | `/administrator/components/table_manager/` | High
-5 | File | `/balance/service/list` | High
-6 | File | `/cgi-bin/system_mgr.cgi` | High
-7 | File | `/goform/form2Wan.cgi` | High
-8 | File | `/goform/WifiGuestSet` | High
-9 | File | `/HNAP1/SetClientInfo` | High
-10 | File | `/includes/rrdtool.inc.php` | High
-11 | File | `/index.php` | Medium
-12 | File | `/management/users/register` | High
-13 | File | `/opt/vyatta/share/vyatta-cfg/templates/system/static-host-mapping/host-name/node.def` | High
-14 | File | `/php-sms/classes/Master.php` | High
-15 | File | `/php-sms/classes/SystemSettings.php` | High
-16 | File | `/plugin/getList` | High
-17 | File | `/queuing/login.php` | High
-18 | File | `/sacco_shield/manage_payment.php` | High
-19 | ... | ... | ...
+5 | File | `/api/baskets/{name}` | High
+6 | File | `/balance/service/list` | High
+7 | File | `/cgi-bin/system_mgr.cgi` | High
+8 | File | `/goform/form2Wan.cgi` | High
+9 | File | `/goform/WifiGuestSet` | High
+10 | File | `/HNAP1/SetClientInfo` | High
+11 | File | `/includes/rrdtool.inc.php` | High
+12 | File | `/index.php` | Medium
+13 | File | `/management/users/register` | High
+14 | File | `/opt/vyatta/share/vyatta-cfg/templates/system/static-host-mapping/host-name/node.def` | High
+15 | File | `/php-sms/classes/Master.php` | High
+16 | File | `/php-sms/classes/SystemSettings.php` | High
+17 | File | `/plugin/getList` | High
+18 | File | `/queuing/login.php` | High
+19 | File | `/sacco_shield/manage_payment.php` | High
+20 | ... | ... | ...
 
-There are 158 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 160 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -61,15 +61,16 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/as/authorization.oauth2` | High
-2 | File | `/Forms/WLAN_General_1` | High
-3 | File | `/html/portal/flash.jsp` | High
-4 | File | `/index.php` | Medium
-5 | File | `/lua/set-passwd.lua` | High
-6 | File | `/oauth/authorize` | High
-7 | ... | ... | ...
+1 | File | `/api/baskets/{name}` | High
+2 | File | `/as/authorization.oauth2` | High
+3 | File | `/Forms/WLAN_General_1` | High
+4 | File | `/html/portal/flash.jsp` | High
+5 | File | `/index.php` | Medium
+6 | File | `/lua/set-passwd.lua` | High
+7 | File | `/oauth/authorize` | High
+8 | ... | ... | ...
 
-There are 52 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 53 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

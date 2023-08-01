@@ -36,11 +36,12 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1059 | CWE-94 | Cross Site Scripting | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-94 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -58,13 +59,14 @@ ID | Type | Indicator | Confidence
 8 | File | `/expense_action.php` | High
 9 | File | `/filemanager/php/connector.php` | High
 10 | File | `/goform/aspForm` | High
-11 | File | `/index.php` | Medium
-12 | File | `/mobile/SelectUsers.jsp` | High
-13 | File | `/secure/admin/ImporterFinishedPage.jspa` | High
-14 | File | `/sns/admin/?page=user/manage_user` | High
-15 | ... | ... | ...
+11 | File | `/home/filter_listings` | High
+12 | File | `/inc/jquery/uploadify/uploadify.php` | High
+13 | File | `/index.php` | Medium
+14 | File | `/index.php?app=main&func=passport&action=login` | High
+15 | File | `/mobile/SelectUsers.jsp` | High
+16 | ... | ... | ...
 
-There are 121 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 129 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -73,7 +73,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 10 more TTP items available. Please use our online service to access the data.
+There are 11 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -81,20 +81,20 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/cloud_config/router_post/get_reset_pwd_veirfy_code` | High
-2 | File | `/etc/tomcat8/Catalina/attack` | High
-3 | File | `/index.php` | Medium
-4 | File | `/proc/pid/attr` | High
-5 | File | `/RestAPI` | Medium
-6 | File | `/service/upload` | High
-7 | File | `/wp-admin/admin-ajax.php` | High
-8 | File | `admin.php` | Medium
-9 | File | `admin/conf_users_edit.php` | High
-10 | File | `apport/hookutils.py` | High
-11 | File | `ArtifactoryChoiceListProvider.java` | High
+1 | File | `/admin/read.php?mudi=getSignal` | High
+2 | File | `/cgi-bin/wlogin.cgi` | High
+3 | File | `/cloud_config/router_post/get_reset_pwd_veirfy_code` | High
+4 | File | `/etc/tomcat8/Catalina/attack` | High
+5 | File | `/index.php` | Medium
+6 | File | `/proc/pid/attr` | High
+7 | File | `/RestAPI` | Medium
+8 | File | `/service/upload` | High
+9 | File | `/wp-admin/admin-ajax.php` | High
+10 | File | `admin.php` | Medium
+11 | File | `admin/conf_users_edit.php` | High
 12 | ... | ... | ...
 
-There are 89 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 93 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

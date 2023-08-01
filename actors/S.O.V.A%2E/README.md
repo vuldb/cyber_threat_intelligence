@@ -46,29 +46,39 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/aterm_httpif.cgi/negotiate` | High
-2 | File | `/cgi-bin/kerbynet` | High
-3 | File | `/churchcrm/WhyCameEditor.php` | High
-4 | File | `/cmsms-2.1.6-install.php/index.php` | High
-5 | File | `/ControlManager/cgi-bin/VA/isaNVWRequest.dll` | High
-6 | File | `/forum/away.php` | High
-7 | File | `/goform/GetNewDir` | High
-8 | File | `/proc/self/environ` | High
-9 | File | `/Pwrchute` | Medium
-10 | File | `/recordings/index.php` | High
-11 | File | `/usr/bin/gxserve-update.sh` | High
-12 | File | `albums.php` | Medium
-13 | File | `announcements.php` | High
-14 | File | `app/admin/custom-fields/edit-result.php` | High
-15 | File | `app/admin/custom-fields/edit.php` | High
-16 | File | `ara.asp` | Low
-17 | File | `arch/x86/kvm/emulate.c` | High
-18 | File | `auktion.cgi` | Medium
-19 | File | `authentication.cgi` | High
-20 | File | `autoinstall4imagesgalleryupgrade.php` | High
-21 | ... | ... | ...
+1 | File | `/admin/login.php` | High
+2 | File | `/aterm_httpif.cgi/negotiate` | High
+3 | File | `/cgi-bin/kerbynet` | High
+4 | File | `/churchcrm/WhyCameEditor.php` | High
+5 | File | `/cmsms-2.1.6-install.php/index.php` | High
+6 | File | `/ControlManager/cgi-bin/VA/isaNVWRequest.dll` | High
+7 | File | `/coreframe/app/member/admin/group.php` | High
+8 | File | `/forum/away.php` | High
+9 | File | `/goform/GetNewDir` | High
+10 | File | `/guestmanagement/front.php` | High
+11 | File | `/proc/self/environ` | High
+12 | File | `/Pwrchute` | Medium
+13 | File | `/recordings/index.php` | High
+14 | File | `/royal_event/companyprofile.php` | High
+15 | File | `/school/model/get_events.php` | High
+16 | File | `/setting_hidden.asp` | High
+17 | File | `/spip.php` | Medium
+18 | File | `/staff_login.php` | High
+19 | File | `/usr/bin/gxserve-update.sh` | High
+20 | File | `active_appointments.asp` | High
+21 | File | `add_edit_user.asp` | High
+22 | File | `admin/versions.html` | High
+23 | File | `admindocumentworker.jsp` | High
+24 | File | `albums.php` | Medium
+25 | File | `announcements.php` | High
+26 | File | `app/admin/custom-fields/edit-result.php` | High
+27 | File | `app/admin/custom-fields/edit.php` | High
+28 | File | `apply.cgi` | Medium
+29 | File | `ara.asp` | Low
+30 | File | `arch/x86/kvm/emulate.c` | High
+31 | ... | ... | ...
 
-There are 173 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 266 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

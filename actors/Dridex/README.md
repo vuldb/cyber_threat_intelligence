@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 16 more country items available. Please use our online service to access the data.
+There are 15 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -212,7 +212,7 @@ ID | IP address | Hostname | Campaign | Confidence
 189 | [52.222.136.174](https://vuldb.com/?ip.52.222.136.174) | server-52-222-136-174.ams50.r.cloudfront.net | - | High
 190 | ... | ... | ... | ...
 
-There are 755 more IOC items available. Please use our online service to access the data.
+There are 757 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -223,7 +223,7 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-28 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -244,14 +244,14 @@ ID | Type | Indicator | Confidence
 7 | File | `/alphaware/summary.php` | High
 8 | File | `/api/` | Low
 9 | File | `/api/admin/store/product/list` | High
-10 | File | `/api/RecordingList/DownloadRecord?file=` | High
-11 | File | `/api/stl/actions/search` | High
-12 | File | `/api/sys_username_passwd.cmd` | High
-13 | File | `/api/v2/cli/commands` | High
-14 | File | `/apply.cgi` | Medium
-15 | File | `/attachments` | Medium
-16 | File | `/bin/ate` | Medium
-17 | File | `/boat/login.php` | High
+10 | File | `/api/stl/actions/search` | High
+11 | File | `/api/sys_username_passwd.cmd` | High
+12 | File | `/api/v2/cli/commands` | High
+13 | File | `/apply.cgi` | Medium
+14 | File | `/attachments` | Medium
+15 | File | `/bin/ate` | Medium
+16 | File | `/boat/login.php` | High
+17 | File | `/booking/show_bookings/` | High
 18 | File | `/bsms_ci/index.php/book` | High
 19 | File | `/cgi-bin` | Medium
 20 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
@@ -262,18 +262,19 @@ ID | Type | Indicator | Confidence
 25 | File | `/etc/hosts` | Medium
 26 | File | `/eval/admin/manage_class.php` | High
 27 | File | `/forum/away.php` | High
-28 | File | `/goform/wizard_end` | High
-29 | File | `/medicines/profile.php` | High
-30 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-31 | File | `/php-sms/admin/?page=user/manage_user` | High
-32 | File | `/proxy` | Low
-33 | File | `/reservation/add_message.php` | High
-34 | File | `/spip.php` | Medium
-35 | File | `/tmp` | Low
-36 | File | `/uncpath/` | Medium
-37 | ... | ... | ...
+28 | File | `/medicines/profile.php` | High
+29 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+30 | File | `/php-sms/admin/?page=user/manage_user` | High
+31 | File | `/proxy` | Low
+32 | File | `/reservation/add_message.php` | High
+33 | File | `/spip.php` | Medium
+34 | File | `/tmp` | Low
+35 | File | `/user/updatePwd` | High
+36 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
+37 | File | `/video-sharing-script/watch-video.php` | High
+38 | ... | ... | ...
 
-There are 318 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 323 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -439,6 +440,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/2021/09/threat-roundup-0827-0903.html
 * https://blog.talosintelligence.com/2021/09/threat-roundup-0903-0910.html
 * https://blog.talosintelligence.com/2021/10/threat-roundup-1001-1008.html
+* https://blog.talosintelligence.com/threat-roundup-0630-0707-2/
 * https://community.blueliv.com/#!/s/602da0fd82df413ea934be3b
 * https://feodotracker.abuse.ch/downloads/ipblocklist.csv
 * https://gist.githubusercontent.com/BBcan177/bf29d47ea04391cb3eb0/raw/

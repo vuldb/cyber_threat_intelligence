@@ -16,8 +16,11 @@ The following _campaigns_ are known and can be associated with Amadey Bot:
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Amadey Bot:
 
 * [US](https://vuldb.com/?country.us)
+* [RU](https://vuldb.com/?country.ru)
 * [IT](https://vuldb.com/?country.it)
-* [DE](https://vuldb.com/?country.de)
+* ...
+
+There are 1 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 

@@ -4,13 +4,47 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.dark_tequila](https://vuldb.com/?actor.dark_tequila)
 
+## Countries
+
+These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Dark Tequila:
+
+* [US](https://vuldb.com/?country.us)
+
 ## IOC - Indicator of Compromise
 
 These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of Dark Tequila.
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [75.126.60.251](https://vuldb.com/?ip.75.126.60.251) | fb.3c.7e4b.ip4.static.sl-reverse.com | - | High
+1 | [46.17.97.12](https://vuldb.com/?ip.46.17.97.12) | - | - | High
+2 | [75.126.60.251](https://vuldb.com/?ip.75.126.60.251) | fb.3c.7e4b.ip4.static.sl-reverse.com | - | High
+3 | [174.37.6.34](https://vuldb.com/?ip.174.37.6.34) | 22.06.25ae.ip4.static.sl-reverse.com | - | High
+
+## TTP - Tactics, Techniques, Procedures
+
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _Dark Tequila_. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1006 | CWE-22 | Pathname Traversal | High
+2 | T1059.007 | CWE-80 | Cross Site Scripting | High
+3 | T1068 | CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+4 | ... | ... | ... | ...
+
+There are 4 more TTP items available. Please use our online service to access the data.
+
+## IOA - Indicator of Attack
+
+These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by Dark Tequila. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Type | Indicator | Confidence
+-- | ---- | --------- | ----------
+1 | File | `/etc/waipass` | Medium
+2 | File | `get_jsrs_data.php` | High
+3 | File | `GWVW02??.INI` | Medium
+4 | ... | ... | ...
+
+There are 6 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

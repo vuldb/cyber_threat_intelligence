@@ -58,14 +58,14 @@ ID | Type | Indicator | Confidence
 1 | File | `/+CSCOE+/logon.html` | High
 2 | File | `/cgi-bin/wlogin.cgi` | High
 3 | File | `/config/getuser` | High
-4 | File | `/lan.asp` | Medium
-5 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-6 | File | `/public/launchNewWindow.jsp` | High
-7 | File | `/rapi/read_url` | High
-8 | File | `/SysInfo.htm` | Medium
+4 | File | `/h/` | Low
+5 | File | `/lan.asp` | Medium
+6 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+7 | File | `/public/launchNewWindow.jsp` | High
+8 | File | `/rapi/read_url` | High
 9 | ... | ... | ...
 
-There are 68 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 69 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

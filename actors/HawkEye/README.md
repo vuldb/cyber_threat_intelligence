@@ -12,28 +12,29 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [1.1.1.1](https://vuldb.com/?ip.1.1.1.1) | one.one.one.one | - | High
 2 | [3.24.51.219](https://vuldb.com/?ip.3.24.51.219) | awcp037.server-cpanel.com | - | High
-3 | [13.107.21.200](https://vuldb.com/?ip.13.107.21.200) | - | - | High
-4 | [18.211.9.206](https://vuldb.com/?ip.18.211.9.206) | ec2-18-211-9-206.compute-1.amazonaws.com | - | Medium
-5 | [20.36.253.92](https://vuldb.com/?ip.20.36.253.92) | - | - | High
-6 | [23.3.13.153](https://vuldb.com/?ip.23.3.13.153) | a23-3-13-153.deploy.static.akamaitechnologies.com | - | High
-7 | [23.3.13.154](https://vuldb.com/?ip.23.3.13.154) | a23-3-13-154.deploy.static.akamaitechnologies.com | - | High
-8 | [23.5.230.228](https://vuldb.com/?ip.23.5.230.228) | a23-5-230-228.deploy.static.akamaitechnologies.com | - | High
-9 | [23.54.213.99](https://vuldb.com/?ip.23.54.213.99) | a23-54-213-99.deploy.static.akamaitechnologies.com | - | High
-10 | [23.94.43.90](https://vuldb.com/?ip.23.94.43.90) | 23-94-43-90-host.colocrossing.com | - | High
-11 | [23.217.148.78](https://vuldb.com/?ip.23.217.148.78) | a23-217-148-78.deploy.static.akamaitechnologies.com | - | High
-12 | [23.222.79.194](https://vuldb.com/?ip.23.222.79.194) | a23-222-79-194.deploy.static.akamaitechnologies.com | - | High
-13 | [23.222.79.232](https://vuldb.com/?ip.23.222.79.232) | a23-222-79-232.deploy.static.akamaitechnologies.com | - | High
-14 | [27.121.68.109](https://vuldb.com/?ip.27.121.68.109) | dcgsx-cp009.server-cpanel.com | - | High
-15 | [31.170.163.242](https://vuldb.com/?ip.31.170.163.242) | mx1.main-hosting.com | - | High
-16 | [31.209.137.12](https://vuldb.com/?ip.31.209.137.12) | smtp.vivaldi.net | - | High
-17 | [34.226.71.106](https://vuldb.com/?ip.34.226.71.106) | ec2-34-226-71-106.compute-1.amazonaws.com | - | Medium
-18 | [34.232.187.93](https://vuldb.com/?ip.34.232.187.93) | ec2-34-232-187-93.compute-1.amazonaws.com | - | Medium
-19 | [65.55.44.109](https://vuldb.com/?ip.65.55.44.109) | - | - | High
-20 | [72.29.90.201](https://vuldb.com/?ip.72.29.90.201) | zeus.imd.la | - | High
-21 | [74.208.5.15](https://vuldb.com/?ip.74.208.5.15) | smtp.mail.com | - | High
-22 | ... | ... | ... | ...
+3 | [6.43.51.17](https://vuldb.com/?ip.6.43.51.17) | - | - | High
+4 | [13.107.21.200](https://vuldb.com/?ip.13.107.21.200) | - | - | High
+5 | [18.211.9.206](https://vuldb.com/?ip.18.211.9.206) | ec2-18-211-9-206.compute-1.amazonaws.com | - | Medium
+6 | [20.36.253.92](https://vuldb.com/?ip.20.36.253.92) | - | - | High
+7 | [23.3.13.153](https://vuldb.com/?ip.23.3.13.153) | a23-3-13-153.deploy.static.akamaitechnologies.com | - | High
+8 | [23.3.13.154](https://vuldb.com/?ip.23.3.13.154) | a23-3-13-154.deploy.static.akamaitechnologies.com | - | High
+9 | [23.5.230.228](https://vuldb.com/?ip.23.5.230.228) | a23-5-230-228.deploy.static.akamaitechnologies.com | - | High
+10 | [23.54.213.99](https://vuldb.com/?ip.23.54.213.99) | a23-54-213-99.deploy.static.akamaitechnologies.com | - | High
+11 | [23.94.43.90](https://vuldb.com/?ip.23.94.43.90) | 23-94-43-90-host.colocrossing.com | - | High
+12 | [23.217.148.78](https://vuldb.com/?ip.23.217.148.78) | a23-217-148-78.deploy.static.akamaitechnologies.com | - | High
+13 | [23.222.79.194](https://vuldb.com/?ip.23.222.79.194) | a23-222-79-194.deploy.static.akamaitechnologies.com | - | High
+14 | [23.222.79.232](https://vuldb.com/?ip.23.222.79.232) | a23-222-79-232.deploy.static.akamaitechnologies.com | - | High
+15 | [27.121.68.109](https://vuldb.com/?ip.27.121.68.109) | dcgsx-cp009.server-cpanel.com | - | High
+16 | [31.170.163.242](https://vuldb.com/?ip.31.170.163.242) | mx1.main-hosting.com | - | High
+17 | [31.209.137.12](https://vuldb.com/?ip.31.209.137.12) | smtp.vivaldi.net | - | High
+18 | [34.226.71.106](https://vuldb.com/?ip.34.226.71.106) | ec2-34-226-71-106.compute-1.amazonaws.com | - | Medium
+19 | [34.232.187.93](https://vuldb.com/?ip.34.232.187.93) | ec2-34-232-187-93.compute-1.amazonaws.com | - | Medium
+20 | [45.64.97.178](https://vuldb.com/?ip.45.64.97.178) | - | - | High
+21 | [65.55.44.109](https://vuldb.com/?ip.65.55.44.109) | - | - | High
+22 | [72.29.90.201](https://vuldb.com/?ip.72.29.90.201) | zeus.imd.la | - | High
+23 | ... | ... | ... | ...
 
-There are 86 more IOC items available. Please use our online service to access the data.
+There are 87 more IOC items available. Please use our online service to access the data.
 
 ## References
 
@@ -55,6 +56,8 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/threat-roundup-0113-0120/
 * https://blog.talosintelligence.com/threat-roundup-0120-0127/
 * https://blog.talosintelligence.com/threat-roundup-0331-0407-2/
+* https://www.anomali.com/blog/covid-19-themed-hawkeye-phishing-campaign-targets-healthcare-sector-dissection-of-the-maldoc-and-the-two-way-approach#When:14:00:00Z
+* https://www.fortinet.com/blog/threat-research/hawkeye-malware-analysis.html
 
 ## Literature
 

@@ -93,14 +93,14 @@ ID | Type | Indicator | Confidence
 32 | File | `admin.remository.php` | High
 33 | File | `admin/admin.asp` | High
 34 | File | `adminHome.php` | High
-35 | File | `affich.php` | Medium
-36 | File | `agent/Core/Controller/SendRequest.cpp` | High
-37 | File | `AjaxFileUploadHandler.axd` | High
-38 | File | `album_portal.php` | High
-39 | File | `announcements.php` | High
+35 | File | `admin_add.php` | High
+36 | File | `affich.php` | Medium
+37 | File | `agent/Core/Controller/SendRequest.cpp` | High
+38 | File | `AjaxFileUploadHandler.axd` | High
+39 | File | `album_portal.php` | High
 40 | ... | ... | ...
 
-There are 342 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 345 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

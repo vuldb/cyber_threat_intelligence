@@ -56,15 +56,15 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/carbon/mediation_secure_vault/properties/ajaxprocessor.jsp` | High
-2 | File | `/carbon/ndatasource/validateconnection/ajaxprocessor.jsp` | High
-3 | File | `/confirm` | Medium
-4 | File | `/DesignTools/CssEditor.aspx` | High
-5 | File | `/etc/config/luci` | High
-6 | File | `/net/nfc/netlink.c` | High
+1 | File | `/authenticationendpoint/login.do` | High
+2 | File | `/carbon/mediation_secure_vault/properties/ajaxprocessor.jsp` | High
+3 | File | `/carbon/ndatasource/validateconnection/ajaxprocessor.jsp` | High
+4 | File | `/confirm` | Medium
+5 | File | `/DesignTools/CssEditor.aspx` | High
+6 | File | `/etc/config/luci` | High
 7 | ... | ... | ...
 
-There are 45 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 47 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

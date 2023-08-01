@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 15 more country items available. Please use our online service to access the data.
+There are 16 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -1086,66 +1086,62 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `$GIT_DIR/objects` | High
+1 | File | `.github/workflows/comment.yml` | High
 2 | File | `//WEB-INF` | Medium
 3 | File | `/about.php` | Medium
 4 | File | `/about/../` | Medium
 5 | File | `/admin.php/update/getFile.html` | High
 6 | File | `/admin.php?c=upload&f=zip&_noCache=0.1683794968` | High
-7 | File | `/admin/admin_manage/delete` | High
-8 | File | `/admin/cashadvance_row.php` | High
-9 | File | `/admin/main/mod-blog` | High
-10 | File | `/admin/maintenance/view_designation.php` | High
-11 | File | `/admin/scheprofile.cgi` | High
-12 | File | `/admin/userprofile.php` | High
-13 | File | `/adms/admin/?page=vehicles/sell_vehicle` | High
-14 | File | `/adms/admin/?page=vehicles/view_transaction` | High
-15 | File | `/advanced/adv_dns.xgi` | High
-16 | File | `/api/` | Low
-17 | File | `/api/blade-log/api/list` | High
-18 | File | `/Application/Admin/Controller/ConfigController.class.php` | High
-19 | File | `/APR/login.php` | High
-20 | File | `/authUserAction!edit.action` | High
-21 | File | `/backup.pl` | Medium
-22 | File | `/bin/httpd` | Medium
-23 | File | `/browse.PROJECTKEY` | High
-24 | File | `/cgi-bin/luci/api/wireless` | High
-25 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
-26 | File | `/cgi-bin/supervisor/adcommand.cgi` | High
-27 | File | `/cgi-bin/supervisor/CloudSetup.cgi` | High
-28 | File | `/cgi-bin/wapopen` | High
-29 | File | `/cgi-bin/wlogin.cgi` | High
-30 | File | `/cmscp/ext/collect/fetch_url.do` | High
-31 | File | `/debug/pprof` | Medium
-32 | File | `/dev/shm` | Medium
-33 | File | `/face-recognition-php/facepay-master/camera.php` | High
-34 | File | `/feeds/post/publish` | High
-35 | File | `/forms/doLogin` | High
-36 | File | `/forum/away.php` | High
-37 | File | `/home/masterConsole` | High
-38 | File | `/home/sendBroadcast` | High
-39 | File | `/inc/jquery/uploadify/uploadify.php` | High
-40 | File | `/index.php?app=main&func=passport&action=login` | High
-41 | File | `/index.php?page=category_list` | High
-42 | File | `/index/user/user_edit.html` | High
-43 | File | `/Items/*/RemoteImages/Download` | High
-44 | File | `/login/index.php` | High
-45 | File | `/loginsave.php` | High
-46 | File | `/Moosikay/order.php` | High
-47 | File | `/mygym/admin/index.php?view_exercises` | High
-48 | File | `/opac/Actions.php?a=login` | High
-49 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-50 | File | `/orrs/admin/?page=user/manage_user` | High
-51 | File | `/php-opos/index.php` | High
-52 | File | `/PreviewHandler.ashx` | High
-53 | File | `/proxy` | Low
-54 | File | `/public/launchNewWindow.jsp` | High
-55 | File | `/reservation/add_message.php` | High
-56 | File | `/rest/project-templates/1.0/createshared` | High
-57 | File | `/secure/QueryComponent!Default.jspa` | High
-58 | ... | ... | ...
+7 | File | `/admin/cashadvance_row.php` | High
+8 | File | `/admin/maintenance/view_designation.php` | High
+9 | File | `/admin/read.php?mudi=getSignal` | High
+10 | File | `/admin/scheprofile.cgi` | High
+11 | File | `/admin/userprofile.php` | High
+12 | File | `/api/baskets/{name}` | High
+13 | File | `/api/blade-log/api/list` | High
+14 | File | `/api/v1/snapshots` | High
+15 | File | `/Application/Admin/Controller/ConfigController.class.php` | High
+16 | File | `/authUserAction!edit.action` | High
+17 | File | `/bin/boa` | Medium
+18 | File | `/blog` | Low
+19 | File | `/category.php` | High
+20 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
+21 | File | `/cgi-bin/wlogin.cgi` | High
+22 | File | `/cimom` | Low
+23 | File | `/classes/Master.php?f=save_inquiry` | High
+24 | File | `/classes/Master.php?f=save_service` | High
+25 | File | `/debug/pprof` | Medium
+26 | File | `/dev/shm` | Medium
+27 | File | `/download` | Medium
+28 | File | `/feeds/post/publish` | High
+29 | File | `/forum/away.php` | High
+30 | File | `/h/` | Low
+31 | File | `/home/kickPlayer` | High
+32 | File | `/inc/jquery/uploadify/uploadify.php` | High
+33 | File | `/index.php` | Medium
+34 | File | `/index.php/coins/update_marketboxslider` | High
+35 | File | `/index.php/payment/getcoinaddress` | High
+36 | File | `/index.php?app=main&func=passport&action=login` | High
+37 | File | `/index.php?page=category_list` | High
+38 | File | `/index/user/user_edit.html` | High
+39 | File | `/Items/*/RemoteImages/Download` | High
+40 | File | `/jobinfo/` | Medium
+41 | File | `/loginsave.php` | High
+42 | File | `/Moosikay/order.php` | High
+43 | File | `/opac/Actions.php?a=login` | High
+44 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+45 | File | `/password.jsn` | High
+46 | File | `/PreviewHandler.ashx` | High
+47 | File | `/public/admin/profile/update.html` | High
+48 | File | `/public/launchNewWindow.jsp` | High
+49 | File | `/reservation/add_message.php` | High
+50 | File | `/rest/project-templates/1.0/createshared` | High
+51 | File | `/Service/FileHandler.ashx` | High
+52 | File | `/settings/account` | High
+53 | File | `/static/ueditor/php/controller.php` | High
+54 | ... | ... | ...
 
-There are 507 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 467 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

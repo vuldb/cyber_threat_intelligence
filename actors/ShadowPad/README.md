@@ -56,7 +56,7 @@ ID | Type | Indicator | Confidence
 5 | File | `conf/admin.password` | High
 6 | ... | ... | ...
 
-There are 34 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 35 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

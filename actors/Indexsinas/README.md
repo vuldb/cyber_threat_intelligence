@@ -287,12 +287,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-29 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-29, CWE-36, CWE-37 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
 
@@ -302,42 +301,40 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/addproduct.php` | High
-2 | File | `/admin/modal_add_product.php` | High
-3 | File | `/ajax.php?action=read_msg` | High
-4 | File | `/api/user/password/sent-reset-email` | High
-5 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
-6 | File | `/authenticationendpoint/login.do` | High
-7 | File | `/bin/login` | Medium
-8 | File | `/bsms_ci/index.php` | High
-9 | File | `/bsms_ci/index.php/user/edit_user/` | High
-10 | File | `/cgi-bin/luci` | High
-11 | File | `/cgi-bin/wlogin.cgi` | High
-12 | File | `/changeimage.php` | High
-13 | File | `/classes/Users.php?f=save` | High
-14 | File | `/download` | Medium
+1 | File | `//proc/kcore` | Medium
+2 | File | `/admin/?page=user/manage_user&id=3` | High
+3 | File | `/admin/edit.php` | High
+4 | File | `/api/baskets/{name}` | High
+5 | File | `/api/common/ping` | High
+6 | File | `/api/upload.php` | High
+7 | File | `/api?path=profile` | High
+8 | File | `/authenticationendpoint/login.do` | High
+9 | File | `/cgi-bin/wlogin.cgi` | High
+10 | File | `/config/getuser` | High
+11 | File | `/contact/store` | High
+12 | File | `/debug/pprof` | Medium
+13 | File | `/download` | Medium
+14 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
 15 | File | `/DXR.axd` | Medium
-16 | File | `/forum/away.php` | High
-17 | File | `/HNAP1` | Low
-18 | File | `/hrm/employeeadd.php` | High
-19 | File | `/link/` | Low
-20 | File | `/Log/Query?appid=0B736354-9473-4D66-B9C0-15CAC149EB05&tabid=tab_0B73635494734D66B9C015CAC149EB05` | High
-21 | File | `/mc` | Low
-22 | File | `/owa/auth/logon.aspx` | High
-23 | File | `/php-inventory-management-system/product.php` | High
-24 | File | `/send_order.cgi?parameter=restart` | High
-25 | File | `/spip.php` | Medium
-26 | File | `/tmp/boa-temp` | High
-27 | File | `/userfs/bin/tcapi` | High
-28 | File | `/var/log/nginx` | High
-29 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
-30 | File | `/vendor/views/add_product.php` | High
-31 | File | `/wp-admin/admin-ajax.php` | High
-32 | File | `?r=dashboard/approval/del` | High
-33 | File | `accountrecoveryendpoint/recoverpassword.do` | High
-34 | ... | ... | ...
+16 | File | `/ecommerce/support_ticket` | High
+17 | File | `/forum/away.php` | High
+18 | File | `/FuguHub/cmsdocs/` | High
+19 | File | `/goform/aspForm` | High
+20 | File | `/graphql` | Medium
+21 | File | `/h/autoSaveDraft` | High
+22 | File | `/HNAP1` | Low
+23 | File | `/index.php` | Medium
+24 | File | `/librarian/bookdetails.php` | High
+25 | File | `/osms/assets/plugins/jquery-validation-1.11.1/demo/captcha/index.php` | High
+26 | File | `/out.php` | Medium
+27 | File | `/owa/auth/logon.aspx` | High
+28 | File | `/plain` | Low
+29 | File | `/preview.php` | Medium
+30 | File | `/registration.php` | High
+31 | File | `/release-x64/otfccdump+0x61731f` | High
+32 | ... | ... | ...
 
-There are 291 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 274 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

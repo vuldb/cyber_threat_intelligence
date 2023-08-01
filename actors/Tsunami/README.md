@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Tsunami:
 
+* [VN](https://vuldb.com/?country.vn)
 * [CN](https://vuldb.com/?country.cn)
-* [ES](https://vuldb.com/?country.es)
 * [US](https://vuldb.com/?country.us)
 * ...
 
-There are 15 more country items available. Please use our online service to access the data.
+There are 2 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -28,9 +28,10 @@ ID | IP address | Hostname | Campaign | Confidence
 5 | [23.95.226.157](https://vuldb.com/?ip.23.95.226.157) | 157-226-scilla.manykril.sbs | - | High
 6 | [31.131.16.127](https://vuldb.com/?ip.31.131.16.127) | moy-dom.biz | - | High
 7 | [37.44.244.106](https://vuldb.com/?ip.37.44.244.106) | - | - | High
-8 | ... | ... | ... | ...
+8 | [37.44.244.124](https://vuldb.com/?ip.37.44.244.124) | - | - | High
+9 | ... | ... | ... | ...
 
-There are 30 more IOC items available. Please use our online service to access the data.
+There are 33 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -38,15 +39,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Pathname Traversal | High
-2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | T1068 | CWE-264, CWE-269, CWE-274, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
-7 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-29, CWE-36 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1068 | CWE-264, CWE-269, CWE-274, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -55,63 +55,47 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.htaccess` | Medium
-2 | File | `.pref.xml` | Medium
-3 | File | `/.ssh/authorized_keys` | High
-4 | File | `/Admin/add-student.php` | High
-5 | File | `/admin/edit-doc.php` | High
-6 | File | `/admin/transactions/update_status.php` | High
-7 | File | `/api/user/password/sent-reset-email` | High
-8 | File | `/ApplicationBanner` | High
-9 | File | `/bin/appmgr` | Medium
-10 | File | `/cgi-bin/koha/acqui/supplier.pl?op=enter` | High
+2 | File | `//proc/kcore` | Medium
+3 | File | `/admin/contacts/organizations/edit/2` | High
+4 | File | `/ajax.php?action=read_msg` | High
+5 | File | `/api/baskets/{name}` | High
+6 | File | `/api/upload.php` | High
+7 | File | `/api?path=profile` | High
+8 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
+9 | File | `/authenticationendpoint/login.do` | High
+10 | File | `/bin/login` | Medium
 11 | File | `/cgi-bin/luci` | High
-12 | File | `/cgi/ansi` | Medium
-13 | File | `/ClickAndBanexDemo/admin/admin.asp` | High
-14 | File | `/config/getuser` | High
-15 | File | `/debug/pprof` | Medium
-16 | File | `/env` | Low
-17 | File | `/etc/gsissh/sshd_config` | High
-18 | File | `/etc/passwd` | Medium
-19 | File | `/forum/away.php` | High
-20 | File | `/getcfg.php` | Medium
-21 | File | `/goform/SetNetControlList` | High
-22 | File | `/goform/setWorkmode` | High
-23 | File | `/goform/telnet` | High
-24 | File | `/goform/WanParameterSetting` | High
-25 | File | `/HNAP1` | Low
-26 | File | `/home.jsp` | Medium
-27 | File | `/include/makecvs.php` | High
-28 | File | `/includes/common.inc.php` | High
-29 | File | `/js/app.js` | Medium
-30 | File | `/knomi/analyze` | High
-31 | File | `/mgmt/tm/util/bash` | High
-32 | File | `/monitoring` | Medium
-33 | File | `/out.php` | Medium
-34 | File | `/scripts/iisadmin/bdir.htr` | High
-35 | File | `/scripts/uistrings.cgi` | High
-36 | File | `/tmp` | Low
-37 | File | `/tmp/csman/0` | Medium
-38 | File | `/ui/cbpc/login` | High
-39 | File | `/usr/www/ja/mnt_cmd.cgi` | High
-40 | File | `/var/hnap/timestamp` | High
-41 | File | `/webmail/` | Medium
-42 | File | `/webman/info.cgi` | High
-43 | File | `/wp-content/plugins/forum-server/feed.php` | High
-44 | File | `/{ADMIN-FILE}/` | High
-45 | File | `a2billing/customer/iridium_threed.php` | High
-46 | File | `adclick.php` | Medium
-47 | File | `address.html` | Medium
-48 | File | `adm/systools.asp` | High
-49 | File | `admin/categories_industry.php` | High
-50 | File | `admin/content/postcategory` | High
-51 | ... | ... | ...
+12 | File | `/cgi-bin/wlogin.cgi` | High
+13 | File | `/contact/store` | High
+14 | File | `/debug/pprof` | Medium
+15 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
+16 | File | `/ecommerce/support_ticket` | High
+17 | File | `/env` | Low
+18 | File | `/forum/away.php` | High
+19 | File | `/FuguHub/cmsdocs/` | High
+20 | File | `/h/autoSaveDraft` | High
+21 | File | `/HNAP1` | Low
+22 | File | `/index.php` | Medium
+23 | File | `/Log/Query?appid=0B736354-9473-4D66-B9C0-15CAC149EB05&tabid=tab_0B73635494734D66B9C015CAC149EB05` | High
+24 | File | `/mc` | Low
+25 | File | `/menu.html` | Medium
+26 | File | `/out.php` | Medium
+27 | File | `/php-inventory-management-system/product.php` | High
+28 | File | `/plain` | Low
+29 | File | `/registration.php` | High
+30 | File | `/release-x64/otfccdump+0x61731f` | High
+31 | File | `/search.php` | Medium
+32 | File | `/settings/account` | High
+33 | File | `/src/chatbotapp/chatWindow.java` | High
+34 | ... | ... | ...
 
-There are 443 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 289 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://asec.ahnlab.com/en/54647/
 * https://bazaar.abuse.ch/sample/02acdc11b6e22b8fa19ebafb10190ac28a7f0e5ee569a058c2df825337e4447a/
 * https://bazaar.abuse.ch/sample/6c6888a75d6a62dc7414dd22d0b6a70456a108a14889b8406f7aeb8b61b34633/
 * https://bazaar.abuse.ch/sample/7c4e9e95a27147623ec5b3be81c76c131a0871d75f50b148b93e88ef6ee0b468/
@@ -127,12 +111,15 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://bazaar.abuse.ch/sample/355807fc92869c656200c3c8a7f41cd204c92a5abf3437324e4a0a6a8a68ed78/
 * https://bazaar.abuse.ch/sample/aaa03b1810498597909ddb7756779921fd187df1baea91faafeee0e00ffdaccc/
 * https://bazaar.abuse.ch/sample/b30702b6432c4a5ca65ebc060b72f28ba71f60b20bb38b6f858af5e6aa61896f/
+* https://bazaar.abuse.ch/sample/d335c83c0dd5bc9a078e796016f9a9f845ff89ee434c63c7a2e7b360e8be3e95/
 * https://bazaar.abuse.ch/sample/db31b258371a7e643cb35cb84798090a00c6c02cd9879f02187cdbba60be1ce3/
 * https://bazaar.abuse.ch/sample/e21ba3f25330cf22713367d510a50510ec807e73240f4f9ad3e37987754de534/
 * https://bazaar.abuse.ch/sample/fe3c5c4f94b90619f7385606dfb86b6211b030efe19b49c12ead507c8156507a/
 * https://blog.netlab.360.com/threat-alert-log4j-vulnerability-has-been-adopted-by-two-linux-botnets/
+* https://exchange.xforce.ibmcloud.com/threats/guid:94e798f76e8cfd2feab41ea2d028135a
 * https://threatfox.abuse.ch
 * https://urlhaus.abuse.ch/host/202.110.187.205/
+* https://www.virustotal.com/gui/file/6c0dbbd757cac412e4f80a761d0084c4dcee7d0ec46d1a0bf769474f8ed153b3
 
 ## Literature
 

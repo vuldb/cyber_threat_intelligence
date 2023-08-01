@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 14 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -24,6 +24,9 @@ ID | Actor | Confidence
 1 | [Ramnit](https://vuldb.com/?actor.ramnit) | High
 2 | [Amadey Bot](https://vuldb.com/?actor.amadey_bot) | High
 3 | [Azorult](https://vuldb.com/?actor.azorult) | High
+4 | ... | ...
+
+There are 1 more actor items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -33,15 +36,18 @@ ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
 1 | [2.59.42.63](https://vuldb.com/?ip.2.59.42.63) | vds-cw08597.timeweb.ru | [Amadey Bot](https://vuldb.com/?actor.amadey_bot) | High
 2 | [13.107.21.200](https://vuldb.com/?ip.13.107.21.200) | - | [Azorult](https://vuldb.com/?actor.azorult) | High
-3 | [23.106.124.148](https://vuldb.com/?ip.23.106.124.148) | - | [Azorult](https://vuldb.com/?actor.azorult) | High
-4 | [37.140.192.153](https://vuldb.com/?ip.37.140.192.153) | scp59.hosting.reg.ru | [Azorult](https://vuldb.com/?actor.azorult) | High
-5 | [37.140.192.166](https://vuldb.com/?ip.37.140.192.166) | scp46.hosting.reg.ru | [Azorult](https://vuldb.com/?actor.azorult) | High
-6 | [45.76.18.39](https://vuldb.com/?ip.45.76.18.39) | 45.76.18.39.vultrusercontent.com | [Azorult](https://vuldb.com/?actor.azorult) | High
-7 | [45.139.236.14](https://vuldb.com/?ip.45.139.236.14) | - | [Azorult](https://vuldb.com/?actor.azorult) | High
-8 | [66.151.174.10](https://vuldb.com/?ip.66.151.174.10) | da1.hosteons.com | [Azorult](https://vuldb.com/?actor.azorult) | High
-9 | ... | ... | ... | ...
+3 | [23.81.246.150](https://vuldb.com/?ip.23.81.246.150) | - | [AZORult and NanoCore](https://vuldb.com/?actor.azorult_and_nanocore) | High
+4 | [23.106.124.148](https://vuldb.com/?ip.23.106.124.148) | - | [Azorult](https://vuldb.com/?actor.azorult) | High
+5 | [23.221.227.176](https://vuldb.com/?ip.23.221.227.176) | a23-221-227-176.deploy.static.akamaitechnologies.com | [Azorult](https://vuldb.com/?actor.azorult) | High
+6 | [23.247.102.10](https://vuldb.com/?ip.23.247.102.10) | word-finish.golddoubly.com | [AZORult and NanoCore](https://vuldb.com/?actor.azorult_and_nanocore) | High
+7 | [34.117.59.81](https://vuldb.com/?ip.34.117.59.81) | 81.59.117.34.bc.googleusercontent.com | [Azorult](https://vuldb.com/?actor.azorult) | Medium
+8 | [37.140.192.153](https://vuldb.com/?ip.37.140.192.153) | scp59.hosting.reg.ru | [Azorult](https://vuldb.com/?actor.azorult) | High
+9 | [37.140.192.166](https://vuldb.com/?ip.37.140.192.166) | scp46.hosting.reg.ru | [Azorult](https://vuldb.com/?actor.azorult) | High
+10 | [45.76.18.39](https://vuldb.com/?ip.45.76.18.39) | 45.76.18.39.vultrusercontent.com | [Azorult](https://vuldb.com/?actor.azorult) | High
+11 | [45.139.236.14](https://vuldb.com/?ip.45.139.236.14) | - | [Azorult](https://vuldb.com/?actor.azorult) | High
+12 | ... | ... | ... | ...
 
-There are 34 more IOC items available. Please use our online service to access the data.
+There are 45 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -56,7 +62,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -65,39 +71,65 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/admin/deluser.php` | High
-3 | File | `/administration/theme.php` | High
-4 | File | `/auparse/auparse.c` | High
-5 | File | `/aux` | Low
-6 | File | `/BindAccount/SuccessTips.js` | High
-7 | File | `/forum/away.php` | High
-8 | File | `/goform/QuickIndex` | High
-9 | File | `/goform/setMacFilterCfg` | High
-10 | File | `/goform/WifiBasicSet` | High
-11 | File | `/home/httpd/cgi-bin/cgi.cgi` | High
-12 | File | `/login.html` | Medium
-13 | File | `/medical/inventories.php` | High
-14 | File | `/pages.php` | Medium
-15 | File | `/pages/save_user.php` | High
-16 | File | `/patient/doctors.php` | High
-17 | File | `/rom-0` | Low
-18 | File | `/uncpath/` | Medium
-19 | File | `/usr/local/psa/admin/sbin/wrapper` | High
-20 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
-21 | File | `/vloggers_merch/classes/Master.php?f=delete_order` | High
-22 | File | `abm.aspx` | Medium
-23 | File | `actions/ChangeConfiguration.html` | High
-24 | ... | ... | ...
+2 | File | `/admin/ajax.php` | High
+3 | File | `/admin/ajax.php?action=save_window` | High
+4 | File | `/admin/article.php` | High
+5 | File | `/admin/countrymanagement.php` | High
+6 | File | `/admin/deluser.php` | High
+7 | File | `/admin/transactions/track_shipment.php` | High
+8 | File | `/admin/user/manage_user.php` | High
+9 | File | `/administration/theme.php` | High
+10 | File | `/ajax-files/postComment.php` | High
+11 | File | `/auparse/auparse.c` | High
+12 | File | `/aux` | Low
+13 | File | `/BindAccount/SuccessTips.js` | High
+14 | File | `/categorypage.php` | High
+15 | File | `/classes/Master.php` | High
+16 | File | `/config/list` | Medium
+17 | File | `/forum/away.php` | High
+18 | File | `/goform/QuickIndex` | High
+19 | File | `/goform/setMacFilterCfg` | High
+20 | File | `/goform/WifiBasicSet` | High
+21 | File | `/home.php` | Medium
+22 | File | `/home/httpd/cgi-bin/cgi.cgi` | High
+23 | File | `/list_temp_photo_pin_upload.php` | High
+24 | File | `/login.html` | Medium
+25 | File | `/login.php` | Medium
+26 | File | `/medical/inventories.php` | High
+27 | File | `/news-portal-script/information.php` | High
+28 | File | `/pages.php` | Medium
+29 | File | `/pages/save_user.php` | High
+30 | File | `/patient/doctors.php` | High
+31 | File | `/print.php` | Medium
+32 | File | `/reviewer/system/system/admins/manage/users/user-update.php` | High
+33 | File | `/rom-0` | Low
+34 | File | `/searchpin.php` | High
+35 | File | `/services/Card/findUser` | High
+36 | File | `/showfile.php` | High
+37 | File | `/show_group_members.php` | High
+38 | File | `/timeline2.php` | High
+39 | File | `/uncpath/` | Medium
+40 | File | `/user/profile` | High
+41 | File | `/user/ticket/create` | High
+42 | File | `/usr/local/psa/admin/sbin/wrapper` | High
+43 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
+44 | File | `/vloggers_merch/classes/Master.php?f=delete_order` | High
+45 | File | `/whbs/?page=manage_account` | High
+46 | File | `abm.aspx` | Medium
+47 | ... | ... | ...
 
-There are 200 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 410 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the campaign and the associated activities:
 
 * https://1275.ru/ioc/308/gs-031-azorult-stealer-iocs/
+* https://bazaar.abuse.ch/sample/7897cbf57b2a25446cedc1995c9950478a2c371c99ef87a0c82c7544742925f8/
+* https://bazaar.abuse.ch/sample/c157531bb4d14cd35fc3ffe2a62fdd292f8e16566c663dcfbf083d75c4a94773/
 * https://blog.cyble.com/2021/10/26/a-deep-dive-analysis-of-azorult-stealer/
 * https://blog.talosintelligence.com/2020/01/threat-roundup-0117-0124.html
+* https://blog.talosintelligence.com/threat-roundup-0630-0707-2/
 * https://blogs.blackberry.com/en/2020/01/threat-spotlight-amadey-bot
 * https://cert.gov.ua/article/2806
 * https://isc.sans.edu/forums/diary/More+malspam+pushing+passwordprotected+Word+docs+for+AZORult+and+Hermes+Ransomware/23992/
@@ -105,6 +137,7 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://threatfox.abuse.ch
 * https://tria.ge/220314-ymactadghk
 * https://tria.ge/220602-c7n6tagcgn
+* https://www.zscaler.com/blogs/research/multistage-freedom-loader-used-spread-azorult-and-nanocore-rat
 
 ## Literature
 

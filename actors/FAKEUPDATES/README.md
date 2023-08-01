@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [TR](https://vuldb.com/?country.tr)
 * ...
 
-There are 10 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -23,13 +23,15 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [5.79.66.100](https://vuldb.com/?ip.5.79.66.100) | - | - | High
 2 | [5.79.66.123](https://vuldb.com/?ip.5.79.66.123) | - | - | High
-3 | [35.176.231.198](https://vuldb.com/?ip.35.176.231.198) | ec2-35-176-231-198.eu-west-2.compute.amazonaws.com | - | Medium
-4 | [45.77.195.105](https://vuldb.com/?ip.45.77.195.105) | 45.77.195.105.vultrusercontent.com | - | High
-5 | [45.90.57.160](https://vuldb.com/?ip.45.90.57.160) | khalasar.omega.spb.ru | - | High
-6 | [45.130.201.23](https://vuldb.com/?ip.45.130.201.23) | - | - | High
-7 | ... | ... | ... | ...
+3 | [8.211.4.118](https://vuldb.com/?ip.8.211.4.118) | - | - | High
+4 | [35.176.231.198](https://vuldb.com/?ip.35.176.231.198) | ec2-35-176-231-198.eu-west-2.compute.amazonaws.com | - | Medium
+5 | [45.77.195.105](https://vuldb.com/?ip.45.77.195.105) | 45.77.195.105.vultrusercontent.com | - | High
+6 | [45.90.57.160](https://vuldb.com/?ip.45.90.57.160) | khalasar.omega.spb.ru | - | High
+7 | [45.130.201.23](https://vuldb.com/?ip.45.130.201.23) | - | - | High
+8 | [45.130.201.24](https://vuldb.com/?ip.45.130.201.24) | - | - | High
+9 | ... | ... | ... | ...
 
-There are 22 more IOC items available. Please use our online service to access the data.
+There are 33 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -42,9 +44,10 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+6 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+7 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -52,41 +55,58 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `//proc/kcore` | Medium
-2 | File | `/admin.php/Admin/adminadd.html` | High
-3 | File | `/Admin/add-student.php` | High
-4 | File | `/admin/orders/update_status.php` | High
-5 | File | `/admin/profile/save_profile` | High
-6 | File | `/admin/settings/save.php` | High
-7 | File | `/admin/userprofile.php` | High
-8 | File | `/apply.cgi` | Medium
-9 | File | `/catalog/admin/categories.php?cPath=&action=new_product` | High
-10 | File | `/cgi-bin/wlogin.cgi` | High
-11 | File | `/College/admin/teacher.php` | High
-12 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
-13 | File | `/dcim/rack-roles/` | High
-14 | File | `/forum/away.php` | High
-15 | File | `/getcfg.php` | Medium
-16 | File | `/goform/addUserName` | High
-17 | File | `/goform/aspForm` | High
-18 | File | `/goform/delAd` | High
-19 | File | `/goform/wifiSSIDset` | High
-20 | File | `/gpac/src/bifs/unquantize.c` | High
-21 | File | `/inc/topBarNav.php` | High
-22 | File | `/index.asp` | Medium
-23 | File | `/jfinal_cms/system/role/list` | High
-24 | File | `/kelas/data` | Medium
-25 | File | `/Moosikay/order.php` | High
-26 | File | `/out.php` | Medium
-27 | File | `/paysystem/datatable.php` | High
-28 | File | `/php-sms/admin/quotes/manage_remark.php` | High
-29 | File | `/product_list.php` | High
-30 | File | `/secure/QueryComponent!Default.jspa` | High
-31 | File | `/server/ajax/events_manager.php` | High
-32 | File | `/server/ajax/user_manager.php` | High
-33 | ... | ... | ...
+1 | File | `$JENKINS_HOME/jenkins.security.RekeySecretAdminMonitor/backups` | High
+2 | File | `//proc/kcore` | Medium
+3 | File | `/admin.php/Admin/adminadd.html` | High
+4 | File | `/admin/` | Low
+5 | File | `/Admin/add-student.php` | High
+6 | File | `/admin/index.php` | High
+7 | File | `/admin/orders/update_status.php` | High
+8 | File | `/admin/profile/save_profile` | High
+9 | File | `/admin/settings/save.php` | High
+10 | File | `/admin/sys_sql_query.php` | High
+11 | File | `/admin/userprofile.php` | High
+12 | File | `/api/baskets/{name}` | High
+13 | File | `/apply.cgi` | Medium
+14 | File | `/apply_noauth.cgi` | High
+15 | File | `/catalog/admin/categories.php?cPath=&action=new_product` | High
+16 | File | `/cgi-bin/wlogin.cgi` | High
+17 | File | `/College/admin/teacher.php` | High
+18 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
+19 | File | `/dcim/rack-roles/` | High
+20 | File | `/domains/index.fts` | High
+21 | File | `/forum/away.php` | High
+22 | File | `/foundry/modules/news/newscolumns.php` | High
+23 | File | `/goform/addUserName` | High
+24 | File | `/goform/aspForm` | High
+25 | File | `/goform/delAd` | High
+26 | File | `/goform/wifiSSIDset` | High
+27 | File | `/gpac/src/bifs/unquantize.c` | High
+28 | File | `/inc/topBarNav.php` | High
+29 | File | `/index.asp` | Medium
+30 | File | `/index.php` | Medium
+31 | File | `/index.php?app=main&func=passport&action=login` | High
+32 | File | `/jfinal_cms/system/role/list` | High
+33 | File | `/kelas/data` | Medium
+34 | File | `/Moosikay/order.php` | High
+35 | File | `/Mum.Geo.Services/DataAccessService.svc` | High
+36 | File | `/out.php` | Medium
+37 | File | `/paysystem/datatable.php` | High
+38 | File | `/php-sms/admin/quotes/manage_remark.php` | High
+39 | File | `/product_list.php` | High
+40 | File | `/secure/QueryComponent!Default.jspa` | High
+41 | File | `/server/ajax/events_manager.php` | High
+42 | File | `/server/ajax/user_manager.php` | High
+43 | File | `/smstest.html` | High
+44 | File | `/tmp/kamailio_fifo` | High
+45 | File | `/uncpath/` | Medium
+46 | File | `/user/profile` | High
+47 | File | `/vloggers_merch/admin/?page=product/manage_product` | High
+48 | File | `/webman/info.cgi` | High
+49 | File | `acloudCosAction.php.SQL` | High
+50 | ... | ... | ...
 
-There are 285 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 435 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -94,9 +114,12 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://infosec.exchange/@monitorsg/110542478917794644
 * https://infosec.exchange/@monitorsg/110594616696514472
+* https://infosec.exchange/@monitorsg/110680494489744567
 * https://infosec.exchange/@rmceoin/110424143980661661
 * https://infosec.exchange/@rmceoin/110475220406813517
 * https://infosec.exchange/@rmceoin/110492844885251537
+* https://infosec.exchange/@rmceoin/110646942587873094
+* https://infosec.exchange/@rmceoin/110741107977124203
 * https://threatfox.abuse.ch
 * https://twitter.com/threatcat_ch/status/1655819677648420864
 * https://twitter.com/threatcat_ch/status/1656899336712716289

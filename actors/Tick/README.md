@@ -18,12 +18,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [58.230.118.78](https://vuldb.com/?ip.58.230.118.78) | mail.booksr.co.kr | - | High
-2 | [61.106.60.47](https://vuldb.com/?ip.61.106.60.47) | - | - | High
-3 | [103.127.124.76](https://vuldb.com/?ip.103.127.124.76) | - | - | High
+1 | [52.84.186.239](https://vuldb.com/?ip.52.84.186.239) | server-52-84-186-239.cdg50.r.cloudfront.net | - | High
+2 | [58.230.118.78](https://vuldb.com/?ip.58.230.118.78) | mail.booksr.co.kr | - | High
+3 | [61.106.60.47](https://vuldb.com/?ip.61.106.60.47) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 7 more IOC items available. Please use our online service to access the data.
+There are 12 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -49,7 +49,7 @@ ID | Type | Indicator | Confidence
 3 | File | `/register/abort` | High
 4 | ... | ... | ...
 
-There are 21 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 23 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -57,6 +57,7 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://blogs.jpcert.or.jp/ja/2019/02/tick-activity.html
 * https://github.com/blackorbird/APT_REPORT/blob/master/summary/2021/mpressioncss_ta_report_2020_5_en.pdf
+* https://www.cyber45.com
 * https://www.welivesecurity.com/2023/03/14/slow-ticking-time-bomb-tick-apt-group-dlp-software-developer-east-asia/
 
 ## Literature

@@ -20,7 +20,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 27 more country items available. Please use our online service to access the data.
+There are 25 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -113,7 +113,7 @@ ID | Technique | Weakness | Description | Confidence
 6 | T1068 | CWE-250, CWE-264, CWE-266, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 7 | ... | ... | ... | ...
 
-There are 23 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -122,47 +122,49 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/ajax.php?action=read_msg` | High
-3 | File | `/ajax/networking/get_netcfg.php` | High
-4 | File | `/api/gen/clients/{language}` | High
-5 | File | `/app/options.py` | High
-6 | File | `/bin/httpd` | Medium
-7 | File | `/cgi-bin/wapopen` | High
-8 | File | `/ci_spms/admin/category` | High
-9 | File | `/ci_spms/admin/search/searching/` | High
-10 | File | `/classes/Master.php?f=delete_appointment` | High
-11 | File | `/classes/Master.php?f=delete_train` | High
-12 | File | `/concat?/%2557EB-INF/web.xml` | High
-13 | File | `/Content/Template/root/reverse-shell.aspx` | High
-14 | File | `/ctcprotocol/Protocol` | High
-15 | File | `/dashboard/menu-list.php` | High
-16 | File | `/data/remove` | Medium
-17 | File | `/ebics-server/ebics.aspx` | High
-18 | File | `/ffos/classes/Master.php?f=save_category` | High
-19 | File | `/forum/away.php` | High
-20 | File | `/goforms/rlminfo` | High
-21 | File | `/HNAP1` | Low
-22 | File | `/HNAP1/SetClientInfo` | High
-23 | File | `/Items/*/RemoteImages/Download` | High
-24 | File | `/menu.html` | Medium
-25 | File | `/modules/profile/index.php` | High
-26 | File | `/navigate/navigate_download.php` | High
-27 | File | `/ocwbs/admin/?page=user/manage_user` | High
-28 | File | `/ofrs/admin/?page=user/manage_user` | High
-29 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-30 | File | `/out.php` | Medium
-31 | File | `/password.html` | High
-32 | File | `/php_action/fetchSelectedUser.php` | High
-33 | File | `/property-list/property_view.php` | High
-34 | File | `/ptms/classes/Users.php` | High
-35 | File | `/resources//../` | High
-36 | File | `/rest/api/2/search` | High
-37 | File | `/s/` | Low
-38 | File | `/scripts/cpan_config` | High
-39 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-40 | ... | ... | ...
+2 | File | `/act/ActDao.xml` | High
+3 | File | `/ajax.php?action=read_msg` | High
+4 | File | `/ajax/networking/get_netcfg.php` | High
+5 | File | `/api/gen/clients/{language}` | High
+6 | File | `/app/options.py` | High
+7 | File | `/bin/httpd` | Medium
+8 | File | `/cgi-bin/wapopen` | High
+9 | File | `/ci_spms/admin/category` | High
+10 | File | `/ci_spms/admin/search/searching/` | High
+11 | File | `/classes/Master.php?f=delete_appointment` | High
+12 | File | `/classes/Master.php?f=delete_train` | High
+13 | File | `/concat?/%2557EB-INF/web.xml` | High
+14 | File | `/Content/Template/root/reverse-shell.aspx` | High
+15 | File | `/ctcprotocol/Protocol` | High
+16 | File | `/dashboard/menu-list.php` | High
+17 | File | `/data/remove` | Medium
+18 | File | `/ebics-server/ebics.aspx` | High
+19 | File | `/ffos/classes/Master.php?f=save_category` | High
+20 | File | `/forum/away.php` | High
+21 | File | `/goforms/rlminfo` | High
+22 | File | `/HNAP1` | Low
+23 | File | `/HNAP1/SetClientInfo` | High
+24 | File | `/Items/*/RemoteImages/Download` | High
+25 | File | `/menu.html` | Medium
+26 | File | `/modules/profile/index.php` | High
+27 | File | `/navigate/navigate_download.php` | High
+28 | File | `/ocwbs/admin/?page=user/manage_user` | High
+29 | File | `/ofrs/admin/?page=user/manage_user` | High
+30 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+31 | File | `/out.php` | Medium
+32 | File | `/password.html` | High
+33 | File | `/php_action/fetchSelectedUser.php` | High
+34 | File | `/property-list/property_view.php` | High
+35 | File | `/ptms/classes/Users.php` | High
+36 | File | `/resources//../` | High
+37 | File | `/rest/api/2/search` | High
+38 | File | `/s/` | Low
+39 | File | `/scripts/cpan_config` | High
+40 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+41 | File | `/shell` | Low
+42 | ... | ... | ...
 
-There are 346 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 361 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

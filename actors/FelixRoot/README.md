@@ -53,17 +53,18 @@ ID | Type | Indicator | Confidence
 6 | File | `/common/logViewer/logViewer.jsf` | High
 7 | File | `/crmeb/app/admin/controller/store/CopyTaobao.php` | High
 8 | File | `/DXR.axd` | Medium
-9 | File | `/forum/away.php` | High
-10 | File | `/goform/aspForm` | High
-11 | File | `/hocms/classes/Master.php?f=delete_collection` | High
-12 | File | `/InternalPages/ExecuteTask.aspx` | High
-13 | File | `/mifs/c/i/reg/reg.html` | High
-14 | File | `/ms/cms/content/list.do` | High
-15 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-16 | File | `/orms/` | Low
-17 | ... | ... | ...
+9 | File | `/en/blog-comment-4` | High
+10 | File | `/forum/away.php` | High
+11 | File | `/goform/aspForm` | High
+12 | File | `/h/` | Low
+13 | File | `/hocms/classes/Master.php?f=delete_collection` | High
+14 | File | `/InternalPages/ExecuteTask.aspx` | High
+15 | File | `/mifs/c/i/reg/reg.html` | High
+16 | File | `/ms/cms/content/list.do` | High
+17 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+18 | ... | ... | ...
 
-There are 142 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 144 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

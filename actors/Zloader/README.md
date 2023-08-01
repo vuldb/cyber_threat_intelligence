@@ -61,18 +61,18 @@ ID | Type | Indicator | Confidence
 4 | File | `/ajax.php?action=read_msg` | High
 5 | File | `/baseOpLog.do` | High
 6 | File | `/bcms/admin/?page=user/list` | High
-7 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
-8 | File | `/home/cavesConsole` | High
-9 | File | `/SystemManage/Organize/GetTreeGridJson?_search=false&nd=1681813520783&rows=10000&page=1&sidx=&sord=asc` | High
-10 | File | `/upload` | Low
-11 | File | `/users/check_availability.php` | High
-12 | File | `/youthappam/add-food.php` | High
-13 | File | `admin/?page=user/manage_user` | High
-14 | File | `admin/expense_report.php` | High
-15 | File | `admin/readDeal.php?mudi=readQrCode` | High
+7 | File | `/cgi-bin/adm.cgi` | High
+8 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
+9 | File | `/home/cavesConsole` | High
+10 | File | `/SystemManage/Organize/GetTreeGridJson?_search=false&nd=1681813520783&rows=10000&page=1&sidx=&sord=asc` | High
+11 | File | `/upload` | Low
+12 | File | `/users/check_availability.php` | High
+13 | File | `/youthappam/add-food.php` | High
+14 | File | `admin/?page=user/manage_user` | High
+15 | File | `admin/expense_report.php` | High
 16 | ... | ... | ...
 
-There are 125 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 129 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

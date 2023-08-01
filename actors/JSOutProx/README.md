@@ -23,10 +23,10 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [79.134.225.32](https://vuldb.com/?ip.79.134.225.32) | - | - | High
 2 | [79.134.225.40](https://vuldb.com/?ip.79.134.225.40) | - | - | High
-3 | [91.192.100.33](https://vuldb.com/?ip.91.192.100.33) | 91-192-100-33.gerber.non-logging.vpn | - | High
+3 | [91.192.100.18](https://vuldb.com/?ip.91.192.100.18) | 91-192-100-18.gerber.non-logging.vpn | - | High
 4 | ... | ... | ... | ...
 
-There are 4 more IOC items available. Please use our online service to access the data.
+There are 5 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -39,7 +39,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 7 more TTP items available. Please use our online service to access the data.
+There are 8 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -49,18 +49,20 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/etc/sudoers` | Medium
 2 | File | `/see_more_details.php` | High
-3 | File | `/uncpath/` | Medium
-4 | File | `/wp-admin/admin-ajax.php` | High
-5 | File | `cat.php` | Low
-6 | ... | ... | ...
+3 | File | `/showfile.php` | High
+4 | File | `/uncpath/` | Medium
+5 | File | `/wp-admin/admin-ajax.php` | High
+6 | File | `admin/news.php` | High
+7 | ... | ... | ...
 
-There are 40 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 51 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://threatfox.abuse.ch
+* https://twitter.com/bigmacjpg/status/1663887107415261185
 * https://twitter.com/petrovic082/status/1641057643912364033
 
 ## Literature

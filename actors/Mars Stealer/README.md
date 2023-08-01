@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Mars Stealer:
 
 * [US](https://vuldb.com/?country.us)
-* [DE](https://vuldb.com/?country.de)
 * [RU](https://vuldb.com/?country.ru)
+* [DE](https://vuldb.com/?country.de)
 * ...
 
 There are 15 more country items available. Please use our online service to access the data.
@@ -51,7 +51,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1068 | CWE-264, CWE-269, CWE-271, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -69,33 +69,35 @@ ID | Type | Indicator | Confidence
 8 | File | `/api/user/password/sent-reset-email` | High
 9 | File | `/aqpg/users/login.php` | High
 10 | File | `/bsms_ci/index.php/user/edit_user/` | High
-11 | File | `/dashboard/add-service.php` | High
-12 | File | `/dashboard/updatelogo.php` | High
-13 | File | `/Default/Bd` | Medium
-14 | File | `/download` | Medium
-15 | File | `/event/admin/?page=user/list` | High
-16 | File | `/face-recognition-php/facepay-master/camera.php` | High
-17 | File | `/filemanager/upload/drop` | High
-18 | File | `/forum/away.php` | High
-19 | File | `/forum/PostPrivateMessage` | High
-20 | File | `/getcfg.php` | Medium
-21 | File | `/goform/aspForm` | High
-22 | File | `/goform/RouteStatic` | High
-23 | File | `/home/masterConsole` | High
-24 | File | `/hrm/employeeadd.php` | High
-25 | File | `/hrm/employeeview.php` | High
-26 | File | `/htdocs/cgibin` | High
-27 | File | `/lists/index.php` | High
-28 | File | `/login.php` | Medium
-29 | File | `/netflow/jspui/editProfile.jsp` | High
-30 | File | `/spip.php` | Medium
-31 | File | `/uncpath/` | Medium
-32 | File | `/usr/www/ja/mnt_cmd.cgi` | High
-33 | File | `/videotalk` | Medium
-34 | File | `/view-property.php` | High
-35 | ... | ... | ...
+11 | File | `/classes/Master.php?f=save_inquiry` | High
+12 | File | `/dashboard/add-service.php` | High
+13 | File | `/dashboard/updatelogo.php` | High
+14 | File | `/Default/Bd` | Medium
+15 | File | `/download` | Medium
+16 | File | `/event/admin/?page=user/list` | High
+17 | File | `/face-recognition-php/facepay-master/camera.php` | High
+18 | File | `/filemanager/upload/drop` | High
+19 | File | `/forum/away.php` | High
+20 | File | `/forum/PostPrivateMessage` | High
+21 | File | `/getcfg.php` | Medium
+22 | File | `/goform/aspForm` | High
+23 | File | `/goform/RouteStatic` | High
+24 | File | `/home/masterConsole` | High
+25 | File | `/hrm/employeeadd.php` | High
+26 | File | `/hrm/employeeview.php` | High
+27 | File | `/htdocs/cgibin` | High
+28 | File | `/lists/index.php` | High
+29 | File | `/login.php` | Medium
+30 | File | `/netflow/jspui/editProfile.jsp` | High
+31 | File | `/spip.php` | Medium
+32 | File | `/uncpath/` | Medium
+33 | File | `/usr/www/ja/mnt_cmd.cgi` | High
+34 | File | `/videotalk` | Medium
+35 | File | `/view-property.php` | High
+36 | File | `/webman/info.cgi` | High
+37 | ... | ... | ...
 
-There are 303 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 314 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

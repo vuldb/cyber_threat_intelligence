@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [LU](https://vuldb.com/?country.lu)
 * ...
 
-There are 9 more country items available. Please use our online service to access the data.
+There are 8 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -45,14 +45,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-29, CWE-37 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-29, CWE-36 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1068 | CWE-264, CWE-269, CWE-274, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -61,55 +61,49 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `//proc/kcore` | Medium
-2 | File | `/?p=products` | Medium
-3 | File | `/action/wirelessConnect` | High
-4 | File | `/admin-ajax.php?action=eps_redirect_save` | High
-5 | File | `/admin/assign/assign.php` | High
-6 | File | `/admin/attendance_row.php` | High
-7 | File | `/admin/cashadvance_row.php` | High
-8 | File | `/admin/contacts/organizations/edit/2` | High
-9 | File | `/admin/curriculum/view_curriculum.php` | High
-10 | File | `/admin/departments/view_department.php` | High
-11 | File | `/admin/edit_subject.php` | High
-12 | File | `/admin/employee_row.php` | High
-13 | File | `/admin/login.php` | High
-14 | File | `/admin/maintenance/brand.php` | High
-15 | File | `/admin/maintenance/view_designation.php` | High
-16 | File | `/admin/mechanics/manage_mechanic.php` | High
-17 | File | `/admin/reportupload.aspx` | High
-18 | File | `/admin/service.php` | High
-19 | File | `/admin/suppliers/view_details.php` | High
-20 | File | `/admin/transactions/track_shipment.php` | High
-21 | File | `/admin/user/manage_user.php` | High
-22 | File | `/admin/user/uploadImg` | High
-23 | File | `/ajax.php?action=read_msg` | High
-24 | File | `/api/admin/store/product/list` | High
-25 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
-26 | File | `/bin/login` | Medium
-27 | File | `/cgi-bin/kerbynet` | High
-28 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-29 | File | `/cgi-bin/wlogin.cgi` | High
-30 | File | `/classes/Master.php` | High
-31 | File | `/classes/Master.php?f=delete_item` | High
-32 | File | `/config/getuser` | High
-33 | File | `/Content/Template/root/reverse-shell.aspx` | High
-34 | File | `/forms/doLogin` | High
-35 | File | `/forum/away.php` | High
-36 | File | `/HNAP1` | Low
-37 | File | `/install/index.php` | High
-38 | File | `/licenses` | Medium
-39 | File | `/Log/Query?appid=0B736354-9473-4D66-B9C0-15CAC149EB05&tabid=tab_0B73635494734D66B9C015CAC149EB05` | High
-40 | File | `/login/index.php` | High
-41 | File | `/menu.html` | Medium
-42 | File | `/mims/login.php` | High
-43 | File | `/out.php` | Medium
-44 | File | `/public/launchNewWindow.jsp` | High
-45 | File | `/qsr_server/device/reboot` | High
-46 | File | `/spip.php` | Medium
-47 | File | `/staff/bookdetails.php` | High
-48 | ... | ... | ...
+2 | File | `/admin.php?c=upload&f=zip&_noCache=0.1683794968` | High
+3 | File | `/admin/categories/manage_category.php` | High
+4 | File | `/admin/categories/view_category.php` | High
+5 | File | `/admin/contacts/organizations/edit/2` | High
+6 | File | `/admin/reportupload.aspx` | High
+7 | File | `/ajax.php?action=read_msg` | High
+8 | File | `/api/baskets/{name}` | High
+9 | File | `/api?path=profile` | High
+10 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
+11 | File | `/authenticationendpoint/login.do` | High
+12 | File | `/bin/login` | Medium
+13 | File | `/cgi-bin/luci` | High
+14 | File | `/cgi-bin/wlogin.cgi` | High
+15 | File | `/change-language/de_DE` | High
+16 | File | `/classes/Master.php?f=save_item` | High
+17 | File | `/contact/store` | High
+18 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
+19 | File | `/ecommerce/support_ticket` | High
+20 | File | `/editprofile.php` | High
+21 | File | `/forum/away.php` | High
+22 | File | `/FuguHub/cmsdocs/` | High
+23 | File | `/h/autoSaveDraft` | High
+24 | File | `/HNAP1` | Low
+25 | File | `/index.php` | Medium
+26 | File | `/Log/Query?appid=0B736354-9473-4D66-B9C0-15CAC149EB05&tabid=tab_0B73635494734D66B9C015CAC149EB05` | High
+27 | File | `/mc` | Low
+28 | File | `/menu.html` | Medium
+29 | File | `/php-inventory-management-system/product.php` | High
+30 | File | `/plain` | Low
+31 | File | `/preview.php` | Medium
+32 | File | `/registration.php` | High
+33 | File | `/Service/ImageStationDataService.asmx` | High
+34 | File | `/settings/account` | High
+35 | File | `/student/bookdetails.php` | High
+36 | File | `/tmp/boa-temp` | High
+37 | File | `/uncpath/` | Medium
+38 | File | `/userfs/bin/tcapi` | High
+39 | File | `/var/log/nginx` | High
+40 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
+41 | File | `/wireless/basic.asp` | High
+42 | ... | ... | ...
 
-There are 412 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 359 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

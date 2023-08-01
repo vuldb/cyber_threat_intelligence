@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 19 more country items available. Please use our online service to access the data.
+There are 25 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -1113,13 +1113,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -1128,69 +1128,66 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `//WEB-INF` | Medium
-2 | File | `/?p=products` | Medium
-3 | File | `/about.php` | Medium
-4 | File | `/admin.php/accessory/filesdel.html` | High
-5 | File | `/admin.php/update/getFile.html` | High
-6 | File | `/admin/?page=user/manage` | High
-7 | File | `/admin/add-new.php` | High
-8 | File | `/admin/cashadvance_row.php` | High
-9 | File | `/Admin/createClass.php` | High
-10 | File | `/admin/doctors.php` | High
-11 | File | `/admin/index2.html` | High
-12 | File | `/admin/maintenance/view_designation.php` | High
-13 | File | `/admin/userprofile.php` | High
-14 | File | `/adms/admin/?page=vehicles/sell_vehicle` | High
-15 | File | `/adms/admin/?page=vehicles/view_transaction` | High
-16 | File | `/alphaware/summary.php` | High
-17 | File | `/api/` | Low
-18 | File | `/api/admin/store/product/list` | High
+2 | File | `/?ajax-request=jnews` | High
+3 | File | `/?p=products` | Medium
+4 | File | `/about.php` | Medium
+5 | File | `/admin.php/accessory/filesdel.html` | High
+6 | File | `/admin.php/update/getFile.html` | High
+7 | File | `/admin/?page=user/manage` | High
+8 | File | `/admin/add-new.php` | High
+9 | File | `/admin/cashadvance_row.php` | High
+10 | File | `/Admin/createClass.php` | High
+11 | File | `/admin/doctors.php` | High
+12 | File | `/admin/index2.html` | High
+13 | File | `/admin/maintenance/view_designation.php` | High
+14 | File | `/admin/userprofile.php` | High
+15 | File | `/alphaware/summary.php` | High
+16 | File | `/api/` | Low
+17 | File | `/api/admin/store/product/list` | High
+18 | File | `/api/baskets/{name}` | High
 19 | File | `/api/stl/actions/search` | High
 20 | File | `/api/v2/cli/commands` | High
 21 | File | `/APR/login.php` | High
-22 | File | `/bin/httpd` | Medium
+22 | File | `/bin/ate` | Medium
 23 | File | `/boat/login.php` | High
-24 | File | `/bsms_ci/index.php/book` | High
+24 | File | `/booking/show_bookings/` | High
 25 | File | `/cgi-bin` | Medium
 26 | File | `/cgi-bin/wapopen` | High
 27 | File | `/cgi-bin/wlogin.cgi` | High
-28 | File | `/debug/pprof` | Medium
-29 | File | `/DXR.axd` | Medium
-30 | File | `/feeds/post/publish` | High
-31 | File | `/forum/away.php` | High
-32 | File | `/fos/admin/ajax.php?action=login` | High
-33 | File | `/fos/admin/index.php?page=menu` | High
-34 | File | `/getcfg.php` | Medium
-35 | File | `/home/masterConsole` | High
-36 | File | `/home/sendBroadcast` | High
-37 | File | `/inc/jquery/uploadify/uploadify.php` | High
-38 | File | `/index.php?app=main&func=passport&action=login` | High
-39 | File | `/index.php?page=category_list` | High
-40 | File | `/medicines/profile.php` | High
-41 | File | `/Moosikay/order.php` | High
-42 | File | `/mygym/admin/index.php?view_exercises` | High
+28 | File | `/company/store` | High
+29 | File | `/Controller/Ajaxfileupload.ashx` | High
+30 | File | `/debug/pprof` | Medium
+31 | File | `/DXR.axd` | Medium
+32 | File | `/en/blog-comment-4` | High
+33 | File | `/env` | Low
+34 | File | `/feeds/post/publish` | High
+35 | File | `/forum/away.php` | High
+36 | File | `/getcfg.php` | Medium
+37 | File | `/h/` | Low
+38 | File | `/inc/jquery/uploadify/uploadify.php` | High
+39 | File | `/index.php?app=main&func=passport&action=login` | High
+40 | File | `/index.php?page=category_list` | High
+41 | File | `/jobinfo/` | Medium
+42 | File | `/Moosikay/order.php` | High
 43 | File | `/news/list?limit=10&offset=0&order=desc` | High
 44 | File | `/opac/Actions.php?a=login` | High
-45 | File | `/owa/auth/logon.aspx` | High
-46 | File | `/php-opos/index.php` | High
-47 | File | `/PreviewHandler.ashx` | High
-48 | File | `/public/launchNewWindow.jsp` | High
-49 | File | `/reservation/add_message.php` | High
-50 | File | `/spip.php` | Medium
-51 | File | `/uncpath/` | Medium
-52 | File | `/user/updatePwd` | High
-53 | File | `/usr/bin/pkexec` | High
-54 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
-55 | File | `/video-sharing-script/watch-video.php` | High
-56 | File | `/wireless/security.asp` | High
-57 | File | `/wp-admin/admin-ajax.php` | High
-58 | File | `/wp-admin/options.php` | High
-59 | File | `/zm/index.php` | High
-60 | File | `01article.php` | High
-61 | File | `a-forms.php` | Medium
-62 | ... | ... | ...
+45 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+46 | File | `/owa/auth/logon.aspx` | High
+47 | File | `/php-sms/admin/?page=user/manage_user` | High
+48 | File | `/PreviewHandler.ashx` | High
+49 | File | `/public/launchNewWindow.jsp` | High
+50 | File | `/reservation/add_message.php` | High
+51 | File | `/rom-0` | Low
+52 | File | `/Service/ImageStationDataService.asmx` | High
+53 | File | `/student/bookdetails.php` | High
+54 | File | `/uploads/exam_question/` | High
+55 | File | `/user/ticket/create` | High
+56 | File | `/user/updatePwd` | High
+57 | File | `/usr/bin/pkexec` | High
+58 | File | `/var/lib/docker/<remapping>` | High
+59 | ... | ... | ...
 
-There are 542 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 520 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

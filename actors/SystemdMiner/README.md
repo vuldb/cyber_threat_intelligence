@@ -49,11 +49,11 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/adfs/ls` | Medium
 2 | File | `/admin/uploads.php` | High
-3 | File | `/owa/auth/logon.aspx` | High
-4 | File | `/usr/bin/pkexec` | High
+3 | File | `/note/index/delete` | High
+4 | File | `/owa/auth/logon.aspx` | High
 5 | ... | ... | ...
 
-There are 27 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 29 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

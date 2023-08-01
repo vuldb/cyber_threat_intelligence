@@ -10,6 +10,7 @@ The following _campaigns_ are known and can be associated with UNC1151:
 
 * Ghostwriter
 * Phishing Ukrainian Soldiers
+* Ukraine
 
 ## Countries
 
@@ -20,7 +21,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [DE](https://vuldb.com/?country.de)
 * ...
 
-There are 1 more country items available. Please use our online service to access the data.
+There are 2 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -29,11 +30,11 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [88.99.104.179](https://vuldb.com/?ip.88.99.104.179) | static.179.104.99.88.clients.your-server.de | Ghostwriter | High
-2 | [185.173.94.12](https://vuldb.com/?ip.185.173.94.12) | mx05.mylifehelper.su | Phishing Ukrainian Soldiers | High
-3 | [185.244.180.13](https://vuldb.com/?ip.185.244.180.13) | host-185-244-180-13.macloud.host | Phishing Ukrainian Soldiers | High
+2 | [94.131.108.109](https://vuldb.com/?ip.94.131.108.109) | ganguawd33.pserver.space | Ukraine | High
+3 | [185.173.94.12](https://vuldb.com/?ip.185.173.94.12) | mx05.mylifehelper.su | Phishing Ukrainian Soldiers | High
 4 | ... | ... | ... | ...
 
-There are 1 more IOC items available. Please use our online service to access the data.
+There are 2 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -54,17 +55,18 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/concat?/%2557EB-INF/web.xml` | High
-2 | File | `/context/%2e/WEB-INF/web.xml` | High
-3 | File | `/forum/away.php` | High
+1 | File | `/admin/maintenance/view_designation.php` | High
+2 | File | `/concat?/%2557EB-INF/web.xml` | High
+3 | File | `/context/%2e/WEB-INF/web.xml` | High
 4 | ... | ... | ...
 
-There are 12 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 14 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://blog.talosintelligence.com/malicious-campaigns-target-entities-in-ukraine-poland/
 * https://community.riskiq.com/article/e3a7ceea/indicators
 * https://github.com/blackorbird/APT_REPORT/blob/master/Ghostwriter/unc1151-ghostwriter-update-report.pdf
 

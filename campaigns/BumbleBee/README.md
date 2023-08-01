@@ -392,7 +392,7 @@ ID | IP address | Hostname | Actor | Confidence
 356 | [46.249.38.114](https://vuldb.com/?ip.46.249.38.114) | - | [BumbleBee](https://vuldb.com/?actor.bumblebee) | High
 357 | ... | ... | ... | ...
 
-There are 1422 more IOC items available. Please use our online service to access the data.
+There are 1424 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -400,11 +400,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-29, CWE-425 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-29, CWE-36 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 6 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
@@ -415,41 +415,53 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/?page=user/list` | High
-2 | File | `/admin/addproduct.php` | High
-3 | File | `/admin/ajax.php?action=save_area` | High
-4 | File | `/admin/edit_subject.php` | High
-5 | File | `/admin/modal_add_product.php` | High
-6 | File | `/admin/update_s6.php` | High
-7 | File | `/ajax.php?action=read_msg` | High
-8 | File | `/ajax.php?action=save_company` | High
-9 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
-10 | File | `/authenticationendpoint/login.do` | High
-11 | File | `/bin/ate` | Medium
-12 | File | `/bin/login` | Medium
-13 | File | `/cgi-bin/luci` | High
-14 | File | `/cgi-bin/wlogin.cgi` | High
-15 | File | `/changeimage.php` | High
-16 | File | `/classes/Master.php?f=delete_category` | High
-17 | File | `/classes/Users.php?f=save` | High
-18 | File | `/debug/pprof` | Medium
-19 | File | `/DXR.axd` | Medium
-20 | File | `/env` | Low
-21 | File | `/forum/away.php` | High
-22 | File | `/goform/setmac` | High
-23 | File | `/goform/setMacFilterCfg` | High
-24 | File | `/HNAP1` | Low
-25 | File | `/kelasdosen/data` | High
-26 | File | `/Log/Query?appid=0B736354-9473-4D66-B9C0-15CAC149EB05&tabid=tab_0B73635494734D66B9C015CAC149EB05` | High
-27 | File | `/mc` | Low
-28 | File | `/news/*.html` | Medium
-29 | File | `/note/index/delete` | High
-30 | File | `/owa/auth/logon.aspx` | High
-31 | File | `/php-inventory-management-system/product.php` | High
-32 | File | `/php-sms/admin/?page=user/manage_user` | High
-33 | ... | ... | ...
+1 | File | `//proc/kcore` | Medium
+2 | File | `/?r=recruit/resume/edit&op=status` | High
+3 | File | `/admin/?page=user/manage_user&id=3` | High
+4 | File | `/admin/about-us.php` | High
+5 | File | `/admin/del_category.php` | High
+6 | File | `/admin/del_service.php` | High
+7 | File | `/admin/edit-accepted-appointment.php` | High
+8 | File | `/admin/edit-services.php` | High
+9 | File | `/admin/edit_category.php` | High
+10 | File | `/admin/forgot-password.php` | High
+11 | File | `/admin/index.php` | High
+12 | File | `/admin/reg.php` | High
+13 | File | `/admin/search-appointment.php` | High
+14 | File | `/admin/sys_sql_query.php` | High
+15 | File | `/api/baskets/{name}` | High
+16 | File | `/api/common/ping` | High
+17 | File | `/api/upload.php` | High
+18 | File | `/api?path=profile` | High
+19 | File | `/authenticationendpoint/login.do` | High
+20 | File | `/bin/ate` | Medium
+21 | File | `/blog` | Low
+22 | File | `/booking/show_bookings/` | High
+23 | File | `/cgi-bin/wlogin.cgi` | High
+24 | File | `/classes/Master.php?f=save_brand` | High
+25 | File | `/company/store` | High
+26 | File | `/concat?/%2557EB-INF/web.xml` | High
+27 | File | `/contact/store` | High
+28 | File | `/Controller/Ajaxfileupload.ashx` | High
+29 | File | `/debug/pprof` | Medium
+30 | File | `/dipam/athlete-profile.php` | High
+31 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
+32 | File | `/ecommerce/support_ticket` | High
+33 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+34 | File | `/env` | Low
+35 | File | `/etc/passwd` | Medium
+36 | File | `/EventBookingCalendar/load.php?controller=GzFront/action=checkout/cid=1/layout=calendar/show_header=T/local=3` | High
+37 | File | `/forum/away.php` | High
+38 | File | `/FuguHub/cmsdocs/` | High
+39 | File | `/goform/AdvSetLanip` | High
+40 | File | `/goform/fromSetWirelessRepeat` | High
+41 | File | `/goform/setMacFilterCfg` | High
+42 | File | `/goform/SetSysTimeCfg` | High
+43 | File | `/goform/WifiGuestSet` | High
+44 | File | `/graphql` | Medium
+45 | ... | ... | ...
 
-There are 279 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 388 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

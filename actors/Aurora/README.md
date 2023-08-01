@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [WF](https://vuldb.com/?country.wf)
 * ...
 
-There are 10 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -37,12 +37,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
-2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94 | Cross Site Scripting | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-94 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -61,30 +62,31 @@ ID | Type | Indicator | Confidence
 9 | File | `/opac/Actions.php?a=login` | High
 10 | File | `/opt/tms/bin/cli` | High
 11 | File | `/out.php` | Medium
-12 | File | `/spip.php` | Medium
-13 | File | `/var/log/nginx` | High
-14 | File | `/wp-admin/admin-ajax.php` | High
-15 | File | `action.php` | Medium
-16 | File | `actions/beats_uploader.php` | High
-17 | File | `actions/vote_channel.php` | High
-18 | File | `ad.cgi` | Low
-19 | File | `adclick.php` | Medium
-20 | File | `Admin/ADM_Pagina.php` | High
-21 | File | `admin/article.php` | High
-22 | File | `admin/dashboard.php` | High
-23 | File | `Admin/edit-admin.php` | High
-24 | File | `admin/partials/ajax/add_field_to_form.php` | High
-25 | File | `admin/show.php?rec=update` | High
-26 | File | `album.asp` | Medium
-27 | File | `allmanageup.pl` | High
-28 | File | `allow/block` | Medium
-29 | File | `AlUpdate.exe` | Medium
-30 | File | `amadmin.pl` | Medium
-31 | File | `app/admin/controller/api/Update.php` | High
-32 | File | `ashmem.c` | Medium
-33 | ... | ... | ...
+12 | File | `/settings/account` | High
+13 | File | `/spip.php` | Medium
+14 | File | `/var/log/nginx` | High
+15 | File | `/wp-admin/admin-ajax.php` | High
+16 | File | `action.php` | Medium
+17 | File | `actions/beats_uploader.php` | High
+18 | File | `actions/vote_channel.php` | High
+19 | File | `ad.cgi` | Low
+20 | File | `adclick.php` | Medium
+21 | File | `admin/admin.php` | High
+22 | File | `Admin/ADM_Pagina.php` | High
+23 | File | `admin/article.php` | High
+24 | File | `admin/dashboard.php` | High
+25 | File | `Admin/edit-admin.php` | High
+26 | File | `admin/partials/ajax/add_field_to_form.php` | High
+27 | File | `admin/show.php?rec=update` | High
+28 | File | `album.asp` | Medium
+29 | File | `allmanageup.pl` | High
+30 | File | `allow/block` | Medium
+31 | File | `AlUpdate.exe` | Medium
+32 | File | `amadmin.pl` | Medium
+33 | File | `app/admin/controller/api/Update.php` | High
+34 | ... | ... | ...
 
-There are 277 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 294 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

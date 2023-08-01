@@ -44,11 +44,11 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/crmeb/crmeb/services/UploadService.php` | High
-2 | File | `/s/` | Low
-3 | File | `AdminbaseController.class.php` | High
+2 | File | `/env` | Low
+3 | File | `/s/` | Low
 4 | ... | ... | ...
 
-There are 13 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 14 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

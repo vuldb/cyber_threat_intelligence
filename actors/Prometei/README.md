@@ -30,11 +30,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1059 | CWE-94 | Cross Site Scripting | High
-2 | T1059.007 | CWE-79 | Cross Site Scripting | High
+2 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 3 | T1068 | CWE-264, CWE-269 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 4 | ... | ... | ... | ...
 
-There are 5 more TTP items available. Please use our online service to access the data.
+There are 6 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -49,9 +49,10 @@ ID | Type | Indicator | Confidence
 5 | File | `/LogoStore/search.php` | High
 6 | File | `/mhds/clinic/view_details.php` | High
 7 | File | `/newsDia.php` | Medium
-8 | ... | ... | ...
+8 | File | `/out.php` | Medium
+9 | ... | ... | ...
 
-There are 59 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 63 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

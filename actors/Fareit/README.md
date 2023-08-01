@@ -85,22 +85,23 @@ ID | Type | Indicator | Confidence
 3 | File | `/api/v2/cli/commands` | High
 4 | File | `/app/Http/Controllers/Admin/NEditorController.php` | High
 5 | File | `/DXR.axd` | Medium
-6 | File | `/mgmt/tm/util/bash` | High
-7 | File | `/mifs/c/i/reg/reg.html` | High
-8 | File | `/owa/auth/logon.aspx` | High
-9 | File | `/secure/ViewCollectors` | High
-10 | File | `/Session` | Medium
-11 | File | `/spip.php` | Medium
-12 | File | `/xAdmin/html/cm_doclist_view_uc.jsp` | High
-13 | File | `/zm/index.php` | High
-14 | File | `adclick.php` | Medium
-15 | File | `add_comment.php` | High
-16 | File | `admin.jcomments.php` | High
-17 | File | `application/modules/admin/views/ecommerce/products.php` | High
-18 | File | `base/ErrorHandler.php` | High
-19 | ... | ... | ...
+6 | File | `/forum/away.php` | High
+7 | File | `/mgmt/tm/util/bash` | High
+8 | File | `/mifs/c/i/reg/reg.html` | High
+9 | File | `/owa/auth/logon.aspx` | High
+10 | File | `/secure/ViewCollectors` | High
+11 | File | `/Session` | Medium
+12 | File | `/spip.php` | Medium
+13 | File | `/xAdmin/html/cm_doclist_view_uc.jsp` | High
+14 | File | `/zm/index.php` | High
+15 | File | `adclick.php` | Medium
+16 | File | `add_comment.php` | High
+17 | File | `admin.jcomments.php` | High
+18 | File | `application/modules/admin/views/ecommerce/products.php` | High
+19 | File | `base/ErrorHandler.php` | High
+20 | ... | ... | ...
 
-There are 159 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 162 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

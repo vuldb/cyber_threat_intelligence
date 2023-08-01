@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with LimeRAT:
 
 * [US](https://vuldb.com/?country.us)
-* [BR](https://vuldb.com/?country.br)
-* [RU](https://vuldb.com/?country.ru)
+* [UA](https://vuldb.com/?country.ua)
+* [IN](https://vuldb.com/?country.in)
 * ...
 
-There are 13 more country items available. Please use our online service to access the data.
+There are 17 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -21,18 +21,23 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [3.22.30.40](https://vuldb.com/?ip.3.22.30.40) | ec2-3-22-30-40.us-east-2.compute.amazonaws.com | - | Medium
-2 | [3.124.142.205](https://vuldb.com/?ip.3.124.142.205) | ec2-3-124-142-205.eu-central-1.compute.amazonaws.com | - | Medium
-3 | [3.131.207.170](https://vuldb.com/?ip.3.131.207.170) | ec2-3-131-207-170.us-east-2.compute.amazonaws.com | - | Medium
-4 | [3.141.177.1](https://vuldb.com/?ip.3.141.177.1) | ec2-3-141-177-1.us-east-2.compute.amazonaws.com | - | Medium
-5 | [3.142.81.166](https://vuldb.com/?ip.3.142.81.166) | ec2-3-142-81-166.us-east-2.compute.amazonaws.com | - | Medium
-6 | [3.142.167.4](https://vuldb.com/?ip.3.142.167.4) | ec2-3-142-167-4.us-east-2.compute.amazonaws.com | - | Medium
-7 | [13.229.238.144](https://vuldb.com/?ip.13.229.238.144) | ec2-13-229-238-144.ap-southeast-1.compute.amazonaws.com | - | Medium
-8 | [20.199.13.167](https://vuldb.com/?ip.20.199.13.167) | - | - | High
-9 | [20.231.17.198](https://vuldb.com/?ip.20.231.17.198) | - | - | High
-10 | ... | ... | ... | ...
+1 | [2.56.212.39](https://vuldb.com/?ip.2.56.212.39) | ip-2-56-212-39-59599.vps.hosted-by-mvps.net | - | High
+2 | [3.17.7.232](https://vuldb.com/?ip.3.17.7.232) | ec2-3-17-7-232.us-east-2.compute.amazonaws.com | - | Medium
+3 | [3.22.30.40](https://vuldb.com/?ip.3.22.30.40) | ec2-3-22-30-40.us-east-2.compute.amazonaws.com | - | Medium
+4 | [3.124.142.205](https://vuldb.com/?ip.3.124.142.205) | ec2-3-124-142-205.eu-central-1.compute.amazonaws.com | - | Medium
+5 | [3.131.207.170](https://vuldb.com/?ip.3.131.207.170) | ec2-3-131-207-170.us-east-2.compute.amazonaws.com | - | Medium
+6 | [3.141.177.1](https://vuldb.com/?ip.3.141.177.1) | ec2-3-141-177-1.us-east-2.compute.amazonaws.com | - | Medium
+7 | [3.142.81.166](https://vuldb.com/?ip.3.142.81.166) | ec2-3-142-81-166.us-east-2.compute.amazonaws.com | - | Medium
+8 | [3.142.167.4](https://vuldb.com/?ip.3.142.167.4) | ec2-3-142-167-4.us-east-2.compute.amazonaws.com | - | Medium
+9 | [13.229.238.144](https://vuldb.com/?ip.13.229.238.144) | ec2-13-229-238-144.ap-southeast-1.compute.amazonaws.com | - | Medium
+10 | [20.199.13.167](https://vuldb.com/?ip.20.199.13.167) | - | - | High
+11 | [20.231.17.198](https://vuldb.com/?ip.20.231.17.198) | - | - | High
+12 | [27.3.162.17](https://vuldb.com/?ip.27.3.162.17) | - | - | High
+13 | [31.210.55.103](https://vuldb.com/?ip.31.210.55.103) | 31-210-55-103.hostlab.net.tr | - | High
+14 | [38.242.239.137](https://vuldb.com/?ip.38.242.239.137) | vmi1081127.contaboserver.net | - | High
+15 | ... | ... | ... | ...
 
-There are 37 more IOC items available. Please use our online service to access the data.
+There are 54 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -40,12 +45,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-29, CWE-36 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | ... | ... | ... | ...
+4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 12 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -53,23 +60,55 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/employeeview.php` | High
-2 | File | `/etc/config/image_sign` | High
-3 | File | `/etc/sudoers` | Medium
-4 | File | `/files/$username/Myfolder/Mysubfolder/shared.txt` | High
-5 | File | `/forum/away.php` | High
-6 | File | `/out.php` | Medium
-7 | File | `/spip.php` | Medium
-8 | File | `/uncpath/` | Medium
-9 | File | `/webman/info.cgi` | High
-10 | File | `/wp-admin/admin-ajax.php` | High
-11 | File | `adclick.php` | Medium
-12 | File | `addentry.php` | Medium
-13 | File | `adm.cgi` | Low
-14 | File | `admin/index.php` | High
-15 | ... | ... | ...
+1 | File | `.travis.yml` | Medium
+2 | File | `/admin/?n=logs&c=index&a=dode` | High
+3 | File | `/admin/?page=orders/manage_request` | High
+4 | File | `/admin/addbookmark.php` | High
+5 | File | `/admin/files` | Medium
+6 | File | `/admin/update_s6.php` | High
+7 | File | `/admin/users/index.php` | High
+8 | File | `/alphaware/details.php` | High
+9 | File | `/api/v2/cli/commands` | High
+10 | File | `/api/ZRQos/set_online_client` | High
+11 | File | `/articles/welcome-to-your-site#comments-head` | High
+12 | File | `/batm/app/admin/standalone/deployments` | High
+13 | File | `/binbloom-master/src/helpers.c` | High
+14 | File | `/boafrm/formHomeWlanSetup` | High
+15 | File | `/cgi-bin/kerbynet` | High
+16 | File | `/ci_hms/massage_room/edit/1` | High
+17 | File | `/classes/Master.php?f=delete_reservation` | High
+18 | File | `/core/kernels/ctc_decoder_ops.cc` | High
+19 | File | `/crmeb/app/admin/controller/store/CopyTaobao.php` | High
+20 | File | `/dashboard/settings` | High
+21 | File | `/dashboard/system/express/entities/forms/save_control/[GUID]` | High
+22 | File | `/dev/dri/card1` | High
+23 | File | `/diagnostic/login.php` | High
+24 | File | `/ecrire/tools/blogroll/index.php` | High
+25 | File | `/employeeview.php` | High
+26 | File | `/enterprise/www/student.php` | High
+27 | File | `/etc/config/image_sign` | High
+28 | File | `/etc/sudoers` | Medium
+29 | File | `/files/$username/Myfolder/Mysubfolder/shared.txt` | High
+30 | File | `/forum/away.php` | High
+31 | File | `/garage/editclient.php` | High
+32 | File | `/gasmark/assets/myimages/oneWord.php` | High
+33 | File | `/hocms/classes/Master.php?f=delete_phase` | High
+34 | File | `/hrm/controller/employee.php` | High
+35 | File | `/index.php` | Medium
+36 | File | `/lam/tmp/` | Medium
+37 | File | `/ManageRoute/postRoute` | High
+38 | File | `/mkshop/Men/profile.php` | High
+39 | File | `/newVersion` | Medium
+40 | File | `/onlineordering/GPST/admin/design.php` | High
+41 | File | `/out.php` | Medium
+42 | File | `/PC/WebService.asmx` | High
+43 | File | `/preauth` | Medium
+44 | File | `/search.php` | Medium
+45 | File | `/Source/C++/Core/Ap4DataBuffer.cpp` | High
+46 | File | `/spip.php` | Medium
+47 | ... | ... | ...
 
-There are 120 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 403 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -42,7 +42,8 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
-4 | ... | ... | ... | ...
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
 There are 14 more TTP items available. Please use our online service to access the data.
 
@@ -55,19 +56,20 @@ ID | Type | Indicator | Confidence
 1 | File | `/+CSCOE+/logon.html` | High
 2 | File | `/addnews.html` | High
 3 | File | `/admin/system/database/filedown.php` | High
-4 | File | `/bin/boa` | Medium
-5 | File | `/cgi-bin/cstecgi.cgi` | High
-6 | File | `/cgi-bin/upload_vpntar` | High
-7 | File | `/cgi-bin/user/Config.cgi` | High
-8 | File | `/lan.asp` | Medium
-9 | File | `/MTFWU` | Low
-10 | File | `/network_test.php` | High
-11 | File | `/okm:root` | Medium
-12 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-13 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-14 | ... | ... | ...
+4 | File | `/api/baskets/{name}` | High
+5 | File | `/bin/boa` | Medium
+6 | File | `/bin/protest` | Medium
+7 | File | `/cgi-bin/cstecgi.cgi` | High
+8 | File | `/cgi-bin/ExportSettings.sh` | High
+9 | File | `/cgi-bin/upload_vpntar` | High
+10 | File | `/cgi-bin/user/Config.cgi` | High
+11 | File | `/getcfg.php` | Medium
+12 | File | `/HNAP1` | Low
+13 | File | `/htdocs/web/getcfg.php` | High
+14 | File | `/lan.asp` | Medium
+15 | ... | ... | ...
 
-There are 106 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 120 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

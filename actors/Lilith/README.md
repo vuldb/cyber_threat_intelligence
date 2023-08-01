@@ -8,8 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Lilith:
 
-* [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
+* [CN](https://vuldb.com/?country.cn)
+* [US](https://vuldb.com/?country.us)
+* ...
+
+There are 2 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -18,6 +22,11 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [31.13.195.81](https://vuldb.com/?ip.31.13.195.81) | - | - | High
+2 | [45.9.148.203](https://vuldb.com/?ip.45.9.148.203) | - | - | High
+3 | [77.73.133.12](https://vuldb.com/?ip.77.73.133.12) | - | - | High
+4 | ... | ... | ... | ...
+
+There are 2 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -25,12 +34,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1055 | CWE-74 | Injection | High
-2 | T1059.007 | CWE-79 | Cross Site Scripting | High
-3 | T1068 | CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-425 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 5 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -38,14 +48,33 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin.php/pic/admin/pic/del` | High
-2 | File | `phrases/add/` | Medium
-3 | Argument | `id` | Low
+1 | File | `/admin.php/admin/art/data.html` | High
+2 | File | `/admin.php/pic/admin/pic/del` | High
+3 | File | `/ajax.php?action=read_msg` | High
+4 | File | `/debug/pprof` | Medium
+5 | File | `/env` | Low
+6 | File | `/forum/away.php` | High
+7 | File | `/goform/SetNetControlList` | High
+8 | File | `/librarian/bookdetails.php` | High
+9 | File | `/ptipupgrade.cgi` | High
+10 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+11 | File | `/src/chatbotapp/chatWindow.java` | High
+12 | File | `/staff/bookdetails.php` | High
+13 | File | `about.php` | Medium
+14 | File | `admin.color.php` | High
+15 | File | `admin/addons/archive/archive.php` | High
+16 | File | `admin/categories_industry.php` | High
+17 | File | `admin/content/postcategory` | High
+18 | File | `admincp/auth/secure.php` | High
+19 | ... | ... | ...
+
+There are 160 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://github.com/threatlabz/iocs/blob/main/lilithbot/c2s.txt
 * https://tracker.viriback.com/index.php?q=31.13.195.81
 
 ## Literature

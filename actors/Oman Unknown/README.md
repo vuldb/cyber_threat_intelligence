@@ -100,10 +100,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
-2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
 
@@ -125,13 +126,13 @@ ID | Type | Indicator | Confidence
 10 | File | `/cgi-bin/webproc` | High
 11 | File | `/etc/passwd` | Medium
 12 | File | `/inc/extensions.php` | High
-13 | File | `/login.php` | Medium
-14 | File | `/relax-order-checks` | High
-15 | File | `/ueditor/net/controller.ashx?action=catchimage` | High
-16 | File | `/uncpath/` | Medium
+13 | File | `/index.php/client/message/message_read/xxxxxxxx[random-msg-hash]` | High
+14 | File | `/login.php` | Medium
+15 | File | `/relax-order-checks` | High
+16 | File | `/ueditor/net/controller.ashx?action=catchimage` | High
 17 | ... | ... | ...
 
-There are 133 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 142 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

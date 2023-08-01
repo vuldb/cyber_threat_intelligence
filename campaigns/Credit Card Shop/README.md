@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 17 more country items available. Please use our online service to access the data.
+There are 18 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -56,7 +56,7 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-28 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -71,49 +71,50 @@ ID | Type | Indicator | Confidence
 1 | File | `/?ajax-request=jnews` | High
 2 | File | `/?p=products` | Medium
 3 | File | `/about.php` | Medium
-4 | File | `/addNotifyServlet` | High
-5 | File | `/admin.php/accessory/filesdel.html` | High
-6 | File | `/admin/?page=user/manage` | High
-7 | File | `/admin/add-new.php` | High
-8 | File | `/admin/doctors.php` | High
-9 | File | `/admin/login.php` | High
-10 | File | `/admin/submit-articles` | High
-11 | File | `/ad_js.php` | Medium
-12 | File | `/alphaware/summary.php` | High
-13 | File | `/api/` | Low
-14 | File | `/api/admin/store/product/list` | High
-15 | File | `/api/stl/actions/search` | High
-16 | File | `/api/v2/cli/commands` | High
-17 | File | `/attachments` | Medium
+4 | File | `/admin.php/accessory/filesdel.html` | High
+5 | File | `/admin/?page=user/manage` | High
+6 | File | `/admin/add-new.php` | High
+7 | File | `/admin/doctors.php` | High
+8 | File | `/admin/login.php` | High
+9 | File | `/admin/submit-articles` | High
+10 | File | `/ad_js.php` | Medium
+11 | File | `/alphaware/summary.php` | High
+12 | File | `/api/` | Low
+13 | File | `/api/admin/store/product/list` | High
+14 | File | `/api/stl/actions/search` | High
+15 | File | `/api/v2/cli/commands` | High
+16 | File | `/attachments` | Medium
+17 | File | `/bin/ate` | Medium
 18 | File | `/boat/login.php` | High
-19 | File | `/bsms_ci/index.php/book` | High
-20 | File | `/cgi-bin` | Medium
-21 | File | `/cgi-bin/luci/api/wireless` | High
-22 | File | `/cgi-bin/wlogin.cgi` | High
-23 | File | `/classes/Users.php` | High
-24 | File | `/confirm` | Medium
-25 | File | `/context/%2e/WEB-INF/web.xml` | High
-26 | File | `/dashboard/reports/logs/view` | High
+19 | File | `/booking/show_bookings/` | High
+20 | File | `/bsms_ci/index.php/book` | High
+21 | File | `/cgi-bin` | Medium
+22 | File | `/cgi-bin/luci/api/wireless` | High
+23 | File | `/cgi-bin/wlogin.cgi` | High
+24 | File | `/classes/Users.php` | High
+25 | File | `/confirm` | Medium
+26 | File | `/context/%2e/WEB-INF/web.xml` | High
 27 | File | `/debian/patches/load_ppp_generic_if_needed` | High
 28 | File | `/debug/pprof` | Medium
-29 | File | `/etc/hosts` | Medium
-30 | File | `/forum/away.php` | High
-31 | File | `/goform/setmac` | High
-32 | File | `/goform/wizard_end` | High
-33 | File | `/manage-apartment.php` | High
-34 | File | `/medicines/profile.php` | High
-35 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-36 | File | `/out.php` | Medium
-37 | File | `/pages/apply_vacancy.php` | High
-38 | File | `/pms/update_patient.php` | High
-39 | File | `/proc/<PID>/mem` | High
-40 | File | `/proxy` | Low
-41 | File | `/reservation/add_message.php` | High
-42 | File | `/secure/ViewCollectors` | High
-43 | File | `/Session` | Medium
-44 | ... | ... | ...
+29 | File | `/env` | Low
+30 | File | `/etc/hosts` | Medium
+31 | File | `/forum/away.php` | High
+32 | File | `/goform/setmac` | High
+33 | File | `/goform/wizard_end` | High
+34 | File | `/manage-apartment.php` | High
+35 | File | `/medicines/profile.php` | High
+36 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+37 | File | `/out.php` | Medium
+38 | File | `/pages/apply_vacancy.php` | High
+39 | File | `/php-sms/admin/?page=user/manage_user` | High
+40 | File | `/pms/update_patient.php` | High
+41 | File | `/preview.php` | Medium
+42 | File | `/proxy` | Low
+43 | File | `/reservation/add_message.php` | High
+44 | File | `/resources//../` | High
+45 | ... | ... | ...
 
-There are 381 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 391 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

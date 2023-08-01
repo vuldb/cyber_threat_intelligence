@@ -8,8 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with MsraMiner:
 
-* [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
+* [US](https://vuldb.com/?country.us)
+* [VN](https://vuldb.com/?country.vn)
+* ...
+
+There are 9 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -17,7 +21,14 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [107.191.61.152](https://vuldb.com/?ip.107.191.61.152) | 107.191.61.152.vultrusercontent.com | - | High
+1 | [45.32.48.160](https://vuldb.com/?ip.45.32.48.160) | 45.32.48.160.vultrusercontent.com | - | High
+2 | [45.32.51.130](https://vuldb.com/?ip.45.32.51.130) | 45.32.51.130.vultrusercontent.com | - | High
+3 | [45.32.110.163](https://vuldb.com/?ip.45.32.110.163) | 45.32.110.163.vultrusercontent.com | - | High
+4 | [45.32.121.95](https://vuldb.com/?ip.45.32.121.95) | 45.32.121.95.vultrusercontent.com | - | High
+5 | [45.32.127.108](https://vuldb.com/?ip.45.32.127.108) | 45.32.127.108.vultrusercontent.com | - | High
+6 | ... | ... | ... | ...
+
+There are 22 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -25,12 +36,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-22, CWE-24 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | ... | ... | ... | ...
+4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 10 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -38,12 +50,32 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/cgi-mod/lookup.cgi` | High
-2 | File | `application\api\controller\User.php` | High
-3 | File | `drivers/acpi/acpi_configfs.c` | High
-4 | ... | ... | ...
+1 | File | `/+CSCOE+/logon.html` | High
+2 | File | `/admin` | Low
+3 | File | `/admin/update_s6.php` | High
+4 | File | `/baseOpLog.do` | High
+5 | File | `/category_view.php` | High
+6 | File | `/cgi-mod/lookup.cgi` | High
+7 | File | `/domains/list` | High
+8 | File | `/forum/away.php` | High
+9 | File | `/getcfg.php` | Medium
+10 | File | `/goform/SystemCommand` | High
+11 | File | `/group1/uploa` | High
+12 | File | `/index.php` | Medium
+13 | File | `/jeecg-boot/sys/common/upload` | High
+14 | File | `/out.php` | Medium
+15 | File | `/owa/auth/logon.aspx` | High
+16 | File | `/proc/ioports` | High
+17 | File | `/rest/api/1.0/render` | High
+18 | File | `/rest/collectors/1.0/template/custom` | High
+19 | File | `/rom-0` | Low
+20 | File | `/scdmz.cmd` | Medium
+21 | File | `/ui/artifactimport/upload` | High
+22 | File | `/updown/upload.cgi` | High
+23 | File | `4.2.0.CP03` | Medium
+24 | ... | ... | ...
 
-There are 21 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 202 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 3 more country items available. Please use our online service to access the data.
+There are 4 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -49,12 +49,13 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
 2 | File | `/debug/pprof` | Medium
-3 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-4 | File | `/public/launchNewWindow.jsp` | High
-5 | File | `/rapi/read_url` | High
-6 | ... | ... | ...
+3 | File | `/h/` | Low
+4 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+5 | File | `/public/launchNewWindow.jsp` | High
+6 | File | `/rapi/read_url` | High
+7 | ... | ... | ...
 
-There are 40 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 45 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

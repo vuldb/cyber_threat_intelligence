@@ -9,6 +9,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Campaign A:
 
 * [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
 
 ## Actors
 
@@ -66,21 +67,21 @@ ID | Type | Indicator | Confidence
 8 | File | `admin.php` | Medium
 9 | File | `admin/member_details.php` | High
 10 | File | `admin_chatconfig.php` | High
-11 | File | `ajaxp.php` | Medium
-12 | File | `alphabet.php` | Medium
-13 | File | `app/controllers/oauth.js` | High
-14 | File | `article2/comments.inc.php` | High
-15 | File | `articles/edit.php` | High
-16 | File | `assp.pl` | Low
-17 | File | `be_config.php` | High
-18 | File | `bridge/yabbse.inc.php` | High
-19 | File | `calendar_Eventupdate.asp` | High
-20 | File | `cal_week.php` | Medium
-21 | File | `close_bug.php` | High
-22 | File | `components/minibb/index.php` | High
+11 | File | `admin_iplog.php` | High
+12 | File | `ajaxp.php` | Medium
+13 | File | `alphabet.php` | Medium
+14 | File | `app/controllers/oauth.js` | High
+15 | File | `article2/comments.inc.php` | High
+16 | File | `articles/edit.php` | High
+17 | File | `assp.pl` | Low
+18 | File | `be_config.php` | High
+19 | File | `bridge/yabbse.inc.php` | High
+20 | File | `calendar_Eventupdate.asp` | High
+21 | File | `cal_week.php` | Medium
+22 | File | `close_bug.php` | High
 23 | ... | ... | ...
 
-There are 187 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 194 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

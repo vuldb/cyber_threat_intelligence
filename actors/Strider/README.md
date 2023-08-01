@@ -14,12 +14,12 @@ The following _campaigns_ are known and can be associated with Strider:
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Strider:
 
-* [US](https://vuldb.com/?country.us)
 * [IT](https://vuldb.com/?country.it)
+* [US](https://vuldb.com/?country.us)
 * [DE](https://vuldb.com/?country.de)
 * ...
 
-There are 5 more country items available. Please use our online service to access the data.
+There are 6 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -59,7 +59,7 @@ ID | Type | Indicator | Confidence
 4 | File | `C:\Windows\SysWOW64\webcenter\web.exe` | High
 5 | ... | ... | ...
 
-There are 25 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 27 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

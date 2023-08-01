@@ -38,7 +38,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1068 | CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 4 | ... | ... | ... | ...
 
-There are 7 more TTP items available. Please use our online service to access the data.
+There are 8 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -51,7 +51,7 @@ ID | Type | Indicator | Confidence
 3 | File | `DIAE_HandlerAlarmGroup.ashx` | High
 4 | ... | ... | ...
 
-There are 16 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 17 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

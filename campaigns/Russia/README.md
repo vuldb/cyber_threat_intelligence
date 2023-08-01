@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Russia:
 
-* [VN](https://vuldb.com/?country.vn)
 * [US](https://vuldb.com/?country.us)
-* [CN](https://vuldb.com/?country.cn)
+* [JP](https://vuldb.com/?country.jp)
+* [VN](https://vuldb.com/?country.vn)
 * ...
 
-There are 13 more country items available. Please use our online service to access the data.
+There are 24 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -2846,476 +2846,476 @@ ID | IP address | Hostname | Actor | Confidence
 2810 | [72.21.44.9](https://vuldb.com/?ip.72.21.44.9) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
 2811 | [72.251.244.16](https://vuldb.com/?ip.72.251.244.16) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
 2812 | [74.50.0.0](https://vuldb.com/?ip.74.50.0.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-2813 | [74.119.38.0](https://vuldb.com/?ip.74.119.38.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-2814 | [74.125.14.0](https://vuldb.com/?ip.74.125.14.0) | svo50s01-in-f0.1e100.net | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-2815 | [74.125.61.176](https://vuldb.com/?ip.74.125.61.176) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-2816 | [74.125.110.192](https://vuldb.com/?ip.74.125.110.192) | svo07s15-in-f0.1e100.net | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-2817 | [74.125.111.192](https://vuldb.com/?ip.74.125.111.192) | svo04s40-in-f0.1e100.net | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-2818 | [74.220.207.61](https://vuldb.com/?ip.74.220.207.61) | host61.hostmonster.com | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-2819 | [77.34.0.0](https://vuldb.com/?ip.77.34.0.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-2820 | [77.37.128.0](https://vuldb.com/?ip.77.37.128.0) | broadband-77-37-128-0.ip.moscow.rt.ru | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-2821 | [77.37.160.0](https://vuldb.com/?ip.77.37.160.0) | broadband-77-37-160-0.ip.moscow.rt.ru | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-2822 | [77.37.172.0](https://vuldb.com/?ip.77.37.172.0) | broadband-77-37-172-0.ip.moscow.rt.ru | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-2823 | [77.37.176.0](https://vuldb.com/?ip.77.37.176.0) | broadband-77-37-176-0.ip.moscow.rt.ru | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-2824 | [77.37.192.0](https://vuldb.com/?ip.77.37.192.0) | broadband-77-37-192-0.ip.moscow.rt.ru | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-2825 | [77.39.0.0](https://vuldb.com/?ip.77.39.0.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-2826 | [77.40.0.0](https://vuldb.com/?ip.77.40.0.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-2827 | [77.41.0.0](https://vuldb.com/?ip.77.41.0.0) | host-77-41-0-0.qwerty.ru | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-2828 | [77.43.128.0](https://vuldb.com/?ip.77.43.128.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-2829 | [77.45.128.0](https://vuldb.com/?ip.77.45.128.0) | 0.128.c10008-a77.dsl-dynamic.vsi.ru | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-2830 | [77.50.0.0](https://vuldb.com/?ip.77.50.0.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-2831 | [77.66.128.0](https://vuldb.com/?ip.77.66.128.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-2832 | [77.72.16.0](https://vuldb.com/?ip.77.72.16.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-2833 | [77.72.83.0](https://vuldb.com/?ip.77.72.83.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-2834 | [77.72.85.0](https://vuldb.com/?ip.77.72.85.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-2835 | [77.72.86.0](https://vuldb.com/?ip.77.72.86.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-2836 | [77.72.120.0](https://vuldb.com/?ip.77.72.120.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-2837 | [77.72.136.0](https://vuldb.com/?ip.77.72.136.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-2838 | [77.72.240.0](https://vuldb.com/?ip.77.72.240.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-2839 | [77.73.24.0](https://vuldb.com/?ip.77.73.24.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-2840 | [77.73.48.0](https://vuldb.com/?ip.77.73.48.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-2841 | [77.73.64.0](https://vuldb.com/?ip.77.73.64.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-2842 | [77.73.68.0](https://vuldb.com/?ip.77.73.68.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-2843 | [77.73.70.0](https://vuldb.com/?ip.77.73.70.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-2844 | [77.73.88.0](https://vuldb.com/?ip.77.73.88.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-2845 | [77.73.111.0](https://vuldb.com/?ip.77.73.111.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-2846 | [77.73.128.0](https://vuldb.com/?ip.77.73.128.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-2847 | [77.73.136.0](https://vuldb.com/?ip.77.73.136.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-2848 | [77.73.232.0](https://vuldb.com/?ip.77.73.232.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-2849 | [77.74.8.0](https://vuldb.com/?ip.77.74.8.0) | ip-8-0.byte-city.ru | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-2850 | [77.74.24.0](https://vuldb.com/?ip.77.74.24.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-2851 | [77.74.72.0](https://vuldb.com/?ip.77.74.72.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-2852 | [77.74.176.0](https://vuldb.com/?ip.77.74.176.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-2853 | [77.74.180.0](https://vuldb.com/?ip.77.74.180.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-2854 | [77.74.182.0](https://vuldb.com/?ip.77.74.182.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-2855 | [77.74.184.0](https://vuldb.com/?ip.77.74.184.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-2856 | [77.75.0.0](https://vuldb.com/?ip.77.75.0.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-2857 | [77.75.128.0](https://vuldb.com/?ip.77.75.128.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-2858 | [77.75.152.0](https://vuldb.com/?ip.77.75.152.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-2859 | [77.75.168.0](https://vuldb.com/?ip.77.75.168.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-2860 | [77.79.128.0](https://vuldb.com/?ip.77.79.128.0) | 77.79.128.0.dynamic.neft.ufanet.ru | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-2861 | [77.81.5.0](https://vuldb.com/?ip.77.81.5.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-2862 | [77.82.0.0](https://vuldb.com/?ip.77.82.0.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-2863 | [77.83.0.0](https://vuldb.com/?ip.77.83.0.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-2864 | [77.83.2.0](https://vuldb.com/?ip.77.83.2.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-2865 | [77.83.3.0](https://vuldb.com/?ip.77.83.3.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-2866 | [77.83.4.0](https://vuldb.com/?ip.77.83.4.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-2867 | [77.83.8.0](https://vuldb.com/?ip.77.83.8.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-2868 | [77.83.16.0](https://vuldb.com/?ip.77.83.16.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-2869 | [77.83.24.0](https://vuldb.com/?ip.77.83.24.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-2870 | [77.83.48.0](https://vuldb.com/?ip.77.83.48.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-2871 | [77.83.50.0](https://vuldb.com/?ip.77.83.50.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-2872 | [77.83.52.0](https://vuldb.com/?ip.77.83.52.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-2873 | [77.83.72.0](https://vuldb.com/?ip.77.83.72.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-2874 | [77.83.80.0](https://vuldb.com/?ip.77.83.80.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-2875 | [77.83.83.0](https://vuldb.com/?ip.77.83.83.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-2876 | [77.83.84.0](https://vuldb.com/?ip.77.83.84.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-2877 | [77.83.92.0](https://vuldb.com/?ip.77.83.92.0) | subnet.ptr.sbcloud.ru | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-2878 | [77.83.94.0](https://vuldb.com/?ip.77.83.94.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-2879 | [77.83.116.0](https://vuldb.com/?ip.77.83.116.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-2880 | [77.83.117.0](https://vuldb.com/?ip.77.83.117.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-2881 | [77.83.118.0](https://vuldb.com/?ip.77.83.118.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-2882 | [77.83.148.0](https://vuldb.com/?ip.77.83.148.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-2883 | [77.83.150.0](https://vuldb.com/?ip.77.83.150.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-2884 | [77.83.152.0](https://vuldb.com/?ip.77.83.152.0) | spd.net.tr | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-2885 | [77.83.163.0](https://vuldb.com/?ip.77.83.163.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-2886 | [77.83.192.0](https://vuldb.com/?ip.77.83.192.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-2887 | [77.83.204.0](https://vuldb.com/?ip.77.83.204.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-2888 | [77.83.244.0](https://vuldb.com/?ip.77.83.244.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-2889 | [77.83.246.0](https://vuldb.com/?ip.77.83.246.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-2890 | [77.87.64.0](https://vuldb.com/?ip.77.87.64.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-2891 | [77.87.80.0](https://vuldb.com/?ip.77.87.80.0) | 0-80-87-77.omsk.mts.ru | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-2892 | [77.87.96.0](https://vuldb.com/?ip.77.87.96.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-2893 | [77.87.112.0](https://vuldb.com/?ip.77.87.112.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-2894 | [77.87.124.0](https://vuldb.com/?ip.77.87.124.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-2895 | [77.87.168.0](https://vuldb.com/?ip.77.87.168.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-2896 | [77.87.200.0](https://vuldb.com/?ip.77.87.200.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-2897 | [77.87.208.0](https://vuldb.com/?ip.77.87.208.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-2898 | [77.88.0.0](https://vuldb.com/?ip.77.88.0.0) | net-spb-vlan443.yandex.net | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-2899 | [77.88.4.0](https://vuldb.com/?ip.77.88.4.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-2900 | [77.88.6.0](https://vuldb.com/?ip.77.88.6.0) | shalanda-lo2.yndx.net | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-2901 | [77.88.6.4](https://vuldb.com/?ip.77.88.6.4) | longliner-lo2.yndx.net | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-2902 | [77.88.6.6](https://vuldb.com/?ip.77.88.6.6) | seiner-lo2.yndx.net | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-2903 | [77.88.6.8](https://vuldb.com/?ip.77.88.6.8) | raft-lo2.yndx.net | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-2904 | [77.88.6.10](https://vuldb.com/?ip.77.88.6.10) | drifter-lo2.yndx.net | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-2905 | [77.88.6.12](https://vuldb.com/?ip.77.88.6.12) | m9-rc1-lo2.yndx.net | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-2906 | [77.88.6.16](https://vuldb.com/?ip.77.88.6.16) | frigate-lo2.yndx.net | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-2907 | [77.88.6.32](https://vuldb.com/?ip.77.88.6.32) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-2908 | [77.88.6.64](https://vuldb.com/?ip.77.88.6.64) | drifter-lo42.yndx.net | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-2909 | [77.88.6.128](https://vuldb.com/?ip.77.88.6.128) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-2910 | [77.88.7.0](https://vuldb.com/?ip.77.88.7.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-2911 | [77.88.8.0](https://vuldb.com/?ip.77.88.8.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-2912 | [77.88.10.0](https://vuldb.com/?ip.77.88.10.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-2913 | [77.88.12.0](https://vuldb.com/?ip.77.88.12.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-2914 | [77.88.16.0](https://vuldb.com/?ip.77.88.16.0) | net-red-vlan443.yandex.net | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-2915 | [77.88.20.0](https://vuldb.com/?ip.77.88.20.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-2916 | [77.88.22.0](https://vuldb.com/?ip.77.88.22.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-2917 | [77.88.24.0](https://vuldb.com/?ip.77.88.24.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-2918 | [77.88.25.0](https://vuldb.com/?ip.77.88.25.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-2919 | [77.88.26.0](https://vuldb.com/?ip.77.88.26.0) | net-spb-vlan443.yandex.net | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-2920 | [77.88.28.0](https://vuldb.com/?ip.77.88.28.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-2921 | [77.88.32.0](https://vuldb.com/?ip.77.88.32.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-2922 | [77.88.40.0](https://vuldb.com/?ip.77.88.40.0) | net-sas-vlan411.yandex.net | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-2923 | [77.88.44.0](https://vuldb.com/?ip.77.88.44.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-2924 | [77.88.45.0](https://vuldb.com/?ip.77.88.45.0) | barkas-ipsec2.yndx.net | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-2925 | [77.88.47.0](https://vuldb.com/?ip.77.88.47.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-2926 | [77.88.49.0](https://vuldb.com/?ip.77.88.49.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-2927 | [77.88.50.0](https://vuldb.com/?ip.77.88.50.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-2928 | [77.88.50.128](https://vuldb.com/?ip.77.88.50.128) | net-man-vlan2697.yandex.net | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-2929 | [77.88.50.144](https://vuldb.com/?ip.77.88.50.144) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-2930 | [77.88.50.152](https://vuldb.com/?ip.77.88.50.152) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-2931 | [77.88.50.168](https://vuldb.com/?ip.77.88.50.168) | jangada-ipsec654.yndx.net | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-2932 | [77.88.50.176](https://vuldb.com/?ip.77.88.50.176) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-2933 | [77.88.50.192](https://vuldb.com/?ip.77.88.50.192) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-2934 | [77.88.50.208](https://vuldb.com/?ip.77.88.50.208) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-2935 | [77.88.50.224](https://vuldb.com/?ip.77.88.50.224) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-2936 | [77.88.50.240](https://vuldb.com/?ip.77.88.50.240) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-2937 | [77.88.51.0](https://vuldb.com/?ip.77.88.51.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-2938 | [77.88.52.0](https://vuldb.com/?ip.77.88.52.0) | net-red-vlan600.yandex.net | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-2939 | [77.88.54.0](https://vuldb.com/?ip.77.88.54.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-2940 | [77.88.56.0](https://vuldb.com/?ip.77.88.56.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-2941 | [77.88.56.160](https://vuldb.com/?ip.77.88.56.160) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-2942 | [77.88.56.192](https://vuldb.com/?ip.77.88.56.192) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-2943 | [77.88.58.0](https://vuldb.com/?ip.77.88.58.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-2944 | [77.88.60.0](https://vuldb.com/?ip.77.88.60.0) | vobla.yndx.net | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-2945 | [77.90.184.0](https://vuldb.com/?ip.77.90.184.0) | centbox.afx6.net | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-2946 | [77.90.189.0](https://vuldb.com/?ip.77.90.189.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-2947 | [77.91.64.0](https://vuldb.com/?ip.77.91.64.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-2948 | [77.91.66.0](https://vuldb.com/?ip.77.91.66.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-2949 | [77.91.68.0](https://vuldb.com/?ip.77.91.68.0) | hosted-by.yeezyhost.net | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-2950 | [77.91.70.0](https://vuldb.com/?ip.77.91.70.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-2951 | [77.91.76.0](https://vuldb.com/?ip.77.91.76.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-2952 | [77.91.78.0](https://vuldb.com/?ip.77.91.78.0) | swell-scene.aeza.network | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-2953 | [77.91.80.0](https://vuldb.com/?ip.77.91.80.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-2954 | [77.91.96.0](https://vuldb.com/?ip.77.91.96.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-2955 | [77.91.97.0](https://vuldb.com/?ip.77.91.97.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-2956 | [77.91.98.0](https://vuldb.com/?ip.77.91.98.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-2957 | [77.91.104.0](https://vuldb.com/?ip.77.91.104.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-2958 | [77.91.113.0](https://vuldb.com/?ip.77.91.113.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-2959 | [77.91.114.0](https://vuldb.com/?ip.77.91.114.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-2960 | [77.91.116.0](https://vuldb.com/?ip.77.91.116.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-2961 | [77.91.120.0](https://vuldb.com/?ip.77.91.120.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-2962 | [77.91.125.0](https://vuldb.com/?ip.77.91.125.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-2963 | [77.91.192.0](https://vuldb.com/?ip.77.91.192.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-2964 | [77.91.224.0](https://vuldb.com/?ip.77.91.224.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-2965 | [77.93.96.0](https://vuldb.com/?ip.77.93.96.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-2966 | [77.94.0.0](https://vuldb.com/?ip.77.94.0.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-2967 | [77.94.2.0](https://vuldb.com/?ip.77.94.2.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-2968 | [77.94.42.0](https://vuldb.com/?ip.77.94.42.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-2969 | [77.94.43.0](https://vuldb.com/?ip.77.94.43.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-2970 | [77.94.96.0](https://vuldb.com/?ip.77.94.96.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-2971 | [77.94.160.0](https://vuldb.com/?ip.77.94.160.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-2972 | [77.94.192.0](https://vuldb.com/?ip.77.94.192.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-2973 | [77.95.8.0](https://vuldb.com/?ip.77.95.8.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-2974 | [77.95.16.0](https://vuldb.com/?ip.77.95.16.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-2975 | [77.95.20.0](https://vuldb.com/?ip.77.95.20.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-2976 | [77.95.88.0](https://vuldb.com/?ip.77.95.88.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-2977 | [77.95.128.0](https://vuldb.com/?ip.77.95.128.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-2978 | [77.95.200.0](https://vuldb.com/?ip.77.95.200.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-2979 | [77.105.128.0](https://vuldb.com/?ip.77.105.128.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-2980 | [77.105.144.0](https://vuldb.com/?ip.77.105.144.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-2981 | [77.105.160.0](https://vuldb.com/?ip.77.105.160.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-2982 | [77.106.0.0](https://vuldb.com/?ip.77.106.0.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-2983 | [77.106.192.0](https://vuldb.com/?ip.77.106.192.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-2984 | [77.108.64.0](https://vuldb.com/?ip.77.108.64.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-2985 | [77.108.192.0](https://vuldb.com/?ip.77.108.192.0) | start-192.ptcomm.ru | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-2986 | [77.109.65.0](https://vuldb.com/?ip.77.109.65.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-2987 | [77.109.85.0](https://vuldb.com/?ip.77.109.85.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-2988 | [77.109.85.16](https://vuldb.com/?ip.77.109.85.16) | 77.109.85.16.static.edpnet.net | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-2989 | [77.109.85.24](https://vuldb.com/?ip.77.109.85.24) | 77.109.85.24.static.edpnet.net | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-2990 | [77.109.85.28](https://vuldb.com/?ip.77.109.85.28) | 77.109.85.28.static.edpnet.net | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-2991 | [77.109.85.31](https://vuldb.com/?ip.77.109.85.31) | 77.109.85.31.static.edpnet.net | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-2992 | [77.109.85.32](https://vuldb.com/?ip.77.109.85.32) | 77.109.85.32.static.edpnet.net | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-2993 | [77.109.85.64](https://vuldb.com/?ip.77.109.85.64) | 77.109.85.64.static.edpnet.net | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-2994 | [77.109.85.128](https://vuldb.com/?ip.77.109.85.128) | 77.109.85.128.static.edpnet.net | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-2995 | [77.109.85.144](https://vuldb.com/?ip.77.109.85.144) | 77.109.85.144.static.edpnet.net | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-2996 | [77.109.85.152](https://vuldb.com/?ip.77.109.85.152) | 77.109.85.152.static.edpnet.net | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-2997 | [77.109.85.156](https://vuldb.com/?ip.77.109.85.156) | 77.109.85.156.static.edpnet.net | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-2998 | [77.109.85.158](https://vuldb.com/?ip.77.109.85.158) | 77.109.85.158.static.edpnet.net | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-2999 | [77.109.85.160](https://vuldb.com/?ip.77.109.85.160) | 77.109.85.160.static.edpnet.net | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3000 | [77.109.85.192](https://vuldb.com/?ip.77.109.85.192) | 77.109.85.192.static.edpnet.net | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3001 | [77.109.85.208](https://vuldb.com/?ip.77.109.85.208) | 77.109.85.208.static.edpnet.net | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3002 | [77.109.85.213](https://vuldb.com/?ip.77.109.85.213) | 77.109.85.213.static.edpnet.net | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3003 | [77.109.85.214](https://vuldb.com/?ip.77.109.85.214) | 77.109.85.214.static.edpnet.net | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3004 | [77.109.85.216](https://vuldb.com/?ip.77.109.85.216) | 77.109.85.216.static.edpnet.net | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3005 | [77.109.85.224](https://vuldb.com/?ip.77.109.85.224) | 77.109.85.224.static.edpnet.net | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3006 | [77.109.87.0](https://vuldb.com/?ip.77.109.87.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3007 | [77.109.87.64](https://vuldb.com/?ip.77.109.87.64) | 77.109.87.64.static.edpnet.net | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3008 | [77.109.87.128](https://vuldb.com/?ip.77.109.87.128) | 77.109.87.128.static.edpnet.net | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3009 | [77.109.110.0](https://vuldb.com/?ip.77.109.110.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3010 | [77.120.56.0](https://vuldb.com/?ip.77.120.56.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3011 | [77.121.14.0](https://vuldb.com/?ip.77.121.14.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3012 | [77.121.32.0](https://vuldb.com/?ip.77.121.32.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3013 | [77.123.14.31](https://vuldb.com/?ip.77.123.14.31) | 77-123-14-31.rov.volia.net | [Unknown](https://vuldb.com/?actor.unknown) | High
-3014 | [77.123.192.0](https://vuldb.com/?ip.77.123.192.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3015 | [77.123.224.0](https://vuldb.com/?ip.77.123.224.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3016 | [77.220.32.0](https://vuldb.com/?ip.77.220.32.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3017 | [77.220.128.0](https://vuldb.com/?ip.77.220.128.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3018 | [77.220.192.0](https://vuldb.com/?ip.77.220.192.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3019 | [77.220.204.0](https://vuldb.com/?ip.77.220.204.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3020 | [77.220.205.0](https://vuldb.com/?ip.77.220.205.0) | subnet.mgnhost.com | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3021 | [77.220.208.0](https://vuldb.com/?ip.77.220.208.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3022 | [77.220.216.0](https://vuldb.com/?ip.77.220.216.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3023 | [77.221.128.0](https://vuldb.com/?ip.77.221.128.0) | 77.221.128.0.addr.datapoint.ru | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3024 | [77.221.192.0](https://vuldb.com/?ip.77.221.192.0) | enode-77-221-192-0.static.omsk.smartkom.ru | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3025 | [77.222.32.0](https://vuldb.com/?ip.77.222.32.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3026 | [77.222.96.0](https://vuldb.com/?ip.77.222.96.0) | pool-77-222-96-0.is74.ru | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3027 | [77.223.64.0](https://vuldb.com/?ip.77.223.64.0) | 77x223x64x0.dynamic.ekat.ertelecom.ru | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3028 | [77.232.0.0](https://vuldb.com/?ip.77.232.0.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3029 | [77.232.128.0](https://vuldb.com/?ip.77.232.128.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3030 | [77.232.160.0](https://vuldb.com/?ip.77.232.160.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3031 | [77.232.184.0](https://vuldb.com/?ip.77.232.184.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3032 | [77.233.0.0](https://vuldb.com/?ip.77.233.0.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3033 | [77.233.160.0](https://vuldb.com/?ip.77.233.160.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3034 | [77.233.192.0](https://vuldb.com/?ip.77.233.192.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3035 | [77.234.0.0](https://vuldb.com/?ip.77.234.0.0) | pppoe-77-234-0-0.kosnet.ru | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3036 | [77.234.192.0](https://vuldb.com/?ip.77.234.192.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3037 | [77.235.192.0](https://vuldb.com/?ip.77.235.192.0) | subnet0x4.192.quantum.ru | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3038 | [77.236.32.0](https://vuldb.com/?ip.77.236.32.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3039 | [77.236.64.0](https://vuldb.com/?ip.77.236.64.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3040 | [77.236.224.0](https://vuldb.com/?ip.77.236.224.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3041 | [77.237.225.0](https://vuldb.com/?ip.77.237.225.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3042 | [77.237.226.0](https://vuldb.com/?ip.77.237.226.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3043 | [77.237.231.0](https://vuldb.com/?ip.77.237.231.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3044 | [77.238.96.0](https://vuldb.com/?ip.77.238.96.0) | 0-96-238-77.host.cirex.ru | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3045 | [77.238.128.0](https://vuldb.com/?ip.77.238.128.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3046 | [77.238.224.0](https://vuldb.com/?ip.77.238.224.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3047 | [77.239.192.0](https://vuldb.com/?ip.77.239.192.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3048 | [77.239.224.0](https://vuldb.com/?ip.77.239.224.0) | 0.224.239.77.at-home.ru | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3049 | [77.239.232.0](https://vuldb.com/?ip.77.239.232.0) | 0.232.239.77.at-home.ru | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3050 | [77.239.236.0](https://vuldb.com/?ip.77.239.236.0) | 0.236.239.77.at-home.ru | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3051 | [77.239.240.0](https://vuldb.com/?ip.77.239.240.0) | 0.240.239.77.at-home.ru | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3052 | [77.239.242.0](https://vuldb.com/?ip.77.239.242.0) | 0.242.239.77.at-home.ru | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3053 | [77.239.244.0](https://vuldb.com/?ip.77.239.244.0) | 0.244.239.77.at-home.ru | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3054 | [77.239.247.0](https://vuldb.com/?ip.77.239.247.0) | 0.247.239.77.at-home.ru | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3055 | [77.239.249.0](https://vuldb.com/?ip.77.239.249.0) | 0.249.239.77.at-home.ru | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3056 | [77.239.252.0](https://vuldb.com/?ip.77.239.252.0) | 0.252.239.77.at-home.ru | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3057 | [77.240.144.0](https://vuldb.com/?ip.77.240.144.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3058 | [77.240.160.0](https://vuldb.com/?ip.77.240.160.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3059 | [77.241.16.0](https://vuldb.com/?ip.77.241.16.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3060 | [77.241.32.0](https://vuldb.com/?ip.77.241.32.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3061 | [77.241.144.0](https://vuldb.com/?ip.77.241.144.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3062 | [77.241.240.0](https://vuldb.com/?ip.77.241.240.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3063 | [77.242.0.0](https://vuldb.com/?ip.77.242.0.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3064 | [77.242.96.0](https://vuldb.com/?ip.77.242.96.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3065 | [77.243.0.0](https://vuldb.com/?ip.77.243.0.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3066 | [77.243.80.0](https://vuldb.com/?ip.77.243.80.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3067 | [77.243.88.0](https://vuldb.com/?ip.77.243.88.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3068 | [77.243.96.0](https://vuldb.com/?ip.77.243.96.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3069 | [77.243.240.0](https://vuldb.com/?ip.77.243.240.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3070 | [77.244.16.0](https://vuldb.com/?ip.77.244.16.0) | 77-244-16-0.westcall.net | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3071 | [77.244.64.0](https://vuldb.com/?ip.77.244.64.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3072 | [77.244.160.0](https://vuldb.com/?ip.77.244.160.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3073 | [77.244.208.0](https://vuldb.com/?ip.77.244.208.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3074 | [77.245.112.0](https://vuldb.com/?ip.77.245.112.0) | izhnt.ru | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3075 | [77.245.160.0](https://vuldb.com/?ip.77.245.160.0) | 77-245-160-000.mynts.ru | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3076 | [77.245.192.0](https://vuldb.com/?ip.77.245.192.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3077 | [77.246.96.0](https://vuldb.com/?ip.77.246.96.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3078 | [77.246.144.0](https://vuldb.com/?ip.77.246.144.0) | subnet.e-planet.ru | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3079 | [77.246.156.0](https://vuldb.com/?ip.77.246.156.0) | subnet.msk.ispsystem.net | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3080 | [77.246.224.0](https://vuldb.com/?ip.77.246.224.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3081 | [77.246.248.0](https://vuldb.com/?ip.77.246.248.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3082 | [77.247.126.247](https://vuldb.com/?ip.77.247.126.247) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
-3083 | [77.247.128.0](https://vuldb.com/?ip.77.247.128.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3084 | [77.247.160.0](https://vuldb.com/?ip.77.247.160.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3085 | [77.247.184.0](https://vuldb.com/?ip.77.247.184.0) | interface-network.westcall.ru | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3086 | [77.247.208.0](https://vuldb.com/?ip.77.247.208.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3087 | [77.247.232.0](https://vuldb.com/?ip.77.247.232.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3088 | [77.247.240.0](https://vuldb.com/?ip.77.247.240.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3089 | [78.24.0.0](https://vuldb.com/?ip.78.24.0.0) | sr00.itcomnet.ru | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3090 | [78.24.24.0](https://vuldb.com/?ip.78.24.24.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3091 | [78.24.40.0](https://vuldb.com/?ip.78.24.40.0) | pppoe-40-000.prtcom.ru | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3092 | [78.24.48.0](https://vuldb.com/?ip.78.24.48.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3093 | [78.24.56.0](https://vuldb.com/?ip.78.24.56.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3094 | [78.24.92.0](https://vuldb.com/?ip.78.24.92.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3095 | [78.24.100.0](https://vuldb.com/?ip.78.24.100.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3096 | [78.24.152.0](https://vuldb.com/?ip.78.24.152.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3097 | [78.24.176.0](https://vuldb.com/?ip.78.24.176.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3098 | [78.24.200.0](https://vuldb.com/?ip.78.24.200.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3099 | [78.24.216.0](https://vuldb.com/?ip.78.24.216.0) | subnet.reserved.ispsystem.net | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3100 | [78.24.224.0](https://vuldb.com/?ip.78.24.224.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3101 | [78.25.64.0](https://vuldb.com/?ip.78.25.64.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3102 | [78.25.72.0](https://vuldb.com/?ip.78.25.72.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3103 | [78.25.74.0](https://vuldb.com/?ip.78.25.74.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3104 | [78.25.75.0](https://vuldb.com/?ip.78.25.75.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3105 | [78.25.75.32](https://vuldb.com/?ip.78.25.75.32) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3106 | [78.25.75.48](https://vuldb.com/?ip.78.25.75.48) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3107 | [78.25.75.56](https://vuldb.com/?ip.78.25.75.56) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3108 | [78.25.75.64](https://vuldb.com/?ip.78.25.75.64) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3109 | [78.25.75.128](https://vuldb.com/?ip.78.25.75.128) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3110 | [78.25.76.0](https://vuldb.com/?ip.78.25.76.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3111 | [78.25.80.0](https://vuldb.com/?ip.78.25.80.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3112 | [78.25.82.0](https://vuldb.com/?ip.78.25.82.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3113 | [78.25.83.0](https://vuldb.com/?ip.78.25.83.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3114 | [78.25.83.128](https://vuldb.com/?ip.78.25.83.128) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3115 | [78.25.83.136](https://vuldb.com/?ip.78.25.83.136) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3116 | [78.25.83.144](https://vuldb.com/?ip.78.25.83.144) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3117 | [78.25.83.160](https://vuldb.com/?ip.78.25.83.160) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3118 | [78.25.83.192](https://vuldb.com/?ip.78.25.83.192) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3119 | [78.25.84.0](https://vuldb.com/?ip.78.25.84.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3120 | [78.25.88.0](https://vuldb.com/?ip.78.25.88.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3121 | [78.25.96.0](https://vuldb.com/?ip.78.25.96.0) | ip-78-25-96-0.nwgsm.ru | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3122 | [78.25.128.0](https://vuldb.com/?ip.78.25.128.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3123 | [78.29.0.0](https://vuldb.com/?ip.78.29.0.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3124 | [78.30.192.0](https://vuldb.com/?ip.78.30.192.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3125 | [78.31.0.0](https://vuldb.com/?ip.78.31.0.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3126 | [78.31.16.0](https://vuldb.com/?ip.78.31.16.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3127 | [78.31.72.0](https://vuldb.com/?ip.78.31.72.0) | dhcp-dynamic-78-31-72-0.broadband.nlink.ru | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3128 | [78.31.96.0](https://vuldb.com/?ip.78.31.96.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3129 | [78.31.160.0](https://vuldb.com/?ip.78.31.160.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3130 | [78.31.210.0](https://vuldb.com/?ip.78.31.210.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3131 | [78.31.216.0](https://vuldb.com/?ip.78.31.216.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3132 | [78.31.240.0](https://vuldb.com/?ip.78.31.240.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3133 | [78.36.0.0](https://vuldb.com/?ip.78.36.0.0) | ppp78-36-0-0.pppoe.murmansk.dslavangard.ru | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3134 | [78.40.24.0](https://vuldb.com/?ip.78.40.24.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3135 | [78.40.80.0](https://vuldb.com/?ip.78.40.80.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3136 | [78.40.116.0](https://vuldb.com/?ip.78.40.116.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3137 | [78.40.184.0](https://vuldb.com/?ip.78.40.184.0) | 78-40-184-0.static.mts-nn.ru | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3138 | [78.40.216.0](https://vuldb.com/?ip.78.40.216.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3139 | [78.40.217.0](https://vuldb.com/?ip.78.40.217.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3140 | [78.40.218.0](https://vuldb.com/?ip.78.40.218.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3141 | [78.40.220.0](https://vuldb.com/?ip.78.40.220.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3142 | [78.41.32.0](https://vuldb.com/?ip.78.41.32.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3143 | [78.41.84.0](https://vuldb.com/?ip.78.41.84.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3144 | [78.41.88.0](https://vuldb.com/?ip.78.41.88.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3145 | [78.41.96.0](https://vuldb.com/?ip.78.41.96.0) | ip-78-41-96-0.cc.netbynet.ru | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3146 | [78.41.104.0](https://vuldb.com/?ip.78.41.104.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3147 | [78.41.106.0](https://vuldb.com/?ip.78.41.106.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3148 | [78.41.108.0](https://vuldb.com/?ip.78.41.108.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3149 | [78.41.110.0](https://vuldb.com/?ip.78.41.110.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3150 | [78.41.176.0](https://vuldb.com/?ip.78.41.176.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3151 | [78.41.192.0](https://vuldb.com/?ip.78.41.192.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3152 | [78.81.0.0](https://vuldb.com/?ip.78.81.0.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3153 | [78.85.0.0](https://vuldb.com/?ip.78.85.0.0) | net.net78.udm.net | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3154 | [78.106.0.0](https://vuldb.com/?ip.78.106.0.0) | 78-106-0-0.broadband.corbina.ru | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3155 | [78.107.0.0](https://vuldb.com/?ip.78.107.0.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3156 | [78.107.128.0](https://vuldb.com/?ip.78.107.128.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3157 | [78.107.160.0](https://vuldb.com/?ip.78.107.160.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3158 | [78.107.176.0](https://vuldb.com/?ip.78.107.176.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3159 | [78.107.184.0](https://vuldb.com/?ip.78.107.184.0) | m9-crs-be12.corbina.net | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3160 | [78.107.184.64](https://vuldb.com/?ip.78.107.184.64) | korova-bb-te4-8.corbina.net | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3161 | [78.107.184.96](https://vuldb.com/?ip.78.107.184.96) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3162 | [78.107.184.105](https://vuldb.com/?ip.78.107.184.105) | bras222-gi0-0.msk.corbina.net | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3163 | [78.107.184.107](https://vuldb.com/?ip.78.107.184.107) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3164 | [78.107.184.108](https://vuldb.com/?ip.78.107.184.108) | hq-bb-gi0-6-0-17.corbina.net | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3165 | [78.107.184.112](https://vuldb.com/?ip.78.107.184.112) | hq-bb-gi0-6-0-18.corbina.net | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3166 | [78.107.184.128](https://vuldb.com/?ip.78.107.184.128) | hq-bb-gi0-6-0-7.corbina.net | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3167 | [78.107.185.0](https://vuldb.com/?ip.78.107.185.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3168 | [78.107.186.0](https://vuldb.com/?ip.78.107.186.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3169 | [78.107.188.0](https://vuldb.com/?ip.78.107.188.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3170 | [78.107.192.0](https://vuldb.com/?ip.78.107.192.0) | 78-107-192-0.broadband.corbina.ru | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3171 | [78.108.64.0](https://vuldb.com/?ip.78.108.64.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3172 | [78.108.192.0](https://vuldb.com/?ip.78.108.192.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3173 | [78.109.32.0](https://vuldb.com/?ip.78.109.32.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3174 | [78.109.112.0](https://vuldb.com/?ip.78.109.112.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3175 | [78.109.128.0](https://vuldb.com/?ip.78.109.128.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3176 | [78.110.48.0](https://vuldb.com/?ip.78.110.48.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3177 | [78.110.144.0](https://vuldb.com/?ip.78.110.144.0) | net144.alania.net | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3178 | [78.110.240.0](https://vuldb.com/?ip.78.110.240.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3179 | [78.111.80.0](https://vuldb.com/?ip.78.111.80.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3180 | [78.111.92.0](https://vuldb.com/?ip.78.111.92.0) | 78.111.92.0.ptspb.ru | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3181 | [78.111.144.0](https://vuldb.com/?ip.78.111.144.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3182 | [78.111.186.71](https://vuldb.com/?ip.78.111.186.71) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3183 | [78.111.240.0](https://vuldb.com/?ip.78.111.240.0) | 78-111-240-0.static.tvingo.ru | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3184 | [78.132.128.0](https://vuldb.com/?ip.78.132.128.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3185 | [78.136.192.0](https://vuldb.com/?ip.78.136.192.0) | ip78.136.192.0.arielnet.ru | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3186 | [78.136.201.0](https://vuldb.com/?ip.78.136.201.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3187 | [78.136.208.0](https://vuldb.com/?ip.78.136.208.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3188 | [78.136.224.0](https://vuldb.com/?ip.78.136.224.0) | 78x136x224x0.static-customer.static-customer.ulanude.ertelecom.ru | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3189 | [78.136.240.0](https://vuldb.com/?ip.78.136.240.0) | 78x136x240x0.static-business.ulanude.ertelecom.ru | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3190 | [78.137.104.0](https://vuldb.com/?ip.78.137.104.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3191 | [78.138.44.0](https://vuldb.com/?ip.78.138.44.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3192 | [78.138.128.0](https://vuldb.com/?ip.78.138.128.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3193 | [78.139.64.0](https://vuldb.com/?ip.78.139.64.0) | 0-64-139-78.kamensktel.ru | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3194 | [78.139.192.0](https://vuldb.com/?ip.78.139.192.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3195 | [78.140.0.0](https://vuldb.com/?ip.78.140.0.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3196 | [78.140.80.0](https://vuldb.com/?ip.78.140.80.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3197 | [78.140.80.16](https://vuldb.com/?ip.78.140.80.16) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3198 | [78.140.81.16](https://vuldb.com/?ip.78.140.81.16) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3199 | [78.140.192.0](https://vuldb.com/?ip.78.140.192.0) | 78.140.192.0.ptspb.net | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3200 | [78.140.208.0](https://vuldb.com/?ip.78.140.208.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3201 | [78.140.216.0](https://vuldb.com/?ip.78.140.216.0) | 78x140x216x0.static.or-terminal.ru | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3202 | [78.140.220.0](https://vuldb.com/?ip.78.140.220.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3203 | [78.140.222.0](https://vuldb.com/?ip.78.140.222.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3204 | [78.140.224.0](https://vuldb.com/?ip.78.140.224.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3205 | [78.140.240.0](https://vuldb.com/?ip.78.140.240.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3206 | [78.140.248.0](https://vuldb.com/?ip.78.140.248.0) | 78.140.248.0.ptspb.ru | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3207 | [78.140.253.0](https://vuldb.com/?ip.78.140.253.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3208 | [78.140.254.0](https://vuldb.com/?ip.78.140.254.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3209 | [78.142.220.0](https://vuldb.com/?ip.78.142.220.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3210 | [78.142.232.0](https://vuldb.com/?ip.78.142.232.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3211 | [78.142.236.0](https://vuldb.com/?ip.78.142.236.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3212 | [78.142.239.0](https://vuldb.com/?ip.78.142.239.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3213 | [78.153.0.0](https://vuldb.com/?ip.78.153.0.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3214 | [78.153.128.0](https://vuldb.com/?ip.78.153.128.0) | 0-128-153-78.interlan.ru | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3215 | [78.153.131.0](https://vuldb.com/?ip.78.153.131.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3216 | [78.153.132.0](https://vuldb.com/?ip.78.153.132.0) | 0-132-153-78.interlan.ru | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3217 | [78.153.136.0](https://vuldb.com/?ip.78.153.136.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3218 | [78.153.138.0](https://vuldb.com/?ip.78.153.138.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3219 | [78.153.140.0](https://vuldb.com/?ip.78.153.140.0) | fo000.i140.mi-1.ru | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3220 | [78.153.142.0](https://vuldb.com/?ip.78.153.142.0) | 0-142-153-78.interlan.ru | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3221 | [78.153.144.0](https://vuldb.com/?ip.78.153.144.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3222 | [78.153.145.0](https://vuldb.com/?ip.78.153.145.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3223 | [78.153.146.0](https://vuldb.com/?ip.78.153.146.0) | fo000.i146.mi-1.ru | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3224 | [78.153.148.0](https://vuldb.com/?ip.78.153.148.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3225 | [78.153.152.0](https://vuldb.com/?ip.78.153.152.0) | 0-152-153-78.interlan.ru | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3226 | [78.155.160.0](https://vuldb.com/?ip.78.155.160.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3227 | [78.155.192.0](https://vuldb.com/?ip.78.155.192.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3228 | [78.155.196.0](https://vuldb.com/?ip.78.155.196.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3229 | [78.155.199.0](https://vuldb.com/?ip.78.155.199.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3230 | [78.155.200.0](https://vuldb.com/?ip.78.155.200.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3231 | [78.155.208.0](https://vuldb.com/?ip.78.155.208.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3232 | [78.156.224.0](https://vuldb.com/?ip.78.156.224.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3233 | [78.157.224.0](https://vuldb.com/?ip.78.157.224.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3234 | [78.158.192.0](https://vuldb.com/?ip.78.158.192.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3235 | [78.159.224.0](https://vuldb.com/?ip.78.159.224.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3236 | [79.98.8.0](https://vuldb.com/?ip.79.98.8.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3237 | [79.98.88.0](https://vuldb.com/?ip.79.98.88.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3238 | [79.98.136.0](https://vuldb.com/?ip.79.98.136.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3239 | [79.98.184.0](https://vuldb.com/?ip.79.98.184.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3240 | [79.98.200.0](https://vuldb.com/?ip.79.98.200.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3241 | [79.98.208.0](https://vuldb.com/?ip.79.98.208.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3242 | [79.98.248.0](https://vuldb.com/?ip.79.98.248.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3243 | [79.99.16.0](https://vuldb.com/?ip.79.99.16.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3244 | [79.99.48.0](https://vuldb.com/?ip.79.99.48.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3245 | [79.99.104.0](https://vuldb.com/?ip.79.99.104.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3246 | [79.99.216.0](https://vuldb.com/?ip.79.99.216.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3247 | [79.99.240.0](https://vuldb.com/?ip.79.99.240.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3248 | [79.104.0.0](https://vuldb.com/?ip.79.104.0.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
-3249 | [79.104.1.0](https://vuldb.com/?ip.79.104.1.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3250 | [79.104.1.68](https://vuldb.com/?ip.79.104.1.68) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3251 | [79.104.1.72](https://vuldb.com/?ip.79.104.1.72) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3252 | [79.104.1.80](https://vuldb.com/?ip.79.104.1.80) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3253 | [79.104.1.96](https://vuldb.com/?ip.79.104.1.96) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3254 | [79.104.1.128](https://vuldb.com/?ip.79.104.1.128) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3255 | [79.104.2.0](https://vuldb.com/?ip.79.104.2.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3256 | [79.104.4.0](https://vuldb.com/?ip.79.104.4.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3257 | [79.104.8.0](https://vuldb.com/?ip.79.104.8.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3258 | [79.104.16.0](https://vuldb.com/?ip.79.104.16.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3259 | [79.104.32.0](https://vuldb.com/?ip.79.104.32.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3260 | [79.104.32.64](https://vuldb.com/?ip.79.104.32.64) | an01.Institutskaya7.Blagov.gldn.net | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3261 | [79.104.32.72](https://vuldb.com/?ip.79.104.32.72) | an01.Fabritsiusa2.Sochi.gldn.net | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3262 | [79.104.32.77](https://vuldb.com/?ip.79.104.32.77) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3263 | [79.104.32.78](https://vuldb.com/?ip.79.104.32.78) | pe04.Sochi.gldn.net | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3264 | [79.104.32.80](https://vuldb.com/?ip.79.104.32.80) | cisco1.Gvardeyskaya57.Ufa.gldn.net | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3265 | [79.104.32.96](https://vuldb.com/?ip.79.104.32.96) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3266 | [79.104.32.128](https://vuldb.com/?ip.79.104.32.128) | pe02.Sochi.gldn.net | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3267 | [79.104.32.192](https://vuldb.com/?ip.79.104.32.192) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3268 | [79.104.32.224](https://vuldb.com/?ip.79.104.32.224) | pe01.Irkutsk.gldn.net | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3269 | [79.104.32.240](https://vuldb.com/?ip.79.104.32.240) | pe01.Nsk.gldn.net | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3270 | [79.104.32.244](https://vuldb.com/?ip.79.104.32.244) | an01.Oktyabr97.Volsk.gldn.net | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3271 | [79.104.32.247](https://vuldb.com/?ip.79.104.32.247) | pe01.8Marta.Moscow.gldn.net | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3272 | [79.104.32.248](https://vuldb.com/?ip.79.104.32.248) | bras1.Voronezh.gldn.net | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3273 | [79.104.33.0](https://vuldb.com/?ip.79.104.33.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3274 | [79.104.34.0](https://vuldb.com/?ip.79.104.34.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3275 | [79.104.36.0](https://vuldb.com/?ip.79.104.36.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3276 | [79.104.40.0](https://vuldb.com/?ip.79.104.40.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3277 | [79.104.48.0](https://vuldb.com/?ip.79.104.48.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3278 | [79.104.64.0](https://vuldb.com/?ip.79.104.64.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
-3279 | [79.104.128.0](https://vuldb.com/?ip.79.104.128.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+2813 | [74.50.94.156](https://vuldb.com/?ip.74.50.94.156) | vps2654249.trouble-free.net | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+2814 | [74.119.38.0](https://vuldb.com/?ip.74.119.38.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+2815 | [74.125.14.0](https://vuldb.com/?ip.74.125.14.0) | svo50s01-in-f0.1e100.net | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+2816 | [74.125.61.176](https://vuldb.com/?ip.74.125.61.176) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+2817 | [74.125.110.192](https://vuldb.com/?ip.74.125.110.192) | svo07s15-in-f0.1e100.net | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+2818 | [74.125.111.192](https://vuldb.com/?ip.74.125.111.192) | svo04s40-in-f0.1e100.net | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+2819 | [74.220.207.61](https://vuldb.com/?ip.74.220.207.61) | host61.hostmonster.com | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+2820 | [77.34.0.0](https://vuldb.com/?ip.77.34.0.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+2821 | [77.37.128.0](https://vuldb.com/?ip.77.37.128.0) | broadband-77-37-128-0.ip.moscow.rt.ru | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+2822 | [77.37.160.0](https://vuldb.com/?ip.77.37.160.0) | broadband-77-37-160-0.ip.moscow.rt.ru | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+2823 | [77.37.172.0](https://vuldb.com/?ip.77.37.172.0) | broadband-77-37-172-0.ip.moscow.rt.ru | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+2824 | [77.37.176.0](https://vuldb.com/?ip.77.37.176.0) | broadband-77-37-176-0.ip.moscow.rt.ru | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+2825 | [77.37.192.0](https://vuldb.com/?ip.77.37.192.0) | broadband-77-37-192-0.ip.moscow.rt.ru | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+2826 | [77.39.0.0](https://vuldb.com/?ip.77.39.0.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+2827 | [77.40.0.0](https://vuldb.com/?ip.77.40.0.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+2828 | [77.41.0.0](https://vuldb.com/?ip.77.41.0.0) | host-77-41-0-0.qwerty.ru | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+2829 | [77.43.128.0](https://vuldb.com/?ip.77.43.128.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+2830 | [77.45.128.0](https://vuldb.com/?ip.77.45.128.0) | 0.128.c10008-a77.dsl-dynamic.vsi.ru | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+2831 | [77.50.0.0](https://vuldb.com/?ip.77.50.0.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+2832 | [77.66.128.0](https://vuldb.com/?ip.77.66.128.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+2833 | [77.72.16.0](https://vuldb.com/?ip.77.72.16.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+2834 | [77.72.83.0](https://vuldb.com/?ip.77.72.83.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+2835 | [77.72.85.0](https://vuldb.com/?ip.77.72.85.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+2836 | [77.72.86.0](https://vuldb.com/?ip.77.72.86.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+2837 | [77.72.120.0](https://vuldb.com/?ip.77.72.120.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+2838 | [77.72.136.0](https://vuldb.com/?ip.77.72.136.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+2839 | [77.72.240.0](https://vuldb.com/?ip.77.72.240.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+2840 | [77.73.24.0](https://vuldb.com/?ip.77.73.24.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+2841 | [77.73.48.0](https://vuldb.com/?ip.77.73.48.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+2842 | [77.73.64.0](https://vuldb.com/?ip.77.73.64.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+2843 | [77.73.68.0](https://vuldb.com/?ip.77.73.68.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+2844 | [77.73.70.0](https://vuldb.com/?ip.77.73.70.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+2845 | [77.73.88.0](https://vuldb.com/?ip.77.73.88.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+2846 | [77.73.111.0](https://vuldb.com/?ip.77.73.111.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+2847 | [77.73.128.0](https://vuldb.com/?ip.77.73.128.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+2848 | [77.73.136.0](https://vuldb.com/?ip.77.73.136.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+2849 | [77.73.232.0](https://vuldb.com/?ip.77.73.232.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+2850 | [77.74.8.0](https://vuldb.com/?ip.77.74.8.0) | ip-8-0.byte-city.ru | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+2851 | [77.74.24.0](https://vuldb.com/?ip.77.74.24.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+2852 | [77.74.72.0](https://vuldb.com/?ip.77.74.72.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+2853 | [77.74.176.0](https://vuldb.com/?ip.77.74.176.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+2854 | [77.74.180.0](https://vuldb.com/?ip.77.74.180.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+2855 | [77.74.182.0](https://vuldb.com/?ip.77.74.182.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+2856 | [77.74.184.0](https://vuldb.com/?ip.77.74.184.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+2857 | [77.75.0.0](https://vuldb.com/?ip.77.75.0.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+2858 | [77.75.128.0](https://vuldb.com/?ip.77.75.128.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+2859 | [77.75.152.0](https://vuldb.com/?ip.77.75.152.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+2860 | [77.75.168.0](https://vuldb.com/?ip.77.75.168.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+2861 | [77.79.128.0](https://vuldb.com/?ip.77.79.128.0) | 77.79.128.0.dynamic.neft.ufanet.ru | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+2862 | [77.81.5.0](https://vuldb.com/?ip.77.81.5.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+2863 | [77.82.0.0](https://vuldb.com/?ip.77.82.0.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+2864 | [77.83.0.0](https://vuldb.com/?ip.77.83.0.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+2865 | [77.83.2.0](https://vuldb.com/?ip.77.83.2.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+2866 | [77.83.3.0](https://vuldb.com/?ip.77.83.3.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+2867 | [77.83.4.0](https://vuldb.com/?ip.77.83.4.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+2868 | [77.83.8.0](https://vuldb.com/?ip.77.83.8.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+2869 | [77.83.16.0](https://vuldb.com/?ip.77.83.16.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+2870 | [77.83.24.0](https://vuldb.com/?ip.77.83.24.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+2871 | [77.83.48.0](https://vuldb.com/?ip.77.83.48.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+2872 | [77.83.50.0](https://vuldb.com/?ip.77.83.50.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+2873 | [77.83.52.0](https://vuldb.com/?ip.77.83.52.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+2874 | [77.83.72.0](https://vuldb.com/?ip.77.83.72.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+2875 | [77.83.80.0](https://vuldb.com/?ip.77.83.80.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+2876 | [77.83.83.0](https://vuldb.com/?ip.77.83.83.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+2877 | [77.83.84.0](https://vuldb.com/?ip.77.83.84.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+2878 | [77.83.92.0](https://vuldb.com/?ip.77.83.92.0) | subnet.ptr.sbcloud.ru | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+2879 | [77.83.94.0](https://vuldb.com/?ip.77.83.94.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+2880 | [77.83.116.0](https://vuldb.com/?ip.77.83.116.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+2881 | [77.83.117.0](https://vuldb.com/?ip.77.83.117.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+2882 | [77.83.118.0](https://vuldb.com/?ip.77.83.118.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+2883 | [77.83.148.0](https://vuldb.com/?ip.77.83.148.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+2884 | [77.83.150.0](https://vuldb.com/?ip.77.83.150.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+2885 | [77.83.152.0](https://vuldb.com/?ip.77.83.152.0) | spd.net.tr | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+2886 | [77.83.163.0](https://vuldb.com/?ip.77.83.163.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+2887 | [77.83.192.0](https://vuldb.com/?ip.77.83.192.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+2888 | [77.83.204.0](https://vuldb.com/?ip.77.83.204.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+2889 | [77.83.244.0](https://vuldb.com/?ip.77.83.244.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+2890 | [77.83.246.0](https://vuldb.com/?ip.77.83.246.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+2891 | [77.87.64.0](https://vuldb.com/?ip.77.87.64.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+2892 | [77.87.80.0](https://vuldb.com/?ip.77.87.80.0) | 0-80-87-77.omsk.mts.ru | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+2893 | [77.87.96.0](https://vuldb.com/?ip.77.87.96.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+2894 | [77.87.112.0](https://vuldb.com/?ip.77.87.112.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+2895 | [77.87.124.0](https://vuldb.com/?ip.77.87.124.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+2896 | [77.87.168.0](https://vuldb.com/?ip.77.87.168.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+2897 | [77.87.200.0](https://vuldb.com/?ip.77.87.200.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+2898 | [77.87.208.0](https://vuldb.com/?ip.77.87.208.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+2899 | [77.88.0.0](https://vuldb.com/?ip.77.88.0.0) | net-spb-vlan443.yandex.net | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+2900 | [77.88.4.0](https://vuldb.com/?ip.77.88.4.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+2901 | [77.88.6.0](https://vuldb.com/?ip.77.88.6.0) | shalanda-lo2.yndx.net | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+2902 | [77.88.6.4](https://vuldb.com/?ip.77.88.6.4) | longliner-lo2.yndx.net | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+2903 | [77.88.6.6](https://vuldb.com/?ip.77.88.6.6) | seiner-lo2.yndx.net | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+2904 | [77.88.6.8](https://vuldb.com/?ip.77.88.6.8) | raft-lo2.yndx.net | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+2905 | [77.88.6.10](https://vuldb.com/?ip.77.88.6.10) | drifter-lo2.yndx.net | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+2906 | [77.88.6.12](https://vuldb.com/?ip.77.88.6.12) | m9-rc1-lo2.yndx.net | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+2907 | [77.88.6.16](https://vuldb.com/?ip.77.88.6.16) | frigate-lo2.yndx.net | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+2908 | [77.88.6.32](https://vuldb.com/?ip.77.88.6.32) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+2909 | [77.88.6.64](https://vuldb.com/?ip.77.88.6.64) | drifter-lo42.yndx.net | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+2910 | [77.88.6.128](https://vuldb.com/?ip.77.88.6.128) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+2911 | [77.88.7.0](https://vuldb.com/?ip.77.88.7.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+2912 | [77.88.8.0](https://vuldb.com/?ip.77.88.8.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+2913 | [77.88.10.0](https://vuldb.com/?ip.77.88.10.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+2914 | [77.88.12.0](https://vuldb.com/?ip.77.88.12.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+2915 | [77.88.16.0](https://vuldb.com/?ip.77.88.16.0) | net-red-vlan443.yandex.net | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+2916 | [77.88.20.0](https://vuldb.com/?ip.77.88.20.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+2917 | [77.88.22.0](https://vuldb.com/?ip.77.88.22.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+2918 | [77.88.24.0](https://vuldb.com/?ip.77.88.24.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+2919 | [77.88.25.0](https://vuldb.com/?ip.77.88.25.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+2920 | [77.88.26.0](https://vuldb.com/?ip.77.88.26.0) | net-spb-vlan443.yandex.net | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+2921 | [77.88.28.0](https://vuldb.com/?ip.77.88.28.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+2922 | [77.88.32.0](https://vuldb.com/?ip.77.88.32.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+2923 | [77.88.40.0](https://vuldb.com/?ip.77.88.40.0) | net-sas-vlan411.yandex.net | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+2924 | [77.88.44.0](https://vuldb.com/?ip.77.88.44.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+2925 | [77.88.45.0](https://vuldb.com/?ip.77.88.45.0) | barkas-ipsec2.yndx.net | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+2926 | [77.88.47.0](https://vuldb.com/?ip.77.88.47.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+2927 | [77.88.49.0](https://vuldb.com/?ip.77.88.49.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+2928 | [77.88.50.0](https://vuldb.com/?ip.77.88.50.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+2929 | [77.88.50.128](https://vuldb.com/?ip.77.88.50.128) | net-man-vlan2697.yandex.net | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+2930 | [77.88.50.144](https://vuldb.com/?ip.77.88.50.144) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+2931 | [77.88.50.152](https://vuldb.com/?ip.77.88.50.152) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+2932 | [77.88.50.168](https://vuldb.com/?ip.77.88.50.168) | jangada-ipsec654.yndx.net | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+2933 | [77.88.50.176](https://vuldb.com/?ip.77.88.50.176) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+2934 | [77.88.50.192](https://vuldb.com/?ip.77.88.50.192) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+2935 | [77.88.50.208](https://vuldb.com/?ip.77.88.50.208) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+2936 | [77.88.50.224](https://vuldb.com/?ip.77.88.50.224) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+2937 | [77.88.50.240](https://vuldb.com/?ip.77.88.50.240) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+2938 | [77.88.51.0](https://vuldb.com/?ip.77.88.51.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+2939 | [77.88.52.0](https://vuldb.com/?ip.77.88.52.0) | net-red-vlan600.yandex.net | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+2940 | [77.88.54.0](https://vuldb.com/?ip.77.88.54.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+2941 | [77.88.56.0](https://vuldb.com/?ip.77.88.56.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+2942 | [77.88.56.160](https://vuldb.com/?ip.77.88.56.160) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+2943 | [77.88.56.192](https://vuldb.com/?ip.77.88.56.192) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+2944 | [77.88.58.0](https://vuldb.com/?ip.77.88.58.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+2945 | [77.88.60.0](https://vuldb.com/?ip.77.88.60.0) | vobla.yndx.net | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+2946 | [77.90.184.0](https://vuldb.com/?ip.77.90.184.0) | centbox.afx6.net | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+2947 | [77.90.189.0](https://vuldb.com/?ip.77.90.189.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+2948 | [77.91.64.0](https://vuldb.com/?ip.77.91.64.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+2949 | [77.91.66.0](https://vuldb.com/?ip.77.91.66.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+2950 | [77.91.68.0](https://vuldb.com/?ip.77.91.68.0) | hosted-by.yeezyhost.net | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+2951 | [77.91.70.0](https://vuldb.com/?ip.77.91.70.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+2952 | [77.91.76.0](https://vuldb.com/?ip.77.91.76.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+2953 | [77.91.78.0](https://vuldb.com/?ip.77.91.78.0) | swell-scene.aeza.network | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+2954 | [77.91.80.0](https://vuldb.com/?ip.77.91.80.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+2955 | [77.91.96.0](https://vuldb.com/?ip.77.91.96.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+2956 | [77.91.97.0](https://vuldb.com/?ip.77.91.97.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+2957 | [77.91.98.0](https://vuldb.com/?ip.77.91.98.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+2958 | [77.91.104.0](https://vuldb.com/?ip.77.91.104.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+2959 | [77.91.113.0](https://vuldb.com/?ip.77.91.113.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+2960 | [77.91.114.0](https://vuldb.com/?ip.77.91.114.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+2961 | [77.91.116.0](https://vuldb.com/?ip.77.91.116.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+2962 | [77.91.120.0](https://vuldb.com/?ip.77.91.120.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+2963 | [77.91.125.0](https://vuldb.com/?ip.77.91.125.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+2964 | [77.91.192.0](https://vuldb.com/?ip.77.91.192.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+2965 | [77.91.224.0](https://vuldb.com/?ip.77.91.224.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+2966 | [77.93.96.0](https://vuldb.com/?ip.77.93.96.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+2967 | [77.94.0.0](https://vuldb.com/?ip.77.94.0.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+2968 | [77.94.2.0](https://vuldb.com/?ip.77.94.2.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+2969 | [77.94.42.0](https://vuldb.com/?ip.77.94.42.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+2970 | [77.94.43.0](https://vuldb.com/?ip.77.94.43.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+2971 | [77.94.96.0](https://vuldb.com/?ip.77.94.96.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+2972 | [77.94.160.0](https://vuldb.com/?ip.77.94.160.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+2973 | [77.94.192.0](https://vuldb.com/?ip.77.94.192.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+2974 | [77.95.8.0](https://vuldb.com/?ip.77.95.8.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+2975 | [77.95.16.0](https://vuldb.com/?ip.77.95.16.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+2976 | [77.95.20.0](https://vuldb.com/?ip.77.95.20.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+2977 | [77.95.88.0](https://vuldb.com/?ip.77.95.88.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+2978 | [77.95.128.0](https://vuldb.com/?ip.77.95.128.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+2979 | [77.95.200.0](https://vuldb.com/?ip.77.95.200.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+2980 | [77.105.128.0](https://vuldb.com/?ip.77.105.128.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+2981 | [77.105.144.0](https://vuldb.com/?ip.77.105.144.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+2982 | [77.105.160.0](https://vuldb.com/?ip.77.105.160.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+2983 | [77.106.0.0](https://vuldb.com/?ip.77.106.0.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+2984 | [77.106.192.0](https://vuldb.com/?ip.77.106.192.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+2985 | [77.108.64.0](https://vuldb.com/?ip.77.108.64.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+2986 | [77.108.192.0](https://vuldb.com/?ip.77.108.192.0) | start-192.ptcomm.ru | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+2987 | [77.109.65.0](https://vuldb.com/?ip.77.109.65.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+2988 | [77.109.85.0](https://vuldb.com/?ip.77.109.85.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+2989 | [77.109.85.16](https://vuldb.com/?ip.77.109.85.16) | 77.109.85.16.static.edpnet.net | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+2990 | [77.109.85.24](https://vuldb.com/?ip.77.109.85.24) | 77.109.85.24.static.edpnet.net | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+2991 | [77.109.85.28](https://vuldb.com/?ip.77.109.85.28) | 77.109.85.28.static.edpnet.net | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+2992 | [77.109.85.31](https://vuldb.com/?ip.77.109.85.31) | 77.109.85.31.static.edpnet.net | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+2993 | [77.109.85.32](https://vuldb.com/?ip.77.109.85.32) | 77.109.85.32.static.edpnet.net | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+2994 | [77.109.85.64](https://vuldb.com/?ip.77.109.85.64) | 77.109.85.64.static.edpnet.net | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+2995 | [77.109.85.128](https://vuldb.com/?ip.77.109.85.128) | 77.109.85.128.static.edpnet.net | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+2996 | [77.109.85.144](https://vuldb.com/?ip.77.109.85.144) | 77.109.85.144.static.edpnet.net | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+2997 | [77.109.85.152](https://vuldb.com/?ip.77.109.85.152) | 77.109.85.152.static.edpnet.net | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+2998 | [77.109.85.156](https://vuldb.com/?ip.77.109.85.156) | 77.109.85.156.static.edpnet.net | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+2999 | [77.109.85.158](https://vuldb.com/?ip.77.109.85.158) | 77.109.85.158.static.edpnet.net | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3000 | [77.109.85.160](https://vuldb.com/?ip.77.109.85.160) | 77.109.85.160.static.edpnet.net | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3001 | [77.109.85.192](https://vuldb.com/?ip.77.109.85.192) | 77.109.85.192.static.edpnet.net | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3002 | [77.109.85.208](https://vuldb.com/?ip.77.109.85.208) | 77.109.85.208.static.edpnet.net | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3003 | [77.109.85.213](https://vuldb.com/?ip.77.109.85.213) | 77.109.85.213.static.edpnet.net | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3004 | [77.109.85.214](https://vuldb.com/?ip.77.109.85.214) | 77.109.85.214.static.edpnet.net | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3005 | [77.109.85.216](https://vuldb.com/?ip.77.109.85.216) | 77.109.85.216.static.edpnet.net | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3006 | [77.109.85.224](https://vuldb.com/?ip.77.109.85.224) | 77.109.85.224.static.edpnet.net | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3007 | [77.109.87.0](https://vuldb.com/?ip.77.109.87.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3008 | [77.109.87.64](https://vuldb.com/?ip.77.109.87.64) | 77.109.87.64.static.edpnet.net | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3009 | [77.109.87.128](https://vuldb.com/?ip.77.109.87.128) | 77.109.87.128.static.edpnet.net | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3010 | [77.109.110.0](https://vuldb.com/?ip.77.109.110.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3011 | [77.120.56.0](https://vuldb.com/?ip.77.120.56.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3012 | [77.121.14.0](https://vuldb.com/?ip.77.121.14.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3013 | [77.121.32.0](https://vuldb.com/?ip.77.121.32.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3014 | [77.123.14.31](https://vuldb.com/?ip.77.123.14.31) | 77-123-14-31.rov.volia.net | [Unknown](https://vuldb.com/?actor.unknown) | High
+3015 | [77.123.192.0](https://vuldb.com/?ip.77.123.192.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3016 | [77.123.224.0](https://vuldb.com/?ip.77.123.224.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3017 | [77.220.32.0](https://vuldb.com/?ip.77.220.32.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3018 | [77.220.128.0](https://vuldb.com/?ip.77.220.128.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3019 | [77.220.192.0](https://vuldb.com/?ip.77.220.192.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3020 | [77.220.204.0](https://vuldb.com/?ip.77.220.204.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3021 | [77.220.205.0](https://vuldb.com/?ip.77.220.205.0) | subnet.mgnhost.com | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3022 | [77.220.208.0](https://vuldb.com/?ip.77.220.208.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3023 | [77.220.216.0](https://vuldb.com/?ip.77.220.216.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3024 | [77.221.128.0](https://vuldb.com/?ip.77.221.128.0) | 77.221.128.0.addr.datapoint.ru | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3025 | [77.221.192.0](https://vuldb.com/?ip.77.221.192.0) | enode-77-221-192-0.static.omsk.smartkom.ru | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3026 | [77.222.32.0](https://vuldb.com/?ip.77.222.32.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3027 | [77.222.96.0](https://vuldb.com/?ip.77.222.96.0) | pool-77-222-96-0.is74.ru | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3028 | [77.223.64.0](https://vuldb.com/?ip.77.223.64.0) | 77x223x64x0.dynamic.ekat.ertelecom.ru | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3029 | [77.232.0.0](https://vuldb.com/?ip.77.232.0.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3030 | [77.232.128.0](https://vuldb.com/?ip.77.232.128.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3031 | [77.232.160.0](https://vuldb.com/?ip.77.232.160.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3032 | [77.232.184.0](https://vuldb.com/?ip.77.232.184.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3033 | [77.233.0.0](https://vuldb.com/?ip.77.233.0.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3034 | [77.233.160.0](https://vuldb.com/?ip.77.233.160.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3035 | [77.233.192.0](https://vuldb.com/?ip.77.233.192.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3036 | [77.234.0.0](https://vuldb.com/?ip.77.234.0.0) | pppoe-77-234-0-0.kosnet.ru | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3037 | [77.234.192.0](https://vuldb.com/?ip.77.234.192.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3038 | [77.235.192.0](https://vuldb.com/?ip.77.235.192.0) | subnet0x4.192.quantum.ru | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3039 | [77.236.32.0](https://vuldb.com/?ip.77.236.32.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3040 | [77.236.64.0](https://vuldb.com/?ip.77.236.64.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3041 | [77.236.224.0](https://vuldb.com/?ip.77.236.224.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3042 | [77.237.225.0](https://vuldb.com/?ip.77.237.225.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3043 | [77.237.226.0](https://vuldb.com/?ip.77.237.226.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3044 | [77.237.231.0](https://vuldb.com/?ip.77.237.231.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3045 | [77.238.96.0](https://vuldb.com/?ip.77.238.96.0) | 0-96-238-77.host.cirex.ru | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3046 | [77.238.128.0](https://vuldb.com/?ip.77.238.128.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3047 | [77.238.224.0](https://vuldb.com/?ip.77.238.224.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3048 | [77.239.192.0](https://vuldb.com/?ip.77.239.192.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3049 | [77.239.224.0](https://vuldb.com/?ip.77.239.224.0) | 0.224.239.77.at-home.ru | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3050 | [77.239.232.0](https://vuldb.com/?ip.77.239.232.0) | 0.232.239.77.at-home.ru | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3051 | [77.239.236.0](https://vuldb.com/?ip.77.239.236.0) | 0.236.239.77.at-home.ru | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3052 | [77.239.240.0](https://vuldb.com/?ip.77.239.240.0) | 0.240.239.77.at-home.ru | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3053 | [77.239.242.0](https://vuldb.com/?ip.77.239.242.0) | 0.242.239.77.at-home.ru | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3054 | [77.239.244.0](https://vuldb.com/?ip.77.239.244.0) | 0.244.239.77.at-home.ru | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3055 | [77.239.247.0](https://vuldb.com/?ip.77.239.247.0) | 0.247.239.77.at-home.ru | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3056 | [77.239.249.0](https://vuldb.com/?ip.77.239.249.0) | 0.249.239.77.at-home.ru | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3057 | [77.239.252.0](https://vuldb.com/?ip.77.239.252.0) | 0.252.239.77.at-home.ru | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3058 | [77.240.144.0](https://vuldb.com/?ip.77.240.144.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3059 | [77.240.160.0](https://vuldb.com/?ip.77.240.160.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3060 | [77.241.16.0](https://vuldb.com/?ip.77.241.16.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3061 | [77.241.32.0](https://vuldb.com/?ip.77.241.32.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3062 | [77.241.144.0](https://vuldb.com/?ip.77.241.144.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3063 | [77.241.240.0](https://vuldb.com/?ip.77.241.240.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3064 | [77.242.0.0](https://vuldb.com/?ip.77.242.0.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3065 | [77.242.96.0](https://vuldb.com/?ip.77.242.96.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3066 | [77.243.0.0](https://vuldb.com/?ip.77.243.0.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3067 | [77.243.80.0](https://vuldb.com/?ip.77.243.80.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3068 | [77.243.88.0](https://vuldb.com/?ip.77.243.88.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3069 | [77.243.96.0](https://vuldb.com/?ip.77.243.96.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3070 | [77.243.240.0](https://vuldb.com/?ip.77.243.240.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3071 | [77.244.16.0](https://vuldb.com/?ip.77.244.16.0) | 77-244-16-0.westcall.net | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3072 | [77.244.64.0](https://vuldb.com/?ip.77.244.64.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3073 | [77.244.160.0](https://vuldb.com/?ip.77.244.160.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3074 | [77.244.208.0](https://vuldb.com/?ip.77.244.208.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3075 | [77.245.112.0](https://vuldb.com/?ip.77.245.112.0) | izhnt.ru | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3076 | [77.245.160.0](https://vuldb.com/?ip.77.245.160.0) | 77-245-160-000.mynts.ru | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3077 | [77.245.192.0](https://vuldb.com/?ip.77.245.192.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3078 | [77.246.96.0](https://vuldb.com/?ip.77.246.96.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3079 | [77.246.144.0](https://vuldb.com/?ip.77.246.144.0) | subnet.e-planet.ru | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3080 | [77.246.156.0](https://vuldb.com/?ip.77.246.156.0) | subnet.msk.ispsystem.net | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3081 | [77.246.224.0](https://vuldb.com/?ip.77.246.224.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3082 | [77.246.248.0](https://vuldb.com/?ip.77.246.248.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3083 | [77.247.126.247](https://vuldb.com/?ip.77.247.126.247) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
+3084 | [77.247.128.0](https://vuldb.com/?ip.77.247.128.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3085 | [77.247.160.0](https://vuldb.com/?ip.77.247.160.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3086 | [77.247.184.0](https://vuldb.com/?ip.77.247.184.0) | interface-network.westcall.ru | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3087 | [77.247.208.0](https://vuldb.com/?ip.77.247.208.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3088 | [77.247.232.0](https://vuldb.com/?ip.77.247.232.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3089 | [77.247.240.0](https://vuldb.com/?ip.77.247.240.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3090 | [78.24.0.0](https://vuldb.com/?ip.78.24.0.0) | sr00.itcomnet.ru | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3091 | [78.24.24.0](https://vuldb.com/?ip.78.24.24.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3092 | [78.24.40.0](https://vuldb.com/?ip.78.24.40.0) | pppoe-40-000.prtcom.ru | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3093 | [78.24.48.0](https://vuldb.com/?ip.78.24.48.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3094 | [78.24.56.0](https://vuldb.com/?ip.78.24.56.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3095 | [78.24.92.0](https://vuldb.com/?ip.78.24.92.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3096 | [78.24.100.0](https://vuldb.com/?ip.78.24.100.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3097 | [78.24.152.0](https://vuldb.com/?ip.78.24.152.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3098 | [78.24.176.0](https://vuldb.com/?ip.78.24.176.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3099 | [78.24.200.0](https://vuldb.com/?ip.78.24.200.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3100 | [78.24.216.0](https://vuldb.com/?ip.78.24.216.0) | subnet.reserved.ispsystem.net | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3101 | [78.24.224.0](https://vuldb.com/?ip.78.24.224.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3102 | [78.25.64.0](https://vuldb.com/?ip.78.25.64.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3103 | [78.25.72.0](https://vuldb.com/?ip.78.25.72.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3104 | [78.25.74.0](https://vuldb.com/?ip.78.25.74.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3105 | [78.25.75.0](https://vuldb.com/?ip.78.25.75.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3106 | [78.25.75.32](https://vuldb.com/?ip.78.25.75.32) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3107 | [78.25.75.48](https://vuldb.com/?ip.78.25.75.48) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3108 | [78.25.75.56](https://vuldb.com/?ip.78.25.75.56) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3109 | [78.25.75.64](https://vuldb.com/?ip.78.25.75.64) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3110 | [78.25.75.128](https://vuldb.com/?ip.78.25.75.128) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3111 | [78.25.76.0](https://vuldb.com/?ip.78.25.76.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3112 | [78.25.80.0](https://vuldb.com/?ip.78.25.80.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3113 | [78.25.82.0](https://vuldb.com/?ip.78.25.82.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3114 | [78.25.83.0](https://vuldb.com/?ip.78.25.83.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3115 | [78.25.83.128](https://vuldb.com/?ip.78.25.83.128) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3116 | [78.25.83.136](https://vuldb.com/?ip.78.25.83.136) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3117 | [78.25.83.144](https://vuldb.com/?ip.78.25.83.144) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3118 | [78.25.83.160](https://vuldb.com/?ip.78.25.83.160) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3119 | [78.25.83.192](https://vuldb.com/?ip.78.25.83.192) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3120 | [78.25.84.0](https://vuldb.com/?ip.78.25.84.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3121 | [78.25.88.0](https://vuldb.com/?ip.78.25.88.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3122 | [78.25.96.0](https://vuldb.com/?ip.78.25.96.0) | ip-78-25-96-0.nwgsm.ru | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3123 | [78.25.128.0](https://vuldb.com/?ip.78.25.128.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3124 | [78.29.0.0](https://vuldb.com/?ip.78.29.0.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3125 | [78.30.192.0](https://vuldb.com/?ip.78.30.192.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3126 | [78.31.0.0](https://vuldb.com/?ip.78.31.0.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3127 | [78.31.16.0](https://vuldb.com/?ip.78.31.16.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3128 | [78.31.72.0](https://vuldb.com/?ip.78.31.72.0) | dhcp-dynamic-78-31-72-0.broadband.nlink.ru | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3129 | [78.31.96.0](https://vuldb.com/?ip.78.31.96.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3130 | [78.31.160.0](https://vuldb.com/?ip.78.31.160.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3131 | [78.31.210.0](https://vuldb.com/?ip.78.31.210.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3132 | [78.31.216.0](https://vuldb.com/?ip.78.31.216.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3133 | [78.31.240.0](https://vuldb.com/?ip.78.31.240.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3134 | [78.36.0.0](https://vuldb.com/?ip.78.36.0.0) | ppp78-36-0-0.pppoe.murmansk.dslavangard.ru | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3135 | [78.40.24.0](https://vuldb.com/?ip.78.40.24.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3136 | [78.40.80.0](https://vuldb.com/?ip.78.40.80.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3137 | [78.40.116.0](https://vuldb.com/?ip.78.40.116.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3138 | [78.40.184.0](https://vuldb.com/?ip.78.40.184.0) | 78-40-184-0.static.mts-nn.ru | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3139 | [78.40.216.0](https://vuldb.com/?ip.78.40.216.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3140 | [78.40.217.0](https://vuldb.com/?ip.78.40.217.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3141 | [78.40.218.0](https://vuldb.com/?ip.78.40.218.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3142 | [78.40.220.0](https://vuldb.com/?ip.78.40.220.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3143 | [78.41.32.0](https://vuldb.com/?ip.78.41.32.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3144 | [78.41.84.0](https://vuldb.com/?ip.78.41.84.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3145 | [78.41.88.0](https://vuldb.com/?ip.78.41.88.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3146 | [78.41.96.0](https://vuldb.com/?ip.78.41.96.0) | ip-78-41-96-0.cc.netbynet.ru | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3147 | [78.41.104.0](https://vuldb.com/?ip.78.41.104.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3148 | [78.41.106.0](https://vuldb.com/?ip.78.41.106.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3149 | [78.41.108.0](https://vuldb.com/?ip.78.41.108.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3150 | [78.41.110.0](https://vuldb.com/?ip.78.41.110.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3151 | [78.41.176.0](https://vuldb.com/?ip.78.41.176.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3152 | [78.41.192.0](https://vuldb.com/?ip.78.41.192.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3153 | [78.81.0.0](https://vuldb.com/?ip.78.81.0.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3154 | [78.85.0.0](https://vuldb.com/?ip.78.85.0.0) | net.net78.udm.net | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3155 | [78.106.0.0](https://vuldb.com/?ip.78.106.0.0) | 78-106-0-0.broadband.corbina.ru | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3156 | [78.107.0.0](https://vuldb.com/?ip.78.107.0.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3157 | [78.107.128.0](https://vuldb.com/?ip.78.107.128.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3158 | [78.107.160.0](https://vuldb.com/?ip.78.107.160.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3159 | [78.107.176.0](https://vuldb.com/?ip.78.107.176.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3160 | [78.107.184.0](https://vuldb.com/?ip.78.107.184.0) | m9-crs-be12.corbina.net | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3161 | [78.107.184.64](https://vuldb.com/?ip.78.107.184.64) | korova-bb-te4-8.corbina.net | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3162 | [78.107.184.96](https://vuldb.com/?ip.78.107.184.96) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3163 | [78.107.184.105](https://vuldb.com/?ip.78.107.184.105) | bras222-gi0-0.msk.corbina.net | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3164 | [78.107.184.107](https://vuldb.com/?ip.78.107.184.107) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3165 | [78.107.184.108](https://vuldb.com/?ip.78.107.184.108) | hq-bb-gi0-6-0-17.corbina.net | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3166 | [78.107.184.112](https://vuldb.com/?ip.78.107.184.112) | hq-bb-gi0-6-0-18.corbina.net | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3167 | [78.107.184.128](https://vuldb.com/?ip.78.107.184.128) | hq-bb-gi0-6-0-7.corbina.net | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3168 | [78.107.185.0](https://vuldb.com/?ip.78.107.185.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3169 | [78.107.186.0](https://vuldb.com/?ip.78.107.186.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3170 | [78.107.188.0](https://vuldb.com/?ip.78.107.188.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3171 | [78.107.192.0](https://vuldb.com/?ip.78.107.192.0) | 78-107-192-0.broadband.corbina.ru | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3172 | [78.108.64.0](https://vuldb.com/?ip.78.108.64.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3173 | [78.108.192.0](https://vuldb.com/?ip.78.108.192.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3174 | [78.109.32.0](https://vuldb.com/?ip.78.109.32.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3175 | [78.109.112.0](https://vuldb.com/?ip.78.109.112.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3176 | [78.109.128.0](https://vuldb.com/?ip.78.109.128.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3177 | [78.110.48.0](https://vuldb.com/?ip.78.110.48.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3178 | [78.110.144.0](https://vuldb.com/?ip.78.110.144.0) | net144.alania.net | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3179 | [78.110.240.0](https://vuldb.com/?ip.78.110.240.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3180 | [78.111.80.0](https://vuldb.com/?ip.78.111.80.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3181 | [78.111.92.0](https://vuldb.com/?ip.78.111.92.0) | 78.111.92.0.ptspb.ru | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3182 | [78.111.144.0](https://vuldb.com/?ip.78.111.144.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3183 | [78.111.186.71](https://vuldb.com/?ip.78.111.186.71) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3184 | [78.111.240.0](https://vuldb.com/?ip.78.111.240.0) | 78-111-240-0.static.tvingo.ru | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3185 | [78.132.128.0](https://vuldb.com/?ip.78.132.128.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3186 | [78.136.192.0](https://vuldb.com/?ip.78.136.192.0) | ip78.136.192.0.arielnet.ru | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3187 | [78.136.201.0](https://vuldb.com/?ip.78.136.201.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3188 | [78.136.208.0](https://vuldb.com/?ip.78.136.208.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3189 | [78.136.224.0](https://vuldb.com/?ip.78.136.224.0) | 78x136x224x0.static-customer.static-customer.ulanude.ertelecom.ru | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3190 | [78.136.240.0](https://vuldb.com/?ip.78.136.240.0) | 78x136x240x0.static-business.ulanude.ertelecom.ru | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3191 | [78.137.104.0](https://vuldb.com/?ip.78.137.104.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3192 | [78.138.44.0](https://vuldb.com/?ip.78.138.44.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3193 | [78.138.128.0](https://vuldb.com/?ip.78.138.128.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3194 | [78.139.64.0](https://vuldb.com/?ip.78.139.64.0) | 0-64-139-78.kamensktel.ru | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3195 | [78.139.192.0](https://vuldb.com/?ip.78.139.192.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3196 | [78.140.0.0](https://vuldb.com/?ip.78.140.0.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3197 | [78.140.80.0](https://vuldb.com/?ip.78.140.80.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3198 | [78.140.80.16](https://vuldb.com/?ip.78.140.80.16) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3199 | [78.140.81.16](https://vuldb.com/?ip.78.140.81.16) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3200 | [78.140.192.0](https://vuldb.com/?ip.78.140.192.0) | 78.140.192.0.ptspb.net | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3201 | [78.140.208.0](https://vuldb.com/?ip.78.140.208.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3202 | [78.140.216.0](https://vuldb.com/?ip.78.140.216.0) | 78x140x216x0.static.or-terminal.ru | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3203 | [78.140.220.0](https://vuldb.com/?ip.78.140.220.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3204 | [78.140.222.0](https://vuldb.com/?ip.78.140.222.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3205 | [78.140.224.0](https://vuldb.com/?ip.78.140.224.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3206 | [78.140.240.0](https://vuldb.com/?ip.78.140.240.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3207 | [78.140.248.0](https://vuldb.com/?ip.78.140.248.0) | 78.140.248.0.ptspb.ru | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3208 | [78.140.253.0](https://vuldb.com/?ip.78.140.253.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3209 | [78.140.254.0](https://vuldb.com/?ip.78.140.254.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3210 | [78.142.220.0](https://vuldb.com/?ip.78.142.220.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3211 | [78.142.232.0](https://vuldb.com/?ip.78.142.232.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3212 | [78.142.236.0](https://vuldb.com/?ip.78.142.236.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3213 | [78.142.239.0](https://vuldb.com/?ip.78.142.239.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3214 | [78.153.0.0](https://vuldb.com/?ip.78.153.0.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3215 | [78.153.128.0](https://vuldb.com/?ip.78.153.128.0) | 0-128-153-78.interlan.ru | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3216 | [78.153.131.0](https://vuldb.com/?ip.78.153.131.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3217 | [78.153.132.0](https://vuldb.com/?ip.78.153.132.0) | 0-132-153-78.interlan.ru | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3218 | [78.153.136.0](https://vuldb.com/?ip.78.153.136.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3219 | [78.153.138.0](https://vuldb.com/?ip.78.153.138.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3220 | [78.153.140.0](https://vuldb.com/?ip.78.153.140.0) | fo000.i140.mi-1.ru | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3221 | [78.153.142.0](https://vuldb.com/?ip.78.153.142.0) | 0-142-153-78.interlan.ru | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3222 | [78.153.144.0](https://vuldb.com/?ip.78.153.144.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3223 | [78.153.145.0](https://vuldb.com/?ip.78.153.145.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3224 | [78.153.146.0](https://vuldb.com/?ip.78.153.146.0) | fo000.i146.mi-1.ru | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3225 | [78.153.148.0](https://vuldb.com/?ip.78.153.148.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3226 | [78.153.152.0](https://vuldb.com/?ip.78.153.152.0) | 0-152-153-78.interlan.ru | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3227 | [78.155.160.0](https://vuldb.com/?ip.78.155.160.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3228 | [78.155.192.0](https://vuldb.com/?ip.78.155.192.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3229 | [78.155.196.0](https://vuldb.com/?ip.78.155.196.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3230 | [78.155.199.0](https://vuldb.com/?ip.78.155.199.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3231 | [78.155.200.0](https://vuldb.com/?ip.78.155.200.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3232 | [78.155.208.0](https://vuldb.com/?ip.78.155.208.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3233 | [78.156.224.0](https://vuldb.com/?ip.78.156.224.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3234 | [78.157.224.0](https://vuldb.com/?ip.78.157.224.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3235 | [78.158.192.0](https://vuldb.com/?ip.78.158.192.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3236 | [78.159.224.0](https://vuldb.com/?ip.78.159.224.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3237 | [79.98.8.0](https://vuldb.com/?ip.79.98.8.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3238 | [79.98.88.0](https://vuldb.com/?ip.79.98.88.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3239 | [79.98.136.0](https://vuldb.com/?ip.79.98.136.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3240 | [79.98.184.0](https://vuldb.com/?ip.79.98.184.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3241 | [79.98.200.0](https://vuldb.com/?ip.79.98.200.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3242 | [79.98.208.0](https://vuldb.com/?ip.79.98.208.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3243 | [79.98.248.0](https://vuldb.com/?ip.79.98.248.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3244 | [79.99.16.0](https://vuldb.com/?ip.79.99.16.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3245 | [79.99.48.0](https://vuldb.com/?ip.79.99.48.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3246 | [79.99.104.0](https://vuldb.com/?ip.79.99.104.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3247 | [79.99.216.0](https://vuldb.com/?ip.79.99.216.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3248 | [79.99.240.0](https://vuldb.com/?ip.79.99.240.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3249 | [79.104.0.0](https://vuldb.com/?ip.79.104.0.0) | - | [Russian Federation Unknown](https://vuldb.com/?actor.russian_federation_unknown) | High
+3250 | [79.104.1.0](https://vuldb.com/?ip.79.104.1.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3251 | [79.104.1.68](https://vuldb.com/?ip.79.104.1.68) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3252 | [79.104.1.72](https://vuldb.com/?ip.79.104.1.72) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3253 | [79.104.1.80](https://vuldb.com/?ip.79.104.1.80) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3254 | [79.104.1.96](https://vuldb.com/?ip.79.104.1.96) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3255 | [79.104.1.128](https://vuldb.com/?ip.79.104.1.128) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3256 | [79.104.2.0](https://vuldb.com/?ip.79.104.2.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3257 | [79.104.4.0](https://vuldb.com/?ip.79.104.4.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3258 | [79.104.8.0](https://vuldb.com/?ip.79.104.8.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3259 | [79.104.16.0](https://vuldb.com/?ip.79.104.16.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3260 | [79.104.32.0](https://vuldb.com/?ip.79.104.32.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3261 | [79.104.32.64](https://vuldb.com/?ip.79.104.32.64) | an01.Institutskaya7.Blagov.gldn.net | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3262 | [79.104.32.72](https://vuldb.com/?ip.79.104.32.72) | an01.Fabritsiusa2.Sochi.gldn.net | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3263 | [79.104.32.77](https://vuldb.com/?ip.79.104.32.77) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3264 | [79.104.32.78](https://vuldb.com/?ip.79.104.32.78) | pe04.Sochi.gldn.net | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3265 | [79.104.32.80](https://vuldb.com/?ip.79.104.32.80) | cisco1.Gvardeyskaya57.Ufa.gldn.net | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3266 | [79.104.32.96](https://vuldb.com/?ip.79.104.32.96) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3267 | [79.104.32.128](https://vuldb.com/?ip.79.104.32.128) | pe02.Sochi.gldn.net | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3268 | [79.104.32.192](https://vuldb.com/?ip.79.104.32.192) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3269 | [79.104.32.224](https://vuldb.com/?ip.79.104.32.224) | pe01.Irkutsk.gldn.net | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3270 | [79.104.32.240](https://vuldb.com/?ip.79.104.32.240) | pe01.Nsk.gldn.net | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3271 | [79.104.32.244](https://vuldb.com/?ip.79.104.32.244) | an01.Oktyabr97.Volsk.gldn.net | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3272 | [79.104.32.247](https://vuldb.com/?ip.79.104.32.247) | pe01.8Marta.Moscow.gldn.net | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3273 | [79.104.32.248](https://vuldb.com/?ip.79.104.32.248) | bras1.Voronezh.gldn.net | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3274 | [79.104.33.0](https://vuldb.com/?ip.79.104.33.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3275 | [79.104.34.0](https://vuldb.com/?ip.79.104.34.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3276 | [79.104.36.0](https://vuldb.com/?ip.79.104.36.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3277 | [79.104.40.0](https://vuldb.com/?ip.79.104.40.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3278 | [79.104.48.0](https://vuldb.com/?ip.79.104.48.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+3279 | [79.104.64.0](https://vuldb.com/?ip.79.104.64.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
 3280 | ... | ... | ... | ...
 
-There are 13114 more IOC items available. Please use our online service to access the data.
+There are 13116 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -3323,13 +3323,15 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23, CWE-24, CWE-29, CWE-36, CWE-425 | Pathname Traversal | High
-2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94 | Cross Site Scripting | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-29, CWE-425 | Pathname Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | T1068 | CWE-250, CWE-264, CWE-269, CWE-274, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+7 | ... | ... | ... | ...
 
-There are 16 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -3337,39 +3339,57 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin.php?c=upload&f=zip&_noCache=0.1683794968` | High
-2 | File | `/admin/?page=user/list` | High
-3 | File | `/admin/ajax.php?action=save_area` | High
-4 | File | `/admin/budget/manage_budget.php` | High
-5 | File | `/admin/contacts/organizations/edit/2` | High
-6 | File | `/admin/edit_subject.php` | High
-7 | File | `/admin/modal_add_product.php` | High
-8 | File | `/admin/reportupload.aspx` | High
-9 | File | `/admin/save_teacher.php` | High
-10 | File | `/admin/service.php` | High
-11 | File | `/admin/update_s6.php` | High
-12 | File | `/advanced-tools/nova/bin/netwatch` | High
-13 | File | `/ajax.php?action=read_msg` | High
-14 | File | `/ajax.php?action=save_company` | High
-15 | File | `/api/stl/actions/search` | High
-16 | File | `/bin/login` | Medium
-17 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-18 | File | `/cas/logout` | Medium
-19 | File | `/cgi-bin/wlogin.cgi` | High
-20 | File | `/classes/Master.php?f=delete_category` | High
-21 | File | `/classes/Master.php?f=delete_service` | High
-22 | File | `/debug/pprof` | Medium
-23 | File | `/dosen/data` | Medium
-24 | File | `/E-mobile/App/System/File/downfile.php` | High
-25 | File | `/feeds/post/publish` | High
-26 | File | `/forum/away.php` | High
-27 | File | `/hslist` | Low
-28 | File | `/inc/jquery/uploadify/uploadify.php` | High
-29 | File | `/index.php?app=main&func=passport&action=login` | High
-30 | File | `/index.php?page=category_list` | High
-31 | ... | ... | ...
+1 | File | `.github/workflows/comment.yml` | High
+2 | File | `/?r=recruit/resume/edit&op=status` | High
+3 | File | `/account/delivery` | High
+4 | File | `/admin/?page=user/manage_user&id=3` | High
+5 | File | `/admin/add_user_modal.php` | High
+6 | File | `/admin/del_category.php` | High
+7 | File | `/admin/del_service.php` | High
+8 | File | `/admin/edit_product.php` | High
+9 | File | `/admin/forgot-password.php` | High
+10 | File | `/admin/index.php` | High
+11 | File | `/admin/index/index.html#/admin/mall.goods/index.html` | High
+12 | File | `/admin/search-appointment.php` | High
+13 | File | `/admin/sys_sql_query.php` | High
+14 | File | `/admin/test_status.php` | High
+15 | File | `/api/baskets/{name}` | High
+16 | File | `/api/common/ping` | High
+17 | File | `/api/ping` | Medium
+18 | File | `/api/set-password` | High
+19 | File | `/App_Resource/UEditor/server/upload.aspx` | High
+20 | File | `/author_posts.php` | High
+21 | File | `/blog` | Low
+22 | File | `/booking/show_bookings/` | High
+23 | File | `/browse` | Low
+24 | File | `/category.php` | High
+25 | File | `/chaincity/user/ticket/create` | High
+26 | File | `/classes/Master.php?f=delete_category` | High
+27 | File | `/classes/Master.php?f=delete_inquiry` | High
+28 | File | `/classes/Master.php?f=save_inquiry` | High
+29 | File | `/classes/Master.php?f=save_item` | High
+30 | File | `/classes/Master.php?f=save_service` | High
+31 | File | `/company/store` | High
+32 | File | `/concat?/%2557EB-INF/web.xml` | High
+33 | File | `/config` | Low
+34 | File | `/contact.php` | Medium
+35 | File | `/Controller/Ajaxfileupload.ashx` | High
+36 | File | `/dipam/athlete-profile.php` | High
+37 | File | `/Duty/AjaxHandle/UpLoadFloodPlanFile.ashx` | High
+38 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
+39 | File | `/en/blog-comment-4` | High
+40 | File | `/etc/passwd` | Medium
+41 | File | `/forum/away.php` | High
+42 | File | `/getcfg.php` | Medium
+43 | File | `/h/` | Low
+44 | File | `/home/filter_listings` | High
+45 | File | `/home/kickPlayer` | High
+46 | File | `/home/search` | Medium
+47 | File | `/index.php` | Medium
+48 | File | `/index.php/client/message/message_read/xxxxxxxx[random-msg-hash]` | High
+49 | ... | ... | ...
 
-There are 260 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 423 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -3381,6 +3401,7 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://community.blueliv.com/#!/s/628f220382df413eb5359232
 * https://ddanchev.blogspot.com/2022/02/the-cyber-war-between-russia-and.html
 * https://ddanchev.blogspot.com/2023/01/exposing-russian-business-networks.html
+* https://exchange.xforce.ibmcloud.com/report/details/guid:4c5162464abb612a04220c6b1453c5d5
 * https://github.com/firehol/blocklist-ipsets/blob/master/geolite2_country/country_ru.netset
 * https://github.com/firehol/blocklist-ipsets/blob/master/ip2location_country/ip2location_country_ru.netset
 * https://isc.sans.edu/forums/diary/A+few+IoCs+related+to+CVE20205902/26378/

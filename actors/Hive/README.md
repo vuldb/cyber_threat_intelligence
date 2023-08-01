@@ -71,7 +71,7 @@ ID | Type | Indicator | Confidence
 18 | File | `/sbin/acos_service` | High
 19 | ... | ... | ...
 
-There are 152 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 155 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

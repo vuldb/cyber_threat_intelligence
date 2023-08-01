@@ -46,12 +46,12 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/x_program_center/jaxrs/invoke` | High
-2 | File | `awstats.pl` | Medium
-3 | File | `class.showtime2_image.php` | High
+1 | File | `/debug/pprof` | Medium
+2 | File | `/x_program_center/jaxrs/invoke` | High
+3 | File | `awstats.pl` | Medium
 4 | ... | ... | ...
 
-There are 10 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 11 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

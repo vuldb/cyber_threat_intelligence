@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [KZ](https://vuldb.com/?country.kz)
 * ...
 
-There are 15 more country items available. Please use our online service to access the data.
+There are 14 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -214,14 +214,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-28 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-28, CWE-50 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -237,42 +237,42 @@ ID | Type | Indicator | Confidence
 6 | File | `/admin/add-new.php` | High
 7 | File | `/admin/doctors.php` | High
 8 | File | `/admin/submit-articles` | High
-9 | File | `/advanced-tools/nova/bin/netwatch` | High
-10 | File | `/ad_js.php` | Medium
-11 | File | `/alphaware/summary.php` | High
-12 | File | `/api/` | Low
-13 | File | `/api/admin/store/product/list` | High
-14 | File | `/api/common/ping` | High
-15 | File | `/api/stl/actions/search` | High
-16 | File | `/api/v2/cli/commands` | High
-17 | File | `/attachments` | Medium
-18 | File | `/boat/login.php` | High
+9 | File | `/alphaware/summary.php` | High
+10 | File | `/api/` | Low
+11 | File | `/api/admin/store/product/list` | High
+12 | File | `/api/common/ping` | High
+13 | File | `/api/stl/actions/search` | High
+14 | File | `/api/v2/cli/commands` | High
+15 | File | `/attachments` | Medium
+16 | File | `/bin/ate` | Medium
+17 | File | `/boat/login.php` | High
+18 | File | `/booking/show_bookings/` | High
 19 | File | `/bsms_ci/index.php/book` | High
 20 | File | `/cgi-bin` | Medium
-21 | File | `/cgi-bin/luci/api/wireless` | High
-22 | File | `/cgi-bin/wlogin.cgi` | High
-23 | File | `/context/%2e/WEB-INF/web.xml` | High
-24 | File | `/debug/pprof` | Medium
-25 | File | `/etc/hosts` | Medium
-26 | File | `/etc/srapi/config/system.conf` | High
+21 | File | `/cgi-bin/wlogin.cgi` | High
+22 | File | `/context/%2e/WEB-INF/web.xml` | High
+23 | File | `/debug/pprof` | Medium
+24 | File | `/dottie.js` | Medium
+25 | File | `/env` | Low
+26 | File | `/etc/hosts` | Medium
 27 | File | `/forum/away.php` | High
 28 | File | `/geoserver/rest/about/status` | High
 29 | File | `/goform/setmac` | High
 30 | File | `/goform/wizard_end` | High
 31 | File | `/graphql` | Medium
 32 | File | `/KK_LS9ReportingPortal/GetData` | High
-33 | File | `/manage-apartment.php` | High
-34 | File | `/medicines/profile.php` | High
-35 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-36 | File | `/pages/apply_vacancy.php` | High
-37 | File | `/plesk-site-preview/` | High
-38 | File | `/proxy` | Low
-39 | File | `/reservation/add_message.php` | High
+33 | File | `/medicines/profile.php` | High
+34 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+35 | File | `/php-sms/admin/?page=user/manage_user` | High
+36 | File | `/plesk-site-preview/` | High
+37 | File | `/proxy` | Low
+38 | File | `/reservation/add_message.php` | High
+39 | File | `/resources//../` | High
 40 | File | `/spip.php` | Medium
 41 | File | `/tmp` | Low
 42 | ... | ... | ...
 
-There are 359 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 362 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

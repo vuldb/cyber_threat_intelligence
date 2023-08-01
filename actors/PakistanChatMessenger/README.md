@@ -65,10 +65,10 @@ ID | Type | Indicator | Confidence
 15 | File | `/services/Card/findUser` | High
 16 | File | `/show_group_members.php` | High
 17 | File | `/sqfs/bin/sccd` | High
-18 | File | `/whbs/?page=manage_account` | High
+18 | File | `/user/profile` | High
 19 | ... | ... | ...
 
-There are 154 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 159 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with LinuxMoose:
 
 * [CN](https://vuldb.com/?country.cn)
-* [NL](https://vuldb.com/?country.nl)
 * [US](https://vuldb.com/?country.us)
+* [NL](https://vuldb.com/?country.nl)
 * ...
 
 There are 18 more country items available. Please use our online service to access the data.
@@ -46,7 +46,7 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-28 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -73,35 +73,37 @@ ID | Type | Indicator | Confidence
 13 | File | `/api/stl/actions/search` | High
 14 | File | `/api/v2/cli/commands` | High
 15 | File | `/attachments` | Medium
-16 | File | `/bin/boa` | Medium
-17 | File | `/boat/login.php` | High
-18 | File | `/bsms_ci/index.php/book` | High
-19 | File | `/cgi-bin` | Medium
-20 | File | `/cgi-bin/luci/api/wireless` | High
-21 | File | `/cgi-bin/wlogin.cgi` | High
-22 | File | `/comments` | Medium
-23 | File | `/context/%2e/WEB-INF/web.xml` | High
-24 | File | `/dcim/sites/add/` | High
-25 | File | `/debug/pprof` | Medium
-26 | File | `/dev/shm` | Medium
-27 | File | `/ebics-server/ebics.aspx` | High
-28 | File | `/etc/hosts` | Medium
-29 | File | `/etc/shadow` | Medium
-30 | File | `/export` | Low
-31 | File | `/forum/away.php` | High
-32 | File | `/goform/setmac` | High
-33 | File | `/goform/wizard_end` | High
-34 | File | `/hardware` | Medium
-35 | File | `/include/makecvs.php` | High
-36 | File | `/librarian/bookdetails.php` | High
-37 | File | `/manage-apartment.php` | High
-38 | File | `/medicines/profile.php` | High
-39 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-40 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-41 | File | `/out.php` | Medium
-42 | ... | ... | ...
+16 | File | `/bin/ate` | Medium
+17 | File | `/bin/boa` | Medium
+18 | File | `/boat/login.php` | High
+19 | File | `/booking/show_bookings/` | High
+20 | File | `/bsms_ci/index.php/book` | High
+21 | File | `/cgi-bin` | Medium
+22 | File | `/cgi-bin/luci/api/wireless` | High
+23 | File | `/cgi-bin/wlogin.cgi` | High
+24 | File | `/comments` | Medium
+25 | File | `/context/%2e/WEB-INF/web.xml` | High
+26 | File | `/dcim/sites/add/` | High
+27 | File | `/debug/pprof` | Medium
+28 | File | `/dev/shm` | Medium
+29 | File | `/ebics-server/ebics.aspx` | High
+30 | File | `/env` | Low
+31 | File | `/etc/hosts` | Medium
+32 | File | `/etc/shadow` | Medium
+33 | File | `/export` | Low
+34 | File | `/forum/away.php` | High
+35 | File | `/goform/setmac` | High
+36 | File | `/goform/wizard_end` | High
+37 | File | `/hardware` | Medium
+38 | File | `/include/makecvs.php` | High
+39 | File | `/librarian/bookdetails.php` | High
+40 | File | `/medicines/profile.php` | High
+41 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+42 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+43 | File | `/out.php` | Medium
+44 | ... | ... | ...
 
-There are 364 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 380 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

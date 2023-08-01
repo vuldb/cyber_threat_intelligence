@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [US](https://vuldb.com/?country.us)
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -155,15 +155,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-36, CWE-425 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
-7 | ... | ... | ... | ...
+6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -171,54 +170,58 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/?p=products` | Medium
-2 | File | `/admin.php/accessory/filesdel.html` | High
-3 | File | `/admin/?page=user/manage` | High
-4 | File | `/admin/add-new.php` | High
-5 | File | `/admin/attendance_row.php` | High
-6 | File | `/admin/doctors.php` | High
-7 | File | `/admin/edit_subject.php` | High
-8 | File | `/admin/employee_row.php` | High
-9 | File | `/admin/index3.php` | High
-10 | File | `/admin/maintenance/brand.php` | High
-11 | File | `/admin/maintenance/view_designation.php` | High
-12 | File | `/admin/mechanics/manage_mechanic.php` | High
-13 | File | `/admin/orders/update_status.php` | High
-14 | File | `/admin/reportupload.aspx` | High
-15 | File | `/admin/service.php` | High
-16 | File | `/admin/service_requests/manage_inventory.php` | High
-17 | File | `/admin/transactions/track_shipment.php` | High
-18 | File | `/adms/admin/?page=vehicles/view_transaction` | High
-19 | File | `/alphaware/summary.php` | High
-20 | File | `/api/` | Low
-21 | File | `/api/admin/store/product/list` | High
-22 | File | `/api/crontab` | Medium
-23 | File | `/api/stl/actions/search` | High
-24 | File | `/api/v2/cli/commands` | High
-25 | File | `/api2/html/` | Medium
-26 | File | `/archibus/login.axvw` | High
-27 | File | `/bin/ate` | Medium
-28 | File | `/boat/login.php` | High
-29 | File | `/cgi-bin` | Medium
-30 | File | `/cgi-bin/nightled.cgi` | High
-31 | File | `/cgi-bin/wlogin.cgi` | High
-32 | File | `/check` | Low
-33 | File | `/churchcrm/v2/family/not-found` | High
-34 | File | `/classes/Master.php?f=delete_inquiry` | High
-35 | File | `/classes/Master.php?f=delete_sub_category` | High
-36 | File | `/CPE` | Low
-37 | File | `/debug/pprof` | Medium
-38 | File | `/env` | Low
-39 | File | `/etc/pki/pesign` | High
-40 | File | `/file_manager/admin/save_user.php` | High
-41 | File | `/forum/away.php` | High
-42 | File | `/goform/aspForm` | High
-43 | File | `/goform/SetFirewallCfg` | High
-44 | File | `/inc/topBarNav.php` | High
-45 | File | `/iwgallery/pictures/details.asp` | High
-46 | ... | ... | ...
+1 | File | `.htaccess` | Medium
+2 | File | `/?p=products` | Medium
+3 | File | `/?r=recruit/resume/edit&op=status` | High
+4 | File | `/admin.php/accessory/filesdel.html` | High
+5 | File | `/admin/?page=user/manage` | High
+6 | File | `/admin/add-new.php` | High
+7 | File | `/admin/attendance_row.php` | High
+8 | File | `/admin/doctors.php` | High
+9 | File | `/admin/edit-accepted-appointment.php` | High
+10 | File | `/admin/edit-services.php` | High
+11 | File | `/admin/edit_subject.php` | High
+12 | File | `/admin/employee_row.php` | High
+13 | File | `/admin/index3.php` | High
+14 | File | `/admin/maintenance/brand.php` | High
+15 | File | `/admin/maintenance/view_designation.php` | High
+16 | File | `/admin/mechanics/manage_mechanic.php` | High
+17 | File | `/admin/orders/update_status.php` | High
+18 | File | `/admin/read.php?mudi=getSignal` | High
+19 | File | `/admin/reportupload.aspx` | High
+20 | File | `/admin/service.php` | High
+21 | File | `/admin/service_requests/manage_inventory.php` | High
+22 | File | `/admin/test_status.php` | High
+23 | File | `/admin/transactions/track_shipment.php` | High
+24 | File | `/alphaware/summary.php` | High
+25 | File | `/api/` | Low
+26 | File | `/api/admin/store/product/list` | High
+27 | File | `/api/baskets/{name}` | High
+28 | File | `/api/crontab` | Medium
+29 | File | `/api/stl/actions/search` | High
+30 | File | `/api/v2/cli/commands` | High
+31 | File | `/api2/html/` | Medium
+32 | File | `/archibus/login.axvw` | High
+33 | File | `/bin/ate` | Medium
+34 | File | `/blog` | Low
+35 | File | `/boat/login.php` | High
+36 | File | `/booking/show_bookings/` | High
+37 | File | `/cgi-bin` | Medium
+38 | File | `/cgi-bin/nightled.cgi` | High
+39 | File | `/cgi-bin/wlogin.cgi` | High
+40 | File | `/change-language/de_DE` | High
+41 | File | `/churchcrm/v2/family/not-found` | High
+42 | File | `/classes/Master.php?f=delete_inquiry` | High
+43 | File | `/classes/Master.php?f=delete_sub_category` | High
+44 | File | `/company/store` | High
+45 | File | `/config` | Low
+46 | File | `/csms/?page=contact_us` | High
+47 | File | `/debug/pprof` | Medium
+48 | File | `/dipam/save-delegates.php` | High
+49 | File | `/env` | Low
+50 | ... | ... | ...
 
-There are 402 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 436 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

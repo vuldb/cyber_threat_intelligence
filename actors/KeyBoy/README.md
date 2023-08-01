@@ -36,7 +36,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 12 more TTP items available. Please use our online service to access the data.
+There are 13 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -46,12 +46,13 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/.ssh/authorized_keys` | High
 2 | File | `/baseOpLog.do` | High
-3 | File | `/cgi-bin/api-get_line_status` | High
-4 | File | `/cgi-bin/wapopen` | High
-5 | File | `/controller/OnlinePreviewController.java` | High
-6 | ... | ... | ...
+3 | File | `/bitrix/admin/ldap_server_edit.php` | High
+4 | File | `/cgi-bin/api-get_line_status` | High
+5 | File | `/cgi-bin/wapopen` | High
+6 | File | `/controller/OnlinePreviewController.java` | High
+7 | ... | ... | ...
 
-There are 41 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 44 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

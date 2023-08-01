@@ -8,8 +8,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Applejeus:
 
-* [VN](https://vuldb.com/?country.vn)
 * [US](https://vuldb.com/?country.us)
+* [VN](https://vuldb.com/?country.vn)
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
@@ -41,7 +41,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -52,50 +52,50 @@ ID | Type | Indicator | Confidence
 1 | File | `/+CSCOE+/logon.html` | High
 2 | File | `/?ajax-request=jnews` | High
 3 | File | `/admin/upload/upload` | High
-4 | File | `/api/gen/clients/{language}` | High
-5 | File | `/cgi-bin/wlogin.cgi` | High
-6 | File | `/classes/Users.php` | High
-7 | File | `/config/getuser` | High
-8 | File | `/config/myfield/test.php` | High
-9 | File | `/debug/pprof` | Medium
-10 | File | `/ecshop/admin/template.php` | High
-11 | File | `/example/editor` | High
+4 | File | `/api/baskets/{name}` | High
+5 | File | `/api/gen/clients/{language}` | High
+6 | File | `/cgi-bin/wlogin.cgi` | High
+7 | File | `/classes/Users.php` | High
+8 | File | `/config/getuser` | High
+9 | File | `/config/myfield/test.php` | High
+10 | File | `/debug/pprof` | Medium
+11 | File | `/ecshop/admin/template.php` | High
 12 | File | `/file/upload/1` | High
 13 | File | `/forum/away.php` | High
 14 | File | `/forum/PostPrivateMessage` | High
-15 | File | `/HNAP1` | Low
+15 | File | `/goform/set_LimitClient_cfg` | High
 16 | File | `/home/www/cgi-bin/login.cgi` | High
-17 | File | `/iu-application/controllers/administration/auth.php` | High
-18 | File | `/Kofax/KFS/ThinClient/document/upload/` | High
-19 | File | `/multi-vendor-shopping-script/product-list.php` | High
-20 | File | `/net-banking/customer_transactions.php` | High
-21 | File | `/obs/book.php` | High
-22 | File | `/ossn/administrator/com_installer` | High
-23 | File | `/pms/update_user.php?user_id=1` | High
+17 | File | `/multi-vendor-shopping-script/product-list.php` | High
+18 | File | `/net-banking/customer_transactions.php` | High
+19 | File | `/obs/book.php` | High
+20 | File | `/ossn/administrator/com_installer` | High
+21 | File | `/owa/auth/logon.aspx` | High
+22 | File | `/pms/update_user.php?user_id=1` | High
+23 | File | `/preview.php` | Medium
 24 | File | `/requests.php` | High
 25 | File | `/spip.php` | Medium
-26 | File | `/sre/params.php` | High
-27 | File | `/tmp` | Low
-28 | File | `/uncpath/` | Medium
-29 | File | `/user/upload/upload` | High
-30 | File | `/Users` | Low
-31 | File | `/var/spool/hylafax` | High
-32 | File | `/vendor` | Low
-33 | File | `accountrecoveryendpoint/recoverpassword.do` | High
-34 | File | `action/addproject.php` | High
-35 | File | `adclick.php` | Medium
-36 | File | `add_contestant.php` | High
-37 | File | `admin.php` | Medium
-38 | File | `admin/index.php` | High
-39 | File | `admin/make_payments.php` | High
-40 | File | `Advanced_ASUSDDNS_Content.asp` | High
-41 | File | `af_netlink.c` | Medium
-42 | File | `album_portal.php` | High
-43 | File | `api_jsonrpc.php` | High
-44 | File | `artreplydelete.asp` | High
+26 | File | `/sqlite3_aflpp/shell.c` | High
+27 | File | `/sre/params.php` | High
+28 | File | `/SVFE2/pages/feegroups/service_group.jsf` | High
+29 | File | `/uncpath/` | Medium
+30 | File | `/user/upload/upload` | High
+31 | File | `/Users` | Low
+32 | File | `/var/spool/hylafax` | High
+33 | File | `/vendor` | Low
+34 | File | `AccessibilityManagerService.java` | High
+35 | File | `accountrecoveryendpoint/recoverpassword.do` | High
+36 | File | `adclick.php` | Medium
+37 | File | `add_contestant.php` | High
+38 | File | `admin.php` | Medium
+39 | File | `admin/edit_category.php` | High
+40 | File | `admin/index.php` | High
+41 | File | `admin/make_payments.php` | High
+42 | File | `af_netlink.c` | Medium
+43 | File | `album_portal.php` | High
+44 | File | `api/auth.go` | Medium
 45 | ... | ... | ...
 
-There are 390 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 392 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

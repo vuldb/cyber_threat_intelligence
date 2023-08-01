@@ -22,6 +22,8 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [14.140.116.172](https://vuldb.com/?ip.14.140.116.172) | 14-140-116-172-sapient.com | - | High
+2 | [203.131.222.83](https://vuldb.com/?ip.203.131.222.83) | - | - | High
+3 | [203.131.222.109](https://vuldb.com/?ip.203.131.222.109) | - | - | High
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -34,7 +36,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
-There are 8 more TTP items available. Please use our online service to access the data.
+There are 9 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -47,7 +49,7 @@ ID | Type | Indicator | Confidence
 3 | File | `data/console/redirect` | High
 4 | ... | ... | ...
 
-There are 11 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 12 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

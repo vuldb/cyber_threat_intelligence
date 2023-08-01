@@ -57,23 +57,24 @@ ID | Type | Indicator | Confidence
 1 | File | `.htaccess` | Medium
 2 | File | `/apiclient/ember/index.jsp` | High
 3 | File | `/Application/Admin/Controller/ConfigController.class.php` | High
-4 | File | `/etc/sysconfig/tomcat` | High
-5 | File | `/forum/away.php` | High
-6 | File | `/getcfg.php` | Medium
-7 | File | `/goform` | Low
-8 | File | `/login/index.php` | High
-9 | File | `/mgmt/tm/util/bash` | High
-10 | File | `/printers` | Medium
-11 | File | `/SASWebReportStudio/logonAndRender.do` | High
-12 | File | `/uncpath/` | Medium
-13 | File | `/viewer/krpano.html` | High
-14 | File | `/wp-json/oembed/1.0/embed?url` | High
-15 | File | `/_vti_pvt/access.cnf` | High
-16 | File | `ActionServlet.java` | High
-17 | File | `adclick.php` | Medium
-18 | ... | ... | ...
+4 | File | `/bin/boa` | Medium
+5 | File | `/cimom` | Low
+6 | File | `/etc/sysconfig/tomcat` | High
+7 | File | `/forum/away.php` | High
+8 | File | `/getcfg.php` | Medium
+9 | File | `/goform` | Low
+10 | File | `/login/index.php` | High
+11 | File | `/mgmt/tm/util/bash` | High
+12 | File | `/printers` | Medium
+13 | File | `/SASWebReportStudio/logonAndRender.do` | High
+14 | File | `/uncpath/` | Medium
+15 | File | `/viewer/krpano.html` | High
+16 | File | `/wp-json/oembed/1.0/embed?url` | High
+17 | File | `/_vti_pvt/access.cnf` | High
+18 | File | `ActionServlet.java` | High
+19 | ... | ... | ...
 
-There are 145 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 154 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

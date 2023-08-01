@@ -45,29 +45,30 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.htaccess` | Medium
-2 | File | `/addNotifyServlet` | High
-3 | File | `/admin.php/pic/admin/pic/hy` | High
-4 | File | `/admin/?page=reports/stockin` | High
-5 | File | `/admin/inbox.php&action=read` | High
-6 | File | `/admin/operations/packages.php` | High
-7 | File | `/admin/orders/update_status.php` | High
-8 | File | `/admin/pages/sections_save.php` | High
-9 | File | `/admin/settings/save.php` | High
-10 | File | `/admin/uesrs.php&action=display&value=Show` | High
-11 | File | `/apply.cgi` | Medium
-12 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-13 | File | `/config/list` | Medium
-14 | File | `/coreframe/app/guestbook/myissue.php` | High
-15 | File | `/dede/co_do.php` | High
-16 | File | `/DXR.axd` | Medium
-17 | File | `/etc/init.d/sshd_service` | High
-18 | File | `/fuel/sitevariables/delete/4` | High
-19 | File | `/goform/saveParentControlInfo` | High
-20 | File | `/goform/setSnmpInfo` | High
-21 | File | `/include/make.php` | High
-22 | ... | ... | ...
+2 | File | `/?r=recruit/resume/edit&op=status` | High
+3 | File | `/addNotifyServlet` | High
+4 | File | `/admin.php/pic/admin/pic/hy` | High
+5 | File | `/admin/?page=reports/stockin` | High
+6 | File | `/admin/inbox.php&action=read` | High
+7 | File | `/admin/operations/packages.php` | High
+8 | File | `/admin/orders/update_status.php` | High
+9 | File | `/admin/pages/sections_save.php` | High
+10 | File | `/admin/settings/save.php` | High
+11 | File | `/admin/uesrs.php&action=display&value=Show` | High
+12 | File | `/admin/vote_edit.php` | High
+13 | File | `/apply.cgi` | Medium
+14 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+15 | File | `/classes/Master.php?f=save_inquiry` | High
+16 | File | `/config/list` | Medium
+17 | File | `/coreframe/app/guestbook/myissue.php` | High
+18 | File | `/dede/co_do.php` | High
+19 | File | `/DXR.axd` | Medium
+20 | File | `/etc/init.d/sshd_service` | High
+21 | File | `/fuel/sitevariables/delete/4` | High
+22 | File | `/goform/saveParentControlInfo` | High
+23 | ... | ... | ...
 
-There are 187 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 195 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

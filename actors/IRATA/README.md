@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [DE](https://vuldb.com/?country.de)
 * ...
 
-There are 2 more country items available. Please use our online service to access the data.
+There are 3 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -21,12 +21,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [20.197.199.136](https://vuldb.com/?ip.20.197.199.136) | - | - | High
-2 | [20.226.94.49](https://vuldb.com/?ip.20.226.94.49) | - | - | High
-3 | [20.238.64.240](https://vuldb.com/?ip.20.238.64.240) | - | - | High
+1 | [5.255.113.62](https://vuldb.com/?ip.5.255.113.62) | - | - | High
+2 | [5.255.117.115](https://vuldb.com/?ip.5.255.117.115) | - | - | High
+3 | [20.197.199.136](https://vuldb.com/?ip.20.197.199.136) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 8 more IOC items available. Please use our online service to access the data.
+There are 12 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -54,20 +54,24 @@ ID | Type | Indicator | Confidence
 5 | File | `/pms/admin/prisons/view_prison.php` | High
 6 | ... | ... | ...
 
-There are 36 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 39 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://bazaar.abuse.ch/sample/087fb94dc34cb66d30105933b33ab6517996e8dfd07fac4fa17e47900d3cd33c/
 * https://bazaar.abuse.ch/sample/50abd8e28534d77ae9fa85c016a0fb180e372f0284fd84014dc7fc9d42692883/
 * https://bazaar.abuse.ch/sample/ab46635a51c709b132e5245456e78a00c86c169c0aa24e56e557d574aa8c36d0/
 * https://bazaar.abuse.ch/sample/d39434517a7a7d6bc62fe68d8bd4e43b4132734bcf7abcd6f3eec8de3eb23fcf/
+* https://bazaar.abuse.ch/sample/efc9d49d3bea48fd72d09d1588d69af7c0eb61a0eb72568986116d4a205e4711/
 * https://threatfox.abuse.ch
 * https://threatfox.abuse.ch/ioc/845209/
+* https://tria.ge/230709-y4d3bsfh67/behavioral2#report:~:text=Network-,Requests,-TCP
 * https://twitter.com/onecert_ir/status/1558944995628941312
 * https://twitter.com/onecert_ir/status/1564267795680055297
 * https://urlhaus.abuse.ch/host/23.88.43.247/
+* https://www.joesandbox.com/analysis/1277946
 
 ## Literature
 

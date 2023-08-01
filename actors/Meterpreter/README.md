@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Meterpreter:
 
 * [US](https://vuldb.com/?country.us)
+* [IO](https://vuldb.com/?country.io)
 * [CN](https://vuldb.com/?country.cn)
-* [FR](https://vuldb.com/?country.fr)
 * ...
 
-There are 19 more country items available. Please use our online service to access the data.
+There are 21 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -29,13 +29,14 @@ ID | IP address | Hostname | Campaign | Confidence
 6 | [3.141.204.47](https://vuldb.com/?ip.3.141.204.47) | ec2-3-141-204-47.us-east-2.compute.amazonaws.com | - | Medium
 7 | [3.142.71.14](https://vuldb.com/?ip.3.142.71.14) | ec2-3-142-71-14.us-east-2.compute.amazonaws.com | - | Medium
 8 | [3.142.157.76](https://vuldb.com/?ip.3.142.157.76) | ec2-3-142-157-76.us-east-2.compute.amazonaws.com | - | Medium
-9 | [13.234.135.58](https://vuldb.com/?ip.13.234.135.58) | ec2-13-234-135-58.ap-south-1.compute.amazonaws.com | - | Medium
-10 | [18.167.109.204](https://vuldb.com/?ip.18.167.109.204) | ec2-18-167-109-204.ap-east-1.compute.amazonaws.com | - | Medium
-11 | [23.94.107.211](https://vuldb.com/?ip.23.94.107.211) | read-variation.pickexit.com | - | High
-12 | [35.157.111.131](https://vuldb.com/?ip.35.157.111.131) | ec2-35-157-111-131.eu-central-1.compute.amazonaws.com | - | Medium
-13 | ... | ... | ... | ...
+9 | [8.130.105.57](https://vuldb.com/?ip.8.130.105.57) | - | - | High
+10 | [13.234.135.58](https://vuldb.com/?ip.13.234.135.58) | ec2-13-234-135-58.ap-south-1.compute.amazonaws.com | - | Medium
+11 | [18.167.109.204](https://vuldb.com/?ip.18.167.109.204) | ec2-18-167-109-204.ap-east-1.compute.amazonaws.com | - | Medium
+12 | [23.94.107.211](https://vuldb.com/?ip.23.94.107.211) | read-variation.pickexit.com | - | High
+13 | [35.157.111.131](https://vuldb.com/?ip.35.157.111.131) | ec2-35-157-111-131.eu-central-1.compute.amazonaws.com | - | Medium
+14 | ... | ... | ... | ...
 
-There are 46 more IOC items available. Please use our online service to access the data.
+There are 53 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -67,36 +68,40 @@ ID | Type | Indicator | Confidence
 8 | File | `/backend/system.html` | High
 9 | File | `/dvcset/sysset/set.cgi` | High
 10 | File | `/edit-db.php` | Medium
-11 | File | `/go/api/config/backup` | High
-12 | File | `/goform/aspForm` | High
-13 | File | `/include/stat/stat.php` | High
-14 | File | `/index.php` | Medium
-15 | File | `/mkshope/login.php` | High
-16 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-17 | File | `/redpass.cgi` | Medium
-18 | File | `/spip.php` | Medium
-19 | File | `/uncpath/` | Medium
-20 | File | `/user/zs_elite.php` | High
-21 | File | `/usr/bin/pkexec` | High
-22 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
-23 | File | `/vloggers_merch/classes/Master.php?f=delete_order` | High
-24 | File | `/webman/info.cgi` | High
-25 | File | `/wp-admin/admin-ajax.php` | High
-26 | File | `5.2.9\syscrb.exe` | High
-27 | File | `abook_database.php` | High
-28 | File | `accountrecoveryendpoint/recoverpassword.do` | High
-29 | File | `admin/review.php` | High
-30 | File | `admin_add.php` | High
-31 | File | `apps/app_article/controller/rating.php` | High
-32 | File | `ashnews.php/ashheadlines.php` | High
-33 | File | `attachment.do` | High
-34 | File | `auth.php` | Medium
-35 | File | `auth2-gss.c` | Medium
-36 | File | `b/deploy/index.php` | High
-37 | File | `board.php` | Medium
-38 | ... | ... | ...
+11 | File | `/en/blog-comment-4` | High
+12 | File | `/go/api/config/backup` | High
+13 | File | `/goform/aspForm` | High
+14 | File | `/HNAP1` | Low
+15 | File | `/include/stat/stat.php` | High
+16 | File | `/index.php` | Medium
+17 | File | `/mkshope/login.php` | High
+18 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+19 | File | `/redpass.cgi` | Medium
+20 | File | `/spip.php` | Medium
+21 | File | `/uncpath/` | Medium
+22 | File | `/user/zs_elite.php` | High
+23 | File | `/usr/bin/pkexec` | High
+24 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
+25 | File | `/vloggers_merch/classes/Master.php?f=delete_order` | High
+26 | File | `/VPortal/mgtconsole/Rights.jsp` | High
+27 | File | `/webman/info.cgi` | High
+28 | File | `/wp-admin/admin-ajax.php` | High
+29 | File | `5.2.9\syscrb.exe` | High
+30 | File | `abook_database.php` | High
+31 | File | `accountrecoveryendpoint/recoverpassword.do` | High
+32 | File | `admin/index.php/setting/site?tab=site_attachment` | High
+33 | File | `admin/review.php` | High
+34 | File | `admin_add.php` | High
+35 | File | `api.php/cms/addform?fcode=1` | High
+36 | File | `apps/app_article/controller/rating.php` | High
+37 | File | `ashnews.php/ashheadlines.php` | High
+38 | File | `attachment.do` | High
+39 | File | `auth.php` | Medium
+40 | File | `auth2-gss.c` | Medium
+41 | File | `b/deploy/index.php` | High
+42 | ... | ... | ...
 
-There are 325 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 360 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

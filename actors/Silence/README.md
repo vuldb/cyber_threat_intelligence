@@ -62,7 +62,7 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-28 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -88,36 +88,38 @@ ID | Type | Indicator | Confidence
 12 | File | `/api/stl/actions/search` | High
 13 | File | `/api/v2/cli/commands` | High
 14 | File | `/attachments` | Medium
-15 | File | `/boat/login.php` | High
-16 | File | `/bsms_ci/index.php/book` | High
-17 | File | `/card_scan.php` | High
-18 | File | `/cgi-bin` | Medium
-19 | File | `/cgi-bin/luci/api/wireless` | High
-20 | File | `/cgi-bin/wlogin.cgi` | High
-21 | File | `/context/%2e/WEB-INF/web.xml` | High
-22 | File | `/cwc/login` | Medium
-23 | File | `/dashboard/reports/logs/view` | High
-24 | File | `/debian/patches/load_ppp_generic_if_needed` | High
-25 | File | `/debug/pprof` | Medium
-26 | File | `/env` | Low
-27 | File | `/etc/hosts` | Medium
-28 | File | `/etc/quagga` | Medium
-29 | File | `/forms/doLogin` | High
-30 | File | `/forum/away.php` | High
-31 | File | `/goform/setmac` | High
-32 | File | `/goform/wizard_end` | High
-33 | File | `/h/calendar` | Medium
-34 | File | `/manage-apartment.php` | High
-35 | File | `/medicines/profile.php` | High
-36 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-37 | File | `/nova/bin/detnet` | High
-38 | File | `/pages/apply_vacancy.php` | High
-39 | File | `/proc/<PID>/mem` | High
-40 | File | `/proxy` | Low
-41 | File | `/reservation/add_message.php` | High
-42 | ... | ... | ...
+15 | File | `/bin/ate` | Medium
+16 | File | `/boat/login.php` | High
+17 | File | `/booking/show_bookings/` | High
+18 | File | `/bsms_ci/index.php/book` | High
+19 | File | `/card_scan.php` | High
+20 | File | `/cgi-bin` | Medium
+21 | File | `/cgi-bin/luci/api/wireless` | High
+22 | File | `/cgi-bin/wlogin.cgi` | High
+23 | File | `/context/%2e/WEB-INF/web.xml` | High
+24 | File | `/cwc/login` | Medium
+25 | File | `/debian/patches/load_ppp_generic_if_needed` | High
+26 | File | `/debug/pprof` | Medium
+27 | File | `/env` | Low
+28 | File | `/etc/hosts` | Medium
+29 | File | `/etc/quagga` | Medium
+30 | File | `/forms/doLogin` | High
+31 | File | `/forum/away.php` | High
+32 | File | `/goform/setmac` | High
+33 | File | `/goform/wizard_end` | High
+34 | File | `/h/calendar` | Medium
+35 | File | `/manage-apartment.php` | High
+36 | File | `/medicines/profile.php` | High
+37 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+38 | File | `/nova/bin/detnet` | High
+39 | File | `/pages/apply_vacancy.php` | High
+40 | File | `/php-sms/admin/?page=user/manage_user` | High
+41 | File | `/proxy` | Low
+42 | File | `/reservation/add_message.php` | High
+43 | File | `/rom-0` | Low
+44 | ... | ... | ...
 
-There are 360 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 381 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

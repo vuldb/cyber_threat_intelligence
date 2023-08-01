@@ -67,30 +67,28 @@ ID | Type | Indicator | Confidence
 5 | File | `/ad_js.php` | Medium
 6 | File | `/alerts/alertConfigField.php` | High
 7 | File | `/API/system/admins/session` | High
-8 | File | `/config/config.php` | High
-9 | File | `/config/myfield/test.php` | High
-10 | File | `/context/%2e/WEB-INF/web.xml` | High
-11 | File | `/core/conditions/AbstractWrapper.java` | High
-12 | File | `/data/remove` | Medium
-13 | File | `/DataHandler/AM/AM_Handler.ashx` | High
-14 | File | `/DataHandler/HandlerAlarmGroup.ashx` | High
-15 | File | `/DataHandler/HandlerEnergyType.ashx` | High
-16 | File | `/DataHandler/Handler_CFG.ashx` | High
-17 | File | `/ECT_Provider/` | High
-18 | File | `/etc/passwd` | Medium
-19 | File | `/face-recognition-php/facepay-master/camera.php` | High
-20 | File | `/forms/doLogin` | High
-21 | File | `/fuel/index.php/fuel/logs/items` | High
-22 | File | `/fuel/index.php/fuel/pages/items` | High
-23 | File | `/image_zoom.php` | High
-24 | File | `/include/config.cache.php` | High
-25 | File | `/index.php` | Medium
-26 | File | `/mkshop/Men/profile.php` | High
-27 | File | `/param.file.tgz` | High
-28 | File | `/plugin/ajax.php` | High
-29 | ... | ... | ...
+8 | File | `/config/myfield/test.php` | High
+9 | File | `/context/%2e/WEB-INF/web.xml` | High
+10 | File | `/core/conditions/AbstractWrapper.java` | High
+11 | File | `/data/remove` | Medium
+12 | File | `/debug/pprof` | Medium
+13 | File | `/etc/passwd` | Medium
+14 | File | `/face-recognition-php/facepay-master/camera.php` | High
+15 | File | `/forms/doLogin` | High
+16 | File | `/fuel/index.php/fuel/logs/items` | High
+17 | File | `/fuel/index.php/fuel/pages/items` | High
+18 | File | `/image_zoom.php` | High
+19 | File | `/include/config.cache.php` | High
+20 | File | `/index.php` | Medium
+21 | File | `/mkshop/Men/profile.php` | High
+22 | File | `/param.file.tgz` | High
+23 | File | `/preauth` | Medium
+24 | File | `/proxy/` | Low
+25 | File | `/public/plugins/` | High
+26 | File | `/rest/api/2/search` | High
+27 | ... | ... | ...
 
-There are 247 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 228 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

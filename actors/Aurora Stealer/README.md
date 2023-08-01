@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Aurora Stealer:
 
 * [US](https://vuldb.com/?country.us)
+* [AU](https://vuldb.com/?country.au)
 * [RU](https://vuldb.com/?country.ru)
-* [CN](https://vuldb.com/?country.cn)
 * ...
 
 There are 4 more country items available. Please use our online service to access the data.
@@ -94,9 +94,10 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-94 | Cross Site Scripting | High
-4 | ... | ... | ... | ...
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 15 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -104,32 +105,54 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/login.php` | High
-2 | File | `/app/Http/Controllers/Admin/NEditorController.php` | High
-3 | File | `/cas/logout` | Medium
-4 | File | `/film-rating.php` | High
-5 | File | `/index.php` | Medium
-6 | File | `/librarian/bookdetails.php` | High
-7 | File | `/mgmt/tm/util/bash` | High
-8 | File | `/mifs/c/i/reg/reg.html` | High
-9 | File | `/secure/ViewCollectors` | High
-10 | File | `/Session` | Medium
-11 | File | `/student/bookdetails.php` | High
-12 | File | `/xAdmin/html/cm_doclist_view_uc.jsp` | High
-13 | File | `account.asp` | Medium
-14 | File | `adclick.php` | Medium
-15 | File | `add_comment.php` | High
-16 | File | `admin.php` | Medium
-17 | File | `admin/establishment/manage.php` | High
-18 | File | `admin/inquiries/view_details.php` | High
-19 | File | `album_portal.php` | High
-20 | File | `announce.php` | Medium
-21 | File | `bb_usage_stats.php` | High
-22 | File | `category.cfm` | Medium
-23 | File | `category_list.php` | High
-24 | ... | ... | ...
+1 | File | `.cfm` | Low
+2 | File | `/admin/forgot-password.php` | High
+3 | File | `/admin/login.php` | High
+4 | File | `/app/Http/Controllers/Admin/NEditorController.php` | High
+5 | File | `/cas/logout` | Medium
+6 | File | `/coreframe/app/member/admin/group.php` | High
+7 | File | `/film-rating.php` | High
+8 | File | `/index.php` | Medium
+9 | File | `/librarian/bookdetails.php` | High
+10 | File | `/mgmt/tm/util/bash` | High
+11 | File | `/mifs/c/i/reg/reg.html` | High
+12 | File | `/modules/projects/vw_files.php` | High
+13 | File | `/school/model/get_events.php` | High
+14 | File | `/secure/ViewCollectors` | High
+15 | File | `/Session` | Medium
+16 | File | `/spacecom/login.php` | High
+17 | File | `/student/bookdetails.php` | High
+18 | File | `/xAdmin/html/cm_doclist_view_uc.jsp` | High
+19 | File | `AbstractController.php` | High
+20 | File | `account.asp` | Medium
+21 | File | `adclick.php` | Medium
+22 | File | `addpost_newpoll.php` | High
+23 | File | `add_comment.php` | High
+24 | File | `admin.php` | Medium
+25 | File | `admin.remository.php` | High
+26 | File | `admin/establishment/manage.php` | High
+27 | File | `admin/inquiries/view_details.php` | High
+28 | File | `admin/news.php` | High
+29 | File | `admin/page.php` | High
+30 | File | `administrator/upload.php` | High
+31 | File | `Administrator/users.php` | High
+32 | File | `affich.php` | Medium
+33 | File | `album_portal.php` | High
+34 | File | `announce.php` | Medium
+35 | File | `archive.php` | Medium
+36 | File | `auth.inc.php` | Medium
+37 | File | `autor.php` | Medium
+38 | File | `b2archives.php` | High
+39 | File | `bbs/faq.php` | Medium
+40 | File | `bb_usage_stats.php` | High
+41 | File | `bl-kernel/ajax/upload-images.php` | High
+42 | File | `board.php` | Medium
+43 | File | `book.cfm` | Medium
+44 | File | `book.php` | Medium
+45 | File | `BookAction.class.php` | High
+46 | ... | ... | ...
 
-There are 203 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 397 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

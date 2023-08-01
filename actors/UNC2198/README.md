@@ -34,12 +34,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-24 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-94 | Cross Site Scripting | High
-4 | ... | ... | ... | ...
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 13 more TTP items available. Please use our online service to access the data.
+There are 14 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -64,15 +65,19 @@ ID | Type | Indicator | Confidence
 15 | File | `/admin/maintenance/brand.php` | High
 16 | File | `/admin/payment.php` | High
 17 | File | `/admin/photo.php` | High
-18 | File | `/admin/searchview.php` | High
-19 | File | `/admin/students/manage.php` | High
-20 | File | `/ajax-files/followBoard.php` | High
-21 | File | `/ajax-files/postComment.php` | High
-22 | File | `/anony/mjpg.cgi` | High
-23 | File | `/artist-display.php` | High
-24 | ... | ... | ...
+18 | File | `/admin/read.php?mudi=getSignal` | High
+19 | File | `/admin/searchview.php` | High
+20 | File | `/admin/students/manage.php` | High
+21 | File | `/ajax-files/followBoard.php` | High
+22 | File | `/ajax-files/postComment.php` | High
+23 | File | `/ajax.php?action=read_msg` | High
+24 | File | `/anony/mjpg.cgi` | High
+25 | File | `/api/wechat/app_auth` | High
+26 | File | `/artist-display.php` | High
+27 | File | `/bsms_ci/index.php` | High
+28 | ... | ... | ...
 
-There are 199 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 234 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

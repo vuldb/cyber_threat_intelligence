@@ -50,24 +50,25 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/addWhiteListDomain.imss` | High
 2 | File | `/anony/mjpg.cgi` | High
-3 | File | `/forum/away.php` | High
-4 | File | `/include/makecvs.php` | High
-5 | File | `/index.php` | Medium
-6 | File | `/login/index.php` | High
-7 | File | `/requests.php` | High
-8 | File | `/uncpath/` | Medium
-9 | File | `/wp-admin/admin.php?page=wp_file_manager_properties` | High
-10 | File | `add.php` | Low
-11 | File | `adm_config_report.php` | High
-12 | File | `ampie.swf` | Medium
-13 | File | `api/it-recht-kanzlei/api-it-recht-kanzlei.php` | High
-14 | File | `auth-gss2.c` | Medium
-15 | File | `cat.asp` | Low
-16 | File | `class.phpmailer.php` | High
-17 | File | `clickstats.php` | High
-18 | ... | ... | ...
+3 | File | `/cobbler-api` | Medium
+4 | File | `/forum/away.php` | High
+5 | File | `/include/makecvs.php` | High
+6 | File | `/index.php` | Medium
+7 | File | `/login/index.php` | High
+8 | File | `/requests.php` | High
+9 | File | `/uncpath/` | Medium
+10 | File | `/wp-admin/admin.php?page=wp_file_manager_properties` | High
+11 | File | `add.php` | Low
+12 | File | `adm_config_report.php` | High
+13 | File | `ampie.swf` | Medium
+14 | File | `api/it-recht-kanzlei/api-it-recht-kanzlei.php` | High
+15 | File | `auth-gss2.c` | Medium
+16 | File | `cat.asp` | Low
+17 | File | `class.phpmailer.php` | High
+18 | File | `clickstats.php` | High
+19 | ... | ... | ...
 
-There are 149 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 151 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [PL](https://vuldb.com/?country.pl)
 * [DE](https://vuldb.com/?country.de)
-* [FR](https://vuldb.com/?country.fr)
+* [PT](https://vuldb.com/?country.pt)
 * ...
 
-There are 8 more country items available. Please use our online service to access the data.
+There are 9 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -35,14 +35,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-425 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -57,46 +57,48 @@ ID | Type | Indicator | Confidence
 5 | File | `/admin/contacts/organizations/edit/2` | High
 6 | File | `/admin/curriculum/view_curriculum.php` | High
 7 | File | `/Admin/dashboard.php` | High
-8 | File | `/admin/edit_subject.php` | High
-9 | File | `/admin/sales/view_details.php` | High
-10 | File | `/admin/service.php` | High
-11 | File | `/admin/sign/out` | High
-12 | File | `/api/common/ping` | High
-13 | File | `/api/v2/open/tablesInfo` | High
-14 | File | `/api/wechat/app_auth` | High
-15 | File | `/asms/classes/Master.php?f=delete_img` | High
-16 | File | `/catcompany.php` | High
-17 | File | `/classes/Master.php?f=delete_appointment` | High
-18 | File | `/classes/Users.php` | High
-19 | File | `/cms/notify` | Medium
-20 | File | `/depotHead/list` | High
-21 | File | `/device/signin` | High
-22 | File | `/fusiondirectory/index.php` | High
-23 | File | `/goform/addressNat` | High
-24 | File | `/goform/fast_setting_wifi_set` | High
-25 | File | `/goform/RGFirewallEL` | High
-26 | File | `/goform/WifiBasicSet` | High
-27 | File | `/HNAP1` | Low
-28 | File | `/hslist` | Low
-29 | File | `/js/player/dmplayer/dmku/index.php` | High
-30 | File | `/lists/admin/` | High
-31 | File | `/login/index.php` | High
-32 | File | `/multi-vendor-shopping-script/product-list.php` | High
-33 | File | `/myAccount` | Medium
-34 | File | `/note/index/delete` | High
-35 | File | `/operations/travellers.php` | High
-36 | File | `/php-sms/admin/orders/update_status.php` | High
-37 | File | `/php-sms/classes/Master.php?f=delete_service` | High
-38 | File | `/public/launchNewWindow.jsp` | High
-39 | File | `/release-x64/otfccdump+0x6b6a8f` | High
-40 | File | `/release-x64/otfccdump+0x6e7e3d` | High
-41 | File | `/rukovoditel/index.php?module=users/login` | High
-42 | File | `/SVFE2/pages/feegroups/mcc_group.jsf` | High
-43 | File | `/sys/duplicate/check` | High
-44 | File | `/timeline2.php` | High
-45 | ... | ... | ...
+8 | File | `/admin/edit-accepted-appointment.php` | High
+9 | File | `/admin/edit_category.php` | High
+10 | File | `/admin/edit_subject.php` | High
+11 | File | `/admin/modal_add_product.php` | High
+12 | File | `/admin/sales/view_details.php` | High
+13 | File | `/admin/service.php` | High
+14 | File | `/admin/sign/out` | High
+15 | File | `/admin/test_status.php` | High
+16 | File | `/api/common/ping` | High
+17 | File | `/api/v2/open/tablesInfo` | High
+18 | File | `/api/wechat/app_auth` | High
+19 | File | `/asms/classes/Master.php?f=delete_img` | High
+20 | File | `/catcompany.php` | High
+21 | File | `/classes/Master.php?f=delete_appointment` | High
+22 | File | `/classes/Master.php?f=save_item` | High
+23 | File | `/classes/Users.php` | High
+24 | File | `/cms/notify` | Medium
+25 | File | `/depotHead/list` | High
+26 | File | `/device/signin` | High
+27 | File | `/fusiondirectory/index.php` | High
+28 | File | `/goform/addressNat` | High
+29 | File | `/goform/RGFirewallEL` | High
+30 | File | `/goform/WifiBasicSet` | High
+31 | File | `/h/` | Low
+32 | File | `/HNAP1` | Low
+33 | File | `/hslist` | Low
+34 | File | `/js/player/dmplayer/dmku/index.php` | High
+35 | File | `/lists/admin/` | High
+36 | File | `/login/index.php` | High
+37 | File | `/multi-vendor-shopping-script/product-list.php` | High
+38 | File | `/myAccount` | Medium
+39 | File | `/note/index/delete` | High
+40 | File | `/operations/travellers.php` | High
+41 | File | `/paysystem/datatable.php` | High
+42 | File | `/php-sms/admin/orders/update_status.php` | High
+43 | File | `/php-sms/classes/Master.php?f=delete_service` | High
+44 | File | `/preview.php` | Medium
+45 | File | `/public/launchNewWindow.jsp` | High
+46 | File | `/rukovoditel/index.php?module=users/login` | High
+47 | ... | ... | ...
 
-There are 390 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 408 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [TR](https://vuldb.com/?country.tr)
 * ...
 
-There are 19 more country items available. Please use our online service to access the data.
+There are 20 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -54,34 +54,35 @@ ID | Type | Indicator | Confidence
 3 | File | `/admin.php/news/admin/topic/save` | High
 4 | File | `/admin/comn/service/update.json` | High
 5 | File | `/admin/moduleinterface.php` | High
-6 | File | `/dev/shm` | Medium
-7 | File | `/dl/dl_print.php` | High
-8 | File | `/etc/gsissh/sshd_config` | High
-9 | File | `/forms/nslookupHandler` | High
-10 | File | `/forum/away.php` | High
-11 | File | `/getcfg.php` | Medium
-12 | File | `/index.php` | Medium
-13 | File | `/modules/profile/index.php` | High
-14 | File | `/news.dtl.php` | High
-15 | File | `/ofcms/company-c-47` | High
-16 | File | `/out.php` | Medium
-17 | File | `/ptms/?page=user` | High
-18 | File | `/systemrw/` | Medium
-19 | File | `/uncpath/` | Medium
-20 | File | `/upload/file.php` | High
-21 | File | `/usr/sbin/httpd` | High
-22 | File | `/util/print.c` | High
-23 | File | `/web/MCmsAction.java` | High
-24 | File | `/wp-admin/admin-ajax.php` | High
-25 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-26 | File | `5.2.9\syscrb.exe` | High
-27 | File | `abc-pcie.c` | Medium
-28 | File | `accounts/payment_history.php` | High
-29 | File | `adclick.php` | Medium
-30 | File | `admin.cgi` | Medium
-31 | ... | ... | ...
+6 | File | `/classes/master.php?f=delete_order` | High
+7 | File | `/dev/shm` | Medium
+8 | File | `/dl/dl_print.php` | High
+9 | File | `/etc/gsissh/sshd_config` | High
+10 | File | `/forms/nslookupHandler` | High
+11 | File | `/forum/away.php` | High
+12 | File | `/getcfg.php` | Medium
+13 | File | `/index.php` | Medium
+14 | File | `/librarian/bookdetails.php` | High
+15 | File | `/modules/profile/index.php` | High
+16 | File | `/news.dtl.php` | High
+17 | File | `/ofcms/company-c-47` | High
+18 | File | `/out.php` | Medium
+19 | File | `/ptms/?page=user` | High
+20 | File | `/systemrw/` | Medium
+21 | File | `/uncpath/` | Medium
+22 | File | `/upload/file.php` | High
+23 | File | `/usr/sbin/httpd` | High
+24 | File | `/util/print.c` | High
+25 | File | `/web/MCmsAction.java` | High
+26 | File | `/wp-admin/admin-ajax.php` | High
+27 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+28 | File | `5.2.9\syscrb.exe` | High
+29 | File | `abc-pcie.c` | Medium
+30 | File | `accounts/payment_history.php` | High
+31 | File | `adclick.php` | Medium
+32 | ... | ... | ...
 
-There are 266 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 270 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

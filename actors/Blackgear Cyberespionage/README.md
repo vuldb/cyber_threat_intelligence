@@ -9,6 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Blackgear Cyberespionage:
 
 * [CN](https://vuldb.com/?country.cn)
+* [US](https://vuldb.com/?country.us)
+* [JP](https://vuldb.com/?country.jp)
 
 ## IOC - Indicator of Compromise
 
@@ -16,12 +18,16 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [61.170.201.107](https://vuldb.com/?ip.61.170.201.107) | 107.201.170.61.broad.xw.sh.dynamic.163data.com.cn | - | High
-2 | [111.200.189.88](https://vuldb.com/?ip.111.200.189.88) | - | - | High
-3 | [113.196.70.151](https://vuldb.com/?ip.113.196.70.151) | 113.196.70.151.ll.static.sparqnet.net | - | High
-4 | ... | ... | ... | ...
+1 | [11.22.33.44](https://vuldb.com/?ip.11.22.33.44) | - | - | High
+2 | [11.36.214.134](https://vuldb.com/?ip.11.36.214.134) | - | - | High
+3 | [11.36.214.181](https://vuldb.com/?ip.11.36.214.181) | - | - | High
+4 | [23.2.143.41](https://vuldb.com/?ip.23.2.143.41) | a23-2-143-41.deploy.static.akamaitechnologies.com | - | High
+5 | [23.53.197.99](https://vuldb.com/?ip.23.53.197.99) | a23-53-197-99.deploy.static.akamaitechnologies.com | - | High
+6 | [45.76.194.59](https://vuldb.com/?ip.45.76.194.59) | 45.76.194.59.vultrusercontent.com | - | High
+7 | [47.88.18.79](https://vuldb.com/?ip.47.88.18.79) | - | - | High
+8 | ... | ... | ... | ...
 
-There are 4 more IOC items available. Please use our online service to access the data.
+There are 27 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -29,8 +35,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Pathname Traversal | High
-2 | T1592 | CWE-200 | Configuration | High
+1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
+2 | T1068 | CWE-269 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
+4 | ... | ... | ... | ...
+
+There are 3 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -38,8 +48,12 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `svr-auth.c` | Medium
-2 | Input Value | `%2E` | Low
+1 | File | `/admin/upload.php` | High
+2 | File | `admin.php?m=backup&c=backup&a=doback` | High
+3 | File | `cgi-bin/awstats.pl` | High
+4 | ... | ... | ...
+
+There are 12 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

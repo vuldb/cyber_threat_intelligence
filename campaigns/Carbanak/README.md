@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [SE](https://vuldb.com/?country.se)
 * ...
 
-There are 32 more country items available. Please use our online service to access the data.
+There are 33 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -110,30 +110,31 @@ ID | Type | Indicator | Confidence
 17 | File | `/owa/auth/logon.aspx` | High
 18 | File | `/php-sms/classes/SystemSettings.php` | High
 19 | File | `/phppath/php` | Medium
-20 | File | `/proc/self/exe` | High
-21 | File | `/public/login.htm` | High
-22 | File | `/server-info` | Medium
-23 | File | `/server-status` | High
-24 | File | `/shell` | Low
-25 | File | `/uncpath/` | Medium
-26 | File | `/user/jobmanage.php` | High
-27 | File | `/user/zs_elite.php` | High
-28 | File | `/usr/bin/enq` | Medium
-29 | File | `/web/jquery/uploader/multi_uploadify.php` | High
-30 | File | `/wp-admin/admin-ajax.php` | High
-31 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-32 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-33 | File | `/zhndnsdisplay.cmd` | High
-34 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-35 | File | `about.php` | Medium
-36 | File | `acl.c` | Low
-37 | File | `adclick.php` | Medium
-38 | File | `add_comment.php` | High
-39 | File | `add_vhost.php` | High
-40 | File | `admin.php` | Medium
-41 | ... | ... | ...
+20 | File | `/preview.php` | Medium
+21 | File | `/proc/self/exe` | High
+22 | File | `/public/login.htm` | High
+23 | File | `/server-info` | Medium
+24 | File | `/server-status` | High
+25 | File | `/shell` | Low
+26 | File | `/uncpath/` | Medium
+27 | File | `/user/jobmanage.php` | High
+28 | File | `/user/zs_elite.php` | High
+29 | File | `/usr/bin/enq` | Medium
+30 | File | `/web/jquery/uploader/multi_uploadify.php` | High
+31 | File | `/wp-admin/admin-ajax.php` | High
+32 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+33 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+34 | File | `/zhndnsdisplay.cmd` | High
+35 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+36 | File | `about.php` | Medium
+37 | File | `acl.c` | Low
+38 | File | `adclick.php` | Medium
+39 | File | `add_comment.php` | High
+40 | File | `add_vhost.php` | High
+41 | File | `admin.php` | Medium
+42 | ... | ... | ...
 
-There are 357 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 358 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

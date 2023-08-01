@@ -19,6 +19,7 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [172.104.40.92](https://vuldb.com/?ip.172.104.40.92) | 172-104-40-92.ip.linodeusercontent.com | - | High
+2 | [185.189.58.222](https://vuldb.com/?ip.185.189.58.222) | - | - | High
 
 ## TTP - Tactics, Techniques, Procedures
 

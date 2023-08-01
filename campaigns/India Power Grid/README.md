@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with India Power Grid:
 
 * [CN](https://vuldb.com/?country.cn)
-* [TW](https://vuldb.com/?country.tw)
 * [KR](https://vuldb.com/?country.kr)
+* [TW](https://vuldb.com/?country.tw)
 
 ## Actors
 

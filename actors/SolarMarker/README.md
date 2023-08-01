@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [DE](https://vuldb.com/?country.de)
 * ...
 
-There are 27 more country items available. Please use our online service to access the data.
+There are 28 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -26,7 +26,7 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [45.42.201.248](https://vuldb.com/?ip.45.42.201.248) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 11 more IOC items available. Please use our online service to access the data.
+There are 13 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -52,40 +52,43 @@ ID | Type | Indicator | Confidence
 1 | File | `.htaccess` | Medium
 2 | File | `/api2/html/` | Medium
 3 | File | `/apiadmin/notice/add` | High
-4 | File | `/cloud_config/router_post/register` | High
-5 | File | `/etc/gsissh/sshd_config` | High
-6 | File | `/forms/nslookupHandler` | High
-7 | File | `/forum/away.php` | High
-8 | File | `/forum/PostPrivateMessage` | High
-9 | File | `/home/cavesConsole` | High
-10 | File | `/include/chart_generator.php` | High
-11 | File | `/index.php` | Medium
-12 | File | `/login/index.php` | High
-13 | File | `/log_download.cgi` | High
-14 | File | `/mgmt/tm/util/bash` | High
-15 | File | `/modules/profile/index.php` | High
-16 | File | `/news.dtl.php` | High
-17 | File | `/out.php` | Medium
-18 | File | `/p1/p2/:name` | Medium
-19 | File | `/param.file.tgz` | High
-20 | File | `/proc/<PID>/mem` | High
-21 | File | `/ptms/?page=user` | High
-22 | File | `/setup/finish` | High
-23 | File | `/spip.php` | Medium
-24 | File | `/template/edit` | High
-25 | File | `/uncpath/` | Medium
-26 | File | `/upload/file.php` | High
-27 | File | `/user/s.php` | Medium
-28 | File | `/usr/bin/at` | Medium
-29 | File | `/usr/bin/pkexec` | High
-30 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
-31 | File | `/wolfcms/?/admin/user/add` | High
-32 | File | `/wp-admin` | Medium
-33 | File | `/wp-admin/admin-ajax.php` | High
-34 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-35 | ... | ... | ...
+4 | File | `/classes/master.php?f=delete_order` | High
+5 | File | `/cloud_config/router_post/register` | High
+6 | File | `/ecommerce/support_ticket` | High
+7 | File | `/etc/gsissh/sshd_config` | High
+8 | File | `/forms/nslookupHandler` | High
+9 | File | `/forum/away.php` | High
+10 | File | `/forum/PostPrivateMessage` | High
+11 | File | `/h/calendar` | Medium
+12 | File | `/home/cavesConsole` | High
+13 | File | `/include/chart_generator.php` | High
+14 | File | `/index.php` | Medium
+15 | File | `/librarian/bookdetails.php` | High
+16 | File | `/login/index.php` | High
+17 | File | `/log_download.cgi` | High
+18 | File | `/mgmt/tm/util/bash` | High
+19 | File | `/modules/profile/index.php` | High
+20 | File | `/news.dtl.php` | High
+21 | File | `/out.php` | Medium
+22 | File | `/p1/p2/:name` | Medium
+23 | File | `/param.file.tgz` | High
+24 | File | `/proc/<PID>/mem` | High
+25 | File | `/ptms/?page=user` | High
+26 | File | `/Service/ImageStationDataService.asmx` | High
+27 | File | `/setup/finish` | High
+28 | File | `/spip.php` | Medium
+29 | File | `/template/edit` | High
+30 | File | `/uncpath/` | Medium
+31 | File | `/upload/file.php` | High
+32 | File | `/user/s.php` | Medium
+33 | File | `/usr/bin/at` | Medium
+34 | File | `/usr/bin/pkexec` | High
+35 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
+36 | File | `/wolfcms/?/admin/user/add` | High
+37 | File | `/wp-admin` | Medium
+38 | ... | ... | ...
 
-There are 304 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 328 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -96,6 +99,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://tria.ge/210824-j7r4atcshe/behavioral2
 * https://twitter.com/SquiblydooBlog/status/1498447061628379140
 * https://twitter.com/SquiblydooBlog/status/1660782805687865344
+* https://twitter.com/SquiblydooBlog/status/1671556028226207746
 
 ## Literature
 

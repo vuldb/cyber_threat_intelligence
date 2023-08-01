@@ -91,36 +91,35 @@ ID | Type | Indicator | Confidence
 15 | File | `/cgi-bin/go` | Medium
 16 | File | `/cgi-bin/uploadWeiXinPic` | High
 17 | File | `/cgi-bin/wapopen` | High
-18 | File | `/dl/dl_print.php` | High
-19 | File | `/etc/gsissh/sshd_config` | High
-20 | File | `/face-recognition-php/facepay-master/camera.php` | High
-21 | File | `/forum/away.php` | High
-22 | File | `/forum/PostPrivateMessage` | High
-23 | File | `/getcfg.php` | Medium
-24 | File | `/home/masterConsole` | High
-25 | File | `/hrm/employeeadd.php` | High
-26 | File | `/hrm/employeeview.php` | High
-27 | File | `/info.xml` | Medium
-28 | File | `/librarian/bookdetails.php` | High
-29 | File | `/mgmt/tm/util/bash` | High
-30 | File | `/nova/bin/sniffer` | High
-31 | File | `/ofcms/company-c-47` | High
-32 | File | `/opt/vyatta/share/vyatta-cfg/templates/system/static-host-mapping/host-name/node.def` | High
-33 | File | `/pms/update_user.php?user_id=1` | High
-34 | File | `/public/login.htm` | High
-35 | File | `/rom-0` | Low
-36 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-37 | File | `/secure/ViewCollectors` | High
-38 | File | `/Session` | Medium
-39 | File | `/spip.php` | Medium
-40 | File | `/uncpath/` | Medium
-41 | File | `/usr/local/nagiosxi/html/admin/sshterm.php` | High
-42 | File | `/usr/local/nagiosxi/html/includes/configwizards/cloud-vm/cloud-vm.inc.php` | High
-43 | File | `/usr/local/nagiosxi/html/includes/configwizards/switch/switch.inc.php` | High
-44 | File | `/usr/local/nagiosxi/html/includes/configwizards/windowswmi/windowswmi.inc.php` | High
-45 | ... | ... | ...
+18 | File | `/debug/pprof` | Medium
+19 | File | `/dl/dl_print.php` | High
+20 | File | `/etc/gsissh/sshd_config` | High
+21 | File | `/face-recognition-php/facepay-master/camera.php` | High
+22 | File | `/forum/away.php` | High
+23 | File | `/forum/PostPrivateMessage` | High
+24 | File | `/getcfg.php` | Medium
+25 | File | `/home/masterConsole` | High
+26 | File | `/hrm/employeeadd.php` | High
+27 | File | `/hrm/employeeview.php` | High
+28 | File | `/info.xml` | Medium
+29 | File | `/librarian/bookdetails.php` | High
+30 | File | `/mgmt/tm/util/bash` | High
+31 | File | `/nova/bin/sniffer` | High
+32 | File | `/ofcms/company-c-47` | High
+33 | File | `/opt/vyatta/share/vyatta-cfg/templates/system/static-host-mapping/host-name/node.def` | High
+34 | File | `/pms/update_user.php?user_id=1` | High
+35 | File | `/public/login.htm` | High
+36 | File | `/rom-0` | Low
+37 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+38 | File | `/secure/ViewCollectors` | High
+39 | File | `/Session` | Medium
+40 | File | `/spip.php` | Medium
+41 | File | `/uncpath/` | Medium
+42 | File | `/usr/local/nagiosxi/html/admin/sshterm.php` | High
+43 | File | `/usr/local/nagiosxi/html/includes/configwizards/cloud-vm/cloud-vm.inc.php` | High
+44 | ... | ... | ...
 
-There are 392 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 384 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

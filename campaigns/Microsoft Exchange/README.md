@@ -83,9 +83,9 @@ ID | Type | Indicator | Confidence
 22 | File | `/home/kickPlayer` | High
 23 | File | `/home/masterConsole` | High
 24 | File | `/home/sendBroadcast` | High
-25 | File | `/html/portal/flash.jsp` | High
-26 | File | `/include/chart_generator.php` | High
-27 | File | `/lan.asp` | Medium
+25 | File | `/include/chart_generator.php` | High
+26 | File | `/lan.asp` | Medium
+27 | File | `/login` | Low
 28 | File | `/loginVaLidation.php` | High
 29 | File | `/manage/emailrichment/userlist.php?CUSTOMER_ID_INNER=1` | High
 30 | File | `/metrics` | Medium
@@ -96,10 +96,9 @@ ID | Type | Indicator | Confidence
 35 | File | `/secure/QueryComponent!Default.jspa` | High
 36 | File | `/setSystemAdmin` | High
 37 | File | `/start_apply.htm` | High
-38 | File | `/uncpath/` | Medium
-39 | ... | ... | ...
+38 | ... | ... | ...
 
-There are 331 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 329 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

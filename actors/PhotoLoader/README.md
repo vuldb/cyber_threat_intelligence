@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 14 more country items available. Please use our online service to access the data.
+There are 16 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -121,13 +121,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+6 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+7 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 23 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -140,38 +141,41 @@ ID | Type | Indicator | Confidence
 3 | File | `/Admin/add-student.php` | High
 4 | File | `/admin/settings/save.php` | High
 5 | File | `/admin/userprofile.php` | High
-6 | File | `/api/RecordingList/DownloadRecord?file=` | High
-7 | File | `/apply.cgi` | Medium
-8 | File | `/cgi-bin/wlogin.cgi` | High
-9 | File | `/College/admin/teacher.php` | High
-10 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
-11 | File | `/debug/pprof` | Medium
-12 | File | `/forum/away.php` | High
-13 | File | `/goform/addUserName` | High
-14 | File | `/goform/aspForm` | High
-15 | File | `/goform/delAd` | High
-16 | File | `/goform/wifiSSIDset` | High
-17 | File | `/gpac/src/bifs/unquantize.c` | High
-18 | File | `/inc/topBarNav.php` | High
-19 | File | `/index.asp` | Medium
-20 | File | `/index.php` | Medium
-21 | File | `/jfinal_cms/system/role/list` | High
-22 | File | `/members/view_member.php` | High
-23 | File | `/Moosikay/order.php` | High
-24 | File | `/owa/auth/logon.aspx` | High
-25 | File | `/php-sms/admin/quotes/manage_remark.php` | High
-26 | File | `/rapi/read_url` | High
-27 | File | `/secure/QueryComponent!Default.jspa` | High
-28 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
-29 | File | `/uncpath/` | Medium
-30 | File | `/WEB-INF/web.xml` | High
-31 | File | `/webman/info.cgi` | High
-32 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
-33 | File | `acloudCosAction.php.SQL` | High
-34 | File | `ActiveServices.java` | High
-35 | ... | ... | ...
+6 | File | `/api/baskets/{name}` | High
+7 | File | `/api/RecordingList/DownloadRecord?file=` | High
+8 | File | `/apply.cgi` | Medium
+9 | File | `/cgi-bin/wlogin.cgi` | High
+10 | File | `/College/admin/teacher.php` | High
+11 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
+12 | File | `/dcim/rack-roles/` | High
+13 | File | `/debug/pprof` | Medium
+14 | File | `/forum/away.php` | High
+15 | File | `/goform/addUserName` | High
+16 | File | `/goform/aspForm` | High
+17 | File | `/goform/delAd` | High
+18 | File | `/goform/wifiSSIDset` | High
+19 | File | `/gpac/src/bifs/unquantize.c` | High
+20 | File | `/inc/topBarNav.php` | High
+21 | File | `/index.asp` | Medium
+22 | File | `/index.php` | Medium
+23 | File | `/index.php?app=main&func=passport&action=login` | High
+24 | File | `/jfinal_cms/system/role/list` | High
+25 | File | `/kelas/data` | Medium
+26 | File | `/members/view_member.php` | High
+27 | File | `/Moosikay/order.php` | High
+28 | File | `/owa/auth/logon.aspx` | High
+29 | File | `/php-sms/admin/quotes/manage_remark.php` | High
+30 | File | `/rapi/read_url` | High
+31 | File | `/secure/QueryComponent!Default.jspa` | High
+32 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
+33 | File | `/uncpath/` | Medium
+34 | File | `/user/profile` | High
+35 | File | `/WEB-INF/web.xml` | High
+36 | File | `/webman/info.cgi` | High
+37 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
+38 | ... | ... | ...
 
-There are 299 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 329 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

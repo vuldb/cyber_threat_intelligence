@@ -78,30 +78,30 @@ ID | Type | Indicator | Confidence
 15 | File | `/htdocs/admin/dict.php?id=3` | High
 16 | File | `/module/module_frame/index.php` | High
 17 | File | `/nidp/app/login` | High
-18 | File | `/proc` | Low
-19 | File | `/rapi/read_url` | High
-20 | File | `/release-x64/otfccdump` | High
-21 | File | `/rom-0` | Low
-22 | File | `/sbin/conf.d/SuSEconfig.javarunt` | High
-23 | File | `/see_more_details.php` | High
-24 | File | `/tmp` | Low
-25 | File | `/uncpath/` | Medium
-26 | File | `/user-utils/users/md5.json` | High
-27 | File | `/usr/lib/utmp_update` | High
-28 | File | `/usr/local` | Medium
-29 | File | `/wp-admin` | Medium
-30 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
-31 | File | `2020\Messages\SDNotify.exe` | High
-32 | File | `adclick.php` | Medium
-33 | File | `admin/plugin-index.php` | High
-34 | File | `administration` | High
-35 | File | `administrative` | High
-36 | File | `ag_server_service.exe` | High
-37 | File | `Alias.asmx` | Medium
-38 | File | `aolfix.exe` | Medium
+18 | File | `/pms/admin/crimes/manage_crime.php` | High
+19 | File | `/proc` | Low
+20 | File | `/rapi/read_url` | High
+21 | File | `/release-x64/otfccdump` | High
+22 | File | `/rom-0` | Low
+23 | File | `/sbin/conf.d/SuSEconfig.javarunt` | High
+24 | File | `/see_more_details.php` | High
+25 | File | `/sitecore/shell/Invoke.aspx` | High
+26 | File | `/tmp` | Low
+27 | File | `/uncpath/` | Medium
+28 | File | `/user-utils/users/md5.json` | High
+29 | File | `/usr/lib/utmp_update` | High
+30 | File | `/usr/local` | Medium
+31 | File | `/wp-admin` | Medium
+32 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
+33 | File | `2020\Messages\SDNotify.exe` | High
+34 | File | `adclick.php` | Medium
+35 | File | `admin/plugin-index.php` | High
+36 | File | `administration` | High
+37 | File | `administrative` | High
+38 | File | `ag_server_service.exe` | High
 39 | ... | ... | ...
 
-There are 336 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 338 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

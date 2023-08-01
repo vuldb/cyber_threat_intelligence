@@ -8,8 +8,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with H0lyGh0st:
 
-* [VN](https://vuldb.com/?country.vn)
 * [US](https://vuldb.com/?country.us)
+* [VN](https://vuldb.com/?country.vn)
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
@@ -47,7 +47,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -63,45 +63,45 @@ ID | Type | Indicator | Confidence
 6 | File | `/config/myfield/test.php` | High
 7 | File | `/debug/pprof` | Medium
 8 | File | `/ecshop/admin/template.php` | High
-9 | File | `/example/editor` | High
-10 | File | `/file/upload/1` | High
-11 | File | `/forum/away.php` | High
-12 | File | `/forum/PostPrivateMessage` | High
-13 | File | `/HNAP1` | Low
-14 | File | `/home/www/cgi-bin/login.cgi` | High
-15 | File | `/index` | Low
-16 | File | `/iu-application/controllers/administration/auth.php` | High
-17 | File | `/Kofax/KFS/ThinClient/document/upload/` | High
-18 | File | `/multi-vendor-shopping-script/product-list.php` | High
-19 | File | `/net-banking/customer_transactions.php` | High
-20 | File | `/obs/book.php` | High
-21 | File | `/ossn/administrator/com_installer` | High
-22 | File | `/pms/update_user.php?user_id=1` | High
-23 | File | `/requests.php` | High
-24 | File | `/spip.php` | Medium
-25 | File | `/sre/params.php` | High
+9 | File | `/file/upload/1` | High
+10 | File | `/forum/away.php` | High
+11 | File | `/forum/PostPrivateMessage` | High
+12 | File | `/goform/set_LimitClient_cfg` | High
+13 | File | `/home/www/cgi-bin/login.cgi` | High
+14 | File | `/multi-vendor-shopping-script/product-list.php` | High
+15 | File | `/net-banking/customer_transactions.php` | High
+16 | File | `/obs/book.php` | High
+17 | File | `/ossn/administrator/com_installer` | High
+18 | File | `/owa/auth/logon.aspx` | High
+19 | File | `/pms/update_user.php?user_id=1` | High
+20 | File | `/preview.php` | Medium
+21 | File | `/requests.php` | High
+22 | File | `/spip.php` | Medium
+23 | File | `/sqlite3_aflpp/shell.c` | High
+24 | File | `/sre/params.php` | High
+25 | File | `/SVFE2/pages/feegroups/service_group.jsf` | High
 26 | File | `/tmp` | Low
 27 | File | `/uncpath/` | Medium
 28 | File | `/user/upload/upload` | High
 29 | File | `/Users` | Low
 30 | File | `/var/spool/hylafax` | High
 31 | File | `/vendor` | Low
-32 | File | `accountrecoveryendpoint/recoverpassword.do` | High
-33 | File | `action/addproject.php` | High
+32 | File | `AccessibilityManagerService.java` | High
+33 | File | `accountrecoveryendpoint/recoverpassword.do` | High
 34 | File | `adclick.php` | Medium
 35 | File | `add_contestant.php` | High
 36 | File | `admin.php` | Medium
-37 | File | `admin/index.php` | High
-38 | File | `admin/make_payments.php` | High
-39 | File | `Advanced_ASUSDDNS_Content.asp` | High
+37 | File | `admin/edit_category.php` | High
+38 | File | `admin/index.php` | High
+39 | File | `admin/make_payments.php` | High
 40 | File | `af_netlink.c` | Medium
 41 | File | `album_portal.php` | High
-42 | File | `api_jsonrpc.php` | High
-43 | File | `artreplydelete.asp` | High
-44 | File | `attachment.cgi` | High
+42 | File | `api/auth.go` | Medium
+43 | File | `api_jsonrpc.php` | High
+44 | File | `artreplydelete.asp` | High
 45 | ... | ... | ...
 
-There are 387 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 392 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

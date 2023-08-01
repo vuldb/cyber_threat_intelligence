@@ -13,13 +13,18 @@ The following _campaigns_ are known and can be associated with DPRK:
 * DrillMalware
 * ...
 
-There are 3 more campaign items available. Please use our online service to access the data.
+There are 4 more campaign items available. Please use our online service to access the data.
 
 ## Countries
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with DPRK:
 
 * [HK](https://vuldb.com/?country.hk)
+* [US](https://vuldb.com/?country.us)
+* [RU](https://vuldb.com/?country.ru)
+* ...
+
+There are 7 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -37,23 +42,27 @@ ID | IP address | Hostname | Campaign | Confidence
 8 | [5.62.61.67](https://vuldb.com/?ip.5.62.61.67) | r-67.61.62.5.ptr.avast.com | - | High
 9 | [14.140.116.172](https://vuldb.com/?ip.14.140.116.172) | 14-140-116-172-sapient.com | Hoplight | High
 10 | [21.252.107.198](https://vuldb.com/?ip.21.252.107.198) | - | HOPLIGHT | High
-11 | [26.165.218.44](https://vuldb.com/?ip.26.165.218.44) | - | HOPLIGHT | High
-12 | [45.33.2.79](https://vuldb.com/?ip.45.33.2.79) | li956-79.members.linode.com | AppleJeus | High
-13 | [45.33.23.183](https://vuldb.com/?ip.45.33.23.183) | li977-183.members.linode.com | AppleJeus | High
-14 | [45.42.151.0](https://vuldb.com/?ip.45.42.151.0) | - | - | High
-15 | [45.42.151.11](https://vuldb.com/?ip.45.42.151.11) | - | - | High
-16 | [45.42.151.12](https://vuldb.com/?ip.45.42.151.12) | - | - | High
-17 | [45.42.151.13](https://vuldb.com/?ip.45.42.151.13) | - | - | High
-18 | [45.42.151.14](https://vuldb.com/?ip.45.42.151.14) | - | - | High
-19 | [45.56.79.23](https://vuldb.com/?ip.45.56.79.23) | li929-23.members.linode.com | AppleJeus | High
-20 | [45.79.19.196](https://vuldb.com/?ip.45.79.19.196) | li1118-196.members.linode.com | AppleJeus | High
-21 | [45.199.63.220](https://vuldb.com/?ip.45.199.63.220) | - | AppleJeus | High
-22 | [46.36.203.81](https://vuldb.com/?ip.46.36.203.81) | - | - | High
-23 | [46.36.203.82](https://vuldb.com/?ip.46.36.203.82) | - | - | High
-24 | [47.206.4.145](https://vuldb.com/?ip.47.206.4.145) | static-47-206-4-145.srst.fl.frontiernet.net | HOPLIGHT | High
-25 | ... | ... | ... | ...
+11 | [23.29.115.171](https://vuldb.com/?ip.23.29.115.171) | 23-29-115-171.static.hvvc.us | JumpCloud | High
+12 | [23.95.182.5](https://vuldb.com/?ip.23.95.182.5) | 23-95-182-5-host.colocrossing.com | JumpCloud | High
+13 | [26.165.218.44](https://vuldb.com/?ip.26.165.218.44) | - | HOPLIGHT | High
+14 | [45.33.2.79](https://vuldb.com/?ip.45.33.2.79) | li956-79.members.linode.com | AppleJeus | High
+15 | [45.33.23.183](https://vuldb.com/?ip.45.33.23.183) | li977-183.members.linode.com | AppleJeus | High
+16 | [45.42.151.0](https://vuldb.com/?ip.45.42.151.0) | - | - | High
+17 | [45.42.151.11](https://vuldb.com/?ip.45.42.151.11) | - | - | High
+18 | [45.42.151.12](https://vuldb.com/?ip.45.42.151.12) | - | - | High
+19 | [45.42.151.13](https://vuldb.com/?ip.45.42.151.13) | - | - | High
+20 | [45.42.151.14](https://vuldb.com/?ip.45.42.151.14) | - | - | High
+21 | [45.56.79.23](https://vuldb.com/?ip.45.56.79.23) | li929-23.members.linode.com | AppleJeus | High
+22 | [45.79.19.196](https://vuldb.com/?ip.45.79.19.196) | li1118-196.members.linode.com | AppleJeus | High
+23 | [45.82.250.186](https://vuldb.com/?ip.45.82.250.186) | - | JumpCloud | High
+24 | [45.199.63.220](https://vuldb.com/?ip.45.199.63.220) | - | AppleJeus | High
+25 | [46.36.203.81](https://vuldb.com/?ip.46.36.203.81) | - | - | High
+26 | [46.36.203.82](https://vuldb.com/?ip.46.36.203.82) | - | - | High
+27 | [47.206.4.145](https://vuldb.com/?ip.47.206.4.145) | static-47-206-4-145.srst.fl.frontiernet.net | HOPLIGHT | High
+28 | [51.68.152.96](https://vuldb.com/?ip.51.68.152.96) | ns3122934.ip-51-68-152.eu | BLINDINGCAN | High
+29 | ... | ... | ... | ...
 
-There are 96 more IOC items available. Please use our online service to access the data.
+There are 113 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -61,14 +70,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-425 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-28 | Pathname Traversal | High
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -76,38 +85,75 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin-panel1.php` | High
-2 | File | `/admin/academic/studenview_left.php` | High
-3 | File | `/admin/controller/JobLogController.java` | High
-4 | File | `/admin/login.php` | High
-5 | File | `/ad_js.php` | Medium
-6 | File | `/alerts/alertConfigField.php` | High
-7 | File | `/API/system/admins/session` | High
-8 | File | `/config/config.php` | High
-9 | File | `/config/myfield/test.php` | High
-10 | File | `/context/%2e/WEB-INF/web.xml` | High
-11 | File | `/core/conditions/AbstractWrapper.java` | High
-12 | File | `/data/remove` | Medium
-13 | File | `/DataHandler/AM/AM_Handler.ashx` | High
-14 | File | `/DataHandler/HandlerAlarmGroup.ashx` | High
-15 | File | `/DataHandler/HandlerEnergyType.ashx` | High
-16 | File | `/DataHandler/Handler_CFG.ashx` | High
-17 | File | `/ECT_Provider/` | High
-18 | File | `/etc/passwd` | Medium
-19 | File | `/face-recognition-php/facepay-master/camera.php` | High
-20 | File | `/forms/doLogin` | High
-21 | File | `/fuel/index.php/fuel/logs/items` | High
-22 | File | `/fuel/index.php/fuel/pages/items` | High
-23 | File | `/image_zoom.php` | High
-24 | File | `/include/config.cache.php` | High
-25 | File | `/index.php` | Medium
-26 | File | `/mkshop/Men/profile.php` | High
-27 | File | `/param.file.tgz` | High
-28 | File | `/plugin/ajax.php` | High
-29 | File | `/proxy/` | Low
-30 | ... | ... | ...
+1 | File | `.github/workflows/comment.yml` | High
+2 | File | `/?p=products` | Medium
+3 | File | `/?r=email/api/mark&op=delFromSend` | High
+4 | File | `/admin/?page=user` | High
+5 | File | `/admin/addproduct.php` | High
+6 | File | `/admin/ballot_down.php` | High
+7 | File | `/admin/ballot_up.php` | High
+8 | File | `/admin/bookings/manage_booking.php` | High
+9 | File | `/admin/bookings/view_booking.php` | High
+10 | File | `/admin/candidates_row.php` | High
+11 | File | `/admin/casedetails.php` | High
+12 | File | `/admin/config_save.php` | High
+13 | File | `/admin/contacts/organizations/edit/2` | High
+14 | File | `/admin/edit_product.php` | High
+15 | File | `/admin/edit_subject.php` | High
+16 | File | `/admin/fields/manage_field.php` | High
+17 | File | `/admin/inquiries/view_inquiry.php` | High
+18 | File | `/admin/inventory/manage_stock.php` | High
+19 | File | `/admin/maintenance/brand.php` | High
+20 | File | `/admin/manage_academic.php` | High
+21 | File | `/admin/modal_add_product.php` | High
+22 | File | `/admin/offenses/view_details.php` | High
+23 | File | `/admin/orders/update_status.php` | High
+24 | File | `/admin/positions_add.php` | High
+25 | File | `/admin/positions_delete.php` | High
+26 | File | `/admin/positions_row.php` | High
+27 | File | `/admin/product/manage.php` | High
+28 | File | `/admin/products/index.php` | High
+29 | File | `/admin/reportupload.aspx` | High
+30 | File | `/admin/sales/index.php` | High
+31 | File | `/admin/save_teacher.php` | High
+32 | File | `/admin/service.php` | High
+33 | File | `/admin/services/view_service.php` | High
+34 | File | `/admin/update_s6.php` | High
+35 | File | `/admin/user/manage_user.php` | High
+36 | File | `/admin/userprofile.php` | High
+37 | File | `/admin/voters_row.php` | High
+38 | File | `/api/baskets/{name}` | High
+39 | File | `/apply.cgi` | Medium
+40 | File | `/author/list?limit=10&offset=0&order=desc` | High
+41 | File | `/booking/show_bookings/` | High
+42 | File | `/cas/logout` | Medium
+43 | File | `/category/list?limit=10&offset=0&order=desc` | High
+44 | File | `/cgi-bin/adm.cgi` | High
+45 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
+46 | File | `/cgi-bin/wlogin.cgi` | High
+47 | File | `/changeimage.php` | High
+48 | File | `/classes/Master.php` | High
+49 | File | `/classes/Master.php?f=delete_category` | High
+50 | File | `/classes/Master.php?f=delete_img` | High
+51 | File | `/classes/master.php?f=delete_order` | High
+52 | File | `/classes/Master.php?f=delete_sub_category` | High
+53 | File | `/classes/Master.php?f=save_brand` | High
+54 | File | `/classes/Master.php?f=save_category` | High
+55 | File | `/classes/Master.php?f=save_course` | High
+56 | File | `/classes/Master.php?f=save_position` | High
+57 | File | `/classes/Master.php?f=save_sub_category` | High
+58 | File | `/classes/Master.php?f=update_order_status` | High
+59 | File | `/classes/Users.phpp` | High
+60 | File | `/cms/category/list` | High
+61 | File | `/College/admin/teacher.php` | High
+62 | File | `/config/myfield/test.php` | High
+63 | File | `/contact/store` | High
+64 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
+65 | File | `/data/remove` | Medium
+66 | File | `/dcim/rack-roles/` | High
+67 | ... | ... | ...
 
-There are 250 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 587 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -117,12 +163,14 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://en.wikipedia.org/wiki/Internet_in_North_Korea#IP_address_ranges
 * https://github.com/blackorbird/APT_REPORT/tree/master/International%20Strategic/Korea
 * https://github.com/mandatoryprogrammer/NorthKoreaDNSLeak
+* https://jumpcloud.com/support/july-2023-iocs
 * https://raidforums.com/Thread-North-Korean-IP-Addresses-300
 * https://stairwell.com/wp-content/uploads/2022/04/Stairwell-threat-report-The-ink-stained-trail-of-GOLDBACKDOOR.pdf
 * https://us-cert.cisa.gov/ncas/alerts/aa21-048a
 * https://us-cert.cisa.gov/ncas/analysis-reports/AR19-100A
 * https://us-cert.cisa.gov/ncas/analysis-reports/ar20-232a
 * https://www.cisa.gov/uscert/ncas/analysis-reports/ar20-045g
+* https://www.elastic.co/security-labs/DPRK-strikes-using-a-new-variant-of-rustbucket
 * https://www.threatminer.org/report.php?q=HPSRSecurityBriefing_Episode16_NorthKorea.pdf&y=2014
 * https://www.threatminer.org/report.php?q=SuspectedNorthKoreanCyberEspionageCampaignTargetsMultipleForeignMinistriesandThinkTanks.pdf&y=2019
 

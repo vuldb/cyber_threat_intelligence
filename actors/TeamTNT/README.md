@@ -17,11 +17,11 @@ The following _campaigns_ are known and can be associated with TeamTNT:
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with TeamTNT:
 
 * [CN](https://vuldb.com/?country.cn)
-* [MO](https://vuldb.com/?country.mo)
 * [US](https://vuldb.com/?country.us)
+* [MO](https://vuldb.com/?country.mo)
 * ...
 
-There are 3 more country items available. Please use our online service to access the data.
+There are 4 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -47,7 +47,7 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-22, CWE-425 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-94 | Cross Site Scripting | High
-4 | T1059.007 | CWE-79 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
 There are 16 more TTP items available. Please use our online service to access the data.
@@ -58,17 +58,18 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/debug/pprof` | Medium
-2 | File | `/env` | Low
-3 | File | `/goform/SetNetControlList` | High
-4 | File | `/Search-Results` | High
-5 | File | `/usr/bin/pkexec` | High
-6 | File | `admin/categories_industry.php` | High
-7 | File | `admin/content/postcategory` | High
-8 | File | `Adminstrator/Users/Edit/` | High
-9 | ... | ... | ...
+1 | File | `/ajax.php?action=read_msg` | High
+2 | File | `/debug/pprof` | Medium
+3 | File | `/env` | Low
+4 | File | `/goform/SetNetControlList` | High
+5 | File | `/Search-Results` | High
+6 | File | `/src/chatbotapp/chatWindow.java` | High
+7 | File | `/usr/bin/pkexec` | High
+8 | File | `admin/categories_industry.php` | High
+9 | File | `admin/content/postcategory` | High
+10 | ... | ... | ...
 
-There are 61 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 70 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

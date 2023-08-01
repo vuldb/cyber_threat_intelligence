@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Purple Fox:
 
 * [VN](https://vuldb.com/?country.vn)
-* [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
+* [US](https://vuldb.com/?country.us)
 * ...
 
-There are 8 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -431,14 +431,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-29, CWE-36 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-29, CWE-37 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94 | Cross Site Scripting | High
+3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+5 | T1068 | CWE-264, CWE-269, CWE-274, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -446,42 +446,48 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/action/wirelessConnect` | High
-2 | File | `/admin/contacts/organizations/edit/2` | High
-3 | File | `/admin/service.php` | High
-4 | File | `/ajax.php?action=read_msg` | High
-5 | File | `/api/stl/actions/search` | High
-6 | File | `/api/user/password/sent-reset-email` | High
-7 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
-8 | File | `/authenticationendpoint/login.do` | High
-9 | File | `/bin/ate` | Medium
-10 | File | `/bin/login` | Medium
-11 | File | `/bitrix/admin/ldap_server_edit.php` | High
-12 | File | `/bsms_ci/index.php` | High
-13 | File | `/bsms_ci/index.php/user/edit_user/` | High
-14 | File | `/cas/logout` | Medium
-15 | File | `/cgi-bin` | Medium
-16 | File | `/cgi-bin/upload_vpntar` | High
-17 | File | `/cgi-bin/wlogin.cgi` | High
-18 | File | `/classes/Master.php?f=delete_category` | High
-19 | File | `/classes/Master.php?f=save_service` | High
-20 | File | `/data/remove` | Medium
-21 | File | `/debug/pprof` | Medium
-22 | File | `/download` | Medium
-23 | File | `/E-mobile/App/System/File/downfile.php` | High
-24 | File | `/Electron/download` | High
-25 | File | `/env` | Low
-26 | File | `/forms/doLogin` | High
-27 | File | `/forum/away.php` | High
-28 | File | `/HNAP1` | Low
-29 | File | `/hrm/controller/employee.php` | High
-30 | File | `/hrm/employeeadd.php` | High
-31 | File | `/hrm/employeeview.php` | High
-32 | File | `/inc/jquery/uploadify/uploadify.php` | High
-33 | File | `/Log/Query?appid=0B736354-9473-4D66-B9C0-15CAC149EB05&tabid=tab_0B73635494734D66B9C015CAC149EB05` | High
-34 | ... | ... | ...
+1 | File | `//proc/kcore` | Medium
+2 | File | `/act/ActDao.xml` | High
+3 | File | `/admin/index.php` | High
+4 | File | `/api/baskets/{name}` | High
+5 | File | `/authenticationendpoint/login.do` | High
+6 | File | `/bin/ate` | Medium
+7 | File | `/booking/show_bookings/` | High
+8 | File | `/bsms_ci/index.php` | High
+9 | File | `/bsms_ci/index.php/user/edit_user/` | High
+10 | File | `/cgi-bin/luci` | High
+11 | File | `/cgi-bin/wapopen` | High
+12 | File | `/cgi-bin/wlogin.cgi` | High
+13 | File | `/concat?/%2557EB-INF/web.xml` | High
+14 | File | `/contact/store` | High
+15 | File | `/csms/?page=contact_us` | High
+16 | File | `/data/remove` | Medium
+17 | File | `/debug/pprof` | Medium
+18 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
+19 | File | `/ecommerce/support_ticket` | High
+20 | File | `/forum/away.php` | High
+21 | File | `/FuguHub/cmsdocs/` | High
+22 | File | `/goform/AdvSetLanip` | High
+23 | File | `/goform/fromSetWirelessRepeat` | High
+24 | File | `/goform/setmac` | High
+25 | File | `/goform/setMacFilterCfg` | High
+26 | File | `/goform/SetSysTimeCfg` | High
+27 | File | `/goform/set_LimitClient_cfg` | High
+28 | File | `/goform/WifiGuestSet` | High
+29 | File | `/h/autoSaveDraft` | High
+30 | File | `/HNAP1` | Low
+31 | File | `/hrm/employeeadd.php` | High
+32 | File | `/index.php` | Medium
+33 | File | `/kelasdosen/data` | High
+34 | File | `/mc` | Low
+35 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+36 | File | `/php-inventory-management-system/product.php` | High
+37 | File | `/php-sms/admin/?page=user/manage_user` | High
+38 | File | `/plain` | Low
+39 | File | `/preview.php` | Medium
+40 | ... | ... | ...
 
-There are 290 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 345 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

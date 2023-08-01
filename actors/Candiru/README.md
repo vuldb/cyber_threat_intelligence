@@ -61,40 +61,40 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `%PROGRAMDATA%\OpenVPN Connect\drivers\tap\amd64\win10` | High
 2 | File | `/.dbus-keyrings` | High
-3 | File | `/acms/classes/Master.php?f=delete_cargo` | High
-4 | File | `/addnews.html` | High
-5 | File | `/addsrv` | Low
-6 | File | `/admin.php/news/admin/topic/save` | High
-7 | File | `/admin/addemployee.php` | High
-8 | File | `/admin/comn/service/update.json` | High
-9 | File | `/Admin/Views/FileEditor/` | High
-10 | File | `/api/user/{ID}` | High
-11 | File | `/article/add` | Medium
-12 | File | `/asms/classes/Master.php?f=delete_transaction` | High
-13 | File | `/auth/register` | High
-14 | File | `/cgi-bin/uploadWeiXinPic` | High
-15 | File | `/controller/pay.class.php` | High
-16 | File | `/ctpms/admin/?page=applications/view_application` | High
-17 | File | `/dev/block/mmcblk0rpmb` | High
-18 | File | `/dev/snd/seq` | Medium
-19 | File | `/device/device=140/tab=wifi/view` | High
-20 | File | `/dl/dl_print.php` | High
-21 | File | `/etc/passwd` | Medium
-22 | File | `/getcfg.php` | Medium
-23 | File | `/goform/aspForm` | High
-24 | File | `/goform/SetClientState` | High
-25 | File | `/goform/SysToolChangePwd` | High
-26 | File | `/irj/servlet/prt/portal/prtroot/com.sap.portal.usermanagement.admin.UserMapping` | High
-27 | File | `/jerry-core/ecma/base/ecma-gc.c` | High
-28 | File | `/jerry-core/ecma/base/ecma-helpers-conversion.c` | High
-29 | File | `/librarian/bookdetails.php` | High
-30 | File | `/librarian/lab.php` | High
-31 | File | `/login` | Low
-32 | File | `/mngset/authset` | High
-33 | File | `/nova/bin/sniffer` | High
+3 | File | `/?r=recruit/resume/edit&op=status` | High
+4 | File | `/acms/classes/Master.php?f=delete_cargo` | High
+5 | File | `/addnews.html` | High
+6 | File | `/addsrv` | Low
+7 | File | `/admin.php/news/admin/topic/save` | High
+8 | File | `/admin/addemployee.php` | High
+9 | File | `/admin/comn/service/update.json` | High
+10 | File | `/Admin/Views/FileEditor/` | High
+11 | File | `/api/user/{ID}` | High
+12 | File | `/article/add` | Medium
+13 | File | `/asms/classes/Master.php?f=delete_transaction` | High
+14 | File | `/auth/register` | High
+15 | File | `/cgi-bin/uploadWeiXinPic` | High
+16 | File | `/controller/pay.class.php` | High
+17 | File | `/ctpms/admin/?page=applications/view_application` | High
+18 | File | `/dev/block/mmcblk0rpmb` | High
+19 | File | `/dev/snd/seq` | Medium
+20 | File | `/device/device=140/tab=wifi/view` | High
+21 | File | `/dl/dl_print.php` | High
+22 | File | `/etc/passwd` | Medium
+23 | File | `/getcfg.php` | Medium
+24 | File | `/goform/aspForm` | High
+25 | File | `/goform/SetClientState` | High
+26 | File | `/goform/SysToolChangePwd` | High
+27 | File | `/irj/servlet/prt/portal/prtroot/com.sap.portal.usermanagement.admin.UserMapping` | High
+28 | File | `/jerry-core/ecma/base/ecma-gc.c` | High
+29 | File | `/jerry-core/ecma/base/ecma-helpers-conversion.c` | High
+30 | File | `/librarian/bookdetails.php` | High
+31 | File | `/librarian/lab.php` | High
+32 | File | `/login` | Low
+33 | File | `/mngset/authset` | High
 34 | ... | ... | ...
 
-There are 287 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 291 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

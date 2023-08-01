@@ -9,8 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Buhtrap:
 
 * [RU](https://vuldb.com/?country.ru)
-* [GA](https://vuldb.com/?country.ga)
 * [US](https://vuldb.com/?country.us)
+* [AG](https://vuldb.com/?country.ag)
+* ...
+
+There are 1 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -23,7 +26,7 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [37.143.12.190](https://vuldb.com/?ip.37.143.12.190) | hosted-by.ihc.ru | - | High
 4 | ... | ... | ... | ...
 
-There are 6 more IOC items available. Please use our online service to access the data.
+There are 8 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -36,7 +39,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 12 more TTP items available. Please use our online service to access the data.
+There are 14 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -52,14 +55,16 @@ ID | Type | Indicator | Confidence
 6 | File | `adrotate.pm` | Medium
 7 | File | `article.php` | Medium
 8 | File | `asn1fix_retrieve.c` | High
-9 | ... | ... | ...
+9 | File | `bigsam_guestbook.php` | High
+10 | ... | ... | ...
 
-There are 67 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 71 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://s.tencent.com/research/report/683.html
 * https://www.threatminer.org/report.php?q=gib-buhtrap-report-GroupIB.pdf&y=2016
 
 ## Literature

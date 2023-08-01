@@ -9,7 +9,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Nokoyawa:
 
 * [US](https://vuldb.com/?country.us)
-* [TR](https://vuldb.com/?country.tr)
+* [CN](https://vuldb.com/?country.cn)
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
@@ -34,7 +34,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 7 more TTP items available. Please use our online service to access the data.
+There are 8 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -42,15 +42,16 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/homeaction.php` | High
-2 | File | `/librarian/bookdetails.php` | High
-3 | File | `/modules/projects/vw_files.php` | High
-4 | File | `/out.php` | Medium
-5 | File | `admin.php` | Medium
-6 | File | `admin.webring.docs.php` | High
-7 | ... | ... | ...
+1 | File | `/forum/away.php` | High
+2 | File | `/homeaction.php` | High
+3 | File | `/librarian/bookdetails.php` | High
+4 | File | `/modules/projects/vw_files.php` | High
+5 | File | `/out.php` | Medium
+6 | File | `adclick.php` | Medium
+7 | File | `admin.php` | Medium
+8 | ... | ... | ...
 
-There are 44 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 52 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

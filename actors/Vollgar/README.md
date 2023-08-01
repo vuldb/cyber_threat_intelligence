@@ -10,6 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
+* [GB](https://vuldb.com/?country.gb)
 
 ## IOC - Indicator of Compromise
 
@@ -17,12 +18,13 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [39.109.116.162](https://vuldb.com/?ip.39.109.116.162) | - | - | High
-2 | [51.105.249.223](https://vuldb.com/?ip.51.105.249.223) | - | - | High
-3 | [103.53.211.94](https://vuldb.com/?ip.103.53.211.94) | - | - | High
-4 | ... | ... | ... | ...
+1 | [1.23.82.72](https://vuldb.com/?ip.1.23.82.72) | - | - | High
+2 | [2.2.82.64](https://vuldb.com/?ip.2.2.82.64) | - | - | High
+3 | [2.12.51.56](https://vuldb.com/?ip.2.12.51.56) | arennes-655-1-148-56.w2-12.abo.wanadoo.fr | - | High
+4 | [3.95.29.25](https://vuldb.com/?ip.3.95.29.25) | ec2-3-95-29-25.compute-1.amazonaws.com | - | Medium
+5 | ... | ... | ... | ...
 
-There are 9 more IOC items available. Please use our online service to access the data.
+There are 17 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -35,7 +37,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059.007 | CWE-79 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 6 more TTP items available. Please use our online service to access the data.
+There are 9 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -43,18 +45,20 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/wp-content/plugins/emag-marketplace-connector/templates/order/awb-meta-box.php` | High
-2 | File | `data/gbconfiguration.dat` | High
-3 | File | `goto.php` | Medium
+1 | File | `/rest/api/2/user/picker` | High
+2 | File | `/wp-content/plugins/emag-marketplace-connector/templates/order/awb-meta-box.php` | High
+3 | File | `afr.php` | Low
 4 | ... | ... | ...
 
-There are 21 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 23 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://github.com/guardicore/labs_campaigns/blob/master/Vollgar/connect_back_domains.md
 * https://github.com/guardicore/labs_campaigns/tree/master/Vollgar
+* https://www.guardicore.com/2020/04/vollgar-ms-sql-servers-under-attack/
 
 ## Literature
 

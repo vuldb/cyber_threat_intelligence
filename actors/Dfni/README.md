@@ -8,8 +8,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Dfni:
 
-* [UA](https://vuldb.com/?country.ua)
 * [US](https://vuldb.com/?country.us)
+* [UA](https://vuldb.com/?country.ua)
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
@@ -35,7 +35,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1068 | CWE-269 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 4 | ... | ... | ... | ...
 
-There are 5 more TTP items available. Please use our online service to access the data.
+There are 6 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 

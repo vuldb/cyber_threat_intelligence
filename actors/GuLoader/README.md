@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 4 more country items available. Please use our online service to access the data.
+There are 5 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -26,7 +26,7 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [64.44.168.209](https://vuldb.com/?ip.64.44.168.209) | 209-168-44-64-.reverse-dns | - | High
 4 | ... | ... | ... | ...
 
-There are 6 more IOC items available. Please use our online service to access the data.
+There are 7 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -53,14 +53,15 @@ ID | Type | Indicator | Confidence
 4 | File | `/jerry-core/ecma/base/ecma-helpers-conversion.c` | High
 5 | File | `/login` | Low
 6 | File | `/opt/IBM/es/lib/libffq.cryptionjni.so` | High
-7 | File | `/sdm-ws-rest/preconfiguration` | High
-8 | File | `/settings` | Medium
-9 | File | `/uapi/doc` | Medium
-10 | File | `/uncpath/` | Medium
-11 | File | `/updownload/t.report` | High
-12 | ... | ... | ...
+7 | File | `/opt/vyatta/share/vyatta-cfg/templates/system/static-host-mapping/host-name/node.def` | High
+8 | File | `/sdm-ws-rest/preconfiguration` | High
+9 | File | `/settings` | Medium
+10 | File | `/uapi/doc` | Medium
+11 | File | `/uncpath/` | Medium
+12 | File | `/updownload/t.report` | High
+13 | ... | ... | ...
 
-There are 95 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 102 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -70,6 +71,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://asec.ahnlab.com/en/36294/
 * https://asec.ahnlab.com/en/36785/
 * https://asec.ahnlab.com/en/38942/
+* https://isc.sans.edu/diary/GuLoader+or+DBatLoaderModiLoaderstyle+infection+for+Remcos+RAT/29990
 
 ## Literature
 

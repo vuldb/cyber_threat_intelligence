@@ -51,9 +51,10 @@ ID | Type | Indicator | Confidence
 2 | File | `/forum/away.php` | High
 3 | File | `/modules/profile/index.php` | High
 4 | File | `/probe?target` | High
-5 | ... | ... | ...
+5 | File | `/usr/www/ja/mnt_cmd.cgi` | High
+6 | ... | ... | ...
 
-There are 32 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 34 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

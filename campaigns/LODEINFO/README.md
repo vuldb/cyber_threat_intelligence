@@ -70,12 +70,12 @@ ID | Type | Indicator | Confidence
 8 | File | `/auth` | Low
 9 | File | `/balance/service/list` | High
 10 | File | `/config/getuser` | High
-11 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-12 | File | `/SiteServer/Ajax/ajaxOtherService.aspx` | High
-13 | File | `/uncpath/` | Medium
+11 | File | `/resources//../` | High
+12 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+13 | File | `/SiteServer/Ajax/ajaxOtherService.aspx` | High
 14 | ... | ... | ...
 
-There are 107 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 113 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

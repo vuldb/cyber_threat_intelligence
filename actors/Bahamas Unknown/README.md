@@ -86,23 +86,23 @@ ID | Type | Indicator | Confidence
 16 | File | `/classes/Master.php?f=save_course` | High
 17 | File | `/demo/module/?module=HERE` | High
 18 | File | `/download/set.cgi` | High
-19 | File | `/dvcset/sysset/set.cgi` | High
-20 | File | `/forum/away.php` | High
-21 | File | `/goform/SysToolReboot` | High
-22 | File | `/goform/WifiExtraSet` | High
-23 | File | `/inc/topBarNav.php` | High
-24 | File | `/index.php?m=admin&c=custom&a=plugindelhandle` | High
-25 | File | `/mkshop/Men/profile.php` | High
-26 | File | `/mngset/authset` | High
-27 | File | `/mobile/downloadfile.aspx` | High
-28 | File | `/net/nfc/netlink.c` | High
-29 | File | `/out.php` | Medium
-30 | File | `/outgoing.php` | High
-31 | File | `/php-fusion/infusions/shoutbox_panel/shoutbox_archive.php` | High
-32 | File | `/presale/join` | High
+19 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
+20 | File | `/dvcset/sysset/set.cgi` | High
+21 | File | `/forum/away.php` | High
+22 | File | `/goform/SysToolReboot` | High
+23 | File | `/goform/WifiExtraSet` | High
+24 | File | `/inc/topBarNav.php` | High
+25 | File | `/index.php?m=admin&c=custom&a=plugindelhandle` | High
+26 | File | `/mkshop/Men/profile.php` | High
+27 | File | `/mngset/authset` | High
+28 | File | `/mobile/downloadfile.aspx` | High
+29 | File | `/net/nfc/netlink.c` | High
+30 | File | `/out.php` | Medium
+31 | File | `/outgoing.php` | High
+32 | File | `/php-fusion/infusions/shoutbox_panel/shoutbox_archive.php` | High
 33 | ... | ... | ...
 
-There are 280 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 286 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

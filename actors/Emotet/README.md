@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [VN](https://vuldb.com/?country.vn)
 * [CN](https://vuldb.com/?country.cn)
-* [ES](https://vuldb.com/?country.es)
+* [US](https://vuldb.com/?country.us)
 * ...
 
 There are 11 more country items available. Please use our online service to access the data.
@@ -946,7 +946,7 @@ ID | IP address | Hostname | Campaign | Confidence
 923 | [59.125.219.109](https://vuldb.com/?ip.59.125.219.109) | 59-125-219-109.hinet-ip.hinet.net | - | High
 924 | ... | ... | ... | ...
 
-There are 3692 more IOC items available. Please use our online service to access the data.
+There are 3693 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -954,12 +954,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-29, CWE-50 | Pathname Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-29, CWE-37 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
 
@@ -969,45 +968,47 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/addproduct.php` | High
-2 | File | `/admin/modal_add_product.php` | High
-3 | File | `/admin/update_s6.php` | High
-4 | File | `/ajax.php?action=read_msg` | High
-5 | File | `/api/user/password/sent-reset-email` | High
-6 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
+1 | File | `//proc/kcore` | Medium
+2 | File | `/admin/read.php?mudi=getSignal` | High
+3 | File | `/api/baskets/{name}` | High
+4 | File | `/api/common/ping` | High
+5 | File | `/api/geojson` | Medium
+6 | File | `/Applications/Content%20Manager/Execute.aspx?cmd=convert&mode=HTML` | High
 7 | File | `/authenticationendpoint/login.do` | High
 8 | File | `/bin/ate` | Medium
-9 | File | `/bin/login` | Medium
-10 | File | `/bsms_ci/index.php` | High
-11 | File | `/bsms_ci/index.php/user/edit_user/` | High
-12 | File | `/cgi-bin/luci` | High
-13 | File | `/cgi-bin/wlogin.cgi` | High
-14 | File | `/changeimage.php` | High
-15 | File | `/classes/Master.php?f=delete_category` | High
-16 | File | `/classes/Users.php?f=save` | High
-17 | File | `/config/api/v1/reboot` | High
-18 | File | `/cwms/classes/Master.php?f=save_contact` | High
-19 | File | `/download` | Medium
-20 | File | `/DXR.axd` | Medium
-21 | File | `/env` | Low
-22 | File | `/forum/away.php` | High
-23 | File | `/goform/setmac` | High
-24 | File | `/goform/setMacFilterCfg` | High
-25 | File | `/HNAP1` | Low
-26 | File | `/hrm/employeeadd.php` | High
-27 | File | `/kelasdosen/data` | High
-28 | File | `/Log/Query?appid=0B736354-9473-4D66-B9C0-15CAC149EB05&tabid=tab_0B73635494734D66B9C015CAC149EB05` | High
-29 | File | `/mc` | Low
-30 | File | `/news/*.html` | Medium
-31 | File | `/owa/auth/logon.aspx` | High
-32 | File | `/php-inventory-management-system/product.php` | High
-33 | File | `/php-sms/admin/?page=user/manage_user` | High
-34 | File | `/send_order.cgi?parameter=restart` | High
-35 | File | `/spip.php` | Medium
-36 | File | `/tmp/boa-temp` | High
-37 | ... | ... | ...
+9 | File | `/booking/show_bookings/` | High
+10 | File | `/bsms_ci/index.php/user/edit_user/` | High
+11 | File | `/cgi-bin/wlogin.cgi` | High
+12 | File | `/contact/store` | High
+13 | File | `/debug/pprof` | Medium
+14 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
+15 | File | `/DXR.axd` | Medium
+16 | File | `/ecommerce/support_ticket` | High
+17 | File | `/forum/away.php` | High
+18 | File | `/FuguHub/cmsdocs/` | High
+19 | File | `/goform/AdvSetLanip` | High
+20 | File | `/goform/fromSetWirelessRepeat` | High
+21 | File | `/goform/setmac` | High
+22 | File | `/goform/setMacFilterCfg` | High
+23 | File | `/goform/SetSysTimeCfg` | High
+24 | File | `/goform/set_LimitClient_cfg` | High
+25 | File | `/goform/WifiGuestSet` | High
+26 | File | `/h/autoSaveDraft` | High
+27 | File | `/HNAP1` | Low
+28 | File | `/hrm/employeeadd.php` | High
+29 | File | `/index.php` | Medium
+30 | File | `/kelasdosen/data` | High
+31 | File | `/librarian/bookdetails.php` | High
+32 | File | `/mc` | Low
+33 | File | `/osms/assets/plugins/jquery-validation-1.11.1/demo/captcha/index.php` | High
+34 | File | `/out.php` | Medium
+35 | File | `/php-inventory-management-system/product.php` | High
+36 | File | `/plain` | Low
+37 | File | `/registration.php` | High
+38 | File | `/secure/QueryComponent!Default.jspa` | High
+39 | ... | ... | ...
 
-There are 317 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 334 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -1209,6 +1210,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://www.fortinet.com/blog/threat-research/emotet-playbook-banking-trojan.html
 * https://www.malware-traffic-analysis.net/2022/06/07/index2.html
 * https://www.trendmicro.com/en_us/research/22/a/emotet-spam-abuses-unconventional-ip-address-formats-spread-malware.html
+* https://www.welivesecurity.com/2023/07/06/whats-up-with-emotet/
 * https://www.zscaler.com/blogs/research/emotet-back-action-after-short-break
 
 ## Literature
