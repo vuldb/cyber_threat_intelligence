@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [FR](https://vuldb.com/?country.fr)
 * ...
 
-There are 18 more country items available. Please use our online service to access the data.
+There are 19 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -49,7 +49,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 15 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -67,35 +67,35 @@ ID | Type | Indicator | Confidence
 8 | File | `/admin/show.php` | High
 9 | File | `/default.php?idx=17` | High
 10 | File | `/download` | Medium
-11 | File | `/forum/away.php` | High
-12 | File | `/index.php` | Medium
-13 | File | `/index.php/admins/Fields/get_fields.html` | High
-14 | File | `/opt/bin/cli` | Medium
-15 | File | `/p` | Low
-16 | File | `/patient/doctors.php` | High
-17 | File | `/phpinventory/editcategory.php` | High
-18 | File | `/php_action/createUser.php` | High
-19 | File | `/product-list.php` | High
-20 | File | `/spip.php` | Medium
-21 | File | `/uncpath/` | Medium
-22 | File | `/updown/upload.cgi` | High
-23 | File | `/user/del.php` | High
-24 | File | `/_next` | Low
-25 | File | `123flashchat.php` | High
-26 | File | `act.php` | Low
-27 | File | `admin/bad.php` | High
-28 | File | `admin/index.php` | High
-29 | File | `admin/index.php/user/del/1` | High
-30 | File | `admin/index.php?id=themes&action=edit_chunk` | High
-31 | File | `administrator/index.php` | High
-32 | File | `agenda.php` | Medium
-33 | File | `ajax/render/widget_php` | High
-34 | File | `album_portal.php` | High
-35 | File | `api.php` | Low
-36 | File | `application/home/controller/debug.php` | High
+11 | File | `/env` | Low
+12 | File | `/forum/away.php` | High
+13 | File | `/goform/SetOnlineDevName` | High
+14 | File | `/index.php` | Medium
+15 | File | `/index.php/admins/Fields/get_fields.html` | High
+16 | File | `/opt/bin/cli` | Medium
+17 | File | `/p` | Low
+18 | File | `/patient/doctors.php` | High
+19 | File | `/phpinventory/editcategory.php` | High
+20 | File | `/php_action/createUser.php` | High
+21 | File | `/product-list.php` | High
+22 | File | `/spip.php` | Medium
+23 | File | `/uncpath/` | Medium
+24 | File | `/updown/upload.cgi` | High
+25 | File | `/user/del.php` | High
+26 | File | `/_next` | Low
+27 | File | `123flashchat.php` | High
+28 | File | `act.php` | Low
+29 | File | `admin/bad.php` | High
+30 | File | `admin/index.php` | High
+31 | File | `admin/index.php/user/del/1` | High
+32 | File | `admin/index.php?id=themes&action=edit_chunk` | High
+33 | File | `administrator/index.php` | High
+34 | File | `admin\posts\manage_post.php` | High
+35 | File | `agenda.php` | Medium
+36 | File | `ajax/render/widget_php` | High
 37 | ... | ... | ...
 
-There are 315 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 321 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

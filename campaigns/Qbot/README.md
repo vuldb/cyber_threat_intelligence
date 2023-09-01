@@ -127,13 +127,11 @@ ID | Type | Indicator | Confidence
 29 | File | `/shell` | Low
 30 | File | `/tourism/rate_review.php` | High
 31 | File | `/uncpath/` | Medium
-32 | File | `/usr/www/ja/mnt_cmd.cgi` | High
-33 | File | `/vdesk` | Low
-34 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
-35 | File | `action-visitor.php` | High
-36 | ... | ... | ...
+32 | File | `/vdesk` | Low
+33 | File | `action-visitor.php` | High
+34 | ... | ... | ...
 
-There are 304 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 295 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

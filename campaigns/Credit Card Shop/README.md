@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 18 more country items available. Please use our online service to access the data.
+There are 16 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -81,20 +81,20 @@ ID | Type | Indicator | Confidence
 11 | File | `/alphaware/summary.php` | High
 12 | File | `/api/` | Low
 13 | File | `/api/admin/store/product/list` | High
-14 | File | `/api/stl/actions/search` | High
-15 | File | `/api/v2/cli/commands` | High
-16 | File | `/attachments` | Medium
-17 | File | `/bin/ate` | Medium
-18 | File | `/boat/login.php` | High
-19 | File | `/booking/show_bookings/` | High
-20 | File | `/bsms_ci/index.php/book` | High
-21 | File | `/cgi-bin` | Medium
-22 | File | `/cgi-bin/luci/api/wireless` | High
-23 | File | `/cgi-bin/wlogin.cgi` | High
-24 | File | `/classes/Users.php` | High
-25 | File | `/confirm` | Medium
-26 | File | `/context/%2e/WEB-INF/web.xml` | High
-27 | File | `/debian/patches/load_ppp_generic_if_needed` | High
+14 | File | `/api/baskets/{name}` | High
+15 | File | `/api/stl/actions/search` | High
+16 | File | `/api/v2/cli/commands` | High
+17 | File | `/attachments` | Medium
+18 | File | `/bin/ate` | Medium
+19 | File | `/boat/login.php` | High
+20 | File | `/booking/show_bookings/` | High
+21 | File | `/bsms_ci/index.php/book` | High
+22 | File | `/cgi-bin` | Medium
+23 | File | `/cgi-bin/luci/api/wireless` | High
+24 | File | `/cgi-bin/wlogin.cgi` | High
+25 | File | `/classes/Users.php` | High
+26 | File | `/confirm` | Medium
+27 | File | `/context/%2e/WEB-INF/web.xml` | High
 28 | File | `/debug/pprof` | Medium
 29 | File | `/env` | Low
 30 | File | `/etc/hosts` | Medium
@@ -106,15 +106,16 @@ ID | Type | Indicator | Confidence
 36 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
 37 | File | `/out.php` | Medium
 38 | File | `/pages/apply_vacancy.php` | High
-39 | File | `/php-sms/admin/?page=user/manage_user` | High
-40 | File | `/pms/update_patient.php` | High
-41 | File | `/preview.php` | Medium
-42 | File | `/proxy` | Low
-43 | File | `/reservation/add_message.php` | High
-44 | File | `/resources//../` | High
-45 | ... | ... | ...
+39 | File | `/pharmacy-sales-and-inventory-system/manage_user.php` | High
+40 | File | `/php-sms/admin/?page=user/manage_user` | High
+41 | File | `/pms/update_patient.php` | High
+42 | File | `/preview.php` | Medium
+43 | File | `/proxy` | Low
+44 | File | `/reservation/add_message.php` | High
+45 | File | `/resources//../` | High
+46 | ... | ... | ...
 
-There are 391 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 395 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

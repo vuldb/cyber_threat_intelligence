@@ -8,9 +8,9 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with DreamBus:
 
+* [US](https://vuldb.com/?country.us)
 * [JP](https://vuldb.com/?country.jp)
 * [ME](https://vuldb.com/?country.me)
-* [US](https://vuldb.com/?country.us)
 * ...
 
 There are 3 more country items available. Please use our online service to access the data.
@@ -21,12 +21,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [94.176.237.229](https://vuldb.com/?ip.94.176.237.229) | cim8.f.dedikuoti.lt | - | High
-2 | [94.237.85.89](https://vuldb.com/?ip.94.237.85.89) | 94-237-85-89.de-fra1.upcloud.host | - | High
-3 | [136.243.90.99](https://vuldb.com/?ip.136.243.90.99) | static.99.90.243.136.clients.your-server.de | - | High
+1 | [10.0.0.0](https://vuldb.com/?ip.10.0.0.0) | - | - | High
+2 | [94.176.237.229](https://vuldb.com/?ip.94.176.237.229) | cim8.f.dedikuoti.lt | - | High
+3 | [94.237.85.89](https://vuldb.com/?ip.94.237.85.89) | 94-237-85-89.de-fra1.upcloud.host | - | High
 4 | ... | ... | ... | ...
 
-There are 2 more IOC items available. Please use our online service to access the data.
+There are 6 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -34,12 +34,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059 | CWE-94 | Cross Site Scripting | High
-2 | T1059.007 | CWE-79 | Cross Site Scripting | High
-3 | T1068 | CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+1 | T1006 | CWE-22 | Pathname Traversal | High
+2 | T1059 | CWE-94 | Cross Site Scripting | High
+3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 8 more TTP items available. Please use our online service to access the data.
+There are 10 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -47,18 +47,21 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `admin/vqmods.app/vqmods.inc.php` | High
-2 | File | `photo-gallery/api/album/tree_lists/` | High
-3 | File | `wp-admin/admin.php?page=lightboxplus` | High
-4 | ... | ... | ...
+1 | File | `/librarian/bookdetails.php` | High
+2 | File | `/staff/bookdetails.php` | High
+3 | File | `/student/bookdetails.php` | High
+4 | File | `admin/vqmods.app/vqmods.inc.php` | High
+5 | ... | ... | ...
 
-There are 6 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 26 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://community.blueliv.com/#!/s/600e7a2d82df413eb5354ce6
+* https://github.com/threatlabz/iocs/blob/main/dreambus/c2_domains.txt
+* https://github.com/threatlabz/iocs/blob/main/dreambus/dreambus.yara
 
 ## Literature
 

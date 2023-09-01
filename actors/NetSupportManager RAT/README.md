@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 5 more country items available. Please use our online service to access the data.
+There are 6 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -41,14 +41,16 @@ ID | IP address | Hostname | Campaign | Confidence
 18 | [37.61.213.242](https://vuldb.com/?ip.37.61.213.242) | - | - | High
 19 | [45.11.180.120](https://vuldb.com/?ip.45.11.180.120) | - | - | High
 20 | [45.15.157.144](https://vuldb.com/?ip.45.15.157.144) | - | - | High
-21 | [45.61.136.72](https://vuldb.com/?ip.45.61.136.72) | - | - | High
-22 | [45.61.138.73](https://vuldb.com/?ip.45.61.138.73) | - | - | High
-23 | [45.76.172.113](https://vuldb.com/?ip.45.76.172.113) | 45.76.172.113.vultrusercontent.com | - | High
-24 | [45.77.31.210](https://vuldb.com/?ip.45.77.31.210) | 45.77.31.210.vultrusercontent.com | - | High
-25 | [45.133.203.205](https://vuldb.com/?ip.45.133.203.205) | - | - | High
-26 | ... | ... | ... | ...
+21 | [45.15.158.212](https://vuldb.com/?ip.45.15.158.212) | - | - | High
+22 | [45.61.136.72](https://vuldb.com/?ip.45.61.136.72) | - | - | High
+23 | [45.61.138.73](https://vuldb.com/?ip.45.61.138.73) | - | - | High
+24 | [45.61.147.162](https://vuldb.com/?ip.45.61.147.162) | - | - | High
+25 | [45.76.172.113](https://vuldb.com/?ip.45.76.172.113) | 45.76.172.113.vultrusercontent.com | - | High
+26 | [45.77.31.210](https://vuldb.com/?ip.45.77.31.210) | 45.77.31.210.vultrusercontent.com | - | High
+27 | [45.133.203.205](https://vuldb.com/?ip.45.133.203.205) | - | - | High
+28 | ... | ... | ... | ...
 
-There are 102 more IOC items available. Please use our online service to access the data.
+There are 109 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -73,34 +75,42 @@ ID | Type | Indicator | Confidence
 2 | File | `/api/baskets/{name}` | High
 3 | File | `/api/RecordingList/DownloadRecord?file=` | High
 4 | File | `/apply.cgi` | Medium
-5 | File | `/forum/away.php` | High
-6 | File | `/include/makecvs.php` | High
-7 | File | `/out.php` | Medium
-8 | File | `/rapi/read_url` | High
-9 | File | `/requests.php` | High
-10 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
-11 | File | `/wp-admin/admin.php?page=wp_file_manager_properties` | High
-12 | File | `add.php` | Low
-13 | File | `admin/index.php` | High
-14 | File | `appserv/main.php` | High
-15 | File | `base/ErrorHandler.php` | High
-16 | File | `browser/thumbnails/render_widget_snapshot_taker.cc` | High
-17 | ... | ... | ...
+5 | File | `/cgi-bin/wlogin.cgi` | High
+6 | File | `/forum/away.php` | High
+7 | File | `/include/makecvs.php` | High
+8 | File | `/index.php?p=admin/actions/users/send-password-reset-email` | High
+9 | File | `/out.php` | Medium
+10 | File | `/rapi/read_url` | High
+11 | File | `/requests.php` | High
+12 | File | `/system/user/modules/mod_users/controller.php` | High
+13 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
+14 | File | `/wp-admin/admin.php?page=wp_file_manager_properties` | High
+15 | File | `add.php` | Low
+16 | File | `admin/index.php` | High
+17 | File | `appserv/main.php` | High
+18 | ... | ... | ...
 
-There are 137 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 150 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://bazaar.abuse.ch/sample/1a9b3968a2f3a4ae0c9c51e6fc41a48829ac4a0fa118a7530c36715638ef0209/
+* https://bazaar.abuse.ch/sample/6fe2ea8db2edb522cd33b8d2539ed73cc708f086a65a0e6f8577b4a001d36bd5/
 * https://bazaar.abuse.ch/sample/26cad4ec29bc07d7b2c32c94dbbef397391babf1c78cc533950b325aaf11bba8/
 * https://bazaar.abuse.ch/sample/48a8c57895c2cfdf13a402e669a9964f56128521404e47b4727672f8ca91a90d/
 * https://bazaar.abuse.ch/sample/759e159da0592063bb0eb967dd45802caa0a1538867994868d5b883f099286a5/
 * https://bazaar.abuse.ch/sample/2174b4c58eb43aac8e5e0061ff0bc45125f4cb64404d552fe25ea6ac1777113d/
+* https://bazaar.abuse.ch/sample/38669dd5ccced3c29f3eb6bad7a04fbdc2cc81ea6f7c76b03cf1c4fee6c5f3f0/
+* https://bazaar.abuse.ch/sample/933861b75227a3f4727b5872fa9da1b049e420632f8a9198987e8bfbaf7da9e6/
+* https://bazaar.abuse.ch/sample/ae2a4c07177c85d3a2611ebbdf54dcee400b6ce6c3b91b2ab5917cdb5966e244/
 * https://bazaar.abuse.ch/sample/ae49d8d6d68069696428ebd3fce5a003af4a6ccaf4f67331eea37a0cd4dfbb77/
 * https://bazaar.abuse.ch/sample/c9e6dc44db59f1883e850babac21890e5723d2627a623c47f709e3bb7d073e35/
+* https://bazaar.abuse.ch/sample/fbfec78acd4e7bdd01056de5d866e26db68430bbdc3e0c58f7e123f5b1f3edbe/
 * https://infosec.exchange/@malware_traffic/109762477310102114
+* https://infosec.exchange/@monitorsg/110845381557169819
+* https://ioc.exchange/@rmceoin@infosec.exchange/110866235650646824
 * https://threatfox.abuse.ch
 * https://twitter.com/AnFam17/status/1671789322259800064
 * https://twitter.com/BroadAnalysis/status/1544348111488929796

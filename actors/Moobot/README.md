@@ -20,7 +20,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 16 more country items available. Please use our online service to access the data.
+There are 17 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -48,12 +48,12 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-24 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 7 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 23 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -62,60 +62,61 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `//` | Low
-2 | File | `/admin.php/pic/admin/pic/del` | High
-3 | File | `/admin.php/singer/admin/lists/zhuan` | High
-4 | File | `/admin.php/User/level_sort` | High
-5 | File | `/admin/communitymanagement.php` | High
-6 | File | `/admin/generalsettings.php` | High
-7 | File | `/admin/maintenance/view_designation.php` | High
-8 | File | `/admin/payment.php` | High
-9 | File | `/admin/siteoptions.php&action=displaygoal&value=1&roleid=1` | High
-10 | File | `/admin/user/manage_user.php` | High
-11 | File | `/ajax.php?action=read_msg` | High
-12 | File | `/aqpg/users/login.php` | High
-13 | File | `/blog/edit` | Medium
-14 | File | `/bsms_ci/index.php/user/edit_user/` | High
-15 | File | `/cgi-bin/wapopen` | High
-16 | File | `/cgi-bin/wlogin.cgi` | High
-17 | File | `/classes/Master.php?f=delete_category` | High
-18 | File | `/Default/Bd` | Medium
-19 | File | `/dms/admin/reports/daily_collection_report.php` | High
-20 | File | `/etc/networkd-dispatcher` | High
-21 | File | `/event/admin/?page=user/list` | High
-22 | File | `/filemanager/upload/drop` | High
-23 | File | `/food/admin/all_users.php` | High
-24 | File | `/forum/away.php` | High
-25 | File | `/getcfg.php` | Medium
-26 | File | `/goform/PowerSaveSet` | High
-27 | File | `/goform/SetClientState` | High
-28 | File | `/goform/SetFirewallCfg` | High
-29 | File | `/goform/setIPv6Status` | High
-30 | File | `/goform/wizard_end` | High
-31 | File | `/hrm/employeeview.php` | High
-32 | File | `/index.php` | Medium
-33 | File | `/isms/classes/Users.php` | High
-34 | File | `/lists/index.php` | High
-35 | File | `/members/view_member.php` | High
-36 | File | `/messageboard/view.php` | High
-37 | File | `/mgmt/tm/util/bash` | High
-38 | File | `/modules/projects/vw_files.php` | High
-39 | File | `/ofrs/admin/?page=teams/view_team` | High
-40 | File | `/ordering/index.php?q=category` | High
-41 | File | `/owa/auth/logon.aspx` | High
-42 | File | `/picturesPreview` | High
-43 | File | `/public_html/animals` | High
-44 | File | `/public_html/apply_vacancy` | High
-45 | File | `/purchase_order/admin/?page=user` | High
-46 | File | `/purchase_order/classes/Master.php?f=delete_supplier` | High
-47 | File | `/SAP_Information_System/controllers/add_admin.php` | High
-48 | File | `/simple_chat_bot/classes/Master.php?f=delete_response` | High
-49 | File | `/SiteServer/Ajax/ajaxOtherService.aspx` | High
-50 | File | `/sns/classes/Master.php?f=delete_img` | High
-51 | File | `/Source/C++/Core/Ap4Array.h` | High
-52 | File | `/TestJDBC_Web/test2` | High
-53 | ... | ... | ...
+2 | File | `/add_post_sql.php` | High
+3 | File | `/admin.php/pic/admin/pic/del` | High
+4 | File | `/admin.php/singer/admin/lists/zhuan` | High
+5 | File | `/admin.php/User/level_sort` | High
+6 | File | `/admin/communitymanagement.php` | High
+7 | File | `/admin/del_service.php` | High
+8 | File | `/admin/generalsettings.php` | High
+9 | File | `/admin/maintenance/view_designation.php` | High
+10 | File | `/admin/payment.php` | High
+11 | File | `/admin/siteoptions.php&action=displaygoal&value=1&roleid=1` | High
+12 | File | `/admin/user/manage_user.php` | High
+13 | File | `/ajax.php?action=read_msg` | High
+14 | File | `/api/baskets/{name}` | High
+15 | File | `/blog/edit` | Medium
+16 | File | `/bsms_ci/index.php/user/edit_user/` | High
+17 | File | `/cgi-bin/wapopen` | High
+18 | File | `/cgi-bin/wlogin.cgi` | High
+19 | File | `/classes/Master.php?f=delete_category` | High
+20 | File | `/classes/Master.php?f=save_item` | High
+21 | File | `/Default/Bd` | Medium
+22 | File | `/dms/admin/reports/daily_collection_report.php` | High
+23 | File | `/editprofile.php` | High
+24 | File | `/etc/networkd-dispatcher` | High
+25 | File | `/event/admin/?page=user/list` | High
+26 | File | `/filemanager/upload/drop` | High
+27 | File | `/food/admin/all_users.php` | High
+28 | File | `/forum/away.php` | High
+29 | File | `/getcfg.php` | Medium
+30 | File | `/goform/PowerSaveSet` | High
+31 | File | `/goform/SetClientState` | High
+32 | File | `/goform/SetFirewallCfg` | High
+33 | File | `/goform/setIPv6Status` | High
+34 | File | `/goform/wizard_end` | High
+35 | File | `/hrm/employeeview.php` | High
+36 | File | `/index.php` | Medium
+37 | File | `/isms/classes/Users.php` | High
+38 | File | `/lists/index.php` | High
+39 | File | `/members/view_member.php` | High
+40 | File | `/messageboard/view.php` | High
+41 | File | `/mgmt/tm/util/bash` | High
+42 | File | `/modules/projects/vw_files.php` | High
+43 | File | `/ofrs/admin/?page=teams/view_team` | High
+44 | File | `/ordering/index.php?q=category` | High
+45 | File | `/owa/auth/logon.aspx` | High
+46 | File | `/picturesPreview` | High
+47 | File | `/public_html/animals` | High
+48 | File | `/public_html/apply_vacancy` | High
+49 | File | `/purchase_order/admin/?page=user` | High
+50 | File | `/purchase_order/classes/Master.php?f=delete_supplier` | High
+51 | File | `/simple_chat_bot/classes/Master.php?f=delete_response` | High
+52 | File | `/SiteServer/Ajax/ajaxOtherService.aspx` | High
+53 | File | `/sns/classes/Master.php?f=delete_img` | High
+54 | ... | ... | ...
 
-There are 462 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 474 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -99,7 +99,7 @@ ID | Type | Indicator | Confidence
 41 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
 42 | File | `/spip.php` | Medium
 43 | File | `/squashfs-root/www/HNAP1/control/SetMasterWLanSettings.php` | High
-44 | File | `/sys/dict/queryTableData` | High
+44 | File | `/src/helper.c` | High
 45 | ... | ... | ...
 
 There are 387 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.

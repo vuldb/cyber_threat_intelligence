@@ -64,14 +64,15 @@ ID | Type | Indicator | Confidence
 5 | File | `/admin/reg.php` | High
 6 | File | `/admin/renewaldue.php` | High
 7 | File | `/analysisProject/pagingQueryData` | High
-8 | File | `/booking/show_bookings/` | High
-9 | File | `/cgi-bin/adm.cgi` | High
-10 | File | `/dashboard/add-portfolio.php` | High
-11 | File | `/dipam/save-delegates.php` | High
-12 | File | `/E-mobile/App/System/File/downfile.php` | High
-13 | ... | ... | ...
+8 | File | `/api/sys/login` | High
+9 | File | `/booking/show_bookings/` | High
+10 | File | `/cgi-bin/adm.cgi` | High
+11 | File | `/dashboard/add-portfolio.php` | High
+12 | File | `/dipam/save-delegates.php` | High
+13 | File | `/E-mobile/App/System/File/downfile.php` | High
+14 | ... | ... | ...
 
-There are 103 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 108 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -27,12 +27,30 @@ ID | IP address | Hostname | Campaign | Confidence
 15 | [41.79.188.0](https://vuldb.com/?ip.41.79.188.0) | - | - | High
 16 | [41.85.192.0](https://vuldb.com/?ip.41.85.192.0) | - | - | High
 17 | [41.174.64.0](https://vuldb.com/?ip.41.174.64.0) | - | - | High
-18 | [41.175.64.0](https://vuldb.com/?ip.41.175.64.0) | - | - | High
-19 | [41.175.128.0](https://vuldb.com/?ip.41.175.128.0) | - | - | High
-20 | [41.190.32.0](https://vuldb.com/?ip.41.190.32.0) | rtd-sa-41-190-32-0.net.yoafrica.com | - | High
-21 | ... | ... | ... | ...
+18 | [41.174.152.0](https://vuldb.com/?ip.41.174.152.0) | - | - | High
+19 | [41.174.160.0](https://vuldb.com/?ip.41.174.160.0) | - | - | High
+20 | [41.175.50.0](https://vuldb.com/?ip.41.175.50.0) | - | - | High
+21 | [41.175.64.0](https://vuldb.com/?ip.41.175.64.0) | - | - | High
+22 | [41.175.128.0](https://vuldb.com/?ip.41.175.128.0) | - | - | High
+23 | [41.175.144.0](https://vuldb.com/?ip.41.175.144.0) | - | - | High
+24 | [41.175.148.0](https://vuldb.com/?ip.41.175.148.0) | - | - | High
+25 | [41.175.148.12](https://vuldb.com/?ip.41.175.148.12) | - | - | High
+26 | [41.175.148.16](https://vuldb.com/?ip.41.175.148.16) | - | - | High
+27 | [41.175.148.28](https://vuldb.com/?ip.41.175.148.28) | - | - | High
+28 | [41.175.148.32](https://vuldb.com/?ip.41.175.148.32) | - | - | High
+29 | [41.175.148.64](https://vuldb.com/?ip.41.175.148.64) | - | - | High
+30 | [41.175.148.128](https://vuldb.com/?ip.41.175.148.128) | - | - | High
+31 | [41.175.149.0](https://vuldb.com/?ip.41.175.149.0) | - | - | High
+32 | [41.175.150.0](https://vuldb.com/?ip.41.175.150.0) | - | - | High
+33 | [41.175.152.0](https://vuldb.com/?ip.41.175.152.0) | - | - | High
+34 | [41.175.156.0](https://vuldb.com/?ip.41.175.156.0) | - | - | High
+35 | [41.175.158.0](https://vuldb.com/?ip.41.175.158.0) | - | - | High
+36 | [41.175.159.0](https://vuldb.com/?ip.41.175.159.0) | - | - | High
+37 | [41.175.159.32](https://vuldb.com/?ip.41.175.159.32) | - | - | High
+38 | [41.175.159.34](https://vuldb.com/?ip.41.175.159.34) | - | - | High
+39 | ... | ... | ... | ...
 
-There are 81 more IOC items available. Please use our online service to access the data.
+There are 151 more IOC items available. Please use our online service to access the data.
 
 ## References
 
@@ -40,6 +58,7 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://github.com/firehol/blocklist-ipsets/blob/master/geolite2_country/country_zw.netset
 * https://github.com/firehol/blocklist-ipsets/blob/master/ip2location_country/ip2location_country_zw.netset
+* https://github.com/firehol/blocklist-ipsets/blob/master/ipip_country/ipip_country_zw.netset
 
 ## Literature
 

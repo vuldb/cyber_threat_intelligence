@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 12 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -67,7 +67,7 @@ ID | Technique | Weakness | Description | Confidence
 6 | T1068 | CWE-264, CWE-269, CWE-274, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 7 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 23 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -115,24 +115,23 @@ ID | Type | Indicator | Confidence
 38 | File | `/spip.php` | Medium
 39 | File | `/student/bookdetails.php` | High
 40 | File | `/tmp/csman/0` | Medium
-41 | File | `/ui/cbpc/login` | High
-42 | File | `/uncpath/` | Medium
-43 | File | `/usr/sbin/httpd` | High
-44 | File | `/util/print.c` | High
-45 | File | `/var/hnap/timestamp` | High
-46 | File | `/vloggers_merch/admin/?page=product/manage_product` | High
-47 | File | `/web/MCmsAction.java` | High
-48 | File | `/wp-content/plugins/forum-server/feed.php` | High
-49 | File | `abc-pcie.c` | Medium
-50 | File | `account.asp` | Medium
-51 | File | `accounts/payment_history.php` | High
-52 | File | `adclick.php` | Medium
-53 | File | `addfav.php` | Medium
-54 | File | `address.html` | Medium
-55 | File | `admin.php` | Medium
-56 | ... | ... | ...
+41 | File | `/uncpath/` | Medium
+42 | File | `/usr/sbin/httpd` | High
+43 | File | `/util/print.c` | High
+44 | File | `/var/hnap/timestamp` | High
+45 | File | `/vloggers_merch/admin/?page=product/manage_product` | High
+46 | File | `/web/MCmsAction.java` | High
+47 | File | `/wp-content/plugins/forum-server/feed.php` | High
+48 | File | `abc-pcie.c` | Medium
+49 | File | `account.asp` | Medium
+50 | File | `accounts/payment_history.php` | High
+51 | File | `adclick.php` | Medium
+52 | File | `addfav.php` | Medium
+53 | File | `address.html` | Medium
+54 | File | `admin.php` | Medium
+55 | ... | ... | ...
 
-There are 485 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 482 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -16,10 +16,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
-* [ES](https://vuldb.com/?country.es)
+* [NL](https://vuldb.com/?country.nl)
 * ...
 
-There are 14 more country items available. Please use our online service to access the data.
+There are 13 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -49,7 +49,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-28 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-28 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
@@ -75,9 +75,9 @@ ID | Type | Indicator | Confidence
 9 | File | `/alphaware/summary.php` | High
 10 | File | `/api/` | Low
 11 | File | `/api/admin/store/product/list` | High
-12 | File | `/api/stl/actions/search` | High
-13 | File | `/api/v2/cli/commands` | High
-14 | File | `/app/options.py` | High
+12 | File | `/api/baskets/{name}` | High
+13 | File | `/api/stl/actions/search` | High
+14 | File | `/api/v2/cli/commands` | High
 15 | File | `/attachments` | Medium
 16 | File | `/bin/ate` | Medium
 17 | File | `/boat/login.php` | High
@@ -96,17 +96,20 @@ ID | Type | Indicator | Confidence
 30 | File | `/goform/formSetEmail` | High
 31 | File | `/goform/setmac` | High
 32 | File | `/goform/wizard_end` | High
-33 | File | `/manage-apartment.php` | High
-34 | File | `/medicines/profile.php` | High
-35 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-36 | File | `/pages/apply_vacancy.php` | High
-37 | File | `/php-sms/admin/?page=user/manage_user` | High
-38 | File | `/proc/<PID>/mem` | High
-39 | File | `/proxy` | Low
-40 | File | `/reservation/add_message.php` | High
-41 | ... | ... | ...
+33 | File | `/group1/uploa` | High
+34 | File | `/manage-apartment.php` | High
+35 | File | `/medicines/profile.php` | High
+36 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+37 | File | `/pages/apply_vacancy.php` | High
+38 | File | `/php-sms/admin/?page=user/manage_user` | High
+39 | File | `/proc/<PID>/mem` | High
+40 | File | `/proxy` | Low
+41 | File | `/reservation/add_message.php` | High
+42 | File | `/resources//../` | High
+43 | File | `/spip.php` | Medium
+44 | ... | ... | ...
 
-There are 357 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 378 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

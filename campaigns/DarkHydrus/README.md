@@ -17,6 +17,7 @@ These _actors_ are associated with DarkHydrus or other actors linked to the camp
 ID | Actor | Confidence
 -- | ----- | ----------
 1 | [DarkHydrus](https://vuldb.com/?actor.darkhydrus) | High
+2 | [DarkHydrus (.iqy)](https://vuldb.com/?actor.darkhydrus_(.iqy)) | High
 
 ## IOC - Indicator of Compromise
 
@@ -24,12 +25,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
-1 | [94.130.88.9](https://vuldb.com/?ip.94.130.88.9) | cm16.debounce.io | [DarkHydrus](https://vuldb.com/?actor.darkhydrus) | High
-2 | [107.175.75.123](https://vuldb.com/?ip.107.175.75.123) | 107-175-75-123-host.colocrossing.com | [DarkHydrus](https://vuldb.com/?actor.darkhydrus) | High
-3 | [107.175.150.113](https://vuldb.com/?ip.107.175.150.113) | 107-175-150-113-host.colocrossing.com | [DarkHydrus](https://vuldb.com/?actor.darkhydrus) | High
+1 | [1.2.9.0](https://vuldb.com/?ip.1.2.9.0) | - | [DarkHydrus (.iqy)](https://vuldb.com/?actor.darkhydrus_(.iqy)) | High
+2 | [94.130.88.9](https://vuldb.com/?ip.94.130.88.9) | srv01.ds02.tobik-hosting.de | [DarkHydrus (.iqy)](https://vuldb.com/?actor.darkhydrus_(.iqy)) | High
+3 | [107.175.75.123](https://vuldb.com/?ip.107.175.75.123) | 107-175-75-123-host.colocrossing.com | [DarkHydrus](https://vuldb.com/?actor.darkhydrus) | High
 4 | ... | ... | ... | ...
 
-There are 2 more IOC items available. Please use our online service to access the data.
+There are 3 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -60,7 +61,7 @@ ID | Type | Indicator | Confidence
 8 | File | `add_comment.php` | High
 9 | ... | ... | ...
 
-There are 66 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 67 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -68,6 +69,7 @@ The following list contains _external sources_ which discuss the campaign and th
 
 * https://unit42.paloaltonetworks.com/darkhydrus-delivers-new-trojan-that-can-use-google-drive-for-c2-communications/
 * https://unit42.paloaltonetworks.com/unit42-darkhydrus-uses-phishery-harvest-credentials-middle-east/
+* https://www.cyber45.com
 * https://www.threatminer.org/report.php?q=NewThreatActorGroupDarkHydrusTargetsMiddleEastGovernment-PaloAltoNetworksBlog.pdf&y=2018
 * https://www.threatminer.org/_reports/2019/DarkHydrusdeliversnewTrojanthatcanuseGoogleDriveforC2communications.pdf#viewer.action=download
 

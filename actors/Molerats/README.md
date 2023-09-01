@@ -77,23 +77,23 @@ ID | Type | Indicator | Confidence
 14 | File | `/goform/form2userconfig.cgi` | High
 15 | File | `/gracemedia-media-player/templates/files/ajax_controller.php` | High
 16 | File | `/inc/campaign/campaign-delete.php` | High
-17 | File | `/sgmi/` | Low
-18 | File | `/tmp` | Low
-19 | File | `/uncpath/` | Medium
-20 | File | `/usr/lib/print/conv_fix` | High
-21 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-22 | File | `adclick.php` | Medium
-23 | File | `add_comment.php` | High
-24 | File | `admin.php` | Medium
-25 | File | `admin.php?page=languages` | High
-26 | File | `admin/controllers/Albumsgalleries.php` | High
-27 | File | `admin/plugin.php` | High
-28 | File | `admin\addgroup.php` | High
-29 | File | `agents.php` | Medium
-30 | File | `api_poller.php` | High
+17 | File | `/search.php` | Medium
+18 | File | `/sgmi/` | Low
+19 | File | `/tmp` | Low
+20 | File | `/uncpath/` | Medium
+21 | File | `/usr/lib/print/conv_fix` | High
+22 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+23 | File | `adclick.php` | Medium
+24 | File | `add_comment.php` | High
+25 | File | `admin.php` | Medium
+26 | File | `admin.php?page=languages` | High
+27 | File | `admin/controllers/Albumsgalleries.php` | High
+28 | File | `admin/plugin.php` | High
+29 | File | `admin\addgroup.php` | High
+30 | File | `agents.php` | Medium
 31 | ... | ... | ...
 
-There are 264 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 266 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -15,11 +15,11 @@ The following _campaigns_ are known and can be associated with Polonium:
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Polonium:
 
 * [US](https://vuldb.com/?country.us)
-* [GB](https://vuldb.com/?country.gb)
 * [RU](https://vuldb.com/?country.ru)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 20 more country items available. Please use our online service to access the data.
+There are 22 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -56,29 +56,30 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.htaccess` | Medium
-2 | File | `/etc/gsissh/sshd_config` | High
-3 | File | `/etc/passwd` | Medium
-4 | File | `/forms/nslookupHandler` | High
-5 | File | `/index.php` | Medium
-6 | File | `/modules/profile/index.php` | High
-7 | File | `/news.dtl.php` | High
-8 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-9 | File | `/out.php` | Medium
-10 | File | `/ptms/?page=user` | High
-11 | File | `/sqfs/bin/sccd` | High
-12 | File | `/tmp` | Low
-13 | File | `/uncpath/` | Medium
-14 | File | `/upload/file.php` | High
-15 | File | `/usr/bin/at` | Medium
-16 | File | `/usr/local/www/pkg.php` | High
-17 | File | `/wp-admin/admin-ajax.php` | High
-18 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-19 | File | `5.2.9\syscrb.exe` | High
-20 | File | `admin.cgi` | Medium
-21 | File | `admin/cal_login.php` | High
-22 | ... | ... | ...
+2 | File | `/classes/master.php?f=delete_order` | High
+3 | File | `/etc/gsissh/sshd_config` | High
+4 | File | `/etc/passwd` | Medium
+5 | File | `/forms/nslookupHandler` | High
+6 | File | `/index.php` | Medium
+7 | File | `/librarian/bookdetails.php` | High
+8 | File | `/modules/profile/index.php` | High
+9 | File | `/news.dtl.php` | High
+10 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+11 | File | `/out.php` | Medium
+12 | File | `/php-opos/index.php` | High
+13 | File | `/ptms/?page=user` | High
+14 | File | `/sqfs/bin/sccd` | High
+15 | File | `/tmp` | Low
+16 | File | `/uncpath/` | Medium
+17 | File | `/upload/file.php` | High
+18 | File | `/usr/bin/at` | Medium
+19 | File | `/usr/local/www/pkg.php` | High
+20 | File | `/wp-admin/admin-ajax.php` | High
+21 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+22 | File | `5.2.9\syscrb.exe` | High
+23 | ... | ... | ...
 
-There are 186 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 193 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

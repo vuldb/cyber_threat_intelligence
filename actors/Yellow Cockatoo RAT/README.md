@@ -9,7 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Yellow Cockatoo RAT:
 
 * [US](https://vuldb.com/?country.us)
-* [IR](https://vuldb.com/?country.ir)
+* [RU](https://vuldb.com/?country.ru)
+* [GB](https://vuldb.com/?country.gb)
+* ...
+
+There are 1 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -27,10 +31,10 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22 | Pathname Traversal | High
 2 | T1059 | CWE-94 | Cross Site Scripting | High
-3 | T1068 | CWE-269 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+3 | T1059.007 | CWE-79 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 4 more TTP items available. Please use our online service to access the data.
+There are 7 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -38,12 +42,15 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/debug/pprof` | Medium
-2 | File | `/forum/away.php` | High
-3 | File | `adclick.php` | Medium
-4 | ... | ... | ...
+1 | File | `/api/baskets/{name}` | High
+2 | File | `/debug/pprof` | Medium
+3 | File | `/forum/away.php` | High
+4 | File | `/mhds/clinic/view_details.php` | High
+5 | File | `/preview.php` | Medium
+6 | File | `/student/bookdetails.php` | High
+7 | ... | ... | ...
 
-There are 18 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 52 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

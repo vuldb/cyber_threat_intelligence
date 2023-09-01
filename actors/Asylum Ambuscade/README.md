@@ -57,7 +57,7 @@ ID | Technique | Weakness | Description | Confidence
 6 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 7 | ... | ... | ... | ...
 
-There are 24 more TTP items available. Please use our online service to access the data.
+There are 25 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -65,13 +65,13 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/acms/classes/Master.php?f=delete_cargo` | High
-3 | File | `/admin.add` | Medium
-4 | File | `/admin.php/news/admin/topic/save` | High
-5 | File | `/admin/api/theme-edit/` | High
-6 | File | `/admin/comn/service/update.json` | High
-7 | File | `/admin/fst_upload.inc.php` | High
+1 | File | `/acms/classes/Master.php?f=delete_cargo` | High
+2 | File | `/admin.add` | Medium
+3 | File | `/admin.php/news/admin/topic/save` | High
+4 | File | `/admin/api/theme-edit/` | High
+5 | File | `/admin/comn/service/update.json` | High
+6 | File | `/admin/fst_upload.inc.php` | High
+7 | File | `/admin/index2.html` | High
 8 | File | `/admin/login.php` | High
 9 | File | `/admin/maintenance/view_designation.php` | High
 10 | File | `/admin/robot/approval/list` | High
@@ -79,39 +79,39 @@ ID | Type | Indicator | Confidence
 12 | File | `/api/v2/labels/` | High
 13 | File | `/app/Http/Controllers/Admin/NEditorController.php` | High
 14 | File | `/apply.cgi` | Medium
-15 | File | `/cgi-bin/go` | Medium
-16 | File | `/cgi-bin/uploadWeiXinPic` | High
-17 | File | `/cgi-bin/wapopen` | High
-18 | File | `/debug/pprof` | Medium
-19 | File | `/dl/dl_print.php` | High
-20 | File | `/etc/gsissh/sshd_config` | High
-21 | File | `/face-recognition-php/facepay-master/camera.php` | High
-22 | File | `/forum/away.php` | High
-23 | File | `/forum/PostPrivateMessage` | High
-24 | File | `/getcfg.php` | Medium
-25 | File | `/home/masterConsole` | High
-26 | File | `/hrm/employeeadd.php` | High
-27 | File | `/hrm/employeeview.php` | High
-28 | File | `/info.xml` | Medium
-29 | File | `/librarian/bookdetails.php` | High
-30 | File | `/mgmt/tm/util/bash` | High
-31 | File | `/nova/bin/sniffer` | High
-32 | File | `/ofcms/company-c-47` | High
-33 | File | `/opt/vyatta/share/vyatta-cfg/templates/system/static-host-mapping/host-name/node.def` | High
-34 | File | `/pms/update_user.php?user_id=1` | High
-35 | File | `/public/login.htm` | High
-36 | File | `/rom-0` | Low
-37 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-38 | File | `/secure/ViewCollectors` | High
-39 | File | `/Session` | Medium
-40 | File | `/spip.php` | Medium
-41 | File | `/uncpath/` | Medium
-42 | File | `/usr/local/nagiosxi/html/admin/sshterm.php` | High
-43 | File | `/usr/local/nagiosxi/html/includes/configwizards/cloud-vm/cloud-vm.inc.php` | High
-44 | File | `/usr/local/nagiosxi/html/includes/configwizards/switch/switch.inc.php` | High
+15 | File | `/cgi-bin/adm.cgi` | High
+16 | File | `/cgi-bin/go` | Medium
+17 | File | `/cgi-bin/uploadWeiXinPic` | High
+18 | File | `/cgi-bin/wapopen` | High
+19 | File | `/debug/pprof` | Medium
+20 | File | `/dl/dl_print.php` | High
+21 | File | `/etc/gsissh/sshd_config` | High
+22 | File | `/face-recognition-php/facepay-master/camera.php` | High
+23 | File | `/forum/away.php` | High
+24 | File | `/forum/PostPrivateMessage` | High
+25 | File | `/getcfg.php` | Medium
+26 | File | `/home/masterConsole` | High
+27 | File | `/hrm/employeeadd.php` | High
+28 | File | `/hrm/employeeview.php` | High
+29 | File | `/info.xml` | Medium
+30 | File | `/librarian/bookdetails.php` | High
+31 | File | `/mgmt/tm/util/bash` | High
+32 | File | `/mics/j_spring_security_check` | High
+33 | File | `/nova/bin/sniffer` | High
+34 | File | `/ofcms/company-c-47` | High
+35 | File | `/opt/vyatta/share/vyatta-cfg/templates/system/static-host-mapping/host-name/node.def` | High
+36 | File | `/pms/update_user.php?user_id=1` | High
+37 | File | `/public/login.htm` | High
+38 | File | `/rom-0` | Low
+39 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+40 | File | `/secure/ViewCollectors` | High
+41 | File | `/Session` | Medium
+42 | File | `/spip.php` | Medium
+43 | File | `/staff_login.php` | High
+44 | File | `/system/user/modules/mod_users/controller.php` | High
 45 | ... | ... | ...
 
-There are 389 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 386 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

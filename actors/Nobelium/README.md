@@ -75,9 +75,10 @@ ID | Type | Indicator | Confidence
 16 | File | `/public/login.htm` | High
 17 | File | `/start_apply.htm` | High
 18 | File | `/uncpath/` | Medium
-19 | ... | ... | ...
+19 | File | `/upload` | Low
+20 | ... | ... | ...
 
-There are 159 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 162 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

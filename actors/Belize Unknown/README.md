@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 23 more country items available. Please use our online service to access the data.
+There are 24 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -95,70 +95,61 @@ ID | Type | Indicator | Confidence
 5 | File | `/admin/api/admin/articles/` | High
 6 | File | `/admin/cashadvance_row.php` | High
 7 | File | `/admin/maintenance/view_designation.php` | High
-8 | File | `/admin/userprofile.php` | High
-9 | File | `/adms/admin/?page=vehicles/sell_vehicle` | High
-10 | File | `/adms/admin/?page=vehicles/view_transaction` | High
-11 | File | `/apilog.php` | Medium
+8 | File | `/admin/sys_sql_query.php` | High
+9 | File | `/admin/userprofile.php` | High
+10 | File | `/adms/admin/?page=vehicles/sell_vehicle` | High
+11 | File | `/adms/admin/?page=vehicles/view_transaction` | High
 12 | File | `/APR/login.php` | High
 13 | File | `/bin/httpd` | Medium
 14 | File | `/cgi-bin/wapopen` | High
-15 | File | `/dev/block/mmcblk0rpmb` | High
-16 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
-17 | File | `/face-recognition-php/facepay-master/camera.php` | High
-18 | File | `/feeds/post/publish` | High
-19 | File | `/forum/away.php` | High
-20 | File | `/fos/admin/ajax.php?action=login` | High
-21 | File | `/fos/admin/index.php?page=menu` | High
-22 | File | `/home/masterConsole` | High
-23 | File | `/home/sendBroadcast` | High
-24 | File | `/hrm/employeeadd.php` | High
-25 | File | `/hrm/employeeview.php` | High
-26 | File | `/inc/jquery/uploadify/uploadify.php` | High
-27 | File | `/index.php` | Medium
+15 | File | `/company/store` | High
+16 | File | `/Controller/Ajaxfileupload.ashx` | High
+17 | File | `/csms/?page=contact_us` | High
+18 | File | `/dev/block/mmcblk0rpmb` | High
+19 | File | `/etc/passwd` | Medium
+20 | File | `/feeds/post/publish` | High
+21 | File | `/forum/away.php` | High
+22 | File | `/fos/admin/ajax.php?action=login` | High
+23 | File | `/fos/admin/index.php?page=menu` | High
+24 | File | `/h/` | Low
+25 | File | `/home/masterConsole` | High
+26 | File | `/home/sendBroadcast` | High
+27 | File | `/inc/jquery/uploadify/uploadify.php` | High
 28 | File | `/index.php?app=main&func=passport&action=login` | High
 29 | File | `/index.php?page=category_list` | High
-30 | File | `/items/view_item.php` | High
+30 | File | `/jobinfo/` | Medium
 31 | File | `/jsoa/hntdCustomDesktopActionContent` | High
-32 | File | `/lookin/info` | Medium
-33 | File | `/medical/inventories.php` | High
-34 | File | `/modules/profile/index.php` | High
-35 | File | `/modules/public/calendar.php` | High
-36 | File | `/Moosikay/order.php` | High
-37 | File | `/mygym/admin/index.php?view_exercises` | High
-38 | File | `/newsDia.php` | Medium
-39 | File | `/opac/Actions.php?a=login` | High
-40 | File | `/out.php` | Medium
-41 | File | `/php-opos/index.php` | High
-42 | File | `/PreviewHandler.ashx` | High
-43 | File | `/proxy` | Low
-44 | File | `/public/launchNewWindow.jsp` | High
-45 | File | `/Redcock-Farm/farm/category.php` | High
-46 | File | `/reports/rwservlet` | High
-47 | File | `/reservation/add_message.php` | High
-48 | File | `/spip.php` | Medium
-49 | File | `/sqlitemanager/main.php?dbsel=-1%20or%2072%20=%2072` | High
-50 | File | `/staff/bookdetails.php` | High
-51 | File | `/uncpath/` | Medium
-52 | File | `/user/updatePwd` | High
-53 | File | `/user/update_booking.php` | High
-54 | File | `/var/log/nginx` | High
-55 | File | `/wireless/security.asp` | High
-56 | File | `/wp-admin/admin-ajax.php` | High
-57 | File | `01article.php` | High
-58 | File | `a-forms.php` | Medium
-59 | File | `AbstractScheduleJob.java` | High
-60 | File | `actionphp/download.File.php` | High
-61 | File | `activenews_view.asp` | High
-62 | File | `adclick.php` | Medium
-63 | File | `admin.a6mambocredits.php` | High
-64 | File | `admin.cropcanvas.php` | High
-65 | File | `admin.php` | Medium
-66 | File | `admin/abc.php` | High
-67 | File | `admin/admin.php?action=users&mode=info&user=2` | High
-68 | File | `admin/admin/adminsave.html` | High
-69 | ... | ... | ...
+32 | File | `/Moosikay/order.php` | High
+33 | File | `/mygym/admin/index.php?view_exercises` | High
+34 | File | `/opac/Actions.php?a=login` | High
+35 | File | `/php-opos/index.php` | High
+36 | File | `/PreviewHandler.ashx` | High
+37 | File | `/proxy` | Low
+38 | File | `/public/launchNewWindow.jsp` | High
+39 | File | `/recipe-result` | High
+40 | File | `/reports/rwservlet` | High
+41 | File | `/reservation/add_message.php` | High
+42 | File | `/Service/ImageStationDataService.asmx` | High
+43 | File | `/student/bookdetails.php` | High
+44 | File | `/uncpath/` | Medium
+45 | File | `/uploads/exam_question/` | High
+46 | File | `/user/ticket/create` | High
+47 | File | `/user/updatePwd` | High
+48 | File | `/var/lib/docker/<remapping>` | High
+49 | File | `/var/log/nginx` | High
+50 | File | `/wireless/security.asp` | High
+51 | File | `/wp-admin/admin-ajax.php` | High
+52 | File | `01article.php` | High
+53 | File | `a-forms.php` | Medium
+54 | File | `actionphp/download.File.php` | High
+55 | File | `activenews_view.asp` | High
+56 | File | `adclick.php` | Medium
+57 | File | `admin.a6mambocredits.php` | High
+58 | File | `admin.cropcanvas.php` | High
+59 | File | `admin/abc.php` | High
+60 | ... | ... | ...
 
-There are 610 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 523 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

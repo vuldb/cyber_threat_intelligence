@@ -4,6 +4,17 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.british_virgin_islands_unknown](https://vuldb.com/?actor.british_virgin_islands_unknown)
 
+## Countries
+
+These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with British Virgin Islands Unknown:
+
+* [US](https://vuldb.com/?country.us)
+* [AR](https://vuldb.com/?country.ar)
+* [FR](https://vuldb.com/?country.fr)
+* ...
+
+There are 13 more country items available. Please use our online service to access the data.
+
 ## IOC - Indicator of Compromise
 
 These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of British Virgin Islands Unknown.
@@ -22,26 +33,89 @@ ID | IP address | Hostname | Campaign | Confidence
 10 | [45.12.70.240](https://vuldb.com/?ip.45.12.70.240) | slackness.globalhilive.com | - | High
 11 | [45.12.71.240](https://vuldb.com/?ip.45.12.71.240) | - | - | High
 12 | [45.62.191.32](https://vuldb.com/?ip.45.62.191.32) | - | - | High
-13 | [45.253.248.0](https://vuldb.com/?ip.45.253.248.0) | - | - | High
-14 | [63.143.79.0](https://vuldb.com/?ip.63.143.79.0) | - | - | High
-15 | [63.143.103.0](https://vuldb.com/?ip.63.143.103.0) | digijmres-0-103-143-63.digicelbroadband.com | - | High
-16 | [63.143.106.0](https://vuldb.com/?ip.63.143.106.0) | - | - | High
-17 | [63.243.189.0](https://vuldb.com/?ip.63.243.189.0) | - | - | High
-18 | [64.86.20.0](https://vuldb.com/?ip.64.86.20.0) | - | - | High
-19 | [65.48.153.0](https://vuldb.com/?ip.65.48.153.0) | - | - | High
-20 | [65.48.154.0](https://vuldb.com/?ip.65.48.154.0) | - | - | High
-21 | [65.48.217.0](https://vuldb.com/?ip.65.48.217.0) | - | - | High
-22 | [65.48.218.0](https://vuldb.com/?ip.65.48.218.0) | - | - | High
-23 | [65.48.220.0](https://vuldb.com/?ip.65.48.220.0) | - | - | High
-24 | [66.81.192.0](https://vuldb.com/?ip.66.81.192.0) | - | - | High
-25 | [66.180.216.0](https://vuldb.com/?ip.66.180.216.0) | - | - | High
-26 | [66.180.220.0](https://vuldb.com/?ip.66.180.220.0) | - | - | High
-27 | [66.212.229.0](https://vuldb.com/?ip.66.212.229.0) | - | - | High
-28 | [67.211.103.0](https://vuldb.com/?ip.67.211.103.0) | - | - | High
-29 | [68.65.216.0](https://vuldb.com/?ip.68.65.216.0) | - | - | High
-30 | ... | ... | ... | ...
+13 | [45.142.0.0](https://vuldb.com/?ip.45.142.0.0) | ns1648.ztomy.com | - | High
+14 | [45.142.3.0](https://vuldb.com/?ip.45.142.3.0) | ns1648.ztomy.com | - | High
+15 | [45.253.248.0](https://vuldb.com/?ip.45.253.248.0) | - | - | High
+16 | [63.143.79.0](https://vuldb.com/?ip.63.143.79.0) | - | - | High
+17 | [63.143.103.0](https://vuldb.com/?ip.63.143.103.0) | digijmres-0-103-143-63.digicelbroadband.com | - | High
+18 | [63.143.106.0](https://vuldb.com/?ip.63.143.106.0) | - | - | High
+19 | [63.243.189.0](https://vuldb.com/?ip.63.243.189.0) | - | - | High
+20 | [64.86.20.0](https://vuldb.com/?ip.64.86.20.0) | - | - | High
+21 | [65.48.153.0](https://vuldb.com/?ip.65.48.153.0) | - | - | High
+22 | [65.48.154.0](https://vuldb.com/?ip.65.48.154.0) | - | - | High
+23 | [65.48.213.7](https://vuldb.com/?ip.65.48.213.7) | bvi-vpls1.caribsurf.com | - | High
+24 | [65.48.213.8](https://vuldb.com/?ip.65.48.213.8) | bvi-vpls2.caribsurf.com | - | High
+25 | [65.48.213.23](https://vuldb.com/?ip.65.48.213.23) | - | - | High
+26 | [65.48.213.24](https://vuldb.com/?ip.65.48.213.24) | - | - | High
+27 | [65.48.217.0](https://vuldb.com/?ip.65.48.217.0) | - | - | High
+28 | [65.48.218.0](https://vuldb.com/?ip.65.48.218.0) | - | - | High
+29 | [65.48.220.0](https://vuldb.com/?ip.65.48.220.0) | - | - | High
+30 | [66.81.192.0](https://vuldb.com/?ip.66.81.192.0) | - | - | High
+31 | [66.180.216.0](https://vuldb.com/?ip.66.180.216.0) | - | - | High
+32 | [66.180.220.0](https://vuldb.com/?ip.66.180.220.0) | - | - | High
+33 | [66.212.55.0](https://vuldb.com/?ip.66.212.55.0) | - | - | High
+34 | [66.212.229.0](https://vuldb.com/?ip.66.212.229.0) | - | - | High
+35 | [67.211.103.0](https://vuldb.com/?ip.67.211.103.0) | - | - | High
+36 | ... | ... | ... | ...
 
-There are 114 more IOC items available. Please use our online service to access the data.
+There are 138 more IOC items available. Please use our online service to access the data.
+
+## TTP - Tactics, Techniques, Procedures
+
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _British Virgin Islands Unknown_. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
+
+There are 14 more TTP items available. Please use our online service to access the data.
+
+## IOA - Indicator of Attack
+
+These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by British Virgin Islands Unknown. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Type | Indicator | Confidence
+-- | ---- | --------- | ----------
+1 | File | `/?admin/user.html` | High
+2 | File | `/admin.php?r=admin/AdminBackup/del` | High
+3 | File | `/admin/addemployee.php` | High
+4 | File | `/admin/edit.php` | High
+5 | File | `/admin/index.php/template/ajax?action=delete` | High
+6 | File | `/admin/index.php?mode=content&page=media&action=edit` | High
+7 | File | `/admin/inquiries/view_inquiry.php` | High
+8 | File | `/admin/maintenance/view_designation.php` | High
+9 | File | `/admin/report/index.php` | High
+10 | File | `/admin/users.php?source=edit_user&id=1` | High
+11 | File | `/administrator/alerts/alertLightbox.php` | High
+12 | File | `/administrator/templates/default/html/windows/right.php` | High
+13 | File | `/apps/acs-commons/content/page-compare.html` | High
+14 | File | `/cgi-bin/webadminget.cgi` | High
+15 | File | `/classes/Master.php?f=delete_service` | High
+16 | File | `/classes/Master.php?f=save_course` | High
+17 | File | `/demo/module/?module=HERE` | High
+18 | File | `/download/set.cgi` | High
+19 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
+20 | File | `/dvcset/sysset/set.cgi` | High
+21 | File | `/forum/away.php` | High
+22 | File | `/goform/SysToolReboot` | High
+23 | File | `/goform/WifiExtraSet` | High
+24 | File | `/inc/topBarNav.php` | High
+25 | File | `/index.php?m=admin&c=custom&a=plugindelhandle` | High
+26 | File | `/mkshop/Men/profile.php` | High
+27 | File | `/mngset/authset` | High
+28 | File | `/mobile/downloadfile.aspx` | High
+29 | File | `/net/nfc/netlink.c` | High
+30 | File | `/out.php` | Medium
+31 | File | `/outgoing.php` | High
+32 | File | `/php-fusion/infusions/shoutbox_panel/shoutbox_archive.php` | High
+33 | File | `/presale/join` | High
+34 | ... | ... | ...
+
+There are 287 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -49,6 +123,7 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://github.com/firehol/blocklist-ipsets/blob/master/geolite2_country/country_vg.netset
 * https://github.com/firehol/blocklist-ipsets/blob/master/ip2location_country/ip2location_country_vg.netset
+* https://github.com/firehol/blocklist-ipsets/blob/master/ipip_country/ipip_country_vg.netset
 
 ## Literature
 

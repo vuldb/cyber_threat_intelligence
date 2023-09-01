@@ -59,7 +59,7 @@ ID | Type | Indicator | Confidence
 10 | File | `Application/Admin/Controller/ConfigController.class.php` | High
 11 | ... | ... | ...
 
-There are 87 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 88 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

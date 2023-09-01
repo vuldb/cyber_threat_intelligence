@@ -47,7 +47,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-425 | Pathname Traversal | High
+1 | T1006 | CWE-22, CWE-23, CWE-425 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
@@ -72,27 +72,28 @@ ID | Type | Indicator | Confidence
 8 | File | `/cgi-bin/system_mgr.cgi` | High
 9 | File | `/common/logViewer/logViewer.jsf` | High
 10 | File | `/crmeb/app/admin/controller/store/CopyTaobao.php` | High
-11 | File | `/export` | Low
-12 | File | `/forum/away.php` | High
-13 | File | `/goform/aspForm` | High
-14 | File | `/h/` | Low
-15 | File | `/hocms/classes/Master.php?f=delete_collection` | High
-16 | File | `/horde/util/go.php` | High
-17 | File | `/index.php` | Medium
-18 | File | `/mifs/c/i/reg/reg.html` | High
-19 | File | `/ms/cms/content/list.do` | High
-20 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-21 | File | `/orms/` | Low
-22 | File | `/plesk-site-preview/` | High
-23 | File | `/project/PROJECTNAME/reports/` | High
-24 | File | `/public/login.htm` | High
-25 | File | `/school/model/get_admin_profile.php` | High
-26 | File | `/show_news.php` | High
-27 | File | `/student-grading-system/rms.php?page=grade` | High
-28 | File | `/style/` | Low
-29 | ... | ... | ...
+11 | File | `/en/blog-comment-4` | High
+12 | File | `/export` | Low
+13 | File | `/forum/away.php` | High
+14 | File | `/goform/aspForm` | High
+15 | File | `/h/` | Low
+16 | File | `/hocms/classes/Master.php?f=delete_collection` | High
+17 | File | `/horde/util/go.php` | High
+18 | File | `/index.php` | Medium
+19 | File | `/mifs/c/i/reg/reg.html` | High
+20 | File | `/ms/cms/content/list.do` | High
+21 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+22 | File | `/orms/` | Low
+23 | File | `/plesk-site-preview/` | High
+24 | File | `/project/PROJECTNAME/reports/` | High
+25 | File | `/public/login.htm` | High
+26 | File | `/school/model/get_admin_profile.php` | High
+27 | File | `/show_news.php` | High
+28 | File | `/student-grading-system/rms.php?page=grade` | High
+29 | File | `/style/` | Low
+30 | ... | ... | ...
 
-There are 248 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 257 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

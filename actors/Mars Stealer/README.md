@@ -69,35 +69,35 @@ ID | Type | Indicator | Confidence
 8 | File | `/api/user/password/sent-reset-email` | High
 9 | File | `/aqpg/users/login.php` | High
 10 | File | `/bsms_ci/index.php/user/edit_user/` | High
-11 | File | `/classes/Master.php?f=save_inquiry` | High
-12 | File | `/dashboard/add-service.php` | High
-13 | File | `/dashboard/updatelogo.php` | High
-14 | File | `/Default/Bd` | Medium
-15 | File | `/download` | Medium
-16 | File | `/event/admin/?page=user/list` | High
-17 | File | `/face-recognition-php/facepay-master/camera.php` | High
-18 | File | `/filemanager/upload/drop` | High
-19 | File | `/forum/away.php` | High
-20 | File | `/forum/PostPrivateMessage` | High
-21 | File | `/getcfg.php` | Medium
-22 | File | `/goform/aspForm` | High
-23 | File | `/goform/RouteStatic` | High
-24 | File | `/home/masterConsole` | High
-25 | File | `/hrm/employeeadd.php` | High
-26 | File | `/hrm/employeeview.php` | High
-27 | File | `/htdocs/cgibin` | High
-28 | File | `/lists/index.php` | High
-29 | File | `/login.php` | Medium
-30 | File | `/netflow/jspui/editProfile.jsp` | High
-31 | File | `/spip.php` | Medium
-32 | File | `/uncpath/` | Medium
-33 | File | `/usr/www/ja/mnt_cmd.cgi` | High
-34 | File | `/videotalk` | Medium
-35 | File | `/view-property.php` | High
-36 | File | `/webman/info.cgi` | High
+11 | File | `/cgi-bin/wlogin.cgi` | High
+12 | File | `/classes/Master.php?f=save_inquiry` | High
+13 | File | `/dashboard/add-service.php` | High
+14 | File | `/dashboard/updatelogo.php` | High
+15 | File | `/Default/Bd` | Medium
+16 | File | `/download` | Medium
+17 | File | `/event/admin/?page=user/list` | High
+18 | File | `/face-recognition-php/facepay-master/camera.php` | High
+19 | File | `/filemanager/upload/drop` | High
+20 | File | `/forum/away.php` | High
+21 | File | `/forum/PostPrivateMessage` | High
+22 | File | `/getcfg.php` | Medium
+23 | File | `/goform/aspForm` | High
+24 | File | `/goform/RouteStatic` | High
+25 | File | `/home/masterConsole` | High
+26 | File | `/hrm/employeeadd.php` | High
+27 | File | `/hrm/employeeview.php` | High
+28 | File | `/htdocs/cgibin` | High
+29 | File | `/lists/index.php` | High
+30 | File | `/login.php` | Medium
+31 | File | `/netflow/jspui/editProfile.jsp` | High
+32 | File | `/settings/download-test-pdf` | High
+33 | File | `/spip.php` | Medium
+34 | File | `/uncpath/` | Medium
+35 | File | `/usr/www/ja/mnt_cmd.cgi` | High
+36 | File | `/videotalk` | Medium
 37 | ... | ... | ...
 
-There are 314 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 318 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

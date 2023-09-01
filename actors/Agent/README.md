@@ -96,7 +96,7 @@ ID | Type | Indicator | Confidence
 43 | File | `/port_3480/data_request` | High
 44 | ... | ... | ...
 
-There are 379 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 378 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

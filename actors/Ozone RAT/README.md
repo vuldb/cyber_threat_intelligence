@@ -16,8 +16,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [3.132.159.158](https://vuldb.com/?ip.3.132.159.158) | ec2-3-132-159-158.us-east-2.compute.amazonaws.com | - | Medium
-2 | [3.140.223.7](https://vuldb.com/?ip.3.140.223.7) | ec2-3-140-223-7.us-east-2.compute.amazonaws.com | - | Medium
+1 | [3.13.191.225](https://vuldb.com/?ip.3.13.191.225) | ec2-3-13-191-225.us-east-2.compute.amazonaws.com | - | Medium
+2 | [3.14.182.203](https://vuldb.com/?ip.3.14.182.203) | ec2-3-14-182-203.us-east-2.compute.amazonaws.com | - | Medium
+3 | [3.22.53.161](https://vuldb.com/?ip.3.22.53.161) | ec2-3-22-53-161.us-east-2.compute.amazonaws.com | - | Medium
+4 | ... | ... | ... | ...
+
+There are 9 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -25,8 +29,25 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Pathname Traversal | High
-2 | T1592 | CWE-200 | Configuration | High
+1 | T1006 | CWE-22, CWE-23, CWE-24 | Pathname Traversal | High
+2 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+3 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+4 | ... | ... | ... | ...
+
+There are 2 more TTP items available. Please use our online service to access the data.
+
+## IOA - Indicator of Attack
+
+These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by Ozone RAT. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Type | Indicator | Confidence
+-- | ---- | --------- | ----------
+1 | File | `/group1/uploa` | High
+2 | File | `/vicidial/AST_agent_time_sheet.php` | High
+3 | File | `arch/powerpc/mm/mmu_context_book3s64.c` | High
+4 | ... | ... | ...
+
+There are 21 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

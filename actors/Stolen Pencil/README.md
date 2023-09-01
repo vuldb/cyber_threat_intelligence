@@ -21,12 +21,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [5.196.169.223](https://vuldb.com/?ip.5.196.169.223) | ip223.ip-5-196-169.eu | - | High
-2 | [74.208.247.127](https://vuldb.com/?ip.74.208.247.127) | watersfamilyinsurance.com | - | High
-3 | [92.222.212.0](https://vuldb.com/?ip.92.222.212.0) | - | - | High
+1 | [1.3.4.1](https://vuldb.com/?ip.1.3.4.1) | - | - | High
+2 | [2.2.6.5](https://vuldb.com/?ip.2.2.6.5) | - | - | High
+3 | [5.196.169.223](https://vuldb.com/?ip.5.196.169.223) | ip223.ip-5-196-169.eu | - | High
 4 | ... | ... | ... | ...
 
-There are 6 more IOC items available. Please use our online service to access the data.
+There are 8 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -59,14 +59,19 @@ ID | Type | Indicator | Confidence
 10 | File | `/secure/EditSubscription.jspa` | High
 11 | File | `/systemrw/` | Medium
 12 | File | `/tmp/supp_log` | High
-13 | ... | ... | ...
+13 | File | `account.php` | Medium
+14 | File | `ActivityStarter.java` | High
+15 | File | `admin/content.php` | High
+16 | File | `admin/editadgroup.php` | High
+17 | ... | ... | ...
 
-There are 99 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 135 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://www.cyber45.com
 * https://www.netscout.com/blog/asert/stolen-pencil-campaign-targets-academia
 
 ## Literature

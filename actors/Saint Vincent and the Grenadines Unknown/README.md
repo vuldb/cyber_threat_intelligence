@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [DE](https://vuldb.com/?country.de)
 * ...
 
-There are 19 more country items available. Please use our online service to access the data.
+There are 21 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -32,9 +32,10 @@ ID | IP address | Hostname | Campaign | Confidence
 9 | [46.36.203.41](https://vuldb.com/?ip.46.36.203.41) | - | - | High
 10 | [46.36.203.42](https://vuldb.com/?ip.46.36.203.42) | - | - | High
 11 | [46.36.203.44](https://vuldb.com/?ip.46.36.203.44) | - | - | High
-12 | ... | ... | ... | ...
+12 | [57.74.120.0](https://vuldb.com/?ip.57.74.120.0) | - | - | High
+13 | ... | ... | ... | ...
 
-There are 45 more IOC items available. Please use our online service to access the data.
+There are 47 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -57,67 +58,70 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/photo.php` | High
-2 | File | `/admin/user/add` | High
-3 | File | `/APP_Installation.asp` | High
-4 | File | `/categorypage.php` | High
-5 | File | `/cm/delete` | Medium
-6 | File | `/common/logViewer/logViewer.jsf` | High
-7 | File | `/crmeb/app/admin/controller/store/CopyTaobao.php` | High
-8 | File | `/download` | Medium
-9 | File | `/drivers/media/media-device.c` | High
-10 | File | `/etc/master.passwd` | High
-11 | File | `/filemanager/upload.php` | High
-12 | File | `/forum/away.php` | High
-13 | File | `/getcfg.php` | Medium
-14 | File | `/home.php` | Medium
-15 | File | `/homeaction.php` | High
-16 | File | `/index.php` | Medium
-17 | File | `/modules/profile/index.php` | High
-18 | File | `/modules/tasks/summary.inc.php` | High
-19 | File | `/multi-vendor-shopping-script/product-list.php` | High
-20 | File | `/mygym/admin/index.php` | High
-21 | File | `/out.php` | Medium
-22 | File | `/p` | Low
-23 | File | `/preauth` | Medium
-24 | File | `/products/details.asp` | High
-25 | File | `/recordings/index.php` | High
-26 | File | `/see_more_details.php` | High
-27 | File | `/show_news.php` | High
-28 | File | `/tmp/before` | Medium
-29 | File | `/uncpath/` | Medium
-30 | File | `/updownload/t.report` | High
-31 | File | `/user.profile.php` | High
-32 | File | `/usr/bin/pkexec` | High
-33 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
-34 | File | `/wordpress/wp-admin/options-general.php` | High
-35 | File | `/wp-admin` | Medium
-36 | File | `/wp-admin/admin-ajax.php` | High
-37 | File | `account.asp` | Medium
-38 | File | `adclick.php` | Medium
-39 | File | `adm/systools.asp` | High
-40 | File | `admin.php` | Medium
-41 | File | `admin/admin.shtml` | High
-42 | File | `Admin/ADM_Pagina.php` | High
-43 | File | `admin/category.inc.php` | High
-44 | File | `admin/main.asp` | High
-45 | File | `admin/param/param_func.inc.php` | High
-46 | File | `admin/y_admin.asp` | High
-47 | File | `adminer.php` | Medium
-48 | File | `administration/admins.php` | High
-49 | File | `administrator/components/com_media/helpers/media.php` | High
-50 | File | `admin_ok.asp` | Medium
-51 | File | `album_portal.php` | High
-52 | File | `app/Core/Paginator.php` | High
-53 | File | `app/index.php/accounts/default/details?id=2&kanbanBoard=1&openToTaskId=1` | High
-54 | File | `artlinks.dispnew.php` | High
-55 | File | `auth.php` | Medium
-56 | File | `bin/named/query.c` | High
-57 | File | `blank.php` | Medium
-58 | File | `blocklayered-ajax.php` | High
-59 | File | `blogger-importer.php` | High
-60 | ... | ... | ...
+2 | File | `/admin/upload.php` | High
+3 | File | `/admin/user/add` | High
+4 | File | `/api/baskets/{name}` | High
+5 | File | `/APP_Installation.asp` | High
+6 | File | `/blog` | Low
+7 | File | `/categorypage.php` | High
+8 | File | `/cm/delete` | Medium
+9 | File | `/common/logViewer/logViewer.jsf` | High
+10 | File | `/controller/Index.php` | High
+11 | File | `/crmeb/app/admin/controller/store/CopyTaobao.php` | High
+12 | File | `/download` | Medium
+13 | File | `/drivers/media/media-device.c` | High
+14 | File | `/etc/master.passwd` | High
+15 | File | `/filemanager/upload.php` | High
+16 | File | `/forum/away.php` | High
+17 | File | `/getcfg.php` | Medium
+18 | File | `/home.php` | Medium
+19 | File | `/homeaction.php` | High
+20 | File | `/index.php` | Medium
+21 | File | `/modules/profile/index.php` | High
+22 | File | `/modules/tasks/summary.inc.php` | High
+23 | File | `/multi-vendor-shopping-script/product-list.php` | High
+24 | File | `/mygym/admin/index.php` | High
+25 | File | `/out.php` | Medium
+26 | File | `/p` | Low
+27 | File | `/preauth` | Medium
+28 | File | `/products/details.asp` | High
+29 | File | `/recordings/index.php` | High
+30 | File | `/see_more_details.php` | High
+31 | File | `/show_news.php` | High
+32 | File | `/tmp/before` | Medium
+33 | File | `/uncpath/` | Medium
+34 | File | `/updownload/t.report` | High
+35 | File | `/user.profile.php` | High
+36 | File | `/usr/bin/pkexec` | High
+37 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
+38 | File | `/wordpress/wp-admin/options-general.php` | High
+39 | File | `/wp-admin` | Medium
+40 | File | `/wp-admin/admin-ajax.php` | High
+41 | File | `account.asp` | Medium
+42 | File | `adclick.php` | Medium
+43 | File | `adm/systools.asp` | High
+44 | File | `admin.php` | Medium
+45 | File | `admin/admin.shtml` | High
+46 | File | `Admin/ADM_Pagina.php` | High
+47 | File | `admin/category.inc.php` | High
+48 | File | `admin/main.asp` | High
+49 | File | `admin/param/param_func.inc.php` | High
+50 | File | `admin/y_admin.asp` | High
+51 | File | `adminer.php` | Medium
+52 | File | `administration/admins.php` | High
+53 | File | `administrator/components/com_media/helpers/media.php` | High
+54 | File | `admin_ok.asp` | Medium
+55 | File | `album_portal.php` | High
+56 | File | `app/Core/Paginator.php` | High
+57 | File | `app/index.php/accounts/default/details?id=2&kanbanBoard=1&openToTaskId=1` | High
+58 | File | `artlinks.dispnew.php` | High
+59 | File | `auth.php` | Medium
+60 | File | `bin/named/query.c` | High
+61 | File | `blank.php` | Medium
+62 | File | `blocklayered-ajax.php` | High
+63 | ... | ... | ...
 
-There are 522 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 547 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -125,6 +129,7 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://github.com/firehol/blocklist-ipsets/blob/master/geolite2_country/country_vc.netset
 * https://github.com/firehol/blocklist-ipsets/blob/master/ip2location_country/ip2location_country_vc.netset
+* https://github.com/firehol/blocklist-ipsets/blob/master/ipip_country/ipip_country_vc.netset
 
 ## Literature
 

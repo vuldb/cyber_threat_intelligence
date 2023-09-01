@@ -59,7 +59,7 @@ ID | Type | Indicator | Confidence
 14 | File | `cdf.c` | Low
 15 | ... | ... | ...
 
-There are 115 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 117 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

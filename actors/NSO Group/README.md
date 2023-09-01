@@ -93,23 +93,23 @@ ID | Type | Indicator | Confidence
 27 | File | `/net` | Low
 28 | File | `/Noxen-master/users.php` | High
 29 | File | `/opt/bin/cli` | Medium
-30 | File | `/out.php` | Medium
-31 | File | `/PluXml/core/admin/parametres_edittpl.php` | High
-32 | File | `/public/plugins/` | High
-33 | File | `/public_html/admin/plugins/bad_behavior2/blacklist.php` | High
-34 | File | `/root/run/adm.php?admin-ediy&part=exdiy` | High
-35 | File | `/setNTP.cgi` | Medium
-36 | File | `/setting/setWanIeCfg` | High
-37 | File | `/templates/header.inc.php` | High
-38 | File | `/tmp` | Low
-39 | File | `/uncpath/` | Medium
-40 | File | `/v2/devices/add` | High
-41 | File | `/var/ipfire/backup/bin/backup.pl` | High
-42 | File | `/wp-json/wc/v3/webhooks` | High
-43 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+30 | File | `/PluXml/core/admin/parametres_edittpl.php` | High
+31 | File | `/public/plugins/` | High
+32 | File | `/public_html/admin/plugins/bad_behavior2/blacklist.php` | High
+33 | File | `/root/run/adm.php?admin-ediy&part=exdiy` | High
+34 | File | `/setNTP.cgi` | Medium
+35 | File | `/setting/setWanIeCfg` | High
+36 | File | `/templates/header.inc.php` | High
+37 | File | `/tmp` | Low
+38 | File | `/uncpath/` | Medium
+39 | File | `/v2/devices/add` | High
+40 | File | `/var/ipfire/backup/bin/backup.pl` | High
+41 | File | `/wp-json/wc/v3/webhooks` | High
+42 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+43 | File | `account.php` | Medium
 44 | ... | ... | ...
 
-There are 385 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 378 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

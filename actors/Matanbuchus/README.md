@@ -40,7 +40,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-22, CWE-425 | Pathname Traversal | High
 2 | T1059 | CWE-94 | Cross Site Scripting | High
 3 | T1059.007 | CWE-79 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
@@ -53,14 +53,14 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/attendance_row.php` | High
-2 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-3 | File | `/edituser.php` | High
-4 | File | `/etc/shadow` | Medium
-5 | File | `/goform/CertListInfo` | High
+1 | File | `/admin/?page=user/manage_user&id=3` | High
+2 | File | `/admin/attendance_row.php` | High
+3 | File | `/admin/test_status.php` | High
+4 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
+5 | File | `/edituser.php` | High
 6 | ... | ... | ...
 
-There are 36 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 39 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

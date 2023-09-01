@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 22 more country items available. Please use our online service to access the data.
+There are 20 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -78,11 +78,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-27, CWE-36, CWE-37 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-27, CWE-36, CWE-37 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80, CWE-87 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
 There are 21 more TTP items available. Please use our online service to access the data.
@@ -95,54 +95,58 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.../gogo/` | Medium
 2 | File | `/?ajax-request=jnews` | High
-3 | File | `/admin/edit_subject.php` | High
-4 | File | `/admin/index2.html` | High
-5 | File | `/admin/products/manage_product.php` | High
-6 | File | `/admin/students/manage.php` | High
-7 | File | `/api/user/upsert/<uuid>` | High
-8 | File | `/api/v2/cli/commands` | High
-9 | File | `/appliance/users?action=edit` | High
-10 | File | `/backup.pl` | Medium
-11 | File | `/DXR.axd` | Medium
-12 | File | `/E-mobile/App/System/File/downfile.php` | High
-13 | File | `/edoc/doctor/patient.php` | High
-14 | File | `/etc/ldap.conf` | High
-15 | File | `/etc/shadow` | Medium
-16 | File | `/forum/away.php` | High
-17 | File | `/h/calendar` | Medium
-18 | File | `/h/compose` | Medium
-19 | File | `/h/search?action=voicemail&action=listen` | High
-20 | File | `/hrm/employeeview.php` | High
-21 | File | `/index.php` | Medium
-22 | File | `/index.php?app=main&func=passport&action=login` | High
-23 | File | `/kelasdosen/data` | High
-24 | File | `/librarian/bookdetails.php` | High
-25 | File | `/manager/index.php` | High
-26 | File | `/messageboard/view.php` | High
-27 | File | `/MIME/INBOX-MM-1/` | High
-28 | File | `/opac/Actions.php?a=login` | High
-29 | File | `/osm/REGISTER.cmd` | High
-30 | File | `/out.php` | Medium
-31 | File | `/owa/auth/logon.aspx` | High
-32 | File | `/php-scrm/login.php` | High
-33 | File | `/php-sms/classes/Master.php` | High
-34 | File | `/php-sms/classes/SystemSettings.php` | High
-35 | File | `/php_action/createOrder.php` | High
-36 | File | `/php_action/editProductImage.php` | High
-37 | File | `/reservation/add_message.php` | High
-38 | File | `/ResiotQueryDBActive` | High
-39 | File | `/reviewer/system/system/admins/manage/users/user-update.php` | High
-40 | File | `/reviewer_0/admins/assessments/pretest/questions-view.php` | High
-41 | File | `/send_order.cgi?parameter=restart` | High
-42 | File | `/SetTriggerWPS/PIN` | High
-43 | File | `/spcgi.cgi` | Medium
-44 | File | `/spip.php` | Medium
-45 | File | `/src/png2swf.c` | High
-46 | File | `/textpattern/index.php` | High
-47 | File | `/tos/index.php?app/app_start_stop` | High
-48 | ... | ... | ...
+3 | File | `/?r=recruit/resume/edit&op=status` | High
+4 | File | `/admin/?page=user/manage_user&id=3` | High
+5 | File | `/admin/about-us.php` | High
+6 | File | `/admin/del_category.php` | High
+7 | File | `/admin/del_service.php` | High
+8 | File | `/admin/edit-accepted-appointment.php` | High
+9 | File | `/admin/edit-services.php` | High
+10 | File | `/admin/edit_category.php` | High
+11 | File | `/admin/edit_subject.php` | High
+12 | File | `/admin/forgot-password.php` | High
+13 | File | `/admin/index.php` | High
+14 | File | `/admin/index2.html` | High
+15 | File | `/admin/products/manage_product.php` | High
+16 | File | `/admin/reg.php` | High
+17 | File | `/admin/reminders/manage_reminder.php` | High
+18 | File | `/admin/search-appointment.php` | High
+19 | File | `/admin/sys_sql_query.php` | High
+20 | File | `/api/baskets/{name}` | High
+21 | File | `/api/v2/cli/commands` | High
+22 | File | `/appliance/users?action=edit` | High
+23 | File | `/backup.pl` | Medium
+24 | File | `/blog` | Low
+25 | File | `/booking/show_bookings/` | High
+26 | File | `/classes/master.php?f=delete_order` | High
+27 | File | `/csms/admin/inquiries/view_details.php` | High
+28 | File | `/dipam/athlete-profile.php` | High
+29 | File | `/DXR.axd` | Medium
+30 | File | `/E-mobile/App/System/File/downfile.php` | High
+31 | File | `/edoc/doctor/patient.php` | High
+32 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+33 | File | `/etc/ldap.conf` | High
+34 | File | `/etc/shadow` | Medium
+35 | File | `/forum/away.php` | High
+36 | File | `/hrm/employeeview.php` | High
+37 | File | `/include/chart_generator.php` | High
+38 | File | `/index.php` | Medium
+39 | File | `/index.php?app=main&func=passport&action=login` | High
+40 | File | `/kelasdosen/data` | High
+41 | File | `/librarian/bookdetails.php` | High
+42 | File | `/listplace/user/coverPhotoUpdate` | High
+43 | File | `/messageboard/view.php` | High
+44 | File | `/MIME/INBOX-MM-1/` | High
+45 | File | `/osm/REGISTER.cmd` | High
+46 | File | `/out.php` | Medium
+47 | File | `/owa/auth/logon.aspx` | High
+48 | File | `/paysystem/datatable.php` | High
+49 | File | `/php-scrm/login.php` | High
+50 | File | `/php-sms/classes/Master.php` | High
+51 | File | `/reservation/add_message.php` | High
+52 | ... | ... | ...
 
-There are 416 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 451 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

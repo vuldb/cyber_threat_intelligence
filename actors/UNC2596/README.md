@@ -15,8 +15,8 @@ The following _campaigns_ are known and can be associated with UNC2596:
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with UNC2596:
 
 * [US](https://vuldb.com/?country.us)
+* [MO](https://vuldb.com/?country.mo)
 * [ES](https://vuldb.com/?country.es)
-* [IT](https://vuldb.com/?country.it)
 * ...
 
 There are 7 more country items available. Please use our online service to access the data.
@@ -65,7 +65,7 @@ ID | Type | Indicator | Confidence
 10 | File | `AGENTS/index.php` | High
 11 | ... | ... | ...
 
-There are 82 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 87 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

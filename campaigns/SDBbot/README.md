@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with SDBbot:
 
 * [US](https://vuldb.com/?country.us)
-* [DE](https://vuldb.com/?country.de)
 * [GB](https://vuldb.com/?country.gb)
+* [DE](https://vuldb.com/?country.de)
 * ...
 
 There are 19 more country items available. Please use our online service to access the data.
@@ -58,23 +58,29 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/.ssh/authorized_keys` | High
-2 | File | `/admin/ajax.php?action=save_area` | High
-3 | File | `/admin/reportupload.aspx` | High
-4 | File | `/api/plugin/uninstall` | High
-5 | File | `/cgi-bin/adm.cgi` | High
-6 | File | `/cgi-bin/webproc` | High
-7 | File | `/dipam/athlete-profile.php` | High
-8 | File | `/dosen/data` | Medium
-9 | File | `/etc/puppetlabs/puppetserver/conf.d/ca.conf` | High
-10 | File | `/jeecg-boot/jmreport/upload` | High
-11 | File | `/modules/tasks/summary.inc.php` | High
-12 | File | `/preview.php` | Medium
-13 | File | `/rest/api/2/user/picker` | High
-14 | File | `/secure/QueryComponent!Default.jspa` | High
-15 | File | `/send_order.cgi?parameter=restart` | High
-16 | ... | ... | ...
+2 | File | `/admin/add-services.php` | High
+3 | File | `/admin/ajax.php?action=save_area` | High
+4 | File | `/admin/del_service.php` | High
+5 | File | `/admin/reportupload.aspx` | High
+6 | File | `/admin/sys_sql_query.php` | High
+7 | File | `/api/plugin/uninstall` | High
+8 | File | `/blog` | Low
+9 | File | `/cgi-bin/adm.cgi` | High
+10 | File | `/cgi-bin/webproc` | High
+11 | File | `/classes/Master.php?f=save_inquiry` | High
+12 | File | `/dipam/athlete-profile.php` | High
+13 | File | `/dosen/data` | Medium
+14 | File | `/Duty/AjaxHandle/Write/UploadFile.ashx` | High
+15 | File | `/etc/puppetlabs/puppetserver/conf.d/ca.conf` | High
+16 | File | `/home/filter_listings` | High
+17 | File | `/index.php` | Medium
+18 | File | `/jeecg-boot/jmreport/upload` | High
+19 | File | `/listplace/user/ticket/create` | High
+20 | File | `/modules/tasks/summary.inc.php` | High
+21 | File | `/portal/reports/account_statement` | High
+22 | ... | ... | ...
 
-There are 131 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 182 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

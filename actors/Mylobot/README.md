@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [FR](https://vuldb.com/?country.fr)
 * ...
 
-There are 27 more country items available. Please use our online service to access the data.
+There are 25 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -42,7 +42,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -62,49 +62,50 @@ ID | Type | Indicator | Confidence
 10 | File | `/checkLogin.cgi` | High
 11 | File | `/common/logViewer/logViewer.jsf` | High
 12 | File | `/Config/SaveUploadedHotspotLogoFile` | High
-13 | File | `/dashboard/snapshot/*?orgId=0` | High
-14 | File | `/ecrire` | Low
-15 | File | `/exponent_constants.php` | High
-16 | File | `/forum/away.php` | High
-17 | File | `/hub/api/user` | High
-18 | File | `/include/commrecc.inc.php` | High
-19 | File | `/include/comm_post.inc.php` | High
-20 | File | `/include/friends.inc.php` | High
-21 | File | `/include/menu_v.inc.php` | High
-22 | File | `/include/notify.inc.php` | High
-23 | File | `/magnoliaPublic/travel/members/login.html` | High
-24 | File | `/mhds/clinic/view_details.php` | High
-25 | File | `/MicroStrategyWS/happyaxis.jsp` | High
-26 | File | `/owa/auth/logon.aspx` | High
-27 | File | `/proc` | Low
-28 | File | `/products/details.asp` | High
-29 | File | `/public/plugins/` | High
-30 | File | `/RestAPI` | Medium
-31 | File | `/school/model/get_teacher.php` | High
-32 | File | `/tmp` | Low
-33 | File | `/uncpath/` | Medium
-34 | File | `/user/loader.php?api=1` | High
-35 | File | `/User/saveUser` | High
-36 | File | `/viewer/krpano.html` | High
-37 | File | `/ViewUserHover.jspa` | High
-38 | File | `/WEB-INF/web.xml` | High
-39 | File | `/wp-admin/admin-ajax.php` | High
-40 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-41 | File | `/wp-json/oembed/1.0/embed?url` | High
-42 | File | `/wp-json/wc/v3/webhooks` | High
-43 | File | `abc-pcie.c` | Medium
-44 | File | `account.asp` | Medium
-45 | File | `activateuser.aspx` | High
-46 | File | `adclick.php` | Medium
-47 | File | `addentry.php` | Medium
-48 | File | `admin-ajax.php` | High
-49 | File | `admin.joomlaflashfun.php` | High
-50 | File | `admin.php` | Medium
-51 | File | `admin/addons/archive/archive.php` | High
-52 | File | `admin/auth.php` | High
-53 | ... | ... | ...
+13 | File | `/CPE` | Low
+14 | File | `/dashboard/snapshot/*?orgId=0` | High
+15 | File | `/ecrire` | Low
+16 | File | `/exponent_constants.php` | High
+17 | File | `/forum/away.php` | High
+18 | File | `/hub/api/user` | High
+19 | File | `/include/commrecc.inc.php` | High
+20 | File | `/include/comm_post.inc.php` | High
+21 | File | `/include/friends.inc.php` | High
+22 | File | `/include/menu_v.inc.php` | High
+23 | File | `/include/notify.inc.php` | High
+24 | File | `/magnoliaPublic/travel/members/login.html` | High
+25 | File | `/mhds/clinic/view_details.php` | High
+26 | File | `/MicroStrategyWS/happyaxis.jsp` | High
+27 | File | `/owa/auth/logon.aspx` | High
+28 | File | `/proc` | Low
+29 | File | `/products/details.asp` | High
+30 | File | `/public/plugins/` | High
+31 | File | `/RestAPI` | Medium
+32 | File | `/school/model/get_teacher.php` | High
+33 | File | `/tmp` | Low
+34 | File | `/uncpath/` | Medium
+35 | File | `/user/loader.php?api=1` | High
+36 | File | `/User/saveUser` | High
+37 | File | `/usr/sbin/suexec` | High
+38 | File | `/viewer/krpano.html` | High
+39 | File | `/ViewUserHover.jspa` | High
+40 | File | `/WEB-INF/web.xml` | High
+41 | File | `/wp-admin/admin-ajax.php` | High
+42 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+43 | File | `/wp-json/oembed/1.0/embed?url` | High
+44 | File | `/wp-json/wc/v3/webhooks` | High
+45 | File | `account.asp` | Medium
+46 | File | `activateuser.aspx` | High
+47 | File | `adclick.php` | Medium
+48 | File | `addentry.php` | Medium
+49 | File | `admin-ajax.php` | High
+50 | File | `admin.joomlaflashfun.php` | High
+51 | File | `admin.php` | Medium
+52 | File | `admin/addons/archive/archive.php` | High
+53 | File | `admin/auth.php` | High
+54 | ... | ... | ...
 
-There are 460 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 474 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

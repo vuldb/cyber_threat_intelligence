@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with N-W0rm:
 
-* [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
-* [NL](https://vuldb.com/?country.nl)
+* [CN](https://vuldb.com/?country.cn)
+* [TR](https://vuldb.com/?country.tr)
 * ...
 
-There are 13 more country items available. Please use our online service to access the data.
+There are 17 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -21,19 +21,20 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [20.48.21.149](https://vuldb.com/?ip.20.48.21.149) | - | - | High
-2 | [23.7.53.229](https://vuldb.com/?ip.23.7.53.229) | a23-7-53-229.deploy.static.akamaitechnologies.com | - | High
-3 | [23.8.82.173](https://vuldb.com/?ip.23.8.82.173) | a23-8-82-173.deploy.static.akamaitechnologies.com | - | High
-4 | [23.9.169.37](https://vuldb.com/?ip.23.9.169.37) | a23-9-169-37.deploy.static.akamaitechnologies.com | - | High
-5 | [23.204.189.35](https://vuldb.com/?ip.23.204.189.35) | a23-204-189-35.deploy.static.akamaitechnologies.com | - | High
-6 | [35.83.156.201](https://vuldb.com/?ip.35.83.156.201) | ec2-35-83-156-201.us-west-2.compute.amazonaws.com | - | Medium
-7 | [35.168.183.178](https://vuldb.com/?ip.35.168.183.178) | ec2-35-168-183-178.compute-1.amazonaws.com | - | Medium
-8 | [37.120.141.147](https://vuldb.com/?ip.37.120.141.147) | - | - | High
-9 | [37.120.141.190](https://vuldb.com/?ip.37.120.141.190) | - | - | High
-10 | [42.157.128.69](https://vuldb.com/?ip.42.157.128.69) | - | - | High
-11 | ... | ... | ... | ...
+1 | [2.56.254.54](https://vuldb.com/?ip.2.56.254.54) | - | - | High
+2 | [20.48.21.149](https://vuldb.com/?ip.20.48.21.149) | - | - | High
+3 | [23.7.53.229](https://vuldb.com/?ip.23.7.53.229) | a23-7-53-229.deploy.static.akamaitechnologies.com | - | High
+4 | [23.8.82.173](https://vuldb.com/?ip.23.8.82.173) | a23-8-82-173.deploy.static.akamaitechnologies.com | - | High
+5 | [23.9.169.37](https://vuldb.com/?ip.23.9.169.37) | a23-9-169-37.deploy.static.akamaitechnologies.com | - | High
+6 | [23.204.189.35](https://vuldb.com/?ip.23.204.189.35) | a23-204-189-35.deploy.static.akamaitechnologies.com | - | High
+7 | [35.83.156.201](https://vuldb.com/?ip.35.83.156.201) | ec2-35-83-156-201.us-west-2.compute.amazonaws.com | - | Medium
+8 | [35.168.183.178](https://vuldb.com/?ip.35.168.183.178) | ec2-35-168-183-178.compute-1.amazonaws.com | - | Medium
+9 | [37.120.141.147](https://vuldb.com/?ip.37.120.141.147) | - | - | High
+10 | [37.120.141.190](https://vuldb.com/?ip.37.120.141.190) | - | - | High
+11 | [37.139.129.243](https://vuldb.com/?ip.37.139.129.243) | - | - | High
+12 | ... | ... | ... | ...
 
-There are 38 more IOC items available. Please use our online service to access the data.
+There are 42 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -41,15 +42,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-28 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
-7 | ... | ... | ... | ...
+6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -57,57 +57,61 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/?p=products` | Medium
-2 | File | `/admin.php/accessory/filesdel.html` | High
-3 | File | `/admin.php/Admin/adminadd.html` | High
-4 | File | `/admin/?page=user/manage` | High
+1 | File | `//WEB-INF` | Medium
+2 | File | `/?p=products` | Medium
+3 | File | `/about.php` | Medium
+4 | File | `/admin.php/update/getFile.html` | High
 5 | File | `/admin/?page=user/manage_user&id=3` | High
-6 | File | `/admin/add-new.php` | High
-7 | File | `/admin/doctors.php` | High
-8 | File | `/admin/settings/save.php` | High
-9 | File | `/admin/submit-articles` | High
-10 | File | `/admin/userprofile.php` | High
-11 | File | `/alphaware/summary.php` | High
-12 | File | `/api/` | Low
-13 | File | `/api/admin/store/product/list` | High
-14 | File | `/api/baskets/{name}` | High
-15 | File | `/api/stl/actions/search` | High
-16 | File | `/api/v2/cli/commands` | High
-17 | File | `/apply.cgi` | Medium
-18 | File | `/attachments` | Medium
-19 | File | `/bin/ate` | Medium
-20 | File | `/boat/login.php` | High
-21 | File | `/booking/show_bookings/` | High
-22 | File | `/bsms_ci/index.php/book` | High
-23 | File | `/cgi-bin` | Medium
-24 | File | `/cgi-bin/wlogin.cgi` | High
-25 | File | `/College/admin/teacher.php` | High
-26 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
-27 | File | `/dcim/rack-roles/` | High
-28 | File | `/debug/pprof` | Medium
-29 | File | `/env` | Low
-30 | File | `/etc/hosts` | Medium
-31 | File | `/forum/away.php` | High
-32 | File | `/goform/addUserName` | High
-33 | File | `/goform/aspForm` | High
-34 | File | `/goform/delAd` | High
-35 | File | `/goform/wifiSSIDset` | High
-36 | File | `/gpac/src/bifs/unquantize.c` | High
-37 | File | `/horde/util/go.php` | High
-38 | File | `/inc/topBarNav.php` | High
-39 | File | `/index.php` | Medium
-40 | File | `/index.php?app=main&func=passport&action=login` | High
-41 | File | `/kelas/data` | Medium
-42 | File | `/medicines/profile.php` | High
-43 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-44 | File | `/Moosikay/order.php` | High
-45 | File | `/php-sms/admin/?page=user/manage_user` | High
-46 | File | `/php-sms/admin/quotes/manage_remark.php` | High
-47 | File | `/proxy` | Low
-48 | File | `/reservation/add_message.php` | High
-49 | ... | ... | ...
+6 | File | `/admin/about-us.php` | High
+7 | File | `/admin/maintenance/view_designation.php` | High
+8 | File | `/admin/sys_sql_query.php` | High
+9 | File | `/api/baskets/{name}` | High
+10 | File | `/api/stl/actions/search` | High
+11 | File | `/api/v2/cli/commands` | High
+12 | File | `/bin/ate` | Medium
+13 | File | `/bitrix/admin/ldap_server_edit.php` | High
+14 | File | `/booking/show_bookings/` | High
+15 | File | `/cgi-bin` | Medium
+16 | File | `/cgi-bin/luci/api/wireless` | High
+17 | File | `/company/store` | High
+18 | File | `/Content/Template/root/reverse-shell.aspx` | High
+19 | File | `/Controller/Ajaxfileupload.ashx` | High
+20 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
+21 | File | `/core/conditions/AbstractWrapper.java` | High
+22 | File | `/dcim/rack-roles/` | High
+23 | File | `/debug/pprof` | Medium
+24 | File | `/env` | Low
+25 | File | `/etc/passwd` | Medium
+26 | File | `/feeds/post/publish` | High
+27 | File | `/forum/away.php` | High
+28 | File | `/group1/uploa` | High
+29 | File | `/h/` | Low
+30 | File | `/horde/util/go.php` | High
+31 | File | `/inc/jquery/uploadify/uploadify.php` | High
+32 | File | `/index.php` | Medium
+33 | File | `/index.php?app=main&func=passport&action=login` | High
+34 | File | `/index.php?page=category_list` | High
+35 | File | `/jobinfo/` | Medium
+36 | File | `/kelas/data` | Medium
+37 | File | `/Moosikay/order.php` | High
+38 | File | `/opac/Actions.php?a=login` | High
+39 | File | `/php-sms/admin/?page=user/manage_user` | High
+40 | File | `/PreviewHandler.ashx` | High
+41 | File | `/recipe-result` | High
+42 | File | `/register.do` | Medium
+43 | File | `/reservation/add_message.php` | High
+44 | File | `/resources//../` | High
+45 | File | `/Service/ImageStationDataService.asmx` | High
+46 | File | `/spip.php` | Medium
+47 | File | `/squashfs-root/etc_ro/custom.conf` | High
+48 | File | `/staff/edit_book_details.php` | High
+49 | File | `/student/bookdetails.php` | High
+50 | File | `/uploads/exam_question/` | High
+51 | File | `/user/profile` | High
+52 | File | `/user/ticket/create` | High
+53 | ... | ... | ...
 
-There are 421 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 458 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -19,12 +19,12 @@ There are 2 more campaign items available. Please use our online service to acce
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with APT41:
 
-* [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 18 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -51,9 +51,10 @@ ID | IP address | Hostname | Campaign | Confidence
 17 | [45.128.132.6](https://vuldb.com/?ip.45.128.132.6) | - | MoonBounce | High
 18 | [45.128.135.15](https://vuldb.com/?ip.45.128.135.15) | - | MoonBounce | High
 19 | [45.138.157.78](https://vuldb.com/?ip.45.138.157.78) | srv1.fincantleri.co | - | High
-20 | ... | ... | ... | ...
+20 | [45.153.231.31](https://vuldb.com/?ip.45.153.231.31) | cheater.rehab | CVE-2021-44207 | High
+21 | ... | ... | ... | ...
 
-There are 78 more IOC items available. Please use our online service to access the data.
+There are 82 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -61,14 +62,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-28 | Pathname Traversal | High
+1 | T1006 | CWE-22 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-250, CWE-264, CWE-267, CWE-269, CWE-270, CWE-271, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
-6 | ... | ... | ... | ...
+3 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 12 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -76,52 +75,18 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/user/manage_user.php` | High
-2 | File | `/api/` | Low
-3 | File | `/api/blade-log/api/list` | High
-4 | File | `/api/trackedEntityInstances` | High
-5 | File | `/application/common.php#action_log` | High
-6 | File | `/authUserAction!edit.action` | High
-7 | File | `/baseOpLog.do` | High
-8 | File | `/category/list?limit=10&offset=0&order=desc` | High
-9 | File | `/category_view.php` | High
-10 | File | `/cgi-bin/portal` | High
-11 | File | `/cgi-bin/system_mgr.cgi` | High
-12 | File | `/classes/Users.php` | High
-13 | File | `/cms/category/list` | High
-14 | File | `/common/download?filename=1.jsp&delete=false` | High
-15 | File | `/csms/?page=contact_us` | High
-16 | File | `/data/remove` | Medium
-17 | File | `/debug` | Low
-18 | File | `/debug/pprof` | Medium
-19 | File | `/dede/group_store.php` | High
-20 | File | `/dialog/select_media.php` | High
-21 | File | `/forum/away.php` | High
-22 | File | `/goform/PowerSaveSet` | High
-23 | File | `/include/make.php` | High
-24 | File | `/index.php` | Medium
-25 | File | `/jeecg-boot/sys/common/upload` | High
-26 | File | `/login.cgi?logout=1` | High
-27 | File | `/medical/inventories.php` | High
-28 | File | `/members/view_member.php` | High
-29 | File | `/mgmt/tm/util/bash` | High
-30 | File | `/module/admin_logs` | High
-31 | File | `/nova/bin/console` | High
-32 | File | `/owa/auth/logon.aspx` | High
-33 | File | `/plesk-site-preview/` | High
-34 | File | `/public/login.htm` | High
-35 | File | `/public/plugins/` | High
-36 | File | `/replication` | Medium
-37 | File | `/SASWebReportStudio/logonAndRender.do` | High
-38 | File | `/scas/classes/Users.php?f=save_user` | High
-39 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-40 | File | `/secure/admin/ViewInstrumentation.jspa` | High
-41 | File | `/secure/QueryComponent!Default.jspa` | High
-42 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
-43 | File | `/start-stop` | Medium
-44 | ... | ... | ...
+1 | File | `/csms/?page=contact_us` | High
+2 | File | `/goform/PowerSaveSet` | High
+3 | File | `/index.php` | Medium
+4 | File | `/members/view_member.php` | High
+5 | File | `/owa/auth/logon.aspx` | High
+6 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
+7 | File | `/uncpath/` | Medium
+8 | File | `adclick.php` | Medium
+9 | File | `addrating.php` | High
+10 | ... | ... | ...
 
-There are 383 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 76 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -135,6 +100,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://securelist.com/moonbounce-the-dark-side-of-uefi-firmware/105468/
 * https://vxug.fakedoma.in/archive/APTs/2021/2021.01.14/APT%2041.pdf
 * https://www.fireeye.com/blog/threat-research/2020/03/apt41-initiates-global-intrusion-campaign-using-multiple-exploits.html
+* https://www.lookout.com/threat-intelligence/article/wyrmspy-dragonegg-surveillanceware-apt41
 * https://www.mandiant.com/resources/apt41-us-state-governments
 * https://www.threatminer.org/report.php?q=OfPigsandMalwareExaminingaPossibleMemberoftheWinntiGroup-TrendMicro.pdf&y=2017
 * https://www.threatminer.org/report.php?q=WinntiAbusesGitHubforC&CCommunications-TrendMicro.pdf&y=2017

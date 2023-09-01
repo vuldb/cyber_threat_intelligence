@@ -37,7 +37,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-36 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
@@ -54,51 +54,53 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `%PROGRAMDATA%\WrData\PKG` | High
 2 | File | `/.ssh/authorized_keys` | High
-3 | File | `/admin/?page=user/manage` | High
-4 | File | `/admin/edit_product.php` | High
-5 | File | `/admin/index.php` | High
-6 | File | `/admin/lab.php` | High
-7 | File | `/admin/login.php` | High
-8 | File | `/admin/read.php?mudi=announContent` | High
-9 | File | `/ajax.php?action=read_msg` | High
-10 | File | `/api/ping` | Medium
-11 | File | `/api/wechat/app_auth` | High
-12 | File | `/assets/components/gallery/connector.php` | High
-13 | File | `/author_posts.php` | High
-14 | File | `/bsms_ci/index.php` | High
-15 | File | `/change-language/de_DE` | High
-16 | File | `/cms/category/list` | High
-17 | File | `/College/admin/teacher.php` | High
-18 | File | `/dashboard/settings` | High
-19 | File | `/Default/Bd` | Medium
-20 | File | `/dipam/athlete-profile.php` | High
-21 | File | `/dipam/save-delegates.php` | High
-22 | File | `/Duty/AjaxHandle/Write/UploadFile.ashx` | High
-23 | File | `/editbrand.php` | High
-24 | File | `/employeeview.php` | High
-25 | File | `/etc/target` | Medium
-26 | File | `/export` | Low
-27 | File | `/getcfg.php` | Medium
-28 | File | `/goform/WriteFacMac` | High
-29 | File | `/home/kickPlayer` | High
-30 | File | `/home/masterConsole` | High
-31 | File | `/index.php` | Medium
-32 | File | `/lists/admin/user.php` | High
-33 | File | `/mkshop/Men/profile.php` | High
-34 | File | `/movie.php` | Medium
-35 | File | `/news-portal-script/information.php` | High
-36 | File | `/pages/apply_vacancy.php` | High
-37 | File | `/param.file.tgz` | High
-38 | File | `/paysystem/branch.php` | High
-39 | File | `/paysystem/datatable.php` | High
-40 | File | `/preview.php` | Medium
-41 | File | `/rest/api/2/user/picker` | High
-42 | File | `/send_order.cgi?parameter=restart` | High
-43 | File | `/tmp` | Low
-44 | File | `/uncpath/` | Medium
-45 | ... | ... | ...
+3 | File | `/admin/?page=user/list` | High
+4 | File | `/admin/?page=user/manage` | High
+5 | File | `/admin/edit_product.php` | High
+6 | File | `/admin/index.php` | High
+7 | File | `/admin/lab.php` | High
+8 | File | `/admin/login.php` | High
+9 | File | `/admin/read.php?mudi=announContent` | High
+10 | File | `/ajax.php?action=read_msg` | High
+11 | File | `/api/ping` | Medium
+12 | File | `/api/wechat/app_auth` | High
+13 | File | `/App_Resource/UEditor/server/upload.aspx` | High
+14 | File | `/assets/components/gallery/connector.php` | High
+15 | File | `/author_posts.php` | High
+16 | File | `/bsms_ci/index.php` | High
+17 | File | `/change-language/de_DE` | High
+18 | File | `/cms/category/list` | High
+19 | File | `/College/admin/teacher.php` | High
+20 | File | `/dashboard/settings` | High
+21 | File | `/Default/Bd` | Medium
+22 | File | `/dipam/athlete-profile.php` | High
+23 | File | `/dipam/save-delegates.php` | High
+24 | File | `/Duty/AjaxHandle/Write/UploadFile.ashx` | High
+25 | File | `/editbrand.php` | High
+26 | File | `/employeeview.php` | High
+27 | File | `/etc/target` | Medium
+28 | File | `/export` | Low
+29 | File | `/getcfg.php` | Medium
+30 | File | `/goform/WriteFacMac` | High
+31 | File | `/home/kickPlayer` | High
+32 | File | `/home/masterConsole` | High
+33 | File | `/index.php` | Medium
+34 | File | `/lists/admin/user.php` | High
+35 | File | `/mkshop/Men/profile.php` | High
+36 | File | `/movie.php` | Medium
+37 | File | `/news-portal-script/information.php` | High
+38 | File | `/pages/apply_vacancy.php` | High
+39 | File | `/param.file.tgz` | High
+40 | File | `/paysystem/branch.php` | High
+41 | File | `/paysystem/datatable.php` | High
+42 | File | `/preview.php` | Medium
+43 | File | `/rest/api/2/user/picker` | High
+44 | File | `/search/index` | High
+45 | File | `/send_order.cgi?parameter=restart` | High
+46 | File | `/tmp` | Low
+47 | ... | ... | ...
 
-There are 389 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 409 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

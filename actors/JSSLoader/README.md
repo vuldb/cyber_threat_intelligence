@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 16 more country items available. Please use our online service to access the data.
+There are 14 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -67,41 +67,40 @@ ID | Type | Indicator | Confidence
 10 | File | `/admin/service.php` | High
 11 | File | `/admin/service_requests/manage_inventory.php` | High
 12 | File | `/admin/sys_sql_query.php` | High
-13 | File | `/api /v3/auth` | High
-14 | File | `/apply.cgi` | Medium
-15 | File | `/App_Resource/UEditor/server/upload.aspx` | High
-16 | File | `/asan/asan_interceptors_memintrinsics.cpp` | High
-17 | File | `/boaform/admin/formPing` | High
-18 | File | `/bsms_ci/index.php/book` | High
-19 | File | `/cgi-bin/nobody` | High
-20 | File | `/cgi-bin/nobody/Search.cgi` | High
-21 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-22 | File | `/cgi-bin/touchlist_sync.cgi` | High
-23 | File | `/cgi-bin/user/Config.cgi` | High
-24 | File | `/cgi-bin/wlogin.cgi` | High
-25 | File | `/churchcrm/EventAttendance.php` | High
-26 | File | `/classes/Login.php` | High
-27 | File | `/classes/Master.php` | High
-28 | File | `/classes/Master.php?f=save_course` | High
-29 | File | `/classes/Master.php?f=save_service` | High
-30 | File | `/classes/Users.php` | High
-31 | File | `/common/run_cross_report.php` | High
+13 | File | `/Ant_Suxin.php` | High
+14 | File | `/api /v3/auth` | High
+15 | File | `/apply.cgi` | Medium
+16 | File | `/App_Resource/UEditor/server/upload.aspx` | High
+17 | File | `/asan/asan_interceptors_memintrinsics.cpp` | High
+18 | File | `/boaform/admin/formPing` | High
+19 | File | `/bsms_ci/index.php/book` | High
+20 | File | `/cgi-bin/nobody` | High
+21 | File | `/cgi-bin/nobody/Search.cgi` | High
+22 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
+23 | File | `/cgi-bin/touchlist_sync.cgi` | High
+24 | File | `/cgi-bin/user/Config.cgi` | High
+25 | File | `/cgi-bin/wlogin.cgi` | High
+26 | File | `/churchcrm/EventAttendance.php` | High
+27 | File | `/classes/Login.php` | High
+28 | File | `/classes/Master.php` | High
+29 | File | `/classes/Master.php?f=save_course` | High
+30 | File | `/classes/Master.php?f=save_service` | High
+31 | File | `/classes/Users.php` | High
 32 | File | `/company/store` | High
 33 | File | `/controllers/Blocks.php` | High
 34 | File | `/dcim/rack/` | Medium
 35 | File | `/debug/pprof` | Medium
-36 | File | `/download` | Medium
-37 | File | `/E-mobile/App/System/File/downfile.php` | High
-38 | File | `/EditEventTypes.php` | High
-39 | File | `/Electron/download` | High
-40 | File | `/etc/tomcat8/Catalina/attack` | High
-41 | File | `/filemanager/php/connector.php` | High
-42 | File | `/gaia-job-admin/user/add` | High
-43 | File | `/goform/aspForm` | High
-44 | File | `/goform/SysToolChangePwd` | High
-45 | ... | ... | ...
+36 | File | `/dede/tpl.php` | High
+37 | File | `/download` | Medium
+38 | File | `/E-mobile/App/System/File/downfile.php` | High
+39 | File | `/EditEventTypes.php` | High
+40 | File | `/Electron/download` | High
+41 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+42 | File | `/etc/tomcat8/Catalina/attack` | High
+43 | File | `/gaia-job-admin/user/add` | High
+44 | ... | ... | ...
 
-There are 389 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 378 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Australia Unknown:
 
-* [US](https://vuldb.com/?country.us)
 * [IO](https://vuldb.com/?country.io)
+* [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 20 more country items available. Please use our online service to access the data.
+There are 21 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -2974,28 +2974,9 @@ ID | IP address | Hostname | Campaign | Confidence
 2951 | [69.166.198.0](https://vuldb.com/?ip.69.166.198.0) | 69-166-198-0.fwd.dsl-sub.ticolo.net | - | High
 2952 | [69.169.232.0](https://vuldb.com/?ip.69.169.232.0) | - | - | High
 2953 | [69.169.236.0](https://vuldb.com/?ip.69.169.236.0) | - | - | High
-2954 | [69.174.220.0](https://vuldb.com/?ip.69.174.220.0) | - | - | High
-2955 | [69.191.176.0](https://vuldb.com/?ip.69.191.176.0) | - | - | High
-2956 | [69.191.179.0](https://vuldb.com/?ip.69.191.179.0) | - | - | High
-2957 | [69.192.6.0](https://vuldb.com/?ip.69.192.6.0) | a69-192-6-0.deploy.static.akamaitechnologies.com | - | High
-2958 | [69.192.168.0](https://vuldb.com/?ip.69.192.168.0) | a69-192-168-0.deploy.static.akamaitechnologies.com | - | High
-2959 | [69.194.169.0](https://vuldb.com/?ip.69.194.169.0) | - | - | High
-2960 | [69.195.165.0](https://vuldb.com/?ip.69.195.165.0) | - | - | High
-2961 | [69.197.17.0](https://vuldb.com/?ip.69.197.17.0) | 69-197-17-0.stackpathedge.net | - | High
-2962 | [69.197.18.0](https://vuldb.com/?ip.69.197.18.0) | 69-197-18-0.stackpathedge.net | - | High
-2963 | [70.34.61.0](https://vuldb.com/?ip.70.34.61.0) | - | - | High
-2964 | [70.34.62.0](https://vuldb.com/?ip.70.34.62.0) | - | - | High
-2965 | [70.37.147.0](https://vuldb.com/?ip.70.37.147.0) | - | - | High
-2966 | [70.37.148.0](https://vuldb.com/?ip.70.37.148.0) | - | - | High
-2967 | [70.37.149.0](https://vuldb.com/?ip.70.37.149.0) | - | - | High
-2968 | [70.37.159.0](https://vuldb.com/?ip.70.37.159.0) | - | - | High
-2969 | [70.132.29.0](https://vuldb.com/?ip.70.132.29.0) | server-70-132-29-0.syd1.r.cloudfront.net | - | High
-2970 | [70.232.64.0](https://vuldb.com/?ip.70.232.64.0) | - | - | High
-2971 | [70.232.80.0](https://vuldb.com/?ip.70.232.80.0) | - | - | High
-2972 | [70.232.88.0](https://vuldb.com/?ip.70.232.88.0) | - | - | High
-2973 | ... | ... | ... | ...
+2954 | ... | ... | ... | ...
 
-There are 11890 more IOC items available. Please use our online service to access the data.
+There are 11810 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -3003,14 +2984,15 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-35, CWE-36 | Pathname Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-36, CWE-50 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+6 | T1078.001 | CWE-259 | Use of Hard-coded Password | High
+7 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -3018,61 +3000,47 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `//WEB-INF` | Medium
-2 | File | `/?p=products` | Medium
-3 | File | `/about.php` | Medium
-4 | File | `/about/../` | Medium
-5 | File | `/admin.php/update/getFile.html` | High
-6 | File | `/admin/cashadvance_row.php` | High
-7 | File | `/admin/maintenance/view_designation.php` | High
-8 | File | `/admin/scheprofile.cgi` | High
-9 | File | `/admin/userprofile.php` | High
-10 | File | `/api/` | Low
-11 | File | `/api/admin/store/product/list` | High
-12 | File | `/api/blade-log/api/list` | High
-13 | File | `/api/v2/cli/commands` | High
-14 | File | `/application/views/themeOptions/update.php` | High
-15 | File | `/authUserAction!edit.action` | High
-16 | File | `/cgi-bin` | Medium
-17 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
-18 | File | `/cgi-bin/wapopen` | High
-19 | File | `/cgi-bin/wlogin.cgi` | High
-20 | File | `/cmsms-2.1.6-install.php/index.php` | High
-21 | File | `/config/myfield/test.php` | High
+1 | File | `.github/workflows/comment.yml` | High
+2 | File | `/admin.php?c=upload&f=zip&_noCache=0.1683794968` | High
+3 | File | `/admin/edit.php` | High
+4 | File | `/admin/read.php?mudi=getSignal` | High
+5 | File | `/admin/sys_sql_query.php` | High
+6 | File | `/api/baskets/{name}` | High
+7 | File | `/api/v1/snapshots` | High
+8 | File | `/Application/Admin/Controller/ConfigController.class.php` | High
+9 | File | `/bin/ate` | Medium
+10 | File | `/bin/boa` | Medium
+11 | File | `/bitrix/admin/ldap_server_edit.php` | High
+12 | File | `/blog` | Low
+13 | File | `/booking/show_bookings/` | High
+14 | File | `/category.php` | High
+15 | File | `/cgi-bin/wlogin.cgi` | High
+16 | File | `/cimom` | Low
+17 | File | `/classes/master.php?f=delete_order` | High
+18 | File | `/classes/Master.php?f=save_inquiry` | High
+19 | File | `/classes/Master.php?f=save_service` | High
+20 | File | `/company/store` | High
+21 | File | `/Controller/Ajaxfileupload.ashx` | High
 22 | File | `/debug/pprof` | Medium
-23 | File | `/dev/shm` | Medium
+23 | File | `/download` | Medium
 24 | File | `/E-mobile/App/System/File/downfile.php` | High
-25 | File | `/Electron/download` | High
-26 | File | `/feeds/post/publish` | High
-27 | File | `/forms/doLogin` | High
-28 | File | `/forum/away.php` | High
-29 | File | `/inc/jquery/uploadify/uploadify.php` | High
-30 | File | `/index.php?app=main&func=passport&action=login` | High
-31 | File | `/index/user/user_edit.html` | High
-32 | File | `/Items/*/RemoteImages/Download` | High
-33 | File | `/loginsave.php` | High
-34 | File | `/Moosikay/order.php` | High
-35 | File | `/opac/Actions.php?a=login` | High
-36 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-37 | File | `/proxy` | Low
-38 | File | `/public/launchNewWindow.jsp` | High
-39 | File | `/reservation/add_message.php` | High
-40 | File | `/rest/project-templates/1.0/createshared` | High
-41 | File | `/reviewer/system/system/admins/manage/users/user-update.php` | High
-42 | File | `/send_order.cgi?parameter=access_detect` | High
-43 | File | `/tool/gen/createTable` | High
-44 | File | `/ueditor/net/controller.ashx?action=catchimage` | High
-45 | File | `/user/updatePwd` | High
-46 | File | `/v2/customerdb/operator.svc/a` | High
-47 | File | `/v2/_catalog` | Medium
-48 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
-49 | File | `/vendor/views/add_product.php` | High
-50 | File | `/webroot/inc/utility_all.php` | High
-51 | File | `/wireless/security.asp` | High
-52 | File | `/wp-admin/admin-ajax.php` | High
-53 | ... | ... | ...
+25 | File | `/env` | Low
+26 | File | `/etc/passwd` | Medium
+27 | File | `/forum/away.php` | High
+28 | File | `/goform/aspForm` | High
+29 | File | `/group1/uploa` | High
+30 | File | `/h/` | Low
+31 | File | `/home/kickPlayer` | High
+32 | File | `/index.php` | Medium
+33 | File | `/index.php/coins/update_marketboxslider` | High
+34 | File | `/index.php/payment/getcoinaddress` | High
+35 | File | `/index.php?app=main&func=passport&action=login` | High
+36 | File | `/jobinfo/` | Medium
+37 | File | `/librarian/bookdetails.php` | High
+38 | File | `/owa/auth/logon.aspx` | High
+39 | ... | ... | ...
 
-There are 462 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 340 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

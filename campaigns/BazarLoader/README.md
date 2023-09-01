@@ -95,10 +95,10 @@ ID | Type | Indicator | Confidence
 8 | File | `/wp-admin/admin.php?page=wp_file_manager_properties` | High
 9 | File | `add.php` | Low
 10 | File | `admin/admin.shtml` | High
-11 | File | `bpf-object-fuzzer.c` | High
+11 | File | `archiver\index.php` | High
 12 | ... | ... | ...
 
-There are 89 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 93 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

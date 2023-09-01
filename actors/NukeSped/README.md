@@ -1,93 +1,90 @@
-# NukeSped - Cyber Threat Intelligence
+# Nukesped - Cyber Threat Intelligence
 
-These _indicators_ were reported, collected, and generated during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [NukeSped](https://vuldb.com/?actor.nukesped). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ uses _big data_ to forecast activities and their characteristics.
+These _indicators_ were reported, collected, and generated during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Nukesped](https://vuldb.com/?actor.nukesped). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ uses _big data_ to forecast activities and their characteristics.
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.nukesped](https://vuldb.com/?actor.nukesped)
 
 ## Countries
 
-These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with NukeSped:
+These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Nukesped:
 
-* [US](https://vuldb.com/?country.us)
+* [HK](https://vuldb.com/?country.hk)
 * [GB](https://vuldb.com/?country.gb)
-* [UA](https://vuldb.com/?country.ua)
+* [US](https://vuldb.com/?country.us)
+* ...
+
+There are 1 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
-These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of NukeSped.
+These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of Nukesped.
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [84.38.133.16](https://vuldb.com/?ip.84.38.133.16) | - | - | High
-2 | [84.38.133.145](https://vuldb.com/?ip.84.38.133.145) | - | - | High
-3 | [185.29.8.18](https://vuldb.com/?ip.185.29.8.18) | ip-8-18.dataclub.info | - | High
+1 | [6.43.51.17](https://vuldb.com/?ip.6.43.51.17) | - | - | High
+2 | [84.38.133.16](https://vuldb.com/?ip.84.38.133.16) | - | - | High
+3 | [84.38.133.145](https://vuldb.com/?ip.84.38.133.145) | - | - | High
+4 | ... | ... | ... | ...
+
+There are 3 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _NukeSped_. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _Nukesped_. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Pathname Traversal | High
-2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94 | Cross Site Scripting | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-425 | Pathname Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 16 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
-These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by NukeSped. This data is unique as it uses our predictive model for actor profiling.
+These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by Nukesped. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/blog/blogcategory/add/?_to_field=id&_popup=1` | High
-2 | File | `/api/users/admin/check` | High
-3 | File | `/connectors/index.php` | High
-4 | File | `/etc/init.d/opsview-reporting-module` | High
-5 | File | `/get_getnetworkconf.cgi` | High
-6 | File | `/goform/edit_lf_get_data` | High
-7 | File | `/goform/form2userconfig.cgi` | High
-8 | File | `/guest/index.html` | High
-9 | File | `/include/logs` | High
-10 | File | `/index.php?page=forums&action=search` | High
-11 | File | `/index.php?page=signup` | High
-12 | File | `/index.php?page=viewnews` | High
-13 | File | `/member/pm.php` | High
-14 | File | `/onvif/device_service` | High
-15 | File | `/proc` | Low
-16 | File | `/proc/asound` | Medium
-17 | File | `/rapi/read_url` | High
-18 | File | `/tab_tariffe.php` | High
-19 | File | `/var/log/groonga` | High
-20 | File | `/visualizza_tabelle.php` | High
-21 | File | `/VPortal/mgtconsole/AdminAuthorisationFrame.jsp` | High
-22 | File | `/VPortal/mgtconsole/Subscriptions.jsp` | High
-23 | File | `acrord32.exe` | Medium
-24 | File | `action/addproject.php` | High
-25 | File | `action/add_user.php` | High
-26 | File | `admin.php/user/add` | High
-27 | File | `admin.php?m=Member&a=adminadd` | High
-28 | File | `admin/content/search.html` | High
-29 | File | `admin/index.php?lfj=member&action=addmember` | High
-30 | File | `admin/tool/ShowPic.php` | High
-31 | File | `admin/uploader/uploader_categories/edit` | High
-32 | File | `adv_remotelog.asp` | High
-33 | File | `AjaxApplication.java` | High
-34 | File | `album_cat.php` | High
-35 | File | `AndroidManifest.xml` | High
-36 | File | `Annot.c` | Low
-37 | File | `app/admin/controller/themecontroller.php` | High
-38 | ... | ... | ...
+1 | File | `/admin-panel1.php` | High
+2 | File | `/admin/academic/studenview_left.php` | High
+3 | File | `/admin/controller/JobLogController.java` | High
+4 | File | `/admin/login.php` | High
+5 | File | `/ad_js.php` | Medium
+6 | File | `/alerts/alertConfigField.php` | High
+7 | File | `/API/system/admins/session` | High
+8 | File | `/config/myfield/test.php` | High
+9 | File | `/context/%2e/WEB-INF/web.xml` | High
+10 | File | `/core/conditions/AbstractWrapper.java` | High
+11 | File | `/data/remove` | Medium
+12 | File | `/debug/pprof` | Medium
+13 | File | `/etc/passwd` | Medium
+14 | File | `/face-recognition-php/facepay-master/camera.php` | High
+15 | File | `/forms/doLogin` | High
+16 | File | `/fuel/index.php/fuel/logs/items` | High
+17 | File | `/fuel/index.php/fuel/pages/items` | High
+18 | File | `/goform/aspForm` | High
+19 | File | `/image_zoom.php` | High
+20 | File | `/include/config.cache.php` | High
+21 | File | `/index.php` | Medium
+22 | File | `/mkshop/Men/profile.php` | High
+23 | File | `/param.file.tgz` | High
+24 | File | `/proxy/` | Low
+25 | File | `/public/plugins/` | High
+26 | File | `/rest/api/2/search` | High
+27 | ... | ... | ...
 
-There are 330 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 232 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://asec.ahnlab.com/en/34461/
+* https://www.fortinet.com/blog/threat-research/deep-analysis-nukesped-rat.html
 
 ## Literature
 

@@ -86,15 +86,15 @@ ID | Type | Indicator | Confidence
 3 | File | `/cloud_config/router_post/get_reset_pwd_veirfy_code` | High
 4 | File | `/etc/tomcat8/Catalina/attack` | High
 5 | File | `/index.php` | Medium
-6 | File | `/proc/pid/attr` | High
-7 | File | `/RestAPI` | Medium
-8 | File | `/service/upload` | High
-9 | File | `/wp-admin/admin-ajax.php` | High
-10 | File | `admin.php` | Medium
-11 | File | `admin/conf_users_edit.php` | High
+6 | File | `/libraries` | Medium
+7 | File | `/proc/pid/attr` | High
+8 | File | `/RestAPI` | Medium
+9 | File | `/service/upload` | High
+10 | File | `/wp-admin/admin-ajax.php` | High
+11 | File | `adclick.php` | Medium
 12 | ... | ... | ...
 
-There are 93 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 96 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

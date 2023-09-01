@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 25 more country items available. Please use our online service to access the data.
+There are 24 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -45,7 +45,7 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/.ssh/authorized_keys` | High
+2 | File | `/act/ActDao.xml` | High
 3 | File | `/ajax.php?action=read_msg` | High
 4 | File | `/ajax/networking/get_netcfg.php` | High
 5 | File | `/api/gen/clients/{language}` | High
@@ -90,7 +90,7 @@ ID | Type | Indicator | Confidence
 44 | File | `/sys/dict/queryTableData` | High
 45 | ... | ... | ...
 
-There are 386 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 390 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

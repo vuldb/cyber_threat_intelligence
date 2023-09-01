@@ -17,6 +17,7 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [47.89.185.156](https://vuldb.com/?ip.47.89.185.156) | - | - | High
+2 | [47.254.26.2](https://vuldb.com/?ip.47.254.26.2) | - | - | High
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -45,6 +46,7 @@ There are 14 more IOA items available (file, library, argument, input value, pat
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://blog.trendmicro.com/trendlabs-security-intelligence/google-play-apps-drop-anubis-banking-malware-use-motion-based-evasion-tactics/
 * https://twitter.com/0x6rsk/status/1640632227863179269
 
 ## Literature

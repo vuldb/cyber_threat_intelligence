@@ -41,11 +41,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
-2 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-3 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+2 | T1059 | CWE-94 | Cross Site Scripting | High
+3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 6 more TTP items available. Please use our online service to access the data.
+There are 8 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -55,12 +55,22 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/admin.php` | High
 2 | File | `/admin/index2.html` | High
-3 | File | `/view-pass-detail.php` | High
-4 | File | `/wp-admin/options-general.php` | High
-5 | File | `admin\model\catalog\download.php` | High
-6 | ... | ... | ...
+3 | File | `/api/baskets/{name}` | High
+4 | File | `/view-pass-detail.php` | High
+5 | File | `/wp-admin/options-general.php` | High
+6 | File | `admin.color.php` | High
+7 | File | `admin.cropcanvas.php` | High
+8 | File | `admin.joomlaradiov5.php` | High
+9 | File | `admin.php` | Medium
+10 | File | `admin/addons/archive/archive.php` | High
+11 | File | `administrator/components/com_media/helpers/media.php` | High
+12 | File | `admin\model\catalog\download.php` | High
+13 | File | `akocomments.php` | High
+14 | File | `album_portal.php` | High
+15 | File | `al_initialize.php` | High
+16 | ... | ... | ...
 
-There are 39 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 125 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

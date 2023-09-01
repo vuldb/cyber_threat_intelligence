@@ -58,10 +58,10 @@ ID | Type | Indicator | Confidence
 4 | File | `admin/getparam.cgi` | High
 5 | File | `aepx` | Low
 6 | File | `app/Plugin/GrafanaModule/Controller/GrafanaConfigurationController.php` | High
-7 | File | `browser.php` | Medium
+7 | File | `boafrm/formSysCmd` | High
 8 | ... | ... | ...
 
-There are 58 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 60 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

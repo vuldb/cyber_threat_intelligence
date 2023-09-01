@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [US](https://vuldb.com/?country.us)
 * ...
 
-There are 9 more country items available. Please use our online service to access the data.
+There are 8 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -62,15 +62,17 @@ ID | IP address | Hostname | Campaign | Confidence
 39 | [45.133.1.47](https://vuldb.com/?ip.45.133.1.47) | - | - | High
 40 | [45.133.1.72](https://vuldb.com/?ip.45.133.1.72) | - | - | High
 41 | [45.133.174.157](https://vuldb.com/?ip.45.133.174.157) | - | - | High
-42 | [45.137.22.89](https://vuldb.com/?ip.45.137.22.89) | hosted-by.rootlayer.net | - | High
-43 | [45.137.22.131](https://vuldb.com/?ip.45.137.22.131) | hosted-by.rootlayer.net | - | High
-44 | [45.137.22.141](https://vuldb.com/?ip.45.137.22.141) | hosted-by.rootlayer.net | - | High
-45 | [45.137.22.150](https://vuldb.com/?ip.45.137.22.150) | hosted-by.rootlayer.net | - | High
-46 | [45.137.22.170](https://vuldb.com/?ip.45.137.22.170) | hosted-by.rootlayer.net | - | High
-47 | [45.137.22.251](https://vuldb.com/?ip.45.137.22.251) | hosted-by.rootlayer.net | - | High
-48 | ... | ... | ... | ...
+42 | [45.137.22.62](https://vuldb.com/?ip.45.137.22.62) | hosted-by.rootlayer.net | - | High
+43 | [45.137.22.89](https://vuldb.com/?ip.45.137.22.89) | hosted-by.rootlayer.net | - | High
+44 | [45.137.22.131](https://vuldb.com/?ip.45.137.22.131) | hosted-by.rootlayer.net | - | High
+45 | [45.137.22.141](https://vuldb.com/?ip.45.137.22.141) | hosted-by.rootlayer.net | - | High
+46 | [45.137.22.150](https://vuldb.com/?ip.45.137.22.150) | hosted-by.rootlayer.net | - | High
+47 | [45.137.22.170](https://vuldb.com/?ip.45.137.22.170) | hosted-by.rootlayer.net | - | High
+48 | [45.137.22.251](https://vuldb.com/?ip.45.137.22.251) | hosted-by.rootlayer.net | - | High
+49 | [45.138.16.101](https://vuldb.com/?ip.45.138.16.101) | - | - | High
+50 | ... | ... | ... | ...
 
-There are 188 more IOC items available. Please use our online service to access the data.
+There are 195 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -78,10 +80,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -94,70 +96,61 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/?p=products` | Medium
-2 | File | `/admin.php/accessory/filesdel.html` | High
+2 | File | `/academy/home/courses` | High
 3 | File | `/admin/?page=product/manage_product&id=2` | High
-4 | File | `/admin/?page=user/manage` | High
-5 | File | `/admin/add-new.php` | High
-6 | File | `/admin/casedetails.php` | High
-7 | File | `/admin/doctors.php` | High
-8 | File | `/admin/index2.html` | High
-9 | File | `/admin/maintenance/brand.php` | High
-10 | File | `/admin/mechanics/manage_mechanic.php` | High
-11 | File | `/admin/positions_add.php` | High
-12 | File | `/admin/user/manage_user.php` | High
-13 | File | `/admin/voters_row.php` | High
-14 | File | `/ad_js.php` | Medium
-15 | File | `/agc/vicidial.php` | High
-16 | File | `/ajax.php?action=save_company` | High
-17 | File | `/ajax.php?action=save_user` | High
-18 | File | `/ajax/myshop` | Medium
-19 | File | `/alphaware/summary.php` | High
-20 | File | `/alumni/admin/ajax.php?action=save_settings` | High
-21 | File | `/api/` | Low
-22 | File | `/api/admin/store/product/list` | High
-23 | File | `/api/gen/clients/{language}` | High
-24 | File | `/api/stl/actions/search` | High
-25 | File | `/api/v2/cli/commands` | High
-26 | File | `/APR/signup.php` | High
-27 | File | `/authenticationendpoint/login.do` | High
-28 | File | `/aux` | Low
-29 | File | `/backup.pl` | Medium
-30 | File | `/bin/ate` | Medium
-31 | File | `/boat/login.php` | High
-32 | File | `/cas/logout` | Medium
+4 | File | `/admin/casedetails.php` | High
+5 | File | `/admin/del_feedback.php` | High
+6 | File | `/admin/maintenance/brand.php` | High
+7 | File | `/admin/mechanics/manage_mechanic.php` | High
+8 | File | `/admin/modal_add_product.php` | High
+9 | File | `/admin/positions_add.php` | High
+10 | File | `/admin/user/manage_user.php` | High
+11 | File | `/admin/voters_row.php` | High
+12 | File | `/ad_js.php` | Medium
+13 | File | `/ajax.php?action=save_company` | High
+14 | File | `/ajax.php?action=save_user` | High
+15 | File | `/ajax/myshop` | Medium
+16 | File | `/alumni/admin/ajax.php?action=save_settings` | High
+17 | File | `/api/` | Low
+18 | File | `/api/admin/store/product/list` | High
+19 | File | `/api/baskets/{name}` | High
+20 | File | `/api/gen/clients/{language}` | High
+21 | File | `/api/stl/actions/search` | High
+22 | File | `/api/v2/cli/commands` | High
+23 | File | `/App_Resource/UEditor/server/upload.aspx` | High
+24 | File | `/APR/signup.php` | High
+25 | File | `/authenticationendpoint/login.do` | High
+26 | File | `/aux` | Low
+27 | File | `/backup.pl` | Medium
+28 | File | `/bin/ate` | Medium
+29 | File | `/booking/show_bookings/` | High
+30 | File | `/c/PluginsController.php` | High
+31 | File | `/cas/logout` | Medium
+32 | File | `/category.php` | High
 33 | File | `/categorypage.php` | High
 34 | File | `/cgi-bin` | Medium
 35 | File | `/cgi-bin/system_mgr.cgi` | High
 36 | File | `/cgi-bin/wlogin.cgi` | High
 37 | File | `/cha.php` | Medium
-38 | File | `/College/admin/teacher.php` | High
-39 | File | `/contactform/contactform.php` | High
-40 | File | `/dayrui/Fcms/View/system_log.html` | High
-41 | File | `/debug/pprof` | Medium
-42 | File | `/drivers/block/floppy.c` | High
-43 | File | `/ecommerce/admin/category/controller.php` | High
-44 | File | `/env` | Low
-45 | File | `/etc/shadow` | Medium
-46 | File | `/eval/admin/manage_class.php` | High
-47 | File | `/fos/admin/ajax.php` | High
-48 | File | `/goform/aspForm` | High
-49 | File | `/goform/WifiGuestSet` | High
-50 | File | `/index.php?s=/article/ApiAdminArticle/itemAdd` | High
-51 | File | `/kelasdosen/data` | High
-52 | File | `/modules/projects/vw_files.php` | High
-53 | File | `/Moosikay/order.php` | High
-54 | File | `/multi-vendor-shopping-script/product-list.php` | High
-55 | File | `/nasm/nasm-parse.c` | High
-56 | File | `/ordering/admin/orders/loaddata.php` | High
-57 | File | `/ordering/admin/stockin/loaddata.php` | High
-58 | File | `/paysystem/branch.php` | High
-59 | File | `/philosophy/admin/login.php` | High
-60 | File | `/php-opos/login.php` | High
-61 | File | `/php-sms/admin/?page=user/manage_user` | High
-62 | File | `/priv_mgt.html` | High
-63 | ... | ... | ...
+38 | File | `/chaincity/user/ticket/create` | High
+39 | File | `/College/admin/teacher.php` | High
+40 | File | `/contactform/contactform.php` | High
+41 | File | `/Controller/Ajaxfileupload.ashx` | High
+42 | File | `/cwms/classes/Master.php?f=save_contact` | High
+43 | File | `/dayrui/Fcms/View/system_log.html` | High
+44 | File | `/debug/pprof` | Medium
+45 | File | `/ecommerce/admin/category/controller.php` | High
+46 | File | `/ecommerce/support_ticket` | High
+47 | File | `/env` | Low
+48 | File | `/etc/shadow` | Medium
+49 | File | `/eval/admin/manage_class.php` | High
+50 | File | `/forum/away.php` | High
+51 | File | `/fos/admin/ajax.php` | High
+52 | File | `/friends/ajax_invite` | High
+53 | File | `/goform/aspForm` | High
+54 | ... | ... | ...
 
-There are 547 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 471 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

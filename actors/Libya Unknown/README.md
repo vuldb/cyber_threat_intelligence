@@ -53,7 +53,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 15 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -73,40 +73,40 @@ ID | Type | Indicator | Confidence
 10 | File | `/api/addusers` | High
 11 | File | `/default.php?idx=17` | High
 12 | File | `/download` | Medium
-13 | File | `/forum/away.php` | High
-14 | File | `/ims/login.php` | High
-15 | File | `/index.php` | Medium
-16 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
-17 | File | `/opt/bin/cli` | Medium
-18 | File | `/p` | Low
-19 | File | `/patient/doctors.php` | High
-20 | File | `/phpinventory/editcategory.php` | High
-21 | File | `/php_action/createUser.php` | High
-22 | File | `/product-list.php` | High
-23 | File | `/public/login.htm` | High
-24 | File | `/server-status` | High
-25 | File | `/spip.php` | Medium
-26 | File | `/tmp` | Low
-27 | File | `/uncpath/` | Medium
-28 | File | `/updown/upload.cgi` | High
-29 | File | `/user/del.php` | High
-30 | File | `/wbg/core/_includes/authorization.inc.php` | High
-31 | File | `/_next` | Low
-32 | File | `123flashchat.php` | High
-33 | File | `act.php` | Low
-34 | File | `admin.php` | Medium
-35 | File | `admin/bad.php` | High
-36 | File | `admin/index.php` | High
-37 | File | `admin/index.php/user/del/1` | High
-38 | File | `admin/index.php?id=themes&action=edit_chunk` | High
-39 | File | `administrator/index.php` | High
-40 | File | `agenda.php` | Medium
-41 | File | `ajax/render/widget_php` | High
-42 | File | `album_portal.php` | High
-43 | File | `api.php` | Low
+13 | File | `/env` | Low
+14 | File | `/forum/away.php` | High
+15 | File | `/ims/login.php` | High
+16 | File | `/index.php` | Medium
+17 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
+18 | File | `/opt/bin/cli` | Medium
+19 | File | `/p` | Low
+20 | File | `/patient/doctors.php` | High
+21 | File | `/phpinventory/editcategory.php` | High
+22 | File | `/php_action/createUser.php` | High
+23 | File | `/product-list.php` | High
+24 | File | `/public/login.htm` | High
+25 | File | `/server-status` | High
+26 | File | `/spip.php` | Medium
+27 | File | `/tmp` | Low
+28 | File | `/uncpath/` | Medium
+29 | File | `/updown/upload.cgi` | High
+30 | File | `/user/del.php` | High
+31 | File | `/wbg/core/_includes/authorization.inc.php` | High
+32 | File | `/_next` | Low
+33 | File | `123flashchat.php` | High
+34 | File | `act.php` | Low
+35 | File | `admin.php` | Medium
+36 | File | `admin/bad.php` | High
+37 | File | `admin/index.php` | High
+38 | File | `admin/index.php/user/del/1` | High
+39 | File | `admin/index.php?id=themes&action=edit_chunk` | High
+40 | File | `administrator/index.php` | High
+41 | File | `agenda.php` | Medium
+42 | File | `ajax/render/widget_php` | High
+43 | File | `album_portal.php` | High
 44 | ... | ... | ...
 
-There are 381 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 382 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

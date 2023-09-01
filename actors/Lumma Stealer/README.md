@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 6 more country items available. Please use our online service to access the data.
+There are 9 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -42,7 +42,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 13 more TTP items available. Please use our online service to access the data.
+There are 14 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -61,12 +61,16 @@ ID | Type | Indicator | Confidence
 9 | File | `/orrs/admin/?page=user/manage_user` | High
 10 | File | `/pages/processlogin.php` | High
 11 | File | `/rapi/read_url` | High
-12 | File | `/uncpath/` | Medium
-13 | File | `/usr/local/psa/admin/sbin/wrapper` | High
-14 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
-15 | ... | ... | ...
+12 | File | `/system/user/modules/mod_users/controller.php` | High
+13 | File | `/uncpath/` | Medium
+14 | File | `/usr/local/psa/admin/sbin/wrapper` | High
+15 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
+16 | File | `123flashchat.php` | High
+17 | File | `admin.jcomments.php` | High
+18 | File | `admin.php` | Medium
+19 | ... | ... | ...
 
-There are 121 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 154 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

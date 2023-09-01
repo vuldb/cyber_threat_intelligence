@@ -78,9 +78,11 @@ ID | Type | Indicator | Confidence
 23 | File | `app-layer-ssh.c` | High
 24 | File | `arch_init.c` | Medium
 25 | File | `authenticate.c` | High
-26 | ... | ... | ...
+26 | File | `awstats.pl` | Medium
+27 | File | `BKCLogSvr.exe` | High
+28 | ... | ... | ...
 
-There are 220 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 232 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

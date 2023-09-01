@@ -57,30 +57,30 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
 2 | File | `/admin/upload/upload` | High
-3 | File | `/api/gen/clients/{language}` | High
-4 | File | `/cgi-bin/wlogin.cgi` | High
-5 | File | `/config/getuser` | High
-6 | File | `/config/myfield/test.php` | High
-7 | File | `/debug/pprof` | Medium
-8 | File | `/ecshop/admin/template.php` | High
-9 | File | `/file/upload/1` | High
-10 | File | `/forum/away.php` | High
-11 | File | `/forum/PostPrivateMessage` | High
-12 | File | `/goform/set_LimitClient_cfg` | High
-13 | File | `/home/www/cgi-bin/login.cgi` | High
-14 | File | `/multi-vendor-shopping-script/product-list.php` | High
-15 | File | `/net-banking/customer_transactions.php` | High
-16 | File | `/obs/book.php` | High
-17 | File | `/ossn/administrator/com_installer` | High
-18 | File | `/owa/auth/logon.aspx` | High
-19 | File | `/pms/update_user.php?user_id=1` | High
-20 | File | `/preview.php` | Medium
-21 | File | `/requests.php` | High
-22 | File | `/spip.php` | Medium
-23 | File | `/sqlite3_aflpp/shell.c` | High
-24 | File | `/sre/params.php` | High
-25 | File | `/SVFE2/pages/feegroups/service_group.jsf` | High
-26 | File | `/tmp` | Low
+3 | File | `/api/baskets/{name}` | High
+4 | File | `/api/gen/clients/{language}` | High
+5 | File | `/cgi-bin/wlogin.cgi` | High
+6 | File | `/config/getuser` | High
+7 | File | `/config/myfield/test.php` | High
+8 | File | `/debug/pprof` | Medium
+9 | File | `/ecshop/admin/template.php` | High
+10 | File | `/file/upload/1` | High
+11 | File | `/forum/away.php` | High
+12 | File | `/forum/PostPrivateMessage` | High
+13 | File | `/goform/set_LimitClient_cfg` | High
+14 | File | `/home/www/cgi-bin/login.cgi` | High
+15 | File | `/multi-vendor-shopping-script/product-list.php` | High
+16 | File | `/net-banking/customer_transactions.php` | High
+17 | File | `/obs/book.php` | High
+18 | File | `/ossn/administrator/com_installer` | High
+19 | File | `/owa/auth/logon.aspx` | High
+20 | File | `/pms/update_user.php?user_id=1` | High
+21 | File | `/preview.php` | Medium
+22 | File | `/requests.php` | High
+23 | File | `/spip.php` | Medium
+24 | File | `/sqlite3_aflpp/shell.c` | High
+25 | File | `/sre/params.php` | High
+26 | File | `/SVFE2/pages/feegroups/service_group.jsf` | High
 27 | File | `/uncpath/` | Medium
 28 | File | `/user/upload/upload` | High
 29 | File | `/Users` | Low
@@ -94,14 +94,14 @@ ID | Type | Indicator | Confidence
 37 | File | `admin/edit_category.php` | High
 38 | File | `admin/index.php` | High
 39 | File | `admin/make_payments.php` | High
-40 | File | `af_netlink.c` | Medium
-41 | File | `album_portal.php` | High
-42 | File | `api/auth.go` | Medium
-43 | File | `api_jsonrpc.php` | High
-44 | File | `artreplydelete.asp` | High
+40 | File | `admin/_cmdstat.jsp` | High
+41 | File | `af_netlink.c` | Medium
+42 | File | `album_portal.php` | High
+43 | File | `api/auth.go` | Medium
+44 | File | `api_jsonrpc.php` | High
 45 | ... | ... | ...
 
-There are 392 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 385 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

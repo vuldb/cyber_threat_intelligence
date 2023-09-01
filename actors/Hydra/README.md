@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [MO](https://vuldb.com/?country.mo)
 * ...
 
-There are 10 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -41,7 +41,7 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94 | Cross Site Scripting | High
+3 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
 There are 14 more TTP items available. Please use our online service to access the data.
@@ -55,22 +55,24 @@ ID | Type | Indicator | Confidence
 1 | File | `/admin/delete_user.php` | High
 2 | File | `/admin/maintenance/view_designation.php` | High
 3 | File | `/admin/wlmultipleap.asp` | High
-4 | File | `/brand.php` | Medium
-5 | File | `/cas/logout` | Medium
-6 | File | `/forum/away.php` | High
-7 | File | `/goform/L7Im` | Medium
-8 | File | `/include/chart_generator.php` | High
-9 | File | `/login/index.php` | High
-10 | File | `/rest/api/2/user/picker` | High
-11 | File | `/spip.php` | Medium
-12 | File | `/user/updatePwd` | High
-13 | File | `/wp-admin/admin-ajax.php` | High
-14 | File | `action.php` | Medium
-15 | File | `add-locker-form.php` | High
-16 | File | `admin/partials/ajax/add_field_to_form.php` | High
-17 | ... | ... | ...
+4 | File | `/api/baskets/{name}` | High
+5 | File | `/brand.php` | Medium
+6 | File | `/cas/logout` | Medium
+7 | File | `/category.php` | High
+8 | File | `/forum/away.php` | High
+9 | File | `/goform/L7Im` | Medium
+10 | File | `/include/chart_generator.php` | High
+11 | File | `/login/index.php` | High
+12 | File | `/rest/api/2/user/picker` | High
+13 | File | `/scripts/cpan_config` | High
+14 | File | `/spip.php` | Medium
+15 | File | `/uncpath/` | Medium
+16 | File | `/user/updatePwd` | High
+17 | File | `/wp-admin/admin-ajax.php` | High
+18 | File | `action.php` | Medium
+19 | ... | ... | ...
 
-There are 138 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 152 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

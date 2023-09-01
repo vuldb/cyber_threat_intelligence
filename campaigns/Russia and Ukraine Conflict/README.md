@@ -57,7 +57,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-29, CWE-425 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-29, CWE-425 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94 | Cross Site Scripting | High
@@ -87,22 +87,34 @@ ID | Type | Indicator | Confidence
 14 | File | `/api/baskets/{name}` | High
 15 | File | `/api/common/ping` | High
 16 | File | `/api/stl/actions/search` | High
-17 | File | `/bin/login` | Medium
-18 | File | `/changeimage.php` | High
-19 | File | `/classes/Users.php?f=save` | High
-20 | File | `/cwms/classes/Master.php?f=save_contact` | High
-21 | File | `/DXR.axd` | Medium
-22 | File | `/forum/away.php` | High
-23 | File | `/items/search` | High
-24 | File | `/librarian/bookdetails.php` | High
-25 | File | `/Login/CheckLogin` | High
-26 | File | `/mifs/c/i/reg/reg.html` | High
-27 | File | `/note/index/delete` | High
-28 | File | `/osms/assets/plugins/jquery-validation-1.11.1/demo/captcha/index.php` | High
-29 | File | `/out.php` | Medium
-30 | ... | ... | ...
+17 | File | `/api/sys/set_passwd` | High
+18 | File | `/bin/login` | Medium
+19 | File | `/bsms_ci/index.php/user/edit_user/` | High
+20 | File | `/changeimage.php` | High
+21 | File | `/classes/Users.php?f=save` | High
+22 | File | `/cwms/classes/Master.php?f=save_contact` | High
+23 | File | `/DXR.axd` | Medium
+24 | File | `/forum/away.php` | High
+25 | File | `/includes/db_connect.php` | High
+26 | File | `/includes/session.php` | High
+27 | File | `/items/search` | High
+28 | File | `/librarian/bookdetails.php` | High
+29 | File | `/mifs/c/i/reg/reg.html` | High
+30 | File | `/modules/projects/vw_files.php` | High
+31 | File | `/modules/public/calendar.php` | High
+32 | File | `/modules/public/date_format.php` | High
+33 | File | `/modules/tasks/gantt.php` | High
+34 | File | `/note/index/delete` | High
+35 | File | `/osms/assets/plugins/jquery-validation-1.11.1/demo/captcha/index.php` | High
+36 | File | `/out.php` | Medium
+37 | File | `/owa/auth/logon.aspx` | High
+38 | File | `/php-fusion/infusions/shoutbox_panel/shoutbox_archive.php` | High
+39 | File | `/send_order.cgi?parameter=restart` | High
+40 | File | `/spip.php` | Medium
+41 | File | `/src/amf/amf-context.c` | High
+42 | ... | ... | ...
 
-There are 254 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 365 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 2 more country items available. Please use our online service to access the data.
+There are 3 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -21,8 +21,9 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [80.85.157.98](https://vuldb.com/?ip.80.85.157.98) | 06.use | - | High
-2 | [146.19.191.190](https://vuldb.com/?ip.146.19.191.190) | tube-hosting.com | - | High
+1 | [45.133.1.98](https://vuldb.com/?ip.45.133.1.98) | - | - | High
+2 | [80.85.157.98](https://vuldb.com/?ip.80.85.157.98) | 06.use | - | High
+3 | [146.19.191.190](https://vuldb.com/?ip.146.19.191.190) | tube-hosting.com | - | High
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -43,12 +44,13 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/usr/bin/at` | Medium
-2 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
-3 | File | `/whbs/?page=manage_account` | High
-4 | ... | ... | ...
+1 | File | `/it-IT/splunkd/__raw/services/get_snapshot` | High
+2 | File | `/phpwcms/setup/setup.php` | High
+3 | File | `/usr/bin/at` | Medium
+4 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
+5 | ... | ... | ...
 
-There are 23 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 31 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -56,6 +58,7 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://tracker.viriback.com/index.php?q=80.85.157.98
 * https://tracker.viriback.com/index.php?q=146.19.191.190
+* https://twitter.com/wwp96/status/1375103958872694788
 
 ## Literature
 

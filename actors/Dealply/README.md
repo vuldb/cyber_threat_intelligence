@@ -56,39 +56,37 @@ ID | Type | Indicator | Confidence
 4 | File | `/admin/bookings/view_details.php` | High
 5 | File | `/admin/index.php` | High
 6 | File | `/admin/inquiries/view_inquiry.php` | High
-7 | File | `/admin/manage_academic.php` | High
-8 | File | `/admin/services/manage_service.php` | High
-9 | File | `/admin/user/manage_user.php` | High
-10 | File | `/ajax/myshop` | Medium
-11 | File | `/api/baskets/{name}` | High
-12 | File | `/bin/ate` | Medium
-13 | File | `/bin/webs` | Medium
-14 | File | `/boafrm/formFilter` | High
-15 | File | `/boafrm/formHomeWlanSetup` | High
-16 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
-17 | File | `/cgi-bin/ping.cgi` | High
-18 | File | `/classes/Master.php` | High
-19 | File | `/classes/Master.php?f=delete_inquiry` | High
-20 | File | `/classes/Master.php?f=delete_item` | High
-21 | File | `/classes/Master.php?f=delete_service` | High
-22 | File | `/classes/Master.php?f=save_course` | High
-23 | File | `/classes/Master.php?f=save_service` | High
-24 | File | `/classes/Users.php` | High
-25 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
-26 | File | `/dialog/select_media.php` | High
-27 | File | `/dosen/data` | Medium
-28 | File | `/ecommerce/support_ticket` | High
-29 | File | `/Enclave.cpp` | Medium
-30 | File | `/file_manager/admin/save_user.php` | High
-31 | File | `/get-artifact` | High
-32 | File | `/goForm/aspForm` | High
-33 | File | `/goform/formTcpipSetup` | High
-34 | File | `/inc/jquery/uploadify/uploadify.php` | High
-35 | File | `/index.php/archives/1/comment` | High
-36 | File | `/jerry-core/parser/js/js-lexer.c` | High
-37 | ... | ... | ...
+7 | File | `/admin/user/manage_user.php` | High
+8 | File | `/ajax/myshop` | Medium
+9 | File | `/api/baskets/{name}` | High
+10 | File | `/bin/ate` | Medium
+11 | File | `/bin/webs` | Medium
+12 | File | `/boafrm/formFilter` | High
+13 | File | `/boafrm/formHomeWlanSetup` | High
+14 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
+15 | File | `/cgi-bin/ping.cgi` | High
+16 | File | `/classes/Master.php` | High
+17 | File | `/classes/Master.php?f=delete_item` | High
+18 | File | `/classes/Master.php?f=delete_service` | High
+19 | File | `/classes/Master.php?f=save_course` | High
+20 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
+21 | File | `/dosen/data` | Medium
+22 | File | `/ecommerce/support_ticket` | High
+23 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+24 | File | `/Enclave.cpp` | Medium
+25 | File | `/file_manager/admin/save_user.php` | High
+26 | File | `/get-artifact` | High
+27 | File | `/goForm/aspForm` | High
+28 | File | `/goform/formTcpipSetup` | High
+29 | File | `/inc/jquery/uploadify/uploadify.php` | High
+30 | File | `/index.php/archives/1/comment` | High
+31 | File | `/jerry-core/parser/js/js-lexer.c` | High
+32 | File | `/jerry-core/parser/js/js-parser-statm.c` | High
+33 | File | `/jerry-core/parser/js/js-scanner-util.c` | High
+34 | File | `/jurusan/data` | High
+35 | ... | ... | ...
 
-There are 320 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 302 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

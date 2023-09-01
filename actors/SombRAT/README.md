@@ -41,7 +41,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1552 | CWE-255 | ASP.NET Misconfiguration: Password in Configuration File | High
 4 | ... | ... | ... | ...
 
-There are 1 more TTP items available. Please use our online service to access the data.
+There are 2 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 

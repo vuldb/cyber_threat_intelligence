@@ -36,7 +36,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -49,33 +49,35 @@ ID | Type | Indicator | Confidence
 3 | File | `/Admin/add-student.php` | High
 4 | File | `/admin/settings/save.php` | High
 5 | File | `/admin/userprofile.php` | High
-6 | File | `/apply.cgi` | Medium
-7 | File | `/cgi-bin/wlogin.cgi` | High
-8 | File | `/College/admin/teacher.php` | High
-9 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
-10 | File | `/dcim/rack-roles/` | High
-11 | File | `/forum/away.php` | High
-12 | File | `/getcfg.php` | Medium
-13 | File | `/get_getnetworkconf.cgi` | High
-14 | File | `/goform/addUserName` | High
-15 | File | `/goform/aspForm` | High
-16 | File | `/goform/delAd` | High
-17 | File | `/goform/saveParentControlInfo` | High
-18 | File | `/goform/wifiSSIDset` | High
-19 | File | `/gpac/src/bifs/unquantize.c` | High
-20 | File | `/inc/topBarNav.php` | High
-21 | File | `/index.asp` | Medium
-22 | File | `/jfinal_cms/system/role/list` | High
-23 | File | `/kelas/data` | Medium
-24 | File | `/Moosikay/order.php` | High
-25 | File | `/php-sms/admin/quotes/manage_remark.php` | High
-26 | File | `/secure/QueryComponent!Default.jspa` | High
-27 | File | `/webman/info.cgi` | High
-28 | File | `acloudCosAction.php.SQL` | High
-29 | File | `ActiveServices.java` | High
-30 | ... | ... | ...
+6 | File | `/api/baskets/{name}` | High
+7 | File | `/apply.cgi` | Medium
+8 | File | `/cgi-bin/wlogin.cgi` | High
+9 | File | `/College/admin/teacher.php` | High
+10 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
+11 | File | `/dcim/rack-roles/` | High
+12 | File | `/forum/away.php` | High
+13 | File | `/getcfg.php` | Medium
+14 | File | `/get_getnetworkconf.cgi` | High
+15 | File | `/goform/addUserName` | High
+16 | File | `/goform/aspForm` | High
+17 | File | `/goform/delAd` | High
+18 | File | `/goform/saveParentControlInfo` | High
+19 | File | `/goform/wifiSSIDset` | High
+20 | File | `/gpac/src/bifs/unquantize.c` | High
+21 | File | `/inc/topBarNav.php` | High
+22 | File | `/index.asp` | Medium
+23 | File | `/index.php` | Medium
+24 | File | `/index.php?app=main&func=passport&action=login` | High
+25 | File | `/jfinal_cms/system/role/list` | High
+26 | File | `/kelas/data` | Medium
+27 | File | `/Moosikay/order.php` | High
+28 | File | `/php-sms/admin/quotes/manage_remark.php` | High
+29 | File | `/secure/QueryComponent!Default.jspa` | High
+30 | File | `/squashfs-root/etc_ro/custom.conf` | High
+31 | File | `/user/profile` | High
+32 | ... | ... | ...
 
-There are 251 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 273 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

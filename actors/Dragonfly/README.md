@@ -62,13 +62,14 @@ ID | Type | Indicator | Confidence
 5 | File | `/uncpath/` | Medium
 6 | File | `/wbg/core/_includes/authorization.inc.php` | High
 7 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-8 | File | `admin/import/class-import-settings.php` | High
-9 | File | `ajax/comments.php` | High
-10 | File | `architext.conf` | High
-11 | File | `attachment_send.php` | High
-12 | ... | ... | ...
+8 | File | `adclick.php` | Medium
+9 | File | `admin/import/class-import-settings.php` | High
+10 | File | `ajax/comments.php` | High
+11 | File | `architext.conf` | High
+12 | File | `attachment_send.php` | High
+13 | ... | ... | ...
 
-There are 90 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 105 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

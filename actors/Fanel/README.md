@@ -92,9 +92,10 @@ ID | Type | Indicator | Confidence
 39 | File | `apply.cgi` | Medium
 40 | File | `arch/arm/kernel/perf_event.c` | High
 41 | File | `ArticleType.php` | High
-42 | ... | ... | ...
+42 | File | `attachment.php` | High
+43 | ... | ... | ...
 
-There are 366 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 367 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

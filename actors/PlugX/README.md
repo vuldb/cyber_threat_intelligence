@@ -93,41 +93,41 @@ ID | Type | Indicator | Confidence
 10 | File | `/rom-0` | Low
 11 | File | `/tmp/phpglibccheck` | High
 12 | File | `/uncpath/` | Medium
-13 | File | `/var/tmp/sess_*` | High
-14 | File | `/wp-json/oembed/1.0/embed?url` | High
-15 | File | `action.php` | Medium
-16 | File | `actionphp/download.File.php` | High
-17 | File | `add_comment.php` | High
-18 | File | `admin/admin.php` | High
-19 | File | `admin/class-favicon-by-realfavicongenerator-admin.php` | High
-20 | File | `admin/content.php` | High
-21 | File | `admin/index.php?id=users/action=edit/user_id=1` | High
-22 | File | `admin/memberviewdetails.php` | High
-23 | File | `admin_gallery.php3` | High
-24 | File | `affich.php` | Medium
-25 | File | `agent/Core/Controller/SendRequest.cpp` | High
-26 | File | `ajax/telemetry.php` | High
-27 | File | `akeyActivationLogin.do` | High
-28 | File | `album_portal.php` | High
-29 | File | `apache-auth.conf` | High
-30 | File | `askapache-firefox-adsense.php` | High
-31 | File | `attachment.cgi` | High
-32 | File | `auth.php` | Medium
-33 | File | `blogger-importer.php` | High
-34 | File | `blueprints/sections/edit/1` | High
-35 | File | `books.php` | Medium
-36 | File | `cart_add.php` | Medium
-37 | File | `CFS.c` | Low
-38 | File | `cgi-bin/webui/admin/tools/app_ping/diag_ping/` | High
-39 | File | `cgi/cal?year` | Medium
-40 | File | `checktransferstatus.php` | High
-41 | File | `class.SystemAction.php` | High
-42 | File | `clientarea.php` | High
-43 | File | `collectivite.class.php` | High
-44 | File | `contact` | Low
+13 | File | `/upload` | Low
+14 | File | `/var/tmp/sess_*` | High
+15 | File | `/wp-json/oembed/1.0/embed?url` | High
+16 | File | `action.php` | Medium
+17 | File | `actionphp/download.File.php` | High
+18 | File | `add_comment.php` | High
+19 | File | `admin/admin.php` | High
+20 | File | `admin/class-favicon-by-realfavicongenerator-admin.php` | High
+21 | File | `admin/content.php` | High
+22 | File | `admin/index.php?id=users/action=edit/user_id=1` | High
+23 | File | `admin/memberviewdetails.php` | High
+24 | File | `admin_gallery.php3` | High
+25 | File | `affich.php` | Medium
+26 | File | `agent/Core/Controller/SendRequest.cpp` | High
+27 | File | `ajax/telemetry.php` | High
+28 | File | `akeyActivationLogin.do` | High
+29 | File | `album_portal.php` | High
+30 | File | `apache-auth.conf` | High
+31 | File | `askapache-firefox-adsense.php` | High
+32 | File | `attachment.cgi` | High
+33 | File | `auth.php` | Medium
+34 | File | `blogger-importer.php` | High
+35 | File | `blueprints/sections/edit/1` | High
+36 | File | `books.php` | Medium
+37 | File | `cart_add.php` | Medium
+38 | File | `CFS.c` | Low
+39 | File | `cgi-bin/webui/admin/tools/app_ping/diag_ping/` | High
+40 | File | `cgi/cal?year` | Medium
+41 | File | `checktransferstatus.php` | High
+42 | File | `class.SystemAction.php` | High
+43 | File | `clientarea.php` | High
+44 | File | `collectivite.class.php` | High
 45 | ... | ... | ...
 
-There are 389 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 392 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

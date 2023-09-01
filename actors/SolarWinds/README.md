@@ -59,29 +59,29 @@ ID | Type | Indicator | Confidence
 13 | File | `/sbin/conf.d/SuSEconfig.javarunt` | High
 14 | File | `/setSystemAdmin` | High
 15 | File | `/start_apply.htm` | High
-16 | File | `/tmp` | Low
-17 | File | `/uncpath/` | Medium
-18 | File | `/upload` | Low
-19 | File | `/usr/lib/utmp_update` | High
-20 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
-21 | File | `admin.php` | Medium
-22 | File | `admin/graph_trend.php` | High
-23 | File | `admin/Login.php` | High
-24 | File | `admin/plugin-index.php` | High
-25 | File | `administration` | High
-26 | File | `administrative` | High
-27 | File | `aolfix.exe` | Medium
-28 | File | `Ap4DecoderConfigDescriptor.cpp` | High
-29 | File | `appserv/main.php` | High
-30 | File | `awhost32.exe` | Medium
-31 | File | `bidhistory.php` | High
-32 | File | `browser/notifications/notification_ui_manager_impl.cc` | High
-33 | File | `buffer.c` | Medium
-34 | File | `c:\aux` | Low
-35 | File | `C:\Wamp64` | Medium
+16 | File | `/system/user/modules/mod_users/controller.php` | High
+17 | File | `/tmp` | Low
+18 | File | `/uncpath/` | Medium
+19 | File | `/upload` | Low
+20 | File | `/usr/lib/utmp_update` | High
+21 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
+22 | File | `admin.php` | Medium
+23 | File | `admin/graph_trend.php` | High
+24 | File | `admin/Login.php` | High
+25 | File | `admin/plugin-index.php` | High
+26 | File | `administration` | High
+27 | File | `administrative` | High
+28 | File | `aolfix.exe` | Medium
+29 | File | `Ap4DecoderConfigDescriptor.cpp` | High
+30 | File | `appserv/main.php` | High
+31 | File | `awhost32.exe` | Medium
+32 | File | `bidhistory.php` | High
+33 | File | `browser/notifications/notification_ui_manager_impl.cc` | High
+34 | File | `buffer.c` | Medium
+35 | File | `c:\aux` | Low
 36 | ... | ... | ...
 
-There are 304 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 307 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

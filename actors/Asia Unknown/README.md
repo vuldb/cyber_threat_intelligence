@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Asia Unknown:
 
 * [VN](https://vuldb.com/?country.vn)
-* [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
 There are 24 more country items available. Please use our online service to access the data.
@@ -24959,14 +24959,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-29, CWE-50 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-29, CWE-425 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -24974,48 +24974,62 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/addproduct.php` | High
-2 | File | `/admin/positions_add.php` | High
-3 | File | `/admin/read.php?mudi=announContent` | High
-4 | File | `/api/` | Low
-5 | File | `/api/upload.php` | High
-6 | File | `/api/v1/snapshots` | High
-7 | File | `/api/v2/cli/commands` | High
-8 | File | `/application/common.php#action_log` | High
-9 | File | `/authenticationendpoint/login.do` | High
-10 | File | `/bin/ate` | Medium
-11 | File | `/bin/boa` | Medium
-12 | File | `/bitrix/admin/ldap_server_edit.php` | High
-13 | File | `/bsms_ci/index.php` | High
-14 | File | `/bsms_ci/index.php/user/edit_user/` | High
-15 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
-16 | File | `/cgi-bin/luci` | High
-17 | File | `/changeimage.php` | High
-18 | File | `/classes/Users.php?f=save` | High
-19 | File | `/dottie.js` | Medium
-20 | File | `/download` | Medium
-21 | File | `/DXR.axd` | Medium
-22 | File | `/env` | Low
-23 | File | `/forum/away.php` | High
-24 | File | `/ghost/preview` | High
-25 | File | `/goForm/aspForm` | High
-26 | File | `/goform/setmac` | High
-27 | File | `/goform/setMacFilterCfg` | High
-28 | File | `/hrm/employeeadd.php` | High
-29 | File | `/jobinfo/` | Medium
-30 | File | `/kelasdosen/data` | High
-31 | File | `/link/` | Low
-32 | File | `/Log/Query?appid=0B736354-9473-4D66-B9C0-15CAC149EB05&tabid=tab_0B73635494734D66B9C015CAC149EB05` | High
-33 | File | `/mc` | Low
-34 | File | `/Objects/unicodeobject.c` | High
-35 | File | `/out.php` | Medium
-36 | File | `/owa/auth/logon.aspx` | High
-37 | File | `/paysystem/branch.php` | High
-38 | File | `/php-inventory-management-system/product.php` | High
-39 | File | `/php-sms/admin/?page=user/manage_user` | High
-40 | ... | ... | ...
+1 | File | `.github/workflows/comment.yml` | High
+2 | File | `/+CSCOE+/logon.html` | High
+3 | File | `/?r=recruit/resume/edit&op=status` | High
+4 | File | `/academy/home/courses` | High
+5 | File | `/account/delivery` | High
+6 | File | `/admin/?page=user/list` | High
+7 | File | `/admin/?page=user/manage_user&id=3` | High
+8 | File | `/admin/about-us.php` | High
+9 | File | `/admin/add-category.php` | High
+10 | File | `/admin/add-services.php` | High
+11 | File | `/admin/admin-profile.php` | High
+12 | File | `/admin/del_category.php` | High
+13 | File | `/admin/del_feedback.php` | High
+14 | File | `/admin/del_service.php` | High
+15 | File | `/admin/edit-accepted-appointment.php` | High
+16 | File | `/admin/edit-services.php` | High
+17 | File | `/admin/edit_category.php` | High
+18 | File | `/admin/edit_product.php` | High
+19 | File | `/admin/forgot-password.php` | High
+20 | File | `/admin/index.php` | High
+21 | File | `/admin/index/index.html#/admin/mall.goods/index.html` | High
+22 | File | `/admin/invoice.php` | High
+23 | File | `/admin/search-appointment.php` | High
+24 | File | `/admin/sys_sql_query.php` | High
+25 | File | `/admin/test_status.php` | High
+26 | File | `/api/baskets/{name}` | High
+27 | File | `/api/database` | High
+28 | File | `/api/sys/set_passwd` | High
+29 | File | `/api/upload.php` | High
+30 | File | `/api/user/{ID}` | High
+31 | File | `/App_Resource/UEditor/server/upload.aspx` | High
+32 | File | `/bitrix/admin/ldap_server_edit.php` | High
+33 | File | `/blog` | Low
+34 | File | `/blog-single.php` | High
+35 | File | `/booking/show_bookings/` | High
+36 | File | `/browse` | Low
+37 | File | `/bsms_ci/index.php` | High
+38 | File | `/c/PluginsController.php` | High
+39 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
+40 | File | `/chaincity/user/ticket/create` | High
+41 | File | `/classes/Master.php?f=delete_category` | High
+42 | File | `/classes/Master.php?f=save_brand` | High
+43 | File | `/classes/Master.php?f=save_inquiry` | High
+44 | File | `/config/getuser` | High
+45 | File | `/cstecgi.cgi` | Medium
+46 | File | `/data/remove` | Medium
+47 | File | `/download` | Medium
+48 | File | `/DXR.axd` | Medium
+49 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+50 | File | `/etc/passwd` | Medium
+51 | File | `/EventBookingCalendar/load.php?controller=GzFront/action=checkout/cid=1/layout=calendar/show_header=T/local=3` | High
+52 | File | `/find-a-match` | High
+53 | File | `/forum/away.php` | High
+54 | ... | ... | ...
 
-There are 349 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 475 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

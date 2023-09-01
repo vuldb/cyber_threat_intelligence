@@ -48,19 +48,30 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/maintenance/view_designation.php` | High
-2 | File | `/etc/fstab` | Medium
-3 | File | `/etc/sudoers` | Medium
-4 | File | `/EXCU_SHELL` | Medium
-5 | File | `/inc/HTTPClient.php` | High
-6 | File | `/inc/parser/xhtml.php` | High
-7 | File | `/loginVaLidation.php` | High
-8 | File | `/uncpath/` | Medium
-9 | File | `addentry.php` | Medium
-10 | File | `Admin/edit-admin.php` | High
-11 | ... | ... | ...
+1 | File | `/admin/edit_category.php` | High
+2 | File | `/admin/inventory/manage_stock.php` | High
+3 | File | `/admin/maintenance/view_designation.php` | High
+4 | File | `/classes/Master.php` | High
+5 | File | `/devices.php` | Medium
+6 | File | `/etc/fstab` | Medium
+7 | File | `/etc/sudoers` | Medium
+8 | File | `/EXCU_SHELL` | Medium
+9 | File | `/fastfood/purchase.php` | High
+10 | File | `/inc/HTTPClient.php` | High
+11 | File | `/inc/parser/xhtml.php` | High
+12 | File | `/loginVaLidation.php` | High
+13 | File | `/net-banking/send_funds.php` | High
+14 | File | `/Security/Transactions/Transactions.aspx` | High
+15 | File | `/uncpath/` | Medium
+16 | File | `accountlogon.cfm` | High
+17 | File | `addentry.php` | Medium
+18 | File | `add_customer.php` | High
+19 | File | `admin/bad.php` | High
+20 | File | `Admin/edit-admin.php` | High
+21 | File | `adm_config_report.php` | High
+22 | ... | ... | ...
 
-There are 88 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 180 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

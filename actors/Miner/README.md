@@ -65,7 +65,7 @@ ID | Type | Indicator | Confidence
 12 | File | `/modules/projects/vw_files.php` | High
 13 | ... | ... | ...
 
-There are 101 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 102 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

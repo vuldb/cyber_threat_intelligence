@@ -21,10 +21,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CH](https://vuldb.com/?country.ch)
-* [RU](https://vuldb.com/?country.ru)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -86,41 +86,46 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/../conf/config.properties` | High
 2 | File | `/admin/reminders/manage_reminder.php` | High
-3 | File | `/csms/admin/inquiries/view_details.php` | High
-4 | File | `/dashboard/updatelogo.php` | High
-5 | File | `/etc/openshift/server_priv.pem` | High
-6 | File | `/files.md5` | Medium
-7 | File | `/forum/away.php` | High
-8 | File | `/hrm/employeeview.php` | High
-9 | File | `/images/` | Medium
-10 | File | `/include/chart_generator.php` | High
-11 | File | `/index.php` | Medium
-12 | File | `/librarian/bookdetails.php` | High
-13 | File | `/login` | Low
-14 | File | `/members/view_member.php` | High
-15 | File | `/messageboard/view.php` | High
-16 | File | `/mkshop/Men/profile.php` | High
-17 | File | `/modules/profile/index.php` | High
-18 | File | `/Noxen-master/users.php` | High
-19 | File | `/one_church/userregister.php` | High
-20 | File | `/out.php` | Medium
-21 | File | `/owa/auth/logon.aspx` | High
-22 | File | `/public/plugins/` | High
-23 | File | `/SAP_Information_System/controllers/add_admin.php` | High
-24 | File | `/SASWebReportStudio/logonAndRender.do` | High
-25 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-26 | File | `/secure/admin/ViewInstrumentation.jspa` | High
-27 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
-28 | File | `/SVFE2/pages/feegroups/country_group.jsf` | High
-29 | File | `/textpattern/index.php` | High
-30 | File | `/v2/quantum/save-data-upload-big-file` | High
-31 | File | `4.edu.php` | Medium
-32 | File | `adclick.php` | Medium
-33 | File | `addentry.php` | Medium
-34 | File | `admin.cropcanvas.php` | High
-35 | ... | ... | ...
+3 | File | `/CCMAdmin/serverlist.asp` | High
+4 | File | `/cgi/get_param.cgi` | High
+5 | File | `/csms/admin/inquiries/view_details.php` | High
+6 | File | `/cstecgi.cgi` | Medium
+7 | File | `/dashboard/updatelogo.php` | High
+8 | File | `/etc/openshift/server_priv.pem` | High
+9 | File | `/files.md5` | Medium
+10 | File | `/forum/away.php` | High
+11 | File | `/hrm/employeeview.php` | High
+12 | File | `/images/` | Medium
+13 | File | `/include/chart_generator.php` | High
+14 | File | `/index.php` | Medium
+15 | File | `/librarian/bookdetails.php` | High
+16 | File | `/login` | Low
+17 | File | `/members/view_member.php` | High
+18 | File | `/messageboard/view.php` | High
+19 | File | `/mkshop/Men/profile.php` | High
+20 | File | `/modules/profile/index.php` | High
+21 | File | `/Noxen-master/users.php` | High
+22 | File | `/one_church/userregister.php` | High
+23 | File | `/out.php` | Medium
+24 | File | `/owa/auth/logon.aspx` | High
+25 | File | `/public/plugins/` | High
+26 | File | `/SAP_Information_System/controllers/add_admin.php` | High
+27 | File | `/SASWebReportStudio/logonAndRender.do` | High
+28 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+29 | File | `/secure/admin/ViewInstrumentation.jspa` | High
+30 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
+31 | File | `/SVFE2/pages/feegroups/country_group.jsf` | High
+32 | File | `/textpattern/index.php` | High
+33 | File | `/upfile.cgi` | Medium
+34 | File | `/v2/quantum/save-data-upload-big-file` | High
+35 | File | `/wordpress/wp-admin/admin.php` | High
+36 | File | `4.edu.php` | Medium
+37 | File | `account_footer.php` | High
+38 | File | `adclick.php` | Medium
+39 | File | `add_edit_cat.asp` | High
+40 | ... | ... | ...
 
-There are 300 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 344 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -21,7 +21,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [RU](https://vuldb.com/?country.ru)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
 There are 20 more country items available. Please use our online service to access the data.
@@ -69,58 +69,62 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/.ssh/authorized_keys` | High
-2 | File | `/admin/ajax.php?action=save_area` | High
-3 | File | `/admin/reportupload.aspx` | High
-4 | File | `/api/` | Low
-5 | File | `/api/plugin/uninstall` | High
-6 | File | `/cgi-bin-sdb/ExportSettings.sh` | High
-7 | File | `/cgi-bin/adm.cgi` | High
-8 | File | `/cgi-bin/wlogin.cgi` | High
-9 | File | `/common/ticket_associated_tickets.php` | High
-10 | File | `/crmeb/crmeb/services/UploadService.php` | High
-11 | File | `/debug/pprof` | Medium
-12 | File | `/dipam/athlete-profile.php` | High
-13 | File | `/dosen/data` | Medium
-14 | File | `/dus/shopliste/index.php` | High
-15 | File | `/etc/path` | Medium
-16 | File | `/etc/puppetlabs/puppetserver/conf.d/ca.conf` | High
-17 | File | `/include/chart_generator.php` | High
-18 | File | `/jeecg-boot/jmreport/upload` | High
-19 | File | `/mgmt/tm/util/bash` | High
-20 | File | `/modules/profile/index.php` | High
-21 | File | `/nagiosql/admin/checkcommands.php` | High
-22 | File | `/out.php` | Medium
-23 | File | `/php-sms/classes/Master.php?f=save_quote` | High
-24 | File | `/preview.php` | Medium
-25 | File | `/send_order.cgi?parameter=restart` | High
-26 | File | `/SysInfo.htm` | Medium
-27 | File | `/uncpath/` | Medium
-28 | File | `/usr/5bin/su` | Medium
-29 | File | `/usr/bin/mail` | High
-30 | File | `/usr/bin/pkexec` | High
-31 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-32 | File | `add_2_basket.asp` | High
-33 | File | `admin-ajax.php` | High
-34 | File | `admin.asp` | Medium
-35 | File | `admin.jcomments.php` | High
-36 | File | `admin.php` | Medium
-37 | File | `admin/` | Low
-38 | File | `admin/?page=categories/manage_category` | High
-39 | File | `admin/?page=system_info` | High
-40 | File | `admin/aboutus.php` | High
-41 | File | `admin/article_save.php` | High
-42 | File | `admin/import/class-import-settings.php` | High
-43 | File | `admin/manage-comments.php` | High
-44 | File | `administration/comments.php` | High
-45 | File | `administrator/mail/download.cfm` | High
-46 | File | `admin\user\manage_user.php` | High
-47 | File | `admin_edit_comment.php` | High
-48 | File | `agentdisplay.php` | High
-49 | File | `apply.cgi` | Medium
-50 | File | `appointment.php` | High
-51 | ... | ... | ...
+2 | File | `/admin/add-services.php` | High
+3 | File | `/admin/ajax.php?action=save_area` | High
+4 | File | `/admin/del_service.php` | High
+5 | File | `/admin/reportupload.aspx` | High
+6 | File | `/admin/sys_sql_query.php` | High
+7 | File | `/api/` | Low
+8 | File | `/api/plugin/uninstall` | High
+9 | File | `/blog` | Low
+10 | File | `/cgi-bin-sdb/ExportSettings.sh` | High
+11 | File | `/cgi-bin/adm.cgi` | High
+12 | File | `/cgi-bin/wlogin.cgi` | High
+13 | File | `/classes/Master.php?f=save_inquiry` | High
+14 | File | `/common/ticket_associated_tickets.php` | High
+15 | File | `/crmeb/crmeb/services/UploadService.php` | High
+16 | File | `/debug/pprof` | Medium
+17 | File | `/dipam/athlete-profile.php` | High
+18 | File | `/dosen/data` | Medium
+19 | File | `/dus/shopliste/index.php` | High
+20 | File | `/Duty/AjaxHandle/Write/UploadFile.ashx` | High
+21 | File | `/etc/path` | Medium
+22 | File | `/etc/pki/pesign` | High
+23 | File | `/etc/puppetlabs/puppetserver/conf.d/ca.conf` | High
+24 | File | `/home/filter_listings` | High
+25 | File | `/include/chart_generator.php` | High
+26 | File | `/index.php` | Medium
+27 | File | `/jeecg-boot/jmreport/upload` | High
+28 | File | `/listplace/user/ticket/create` | High
+29 | File | `/mgmt/tm/util/bash` | High
+30 | File | `/modules/profile/index.php` | High
+31 | File | `/nagiosql/admin/checkcommands.php` | High
+32 | File | `/out.php` | Medium
+33 | File | `/php-sms/classes/Master.php?f=save_quote` | High
+34 | File | `/portal/reports/account_statement` | High
+35 | File | `/preview.php` | Medium
+36 | File | `/property` | Medium
+37 | File | `/send_order.cgi?parameter=restart` | High
+38 | File | `/SysInfo.htm` | Medium
+39 | File | `/uncpath/` | Medium
+40 | File | `/user/ticket/create` | High
+41 | File | `/usr/5bin/su` | Medium
+42 | File | `/usr/bin/mail` | High
+43 | File | `/usr/bin/pkexec` | High
+44 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+45 | File | `?r=contact/default/export` | High
+46 | File | `add-product.php` | High
+47 | File | `add_2_basket.asp` | High
+48 | File | `add_customer.php` | High
+49 | File | `admin-ajax.php` | High
+50 | File | `admin.jcomments.php` | High
+51 | File | `admin.php` | Medium
+52 | File | `admin/` | Low
+53 | File | `admin/?page=categories/manage_category` | High
+54 | File | `admin/?page=system_info` | High
+55 | ... | ... | ...
 
-There are 446 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 482 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

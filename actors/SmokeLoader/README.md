@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 12 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -126,7 +126,8 @@ ID | Type | Indicator | Confidence
 52 | File | `adclick.php` | Medium
 53 | File | `addfav.php` | Medium
 54 | File | `address.html` | Medium
-55 | ... | ... | ...
+55 | File | `admin.php` | Medium
+56 | ... | ... | ...
 
 There are 484 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 

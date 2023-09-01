@@ -15,11 +15,11 @@ The following _campaigns_ are known and can be associated with Prophet Spider:
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Prophet Spider:
 
 * [US](https://vuldb.com/?country.us)
-* [RU](https://vuldb.com/?country.ru)
 * [ES](https://vuldb.com/?country.es)
+* [SC](https://vuldb.com/?country.sc)
 * ...
 
-There are 7 more country items available. Please use our online service to access the data.
+There are 5 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -48,8 +48,8 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-22, CWE-24, CWE-36, CWE-425 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1059 | CWE-94 | Cross Site Scripting | High
-4 | T1059.007 | CWE-79 | Cross Site Scripting | High
-5 | T1068 | CWE-264, CWE-266, CWE-269, CWE-270, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1068 | CWE-269, CWE-270, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 6 | ... | ... | ... | ...
 
 There are 20 more TTP items available. Please use our online service to access the data.
@@ -63,32 +63,32 @@ ID | Type | Indicator | Confidence
 1 | File | `.github/workflows/comment.yml` | High
 2 | File | `/?p=products` | Medium
 3 | File | `/?r=recruit/resume/edit&op=status` | High
-4 | File | `/admin` | Low
+4 | File | `/academy/home/courses` | High
 5 | File | `/admin.php?c=upload&f=zip&_noCache=0.1683794968` | High
 6 | File | `/admin/?page=user/list` | High
-7 | File | `/admin/addproduct.php` | High
-8 | File | `/admin/attendance_row.php` | High
-9 | File | `/admin/bookings/manage_booking.php` | High
-10 | File | `/admin/bookings/view_booking.php` | High
-11 | File | `/admin/budget/manage_budget.php` | High
-12 | File | `/admin/cashadvance_row.php` | High
-13 | File | `/admin/contacts/organizations/edit/2` | High
-14 | File | `/admin/curriculum/view_curriculum.php` | High
-15 | File | `/admin/deduction_row.php` | High
-16 | File | `/admin/departments/view_department.php` | High
-17 | File | `/admin/edit_product.php` | High
-18 | File | `/admin/edit_subject.php` | High
-19 | File | `/admin/employee_row.php` | High
-20 | File | `/admin/index.php` | High
-21 | File | `/admin/index/index.html#/admin/mall.goods/index.html` | High
-22 | File | `/admin/inquiries/view_inquiry.php` | High
-23 | File | `/admin/login.php` | High
-24 | File | `/admin/maintenance/brand.php` | High
-25 | File | `/admin/maintenance/manage_category.php` | High
-26 | File | `/admin/maintenance/view_designation.php` | High
-27 | File | `/admin/mechanics/manage_mechanic.php` | High
-28 | File | `/admin/modal_add_product.php` | High
-29 | File | `/admin/offenses/view_details.php` | High
+7 | File | `/admin/?page=user/manage_user&id=3` | High
+8 | File | `/admin/addproduct.php` | High
+9 | File | `/admin/attendance_row.php` | High
+10 | File | `/admin/bookings/manage_booking.php` | High
+11 | File | `/admin/bookings/view_booking.php` | High
+12 | File | `/admin/budget/manage_budget.php` | High
+13 | File | `/admin/cashadvance_row.php` | High
+14 | File | `/admin/contacts/organizations/edit/2` | High
+15 | File | `/admin/curriculum/view_curriculum.php` | High
+16 | File | `/admin/deduction_row.php` | High
+17 | File | `/admin/departments/view_department.php` | High
+18 | File | `/admin/edit_product.php` | High
+19 | File | `/admin/edit_subject.php` | High
+20 | File | `/admin/employee_row.php` | High
+21 | File | `/admin/index.php` | High
+22 | File | `/admin/index/index.html#/admin/mall.goods/index.html` | High
+23 | File | `/admin/inquiries/view_inquiry.php` | High
+24 | File | `/admin/login.php` | High
+25 | File | `/admin/maintenance/brand.php` | High
+26 | File | `/admin/maintenance/manage_category.php` | High
+27 | File | `/admin/maintenance/view_designation.php` | High
+28 | File | `/admin/mechanics/manage_mechanic.php` | High
+29 | File | `/admin/modal_add_product.php` | High
 30 | File | `/admin/orders/update_status.php` | High
 31 | File | `/admin/products/manage_product.php` | High
 32 | File | `/admin/products/view_product.php` | High
@@ -112,8 +112,8 @@ ID | Type | Indicator | Confidence
 50 | File | `/admin/vote_edit.php` | High
 51 | File | `/ajax.php?action=read_msg` | High
 52 | File | `/ajax.php?action=save_company` | High
-53 | File | `/alphaware/details.php` | High
-54 | File | `/api/stl/actions/search` | High
+53 | File | `/api/stl/actions/search` | High
+54 | File | `/api/sys/login` | High
 55 | File | `/App_Resource/UEditor/server/upload.aspx` | High
 56 | File | `/author_posts.php` | High
 57 | File | `/bin/sh` | Low
@@ -128,14 +128,16 @@ ID | Type | Indicator | Confidence
 66 | File | `/changeimage.php` | High
 67 | File | `/classes/Login.php` | High
 68 | File | `/classes/Master.php` | High
-69 | File | `/classes/Master.php?f=delete_inquiry` | High
-70 | File | `/classes/Master.php?f=delete_item` | High
-71 | File | `/classes/Master.php?f=delete_service` | High
-72 | File | `/classes/Master.php?f=delete_sub_category` | High
-73 | File | `/classes/Master.php?f=save_course` | High
-74 | ... | ... | ...
+69 | File | `/classes/Master.php?f=delete_category` | High
+70 | File | `/classes/Master.php?f=delete_inquiry` | High
+71 | File | `/classes/Master.php?f=delete_item` | High
+72 | File | `/classes/Master.php?f=delete_service` | High
+73 | File | `/classes/Master.php?f=delete_sub_category` | High
+74 | File | `/classes/Master.php?f=save_course` | High
+75 | File | `/classes/Master.php?f=save_inquiry` | High
+76 | ... | ... | ...
 
-There are 650 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 670 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

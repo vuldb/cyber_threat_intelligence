@@ -49,11 +49,11 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/cgi-bin/user/Config.cgi` | High
 2 | File | `/etc/sudoers` | Medium
-3 | File | `admin.php/User/del/ucode/` | High
-4 | File | `data/gbconfiguration.dat` | High
+3 | File | `/src/helper.c` | High
+4 | File | `admin.php/User/del/ucode/` | High
 5 | ... | ... | ...
 
-There are 27 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 28 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

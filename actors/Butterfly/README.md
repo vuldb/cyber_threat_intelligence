@@ -35,12 +35,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22 | Pathname Traversal | High
-2 | T1059 | CWE-94 | Cross Site Scripting | High
-3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-4 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 15 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -61,15 +61,15 @@ ID | Type | Indicator | Confidence
 11 | File | `/tmp` | Low
 12 | File | `/uncpath/` | Medium
 13 | File | `/Upload.ashx` | Medium
-14 | File | `/var/tmp/sess_*` | High
-15 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-16 | File | `activateuser.aspx` | High
-17 | File | `adclick.php` | Medium
-18 | File | `admin/killsource` | High
-19 | File | `admin/orion.extfeedbackform_efbf_forms.php` | High
+14 | File | `/usr/sbin/suexec` | High
+15 | File | `/var/tmp/sess_*` | High
+16 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+17 | File | `activateuser.aspx` | High
+18 | File | `adclick.php` | Medium
+19 | File | `admin/killsource` | High
 20 | ... | ... | ...
 
-There are 166 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 169 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

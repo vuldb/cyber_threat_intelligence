@@ -54,38 +54,38 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.htaccess` | Medium
 2 | File | `//etc/RT2870STA.dat` | High
-3 | File | `/cgi-bin/activate.cgi` | High
-4 | File | `/cgi-bin/koha/acqui/supplier.pl?op=enter` | High
-5 | File | `/etc/quagga` | Medium
-6 | File | `/export` | Low
-7 | File | `/forms/doLogin` | High
-8 | File | `/get_getnetworkconf.cgi` | High
-9 | File | `/index.php` | Medium
-10 | File | `/messageboard/view.php` | High
-11 | File | `/nova/bin/detnet` | High
-12 | File | `/opensis/modules/users/Staff.php` | High
-13 | File | `/php_action/createUser.php` | High
-14 | File | `/plugins/servlet/gadgets/makeRequest` | High
-15 | File | `/REBOOTSYSTEM` | High
-16 | File | `/req_password_user.php` | High
-17 | File | `/services` | Medium
-18 | File | `/tmp` | Low
-19 | File | `/uncpath/` | Medium
-20 | File | `/Uploads` | Medium
-21 | File | `/userRpm/MediaServerFoldersCfgRpm.htm` | High
-22 | File | `/WEB-INF/web.xml` | High
-23 | File | `/webconsole/APIController` | High
-24 | File | `/wp-admin/admin-ajax.php` | High
-25 | File | `account.asp` | Medium
-26 | File | `AccountStatus.jsp` | High
-27 | File | `addentry.php` | Medium
-28 | File | `admin.a6mambocredits.php` | High
-29 | File | `admin.cropcanvas.php` | High
-30 | File | `Admin.PHP` | Medium
-31 | File | `admin.php` | Medium
+3 | File | `/admin/students/view_details.php` | High
+4 | File | `/cgi-bin/activate.cgi` | High
+5 | File | `/cgi-bin/koha/acqui/supplier.pl?op=enter` | High
+6 | File | `/etc/quagga` | Medium
+7 | File | `/export` | Low
+8 | File | `/forms/doLogin` | High
+9 | File | `/get_getnetworkconf.cgi` | High
+10 | File | `/index.php` | Medium
+11 | File | `/librarian/bookdetails.php` | High
+12 | File | `/messageboard/view.php` | High
+13 | File | `/nova/bin/detnet` | High
+14 | File | `/opensis/modules/users/Staff.php` | High
+15 | File | `/orrs/admin/reservations/view_details.php` | High
+16 | File | `/php_action/createUser.php` | High
+17 | File | `/plugins/servlet/gadgets/makeRequest` | High
+18 | File | `/REBOOTSYSTEM` | High
+19 | File | `/req_password_user.php` | High
+20 | File | `/services` | Medium
+21 | File | `/tmp` | Low
+22 | File | `/uncpath/` | Medium
+23 | File | `/Uploads` | Medium
+24 | File | `/userRpm/MediaServerFoldersCfgRpm.htm` | High
+25 | File | `/WEB-INF/web.xml` | High
+26 | File | `/webconsole/APIController` | High
+27 | File | `/wp-admin/admin-ajax.php` | High
+28 | File | `account.asp` | Medium
+29 | File | `AccountStatus.jsp` | High
+30 | File | `addentry.php` | Medium
+31 | File | `admin.a6mambocredits.php` | High
 32 | ... | ... | ...
 
-There are 271 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 277 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

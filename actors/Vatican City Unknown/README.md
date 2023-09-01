@@ -21,26 +21,27 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [5.62.61.208](https://vuldb.com/?ip.5.62.61.208) | r-208-61-62-5.consumer-pool.prcdn.net | - | High
-2 | [5.62.63.196](https://vuldb.com/?ip.5.62.63.196) | r-196-63-62-5.consumer-pool.prcdn.net | - | High
-3 | [31.220.29.160](https://vuldb.com/?ip.31.220.29.160) | - | - | High
-4 | [45.12.70.237](https://vuldb.com/?ip.45.12.70.237) | flattemp-help.globalhilive.com | - | High
-5 | [45.12.70.251](https://vuldb.com/?ip.45.12.70.251) | presentational.globalhilive.com | - | High
-6 | [45.12.71.237](https://vuldb.com/?ip.45.12.71.237) | - | - | High
-7 | [45.42.143.0](https://vuldb.com/?ip.45.42.143.0) | - | - | High
-8 | [45.61.44.128](https://vuldb.com/?ip.45.61.44.128) | - | - | High
-9 | [46.36.200.0](https://vuldb.com/?ip.46.36.200.0) | - | - | High
-10 | [46.36.200.128](https://vuldb.com/?ip.46.36.200.128) | - | - | High
-11 | [46.36.200.192](https://vuldb.com/?ip.46.36.200.192) | - | - | High
-12 | [46.36.200.224](https://vuldb.com/?ip.46.36.200.224) | - | - | High
-13 | [46.36.200.228](https://vuldb.com/?ip.46.36.200.228) | - | - | High
-14 | [46.36.200.230](https://vuldb.com/?ip.46.36.200.230) | - | - | High
-15 | [46.36.200.236](https://vuldb.com/?ip.46.36.200.236) | - | - | High
-16 | [46.36.200.240](https://vuldb.com/?ip.46.36.200.240) | - | - | High
-17 | [46.36.201.0](https://vuldb.com/?ip.46.36.201.0) | - | - | High
-18 | ... | ... | ... | ...
+1 | [2.228.55.184](https://vuldb.com/?ip.2.228.55.184) | 2-228-55-184.ip190.fastwebnet.it | - | High
+2 | [2.228.243.180](https://vuldb.com/?ip.2.228.243.180) | 2-228-243-180.ip193.fastwebnet.it | - | High
+3 | [5.62.61.208](https://vuldb.com/?ip.5.62.61.208) | r-208-61-62-5.consumer-pool.prcdn.net | - | High
+4 | [5.62.63.196](https://vuldb.com/?ip.5.62.63.196) | r-196-63-62-5.consumer-pool.prcdn.net | - | High
+5 | [31.220.29.160](https://vuldb.com/?ip.31.220.29.160) | - | - | High
+6 | [45.12.70.237](https://vuldb.com/?ip.45.12.70.237) | flattemp-help.globalhilive.com | - | High
+7 | [45.12.70.251](https://vuldb.com/?ip.45.12.70.251) | presentational.globalhilive.com | - | High
+8 | [45.12.71.237](https://vuldb.com/?ip.45.12.71.237) | - | - | High
+9 | [45.42.143.0](https://vuldb.com/?ip.45.42.143.0) | - | - | High
+10 | [45.61.44.128](https://vuldb.com/?ip.45.61.44.128) | - | - | High
+11 | [46.36.200.0](https://vuldb.com/?ip.46.36.200.0) | - | - | High
+12 | [46.36.200.128](https://vuldb.com/?ip.46.36.200.128) | - | - | High
+13 | [46.36.200.192](https://vuldb.com/?ip.46.36.200.192) | - | - | High
+14 | [46.36.200.224](https://vuldb.com/?ip.46.36.200.224) | - | - | High
+15 | [46.36.200.228](https://vuldb.com/?ip.46.36.200.228) | - | - | High
+16 | [46.36.200.230](https://vuldb.com/?ip.46.36.200.230) | - | - | High
+17 | [46.36.200.236](https://vuldb.com/?ip.46.36.200.236) | - | - | High
+18 | [46.36.200.240](https://vuldb.com/?ip.46.36.200.240) | - | - | High
+19 | ... | ... | ... | ...
 
-There are 70 more IOC items available. Please use our online service to access the data.
+There are 71 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -68,47 +69,52 @@ ID | Type | Indicator | Confidence
 4 | File | `/admin/index.php` | High
 5 | File | `/apilog.php` | Medium
 6 | File | `/appliance/users?action=edit` | High
-7 | File | `/card_scan.php` | High
-8 | File | `/cwp_{SESSION_HASH}/admin/loader_ajax.php` | High
-9 | File | `/feegroups/tgrt_group.jsf` | High
-10 | File | `/filemanager/upload.php` | High
-11 | File | `/forum/away.php` | High
-12 | File | `/if.cgi` | Low
-13 | File | `/jerry-core/ecma/operations/ecma-get-put-value.c` | High
-14 | File | `/magick/quantize.c` | High
-15 | File | `/mifs/c/i/reg/reg.html` | High
-16 | File | `/modules/profile/index.php` | High
-17 | File | `/news.dtl.php` | High
-18 | File | `/release-x64/otfccdump` | High
-19 | File | `/RestAPI` | Medium
-20 | File | `/SASWebReportStudio/logonAndRender.do` | High
-21 | File | `/see_more_details.php` | High
-22 | File | `/services/details.asp` | High
-23 | File | `/setup` | Low
-24 | File | `/spip.php` | Medium
-25 | File | `/uncpath/` | Medium
-26 | File | `/v1/sql-runner` | High
-27 | File | `/var/log/nginx` | High
-28 | File | `/VPortal/mgtconsole/Subscriptions.jsp` | High
-29 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-30 | File | `act.php` | Low
-31 | File | `adclick.php` | Medium
-32 | File | `admin` | Low
-33 | File | `admin.php` | Medium
-34 | File | `admin/adminsignin.html` | High
-35 | File | `admin/index.php?module=rootpwd` | High
-36 | File | `admin/movieview.php` | High
-37 | File | `admin/versions.html` | High
-38 | File | `ajax_calls.php` | High
-39 | ... | ... | ...
+7 | File | `/bibliography/marcsru.php` | High
+8 | File | `/card_scan.php` | High
+9 | File | `/cwp_{SESSION_HASH}/admin/loader_ajax.php` | High
+10 | File | `/feegroups/tgrt_group.jsf` | High
+11 | File | `/filemanager/upload.php` | High
+12 | File | `/forum/away.php` | High
+13 | File | `/goform/SetLEDCfg` | High
+14 | File | `/if.cgi` | Low
+15 | File | `/jerry-core/ecma/operations/ecma-get-put-value.c` | High
+16 | File | `/magick/quantize.c` | High
+17 | File | `/mifs/c/i/reg/reg.html` | High
+18 | File | `/modules/profile/index.php` | High
+19 | File | `/news.dtl.php` | High
+20 | File | `/release-x64/otfccdump` | High
+21 | File | `/RestAPI` | Medium
+22 | File | `/SASWebReportStudio/logonAndRender.do` | High
+23 | File | `/see_more_details.php` | High
+24 | File | `/services/details.asp` | High
+25 | File | `/setup` | Low
+26 | File | `/SiteServer/Ajax/ajaxOtherService.aspx` | High
+27 | File | `/spip.php` | Medium
+28 | File | `/staff/delete.php` | High
+29 | File | `/uncpath/` | Medium
+30 | File | `/v1/sql-runner` | High
+31 | File | `/var/log/nginx` | High
+32 | File | `/VPortal/mgtconsole/Subscriptions.jsp` | High
+33 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+34 | File | `act.php` | Low
+35 | File | `actions/doreport.php` | High
+36 | File | `adclick.php` | Medium
+37 | File | `addcustomer.asp/addprod.asp/process.asp` | High
+38 | File | `admin` | Low
+39 | File | `admin.php` | Medium
+40 | File | `admin/adminsignin.html` | High
+41 | File | `admin/index.php?module=rootpwd` | High
+42 | File | `admin/movieview.php` | High
+43 | ... | ... | ...
 
-There are 334 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 368 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://github.com/firehol/blocklist-ipsets/blob/master/geolite2_country/country_va.netset
+* https://github.com/firehol/blocklist-ipsets/blob/master/ipip_country/ipip_country_va.netset
 
 ## Literature
 

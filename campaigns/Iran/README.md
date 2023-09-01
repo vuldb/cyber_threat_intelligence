@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 12 more country items available. Please use our online service to access the data.
+There are 13 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -58,25 +58,26 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/maintenance/view_designation.php` | High
-2 | File | `/administration/theme.php` | High
-3 | File | `/api/` | Low
-4 | File | `/api/index.php` | High
-5 | File | `/boafrm/formFilter` | High
-6 | File | `/cgi-bin/webproc` | High
-7 | File | `/coreframe/app/pay/admin/index.php` | High
-8 | File | `/forum/away.php` | High
-9 | File | `/index.php` | Medium
-10 | File | `/ofrs/admin/?page=requests/manage_request` | High
-11 | File | `/spip.php` | Medium
-12 | File | `/usr/www/ja/mnt_cmd.cgi` | High
-13 | File | `/wp-admin/admin-ajax.php` | High
-14 | File | `activenews_view.asp` | High
-15 | File | `admincp/auth/secure.php` | High
-16 | File | `announcement.php` | High
-17 | ... | ... | ...
+1 | File | `//etc/RT2870STA.dat` | High
+2 | File | `/admin/maintenance/view_designation.php` | High
+3 | File | `/administration/theme.php` | High
+4 | File | `/api/` | Low
+5 | File | `/api/index.php` | High
+6 | File | `/boafrm/formFilter` | High
+7 | File | `/cgi-bin/webproc` | High
+8 | File | `/coreframe/app/pay/admin/index.php` | High
+9 | File | `/forum/away.php` | High
+10 | File | `/index.php` | Medium
+11 | File | `/ofrs/admin/?page=requests/manage_request` | High
+12 | File | `/spip.php` | Medium
+13 | File | `/usr/www/ja/mnt_cmd.cgi` | High
+14 | File | `/wp-admin/admin-ajax.php` | High
+15 | File | `activenews_view.asp` | High
+16 | File | `admincp/auth/secure.php` | High
+17 | File | `announcement.php` | High
+18 | ... | ... | ...
 
-There are 138 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 148 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

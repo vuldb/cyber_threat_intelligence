@@ -75,15 +75,15 @@ ID | Type | Indicator | Confidence
 8 | File | `/cgi-bin/adm.cgi` | High
 9 | File | `/cgi-bin/wapopen` | High
 10 | File | `/config/netconf.cmd` | High
-11 | File | `/etc/config/image_sign` | High
-12 | File | `/folder/list` | Medium
-13 | File | `/forms/nslookupHandler` | High
-14 | File | `/group/comment` | High
-15 | File | `/ipms/imageConvert/image` | High
-16 | File | `/librarian/bookdetails.php` | High
-17 | File | `/lookin/info` | Medium
-18 | File | `/plugins/servlet/jira-blockers/` | High
-19 | File | `/ptipupgrade.cgi` | High
+11 | File | `/folder/list` | Medium
+12 | File | `/forms/nslookupHandler` | High
+13 | File | `/group/comment` | High
+14 | File | `/ipms/imageConvert/image` | High
+15 | File | `/librarian/bookdetails.php` | High
+16 | File | `/lookin/info` | Medium
+17 | File | `/plugins/servlet/jira-blockers/` | High
+18 | File | `/ptipupgrade.cgi` | High
+19 | File | `/public/login.htm` | High
 20 | File | `/register.do` | Medium
 21 | File | `/sessions/sess_<sessionid>` | High
 22 | File | `/themes/<php_file_name>` | High
@@ -101,7 +101,7 @@ ID | Type | Indicator | Confidence
 34 | File | `admincp/attachment.php&do=rebuild&type` | High
 35 | ... | ... | ...
 
-There are 299 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 300 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

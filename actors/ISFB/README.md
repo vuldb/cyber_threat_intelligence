@@ -105,7 +105,8 @@ ID | IP address | Hostname | Campaign | Confidence
 82 | [45.155.249.91](https://vuldb.com/?ip.45.155.249.91) | - | - | High
 83 | [45.155.249.94](https://vuldb.com/?ip.45.155.249.94) | - | - | High
 84 | [45.155.249.129](https://vuldb.com/?ip.45.155.249.129) | - | - | High
-85 | ... | ... | ... | ...
+85 | [45.155.249.170](https://vuldb.com/?ip.45.155.249.170) | - | - | High
+86 | ... | ... | ... | ...
 
 There are 338 more IOC items available. Please use our online service to access the data.
 
@@ -147,7 +148,7 @@ ID | Type | Indicator | Confidence
 15 | File | `/owa/auth/logon.aspx` | High
 16 | ... | ... | ...
 
-There are 128 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 130 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -219,6 +220,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://twitter.com/VirITeXplorer/status/1595347501032382464
 * https://www.bridewell.com/insights/news/detail/hunting-for-ursnif
 * https://www.malware-traffic-analysis.net/2023/02/03/index.html
+* https://www.malware-traffic-analysis.net/2023/07/12/index.html
 * https://www.virustotal.com/gui/file/dd8e986f297e66ba273d74617424abd12b38cfd242ee5e4fab670d052c6c2e69/behavior
 
 ## Literature

@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [US](https://vuldb.com/?country.us)
 * ...
 
-There are 6 more country items available. Please use our online service to access the data.
+There are 5 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -149,14 +149,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-29, CWE-36, CWE-37 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-29, CWE-36 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-264, CWE-269, CWE-274, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+5 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -165,44 +165,46 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `//proc/kcore` | Medium
-2 | File | `/ajax.php?action=read_msg` | High
-3 | File | `/api/baskets/{name}` | High
-4 | File | `/api/upload.php` | High
-5 | File | `/api?path=profile` | High
-6 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
-7 | File | `/authenticationendpoint/login.do` | High
-8 | File | `/bin/ate` | Medium
-9 | File | `/bin/login` | Medium
-10 | File | `/booking/show_bookings/` | High
-11 | File | `/bsms_ci/index.php` | High
-12 | File | `/bsms_ci/index.php/user/edit_user/` | High
-13 | File | `/cgi-bin/luci` | High
-14 | File | `/cgi-bin/wlogin.cgi` | High
-15 | File | `/contact/store` | High
-16 | File | `/download` | Medium
-17 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
-18 | File | `/DXR.axd` | Medium
-19 | File | `/ecommerce/support_ticket` | High
-20 | File | `/env` | Low
-21 | File | `/forum/away.php` | High
-22 | File | `/FuguHub/cmsdocs/` | High
-23 | File | `/graphql` | Medium
-24 | File | `/h/autoSaveDraft` | High
-25 | File | `/HNAP1` | Low
-26 | File | `/index.php` | Medium
-27 | File | `/Log/Query?appid=0B736354-9473-4D66-B9C0-15CAC149EB05&tabid=tab_0B73635494734D66B9C015CAC149EB05` | High
-28 | File | `/mc` | Low
-29 | File | `/php-inventory-management-system/product.php` | High
-30 | File | `/php-sms/admin/?page=user/manage_user` | High
-31 | File | `/plain` | Low
-32 | File | `/registration.php` | High
-33 | File | `/release-x64/otfccdump+0x61731f` | High
-34 | File | `/resources//../` | High
-35 | File | `/search.php` | Medium
-36 | File | `/settings/account` | High
-37 | ... | ... | ...
+2 | File | `/admin/students/view_details.php` | High
+3 | File | `/ajax.php?action=read_msg` | High
+4 | File | `/api/baskets/{name}` | High
+5 | File | `/api/upload.php` | High
+6 | File | `/api?path=profile` | High
+7 | File | `/auth/callback` | High
+8 | File | `/booking/show_bookings/` | High
+9 | File | `/cgi-bin/wlogin.cgi` | High
+10 | File | `/ci_spms/admin/search/searching/` | High
+11 | File | `/classes/Master.php?f=save_brand` | High
+12 | File | `/debug/pprof` | Medium
+13 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
+14 | File | `/DXR.axd` | Medium
+15 | File | `/ecommerce/support_ticket` | High
+16 | File | `/etc/pki/pesign` | High
+17 | File | `/forum/away.php` | High
+18 | File | `/FuguHub/cmsdocs/` | High
+19 | File | `/goform/setportList` | High
+20 | File | `/goform/set_LimitClient_cfg` | High
+21 | File | `/graphql` | Medium
+22 | File | `/group1/uploa` | High
+23 | File | `/h/autoSaveDraft` | High
+24 | File | `/HNAP1` | Low
+25 | File | `/index.php` | Medium
+26 | File | `/modules/projects/vw_files.php` | High
+27 | File | `/plugins/playbooks/api/v0/runs` | High
+28 | File | `/registration.php` | High
+29 | File | `/release-x64/otfccdump+0x61731f` | High
+30 | File | `/resources//../` | High
+31 | File | `/romfile.cfg` | Medium
+32 | File | `/search.php` | Medium
+33 | File | `/settings/account` | High
+34 | File | `/sitecore/shell/Invoke.aspx` | High
+35 | File | `/staff/edit_book_details.php` | High
+36 | File | `/student/bookdetails.php` | High
+37 | File | `/system/user/modules/mod_users/controller.php` | High
+38 | File | `/videotalk` | Medium
+39 | ... | ... | ...
 
-There are 314 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 340 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

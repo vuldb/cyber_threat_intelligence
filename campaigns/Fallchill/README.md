@@ -9,7 +9,6 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Fallchill:
 
 * [VN](https://vuldb.com/?country.vn)
-* [ES](https://vuldb.com/?country.es)
 
 ## Actors
 
@@ -52,13 +51,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-29, CWE-425 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-29, CWE-425 | Pathname Traversal | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -66,34 +65,50 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin.php?c=upload&f=zip&_noCache=0.1683794968` | High
-2 | File | `/admin/?page=user/list` | High
+1 | File | `/admin/?page=user/list` | High
+2 | File | `/admin/?page=user/manage_user&id=3` | High
 3 | File | `/admin/addproduct.php` | High
 4 | File | `/admin/ajax.php?action=save_area` | High
 5 | File | `/admin/contacts/organizations/edit/2` | High
-6 | File | `/admin/edit_subject.php` | High
-7 | File | `/admin/modal_add_product.php` | High
-8 | File | `/admin/reportupload.aspx` | High
-9 | File | `/admin/service.php` | High
-10 | File | `/admin/update_s6.php` | High
-11 | File | `/ajax.php?action=read_msg` | High
-12 | File | `/ajax.php?action=save_company` | High
-13 | File | `/api/baskets/{name}` | High
-14 | File | `/api/common/ping` | High
-15 | File | `/api/stl/actions/search` | High
-16 | File | `/bin/login` | Medium
-17 | File | `/cas/logout` | Medium
-18 | File | `/changeimage.php` | High
-19 | File | `/classes/Users.php?f=save` | High
-20 | File | `/DXR.axd` | Medium
-21 | File | `/forum/away.php` | High
-22 | File | `/librarian/bookdetails.php` | High
-23 | File | `/Login/CheckLogin` | High
-24 | File | `/note/index/delete` | High
-25 | File | `/osms/assets/plugins/jquery-validation-1.11.1/demo/captcha/index.php` | High
-26 | ... | ... | ...
+6 | File | `/admin/modal_add_product.php` | High
+7 | File | `/admin/reportupload.aspx` | High
+8 | File | `/admin/update_s6.php` | High
+9 | File | `/ajax.php?action=read_msg` | High
+10 | File | `/ajax.php?action=save_company` | High
+11 | File | `/api/baskets/{name}` | High
+12 | File | `/api/common/ping` | High
+13 | File | `/api/sys/set_passwd` | High
+14 | File | `/bsms_ci/index.php/user/edit_user/` | High
+15 | File | `/cgi-bin/wlogin.cgi` | High
+16 | File | `/changeimage.php` | High
+17 | File | `/classes/Users.php?f=save` | High
+18 | File | `/common/info.cgi` | High
+19 | File | `/DXR.axd` | Medium
+20 | File | `/forum/away.php` | High
+21 | File | `/gracemedia-media-player/templates/files/ajax_controller.php` | High
+22 | File | `/includes/db_connect.php` | High
+23 | File | `/includes/session.php` | High
+24 | File | `/librarian/bookdetails.php` | High
+25 | File | `/modules/projects/vw_files.php` | High
+26 | File | `/modules/public/calendar.php` | High
+27 | File | `/modules/public/date_format.php` | High
+28 | File | `/modules/tasks/gantt.php` | High
+29 | File | `/note/index/delete` | High
+30 | File | `/osms/assets/plugins/jquery-validation-1.11.1/demo/captcha/index.php` | High
+31 | File | `/out.php` | Medium
+32 | File | `/owa/auth/logon.aspx` | High
+33 | File | `/php-fusion/infusions/shoutbox_panel/shoutbox_archive.php` | High
+34 | File | `/send_order.cgi?parameter=restart` | High
+35 | File | `/spip.php` | Medium
+36 | File | `/src/amf/amf-context.c` | High
+37 | File | `/uncpath/` | Medium
+38 | File | `/v1/hotlink/proxy` | High
+39 | File | `/vm/login.php` | High
+40 | File | `?r=dashboard/approval/del` | High
+41 | File | `actions/del.php` | High
+42 | ... | ... | ...
 
-There are 216 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 358 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

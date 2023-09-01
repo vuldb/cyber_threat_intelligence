@@ -48,18 +48,18 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/config.php?display=disa&view=form` | High
-2 | File | `/index.php` | Medium
-3 | File | `/members/view_member.php` | High
-4 | File | `/owa/auth/logon.aspx` | High
-5 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
-6 | File | `/uncpath/` | Medium
-7 | File | `adclick.php` | Medium
-8 | File | `admin/modules/master_file/rda_cmc.php?keywords` | High
-9 | File | `bbs/faq.php` | Medium
-10 | File | `clsowa.cls` | Medium
+2 | File | `/api/baskets/{name}` | High
+3 | File | `/index.php` | Medium
+4 | File | `/members/view_member.php` | High
+5 | File | `/owa/auth/logon.aspx` | High
+6 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
+7 | File | `/uncpath/` | Medium
+8 | File | `adclick.php` | Medium
+9 | File | `admin/modules/master_file/rda_cmc.php?keywords` | High
+10 | File | `bbs/faq.php` | Medium
 11 | ... | ... | ...
 
-There are 82 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 83 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

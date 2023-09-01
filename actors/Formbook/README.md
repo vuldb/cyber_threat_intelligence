@@ -14,8 +14,8 @@ The following _campaigns_ are known and can be associated with Formbook:
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Formbook:
 
-* [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
+* [US](https://vuldb.com/?country.us)
 * [FR](https://vuldb.com/?country.fr)
 * ...
 
@@ -109,24 +109,24 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/bin/boa` | Medium
-2 | File | `/cgi-bin/wapopen` | High
-3 | File | `/dev/urandom` | Medium
-4 | File | `/etc/quantum/quantum.conf` | High
-5 | File | `/exec/` | Low
-6 | File | `/getcfg.php` | Medium
-7 | File | `/HNAP1` | Low
-8 | File | `/mgmt/tm/util/bash` | High
-9 | File | `/modules/projects/vw_files.php` | High
-10 | File | `/plain` | Low
-11 | File | `/staff/tools/custom-fields` | High
-12 | File | `/uncpath/` | Medium
-13 | File | `/xyhai.php?s=/Auth/editUser` | High
-14 | File | `/_next` | Low
-15 | File | `actionHandler/ajax_managed_services.php` | High
+1 | File | `/api/sys/set_passwd` | High
+2 | File | `/bin/boa` | Medium
+3 | File | `/cgi-bin/wapopen` | High
+4 | File | `/dev/urandom` | Medium
+5 | File | `/etc/quantum/quantum.conf` | High
+6 | File | `/exec/` | Low
+7 | File | `/getcfg.php` | Medium
+8 | File | `/HNAP1` | Low
+9 | File | `/mgmt/tm/util/bash` | High
+10 | File | `/modules/projects/vw_files.php` | High
+11 | File | `/plain` | Low
+12 | File | `/staff/tools/custom-fields` | High
+13 | File | `/uncpath/` | Medium
+14 | File | `/xyhai.php?s=/Auth/editUser` | High
+15 | File | `/_next` | Low
 16 | ... | ... | ...
 
-There are 129 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 130 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

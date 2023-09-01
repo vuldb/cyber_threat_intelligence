@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 6 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -44,7 +44,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 16 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -60,14 +60,15 @@ ID | Type | Indicator | Confidence
 6 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
 7 | File | `/cas/logout` | Medium
 8 | File | `/cgi-bin/nasset.cgi` | High
-9 | File | `/dosen/data` | Medium
-10 | File | `/index.php/weblinks-categories` | High
-11 | File | `/jurusan/data` | High
-12 | File | `/kelas/data` | Medium
-13 | File | `/kelasdosen/data` | High
-14 | ... | ... | ...
+9 | File | `/changeimage.php` | High
+10 | File | `/dosen/data` | Medium
+11 | File | `/index.php/weblinks-categories` | High
+12 | File | `/jurusan/data` | High
+13 | File | `/kelas/data` | Medium
+14 | File | `/kelasdosen/data` | High
+15 | ... | ... | ...
 
-There are 112 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 124 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

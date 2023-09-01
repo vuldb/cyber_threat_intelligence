@@ -73,9 +73,10 @@ ID | Type | Indicator | Confidence
 21 | File | `/ui/artifactimport/upload` | High
 22 | File | `/updown/upload.cgi` | High
 23 | File | `4.2.0.CP03` | Medium
-24 | ... | ... | ...
+24 | File | `7786/tcp` | Medium
+25 | ... | ... | ...
 
-There are 202 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 206 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

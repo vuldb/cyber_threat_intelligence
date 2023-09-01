@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Orcus RAT:
 
 * [US](https://vuldb.com/?country.us)
-* [RU](https://vuldb.com/?country.ru)
 * [DE](https://vuldb.com/?country.de)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 13 more country items available. Please use our online service to access the data.
+There are 19 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -21,15 +21,18 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [13.53.37.168](https://vuldb.com/?ip.13.53.37.168) | ec2-13-53-37-168.eu-north-1.compute.amazonaws.com | - | Medium
-2 | [20.89.177.186](https://vuldb.com/?ip.20.89.177.186) | - | - | High
-3 | [45.146.253.103](https://vuldb.com/?ip.45.146.253.103) | rs-zap868892-1.zap-srv.com | - | High
-4 | [61.69.245.176](https://vuldb.com/?ip.61.69.245.176) | 61-69-245-176.static.tpgi.com.au | - | High
-5 | [80.80.130.104](https://vuldb.com/?ip.80.80.130.104) | 104-130-80-80.filibe.net | - | High
-6 | [84.21.172.55](https://vuldb.com/?ip.84.21.172.55) | - | - | High
-7 | ... | ... | ... | ...
+1 | [3.129.187.220](https://vuldb.com/?ip.3.129.187.220) | ec2-3-129-187-220.us-east-2.compute.amazonaws.com | - | Medium
+2 | [3.133.207.110](https://vuldb.com/?ip.3.133.207.110) | ec2-3-133-207-110.us-east-2.compute.amazonaws.com | - | Medium
+3 | [3.137.146.78](https://vuldb.com/?ip.3.137.146.78) | ec2-3-137-146-78.us-east-2.compute.amazonaws.com | - | Medium
+4 | [3.143.239.116](https://vuldb.com/?ip.3.143.239.116) | ec2-3-143-239-116.us-east-2.compute.amazonaws.com | - | Medium
+5 | [13.53.37.168](https://vuldb.com/?ip.13.53.37.168) | ec2-13-53-37-168.eu-north-1.compute.amazonaws.com | - | Medium
+6 | [18.117.142.49](https://vuldb.com/?ip.18.117.142.49) | ec2-18-117-142-49.us-east-2.compute.amazonaws.com | - | Medium
+7 | [20.89.177.186](https://vuldb.com/?ip.20.89.177.186) | - | - | High
+8 | [45.146.253.103](https://vuldb.com/?ip.45.146.253.103) | rs-zap868892-1.zap-srv.com | - | High
+9 | [61.69.245.176](https://vuldb.com/?ip.61.69.245.176) | 61-69-245-176.static.tpgi.com.au | - | High
+10 | ... | ... | ... | ...
 
-There are 23 more IOC items available. Please use our online service to access the data.
+There are 37 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -43,7 +46,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 15 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -51,26 +54,49 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/new-content` | High
-2 | File | `/admin/user/team` | High
-3 | File | `/configs/application.ini` | High
-4 | File | `/etc/gsissh/sshd_config` | High
-5 | File | `/goform/SetStaticRouteCfg` | High
-6 | File | `/goform/wlanPrimaryNetwork` | High
-7 | File | `/rest/api/latest/user/avatar/temporary` | High
-8 | File | `/school/model/get_student_subject.php` | High
-9 | File | `/show_news.php` | High
-10 | File | `/tcpedit/checksum.c` | High
-11 | File | `/trx_addons/v2/get/sc_layout` | High
-12 | File | `/uncpath/` | Medium
-13 | File | `/v2/_catalog` | Medium
-14 | File | `/var/run/chrony` | High
-15 | File | `/web/api/v1/upload/UploadHandler.php` | High
-16 | File | `/weibo/publishdata` | High
-17 | File | `/whbs/?page=manage_account` | High
-18 | ... | ... | ...
+1 | File | `.htaccess` | Medium
+2 | File | `/?Key=PhoneRequestAuthorization` | High
+3 | File | `/admin/access` | High
+4 | File | `/admin/addproduct.php` | High
+5 | File | `/admin/index.html` | High
+6 | File | `/admin/new-content` | High
+7 | File | `/admin/user/team` | High
+8 | File | `/api/RecordingList/DownloadRecord?file=` | High
+9 | File | `/apply.cgi` | Medium
+10 | File | `/bin/login` | Medium
+11 | File | `/configs/application.ini` | High
+12 | File | `/dipam/save-delegates.php` | High
+13 | File | `/etc/gsissh/sshd_config` | High
+14 | File | `/etc/sudoers` | Medium
+15 | File | `/goform/SetStaticRouteCfg` | High
+16 | File | `/goform/wlanPrimaryNetwork` | High
+17 | File | `/home` | Low
+18 | File | `/index.php/album/add` | High
+19 | File | `/my_photo_gallery/image.php` | High
+20 | File | `/php_action/createProduct.php` | High
+21 | File | `/public` | Low
+22 | File | `/rapi/read_url` | High
+23 | File | `/rest/api/latest/user/avatar/temporary` | High
+24 | File | `/school/model/get_student_subject.php` | High
+25 | File | `/show_news.php` | High
+26 | File | `/tcpedit/checksum.c` | High
+27 | File | `/trx_addons/v2/get/sc_layout` | High
+28 | File | `/uncpath/` | Medium
+29 | File | `/users` | Low
+30 | File | `/v2/_catalog` | Medium
+31 | File | `/var/run/chrony` | High
+32 | File | `/web/api/v1/upload/UploadHandler.php` | High
+33 | File | `/weibo/publishdata` | High
+34 | File | `/whbs/?page=manage_account` | High
+35 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
+36 | File | `aaa-idm-store-h2/src/main/java/org/opendaylight/aaa/datastore/h2/RoleStore.java` | High
+37 | File | `admin.asp` | Medium
+38 | File | `admin.php/comments/batchdel/` | High
+39 | File | `admin.php/User/del/ucode/` | High
+40 | File | `admin.php?c=a_adminuser&a=add&run=1` | High
+41 | ... | ... | ...
 
-There are 142 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 358 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

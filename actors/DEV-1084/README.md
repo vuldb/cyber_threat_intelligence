@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 4 more country items available. Please use our online service to access the data.
+There are 6 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -39,7 +39,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1055 | CWE-74 | Injection | High
 4 | ... | ... | ... | ...
 
-There are 12 more TTP items available. Please use our online service to access the data.
+There are 14 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -47,16 +47,16 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/rukovoditel/index.php?module=dashboard/ajax_request` | High
-2 | File | `arch/powerpc/kernel/entry_64.S` | High
-3 | File | `auth2-gss.c` | Medium
-4 | File | `avahi-core/socket.c` | High
-5 | File | `block/bfq-iosched.c` | High
-6 | File | `chat.php` | Medium
-7 | File | `Crypt32.dll` | Medium
+1 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+2 | File | `/rukovoditel/index.php?module=dashboard/ajax_request` | High
+3 | File | `/wordpress/wp-admin/options-general.php` | High
+4 | File | `arch/powerpc/kernel/entry_64.S` | High
+5 | File | `auth2-gss.c` | Medium
+6 | File | `avahi-core/socket.c` | High
+7 | File | `block/bfq-iosched.c` | High
 8 | ... | ... | ...
 
-There are 52 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 59 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -8,6 +8,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Metamorfo:
 
+* [US](https://vuldb.com/?country.us)
+* [TR](https://vuldb.com/?country.tr)
 * [PL](https://vuldb.com/?country.pl)
 
 ## IOC - Indicator of Compromise
@@ -16,9 +18,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [18.222.122.216](https://vuldb.com/?ip.18.222.122.216) | ec2-18-222-122-216.us-east-2.compute.amazonaws.com | - | Medium
-2 | [20.206.126.228](https://vuldb.com/?ip.20.206.126.228) | - | - | High
-3 | [80.211.252.12](https://vuldb.com/?ip.80.211.252.12) | host12-252-211-80.static.arubacloud.pl | - | High
+1 | [5.83.162.24](https://vuldb.com/?ip.5.83.162.24) | cloud8732397.nitrado.cloud | - | High
+2 | [18.222.122.216](https://vuldb.com/?ip.18.222.122.216) | ec2-18-222-122-216.us-east-2.compute.amazonaws.com | - | Medium
+3 | [20.206.126.228](https://vuldb.com/?ip.20.206.126.228) | - | - | High
+4 | ... | ... | ... | ...
+
+There are 2 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -26,7 +31,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1505 | CWE-89 | SQL Injection | High
+1 | T1059.007 | CWE-79 | Cross Site Scripting | High
+2 | T1068 | CWE-264, CWE-269 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+3 | T1204.001 | CWE-601 | Open Redirect | High
+4 | ... | ... | ... | ...
+
+There are 2 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -34,12 +44,12 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `index.php` | Medium
-2 | File | `shopcurrency.asp` | High
-3 | Argument | `cid` | Low
+1 | File | `/admin/launch_message.php` | High
+2 | File | `content/content.blueprintspages.php` | High
+3 | File | `ext/standard/var_unserializer.c` | High
 4 | ... | ... | ...
 
-There are 1 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 18 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -48,6 +58,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://bazaar.abuse.ch/sample/153a5a770e7594794ce3ac19121c1ad44edc6acdf4e4ae6d77adbd964ae6609e/
 * https://bazaar.abuse.ch/sample/951c2f341e914601140aa9ead05895f6957d5cbfda80b81be99015d2be02d44f/
 * https://github.com/jeFF0Falltrades/IoCs/blob/master/Broadbased/metamorfo.md
+* https://www.cyber45.com
 
 ## Literature
 

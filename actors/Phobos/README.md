@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Phobos:
 
 * [US](https://vuldb.com/?country.us)
-* [VN](https://vuldb.com/?country.vn)
 * [RU](https://vuldb.com/?country.ru)
+* [VN](https://vuldb.com/?country.vn)
 * ...
 
 There are 2 more country items available. Please use our online service to access the data.

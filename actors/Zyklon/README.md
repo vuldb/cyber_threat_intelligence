@@ -50,20 +50,22 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `%PROGRAMFILES%\1E\Client\Tachyon.Performance.Metrics.exe` | High
-2 | File | `/etc/passwd` | Medium
-3 | File | `/forum/away.php` | High
-4 | File | `/uncpath/` | Medium
-5 | File | `/wbg/core/_includes/authorization.inc.php` | High
-6 | File | `adclick.php` | Medium
-7 | File | `admin/addons/uninstall/anomaly.module.blocks` | High
-8 | File | `admin/admin_process.php` | High
-9 | File | `admin/index.php` | High
-10 | File | `ajax_ftp_manager.php` | High
-11 | File | `api.log` | Low
-12 | File | `api.php` | Low
-13 | ... | ... | ...
+2 | File | `/ajaxGetFileByPath.php` | High
+3 | File | `/etc/passwd` | Medium
+4 | File | `/forum/away.php` | High
+5 | File | `/pharmacy-sales-and-inventory-system/manage_user.php` | High
+6 | File | `/uncpath/` | Medium
+7 | File | `/wbg/core/_includes/authorization.inc.php` | High
+8 | File | `active.log` | Medium
+9 | File | `adclick.php` | Medium
+10 | File | `admin/addons/uninstall/anomaly.module.blocks` | High
+11 | File | `admin/admin_process.php` | High
+12 | File | `admin/index.php` | High
+13 | File | `ajax_ftp_manager.php` | High
+14 | File | `api.log` | Low
+15 | ... | ... | ...
 
-There are 101 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 120 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

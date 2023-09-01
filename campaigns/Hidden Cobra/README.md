@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [IR](https://vuldb.com/?country.ir)
 * ...
 
-There are 7 more country items available. Please use our online service to access the data.
+There are 6 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -186,21 +186,21 @@ ID | Type | Indicator | Confidence
 6 | File | `/cgi-bin/login.cgi` | High
 7 | File | `/cgi-bin/R14.2/easy1350.pl` | High
 8 | File | `/cgi-bin/R14.2/log.pl` | High
-9 | File | `/export` | Low
-10 | File | `/forgetpassword.php` | High
-11 | File | `/FormLogin` | Medium
-12 | File | `/forum/away.php` | High
-13 | File | `/graphStatus/displayServiceStatus.php` | High
-14 | File | `/modules/profile/index.php` | High
-15 | File | `/nova/bin/detnet` | High
-16 | File | `/out.php` | Medium
-17 | File | `/plugin` | Low
-18 | File | `/proc/ftxxxx-debug` | High
-19 | File | `/proc/pid/syscall` | High
-20 | File | `/public/launchNewWindow.jsp` | High
+9 | File | `/EventBookingCalendar/load.php?controller=GzFront/action=checkout/cid=1/layout=calendar/show_header=T/local=3` | High
+10 | File | `/export` | Low
+11 | File | `/forgetpassword.php` | High
+12 | File | `/FormLogin` | Medium
+13 | File | `/forum/away.php` | High
+14 | File | `/graphStatus/displayServiceStatus.php` | High
+15 | File | `/modules/profile/index.php` | High
+16 | File | `/nova/bin/detnet` | High
+17 | File | `/out.php` | Medium
+18 | File | `/plugin` | Low
+19 | File | `/proc/ftxxxx-debug` | High
+20 | File | `/proc/pid/syscall` | High
 21 | ... | ... | ...
 
-There are 178 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 177 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

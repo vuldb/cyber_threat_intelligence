@@ -44,12 +44,12 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/news-portal-script/information.php` | High
-2 | File | `/uncpath/` | Medium
-3 | File | `Colors.js` | Medium
+1 | File | `/dipam/athlete-profile.php` | High
+2 | File | `/news-portal-script/information.php` | High
+3 | File | `/uncpath/` | Medium
 4 | ... | ... | ...
 
-There are 14 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 16 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

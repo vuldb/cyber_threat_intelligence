@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Ukraine:
 
 * [VN](https://vuldb.com/?country.vn)
-* [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 19 more country items available. Please use our online service to access the data.
+There are 20 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -1195,14 +1195,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-29, CWE-425 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-29 | Pathname Traversal | High
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -1211,45 +1211,57 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/?ajax-request=jnews` | High
-2 | File | `/action/import_cert_file/` | High
-3 | File | `/admin/?page=user/list` | High
+2 | File | `/academy/home/courses` | High
+3 | File | `/action/import_cert_file/` | High
 4 | File | `/admin/?page=user/manage_user&id=3` | High
-5 | File | `/admin/addproduct.php` | High
-6 | File | `/admin/ajax.php?action=save_area` | High
-7 | File | `/admin/modal_add_product.php` | High
-8 | File | `/admin/scripts/pi-hole/phpqueryads.php` | High
-9 | File | `/admin/sys_sql_query.php` | High
-10 | File | `/admin/update_s6.php` | High
-11 | File | `/ajax.php?action=read_msg` | High
-12 | File | `/api/baskets/{name}` | High
-13 | File | `/api/common/ping` | High
-14 | File | `/bin/ate` | Medium
-15 | File | `/booking/show_bookings/` | High
-16 | File | `/changeimage.php` | High
-17 | File | `/classes/Users.php?f=save` | High
-18 | File | `/company/store` | High
+5 | File | `/admin/scripts/pi-hole/phpqueryads.php` | High
+6 | File | `/admin/sys_sql_query.php` | High
+7 | File | `/api/baskets/{name}` | High
+8 | File | `/api/common/ping` | High
+9 | File | `/api/sys/set_passwd` | High
+10 | File | `/bin/ate` | Medium
+11 | File | `/bitrix/admin/ldap_server_edit.php` | High
+12 | File | `/booking/show_bookings/` | High
+13 | File | `/bsms_ci/index.php/user/edit_user/` | High
+14 | File | `/cgi-bin/luci/api/wireless` | High
+15 | File | `/cgi-bin/wlogin.cgi` | High
+16 | File | `/common/info.cgi` | High
+17 | File | `/company/store` | High
+18 | File | `/Content/Template/root/reverse-shell.aspx` | High
 19 | File | `/Controller/Ajaxfileupload.ashx` | High
-20 | File | `/cwms/classes/Master.php?f=save_contact` | High
-21 | File | `/DXR.axd` | Medium
-22 | File | `/en/blog-comment-4` | High
-23 | File | `/env` | Low
-24 | File | `/forum/away.php` | High
-25 | File | `/h/` | Low
-26 | File | `/index.php?app=main&func=passport&action=login` | High
-27 | File | `/jobinfo/` | Medium
-28 | File | `/librarian/bookdetails.php` | High
-29 | File | `/note/index/delete` | High
-30 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-31 | File | `/osms/assets/plugins/jquery-validation-1.11.1/demo/captcha/index.php` | High
-32 | File | `/out.php` | Medium
-33 | File | `/owa/auth/logon.aspx` | High
-34 | File | `/php-sms/admin/?page=user/manage_user` | High
-35 | File | `/recipe-result` | High
-36 | File | `/resources//../` | High
-37 | File | `/rom-0` | Low
-38 | ... | ... | ...
+20 | File | `/core/conditions/AbstractWrapper.java` | High
+21 | File | `/cwms/classes/Master.php?f=save_contact` | High
+22 | File | `/debug/pprof` | Medium
+23 | File | `/en/blog-comment-4` | High
+24 | File | `/env` | Low
+25 | File | `/etc/passwd` | Medium
+26 | File | `/file/upload/1` | High
+27 | File | `/forum/away.php` | High
+28 | File | `/group1/uploa` | High
+29 | File | `/h/` | Low
+30 | File | `/includes/db_connect.php` | High
+31 | File | `/includes/session.php` | High
+32 | File | `/index.php` | Medium
+33 | File | `/jobinfo/` | Medium
+34 | File | `/librarian/bookdetails.php` | High
+35 | File | `/modules/projects/vw_files.php` | High
+36 | File | `/modules/public/calendar.php` | High
+37 | File | `/modules/public/date_format.php` | High
+38 | File | `/modules/tasks/gantt.php` | High
+39 | File | `/osms/assets/plugins/jquery-validation-1.11.1/demo/captcha/index.php` | High
+40 | File | `/out.php` | Medium
+41 | File | `/php-fusion/infusions/shoutbox_panel/shoutbox_archive.php` | High
+42 | File | `/php-sms/admin/?page=user/manage_user` | High
+43 | File | `/recipe-result` | High
+44 | File | `/register.do` | Medium
+45 | File | `/resources//../` | High
+46 | File | `/rom-0` | Low
+47 | File | `/scheduler/index.php` | High
+48 | File | `/send_order.cgi?parameter=restart` | High
+49 | File | `/Service/ImageStationDataService.asmx` | High
+50 | ... | ... | ...
 
-There are 331 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 437 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 1 more country items available. Please use our online service to access the data.
+There are 2 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -32,7 +32,7 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-22, CWE-425 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-94 | Cross Site Scripting | High
-4 | T1059.007 | CWE-79 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
 There are 15 more TTP items available. Please use our online service to access the data.
@@ -43,16 +43,17 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/debug/pprof` | Medium
-2 | File | `/env` | Low
-3 | File | `/goform/SetNetControlList` | High
-4 | File | `admin/categories_industry.php` | High
-5 | File | `admin/content/postcategory` | High
-6 | File | `Adminstrator/Users/Edit/` | High
-7 | File | `agent.cfg` | Medium
-8 | ... | ... | ...
+1 | File | `/ajax.php?action=read_msg` | High
+2 | File | `/debug/pprof` | Medium
+3 | File | `/env` | Low
+4 | File | `/goform/SetNetControlList` | High
+5 | File | `/src/chatbotapp/chatWindow.java` | High
+6 | File | `admin/categories_industry.php` | High
+7 | File | `admin/content/postcategory` | High
+8 | File | `Adminstrator/Users/Edit/` | High
+9 | ... | ... | ...
 
-There are 53 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 61 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

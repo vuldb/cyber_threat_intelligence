@@ -64,18 +64,19 @@ ID | Type | Indicator | Confidence
 13 | File | `/dcim/rack/` | Medium
 14 | File | `/EditEventTypes.php` | High
 15 | File | `/etc/groups` | Medium
-16 | File | `/formSetPortTr` | High
-17 | File | `/forum/away.php` | High
-18 | File | `/goform/wlanPrimaryNetwork` | High
-19 | File | `/index.php?module=help_pages/pages&entities_id=24` | High
-20 | File | `/it-IT/splunkd/__raw/services/get_snapshot` | High
-21 | File | `/nova/bin/user` | High
-22 | File | `/novel-admin/src/main/java/com/java2nb/common/controller/FileController.java` | High
-23 | File | `/plesk-site-preview/` | High
-24 | File | `/public/admin/profile/update.html` | High
-25 | ... | ... | ...
+16 | File | `/file/upload/1` | High
+17 | File | `/formSetPortTr` | High
+18 | File | `/forum/away.php` | High
+19 | File | `/goform/wlanPrimaryNetwork` | High
+20 | File | `/index.php?module=help_pages/pages&entities_id=24` | High
+21 | File | `/it-IT/splunkd/__raw/services/get_snapshot` | High
+22 | File | `/nova/bin/user` | High
+23 | File | `/novel-admin/src/main/java/com/java2nb/common/controller/FileController.java` | High
+24 | File | `/plesk-site-preview/` | High
+25 | File | `/public/admin/profile/update.html` | High
+26 | ... | ... | ...
 
-There are 211 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 215 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

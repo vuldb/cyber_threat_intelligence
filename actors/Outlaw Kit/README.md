@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
-* [ES](https://vuldb.com/?country.es)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
 There are 2 more country items available. Please use our online service to access the data.
@@ -37,7 +37,7 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-22, CWE-425 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-94 | Cross Site Scripting | High
-4 | T1059.007 | CWE-79 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
 There are 15 more TTP items available. Please use our online service to access the data.
@@ -52,12 +52,13 @@ ID | Type | Indicator | Confidence
 2 | File | `/debug/pprof` | Medium
 3 | File | `/env` | Low
 4 | File | `/goform/SetNetControlList` | High
-5 | File | `admin/categories_industry.php` | High
-6 | File | `admin/content/postcategory` | High
-7 | File | `Adminstrator/Users/Edit/` | High
-8 | ... | ... | ...
+5 | File | `/src/chatbotapp/chatWindow.java` | High
+6 | File | `admin/categories_industry.php` | High
+7 | File | `admin/content/postcategory` | High
+8 | File | `Adminstrator/Users/Edit/` | High
+9 | ... | ... | ...
 
-There are 57 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 61 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

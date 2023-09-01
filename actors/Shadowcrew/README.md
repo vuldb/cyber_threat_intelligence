@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [NL](https://vuldb.com/?country.nl)
 * ...
 
-There are 21 more country items available. Please use our online service to access the data.
+There are 20 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -747,7 +747,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-28 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-28 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
@@ -772,19 +772,19 @@ ID | Type | Indicator | Confidence
 8 | File | `/alphaware/summary.php` | High
 9 | File | `/api/` | Low
 10 | File | `/api/admin/store/product/list` | High
-11 | File | `/api/stl/actions/search` | High
-12 | File | `/api/v1/attack/falco` | High
-13 | File | `/api/v2/cli/commands` | High
-14 | File | `/attachments` | Medium
-15 | File | `/bin/ate` | Medium
-16 | File | `/boat/login.php` | High
-17 | File | `/booking/show_bookings/` | High
-18 | File | `/bsms_ci/index.php/book` | High
-19 | File | `/cgi-bin` | Medium
-20 | File | `/cgi-bin/touchlist_sync.cgi` | High
-21 | File | `/cgi-bin/wapopen` | High
-22 | File | `/cgi-bin/wlogin.cgi` | High
-23 | File | `/CMD_SELECT_USERS` | High
+11 | File | `/api/baskets/{name}` | High
+12 | File | `/api/stl/actions/search` | High
+13 | File | `/api/v1/attack/falco` | High
+14 | File | `/api/v2/cli/commands` | High
+15 | File | `/attachments` | Medium
+16 | File | `/bin/ate` | Medium
+17 | File | `/boat/login.php` | High
+18 | File | `/booking/show_bookings/` | High
+19 | File | `/bsms_ci/index.php/book` | High
+20 | File | `/cgi-bin` | Medium
+21 | File | `/cgi-bin/touchlist_sync.cgi` | High
+22 | File | `/cgi-bin/wapopen` | High
+23 | File | `/cgi-bin/wlogin.cgi` | High
 24 | File | `/context/%2e/WEB-INF/web.xml` | High
 25 | File | `/data/remove` | Medium
 26 | File | `/data/wps.setup.json` | High
@@ -793,17 +793,18 @@ ID | Type | Indicator | Confidence
 29 | File | `/etc/hosts` | Medium
 30 | File | `/forum/away.php` | High
 31 | File | `/goform/wizard_end` | High
-32 | File | `/medicines/profile.php` | High
-33 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-34 | File | `/php-sms/admin/?page=user/manage_user` | High
-35 | File | `/proxy` | Low
-36 | File | `/reservation/add_message.php` | High
-37 | File | `/sessions/sess_<sessionid>` | High
-38 | File | `/spip.php` | Medium
-39 | File | `/thruk/#cgi-bin/status.cgi?style=combined` | High
-40 | ... | ... | ...
+32 | File | `/group1/uploa` | High
+33 | File | `/medicines/profile.php` | High
+34 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+35 | File | `/php-sms/admin/?page=user/manage_user` | High
+36 | File | `/proxy` | Low
+37 | File | `/reservation/add_message.php` | High
+38 | File | `/resources//../` | High
+39 | File | `/scheduler/index.php` | High
+40 | File | `/sessions/sess_<sessionid>` | High
+41 | ... | ... | ...
 
-There are 346 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 350 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

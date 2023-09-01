@@ -36,6 +36,7 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `data/gbconfiguration.dat` | High
+2 | Argument | `ownPropertyOnly` | High
 
 ## References
 

@@ -21,14 +21,15 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [46.30.215.77](https://vuldb.com/?ip.46.30.215.77) | webcluster1.webpod6-cph3.one.com | - | High
-2 | [46.45.134.70](https://vuldb.com/?ip.46.45.134.70) | server-46.45.134.70.as42926.net | - | High
-3 | [50.116.71.86](https://vuldb.com/?ip.50.116.71.86) | box6146.bluehost.com | - | High
-4 | [52.9.200.151](https://vuldb.com/?ip.52.9.200.151) | www.drvoip.com | - | High
-5 | [52.28.116.69](https://vuldb.com/?ip.52.28.116.69) | ec2-52-28-116-69.eu-central-1.compute.amazonaws.com | - | Medium
-6 | ... | ... | ... | ...
+1 | [45.55.211.79](https://vuldb.com/?ip.45.55.211.79) | - | - | High
+2 | [46.30.215.77](https://vuldb.com/?ip.46.30.215.77) | webcluster1.webpod6-cph3.one.com | - | High
+3 | [46.45.134.70](https://vuldb.com/?ip.46.45.134.70) | server-46.45.134.70.as42926.net | - | High
+4 | [50.116.71.86](https://vuldb.com/?ip.50.116.71.86) | box6146.bluehost.com | - | High
+5 | [52.9.200.151](https://vuldb.com/?ip.52.9.200.151) | www.drvoip.com | - | High
+6 | [52.28.116.69](https://vuldb.com/?ip.52.28.116.69) | ec2-52-28-116-69.eu-central-1.compute.amazonaws.com | - | Medium
+7 | ... | ... | ... | ...
 
-There are 20 more IOC items available. Please use our online service to access the data.
+There are 22 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -55,12 +56,13 @@ ID | Type | Indicator | Confidence
 4 | File | `/tmp/app/.env` | High
 5 | ... | ... | ...
 
-There are 28 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 30 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://blog.talosintelligence.com/2019/04/sodinokibi-ransomware-exploits-weblogic.html
 * https://blog.talosintelligence.com/2019/06/threat-roundup-0614-0621.html
 
 ## Literature

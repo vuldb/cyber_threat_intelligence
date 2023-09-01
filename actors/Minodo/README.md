@@ -50,34 +50,35 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `%APPDATA%\Securepoint SSL VPN` | High
-2 | File | `/api/RecordingList/DownloadRecord?file=` | High
-3 | File | `/application/common.php#action_log` | High
-4 | File | `/apply.cgi` | Medium
-5 | File | `/card_scan.php` | High
-6 | File | `/cgi-bin/wlogin.cgi` | High
-7 | File | `/cwc/login` | Medium
-8 | File | `/download` | Medium
-9 | File | `/etc/quagga` | Medium
-10 | File | `/etc/shadow` | Medium
-11 | File | `/forms/doLogin` | High
-12 | File | `/goform/L7Im` | Medium
-13 | File | `/h/calendar` | Medium
-14 | File | `/icingaweb2/navigation/add` | High
-15 | File | `/inc/extensions.php` | High
-16 | File | `/netflow/jspui/editProfile.jsp` | High
-17 | File | `/nova/bin/console` | High
-18 | File | `/nova/bin/detnet` | High
-19 | File | `/out.php` | Medium
-20 | File | `/php-sms/classes/Master.php?f=save_quote` | High
-21 | File | `/rapi/read_url` | High
-22 | File | `/req_password_user.php` | High
-23 | File | `/rom-0` | Low
-24 | File | `/secure/QueryComponent!Default.jspa` | High
-25 | File | `/ServletAPI/accounts/login` | High
-26 | File | `/setNTP.cgi` | Medium
-27 | ... | ... | ...
+2 | File | `/admin/read.php?mudi=announContent` | High
+3 | File | `/api/RecordingList/DownloadRecord?file=` | High
+4 | File | `/application/common.php#action_log` | High
+5 | File | `/apply.cgi` | Medium
+6 | File | `/card_scan.php` | High
+7 | File | `/cgi-bin/wlogin.cgi` | High
+8 | File | `/changeimage.php` | High
+9 | File | `/cwc/login` | Medium
+10 | File | `/download` | Medium
+11 | File | `/etc/quagga` | Medium
+12 | File | `/etc/shadow` | Medium
+13 | File | `/forms/doLogin` | High
+14 | File | `/goform/L7Im` | Medium
+15 | File | `/h/calendar` | Medium
+16 | File | `/icingaweb2/navigation/add` | High
+17 | File | `/inc/extensions.php` | High
+18 | File | `/netflow/jspui/editProfile.jsp` | High
+19 | File | `/nova/bin/console` | High
+20 | File | `/nova/bin/detnet` | High
+21 | File | `/out.php` | Medium
+22 | File | `/php-sms/classes/Master.php?f=save_quote` | High
+23 | File | `/rapi/read_url` | High
+24 | File | `/req_password_user.php` | High
+25 | File | `/rom-0` | Low
+26 | File | `/secure/QueryComponent!Default.jspa` | High
+27 | File | `/ServletAPI/accounts/login` | High
+28 | ... | ... | ...
 
-There are 230 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 235 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

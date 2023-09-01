@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [GB](https://vuldb.com/?country.gb)
+* [WF](https://vuldb.com/?country.wf)
 * ...
 
-There are 5 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -31,9 +31,10 @@ ID | IP address | Hostname | Campaign | Confidence
 8 | [18.231.161.239](https://vuldb.com/?ip.18.231.161.239) | ec2-18-231-161-239.sa-east-1.compute.amazonaws.com | - | Medium
 9 | [20.5.65.48](https://vuldb.com/?ip.20.5.65.48) | - | - | High
 10 | [20.25.181.202](https://vuldb.com/?ip.20.25.181.202) | - | - | High
-11 | ... | ... | ... | ...
+11 | [20.121.119.89](https://vuldb.com/?ip.20.121.119.89) | - | - | High
+12 | ... | ... | ... | ...
 
-There are 42 more IOC items available. Please use our online service to access the data.
+There are 44 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -75,25 +76,26 @@ ID | Type | Indicator | Confidence
 18 | File | `/include/stat/stat.php` | High
 19 | File | `/index.php` | Medium
 20 | File | `/message/ajax/send/` | High
-21 | File | `/myAccount` | Medium
-22 | File | `/proc/*/exe` | Medium
-23 | File | `/real-estate-script/search_property.php` | High
-24 | File | `/recordings/index.php` | High
-25 | File | `/roomtype-details.php` | High
-26 | File | `/search.php` | Medium
-27 | File | `/searchJob.php` | High
-28 | File | `/see_more_details.php` | High
-29 | File | `/StartingPage/link_req_2.php` | High
-30 | File | `/storage.html` | High
-31 | File | `/tools/required/files/importers/imageeditor` | High
-32 | File | `/userman/inbox.php` | High
-33 | File | `/UserSelfServiceSettings.jsp` | High
-34 | File | `/usr/local/contego/scripts/hostname.sh` | High
-35 | File | `/video-sharing-script/watch-video.php` | High
-36 | File | `/vmi/manager/engine/management/commands/apns_worker.py` | High
-37 | ... | ... | ...
+21 | File | `/mgmt/tm/util/bash` | High
+22 | File | `/myAccount` | Medium
+23 | File | `/proc/*/exe` | Medium
+24 | File | `/real-estate-script/search_property.php` | High
+25 | File | `/recordings/index.php` | High
+26 | File | `/roomtype-details.php` | High
+27 | File | `/search.php` | Medium
+28 | File | `/searchJob.php` | High
+29 | File | `/see_more_details.php` | High
+30 | File | `/StartingPage/link_req_2.php` | High
+31 | File | `/storage.html` | High
+32 | File | `/tools/required/files/importers/imageeditor` | High
+33 | File | `/uncpath/` | Medium
+34 | File | `/userman/inbox.php` | High
+35 | File | `/UserSelfServiceSettings.jsp` | High
+36 | File | `/usr/local/contego/scripts/hostname.sh` | High
+37 | File | `/var/run/docker.sock` | High
+38 | ... | ... | ...
 
-There are 313 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 324 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -113,6 +115,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://twitter.com/Merlax_/status/1654904040906530817
 * https://twitter.com/Merlax_/status/1657030594121826306
 * https://twitter.com/Merlax_/status/1659652152543813652
+* https://twitter.com/Merlax_/status/1676546469808209925
 
 ## Literature
 

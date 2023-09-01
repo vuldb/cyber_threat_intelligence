@@ -29,9 +29,10 @@ ID | IP address | Hostname | Campaign | Confidence
 6 | [45.90.57.160](https://vuldb.com/?ip.45.90.57.160) | khalasar.omega.spb.ru | - | High
 7 | [45.130.201.23](https://vuldb.com/?ip.45.130.201.23) | - | - | High
 8 | [45.130.201.24](https://vuldb.com/?ip.45.130.201.24) | - | - | High
-9 | ... | ... | ... | ...
+9 | [47.91.94.97](https://vuldb.com/?ip.47.91.94.97) | - | - | High
+10 | ... | ... | ... | ...
 
-There are 33 more IOC items available. Please use our online service to access the data.
+There are 36 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -42,12 +43,12 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 7 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 23 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -55,12 +56,12 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `$JENKINS_HOME/jenkins.security.RekeySecretAdminMonitor/backups` | High
+1 | File | `/+CSCOE+/logon.html` | High
 2 | File | `//proc/kcore` | Medium
 3 | File | `/admin.php/Admin/adminadd.html` | High
 4 | File | `/admin/` | Low
-5 | File | `/Admin/add-student.php` | High
-6 | File | `/admin/index.php` | High
+5 | File | `/admin/about-us.php` | High
+6 | File | `/Admin/add-student.php` | High
 7 | File | `/admin/orders/update_status.php` | High
 8 | File | `/admin/profile/save_profile` | High
 9 | File | `/admin/settings/save.php` | High
@@ -98,15 +99,17 @@ ID | Type | Indicator | Confidence
 41 | File | `/server/ajax/events_manager.php` | High
 42 | File | `/server/ajax/user_manager.php` | High
 43 | File | `/smstest.html` | High
-44 | File | `/tmp/kamailio_fifo` | High
-45 | File | `/uncpath/` | Medium
-46 | File | `/user/profile` | High
-47 | File | `/vloggers_merch/admin/?page=product/manage_product` | High
-48 | File | `/webman/info.cgi` | High
-49 | File | `acloudCosAction.php.SQL` | High
-50 | ... | ... | ...
+44 | File | `/squashfs-root/etc_ro/custom.conf` | High
+45 | File | `/staff/edit_book_details.php` | High
+46 | File | `/uncpath/` | Medium
+47 | File | `/user/profile` | High
+48 | File | `/vloggers_merch/admin/?page=product/manage_product` | High
+49 | File | `/webman/info.cgi` | High
+50 | File | `/wp-admin/admin-ajax.php` | High
+51 | File | `acloudCosAction.php.SQL` | High
+52 | ... | ... | ...
 
-There are 435 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 452 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -115,11 +118,14 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://infosec.exchange/@monitorsg/110542478917794644
 * https://infosec.exchange/@monitorsg/110594616696514472
 * https://infosec.exchange/@monitorsg/110680494489744567
+* https://infosec.exchange/@monitorsg/110825831698321879
+* https://infosec.exchange/@monitorsg/110895192564463668
 * https://infosec.exchange/@rmceoin/110424143980661661
 * https://infosec.exchange/@rmceoin/110475220406813517
 * https://infosec.exchange/@rmceoin/110492844885251537
 * https://infosec.exchange/@rmceoin/110646942587873094
 * https://infosec.exchange/@rmceoin/110741107977124203
+* https://infosec.exchange/@rmceoin/110816749930323979
 * https://threatfox.abuse.ch
 * https://twitter.com/threatcat_ch/status/1655819677648420864
 * https://twitter.com/threatcat_ch/status/1656899336712716289

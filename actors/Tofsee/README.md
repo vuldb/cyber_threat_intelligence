@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Tofsee:
 
-* [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
 * [NL](https://vuldb.com/?country.nl)
 * ...
 
-There are 14 more country items available. Please use our online service to access the data.
+There are 13 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -169,7 +169,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-28 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-28 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
@@ -177,7 +177,7 @@ ID | Technique | Weakness | Description | Confidence
 6 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 7 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 23 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -188,11 +188,11 @@ ID | Type | Indicator | Confidence
 1 | File | `/?p=products` | Medium
 2 | File | `/admin.php/accessory/filesdel.html` | High
 3 | File | `/admin/?page=user/manage` | High
-4 | File | `/admin/add-new.php` | High
-5 | File | `/admin/departments/view_department.php` | High
-6 | File | `/admin/doctors.php` | High
-7 | File | `/admin/read.php?mudi=getSignal` | High
-8 | File | `/admin/submit-articles` | High
+4 | File | `/admin/about-us.php` | High
+5 | File | `/admin/add-new.php` | High
+6 | File | `/admin/departments/view_department.php` | High
+7 | File | `/admin/doctors.php` | High
+8 | File | `/admin/read.php?mudi=getSignal` | High
 9 | File | `/admin/userprofile.php` | High
 10 | File | `/alphaware/summary.php` | High
 11 | File | `/api/` | Low
@@ -201,38 +201,41 @@ ID | Type | Indicator | Confidence
 14 | File | `/api/stl/actions/search` | High
 15 | File | `/api/v2/cli/commands` | High
 16 | File | `/apply.cgi` | Medium
-17 | File | `/attachments` | Medium
-18 | File | `/bin/ate` | Medium
-19 | File | `/boat/login.php` | High
-20 | File | `/booking/show_bookings/` | High
-21 | File | `/bsms_ci/index.php/book` | High
-22 | File | `/cgi-bin` | Medium
-23 | File | `/cgi-bin/wlogin.cgi` | High
-24 | File | `/College/admin/teacher.php` | High
-25 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
-26 | File | `/dcim/rack-roles/` | High
-27 | File | `/debug/pprof` | Medium
-28 | File | `/env` | Low
-29 | File | `/etc/hosts` | Medium
-30 | File | `/etc/passwd` | Medium
-31 | File | `/forum/away.php` | High
-32 | File | `/goform/addUserName` | High
-33 | File | `/goform/aspForm` | High
-34 | File | `/goform/delAd` | High
-35 | File | `/goform/SysToolChangePwd` | High
-36 | File | `/goform/wifiSSIDset` | High
-37 | File | `/gpac/src/bifs/unquantize.c` | High
-38 | File | `/inc/topBarNav.php` | High
-39 | File | `/index.php` | Medium
-40 | File | `/index.php?app=main&func=passport&action=login` | High
-41 | File | `/kelas/data` | Medium
-42 | File | `/medicines/profile.php` | High
-43 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-44 | File | `/Moosikay/order.php` | High
-45 | File | `/php-sms/admin/?page=user/manage_user` | High
-46 | ... | ... | ...
+17 | File | `/bin/ate` | Medium
+18 | File | `/boat/login.php` | High
+19 | File | `/booking/show_bookings/` | High
+20 | File | `/bsms_ci/index.php/book` | High
+21 | File | `/cgi-bin` | Medium
+22 | File | `/cgi-bin/wlogin.cgi` | High
+23 | File | `/College/admin/teacher.php` | High
+24 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
+25 | File | `/dcim/rack-roles/` | High
+26 | File | `/debug/pprof` | Medium
+27 | File | `/env` | Low
+28 | File | `/etc/hosts` | Medium
+29 | File | `/forum/away.php` | High
+30 | File | `/goform/aspForm` | High
+31 | File | `/goform/delAd` | High
+32 | File | `/goform/SysToolChangePwd` | High
+33 | File | `/group1/uploa` | High
+34 | File | `/inc/topBarNav.php` | High
+35 | File | `/index.php` | Medium
+36 | File | `/index.php?app=main&func=passport&action=login` | High
+37 | File | `/kelas/data` | Medium
+38 | File | `/medicines/profile.php` | High
+39 | File | `/Moosikay/order.php` | High
+40 | File | `/php-sms/admin/?page=user/manage_user` | High
+41 | File | `/reservation/add_message.php` | High
+42 | File | `/resources//../` | High
+43 | File | `/spip.php` | Medium
+44 | File | `/squashfs-root/etc_ro/custom.conf` | High
+45 | File | `/staff/edit_book_details.php` | High
+46 | File | `/system/user/modules/mod_users/controller.php` | High
+47 | File | `/tmp` | Low
+48 | File | `/user/profile` | High
+49 | ... | ... | ...
 
-There are 403 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 422 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

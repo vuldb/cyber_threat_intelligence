@@ -22,7 +22,7 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [45.12.253.56](https://vuldb.com/?ip.45.12.253.56) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 3 more IOC items available. Please use our online service to access the data.
+There are 4 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -52,6 +52,7 @@ ID | Type | Indicator | Confidence
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://app.any.run/tasks/18e8a2e2-b2f5-4ca3-af48-05807b85c704
+* https://threatfox.abuse.ch
 * https://twitter.com/crep1x/status/1630992258584518656
 
 ## Literature

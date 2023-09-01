@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 29 more country items available. Please use our online service to access the data.
+There are 28 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -105,18 +105,18 @@ ID | Type | Indicator | Confidence
 43 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
 44 | File | `/WEB-INF/web.xml` | High
 45 | File | `/wireless/guestnetwork.asp` | High
-46 | File | `a2dp_aac_decoder.cc` | High
-47 | File | `actbar3.ocx` | Medium
-48 | File | `adclick.php` | Medium
-49 | File | `add-locker-form.php` | High
-50 | File | `addentry.php` | Medium
-51 | File | `admin.php` | Medium
-52 | File | `admin/booking_report.php` | High
-53 | File | `admin/executar_login.php` | High
-54 | File | `admin/expense_report.php` | High
+46 | File | `?r=recruit/interview/export&interviews=x` | High
+47 | File | `a2dp_aac_decoder.cc` | High
+48 | File | `actbar3.ocx` | Medium
+49 | File | `adclick.php` | Medium
+50 | File | `add-locker-form.php` | High
+51 | File | `addentry.php` | Medium
+52 | File | `admin.php` | Medium
+53 | File | `admin/booking_report.php` | High
+54 | File | `admin/executar_login.php` | High
 55 | ... | ... | ...
 
-There are 475 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 484 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

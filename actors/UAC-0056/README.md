@@ -45,7 +45,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-425 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94 | Cross Site Scripting | High
@@ -68,10 +68,10 @@ ID | Type | Indicator | Confidence
 6 | File | `/admin/students/manage.php` | High
 7 | File | `/adminlogin.asp` | High
 8 | File | `/api/` | Low
-9 | File | `/app/controller/Books.php` | High
-10 | File | `/auth/register` | High
-11 | File | `/bifs/field_decode.c` | High
-12 | File | `/bin/proc.cgi` | High
+9 | File | `/auth/register` | High
+10 | File | `/bifs/field_decode.c` | High
+11 | File | `/bin/proc.cgi` | High
+12 | File | `/bitrix/admin/ldap_server_edit.php` | High
 13 | File | `/cgi/get_param.cgi` | High
 14 | File | `/common/download_agent_installer.php` | High
 15 | File | `/common/run_cross_report.php` | High
@@ -102,13 +102,9 @@ ID | Type | Indicator | Confidence
 40 | File | `/isomedia/meta.c` | High
 41 | File | `/kruxton/receipt.php` | High
 42 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-43 | File | `/pages/animals.php` | High
-44 | File | `/pages/apply_vacancy.php` | High
-45 | File | `/php-sms/admin/?page=services/manage_service` | High
-46 | File | `/php_action/editProductImage.php` | High
-47 | ... | ... | ...
+43 | ... | ... | ...
 
-There are 407 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 376 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

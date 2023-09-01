@@ -8,8 +8,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Unrecom:
 
-* [US](https://vuldb.com/?country.us)
 * [GB](https://vuldb.com/?country.gb)
+* [US](https://vuldb.com/?country.us)
 * [TH](https://vuldb.com/?country.th)
 
 ## IOC - Indicator of Compromise
@@ -31,12 +31,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1055 | CWE-74 | Injection | High
-2 | T1059.007 | CWE-79 | Cross Site Scripting | High
-3 | T1068 | CWE-269 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+1 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059.007 | CWE-79 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 8 more TTP items available. Please use our online service to access the data.
+There are 10 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -44,13 +44,17 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/ajax.php?action=read_msg` | High
-2 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-3 | File | `/classes/Master.php?f=delete_item` | High
-4 | File | `/home/cavesConsole` | High
-5 | ... | ... | ...
+1 | File | `/ad-list` | Medium
+2 | File | `/admin/add-category.php` | High
+3 | File | `/ajax.php?action=read_msg` | High
+4 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+5 | File | `/classes/Master.php?f=delete_inquiry` | High
+6 | File | `/classes/Master.php?f=delete_item` | High
+7 | File | `/classes/Master.php?f=save_inquiry` | High
+8 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
+9 | ... | ... | ...
 
-There are 30 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 61 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -1157,7 +1157,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -1167,68 +1167,67 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `//WEB-INF` | Medium
 2 | File | `/?ajax-request=jnews` | High
-3 | File | `/about.php` | Medium
-4 | File | `/admin.php/update/getFile.html` | High
-5 | File | `/admin/cashadvance_row.php` | High
-6 | File | `/admin/edit_subject.php` | High
-7 | File | `/admin/inquiries/view_inquiry.php` | High
-8 | File | `/admin/maintenance/view_designation.php` | High
-9 | File | `/admin/products/manage_product.php` | High
-10 | File | `/admin/read.php?mudi=getSignal` | High
-11 | File | `/admin/reg.php` | High
-12 | File | `/admin/report/index.php` | High
-13 | File | `/admin/userprofile.php` | High
-14 | File | `/adms/admin/?page=vehicles/sell_vehicle` | High
-15 | File | `/adms/admin/?page=vehicles/view_transaction` | High
-16 | File | `/appliance/users?action=edit` | High
-17 | File | `/APR/login.php` | High
-18 | File | `/backup.pl` | Medium
-19 | File | `/bin/httpd` | Medium
-20 | File | `/booking/show_bookings/` | High
-21 | File | `/cgi-bin/wapopen` | High
-22 | File | `/classes/Master.php?f=delete_service` | High
-23 | File | `/classes/Master.php?f=save_course` | High
-24 | File | `/dipam/athlete-profile.php` | High
-25 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
-26 | File | `/E-mobile/App/System/File/downfile.php` | High
-27 | File | `/edoc/doctor/patient.php` | High
-28 | File | `/feeds/post/publish` | High
-29 | File | `/forum/away.php` | High
-30 | File | `/h/` | Low
-31 | File | `/home/masterConsole` | High
-32 | File | `/home/sendBroadcast` | High
-33 | File | `/inc/jquery/uploadify/uploadify.php` | High
-34 | File | `/inc/topBarNav.php` | High
-35 | File | `/index.php?app=main&func=passport&action=login` | High
-36 | File | `/index.php?page=category_list` | High
-37 | File | `/jobinfo/` | Medium
-38 | File | `/kelasdosen/data` | High
-39 | File | `/Moosikay/order.php` | High
-40 | File | `/mygym/admin/index.php?view_exercises` | High
-41 | File | `/opac/Actions.php?a=login` | High
-42 | File | `/osm/REGISTER.cmd` | High
-43 | File | `/out.php` | Medium
-44 | File | `/paysystem/datatable.php` | High
-45 | File | `/php-fusion/infusions/shoutbox_panel/shoutbox_archive.php` | High
-46 | File | `/php-opos/index.php` | High
-47 | File | `/php-scrm/login.php` | High
-48 | File | `/PreviewHandler.ashx` | High
-49 | File | `/public/launchNewWindow.jsp` | High
-50 | File | `/reservation/add_message.php` | High
-51 | File | `/reviewer/system/system/admins/manage/users/user-update.php` | High
-52 | File | `/reviewer_0/admins/assessments/pretest/questions-view.php` | High
-53 | File | `/send_order.cgi?parameter=restart` | High
-54 | File | `/spip.php` | Medium
-55 | File | `/student/bookdetails.php` | High
-56 | File | `/uncpath/` | Medium
-57 | File | `/uploads/exam_question/` | High
-58 | File | `/user/updatePwd` | High
-59 | File | `/var/lib/docker/<remapping>` | High
-60 | File | `/view-pass-detail.php` | High
-61 | File | `/wireless/security.asp` | High
-62 | ... | ... | ...
+3 | File | `/?r=recruit/resume/edit&op=status` | High
+4 | File | `/about.php` | Medium
+5 | File | `/admin.php/update/getFile.html` | High
+6 | File | `/admin/?page=user/list` | High
+7 | File | `/admin/?page=user/manage_user&id=3` | High
+8 | File | `/admin/about-us.php` | High
+9 | File | `/admin/cashadvance_row.php` | High
+10 | File | `/admin/del_category.php` | High
+11 | File | `/admin/del_service.php` | High
+12 | File | `/admin/edit-accepted-appointment.php` | High
+13 | File | `/admin/edit-services.php` | High
+14 | File | `/admin/edit_category.php` | High
+15 | File | `/admin/edit_subject.php` | High
+16 | File | `/admin/forgot-password.php` | High
+17 | File | `/admin/index.php` | High
+18 | File | `/admin/inquiries/view_inquiry.php` | High
+19 | File | `/admin/maintenance/view_designation.php` | High
+20 | File | `/admin/products/manage_product.php` | High
+21 | File | `/admin/read.php?mudi=getSignal` | High
+22 | File | `/admin/reg.php` | High
+23 | File | `/admin/report/index.php` | High
+24 | File | `/admin/search-appointment.php` | High
+25 | File | `/admin/sys_sql_query.php` | High
+26 | File | `/admin/userprofile.php` | High
+27 | File | `/APR/login.php` | High
+28 | File | `/bitrix/admin/ldap_server_edit.php` | High
+29 | File | `/blog` | Low
+30 | File | `/booking/show_bookings/` | High
+31 | File | `/cgi-bin/wapopen` | High
+32 | File | `/classes/Master.php?f=delete_service` | High
+33 | File | `/classes/Master.php?f=save_course` | High
+34 | File | `/company/store` | High
+35 | File | `/Controller/Ajaxfileupload.ashx` | High
+36 | File | `/dipam/athlete-profile.php` | High
+37 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
+38 | File | `/E-mobile/App/System/File/downfile.php` | High
+39 | File | `/edoc/doctor/patient.php` | High
+40 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+41 | File | `/etc/passwd` | Medium
+42 | File | `/feeds/post/publish` | High
+43 | File | `/forum/away.php` | High
+44 | File | `/h/` | Low
+45 | File | `/inc/jquery/uploadify/uploadify.php` | High
+46 | File | `/inc/topBarNav.php` | High
+47 | File | `/index.php` | Medium
+48 | File | `/index.php?app=main&func=passport&action=login` | High
+49 | File | `/index.php?page=category_list` | High
+50 | File | `/jobinfo/` | Medium
+51 | File | `/kelasdosen/data` | High
+52 | File | `/listplace/user/coverPhotoUpdate` | High
+53 | File | `/Moosikay/order.php` | High
+54 | File | `/opac/Actions.php?a=login` | High
+55 | File | `/osm/REGISTER.cmd` | High
+56 | File | `/out.php` | Medium
+57 | File | `/paysystem/datatable.php` | High
+58 | File | `/PreviewHandler.ashx` | High
+59 | File | `/public/launchNewWindow.jsp` | High
+60 | File | `/recipe-result` | High
+61 | ... | ... | ...
 
-There are 543 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 535 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

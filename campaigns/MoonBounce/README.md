@@ -63,17 +63,17 @@ ID | Type | Indicator | Confidence
 4 | File | `/public/plugins/` | High
 5 | File | `/replication` | Medium
 6 | File | `/start-stop` | Medium
-7 | File | `/uncpath/` | Medium
-8 | File | `/usr/bin/pkexec` | High
-9 | File | `/WEB-INF/web.xml` | High
-10 | File | `adclick.php` | Medium
-11 | File | `addrating.php` | High
-12 | File | `adm.cgi` | Low
-13 | File | `adminpanel/admin/facebox_modal/updateCourse.php` | High
-14 | File | `admin_forum_prune.php` | High
+7 | File | `/subnet-masks/popup.php` | High
+8 | File | `/uncpath/` | Medium
+9 | File | `/usr/bin/pkexec` | High
+10 | File | `/WEB-INF/web.xml` | High
+11 | File | `adclick.php` | Medium
+12 | File | `addrating.php` | High
+13 | File | `adm.cgi` | Low
+14 | File | `adminpanel/admin/facebox_modal/updateCourse.php` | High
 15 | ... | ... | ...
 
-There are 119 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 124 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

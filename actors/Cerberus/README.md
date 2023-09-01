@@ -4,19 +4,52 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.cerberus](https://vuldb.com/?actor.cerberus)
 
+## Countries
+
+These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Cerberus:
+
+* [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
+
 ## IOC - Indicator of Compromise
 
 These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of Cerberus.
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [91.210.169.114](https://vuldb.com/?ip.91.210.169.114) | 490023-cc75354.tmweb.ru | - | High
+1 | [1.5.0.9](https://vuldb.com/?ip.1.5.0.9) | - | - | High
+2 | [91.210.169.114](https://vuldb.com/?ip.91.210.169.114) | 490023-cc75354.tmweb.ru | - | High
+3 | [161.117.85.153](https://vuldb.com/?ip.161.117.85.153) | - | - | High
+
+## TTP - Tactics, Techniques, Procedures
+
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _Cerberus_. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1059.007 | CWE-79 | Cross Site Scripting | High
+2 | T1068 | CWE-269 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+3 | T1505 | CWE-89 | SQL Injection | High
+
+## IOA - Indicator of Attack
+
+These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by Cerberus. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Type | Indicator | Confidence
+-- | ---- | --------- | ----------
+1 | File | `category.cfm` | Medium
+2 | File | `checkout.cfm` | Medium
+3 | File | `sendcard.cfm` | Medium
+4 | ... | ... | ...
+
+There are 6 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://research.checkpoint.com/2020/mobile-as-attack-vector-using-mdm/
+* https://www.anomali.com/blog/leashing-cerberus#When:15:16:00Z
 
 ## Literature
 

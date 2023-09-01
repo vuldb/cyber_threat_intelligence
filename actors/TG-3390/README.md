@@ -99,7 +99,7 @@ ID | Type | Indicator | Confidence
 35 | File | `admin/index.php?id=users/action=edit/user_id=1` | High
 36 | ... | ... | ...
 
-There are 309 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 311 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

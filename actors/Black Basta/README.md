@@ -53,7 +53,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
@@ -72,66 +72,65 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin/admin.php` | High
 3 | File | `/admin/attendance_row.php` | High
 4 | File | `/admin/maintenance/view_designation.php` | High
-5 | File | `/admin/user/manage_user.php` | High
-6 | File | `/api/trackedEntityInstances` | High
-7 | File | `/bin/login.php` | High
-8 | File | `/cgi-bin/system_mgr.cgi` | High
-9 | File | `/cgi/sshcheck.cgi` | High
-10 | File | `/common/logViewer/logViewer.jsf` | High
-11 | File | `/ConsoleHelp/` | High
-12 | File | `/etc/sudoers` | Medium
-13 | File | `/export` | Low
-14 | File | `/home/filter_listings` | High
-15 | File | `/horde/imp/search.php` | High
-16 | File | `/index.php` | Medium
-17 | File | `/jsoa/hntdCustomDesktopActionContent` | High
-18 | File | `/LEPTON_stable_2.2.2/upload/admins/media/index.php` | High
-19 | File | `/login` | Low
-20 | File | `/messageboard/view.php` | High
-21 | File | `/modules/projects/vw_files.php` | High
-22 | File | `/opensis/modules/grades/InputFinalGrades.php` | High
-23 | File | `/opensis/modules/users/Staff.php` | High
-24 | File | `/plesk-site-preview/` | High
-25 | File | `/proc/self/environ` | High
-26 | File | `/rest/api/2/user/picker` | High
-27 | File | `/s/` | Low
-28 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-29 | File | `/secure/QueryComponent!Default.jspa` | High
-30 | File | `/sendrcpackage?keyid=-2544&keysymbol=-4081` | High
-31 | File | `/system?action=ServiceAdmin` | High
-32 | File | `/var/WEB-GUI/cgi-bin/downloadfile.cgi` | High
-33 | File | `/vicidial/user_stats.php` | High
-34 | File | `/websocket/exec` | High
-35 | File | `access.conf` | Medium
-36 | File | `adclick.php` | Medium
-37 | File | `addsuppliers.php` | High
-38 | File | `admin.php` | Medium
-39 | File | `admin.remository.php` | High
-40 | File | `admin/admin_users.php` | High
-41 | File | `admin/login.php` | High
-42 | File | `admin/upload.php` | High
-43 | File | `administers` | Medium
-44 | File | `Administrator_list.php` | High
-45 | File | `advancedsetup_websiteblocking.html` | High
-46 | File | `affich.php` | Medium
-47 | File | `ajax_mail_autoreply.php` | High
-48 | File | `ajax_save_name.php` | High
-49 | File | `album_portal.php` | High
-50 | File | `allocator.cc` | Medium
-51 | File | `announcements.php` | High
-52 | File | `ap1.com` | Low
-53 | File | `apache2/modsecurity.c` | High
-54 | File | `api_jsonrpc.php` | High
-55 | File | `app/admin/controller/Ajax.php` | High
-56 | File | `App/Modules/Admin/Tpl/default/Public/dwz/uploadify/scripts/uploadify.swf` | High
-57 | File | `application.php` | High
-58 | File | `apply.cgi` | Medium
-59 | File | `asp:.jpg` | Medium
-60 | File | `authfiles/login.asp` | High
-61 | File | `bb_usage_stats.php` | High
-62 | ... | ... | ...
+5 | File | `/admin/test_status.php` | High
+6 | File | `/admin/user/manage_user.php` | High
+7 | File | `/api/trackedEntityInstances` | High
+8 | File | `/bin/login.php` | High
+9 | File | `/cgi-bin/system_mgr.cgi` | High
+10 | File | `/cgi/sshcheck.cgi` | High
+11 | File | `/common/logViewer/logViewer.jsf` | High
+12 | File | `/ConsoleHelp/` | High
+13 | File | `/etc/sudoers` | Medium
+14 | File | `/export` | Low
+15 | File | `/home/filter_listings` | High
+16 | File | `/horde/imp/search.php` | High
+17 | File | `/index.php` | Medium
+18 | File | `/jsoa/hntdCustomDesktopActionContent` | High
+19 | File | `/LEPTON_stable_2.2.2/upload/admins/media/index.php` | High
+20 | File | `/login` | Low
+21 | File | `/messageboard/view.php` | High
+22 | File | `/modules/projects/vw_files.php` | High
+23 | File | `/opensis/modules/grades/InputFinalGrades.php` | High
+24 | File | `/opensis/modules/users/Staff.php` | High
+25 | File | `/plesk-site-preview/` | High
+26 | File | `/proc/self/environ` | High
+27 | File | `/rest/api/2/user/picker` | High
+28 | File | `/s/` | Low
+29 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+30 | File | `/secure/QueryComponent!Default.jspa` | High
+31 | File | `/sendrcpackage?keyid=-2544&keysymbol=-4081` | High
+32 | File | `/system?action=ServiceAdmin` | High
+33 | File | `/var/WEB-GUI/cgi-bin/downloadfile.cgi` | High
+34 | File | `/vicidial/user_stats.php` | High
+35 | File | `/websocket/exec` | High
+36 | File | `access.conf` | Medium
+37 | File | `adclick.php` | Medium
+38 | File | `addsuppliers.php` | High
+39 | File | `admin.php` | Medium
+40 | File | `admin.remository.php` | High
+41 | File | `admin/admin_users.php` | High
+42 | File | `admin/login.php` | High
+43 | File | `admin/upload.php` | High
+44 | File | `administers` | Medium
+45 | File | `Administrator_list.php` | High
+46 | File | `advancedsetup_websiteblocking.html` | High
+47 | File | `affich.php` | Medium
+48 | File | `ajax_mail_autoreply.php` | High
+49 | File | `ajax_save_name.php` | High
+50 | File | `album_portal.php` | High
+51 | File | `allocator.cc` | Medium
+52 | File | `announcements.php` | High
+53 | File | `ap1.com` | Low
+54 | File | `apache2/modsecurity.c` | High
+55 | File | `api_jsonrpc.php` | High
+56 | File | `app/admin/controller/Ajax.php` | High
+57 | File | `App/Modules/Admin/Tpl/default/Public/dwz/uploadify/scripts/uploadify.swf` | High
+58 | File | `application.php` | High
+59 | File | `apply.cgi` | Medium
+60 | File | `asp:.jpg` | Medium
+61 | ... | ... | ...
 
-There are 538 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 536 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

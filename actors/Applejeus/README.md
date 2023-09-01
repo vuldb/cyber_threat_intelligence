@@ -34,14 +34,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-25, CWE-29 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-25, CWE-29, CWE-36 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -65,34 +65,34 @@ ID | Type | Indicator | Confidence
 14 | File | `/forum/PostPrivateMessage` | High
 15 | File | `/goform/set_LimitClient_cfg` | High
 16 | File | `/home/www/cgi-bin/login.cgi` | High
-17 | File | `/multi-vendor-shopping-script/product-list.php` | High
-18 | File | `/net-banking/customer_transactions.php` | High
-19 | File | `/obs/book.php` | High
-20 | File | `/ossn/administrator/com_installer` | High
-21 | File | `/owa/auth/logon.aspx` | High
-22 | File | `/pms/update_user.php?user_id=1` | High
-23 | File | `/preview.php` | Medium
-24 | File | `/requests.php` | High
-25 | File | `/spip.php` | Medium
-26 | File | `/sqlite3_aflpp/shell.c` | High
-27 | File | `/sre/params.php` | High
-28 | File | `/SVFE2/pages/feegroups/service_group.jsf` | High
-29 | File | `/uncpath/` | Medium
-30 | File | `/user/upload/upload` | High
-31 | File | `/Users` | Low
-32 | File | `/var/spool/hylafax` | High
-33 | File | `/vendor` | Low
-34 | File | `AccessibilityManagerService.java` | High
-35 | File | `accountrecoveryendpoint/recoverpassword.do` | High
-36 | File | `adclick.php` | Medium
-37 | File | `add_contestant.php` | High
-38 | File | `admin.php` | Medium
-39 | File | `admin/edit_category.php` | High
-40 | File | `admin/index.php` | High
-41 | File | `admin/make_payments.php` | High
-42 | File | `af_netlink.c` | Medium
-43 | File | `album_portal.php` | High
-44 | File | `api/auth.go` | Medium
+17 | File | `/hss/admin/?page=products/view_product` | High
+18 | File | `/multi-vendor-shopping-script/product-list.php` | High
+19 | File | `/net-banking/customer_transactions.php` | High
+20 | File | `/obs/book.php` | High
+21 | File | `/ossn/administrator/com_installer` | High
+22 | File | `/owa/auth/logon.aspx` | High
+23 | File | `/pms/update_user.php?user_id=1` | High
+24 | File | `/preview.php` | Medium
+25 | File | `/requests.php` | High
+26 | File | `/spip.php` | Medium
+27 | File | `/sqlite3_aflpp/shell.c` | High
+28 | File | `/sre/params.php` | High
+29 | File | `/SVFE2/pages/feegroups/service_group.jsf` | High
+30 | File | `/uncpath/` | Medium
+31 | File | `/user/upload/upload` | High
+32 | File | `/Users` | Low
+33 | File | `/var/spool/hylafax` | High
+34 | File | `/vendor` | Low
+35 | File | `AccessibilityManagerService.java` | High
+36 | File | `accountrecoveryendpoint/recoverpassword.do` | High
+37 | File | `adclick.php` | Medium
+38 | File | `add_contestant.php` | High
+39 | File | `admin.php` | Medium
+40 | File | `admin/edit_category.php` | High
+41 | File | `admin/index.php` | High
+42 | File | `admin/make_payments.php` | High
+43 | File | `admin/_cmdstat.jsp` | High
+44 | File | `af_netlink.c` | Medium
 45 | ... | ... | ...
 
 There are 392 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.

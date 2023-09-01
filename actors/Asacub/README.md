@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [DE](https://vuldb.com/?country.de)
-* [IT](https://vuldb.com/?country.it)
+* [ES](https://vuldb.com/?country.es)
 * ...
 
 There are 5 more country items available. Please use our online service to access the data.
@@ -54,12 +54,13 @@ ID | Type | Indicator | Confidence
 5 | File | `/etc/luminex/pkgmgr` | High
 6 | File | `/goform/langSwitch` | High
 7 | File | `/rom-0` | Low
-8 | File | `add.php` | Low
-9 | File | `add_comment.php` | High
-10 | File | `add_quiz.php` | Medium
-11 | ... | ... | ...
+8 | File | `/settings/account` | High
+9 | File | `/tmp/tardiff-$` | High
+10 | File | `add.php` | Low
+11 | File | `add_comment.php` | High
+12 | ... | ... | ...
 
-There are 88 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 93 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

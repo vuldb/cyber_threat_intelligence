@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [US](https://vuldb.com/?country.us)
 * ...
 
-There are 10 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -151,15 +151,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-36, CWE-425 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
-7 | ... | ... | ... | ...
+6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -167,53 +166,57 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/?p=products` | Medium
-2 | File | `/admin.php/accessory/filesdel.html` | High
-3 | File | `/admin/?page=user/manage` | High
-4 | File | `/admin/add-new.php` | High
+1 | File | `.htaccess` | Medium
+2 | File | `/?p=products` | Medium
+3 | File | `/?r=recruit/resume/edit&op=status` | High
+4 | File | `/ad-list` | Medium
 5 | File | `/admin/attendance_row.php` | High
-6 | File | `/admin/doctors.php` | High
-7 | File | `/admin/edit_subject.php` | High
-8 | File | `/admin/employee_row.php` | High
-9 | File | `/admin/index3.php` | High
-10 | File | `/admin/maintenance/brand.php` | High
-11 | File | `/admin/maintenance/view_designation.php` | High
-12 | File | `/admin/mechanics/manage_mechanic.php` | High
-13 | File | `/admin/orders/update_status.php` | High
-14 | File | `/admin/reportupload.aspx` | High
-15 | File | `/admin/service.php` | High
-16 | File | `/admin/service_requests/manage_inventory.php` | High
-17 | File | `/admin/transactions/track_shipment.php` | High
-18 | File | `/adms/admin/?page=vehicles/view_transaction` | High
-19 | File | `/alphaware/summary.php` | High
-20 | File | `/api/` | Low
-21 | File | `/api/admin/store/product/list` | High
-22 | File | `/api/crontab` | Medium
-23 | File | `/api/stl/actions/search` | High
-24 | File | `/api/v2/cli/commands` | High
-25 | File | `/api2/html/` | Medium
-26 | File | `/boat/login.php` | High
-27 | File | `/cgi-bin` | Medium
-28 | File | `/cgi-bin/nightled.cgi` | High
-29 | File | `/cgi-bin/wlogin.cgi` | High
-30 | File | `/check` | Low
-31 | File | `/churchcrm/v2/family/not-found` | High
-32 | File | `/classes/Master.php?f=delete_inquiry` | High
-33 | File | `/classes/Master.php?f=delete_sub_category` | High
-34 | File | `/CPE` | Low
-35 | File | `/debug/pprof` | Medium
-36 | File | `/etc/pki/pesign` | High
-37 | File | `/file_manager/admin/save_user.php` | High
-38 | File | `/forum/away.php` | High
-39 | File | `/goform/aspForm` | High
-40 | File | `/goform/SetFirewallCfg` | High
-41 | File | `/inc/topBarNav.php` | High
-42 | File | `/iwgallery/pictures/details.asp` | High
-43 | File | `/jurusan/data` | High
-44 | File | `/kelasdosen/data` | High
-45 | ... | ... | ...
+6 | File | `/admin/edit-accepted-appointment.php` | High
+7 | File | `/admin/edit-services.php` | High
+8 | File | `/admin/edit_subject.php` | High
+9 | File | `/admin/employee_row.php` | High
+10 | File | `/admin/login.php` | High
+11 | File | `/admin/maintenance/brand.php` | High
+12 | File | `/admin/maintenance/view_designation.php` | High
+13 | File | `/admin/mechanics/manage_mechanic.php` | High
+14 | File | `/admin/orders/update_status.php` | High
+15 | File | `/admin/read.php?mudi=getSignal` | High
+16 | File | `/admin/reportupload.aspx` | High
+17 | File | `/admin/service.php` | High
+18 | File | `/admin/service_requests/manage_inventory.php` | High
+19 | File | `/admin/test_status.php` | High
+20 | File | `/admin/transactions/track_shipment.php` | High
+21 | File | `/api/` | Low
+22 | File | `/api/admin/store/product/list` | High
+23 | File | `/api/baskets/{name}` | High
+24 | File | `/api/crontab` | Medium
+25 | File | `/api/stl/actions/search` | High
+26 | File | `/api/v2/cli/commands` | High
+27 | File | `/api2/html/` | Medium
+28 | File | `/apply.cgi` | Medium
+29 | File | `/archibus/login.axvw` | High
+30 | File | `/bin/ate` | Medium
+31 | File | `/blog` | Low
+32 | File | `/booking/show_bookings/` | High
+33 | File | `/cgi-bin` | Medium
+34 | File | `/cgi-bin/nightled.cgi` | High
+35 | File | `/cgi-bin/wlogin.cgi` | High
+36 | File | `/change-language/de_DE` | High
+37 | File | `/churchcrm/v2/family/not-found` | High
+38 | File | `/classes/Master.php?f=delete_inquiry` | High
+39 | File | `/classes/Master.php?f=delete_sub_category` | High
+40 | File | `/company/store` | High
+41 | File | `/config` | Low
+42 | File | `/csms/?page=contact_us` | High
+43 | File | `/debug/pprof` | Medium
+44 | File | `/dipam/save-delegates.php` | High
+45 | File | `/env` | Low
+46 | File | `/etc/pki/pesign` | High
+47 | File | `/file_manager/admin/save_user.php` | High
+48 | File | `/forum/away.php` | High
+49 | ... | ... | ...
 
-There are 393 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 430 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

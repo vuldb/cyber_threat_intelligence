@@ -107,10 +107,11 @@ ID | Type | Indicator | Confidence
 44 | File | `5.2.9\syscrb.exe` | High
 45 | File | `123flashchat.php` | High
 46 | File | `a2billing/customer/iridium_threed.php` | High
-47 | File | `add_ons.php` | Medium
-48 | ... | ... | ...
+47 | File | `adclick.php` | Medium
+48 | File | `add_ons.php` | Medium
+49 | ... | ... | ...
 
-There are 419 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 426 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

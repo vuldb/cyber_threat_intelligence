@@ -8,8 +8,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with UNIX CCTV DVR:
 
-* [US](https://vuldb.com/?country.us)
 * [LU](https://vuldb.com/?country.lu)
+* [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
@@ -51,7 +51,7 @@ ID | Technique | Weakness | Description | Confidence
 6 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 7 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 23 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -59,58 +59,60 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin.php/singer/admin/lists/zhuan` | High
-2 | File | `/admin.php/User/level_sort` | High
-3 | File | `/admin/cloud.php` | High
-4 | File | `/admin/login.php` | High
-5 | File | `/admin/maintenance/view_designation.php` | High
-6 | File | `/admin/siteoptions.php&action=displaygoal&value=1&roleid=1` | High
-7 | File | `/admin/user/manage_user.php` | High
-8 | File | `/ajax.php?action=read_msg` | High
-9 | File | `/blog/edit` | Medium
-10 | File | `/cgi-bin/uploadWeiXinPic` | High
-11 | File | `/cgi-bin/wlogin.cgi` | High
-12 | File | `/classes/Master.php?f=delete_category` | High
-13 | File | `/core/admin/categories.php` | High
-14 | File | `/coreframe/app/order/admin/card.php` | High
-15 | File | `/dms/admin/reports/daily_collection_report.php` | High
-16 | File | `/eshop/products/json/aouCustomerAdresse` | High
-17 | File | `/etc/config/cameo` | High
-18 | File | `/extensionsinstruction` | High
-19 | File | `/food/admin/all_users.php` | High
-20 | File | `/goform/PowerSaveSet` | High
-21 | File | `/goform/SetClientState` | High
-22 | File | `/goform/SetFirewallCfg` | High
-23 | File | `/goform/setWorkmode` | High
-24 | File | `/goform/wizard_end` | High
-25 | File | `/goods/getGoodsListByConditions/` | High
-26 | File | `/index.php` | Medium
-27 | File | `/isms/classes/Users.php` | High
-28 | File | `/lists/index.php` | High
-29 | File | `/member/index/login.html` | High
-30 | File | `/members/view_member.php` | High
-31 | File | `/messageboard/view.php` | High
-32 | File | `/moddable/xs/sources/xsScript.c` | High
-33 | File | `/moddable/xs/sources/xsSymbol.c` | High
-34 | File | `/modules/projects/vw_files.php` | High
-35 | File | `/nova/bin/lcdstat` | High
-36 | File | `/ofrs/admin/?page=teams/view_team` | High
-37 | File | `/ordering/index.php?q=category` | High
-38 | File | `/owa/auth/logon.aspx` | High
-39 | File | `/picturesPreview` | High
-40 | File | `/rest/api/1.0/issues/{id}/ActionsAndOperations` | High
-41 | File | `/rest/api/2/user/picker` | High
-42 | File | `/secure/QueryComponent!Default.jspa` | High
-43 | File | `/simple_chat_bot/classes/Master.php?f=delete_response` | High
-44 | File | `/SiteServer/Ajax/ajaxOtherService.aspx` | High
-45 | File | `/sns/classes/Master.php?f=delete_img` | High
-46 | File | `/Source/C++/Core/Ap4Array.h` | High
-47 | File | `/src/njs_vmcode.c` | High
-48 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
-49 | File | `/syscmd.asp` | Medium
-50 | ... | ... | ...
+1 | File | `/add_post_sql.php` | High
+2 | File | `/admin.php/singer/admin/lists/zhuan` | High
+3 | File | `/admin.php/User/level_sort` | High
+4 | File | `/admin/cloud.php` | High
+5 | File | `/admin/del_service.php` | High
+6 | File | `/admin/login.php` | High
+7 | File | `/admin/maintenance/view_designation.php` | High
+8 | File | `/admin/siteoptions.php&action=displaygoal&value=1&roleid=1` | High
+9 | File | `/admin/user/manage_user.php` | High
+10 | File | `/ajax.php?action=read_msg` | High
+11 | File | `/api/baskets/{name}` | High
+12 | File | `/blog/edit` | Medium
+13 | File | `/cgi-bin/uploadWeiXinPic` | High
+14 | File | `/cgi-bin/wlogin.cgi` | High
+15 | File | `/classes/Master.php?f=delete_category` | High
+16 | File | `/classes/Master.php?f=save_item` | High
+17 | File | `/core/admin/categories.php` | High
+18 | File | `/coreframe/app/order/admin/card.php` | High
+19 | File | `/dms/admin/reports/daily_collection_report.php` | High
+20 | File | `/editprofile.php` | High
+21 | File | `/eshop/products/json/aouCustomerAdresse` | High
+22 | File | `/etc/config/cameo` | High
+23 | File | `/extensionsinstruction` | High
+24 | File | `/food/admin/all_users.php` | High
+25 | File | `/goform/PowerSaveSet` | High
+26 | File | `/goform/SetClientState` | High
+27 | File | `/goform/SetFirewallCfg` | High
+28 | File | `/goform/setWorkmode` | High
+29 | File | `/goform/wizard_end` | High
+30 | File | `/goods/getGoodsListByConditions/` | High
+31 | File | `/index.php` | Medium
+32 | File | `/isms/classes/Users.php` | High
+33 | File | `/lists/index.php` | High
+34 | File | `/members/view_member.php` | High
+35 | File | `/messageboard/view.php` | High
+36 | File | `/moddable/xs/sources/xsScript.c` | High
+37 | File | `/moddable/xs/sources/xsSymbol.c` | High
+38 | File | `/modules/projects/vw_files.php` | High
+39 | File | `/nova/bin/lcdstat` | High
+40 | File | `/ofrs/admin/?page=teams/view_team` | High
+41 | File | `/ordering/index.php?q=category` | High
+42 | File | `/owa/auth/logon.aspx` | High
+43 | File | `/picturesPreview` | High
+44 | File | `/rest/api/2/user/picker` | High
+45 | File | `/secure/QueryComponent!Default.jspa` | High
+46 | File | `/simple_chat_bot/classes/Master.php?f=delete_response` | High
+47 | File | `/SiteServer/Ajax/ajaxOtherService.aspx` | High
+48 | File | `/sns/classes/Master.php?f=delete_img` | High
+49 | File | `/Source/C++/Core/Ap4Array.h` | High
+50 | File | `/src/njs_vmcode.c` | High
+51 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
+52 | ... | ... | ...
 
-There are 438 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 451 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

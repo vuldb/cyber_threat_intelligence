@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 18 more country items available. Please use our online service to access the data.
+There are 17 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -36,16 +36,17 @@ ID | IP address | Hostname | Campaign | Confidence
 7 | [42.112.28.216](https://vuldb.com/?ip.42.112.28.216) | midp.highlatrol.com | Log4Shell | High
 8 | [45.10.88.102](https://vuldb.com/?ip.45.10.88.102) | 45.10.88.102.cl.darnytsia.net | - | High
 9 | [45.10.88.124](https://vuldb.com/?ip.45.10.88.124) | - | - | High
-10 | [45.67.230.68](https://vuldb.com/?ip.45.67.230.68) | vm330138.pq.hosting | - | High
-11 | [45.95.169.118](https://vuldb.com/?ip.45.95.169.118) | zb64.antoniagavve.live | - | High
-12 | [45.129.2.107](https://vuldb.com/?ip.45.129.2.107) | - | Log4Shell | High
-13 | [45.137.151.106](https://vuldb.com/?ip.45.137.151.106) | - | Log4Shell | High
-14 | [45.137.155.55](https://vuldb.com/?ip.45.137.155.55) | vm360194.pq.hosting | Log4Shell | High
-15 | [45.142.214.48](https://vuldb.com/?ip.45.142.214.48) | server.com | Log4Shell | High
-16 | [45.147.201.186](https://vuldb.com/?ip.45.147.201.186) | - | - | High
-17 | ... | ... | ... | ...
+10 | [45.15.158.124](https://vuldb.com/?ip.45.15.158.124) | - | - | High
+11 | [45.67.230.68](https://vuldb.com/?ip.45.67.230.68) | vm330138.pq.hosting | - | High
+12 | [45.95.169.118](https://vuldb.com/?ip.45.95.169.118) | zb64.antoniagavve.live | - | High
+13 | [45.129.2.107](https://vuldb.com/?ip.45.129.2.107) | - | Log4Shell | High
+14 | [45.137.151.106](https://vuldb.com/?ip.45.137.151.106) | - | Log4Shell | High
+15 | [45.137.155.55](https://vuldb.com/?ip.45.137.155.55) | vm360194.pq.hosting | Log4Shell | High
+16 | [45.142.214.48](https://vuldb.com/?ip.45.142.214.48) | server.com | Log4Shell | High
+17 | [45.147.201.186](https://vuldb.com/?ip.45.147.201.186) | - | - | High
+18 | ... | ... | ... | ...
 
-There are 66 more IOC items available. Please use our online service to access the data.
+There are 67 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -60,7 +61,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -68,72 +69,69 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/contenttemp` | High
-2 | File | `/admin/dl_sendmail.php` | High
-3 | File | `/admin/login.php` | High
-4 | File | `/admin/store.php` | High
-5 | File | `/api/files/` | Medium
+1 | File | `/add_post_sql.php` | High
+2 | File | `/admin/contenttemp` | High
+3 | File | `/admin/dl_sendmail.php` | High
+4 | File | `/admin/login.php` | High
+5 | File | `/admin/store.php` | High
 6 | File | `/api/trackedEntityInstances` | High
 7 | File | `/api/user/password/sent-reset-email` | High
 8 | File | `/api/v2/cli/commands` | High
 9 | File | `/app/Http/Controllers/Admin/NEditorController.php` | High
 10 | File | `/cgi-bin/wlogin.cgi` | High
-11 | File | `/de/cgi/dfs_guest/` | High
-12 | File | `/DXR.axd` | Medium
-13 | File | `/filemanager/upload.php` | High
-14 | File | `/forum/away.php` | High
-15 | File | `/GponForm/fsetup_Form` | High
-16 | File | `/include/makecvs.php` | High
-17 | File | `/includes/event-management/index.php` | High
-18 | File | `/index.php` | Medium
-19 | File | `/lab.html` | Medium
-20 | File | `/Main_AdmStatus_Content.asp` | High
-21 | File | `/member/picture/album` | High
-22 | File | `/mgmt/tm/util/bash` | High
-23 | File | `/mifs/c/i/reg/reg.html` | High
-24 | File | `/modules/profile/index.php` | High
-25 | File | `/out.php` | Medium
-26 | File | `/owa/auth/logon.aspx` | High
-27 | File | `/plugins/servlet/gadgets/makeRequest` | High
-28 | File | `/preview.php` | Medium
-29 | File | `/products/details.asp` | High
-30 | File | `/public/plugins/` | High
-31 | File | `/requests.php` | High
-32 | File | `/reviewer_0/admins/assessments/pretest/questions-view.php` | High
-33 | File | `/secure/QueryComponent!Default.jspa` | High
-34 | File | `/secure/ViewCollectors` | High
-35 | File | `/services/details.asp` | High
-36 | File | `/Session` | Medium
-37 | File | `/spip.php` | Medium
-38 | File | `/SysInfo.htm` | Medium
-39 | File | `/uncpath/` | Medium
-40 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
-41 | File | `/usr/syno/etc/mount.conf` | High
-42 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
-43 | File | `/vendor` | Low
-44 | File | `/wp-admin/admin.php?page=wp_file_manager_properties` | High
-45 | File | `/wp-json/oembed/1.0/embed?url` | High
-46 | File | `/wp/?cpmvc_id=1&cpmvc_do_action=mvparse&f=datafeed&calid=1&month_index=1&method=adddetails&id=2` | High
-47 | File | `/zm/index.php` | High
-48 | File | `a-b-membres.php` | High
-49 | File | `actions.php` | Medium
-50 | File | `adclick.php` | Medium
-51 | File | `add.php` | Low
-52 | File | `addtocart.asp` | High
-53 | File | `add_2_basket.asp` | High
-54 | File | `add_edit_cat.asp` | High
-55 | File | `admin.jcomments.php` | High
-56 | File | `admin.php` | Medium
-57 | File | `admin.php/comments/batchdel/` | High
-58 | File | `admin/aboutus.php` | High
-59 | File | `admin/adm/test.php` | High
-60 | File | `admin/article_save.php` | High
-61 | File | `admin/bitrix.mpbuilder_step2.php` | High
-62 | File | `admin/conf_users_edit.php` | High
-63 | File | `admin/vqmods.app/vqmods.inc.php` | High
-64 | ... | ... | ...
+11 | File | `/DXR.axd` | Medium
+12 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+13 | File | `/forum/away.php` | High
+14 | File | `/GponForm/fsetup_Form` | High
+15 | File | `/include/makecvs.php` | High
+16 | File | `/includes/event-management/index.php` | High
+17 | File | `/index.php` | Medium
+18 | File | `/lab.html` | Medium
+19 | File | `/member/picture/album` | High
+20 | File | `/mgmt/tm/util/bash` | High
+21 | File | `/modules/profile/index.php` | High
+22 | File | `/out.php` | Medium
+23 | File | `/owa/auth/logon.aspx` | High
+24 | File | `/plugins/servlet/gadgets/makeRequest` | High
+25 | File | `/preview.php` | Medium
+26 | File | `/products/details.asp` | High
+27 | File | `/public/plugins/` | High
+28 | File | `/requests.php` | High
+29 | File | `/reviewer_0/admins/assessments/pretest/questions-view.php` | High
+30 | File | `/secure/QueryComponent!Default.jspa` | High
+31 | File | `/secure/ViewCollectors` | High
+32 | File | `/services/details.asp` | High
+33 | File | `/Session` | Medium
+34 | File | `/spip.php` | Medium
+35 | File | `/SysInfo.htm` | Medium
+36 | File | `/uncpath/` | Medium
+37 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
+38 | File | `/usr/syno/etc/mount.conf` | High
+39 | File | `/var/log/fujitsu/ServerViewSuite/ism/FirmwareManagement/FirmwareManagement.log` | High
+40 | File | `/var/log/rkhunter.log` | High
+41 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
+42 | File | `/vendor` | Low
+43 | File | `/wp-admin/admin.php?page=wp_file_manager_properties` | High
+44 | File | `/wp-json/oembed/1.0/embed?url` | High
+45 | File | `/wp/?cpmvc_id=1&cpmvc_do_action=mvparse&f=datafeed&calid=1&month_index=1&method=adddetails&id=2` | High
+46 | File | `/zm/index.php` | High
+47 | File | `a-b-membres.php` | High
+48 | File | `actions.php` | Medium
+49 | File | `adclick.php` | Medium
+50 | File | `add.php` | Low
+51 | File | `addtocart.asp` | High
+52 | File | `add_2_basket.asp` | High
+53 | File | `add_edit_cat.asp` | High
+54 | File | `admin.jcomments.php` | High
+55 | File | `admin.php` | Medium
+56 | File | `admin.php/comments/batchdel/` | High
+57 | File | `admin/aboutus.php` | High
+58 | File | `admin/adm/test.php` | High
+59 | File | `admin/article_save.php` | High
+60 | File | `admin/bitrix.mpbuilder_step2.php` | High
+61 | ... | ... | ...
 
-There are 557 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 535 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

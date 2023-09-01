@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 21 more country items available. Please use our online service to access the data.
+There are 23 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -29,14 +29,16 @@ ID | IP address | Hostname | Campaign | Confidence
 6 | [3.141.204.47](https://vuldb.com/?ip.3.141.204.47) | ec2-3-141-204-47.us-east-2.compute.amazonaws.com | - | Medium
 7 | [3.142.71.14](https://vuldb.com/?ip.3.142.71.14) | ec2-3-142-71-14.us-east-2.compute.amazonaws.com | - | Medium
 8 | [3.142.157.76](https://vuldb.com/?ip.3.142.157.76) | ec2-3-142-157-76.us-east-2.compute.amazonaws.com | - | Medium
-9 | [8.130.105.57](https://vuldb.com/?ip.8.130.105.57) | - | - | High
-10 | [13.234.135.58](https://vuldb.com/?ip.13.234.135.58) | ec2-13-234-135-58.ap-south-1.compute.amazonaws.com | - | Medium
-11 | [18.167.109.204](https://vuldb.com/?ip.18.167.109.204) | ec2-18-167-109-204.ap-east-1.compute.amazonaws.com | - | Medium
-12 | [23.94.107.211](https://vuldb.com/?ip.23.94.107.211) | read-variation.pickexit.com | - | High
-13 | [35.157.111.131](https://vuldb.com/?ip.35.157.111.131) | ec2-35-157-111-131.eu-central-1.compute.amazonaws.com | - | Medium
-14 | ... | ... | ... | ...
+9 | [5.188.86.146](https://vuldb.com/?ip.5.188.86.146) | - | - | High
+10 | [8.130.105.57](https://vuldb.com/?ip.8.130.105.57) | - | - | High
+11 | [13.234.135.58](https://vuldb.com/?ip.13.234.135.58) | ec2-13-234-135-58.ap-south-1.compute.amazonaws.com | - | Medium
+12 | [18.167.109.204](https://vuldb.com/?ip.18.167.109.204) | ec2-18-167-109-204.ap-east-1.compute.amazonaws.com | - | Medium
+13 | [23.94.107.211](https://vuldb.com/?ip.23.94.107.211) | read-variation.pickexit.com | - | High
+14 | [23.234.200.144](https://vuldb.com/?ip.23.234.200.144) | 144-200-234-23-dedicated.multacom.com | - | High
+15 | [35.157.111.131](https://vuldb.com/?ip.35.157.111.131) | ec2-35-157-111-131.eu-central-1.compute.amazonaws.com | - | Medium
+16 | ... | ... | ... | ...
 
-There are 53 more IOC items available. Please use our online service to access the data.
+There are 60 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -50,7 +52,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -66,42 +68,44 @@ ID | Type | Indicator | Confidence
 6 | File | `/Api/ASF` | Medium
 7 | File | `/api/v2/cli/commands` | High
 8 | File | `/backend/system.html` | High
-9 | File | `/dvcset/sysset/set.cgi` | High
-10 | File | `/edit-db.php` | Medium
-11 | File | `/en/blog-comment-4` | High
-12 | File | `/go/api/config/backup` | High
-13 | File | `/goform/aspForm` | High
-14 | File | `/HNAP1` | Low
-15 | File | `/include/stat/stat.php` | High
-16 | File | `/index.php` | Medium
-17 | File | `/mkshope/login.php` | High
-18 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-19 | File | `/redpass.cgi` | Medium
-20 | File | `/spip.php` | Medium
-21 | File | `/uncpath/` | Medium
-22 | File | `/user/zs_elite.php` | High
-23 | File | `/usr/bin/pkexec` | High
-24 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
-25 | File | `/vloggers_merch/classes/Master.php?f=delete_order` | High
-26 | File | `/VPortal/mgtconsole/Rights.jsp` | High
-27 | File | `/webman/info.cgi` | High
-28 | File | `/wp-admin/admin-ajax.php` | High
-29 | File | `5.2.9\syscrb.exe` | High
-30 | File | `abook_database.php` | High
-31 | File | `accountrecoveryendpoint/recoverpassword.do` | High
-32 | File | `admin/index.php/setting/site?tab=site_attachment` | High
-33 | File | `admin/review.php` | High
-34 | File | `admin_add.php` | High
-35 | File | `api.php/cms/addform?fcode=1` | High
-36 | File | `apps/app_article/controller/rating.php` | High
-37 | File | `ashnews.php/ashheadlines.php` | High
-38 | File | `attachment.do` | High
-39 | File | `auth.php` | Medium
-40 | File | `auth2-gss.c` | Medium
-41 | File | `b/deploy/index.php` | High
-42 | ... | ... | ...
+9 | File | `/debug/pprof` | Medium
+10 | File | `/dvcset/sysset/set.cgi` | High
+11 | File | `/edit-db.php` | Medium
+12 | File | `/en/blog-comment-4` | High
+13 | File | `/go/api/config/backup` | High
+14 | File | `/goform/aspForm` | High
+15 | File | `/goform/RgUrlBlock.asp` | High
+16 | File | `/HNAP1` | Low
+17 | File | `/include/stat/stat.php` | High
+18 | File | `/index.php` | Medium
+19 | File | `/mkshope/login.php` | High
+20 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+21 | File | `/redpass.cgi` | Medium
+22 | File | `/spip.php` | Medium
+23 | File | `/uncpath/` | Medium
+24 | File | `/user/zs_elite.php` | High
+25 | File | `/usr/bin/pkexec` | High
+26 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
+27 | File | `/vloggers_merch/classes/Master.php?f=delete_order` | High
+28 | File | `/VPortal/mgtconsole/Rights.jsp` | High
+29 | File | `/webman/info.cgi` | High
+30 | File | `/wp-admin/admin-ajax.php` | High
+31 | File | `5.2.9\syscrb.exe` | High
+32 | File | `abook_database.php` | High
+33 | File | `accountrecoveryendpoint/recoverpassword.do` | High
+34 | File | `admin/index.php/setting/site?tab=site_attachment` | High
+35 | File | `admin/review.php` | High
+36 | File | `admin_add.php` | High
+37 | File | `api.php/cms/addform?fcode=1` | High
+38 | File | `apps/app_article/controller/rating.php` | High
+39 | File | `ashnews.php/ashheadlines.php` | High
+40 | File | `attachment.do` | High
+41 | File | `auth.php` | Medium
+42 | File | `auth2-gss.c` | Medium
+43 | File | `b/deploy/index.php` | High
+44 | ... | ... | ...
 
-There are 360 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 380 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -111,6 +115,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://github.com/blackorbird/APT_REPORT/blob/master/SideCopy/Network_IOCs_list_for_coverage.txt
 * https://raw.githubusercontent.com/CronUp/Malware-IOCs/main/2021-12-22_MeterpreterLog4Shell
 * https://threatfox.abuse.ch
+* https://twitter.com/1zrr4h/status/1687060842007658496?s=46&t=wfL-ZKk9EVmg9rgncGhL4g
 * https://twitter.com/500mk500/status/1585993540739665920
 * https://twitter.com/pollo290987/status/1658230510617862147
 

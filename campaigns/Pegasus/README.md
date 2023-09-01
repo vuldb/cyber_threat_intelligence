@@ -105,7 +105,7 @@ ID | Type | Indicator | Confidence
 37 | File | `accounts/view_details.php` | High
 38 | ... | ... | ...
 
-There are 323 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 326 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

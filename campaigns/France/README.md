@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [IO](https://vuldb.com/?country.io)
 * ...
 
-There are 22 more country items available. Please use our online service to access the data.
+There are 21 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -11561,12 +11561,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-24 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-36 | Pathname Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+6 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+7 | ... | ... | ... | ...
 
 There are 22 more TTP items available. Please use our online service to access the data.
 
@@ -11578,7 +11579,7 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.github/workflows/comment.yml` | High
 2 | File | `/?r=recruit/resume/edit&op=status` | High
-3 | File | `/admin.php?c=upload&f=zip&_noCache=0.1683794968` | High
+3 | File | `/academy/home/courses` | High
 4 | File | `/admin/?page=user/manage_user&id=3` | High
 5 | File | `/admin/about-us.php` | High
 6 | File | `/admin/add-category.php` | High
@@ -11598,36 +11599,35 @@ ID | Type | Indicator | Confidence
 20 | File | `/admin/reg.php` | High
 21 | File | `/admin/search-appointment.php` | High
 22 | File | `/admin/sys_sql_query.php` | High
-23 | File | `/admin/update_s6.php` | High
-24 | File | `/api/baskets/{name}` | High
-25 | File | `/api/v1/snapshots` | High
-26 | File | `/App_Resource/UEditor/server/upload.aspx` | High
-27 | File | `/bin/ate` | Medium
-28 | File | `/blog` | Low
-29 | File | `/blog-single.php` | High
-30 | File | `/booking/show_bookings/` | High
-31 | File | `/category.php` | High
-32 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
-33 | File | `/chaincity/user/ticket/create` | High
-34 | File | `/classes/Master.php?f=delete_inquiry` | High
-35 | File | `/classes/Master.php?f=save_inquiry` | High
-36 | File | `/classes/Master.php?f=save_service` | High
-37 | File | `/company/store` | High
-38 | File | `/contact/store` | High
-39 | File | `/Controller/Ajaxfileupload.ashx` | High
-40 | File | `/dipam/athlete-profile.php` | High
-41 | File | `/download` | Medium
-42 | File | `/Duty/AjaxHandle/UploadFloodPlanFileUpdate.ashx` | High
-43 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
-44 | File | `/Duty/AjaxHandle/Write/UploadFile.ashx` | High
-45 | File | `/ecommerce/support_ticket` | High
-46 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-47 | File | `/env` | Low
-48 | File | `/EventBookingCalendar/load.php?controller=GzFront/action=checkout/cid=1/layout=calendar/show_header=T/local=3` | High
-49 | File | `/forum/away.php` | High
-50 | ... | ... | ...
+23 | File | `/api/baskets/{name}` | High
+24 | File | `/api/database` | High
+25 | File | `/api/sys/set_passwd` | High
+26 | File | `/api/v1/snapshots` | High
+27 | File | `/App_Resource/UEditor/server/upload.aspx` | High
+28 | File | `/bin/ate` | Medium
+29 | File | `/bitrix/admin/ldap_server_edit.php` | High
+30 | File | `/blog` | Low
+31 | File | `/blog-single.php` | High
+32 | File | `/booking/show_bookings/` | High
+33 | File | `/c/PluginsController.php` | High
+34 | File | `/category.php` | High
+35 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
+36 | File | `/chaincity/user/ticket/create` | High
+37 | File | `/classes/Master.php?f=delete_inquiry` | High
+38 | File | `/classes/Master.php?f=save_inquiry` | High
+39 | File | `/classes/Master.php?f=save_service` | High
+40 | File | `/company/store` | High
+41 | File | `/contact/store` | High
+42 | File | `/Controller/Ajaxfileupload.ashx` | High
+43 | File | `/debug/pprof` | Medium
+44 | File | `/dipam/athlete-profile.php` | High
+45 | File | `/download` | Medium
+46 | File | `/Duty/AjaxHandle/UploadFloodPlanFileUpdate.ashx` | High
+47 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
+48 | File | `/Duty/AjaxHandle/Write/UploadFile.ashx` | High
+49 | ... | ... | ...
 
-There are 436 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 423 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

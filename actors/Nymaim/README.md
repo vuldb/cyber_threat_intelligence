@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [NL](https://vuldb.com/?country.nl)
 * ...
 
-There are 15 more country items available. Please use our online service to access the data.
+There are 14 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -44,14 +44,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-25, CWE-28 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-25 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -69,9 +69,9 @@ ID | Type | Indicator | Confidence
 8 | File | `/alphaware/summary.php` | High
 9 | File | `/api/` | Low
 10 | File | `/api/admin/store/product/list` | High
-11 | File | `/api/stl/actions/search` | High
-12 | File | `/api/v2/cli/commands` | High
-13 | File | `/attachments` | Medium
+11 | File | `/api/baskets/{name}` | High
+12 | File | `/api/stl/actions/search` | High
+13 | File | `/api/v2/cli/commands` | High
 14 | File | `/backup.pl` | Medium
 15 | File | `/bin/ate` | Medium
 16 | File | `/boat/login.php` | High
@@ -82,33 +82,32 @@ ID | Type | Indicator | Confidence
 21 | File | `/debug/pprof` | Medium
 22 | File | `/DXR.axd` | Medium
 23 | File | `/env` | Low
-24 | File | `/etc/hosts` | Medium
+24 | File | `/forms/doLogin` | High
 25 | File | `/forum/away.php` | High
 26 | File | `/goform/formWPS` | High
-27 | File | `/inc/campaign/count_of_send.php` | High
-28 | File | `/medicines/profile.php` | High
-29 | File | `/php-sms/admin/?page=user/manage_user` | High
-30 | File | `/proxy` | Low
-31 | File | `/rdms/admin/?page=user/manage_user` | High
-32 | File | `/reservation/add_message.php` | High
-33 | File | `/secure/QueryComponent!Default.jspa` | High
-34 | File | `/servlet/webacc` | High
-35 | File | `/servlet/webacc?user.html` | High
-36 | File | `/spip.php` | Medium
-37 | File | `/templates/importinline.vm` | High
-38 | File | `/tmp` | Low
-39 | File | `/trx_addons/v2/get/sc_layout` | High
-40 | File | `/uscgi-bin/users.cgi` | High
-41 | File | `/user/updatePwd` | High
-42 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
-43 | File | `/video-sharing-script/watch-video.php` | High
-44 | File | `/web/entry/en/address/adrsSetUserWizard.cgi` | High
-45 | File | `/WebApp/SettingsExclusion/GetExclusionsProfiles` | High
+27 | File | `/group1/uploa` | High
+28 | File | `/inc/campaign/count_of_send.php` | High
+29 | File | `/load.php` | Medium
+30 | File | `/medicines/profile.php` | High
+31 | File | `/php-sms/admin/?page=user/manage_user` | High
+32 | File | `/rdms/admin/?page=user/manage_user` | High
+33 | File | `/reservation/add_message.php` | High
+34 | File | `/resources//../` | High
+35 | File | `/secure/QueryComponent!Default.jspa` | High
+36 | File | `/servlet/webacc` | High
+37 | File | `/servlet/webacc?user.html` | High
+38 | File | `/spip.php` | Medium
+39 | File | `/templates/importinline.vm` | High
+40 | File | `/trx_addons/v2/get/sc_layout` | High
+41 | File | `/uscgi-bin/users.cgi` | High
+42 | File | `/user/updatePwd` | High
+43 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
+44 | File | `/video-sharing-script/watch-video.php` | High
+45 | File | `/web/entry/en/address/adrsSetUserWizard.cgi` | High
 46 | File | `/wireless/security.asp` | High
-47 | File | `AcquisiAction.class.php` | High
-48 | ... | ... | ...
+47 | ... | ... | ...
 
-There are 416 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 410 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

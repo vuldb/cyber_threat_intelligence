@@ -36,10 +36,10 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `admin/index.php` | High
 2 | File | `inc/config.php` | High
-3 | Argument | `basePath` | Medium
+3 | File | `tiki-login.php` | High
 4 | ... | ... | ...
 
-There are 2 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 3 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Quantum:
 
 * [US](https://vuldb.com/?country.us)
-* [CN](https://vuldb.com/?country.cn)
 * [RU](https://vuldb.com/?country.ru)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
 There are 3 more country items available. Please use our online service to access the data.
@@ -23,10 +23,10 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [138.68.42.130](https://vuldb.com/?ip.138.68.42.130) | prod-sfo2-1.qencode-master-cf283c7cc10911ecb9daa269211215a9 | - | High
 2 | [157.245.142.66](https://vuldb.com/?ip.157.245.142.66) | - | - | High
-3 | [185.203.118.227](https://vuldb.com/?ip.185.203.118.227) | - | - | High
+3 | [179.43.175.187](https://vuldb.com/?ip.179.43.175.187) | securehosting.capital | - | High
 4 | ... | ... | ... | ...
 
-There are 1 more IOC items available. Please use our online service to access the data.
+There are 2 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -39,7 +39,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 4 | ... | ... | ... | ...
 
-There are 9 more TTP items available. Please use our online service to access the data.
+There are 10 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -52,14 +52,16 @@ ID | Type | Indicator | Confidence
 3 | File | `/goform/net_WebCSRGen` | High
 4 | File | `/goform/WebRSAKEYGen` | High
 5 | File | `/uncpath/` | Medium
-6 | ... | ... | ...
+6 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+7 | ... | ... | ...
 
-There are 40 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 43 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://github.com/threatlabz/iocs/blob/main/agenttesla/quantum.txt
 * https://thedfirreport.com/2022/04/25/quantum-ransomware/
 
 ## Literature

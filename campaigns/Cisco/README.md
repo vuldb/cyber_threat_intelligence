@@ -98,10 +98,9 @@ ID | Type | Indicator | Confidence
 32 | File | `admin/index.php?n=databack&c=index&a=dogetsql&tables=<?php` | High
 33 | File | `admin/login.php` | High
 34 | File | `administrator.php` | High
-35 | File | `admin_login.asp` | High
-36 | ... | ... | ...
+35 | ... | ... | ...
 
-There are 311 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 302 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

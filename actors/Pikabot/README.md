@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Pikabot:
 
 * [US](https://vuldb.com/?country.us)
+* [RU](https://vuldb.com/?country.ru)
 * [AT](https://vuldb.com/?country.at)
-* [CN](https://vuldb.com/?country.cn)
 * ...
 
 There are 5 more country items available. Please use our online service to access the data.
@@ -22,17 +22,18 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [8.20.255.249](https://vuldb.com/?ip.8.20.255.249) | - | - | High
-2 | [38.54.33.239](https://vuldb.com/?ip.38.54.33.239) | - | - | High
-3 | [45.85.235.39](https://vuldb.com/?ip.45.85.235.39) | - | - | High
-4 | [45.154.24.57](https://vuldb.com/?ip.45.154.24.57) | - | - | High
-5 | [67.21.33.188](https://vuldb.com/?ip.67.21.33.188) | oy5bj6thee.ah1556.com | - | High
-6 | [67.21.33.208](https://vuldb.com/?ip.67.21.33.208) | rcs92zewb1.absolutehomecarekent.com | - | High
-7 | [76.115.120.231](https://vuldb.com/?ip.76.115.120.231) | c-76-115-120-231.hsd1.or.comcast.net | - | High
-8 | [81.254.128.85](https://vuldb.com/?ip.81.254.128.85) | lfbn-lil-1-546-85.w81-254.abo.wanadoo.fr | - | High
-9 | [85.215.162.167](https://vuldb.com/?ip.85.215.162.167) | ip85.215.162.167.pbiaas.com | - | High
-10 | ... | ... | ... | ...
+2 | [37.1.215.220](https://vuldb.com/?ip.37.1.215.220) | webcam-inverted.holydithers.com | - | High
+3 | [38.54.33.239](https://vuldb.com/?ip.38.54.33.239) | - | - | High
+4 | [45.85.235.39](https://vuldb.com/?ip.45.85.235.39) | - | - | High
+5 | [45.154.24.57](https://vuldb.com/?ip.45.154.24.57) | - | - | High
+6 | [51.238.155.130](https://vuldb.com/?ip.51.238.155.130) | - | - | High
+7 | [55.112.208.170](https://vuldb.com/?ip.55.112.208.170) | - | - | High
+8 | [67.21.33.188](https://vuldb.com/?ip.67.21.33.188) | oy5bj6thee.ah1556.com | - | High
+9 | [67.21.33.208](https://vuldb.com/?ip.67.21.33.208) | rcs92zewb1.absolutehomecarekent.com | - | High
+10 | [76.115.120.231](https://vuldb.com/?ip.76.115.120.231) | c-76-115-120-231.hsd1.or.comcast.net | - | High
+11 | ... | ... | ... | ...
 
-There are 34 more IOC items available. Please use our online service to access the data.
+There are 41 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -45,7 +46,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 10 more TTP items available. Please use our online service to access the data.
+There are 11 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -60,14 +61,17 @@ ID | Type | Indicator | Confidence
 5 | File | `/getcfg.php` | Medium
 6 | File | `/message/ajax/send/` | High
 7 | File | `/proc/self/environ` | High
-8 | ... | ... | ...
+8 | File | `/v2/customerdb/operator.svc/a` | High
+9 | File | `4.edu.php\conn\function.php` | High
+10 | ... | ... | ...
 
-There are 61 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 77 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://d01a.github.io/pikabot/
 * https://threatfox.abuse.ch
 
 ## Literature

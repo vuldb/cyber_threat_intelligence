@@ -47,11 +47,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-37 | Pathname Traversal | High
-2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94 | Cross Site Scripting | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
-6 | ... | ... | ... | ...
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-94 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+7 | ... | ... | ... | ...
 
 There are 22 more TTP items available. Please use our online service to access the data.
 
@@ -61,43 +62,48 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.travis.yml` | Medium
-2 | File | `/admin/addemployee.php` | High
-3 | File | `/admin/add_trainers.php` | High
-4 | File | `/admin/api/theme-edit/` | High
-5 | File | `/admin/countrymanagement.php` | High
-6 | File | `/admin/generalsettings.php` | High
-7 | File | `/admin/maintenance/view_designation.php` | High
-8 | File | `/admin/newsletter1.php` | High
-9 | File | `/admin/payment.php` | High
-10 | File | `/admin/subnets/ripe-query.php` | High
-11 | File | `/common/info.cgi` | High
-12 | File | `/core/conditions/AbstractWrapper.java` | High
-13 | File | `/debug/pprof` | Medium
-14 | File | `/export` | Low
-15 | File | `/file?action=download&file` | High
-16 | File | `/filemanager/upload/drop` | High
-17 | File | `/function/login.php` | High
-18 | File | `/hardware` | Medium
-19 | File | `/hrm/employeeview.php` | High
-20 | File | `/index.php` | Medium
-21 | File | `/index.php?app=main&func=passport&action=login` | High
-22 | File | `/librarian/bookdetails.php` | High
-23 | File | `/login.php` | Medium
-24 | File | `/mgmt/tm/util/bash` | High
-25 | File | `/mkshop/Men/profile.php` | High
-26 | File | `/monitoring` | Medium
-27 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-28 | File | `/pages/apply_vacancy.php` | High
-29 | File | `/php_action/createUser.php` | High
-30 | File | `/plugin/LiveChat/getChat.json.php` | High
-31 | File | `/plugins/servlet/audit/resource` | High
-32 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
-33 | File | `/PROD_ar/twbkwbis.P_FirstMenu` | High
-34 | File | `/replication` | Medium
-35 | ... | ... | ...
+1 | File | `/?r=recruit/resume/edit&op=status` | High
+2 | File | `/admin/about-us.php` | High
+3 | File | `/admin/addemployee.php` | High
+4 | File | `/admin/add_trainers.php` | High
+5 | File | `/admin/api/theme-edit/` | High
+6 | File | `/admin/countrymanagement.php` | High
+7 | File | `/admin/del_category.php` | High
+8 | File | `/admin/del_service.php` | High
+9 | File | `/admin/edit-accepted-appointment.php` | High
+10 | File | `/admin/edit-services.php` | High
+11 | File | `/admin/edit_category.php` | High
+12 | File | `/admin/forgot-password.php` | High
+13 | File | `/admin/generalsettings.php` | High
+14 | File | `/admin/index.php` | High
+15 | File | `/admin/maintenance/view_designation.php` | High
+16 | File | `/admin/newsletter1.php` | High
+17 | File | `/admin/payment.php` | High
+18 | File | `/admin/reg.php` | High
+19 | File | `/admin/search-appointment.php` | High
+20 | File | `/admin/subnets/ripe-query.php` | High
+21 | File | `/api/sys/set_passwd` | High
+22 | File | `/apply.cgi` | Medium
+23 | File | `/App_Resource/UEditor/server/upload.aspx` | High
+24 | File | `/booking/show_bookings/` | High
+25 | File | `/cgi-bin/adm.cgi` | High
+26 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
+27 | File | `/chaincity/user/ticket/create` | High
+28 | File | `/common/info.cgi` | High
+29 | File | `/core/conditions/AbstractWrapper.java` | High
+30 | File | `/debug/pprof` | Medium
+31 | File | `/dipam/athlete-profile.php` | High
+32 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+33 | File | `/export` | Low
+34 | File | `/file?action=download&file` | High
+35 | File | `/filemanager/upload/drop` | High
+36 | File | `/function/login.php` | High
+37 | File | `/hardware` | Medium
+38 | File | `/hrm/employeeview.php` | High
+39 | File | `/index.php` | Medium
+40 | ... | ... | ...
 
-There are 302 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 346 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

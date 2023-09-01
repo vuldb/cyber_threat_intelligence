@@ -51,7 +51,7 @@ ID | IP address | Hostname | Campaign | Confidence
 31 | [74.67.240.204](https://vuldb.com/?ip.74.67.240.204) | cpe-74-67-240-204.twcny.res.rr.com | - | High
 32 | ... | ... | ... | ...
 
-There are 122 more IOC items available. Please use our online service to access the data.
+There are 123 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -91,6 +91,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/threat-roundup-0526-0602/
 * https://blog.talosintelligence.com/threat-roundup-feb-24-march-3-2023/
 * https://github.com/eset/malware-ioc/tree/master/glupteba
+* https://www.cyber45.com
 
 ## Literature
 

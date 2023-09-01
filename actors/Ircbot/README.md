@@ -38,7 +38,8 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-22 | Pathname Traversal | High
 2 | T1059 | CWE-94 | Cross Site Scripting | High
 3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-4 | ... | ... | ... | ...
+4 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+5 | ... | ... | ... | ...
 
 There are 14 more TTP items available. Please use our online service to access the data.
 
@@ -55,16 +56,18 @@ ID | Type | Indicator | Confidence
 5 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
 6 | File | `/cas/logout` | Medium
 7 | File | `/catcompany.php` | High
-8 | File | `/dosen/data` | Medium
-9 | File | `/jurusan/data` | High
-10 | File | `/kelas/data` | Medium
-11 | File | `/kelasdosen/data` | High
-12 | File | `/mahasiswa/data` | High
-13 | File | `/proc/self/cwd` | High
-14 | File | `/reviewer/system/system/admins/manage/users/user-update.php` | High
-15 | ... | ... | ...
+8 | File | `/changeimage.php` | High
+9 | File | `/dosen/data` | Medium
+10 | File | `/jurusan/data` | High
+11 | File | `/kelas/data` | Medium
+12 | File | `/kelasdosen/data` | High
+13 | File | `/Log/Query?appid=0B736354-9473-4D66-B9C0-15CAC149EB05&tabid=tab_0B73635494734D66B9C015CAC149EB05` | High
+14 | File | `/mahasiswa/data` | High
+15 | File | `/paysystem/branch.php` | High
+16 | File | `/proc/self/cwd` | High
+17 | ... | ... | ...
 
-There are 123 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 133 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

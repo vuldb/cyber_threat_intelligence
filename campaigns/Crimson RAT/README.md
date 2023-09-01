@@ -37,14 +37,14 @@ ID | IP address | Hostname | Actor | Confidence
 5 | [23.226.132.105](https://vuldb.com/?ip.23.226.132.105) | 23.226.132.105.static.quadranet.com | [Crimson RAT](https://vuldb.com/?actor.crimson_rat) | High
 6 | [62.171.130.47](https://vuldb.com/?ip.62.171.130.47) | ip-47-130-171-62.static.contabo.net | [Crimson RAT](https://vuldb.com/?actor.crimson_rat) | High
 7 | [62.171.135.174](https://vuldb.com/?ip.62.171.135.174) | vmi875832.contaboserver.net | [Crimson RAT](https://vuldb.com/?actor.crimson_rat) | High
-8 | [64.188.25.205](https://vuldb.com/?ip.64.188.25.205) | 64.188.25.205.static.quadranet.com | [APT36](https://vuldb.com/?actor.apt36) | High
-9 | [66.154.103.101](https://vuldb.com/?ip.66.154.103.101) | 66.154.103.101.static.quadranet.com | [Crimson RAT](https://vuldb.com/?actor.crimson_rat) | High
-10 | [75.119.133.15](https://vuldb.com/?ip.75.119.133.15) | ip-15-133-119-75.static.contabo.net | [Crimson RAT](https://vuldb.com/?actor.crimson_rat) | High
-11 | [79.143.177.122](https://vuldb.com/?ip.79.143.177.122) | vmi183368.contaboserver.net | [Crimson RAT](https://vuldb.com/?actor.crimson_rat) | High
-12 | [79.143.181.178](https://vuldb.com/?ip.79.143.181.178) | ip-178-181-143-79.static.contabo.net | [Crimson RAT](https://vuldb.com/?actor.crimson_rat) | High
+8 | [64.188.19.199](https://vuldb.com/?ip.64.188.19.199) | 64.188.19.199.static.quadranet.com | [Crimson RAT](https://vuldb.com/?actor.crimson_rat) | High
+9 | [64.188.25.205](https://vuldb.com/?ip.64.188.25.205) | 64.188.25.205.static.quadranet.com | [APT36](https://vuldb.com/?actor.apt36) | High
+10 | [66.154.103.101](https://vuldb.com/?ip.66.154.103.101) | 66.154.103.101.static.quadranet.com | [Crimson RAT](https://vuldb.com/?actor.crimson_rat) | High
+11 | [75.119.133.15](https://vuldb.com/?ip.75.119.133.15) | ip-15-133-119-75.static.contabo.net | [Crimson RAT](https://vuldb.com/?actor.crimson_rat) | High
+12 | [79.143.177.122](https://vuldb.com/?ip.79.143.177.122) | vmi183368.contaboserver.net | [Crimson RAT](https://vuldb.com/?actor.crimson_rat) | High
 13 | ... | ... | ... | ...
 
-There are 47 more IOC items available. Please use our online service to access the data.
+There are 48 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -52,7 +52,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
@@ -95,21 +95,21 @@ ID | Type | Indicator | Confidence
 27 | File | `/spip.php` | Medium
 28 | File | `/TeamMate/Upload/DomainObjectDocumentUpload.ashx` | High
 29 | File | `/uncpath/` | Medium
-30 | File | `/wp-admin/admin-ajax.php` | High
-31 | File | `4.edu.php` | Medium
-32 | File | `5.2.9\syscrb.exe` | High
-33 | File | `adclick.php` | Medium
-34 | File | `add-vehicle.php` | High
-35 | File | `addentry.php` | Medium
-36 | File | `admin.php` | Medium
-37 | File | `admin/admin.php` | High
-38 | File | `admin/conf_users_edit.php` | High
-39 | File | `adminHome.php` | High
-40 | File | `admin_add.php` | High
-41 | File | `admin_gallery.php3` | High
+30 | File | `/upload` | Low
+31 | File | `/wp-admin/admin-ajax.php` | High
+32 | File | `4.edu.php` | Medium
+33 | File | `5.2.9\syscrb.exe` | High
+34 | File | `adclick.php` | Medium
+35 | File | `add-vehicle.php` | High
+36 | File | `addentry.php` | Medium
+37 | File | `admin.php` | Medium
+38 | File | `admin/admin.php` | High
+39 | File | `admin/conf_users_edit.php` | High
+40 | File | `adminHome.php` | High
+41 | File | `admin_add.php` | High
 42 | ... | ... | ...
 
-There are 361 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 366 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -122,6 +122,7 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://twitter.com/StopMalvertisin/status/1645805949234597889
 * https://twitter.com/StopMalvertisin/status/1670660520540770305
 * https://twitter.com/StopMalvertisin/status/1676869449394327553
+* https://twitter.com/StopMalvertisin/status/1689669636940570624
 
 ## Literature
 

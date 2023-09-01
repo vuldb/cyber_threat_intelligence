@@ -32,6 +32,7 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22 | Pathname Traversal | High
 2 | T1068 | CWE-264, CWE-269 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+3 | T1552 | CWE-255 | ASP.NET Misconfiguration: Password in Configuration File | High
 
 ## IOA - Indicator of Attack
 
@@ -39,8 +40,9 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `login.cgi` | Medium
-2 | Network Port | `Web Server Port` | High
+1 | File | `auth-options.c` | High
+2 | File | `login.cgi` | Medium
+3 | Network Port | `Web Server Port` | High
 
 ## References
 

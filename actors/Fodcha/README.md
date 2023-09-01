@@ -57,7 +57,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -69,50 +69,76 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin/add_trainers.php` | High
 3 | File | `/admin/students/view_student.php` | High
 4 | File | `/api/` | Low
-5 | File | `/cardo/api` | Medium
-6 | File | `/CCMAdmin/serverlist.asp` | High
-7 | File | `/cgi-bin/editBookmark` | High
-8 | File | `/cgi-bin/wlogin.cgi` | High
-9 | File | `/ci_hms/massage_room/edit/1` | High
-10 | File | `/claire_blake` | High
-11 | File | `/config` | Low
-12 | File | `/dashboard/updatelogo.php` | High
-13 | File | `/debug/pprof` | Medium
-14 | File | `/downloadmaster/dm_apply.cgi?action_mode=initial&download_type=General&special_cgi=get_language` | High
-15 | File | `/DS/LM_API/api/SelectionService/InsertQueryWithActiveRelationsReturnId` | High
-16 | File | `/goform/RgDhcp` | High
-17 | File | `/goform/RgTime` | High
-18 | File | `/guestmanagement/front.php` | High
-19 | File | `/inc/jquery/uploadify/uploadify.php` | High
-20 | File | `/index.php?/manage/channel/addchannel` | High
-21 | File | `/Items/*/RemoteImages/Download` | High
-22 | File | `/main.php` | Medium
-23 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
-24 | File | `/mkshop/Men/profile.php` | High
-25 | File | `/mygym/admin/login.php` | High
-26 | File | `/new` | Low
-27 | File | `/nova/bin/traceroute` | High
-28 | File | `/obs/book.php` | High
-29 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-30 | File | `/owa/auth/logon.aspx` | High
-31 | File | `/phpcollab/users/emailusers.php` | High
-32 | File | `/proc/sys/kernel/rh_features` | High
-33 | File | `/process/eprocess.php` | High
-34 | File | `/product.php` | Medium
-35 | File | `/public/common/umeditor/php/getcontent.php` | High
-36 | File | `/requests.php` | High
-37 | File | `/rest/project-templates/1.0/createshared` | High
-38 | File | `/service/upload` | High
-39 | File | `/sitemagic/index.php` | High
-40 | File | `/siteminderagent/pwcgi/smpwservicescgi.exe` | High
-41 | File | `/sub?target=%TARGET%&url=%URL%&config=%CONFIG%` | High
-42 | File | `/tools/developerConsoleOperations.jsp` | High
-43 | File | `/uncpath/` | Medium
-44 | File | `/var/lock/apport` | High
-45 | File | `/Videos/Id/hls/PlaylistId/SegmentId.SegmentContainer` | High
-46 | ... | ... | ...
+5 | File | `/api/database` | High
+6 | File | `/aya/module/admin/fst_down.inc.php` | High
+7 | File | `/cardo/api` | Medium
+8 | File | `/CCMAdmin/serverlist.asp` | High
+9 | File | `/cgi-bin/editBookmark` | High
+10 | File | `/cgi-bin/wlogin.cgi` | High
+11 | File | `/ci_hms/massage_room/edit/1` | High
+12 | File | `/claire_blake` | High
+13 | File | `/config` | Low
+14 | File | `/dashboard/updatelogo.php` | High
+15 | File | `/debug/pprof` | Medium
+16 | File | `/downloadmaster/dm_apply.cgi?action_mode=initial&download_type=General&special_cgi=get_language` | High
+17 | File | `/DS/LM_API/api/SelectionService/InsertQueryWithActiveRelationsReturnId` | High
+18 | File | `/goform/RgDhcp` | High
+19 | File | `/goform/RgTime` | High
+20 | File | `/guestmanagement/front.php` | High
+21 | File | `/inc/jquery/uploadify/uploadify.php` | High
+22 | File | `/index.php?/manage/channel/addchannel` | High
+23 | File | `/Items/*/RemoteImages/Download` | High
+24 | File | `/main.php` | Medium
+25 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
+26 | File | `/mkshop/Men/profile.php` | High
+27 | File | `/modules/projects/vw_files.php` | High
+28 | File | `/mygym/admin/login.php` | High
+29 | File | `/new` | Low
+30 | File | `/nova/bin/traceroute` | High
+31 | File | `/obs/book.php` | High
+32 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+33 | File | `/owa/auth/logon.aspx` | High
+34 | File | `/phpcollab/users/emailusers.php` | High
+35 | File | `/proc/sys/kernel/rh_features` | High
+36 | File | `/process/eprocess.php` | High
+37 | File | `/product.php` | Medium
+38 | File | `/public/common/umeditor/php/getcontent.php` | High
+39 | File | `/requests.php` | High
+40 | File | `/rest/project-templates/1.0/createshared` | High
+41 | File | `/service/upload` | High
+42 | File | `/sitemagic/index.php` | High
+43 | File | `/siteminderagent/pwcgi/smpwservicescgi.exe` | High
+44 | File | `/sub?target=%TARGET%&url=%URL%&config=%CONFIG%` | High
+45 | File | `/tools/developerConsoleOperations.jsp` | High
+46 | File | `/uncpath/` | Medium
+47 | File | `/var/lock/apport` | High
+48 | File | `/Videos/Id/hls/PlaylistId/SegmentId.SegmentContainer` | High
+49 | File | `/wbg/core/_includes/authorization.inc.php` | High
+50 | File | `/webtools/control/httpService` | High
+51 | File | `/whbs/?page=contact_us` | High
+52 | File | `/wolfcms/?/admin/user/add` | High
+53 | File | `/wp-admin/admin-ajax.php` | High
+54 | File | `/wp-content/plugins/emag-marketplace-connector/templates/order/awb-meta-box.php` | High
+55 | File | `aa/../../uploads/blog/201811/attach_#.jpg` | High
+56 | File | `access.php` | Medium
+57 | File | `ad-blocking-detector.php` | High
+58 | File | `adclick.php` | Medium
+59 | File | `admin.color.php` | High
+60 | File | `admin.cropcanvas.php` | High
+61 | File | `admin.joomlaradiov5.php` | High
+62 | File | `admin.php` | Medium
+63 | File | `admin/` | Low
+64 | File | `admin/addons/archive/archive.php` | High
+65 | File | `admin/app/mediamanager` | High
+66 | File | `admin/auth.php` | High
+67 | File | `admin/class-woo-popup-admin.php` | High
+68 | File | `admin/conf_users_edit.php` | High
+69 | File | `admin/departments/manage_department.php` | High
+70 | File | `admin/index.php?c=database` | High
+71 | File | `admin/theme-edit.php` | High
+72 | ... | ... | ...
 
-There are 399 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 635 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

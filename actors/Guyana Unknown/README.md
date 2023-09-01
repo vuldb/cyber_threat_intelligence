@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GY](https://vuldb.com/?country.gy)
 * ...
 
-There are 20 more country items available. Please use our online service to access the data.
+There are 22 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -56,69 +56,72 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/photo.php` | High
-2 | File | `/admin/user/add` | High
-3 | File | `/APP_Installation.asp` | High
-4 | File | `/categorypage.php` | High
-5 | File | `/cm/delete` | Medium
-6 | File | `/common/logViewer/logViewer.jsf` | High
-7 | File | `/controller/Index.php` | High
-8 | File | `/crmeb/app/admin/controller/store/CopyTaobao.php` | High
-9 | File | `/download` | Medium
-10 | File | `/drivers/media/media-device.c` | High
-11 | File | `/etc/master.passwd` | High
-12 | File | `/etc/tomcat8/Catalina/attack` | High
-13 | File | `/export` | Low
-14 | File | `/filemanager/upload.php` | High
-15 | File | `/forum/away.php` | High
-16 | File | `/getcfg.php` | Medium
-17 | File | `/goform/SetSpeedWan` | High
-18 | File | `/home.php` | Medium
-19 | File | `/homeaction.php` | High
-20 | File | `/index.php` | Medium
-21 | File | `/modules/profile/index.php` | High
-22 | File | `/modules/tasks/summary.inc.php` | High
-23 | File | `/multi-vendor-shopping-script/product-list.php` | High
-24 | File | `/mygym/admin/index.php` | High
-25 | File | `/out.php` | Medium
-26 | File | `/p` | Low
-27 | File | `/preauth` | Medium
-28 | File | `/products/details.asp` | High
-29 | File | `/recordings/index.php` | High
-30 | File | `/see_more_details.php` | High
-31 | File | `/show_news.php` | High
-32 | File | `/SysInfo.htm` | Medium
-33 | File | `/tmp/before` | Medium
-34 | File | `/uncpath/` | Medium
-35 | File | `/updownload/t.report` | High
-36 | File | `/user.profile.php` | High
-37 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
-38 | File | `/wordpress/wp-admin/options-general.php` | High
-39 | File | `/wp-admin` | Medium
-40 | File | `/wp-admin/admin-ajax.php` | High
-41 | File | `account.asp` | Medium
-42 | File | `adclick.php` | Medium
-43 | File | `adm/systools.asp` | High
-44 | File | `admin.php` | Medium
-45 | File | `admin/admin.shtml` | High
-46 | File | `Admin/ADM_Pagina.php` | High
-47 | File | `admin/category.inc.php` | High
-48 | File | `admin/main.asp` | High
-49 | File | `admin/param/param_func.inc.php` | High
-50 | File | `admin/theme-edit.php` | High
-51 | File | `admin/y_admin.asp` | High
-52 | File | `adminer.php` | Medium
-53 | File | `administration/admins.php` | High
-54 | File | `administrator/components/com_media/helpers/media.php` | High
-55 | File | `admin_ok.asp` | Medium
-56 | File | `album_portal.php` | High
-57 | File | `app.coffee` | Medium
-58 | File | `app/Core/Paginator.php` | High
-59 | File | `app/index.php/accounts/default/details?id=2&kanbanBoard=1&openToTaskId=1` | High
-60 | File | `artlinks.dispnew.php` | High
-61 | File | `auth.php` | Medium
-62 | ... | ... | ...
+2 | File | `/admin/upload.php` | High
+3 | File | `/admin/user/add` | High
+4 | File | `/api/baskets/{name}` | High
+5 | File | `/APP_Installation.asp` | High
+6 | File | `/blog` | Low
+7 | File | `/categorypage.php` | High
+8 | File | `/cm/delete` | Medium
+9 | File | `/common/logViewer/logViewer.jsf` | High
+10 | File | `/controller/Index.php` | High
+11 | File | `/crmeb/app/admin/controller/store/CopyTaobao.php` | High
+12 | File | `/download` | Medium
+13 | File | `/drivers/media/media-device.c` | High
+14 | File | `/etc/master.passwd` | High
+15 | File | `/etc/tomcat8/Catalina/attack` | High
+16 | File | `/export` | Low
+17 | File | `/filemanager/upload.php` | High
+18 | File | `/forum/away.php` | High
+19 | File | `/getcfg.php` | Medium
+20 | File | `/goform/SetSpeedWan` | High
+21 | File | `/home.php` | Medium
+22 | File | `/homeaction.php` | High
+23 | File | `/index.php` | Medium
+24 | File | `/modules/profile/index.php` | High
+25 | File | `/modules/tasks/summary.inc.php` | High
+26 | File | `/multi-vendor-shopping-script/product-list.php` | High
+27 | File | `/mygym/admin/index.php` | High
+28 | File | `/out.php` | Medium
+29 | File | `/p` | Low
+30 | File | `/preauth` | Medium
+31 | File | `/products/details.asp` | High
+32 | File | `/recordings/index.php` | High
+33 | File | `/see_more_details.php` | High
+34 | File | `/show_news.php` | High
+35 | File | `/SysInfo.htm` | Medium
+36 | File | `/tmp/before` | Medium
+37 | File | `/uncpath/` | Medium
+38 | File | `/updownload/t.report` | High
+39 | File | `/user.profile.php` | High
+40 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
+41 | File | `/wordpress/wp-admin/options-general.php` | High
+42 | File | `/wp-admin` | Medium
+43 | File | `/wp-admin/admin-ajax.php` | High
+44 | File | `account.asp` | Medium
+45 | File | `adclick.php` | Medium
+46 | File | `adm/systools.asp` | High
+47 | File | `admin.php` | Medium
+48 | File | `admin/admin.shtml` | High
+49 | File | `Admin/ADM_Pagina.php` | High
+50 | File | `admin/category.inc.php` | High
+51 | File | `admin/main.asp` | High
+52 | File | `admin/param/param_func.inc.php` | High
+53 | File | `admin/theme-edit.php` | High
+54 | File | `admin/y_admin.asp` | High
+55 | File | `adminer.php` | Medium
+56 | File | `administration/admins.php` | High
+57 | File | `administrator/components/com_media/helpers/media.php` | High
+58 | File | `admin_ok.asp` | Medium
+59 | File | `album_portal.php` | High
+60 | File | `app.coffee` | Medium
+61 | File | `app/Core/Paginator.php` | High
+62 | File | `app/index.php/accounts/default/details?id=2&kanbanBoard=1&openToTaskId=1` | High
+63 | File | `artlinks.dispnew.php` | High
+64 | File | `auth.php` | Medium
+65 | ... | ... | ...
 
-There are 546 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 566 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -51,15 +51,15 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/orders/update_status.php` | High
-2 | File | `/getcfg.php` | Medium
-3 | File | `/paysystem/datatable.php` | High
-4 | File | `/settings/account` | High
-5 | File | `act.php` | Low
-6 | File | `admin.php` | Medium
-7 | File | `admin\posts\manage_post.php` | High
+2 | File | `/admin/sys_sql_query.php` | High
+3 | File | `/getcfg.php` | Medium
+4 | File | `/paysystem/datatable.php` | High
+5 | File | `/settings/account` | High
+6 | File | `act.php` | Low
+7 | File | `admin.php` | Medium
 8 | ... | ... | ...
 
-There are 53 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 56 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

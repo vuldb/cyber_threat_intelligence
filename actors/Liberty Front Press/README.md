@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [VN](https://vuldb.com/?country.vn)
 * ...
 
-There are 16 more country items available. Please use our online service to access the data.
+There are 14 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -104,18 +104,18 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/?p=products` | Medium
-3 | File | `/admin.php/accessory/filesdel.html` | High
-4 | File | `/admin/?page=user/manage` | High
-5 | File | `/admin/add-new.php` | High
-6 | File | `/admin/doctors.php` | High
-7 | File | `/admin/index3.php` | High
-8 | File | `/admin/upload/upload` | High
-9 | File | `/adms/admin/?page=vehicles/view_transaction` | High
-10 | File | `/alphaware/summary.php` | High
-11 | File | `/api/` | Low
-12 | File | `/api/admin/store/product/list` | High
+1 | File | `/?p=products` | Medium
+2 | File | `/admin.php/accessory/filesdel.html` | High
+3 | File | `/admin/?page=user/manage` | High
+4 | File | `/admin/add-new.php` | High
+5 | File | `/admin/doctors.php` | High
+6 | File | `/admin/index3.php` | High
+7 | File | `/admin/upload/upload` | High
+8 | File | `/adms/admin/?page=vehicles/view_transaction` | High
+9 | File | `/alphaware/summary.php` | High
+10 | File | `/api/` | Low
+11 | File | `/api/admin/store/product/list` | High
+12 | File | `/api/baskets/{name}` | High
 13 | File | `/api/gen/clients/{language}` | High
 14 | File | `/api/stl/actions/search` | High
 15 | File | `/api/v2/cli/commands` | High
@@ -134,27 +134,26 @@ ID | Type | Indicator | Confidence
 28 | File | `/forum/PostPrivateMessage` | High
 29 | File | `/goform/set_LimitClient_cfg` | High
 30 | File | `/home/www/cgi-bin/login.cgi` | High
-31 | File | `/loginsave.php` | High
-32 | File | `/medicines/profile.php` | High
-33 | File | `/multi-vendor-shopping-script/product-list.php` | High
-34 | File | `/net-banking/customer_transactions.php` | High
-35 | File | `/obs/book.php` | High
-36 | File | `/owa/auth/logon.aspx` | High
-37 | File | `/param.file.tgz` | High
-38 | File | `/php-sms/admin/?page=user/manage_user` | High
-39 | File | `/pms/update_user.php?user_id=1` | High
+31 | File | `/hss/admin/?page=products/view_product` | High
+32 | File | `/loginsave.php` | High
+33 | File | `/medicines/profile.php` | High
+34 | File | `/multi-vendor-shopping-script/product-list.php` | High
+35 | File | `/net-banking/customer_transactions.php` | High
+36 | File | `/obs/book.php` | High
+37 | File | `/owa/auth/logon.aspx` | High
+38 | File | `/param.file.tgz` | High
+39 | File | `/php-sms/admin/?page=user/manage_user` | High
 40 | File | `/preview.php` | Medium
 41 | File | `/public_html/users.php` | High
 42 | File | `/requests.php` | High
 43 | File | `/reservation/add_message.php` | High
-44 | File | `/spip.php` | Medium
-45 | File | `/sqlite3_aflpp/shell.c` | High
-46 | File | `/SVFE2/pages/feegroups/service_group.jsf` | High
-47 | File | `/uncpath/` | Medium
-48 | File | `/user/s.php` | Medium
-49 | ... | ... | ...
+44 | File | `/resources//../` | High
+45 | File | `/spip.php` | Medium
+46 | File | `/sqlite3_aflpp/shell.c` | High
+47 | File | `/SVFE2/pages/feegroups/service_group.jsf` | High
+48 | ... | ... | ...
 
-There are 430 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 415 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

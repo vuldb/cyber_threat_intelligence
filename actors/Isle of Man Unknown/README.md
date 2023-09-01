@@ -71,12 +71,12 @@ ID | Type | Indicator | Confidence
 9 | File | `/uncpath/` | Medium
 10 | File | `advertiser/login_confirm.asp` | High
 11 | File | `akocomments.php` | High
-12 | File | `awstats.pl` | Medium
-13 | File | `a_login.php` | Medium
-14 | File | `block/bsg.c` | Medium
+12 | File | `applications/luci-app-ddns/luasrc/model/cbi/ddns/detail.lua` | High
+13 | File | `awstats.pl` | Medium
+14 | File | `a_login.php` | Medium
 15 | ... | ... | ...
 
-There are 117 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 120 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

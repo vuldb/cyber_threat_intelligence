@@ -24,6 +24,9 @@ ID | IP address | Hostname | Campaign | Confidence
 1 | [94.177.226.227](https://vuldb.com/?ip.94.177.226.227) | host227-226-177-94.static.arubacloud.de | - | High
 2 | [144.202.49.126](https://vuldb.com/?ip.144.202.49.126) | 144.202.49.126.vultrusercontent.com | - | High
 3 | [179.43.156.214](https://vuldb.com/?ip.179.43.156.214) | xoc.ch | - | High
+4 | ... | ... | ... | ...
+
+There are 1 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -36,7 +39,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 7 more TTP items available. Please use our online service to access the data.
+There are 9 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -47,14 +50,16 @@ ID | Type | Indicator | Confidence
 1 | File | `.procmailrc` | Medium
 2 | File | `/debian/patches/load_ppp_generic_if_needed` | High
 3 | File | `/etc/fstab` | Medium
-4 | ... | ... | ...
+4 | File | `/forms/nslookupHandler` | High
+5 | ... | ... | ...
 
-There are 20 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 34 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://blog.trendmicro.com/trendlabs-security-intelligence/new-miori-variant-uses-unique-protocol-to-communicate-with-cc/
 * https://blog.trendmicro.com/trendlabs-security-intelligence/with-mirai-comes-miori-iot-botnet-delivered-via-thinkphp-remote-code-execution-exploit/
 * https://twitter.com/albooboo_ioc/status/1548226322219945984
 

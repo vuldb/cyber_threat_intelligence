@@ -9,7 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Joker:
 
 * [CN](https://vuldb.com/?country.cn)
-* [DE](https://vuldb.com/?country.de)
+* [US](https://vuldb.com/?country.us)
+* [ID](https://vuldb.com/?country.id)
+* ...
+
+There are 1 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -17,12 +21,14 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [3.122.143.26](https://vuldb.com/?ip.3.122.143.26) | ec2-3-122-143-26.eu-central-1.compute.amazonaws.com | - | Medium
-2 | [18.141.129.153](https://vuldb.com/?ip.18.141.129.153) | ec2-18-141-129-153.ap-southeast-1.compute.amazonaws.com | - | Medium
-3 | [47.74.179.177](https://vuldb.com/?ip.47.74.179.177) | - | - | High
-4 | ... | ... | ... | ...
+1 | [1.3.1.6](https://vuldb.com/?ip.1.3.1.6) | - | - | High
+2 | [1.3.2.8](https://vuldb.com/?ip.1.3.2.8) | - | - | High
+3 | [1.45.76.1](https://vuldb.com/?ip.1.45.76.1) | - | - | High
+4 | [2.1.5.3](https://vuldb.com/?ip.2.1.5.3) | - | - | High
+5 | [3.1.5.3](https://vuldb.com/?ip.3.1.5.3) | ec2-3-1-5-3.ap-southeast-1.compute.amazonaws.com | - | Medium
+6 | ... | ... | ... | ...
 
-There are 11 more IOC items available. Please use our online service to access the data.
+There are 22 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -44,14 +50,14 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/htdocs/admin/dict.php?id=3` | High
-2 | File | `/wbg/core/_includes/authorization.inc.php` | High
-3 | File | `admin/app/mediamanager` | High
-4 | File | `app/call_centers/cmd.php` | High
-5 | File | `app\edit\filedelete.php` | High
+1 | File | `/.env` | Low
+2 | File | `/htdocs/admin/dict.php?id=3` | High
+3 | File | `/wbg/core/_includes/authorization.inc.php` | High
+4 | File | `admin/app/mediamanager` | High
+5 | File | `admin/class-bulk-editor-list-table.php` | High
 6 | ... | ... | ...
 
-There are 36 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 40 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -59,6 +65,7 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://community.blueliv.com/#!/s/5f72fe1482df413eb234d2d4
 * https://medium.com/csis-techblog/analysis-of-joker-a-spy-premium-subscription-bot-on-googleplay-9ad24f044451
+* https://www.bleepingcomputer.com/news/security/joker-android-malware-keeps-evading-google-play-store-defenses/
 
 ## Literature
 

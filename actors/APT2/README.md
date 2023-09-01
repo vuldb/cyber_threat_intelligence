@@ -15,8 +15,8 @@ The following _campaigns_ are known and can be associated with APT2:
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with APT2:
 
 * [CN](https://vuldb.com/?country.cn)
+* [US](https://vuldb.com/?country.us)
 * [FJ](https://vuldb.com/?country.fj)
-* [KR](https://vuldb.com/?country.kr)
 * ...
 
 There are 2 more country items available. Please use our online service to access the data.
@@ -64,7 +64,7 @@ ID | Type | Indicator | Confidence
 4 | File | `admin/admin/adminsave.html` | High
 5 | ... | ... | ...
 
-There are 27 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 28 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

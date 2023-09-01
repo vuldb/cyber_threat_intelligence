@@ -108,33 +108,35 @@ ID | Type | Indicator | Confidence
 15 | File | `/login/index.php` | High
 16 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
 17 | File | `/owa/auth/logon.aspx` | High
-18 | File | `/php-sms/classes/SystemSettings.php` | High
-19 | File | `/phppath/php` | Medium
-20 | File | `/preview.php` | Medium
-21 | File | `/proc/self/exe` | High
-22 | File | `/public/login.htm` | High
-23 | File | `/server-info` | Medium
-24 | File | `/server-status` | High
-25 | File | `/shell` | Low
-26 | File | `/uncpath/` | Medium
-27 | File | `/user/jobmanage.php` | High
-28 | File | `/user/zs_elite.php` | High
-29 | File | `/usr/bin/enq` | Medium
-30 | File | `/web/jquery/uploader/multi_uploadify.php` | High
-31 | File | `/wp-admin/admin-ajax.php` | High
-32 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-33 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-34 | File | `/zhndnsdisplay.cmd` | High
-35 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-36 | File | `about.php` | Medium
-37 | File | `acl.c` | Low
-38 | File | `adclick.php` | Medium
-39 | File | `add_comment.php` | High
-40 | File | `add_vhost.php` | High
-41 | File | `admin.php` | Medium
-42 | ... | ... | ...
+18 | File | `/pharmacy-sales-and-inventory-system/manage_user.php` | High
+19 | File | `/php-sms/classes/SystemSettings.php` | High
+20 | File | `/phppath/php` | Medium
+21 | File | `/preview.php` | Medium
+22 | File | `/proc/self/exe` | High
+23 | File | `/public/login.htm` | High
+24 | File | `/server-info` | Medium
+25 | File | `/server-status` | High
+26 | File | `/shell` | Low
+27 | File | `/uncpath/` | Medium
+28 | File | `/user/jobmanage.php` | High
+29 | File | `/user/zs_elite.php` | High
+30 | File | `/usr/bin/enq` | Medium
+31 | File | `/web/jquery/uploader/multi_uploadify.php` | High
+32 | File | `/wp-admin/admin-ajax.php` | High
+33 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+34 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+35 | File | `/zhndnsdisplay.cmd` | High
+36 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+37 | File | `about.php` | Medium
+38 | File | `acl.c` | Low
+39 | File | `active.log` | Medium
+40 | File | `adclick.php` | Medium
+41 | File | `add_comment.php` | High
+42 | File | `add_vhost.php` | High
+43 | File | `admin.php` | Medium
+44 | ... | ... | ...
 
-There are 358 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 381 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -113,7 +113,7 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-28 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -130,45 +130,48 @@ ID | Type | Indicator | Confidence
 3 | File | `/admin/?page=user/manage` | High
 4 | File | `/admin/add-new.php` | High
 5 | File | `/admin/doctors.php` | High
-6 | File | `/admin/submit-articles` | High
+6 | File | `/admin/reminders/manage_reminder.php` | High
 7 | File | `/alphaware/summary.php` | High
 8 | File | `/api/` | Low
 9 | File | `/api/admin/store/product/list` | High
-10 | File | `/api/stl/actions/search` | High
-11 | File | `/api/v2/cli/commands` | High
-12 | File | `/attachments` | Medium
-13 | File | `/bin/ate` | Medium
-14 | File | `/boat/login.php` | High
-15 | File | `/bsms_ci/index.php/book` | High
-16 | File | `/cgi-bin` | Medium
-17 | File | `/cgi-bin/wlogin.cgi` | High
-18 | File | `/debug/pprof` | Medium
-19 | File | `/env` | Low
-20 | File | `/etc/hosts` | Medium
-21 | File | `/etc/quagga` | Medium
-22 | File | `/forms/doLogin` | High
-23 | File | `/forum/away.php` | High
-24 | File | `/hrm/employeeview.php` | High
-25 | File | `/librarian/bookdetails.php` | High
-26 | File | `/medicines/profile.php` | High
-27 | File | `/messageboard/view.php` | High
-28 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-29 | File | `/out.php` | Medium
-30 | File | `/php-sms/admin/?page=user/manage_user` | High
-31 | File | `/proxy` | Low
+10 | File | `/api/baskets/{name}` | High
+11 | File | `/api/stl/actions/search` | High
+12 | File | `/api/v2/cli/commands` | High
+13 | File | `/attachments` | Medium
+14 | File | `/bin/ate` | Medium
+15 | File | `/boat/login.php` | High
+16 | File | `/booking/show_bookings/` | High
+17 | File | `/bsms_ci/index.php/book` | High
+18 | File | `/cgi-bin` | Medium
+19 | File | `/cgi-bin/wlogin.cgi` | High
+20 | File | `/csms/admin/inquiries/view_details.php` | High
+21 | File | `/debug/pprof` | Medium
+22 | File | `/env` | Low
+23 | File | `/etc/hosts` | Medium
+24 | File | `/forms/doLogin` | High
+25 | File | `/forum/away.php` | High
+26 | File | `/include/chart_generator.php` | High
+27 | File | `/librarian/bookdetails.php` | High
+28 | File | `/medicines/profile.php` | High
+29 | File | `/messageboard/view.php` | High
+30 | File | `/out.php` | Medium
+31 | File | `/php-sms/admin/?page=user/manage_user` | High
 32 | File | `/reservation/add_message.php` | High
-33 | File | `/rom-0` | Low
-34 | File | `/ServletAPI/accounts/login` | High
-35 | File | `/spip.php` | Medium
-36 | File | `/textpattern/index.php` | High
-37 | File | `/tmp` | Low
-38 | File | `/user/updatePwd` | High
-39 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
-40 | File | `/video-sharing-script/watch-video.php` | High
-41 | File | `/wireless/security.asp` | High
-42 | ... | ... | ...
+33 | File | `/resources//../` | High
+34 | File | `/rom-0` | Low
+35 | File | `/ServletAPI/accounts/login` | High
+36 | File | `/spip.php` | Medium
+37 | File | `/SVFE2/pages/feegroups/country_group.jsf` | High
+38 | File | `/textpattern/index.php` | High
+39 | File | `/tmp` | Low
+40 | File | `/user/updatePwd` | High
+41 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
+42 | File | `/video-sharing-script/watch-video.php` | High
+43 | File | `/wireless/security.asp` | High
+44 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+45 | ... | ... | ...
 
-There are 360 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 390 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

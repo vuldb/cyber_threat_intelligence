@@ -58,7 +58,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1068 | CWE-264, CWE-269, CWE-274, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -78,30 +78,30 @@ ID | Type | Indicator | Confidence
 10 | File | `/bin/login` | Medium
 11 | File | `/cgi-bin/luci` | High
 12 | File | `/cgi-bin/wlogin.cgi` | High
-13 | File | `/contact/store` | High
-14 | File | `/debug/pprof` | Medium
-15 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
-16 | File | `/ecommerce/support_ticket` | High
-17 | File | `/env` | Low
+13 | File | `/classes/Master.php?f=save_brand` | High
+14 | File | `/contact/store` | High
+15 | File | `/debug/pprof` | Medium
+16 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
+17 | File | `/ecommerce/support_ticket` | High
 18 | File | `/forum/away.php` | High
 19 | File | `/FuguHub/cmsdocs/` | High
-20 | File | `/h/autoSaveDraft` | High
-21 | File | `/HNAP1` | Low
-22 | File | `/index.php` | Medium
-23 | File | `/Log/Query?appid=0B736354-9473-4D66-B9C0-15CAC149EB05&tabid=tab_0B73635494734D66B9C015CAC149EB05` | High
-24 | File | `/mc` | Low
-25 | File | `/menu.html` | Medium
-26 | File | `/out.php` | Medium
-27 | File | `/php-inventory-management-system/product.php` | High
-28 | File | `/plain` | Low
-29 | File | `/registration.php` | High
-30 | File | `/release-x64/otfccdump+0x61731f` | High
-31 | File | `/search.php` | Medium
-32 | File | `/settings/account` | High
+20 | File | `/graphql` | Medium
+21 | File | `/h/autoSaveDraft` | High
+22 | File | `/HNAP1` | Low
+23 | File | `/index.php` | Medium
+24 | File | `/Log/Query?appid=0B736354-9473-4D66-B9C0-15CAC149EB05&tabid=tab_0B73635494734D66B9C015CAC149EB05` | High
+25 | File | `/mc` | Low
+26 | File | `/php-inventory-management-system/product.php` | High
+27 | File | `/plain` | Low
+28 | File | `/registration.php` | High
+29 | File | `/release-x64/otfccdump+0x61731f` | High
+30 | File | `/search.php` | Medium
+31 | File | `/settings/account` | High
+32 | File | `/sitecore/shell/Invoke.aspx` | High
 33 | File | `/src/chatbotapp/chatWindow.java` | High
 34 | ... | ... | ...
 
-There are 289 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 294 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

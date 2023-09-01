@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Backbone:
 
 * [IO](https://vuldb.com/?country.io)
-* [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
+* [US](https://vuldb.com/?country.us)
 * ...
 
-There are 19 more country items available. Please use our online service to access the data.
+There are 14 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -3527,9 +3527,10 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+6 | T1068 | CWE-264, CWE-269, CWE-270, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+7 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -3537,59 +3538,58 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `$GIT_DIR/objects` | High
+1 | File | `.github/workflows/comment.yml` | High
 2 | File | `/?ajax-request=jnews` | High
 3 | File | `/?p=products` | Medium
-4 | File | `/about/../` | Medium
-5 | File | `/admin.php/accessory/filesdel.html` | High
+4 | File | `/?r=recruit/resume/edit&op=status` | High
+5 | File | `/about/../` | Medium
 6 | File | `/admin.php?c=upload&f=zip&_noCache=0.1683794968` | High
-7 | File | `/admin/?page=user/manage` | High
-8 | File | `/admin/add-new.php` | High
-9 | File | `/admin/admin_manage/delete` | High
-10 | File | `/admin/doctors.php` | High
-11 | File | `/admin/edit_subject.php` | High
-12 | File | `/admin/main/mod-blog` | High
-13 | File | `/admin/products/manage_product.php` | High
-14 | File | `/admin/scheprofile.cgi` | High
-15 | File | `/advanced/adv_dns.xgi` | High
-16 | File | `/alphaware/summary.php` | High
-17 | File | `/api/` | Low
-18 | File | `/api/admin/store/product/list` | High
-19 | File | `/api/blade-log/api/list` | High
-20 | File | `/api/stl/actions/search` | High
-21 | File | `/api/v1/snapshots` | High
-22 | File | `/api/v2/cli/commands` | High
-23 | File | `/appliance/users?action=edit` | High
-24 | File | `/Application/Admin/Controller/ConfigController.class.php` | High
-25 | File | `/authUserAction!edit.action` | High
-26 | File | `/backup.pl` | Medium
-27 | File | `/bin/ate` | Medium
-28 | File | `/bin/boa` | Medium
-29 | File | `/boat/login.php` | High
-30 | File | `/browse.PROJECTKEY` | High
-31 | File | `/bsms_ci/index.php/book` | High
-32 | File | `/cgi-bin` | Medium
-33 | File | `/cgi-bin/luci/api/wireless` | High
-34 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
-35 | File | `/cgi-bin/supervisor/adcommand.cgi` | High
-36 | File | `/cgi-bin/supervisor/CloudSetup.cgi` | High
-37 | File | `/cgi-bin/wlogin.cgi` | High
-38 | File | `/cmscp/ext/collect/fetch_url.do` | High
-39 | File | `/debug/pprof` | Medium
-40 | File | `/dev/shm` | Medium
-41 | File | `/E-mobile/App/System/File/downfile.php` | High
-42 | File | `/edoc/doctor/patient.php` | High
-43 | File | `/env` | Low
-44 | File | `/face-recognition-php/facepay-master/camera.php` | High
-45 | File | `/forms/doLogin` | High
-46 | File | `/forum/away.php` | High
-47 | File | `/home/masterConsole` | High
-48 | File | `/index.php?app=main&func=passport&action=login` | High
-49 | File | `/index/user/user_edit.html` | High
-50 | File | `/Items/*/RemoteImages/Download` | High
-51 | ... | ... | ...
+7 | File | `/admin/?page=user/list` | High
+8 | File | `/admin/?page=user/manage_user&id=3` | High
+9 | File | `/admin/about-us.php` | High
+10 | File | `/admin/del_category.php` | High
+11 | File | `/admin/del_service.php` | High
+12 | File | `/admin/edit-accepted-appointment.php` | High
+13 | File | `/admin/edit-services.php` | High
+14 | File | `/admin/edit_category.php` | High
+15 | File | `/admin/edit_subject.php` | High
+16 | File | `/admin/forgot-password.php` | High
+17 | File | `/admin/index.php` | High
+18 | File | `/admin/products/manage_product.php` | High
+19 | File | `/admin/read.php?mudi=getSignal` | High
+20 | File | `/admin/reg.php` | High
+21 | File | `/admin/scheprofile.cgi` | High
+22 | File | `/admin/search-appointment.php` | High
+23 | File | `/admin/sys_sql_query.php` | High
+24 | File | `/api/` | Low
+25 | File | `/api/admin/store/product/list` | High
+26 | File | `/api/baskets/{name}` | High
+27 | File | `/api/blade-log/api/list` | High
+28 | File | `/api/stl/actions/search` | High
+29 | File | `/api/v1/snapshots` | High
+30 | File | `/api/v2/cli/commands` | High
+31 | File | `/Application/Admin/Controller/ConfigController.class.php` | High
+32 | File | `/authUserAction!edit.action` | High
+33 | File | `/bin/ate` | Medium
+34 | File | `/bin/boa` | Medium
+35 | File | `/blog` | Low
+36 | File | `/booking/show_bookings/` | High
+37 | File | `/category.php` | High
+38 | File | `/cgi-bin` | Medium
+39 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
+40 | File | `/cgi-bin/wlogin.cgi` | High
+41 | File | `/cimom` | Low
+42 | File | `/classes/Master.php?f=save_inquiry` | High
+43 | File | `/classes/Master.php?f=save_service` | High
+44 | File | `/debug/pprof` | Medium
+45 | File | `/dev/shm` | Medium
+46 | File | `/dipam/athlete-profile.php` | High
+47 | File | `/download` | Medium
+48 | File | `/E-mobile/App/System/File/downfile.php` | High
+49 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+50 | ... | ... | ...
 
-There are 441 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 436 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 9 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -58,34 +58,35 @@ ID | Type | Indicator | Confidence
 5 | File | `/admin/index2.html` | High
 6 | File | `/admin/sign/out` | High
 7 | File | `/admin/ztliuyan_sendmail.php` | High
-8 | File | `/app1/admin#foo` | High
-9 | File | `/CCMAdmin/serverlist.asp` | High
-10 | File | `/cgi-bin/editBookmark` | High
-11 | File | `/Core/Ap4Utils.h` | High
-12 | File | `/ctpms/classes/Master.php?f=delete_application` | High
-13 | File | `/downloadmaster/dm_apply.cgi?action_mode=initial&download_type=General&special_cgi=get_language` | High
-14 | File | `/etc/passwd` | Medium
-15 | File | `/forum/away.php` | High
-16 | File | `/goform/aspForm` | High
-17 | File | `/goform/L7Im` | Medium
-18 | File | `/goform/RgDdns` | High
-19 | File | `/goform/RgDhcp` | High
-20 | File | `/goform/RGFirewallEL` | High
-21 | File | `/goform/RgTime` | High
-22 | File | `/goform/RgUrlBlock.asp` | High
-23 | File | `/goform/wlanPrimaryNetwork` | High
-24 | File | `/gofrom/setwanType` | High
-25 | File | `/hdf5/src/H5T.c` | High
-26 | File | `/horde/imp/search.php` | High
-27 | File | `/index.php` | Medium
-28 | File | `/installer/upgrade_start` | High
-29 | File | `/lan.asp` | Medium
-30 | File | `/login/index.php` | High
-31 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
-32 | File | `/media/?action=cmd` | High
-33 | ... | ... | ...
+8 | File | `/api/baskets/{name}` | High
+9 | File | `/app1/admin#foo` | High
+10 | File | `/category.php` | High
+11 | File | `/CCMAdmin/serverlist.asp` | High
+12 | File | `/cgi-bin/editBookmark` | High
+13 | File | `/Core/Ap4Utils.h` | High
+14 | File | `/ctpms/classes/Master.php?f=delete_application` | High
+15 | File | `/downloadmaster/dm_apply.cgi?action_mode=initial&download_type=General&special_cgi=get_language` | High
+16 | File | `/etc/passwd` | Medium
+17 | File | `/forum/away.php` | High
+18 | File | `/goform/aspForm` | High
+19 | File | `/goform/L7Im` | Medium
+20 | File | `/goform/RgDdns` | High
+21 | File | `/goform/RgDhcp` | High
+22 | File | `/goform/RGFirewallEL` | High
+23 | File | `/goform/RgTime` | High
+24 | File | `/goform/RgUrlBlock.asp` | High
+25 | File | `/goform/wlanPrimaryNetwork` | High
+26 | File | `/gofrom/setwanType` | High
+27 | File | `/hdf5/src/H5T.c` | High
+28 | File | `/horde/imp/search.php` | High
+29 | File | `/index.php` | Medium
+30 | File | `/installer/upgrade_start` | High
+31 | File | `/lan.asp` | Medium
+32 | File | `/login/index.php` | High
+33 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
+34 | ... | ... | ...
 
-There are 282 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 288 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

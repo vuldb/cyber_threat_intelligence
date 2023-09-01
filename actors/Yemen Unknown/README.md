@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [EG](https://vuldb.com/?country.eg)
 * ...
 
-There are 29 more country items available. Please use our online service to access the data.
+There are 30 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -32,9 +32,11 @@ ID | IP address | Hostname | Campaign | Confidence
 9 | [46.35.64.0](https://vuldb.com/?ip.46.35.64.0) | - | - | High
 10 | [46.161.224.0](https://vuldb.com/?ip.46.161.224.0) | - | - | High
 11 | [46.243.149.0](https://vuldb.com/?ip.46.243.149.0) | - | - | High
-12 | ... | ... | ... | ...
+12 | [57.89.16.0](https://vuldb.com/?ip.57.89.16.0) | - | - | High
+13 | [63.168.168.0](https://vuldb.com/?ip.63.168.168.0) | - | - | High
+14 | ... | ... | ... | ...
 
-There are 42 more IOC items available. Please use our online service to access the data.
+There are 50 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -93,17 +95,17 @@ ID | Type | Indicator | Confidence
 34 | File | `/wbms/classes/Users.php?f=save` | High
 35 | File | `/wp-admin/admin-ajax.php` | High
 36 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-37 | File | `a2dp_aac_decoder.cc` | High
-38 | File | `act.php` | Low
-39 | File | `adclick.php` | Medium
-40 | File | `addentry.php` | Medium
-41 | File | `admin` | Low
-42 | File | `admin-ajax.php` | High
-43 | File | `admin.php` | Medium
-44 | File | `admin/adminsignin.html` | High
+37 | File | `3f.jsp` | Low
+38 | File | `a2dp_aac_decoder.cc` | High
+39 | File | `act.php` | Low
+40 | File | `adclick.php` | Medium
+41 | File | `addentry.php` | Medium
+42 | File | `admin` | Low
+43 | File | `admin-ajax.php` | High
+44 | File | `admin.php` | Medium
 45 | ... | ... | ...
 
-There are 387 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 393 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -111,6 +113,7 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://github.com/firehol/blocklist-ipsets/blob/master/geolite2_country/country_ye.netset
 * https://github.com/firehol/blocklist-ipsets/blob/master/ip2location_country/ip2location_country_ye.netset
+* https://github.com/firehol/blocklist-ipsets/blob/master/ipip_country/ipip_country_ye.netset
 
 ## Literature
 

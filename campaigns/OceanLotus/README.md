@@ -103,7 +103,7 @@ ID | Type | Indicator | Confidence
 23 | File | `admin/languages.php` | High
 24 | ... | ... | ...
 
-There are 204 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 205 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

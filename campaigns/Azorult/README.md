@@ -45,9 +45,10 @@ ID | IP address | Hostname | Actor | Confidence
 9 | [37.140.192.166](https://vuldb.com/?ip.37.140.192.166) | scp46.hosting.reg.ru | [Azorult](https://vuldb.com/?actor.azorult) | High
 10 | [45.76.18.39](https://vuldb.com/?ip.45.76.18.39) | 45.76.18.39.vultrusercontent.com | [Azorult](https://vuldb.com/?actor.azorult) | High
 11 | [45.139.236.14](https://vuldb.com/?ip.45.139.236.14) | - | [Azorult](https://vuldb.com/?actor.azorult) | High
-12 | ... | ... | ... | ...
+12 | [45.140.147.214](https://vuldb.com/?ip.45.140.147.214) | vm1329418.stark-industries.solutions | [Azorult](https://vuldb.com/?actor.azorult) | High
+13 | ... | ... | ... | ...
 
-There are 45 more IOC items available. Please use our online service to access the data.
+There are 46 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -60,7 +61,8 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+6 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+7 | ... | ... | ... | ...
 
 There are 22 more TTP items available. Please use our online service to access the data.
 
@@ -77,48 +79,60 @@ ID | Type | Indicator | Confidence
 5 | File | `/admin/countrymanagement.php` | High
 6 | File | `/admin/deluser.php` | High
 7 | File | `/admin/transactions/track_shipment.php` | High
-8 | File | `/admin/user/manage_user.php` | High
-9 | File | `/administration/theme.php` | High
-10 | File | `/ajax-files/postComment.php` | High
-11 | File | `/auparse/auparse.c` | High
-12 | File | `/aux` | Low
-13 | File | `/BindAccount/SuccessTips.js` | High
-14 | File | `/categorypage.php` | High
-15 | File | `/classes/Master.php` | High
-16 | File | `/config/list` | Medium
-17 | File | `/forum/away.php` | High
-18 | File | `/goform/QuickIndex` | High
-19 | File | `/goform/setMacFilterCfg` | High
-20 | File | `/goform/WifiBasicSet` | High
-21 | File | `/home.php` | Medium
-22 | File | `/home/httpd/cgi-bin/cgi.cgi` | High
-23 | File | `/list_temp_photo_pin_upload.php` | High
-24 | File | `/login.html` | Medium
-25 | File | `/login.php` | Medium
-26 | File | `/medical/inventories.php` | High
-27 | File | `/news-portal-script/information.php` | High
-28 | File | `/pages.php` | Medium
-29 | File | `/pages/save_user.php` | High
-30 | File | `/patient/doctors.php` | High
-31 | File | `/print.php` | Medium
-32 | File | `/reviewer/system/system/admins/manage/users/user-update.php` | High
-33 | File | `/rom-0` | Low
-34 | File | `/searchpin.php` | High
-35 | File | `/services/Card/findUser` | High
-36 | File | `/showfile.php` | High
-37 | File | `/show_group_members.php` | High
-38 | File | `/timeline2.php` | High
-39 | File | `/uncpath/` | Medium
-40 | File | `/user/profile` | High
-41 | File | `/user/ticket/create` | High
-42 | File | `/usr/local/psa/admin/sbin/wrapper` | High
-43 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
-44 | File | `/vloggers_merch/classes/Master.php?f=delete_order` | High
-45 | File | `/whbs/?page=manage_account` | High
-46 | File | `abm.aspx` | Medium
-47 | ... | ... | ...
+8 | File | `/admin/uesrs.php&action=type&userrole=Admin&userid=3` | High
+9 | File | `/admin/user/manage_user.php` | High
+10 | File | `/administration/settings_registration.php` | High
+11 | File | `/administration/theme.php` | High
+12 | File | `/ajax-files/postComment.php` | High
+13 | File | `/alert_check/action=delete_alert_checker/alert_test_id` | High
+14 | File | `/auparse/auparse.c` | High
+15 | File | `/aux` | Low
+16 | File | `/BindAccount/SuccessTips.js` | High
+17 | File | `/categorypage.php` | High
+18 | File | `/cgi-bin/system_mgr.cgi` | High
+19 | File | `/cgi-bin/wlogin.cgi` | High
+20 | File | `/classes/Master.php` | High
+21 | File | `/config/list` | Medium
+22 | File | `/data/syslog.filter.json` | High
+23 | File | `/data/wps.setup.json` | High
+24 | File | `/forum/away.php` | High
+25 | File | `/goform/QuickIndex` | High
+26 | File | `/goform/SetInternetLanInfo` | High
+27 | File | `/goform/setMacFilterCfg` | High
+28 | File | `/goform/SetNetControlList` | High
+29 | File | `/goform/WifiBasicSet` | High
+30 | File | `/home.php` | Medium
+31 | File | `/home/httpd/cgi-bin/cgi.cgi` | High
+32 | File | `/iwgallery/pictures/details.asp` | High
+33 | File | `/list_temp_photo_pin_upload.php` | High
+34 | File | `/login.php` | Medium
+35 | File | `/manage/network-basic.php` | High
+36 | File | `/medical/inventories.php` | High
+37 | File | `/news-portal-script/information.php` | High
+38 | File | `/nova/bin/console` | High
+39 | File | `/pages.php` | Medium
+40 | File | `/pages/save_user.php` | High
+41 | File | `/patient/doctors.php` | High
+42 | File | `/PluXml/core/admin/parametres_edittpl.php` | High
+43 | File | `/print.php` | Medium
+44 | File | `/public/login.htm` | High
+45 | File | `/reviewer/system/system/admins/manage/users/user-update.php` | High
+46 | File | `/rom-0` | Low
+47 | File | `/searchpin.php` | High
+48 | File | `/services/Card/findUser` | High
+49 | File | `/showfile.php` | High
+50 | File | `/show_group_members.php` | High
+51 | File | `/timeline2.php` | High
+52 | File | `/uncpath/` | Medium
+53 | File | `/uno/central.php` | High
+54 | File | `/user/profile` | High
+55 | File | `/user/ticket/create` | High
+56 | File | `/usr/local/psa/admin/sbin/wrapper` | High
+57 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
+58 | File | `/vloggers_merch/classes/Master.php?f=delete_order` | High
+59 | ... | ... | ...
 
-There are 410 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 513 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -135,6 +149,7 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://isc.sans.edu/forums/diary/More+malspam+pushing+passwordprotected+Word+docs+for+AZORult+and+Hermes+Ransomware/23992/
 * https://research.checkpoint.com/2018/new-ramnit-campaign-spreads-azorult-malware/
 * https://threatfox.abuse.ch
+* https://tracker.viriback.com/index.php?q=198.98.54.161
 * https://tria.ge/220314-ymactadghk
 * https://tria.ge/220602-c7n6tagcgn
 * https://www.zscaler.com/blogs/research/multistage-freedom-loader-used-spread-azorult-and-nanocore-rat

@@ -51,32 +51,33 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/doorgets/app/views/ajax/commentView.php` | High
-2 | File | `/etc/passwd` | Medium
-3 | File | `/index.php` | Medium
-4 | File | `/rom-0` | Low
-5 | File | `/timeline2.php` | High
-6 | File | `/tmp` | Low
-7 | File | `/uncpath/` | Medium
-8 | File | `/user-utils/users/md5.json` | High
-9 | File | `/wp-admin/admin-ajax.php` | High
-10 | File | `AbstractController.php` | High
-11 | File | `ActBar.ocx` | Medium
-12 | File | `adclick.php` | Medium
-13 | File | `add_comment.php` | High
-14 | File | `add_ons.php` | Medium
-15 | File | `admin.comms.php` | High
-16 | File | `admin.php` | Medium
-17 | File | `admin/bad.php` | High
-18 | File | `admin/users/new` | High
-19 | File | `admincp.php?app=user&do=save` | High
-20 | File | `ajax.php?type=../admin-panel/autoload&page=manage-users` | High
-21 | File | `apc.php` | Low
-22 | File | `auction.cgi` | Medium
-23 | File | `base_maintenance.php` | High
-24 | ... | ... | ...
+1 | File | `/cgi-bin/nobody` | High
+2 | File | `/doorgets/app/views/ajax/commentView.php` | High
+3 | File | `/etc/passwd` | Medium
+4 | File | `/GponForm/device_Form?script/` | High
+5 | File | `/index.php` | Medium
+6 | File | `/index.php?controller=GzUser&action=edit&id=1` | High
+7 | File | `/rom-0` | Low
+8 | File | `/timeline2.php` | High
+9 | File | `/tmp` | Low
+10 | File | `/uncpath/` | Medium
+11 | File | `/user-utils/users/md5.json` | High
+12 | File | `/wp-admin/admin-ajax.php` | High
+13 | File | `AbstractController.php` | High
+14 | File | `ActBar.ocx` | Medium
+15 | File | `adclick.php` | Medium
+16 | File | `add_comment.php` | High
+17 | File | `add_ons.php` | Medium
+18 | File | `admin.comms.php` | High
+19 | File | `admin.php` | Medium
+20 | File | `admin/bad.php` | High
+21 | File | `admin/users/new` | High
+22 | File | `admincp.php?app=user&do=save` | High
+23 | File | `ajax.php?type=../admin-panel/autoload&page=manage-users` | High
+24 | File | `apc.php` | Low
+25 | ... | ... | ...
 
-There are 205 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 208 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

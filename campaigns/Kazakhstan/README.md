@@ -231,15 +231,15 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `%APPDATA%\Securepoint SSL VPN` | High
 2 | File | `/?p=products` | Medium
-3 | File | `/about.php` | Medium
-4 | File | `/admin.php/accessory/filesdel.html` | High
-5 | File | `/admin/?page=user/manage` | High
-6 | File | `/admin/add-new.php` | High
-7 | File | `/admin/doctors.php` | High
-8 | File | `/admin/submit-articles` | High
-9 | File | `/alphaware/summary.php` | High
-10 | File | `/api/` | Low
-11 | File | `/api/admin/store/product/list` | High
+3 | File | `/admin.php/accessory/filesdel.html` | High
+4 | File | `/admin/?page=user/manage` | High
+5 | File | `/admin/add-new.php` | High
+6 | File | `/admin/doctors.php` | High
+7 | File | `/admin/submit-articles` | High
+8 | File | `/alphaware/summary.php` | High
+9 | File | `/api/` | Low
+10 | File | `/api/admin/store/product/list` | High
+11 | File | `/api/baskets/{name}` | High
 12 | File | `/api/common/ping` | High
 13 | File | `/api/stl/actions/search` | High
 14 | File | `/api/v2/cli/commands` | High
@@ -257,19 +257,19 @@ ID | Type | Indicator | Confidence
 26 | File | `/etc/hosts` | Medium
 27 | File | `/forum/away.php` | High
 28 | File | `/geoserver/rest/about/status` | High
-29 | File | `/goform/setmac` | High
-30 | File | `/goform/wizard_end` | High
-31 | File | `/graphql` | Medium
-32 | File | `/KK_LS9ReportingPortal/GetData` | High
-33 | File | `/medicines/profile.php` | High
-34 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-35 | File | `/php-sms/admin/?page=user/manage_user` | High
-36 | File | `/plesk-site-preview/` | High
-37 | File | `/proxy` | Low
-38 | File | `/reservation/add_message.php` | High
-39 | File | `/resources//../` | High
-40 | File | `/spip.php` | Medium
-41 | File | `/tmp` | Low
+29 | File | `/goform/wizard_end` | High
+30 | File | `/graphql` | Medium
+31 | File | `/KK_LS9ReportingPortal/GetData` | High
+32 | File | `/medicines/profile.php` | High
+33 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+34 | File | `/php-sms/admin/?page=user/manage_user` | High
+35 | File | `/plesk-site-preview/` | High
+36 | File | `/proxy` | Low
+37 | File | `/reservation/add_message.php` | High
+38 | File | `/resources//../` | High
+39 | File | `/spip.php` | Medium
+40 | File | `/tmp` | Low
+41 | File | `/uncpath/` | Medium
 42 | ... | ... | ...
 
 There are 362 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.

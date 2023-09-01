@@ -84,7 +84,7 @@ ID | Type | Indicator | Confidence
 33 | File | `adm.cgi` | Low
 34 | ... | ... | ...
 
-There are 289 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 294 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
