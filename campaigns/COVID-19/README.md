@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [US](https://vuldb.com/?country.us)
 * ...
 
-There are 5 more country items available. Please use our online service to access the data.
+There are 4 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -153,10 +153,10 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+5 | T1068 | CWE-264, CWE-266, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -164,47 +164,51 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `//proc/kcore` | Medium
-2 | File | `/admin/students/view_details.php` | High
-3 | File | `/ajax.php?action=read_msg` | High
-4 | File | `/api/baskets/{name}` | High
-5 | File | `/api/upload.php` | High
-6 | File | `/api?path=profile` | High
-7 | File | `/auth/callback` | High
-8 | File | `/booking/show_bookings/` | High
-9 | File | `/cgi-bin/wlogin.cgi` | High
-10 | File | `/ci_spms/admin/search/searching/` | High
-11 | File | `/classes/Master.php?f=save_brand` | High
-12 | File | `/debug/pprof` | Medium
-13 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
-14 | File | `/DXR.axd` | Medium
-15 | File | `/ecommerce/support_ticket` | High
-16 | File | `/etc/pki/pesign` | High
-17 | File | `/forum/away.php` | High
-18 | File | `/FuguHub/cmsdocs/` | High
+1 | File | `/academy/home/courses` | High
+2 | File | `/admin/adclass.php` | High
+3 | File | `/admin/students/view_details.php` | High
+4 | File | `/ajax-files/followBoard.php` | High
+5 | File | `/ajax.php?action=read_msg` | High
+6 | File | `/api/baskets/{name}` | High
+7 | File | `/api/upload.php` | High
+8 | File | `/api?path=profile` | High
+9 | File | `/auth/callback` | High
+10 | File | `/authenticationendpoint/login.do` | High
+11 | File | `/cgi.cgi` | Medium
+12 | File | `/ci_spms/admin/search/searching/` | High
+13 | File | `/classes/Master.php?f=save_brand` | High
+14 | File | `/Content/Template/root/reverse-shell.aspx` | High
+15 | File | `/debug/pprof` | Medium
+16 | File | `/DXR.axd` | Medium
+17 | File | `/etc/pki/pesign` | High
+18 | File | `/forum/away.php` | High
 19 | File | `/goform/setportList` | High
 20 | File | `/goform/set_LimitClient_cfg` | High
 21 | File | `/graphql` | Medium
 22 | File | `/group1/uploa` | High
 23 | File | `/h/autoSaveDraft` | High
-24 | File | `/HNAP1` | Low
-25 | File | `/index.php` | Medium
-26 | File | `/modules/projects/vw_files.php` | High
+24 | File | `/index.php?page=member` | High
+25 | File | `/modules/projects/vw_files.php` | High
+26 | File | `/php-opos/index.php` | High
 27 | File | `/plugins/playbooks/api/v0/runs` | High
-28 | File | `/registration.php` | High
+28 | File | `/QueryView.php` | High
 29 | File | `/release-x64/otfccdump+0x61731f` | High
 30 | File | `/resources//../` | High
 31 | File | `/romfile.cfg` | Medium
-32 | File | `/search.php` | Medium
-33 | File | `/settings/account` | High
-34 | File | `/sitecore/shell/Invoke.aspx` | High
-35 | File | `/staff/edit_book_details.php` | High
-36 | File | `/student/bookdetails.php` | High
-37 | File | `/system/user/modules/mod_users/controller.php` | High
-38 | File | `/videotalk` | Medium
-39 | ... | ... | ...
+32 | File | `/scripts/unlock_tasks.php` | High
+33 | File | `/search` | Low
+34 | File | `/search.php` | Medium
+35 | File | `/sitecore/shell/Invoke.aspx` | High
+36 | File | `/squashfs-root/etc_ro/custom.conf` | High
+37 | File | `/staff/bookdetails.php` | High
+38 | File | `/staff/edit_book_details.php` | High
+39 | File | `/student/bookdetails.php` | High
+40 | File | `/system/user/modules/mod_users/controller.php` | High
+41 | File | `/uncpath/` | Medium
+42 | File | `/videotalk` | Medium
+43 | ... | ... | ...
 
-There are 340 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 375 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

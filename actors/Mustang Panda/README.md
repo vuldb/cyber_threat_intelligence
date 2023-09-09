@@ -123,34 +123,34 @@ ID | Type | Indicator | Confidence
 46 | File | `/author/list?limit=10&offset=0&order=desc` | High
 47 | File | `/bilal final/login.php` | High
 48 | File | `/boat/login.php` | High
-49 | File | `/cgi-bin/portal` | High
-50 | File | `/classes/Login.php` | High
-51 | File | `/classes/Master.php` | High
-52 | File | `/classes/Master.php?f=delete_img` | High
-53 | File | `/classes/Master.php?f=save_category` | High
-54 | File | `/classes/Master.php?f=save_sub_category` | High
-55 | File | `/classes/Master.php?f=update_order_status` | High
-56 | File | `/classes/Users.php` | High
-57 | File | `/Config/service/initModel?` | High
-58 | File | `/data/config.ftp.php` | High
-59 | File | `/ecommerce/admin/category/controller.php` | High
-60 | File | `/edoc/doctor/patient.php` | High
-61 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-62 | File | `/etc/shadow` | Medium
-63 | File | `/export` | Low
-64 | File | `/file/upload/1` | High
-65 | File | `/files/list-file` | High
-66 | File | `/file_manager/login.php` | High
-67 | File | `/forum/PostPrivateMessage` | High
-68 | File | `/fos/admin/ajax.php?action=save_settings` | High
-69 | File | `/goform/NTPSyncWithHost` | High
-70 | File | `/goform/SetVirtualServerCfg` | High
-71 | File | `/group1/uploa` | High
-72 | File | `/HNAP1/SetAccessPointMode` | High
-73 | File | `/home/<user>/SecurityOnion/setup/so-setup` | High
+49 | File | `/cgi-bin/luci/api/auth` | High
+50 | File | `/cgi-bin/portal` | High
+51 | File | `/classes/Login.php` | High
+52 | File | `/classes/Master.php` | High
+53 | File | `/classes/Master.php?f=delete_img` | High
+54 | File | `/classes/Master.php?f=save_category` | High
+55 | File | `/classes/Master.php?f=save_sub_category` | High
+56 | File | `/classes/Master.php?f=update_order_status` | High
+57 | File | `/classes/Users.php` | High
+58 | File | `/Config/service/initModel?` | High
+59 | File | `/data/config.ftp.php` | High
+60 | File | `/ecommerce/admin/category/controller.php` | High
+61 | File | `/edoc/doctor/patient.php` | High
+62 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+63 | File | `/etc/shadow` | Medium
+64 | File | `/export` | Low
+65 | File | `/file/upload/1` | High
+66 | File | `/files/list-file` | High
+67 | File | `/file_manager/login.php` | High
+68 | File | `/forum/PostPrivateMessage` | High
+69 | File | `/fos/admin/ajax.php?action=save_settings` | High
+70 | File | `/goform/NTPSyncWithHost` | High
+71 | File | `/goform/SetVirtualServerCfg` | High
+72 | File | `/group1/uploa` | High
+73 | File | `/HNAP1/SetAccessPointMode` | High
 74 | ... | ... | ...
 
-There are 654 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 655 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

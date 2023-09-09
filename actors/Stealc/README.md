@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 5 more country items available. Please use our online service to access the data.
+There are 4 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -83,12 +83,13 @@ ID | IP address | Hostname | Campaign | Confidence
 60 | [45.141.86.121](https://vuldb.com/?ip.45.141.86.121) | - | - | High
 61 | [45.144.28.84](https://vuldb.com/?ip.45.144.28.84) | dresgdrfgbd.com | - | High
 62 | [45.144.28.154](https://vuldb.com/?ip.45.144.28.154) | vm1226483.stark-industries.solutions | - | High
-63 | [45.147.197.188](https://vuldb.com/?ip.45.147.197.188) | vm4456743.1nvme.had.wf | - | High
-64 | [45.147.229.23](https://vuldb.com/?ip.45.147.229.23) | - | - | High
-65 | [45.147.231.118](https://vuldb.com/?ip.45.147.231.118) | - | - | High
-66 | ... | ... | ... | ...
+63 | [45.147.197.114](https://vuldb.com/?ip.45.147.197.114) | vm4576730.1nvme.had.wf | - | High
+64 | [45.147.197.188](https://vuldb.com/?ip.45.147.197.188) | vm4456743.1nvme.had.wf | - | High
+65 | [45.147.229.23](https://vuldb.com/?ip.45.147.229.23) | - | - | High
+66 | [45.147.231.118](https://vuldb.com/?ip.45.147.231.118) | - | - | High
+67 | ... | ... | ... | ...
 
-There are 261 more IOC items available. Please use our online service to access the data.
+There are 264 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -103,7 +104,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1068 | CWE-264, CWE-266, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -111,47 +112,51 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `//proc/kcore` | Medium
+1 | File | `/academy/home/courses` | High
 2 | File | `/admin/about-us.php` | High
-3 | File | `/admin/students/view_details.php` | High
-4 | File | `/ajax.php?action=read_msg` | High
-5 | File | `/api/baskets/{name}` | High
-6 | File | `/api/upload.php` | High
-7 | File | `/api?path=profile` | High
-8 | File | `/auth/callback` | High
-9 | File | `/booking/show_bookings/` | High
-10 | File | `/cgi-bin/wlogin.cgi` | High
-11 | File | `/ci_spms/admin/search/searching/` | High
-12 | File | `/classes/Master.php?f=save_brand` | High
-13 | File | `/debug/pprof` | Medium
-14 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
-15 | File | `/ecommerce/support_ticket` | High
-16 | File | `/etc/pki/pesign` | High
-17 | File | `/forum/away.php` | High
-18 | File | `/FuguHub/cmsdocs/` | High
-19 | File | `/goform/setportList` | High
-20 | File | `/goform/set_LimitClient_cfg` | High
-21 | File | `/graphql` | Medium
-22 | File | `/group1/uploa` | High
-23 | File | `/h/autoSaveDraft` | High
-24 | File | `/HNAP1` | Low
+3 | File | `/admin/adclass.php` | High
+4 | File | `/admin/students/view_details.php` | High
+5 | File | `/ajax-files/followBoard.php` | High
+6 | File | `/ajax.php?action=read_msg` | High
+7 | File | `/api/baskets/{name}` | High
+8 | File | `/api/upload.php` | High
+9 | File | `/api?path=profile` | High
+10 | File | `/auth/callback` | High
+11 | File | `/authenticationendpoint/login.do` | High
+12 | File | `/cgi-bin/wlogin.cgi` | High
+13 | File | `/cgi.cgi` | Medium
+14 | File | `/ci_spms/admin/search/searching/` | High
+15 | File | `/classes/Master.php?f=save_brand` | High
+16 | File | `/Content/Template/root/reverse-shell.aspx` | High
+17 | File | `/debug/pprof` | Medium
+18 | File | `/etc/pki/pesign` | High
+19 | File | `/forum/away.php` | High
+20 | File | `/goform/setportList` | High
+21 | File | `/goform/set_LimitClient_cfg` | High
+22 | File | `/graphql` | Medium
+23 | File | `/group1/uploa` | High
+24 | File | `/h/autoSaveDraft` | High
 25 | File | `/index.php` | Medium
-26 | File | `/modules/projects/vw_files.php` | High
-27 | File | `/plugins/playbooks/api/v0/runs` | High
-28 | File | `/registration.php` | High
-29 | File | `/release-x64/otfccdump+0x61731f` | High
-30 | File | `/resources//../` | High
-31 | File | `/romfile.cfg` | Medium
-32 | File | `/search.php` | Medium
-33 | File | `/settings/account` | High
+26 | File | `/index.php?page=member` | High
+27 | File | `/modules/projects/vw_files.php` | High
+28 | File | `/plugins/playbooks/api/v0/runs` | High
+29 | File | `/QueryView.php` | High
+30 | File | `/release-x64/otfccdump+0x61731f` | High
+31 | File | `/resources//../` | High
+32 | File | `/romfile.cfg` | Medium
+33 | File | `/search.php` | Medium
 34 | File | `/sitecore/shell/Invoke.aspx` | High
 35 | File | `/squashfs-root/etc_ro/custom.conf` | High
-36 | File | `/staff/edit_book_details.php` | High
-37 | File | `/student/bookdetails.php` | High
-38 | File | `/user/profile` | High
-39 | ... | ... | ...
+36 | File | `/staff/bookdetails.php` | High
+37 | File | `/staff/edit_book_details.php` | High
+38 | File | `/student/bookdetails.php` | High
+39 | File | `/uncpath/` | Medium
+40 | File | `/user/profile` | High
+41 | File | `/videotalk` | Medium
+42 | File | `/wireless/basic.asp` | High
+43 | ... | ... | ...
 
-There are 339 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 374 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

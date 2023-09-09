@@ -16,10 +16,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [ES](https://vuldb.com/?country.es)
-* [SC](https://vuldb.com/?country.sc)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 5 more country items available. Please use our online service to access the data.
+There are 6 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -61,83 +61,83 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.github/workflows/comment.yml` | High
-2 | File | `/?p=products` | Medium
-3 | File | `/?r=recruit/resume/edit&op=status` | High
-4 | File | `/academy/home/courses` | High
+2 | File | `/?r=recruit/resume/edit&op=status` | High
+3 | File | `/academy/home/courses` | High
+4 | File | `/ad-list` | Medium
 5 | File | `/admin.php?c=upload&f=zip&_noCache=0.1683794968` | High
 6 | File | `/admin/?page=user/list` | High
 7 | File | `/admin/?page=user/manage_user&id=3` | High
 8 | File | `/admin/addproduct.php` | High
-9 | File | `/admin/attendance_row.php` | High
-10 | File | `/admin/bookings/manage_booking.php` | High
-11 | File | `/admin/bookings/view_booking.php` | High
-12 | File | `/admin/budget/manage_budget.php` | High
-13 | File | `/admin/cashadvance_row.php` | High
-14 | File | `/admin/contacts/organizations/edit/2` | High
-15 | File | `/admin/curriculum/view_curriculum.php` | High
-16 | File | `/admin/deduction_row.php` | High
-17 | File | `/admin/departments/view_department.php` | High
-18 | File | `/admin/edit_product.php` | High
-19 | File | `/admin/edit_subject.php` | High
-20 | File | `/admin/employee_row.php` | High
-21 | File | `/admin/index.php` | High
-22 | File | `/admin/index/index.html#/admin/mall.goods/index.html` | High
-23 | File | `/admin/inquiries/view_inquiry.php` | High
-24 | File | `/admin/login.php` | High
-25 | File | `/admin/maintenance/brand.php` | High
-26 | File | `/admin/maintenance/manage_category.php` | High
-27 | File | `/admin/maintenance/view_designation.php` | High
-28 | File | `/admin/mechanics/manage_mechanic.php` | High
-29 | File | `/admin/modal_add_product.php` | High
-30 | File | `/admin/orders/update_status.php` | High
-31 | File | `/admin/products/manage_product.php` | High
-32 | File | `/admin/products/view_product.php` | High
-33 | File | `/admin/project/update/2` | High
-34 | File | `/admin/read.php?mudi=getSignal` | High
-35 | File | `/admin/reg.php` | High
-36 | File | `/admin/reminders/manage_reminder.php` | High
-37 | File | `/admin/report/index.php` | High
-38 | File | `/admin/reportupload.aspx` | High
-39 | File | `/admin/sales/manage_sale.php` | High
-40 | File | `/admin/service.php` | High
-41 | File | `/admin/services/manage_service.php` | High
-42 | File | `/admin/services/view_service.php` | High
-43 | File | `/admin/service_requests/manage_inventory.php` | High
-44 | File | `/admin/sys_sql_query.php` | High
-45 | File | `/admin/test_status.php` | High
-46 | File | `/admin/update_s6.php` | High
-47 | File | `/admin/upload.php` | High
-48 | File | `/admin/user/manage_user.php` | High
-49 | File | `/admin/userprofile.php` | High
-50 | File | `/admin/vote_edit.php` | High
-51 | File | `/ajax.php?action=read_msg` | High
-52 | File | `/ajax.php?action=save_company` | High
-53 | File | `/api/stl/actions/search` | High
-54 | File | `/api/sys/login` | High
-55 | File | `/App_Resource/UEditor/server/upload.aspx` | High
-56 | File | `/author_posts.php` | High
-57 | File | `/bin/sh` | Low
-58 | File | `/blog` | Low
-59 | File | `/blog-single.php` | High
-60 | File | `/booking/show_bookings/` | High
-61 | File | `/browse` | Low
-62 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
-63 | File | `/cgi-bin/ping.cgi` | High
-64 | File | `/cgi-bin/touchlist_sync.cgi` | High
-65 | File | `/chaincity/user/ticket/create` | High
-66 | File | `/changeimage.php` | High
-67 | File | `/classes/Login.php` | High
-68 | File | `/classes/Master.php` | High
-69 | File | `/classes/Master.php?f=delete_category` | High
-70 | File | `/classes/Master.php?f=delete_inquiry` | High
-71 | File | `/classes/Master.php?f=delete_item` | High
-72 | File | `/classes/Master.php?f=delete_service` | High
-73 | File | `/classes/Master.php?f=delete_sub_category` | High
-74 | File | `/classes/Master.php?f=save_course` | High
-75 | File | `/classes/Master.php?f=save_inquiry` | High
+9 | File | `/admin/bookings/manage_booking.php` | High
+10 | File | `/admin/bookings/view_booking.php` | High
+11 | File | `/admin/budget/manage_budget.php` | High
+12 | File | `/admin/contacts/organizations/edit/2` | High
+13 | File | `/admin/curriculum/view_curriculum.php` | High
+14 | File | `/admin/departments/view_department.php` | High
+15 | File | `/admin/edit_product.php` | High
+16 | File | `/admin/edit_subject.php` | High
+17 | File | `/admin/index.php` | High
+18 | File | `/admin/index/index.html#/admin/mall.goods/index.html` | High
+19 | File | `/admin/inquiries/view_inquiry.php` | High
+20 | File | `/admin/maintenance/manage_category.php` | High
+21 | File | `/admin/maintenance/view_designation.php` | High
+22 | File | `/admin/mechanics/manage_mechanic.php` | High
+23 | File | `/admin/modal_add_product.php` | High
+24 | File | `/admin/orders/update_status.php` | High
+25 | File | `/admin/products/manage_product.php` | High
+26 | File | `/admin/products/view_product.php` | High
+27 | File | `/admin/project/update/2` | High
+28 | File | `/admin/read.php?mudi=getSignal` | High
+29 | File | `/admin/reg.php` | High
+30 | File | `/admin/reminders/manage_reminder.php` | High
+31 | File | `/admin/report/index.php` | High
+32 | File | `/admin/reportupload.aspx` | High
+33 | File | `/admin/sales/manage_sale.php` | High
+34 | File | `/admin/service.php` | High
+35 | File | `/admin/services/manage_service.php` | High
+36 | File | `/admin/services/view_service.php` | High
+37 | File | `/admin/service_requests/manage_inventory.php` | High
+38 | File | `/admin/sys_sql_query.php` | High
+39 | File | `/admin/test_status.php` | High
+40 | File | `/admin/update_s6.php` | High
+41 | File | `/admin/upload.php` | High
+42 | File | `/admin/user/manage_user.php` | High
+43 | File | `/admin/userprofile.php` | High
+44 | File | `/admin/vote_edit.php` | High
+45 | File | `/ajax.php?action=read_msg` | High
+46 | File | `/ajax.php?action=save_company` | High
+47 | File | `/api/stl/actions/search` | High
+48 | File | `/api/sys/login` | High
+49 | File | `/App_Resource/UEditor/server/upload.aspx` | High
+50 | File | `/author_posts.php` | High
+51 | File | `/bin/sh` | Low
+52 | File | `/blog` | Low
+53 | File | `/blog-single.php` | High
+54 | File | `/booking/show_bookings/` | High
+55 | File | `/browse` | Low
+56 | File | `/cgi-bin/ping.cgi` | High
+57 | File | `/chaincity/user/ticket/create` | High
+58 | File | `/changeimage.php` | High
+59 | File | `/classes/Master.php` | High
+60 | File | `/classes/Master.php?f=delete_category` | High
+61 | File | `/classes/Master.php?f=delete_inquiry` | High
+62 | File | `/classes/Master.php?f=delete_item` | High
+63 | File | `/classes/Master.php?f=delete_service` | High
+64 | File | `/classes/Master.php?f=save_course` | High
+65 | File | `/classes/Master.php?f=save_inquiry` | High
+66 | File | `/classes/Master.php?f=save_item` | High
+67 | File | `/classes/Master.php?f=save_service` | High
+68 | File | `/classes/Users.php?f=save` | High
+69 | File | `/collection/all` | High
+70 | File | `/company/store` | High
+71 | File | `/config` | Low
+72 | File | `/contact.php` | Medium
+73 | File | `/Controller/Ajaxfileupload.ashx` | High
+74 | File | `/dipam/save-delegates.php` | High
+75 | File | `/Duty/AjaxHandle/UploadFloodPlanFileUpdate.ashx` | High
 76 | ... | ... | ...
 
-There are 670 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 667 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

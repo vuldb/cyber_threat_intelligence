@@ -367,9 +367,13 @@ ID | IP address | Hostname | Actor | Confidence
 331 | [45.138.172.179](https://vuldb.com/?ip.45.138.172.179) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
 332 | [45.138.172.240](https://vuldb.com/?ip.45.138.172.240) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
 333 | [45.142.214.176](https://vuldb.com/?ip.45.142.214.176) | vm546665.stark-industries.solutions | [IcedID](https://vuldb.com/?actor.icedid) | High
-334 | ... | ... | ... | ...
+334 | [45.144.178.236](https://vuldb.com/?ip.45.144.178.236) | e.wise-sourcing.com | [IcedID](https://vuldb.com/?actor.icedid) | High
+335 | [45.147.228.138](https://vuldb.com/?ip.45.147.228.138) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
+336 | [45.147.228.182](https://vuldb.com/?ip.45.147.228.182) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
+337 | [45.147.228.198](https://vuldb.com/?ip.45.147.228.198) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
+338 | ... | ... | ... | ...
 
-There are 1334 more IOC items available. Please use our online service to access the data.
+There are 1350 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -396,29 +400,29 @@ ID | Type | Indicator | Confidence
 2 | File | `/about.php` | Medium
 3 | File | `/admin.php/update/getFile.html` | High
 4 | File | `/admin/about-us.php` | High
-5 | File | `/admin/cashadvance_row.php` | High
-6 | File | `/admin/maintenance/view_designation.php` | High
-7 | File | `/admin/sys_sql_query.php` | High
-8 | File | `/admin/userprofile.php` | High
-9 | File | `/api/baskets/{name}` | High
-10 | File | `/bitrix/admin/ldap_server_edit.php` | High
-11 | File | `/cgi-bin/luci/api/wireless` | High
-12 | File | `/company/store` | High
-13 | File | `/Content/Template/root/reverse-shell.aspx` | High
-14 | File | `/Controller/Ajaxfileupload.ashx` | High
-15 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
-16 | File | `/core/conditions/AbstractWrapper.java` | High
-17 | File | `/dcim/rack-roles/` | High
-18 | File | `/etc/passwd` | Medium
-19 | File | `/feeds/post/publish` | High
-20 | File | `/forms/doLogin` | High
-21 | File | `/forum/away.php` | High
-22 | File | `/h/` | Low
+5 | File | `/admin/maintenance/view_designation.php` | High
+6 | File | `/admin/sys_sql_query.php` | High
+7 | File | `/api/baskets/{name}` | High
+8 | File | `/bitrix/admin/ldap_server_edit.php` | High
+9 | File | `/cgi-bin/luci/api/wireless` | High
+10 | File | `/company/store` | High
+11 | File | `/Content/Template/root/reverse-shell.aspx` | High
+12 | File | `/Controller/Ajaxfileupload.ashx` | High
+13 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
+14 | File | `/core/conditions/AbstractWrapper.java` | High
+15 | File | `/csms/?page=contact_us` | High
+16 | File | `/dcim/rack-roles/` | High
+17 | File | `/etc/passwd` | Medium
+18 | File | `/feeds/post/publish` | High
+19 | File | `/forms/doLogin` | High
+20 | File | `/forum/away.php` | High
+21 | File | `/h/` | Low
+22 | File | `/home/cavesConsole` | High
 23 | File | `/inc/jquery/uploadify/uploadify.php` | High
-24 | File | `/inc/topBarNav.php` | High
-25 | File | `/index.php` | Medium
-26 | File | `/index.php?app=main&func=passport&action=login` | High
-27 | File | `/index.php?page=category_list` | High
+24 | File | `/index.php` | Medium
+25 | File | `/index.php?app=main&func=passport&action=login` | High
+26 | File | `/index.php?page=category_list` | High
+27 | File | `/jeecg-boot/sys/common/upload` | High
 28 | File | `/jobinfo/` | Medium
 29 | File | `/kelas/data` | Medium
 30 | File | `/Moosikay/order.php` | High
@@ -427,7 +431,7 @@ ID | Type | Indicator | Confidence
 33 | File | `/recipe-result` | High
 34 | File | `/register.do` | Medium
 35 | File | `/reservation/add_message.php` | High
-36 | File | `/rom-0` | Low
+36 | File | `/scripts/unlock_tasks.php` | High
 37 | File | `/Service/ImageStationDataService.asmx` | High
 38 | File | `/ServletAPI/accounts/login` | High
 39 | File | `/spip.php` | Medium
@@ -435,14 +439,15 @@ ID | Type | Indicator | Confidence
 41 | File | `/staff/edit_book_details.php` | High
 42 | File | `/student/bookdetails.php` | High
 43 | File | `/system/user/modules/mod_users/controller.php` | High
-44 | File | `/uploads/exam_question/` | High
-45 | File | `/user/profile` | High
-46 | File | `/user/ticket/create` | High
-47 | File | `/var/lib/docker/<remapping>` | High
-48 | File | `/wp-admin/admin-ajax.php` | High
-49 | ... | ... | ...
+44 | File | `/upload` | Low
+45 | File | `/uploads/exam_question/` | High
+46 | File | `/user/profile` | High
+47 | File | `/user/ticket/create` | High
+48 | File | `/UserSelfServiceSettings.jsp` | High
+49 | File | `/var/lib/docker/<remapping>` | High
+50 | ... | ... | ...
 
-There are 425 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 439 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

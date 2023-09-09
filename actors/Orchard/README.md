@@ -61,22 +61,22 @@ ID | Type | Indicator | Confidence
 10 | File | `/cgi-bin/luci/api/diagnose` | High
 11 | File | `/classes/conf/db.properties&config=filemanager.config.js` | High
 12 | File | `/coders/palm.c` | High
-13 | File | `/dcim/rack/` | Medium
-14 | File | `/EditEventTypes.php` | High
-15 | File | `/etc/groups` | Medium
-16 | File | `/file/upload/1` | High
-17 | File | `/formSetPortTr` | High
-18 | File | `/forum/away.php` | High
-19 | File | `/goform/wlanPrimaryNetwork` | High
-20 | File | `/index.php?module=help_pages/pages&entities_id=24` | High
-21 | File | `/it-IT/splunkd/__raw/services/get_snapshot` | High
-22 | File | `/nova/bin/user` | High
-23 | File | `/novel-admin/src/main/java/com/java2nb/common/controller/FileController.java` | High
-24 | File | `/plesk-site-preview/` | High
-25 | File | `/public/admin/profile/update.html` | High
+13 | File | `/collection/all` | High
+14 | File | `/dcim/rack/` | Medium
+15 | File | `/EditEventTypes.php` | High
+16 | File | `/etc/groups` | Medium
+17 | File | `/file/upload/1` | High
+18 | File | `/formSetPortTr` | High
+19 | File | `/forum/away.php` | High
+20 | File | `/goform/wlanPrimaryNetwork` | High
+21 | File | `/index.php?module=help_pages/pages&entities_id=24` | High
+22 | File | `/it-IT/splunkd/__raw/services/get_snapshot` | High
+23 | File | `/nova/bin/user` | High
+24 | File | `/novel-admin/src/main/java/com/java2nb/common/controller/FileController.java` | High
+25 | File | `/plesk-site-preview/` | High
 26 | ... | ... | ...
 
-There are 215 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 219 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

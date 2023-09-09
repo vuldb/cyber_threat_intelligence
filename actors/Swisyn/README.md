@@ -85,9 +85,10 @@ ID | Type | Indicator | Confidence
 26 | File | `/htdocs/utils/Files.php` | High
 27 | File | `/jpg/image.jpg` | High
 28 | File | `/Main_AdmStatus_Content.asp` | High
-29 | ... | ... | ...
+29 | File | `/mgmt/tm/util/bash` | High
+30 | ... | ... | ...
 
-There are 250 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 251 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

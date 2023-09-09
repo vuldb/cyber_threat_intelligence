@@ -69,24 +69,22 @@ ID | Type | Indicator | Confidence
 17 | File | `/classes/Master.php?f=delete_item` | High
 18 | File | `/classes/Master.php?f=delete_service` | High
 19 | File | `/classes/Master.php?f=save_course` | High
-20 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
-21 | File | `/dosen/data` | Medium
-22 | File | `/ecommerce/support_ticket` | High
-23 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-24 | File | `/Enclave.cpp` | Medium
-25 | File | `/file_manager/admin/save_user.php` | High
-26 | File | `/get-artifact` | High
-27 | File | `/goForm/aspForm` | High
-28 | File | `/goform/formTcpipSetup` | High
-29 | File | `/inc/jquery/uploadify/uploadify.php` | High
-30 | File | `/index.php/archives/1/comment` | High
-31 | File | `/jerry-core/parser/js/js-lexer.c` | High
-32 | File | `/jerry-core/parser/js/js-parser-statm.c` | High
-33 | File | `/jerry-core/parser/js/js-scanner-util.c` | High
-34 | File | `/jurusan/data` | High
-35 | ... | ... | ...
+20 | File | `/collection/all` | High
+21 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
+22 | File | `/dosen/data` | Medium
+23 | File | `/ecommerce/support_ticket` | High
+24 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+25 | File | `/Enclave.cpp` | Medium
+26 | File | `/file_manager/admin/save_user.php` | High
+27 | File | `/get-artifact` | High
+28 | File | `/goForm/aspForm` | High
+29 | File | `/goform/formTcpipSetup` | High
+30 | File | `/inc/jquery/uploadify/uploadify.php` | High
+31 | File | `/index.php/archives/1/comment` | High
+32 | File | `/jerry-core/parser/js/js-lexer.c` | High
+33 | ... | ... | ...
 
-There are 302 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 281 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

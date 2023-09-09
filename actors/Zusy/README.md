@@ -132,7 +132,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -189,13 +189,13 @@ ID | Type | Indicator | Confidence
 47 | File | `/upfile.cgi` | Medium
 48 | File | `/user/s.php` | Medium
 49 | File | `/user/updatePwd` | High
-50 | File | `/var/log/nginx` | High
-51 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
-52 | File | `/video-sharing-script/watch-video.php` | High
-53 | File | `/wireless/guestnetwork.asp` | High
-54 | File | `/wireless/security.asp` | High
-55 | File | `/wordpress/wp-admin/admin.php` | High
-56 | File | `?r=recruit/interview/export&interviews=x` | High
+50 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
+51 | File | `/video-sharing-script/watch-video.php` | High
+52 | File | `/wireless/guestnetwork.asp` | High
+53 | File | `/wireless/security.asp` | High
+54 | File | `/wordpress/wp-admin/admin.php` | High
+55 | File | `?r=recruit/interview/export&interviews=x` | High
+56 | File | `account_footer.php` | High
 57 | ... | ... | ...
 
 There are 496 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.

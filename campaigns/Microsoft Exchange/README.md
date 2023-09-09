@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 33 more country items available. Please use our online service to access the data.
+There are 32 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -78,27 +78,28 @@ ID | Type | Indicator | Confidence
 17 | File | `/dashboard/snapshot/*?orgId=0` | High
 18 | File | `/export` | Low
 19 | File | `/exports/export.php` | High
-20 | File | `/gena.cgi` | Medium
-21 | File | `/home/cavesConsole` | High
-22 | File | `/home/kickPlayer` | High
-23 | File | `/home/masterConsole` | High
-24 | File | `/home/sendBroadcast` | High
-25 | File | `/include/chart_generator.php` | High
-26 | File | `/lan.asp` | Medium
-27 | File | `/login` | Low
-28 | File | `/loginVaLidation.php` | High
-29 | File | `/manage/emailrichment/userlist.php?CUSTOMER_ID_INNER=1` | High
-30 | File | `/metrics` | Medium
-31 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-32 | File | `/photo/webapi/photo.php` | High
-33 | File | `/plesk-site-preview/` | High
-34 | File | `/resources//../` | High
-35 | File | `/secure/QueryComponent!Default.jspa` | High
-36 | File | `/setSystemAdmin` | High
-37 | File | `/start_apply.htm` | High
-38 | ... | ... | ...
+20 | File | `/forum/away.php` | High
+21 | File | `/gena.cgi` | Medium
+22 | File | `/home/cavesConsole` | High
+23 | File | `/home/kickPlayer` | High
+24 | File | `/home/masterConsole` | High
+25 | File | `/home/sendBroadcast` | High
+26 | File | `/include/chart_generator.php` | High
+27 | File | `/lan.asp` | Medium
+28 | File | `/login` | Low
+29 | File | `/loginVaLidation.php` | High
+30 | File | `/manage/emailrichment/userlist.php?CUSTOMER_ID_INNER=1` | High
+31 | File | `/metrics` | Medium
+32 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+33 | File | `/photo/webapi/photo.php` | High
+34 | File | `/plesk-site-preview/` | High
+35 | File | `/resources//../` | High
+36 | File | `/secure/QueryComponent!Default.jspa` | High
+37 | File | `/setSystemAdmin` | High
+38 | File | `/start_apply.htm` | High
+39 | ... | ... | ...
 
-There are 330 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 332 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -37,7 +37,7 @@ ID | IP address | Hostname | Campaign | Confidence
 14 | [38.242.239.137](https://vuldb.com/?ip.38.242.239.137) | vmi1081127.contaboserver.net | - | High
 15 | ... | ... | ... | ...
 
-There are 56 more IOC items available. Please use our online service to access the data.
+There are 57 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -106,9 +106,11 @@ ID | Type | Indicator | Confidence
 44 | File | `/PC/WebService.asmx` | High
 45 | File | `/preauth` | Medium
 46 | File | `/search.php` | Medium
-47 | ... | ... | ...
+47 | File | `/Source/C++/Core/Ap4DataBuffer.cpp` | High
+48 | File | `/spip.php` | Medium
+49 | ... | ... | ...
 
-There are 406 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 427 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

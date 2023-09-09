@@ -83,32 +83,32 @@ ID | Type | Indicator | Confidence
 31 | File | `/inc/jquery/uploadify/uploadify.php` | High
 32 | File | `/index.php?app=main&func=passport&action=login` | High
 33 | File | `/index.php?page=category_list` | High
-34 | File | `/jobinfo/` | Medium
-35 | File | `/librarian/bookdetails.php` | High
-36 | File | `/Moosikay/order.php` | High
-37 | File | `/mygym/admin/index.php?view_exercises` | High
-38 | File | `/opac/Actions.php?a=login` | High
-39 | File | `/php-opos/index.php` | High
-40 | File | `/PreviewHandler.ashx` | High
-41 | File | `/public/launchNewWindow.jsp` | High
-42 | File | `/recipe-result` | High
-43 | File | `/register.do` | Medium
-44 | File | `/reservation/add_message.php` | High
-45 | File | `/Service/ImageStationDataService.asmx` | High
-46 | File | `/spip.php` | Medium
-47 | File | `/student/bookdetails.php` | High
-48 | File | `/uncpath/` | Medium
-49 | File | `/uploads/exam_question/` | High
-50 | File | `/user/ticket/create` | High
-51 | File | `/user/updatePwd` | High
-52 | File | `/var/lib/docker/<remapping>` | High
-53 | File | `/var/www/core/controller/index.php` | High
-54 | File | `/wireless/security.asp` | High
-55 | File | `/wp-admin/admin-ajax.php` | High
-56 | File | `01article.php` | High
+34 | File | `/jeecg-boot/sys/common/upload` | High
+35 | File | `/jobinfo/` | Medium
+36 | File | `/librarian/bookdetails.php` | High
+37 | File | `/Moosikay/order.php` | High
+38 | File | `/mygym/admin/index.php?view_exercises` | High
+39 | File | `/opac/Actions.php?a=login` | High
+40 | File | `/php-opos/index.php` | High
+41 | File | `/PreviewHandler.ashx` | High
+42 | File | `/public/launchNewWindow.jsp` | High
+43 | File | `/recipe-result` | High
+44 | File | `/register.do` | Medium
+45 | File | `/reservation/add_message.php` | High
+46 | File | `/Service/ImageStationDataService.asmx` | High
+47 | File | `/spip.php` | Medium
+48 | File | `/student/bookdetails.php` | High
+49 | File | `/uncpath/` | Medium
+50 | File | `/uploads/exam_question/` | High
+51 | File | `/user/ticket/create` | High
+52 | File | `/user/updatePwd` | High
+53 | File | `/UserSelfServiceSettings.jsp` | High
+54 | File | `/var/lib/docker/<remapping>` | High
+55 | File | `/var/www/core/controller/index.php` | High
+56 | File | `/wireless/security.asp` | High
 57 | ... | ... | ...
 
-There are 496 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 497 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

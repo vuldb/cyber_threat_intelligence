@@ -60,7 +60,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -69,68 +69,68 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/admin/admin.php` | High
-3 | File | `/admin/attendance_row.php` | High
-4 | File | `/admin/maintenance/view_designation.php` | High
-5 | File | `/admin/test_status.php` | High
-6 | File | `/admin/user/manage_user.php` | High
-7 | File | `/api/trackedEntityInstances` | High
-8 | File | `/bin/login.php` | High
-9 | File | `/cgi-bin/system_mgr.cgi` | High
-10 | File | `/cgi/sshcheck.cgi` | High
-11 | File | `/common/logViewer/logViewer.jsf` | High
-12 | File | `/ConsoleHelp/` | High
-13 | File | `/etc/sudoers` | Medium
-14 | File | `/export` | Low
-15 | File | `/home/filter_listings` | High
-16 | File | `/horde/imp/search.php` | High
-17 | File | `/index.php` | Medium
-18 | File | `/jsoa/hntdCustomDesktopActionContent` | High
-19 | File | `/LEPTON_stable_2.2.2/upload/admins/media/index.php` | High
-20 | File | `/login` | Low
-21 | File | `/messageboard/view.php` | High
-22 | File | `/modules/projects/vw_files.php` | High
-23 | File | `/opensis/modules/grades/InputFinalGrades.php` | High
-24 | File | `/opensis/modules/users/Staff.php` | High
-25 | File | `/plesk-site-preview/` | High
-26 | File | `/proc/self/environ` | High
-27 | File | `/rest/api/2/user/picker` | High
-28 | File | `/s/` | Low
-29 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-30 | File | `/secure/QueryComponent!Default.jspa` | High
-31 | File | `/sendrcpackage?keyid=-2544&keysymbol=-4081` | High
-32 | File | `/system?action=ServiceAdmin` | High
-33 | File | `/var/WEB-GUI/cgi-bin/downloadfile.cgi` | High
-34 | File | `/vicidial/user_stats.php` | High
-35 | File | `/websocket/exec` | High
-36 | File | `access.conf` | Medium
-37 | File | `adclick.php` | Medium
-38 | File | `addsuppliers.php` | High
-39 | File | `admin.php` | Medium
-40 | File | `admin.remository.php` | High
-41 | File | `admin/admin_users.php` | High
-42 | File | `admin/login.php` | High
-43 | File | `admin/upload.php` | High
-44 | File | `administers` | Medium
-45 | File | `Administrator_list.php` | High
-46 | File | `advancedsetup_websiteblocking.html` | High
-47 | File | `affich.php` | Medium
-48 | File | `ajax_mail_autoreply.php` | High
-49 | File | `ajax_save_name.php` | High
-50 | File | `album_portal.php` | High
-51 | File | `allocator.cc` | Medium
-52 | File | `announcements.php` | High
-53 | File | `ap1.com` | Low
-54 | File | `apache2/modsecurity.c` | High
-55 | File | `api_jsonrpc.php` | High
-56 | File | `app/admin/controller/Ajax.php` | High
-57 | File | `App/Modules/Admin/Tpl/default/Public/dwz/uploadify/scripts/uploadify.swf` | High
-58 | File | `application.php` | High
-59 | File | `apply.cgi` | Medium
-60 | File | `asp:.jpg` | Medium
+2 | File | `/admin/?page=user/manage_user&id=3` | High
+3 | File | `/admin/admin.php` | High
+4 | File | `/admin/attendance_row.php` | High
+5 | File | `/admin/maintenance/view_designation.php` | High
+6 | File | `/admin/test_status.php` | High
+7 | File | `/admin/user/manage_user.php` | High
+8 | File | `/api/trackedEntityInstances` | High
+9 | File | `/bin/login.php` | High
+10 | File | `/cgi-bin/system_mgr.cgi` | High
+11 | File | `/cgi/sshcheck.cgi` | High
+12 | File | `/common/logViewer/logViewer.jsf` | High
+13 | File | `/ConsoleHelp/` | High
+14 | File | `/etc/sudoers` | Medium
+15 | File | `/export` | Low
+16 | File | `/home/filter_listings` | High
+17 | File | `/horde/imp/search.php` | High
+18 | File | `/index.php` | Medium
+19 | File | `/jsoa/hntdCustomDesktopActionContent` | High
+20 | File | `/LEPTON_stable_2.2.2/upload/admins/media/index.php` | High
+21 | File | `/login` | Low
+22 | File | `/messageboard/view.php` | High
+23 | File | `/modules/projects/vw_files.php` | High
+24 | File | `/opensis/modules/grades/InputFinalGrades.php` | High
+25 | File | `/opensis/modules/users/Staff.php` | High
+26 | File | `/plesk-site-preview/` | High
+27 | File | `/proc/self/environ` | High
+28 | File | `/rest/api/2/user/picker` | High
+29 | File | `/s/` | Low
+30 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+31 | File | `/secure/QueryComponent!Default.jspa` | High
+32 | File | `/sendrcpackage?keyid=-2544&keysymbol=-4081` | High
+33 | File | `/system?action=ServiceAdmin` | High
+34 | File | `/var/WEB-GUI/cgi-bin/downloadfile.cgi` | High
+35 | File | `/vicidial/user_stats.php` | High
+36 | File | `/websocket/exec` | High
+37 | File | `access.conf` | Medium
+38 | File | `adclick.php` | Medium
+39 | File | `addsuppliers.php` | High
+40 | File | `admin.php` | Medium
+41 | File | `admin.remository.php` | High
+42 | File | `admin/admin_users.php` | High
+43 | File | `admin/login.php` | High
+44 | File | `admin/upload.php` | High
+45 | File | `administers` | Medium
+46 | File | `Administrator_list.php` | High
+47 | File | `advancedsetup_websiteblocking.html` | High
+48 | File | `affich.php` | Medium
+49 | File | `ajax_mail_autoreply.php` | High
+50 | File | `ajax_save_name.php` | High
+51 | File | `album_portal.php` | High
+52 | File | `allocator.cc` | Medium
+53 | File | `announcements.php` | High
+54 | File | `ap1.com` | Low
+55 | File | `apache2/modsecurity.c` | High
+56 | File | `api_jsonrpc.php` | High
+57 | File | `app/admin/controller/Ajax.php` | High
+58 | File | `App/Modules/Admin/Tpl/default/Public/dwz/uploadify/scripts/uploadify.swf` | High
+59 | File | `application.php` | High
+60 | File | `apply.cgi` | Medium
 61 | ... | ... | ...
 
-There are 536 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 538 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -577,19 +577,19 @@ ID | Type | Indicator | Confidence
 39 | File | `/cgi-bin` | Medium
 40 | File | `/cgi-bin/wlogin.cgi` | High
 41 | File | `/classes/master.php?f=delete_order` | High
-42 | File | `/csms/?page=contact_us` | High
-43 | File | `/debug/pprof` | Medium
-44 | File | `/dipam/athlete-profile.php` | High
-45 | File | `/E-mobile/App/System/File/downfile.php` | High
-46 | File | `/edoc/doctor/patient.php` | High
-47 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-48 | File | `/env` | Low
-49 | File | `/forms/doLogin` | High
-50 | File | `/forum/away.php` | High
-51 | File | `/group1/uploa` | High
+42 | File | `/Content/Template/root/reverse-shell.aspx` | High
+43 | File | `/csms/?page=contact_us` | High
+44 | File | `/debug/pprof` | Medium
+45 | File | `/dipam/athlete-profile.php` | High
+46 | File | `/E-mobile/App/System/File/downfile.php` | High
+47 | File | `/edoc/doctor/patient.php` | High
+48 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+49 | File | `/env` | Low
+50 | File | `/forms/doLogin` | High
+51 | File | `/forum/away.php` | High
 52 | ... | ... | ...
 
-There are 448 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 451 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

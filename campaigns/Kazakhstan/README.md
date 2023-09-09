@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [KZ](https://vuldb.com/?country.kz)
 * ...
 
-There are 14 more country items available. Please use our online service to access the data.
+There are 16 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -250,29 +250,29 @@ ID | Type | Indicator | Confidence
 19 | File | `/bsms_ci/index.php/book` | High
 20 | File | `/cgi-bin` | Medium
 21 | File | `/cgi-bin/wlogin.cgi` | High
-22 | File | `/context/%2e/WEB-INF/web.xml` | High
-23 | File | `/debug/pprof` | Medium
-24 | File | `/dottie.js` | Medium
-25 | File | `/env` | Low
-26 | File | `/etc/hosts` | Medium
-27 | File | `/forum/away.php` | High
-28 | File | `/geoserver/rest/about/status` | High
-29 | File | `/goform/wizard_end` | High
-30 | File | `/graphql` | Medium
-31 | File | `/KK_LS9ReportingPortal/GetData` | High
-32 | File | `/medicines/profile.php` | High
-33 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-34 | File | `/php-sms/admin/?page=user/manage_user` | High
-35 | File | `/plesk-site-preview/` | High
-36 | File | `/proxy` | Low
-37 | File | `/reservation/add_message.php` | High
-38 | File | `/resources//../` | High
-39 | File | `/spip.php` | Medium
-40 | File | `/tmp` | Low
-41 | File | `/uncpath/` | Medium
+22 | File | `/Content/Template/root/reverse-shell.aspx` | High
+23 | File | `/context/%2e/WEB-INF/web.xml` | High
+24 | File | `/debug/pprof` | Medium
+25 | File | `/dottie.js` | Medium
+26 | File | `/env` | Low
+27 | File | `/etc/hosts` | Medium
+28 | File | `/forum/away.php` | High
+29 | File | `/geoserver/rest/about/status` | High
+30 | File | `/goform/wizard_end` | High
+31 | File | `/graphql` | Medium
+32 | File | `/group1/uploa` | High
+33 | File | `/KK_LS9ReportingPortal/GetData` | High
+34 | File | `/medicines/profile.php` | High
+35 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+36 | File | `/php-sms/admin/?page=user/manage_user` | High
+37 | File | `/plesk-site-preview/` | High
+38 | File | `/proxy` | Low
+39 | File | `/reservation/add_message.php` | High
+40 | File | `/resources//../` | High
+41 | File | `/spip.php` | Medium
 42 | ... | ... | ...
 
-There are 362 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 367 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -60,14 +60,15 @@ ID | Type | Indicator | Confidence
 3 | File | `/apply.cgi` | Medium
 4 | File | `/etc/config/rpcd` | High
 5 | File | `/rapi/read_url` | High
-6 | File | `/setSystemAdmin` | High
-7 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
-8 | File | `admin/Login.php` | High
-9 | File | `appserv/main.php` | High
-10 | File | `bidhistory.php` | High
-11 | ... | ... | ...
+6 | File | `/scripts/unlock_tasks.php` | High
+7 | File | `/setSystemAdmin` | High
+8 | File | `/system/user/modules/mod_users/controller.php` | High
+9 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
+10 | File | `admin/Login.php` | High
+11 | File | `appserv/main.php` | High
+12 | ... | ... | ...
 
-There are 86 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 89 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

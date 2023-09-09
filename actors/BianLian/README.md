@@ -117,9 +117,10 @@ ID | IP address | Hostname | Campaign | Confidence
 94 | [45.128.156.3](https://vuldb.com/?ip.45.128.156.3) | webfair.store | - | High
 95 | [45.128.156.10](https://vuldb.com/?ip.45.128.156.10) | frm3-zendable.com | - | High
 96 | [45.128.156.43](https://vuldb.com/?ip.45.128.156.43) | buyetcapp.store | - | High
-97 | ... | ... | ... | ...
+97 | [45.134.174.99](https://vuldb.com/?ip.45.134.174.99) | dedicated.vsys.host | - | High
+98 | ... | ... | ... | ...
 
-There are 385 more IOC items available. Please use our online service to access the data.
+There are 386 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -180,9 +181,10 @@ ID | Type | Indicator | Confidence
 35 | File | `/web/MCmsAction.java` | High
 36 | File | `/wp-content/plugins/updraftplus/admin.php` | High
 37 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-38 | ... | ... | ...
+38 | File | `ABuffer.cpp` | Medium
+39 | ... | ... | ...
 
-There are 330 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 331 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -255,6 +257,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%22d12ba4226456edac1c9b5937fb0ea3bdc508d1120e5912d7c9d0eb8ee9cc2d32%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%22d62e30b1ad3e4a5e6af1f3e0451ee6432c7949b73751d3a456be5b40c13a447e%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%22d360ecb50280e8747808acda5f0e2bc9f7e29f4b60576af14284ec6aa87f676b%22
+* https://search.censys.io/search?resource=hosts&q=services.certificate%3A%22db12a43510d9c013dd32fd4c5f3d3e8b882f2b3541139a45742c8ddecad999cd%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%22dbddfe3e7c9f992b12a776387ec36baef4689c90e76e70c32f5742fca707cf07%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%22dc8dec49562c502d5929f89a163adc46ad398ce6767271fbc9cc8ef40561d094%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%22dd4cc003b956b0a908bea3043b14477517ffe658967581ffce3e31abdf7d2021%22
@@ -326,6 +329,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%225d5ff125ad48581ab86d75669d2ca79c1e02de1be746508c5cdcf767fd6b1eb0%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%225ea2161f353b71cc360d245cfdeaafa1cac41d672d0035780aa42cac6da6c5dd%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%225eb8ad1c658feb35f33ca16ec02391f23dc44c0f7be5fcd424b1f8eeef424b5a%22
+* https://search.censys.io/search?resource=hosts&q=services.certificate%3A%225f18f724111eb6c8aa4ec01984556ecc7357dbc5f030746a3b3f2ec3bc2b343e%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%226a80cb5adacc61a445d3b1962a79ed40adb62e4eaddebea7131ddbc2bfebf108%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%226a93688d69aeab73fb28239f0b7ccb8b15ef876d6b134c379ae36a2526d29d83%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%226a165551d34f38fd44b9fb1949685d14cc36220c99e0e6b05db8907229f7182d%22

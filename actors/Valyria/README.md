@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 1 more country items available. Please use our online service to access the data.
+There are 3 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -48,7 +48,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -62,8 +62,8 @@ ID | Type | Indicator | Confidence
 4 | File | `/academy/home/courses` | High
 5 | File | `/admin.php?c=upload&f=zip&_noCache=0.1683794968` | High
 6 | File | `/admin/?page=user/list` | High
-7 | File | `/admin/addproduct.php` | High
-8 | File | `/admin/ajax.php?action=save_queue` | High
+7 | File | `/admin/?page=user/manage_user&id=3` | High
+8 | File | `/admin/addproduct.php` | High
 9 | File | `/admin/bookings/manage_booking.php` | High
 10 | File | `/admin/bookings/view_booking.php` | High
 11 | File | `/admin/budget/manage_budget.php` | High
@@ -103,29 +103,35 @@ ID | Type | Indicator | Confidence
 45 | File | `/admin/userprofile.php` | High
 46 | File | `/admin/vote_edit.php` | High
 47 | File | `/api/stl/actions/search` | High
-48 | File | `/apply.cgi` | Medium
-49 | File | `/App_Resource/UEditor/server/upload.aspx` | High
-50 | File | `/author_posts.php` | High
-51 | File | `/blog` | Low
-52 | File | `/blog-single.php` | High
-53 | File | `/booking/show_bookings/` | High
-54 | File | `/browse` | Low
-55 | File | `/bsms_ci/index.php/book` | High
-56 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
-57 | File | `/cgi-bin/ping.cgi` | High
-58 | File | `/chaincity/user/ticket/create` | High
-59 | File | `/changeimage.php` | High
-60 | File | `/classes/Login.php` | High
-61 | File | `/classes/Master.php` | High
-62 | File | `/classes/Master.php?f=delete_category` | High
-63 | File | `/classes/Master.php?f=delete_inquiry` | High
-64 | File | `/classes/Master.php?f=delete_item` | High
-65 | File | `/classes/Master.php?f=delete_service` | High
-66 | File | `/classes/Master.php?f=delete_sub_category` | High
-67 | File | `/classes/Master.php?f=save_course` | High
-68 | ... | ... | ...
+48 | File | `/api/sys/login` | High
+49 | File | `/apply.cgi` | Medium
+50 | File | `/App_Resource/UEditor/server/upload.aspx` | High
+51 | File | `/author_posts.php` | High
+52 | File | `/blog` | Low
+53 | File | `/blog-single.php` | High
+54 | File | `/booking/show_bookings/` | High
+55 | File | `/browse` | Low
+56 | File | `/bsms_ci/index.php/book` | High
+57 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
+58 | File | `/cgi-bin/ping.cgi` | High
+59 | File | `/chaincity/user/ticket/create` | High
+60 | File | `/changeimage.php` | High
+61 | File | `/classes/Login.php` | High
+62 | File | `/classes/Master.php` | High
+63 | File | `/classes/Master.php?f=delete_category` | High
+64 | File | `/classes/Master.php?f=delete_inquiry` | High
+65 | File | `/classes/Master.php?f=delete_item` | High
+66 | File | `/classes/Master.php?f=delete_service` | High
+67 | File | `/classes/Master.php?f=delete_sub_category` | High
+68 | File | `/classes/Master.php?f=save_course` | High
+69 | File | `/classes/Master.php?f=save_inquiry` | High
+70 | File | `/classes/Master.php?f=save_item` | High
+71 | File | `/classes/Master.php?f=save_service` | High
+72 | File | `/classes/Users.php` | High
+73 | File | `/classes/Users.php?f=save` | High
+74 | ... | ... | ...
 
-There are 601 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 650 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

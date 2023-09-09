@@ -57,16 +57,17 @@ ID | Type | Indicator | Confidence
 7 | File | `/cgi-bin/cstecgi.cgi` | High
 8 | File | `/cgi-bin/ExportSettings.sh` | High
 9 | File | `/cgi-bin/upload_vpntar` | High
-10 | File | `/HNAP1` | Low
-11 | File | `/lan.asp` | Medium
-12 | File | `/MTFWU` | Low
-13 | File | `/network_test.php` | High
-14 | File | `/okm:root` | Medium
-15 | File | `/SetTriggerLEDBlink/Blink` | High
-16 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-17 | ... | ... | ...
+10 | File | `/getcfg.php` | Medium
+11 | File | `/HNAP1` | Low
+12 | File | `/htdocs/web/getcfg.php` | High
+13 | File | `/lan.asp` | Medium
+14 | File | `/MTFWU` | Low
+15 | File | `/network_test.php` | High
+16 | File | `/okm:root` | Medium
+17 | File | `/SetTriggerLEDBlink/Blink` | High
+18 | ... | ... | ...
 
-There are 139 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 144 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

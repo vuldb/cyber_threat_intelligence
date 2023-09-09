@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 20 more country items available. Please use our online service to access the data.
+There are 19 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -1219,49 +1219,49 @@ ID | Type | Indicator | Confidence
 7 | File | `/api/baskets/{name}` | High
 8 | File | `/api/common/ping` | High
 9 | File | `/api/sys/set_passwd` | High
-10 | File | `/bin/ate` | Medium
-11 | File | `/bitrix/admin/ldap_server_edit.php` | High
-12 | File | `/booking/show_bookings/` | High
-13 | File | `/bsms_ci/index.php/user/edit_user/` | High
-14 | File | `/cgi-bin/luci/api/wireless` | High
-15 | File | `/cgi-bin/wlogin.cgi` | High
-16 | File | `/common/info.cgi` | High
-17 | File | `/company/store` | High
-18 | File | `/Content/Template/root/reverse-shell.aspx` | High
-19 | File | `/Controller/Ajaxfileupload.ashx` | High
-20 | File | `/core/conditions/AbstractWrapper.java` | High
-21 | File | `/cwms/classes/Master.php?f=save_contact` | High
-22 | File | `/debug/pprof` | Medium
-23 | File | `/en/blog-comment-4` | High
-24 | File | `/env` | Low
-25 | File | `/etc/passwd` | Medium
-26 | File | `/file/upload/1` | High
-27 | File | `/forum/away.php` | High
-28 | File | `/group1/uploa` | High
-29 | File | `/h/` | Low
-30 | File | `/includes/db_connect.php` | High
-31 | File | `/includes/session.php` | High
-32 | File | `/index.php` | Medium
-33 | File | `/jobinfo/` | Medium
-34 | File | `/librarian/bookdetails.php` | High
-35 | File | `/modules/projects/vw_files.php` | High
-36 | File | `/modules/public/calendar.php` | High
-37 | File | `/modules/public/date_format.php` | High
-38 | File | `/modules/tasks/gantt.php` | High
-39 | File | `/osms/assets/plugins/jquery-validation-1.11.1/demo/captcha/index.php` | High
-40 | File | `/out.php` | Medium
-41 | File | `/php-fusion/infusions/shoutbox_panel/shoutbox_archive.php` | High
-42 | File | `/php-sms/admin/?page=user/manage_user` | High
-43 | File | `/recipe-result` | High
-44 | File | `/register.do` | Medium
-45 | File | `/resources//../` | High
-46 | File | `/rom-0` | Low
-47 | File | `/scheduler/index.php` | High
-48 | File | `/send_order.cgi?parameter=restart` | High
-49 | File | `/Service/ImageStationDataService.asmx` | High
+10 | File | `/bitrix/admin/ldap_server_edit.php` | High
+11 | File | `/booking/show_bookings/` | High
+12 | File | `/bsms_ci/index.php/user/edit_user/` | High
+13 | File | `/cgi-bin/luci/api/wireless` | High
+14 | File | `/cgi-bin/wlogin.cgi` | High
+15 | File | `/common/info.cgi` | High
+16 | File | `/company/store` | High
+17 | File | `/Content/Template/root/reverse-shell.aspx` | High
+18 | File | `/Controller/Ajaxfileupload.ashx` | High
+19 | File | `/core/conditions/AbstractWrapper.java` | High
+20 | File | `/debug/pprof` | Medium
+21 | File | `/en/blog-comment-4` | High
+22 | File | `/etc/passwd` | Medium
+23 | File | `/file/upload/1` | High
+24 | File | `/forum/away.php` | High
+25 | File | `/gracemedia-media-player/templates/files/ajax_controller.php` | High
+26 | File | `/group1/uploa` | High
+27 | File | `/h/` | Low
+28 | File | `/includes/db_connect.php` | High
+29 | File | `/includes/session.php` | High
+30 | File | `/index.php` | Medium
+31 | File | `/jeecg-boot/sys/common/upload` | High
+32 | File | `/librarian/bookdetails.php` | High
+33 | File | `/modules/projects/vw_files.php` | High
+34 | File | `/modules/public/calendar.php` | High
+35 | File | `/modules/public/date_format.php` | High
+36 | File | `/modules/tasks/gantt.php` | High
+37 | File | `/osms/assets/plugins/jquery-validation-1.11.1/demo/captcha/index.php` | High
+38 | File | `/out.php` | Medium
+39 | File | `/php-fusion/infusions/shoutbox_panel/shoutbox_archive.php` | High
+40 | File | `/recipe-result` | High
+41 | File | `/register.do` | Medium
+42 | File | `/resources//../` | High
+43 | File | `/rom-0` | Low
+44 | File | `/scheduler/index.php` | High
+45 | File | `/send_order.cgi?parameter=restart` | High
+46 | File | `/Service/ImageStationDataService.asmx` | High
+47 | File | `/spip.php` | Medium
+48 | File | `/src/amf/amf-context.c` | High
+49 | File | `/student/bookdetails.php` | High
 50 | ... | ... | ...
 
-There are 437 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 434 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

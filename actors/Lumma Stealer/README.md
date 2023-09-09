@@ -61,16 +61,16 @@ ID | Type | Indicator | Confidence
 9 | File | `/orrs/admin/?page=user/manage_user` | High
 10 | File | `/pages/processlogin.php` | High
 11 | File | `/rapi/read_url` | High
-12 | File | `/system/user/modules/mod_users/controller.php` | High
-13 | File | `/uncpath/` | Medium
-14 | File | `/usr/local/psa/admin/sbin/wrapper` | High
-15 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
-16 | File | `123flashchat.php` | High
-17 | File | `admin.jcomments.php` | High
-18 | File | `admin.php` | Medium
+12 | File | `/scripts/unlock_tasks.php` | High
+13 | File | `/system/user/modules/mod_users/controller.php` | High
+14 | File | `/uncpath/` | Medium
+15 | File | `/usr/local/psa/admin/sbin/wrapper` | High
+16 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
+17 | File | `123flashchat.php` | High
+18 | File | `admin.jcomments.php` | High
 19 | ... | ... | ...
 
-There are 154 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 157 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

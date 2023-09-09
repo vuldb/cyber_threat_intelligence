@@ -84,11 +84,11 @@ ID | Type | Indicator | Confidence
 29 | File | `ajax_cmd.php` | Medium
 30 | File | `allmanageup.pl` | High
 31 | File | `appfeed.c` | Medium
-32 | File | `ara.asp` | Low
-33 | File | `aspx` | Low
+32 | File | `appointment.php` | High
+33 | File | `ara.asp` | Low
 34 | ... | ... | ...
 
-There are 290 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 294 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

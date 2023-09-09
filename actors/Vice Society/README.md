@@ -66,14 +66,14 @@ ID | Type | Indicator | Confidence
 18 | File | `/ossn/administrator/com_installer` | High
 19 | File | `/Source/C++/Core/Ap4DataBuffer.cpp` | High
 20 | File | `/squashfs-root/www/HNAP1/control/SetWizardConfig.php` | High
-21 | File | `/uncpath/` | Medium
-22 | File | `/user-utils/users/md5.json` | High
-23 | File | `/user/check.php` | High
-24 | File | `/var/avamar/f_cache.dat` | High
-25 | File | `/vloggers_merch/admin/?page=maintenance/manage_sub_category` | High
+21 | File | `/src/helper.c` | High
+22 | File | `/uncpath/` | Medium
+23 | File | `/user-utils/users/md5.json` | High
+24 | File | `/user/check.php` | High
+25 | File | `/var/avamar/f_cache.dat` | High
 26 | ... | ... | ...
 
-There are 215 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 216 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

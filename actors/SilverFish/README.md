@@ -53,7 +53,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -84,24 +84,24 @@ ID | Type | Indicator | Confidence
 21 | File | `/release-x64/otfccdump` | High
 22 | File | `/rom-0` | Low
 23 | File | `/sbin/conf.d/SuSEconfig.javarunt` | High
-24 | File | `/see_more_details.php` | High
-25 | File | `/sitecore/shell/Invoke.aspx` | High
-26 | File | `/tmp` | Low
-27 | File | `/uncpath/` | Medium
-28 | File | `/user-utils/users/md5.json` | High
-29 | File | `/usr/lib/utmp_update` | High
-30 | File | `/usr/local` | Medium
-31 | File | `/wp-admin` | Medium
-32 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
-33 | File | `2020\Messages\SDNotify.exe` | High
-34 | File | `adclick.php` | Medium
-35 | File | `admin/plugin-index.php` | High
-36 | File | `administration` | High
-37 | File | `administrative` | High
-38 | File | `ag_server_service.exe` | High
+24 | File | `/scripts/unlock_tasks.php` | High
+25 | File | `/see_more_details.php` | High
+26 | File | `/sitecore/shell/Invoke.aspx` | High
+27 | File | `/system/user/modules/mod_users/controller.php` | High
+28 | File | `/tmp` | Low
+29 | File | `/uncpath/` | Medium
+30 | File | `/user-utils/users/md5.json` | High
+31 | File | `/usr/lib/utmp_update` | High
+32 | File | `/usr/local` | Medium
+33 | File | `/wp-admin` | Medium
+34 | File | `2020\Messages\SDNotify.exe` | High
+35 | File | `adclick.php` | Medium
+36 | File | `admin/plugin-index.php` | High
+37 | File | `administration` | High
+38 | File | `administrative` | High
 39 | ... | ... | ...
 
-There are 338 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 340 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

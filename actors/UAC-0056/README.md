@@ -24,7 +24,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [TR](https://vuldb.com/?country.tr)
 * ...
 
-There are 18 more country items available. Please use our online service to access the data.
+There are 17 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -49,8 +49,7 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+5 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
 
@@ -100,11 +99,9 @@ ID | Type | Indicator | Confidence
 38 | File | `/index.php?route=extension/module/so_filter_shop_by/filter_data` | High
 39 | File | `/isomedia/box_funcs.c` | High
 40 | File | `/isomedia/meta.c` | High
-41 | File | `/kruxton/receipt.php` | High
-42 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-43 | ... | ... | ...
+41 | ... | ... | ...
 
-There are 376 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 358 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

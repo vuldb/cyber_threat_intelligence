@@ -93,10 +93,11 @@ ID | Type | Indicator | Confidence
 35 | File | `/pages/processlogin.php` | High
 36 | File | `/preview.php` | Medium
 37 | File | `/product/savenewproduct.php?flag=1` | High
-38 | File | `/services/Card/findUser` | High
-39 | ... | ... | ...
+38 | File | `/search` | Low
+39 | File | `/services/Card/findUser` | High
+40 | ... | ... | ...
 
-There are 334 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 345 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

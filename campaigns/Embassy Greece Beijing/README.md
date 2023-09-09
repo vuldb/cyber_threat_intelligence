@@ -8,9 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Embassy Greece Beijing:
 
+* [IR](https://vuldb.com/?country.ir)
 * [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
-* [ES](https://vuldb.com/?country.es)
+* ...
+
+There are 1 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -34,7 +37,8 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1068 | CWE-269 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+1 | T1059.007 | CWE-79 | Cross Site Scripting | High
+2 | T1068 | CWE-269 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 
 ## References
 

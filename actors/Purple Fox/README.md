@@ -439,7 +439,7 @@ ID | Technique | Weakness | Description | Confidence
 6 | T1068 | CWE-250, CWE-264, CWE-266, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 7 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 23 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -447,49 +447,50 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/students/view_details.php` | High
-2 | File | `/ajax-files/followBoard.php` | High
-3 | File | `/ajax.php?action=read_msg` | High
-4 | File | `/api/baskets/{name}` | High
-5 | File | `/api/sys/set_passwd` | High
-6 | File | `/api/upload.php` | High
-7 | File | `/api/user/{ID}` | High
-8 | File | `/auth/callback` | High
-9 | File | `/authenticationendpoint/login.do` | High
-10 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
-11 | File | `/ci_spms/admin/search/searching/` | High
-12 | File | `/cstecgi.cgi` | Medium
-13 | File | `/debug/pprof` | Medium
-14 | File | `/etc/pki/pesign` | High
-15 | File | `/forum/away.php` | High
-16 | File | `/getcfg.php` | Medium
-17 | File | `/goform/setportList` | High
-18 | File | `/goform/set_LimitClient_cfg` | High
-19 | File | `/group1/uploa` | High
-20 | File | `/h/autoSaveDraft` | High
-21 | File | `/hss/admin/?page=products/view_product` | High
-22 | File | `/index.php?app=main&func=passport&action=login` | High
-23 | File | `/index.php?page=member` | High
-24 | File | `/modules/projects/vw_files.php` | High
-25 | File | `/net/sched/cls_fw.c` | High
-26 | File | `/php-opos/index.php` | High
-27 | File | `/plugins/playbooks/api/v0/runs` | High
-28 | File | `/preview.php` | Medium
-29 | File | `/romfile.cfg` | Medium
-30 | File | `/scheduler/index.php` | High
-31 | File | `/search.php` | Medium
-32 | File | `/secure/ViewCollectors` | High
-33 | File | `/sitecore/shell/Invoke.aspx` | High
-34 | File | `/staff/bookdetails.php` | High
-35 | File | `/staff/edit_book_details.php` | High
-36 | File | `/student/bookdetails.php` | High
-37 | File | `/uncpath/` | Medium
-38 | File | `/upload` | Low
-39 | File | `/videotalk` | Medium
-40 | File | `/wireless/basic.asp` | High
-41 | ... | ... | ...
+1 | File | `/academy/home/courses` | High
+2 | File | `/adfs/ls` | Medium
+3 | File | `/admin.php?c=upload&f=zip&_noCache=0.1683794968` | High
+4 | File | `/admin/adclass.php` | High
+5 | File | `/admin/students/view_details.php` | High
+6 | File | `/ajax-files/followBoard.php` | High
+7 | File | `/ajax.php?action=read_msg` | High
+8 | File | `/api/baskets/{name}` | High
+9 | File | `/api/sys/set_passwd` | High
+10 | File | `/api/upload.php` | High
+11 | File | `/auth/callback` | High
+12 | File | `/authenticationendpoint/login.do` | High
+13 | File | `/bin/login` | Medium
+14 | File | `/cgi.cgi` | Medium
+15 | File | `/ci_spms/admin/search/searching/` | High
+16 | File | `/Content/Template/root/reverse-shell.aspx` | High
+17 | File | `/debug/pprof` | Medium
+18 | File | `/etc/pki/pesign` | High
+19 | File | `/forum/away.php` | High
+20 | File | `/getcfg.php` | Medium
+21 | File | `/goform/setportList` | High
+22 | File | `/group1/uploa` | High
+23 | File | `/h/autoSaveDraft` | High
+24 | File | `/index.php?app=main&func=passport&action=login` | High
+25 | File | `/index.php?page=member` | High
+26 | File | `/modules/projects/vw_files.php` | High
+27 | File | `/net/sched/cls_fw.c` | High
+28 | File | `/php-opos/index.php` | High
+29 | File | `/plugins/playbooks/api/v0/runs` | High
+30 | File | `/preview.php` | Medium
+31 | File | `/public/login.htm` | High
+32 | File | `/QueryView.php` | High
+33 | File | `/romfile.cfg` | Medium
+34 | File | `/scheduler/index.php` | High
+35 | File | `/search` | Low
+36 | File | `/search.php` | Medium
+37 | File | `/secure/ViewCollectors` | High
+38 | File | `/squashfs-root/etc_ro/custom.conf` | High
+39 | File | `/staff/bookdetails.php` | High
+40 | File | `/staff/edit_book_details.php` | High
+41 | File | `/student/bookdetails.php` | High
+42 | ... | ... | ...
 
-There are 358 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 359 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

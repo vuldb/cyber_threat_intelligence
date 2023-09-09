@@ -178,29 +178,30 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin.php?action=themeinstall` | High
-2 | File | `/admin/maintenance/view_designation.php` | High
-3 | File | `/admin/reports.php` | High
-4 | File | `/advanced-tools/nova/bin/netwatch` | High
-5 | File | `/catcompany.php` | High
-6 | File | `/cgi-bin/login.cgi` | High
-7 | File | `/cgi-bin/R14.2/easy1350.pl` | High
-8 | File | `/cgi-bin/R14.2/log.pl` | High
-9 | File | `/EventBookingCalendar/load.php?controller=GzFront/action=checkout/cid=1/layout=calendar/show_header=T/local=3` | High
-10 | File | `/export` | Low
-11 | File | `/forgetpassword.php` | High
-12 | File | `/FormLogin` | Medium
-13 | File | `/forum/away.php` | High
-14 | File | `/graphStatus/displayServiceStatus.php` | High
-15 | File | `/modules/profile/index.php` | High
-16 | File | `/nova/bin/detnet` | High
-17 | File | `/out.php` | Medium
-18 | File | `/plugin` | Low
-19 | File | `/proc/ftxxxx-debug` | High
-20 | File | `/proc/pid/syscall` | High
-21 | ... | ... | ...
+1 | File | `/adfs/ls` | Medium
+2 | File | `/admin.php?action=themeinstall` | High
+3 | File | `/admin/maintenance/view_designation.php` | High
+4 | File | `/admin/reports.php` | High
+5 | File | `/advanced-tools/nova/bin/netwatch` | High
+6 | File | `/catcompany.php` | High
+7 | File | `/cgi-bin/login.cgi` | High
+8 | File | `/cgi-bin/R14.2/easy1350.pl` | High
+9 | File | `/cgi-bin/R14.2/log.pl` | High
+10 | File | `/EventBookingCalendar/load.php?controller=GzFront/action=checkout/cid=1/layout=calendar/show_header=T/local=3` | High
+11 | File | `/export` | Low
+12 | File | `/forgetpassword.php` | High
+13 | File | `/FormLogin` | Medium
+14 | File | `/forum/away.php` | High
+15 | File | `/graphStatus/displayServiceStatus.php` | High
+16 | File | `/modules/profile/index.php` | High
+17 | File | `/nova/bin/detnet` | High
+18 | File | `/out.php` | Medium
+19 | File | `/plugin` | Low
+20 | File | `/proc/ftxxxx-debug` | High
+21 | File | `/proc/pid/syscall` | High
+22 | ... | ... | ...
 
-There are 177 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 178 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

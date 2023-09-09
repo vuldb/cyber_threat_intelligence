@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with H0lyGh0st:
 
-* [US](https://vuldb.com/?country.us)
 * [VN](https://vuldb.com/?country.vn)
+* [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 9 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -40,14 +40,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-25, CWE-29 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-25, CWE-29, CWE-36 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -59,8 +59,8 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin/upload/upload` | High
 3 | File | `/api/baskets/{name}` | High
 4 | File | `/api/gen/clients/{language}` | High
-5 | File | `/cgi-bin/wlogin.cgi` | High
-6 | File | `/config/getuser` | High
+5 | File | `/bin/login` | Medium
+6 | File | `/cgi-bin/wlogin.cgi` | High
 7 | File | `/config/myfield/test.php` | High
 8 | File | `/debug/pprof` | Medium
 9 | File | `/ecshop/admin/template.php` | High
@@ -69,39 +69,40 @@ ID | Type | Indicator | Confidence
 12 | File | `/forum/PostPrivateMessage` | High
 13 | File | `/goform/set_LimitClient_cfg` | High
 14 | File | `/home/www/cgi-bin/login.cgi` | High
-15 | File | `/multi-vendor-shopping-script/product-list.php` | High
-16 | File | `/net-banking/customer_transactions.php` | High
-17 | File | `/obs/book.php` | High
-18 | File | `/ossn/administrator/com_installer` | High
-19 | File | `/owa/auth/logon.aspx` | High
-20 | File | `/pms/update_user.php?user_id=1` | High
-21 | File | `/preview.php` | Medium
-22 | File | `/requests.php` | High
-23 | File | `/spip.php` | Medium
-24 | File | `/sqlite3_aflpp/shell.c` | High
-25 | File | `/sre/params.php` | High
-26 | File | `/SVFE2/pages/feegroups/service_group.jsf` | High
-27 | File | `/uncpath/` | Medium
-28 | File | `/user/upload/upload` | High
-29 | File | `/Users` | Low
-30 | File | `/var/spool/hylafax` | High
-31 | File | `/vendor` | Low
-32 | File | `AccessibilityManagerService.java` | High
-33 | File | `accountrecoveryendpoint/recoverpassword.do` | High
-34 | File | `adclick.php` | Medium
-35 | File | `add_contestant.php` | High
-36 | File | `admin.php` | Medium
-37 | File | `admin/edit_category.php` | High
-38 | File | `admin/index.php` | High
-39 | File | `admin/make_payments.php` | High
-40 | File | `admin/_cmdstat.jsp` | High
-41 | File | `af_netlink.c` | Medium
-42 | File | `album_portal.php` | High
-43 | File | `api/auth.go` | Medium
-44 | File | `api_jsonrpc.php` | High
-45 | ... | ... | ...
+15 | File | `/hss/admin/?page=products/view_product` | High
+16 | File | `/index.php?app=main&func=passport&action=login` | High
+17 | File | `/multi-vendor-shopping-script/product-list.php` | High
+18 | File | `/net-banking/customer_transactions.php` | High
+19 | File | `/obs/book.php` | High
+20 | File | `/ossn/administrator/com_installer` | High
+21 | File | `/owa/auth/logon.aspx` | High
+22 | File | `/pms/update_user.php?user_id=1` | High
+23 | File | `/preview.php` | Medium
+24 | File | `/requests.php` | High
+25 | File | `/secure/ViewCollectors` | High
+26 | File | `/spip.php` | Medium
+27 | File | `/sqlite3_aflpp/shell.c` | High
+28 | File | `/squashfs-root/etc_ro/custom.conf` | High
+29 | File | `/sre/params.php` | High
+30 | File | `/SVFE2/pages/feegroups/service_group.jsf` | High
+31 | File | `/sys/user/querySysUser?username=admin` | High
+32 | File | `/uncpath/` | Medium
+33 | File | `/user/upload/upload` | High
+34 | File | `/Users` | Low
+35 | File | `/usr/local/www/csrf/csrf-magic.php` | High
+36 | File | `/vendor` | Low
+37 | File | `AccessibilityManagerService.java` | High
+38 | File | `accountrecoveryendpoint/recoverpassword.do` | High
+39 | File | `adclick.php` | Medium
+40 | File | `add_contestant.php` | High
+41 | File | `admin.php` | Medium
+42 | File | `admin/edit_category.php` | High
+43 | File | `admin/index.php` | High
+44 | File | `admin/make_payments.php` | High
+45 | File | `admin/_cmdstat.jsp` | High
+46 | ... | ... | ...
 
-There are 385 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 402 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

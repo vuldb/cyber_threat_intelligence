@@ -4860,14 +4860,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-29, CWE-36 | Pathname Traversal | High
-2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-29, CWE-425 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1068 | CWE-264, CWE-266, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -4875,57 +4875,53 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/students/view_details.php` | High
-2 | File | `/ajax.php?action=read_msg` | High
-3 | File | `/api/baskets/{name}` | High
-4 | File | `/api/sys/login` | High
-5 | File | `/api/sys/set_passwd` | High
-6 | File | `/auth/callback` | High
-7 | File | `/CCMAdmin/serverlist.asp` | High
-8 | File | `/cgi-bin/luci/api/wireless` | High
-9 | File | `/cgi-bin/nightled.cgi` | High
-10 | File | `/cgi-bin/wlogin.cgi` | High
-11 | File | `/cgi/get_param.cgi` | High
-12 | File | `/common/info.cgi` | High
-13 | File | `/conf/` | Low
-14 | File | `/Content/Template/root/reverse-shell.aspx` | High
-15 | File | `/core/conditions/AbstractWrapper.java` | High
-16 | File | `/cstecgi.cgi` | Medium
-17 | File | `/etc/pki/pesign` | High
-18 | File | `/ethash/algorithm.go` | High
-19 | File | `/filemanager/upload/drop` | High
-20 | File | `/forum/away.php` | High
-21 | File | `/goform/setportList` | High
-22 | File | `/index.php` | Medium
-23 | File | `/index.php?page=member` | High
-24 | File | `/log/decodmail.php` | High
-25 | File | `/modules/projects/vw_files.php` | High
-26 | File | `/out.php` | Medium
-27 | File | `/patient/appointment.php` | High
-28 | File | `/plugins/playbooks/api/v0/runs` | High
-29 | File | `/portal/reports/account_statement` | High
-30 | File | `/preview.php` | Medium
-31 | File | `/romfile.cfg` | Medium
-32 | File | `/search/index` | High
-33 | File | `/spip.php` | Medium
-34 | File | `/staff/edit_book_details.php` | High
-35 | File | `/system/user/modules/mod_users/controller.php` | High
-36 | File | `/ui/cron/item/open` | High
-37 | File | `/ui/diagnostics/log/core/` | High
-38 | File | `/upfile.cgi` | Medium
-39 | File | `/user/settings` | High
-40 | File | `/v1/hotlink/proxy` | High
-41 | File | `/var/log/rkhunter.log` | High
-42 | File | `/videotalk` | Medium
-43 | File | `/vm/admin/delete-doctor.php?id=2` | High
-44 | File | `/vm/doctor/doctors.php?action=view` | High
-45 | File | `/vm/login.php` | High
-46 | File | `/wordpress/wp-admin/admin.php` | High
-47 | File | `account_footer.php` | High
-48 | File | `actions/del.php` | High
-49 | ... | ... | ...
+1 | File | `/academy/home/courses` | High
+2 | File | `/adfs/ls` | Medium
+3 | File | `/admin.php?c=upload&f=zip&_noCache=0.1683794968` | High
+4 | File | `/admin/adclass.php` | High
+5 | File | `/ajax-files/followBoard.php` | High
+6 | File | `/api/sys/login` | High
+7 | File | `/app/sys1.php` | High
+8 | File | `/auth/callback` | High
+9 | File | `/authenticationendpoint/login.do` | High
+10 | File | `/bin/login` | Medium
+11 | File | `/cgi-bin/luci/api/wireless` | High
+12 | File | `/cgi.cgi` | Medium
+13 | File | `/collection/all` | High
+14 | File | `/conf/` | Low
+15 | File | `/config/php.ini` | High
+16 | File | `/config/system.conf` | High
+17 | File | `/Content/Template/root/reverse-shell.aspx` | High
+18 | File | `/debug/pprof` | Medium
+19 | File | `/forum/away.php` | High
+20 | File | `/fusion/portal/action/Link` | High
+21 | File | `/getcfg.php` | Medium
+22 | File | `/gracemedia-media-player/templates/files/ajax_controller.php` | High
+23 | File | `/h/autoSaveDraft` | High
+24 | File | `/index.php?app=main&func=passport&action=login` | High
+25 | File | `/index.php?page=member` | High
+26 | File | `/jeecg-boot/sys/common/upload` | High
+27 | File | `/log/decodmail.php` | High
+28 | File | `/patient/appointment.php` | High
+29 | File | `/php-opos/index.php` | High
+30 | File | `/portal/reports/account_statement` | High
+31 | File | `/preview.php` | Medium
+32 | File | `/QueryView.php` | High
+33 | File | `/romfile.cfg` | Medium
+34 | File | `/scripts/unlock_tasks.php` | High
+35 | File | `/search` | Low
+36 | File | `/search/index` | High
+37 | File | `/secure/ViewCollectors` | High
+38 | File | `/squashfs-root/etc_ro/custom.conf` | High
+39 | File | `/src/wasm/wasm-binary.cpp` | High
+40 | File | `/staff/bookdetails.php` | High
+41 | File | `/student/bookdetails.php` | High
+42 | File | `/sys/user/querySysUser?username=admin` | High
+43 | File | `/SysManage/AddUpdateRole.aspx` | High
+44 | File | `/sysmanage/licence.php` | High
+45 | ... | ... | ...
 
-There are 423 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 391 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

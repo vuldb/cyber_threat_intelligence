@@ -276,7 +276,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-29 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-29 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
@@ -291,9 +291,9 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.FBCIndex` | Medium
-2 | File | `/+CSCOE+/logon.html` | High
-3 | File | `/act/ActDao.xml` | High
+1 | File | `/+CSCOE+/logon.html` | High
+2 | File | `/act/ActDao.xml` | High
+3 | File | `/adfs/ls` | Medium
 4 | File | `/admin/?page=user/manage_user&id=3` | High
 5 | File | `/admin/addproduct.php` | High
 6 | File | `/admin/categories/manage_category.php` | High
@@ -310,35 +310,35 @@ ID | Type | Indicator | Confidence
 17 | File | `/classes/Users.php?f=save` | High
 18 | File | `/common/info.cgi` | High
 19 | File | `/CPE` | Low
-20 | File | `/DXR.axd` | Medium
-21 | File | `/EventBookingCalendar/load.php?controller=GzFront/action=checkout/cid=1/layout=calendar/show_header=T/local=3` | High
-22 | File | `/forum/away.php` | High
-23 | File | `/ghost/preview` | High
-24 | File | `/gracemedia-media-player/templates/files/ajax_controller.php` | High
-25 | File | `/home/search` | Medium
-26 | File | `/includes/db_connect.php` | High
-27 | File | `/includes/session.php` | High
-28 | File | `/librarian/bookdetails.php` | High
-29 | File | `/modules/projects/vw_files.php` | High
-30 | File | `/modules/public/calendar.php` | High
-31 | File | `/modules/public/date_format.php` | High
-32 | File | `/modules/tasks/gantt.php` | High
-33 | File | `/osms/assets/plugins/jquery-validation-1.11.1/demo/captcha/index.php` | High
-34 | File | `/out.php` | Medium
-35 | File | `/owa/auth/logon.aspx` | High
-36 | File | `/php-fusion/infusions/shoutbox_panel/shoutbox_archive.php` | High
-37 | File | `/send_order.cgi?parameter=restart` | High
-38 | File | `/spip.php` | Medium
-39 | File | `/src/amf/amf-context.c` | High
-40 | File | `/tmp` | Low
-41 | File | `/uncpath/` | Medium
-42 | File | `/v1/hotlink/proxy` | High
-43 | File | `/vdesk` | Low
-44 | File | `/vm/login.php` | High
-45 | File | `102/tcp` | Low
-46 | File | `?r=dashboard/approval/del` | High
-47 | File | `actions/del.php` | High
-48 | File | `adclick.php` | Medium
+20 | File | `/EventBookingCalendar/load.php?controller=GzFront/action=checkout/cid=1/layout=calendar/show_header=T/local=3` | High
+21 | File | `/forum/away.php` | High
+22 | File | `/ghost/preview` | High
+23 | File | `/gracemedia-media-player/templates/files/ajax_controller.php` | High
+24 | File | `/home/search` | Medium
+25 | File | `/includes/db_connect.php` | High
+26 | File | `/includes/session.php` | High
+27 | File | `/librarian/bookdetails.php` | High
+28 | File | `/modules/projects/vw_files.php` | High
+29 | File | `/modules/public/calendar.php` | High
+30 | File | `/modules/public/date_format.php` | High
+31 | File | `/modules/tasks/gantt.php` | High
+32 | File | `/osms/assets/plugins/jquery-validation-1.11.1/demo/captcha/index.php` | High
+33 | File | `/out.php` | Medium
+34 | File | `/owa/auth/logon.aspx` | High
+35 | File | `/php-fusion/infusions/shoutbox_panel/shoutbox_archive.php` | High
+36 | File | `/send_order.cgi?parameter=restart` | High
+37 | File | `/spip.php` | Medium
+38 | File | `/src/amf/amf-context.c` | High
+39 | File | `/tmp` | Low
+40 | File | `/uncpath/` | Medium
+41 | File | `/v1/hotlink/proxy` | High
+42 | File | `/vdesk` | Low
+43 | File | `/vm/login.php` | High
+44 | File | `102/tcp` | Low
+45 | File | `actions/del.php` | High
+46 | File | `adclick.php` | Medium
+47 | File | `add-product.php` | High
+48 | File | `addsite.php` | Medium
 49 | ... | ... | ...
 
 There are 428 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.

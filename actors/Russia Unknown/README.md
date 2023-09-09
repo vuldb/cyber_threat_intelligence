@@ -16,11 +16,11 @@ The following _campaigns_ are known and can be associated with Russia Unknown:
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Russia Unknown:
 
 * [US](https://vuldb.com/?country.us)
-* [JP](https://vuldb.com/?country.jp)
 * [CN](https://vuldb.com/?country.cn)
+* [JP](https://vuldb.com/?country.jp)
 * ...
 
-There are 24 more country items available. Please use our online service to access the data.
+There are 23 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -3147,14 +3147,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-425 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+1 | T1006 | CWE-22, CWE-23, CWE-24, CWE-36, CWE-425 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -3162,57 +3162,57 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.github/workflows/comment.yml` | High
-2 | File | `/?r=recruit/resume/edit&op=status` | High
-3 | File | `/account/delivery` | High
-4 | File | `/admin/addproduct.php` | High
-5 | File | `/admin/add_user_modal.php` | High
-6 | File | `/admin/del_category.php` | High
-7 | File | `/admin/del_service.php` | High
-8 | File | `/admin/edit_product.php` | High
-9 | File | `/admin/forgot-password.php` | High
-10 | File | `/admin/index.php` | High
-11 | File | `/admin/index/index.html#/admin/mall.goods/index.html` | High
-12 | File | `/admin/read.php?mudi=announContent` | High
-13 | File | `/admin/reg.php` | High
-14 | File | `/admin/search-appointment.php` | High
-15 | File | `/admin/sys_sql_query.php` | High
-16 | File | `/admin/test_status.php` | High
-17 | File | `/api/baskets/{name}` | High
-18 | File | `/api/ping` | Medium
-19 | File | `/api/set-password` | High
-20 | File | `/App_Resource/UEditor/server/upload.aspx` | High
-21 | File | `/author_posts.php` | High
-22 | File | `/bin/ate` | Medium
-23 | File | `/bitrix/admin/ldap_server_edit.php` | High
-24 | File | `/blog` | Low
-25 | File | `/booking/show_bookings/` | High
-26 | File | `/browse` | Low
-27 | File | `/cgi-bin/adm.cgi` | High
-28 | File | `/cgi-bin/luci;stok=/locale` | High
-29 | File | `/chaincity/user/ticket/create` | High
-30 | File | `/classes/Master.php?f=delete_category` | High
-31 | File | `/classes/Master.php?f=delete_inquiry` | High
-32 | File | `/classes/Master.php?f=save_inquiry` | High
-33 | File | `/classes/Master.php?f=save_item` | High
-34 | File | `/classes/Users.php?f=save` | High
-35 | File | `/company/store` | High
-36 | File | `/concat?/%2557EB-INF/web.xml` | High
-37 | File | `/config` | Low
-38 | File | `/contact.php` | Medium
-39 | File | `/Controller/Ajaxfileupload.ashx` | High
-40 | File | `/debug/pprof` | Medium
-41 | File | `/dipam/athlete-profile.php` | High
-42 | File | `/dipam/save-delegates.php` | High
-43 | File | `/Duty/AjaxHandle/UpLoadFloodPlanFile.ashx` | High
-44 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
-45 | File | `/en/blog-comment-4` | High
-46 | File | `/etc/passwd` | Medium
-47 | File | `/forum/away.php` | High
-48 | File | `/getcfg.php` | Medium
+1 | File | `/academy/home/courses` | High
+2 | File | `/ad-list` | Medium
+3 | File | `/admin.php?c=upload&f=zip&_noCache=0.1683794968` | High
+4 | File | `/admin/?page=user/list` | High
+5 | File | `/admin/?page=user/manage_user&id=3` | High
+6 | File | `/admin/about-us.php` | High
+7 | File | `/admin/add-category.php` | High
+8 | File | `/admin/add-services.php` | High
+9 | File | `/admin/admin-profile.php` | High
+10 | File | `/admin/del_category.php` | High
+11 | File | `/admin/del_feedback.php` | High
+12 | File | `/admin/del_service.php` | High
+13 | File | `/admin/edit-accepted-appointment.php` | High
+14 | File | `/admin/edit_category.php` | High
+15 | File | `/admin/edit_product.php` | High
+16 | File | `/admin/files` | Medium
+17 | File | `/admin/forgot-password.php` | High
+18 | File | `/admin/index.php` | High
+19 | File | `/admin/invoice.php` | High
+20 | File | `/admin/search-appointment.php` | High
+21 | File | `/admin/sys_sql_query.php` | High
+22 | File | `/api/baskets/{name}` | High
+23 | File | `/api/sys/login` | High
+24 | File | `/api/sys/set_passwd` | High
+25 | File | `/app/sys1.php` | High
+26 | File | `/bitrix/admin/ldap_server_edit.php` | High
+27 | File | `/blog-single.php` | High
+28 | File | `/booking/show_bookings/` | High
+29 | File | `/cgi-bin/luci/api/wireless` | High
+30 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
+31 | File | `/classes/Master.php?f=delete_category` | High
+32 | File | `/collection/all` | High
+33 | File | `/conf/` | Low
+34 | File | `/config/php.ini` | High
+35 | File | `/Content/Template/root/reverse-shell.aspx` | High
+36 | File | `/core/conditions/AbstractWrapper.java` | High
+37 | File | `/debug/pprof` | Medium
+38 | File | `/etc/passwd` | Medium
+39 | File | `/find-a-match` | High
+40 | File | `/forum/away.php` | High
+41 | File | `/friends` | Medium
+42 | File | `/friends/ajax_invite` | High
+43 | File | `/fusion/portal/action/Link` | High
+44 | File | `/getcfg.php` | Medium
+45 | File | `/goform/fast_setting_wifi_set` | High
+46 | File | `/goform/NatStaticSetting` | High
+47 | File | `/goform/PowerSaveSet` | High
+48 | File | `/goform/SetPptpServerCfg` | High
 49 | ... | ... | ...
 
-There are 422 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 429 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

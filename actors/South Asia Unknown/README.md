@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with South Asia Unknown:
 
 * [US](https://vuldb.com/?country.us)
+* [GB](https://vuldb.com/?country.gb)
 * [RU](https://vuldb.com/?country.ru)
-* [TR](https://vuldb.com/?country.tr)
 * ...
 
 There are 6 more country items available. Please use our online service to access the data.
@@ -57,7 +57,7 @@ ID | Type | Indicator | Confidence
 8 | File | `app/topic/action/admin/topic.php` | High
 9 | ... | ... | ...
 
-There are 68 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 70 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

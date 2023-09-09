@@ -8,8 +8,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Amazon Web Services:
 
-* [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
@@ -67,7 +67,7 @@ ID | Type | Indicator | Confidence
 8 | File | `admin/content/postcategory` | High
 9 | ... | ... | ...
 
-There are 66 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 67 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

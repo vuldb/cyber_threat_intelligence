@@ -79,9 +79,10 @@ ID | Type | Indicator | Confidence
 20 | File | `/hrm/employeeview.php` | High
 21 | File | `/login` | Low
 22 | File | `/mkshop/Men/profile.php` | High
-23 | ... | ... | ...
+23 | File | `/newsDia.php` | Medium
+24 | ... | ... | ...
 
-There are 194 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 201 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

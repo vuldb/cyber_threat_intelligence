@@ -16,7 +16,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
-* [NL](https://vuldb.com/?country.nl)
+* [DE](https://vuldb.com/?country.de)
 * ...
 
 There are 30 more country items available. Please use our online service to access the data.
@@ -43,7 +43,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-36, CWE-37 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-36, CWE-37 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
@@ -87,44 +87,43 @@ ID | Type | Indicator | Confidence
 26 | File | `/adms/admin/?page=vehicles/view_transaction` | High
 27 | File | `/alerts/alertConfigField.php` | High
 28 | File | `/api/baskets/{name}` | High
-29 | File | `/api/user/upsert/<uuid>` | High
-30 | File | `/appliance/users?action=edit` | High
-31 | File | `/backup.pl` | Medium
-32 | File | `/belegungsplan/monatsuebersicht.inc.php` | High
-33 | File | `/blog` | Low
-34 | File | `/booking/show_bookings/` | High
-35 | File | `/bsms_ci/index.php` | High
-36 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-37 | File | `/cgi-bin/luci;stok=/locale` | High
-38 | File | `/classes/Master.php?f=save_sub_category` | High
-39 | File | `/classes/Users.php?f=save` | High
-40 | File | `/dashboard/settings` | High
-41 | File | `/dipam/athlete-profile.php` | High
-42 | File | `/E-mobile/App/System/File/downfile.php` | High
-43 | File | `/edoc/doctor/patient.php` | High
-44 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-45 | File | `/etc/gsissh/sshd_config` | High
-46 | File | `/etc/ldap.conf` | High
-47 | File | `/etc/passwd` | Medium
-48 | File | `/etc/shadow` | Medium
-49 | File | `/face-recognition-php/facepay-master/camera.php` | High
-50 | File | `/foms/place-order.php` | High
-51 | File | `/forum/away.php` | High
-52 | File | `/function/login.php` | High
-53 | File | `/goform/wizard_end` | High
-54 | File | `/h/calendar` | Medium
-55 | File | `/h/compose` | Medium
-56 | File | `/h/search?action=voicemail&action=listen` | High
-57 | File | `/hrm/employeeview.php` | High
-58 | File | `/index.php` | Medium
-59 | File | `/index.php?app=main&func=passport&action=login` | High
-60 | File | `/kelasdosen/data` | High
-61 | File | `/listplace/user/coverPhotoUpdate` | High
-62 | File | `/maintenance/manage_department.php` | High
-63 | File | `/manager/index.php` | High
-64 | ... | ... | ...
+29 | File | `/api/sys/login` | High
+30 | File | `/api/user/upsert/<uuid>` | High
+31 | File | `/appliance/users?action=edit` | High
+32 | File | `/backup.pl` | Medium
+33 | File | `/belegungsplan/monatsuebersicht.inc.php` | High
+34 | File | `/blog` | Low
+35 | File | `/booking/show_bookings/` | High
+36 | File | `/bsms_ci/index.php` | High
+37 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+38 | File | `/cgi-bin/luci;stok=/locale` | High
+39 | File | `/classes/Master.php?f=save_sub_category` | High
+40 | File | `/classes/Users.php?f=save` | High
+41 | File | `/collection/all` | High
+42 | File | `/dashboard/settings` | High
+43 | File | `/dipam/athlete-profile.php` | High
+44 | File | `/E-mobile/App/System/File/downfile.php` | High
+45 | File | `/edoc/doctor/patient.php` | High
+46 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+47 | File | `/etc/gsissh/sshd_config` | High
+48 | File | `/etc/ldap.conf` | High
+49 | File | `/etc/passwd` | Medium
+50 | File | `/etc/shadow` | Medium
+51 | File | `/face-recognition-php/facepay-master/camera.php` | High
+52 | File | `/foms/place-order.php` | High
+53 | File | `/forum/away.php` | High
+54 | File | `/function/login.php` | High
+55 | File | `/fusion/portal/action/Link` | High
+56 | File | `/gadgets/definitions/uptime.CapacityWhatIfGadget/getmetrics.php` | High
+57 | File | `/gadgets/definitions/uptime.CapacityWhatifGadget/getxenmetrics.php` | High
+58 | File | `/goform/wizard_end` | High
+59 | File | `/hrm/employeeview.php` | High
+60 | File | `/index.php` | Medium
+61 | File | `/index.php?app=main&func=passport&action=login` | High
+62 | File | `/kelasdosen/data` | High
+63 | ... | ... | ...
 
-There are 558 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 554 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

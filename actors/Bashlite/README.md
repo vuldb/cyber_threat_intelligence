@@ -173,7 +173,7 @@ ID | IP address | Hostname | Campaign | Confidence
 150 | [45.148.120.80](https://vuldb.com/?ip.45.148.120.80) | - | - | High
 151 | ... | ... | ... | ...
 
-There are 599 more IOC items available. Please use our online service to access the data.
+There are 601 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -181,14 +181,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-35 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -200,50 +200,51 @@ ID | Type | Indicator | Confidence
 2 | File | `/act/ActDao.xml` | High
 3 | File | `/admin.php/accessory/filesdel.html` | High
 4 | File | `/admin/?page=user/manage` | High
-5 | File | `/admin/add-new.php` | High
-6 | File | `/admin/doctors.php` | High
-7 | File | `/admin/user/manage_user.php` | High
-8 | File | `/admin/userprofile.php` | High
-9 | File | `/ajax.php?action=read_msg` | High
-10 | File | `/alphaware/summary.php` | High
-11 | File | `/api/` | Low
-12 | File | `/api/admin/store/product/list` | High
-13 | File | `/api/baskets/{name}` | High
-14 | File | `/api/gen/clients/{language}` | High
-15 | File | `/api/stl/actions/search` | High
-16 | File | `/api/v2/cli/commands` | High
-17 | File | `/apply.cgi` | Medium
-18 | File | `/bin/ate` | Medium
-19 | File | `/boat/login.php` | High
-20 | File | `/booking/show_bookings/` | High
-21 | File | `/bsms_ci/index.php/book` | High
+5 | File | `/admin/about-us.php` | High
+6 | File | `/admin/add-new.php` | High
+7 | File | `/admin/doctors.php` | High
+8 | File | `/admin/user/manage_user.php` | High
+9 | File | `/admin/userprofile.php` | High
+10 | File | `/ajax.php?action=read_msg` | High
+11 | File | `/alphaware/summary.php` | High
+12 | File | `/api/` | Low
+13 | File | `/api/admin/store/product/list` | High
+14 | File | `/api/baskets/{name}` | High
+15 | File | `/api/gen/clients/{language}` | High
+16 | File | `/api/stl/actions/search` | High
+17 | File | `/api/v2/cli/commands` | High
+18 | File | `/apply.cgi` | Medium
+19 | File | `/bin/ate` | Medium
+20 | File | `/boat/login.php` | High
+21 | File | `/booking/show_bookings/` | High
 22 | File | `/cgi-bin` | Medium
 23 | File | `/cgi-bin/wlogin.cgi` | High
 24 | File | `/College/admin/teacher.php` | High
-25 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
-26 | File | `/dcim/rack-roles/` | High
-27 | File | `/debug/pprof` | Medium
-28 | File | `/ebics-server/ebics.aspx` | High
-29 | File | `/env` | Low
-30 | File | `/forum/away.php` | High
-31 | File | `/goform/aspForm` | High
-32 | File | `/HNAP1` | Low
-33 | File | `/HNAP1/SetClientInfo` | High
-34 | File | `/inc/topBarNav.php` | High
-35 | File | `/index.php` | Medium
-36 | File | `/index.php?app=main&func=passport&action=login` | High
-37 | File | `/kelas/data` | Medium
-38 | File | `/medicines/profile.php` | High
-39 | File | `/modules/profile/index.php` | High
-40 | File | `/Moosikay/order.php` | High
-41 | File | `/php-sms/admin/?page=user/manage_user` | High
-42 | File | `/reservation/add_message.php` | High
-43 | File | `/resources//../` | High
-44 | File | `/spip.php` | Medium
-45 | File | `/squashfs-root/www/HNAP1/control/SetMasterWLanSettings.php` | High
-46 | ... | ... | ...
+25 | File | `/Content/Template/root/reverse-shell.aspx` | High
+26 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
+27 | File | `/dcim/rack-roles/` | High
+28 | File | `/debug/pprof` | Medium
+29 | File | `/ebics-server/ebics.aspx` | High
+30 | File | `/env` | Low
+31 | File | `/forum/away.php` | High
+32 | File | `/goform/aspForm` | High
+33 | File | `/group1/uploa` | High
+34 | File | `/HNAP1` | Low
+35 | File | `/HNAP1/SetClientInfo` | High
+36 | File | `/inc/topBarNav.php` | High
+37 | File | `/index.php` | Medium
+38 | File | `/index.php?app=main&func=passport&action=login` | High
+39 | File | `/kelas/data` | Medium
+40 | File | `/modules/profile/index.php` | High
+41 | File | `/Moosikay/order.php` | High
+42 | File | `/php-sms/admin/?page=user/manage_user` | High
+43 | File | `/reservation/add_message.php` | High
+44 | File | `/resources//../` | High
+45 | File | `/scripts/unlock_tasks.php` | High
+46 | File | `/squashfs-root/etc_ro/custom.conf` | High
+47 | ... | ... | ...
 
-There are 398 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 406 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -775,6 +776,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.trendmicro.co.jp/archives/20879
 * https://blog.trendmicro.co.jp/archives/22211
 * https://threatfox.abuse.ch
+* https://twitter.com/SecureSh3ll/status/1691530482993815552
 * https://www.virustotal.com/gui/file/f88614efbadc891d6c199d80de3ad3d0e08b3811a20c5cf01d66ac2c8d17fe59/behavior
 
 ## Literature

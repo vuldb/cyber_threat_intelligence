@@ -8,6 +8,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 The following _campaigns_ are known and can be associated with Kinsing:
 
+* CVE-2023-32315
 * Log4Shell
 
 ## Countries
@@ -31,22 +32,24 @@ ID | IP address | Hostname | Campaign | Confidence
 2 | [3.215.110.66](https://vuldb.com/?ip.3.215.110.66) | ec2-3-215-110-66.compute-1.amazonaws.com | Log4Shell | Medium
 3 | [5.34.183.14](https://vuldb.com/?ip.5.34.183.14) | vds-904894.hosted-by-itldc.com | - | High
 4 | [5.34.183.145](https://vuldb.com/?ip.5.34.183.145) | a.sadeghi | - | High
-5 | [31.210.20.181](https://vuldb.com/?ip.31.210.20.181) | - | Log4Shell | High
-6 | [34.81.218.76](https://vuldb.com/?ip.34.81.218.76) | 76.218.81.34.bc.googleusercontent.com | Log4Shell | Medium
-7 | [42.112.28.216](https://vuldb.com/?ip.42.112.28.216) | midp.highlatrol.com | Log4Shell | High
-8 | [45.10.88.102](https://vuldb.com/?ip.45.10.88.102) | 45.10.88.102.cl.darnytsia.net | - | High
-9 | [45.10.88.124](https://vuldb.com/?ip.45.10.88.124) | - | - | High
-10 | [45.15.158.124](https://vuldb.com/?ip.45.15.158.124) | - | - | High
-11 | [45.67.230.68](https://vuldb.com/?ip.45.67.230.68) | vm330138.pq.hosting | - | High
-12 | [45.95.169.118](https://vuldb.com/?ip.45.95.169.118) | zb64.antoniagavve.live | - | High
-13 | [45.129.2.107](https://vuldb.com/?ip.45.129.2.107) | - | Log4Shell | High
-14 | [45.137.151.106](https://vuldb.com/?ip.45.137.151.106) | - | Log4Shell | High
-15 | [45.137.155.55](https://vuldb.com/?ip.45.137.155.55) | vm360194.pq.hosting | Log4Shell | High
-16 | [45.142.214.48](https://vuldb.com/?ip.45.142.214.48) | server.com | Log4Shell | High
-17 | [45.147.201.186](https://vuldb.com/?ip.45.147.201.186) | - | - | High
-18 | ... | ... | ... | ...
+5 | [5.35.101.62](https://vuldb.com/?ip.5.35.101.62) | hosted-by.ruweb.net | CVE-2023-32315 | High
+6 | [31.184.240.34](https://vuldb.com/?ip.31.184.240.34) | 106863.web.hosting-russia.ru | CVE-2023-32315 | High
+7 | [31.210.20.181](https://vuldb.com/?ip.31.210.20.181) | - | Log4Shell | High
+8 | [34.81.218.76](https://vuldb.com/?ip.34.81.218.76) | 76.218.81.34.bc.googleusercontent.com | Log4Shell | Medium
+9 | [42.112.28.216](https://vuldb.com/?ip.42.112.28.216) | midp.highlatrol.com | Log4Shell | High
+10 | [45.10.88.102](https://vuldb.com/?ip.45.10.88.102) | 45.10.88.102.cl.darnytsia.net | - | High
+11 | [45.10.88.124](https://vuldb.com/?ip.45.10.88.124) | - | - | High
+12 | [45.15.158.124](https://vuldb.com/?ip.45.15.158.124) | - | - | High
+13 | [45.67.230.68](https://vuldb.com/?ip.45.67.230.68) | vm330138.pq.hosting | - | High
+14 | [45.95.169.118](https://vuldb.com/?ip.45.95.169.118) | zb64.antoniagavve.live | - | High
+15 | [45.129.2.107](https://vuldb.com/?ip.45.129.2.107) | - | Log4Shell | High
+16 | [45.137.151.106](https://vuldb.com/?ip.45.137.151.106) | - | Log4Shell | High
+17 | [45.137.155.55](https://vuldb.com/?ip.45.137.155.55) | vm360194.pq.hosting | Log4Shell | High
+18 | [45.142.214.48](https://vuldb.com/?ip.45.142.214.48) | server.com | Log4Shell | High
+19 | [45.147.201.186](https://vuldb.com/?ip.45.147.201.186) | - | - | High
+20 | ... | ... | ... | ...
 
-There are 67 more IOC items available. Please use our online service to access the data.
+There are 75 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -105,39 +108,40 @@ ID | Type | Indicator | Confidence
 34 | File | `/spip.php` | Medium
 35 | File | `/SysInfo.htm` | Medium
 36 | File | `/uncpath/` | Medium
-37 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
-38 | File | `/usr/syno/etc/mount.conf` | High
-39 | File | `/var/log/fujitsu/ServerViewSuite/ism/FirmwareManagement/FirmwareManagement.log` | High
-40 | File | `/var/log/rkhunter.log` | High
-41 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
-42 | File | `/vendor` | Low
-43 | File | `/wp-admin/admin.php?page=wp_file_manager_properties` | High
-44 | File | `/wp-json/oembed/1.0/embed?url` | High
-45 | File | `/wp/?cpmvc_id=1&cpmvc_do_action=mvparse&f=datafeed&calid=1&month_index=1&method=adddetails&id=2` | High
-46 | File | `/zm/index.php` | High
-47 | File | `a-b-membres.php` | High
-48 | File | `actions.php` | Medium
-49 | File | `adclick.php` | Medium
-50 | File | `add.php` | Low
-51 | File | `addtocart.asp` | High
-52 | File | `add_2_basket.asp` | High
-53 | File | `add_edit_cat.asp` | High
-54 | File | `admin.jcomments.php` | High
-55 | File | `admin.php` | Medium
-56 | File | `admin.php/comments/batchdel/` | High
-57 | File | `admin/aboutus.php` | High
-58 | File | `admin/adm/test.php` | High
-59 | File | `admin/article_save.php` | High
-60 | File | `admin/bitrix.mpbuilder_step2.php` | High
+37 | File | `/usr/syno/etc/mount.conf` | High
+38 | File | `/var/log/fujitsu/ServerViewSuite/ism/FirmwareManagement/FirmwareManagement.log` | High
+39 | File | `/var/log/rkhunter.log` | High
+40 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
+41 | File | `/vendor` | Low
+42 | File | `/wp-admin/admin.php?page=wp_file_manager_properties` | High
+43 | File | `/wp-json/oembed/1.0/embed?url` | High
+44 | File | `/wp/?cpmvc_id=1&cpmvc_do_action=mvparse&f=datafeed&calid=1&month_index=1&method=adddetails&id=2` | High
+45 | File | `/zm/index.php` | High
+46 | File | `a-b-membres.php` | High
+47 | File | `access.conf` | Medium
+48 | File | `adclick.php` | Medium
+49 | File | `addtocart.asp` | High
+50 | File | `add_2_basket.asp` | High
+51 | File | `add_edit_cat.asp` | High
+52 | File | `admin.jcomments.php` | High
+53 | File | `admin.php` | Medium
+54 | File | `admin.php/comments/batchdel/` | High
+55 | File | `admin/aboutus.php` | High
+56 | File | `admin/adm/test.php` | High
+57 | File | `admin/article_save.php` | High
+58 | File | `admin/bitrix.mpbuilder_step2.php` | High
+59 | File | `admin/conf_users_edit.php` | High
+60 | File | `admin/vqmods.app/vqmods.inc.php` | High
 61 | ... | ... | ...
 
-There are 535 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 532 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://1275.ru/ioc/315/kinsing-i-dark-iot-botnet-iocs/
+* https://blog.aquasec.com/kinsing-malware-exploits-novel-openfire-vulnerability
 * https://blog.aquasec.com/threat-alert-kinsing-malware-container-vulnerability
 * https://blogs.infoblox.com/cyber-threat-intelligence/cyber-campaign-briefs/log4j-indicators-of-compromise-to-date/
 * https://gist.github.com/Iansus/050e121170a864c37b13f979c1883ad4

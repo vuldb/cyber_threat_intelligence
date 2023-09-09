@@ -79,39 +79,39 @@ ID | Type | Indicator | Confidence
 1 | File | `.FBCIndex` | Medium
 2 | File | `/+CSCOE+/logon.html` | High
 3 | File | `/?ajax-request=jnews` | High
-4 | File | `/Admin/add-student.php` | High
-5 | File | `/admin/categories/manage_category.php` | High
-6 | File | `/admin/edit_product.php` | High
-7 | File | `/admin/maintenance/view_designation.php` | High
-8 | File | `/admin/sales/manage_sale.php` | High
-9 | File | `/advanced-tools/nova/bin/netwatch` | High
-10 | File | `/api/baskets/{name}` | High
-11 | File | `/aya/module/admin/fst_down.inc.php` | High
-12 | File | `/blog` | Low
-13 | File | `/boat/login.php` | High
-14 | File | `/bsms_ci/index.php/user/edit_user/` | High
-15 | File | `/cas/logout` | Medium
-16 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
-17 | File | `/cgi-bin/R14.2/easy1350.pl` | High
-18 | File | `/cgi-bin/R14.2/log.pl` | High
-19 | File | `/config/api/v1/reboot` | High
-20 | File | `/CPE` | Low
-21 | File | `/etc/tomcat8/Catalina/attack` | High
-22 | File | `/forum/away.php` | High
-23 | File | `/ghost/preview` | High
-24 | File | `/home/search` | Medium
-25 | File | `/ims/login.php` | High
-26 | File | `/modules/profile/index.php` | High
-27 | File | `/nova/bin/detnet` | High
-28 | File | `/out.php` | Medium
-29 | File | `/php-opos/index.php` | High
-30 | File | `/proc/ftxxxx-debug` | High
-31 | File | `/reviewer_0/admins/assessments/pretest/questions-view.php` | High
-32 | File | `/shell` | Low
-33 | File | `/tourism/rate_review.php` | High
+4 | File | `/adfs/ls` | Medium
+5 | File | `/Admin/add-student.php` | High
+6 | File | `/admin/categories/manage_category.php` | High
+7 | File | `/admin/edit_product.php` | High
+8 | File | `/admin/maintenance/view_designation.php` | High
+9 | File | `/admin/sales/manage_sale.php` | High
+10 | File | `/advanced-tools/nova/bin/netwatch` | High
+11 | File | `/api/baskets/{name}` | High
+12 | File | `/aya/module/admin/fst_down.inc.php` | High
+13 | File | `/blog` | Low
+14 | File | `/boat/login.php` | High
+15 | File | `/bsms_ci/index.php/user/edit_user/` | High
+16 | File | `/cas/logout` | Medium
+17 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
+18 | File | `/cgi-bin/R14.2/easy1350.pl` | High
+19 | File | `/cgi-bin/R14.2/log.pl` | High
+20 | File | `/config/api/v1/reboot` | High
+21 | File | `/CPE` | Low
+22 | File | `/etc/tomcat8/Catalina/attack` | High
+23 | File | `/forum/away.php` | High
+24 | File | `/ghost/preview` | High
+25 | File | `/home/search` | Medium
+26 | File | `/ims/login.php` | High
+27 | File | `/modules/profile/index.php` | High
+28 | File | `/nova/bin/detnet` | High
+29 | File | `/out.php` | Medium
+30 | File | `/php-opos/index.php` | High
+31 | File | `/proc/ftxxxx-debug` | High
+32 | File | `/reviewer_0/admins/assessments/pretest/questions-view.php` | High
+33 | File | `/shell` | Low
 34 | ... | ... | ...
 
-There are 287 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 289 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

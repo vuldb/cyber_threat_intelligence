@@ -106,9 +106,10 @@ ID | Type | Indicator | Confidence
 40 | File | `/plugins/Dashboard/Controller.php` | High
 41 | File | `/public/plugins/` | High
 42 | File | `/rest/jpo/1.0/hierarchyConfiguration` | High
-43 | ... | ... | ...
+43 | File | `/SASWebReportStudio/logonAndRender.do` | High
+44 | ... | ... | ...
 
-There are 375 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 382 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
