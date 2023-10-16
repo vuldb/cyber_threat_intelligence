@@ -8,6 +8,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with GootLoader:
 
+* [RU](https://vuldb.com/?country.ru)
 * [US](https://vuldb.com/?country.us)
 
 ## IOC - Indicator of Compromise
@@ -16,13 +17,34 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [35.206.117.64](https://vuldb.com/?ip.35.206.117.64) | 64.117.206.35.bc.googleusercontent.com | - | Medium
-2 | [138.197.222.36](https://vuldb.com/?ip.138.197.222.36) | - | - | High
+1 | [5.8.18.7](https://vuldb.com/?ip.5.8.18.7) | - | - | High
+2 | [35.206.117.64](https://vuldb.com/?ip.35.206.117.64) | 64.117.206.35.bc.googleusercontent.com | - | Medium
+3 | [138.197.222.36](https://vuldb.com/?ip.138.197.222.36) | - | - | High
+
+## TTP - Tactics, Techniques, Procedures
+
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _GootLoader_. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1059.007 | CWE-79 | Cross Site Scripting | High
+2 | T1068 | CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+
+## IOA - Indicator of Attack
+
+These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by GootLoader. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Type | Indicator | Confidence
+-- | ---- | --------- | ----------
+1 | File | `admin.php` | Medium
+2 | Argument | `aid` | Low
+3 | Argument | `statcode` | Medium
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://github.com/sophoslabs/IoCs/blob/master/Troj-gootloader.csv
 * https://thedfirreport.com/2022/05/09/seo-poisoning-a-gootloader-story/
 * https://tria.ge/220104-dp6htaadcn
 

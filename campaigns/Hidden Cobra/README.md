@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [IR](https://vuldb.com/?country.ir)
 * ...
 
-There are 6 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -164,7 +164,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | T1059.007 | CWE-79, CWE-80, CWE-87 | Cross Site Scripting | High
@@ -183,25 +183,25 @@ ID | Type | Indicator | Confidence
 3 | File | `/admin/maintenance/view_designation.php` | High
 4 | File | `/admin/reports.php` | High
 5 | File | `/advanced-tools/nova/bin/netwatch` | High
-6 | File | `/catcompany.php` | High
-7 | File | `/cgi-bin/login.cgi` | High
-8 | File | `/cgi-bin/R14.2/easy1350.pl` | High
-9 | File | `/cgi-bin/R14.2/log.pl` | High
-10 | File | `/EventBookingCalendar/load.php?controller=GzFront/action=checkout/cid=1/layout=calendar/show_header=T/local=3` | High
-11 | File | `/export` | Low
-12 | File | `/forgetpassword.php` | High
-13 | File | `/FormLogin` | Medium
-14 | File | `/forum/away.php` | High
-15 | File | `/graphStatus/displayServiceStatus.php` | High
-16 | File | `/modules/profile/index.php` | High
-17 | File | `/nova/bin/detnet` | High
-18 | File | `/out.php` | Medium
-19 | File | `/plugin` | Low
-20 | File | `/proc/ftxxxx-debug` | High
-21 | File | `/proc/pid/syscall` | High
+6 | File | `/app/search/table` | High
+7 | File | `/catcompany.php` | High
+8 | File | `/cgi-bin/login.cgi` | High
+9 | File | `/cgi-bin/R14.2/easy1350.pl` | High
+10 | File | `/cgi-bin/R14.2/log.pl` | High
+11 | File | `/debug/pprof` | Medium
+12 | File | `/EventBookingCalendar/load.php?controller=GzFront/action=checkout/cid=1/layout=calendar/show_header=T/local=3` | High
+13 | File | `/export` | Low
+14 | File | `/forgetpassword.php` | High
+15 | File | `/FormLogin` | Medium
+16 | File | `/forum/away.php` | High
+17 | File | `/group1/uploa` | High
+18 | File | `/modules/profile/index.php` | High
+19 | File | `/nova/bin/detnet` | High
+20 | File | `/out.php` | Medium
+21 | File | `/plugin` | Low
 22 | ... | ... | ...
 
-There are 178 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 185 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

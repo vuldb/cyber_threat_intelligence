@@ -24,9 +24,10 @@ ID | IP address | Hostname | Campaign | Confidence
 1 | [5.42.199.3](https://vuldb.com/?ip.5.42.199.3) | - | - | High
 2 | [5.42.199.22](https://vuldb.com/?ip.5.42.199.22) | - | - | High
 3 | [5.42.199.91](https://vuldb.com/?ip.5.42.199.91) | - | - | High
-4 | ... | ... | ... | ...
+4 | [45.93.201.92](https://vuldb.com/?ip.45.93.201.92) | - | - | High
+5 | ... | ... | ... | ...
 
-There are 14 more IOC items available. Please use our online service to access the data.
+There are 15 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -41,7 +42,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -82,9 +83,10 @@ ID | Type | Indicator | Confidence
 31 | File | `/wp-json` | Medium
 32 | File | `action.php` | Medium
 33 | File | `adm.cgi` | Low
-34 | ... | ... | ...
+34 | File | `admin.php&r=article/AdminContent/edit` | High
+35 | ... | ... | ...
 
-There are 294 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 301 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -93,8 +95,10 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://community.blueliv.com/#!/s/6290743382df41552632f5fe
 * https://threatfox.abuse.ch
 * https://twitter.com/0xrb/status/1564222855830597632
+* https://twitter.com/ReBensk/status/1695321207766127094
 * https://www.threatfabric.com/blogs/ermac-another-cerberus-reborn.html
 * https://www.trendmicro.com/de_de/research/22/g/examining-new-dawdropper-banking-dropper-and-daas-on-the-dark-we.html
+* https://www.virustotal.com/gui/file/f642d2c6a70828028e0f3f7e9b9a87537c6556870cdf4602ee992091040a1850/detection
 
 ## Literature
 

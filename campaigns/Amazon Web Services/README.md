@@ -64,10 +64,10 @@ ID | Type | Indicator | Confidence
 5 | File | `/src/chatbotapp/chatWindow.java` | High
 6 | File | `/usr/bin/pkexec` | High
 7 | File | `admin/categories_industry.php` | High
-8 | File | `admin/content/postcategory` | High
+8 | File | `admin/class-woo-popup-admin.php` | High
 9 | ... | ... | ...
 
-There are 67 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 69 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [NL](https://vuldb.com/?country.nl)
 * ...
 
-There are 20 more country items available. Please use our online service to access the data.
+There are 17 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -785,26 +785,25 @@ ID | Type | Indicator | Confidence
 21 | File | `/cgi-bin/touchlist_sync.cgi` | High
 22 | File | `/cgi-bin/wapopen` | High
 23 | File | `/cgi-bin/wlogin.cgi` | High
-24 | File | `/context/%2e/WEB-INF/web.xml` | High
-25 | File | `/data/remove` | Medium
-26 | File | `/data/wps.setup.json` | High
+24 | File | `/Content/Template/root/reverse-shell.aspx` | High
+25 | File | `/dashboard/add-blog.php` | High
+26 | File | `/data/remove` | Medium
 27 | File | `/debug/pprof` | Medium
 28 | File | `/env` | Low
 29 | File | `/etc/hosts` | Medium
 30 | File | `/forum/away.php` | High
-31 | File | `/goform/wizard_end` | High
-32 | File | `/group1/uploa` | High
-33 | File | `/medicines/profile.php` | High
-34 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+31 | File | `/group1/uploa` | High
+32 | File | `/medicines/profile.php` | High
+33 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+34 | File | `/pf/idprofile.ping` | High
 35 | File | `/php-sms/admin/?page=user/manage_user` | High
 36 | File | `/proxy` | Low
 37 | File | `/reservation/add_message.php` | High
 38 | File | `/resources//../` | High
 39 | File | `/scheduler/index.php` | High
-40 | File | `/sessions/sess_<sessionid>` | High
-41 | ... | ... | ...
+40 | ... | ... | ...
 
-There are 350 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 346 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

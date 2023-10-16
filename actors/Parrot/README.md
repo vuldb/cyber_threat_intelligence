@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 10 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -72,15 +72,16 @@ ID | Type | Indicator | Confidence
 21 | File | `/rapi/read_url` | High
 22 | File | `/rrps/classes/Master.php?f=delete_category` | High
 23 | File | `/rukovoditel_2.4.1/index.php?module=configuration/save&redirect_to=configuration/application` | High
-24 | File | `/sec/content/sec_asa_users_local_db_add.html` | High
-25 | File | `/see_more_details.php` | High
-26 | File | `/src/core/controllers/cm.php` | High
-27 | File | `/transmission/web/` | High
-28 | File | `/uncpath/` | Medium
-29 | File | `/usr/local` | Medium
-30 | ... | ... | ...
+24 | File | `/scripts/unlock_tasks.php` | High
+25 | File | `/sec/content/sec_asa_users_local_db_add.html` | High
+26 | File | `/see_more_details.php` | High
+27 | File | `/src/core/controllers/cm.php` | High
+28 | File | `/system/user/modules/mod_users/controller.php` | High
+29 | File | `/transmission/web/` | High
+30 | File | `/uncpath/` | Medium
+31 | ... | ... | ...
 
-There are 258 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 264 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

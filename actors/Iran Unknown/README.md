@@ -63,18 +63,18 @@ ID | Type | Indicator | Confidence
 6 | File | `/cgi-bin/webproc` | High
 7 | File | `/coreframe/app/pay/admin/index.php` | High
 8 | File | `/forum/away.php` | High
-9 | File | `/index.php` | Medium
-10 | File | `/ofrs/admin/?page=requests/manage_request` | High
-11 | File | `/spip.php` | Medium
-12 | File | `/usr/www/ja/mnt_cmd.cgi` | High
-13 | File | `/wp-admin/admin-ajax.php` | High
-14 | File | `activenews_view.asp` | High
-15 | File | `admincp/auth/secure.php` | High
-16 | File | `announcement.php` | High
-17 | File | `articulo.php` | Medium
+9 | File | `/importexport.php` | High
+10 | File | `/index.php` | Medium
+11 | File | `/ofrs/admin/?page=requests/manage_request` | High
+12 | File | `/search` | Low
+13 | File | `/spip.php` | Medium
+14 | File | `/usr/www/ja/mnt_cmd.cgi` | High
+15 | File | `/wp-admin/admin-ajax.php` | High
+16 | File | `activenews_view.asp` | High
+17 | File | `admincp/auth/secure.php` | High
 18 | ... | ... | ...
 
-There are 145 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 148 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

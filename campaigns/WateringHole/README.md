@@ -61,19 +61,19 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/.env` | Low
-2 | File | `/admin_system/api.php` | High
-3 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
-4 | File | `/maint/index.php` | High
-5 | File | `/see_more_details.php` | High
-6 | File | `/shopping/product.php` | High
-7 | File | `adclick.php` | Medium
-8 | File | `admin.php` | Medium
-9 | File | `admsession.php` | High
-10 | File | `al_initialize.php` | High
-11 | File | `blocks/block-Old_Articles.php` | High
+2 | File | `/admin/store.php` | High
+3 | File | `/admin_system/api.php` | High
+4 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
+5 | File | `/maint/index.php` | High
+6 | File | `/see_more_details.php` | High
+7 | File | `/shopping/product.php` | High
+8 | File | `adclick.php` | Medium
+9 | File | `admin.php` | Medium
+10 | File | `admsession.php` | High
+11 | File | `al_initialize.php` | High
 12 | ... | ... | ...
 
-There are 89 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 90 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

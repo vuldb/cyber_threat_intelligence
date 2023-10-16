@@ -64,7 +64,7 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin.php` | Medium
+1 | File | `.ssh/authorized_keys` | High
 2 | File | `/admin/ballot_down.php` | High
 3 | File | `/admin/config_save.php` | High
 4 | File | `/admin/edit_visitor.php` | High
@@ -72,44 +72,43 @@ ID | Type | Indicator | Confidence
 6 | File | `/admin/plugin.php` | High
 7 | File | `/admin/template.php` | High
 8 | File | `/alphaware/summary.php` | High
-9 | File | `/apply.cgi` | Medium
-10 | File | `/cgi?` | Low
-11 | File | `/classes/Users.php` | High
-12 | File | `/dashboard/updatelogo.php` | High
-13 | File | `/dipam/save-delegates.php` | High
-14 | File | `/ecommerce/support_ticket` | High
-15 | File | `/etc/controller-agent/agent.conf` | High
-16 | File | `/etc/openshift/server_priv.pem` | High
-17 | File | `/forms/web_importTFTP` | High
-18 | File | `/goform/SysToolReboot` | High
-19 | File | `/goform/SysToolRestoreSet` | High
-20 | File | `/graphql` | Medium
-21 | File | `/index.php` | Medium
-22 | File | `/jeecg-boot/jmreport/upload` | High
-23 | File | `/jeecg-boot/jmreport/view` | High
-24 | File | `/jsoa/hntdCustomDesktopActionContent` | High
-25 | File | `/localhost/u` | Medium
-26 | File | `/mkshop/Men/profile.php` | High
-27 | File | `/net` | Low
-28 | File | `/Noxen-master/users.php` | High
-29 | File | `/opt/bin/cli` | Medium
-30 | File | `/PluXml/core/admin/parametres_edittpl.php` | High
-31 | File | `/public/plugins/` | High
-32 | File | `/public_html/admin/plugins/bad_behavior2/blacklist.php` | High
-33 | File | `/root/run/adm.php?admin-ediy&part=exdiy` | High
-34 | File | `/setNTP.cgi` | Medium
-35 | File | `/setting/setWanIeCfg` | High
-36 | File | `/templates/header.inc.php` | High
-37 | File | `/tmp` | Low
-38 | File | `/uncpath/` | Medium
-39 | File | `/v2/devices/add` | High
-40 | File | `/var/ipfire/backup/bin/backup.pl` | High
-41 | File | `/wp-json/wc/v3/webhooks` | High
-42 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-43 | File | `account.php` | Medium
-44 | ... | ... | ...
+9 | File | `/api/sys/login` | High
+10 | File | `/apply.cgi` | Medium
+11 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+12 | File | `/cgi?` | Low
+13 | File | `/classes/Users.php` | High
+14 | File | `/dashboard/updatelogo.php` | High
+15 | File | `/dipam/save-delegates.php` | High
+16 | File | `/ecommerce/support_ticket` | High
+17 | File | `/etc/controller-agent/agent.conf` | High
+18 | File | `/etc/openshift/server_priv.pem` | High
+19 | File | `/forms/web_importTFTP` | High
+20 | File | `/goform/SysToolReboot` | High
+21 | File | `/goform/SysToolRestoreSet` | High
+22 | File | `/graphql` | Medium
+23 | File | `/index.php` | Medium
+24 | File | `/jeecg-boot/jmreport/upload` | High
+25 | File | `/jeecg-boot/jmreport/view` | High
+26 | File | `/jsoa/hntdCustomDesktopActionContent` | High
+27 | File | `/localhost/u` | Medium
+28 | File | `/mkshop/Men/profile.php` | High
+29 | File | `/net` | Low
+30 | File | `/Noxen-master/users.php` | High
+31 | File | `/opt/bin/cli` | Medium
+32 | File | `/PluXml/core/admin/parametres_edittpl.php` | High
+33 | File | `/public/plugins/` | High
+34 | File | `/public_html/admin/plugins/bad_behavior2/blacklist.php` | High
+35 | File | `/root/run/adm.php?admin-ediy&part=exdiy` | High
+36 | File | `/setNTP.cgi` | Medium
+37 | File | `/setting/setWanIeCfg` | High
+38 | File | `/templates/header.inc.php` | High
+39 | File | `/tmp` | Low
+40 | File | `/uncpath/` | Medium
+41 | File | `/v2/devices/add` | High
+42 | File | `/var/ipfire/backup/bin/backup.pl` | High
+43 | ... | ... | ...
 
-There are 378 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 372 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

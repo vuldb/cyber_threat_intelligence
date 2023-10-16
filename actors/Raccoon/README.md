@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Raccoon:
 
-* [SH](https://vuldb.com/?country.sh)
 * [US](https://vuldb.com/?country.us)
+* [SH](https://vuldb.com/?country.sh)
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 17 more country items available. Please use our online service to access the data.
+There are 15 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -248,9 +248,10 @@ ID | IP address | Hostname | Campaign | Confidence
 225 | [45.82.13.17](https://vuldb.com/?ip.45.82.13.17) | MSK-H-1674545172.msk.host | - | High
 226 | [45.82.71.192](https://vuldb.com/?ip.45.82.71.192) | papidu.com.ua | - | High
 227 | [45.82.73.28](https://vuldb.com/?ip.45.82.73.28) | - | - | High
-228 | ... | ... | ... | ...
+228 | [45.82.73.60](https://vuldb.com/?ip.45.82.73.60) | - | - | High
+229 | ... | ... | ... | ...
 
-There are 910 more IOC items available. Please use our online service to access the data.
+There are 914 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -259,14 +260,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Pathname Traversal | High
-2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+6 | T1078.001 | CWE-259 | Use of Hard-coded Password | High
 7 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 23 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -278,47 +279,51 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin/about-us.php` | High
 3 | File | `/admin/del_feedback.php` | High
 4 | File | `/admin/modal_add_product.php` | High
-5 | File | `/admin/positions_add.php` | High
+5 | File | `/admin/save.php` | High
 6 | File | `/admin/sys_sql_query.php` | High
 7 | File | `/api/baskets/{name}` | High
 8 | File | `/api/database` | High
-9 | File | `/App_Resource/UEditor/server/upload.aspx` | High
-10 | File | `/bin/ate` | Medium
-11 | File | `/bitrix/admin/ldap_server_edit.php` | High
-12 | File | `/booking/show_bookings/` | High
+9 | File | `/api/download` | High
+10 | File | `/api/v1/terminal/sessions/?limit=1` | High
+11 | File | `/App_Resource/UEditor/server/upload.aspx` | High
+12 | File | `/bitrix/admin/ldap_server_edit.php` | High
 13 | File | `/c/PluginsController.php` | High
 14 | File | `/category.php` | High
-15 | File | `/cgi-bin/luci/api/wireless` | High
-16 | File | `/chaincity/user/ticket/create` | High
-17 | File | `/collection/all` | High
-18 | File | `/company/store` | High
-19 | File | `/Content/Template/root/reverse-shell.aspx` | High
-20 | File | `/Controller/Ajaxfileupload.ashx` | High
-21 | File | `/core/conditions/AbstractWrapper.java` | High
-22 | File | `/debug/pprof` | Medium
-23 | File | `/ecommerce/support_ticket` | High
-24 | File | `/ecrire/exec/puce_statut.php` | High
-25 | File | `/env` | Low
-26 | File | `/etc/passwd` | Medium
-27 | File | `/files/` | Low
-28 | File | `/forum/away.php` | High
-29 | File | `/friends/ajax_invite` | High
-30 | File | `/group1/uploa` | High
-31 | File | `/h/` | Low
-32 | File | `/home/filter_listings` | High
-33 | File | `/index.php` | Medium
-34 | File | `/index.php/client/message/message_read/xxxxxxxx[random-msg-hash]` | High
-35 | File | `/index.php?app=main&func=passport&action=login` | High
+15 | File | `/categorypage.php` | High
+16 | File | `/cgi-bin/luci/api/wireless` | High
+17 | File | `/cgi-bin/vitogate.cgi` | High
+18 | File | `/chaincity/user/ticket/create` | High
+19 | File | `/collection/all` | High
+20 | File | `/company/store` | High
+21 | File | `/Content/Template/root/reverse-shell.aspx` | High
+22 | File | `/Controller/Ajaxfileupload.ashx` | High
+23 | File | `/core/conditions/AbstractWrapper.java` | High
+24 | File | `/dashboard/add-blog.php` | High
+25 | File | `/debug/pprof` | Medium
+26 | File | `/ecrire/exec/puce_statut.php` | High
+27 | File | `/etc/passwd` | Medium
+28 | File | `/files/` | Low
+29 | File | `/forum/away.php` | High
+30 | File | `/friends/ajax_invite` | High
+31 | File | `/group1/uploa` | High
+32 | File | `/HNAP1` | Low
+33 | File | `/home/filter_listings` | High
+34 | File | `/index.php` | Medium
+35 | File | `/index.php/client/message/message_read/xxxxxxxx[random-msg-hash]` | High
 36 | File | `/instance/detail` | High
 37 | File | `/items/search` | High
 38 | File | `/jeecg-boot/sys/common/upload` | High
-39 | File | `/jobinfo/` | Medium
-40 | File | `/knowage/restful-services/dossier/importTemplateFile` | High
-41 | File | `/languages/install.php` | High
-42 | File | `/log/decodmail.php` | High
-43 | ... | ... | ...
+39 | File | `/knowage/restful-services/dossier/importTemplateFile` | High
+40 | File | `/languages/install.php` | High
+41 | File | `/log/decodmail.php` | High
+42 | File | `/matchmakings/question` | High
+43 | File | `/northstar/Portal/processlogin.jsp` | High
+44 | File | `/recipe-result` | High
+45 | File | `/register.do` | Medium
+46 | File | `/resources//../` | High
+47 | ... | ... | ...
 
-There are 375 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 406 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -330,6 +335,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://bazaar.abuse.ch/sample/5bbe4ff9dc3e2fb44d356785216d39faa2ea386b1a5227798aea9c2d18b8b3fa/
 * https://bazaar.abuse.ch/sample/7b0d940175c7c440f5bc5b54bf72b899fc5cef36ff62e65c2f52856e75d0b05b/
 * https://bazaar.abuse.ch/sample/9c7a967f46a139f886c96f027a26caf6bc8446dfdf9d689c84116816a6b64954/
+* https://bazaar.abuse.ch/sample/1743f4a392b6d2ad0d47a7a57e277e1a29ecf459275b604919a6131739afdaad/
 * https://bazaar.abuse.ch/sample/2475b6b24c1117002dfdb64795080ea401a25a2a23e08f3e9f809dfaa01a05c1/
 * https://bazaar.abuse.ch/sample/ac13be532798f0d6dd37d8eed2b8d4ef0f8dc0ead80cc7c18db57d3052cdefd8/
 * https://bazaar.abuse.ch/sample/ad469dd1d1a2d39ac6a1562243ea2205b43eacbb8b62b084916d9a0974189554/
@@ -345,12 +351,14 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://github.com/threatlabz/iocs/blob/main/raccoon/c2_ips.txt
 * https://threatfox.abuse.ch
 * https://tria.ge/221022-14m2cafae9
+* https://tria.ge/230925-vc87lshb5w
 * https://twitter.com/0xrb/status/1610512844222763008?s=20
 * https://twitter.com/0xrb/status/1610512844222763008?s=20&t=4RpntLoIt8ejrPFpHwiyvw
 * https://twitter.com/0xrb/status/1610512844222763008?s=20&t=5vScF2139MIjix15B5tnNw
 * https://twitter.com/0xrb/status/1610512844222763008?s=20&t=FqLf4uB88aXH-PzMsvNcGQ
 * https://twitter.com/0xrb/status/1610512844222763008?s=20&t=OO63TME-iu6JvI8EnVvlZw
 * https://twitter.com/0xrb/status/1610512844222763008?s=20&t=oVBjfHXUAquhlArc9LuZ1A
+* https://twitter.com/500mk500/status/1711248786620616987
 * https://twitter.com/crep1x/status/1553840512376967171
 * https://twitter.com/crep1x/status/1584254866150416386
 * https://twitter.com/crep1x/status/1588297309313699842
@@ -359,6 +367,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://twitter.com/crep1x/status/1697559871284035603
 * https://twitter.com/Gi7w0rm/status/1610872426492985344
 * https://twitter.com/Iamdeadlyz/status/1562823487932100608
+* https://twitter.com/malwrhunterteam/status/1704483766461173984
 * https://www.zscaler.com/blogs/security-research/raccoon-stealer-v2-latest-generation-raccoon-family
 * https://yaraify.abuse.ch/sample/1f95990060b03445fd1054877c0ed2116a1434a3d1f7358a90d455df3fe1e172/
 * https://yaraify.abuse.ch/sample/640c45085849413f89851ffa4aba1956b59b6f9e77bc874d0dedb6a8d373201f/

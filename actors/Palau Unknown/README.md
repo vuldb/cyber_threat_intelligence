@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 6 more country items available. Please use our online service to access the data.
+There are 8 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -34,12 +34,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-35, CWE-36 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-35, CWE-36 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 11 more TTP items available. Please use our online service to access the data.
+There are 12 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -75,14 +75,17 @@ ID | Type | Indicator | Confidence
 26 | File | `admin/data.php` | High
 27 | File | `admin/edit_category.php` | High
 28 | File | `admin/operations/currency.php` | High
-29 | File | `album_portal.php` | High
-30 | File | `awstats.pl` | Medium
-31 | File | `blocks/block-Old_Articles.php` | High
-32 | File | `blogger-importer.php` | High
-33 | File | `bp_ncom.php` | Medium
-34 | ... | ... | ...
+29 | File | `agenda.php` | Medium
+30 | File | `album_portal.php` | High
+31 | File | `awstats.pl` | Medium
+32 | File | `blocks/block-Old_Articles.php` | High
+33 | File | `blogger-importer.php` | High
+34 | File | `bp_ncom.php` | Medium
+35 | File | `buy.php` | Low
+36 | File | `category.cfm` | Medium
+37 | ... | ... | ...
 
-There are 289 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 313 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [DE](https://vuldb.com/?country.de)
 * ...
 
-There are 22 more country items available. Please use our online service to access the data.
+There are 23 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -84,33 +84,35 @@ ID | Type | Indicator | Confidence
 34 | File | `/wordpress/wp-admin/options-general.php` | High
 35 | File | `/wp-admin` | Medium
 36 | File | `/wp-admin/admin-ajax.php` | High
-37 | File | `account.asp` | Medium
-38 | File | `adclick.php` | Medium
-39 | File | `adm/systools.asp` | High
-40 | File | `admin.php` | Medium
-41 | File | `admin/admin.shtml` | High
-42 | File | `Admin/ADM_Pagina.php` | High
-43 | File | `admin/category.inc.php` | High
-44 | File | `admin/main.asp` | High
-45 | File | `admin/param/param_func.inc.php` | High
-46 | File | `admin/y_admin.asp` | High
-47 | File | `adminer.php` | Medium
-48 | File | `administration/admins.php` | High
-49 | File | `administrator/components/com_media/helpers/media.php` | High
-50 | File | `admin_ok.asp` | Medium
-51 | File | `album_portal.php` | High
-52 | File | `app/Core/Paginator.php` | High
-53 | File | `app/index.php/accounts/default/details?id=2&kanbanBoard=1&openToTaskId=1` | High
-54 | File | `artlinks.dispnew.php` | High
-55 | File | `auth.php` | Medium
-56 | File | `bin/named/query.c` | High
-57 | File | `blank.php` | Medium
-58 | File | `blocklayered-ajax.php` | High
-59 | File | `blogger-importer.php` | High
-60 | File | `bluegate_seo.inc.php` | High
-61 | ... | ... | ...
+37 | File | `4.2.0.CP09` | Medium
+38 | File | `account.asp` | Medium
+39 | File | `adclick.php` | Medium
+40 | File | `adm/systools.asp` | High
+41 | File | `admin.php` | Medium
+42 | File | `admin/admin.shtml` | High
+43 | File | `Admin/ADM_Pagina.php` | High
+44 | File | `admin/category.inc.php` | High
+45 | File | `admin/main.asp` | High
+46 | File | `admin/param/param_func.inc.php` | High
+47 | File | `admin/y_admin.asp` | High
+48 | File | `adminer.php` | Medium
+49 | File | `administration/admins.php` | High
+50 | File | `administrator/components/com_media/helpers/media.php` | High
+51 | File | `admin_ok.asp` | Medium
+52 | File | `album_portal.php` | High
+53 | File | `app/Core/Paginator.php` | High
+54 | File | `app/index.php/accounts/default/details?id=2&kanbanBoard=1&openToTaskId=1` | High
+55 | File | `artlinks.dispnew.php` | High
+56 | File | `auth.php` | Medium
+57 | File | `bin/named/query.c` | High
+58 | File | `blank.php` | Medium
+59 | File | `blocklayered-ajax.php` | High
+60 | File | `blogger-importer.php` | High
+61 | File | `bluegate_seo.inc.php` | High
+62 | File | `book.cfm` | Medium
+63 | ... | ... | ...
 
-There are 529 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 547 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

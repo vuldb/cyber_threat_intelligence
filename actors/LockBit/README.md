@@ -101,7 +101,7 @@ ID | Type | Indicator | Confidence
 40 | File | `affich.php` | Medium
 41 | ... | ... | ...
 
-There are 354 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 358 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

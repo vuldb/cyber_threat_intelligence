@@ -73,38 +73,39 @@ ID | Type | Indicator | Confidence
 18 | File | `/apply.cgi` | Medium
 19 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
 20 | File | `/classes/Master.php?f=save_inquiry` | High
-21 | File | `/config/list` | Medium
-22 | File | `/coreframe/app/guestbook/myissue.php` | High
-23 | File | `/dede/co_do.php` | High
-24 | File | `/DXR.axd` | Medium
-25 | File | `/etc/init.d/sshd_service` | High
-26 | File | `/filemanager/upload.php` | High
-27 | File | `/forum/away.php` | High
-28 | File | `/fuel/sitevariables/delete/4` | High
-29 | File | `/goform/saveParentControlInfo` | High
-30 | File | `/goform/setSnmpInfo` | High
-31 | File | `/if.cgi` | Low
-32 | File | `/include/make.php` | High
-33 | File | `/index.php/admins/Fields/get_fields.html` | High
-34 | File | `/login` | Low
-35 | File | `/mgm_dev_reset.asp` | High
-36 | File | `/mifs/c/i/reg/reg.html` | High
-37 | File | `/modules/profile/index.php` | High
-38 | File | `/news.dtl.php` | High
-39 | File | `/odlms/classes/Master.php?f=delete_message` | High
-40 | File | `/php-sms/classes/SystemSettings.php` | High
-41 | File | `/php_action/createUser.php` | High
-42 | File | `/release-x64/otfccdump+0x6e7e3d` | High
-43 | File | `/reps/admin/?page=agents/manage_agent` | High
-44 | File | `/see_more_details.php` | High
-45 | File | `/services/Card/findUser` | High
-46 | File | `/services/details.asp` | High
-47 | File | `/setup` | Low
-48 | File | `/spip.php` | Medium
-49 | File | `/src/njs_object.c` | High
-50 | ... | ... | ...
+21 | File | `/collection/all` | High
+22 | File | `/config/list` | Medium
+23 | File | `/coreframe/app/guestbook/myissue.php` | High
+24 | File | `/dede/co_do.php` | High
+25 | File | `/DXR.axd` | Medium
+26 | File | `/etc/init.d/sshd_service` | High
+27 | File | `/filemanager/upload.php` | High
+28 | File | `/forum/away.php` | High
+29 | File | `/fuel/sitevariables/delete/4` | High
+30 | File | `/goform/saveParentControlInfo` | High
+31 | File | `/goform/setSnmpInfo` | High
+32 | File | `/if.cgi` | Low
+33 | File | `/include/make.php` | High
+34 | File | `/index.php` | Medium
+35 | File | `/index.php/admins/Fields/get_fields.html` | High
+36 | File | `/login` | Low
+37 | File | `/mgm_dev_reset.asp` | High
+38 | File | `/mifs/c/i/reg/reg.html` | High
+39 | File | `/modules/profile/index.php` | High
+40 | File | `/news.dtl.php` | High
+41 | File | `/odlms/classes/Master.php?f=delete_message` | High
+42 | File | `/php-sms/classes/SystemSettings.php` | High
+43 | File | `/php_action/createUser.php` | High
+44 | File | `/release-x64/otfccdump+0x6e7e3d` | High
+45 | File | `/reps/admin/?page=agents/manage_agent` | High
+46 | File | `/see_more_details.php` | High
+47 | File | `/services/Card/findUser` | High
+48 | File | `/services/details.asp` | High
+49 | File | `/setup` | Low
+50 | File | `/spip.php` | Medium
+51 | ... | ... | ...
 
-There are 433 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 446 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

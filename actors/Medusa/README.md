@@ -8,8 +8,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Medusa:
 
-* [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
@@ -23,10 +23,11 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [5.42.78.61](https://vuldb.com/?ip.5.42.78.61) | - | - | High
 2 | [5.61.49.177](https://vuldb.com/?ip.5.61.49.177) | - | - | High
-3 | [64.52.80.13](https://vuldb.com/?ip.64.52.80.13) | - | - | High
-4 | ... | ... | ... | ...
+3 | [45.15.157.16](https://vuldb.com/?ip.45.15.157.16) | scientific-group.aeza.network | - | High
+4 | [64.52.80.13](https://vuldb.com/?ip.64.52.80.13) | - | - | High
+5 | ... | ... | ... | ...
 
-There are 14 more IOC items available. Please use our online service to access the data.
+There are 15 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -35,11 +36,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22 | Pathname Traversal | High
-2 | T1059 | CWE-94 | Cross Site Scripting | High
+2 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 3 | T1059.007 | CWE-79 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 6 more TTP items available. Please use our online service to access the data.
+There are 7 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -51,9 +52,10 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin/index.php` | High
 3 | File | `/api/baskets/{name}` | High
 4 | File | `/cas/logout` | Medium
-5 | ... | ... | ...
+5 | File | `/collection/all` | High
+6 | ... | ... | ...
 
-There are 28 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 38 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -61,6 +63,7 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://tracker.viriback.com/index.php?q=5.42.78.61
 * https://tracker.viriback.com/index.php?q=5.61.49.177
+* https://tracker.viriback.com/index.php?q=45.15.157.16
 * https://tracker.viriback.com/index.php?q=64.52.80.13
 * https://tracker.viriback.com/index.php?q=77.105.146.254
 * https://tracker.viriback.com/index.php?q=77.105.147.1
@@ -72,6 +75,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://tracker.viriback.com/index.php?q=162.33.179.114
 * https://tracker.viriback.com/index.php?q=185.46.46.133
 * https://tracker.viriback.com/index.php?q=185.112.83.36
+* https://tracker.viriback.com/index.php?q=193.233.133.97
 * https://tracker.viriback.com/index.php?q=193.233.133.153
 * https://tracker.viriback.com/index.php?q=193.233.133.198
 * https://tracker.viriback.com/index.php?q=193.233.133.243

@@ -65,15 +65,16 @@ ID | Type | Indicator | Confidence
 14 | File | `/nova/bin/console` | High
 15 | File | `/owa/auth/logon.aspx` | High
 16 | File | `/rapi/read_url` | High
-17 | File | `/services/config/config.xml` | High
-18 | File | `/services/system/setup.json` | High
-19 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
-20 | File | `/uncpath/` | Medium
-21 | File | `/WEB-INF/web.xml` | High
-22 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
-23 | ... | ... | ...
+17 | File | `/scripts/unlock_tasks.php` | High
+18 | File | `/services/config/config.xml` | High
+19 | File | `/services/system/setup.json` | High
+20 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
+21 | File | `/system/user/modules/mod_users/controller.php` | High
+22 | File | `/uncpath/` | Medium
+23 | File | `/WEB-INF/web.xml` | High
+24 | ... | ... | ...
 
-There are 195 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 201 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

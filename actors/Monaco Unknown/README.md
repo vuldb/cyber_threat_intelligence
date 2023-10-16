@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 4 more country items available. Please use our online service to access the data.
+There are 5 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -56,7 +56,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-35, CWE-36 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-35, CWE-36 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
@@ -86,19 +86,19 @@ ID | Type | Indicator | Confidence
 15 | File | `/wp-admin/admin-ajax.php` | High
 16 | File | `account-signup.php` | High
 17 | File | `account/signup.php` | High
-18 | File | `action.php` | Medium
-19 | File | `addentry.php` | Medium
-20 | File | `addressbook/backends/ldap/e-book-backend-ldap.c` | High
-21 | File | `admin.jcomments.php` | High
-22 | File | `admin.php` | Medium
-23 | File | `admin/admin_editor.php` | High
-24 | File | `admin/conf_users_edit.php` | High
-25 | File | `admin/data.php` | High
-26 | File | `admin/edit_category.php` | High
-27 | File | `admin/operations/currency.php` | High
+18 | File | `addentry.php` | Medium
+19 | File | `addressbook/backends/ldap/e-book-backend-ldap.c` | High
+20 | File | `admin.jcomments.php` | High
+21 | File | `admin.php` | Medium
+22 | File | `admin/admin_editor.php` | High
+23 | File | `admin/conf_users_edit.php` | High
+24 | File | `admin/data.php` | High
+25 | File | `admin/edit_category.php` | High
+26 | File | `admin/operations/currency.php` | High
+27 | File | `awstats.pl` | Medium
 28 | ... | ... | ...
 
-There are 236 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 241 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

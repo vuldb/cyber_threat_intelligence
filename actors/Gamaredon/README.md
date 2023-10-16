@@ -113,9 +113,10 @@ ID | Type | Indicator | Confidence
 5 | File | `admin.php` | Medium
 6 | File | `asn1fix_retrieve.c` | High
 7 | File | `bigsam_guestbook.php` | High
-8 | ... | ... | ...
+8 | File | `books.php` | Medium
+9 | ... | ... | ...
 
-There are 61 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 63 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -110,9 +110,10 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+6 | T1068 | CWE-264, CWE-269, CWE-270, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+7 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -122,39 +123,47 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/reminders/manage_reminder.php` | High
 2 | File | `/card_scan.php` | High
-3 | File | `/cgi-bin/wlogin.cgi` | High
-4 | File | `/classes/Master.php?f=delete_message` | High
-5 | File | `/csms/admin/inquiries/view_details.php` | High
-6 | File | `/cwc/login` | Medium
-7 | File | `/etc/quagga` | Medium
-8 | File | `/files.md5` | Medium
-9 | File | `/forms/doLogin` | High
-10 | File | `/forum/away.php` | High
-11 | File | `/h/calendar` | Medium
-12 | File | `/hrm/employeeview.php` | High
-13 | File | `/include/chart_generator.php` | High
-14 | File | `/index.php` | Medium
-15 | File | `/lan.asp` | Medium
-16 | File | `/librarian/bookdetails.php` | High
-17 | File | `/lists/index.php` | High
-18 | File | `/members/view_member.php` | High
-19 | File | `/messageboard/view.php` | High
-20 | File | `/nova/bin/detnet` | High
-21 | File | `/out.php` | Medium
-22 | File | `/owa/auth/logon.aspx` | High
+3 | File | `/CCMAdmin/serverlist.asp` | High
+4 | File | `/cgi-bin/wlogin.cgi` | High
+5 | File | `/cgi/get_param.cgi` | High
+6 | File | `/classes/Master.php?f=delete_message` | High
+7 | File | `/csms/admin/inquiries/view_details.php` | High
+8 | File | `/cstecgi.cgi` | Medium
+9 | File | `/cwc/login` | Medium
+10 | File | `/etc/quagga` | Medium
+11 | File | `/forms/doLogin` | High
+12 | File | `/forum/away.php` | High
+13 | File | `/h/calendar` | Medium
+14 | File | `/hrm/employeeview.php` | High
+15 | File | `/include/chart_generator.php` | High
+16 | File | `/index.php` | Medium
+17 | File | `/lan.asp` | Medium
+18 | File | `/librarian/bookdetails.php` | High
+19 | File | `/members/view_member.php` | High
+20 | File | `/messageboard/view.php` | High
+21 | File | `/nova/bin/detnet` | High
+22 | File | `/out.php` | Medium
 23 | File | `/rom-0` | Low
 24 | File | `/ServletAPI/accounts/login` | High
 25 | File | `/SVFE2/pages/feegroups/country_group.jsf` | High
 26 | File | `/textpattern/index.php` | High
 27 | File | `/trx_addons/v2/get/sc_layout` | High
-28 | File | `/v2/quantum/save-data-upload-big-file` | High
-29 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-30 | File | `/wp-json` | Medium
-31 | File | `4.edu.php` | Medium
-32 | File | `adclick.php` | Medium
-33 | ... | ... | ...
+28 | File | `/upfile.cgi` | Medium
+29 | File | `/wordpress/wp-admin/admin.php` | High
+30 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+31 | File | `/wp-json` | Medium
+32 | File | `account_footer.php` | High
+33 | File | `adclick.php` | Medium
+34 | File | `add_edit_cat.asp` | High
+35 | File | `add_edit_user.asp` | High
+36 | File | `adm.cgi` | Low
+37 | File | `admin.cropcanvas.php` | High
+38 | File | `admin/editusertag.php` | High
+39 | File | `admin/edit_category.php` | High
+40 | File | `admin/index.php` | High
+41 | ... | ... | ...
 
-There are 285 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 353 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

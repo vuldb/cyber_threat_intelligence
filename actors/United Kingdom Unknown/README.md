@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 26 more country items available. Please use our online service to access the data.
+There are 22 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -10089,12 +10089,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-50 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-25 | Pathname Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+6 | T1068 | CWE-264, CWE-269, CWE-274, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 7 | ... | ... | ... | ...
 
 There are 22 more TTP items available. Please use our online service to access the data.
@@ -10105,56 +10105,51 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.github/workflows/comment.yml` | High
-2 | File | `/?ajax-request=jnews` | High
-3 | File | `/?r=recruit/resume/edit&op=status` | High
-4 | File | `/admin/?page=user/list` | High
-5 | File | `/admin/?page=user/manage_user&id=3` | High
-6 | File | `/admin/about-us.php` | High
-7 | File | `/admin/del_category.php` | High
-8 | File | `/admin/del_service.php` | High
-9 | File | `/admin/edit-accepted-appointment.php` | High
-10 | File | `/admin/edit-services.php` | High
-11 | File | `/admin/edit_category.php` | High
-12 | File | `/admin/edit_product.php` | High
-13 | File | `/admin/forgot-password.php` | High
-14 | File | `/admin/index.php` | High
-15 | File | `/admin/invoice.php` | High
-16 | File | `/admin/read.php?mudi=getSignal` | High
-17 | File | `/admin/reg.php` | High
-18 | File | `/admin/search-appointment.php` | High
-19 | File | `/admin/sys_sql_query.php` | High
-20 | File | `/api/baskets/{name}` | High
-21 | File | `/api/v1/snapshots` | High
-22 | File | `/bin/ate` | Medium
-23 | File | `/bin/boa` | Medium
-24 | File | `/blog` | Low
-25 | File | `/booking/show_bookings/` | High
-26 | File | `/category.php` | High
-27 | File | `/cimom` | Low
-28 | File | `/classes/master.php?f=delete_order` | High
-29 | File | `/classes/Master.php?f=save_inquiry` | High
-30 | File | `/classes/Master.php?f=save_service` | High
-31 | File | `/company/store` | High
-32 | File | `/contact/store` | High
-33 | File | `/Controller/Ajaxfileupload.ashx` | High
-34 | File | `/dipam/athlete-profile.php` | High
-35 | File | `/dipam/save-delegates.php` | High
-36 | File | `/download` | Medium
-37 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
-38 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-39 | File | `/en/blog-comment-4` | High
-40 | File | `/env` | Low
-41 | File | `/etc/passwd` | Medium
-42 | File | `/EventBookingCalendar/load.php?controller=GzFront/action=checkout/cid=1/layout=calendar/show_header=T/local=3` | High
-43 | File | `/forum/away.php` | High
-44 | File | `/friends/ajax_invite` | High
-45 | File | `/h/` | Low
-46 | File | `/home/kickPlayer` | High
-47 | File | `/index.php` | Medium
-48 | ... | ... | ...
+1 | File | `/academy/tutor/filter` | High
+2 | File | `/admin/admin_content_tag.php?action=save_content` | High
+3 | File | `/admin/save.php` | High
+4 | File | `/api/download` | High
+5 | File | `/api/runscript` | High
+6 | File | `/api/v1/terminal/sessions/?limit=1` | High
+7 | File | `/app/search/table` | High
+8 | File | `/appliance/users?action=edit` | High
+9 | File | `/book-services.php` | High
+10 | File | `/category.php` | High
+11 | File | `/categorypage.php` | High
+12 | File | `/cgi-bin/vitogate.cgi` | High
+13 | File | `/classes/Master.php?f=save_category` | High
+14 | File | `/collection/all` | High
+15 | File | `/contact.php` | Medium
+16 | File | `/Content/Template/root/reverse-shell.aspx` | High
+17 | File | `/dashboard/add-blog.php` | High
+18 | File | `/debug/pprof` | Medium
+19 | File | `/dev/kmem` | Medium
+20 | File | `/forum/away.php` | High
+21 | File | `/fusion/portal/action/Link` | High
+22 | File | `/general/ipanel/menu_code.php?MENU_TYPE=FAV` | High
+23 | File | `/HNAP1` | Low
+24 | File | `/importexport.php` | High
+25 | File | `/index.php` | Medium
+26 | File | `/index.php/sysmanage/Login/login_auth/` | High
+27 | File | `/install/index.php` | High
+28 | File | `/jeecg-boot/jmreport/show` | High
+29 | File | `/jeecg-boot/jmreport/upload` | High
+30 | File | `/jeecg-boot/sys/common/upload` | High
+31 | File | `/librarian/bookdetails.php` | High
+32 | File | `/mail.php` | Medium
+33 | File | `/out.php` | Medium
+34 | File | `/patient/appointment.php` | High
+35 | File | `/pf/idprofile.ping` | High
+36 | File | `/RPS2019Service/status.html` | High
+37 | File | `/search` | Low
+38 | File | `/spip.php` | Medium
+39 | File | `/sys/dict/loadTreeData` | High
+40 | File | `/SysManage/AddUpdateRole.aspx` | High
+41 | File | `/sysmanage/changelogo.php` | High
+42 | File | `/sysmanage/licence.php` | High
+43 | ... | ... | ...
 
-There are 415 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 371 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

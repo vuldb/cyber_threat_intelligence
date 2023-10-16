@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 22 more country items available. Please use our online service to access the data.
+There are 21 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -97,29 +97,28 @@ ID | Type | Indicator | Confidence
 21 | File | `/ebics-server/ebics.aspx` | High
 22 | File | `/ffos/classes/Master.php?f=save_category` | High
 23 | File | `/forum/away.php` | High
-24 | File | `/goforms/rlminfo` | High
-25 | File | `/HNAP1` | Low
-26 | File | `/HNAP1/SetClientInfo` | High
-27 | File | `/Items/*/RemoteImages/Download` | High
-28 | File | `/management/api/rcx_management/global_config_query` | High
-29 | File | `/menu.html` | Medium
-30 | File | `/modules/profile/index.php` | High
-31 | File | `/navigate/navigate_download.php` | High
-32 | File | `/ocwbs/admin/?page=user/manage_user` | High
-33 | File | `/ofrs/admin/?page=user/manage_user` | High
-34 | File | `/out.php` | Medium
-35 | File | `/password.html` | High
-36 | File | `/php_action/fetchSelectedUser.php` | High
-37 | File | `/property-list/property_view.php` | High
-38 | File | `/ptms/classes/Users.php` | High
-39 | File | `/resources//../` | High
-40 | File | `/rest/api/2/search` | High
-41 | File | `/s/` | Low
-42 | File | `/scripts/cpan_config` | High
-43 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-44 | ... | ... | ...
+24 | File | `/goform/net\_Web\_get_value` | High
+25 | File | `/goforms/rlminfo` | High
+26 | File | `/GponForm/usb_restore_Form?script/` | High
+27 | File | `/HNAP1` | Low
+28 | File | `/HNAP1/SetClientInfo` | High
+29 | File | `/Items/*/RemoteImages/Download` | High
+30 | File | `/management/api/rcx_management/global_config_query` | High
+31 | File | `/menu.html` | Medium
+32 | File | `/modules/profile/index.php` | High
+33 | File | `/navigate/navigate_download.php` | High
+34 | File | `/ocwbs/admin/?page=user/manage_user` | High
+35 | File | `/ofrs/admin/?page=user/manage_user` | High
+36 | File | `/out.php` | Medium
+37 | File | `/password.html` | High
+38 | File | `/php_action/fetchSelectedUser.php` | High
+39 | File | `/property-list/property_view.php` | High
+40 | File | `/ptms/classes/Users.php` | High
+41 | File | `/resources//../` | High
+42 | File | `/rest/api/2/search` | High
+43 | ... | ... | ...
 
-There are 376 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 375 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

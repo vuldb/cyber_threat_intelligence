@@ -47,7 +47,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 12 more TTP items available. Please use our online service to access the data.
+There are 13 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -70,16 +70,17 @@ ID | Type | Indicator | Confidence
 13 | File | `/blog-single.php` | High
 14 | File | `/cgi-bin/adm.cgi` | High
 15 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
-16 | File | `/classes/Master.php?f=save_inquiry` | High
-17 | File | `/Duty/AjaxHandle/UpLoadFloodPlanFile.ashx` | High
-18 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
-19 | File | `/home/cavesConsole` | High
-20 | File | `/index.php` | Medium
-21 | File | `/listplace/user/ticket/create` | High
-22 | File | `/load.php` | Medium
-23 | ... | ... | ...
+16 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+17 | File | `/classes/Master.php?f=save_inquiry` | High
+18 | File | `/collection/all` | High
+19 | File | `/Duty/AjaxHandle/UpLoadFloodPlanFile.ashx` | High
+20 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
+21 | File | `/home/cavesConsole` | High
+22 | File | `/index.php` | Medium
+23 | File | `/listplace/user/ticket/create` | High
+24 | ... | ... | ...
 
-There are 191 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 201 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

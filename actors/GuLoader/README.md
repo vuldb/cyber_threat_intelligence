@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with GuLoader:
 
 * [US](https://vuldb.com/?country.us)
-* [CN](https://vuldb.com/?country.cn)
 * [RU](https://vuldb.com/?country.ru)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 5 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -22,11 +22,11 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [5.2.75.164](https://vuldb.com/?ip.5.2.75.164) | - | - | High
-2 | [37.0.8.96](https://vuldb.com/?ip.37.0.8.96) | - | - | High
-3 | [64.44.168.209](https://vuldb.com/?ip.64.44.168.209) | 209-168-44-64-.reverse-dns | - | High
+2 | [5.8.8.100](https://vuldb.com/?ip.5.8.8.100) | - | - | High
+3 | [37.0.8.96](https://vuldb.com/?ip.37.0.8.96) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 7 more IOC items available. Please use our online service to access the data.
+There are 12 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -37,9 +37,10 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-94 | Cross Site Scripting | High
-4 | ... | ... | ... | ...
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 12 more TTP items available. Please use our online service to access the data.
+There are 15 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -47,21 +48,27 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/dashboard/add-portfolio.php` | High
-2 | File | `/forum/away.php` | High
-3 | File | `/ghost/preview` | High
-4 | File | `/jerry-core/ecma/base/ecma-helpers-conversion.c` | High
-5 | File | `/login` | Low
-6 | File | `/opt/IBM/es/lib/libffq.cryptionjni.so` | High
-7 | File | `/opt/vyatta/share/vyatta-cfg/templates/system/static-host-mapping/host-name/node.def` | High
-8 | File | `/sdm-ws-rest/preconfiguration` | High
-9 | File | `/settings` | Medium
-10 | File | `/uapi/doc` | Medium
-11 | File | `/uncpath/` | Medium
-12 | File | `/updownload/t.report` | High
-13 | ... | ... | ...
+1 | File | `.htaccess` | Medium
+2 | File | `/admin/ajax.php?action=save_window` | High
+3 | File | `/admin/index2.html` | High
+4 | File | `/connectors/index.php` | High
+5 | File | `/dashboard/add-portfolio.php` | High
+6 | File | `/forum/away.php` | High
+7 | File | `/ghost/preview` | High
+8 | File | `/jerry-core/ecma/base/ecma-helpers-conversion.c` | High
+9 | File | `/login` | Low
+10 | File | `/opt/IBM/es/lib/libffq.cryptionjni.so` | High
+11 | File | `/opt/vyatta/share/vyatta-cfg/templates/system/static-host-mapping/host-name/node.def` | High
+12 | File | `/sdm-ws-rest/preconfiguration` | High
+13 | File | `/settings` | Medium
+14 | File | `/uapi/doc` | Medium
+15 | File | `/uncpath/` | Medium
+16 | File | `/updownload/t.report` | High
+17 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
+18 | File | `/woocommerce-stock-manager/trunk/admin/views/import-export.php` | High
+19 | ... | ... | ...
 
-There are 102 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 155 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -71,6 +78,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://asec.ahnlab.com/en/36294/
 * https://asec.ahnlab.com/en/36785/
 * https://asec.ahnlab.com/en/38942/
+* https://github.com/sophoslabs/IoCs/blob/master/Troj_GuLoader.csv
 * https://isc.sans.edu/diary/GuLoader+or+DBatLoaderModiLoaderstyle+infection+for+Remcos+RAT/29990
 
 ## Literature

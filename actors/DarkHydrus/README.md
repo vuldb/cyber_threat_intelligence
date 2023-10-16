@@ -56,9 +56,10 @@ ID | Type | Indicator | Confidence
 6 | File | `adclick.php` | Medium
 7 | File | `addentry.php` | Medium
 8 | File | `add_comment.php` | High
-9 | ... | ... | ...
+9 | File | `book.php` | Medium
+10 | ... | ... | ...
 
-There are 67 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 71 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Mikey:
 
 * [IN](https://vuldb.com/?country.in)
-* [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
+* [US](https://vuldb.com/?country.us)
 * ...
 
-There are 5 more country items available. Please use our online service to access the data.
+There are 4 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -53,10 +53,9 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
-6 | ... | ... | ... | ...
+5 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -68,38 +67,36 @@ ID | Type | Indicator | Confidence
 2 | File | `/+CSCOE+/logon.html` | High
 3 | File | `/?ajax-request=jnews` | High
 4 | File | `/Admin/add-student.php` | High
-5 | File | `/admin/blog/blogcategory/add/?_to_field=id&_popup=1` | High
-6 | File | `/admin/categories/manage_category.php` | High
-7 | File | `/admin/edit_product.php` | High
-8 | File | `/admin/maintenance/view_designation.php` | High
-9 | File | `/admin/sales/manage_sale.php` | High
-10 | File | `/api/baskets/{name}` | High
-11 | File | `/aya/module/admin/fst_down.inc.php` | High
-12 | File | `/blog` | Low
-13 | File | `/boat/login.php` | High
-14 | File | `/bsms_ci/index.php/user/edit_user/` | High
-15 | File | `/cas/logout` | Medium
-16 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
+5 | File | `/admin/categories/manage_category.php` | High
+6 | File | `/admin/edit_product.php` | High
+7 | File | `/admin/maintenance/view_designation.php` | High
+8 | File | `/admin/sales/manage_sale.php` | High
+9 | File | `/api/baskets/{name}` | High
+10 | File | `/aya/module/admin/fst_down.inc.php` | High
+11 | File | `/blog` | Low
+12 | File | `/boat/login.php` | High
+13 | File | `/bsms_ci/index.php/user/edit_user/` | High
+14 | File | `/cas/logout` | Medium
+15 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
+16 | File | `/cgi-bin/upload_vpntar` | High
 17 | File | `/cgi-bin/wlogin.cgi` | High
 18 | File | `/CPE` | Low
 19 | File | `/etc/tomcat8/Catalina/attack` | High
 20 | File | `/forum/away.php` | High
 21 | File | `/ghost/preview` | High
-22 | File | `/goform/wizard_end` | High
-23 | File | `/home/search` | Medium
-24 | File | `/ims/login.php` | High
-25 | File | `/mhds/clinic/view_details.php` | High
-26 | File | `/modules/profile/index.php` | High
-27 | File | `/out.php` | Medium
-28 | File | `/php-opos/index.php` | High
-29 | File | `/reviewer_0/admins/assessments/pretest/questions-view.php` | High
-30 | File | `/shell` | Low
-31 | File | `/tourism/rate_review.php` | High
-32 | File | `/uncpath/` | Medium
-33 | File | `/vdesk` | Low
-34 | ... | ... | ...
+22 | File | `/home/search` | Medium
+23 | File | `/ims/login.php` | High
+24 | File | `/modules/profile/index.php` | High
+25 | File | `/out.php` | Medium
+26 | File | `/php-opos/index.php` | High
+27 | File | `/reviewer_0/admins/assessments/pretest/questions-view.php` | High
+28 | File | `/shell` | Low
+29 | File | `/tourism/rate_review.php` | High
+30 | File | `/uncpath/` | Medium
+31 | File | `/vdesk` | Low
+32 | ... | ... | ...
 
-There are 292 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 276 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -48,20 +48,20 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/forum/away.php` | High
-2 | File | `/index.php` | Medium
-3 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-4 | File | `adclick.php` | Medium
-5 | File | `addtocart.asp` | High
-6 | File | `admin/adm/test.php` | High
-7 | File | `agora.cgi` | Medium
-8 | File | `books.php` | Medium
-9 | File | `cat.asp` | Low
-10 | File | `catalog.php` | Medium
-11 | File | `categories.php` | High
-12 | File | `config.php` | Medium
+2 | File | `/importexport.php` | High
+3 | File | `/index.php` | Medium
+4 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+5 | File | `adclick.php` | Medium
+6 | File | `addtocart.asp` | High
+7 | File | `admin/adm/test.php` | High
+8 | File | `agora.cgi` | Medium
+9 | File | `books.php` | Medium
+10 | File | `cat.asp` | Low
+11 | File | `catalog.php` | Medium
+12 | File | `categories.php` | High
 13 | ... | ... | ...
 
-There are 99 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 101 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

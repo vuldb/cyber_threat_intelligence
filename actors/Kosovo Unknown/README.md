@@ -62,27 +62,32 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/accounts/password_change/` | High
-2 | File | `/admin/index.php` | High
-3 | File | `/aqpg/users/login.php` | High
-4 | File | `/card/in-card.php` | High
-5 | File | `/config.cgi?webmin` | High
-6 | File | `/configs/application.ini` | High
-7 | File | `/dishes.php` | Medium
-8 | File | `/DXR.axd` | Medium
-9 | File | `/fax/fax_send.php` | High
-10 | File | `/mobile/downloadfile.aspx` | High
-11 | File | `/rom-0` | Low
-12 | File | `/sendrcpackage?keyid=-2544&keysymbol=-4081` | High
-13 | File | `/siteminderagent/pwcgi/smpwservicescgi.exe` | High
-14 | File | `/Status/wan_button_action.asp` | High
-15 | File | `/uapi/doc` | Medium
-16 | File | `/uncpath/` | Medium
-17 | File | `/Upload.ashx` | Medium
-18 | File | `/WEB-INF/web.xml` | High
-19 | File | `/webclient/index.html#/directory-search` | High
-20 | ... | ... | ...
+2 | File | `/admin/assign/assign.php` | High
+3 | File | `/admin/casedetails.php` | High
+4 | File | `/admin/featured.php` | High
+5 | File | `/admin/index.php` | High
+6 | File | `/aqpg/users/login.php` | High
+7 | File | `/card/in-card.php` | High
+8 | File | `/config.cgi?webmin` | High
+9 | File | `/configs/application.ini` | High
+10 | File | `/dishes.php` | Medium
+11 | File | `/DXR.axd` | Medium
+12 | File | `/fax/fax_send.php` | High
+13 | File | `/mobile/downloadfile.aspx` | High
+14 | File | `/pages/animals.php` | High
+15 | File | `/products/view_product.php` | High
+16 | File | `/psrs/admin/categories/manage_category.php` | High
+17 | File | `/rom-0` | Low
+18 | File | `/sendrcpackage?keyid=-2544&keysymbol=-4081` | High
+19 | File | `/show_news.php` | High
+20 | File | `/siteminderagent/pwcgi/smpwservicescgi.exe` | High
+21 | File | `/Status/wan_button_action.asp` | High
+22 | File | `/uapi/doc` | Medium
+23 | File | `/uncpath/` | Medium
+24 | File | `/Upload.ashx` | Medium
+25 | ... | ... | ...
 
-There are 167 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 206 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

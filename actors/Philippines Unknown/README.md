@@ -864,7 +864,7 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-35, CWE-36 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -879,23 +879,23 @@ ID | Type | Indicator | Confidence
 1 | File | `//WEB-INF` | Medium
 2 | File | `/about.php` | Medium
 3 | File | `/admin.php/update/getFile.html` | High
-4 | File | `/admin/` | Low
-5 | File | `/admin/cashadvance_row.php` | High
-6 | File | `/admin/inquiries/view_inquiry.php` | High
-7 | File | `/admin/maintenance/view_designation.php` | High
-8 | File | `/admin/report/index.php` | High
-9 | File | `/admin/sys_sql_query.php` | High
-10 | File | `/admin/userprofile.php` | High
-11 | File | `/Application/Admin/Controller/ConfigController.class.php` | High
-12 | File | `/APR/login.php` | High
-13 | File | `/bin/boa` | Medium
-14 | File | `/cgi-bin/wapopen` | High
-15 | File | `/cgi-bin/wlogin.cgi` | High
-16 | File | `/cimom` | Low
-17 | File | `/classes/Master.php?f=delete_service` | High
-18 | File | `/classes/Master.php?f=save_course` | High
-19 | File | `/company/store` | High
-20 | File | `/Controller/Ajaxfileupload.ashx` | High
+4 | File | `/admin/inquiries/view_inquiry.php` | High
+5 | File | `/admin/maintenance/view_designation.php` | High
+6 | File | `/admin/report/index.php` | High
+7 | File | `/admin/sys_sql_query.php` | High
+8 | File | `/api/baskets/{name}` | High
+9 | File | `/Application/Admin/Controller/ConfigController.class.php` | High
+10 | File | `/bin/boa` | Medium
+11 | File | `/bitrix/admin/ldap_server_edit.php` | High
+12 | File | `/cgi-bin/luci/api/wireless` | High
+13 | File | `/cgi-bin/wlogin.cgi` | High
+14 | File | `/cimom` | Low
+15 | File | `/classes/Master.php?f=delete_service` | High
+16 | File | `/classes/Master.php?f=save_course` | High
+17 | File | `/company/store` | High
+18 | File | `/Content/Template/root/reverse-shell.aspx` | High
+19 | File | `/Controller/Ajaxfileupload.ashx` | High
+20 | File | `/core/conditions/AbstractWrapper.java` | High
 21 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
 22 | File | `/E-mobile/App/System/File/downfile.php` | High
 23 | File | `/Electron/download` | High
@@ -907,33 +907,29 @@ ID | Type | Indicator | Confidence
 29 | File | `/inc/topBarNav.php` | High
 30 | File | `/index.php?app=main&func=passport&action=login` | High
 31 | File | `/index.php?page=category_list` | High
-32 | File | `/jobinfo/` | Medium
-33 | File | `/Moosikay/order.php` | High
-34 | File | `/opac/Actions.php?a=login` | High
-35 | File | `/PreviewHandler.ashx` | High
-36 | File | `/proxy` | Low
-37 | File | `/public/launchNewWindow.jsp` | High
+32 | File | `/jeecg-boot/sys/common/upload` | High
+33 | File | `/jobinfo/` | Medium
+34 | File | `/Moosikay/order.php` | High
+35 | File | `/opac/Actions.php?a=login` | High
+36 | File | `/PreviewHandler.ashx` | High
+37 | File | `/proxy` | Low
 38 | File | `/recipe-result` | High
-39 | File | `/reservation/add_message.php` | High
-40 | File | `/reviewer/system/system/admins/manage/users/user-update.php` | High
-41 | File | `/send_order.cgi?parameter=access_detect` | High
-42 | File | `/Service/ImageStationDataService.asmx` | High
-43 | File | `/spip.php` | Medium
-44 | File | `/student/bookdetails.php` | High
-45 | File | `/text/pdf/PdfReader.java` | High
-46 | File | `/uploads/exam_question/` | High
-47 | File | `/user/ticket/create` | High
-48 | File | `/user/updatePwd` | High
-49 | File | `/var/lib/docker/<remapping>` | High
-50 | File | `/wp-admin/admin-ajax.php` | High
-51 | File | `a-forms.php` | Medium
-52 | File | `account/signup.php` | High
-53 | File | `activenews_view.asp` | High
-54 | File | `adclick.php` | Medium
-55 | File | `addentry.php` | Medium
-56 | ... | ... | ...
+39 | File | `/register.do` | Medium
+40 | File | `/reservation/add_message.php` | High
+41 | File | `/reviewer/system/system/admins/manage/users/user-update.php` | High
+42 | File | `/send_order.cgi?parameter=access_detect` | High
+43 | File | `/Service/ImageStationDataService.asmx` | High
+44 | File | `/spip.php` | Medium
+45 | File | `/student/bookdetails.php` | High
+46 | File | `/SystemManage/User/GetGridJson?_search=false&nd=1680855479750&rows=50&page=1&sidx=F_CreatorTime+desc&sord=asc` | High
+47 | File | `/text/pdf/PdfReader.java` | High
+48 | File | `/uploads/exam_question/` | High
+49 | File | `/user/ticket/create` | High
+50 | File | `/UserSelfServiceSettings.jsp` | High
+51 | File | `/var/lib/docker/<remapping>` | High
+52 | ... | ... | ...
 
-There are 492 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 453 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

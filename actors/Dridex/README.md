@@ -227,7 +227,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -257,26 +257,28 @@ ID | Type | Indicator | Confidence
 20 | File | `/cgi-bin` | Medium
 21 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
 22 | File | `/cgi-bin/wlogin.cgi` | High
-23 | File | `/context/%2e/WEB-INF/web.xml` | High
-24 | File | `/debug/pprof` | Medium
-25 | File | `/env` | Low
-26 | File | `/etc/hosts` | Medium
-27 | File | `/eval/admin/manage_class.php` | High
-28 | File | `/forum/away.php` | High
-29 | File | `/group1/uploa` | High
-30 | File | `/medicines/profile.php` | High
-31 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-32 | File | `/php-sms/admin/?page=user/manage_user` | High
-33 | File | `/proxy` | Low
-34 | File | `/reservation/add_message.php` | High
-35 | File | `/resources//../` | High
-36 | File | `/spip.php` | Medium
-37 | File | `/system/user/modules/mod_users/controller.php` | High
-38 | File | `/tmp` | Low
-39 | File | `/user/updatePwd` | High
-40 | ... | ... | ...
+23 | File | `/Content/Template/root/reverse-shell.aspx` | High
+24 | File | `/dashboard/add-blog.php` | High
+25 | File | `/debug/pprof` | Medium
+26 | File | `/env` | Low
+27 | File | `/etc/hosts` | Medium
+28 | File | `/eval/admin/manage_class.php` | High
+29 | File | `/forum/away.php` | High
+30 | File | `/group1/uploa` | High
+31 | File | `/home/cavesConsole` | High
+32 | File | `/medicines/profile.php` | High
+33 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+34 | File | `/php-sms/admin/?page=user/manage_user` | High
+35 | File | `/proxy` | Low
+36 | File | `/reservation/add_message.php` | High
+37 | File | `/resources//../` | High
+38 | File | `/scripts/unlock_tasks.php` | High
+39 | File | `/spip.php` | Medium
+40 | File | `/system/user/modules/mod_users/controller.php` | High
+41 | File | `/tmp` | Low
+42 | ... | ... | ...
 
-There are 340 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 358 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -46,7 +46,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-425 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94 | Cross Site Scripting | High
@@ -67,33 +67,34 @@ ID | Type | Indicator | Confidence
 4 | File | `/admin/video/list` | High
 5 | File | `/adminlogin.asp` | High
 6 | File | `/cgi-bin/supervisor/CloudSetup.cgi` | High
-7 | File | `/dl/dl_sendmail.php` | High
-8 | File | `/drivers/net/ethernet/broadcom/tg3.c` | High
-9 | File | `/etc/passwd` | Medium
-10 | File | `/etc/qci/answers` | High
-11 | File | `/forms/nslookupHandler` | High
-12 | File | `/forum/away.php` | High
-13 | File | `/function/booksave.php` | High
-14 | File | `/goform/form2userconfig.cgi` | High
-15 | File | `/gracemedia-media-player/templates/files/ajax_controller.php` | High
-16 | File | `/inc/campaign/campaign-delete.php` | High
-17 | File | `/search.php` | Medium
-18 | File | `/sgmi/` | Low
-19 | File | `/tmp` | Low
-20 | File | `/uncpath/` | Medium
-21 | File | `/usr/lib/print/conv_fix` | High
-22 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-23 | File | `adclick.php` | Medium
-24 | File | `add_comment.php` | High
-25 | File | `admin.php` | Medium
-26 | File | `admin.php?page=languages` | High
-27 | File | `admin/controllers/Albumsgalleries.php` | High
-28 | File | `admin/plugin.php` | High
-29 | File | `admin\addgroup.php` | High
-30 | File | `agents.php` | Medium
-31 | ... | ... | ...
+7 | File | `/collection/all` | High
+8 | File | `/config/php.ini` | High
+9 | File | `/dl/dl_sendmail.php` | High
+10 | File | `/drivers/net/ethernet/broadcom/tg3.c` | High
+11 | File | `/etc/passwd` | Medium
+12 | File | `/etc/qci/answers` | High
+13 | File | `/forms/nslookupHandler` | High
+14 | File | `/forum/away.php` | High
+15 | File | `/function/booksave.php` | High
+16 | File | `/goform/form2userconfig.cgi` | High
+17 | File | `/gracemedia-media-player/templates/files/ajax_controller.php` | High
+18 | File | `/inc/campaign/campaign-delete.php` | High
+19 | File | `/search.php` | Medium
+20 | File | `/sgmi/` | Low
+21 | File | `/tmp` | Low
+22 | File | `/uncpath/` | Medium
+23 | File | `/usr/lib/print/conv_fix` | High
+24 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+25 | File | `adclick.php` | Medium
+26 | File | `add.php` | Low
+27 | File | `add_comment.php` | High
+28 | File | `admin.php` | Medium
+29 | File | `admin.php?page=languages` | High
+30 | File | `admin/controllers/Albumsgalleries.php` | High
+31 | File | `admin/plugin.php` | High
+32 | ... | ... | ...
 
-There are 266 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 271 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

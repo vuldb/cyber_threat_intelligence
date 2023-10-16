@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Bandook:
 
 * [US](https://vuldb.com/?country.us)
+* [SC](https://vuldb.com/?country.sc)
 * [RU](https://vuldb.com/?country.ru)
-* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 3 more country items available. Please use our online service to access the data.
+There are 17 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -21,14 +21,16 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [41.41.255.235](https://vuldb.com/?ip.41.41.255.235) | host-41.41.255.235.tedata.net | - | High
-2 | [45.142.213.108](https://vuldb.com/?ip.45.142.213.108) | lv-ira.client | - | High
-3 | [45.142.214.31](https://vuldb.com/?ip.45.142.214.31) | vm341765.pq.hosting | - | High
-4 | [58.235.189.192](https://vuldb.com/?ip.58.235.189.192) | - | - | High
-5 | [88.198.122.116](https://vuldb.com/?ip.88.198.122.116) | static.88-198-122-116.clients.your-server.de | - | High
-6 | ... | ... | ... | ...
+1 | [5.34.182.29](https://vuldb.com/?ip.5.34.182.29) | m.ashori | - | High
+2 | [41.41.255.235](https://vuldb.com/?ip.41.41.255.235) | host-41.41.255.235.tedata.net | - | High
+3 | [45.142.213.108](https://vuldb.com/?ip.45.142.213.108) | lv-ira.client | - | High
+4 | [45.142.214.31](https://vuldb.com/?ip.45.142.214.31) | vm341765.pq.hosting | - | High
+5 | [58.235.189.192](https://vuldb.com/?ip.58.235.189.192) | - | - | High
+6 | [80.233.134.242](https://vuldb.com/?ip.80.233.134.242) | - | - | High
+7 | [83.97.20.153](https://vuldb.com/?ip.83.97.20.153) | 153.20.97.83.ro.ovo.sc | - | High
+8 | ... | ... | ... | ...
 
-There are 21 more IOC items available. Please use our online service to access the data.
+There are 29 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -36,13 +38,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-22, CWE-23, CWE-24 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+6 | ... | ... | ... | ...
 
-There are 15 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -50,25 +53,43 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/cgi-bin/kerbynet` | High
-2 | File | `/cgi-bin/supervisor/CloudSetup.cgi` | High
-3 | File | `/cgi-bin/wlogin.cgi` | High
-4 | File | `/domain/add` | Medium
-5 | File | `/etc/sudoers` | Medium
-6 | File | `/index.php/weblinks-categories` | High
-7 | File | `/plain` | Low
-8 | File | `/show_group_members.php` | High
-9 | File | `/SysInfo.htm` | Medium
-10 | File | `/web/google_analytics.php` | High
-11 | File | `album_portal.php` | High
-12 | File | `al_initialize.php` | High
-13 | File | `archive_endian.h` | High
-14 | File | `avahi-core/socket.c` | High
-15 | File | `bmp.c` | Low
-16 | File | `cgi-bin/jc.cgi` | High
-17 | ... | ... | ...
+1 | File | `/.vnc/sesman_${username}_passwd` | High
+2 | File | `/adfs/ls` | Medium
+3 | File | `/admin/sysmon.php` | High
+4 | File | `/api/content/posts/comments` | High
+5 | File | `/asms/classes/Master.php?f=delete_transaction` | High
+6 | File | `/bin/posix/src/ports/POSIX/OpENer` | High
+7 | File | `/cgi-bin/editBookmark` | High
+8 | File | `/cgi-bin/kerbynet` | High
+9 | File | `/cgi-bin/supervisor/CloudSetup.cgi` | High
+10 | File | `/cgi-bin/wlogin.cgi` | High
+11 | File | `/cimom` | Low
+12 | File | `/debug/pprof` | Medium
+13 | File | `/domain/add` | Medium
+14 | File | `/etc/pki/pesign` | High
+15 | File | `/etc/sudoers` | Medium
+16 | File | `/goform/addressNat` | High
+17 | File | `/goform/aspForm` | High
+18 | File | `/group1/uploa` | High
+19 | File | `/Home/GetAttachment` | High
+20 | File | `/include/menu_v.inc.php` | High
+21 | File | `/index.php/weblinks-categories` | High
+22 | File | `/librarian/lab.php` | High
+23 | File | `/modules/projects/vw_files.php` | High
+24 | File | `/omos/admin/?page=user/list` | High
+25 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+26 | File | `/out.php` | Medium
+27 | File | `/panel/fields/add` | High
+28 | File | `/patient/settings.php` | High
+29 | File | `/plain` | Low
+30 | File | `/proc/*/cmdline"` | High
+31 | File | `/proc/pid/syscall` | High
+32 | File | `/sbin/acos_service` | High
+33 | File | `/show_group_members.php` | High
+34 | File | `/SysInfo.htm` | Medium
+35 | ... | ... | ...
 
-There are 138 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 302 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -76,6 +97,7 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://blog.talosintelligence.com/2022/09/threat-roundup-0826-0902.html
 * https://github.com/eset/malware-ioc/tree/master/bandook
+* https://threatfox.abuse.ch
 
 ## Literature
 

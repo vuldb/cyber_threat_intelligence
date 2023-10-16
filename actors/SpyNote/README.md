@@ -14,12 +14,12 @@ The following _campaigns_ are known and can be associated with SpyNote:
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with SpyNote:
 
-* [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
-* [PT](https://vuldb.com/?country.pt)
+* [CN](https://vuldb.com/?country.cn)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 1 more country items available. Please use our online service to access the data.
+There are 5 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -27,8 +27,13 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [154.211.96.78](https://vuldb.com/?ip.154.211.96.78) | - | Financial Institutions | High
-2 | [159.203.126.35](https://vuldb.com/?ip.159.203.126.35) | us-east-65319.packetriot.net | Financial Institutions | High
+1 | [8.219.143.100](https://vuldb.com/?ip.8.219.143.100) | - | - | High
+2 | [37.120.141.140](https://vuldb.com/?ip.37.120.141.140) | - | - | High
+3 | [37.120.141.144](https://vuldb.com/?ip.37.120.141.144) | - | - | High
+4 | [104.225.158.203](https://vuldb.com/?ip.104.225.158.203) | 104.225.158.203.16clouds.com | - | High
+5 | ... | ... | ... | ...
+
+There are 14 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -36,12 +41,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059 | CWE-94 | Cross Site Scripting | High
-2 | T1059.007 | CWE-79 | Cross Site Scripting | High
-3 | T1068 | CWE-264 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+1 | T1006 | CWE-22 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 3 more TTP items available. Please use our online service to access the data.
+There are 9 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -49,18 +54,25 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/uncpath/` | Medium
-2 | File | `inc/config.php` | High
-3 | File | `protocol.c` | Medium
-4 | ... | ... | ...
+1 | File | `/nova/bin/detnet` | High
+2 | File | `/secure/QueryComponent!Default.jspa` | High
+3 | File | `/uncpath/` | Medium
+4 | File | `/WEB-INF/web.xml` | High
+5 | ... | ... | ...
 
-There are 5 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 29 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://threatfox.abuse.ch
+* https://tracker.viriback.com/index.php?q=104.225.158.203.16clouds.com
+* https://tracker.viriback.com/index.php?q=104.233.210.35
+* https://twitter.com/ReBensk/status/1696207430030393749
+* https://www.cleafy.com/cleafy-labs/spynote-continues-to-attack-financial-institutions
 * https://www.threatfabric.com/blogs/spynote-rat-targeting-financial-institutions.html
+* https://www.virustotal.com/gui/file/179eaaba880bb5b8371e2826aef9975f8f94df75f3d384fe581b0a296b943094/behavior
 
 ## Literature
 

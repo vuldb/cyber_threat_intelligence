@@ -8,9 +8,9 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Muddled Libra:
 
-* [SC](https://vuldb.com/?country.sc)
+* [RO](https://vuldb.com/?country.ro)
 * [US](https://vuldb.com/?country.us)
-* [RU](https://vuldb.com/?country.ru)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
 There are 10 more country items available. Please use our online service to access the data.
@@ -21,14 +21,31 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [35.175.153.217](https://vuldb.com/?ip.35.175.153.217) | ec2-35-175-153-217.compute-1.amazonaws.com | - | Medium
-2 | [45.32.221.250](https://vuldb.com/?ip.45.32.221.250) | 45.32.221.250.vultrusercontent.com | - | High
-3 | [45.156.85.140](https://vuldb.com/?ip.45.156.85.140) | - | - | High
-4 | [64.227.30.114](https://vuldb.com/?ip.64.227.30.114) | - | - | High
-5 | [79.137.196.160](https://vuldb.com/?ip.79.137.196.160) | moonlit-NL.aeza.network | - | High
-6 | ... | ... | ... | ...
+1 | [5.182.37.59](https://vuldb.com/?ip.5.182.37.59) | vm1037797.stark-industries.solutions | - | High
+2 | [23.106.248.251](https://vuldb.com/?ip.23.106.248.251) | - | - | High
+3 | [31.222.238.70](https://vuldb.com/?ip.31.222.238.70) | peter1990adams.example.com | - | High
+4 | [35.175.153.217](https://vuldb.com/?ip.35.175.153.217) | ec2-35-175-153-217.compute-1.amazonaws.com | - | Medium
+5 | [37.19.200.142](https://vuldb.com/?ip.37.19.200.142) | unn-37-19-200-142.datapacket.com | - | High
+6 | [37.19.200.151](https://vuldb.com/?ip.37.19.200.151) | unn-37-19-200-151.datapacket.com | - | High
+7 | [37.19.200.155](https://vuldb.com/?ip.37.19.200.155) | unn-37-19-200-155.datapacket.com | - | High
+8 | [45.32.221.250](https://vuldb.com/?ip.45.32.221.250) | 45.32.221.250.vultrusercontent.com | - | High
+9 | [45.86.200.81](https://vuldb.com/?ip.45.86.200.81) | - | - | High
+10 | [45.91.21.61](https://vuldb.com/?ip.45.91.21.61) | - | - | High
+11 | [45.132.227.211](https://vuldb.com/?ip.45.132.227.211) | - | - | High
+12 | [45.132.227.213](https://vuldb.com/?ip.45.132.227.213) | - | - | High
+13 | [45.134.140.171](https://vuldb.com/?ip.45.134.140.171) | unn-45-134-140-171.datapacket.com | - | High
+14 | [45.134.140.177](https://vuldb.com/?ip.45.134.140.177) | unn-45-134-140-177.datapacket.com | - | High
+15 | [45.156.85.140](https://vuldb.com/?ip.45.156.85.140) | - | - | High
+16 | [51.89.138.221](https://vuldb.com/?ip.51.89.138.221) | vps-9d9720f6.vps.ovh.net | - | High
+17 | [51.210.161.12](https://vuldb.com/?ip.51.210.161.12) | ip12.ip-51-210-161.eu | - | High
+18 | [62.182.98.170](https://vuldb.com/?ip.62.182.98.170) | - | - | High
+19 | [64.190.113.28](https://vuldb.com/?ip.64.190.113.28) | - | - | High
+20 | [64.227.30.114](https://vuldb.com/?ip.64.227.30.114) | - | - | High
+21 | [67.43.235.122](https://vuldb.com/?ip.67.43.235.122) | mail.pnoc.com.ph | - | High
+22 | [68.235.43.20](https://vuldb.com/?ip.68.235.43.20) | - | - | High
+23 | ... | ... | ... | ...
 
-There are 22 more IOC items available. Please use our online service to access the data.
+There are 87 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -36,12 +53,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-40 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+6 | T1068 | CWE-264, CWE-266, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+7 | ... | ... | ... | ...
 
 There are 22 more TTP items available. Please use our online service to access the data.
 
@@ -51,48 +69,73 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/about.php` | Medium
-3 | File | `/admin` | Low
-4 | File | `/admin/admapi.php` | High
-5 | File | `/admin/index2.html` | High
-6 | File | `/admin/sign/out` | High
-7 | File | `/admin/ztliuyan_sendmail.php` | High
-8 | File | `/api/baskets/{name}` | High
-9 | File | `/app1/admin#foo` | High
-10 | File | `/category.php` | High
-11 | File | `/CCMAdmin/serverlist.asp` | High
-12 | File | `/cgi-bin/editBookmark` | High
-13 | File | `/Core/Ap4Utils.h` | High
-14 | File | `/ctpms/classes/Master.php?f=delete_application` | High
-15 | File | `/downloadmaster/dm_apply.cgi?action_mode=initial&download_type=General&special_cgi=get_language` | High
-16 | File | `/etc/passwd` | Medium
-17 | File | `/forum/away.php` | High
-18 | File | `/goform/aspForm` | High
-19 | File | `/goform/L7Im` | Medium
-20 | File | `/goform/RgDdns` | High
-21 | File | `/goform/RgDhcp` | High
-22 | File | `/goform/RGFirewallEL` | High
-23 | File | `/goform/RgTime` | High
-24 | File | `/goform/RgUrlBlock.asp` | High
-25 | File | `/goform/wlanPrimaryNetwork` | High
-26 | File | `/gofrom/setwanType` | High
-27 | File | `/hdf5/src/H5T.c` | High
-28 | File | `/horde/imp/search.php` | High
-29 | File | `/index.php` | Medium
-30 | File | `/installer/upgrade_start` | High
-31 | File | `/lan.asp` | Medium
-32 | File | `/login/index.php` | High
-33 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
-34 | ... | ... | ...
+1 | File | `//` | Low
+2 | File | `/action/import_wireguard_cert_file/` | High
+3 | File | `/admin/ajax.php` | High
+4 | File | `/admin/bookings/view_booking.php` | High
+5 | File | `/admin/index/index.html#/admin/mall.goods/index.html` | High
+6 | File | `/admin/problem_judge.php` | High
+7 | File | `/admin/service_requests/manage_inventory.php` | High
+8 | File | `/api/v1/attack` | High
+9 | File | `/api/v1/bait/set` | High
+10 | File | `/app/options.py` | High
+11 | File | `/appinfo/save` | High
+12 | File | `/buspassms/download-pass.php` | High
+13 | File | `/cgi-bin/kerbynet` | High
+14 | File | `/cgi-bin/login.cgi` | High
+15 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
+16 | File | `/classes/Master.php?f=delete_appointment` | High
+17 | File | `/config/getuser` | High
+18 | File | `/contact/store` | High
+19 | File | `/dashboard/settings` | High
+20 | File | `/debian/patches/load_ppp_generic_if_needed` | High
+21 | File | `/Default/Bd` | Medium
+22 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
+23 | File | `/FormLogin` | Medium
+24 | File | `/forum/away.php` | High
+25 | File | `/friends` | Medium
+26 | File | `/getcfg.php` | Medium
+27 | File | `/gfxpoly/stroke.c` | High
+28 | File | `/goform/form2Wan.cgi` | High
+29 | File | `/guest/s/default/` | High
+30 | File | `/h/compose` | Medium
+31 | File | `/index.php?module=entities/listing_types&entities_id=24` | High
+32 | File | `/index/jobfairol/show/` | High
+33 | File | `/leave_system/classes/Master.php?f=delete_department` | High
+34 | File | `/leave_system/classes/Users.php?f=save` | High
+35 | File | `/messageboard/view.php` | High
+36 | File | `/mgmt/tm/util/bash` | High
+37 | File | `/mhds/clinic/view_details.php` | High
+38 | File | `/modules/projects/vw_files.php` | High
+39 | File | `/MTFWU` | Low
+40 | File | `/nova/bin/console` | High
+41 | File | `/ofrs/admin/?page=teams/manage_team` | High
+42 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+43 | File | `/panel/fields/add` | High
+44 | File | `/patient/settings.php` | High
+45 | File | `/REBOOTSYSTEM` | High
+46 | File | `/reports/rwservlet` | High
+47 | File | `/sbin/acos_service` | High
+48 | File | `/school/model/get_teacher.php` | High
+49 | File | `/scripts/unlock_tasks.php` | High
+50 | File | `/servlet/webacc` | High
+51 | File | `/simple_chat_bot/admin/?page=responses/view_response` | High
+52 | File | `/textpattern/index.php` | High
+53 | File | `/uncpath/` | Medium
+54 | File | `/usr/bin/at` | Medium
+55 | File | `/usr/bin/pkexec` | High
+56 | File | `/var/lib/dpkg/info/` | High
+57 | File | `/var/log/demisto/` | High
+58 | ... | ... | ...
 
-There are 288 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 505 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://unit42.paloaltonetworks.com/muddled-libra/
+* https://www.trellix.com/en-us/about/newsroom/stories/research/scattered-spider-the-modus-operandi.html
 
 ## Literature
 

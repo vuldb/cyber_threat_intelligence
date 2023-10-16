@@ -72,16 +72,16 @@ ID | Type | Indicator | Confidence
 5 | File | `/admin/?page=user/manage` | High
 6 | File | `/admin/add-new.php` | High
 7 | File | `/admin/api/theme-edit/` | High
-8 | File | `/admin/attendance_row.php` | High
-9 | File | `/admin/cashadvance_row.php` | High
-10 | File | `/admin/deduction_row.php` | High
-11 | File | `/admin/doctors.php` | High
-12 | File | `/admin/employee_row.php` | High
-13 | File | `/admin/login.php` | High
-14 | File | `/admin/maintenance/brand.php` | High
-15 | File | `/admin/maintenance/view_designation.php` | High
-16 | File | `/admin/read.php?mudi=getSignal` | High
-17 | File | `/admin/submit-articles` | High
+8 | File | `/admin/article/article-edit-run.php` | High
+9 | File | `/admin/attendance_row.php` | High
+10 | File | `/admin/cashadvance_row.php` | High
+11 | File | `/admin/deduction_row.php` | High
+12 | File | `/admin/doctors.php` | High
+13 | File | `/admin/employee_row.php` | High
+14 | File | `/admin/login.php` | High
+15 | File | `/admin/maintenance/brand.php` | High
+16 | File | `/admin/maintenance/view_designation.php` | High
+17 | File | `/admin/read.php?mudi=getSignal` | High
 18 | File | `/ajax.php?action=read_msg` | High
 19 | File | `/alphaware/summary.php` | High
 20 | File | `/api/` | Low
@@ -99,33 +99,34 @@ ID | Type | Indicator | Confidence
 32 | File | `/boat/login.php` | High
 33 | File | `/booking/show_bookings/` | High
 34 | File | `/browse` | Low
-35 | File | `/bsms_ci/index.php` | High
-36 | File | `/bsms_ci/index.php/book` | High
-37 | File | `/cgi-bin` | Medium
-38 | File | `/cgi-bin/wlogin.cgi` | High
-39 | File | `/chaincity/user/ticket/create` | High
-40 | File | `/classes/Master.php?f=delete_category` | High
-41 | File | `/classes/Master.php?f=delete_sub_category` | High
-42 | File | `/classes/Users.php?f=save` | High
+35 | File | `/bsms_ci/index.php/book` | High
+36 | File | `/cgi-bin` | Medium
+37 | File | `/cgi-bin/wlogin.cgi` | High
+38 | File | `/chaincity/user/ticket/create` | High
+39 | File | `/classes/Master.php?f=delete_category` | High
+40 | File | `/classes/Master.php?f=delete_sub_category` | High
+41 | File | `/classes/Users.php?f=save` | High
+42 | File | `/collection/all` | High
 43 | File | `/common/info.cgi` | High
 44 | File | `/company/store` | High
 45 | File | `/Content/Template/root/reverse-shell.aspx` | High
-46 | File | `/debug/pprof` | Medium
-47 | File | `/env` | Low
-48 | File | `/etc/hosts` | Medium
-49 | File | `/etc/pki/pesign` | High
-50 | File | `/forum/away.php` | High
-51 | File | `/front/roomtype-details.php` | High
-52 | File | `/group1/uploa` | High
-53 | File | `/index.php` | Medium
-54 | File | `/index.php/client/message/message_read/xxxxxxxx[random-msg-hash]` | High
-55 | File | `/index.php/payment/getcoinaddress` | High
-56 | File | `/librarian/bookdetails.php` | High
-57 | File | `/listplace/user/coverPhotoUpdate` | High
-58 | File | `/Log/Query?appid=0B736354-9473-4D66-B9C0-15CAC149EB05&tabid=tab_0B73635494734D66B9C015CAC149EB05` | High
-59 | ... | ... | ...
+46 | File | `/dashboard/add-blog.php` | High
+47 | File | `/debug/pprof` | Medium
+48 | File | `/env` | Low
+49 | File | `/etc/hosts` | Medium
+50 | File | `/etc/pki/pesign` | High
+51 | File | `/forum/away.php` | High
+52 | File | `/front/roomtype-details.php` | High
+53 | File | `/fusion/portal/action/Link` | High
+54 | File | `/group1/uploa` | High
+55 | File | `/index.php` | Medium
+56 | File | `/index.php/client/message/message_read/xxxxxxxx[random-msg-hash]` | High
+57 | File | `/index.php/payment/getcoinaddress` | High
+58 | File | `/librarian/bookdetails.php` | High
+59 | File | `/listplace/user/coverPhotoUpdate` | High
+60 | ... | ... | ...
 
-There are 511 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 520 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

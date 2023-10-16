@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [VN](https://vuldb.com/?country.vn)
 * ...
 
-There are 21 more country items available. Please use our online service to access the data.
+There are 22 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -106,15 +106,18 @@ ID | Type | Indicator | Confidence
 47 | File | `adminer.php` | Medium
 48 | File | `administrator/components/com_media/helpers/media.php` | High
 49 | File | `admin_ok.asp` | Medium
-50 | File | `album_portal.php` | High
-51 | File | `app/Core/Paginator.php` | High
-52 | File | `app/index.php/accounts/default/details?id=2&kanbanBoard=1&openToTaskId=1` | High
-53 | File | `attendancy.php` | High
-54 | File | `AttributionSource.java` | High
-55 | File | `auth-gss2.c` | Medium
-56 | ... | ... | ...
+50 | File | `agenda.php` | Medium
+51 | File | `album_portal.php` | High
+52 | File | `app/Core/Paginator.php` | High
+53 | File | `app/index.php/accounts/default/details?id=2&kanbanBoard=1&openToTaskId=1` | High
+54 | File | `attendancy.php` | High
+55 | File | `AttributionSource.java` | High
+56 | File | `auth-gss2.c` | Medium
+57 | File | `auth.php` | Medium
+58 | File | `bin/named/query.c` | High
+59 | ... | ... | ...
 
-There are 490 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 512 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

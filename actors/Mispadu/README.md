@@ -21,9 +21,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [3.19.223.147](https://vuldb.com/?ip.3.19.223.147) | ec2-3-19-223-147.us-east-2.compute.amazonaws.com | - | Medium
-2 | [18.219.25.133](https://vuldb.com/?ip.18.219.25.133) | ec2-18-219-25-133.us-east-2.compute.amazonaws.com | - | Medium
-3 | [51.75.95.179](https://vuldb.com/?ip.51.75.95.179) | - | - | High
+1 | [2.59.255.65](https://vuldb.com/?ip.2.59.255.65) | - | - | High
+2 | [3.19.223.147](https://vuldb.com/?ip.3.19.223.147) | ec2-3-19-223-147.us-east-2.compute.amazonaws.com | - | Medium
+3 | [18.219.25.133](https://vuldb.com/?ip.18.219.25.133) | ec2-18-219-25-133.us-east-2.compute.amazonaws.com | - | Medium
+4 | ... | ... | ... | ...
+
+There are 1 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -50,6 +53,7 @@ ID | Type | Indicator | Confidence
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://exchange.xforce.ibmcloud.com/report/details/guid:567ae9ee507b73dd402daec4772bbb37
 * https://github.com/eset/malware-ioc/tree/master/mispadu
 
 ## Literature

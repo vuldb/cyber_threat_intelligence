@@ -61,29 +61,31 @@ ID | Type | Indicator | Confidence
 12 | File | `/dipam/athlete-profile.php` | High
 13 | File | `/download` | Medium
 14 | File | `/fastfood/purchase.php` | High
-15 | File | `/librarian/bookdetails.php` | High
-16 | File | `/mkshop/Men/profile.php` | High
-17 | File | `/Moosikay/order.php` | High
-18 | File | `/multi-vendor-shopping-script/product-list.php` | High
-19 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
-20 | File | `/opac/Actions.php?a=login` | High
-21 | File | `/pages/animals.php` | High
-22 | File | `/pet_shop/classes/Master.php?f=delete_category` | High
-23 | File | `/public/login.htm` | High
-24 | File | `/templates/ajax/pager.php` | High
-25 | File | `/UserSelfServiceSettings.jsp` | High
-26 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
-27 | File | `/VPortal/mgtconsole/GroupCopy.jsp` | High
-28 | File | `/WebCM/Applications/Reports/index.jsp` | High
-29 | File | `account.asp` | Medium
-30 | File | `accountmanagement.php` | High
-31 | File | `action-visitor.php` | High
-32 | File | `action.asp` | Medium
-33 | File | `action.php` | Medium
-34 | File | `actions.php` | Medium
-35 | ... | ... | ...
+15 | File | `/FundRaiserEditor.php` | High
+16 | File | `/homeaction.php` | High
+17 | File | `/index.php?page=category_list` | High
+18 | File | `/librarian/bookdetails.php` | High
+19 | File | `/mkshop/Men/profile.php` | High
+20 | File | `/Moosikay/order.php` | High
+21 | File | `/multi-vendor-shopping-script/product-list.php` | High
+22 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
+23 | File | `/opac/Actions.php?a=login` | High
+24 | File | `/pages/animals.php` | High
+25 | File | `/pet_shop/classes/Master.php?f=delete_category` | High
+26 | File | `/public/login.htm` | High
+27 | File | `/templates/ajax/pager.php` | High
+28 | File | `/UserSelfServiceSettings.jsp` | High
+29 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
+30 | File | `/VPortal/mgtconsole/GroupCopy.jsp` | High
+31 | File | `/WebCM/Applications/Reports/index.jsp` | High
+32 | File | `account.asp` | Medium
+33 | File | `accountmanagement.php` | High
+34 | File | `action-visitor.php` | High
+35 | File | `action.asp` | Medium
+36 | File | `action.php` | Medium
+37 | ... | ... | ...
 
-There are 303 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 320 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

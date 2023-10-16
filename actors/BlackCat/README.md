@@ -42,7 +42,7 @@ ID | Technique | Weakness | Description | Confidence
 6 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 7 | ... | ... | ... | ...
 
-There are 24 more TTP items available. Please use our online service to access the data.
+There are 23 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -52,22 +52,22 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.github/workflows/combine-prs.yml` | High
 2 | File | `.tin` | Low
-3 | File | `/action/factory` | High
-4 | File | `/action/import_wireguard_cert_file/` | High
-5 | File | `/admin/?page=orders/view_order` | High
-6 | File | `/admin/add-fee.php` | High
-7 | File | `/admin/ajax.php?action=delete_user` | High
-8 | File | `/admin/ajax.php?action=delete_window` | High
-9 | File | `/admin/edit_members.php` | High
-10 | File | `/admin/edit_subject.php` | High
-11 | File | `/admin/fst_upload.inc.php` | High
-12 | File | `/admin/index.php` | High
-13 | File | `/admin/index/index.html#/admin/mall.goods/index.html` | High
-14 | File | `/admin/report/index.php` | High
-15 | File | `/admin/services/manage_service.php` | High
-16 | File | `/admin/user/manage_user.php` | High
-17 | File | `/admin/users/index.php` | High
-18 | File | `/asms/classes/Master.php?f=delete_service` | High
+3 | File | `/admin/?page=orders/view_order` | High
+4 | File | `/admin/add-fee.php` | High
+5 | File | `/admin/ajax.php?action=delete_user` | High
+6 | File | `/admin/ajax.php?action=delete_window` | High
+7 | File | `/admin/article/article-add.php` | High
+8 | File | `/admin/edit_members.php` | High
+9 | File | `/admin/edit_subject.php` | High
+10 | File | `/admin/fst_upload.inc.php` | High
+11 | File | `/admin/index.php` | High
+12 | File | `/admin/index/index.html#/admin/mall.goods/index.html` | High
+13 | File | `/admin/report/index.php` | High
+14 | File | `/admin/services/manage_service.php` | High
+15 | File | `/admin/user/manage_user.php` | High
+16 | File | `/admin/users/index.php` | High
+17 | File | `/asms/classes/Master.php?f=delete_service` | High
+18 | File | `/blog` | Low
 19 | File | `/bsms_ci/index.php/user/edit_user/` | High
 20 | File | `/classes/Master.php?f=delete_category` | High
 21 | File | `/classes/Master.php?f=delete_inquiry` | High
@@ -75,30 +75,34 @@ ID | Type | Indicator | Confidence
 23 | File | `/clients/listclients.php` | High
 24 | File | `/clients/profile` | High
 25 | File | `/cms/category/list` | High
-26 | File | `/company/store` | High
-27 | File | `/contacts/listcontacts.php` | High
-28 | File | `/Default/Bd` | Medium
-29 | File | `/ext/phar/phar_object.c` | High
-30 | File | `/forum/away.php` | High
-31 | File | `/fos/admin/index.php?page=menu` | High
-32 | File | `/friends` | Medium
-33 | File | `/goform/AddSysLogRule` | High
-34 | File | `/goform/SafeEmailFilter` | High
-35 | File | `/goform/SetIpMacBind` | High
-36 | File | `/goform/setSnmpInfo` | High
-37 | File | `/goform/setUplinkInfo` | High
-38 | File | `/goform/SysToolReboot` | High
-39 | File | `/goform/WifiBasicSet` | High
-40 | File | `/graphql` | Medium
-41 | File | `/home/hjsz/jsonlint/src/lexer` | High
-42 | File | `/hrm/employeeview.php` | High
-43 | File | `/hss/?page=categories` | High
-44 | File | `/hss/admin/brands/manage_brand.php` | High
-45 | File | `/index.php?module=entities/entities` | High
-46 | File | `/index.php?module=global_lists/lists` | High
-47 | ... | ... | ...
+26 | File | `/collection/all` | High
+27 | File | `/company/store` | High
+28 | File | `/contacts/listcontacts.php` | High
+29 | File | `/Default/Bd` | Medium
+30 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+31 | File | `/ext/phar/phar_object.c` | High
+32 | File | `/forum/away.php` | High
+33 | File | `/fos/admin/index.php?page=menu` | High
+34 | File | `/friends` | Medium
+35 | File | `/goform/AddSysLogRule` | High
+36 | File | `/goform/SafeEmailFilter` | High
+37 | File | `/goform/SetIpMacBind` | High
+38 | File | `/goform/setSnmpInfo` | High
+39 | File | `/goform/setUplinkInfo` | High
+40 | File | `/goform/SysToolReboot` | High
+41 | File | `/goform/WifiBasicSet` | High
+42 | File | `/graphql` | Medium
+43 | File | `/home/get_tasks_list` | High
+44 | File | `/hrm/employeeview.php` | High
+45 | File | `/hss/?page=categories` | High
+46 | File | `/hss/admin/brands/manage_brand.php` | High
+47 | File | `/importexport.php` | High
+48 | File | `/index.php?module=entities/entities` | High
+49 | File | `/index.php?module=global_lists/lists` | High
+50 | File | `/index.php?module=help_pages/pages&entities_id=24` | High
+51 | ... | ... | ...
 
-There are 405 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 440 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -74,38 +74,39 @@ ID | Type | Indicator | Confidence
 9 | File | `/dashboard/reports/logs/view` | High
 10 | File | `/dashboard/system/express/entities/forms/save_control/[GUID]` | High
 11 | File | `/export` | Low
-12 | File | `/goform/delAd` | High
-13 | File | `/goform/setMAC` | High
-14 | File | `/goform/wifiSSIDset` | High
-15 | File | `/items/view_item.php` | High
-16 | File | `/librarian/bookdetails.php` | High
-17 | File | `/login` | Low
-18 | File | `/login/index.php` | High
-19 | File | `/mail/index.html` | High
-20 | File | `/mgmt/tm/util/bash` | High
-21 | File | `/MIME/INBOX-MM-1/` | High
-22 | File | `/ms/file/uploadTemplate.do` | High
-23 | File | `/novel-admin/src/main/java/com/java2nb/common/controller/FileController.java` | High
-24 | File | `/ofrs/admin/?page=requests/view_request` | High
-25 | File | `/pages/processlogin.php` | High
-26 | File | `/pet_shop/classes/Master.php?f=delete_sub_category` | High
-27 | File | `/php/ajax.php` | High
-28 | File | `/ptipupgrade.cgi` | High
-29 | File | `/public/login.htm` | High
-30 | File | `/release-x64/otfccdump+0x6b6a8f` | High
-31 | File | `/setSystemAdmin` | High
-32 | File | `/Storage/Emulated/0/Telegram/Telegram` | High
-33 | File | `/student/bookdetails.php` | High
-34 | File | `/sys/user/queryUserComponentData` | High
-35 | File | `/table_manager/view/cu_user_groups` | High
-36 | File | `/templates/header.inc.php` | High
-37 | File | `/thruk/#cgi-bin/extinfo.cgi?type=2` | High
-38 | File | `/uncpath/` | Medium
-39 | File | `/user/dls_download.php` | High
-40 | File | `/user/profile` | High
-41 | ... | ... | ...
+12 | File | `/forum/away.php` | High
+13 | File | `/goform/delAd` | High
+14 | File | `/goform/setMAC` | High
+15 | File | `/goform/wifiSSIDset` | High
+16 | File | `/items/view_item.php` | High
+17 | File | `/librarian/bookdetails.php` | High
+18 | File | `/login` | Low
+19 | File | `/login/index.php` | High
+20 | File | `/mail/index.html` | High
+21 | File | `/mgmt/tm/util/bash` | High
+22 | File | `/MIME/INBOX-MM-1/` | High
+23 | File | `/ms/file/uploadTemplate.do` | High
+24 | File | `/novel-admin/src/main/java/com/java2nb/common/controller/FileController.java` | High
+25 | File | `/ofrs/admin/?page=requests/view_request` | High
+26 | File | `/pages/processlogin.php` | High
+27 | File | `/patient/appointment.php` | High
+28 | File | `/pet_shop/classes/Master.php?f=delete_sub_category` | High
+29 | File | `/php/ajax.php` | High
+30 | File | `/product.php` | Medium
+31 | File | `/ptipupgrade.cgi` | High
+32 | File | `/public/login.htm` | High
+33 | File | `/release-x64/otfccdump+0x6b6a8f` | High
+34 | File | `/scripts/unlock_tasks.php` | High
+35 | File | `/Service/FileHandler.ashx` | High
+36 | File | `/setSystemAdmin` | High
+37 | File | `/Storage/Emulated/0/Telegram/Telegram` | High
+38 | File | `/student/bookdetails.php` | High
+39 | File | `/sys/user/queryUserComponentData` | High
+40 | File | `/system/user/modules/mod_users/controller.php` | High
+41 | File | `/table_manager/view/cu_user_groups` | High
+42 | ... | ... | ...
 
-There are 356 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 365 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

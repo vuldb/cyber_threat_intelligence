@@ -62,7 +62,8 @@ ID | Type | Indicator | Confidence
 5 | File | `buffer.c` | Medium
 6 | File | `category.php` | Medium
 7 | File | `ctpms/admin/?page=user/manage_user` | High
-8 | ... | ... | ...
+8 | File | `data/gbconfiguration.dat` | High
+9 | ... | ... | ...
 
 There are 61 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 

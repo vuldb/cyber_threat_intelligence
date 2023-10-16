@@ -9,6 +9,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Cryptbot:
 
 * [DE](https://vuldb.com/?country.de)
+* [US](https://vuldb.com/?country.us)
 * [JP](https://vuldb.com/?country.jp)
 
 ## IOC - Indicator of Compromise
@@ -30,12 +31,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79 | Cross Site Scripting | High
-2 | T1202 | CWE-77 | Command Injection | High
-3 | T1600 | CWE-326 | J2EE Misconfiguration: Data Transmission Without Encryption | High
+1 | T1006 | CWE-22 | Pathname Traversal | High
+2 | T1059.007 | CWE-79 | Cross Site Scripting | High
+3 | T1202 | CWE-77 | Command Injection | High
 4 | ... | ... | ... | ...
 
-There are 1 more TTP items available. Please use our online service to access the data.
+There are 3 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -45,10 +46,10 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/aux` | Low
 2 | File | `/ci_spms/admin/search/searching/` | High
-3 | Argument | `langType` | Medium
+3 | File | `adclick.php` | Medium
 4 | ... | ... | ...
 
-There are 2 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 6 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

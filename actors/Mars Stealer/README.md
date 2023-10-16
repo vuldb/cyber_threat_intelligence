@@ -36,7 +36,7 @@ ID | IP address | Hostname | Campaign | Confidence
 13 | [62.204.41.69](https://vuldb.com/?ip.62.204.41.69) | - | - | High
 14 | ... | ... | ... | ...
 
-There are 52 more IOC items available. Please use our online service to access the data.
+There are 53 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -89,15 +89,16 @@ ID | Type | Indicator | Confidence
 28 | File | `/htdocs/cgibin` | High
 29 | File | `/lists/index.php` | High
 30 | File | `/login.php` | Medium
-31 | File | `/netflow/jspui/editProfile.jsp` | High
-32 | File | `/settings/download-test-pdf` | High
-33 | File | `/spip.php` | Medium
-34 | File | `/uncpath/` | Medium
-35 | File | `/usr/www/ja/mnt_cmd.cgi` | High
-36 | File | `/videotalk` | Medium
-37 | ... | ... | ...
+31 | File | `/mifs/c/i/reg/reg.html` | High
+32 | File | `/netflow/jspui/editProfile.jsp` | High
+33 | File | `/settings/download-test-pdf` | High
+34 | File | `/spip.php` | Medium
+35 | File | `/uncpath/` | Medium
+36 | File | `/usr/www/ja/mnt_cmd.cgi` | High
+37 | File | `/videotalk` | Medium
+38 | ... | ... | ...
 
-There are 318 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 327 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -115,6 +116,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://tracker.viriback.com/index.php?q=152.89.218.100
 * https://tracker.viriback.com/index.php?q=152.89.218.174
 * https://tracker.viriback.com/index.php?q=178.208.92.138
+* https://www.virustotal.com/gui/file/69779c8531872ce18a47e818dea9e838f240cd9c38781880ef322a447cfd7d83/relations
 
 ## Literature
 

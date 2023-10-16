@@ -65,39 +65,43 @@ ID | Type | Indicator | Confidence
 5 | File | `/admin/forgot-password.php` | High
 6 | File | `/admin/index.php` | High
 7 | File | `/admin/lab.php` | High
-8 | File | `/admin/payment.php` | High
-9 | File | `/admin/show.php` | High
-10 | File | `/default.php?idx=17` | High
-11 | File | `/download` | Medium
-12 | File | `/env` | Low
-13 | File | `/forum/away.php` | High
-14 | File | `/index.php` | Medium
-15 | File | `/nova/bin/traceroute` | High
-16 | File | `/opt/bin/cli` | Medium
-17 | File | `/p` | Low
-18 | File | `/patient/doctors.php` | High
-19 | File | `/phpinventory/editcategory.php` | High
-20 | File | `/php_action/createUser.php` | High
-21 | File | `/product-list.php` | High
-22 | File | `/spip.php` | Medium
-23 | File | `/uncpath/` | Medium
-24 | File | `/updown/upload.cgi` | High
-25 | File | `/user/del.php` | High
-26 | File | `/_next` | Low
-27 | File | `123flashchat.php` | High
-28 | File | `act.php` | Low
-29 | File | `admin.php` | Medium
-30 | File | `admin/bad.php` | High
-31 | File | `admin/index.php` | High
-32 | File | `admin/index.php/user/del/1` | High
-33 | File | `admin/index.php?id=themes&action=edit_chunk` | High
-34 | File | `administrator/index.php` | High
-35 | File | `agenda.php` | Medium
-36 | File | `ajax/autocompletion.php` | High
-37 | File | `ajax/render/widget_php` | High
-38 | ... | ... | ...
+8 | File | `/admin/login.php` | High
+9 | File | `/admin/payment.php` | High
+10 | File | `/admin/show.php` | High
+11 | File | `/default.php?idx=17` | High
+12 | File | `/download` | Medium
+13 | File | `/env` | Low
+14 | File | `/forum/away.php` | High
+15 | File | `/index.php` | Medium
+16 | File | `/nova/bin/traceroute` | High
+17 | File | `/opt/bin/cli` | Medium
+18 | File | `/p` | Low
+19 | File | `/patient/doctors.php` | High
+20 | File | `/phpinventory/editcategory.php` | High
+21 | File | `/php_action/createUser.php` | High
+22 | File | `/product-list.php` | High
+23 | File | `/spip.php` | Medium
+24 | File | `/uncpath/` | Medium
+25 | File | `/updown/upload.cgi` | High
+26 | File | `/user/del.php` | High
+27 | File | `/wp-admin/admin-ajax.php` | High
+28 | File | `/_next` | Low
+29 | File | `123flashchat.php` | High
+30 | File | `act.php` | Low
+31 | File | `admin.php` | Medium
+32 | File | `admin.php/pay` | High
+33 | File | `admin/bad.php` | High
+34 | File | `admin/index.php` | High
+35 | File | `admin/index.php/user/del/1` | High
+36 | File | `admin/index.php?id=themes&action=edit_chunk` | High
+37 | File | `administrator/index.php` | High
+38 | File | `agenda.php` | Medium
+39 | File | `ajax/autocompletion.php` | High
+40 | File | `ajax/render/widget_php` | High
+41 | File | `album_portal.php` | High
+42 | ... | ... | ...
 
-There are 331 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 362 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

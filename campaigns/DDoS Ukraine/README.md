@@ -139,20 +139,19 @@ ID | Type | Indicator | Confidence
 76 | File | `artikel_anzeige.php` | High
 77 | File | `AudioFlinger.cpp` | High
 78 | File | `auktion.cgi` | Medium
-79 | File | `auth.php` | Medium
-80 | File | `authfiles/login.asp` | High
-81 | File | `avahi-core/socket.c` | High
-82 | File | `basket.php` | Medium
-83 | File | `books.php` | Medium
-84 | File | `browse.php` | Medium
-85 | File | `browse_videos.php` | High
-86 | File | `BrudaNews/BrudaGB` | High
-87 | File | `bwlist_inc.html` | High
-88 | File | `calendar.php` | Medium
-89 | File | `calenderServer.cpp` | High
-90 | ... | ... | ...
+79 | File | `authfiles/login.asp` | High
+80 | File | `avahi-core/socket.c` | High
+81 | File | `basket.php` | Medium
+82 | File | `books.php` | Medium
+83 | File | `browse.php` | Medium
+84 | File | `browse_videos.php` | High
+85 | File | `BrudaNews/BrudaGB` | High
+86 | File | `bwlist_inc.html` | High
+87 | File | `calendar.php` | Medium
+88 | File | `calenderServer.cpp` | High
+89 | ... | ... | ...
 
-There are 797 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 790 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

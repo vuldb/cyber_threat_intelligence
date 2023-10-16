@@ -23,16 +23,19 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [5.79.66.100](https://vuldb.com/?ip.5.79.66.100) | - | - | High
 2 | [5.79.66.123](https://vuldb.com/?ip.5.79.66.123) | - | - | High
-3 | [8.211.4.118](https://vuldb.com/?ip.8.211.4.118) | - | - | High
-4 | [23.146.184.29](https://vuldb.com/?ip.23.146.184.29) | - | - | High
-5 | [35.176.231.198](https://vuldb.com/?ip.35.176.231.198) | ec2-35-176-231-198.eu-west-2.compute.amazonaws.com | - | Medium
-6 | [45.77.195.105](https://vuldb.com/?ip.45.77.195.105) | 45.77.195.105.vultrusercontent.com | - | High
-7 | [45.90.57.160](https://vuldb.com/?ip.45.90.57.160) | khalasar.omega.spb.ru | - | High
-8 | [45.130.201.23](https://vuldb.com/?ip.45.130.201.23) | - | - | High
-9 | [45.130.201.24](https://vuldb.com/?ip.45.130.201.24) | - | - | High
-10 | ... | ... | ... | ...
+3 | [5.182.207.83](https://vuldb.com/?ip.5.182.207.83) | hosted-by.ActionCloud.co | - | High
+4 | [8.211.4.118](https://vuldb.com/?ip.8.211.4.118) | - | - | High
+5 | [23.146.184.29](https://vuldb.com/?ip.23.146.184.29) | - | - | High
+6 | [35.176.231.198](https://vuldb.com/?ip.35.176.231.198) | ec2-35-176-231-198.eu-west-2.compute.amazonaws.com | - | Medium
+7 | [37.221.67.161](https://vuldb.com/?ip.37.221.67.161) | cryptogod.us | - | High
+8 | [45.77.195.105](https://vuldb.com/?ip.45.77.195.105) | 45.77.195.105.vultrusercontent.com | - | High
+9 | [45.90.57.160](https://vuldb.com/?ip.45.90.57.160) | khalasar.omega.spb.ru | - | High
+10 | [45.130.201.23](https://vuldb.com/?ip.45.130.201.23) | - | - | High
+11 | [45.130.201.24](https://vuldb.com/?ip.45.130.201.24) | - | - | High
+12 | [47.91.94.97](https://vuldb.com/?ip.47.91.94.97) | - | - | High
+13 | ... | ... | ... | ...
 
-There are 38 more IOC items available. Please use our online service to access the data.
+There are 48 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -59,57 +62,58 @@ ID | Type | Indicator | Confidence
 1 | File | `/+CSCOE+/logon.html` | High
 2 | File | `//proc/kcore` | Medium
 3 | File | `/admin.php/Admin/adminadd.html` | High
-4 | File | `/admin/` | Low
-5 | File | `/admin/about-us.php` | High
-6 | File | `/Admin/add-student.php` | High
-7 | File | `/admin/orders/update_status.php` | High
-8 | File | `/admin/profile/save_profile` | High
-9 | File | `/admin/settings/save.php` | High
-10 | File | `/admin/sys_sql_query.php` | High
-11 | File | `/admin/userprofile.php` | High
-12 | File | `/api/baskets/{name}` | High
-13 | File | `/apply.cgi` | Medium
-14 | File | `/apply_noauth.cgi` | High
-15 | File | `/catalog/admin/categories.php?cPath=&action=new_product` | High
-16 | File | `/cgi-bin/wlogin.cgi` | High
-17 | File | `/College/admin/teacher.php` | High
-18 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
-19 | File | `/dcim/rack-roles/` | High
-20 | File | `/domains/index.fts` | High
-21 | File | `/forum/away.php` | High
-22 | File | `/foundry/modules/news/newscolumns.php` | High
-23 | File | `/ghost/preview` | High
-24 | File | `/goform/addUserName` | High
-25 | File | `/goform/aspForm` | High
-26 | File | `/goform/delAd` | High
-27 | File | `/goform/wifiSSIDset` | High
-28 | File | `/gpac/src/bifs/unquantize.c` | High
-29 | File | `/inc/topBarNav.php` | High
-30 | File | `/index.asp` | Medium
-31 | File | `/index.php` | Medium
-32 | File | `/index.php?app=main&func=passport&action=login` | High
-33 | File | `/jfinal_cms/system/role/list` | High
-34 | File | `/kelas/data` | Medium
-35 | File | `/Moosikay/order.php` | High
-36 | File | `/Mum.Geo.Services/DataAccessService.svc` | High
-37 | File | `/out.php` | Medium
-38 | File | `/paysystem/datatable.php` | High
-39 | File | `/php-sms/admin/quotes/manage_remark.php` | High
-40 | File | `/product_list.php` | High
-41 | File | `/secure/QueryComponent!Default.jspa` | High
-42 | File | `/server/ajax/events_manager.php` | High
-43 | File | `/server/ajax/user_manager.php` | High
-44 | File | `/smstest.html` | High
-45 | File | `/squashfs-root/etc_ro/custom.conf` | High
-46 | File | `/staff/edit_book_details.php` | High
-47 | File | `/uncpath/` | Medium
-48 | File | `/user/profile` | High
-49 | File | `/vloggers_merch/admin/?page=product/manage_product` | High
-50 | File | `/webman/info.cgi` | High
-51 | File | `/wp-admin/admin-ajax.php` | High
-52 | ... | ... | ...
+4 | File | `/admin/about-us.php` | High
+5 | File | `/Admin/add-student.php` | High
+6 | File | `/admin/orders/update_status.php` | High
+7 | File | `/admin/profile/save_profile` | High
+8 | File | `/admin/settings/save.php` | High
+9 | File | `/admin/sys_sql_query.php` | High
+10 | File | `/admin/userprofile.php` | High
+11 | File | `/api/baskets/{name}` | High
+12 | File | `/apply.cgi` | Medium
+13 | File | `/catalog/admin/categories.php?cPath=&action=new_product` | High
+14 | File | `/cgi-bin/wlogin.cgi` | High
+15 | File | `/College/admin/teacher.php` | High
+16 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
+17 | File | `/dcim/rack-roles/` | High
+18 | File | `/domains/index.fts` | High
+19 | File | `/forum/away.php` | High
+20 | File | `/foundry/modules/news/newscolumns.php` | High
+21 | File | `/ghost/preview` | High
+22 | File | `/goform/addUserName` | High
+23 | File | `/goform/aspForm` | High
+24 | File | `/goform/delAd` | High
+25 | File | `/goform/wifiSSIDset` | High
+26 | File | `/gpac/src/bifs/unquantize.c` | High
+27 | File | `/inc/topBarNav.php` | High
+28 | File | `/index.asp` | Medium
+29 | File | `/index.php` | Medium
+30 | File | `/index.php?app=main&func=passport&action=login` | High
+31 | File | `/jfinal_cms/system/role/list` | High
+32 | File | `/kelas/data` | Medium
+33 | File | `/Moosikay/order.php` | High
+34 | File | `/Mum.Geo.Services/DataAccessService.svc` | High
+35 | File | `/out.php` | Medium
+36 | File | `/paysystem/datatable.php` | High
+37 | File | `/php-sms/admin/quotes/manage_remark.php` | High
+38 | File | `/product_list.php` | High
+39 | File | `/secure/QueryComponent!Default.jspa` | High
+40 | File | `/server/ajax/events_manager.php` | High
+41 | File | `/server/ajax/user_manager.php` | High
+42 | File | `/smstest.html` | High
+43 | File | `/squashfs-root/etc_ro/custom.conf` | High
+44 | File | `/staff/edit_book_details.php` | High
+45 | File | `/SysManage/AddUpdateRole.aspx` | High
+46 | File | `/uncpath/` | Medium
+47 | File | `/user/profile` | High
+48 | File | `/vloggers_merch/admin/?page=product/manage_product` | High
+49 | File | `/webman/info.cgi` | High
+50 | File | `/wp-admin/admin-ajax.php` | High
+51 | File | `acloudCosAction.php.SQL` | High
+52 | File | `ActiveServices.java` | High
+53 | ... | ... | ...
 
-There are 452 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 458 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

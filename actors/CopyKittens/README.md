@@ -15,11 +15,11 @@ The following _campaigns_ are known and can be associated with CopyKittens:
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with CopyKittens:
 
 * [PL](https://vuldb.com/?country.pl)
-* [PT](https://vuldb.com/?country.pt)
 * [AR](https://vuldb.com/?country.ar)
+* [IT](https://vuldb.com/?country.it)
 * ...
 
-There are 10 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -67,54 +67,58 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/action/factory` | High
-2 | File | `/action/wirelessConnect` | High
+1 | File | `/academy/tutor/filter` | High
+2 | File | `/action/factory` | High
 3 | File | `/admin.php` | Medium
-4 | File | `/admin/add-fee.php` | High
-5 | File | `/admin/add_user_modal.php` | High
-6 | File | `/admin/baojia_list.php` | High
-7 | File | `/admin/categories/view_category.php` | High
-8 | File | `/admin/loginc.php` | High
-9 | File | `/admin/maintenance/view_designation.php` | High
-10 | File | `/admin/project/update/2` | High
-11 | File | `/admin/report/index.php` | High
-12 | File | `/api/common/ping` | High
-13 | File | `/api/v2/open/rowsInfo` | High
-14 | File | `/appointments/update_status.php` | High
-15 | File | `/binbloom-master/src/helpers.c` | High
-16 | File | `/blog` | Low
-17 | File | `/bookings/update_status.php` | High
-18 | File | `/category.php` | High
-19 | File | `/classes/Users.php?f=delete_client` | High
-20 | File | `/contacts/listcontacts.php` | High
-21 | File | `/Core/Ap4File.cpp` | High
-22 | File | `/data/app` | Medium
-23 | File | `/dede/file_manage_control.php` | High
-24 | File | `/depotHead/list` | High
-25 | File | `/etc/os-release` | High
-26 | File | `/etc/pki/pulp/nodes/` | High
-27 | File | `/forms/web_runScript` | High
-28 | File | `/fs/nfsd/nfs4proc.c` | High
-29 | File | `/garage/php_action/createBrand.php` | High
-30 | File | `/general/search.php?searchtype=simple` | High
-31 | File | `/ghost/preview` | High
-32 | File | `/goform/AddSysLogRule` | High
-33 | File | `/goform/AdvSetWrlsafeset` | High
-34 | File | `/goform/qossetting` | High
-35 | File | `/goform/setAutoPing` | High
-36 | File | `/hrm/employeeview.php` | High
-37 | File | `/hss/?page=product_per_brand` | High
-38 | File | `/load.php` | Medium
-39 | File | `/meetings/listmeetings.php` | High
-40 | File | `/odlms/?page=appointments/view_appointment` | High
-41 | File | `/odlms/classes/Users.php?f=delete` | High
-42 | File | `/one/siteinfo.php` | High
-43 | File | `/preview.php` | Medium
-44 | File | `/proc/*/exe` | Medium
-45 | File | `/projects/listprojects.php` | High
-46 | ... | ... | ...
+4 | File | `/admin/add-category.php` | High
+5 | File | `/admin/add-fee.php` | High
+6 | File | `/admin/add_user_modal.php` | High
+7 | File | `/admin/article/article-edit-run.php` | High
+8 | File | `/admin/categories/view_category.php` | High
+9 | File | `/admin/loginc.php` | High
+10 | File | `/admin/maintenance/view_designation.php` | High
+11 | File | `/admin/project/update/2` | High
+12 | File | `/admin/report/index.php` | High
+13 | File | `/api/common/ping` | High
+14 | File | `/api/v2/open/rowsInfo` | High
+15 | File | `/appointments/update_status.php` | High
+16 | File | `/binbloom-master/src/helpers.c` | High
+17 | File | `/blog` | Low
+18 | File | `/bookings/update_status.php` | High
+19 | File | `/category.php` | High
+20 | File | `/classes/Users.php?f=delete_client` | High
+21 | File | `/contacts/listcontacts.php` | High
+22 | File | `/Core/Ap4File.cpp` | High
+23 | File | `/data/app` | Medium
+24 | File | `/dede/file_manage_control.php` | High
+25 | File | `/depotHead/list` | High
+26 | File | `/etc/os-release` | High
+27 | File | `/etc/pki/pulp/nodes/` | High
+28 | File | `/forms/web_runScript` | High
+29 | File | `/forum/away.php` | High
+30 | File | `/fs/nfsd/nfs4proc.c` | High
+31 | File | `/garage/php_action/createBrand.php` | High
+32 | File | `/general/search.php?searchtype=simple` | High
+33 | File | `/ghost/preview` | High
+34 | File | `/goform/AddSysLogRule` | High
+35 | File | `/goform/AdvSetWrlsafeset` | High
+36 | File | `/goform/qossetting` | High
+37 | File | `/goform/setAutoPing` | High
+38 | File | `/hrm/employeeview.php` | High
+39 | File | `/hss/?page=product_per_brand` | High
+40 | File | `/index.php` | Medium
+41 | File | `/index.php?page=member` | High
+42 | File | `/load.php` | Medium
+43 | File | `/meetings/listmeetings.php` | High
+44 | File | `/odlms/?page=appointments/view_appointment` | High
+45 | File | `/odlms/classes/Users.php?f=delete` | High
+46 | File | `/preview.php` | Medium
+47 | File | `/proc/*/exe` | Medium
+48 | File | `/projects/listprojects.php` | High
+49 | File | `/robot/initialize` | High
+50 | ... | ... | ...
 
-There are 403 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 434 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

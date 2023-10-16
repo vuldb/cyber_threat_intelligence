@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 15 more country items available. Please use our online service to access the data.
+There are 16 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -57,7 +57,7 @@ ID | Technique | Weakness | Description | Confidence
 6 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 7 | ... | ... | ... | ...
 
-There are 25 more TTP items available. Please use our online service to access the data.
+There are 24 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -76,42 +76,42 @@ ID | Type | Indicator | Confidence
 9 | File | `/admin/maintenance/view_designation.php` | High
 10 | File | `/admin/robot/approval/list` | High
 11 | File | `/api/RecordingList/DownloadRecord?file=` | High
-12 | File | `/api/v2/labels/` | High
-13 | File | `/app/Http/Controllers/Admin/NEditorController.php` | High
-14 | File | `/apply.cgi` | Medium
-15 | File | `/cgi-bin/adm.cgi` | High
-16 | File | `/cgi-bin/go` | Medium
-17 | File | `/cgi-bin/uploadWeiXinPic` | High
-18 | File | `/cgi-bin/wapopen` | High
-19 | File | `/debug/pprof` | Medium
-20 | File | `/dl/dl_print.php` | High
-21 | File | `/etc/gsissh/sshd_config` | High
-22 | File | `/face-recognition-php/facepay-master/camera.php` | High
-23 | File | `/forum/away.php` | High
-24 | File | `/forum/PostPrivateMessage` | High
-25 | File | `/getcfg.php` | Medium
-26 | File | `/home/masterConsole` | High
-27 | File | `/hrm/employeeadd.php` | High
-28 | File | `/hrm/employeeview.php` | High
-29 | File | `/info.xml` | Medium
-30 | File | `/librarian/bookdetails.php` | High
-31 | File | `/mgmt/tm/util/bash` | High
-32 | File | `/mics/j_spring_security_check` | High
-33 | File | `/nova/bin/sniffer` | High
-34 | File | `/ofcms/company-c-47` | High
-35 | File | `/opt/vyatta/share/vyatta-cfg/templates/system/static-host-mapping/host-name/node.def` | High
-36 | File | `/pms/update_user.php?user_id=1` | High
-37 | File | `/public/login.htm` | High
-38 | File | `/rom-0` | Low
-39 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-40 | File | `/secure/ViewCollectors` | High
-41 | File | `/Session` | Medium
-42 | File | `/spip.php` | Medium
-43 | File | `/staff_login.php` | High
-44 | File | `/system/user/modules/mod_users/controller.php` | High
+12 | File | `/apply.cgi` | Medium
+13 | File | `/cgi-bin/adm.cgi` | High
+14 | File | `/cgi-bin/go` | Medium
+15 | File | `/cgi-bin/uploadWeiXinPic` | High
+16 | File | `/cgi-bin/wapopen` | High
+17 | File | `/debug/pprof` | Medium
+18 | File | `/dl/dl_print.php` | High
+19 | File | `/etc/gsissh/sshd_config` | High
+20 | File | `/face-recognition-php/facepay-master/camera.php` | High
+21 | File | `/forum/away.php` | High
+22 | File | `/forum/PostPrivateMessage` | High
+23 | File | `/getcfg.php` | Medium
+24 | File | `/home/masterConsole` | High
+25 | File | `/hrm/employeeadd.php` | High
+26 | File | `/hrm/employeeview.php` | High
+27 | File | `/librarian/bookdetails.php` | High
+28 | File | `/mgmt/tm/util/bash` | High
+29 | File | `/mics/j_spring_security_check` | High
+30 | File | `/ofcms/company-c-47` | High
+31 | File | `/opt/vyatta/share/vyatta-cfg/templates/system/static-host-mapping/host-name/node.def` | High
+32 | File | `/pms/update_user.php?user_id=1` | High
+33 | File | `/public/login.htm` | High
+34 | File | `/scripts/unlock_tasks.php` | High
+35 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+36 | File | `/secure/ViewCollectors` | High
+37 | File | `/Session` | Medium
+38 | File | `/spip.php` | Medium
+39 | File | `/staff_login.php` | High
+40 | File | `/system/user/modules/mod_users/controller.php` | High
+41 | File | `/uncpath/` | Medium
+42 | File | `/usr/sbin/httpd` | High
+43 | File | `/util/print.c` | High
+44 | File | `/v1/tasks/create/` | High
 45 | ... | ... | ...
 
-There are 386 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 390 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

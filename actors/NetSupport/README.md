@@ -47,13 +47,14 @@ ID | Type | Indicator | Confidence
 2 | File | `/apply.cgi` | Medium
 3 | File | `/netflow/jspui/editProfile.jsp` | High
 4 | File | `/rapi/read_url` | High
-5 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
-6 | File | `appserv/main.php` | High
-7 | File | `cgi-bin/qcmap_web_cgi` | High
-8 | File | `coders/png.c` | Medium
-9 | ... | ... | ...
+5 | File | `/scripts/unlock_tasks.php` | High
+6 | File | `/system/user/modules/mod_users/controller.php` | High
+7 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
+8 | File | `appserv/main.php` | High
+9 | File | `cgi-bin/qcmap_web_cgi` | High
+10 | ... | ... | ...
 
-There are 68 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 73 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

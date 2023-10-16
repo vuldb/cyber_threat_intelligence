@@ -32,31 +32,31 @@ ID | IP address | Hostname | Campaign | Confidence
 9 | [5.254.112.60](https://vuldb.com/?ip.5.254.112.60) | - | - | High
 10 | [8.15.0.59](https://vuldb.com/?ip.8.15.0.59) | - | - | High
 11 | [14.3.210.2](https://vuldb.com/?ip.14.3.210.2) | ae210002.dynamic.ppp.asahi-net.or.jp | - | High
-12 | [23.105.131.204](https://vuldb.com/?ip.23.105.131.204) | mail204.nessfist.com | - | High
-13 | [23.227.196.198](https://vuldb.com/?ip.23.227.196.198) | 23-227-196-198.static.hvvc.us | - | High
-14 | [23.227.199.72](https://vuldb.com/?ip.23.227.199.72) | 23-227-199-72.static.hvvc.us | - | High
-15 | [23.227.199.118](https://vuldb.com/?ip.23.227.199.118) | 23-227-199-118.static.hvvc.us | - | High
-16 | [23.227.199.121](https://vuldb.com/?ip.23.227.199.121) | 23-227-199-121.static.hvvc.us | - | High
-17 | [23.231.23.182](https://vuldb.com/?ip.23.231.23.182) | mx6.touringul.com | - | High
-18 | [31.31.196.31](https://vuldb.com/?ip.31.31.196.31) | server31.hosting.reg.ru | - | High
-19 | [31.171.155.72](https://vuldb.com/?ip.31.171.155.72) | - | - | High
-20 | [37.0.14.215](https://vuldb.com/?ip.37.0.14.215) | - | - | High
-21 | [37.61.235.30](https://vuldb.com/?ip.37.61.235.30) | - | - | High
-22 | [43.226.229.92](https://vuldb.com/?ip.43.226.229.92) | - | - | High
-23 | [45.74.38.17](https://vuldb.com/?ip.45.74.38.17) | - | - | High
-24 | [45.138.16.101](https://vuldb.com/?ip.45.138.16.101) | - | - | High
-25 | [45.147.231.41](https://vuldb.com/?ip.45.147.231.41) | - | - | High
-26 | [46.20.33.76](https://vuldb.com/?ip.46.20.33.76) | - | - | High
-27 | [46.183.220.114](https://vuldb.com/?ip.46.183.220.114) | ip-220-114.dataclub.info | - | High
-28 | [50.7.199.164](https://vuldb.com/?ip.50.7.199.164) | - | - | High
-29 | [51.254.21.25](https://vuldb.com/?ip.51.254.21.25) | ip25.ip-51-254-21.eu | - | High
-30 | [65.99.225.111](https://vuldb.com/?ip.65.99.225.111) | hv36svg168.neubox.net | - | High
-31 | [66.154.111.3](https://vuldb.com/?ip.66.154.111.3) | - | - | High
-32 | [67.215.4.74](https://vuldb.com/?ip.67.215.4.74) | - | - | High
-33 | [67.215.4.75](https://vuldb.com/?ip.67.215.4.75) | - | - | High
+12 | [23.26.248.208](https://vuldb.com/?ip.23.26.248.208) | - | - | High
+13 | [23.105.131.204](https://vuldb.com/?ip.23.105.131.204) | mail204.nessfist.com | - | High
+14 | [23.227.196.198](https://vuldb.com/?ip.23.227.196.198) | 23-227-196-198.static.hvvc.us | - | High
+15 | [23.227.199.72](https://vuldb.com/?ip.23.227.199.72) | 23-227-199-72.static.hvvc.us | - | High
+16 | [23.227.199.118](https://vuldb.com/?ip.23.227.199.118) | 23-227-199-118.static.hvvc.us | - | High
+17 | [23.227.199.121](https://vuldb.com/?ip.23.227.199.121) | 23-227-199-121.static.hvvc.us | - | High
+18 | [23.231.23.182](https://vuldb.com/?ip.23.231.23.182) | mx6.touringul.com | - | High
+19 | [31.31.196.31](https://vuldb.com/?ip.31.31.196.31) | server31.hosting.reg.ru | - | High
+20 | [31.171.155.72](https://vuldb.com/?ip.31.171.155.72) | - | - | High
+21 | [37.0.14.215](https://vuldb.com/?ip.37.0.14.215) | - | - | High
+22 | [37.61.235.30](https://vuldb.com/?ip.37.61.235.30) | - | - | High
+23 | [43.226.229.92](https://vuldb.com/?ip.43.226.229.92) | - | - | High
+24 | [45.74.38.17](https://vuldb.com/?ip.45.74.38.17) | - | - | High
+25 | [45.138.16.101](https://vuldb.com/?ip.45.138.16.101) | - | - | High
+26 | [45.147.231.41](https://vuldb.com/?ip.45.147.231.41) | - | - | High
+27 | [46.20.33.76](https://vuldb.com/?ip.46.20.33.76) | - | - | High
+28 | [46.183.220.114](https://vuldb.com/?ip.46.183.220.114) | ip-220-114.dataclub.info | - | High
+29 | [50.7.199.164](https://vuldb.com/?ip.50.7.199.164) | - | - | High
+30 | [51.254.21.25](https://vuldb.com/?ip.51.254.21.25) | ip25.ip-51-254-21.eu | - | High
+31 | [65.99.225.111](https://vuldb.com/?ip.65.99.225.111) | hv36svg168.neubox.net | - | High
+32 | [66.154.111.3](https://vuldb.com/?ip.66.154.111.3) | - | - | High
+33 | [67.215.4.74](https://vuldb.com/?ip.67.215.4.74) | - | - | High
 34 | ... | ... | ... | ...
 
-There are 131 more IOC items available. Please use our online service to access the data.
+There are 133 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -103,9 +103,11 @@ There are 149 more IOA items available (file, library, argument, input value, pa
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://app.any.run/tasks/c9885212-b5db-4784-845f-bedf7c6bcef0
 * https://threatfox.abuse.ch
 * https://twitter.com/ddash_ct/status/1560660561586982912
 * https://twitter.com/James_inthe_box/status/1656394858918195200
+* https://twitter.com/James_inthe_box/status/1699500419607884142
 * https://www.threatminer.org/report.php?q=KL_AdwindPublicReport_2016.pdf&y=2016
 
 ## Literature

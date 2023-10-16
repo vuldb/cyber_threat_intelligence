@@ -64,7 +64,7 @@ ID | Type | Indicator | Confidence
 4 | File | `admin/admin/adminsave.html` | High
 5 | ... | ... | ...
 
-There are 28 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 29 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

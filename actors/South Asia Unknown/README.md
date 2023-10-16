@@ -55,7 +55,8 @@ ID | Type | Indicator | Confidence
 6 | File | `/uncpath/` | Medium
 7 | File | `Admin/edit-admin.php` | High
 8 | File | `app/topic/action/admin/topic.php` | High
-9 | ... | ... | ...
+9 | File | `category.asp` | Medium
+10 | ... | ... | ...
 
 There are 70 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 

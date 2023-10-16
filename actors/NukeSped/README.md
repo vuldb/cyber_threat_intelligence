@@ -55,7 +55,7 @@ ID | Type | Indicator | Confidence
 4 | File | `/admin/login.php` | High
 5 | File | `/ad_js.php` | Medium
 6 | File | `/alerts/alertConfigField.php` | High
-7 | File | `/API/system/admins/session` | High
+7 | File | `/api/v1/terminal/sessions/?limit=1` | High
 8 | File | `/config/myfield/test.php` | High
 9 | File | `/context/%2e/WEB-INF/web.xml` | High
 10 | File | `/core/conditions/AbstractWrapper.java` | High
@@ -77,7 +77,7 @@ ID | Type | Indicator | Confidence
 26 | File | `/rest/api/2/search` | High
 27 | ... | ... | ...
 
-There are 232 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 226 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

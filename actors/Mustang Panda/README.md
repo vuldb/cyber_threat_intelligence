@@ -49,7 +49,8 @@ ID | IP address | Hostname | Campaign | Confidence
 15 | [45.134.83.41](https://vuldb.com/?ip.45.134.83.41) | - | PlugX | High
 16 | [45.147.26.45](https://vuldb.com/?ip.45.147.26.45) | - | Europe and Asia Pacific | High
 17 | [45.154.14.235](https://vuldb.com/?ip.45.154.14.235) | - | Hodur | High
-18 | ... | ... | ... | ...
+18 | [45.248.87.14](https://vuldb.com/?ip.45.248.87.14) | - | - | High
+19 | ... | ... | ... | ...
 
 There are 70 more IOC items available. Please use our online service to access the data.
 
@@ -137,20 +138,20 @@ ID | Type | Indicator | Confidence
 60 | File | `/ecommerce/admin/category/controller.php` | High
 61 | File | `/edoc/doctor/patient.php` | High
 62 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-63 | File | `/etc/shadow` | Medium
-64 | File | `/export` | Low
-65 | File | `/file/upload/1` | High
-66 | File | `/files/list-file` | High
-67 | File | `/file_manager/login.php` | High
-68 | File | `/forum/PostPrivateMessage` | High
-69 | File | `/fos/admin/ajax.php?action=save_settings` | High
-70 | File | `/goform/NTPSyncWithHost` | High
-71 | File | `/goform/SetVirtualServerCfg` | High
-72 | File | `/group1/uploa` | High
-73 | File | `/HNAP1/SetAccessPointMode` | High
+63 | File | `/export` | Low
+64 | File | `/file/upload/1` | High
+65 | File | `/files/list-file` | High
+66 | File | `/file_manager/login.php` | High
+67 | File | `/forum/PostPrivateMessage` | High
+68 | File | `/fos/admin/ajax.php?action=save_settings` | High
+69 | File | `/goform/NTPSyncWithHost` | High
+70 | File | `/goform/SetVirtualServerCfg` | High
+71 | File | `/group1/uploa` | High
+72 | File | `/HNAP1/SetAccessPointMode` | High
+73 | File | `/home/<user>/SecurityOnion/setup/so-setup` | High
 74 | ... | ... | ...
 
-There are 655 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 654 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -160,6 +161,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blogs.blackberry.com/en/2022/10/mustang-panda-abuses-legitimate-apps-to-target-myanmar-based-victims
 * https://blogs.blackberry.com/en/2022/12/mustang-panda-uses-the-russian-ukrainian-war-to-attack-europe-and-asia-pacific-targets
 * https://github.com/eset/malware-ioc/tree/master/quarterly_reports/2020_Q2
+* https://lab52.io/blog/new-mustang-pandas-campaing-against-australia/
 * https://twitter.com/ESETresearch/status/1400165861973966854
 * https://twitter.com/xorhex/status/1406496693735067650
 * https://twitter.com/xorhex/status/1422815329684758537

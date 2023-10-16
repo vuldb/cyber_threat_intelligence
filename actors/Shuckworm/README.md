@@ -97,12 +97,13 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin/scripts/pi-hole/phpqueryads.php` | High
 3 | File | `/api/RecordingList/DownloadRecord?file=` | High
 4 | File | `/api/user/password/sent-reset-email` | High
-5 | File | `/apply.cgi` | Medium
-6 | File | `/debug/pprof` | Medium
-7 | File | `/rapi/read_url` | High
-8 | ... | ... | ...
+5 | File | `/api/v1/terminal/sessions/?limit=1` | High
+6 | File | `/apply.cgi` | Medium
+7 | File | `/debug/pprof` | Medium
+8 | File | `/file/upload/1` | High
+9 | ... | ... | ...
 
-There are 58 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 70 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

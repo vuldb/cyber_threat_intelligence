@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 4 more country items available. Please use our online service to access the data.
+There are 5 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -40,13 +40,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23 | Pathname Traversal | High
+1 | T1006 | CWE-22, CWE-23, CWE-24 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -54,18 +54,20 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/cgi-bin/luci/api/auth` | High
-2 | File | `/filemanager/upload.php` | High
-3 | File | `/resources//../` | High
-4 | File | `/usr/local/nagiosxi/html/includes/configwizards/switch/switch.inc.php` | High
-5 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
-6 | File | `/wp-json/oembed/1.0/embed?url` | High
-7 | File | `admin/modules/tools/ip_history_logs.php` | High
-8 | File | `adminer.php` | Medium
-9 | File | `admin_feature.php` | High
-10 | ... | ... | ...
+1 | File | `.htaccess` | Medium
+2 | File | `/cgi-bin/luci/api/auth` | High
+3 | File | `/filemanager/upload.php` | High
+4 | File | `/resources//../` | High
+5 | File | `/src/Illuminate/Laravel.php` | High
+6 | File | `/usr/local/nagiosxi/html/includes/configwizards/switch/switch.inc.php` | High
+7 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
+8 | File | `/wp-json/oembed/1.0/embed?url` | High
+9 | File | `admin/modules/tools/ip_history_logs.php` | High
+10 | File | `adminer.php` | Medium
+11 | File | `admin_feature.php` | High
+12 | ... | ... | ...
 
-There are 72 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 89 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

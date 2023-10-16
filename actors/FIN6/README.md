@@ -123,9 +123,10 @@ ID | Type | Indicator | Confidence
 54 | File | `/workspaceCleanup` | High
 55 | File | `/wp-admin/admin-ajax.php?action=get_wdtable&table_id=1` | High
 56 | File | `account/gallery.php` | High
-57 | ... | ... | ...
+57 | File | `add_edit_cat.asp` | High
+58 | ... | ... | ...
 
-There are 498 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 503 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

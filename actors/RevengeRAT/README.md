@@ -8,8 +8,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with RevengeRAT:
 
-* [VN](https://vuldb.com/?country.vn)
 * [US](https://vuldb.com/?country.us)
+* [VN](https://vuldb.com/?country.vn)
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
@@ -64,20 +64,20 @@ ID | Type | Indicator | Confidence
 13 | File | `/goform/set_LimitClient_cfg` | High
 14 | File | `/home/www/cgi-bin/login.cgi` | High
 15 | File | `/hss/admin/?page=products/view_product` | High
-16 | File | `/index.php?app=main&func=passport&action=login` | High
-17 | File | `/multi-vendor-shopping-script/product-list.php` | High
-18 | File | `/net-banking/customer_transactions.php` | High
-19 | File | `/obs/book.php` | High
-20 | File | `/ossn/administrator/com_installer` | High
-21 | File | `/owa/auth/logon.aspx` | High
-22 | File | `/pms/update_user.php?user_id=1` | High
-23 | File | `/preview.php` | Medium
-24 | File | `/requests.php` | High
-25 | File | `/secure/ViewCollectors` | High
-26 | File | `/spip.php` | Medium
-27 | File | `/sqlite3_aflpp/shell.c` | High
-28 | File | `/squashfs-root/etc_ro/custom.conf` | High
-29 | File | `/sre/params.php` | High
+16 | File | `/importexport.php` | High
+17 | File | `/index.php?app=main&func=passport&action=login` | High
+18 | File | `/multi-vendor-shopping-script/product-list.php` | High
+19 | File | `/net-banking/customer_transactions.php` | High
+20 | File | `/obs/book.php` | High
+21 | File | `/ossn/administrator/com_installer` | High
+22 | File | `/owa/auth/logon.aspx` | High
+23 | File | `/pms/update_user.php?user_id=1` | High
+24 | File | `/preview.php` | Medium
+25 | File | `/requests.php` | High
+26 | File | `/secure/ViewCollectors` | High
+27 | File | `/spip.php` | Medium
+28 | File | `/sqlite3_aflpp/shell.c` | High
+29 | File | `/squashfs-root/etc_ro/custom.conf` | High
 30 | File | `/SVFE2/pages/feegroups/service_group.jsf` | High
 31 | File | `/sys/user/querySysUser?username=admin` | High
 32 | File | `/uncpath/` | Medium
@@ -94,9 +94,10 @@ ID | Type | Indicator | Confidence
 43 | File | `admin/index.php` | High
 44 | File | `admin/make_payments.php` | High
 45 | File | `admin/_cmdstat.jsp` | High
-46 | ... | ... | ...
+46 | File | `af_netlink.c` | Medium
+47 | ... | ... | ...
 
-There are 403 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 407 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

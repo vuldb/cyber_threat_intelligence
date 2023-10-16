@@ -15,8 +15,8 @@ The following _campaigns_ are known and can be associated with Hackers-for-Hire:
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Hackers-for-Hire:
 
 * [US](https://vuldb.com/?country.us)
+* [GB](https://vuldb.com/?country.gb)
 * [TR](https://vuldb.com/?country.tr)
-* [DE](https://vuldb.com/?country.de)
 * ...
 
 There are 2 more country items available. Please use our online service to access the data.
@@ -42,7 +42,7 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1055 | CWE-74 | Injection | High
 2 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-3 | T1068 | CWE-264, CWE-269 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+3 | T1068 | CWE-264, CWE-269, CWE-274 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 4 | ... | ... | ... | ...
 
 There are 5 more TTP items available. Please use our online service to access the data.
@@ -56,7 +56,8 @@ ID | Type | Indicator | Confidence
 1 | File | `/EXCU_SHELL` | Medium
 2 | File | `/my_photo_gallery/image.php` | High
 3 | File | `/reps/classes/Users.php?f=delete_agent` | High
-4 | ... | ... | ...
+4 | File | `Admin/edit-admin.php` | High
+5 | ... | ... | ...
 
 There are 25 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 

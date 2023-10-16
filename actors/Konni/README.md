@@ -26,7 +26,7 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [31.170.163.30](https://vuldb.com/?ip.31.170.163.30) | cpl07.main-hosting.eu | - | High
 4 | ... | ... | ... | ...
 
-There are 6 more IOC items available. Please use our online service to access the data.
+There are 9 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -35,11 +35,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22 | Pathname Traversal | High
-2 | T1059.007 | CWE-79 | Cross Site Scripting | High
-3 | T1068 | CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+2 | T1059 | CWE-94 | Cross Site Scripting | High
+3 | T1059.007 | CWE-79 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 3 more TTP items available. Please use our online service to access the data.
+There are 4 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -47,18 +47,20 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `application\User\Controller\ProfileController.class.php` | High
-2 | File | `banner-edit.php` | High
-3 | File | `books.php` | Medium
+1 | File | `/uncpath/` | Medium
+2 | File | `application\User\Controller\ProfileController.class.php` | High
+3 | File | `banner-edit.php` | High
 4 | ... | ... | ...
 
-There are 10 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 12 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://threatfox.abuse.ch
+* https://twitter.com/fr0s7_/status/1697506531724419277
+* https://twitter.com/lightC07379408/status/1697077350595461324
 * https://twitter.com/StopMalvertisin/status/1680839012712611840
 * https://www.threatminer.org/report.php?q=NewKONNIMalwareattackingEurasiaandSoutheastAsia-PaloAltoNetworksBlog.pdf&y=2018
 * https://www.threatminer.org/report.php?q=ThreatSpotlight-KONNI%E2%80%93AStealthyRemoteAccessTrojan-Cylance.pdf&y=2017

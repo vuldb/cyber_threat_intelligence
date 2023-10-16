@@ -50,14 +50,14 @@ ID | Type | Indicator | Confidence
 1 | File | `/api/RecordingList/DownloadRecord?file=` | High
 2 | File | `/apply.cgi` | Medium
 3 | File | `/rapi/read_url` | High
-4 | File | `/uncpath/` | Medium
-5 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
-6 | File | `AppCompatCache.exe` | High
-7 | File | `appserv/main.php` | High
-8 | File | `cgi-bin/awstats.pl` | High
+4 | File | `/scripts/unlock_tasks.php` | High
+5 | File | `/system/user/modules/mod_users/controller.php` | High
+6 | File | `/uncpath/` | Medium
+7 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
+8 | File | `AppCompatCache.exe` | High
 9 | ... | ... | ...
 
-There are 64 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 70 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

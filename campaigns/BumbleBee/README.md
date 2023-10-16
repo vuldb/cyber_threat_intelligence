@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [US](https://vuldb.com/?country.us)
 * ...
 
-There are 5 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -392,9 +392,10 @@ ID | IP address | Hostname | Actor | Confidence
 356 | [46.246.3.253](https://vuldb.com/?ip.46.246.3.253) | - | [xHunt](https://vuldb.com/?actor.xhunt) | High
 357 | [46.246.3.254](https://vuldb.com/?ip.46.246.3.254) | - | [xHunt](https://vuldb.com/?actor.xhunt) | High
 358 | [46.249.38.114](https://vuldb.com/?ip.46.249.38.114) | - | [BumbleBee](https://vuldb.com/?actor.bumblebee) | High
-359 | ... | ... | ... | ...
+359 | [46.249.38.141](https://vuldb.com/?ip.46.249.38.141) | - | [BumbleBee](https://vuldb.com/?actor.bumblebee) | High
+360 | ... | ... | ... | ...
 
-There are 1430 more IOC items available. Please use our online service to access the data.
+There are 1434 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -402,14 +403,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-29 | Pathname Traversal | High
-2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-25, CWE-35 | Pathname Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -417,61 +418,47 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/academy/home/courses` | High
-2 | File | `/admin.php?c=upload&f=zip&_noCache=0.1683794968` | High
-3 | File | `/admin/?page=user/list` | High
-4 | File | `/admin/adclass.php` | High
-5 | File | `/admin/students/view_details.php` | High
-6 | File | `/ajax-files/followBoard.php` | High
-7 | File | `/ajax.php?action=read_msg` | High
-8 | File | `/api/baskets/{name}` | High
-9 | File | `/api/sys/set_passwd` | High
-10 | File | `/api/upload.php` | High
-11 | File | `/app/search/table` | High
-12 | File | `/auth/callback` | High
-13 | File | `/authenticationendpoint/login.do` | High
-14 | File | `/bsms_ci/index.php/user/edit_user/` | High
-15 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
-16 | File | `/cgi-bin/wlogin.cgi` | High
-17 | File | `/cgi.cgi` | Medium
-18 | File | `/ci_spms/admin/search/searching/` | High
-19 | File | `/collection/all` | High
-20 | File | `/common/info.cgi` | High
-21 | File | `/Content/Template/root/reverse-shell.aspx` | High
-22 | File | `/debug/pprof` | Medium
-23 | File | `/etc/pki/pesign` | High
-24 | File | `/file/upload/1` | High
-25 | File | `/forum/away.php` | High
-26 | File | `/getcfg.php` | Medium
-27 | File | `/goform/setportList` | High
-28 | File | `/goform/set_LimitClient_cfg` | High
-29 | File | `/gracemedia-media-player/templates/files/ajax_controller.php` | High
-30 | File | `/group1/uploa` | High
-31 | File | `/h/autoSaveDraft` | High
-32 | File | `/includes/db_connect.php` | High
-33 | File | `/includes/session.php` | High
-34 | File | `/index.php?page=member` | High
-35 | File | `/modules/projects/vw_files.php` | High
-36 | File | `/modules/public/calendar.php` | High
-37 | File | `/modules/public/date_format.php` | High
-38 | File | `/modules/tasks/gantt.php` | High
-39 | File | `/net/sched/cls_fw.c` | High
-40 | File | `/plugins/playbooks/api/v0/runs` | High
-41 | File | `/preview.php` | Medium
-42 | File | `/QueryView.php` | High
-43 | File | `/romfile.cfg` | Medium
-44 | File | `/search.php` | Medium
-45 | File | `/squashfs-root/etc_ro/custom.conf` | High
-46 | File | `/staff/bookdetails.php` | High
-47 | File | `/staff/edit_book_details.php` | High
-48 | File | `/student/bookdetails.php` | High
-49 | File | `/trx_addons/v2/get/sc_layout` | High
-50 | File | `/uncpath/` | Medium
-51 | File | `/v1/hotlink/proxy` | High
-52 | File | `/var/log/rkhunter.log` | High
-53 | ... | ... | ...
+1 | File | `/academy/tutor/filter` | High
+2 | File | `/admin/admin-profile.php` | High
+3 | File | `/admin/sales/view_details.php` | High
+4 | File | `/api/baskets/{name}` | High
+5 | File | `/api/cron/settings/setJob/` | High
+6 | File | `/api/v1/snapshots` | High
+7 | File | `/appliance/users?action=edit` | High
+8 | File | `/aqpg/users/login.php` | High
+9 | File | `/audit/log/log_management.php` | High
+10 | File | `/cgi-bin/mainfunction.cgi` | High
+11 | File | `/cgi-bin/wlogin.cgi` | High
+12 | File | `/cgi/networkDiag.cgi` | High
+13 | File | `/collection/all` | High
+14 | File | `/Content/Template/root/reverse-shell.aspx` | High
+15 | File | `/ctcprotocol/Protocol` | High
+16 | File | `/dashboard/add-blog.php` | High
+17 | File | `/debug/pprof` | Medium
+18 | File | `/dottie.js` | Medium
+19 | File | `/DXR.axd` | Medium
+20 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+21 | File | `/env` | Low
+22 | File | `/files/` | Low
+23 | File | `/forum/away.php` | High
+24 | File | `/fusion/portal/action/Link` | High
+25 | File | `/hrm/controller/employee.php` | High
+26 | File | `/hrm/employeeview.php` | High
+27 | File | `/importexport.php` | High
+28 | File | `/inc/parser/xhtml.php` | High
+29 | File | `/index.php` | Medium
+30 | File | `/index.php/sysmanage/Login/login_auth/` | High
+31 | File | `/index.php?p=admin/actions/users/send-password-reset-email` | High
+32 | File | `/jurusanmatkul/data` | High
+33 | File | `/log/webmailattach.php` | High
+34 | File | `/login.php?do=login` | High
+35 | File | `/mc` | Low
+36 | File | `/modules/projects/vw_files.php` | High
+37 | File | `/pf/idprofile.ping` | High
+38 | File | `/preview.php` | Medium
+39 | ... | ... | ...
 
-There are 461 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 340 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

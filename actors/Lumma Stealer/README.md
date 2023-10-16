@@ -29,7 +29,7 @@ ID | IP address | Hostname | Campaign | Confidence
 6 | [45.15.25.190](https://vuldb.com/?ip.45.15.25.190) | - | - | High
 7 | ... | ... | ... | ...
 
-There are 23 more IOC items available. Please use our online service to access the data.
+There are 24 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -50,27 +50,28 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/api/profile` | Medium
-2 | File | `/api/RecordingList/DownloadRecord?file=` | High
-3 | File | `/apply.cgi` | Medium
-4 | File | `/dataset/data/{id}` | High
-5 | File | `/debug/pprof` | Medium
-6 | File | `/etc/grafana/grafana.ini` | High
-7 | File | `/forum/PostPrivateMessage` | High
-8 | File | `/nova/bin/igmp-proxy` | High
-9 | File | `/orrs/admin/?page=user/manage_user` | High
-10 | File | `/pages/processlogin.php` | High
-11 | File | `/rapi/read_url` | High
-12 | File | `/scripts/unlock_tasks.php` | High
-13 | File | `/system/user/modules/mod_users/controller.php` | High
-14 | File | `/uncpath/` | Medium
-15 | File | `/usr/local/psa/admin/sbin/wrapper` | High
-16 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
-17 | File | `123flashchat.php` | High
-18 | File | `admin.jcomments.php` | High
-19 | ... | ... | ...
+1 | File | `/api/baskets/{name}` | High
+2 | File | `/api/profile` | Medium
+3 | File | `/api/RecordingList/DownloadRecord?file=` | High
+4 | File | `/apply.cgi` | Medium
+5 | File | `/dataset/data/{id}` | High
+6 | File | `/debug/pprof` | Medium
+7 | File | `/etc/grafana/grafana.ini` | High
+8 | File | `/forum/PostPrivateMessage` | High
+9 | File | `/nova/bin/igmp-proxy` | High
+10 | File | `/orrs/admin/?page=user/manage_user` | High
+11 | File | `/pages/processlogin.php` | High
+12 | File | `/rapi/read_url` | High
+13 | File | `/scripts/unlock_tasks.php` | High
+14 | File | `/system/user/modules/mod_users/controller.php` | High
+15 | File | `/uncpath/` | Medium
+16 | File | `/usr/local/psa/admin/sbin/wrapper` | High
+17 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
+18 | File | `123flashchat.php` | High
+19 | File | `admin.jcomments.php` | High
+20 | ... | ... | ...
 
-There are 157 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 164 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -91,6 +92,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://tracker.viriback.com/index.php?q=185.99.133.246
 * https://twitter.com/Ishusoka/status/1649716132822089728
 * https://twitter.com/sekoia_io/status/1572889505497223169
+* https://x.com/Gi7w0rm/status/1711900442899149240
 
 ## Literature
 

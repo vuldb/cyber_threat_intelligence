@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 4 more country items available. Please use our online service to access the data.
+There are 3 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -40,56 +40,59 @@ ID | IP address | Hostname | Campaign | Confidence
 17 | [5.78.104.95](https://vuldb.com/?ip.5.78.104.95) | static.95.104.78.5.clients.your-server.de | - | High
 18 | [5.161.66.54](https://vuldb.com/?ip.5.161.66.54) | static.54.66.161.5.clients.your-server.de | - | High
 19 | [5.161.97.13](https://vuldb.com/?ip.5.161.97.13) | static.13.97.161.5.clients.your-server.de | - | High
-20 | [5.252.21.12](https://vuldb.com/?ip.5.252.21.12) | vm1290987.stark-industries.solutions | - | High
-21 | [5.255.106.130](https://vuldb.com/?ip.5.255.106.130) | - | - | High
-22 | [5.255.113.49](https://vuldb.com/?ip.5.255.113.49) | - | - | High
-23 | [8.218.75.210](https://vuldb.com/?ip.8.218.75.210) | - | - | High
-24 | [23.184.48.114](https://vuldb.com/?ip.23.184.48.114) | - | - | High
-25 | [23.224.148.178](https://vuldb.com/?ip.23.224.148.178) | - | - | High
-26 | [23.224.148.179](https://vuldb.com/?ip.23.224.148.179) | - | - | High
-27 | [23.224.148.180](https://vuldb.com/?ip.23.224.148.180) | - | - | High
-28 | [23.224.148.181](https://vuldb.com/?ip.23.224.148.181) | - | - | High
-29 | [23.224.148.182](https://vuldb.com/?ip.23.224.148.182) | - | - | High
-30 | [23.227.202.68](https://vuldb.com/?ip.23.227.202.68) | mail.bdanfbi.work | - | High
-31 | [31.41.244.65](https://vuldb.com/?ip.31.41.244.65) | - | - | High
-32 | [31.41.244.251](https://vuldb.com/?ip.31.41.244.251) | - | - | High
-33 | [34.159.167.20](https://vuldb.com/?ip.34.159.167.20) | 20.167.159.34.bc.googleusercontent.com | - | Medium
-34 | [36.112.154.5](https://vuldb.com/?ip.36.112.154.5) | - | - | High
-35 | [37.28.157.52](https://vuldb.com/?ip.37.28.157.52) | d157052.artnet.gda.pl | - | High
-36 | [37.220.87.73](https://vuldb.com/?ip.37.220.87.73) | ipn-37-220-87-73.artem-catv.ru | - | High
-37 | [43.248.128.166](https://vuldb.com/?ip.43.248.128.166) | - | - | High
-38 | [43.248.128.204](https://vuldb.com/?ip.43.248.128.204) | - | - | High
-39 | [43.248.129.5](https://vuldb.com/?ip.43.248.129.5) | - | - | High
-40 | [43.248.129.18](https://vuldb.com/?ip.43.248.129.18) | - | - | High
-41 | [43.248.129.21](https://vuldb.com/?ip.43.248.129.21) | - | - | High
-42 | [43.248.129.46](https://vuldb.com/?ip.43.248.129.46) | - | - | High
-43 | [45.9.74.92](https://vuldb.com/?ip.45.9.74.92) | - | - | High
-44 | [45.12.239.76](https://vuldb.com/?ip.45.12.239.76) | - | - | High
-45 | [45.12.253.67](https://vuldb.com/?ip.45.12.253.67) | - | - | High
-46 | [45.12.253.127](https://vuldb.com/?ip.45.12.253.127) | - | - | High
-47 | [45.15.156.171](https://vuldb.com/?ip.45.15.156.171) | - | - | High
-48 | [45.15.157.6](https://vuldb.com/?ip.45.15.157.6) | quizzical-fish.aeza.network | - | High
-49 | [45.15.157.106](https://vuldb.com/?ip.45.15.157.106) | - | - | High
-50 | [45.15.157.135](https://vuldb.com/?ip.45.15.157.135) | dainty-tongue.aeza.network | - | High
-51 | [45.15.159.188](https://vuldb.com/?ip.45.15.159.188) | pithy-care.aeza.network | - | High
-52 | [45.61.139.222](https://vuldb.com/?ip.45.61.139.222) | - | - | High
-53 | [45.66.230.37](https://vuldb.com/?ip.45.66.230.37) | - | - | High
-54 | [45.67.35.68](https://vuldb.com/?ip.45.67.35.68) | relay.amadeus.net | - | High
-55 | [45.81.39.167](https://vuldb.com/?ip.45.81.39.167) | - | - | High
-56 | [45.88.67.78](https://vuldb.com/?ip.45.88.67.78) | - | - | High
-57 | [45.88.67.133](https://vuldb.com/?ip.45.88.67.133) | - | - | High
-58 | [45.89.54.82](https://vuldb.com/?ip.45.89.54.82) | vm1280053.stark-industries.solutions | - | High
-59 | [45.138.74.30](https://vuldb.com/?ip.45.138.74.30) | sweet-sound.aeza.network | - | High
-60 | [45.141.86.121](https://vuldb.com/?ip.45.141.86.121) | - | - | High
-61 | [45.144.28.84](https://vuldb.com/?ip.45.144.28.84) | dresgdrfgbd.com | - | High
-62 | [45.144.28.154](https://vuldb.com/?ip.45.144.28.154) | vm1226483.stark-industries.solutions | - | High
-63 | [45.147.197.114](https://vuldb.com/?ip.45.147.197.114) | vm4576730.1nvme.had.wf | - | High
-64 | [45.147.197.188](https://vuldb.com/?ip.45.147.197.188) | vm4456743.1nvme.had.wf | - | High
-65 | [45.147.229.23](https://vuldb.com/?ip.45.147.229.23) | - | - | High
-66 | [45.147.231.118](https://vuldb.com/?ip.45.147.231.118) | - | - | High
-67 | ... | ... | ... | ...
+20 | [5.161.188.133](https://vuldb.com/?ip.5.161.188.133) | static.133.188.161.5.clients.prevps.com | - | High
+21 | [5.252.21.12](https://vuldb.com/?ip.5.252.21.12) | vm1290987.stark-industries.solutions | - | High
+22 | [5.255.106.130](https://vuldb.com/?ip.5.255.106.130) | - | - | High
+23 | [5.255.113.49](https://vuldb.com/?ip.5.255.113.49) | - | - | High
+24 | [8.218.75.210](https://vuldb.com/?ip.8.218.75.210) | - | - | High
+25 | [23.184.48.114](https://vuldb.com/?ip.23.184.48.114) | - | - | High
+26 | [23.224.148.178](https://vuldb.com/?ip.23.224.148.178) | - | - | High
+27 | [23.224.148.179](https://vuldb.com/?ip.23.224.148.179) | - | - | High
+28 | [23.224.148.180](https://vuldb.com/?ip.23.224.148.180) | - | - | High
+29 | [23.224.148.181](https://vuldb.com/?ip.23.224.148.181) | - | - | High
+30 | [23.224.148.182](https://vuldb.com/?ip.23.224.148.182) | - | - | High
+31 | [23.227.202.68](https://vuldb.com/?ip.23.227.202.68) | mail.bdanfbi.work | - | High
+32 | [31.41.244.65](https://vuldb.com/?ip.31.41.244.65) | - | - | High
+33 | [31.41.244.251](https://vuldb.com/?ip.31.41.244.251) | - | - | High
+34 | [34.159.167.20](https://vuldb.com/?ip.34.159.167.20) | 20.167.159.34.bc.googleusercontent.com | - | Medium
+35 | [36.112.154.5](https://vuldb.com/?ip.36.112.154.5) | - | - | High
+36 | [37.28.157.52](https://vuldb.com/?ip.37.28.157.52) | d157052.artnet.gda.pl | - | High
+37 | [37.220.87.73](https://vuldb.com/?ip.37.220.87.73) | ipn-37-220-87-73.artem-catv.ru | - | High
+38 | [43.248.128.166](https://vuldb.com/?ip.43.248.128.166) | - | - | High
+39 | [43.248.128.204](https://vuldb.com/?ip.43.248.128.204) | - | - | High
+40 | [43.248.129.5](https://vuldb.com/?ip.43.248.129.5) | - | - | High
+41 | [43.248.129.18](https://vuldb.com/?ip.43.248.129.18) | - | - | High
+42 | [43.248.129.21](https://vuldb.com/?ip.43.248.129.21) | - | - | High
+43 | [43.248.129.46](https://vuldb.com/?ip.43.248.129.46) | - | - | High
+44 | [45.9.74.92](https://vuldb.com/?ip.45.9.74.92) | - | - | High
+45 | [45.12.239.76](https://vuldb.com/?ip.45.12.239.76) | - | - | High
+46 | [45.12.253.67](https://vuldb.com/?ip.45.12.253.67) | - | - | High
+47 | [45.12.253.127](https://vuldb.com/?ip.45.12.253.127) | - | - | High
+48 | [45.15.156.171](https://vuldb.com/?ip.45.15.156.171) | - | - | High
+49 | [45.15.157.6](https://vuldb.com/?ip.45.15.157.6) | quizzical-fish.aeza.network | - | High
+50 | [45.15.157.106](https://vuldb.com/?ip.45.15.157.106) | - | - | High
+51 | [45.15.157.135](https://vuldb.com/?ip.45.15.157.135) | dainty-tongue.aeza.network | - | High
+52 | [45.15.157.211](https://vuldb.com/?ip.45.15.157.211) | abstracted-cherry.aeza.network | - | High
+53 | [45.15.159.188](https://vuldb.com/?ip.45.15.159.188) | pithy-care.aeza.network | - | High
+54 | [45.61.139.222](https://vuldb.com/?ip.45.61.139.222) | - | - | High
+55 | [45.66.230.37](https://vuldb.com/?ip.45.66.230.37) | - | - | High
+56 | [45.67.35.68](https://vuldb.com/?ip.45.67.35.68) | relay.amadeus.net | - | High
+57 | [45.81.39.167](https://vuldb.com/?ip.45.81.39.167) | - | - | High
+58 | [45.88.67.78](https://vuldb.com/?ip.45.88.67.78) | - | - | High
+59 | [45.88.67.133](https://vuldb.com/?ip.45.88.67.133) | - | - | High
+60 | [45.89.54.82](https://vuldb.com/?ip.45.89.54.82) | vm1280053.stark-industries.solutions | - | High
+61 | [45.138.74.30](https://vuldb.com/?ip.45.138.74.30) | sweet-sound.aeza.network | - | High
+62 | [45.141.86.121](https://vuldb.com/?ip.45.141.86.121) | - | - | High
+63 | [45.144.28.84](https://vuldb.com/?ip.45.144.28.84) | dresgdrfgbd.com | - | High
+64 | [45.144.28.154](https://vuldb.com/?ip.45.144.28.154) | vm1226483.stark-industries.solutions | - | High
+65 | [45.147.197.114](https://vuldb.com/?ip.45.147.197.114) | vm4576730.1nvme.had.wf | - | High
+66 | [45.147.197.188](https://vuldb.com/?ip.45.147.197.188) | vm4456743.1nvme.had.wf | - | High
+67 | [45.147.197.249](https://vuldb.com/?ip.45.147.197.249) | vm4624888.1nvme.had.wf | - | High
+68 | [45.147.229.23](https://vuldb.com/?ip.45.147.229.23) | - | - | High
+69 | [45.147.231.118](https://vuldb.com/?ip.45.147.231.118) | - | - | High
+70 | ... | ... | ... | ...
 
-There are 264 more IOC items available. Please use our online service to access the data.
+There are 276 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -97,14 +100,15 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-29, CWE-36 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-29 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-264, CWE-266, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
-6 | ... | ... | ... | ...
+5 | T1068 | CWE-250, CWE-264, CWE-266, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+6 | T1110.001 | CWE-307, CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
+7 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -120,43 +124,42 @@ ID | Type | Indicator | Confidence
 6 | File | `/ajax.php?action=read_msg` | High
 7 | File | `/api/baskets/{name}` | High
 8 | File | `/api/upload.php` | High
-9 | File | `/api?path=profile` | High
-10 | File | `/auth/callback` | High
-11 | File | `/authenticationendpoint/login.do` | High
-12 | File | `/cgi-bin/wlogin.cgi` | High
-13 | File | `/cgi.cgi` | Medium
-14 | File | `/ci_spms/admin/search/searching/` | High
-15 | File | `/classes/Master.php?f=save_brand` | High
-16 | File | `/Content/Template/root/reverse-shell.aspx` | High
-17 | File | `/debug/pprof` | Medium
-18 | File | `/etc/pki/pesign` | High
-19 | File | `/forum/away.php` | High
-20 | File | `/goform/setportList` | High
-21 | File | `/goform/set_LimitClient_cfg` | High
-22 | File | `/graphql` | Medium
-23 | File | `/group1/uploa` | High
-24 | File | `/h/autoSaveDraft` | High
-25 | File | `/index.php` | Medium
-26 | File | `/index.php?page=member` | High
-27 | File | `/modules/projects/vw_files.php` | High
-28 | File | `/plugins/playbooks/api/v0/runs` | High
-29 | File | `/QueryView.php` | High
-30 | File | `/release-x64/otfccdump+0x61731f` | High
-31 | File | `/resources//../` | High
-32 | File | `/romfile.cfg` | Medium
-33 | File | `/search.php` | Medium
-34 | File | `/sitecore/shell/Invoke.aspx` | High
-35 | File | `/squashfs-root/etc_ro/custom.conf` | High
-36 | File | `/staff/bookdetails.php` | High
-37 | File | `/staff/edit_book_details.php` | High
-38 | File | `/student/bookdetails.php` | High
-39 | File | `/uncpath/` | Medium
-40 | File | `/user/profile` | High
-41 | File | `/videotalk` | Medium
-42 | File | `/wireless/basic.asp` | High
-43 | ... | ... | ...
+9 | File | `/auth/callback` | High
+10 | File | `/authenticationendpoint/login.do` | High
+11 | File | `/cgi-bin/wlogin.cgi` | High
+12 | File | `/cgi.cgi` | Medium
+13 | File | `/ci_spms/admin/search/searching/` | High
+14 | File | `/collection/all` | High
+15 | File | `/Content/Template/root/reverse-shell.aspx` | High
+16 | File | `/ctcprotocol/Protocol` | High
+17 | File | `/dashboard/add-blog.php` | High
+18 | File | `/debug/pprof` | Medium
+19 | File | `/DXR.axd` | Medium
+20 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+21 | File | `/etc/pki/pesign` | High
+22 | File | `/files/` | Low
+23 | File | `/forum/away.php` | High
+24 | File | `/goform/setportList` | High
+25 | File | `/goform/set_LimitClient_cfg` | High
+26 | File | `/group1/uploa` | High
+27 | File | `/h/autoSaveDraft` | High
+28 | File | `/index.php` | Medium
+29 | File | `/index.php?p=admin/actions/users/send-password-reset-email` | High
+30 | File | `/index.php?page=member` | High
+31 | File | `/jurusanmatkul/data` | High
+32 | File | `/log/decodmail.php` | High
+33 | File | `/login.php?do=login` | High
+34 | File | `/modules/projects/vw_files.php` | High
+35 | File | `/plugins/playbooks/api/v0/runs` | High
+36 | File | `/public/login.htm` | High
+37 | File | `/QueryView.php` | High
+38 | File | `/romfile.cfg` | Medium
+39 | File | `/roomtype-details.php` | High
+40 | File | `/squashfs-root/etc_ro/custom.conf` | High
+41 | File | `/staff/bookdetails.php` | High
+42 | ... | ... | ...
 
-There are 374 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 365 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -170,6 +173,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://app.any.run/tasks/7a521ec4-f571-4d4d-9eb6-1639182c5864
 * https://app.any.run/tasks/586bce6b-583c-4ccf-8ab4-28013cce4cab
 * https://app.any.run/tasks/698f65e2-2af2-4969-8d52-f388744af33b
+* https://app.any.run/tasks/7620741b-7dec-44d8-89c2-d4c63a7d0cca
 * https://app.any.run/tasks/63642312-7d91-4791-b361-753b7a356fa1
 * https://app.any.run/tasks/a3ba9cd4-cb7d-4f3f-95e6-2801029ed20f
 * https://app.any.run/tasks/ab41a754-4f5e-4b83-972a-372bd9c75488
@@ -180,6 +184,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://app.any.run/tasks/e331e3ce-37e0-4f97-85c3-b43ee19ccb50/
 * https://blog.sekoia.io/stealc-a-copycat-of-vidar-and-raccoon-infostealers-gaining-in-popularity-part-1/
 * https://threatfox.abuse.ch
+* https://tria.ge/230910-2f8tkscb89/behavioral1
 * https://twitter.com/crep1x/status/1633412384063901697
 * https://twitter.com/crep1x/status/1636352242969108484
 

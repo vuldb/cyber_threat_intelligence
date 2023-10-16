@@ -73,9 +73,10 @@ ID | Type | Indicator | Confidence
 12 | File | `/usr/bin/pkexec` | High
 13 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
 14 | File | `/wp-content/uploads/photo-gallery/` | High
-15 | ... | ... | ...
+15 | File | `administrator/components/com_media/helpers/media.php` | High
+16 | ... | ... | ...
 
-There are 123 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 126 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

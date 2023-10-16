@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [PT](https://vuldb.com/?country.pt)
 * ...
 
-There are 4 more country items available. Please use our online service to access the data.
+There are 5 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -59,16 +59,17 @@ ID | Type | Indicator | Confidence
 13 | File | `/apply.cgi` | Medium
 14 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
 15 | File | `/classes/Master.php?f=save_inquiry` | High
-16 | File | `/config/list` | Medium
-17 | File | `/coreframe/app/guestbook/myissue.php` | High
-18 | File | `/dede/co_do.php` | High
-19 | File | `/DXR.axd` | Medium
-20 | File | `/etc/init.d/sshd_service` | High
-21 | File | `/fuel/sitevariables/delete/4` | High
-22 | File | `/goform/saveParentControlInfo` | High
-23 | ... | ... | ...
+16 | File | `/collection/all` | High
+17 | File | `/config/list` | Medium
+18 | File | `/coreframe/app/guestbook/myissue.php` | High
+19 | File | `/dede/co_do.php` | High
+20 | File | `/DXR.axd` | Medium
+21 | File | `/etc/init.d/sshd_service` | High
+22 | File | `/fuel/sitevariables/delete/4` | High
+23 | File | `/goform/saveParentControlInfo` | High
+24 | ... | ... | ...
 
-There are 195 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 205 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

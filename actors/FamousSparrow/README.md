@@ -39,15 +39,15 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/login.html` | Medium
-2 | File | `/new` | Low
-3 | File | `/service/upload` | High
-4 | File | `/system?action=ServiceAdmin` | High
-5 | File | `/var/log/nginx` | High
-6 | File | `/wp-json` | Medium
+1 | File | `/api/v1/terminal/sessions/?limit=1` | High
+2 | File | `/login.html` | Medium
+3 | File | `/new` | Low
+4 | File | `/service/upload` | High
+5 | File | `/system?action=ServiceAdmin` | High
+6 | File | `/var/log/nginx` | High
 7 | ... | ... | ...
 
-There are 50 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 51 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -59,7 +59,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -90,28 +90,29 @@ ID | Type | Indicator | Confidence
 21 | File | `/cgi-bin` | Medium
 22 | File | `/cgi-bin/luci/api/wireless` | High
 23 | File | `/cgi-bin/wlogin.cgi` | High
-24 | File | `/context/%2e/WEB-INF/web.xml` | High
-25 | File | `/debian/patches/load_ppp_generic_if_needed` | High
-26 | File | `/debug/pprof` | Medium
-27 | File | `/env` | Low
-28 | File | `/etc/hosts` | Medium
-29 | File | `/forum/away.php` | High
-30 | File | `/goform/setmac` | High
-31 | File | `/goform/wizard_end` | High
-32 | File | `/group1/uploa` | High
-33 | File | `/manage-apartment.php` | High
-34 | File | `/medicines/profile.php` | High
-35 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-36 | File | `/pages/apply_vacancy.php` | High
-37 | File | `/php-sms/admin/?page=user/manage_user` | High
-38 | File | `/proxy` | Low
-39 | File | `/requests.php` | High
-40 | File | `/reservation/add_message.php` | High
-41 | File | `/resources//../` | High
-42 | File | `/secure/ViewCollectors` | High
-43 | File | `/Session` | Medium
-44 | File | `/spip.php` | Medium
-45 | ... | ... | ...
+24 | File | `/Content/Template/root/reverse-shell.aspx` | High
+25 | File | `/context/%2e/WEB-INF/web.xml` | High
+26 | File | `/dashboard/add-blog.php` | High
+27 | File | `/debian/patches/load_ppp_generic_if_needed` | High
+28 | File | `/debug/pprof` | Medium
+29 | File | `/env` | Low
+30 | File | `/etc/hosts` | Medium
+31 | File | `/forum/away.php` | High
+32 | File | `/goform/setmac` | High
+33 | File | `/goform/wizard_end` | High
+34 | File | `/group1/uploa` | High
+35 | File | `/inc/parser/xhtml.php` | High
+36 | File | `/manage-apartment.php` | High
+37 | File | `/medicines/profile.php` | High
+38 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+39 | File | `/pages/apply_vacancy.php` | High
+40 | File | `/php-sms/admin/?page=user/manage_user` | High
+41 | File | `/proxy` | Low
+42 | File | `/requests.php` | High
+43 | File | `/reservation/add_message.php` | High
+44 | File | `/resources//../` | High
+45 | File | `/Session` | Medium
+46 | ... | ... | ...
 
 There are 394 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 

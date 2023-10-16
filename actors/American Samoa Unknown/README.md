@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 24 more country items available. Please use our online service to access the data.
+There are 26 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -54,7 +54,8 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
 
@@ -103,33 +104,35 @@ ID | Type | Indicator | Confidence
 37 | File | `/wordpress/wp-admin/options-general.php` | High
 38 | File | `/wp-admin` | Medium
 39 | File | `/wp-admin/admin-ajax.php` | High
-40 | File | `account.asp` | Medium
-41 | File | `adclick.php` | Medium
-42 | File | `adm/systools.asp` | High
-43 | File | `admin.php` | Medium
-44 | File | `admin/admin.shtml` | High
-45 | File | `Admin/ADM_Pagina.php` | High
-46 | File | `admin/category.inc.php` | High
-47 | File | `admin/main.asp` | High
-48 | File | `admin/param/param_func.inc.php` | High
-49 | File | `admin/y_admin.asp` | High
-50 | File | `adminer.php` | Medium
-51 | File | `administration/admins.php` | High
-52 | File | `administrator/components/com_media/helpers/media.php` | High
-53 | File | `admin_ok.asp` | Medium
-54 | File | `album_portal.php` | High
-55 | File | `app/Core/Paginator.php` | High
-56 | File | `app/index.php/accounts/default/details?id=2&kanbanBoard=1&openToTaskId=1` | High
-57 | File | `apps/yang/web/src/main/java/org/onosproject/yang/web/YangWebResource.java` | High
-58 | File | `artlinks.dispnew.php` | High
-59 | File | `auth.php` | Medium
-60 | File | `bin/named/query.c` | High
-61 | File | `blank.php` | Medium
-62 | File | `blocklayered-ajax.php` | High
-63 | File | `blogger-importer.php` | High
-64 | ... | ... | ...
+40 | File | `4.2.0.CP09` | Medium
+41 | File | `account.asp` | Medium
+42 | File | `adclick.php` | Medium
+43 | File | `adm/systools.asp` | High
+44 | File | `admin.php` | Medium
+45 | File | `admin/admin.shtml` | High
+46 | File | `Admin/ADM_Pagina.php` | High
+47 | File | `admin/category.inc.php` | High
+48 | File | `admin/main.asp` | High
+49 | File | `admin/param/param_func.inc.php` | High
+50 | File | `admin/y_admin.asp` | High
+51 | File | `adminer.php` | Medium
+52 | File | `administration/admins.php` | High
+53 | File | `administrator/components/com_media/helpers/media.php` | High
+54 | File | `admin_ok.asp` | Medium
+55 | File | `album_portal.php` | High
+56 | File | `app/Core/Paginator.php` | High
+57 | File | `app/index.php/accounts/default/details?id=2&kanbanBoard=1&openToTaskId=1` | High
+58 | File | `apps/yang/web/src/main/java/org/onosproject/yang/web/YangWebResource.java` | High
+59 | File | `artlinks.dispnew.php` | High
+60 | File | `auth.php` | Medium
+61 | File | `bin/named/query.c` | High
+62 | File | `blank.php` | Medium
+63 | File | `blocklayered-ajax.php` | High
+64 | File | `blogger-importer.php` | High
+65 | File | `bluegate_seo.inc.php` | High
+66 | ... | ... | ...
 
-There are 559 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 579 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

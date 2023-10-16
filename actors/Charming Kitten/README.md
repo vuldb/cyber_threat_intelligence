@@ -61,14 +61,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-28 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-28 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -87,39 +87,38 @@ ID | Type | Indicator | Confidence
 9 | File | `/alphaware/summary.php` | High
 10 | File | `/api/` | Low
 11 | File | `/api/admin/store/product/list` | High
-12 | File | `/api/stl/actions/search` | High
-13 | File | `/api/v2/cli/commands` | High
-14 | File | `/attachments` | Medium
-15 | File | `/bin/ate` | Medium
-16 | File | `/boat/login.php` | High
-17 | File | `/booking/show_bookings/` | High
-18 | File | `/bsms_ci/index.php/book` | High
-19 | File | `/cgi-bin` | Medium
-20 | File | `/cgi-bin/luci/api/wireless` | High
-21 | File | `/cgi-bin/wlogin.cgi` | High
-22 | File | `/context/%2e/WEB-INF/web.xml` | High
-23 | File | `/cwms/classes/Master.php?f=save_contact` | High
-24 | File | `/debug/pprof` | Medium
-25 | File | `/env` | Low
-26 | File | `/etc/hosts` | Medium
-27 | File | `/export` | Low
-28 | File | `/forum/away.php` | High
-29 | File | `/goform/setmac` | High
-30 | File | `/goform/wizard_end` | High
-31 | File | `/hardware` | Medium
-32 | File | `/librarian/bookdetails.php` | High
-33 | File | `/manage-apartment.php` | High
-34 | File | `/medicines/profile.php` | High
-35 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-36 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-37 | File | `/pages/apply_vacancy.php` | High
-38 | File | `/php-sms/admin/?page=user/manage_user` | High
-39 | File | `/proxy` | Low
-40 | File | `/reservation/add_message.php` | High
-41 | File | `/spip.php` | Medium
-42 | ... | ... | ...
+12 | File | `/api/baskets/{name}` | High
+13 | File | `/api/stl/actions/search` | High
+14 | File | `/api/v2/cli/commands` | High
+15 | File | `/apply.cgi` | Medium
+16 | File | `/attachments` | Medium
+17 | File | `/bin/ate` | Medium
+18 | File | `/boat/login.php` | High
+19 | File | `/booking/show_bookings/` | High
+20 | File | `/bsms_ci/index.php/book` | High
+21 | File | `/cgi-bin` | Medium
+22 | File | `/cgi-bin/luci/api/wireless` | High
+23 | File | `/cgi-bin/wlogin.cgi` | High
+24 | File | `/Content/Template/root/reverse-shell.aspx` | High
+25 | File | `/context/%2e/WEB-INF/web.xml` | High
+26 | File | `/cwms/classes/Master.php?f=save_contact` | High
+27 | File | `/dashboard/add-blog.php` | High
+28 | File | `/debug/pprof` | Medium
+29 | File | `/env` | Low
+30 | File | `/etc/hosts` | Medium
+31 | File | `/export` | Low
+32 | File | `/forum/away.php` | High
+33 | File | `/goform/setmac` | High
+34 | File | `/goform/wizard_end` | High
+35 | File | `/group1/uploa` | High
+36 | File | `/hardware` | Medium
+37 | File | `/librarian/bookdetails.php` | High
+38 | File | `/medicines/profile.php` | High
+39 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+40 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+41 | ... | ... | ...
 
-There are 358 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 357 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

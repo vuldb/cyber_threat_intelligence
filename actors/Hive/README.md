@@ -52,26 +52,27 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/.vnc/sesman_${username}_passwd` | High
-2 | File | `/admin/cashadvance_row.php` | High
-3 | File | `/admin/login.php` | High
-4 | File | `/asms/classes/Master.php?f=delete_transaction` | High
-5 | File | `/cgi-bin/editBookmark` | High
-6 | File | `/cgi-bin/wlogin.cgi` | High
-7 | File | `/goform/addressNat` | High
-8 | File | `/goform/aspForm` | High
-9 | File | `/include/chart_generator.php` | High
-10 | File | `/include/menu_v.inc.php` | High
-11 | File | `/librarian/lab.php` | High
-12 | File | `/omos/admin/?page=user/list` | High
-13 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-14 | File | `/panel/fields/add` | High
-15 | File | `/patient/settings.php` | High
-16 | File | `/proc/*/cmdline"` | High
-17 | File | `/proc/pid/syscall` | High
-18 | File | `/sbin/acos_service` | High
-19 | ... | ... | ...
+2 | File | `/admin/add-category.php` | High
+3 | File | `/admin/cashadvance_row.php` | High
+4 | File | `/admin/login.php` | High
+5 | File | `/asms/classes/Master.php?f=delete_transaction` | High
+6 | File | `/cgi-bin/editBookmark` | High
+7 | File | `/cgi-bin/wlogin.cgi` | High
+8 | File | `/goform/addressNat` | High
+9 | File | `/goform/aspForm` | High
+10 | File | `/include/chart_generator.php` | High
+11 | File | `/include/menu_v.inc.php` | High
+12 | File | `/kubepi/api/v1/users/search?pageNum=1&&pageSize=10` | High
+13 | File | `/librarian/lab.php` | High
+14 | File | `/omos/admin/?page=user/list` | High
+15 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+16 | File | `/panel/fields/add` | High
+17 | File | `/patient/settings.php` | High
+18 | File | `/proc/*/cmdline"` | High
+19 | File | `/proc/pid/syscall` | High
+20 | ... | ... | ...
 
-There are 155 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 160 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

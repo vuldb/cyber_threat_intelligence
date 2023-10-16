@@ -10,6 +10,17 @@ The following _campaigns_ are known and can be associated with StrelaStealer:
 
 * Spain
 
+## Countries
+
+These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with StrelaStealer:
+
+* [RU](https://vuldb.com/?country.ru)
+* [US](https://vuldb.com/?country.us)
+* [PT](https://vuldb.com/?country.pt)
+* ...
+
+There are 8 more country items available. Please use our online service to access the data.
+
 ## IOC - Indicator of Compromise
 
 These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of StrelaStealer.
@@ -17,6 +28,7 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [91.215.85.209](https://vuldb.com/?ip.91.215.85.209) | - | Spain | High
+2 | [193.109.85.77](https://vuldb.com/?ip.193.109.85.77) | - | - | High
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -24,8 +36,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1202 | CWE-77 | Command Injection | High
-2 | T1592 | CWE-200 | Configuration | High
+1 | T1006 | CWE-22 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | ... | ... | ... | ...
+
+There are 9 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -33,13 +49,20 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `Calc` | Low
+1 | File | `/uncpath/` | Medium
+2 | File | `ajax/include.php` | High
+3 | File | `app/admin/custom-fields/filter-result.php` | High
+4 | File | `boafrm/formSysCmd` | High
+5 | ... | ... | ...
+
+There are 31 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://asec.ahnlab.com/en/53158/
+* https://twitter.com/AgidCert/status/1695004388190806210
 
 ## Literature
 

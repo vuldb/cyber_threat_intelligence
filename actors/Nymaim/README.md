@@ -44,7 +44,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-50 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
@@ -76,10 +76,10 @@ ID | Type | Indicator | Confidence
 15 | File | `/bin/ate` | Medium
 16 | File | `/boat/login.php` | High
 17 | File | `/booking/show_bookings/` | High
-18 | File | `/bsms_ci/index.php/book` | High
-19 | File | `/cgi-bin` | Medium
-20 | File | `/cgi-bin/wlogin.cgi` | High
-21 | File | `/Content/Template/root/reverse-shell.aspx` | High
+18 | File | `/cgi-bin` | Medium
+19 | File | `/cgi-bin/wlogin.cgi` | High
+20 | File | `/Content/Template/root/reverse-shell.aspx` | High
+21 | File | `/dashboard/add-blog.php` | High
 22 | File | `/debug/pprof` | Medium
 23 | File | `/DXR.axd` | Medium
 24 | File | `/env` | Low
@@ -87,28 +87,27 @@ ID | Type | Indicator | Confidence
 26 | File | `/forum/away.php` | High
 27 | File | `/goform/formWPS` | High
 28 | File | `/group1/uploa` | High
-29 | File | `/inc/campaign/count_of_send.php` | High
-30 | File | `/load.php` | Medium
-31 | File | `/medicines/profile.php` | High
-32 | File | `/php-sms/admin/?page=user/manage_user` | High
-33 | File | `/rdms/admin/?page=user/manage_user` | High
-34 | File | `/reservation/add_message.php` | High
-35 | File | `/resources//../` | High
-36 | File | `/secure/QueryComponent!Default.jspa` | High
-37 | File | `/servlet/webacc` | High
-38 | File | `/servlet/webacc?user.html` | High
-39 | File | `/spip.php` | Medium
-40 | File | `/templates/importinline.vm` | High
-41 | File | `/trx_addons/v2/get/sc_layout` | High
-42 | File | `/uscgi-bin/users.cgi` | High
-43 | File | `/user/updatePwd` | High
-44 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
-45 | File | `/video-sharing-script/watch-video.php` | High
-46 | File | `/web/entry/en/address/adrsSetUserWizard.cgi` | High
-47 | File | `/wireless/security.asp` | High
-48 | ... | ... | ...
+29 | File | `/load.php` | Medium
+30 | File | `/php-sms/admin/?page=user/manage_user` | High
+31 | File | `/reservation/add_message.php` | High
+32 | File | `/resources//../` | High
+33 | File | `/secure/QueryComponent!Default.jspa` | High
+34 | File | `/servlet/webacc` | High
+35 | File | `/servlet/webacc?user.html` | High
+36 | File | `/spip.php` | Medium
+37 | File | `/templates/importinline.vm` | High
+38 | File | `/trx_addons/v2/get/sc_layout` | High
+39 | File | `/uncpath/` | Medium
+40 | File | `/uscgi-bin/users.cgi` | High
+41 | File | `/user/updatePwd` | High
+42 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
+43 | File | `/video-sharing-script/watch-video.php` | High
+44 | File | `/web/entry/en/address/adrsSetUserWizard.cgi` | High
+45 | File | `/wireless/security.asp` | High
+46 | File | `5.2.9\syscrb.exe` | High
+47 | ... | ... | ...
 
-There are 413 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 412 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

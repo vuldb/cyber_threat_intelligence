@@ -8,8 +8,6 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with KeyBoy:
 
-* [HK](https://vuldb.com/?country.hk)
-* [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
 
 ## IOC - Indicator of Compromise
@@ -31,12 +29,9 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
-2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94 | Cross Site Scripting | High
-4 | ... | ... | ... | ...
-
-There are 13 more TTP items available. Please use our online service to access the data.
+1 | T1059.007 | CWE-79 | Cross Site Scripting | High
+2 | T1202 | CWE-77 | Command Injection | High
+3 | T1505 | CWE-89 | SQL Injection | High
 
 ## IOA - Indicator of Attack
 
@@ -44,15 +39,12 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/.ssh/authorized_keys` | High
-2 | File | `/baseOpLog.do` | High
-3 | File | `/bitrix/admin/ldap_server_edit.php` | High
-4 | File | `/cgi-bin/api-get_line_status` | High
-5 | File | `/cgi-bin/wapopen` | High
-6 | File | `/controller/OnlinePreviewController.java` | High
-7 | ... | ... | ...
+1 | File | `/ecommerce/admin/settings/setDiscount.php` | High
+2 | File | `/wireless/guestnetwork.asp` | High
+3 | File | `/wireless/security.asp` | High
+4 | ... | ... | ...
 
-There are 44 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 19 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

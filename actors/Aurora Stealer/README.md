@@ -93,7 +93,7 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94 | Cross Site Scripting | High
+3 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
@@ -113,46 +113,47 @@ ID | Type | Indicator | Confidence
 6 | File | `/classes/Master.php?f=delete_inquiry` | High
 7 | File | `/coreframe/app/member/admin/group.php` | High
 8 | File | `/film-rating.php` | High
-9 | File | `/index.php` | Medium
-10 | File | `/index.php?page=member` | High
-11 | File | `/librarian/bookdetails.php` | High
-12 | File | `/mgmt/tm/util/bash` | High
-13 | File | `/mifs/c/i/reg/reg.html` | High
-14 | File | `/modules/projects/vw_files.php` | High
-15 | File | `/school/model/get_events.php` | High
-16 | File | `/secure/ViewCollectors` | High
-17 | File | `/Session` | Medium
-18 | File | `/spacecom/login.php` | High
-19 | File | `/student/bookdetails.php` | High
-20 | File | `/xAdmin/html/cm_doclist_view_uc.jsp` | High
-21 | File | `AbstractController.php` | High
-22 | File | `account.asp` | Medium
-23 | File | `adclick.php` | Medium
-24 | File | `addpost_newpoll.php` | High
-25 | File | `add_comment.php` | High
-26 | File | `admin.php` | Medium
-27 | File | `admin.remository.php` | High
-28 | File | `admin/establishment/manage.php` | High
-29 | File | `admin/inquiries/view_details.php` | High
-30 | File | `admin/news.php` | High
-31 | File | `admin/page.php` | High
-32 | File | `administrator/upload.php` | High
-33 | File | `Administrator/users.php` | High
-34 | File | `affich.php` | Medium
-35 | File | `album_portal.php` | High
-36 | File | `announce.php` | Medium
-37 | File | `archive.php` | Medium
-38 | File | `auth.inc.php` | Medium
-39 | File | `autor.php` | Medium
-40 | File | `b2archives.php` | High
-41 | File | `bbs/faq.php` | Medium
-42 | File | `bb_usage_stats.php` | High
-43 | File | `bl-kernel/ajax/upload-images.php` | High
-44 | File | `board.php` | Medium
-45 | File | `book.cfm` | Medium
-46 | ... | ... | ...
+9 | File | `/hoteldruid/interconnessioni.php` | High
+10 | File | `/index.php` | Medium
+11 | File | `/index.php?page=member` | High
+12 | File | `/librarian/bookdetails.php` | High
+13 | File | `/mgmt/tm/util/bash` | High
+14 | File | `/mifs/c/i/reg/reg.html` | High
+15 | File | `/modules/projects/vw_files.php` | High
+16 | File | `/school/model/get_events.php` | High
+17 | File | `/secure/ViewCollectors` | High
+18 | File | `/Session` | Medium
+19 | File | `/spacecom/login.php` | High
+20 | File | `/student/bookdetails.php` | High
+21 | File | `/xAdmin/html/cm_doclist_view_uc.jsp` | High
+22 | File | `AbstractController.php` | High
+23 | File | `account.asp` | Medium
+24 | File | `adclick.php` | Medium
+25 | File | `addpost_newpoll.php` | High
+26 | File | `add_comment.php` | High
+27 | File | `admin.php` | Medium
+28 | File | `admin.remository.php` | High
+29 | File | `admin/establishment/manage.php` | High
+30 | File | `admin/inquiries/view_details.php` | High
+31 | File | `admin/news.php` | High
+32 | File | `admin/page.php` | High
+33 | File | `administrator/upload.php` | High
+34 | File | `Administrator/users.php` | High
+35 | File | `affich.php` | Medium
+36 | File | `album_portal.php` | High
+37 | File | `announce.php` | Medium
+38 | File | `archive.php` | Medium
+39 | File | `auth.inc.php` | Medium
+40 | File | `autor.php` | Medium
+41 | File | `b2archives.php` | High
+42 | File | `bbs/faq.php` | Medium
+43 | File | `bb_usage_stats.php` | High
+44 | File | `bl-kernel/ajax/upload-images.php` | High
+45 | File | `board.php` | Medium
+46 | File | `book.cfm` | Medium
+47 | ... | ... | ...
 
-There are 402 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 403 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

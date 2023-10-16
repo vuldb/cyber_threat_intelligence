@@ -92,9 +92,10 @@ ID | Type | Indicator | Confidence
 19 | File | `/out.php` | Medium
 20 | File | `/owa/auth/logon.aspx` | High
 21 | File | `/req_password_user.php` | High
-22 | ... | ... | ...
+22 | File | `/rom-0` | Low
+23 | ... | ... | ...
 
-There are 185 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 188 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

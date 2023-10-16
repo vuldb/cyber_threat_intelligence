@@ -67,41 +67,42 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `%PROGRAMDATA%\OpenVPN Connect\drivers\tap\amd64\win10` | High
 2 | File | `%PROGRAMDATA%\Razer\Synapse3\Service\bin` | High
-3 | File | `/admin/config.php?display=disa&view=form` | High
-4 | File | `/admin/settings/sites/new` | High
-5 | File | `/ajax/networking/get_netcfg.php` | High
-6 | File | `/api/admin/store/product/save` | High
-7 | File | `/app/admin/nat/item-add-submit.php` | High
-8 | File | `/cgi-bin/adm.cgi` | High
-9 | File | `/cgi-bin/wapopen` | High
-10 | File | `/config/netconf.cmd` | High
-11 | File | `/folder/list` | Medium
-12 | File | `/forms/nslookupHandler` | High
-13 | File | `/group/comment` | High
-14 | File | `/ipms/imageConvert/image` | High
-15 | File | `/librarian/bookdetails.php` | High
-16 | File | `/log/decodmail.php` | High
-17 | File | `/lookin/info` | Medium
-18 | File | `/plugins/servlet/jira-blockers/` | High
-19 | File | `/ptipupgrade.cgi` | High
-20 | File | `/public/login.htm` | High
-21 | File | `/register.do` | Medium
-22 | File | `/sessions/sess_<sessionid>` | High
-23 | File | `/themes/<php_file_name>` | High
-24 | File | `/tmp/speedtest_urls.xml` | High
-25 | File | `/uncpath/` | Medium
-26 | File | `/upload` | Low
-27 | File | `/var/log/nginx` | High
-28 | File | `/wbg/core/_includes/authorization.inc.php` | High
-29 | File | `/wp-admin/admin.php` | High
-30 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-31 | File | `adclick.php` | Medium
-32 | File | `admin.php` | Medium
-33 | File | `admin/?n=tags&c=index&a=doSaveTags` | High
-34 | File | `admin/controller/pages/localisation/language.php` | High
-35 | ... | ... | ...
+3 | File | `/?p=products` | Medium
+4 | File | `/admin/config.php?display=disa&view=form` | High
+5 | File | `/admin/settings/sites/new` | High
+6 | File | `/ajax/networking/get_netcfg.php` | High
+7 | File | `/api/admin/store/product/save` | High
+8 | File | `/app/admin/nat/item-add-submit.php` | High
+9 | File | `/app/sys1.php` | High
+10 | File | `/cgi-bin/adm.cgi` | High
+11 | File | `/config/netconf.cmd` | High
+12 | File | `/folder/list` | Medium
+13 | File | `/forms/nslookupHandler` | High
+14 | File | `/group/comment` | High
+15 | File | `/ipms/imageConvert/image` | High
+16 | File | `/librarian/bookdetails.php` | High
+17 | File | `/log/decodmail.php` | High
+18 | File | `/lookin/info` | Medium
+19 | File | `/plugins/servlet/jira-blockers/` | High
+20 | File | `/ptipupgrade.cgi` | High
+21 | File | `/public/login.htm` | High
+22 | File | `/register.do` | Medium
+23 | File | `/sessions/sess_<sessionid>` | High
+24 | File | `/themes/<php_file_name>` | High
+25 | File | `/tmp/speedtest_urls.xml` | High
+26 | File | `/uncpath/` | Medium
+27 | File | `/upload` | Low
+28 | File | `/var/log/nginx` | High
+29 | File | `/wbg/core/_includes/authorization.inc.php` | High
+30 | File | `/wp-admin/admin.php` | High
+31 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+32 | File | `adclick.php` | Medium
+33 | File | `admin.php` | Medium
+34 | File | `admin/?n=tags&c=index&a=doSaveTags` | High
+35 | File | `admin/controller/pages/localisation/language.php` | High
+36 | ... | ... | ...
 
-There are 302 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 304 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

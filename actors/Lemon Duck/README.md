@@ -48,11 +48,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-29, CWE-36 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-29 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
-4 | T1059.007 | CWE-79 | Cross Site Scripting | High
-5 | T1068 | CWE-264, CWE-269, CWE-274, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+3 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1068 | CWE-250, CWE-264, CWE-266, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 6 | ... | ... | ... | ...
 
 There are 20 more TTP items available. Please use our online service to access the data.
@@ -63,42 +63,52 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `//proc/kcore` | Medium
-2 | File | `/admin/contacts/organizations/edit/2` | High
-3 | File | `/api/baskets/{name}` | High
-4 | File | `/api?path=profile` | High
-5 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
-6 | File | `/authenticationendpoint/login.do` | High
-7 | File | `/bin/login` | Medium
-8 | File | `/cgi-bin/luci` | High
-9 | File | `/cgi-bin/wlogin.cgi` | High
-10 | File | `/concat?/%2557EB-INF/web.xml` | High
-11 | File | `/contact/store` | High
-12 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
-13 | File | `/ecommerce/support_ticket` | High
-14 | File | `/forms/doLogin` | High
-15 | File | `/forum/away.php` | High
-16 | File | `/FuguHub/cmsdocs/` | High
-17 | File | `/goform/WriteFacMac` | High
-18 | File | `/h/autoSaveDraft` | High
-19 | File | `/HNAP1` | Low
-20 | File | `/index.php` | Medium
-21 | File | `/Log/Query?appid=0B736354-9473-4D66-B9C0-15CAC149EB05&tabid=tab_0B73635494734D66B9C015CAC149EB05` | High
-22 | File | `/mc` | Low
-23 | File | `/menu.html` | Medium
-24 | File | `/mims/login.php` | High
-25 | File | `/out.php` | Medium
-26 | File | `/php-inventory-management-system/product.php` | High
-27 | File | `/plain` | Low
-28 | File | `/registration.php` | High
-29 | File | `/release-x64/otfccdump+0x61731f` | High
-30 | File | `/search.php` | Medium
-31 | File | `/settings/account` | High
-32 | File | `/student/bookdetails.php` | High
-33 | File | `/tmp/boa-temp` | High
-34 | ... | ... | ...
+1 | File | `/academy/home/courses` | High
+2 | File | `/admin/adclass.php` | High
+3 | File | `/admin/extended` | High
+4 | File | `/admin/students/view_details.php` | High
+5 | File | `/ajax-files/followBoard.php` | High
+6 | File | `/ajax.php?action=read_msg` | High
+7 | File | `/api/baskets/{name}` | High
+8 | File | `/api/cron/settings/setJob/` | High
+9 | File | `/api/upload.php` | High
+10 | File | `/auth/callback` | High
+11 | File | `/authenticationendpoint/login.do` | High
+12 | File | `/cgi-bin/wlogin.cgi` | High
+13 | File | `/cgi.cgi` | Medium
+14 | File | `/ci_spms/admin/search/searching/` | High
+15 | File | `/classes/Users.php` | High
+16 | File | `/collection/all` | High
+17 | File | `/Content/Template/root/reverse-shell.aspx` | High
+18 | File | `/ctcprotocol/Protocol` | High
+19 | File | `/dottie.js` | Medium
+20 | File | `/DXR.axd` | Medium
+21 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+22 | File | `/etc/pki/pesign` | High
+23 | File | `/filemanager/upload/drop` | High
+24 | File | `/files/` | Low
+25 | File | `/forum/away.php` | High
+26 | File | `/goform/setportList` | High
+27 | File | `/goform/set_LimitClient_cfg` | High
+28 | File | `/h/autoSaveDraft` | High
+29 | File | `/index.php` | Medium
+30 | File | `/index.php?p=admin/actions/users/send-password-reset-email` | High
+31 | File | `/index.php?page=member` | High
+32 | File | `/jurusanmatkul/data` | High
+33 | File | `/log/decodmail.php` | High
+34 | File | `/log/webmailattach.php` | High
+35 | File | `/login.php?do=login` | High
+36 | File | `/modules/projects/vw_files.php` | High
+37 | File | `/plugins/playbooks/api/v0/runs` | High
+38 | File | `/public/login.htm` | High
+39 | File | `/QueryView.php` | High
+40 | File | `/romfile.cfg` | Medium
+41 | File | `/roomtype-details.php` | High
+42 | File | `/sitecore/shell/Invoke.aspx` | High
+43 | File | `/spip.php` | Medium
+44 | ... | ... | ...
 
-There are 291 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 384 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

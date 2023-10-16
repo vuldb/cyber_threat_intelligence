@@ -190,38 +190,38 @@ ID | Type | Indicator | Confidence
 18 | File | `/admin/service_requests/manage_inventory.php` | High
 19 | File | `/admin/test_status.php` | High
 20 | File | `/admin/transactions/track_shipment.php` | High
-21 | File | `/api/` | Low
-22 | File | `/api/admin/store/product/list` | High
-23 | File | `/api/baskets/{name}` | High
-24 | File | `/api/crontab` | Medium
-25 | File | `/api/stl/actions/search` | High
-26 | File | `/api/v2/cli/commands` | High
-27 | File | `/api2/html/` | Medium
-28 | File | `/apply.cgi` | Medium
-29 | File | `/archibus/login.axvw` | High
-30 | File | `/bin/ate` | Medium
-31 | File | `/blog` | Low
-32 | File | `/booking/show_bookings/` | High
-33 | File | `/cgi-bin` | Medium
-34 | File | `/cgi-bin/nightled.cgi` | High
-35 | File | `/cgi-bin/wlogin.cgi` | High
-36 | File | `/change-language/de_DE` | High
-37 | File | `/churchcrm/v2/family/not-found` | High
-38 | File | `/classes/Master.php?f=delete_inquiry` | High
-39 | File | `/classes/Master.php?f=delete_sub_category` | High
-40 | File | `/company/store` | High
-41 | File | `/config` | Low
-42 | File | `/Content/Template/root/reverse-shell.aspx` | High
-43 | File | `/csms/?page=contact_us` | High
+21 | File | `/api/baskets/{name}` | High
+22 | File | `/api/crontab` | Medium
+23 | File | `/api/stl/actions/search` | High
+24 | File | `/api/v2/cli/commands` | High
+25 | File | `/api2/html/` | Medium
+26 | File | `/apply.cgi` | Medium
+27 | File | `/archibus/login.axvw` | High
+28 | File | `/bin/ate` | Medium
+29 | File | `/blog` | Low
+30 | File | `/booking/show_bookings/` | High
+31 | File | `/cgi-bin` | Medium
+32 | File | `/cgi-bin/nightled.cgi` | High
+33 | File | `/cgi-bin/wlogin.cgi` | High
+34 | File | `/change-language/de_DE` | High
+35 | File | `/churchcrm/v2/family/not-found` | High
+36 | File | `/classes/Master.php?f=delete_inquiry` | High
+37 | File | `/classes/Master.php?f=delete_sub_category` | High
+38 | File | `/company/store` | High
+39 | File | `/config` | Low
+40 | File | `/config/php.ini` | High
+41 | File | `/Content/Template/root/reverse-shell.aspx` | High
+42 | File | `/csms/?page=contact_us` | High
+43 | File | `/dashboard/add-blog.php` | High
 44 | File | `/debug/pprof` | Medium
 45 | File | `/dipam/save-delegates.php` | High
 46 | File | `/env` | Low
-47 | File | `/etc/pki/pesign` | High
-48 | File | `/file_manager/admin/save_user.php` | High
-49 | File | `/forum/away.php` | High
+47 | File | `/file_manager/admin/save_user.php` | High
+48 | File | `/forum/away.php` | High
+49 | File | `/friends` | Medium
 50 | ... | ... | ...
 
-There are 435 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 437 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

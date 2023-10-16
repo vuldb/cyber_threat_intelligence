@@ -29,7 +29,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-22, CWE-425 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
@@ -44,22 +44,22 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/cgi-bin/user/Config.cgi` | High
-2 | File | `/htdocs/cgibin` | High
-3 | File | `/uncpath/` | Medium
-4 | File | `/videotalk` | Medium
-5 | File | `/web/MCmsAction.java` | High
-6 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-7 | File | `activity_log.php` | High
-8 | File | `adm/systools.asp` | High
-9 | File | `admin/getparam.cgi` | High
-10 | File | `admin/media/index.php"` | High
-11 | File | `adminCons.php` | High
-12 | File | `ajax_list_accounts.php` | High
-13 | File | `auth-options.c` | High
-14 | File | `cdf.c` | Low
+2 | File | `/config/php.ini` | High
+3 | File | `/htdocs/cgibin` | High
+4 | File | `/uncpath/` | Medium
+5 | File | `/videotalk` | Medium
+6 | File | `/web/MCmsAction.java` | High
+7 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+8 | File | `activity_log.php` | High
+9 | File | `adm/systools.asp` | High
+10 | File | `admin/getparam.cgi` | High
+11 | File | `admin/media/index.php"` | High
+12 | File | `adminCons.php` | High
+13 | File | `ajax_list_accounts.php` | High
+14 | File | `auth-options.c` | High
 15 | ... | ... | ...
 
-There are 117 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 118 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

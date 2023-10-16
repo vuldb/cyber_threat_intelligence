@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with IRATA:
 
+* [DE](https://vuldb.com/?country.de)
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [DE](https://vuldb.com/?country.de)
 * ...
 
-There are 3 more country items available. Please use our online service to access the data.
+There are 4 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -23,10 +23,11 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [5.255.113.62](https://vuldb.com/?ip.5.255.113.62) | - | - | High
 2 | [5.255.117.115](https://vuldb.com/?ip.5.255.117.115) | - | - | High
-3 | [20.197.199.136](https://vuldb.com/?ip.20.197.199.136) | - | - | High
-4 | ... | ... | ... | ...
+3 | [20.74.163.6](https://vuldb.com/?ip.20.74.163.6) | - | - | High
+4 | [20.197.199.136](https://vuldb.com/?ip.20.197.199.136) | - | - | High
+5 | ... | ... | ... | ...
 
-There are 12 more IOC items available. Please use our online service to access the data.
+There are 16 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -34,12 +35,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059 | CWE-94 | Cross Site Scripting | High
-2 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-3 | T1068 | CWE-264, CWE-269 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-22 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 7 more TTP items available. Please use our online service to access the data.
+There are 14 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -47,14 +49,33 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/addemployee.php` | High
-2 | File | `/admin/maintenance/view_designation.php` | High
-3 | File | `/login.php` | Medium
-4 | File | `/mkshop/Men/profile.php` | High
-5 | File | `/pms/admin/prisons/view_prison.php` | High
-6 | ... | ... | ...
+1 | File | `/admin/` | Low
+2 | File | `/admin/addemployee.php` | High
+3 | File | `/admin/admin_login.php` | High
+4 | File | `/admin/edit_review.php` | High
+5 | File | `/admin/index.php` | High
+6 | File | `/admin/maintenance/view_designation.php` | High
+7 | File | `/ajax-files/followBoard.php` | High
+8 | File | `/ajax-files/postComment.php` | High
+9 | File | `/categoriesServlet` | High
+10 | File | `/cgi-bin/extensionsettings` | High
+11 | File | `/cgi-bin/viewcert` | High
+12 | File | `/connectors/index.php` | High
+13 | File | `/czarnews/cn_users.php` | High
+14 | File | `/expert_wizard.php` | High
+15 | File | `/expPaginator.php` | High
+16 | File | `/framework/core/models/expConfig.php` | High
+17 | File | `/framework/core/models/expRecord.php` | High
+18 | File | `/framework/modules/core/controllers/expHTMLEditorController.php` | High
+19 | File | `/framework/modules/ecommerce/controllers/orderController.php` | High
+20 | File | `/framework/modules/help/controllers/helpController.php` | High
+21 | File | `/framework/modules/notfound/controllers/notfoundController.php` | High
+22 | File | `/framework/modules/users/models/user.php` | High
+23 | File | `/hotel.php` | Medium
+24 | File | `/inc/campaign/campaign-delete.php` | High
+25 | ... | ... | ...
 
-There are 39 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 213 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -68,6 +89,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://threatfox.abuse.ch
 * https://threatfox.abuse.ch/ioc/845209/
 * https://tria.ge/230709-y4d3bsfh67/behavioral2#report:~:text=Network-,Requests,-TCP
+* https://tria.ge/230919-tagtxacb46/behavioral1
 * https://twitter.com/onecert_ir/status/1558944995628941312
 * https://twitter.com/onecert_ir/status/1564267795680055297
 * https://urlhaus.abuse.ch/host/23.88.43.247/

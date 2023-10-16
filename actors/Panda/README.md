@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [IR](https://vuldb.com/?country.ir)
 * ...
 
-There are 3 more country items available. Please use our online service to access the data.
+There are 4 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -41,7 +41,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 16 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -54,18 +54,26 @@ ID | Type | Indicator | Confidence
 3 | File | `/api/blade-log/api/list` | High
 4 | File | `/cgi-bin/editBookmark` | High
 5 | File | `/cgi-bin/system_mgr.cgi` | High
-6 | File | `/client/api/json/v2/nfareports/compareReport` | High
-7 | File | `/dede/file_manage_control.php` | High
-8 | File | `/etc/services/DEVICE.TIME.php` | High
-9 | File | `/horde/imp/search.php` | High
-10 | File | `/index.php` | Medium
-11 | File | `/netflow/jspui/selectDevice.jsp` | High
-12 | File | `/public/login.htm` | High
-13 | File | `/public/login.htm?errormsg=&loginurl=%22%3E%3Csvg%20onload=prompt%28/XSS/%29%3E` | High
-14 | File | `/reports/rwservlet` | High
-15 | ... | ... | ...
+6 | File | `/cgi-bin/webviewer_login_page` | High
+7 | File | `/client/api/json/v2/nfareports/compareReport` | High
+8 | File | `/dede/file_manage_control.php` | High
+9 | File | `/etc/services/DEVICE.TIME.php` | High
+10 | File | `/horde/imp/search.php` | High
+11 | File | `/index.php` | Medium
+12 | File | `/netflow/jspui/selectDevice.jsp` | High
+13 | File | `/public/login.htm` | High
+14 | File | `/public/login.htm?errormsg=&loginurl=%22%3E%3Csvg%20onload=prompt%28/XSS/%29%3E` | High
+15 | File | `/reports/rwservlet` | High
+16 | File | `/SASWebReportStudio/logonAndRender.do` | High
+17 | File | `/search.htm?searchtext=%22%3E%3Csvg%20onload=prompt%28/XSS/%29%3E` | High
+18 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+19 | File | `/secure/admin/ViewInstrumentation.jspa` | High
+20 | File | `/tab_tariffe.php` | High
+21 | File | `/tmp` | Low
+22 | File | `/tmp/app/.env` | High
+23 | ... | ... | ...
 
-There are 123 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 192 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

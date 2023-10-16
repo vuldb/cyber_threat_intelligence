@@ -49,7 +49,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059 | CWE-94 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -72,17 +72,19 @@ ID | Type | Indicator | Confidence
 13 | File | `/admin/payment.php` | High
 14 | File | `/admin/reg.php` | High
 15 | File | `/admin/search-appointment.php` | High
-16 | File | `/doc/packages` | High
-17 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-18 | File | `/forum/away.php` | High
-19 | File | `/getcfg.php` | Medium
-20 | File | `/hrm/employeeview.php` | High
-21 | File | `/login` | Low
-22 | File | `/mkshop/Men/profile.php` | High
-23 | File | `/newsDia.php` | Medium
-24 | ... | ... | ...
+16 | File | `/collection/all` | High
+17 | File | `/doc/packages` | High
+18 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+19 | File | `/forum/away.php` | High
+20 | File | `/getcfg.php` | Medium
+21 | File | `/hrm/employeeview.php` | High
+22 | File | `/log/decodmail.php` | High
+23 | File | `/login` | Low
+24 | File | `/mkshop/Men/profile.php` | High
+25 | File | `/newsDia.php` | Medium
+26 | ... | ... | ...
 
-There are 201 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 215 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

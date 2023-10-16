@@ -21,7 +21,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [AT](https://vuldb.com/?country.at)
 * ...
 
-There are 6 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -65,28 +65,28 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `%APPDATA%\Securepoint SSL VPN` | High
-2 | File | `/Api/ASF` | Medium
-3 | File | `/etc/shadow` | Medium
-4 | File | `/etc/target/saveconfig.json` | High
-5 | File | `/exec` | Low
-6 | File | `/form/index.php?module=getjson` | High
-7 | File | `/hcms/admin/index.php/language/ajax` | High
-8 | File | `/jsonrpc` | Medium
-9 | File | `/pms/admin/crimes/manage_crime.php` | High
-10 | File | `/product.php` | Medium
-11 | File | `/ram/pckg/advanced-tools/nova/bin/netwatch` | High
-12 | File | `/redpass.cgi` | Medium
-13 | File | `/registerCpe` | Medium
-14 | File | `/rest/collectors/1.0/template/custom` | High
-15 | File | `/sitecore/shell/Invoke.aspx` | High
-16 | File | `/system?action=ServiceAdmin` | High
-17 | File | `/uncpath/` | Medium
-18 | File | `/Uploads` | Medium
-19 | File | `/User/saveUser` | High
-20 | File | `/webapps/Bb-sites-user-profile-BBLEARN/profile.form` | High
+2 | File | `/admin/index2.html` | High
+3 | File | `/Api/ASF` | Medium
+4 | File | `/etc/shadow` | Medium
+5 | File | `/etc/target/saveconfig.json` | High
+6 | File | `/exec` | Low
+7 | File | `/form/index.php?module=getjson` | High
+8 | File | `/hcms/admin/index.php/language/ajax` | High
+9 | File | `/jsonrpc` | Medium
+10 | File | `/pms/admin/crimes/manage_crime.php` | High
+11 | File | `/product.php` | Medium
+12 | File | `/ram/pckg/advanced-tools/nova/bin/netwatch` | High
+13 | File | `/redpass.cgi` | Medium
+14 | File | `/registerCpe` | Medium
+15 | File | `/rest/collectors/1.0/template/custom` | High
+16 | File | `/sitecore/shell/Invoke.aspx` | High
+17 | File | `/system?action=ServiceAdmin` | High
+18 | File | `/uncpath/` | Medium
+19 | File | `/Uploads` | Medium
+20 | File | `/User/saveUser` | High
 21 | ... | ... | ...
 
-There are 169 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 170 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

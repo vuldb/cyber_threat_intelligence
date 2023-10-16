@@ -105,7 +105,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-25 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-25, CWE-425 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
@@ -113,7 +113,7 @@ ID | Technique | Weakness | Description | Confidence
 6 | T1068 | CWE-250, CWE-264, CWE-266, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 7 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 23 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -134,37 +134,37 @@ ID | Type | Indicator | Confidence
 11 | File | `/classes/Master.php?f=delete_appointment` | High
 12 | File | `/classes/Master.php?f=delete_train` | High
 13 | File | `/concat?/%2557EB-INF/web.xml` | High
-14 | File | `/Content/Template/root/reverse-shell.aspx` | High
-15 | File | `/ctcprotocol/Protocol` | High
-16 | File | `/dashboard/menu-list.php` | High
-17 | File | `/data/remove` | Medium
-18 | File | `/ebics-server/ebics.aspx` | High
-19 | File | `/ffos/classes/Master.php?f=save_category` | High
-20 | File | `/forum/away.php` | High
-21 | File | `/goforms/rlminfo` | High
-22 | File | `/HNAP1` | Low
-23 | File | `/HNAP1/SetClientInfo` | High
-24 | File | `/Items/*/RemoteImages/Download` | High
-25 | File | `/menu.html` | Medium
-26 | File | `/modules/profile/index.php` | High
-27 | File | `/navigate/navigate_download.php` | High
-28 | File | `/ocwbs/admin/?page=user/manage_user` | High
-29 | File | `/ofrs/admin/?page=user/manage_user` | High
-30 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-31 | File | `/out.php` | Medium
-32 | File | `/password.html` | High
-33 | File | `/php_action/fetchSelectedUser.php` | High
-34 | File | `/property-list/property_view.php` | High
-35 | File | `/ptms/classes/Users.php` | High
-36 | File | `/resources//../` | High
-37 | File | `/rest/api/2/search` | High
-38 | File | `/s/` | Low
-39 | File | `/scripts/cpan_config` | High
-40 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-41 | File | `/shell` | Low
+14 | File | `/config/php.ini` | High
+15 | File | `/Content/Template/root/reverse-shell.aspx` | High
+16 | File | `/ctcprotocol/Protocol` | High
+17 | File | `/dashboard/menu-list.php` | High
+18 | File | `/data/remove` | Medium
+19 | File | `/ebics-server/ebics.aspx` | High
+20 | File | `/ffos/classes/Master.php?f=save_category` | High
+21 | File | `/forum/away.php` | High
+22 | File | `/goform/net\_Web\_get_value` | High
+23 | File | `/goforms/rlminfo` | High
+24 | File | `/GponForm/usb_restore_Form?script/` | High
+25 | File | `/HNAP1` | Low
+26 | File | `/HNAP1/SetClientInfo` | High
+27 | File | `/Items/*/RemoteImages/Download` | High
+28 | File | `/menu.html` | Medium
+29 | File | `/modules/profile/index.php` | High
+30 | File | `/navigate/navigate_download.php` | High
+31 | File | `/ocwbs/admin/?page=user/manage_user` | High
+32 | File | `/ofrs/admin/?page=user/manage_user` | High
+33 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+34 | File | `/out.php` | Medium
+35 | File | `/password.html` | High
+36 | File | `/php_action/fetchSelectedUser.php` | High
+37 | File | `/property-list/property_view.php` | High
+38 | File | `/ptms/classes/Users.php` | High
+39 | File | `/resources//../` | High
+40 | File | `/scripts/cpan_config` | High
+41 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
 42 | ... | ... | ...
 
-There are 359 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 362 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

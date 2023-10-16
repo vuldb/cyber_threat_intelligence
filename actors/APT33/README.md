@@ -16,9 +16,9 @@ The following _campaigns_ are known and can be associated with APT33:
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with APT33:
 
+* [US](https://vuldb.com/?country.us)
 * [PL](https://vuldb.com/?country.pl)
 * [FR](https://vuldb.com/?country.fr)
-* [US](https://vuldb.com/?country.us)
 * ...
 
 There are 10 more country items available. Please use our online service to access the data.
@@ -70,69 +70,71 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/account/delivery` | High
-2 | File | `/admin.php?c=upload&f=zip&_noCache=0.1683794968` | High
-3 | File | `/admin/?page=reminders/view_reminder` | High
-4 | File | `/admin/?page=user/list` | High
-5 | File | `/admin/add_user_modal.php` | High
-6 | File | `/admin/api/theme-edit/` | High
-7 | File | `/admin/del_category.php` | High
-8 | File | `/admin/edit_product.php` | High
-9 | File | `/admin/forgot-password.php` | High
-10 | File | `/admin/invoice.php` | High
-11 | File | `/admin/maintenance/view_designation.php` | High
-12 | File | `/admin/modal_add_product.php` | High
-13 | File | `/admin/orders/update_status.php` | High
-14 | File | `/admin/sys_sql_query.php` | High
-15 | File | `/admin/userprofile.php` | High
-16 | File | `/author_posts.php` | High
-17 | File | `/bin/sh` | Low
-18 | File | `/blog` | Low
-19 | File | `/booking/show_bookings/` | High
-20 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-21 | File | `/cas/logout` | Medium
-22 | File | `/category.php` | High
-23 | File | `/change-language/de_DE` | High
-24 | File | `/classes/Login.php` | High
-25 | File | `/classes/Master.php?f=delete_service` | High
-26 | File | `/classes/Master.php?f=save_inquiry` | High
-27 | File | `/classes/Master.php?f=save_item` | High
-28 | File | `/clients/profile` | High
-29 | File | `/cms/notify` | Medium
-30 | File | `/contact/store` | High
-31 | File | `/Duty/AjaxHandle/UploadFloodPlanFileUpdate.ashx` | High
-32 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
-33 | File | `/Duty/AjaxHandle/Write/UploadFile.ashx` | High
-34 | File | `/ecommerce/support_ticket` | High
-35 | File | `/en/blog-comment-4` | High
-36 | File | `/env` | Low
-37 | File | `/ext/phar/phar_object.c` | High
-38 | File | `/file_manager/admin/save_user.php` | High
-39 | File | `/forum/away.php` | High
-40 | File | `/goform/RgUrlBlock.asp` | High
-41 | File | `/goform/SysToolReboot` | High
-42 | File | `/goform/SysToolRestoreSet` | High
-43 | File | `/goform/WifiBasicSet` | High
-44 | File | `/goform/wifiSSIDset` | High
-45 | File | `/h/` | Low
-46 | File | `/home/courses` | High
-47 | File | `/home/filter_listings` | High
-48 | File | `/hss/?page=product_per_brand` | High
-49 | File | `/hss/admin/?page=client/manage_client` | High
-50 | File | `/hss/admin/?page=user/manage_user` | High
-51 | File | `/importexport.php` | High
-52 | File | `/inc/jquery/uploadify/uploadify.php` | High
-53 | File | `/index.php` | Medium
-54 | File | `/index.php?controller=GzUser&action=edit&id=1` | High
-55 | File | `/jurusan/data` | High
-56 | File | `/kelasdosen/data` | High
-57 | File | `/LandingPages/api/otp/send?id=[ID][ampersand]method=sms` | High
-58 | File | `/Log/Query?appid=0B736354-9473-4D66-B9C0-15CAC149EB05&tabid=tab_0B73635494734D66B9C015CAC149EB05` | High
-59 | File | `/login` | Low
-60 | File | `/odlms//classes/Master.php?f=delete_activity` | High
-61 | ... | ... | ...
+1 | File | `/academy/tutor/filter` | High
+2 | File | `/account/delivery` | High
+3 | File | `/admin.php?c=upload&f=zip&_noCache=0.1683794968` | High
+4 | File | `/admin/?page=reminders/view_reminder` | High
+5 | File | `/admin/?page=user/list` | High
+6 | File | `/admin/add_user_modal.php` | High
+7 | File | `/admin/api/theme-edit/` | High
+8 | File | `/admin/article/article-edit-run.php` | High
+9 | File | `/admin/del_category.php` | High
+10 | File | `/admin/edit_product.php` | High
+11 | File | `/admin/forgot-password.php` | High
+12 | File | `/admin/invoice.php` | High
+13 | File | `/admin/maintenance/view_designation.php` | High
+14 | File | `/admin/modal_add_product.php` | High
+15 | File | `/admin/orders/update_status.php` | High
+16 | File | `/admin/sys_sql_query.php` | High
+17 | File | `/admin/userprofile.php` | High
+18 | File | `/author_posts.php` | High
+19 | File | `/bin/sh` | Low
+20 | File | `/blog` | Low
+21 | File | `/booking/show_bookings/` | High
+22 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+23 | File | `/cas/logout` | Medium
+24 | File | `/category.php` | High
+25 | File | `/change-language/de_DE` | High
+26 | File | `/classes/Login.php` | High
+27 | File | `/classes/Master.php?f=delete_service` | High
+28 | File | `/classes/Master.php?f=save_inquiry` | High
+29 | File | `/classes/Master.php?f=save_item` | High
+30 | File | `/clients/profile` | High
+31 | File | `/cms/notify` | Medium
+32 | File | `/contact/store` | High
+33 | File | `/Duty/AjaxHandle/UploadFloodPlanFileUpdate.ashx` | High
+34 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
+35 | File | `/Duty/AjaxHandle/Write/UploadFile.ashx` | High
+36 | File | `/ecommerce/support_ticket` | High
+37 | File | `/en/blog-comment-4` | High
+38 | File | `/env` | Low
+39 | File | `/ext/phar/phar_object.c` | High
+40 | File | `/file_manager/admin/save_user.php` | High
+41 | File | `/forum/away.php` | High
+42 | File | `/general/ipanel/menu_code.php?MENU_TYPE=FAV` | High
+43 | File | `/goform/RgUrlBlock.asp` | High
+44 | File | `/goform/SysToolReboot` | High
+45 | File | `/goform/SysToolRestoreSet` | High
+46 | File | `/goform/WifiBasicSet` | High
+47 | File | `/goform/wifiSSIDset` | High
+48 | File | `/h/` | Low
+49 | File | `/home/courses` | High
+50 | File | `/home/filter_listings` | High
+51 | File | `/hss/?page=product_per_brand` | High
+52 | File | `/hss/admin/?page=client/manage_client` | High
+53 | File | `/hss/admin/?page=user/manage_user` | High
+54 | File | `/importexport.php` | High
+55 | File | `/inc/jquery/uploadify/uploadify.php` | High
+56 | File | `/index.php` | Medium
+57 | File | `/index.php?controller=GzUser&action=edit&id=1` | High
+58 | File | `/jurusan/data` | High
+59 | File | `/kelasdosen/data` | High
+60 | File | `/LandingPages/api/otp/send?id=[ID][ampersand]method=sms` | High
+61 | File | `/Log/Query?appid=0B736354-9473-4D66-B9C0-15CAC149EB05&tabid=tab_0B73635494734D66B9C015CAC149EB05` | High
+62 | File | `/login` | Low
+63 | ... | ... | ...
 
-There are 530 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 553 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

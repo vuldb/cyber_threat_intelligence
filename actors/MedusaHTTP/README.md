@@ -30,7 +30,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-425 | Pathname Traversal | High
+1 | T1006 | CWE-22, CWE-23, CWE-425 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
@@ -60,9 +60,11 @@ ID | Type | Indicator | Confidence
 14 | File | `/mifs/c/i/reg/reg.html` | High
 15 | File | `/ms/cms/content/list.do` | High
 16 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-17 | ... | ... | ...
+17 | File | `/orms/` | Low
+18 | File | `/plesk-site-preview/` | High
+19 | ... | ... | ...
 
-There are 137 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 153 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

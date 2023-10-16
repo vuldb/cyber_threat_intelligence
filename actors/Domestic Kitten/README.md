@@ -53,29 +53,29 @@ ID | Type | Indicator | Confidence
 3 | File | `/admin.php` | Medium
 4 | File | `/admin/subnets/ripe-query.php` | High
 5 | File | `/appliance/users?action=edit` | High
-6 | File | `/core/conditions/AbstractWrapper.java` | High
-7 | File | `/debug/pprof` | Medium
-8 | File | `/export` | Low
-9 | File | `/file?action=download&file` | High
-10 | File | `/hardware` | Medium
-11 | File | `/hub/api/user` | High
-12 | File | `/librarian/bookdetails.php` | High
-13 | File | `/medical/inventories.php` | High
-14 | File | `/monitoring` | Medium
-15 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-16 | File | `/plugin/LiveChat/getChat.json.php` | High
-17 | File | `/plugins/servlet/audit/resource` | High
-18 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
-19 | File | `/replication` | Medium
-20 | File | `/RestAPI` | Medium
-21 | File | `/tmp/zarafa-vacation-*` | High
-22 | File | `/uncpath/` | Medium
-23 | File | `/upload` | Low
-24 | File | `/user/loader.php?api=1` | High
-25 | File | `/var/log/nginx` | High
+6 | File | `/apply.cgi` | Medium
+7 | File | `/core/conditions/AbstractWrapper.java` | High
+8 | File | `/debug/pprof` | Medium
+9 | File | `/export` | Low
+10 | File | `/file?action=download&file` | High
+11 | File | `/hardware` | Medium
+12 | File | `/hub/api/user` | High
+13 | File | `/librarian/bookdetails.php` | High
+14 | File | `/medical/inventories.php` | High
+15 | File | `/monitoring` | Medium
+16 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+17 | File | `/plugin/LiveChat/getChat.json.php` | High
+18 | File | `/plugins/servlet/audit/resource` | High
+19 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
+20 | File | `/replication` | Medium
+21 | File | `/RestAPI` | Medium
+22 | File | `/tmp/zarafa-vacation-*` | High
+23 | File | `/uncpath/` | Medium
+24 | File | `/upload` | Low
+25 | File | `/user/loader.php?api=1` | High
 26 | ... | ... | ...
 
-There are 216 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 218 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -43,9 +43,10 @@ ID | Type | Indicator | Confidence
 2 | File | `/apply.cgi` | Medium
 3 | File | `/forum/PostPrivateMessage` | High
 4 | File | `/login/index.php` | High
-5 | ... | ... | ...
+5 | File | `/see_more_details.php` | High
+6 | ... | ... | ...
 
-There are 31 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 34 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

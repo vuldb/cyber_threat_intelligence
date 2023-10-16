@@ -54,17 +54,18 @@ ID | Type | Indicator | Confidence
 3 | File | `.kdbgrc` | Low
 4 | File | `/admin/assign/assign.php` | High
 5 | File | `/admin/index.php` | High
-6 | File | `/api /v3/auth` | High
-7 | File | `/app/Http/Controllers/Admin/NEditorController.php` | High
-8 | File | `/auth` | Low
-9 | File | `/balance/service/list` | High
-10 | File | `/config/getuser` | High
-11 | File | `/resources//../` | High
-12 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-13 | File | `/SiteServer/Ajax/ajaxOtherService.aspx` | High
-14 | ... | ... | ...
+6 | File | `/api/sys/set_passwd` | High
+7 | File | `/api /v3/auth` | High
+8 | File | `/app/Http/Controllers/Admin/NEditorController.php` | High
+9 | File | `/auth` | Low
+10 | File | `/balance/service/list` | High
+11 | File | `/config/getuser` | High
+12 | File | `/resources//../` | High
+13 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+14 | File | `/SiteServer/Ajax/ajaxOtherService.aspx` | High
+15 | ... | ... | ...
 
-There are 113 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 119 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

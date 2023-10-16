@@ -74,7 +74,7 @@ ID | Type | Indicator | Confidence
 20 | File | `/xxl-job-admin/user/add` | High
 21 | ... | ... | ...
 
-There are 176 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 177 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

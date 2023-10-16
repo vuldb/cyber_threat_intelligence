@@ -33,10 +33,10 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 2 | T1055 | CWE-74 | Injection | High
-3 | T1059.007 | CWE-79 | Cross Site Scripting | High
+3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 10 more TTP items available. Please use our online service to access the data.
+There are 11 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -46,15 +46,17 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/ad-list` | Medium
 2 | File | `/admin/add-category.php` | High
-3 | File | `/ajax.php?action=read_msg` | High
-4 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-5 | File | `/classes/Master.php?f=delete_inquiry` | High
-6 | File | `/classes/Master.php?f=delete_item` | High
-7 | File | `/classes/Master.php?f=save_inquiry` | High
-8 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
-9 | ... | ... | ...
+3 | File | `/admin/config/uploadicon.php` | High
+4 | File | `/ajax.php?action=read_msg` | High
+5 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+6 | File | `/classes/Master.php?f=delete_inquiry` | High
+7 | File | `/classes/Master.php?f=delete_item` | High
+8 | File | `/classes/Master.php?f=save_inquiry` | High
+9 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
+10 | File | `/Duty/AjaxHandle/Write/UploadFile.ashx` | High
+11 | ... | ... | ...
 
-There are 61 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 80 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

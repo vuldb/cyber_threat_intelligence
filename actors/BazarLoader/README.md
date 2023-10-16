@@ -86,17 +86,18 @@ ID | Type | Indicator | Confidence
 1 | File | `/api` | Low
 2 | File | `/api/sys_username_passwd.cmd` | High
 3 | File | `/forum/away.php` | High
-4 | File | `/include/makecvs.php` | High
-5 | File | `/PluXml/core/admin/parametres_edittpl.php` | High
-6 | File | `/requests.php` | High
-7 | File | `/usr/local/psa/admin/sbin/wrapper` | High
-8 | File | `/wp-admin/admin.php?page=wp_file_manager_properties` | High
-9 | File | `add.php` | Low
-10 | File | `admin/admin.shtml` | High
-11 | File | `bpf-object-fuzzer.c` | High
-12 | ... | ... | ...
+4 | File | `/home/cavesConsole` | High
+5 | File | `/inc/parser/xhtml.php` | High
+6 | File | `/include/makecvs.php` | High
+7 | File | `/PluXml/core/admin/parametres_edittpl.php` | High
+8 | File | `/requests.php` | High
+9 | File | `/usr/local/psa/admin/sbin/wrapper` | High
+10 | File | `/wp-admin/admin.php?page=wp_file_manager_properties` | High
+11 | File | `add.php` | Low
+12 | File | `admin/admin.shtml` | High
+13 | ... | ... | ...
 
-There are 89 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 98 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

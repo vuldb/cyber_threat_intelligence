@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with XWorm:
 
-* [US](https://vuldb.com/?country.us)
-* [RU](https://vuldb.com/?country.ru)
-* [PL](https://vuldb.com/?country.pl)
+* [SH](https://vuldb.com/?country.sh)
+* [LA](https://vuldb.com/?country.la)
+* [SG](https://vuldb.com/?country.sg)
 * ...
 
-There are 3 more country items available. Please use our online service to access the data.
+There are 1 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -21,13 +21,32 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [3.69.115.178](https://vuldb.com/?ip.3.69.115.178) | ec2-3-69-115-178.eu-central-1.compute.amazonaws.com | - | Medium
-2 | [20.125.118.35](https://vuldb.com/?ip.20.125.118.35) | - | - | High
-3 | [31.220.76.124](https://vuldb.com/?ip.31.220.76.124) | ip-124-76-220-31.static.contabo.net | - | High
-4 | [45.139.105.105](https://vuldb.com/?ip.45.139.105.105) | - | - | High
-5 | ... | ... | ... | ...
+1 | [2.58.56.249](https://vuldb.com/?ip.2.58.56.249) | powered.by.rdp.sh | - | High
+2 | [3.7.61.252](https://vuldb.com/?ip.3.7.61.252) | ec2-3-7-61-252.ap-south-1.compute.amazonaws.com | - | Medium
+3 | [3.69.115.178](https://vuldb.com/?ip.3.69.115.178) | ec2-3-69-115-178.eu-central-1.compute.amazonaws.com | - | Medium
+4 | [3.72.8.200](https://vuldb.com/?ip.3.72.8.200) | ec2-3-72-8-200.eu-central-1.compute.amazonaws.com | - | Medium
+5 | [3.126.37.18](https://vuldb.com/?ip.3.126.37.18) | ec2-3-126-37-18.eu-central-1.compute.amazonaws.com | - | Medium
+6 | [13.48.68.245](https://vuldb.com/?ip.13.48.68.245) | ec2-13-48-68-245.eu-north-1.compute.amazonaws.com | - | Medium
+7 | [15.204.37.12](https://vuldb.com/?ip.15.204.37.12) | ip12.ip-15-204-37.us | - | High
+8 | [15.204.170.24](https://vuldb.com/?ip.15.204.170.24) | ip24.ip-15-204-170.us | - | High
+9 | [16.16.96.108](https://vuldb.com/?ip.16.16.96.108) | ec2-16-16-96-108.eu-north-1.compute.amazonaws.com | - | Medium
+10 | [18.230.117.219](https://vuldb.com/?ip.18.230.117.219) | ec2-18-230-117-219.sa-east-1.compute.amazonaws.com | - | Medium
+11 | [18.231.156.119](https://vuldb.com/?ip.18.231.156.119) | ec2-18-231-156-119.sa-east-1.compute.amazonaws.com | - | Medium
+12 | [20.0.32.252](https://vuldb.com/?ip.20.0.32.252) | - | - | High
+13 | [20.25.157.149](https://vuldb.com/?ip.20.25.157.149) | - | - | High
+14 | [20.56.93.201](https://vuldb.com/?ip.20.56.93.201) | - | - | High
+15 | [20.125.118.35](https://vuldb.com/?ip.20.125.118.35) | - | - | High
+16 | [20.219.15.124](https://vuldb.com/?ip.20.219.15.124) | - | - | High
+17 | [23.106.215.7](https://vuldb.com/?ip.23.106.215.7) | - | - | High
+18 | [23.227.198.214](https://vuldb.com/?ip.23.227.198.214) | 23-227-198-214.static.hvvc.us | - | High
+19 | [31.220.76.124](https://vuldb.com/?ip.31.220.76.124) | ip-124-76-220-31.static.contabo.net | - | High
+20 | [44.201.221.153](https://vuldb.com/?ip.44.201.221.153) | ec2-44-201-221-153.compute-1.amazonaws.com | - | Medium
+21 | [45.61.130.7](https://vuldb.com/?ip.45.61.130.7) | - | - | High
+22 | [45.81.225.208](https://vuldb.com/?ip.45.81.225.208) | vm4424272.52ssd.had.wf | - | High
+23 | [45.88.67.75](https://vuldb.com/?ip.45.88.67.75) | - | - | High
+24 | ... | ... | ... | ...
 
-There are 18 more IOC items available. Please use our online service to access the data.
+There are 92 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -35,14 +54,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -50,93 +69,66 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.kss.pid` | Medium
-2 | File | `/+CSCOE+/logon.html` | High
-3 | File | `/admin.php?m=Config&a=add` | High
-4 | File | `/admin/ajax.php` | High
-5 | File | `/admin/ajax.php?action=save_window` | High
-6 | File | `/admin/index3.php` | High
-7 | File | `/adminsys/index.php?load=admins&act=edit_info&act_type=add` | High
-8 | File | `/advance_push/public/login` | High
-9 | File | `/bin/goahead` | Medium
-10 | File | `/cgi-bin` | Medium
-11 | File | `/cgi-bin/wlogin.cgi` | High
-12 | File | `/config/list` | Medium
-13 | File | `/configs/application.ini` | High
-14 | File | `/core/MY_Security.php` | High
-15 | File | `/download` | Medium
-16 | File | `/dus/shopliste/index.php` | High
-17 | File | `/egroupware/index.php` | High
-18 | File | `/etc/passwd` | Medium
-19 | File | `/event-management/index.php` | High
-20 | File | `/ext/phar/phar_object.c` | High
-21 | File | `/fpui/jsp/index.jsp` | High
-22 | File | `/goform/langSwitch` | High
-23 | File | `/goform/WifiBasicSet` | High
-24 | File | `/HNAP1` | Low
-25 | File | `/Hospital-Management-System-master/contact.php` | High
-26 | File | `/Hospital-Management-System-master/func.php` | High
-27 | File | `/htdocs/cgibin` | High
-28 | File | `/iisadmin` | Medium
-29 | File | `/index.php` | Medium
-30 | File | `/jerry-core/ecma/base/ecma-helpers.c` | High
-31 | File | `/knowledgebase/view.php` | High
-32 | File | `/LEPTON_stable_2.2.2/upload/admins/pages/index.php` | High
-33 | File | `/login.php` | Medium
-34 | File | `/Manager/index.aspx` | High
-35 | File | `/mc-admin/page-edit.php` | High
-36 | File | `/news-portal-script/information.php` | High
-37 | File | `/pay-with-paypal/{id}` | High
-38 | File | `/reviewer/system/system/admins/manage/users/user-update.php` | High
-39 | File | `/search.php` | Medium
-40 | File | `/secure/QueryComponent!Default.jspa` | High
-41 | File | `/showfile.php` | High
-42 | File | `/spacecom/login.php` | High
-43 | File | `/template/edit` | High
-44 | File | `/var/run/jboss-eap/` | High
-45 | File | `/var/www/core/controller/index.php` | High
-46 | File | `/wp-json` | Medium
-47 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-48 | File | `act.php` | Low
-49 | File | `addfav.php` | Medium
-50 | File | `addguest.cgi` | Medium
-51 | File | `admin.color.php` | High
-52 | File | `admin.php` | Medium
-53 | File | `Admin.php` | Medium
-54 | File | `admin/add-news.php` | High
-55 | File | `admin/admin.php` | High
-56 | File | `admin/courses/view_course.php` | High
-57 | File | `admin/file.do` | High
-58 | File | `admin/index.php` | High
-59 | File | `admin/index.php?id=themes&action=edit_chunk` | High
-60 | File | `adminHome.php` | High
-61 | File | `adsearch.php` | Medium
-62 | File | `ans.pl` | Low
-63 | File | `Ap4Sample.h` | Medium
-64 | File | `apachectl` | Medium
-65 | File | `app/admin/controller/themecontroller.php` | High
-66 | File | `arch/arm64/kernel/sys.c` | High
-67 | File | `archive_read_extract2.c` | High
-68 | File | `article.php` | Medium
-69 | File | `articles/index.php` | High
-70 | File | `assets/download.aspx` | High
-71 | File | `audio/SDL_wave.c` | High
-72 | File | `auth.c` | Low
-73 | File | `auth.php` | Medium
-74 | File | `BBStore.php` | Medium
-75 | File | `C.html` | Low
-76 | File | `C:\dir` | Low
-77 | File | `cairo-truetype-subset.c` | High
-78 | File | `calc.php` | Medium
-79 | File | `cart.php` | Medium
-80 | File | `category.cfm` | Medium
-81 | File | `cgi-bin` | Low
-82 | File | `checkuser.php` | High
-83 | File | `client.c` | Medium
-84 | File | `clients/editclient.php` | High
-85 | ... | ... | ...
+1 | File | `/?p=products` | Medium
+2 | File | `/academy/home/courses` | High
+3 | File | `/admin/?page=product/manage_product&id=2` | High
+4 | File | `/admin/casedetails.php` | High
+5 | File | `/admin/del_feedback.php` | High
+6 | File | `/admin/maintenance/brand.php` | High
+7 | File | `/admin/mechanics/manage_mechanic.php` | High
+8 | File | `/admin/modal_add_product.php` | High
+9 | File | `/admin/positions_add.php` | High
+10 | File | `/admin/user/manage_user.php` | High
+11 | File | `/admin/voters_row.php` | High
+12 | File | `/ad_js.php` | Medium
+13 | File | `/ajax.php?action=save_company` | High
+14 | File | `/ajax.php?action=save_user` | High
+15 | File | `/ajax/myshop` | Medium
+16 | File | `/alumni/admin/ajax.php?action=save_settings` | High
+17 | File | `/api/baskets/{name}` | High
+18 | File | `/api/database` | High
+19 | File | `/api/gen/clients/{language}` | High
+20 | File | `/App_Resource/UEditor/server/upload.aspx` | High
+21 | File | `/APR/signup.php` | High
+22 | File | `/authenticationendpoint/login.do` | High
+23 | File | `/aux` | Low
+24 | File | `/backup.pl` | Medium
+25 | File | `/c/PluginsController.php` | High
+26 | File | `/cas/logout` | Medium
+27 | File | `/category.php` | High
+28 | File | `/categorypage.php` | High
+29 | File | `/cgi-bin/system_mgr.cgi` | High
+30 | File | `/cha.php` | Medium
+31 | File | `/chaincity/user/ticket/create` | High
+32 | File | `/collection/all` | High
+33 | File | `/College/admin/teacher.php` | High
+34 | File | `/contactform/contactform.php` | High
+35 | File | `/Controller/Ajaxfileupload.ashx` | High
+36 | File | `/dayrui/Fcms/View/system_log.html` | High
+37 | File | `/drivers/block/floppy.c` | High
+38 | File | `/DXR.axd` | Medium
+39 | File | `/ecommerce/admin/category/controller.php` | High
+40 | File | `/ecommerce/support_ticket` | High
+41 | File | `/ecrire/exec/puce_statut.php` | High
+42 | File | `/etc/shadow` | Medium
+43 | File | `/files/` | Low
+44 | File | `/forum/away.php` | High
+45 | File | `/fos/admin/ajax.php` | High
+46 | File | `/friends/ajax_invite` | High
+47 | File | `/goform/aspForm` | High
+48 | File | `/goform/WifiGuestSet` | High
+49 | File | `/home/filter_listings` | High
+50 | File | `/index.php` | Medium
+51 | File | `/index.php/client/message/message_read/xxxxxxxx[random-msg-hash]` | High
+52 | File | `/index.php?s=/article/ApiAdminArticle/itemAdd` | High
+53 | File | `/instance/detail` | High
+54 | File | `/items/search` | High
+55 | File | `/kelasdosen/data` | High
+56 | File | `/knowage/restful-services/dossier/importTemplateFile` | High
+57 | File | `/languages/install.php` | High
+58 | ... | ... | ...
 
-There are 752 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 511 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -145,6 +137,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://app.any.run/tasks/07d48cef-8f74-4755-96c9-c793a8ede462
 * https://bazaar.abuse.ch/sample/a19a8e6782f0008c3b10276c764962f6f27b27754d826f8d3679ef15bea122d5/
 * https://threatfox.abuse.ch
+* https://tria.ge/230908-y775ksfb85/behavioral2
 * https://twitter.com/ScumBots/status/1633119068986257413
 
 ## Literature

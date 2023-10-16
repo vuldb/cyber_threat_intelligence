@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 20 more country items available. Please use our online service to access the data.
+There are 17 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -69,7 +69,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -86,45 +86,47 @@ ID | Type | Indicator | Confidence
 7 | File | `/admin/report/index.php` | High
 8 | File | `/ajax.php?action=read_msg` | High
 9 | File | `/api/gen/clients/{language}` | High
-10 | File | `/app/options.py` | High
-11 | File | `/bin/httpd` | Medium
-12 | File | `/cgi-bin/wapopen` | High
-13 | File | `/cgi-bin/webadminget.cgi` | High
-14 | File | `/ci_spms/admin/category` | High
-15 | File | `/ci_spms/admin/search/searching/` | High
-16 | File | `/classes/Master.php?f=delete_appointment` | High
-17 | File | `/classes/Master.php?f=delete_service` | High
-18 | File | `/classes/Master.php?f=delete_train` | High
+10 | File | `/api/runscript` | High
+11 | File | `/app/options.py` | High
+12 | File | `/bin/httpd` | Medium
+13 | File | `/cgi-bin/wapopen` | High
+14 | File | `/cgi-bin/webadminget.cgi` | High
+15 | File | `/ci_spms/admin/category` | High
+16 | File | `/ci_spms/admin/search/searching/` | High
+17 | File | `/classes/Master.php?f=delete_appointment` | High
+18 | File | `/classes/Master.php?f=delete_service` | High
 19 | File | `/classes/Master.php?f=save_course` | High
-20 | File | `/ctcprotocol/Protocol` | High
-21 | File | `/dashboard/menu-list.php` | High
-22 | File | `/ebics-server/ebics.aspx` | High
-23 | File | `/ffos/classes/Master.php?f=save_category` | High
-24 | File | `/forum/away.php` | High
-25 | File | `/goforms/rlminfo` | High
-26 | File | `/HNAP1` | Low
-27 | File | `/HNAP1/SetClientInfo` | High
-28 | File | `/inc/topBarNav.php` | High
-29 | File | `/Items/*/RemoteImages/Download` | High
-30 | File | `/menu.html` | Medium
-31 | File | `/mkshop/Men/profile.php` | High
-32 | File | `/mobile/downloadfile.aspx` | High
-33 | File | `/modules/profile/index.php` | High
-34 | File | `/net/nfc/netlink.c` | High
-35 | File | `/ocwbs/admin/?page=user/manage_user` | High
-36 | File | `/ofrs/admin/?page=user/manage_user` | High
-37 | File | `/out.php` | Medium
-38 | File | `/outgoing.php` | High
-39 | File | `/php-fusion/infusions/shoutbox_panel/shoutbox_archive.php` | High
-40 | File | `/php_action/fetchSelectedUser.php` | High
-41 | File | `/resources//../` | High
-42 | File | `/spip.php` | Medium
-43 | File | `/squashfs-root/www/HNAP1/control/SetMasterWLanSettings.php` | High
-44 | File | `/staff/delete.php` | High
-45 | File | `/sys/dict/queryTableData` | High
-46 | ... | ... | ...
+20 | File | `/csms/?page=contact_us` | High
+21 | File | `/ctcprotocol/Protocol` | High
+22 | File | `/dashboard/menu-list.php` | High
+23 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
+24 | File | `/ebics-server/ebics.aspx` | High
+25 | File | `/ecommerce/admin/settings/setDiscount.php` | High
+26 | File | `/ffos/classes/Master.php?f=save_category` | High
+27 | File | `/forum/away.php` | High
+28 | File | `/goform/net\_Web\_get_value` | High
+29 | File | `/GponForm/usb_restore_Form?script/` | High
+30 | File | `/group1/uploa` | High
+31 | File | `/HNAP1` | Low
+32 | File | `/HNAP1/SetClientInfo` | High
+33 | File | `/inc/topBarNav.php` | High
+34 | File | `/Items/*/RemoteImages/Download` | High
+35 | File | `/menu.html` | Medium
+36 | File | `/mkshop/Men/profile.php` | High
+37 | File | `/mobile/downloadfile.aspx` | High
+38 | File | `/modules/profile/index.php` | High
+39 | File | `/net/nfc/netlink.c` | High
+40 | File | `/out.php` | Medium
+41 | File | `/outgoing.php` | High
+42 | File | `/php-fusion/infusions/shoutbox_panel/shoutbox_archive.php` | High
+43 | File | `/php_action/fetchSelectedUser.php` | High
+44 | File | `/resources//../` | High
+45 | File | `/spip.php` | Medium
+46 | File | `/squashfs-root/www/HNAP1/control/SetMasterWLanSettings.php` | High
+47 | File | `/staff/delete.php` | High
+48 | ... | ... | ...
 
-There are 401 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 416 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

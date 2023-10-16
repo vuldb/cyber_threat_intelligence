@@ -47,7 +47,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -62,27 +62,28 @@ ID | Type | Indicator | Confidence
 5 | File | `/admin/login.php` | High
 6 | File | `/ad_js.php` | Medium
 7 | File | `/alerts/alertConfigField.php` | High
-8 | File | `/config/myfield/test.php` | High
-9 | File | `/context/%2e/WEB-INF/web.xml` | High
-10 | File | `/core/conditions/AbstractWrapper.java` | High
-11 | File | `/data/remove` | Medium
-12 | File | `/debug/pprof` | Medium
-13 | File | `/etc/passwd` | Medium
-14 | File | `/face-recognition-php/facepay-master/camera.php` | High
-15 | File | `/forms/doLogin` | High
-16 | File | `/fuel/index.php/fuel/logs/items` | High
-17 | File | `/fuel/index.php/fuel/pages/items` | High
-18 | File | `/goform/aspForm` | High
-19 | File | `/image_zoom.php` | High
-20 | File | `/include/config.cache.php` | High
-21 | File | `/index.php` | Medium
-22 | File | `/mkshop/Men/profile.php` | High
-23 | File | `/param.file.tgz` | High
-24 | File | `/proxy/` | Low
-25 | File | `/public/plugins/` | High
-26 | ... | ... | ...
+8 | File | `/api/v1/terminal/sessions/?limit=1` | High
+9 | File | `/config/myfield/test.php` | High
+10 | File | `/context/%2e/WEB-INF/web.xml` | High
+11 | File | `/core/conditions/AbstractWrapper.java` | High
+12 | File | `/data/remove` | Medium
+13 | File | `/debug/pprof` | Medium
+14 | File | `/etc/passwd` | Medium
+15 | File | `/face-recognition-php/facepay-master/camera.php` | High
+16 | File | `/forms/doLogin` | High
+17 | File | `/fuel/index.php/fuel/logs/items` | High
+18 | File | `/fuel/index.php/fuel/pages/items` | High
+19 | File | `/goform/aspForm` | High
+20 | File | `/image_zoom.php` | High
+21 | File | `/include/config.cache.php` | High
+22 | File | `/index.php` | Medium
+23 | File | `/mkshop/Men/profile.php` | High
+24 | File | `/modules/announcement/index.php?view=edit` | High
+25 | File | `/param.file.tgz` | High
+26 | File | `/proxy/` | Low
+27 | ... | ... | ...
 
-There are 220 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 226 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

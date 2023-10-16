@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 15 more country items available. Please use our online service to access the data.
+There are 17 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -47,13 +47,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-25, CWE-29, CWE-425 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-25, CWE-29, CWE-36, CWE-425 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -62,60 +63,55 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/admin/add-category.php` | High
-3 | File | `/admin/add_user_modal.php` | High
-4 | File | `/admin/categories/view_category.php` | High
-5 | File | `/admin/maintenance/view_designation.php` | High
-6 | File | `/admin/project/update/2` | High
-7 | File | `/admin/report/index.php` | High
-8 | File | `/admin/upload/upload` | High
-9 | File | `/api/baskets/{name}` | High
-10 | File | `/api/gen/clients/{language}` | High
-11 | File | `/blog` | Low
-12 | File | `/category.php` | High
-13 | File | `/cgi-bin/wlogin.cgi` | High
-14 | File | `/config/myfield/test.php` | High
-15 | File | `/debug/pprof` | Medium
-16 | File | `/ecshop/admin/template.php` | High
-17 | File | `/file/upload/1` | High
-18 | File | `/forum/away.php` | High
-19 | File | `/forum/PostPrivateMessage` | High
-20 | File | `/ghost/preview` | High
-21 | File | `/goform/set_LimitClient_cfg` | High
-22 | File | `/home/www/cgi-bin/login.cgi` | High
-23 | File | `/load.php` | Medium
-24 | File | `/multi-vendor-shopping-script/product-list.php` | High
-25 | File | `/net-banking/customer_transactions.php` | High
-26 | File | `/obs/book.php` | High
-27 | File | `/ossn/administrator/com_installer` | High
-28 | File | `/owa/auth/logon.aspx` | High
-29 | File | `/pms/update_user.php?user_id=1` | High
-30 | File | `/preview.php` | Medium
-31 | File | `/requests.php` | High
-32 | File | `/search.php` | Medium
-33 | File | `/spip.php` | Medium
-34 | File | `/sqlite3_aflpp/shell.c` | High
-35 | File | `/SVFE2/pages/feegroups/service_group.jsf` | High
-36 | File | `/ueditor/net/controller.ashx?action=catchimage` | High
-37 | File | `/uncpath/` | Medium
-38 | File | `/user/upload/upload` | High
-39 | File | `/Users` | Low
-40 | File | `/v2/#/` | Low
-41 | File | `/vendor` | Low
-42 | File | `/webservices/download/index.php` | High
-43 | File | `?r=article/category/del` | High
-44 | File | `?r=article/default/delete` | High
-45 | File | `AccessibilityManagerService.java` | High
-46 | File | `accountrecoveryendpoint/recoverpassword.do` | High
-47 | File | `adclick.php` | Medium
-48 | File | `add_contestant.php` | High
-49 | File | `admin.php` | Medium
-50 | File | `admin/content.php` | High
-51 | File | `admin/edit_category.php` | High
-52 | File | `admin/index.php` | High
-53 | ... | ... | ...
+2 | File | `/academy/tutor/filter` | High
+3 | File | `/admin/add-category.php` | High
+4 | File | `/admin/add_user_modal.php` | High
+5 | File | `/admin/article/article-edit-run.php` | High
+6 | File | `/admin/categories/view_category.php` | High
+7 | File | `/admin/maintenance/view_designation.php` | High
+8 | File | `/admin/project/update/2` | High
+9 | File | `/admin/report/index.php` | High
+10 | File | `/admin/upload/upload` | High
+11 | File | `/api/baskets/{name}` | High
+12 | File | `/api/gen/clients/{language}` | High
+13 | File | `/bin/login` | Medium
+14 | File | `/bin/mini_upnpd` | High
+15 | File | `/blog` | Low
+16 | File | `/category.php` | High
+17 | File | `/cgi-bin/wlogin.cgi` | High
+18 | File | `/config/myfield/test.php` | High
+19 | File | `/debug/pprof` | Medium
+20 | File | `/ecshop/admin/template.php` | High
+21 | File | `/file/upload/1` | High
+22 | File | `/forum/away.php` | High
+23 | File | `/forum/PostPrivateMessage` | High
+24 | File | `/ghost/preview` | High
+25 | File | `/goform/set_LimitClient_cfg` | High
+26 | File | `/h/autoSaveDraft` | High
+27 | File | `/h/search?action` | High
+28 | File | `/home/www/cgi-bin/login.cgi` | High
+29 | File | `/hss/admin/?page=products/view_product` | High
+30 | File | `/importexport.php` | High
+31 | File | `/index.php` | Medium
+32 | File | `/index.php?app=main&func=passport&action=login` | High
+33 | File | `/index.php?page=member` | High
+34 | File | `/load.php` | Medium
+35 | File | `/multi-vendor-shopping-script/product-list.php` | High
+36 | File | `/net-banking/customer_transactions.php` | High
+37 | File | `/obs/book.php` | High
+38 | File | `/ossn/administrator/com_installer` | High
+39 | File | `/owa/auth/logon.aspx` | High
+40 | File | `/pms/update_user.php?user_id=1` | High
+41 | File | `/preview.php` | Medium
+42 | File | `/requests.php` | High
+43 | File | `/robot/initialize` | High
+44 | File | `/search.php` | Medium
+45 | File | `/secure/ViewCollectors` | High
+46 | File | `/spip.php` | Medium
+47 | File | `/sqlite3_aflpp/shell.c` | High
+48 | ... | ... | ...
 
-There are 463 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 420 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

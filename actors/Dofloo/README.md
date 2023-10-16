@@ -43,13 +43,13 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/goform/WifiBasicSet` | High
-2 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
-3 | File | `adclick.php` | Medium
-4 | File | `adm/menu_list_update.php` | High
+1 | File | `/goform/SetNetControlList` | High
+2 | File | `/goform/WifiBasicSet` | High
+3 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
+4 | File | `adclick.php` | Medium
 5 | ... | ... | ...
 
-There are 25 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 28 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

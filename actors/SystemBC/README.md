@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 15 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -51,22 +51,23 @@ ID | IP address | Hostname | Campaign | Confidence
 28 | [31.222.238.58](https://vuldb.com/?ip.31.222.238.58) | wsuoog1.example.com | - | High
 29 | [34.171.171.32](https://vuldb.com/?ip.34.171.171.32) | 32.171.171.34.bc.googleusercontent.com | - | Medium
 30 | [35.198.166.27](https://vuldb.com/?ip.35.198.166.27) | 27.166.198.35.bc.googleusercontent.com | - | Medium
-31 | [45.11.57.142](https://vuldb.com/?ip.45.11.57.142) | dedicated.vsys.host | - | High
-32 | [45.15.156.48](https://vuldb.com/?ip.45.15.156.48) | - | - | High
-33 | [45.15.156.213](https://vuldb.com/?ip.45.15.156.213) | - | - | High
-34 | [45.15.159.230](https://vuldb.com/?ip.45.15.159.230) | nl-gateway.aeza.network | - | High
-35 | [45.32.132.182](https://vuldb.com/?ip.45.32.132.182) | 45.32.132.182.vultrusercontent.com | - | High
-36 | [45.32.181.136](https://vuldb.com/?ip.45.32.181.136) | 45.32.181.136.vultrusercontent.com | - | High
-37 | [45.66.249.84](https://vuldb.com/?ip.45.66.249.84) | 7g6Ve.monticelloedc.org | - | High
-38 | [45.77.101.240](https://vuldb.com/?ip.45.77.101.240) | 45.77.101.240.vultrusercontent.com | - | High
-39 | [45.77.115.67](https://vuldb.com/?ip.45.77.115.67) | 45.77.115.67.vultrusercontent.com | - | High
-40 | [45.79.237.92](https://vuldb.com/?ip.45.79.237.92) | 45-79-237-92.ip.linodeusercontent.com | - | High
-41 | [45.81.225.72](https://vuldb.com/?ip.45.81.225.72) | vm3618662.24ssd.had.wf | - | High
-42 | [45.86.162.219](https://vuldb.com/?ip.45.86.162.219) | west219.reel.gen.tr | - | High
-43 | [45.89.125.136](https://vuldb.com/?ip.45.89.125.136) | mail.marlon.world | - | High
-44 | ... | ... | ... | ...
+31 | [37.1.214.251](https://vuldb.com/?ip.37.1.214.251) | - | - | High
+32 | [45.11.57.142](https://vuldb.com/?ip.45.11.57.142) | dedicated.vsys.host | - | High
+33 | [45.15.156.48](https://vuldb.com/?ip.45.15.156.48) | - | - | High
+34 | [45.15.156.213](https://vuldb.com/?ip.45.15.156.213) | - | - | High
+35 | [45.15.159.230](https://vuldb.com/?ip.45.15.159.230) | nl-gateway.aeza.network | - | High
+36 | [45.32.132.182](https://vuldb.com/?ip.45.32.132.182) | 45.32.132.182.vultrusercontent.com | - | High
+37 | [45.32.181.136](https://vuldb.com/?ip.45.32.181.136) | 45.32.181.136.vultrusercontent.com | - | High
+38 | [45.66.249.84](https://vuldb.com/?ip.45.66.249.84) | 7g6Ve.monticelloedc.org | - | High
+39 | [45.77.101.240](https://vuldb.com/?ip.45.77.101.240) | 45.77.101.240.vultrusercontent.com | - | High
+40 | [45.77.115.67](https://vuldb.com/?ip.45.77.115.67) | 45.77.115.67.vultrusercontent.com | - | High
+41 | [45.79.237.92](https://vuldb.com/?ip.45.79.237.92) | 45-79-237-92.ip.linodeusercontent.com | - | High
+42 | [45.81.225.72](https://vuldb.com/?ip.45.81.225.72) | vm3618662.24ssd.had.wf | - | High
+43 | [45.86.162.219](https://vuldb.com/?ip.45.86.162.219) | west219.reel.gen.tr | - | High
+44 | [45.89.125.136](https://vuldb.com/?ip.45.89.125.136) | mail.marlon.world | - | High
+45 | ... | ... | ... | ...
 
-There are 173 more IOC items available. Please use our online service to access the data.
+There are 177 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -74,15 +75,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
-7 | ... | ... | ... | ...
+6 | ... | ... | ... | ...
 
-There are 23 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -92,7 +92,7 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `//proc/kcore` | Medium
 2 | File | `/admin.php/Admin/adminadd.html` | High
-3 | File | `/admin/?page=system_info/contact_info` | High
+3 | File | `/admin/about-us.php` | High
 4 | File | `/Admin/add-student.php` | High
 5 | File | `/admin/login.php` | High
 6 | File | `/admin/settings/save.php` | High
@@ -102,20 +102,20 @@ ID | Type | Indicator | Confidence
 10 | File | `/api/v1/bait/set` | High
 11 | File | `/apply.cgi` | Medium
 12 | File | `/asms/classes/Master.php?f=delete_img` | High
-13 | File | `/cgi-bin/wlogin.cgi` | High
-14 | File | `/College/admin/teacher.php` | High
-15 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
-16 | File | `/csms/?page=contact_us` | High
-17 | File | `/dcim/rack-roles/` | High
-18 | File | `/en/blog-comment-4` | High
-19 | File | `/forum/away.php` | High
-20 | File | `/goform/addUserName` | High
-21 | File | `/goform/aspForm` | High
-22 | File | `/goform/delAd` | High
-23 | File | `/goform/wifiSSIDset` | High
-24 | File | `/gpac/src/bifs/unquantize.c` | High
-25 | File | `/h/` | Low
-26 | File | `/hocms/classes/Master.php?f=delete_collection` | High
+13 | File | `/book-services.php` | High
+14 | File | `/cgi-bin/wlogin.cgi` | High
+15 | File | `/College/admin/teacher.php` | High
+16 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
+17 | File | `/csms/?page=contact_us` | High
+18 | File | `/dcim/rack-roles/` | High
+19 | File | `/en/blog-comment-4` | High
+20 | File | `/forum/away.php` | High
+21 | File | `/goform/addUserName` | High
+22 | File | `/goform/aspForm` | High
+23 | File | `/goform/delAd` | High
+24 | File | `/goform/wifiSSIDset` | High
+25 | File | `/gpac/src/bifs/unquantize.c` | High
+26 | File | `/h/` | Low
 27 | File | `/inc/topBarNav.php` | High
 28 | File | `/index.asp` | Medium
 29 | File | `/index.php` | Medium
@@ -123,19 +123,18 @@ ID | Type | Indicator | Confidence
 31 | File | `/jfinal_cms/system/role/list` | High
 32 | File | `/kelas/data` | Medium
 33 | File | `/login/index.php` | High
-34 | File | `/mgmt/tm/util/bash` | High
-35 | File | `/Moosikay/order.php` | High
-36 | File | `/ms/cms/content/list.do` | High
-37 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-38 | File | `/php-sms/admin/quotes/manage_remark.php` | High
-39 | File | `/plesk-site-preview/` | High
-40 | File | `/project/PROJECTNAME/reports/` | High
-41 | File | `/school/model/get_admin_profile.php` | High
-42 | File | `/secure/QueryComponent!Default.jspa` | High
-43 | File | `/secure/ViewCollectors` | High
-44 | ... | ... | ...
+34 | File | `/Moosikay/order.php` | High
+35 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+36 | File | `/php-sms/admin/quotes/manage_remark.php` | High
+37 | File | `/project/PROJECTNAME/reports/` | High
+38 | File | `/school/model/get_admin_profile.php` | High
+39 | File | `/scripts/unlock_tasks.php` | High
+40 | File | `/secure/QueryComponent!Default.jspa` | High
+41 | File | `/secure/ViewCollectors` | High
+42 | File | `/Session` | Medium
+43 | ... | ... | ...
 
-There are 382 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 375 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -157,6 +156,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://bazaar.abuse.ch/sample/742a97dbebd3f760b215186d04655dfcaf3846b40d3390a2db9bd7ee5f3d3266/
 * https://bazaar.abuse.ch/sample/998b16d93ed1043b616cddfcae2cbe10b6f4ae05b9bbd1abed4a99ad11205444/
 * https://bazaar.abuse.ch/sample/49763b5871eae34139060e486a62817242212a549593a1875a5221655b510334/
+* https://bazaar.abuse.ch/sample/91735a2a578ca710a1f2e09985ba20079971ee87aa45bfb4b18f4f74a43ce08f/
 * https://bazaar.abuse.ch/sample/160764e2f395ecd512ea174af36156ad0d2fbe3e3e78a63a90ff90307b22202a/
 * https://bazaar.abuse.ch/sample/835089cc52af94cdcdf26ab335f8a4fe4719071746539acf472579fa2fc8e4f9/
 * https://bazaar.abuse.ch/sample/a2bf4098b65e0efb8bc9cba70cfb5e36d01de5f591d100bb429a5dc3ef6c3bc3/

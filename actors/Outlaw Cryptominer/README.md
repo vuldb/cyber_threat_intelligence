@@ -26,9 +26,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1068 | CWE-269 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
-2 | T1204.001 | CWE-601 | Open Redirect | High
-3 | T1592.004 | CWE-16 | Configuration | High
+1 | T1055 | CWE-74 | Injection | High
+2 | T1068 | CWE-269 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+3 | T1204.001 | CWE-601 | Open Redirect | High
+4 | ... | ... | ... | ...
+
+There are 1 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -37,7 +40,8 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `redirector.php` | High
-2 | Argument | `url` | Low
+2 | Argument | `Host` | Low
+3 | Argument | `url` | Low
 
 ## References
 

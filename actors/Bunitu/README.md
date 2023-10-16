@@ -66,34 +66,34 @@ ID | Type | Indicator | Confidence
 11 | File | `/cgi-bin/luci;stok=/locale` | High
 12 | File | `/cgi-bin/pass` | High
 13 | File | `/classes/Master.php?f=save_item` | High
-14 | File | `/ctpms/admin/?page=applications/view_application` | High
-15 | File | `/dev/tcx0` | Medium
-16 | File | `/dev/urandom` | Medium
-17 | File | `/etc/environment` | High
-18 | File | `/etc/keystone/user-project-map.json` | High
-19 | File | `/etc/passwd` | Medium
-20 | File | `/home.jsp` | Medium
-21 | File | `/inc/campaign/view-campaign-list.php` | High
-22 | File | `/include/menu_v.inc.php` | High
-23 | File | `/index.php/weblinks-categories` | High
-24 | File | `/servlet/webacc` | High
-25 | File | `/student-grading-system/rms.php?page=school_year` | High
-26 | File | `/system?action=ServiceAdmin` | High
-27 | File | `/usr/` | Low
-28 | File | `/usr/bin/pkexec` | High
-29 | File | `/wp-admin/admin.php?page=cpabc_appointments.php` | High
-30 | File | `ActiveMQConnection.java` | High
-31 | File | `admin-ajax.php` | High
-32 | File | `admin.php` | Medium
-33 | File | `admin/ad_list.php` | High
-34 | File | `admin/panels/uploader/admin.uploader.php` | High
-35 | File | `admin/status/realtime/bandwidth_status` | High
-36 | File | `agent.c` | Low
-37 | File | `ajax_crons.php` | High
-38 | File | `ansi.c` | Low
+14 | File | `/collection/all` | High
+15 | File | `/ctpms/admin/?page=applications/view_application` | High
+16 | File | `/dev/tcx0` | Medium
+17 | File | `/dev/urandom` | Medium
+18 | File | `/etc/environment` | High
+19 | File | `/etc/keystone/user-project-map.json` | High
+20 | File | `/etc/passwd` | Medium
+21 | File | `/home.jsp` | Medium
+22 | File | `/inc/campaign/view-campaign-list.php` | High
+23 | File | `/include/menu_v.inc.php` | High
+24 | File | `/index.php/weblinks-categories` | High
+25 | File | `/servlet/webacc` | High
+26 | File | `/student-grading-system/rms.php?page=school_year` | High
+27 | File | `/system?action=ServiceAdmin` | High
+28 | File | `/usr/` | Low
+29 | File | `/usr/bin/pkexec` | High
+30 | File | `/wp-admin/admin.php?page=cpabc_appointments.php` | High
+31 | File | `ActiveMQConnection.java` | High
+32 | File | `admin-ajax.php` | High
+33 | File | `admin.php` | Medium
+34 | File | `admin/ad_list.php` | High
+35 | File | `admin/panels/uploader/admin.uploader.php` | High
+36 | File | `admin/status/realtime/bandwidth_status` | High
+37 | File | `agent.c` | Low
+38 | File | `ajax_crons.php` | High
 39 | ... | ... | ...
 
-There are 333 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 337 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

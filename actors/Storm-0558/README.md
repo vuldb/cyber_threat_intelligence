@@ -56,23 +56,25 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/index2.html` | High
 2 | File | `/admin/sales/view_details.php` | High
-3 | File | `/apply.cgi` | Medium
-4 | File | `/apply_noauth.cgi` | High
-5 | File | `/bin/webs` | Medium
-6 | File | `/DS/LM_API/api/ConfigurationService/GetImages` | High
-7 | File | `/DS/LM_API/api/SelectionService/GetPaggedTab` | High
-8 | File | `/DS/LM_API/api/SelectionService/InsertQueryWithActiveRelationsReturnId` | High
-9 | File | `/etc/sudoers` | Medium
-10 | File | `/goform/formSetEmail` | High
-11 | File | `/LMS/LM/#main` | High
-12 | File | `/mhds/clinic/view_details.php` | High
-13 | File | `/modules/atari-img.c` | High
-14 | File | `/modules/projects/vw_files.php` | High
-15 | File | `/password/reset` | High
-16 | File | `/student/bookdetails.php` | High
-17 | ... | ... | ...
+3 | File | `/api/v1/terminal/sessions/?limit=1` | High
+4 | File | `/apply.cgi` | Medium
+5 | File | `/apply_noauth.cgi` | High
+6 | File | `/bin/webs` | Medium
+7 | File | `/DS/LM_API/api/ConfigurationService/GetImages` | High
+8 | File | `/DS/LM_API/api/SelectionService/GetPaggedTab` | High
+9 | File | `/DS/LM_API/api/SelectionService/InsertQueryWithActiveRelationsReturnId` | High
+10 | File | `/etc/sudoers` | Medium
+11 | File | `/goform/formSetEmail` | High
+12 | File | `/LMS/LM/#main` | High
+13 | File | `/mhds/clinic/view_details.php` | High
+14 | File | `/modules/atari-img.c` | High
+15 | File | `/modules/projects/vw_files.php` | High
+16 | File | `/password/reset` | High
+17 | File | `/requests.php` | High
+18 | File | `/scripts/unlock_tasks.php` | High
+19 | ... | ... | ...
 
-There are 136 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 153 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

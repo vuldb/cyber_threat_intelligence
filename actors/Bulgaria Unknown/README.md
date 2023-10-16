@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 30 more country items available. Please use our online service to access the data.
+There are 31 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -594,11 +594,11 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-36, CWE-425 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -609,60 +609,62 @@ ID | Type | Indicator | Confidence
 1 | File | `.github/workflows/comment.yml` | High
 2 | File | `/?r=recruit/resume/edit&op=status` | High
 3 | File | `/academy/home/courses` | High
-4 | File | `/account/delivery` | High
-5 | File | `/ad-list` | Medium
-6 | File | `/admin/?page=user/list` | High
-7 | File | `/admin/?page=user/manage_user&id=3` | High
-8 | File | `/admin/about-us.php` | High
-9 | File | `/admin/add-category.php` | High
-10 | File | `/admin/add-services.php` | High
-11 | File | `/admin/add_user_modal.php` | High
+4 | File | `/academy/tutor/filter` | High
+5 | File | `/account/delivery` | High
+6 | File | `/ad-list` | Medium
+7 | File | `/admin/?page=user/list` | High
+8 | File | `/admin/?page=user/manage_user&id=3` | High
+9 | File | `/admin/about-us.php` | High
+10 | File | `/admin/add-category.php` | High
+11 | File | `/admin/add-services.php` | High
 12 | File | `/admin/admin-profile.php` | High
-13 | File | `/admin/del_category.php` | High
-14 | File | `/admin/del_feedback.php` | High
-15 | File | `/admin/del_service.php` | High
-16 | File | `/admin/edit-accepted-appointment.php` | High
-17 | File | `/admin/edit_category.php` | High
-18 | File | `/admin/edit_product.php` | High
-19 | File | `/admin/files` | Medium
-20 | File | `/admin/forgot-password.php` | High
-21 | File | `/admin/index.php` | High
-22 | File | `/admin/index/index.html#/admin/mall.goods/index.html` | High
-23 | File | `/admin/invoice.php` | High
-24 | File | `/admin/search-appointment.php` | High
-25 | File | `/admin/sys_sql_query.php` | High
-26 | File | `/admin/test_status.php` | High
+13 | File | `/admin/article/article-edit-run.php` | High
+14 | File | `/admin/del_category.php` | High
+15 | File | `/admin/del_feedback.php` | High
+16 | File | `/admin/del_service.php` | High
+17 | File | `/admin/edit-accepted-appointment.php` | High
+18 | File | `/admin/edit_category.php` | High
+19 | File | `/admin/edit_product.php` | High
+20 | File | `/admin/files` | Medium
+21 | File | `/admin/forgot-password.php` | High
+22 | File | `/admin/index.php` | High
+23 | File | `/admin/index/index.html#/admin/mall.goods/index.html` | High
+24 | File | `/admin/invoice.php` | High
+25 | File | `/admin/search-appointment.php` | High
+26 | File | `/admin/sys_sql_query.php` | High
 27 | File | `/api/baskets/{name}` | High
-28 | File | `/api/ping` | Medium
-29 | File | `/api/set-password` | High
-30 | File | `/api/sys/login` | High
-31 | File | `/api/sys/set_passwd` | High
-32 | File | `/app/sys1.php` | High
-33 | File | `/App_Resource/UEditor/server/upload.aspx` | High
-34 | File | `/author_posts.php` | High
-35 | File | `/bitrix/admin/ldap_server_edit.php` | High
-36 | File | `/blog` | Low
-37 | File | `/blog-single.php` | High
-38 | File | `/booking/show_bookings/` | High
+28 | File | `/api/download/updateFile` | High
+29 | File | `/api/es/admin/v3/security/user/1` | High
+30 | File | `/api/installation/setThumbnailRc` | High
+31 | File | `/api/sys/login` | High
+32 | File | `/api/sys/set_passwd` | High
+33 | File | `/api/thumbnail` | High
+34 | File | `/app/sys1.php` | High
+35 | File | `/App_Resource/UEditor/server/upload.aspx` | High
+36 | File | `/bitrix/admin/ldap_server_edit.php` | High
+37 | File | `/blog` | Low
+38 | File | `/blog-single.php` | High
 39 | File | `/browse` | Low
-40 | File | `/cgi-bin/luci/api/wireless` | High
-41 | File | `/chaincity/user/ticket/create` | High
-42 | File | `/classes/Master.php?f=delete_category` | High
-43 | File | `/classes/Master.php?f=delete_inquiry` | High
+40 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+41 | File | `/cgi-bin/luci/api/wireless` | High
+42 | File | `/chaincity/user/ticket/create` | High
+43 | File | `/classes/Master.php?f=delete_category` | High
 44 | File | `/classes/Master.php?f=save_inquiry` | High
-45 | File | `/classes/Master.php?f=save_item` | High
-46 | File | `/company/store` | High
-47 | File | `/conf/` | Low
-48 | File | `/config` | Low
-49 | File | `/config/php.ini` | High
-50 | File | `/contact.php` | Medium
-51 | File | `/Content/Template/root/reverse-shell.aspx` | High
-52 | File | `/Controller/Ajaxfileupload.ashx` | High
-53 | File | `/core/conditions/AbstractWrapper.java` | High
-54 | File | `/debug/pprof` | Medium
-55 | ... | ... | ...
+45 | File | `/collection/all` | High
+46 | File | `/conf/` | Low
+47 | File | `/config/php.ini` | High
+48 | File | `/Content/Template/root/reverse-shell.aspx` | High
+49 | File | `/core/conditions/AbstractWrapper.java` | High
+50 | File | `/dashboard/add-blog.php` | High
+51 | File | `/debug/pprof` | Medium
+52 | File | `/etc/passwd` | Medium
+53 | File | `/find-a-match` | High
+54 | File | `/forum/away.php` | High
+55 | File | `/friends` | Medium
+56 | File | `/friends/ajax_invite` | High
+57 | ... | ... | ...
 
-There are 478 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 496 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

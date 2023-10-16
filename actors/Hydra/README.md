@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Hydra:
 
 * [US](https://vuldb.com/?country.us)
+* [AU](https://vuldb.com/?country.au)
 * [RU](https://vuldb.com/?country.ru)
-* [MO](https://vuldb.com/?country.mo)
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 15 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -21,17 +21,20 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [45.12.253.200](https://vuldb.com/?ip.45.12.253.200) | - | - | High
-2 | [45.144.28.231](https://vuldb.com/?ip.45.144.28.231) | - | - | High
-3 | [45.150.67.23](https://vuldb.com/?ip.45.150.67.23) | vm307437.pq.hosting | - | High
-4 | [77.73.131.239](https://vuldb.com/?ip.77.73.131.239) | curved-knife.aeza.network | - | High
-5 | [77.91.84.249](https://vuldb.com/?ip.77.91.84.249) | victorious-sweater.aeza.network | - | High
-6 | [77.91.85.231](https://vuldb.com/?ip.77.91.85.231) | vigorous-finger.aeza.network | - | High
-7 | [77.91.86.197](https://vuldb.com/?ip.77.91.86.197) | godly-arm.aeza.network | - | High
-8 | [77.91.87.207](https://vuldb.com/?ip.77.91.87.207) | - | - | High
-9 | ... | ... | ... | ...
+1 | [2.57.149.78](https://vuldb.com/?ip.2.57.149.78) | - | - | High
+2 | [31.129.22.96](https://vuldb.com/?ip.31.129.22.96) | Pbl.ip-ptr.tech | - | High
+3 | [45.12.253.200](https://vuldb.com/?ip.45.12.253.200) | - | - | High
+4 | [45.144.28.231](https://vuldb.com/?ip.45.144.28.231) | - | - | High
+5 | [45.150.67.23](https://vuldb.com/?ip.45.150.67.23) | vm307437.pq.hosting | - | High
+6 | [62.233.50.185](https://vuldb.com/?ip.62.233.50.185) | - | - | High
+7 | [77.73.131.239](https://vuldb.com/?ip.77.73.131.239) | curved-knife.aeza.network | - | High
+8 | [77.91.84.249](https://vuldb.com/?ip.77.91.84.249) | victorious-sweater.aeza.network | - | High
+9 | [77.91.85.231](https://vuldb.com/?ip.77.91.85.231) | vigorous-finger.aeza.network | - | High
+10 | [77.91.86.197](https://vuldb.com/?ip.77.91.86.197) | godly-arm.aeza.network | - | High
+11 | [77.91.87.207](https://vuldb.com/?ip.77.91.87.207) | - | - | High
+12 | ... | ... | ... | ...
 
-There are 34 more IOC items available. Please use our online service to access the data.
+There are 43 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -39,12 +42,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-22, CWE-23 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
-4 | ... | ... | ... | ...
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 15 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -52,27 +56,57 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/delete_user.php` | High
-2 | File | `/admin/maintenance/view_designation.php` | High
-3 | File | `/admin/wlmultipleap.asp` | High
-4 | File | `/api/baskets/{name}` | High
-5 | File | `/brand.php` | Medium
-6 | File | `/cas/logout` | Medium
-7 | File | `/category.php` | High
-8 | File | `/forum/away.php` | High
-9 | File | `/goform/L7Im` | Medium
-10 | File | `/include/chart_generator.php` | High
-11 | File | `/login/index.php` | High
-12 | File | `/rest/api/2/user/picker` | High
-13 | File | `/scripts/cpan_config` | High
-14 | File | `/spip.php` | Medium
-15 | File | `/uncpath/` | Medium
-16 | File | `/user/updatePwd` | High
-17 | File | `/wp-admin/admin-ajax.php` | High
-18 | File | `action.php` | Medium
-19 | ... | ... | ...
+1 | File | `.cfm` | Low
+2 | File | `/.env` | Low
+3 | File | `/admin/cms_admin.php` | High
+4 | File | `/admin/delete_user.php` | High
+5 | File | `/admin/forgot-password.php` | High
+6 | File | `/admin/maintenance/view_designation.php` | High
+7 | File | `/admin/wlmultipleap.asp` | High
+8 | File | `/api/baskets/{name}` | High
+9 | File | `/be/erpc.php` | Medium
+10 | File | `/brand.php` | Medium
+11 | File | `/cas/logout` | Medium
+12 | File | `/category.php` | High
+13 | File | `/classes/Master.php?f=delete_inquiry` | High
+14 | File | `/collection/all` | High
+15 | File | `/coreframe/app/member/admin/group.php` | High
+16 | File | `/forum/away.php` | High
+17 | File | `/goform/L7Im` | Medium
+18 | File | `/hoteldruid/interconnessioni.php` | High
+19 | File | `/include/chart_generator.php` | High
+20 | File | `/index.php?page=member` | High
+21 | File | `/login/index.php` | High
+22 | File | `/medical/inventories.php` | High
+23 | File | `/mgmt/tm/util/bash` | High
+24 | File | `/modules/projects/vw_files.php` | High
+25 | File | `/rest/api/2/user/picker` | High
+26 | File | `/school/model/get_events.php` | High
+27 | File | `/scripts/cpan_config` | High
+28 | File | `/search/index` | High
+29 | File | `/secure/QueryComponent!Default.jspa` | High
+30 | File | `/spacecom/login.php` | High
+31 | File | `/spip.php` | Medium
+32 | File | `/uncpath/` | Medium
+33 | File | `/user/updatePwd` | High
+34 | File | `/wp-admin/admin-ajax.php` | High
+35 | File | `AbstractController.php` | High
+36 | File | `action.php` | Medium
+37 | File | `add-locker-form.php` | High
+38 | File | `addpost_newpoll.php` | High
+39 | File | `admin.php` | Medium
+40 | File | `admin.remository.php` | High
+41 | File | `admin/news.php` | High
+42 | File | `admin/page.php` | High
+43 | File | `admin/partials/ajax/add_field_to_form.php` | High
+44 | File | `administrator/upload.php` | High
+45 | File | `Administrator/users.php` | High
+46 | File | `affich.php` | Medium
+47 | File | `album.asp` | Medium
+48 | File | `album_portal.php` | High
+49 | ... | ... | ...
 
-There are 152 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 429 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

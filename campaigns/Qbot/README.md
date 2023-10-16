@@ -112,11 +112,11 @@ ID | Type | Indicator | Confidence
 14 | File | `/bsms_ci/index.php/user/edit_user/` | High
 15 | File | `/cas/logout` | Medium
 16 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
-17 | File | `/CPE` | Low
-18 | File | `/etc/tomcat8/Catalina/attack` | High
-19 | File | `/forum/away.php` | High
-20 | File | `/ghost/preview` | High
-21 | File | `/goform/wizard_end` | High
+17 | File | `/cgi-bin/upload_vpntar` | High
+18 | File | `/CPE` | Low
+19 | File | `/etc/tomcat8/Catalina/attack` | High
+20 | File | `/forum/away.php` | High
+21 | File | `/ghost/preview` | High
 22 | File | `/home/search` | Medium
 23 | File | `/ims/login.php` | High
 24 | File | `/mhds/clinic/view_details.php` | High
@@ -128,11 +128,9 @@ ID | Type | Indicator | Confidence
 30 | File | `/tourism/rate_review.php` | High
 31 | File | `/uncpath/` | Medium
 32 | File | `/vdesk` | Low
-33 | File | `102/tcp` | Low
-34 | File | `action-visitor.php` | High
-35 | ... | ... | ...
+33 | ... | ... | ...
 
-There are 295 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 282 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

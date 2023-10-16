@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [VN](https://vuldb.com/?country.vn)
 * [US](https://vuldb.com/?country.us)
-* [TR](https://vuldb.com/?country.tr)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 6 more country items available. Please use our online service to access the data.
+There are 3 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -42,14 +42,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-29, CWE-36 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-29 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1068 | CWE-250, CWE-264, CWE-266, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -57,50 +57,50 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `//proc/kcore` | Medium
-2 | File | `/academy/home/courses` | High
-3 | File | `/admin/about-us.php` | High
-4 | File | `/admin/adclass.php` | High
-5 | File | `/admin/students/view_details.php` | High
-6 | File | `/ajax-files/followBoard.php` | High
-7 | File | `/ajax.php?action=read_msg` | High
-8 | File | `/api/baskets/{name}` | High
-9 | File | `/api/upload.php` | High
-10 | File | `/api?path=profile` | High
-11 | File | `/auth/callback` | High
-12 | File | `/authenticationendpoint/login.do` | High
-13 | File | `/cgi-bin/wlogin.cgi` | High
-14 | File | `/cgi.cgi` | Medium
-15 | File | `/ci_spms/admin/search/searching/` | High
-16 | File | `/classes/Master.php?f=save_brand` | High
-17 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
-18 | File | `/etc/pki/pesign` | High
-19 | File | `/forum/away.php` | High
-20 | File | `/FuguHub/cmsdocs/` | High
-21 | File | `/goform/formLogin` | High
-22 | File | `/goform/setportList` | High
-23 | File | `/goform/set_LimitClient_cfg` | High
-24 | File | `/graphql` | Medium
-25 | File | `/h/autoSaveDraft` | High
-26 | File | `/index.php` | Medium
-27 | File | `/index.php?page=member` | High
-28 | File | `/modules/projects/vw_files.php` | High
-29 | File | `/plugins/playbooks/api/v0/runs` | High
-30 | File | `/QueryView.php` | High
-31 | File | `/registration.php` | High
-32 | File | `/release-x64/otfccdump+0x61731f` | High
-33 | File | `/romfile.cfg` | Medium
-34 | File | `/search.php` | Medium
-35 | File | `/settings/account` | High
-36 | File | `/sitecore/shell/Invoke.aspx` | High
-37 | File | `/squashfs-root/etc_ro/custom.conf` | High
-38 | File | `/staff/bookdetails.php` | High
-39 | File | `/staff/edit_book_details.php` | High
-40 | File | `/student/bookdetails.php` | High
-41 | File | `/uncpath/` | Medium
+1 | File | `/academy/home/courses` | High
+2 | File | `/admin/adclass.php` | High
+3 | File | `/admin/admin-profile.php` | High
+4 | File | `/admin/article/article-edit-run.php` | High
+5 | File | `/admin/sales/view_details.php` | High
+6 | File | `/admin/students/view_details.php` | High
+7 | File | `/ajax-files/followBoard.php` | High
+8 | File | `/ajax.php?action=read_msg` | High
+9 | File | `/api/cron/settings/setJob/` | High
+10 | File | `/api/v1/snapshots` | High
+11 | File | `/audit/log/log_management.php` | High
+12 | File | `/auth/callback` | High
+13 | File | `/authenticationendpoint/login.do` | High
+14 | File | `/cgi-bin/mainfunction.cgi` | High
+15 | File | `/cgi-bin/wlogin.cgi` | High
+16 | File | `/cgi.cgi` | Medium
+17 | File | `/collection/all` | High
+18 | File | `/Content/Template/root/reverse-shell.aspx` | High
+19 | File | `/ctcprotocol/Protocol` | High
+20 | File | `/dottie.js` | Medium
+21 | File | `/DXR.axd` | Medium
+22 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+23 | File | `/env` | Low
+24 | File | `/files/` | Low
+25 | File | `/forum/away.php` | High
+26 | File | `/goform/setportList` | High
+27 | File | `/h/autoSaveDraft` | High
+28 | File | `/index.php` | Medium
+29 | File | `/index.php?p=admin/actions/users/send-password-reset-email` | High
+30 | File | `/index.php?page=member` | High
+31 | File | `/jurusanmatkul/data` | High
+32 | File | `/log/decodmail.php` | High
+33 | File | `/log/webmailattach.php` | High
+34 | File | `/login.php?do=login` | High
+35 | File | `/public/login.htm` | High
+36 | File | `/QueryView.php` | High
+37 | File | `/recreate.php` | High
+38 | File | `/romfile.cfg` | Medium
+39 | File | `/roomtype-details.php` | High
+40 | File | `/search.php` | Medium
+41 | File | `/spip.php` | Medium
 42 | ... | ... | ...
 
-There are 358 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 364 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

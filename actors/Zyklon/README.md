@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Zyklon:
 
 * [NL](https://vuldb.com/?country.nl)
-* [RU](https://vuldb.com/?country.ru)
 * [US](https://vuldb.com/?country.us)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
 There are 12 more country items available. Please use our online service to access the data.
@@ -41,7 +41,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -51,21 +51,20 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `%PROGRAMFILES%\1E\Client\Tachyon.Performance.Metrics.exe` | High
 2 | File | `/ajaxGetFileByPath.php` | High
-3 | File | `/etc/passwd` | Medium
-4 | File | `/forum/away.php` | High
-5 | File | `/pharmacy-sales-and-inventory-system/manage_user.php` | High
-6 | File | `/uncpath/` | Medium
-7 | File | `/wbg/core/_includes/authorization.inc.php` | High
-8 | File | `active.log` | Medium
-9 | File | `adclick.php` | Medium
-10 | File | `admin/addons/uninstall/anomaly.module.blocks` | High
-11 | File | `admin/admin_process.php` | High
-12 | File | `admin/index.php` | High
-13 | File | `ajax_ftp_manager.php` | High
-14 | File | `api.log` | Low
-15 | ... | ... | ...
+3 | File | `/app/sys1.php` | High
+4 | File | `/etc/passwd` | Medium
+5 | File | `/forum/away.php` | High
+6 | File | `/pharmacy-sales-and-inventory-system/manage_user.php` | High
+7 | File | `/uncpath/` | Medium
+8 | File | `/wbg/core/_includes/authorization.inc.php` | High
+9 | File | `active.log` | Medium
+10 | File | `adclick.php` | Medium
+11 | File | `admin/addons/uninstall/anomaly.module.blocks` | High
+12 | File | `admin/admin_process.php` | High
+13 | File | `admin/index.php` | High
+14 | ... | ... | ...
 
-There are 120 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 115 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

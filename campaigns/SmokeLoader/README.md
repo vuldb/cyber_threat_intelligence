@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -51,7 +51,7 @@ ID | IP address | Hostname | Actor | Confidence
 19 | [31.210.170.195](https://vuldb.com/?ip.31.210.170.195) | vps16632.hosted-by.eurohoster.online | [SmokeLoader](https://vuldb.com/?actor.smokeloader) | High
 20 | ... | ... | ... | ...
 
-There are 76 more IOC items available. Please use our online service to access the data.
+There are 78 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -60,7 +60,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
@@ -79,59 +79,57 @@ ID | Type | Indicator | Confidence
 2 | File | `/acms/classes/Master.php?f=delete_cargo` | High
 3 | File | `/admin.add` | Medium
 4 | File | `/admin.php/news/admin/topic/save` | High
-5 | File | `/admin/admin_login.php` | High
-6 | File | `/admin/comn/service/update.json` | High
-7 | File | `/admin/edit-doc.php` | High
-8 | File | `/admin/edit_member.php` | High
-9 | File | `/admin/edit_review.php` | High
-10 | File | `/admin/profile/save_profile` | High
-11 | File | `/api/v2/labels/` | High
-12 | File | `/aux` | Low
-13 | File | `/cgi-bin/koha/acqui/supplier.pl?op=enter` | High
-14 | File | `/cgi-bin/luci` | High
-15 | File | `/config/getuser` | High
-16 | File | `/debug/pprof` | Medium
-17 | File | `/dev/shm` | Medium
-18 | File | `/dl/dl_print.php` | High
-19 | File | `/etc/gsissh/sshd_config` | High
-20 | File | `/film-rating.php` | High
-21 | File | `/gateway/services/EdgeServiceImpl` | High
-22 | File | `/getcfg.php` | Medium
-23 | File | `/goform/dir_setWanWifi` | High
-24 | File | `/goform/telnet` | High
-25 | File | `/goform/WanParameterSetting` | High
-26 | File | `/HNAP1` | Low
-27 | File | `/include/makecvs.php` | High
-28 | File | `/index.php` | Medium
-29 | File | `/info.xml` | Medium
-30 | File | `/js/app.js` | Medium
-31 | File | `/librarian/bookdetails.php` | High
-32 | File | `/mgmt/tm/util/bash` | High
+5 | File | `/admin/comn/service/update.json` | High
+6 | File | `/admin/edit-doc.php` | High
+7 | File | `/admin/edit_member.php` | High
+8 | File | `/admin/edit_review.php` | High
+9 | File | `/admin/profile/save_profile` | High
+10 | File | `/api/v2/labels/` | High
+11 | File | `/aux` | Low
+12 | File | `/cgi-bin/koha/acqui/supplier.pl?op=enter` | High
+13 | File | `/cgi-bin/luci` | High
+14 | File | `/config/getuser` | High
+15 | File | `/debug/pprof` | Medium
+16 | File | `/dl/dl_print.php` | High
+17 | File | `/etc/gsissh/sshd_config` | High
+18 | File | `/film-rating.php` | High
+19 | File | `/gateway/services/EdgeServiceImpl` | High
+20 | File | `/getcfg.php` | Medium
+21 | File | `/goform/dir_setWanWifi` | High
+22 | File | `/goform/setmac` | High
+23 | File | `/goform/telnet` | High
+24 | File | `/goform/WanParameterSetting` | High
+25 | File | `/inc/extensions.php` | High
+26 | File | `/include/makecvs.php` | High
+27 | File | `/index.php` | Medium
+28 | File | `/info.xml` | Medium
+29 | File | `/js/app.js` | Medium
+30 | File | `/librarian/bookdetails.php` | High
+31 | File | `/mgmt/tm/util/bash` | High
+32 | File | `/MIME/INBOX-MM-1/` | High
 33 | File | `/monitoring` | Medium
 34 | File | `/ofcms/company-c-47` | High
 35 | File | `/opac/Actions.php?a=login` | High
 36 | File | `/opt/pia/ruby/64/ruby` | High
 37 | File | `/Pwrchute` | Medium
-38 | File | `/spip.php` | Medium
-39 | File | `/student/bookdetails.php` | High
-40 | File | `/tmp/csman/0` | Medium
-41 | File | `/uncpath/` | Medium
+38 | File | `/ServletAPI/accounts/login` | High
+39 | File | `/spip.php` | Medium
+40 | File | `/src/Illuminate/Laravel.php` | High
+41 | File | `/student/bookdetails.php` | High
 42 | File | `/usr/sbin/httpd` | High
 43 | File | `/util/print.c` | High
 44 | File | `/var/hnap/timestamp` | High
 45 | File | `/vloggers_merch/admin/?page=product/manage_product` | High
 46 | File | `/web/MCmsAction.java` | High
 47 | File | `/wp-content/plugins/forum-server/feed.php` | High
-48 | File | `abc-pcie.c` | Medium
-49 | File | `account.asp` | Medium
-50 | File | `accounts/payment_history.php` | High
-51 | File | `adclick.php` | Medium
-52 | File | `addfav.php` | Medium
-53 | File | `address.html` | Medium
-54 | File | `admin.php` | Medium
-55 | ... | ... | ...
+48 | File | `account.asp` | Medium
+49 | File | `accounts/payment_history.php` | High
+50 | File | `adclick.php` | Medium
+51 | File | `addfav.php` | Medium
+52 | File | `address.html` | Medium
+53 | ... | ... | ...
 
-There are 482 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 459 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -150,6 +148,7 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://threatfox.abuse.ch
 * https://tria.ge/220511-fxrezafgg2
 * https://unit42.paloaltonetworks.com/analysis-of-smoke-loader-in-new-tsunami-campaign/
+* https://www.secureworks.com/blog/smoke-loader-drops-whiffy-recon-wi-fi-scanning-and-geolocation-malware
 
 ## Literature
 

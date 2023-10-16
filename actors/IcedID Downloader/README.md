@@ -90,15 +90,16 @@ ID | Type | Indicator | Confidence
 4 | File | `/members/view_member.php` | High
 5 | File | `/owa/auth/logon.aspx` | High
 6 | File | `/rapi/read_url` | High
-7 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
-8 | File | `/uncpath/` | Medium
-9 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
-10 | File | `adclick.php` | Medium
-11 | File | `appserv/main.php` | High
-12 | File | `bbs/faq.php` | Medium
-13 | ... | ... | ...
+7 | File | `/scripts/unlock_tasks.php` | High
+8 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
+9 | File | `/system/user/modules/mod_users/controller.php` | High
+10 | File | `/uncpath/` | Medium
+11 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
+12 | File | `adclick.php` | Medium
+13 | File | `appserv/main.php` | High
+14 | ... | ... | ...
 
-There are 103 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 109 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

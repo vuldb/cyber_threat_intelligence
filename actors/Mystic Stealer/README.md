@@ -21,15 +21,15 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [5.42.94.125](https://vuldb.com/?ip.5.42.94.125) | juicy-milk.aeza.network | - | High
-2 | [5.75.183.169](https://vuldb.com/?ip.5.75.183.169) | static.169.183.75.5.clients.your-server.de | - | High
-3 | [23.163.0.179](https://vuldb.com/?ip.23.163.0.179) | mail.pnet-asp.tech | - | High
-4 | [43.154.7.225](https://vuldb.com/?ip.43.154.7.225) | - | - | High
-5 | [45.9.74.110](https://vuldb.com/?ip.45.9.74.110) | - | - | High
-6 | [89.23.107.222](https://vuldb.com/?ip.89.23.107.222) | 4S-4-TG-1689355434.ip-ptr.tech | - | High
+1 | [5.42.92.211](https://vuldb.com/?ip.5.42.92.211) | . | - | High
+2 | [5.42.94.125](https://vuldb.com/?ip.5.42.94.125) | juicy-milk.aeza.network | - | High
+3 | [5.75.183.169](https://vuldb.com/?ip.5.75.183.169) | static.169.183.75.5.clients.your-server.de | - | High
+4 | [23.163.0.179](https://vuldb.com/?ip.23.163.0.179) | mail.pnet-asp.tech | - | High
+5 | [43.154.7.225](https://vuldb.com/?ip.43.154.7.225) | - | - | High
+6 | [45.9.74.110](https://vuldb.com/?ip.45.9.74.110) | - | - | High
 7 | ... | ... | ... | ...
 
-There are 25 more IOC items available. Please use our online service to access the data.
+There are 26 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -44,7 +44,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -74,36 +74,38 @@ ID | Type | Indicator | Confidence
 20 | File | `/cgi-bin` | Medium
 21 | File | `/cgi-bin/luci/api/wireless` | High
 22 | File | `/cgi-bin/wlogin.cgi` | High
-23 | File | `/context/%2e/WEB-INF/web.xml` | High
-24 | File | `/dashboard/reports/logs/view` | High
-25 | File | `/debian/patches/load_ppp_generic_if_needed` | High
-26 | File | `/debug/pprof` | Medium
-27 | File | `/env` | Low
-28 | File | `/etc/gsissh/sshd_config` | High
-29 | File | `/etc/hosts` | Medium
-30 | File | `/forum/away.php` | High
-31 | File | `/goform/setmac` | High
-32 | File | `/goform/wizard_end` | High
-33 | File | `/group1/uploa` | High
-34 | File | `/manage-apartment.php` | High
-35 | File | `/medicines/profile.php` | High
-36 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-37 | File | `/pages/apply_vacancy.php` | High
-38 | File | `/php-sms/admin/?page=user/manage_user` | High
-39 | File | `/proc/<PID>/mem` | High
+23 | File | `/Content/Template/root/reverse-shell.aspx` | High
+24 | File | `/context/%2e/WEB-INF/web.xml` | High
+25 | File | `/dashboard/add-blog.php` | High
+26 | File | `/debian/patches/load_ppp_generic_if_needed` | High
+27 | File | `/debug/pprof` | Medium
+28 | File | `/env` | Low
+29 | File | `/etc/gsissh/sshd_config` | High
+30 | File | `/etc/hosts` | Medium
+31 | File | `/forum/away.php` | High
+32 | File | `/goform/setmac` | High
+33 | File | `/goform/wizard_end` | High
+34 | File | `/group1/uploa` | High
+35 | File | `/manage-apartment.php` | High
+36 | File | `/medicines/profile.php` | High
+37 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+38 | File | `/pages/apply_vacancy.php` | High
+39 | File | `/php-sms/admin/?page=user/manage_user` | High
 40 | File | `/proxy` | Low
 41 | File | `/reservation/add_message.php` | High
 42 | File | `/resources//../` | High
 43 | File | `/spip.php` | Medium
 44 | File | `/tmp` | Low
-45 | ... | ... | ...
+45 | File | `/uncpath/` | Medium
+46 | ... | ... | ...
 
-There are 386 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 399 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://app.any.run/tasks/6a907458-4ae2-4bbf-a4cd-120e7c7c5b60
 * https://app.any.run/tasks/83e1bcf1-7e3f-46d1-b87f-9dc761b34cd0
 * https://app.any.run/tasks/d1a96aea-a514-4f86-acd7-e9391a8ec959
 * https://github.com/threatlabz/iocs/blob/main/mystic_stealer/c2s.txt

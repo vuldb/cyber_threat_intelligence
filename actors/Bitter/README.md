@@ -67,22 +67,22 @@ ID | Type | Indicator | Confidence
 16 | File | `/news.dtl.php` | High
 17 | File | `/ofcms/company-c-47` | High
 18 | File | `/out.php` | Medium
-19 | File | `/ptms/?page=user` | High
-20 | File | `/systemrw/` | Medium
-21 | File | `/uncpath/` | Medium
-22 | File | `/upload/file.php` | High
-23 | File | `/usr/sbin/httpd` | High
-24 | File | `/util/print.c` | High
-25 | File | `/web/MCmsAction.java` | High
-26 | File | `/wp-admin/admin-ajax.php` | High
-27 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-28 | File | `5.2.9\syscrb.exe` | High
-29 | File | `abc-pcie.c` | Medium
-30 | File | `accounts/payment_history.php` | High
-31 | File | `adclick.php` | Medium
+19 | File | `/patient/appointment.php` | High
+20 | File | `/ptms/?page=user` | High
+21 | File | `/systemrw/` | Medium
+22 | File | `/uncpath/` | Medium
+23 | File | `/upload/file.php` | High
+24 | File | `/usr/sbin/httpd` | High
+25 | File | `/util/print.c` | High
+26 | File | `/web/MCmsAction.java` | High
+27 | File | `/wp-admin/admin-ajax.php` | High
+28 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+29 | File | `5.2.9\syscrb.exe` | High
+30 | File | `abc-pcie.c` | Medium
+31 | File | `accounts/payment_history.php` | High
 32 | ... | ... | ...
 
-There are 270 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 274 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

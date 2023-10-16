@@ -45,13 +45,13 @@ ID | Type | Indicator | Confidence
 1 | File | `/api/addusers` | High
 2 | File | `/uncpath/` | Medium
 3 | File | `apply.cgi` | Medium
-4 | File | `data/gbconfiguration.dat` | High
-5 | File | `editprofile.php` | High
-6 | File | `email.php` | Medium
-7 | File | `inc/config.php` | High
+4 | File | `browse-category.php` | High
+5 | File | `data/gbconfiguration.dat` | High
+6 | File | `editprofile.php` | High
+7 | File | `email.php` | Medium
 8 | ... | ... | ...
 
-There are 54 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 56 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

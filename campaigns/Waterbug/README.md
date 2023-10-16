@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RO](https://vuldb.com/?country.ro)
 * ...
 
-There are 3 more country items available. Please use our online service to access the data.
+There are 4 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -57,23 +57,23 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `%APPDATA%\Securepoint SSL VPN` | High
-2 | File | `/Api/ASF` | Medium
-3 | File | `/etc/shadow` | Medium
-4 | File | `/etc/target/saveconfig.json` | High
-5 | File | `/exec` | Low
-6 | File | `/form/index.php?module=getjson` | High
-7 | File | `/hcms/admin/index.php/language/ajax` | High
-8 | File | `/jsonrpc` | Medium
-9 | File | `/product.php` | Medium
-10 | File | `/ram/pckg/advanced-tools/nova/bin/netwatch` | High
-11 | File | `/registerCpe` | Medium
-12 | File | `/system?action=ServiceAdmin` | High
-13 | File | `/uncpath/` | Medium
-14 | File | `/Uploads` | Medium
-15 | File | `/User/saveUser` | High
+2 | File | `/admin/index2.html` | High
+3 | File | `/Api/ASF` | Medium
+4 | File | `/etc/shadow` | Medium
+5 | File | `/etc/target/saveconfig.json` | High
+6 | File | `/exec` | Low
+7 | File | `/form/index.php?module=getjson` | High
+8 | File | `/hcms/admin/index.php/language/ajax` | High
+9 | File | `/jsonrpc` | Medium
+10 | File | `/product.php` | Medium
+11 | File | `/ram/pckg/advanced-tools/nova/bin/netwatch` | High
+12 | File | `/registerCpe` | Medium
+13 | File | `/system?action=ServiceAdmin` | High
+14 | File | `/uncpath/` | Medium
+15 | File | `/Uploads` | Medium
 16 | ... | ... | ...
 
-There are 127 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 128 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -80,32 +80,31 @@ ID | Type | Indicator | Confidence
 23 | File | `/ebics-server/ebics.aspx` | High
 24 | File | `/ffos/classes/Master.php?f=save_category` | High
 25 | File | `/forum/away.php` | High
-26 | File | `/goforms/rlminfo` | High
-27 | File | `/HNAP1` | Low
-28 | File | `/HNAP1/SetClientInfo` | High
-29 | File | `/installer/upgrade_start` | High
-30 | File | `/Items/*/RemoteImages/Download` | High
-31 | File | `/menu.html` | Medium
-32 | File | `/modules/profile/index.php` | High
-33 | File | `/navigate/navigate_download.php` | High
-34 | File | `/ocwbs/admin/?page=user/manage_user` | High
-35 | File | `/ofrs/admin/?page=user/manage_user` | High
-36 | File | `/out.php` | Medium
-37 | File | `/password.html` | High
-38 | File | `/PC/WebService.asmx` | High
-39 | File | `/php_action/fetchSelectedUser.php` | High
-40 | File | `/property-list/property_view.php` | High
-41 | File | `/ptms/classes/Users.php` | High
-42 | File | `/resources//../` | High
-43 | File | `/rest/api/2/search` | High
-44 | File | `/s/` | Low
-45 | File | `/scripts/cpan_config` | High
-46 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-47 | File | `/spip.php` | Medium
-48 | File | `/squashfs-root/www/HNAP1/control/SetMasterWLanSettings.php` | High
-49 | ... | ... | ...
+26 | File | `/goform/net\_Web\_get_value` | High
+27 | File | `/goforms/rlminfo` | High
+28 | File | `/GponForm/usb_restore_Form?script/` | High
+29 | File | `/group1/uploa` | High
+30 | File | `/HNAP1` | Low
+31 | File | `/HNAP1/SetClientInfo` | High
+32 | File | `/Items/*/RemoteImages/Download` | High
+33 | File | `/menu.html` | Medium
+34 | File | `/modules/profile/index.php` | High
+35 | File | `/navigate/navigate_download.php` | High
+36 | File | `/ocwbs/admin/?page=user/manage_user` | High
+37 | File | `/ofrs/admin/?page=user/manage_user` | High
+38 | File | `/out.php` | Medium
+39 | File | `/password.html` | High
+40 | File | `/PC/WebService.asmx` | High
+41 | File | `/php_action/fetchSelectedUser.php` | High
+42 | File | `/property-list/property_view.php` | High
+43 | File | `/ptms/classes/Users.php` | High
+44 | File | `/resources//../` | High
+45 | File | `/rest/api/2/search` | High
+46 | File | `/s/` | Low
+47 | File | `/scripts/cpan_config` | High
+48 | ... | ... | ...
 
-There are 423 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 418 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

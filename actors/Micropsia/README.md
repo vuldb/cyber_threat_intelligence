@@ -8,8 +8,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Micropsia:
 
-* [GB](https://vuldb.com/?country.gb)
 * [US](https://vuldb.com/?country.us)
+* [GB](https://vuldb.com/?country.gb)
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
@@ -48,9 +48,10 @@ ID | Type | Indicator | Confidence
 4 | File | `auth2-gss.c` | Medium
 5 | File | `block/bfq-iosched.c` | High
 6 | File | `cgi-bin/webcm` | High
-7 | ... | ... | ...
+7 | File | `chat.php` | Medium
+8 | ... | ... | ...
 
-There are 52 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 53 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

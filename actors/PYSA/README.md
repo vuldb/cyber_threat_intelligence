@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
-* [CN](https://vuldb.com/?country.cn)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
 There are 5 more country items available. Please use our online service to access the data.
@@ -38,7 +38,7 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
 There are 21 more TTP items available. Please use our online service to access the data.
@@ -50,55 +50,62 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `%PROGRAMDATA%\Razer\Synapse3\Service\bin` | High
-2 | File | `/admin` | Low
-3 | File | `/admin.php/accessory/filesdel.html` | High
-4 | File | `/admin/?page=user/manage_user&id=3` | High
-5 | File | `/admin/attendance_row.php` | High
-6 | File | `/admin/index3.php` | High
-7 | File | `/admin/maintenance/brand.php` | High
-8 | File | `/admin/maintenance/manage_category.php` | High
-9 | File | `/admin/maintenance/view_designation.php` | High
-10 | File | `/admin/modal_add_product.php` | High
-11 | File | `/admin/read.php?mudi=getSignal` | High
-12 | File | `/admin/report/index.php` | High
-13 | File | `/admin/reportupload.aspx` | High
-14 | File | `/admin/service.php` | High
-15 | File | `/admin/service_requests/manage_inventory.php` | High
-16 | File | `/admin/update_s6.php` | High
-17 | File | `/admin/user/manage_user.php` | High
-18 | File | `/admin_area/login_transfer.php` | High
-19 | File | `/adms/admin/?page=user/manage_user` | High
-20 | File | `/adms/admin/?page=vehicles/view_transaction` | High
-21 | File | `/ajax.php?action=read_msg` | High
-22 | File | `/ajax.php?action=save_company` | High
-23 | File | `/ajax/update_certificate` | High
-24 | File | `/alphaware/details.php` | High
-25 | File | `/api/sys/login` | High
-26 | File | `/apply.cgi` | Medium
-27 | File | `/bin/sh` | Low
-28 | File | `/blog` | Low
-29 | File | `/cgi-bin/ping.cgi` | High
-30 | File | `/cgi-bin/touchlist_sync.cgi` | High
-31 | File | `/cgi-bin/wlogin.cgi` | High
-32 | File | `/changeimage.php` | High
-33 | File | `/classes/Master.php` | High
-34 | File | `/classes/Master.php?f=delete_inquiry` | High
-35 | File | `/classes/Users.php` | High
-36 | File | `/dipam/save-delegates.php` | High
-37 | File | `/file_manager/admin/save_user.php` | High
-38 | File | `/forum/away.php` | High
-39 | File | `/fudforum/adm/hlplist.php` | High
-40 | File | `/goForm/aspForm` | High
-41 | File | `/goform/formDefault` | High
-42 | File | `/goform/formSysCmd` | High
-43 | File | `/goform/fromSetWirelessRepeat` | High
-44 | File | `/goform/SetSysTimeCfg` | High
-45 | File | `/goform/SetVirtualServerCfg` | High
-46 | File | `/index.php` | Medium
-47 | File | `/index.php/payment/getcoinaddress` | High
-48 | ... | ... | ...
+2 | File | `/ad-list` | Medium
+3 | File | `/admin` | Low
+4 | File | `/admin.php/accessory/filesdel.html` | High
+5 | File | `/admin/?page=user/manage_user&id=3` | High
+6 | File | `/admin/attendance_row.php` | High
+7 | File | `/admin/index/index.html#/admin/mall.goods/index.html` | High
+8 | File | `/admin/index3.php` | High
+9 | File | `/admin/maintenance/brand.php` | High
+10 | File | `/admin/maintenance/manage_category.php` | High
+11 | File | `/admin/maintenance/view_designation.php` | High
+12 | File | `/admin/modal_add_product.php` | High
+13 | File | `/admin/read.php?mudi=getSignal` | High
+14 | File | `/admin/report/index.php` | High
+15 | File | `/admin/reportupload.aspx` | High
+16 | File | `/admin/service.php` | High
+17 | File | `/admin/service_requests/manage_inventory.php` | High
+18 | File | `/admin/update_s6.php` | High
+19 | File | `/admin/user/manage_user.php` | High
+20 | File | `/admin_area/login_transfer.php` | High
+21 | File | `/adms/admin/?page=user/manage_user` | High
+22 | File | `/adms/admin/?page=vehicles/view_transaction` | High
+23 | File | `/ajax.php?action=read_msg` | High
+24 | File | `/ajax.php?action=save_company` | High
+25 | File | `/ajax/update_certificate` | High
+26 | File | `/alphaware/details.php` | High
+27 | File | `/api/sys/login` | High
+28 | File | `/apply.cgi` | Medium
+29 | File | `/bin/sh` | Low
+30 | File | `/blog` | Low
+31 | File | `/cgi-bin/ping.cgi` | High
+32 | File | `/cgi-bin/touchlist_sync.cgi` | High
+33 | File | `/cgi-bin/wlogin.cgi` | High
+34 | File | `/changeimage.php` | High
+35 | File | `/classes/Master.php` | High
+36 | File | `/classes/Master.php?f=delete_inquiry` | High
+37 | File | `/classes/Users.php` | High
+38 | File | `/dipam/save-delegates.php` | High
+39 | File | `/file_manager/admin/save_user.php` | High
+40 | File | `/forum/away.php` | High
+41 | File | `/fudforum/adm/hlplist.php` | High
+42 | File | `/goForm/aspForm` | High
+43 | File | `/goform/formDefault` | High
+44 | File | `/goform/formSysCmd` | High
+45 | File | `/goform/fromSetWirelessRepeat` | High
+46 | File | `/goform/SetSysTimeCfg` | High
+47 | File | `/goform/SetVirtualServerCfg` | High
+48 | File | `/index.php` | Medium
+49 | File | `/index.php/payment/getcoinaddress` | High
+50 | File | `/ipms/imageConvert/image` | High
+51 | File | `/jurusan/data` | High
+52 | File | `/kelas/data` | Medium
+53 | File | `/libxml2/SAX2.c` | High
+54 | File | `/listplace/user/coverPhotoUpdate` | High
+55 | ... | ... | ...
 
-There are 417 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 478 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

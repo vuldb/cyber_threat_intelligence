@@ -34,7 +34,8 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
 
@@ -76,7 +77,8 @@ ID | Type | Indicator | Confidence
 30 | File | `/wp-json/oembed/1.0/embed?url` | High
 31 | File | `/www/cgi-bin/popen.cgi` | High
 32 | File | `5.2.9\syscrb.exe` | High
-33 | ... | ... | ...
+33 | File | `accountrecoveryendpoint/recoverpassword.do` | High
+34 | ... | ... | ...
 
 There are 286 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 

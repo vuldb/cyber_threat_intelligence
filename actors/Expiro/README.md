@@ -57,18 +57,19 @@ ID | Type | Indicator | Confidence
 3 | File | `/DATAREPORTS` | Medium
 4 | File | `/etc/gsissh/sshd_config` | High
 5 | File | `/Forms/` | Low
-6 | File | `/getcfg.php` | Medium
-7 | File | `/maint/modules/home/index.php` | High
-8 | File | `/uncpath/` | Medium
-9 | File | `account.asp` | Medium
-10 | File | `addentry.php` | Medium
-11 | File | `api.php` | Low
-12 | File | `carbon/resources/add_collection_ajaxprocessor.jsp` | High
-13 | File | `cgi-bin/cmh/webcam.sh` | High
-14 | File | `cgi.rb` | Low
-15 | ... | ... | ...
+6 | File | `/forum/away.php` | High
+7 | File | `/getcfg.php` | Medium
+8 | File | `/maint/modules/home/index.php` | High
+9 | File | `/uncpath/` | Medium
+10 | File | `account.asp` | Medium
+11 | File | `addentry.php` | Medium
+12 | File | `admin/conf_users_edit.php` | High
+13 | File | `api.php` | Low
+14 | File | `awstats.pl` | Medium
+15 | File | `carbon/resources/add_collection_ajaxprocessor.jsp` | High
+16 | ... | ... | ...
 
-There are 118 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 127 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 14 more country items available. Please use our online service to access the data.
+There are 15 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -48,7 +48,7 @@ ID | IP address | Hostname | Actor | Confidence
 12 | [45.140.147.214](https://vuldb.com/?ip.45.140.147.214) | vm1329418.stark-industries.solutions | [Azorult](https://vuldb.com/?actor.azorult) | High
 13 | ... | ... | ... | ...
 
-There are 46 more IOC items available. Please use our online service to access the data.
+There are 50 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -64,7 +64,7 @@ ID | Technique | Weakness | Description | Confidence
 6 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 7 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 23 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -92,53 +92,54 @@ ID | Type | Indicator | Confidence
 18 | File | `/cgi-bin/system_mgr.cgi` | High
 19 | File | `/cgi-bin/wlogin.cgi` | High
 20 | File | `/classes/Master.php` | High
-21 | File | `/config/list` | Medium
-22 | File | `/data/syslog.filter.json` | High
-23 | File | `/data/wps.setup.json` | High
-24 | File | `/forum/away.php` | High
-25 | File | `/goform/QuickIndex` | High
-26 | File | `/goform/SetInternetLanInfo` | High
-27 | File | `/goform/setMacFilterCfg` | High
-28 | File | `/goform/SetNetControlList` | High
-29 | File | `/goform/WifiBasicSet` | High
-30 | File | `/home.php` | Medium
-31 | File | `/home/httpd/cgi-bin/cgi.cgi` | High
-32 | File | `/iwgallery/pictures/details.asp` | High
-33 | File | `/list_temp_photo_pin_upload.php` | High
-34 | File | `/login.php` | Medium
-35 | File | `/manage/network-basic.php` | High
-36 | File | `/medical/inventories.php` | High
-37 | File | `/news-portal-script/information.php` | High
-38 | File | `/nova/bin/console` | High
-39 | File | `/pages.php` | Medium
-40 | File | `/pages/save_user.php` | High
-41 | File | `/patient/doctors.php` | High
-42 | File | `/PluXml/core/admin/parametres_edittpl.php` | High
-43 | File | `/print.php` | Medium
-44 | File | `/public/login.htm` | High
-45 | File | `/reviewer/system/system/admins/manage/users/user-update.php` | High
-46 | File | `/rom-0` | Low
-47 | File | `/searchpin.php` | High
-48 | File | `/services/Card/findUser` | High
-49 | File | `/showfile.php` | High
-50 | File | `/show_group_members.php` | High
-51 | File | `/timeline2.php` | High
-52 | File | `/uncpath/` | Medium
-53 | File | `/uno/central.php` | High
-54 | File | `/user/profile` | High
-55 | File | `/user/ticket/create` | High
-56 | File | `/usr/local/psa/admin/sbin/wrapper` | High
-57 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
-58 | File | `/vloggers_merch/classes/Master.php?f=delete_order` | High
+21 | File | `/collection/all` | High
+22 | File | `/config/list` | Medium
+23 | File | `/data/syslog.filter.json` | High
+24 | File | `/data/wps.setup.json` | High
+25 | File | `/forum/away.php` | High
+26 | File | `/goform/QuickIndex` | High
+27 | File | `/goform/SetInternetLanInfo` | High
+28 | File | `/goform/setMacFilterCfg` | High
+29 | File | `/goform/SetNetControlList` | High
+30 | File | `/goform/WifiBasicSet` | High
+31 | File | `/home.php` | Medium
+32 | File | `/home/httpd/cgi-bin/cgi.cgi` | High
+33 | File | `/index.php` | Medium
+34 | File | `/iwgallery/pictures/details.asp` | High
+35 | File | `/list_temp_photo_pin_upload.php` | High
+36 | File | `/login.php` | Medium
+37 | File | `/manage/network-basic.php` | High
+38 | File | `/medical/inventories.php` | High
+39 | File | `/news-portal-script/information.php` | High
+40 | File | `/nova/bin/console` | High
+41 | File | `/pages.php` | Medium
+42 | File | `/pages/save_user.php` | High
+43 | File | `/patient/doctors.php` | High
+44 | File | `/PluXml/core/admin/parametres_edittpl.php` | High
+45 | File | `/print.php` | Medium
+46 | File | `/public/login.htm` | High
+47 | File | `/reviewer/system/system/admins/manage/users/user-update.php` | High
+48 | File | `/rom-0` | Low
+49 | File | `/searchpin.php` | High
+50 | File | `/services/Card/findUser` | High
+51 | File | `/showfile.php` | High
+52 | File | `/show_group_members.php` | High
+53 | File | `/timeline2.php` | High
+54 | File | `/uncpath/` | Medium
+55 | File | `/uno/central.php` | High
+56 | File | `/user/profile` | High
+57 | File | `/user/ticket/create` | High
+58 | File | `/usr/local/psa/admin/sbin/wrapper` | High
 59 | ... | ... | ...
 
-There are 513 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 519 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the campaign and the associated activities:
 
 * https://1275.ru/ioc/308/gs-031-azorult-stealer-iocs/
+* https://bazaar.abuse.ch/sample/1609eb4e44b1fa7f776e21ba522d7a83aa473df55e75fd7c49485685f09a6653/
 * https://bazaar.abuse.ch/sample/7897cbf57b2a25446cedc1995c9950478a2c371c99ef87a0c82c7544742925f8/
 * https://bazaar.abuse.ch/sample/c157531bb4d14cd35fc3ffe2a62fdd292f8e16566c663dcfbf083d75c4a94773/
 * https://blog.cyble.com/2021/10/26/a-deep-dive-analysis-of-azorult-stealer/

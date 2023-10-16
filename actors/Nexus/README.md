@@ -44,20 +44,20 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/acms/admin/cargo_types/manage_cargo_type.php` | High
-2 | File | `/admin/ajax/avatar.php` | High
-3 | File | `/admin/employee_edit.php` | High
-4 | File | `/admin/options` | High
-5 | File | `/admin/show.php` | High
-6 | File | `/horde/util/go.php` | High
-7 | File | `/my_photo_gallery/image.php` | High
-8 | File | `/patient/doctors.php` | High
-9 | File | `/phpinventory/editcategory.php` | High
-10 | File | `/phpinventory/edituser.php` | High
-11 | File | `/schedules/view_schedule.php` | High
-12 | File | `/Service/ImageStationDataService.asmx` | High
+2 | File | `/admin/?page=user/manage_user&id=3` | High
+3 | File | `/admin/ajax/avatar.php` | High
+4 | File | `/admin/employee_edit.php` | High
+5 | File | `/admin/options` | High
+6 | File | `/admin/show.php` | High
+7 | File | `/be/erpc.php` | Medium
+8 | File | `/horde/util/go.php` | High
+9 | File | `/my_photo_gallery/image.php` | High
+10 | File | `/patient/doctors.php` | High
+11 | File | `/phpinventory/editcategory.php` | High
+12 | File | `/phpinventory/edituser.php` | High
 13 | ... | ... | ...
 
-There are 101 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 106 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

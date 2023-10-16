@@ -37,7 +37,7 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -80,33 +80,34 @@ ID | Type | Indicator | Confidence
 29 | File | `/inc/jquery/uploadify/uploadify.php` | High
 30 | File | `/index.php?app=main&func=passport&action=login` | High
 31 | File | `/index.php?page=category_list` | High
-32 | File | `/jobinfo/` | Medium
-33 | File | `/Moosikay/order.php` | High
-34 | File | `/mygym/admin/index.php?view_exercises` | High
-35 | File | `/opac/Actions.php?a=login` | High
-36 | File | `/php-opos/index.php` | High
-37 | File | `/PreviewHandler.ashx` | High
-38 | File | `/public/launchNewWindow.jsp` | High
-39 | File | `/recipe-result` | High
-40 | File | `/register.do` | Medium
-41 | File | `/reports/rwservlet` | High
+32 | File | `/jeecg-boot/sys/common/upload` | High
+33 | File | `/jobinfo/` | Medium
+34 | File | `/Moosikay/order.php` | High
+35 | File | `/mygym/admin/index.php?view_exercises` | High
+36 | File | `/opac/Actions.php?a=login` | High
+37 | File | `/php-opos/index.php` | High
+38 | File | `/PreviewHandler.ashx` | High
+39 | File | `/public/launchNewWindow.jsp` | High
+40 | File | `/recipe-result` | High
+41 | File | `/register.do` | Medium
 42 | File | `/reservation/add_message.php` | High
 43 | File | `/Service/ImageStationDataService.asmx` | High
 44 | File | `/spip.php` | Medium
 45 | File | `/student/bookdetails.php` | High
-46 | File | `/uncpath/` | Medium
-47 | File | `/uploads/exam_question/` | High
-48 | File | `/user/ticket/create` | High
-49 | File | `/user/updatePwd` | High
-50 | File | `/var/lib/docker/<remapping>` | High
-51 | File | `/wireless/security.asp` | High
-52 | File | `/wp-admin/admin-ajax.php` | High
-53 | File | `01article.php` | High
-54 | File | `a-forms.php` | Medium
-55 | File | `activenews_view.asp` | High
-56 | ... | ... | ...
+46 | File | `/SystemManage/User/GetGridJson?_search=false&nd=1680855479750&rows=50&page=1&sidx=F_CreatorTime+desc&sord=asc` | High
+47 | File | `/uncpath/` | Medium
+48 | File | `/uploads/exam_question/` | High
+49 | File | `/user/ticket/create` | High
+50 | File | `/user/updatePwd` | High
+51 | File | `/UserSelfServiceSettings.jsp` | High
+52 | File | `/var/lib/docker/<remapping>` | High
+53 | File | `/wireless/security.asp` | High
+54 | File | `/wp-admin/admin-ajax.php` | High
+55 | File | `/xxl-job-admin/user/add` | High
+56 | File | `01article.php` | High
+57 | ... | ... | ...
 
-There are 490 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 499 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

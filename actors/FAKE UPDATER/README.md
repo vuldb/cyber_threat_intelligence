@@ -45,19 +45,19 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/account/details.php` | High
 2 | File | `/cgi/get_param.cgi` | High
-3 | File | `/modules/registration_admission/patient_register.php` | High
-4 | File | `/out.php` | Medium
-5 | File | `/sbin/gs_config` | High
-6 | File | `add_comment.php` | High
-7 | File | `album_portal.php` | High
-8 | File | `browse-category.php` | High
-9 | File | `category.cfm` | Medium
-10 | File | `ClientModeImpl.java` | High
-11 | File | `comment_add.asp` | High
-12 | File | `data/gbconfiguration.dat` | High
+3 | File | `/forum/away.php` | High
+4 | File | `/modules/registration_admission/patient_register.php` | High
+5 | File | `/out.php` | Medium
+6 | File | `/sbin/gs_config` | High
+7 | File | `add_comment.php` | High
+8 | File | `album_portal.php` | High
+9 | File | `browse-category.php` | High
+10 | File | `category.cfm` | Medium
+11 | File | `ClientModeImpl.java` | High
+12 | File | `comment_add.asp` | High
 13 | ... | ... | ...
 
-There are 98 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 99 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

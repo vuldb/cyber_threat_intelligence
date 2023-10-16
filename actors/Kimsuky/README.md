@@ -84,32 +84,32 @@ ID | Type | Indicator | Confidence
 18 | File | `/api/upload` | Medium
 19 | File | `/assets/something/services/AppModule.class` | High
 20 | File | `/bin/false` | Medium
-21 | File | `/cgi-bin/luci/api/wireless` | High
-22 | File | `/cgi-bin/webproc` | High
-23 | File | `/classes/Master.php?f=delete_inquiry` | High
-24 | File | `/classes/Master.php?f=save_service` | High
-25 | File | `/classes/Users.php` | High
-26 | File | `/editsettings` | High
-27 | File | `/expert_wizard.php` | High
-28 | File | `/export` | Low
-29 | File | `/forum/away.php` | High
-30 | File | `/function/login.php` | High
-31 | File | `/images/browserslide.jpg` | High
-32 | File | `/includes/lib/get.php` | High
-33 | File | `/lists/index.php` | High
-34 | File | `/login` | Low
-35 | File | `/main?cmd=invalid_browser` | High
-36 | File | `/manager?action=getlogcat` | High
-37 | File | `/mc` | Low
-38 | File | `/mgmt/tm/util/bash` | High
-39 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-40 | File | `/plugins/Dashboard/Controller.php` | High
-41 | File | `/public/plugins/` | High
-42 | File | `/rest/jpo/1.0/hierarchyConfiguration` | High
-43 | File | `/SASWebReportStudio/logonAndRender.do` | High
+21 | File | `/cgi-bin/ExportLogs.sh` | High
+22 | File | `/cgi-bin/luci/api/wireless` | High
+23 | File | `/cgi-bin/webproc` | High
+24 | File | `/classes/Master.php?f=delete_inquiry` | High
+25 | File | `/classes/Master.php?f=save_service` | High
+26 | File | `/classes/Users.php` | High
+27 | File | `/editsettings` | High
+28 | File | `/expert_wizard.php` | High
+29 | File | `/export` | Low
+30 | File | `/forum/away.php` | High
+31 | File | `/function/login.php` | High
+32 | File | `/images/browserslide.jpg` | High
+33 | File | `/includes/lib/get.php` | High
+34 | File | `/lists/index.php` | High
+35 | File | `/login` | Low
+36 | File | `/main?cmd=invalid_browser` | High
+37 | File | `/manager?action=getlogcat` | High
+38 | File | `/mc` | Low
+39 | File | `/mgmt/tm/util/bash` | High
+40 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+41 | File | `/plugins/Dashboard/Controller.php` | High
+42 | File | `/public/plugins/` | High
+43 | File | `/rest/jpo/1.0/hierarchyConfiguration` | High
 44 | ... | ... | ...
 
-There are 382 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 385 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

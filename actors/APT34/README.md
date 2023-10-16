@@ -4,13 +4,19 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.apt34](https://vuldb.com/?actor.apt34)
 
+## Campaigns
+
+The following _campaigns_ are known and can be associated with APT34:
+
+* SideTwist
+
 ## Countries
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with APT34:
 
 * [NL](https://vuldb.com/?country.nl)
 * [US](https://vuldb.com/?country.us)
-* [IR](https://vuldb.com/?country.ir)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
 There are 11 more country items available. Please use our online service to access the data.
@@ -21,24 +27,24 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [23.19.226.69](https://vuldb.com/?ip.23.19.226.69) | - | - | High
-2 | [23.106.215.76](https://vuldb.com/?ip.23.106.215.76) | - | - | High
-3 | [23.227.201.6](https://vuldb.com/?ip.23.227.201.6) | 23-227-201-6.static.hvvc.us | - | High
-4 | [38.132.124.153](https://vuldb.com/?ip.38.132.124.153) | - | - | High
-5 | [45.11.19.47](https://vuldb.com/?ip.45.11.19.47) | - | - | High
-6 | [46.4.69.52](https://vuldb.com/?ip.46.4.69.52) | static.52.69.4.46.clients.your-server.de | - | High
-7 | [46.105.221.247](https://vuldb.com/?ip.46.105.221.247) | - | - | High
-8 | [46.105.251.42](https://vuldb.com/?ip.46.105.251.42) | ip42.ip-46-105-251.eu | - | High
-9 | [46.165.246.196](https://vuldb.com/?ip.46.165.246.196) | - | - | High
-10 | [70.36.107.34](https://vuldb.com/?ip.70.36.107.34) | - | - | High
-11 | [74.91.19.108](https://vuldb.com/?ip.74.91.19.108) | - | - | High
-12 | [74.91.19.122](https://vuldb.com/?ip.74.91.19.122) | - | - | High
-13 | [80.82.79.221](https://vuldb.com/?ip.80.82.79.221) | - | - | High
-14 | [80.82.79.240](https://vuldb.com/?ip.80.82.79.240) | - | - | High
-15 | [81.17.56.249](https://vuldb.com/?ip.81.17.56.249) | - | - | High
+1 | [11.0.188.38](https://vuldb.com/?ip.11.0.188.38) | - | SideTwist | High
+2 | [23.19.226.69](https://vuldb.com/?ip.23.19.226.69) | - | - | High
+3 | [23.106.215.76](https://vuldb.com/?ip.23.106.215.76) | - | - | High
+4 | [23.227.201.6](https://vuldb.com/?ip.23.227.201.6) | 23-227-201-6.static.hvvc.us | - | High
+5 | [38.132.124.153](https://vuldb.com/?ip.38.132.124.153) | - | - | High
+6 | [45.11.19.47](https://vuldb.com/?ip.45.11.19.47) | - | - | High
+7 | [46.4.69.52](https://vuldb.com/?ip.46.4.69.52) | static.52.69.4.46.clients.your-server.de | - | High
+8 | [46.105.221.247](https://vuldb.com/?ip.46.105.221.247) | - | - | High
+9 | [46.105.251.42](https://vuldb.com/?ip.46.105.251.42) | ip42.ip-46-105-251.eu | - | High
+10 | [46.165.246.196](https://vuldb.com/?ip.46.165.246.196) | - | - | High
+11 | [70.36.107.34](https://vuldb.com/?ip.70.36.107.34) | - | - | High
+12 | [74.91.19.108](https://vuldb.com/?ip.74.91.19.108) | - | - | High
+13 | [74.91.19.122](https://vuldb.com/?ip.74.91.19.122) | - | - | High
+14 | [80.82.79.221](https://vuldb.com/?ip.80.82.79.221) | - | - | High
+15 | [80.82.79.240](https://vuldb.com/?ip.80.82.79.240) | - | - | High
 16 | ... | ... | ... | ...
 
-There are 60 more IOC items available. Please use our online service to access the data.
+There are 61 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -49,12 +55,12 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-37 | Pathname Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 7 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 23 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -82,28 +88,31 @@ ID | Type | Indicator | Confidence
 18 | File | `/admin/reg.php` | High
 19 | File | `/admin/search-appointment.php` | High
 20 | File | `/admin/subnets/ripe-query.php` | High
-21 | File | `/api/sys/set_passwd` | High
-22 | File | `/apply.cgi` | Medium
-23 | File | `/App_Resource/UEditor/server/upload.aspx` | High
-24 | File | `/booking/show_bookings/` | High
-25 | File | `/cgi-bin/adm.cgi` | High
-26 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
-27 | File | `/chaincity/user/ticket/create` | High
-28 | File | `/common/info.cgi` | High
-29 | File | `/core/conditions/AbstractWrapper.java` | High
-30 | File | `/debug/pprof` | Medium
-31 | File | `/dipam/athlete-profile.php` | High
-32 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-33 | File | `/export` | Low
-34 | File | `/file?action=download&file` | High
-35 | File | `/filemanager/upload/drop` | High
-36 | File | `/function/login.php` | High
-37 | File | `/hardware` | Medium
-38 | File | `/hrm/employeeview.php` | High
-39 | File | `/index.php` | Medium
-40 | ... | ... | ...
+21 | File | `/api/sys/login` | High
+22 | File | `/api/sys/set_passwd` | High
+23 | File | `/apply.cgi` | Medium
+24 | File | `/App_Resource/UEditor/server/upload.aspx` | High
+25 | File | `/booking/show_bookings/` | High
+26 | File | `/cgi-bin/adm.cgi` | High
+27 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
+28 | File | `/chaincity/user/ticket/create` | High
+29 | File | `/collection/all` | High
+30 | File | `/common/info.cgi` | High
+31 | File | `/core/conditions/AbstractWrapper.java` | High
+32 | File | `/debug/pprof` | Medium
+33 | File | `/dipam/athlete-profile.php` | High
+34 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+35 | File | `/export` | Low
+36 | File | `/file?action=download&file` | High
+37 | File | `/filemanager/upload/drop` | High
+38 | File | `/function/login.php` | High
+39 | File | `/hardware` | Medium
+40 | File | `/hrm/employeeview.php` | High
+41 | File | `/importexport.php` | High
+42 | File | `/index.php` | Medium
+43 | ... | ... | ...
 
-There are 346 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 369 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -111,6 +120,7 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://1275.ru/ioc/204/apt34-apt-iocs/
 * https://github.com/blackorbird/APT_REPORT/tree/master/APT34
+* https://nsfocusglobal.com/apt34-unleashes-new-wave-of-phishing-attack-with-variant-of-sidetwist-trojan/
 * https://unit42.paloaltonetworks.com/unit42-oilrig-group-steps-attacks-new-delivery-documents-new-injector-trojan/
 * https://unit42.paloaltonetworks.com/unit42-oilrig-uses-ismdoor-variant-possibly-linked-greenbug-threat-group/
 * https://unit42.paloaltonetworks.com/unit42-oilrig-uses-updated-bondupdater-target-middle-eastern-government/

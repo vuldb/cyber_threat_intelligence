@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with DarkVNC:
 
+* [IT](https://vuldb.com/?country.it)
 * [US](https://vuldb.com/?country.us)
-* [FR](https://vuldb.com/?country.fr)
-* [DE](https://vuldb.com/?country.de)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 2 more country items available. Please use our online service to access the data.
+There are 3 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -21,12 +21,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [91.238.50.80](https://vuldb.com/?ip.91.238.50.80) | - | - | High
-2 | [135.181.175.108](https://vuldb.com/?ip.135.181.175.108) | - | - | High
-3 | [137.74.104.108](https://vuldb.com/?ip.137.74.104.108) | - | - | High
+1 | [2.152.208.135](https://vuldb.com/?ip.2.152.208.135) | 2.152.208.135.dyn.user.ono.com | - | High
+2 | [91.238.50.80](https://vuldb.com/?ip.91.238.50.80) | - | - | High
+3 | [135.181.175.108](https://vuldb.com/?ip.135.181.175.108) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 1 more IOC items available. Please use our online service to access the data.
+There are 2 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -34,12 +34,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
-3 | T1505 | CWE-89 | SQL Injection | High
+1 | T1059 | CWE-94 | Cross Site Scripting | High
+2 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+3 | T1068 | CWE-264, CWE-269, CWE-274, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 4 | ... | ... | ... | ...
 
-There are 2 more TTP items available. Please use our online service to access the data.
+There are 4 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -50,9 +50,10 @@ ID | Type | Indicator | Confidence
 1 | File | `/cimom` | Low
 2 | File | `/my_photo_gallery/image.php` | High
 3 | File | `/reps/classes/Users.php?f=delete_agent` | High
-4 | ... | ... | ...
+4 | File | `/uncpath/` | Medium
+5 | ... | ... | ...
 
-There are 13 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 28 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -62,6 +63,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://isc.sans.edu/diary/28934
 * https://twitter.com/unit42_intel/status/1541888192802181120
 * https://twitter.com/Unit42_Intel/status/1587463493300719616
+* https://www.virustotal.com/gui/file/78bf839b8dbb956925e0d3a3f72ad939143310fd8db627f6df8f509070e81a03/detection
 
 ## Literature
 

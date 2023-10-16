@@ -35,7 +35,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-425 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-36, CWE-425 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
@@ -52,13 +52,13 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/academy/home/courses` | High
 2 | File | `/action/import_https_cert_file/` | High
-3 | File | `/action/wirelessConnect` | High
-4 | File | `/admin` | Low
-5 | File | `/admin/?page=user/manage_user` | High
-6 | File | `/admin/contacts/organizations/edit/2` | High
-7 | File | `/admin/curriculum/view_curriculum.php` | High
-8 | File | `/Admin/dashboard.php` | High
-9 | File | `/admin/edit-accepted-appointment.php` | High
+3 | File | `/admin` | Low
+4 | File | `/admin/?page=user/manage_user` | High
+5 | File | `/admin/contacts/organizations/edit/2` | High
+6 | File | `/admin/curriculum/view_curriculum.php` | High
+7 | File | `/Admin/dashboard.php` | High
+8 | File | `/admin/edit-accepted-appointment.php` | High
+9 | File | `/admin/edit.php` | High
 10 | File | `/admin/edit_category.php` | High
 11 | File | `/admin/edit_subject.php` | High
 12 | File | `/admin/modal_add_product.php` | High
@@ -78,28 +78,30 @@ ID | Type | Indicator | Confidence
 26 | File | `/depotHead/list` | High
 27 | File | `/device/signin` | High
 28 | File | `/fusiondirectory/index.php` | High
-29 | File | `/goform/addressNat` | High
-30 | File | `/goform/RGFirewallEL` | High
-31 | File | `/goform/WifiBasicSet` | High
-32 | File | `/h/` | Low
-33 | File | `/HNAP1` | Low
-34 | File | `/hslist` | Low
-35 | File | `/index.php?page=member` | High
-36 | File | `/js/player/dmplayer/dmku/index.php` | High
-37 | File | `/lists/admin/` | High
-38 | File | `/login/index.php` | High
-39 | File | `/multi-vendor-shopping-script/product-list.php` | High
-40 | File | `/myAccount` | Medium
-41 | File | `/note/index/delete` | High
-42 | File | `/operations/travellers.php` | High
-43 | File | `/patient/appointment.php` | High
-44 | File | `/paysystem/datatable.php` | High
-45 | File | `/php-sms/admin/orders/update_status.php` | High
-46 | File | `/php-sms/classes/Master.php?f=delete_service` | High
-47 | File | `/preview.php` | Medium
-48 | ... | ... | ...
+29 | File | `/general/ipanel/menu_code.php?MENU_TYPE=FAV` | High
+30 | File | `/goform/addressNat` | High
+31 | File | `/goform/RGFirewallEL` | High
+32 | File | `/goform/WifiBasicSet` | High
+33 | File | `/h/` | Low
+34 | File | `/HNAP1` | Low
+35 | File | `/hslist` | Low
+36 | File | `/importexport.php` | High
+37 | File | `/include/dialog/select_templets_post.php` | High
+38 | File | `/index.php/sysmanage/Login/login_auth/` | High
+39 | File | `/index.php?page=member` | High
+40 | File | `/js/player/dmplayer/dmku/index.php` | High
+41 | File | `/lists/admin/` | High
+42 | File | `/log/decodmail.php` | High
+43 | File | `/login/index.php` | High
+44 | File | `/multi-vendor-shopping-script/product-list.php` | High
+45 | File | `/myAccount` | Medium
+46 | File | `/note/index/delete` | High
+47 | File | `/operations/travellers.php` | High
+48 | File | `/patient/appointment.php` | High
+49 | File | `/paysystem/datatable.php` | High
+50 | ... | ... | ...
 
-There are 421 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 438 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

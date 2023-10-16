@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 19 more country items available. Please use our online service to access the data.
+There are 18 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -73,15 +73,15 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-36, CWE-37 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-36, CWE-37 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80, CWE-87 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 7 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 23 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -90,64 +90,66 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.../gogo/` | Medium
-2 | File | `//proc/kcore` | Medium
-3 | File | `/?ajax-request=jnews` | High
-4 | File | `/?r=recruit/resume/edit&op=status` | High
-5 | File | `/admin.php/Admin/adminadd.html` | High
-6 | File | `/admin/?page=user/list` | High
-7 | File | `/admin/?page=user/manage_user&id=3` | High
-8 | File | `/admin/about-us.php` | High
-9 | File | `/admin/del_category.php` | High
-10 | File | `/admin/del_service.php` | High
-11 | File | `/admin/edit-accepted-appointment.php` | High
-12 | File | `/admin/edit-services.php` | High
-13 | File | `/admin/edit_category.php` | High
-14 | File | `/admin/edit_subject.php` | High
-15 | File | `/admin/forgot-password.php` | High
-16 | File | `/admin/index.php` | High
-17 | File | `/admin/products/manage_product.php` | High
-18 | File | `/admin/reg.php` | High
-19 | File | `/admin/search-appointment.php` | High
-20 | File | `/admin/settings/save.php` | High
-21 | File | `/admin/students/manage.php` | High
-22 | File | `/admin/sys_sql_query.php` | High
-23 | File | `/admin/userprofile.php` | High
-24 | File | `/api/baskets/{name}` | High
-25 | File | `/api/user/upsert/<uuid>` | High
-26 | File | `/appliance/users?action=edit` | High
-27 | File | `/apply.cgi` | Medium
-28 | File | `/backup.pl` | Medium
-29 | File | `/blog` | Low
-30 | File | `/booking/show_bookings/` | High
-31 | File | `/cgi-bin/wlogin.cgi` | High
-32 | File | `/College/admin/teacher.php` | High
-33 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
-34 | File | `/dcim/rack-roles/` | High
-35 | File | `/dipam/athlete-profile.php` | High
-36 | File | `/E-mobile/App/System/File/downfile.php` | High
-37 | File | `/edoc/doctor/patient.php` | High
-38 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-39 | File | `/etc/ldap.conf` | High
-40 | File | `/etc/shadow` | Medium
-41 | File | `/forum/away.php` | High
+2 | File | `/?ajax-request=jnews` | High
+3 | File | `/?r=recruit/resume/edit&op=status` | High
+4 | File | `/admin.php/Admin/adminadd.html` | High
+5 | File | `/admin/?page=user/list` | High
+6 | File | `/admin/?page=user/manage_user&id=3` | High
+7 | File | `/admin/about-us.php` | High
+8 | File | `/admin/del_category.php` | High
+9 | File | `/admin/del_service.php` | High
+10 | File | `/admin/edit-accepted-appointment.php` | High
+11 | File | `/admin/edit-services.php` | High
+12 | File | `/admin/edit_category.php` | High
+13 | File | `/admin/edit_subject.php` | High
+14 | File | `/admin/forgot-password.php` | High
+15 | File | `/admin/index.php` | High
+16 | File | `/admin/products/manage_product.php` | High
+17 | File | `/admin/reg.php` | High
+18 | File | `/admin/search-appointment.php` | High
+19 | File | `/admin/settings/save.php` | High
+20 | File | `/admin/students/manage.php` | High
+21 | File | `/admin/sys_sql_query.php` | High
+22 | File | `/admin/userprofile.php` | High
+23 | File | `/api/baskets/{name}` | High
+24 | File | `/appliance/users?action=edit` | High
+25 | File | `/apply.cgi` | Medium
+26 | File | `/backup.pl` | Medium
+27 | File | `/blog` | Low
+28 | File | `/booking/show_bookings/` | High
+29 | File | `/cgi-bin/wlogin.cgi` | High
+30 | File | `/collection/all` | High
+31 | File | `/College/admin/teacher.php` | High
+32 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
+33 | File | `/dcim/rack-roles/` | High
+34 | File | `/dipam/athlete-profile.php` | High
+35 | File | `/E-mobile/App/System/File/downfile.php` | High
+36 | File | `/edoc/doctor/patient.php` | High
+37 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+38 | File | `/etc/ldap.conf` | High
+39 | File | `/etc/shadow` | Medium
+40 | File | `/forum/away.php` | High
+41 | File | `/fusion/portal/action/Link` | High
 42 | File | `/goform/addUserName` | High
 43 | File | `/goform/aspForm` | High
 44 | File | `/goform/delAd` | High
 45 | File | `/goform/wifiSSIDset` | High
 46 | File | `/gpac/src/bifs/unquantize.c` | High
-47 | File | `/h/calendar` | Medium
-48 | File | `/h/compose` | Medium
-49 | File | `/h/search?action=voicemail&action=listen` | High
-50 | File | `/inc/topBarNav.php` | High
-51 | File | `/index.php` | Medium
-52 | File | `/index.php?app=main&func=passport&action=login` | High
-53 | File | `/kelas/data` | Medium
-54 | File | `/kelasdosen/data` | High
-55 | File | `/listplace/user/coverPhotoUpdate` | High
-56 | File | `/manager/index.php` | High
-57 | ... | ... | ...
+47 | File | `/importexport.php` | High
+48 | File | `/inc/topBarNav.php` | High
+49 | File | `/index.php` | Medium
+50 | File | `/index.php?app=main&func=passport&action=login` | High
+51 | File | `/kelas/data` | Medium
+52 | File | `/kelasdosen/data` | High
+53 | File | `/listplace/user/coverPhotoUpdate` | High
+54 | File | `/Moosikay/order.php` | High
+55 | File | `/osm/REGISTER.cmd` | High
+56 | File | `/out.php` | Medium
+57 | File | `/paysystem/datatable.php` | High
+58 | File | `/php-scrm/login.php` | High
+59 | ... | ... | ...
 
-There are 499 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 511 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

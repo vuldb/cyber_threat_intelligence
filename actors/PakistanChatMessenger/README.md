@@ -56,19 +56,20 @@ ID | Type | Indicator | Confidence
 6 | File | `/ajax-files/postComment.php` | High
 7 | File | `/categorypage.php` | High
 8 | File | `/classes/Master.php` | High
-9 | File | `/home.php` | Medium
-10 | File | `/list_temp_photo_pin_upload.php` | High
-11 | File | `/nova/bin/detnet` | High
-12 | File | `/print.php` | Medium
-13 | File | `/searchpin.php` | High
-14 | File | `/service/upload` | High
-15 | File | `/services/Card/findUser` | High
-16 | File | `/show_group_members.php` | High
-17 | File | `/sqfs/bin/sccd` | High
-18 | File | `/user/profile` | High
-19 | ... | ... | ...
+9 | File | `/collection/all` | High
+10 | File | `/home.php` | Medium
+11 | File | `/list_temp_photo_pin_upload.php` | High
+12 | File | `/nova/bin/detnet` | High
+13 | File | `/print.php` | Medium
+14 | File | `/searchpin.php` | High
+15 | File | `/service/upload` | High
+16 | File | `/services/Card/findUser` | High
+17 | File | `/show_group_members.php` | High
+18 | File | `/sqfs/bin/sccd` | High
+19 | File | `/user/profile` | High
+20 | ... | ... | ...
 
-There are 159 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 167 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

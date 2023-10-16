@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [VN](https://vuldb.com/?country.vn)
-* [CN](https://vuldb.com/?country.cn)
+* [JP](https://vuldb.com/?country.jp)
 * ...
 
 There are 21 more country items available. Please use our online service to access the data.
@@ -3323,14 +3323,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23, CWE-24, CWE-29, CWE-36, CWE-425 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-29, CWE-35, CWE-425 | Pathname Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -3338,59 +3338,50 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/academy/home/courses` | High
-2 | File | `/ad-list` | Medium
-3 | File | `/admin.php?c=upload&f=zip&_noCache=0.1683794968` | High
-4 | File | `/admin/?page=user/list` | High
-5 | File | `/admin/?page=user/manage_user&id=3` | High
-6 | File | `/admin/files` | Medium
-7 | File | `/api/baskets/{name}` | High
-8 | File | `/api/sys/login` | High
-9 | File | `/api/sys/set_passwd` | High
-10 | File | `/app/sys1.php` | High
-11 | File | `/bitrix/admin/ldap_server_edit.php` | High
-12 | File | `/bsms_ci/index.php/user/edit_user/` | High
-13 | File | `/cgi-bin/luci/api/wireless` | High
-14 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
-15 | File | `/cgi-bin/wlogin.cgi` | High
-16 | File | `/common/info.cgi` | High
-17 | File | `/conf/` | Low
-18 | File | `/config/php.ini` | High
-19 | File | `/Content/Template/root/reverse-shell.aspx` | High
-20 | File | `/core/conditions/AbstractWrapper.java` | High
-21 | File | `/debug/pprof` | Medium
-22 | File | `/forum/away.php` | High
-23 | File | `/fusion/portal/action/Link` | High
-24 | File | `/getcfg.php` | Medium
-25 | File | `/gracemedia-media-player/templates/files/ajax_controller.php` | High
-26 | File | `/group1/uploa` | High
-27 | File | `/includes/db_connect.php` | High
-28 | File | `/includes/session.php` | High
-29 | File | `/index.php` | Medium
-30 | File | `/index.php?page=member` | High
-31 | File | `/iniFile/config.ini` | High
-32 | File | `/jeecg-boot/sys/common/upload` | High
-33 | File | `/log/decodmail.php` | High
-34 | File | `/modules/projects/vw_files.php` | High
-35 | File | `/modules/public/calendar.php` | High
-36 | File | `/modules/public/date_format.php` | High
-37 | File | `/modules/tasks/gantt.php` | High
-38 | File | `/patient/appointment.php` | High
-39 | File | `/portal/reports/account_statement` | High
-40 | File | `/preview.php` | Medium
-41 | File | `/recipe-result` | High
-42 | File | `/register.do` | Medium
-43 | File | `/resources//../` | High
-44 | File | `/search` | Low
-45 | File | `/search/index` | High
-46 | File | `/spip.php` | Medium
-47 | File | `/src/wasm/wasm-binary.cpp` | High
-48 | File | `/sysmanage/licence.php` | High
-49 | File | `/ui/cron/item/open` | High
-50 | File | `/ui/diagnostics/log/core/` | High
-51 | ... | ... | ...
+1 | File | `/academy/tutor/filter` | High
+2 | File | `/admin.php?c=upload&f=zip&_noCache=0.1683794968` | High
+3 | File | `/admin/article/article-edit-run.php` | High
+4 | File | `/api/baskets/{name}` | High
+5 | File | `/api/download` | High
+6 | File | `/api/download/updateFile` | High
+7 | File | `/api/es/admin/v3/security/user/1` | High
+8 | File | `/api/installation/setThumbnailRc` | High
+9 | File | `/api/runscript` | High
+10 | File | `/api/sys/login` | High
+11 | File | `/api/thumbnail` | High
+12 | File | `/api/v1/terminal/sessions/?limit=1` | High
+13 | File | `/app/sys1.php` | High
+14 | File | `/category.php` | High
+15 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+16 | File | `/cgi-bin/luci/api/wireless` | High
+17 | File | `/collection/all` | High
+18 | File | `/conf/` | Low
+19 | File | `/config/php.ini` | High
+20 | File | `/Content/Template/root/reverse-shell.aspx` | High
+21 | File | `/dashboard/add-blog.php` | High
+22 | File | `/debug/pprof` | Medium
+23 | File | `/forum/away.php` | High
+24 | File | `/fusion/portal/action/Link` | High
+25 | File | `/getcfg.php` | Medium
+26 | File | `/goform/Diagnosis` | High
+27 | File | `/goform/fast_setting_wifi_set` | High
+28 | File | `/goform/NatStaticSetting` | High
+29 | File | `/goform/PowerSaveSet` | High
+30 | File | `/goform/SetPptpServerCfg` | High
+31 | File | `/goform/SetStaticRouteCfg` | High
+32 | File | `/goform/WifiBasicSet` | High
+33 | File | `/gracemedia-media-player/templates/files/ajax_controller.php` | High
+34 | File | `/group1/uploa` | High
+35 | File | `/hrm/controller/employee.php` | High
+36 | File | `/hrm/employeeview.php` | High
+37 | File | `/importexport.php` | High
+38 | File | `/index.php` | Medium
+39 | File | `/index.php/sysmanage/Login/login_auth/` | High
+40 | File | `/index.php?page=member` | High
+41 | File | `/jeecg-boot/sys/common/upload` | High
+42 | ... | ... | ...
 
-There are 446 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 363 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

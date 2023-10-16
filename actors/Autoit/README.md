@@ -65,19 +65,19 @@ ID | Type | Indicator | Confidence
 9 | File | `/RPC2` | Low
 10 | File | `/rup` | Low
 11 | File | `/var/hnap/timestamp` | High
-12 | File | `admin.color.php` | High
-13 | File | `admin.php` | Medium
-14 | File | `admin/admin_login.php` | High
-15 | File | `admin/index.php?page=manage_car` | High
-16 | File | `admin/media.php` | High
-17 | File | `admin_events.php` | High
-18 | File | `affich.php` | Medium
-19 | File | `Ap4StscAtom.cpp` | High
-20 | File | `Ap4StssAtom.cpp` | High
-21 | File | `Ap4StszAtom.cpp` | High
+12 | File | `Addons/file/mod.file.php` | High
+13 | File | `admin.color.php` | High
+14 | File | `admin.php` | Medium
+15 | File | `admin/admin_login.php` | High
+16 | File | `admin/index.php?page=manage_car` | High
+17 | File | `admin/media.php` | High
+18 | File | `admin_events.php` | High
+19 | File | `affich.php` | Medium
+20 | File | `Ap4StscAtom.cpp` | High
+21 | File | `Ap4StssAtom.cpp` | High
 22 | ... | ... | ...
 
-There are 180 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 183 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

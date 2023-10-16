@@ -15,8 +15,8 @@ The following _campaigns_ are known and can be associated with Nigeria Unknown:
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Nigeria Unknown:
 
 * [US](https://vuldb.com/?country.us)
-* [ZA](https://vuldb.com/?country.za)
 * [GB](https://vuldb.com/?country.gb)
+* [ZA](https://vuldb.com/?country.za)
 * ...
 
 There are 1 more country items available. Please use our online service to access the data.
@@ -266,7 +266,7 @@ ID | Type | Indicator | Confidence
 3 | File | `index.php` | Medium
 4 | ... | ... | ...
 
-There are 5 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 6 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

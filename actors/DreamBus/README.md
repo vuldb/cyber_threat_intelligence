@@ -22,11 +22,11 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [10.0.0.0](https://vuldb.com/?ip.10.0.0.0) | - | - | High
-2 | [94.176.237.229](https://vuldb.com/?ip.94.176.237.229) | cim8.f.dedikuoti.lt | - | High
-3 | [94.237.85.89](https://vuldb.com/?ip.94.237.85.89) | 94-237-85-89.de-fra1.upcloud.host | - | High
+2 | [92.204.243.155](https://vuldb.com/?ip.92.204.243.155) | - | - | High
+3 | [94.176.237.229](https://vuldb.com/?ip.94.176.237.229) | cim8.f.dedikuoti.lt | - | High
 4 | ... | ... | ... | ...
 
-There are 6 more IOC items available. Please use our online service to access the data.
+There are 7 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -35,11 +35,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22 | Pathname Traversal | High
-2 | T1059 | CWE-94 | Cross Site Scripting | High
-3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 10 more TTP items available. Please use our online service to access the data.
+There are 13 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -47,18 +47,22 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/librarian/bookdetails.php` | High
-2 | File | `/staff/bookdetails.php` | High
-3 | File | `/student/bookdetails.php` | High
-4 | File | `admin/vqmods.app/vqmods.inc.php` | High
-5 | ... | ... | ...
+1 | File | `/index.php?action=seomatic/file/seo-file-link` | High
+2 | File | `/librarian/bookdetails.php` | High
+3 | File | `/mgmt/tm/util/bash` | High
+4 | File | `/staff/bookdetails.php` | High
+5 | File | `/student/bookdetails.php` | High
+6 | File | `/text/pdf/PdfReader.java` | High
+7 | File | `add.php` | Low
+8 | ... | ... | ...
 
-There are 26 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 53 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://blogs.juniper.net/en-us/threat-research/dreambus-botnet-resurfaces-targets-rocketmq-vulnerability
 * https://community.blueliv.com/#!/s/600e7a2d82df413eb5354ce6
 * https://github.com/threatlabz/iocs/blob/main/dreambus/c2_domains.txt
 * https://github.com/threatlabz/iocs/blob/main/dreambus/dreambus.yara

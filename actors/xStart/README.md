@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [DE](https://vuldb.com/?country.de)
 * ...
 
-There are 10 more country items available. Please use our online service to access the data.
+There are 9 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -50,7 +50,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -59,54 +59,54 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `%SYSTEMDRIVE%\totalcmd\TOTALCMD64.EXE` | High
-2 | File | `.kss.pid` | Medium
-3 | File | `/+CSCOE+/logon.html` | High
-4 | File | `/admin/lab.php` | High
-5 | File | `/admin/update_s6.php` | High
-6 | File | `/api/collection/findone` | High
-7 | File | `/api/crontab` | Medium
-8 | File | `/api/geojson` | Medium
-9 | File | `/cbs/system/ShowAdvanced.do` | High
-10 | File | `/cgi-bin/editBookmark` | High
-11 | File | `/cgi-bin/loaddata.py` | High
-12 | File | `/cms/category/list` | High
-13 | File | `/debug` | Low
-14 | File | `/debug/pprof` | Medium
-15 | File | `/DXR.axd` | Medium
-16 | File | `/env` | Low
-17 | File | `/etc/passwd` | Medium
-18 | File | `/forum/away.php` | High
-19 | File | `/goform/setmac` | High
-20 | File | `/goform/setportList` | High
-21 | File | `/goform/setVLAN` | High
-22 | File | `/goform/wlanPrimaryNetwork` | High
-23 | File | `/GponForm/usb_Form?script/` | High
-24 | File | `/groups/31-twitter-basics` | High
-25 | File | `/inc/jquery/uploadify/uploadify.php` | High
-26 | File | `/login` | Low
-27 | File | `/login/index.php` | High
-28 | File | `/modules/profile/index.php` | High
-29 | File | `/secure/QueryComponent!Default.jspa` | High
-30 | File | `/spip.php` | Medium
-31 | File | `/sys/dict/queryTableData` | High
-32 | File | `/tmp` | Low
-33 | File | `/tmp/before` | Medium
-34 | File | `/User/saveUser` | High
-35 | File | `/usr/bin/vmware-mount` | High
-36 | File | `/var/WEB-GUI/cgi-bin/downloadfile.cgi` | High
-37 | File | `/WEB-INF/web.xml` | High
-38 | File | `/_vti_pvt/access.cnf` | High
-39 | File | `3/qq_connect2.0/API/class/ErrorCase.class.php` | High
-40 | File | `accountsettings_add.html` | High
-41 | File | `aclient.exe` | Medium
-42 | File | `admin.php` | Medium
-43 | File | `admin.php?c=update&f=unzip` | High
-44 | File | `admin/domain-fields/` | High
-45 | File | `admin/index.asp` | High
-46 | File | `admin/news.php` | High
+2 | File | `/+CSCOE+/logon.html` | High
+3 | File | `/admin/lab.php` | High
+4 | File | `/admin/update_s6.php` | High
+5 | File | `/api/collection/findone` | High
+6 | File | `/api/crontab` | Medium
+7 | File | `/api/geojson` | Medium
+8 | File | `/cbs/system/ShowAdvanced.do` | High
+9 | File | `/cgi-bin/editBookmark` | High
+10 | File | `/cgi-bin/loaddata.py` | High
+11 | File | `/cgi-bin/webviewer_login_page` | High
+12 | File | `/cgi/networkDiag.cgi` | High
+13 | File | `/cms/category/list` | High
+14 | File | `/debug` | Low
+15 | File | `/debug/pprof` | Medium
+16 | File | `/DXR.axd` | Medium
+17 | File | `/env` | Low
+18 | File | `/etc/passwd` | Medium
+19 | File | `/forum/away.php` | High
+20 | File | `/goform/setmac` | High
+21 | File | `/goform/setportList` | High
+22 | File | `/goform/setVLAN` | High
+23 | File | `/goform/wlanPrimaryNetwork` | High
+24 | File | `/GponForm/usb_Form?script/` | High
+25 | File | `/groups/31-twitter-basics` | High
+26 | File | `/inc/jquery/uploadify/uploadify.php` | High
+27 | File | `/login` | Low
+28 | File | `/login/index.php` | High
+29 | File | `/modules/profile/index.php` | High
+30 | File | `/net/sched/cls_fw.c` | High
+31 | File | `/search.php` | Medium
+32 | File | `/secure/QueryComponent!Default.jspa` | High
+33 | File | `/spip.php` | Medium
+34 | File | `/sys/dict/queryTableData` | High
+35 | File | `/tmp` | Low
+36 | File | `/tmp/before` | Medium
+37 | File | `/User/saveUser` | High
+38 | File | `/usr/bin/vmware-mount` | High
+39 | File | `/var/WEB-GUI/cgi-bin/downloadfile.cgi` | High
+40 | File | `/WEB-INF/web.xml` | High
+41 | File | `/_vti_pvt/access.cnf` | High
+42 | File | `3/qq_connect2.0/API/class/ErrorCase.class.php` | High
+43 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+44 | File | `accountsettings_add.html` | High
+45 | File | `aclient.exe` | Medium
+46 | File | `admin.php` | Medium
 47 | ... | ... | ...
 
-There are 412 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 410 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

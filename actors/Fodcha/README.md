@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 17 more country items available. Please use our online service to access the data.
+There are 14 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -70,35 +70,35 @@ ID | Type | Indicator | Confidence
 3 | File | `/admin/students/view_student.php` | High
 4 | File | `/api/` | Low
 5 | File | `/api/database` | High
-6 | File | `/aya/module/admin/fst_down.inc.php` | High
-7 | File | `/cardo/api` | Medium
-8 | File | `/CCMAdmin/serverlist.asp` | High
-9 | File | `/cgi-bin/editBookmark` | High
-10 | File | `/cgi-bin/wlogin.cgi` | High
-11 | File | `/ci_hms/massage_room/edit/1` | High
-12 | File | `/claire_blake` | High
-13 | File | `/config` | Low
-14 | File | `/dashboard/updatelogo.php` | High
-15 | File | `/debug/pprof` | Medium
-16 | File | `/downloadmaster/dm_apply.cgi?action_mode=initial&download_type=General&special_cgi=get_language` | High
-17 | File | `/DS/LM_API/api/SelectionService/InsertQueryWithActiveRelationsReturnId` | High
-18 | File | `/goform/RgDhcp` | High
-19 | File | `/goform/RgTime` | High
-20 | File | `/guestmanagement/front.php` | High
-21 | File | `/inc/jquery/uploadify/uploadify.php` | High
-22 | File | `/index.php?/manage/channel/addchannel` | High
-23 | File | `/Items/*/RemoteImages/Download` | High
-24 | File | `/main.php` | Medium
-25 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
-26 | File | `/mkshop/Men/profile.php` | High
-27 | File | `/modules/projects/vw_files.php` | High
-28 | File | `/mygym/admin/login.php` | High
-29 | File | `/new` | Low
-30 | File | `/nova/bin/traceroute` | High
-31 | File | `/obs/book.php` | High
-32 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-33 | File | `/owa/auth/logon.aspx` | High
-34 | File | `/phpcollab/users/emailusers.php` | High
+6 | File | `/api/v1/terminal/sessions/?limit=1` | High
+7 | File | `/aya/module/admin/fst_down.inc.php` | High
+8 | File | `/cardo/api` | Medium
+9 | File | `/CCMAdmin/serverlist.asp` | High
+10 | File | `/cgi-bin/editBookmark` | High
+11 | File | `/cgi-bin/wlogin.cgi` | High
+12 | File | `/ci_hms/massage_room/edit/1` | High
+13 | File | `/claire_blake` | High
+14 | File | `/config` | Low
+15 | File | `/dashboard/updatelogo.php` | High
+16 | File | `/debug/pprof` | Medium
+17 | File | `/downloadmaster/dm_apply.cgi?action_mode=initial&download_type=General&special_cgi=get_language` | High
+18 | File | `/DS/LM_API/api/SelectionService/InsertQueryWithActiveRelationsReturnId` | High
+19 | File | `/goform/RgDhcp` | High
+20 | File | `/goform/RgTime` | High
+21 | File | `/guestmanagement/front.php` | High
+22 | File | `/inc/jquery/uploadify/uploadify.php` | High
+23 | File | `/index.php?/manage/channel/addchannel` | High
+24 | File | `/Items/*/RemoteImages/Download` | High
+25 | File | `/main.php` | Medium
+26 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
+27 | File | `/mkshop/Men/profile.php` | High
+28 | File | `/modules/projects/vw_files.php` | High
+29 | File | `/mygym/admin/login.php` | High
+30 | File | `/new` | Low
+31 | File | `/nova/bin/traceroute` | High
+32 | File | `/obs/book.php` | High
+33 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+34 | File | `/owa/auth/logon.aspx` | High
 35 | File | `/proc/sys/kernel/rh_features` | High
 36 | File | `/process/eprocess.php` | High
 37 | File | `/product.php` | Medium
@@ -118,9 +118,9 @@ ID | Type | Indicator | Confidence
 51 | File | `/whbs/?page=contact_us` | High
 52 | File | `/wolfcms/?/admin/user/add` | High
 53 | File | `/wp-admin/admin-ajax.php` | High
-54 | File | `/wp-content/plugins/emag-marketplace-connector/templates/order/awb-meta-box.php` | High
-55 | File | `aa/../../uploads/blog/201811/attach_#.jpg` | High
-56 | File | `access.php` | Medium
+54 | File | `404Like.php` | Medium
+55 | File | `a-forms.php` | Medium
+56 | File | `aa/../../uploads/blog/201811/attach_#.jpg` | High
 57 | File | `ad-blocking-detector.php` | High
 58 | File | `adclick.php` | Medium
 59 | File | `admin.color.php` | High
@@ -136,9 +136,10 @@ ID | Type | Indicator | Confidence
 69 | File | `admin/departments/manage_department.php` | High
 70 | File | `admin/index.php?c=database` | High
 71 | File | `admin/theme-edit.php` | High
-72 | ... | ... | ...
+72 | File | `admin_ajax.php?action=checkrepeat` | High
+73 | ... | ... | ...
 
-There are 635 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 646 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

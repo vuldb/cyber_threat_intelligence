@@ -57,9 +57,10 @@ ID | Type | Indicator | Confidence
 2 | File | `/user/s.php` | Medium
 3 | File | `add-locker-form.php` | High
 4 | File | `admin/booking_report.php` | High
-5 | ... | ... | ...
+5 | File | `admin/disapprove_user.php` | High
+6 | ... | ... | ...
 
-There are 27 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 38 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

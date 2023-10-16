@@ -8,8 +8,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Hungary Unknown:
 
-* [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
+* [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
@@ -372,58 +372,63 @@ ID | Type | Indicator | Confidence
 1 | File | `.../gogo/` | Medium
 2 | File | `/?ajax-request=jnews` | High
 3 | File | `/?p=products` | Medium
-4 | File | `/admin.php/accessory/filesdel.html` | High
-5 | File | `/admin/?page=user/manage` | High
-6 | File | `/admin/add-new.php` | High
-7 | File | `/admin/doctors.php` | High
-8 | File | `/admin/edit_subject.php` | High
-9 | File | `/admin/products/manage_product.php` | High
-10 | File | `/admin/reg.php` | High
-11 | File | `/admin/submit-articles` | High
-12 | File | `/alphaware/summary.php` | High
-13 | File | `/api/` | Low
-14 | File | `/api/admin/store/product/list` | High
-15 | File | `/api/stl/actions/search` | High
-16 | File | `/api/v2/cli/commands` | High
-17 | File | `/appliance/users?action=edit` | High
-18 | File | `/attachments` | Medium
-19 | File | `/backup.pl` | Medium
-20 | File | `/bin/ate` | Medium
-21 | File | `/boat/login.php` | High
-22 | File | `/booking/show_bookings/` | High
-23 | File | `/bsms_ci/index.php/book` | High
-24 | File | `/cgi-bin` | Medium
-25 | File | `/cgi-bin/wlogin.cgi` | High
-26 | File | `/context/%2e/WEB-INF/web.xml` | High
-27 | File | `/debug/pprof` | Medium
-28 | File | `/dipam/athlete-profile.php` | High
-29 | File | `/E-mobile/App/System/File/downfile.php` | High
-30 | File | `/edoc/doctor/patient.php` | High
-31 | File | `/env` | Low
-32 | File | `/etc/hosts` | Medium
-33 | File | `/etc/ldap.conf` | High
-34 | File | `/etc/passwd` | Medium
-35 | File | `/etc/shadow` | Medium
-36 | File | `/forum/away.php` | High
-37 | File | `/goform/SysToolChangePwd` | High
-38 | File | `/goform/wizard_end` | High
-39 | File | `/index.php` | Medium
-40 | File | `/index.php?app=main&func=passport&action=login` | High
-41 | File | `/kelasdosen/data` | High
-42 | File | `/medicines/profile.php` | High
-43 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-44 | File | `/osm/REGISTER.cmd` | High
-45 | File | `/out.php` | Medium
-46 | File | `/paysystem/datatable.php` | High
-47 | File | `/php-scrm/login.php` | High
-48 | File | `/php-sms/admin/?page=user/manage_user` | High
-49 | File | `/proxy` | Low
-50 | File | `/reservation/add_message.php` | High
-51 | File | `/reviewer/system/system/admins/manage/users/user-update.php` | High
-52 | File | `/reviewer_0/admins/assessments/pretest/questions-view.php` | High
-53 | ... | ... | ...
+4 | File | `/?r=recruit/resume/edit&op=status` | High
+5 | File | `/admin.php/accessory/filesdel.html` | High
+6 | File | `/admin/?page=user/list` | High
+7 | File | `/admin/?page=user/manage` | High
+8 | File | `/admin/?page=user/manage_user&id=3` | High
+9 | File | `/admin/about-us.php` | High
+10 | File | `/admin/add-new.php` | High
+11 | File | `/admin/del_category.php` | High
+12 | File | `/admin/del_service.php` | High
+13 | File | `/admin/doctors.php` | High
+14 | File | `/admin/edit-accepted-appointment.php` | High
+15 | File | `/admin/edit-services.php` | High
+16 | File | `/admin/edit_category.php` | High
+17 | File | `/admin/edit_subject.php` | High
+18 | File | `/admin/forgot-password.php` | High
+19 | File | `/admin/index.php` | High
+20 | File | `/admin/products/manage_product.php` | High
+21 | File | `/admin/reg.php` | High
+22 | File | `/admin/search-appointment.php` | High
+23 | File | `/admin/submit-articles` | High
+24 | File | `/admin/sys_sql_query.php` | High
+25 | File | `/alphaware/summary.php` | High
+26 | File | `/api/` | Low
+27 | File | `/api/admin/store/product/list` | High
+28 | File | `/api/baskets/{name}` | High
+29 | File | `/api/stl/actions/search` | High
+30 | File | `/api/v2/cli/commands` | High
+31 | File | `/appliance/users?action=edit` | High
+32 | File | `/attachments` | Medium
+33 | File | `/backup.pl` | Medium
+34 | File | `/bin/ate` | Medium
+35 | File | `/blog` | Low
+36 | File | `/boat/login.php` | High
+37 | File | `/booking/show_bookings/` | High
+38 | File | `/bsms_ci/index.php/book` | High
+39 | File | `/cgi-bin` | Medium
+40 | File | `/cgi-bin/wlogin.cgi` | High
+41 | File | `/collection/all` | High
+42 | File | `/Content/Template/root/reverse-shell.aspx` | High
+43 | File | `/dashboard/add-blog.php` | High
+44 | File | `/debug/pprof` | Medium
+45 | File | `/dipam/athlete-profile.php` | High
+46 | File | `/E-mobile/App/System/File/downfile.php` | High
+47 | File | `/edoc/doctor/patient.php` | High
+48 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+49 | File | `/env` | Low
+50 | File | `/etc/hosts` | Medium
+51 | File | `/etc/ldap.conf` | High
+52 | File | `/etc/passwd` | Medium
+53 | File | `/etc/shadow` | Medium
+54 | File | `/forum/away.php` | High
+55 | File | `/fusion/portal/action/Link` | High
+56 | File | `/goform/SysToolChangePwd` | High
+57 | File | `/group1/uploa` | High
+58 | ... | ... | ...
 
-There are 457 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 506 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

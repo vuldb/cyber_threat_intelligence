@@ -15,8 +15,8 @@ The following _campaigns_ are known and can be associated with Eternity:
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Eternity:
 
 * [RU](https://vuldb.com/?country.ru)
-* [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
 There are 2 more country items available. Please use our online service to access the data.
@@ -69,12 +69,13 @@ ID | Type | Indicator | Confidence
 13 | File | `admin.color.php` | High
 14 | File | `admin/addons/archive/archive.php` | High
 15 | File | `admin/categories_industry.php` | High
-16 | File | `admin/content/postcategory` | High
-17 | File | `admincp/auth/secure.php` | High
-18 | File | `Adminstrator/Users/Edit/` | High
-19 | ... | ... | ...
+16 | File | `admin/class-woo-popup-admin.php` | High
+17 | File | `admin/content/postcategory` | High
+18 | File | `admincp/auth/secure.php` | High
+19 | File | `Adminstrator/Users/Edit/` | High
+20 | ... | ... | ...
 
-There are 157 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 160 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

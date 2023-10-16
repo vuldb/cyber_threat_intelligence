@@ -40,7 +40,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 12 more TTP items available. Please use our online service to access the data.
+There are 13 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -48,19 +48,20 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/forgetpassword.php` | High
-2 | File | `/inc/lists/edit-list.php` | High
-3 | File | `/index.php` | Medium
-4 | File | `/members/view_member.php` | High
-5 | File | `/owa/auth/logon.aspx` | High
-6 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
-7 | File | `/uncpath/` | Medium
-8 | File | `adclick.php` | Medium
-9 | File | `admin/media.php` | High
-10 | File | `bbs/faq.php` | Medium
-11 | ... | ... | ...
+1 | File | `/api/sys/login` | High
+2 | File | `/forgetpassword.php` | High
+3 | File | `/inc/lists/edit-list.php` | High
+4 | File | `/index.php` | Medium
+5 | File | `/members/view_member.php` | High
+6 | File | `/owa/auth/logon.aspx` | High
+7 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
+8 | File | `/uncpath/` | Medium
+9 | File | `adclick.php` | Medium
+10 | File | `admin/media.php` | High
+11 | File | `bbs/faq.php` | Medium
+12 | ... | ... | ...
 
-There are 87 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 89 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

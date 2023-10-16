@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Japan Unknown:
 
 * [CN](https://vuldb.com/?country.cn)
-* [US](https://vuldb.com/?country.us)
 * [IO](https://vuldb.com/?country.io)
+* [US](https://vuldb.com/?country.us)
 * ...
 
-There are 19 more country items available. Please use our online service to access the data.
+There are 17 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -3252,14 +3252,15 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-29, CWE-36, CWE-50 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-36, CWE-425 | Pathname Traversal | High
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+6 | T1068 | CWE-264, CWE-266, CWE-269, CWE-274, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+7 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -3268,53 +3269,48 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.github/workflows/comment.yml` | High
-2 | File | `//WEB-INF` | Medium
-3 | File | `/about.php` | Medium
-4 | File | `/act/ActDao.xml` | High
-5 | File | `/admin.php?c=upload&f=zip&_noCache=0.1683794968` | High
-6 | File | `/admin/bookings/manage_booking.php` | High
-7 | File | `/admin/index.php` | High
-8 | File | `/admin/read.php?mudi=getSignal` | High
-9 | File | `/admin/sys_sql_query.php` | High
-10 | File | `/api/baskets/{name}` | High
-11 | File | `/api/upload.php` | High
-12 | File | `/api/v1/snapshots` | High
-13 | File | `/Application/Admin/Controller/ConfigController.class.php` | High
-14 | File | `/application/common.php#action_log` | High
-15 | File | `/bin/ate` | Medium
-16 | File | `/bin/boa` | Medium
-17 | File | `/bitrix/admin/ldap_server_edit.php` | High
-18 | File | `/blog` | Low
-19 | File | `/category.php` | High
-20 | File | `/cgi-bin/luci;stok=/locale` | High
-21 | File | `/cgi-bin/wlogin.cgi` | High
-22 | File | `/cimom` | Low
-23 | File | `/classes/Master.php?f=delete_category` | High
-24 | File | `/classes/Master.php?f=delete_inquiry` | High
-25 | File | `/classes/Master.php?f=delete_item` | High
-26 | File | `/classes/Master.php?f=delete_service` | High
-27 | File | `/classes/Master.php?f=save_inquiry` | High
-28 | File | `/classes/Master.php?f=save_service` | High
-29 | File | `/classes/Users.php` | High
-30 | File | `/classes/Users.php?f=save` | High
-31 | File | `/company/store` | High
-32 | File | `/Controller/Ajaxfileupload.ashx` | High
-33 | File | `/download` | Medium
-34 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
-35 | File | `/E-mobile/App/System/File/downfile.php` | High
-36 | File | `/Electron/download` | High
-37 | File | `/export` | Low
-38 | File | `/forum/away.php` | High
-39 | File | `/goForm/aspForm` | High
-40 | File | `/goform/formTcpipSetup` | High
-41 | File | `/h/` | Low
-42 | File | `/home/kickPlayer` | High
-43 | File | `/inc/jquery/uploadify/uploadify.php` | High
-44 | File | `/index.php` | Medium
-45 | File | `/index.php/coins/update_marketboxslider` | High
-46 | ... | ... | ...
+2 | File | `/act/ActDao.xml` | High
+3 | File | `/admin/bookings/manage_booking.php` | High
+4 | File | `/admin/del_service.php` | High
+5 | File | `/admin/index.php` | High
+6 | File | `/admin/search-appointment.php` | High
+7 | File | `/admin/sys_sql_query.php` | High
+8 | File | `/api/baskets/{name}` | High
+9 | File | `/api/v1/alerts` | High
+10 | File | `/api/v1/terminal/sessions/?limit=1` | High
+11 | File | `/app/sys1.php` | High
+12 | File | `/bitrix/admin/ldap_server_edit.php` | High
+13 | File | `/blog` | Low
+14 | File | `/category.php` | High
+15 | File | `/cgi-bin/luci/api/wireless` | High
+16 | File | `/classes/Master.php?f=delete_category` | High
+17 | File | `/classes/Master.php?f=delete_inquiry` | High
+18 | File | `/classes/Master.php?f=delete_item` | High
+19 | File | `/classes/Master.php?f=delete_service` | High
+20 | File | `/classes/Master.php?f=save_inquiry` | High
+21 | File | `/classes/Master.php?f=save_service` | High
+22 | File | `/classes/Users.php` | High
+23 | File | `/company/store` | High
+24 | File | `/config/php.ini` | High
+25 | File | `/Content/Template/root/reverse-shell.aspx` | High
+26 | File | `/context/%2e/WEB-INF/web.xml` | High
+27 | File | `/Controller/Ajaxfileupload.ashx` | High
+28 | File | `/core/conditions/AbstractWrapper.java` | High
+29 | File | `/download` | Medium
+30 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
+31 | File | `/etc/passwd` | Medium
+32 | File | `/ethash/algorithm.go` | High
+33 | File | `/filemanager/upload/drop` | High
+34 | File | `/forum/away.php` | High
+35 | File | `/gaia-job-admin/user/add` | High
+36 | File | `/general/ipanel/menu_code.php?MENU_TYPE=FAV` | High
+37 | File | `/goform/formTcpipSetup` | High
+38 | File | `/group1/uploa` | High
+39 | File | `/h/` | Low
+40 | File | `/home/kickPlayer` | High
+41 | ... | ... | ...
 
-There are 396 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 354 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

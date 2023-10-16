@@ -58,23 +58,23 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/ajax.php?action=read_msg` | High
-2 | File | `/cgi-bin/editBookmark` | High
-3 | File | `/debug/pprof` | Medium
-4 | File | `/env` | Low
-5 | File | `/goform/SetNetControlList` | High
-6 | File | `/modules/tasks/summary.inc.php` | High
-7 | File | `/rest/api/2/user/picker` | High
-8 | File | `/src/chatbotapp/chatWindow.java` | High
-9 | File | `/uncpath/` | Medium
-10 | File | `/wp-json` | Medium
-11 | File | `admin/categories_industry.php` | High
-12 | File | `admin/category.inc.php` | High
-13 | File | `admin/content/postcategory` | High
-14 | File | `Adminstrator/Users/Edit/` | High
-15 | File | `agent.cfg` | Medium
+2 | File | `/api /v3/auth` | High
+3 | File | `/cgi-bin/editBookmark` | High
+4 | File | `/debug/pprof` | Medium
+5 | File | `/env` | Low
+6 | File | `/goform/SetNetControlList` | High
+7 | File | `/modules/tasks/summary.inc.php` | High
+8 | File | `/rest/api/2/user/picker` | High
+9 | File | `/src/chatbotapp/chatWindow.java` | High
+10 | File | `/uncpath/` | Medium
+11 | File | `/wp-json` | Medium
+12 | File | `admin/categories_industry.php` | High
+13 | File | `admin/category.inc.php` | High
+14 | File | `admin/class-woo-popup-admin.php` | High
+15 | File | `admin/content/postcategory` | High
 16 | ... | ... | ...
 
-There are 127 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 130 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

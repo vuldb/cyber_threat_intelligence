@@ -156,9 +156,10 @@ ID | Type | Indicator | Confidence
 47 | File | `admin.remository.php` | High
 48 | File | `admin/addons/archive/archive.php` | High
 49 | File | `adminAvatars.php` | High
-50 | ... | ... | ...
+50 | File | `AdxDSrv.exe` | Medium
+51 | ... | ... | ...
 
-There are 438 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 439 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

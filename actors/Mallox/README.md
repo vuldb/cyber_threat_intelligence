@@ -16,13 +16,15 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [80.66.75.116](https://vuldb.com/?ip.80.66.75.116) | - | - | High
+1 | [43.138.76.102](https://vuldb.com/?ip.43.138.76.102) | - | - | High
+2 | [80.66.75.116](https://vuldb.com/?ip.80.66.75.116) | - | - | High
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://blog.cyble.com/2023/06/22/mallox-ransomware-implements-new-infection-strategy/
+* https://exchange.xforce.ibmcloud.com/report/details/guid:4d6f6e39c1b851d8882f5aaa5cb12209
 
 ## Literature
 

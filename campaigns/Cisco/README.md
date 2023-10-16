@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 22 more country items available. Please use our online service to access the data.
+There are 19 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -65,7 +65,7 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-28 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -88,10 +88,10 @@ ID | Type | Indicator | Confidence
 9 | File | `/admin/sys_sql_query.php` | High
 10 | File | `/admin/userprofile.php` | High
 11 | File | `/api/baskets/{name}` | High
-12 | File | `/APR/login.php` | High
+12 | File | `/api/download` | High
 13 | File | `/bitrix/admin/ldap_server_edit.php` | High
-14 | File | `/cgi-bin/luci/api/wireless` | High
-15 | File | `/cgi-bin/wapopen` | High
+14 | File | `/category.php` | High
+15 | File | `/cgi-bin/luci/api/wireless` | High
 16 | File | `/cgi-bin/webviewer_login_page` | High
 17 | File | `/company/store` | High
 18 | File | `/Content/Template/root/reverse-shell.aspx` | High
@@ -112,24 +112,22 @@ ID | Type | Indicator | Confidence
 33 | File | `/Moosikay/order.php` | High
 34 | File | `/opac/Actions.php?a=login` | High
 35 | File | `/PreviewHandler.ashx` | High
-36 | File | `/public/launchNewWindow.jsp` | High
-37 | File | `/REBOOTSYSTEM` | High
-38 | File | `/recipe-result` | High
-39 | File | `/register.do` | Medium
-40 | File | `/reservation/add_message.php` | High
-41 | File | `/Service/ImageStationDataService.asmx` | High
-42 | File | `/spip.php` | Medium
-43 | File | `/src/chatbotapp/chatWindow.java` | High
-44 | File | `/student/bookdetails.php` | High
+36 | File | `/REBOOTSYSTEM` | High
+37 | File | `/recipe-result` | High
+38 | File | `/register.do` | Medium
+39 | File | `/reservation/add_message.php` | High
+40 | File | `/Service/ImageStationDataService.asmx` | High
+41 | File | `/spip.php` | Medium
+42 | File | `/src/chatbotapp/chatWindow.java` | High
+43 | File | `/student/bookdetails.php` | High
+44 | File | `/SystemManage/User/GetGridJson?_search=false&nd=1680855479750&rows=50&page=1&sidx=F_CreatorTime+desc&sord=asc` | High
 45 | File | `/uploads/exam_question/` | High
 46 | File | `/user/ticket/create` | High
 47 | File | `/user/updatePwd` | High
-48 | File | `/var/lib/docker/<remapping>` | High
-49 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
-50 | File | `/wp-admin/admin-ajax.php` | High
-51 | ... | ... | ...
+48 | File | `/UserSelfServiceSettings.jsp` | High
+49 | ... | ... | ...
 
-There are 444 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 425 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

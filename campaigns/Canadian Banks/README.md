@@ -59,18 +59,18 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/dl_sendmail.php` | High
-2 | File | `/api/v2/cli/commands` | High
-3 | File | `/DXR.axd` | Medium
-4 | File | `/forum/away.php` | High
-5 | File | `/owa/auth/logon.aspx` | High
-6 | File | `/spip.php` | Medium
-7 | File | `/zm/index.php` | High
-8 | File | `admin.jcomments.php` | High
-9 | File | `app/Model/Event.php` | High
-10 | File | `application/modules/admin/views/ecommerce/products.php` | High
+2 | File | `/api/baskets/{name}` | High
+3 | File | `/api/v2/cli/commands` | High
+4 | File | `/DXR.axd` | Medium
+5 | File | `/forum/away.php` | High
+6 | File | `/owa/auth/logon.aspx` | High
+7 | File | `/spip.php` | Medium
+8 | File | `/zm/index.php` | High
+9 | File | `admin.jcomments.php` | High
+10 | File | `app/Model/Event.php` | High
 11 | ... | ... | ...
 
-There are 84 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 85 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

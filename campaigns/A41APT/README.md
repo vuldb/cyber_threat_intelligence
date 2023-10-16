@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with A41APT:
 
 * [US](https://vuldb.com/?country.us)
-* [AT](https://vuldb.com/?country.at)
 * [RU](https://vuldb.com/?country.ru)
+* [AT](https://vuldb.com/?country.at)
 * ...
 
 There are 3 more country items available. Please use our online service to access the data.
@@ -57,16 +57,16 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/addnews.html` | High
 2 | File | `/sysworkflow/en/neoclassic/reportTables/reportTables_Ajax` | High
-3 | File | `account.asp` | Medium
-4 | File | `admin/admin.php` | High
-5 | File | `admin/admin.shtml` | High
-6 | File | `adminpanel/modules/pro/inc/ajax.php` | High
-7 | File | `api.php` | Low
-8 | File | `avrc_pars_tg.cc` | High
-9 | File | `awstats.pl` | Medium
+3 | File | `/wordpress/wp-admin/options-general.php` | High
+4 | File | `/wp-admin/options.php` | High
+5 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+6 | File | `account.asp` | Medium
+7 | File | `admin/admin.php` | High
+8 | File | `admin/admin.shtml` | High
+9 | File | `adminpanel/modules/pro/inc/ajax.php` | High
 10 | ... | ... | ...
 
-There are 72 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 76 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

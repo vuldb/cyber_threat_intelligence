@@ -49,7 +49,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -65,51 +65,55 @@ ID | Type | Indicator | Confidence
 6 | File | `/admin/forgot-password.php` | High
 7 | File | `/admin/index.php` | High
 8 | File | `/admin/lab.php` | High
-9 | File | `/admin/payment.php` | High
-10 | File | `/admin/show.php` | High
-11 | File | `/bin/boa` | Medium
-12 | File | `/default.php?idx=17` | High
-13 | File | `/download` | Medium
-14 | File | `/env` | Low
-15 | File | `/forum/away.php` | High
-16 | File | `/index.php` | Medium
-17 | File | `/installer/test.php` | High
-18 | File | `/librarian/bookdetails.php` | High
-19 | File | `/opt/bin/cli` | Medium
-20 | File | `/p` | Low
-21 | File | `/patient/doctors.php` | High
-22 | File | `/phpinventory/editcategory.php` | High
-23 | File | `/product-list.php` | High
-24 | File | `/spip.php` | Medium
-25 | File | `/uncpath/` | Medium
-26 | File | `/updown/upload.cgi` | High
-27 | File | `/user/del.php` | High
-28 | File | `/vicidial/admin.php` | High
-29 | File | `/_next` | Low
-30 | File | `123flashchat.php` | High
-31 | File | `act.php` | Low
-32 | File | `admin/bad.php` | High
-33 | File | `admin/index.php` | High
-34 | File | `admin/index.php/user/del/1` | High
-35 | File | `admin/index.php?id=themes&action=edit_chunk` | High
-36 | File | `administrator/index.php` | High
-37 | File | `advertiser/login_confirm.asp` | High
-38 | File | `agenda.php` | Medium
-39 | File | `ajax/render/widget_php` | High
-40 | File | `akocomments.php` | High
-41 | File | `album_portal.php` | High
-42 | File | `api.php` | Low
-43 | File | `app/membership_signup.php` | High
-44 | File | `application/home/controller/debug.php` | High
-45 | File | `articulo.php` | Medium
-46 | File | `artlinks.dispnew.php` | High
-47 | File | `author.control.php` | High
-48 | File | `avahi-core/socket.c` | High
-49 | File | `awstats.pl` | Medium
-50 | File | `a_login.php` | Medium
-51 | ... | ... | ...
+9 | File | `/admin/login.php` | High
+10 | File | `/admin/payment.php` | High
+11 | File | `/admin/show.php` | High
+12 | File | `/bin/boa` | Medium
+13 | File | `/default.php?idx=17` | High
+14 | File | `/download` | Medium
+15 | File | `/env` | Low
+16 | File | `/forum/away.php` | High
+17 | File | `/index.php` | Medium
+18 | File | `/installer/test.php` | High
+19 | File | `/librarian/bookdetails.php` | High
+20 | File | `/opt/bin/cli` | Medium
+21 | File | `/p` | Low
+22 | File | `/patient/doctors.php` | High
+23 | File | `/phpinventory/editcategory.php` | High
+24 | File | `/product-list.php` | High
+25 | File | `/spip.php` | Medium
+26 | File | `/uncpath/` | Medium
+27 | File | `/updown/upload.cgi` | High
+28 | File | `/user/del.php` | High
+29 | File | `/vicidial/admin.php` | High
+30 | File | `/wp-admin/admin-ajax.php` | High
+31 | File | `/_next` | Low
+32 | File | `123flashchat.php` | High
+33 | File | `act.php` | Low
+34 | File | `admin.php/pay` | High
+35 | File | `admin/bad.php` | High
+36 | File | `admin/index.php` | High
+37 | File | `admin/index.php/user/del/1` | High
+38 | File | `admin/index.php?id=themes&action=edit_chunk` | High
+39 | File | `administrator/index.php` | High
+40 | File | `advertiser/login_confirm.asp` | High
+41 | File | `agenda.php` | Medium
+42 | File | `ajax/render/widget_php` | High
+43 | File | `akocomments.php` | High
+44 | File | `album_portal.php` | High
+45 | File | `api.php` | Low
+46 | File | `app/membership_signup.php` | High
+47 | File | `application/home/controller/debug.php` | High
+48 | File | `articulo.php` | Medium
+49 | File | `artlinks.dispnew.php` | High
+50 | File | `author.control.php` | High
+51 | File | `avahi-core/socket.c` | High
+52 | File | `awstats.pl` | Medium
+53 | File | `a_login.php` | Medium
+54 | File | `bar.phtml` | Medium
+55 | ... | ... | ...
 
-There are 446 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 476 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

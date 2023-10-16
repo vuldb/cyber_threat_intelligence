@@ -50,7 +50,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -72,36 +72,37 @@ ID | Type | Indicator | Confidence
 12 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
 13 | File | `/public/login.htm` | High
 14 | File | `/rapi/read_url` | High
-15 | File | `/sendKey` | Medium
-16 | File | `/setSystemAdmin` | High
-17 | File | `/system/user/modules/mod_users/controller.php` | High
-18 | File | `/tmp` | Low
-19 | File | `/type.php` | Medium
-20 | File | `/usr/5bin/su` | Medium
-21 | File | `/usr/bin/mail` | High
-22 | File | `/var/dt/` | Medium
-23 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
-24 | File | `00.jsp` | Low
-25 | File | `adclick.php` | Medium
-26 | File | `admin.asp` | Medium
-27 | File | `admin.php` | Medium
-28 | File | `admin/` | Low
-29 | File | `admin/Login.php` | High
-30 | File | `admin/manage-comments.php` | High
-31 | File | `Administration/Controllers/ImportController.cs` | High
-32 | File | `administrator/mail/download.cfm` | High
-33 | File | `AdminViewError/AdminAddadmin` | High
-34 | File | `agentdisplay.php` | High
-35 | File | `appserv/main.php` | High
-36 | File | `ashnews.php/ashheadlines.php` | High
-37 | File | `auction.cgi` | Medium
-38 | File | `autologin.jsp` | High
-39 | File | `axspawn.c` | Medium
-40 | File | `base_ag_main.php` | High
-41 | File | `base_qry_main.php` | High
-42 | ... | ... | ...
+15 | File | `/scripts/unlock_tasks.php` | High
+16 | File | `/sendKey` | Medium
+17 | File | `/setSystemAdmin` | High
+18 | File | `/system/user/modules/mod_users/controller.php` | High
+19 | File | `/tmp` | Low
+20 | File | `/type.php` | Medium
+21 | File | `/usr/5bin/su` | Medium
+22 | File | `/usr/bin/mail` | High
+23 | File | `/var/dt/` | Medium
+24 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
+25 | File | `00.jsp` | Low
+26 | File | `adclick.php` | Medium
+27 | File | `admin.asp` | Medium
+28 | File | `admin.php` | Medium
+29 | File | `admin/` | Low
+30 | File | `admin/Login.php` | High
+31 | File | `admin/manage-comments.php` | High
+32 | File | `Administration/Controllers/ImportController.cs` | High
+33 | File | `administrator/mail/download.cfm` | High
+34 | File | `AdminViewError/AdminAddadmin` | High
+35 | File | `agentdisplay.php` | High
+36 | File | `appserv/main.php` | High
+37 | File | `ashnews.php/ashheadlines.php` | High
+38 | File | `auction.cgi` | Medium
+39 | File | `autologin.jsp` | High
+40 | File | `axspawn.c` | Medium
+41 | File | `base_ag_main.php` | High
+42 | File | `base_qry_main.php` | High
+43 | ... | ... | ...
 
-There are 366 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 371 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

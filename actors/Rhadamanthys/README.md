@@ -40,45 +40,47 @@ ID | IP address | Hostname | Campaign | Confidence
 17 | [31.41.244.157](https://vuldb.com/?ip.31.41.244.157) | - | - | High
 18 | [31.41.244.198](https://vuldb.com/?ip.31.41.244.198) | - | - | High
 19 | [31.192.237.70](https://vuldb.com/?ip.31.192.237.70) | wex.iotardrct.coffee | - | High
-20 | [34.150.88.233](https://vuldb.com/?ip.34.150.88.233) | 233.88.150.34.bc.googleusercontent.com | - | Medium
-21 | [35.220.153.89](https://vuldb.com/?ip.35.220.153.89) | 89.153.220.35.bc.googleusercontent.com | - | Medium
-22 | [37.220.87.35](https://vuldb.com/?ip.37.220.87.35) | ipn-37-220-87-35.artem-catv.ru | - | High
-23 | [40.82.159.41](https://vuldb.com/?ip.40.82.159.41) | - | - | High
-24 | [45.9.74.71](https://vuldb.com/?ip.45.9.74.71) | - | - | High
-25 | [45.9.74.150](https://vuldb.com/?ip.45.9.74.150) | - | - | High
-26 | [45.12.253.92](https://vuldb.com/?ip.45.12.253.92) | - | - | High
-27 | [45.12.253.133](https://vuldb.com/?ip.45.12.253.133) | - | - | High
-28 | [45.12.253.181](https://vuldb.com/?ip.45.12.253.181) | - | - | High
-29 | [45.15.159.234](https://vuldb.com/?ip.45.15.159.234) | callous-nation.aeza.network | - | High
-30 | [45.66.151.81](https://vuldb.com/?ip.45.66.151.81) | - | - | High
-31 | [45.66.230.106](https://vuldb.com/?ip.45.66.230.106) | - | - | High
-32 | [45.77.32.158](https://vuldb.com/?ip.45.77.32.158) | 45.77.32.158.vultrusercontent.com | - | High
-33 | [45.77.66.151](https://vuldb.com/?ip.45.77.66.151) | 45.77.66.151.vultrusercontent.com | - | High
-34 | [45.81.39.102](https://vuldb.com/?ip.45.81.39.102) | - | - | High
-35 | [45.81.39.169](https://vuldb.com/?ip.45.81.39.169) | - | - | High
-36 | [45.82.176.11](https://vuldb.com/?ip.45.82.176.11) | vm4131268.52ssd.had.wf | - | High
-37 | [45.128.234.63](https://vuldb.com/?ip.45.128.234.63) | - | - | High
-38 | [45.128.234.197](https://vuldb.com/?ip.45.128.234.197) | - | - | High
-39 | [45.131.66.61](https://vuldb.com/?ip.45.131.66.61) | - | - | High
-40 | [45.137.66.211](https://vuldb.com/?ip.45.137.66.211) | vm4439466.25ssd.had.wf | - | High
-41 | [45.138.74.237](https://vuldb.com/?ip.45.138.74.237) | tiny-limit.aeza.network | - | High
-42 | [45.150.65.4](https://vuldb.com/?ip.45.150.65.4) | vm1451462.stark-industries.solutions | - | High
-43 | [45.150.67.45](https://vuldb.com/?ip.45.150.67.45) | ethernet.stark.solutions | - | High
-44 | [45.153.186.15](https://vuldb.com/?ip.45.153.186.15) | no-reverse-yet.local | - | High
-45 | [45.159.188.66](https://vuldb.com/?ip.45.159.188.66) | customer.clientshostname.com | - | High
-46 | [45.159.188.236](https://vuldb.com/?ip.45.159.188.236) | . | - | High
-47 | [45.159.189.31](https://vuldb.com/?ip.45.159.189.31) | customer.clientshostname.com | - | High
-48 | [46.36.219.3](https://vuldb.com/?ip.46.36.219.3) | s0bd26e21.fastvps-server.com | - | High
-49 | [46.175.150.169](https://vuldb.com/?ip.46.175.150.169) | smtp4.sams-club.pro | - | High
-50 | [47.57.236.111](https://vuldb.com/?ip.47.57.236.111) | - | - | High
-51 | [62.204.41.57](https://vuldb.com/?ip.62.204.41.57) | - | - | High
-52 | [62.233.50.246](https://vuldb.com/?ip.62.233.50.246) | - | - | High
-53 | [62.233.51.95](https://vuldb.com/?ip.62.233.51.95) | - | - | High
-54 | [62.233.51.121](https://vuldb.com/?ip.62.233.51.121) | - | - | High
-55 | [62.233.51.122](https://vuldb.com/?ip.62.233.51.122) | - | - | High
-56 | ... | ... | ... | ...
+20 | [31.222.238.209](https://vuldb.com/?ip.31.222.238.209) | septic.alldata.com | - | High
+21 | [34.150.88.233](https://vuldb.com/?ip.34.150.88.233) | 233.88.150.34.bc.googleusercontent.com | - | Medium
+22 | [35.220.153.89](https://vuldb.com/?ip.35.220.153.89) | 89.153.220.35.bc.googleusercontent.com | - | Medium
+23 | [37.220.87.35](https://vuldb.com/?ip.37.220.87.35) | ipn-37-220-87-35.artem-catv.ru | - | High
+24 | [40.82.159.41](https://vuldb.com/?ip.40.82.159.41) | - | - | High
+25 | [45.9.74.71](https://vuldb.com/?ip.45.9.74.71) | - | - | High
+26 | [45.9.74.150](https://vuldb.com/?ip.45.9.74.150) | - | - | High
+27 | [45.12.253.92](https://vuldb.com/?ip.45.12.253.92) | - | - | High
+28 | [45.12.253.133](https://vuldb.com/?ip.45.12.253.133) | - | - | High
+29 | [45.12.253.181](https://vuldb.com/?ip.45.12.253.181) | - | - | High
+30 | [45.15.159.234](https://vuldb.com/?ip.45.15.159.234) | callous-nation.aeza.network | - | High
+31 | [45.66.151.81](https://vuldb.com/?ip.45.66.151.81) | - | - | High
+32 | [45.66.230.106](https://vuldb.com/?ip.45.66.230.106) | - | - | High
+33 | [45.77.32.158](https://vuldb.com/?ip.45.77.32.158) | 45.77.32.158.vultrusercontent.com | - | High
+34 | [45.77.66.151](https://vuldb.com/?ip.45.77.66.151) | 45.77.66.151.vultrusercontent.com | - | High
+35 | [45.81.39.102](https://vuldb.com/?ip.45.81.39.102) | - | - | High
+36 | [45.81.39.169](https://vuldb.com/?ip.45.81.39.169) | - | - | High
+37 | [45.82.176.11](https://vuldb.com/?ip.45.82.176.11) | vm4131268.52ssd.had.wf | - | High
+38 | [45.128.234.63](https://vuldb.com/?ip.45.128.234.63) | - | - | High
+39 | [45.128.234.197](https://vuldb.com/?ip.45.128.234.197) | - | - | High
+40 | [45.131.66.61](https://vuldb.com/?ip.45.131.66.61) | - | - | High
+41 | [45.137.66.211](https://vuldb.com/?ip.45.137.66.211) | vm4439466.25ssd.had.wf | - | High
+42 | [45.138.74.237](https://vuldb.com/?ip.45.138.74.237) | tiny-limit.aeza.network | - | High
+43 | [45.150.65.4](https://vuldb.com/?ip.45.150.65.4) | vm1451462.stark-industries.solutions | - | High
+44 | [45.150.67.45](https://vuldb.com/?ip.45.150.67.45) | ethernet.stark.solutions | - | High
+45 | [45.153.186.15](https://vuldb.com/?ip.45.153.186.15) | no-reverse-yet.local | - | High
+46 | [45.159.188.66](https://vuldb.com/?ip.45.159.188.66) | customer.clientshostname.com | - | High
+47 | [45.159.188.236](https://vuldb.com/?ip.45.159.188.236) | . | - | High
+48 | [45.159.189.31](https://vuldb.com/?ip.45.159.189.31) | customer.clientshostname.com | - | High
+49 | [46.36.219.3](https://vuldb.com/?ip.46.36.219.3) | s0bd26e21.fastvps-server.com | - | High
+50 | [46.175.150.169](https://vuldb.com/?ip.46.175.150.169) | smtp4.sams-club.pro | - | High
+51 | [47.57.236.111](https://vuldb.com/?ip.47.57.236.111) | - | - | High
+52 | [49.13.68.19](https://vuldb.com/?ip.49.13.68.19) | static.19.68.13.49.clients.prevps.com | - | High
+53 | [62.204.41.57](https://vuldb.com/?ip.62.204.41.57) | - | - | High
+54 | [62.233.50.246](https://vuldb.com/?ip.62.233.50.246) | - | - | High
+55 | [62.233.51.95](https://vuldb.com/?ip.62.233.51.95) | - | - | High
+56 | [62.233.51.121](https://vuldb.com/?ip.62.233.51.121) | - | - | High
+57 | [62.233.51.122](https://vuldb.com/?ip.62.233.51.122) | - | - | High
+58 | ... | ... | ... | ...
 
-There are 221 more IOC items available. Please use our online service to access the data.
+There are 228 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -94,7 +96,7 @@ ID | Technique | Weakness | Description | Confidence
 6 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 7 | ... | ... | ... | ...
 
-There are 23 more TTP items available. Please use our online service to access the data.
+There are 24 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -120,24 +122,24 @@ ID | Type | Indicator | Confidence
 16 | File | `/bin/ate` | Medium
 17 | File | `/boat/login.php` | High
 18 | File | `/booking/show_bookings/` | High
-19 | File | `/bsms_ci/index.php/book` | High
-20 | File | `/cgi-bin` | Medium
-21 | File | `/cgi-bin/wlogin.cgi` | High
-22 | File | `/College/admin/teacher.php` | High
+19 | File | `/cgi-bin` | Medium
+20 | File | `/cgi-bin/wlogin.cgi` | High
+21 | File | `/College/admin/teacher.php` | High
+22 | File | `/Content/Template/root/reverse-shell.aspx` | High
 23 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
-24 | File | `/dcim/rack-roles/` | High
-25 | File | `/debug/pprof` | Medium
-26 | File | `/DXR.axd` | Medium
-27 | File | `/env` | Low
-28 | File | `/forum/away.php` | High
-29 | File | `/goform/aspForm` | High
-30 | File | `/group1/uploa` | High
-31 | File | `/inc/topBarNav.php` | High
-32 | File | `/index.php` | Medium
-33 | File | `/index.php?app=main&func=passport&action=login` | High
-34 | File | `/kelas/data` | Medium
-35 | File | `/login/index.php` | High
-36 | File | `/medicines/profile.php` | High
+24 | File | `/dashboard/add-blog.php` | High
+25 | File | `/dcim/rack-roles/` | High
+26 | File | `/debug/pprof` | Medium
+27 | File | `/DXR.axd` | Medium
+28 | File | `/env` | Low
+29 | File | `/forum/away.php` | High
+30 | File | `/goform/aspForm` | High
+31 | File | `/group1/uploa` | High
+32 | File | `/inc/parser/xhtml.php` | High
+33 | File | `/inc/topBarNav.php` | High
+34 | File | `/index.php` | Medium
+35 | File | `/index.php?app=main&func=passport&action=login` | High
+36 | File | `/kelas/data` | Medium
 37 | File | `/Moosikay/order.php` | High
 38 | File | `/owa/auth/logon.aspx` | High
 39 | File | `/php-sms/admin/?page=user/manage_user` | High
@@ -146,19 +148,20 @@ ID | Type | Indicator | Confidence
 42 | File | `/spip.php` | Medium
 43 | File | `/squashfs-root/etc_ro/custom.conf` | High
 44 | File | `/staff/edit_book_details.php` | High
-45 | File | `/user/profile` | High
-46 | File | `/user/updatePwd` | High
-47 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
-48 | File | `/video-sharing-script/watch-video.php` | High
-49 | ... | ... | ...
+45 | File | `/SysManage/AddUpdateRole.aspx` | High
+46 | File | `/user/profile` | High
+47 | File | `/user/updatePwd` | High
+48 | ... | ... | ...
 
-There are 423 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 417 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://app.any.run/tasks/57cc7daa-2711-4e03-9a7a-08275f1e9bc3
+* https://app.any.run/tasks/f3358280-53c7-43a6-9980-bcb59c2aa0ca
+* https://app.any.run/tasks/ff79a6bc-0eff-4012-b9eb-b22ab6de61c2
 * https://bazaar.abuse.ch/sample/612580febe9bad2c60ab8ad8564a38680cf415581c542e5e6109e680dc5e9d15/
 * https://bazaar.abuse.ch/sample/cce775fce8c0f3cd92432b8a2ff4edee7a055c907b75aa15584a1c57a7925860/
 * https://bazaar.abuse.ch/sample/e0d8e7a12ffa3feb00814259a2ea750ab121c3f4b049ce82f5f3ec16579807c0/
@@ -241,6 +244,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://twitter.com/1ZRR4H/status/1612472092326346752
 * https://twitter.com/AttackTrends/status/1612477419461480448
 * https://twitter.com/crep1x/status/1623394701456859137
+* https://twitter.com/karol_paciorek/status/1703732303367672306
 * https://www.zscaler.com/blogs/security-research/technical-analysis-rhadamanthys-obfuscation-techniques
 
 ## Literature

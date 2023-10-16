@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 13 more country items available. Please use our online service to access the data.
+There are 14 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -82,25 +82,26 @@ ID | Type | Indicator | Confidence
 19 | File | `/rapi/read_url` | High
 20 | File | `/rom-0` | Low
 21 | File | `/session/list/allActiveSession` | High
-22 | File | `/SysInfo.htm` | Medium
-23 | File | `/syslog_rules` | High
-24 | File | `/uncpath/` | Medium
-25 | File | `/upload` | Low
-26 | File | `/users/{id}` | Medium
-27 | File | `/var/tmp/sess_*` | High
-28 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
-29 | File | `/video` | Low
-30 | File | `actionphp/download.File.php` | High
-31 | File | `ActivityManagerService.java` | High
-32 | File | `adaptmap_reg.c` | High
-33 | File | `add_comment.php` | High
-34 | File | `admin.cgi` | Medium
-35 | File | `admin.php` | Medium
-36 | File | `admin.php?action=files` | High
-37 | File | `admin/admin.php` | High
-38 | File | `admin/content.php` | High
-39 | File | `admin/index.php?id=users/action=edit/user_id=1` | High
-40 | ... | ... | ...
+22 | File | `/sys/dict/loadTreeData` | High
+23 | File | `/SysInfo.htm` | Medium
+24 | File | `/syslog_rules` | High
+25 | File | `/uncpath/` | Medium
+26 | File | `/upload` | Low
+27 | File | `/users/{id}` | Medium
+28 | File | `/var/tmp/sess_*` | High
+29 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
+30 | File | `/video` | Low
+31 | File | `actionphp/download.File.php` | High
+32 | File | `ActivityManagerService.java` | High
+33 | File | `adaptmap_reg.c` | High
+34 | File | `add_comment.php` | High
+35 | File | `admin.cgi` | Medium
+36 | File | `admin.php` | Medium
+37 | File | `admin.php?action=files` | High
+38 | File | `admin/admin.php` | High
+39 | File | `admin/content.php` | High
+40 | File | `admin/index.php?id=users/action=edit/user_id=1` | High
+41 | ... | ... | ...
 
 There are 349 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 

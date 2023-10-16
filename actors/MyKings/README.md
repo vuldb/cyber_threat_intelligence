@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 23 more country items available. Please use our online service to access the data.
+There are 24 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -27,25 +27,25 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [13.58.133.77](https://vuldb.com/?ip.13.58.133.77) | ec2-13-58-133-77.us-east-2.compute.amazonaws.com | - | Medium
-2 | [13.59.110.123](https://vuldb.com/?ip.13.59.110.123) | ec2-13-59-110-123.us-east-2.compute.amazonaws.com | - | Medium
-3 | [18.191.72.35](https://vuldb.com/?ip.18.191.72.35) | ec2-18-191-72-35.us-east-2.compute.amazonaws.com | - | Medium
-4 | [18.218.14.96](https://vuldb.com/?ip.18.218.14.96) | ec2-18-218-14-96.us-east-2.compute.amazonaws.com | - | Medium
-5 | [18.236.135.84](https://vuldb.com/?ip.18.236.135.84) | ec2-18-236-135-84.us-west-2.compute.amazonaws.com | - | Medium
-6 | [23.27.127.254](https://vuldb.com/?ip.23.27.127.254) | - | - | High
-7 | [23.236.69.114](https://vuldb.com/?ip.23.236.69.114) | - | - | High
-8 | [35.182.171.137](https://vuldb.com/?ip.35.182.171.137) | ec2-35-182-171-137.ca-central-1.compute.amazonaws.com | - | Medium
-9 | [45.58.133.10](https://vuldb.com/?ip.45.58.133.10) | depending-tcped.landweeks.com | - | High
-10 | [45.58.135.106](https://vuldb.com/?ip.45.58.135.106) | - | - | High
-11 | [45.58.140.194](https://vuldb.com/?ip.45.58.140.194) | vm194.ebouravi.com | - | High
-12 | [45.116.13.219](https://vuldb.com/?ip.45.116.13.219) | 45.116.13.219.static.xtom.hk | - | High
-13 | [54.255.141.50](https://vuldb.com/?ip.54.255.141.50) | ec2-54-255-141-50.ap-southeast-1.compute.amazonaws.com | - | Medium
-14 | [60.250.76.52](https://vuldb.com/?ip.60.250.76.52) | 60-250-76-52.hinet-ip.hinet.net | - | High
-15 | [64.32.3.186](https://vuldb.com/?ip.64.32.3.186) | - | - | High
-16 | [66.117.2.182](https://vuldb.com/?ip.66.117.2.182) | crownwine.net | - | High
+1 | [5.39.222.134](https://vuldb.com/?ip.5.39.222.134) | - | - | High
+2 | [13.58.133.77](https://vuldb.com/?ip.13.58.133.77) | ec2-13-58-133-77.us-east-2.compute.amazonaws.com | - | Medium
+3 | [13.59.110.123](https://vuldb.com/?ip.13.59.110.123) | ec2-13-59-110-123.us-east-2.compute.amazonaws.com | - | Medium
+4 | [18.191.72.35](https://vuldb.com/?ip.18.191.72.35) | ec2-18-191-72-35.us-east-2.compute.amazonaws.com | - | Medium
+5 | [18.218.14.96](https://vuldb.com/?ip.18.218.14.96) | ec2-18-218-14-96.us-east-2.compute.amazonaws.com | - | Medium
+6 | [18.236.135.84](https://vuldb.com/?ip.18.236.135.84) | ec2-18-236-135-84.us-west-2.compute.amazonaws.com | - | Medium
+7 | [23.27.127.254](https://vuldb.com/?ip.23.27.127.254) | - | - | High
+8 | [23.236.69.114](https://vuldb.com/?ip.23.236.69.114) | - | - | High
+9 | [35.182.171.137](https://vuldb.com/?ip.35.182.171.137) | ec2-35-182-171-137.ca-central-1.compute.amazonaws.com | - | Medium
+10 | [45.58.133.10](https://vuldb.com/?ip.45.58.133.10) | depending-tcped.landweeks.com | - | High
+11 | [45.58.135.106](https://vuldb.com/?ip.45.58.135.106) | - | - | High
+12 | [45.58.140.194](https://vuldb.com/?ip.45.58.140.194) | vm194.ebouravi.com | - | High
+13 | [45.116.13.219](https://vuldb.com/?ip.45.116.13.219) | 45.116.13.219.static.xtom.hk | - | High
+14 | [54.255.141.50](https://vuldb.com/?ip.54.255.141.50) | ec2-54-255-141-50.ap-southeast-1.compute.amazonaws.com | - | Medium
+15 | [60.250.76.52](https://vuldb.com/?ip.60.250.76.52) | 60-250-76-52.hinet-ip.hinet.net | - | High
+16 | [64.32.3.186](https://vuldb.com/?ip.64.32.3.186) | - | - | High
 17 | ... | ... | ... | ...
 
-There are 63 more IOC items available. Please use our online service to access the data.
+There are 66 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -104,9 +104,10 @@ ID | Type | Indicator | Confidence
 34 | File | `admin/admin.shtml` | High
 35 | File | `admin/shophelp.php` | High
 36 | File | `ajax-actions.php` | High
-37 | ... | ... | ...
+37 | File | `ajax/api/hook/decodeArguments` | High
+38 | ... | ... | ...
 
-There are 319 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 322 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

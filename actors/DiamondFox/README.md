@@ -68,33 +68,33 @@ ID | Type | Indicator | Confidence
 14 | File | `/spip.php` | Medium
 15 | File | `/tmp/phpglibccheck` | High
 16 | File | `/uncpath/` | Medium
-17 | File | `/usr/sbin/httpd` | High
-18 | File | `/var/tmp/sess_*` | High
-19 | File | `/webconsole/APIController` | High
-20 | File | `/wordpress/wp-admin/admin.php` | High
-21 | File | `action.php` | Medium
-22 | File | `actionphp/download.File.php` | High
-23 | File | `adclick.php` | Medium
-24 | File | `add_comment.php` | High
-25 | File | `admin-ajax.php` | High
-26 | File | `admin.jcomments.php` | High
-27 | File | `admin/admin.php` | High
-28 | File | `admin/conf_users_edit.php` | High
-29 | File | `admin/content.php` | High
-30 | File | `admin/index.php` | High
-31 | File | `admin/index.php?id=users/action=edit/user_id=1` | High
-32 | File | `admin_gallery.php3` | High
-33 | File | `affich.php` | Medium
-34 | File | `agent/Core/Controller/SendRequest.cpp` | High
-35 | File | `ajax/telemetry.php` | High
-36 | File | `akeyActivationLogin.do` | High
-37 | File | `album_portal.php` | High
-38 | File | `apache-auth.conf` | High
-39 | File | `api/src/main/java/org/openmrs/module/appointmentscheduling/AppointmentRequest.java` | High
-40 | File | `askapache-firefox-adsense.php` | High
+17 | File | `/upload` | Low
+18 | File | `/usr/sbin/httpd` | High
+19 | File | `/var/tmp/sess_*` | High
+20 | File | `/webconsole/APIController` | High
+21 | File | `/wordpress/wp-admin/admin.php` | High
+22 | File | `action.php` | Medium
+23 | File | `actionphp/download.File.php` | High
+24 | File | `adclick.php` | Medium
+25 | File | `add_comment.php` | High
+26 | File | `admin-ajax.php` | High
+27 | File | `admin.jcomments.php` | High
+28 | File | `admin/admin.php` | High
+29 | File | `admin/conf_users_edit.php` | High
+30 | File | `admin/content.php` | High
+31 | File | `admin/index.php` | High
+32 | File | `admin/index.php?id=users/action=edit/user_id=1` | High
+33 | File | `admin_gallery.php3` | High
+34 | File | `affich.php` | Medium
+35 | File | `agent/Core/Controller/SendRequest.cpp` | High
+36 | File | `ajax/telemetry.php` | High
+37 | File | `akeyActivationLogin.do` | High
+38 | File | `album_portal.php` | High
+39 | File | `apache-auth.conf` | High
+40 | File | `api/src/main/java/org/openmrs/module/appointmentscheduling/AppointmentRequest.java` | High
 41 | ... | ... | ...
 
-There are 350 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 356 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

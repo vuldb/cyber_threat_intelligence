@@ -54,11 +54,11 @@ ID | Type | Indicator | Confidence
 4 | File | `/goform/SetNetControlList` | High
 5 | File | `/src/chatbotapp/chatWindow.java` | High
 6 | File | `admin/categories_industry.php` | High
-7 | File | `admin/content/postcategory` | High
-8 | File | `Adminstrator/Users/Edit/` | High
+7 | File | `admin/class-woo-popup-admin.php` | High
+8 | File | `admin/content/postcategory` | High
 9 | ... | ... | ...
 
-There are 61 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 65 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

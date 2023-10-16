@@ -49,7 +49,8 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
 
@@ -80,28 +81,27 @@ ID | Type | Indicator | Confidence
 19 | File | `/dev/audio` | Medium
 20 | File | `/DS/LM_API/api/SelectionService/InsertQueryWithActiveRelationsReturnId` | High
 21 | File | `/DXR.axd` | Medium
-22 | File | `/en/blog-comment-4` | High
-23 | File | `/etc/crash` | Medium
-24 | File | `/etc/master.passwd` | High
-25 | File | `/etc/passwd` | Medium
-26 | File | `/etc/shadow` | Medium
-27 | File | `/EXCU_SHELL` | Medium
-28 | File | `/forum/away.php` | High
-29 | File | `/goform/addressNat` | High
-30 | File | `/goform/AddSysLogRule` | High
-31 | File | `/goform/aspForm` | High
-32 | File | `/goform/NatStaticSetting` | High
-33 | File | `/goform/WifiBasicSet` | High
-34 | File | `/h/` | Low
-35 | File | `/hocms/classes/Master.php?f=delete_collection` | High
-36 | File | `/index.php` | Medium
-37 | File | `/index.php?module=configuration/application` | High
-38 | File | `/index.php?route=extension/module/so_filter_shop_by/filter_data` | High
-39 | File | `/isomedia/box_funcs.c` | High
-40 | File | `/isomedia/meta.c` | High
-41 | ... | ... | ...
+22 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+23 | File | `/en/blog-comment-4` | High
+24 | File | `/etc/crash` | Medium
+25 | File | `/etc/master.passwd` | High
+26 | File | `/etc/passwd` | Medium
+27 | File | `/etc/shadow` | Medium
+28 | File | `/EXCU_SHELL` | Medium
+29 | File | `/forum/away.php` | High
+30 | File | `/goform/addressNat` | High
+31 | File | `/goform/AddSysLogRule` | High
+32 | File | `/goform/aspForm` | High
+33 | File | `/goform/NatStaticSetting` | High
+34 | File | `/goform/WifiBasicSet` | High
+35 | File | `/h/` | Low
+36 | File | `/hocms/classes/Master.php?f=delete_collection` | High
+37 | File | `/index.php` | Medium
+38 | File | `/index.php?module=configuration/application` | High
+39 | File | `/index.php?route=extension/module/so_filter_shop_by/filter_data` | High
+40 | ... | ... | ...
 
-There are 358 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 348 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
-* [IT](https://vuldb.com/?country.it)
+* [JP](https://vuldb.com/?country.jp)
 * ...
 
-There are 8 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -35,12 +35,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-425 | Pathname Traversal | High
-2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94 | Cross Site Scripting | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 15 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -48,20 +48,28 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/api/baskets/{name}` | High
-2 | File | `/api/wechat/app_auth` | High
-3 | File | `/cas/logout` | Medium
-4 | File | `/cgi-bin/wlogin.cgi` | High
-5 | File | `/classes/Master.php?f=delete_item` | High
-6 | File | `/classes/Master.php?f=delete_service` | High
-7 | File | `/classes/Master.php?f=save_service` | High
-8 | File | `/dayrui/My/Config/Install.txt` | High
-9 | File | `/dialog/select_media.php` | High
-10 | File | `/DXR.axd` | Medium
-11 | File | `/etc/quagga` | Medium
-12 | ... | ... | ...
+1 | File | `/.env` | Low
+2 | File | `/admin/project/update/2` | High
+3 | File | `/api/baskets/{name}` | High
+4 | File | `/api/wechat/app_auth` | High
+5 | File | `/books` | Low
+6 | File | `/cas/logout` | Medium
+7 | File | `/cgi-bin/wlogin.cgi` | High
+8 | File | `/classes/Master.php?f=delete_item` | High
+9 | File | `/classes/Master.php?f=delete_service` | High
+10 | File | `/classes/Master.php?f=save_service` | High
+11 | File | `/controller/OnlinePreviewController.java` | High
+12 | File | `/dayrui/My/Config/Install.txt` | High
+13 | File | `/debug/pprof` | Medium
+14 | File | `/designer/add/layout` | High
+15 | File | `/dialog/select_media.php` | High
+16 | File | `/DXR.axd` | Medium
+17 | File | `/etc/quagga` | Medium
+18 | File | `/filemanager/upload/drop` | High
+19 | File | `/group1/uploa` | High
+20 | ... | ... | ...
 
-There are 88 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 169 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

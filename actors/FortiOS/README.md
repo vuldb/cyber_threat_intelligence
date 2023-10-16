@@ -58,23 +58,23 @@ ID | Type | Indicator | Confidence
 8 | File | `/admin/users.php?source=edit_user&id=1` | High
 9 | File | `/administrator/components/table_manager/` | High
 10 | File | `/api/trackedEntityInstances` | High
-11 | File | `/apply_noauth.cgi` | High
-12 | File | `/bin/webs` | Medium
-13 | File | `/cgi-bin/luci/rc` | High
-14 | File | `/cgi-bin/portal` | High
-15 | File | `/cgi-bin/wlogin.cgi` | High
-16 | File | `/common/info.cgi` | High
-17 | File | `/crmeb/crmeb/services/UploadService.php` | High
-18 | File | `/file_manager/login.php` | High
-19 | File | `/Items/*/RemoteImages/Download` | High
-20 | File | `/login` | Low
-21 | File | `/osms/assets/plugins/jquery-validation-1.11.1/demo/captcha/index.php` | High
-22 | File | `/philosophy/admin/login.php` | High
-23 | File | `/philosophy/admin/user/controller.php?action=add` | High
-24 | File | `/secure/QueryComponent!Default.jspa` | High
+11 | File | `/api/v1/terminal/sessions/?limit=1` | High
+12 | File | `/apply_noauth.cgi` | High
+13 | File | `/bin/webs` | Medium
+14 | File | `/cgi-bin/luci/rc` | High
+15 | File | `/cgi-bin/portal` | High
+16 | File | `/cgi-bin/wlogin.cgi` | High
+17 | File | `/common/info.cgi` | High
+18 | File | `/crmeb/crmeb/services/UploadService.php` | High
+19 | File | `/file_manager/login.php` | High
+20 | File | `/Items/*/RemoteImages/Download` | High
+21 | File | `/login` | Low
+22 | File | `/osms/assets/plugins/jquery-validation-1.11.1/demo/captcha/index.php` | High
+23 | File | `/philosophy/admin/login.php` | High
+24 | File | `/philosophy/admin/user/controller.php?action=add` | High
 25 | ... | ... | ...
 
-There are 210 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 214 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -49,20 +49,21 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.DS_Store` | Medium
 2 | File | `/api/addusers` | High
-3 | File | `/ndxzstudio/install.php?p=2` | High
-4 | File | `/public/login.htm` | High
-5 | File | `/rom-0` | Low
-6 | File | `/tmp/csman/0` | Medium
-7 | File | `/tmp/phpglibccheck` | High
-8 | File | `/uncpath/` | Medium
-9 | File | `/websocket/exec` | High
-10 | File | `adclick.php` | Medium
-11 | File | `add.php` | Low
-12 | File | `add_comment.php` | High
-13 | File | `admin/adminsignin.html` | High
-14 | ... | ... | ...
+3 | File | `/forum/away.php` | High
+4 | File | `/ndxzstudio/install.php?p=2` | High
+5 | File | `/public/login.htm` | High
+6 | File | `/rom-0` | Low
+7 | File | `/tmp/csman/0` | Medium
+8 | File | `/tmp/phpglibccheck` | High
+9 | File | `/uncpath/` | Medium
+10 | File | `/websocket/exec` | High
+11 | File | `adclick.php` | Medium
+12 | File | `add.php` | Low
+13 | File | `add_comment.php` | High
+14 | File | `admin/adminsignin.html` | High
+15 | ... | ... | ...
 
-There are 106 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 118 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

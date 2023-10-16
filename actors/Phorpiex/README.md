@@ -92,9 +92,10 @@ ID | Type | Indicator | Confidence
 9 | File | `/service/upload` | High
 10 | File | `/wp-admin/admin-ajax.php` | High
 11 | File | `adclick.php` | Medium
-12 | ... | ... | ...
+12 | File | `admin.php` | Medium
+13 | ... | ... | ...
 
-There are 97 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 100 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

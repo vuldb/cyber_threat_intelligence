@@ -36,13 +36,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22, CWE-23, CWE-425 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80, CWE-86 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -52,39 +52,37 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/admin_admin.php` | High
 2 | File | `/admin/ajax.php` | High
-3 | File | `/admin/bookings/manage_booking.php` | High
-4 | File | `/admin/bookings/view_details.php` | High
-5 | File | `/admin/index.php` | High
-6 | File | `/admin/inquiries/view_inquiry.php` | High
-7 | File | `/admin/user/manage_user.php` | High
-8 | File | `/ajax/myshop` | Medium
-9 | File | `/api/baskets/{name}` | High
-10 | File | `/bin/ate` | Medium
-11 | File | `/bin/webs` | Medium
-12 | File | `/boafrm/formFilter` | High
-13 | File | `/boafrm/formHomeWlanSetup` | High
-14 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
-15 | File | `/cgi-bin/ping.cgi` | High
-16 | File | `/classes/Master.php` | High
-17 | File | `/classes/Master.php?f=delete_item` | High
-18 | File | `/classes/Master.php?f=delete_service` | High
-19 | File | `/classes/Master.php?f=save_course` | High
-20 | File | `/collection/all` | High
-21 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
-22 | File | `/dosen/data` | Medium
-23 | File | `/ecommerce/support_ticket` | High
-24 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-25 | File | `/Enclave.cpp` | Medium
-26 | File | `/file_manager/admin/save_user.php` | High
-27 | File | `/get-artifact` | High
-28 | File | `/goForm/aspForm` | High
-29 | File | `/goform/formTcpipSetup` | High
-30 | File | `/inc/jquery/uploadify/uploadify.php` | High
-31 | File | `/index.php/archives/1/comment` | High
-32 | File | `/jerry-core/parser/js/js-lexer.c` | High
-33 | ... | ... | ...
+3 | File | `/admin/bookings/view_details.php` | High
+4 | File | `/admin/index.php` | High
+5 | File | `/ajax/myshop` | Medium
+6 | File | `/api/baskets/{name}` | High
+7 | File | `/bin/ate` | Medium
+8 | File | `/bin/webs` | Medium
+9 | File | `/boafrm/formFilter` | High
+10 | File | `/boafrm/formHomeWlanSetup` | High
+11 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
+12 | File | `/cgi-bin/ping.cgi` | High
+13 | File | `/classes/Master.php` | High
+14 | File | `/classes/Master.php?f=delete_item` | High
+15 | File | `/classes/Master.php?f=delete_service` | High
+16 | File | `/classes/Master.php?f=save_course` | High
+17 | File | `/collection/all` | High
+18 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
+19 | File | `/dosen/data` | Medium
+20 | File | `/ecommerce/support_ticket` | High
+21 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+22 | File | `/Enclave.cpp` | Medium
+23 | File | `/file_manager/admin/save_user.php` | High
+24 | File | `/get-artifact` | High
+25 | File | `/goForm/aspForm` | High
+26 | File | `/goform/formTcpipSetup` | High
+27 | File | `/inc/jquery/uploadify/uploadify.php` | High
+28 | File | `/index.php/archives/1/comment` | High
+29 | File | `/jerry-core/parser/js/js-lexer.c` | High
+30 | File | `/jerry-core/parser/js/js-parser-statm.c` | High
+31 | ... | ... | ...
 
-There are 281 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 267 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

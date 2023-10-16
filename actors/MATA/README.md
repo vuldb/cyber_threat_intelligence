@@ -49,23 +49,24 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/dl_sendmail.php` | High
-2 | File | `/api/v2/cli/commands` | High
-3 | File | `/DXR.axd` | Medium
-4 | File | `/forum/away.php` | High
-5 | File | `/out.php` | Medium
-6 | File | `/owa/auth/logon.aspx` | High
-7 | File | `/phppath/php` | Medium
-8 | File | `/spip.php` | Medium
-9 | File | `/systemrw/` | Medium
-10 | File | `/zm/index.php` | High
-11 | File | `adclick.php` | Medium
-12 | File | `admin.jcomments.php` | High
-13 | File | `application/modules/admin/views/ecommerce/products.php` | High
-14 | File | `base/ErrorHandler.php` | High
-15 | File | `blog.php` | Medium
-16 | ... | ... | ...
+2 | File | `/api/baskets/{name}` | High
+3 | File | `/api/v2/cli/commands` | High
+4 | File | `/DXR.axd` | Medium
+5 | File | `/forum/away.php` | High
+6 | File | `/out.php` | Medium
+7 | File | `/owa/auth/logon.aspx` | High
+8 | File | `/phppath/php` | Medium
+9 | File | `/spip.php` | Medium
+10 | File | `/systemrw/` | Medium
+11 | File | `/zm/index.php` | High
+12 | File | `adclick.php` | Medium
+13 | File | `admin.jcomments.php` | High
+14 | File | `application/modules/admin/views/ecommerce/products.php` | High
+15 | File | `base/ErrorHandler.php` | High
+16 | File | `blog.php` | Medium
+17 | ... | ... | ...
 
-There are 132 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 136 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

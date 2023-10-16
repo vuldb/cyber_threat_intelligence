@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 22 more country items available. Please use our online service to access the data.
+There are 20 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -54,11 +54,11 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -75,11 +75,11 @@ ID | Type | Indicator | Confidence
 7 | File | `/admin/sys_sql_query.php` | High
 8 | File | `/admin/userprofile.php` | High
 9 | File | `/api/baskets/{name}` | High
-10 | File | `/api/upload` | Medium
-11 | File | `/APR/login.php` | High
+10 | File | `/api/download` | High
+11 | File | `/api/upload` | Medium
 12 | File | `/bitrix/admin/ldap_server_edit.php` | High
-13 | File | `/cgi-bin/luci/api/wireless` | High
-14 | File | `/cgi-bin/wapopen` | High
+13 | File | `/category.php` | High
+14 | File | `/cgi-bin/luci/api/wireless` | High
 15 | File | `/company/store` | High
 16 | File | `/Content/Template/root/reverse-shell.aspx` | High
 17 | File | `/Controller/Ajaxfileupload.ashx` | High
@@ -97,30 +97,29 @@ ID | Type | Indicator | Confidence
 29 | File | `/jobinfo/` | Medium
 30 | File | `/load.php` | Medium
 31 | File | `/Moosikay/order.php` | High
-32 | File | `/mygym/admin/index.php?view_exercises` | High
-33 | File | `/opac/Actions.php?a=login` | High
-34 | File | `/php-opos/index.php` | High
-35 | File | `/PreviewHandler.ashx` | High
-36 | File | `/public/launchNewWindow.jsp` | High
-37 | File | `/recipe-result` | High
-38 | File | `/register.do` | Medium
-39 | File | `/reservation/add_message.php` | High
-40 | File | `/Service/ImageStationDataService.asmx` | High
-41 | File | `/spip.php` | Medium
-42 | File | `/src/chatbotapp/chatWindow.java` | High
-43 | File | `/student/bookdetails.php` | High
-44 | File | `/tmp/phpglibccheck` | High
-45 | File | `/uploads/exam_question/` | High
-46 | File | `/user/ticket/create` | High
-47 | File | `/user/updatePwd` | High
+32 | File | `/opac/Actions.php?a=login` | High
+33 | File | `/PreviewHandler.ashx` | High
+34 | File | `/public/launchNewWindow.jsp` | High
+35 | File | `/recipe-result` | High
+36 | File | `/register.do` | Medium
+37 | File | `/reservation/add_message.php` | High
+38 | File | `/Service/ImageStationDataService.asmx` | High
+39 | File | `/spip.php` | Medium
+40 | File | `/src/chatbotapp/chatWindow.java` | High
+41 | File | `/student/bookdetails.php` | High
+42 | File | `/SystemManage/User/GetGridJson?_search=false&nd=1680855479750&rows=50&page=1&sidx=F_CreatorTime+desc&sord=asc` | High
+43 | File | `/tmp/phpglibccheck` | High
+44 | File | `/uploads/exam_question/` | High
+45 | File | `/user/ticket/create` | High
+46 | File | `/user/updatePwd` | High
+47 | File | `/UserSelfServiceSettings.jsp` | High
 48 | File | `/var/lib/docker/<remapping>` | High
 49 | File | `/wp-admin/admin-ajax.php` | High
 50 | File | `/xxl-job-admin/user/add` | High
 51 | File | `a-forms.php` | Medium
-52 | File | `actions.php` | Medium
-53 | ... | ... | ...
+52 | ... | ... | ...
 
-There are 459 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 457 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

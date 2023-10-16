@@ -60,14 +60,15 @@ ID | Type | Indicator | Confidence
 3 | File | `/boafrm/formFilter` | High
 4 | File | `/forum/away.php` | High
 5 | File | `/index.php` | Medium
-6 | File | `/wp-admin/admin-ajax.php` | High
-7 | File | `admincp/auth/secure.php` | High
-8 | File | `announcement.php` | High
-9 | File | `attachment.php` | High
-10 | File | `auth-gss2.c` | Medium
-11 | ... | ... | ...
+6 | File | `/search` | Low
+7 | File | `/wp-admin/admin-ajax.php` | High
+8 | File | `admincp/auth/secure.php` | High
+9 | File | `announcement.php` | High
+10 | File | `attachment.php` | High
+11 | File | `auth-gss2.c` | Medium
+12 | ... | ... | ...
 
-There are 87 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 88 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

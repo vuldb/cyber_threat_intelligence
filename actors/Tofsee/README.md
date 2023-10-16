@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [NL](https://vuldb.com/?country.nl)
 * ...
 
-There are 13 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -169,7 +169,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-28 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
@@ -177,7 +177,7 @@ ID | Technique | Weakness | Description | Confidence
 6 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 7 | ... | ... | ... | ...
 
-There are 23 more TTP items available. Please use our online service to access the data.
+There are 24 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -208,14 +208,14 @@ ID | Type | Indicator | Confidence
 21 | File | `/cgi-bin` | Medium
 22 | File | `/cgi-bin/wlogin.cgi` | High
 23 | File | `/College/admin/teacher.php` | High
-24 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
-25 | File | `/dcim/rack-roles/` | High
-26 | File | `/debug/pprof` | Medium
-27 | File | `/env` | Low
-28 | File | `/etc/hosts` | Medium
-29 | File | `/forum/away.php` | High
-30 | File | `/goform/aspForm` | High
-31 | File | `/goform/delAd` | High
+24 | File | `/Content/Template/root/reverse-shell.aspx` | High
+25 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
+26 | File | `/dashboard/add-blog.php` | High
+27 | File | `/dcim/rack-roles/` | High
+28 | File | `/debug/pprof` | Medium
+29 | File | `/env` | Low
+30 | File | `/forum/away.php` | High
+31 | File | `/goform/aspForm` | High
 32 | File | `/goform/SysToolChangePwd` | High
 33 | File | `/group1/uploa` | High
 34 | File | `/inc/topBarNav.php` | High
@@ -227,15 +227,13 @@ ID | Type | Indicator | Confidence
 40 | File | `/php-sms/admin/?page=user/manage_user` | High
 41 | File | `/reservation/add_message.php` | High
 42 | File | `/resources//../` | High
-43 | File | `/spip.php` | Medium
-44 | File | `/squashfs-root/etc_ro/custom.conf` | High
-45 | File | `/staff/edit_book_details.php` | High
-46 | File | `/system/user/modules/mod_users/controller.php` | High
-47 | File | `/tmp` | Low
-48 | File | `/user/profile` | High
-49 | ... | ... | ...
+43 | File | `/scripts/unlock_tasks.php` | High
+44 | File | `/spip.php` | Medium
+45 | File | `/squashfs-root/etc_ro/custom.conf` | High
+46 | File | `/staff/edit_book_details.php` | High
+47 | ... | ... | ...
 
-There are 422 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 410 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

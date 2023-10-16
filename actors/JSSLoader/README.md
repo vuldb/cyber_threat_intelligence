@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with JSSLoader:
 
-* [US](https://vuldb.com/?country.us)
 * [LU](https://vuldb.com/?country.lu)
+* [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 8 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -39,15 +39,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-24, CWE-36 | Pathname Traversal | High
+1 | T1006 | CWE-22, CWE-24, CWE-36, CWE-425 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | T1068 | CWE-250, CWE-264, CWE-267, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
-7 | ... | ... | ... | ...
+6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -56,18 +55,18 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/admin/ajax.php?action=delete_window` | High
-3 | File | `/admin/assign/assign.php` | High
-4 | File | `/admin/bookings/view_details.php` | High
-5 | File | `/admin/maintenance/manage_category.php` | High
-6 | File | `/admin/maintenance/view_designation.php` | High
-7 | File | `/admin/mechanics/manage_mechanic.php` | High
-8 | File | `/admin/modal_add_product.php` | High
-9 | File | `/admin/reg.php` | High
-10 | File | `/admin/service.php` | High
-11 | File | `/admin/service_requests/manage_inventory.php` | High
-12 | File | `/admin/sys_sql_query.php` | High
-13 | File | `/Ant_Suxin.php` | High
+2 | File | `/admin/assign/assign.php` | High
+3 | File | `/admin/bookings/view_details.php` | High
+4 | File | `/admin/maintenance/manage_category.php` | High
+5 | File | `/admin/maintenance/view_designation.php` | High
+6 | File | `/admin/mechanics/manage_mechanic.php` | High
+7 | File | `/admin/modal_add_product.php` | High
+8 | File | `/admin/reg.php` | High
+9 | File | `/admin/service.php` | High
+10 | File | `/admin/service_requests/manage_inventory.php` | High
+11 | File | `/admin/sys_sql_query.php` | High
+12 | File | `/Ant_Suxin.php` | High
+13 | File | `/api/thumbnail` | High
 14 | File | `/api /v3/auth` | High
 15 | File | `/apply.cgi` | Medium
 16 | File | `/App_Resource/UEditor/server/upload.aspx` | High
@@ -84,21 +83,20 @@ ID | Type | Indicator | Confidence
 27 | File | `/classes/Users.php` | High
 28 | File | `/collection/all` | High
 29 | File | `/company/store` | High
-30 | File | `/controllers/Blocks.php` | High
-31 | File | `/dcim/rack/` | Medium
-32 | File | `/debug/pprof` | Medium
-33 | File | `/dede/tpl.php` | High
-34 | File | `/download` | Medium
-35 | File | `/E-mobile/App/System/File/downfile.php` | High
-36 | File | `/EditEventTypes.php` | High
-37 | File | `/Electron/download` | High
-38 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-39 | File | `/file/upload/1` | High
-40 | File | `/gaia-job-admin/user/add` | High
-41 | File | `/goform/aspForm` | High
-42 | ... | ... | ...
+30 | File | `/config/getuser` | High
+31 | File | `/config/php.ini` | High
+32 | File | `/controllers/Blocks.php` | High
+33 | File | `/dcim/rack/` | Medium
+34 | File | `/debug/pprof` | Medium
+35 | File | `/dede/tpl.php` | High
+36 | File | `/download` | Medium
+37 | File | `/E-mobile/App/System/File/downfile.php` | High
+38 | File | `/EditEventTypes.php` | High
+39 | File | `/Electron/download` | High
+40 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+41 | ... | ... | ...
 
-There are 360 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 350 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

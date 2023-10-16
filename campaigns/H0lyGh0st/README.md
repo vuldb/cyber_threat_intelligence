@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 10 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -60,49 +60,50 @@ ID | Type | Indicator | Confidence
 3 | File | `/api/baskets/{name}` | High
 4 | File | `/api/gen/clients/{language}` | High
 5 | File | `/bin/login` | Medium
-6 | File | `/cgi-bin/wlogin.cgi` | High
-7 | File | `/config/myfield/test.php` | High
-8 | File | `/debug/pprof` | Medium
-9 | File | `/ecshop/admin/template.php` | High
-10 | File | `/file/upload/1` | High
-11 | File | `/forum/away.php` | High
-12 | File | `/forum/PostPrivateMessage` | High
-13 | File | `/goform/set_LimitClient_cfg` | High
-14 | File | `/home/www/cgi-bin/login.cgi` | High
-15 | File | `/hss/admin/?page=products/view_product` | High
-16 | File | `/index.php?app=main&func=passport&action=login` | High
-17 | File | `/multi-vendor-shopping-script/product-list.php` | High
-18 | File | `/net-banking/customer_transactions.php` | High
-19 | File | `/obs/book.php` | High
-20 | File | `/ossn/administrator/com_installer` | High
-21 | File | `/owa/auth/logon.aspx` | High
-22 | File | `/pms/update_user.php?user_id=1` | High
-23 | File | `/preview.php` | Medium
-24 | File | `/requests.php` | High
-25 | File | `/secure/ViewCollectors` | High
-26 | File | `/spip.php` | Medium
-27 | File | `/sqlite3_aflpp/shell.c` | High
-28 | File | `/squashfs-root/etc_ro/custom.conf` | High
-29 | File | `/sre/params.php` | High
-30 | File | `/SVFE2/pages/feegroups/service_group.jsf` | High
-31 | File | `/sys/user/querySysUser?username=admin` | High
-32 | File | `/uncpath/` | Medium
-33 | File | `/user/upload/upload` | High
-34 | File | `/Users` | Low
-35 | File | `/usr/local/www/csrf/csrf-magic.php` | High
-36 | File | `/vendor` | Low
-37 | File | `AccessibilityManagerService.java` | High
-38 | File | `accountrecoveryendpoint/recoverpassword.do` | High
-39 | File | `adclick.php` | Medium
-40 | File | `add_contestant.php` | High
-41 | File | `admin.php` | Medium
-42 | File | `admin/edit_category.php` | High
-43 | File | `admin/index.php` | High
-44 | File | `admin/make_payments.php` | High
-45 | File | `admin/_cmdstat.jsp` | High
-46 | ... | ... | ...
+6 | File | `/bin/mini_upnpd` | High
+7 | File | `/cgi-bin/wlogin.cgi` | High
+8 | File | `/config/myfield/test.php` | High
+9 | File | `/debug/pprof` | Medium
+10 | File | `/ecshop/admin/template.php` | High
+11 | File | `/file/upload/1` | High
+12 | File | `/forum/away.php` | High
+13 | File | `/forum/PostPrivateMessage` | High
+14 | File | `/goform/set_LimitClient_cfg` | High
+15 | File | `/h/autoSaveDraft` | High
+16 | File | `/h/search?action` | High
+17 | File | `/home/www/cgi-bin/login.cgi` | High
+18 | File | `/hss/admin/?page=products/view_product` | High
+19 | File | `/importexport.php` | High
+20 | File | `/index.php?app=main&func=passport&action=login` | High
+21 | File | `/multi-vendor-shopping-script/product-list.php` | High
+22 | File | `/net-banking/customer_transactions.php` | High
+23 | File | `/obs/book.php` | High
+24 | File | `/ossn/administrator/com_installer` | High
+25 | File | `/owa/auth/logon.aspx` | High
+26 | File | `/pms/update_user.php?user_id=1` | High
+27 | File | `/preview.php` | Medium
+28 | File | `/requests.php` | High
+29 | File | `/secure/ViewCollectors` | High
+30 | File | `/spip.php` | Medium
+31 | File | `/sqlite3_aflpp/shell.c` | High
+32 | File | `/squashfs-root/etc_ro/custom.conf` | High
+33 | File | `/SVFE2/pages/feegroups/service_group.jsf` | High
+34 | File | `/sys/user/querySysUser?username=admin` | High
+35 | File | `/uncpath/` | Medium
+36 | File | `/user/upload/upload` | High
+37 | File | `/Users` | Low
+38 | File | `/usr/local/www/csrf/csrf-magic.php` | High
+39 | File | `/vendor` | Low
+40 | File | `AccessibilityManagerService.java` | High
+41 | File | `accountrecoveryendpoint/recoverpassword.do` | High
+42 | File | `adclick.php` | Medium
+43 | File | `add_contestant.php` | High
+44 | File | `admin.php` | Medium
+45 | File | `admin/edit_category.php` | High
+46 | File | `admin/index.php` | High
+47 | ... | ... | ...
 
-There are 402 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 408 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -31,12 +31,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
-1 | [54.180.27.29](https://vuldb.com/?ip.54.180.27.29) | ec2-54-180-27-29.ap-northeast-2.compute.amazonaws.com | [SparkRAT](https://vuldb.com/?actor.sparkrat) | Medium
-2 | [66.42.103.222](https://vuldb.com/?ip.66.42.103.222) | 66.42.103.222.vultrusercontent.com | [SparklingGoblin](https://vuldb.com/?actor.sparklinggoblin) | High
-3 | [80.85.155.80](https://vuldb.com/?ip.80.85.155.80) | svr4.pcloud.ru.g.kwwwy.com | [SparklingGoblin](https://vuldb.com/?actor.sparklinggoblin) | High
+1 | [43.140.252.169](https://vuldb.com/?ip.43.140.252.169) | - | [SparkRAT](https://vuldb.com/?actor.sparkrat) | High
+2 | [54.180.27.29](https://vuldb.com/?ip.54.180.27.29) | ec2-54-180-27-29.ap-northeast-2.compute.amazonaws.com | [SparkRAT](https://vuldb.com/?actor.sparkrat) | Medium
+3 | [66.42.103.222](https://vuldb.com/?ip.66.42.103.222) | 66.42.103.222.vultrusercontent.com | [SparklingGoblin](https://vuldb.com/?actor.sparklinggoblin) | High
 4 | ... | ... | ... | ...
 
-There are 5 more IOC items available. Please use our online service to access the data.
+There are 6 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -84,7 +84,7 @@ ID | Type | Indicator | Confidence
 24 | File | `auth_changepassword.php` | High
 25 | ... | ... | ...
 
-There are 208 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 209 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -93,6 +93,7 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://asec.ahnlab.com/en/53267/
 * https://github.com/eset/malware-ioc/tree/master/sparklinggoblin
 * https://twitter.com/suyog41/status/1655524692164214784
+* https://twitter.com/suyog41/status/1699438327508734306
 * https://unit42.paloaltonetworks.com/molerats-delivers-spark-backdoor/
 
 ## Literature

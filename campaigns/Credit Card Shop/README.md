@@ -60,7 +60,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -95,27 +95,27 @@ ID | Type | Indicator | Confidence
 25 | File | `/confirm` | Medium
 26 | File | `/Content/Template/root/reverse-shell.aspx` | High
 27 | File | `/context/%2e/WEB-INF/web.xml` | High
-28 | File | `/debug/pprof` | Medium
-29 | File | `/env` | Low
-30 | File | `/etc/hosts` | Medium
-31 | File | `/forum/away.php` | High
-32 | File | `/goform/setmac` | High
-33 | File | `/goform/wizard_end` | High
-34 | File | `/group1/uploa` | High
-35 | File | `/manage-apartment.php` | High
-36 | File | `/medicines/profile.php` | High
-37 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-38 | File | `/out.php` | Medium
-39 | File | `/pages/apply_vacancy.php` | High
-40 | File | `/pharmacy-sales-and-inventory-system/manage_user.php` | High
-41 | File | `/php-sms/admin/?page=user/manage_user` | High
-42 | File | `/pms/update_patient.php` | High
-43 | File | `/preview.php` | Medium
-44 | File | `/proxy` | Low
-45 | File | `/reservation/add_message.php` | High
+28 | File | `/dashboard/add-blog.php` | High
+29 | File | `/debug/pprof` | Medium
+30 | File | `/env` | Low
+31 | File | `/etc/hosts` | Medium
+32 | File | `/forum/away.php` | High
+33 | File | `/goform/setmac` | High
+34 | File | `/goform/wizard_end` | High
+35 | File | `/group1/uploa` | High
+36 | File | `/manage-apartment.php` | High
+37 | File | `/medicines/profile.php` | High
+38 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+39 | File | `/out.php` | Medium
+40 | File | `/pages/apply_vacancy.php` | High
+41 | File | `/pharmacy-sales-and-inventory-system/manage_user.php` | High
+42 | File | `/php-sms/admin/?page=user/manage_user` | High
+43 | File | `/pms/update_patient.php` | High
+44 | File | `/preview.php` | Medium
+45 | File | `/proxy` | Low
 46 | ... | ... | ...
 
-There are 395 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 403 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

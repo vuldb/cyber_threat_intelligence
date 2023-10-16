@@ -38,9 +38,10 @@ ID | IP address | Hostname | Campaign | Confidence
 15 | [37.120.206.71](https://vuldb.com/?ip.37.120.206.71) | - | - | High
 16 | [37.120.206.84](https://vuldb.com/?ip.37.120.206.84) | - | - | High
 17 | [37.120.206.91](https://vuldb.com/?ip.37.120.206.91) | - | - | High
-18 | ... | ... | ... | ...
+18 | [37.120.206.95](https://vuldb.com/?ip.37.120.206.95) | - | - | High
+19 | ... | ... | ... | ...
 
-There are 67 more IOC items available. Please use our online service to access the data.
+There are 70 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -56,7 +57,7 @@ ID | Technique | Weakness | Description | Confidence
 6 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 7 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 23 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -65,58 +66,57 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.../gogo/` | Medium
-2 | File | `.htaccess` | Medium
-3 | File | `/+CSCOE+/logon.html` | High
-4 | File | `/about.php` | Medium
-5 | File | `/addnews.html` | High
-6 | File | `/admin` | Low
-7 | File | `/admin.add` | Medium
-8 | File | `/admin/add_exercises.php` | High
-9 | File | `/admin/admin.php?module=admin_access_group_edit&aagID` | High
-10 | File | `/admin/admin.php?module=admin_group_edit&agID` | High
-11 | File | `/admin/edit.php` | High
-12 | File | `/admin/index.php` | High
-13 | File | `/api/v2/labels/` | High
-14 | File | `/category.php` | High
-15 | File | `/category_view.php` | High
-16 | File | `/cimom` | Low
-17 | File | `/ci_hms/search` | High
-18 | File | `/dashboard/add-portfolio.php` | High
-19 | File | `/dashboard/updatelogo.php` | High
-20 | File | `/debug/pprof` | Medium
-21 | File | `/dev/snd/seq` | Medium
-22 | File | `/etc/controller-agent/agent.conf` | High
-23 | File | `/index.php` | Medium
-24 | File | `/info.xml` | Medium
-25 | File | `/jeecg-boot/sys/user/queryUserByDepId` | High
-26 | File | `/login.php` | Medium
-27 | File | `/manage-apartment.php` | High
-28 | File | `/members/view_member.php` | High
-29 | File | `/mgmt/tm/util/bash` | High
-30 | File | `/mygym/admin/index.php?view_exercises` | High
-31 | File | `/out.php` | Medium
-32 | File | `/owa/auth/logon.aspx` | High
-33 | File | `/php-jms/review_se_result.php` | High
-34 | File | `/plesk-site-preview/` | High
-35 | File | `/plugins/servlet/gadgets/makeRequest` | High
-36 | File | `/pms/admin/crimes/manage_crime.php` | High
-37 | File | `/ptms/classes/Users.php` | High
-38 | File | `/REBOOTSYSTEM` | High
-39 | File | `/rest/project-templates/1.0/createshared` | High
-40 | File | `/secure/admin/ImporterFinishedPage.jspa` | High
-41 | File | `/secure/QueryComponent!Default.jspa` | High
-42 | File | `/see_more_details.php` | High
-43 | File | `/sitecore/shell/Invoke.aspx` | High
-44 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
-45 | File | `/tmp` | Low
-46 | File | `/tmp/csman/0` | Medium
-47 | File | `/uncpath/` | Medium
-48 | File | `/usr/bin/at` | Medium
-49 | File | `/v3/credentials` | High
-50 | File | `/var/run/jboss-eap/` | High
-51 | ... | ... | ...
+2 | File | `/+CSCOE+/logon.html` | High
+3 | File | `/about.php` | Medium
+4 | File | `/addnews.html` | High
+5 | File | `/admin` | Low
+6 | File | `/admin.add` | Medium
+7 | File | `/admin/add_exercises.php` | High
+8 | File | `/admin/admin.php?module=admin_access_group_edit&aagID` | High
+9 | File | `/admin/admin.php?module=admin_group_edit&agID` | High
+10 | File | `/admin/edit.php` | High
+11 | File | `/api/v2/labels/` | High
+12 | File | `/category.php` | High
+13 | File | `/cgi/loginDefaultUser` | High
+14 | File | `/cimom` | Low
+15 | File | `/ci_hms/search` | High
+16 | File | `/dashboard/add-portfolio.php` | High
+17 | File | `/dashboard/updatelogo.php` | High
+18 | File | `/debug/pprof` | Medium
+19 | File | `/dev/snd/seq` | Medium
+20 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+21 | File | `/etc/controller-agent/agent.conf` | High
+22 | File | `/index.php` | Medium
+23 | File | `/info.xml` | Medium
+24 | File | `/jeecg-boot/sys/user/queryUserByDepId` | High
+25 | File | `/login.php` | Medium
+26 | File | `/manage-apartment.php` | High
+27 | File | `/members/view_member.php` | High
+28 | File | `/mgmt/tm/util/bash` | High
+29 | File | `/mygym/admin/index.php?view_exercises` | High
+30 | File | `/out.php` | Medium
+31 | File | `/owa/auth/logon.aspx` | High
+32 | File | `/php-jms/review_se_result.php` | High
+33 | File | `/plesk-site-preview/` | High
+34 | File | `/plugins/servlet/gadgets/makeRequest` | High
+35 | File | `/pms/admin/crimes/manage_crime.php` | High
+36 | File | `/ptms/classes/Users.php` | High
+37 | File | `/REBOOTSYSTEM` | High
+38 | File | `/rest/project-templates/1.0/createshared` | High
+39 | File | `/secure/admin/ImporterFinishedPage.jspa` | High
+40 | File | `/secure/QueryComponent!Default.jspa` | High
+41 | File | `/see_more_details.php` | High
+42 | File | `/sitecore/shell/Invoke.aspx` | High
+43 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
+44 | File | `/tmp` | Low
+45 | File | `/tmp/csman/0` | Medium
+46 | File | `/uncpath/` | Medium
+47 | File | `/usr/bin/at` | Medium
+48 | File | `/v3/credentials` | High
+49 | File | `/var/run/jboss-eap/` | High
+50 | ... | ... | ...
 
-There are 444 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 435 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

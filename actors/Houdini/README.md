@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 6 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -21,12 +21,13 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [45.90.222.125](https://vuldb.com/?ip.45.90.222.125) | 45-90-222-125-hostedby.bcr.host | - | High
-2 | [62.197.136.69](https://vuldb.com/?ip.62.197.136.69) | - | - | High
-3 | [79.134.225.91](https://vuldb.com/?ip.79.134.225.91) | - | - | High
-4 | ... | ... | ... | ...
+1 | [2.59.254.111](https://vuldb.com/?ip.2.59.254.111) | - | - | High
+2 | [45.90.222.125](https://vuldb.com/?ip.45.90.222.125) | 45-90-222-125-hostedby.bcr.host | - | High
+3 | [45.90.222.131](https://vuldb.com/?ip.45.90.222.131) | 45-90-222-131-hostedby.bcr.host | - | High
+4 | [62.197.136.69](https://vuldb.com/?ip.62.197.136.69) | - | - | High
+5 | ... | ... | ... | ...
 
-There are 11 more IOC items available. Please use our online service to access the data.
+There are 14 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -34,12 +35,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
 2 | T1059 | CWE-94 | Cross Site Scripting | High
 3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 9 more TTP items available. Please use our online service to access the data.
+There are 10 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -47,17 +48,18 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/maintenance/view_designation.php` | High
-2 | File | `/debug/pprof` | Medium
-3 | File | `/etc/sudoers` | Medium
-4 | File | `/forum/away.php` | High
-5 | File | `/showfile.php` | High
-6 | File | `/uncpath/` | Medium
-7 | File | `adclick.php` | Medium
-8 | File | `admin/abc.php` | High
-9 | ... | ... | ...
+1 | File | `/Admin/login.php` | High
+2 | File | `/admin/maintenance/view_designation.php` | High
+3 | File | `/debug/pprof` | Medium
+4 | File | `/etc/sudoers` | Medium
+5 | File | `/forum/away.php` | High
+6 | File | `/showfile.php` | High
+7 | File | `/uncpath/` | Medium
+8 | File | `adclick.php` | Medium
+9 | File | `admin-ajax.php` | High
+10 | ... | ... | ...
 
-There are 68 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 77 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -70,6 +72,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://threatfox.abuse.ch
 * https://tria.ge/211009-xz62wafch8
 * https://tria.ge/220613-smnybadca4
+* https://twitter.com/suyog41/status/1692068700155965877
 * https://www.joesandbox.com/analysis/839457/0/html#TCP_Packets
 * https://www.virustotal.com/gui/file/be8a02ffd80f9367a1a23aac1a4f6b51ad25482783ac42147b18e5b2b36c98d0/detection
 

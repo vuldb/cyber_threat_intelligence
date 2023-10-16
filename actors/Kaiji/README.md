@@ -56,17 +56,18 @@ ID | Type | Indicator | Confidence
 5 | File | `/asan/asan_interceptors_memintrinsics.cpp` | High
 6 | File | `/card_scan.php` | High
 7 | File | `/cgi-bin/uploadAccessCodePic` | High
-8 | File | `/expense_action.php` | High
-9 | File | `/filemanager/php/connector.php` | High
-10 | File | `/goform/aspForm` | High
-11 | File | `/home/filter_listings` | High
-12 | File | `/inc/jquery/uploadify/uploadify.php` | High
-13 | File | `/index.php` | Medium
-14 | File | `/index.php?app=main&func=passport&action=login` | High
-15 | File | `/mobile/SelectUsers.jsp` | High
-16 | ... | ... | ...
+8 | File | `/config/getuser` | High
+9 | File | `/expense_action.php` | High
+10 | File | `/filemanager/php/connector.php` | High
+11 | File | `/goform/aspForm` | High
+12 | File | `/home/filter_listings` | High
+13 | File | `/inc/jquery/uploadify/uploadify.php` | High
+14 | File | `/index.php` | Medium
+15 | File | `/index.php?app=main&func=passport&action=login` | High
+16 | File | `/mobile/SelectUsers.jsp` | High
+17 | ... | ... | ...
 
-There are 129 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 141 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

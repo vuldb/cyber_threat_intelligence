@@ -49,14 +49,15 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/api/RecordingList/DownloadRecord?file=` | High
 2 | File | `/apply.cgi` | Medium
-3 | File | `/MIME/INBOX-MM-1/` | High
-4 | File | `/rapi/read_url` | High
-5 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
-6 | File | `appserv/main.php` | High
-7 | File | `app\admin\controller\sys\Uploads.php` | High
-8 | ... | ... | ...
+3 | File | `/index.php/sysmanage/Login/login_auth/` | High
+4 | File | `/MIME/INBOX-MM-1/` | High
+5 | File | `/rapi/read_url` | High
+6 | File | `/scripts/unlock_tasks.php` | High
+7 | File | `/system/user/modules/mod_users/controller.php` | High
+8 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
+9 | ... | ... | ...
 
-There are 59 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 66 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

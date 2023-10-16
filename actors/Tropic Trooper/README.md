@@ -15,12 +15,8 @@ The following _campaigns_ are known and can be associated with Tropic Trooper:
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Tropic Trooper:
 
-* [CN](https://vuldb.com/?country.cn)
-* [HK](https://vuldb.com/?country.hk)
 * [US](https://vuldb.com/?country.us)
-* ...
-
-There are 12 more country items available. Please use our online service to access the data.
+* [GW](https://vuldb.com/?country.gw)
 
 ## IOC - Indicator of Compromise
 
@@ -54,13 +50,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+1 | T1006 | CWE-22 | Pathname Traversal | High
+2 | T1059.007 | CWE-79 | Cross Site Scripting | High
+3 | T1068 | CWE-269 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+4 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 4 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -68,28 +63,12 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.config/Yubico` | High
-2 | File | `/.ssh/authorized_keys` | High
-3 | File | `/admin/manager/admin_mod.php` | High
-4 | File | `/baseOpLog.do` | High
-5 | File | `/bitrix/admin/ldap_server_edit.php` | High
-6 | File | `/cgi-bin/api-get_line_status` | High
-7 | File | `/cgi-bin/editBookmark` | High
-8 | File | `/cgi-bin/go` | Medium
-9 | File | `/cgi-bin/wapopen` | High
-10 | File | `/CMD_ACCOUNT_ADMIN` | High
-11 | File | `/controller/OnlinePreviewController.java` | High
-12 | File | `/debug/pprof` | Medium
-13 | File | `/export` | Low
-14 | File | `/getcfg.php` | Medium
-15 | File | `/includes/rrdtool.inc.php` | High
-16 | File | `/onvif/device_service` | High
-17 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-18 | File | `/php-sms/admin/?page=user/manage_user` | High
-19 | File | `/spip.php` | Medium
-20 | ... | ... | ...
+1 | File | `/ecommerce/admin/settings/setDiscount.php` | High
+2 | File | `/forum/away.php` | High
+3 | File | `/wireless/guestnetwork.asp` | High
+4 | ... | ... | ...
 
-There are 166 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 23 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

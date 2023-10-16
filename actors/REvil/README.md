@@ -88,13 +88,14 @@ ID | Type | Indicator | Confidence
 25 | File | `adclick.php` | Medium
 26 | File | `admin.asp` | Medium
 27 | File | `admin/categories_industry.php` | High
-28 | File | `admin/content/postcategory` | High
-29 | File | `admin/index.php` | High
-30 | File | `admin/settings.php` | High
-31 | File | `admin/status/realtime/bandwidth_status` | High
-32 | ... | ... | ...
+28 | File | `admin/class-woo-popup-admin.php` | High
+29 | File | `admin/content/postcategory` | High
+30 | File | `admin/index.php` | High
+31 | File | `admin/settings.php` | High
+32 | File | `admin/status/realtime/bandwidth_status` | High
+33 | ... | ... | ...
 
-There are 276 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 277 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

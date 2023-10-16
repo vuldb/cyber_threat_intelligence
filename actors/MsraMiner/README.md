@@ -55,28 +55,28 @@ ID | Type | Indicator | Confidence
 3 | File | `/admin/update_s6.php` | High
 4 | File | `/baseOpLog.do` | High
 5 | File | `/category_view.php` | High
-6 | File | `/cgi-mod/lookup.cgi` | High
-7 | File | `/domains/list` | High
-8 | File | `/forum/away.php` | High
-9 | File | `/getcfg.php` | Medium
-10 | File | `/goform/SystemCommand` | High
-11 | File | `/group1/uploa` | High
-12 | File | `/index.php` | Medium
-13 | File | `/jeecg-boot/sys/common/upload` | High
-14 | File | `/out.php` | Medium
-15 | File | `/owa/auth/logon.aspx` | High
-16 | File | `/proc/ioports` | High
-17 | File | `/rest/api/1.0/render` | High
-18 | File | `/rest/collectors/1.0/template/custom` | High
-19 | File | `/rom-0` | Low
-20 | File | `/scdmz.cmd` | Medium
-21 | File | `/ui/artifactimport/upload` | High
-22 | File | `/updown/upload.cgi` | High
-23 | File | `4.2.0.CP03` | Medium
-24 | File | `7786/tcp` | Medium
+6 | File | `/cgi-bin/luci;stok=/locale` | High
+7 | File | `/cgi-mod/lookup.cgi` | High
+8 | File | `/domains/list` | High
+9 | File | `/forum/away.php` | High
+10 | File | `/getcfg.php` | Medium
+11 | File | `/goform/SystemCommand` | High
+12 | File | `/group1/uploa` | High
+13 | File | `/index.php` | Medium
+14 | File | `/jeecg-boot/sys/common/upload` | High
+15 | File | `/out.php` | Medium
+16 | File | `/owa/auth/logon.aspx` | High
+17 | File | `/proc/ioports` | High
+18 | File | `/rest/api/1.0/render` | High
+19 | File | `/rest/collectors/1.0/template/custom` | High
+20 | File | `/rom-0` | Low
+21 | File | `/scdmz.cmd` | Medium
+22 | File | `/ui/artifactimport/upload` | High
+23 | File | `/updown/upload.cgi` | High
+24 | File | `4.2.0.CP03` | Medium
 25 | ... | ... | ...
 
-There are 206 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 214 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

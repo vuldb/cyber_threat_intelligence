@@ -15,8 +15,8 @@ The following _campaigns_ are known and can be associated with 8220 Gang:
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with 8220 Gang:
 
 * [US](https://vuldb.com/?country.us)
+* [RU](https://vuldb.com/?country.ru)
 * [SE](https://vuldb.com/?country.se)
-* [ES](https://vuldb.com/?country.es)
 * ...
 
 There are 5 more country items available. Please use our online service to access the data.
@@ -46,7 +46,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 16 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -54,23 +54,24 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/cgi-bin/web_index.cgi?lang=en&src=AwSystem.html&ertqVvnKV4TjU9Vt` | High
-2 | File | `/control/stream` | High
-3 | File | `/MicroStrategyWS/happyaxis.jsp` | High
-4 | File | `/product_list.php` | High
-5 | File | `/SM8250_Q_Master/android/vendor/oppo_charger/oppo/oppo_charger.c` | High
-6 | File | `/tmp` | Low
-7 | File | `/ucms/chk.php` | High
-8 | File | `/uncpath/` | Medium
-9 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-10 | File | `add-category.php` | High
-11 | File | `admin/content/postcategory` | High
-12 | File | `AdminByRequest.exe` | High
-13 | File | `announcements.php` | High
-14 | File | `app/View/Users/statistics_orgs.ctp` | High
-15 | ... | ... | ...
+1 | File | `.htaccess` | Medium
+2 | File | `/cgi-bin/web_index.cgi?lang=en&src=AwSystem.html&ertqVvnKV4TjU9Vt` | High
+3 | File | `/control/stream` | High
+4 | File | `/MicroStrategyWS/happyaxis.jsp` | High
+5 | File | `/product_list.php` | High
+6 | File | `/SM8250_Q_Master/android/vendor/oppo_charger/oppo/oppo_charger.c` | High
+7 | File | `/tmp` | Low
+8 | File | `/ucms/chk.php` | High
+9 | File | `/uncpath/` | Medium
+10 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+11 | File | `add-category.php` | High
+12 | File | `admin/bitrix.xscan_worker.php` | High
+13 | File | `admin/content/postcategory` | High
+14 | File | `AdminByRequest.exe` | High
+15 | File | `announcements.php` | High
+16 | ... | ... | ...
 
-There are 115 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 128 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

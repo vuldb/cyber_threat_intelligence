@@ -84,9 +84,10 @@ ID | Type | Indicator | Confidence
 31 | File | `AlUpdate.exe` | Medium
 32 | File | `amadmin.pl` | Medium
 33 | File | `app/admin/controller/api/Update.php` | High
-34 | ... | ... | ...
+34 | File | `ashmem.c` | Medium
+35 | ... | ... | ...
 
-There are 294 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 296 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

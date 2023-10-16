@@ -116,18 +116,16 @@ ID | Type | Indicator | Confidence
 33 | File | `auth.php` | Medium
 34 | File | `blogger-importer.php` | High
 35 | File | `blueprints/sections/edit/1` | High
-36 | File | `books.php` | Medium
-37 | File | `cart_add.php` | Medium
-38 | File | `CFS.c` | Low
-39 | File | `cgi-bin/webui/admin/tools/app_ping/diag_ping/` | High
-40 | File | `cgi/cal?year` | Medium
-41 | File | `checktransferstatus.php` | High
-42 | File | `class.SystemAction.php` | High
-43 | File | `clientarea.php` | High
-44 | File | `collectivite.class.php` | High
-45 | ... | ... | ...
+36 | File | `boaform/admin/formPing` | High
+37 | File | `books.php` | Medium
+38 | File | `cart_add.php` | Medium
+39 | File | `CFS.c` | Low
+40 | File | `cgi-bin/webui/admin/tools/app_ping/diag_ping/` | High
+41 | File | `cgi/cal?year` | Medium
+42 | File | `checktransferstatus.php` | High
+43 | ... | ... | ...
 
-There are 392 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 372 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

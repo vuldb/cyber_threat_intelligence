@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 17 more country items available. Please use our online service to access the data.
+There are 18 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -66,12 +66,12 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-25, CWE-29, CWE-36, CWE-425 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94 | Cross Site Scripting | High
+3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+5 | T1068 | CWE-250, CWE-264, CWE-266, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -79,55 +79,54 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/admin/add-category.php` | High
-3 | File | `/admin/add_user_modal.php` | High
-4 | File | `/admin/categories/view_category.php` | High
-5 | File | `/admin/maintenance/view_designation.php` | High
-6 | File | `/admin/project/update/2` | High
-7 | File | `/admin/report/index.php` | High
-8 | File | `/admin/upload/upload` | High
-9 | File | `/api/baskets/{name}` | High
-10 | File | `/api/gen/clients/{language}` | High
-11 | File | `/bin/login` | Medium
-12 | File | `/blog` | Low
-13 | File | `/category.php` | High
-14 | File | `/cgi-bin/wlogin.cgi` | High
-15 | File | `/config/myfield/test.php` | High
-16 | File | `/debug/pprof` | Medium
-17 | File | `/ecshop/admin/template.php` | High
-18 | File | `/file/upload/1` | High
-19 | File | `/forum/away.php` | High
-20 | File | `/forum/PostPrivateMessage` | High
-21 | File | `/ghost/preview` | High
-22 | File | `/goform/set_LimitClient_cfg` | High
-23 | File | `/home/www/cgi-bin/login.cgi` | High
-24 | File | `/hss/admin/?page=products/view_product` | High
-25 | File | `/index.php` | Medium
-26 | File | `/index.php?app=main&func=passport&action=login` | High
-27 | File | `/index.php?page=member` | High
-28 | File | `/load.php` | Medium
-29 | File | `/multi-vendor-shopping-script/product-list.php` | High
-30 | File | `/net-banking/customer_transactions.php` | High
-31 | File | `/obs/book.php` | High
-32 | File | `/ossn/administrator/com_installer` | High
-33 | File | `/owa/auth/logon.aspx` | High
-34 | File | `/pms/update_user.php?user_id=1` | High
-35 | File | `/preview.php` | Medium
-36 | File | `/requests.php` | High
-37 | File | `/robot/initialize` | High
-38 | File | `/search.php` | Medium
-39 | File | `/secure/ViewCollectors` | High
-40 | File | `/spip.php` | Medium
-41 | File | `/sqlite3_aflpp/shell.c` | High
-42 | File | `/squashfs-root/etc_ro/custom.conf` | High
-43 | File | `/SVFE2/pages/feegroups/service_group.jsf` | High
-44 | File | `/sys/user/querySysUser?username=admin` | High
-45 | File | `/ueditor/net/controller.ashx?action=catchimage` | High
-46 | File | `/uncpath/` | Medium
-47 | ... | ... | ...
+1 | File | `$HOME/.terminfo` | High
+2 | File | `/+CSCOE+/logon.html` | High
+3 | File | `/academy/tutor/filter` | High
+4 | File | `/admin/add-category.php` | High
+5 | File | `/admin/add_user_modal.php` | High
+6 | File | `/admin/admin_content_tag.php?action=save_content` | High
+7 | File | `/admin/article/article-edit-run.php` | High
+8 | File | `/admin/categories/view_category.php` | High
+9 | File | `/admin/maintenance/view_designation.php` | High
+10 | File | `/admin/project/update/2` | High
+11 | File | `/admin/report/index.php` | High
+12 | File | `/admin/upload/upload` | High
+13 | File | `/api/baskets/{name}` | High
+14 | File | `/api/gen/clients/{language}` | High
+15 | File | `/bin/login` | Medium
+16 | File | `/bin/mini_upnpd` | High
+17 | File | `/blog` | Low
+18 | File | `/category.php` | High
+19 | File | `/cgi-bin/wlogin.cgi` | High
+20 | File | `/config/myfield/test.php` | High
+21 | File | `/debug/pprof` | Medium
+22 | File | `/ecshop/admin/template.php` | High
+23 | File | `/file/upload/1` | High
+24 | File | `/forum/away.php` | High
+25 | File | `/forum/PostPrivateMessage` | High
+26 | File | `/ghost/preview` | High
+27 | File | `/goform/set_LimitClient_cfg` | High
+28 | File | `/h/autoSaveDraft` | High
+29 | File | `/h/search?action` | High
+30 | File | `/home/www/cgi-bin/login.cgi` | High
+31 | File | `/hss/admin/?page=products/view_product` | High
+32 | File | `/im/user/` | Medium
+33 | File | `/importexport.php` | High
+34 | File | `/index.php` | Medium
+35 | File | `/index.php?app=main&func=passport&action=login` | High
+36 | File | `/index.php?page=member` | High
+37 | File | `/load.php` | Medium
+38 | File | `/mgmt/` | Low
+39 | File | `/multi-vendor-shopping-script/product-list.php` | High
+40 | File | `/net-banking/customer_transactions.php` | High
+41 | File | `/obs/book.php` | High
+42 | File | `/owa/auth/logon.aspx` | High
+43 | File | `/pms/update_user.php?user_id=1` | High
+44 | File | `/preview.php` | Medium
+45 | File | `/requests.php` | High
+46 | ... | ... | ...
 
-There are 411 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 402 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

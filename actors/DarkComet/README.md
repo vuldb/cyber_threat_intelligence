@@ -56,7 +56,7 @@ ID | IP address | Hostname | Campaign | Confidence
 33 | [34.214.179.131](https://vuldb.com/?ip.34.214.179.131) | ec2-34-214-179-131.us-west-2.compute.amazonaws.com | - | Medium
 34 | ... | ... | ... | ...
 
-There are 132 more IOC items available. Please use our online service to access the data.
+There are 133 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -92,13 +92,14 @@ ID | Type | Indicator | Confidence
 13 | File | `admin.php` | Medium
 14 | ... | ... | ...
 
-There are 111 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 114 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://app.any.run/tasks/cbbf3381-1424-4dbf-94ba-0e10425bb69d
+* https://app.any.run/tasks/e8e29060-3f8b-4e83-a222-a48ec4e8d779
 * https://bazaar.abuse.ch/sample/68625836043a2593ccabcca5e3d49a0331d64657ed28bec54ecf37246c25ab4c/
 * https://bazaar.abuse.ch/sample/e50cf3f7139ac7f4924b835334a98f7c426b66d0d19e986d885bd4080433d7bd/
 * https://blog.talosintelligence.com/2019/05/threat-roundup-0517-0524.html

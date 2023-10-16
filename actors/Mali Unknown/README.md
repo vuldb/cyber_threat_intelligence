@@ -60,34 +60,37 @@ ID | Type | Indicator | Confidence
 3 | File | `/admin/addemployee.php` | High
 4 | File | `/admin/ajax/avatar.php` | High
 5 | File | `/admin/index.php` | High
-6 | File | `/admin/show.php` | High
-7 | File | `/apilog.php` | Medium
-8 | File | `/default.php?idx=17` | High
-9 | File | `/filemanager/upload.php` | High
-10 | File | `/forum/away.php` | High
-11 | File | `/index.php` | Medium
-12 | File | `/mifs/c/i/reg/reg.html` | High
-13 | File | `/opt/bin/cli` | Medium
-14 | File | `/patient/doctors.php` | High
-15 | File | `/phpinventory/editcategory.php` | High
-16 | File | `/spip.php` | Medium
-17 | File | `/uncpath/` | Medium
-18 | File | `/var/log/nginx` | High
-19 | File | `/VPortal/mgtconsole/Subscriptions.jsp` | High
-20 | File | `admin` | Low
-21 | File | `admin/adminsignin.html` | High
-22 | File | `admin/bad.php` | High
-23 | File | `admin/index.php?id=themes&action=edit_chunk` | High
-24 | File | `admin/movieview.php` | High
-25 | File | `admin/versions.html` | High
-26 | File | `administrator/index.php` | High
-27 | File | `agenda.php` | Medium
-28 | File | `album_portal.php` | High
-29 | File | `api.php` | Low
-30 | File | `application/home/controller/debug.php` | High
-31 | ... | ... | ...
+6 | File | `/admin/login.php` | High
+7 | File | `/admin/show.php` | High
+8 | File | `/apilog.php` | Medium
+9 | File | `/default.php?idx=17` | High
+10 | File | `/filemanager/upload.php` | High
+11 | File | `/forum/away.php` | High
+12 | File | `/index.php` | Medium
+13 | File | `/mifs/c/i/reg/reg.html` | High
+14 | File | `/opt/bin/cli` | Medium
+15 | File | `/patient/doctors.php` | High
+16 | File | `/phpinventory/editcategory.php` | High
+17 | File | `/spip.php` | Medium
+18 | File | `/uncpath/` | Medium
+19 | File | `/var/log/nginx` | High
+20 | File | `/VPortal/mgtconsole/Subscriptions.jsp` | High
+21 | File | `/wp-admin/admin-ajax.php` | High
+22 | File | `admin` | Low
+23 | File | `admin.php/pay` | High
+24 | File | `admin/adminsignin.html` | High
+25 | File | `admin/bad.php` | High
+26 | File | `admin/index.php?id=themes&action=edit_chunk` | High
+27 | File | `admin/movieview.php` | High
+28 | File | `admin/versions.html` | High
+29 | File | `administrator/index.php` | High
+30 | File | `agenda.php` | Medium
+31 | File | `album_portal.php` | High
+32 | File | `api.php` | Low
+33 | File | `application/home/controller/debug.php` | High
+34 | ... | ... | ...
 
-There are 259 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 294 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

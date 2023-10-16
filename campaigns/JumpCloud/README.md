@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [RU](https://vuldb.com/?country.ru)
+* [TR](https://vuldb.com/?country.tr)
 * ...
 
 There are 8 more country items available. Please use our online service to access the data.
@@ -46,11 +46,11 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-28 | Pathname Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -114,34 +114,30 @@ ID | Type | Indicator | Confidence
 54 | File | `/admin/voters_row.php` | High
 55 | File | `/admin/vote_edit.php` | High
 56 | File | `/api/baskets/{name}` | High
-57 | File | `/api/sys/set_passwd` | High
-58 | File | `/api /v3/auth` | High
-59 | File | `/apply.cgi` | Medium
-60 | File | `/author/list?limit=10&offset=0&order=desc` | High
-61 | File | `/booking/show_bookings/` | High
-62 | File | `/cas/logout` | Medium
-63 | File | `/category/list?limit=10&offset=0&order=desc` | High
-64 | File | `/cgi-bin/adm.cgi` | High
-65 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
-66 | File | `/cgi-bin/wlogin.cgi` | High
-67 | File | `/changeimage.php` | High
-68 | File | `/classes/Master.php` | High
-69 | File | `/classes/Master.php?f=delete_category` | High
-70 | File | `/classes/Master.php?f=delete_img` | High
-71 | File | `/classes/master.php?f=delete_order` | High
-72 | File | `/classes/Master.php?f=delete_sub_category` | High
-73 | File | `/classes/Master.php?f=save_brand` | High
-74 | File | `/classes/Master.php?f=save_category` | High
-75 | File | `/classes/Master.php?f=save_course` | High
-76 | File | `/classes/Master.php?f=save_position` | High
-77 | File | `/classes/Master.php?f=save_sub_category` | High
-78 | File | `/classes/Master.php?f=update_order_status` | High
-79 | File | `/classes/Users.phpp` | High
-80 | File | `/College/admin/teacher.php` | High
-81 | File | `/company/store` | High
-82 | ... | ... | ...
+57 | File | `/api/es/admin/v3/security/user/1` | High
+58 | File | `/api/sys/login` | High
+59 | File | `/api/sys/set_passwd` | High
+60 | File | `/api /v3/auth` | High
+61 | File | `/app/sys1.php` | High
+62 | File | `/author/list?limit=10&offset=0&order=desc` | High
+63 | File | `/booking/show_bookings/` | High
+64 | File | `/cas/logout` | Medium
+65 | File | `/category/list?limit=10&offset=0&order=desc` | High
+66 | File | `/cgi-bin/adm.cgi` | High
+67 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
+68 | File | `/cgi-bin/wlogin.cgi` | High
+69 | File | `/changeimage.php` | High
+70 | File | `/classes/Master.php` | High
+71 | File | `/classes/Master.php?f=delete_category` | High
+72 | File | `/classes/Master.php?f=delete_img` | High
+73 | File | `/classes/master.php?f=delete_order` | High
+74 | File | `/classes/Master.php?f=delete_sub_category` | High
+75 | File | `/classes/Master.php?f=save_brand` | High
+76 | File | `/classes/Master.php?f=save_category` | High
+77 | File | `/classes/Master.php?f=save_course` | High
+78 | ... | ... | ...
 
-There are 718 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 685 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

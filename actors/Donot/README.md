@@ -40,7 +40,7 @@ ID | IP address | Hostname | Campaign | Confidence
 10 | [46.101.204.168](https://vuldb.com/?ip.46.101.204.168) | - | - | High
 11 | ... | ... | ... | ...
 
-There are 40 more IOC items available. Please use our online service to access the data.
+There are 41 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -88,19 +88,20 @@ ID | Type | Indicator | Confidence
 24 | File | `/CCMAdmin/serverlist.asp` | High
 25 | File | `/cgi-bin/editBookmark` | High
 26 | File | `/cgi-bin/touchlist_sync.cgi` | High
-27 | File | `/ci_spms/admin/category` | High
-28 | File | `/classes/Users.php?f=save` | High
-29 | File | `/cwms/admin/?page=articles/view_article/` | High
-30 | File | `/cwms/classes/Master.php?f=save_contact` | High
-31 | File | `/dashboard/add-blog.php` | High
-32 | File | `/dashboard/add-portfolio.php` | High
-33 | File | `/dashboard/settings` | High
-34 | File | `/downloadmaster/dm_apply.cgi?action_mode=initial&download_type=General&special_cgi=get_language` | High
-35 | File | `/env` | Low
-36 | File | `/film-rating.php` | High
-37 | ... | ... | ...
+27 | File | `/cimom` | Low
+28 | File | `/ci_spms/admin/category` | High
+29 | File | `/classes/Users.php?f=save` | High
+30 | File | `/cwms/admin/?page=articles/view_article/` | High
+31 | File | `/cwms/classes/Master.php?f=save_contact` | High
+32 | File | `/dashboard/add-blog.php` | High
+33 | File | `/dashboard/add-portfolio.php` | High
+34 | File | `/dashboard/settings` | High
+35 | File | `/downloadmaster/dm_apply.cgi?action_mode=initial&download_type=General&special_cgi=get_language` | High
+36 | File | `/env` | Low
+37 | File | `/film-rating.php` | High
+38 | ... | ... | ...
 
-There are 321 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 330 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -110,6 +111,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://github.com/eset/malware-ioc/tree/master/donot
 * https://github.com/faisalusuf/ThreatIntelligence/blob/main/APT%20DONOT%20TEAM/Tracking-DONOT-IOCs.csv
 * https://twitter.com/ShadowChasing1/status/1497125743125413892
+* https://www.cyfirma.com/outofband/donot-apt-elevates-its-tactics-by-deploying-malicious-android-apps-on-google-play-store/
 * https://www.welivesecurity.com/2022/01/18/donot-go-do-not-respawn/
 
 ## Literature

@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [FR](https://vuldb.com/?country.fr)
 * ...
 
-There are 25 more country items available. Please use our online service to access the data.
+There are 28 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -54,19 +54,19 @@ ID | Type | Indicator | Confidence
 2 | File | `/../conf/config.properties` | High
 3 | File | `//proc/kcore` | Medium
 4 | File | `/addnews.html` | High
-5 | File | `/admin/` | Low
-6 | File | `/admin/inquiries/view_details.php` | High
-7 | File | `/admin/login.php` | High
-8 | File | `/anony/mjpg.cgi` | High
-9 | File | `/api/blade-log/api/list` | High
-10 | File | `/checkLogin.cgi` | High
-11 | File | `/common/logViewer/logViewer.jsf` | High
-12 | File | `/Config/SaveUploadedHotspotLogoFile` | High
-13 | File | `/CPE` | Low
-14 | File | `/dashboard/snapshot/*?orgId=0` | High
-15 | File | `/ecrire` | Low
-16 | File | `/exponent_constants.php` | High
-17 | File | `/forum/away.php` | High
+5 | File | `/admin/inquiries/view_details.php` | High
+6 | File | `/admin/login.php` | High
+7 | File | `/anony/mjpg.cgi` | High
+8 | File | `/api/blade-log/api/list` | High
+9 | File | `/checkLogin.cgi` | High
+10 | File | `/common/logViewer/logViewer.jsf` | High
+11 | File | `/Config/SaveUploadedHotspotLogoFile` | High
+12 | File | `/CPE` | Low
+13 | File | `/dashboard/snapshot/*?orgId=0` | High
+14 | File | `/ecrire` | Low
+15 | File | `/exponent_constants.php` | High
+16 | File | `/forum/away.php` | High
+17 | File | `/HNAP1/SetAccessPointMode` | High
 18 | File | `/hub/api/user` | High
 19 | File | `/include/commrecc.inc.php` | High
 20 | File | `/include/comm_post.inc.php` | High
@@ -97,15 +97,15 @@ ID | Type | Indicator | Confidence
 45 | File | `account.asp` | Medium
 46 | File | `activateuser.aspx` | High
 47 | File | `adclick.php` | Medium
-48 | File | `addentry.php` | Medium
-49 | File | `admin-ajax.php` | High
-50 | File | `admin.joomlaflashfun.php` | High
-51 | File | `admin.php` | Medium
-52 | File | `admin/addons/archive/archive.php` | High
-53 | File | `admin/auth.php` | High
+48 | File | `admin-ajax.php` | High
+49 | File | `admin.joomlaflashfun.php` | High
+50 | File | `admin.php` | Medium
+51 | File | `admin/addons/archive/archive.php` | High
+52 | File | `admin/auth.php` | High
+53 | File | `admin/change-password.php` | High
 54 | ... | ... | ...
 
-There are 474 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 471 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

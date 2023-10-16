@@ -48,22 +48,22 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/dl_sendmail.php` | High
-2 | File | `/api/v2/cli/commands` | High
-3 | File | `/apply.cgi` | Medium
-4 | File | `/DXR.axd` | Medium
-5 | File | `/forum/away.php` | High
-6 | File | `/owa/auth/logon.aspx` | High
-7 | File | `/spip.php` | Medium
-8 | File | `/usr/bin/pkexec` | High
-9 | File | `/zm/index.php` | High
-10 | File | `admin.jcomments.php` | High
-11 | File | `admin/file-manager/attachments` | High
-12 | File | `application/modules/admin/views/ecommerce/products.php` | High
-13 | File | `apply.cgi` | Medium
-14 | File | `archivejson.cgi` | High
+2 | File | `/api/baskets/{name}` | High
+3 | File | `/api/v2/cli/commands` | High
+4 | File | `/apply.cgi` | Medium
+5 | File | `/DXR.axd` | Medium
+6 | File | `/forum/away.php` | High
+7 | File | `/owa/auth/logon.aspx` | High
+8 | File | `/spip.php` | Medium
+9 | File | `/usr/bin/pkexec` | High
+10 | File | `/zm/index.php` | High
+11 | File | `admin.jcomments.php` | High
+12 | File | `admin/file-manager/attachments` | High
+13 | File | `application/modules/admin/views/ecommerce/products.php` | High
+14 | File | `apply.cgi` | Medium
 15 | ... | ... | ...
 
-There are 123 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 124 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

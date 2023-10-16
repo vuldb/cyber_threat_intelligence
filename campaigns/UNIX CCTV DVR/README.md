@@ -43,7 +43,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-425 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
@@ -75,13 +75,13 @@ ID | Type | Indicator | Confidence
 14 | File | `/cgi-bin/wlogin.cgi` | High
 15 | File | `/classes/Master.php?f=delete_category` | High
 16 | File | `/classes/Master.php?f=save_item` | High
-17 | File | `/core/admin/categories.php` | High
-18 | File | `/coreframe/app/order/admin/card.php` | High
-19 | File | `/dms/admin/reports/daily_collection_report.php` | High
-20 | File | `/editprofile.php` | High
-21 | File | `/eshop/products/json/aouCustomerAdresse` | High
-22 | File | `/etc/config/cameo` | High
-23 | File | `/extensionsinstruction` | High
+17 | File | `/config/php.ini` | High
+18 | File | `/core/admin/categories.php` | High
+19 | File | `/coreframe/app/order/admin/card.php` | High
+20 | File | `/dms/admin/reports/daily_collection_report.php` | High
+21 | File | `/editprofile.php` | High
+22 | File | `/eshop/products/json/aouCustomerAdresse` | High
+23 | File | `/etc/config/cameo` | High
 24 | File | `/food/admin/all_users.php` | High
 25 | File | `/goform/PowerSaveSet` | High
 26 | File | `/goform/SetClientState` | High
@@ -89,15 +89,15 @@ ID | Type | Indicator | Confidence
 28 | File | `/goform/setWorkmode` | High
 29 | File | `/goform/wizard_end` | High
 30 | File | `/goods/getGoodsListByConditions/` | High
-31 | File | `/index.php` | Medium
-32 | File | `/isms/classes/Users.php` | High
-33 | File | `/lists/index.php` | High
-34 | File | `/members/view_member.php` | High
-35 | File | `/messageboard/view.php` | High
-36 | File | `/moddable/xs/sources/xsScript.c` | High
-37 | File | `/moddable/xs/sources/xsSymbol.c` | High
-38 | File | `/modules/projects/vw_files.php` | High
-39 | File | `/nova/bin/lcdstat` | High
+31 | File | `/home/get_tasks_list` | High
+32 | File | `/index.php` | Medium
+33 | File | `/isms/classes/Users.php` | High
+34 | File | `/lists/index.php` | High
+35 | File | `/members/view_member.php` | High
+36 | File | `/messageboard/view.php` | High
+37 | File | `/moddable/xs/sources/xsScript.c` | High
+38 | File | `/moddable/xs/sources/xsSymbol.c` | High
+39 | File | `/modules/projects/vw_files.php` | High
 40 | File | `/ofrs/admin/?page=teams/view_team` | High
 41 | File | `/ordering/index.php?q=category` | High
 42 | File | `/owa/auth/logon.aspx` | High
@@ -109,10 +109,9 @@ ID | Type | Indicator | Confidence
 48 | File | `/sns/classes/Master.php?f=delete_img` | High
 49 | File | `/Source/C++/Core/Ap4Array.h` | High
 50 | File | `/src/njs_vmcode.c` | High
-51 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
-52 | ... | ... | ...
+51 | ... | ... | ...
 
-There are 451 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 442 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

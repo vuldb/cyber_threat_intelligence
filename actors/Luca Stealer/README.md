@@ -19,6 +19,14 @@ ID | IP address | Hostname | Campaign | Confidence
 1 | [146.71.81.144](https://vuldb.com/?ip.146.71.81.144) | - | - | High
 2 | [194.213.18.89](https://vuldb.com/?ip.194.213.18.89) | - | - | High
 
+## TTP - Tactics, Techniques, Procedures
+
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _Luca Stealer_. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1592 | CWE-200 | Configuration | High
+
 ## IOA - Indicator of Attack
 
 These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by Luca Stealer. This data is unique as it uses our predictive model for actor profiling.
@@ -26,6 +34,7 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `inline-gdocs-viewer.php` | High
+2 | File | `wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php` | High
 
 ## References
 

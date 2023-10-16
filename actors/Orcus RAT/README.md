@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 19 more country items available. Please use our online service to access the data.
+There are 21 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -30,9 +30,10 @@ ID | IP address | Hostname | Campaign | Confidence
 7 | [20.89.177.186](https://vuldb.com/?ip.20.89.177.186) | - | - | High
 8 | [45.146.253.103](https://vuldb.com/?ip.45.146.253.103) | rs-zap868892-1.zap-srv.com | - | High
 9 | [61.69.245.176](https://vuldb.com/?ip.61.69.245.176) | 61-69-245-176.static.tpgi.com.au | - | High
-10 | ... | ... | ... | ...
+10 | [67.242.2.35](https://vuldb.com/?ip.67.242.2.35) | cpe-67-242-2-35.twcny.res.rr.com | - | High
+11 | ... | ... | ... | ...
 
-There are 37 more IOC items available. Please use our online service to access the data.
+There are 38 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -44,9 +45,10 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+5 | T1068 | CWE-250, CWE-264, CWE-266, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -61,48 +63,55 @@ ID | Type | Indicator | Confidence
 5 | File | `/admin/index.html` | High
 6 | File | `/admin/new-content` | High
 7 | File | `/admin/user/team` | High
-8 | File | `/api/RecordingList/DownloadRecord?file=` | High
-9 | File | `/apply.cgi` | Medium
-10 | File | `/bin/login` | Medium
-11 | File | `/configs/application.ini` | High
-12 | File | `/dipam/save-delegates.php` | High
-13 | File | `/etc/gsissh/sshd_config` | High
-14 | File | `/etc/sudoers` | Medium
-15 | File | `/goform/SetStaticRouteCfg` | High
-16 | File | `/goform/wlanPrimaryNetwork` | High
-17 | File | `/home` | Low
-18 | File | `/index.php/album/add` | High
-19 | File | `/my_photo_gallery/image.php` | High
-20 | File | `/php_action/createProduct.php` | High
-21 | File | `/public` | Low
-22 | File | `/rapi/read_url` | High
-23 | File | `/rest/api/latest/user/avatar/temporary` | High
-24 | File | `/school/model/get_student_subject.php` | High
-25 | File | `/show_news.php` | High
-26 | File | `/tcpedit/checksum.c` | High
-27 | File | `/trx_addons/v2/get/sc_layout` | High
-28 | File | `/uncpath/` | Medium
-29 | File | `/users` | Low
-30 | File | `/v2/_catalog` | Medium
-31 | File | `/var/run/chrony` | High
-32 | File | `/web/api/v1/upload/UploadHandler.php` | High
-33 | File | `/weibo/publishdata` | High
-34 | File | `/whbs/?page=manage_account` | High
-35 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
-36 | File | `aaa-idm-store-h2/src/main/java/org/opendaylight/aaa/datastore/h2/RoleStore.java` | High
-37 | File | `admin.asp` | Medium
-38 | File | `admin.php/comments/batchdel/` | High
-39 | File | `admin.php/User/del/ucode/` | High
-40 | File | `admin.php?c=a_adminuser&a=add&run=1` | High
-41 | ... | ... | ...
+8 | File | `/adv_resource` | High
+9 | File | `/anony/mjpg.cgi` | High
+10 | File | `/api/RecordingList/DownloadRecord?file=` | High
+11 | File | `/apply.cgi` | Medium
+12 | File | `/bin/login` | Medium
+13 | File | `/configs/application.ini` | High
+14 | File | `/dipam/save-delegates.php` | High
+15 | File | `/etc/gsissh/sshd_config` | High
+16 | File | `/etc/sudoers` | Medium
+17 | File | `/goform/SetStaticRouteCfg` | High
+18 | File | `/goform/wlanPrimaryNetwork` | High
+19 | File | `/home` | Low
+20 | File | `/index.php/album/add` | High
+21 | File | `/my_photo_gallery/image.php` | High
+22 | File | `/php_action/createProduct.php` | High
+23 | File | `/plugins/Dashboard/Controller.php` | High
+24 | File | `/public` | Low
+25 | File | `/rapi/read_url` | High
+26 | File | `/rest/api/latest/user/avatar/temporary` | High
+27 | File | `/school/model/get_student_subject.php` | High
+28 | File | `/scripts/unlock_tasks.php` | High
+29 | File | `/show_news.php` | High
+30 | File | `/system/user/modules/mod_users/controller.php` | High
+31 | File | `/tcpedit/checksum.c` | High
+32 | File | `/trx_addons/v2/get/sc_layout` | High
+33 | File | `/uncpath/` | Medium
+34 | File | `/users` | Low
+35 | File | `/v2/_catalog` | Medium
+36 | File | `/var/run/chrony` | High
+37 | File | `/web/api/v1/upload/UploadHandler.php` | High
+38 | File | `/weibo/publishdata` | High
+39 | File | `/whbs/?page=manage_account` | High
+40 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
+41 | File | `aaa-idm-store-h2/src/main/java/org/opendaylight/aaa/datastore/h2/RoleStore.java` | High
+42 | File | `admin.asp` | Medium
+43 | File | `admin.php/comments/batchdel/` | High
+44 | File | `admin.php/User/del/ucode/` | High
+45 | File | `admin.php?c=a_adminuser&a=add&run=1` | High
+46 | File | `admin.php?m=Member&a=adminaddsave` | High
+47 | ... | ... | ...
 
-There are 358 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 409 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://threatfox.abuse.ch
+* https://www.virustotal.com/gui/file/07b742c9303e04be588f20f51d68828cae04a1af02cb6d09a9d935007dbb4906/detection
 
 ## Literature
 

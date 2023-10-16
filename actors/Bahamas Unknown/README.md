@@ -100,9 +100,10 @@ ID | Type | Indicator | Confidence
 30 | File | `/out.php` | Medium
 31 | File | `/outgoing.php` | High
 32 | File | `/php-fusion/infusions/shoutbox_panel/shoutbox_archive.php` | High
-33 | ... | ... | ...
+33 | File | `/presale/join` | High
+34 | ... | ... | ...
 
-There are 286 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 291 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -81,8 +81,8 @@ ID | Type | Indicator | Confidence
 27 | File | `apache-auth.conf` | High
 28 | File | `askapache-firefox-adsense.php` | High
 29 | File | `attachment.cgi` | High
-30 | File | `basic_search_result.php` | High
-31 | File | `blueprints/sections/edit/1` | High
+30 | File | `blueprints/sections/edit/1` | High
+31 | File | `boaform/admin/formPing` | High
 32 | File | `books.php` | Medium
 33 | File | `cart_add.php` | Medium
 34 | File | `CFS.c` | Low
@@ -96,10 +96,9 @@ ID | Type | Indicator | Confidence
 42 | File | `confirm.php` | Medium
 43 | File | `contact` | Low
 44 | File | `control.c` | Medium
-45 | File | `core-util.c` | Medium
-46 | ... | ... | ...
+45 | ... | ... | ...
 
-There are 397 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 394 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -163,24 +163,26 @@ ID | Type | Indicator | Confidence
 25 | File | `/jfinal_cms/system/role/list` | High
 26 | File | `/kelas/data` | Medium
 27 | File | `/members/view_member.php` | High
-28 | File | `/Moosikay/order.php` | High
-29 | File | `/owa/auth/logon.aspx` | High
-30 | File | `/php-sms/admin/quotes/manage_remark.php` | High
-31 | File | `/rapi/read_url` | High
-32 | File | `/secure/QueryComponent!Default.jspa` | High
-33 | File | `/squashfs-root/etc_ro/custom.conf` | High
-34 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
-35 | File | `/staff/edit_book_details.php` | High
-36 | File | `/system/user/modules/mod_users/controller.php` | High
-37 | File | `/uncpath/` | Medium
-38 | File | `/user/profile` | High
-39 | File | `/WEB-INF/web.xml` | High
-40 | File | `/webman/info.cgi` | High
-41 | File | `/wp-admin/admin-ajax.php` | High
-42 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
-43 | ... | ... | ...
+28 | File | `/mhds/clinic/view_details.php` | High
+29 | File | `/Moosikay/order.php` | High
+30 | File | `/owa/auth/logon.aspx` | High
+31 | File | `/php-sms/admin/quotes/manage_remark.php` | High
+32 | File | `/rapi/read_url` | High
+33 | File | `/scripts/unlock_tasks.php` | High
+34 | File | `/secure/QueryComponent!Default.jspa` | High
+35 | File | `/squashfs-root/etc_ro/custom.conf` | High
+36 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
+37 | File | `/staff/edit_book_details.php` | High
+38 | File | `/SysManage/AddUpdateRole.aspx` | High
+39 | File | `/system/user/modules/mod_users/controller.php` | High
+40 | File | `/uncpath/` | Medium
+41 | File | `/user/profile` | High
+42 | File | `/WEB-INF/web.xml` | High
+43 | File | `/webman/info.cgi` | High
+44 | File | `/wp-admin/admin-ajax.php` | High
+45 | ... | ... | ...
 
-There are 371 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 391 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -79,14 +79,14 @@ ID | Type | Indicator | Confidence
 2 | File | `/goform/PowerSaveSet` | High
 3 | File | `/index.php` | Medium
 4 | File | `/members/view_member.php` | High
-5 | File | `/owa/auth/logon.aspx` | High
-6 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
-7 | File | `/uncpath/` | Medium
-8 | File | `adclick.php` | Medium
-9 | File | `addrating.php` | High
+5 | File | `/mhds/clinic/view_details.php` | High
+6 | File | `/owa/auth/logon.aspx` | High
+7 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
+8 | File | `/uncpath/` | Medium
+9 | File | `adclick.php` | Medium
 10 | ... | ... | ...
 
-There are 77 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 79 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -49,14 +49,14 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.bash_history` | High
 2 | File | `.procmailrc` | Medium
-3 | File | `/cgi-bin/changepw.cgi` | High
-4 | File | `/debug/pprof` | Medium
-5 | File | `/editbrand.php` | High
-6 | File | `/etc/raspap/hostapd/enablelog.sh` | High
-7 | File | `/mnt/idea0` | Medium
+3 | File | `/+CSCOE+/logon.html` | High
+4 | File | `/cgi-bin/changepw.cgi` | High
+5 | File | `/debug/pprof` | Medium
+6 | File | `/editbrand.php` | High
+7 | File | `/etc/raspap/hostapd/enablelog.sh` | High
 8 | ... | ... | ...
 
-There are 57 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 59 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -50,25 +50,25 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/article.php` | High
 2 | File | `/admin/uesrs.php&action=type&userrole=Admin&userid=3` | High
-3 | File | `/cgi-bin/system_mgr.cgi` | High
-4 | File | `/cgi-bin/webproc` | High
-5 | File | `/dist/index.js` | High
-6 | File | `/expert_wizard.php` | High
-7 | File | `/files/list-file` | High
-8 | File | `/jsoa/hntdCustomDesktopActionContent` | High
-9 | File | `/login.html` | Medium
-10 | File | `/new` | Low
-11 | File | `/public/login.htm` | High
-12 | File | `/static/ueditor/php/controller.php` | High
-13 | File | `/system?action=ServiceAdmin` | High
-14 | File | `/upload` | Low
-15 | File | `/var/log/nginx` | High
-16 | File | `/wp-json` | Medium
-17 | File | `add_edit_user.asp` | High
-18 | File | `add_vhost.php` | High
+3 | File | `/api/v1/terminal/sessions/?limit=1` | High
+4 | File | `/cgi-bin/system_mgr.cgi` | High
+5 | File | `/cgi-bin/webproc` | High
+6 | File | `/dist/index.js` | High
+7 | File | `/expert_wizard.php` | High
+8 | File | `/files/list-file` | High
+9 | File | `/jsoa/hntdCustomDesktopActionContent` | High
+10 | File | `/login.html` | Medium
+11 | File | `/new` | Low
+12 | File | `/public/login.htm` | High
+13 | File | `/static/ueditor/php/controller.php` | High
+14 | File | `/system?action=ServiceAdmin` | High
+15 | File | `/upload` | Low
+16 | File | `/var/log/nginx` | High
+17 | File | `/wp-json` | Medium
+18 | File | `add_edit_user.asp` | High
 19 | ... | ... | ...
 
-There are 154 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 156 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

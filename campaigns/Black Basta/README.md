@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 31 more country items available. Please use our online service to access the data.
+There are 32 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -88,53 +88,53 @@ ID | Type | Indicator | Confidence
 15 | File | `/export` | Low
 16 | File | `/home/filter_listings` | High
 17 | File | `/horde/imp/search.php` | High
-18 | File | `/index.php` | Medium
-19 | File | `/jsoa/hntdCustomDesktopActionContent` | High
-20 | File | `/LEPTON_stable_2.2.2/upload/admins/media/index.php` | High
-21 | File | `/login` | Low
-22 | File | `/messageboard/view.php` | High
-23 | File | `/modules/projects/vw_files.php` | High
-24 | File | `/opensis/modules/grades/InputFinalGrades.php` | High
-25 | File | `/opensis/modules/users/Staff.php` | High
-26 | File | `/plesk-site-preview/` | High
-27 | File | `/proc/self/environ` | High
-28 | File | `/rest/api/2/user/picker` | High
-29 | File | `/s/` | Low
-30 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-31 | File | `/secure/QueryComponent!Default.jspa` | High
-32 | File | `/sendrcpackage?keyid=-2544&keysymbol=-4081` | High
-33 | File | `/system?action=ServiceAdmin` | High
-34 | File | `/var/WEB-GUI/cgi-bin/downloadfile.cgi` | High
-35 | File | `/vicidial/user_stats.php` | High
-36 | File | `/websocket/exec` | High
-37 | File | `access.conf` | Medium
-38 | File | `adclick.php` | Medium
-39 | File | `addsuppliers.php` | High
-40 | File | `admin.php` | Medium
-41 | File | `admin.remository.php` | High
-42 | File | `admin/admin_users.php` | High
-43 | File | `admin/login.php` | High
-44 | File | `admin/upload.php` | High
-45 | File | `administers` | Medium
-46 | File | `Administrator_list.php` | High
-47 | File | `advancedsetup_websiteblocking.html` | High
-48 | File | `affich.php` | Medium
-49 | File | `ajax_mail_autoreply.php` | High
-50 | File | `ajax_save_name.php` | High
-51 | File | `album_portal.php` | High
-52 | File | `allocator.cc` | Medium
-53 | File | `announcements.php` | High
-54 | File | `ap1.com` | Low
-55 | File | `apache2/modsecurity.c` | High
-56 | File | `api_jsonrpc.php` | High
-57 | File | `app/admin/controller/Ajax.php` | High
-58 | File | `App/Modules/Admin/Tpl/default/Public/dwz/uploadify/scripts/uploadify.swf` | High
-59 | File | `application.php` | High
-60 | File | `apply.cgi` | Medium
-61 | File | `asp:.jpg` | Medium
+18 | File | `/ims/login.php` | High
+19 | File | `/index.php` | Medium
+20 | File | `/jsoa/hntdCustomDesktopActionContent` | High
+21 | File | `/LEPTON_stable_2.2.2/upload/admins/media/index.php` | High
+22 | File | `/login` | Low
+23 | File | `/messageboard/view.php` | High
+24 | File | `/modules/projects/vw_files.php` | High
+25 | File | `/netflow/servlet/CReportPDFServlet` | High
+26 | File | `/opensis/modules/grades/InputFinalGrades.php` | High
+27 | File | `/opensis/modules/users/Staff.php` | High
+28 | File | `/plesk-site-preview/` | High
+29 | File | `/proc/self/environ` | High
+30 | File | `/rest/api/2/user/picker` | High
+31 | File | `/s/` | Low
+32 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+33 | File | `/secure/QueryComponent!Default.jspa` | High
+34 | File | `/sendrcpackage?keyid=-2544&keysymbol=-4081` | High
+35 | File | `/system?action=ServiceAdmin` | High
+36 | File | `/var/WEB-GUI/cgi-bin/downloadfile.cgi` | High
+37 | File | `/vicidial/user_stats.php` | High
+38 | File | `/websocket/exec` | High
+39 | File | `access.conf` | Medium
+40 | File | `action.php` | Medium
+41 | File | `adclick.php` | Medium
+42 | File | `addsuppliers.php` | High
+43 | File | `admin.php` | Medium
+44 | File | `admin.remository.php` | High
+45 | File | `admin/admin_users.php` | High
+46 | File | `admin/login.php` | High
+47 | File | `administers` | Medium
+48 | File | `Administrator_list.php` | High
+49 | File | `advancedsetup_websiteblocking.html` | High
+50 | File | `affich.php` | Medium
+51 | File | `ajax_mail_autoreply.php` | High
+52 | File | `ajax_save_name.php` | High
+53 | File | `album_portal.php` | High
+54 | File | `allocator.cc` | Medium
+55 | File | `announcements.php` | High
+56 | File | `ap1.com` | Low
+57 | File | `apache2/modsecurity.c` | High
+58 | File | `api_jsonrpc.php` | High
+59 | File | `app/admin/controller/Ajax.php` | High
+60 | File | `App/Modules/Admin/Tpl/default/Public/dwz/uploadify/scripts/uploadify.swf` | High
+61 | File | `application.php` | High
 62 | ... | ... | ...
 
-There are 539 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 547 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

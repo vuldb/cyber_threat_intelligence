@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [BR](https://vuldb.com/?country.br)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
 There are 12 more country items available. Please use our online service to access the data.
@@ -59,45 +59,46 @@ ID | Type | Indicator | Confidence
 1 | File | `.htaccess` | Medium
 2 | File | `/.env` | Low
 3 | File | `/admin/api/theme-edit/` | High
-4 | File | `/admin/attendance_row.php` | High
-5 | File | `/admin/cashadvance_row.php` | High
-6 | File | `/admin/employee_row.php` | High
-7 | File | `/Admin/login.php` | High
-8 | File | `/admin/products/manage_product.php` | High
-9 | File | `/admin/read.php?mudi=announContent` | High
-10 | File | `/admin/user/manage_user.php` | High
-11 | File | `/ajax.php?action=read_msg` | High
-12 | File | `/api/upload` | Medium
-13 | File | `/api/wechat/app_auth` | High
-14 | File | `/changeimage.php` | High
-15 | File | `/classes/Master.php?f=delete_sub_category` | High
-16 | File | `/cms/category/list` | High
-17 | File | `/debug/pprof` | Medium
-18 | File | `/Default/Bd` | Medium
-19 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
-20 | File | `/domain/add` | Medium
-21 | File | `/donor-wall` | Medium
-22 | File | `/ebics-server/ebics.aspx` | High
-23 | File | `/esbus/servlet/GetSQLData` | High
-24 | File | `/film-rating.php` | High
-25 | File | `/forum/away.php` | High
-26 | File | `/goform/formLogin` | High
-27 | File | `/HNAP1` | Low
-28 | File | `/horde/util/go.php` | High
-29 | File | `/index.php?app=main&func=passport&action=login` | High
-30 | File | `/ishttpd/localweb/java/` | High
-31 | File | `/KK_LS9ReportingPortal/GetData` | High
-32 | File | `/mcategory.php` | High
-33 | File | `/out.php` | Medium
-34 | File | `/p` | Low
-35 | File | `/pages/processlogin.php` | High
-36 | File | `/preview.php` | Medium
-37 | File | `/product/savenewproduct.php?flag=1` | High
-38 | File | `/search` | Low
-39 | File | `/services/Card/findUser` | High
-40 | ... | ... | ...
+4 | File | `/admin/article/article-edit-run.php` | High
+5 | File | `/admin/attendance_row.php` | High
+6 | File | `/admin/cashadvance_row.php` | High
+7 | File | `/admin/employee_row.php` | High
+8 | File | `/Admin/login.php` | High
+9 | File | `/admin/products/manage_product.php` | High
+10 | File | `/admin/read.php?mudi=announContent` | High
+11 | File | `/admin/user/manage_user.php` | High
+12 | File | `/ajax.php?action=read_msg` | High
+13 | File | `/api/upload` | Medium
+14 | File | `/api/wechat/app_auth` | High
+15 | File | `/changeimage.php` | High
+16 | File | `/classes/Master.php?f=delete_sub_category` | High
+17 | File | `/cms/category/list` | High
+18 | File | `/debug/pprof` | Medium
+19 | File | `/Default/Bd` | Medium
+20 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
+21 | File | `/domain/add` | Medium
+22 | File | `/donor-wall` | Medium
+23 | File | `/ebics-server/ebics.aspx` | High
+24 | File | `/esbus/servlet/GetSQLData` | High
+25 | File | `/film-rating.php` | High
+26 | File | `/forum/away.php` | High
+27 | File | `/goform/formLogin` | High
+28 | File | `/HNAP1` | Low
+29 | File | `/horde/util/go.php` | High
+30 | File | `/index.php?app=main&func=passport&action=login` | High
+31 | File | `/index.php?page=member` | High
+32 | File | `/ishttpd/localweb/java/` | High
+33 | File | `/KK_LS9ReportingPortal/GetData` | High
+34 | File | `/mcategory.php` | High
+35 | File | `/out.php` | Medium
+36 | File | `/p` | Low
+37 | File | `/pages/processlogin.php` | High
+38 | File | `/preview.php` | Medium
+39 | File | `/product/savenewproduct.php?flag=1` | High
+40 | File | `/search` | Low
+41 | ... | ... | ...
 
-There are 345 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 350 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

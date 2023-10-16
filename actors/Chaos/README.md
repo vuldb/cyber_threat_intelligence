@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [LU](https://vuldb.com/?country.lu)
 * ...
 
-There are 6 more country items available. Please use our online service to access the data.
+There are 5 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -38,7 +38,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-36 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
@@ -59,40 +59,45 @@ ID | Type | Indicator | Confidence
 4 | File | `/admin/reminders/manage_reminder.php` | High
 5 | File | `/admin/services/view_service.php` | High
 6 | File | `/api/baskets/{name}` | High
-7 | File | `/auparse/auparse.c` | High
-8 | File | `/authUserAction!edit.action` | High
+7 | File | `/api/v1/terminal/sessions/?limit=1` | High
+8 | File | `/auparse/auparse.c` | High
 9 | File | `/baseOpLog.do` | High
-10 | File | `/blog/edit` | Medium
-11 | File | `/cgi-bin/cstecgi.cgi` | High
-12 | File | `/cgi-bin/luci/api/auth` | High
-13 | File | `/cgi-bin/luci/api/wireless` | High
-14 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
-15 | File | `/cgi-bin/wlogin.cgi` | High
-16 | File | `/claire_blake` | High
-17 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
-18 | File | `/csms/admin/inquiries/view_details.php` | High
-19 | File | `/dashboard/contact` | High
-20 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-21 | File | `/env` | Low
-22 | File | `/export` | Low
-23 | File | `/forum/away.php` | High
-24 | File | `/goform/addRouting` | High
-25 | File | `/goform/setDiagnoseInfo` | High
-26 | File | `/goform/WifiBasicSet` | High
-27 | File | `/hrm/employeeview.php` | High
-28 | File | `/htdocs/cgibin` | High
-29 | File | `/include/chart_generator.php` | High
+10 | File | `/CCMAdmin/serverlist.asp` | High
+11 | File | `/cgi-bin/luci/api/auth` | High
+12 | File | `/cgi-bin/luci/api/wireless` | High
+13 | File | `/cgi-bin/wlogin.cgi` | High
+14 | File | `/cgi/get_param.cgi` | High
+15 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
+16 | File | `/csms/admin/inquiries/view_details.php` | High
+17 | File | `/cstecgi.cgi` | Medium
+18 | File | `/dashboard/contact` | High
+19 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+20 | File | `/env` | Low
+21 | File | `/forum/away.php` | High
+22 | File | `/goform/setDiagnoseInfo` | High
+23 | File | `/goform/WifiBasicSet` | High
+24 | File | `/hrm/employeeview.php` | High
+25 | File | `/htdocs/cgibin` | High
+26 | File | `/importexport.php` | High
+27 | File | `/include/chart_generator.php` | High
+28 | File | `/index.php` | Medium
+29 | File | `/index.php?page=member` | High
 30 | File | `/librarian/bookdetails.php` | High
-31 | File | `/matkul/data` | Medium
-32 | File | `/message/form/` | High
-33 | File | `/messageboard/view.php` | High
-34 | File | `/mkshop/Men/profile.php` | High
+31 | File | `/link/` | Low
+32 | File | `/matkul/data` | Medium
+33 | File | `/message/form/` | High
+34 | File | `/messageboard/view.php` | High
 35 | File | `/out.php` | Medium
 36 | File | `/src/Illuminate/Laravel.php` | High
 37 | File | `/SVFE2/pages/feegroups/country_group.jsf` | High
-38 | ... | ... | ...
+38 | File | `/system/dict/list` | High
+39 | File | `/system/user/resetPwd` | High
+40 | File | `/SystemManage/Organize/GetTreeGridJson?_search=false&nd=1681813520783&rows=10000&page=1&sidx=&sord=asc` | High
+41 | File | `/SystemManage/Role/GetGridJson?keyword=&page=1&rows=20` | High
+42 | File | `/textpattern/index.php` | High
+43 | ... | ... | ...
 
-There are 331 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 373 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -89,10 +89,11 @@ ID | Type | Indicator | Confidence
 28 | File | `admin/adminsignin.html` | High
 29 | File | `admin/movieview.php` | High
 30 | File | `admin/versions.html` | High
-31 | File | `ajax_calls.php` | High
-32 | ... | ... | ...
+31 | File | `agenda.php` | Medium
+32 | File | `ajax_calls.php` | High
+33 | ... | ... | ...
 
-There are 271 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 278 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

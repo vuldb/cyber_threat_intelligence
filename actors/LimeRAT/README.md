@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [IN](https://vuldb.com/?country.in)
 * ...
 
-There are 17 more country items available. Please use our online service to access the data.
+There are 18 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -35,9 +35,11 @@ ID | IP address | Hostname | Campaign | Confidence
 12 | [27.3.162.17](https://vuldb.com/?ip.27.3.162.17) | - | - | High
 13 | [31.210.55.103](https://vuldb.com/?ip.31.210.55.103) | 31-210-55-103.hostlab.net.tr | - | High
 14 | [38.242.239.137](https://vuldb.com/?ip.38.242.239.137) | vmi1081127.contaboserver.net | - | High
-15 | ... | ... | ... | ...
+15 | [41.225.34.198](https://vuldb.com/?ip.41.225.34.198) | - | - | High
+16 | [45.88.79.224](https://vuldb.com/?ip.45.88.79.224) | free.example.com | - | High
+17 | ... | ... | ... | ...
 
-There are 57 more IOC items available. Please use our online service to access the data.
+There are 62 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -72,42 +74,42 @@ ID | Type | Indicator | Confidence
 10 | File | `/api/ZRQos/set_online_client` | High
 11 | File | `/articles/welcome-to-your-site#comments-head` | High
 12 | File | `/batm/app/admin/standalone/deployments` | High
-13 | File | `/binbloom-master/src/helpers.c` | High
-14 | File | `/blog` | Low
-15 | File | `/boafrm/formHomeWlanSetup` | High
-16 | File | `/cgi-bin/kerbynet` | High
-17 | File | `/ci_hms/massage_room/edit/1` | High
-18 | File | `/classes/Master.php?f=delete_reservation` | High
-19 | File | `/core/kernels/ctc_decoder_ops.cc` | High
-20 | File | `/crmeb/app/admin/controller/store/CopyTaobao.php` | High
-21 | File | `/dashboard/settings` | High
-22 | File | `/dashboard/system/express/entities/forms/save_control/[GUID]` | High
-23 | File | `/dev/dri/card1` | High
-24 | File | `/diagnostic/login.php` | High
-25 | File | `/ecrire/tools/blogroll/index.php` | High
-26 | File | `/employeeview.php` | High
-27 | File | `/enterprise/www/student.php` | High
-28 | File | `/etc/config/image_sign` | High
-29 | File | `/etc/sudoers` | Medium
-30 | File | `/files/$username/Myfolder/Mysubfolder/shared.txt` | High
-31 | File | `/forum/away.php` | High
-32 | File | `/garage/editclient.php` | High
-33 | File | `/gasmark/assets/myimages/oneWord.php` | High
-34 | File | `/hocms/classes/Master.php?f=delete_phase` | High
-35 | File | `/hrm/controller/employee.php` | High
-36 | File | `/index.php` | Medium
-37 | File | `/lam/tmp/` | Medium
-38 | File | `/logs/sql-error.log` | High
-39 | File | `/ManageRoute/postRoute` | High
-40 | File | `/mkshop/Men/profile.php` | High
-41 | File | `/newVersion` | Medium
-42 | File | `/onlineordering/GPST/admin/design.php` | High
-43 | File | `/out.php` | Medium
-44 | File | `/PC/WebService.asmx` | High
-45 | File | `/preauth` | Medium
-46 | File | `/search.php` | Medium
-47 | File | `/Source/C++/Core/Ap4DataBuffer.cpp` | High
-48 | File | `/spip.php` | Medium
+13 | File | `/be/erpc.php` | Medium
+14 | File | `/binbloom-master/src/helpers.c` | High
+15 | File | `/blog` | Low
+16 | File | `/boafrm/formHomeWlanSetup` | High
+17 | File | `/cgi-bin/kerbynet` | High
+18 | File | `/ci_hms/massage_room/edit/1` | High
+19 | File | `/classes/Master.php?f=delete_reservation` | High
+20 | File | `/core/kernels/ctc_decoder_ops.cc` | High
+21 | File | `/crmeb/app/admin/controller/store/CopyTaobao.php` | High
+22 | File | `/dashboard/settings` | High
+23 | File | `/dashboard/system/express/entities/forms/save_control/[GUID]` | High
+24 | File | `/dev/dri/card1` | High
+25 | File | `/diagnostic/login.php` | High
+26 | File | `/ecrire/tools/blogroll/index.php` | High
+27 | File | `/employeeview.php` | High
+28 | File | `/enterprise/www/student.php` | High
+29 | File | `/etc/config/image_sign` | High
+30 | File | `/etc/sudoers` | Medium
+31 | File | `/files/$username/Myfolder/Mysubfolder/shared.txt` | High
+32 | File | `/forum/away.php` | High
+33 | File | `/garage/editclient.php` | High
+34 | File | `/gasmark/assets/myimages/oneWord.php` | High
+35 | File | `/hocms/classes/Master.php?f=delete_phase` | High
+36 | File | `/hrm/controller/employee.php` | High
+37 | File | `/index.php` | Medium
+38 | File | `/lam/tmp/` | Medium
+39 | File | `/logs/sql-error.log` | High
+40 | File | `/ManageRoute/postRoute` | High
+41 | File | `/mkshop/Men/profile.php` | High
+42 | File | `/newVersion` | Medium
+43 | File | `/onlineordering/GPST/admin/design.php` | High
+44 | File | `/out.php` | Medium
+45 | File | `/PC/WebService.asmx` | High
+46 | File | `/preauth` | Medium
+47 | File | `/search.php` | Medium
+48 | File | `/Source/C++/Core/Ap4DataBuffer.cpp` | High
 49 | ... | ... | ...
 
 There are 427 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
@@ -116,6 +118,7 @@ There are 427 more IOA items available (file, library, argument, input value, pa
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://lab52.io/blog/apt-c-36-from-njrat-to-apt-c-36/
 * https://threatfox.abuse.ch
 
 ## Literature

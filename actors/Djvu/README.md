@@ -52,15 +52,15 @@ ID | Type | Indicator | Confidence
 5 | File | `/index.php/weblinks-categories` | High
 6 | File | `/plain` | Low
 7 | File | `/show_group_members.php` | High
-8 | File | `/web/google_analytics.php` | High
-9 | File | `archive_endian.h` | High
-10 | File | `bmp.c` | Low
-11 | File | `cgi-bin/jc.cgi` | High
-12 | File | `checklogin.php` | High
-13 | File | `cmd.exe` | Low
+8 | File | `/uncpath/` | Medium
+9 | File | `/web/google_analytics.php` | High
+10 | File | `archive_endian.h` | High
+11 | File | `bmp.c` | Low
+12 | File | `cgi-bin/jc.cgi` | High
+13 | File | `checklogin.php` | High
 14 | ... | ... | ...
 
-There are 109 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 110 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

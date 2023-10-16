@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 18 more country items available. Please use our online service to access the data.
+There are 16 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -29,12 +29,12 @@ ID | IP address | Hostname | Campaign | Confidence
 6 | [23.204.189.35](https://vuldb.com/?ip.23.204.189.35) | a23-204-189-35.deploy.static.akamaitechnologies.com | - | High
 7 | [35.83.156.201](https://vuldb.com/?ip.35.83.156.201) | ec2-35-83-156-201.us-west-2.compute.amazonaws.com | - | Medium
 8 | [35.168.183.178](https://vuldb.com/?ip.35.168.183.178) | ec2-35-168-183-178.compute-1.amazonaws.com | - | Medium
-9 | [37.120.141.147](https://vuldb.com/?ip.37.120.141.147) | - | - | High
-10 | [37.120.141.190](https://vuldb.com/?ip.37.120.141.190) | - | - | High
-11 | [37.139.129.243](https://vuldb.com/?ip.37.139.129.243) | - | - | High
+9 | [37.113.171.12](https://vuldb.com/?ip.37.113.171.12) | dynamicip-37-113-171-12.pppoe.chel.ertelecom.ru | - | High
+10 | [37.120.141.147](https://vuldb.com/?ip.37.120.141.147) | - | - | High
+11 | [37.120.141.190](https://vuldb.com/?ip.37.120.141.190) | - | - | High
 12 | ... | ... | ... | ...
 
-There are 42 more IOC items available. Please use our online service to access the data.
+There are 45 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -47,9 +47,10 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+6 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+7 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 24 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -58,59 +59,53 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `//WEB-INF` | Medium
-2 | File | `/?p=products` | Medium
-3 | File | `/about.php` | Medium
-4 | File | `/admin.php/update/getFile.html` | High
-5 | File | `/admin/?page=user/manage_user&id=3` | High
-6 | File | `/admin/about-us.php` | High
-7 | File | `/admin/sys_sql_query.php` | High
-8 | File | `/api/baskets/{name}` | High
-9 | File | `/api/stl/actions/search` | High
-10 | File | `/api/v2/cli/commands` | High
-11 | File | `/bin/ate` | Medium
-12 | File | `/bitrix/admin/ldap_server_edit.php` | High
-13 | File | `/booking/show_bookings/` | High
+2 | File | `/about.php` | Medium
+3 | File | `/admin/?page=user/manage_user&id=3` | High
+4 | File | `/admin/about-us.php` | High
+5 | File | `/admin/sys_sql_query.php` | High
+6 | File | `/api/baskets/{name}` | High
+7 | File | `/api/download` | High
+8 | File | `/api/stl/actions/search` | High
+9 | File | `/api/v1/terminal/sessions/?limit=1` | High
+10 | File | `/bin/ate` | Medium
+11 | File | `/bitrix/admin/ldap_server_edit.php` | High
+12 | File | `/booking/show_bookings/` | High
+13 | File | `/category.php` | High
 14 | File | `/cgi-bin` | Medium
 15 | File | `/cgi-bin/luci/api/wireless` | High
 16 | File | `/company/store` | High
 17 | File | `/Content/Template/root/reverse-shell.aspx` | High
 18 | File | `/Controller/Ajaxfileupload.ashx` | High
-19 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
-20 | File | `/core/conditions/AbstractWrapper.java` | High
+19 | File | `/core/conditions/AbstractWrapper.java` | High
+20 | File | `/dashboard/add-blog.php` | High
 21 | File | `/dcim/rack-roles/` | High
 22 | File | `/debug/pprof` | Medium
 23 | File | `/env` | Low
 24 | File | `/etc/passwd` | Medium
-25 | File | `/feeds/post/publish` | High
-26 | File | `/forum/away.php` | High
-27 | File | `/group1/uploa` | High
-28 | File | `/h/` | Low
-29 | File | `/horde/util/go.php` | High
-30 | File | `/inc/jquery/uploadify/uploadify.php` | High
-31 | File | `/index.php` | Medium
-32 | File | `/index.php?app=main&func=passport&action=login` | High
-33 | File | `/index.php?page=category_list` | High
+25 | File | `/forum/away.php` | High
+26 | File | `/group1/uploa` | High
+27 | File | `/h/` | Low
+28 | File | `/horde/util/go.php` | High
+29 | File | `/inc/jquery/uploadify/uploadify.php` | High
+30 | File | `/index.php` | Medium
+31 | File | `/index.php?app=main&func=passport&action=login` | High
+32 | File | `/index.php?page=category_list` | High
+33 | File | `/jeecg-boot/sys/common/upload` | High
 34 | File | `/jobinfo/` | Medium
 35 | File | `/kelas/data` | Medium
 36 | File | `/Moosikay/order.php` | High
-37 | File | `/opac/Actions.php?a=login` | High
-38 | File | `/php-sms/admin/?page=user/manage_user` | High
-39 | File | `/PreviewHandler.ashx` | High
-40 | File | `/recipe-result` | High
-41 | File | `/register.do` | Medium
-42 | File | `/reservation/add_message.php` | High
-43 | File | `/resources//../` | High
-44 | File | `/Service/ImageStationDataService.asmx` | High
-45 | File | `/spip.php` | Medium
-46 | File | `/squashfs-root/etc_ro/custom.conf` | High
-47 | File | `/staff/edit_book_details.php` | High
-48 | File | `/student/bookdetails.php` | High
-49 | File | `/uploads/exam_question/` | High
-50 | File | `/user/profile` | High
-51 | File | `/user/ticket/create` | High
-52 | ... | ... | ...
+37 | File | `/php-sms/admin/?page=user/manage_user` | High
+38 | File | `/PreviewHandler.ashx` | High
+39 | File | `/recipe-result` | High
+40 | File | `/register.do` | Medium
+41 | File | `/resources//../` | High
+42 | File | `/Service/ImageStationDataService.asmx` | High
+43 | File | `/spip.php` | Medium
+44 | File | `/squashfs-root/etc_ro/custom.conf` | High
+45 | File | `/staff/edit_book_details.php` | High
+46 | ... | ... | ...
 
-There are 448 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 397 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

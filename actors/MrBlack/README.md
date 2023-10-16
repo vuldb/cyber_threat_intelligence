@@ -73,37 +73,37 @@ ID | Type | Indicator | Confidence
 22 | File | `/usr/bin/tddp` | High
 23 | File | `/usr/etc/rpc.passwd` | High
 24 | File | `/wp-content/plugins/forum-server/feed.php` | High
-25 | File | `add_edit_event.php` | High
-26 | File | `admin.php` | Medium
-27 | File | `admin/adminfunctions.php` | High
-28 | File | `admin/event_edit.php` | High
-29 | File | `admin/Index/write.html` | High
-30 | File | `admin/manage-comments.php` | High
-31 | File | `admin/moduleinterface.php` | High
-32 | File | `admin/moduleinterface.php.` | High
-33 | File | `admin/partials/custom/egoi-for-wp-form_egoi.php` | High
-34 | File | `admincp/attachment.php` | High
-35 | File | `admin_class.php` | High
-36 | File | `all-offers/` | Medium
-37 | File | `api/openUrlInDefaultBrowser` | High
-38 | File | `apply.cgi` | Medium
-39 | File | `arch/arm64/kernel/entry.S` | High
-40 | File | `as2guiie.cab` | Medium
-41 | File | `backupsettings.conf` | High
-42 | File | `badword.asp` | Medium
-43 | File | `base_local_rules.php` | High
-44 | File | `bfd/mach-o.c` | Medium
-45 | File | `booker_details.php` | High
-46 | File | `bpcd.exe` | Medium
-47 | File | `BrudaNews/BrudaGB` | High
-48 | File | `calAdd.php` | Medium
-49 | File | `calendar.php` | Medium
-50 | File | `cardreader.cpp` | High
-51 | File | `cgi-bin/passrec.asp` | High
-52 | File | `cgi/cron.php` | Medium
+25 | File | `add.php` | Low
+26 | File | `add_edit_event.php` | High
+27 | File | `admin.php` | Medium
+28 | File | `admin/adminfunctions.php` | High
+29 | File | `admin/event_edit.php` | High
+30 | File | `admin/Index/write.html` | High
+31 | File | `admin/manage-comments.php` | High
+32 | File | `admin/moduleinterface.php` | High
+33 | File | `admin/moduleinterface.php.` | High
+34 | File | `admin/partials/custom/egoi-for-wp-form_egoi.php` | High
+35 | File | `admincp/attachment.php` | High
+36 | File | `admin_class.php` | High
+37 | File | `all-offers/` | Medium
+38 | File | `api/openUrlInDefaultBrowser` | High
+39 | File | `apply.cgi` | Medium
+40 | File | `arch/arm64/kernel/entry.S` | High
+41 | File | `as2guiie.cab` | Medium
+42 | File | `backupsettings.conf` | High
+43 | File | `badword.asp` | Medium
+44 | File | `base_local_rules.php` | High
+45 | File | `bfd/mach-o.c` | Medium
+46 | File | `booker_details.php` | High
+47 | File | `bpcd.exe` | Medium
+48 | File | `BrudaNews/BrudaGB` | High
+49 | File | `calAdd.php` | Medium
+50 | File | `calendar.php` | Medium
+51 | File | `cardreader.cpp` | High
+52 | File | `cgi-bin/passrec.asp` | High
 53 | ... | ... | ...
 
-There are 461 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 463 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

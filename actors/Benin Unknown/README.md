@@ -69,39 +69,43 @@ ID | Type | Indicator | Confidence
 5 | File | `/admin/forgot-password.php` | High
 6 | File | `/admin/index.php` | High
 7 | File | `/admin/lab.php` | High
-8 | File | `/admin/payment.php` | High
-9 | File | `/admin/show.php` | High
-10 | File | `/advanced-tools/nova/bin/netwatch` | High
-11 | File | `/api/baskets/{name}` | High
-12 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-13 | File | `/default.php?idx=17` | High
-14 | File | `/device/device=345/?tab=ports` | High
-15 | File | `/download` | Medium
-16 | File | `/env` | Low
-17 | File | `/forum/away.php` | High
-18 | File | `/index.php` | Medium
-19 | File | `/opt/bin/cli` | Medium
-20 | File | `/p` | Low
-21 | File | `/patient/doctors.php` | High
-22 | File | `/phpinventory/editcategory.php` | High
-23 | File | `/preview.php` | Medium
-24 | File | `/product-list.php` | High
-25 | File | `/proxy/` | Low
-26 | File | `/spip.php` | Medium
-27 | File | `/uncpath/` | Medium
-28 | File | `/updown/upload.cgi` | High
-29 | File | `/user/del.php` | High
-30 | File | `/_next` | Low
-31 | File | `123flashchat.php` | High
-32 | File | `act.php` | Low
-33 | File | `admin/admin_menu.php` | High
-34 | File | `admin/bad.php` | High
-35 | File | `admin/index.php` | High
-36 | File | `admin/index.php/user/del/1` | High
-37 | File | `admin/index.php?id=themes&action=edit_chunk` | High
-38 | ... | ... | ...
+8 | File | `/admin/login.php` | High
+9 | File | `/admin/payment.php` | High
+10 | File | `/admin/show.php` | High
+11 | File | `/advanced-tools/nova/bin/netwatch` | High
+12 | File | `/api/baskets/{name}` | High
+13 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
+14 | File | `/default.php?idx=17` | High
+15 | File | `/device/device=345/?tab=ports` | High
+16 | File | `/download` | Medium
+17 | File | `/env` | Low
+18 | File | `/forum/away.php` | High
+19 | File | `/index.php` | Medium
+20 | File | `/opt/bin/cli` | Medium
+21 | File | `/p` | Low
+22 | File | `/patient/doctors.php` | High
+23 | File | `/phpinventory/editcategory.php` | High
+24 | File | `/preview.php` | Medium
+25 | File | `/product-list.php` | High
+26 | File | `/proxy/` | Low
+27 | File | `/spip.php` | Medium
+28 | File | `/uncpath/` | Medium
+29 | File | `/updown/upload.cgi` | High
+30 | File | `/user/del.php` | High
+31 | File | `/wp-admin/admin-ajax.php` | High
+32 | File | `/_next` | Low
+33 | File | `123flashchat.php` | High
+34 | File | `act.php` | Low
+35 | File | `admin.php/pay` | High
+36 | File | `admin/admin_menu.php` | High
+37 | File | `admin/bad.php` | High
+38 | File | `admin/index.php` | High
+39 | File | `admin/index.php/user/del/1` | High
+40 | File | `admin/index.php?id=themes&action=edit_chunk` | High
+41 | File | `administrator/index.php` | High
+42 | ... | ... | ...
 
-There are 331 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 362 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
