@@ -45,7 +45,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
@@ -74,16 +74,16 @@ ID | Type | Indicator | Confidence
 14 | File | `/wp-content/plugins/updraftplus/admin.php` | High
 15 | File | `add.php` | Low
 16 | File | `admin.cgi/config.cgi` | High
-17 | File | `admin/admin.guestbook.php` | High
-18 | File | `admin/auth.php` | High
-19 | File | `admin/backupdb.php` | High
-20 | File | `admin/login.asp` | High
-21 | File | `admin/preview.php` | High
-22 | File | `administrator/components/com_media/helpers/media.php` | High
-23 | File | `archive_read_support_format_rar.c` | High
+17 | File | `admin.php` | Medium
+18 | File | `admin/admin.guestbook.php` | High
+19 | File | `admin/auth.php` | High
+20 | File | `admin/backupdb.php` | High
+21 | File | `admin/login.asp` | High
+22 | File | `admin/preview.php` | High
+23 | File | `administrator/components/com_media/helpers/media.php` | High
 24 | ... | ... | ...
 
-There are 196 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 200 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

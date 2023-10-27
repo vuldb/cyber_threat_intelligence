@@ -58,15 +58,15 @@ ID | Type | Indicator | Confidence
 1 | File | `%PROGRAMFILES(X86)%\Teradici\PCoIP.exe` | High
 2 | File | `/.vnc/sesman_${username}_passwd` | High
 3 | File | `/api/RecordingList/DownloadRecord?file=` | High
-4 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-5 | File | `/mics/j_spring_security_check` | High
-6 | File | `/oauth/token` | Medium
-7 | File | `/opt/bin/cli` | Medium
-8 | File | `/rom-0` | Low
-9 | File | `/uncpath/` | Medium
+4 | File | `/api/v2/cli/commands` | High
+5 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
+6 | File | `/mics/j_spring_security_check` | High
+7 | File | `/oauth/token` | Medium
+8 | File | `/opt/bin/cli` | Medium
+9 | File | `/rom-0` | Low
 10 | ... | ... | ...
 
-There are 76 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 77 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

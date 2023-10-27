@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [KZ](https://vuldb.com/?country.kz)
 * ...
 
-There are 15 more country items available. Please use our online service to access the data.
+There are 16 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -222,7 +222,7 @@ ID | Technique | Weakness | Description | Confidence
 6 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 7 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 23 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -252,28 +252,28 @@ ID | Type | Indicator | Confidence
 20 | File | `/cgi-bin` | Medium
 21 | File | `/cgi-bin/wlogin.cgi` | High
 22 | File | `/Content/Template/root/reverse-shell.aspx` | High
-23 | File | `/context/%2e/WEB-INF/web.xml` | High
-24 | File | `/dashboard/add-blog.php` | High
-25 | File | `/debug/pprof` | Medium
-26 | File | `/dottie.js` | Medium
-27 | File | `/env` | Low
-28 | File | `/etc/hosts` | Medium
-29 | File | `/forum/away.php` | High
-30 | File | `/geoserver/rest/about/status` | High
-31 | File | `/graphql` | Medium
-32 | File | `/group1/uploa` | High
-33 | File | `/KK_LS9ReportingPortal/GetData` | High
-34 | File | `/medicines/profile.php` | High
-35 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-36 | File | `/php-sms/admin/?page=user/manage_user` | High
-37 | File | `/plesk-site-preview/` | High
-38 | File | `/proxy` | Low
-39 | File | `/reservation/add_message.php` | High
-40 | File | `/resources//../` | High
-41 | File | `/spip.php` | Medium
+23 | File | `/dashboard/add-blog.php` | High
+24 | File | `/debug/pprof` | Medium
+25 | File | `/dottie.js` | Medium
+26 | File | `/env` | Low
+27 | File | `/etc/hosts` | Medium
+28 | File | `/forum/away.php` | High
+29 | File | `/geoserver/rest/about/status` | High
+30 | File | `/graphql` | Medium
+31 | File | `/group1/uploa` | High
+32 | File | `/KK_LS9ReportingPortal/GetData` | High
+33 | File | `/medicines/profile.php` | High
+34 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+35 | File | `/php-sms/admin/?page=user/manage_user` | High
+36 | File | `/plesk-site-preview/` | High
+37 | File | `/proxy` | Low
+38 | File | `/reservation/add_message.php` | High
+39 | File | `/resources//../` | High
+40 | File | `/spip.php` | Medium
+41 | File | `/tmp` | Low
 42 | ... | ... | ...
 
-There are 361 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 364 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

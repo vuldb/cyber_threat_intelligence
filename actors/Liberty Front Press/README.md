@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Liberty Front Press:
 
 * [US](https://vuldb.com/?country.us)
-* [CN](https://vuldb.com/?country.cn)
 * [VN](https://vuldb.com/?country.vn)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 14 more country items available. Please use our online service to access the data.
+There are 13 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -88,15 +88,15 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-25, CWE-29 | Pathname Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-25, CWE-29, CWE-36 | Pathname Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+6 | T1068 | CWE-250, CWE-264, CWE-266, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 7 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 24 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -104,56 +104,48 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/?p=products` | Medium
-2 | File | `/admin.php/accessory/filesdel.html` | High
-3 | File | `/admin/?page=user/manage` | High
-4 | File | `/admin/add-new.php` | High
-5 | File | `/admin/doctors.php` | High
-6 | File | `/admin/index3.php` | High
-7 | File | `/admin/upload/upload` | High
-8 | File | `/adms/admin/?page=vehicles/view_transaction` | High
-9 | File | `/alphaware/summary.php` | High
-10 | File | `/api/` | Low
-11 | File | `/api/admin/store/product/list` | High
-12 | File | `/api/baskets/{name}` | High
-13 | File | `/api/gen/clients/{language}` | High
-14 | File | `/api/stl/actions/search` | High
-15 | File | `/api/v2/cli/commands` | High
-16 | File | `/bin/ate` | Medium
-17 | File | `/boat/login.php` | High
-18 | File | `/booking/show_bookings/` | High
-19 | File | `/bsms_ci/index.php/book` | High
-20 | File | `/cgi-bin` | Medium
-21 | File | `/cgi-bin/wlogin.cgi` | High
-22 | File | `/config/myfield/test.php` | High
-23 | File | `/debug/pprof` | Medium
-24 | File | `/ecshop/admin/template.php` | High
-25 | File | `/env` | Low
-26 | File | `/file/upload/1` | High
-27 | File | `/forum/away.php` | High
-28 | File | `/forum/PostPrivateMessage` | High
-29 | File | `/goform/set_LimitClient_cfg` | High
-30 | File | `/home/www/cgi-bin/login.cgi` | High
-31 | File | `/hss/admin/?page=products/view_product` | High
-32 | File | `/loginsave.php` | High
-33 | File | `/medicines/profile.php` | High
-34 | File | `/multi-vendor-shopping-script/product-list.php` | High
-35 | File | `/net-banking/customer_transactions.php` | High
-36 | File | `/obs/book.php` | High
-37 | File | `/owa/auth/logon.aspx` | High
-38 | File | `/param.file.tgz` | High
-39 | File | `/php-sms/admin/?page=user/manage_user` | High
-40 | File | `/preview.php` | Medium
-41 | File | `/public_html/users.php` | High
-42 | File | `/requests.php` | High
-43 | File | `/reservation/add_message.php` | High
-44 | File | `/resources//../` | High
-45 | File | `/spip.php` | Medium
-46 | File | `/sqlite3_aflpp/shell.c` | High
-47 | File | `/SVFE2/pages/feegroups/service_group.jsf` | High
-48 | ... | ... | ...
+1 | File | `$HOME/.terminfo` | High
+2 | File | `/?p=products` | Medium
+3 | File | `/api/` | Low
+4 | File | `/api/admin/store/product/list` | High
+5 | File | `/api/baskets/{name}` | High
+6 | File | `/api/gen/clients/{language}` | High
+7 | File | `/api/stl/actions/search` | High
+8 | File | `/api/v2/cli/commands` | High
+9 | File | `/bin/ate` | Medium
+10 | File | `/bin/login` | Medium
+11 | File | `/bin/mini_upnpd` | High
+12 | File | `/booking/show_bookings/` | High
+13 | File | `/cgi-bin` | Medium
+14 | File | `/cgi-bin/wlogin.cgi` | High
+15 | File | `/config/myfield/test.php` | High
+16 | File | `/Content/Template/root/reverse-shell.aspx` | High
+17 | File | `/dashboard/add-blog.php` | High
+18 | File | `/debug/pprof` | Medium
+19 | File | `/env` | Low
+20 | File | `/file/upload/1` | High
+21 | File | `/forum/away.php` | High
+22 | File | `/goform/set_LimitClient_cfg` | High
+23 | File | `/group1/uploa` | High
+24 | File | `/h/autoSaveDraft` | High
+25 | File | `/h/search?action` | High
+26 | File | `/hss/admin/?page=products/view_product` | High
+27 | File | `/importexport.php` | High
+28 | File | `/index.php?app=main&func=passport&action=login` | High
+29 | File | `/mgmt/` | Low
+30 | File | `/mhds/clinic/view_details.php` | High
+31 | File | `/multi-vendor-shopping-script/product-list.php` | High
+32 | File | `/owa/auth/logon.aspx` | High
+33 | File | `/php-sms/admin/?page=user/manage_user` | High
+34 | File | `/preview.php` | Medium
+35 | File | `/requests.php` | High
+36 | File | `/resources//../` | High
+37 | File | `/secure/ViewCollectors` | High
+38 | File | `/server-status` | High
+39 | File | `/spip.php` | Medium
+40 | ... | ... | ...
 
-There are 415 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 348 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

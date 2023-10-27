@@ -68,15 +68,15 @@ ID | Type | Indicator | Confidence
 9 | File | `/service/upload` | High
 10 | File | `/tmp` | Low
 11 | File | `/uncpath/` | Medium
-12 | File | `/wp-json/oembed/1.0/embed?url` | High
-13 | File | `a2billing/customer/iridium_threed.php` | High
-14 | File | `admin.php` | Medium
-15 | File | `admin.php?s=/Channel/add.html` | High
-16 | File | `admin/class-bulk-editor-list-table.php` | High
-17 | File | `administrator/components/com_media/helpers/media.php` | High
+12 | File | `/user/updatePwd` | High
+13 | File | `/wp-json/oembed/1.0/embed?url` | High
+14 | File | `a2billing/customer/iridium_threed.php` | High
+15 | File | `admin.php` | Medium
+16 | File | `admin.php?s=/Channel/add.html` | High
+17 | File | `admin/class-bulk-editor-list-table.php` | High
 18 | ... | ... | ...
 
-There are 145 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 146 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

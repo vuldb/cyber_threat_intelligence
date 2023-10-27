@@ -108,33 +108,33 @@ ID | Type | Indicator | Confidence
 35 | File | `/system?action=ServiceAdmin` | High
 36 | File | `/var/WEB-GUI/cgi-bin/downloadfile.cgi` | High
 37 | File | `/vicidial/user_stats.php` | High
-38 | File | `/websocket/exec` | High
-39 | File | `access.conf` | Medium
-40 | File | `action.php` | Medium
-41 | File | `adclick.php` | Medium
-42 | File | `addsuppliers.php` | High
-43 | File | `admin.php` | Medium
-44 | File | `admin.remository.php` | High
-45 | File | `admin/admin_users.php` | High
-46 | File | `admin/login.php` | High
-47 | File | `administers` | Medium
-48 | File | `Administrator_list.php` | High
-49 | File | `advancedsetup_websiteblocking.html` | High
-50 | File | `affich.php` | Medium
-51 | File | `ajax_mail_autoreply.php` | High
-52 | File | `ajax_save_name.php` | High
-53 | File | `album_portal.php` | High
-54 | File | `allocator.cc` | Medium
-55 | File | `announcements.php` | High
-56 | File | `ap1.com` | Low
-57 | File | `apache2/modsecurity.c` | High
-58 | File | `api_jsonrpc.php` | High
-59 | File | `app/admin/controller/Ajax.php` | High
-60 | File | `App/Modules/Admin/Tpl/default/Public/dwz/uploadify/scripts/uploadify.swf` | High
-61 | File | `application.php` | High
+38 | File | `/vm/admin/doctors.php` | High
+39 | File | `/websocket/exec` | High
+40 | File | `access.conf` | Medium
+41 | File | `action.php` | Medium
+42 | File | `adclick.php` | Medium
+43 | File | `addsuppliers.php` | High
+44 | File | `admin.php` | Medium
+45 | File | `admin.remository.php` | High
+46 | File | `admin/admin_users.php` | High
+47 | File | `admin/login.php` | High
+48 | File | `administers` | Medium
+49 | File | `Administrator_list.php` | High
+50 | File | `advancedsetup_websiteblocking.html` | High
+51 | File | `affich.php` | Medium
+52 | File | `ajax_mail_autoreply.php` | High
+53 | File | `ajax_save_name.php` | High
+54 | File | `album_portal.php` | High
+55 | File | `allocator.cc` | Medium
+56 | File | `announcements.php` | High
+57 | File | `ap1.com` | Low
+58 | File | `apache2/modsecurity.c` | High
+59 | File | `api_jsonrpc.php` | High
+60 | File | `app/admin/controller/Ajax.php` | High
+61 | File | `App/Modules/Admin/Tpl/default/Public/dwz/uploadify/scripts/uploadify.swf` | High
 62 | ... | ... | ...
 
-There are 547 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 545 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

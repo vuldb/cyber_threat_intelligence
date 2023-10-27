@@ -94,38 +94,39 @@ ID | Type | Indicator | Confidence
 24 | File | `/etc/pki/pesign` | High
 25 | File | `/etc/puppetlabs/puppetserver/conf.d/ca.conf` | High
 26 | File | `/home/filter_listings` | High
-27 | File | `/include/chart_generator.php` | High
-28 | File | `/index.php` | Medium
-29 | File | `/jeecg-boot/jmreport/upload` | High
-30 | File | `/jeecg-boot/sys/common/upload` | High
-31 | File | `/listplace/user/ticket/create` | High
-32 | File | `/mgmt/tm/util/bash` | High
-33 | File | `/modules/profile/index.php` | High
-34 | File | `/nagiosql/admin/checkcommands.php` | High
-35 | File | `/out.php` | Medium
-36 | File | `/php-sms/classes/Master.php?f=save_quote` | High
-37 | File | `/portal/reports/account_statement` | High
-38 | File | `/preview.php` | Medium
-39 | File | `/property` | Medium
-40 | File | `/robots.txt` | Medium
-41 | File | `/search` | Low
-42 | File | `/send_order.cgi?parameter=restart` | High
-43 | File | `/sys/dict/loadTreeData` | High
-44 | File | `/SysInfo.htm` | Medium
-45 | File | `/uncpath/` | Medium
-46 | File | `/user/ticket/create` | High
-47 | File | `/usr/5bin/su` | Medium
-48 | File | `/usr/bin/mail` | High
-49 | File | `/usr/bin/pkexec` | High
-50 | File | `/var/log/rkhunter.log` | High
-51 | File | `/view-booking-detail.php` | High
-52 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-53 | File | `?r=contact/default/export` | High
-54 | File | `?r=recruit/contact/export&contactids=x` | High
-55 | File | `aa/../../uploads/blog/201811/attach_#.jpg` | High
-56 | ... | ... | ...
+27 | File | `/hrm/employeeadd.php` | High
+28 | File | `/im/user/` | Medium
+29 | File | `/include/chart_generator.php` | High
+30 | File | `/index.php` | Medium
+31 | File | `/jeecg-boot/jmreport/upload` | High
+32 | File | `/jeecg-boot/sys/common/upload` | High
+33 | File | `/listplace/user/ticket/create` | High
+34 | File | `/mgmt/tm/util/bash` | High
+35 | File | `/modules/profile/index.php` | High
+36 | File | `/nagiosql/admin/checkcommands.php` | High
+37 | File | `/out.php` | Medium
+38 | File | `/php-sms/classes/Master.php?f=save_quote` | High
+39 | File | `/portal/reports/account_statement` | High
+40 | File | `/preview.php` | Medium
+41 | File | `/property` | Medium
+42 | File | `/robots.txt` | Medium
+43 | File | `/search` | Low
+44 | File | `/send_order.cgi?parameter=restart` | High
+45 | File | `/sys/dict/loadTreeData` | High
+46 | File | `/SysInfo.htm` | Medium
+47 | File | `/uncpath/` | Medium
+48 | File | `/user/ticket/create` | High
+49 | File | `/usr/5bin/su` | Medium
+50 | File | `/usr/bin/pkexec` | High
+51 | File | `/var/log/rkhunter.log` | High
+52 | File | `/view-booking-detail.php` | High
+53 | File | `/view-property.php` | High
+54 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+55 | File | `?r=contact/default/export` | High
+56 | File | `?r=recruit/contact/export&contactids=x` | High
+57 | ... | ... | ...
 
-There are 491 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 495 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

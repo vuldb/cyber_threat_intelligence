@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 22 more country items available. Please use our online service to access the data.
+There are 23 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -57,45 +57,46 @@ ID | Type | Indicator | Confidence
 1 | File | `/adfs/ls` | Medium
 2 | File | `/admin/inquiries/view_details.php` | High
 3 | File | `/api/RecordingList/DownloadRecord?file=` | High
-4 | File | `/app/controller/Books.php` | High
-5 | File | `/bin/boa` | Medium
-6 | File | `/cgi-bin/wapopen` | High
-7 | File | `/config/getuser` | High
-8 | File | `/context/%2e/WEB-INF/web.xml` | High
-9 | File | `/dev/urandom` | Medium
-10 | File | `/etc/ajenti/config.yml` | High
-11 | File | `/etc/quantum/quantum.conf` | High
-12 | File | `/etc/shadow` | Medium
-13 | File | `/exec/` | Low
-14 | File | `/forum/away.php` | High
-15 | File | `/getcfg.php` | Medium
-16 | File | `/goform/dir_setWanWifi` | High
-17 | File | `/HNAP1` | Low
-18 | File | `/mgmt/tm/util/bash` | High
-19 | File | `/MIME/INBOX-MM-1/` | High
-20 | File | `/modules/projects/vw_files.php` | High
-21 | File | `/opt/tms/bin/cli` | High
-22 | File | `/out.php` | Medium
-23 | File | `/plain` | Low
-24 | File | `/server-status` | High
-25 | File | `/setSystemAdmin` | High
-26 | File | `/staff/tools/custom-fields` | High
-27 | File | `/tmp/phpglibccheck` | High
-28 | File | `/uncpath/` | Medium
-29 | File | `/WebMstr7/servlet/mstrWeb` | High
-30 | File | `/webpages/data` | High
-31 | File | `/wp-admin/options.php` | High
-32 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-33 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-34 | File | `/wp-json/oembed/1.0/embed?url` | High
-35 | File | `/xyhai.php?s=/Auth/editUser` | High
-36 | File | `/_next` | Low
-37 | File | `account.asp` | Medium
-38 | File | `actionHandler/ajax_managed_services.php` | High
-39 | File | `adclick.php` | Medium
-40 | ... | ... | ...
+4 | File | `/api/sys/set_passwd` | High
+5 | File | `/app/controller/Books.php` | High
+6 | File | `/bin/boa` | Medium
+7 | File | `/cgi-bin/wapopen` | High
+8 | File | `/config/getuser` | High
+9 | File | `/context/%2e/WEB-INF/web.xml` | High
+10 | File | `/dev/urandom` | Medium
+11 | File | `/etc/ajenti/config.yml` | High
+12 | File | `/etc/quantum/quantum.conf` | High
+13 | File | `/etc/shadow` | Medium
+14 | File | `/exec/` | Low
+15 | File | `/forum/away.php` | High
+16 | File | `/getcfg.php` | Medium
+17 | File | `/goform/dir_setWanWifi` | High
+18 | File | `/HNAP1` | Low
+19 | File | `/mgmt/tm/util/bash` | High
+20 | File | `/MIME/INBOX-MM-1/` | High
+21 | File | `/modules/projects/vw_files.php` | High
+22 | File | `/opt/tms/bin/cli` | High
+23 | File | `/out.php` | Medium
+24 | File | `/plain` | Low
+25 | File | `/server-status` | High
+26 | File | `/setSystemAdmin` | High
+27 | File | `/staff/tools/custom-fields` | High
+28 | File | `/tmp/phpglibccheck` | High
+29 | File | `/uncpath/` | Medium
+30 | File | `/WebMstr7/servlet/mstrWeb` | High
+31 | File | `/webpages/data` | High
+32 | File | `/wp-admin/options.php` | High
+33 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+34 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+35 | File | `/wp-json/oembed/1.0/embed?url` | High
+36 | File | `/xyhai.php?s=/Auth/editUser` | High
+37 | File | `/_next` | Low
+38 | File | `account.asp` | Medium
+39 | File | `actionHandler/ajax_managed_services.php` | High
+40 | File | `adclick.php` | Medium
+41 | ... | ... | ...
 
-There are 349 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 350 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

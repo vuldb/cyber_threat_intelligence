@@ -64,10 +64,10 @@ ID | Type | Indicator | Confidence
 13 | File | `admin/admin.guestbook.php` | High
 14 | File | `admin/comment.php` | High
 15 | File | `afr.php` | Low
-16 | File | `audiotrack.cgi` | High
+16 | File | `album_add.php` | High
 17 | ... | ... | ...
 
-There are 136 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 138 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

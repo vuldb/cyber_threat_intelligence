@@ -9,6 +9,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 The following _campaigns_ are known and can be associated with SmokeLoader:
 
 * Tsunami
+* Whiffy Recon
 
 ## Countries
 
@@ -16,10 +17,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [ES](https://vuldb.com/?country.es)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -48,7 +49,7 @@ ID | IP address | Hostname | Campaign | Confidence
 19 | [31.210.170.195](https://vuldb.com/?ip.31.210.170.195) | vps16632.hosted-by.eurohoster.online | - | High
 20 | ... | ... | ... | ...
 
-There are 74 more IOC items available. Please use our online service to access the data.
+There are 76 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -57,14 +58,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | T1068 | CWE-264, CWE-269, CWE-274, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 7 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 23 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -76,11 +77,11 @@ ID | Type | Indicator | Confidence
 2 | File | `/acms/classes/Master.php?f=delete_cargo` | High
 3 | File | `/admin.add` | Medium
 4 | File | `/admin.php/news/admin/topic/save` | High
-5 | File | `/admin/admin_login.php` | High
-6 | File | `/admin/comn/service/update.json` | High
-7 | File | `/admin/edit-doc.php` | High
-8 | File | `/admin/edit_member.php` | High
-9 | File | `/admin/edit_review.php` | High
+5 | File | `/admin/comn/service/update.json` | High
+6 | File | `/admin/edit-doc.php` | High
+7 | File | `/admin/edit_member.php` | High
+8 | File | `/admin/edit_review.php` | High
+9 | File | `/admin/order.php` | High
 10 | File | `/admin/profile/save_profile` | High
 11 | File | `/api/v2/labels/` | High
 12 | File | `/aux` | Low
@@ -88,48 +89,45 @@ ID | Type | Indicator | Confidence
 14 | File | `/cgi-bin/luci` | High
 15 | File | `/config/getuser` | High
 16 | File | `/debug/pprof` | Medium
-17 | File | `/dev/shm` | Medium
-18 | File | `/dl/dl_print.php` | High
-19 | File | `/etc/gsissh/sshd_config` | High
-20 | File | `/film-rating.php` | High
+17 | File | `/dl/dl_print.php` | High
+18 | File | `/etc/gsissh/sshd_config` | High
+19 | File | `/film-rating.php` | High
+20 | File | `/forum/away.php` | High
 21 | File | `/gateway/services/EdgeServiceImpl` | High
 22 | File | `/getcfg.php` | Medium
 23 | File | `/goform/dir_setWanWifi` | High
-24 | File | `/goform/telnet` | High
-25 | File | `/goform/WanParameterSetting` | High
-26 | File | `/HNAP1` | Low
-27 | File | `/include/makecvs.php` | High
-28 | File | `/index.php` | Medium
-29 | File | `/info.xml` | Medium
-30 | File | `/js/app.js` | Medium
-31 | File | `/librarian/bookdetails.php` | High
-32 | File | `/mgmt/tm/util/bash` | High
-33 | File | `/monitoring` | Medium
-34 | File | `/ofcms/company-c-47` | High
-35 | File | `/opac/Actions.php?a=login` | High
-36 | File | `/opt/pia/ruby/64/ruby` | High
-37 | File | `/Pwrchute` | Medium
-38 | File | `/spip.php` | Medium
-39 | File | `/student/bookdetails.php` | High
-40 | File | `/tmp/csman/0` | Medium
-41 | File | `/ui/cbpc/login` | High
-42 | File | `/uncpath/` | Medium
-43 | File | `/usr/sbin/httpd` | High
-44 | File | `/util/print.c` | High
-45 | File | `/var/hnap/timestamp` | High
-46 | File | `/vloggers_merch/admin/?page=product/manage_product` | High
-47 | File | `/web/MCmsAction.java` | High
-48 | File | `/wp-content/plugins/forum-server/feed.php` | High
-49 | File | `abc-pcie.c` | Medium
+24 | File | `/goform/setmac` | High
+25 | File | `/goform/telnet` | High
+26 | File | `/goform/WanParameterSetting` | High
+27 | File | `/inc/extensions.php` | High
+28 | File | `/include/makecvs.php` | High
+29 | File | `/index.php` | Medium
+30 | File | `/info.xml` | Medium
+31 | File | `/js/app.js` | Medium
+32 | File | `/librarian/bookdetails.php` | High
+33 | File | `/mgmt/tm/util/bash` | High
+34 | File | `/MIME/INBOX-MM-1/` | High
+35 | File | `/monitoring` | Medium
+36 | File | `/ofcms/company-c-47` | High
+37 | File | `/opac/Actions.php?a=login` | High
+38 | File | `/opt/pia/ruby/64/ruby` | High
+39 | File | `/Pwrchute` | Medium
+40 | File | `/ServletAPI/accounts/login` | High
+41 | File | `/spip.php` | Medium
+42 | File | `/src/Illuminate/Laravel.php` | High
+43 | File | `/student/bookdetails.php` | High
+44 | File | `/usr/sbin/httpd` | High
+45 | File | `/util/print.c` | High
+46 | File | `/var/hnap/timestamp` | High
+47 | File | `/vloggers_merch/admin/?page=product/manage_product` | High
+48 | File | `/web/MCmsAction.java` | High
+49 | File | `/wp-content/plugins/forum-server/feed.php` | High
 50 | File | `account.asp` | Medium
 51 | File | `accounts/payment_history.php` | High
 52 | File | `adclick.php` | Medium
-53 | File | `addfav.php` | Medium
-54 | File | `address.html` | Medium
-55 | File | `admin.php` | Medium
-56 | ... | ... | ...
+53 | ... | ... | ...
 
-There are 484 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 460 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -147,6 +145,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://threatfox.abuse.ch
 * https://tria.ge/220511-fxrezafgg2
 * https://unit42.paloaltonetworks.com/analysis-of-smoke-loader-in-new-tsunami-campaign/
+* https://www.secureworks.com/blog/smoke-loader-drops-whiffy-recon-wi-fi-scanning-and-geolocation-malware
 
 ## Literature
 

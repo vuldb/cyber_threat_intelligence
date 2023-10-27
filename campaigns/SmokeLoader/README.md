@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [ES](https://vuldb.com/?country.es)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
 There are 12 more country items available. Please use our online service to access the data.
@@ -83,53 +83,53 @@ ID | Type | Indicator | Confidence
 6 | File | `/admin/edit-doc.php` | High
 7 | File | `/admin/edit_member.php` | High
 8 | File | `/admin/edit_review.php` | High
-9 | File | `/admin/profile/save_profile` | High
-10 | File | `/api/v2/labels/` | High
-11 | File | `/aux` | Low
-12 | File | `/cgi-bin/koha/acqui/supplier.pl?op=enter` | High
-13 | File | `/cgi-bin/luci` | High
-14 | File | `/config/getuser` | High
-15 | File | `/debug/pprof` | Medium
-16 | File | `/dl/dl_print.php` | High
-17 | File | `/etc/gsissh/sshd_config` | High
-18 | File | `/film-rating.php` | High
-19 | File | `/gateway/services/EdgeServiceImpl` | High
-20 | File | `/getcfg.php` | Medium
-21 | File | `/goform/dir_setWanWifi` | High
-22 | File | `/goform/setmac` | High
-23 | File | `/goform/telnet` | High
-24 | File | `/goform/WanParameterSetting` | High
-25 | File | `/inc/extensions.php` | High
-26 | File | `/include/makecvs.php` | High
-27 | File | `/index.php` | Medium
-28 | File | `/info.xml` | Medium
-29 | File | `/js/app.js` | Medium
-30 | File | `/librarian/bookdetails.php` | High
-31 | File | `/mgmt/tm/util/bash` | High
-32 | File | `/MIME/INBOX-MM-1/` | High
-33 | File | `/monitoring` | Medium
-34 | File | `/ofcms/company-c-47` | High
-35 | File | `/opac/Actions.php?a=login` | High
-36 | File | `/opt/pia/ruby/64/ruby` | High
-37 | File | `/Pwrchute` | Medium
-38 | File | `/ServletAPI/accounts/login` | High
-39 | File | `/spip.php` | Medium
-40 | File | `/src/Illuminate/Laravel.php` | High
-41 | File | `/student/bookdetails.php` | High
-42 | File | `/usr/sbin/httpd` | High
-43 | File | `/util/print.c` | High
-44 | File | `/var/hnap/timestamp` | High
-45 | File | `/vloggers_merch/admin/?page=product/manage_product` | High
-46 | File | `/web/MCmsAction.java` | High
-47 | File | `/wp-content/plugins/forum-server/feed.php` | High
-48 | File | `account.asp` | Medium
-49 | File | `accounts/payment_history.php` | High
-50 | File | `adclick.php` | Medium
-51 | File | `addfav.php` | Medium
-52 | File | `address.html` | Medium
+9 | File | `/admin/order.php` | High
+10 | File | `/admin/profile/save_profile` | High
+11 | File | `/api/v2/labels/` | High
+12 | File | `/aux` | Low
+13 | File | `/cgi-bin/koha/acqui/supplier.pl?op=enter` | High
+14 | File | `/cgi-bin/luci` | High
+15 | File | `/config/getuser` | High
+16 | File | `/debug/pprof` | Medium
+17 | File | `/dl/dl_print.php` | High
+18 | File | `/etc/gsissh/sshd_config` | High
+19 | File | `/film-rating.php` | High
+20 | File | `/forum/away.php` | High
+21 | File | `/gateway/services/EdgeServiceImpl` | High
+22 | File | `/getcfg.php` | Medium
+23 | File | `/goform/dir_setWanWifi` | High
+24 | File | `/goform/setmac` | High
+25 | File | `/goform/telnet` | High
+26 | File | `/goform/WanParameterSetting` | High
+27 | File | `/inc/extensions.php` | High
+28 | File | `/include/makecvs.php` | High
+29 | File | `/index.php` | Medium
+30 | File | `/info.xml` | Medium
+31 | File | `/js/app.js` | Medium
+32 | File | `/librarian/bookdetails.php` | High
+33 | File | `/mgmt/tm/util/bash` | High
+34 | File | `/MIME/INBOX-MM-1/` | High
+35 | File | `/monitoring` | Medium
+36 | File | `/ofcms/company-c-47` | High
+37 | File | `/opac/Actions.php?a=login` | High
+38 | File | `/opt/pia/ruby/64/ruby` | High
+39 | File | `/Pwrchute` | Medium
+40 | File | `/ServletAPI/accounts/login` | High
+41 | File | `/spip.php` | Medium
+42 | File | `/src/Illuminate/Laravel.php` | High
+43 | File | `/student/bookdetails.php` | High
+44 | File | `/usr/sbin/httpd` | High
+45 | File | `/util/print.c` | High
+46 | File | `/var/hnap/timestamp` | High
+47 | File | `/vloggers_merch/admin/?page=product/manage_product` | High
+48 | File | `/web/MCmsAction.java` | High
+49 | File | `/wp-content/plugins/forum-server/feed.php` | High
+50 | File | `account.asp` | Medium
+51 | File | `accounts/payment_history.php` | High
+52 | File | `adclick.php` | Medium
 53 | ... | ... | ...
 
-There are 459 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 460 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

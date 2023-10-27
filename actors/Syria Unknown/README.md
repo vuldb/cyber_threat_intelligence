@@ -91,7 +91,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 15 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -100,26 +100,26 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.htaccess` | Medium
-2 | File | `/apiclient/ember/index.jsp` | High
-3 | File | `/Application/Admin/Controller/ConfigController.class.php` | High
-4 | File | `/bin/boa` | Medium
-5 | File | `/cimom` | Low
-6 | File | `/etc/sysconfig/tomcat` | High
-7 | File | `/forum/away.php` | High
-8 | File | `/getcfg.php` | Medium
-9 | File | `/goform` | Low
-10 | File | `/login/index.php` | High
-11 | File | `/mgmt/tm/util/bash` | High
-12 | File | `/printers` | Medium
-13 | File | `/SASWebReportStudio/logonAndRender.do` | High
-14 | File | `/uncpath/` | Medium
-15 | File | `/wp-json/oembed/1.0/embed?url` | High
-16 | File | `/_vti_pvt/access.cnf` | High
-17 | File | `ActionServlet.java` | High
-18 | File | `adclick.php` | Medium
+2 | File | `/api/v1/terminal/sessions/?limit=1` | High
+3 | File | `/apiclient/ember/index.jsp` | High
+4 | File | `/Application/Admin/Controller/ConfigController.class.php` | High
+5 | File | `/bin/boa` | Medium
+6 | File | `/cimom` | Low
+7 | File | `/etc/sysconfig/tomcat` | High
+8 | File | `/forum/away.php` | High
+9 | File | `/getcfg.php` | Medium
+10 | File | `/goform` | Low
+11 | File | `/login/index.php` | High
+12 | File | `/mgmt/tm/util/bash` | High
+13 | File | `/printers` | Medium
+14 | File | `/SASWebReportStudio/logonAndRender.do` | High
+15 | File | `/sysmanage/edit_manageadmin.php` | High
+16 | File | `/uncpath/` | Medium
+17 | File | `/wp-json/oembed/1.0/embed?url` | High
+18 | File | `/_vti_pvt/access.cnf` | High
 19 | ... | ... | ...
 
-There are 151 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 155 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

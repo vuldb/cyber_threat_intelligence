@@ -86,14 +86,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-22 | Pathname Traversal | High
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -114,48 +114,38 @@ ID | Type | Indicator | Confidence
 11 | File | `/admin/user/manage_user.php` | High
 12 | File | `/admin/userprofile.php` | High
 13 | File | `/admin/voters_row.php` | High
-14 | File | `/ad_js.php` | Medium
-15 | File | `/ajax.php?action=save_company` | High
-16 | File | `/ajax.php?action=save_user` | High
-17 | File | `/ajax/myshop` | Medium
-18 | File | `/api/baskets/{name}` | High
-19 | File | `/api/database` | High
-20 | File | `/api/gen/clients/{language}` | High
-21 | File | `/App_Resource/UEditor/server/upload.aspx` | High
-22 | File | `/APR/signup.php` | High
-23 | File | `/authenticationendpoint/login.do` | High
-24 | File | `/aux` | Low
-25 | File | `/backup.pl` | Medium
-26 | File | `/c/PluginsController.php` | High
-27 | File | `/cas/logout` | Medium
-28 | File | `/category.php` | High
-29 | File | `/cgi-bin/system_mgr.cgi` | High
-30 | File | `/cha.php` | Medium
-31 | File | `/chaincity/user/ticket/create` | High
-32 | File | `/College/admin/teacher.php` | High
-33 | File | `/contactform/contactform.php` | High
-34 | File | `/Controller/Ajaxfileupload.ashx` | High
-35 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
-36 | File | `/dayrui/Fcms/View/system_log.html` | High
-37 | File | `/dcim/rack-roles/` | High
-38 | File | `/DXR.axd` | Medium
-39 | File | `/ecommerce/admin/category/controller.php` | High
-40 | File | `/ecommerce/support_ticket` | High
-41 | File | `/etc/shadow` | Medium
-42 | File | `/forum/away.php` | High
-43 | File | `/friends/ajax_invite` | High
-44 | File | `/goform/aspForm` | High
-45 | File | `/goform/WifiGuestSet` | High
-46 | File | `/home/filter_listings` | High
-47 | File | `/inc/topBarNav.php` | High
-48 | File | `/index.php` | Medium
-49 | File | `/index.php/client/message/message_read/xxxxxxxx[random-msg-hash]` | High
-50 | File | `/index.php?app=main&func=passport&action=login` | High
-51 | File | `/index.php?s=/article/ApiAdminArticle/itemAdd` | High
-52 | File | `/instance/detail` | High
-53 | ... | ... | ...
+14 | File | `/ajax.php?action=save_company` | High
+15 | File | `/ajax.php?action=save_user` | High
+16 | File | `/ajax/myshop` | Medium
+17 | File | `/api/baskets/{name}` | High
+18 | File | `/api/database` | High
+19 | File | `/api/gen/clients/{language}` | High
+20 | File | `/App_Resource/UEditor/server/upload.aspx` | High
+21 | File | `/authenticationendpoint/login.do` | High
+22 | File | `/backup.pl` | Medium
+23 | File | `/c/PluginsController.php` | High
+24 | File | `/cas/logout` | Medium
+25 | File | `/category.php` | High
+26 | File | `/cgi-bin/system_mgr.cgi` | High
+27 | File | `/chaincity/user/ticket/create` | High
+28 | File | `/collection/all` | High
+29 | File | `/College/admin/teacher.php` | High
+30 | File | `/contactform/contactform.php` | High
+31 | File | `/Controller/Ajaxfileupload.ashx` | High
+32 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
+33 | File | `/dcim/rack-roles/` | High
+34 | File | `/DXR.axd` | Medium
+35 | File | `/ecommerce/support_ticket` | High
+36 | File | `/ecrire/exec/puce_statut.php` | High
+37 | File | `/files/` | Low
+38 | File | `/forum/away.php` | High
+39 | File | `/friends/ajax_invite` | High
+40 | File | `/goform/aspForm` | High
+41 | File | `/goform/WifiGuestSet` | High
+42 | File | `/home/filter_listings` | High
+43 | ... | ... | ...
 
-There are 460 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 367 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

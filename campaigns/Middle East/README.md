@@ -123,10 +123,9 @@ ID | Type | Indicator | Confidence
 42 | File | `/owa/auth/logon.aspx` | High
 43 | File | `/pms/update_user.php?user_id=1` | High
 44 | File | `/preview.php` | Medium
-45 | File | `/requests.php` | High
-46 | ... | ... | ...
+45 | ... | ... | ...
 
-There are 402 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 391 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

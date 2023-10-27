@@ -16,8 +16,8 @@ The following _campaigns_ are known and can be associated with TeamTNT:
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with TeamTNT:
 
-* [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
 * [MO](https://vuldb.com/?country.mo)
 * ...
 
@@ -66,10 +66,10 @@ ID | Type | Indicator | Confidence
 6 | File | `/src/chatbotapp/chatWindow.java` | High
 7 | File | `/usr/bin/pkexec` | High
 8 | File | `admin/categories_industry.php` | High
-9 | File | `admin/content/postcategory` | High
+9 | File | `admin/class-woo-popup-admin.php` | High
 10 | ... | ... | ...
 
-There are 70 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 75 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

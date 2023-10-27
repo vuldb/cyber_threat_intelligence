@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 13 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -93,28 +93,26 @@ ID | Type | Indicator | Confidence
 24 | File | `/Content/Template/root/reverse-shell.aspx` | High
 25 | File | `/context/%2e/WEB-INF/web.xml` | High
 26 | File | `/dashboard/add-blog.php` | High
-27 | File | `/debian/patches/load_ppp_generic_if_needed` | High
-28 | File | `/debug/pprof` | Medium
-29 | File | `/env` | Low
-30 | File | `/etc/hosts` | Medium
-31 | File | `/forum/away.php` | High
-32 | File | `/goform/setmac` | High
-33 | File | `/goform/wizard_end` | High
-34 | File | `/group1/uploa` | High
-35 | File | `/inc/parser/xhtml.php` | High
-36 | File | `/manage-apartment.php` | High
-37 | File | `/medicines/profile.php` | High
-38 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-39 | File | `/pages/apply_vacancy.php` | High
-40 | File | `/php-sms/admin/?page=user/manage_user` | High
-41 | File | `/proxy` | Low
-42 | File | `/requests.php` | High
-43 | File | `/reservation/add_message.php` | High
-44 | File | `/resources//../` | High
-45 | File | `/Session` | Medium
-46 | ... | ... | ...
+27 | File | `/debug/pprof` | Medium
+28 | File | `/env` | Low
+29 | File | `/etc/hosts` | Medium
+30 | File | `/forum/away.php` | High
+31 | File | `/goform/setmac` | High
+32 | File | `/goform/wizard_end` | High
+33 | File | `/group1/uploa` | High
+34 | File | `/inc/parser/xhtml.php` | High
+35 | File | `/manage-apartment.php` | High
+36 | File | `/medicines/profile.php` | High
+37 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+38 | File | `/pages/apply_vacancy.php` | High
+39 | File | `/php-sms/admin/?page=user/manage_user` | High
+40 | File | `/proxy` | Low
+41 | File | `/requests.php` | High
+42 | File | `/reservation/add_message.php` | High
+43 | File | `/resources//../` | High
+44 | ... | ... | ...
 
-There are 394 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 385 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

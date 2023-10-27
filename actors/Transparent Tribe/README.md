@@ -18,10 +18,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
-* [IS](https://vuldb.com/?country.is)
+* [IT](https://vuldb.com/?country.it)
 * ...
 
-There are 12 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -79,30 +79,30 @@ ID | Type | Indicator | Confidence
 14 | File | `/goform/WifiBasicSet` | High
 15 | File | `/horde/util/go.php` | High
 16 | File | `/hss/?page=view_product` | High
-17 | File | `/index.php/ccm/system/file/upload` | High
-18 | File | `/isms/admin/stocks/view_stock.php` | High
-19 | File | `/lab.html` | Medium
-20 | File | `/list/<path:folderpath>` | High
-21 | File | `/out.php` | Medium
-22 | File | `/php-jms/updateBlankTxtview.php` | High
-23 | File | `/products/details.asp` | High
-24 | File | `/RestAPI` | Medium
-25 | File | `/sm/api/v1/firewall/zone/services` | High
-26 | File | `/spacecom/login.php` | High
-27 | File | `/strings/ctype-simple.c` | High
-28 | File | `/sys/dict/queryTableData` | High
-29 | File | `/uncpath/` | Medium
-30 | File | `/user/dls_download.php` | High
-31 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
-32 | File | `/v1/sql-runner` | High
-33 | File | `/web/IndexController.java` | High
-34 | File | `acknowledge.c` | High
-35 | File | `actions/CompanyDetailsSave.php` | High
-36 | File | `adclick.php` | Medium
-37 | File | `add_comment.php` | High
+17 | File | `/importexport.php` | High
+18 | File | `/index.php/ccm/system/file/upload` | High
+19 | File | `/isms/admin/stocks/view_stock.php` | High
+20 | File | `/lab.html` | Medium
+21 | File | `/list/<path:folderpath>` | High
+22 | File | `/out.php` | Medium
+23 | File | `/php-jms/updateBlankTxtview.php` | High
+24 | File | `/products/details.asp` | High
+25 | File | `/RestAPI` | Medium
+26 | File | `/sm/api/v1/firewall/zone/services` | High
+27 | File | `/spacecom/login.php` | High
+28 | File | `/src/helper.c` | High
+29 | File | `/strings/ctype-simple.c` | High
+30 | File | `/sys/dict/queryTableData` | High
+31 | File | `/uncpath/` | Medium
+32 | File | `/user/dls_download.php` | High
+33 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
+34 | File | `/v1/sql-runner` | High
+35 | File | `/web/IndexController.java` | High
+36 | File | `acknowledge.c` | High
+37 | File | `actions/CompanyDetailsSave.php` | High
 38 | ... | ... | ...
 
-There are 329 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 330 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

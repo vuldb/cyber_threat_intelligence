@@ -82,37 +82,38 @@ ID | Type | Indicator | Confidence
 20 | File | `/api/es/admin/v3/security/user/1` | High
 21 | File | `/api/ping` | Medium
 22 | File | `/api/RecordingList/DownloadRecord?file=` | High
-23 | File | `/api/sys/login` | High
-24 | File | `/api/sys/set_passwd` | High
-25 | File | `/application/common.php#action_log` | High
-26 | File | `/asms/admin/products/manage_product.php` | High
-27 | File | `/asms/products/view_product.php` | High
-28 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-29 | File | `/changeimage.php` | High
-30 | File | `/classes/Master.php?f=delete_service` | High
-31 | File | `/config/getuser` | High
-32 | File | `/config/list` | Medium
-33 | File | `/dashboard/snapshot/*?orgId=0` | High
-34 | File | `/dosen/data` | Medium
-35 | File | `/E-mobile/App/System/File/downfile.php` | High
-36 | File | `/export` | Low
-37 | File | `/forum/away.php` | High
-38 | File | `/gena.cgi` | Medium
-39 | File | `/general/ipanel/menu_code.php?MENU_TYPE=FAV` | High
-40 | File | `/home/cavesConsole` | High
-41 | File | `/home/kickPlayer` | High
-42 | File | `/home/masterConsole` | High
-43 | File | `/home/sendBroadcast` | High
-44 | File | `/inc/jquery/uploadify/uploadify.php` | High
-45 | File | `/include/chart_generator.php` | High
-46 | File | `/include/dialog/select_templets_post.php` | High
-47 | File | `/index.php/sysmanage/Login/login_auth/` | High
-48 | File | `/jurusanmatkul/data` | High
-49 | File | `/kelasdosen/data` | High
-50 | File | `/lan.asp` | Medium
-51 | ... | ... | ...
+23 | File | `/api/runscript` | High
+24 | File | `/api/sys/login` | High
+25 | File | `/api/sys/set_passwd` | High
+26 | File | `/application/common.php#action_log` | High
+27 | File | `/asms/admin/products/manage_product.php` | High
+28 | File | `/asms/products/view_product.php` | High
+29 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+30 | File | `/changeimage.php` | High
+31 | File | `/classes/Master.php?f=delete_service` | High
+32 | File | `/config/getuser` | High
+33 | File | `/config/list` | Medium
+34 | File | `/dashboard/snapshot/*?orgId=0` | High
+35 | File | `/dosen/data` | Medium
+36 | File | `/E-mobile/App/System/File/downfile.php` | High
+37 | File | `/export` | Low
+38 | File | `/forum/away.php` | High
+39 | File | `/gena.cgi` | Medium
+40 | File | `/general/ipanel/menu_code.php?MENU_TYPE=FAV` | High
+41 | File | `/home/cavesConsole` | High
+42 | File | `/home/kickPlayer` | High
+43 | File | `/home/masterConsole` | High
+44 | File | `/home/sendBroadcast` | High
+45 | File | `/inc/jquery/uploadify/uploadify.php` | High
+46 | File | `/include/chart_generator.php` | High
+47 | File | `/include/dialog/select_templets_post.php` | High
+48 | File | `/index.php/sysmanage/Login/login_auth/` | High
+49 | File | `/jurusanmatkul/data` | High
+50 | File | `/kelasdosen/data` | High
+51 | File | `/lan.asp` | Medium
+52 | ... | ... | ...
 
-There are 447 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 448 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

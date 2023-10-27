@@ -61,14 +61,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-24, CWE-37 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-24 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
-6 | ... | ... | ... | ...
+5 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -86,30 +85,28 @@ ID | Type | Indicator | Confidence
 8 | File | `/admin/sales/manage_sale.php` | High
 9 | File | `/api/baskets/{name}` | High
 10 | File | `/blog` | Low
-11 | File | `/boat/login.php` | High
-12 | File | `/bsms_ci/index.php/user/edit_user/` | High
-13 | File | `/cas/logout` | Medium
-14 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
-15 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-16 | File | `/cgi-bin/upload_vpntar` | High
-17 | File | `/config/api/v1/reboot` | High
-18 | File | `/CPE` | Low
-19 | File | `/debug/pprof` | Medium
-20 | File | `/forum/away.php` | High
-21 | File | `/ghost/preview` | High
-22 | File | `/goform/Diagnosis` | High
-23 | File | `/group1/uploa` | High
-24 | File | `/home/search` | Medium
-25 | File | `/mail.php` | Medium
-26 | File | `/modules/profile/index.php` | High
-27 | File | `/out.php` | Medium
-28 | File | `/php-opos/index.php` | High
-29 | File | `/php-spms/admin/?page=user/` | High
-30 | File | `/proc/ftxxxx-debug` | High
-31 | File | `/reviewer_0/admins/assessments/pretest/questions-view.php` | High
-32 | ... | ... | ...
+11 | File | `/cas/logout` | Medium
+12 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
+13 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+14 | File | `/cgi-bin/upload_vpntar` | High
+15 | File | `/config/api/v1/reboot` | High
+16 | File | `/CPE` | Low
+17 | File | `/debug/pprof` | Medium
+18 | File | `/forum/away.php` | High
+19 | File | `/ghost/preview` | High
+20 | File | `/goform/Diagnosis` | High
+21 | File | `/group1/uploa` | High
+22 | File | `/home/search` | Medium
+23 | File | `/leaves/validate` | High
+24 | File | `/mail.php` | Medium
+25 | File | `/modules/profile/index.php` | High
+26 | File | `/out.php` | Medium
+27 | File | `/php-spms/admin/?page=user/` | High
+28 | File | `/proc/ftxxxx-debug` | High
+29 | File | `/protocol/iscgwtunnel/uploadiscgwrouteconf.php` | High
+30 | ... | ... | ...
 
-There are 275 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 251 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

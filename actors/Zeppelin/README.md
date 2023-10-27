@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Zeppelin:
 
 * [US](https://vuldb.com/?country.us)
-* [ME](https://vuldb.com/?country.me)
 * [RU](https://vuldb.com/?country.ru)
+* [ME](https://vuldb.com/?country.me)
 
 ## IOC - Indicator of Compromise
 
@@ -40,12 +40,12 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `frontend/models/model.php` | High
-2 | File | `LotusTraveler.nsf` | High
-3 | Argument | `bwg_search_x` | Medium
+1 | File | `/etc/pki/pesign` | High
+2 | File | `frontend/models/model.php` | High
+3 | File | `LotusTraveler.nsf` | High
 4 | ... | ... | ...
 
-There are 1 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 2 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

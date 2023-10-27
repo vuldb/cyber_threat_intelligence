@@ -4,6 +4,14 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.uzbekistan_unknown](https://vuldb.com/?actor.uzbekistan_unknown)
 
+## Countries
+
+These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Uzbekistan Unknown:
+
+* [PT](https://vuldb.com/?country.pt)
+* [DE](https://vuldb.com/?country.de)
+* [RU](https://vuldb.com/?country.ru)
+
 ## IOC - Indicator of Compromise
 
 These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of Uzbekistan Unknown.
@@ -71,7 +79,9 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1574 | CWE-426 | Untrusted Search Path | High
+1 | T1059.007 | CWE-79 | Cross Site Scripting | High
+2 | T1222 | CWE-275 | Permission Issues | High
+3 | T1574 | CWE-426 | Untrusted Search Path | High
 
 ## IOA - Indicator of Attack
 
@@ -80,6 +90,7 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `drfone_setup_full3360.exe` | High
+2 | File | `mobiletrans_setup_full5793.exe` | High
 
 ## References
 

@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 16 more country items available. Please use our online service to access the data.
+There are 17 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -128,7 +128,7 @@ ID | Technique | Weakness | Description | Confidence
 6 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 7 | ... | ... | ... | ...
 
-There are 24 more TTP items available. Please use our online service to access the data.
+There are 23 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -174,15 +174,15 @@ ID | Type | Indicator | Confidence
 36 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
 37 | File | `/staff/edit_book_details.php` | High
 38 | File | `/SysManage/AddUpdateRole.aspx` | High
-39 | File | `/system/user/modules/mod_users/controller.php` | High
-40 | File | `/uncpath/` | Medium
-41 | File | `/user/profile` | High
-42 | File | `/WEB-INF/web.xml` | High
-43 | File | `/webman/info.cgi` | High
-44 | File | `/wp-admin/admin-ajax.php` | High
+39 | File | `/sysmanage/importconf.php` | High
+40 | File | `/system/user/modules/mod_users/controller.php` | High
+41 | File | `/uncpath/` | Medium
+42 | File | `/user/profile` | High
+43 | File | `/WEB-INF/web.xml` | High
+44 | File | `/webman/info.cgi` | High
 45 | ... | ... | ...
 
-There are 391 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 392 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

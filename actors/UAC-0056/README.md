@@ -45,7 +45,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94 | Cross Site Scripting | High
@@ -66,12 +66,12 @@ ID | Type | Indicator | Confidence
 4 | File | `/admin/products/controller.php?action=add` | High
 5 | File | `/admin/question/edit` | High
 6 | File | `/admin/students/manage.php` | High
-7 | File | `/adminlogin.asp` | High
-8 | File | `/api/` | Low
-9 | File | `/auth/register` | High
-10 | File | `/bifs/field_decode.c` | High
-11 | File | `/bin/proc.cgi` | High
-12 | File | `/bitrix/admin/ldap_server_edit.php` | High
+7 | File | `/api/` | Low
+8 | File | `/auth/register` | High
+9 | File | `/bifs/field_decode.c` | High
+10 | File | `/bin/proc.cgi` | High
+11 | File | `/bitrix/admin/ldap_server_edit.php` | High
+12 | File | `/book-services.php` | High
 13 | File | `/cgi/get_param.cgi` | High
 14 | File | `/common/download_agent_installer.php` | High
 15 | File | `/common/run_cross_report.php` | High
@@ -95,13 +95,12 @@ ID | Type | Indicator | Confidence
 33 | File | `/goform/NatStaticSetting` | High
 34 | File | `/goform/WifiBasicSet` | High
 35 | File | `/h/` | Low
-36 | File | `/hocms/classes/Master.php?f=delete_collection` | High
-37 | File | `/index.php` | Medium
-38 | File | `/index.php?module=configuration/application` | High
-39 | File | `/index.php?route=extension/module/so_filter_shop_by/filter_data` | High
-40 | ... | ... | ...
+36 | File | `/index.php` | Medium
+37 | File | `/index.php?module=configuration/application` | High
+38 | File | `/index.php?route=extension/module/so_filter_shop_by/filter_data` | High
+39 | ... | ... | ...
 
-There are 348 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 333 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

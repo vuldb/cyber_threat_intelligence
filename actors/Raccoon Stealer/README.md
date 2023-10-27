@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 8 more country items available. Please use our online service to access the data.
+There are 9 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -52,7 +52,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-22 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
@@ -88,34 +88,29 @@ ID | Type | Indicator | Confidence
 19 | File | `/api/gen/clients/{language}` | High
 20 | File | `/App_Resource/UEditor/server/upload.aspx` | High
 21 | File | `/authenticationendpoint/login.do` | High
-22 | File | `/aux` | Low
-23 | File | `/backup.pl` | Medium
+22 | File | `/backup.pl` | Medium
+23 | File | `/bitrix/admin/ldap_server_edit.php` | High
 24 | File | `/c/PluginsController.php` | High
 25 | File | `/cas/logout` | Medium
 26 | File | `/category.php` | High
 27 | File | `/cgi-bin/system_mgr.cgi` | High
-28 | File | `/cha.php` | Medium
-29 | File | `/chaincity/user/ticket/create` | High
-30 | File | `/collection/all` | High
-31 | File | `/College/admin/teacher.php` | High
-32 | File | `/contactform/contactform.php` | High
-33 | File | `/Controller/Ajaxfileupload.ashx` | High
-34 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
-35 | File | `/dayrui/Fcms/View/system_log.html` | High
-36 | File | `/dcim/rack-roles/` | High
-37 | File | `/ecommerce/admin/category/controller.php` | High
-38 | File | `/ecommerce/support_ticket` | High
-39 | File | `/ecrire/exec/puce_statut.php` | High
-40 | File | `/etc/shadow` | Medium
-41 | File | `/files/` | Low
-42 | File | `/forum/away.php` | High
-43 | File | `/friends/ajax_invite` | High
-44 | File | `/goform/aspForm` | High
-45 | File | `/goform/WifiGuestSet` | High
-46 | File | `/home/filter_listings` | High
-47 | ... | ... | ...
+28 | File | `/chaincity/user/ticket/create` | High
+29 | File | `/collection/all` | High
+30 | File | `/College/admin/teacher.php` | High
+31 | File | `/contactform/contactform.php` | High
+32 | File | `/Controller/Ajaxfileupload.ashx` | High
+33 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
+34 | File | `/dayrui/Fcms/View/system_log.html` | High
+35 | File | `/dcim/rack-roles/` | High
+36 | File | `/ecommerce/support_ticket` | High
+37 | File | `/ecrire/exec/puce_statut.php` | High
+38 | File | `/files/` | Low
+39 | File | `/forum/away.php` | High
+40 | File | `/friends/ajax_invite` | High
+41 | File | `/goform/aspForm` | High
+42 | ... | ... | ...
 
-There are 409 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 363 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

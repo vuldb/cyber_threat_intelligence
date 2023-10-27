@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 24 more country items available. Please use our online service to access the data.
+There are 17 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -21,12 +21,19 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [38.47.220.202](https://vuldb.com/?ip.38.47.220.202) | - | - | High
-2 | [45.15.159.248](https://vuldb.com/?ip.45.15.159.248) | tranquil-sheep.aeza.network | - | High
-3 | [79.110.49.141](https://vuldb.com/?ip.79.110.49.141) | - | - | High
-4 | ... | ... | ... | ...
+1 | [5.42.79.238](https://vuldb.com/?ip.5.42.79.238) | - | - | High
+2 | [38.47.220.202](https://vuldb.com/?ip.38.47.220.202) | - | - | High
+3 | [45.15.156.137](https://vuldb.com/?ip.45.15.156.137) | - | - | High
+4 | [45.15.156.175](https://vuldb.com/?ip.45.15.156.175) | - | - | High
+5 | [45.15.159.248](https://vuldb.com/?ip.45.15.159.248) | tranquil-sheep.aeza.network | - | High
+6 | [51.89.205.213](https://vuldb.com/?ip.51.89.205.213) | ip213.ip-51-89-205.eu | - | High
+7 | [77.105.147.123](https://vuldb.com/?ip.77.105.147.123) | high-alarm.aeza.network | - | High
+8 | [79.110.49.141](https://vuldb.com/?ip.79.110.49.141) | - | - | High
+9 | [79.110.62.11](https://vuldb.com/?ip.79.110.62.11) | - | - | High
+10 | [79.137.202.91](https://vuldb.com/?ip.79.137.202.91) | ample-stage.aeza.network | - | High
+11 | ... | ... | ... | ...
 
-There are 7 more IOC items available. Please use our online service to access the data.
+There are 38 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -34,14 +41,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-36 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -49,69 +56,61 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.github/workflows/combine-prs.yml` | High
-2 | File | `//WEB-INF` | Medium
-3 | File | `/about.php` | Medium
-4 | File | `/admin.php/update/getFile.html` | High
-5 | File | `/admin/api/admin/articles/` | High
-6 | File | `/admin/cashadvance_row.php` | High
-7 | File | `/admin/delete_user.php` | High
-8 | File | `/admin/login.php` | High
-9 | File | `/admin/maintenance/view_designation.php` | High
-10 | File | `/admin/sys_sql_query.php` | High
-11 | File | `/admin/userprofile.php` | High
-12 | File | `/adms/admin/?page=vehicles/sell_vehicle` | High
-13 | File | `/adms/admin/?page=vehicles/view_transaction` | High
-14 | File | `/APR/login.php` | High
-15 | File | `/bin/httpd` | Medium
-16 | File | `/cas/logout` | Medium
-17 | File | `/cgi-bin/wapopen` | High
-18 | File | `/company/store` | High
-19 | File | `/Controller/Ajaxfileupload.ashx` | High
-20 | File | `/dev/block/mmcblk0rpmb` | High
-21 | File | `/etc/passwd` | Medium
-22 | File | `/feeds/post/publish` | High
-23 | File | `/forum/away.php` | High
-24 | File | `/fos/admin/ajax.php?action=login` | High
-25 | File | `/fos/admin/index.php?page=menu` | High
-26 | File | `/h/` | Low
-27 | File | `/home/masterConsole` | High
-28 | File | `/home/sendBroadcast` | High
-29 | File | `/inc/jquery/uploadify/uploadify.php` | High
-30 | File | `/index.php?app=main&func=passport&action=login` | High
-31 | File | `/index.php?page=category_list` | High
-32 | File | `/jobinfo/` | Medium
-33 | File | `/jsoa/hntdCustomDesktopActionContent` | High
-34 | File | `/Moosikay/order.php` | High
-35 | File | `/mygym/admin/index.php?view_exercises` | High
-36 | File | `/opac/Actions.php?a=login` | High
-37 | File | `/php-opos/index.php` | High
-38 | File | `/PreviewHandler.ashx` | High
-39 | File | `/proxy` | Low
-40 | File | `/public/launchNewWindow.jsp` | High
-41 | File | `/recipe-result` | High
-42 | File | `/reports/rwservlet` | High
-43 | File | `/reservation/add_message.php` | High
-44 | File | `/sauvegarde/restaure_act.php` | High
-45 | File | `/Service/ImageStationDataService.asmx` | High
-46 | File | `/student/bookdetails.php` | High
-47 | File | `/uncpath/` | Medium
-48 | File | `/uploads/exam_question/` | High
-49 | File | `/user/ticket/create` | High
-50 | File | `/user/updatePwd` | High
-51 | File | `/var/lib/docker/<remapping>` | High
-52 | File | `/wireless/security.asp` | High
-53 | File | `/wp-admin/admin-ajax.php` | High
-54 | File | `01article.php` | High
-55 | File | `a-forms.php` | Medium
-56 | File | `actionphp/download.File.php` | High
-57 | File | `activenews_view.asp` | High
-58 | File | `adclick.php` | Medium
-59 | File | `admin.a6mambocredits.php` | High
-60 | File | `admin.cropcanvas.php` | High
-61 | ... | ... | ...
+1 | File | `//WEB-INF` | Medium
+2 | File | `/about.php` | Medium
+3 | File | `/admin.php/update/getFile.html` | High
+4 | File | `/admin/edit-accepted-appointment.php` | High
+5 | File | `/admin/maintenance/view_designation.php` | High
+6 | File | `/admin/reg.php` | High
+7 | File | `/admin/save.php` | High
+8 | File | `/admin/service.php` | High
+9 | File | `/admin/sys_sql_query.php` | High
+10 | File | `/api/baskets/{name}` | High
+11 | File | `/api/download` | High
+12 | File | `/api/v1/terminal/sessions/?limit=1` | High
+13 | File | `/bitrix/admin/ldap_server_edit.php` | High
+14 | File | `/cas/logout` | Medium
+15 | File | `/category.php` | High
+16 | File | `/categorypage.php` | High
+17 | File | `/cgi-bin/luci/api/wireless` | High
+18 | File | `/cgi-bin/vitogate.cgi` | High
+19 | File | `/changeimage.php` | High
+20 | File | `/collection/all` | High
+21 | File | `/company/store` | High
+22 | File | `/Content/Template/root/reverse-shell.aspx` | High
+23 | File | `/Controller/Ajaxfileupload.ashx` | High
+24 | File | `/core/conditions/AbstractWrapper.java` | High
+25 | File | `/Duty/AjaxHandle/Write/UploadFile.ashx` | High
+26 | File | `/ecommerce/support_ticket` | High
+27 | File | `/etc/passwd` | Medium
+28 | File | `/fcgi/scrut_fcgi.fcgi` | High
+29 | File | `/feeds/post/publish` | High
+30 | File | `/forum/away.php` | High
+31 | File | `/h/` | Low
+32 | File | `/HNAP1` | Low
+33 | File | `/inc/jquery/uploadify/uploadify.php` | High
+34 | File | `/index.php?app=main&func=passport&action=login` | High
+35 | File | `/index.php?page=category_list` | High
+36 | File | `/index.php?page=member` | High
+37 | File | `/jeecg-boot/sys/common/upload` | High
+38 | File | `/jobinfo/` | Medium
+39 | File | `/Moosikay/order.php` | High
+40 | File | `/opac/Actions.php?a=login` | High
+41 | File | `/preview.php` | Medium
+42 | File | `/PreviewHandler.ashx` | High
+43 | File | `/recipe-result` | High
+44 | File | `/register.do` | Medium
+45 | File | `/reservation/add_message.php` | High
+46 | File | `/RPS2019Service/status.html` | High
+47 | File | `/Service/ImageStationDataService.asmx` | High
+48 | File | `/sicweb-ajax/tmproot/` | High
+49 | File | `/spip.php` | Medium
+50 | File | `/student/bookdetails.php` | High
+51 | File | `/SystemManage/User/GetGridJson?_search=false&nd=1680855479750&rows=50&page=1&sidx=F_CreatorTime+desc&sord=asc` | High
+52 | File | `/uploads/exam_question/` | High
+53 | ... | ... | ...
 
-There are 531 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 466 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -121,6 +120,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://app.any.run/tasks/8d068314-5e98-49d2-aac1-9756c9185d11
 * https://app.any.run/tasks/66a96b13-f430-49b9-8ac2-a5c2698d61a9
 * https://app.any.run/tasks/2457181d-fa22-4ef3-b171-6711c7456570
+* https://app.any.run/tasks/a4b98e2a-4e47-436f-a50d-a5d1a0c520d1
 * https://app.any.run/tasks/d1a96aea-a514-4f86-acd7-e9391a8ec959/
 * https://threatfox.abuse.ch
 * https://tracker.viriback.com/index.php?q=38.47.220.202

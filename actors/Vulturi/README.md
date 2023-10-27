@@ -61,17 +61,17 @@ ID | Type | Indicator | Confidence
 11 | File | `/cocoon/status` | High
 12 | File | `/dana/nc/ncrun.cgi` | High
 13 | File | `/enterprise/www/student.php` | High
-14 | File | `/groups/31-twitter-basics` | High
-15 | File | `/oscommerce/admin/administrators.php` | High
-16 | File | `/oscommerce/admin/countries.php` | High
-17 | File | `/oscommerce/admin/currencies.php` | High
-18 | File | `/oscommerce/admin/orders_status.php` | High
-19 | File | `admin.comms.php` | High
-20 | File | `admin/configure.php` | High
-21 | File | `admin/install.php` | High
+14 | File | `/forum/away.php` | High
+15 | File | `/groups/31-twitter-basics` | High
+16 | File | `/oscommerce/admin/administrators.php` | High
+17 | File | `/oscommerce/admin/countries.php` | High
+18 | File | `/oscommerce/admin/currencies.php` | High
+19 | File | `/oscommerce/admin/orders_status.php` | High
+20 | File | `admin.comms.php` | High
+21 | File | `admin/configure.php` | High
 22 | ... | ... | ...
 
-There are 184 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 187 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 7 more country items available. Please use our online service to access the data.
+There are 8 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -248,13 +248,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-35, CWE-36 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-35, CWE-36 | Pathname Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 16 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -269,38 +269,41 @@ ID | Type | Indicator | Confidence
 5 | File | `/admin/maintenance/view_designation.php` | High
 6 | File | `/admin/report/index.php` | High
 7 | File | `/api/baskets/{name}` | High
-8 | File | `/APR/signup.php` | High
-9 | File | `/author_posts.php` | High
-10 | File | `/cgi-bin/wlogin.cgi` | High
-11 | File | `/classes/Master.php?f=delete_service` | High
-12 | File | `/classes/Master.php?f=save_brand` | High
-13 | File | `/classes/Master.php?f=save_course` | High
-14 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
-15 | File | `/E-mobile/App/System/File/downfile.php` | High
-16 | File | `/Electron/download` | High
-17 | File | `/forum/away.php` | High
-18 | File | `/ghost/preview` | High
-19 | File | `/goform/set_LimitClient_cfg` | High
-20 | File | `/inc/topBarNav.php` | High
-21 | File | `/index.php/client/message/message_read/xxxxxxxx[random-msg-hash]` | High
-22 | File | `/mhds/clinic/view_details.php` | High
-23 | File | `/mims/login.php` | High
-24 | File | `/php-scrm/login.php` | High
-25 | File | `/proxy` | Low
-26 | File | `/reviewer/system/system/admins/manage/users/user-update.php` | High
-27 | File | `/search.php` | Medium
-28 | File | `/send_order.cgi?parameter=access_detect` | High
-29 | File | `/spip.php` | Medium
-30 | File | `/text/pdf/PdfReader.java` | High
-31 | File | `/textpattern/index.php` | High
-32 | File | `/tmp` | Low
-33 | File | `/VPortal/mgtconsole/Subscribers.jsp` | High
-34 | File | `/wp-admin/admin-ajax.php` | High
-35 | File | `account/signup.php` | High
-36 | File | `adclick.php` | Medium
-37 | ... | ... | ...
+8 | File | `/api/runscript` | High
+9 | File | `/app/search/table` | High
+10 | File | `/APR/signup.php` | High
+11 | File | `/author_posts.php` | High
+12 | File | `/bin/sh` | Low
+13 | File | `/cgi-bin/wlogin.cgi` | High
+14 | File | `/classes/Master.php?f=delete_service` | High
+15 | File | `/classes/Master.php?f=save_brand` | High
+16 | File | `/classes/Master.php?f=save_course` | High
+17 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
+18 | File | `/E-mobile/App/System/File/downfile.php` | High
+19 | File | `/Electron/download` | High
+20 | File | `/forum/away.php` | High
+21 | File | `/ghost/preview` | High
+22 | File | `/goform/set_LimitClient_cfg` | High
+23 | File | `/htdocs/cgibin` | High
+24 | File | `/inc/topBarNav.php` | High
+25 | File | `/index.php/client/message/message_read/xxxxxxxx[random-msg-hash]` | High
+26 | File | `/mhds/clinic/view_details.php` | High
+27 | File | `/mims/login.php` | High
+28 | File | `/out.php` | Medium
+29 | File | `/proxy` | Low
+30 | File | `/reviewer/system/system/admins/manage/users/user-update.php` | High
+31 | File | `/search-result.php` | High
+32 | File | `/search.php` | Medium
+33 | File | `/send_order.cgi?parameter=access_detect` | High
+34 | File | `/spip.php` | Medium
+35 | File | `/text/pdf/PdfReader.java` | High
+36 | File | `/textpattern/index.php` | High
+37 | File | `/tmp` | Low
+38 | File | `/VPortal/mgtconsole/Subscribers.jsp` | High
+39 | File | `/wp-admin/admin-ajax.php` | High
+40 | ... | ... | ...
 
-There are 314 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 341 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

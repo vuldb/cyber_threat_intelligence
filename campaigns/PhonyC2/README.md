@@ -121,9 +121,11 @@ ID | Type | Indicator | Confidence
 61 | File | `/garage/editorder.php` | High
 62 | File | `/goform/addressNat` | High
 63 | File | `/goform/AdvSetWrlsafeset` | High
-64 | ... | ... | ...
+64 | File | `/goForm/aspForm` | High
+65 | File | `/goform/CertListInfo` | High
+66 | ... | ... | ...
 
-There are 564 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 575 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

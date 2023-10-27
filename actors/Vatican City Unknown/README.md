@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Vatican City Unknown:
 
 * [US](https://vuldb.com/?country.us)
-* [ES](https://vuldb.com/?country.es)
-* [FR](https://vuldb.com/?country.fr)
+* [IL](https://vuldb.com/?country.il)
+* [VN](https://vuldb.com/?country.vn)
 * ...
 
-There are 19 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -50,12 +50,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
-2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 16 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -63,51 +64,57 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/acms/admin/cargo_types/view_cargo_type.php` | High
+1 | File | `/acms/admin/cargo_types/view_cargo_type.php` | High
+2 | File | `/admin/?page=orders/view_order` | High
 3 | File | `/admin/addemployee.php` | High
-4 | File | `/admin/index.php` | High
-5 | File | `/apilog.php` | Medium
-6 | File | `/appliance/users?action=edit` | High
-7 | File | `/bibliography/marcsru.php` | High
-8 | File | `/card_scan.php` | High
-9 | File | `/cwp_{SESSION_HASH}/admin/loader_ajax.php` | High
-10 | File | `/feegroups/tgrt_group.jsf` | High
-11 | File | `/filemanager/upload.php` | High
-12 | File | `/forum/away.php` | High
-13 | File | `/goform/SetLEDCfg` | High
-14 | File | `/if.cgi` | Low
-15 | File | `/jerry-core/ecma/operations/ecma-get-put-value.c` | High
-16 | File | `/magick/quantize.c` | High
-17 | File | `/mifs/c/i/reg/reg.html` | High
-18 | File | `/modules/profile/index.php` | High
-19 | File | `/news.dtl.php` | High
-20 | File | `/release-x64/otfccdump` | High
-21 | File | `/RestAPI` | Medium
-22 | File | `/SASWebReportStudio/logonAndRender.do` | High
-23 | File | `/see_more_details.php` | High
-24 | File | `/services/details.asp` | High
-25 | File | `/setup` | Low
-26 | File | `/SiteServer/Ajax/ajaxOtherService.aspx` | High
-27 | File | `/spip.php` | Medium
-28 | File | `/staff/delete.php` | High
-29 | File | `/uncpath/` | Medium
-30 | File | `/v1/sql-runner` | High
-31 | File | `/var/log/nginx` | High
-32 | File | `/VPortal/mgtconsole/Subscriptions.jsp` | High
-33 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-34 | File | `act.php` | Low
-35 | File | `actions/doreport.php` | High
-36 | File | `adclick.php` | Medium
-37 | File | `addcustomer.asp/addprod.asp/process.asp` | High
-38 | File | `admin` | Low
-39 | File | `admin.php` | Medium
-40 | File | `admin/adminsignin.html` | High
-41 | File | `admin/index.php?module=rootpwd` | High
-42 | File | `admin/movieview.php` | High
-43 | ... | ... | ...
+4 | File | `/api/V2/internal/TaskPermissions/CheckTaskAccess` | High
+5 | File | `/appliance/users?action=edit` | High
+6 | File | `/bibliography/marcsru.php` | High
+7 | File | `/card_scan.php` | High
+8 | File | `/ci_ssms/index.php/orders/create` | High
+9 | File | `/claire_blake` | High
+10 | File | `/classes/Master.php?f=delete_payment` | High
+11 | File | `/com` | Low
+12 | File | `/com.biepie/shared_prefs/com.bitpie_preferences.xml` | High
+13 | File | `/cwp_{SESSION_HASH}/admin/loader_ajax.php` | High
+14 | File | `/drivers/infiniband/core/cm.c` | High
+15 | File | `/feegroups/tgrt_group.jsf` | High
+16 | File | `/fm-data.lua` | Medium
+17 | File | `/forum/away.php` | High
+18 | File | `/goform/SetLEDCfg` | High
+19 | File | `/goform/setMacFilterCfg` | High
+20 | File | `/goform/setSysAdm` | High
+21 | File | `/inc/campaign_save.php` | High
+22 | File | `/jerry-core/ecma/operations/ecma-get-put-value.c` | High
+23 | File | `/leave_system/classes/Master.php?f=delete_department` | High
+24 | File | `/linux/main.cpp` | High
+25 | File | `/magick/quantize.c` | High
+26 | File | `/modules/profile/index.php` | High
+27 | File | `/Monitoring-History.php` | High
+28 | File | `/news.dtl.php` | High
+29 | File | `/plugin/rundeck/webhook/` | High
+30 | File | `/publisher` | Medium
+31 | File | `/release-x64/otfccdump` | High
+32 | File | `/RestAPI` | Medium
+33 | File | `/sacco_shield/ajax.php?action=delete_plan` | High
+34 | File | `/SASWebReportStudio/logonAndRender.do` | High
+35 | File | `/setup` | Low
+36 | File | `/SiteServer/Ajax/ajaxOtherService.aspx` | High
+37 | File | `/spip.php` | Medium
+38 | File | `/staff/delete.php` | High
+39 | File | `/sws/swsAlert.sws` | High
+40 | File | `/v1/sql-runner` | High
+41 | File | `/var/mail` | Medium
+42 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+43 | File | `actions/doreport.php` | High
+44 | File | `adclick.php` | Medium
+45 | File | `addcustomer.asp/addprod.asp/process.asp` | High
+46 | File | `addressbookprovider.php` | High
+47 | File | `admin` | Low
+48 | File | `admin.php` | Medium
+49 | ... | ... | ...
 
-There are 368 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 427 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

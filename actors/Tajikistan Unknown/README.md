@@ -90,14 +90,15 @@ ID | Type | Indicator | Confidence
 29 | File | `admin/movieview.php` | High
 30 | File | `admin/plib/api-rpc/Agent.php` | High
 31 | File | `admin/versions.html` | High
-32 | File | `ajax_calls.php` | High
-33 | File | `api.php` | Low
-34 | File | `attendancy.php` | High
-35 | File | `auth-gss2.c` | Medium
-36 | File | `blog.php` | Medium
-37 | ... | ... | ...
+32 | File | `agenda.php` | Medium
+33 | File | `ajax_calls.php` | High
+34 | File | `api.php` | Low
+35 | File | `attendancy.php` | High
+36 | File | `auth-gss2.c` | Medium
+37 | File | `blog.php` | Medium
+38 | ... | ... | ...
 
-There are 316 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 328 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [GB](https://vuldb.com/?country.gb)
-* [DE](https://vuldb.com/?country.de)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
 There are 7 more country items available. Please use our online service to access the data.
@@ -65,19 +65,20 @@ ID | Type | Indicator | Confidence
 8 | File | `/appLms/ajax.server.php` | High
 9 | File | `/as/authorization.oauth2` | High
 10 | File | `/cgi-bin/editBookmark` | High
-11 | File | `/getImage` | Medium
-12 | File | `/guestmanagement/front.php` | High
-13 | File | `/horde/imp/search.php` | High
-14 | File | `/login.php` | Medium
-15 | File | `/LogoStore/search.php` | High
-16 | File | `/manage-apartment.php` | High
-17 | File | `/mics/j_spring_security_check` | High
-18 | File | `/mkshope/login.php` | High
-19 | File | `/pages/processlogin.php` | High
-20 | File | `/resources//../` | High
-21 | ... | ... | ...
+11 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+12 | File | `/getImage` | Medium
+13 | File | `/guestmanagement/front.php` | High
+14 | File | `/horde/imp/search.php` | High
+15 | File | `/ipms/imageConvert/image` | High
+16 | File | `/login.php` | Medium
+17 | File | `/LogoStore/search.php` | High
+18 | File | `/manage-apartment.php` | High
+19 | File | `/mics/j_spring_security_check` | High
+20 | File | `/mkshope/login.php` | High
+21 | File | `/pages/processlogin.php` | High
+22 | ... | ... | ...
 
-There are 176 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 180 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

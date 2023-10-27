@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 10 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -88,47 +88,48 @@ ID | Type | Indicator | Confidence
 17 | File | `/config/getuser` | High
 18 | File | `/contact/store` | High
 19 | File | `/dashboard/settings` | High
-20 | File | `/debian/patches/load_ppp_generic_if_needed` | High
-21 | File | `/Default/Bd` | Medium
-22 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
-23 | File | `/FormLogin` | Medium
-24 | File | `/forum/away.php` | High
-25 | File | `/friends` | Medium
-26 | File | `/getcfg.php` | Medium
-27 | File | `/gfxpoly/stroke.c` | High
-28 | File | `/goform/form2Wan.cgi` | High
-29 | File | `/guest/s/default/` | High
-30 | File | `/h/compose` | Medium
-31 | File | `/index.php?module=entities/listing_types&entities_id=24` | High
-32 | File | `/index/jobfairol/show/` | High
-33 | File | `/leave_system/classes/Master.php?f=delete_department` | High
-34 | File | `/leave_system/classes/Users.php?f=save` | High
-35 | File | `/messageboard/view.php` | High
-36 | File | `/mgmt/tm/util/bash` | High
-37 | File | `/mhds/clinic/view_details.php` | High
-38 | File | `/modules/projects/vw_files.php` | High
-39 | File | `/MTFWU` | Low
-40 | File | `/nova/bin/console` | High
-41 | File | `/ofrs/admin/?page=teams/manage_team` | High
-42 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-43 | File | `/panel/fields/add` | High
-44 | File | `/patient/settings.php` | High
-45 | File | `/REBOOTSYSTEM` | High
-46 | File | `/reports/rwservlet` | High
-47 | File | `/sbin/acos_service` | High
-48 | File | `/school/model/get_teacher.php` | High
-49 | File | `/scripts/unlock_tasks.php` | High
-50 | File | `/servlet/webacc` | High
-51 | File | `/simple_chat_bot/admin/?page=responses/view_response` | High
-52 | File | `/textpattern/index.php` | High
-53 | File | `/uncpath/` | Medium
-54 | File | `/usr/bin/at` | Medium
-55 | File | `/usr/bin/pkexec` | High
-56 | File | `/var/lib/dpkg/info/` | High
-57 | File | `/var/log/demisto/` | High
-58 | ... | ... | ...
+20 | File | `/Default/Bd` | Medium
+21 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
+22 | File | `/FormLogin` | Medium
+23 | File | `/forum/away.php` | High
+24 | File | `/friends` | Medium
+25 | File | `/getcfg.php` | Medium
+26 | File | `/gfxpoly/stroke.c` | High
+27 | File | `/goform/form2Wan.cgi` | High
+28 | File | `/guest/s/default/` | High
+29 | File | `/h/compose` | Medium
+30 | File | `/index.php?module=entities/listing_types&entities_id=24` | High
+31 | File | `/index/jobfairol/show/` | High
+32 | File | `/leave_system/classes/Master.php?f=delete_department` | High
+33 | File | `/leave_system/classes/Users.php?f=save` | High
+34 | File | `/messageboard/view.php` | High
+35 | File | `/mgmt/tm/util/bash` | High
+36 | File | `/mhds/clinic/view_details.php` | High
+37 | File | `/modules/projects/vw_files.php` | High
+38 | File | `/MTFWU` | Low
+39 | File | `/nova/bin/console` | High
+40 | File | `/ofrs/admin/?page=teams/manage_team` | High
+41 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+42 | File | `/panel/fields/add` | High
+43 | File | `/patient/settings.php` | High
+44 | File | `/REBOOTSYSTEM` | High
+45 | File | `/reports/rwservlet` | High
+46 | File | `/sbin/acos_service` | High
+47 | File | `/school/model/get_teacher.php` | High
+48 | File | `/scripts/unlock_tasks.php` | High
+49 | File | `/servlet/webacc` | High
+50 | File | `/simple_chat_bot/admin/?page=responses/view_response` | High
+51 | File | `/textpattern/index.php` | High
+52 | File | `/uncpath/` | Medium
+53 | File | `/usr/bin/at` | Medium
+54 | File | `/usr/bin/pkexec` | High
+55 | File | `/var/lib/dpkg/info/` | High
+56 | File | `/var/log/demisto/` | High
+57 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+58 | File | `/wp/?cpmvc_id=1&cpmvc_do_action=mvparse&f=datafeed&calid=1&month_index=1&method=adddetails&id=2` | High
+59 | ... | ... | ...
 
-There are 505 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 512 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

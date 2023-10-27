@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [FR](https://vuldb.com/?country.fr)
 * ...
 
-There are 7 more country items available. Please use our online service to access the data.
+There are 8 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -193,12 +193,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-35, CWE-36 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-35, CWE-36 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 12 more TTP items available. Please use our online service to access the data.
+There are 14 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -210,38 +210,40 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin/inquiries/view_inquiry.php` | High
 3 | File | `/admin/maintenance/view_designation.php` | High
 4 | File | `/admin/report/index.php` | High
-5 | File | `/apply.cgi` | Medium
-6 | File | `/APR/signup.php` | High
-7 | File | `/cgi-bin/wlogin.cgi` | High
-8 | File | `/classes/Master.php?f=delete_service` | High
-9 | File | `/classes/Master.php?f=save_course` | High
-10 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
-11 | File | `/E-mobile/App/System/File/downfile.php` | High
-12 | File | `/Electron/download` | High
-13 | File | `/forum/away.php` | High
-14 | File | `/inc/topBarNav.php` | High
-15 | File | `/mims/login.php` | High
-16 | File | `/out.php` | Medium
-17 | File | `/php-scrm/login.php` | High
-18 | File | `/proxy` | Low
-19 | File | `/reviewer/system/system/admins/manage/users/user-update.php` | High
-20 | File | `/send_order.cgi?parameter=access_detect` | High
-21 | File | `/spip.php` | Medium
-22 | File | `/text/pdf/PdfReader.java` | High
-23 | File | `/textpattern/index.php` | High
-24 | File | `/tmp` | Low
-25 | File | `/wp-admin/admin-ajax.php` | High
-26 | File | `account-signup.php` | High
-27 | File | `account/signup.php` | High
-28 | File | `adclick.php` | Medium
-29 | File | `addentry.php` | Medium
-30 | File | `addressbook/backends/ldap/e-book-backend-ldap.c` | High
-31 | File | `admin.jcomments.php` | High
-32 | File | `admin.php` | Medium
-33 | File | `admin/?page=students/view_student` | High
-34 | ... | ... | ...
+5 | File | `/api/runscript` | High
+6 | File | `/apply.cgi` | Medium
+7 | File | `/APR/signup.php` | High
+8 | File | `/cgi-bin/wlogin.cgi` | High
+9 | File | `/classes/Master.php?f=delete_service` | High
+10 | File | `/classes/Master.php?f=save_course` | High
+11 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
+12 | File | `/E-mobile/App/System/File/downfile.php` | High
+13 | File | `/Electron/download` | High
+14 | File | `/forum/away.php` | High
+15 | File | `/inc/topBarNav.php` | High
+16 | File | `/mims/login.php` | High
+17 | File | `/out.php` | Medium
+18 | File | `/php-scrm/login.php` | High
+19 | File | `/proxy` | Low
+20 | File | `/reviewer/system/system/admins/manage/users/user-update.php` | High
+21 | File | `/scripts/unlock_tasks.php` | High
+22 | File | `/send_order.cgi?parameter=access_detect` | High
+23 | File | `/spip.php` | Medium
+24 | File | `/system/user/modules/mod_users/controller.php` | High
+25 | File | `/text/pdf/PdfReader.java` | High
+26 | File | `/textpattern/index.php` | High
+27 | File | `/tmp` | Low
+28 | File | `/wp-admin/admin-ajax.php` | High
+29 | File | `account-signup.php` | High
+30 | File | `account/signup.php` | High
+31 | File | `adclick.php` | Medium
+32 | File | `addentry.php` | Medium
+33 | File | `addressbook/backends/ldap/e-book-backend-ldap.c` | High
+34 | File | `admin.jcomments.php` | High
+35 | File | `admin.php` | Medium
+36 | ... | ... | ...
 
-There are 288 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 313 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

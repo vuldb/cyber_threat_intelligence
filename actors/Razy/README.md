@@ -105,10 +105,10 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-94 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 16 more TTP items available. Please use our online service to access the data.
+There are 15 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -118,14 +118,14 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/../conf/config.properties` | High
 2 | File | `/admin/reminders/manage_reminder.php` | High
-3 | File | `/csms/admin/inquiries/view_details.php` | High
-4 | File | `/drivers/infiniband/core/cm.c` | High
-5 | File | `/files.md5` | Medium
-6 | File | `/forum/away.php` | High
-7 | File | `/horde/util/go.php` | High
-8 | File | `/hrm/employeeview.php` | High
-9 | File | `/images/` | Medium
-10 | File | `/inc/parser/xhtml.php` | High
+3 | File | `/CCMAdmin/serverlist.asp` | High
+4 | File | `/cgi/get_param.cgi` | High
+5 | File | `/csms/admin/inquiries/view_details.php` | High
+6 | File | `/cstecgi.cgi` | Medium
+7 | File | `/files.md5` | Medium
+8 | File | `/forum/away.php` | High
+9 | File | `/hrm/employeeview.php` | High
+10 | File | `/images/` | Medium
 11 | File | `/include/chart_generator.php` | High
 12 | File | `/librarian/bookdetails.php` | High
 13 | File | `/login` | Low
@@ -140,16 +140,19 @@ ID | Type | Indicator | Confidence
 22 | File | `/secure/admin/ViewInstrumentation.jspa` | High
 23 | File | `/SVFE2/pages/feegroups/country_group.jsf` | High
 24 | File | `/textpattern/index.php` | High
-25 | File | `/v2/quantum/save-data-upload-big-file` | High
-26 | File | `4.edu.php` | Medium
-27 | File | `adclick.php` | Medium
-28 | File | `addentry.php` | Medium
-29 | File | `admin.cropcanvas.php` | High
-30 | File | `admin.jcomments.php` | High
-31 | File | `admin/index.php` | High
-32 | ... | ... | ...
+25 | File | `/upfile.cgi` | Medium
+26 | File | `/v2/quantum/save-data-upload-big-file` | High
+27 | File | `/wordpress/wp-admin/admin.php` | High
+28 | File | `4.edu.php` | Medium
+29 | File | `account_footer.php` | High
+30 | File | `adclick.php` | Medium
+31 | File | `add_edit_cat.asp` | High
+32 | File | `add_edit_user.asp` | High
+33 | File | `admin.cropcanvas.php` | High
+34 | File | `admin.jcomments.php` | High
+35 | ... | ... | ...
 
-There are 272 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 302 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

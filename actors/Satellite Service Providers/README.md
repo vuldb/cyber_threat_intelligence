@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [LA](https://vuldb.com/?country.la)
 * [US](https://vuldb.com/?country.us)
-* [MY](https://vuldb.com/?country.my)
+* [IL](https://vuldb.com/?country.il)
 * ...
 
-There are 2 more country items available. Please use our online service to access the data.
+There are 3 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -54,17 +54,18 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/dl_sendmail.php` | High
-2 | File | `/api/v2/cli/commands` | High
-3 | File | `/DXR.axd` | Medium
-4 | File | `/forum/away.php` | High
-5 | File | `/owa/auth/logon.aspx` | High
-6 | File | `/spip.php` | Medium
-7 | File | `/zm/index.php` | High
-8 | File | `admin.jcomments.php` | High
-9 | File | `admin/file-manager/attachments` | High
-10 | ... | ... | ...
+2 | File | `/api/baskets/{name}` | High
+3 | File | `/api/v2/cli/commands` | High
+4 | File | `/DXR.axd` | Medium
+5 | File | `/forum/away.php` | High
+6 | File | `/owa/auth/logon.aspx` | High
+7 | File | `/spip.php` | Medium
+8 | File | `/zm/index.php` | High
+9 | File | `admin.jcomments.php` | High
+10 | File | `admin/file-manager/attachments` | High
+11 | ... | ... | ...
 
-There are 77 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 82 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

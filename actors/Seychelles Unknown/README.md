@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [AR](https://vuldb.com/?country.ar)
-* [GB](https://vuldb.com/?country.gb)
+* [FR](https://vuldb.com/?country.fr)
 * ...
 
 There are 13 more country items available. Please use our online service to access the data.
@@ -566,7 +566,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
@@ -592,31 +592,33 @@ ID | Type | Indicator | Confidence
 10 | File | `/admin/users.php?source=edit_user&id=1` | High
 11 | File | `/administrator/alerts/alertLightbox.php` | High
 12 | File | `/administrator/templates/default/html/windows/right.php` | High
-13 | File | `/apps/acs-commons/content/page-compare.html` | High
-14 | File | `/cgi-bin/webadminget.cgi` | High
-15 | File | `/classes/Master.php?f=delete_service` | High
-16 | File | `/classes/Master.php?f=save_course` | High
-17 | File | `/demo/module/?module=HERE` | High
-18 | File | `/download/set.cgi` | High
-19 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
-20 | File | `/dvcset/sysset/set.cgi` | High
-21 | File | `/forum/away.php` | High
-22 | File | `/goform/SysToolReboot` | High
-23 | File | `/goform/WifiExtraSet` | High
-24 | File | `/inc/topBarNav.php` | High
-25 | File | `/index.php?m=admin&c=custom&a=plugindelhandle` | High
-26 | File | `/mkshop/Men/profile.php` | High
-27 | File | `/mngset/authset` | High
-28 | File | `/mobile/downloadfile.aspx` | High
-29 | File | `/net/nfc/netlink.c` | High
-30 | File | `/out.php` | Medium
-31 | File | `/outgoing.php` | High
-32 | File | `/php-fusion/infusions/shoutbox_panel/shoutbox_archive.php` | High
-33 | File | `/presale/join` | High
-34 | File | `/public/launchNewWindow.jsp` | High
-35 | ... | ... | ...
+13 | File | `/api/runscript` | High
+14 | File | `/apps/acs-commons/content/page-compare.html` | High
+15 | File | `/cgi-bin/webadminget.cgi` | High
+16 | File | `/classes/Master.php?f=delete_service` | High
+17 | File | `/classes/Master.php?f=save_course` | High
+18 | File | `/config/php.ini` | High
+19 | File | `/demo/module/?module=HERE` | High
+20 | File | `/download/set.cgi` | High
+21 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
+22 | File | `/dvcset/sysset/set.cgi` | High
+23 | File | `/forum/away.php` | High
+24 | File | `/goform/SysToolReboot` | High
+25 | File | `/goform/WifiExtraSet` | High
+26 | File | `/inc/topBarNav.php` | High
+27 | File | `/index.php?m=admin&c=custom&a=plugindelhandle` | High
+28 | File | `/mkshop/Men/profile.php` | High
+29 | File | `/mngset/authset` | High
+30 | File | `/mobile/downloadfile.aspx` | High
+31 | File | `/net/nfc/netlink.c` | High
+32 | File | `/out.php` | Medium
+33 | File | `/outgoing.php` | High
+34 | File | `/php-fusion/infusions/shoutbox_panel/shoutbox_archive.php` | High
+35 | File | `/presale/join` | High
+36 | File | `/public/launchNewWindow.jsp` | High
+37 | ... | ... | ...
 
-There are 300 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 313 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

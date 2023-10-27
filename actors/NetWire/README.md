@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 18 more country items available. Please use our online service to access the data.
+There are 20 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -81,7 +81,7 @@ ID | Technique | Weakness | Description | Confidence
 6 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 7 | ... | ... | ... | ...
 
-There are 23 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -108,13 +108,13 @@ ID | Type | Indicator | Confidence
 17 | File | `/admin/reg.php` | High
 18 | File | `/admin/search-appointment.php` | High
 19 | File | `/admin/settings/save.php` | High
-20 | File | `/admin/students/manage.php` | High
-21 | File | `/admin/sys_sql_query.php` | High
-22 | File | `/admin/userprofile.php` | High
-23 | File | `/api/baskets/{name}` | High
-24 | File | `/appliance/users?action=edit` | High
-25 | File | `/apply.cgi` | Medium
-26 | File | `/backup.pl` | Medium
+20 | File | `/admin/sys_sql_query.php` | High
+21 | File | `/admin/userprofile.php` | High
+22 | File | `/api/baskets/{name}` | High
+23 | File | `/appliance/users?action=edit` | High
+24 | File | `/apply.cgi` | Medium
+25 | File | `/backup.pl` | Medium
+26 | File | `/bitrix/admin/ldap_server_edit.php` | High
 27 | File | `/blog` | Low
 28 | File | `/booking/show_bookings/` | High
 29 | File | `/cgi-bin/wlogin.cgi` | High
@@ -149,7 +149,7 @@ ID | Type | Indicator | Confidence
 58 | File | `/php-scrm/login.php` | High
 59 | ... | ... | ...
 
-There are 511 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 518 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [US](https://vuldb.com/?country.us)
 * ...
 
-There are 3 more country items available. Please use our online service to access the data.
+There are 4 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -153,10 +153,11 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-250, CWE-264, CWE-266, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
-6 | ... | ... | ... | ...
+5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+6 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
+7 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -173,42 +174,38 @@ ID | Type | Indicator | Confidence
 7 | File | `/api/cron/settings/setJob/` | High
 8 | File | `/api/v1/snapshots` | High
 9 | File | `/audit/log/log_management.php` | High
-10 | File | `/auth/callback` | High
-11 | File | `/authenticationendpoint/login.do` | High
-12 | File | `/bin/login` | Medium
-13 | File | `/cgi-bin/mainfunction.cgi` | High
-14 | File | `/cgi-bin/wlogin.cgi` | High
-15 | File | `/cgi.cgi` | Medium
-16 | File | `/collection/all` | High
-17 | File | `/Content/Template/root/reverse-shell.aspx` | High
-18 | File | `/ctcprotocol/Protocol` | High
-19 | File | `/dashboard/add-blog.php` | High
-20 | File | `/debug/pprof` | Medium
-21 | File | `/dottie.js` | Medium
-22 | File | `/DXR.axd` | Medium
-23 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-24 | File | `/env` | Low
-25 | File | `/filemanager/ajax_calls.php` | High
-26 | File | `/files/` | Low
+10 | File | `/bin/login` | Medium
+11 | File | `/cgi-bin/mainfunction.cgi` | High
+12 | File | `/cgi-bin/wlogin.cgi` | High
+13 | File | `/cgi.cgi` | Medium
+14 | File | `/classes/Users.php` | High
+15 | File | `/collection/all` | High
+16 | File | `/Content/Template/root/reverse-shell.aspx` | High
+17 | File | `/ctcprotocol/Protocol` | High
+18 | File | `/dashboard/add-blog.php` | High
+19 | File | `/debug/pprof` | Medium
+20 | File | `/dottie.js` | Medium
+21 | File | `/DXR.axd` | Medium
+22 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+23 | File | `/env` | Low
+24 | File | `/filemanager/ajax_calls.php` | High
+25 | File | `/files/` | Low
+26 | File | `/forms/doLogin` | High
 27 | File | `/forum/away.php` | High
 28 | File | `/h/autoSaveDraft` | High
 29 | File | `/index.php` | Medium
 30 | File | `/index.php?p=admin/actions/users/send-password-reset-email` | High
-31 | File | `/index.php?page=member` | High
-32 | File | `/jurusanmatkul/data` | High
+31 | File | `/jurusanmatkul/data` | High
+32 | File | `/librarian/bookdetails.php` | High
 33 | File | `/log/decodmail.php` | High
 34 | File | `/log/webmailattach.php` | High
 35 | File | `/login.php?do=login` | High
 36 | File | `/mhds/clinic/view_details.php` | High
 37 | File | `/php-opos/index.php` | High
 38 | File | `/public/login.htm` | High
-39 | File | `/QueryView.php` | High
-40 | File | `/recreate.php` | High
-41 | File | `/romfile.cfg` | Medium
-42 | File | `/roomtype-details.php` | High
-43 | ... | ... | ...
+39 | ... | ... | ...
 
-There are 374 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 331 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
-* [GB](https://vuldb.com/?country.gb)
+* [DE](https://vuldb.com/?country.de)
 * ...
 
-There are 7 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -22,12 +22,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [2.59.254.111](https://vuldb.com/?ip.2.59.254.111) | - | - | High
-2 | [45.90.222.125](https://vuldb.com/?ip.45.90.222.125) | 45-90-222-125-hostedby.bcr.host | - | High
-3 | [45.90.222.131](https://vuldb.com/?ip.45.90.222.131) | 45-90-222-131-hostedby.bcr.host | - | High
-4 | [62.197.136.69](https://vuldb.com/?ip.62.197.136.69) | - | - | High
+2 | [41.216.188.103](https://vuldb.com/?ip.41.216.188.103) | - | - | High
+3 | [45.90.222.125](https://vuldb.com/?ip.45.90.222.125) | 45-90-222-125-hostedby.bcr.host | - | High
+4 | [45.90.222.131](https://vuldb.com/?ip.45.90.222.131) | 45-90-222-131-hostedby.bcr.host | - | High
 5 | ... | ... | ... | ...
 
-There are 14 more IOC items available. Please use our online service to access the data.
+There are 17 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -40,7 +40,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 10 more TTP items available. Please use our online service to access the data.
+There are 11 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -48,18 +48,29 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/Admin/login.php` | High
-2 | File | `/admin/maintenance/view_designation.php` | High
-3 | File | `/debug/pprof` | Medium
-4 | File | `/etc/sudoers` | Medium
-5 | File | `/forum/away.php` | High
-6 | File | `/showfile.php` | High
-7 | File | `/uncpath/` | Medium
-8 | File | `adclick.php` | Medium
-9 | File | `admin-ajax.php` | High
-10 | ... | ... | ...
+1 | File | `/admin/inquiries/view_details.php` | High
+2 | File | `/Admin/login.php` | High
+3 | File | `/admin/maintenance/view_designation.php` | High
+4 | File | `/coreframe/app/order/admin/index.php` | High
+5 | File | `/debug/pprof` | Medium
+6 | File | `/dev/snd/seq` | Medium
+7 | File | `/etc/sudoers` | Medium
+8 | File | `/forum/away.php` | High
+9 | File | `/products/details.asp` | High
+10 | File | `/showfile.php` | High
+11 | File | `/uncpath/` | Medium
+12 | File | `/Wedding-Management/package_detail.php` | High
+13 | File | `adclick.php` | Medium
+14 | File | `admin-ajax.php` | High
+15 | File | `admin/abc.php` | High
+16 | File | `admin/news.php` | High
+17 | File | `artlinks.dispnew.php` | High
+18 | File | `auth.inc.php` | Medium
+19 | File | `bookPerPub.php` | High
+20 | File | `cart_content.php` | High
+21 | ... | ... | ...
 
-There are 77 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 170 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -74,6 +85,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://tria.ge/220613-smnybadca4
 * https://twitter.com/suyog41/status/1692068700155965877
 * https://www.joesandbox.com/analysis/839457/0/html#TCP_Packets
+* https://www.virustotal.com/gui/file/00163dbf765b7011710330c18bad0a195208846e4aa471f4377eeb9d71b9fd34/detection
 * https://www.virustotal.com/gui/file/be8a02ffd80f9367a1a23aac1a4f6b51ad25482783ac42147b18e5b2b36c98d0/detection
 
 ## Literature

@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [NL](https://vuldb.com/?country.nl)
 * [US](https://vuldb.com/?country.us)
-* [ES](https://vuldb.com/?country.es)
+* [IR](https://vuldb.com/?country.ir)
 * ...
 
 There are 17 more country items available. Please use our online service to access the data.
@@ -64,27 +64,28 @@ ID | Type | Indicator | Confidence
 10 | File | `/file?action=download&file` | High
 11 | File | `/forum/away.php` | High
 12 | File | `/hardware` | Medium
-13 | File | `/include/makecvs.php` | High
-14 | File | `/librarian/bookdetails.php` | High
-15 | File | `/MicroStrategyWS/happyaxis.jsp` | High
-16 | File | `/monitoring` | Medium
-17 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-18 | File | `/out.php` | Medium
-19 | File | `/owa/auth/logon.aspx` | High
-20 | File | `/plugin/LiveChat/getChat.json.php` | High
-21 | File | `/plugins/servlet/audit/resource` | High
-22 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
-23 | File | `/recordings/index.php` | High
-24 | File | `/replication` | Medium
-25 | File | `/rest/api/1.0/render` | High
-26 | File | `/RestAPI` | Medium
-27 | File | `/server-status` | High
-28 | File | `/tmp/zarafa-vacation-*` | High
-29 | File | `/uncpath/` | Medium
-30 | File | `/upload` | Low
-31 | ... | ... | ...
+13 | File | `/importexport.php` | High
+14 | File | `/include/makecvs.php` | High
+15 | File | `/librarian/bookdetails.php` | High
+16 | File | `/MicroStrategyWS/happyaxis.jsp` | High
+17 | File | `/monitoring` | Medium
+18 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+19 | File | `/out.php` | Medium
+20 | File | `/owa/auth/logon.aspx` | High
+21 | File | `/plugin/LiveChat/getChat.json.php` | High
+22 | File | `/plugins/servlet/audit/resource` | High
+23 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
+24 | File | `/recordings/index.php` | High
+25 | File | `/replication` | Medium
+26 | File | `/rest/api/1.0/render` | High
+27 | File | `/RestAPI` | Medium
+28 | File | `/search.php` | Medium
+29 | File | `/server-status` | High
+30 | File | `/tmp/zarafa-vacation-*` | High
+31 | File | `/uncpath/` | Medium
+32 | ... | ... | ...
 
-There are 268 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 274 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -55,10 +55,10 @@ ID | Type | Indicator | Confidence
 6 | File | `/public/plugins/` | High
 7 | File | `/services/details.asp` | High
 8 | File | `/vendor` | Low
-9 | File | `add_edit_cat.asp` | High
+9 | File | `adclick.php` | Medium
 10 | ... | ... | ...
 
-There are 73 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 75 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

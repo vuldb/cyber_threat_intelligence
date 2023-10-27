@@ -35,12 +35,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-24 | Pathname Traversal | High
-2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94 | Cross Site Scripting | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-94 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 15 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -51,33 +51,43 @@ ID | Type | Indicator | Confidence
 1 | File | `/+CSCOE+/logon.html` | High
 2 | File | `/.dbus-keyrings` | High
 3 | File | `/?p=products` | Medium
-4 | File | `/addQuestion.php` | High
-5 | File | `/admin/` | Low
-6 | File | `/admin/addemployee.php` | High
-7 | File | `/admin/api/theme-edit/` | High
-8 | File | `/admin/attendance_row.php` | High
-9 | File | `/admin/cashadvance_row.php` | High
-10 | File | `/admin/cms.php` | High
-11 | File | `/admin/deduction_row.php` | High
-12 | File | `/admin/employee_row.php` | High
-13 | File | `/admin/featured.php` | High
-14 | File | `/admin/login.php` | High
-15 | File | `/admin/maintenance/brand.php` | High
-16 | File | `/admin/payment.php` | High
-17 | File | `/admin/photo.php` | High
-18 | File | `/admin/read.php?mudi=getSignal` | High
-19 | File | `/admin/searchview.php` | High
-20 | File | `/admin/students/manage.php` | High
-21 | File | `/ajax-files/followBoard.php` | High
-22 | File | `/ajax-files/postComment.php` | High
-23 | File | `/ajax.php?action=read_msg` | High
-24 | File | `/anony/mjpg.cgi` | High
-25 | File | `/api/wechat/app_auth` | High
-26 | File | `/artist-display.php` | High
-27 | File | `/bsms_ci/index.php` | High
-28 | ... | ... | ...
+4 | File | `/?r=recruit/resume/edit&op=status` | High
+5 | File | `/account/delivery` | High
+6 | File | `/addQuestion.php` | High
+7 | File | `/admin/` | Low
+8 | File | `/admin/addemployee.php` | High
+9 | File | `/admin/api/theme-edit/` | High
+10 | File | `/admin/article/article-edit-run.php` | High
+11 | File | `/admin/attendance_row.php` | High
+12 | File | `/admin/cashadvance_row.php` | High
+13 | File | `/admin/cms.php` | High
+14 | File | `/admin/deduction_row.php` | High
+15 | File | `/admin/employee_row.php` | High
+16 | File | `/admin/featured.php` | High
+17 | File | `/admin/login.php` | High
+18 | File | `/admin/maintenance/brand.php` | High
+19 | File | `/admin/payment.php` | High
+20 | File | `/admin/photo.php` | High
+21 | File | `/admin/read.php?mudi=getSignal` | High
+22 | File | `/admin/searchview.php` | High
+23 | File | `/admin/students/manage.php` | High
+24 | File | `/ajax-files/followBoard.php` | High
+25 | File | `/ajax-files/postComment.php` | High
+26 | File | `/ajax.php?action=read_msg` | High
+27 | File | `/anony/mjpg.cgi` | High
+28 | File | `/api/wechat/app_auth` | High
+29 | File | `/App_Resource/UEditor/server/upload.aspx` | High
+30 | File | `/artist-display.php` | High
+31 | File | `/author/list?limit=10&offset=0&order=desc` | High
+32 | File | `/blog` | Low
+33 | File | `/browse` | Low
+34 | File | `/bsms_ci/index.php` | High
+35 | File | `/categorypage.php` | High
+36 | File | `/cgi-bin/nightled.cgi` | High
+37 | File | `/chaincity/user/ticket/create` | High
+38 | ... | ... | ...
 
-There are 234 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 324 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

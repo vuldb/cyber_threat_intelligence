@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with BlueHero:
 
 * [IN](https://vuldb.com/?country.in)
-* [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
+* [US](https://vuldb.com/?country.us)
 
 ## IOC - Indicator of Compromise
 
@@ -23,7 +23,7 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [12.1.3.0](https://vuldb.com/?ip.12.1.3.0) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 11 more IOC items available. Please use our online service to access the data.
+There are 14 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -31,14 +31,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-37 | Pathname Traversal | High
+1 | T1006 | CWE-22 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
-6 | ... | ... | ... | ...
+5 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -49,46 +48,42 @@ ID | Type | Indicator | Confidence
 1 | File | `.FBCIndex` | Medium
 2 | File | `/+CSCOE+/logon.html` | High
 3 | File | `/?ajax-request=jnews` | High
-4 | File | `/Admin/add-student.php` | High
-5 | File | `/admin/blog/blogcategory/add/?_to_field=id&_popup=1` | High
-6 | File | `/admin/categories/manage_category.php` | High
-7 | File | `/admin/edit.php` | High
-8 | File | `/admin/edit_product.php` | High
-9 | File | `/admin/maintenance/view_designation.php` | High
-10 | File | `/admin/sales/manage_sale.php` | High
-11 | File | `/api/baskets/{name}` | High
-12 | File | `/aya/module/admin/fst_down.inc.php` | High
-13 | File | `/blog` | Low
-14 | File | `/boat/login.php` | High
-15 | File | `/bsms_ci/index.php/user/edit_user/` | High
-16 | File | `/cas/logout` | Medium
-17 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
-18 | File | `/CPE` | Low
-19 | File | `/etc/tomcat8/Catalina/attack` | High
-20 | File | `/forum/away.php` | High
-21 | File | `/ghost/preview` | High
-22 | File | `/goform/wizard_end` | High
-23 | File | `/home/search` | Medium
-24 | File | `/ims/login.php` | High
-25 | File | `/mhds/clinic/view_details.php` | High
-26 | File | `/modules/profile/index.php` | High
-27 | File | `/out.php` | Medium
-28 | File | `/php-opos/index.php` | High
-29 | File | `/reviewer_0/admins/assessments/pretest/questions-view.php` | High
-30 | File | `/shell` | Low
-31 | File | `/spip.php` | Medium
-32 | File | `/tourism/rate_review.php` | High
-33 | File | `/uncpath/` | Medium
-34 | File | `/vdesk` | Low
-35 | File | `action-visitor.php` | High
-36 | ... | ... | ...
+4 | File | `/admin/categories/manage_category.php` | High
+5 | File | `/admin/edit_product.php` | High
+6 | File | `/admin/maintenance/view_designation.php` | High
+7 | File | `/admin/sales/manage_sale.php` | High
+8 | File | `/api/baskets/{name}` | High
+9 | File | `/blog` | Low
+10 | File | `/boat/login.php` | High
+11 | File | `/bsms_ci/index.php/user/edit_user/` | High
+12 | File | `/cas/logout` | Medium
+13 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
+14 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+15 | File | `/cgi-bin/upload_vpntar` | High
+16 | File | `/CPE` | Low
+17 | File | `/debug/pprof` | Medium
+18 | File | `/forum/away.php` | High
+19 | File | `/ghost/preview` | High
+20 | File | `/goform/Diagnosis` | High
+21 | File | `/home/search` | Medium
+22 | File | `/leaves/validate` | High
+23 | File | `/mail.php` | Medium
+24 | File | `/modules/profile/index.php` | High
+25 | File | `/out.php` | Medium
+26 | File | `/php-opos/index.php` | High
+27 | File | `/php-spms/admin/?page=user/` | High
+28 | File | `/reviewer_0/admins/assessments/pretest/questions-view.php` | High
+29 | File | `/shell` | Low
+30 | File | `/tourism/rate_review.php` | High
+31 | ... | ... | ...
 
-There are 309 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 264 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://s.tencent.com/research/report/675
 * https://www.zscaler.com/blogs/research/recent-bulehero-botnet-payload
 
 ## Literature

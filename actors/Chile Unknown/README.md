@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 21 more country items available. Please use our online service to access the data.
+There are 23 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -389,14 +389,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-35, CWE-36 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-36 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -404,66 +404,52 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `//WEB-INF` | Medium
-2 | File | `/about.php` | Medium
-3 | File | `/admin.php/update/getFile.html` | High
-4 | File | `/admin/cashadvance_row.php` | High
-5 | File | `/admin/inquiries/view_inquiry.php` | High
-6 | File | `/admin/maintenance/view_designation.php` | High
-7 | File | `/admin/offenses/view_details.php` | High
-8 | File | `/admin/report/index.php` | High
-9 | File | `/admin/router.php` | High
-10 | File | `/admin/sales/view_details.php` | High
-11 | File | `/admin/sys_sql_query.php` | High
-12 | File | `/admin/userprofile.php` | High
-13 | File | `/api/baskets/{name}` | High
-14 | File | `/cgi-bin/DownloadFlash` | High
-15 | File | `/cgi-bin/wlogin.cgi` | High
+1 | File | `/admin/router.php` | High
+2 | File | `/admin/save.php` | High
+3 | File | `/admin/sys_sql_query.php` | High
+4 | File | `/api/baskets/{name}` | High
+5 | File | `/api/download` | High
+6 | File | `/api/runscript` | High
+7 | File | `/api/v1/terminal/sessions/?limit=1` | High
+8 | File | `/bin/sh` | Low
+9 | File | `/bitrix/admin/ldap_server_edit.php` | High
+10 | File | `/category.php` | High
+11 | File | `/categorypage.php` | High
+12 | File | `/cgi-bin/DownloadFlash` | High
+13 | File | `/cgi-bin/login.cgi` | High
+14 | File | `/cgi-bin/luci/api/wireless` | High
+15 | File | `/cgi-bin/vitogate.cgi` | High
 16 | File | `/classes/Master.php?f=delete_category` | High
-17 | File | `/classes/Master.php?f=delete_service` | High
-18 | File | `/classes/Master.php?f=save_course` | High
-19 | File | `/company/store` | High
-20 | File | `/Controller/Ajaxfileupload.ashx` | High
+17 | File | `/company/store` | High
+18 | File | `/Content/Template/root/reverse-shell.aspx` | High
+19 | File | `/Controller/Ajaxfileupload.ashx` | High
+20 | File | `/core/conditions/AbstractWrapper.java` | High
 21 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
 22 | File | `/E-mobile/App/System/File/downfile.php` | High
 23 | File | `/Electron/download` | High
-24 | File | `/feeds/post/publish` | High
-25 | File | `/forum/away.php` | High
-26 | File | `/h/` | Low
-27 | File | `/inc/jquery/uploadify/uploadify.php` | High
-28 | File | `/inc/topBarNav.php` | High
+24 | File | `/etc/passwd` | Medium
+25 | File | `/fcgi/scrut_fcgi.fcgi` | High
+26 | File | `/forum/away.php` | High
+27 | File | `/h/` | Low
+28 | File | `/HNAP1` | Low
 29 | File | `/index.php?app=main&func=passport&action=login` | High
 30 | File | `/index.php?page=category_list` | High
-31 | File | `/jobinfo/` | Medium
-32 | File | `/KeepAlive.jsp` | High
-33 | File | `/modules/projects/vw_files.php` | High
-34 | File | `/Moosikay/order.php` | High
-35 | File | `/opac/Actions.php?a=login` | High
-36 | File | `/pms/admin/visits/view_visit.php` | High
-37 | File | `/PreviewHandler.ashx` | High
-38 | File | `/proxy` | Low
-39 | File | `/recipe-result` | High
-40 | File | `/Repositories` | High
-41 | File | `/reservation/add_message.php` | High
-42 | File | `/reviewer/system/system/admins/manage/users/user-update.php` | High
-43 | File | `/send_order.cgi?parameter=access_detect` | High
-44 | File | `/Service/ImageStationDataService.asmx` | High
-45 | File | `/student/bookdetails.php` | High
-46 | File | `/text/pdf/PdfReader.java` | High
-47 | File | `/uploads/exam_question/` | High
-48 | File | `/user/ticket/create` | High
-49 | File | `/user/updatePwd` | High
-50 | File | `/userRpm/WanDynamicIpV6CfgRpm` | High
-51 | File | `/var/lib/docker/<remapping>` | High
-52 | File | `/wp-admin/admin-ajax.php` | High
-53 | File | `/wp-json/oembed/1.0/embed?url` | High
-54 | File | `a-forms.php` | Medium
-55 | File | `account.asp` | Medium
-56 | File | `adclick.php` | Medium
-57 | File | `admin.a6mambocredits.php` | High
-58 | ... | ... | ...
+31 | File | `/jeecg-boot/sys/common/upload` | High
+32 | File | `/jobinfo/` | Medium
+33 | File | `/LogInOut.php` | High
+34 | File | `/out.php` | Medium
+35 | File | `/PreviewHandler.ashx` | High
+36 | File | `/recipe-result` | High
+37 | File | `/register.do` | Medium
+38 | File | `/RPS2019Service/status.html` | High
+39 | File | `/Service/ImageStationDataService.asmx` | High
+40 | File | `/sicweb-ajax/tmproot/` | High
+41 | File | `/Side.php` | Medium
+42 | File | `/spip.php` | Medium
+43 | File | `/student/bookdetails.php` | High
+44 | ... | ... | ...
 
-There are 503 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 378 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

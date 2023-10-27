@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 19 more country items available. Please use our online service to access the data.
+There are 16 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -49,7 +49,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Pathname Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
@@ -67,45 +67,45 @@ ID | Type | Indicator | Confidence
 2 | File | `/act/ActDao.xml` | High
 3 | File | `/admin/lab.php` | High
 4 | File | `/ajax.php?action=read_msg` | High
-5 | File | `/ajax/networking/get_netcfg.php` | High
-6 | File | `/api/gen/clients/{language}` | High
-7 | File | `/api/geojson` | Medium
-8 | File | `/app/options.py` | High
-9 | File | `/bin/httpd` | Medium
-10 | File | `/cbs/system/ShowAdvanced.do` | High
-11 | File | `/cgi-bin/wapopen` | High
+5 | File | `/api/gen/clients/{language}` | High
+6 | File | `/api/geojson` | Medium
+7 | File | `/app/options.py` | High
+8 | File | `/bin/httpd` | Medium
+9 | File | `/cbs/system/ShowAdvanced.do` | High
+10 | File | `/cgi-bin/wapopen` | High
+11 | File | `/cgi/networkDiag.cgi` | High
 12 | File | `/ci_spms/admin/category` | High
 13 | File | `/ci_spms/admin/search/searching/` | High
 14 | File | `/classes/Master.php?f=delete_appointment` | High
 15 | File | `/classes/Master.php?f=delete_train` | High
-16 | File | `/concat?/%2557EB-INF/web.xml` | High
-17 | File | `/Content/Template/root/reverse-shell.aspx` | High
-18 | File | `/ctcprotocol/Protocol` | High
-19 | File | `/dashboard/menu-list.php` | High
-20 | File | `/data/remove` | Medium
-21 | File | `/debug` | Low
+16 | File | `/Content/Template/root/reverse-shell.aspx` | High
+17 | File | `/ctcprotocol/Protocol` | High
+18 | File | `/dashboard/menu-list.php` | High
+19 | File | `/data/remove` | Medium
+20 | File | `/debug` | Low
+21 | File | `/debug/pprof` | Medium
 22 | File | `/ebics-server/ebics.aspx` | High
 23 | File | `/env` | Low
 24 | File | `/ffos/classes/Master.php?f=save_category` | High
 25 | File | `/forum/away.php` | High
-26 | File | `/goform/setmac` | High
-27 | File | `/goforms/rlminfo` | High
-28 | File | `/HNAP1` | Low
-29 | File | `/HNAP1/SetClientInfo` | High
-30 | File | `/Items/*/RemoteImages/Download` | High
-31 | File | `/menu.html` | Medium
-32 | File | `/modules/profile/index.php` | High
-33 | File | `/navigate/navigate_download.php` | High
-34 | File | `/ocwbs/admin/?page=user/manage_user` | High
-35 | File | `/ofrs/admin/?page=user/manage_user` | High
-36 | File | `/out.php` | Medium
-37 | File | `/password.html` | High
-38 | File | `/php_action/fetchSelectedUser.php` | High
-39 | File | `/property-list/property_view.php` | High
-40 | File | `/ptms/classes/Users.php` | High
-41 | File | `/resources//../` | High
-42 | File | `/rest/api/2/search` | High
-43 | File | `/s/` | Low
+26 | File | `/goform/net\_Web\_get_value` | High
+27 | File | `/goform/setmac` | High
+28 | File | `/goforms/rlminfo` | High
+29 | File | `/GponForm/usb_restore_Form?script/` | High
+30 | File | `/group1/uploa` | High
+31 | File | `/HNAP1` | Low
+32 | File | `/HNAP1/SetClientInfo` | High
+33 | File | `/Items/*/RemoteImages/Download` | High
+34 | File | `/menu.html` | Medium
+35 | File | `/modules/profile/index.php` | High
+36 | File | `/navigate/navigate_download.php` | High
+37 | File | `/net/sched/cls_fw.c` | High
+38 | File | `/ocwbs/admin/?page=user/manage_user` | High
+39 | File | `/ofrs/admin/?page=user/manage_user` | High
+40 | File | `/out.php` | Medium
+41 | File | `/php_action/fetchSelectedUser.php` | High
+42 | File | `/plugin` | Low
+43 | File | `/property-list/property_view.php` | High
 44 | ... | ... | ...
 
 There are 379 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.

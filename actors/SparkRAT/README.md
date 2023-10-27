@@ -16,8 +16,9 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [54.180.27.29](https://vuldb.com/?ip.54.180.27.29) | ec2-54-180-27-29.ap-northeast-2.compute.amazonaws.com | - | Medium
-2 | [130.185.238.251](https://vuldb.com/?ip.130.185.238.251) | cp.oncardapio.com | - | High
+1 | [43.140.252.169](https://vuldb.com/?ip.43.140.252.169) | - | - | High
+2 | [54.180.27.29](https://vuldb.com/?ip.54.180.27.29) | ec2-54-180-27-29.ap-northeast-2.compute.amazonaws.com | - | Medium
+3 | [130.185.238.251](https://vuldb.com/?ip.130.185.238.251) | cp.oncardapio.com | - | High
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -42,6 +43,7 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://asec.ahnlab.com/en/53267/
 * https://twitter.com/suyog41/status/1655524692164214784
+* https://twitter.com/suyog41/status/1699438327508734306
 
 ## Literature
 

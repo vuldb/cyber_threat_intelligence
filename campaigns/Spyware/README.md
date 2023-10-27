@@ -64,17 +64,17 @@ ID | Type | Indicator | Confidence
 1 | File | `%PROGRAMDATA%\Razer Chroma\SDK\Apps` | High
 2 | File | `.htaccess` | Medium
 3 | File | `/cgi-bin/webviewer_login_page` | High
-4 | File | `/mgmt/tm/util/bash` | High
-5 | File | `/recordings/index.php` | High
-6 | File | `/uncpath/` | Medium
-7 | File | `/webssh` | Low
-8 | File | `add_vhost.php` | High
-9 | File | `admin-ajax.php` | High
-10 | File | `and/or` | Low
-11 | File | `arsys/servlet/AttachServlet` | High
+4 | File | `/common/info.cgi` | High
+5 | File | `/mgmt/tm/util/bash` | High
+6 | File | `/recordings/index.php` | High
+7 | File | `/uncpath/` | Medium
+8 | File | `/webssh` | Low
+9 | File | `add_vhost.php` | High
+10 | File | `admin-ajax.php` | High
+11 | File | `and/or` | Low
 12 | ... | ... | ...
 
-There are 90 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 91 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

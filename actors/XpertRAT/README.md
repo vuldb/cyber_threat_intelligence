@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with XpertRAT:
 
 * [US](https://vuldb.com/?country.us)
-* [CN](https://vuldb.com/?country.cn)
-* [GB](https://vuldb.com/?country.gb)
+* [ES](https://vuldb.com/?country.es)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 12 more country items available. Please use our online service to access the data.
+There are 13 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -28,7 +28,7 @@ ID | IP address | Hostname | Campaign | Confidence
 5 | [37.0.11.150](https://vuldb.com/?ip.37.0.11.150) | - | - | High
 6 | ... | ... | ... | ...
 
-There are 20 more IOC items available. Please use our online service to access the data.
+There are 21 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -42,7 +42,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 15 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -51,18 +51,29 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/../conf/config.properties` | High
-2 | File | `/admin/web_config.php` | High
-3 | File | `/cgi-bin/kerbynet` | High
-4 | File | `/configs/application.ini` | High
-5 | File | `/DataHandler/AM/AM_Handler.ashx` | High
-6 | File | `/debug/pprof` | Medium
-7 | File | `/etc/sudoers` | Medium
-8 | File | `/forum/away.php` | High
-9 | File | `/product.php` | Medium
-10 | File | `/rest/api/2/user/picker` | High
-11 | ... | ... | ...
+2 | File | `/about.php` | Medium
+3 | File | `/admin` | Low
+4 | File | `/Admin/createClass.php` | High
+5 | File | `/admin/edit_product.php` | High
+6 | File | `/admin/products/manage_product.php` | High
+7 | File | `/admin/products/view_product.php` | High
+8 | File | `/admin/web_config.php` | High
+9 | File | `/be/erpc.php` | Medium
+10 | File | `/cgi-bin/kerbynet` | High
+11 | File | `/config/myfield/test.php` | High
+12 | File | `/configs/application.ini` | High
+13 | File | `/DataHandler/AM/AM_Handler.ashx` | High
+14 | File | `/debug/pprof` | Medium
+15 | File | `/etc/sudoers` | Medium
+16 | File | `/forum/away.php` | High
+17 | File | `/index.php` | Medium
+18 | File | `/index.php?app=main&func=passport&action=login` | High
+19 | File | `/manage-apartment.php` | High
+20 | File | `/multi-vendor-shopping-script/product-list.php` | High
+21 | File | `/Noxen-master/users.php` | High
+22 | ... | ... | ...
 
-There are 87 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 186 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -60,7 +60,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -103,19 +103,18 @@ ID | Type | Indicator | Confidence
 33 | File | `/goform/setmac` | High
 34 | File | `/goform/wizard_end` | High
 35 | File | `/group1/uploa` | High
-36 | File | `/manage-apartment.php` | High
-37 | File | `/medicines/profile.php` | High
-38 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-39 | File | `/out.php` | Medium
-40 | File | `/pages/apply_vacancy.php` | High
-41 | File | `/pharmacy-sales-and-inventory-system/manage_user.php` | High
-42 | File | `/php-sms/admin/?page=user/manage_user` | High
-43 | File | `/pms/update_patient.php` | High
-44 | File | `/preview.php` | Medium
-45 | File | `/proxy` | Low
-46 | ... | ... | ...
+36 | File | `/medicines/profile.php` | High
+37 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+38 | File | `/out.php` | Medium
+39 | File | `/pharmacy-sales-and-inventory-system/manage_user.php` | High
+40 | File | `/php-sms/admin/?page=user/manage_user` | High
+41 | File | `/preview.php` | Medium
+42 | File | `/proxy` | Low
+43 | File | `/reservation/add_message.php` | High
+44 | File | `/resources//../` | High
+45 | ... | ... | ...
 
-There are 403 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 391 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

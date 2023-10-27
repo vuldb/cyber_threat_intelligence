@@ -49,7 +49,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 9 more TTP items available. Please use our online service to access the data.
+There are 11 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -58,30 +58,32 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/maintenance/view_designation.php` | High
-2 | File | `/resourceNode/jdbcResourceEdit.jsf` | High
-3 | File | `/resourceNode/resources.jsf` | High
-4 | File | `3.6.cpj` | Low
-5 | File | `404.php` | Low
-6 | File | `admin.asp` | Medium
-7 | File | `admin.aspx` | Medium
-8 | File | `admin.php` | Medium
-9 | File | `admin/member_details.php` | High
-10 | File | `admin_chatconfig.php` | High
-11 | File | `admin_iplog.php` | High
-12 | File | `ajaxp.php` | Medium
-13 | File | `alphabet.php` | Medium
-14 | File | `app/controllers/oauth.js` | High
-15 | File | `article2/comments.inc.php` | High
-16 | File | `articles/edit.php` | High
-17 | File | `assp.pl` | Low
-18 | File | `be_config.php` | High
-19 | File | `bridge/yabbse.inc.php` | High
-20 | File | `calendar_Eventupdate.asp` | High
-21 | File | `cal_week.php` | Medium
-22 | File | `close_bug.php` | High
-23 | ... | ... | ...
+2 | File | `/forum/away.php` | High
+3 | File | `/resourceNode/jdbcResourceEdit.jsf` | High
+4 | File | `/resourceNode/resources.jsf` | High
+5 | File | `3.6.cpj` | Low
+6 | File | `404.php` | Low
+7 | File | `adclick.php` | Medium
+8 | File | `admin.asp` | Medium
+9 | File | `admin.aspx` | Medium
+10 | File | `admin.php` | Medium
+11 | File | `admin/member_details.php` | High
+12 | File | `admin_chatconfig.php` | High
+13 | File | `admin_iplog.php` | High
+14 | File | `ajaxp.php` | Medium
+15 | File | `alphabet.php` | Medium
+16 | File | `app/controllers/oauth.js` | High
+17 | File | `article2/comments.inc.php` | High
+18 | File | `articles/edit.php` | High
+19 | File | `assp.pl` | Low
+20 | File | `awstats.pl` | Medium
+21 | File | `be_config.php` | High
+22 | File | `bridge/yabbse.inc.php` | High
+23 | File | `calendar_Eventupdate.asp` | High
+24 | File | `cal_week.php` | Medium
+25 | ... | ... | ...
 
-There are 194 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 214 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

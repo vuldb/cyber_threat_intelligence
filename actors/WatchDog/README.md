@@ -81,9 +81,10 @@ ID | Type | Indicator | Confidence
 28 | File | `/omos/admin/?page=user/list` | High
 29 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
 30 | File | `/panel/fields/add` | High
-31 | ... | ... | ...
+31 | File | `/patient/settings.php` | High
+32 | ... | ... | ...
 
-There are 261 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 269 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

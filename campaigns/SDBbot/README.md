@@ -76,14 +76,15 @@ ID | Type | Indicator | Confidence
 17 | File | `/Duty/AjaxHandle/Write/UploadFile.ashx` | High
 18 | File | `/etc/puppetlabs/puppetserver/conf.d/ca.conf` | High
 19 | File | `/home/filter_listings` | High
-20 | File | `/index.php` | Medium
-21 | File | `/jeecg-boot/jmreport/upload` | High
-22 | File | `/jeecg-boot/sys/common/upload` | High
-23 | File | `/listplace/user/ticket/create` | High
-24 | File | `/modules/tasks/summary.inc.php` | High
-25 | ... | ... | ...
+20 | File | `/im/user/` | Medium
+21 | File | `/index.php` | Medium
+22 | File | `/jeecg-boot/jmreport/upload` | High
+23 | File | `/jeecg-boot/sys/common/upload` | High
+24 | File | `/listplace/user/ticket/create` | High
+25 | File | `/modules/tasks/summary.inc.php` | High
+26 | ... | ... | ...
 
-There are 212 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 217 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

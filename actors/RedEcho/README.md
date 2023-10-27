@@ -15,8 +15,8 @@ The following _campaigns_ are known and can be associated with RedEcho:
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with RedEcho:
 
 * [HK](https://vuldb.com/?country.hk)
-* [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
 There are 3 more country items available. Please use our online service to access the data.
@@ -66,7 +66,7 @@ ID | Type | Indicator | Confidence
 4 | File | `/admin/login.php` | High
 5 | File | `/ad_js.php` | Medium
 6 | File | `/alerts/alertConfigField.php` | High
-7 | File | `/API/system/admins/session` | High
+7 | File | `/api/v1/terminal/sessions/?limit=1` | High
 8 | File | `/config/myfield/test.php` | High
 9 | File | `/context/%2e/WEB-INF/web.xml` | High
 10 | File | `/core/conditions/AbstractWrapper.java` | High
@@ -77,15 +77,15 @@ ID | Type | Indicator | Confidence
 15 | File | `/forms/doLogin` | High
 16 | File | `/fuel/index.php/fuel/logs/items` | High
 17 | File | `/fuel/index.php/fuel/pages/items` | High
-18 | File | `/image_zoom.php` | High
-19 | File | `/include/config.cache.php` | High
-20 | File | `/index.php` | Medium
-21 | File | `/mkshop/Men/profile.php` | High
-22 | File | `/param.file.tgz` | High
-23 | File | `/preauth` | Medium
-24 | File | `/proxy/` | Low
-25 | File | `/public/plugins/` | High
-26 | File | `/rest/api/2/search` | High
+18 | File | `/goform/aspForm` | High
+19 | File | `/image_zoom.php` | High
+20 | File | `/include/config.cache.php` | High
+21 | File | `/index.php` | Medium
+22 | File | `/mkshop/Men/profile.php` | High
+23 | File | `/param.file.tgz` | High
+24 | File | `/preauth` | Medium
+25 | File | `/proxy/` | Low
+26 | File | `/public/plugins/` | High
 27 | ... | ... | ...
 
 There are 228 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.

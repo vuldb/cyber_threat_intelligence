@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with tRAT:
 
 * [US](https://vuldb.com/?country.us)
-* [BR](https://vuldb.com/?country.br)
 * [RU](https://vuldb.com/?country.ru)
+* [BR](https://vuldb.com/?country.br)
 * ...
 
 There are 6 more country items available. Please use our online service to access the data.
@@ -34,7 +34,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 4 | ... | ... | ... | ...
 
-There are 9 more TTP items available. Please use our online service to access the data.
+There are 10 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -49,7 +49,7 @@ ID | Type | Indicator | Confidence
 5 | File | `bfd/aoutx.h` | Medium
 6 | ... | ... | ...
 
-There are 36 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 38 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

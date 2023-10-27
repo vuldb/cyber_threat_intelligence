@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RO](https://vuldb.com/?country.ro)
 * ...
 
-There are 20 more country items available. Please use our online service to access the data.
+There are 18 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -1062,14 +1062,15 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-36, CWE-37 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+6 | T1078.001 | CWE-259 | Use of Hard-coded Password | High
+7 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -1077,67 +1078,59 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `//WEB-INF` | Medium
-2 | File | `/?p=products` | Medium
-3 | File | `/?r=recruit/resume/edit&op=status` | High
-4 | File | `/about.php` | Medium
-5 | File | `/admin.php/update/getFile.html` | High
-6 | File | `/admin/?page=user/manage_user&id=3` | High
-7 | File | `/admin/about-us.php` | High
-8 | File | `/admin/budget/manage_budget.php` | High
-9 | File | `/admin/del_category.php` | High
-10 | File | `/admin/del_service.php` | High
-11 | File | `/admin/edit-accepted-appointment.php` | High
-12 | File | `/admin/edit-services.php` | High
-13 | File | `/admin/edit_category.php` | High
-14 | File | `/admin/edit_subject.php` | High
-15 | File | `/admin/forgot-password.php` | High
-16 | File | `/admin/index.php` | High
-17 | File | `/admin/inquiries/view_inquiry.php` | High
-18 | File | `/admin/maintenance/view_designation.php` | High
-19 | File | `/admin/products/manage_product.php` | High
-20 | File | `/admin/read.php?mudi=getSignal` | High
-21 | File | `/admin/reg.php` | High
-22 | File | `/admin/search-appointment.php` | High
-23 | File | `/admin/sys_sql_query.php` | High
-24 | File | `/api/stl/actions/search` | High
-25 | File | `/api/v2/cli/commands` | High
-26 | File | `/bin/ate` | Medium
-27 | File | `/blog` | Low
-28 | File | `/booking/show_bookings/` | High
-29 | File | `/cgi-bin` | Medium
-30 | File | `/classes/Master.php?f=delete_service` | High
-31 | File | `/classes/Master.php?f=save_course` | High
-32 | File | `/company/store` | High
-33 | File | `/Controller/Ajaxfileupload.ashx` | High
-34 | File | `/dipam/athlete-profile.php` | High
-35 | File | `/dosen/data` | Medium
-36 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
-37 | File | `/E-mobile/App/System/File/downfile.php` | High
-38 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-39 | File | `/env` | Low
-40 | File | `/etc/passwd` | Medium
-41 | File | `/feeds/post/publish` | High
-42 | File | `/forum/away.php` | High
-43 | File | `/h/` | Low
-44 | File | `/inc/jquery/uploadify/uploadify.php` | High
+1 | File | `/?r=recruit/resume/edit&op=status` | High
+2 | File | `/admin/?page=user/list` | High
+3 | File | `/admin/?page=user/manage_user&id=3` | High
+4 | File | `/admin/about-us.php` | High
+5 | File | `/admin/del_category.php` | High
+6 | File | `/admin/del_service.php` | High
+7 | File | `/admin/edit-accepted-appointment.php` | High
+8 | File | `/admin/edit-services.php` | High
+9 | File | `/admin/edit_category.php` | High
+10 | File | `/admin/forgot-password.php` | High
+11 | File | `/admin/index.php` | High
+12 | File | `/admin/save.php` | High
+13 | File | `/admin/search-appointment.php` | High
+14 | File | `/admin/sys_sql_query.php` | High
+15 | File | `/api/baskets/{name}` | High
+16 | File | `/api/download` | High
+17 | File | `/api/runscript` | High
+18 | File | `/api/v1/alerts` | High
+19 | File | `/api/v1/terminal/sessions/?limit=1` | High
+20 | File | `/appliance/users?action=edit` | High
+21 | File | `/bitrix/admin/ldap_server_edit.php` | High
+22 | File | `/blog` | Low
+23 | File | `/booking/show_bookings/` | High
+24 | File | `/category.php` | High
+25 | File | `/categorypage.php` | High
+26 | File | `/cgi-bin/luci/api/wireless` | High
+27 | File | `/cgi-bin/vitogate.cgi` | High
+28 | File | `/collection/all` | High
+29 | File | `/company/store` | High
+30 | File | `/Content/Template/root/reverse-shell.aspx` | High
+31 | File | `/Controller/Ajaxfileupload.ashx` | High
+32 | File | `/core/conditions/AbstractWrapper.java` | High
+33 | File | `/dashboard/add-blog.php` | High
+34 | File | `/debug/pprof` | Medium
+35 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
+36 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+37 | File | `/etc/passwd` | Medium
+38 | File | `/fcgi/scrut_fcgi.fcgi` | High
+39 | File | `/forum/away.php` | High
+40 | File | `/fusion/portal/action/Link` | High
+41 | File | `/group1/uploa` | High
+42 | File | `/h/` | Low
+43 | File | `/HNAP1` | Low
+44 | File | `/importexport.php` | High
 45 | File | `/index.php` | Medium
-46 | File | `/index.php?app=main&func=passport&action=login` | High
-47 | File | `/index.php?page=category_list` | High
-48 | File | `/jobinfo/` | Medium
-49 | File | `/jurusan/data` | High
-50 | File | `/kelasdosen/data` | High
-51 | File | `/Moosikay/order.php` | High
-52 | File | `/opac/Actions.php?a=login` | High
-53 | File | `/osm/REGISTER.cmd` | High
-54 | File | `/out.php` | Medium
-55 | File | `/paysystem/datatable.php` | High
-56 | File | `/php-sms/admin/?page=user/manage_user` | High
-57 | File | `/PreviewHandler.ashx` | High
-58 | File | `/recipe-result` | High
-59 | ... | ... | ...
+46 | File | `/jeecg-boot/sys/common/upload` | High
+47 | File | `/listplace/user/coverPhotoUpdate` | High
+48 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
+49 | File | `/out.php` | Medium
+50 | File | `/recipe-result` | High
+51 | ... | ... | ...
 
-There are 520 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 444 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

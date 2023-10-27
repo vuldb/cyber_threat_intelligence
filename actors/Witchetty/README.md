@@ -14,8 +14,8 @@ The following _campaigns_ are known and can be associated with Witchetty:
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Witchetty:
 
-* [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
@@ -57,14 +57,14 @@ ID | Type | Indicator | Confidence
 2 | File | `/apply.cgi` | Medium
 3 | File | `/etc/openstack-dashboard/local_settings` | High
 4 | File | `/rapi/read_url` | High
-5 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
-6 | File | `/wp-content/uploads/photo-gallery/` | High
-7 | File | `appserv/main.php` | High
-8 | File | `arch/x86/kvm/vmx/nested.c` | High
-9 | File | `coders/png.c` | Medium
+5 | File | `/scripts/unlock_tasks.php` | High
+6 | File | `/system/user/modules/mod_users/controller.php` | High
+7 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
+8 | File | `/wp-content/uploads/photo-gallery/` | High
+9 | File | `appserv/main.php` | High
 10 | ... | ... | ...
 
-There are 70 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 78 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

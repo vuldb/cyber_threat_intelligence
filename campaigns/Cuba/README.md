@@ -9,7 +9,6 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Cuba:
 
 * [VN](https://vuldb.com/?country.vn)
-* [US](https://vuldb.com/?country.us)
 
 ## Actors
 
@@ -37,22 +36,22 @@ ID | IP address | Hostname | Actor | Confidence
 8 | [10.13.102.58](https://vuldb.com/?ip.10.13.102.58) | - | [Cuba Ransomware](https://vuldb.com/?actor.cuba_ransomware) | High
 9 | [10.14.100.20](https://vuldb.com/?ip.10.14.100.20) | - | [Cuba Ransomware](https://vuldb.com/?actor.cuba_ransomware) | High
 10 | [10.133.78.41](https://vuldb.com/?ip.10.133.78.41) | - | [Cuba Ransomware](https://vuldb.com/?actor.cuba_ransomware) | High
-11 | [23.227.197.229](https://vuldb.com/?ip.23.227.197.229) | 23-227-197-229.static.hvvc.us | [UNC2596](https://vuldb.com/?actor.unc2596) | High
-12 | [23.227.198.246](https://vuldb.com/?ip.23.227.198.246) | 23-227-198-246.static.hvvc.us | [Cuba Ransomware](https://vuldb.com/?actor.cuba_ransomware) | High
-13 | [31.44.184.84](https://vuldb.com/?ip.31.44.184.84) | - | [Cuba Ransomware](https://vuldb.com/?actor.cuba_ransomware) | High
-14 | [31.44.184.100](https://vuldb.com/?ip.31.44.184.100) | - | [Cuba Ransomware](https://vuldb.com/?actor.cuba_ransomware) | High
-15 | [31.184.192.44](https://vuldb.com/?ip.31.184.192.44) | - | [Cuba Ransomware](https://vuldb.com/?actor.cuba_ransomware) | High
-16 | [31.184.194.42](https://vuldb.com/?ip.31.184.194.42) | - | [Cuba Ransomware](https://vuldb.com/?actor.cuba_ransomware) | High
-17 | [31.184.198.74](https://vuldb.com/?ip.31.184.198.74) | - | [Cuba Ransomware](https://vuldb.com/?actor.cuba_ransomware) | High
-18 | [31.184.198.80](https://vuldb.com/?ip.31.184.198.80) | directingme.com | [Cuba Ransomware](https://vuldb.com/?actor.cuba_ransomware) | High
-19 | [31.184.198.82](https://vuldb.com/?ip.31.184.198.82) | harms.directingme.com | [Cuba Ransomware](https://vuldb.com/?actor.cuba_ransomware) | High
-20 | [31.184.198.83](https://vuldb.com/?ip.31.184.198.83) | - | [Cuba Ransomware](https://vuldb.com/?actor.cuba_ransomware) | High
-21 | [31.184.198.84](https://vuldb.com/?ip.31.184.198.84) | - | [Cuba Ransomware](https://vuldb.com/?actor.cuba_ransomware) | High
-22 | [31.184.198.85](https://vuldb.com/?ip.31.184.198.85) | mta1.thomsai.com | [Cuba Ransomware](https://vuldb.com/?actor.cuba_ransomware) | High
-23 | [31.184.198.86](https://vuldb.com/?ip.31.184.198.86) | - | [Cuba Ransomware](https://vuldb.com/?actor.cuba_ransomware) | High
+11 | [23.160.193.145](https://vuldb.com/?ip.23.160.193.145) | server1.wlook.com | [Cuba Ransomware](https://vuldb.com/?actor.cuba_ransomware) | High
+12 | [23.227.197.229](https://vuldb.com/?ip.23.227.197.229) | 23-227-197-229.static.hvvc.us | [UNC2596](https://vuldb.com/?actor.unc2596) | High
+13 | [23.227.198.246](https://vuldb.com/?ip.23.227.198.246) | 23-227-198-246.static.hvvc.us | [Cuba Ransomware](https://vuldb.com/?actor.cuba_ransomware) | High
+14 | [31.44.184.84](https://vuldb.com/?ip.31.44.184.84) | - | [Cuba Ransomware](https://vuldb.com/?actor.cuba_ransomware) | High
+15 | [31.44.184.100](https://vuldb.com/?ip.31.44.184.100) | - | [Cuba Ransomware](https://vuldb.com/?actor.cuba_ransomware) | High
+16 | [31.184.192.44](https://vuldb.com/?ip.31.184.192.44) | - | [Cuba Ransomware](https://vuldb.com/?actor.cuba_ransomware) | High
+17 | [31.184.194.42](https://vuldb.com/?ip.31.184.194.42) | - | [Cuba Ransomware](https://vuldb.com/?actor.cuba_ransomware) | High
+18 | [31.184.198.74](https://vuldb.com/?ip.31.184.198.74) | - | [Cuba Ransomware](https://vuldb.com/?actor.cuba_ransomware) | High
+19 | [31.184.198.80](https://vuldb.com/?ip.31.184.198.80) | directingme.com | [Cuba Ransomware](https://vuldb.com/?actor.cuba_ransomware) | High
+20 | [31.184.198.82](https://vuldb.com/?ip.31.184.198.82) | harms.directingme.com | [Cuba Ransomware](https://vuldb.com/?actor.cuba_ransomware) | High
+21 | [31.184.198.83](https://vuldb.com/?ip.31.184.198.83) | - | [Cuba Ransomware](https://vuldb.com/?actor.cuba_ransomware) | High
+22 | [31.184.198.84](https://vuldb.com/?ip.31.184.198.84) | - | [Cuba Ransomware](https://vuldb.com/?actor.cuba_ransomware) | High
+23 | [31.184.198.85](https://vuldb.com/?ip.31.184.198.85) | mta1.thomsai.com | [Cuba Ransomware](https://vuldb.com/?actor.cuba_ransomware) | High
 24 | ... | ... | ... | ...
 
-There are 91 more IOC items available. Please use our online service to access the data.
+There are 94 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -60,14 +59,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-29, CWE-36 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-29 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-264, CWE-269, CWE-274, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+5 | T1068 | CWE-250, CWE-264, CWE-266, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -75,42 +74,50 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `//proc/kcore` | Medium
-2 | File | `/api/baskets/{name}` | High
-3 | File | `/api/upload.php` | High
-4 | File | `/api?path=profile` | High
-5 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
-6 | File | `/authenticationendpoint/login.do` | High
-7 | File | `/bin/login` | Medium
-8 | File | `/blog` | Low
-9 | File | `/cgi-bin/luci` | High
-10 | File | `/cgi-bin/wlogin.cgi` | High
-11 | File | `/ci_spms/admin/search/searching/` | High
-12 | File | `/classes/Master.php?f=save_brand` | High
-13 | File | `/contact/store` | High
-14 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
-15 | File | `/ecommerce/support_ticket` | High
-16 | File | `/forum/away.php` | High
-17 | File | `/FuguHub/cmsdocs/` | High
-18 | File | `/goform/set_LimitClient_cfg` | High
-19 | File | `/graphql` | Medium
-20 | File | `/h/autoSaveDraft` | High
-21 | File | `/HNAP1` | Low
-22 | File | `/index.php` | Medium
-23 | File | `/Log/Query?appid=0B736354-9473-4D66-B9C0-15CAC149EB05&tabid=tab_0B73635494734D66B9C015CAC149EB05` | High
-24 | File | `/mc` | Low
-25 | File | `/php-inventory-management-system/product.php` | High
-26 | File | `/plain` | Low
-27 | File | `/registration.php` | High
-28 | File | `/release-x64/otfccdump+0x61731f` | High
-29 | File | `/search.php` | Medium
-30 | File | `/settings/account` | High
-31 | File | `/sitecore/shell/Invoke.aspx` | High
-32 | File | `/student/bookdetails.php` | High
-33 | File | `/tmp/boa-temp` | High
-34 | ... | ... | ...
+1 | File | `/academy/home/courses` | High
+2 | File | `/admin/adclass.php` | High
+3 | File | `/admin/admin-profile.php` | High
+4 | File | `/admin/sales/view_details.php` | High
+5 | File | `/admin/students/view_details.php` | High
+6 | File | `/ajax-files/followBoard.php` | High
+7 | File | `/ajax.php?action=read_msg` | High
+8 | File | `/api/baskets/{name}` | High
+9 | File | `/api/cron/settings/setJob/` | High
+10 | File | `/api/v1/snapshots` | High
+11 | File | `/audit/log/log_management.php` | High
+12 | File | `/auth/callback` | High
+13 | File | `/authenticationendpoint/login.do` | High
+14 | File | `/cgi-bin/mainfunction.cgi` | High
+15 | File | `/cgi-bin/wlogin.cgi` | High
+16 | File | `/cgi.cgi` | Medium
+17 | File | `/collection/all` | High
+18 | File | `/Content/Template/root/reverse-shell.aspx` | High
+19 | File | `/ctcprotocol/Protocol` | High
+20 | File | `/dottie.js` | Medium
+21 | File | `/DXR.axd` | Medium
+22 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+23 | File | `/env` | Low
+24 | File | `/files/` | Low
+25 | File | `/forms/doLogin` | High
+26 | File | `/forum/away.php` | High
+27 | File | `/goform/setportList` | High
+28 | File | `/h/autoSaveDraft` | High
+29 | File | `/index.php` | Medium
+30 | File | `/index.php?p=admin/actions/users/send-password-reset-email` | High
+31 | File | `/index.php?page=member` | High
+32 | File | `/jurusanmatkul/data` | High
+33 | File | `/librarian/bookdetails.php` | High
+34 | File | `/log/decodmail.php` | High
+35 | File | `/log/webmailattach.php` | High
+36 | File | `/login.php?do=login` | High
+37 | File | `/public/login.htm` | High
+38 | File | `/QueryView.php` | High
+39 | File | `/recreate.php` | High
+40 | File | `/romfile.cfg` | Medium
+41 | File | `/roomtype-details.php` | High
+42 | ... | ... | ...
 
-There are 293 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 359 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -119,6 +126,7 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://github.com/firehol/blocklist-ipsets/blob/master/geolite2_country/country_cu.netset
 * https://github.com/firehol/blocklist-ipsets/blob/master/ip2location_country/ip2location_country_cu.netset
 * https://github.com/firehol/blocklist-ipsets/blob/master/ipip_country/ipip_country_cu.netset
+* https://securelist.com/cuba-ransomware/110533/
 * https://www.cisa.gov/uscert/ncas/alerts/aa22-335a
 * https://www.mandiant.com/resources/unc2596-cuba-ransomware
 

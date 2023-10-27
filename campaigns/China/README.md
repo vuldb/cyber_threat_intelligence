@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with China:
 
-* [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
-* [RU](https://vuldb.com/?country.ru)
+* [CN](https://vuldb.com/?country.cn)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 17 more country items available. Please use our online service to access the data.
+There are 14 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -1922,14 +1922,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-36 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Pathname Traversal | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -1937,60 +1937,47 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `//WEB-INF` | Medium
-2 | File | `/?p=products` | Medium
-3 | File | `/?r=email/api/mark&op=delFromSend` | High
-4 | File | `/about.php` | Medium
-5 | File | `/act/ActDao.xml` | High
-6 | File | `/admin.php/update/getFile.html` | High
-7 | File | `/admin/config_save.php` | High
-8 | File | `/admin/maintenance/view_designation.php` | High
-9 | File | `/ajax.php?action=read_msg` | High
-10 | File | `/analysisProject/pagingQueryData` | High
-11 | File | `/api/baskets/{name}` | High
-12 | File | `/api/stl/actions/search` | High
-13 | File | `/api/v2/cli/commands` | High
-14 | File | `/bin/ate` | Medium
-15 | File | `/booking/show_bookings/` | High
-16 | File | `/cgi-bin` | Medium
-17 | File | `/cgi-bin/wlogin.cgi` | High
-18 | File | `/classes/Master.php?f=delete_category` | High
-19 | File | `/classes/Master.php?f=save_service` | High
-20 | File | `/data/remove` | Medium
-21 | File | `/debug/pprof` | Medium
-22 | File | `/Default/Bd` | Medium
-23 | File | `/E-mobile/App/System/File/downfile.php` | High
-24 | File | `/Electron/download` | High
-25 | File | `/env` | Low
-26 | File | `/feeds/post/publish` | High
-27 | File | `/forum/away.php` | High
-28 | File | `/goform/AdvSetLanip` | High
-29 | File | `/goform/fromSetWirelessRepeat` | High
-30 | File | `/goform/setmac` | High
-31 | File | `/goform/setMacFilterCfg` | High
-32 | File | `/goform/SetSysTimeCfg` | High
-33 | File | `/goform/WifiGuestSet` | High
-34 | File | `/h/` | Low
-35 | File | `/inc/jquery/uploadify/uploadify.php` | High
-36 | File | `/index.php?app=main&func=passport&action=login` | High
-37 | File | `/index.php?page=category_list` | High
-38 | File | `/ipms/imageConvert/image` | High
-39 | File | `/jobinfo/` | Medium
-40 | File | `/kelasdosen/data` | High
-41 | File | `/modules/profile/index.php` | High
-42 | File | `/Moosikay/order.php` | High
-43 | File | `/news/*.html` | Medium
-44 | File | `/note/index/delete` | High
-45 | File | `/opac/Actions.php?a=login` | High
-46 | File | `/php-sms/admin/?page=user/manage_user` | High
-47 | File | `/PreviewHandler.ashx` | High
-48 | File | `/proxy` | Low
-49 | File | `/reservation/add_message.php` | High
-50 | File | `/reviewer/system/system/admins/manage/users/user-update.php` | High
-51 | File | `/secure/QueryComponent!Default.jspa` | High
-52 | ... | ... | ...
+1 | File | `/admin.php?c=upload&f=zip&_noCache=0.1683794968` | High
+2 | File | `/admin/save.php` | High
+3 | File | `/admin/user.php` | High
+4 | File | `/api/baskets/{name}` | High
+5 | File | `/api/download` | High
+6 | File | `/api/v1/alerts` | High
+7 | File | `/api/v1/terminal/sessions/?limit=1` | High
+8 | File | `/bitrix/admin/ldap_server_edit.php` | High
+9 | File | `/category.php` | High
+10 | File | `/categorypage.php` | High
+11 | File | `/cgi-bin/luci/api/wireless` | High
+12 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
+13 | File | `/cgi-bin/vitogate.cgi` | High
+14 | File | `/cgi/networkDiag.cgi` | High
+15 | File | `/Content/Template/root/reverse-shell.aspx` | High
+16 | File | `/core/conditions/AbstractWrapper.java` | High
+17 | File | `/dashboard/add-blog.php` | High
+18 | File | `/data/remove` | Medium
+19 | File | `/debug/pprof` | Medium
+20 | File | `/ecommerce/admin/settings/setDiscount.php` | High
+21 | File | `/fcgi/scrut_fcgi.fcgi` | High
+22 | File | `/forum/away.php` | High
+23 | File | `/getcfg.php` | Medium
+24 | File | `/goform/net\_Web\_get_value` | High
+25 | File | `/GponForm/usb_restore_Form?script/` | High
+26 | File | `/group1/uploa` | High
+27 | File | `/HNAP1` | Low
+28 | File | `/home/get_tasks_list` | High
+29 | File | `/index.php/sysmanage/Login/login_auth/` | High
+30 | File | `/jeecg-boot/sys/common/upload` | High
+31 | File | `/net/sched/cls_fw.c` | High
+32 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
+33 | File | `/plugin` | Low
+34 | File | `/preview.php` | Medium
+35 | File | `/register.do` | Medium
+36 | File | `/RPS2019Service/status.html` | High
+37 | File | `/search.php` | Medium
+38 | File | `/sicweb-ajax/tmproot/` | High
+39 | ... | ... | ...
 
-There are 456 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 333 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

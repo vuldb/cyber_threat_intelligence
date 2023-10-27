@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [NZ](https://vuldb.com/?country.nz)
 * [US](https://vuldb.com/?country.us)
-* [ES](https://vuldb.com/?country.es)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 3 more country items available. Please use our online service to access the data.
+There are 2 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -50,13 +50,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Pathname Traversal | High
-2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-250, CWE-264, CWE-266, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -65,35 +65,35 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `%PROGRAMFILES(X86)%\Steam` | High
-2 | File | `/admin/blog/blogcategory/add/?_to_field=id&_popup=1` | High
+2 | File | `/admin/add-category.php` | High
 3 | File | `/admin/edit.php` | High
-4 | File | `/adminzone/index.php?page=admin-commandr` | High
-5 | File | `/admin_giant/` | High
-6 | File | `/admin_giant/add_gallery.php` | High
-7 | File | `/admin_giant/add_team_member.php` | High
-8 | File | `/ajax/networking/get_netcfg.php` | High
-9 | File | `/api/baskets/{name}` | High
-10 | File | `/api/v2/cli/commands` | High
-11 | File | `/cgi-bin/supervisor/CloudSetup.cgi` | High
-12 | File | `/cgi-bin/system_mgr.cgi` | High
-13 | File | `/cloud_config/router_post/reset_cloud_pwd` | High
-14 | File | `/config/getuser` | High
-15 | File | `/etc/passwd` | Medium
-16 | File | `/etc/tomcat8/Catalina/attack` | High
-17 | File | `/filemanager/upload.php` | High
-18 | File | `/forum/away.php` | High
-19 | File | `/include/chart_generator.php` | High
-20 | File | `/login` | Low
-21 | File | `/mgmt/tm/util/bash` | High
-22 | File | `/owa/auth/logon.aspx` | High
-23 | File | `/panel/uploads` | High
-24 | File | `/product.php` | Medium
-25 | File | `/see_more_details.php` | High
-26 | File | `/Side.php` | Medium
-27 | File | `/tmp/app/.env` | High
+4 | File | `/admin/orders/update_status.php` | High
+5 | File | `/adminzone/index.php?page=admin-commandr` | High
+6 | File | `/ajax/networking/get_netcfg.php` | High
+7 | File | `/api/baskets/{name}` | High
+8 | File | `/api/v2/cli/commands` | High
+9 | File | `/billing/home.php` | High
+10 | File | `/cgi-bin/supervisor/CloudSetup.cgi` | High
+11 | File | `/cgi-bin/system_mgr.cgi` | High
+12 | File | `/cgi-bin/wapopen` | High
+13 | File | `/cgi-bin/wlogin.cgi` | High
+14 | File | `/cloud_config/router_post/reset_cloud_pwd` | High
+15 | File | `/etc/tomcat8/Catalina/attack` | High
+16 | File | `/filemanager/upload.php` | High
+17 | File | `/forum/away.php` | High
+18 | File | `/home/cavesConsole` | High
+19 | File | `/importexport.php` | High
+20 | File | `/include/chart_generator.php` | High
+21 | File | `/items/search` | High
+22 | File | `/login` | Low
+23 | File | `/mgmt/tm/util/bash` | High
+24 | File | `/owa/auth/logon.aspx` | High
+25 | File | `/param.file.tgz` | High
+26 | File | `/product.php` | Medium
+27 | File | `/see_more_details.php` | High
 28 | ... | ... | ...
 
-There are 232 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 234 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

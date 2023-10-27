@@ -16,11 +16,11 @@ The following _campaigns_ are known and can be associated with Russia Unknown:
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Russia Unknown:
 
 * [US](https://vuldb.com/?country.us)
-* [CN](https://vuldb.com/?country.cn)
 * [JP](https://vuldb.com/?country.jp)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 23 more country items available. Please use our online service to access the data.
+There are 20 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -3147,14 +3147,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23, CWE-24, CWE-36, CWE-425 | Pathname Traversal | High
-2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Pathname Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -3162,57 +3162,57 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/academy/home/courses` | High
-2 | File | `/ad-list` | Medium
-3 | File | `/admin.php?c=upload&f=zip&_noCache=0.1683794968` | High
-4 | File | `/admin/?page=user/list` | High
-5 | File | `/admin/?page=user/manage_user&id=3` | High
-6 | File | `/admin/about-us.php` | High
-7 | File | `/admin/add-category.php` | High
-8 | File | `/admin/add-services.php` | High
-9 | File | `/admin/admin-profile.php` | High
-10 | File | `/admin/del_category.php` | High
-11 | File | `/admin/del_feedback.php` | High
-12 | File | `/admin/del_service.php` | High
-13 | File | `/admin/edit-accepted-appointment.php` | High
-14 | File | `/admin/edit_category.php` | High
-15 | File | `/admin/edit_product.php` | High
-16 | File | `/admin/files` | Medium
-17 | File | `/admin/forgot-password.php` | High
-18 | File | `/admin/index.php` | High
-19 | File | `/admin/invoice.php` | High
-20 | File | `/admin/search-appointment.php` | High
-21 | File | `/admin/sys_sql_query.php` | High
-22 | File | `/api/baskets/{name}` | High
-23 | File | `/api/sys/login` | High
-24 | File | `/api/sys/set_passwd` | High
-25 | File | `/app/sys1.php` | High
-26 | File | `/bitrix/admin/ldap_server_edit.php` | High
-27 | File | `/blog-single.php` | High
-28 | File | `/booking/show_bookings/` | High
-29 | File | `/cgi-bin/luci/api/wireless` | High
-30 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
-31 | File | `/classes/Master.php?f=delete_category` | High
-32 | File | `/collection/all` | High
-33 | File | `/conf/` | Low
-34 | File | `/config/php.ini` | High
-35 | File | `/Content/Template/root/reverse-shell.aspx` | High
-36 | File | `/core/conditions/AbstractWrapper.java` | High
+1 | File | `/academy/tutor/filter` | High
+2 | File | `/admin/?page=user` | High
+3 | File | `/admin/article/article-edit-run.php` | High
+4 | File | `/admin/cms_admin.php` | High
+5 | File | `/admin/cms_content.php` | High
+6 | File | `/admin/config/uploadicon.php` | High
+7 | File | `/admin/inquiries/view_inquiry.php` | High
+8 | File | `/admin/leancloud.php` | High
+9 | File | `/admin/order.php` | High
+10 | File | `/admin/plugin.php` | High
+11 | File | `/admin/save.php` | High
+12 | File | `/admin/services/manage_service.php` | High
+13 | File | `/api/` | Low
+14 | File | `/api/download` | High
+15 | File | `/api/download/updateFile` | High
+16 | File | `/api/es/admin/v3/security/user/1` | High
+17 | File | `/api/installation/setThumbnailRc` | High
+18 | File | `/api/runscript` | High
+19 | File | `/api/thumbnail` | High
+20 | File | `/api/v1/terminal/sessions/?limit=1` | High
+21 | File | `/book-services.php` | High
+22 | File | `/category.php` | High
+23 | File | `/categorypage.php` | High
+24 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+25 | File | `/cgi-bin/vitogate.cgi` | High
+26 | File | `/classes/master.php?f=delete_order` | High
+27 | File | `/classes/Master.php?f=delete_sub_category` | High
+28 | File | `/classes/Master.php?f=save_brand` | High
+29 | File | `/classes/Master.php?f=save_category` | High
+30 | File | `/classes/Master.php?f=save_position` | High
+31 | File | `/classes/Master.php?f=save_service` | High
+32 | File | `/classes/Master.php?f=update_order_status` | High
+33 | File | `/collection/all` | High
+34 | File | `/content/templates/` | High
+35 | File | `/course/filterRecords/` | High
+36 | File | `/dashboard/add-blog.php` | High
 37 | File | `/debug/pprof` | Medium
-38 | File | `/etc/passwd` | Medium
-39 | File | `/find-a-match` | High
-40 | File | `/forum/away.php` | High
-41 | File | `/friends` | Medium
-42 | File | `/friends/ajax_invite` | High
-43 | File | `/fusion/portal/action/Link` | High
-44 | File | `/getcfg.php` | Medium
-45 | File | `/goform/fast_setting_wifi_set` | High
-46 | File | `/goform/NatStaticSetting` | High
-47 | File | `/goform/PowerSaveSet` | High
-48 | File | `/goform/SetPptpServerCfg` | High
+38 | File | `/fcgi/scrut_fcgi.fcgi` | High
+39 | File | `/forum/away.php` | High
+40 | File | `/goform/Diagnosis` | High
+41 | File | `/goform/fast_setting_wifi_set` | High
+42 | File | `/goform/NatStaticSetting` | High
+43 | File | `/goform/PowerSaveSet` | High
+44 | File | `/goform/SetPptpServerCfg` | High
+45 | File | `/goform/SetStaticRouteCfg` | High
+46 | File | `/goform/WifiBasicSet` | High
+47 | File | `/group1/uploa` | High
+48 | File | `/HNAP1` | Low
 49 | ... | ... | ...
 
-There are 429 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 426 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

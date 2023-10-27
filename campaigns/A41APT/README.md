@@ -66,7 +66,7 @@ ID | Type | Indicator | Confidence
 9 | File | `adminpanel/modules/pro/inc/ajax.php` | High
 10 | ... | ... | ...
 
-There are 76 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 77 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

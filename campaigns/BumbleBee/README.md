@@ -408,9 +408,10 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+6 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+7 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 24 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -420,45 +421,45 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/academy/tutor/filter` | High
 2 | File | `/admin/admin-profile.php` | High
-3 | File | `/admin/sales/view_details.php` | High
-4 | File | `/api/baskets/{name}` | High
-5 | File | `/api/cron/settings/setJob/` | High
-6 | File | `/api/v1/snapshots` | High
-7 | File | `/appliance/users?action=edit` | High
-8 | File | `/aqpg/users/login.php` | High
-9 | File | `/audit/log/log_management.php` | High
-10 | File | `/cgi-bin/mainfunction.cgi` | High
-11 | File | `/cgi-bin/wlogin.cgi` | High
-12 | File | `/cgi/networkDiag.cgi` | High
-13 | File | `/collection/all` | High
-14 | File | `/Content/Template/root/reverse-shell.aspx` | High
-15 | File | `/ctcprotocol/Protocol` | High
+3 | File | `/admin/index2.html` | High
+4 | File | `/admin/sales/view_details.php` | High
+5 | File | `/admin/user.php` | High
+6 | File | `/api/cron/settings/setJob/` | High
+7 | File | `/api/v1/snapshots` | High
+8 | File | `/appliance/users?action=edit` | High
+9 | File | `/aqpg/users/login.php` | High
+10 | File | `/audit/log/log_management.php` | High
+11 | File | `/cgi-bin/mainfunction.cgi` | High
+12 | File | `/cgi-bin/wlogin.cgi` | High
+13 | File | `/cgi/networkDiag.cgi` | High
+14 | File | `/classes/Users.php` | High
+15 | File | `/collection/all` | High
 16 | File | `/dashboard/add-blog.php` | High
 17 | File | `/debug/pprof` | Medium
 18 | File | `/dottie.js` | Medium
-19 | File | `/DXR.axd` | Medium
-20 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-21 | File | `/env` | Low
-22 | File | `/files/` | Low
-23 | File | `/forum/away.php` | High
-24 | File | `/fusion/portal/action/Link` | High
-25 | File | `/hrm/controller/employee.php` | High
-26 | File | `/hrm/employeeview.php` | High
-27 | File | `/importexport.php` | High
-28 | File | `/inc/parser/xhtml.php` | High
-29 | File | `/index.php` | Medium
-30 | File | `/index.php/sysmanage/Login/login_auth/` | High
-31 | File | `/index.php?p=admin/actions/users/send-password-reset-email` | High
-32 | File | `/jurusanmatkul/data` | High
-33 | File | `/log/webmailattach.php` | High
-34 | File | `/login.php?do=login` | High
-35 | File | `/mc` | Low
-36 | File | `/modules/projects/vw_files.php` | High
-37 | File | `/pf/idprofile.ping` | High
-38 | File | `/preview.php` | Medium
+19 | File | `/env` | Low
+20 | File | `/forms/doLogin` | High
+21 | File | `/forum/away.php` | High
+22 | File | `/hrm/controller/employee.php` | High
+23 | File | `/hrm/employeeview.php` | High
+24 | File | `/index.php` | Medium
+25 | File | `/index.php/sysmanage/Login/login_auth/` | High
+26 | File | `/index.php?p=admin/actions/users/send-password-reset-email` | High
+27 | File | `/librarian/bookdetails.php` | High
+28 | File | `/log/webmailattach.php` | High
+29 | File | `/login.php?do=login` | High
+30 | File | `/mc` | Low
+31 | File | `/modules/projects/vw_files.php` | High
+32 | File | `/pf/idprofile.ping` | High
+33 | File | `/php-opos/index.php` | High
+34 | File | `/preview.php` | Medium
+35 | File | `/project/tasks/list` | High
+36 | File | `/public/login.htm` | High
+37 | File | `/recreate.php` | High
+38 | File | `/roomtype-details.php` | High
 39 | ... | ... | ...
 
-There are 340 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 333 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -79,21 +79,21 @@ ID | Type | Indicator | Confidence
 3 | File | `/admin.php` | Medium
 4 | File | `/admin/read.php?mudi=getSignal` | High
 5 | File | `/admin/subnets/ripe-query.php` | High
-6 | File | `/core/conditions/AbstractWrapper.java` | High
-7 | File | `/debug/pprof` | Medium
-8 | File | `/export` | Low
-9 | File | `/file?action=download&file` | High
-10 | File | `/hardware` | Medium
-11 | File | `/librarian/bookdetails.php` | High
-12 | File | `/medical/inventories.php` | High
-13 | File | `/monitoring` | Medium
-14 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-15 | File | `/plugin/LiveChat/getChat.json.php` | High
-16 | File | `/plugins/servlet/audit/resource` | High
-17 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
-18 | File | `/replication` | Medium
-19 | File | `/RestAPI` | Medium
-20 | File | `/tmp/speedtest_urls.xml` | High
+6 | File | `/apply.cgi` | Medium
+7 | File | `/core/conditions/AbstractWrapper.java` | High
+8 | File | `/debug/pprof` | Medium
+9 | File | `/export` | Low
+10 | File | `/file?action=download&file` | High
+11 | File | `/hardware` | Medium
+12 | File | `/librarian/bookdetails.php` | High
+13 | File | `/medical/inventories.php` | High
+14 | File | `/monitoring` | Medium
+15 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+16 | File | `/plugin/LiveChat/getChat.json.php` | High
+17 | File | `/plugins/servlet/audit/resource` | High
+18 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
+19 | File | `/replication` | Medium
+20 | File | `/RestAPI` | Medium
 21 | File | `/tmp/zarafa-vacation-*` | High
 22 | File | `/uncpath/` | Medium
 23 | File | `/upload` | Low
@@ -101,7 +101,7 @@ ID | Type | Indicator | Confidence
 25 | File | `/var/log/nginx` | High
 26 | ... | ... | ...
 
-There are 221 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 220 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

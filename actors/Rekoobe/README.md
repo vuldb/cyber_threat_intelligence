@@ -50,32 +50,33 @@ ID | Type | Indicator | Confidence
 8 | File | `/api/RecordingList/download` | High
 9 | File | `/backend/system.html` | High
 10 | File | `/bin/false` | Medium
-11 | File | `/cgi-bin/cgiServer.exx` | High
-12 | File | `/cgi-bin/system_mgr.cgi` | High
-13 | File | `/etc/shadow` | Medium
-14 | File | `/etc/zarafa/license` | High
-15 | File | `/guest/index.html` | High
-16 | File | `/importTool/preview` | High
-17 | File | `/index.php` | Medium
-18 | File | `/index.php?/manage/channel/addchannel` | High
-19 | File | `/index.php?m=member&f=index&v=profile&set_iframe=1` | High
-20 | File | `/index.php?m=tags&f=index&v=add` | High
-21 | File | `/install/index.php` | High
-22 | File | `/login` | Low
-23 | File | `/mifs/c/i/reg/reg.html` | High
-24 | File | `/modules/DesignManager/action.ajax_get_templates.php` | High
-25 | File | `/pms/update_user.php?user_id=1` | High
-26 | File | `/programScopes` | High
-27 | File | `/userfs/bin/tcapi` | High
-28 | File | `/usr/local/nagiosxi/html/admin/sshterm.php` | High
-29 | File | `/usr/local/nagiosxi/html/includes/configwizards/cloud-vm/cloud-vm.inc.php` | High
-30 | File | `/usr/local/nagiosxi/html/includes/configwizards/switch/switch.inc.php` | High
-31 | File | `/usr/local/nagiosxi/html/includes/configwizards/windowswmi/windowswmi.inc.php` | High
-32 | File | `/WEB-INF/web.xml` | High
-33 | File | `add_vhost.php` | High
-34 | ... | ... | ...
+11 | File | `/cgi-bin/adm.cgi` | High
+12 | File | `/cgi-bin/cgiServer.exx` | High
+13 | File | `/cgi-bin/system_mgr.cgi` | High
+14 | File | `/etc/shadow` | Medium
+15 | File | `/etc/zarafa/license` | High
+16 | File | `/guest/index.html` | High
+17 | File | `/importTool/preview` | High
+18 | File | `/index.php` | Medium
+19 | File | `/index.php?/manage/channel/addchannel` | High
+20 | File | `/index.php?m=member&f=index&v=profile&set_iframe=1` | High
+21 | File | `/index.php?m=tags&f=index&v=add` | High
+22 | File | `/install/index.php` | High
+23 | File | `/login` | Low
+24 | File | `/mics/j_spring_security_check` | High
+25 | File | `/mifs/c/i/reg/reg.html` | High
+26 | File | `/modules/DesignManager/action.ajax_get_templates.php` | High
+27 | File | `/pms/update_user.php?user_id=1` | High
+28 | File | `/programScopes` | High
+29 | File | `/userfs/bin/tcapi` | High
+30 | File | `/usr/local/nagiosxi/html/admin/sshterm.php` | High
+31 | File | `/usr/local/nagiosxi/html/includes/configwizards/cloud-vm/cloud-vm.inc.php` | High
+32 | File | `/usr/local/nagiosxi/html/includes/configwizards/switch/switch.inc.php` | High
+33 | File | `/usr/local/nagiosxi/html/includes/configwizards/windowswmi/windowswmi.inc.php` | High
+34 | File | `/WEB-INF/web.xml` | High
+35 | ... | ... | ...
 
-There are 293 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 296 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

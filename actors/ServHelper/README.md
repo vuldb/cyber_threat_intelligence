@@ -40,7 +40,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 16 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -55,19 +55,21 @@ ID | Type | Indicator | Confidence
 5 | File | `/apply.cgi` | Medium
 6 | File | `/debug/pprof` | Medium
 7 | File | `/etc/config/rpcd` | High
-8 | File | `/login` | Low
-9 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
-10 | File | `/public/login.htm` | High
-11 | File | `/rapi/read_url` | High
-12 | File | `/sendKey` | Medium
-13 | File | `/setSystemAdmin` | High
-14 | File | `/tmp` | Low
-15 | File | `/type.php` | Medium
-16 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
-17 | File | `adclick.php` | Medium
-18 | ... | ... | ...
+8 | File | `/hrm/employeeadd.php` | High
+9 | File | `/login` | Low
+10 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
+11 | File | `/public/login.htm` | High
+12 | File | `/rapi/read_url` | High
+13 | File | `/scripts/unlock_tasks.php` | High
+14 | File | `/sendKey` | Medium
+15 | File | `/setSystemAdmin` | High
+16 | File | `/system/user/modules/mod_users/controller.php` | High
+17 | File | `/tmp` | Low
+18 | File | `/type.php` | Medium
+19 | File | `/view-property.php` | High
+20 | ... | ... | ...
 
-There are 148 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 164 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -46,10 +46,10 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/file/upload/1` | High
 2 | File | `/_error` | Low
-3 | File | `jmreport/qurestSql` | High
+3 | File | `dpkg-deb/extract.c` | High
 4 | ... | ... | ...
 
-There are 11 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 12 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

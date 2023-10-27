@@ -69,26 +69,27 @@ ID | Type | Indicator | Confidence
 14 | File | `/uncpath/` | Medium
 15 | File | `/uploads/dede` | High
 16 | File | `/WEB-INF/web.xml` | High
-17 | File | `AccessPoint.aspx` | High
-18 | File | `activateuser.aspx` | High
-19 | File | `AdHocQuery_Processor.aspx` | High
-20 | File | `admin.asp` | Medium
-21 | File | `admin/admin.asp` | High
-22 | File | `admin/images.aspx` | High
-23 | File | `admin/index.php` | High
-24 | File | `admin/login.asp` | High
-25 | File | `advsearch.asp` | High
-26 | File | `AEAgent.cpp` | Medium
-27 | File | `ajax.php` | Medium
-28 | File | `ajax_calls.php` | High
-29 | File | `ajax_cmd.php` | Medium
-30 | File | `allmanageup.pl` | High
-31 | File | `appfeed.c` | Medium
-32 | File | `appointment.php` | High
-33 | File | `ara.asp` | Low
-34 | ... | ... | ...
+17 | File | `/wp-json/oembed/1.0/embed?url` | High
+18 | File | `AccessPoint.aspx` | High
+19 | File | `activateuser.aspx` | High
+20 | File | `AdHocQuery_Processor.aspx` | High
+21 | File | `admin.asp` | Medium
+22 | File | `admin/admin.asp` | High
+23 | File | `admin/images.aspx` | High
+24 | File | `admin/index.php` | High
+25 | File | `admin/login.asp` | High
+26 | File | `advsearch.asp` | High
+27 | File | `AEAgent.cpp` | Medium
+28 | File | `ajax.php` | Medium
+29 | File | `ajax_calls.php` | High
+30 | File | `ajax_cmd.php` | Medium
+31 | File | `allmanageup.pl` | High
+32 | File | `appfeed.c` | Medium
+33 | File | `appointment.php` | High
+34 | File | `ara.asp` | Low
+35 | ... | ... | ...
 
-There are 294 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 295 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

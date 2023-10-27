@@ -70,21 +70,22 @@ ID | Type | Indicator | Confidence
 18 | File | `/group/apply` | Medium
 19 | File | `/image_zoom.php` | High
 20 | File | `/index.php` | Medium
-21 | File | `/it-IT/splunkd/__raw/services/get_snapshot` | High
-22 | File | `/jerry-core/ecma/base/ecma-gc.c` | High
-23 | File | `/master/core/PostHandler.php` | High
-24 | File | `/mdiy/dict/list` | High
-25 | File | `/ocwbs/admin/?page=bookings/view_details` | High
-26 | File | `/ofrs/admin/?page=requests/manage_request` | High
-27 | File | `/package_detail.php` | High
-28 | File | `/php-sms/classes/Master.php` | High
-29 | File | `/php_action/createUser.php` | High
-30 | File | `/plugin/dataDictionary/tableView.do` | High
-31 | File | `/preferences/tags` | High
-32 | File | `/release-x64/otfccdump+0x6b559f` | High
-33 | ... | ... | ...
+21 | File | `/instance/detail` | High
+22 | File | `/it-IT/splunkd/__raw/services/get_snapshot` | High
+23 | File | `/jerry-core/ecma/base/ecma-gc.c` | High
+24 | File | `/master/core/PostHandler.php` | High
+25 | File | `/mdiy/dict/list` | High
+26 | File | `/ocwbs/admin/?page=bookings/view_details` | High
+27 | File | `/ofrs/admin/?page=requests/manage_request` | High
+28 | File | `/package_detail.php` | High
+29 | File | `/php-sms/classes/Master.php` | High
+30 | File | `/php_action/createUser.php` | High
+31 | File | `/plugin/dataDictionary/tableView.do` | High
+32 | File | `/preferences/tags` | High
+33 | File | `/release-x64/otfccdump+0x6b559f` | High
+34 | ... | ... | ...
 
-There are 283 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 289 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

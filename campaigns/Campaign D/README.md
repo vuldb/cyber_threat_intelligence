@@ -100,9 +100,10 @@ ID | Type | Indicator | Confidence
 34 | File | `accountrecoveryendpoint/recoverpassword.do` | High
 35 | File | `ad.cgi` | Low
 36 | File | `adclick.php` | Medium
-37 | ... | ... | ...
+37 | File | `add-category.php` | High
+38 | ... | ... | ...
 
-There are 313 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 324 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

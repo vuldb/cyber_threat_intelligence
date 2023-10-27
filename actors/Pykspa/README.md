@@ -38,7 +38,8 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
 
@@ -53,15 +54,16 @@ ID | Type | Indicator | Confidence
 3 | File | `/cgi-bin/luci;stok=/locale` | High
 4 | File | `/cgi-bin/wapopen` | High
 5 | File | `/HNAP1` | Low
-6 | File | `/mgmt/tm/util/bash` | High
-7 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-8 | File | `/setSystemAdmin` | High
-9 | File | `/sp/ListSp.php` | High
-10 | File | `/updown/upload.cgi` | High
-11 | File | `/usr/bin/pkexec` | High
-12 | ... | ... | ...
+6 | File | `/index.php` | Medium
+7 | File | `/mgmt/tm/util/bash` | High
+8 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+9 | File | `/setSystemAdmin` | High
+10 | File | `/sp/ListSp.php` | High
+11 | File | `/updown/upload.cgi` | High
+12 | File | `/usr/bin/pkexec` | High
+13 | ... | ... | ...
 
-There are 96 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 98 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

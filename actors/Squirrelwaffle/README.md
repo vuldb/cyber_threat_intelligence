@@ -42,7 +42,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
@@ -63,15 +63,16 @@ ID | Type | Indicator | Confidence
 6 | File | `/include/chart_generator.php` | High
 7 | File | `/index.php` | Medium
 8 | File | `/product_list.php` | High
-9 | File | `/snmpGet` | Medium
-10 | File | `/tmp` | Low
-11 | File | `/uncpath/` | Medium
-12 | File | `/wp-admin/admin-ajax.php` | High
-13 | File | `administrator/components/com_media/helpers/media.php` | High
-14 | File | `adm_program/modules/dates/dates_function.php` | High
-15 | ... | ... | ...
+9 | File | `/qsr_server/device/reboot` | High
+10 | File | `/snmpGet` | Medium
+11 | File | `/tmp` | Low
+12 | File | `/uncpath/` | Medium
+13 | File | `/wp-admin/admin-ajax.php` | High
+14 | File | `administrator/components/com_media/helpers/media.php` | High
+15 | File | `adm_program/modules/dates/dates_function.php` | High
+16 | ... | ... | ...
 
-There are 121 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 124 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

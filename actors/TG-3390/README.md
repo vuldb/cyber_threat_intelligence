@@ -88,15 +88,15 @@ ID | Type | Indicator | Confidence
 24 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
 25 | File | `/video` | Low
 26 | File | `/videotalk` | Medium
-27 | File | `actionphp/download.File.php` | High
-28 | File | `ActivityManagerService.java` | High
-29 | File | `adaptmap_reg.c` | High
-30 | File | `add_comment.php` | High
-31 | File | `admin.cgi` | Medium
-32 | File | `admin.php?action=files` | High
-33 | File | `admin/admin.php` | High
-34 | File | `admin/content.php` | High
-35 | File | `admin/index.php?id=users/action=edit/user_id=1` | High
+27 | File | `action-visitor.php` | High
+28 | File | `actionphp/download.File.php` | High
+29 | File | `ActivityManagerService.java` | High
+30 | File | `adaptmap_reg.c` | High
+31 | File | `add_comment.php` | High
+32 | File | `admin.cgi` | Medium
+33 | File | `admin.php?action=files` | High
+34 | File | `admin/admin.php` | High
+35 | File | `admin/content.php` | High
 36 | ... | ... | ...
 
 There are 311 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.

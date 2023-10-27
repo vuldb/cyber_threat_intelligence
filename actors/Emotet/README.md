@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [VN](https://vuldb.com/?country.vn)
 * [US](https://vuldb.com/?country.us)
-* [CN](https://vuldb.com/?country.cn)
+* [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 13 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -954,14 +954,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23, CWE-24, CWE-35, CWE-37 | Pathname Traversal | High
-2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-250, CWE-264, CWE-266, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-29, CWE-37 | Pathname Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -970,43 +970,40 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `$HOME/.terminfo` | High
-2 | File | `/academy/tutor/filter` | High
-3 | File | `/api/baskets/{name}` | High
+2 | File | `/admin/admin-profile.php` | High
+3 | File | `/admin/sales/view_details.php` | High
 4 | File | `/api/cron/settings/setJob/` | High
-5 | File | `/api/v1/terminal/sessions/?limit=1` | High
-6 | File | `/bin/login` | Medium
-7 | File | `/bin/mini_upnpd` | High
-8 | File | `/cgi-bin/wlogin.cgi` | High
-9 | File | `/collection/all` | High
-10 | File | `/Content/Template/root/reverse-shell.aspx` | High
-11 | File | `/ctcprotocol/Protocol` | High
-12 | File | `/dashboard/add-blog.php` | High
-13 | File | `/debug/pprof` | Medium
-14 | File | `/DXR.axd` | Medium
-15 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-16 | File | `/filemanager/ajax_calls.php` | High
-17 | File | `/files/` | Low
+5 | File | `/api/v1/snapshots` | High
+6 | File | `/aqpg/users/login.php` | High
+7 | File | `/audit/log/log_management.php` | High
+8 | File | `/authUserAction!edit.action` | High
+9 | File | `/cgi-bin/mainfunction.cgi` | High
+10 | File | `/cgi-bin/upload_vpntar` | High
+11 | File | `/cgi-bin/wlogin.cgi` | High
+12 | File | `/cgi/networkDiag.cgi` | High
+13 | File | `/dashboard/add-blog.php` | High
+14 | File | `/debug/pprof` | Medium
+15 | File | `/dottie.js` | Medium
+16 | File | `/env` | Low
+17 | File | `/forms/doLogin` | High
 18 | File | `/forum/away.php` | High
-19 | File | `/gracemedia-media-player/templates/files/ajax_controller.php` | High
-20 | File | `/group1/uploa` | High
-21 | File | `/h/autoSaveDraft` | High
-22 | File | `/h/search?action` | High
-23 | File | `/hrm/controller/employee.php` | High
-24 | File | `/hrm/employeeview.php` | High
-25 | File | `/importexport.php` | High
-26 | File | `/index.php/sysmanage/Login/login_auth/` | High
-27 | File | `/index.php?app=main&func=passport&action=login` | High
-28 | File | `/index.php?p=admin/actions/users/send-password-reset-email` | High
-29 | File | `/jurusanmatkul/data` | High
-30 | File | `/log/decodmail.php` | High
-31 | File | `/login.php?do=login` | High
-32 | File | `/mc` | Low
-33 | File | `/modules/projects/vw_files.php` | High
-34 | File | `/php-opos/index.php` | High
-35 | File | `/preview.php` | Medium
-36 | ... | ... | ...
+19 | File | `/index.php` | Medium
+20 | File | `/install/index.php` | High
+21 | File | `/librarian/bookdetails.php` | High
+22 | File | `/log/webmailattach.php` | High
+23 | File | `/mc` | Low
+24 | File | `/mgmt/` | Low
+25 | File | `/preview.php` | Medium
+26 | File | `/project/tasks/list` | High
+27 | File | `/public/login.htm` | High
+28 | File | `/qsr_server/device/reboot` | High
+29 | File | `/recreate.php` | High
+30 | File | `/search.php` | Medium
+31 | File | `/spip.php` | Medium
+32 | File | `/student/bookdetails.php` | High
+33 | ... | ... | ...
 
-There are 306 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 285 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -53,7 +53,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 11 more TTP items available. Please use our online service to access the data.
+There are 12 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -66,17 +66,18 @@ ID | Type | Indicator | Confidence
 3 | File | `/adminlogin.asp` | High
 4 | File | `/forum/away.php` | High
 5 | File | `/mc-admin/post.php?state=delete&delete` | High
-6 | File | `addmember.php` | High
-7 | File | `addtocart.asp` | High
-8 | File | `addtomylist.asp` | High
-9 | File | `admin.x-shop.php` | High
-10 | File | `admin/adminlogin.php` | High
-11 | File | `admin/article_save.php` | High
-12 | File | `admin/auth.php` | High
-13 | File | `admin/ueditor/uploadFile` | High
-14 | ... | ... | ...
+6 | File | `/wp-admin/options.php` | High
+7 | File | `addmember.php` | High
+8 | File | `addtocart.asp` | High
+9 | File | `addtomylist.asp` | High
+10 | File | `admin.x-shop.php` | High
+11 | File | `admin/adminlogin.php` | High
+12 | File | `admin/article_save.php` | High
+13 | File | `admin/auth.php` | High
+14 | File | `admin/ueditor/uploadFile` | High
+15 | ... | ... | ...
 
-There are 112 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 118 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

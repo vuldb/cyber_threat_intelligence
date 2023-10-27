@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Rocke:
 
-* [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [SV](https://vuldb.com/?country.sv)
+* [US](https://vuldb.com/?country.us)
+* [AU](https://vuldb.com/?country.au)
 * ...
 
-There are 2 more country items available. Please use our online service to access the data.
+There are 1 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -48,14 +48,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-25 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -64,44 +64,47 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/?r=email/api/mark&op=delFromSend` | High
-2 | File | `/admin/maintenance/view_designation.php` | High
-3 | File | `/alphaware/details.php` | High
-4 | File | `/analysisProject/pagingQueryData` | High
-5 | File | `/api/admin/system/store/order/list` | High
-6 | File | `/api/baskets/{name}` | High
-7 | File | `/apply_noauth.cgi` | High
-8 | File | `/auth/fn.php` | Medium
-9 | File | `/bin/ate` | Medium
-10 | File | `/bin/sh` | Low
-11 | File | `/cgi-bin/ExportLogs.sh` | High
-12 | File | `/classes/Master.php?f=delete_category` | High
-13 | File | `/classes/Master.php?f=save_service` | High
-14 | File | `/classes/Users.php?f=save` | High
-15 | File | `/common/sysFile/list` | High
-16 | File | `/concat?/%2557EB-INF/web.xml` | High
-17 | File | `/context/%2e/WEB-INF/web.xml` | High
-18 | File | `/Controller/Ajaxfileupload.ashx` | High
-19 | File | `/data/remove` | Medium
-20 | File | `/debug/pprof` | Medium
-21 | File | `/Default/Bd` | Medium
-22 | File | `/dist/index.js` | High
-23 | File | `/editor/index.php` | High
-24 | File | `/Electron/download` | High
-25 | File | `/etc/openstack-dashboard/local_settings` | High
-26 | File | `/etc/passwd` | Medium
-27 | File | `/goform/addressNat` | High
-28 | File | `/goform/AdvSetLanip` | High
-29 | File | `/goForm/aspForm` | High
-30 | File | `/goform/fromSetWirelessRepeat` | High
-31 | File | `/goform/setmac` | High
-32 | File | `/goform/setMacFilterCfg` | High
-33 | File | `/goform/SetSysTimeCfg` | High
-34 | File | `/goform/WifiGuestSet` | High
-35 | File | `/inc/jquery/uploadify/uploadify.php` | High
-36 | File | `/include/Model/Upload.php` | High
-37 | ... | ... | ...
+2 | File | `/admin.php?c=upload&f=zip&_noCache=0.1683794968` | High
+3 | File | `/admin/inquiries/view_inquiry.php` | High
+4 | File | `/admin/maintenance/view_designation.php` | High
+5 | File | `/admin/sys_sql_query.php` | High
+6 | File | `/admin/user.php` | High
+7 | File | `/alphaware/details.php` | High
+8 | File | `/analysisProject/pagingQueryData` | High
+9 | File | `/api/admin/system/store/order/list` | High
+10 | File | `/api/baskets/{name}` | High
+11 | File | `/auth/fn.php` | Medium
+12 | File | `/bin/ate` | Medium
+13 | File | `/bin/sh` | Low
+14 | File | `/blog` | Low
+15 | File | `/booking/show_bookings/` | High
+16 | File | `/cgi-bin/ExportLogs.sh` | High
+17 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
+18 | File | `/classes/Master.php?f=delete_category` | High
+19 | File | `/classes/Master.php?f=save_service` | High
+20 | File | `/classes/Users.php?f=save` | High
+21 | File | `/common/sysFile/list` | High
+22 | File | `/concat?/%2557EB-INF/web.xml` | High
+23 | File | `/context/%2e/WEB-INF/web.xml` | High
+24 | File | `/Controller/Ajaxfileupload.ashx` | High
+25 | File | `/dashboard/add-blog.php` | High
+26 | File | `/data/remove` | Medium
+27 | File | `/debug/pprof` | Medium
+28 | File | `/Default/Bd` | Medium
+29 | File | `/dist/index.js` | High
+30 | File | `/editor/index.php` | High
+31 | File | `/Electron/download` | High
+32 | File | `/etc/openstack-dashboard/local_settings` | High
+33 | File | `/etc/passwd` | Medium
+34 | File | `/feeds/post/publish` | High
+35 | File | `/getcfg.php` | Medium
+36 | File | `/goform/addressNat` | High
+37 | File | `/goform/AdvSetLanip` | High
+38 | File | `/goForm/aspForm` | High
+39 | File | `/goform/fromSetWirelessRepeat` | High
+40 | ... | ... | ...
 
-There are 315 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 345 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

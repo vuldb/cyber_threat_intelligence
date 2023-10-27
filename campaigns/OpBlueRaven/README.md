@@ -57,7 +57,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -88,45 +88,45 @@ ID | Type | Indicator | Confidence
 21 | File | `/api/admin/store/product/list` | High
 22 | File | `/api/baskets/{name}` | High
 23 | File | `/api/stl/actions/search` | High
-24 | File | `/api/v2/cli/commands` | High
-25 | File | `/api/wechat/app_auth` | High
-26 | File | `/apply.cgi` | Medium
-27 | File | `/App_Resource/UEditor/server/upload.aspx` | High
-28 | File | `/attachments` | Medium
-29 | File | `/author/list?limit=10&offset=0&order=desc` | High
-30 | File | `/bin/ate` | Medium
-31 | File | `/blog` | Low
-32 | File | `/boat/login.php` | High
-33 | File | `/booking/show_bookings/` | High
-34 | File | `/browse` | Low
-35 | File | `/bsms_ci/index.php/book` | High
-36 | File | `/cgi-bin` | Medium
-37 | File | `/cgi-bin/wlogin.cgi` | High
-38 | File | `/chaincity/user/ticket/create` | High
-39 | File | `/classes/Master.php?f=delete_category` | High
-40 | File | `/classes/Master.php?f=delete_sub_category` | High
-41 | File | `/classes/Users.php?f=save` | High
-42 | File | `/collection/all` | High
-43 | File | `/common/info.cgi` | High
-44 | File | `/company/store` | High
-45 | File | `/Content/Template/root/reverse-shell.aspx` | High
-46 | File | `/dashboard/add-blog.php` | High
-47 | File | `/debug/pprof` | Medium
-48 | File | `/env` | Low
-49 | File | `/etc/hosts` | Medium
-50 | File | `/etc/pki/pesign` | High
-51 | File | `/forum/away.php` | High
-52 | File | `/front/roomtype-details.php` | High
-53 | File | `/fusion/portal/action/Link` | High
-54 | File | `/group1/uploa` | High
-55 | File | `/index.php` | Medium
-56 | File | `/index.php/client/message/message_read/xxxxxxxx[random-msg-hash]` | High
-57 | File | `/index.php/payment/getcoinaddress` | High
-58 | File | `/librarian/bookdetails.php` | High
-59 | File | `/listplace/user/coverPhotoUpdate` | High
+24 | File | `/api/sys/login` | High
+25 | File | `/api/sys/set_passwd` | High
+26 | File | `/api/v2/cli/commands` | High
+27 | File | `/api/wechat/app_auth` | High
+28 | File | `/apply.cgi` | Medium
+29 | File | `/App_Resource/UEditor/server/upload.aspx` | High
+30 | File | `/author/list?limit=10&offset=0&order=desc` | High
+31 | File | `/bin/ate` | Medium
+32 | File | `/blog` | Low
+33 | File | `/boat/login.php` | High
+34 | File | `/booking/show_bookings/` | High
+35 | File | `/browse` | Low
+36 | File | `/bsms_ci/index.php/book` | High
+37 | File | `/cgi-bin` | Medium
+38 | File | `/cgi-bin/wlogin.cgi` | High
+39 | File | `/chaincity/user/ticket/create` | High
+40 | File | `/changePassword` | High
+41 | File | `/classes/Master.php?f=delete_category` | High
+42 | File | `/classes/Master.php?f=delete_sub_category` | High
+43 | File | `/classes/Users.php?f=save` | High
+44 | File | `/collection/all` | High
+45 | File | `/common/info.cgi` | High
+46 | File | `/company/store` | High
+47 | File | `/Content/Template/root/reverse-shell.aspx` | High
+48 | File | `/dashboard/add-blog.php` | High
+49 | File | `/debug/pprof` | Medium
+50 | File | `/env` | Low
+51 | File | `/etc/pki/pesign` | High
+52 | File | `/forum/away.php` | High
+53 | File | `/front/roomtype-details.php` | High
+54 | File | `/fusion/portal/action/Link` | High
+55 | File | `/group1/uploa` | High
+56 | File | `/index.php` | Medium
+57 | File | `/index.php/client/message/message_read/xxxxxxxx[random-msg-hash]` | High
+58 | File | `/index.php/payment/getcoinaddress` | High
+59 | File | `/librarian/bookdetails.php` | High
 60 | ... | ... | ...
 
-There are 520 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 526 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

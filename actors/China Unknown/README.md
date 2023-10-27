@@ -21,10 +21,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
-* [JP](https://vuldb.com/?country.jp)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 18 more country items available. Please use our online service to access the data.
+There are 14 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -1921,14 +1921,15 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-36 | Pathname Traversal | High
-2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
-6 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Pathname Traversal | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+7 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 23 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -1936,50 +1937,47 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/act/ActDao.xml` | High
-2 | File | `/admin/sys_sql_query.php` | High
-3 | File | `/ajax.php?action=read_msg` | High
-4 | File | `/api/baskets/{name}` | High
-5 | File | `/bin/ate` | Medium
+1 | File | `/admin.php?c=upload&f=zip&_noCache=0.1683794968` | High
+2 | File | `/admin/save.php` | High
+3 | File | `/api/baskets/{name}` | High
+4 | File | `/api/download` | High
+5 | File | `/api/v1/terminal/sessions/?limit=1` | High
 6 | File | `/bitrix/admin/ldap_server_edit.php` | High
 7 | File | `/booking/show_bookings/` | High
-8 | File | `/cgi-bin/luci/api/wireless` | High
-9 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
-10 | File | `/classes/Master.php?f=delete_category` | High
-11 | File | `/company/store` | High
-12 | File | `/concat?/%2557EB-INF/web.xml` | High
-13 | File | `/Content/Template/root/reverse-shell.aspx` | High
-14 | File | `/Controller/Ajaxfileupload.ashx` | High
+8 | File | `/category.php` | High
+9 | File | `/categorypage.php` | High
+10 | File | `/cgi-bin/luci/api/wireless` | High
+11 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
+12 | File | `/cgi-bin/vitogate.cgi` | High
+13 | File | `/cgi/networkDiag.cgi` | High
+14 | File | `/Content/Template/root/reverse-shell.aspx` | High
 15 | File | `/core/conditions/AbstractWrapper.java` | High
-16 | File | `/debug/pprof` | Medium
-17 | File | `/E-mobile/App/System/File/downfile.php` | High
-18 | File | `/env` | Low
-19 | File | `/etc/passwd` | Medium
-20 | File | `/forum/away.php` | High
-21 | File | `/getcfg.php` | Medium
-22 | File | `/goform/AdvSetLanip` | High
-23 | File | `/goform/fromSetWirelessRepeat` | High
-24 | File | `/goform/setmac` | High
-25 | File | `/goform/setMacFilterCfg` | High
-26 | File | `/goform/SetSysTimeCfg` | High
-27 | File | `/goform/WifiGuestSet` | High
-28 | File | `/group1/uploa` | High
-29 | File | `/h/` | Low
-30 | File | `/index.php?app=main&func=passport&action=login` | High
-31 | File | `/ipms/imageConvert/image` | High
-32 | File | `/jobinfo/` | Medium
-33 | File | `/kelasdosen/data` | High
-34 | File | `/net/sched/cls_fw.c` | High
-35 | File | `/news/*.html` | Medium
-36 | File | `/note/index/delete` | High
-37 | File | `/php-sms/admin/?page=user/manage_user` | High
-38 | File | `/preview.php` | Medium
-39 | File | `/PreviewHandler.ashx` | High
-40 | File | `/recipe-result` | High
-41 | File | `/register.do` | Medium
-42 | ... | ... | ...
+16 | File | `/dashboard/add-blog.php` | High
+17 | File | `/data/remove` | Medium
+18 | File | `/debug/pprof` | Medium
+19 | File | `/ecommerce/admin/settings/setDiscount.php` | High
+20 | File | `/etc/passwd` | Medium
+21 | File | `/fcgi/scrut_fcgi.fcgi` | High
+22 | File | `/forum/away.php` | High
+23 | File | `/getcfg.php` | Medium
+24 | File | `/goform/net\_Web\_get_value` | High
+25 | File | `/GponForm/usb_restore_Form?script/` | High
+26 | File | `/group1/uploa` | High
+27 | File | `/HNAP1` | Low
+28 | File | `/home/get_tasks_list` | High
+29 | File | `/index.php/sysmanage/Login/login_auth/` | High
+30 | File | `/jeecg-boot/sys/common/upload` | High
+31 | File | `/net/sched/cls_fw.c` | High
+32 | File | `/plugin` | Low
+33 | File | `/preview.php` | Medium
+34 | File | `/recipe-result` | High
+35 | File | `/register.do` | Medium
+36 | File | `/resources//../` | High
+37 | File | `/RPS2019Service/status.html` | High
+38 | File | `/search.php` | Medium
+39 | ... | ... | ...
 
-There are 367 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 332 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

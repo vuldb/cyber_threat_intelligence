@@ -81,12 +81,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-37 | Pathname Traversal | High
+1 | T1006 | CWE-22, CWE-37 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
-6 | ... | ... | ... | ...
+5 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
 
@@ -99,38 +98,37 @@ ID | Type | Indicator | Confidence
 1 | File | `.FBCIndex` | Medium
 2 | File | `/+CSCOE+/logon.html` | High
 3 | File | `/?ajax-request=jnews` | High
-4 | File | `/Admin/add-student.php` | High
-5 | File | `/admin/blog/blogcategory/add/?_to_field=id&_popup=1` | High
-6 | File | `/admin/categories/manage_category.php` | High
-7 | File | `/admin/edit_product.php` | High
-8 | File | `/admin/maintenance/view_designation.php` | High
-9 | File | `/admin/sales/manage_sale.php` | High
-10 | File | `/api/baskets/{name}` | High
-11 | File | `/aya/module/admin/fst_down.inc.php` | High
-12 | File | `/blog` | Low
-13 | File | `/boat/login.php` | High
-14 | File | `/bsms_ci/index.php/user/edit_user/` | High
-15 | File | `/cas/logout` | Medium
-16 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
-17 | File | `/cgi-bin/upload_vpntar` | High
-18 | File | `/CPE` | Low
-19 | File | `/etc/tomcat8/Catalina/attack` | High
-20 | File | `/forum/away.php` | High
-21 | File | `/ghost/preview` | High
-22 | File | `/home/search` | Medium
-23 | File | `/ims/login.php` | High
-24 | File | `/mhds/clinic/view_details.php` | High
-25 | File | `/modules/profile/index.php` | High
-26 | File | `/out.php` | Medium
-27 | File | `/php-opos/index.php` | High
+4 | File | `/admin/categories/manage_category.php` | High
+5 | File | `/admin/edit_product.php` | High
+6 | File | `/admin/maintenance/view_designation.php` | High
+7 | File | `/admin/sales/manage_sale.php` | High
+8 | File | `/api/baskets/{name}` | High
+9 | File | `/aya/module/admin/fst_down.inc.php` | High
+10 | File | `/blog` | Low
+11 | File | `/boat/login.php` | High
+12 | File | `/bsms_ci/index.php/user/edit_user/` | High
+13 | File | `/cas/logout` | Medium
+14 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
+15 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+16 | File | `/cgi-bin/upload_vpntar` | High
+17 | File | `/CPE` | Low
+18 | File | `/forum/away.php` | High
+19 | File | `/ghost/preview` | High
+20 | File | `/goform/Diagnosis` | High
+21 | File | `/home/search` | Medium
+22 | File | `/leaves/validate` | High
+23 | File | `/mail.php` | Medium
+24 | File | `/modules/profile/index.php` | High
+25 | File | `/out.php` | Medium
+26 | File | `/php-opos/index.php` | High
+27 | File | `/php-spms/admin/?page=user/` | High
 28 | File | `/reviewer_0/admins/assessments/pretest/questions-view.php` | High
 29 | File | `/shell` | Low
 30 | File | `/tourism/rate_review.php` | High
 31 | File | `/uncpath/` | Medium
-32 | File | `/vdesk` | Low
-33 | ... | ... | ...
+32 | ... | ... | ...
 
-There are 282 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 270 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -101,14 +101,15 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-28 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-28, CWE-425 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+6 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+7 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 23 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -138,27 +139,27 @@ ID | Type | Indicator | Confidence
 20 | File | `/cgi-bin` | Medium
 21 | File | `/cgi-bin/luci/api/wireless` | High
 22 | File | `/cgi-bin/wlogin.cgi` | High
-23 | File | `/Content/Template/root/reverse-shell.aspx` | High
-24 | File | `/context/%2e/WEB-INF/web.xml` | High
-25 | File | `/debian/patches/load_ppp_generic_if_needed` | High
-26 | File | `/debug/pprof` | Medium
-27 | File | `/env` | Low
-28 | File | `/etc/hosts` | Medium
-29 | File | `/forum/away.php` | High
-30 | File | `/goform/setmac` | High
-31 | File | `/goform/wizard_end` | High
-32 | File | `/group1/uploa` | High
-33 | File | `/manage-apartment.php` | High
-34 | File | `/medicines/profile.php` | High
-35 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-36 | File | `/pages/apply_vacancy.php` | High
-37 | File | `/php-sms/admin/?page=user/manage_user` | High
-38 | File | `/proxy` | Low
-39 | File | `/reservation/add_message.php` | High
-40 | File | `/resources//../` | High
-41 | File | `/spip.php` | Medium
-42 | File | `/tmp` | Low
-43 | File | `/uncpath/` | Medium
+23 | File | `/config/php.ini` | High
+24 | File | `/Content/Template/root/reverse-shell.aspx` | High
+25 | File | `/context/%2e/WEB-INF/web.xml` | High
+26 | File | `/dashboard/add-blog.php` | High
+27 | File | `/debug/pprof` | Medium
+28 | File | `/env` | Low
+29 | File | `/etc/hosts` | Medium
+30 | File | `/forum/away.php` | High
+31 | File | `/goform/setmac` | High
+32 | File | `/goform/wizard_end` | High
+33 | File | `/group1/uploa` | High
+34 | File | `/manage-apartment.php` | High
+35 | File | `/medicines/profile.php` | High
+36 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+37 | File | `/pages/apply_vacancy.php` | High
+38 | File | `/php-sms/admin/?page=user/manage_user` | High
+39 | File | `/proxy` | Low
+40 | File | `/reservation/add_message.php` | High
+41 | File | `/resources//../` | High
+42 | File | `/spip.php` | Medium
+43 | File | `/tmp` | Low
 44 | ... | ... | ...
 
 There are 384 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.

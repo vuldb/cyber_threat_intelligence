@@ -60,26 +60,27 @@ ID | Type | Indicator | Confidence
 3 | File | `/etc/gsissh/sshd_config` | High
 4 | File | `/etc/passwd` | Medium
 5 | File | `/forms/nslookupHandler` | High
-6 | File | `/index.php` | Medium
-7 | File | `/librarian/bookdetails.php` | High
-8 | File | `/modules/profile/index.php` | High
-9 | File | `/news.dtl.php` | High
-10 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-11 | File | `/out.php` | Medium
-12 | File | `/php-opos/index.php` | High
-13 | File | `/ptms/?page=user` | High
-14 | File | `/sqfs/bin/sccd` | High
-15 | File | `/tmp` | Low
-16 | File | `/uncpath/` | Medium
-17 | File | `/upload/file.php` | High
-18 | File | `/usr/bin/at` | Medium
-19 | File | `/usr/local/www/pkg.php` | High
-20 | File | `/wp-admin/admin-ajax.php` | High
-21 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-22 | File | `5.2.9\syscrb.exe` | High
-23 | ... | ... | ...
+6 | File | `/h/autoSaveDraft` | High
+7 | File | `/index.php` | Medium
+8 | File | `/librarian/bookdetails.php` | High
+9 | File | `/modules/profile/index.php` | High
+10 | File | `/news.dtl.php` | High
+11 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+12 | File | `/out.php` | Medium
+13 | File | `/patient/appointment.php` | High
+14 | File | `/php-opos/index.php` | High
+15 | File | `/ptms/?page=user` | High
+16 | File | `/sqfs/bin/sccd` | High
+17 | File | `/tmp` | Low
+18 | File | `/uncpath/` | Medium
+19 | File | `/upload/file.php` | High
+20 | File | `/usr/bin/at` | Medium
+21 | File | `/usr/local/www/pkg.php` | High
+22 | File | `/wp-admin/admin-ajax.php` | High
+23 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+24 | ... | ... | ...
 
-There are 193 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 199 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

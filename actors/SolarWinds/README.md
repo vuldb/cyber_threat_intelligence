@@ -36,7 +36,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -57,31 +57,31 @@ ID | Type | Indicator | Confidence
 11 | File | `/proc` | Low
 12 | File | `/rapi/read_url` | High
 13 | File | `/sbin/conf.d/SuSEconfig.javarunt` | High
-14 | File | `/setSystemAdmin` | High
-15 | File | `/start_apply.htm` | High
-16 | File | `/system/user/modules/mod_users/controller.php` | High
-17 | File | `/tmp` | Low
-18 | File | `/uncpath/` | Medium
-19 | File | `/upload` | Low
-20 | File | `/usr/lib/utmp_update` | High
-21 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
-22 | File | `admin.php` | Medium
-23 | File | `admin/graph_trend.php` | High
-24 | File | `admin/Login.php` | High
-25 | File | `admin/plugin-index.php` | High
-26 | File | `administration` | High
-27 | File | `administrative` | High
-28 | File | `aolfix.exe` | Medium
-29 | File | `Ap4DecoderConfigDescriptor.cpp` | High
-30 | File | `appserv/main.php` | High
-31 | File | `awhost32.exe` | Medium
-32 | File | `bidhistory.php` | High
-33 | File | `browser/notifications/notification_ui_manager_impl.cc` | High
-34 | File | `buffer.c` | Medium
-35 | File | `c:\aux` | Low
+14 | File | `/scripts/unlock_tasks.php` | High
+15 | File | `/setSystemAdmin` | High
+16 | File | `/start_apply.htm` | High
+17 | File | `/system/user/modules/mod_users/controller.php` | High
+18 | File | `/tmp` | Low
+19 | File | `/uncpath/` | Medium
+20 | File | `/upload` | Low
+21 | File | `/usr/lib/utmp_update` | High
+22 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
+23 | File | `admin.php` | Medium
+24 | File | `admin/graph_trend.php` | High
+25 | File | `admin/Login.php` | High
+26 | File | `admin/plugin-index.php` | High
+27 | File | `administration` | High
+28 | File | `administrative` | High
+29 | File | `aolfix.exe` | Medium
+30 | File | `Ap4DecoderConfigDescriptor.cpp` | High
+31 | File | `appserv/main.php` | High
+32 | File | `awhost32.exe` | Medium
+33 | File | `bidhistory.php` | High
+34 | File | `browser/notifications/notification_ui_manager_impl.cc` | High
+35 | File | `buffer.c` | Medium
 36 | ... | ... | ...
 
-There are 307 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 313 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

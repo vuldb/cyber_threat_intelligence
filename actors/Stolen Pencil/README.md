@@ -39,7 +39,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 9 more TTP items available. Please use our online service to access the data.
+There are 10 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -54,18 +54,18 @@ ID | Type | Indicator | Confidence
 5 | File | `/boat/login.php` | High
 6 | File | `/coreframe/app/member/admin/group.php` | High
 7 | File | `/forum/away.php` | High
-8 | File | `/horde/util/go.php` | High
-9 | File | `/owa/auth/logon.aspx` | High
-10 | File | `/secure/EditSubscription.jspa` | High
-11 | File | `/systemrw/` | Medium
-12 | File | `/tmp/supp_log` | High
-13 | File | `account.php` | Medium
-14 | File | `ActivityStarter.java` | High
-15 | File | `admin/content.php` | High
-16 | File | `admin/editadgroup.php` | High
+8 | File | `/home/courses` | High
+9 | File | `/horde/util/go.php` | High
+10 | File | `/owa/auth/logon.aspx` | High
+11 | File | `/secure/EditSubscription.jspa` | High
+12 | File | `/systemrw/` | Medium
+13 | File | `/tmp/supp_log` | High
+14 | File | `?r=recruit/bgchecks/export&checkids=x` | High
+15 | File | `account.php` | Medium
+16 | File | `ActivityStarter.java` | High
 17 | ... | ... | ...
 
-There are 135 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 138 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

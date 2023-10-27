@@ -46,17 +46,18 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/ad-list` | Medium
 2 | File | `/admin/add-category.php` | High
-3 | File | `/admin/config/uploadicon.php` | High
-4 | File | `/ajax.php?action=read_msg` | High
-5 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-6 | File | `/classes/Master.php?f=delete_inquiry` | High
-7 | File | `/classes/Master.php?f=delete_item` | High
-8 | File | `/classes/Master.php?f=save_inquiry` | High
-9 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
-10 | File | `/Duty/AjaxHandle/Write/UploadFile.ashx` | High
-11 | ... | ... | ...
+3 | File | `/admin/cms_admin.php` | High
+4 | File | `/admin/config/uploadicon.php` | High
+5 | File | `/ajax.php?action=read_msg` | High
+6 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+7 | File | `/classes/Master.php?f=delete_inquiry` | High
+8 | File | `/classes/Master.php?f=delete_item` | High
+9 | File | `/classes/Master.php?f=save_inquiry` | High
+10 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
+11 | File | `/Duty/AjaxHandle/Write/UploadFile.ashx` | High
+12 | ... | ... | ...
 
-There are 80 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 93 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

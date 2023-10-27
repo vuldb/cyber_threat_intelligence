@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Somalia Unknown:
 
 * [US](https://vuldb.com/?country.us)
+* [GB](https://vuldb.com/?country.gb)
 * [ES](https://vuldb.com/?country.es)
-* [FR](https://vuldb.com/?country.fr)
 * ...
 
 There are 20 more country items available. Please use our online service to access the data.
@@ -71,28 +71,29 @@ ID | Type | Indicator | Confidence
 11 | File | `/mifs/c/i/reg/reg.html` | High
 12 | File | `/modules/profile/index.php` | High
 13 | File | `/news.dtl.php` | High
-14 | File | `/php_action/createUser.php` | High
-15 | File | `/see_more_details.php` | High
-16 | File | `/services/details.asp` | High
-17 | File | `/setup` | Low
-18 | File | `/spip.php` | Medium
-19 | File | `/uncpath/` | Medium
-20 | File | `/var/log/nginx` | High
-21 | File | `/VPortal/mgtconsole/Subscriptions.jsp` | High
-22 | File | `/wabt/bin/poc.wasm` | High
-23 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-24 | File | `act.php` | Low
-25 | File | `adclick.php` | Medium
-26 | File | `add_comment.php` | High
-27 | File | `admin` | Low
-28 | File | `admin.php` | Medium
-29 | File | `admin/adminsignin.html` | High
-30 | File | `admin/movieview.php` | High
-31 | File | `admin/versions.html` | High
-32 | File | `ajax_calls.php` | High
-33 | ... | ... | ...
+14 | File | `/php-jms/deductScores.php` | High
+15 | File | `/php_action/createUser.php` | High
+16 | File | `/see_more_details.php` | High
+17 | File | `/services/details.asp` | High
+18 | File | `/setup` | Low
+19 | File | `/spip.php` | Medium
+20 | File | `/uncpath/` | Medium
+21 | File | `/var/log/nginx` | High
+22 | File | `/VPortal/mgtconsole/Subscriptions.jsp` | High
+23 | File | `/wabt/bin/poc.wasm` | High
+24 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+25 | File | `act.php` | Low
+26 | File | `adclick.php` | Medium
+27 | File | `add_comment.php` | High
+28 | File | `admin` | Low
+29 | File | `admin.php` | Medium
+30 | File | `admin/adminsignin.html` | High
+31 | File | `admin/movieview.php` | High
+32 | File | `admin/versions.html` | High
+33 | File | `agenda.php` | Medium
+34 | ... | ... | ...
 
-There are 279 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 291 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

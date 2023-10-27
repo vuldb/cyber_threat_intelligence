@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 15 more country items available. Please use our online service to access the data.
+There are 13 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -26,7 +26,7 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [45.159.189.105](https://vuldb.com/?ip.45.159.189.105) | . | - | High
 4 | ... | ... | ... | ...
 
-There are 7 more IOC items available. Please use our online service to access the data.
+There are 9 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -39,9 +39,10 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+6 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+7 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -57,25 +58,25 @@ ID | Type | Indicator | Confidence
 6 | File | `/admin/delete_user.php` | High
 7 | File | `/admin/doctors.php` | High
 8 | File | `/admin/submit-articles` | High
-9 | File | `/ad_js.php` | Medium
-10 | File | `/alphaware/summary.php` | High
-11 | File | `/api/` | Low
-12 | File | `/api/admin/store/product/list` | High
-13 | File | `/api/baskets/{name}` | High
-14 | File | `/api/stl/actions/search` | High
-15 | File | `/api/v2/cli/commands` | High
-16 | File | `/attachments` | Medium
-17 | File | `/bin/ate` | Medium
-18 | File | `/boat/login.php` | High
-19 | File | `/booking/show_bookings/` | High
-20 | File | `/bsms_ci/index.php/book` | High
-21 | File | `/cas/logout` | Medium
-22 | File | `/cgi-bin` | Medium
-23 | File | `/cgi-bin/luci/api/wireless` | High
-24 | File | `/cgi-bin/wlogin.cgi` | High
-25 | File | `/context/%2e/WEB-INF/web.xml` | High
-26 | File | `/dashboard/reports/logs/view` | High
-27 | File | `/debian/patches/load_ppp_generic_if_needed` | High
+9 | File | `/alphaware/summary.php` | High
+10 | File | `/api/` | Low
+11 | File | `/api/admin/store/product/list` | High
+12 | File | `/api/baskets/{name}` | High
+13 | File | `/api/stl/actions/search` | High
+14 | File | `/api/v2/cli/commands` | High
+15 | File | `/attachments` | Medium
+16 | File | `/bin/ate` | Medium
+17 | File | `/boat/login.php` | High
+18 | File | `/booking/show_bookings/` | High
+19 | File | `/bsms_ci/index.php/book` | High
+20 | File | `/cas/logout` | Medium
+21 | File | `/cgi-bin` | Medium
+22 | File | `/cgi-bin/luci/api/wireless` | High
+23 | File | `/cgi-bin/wlogin.cgi` | High
+24 | File | `/collection/all` | High
+25 | File | `/Content/Template/root/reverse-shell.aspx` | High
+26 | File | `/context/%2e/WEB-INF/web.xml` | High
+27 | File | `/dashboard/add-blog.php` | High
 28 | File | `/debug/pprof` | Medium
 29 | File | `/env` | Low
 30 | File | `/etc/gsissh/sshd_config` | High
@@ -84,18 +85,16 @@ ID | Type | Indicator | Confidence
 33 | File | `/goform/setmac` | High
 34 | File | `/goform/wizard_end` | High
 35 | File | `/group1/uploa` | High
-36 | File | `/manage-apartment.php` | High
+36 | File | `/hrm/controller/employee.php` | High
 37 | File | `/medicines/profile.php` | High
 38 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-39 | File | `/pages/apply_vacancy.php` | High
+39 | File | `/out.php` | Medium
 40 | File | `/php-sms/admin/?page=user/manage_user` | High
-41 | File | `/proc/<PID>/mem` | High
-42 | File | `/proxy` | Low
-43 | File | `/reservation/add_message.php` | High
-44 | File | `/resources//../` | High
-45 | ... | ... | ...
+41 | File | `/proxy` | Low
+42 | File | `/reservation/add_message.php` | High
+43 | ... | ... | ...
 
-There are 386 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 375 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -104,6 +103,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://app.any.run/tasks/6c910d55-f846-46f8-bfa5-b6af3986466c
 * https://app.any.run/tasks/47c2c5a4-d752-4ba2-a2d4-15665bd5aac3
 * https://bazaar.abuse.ch/sample/bd7b6f6ef2d0adfb9b2e058fc46ad29ff1edffc648f9d7408745916bb8a2f310/
+* https://github.com/Cisco-Talos/IOCs/blob/main/2023/02/new-mortalkombat-ransomware-and-laplas-clipper-malware-threats.txt
 * https://threatfox.abuse.ch
 * https://twitter.com/1ZRR4H/status/1623067548781539339
 * https://twitter.com/crep1x/status/1636352242969108484

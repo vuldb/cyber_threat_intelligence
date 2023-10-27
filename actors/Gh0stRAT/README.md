@@ -116,7 +116,7 @@ ID | Type | Indicator | Confidence
 1 | File | `$HOME/.terminfo` | High
 2 | File | `/act/ActDao.xml` | High
 3 | File | `/admin.php?c=upload&f=zip&_noCache=0.1683794968` | High
-4 | File | `/ajax.php?action=read_msg` | High
+4 | File | `/admin/user.php` | High
 5 | File | `/api/baskets/{name}` | High
 6 | File | `/bin/ate` | Medium
 7 | File | `/bin/login` | Medium
@@ -124,36 +124,37 @@ ID | Type | Indicator | Confidence
 9 | File | `/booking/show_bookings/` | High
 10 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
 11 | File | `/cgi/networkDiag.cgi` | High
-12 | File | `/classes/Master.php?f=delete_category` | High
-13 | File | `/concat?/%2557EB-INF/web.xml` | High
-14 | File | `/Controller/Ajaxfileupload.ashx` | High
-15 | File | `/dashboard/add-blog.php` | High
-16 | File | `/debug/pprof` | Medium
-17 | File | `/env` | Low
-18 | File | `/etc/passwd` | Medium
-19 | File | `/forum/away.php` | High
-20 | File | `/getcfg.php` | Medium
-21 | File | `/goform/AdvSetLanip` | High
-22 | File | `/goform/fromSetWirelessRepeat` | High
-23 | File | `/goform/net\_Web\_get_value` | High
-24 | File | `/goform/setmac` | High
-25 | File | `/goform/setMacFilterCfg` | High
-26 | File | `/goform/SetSysTimeCfg` | High
-27 | File | `/goform/set_LimitClient_cfg` | High
-28 | File | `/goform/WifiGuestSet` | High
-29 | File | `/GponForm/usb_restore_Form?script/` | High
-30 | File | `/group1/uploa` | High
-31 | File | `/h/autoSaveDraft` | High
-32 | File | `/h/search?action` | High
-33 | File | `/hss/admin/?page=products/view_product` | High
-34 | File | `/importexport.php` | High
-35 | File | `/inc/jquery/uploadify/uploadify.php` | High
-36 | File | `/index.php/sysmanage/Login/login_auth/` | High
-37 | File | `/index.php?app=main&func=passport&action=login` | High
-38 | File | `/kelasdosen/data` | High
-39 | ... | ... | ...
+12 | File | `/concat?/%2557EB-INF/web.xml` | High
+13 | File | `/Controller/Ajaxfileupload.ashx` | High
+14 | File | `/dashboard/add-blog.php` | High
+15 | File | `/debug/pprof` | Medium
+16 | File | `/env` | Low
+17 | File | `/etc/passwd` | Medium
+18 | File | `/forum/away.php` | High
+19 | File | `/getcfg.php` | Medium
+20 | File | `/goform/AdvSetLanip` | High
+21 | File | `/goform/fromSetWirelessRepeat` | High
+22 | File | `/goform/net\_Web\_get_value` | High
+23 | File | `/goform/setmac` | High
+24 | File | `/goform/setMacFilterCfg` | High
+25 | File | `/goform/SetSysTimeCfg` | High
+26 | File | `/goform/set_LimitClient_cfg` | High
+27 | File | `/goform/WifiGuestSet` | High
+28 | File | `/GponForm/usb_restore_Form?script/` | High
+29 | File | `/group1/uploa` | High
+30 | File | `/h/autoSaveDraft` | High
+31 | File | `/h/search?action` | High
+32 | File | `/hss/admin/?page=products/view_product` | High
+33 | File | `/importexport.php` | High
+34 | File | `/index.php/sysmanage/Login/login_auth/` | High
+35 | File | `/index.php?app=main&func=passport&action=login` | High
+36 | File | `/kelasdosen/data` | High
+37 | File | `/mgmt/` | Low
+38 | File | `/net/sched/cls_fw.c` | High
+39 | File | `/owa/auth/logon.aspx` | High
+40 | ... | ... | ...
 
-There are 338 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 344 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

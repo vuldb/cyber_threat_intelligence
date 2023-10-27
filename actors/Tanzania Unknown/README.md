@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [TZ](https://vuldb.com/?country.tz)
 * ...
 
-There are 4 more country items available. Please use our online service to access the data.
+There are 3 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -93,7 +93,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-29 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-29, CWE-425 | Pathname Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
@@ -111,47 +111,48 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin.php?action=themeinstall` | High
 3 | File | `/admin/?page=product/manage_product&id=2` | High
 4 | File | `/admin/?setting-base.htm` | High
-5 | File | `/admin/addemployee.php` | High
-6 | File | `/admin/bookings/manage_booking.php` | High
-7 | File | `/admin/controller/JobLogController.java` | High
-8 | File | `/admin/del_service.php` | High
-9 | File | `/admin/index.php` | High
-10 | File | `/admin/index2.html` | High
-11 | File | `/admin/scripts/pi-hole/phpqueryads.php` | High
-12 | File | `/admin/subnets/ripe-query.php` | High
-13 | File | `/api/` | Low
-14 | File | `/api/audits` | Medium
-15 | File | `/api/resource/Item?fields` | High
-16 | File | `/api/upload.php` | High
-17 | File | `/api/v1/attack/token` | High
-18 | File | `/Application/Admin/Controller/ConfigController.class.php` | High
-19 | File | `/application/common.php#action_log` | High
-20 | File | `/APR/signup.php` | High
-21 | File | `/assets` | Low
-22 | File | `/bin/ate` | Medium
-23 | File | `/bitrix/admin/ldap_server_edit.php` | High
-24 | File | `/cgi-bin/activate.cgi` | High
-25 | File | `/cgi-bin/kerbynet` | High
-26 | File | `/cgi-bin/luci/api/wireless` | High
-27 | File | `/cgi-bin/luci;stok=/locale` | High
-28 | File | `/cgi-bin/wapopen` | High
-29 | File | `/cgi-bin/wlogin.cgi` | High
-30 | File | `/classes/Master.php?f=delete_category` | High
-31 | File | `/classes/Master.php?f=delete_inquiry` | High
-32 | File | `/classes/Master.php?f=delete_item` | High
-33 | File | `/classes/Master.php?f=delete_service` | High
-34 | File | `/classes/Master.php?f=save_service` | High
-35 | File | `/classes/Users.php` | High
-36 | File | `/classes/Users.php?f=save` | High
-37 | File | `/context/%2e/WEB-INF/web.xml` | High
-38 | File | `/controller/OnlinePreviewController.java` | High
-39 | File | `/core/conditions/AbstractWrapper.java` | High
-40 | File | `/crmeb/crmeb/services/UploadService.php` | High
-41 | File | `/dashboard/snapshot/*?orgId=0` | High
-42 | File | `/debug/pprof` | Medium
-43 | ... | ... | ...
+5 | File | `/admin/bookings/manage_booking.php` | High
+6 | File | `/admin/controller/JobLogController.java` | High
+7 | File | `/admin/del_service.php` | High
+8 | File | `/admin/index.php` | High
+9 | File | `/admin/index2.html` | High
+10 | File | `/admin/scripts/pi-hole/phpqueryads.php` | High
+11 | File | `/admin/subnets/ripe-query.php` | High
+12 | File | `/api/audits` | Medium
+13 | File | `/api/resource/Item?fields` | High
+14 | File | `/api/upload.php` | High
+15 | File | `/api/v1/attack/token` | High
+16 | File | `/api/v1/terminal/sessions/?limit=1` | High
+17 | File | `/app/sys1.php` | High
+18 | File | `/application/common.php#action_log` | High
+19 | File | `/APR/signup.php` | High
+20 | File | `/assets` | Low
+21 | File | `/bin/ate` | Medium
+22 | File | `/bitrix/admin/ldap_server_edit.php` | High
+23 | File | `/cgi-bin/activate.cgi` | High
+24 | File | `/cgi-bin/kerbynet` | High
+25 | File | `/cgi-bin/luci/api/wireless` | High
+26 | File | `/cgi-bin/luci;stok=/locale` | High
+27 | File | `/cgi-bin/wapopen` | High
+28 | File | `/classes/Master.php?f=delete_category` | High
+29 | File | `/classes/Master.php?f=delete_inquiry` | High
+30 | File | `/classes/Master.php?f=delete_item` | High
+31 | File | `/classes/Master.php?f=delete_service` | High
+32 | File | `/classes/Master.php?f=save_service` | High
+33 | File | `/classes/Users.php` | High
+34 | File | `/classes/Users.php?f=save` | High
+35 | File | `/config/php.ini` | High
+36 | File | `/context/%2e/WEB-INF/web.xml` | High
+37 | File | `/controller/OnlinePreviewController.java` | High
+38 | File | `/core/conditions/AbstractWrapper.java` | High
+39 | File | `/crmeb/crmeb/services/UploadService.php` | High
+40 | File | `/debug/pprof` | Medium
+41 | File | `/etc/sudoers` | Medium
+42 | File | `/ethash/algorithm.go` | High
+43 | File | `/export` | Low
+44 | ... | ... | ...
 
-There are 375 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 384 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

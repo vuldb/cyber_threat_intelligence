@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [DE](https://vuldb.com/?country.de)
 * ...
 
-There are 28 more country items available. Please use our online service to access the data.
+There are 29 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -24,9 +24,11 @@ ID | IP address | Hostname | Campaign | Confidence
 1 | [37.120.233.92](https://vuldb.com/?ip.37.120.233.92) | no-rdns.m247.com | - | High
 2 | [37.120.237.251](https://vuldb.com/?ip.37.120.237.251) | - | - | High
 3 | [45.42.201.248](https://vuldb.com/?ip.45.42.201.248) | - | - | High
-4 | ... | ... | ... | ...
+4 | [46.30.188.221](https://vuldb.com/?ip.46.30.188.221) | 46.30.188.221.static.quadranet.com | - | High
+5 | [78.135.73.148](https://vuldb.com/?ip.78.135.73.148) | - | - | High
+6 | ... | ... | ... | ...
 
-There are 13 more IOC items available. Please use our online service to access the data.
+There are 21 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -50,51 +52,59 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.htaccess` | Medium
-2 | File | `/api2/html/` | Medium
-3 | File | `/apiadmin/notice/add` | High
-4 | File | `/classes/master.php?f=delete_order` | High
-5 | File | `/cloud_config/router_post/register` | High
-6 | File | `/ecommerce/support_ticket` | High
-7 | File | `/etc/gsissh/sshd_config` | High
-8 | File | `/forms/nslookupHandler` | High
-9 | File | `/forum/away.php` | High
-10 | File | `/forum/PostPrivateMessage` | High
-11 | File | `/h/calendar` | Medium
-12 | File | `/home/cavesConsole` | High
-13 | File | `/include/chart_generator.php` | High
-14 | File | `/index.php` | Medium
-15 | File | `/librarian/bookdetails.php` | High
-16 | File | `/login/index.php` | High
-17 | File | `/log_download.cgi` | High
-18 | File | `/mgmt/tm/util/bash` | High
-19 | File | `/modules/profile/index.php` | High
-20 | File | `/news.dtl.php` | High
-21 | File | `/out.php` | Medium
-22 | File | `/p1/p2/:name` | Medium
-23 | File | `/param.file.tgz` | High
-24 | File | `/proc/<PID>/mem` | High
-25 | File | `/ptms/?page=user` | High
-26 | File | `/Service/ImageStationDataService.asmx` | High
-27 | File | `/setup/finish` | High
-28 | File | `/spip.php` | Medium
-29 | File | `/template/edit` | High
-30 | File | `/uncpath/` | Medium
-31 | File | `/upload/file.php` | High
-32 | File | `/user/s.php` | Medium
-33 | File | `/usr/bin/at` | Medium
-34 | File | `/usr/bin/pkexec` | High
-35 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
-36 | File | `/wolfcms/?/admin/user/add` | High
-37 | File | `/wp-admin` | Medium
-38 | ... | ... | ...
+2 | File | `/api/baskets/{name}` | High
+3 | File | `/api2/html/` | Medium
+4 | File | `/apiadmin/notice/add` | High
+5 | File | `/classes/master.php?f=delete_order` | High
+6 | File | `/cloud_config/router_post/register` | High
+7 | File | `/ecommerce/support_ticket` | High
+8 | File | `/etc/gsissh/sshd_config` | High
+9 | File | `/forms/nslookupHandler` | High
+10 | File | `/Forms/tools_test_1` | High
+11 | File | `/forum/away.php` | High
+12 | File | `/forum/PostPrivateMessage` | High
+13 | File | `/h/autoSaveDraft` | High
+14 | File | `/h/calendar` | Medium
+15 | File | `/holiday.php` | Medium
+16 | File | `/home/cavesConsole` | High
+17 | File | `/include/chart_generator.php` | High
+18 | File | `/index.php` | Medium
+19 | File | `/librarian/bookdetails.php` | High
+20 | File | `/login/index.php` | High
+21 | File | `/log_download.cgi` | High
+22 | File | `/mgmt/tm/util/bash` | High
+23 | File | `/modules/profile/index.php` | High
+24 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+25 | File | `/news.dtl.php` | High
+26 | File | `/out.php` | Medium
+27 | File | `/p1/p2/:name` | Medium
+28 | File | `/param.file.tgz` | High
+29 | File | `/patient/appointment.php` | High
+30 | File | `/php-opos/index.php` | High
+31 | File | `/proc/<PID>/mem` | High
+32 | File | `/ptms/?page=user` | High
+33 | File | `/Service/ImageStationDataService.asmx` | High
+34 | File | `/setup/finish` | High
+35 | File | `/spip.php` | Medium
+36 | File | `/template/edit` | High
+37 | File | `/uncpath/` | Medium
+38 | File | `/upload/file.php` | High
+39 | File | `/user/s.php` | Medium
+40 | File | `/usr/bin/at` | Medium
+41 | File | `/usr/bin/pkexec` | High
+42 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
+43 | File | `/wolfcms/?/admin/user/add` | High
+44 | ... | ... | ...
 
-There are 328 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 384 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://1275.ru/ioc/184/solarmarker-malware-iocs/
+* https://ioc.exchange/@squiblydoo@infosec.exchange/110854242511709508
+* https://ioc.exchange/@squiblydoo@infosec.exchange/110952627273483306
 * https://threatfox.abuse.ch
 * https://tria.ge/210824-j7r4atcshe/behavioral2
 * https://twitter.com/SquiblydooBlog/status/1498447061628379140

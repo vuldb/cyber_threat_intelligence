@@ -122,21 +122,22 @@ ID | Type | Indicator | Confidence
 60 | File | `/Duty/AjaxHandle/UploadFloodPlanFileUpdate.ashx` | High
 61 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
 62 | File | `/ecommerce/support_ticket` | High
-63 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-64 | File | `/EventBookingCalendar/load.php?controller=GzFront/action=checkout/cid=1/layout=calendar/show_header=T/local=3` | High
-65 | File | `/file_manager/admin/save_user.php` | High
-66 | File | `/find-a-match` | High
-67 | File | `/friends` | Medium
-68 | File | `/friends/ajax_invite` | High
-69 | File | `/fusion/portal/action/Link` | High
-70 | File | `/goForm/aspForm` | High
-71 | File | `/goform/SetSysTimeCfg` | High
-72 | File | `/goform/SetVirtualServerCfg` | High
-73 | File | `/home/courses` | High
-74 | File | `/home/filter_listings` | High
-75 | ... | ... | ...
+63 | File | `/edit_user.php` | High
+64 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+65 | File | `/EventBookingCalendar/load.php?controller=GzFront/action=checkout/cid=1/layout=calendar/show_header=T/local=3` | High
+66 | File | `/file_manager/admin/save_user.php` | High
+67 | File | `/find-a-match` | High
+68 | File | `/friends` | Medium
+69 | File | `/friends/ajax_invite` | High
+70 | File | `/fusion/portal/action/Link` | High
+71 | File | `/goForm/aspForm` | High
+72 | File | `/goform/SetSysTimeCfg` | High
+73 | File | `/goform/SetVirtualServerCfg` | High
+74 | File | `/home/courses` | High
+75 | File | `/home/filter_listings` | High
+76 | ... | ... | ...
 
-There are 663 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 673 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

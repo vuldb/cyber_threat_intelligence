@@ -45,7 +45,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1202 | CWE-77, CWE-78 | Command Injection | High
 4 | ... | ... | ... | ...
 
-There are 2 more TTP items available. Please use our online service to access the data.
+There are 3 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -54,11 +54,11 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `channels/chan_iax2.c` | High
-2 | File | `lists/admin/template.php` | High
-3 | File | `PSOutputDev.cc` | High
+2 | File | `conf/admin.password` | High
+3 | File | `lists/admin/template.php` | High
 4 | ... | ... | ...
 
-There are 3 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 4 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

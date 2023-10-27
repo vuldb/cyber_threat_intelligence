@@ -23,10 +23,11 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [5.2.75.164](https://vuldb.com/?ip.5.2.75.164) | - | - | High
 2 | [5.8.8.100](https://vuldb.com/?ip.5.8.8.100) | - | - | High
-3 | [37.0.8.96](https://vuldb.com/?ip.37.0.8.96) | - | - | High
-4 | ... | ... | ... | ...
+3 | [23.254.227.202](https://vuldb.com/?ip.23.254.227.202) | client-23-254-227-202.hostwindsdns.com | - | High
+4 | [23.254.227.205](https://vuldb.com/?ip.23.254.227.205) | client-23-254-227-205.hostwindsdns.com | - | High
+5 | ... | ... | ... | ...
 
-There are 12 more IOC items available. Please use our online service to access the data.
+There are 15 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -35,12 +36,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
-2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94 | Cross Site Scripting | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-94 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 15 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -51,29 +53,35 @@ ID | Type | Indicator | Confidence
 1 | File | `.htaccess` | Medium
 2 | File | `/admin/ajax.php?action=save_window` | High
 3 | File | `/admin/index2.html` | High
-4 | File | `/connectors/index.php` | High
-5 | File | `/dashboard/add-portfolio.php` | High
-6 | File | `/forum/away.php` | High
-7 | File | `/ghost/preview` | High
-8 | File | `/jerry-core/ecma/base/ecma-helpers-conversion.c` | High
-9 | File | `/login` | Low
-10 | File | `/opt/IBM/es/lib/libffq.cryptionjni.so` | High
-11 | File | `/opt/vyatta/share/vyatta-cfg/templates/system/static-host-mapping/host-name/node.def` | High
-12 | File | `/sdm-ws-rest/preconfiguration` | High
-13 | File | `/settings` | Medium
-14 | File | `/uapi/doc` | Medium
-15 | File | `/uncpath/` | Medium
-16 | File | `/updownload/t.report` | High
-17 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
-18 | File | `/woocommerce-stock-manager/trunk/admin/views/import-export.php` | High
-19 | ... | ... | ...
+4 | File | `/cgi/get_param.cgi` | High
+5 | File | `/common/download_agent_installer.php` | High
+6 | File | `/common/run_cross_report.php` | High
+7 | File | `/connectors/index.php` | High
+8 | File | `/dashboard/add-portfolio.php` | High
+9 | File | `/EXCU_SHELL` | Medium
+10 | File | `/forum/away.php` | High
+11 | File | `/ghost/preview` | High
+12 | File | `/goform/addressNat` | High
+13 | File | `/goform/NatStaticSetting` | High
+14 | File | `/jerry-core/ecma/base/ecma-helpers-conversion.c` | High
+15 | File | `/login` | Low
+16 | File | `/opt/IBM/es/lib/libffq.cryptionjni.so` | High
+17 | File | `/opt/vyatta/share/vyatta-cfg/templates/system/static-host-mapping/host-name/node.def` | High
+18 | File | `/php-sms/admin/?page=services/manage_service` | High
+19 | File | `/sdm-ws-rest/preconfiguration` | High
+20 | File | `/settings` | Medium
+21 | File | `/uapi/doc` | Medium
+22 | File | `/uncpath/` | Medium
+23 | File | `/updownload/t.report` | High
+24 | ... | ... | ...
 
-There are 155 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 197 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://any.run/cybersecurity-blog/deobfuscating-guloader/
 * https://asec.ahnlab.com/en/36042/
 * https://asec.ahnlab.com/en/36294/
 * https://asec.ahnlab.com/en/36785/

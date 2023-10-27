@@ -343,14 +343,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-35, CWE-36 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-35, CWE-36 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -361,61 +361,60 @@ ID | Type | Indicator | Confidence
 1 | File | `//WEB-INF` | Medium
 2 | File | `/about.php` | Medium
 3 | File | `/admin.php/update/getFile.html` | High
-4 | File | `/admin/` | Low
-5 | File | `/admin/cashadvance_row.php` | High
-6 | File | `/admin/maintenance/view_designation.php` | High
-7 | File | `/admin/read.php?mudi=getSignal` | High
-8 | File | `/admin/sys_sql_query.php` | High
-9 | File | `/admin/userprofile.php` | High
-10 | File | `/Application/Admin/Controller/ConfigController.class.php` | High
-11 | File | `/APR/login.php` | High
-12 | File | `/APR/signup.php` | High
+4 | File | `/admin/maintenance/view_designation.php` | High
+5 | File | `/admin/read.php?mudi=getSignal` | High
+6 | File | `/admin/save.php` | High
+7 | File | `/admin/sys_sql_query.php` | High
+8 | File | `/api/baskets/{name}` | High
+9 | File | `/api/download` | High
+10 | File | `/api/v1/alerts` | High
+11 | File | `/api/v1/terminal/sessions/?limit=1` | High
+12 | File | `/Application/Admin/Controller/ConfigController.class.php` | High
 13 | File | `/bin/boa` | Medium
-14 | File | `/cgi-bin/wapopen` | High
-15 | File | `/cgi-bin/wlogin.cgi` | High
-16 | File | `/cimom` | Low
-17 | File | `/company/store` | High
-18 | File | `/Controller/Ajaxfileupload.ashx` | High
-19 | File | `/E-mobile/App/System/File/downfile.php` | High
-20 | File | `/Electron/download` | High
-21 | File | `/feeds/post/publish` | High
-22 | File | `/forum/away.php` | High
-23 | File | `/h/` | Low
-24 | File | `/inc/jquery/uploadify/uploadify.php` | High
-25 | File | `/index.php?app=main&func=passport&action=login` | High
-26 | File | `/index.php?page=category_list` | High
-27 | File | `/jobinfo/` | Medium
-28 | File | `/mims/login.php` | High
-29 | File | `/Moosikay/order.php` | High
-30 | File | `/opac/Actions.php?a=login` | High
-31 | File | `/PreviewHandler.ashx` | High
-32 | File | `/proxy` | Low
-33 | File | `/public/launchNewWindow.jsp` | High
-34 | File | `/recipe-result` | High
-35 | File | `/reservation/add_message.php` | High
-36 | File | `/reviewer/system/system/admins/manage/users/user-update.php` | High
-37 | File | `/send_order.cgi?parameter=access_detect` | High
-38 | File | `/Service/ImageStationDataService.asmx` | High
-39 | File | `/student/bookdetails.php` | High
-40 | File | `/text/pdf/PdfReader.java` | High
-41 | File | `/textpattern/index.php` | High
-42 | File | `/tmp` | Low
-43 | File | `/uploads/exam_question/` | High
-44 | File | `/user/ticket/create` | High
-45 | File | `/user/updatePwd` | High
-46 | File | `/var/lib/docker/<remapping>` | High
-47 | File | `/wp-admin/admin-ajax.php` | High
-48 | File | `a-forms.php` | Medium
-49 | File | `account/signup.php` | High
-50 | File | `activenews_view.asp` | High
-51 | File | `adclick.php` | Medium
-52 | File | `addentry.php` | Medium
-53 | File | `addressbook/backends/ldap/e-book-backend-ldap.c` | High
-54 | File | `admin.a6mambocredits.php` | High
-55 | File | `admin.cropcanvas.php` | High
-56 | ... | ... | ...
+14 | File | `/bitrix/admin/ldap_server_edit.php` | High
+15 | File | `/category.php` | High
+16 | File | `/categorypage.php` | High
+17 | File | `/cgi-bin/luci/api/wireless` | High
+18 | File | `/cgi-bin/vitogate.cgi` | High
+19 | File | `/cgi-bin/wlogin.cgi` | High
+20 | File | `/cimom` | Low
+21 | File | `/company/store` | High
+22 | File | `/Content/Template/root/reverse-shell.aspx` | High
+23 | File | `/Controller/Ajaxfileupload.ashx` | High
+24 | File | `/core/conditions/AbstractWrapper.java` | High
+25 | File | `/E-mobile/App/System/File/downfile.php` | High
+26 | File | `/Electron/download` | High
+27 | File | `/etc/passwd` | Medium
+28 | File | `/fcgi/scrut_fcgi.fcgi` | High
+29 | File | `/feeds/post/publish` | High
+30 | File | `/forum/away.php` | High
+31 | File | `/h/` | Low
+32 | File | `/HNAP1` | Low
+33 | File | `/inc/jquery/uploadify/uploadify.php` | High
+34 | File | `/index.php?app=main&func=passport&action=login` | High
+35 | File | `/index.php?page=category_list` | High
+36 | File | `/jeecg-boot/sys/common/upload` | High
+37 | File | `/jobinfo/` | Medium
+38 | File | `/Moosikay/order.php` | High
+39 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
+40 | File | `/opac/Actions.php?a=login` | High
+41 | File | `/PreviewHandler.ashx` | High
+42 | File | `/proxy` | Low
+43 | File | `/recipe-result` | High
+44 | File | `/register.do` | Medium
+45 | File | `/reservation/add_message.php` | High
+46 | File | `/reviewer/system/system/admins/manage/users/user-update.php` | High
+47 | File | `/RPS2019Service/status.html` | High
+48 | File | `/send_order.cgi?parameter=access_detect` | High
+49 | File | `/Service/ImageStationDataService.asmx` | High
+50 | File | `/sicweb-ajax/tmproot/` | High
+51 | File | `/spip.php` | Medium
+52 | File | `/student/bookdetails.php` | High
+53 | File | `/subsys/net/l2/wifi/wifi_shell.c` | High
+54 | File | `/sysmanage/edit_manageadmin.php` | High
+55 | ... | ... | ...
 
-There are 487 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 480 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

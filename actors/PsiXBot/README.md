@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [RU](https://vuldb.com/?country.ru)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 24 more country items available. Please use our online service to access the data.
+There are 21 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -65,54 +65,59 @@ ID | Type | Indicator | Confidence
 3 | File | `/admin/add-services.php` | High
 4 | File | `/admin/add_user_modal.php` | High
 5 | File | `/admin/admin-profile.php` | High
-6 | File | `/admin/edit-doc.php` | High
-7 | File | `/admin/maintenance/view_designation.php` | High
-8 | File | `/admin/news/news_ok.php` | High
-9 | File | `/admin/service.php` | High
-10 | File | `/admin/sys_sql_query.php` | High
-11 | File | `/ajax.php?action=read_msg` | High
-12 | File | `/api/ping` | Medium
-13 | File | `/api/plugin/uninstall` | High
-14 | File | `/api /v3/auth` | High
-15 | File | `/bcms/admin/?page=user/list` | High
-16 | File | `/bin/boa` | Medium
+6 | File | `/admin/ajax.php?action=confirm_order` | High
+7 | File | `/admin/edit-doc.php` | High
+8 | File | `/admin/maintenance/view_designation.php` | High
+9 | File | `/admin/news/news_ok.php` | High
+10 | File | `/admin/service.php` | High
+11 | File | `/admin/sys_sql_query.php` | High
+12 | File | `/ajax.php?action=read_msg` | High
+13 | File | `/api/ping` | Medium
+14 | File | `/api/plugin/uninstall` | High
+15 | File | `/api /v3/auth` | High
+16 | File | `/bcms/admin/?page=user/list` | High
 17 | File | `/blog` | Low
 18 | File | `/blog-single.php` | High
 19 | File | `/card_scan.php` | High
 20 | File | `/cgi-bin/adm.cgi` | High
 21 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
-22 | File | `/cgi-bin/wlogin.cgi` | High
-23 | File | `/classes/Master.php?f=save_inquiry` | High
-24 | File | `/config/getuser` | High
-25 | File | `/cwc/login` | Medium
-26 | File | `/de/cgi/dfs_guest/` | High
-27 | File | `/debug/pprof` | Medium
-28 | File | `/download` | Medium
-29 | File | `/Duty/AjaxHandle/UpLoadFloodPlanFile.ashx` | High
-30 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
-31 | File | `/etc/gsissh/sshd_config` | High
-32 | File | `/etc/passwd` | Medium
-33 | File | `/etc/puppetlabs/puppetserver/conf.d/ca.conf` | High
-34 | File | `/etc/quagga` | Medium
-35 | File | `/etc/quantum/quantum.conf` | High
-36 | File | `/forms/doLogin` | High
-37 | File | `/forum/away.php` | High
-38 | File | `/goform/SetNetControlList` | High
-39 | File | `/goform/telnet` | High
-40 | File | `/goform/WanParameterSetting` | High
-41 | File | `/h/calendar` | Medium
-42 | File | `/home/cavesConsole` | High
-43 | File | `/hrm/employeeadd.php` | High
-44 | File | `/inc/extensions.php` | High
-45 | File | `/include/makecvs.php` | High
-46 | File | `/jeecg-boot/jmreport/upload` | High
-47 | File | `/js/app.js` | Medium
-48 | File | `/listplace/user/ticket/create` | High
-49 | File | `/load.php` | Medium
-50 | File | `/mgmt/tm/util/bash` | High
-51 | ... | ... | ...
+22 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+23 | File | `/cgi-bin/wlogin.cgi` | High
+24 | File | `/classes/Master.php?f=save_inquiry` | High
+25 | File | `/collection/all` | High
+26 | File | `/config/getuser` | High
+27 | File | `/cwc/login` | Medium
+28 | File | `/de/cgi/dfs_guest/` | High
+29 | File | `/debug/pprof` | Medium
+30 | File | `/download` | Medium
+31 | File | `/Duty/AjaxHandle/UpLoadFloodPlanFile.ashx` | High
+32 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
+33 | File | `/etc/gsissh/sshd_config` | High
+34 | File | `/etc/puppetlabs/puppetserver/conf.d/ca.conf` | High
+35 | File | `/etc/quagga` | Medium
+36 | File | `/etc/quantum/quantum.conf` | High
+37 | File | `/forms/doLogin` | High
+38 | File | `/forum/away.php` | High
+39 | File | `/goform/SetNetControlList` | High
+40 | File | `/goform/telnet` | High
+41 | File | `/goform/WanParameterSetting` | High
+42 | File | `/h/calendar` | Medium
+43 | File | `/home/cavesConsole` | High
+44 | File | `/hrm/employeeadd.php` | High
+45 | File | `/inc/extensions.php` | High
+46 | File | `/include/makecvs.php` | High
+47 | File | `/index.php` | Medium
+48 | File | `/jeecg-boot/jmreport/upload` | High
+49 | File | `/js/app.js` | Medium
+50 | File | `/listplace/user/ticket/create` | High
+51 | File | `/load.php` | Medium
+52 | File | `/mail.php` | Medium
+53 | File | `/mgmt/tm/util/bash` | High
+54 | File | `/modules/profile/index.php` | High
+55 | File | `/modules/tasks/summary.inc.php` | High
+56 | ... | ... | ...
 
-There are 445 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 485 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

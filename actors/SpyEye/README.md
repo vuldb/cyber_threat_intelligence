@@ -71,19 +71,20 @@ ID | Type | Indicator | Confidence
 6 | File | `/spip.php` | Medium
 7 | File | `/Tools/tools_admin.htm` | High
 8 | File | `/uncpath/` | Medium
-9 | File | `addentry.php` | Medium
-10 | File | `adm/krgourl.php` | High
-11 | File | `admin.php` | Medium
-12 | File | `admin/conf_users_edit.php` | High
-13 | File | `admin/index.php` | High
-14 | File | `administers` | Medium
-15 | File | `application\User\Controller\ProfileController.class.php` | High
-16 | File | `banner-edit.php` | High
-17 | File | `btif_hd.cc` | Medium
-18 | File | `catchsegv` | Medium
-19 | ... | ... | ...
+9 | File | `AccountManager.java` | High
+10 | File | `addentry.php` | Medium
+11 | File | `adm/krgourl.php` | High
+12 | File | `admin.php` | Medium
+13 | File | `admin/conf_users_edit.php` | High
+14 | File | `admin/index.php` | High
+15 | File | `administers` | Medium
+16 | File | `application\User\Controller\ProfileController.class.php` | High
+17 | File | `banner-edit.php` | High
+18 | File | `btif_hd.cc` | Medium
+19 | File | `catchsegv` | Medium
+20 | ... | ... | ...
 
-There are 160 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 165 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

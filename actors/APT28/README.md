@@ -10,10 +10,10 @@ The following _campaigns_ are known and can be associated with APT28:
 
 * Carberp
 * CVE-2022-30190
-* Fysbis
+* CVE-2023-38831
 * ...
 
-There are 4 more campaign items available. Please use our online service to access the data.
+There are 5 more campaign items available. Please use our online service to access the data.
 
 ## Countries
 
@@ -24,7 +24,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [US](https://vuldb.com/?country.us)
 * ...
 
-There are 7 more country items available. Please use our online service to access the data.
+There are 14 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -84,7 +84,7 @@ ID | IP address | Hostname | Campaign | Confidence
 50 | [80.255.3.93](https://vuldb.com/?ip.80.255.3.93) | - | - | High
 51 | ... | ... | ... | ...
 
-There are 198 more IOC items available. Please use our online service to access the data.
+There are 201 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -92,10 +92,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Pathname Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -107,68 +107,74 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.travis.yml` | Medium
-2 | File | `/admin/subnets/ripe-query.php` | High
-3 | File | `/apply.cgi` | Medium
-4 | File | `/core/conditions/AbstractWrapper.java` | High
-5 | File | `/dashboard/updatelogo.php` | High
-6 | File | `/debug/pprof` | Medium
-7 | File | `/etc/openshift/server_priv.pem` | High
-8 | File | `/export` | Low
-9 | File | `/file?action=download&file` | High
-10 | File | `/hardware` | Medium
-11 | File | `/index.php` | Medium
-12 | File | `/librarian/bookdetails.php` | High
-13 | File | `/messageboard/view.php` | High
-14 | File | `/mgmt/tm/util/bash` | High
-15 | File | `/mkshop/Men/profile.php` | High
-16 | File | `/modules/projects/vw_files.php` | High
-17 | File | `/monitoring` | Medium
-18 | File | `/MTFWU` | Low
-19 | File | `/Noxen-master/users.php` | High
-20 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-21 | File | `/plugin/LiveChat/getChat.json.php` | High
-22 | File | `/plugins/servlet/audit/resource` | High
-23 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
-24 | File | `/REBOOTSYSTEM` | High
-25 | File | `/replication` | Medium
-26 | File | `/RestAPI` | Medium
-27 | File | `/servlet/webacc` | High
-28 | File | `/textpattern/index.php` | High
-29 | File | `/tmp/zarafa-vacation-*` | High
-30 | File | `/uncpath/` | Medium
-31 | File | `/upload` | Low
-32 | File | `/user/loader.php?api=1` | High
-33 | File | `/usr/bin/at` | Medium
-34 | File | `/var/log/nginx` | High
-35 | File | `/var/run/watchman.pid` | High
-36 | File | `/viewer/krpano.html` | High
-37 | File | `/wp-json/oembed/1.0/embed?url` | High
-38 | File | `/wp-json/wc/v3/webhooks` | High
-39 | File | `20review.asp` | Medium
-40 | File | `account.asp` | Medium
-41 | File | `ActivityManagerService.java` | High
-42 | File | `additem.asp` | Medium
-43 | File | `admin.a6mambocredits.php` | High
-44 | File | `admin.cropcanvas.php` | High
-45 | File | `admin.joomlaradiov5.php` | High
-46 | File | `admin.php` | Medium
-47 | File | `admin.remository.php` | High
-48 | File | `admin/addons/archive/archive.php` | High
-49 | File | `adminAvatars.php` | High
-50 | File | `AdxDSrv.exe` | Medium
-51 | ... | ... | ...
+1 | File | `/Admin/add-student.php` | High
+2 | File | `/admin/maintenance/view_designation.php` | High
+3 | File | `/admin/subnets/ripe-query.php` | High
+4 | File | `/api/v1/attack` | High
+5 | File | `/apply.cgi` | Medium
+6 | File | `/carbon/mediation_secure_vault/properties/ajaxprocessor.jsp` | High
+7 | File | `/cgi-bin/touchlist_sync.cgi` | High
+8 | File | `/classes/Master.php` | High
+9 | File | `/core/conditions/AbstractWrapper.java` | High
+10 | File | `/ctpms/admin/applications/update_status.php` | High
+11 | File | `/ctpms/classes/Master.php?f=delete_img` | High
+12 | File | `/dashboard/updatelogo.php` | High
+13 | File | `/debug/pprof` | Medium
+14 | File | `/etc/openshift/server_priv.pem` | High
+15 | File | `/export` | Low
+16 | File | `/forum/away.php` | High
+17 | File | `/goform/P2pListFilter` | High
+18 | File | `/goform/setSysAdm` | High
+19 | File | `/hardware` | Medium
+20 | File | `/hrm/controller/employee.php` | High
+21 | File | `/index.php` | Medium
+22 | File | `/kelas/data` | Medium
+23 | File | `/librarian/bookdetails.php` | High
+24 | File | `/login.php` | Medium
+25 | File | `/login/index.php` | High
+26 | File | `/messageboard/view.php` | High
+27 | File | `/mgmt/tm/util/bash` | High
+28 | File | `/mkshop/Men/profile.php` | High
+29 | File | `/modules/projects/vw_files.php` | High
+30 | File | `/MTFWU` | Low
+31 | File | `/mygym/admin/login.php` | High
+32 | File | `/Noxen-master/users.php` | High
+33 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+34 | File | `/plugin/LiveChat/getChat.json.php` | High
+35 | File | `/product/savenewproduct.php?flag=1` | High
+36 | File | `/release-x64/otfccdump` | High
+37 | File | `/servlet/webacc` | High
+38 | File | `/setNTP.cgi` | Medium
+39 | File | `/setting/setDeviceName` | High
+40 | File | `/SysManage/AddUpdateRole.aspx` | High
+41 | File | `/textpattern/index.php` | High
+42 | File | `/tmp/zarafa-vacation-*` | High
+43 | File | `/uncpath/` | Medium
+44 | File | `/upload` | Low
+45 | File | `/user/loader.php?api=1` | High
+46 | File | `/usr/bin/at` | Medium
+47 | File | `/var/log/nginx` | High
+48 | File | `/var/run/chrony` | High
+49 | File | `/var/run/watchman.pid` | High
+50 | File | `/view-property.php` | High
+51 | File | `/viewer/krpano.html` | High
+52 | File | `/wp-json/oembed/1.0/embed?url` | High
+53 | File | `/xpdf/GfxState.cc` | High
+54 | File | `20review.asp` | Medium
+55 | ... | ... | ...
 
-There are 439 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 479 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://blog.google/threat-analysis-group/government-backed-actors-exploiting-winrar-vulnerability/
 * https://blog.google/threat-analysis-group/ukraine-remains-russias-biggest-cyber-focus-in-2023/
 * https://blog.malwarebytes.com/threat-intelligence/2022/06/russias-apt28-uses-fear-of-nuclear-war-to-spread-follina-docs-in-ukraine/
 * https://blog.sekoia.io/apt28-leverages-multiple-phishing-techniques-to-target-ukrainian-civil-society/
 * https://cert.gov.ua/article/40102
+* https://cert.gov.ua/article/5702579
 * https://community.blueliv.com/#!/s/5f6b482482df413eb5350d3b
 * https://documents.trendmicro.com/assets/wp/wp-two-years-of-pawn-storm.pdf
 * https://github.com/blackorbird/APT_REPORT/blob/master/APT28/IOC/2019-04-05-ioc-mark.txt

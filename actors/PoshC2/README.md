@@ -9,7 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with PoshC2:
 
 * [US](https://vuldb.com/?country.us)
+* [ES](https://vuldb.com/?country.es)
 * [RU](https://vuldb.com/?country.ru)
+* ...
+
+There are 2 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -17,12 +21,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [35.202.253.45](https://vuldb.com/?ip.35.202.253.45) | 45.253.202.35.bc.googleusercontent.com | - | Medium
-2 | [46.243.186.112](https://vuldb.com/?ip.46.243.186.112) | - | - | High
-3 | [95.213.145.101](https://vuldb.com/?ip.95.213.145.101) | - | - | High
+1 | [18.134.14.164](https://vuldb.com/?ip.18.134.14.164) | ec2-18-134-14-164.eu-west-2.compute.amazonaws.com | - | Medium
+2 | [35.202.253.45](https://vuldb.com/?ip.35.202.253.45) | 45.253.202.35.bc.googleusercontent.com | - | Medium
+3 | [46.243.186.112](https://vuldb.com/?ip.46.243.186.112) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 2 more IOC items available. Please use our online service to access the data.
+There are 7 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -30,9 +34,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79 | Cross Site Scripting | High
-2 | T1505 | CWE-89 | SQL Injection | High
-3 | T1592 | CWE-200 | Configuration | High
+1 | T1006 | CWE-22, CWE-23 | Pathname Traversal | High
+2 | T1059 | CWE-94 | Cross Site Scripting | High
+3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+4 | ... | ... | ... | ...
+
+There are 5 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -40,17 +47,29 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/thruk/#cgi-bin/extinfo.cgi?type=2` | High
-2 | File | `cat.asp` | Low
-3 | File | `category.cfm` | Medium
-4 | ... | ... | ...
+1 | File | `/admin/config/uploadicon.php` | High
+2 | File | `/admin/del_feedback.php` | High
+3 | File | `/cms/category/list` | High
+4 | File | `/inquiries/view_inquiry.php` | High
+5 | File | `/product/savenewproduct.php?flag=1` | High
+6 | File | `/search` | Low
+7 | File | `/sysmanage/updatelib.php` | High
+8 | File | `/thruk/#cgi-bin/extinfo.cgi?type=2` | High
+9 | File | `booking.php` | Medium
+10 | File | `browse-category.php` | High
+11 | File | `cat.asp` | Low
+12 | ... | ... | ...
 
-There are 7 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 92 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://search.censys.io/hosts/18.134.14.164
+* https://search.censys.io/hosts/88.210.9.139
+* https://search.censys.io/hosts/185.234.216.64
+* https://search.censys.io/search?resource=hosts&sort=RELEVANCE&per_page=25&virtual_hosts=EXCLUDE&q=services.software.product%3A+poshc2+and+not+labels%3A+tarpit
 * https://twitter.com/1ZRR4H/status/1582068501036273665
 * https://twitter.com/TheDFIRReport/status/1407322479664762890
 * https://www.lac.co.jp/lacwatch/people/20190213_001770.html

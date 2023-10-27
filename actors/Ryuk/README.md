@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 14 more country items available. Please use our online service to access the data.
+There are 15 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -56,14 +56,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -75,50 +75,49 @@ ID | Type | Indicator | Confidence
 2 | File | `//proc/kcore` | Medium
 3 | File | `/act/ActDao.xml` | High
 4 | File | `/admin.php/Admin/adminadd.html` | High
-5 | File | `/Admin/add-student.php` | High
-6 | File | `/admin/settings/save.php` | High
-7 | File | `/admin/userprofile.php` | High
-8 | File | `/ajax.php?action=read_msg` | High
-9 | File | `/api/baskets/{name}` | High
-10 | File | `/api/gen/clients/{language}` | High
-11 | File | `/apply.cgi` | Medium
-12 | File | `/bin/httpd` | Medium
-13 | File | `/cgi-bin/wapopen` | High
-14 | File | `/cgi-bin/wlogin.cgi` | High
-15 | File | `/classes/Master.php?f=delete_appointment` | High
-16 | File | `/College/admin/teacher.php` | High
-17 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
-18 | File | `/ctcprotocol/Protocol` | High
-19 | File | `/dcim/rack-roles/` | High
-20 | File | `/ebics-server/ebics.aspx` | High
-21 | File | `/forum/away.php` | High
-22 | File | `/goform/addUserName` | High
-23 | File | `/goform/aspForm` | High
-24 | File | `/goform/delAd` | High
+5 | File | `/admin/about-us.php` | High
+6 | File | `/Admin/add-student.php` | High
+7 | File | `/admin/settings/save.php` | High
+8 | File | `/admin/userprofile.php` | High
+9 | File | `/ajax.php?action=read_msg` | High
+10 | File | `/api/baskets/{name}` | High
+11 | File | `/api/gen/clients/{language}` | High
+12 | File | `/apply.cgi` | Medium
+13 | File | `/cgi-bin/wlogin.cgi` | High
+14 | File | `/classes/Master.php?f=delete_appointment` | High
+15 | File | `/College/admin/teacher.php` | High
+16 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
+17 | File | `/ctcprotocol/Protocol` | High
+18 | File | `/dcim/rack-roles/` | High
+19 | File | `/ebics-server/ebics.aspx` | High
+20 | File | `/forum/away.php` | High
+21 | File | `/goform/addUserName` | High
+22 | File | `/goform/aspForm` | High
+23 | File | `/goform/delAd` | High
+24 | File | `/goform/net\_Web\_get_value` | High
 25 | File | `/goform/wifiSSIDset` | High
 26 | File | `/gpac/src/bifs/unquantize.c` | High
-27 | File | `/HNAP1` | Low
-28 | File | `/HNAP1/SetClientInfo` | High
-29 | File | `/inc/topBarNav.php` | High
-30 | File | `/index.asp` | Medium
-31 | File | `/index.php` | Medium
-32 | File | `/index.php?app=main&func=passport&action=login` | High
-33 | File | `/Items/*/RemoteImages/Download` | High
-34 | File | `/jfinal_cms/system/role/list` | High
+27 | File | `/GponForm/usb_restore_Form?script/` | High
+28 | File | `/group1/uploa` | High
+29 | File | `/HNAP1` | Low
+30 | File | `/HNAP1/SetClientInfo` | High
+31 | File | `/inc/topBarNav.php` | High
+32 | File | `/index.asp` | Medium
+33 | File | `/index.php` | Medium
+34 | File | `/index.php?app=main&func=passport&action=login` | High
 35 | File | `/kelas/data` | Medium
-36 | File | `/members/view_member.php` | High
-37 | File | `/menu.html` | Medium
+36 | File | `/menu.html` | Medium
+37 | File | `/mhds/clinic/view_details.php` | High
 38 | File | `/modules/profile/index.php` | High
 39 | File | `/Moosikay/order.php` | High
 40 | File | `/out.php` | Medium
 41 | File | `/php-sms/admin/quotes/manage_remark.php` | High
 42 | File | `/php_action/fetchSelectedUser.php` | High
-43 | File | `/resources//../` | High
-44 | File | `/secure/QueryComponent!Default.jspa` | High
-45 | File | `/squashfs-root/www/HNAP1/control/SetMasterWLanSettings.php` | High
-46 | ... | ... | ...
+43 | File | `/plugin` | Low
+44 | File | `/resources//../` | High
+45 | ... | ... | ...
 
-There are 402 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 392 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

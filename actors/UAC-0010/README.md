@@ -50,23 +50,24 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/etc/keystone/user-project-map.json` | High
-2 | File | `/goform/formLogin` | High
-3 | File | `/html/portal/flash.jsp` | High
-4 | File | `/test/cookie/` | High
-5 | File | `/tmp/speedtest_urls.xml` | High
-6 | File | `/ui/login` | Medium
-7 | File | `/web/google_analytics.php` | High
-8 | File | `/wordpress/wp-admin/admin.php?page=weblib-circulation-desk&orderby=title&order=DESC` | High
-9 | File | `/wp-admin/options-general.php` | High
-10 | File | `addentry.php` | Medium
-11 | File | `add_comment.php` | High
-12 | File | `admin.php` | Medium
-13 | File | `admin/conf_users_edit.php` | High
-14 | File | `api/sms_check.php` | High
-15 | ... | ... | ...
+1 | File | `/api/database` | High
+2 | File | `/etc/keystone/user-project-map.json` | High
+3 | File | `/forum/away.php` | High
+4 | File | `/goform/formLogin` | High
+5 | File | `/html/portal/flash.jsp` | High
+6 | File | `/test/cookie/` | High
+7 | File | `/tmp/speedtest_urls.xml` | High
+8 | File | `/ui/login` | Medium
+9 | File | `/web/google_analytics.php` | High
+10 | File | `/wordpress/wp-admin/admin.php?page=weblib-circulation-desk&orderby=title&order=DESC` | High
+11 | File | `/wp-admin/options-general.php` | High
+12 | File | `adclick.php` | Medium
+13 | File | `addentry.php` | Medium
+14 | File | `add_comment.php` | High
+15 | File | `admin.php` | Medium
+16 | ... | ... | ...
 
-There are 123 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 126 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

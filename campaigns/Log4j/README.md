@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Log4j:
 
-* [VN](https://vuldb.com/?country.vn)
 * [US](https://vuldb.com/?country.us)
-* [CN](https://vuldb.com/?country.cn)
+* [VN](https://vuldb.com/?country.vn)
+* [JP](https://vuldb.com/?country.jp)
 * ...
 
-There are 21 more country items available. Please use our online service to access the data.
+There are 19 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -4860,14 +4860,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-35, CWE-36, CWE-37 | Pathname Traversal | High
-2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Pathname Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -4875,47 +4875,42 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `$HOME/.terminfo` | High
-2 | File | `/academy/tutor/filter` | High
-3 | File | `/admin/article/article-edit-run.php` | High
-4 | File | `/api/baskets/{name}` | High
-5 | File | `/api/download` | High
-6 | File | `/api/download/updateFile` | High
-7 | File | `/api/es/admin/v3/security/user/1` | High
-8 | File | `/api/installation/setThumbnailRc` | High
-9 | File | `/api/thumbnail` | High
-10 | File | `/api/upload` | Medium
-11 | File | `/api/v1/terminal/sessions/?limit=1` | High
-12 | File | `/app/sys1.php` | High
-13 | File | `/authenticationendpoint/login.do` | High
-14 | File | `/bin/login` | Medium
-15 | File | `/bin/mini_upnpd` | High
-16 | File | `/category.php` | High
-17 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-18 | File | `/cgi-bin/wlogin.cgi` | High
-19 | File | `/collection/all` | High
-20 | File | `/config/getuser` | High
-21 | File | `/ctcprotocol/Protocol` | High
-22 | File | `/debug/pprof` | Medium
-23 | File | `/DXR.axd` | Medium
-24 | File | `/filemanager/ajax_calls.php` | High
-25 | File | `/forum/away.php` | High
-26 | File | `/general/ipanel/menu_code.php?MENU_TYPE=FAV` | High
-27 | File | `/goform/Diagnosis` | High
-28 | File | `/goform/net\_Web\_get_value` | High
-29 | File | `/GponForm/usb_restore_Form?script/` | High
-30 | File | `/group1/uploa` | High
-31 | File | `/h/autoSaveDraft` | High
-32 | File | `/h/search?action` | High
-33 | File | `/home/get_tasks_list` | High
-34 | File | `/hrm/controller/employee.php` | High
-35 | File | `/hrm/employeeview.php` | High
-36 | File | `/importexport.php` | High
-37 | File | `/include/dialog/select_templets_post.php` | High
-38 | File | `/index.php/sysmanage/Login/login_auth/` | High
-39 | ... | ... | ...
+1 | File | `/+CSCOE+/logon.html` | High
+2 | File | `/admin/?page=bike` | High
+3 | File | `/admin/index2.html` | High
+4 | File | `/admin/list_addr_fwresource_ip.php` | High
+5 | File | `/admin/login.php` | High
+6 | File | `/admin/sales/view_details.php` | High
+7 | File | `/admin/user.php` | High
+8 | File | `/api/download` | High
+9 | File | `/api/es/admin/v3/security/user/1` | High
+10 | File | `/api/v1/alerts` | High
+11 | File | `/api/v4/users/ids` | High
+12 | File | `/cgi-bin/` | Medium
+13 | File | `/cgi-bin/login.cgi` | High
+14 | File | `/cgi-bin/wlogin.cgi` | High
+15 | File | `/classes/Users.php` | High
+16 | File | `/course/filterRecords/` | High
+17 | File | `/debug/pprof` | Medium
+18 | File | `/ecommerce/admin/settings/setDiscount.php` | High
+19 | File | `/edit_staff.php` | High
+20 | File | `/etc/init.d/openfire` | High
+21 | File | `/fcgi/scrut_fcgi.fcgi` | High
+22 | File | `/forms/doLogin` | High
+23 | File | `/forum/away.php` | High
+24 | File | `/im/user/` | Medium
+25 | File | `/importexport.php` | High
+26 | File | `/librarian/bookdetails.php` | High
+27 | File | `/log/download.php` | High
+28 | File | `/login.php?do=login` | High
+29 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
+30 | File | `/officescan/console/html/cgi/fcgiOfcDDA.exe` | High
+31 | File | `/php-opos/index.php` | High
+32 | File | `/preview.php` | Medium
+33 | File | `/protocol/iscgwtunnel/uploadiscgwrouteconf.php` | High
+34 | ... | ... | ...
 
-There are 335 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 290 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

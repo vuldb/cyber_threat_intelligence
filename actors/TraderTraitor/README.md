@@ -40,7 +40,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059 | CWE-94 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -48,29 +48,34 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin.php/update/getFile.html` | High
-2 | File | `/admin/countrymanagement.php` | High
-3 | File | `/admin/newsletter1.php` | High
-4 | File | `/admin/payment.php` | High
-5 | File | `/admin/reg.php` | High
-6 | File | `/doc/packages` | High
-7 | File | `/forum/away.php` | High
-8 | File | `/getcfg.php` | Medium
-9 | File | `/hrm/employeeview.php` | High
-10 | File | `/login` | Low
-11 | File | `/mkshop/Men/profile.php` | High
-12 | File | `/newsDia.php` | Medium
-13 | File | `/product_list.php` | High
-14 | File | `/reviewer/system/system/admins/manage/users/user-update.php` | High
-15 | File | `/rom-0` | Low
-16 | File | `/scas/admin/` | Medium
-17 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-18 | File | `/tpts/manage_user.php` | High
-19 | File | `/var/log/nginx` | High
-20 | File | `/web/entry/en/address/adrsSetUserWizard.cgi` | High
-21 | ... | ... | ...
+1 | File | `/?r=recruit/resume/edit&op=status` | High
+2 | File | `/admin.php/update/getFile.html` | High
+3 | File | `/admin/about-us.php` | High
+4 | File | `/admin/countrymanagement.php` | High
+5 | File | `/admin/del_category.php` | High
+6 | File | `/admin/del_service.php` | High
+7 | File | `/admin/edit-accepted-appointment.php` | High
+8 | File | `/admin/edit-services.php` | High
+9 | File | `/admin/edit_category.php` | High
+10 | File | `/admin/forgot-password.php` | High
+11 | File | `/admin/index.php` | High
+12 | File | `/admin/newsletter1.php` | High
+13 | File | `/admin/payment.php` | High
+14 | File | `/admin/reg.php` | High
+15 | File | `/admin/search-appointment.php` | High
+16 | File | `/collection/all` | High
+17 | File | `/doc/packages` | High
+18 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+19 | File | `/forum/away.php` | High
+20 | File | `/getcfg.php` | Medium
+21 | File | `/hrm/employeeview.php` | High
+22 | File | `/log/decodmail.php` | High
+23 | File | `/login` | Low
+24 | File | `/mkshop/Men/profile.php` | High
+25 | File | `/newsDia.php` | Medium
+26 | ... | ... | ...
 
-There are 173 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 217 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 6 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -39,7 +39,7 @@ ID | Technique | Weakness | Description | Confidence
 6 | T1068 | CWE-250, CWE-264, CWE-266, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 7 | ... | ... | ... | ...
 
-There are 24 more TTP items available. Please use our online service to access the data.
+There are 23 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -62,27 +62,27 @@ ID | Type | Indicator | Confidence
 13 | File | `/auparse/auparse.c` | High
 14 | File | `/back/index.php/user/User/?1` | High
 15 | File | `/backups/` | Medium
-16 | File | `/bfd/pef.c` | Medium
-17 | File | `/cgi-bin/logs.ha` | High
-18 | File | `/claire_blake` | High
-19 | File | `/classes/Master.php?f=delete_service` | High
-20 | File | `/common/info.cgi` | High
-21 | File | `/core/table/query` | High
-22 | File | `/damicms-master/admin.php?s=/Article/doedit` | High
-23 | File | `/feedback/post/` | High
-24 | File | `/gaia-job-admin/user/add` | High
-25 | File | `/goform/dir_setWanWifi` | High
-26 | File | `/goform/login` | High
-27 | File | `/goform/SetInternetLanInfo` | High
-28 | File | `/goform/setportList` | High
-29 | File | `/goform/SetPptpServerCfg` | High
-30 | File | `/goform/WifiBasicSet` | High
-31 | File | `/group/apply` | Medium
-32 | File | `/hdf5/src/H5Fint.c` | High
-33 | File | `/includes/login.php` | High
-34 | File | `/index.cfm/_api/asset/image/` | High
-35 | File | `/insurance/editClient.php` | High
-36 | File | `/linkedcontent/editfolder.php` | High
+16 | File | `/cgi-bin/logs.ha` | High
+17 | File | `/claire_blake` | High
+18 | File | `/classes/Master.php?f=delete_service` | High
+19 | File | `/common/info.cgi` | High
+20 | File | `/core/table/query` | High
+21 | File | `/damicms-master/admin.php?s=/Article/doedit` | High
+22 | File | `/feedback/post/` | High
+23 | File | `/gaia-job-admin/user/add` | High
+24 | File | `/goform/dir_setWanWifi` | High
+25 | File | `/goform/login` | High
+26 | File | `/goform/SetInternetLanInfo` | High
+27 | File | `/goform/setportList` | High
+28 | File | `/goform/SetPptpServerCfg` | High
+29 | File | `/goform/WifiBasicSet` | High
+30 | File | `/group/apply` | Medium
+31 | File | `/hdf5/src/H5Fint.c` | High
+32 | File | `/includes/login.php` | High
+33 | File | `/index.cfm/_api/asset/image/` | High
+34 | File | `/insurance/editClient.php` | High
+35 | File | `/linkedcontent/editfolder.php` | High
+36 | File | `/manage/network-basic.php` | High
 37 | File | `/master/core/PostHandler.php` | High
 38 | ... | ... | ...
 

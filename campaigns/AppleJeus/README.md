@@ -53,7 +53,7 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-25, CWE-29, CWE-36 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94 | Cross Site Scripting | High
+3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | T1068 | CWE-250, CWE-264, CWE-266, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 6 | ... | ... | ... | ...
@@ -90,31 +90,24 @@ ID | Type | Indicator | Confidence
 22 | File | `/hss/admin/?page=products/view_product` | High
 23 | File | `/importexport.php` | High
 24 | File | `/index.php?app=main&func=passport&action=login` | High
-25 | File | `/multi-vendor-shopping-script/product-list.php` | High
-26 | File | `/net-banking/customer_transactions.php` | High
-27 | File | `/obs/book.php` | High
-28 | File | `/ossn/administrator/com_installer` | High
-29 | File | `/owa/auth/logon.aspx` | High
-30 | File | `/pms/update_user.php?user_id=1` | High
-31 | File | `/preview.php` | Medium
-32 | File | `/requests.php` | High
-33 | File | `/secure/ViewCollectors` | High
-34 | File | `/spip.php` | Medium
-35 | File | `/sqlite3_aflpp/shell.c` | High
-36 | File | `/squashfs-root/etc_ro/custom.conf` | High
-37 | File | `/SVFE2/pages/feegroups/service_group.jsf` | High
-38 | File | `/sys/user/querySysUser?username=admin` | High
-39 | File | `/uncpath/` | Medium
-40 | File | `/user/upload/upload` | High
-41 | File | `/usr/local/www/csrf/csrf-magic.php` | High
-42 | File | `/vendor` | Low
-43 | File | `AccessibilityManagerService.java` | High
-44 | File | `accountrecoveryendpoint/recoverpassword.do` | High
-45 | File | `adclick.php` | Medium
-46 | File | `add_contestant.php` | High
-47 | ... | ... | ...
+25 | File | `/mgmt/` | Low
+26 | File | `/multi-vendor-shopping-script/product-list.php` | High
+27 | File | `/net-banking/customer_transactions.php` | High
+28 | File | `/obs/book.php` | High
+29 | File | `/ossn/administrator/com_installer` | High
+30 | File | `/owa/auth/logon.aspx` | High
+31 | File | `/pms/update_user.php?user_id=1` | High
+32 | File | `/preview.php` | Medium
+33 | File | `/requests.php` | High
+34 | File | `/secure/ViewCollectors` | High
+35 | File | `/server-status` | High
+36 | File | `/spip.php` | Medium
+37 | File | `/sqlite3_aflpp/shell.c` | High
+38 | File | `/squashfs-root/etc_ro/custom.conf` | High
+39 | File | `/SVFE2/pages/feegroups/service_group.jsf` | High
+40 | ... | ... | ...
 
-There are 403 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 345 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
-* [CN](https://vuldb.com/?country.cn)
+* [CA](https://vuldb.com/?country.ca)
 * ...
 
-There are 14 more country items available. Please use our online service to access the data.
+There are 13 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -105,15 +105,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+1 | T1006 | CWE-22, CWE-23 | Pathname Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | T1068 | CWE-264, CWE-269, CWE-270, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
-7 | ... | ... | ... | ...
+6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -121,49 +120,47 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/reminders/manage_reminder.php` | High
-2 | File | `/card_scan.php` | High
+1 | File | `/academy/tutor/filter` | High
+2 | File | `/admin/reminders/manage_reminder.php` | High
 3 | File | `/CCMAdmin/serverlist.asp` | High
 4 | File | `/cgi-bin/wlogin.cgi` | High
 5 | File | `/cgi/get_param.cgi` | High
-6 | File | `/classes/Master.php?f=delete_message` | High
-7 | File | `/csms/admin/inquiries/view_details.php` | High
-8 | File | `/cstecgi.cgi` | Medium
-9 | File | `/cwc/login` | Medium
-10 | File | `/etc/quagga` | Medium
-11 | File | `/forms/doLogin` | High
-12 | File | `/forum/away.php` | High
-13 | File | `/h/calendar` | Medium
-14 | File | `/hrm/employeeview.php` | High
-15 | File | `/include/chart_generator.php` | High
-16 | File | `/index.php` | Medium
-17 | File | `/lan.asp` | Medium
-18 | File | `/librarian/bookdetails.php` | High
-19 | File | `/members/view_member.php` | High
-20 | File | `/messageboard/view.php` | High
-21 | File | `/nova/bin/detnet` | High
-22 | File | `/out.php` | Medium
-23 | File | `/rom-0` | Low
-24 | File | `/ServletAPI/accounts/login` | High
-25 | File | `/SVFE2/pages/feegroups/country_group.jsf` | High
-26 | File | `/textpattern/index.php` | High
-27 | File | `/trx_addons/v2/get/sc_layout` | High
-28 | File | `/upfile.cgi` | Medium
-29 | File | `/wordpress/wp-admin/admin.php` | High
-30 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-31 | File | `/wp-json` | Medium
-32 | File | `account_footer.php` | High
-33 | File | `adclick.php` | Medium
-34 | File | `add_edit_cat.asp` | High
-35 | File | `add_edit_user.asp` | High
-36 | File | `adm.cgi` | Low
-37 | File | `admin.cropcanvas.php` | High
-38 | File | `admin/editusertag.php` | High
-39 | File | `admin/edit_category.php` | High
-40 | File | `admin/index.php` | High
-41 | ... | ... | ...
+6 | File | `/csms/admin/inquiries/view_details.php` | High
+7 | File | `/cstecgi.cgi` | Medium
+8 | File | `/etc/quagga` | Medium
+9 | File | `/forms/doLogin` | High
+10 | File | `/forum/away.php` | High
+11 | File | `/h/calendar` | Medium
+12 | File | `/hrm/employeeview.php` | High
+13 | File | `/include/chart_generator.php` | High
+14 | File | `/install/index.php` | High
+15 | File | `/lan.asp` | Medium
+16 | File | `/librarian/bookdetails.php` | High
+17 | File | `/messageboard/view.php` | High
+18 | File | `/mhds/clinic/view_details.php` | High
+19 | File | `/nova/bin/detnet` | High
+20 | File | `/out.php` | Medium
+21 | File | `/rom-0` | Low
+22 | File | `/ServletAPI/accounts/login` | High
+23 | File | `/SVFE2/pages/feegroups/country_group.jsf` | High
+24 | File | `/textpattern/index.php` | High
+25 | File | `/upfile.cgi` | Medium
+26 | File | `/wordpress/wp-admin/admin.php` | High
+27 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+28 | File | `account_footer.php` | High
+29 | File | `adclick.php` | Medium
+30 | File | `add_edit_cat.asp` | High
+31 | File | `add_edit_user.asp` | High
+32 | File | `adm.cgi` | Low
+33 | File | `admin.cropcanvas.php` | High
+34 | File | `admin/editusertag.php` | High
+35 | File | `admin/edit_category.php` | High
+36 | File | `admin/index.php` | High
+37 | File | `adminAttachments.php` | High
+38 | File | `adminBanned.php` | High
+39 | ... | ... | ...
 
-There are 353 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 331 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

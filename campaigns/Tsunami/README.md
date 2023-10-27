@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Tsunami:
 
 * [VN](https://vuldb.com/?country.vn)
-* [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 2 more country items available. Please use our online service to access the data.
+There are 1 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -51,14 +51,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-29, CWE-36 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-29 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-264, CWE-269, CWE-274, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+5 | T1068 | CWE-250, CWE-264, CWE-266, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -66,42 +66,50 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.htaccess` | Medium
-2 | File | `//proc/kcore` | Medium
-3 | File | `/admin/contacts/organizations/edit/2` | High
-4 | File | `/ajax.php?action=read_msg` | High
-5 | File | `/api/baskets/{name}` | High
-6 | File | `/api/upload.php` | High
-7 | File | `/api?path=profile` | High
-8 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
-9 | File | `/authenticationendpoint/login.do` | High
-10 | File | `/bin/login` | Medium
-11 | File | `/cgi-bin/luci` | High
-12 | File | `/cgi-bin/wlogin.cgi` | High
-13 | File | `/classes/Master.php?f=save_brand` | High
-14 | File | `/contact/store` | High
-15 | File | `/debug/pprof` | Medium
-16 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
-17 | File | `/ecommerce/support_ticket` | High
-18 | File | `/forum/away.php` | High
-19 | File | `/FuguHub/cmsdocs/` | High
-20 | File | `/graphql` | Medium
-21 | File | `/h/autoSaveDraft` | High
-22 | File | `/HNAP1` | Low
-23 | File | `/index.php` | Medium
-24 | File | `/Log/Query?appid=0B736354-9473-4D66-B9C0-15CAC149EB05&tabid=tab_0B73635494734D66B9C015CAC149EB05` | High
-25 | File | `/mc` | Low
-26 | File | `/php-inventory-management-system/product.php` | High
-27 | File | `/plain` | Low
-28 | File | `/registration.php` | High
-29 | File | `/release-x64/otfccdump+0x61731f` | High
-30 | File | `/search.php` | Medium
-31 | File | `/settings/account` | High
-32 | File | `/sitecore/shell/Invoke.aspx` | High
-33 | File | `/src/chatbotapp/chatWindow.java` | High
-34 | ... | ... | ...
+1 | File | `/academy/home/courses` | High
+2 | File | `/admin/adclass.php` | High
+3 | File | `/admin/admin-profile.php` | High
+4 | File | `/admin/sales/view_details.php` | High
+5 | File | `/admin/students/view_details.php` | High
+6 | File | `/ajax-files/followBoard.php` | High
+7 | File | `/ajax.php?action=read_msg` | High
+8 | File | `/api/cron/settings/setJob/` | High
+9 | File | `/api/v1/snapshots` | High
+10 | File | `/audit/log/log_management.php` | High
+11 | File | `/auth/callback` | High
+12 | File | `/authenticationendpoint/login.do` | High
+13 | File | `/cgi-bin/mainfunction.cgi` | High
+14 | File | `/cgi-bin/wlogin.cgi` | High
+15 | File | `/cgi.cgi` | Medium
+16 | File | `/classes/Users.php` | High
+17 | File | `/collection/all` | High
+18 | File | `/Content/Template/root/reverse-shell.aspx` | High
+19 | File | `/ctcprotocol/Protocol` | High
+20 | File | `/dottie.js` | Medium
+21 | File | `/DXR.axd` | Medium
+22 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+23 | File | `/env` | Low
+24 | File | `/files/` | Low
+25 | File | `/forms/doLogin` | High
+26 | File | `/forum/away.php` | High
+27 | File | `/goform/setportList` | High
+28 | File | `/h/autoSaveDraft` | High
+29 | File | `/index.php` | Medium
+30 | File | `/index.php?p=admin/actions/users/send-password-reset-email` | High
+31 | File | `/index.php?page=member` | High
+32 | File | `/jurusanmatkul/data` | High
+33 | File | `/librarian/bookdetails.php` | High
+34 | File | `/log/decodmail.php` | High
+35 | File | `/log/webmailattach.php` | High
+36 | File | `/login.php?do=login` | High
+37 | File | `/php-opos/index.php` | High
+38 | File | `/public/login.htm` | High
+39 | File | `/QueryView.php` | High
+40 | File | `/recreate.php` | High
+41 | File | `/romfile.cfg` | Medium
+42 | ... | ... | ...
 
-There are 294 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 367 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

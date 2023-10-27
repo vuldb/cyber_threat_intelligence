@@ -168,7 +168,7 @@ ID | Type | Indicator | Confidence
 58 | File | `/kelas/data` | Medium
 59 | ... | ... | ...
 
-There are 512 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 516 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

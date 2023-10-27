@@ -46,13 +46,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+1 | T1006 | CWE-22, CWE-23 | Pathname Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -64,48 +64,46 @@ ID | Type | Indicator | Confidence
 2 | File | `.plan` | Low
 3 | File | `.tin` | Low
 4 | File | `/admin/read.php?mudi=announContent` | High
-5 | File | `/cgi-bin/editBookmark` | High
-6 | File | `/cgi-bin/luci;stok=/locale` | High
-7 | File | `/classes/Login.php` | High
-8 | File | `/configs/application.ini` | High
-9 | File | `/goform/setPicListItem` | High
-10 | File | `/home/cavesConsole` | High
-11 | File | `/home/kickPlayer` | High
-12 | File | `/home/masterConsole` | High
-13 | File | `/home/sendBroadcast` | High
-14 | File | `/rapi/read_url` | High
-15 | File | `/services/Card/findUser` | High
-16 | File | `/spacecom/login.php` | High
-17 | File | `/sys/dict/queryTableData` | High
-18 | File | `/Taier/API/tenant/listTenant` | High
-19 | File | `/ucenter/active.php` | High
-20 | File | `/uncpath/` | Medium
-21 | File | `/user/updatePwd` | High
-22 | File | `/xampp/guestbook-en.pl` | High
-23 | File | `/zm/index.php` | High
-24 | File | `123flashchat.php` | High
-25 | File | `abook_database.php` | High
-26 | File | `action.php` | Medium
-27 | File | `admin.php` | Medium
-28 | File | `admin/admin_process.php` | High
-29 | File | `admin/profile_settings_net.html` | High
-30 | File | `admin/vqmods.app/vqmods.inc.php` | High
-31 | File | `af.cgi/alienform.cgi` | High
-32 | File | `afd.sys` | Low
-33 | File | `akocomment.php` | High
-34 | File | `app/routes/research.js` | High
-35 | File | `article.php` | Medium
-36 | File | `aviso.php` | Medium
-37 | File | `awredir.pl` | Medium
-38 | File | `bitmap/bdfread.c` | High
-39 | File | `blocks.php` | Medium
-40 | File | `blog.cgi` | Medium
-41 | File | `bluewrench-video-widget.php` | High
-42 | File | `browse.php` | Medium
-43 | File | `carsdetail.asp` | High
-44 | ... | ... | ...
+5 | File | `/ajaxGetFileByPath.php` | High
+6 | File | `/app/sys1.php` | High
+7 | File | `/cgi-bin/editBookmark` | High
+8 | File | `/cgi-bin/luci;stok=/locale` | High
+9 | File | `/classes/Login.php` | High
+10 | File | `/configs/application.ini` | High
+11 | File | `/home/cavesConsole` | High
+12 | File | `/home/httpd/cgi-bin/cgi.cgi` | High
+13 | File | `/home/kickPlayer` | High
+14 | File | `/home/masterConsole` | High
+15 | File | `/home/sendBroadcast` | High
+16 | File | `/rapi/read_url` | High
+17 | File | `/services/Card/findUser` | High
+18 | File | `/spacecom/login.php` | High
+19 | File | `/student/bookdetails.php` | High
+20 | File | `/sys/dict/queryTableData` | High
+21 | File | `/Taier/API/tenant/listTenant` | High
+22 | File | `/ucenter/active.php` | High
+23 | File | `/uncpath/` | Medium
+24 | File | `/user/updatePwd` | High
+25 | File | `/userRpm/PingIframeRpm` | High
+26 | File | `/vm/admin/doctors.php` | High
+27 | File | `/xampp/guestbook-en.pl` | High
+28 | File | `/zm/index.php` | High
+29 | File | `123flashchat.php` | High
+30 | File | `abook_database.php` | High
+31 | File | `action.php` | Medium
+32 | File | `admin.php` | Medium
+33 | File | `admin/admin_process.php` | High
+34 | File | `admin/user.php` | High
+35 | File | `admin/vqmods.app/vqmods.inc.php` | High
+36 | File | `afd.sys` | Low
+37 | File | `akocomment.php` | High
+38 | File | `app/routes/research.js` | High
+39 | File | `article.php` | Medium
+40 | File | `aviso.php` | Medium
+41 | File | `awredir.pl` | Medium
+42 | ... | ... | ...
 
-There are 382 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 359 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

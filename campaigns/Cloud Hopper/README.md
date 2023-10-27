@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 9 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -63,10 +63,10 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-22, CWE-23 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 16 more TTP items available. Please use our online service to access the data.
+There are 15 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -92,30 +92,28 @@ ID | Type | Indicator | Confidence
 16 | File | `/messageboard/view.php` | High
 17 | File | `/mhds/clinic/view_details.php` | High
 18 | File | `/mkshop/Men/profile.php` | High
-19 | File | `/modules/profile/index.php` | High
-20 | File | `/Noxen-master/users.php` | High
-21 | File | `/one_church/userregister.php` | High
-22 | File | `/out.php` | Medium
-23 | File | `/owa/auth/logon.aspx` | High
-24 | File | `/public/plugins/` | High
-25 | File | `/SAP_Information_System/controllers/add_admin.php` | High
-26 | File | `/SASWebReportStudio/logonAndRender.do` | High
-27 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-28 | File | `/secure/admin/ViewInstrumentation.jspa` | High
-29 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
-30 | File | `/SVFE2/pages/feegroups/country_group.jsf` | High
-31 | File | `/textpattern/index.php` | High
-32 | File | `/upfile.cgi` | Medium
-33 | File | `/v2/quantum/save-data-upload-big-file` | High
-34 | File | `/wordpress/wp-admin/admin.php` | High
-35 | File | `4.edu.php` | Medium
-36 | File | `account_footer.php` | High
-37 | File | `adclick.php` | Medium
-38 | File | `add_edit_cat.asp` | High
-39 | File | `add_edit_user.asp` | High
-40 | ... | ... | ...
+19 | File | `/Noxen-master/users.php` | High
+20 | File | `/one_church/userregister.php` | High
+21 | File | `/out.php` | Medium
+22 | File | `/owa/auth/logon.aspx` | High
+23 | File | `/public/plugins/` | High
+24 | File | `/SAP_Information_System/controllers/add_admin.php` | High
+25 | File | `/SASWebReportStudio/logonAndRender.do` | High
+26 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+27 | File | `/secure/admin/ViewInstrumentation.jspa` | High
+28 | File | `/SVFE2/pages/feegroups/country_group.jsf` | High
+29 | File | `/textpattern/index.php` | High
+30 | File | `/upfile.cgi` | Medium
+31 | File | `/v2/quantum/save-data-upload-big-file` | High
+32 | File | `/wordpress/wp-admin/admin.php` | High
+33 | File | `4.edu.php` | Medium
+34 | File | `account_footer.php` | High
+35 | File | `adclick.php` | Medium
+36 | File | `add_edit_cat.asp` | High
+37 | File | `add_edit_user.asp` | High
+38 | ... | ... | ...
 
-There are 341 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 322 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

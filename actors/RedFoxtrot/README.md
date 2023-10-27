@@ -8,8 +8,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with RedFoxtrot:
 
-* [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
@@ -41,7 +41,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059 | CWE-94 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 16 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -53,26 +53,26 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin/sys_sql_query.php` | High
 3 | File | `/app/Http/Controllers/Admin/NEditorController.php` | High
 4 | File | `/cgi-bin/luci/api/wireless` | High
-5 | File | `/forum/away.php` | High
-6 | File | `/getcfg.php` | Medium
-7 | File | `/group1/uploa` | High
-8 | File | `/inc/lists/csvexport.php` | High
-9 | File | `/server-status` | High
-10 | File | `/sgmi/` | Low
-11 | File | `/system/user/resetPwd` | High
-12 | File | `/tos/index.php?editor/fileGet` | High
-13 | File | `/uncpath/` | Medium
-14 | File | `/user/updatePwd` | High
-15 | File | `/var/log/nginx` | High
-16 | File | `addentry.php` | Medium
-17 | File | `admin-ajax.php?action=get_wdtable order[0][dir]` | High
-18 | File | `admin/plib/api-rpc/Agent.php` | High
-19 | File | `applications/core/modules/front/system/content.php` | High
-20 | File | `auth-gss2.c` | Medium
-21 | File | `bcbadmSettings.jsp` | High
+5 | File | `/cgi-bin/vitogate.cgi` | High
+6 | File | `/forum/away.php` | High
+7 | File | `/getcfg.php` | Medium
+8 | File | `/group1/uploa` | High
+9 | File | `/importexport.php` | High
+10 | File | `/inc/lists/csvexport.php` | High
+11 | File | `/server-status` | High
+12 | File | `/sgmi/` | Low
+13 | File | `/system/user/resetPwd` | High
+14 | File | `/tos/index.php?editor/fileGet` | High
+15 | File | `/uncpath/` | Medium
+16 | File | `/user/updatePwd` | High
+17 | File | `/var/log/nginx` | High
+18 | File | `addentry.php` | Medium
+19 | File | `admin-ajax.php?action=get_wdtable order[0][dir]` | High
+20 | File | `admin/plib/api-rpc/Agent.php` | High
+21 | File | `applications/core/modules/front/system/content.php` | High
 22 | ... | ... | ...
 
-There are 180 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 185 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

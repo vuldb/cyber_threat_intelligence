@@ -165,10 +165,10 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | T1068 | CWE-250, CWE-264, CWE-266, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+6 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 7 | ... | ... | ... | ...
 
-There are 23 more TTP items available. Please use our online service to access the data.
+There are 25 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -190,37 +190,34 @@ ID | Type | Indicator | Confidence
 12 | File | `/authenticationendpoint/login.do` | High
 13 | File | `/billing/home.php` | High
 14 | File | `/cgi-bin/mainfunction.cgi` | High
-15 | File | `/cgi-bin/wapopen` | High
-16 | File | `/cgi-bin/wlogin.cgi` | High
-17 | File | `/cgi.cgi` | Medium
+15 | File | `/cgi-bin/wlogin.cgi` | High
+16 | File | `/cgi.cgi` | Medium
+17 | File | `/classes/Users.php` | High
 18 | File | `/collection/all` | High
 19 | File | `/Content/Template/root/reverse-shell.aspx` | High
 20 | File | `/ctcprotocol/Protocol` | High
 21 | File | `/dashboard/add-blog.php` | High
-22 | File | `/debug/pprof` | Medium
-23 | File | `/dottie.js` | Medium
-24 | File | `/DXR.axd` | Medium
-25 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-26 | File | `/env` | Low
-27 | File | `/files/` | Low
+22 | File | `/dottie.js` | Medium
+23 | File | `/DXR.axd` | Medium
+24 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+25 | File | `/env` | Low
+26 | File | `/files/` | Low
+27 | File | `/forms/doLogin` | High
 28 | File | `/forum/away.php` | High
-29 | File | `/getcfg.php` | Medium
-30 | File | `/group1/uploa` | High
-31 | File | `/h/autoSaveDraft` | High
-32 | File | `/home/cavesConsole` | High
-33 | File | `/importexport.php` | High
-34 | File | `/index.php` | Medium
-35 | File | `/index.php/sysmanage/Login/login_auth/` | High
-36 | File | `/index.php?p=admin/actions/users/send-password-reset-email` | High
-37 | File | `/index.php?page=member` | High
-38 | File | `/items/search` | High
-39 | File | `/jurusanmatkul/data` | High
-40 | File | `/log/decodmail.php` | High
-41 | File | `/log/webmailattach.php` | High
-42 | File | `/login.php?do=login` | High
-43 | ... | ... | ...
+29 | File | `/group1/uploa` | High
+30 | File | `/h/autoSaveDraft` | High
+31 | File | `/home/cavesConsole` | High
+32 | File | `/importexport.php` | High
+33 | File | `/index.php` | Medium
+34 | File | `/index.php/sysmanage/Login/login_auth/` | High
+35 | File | `/index.php?p=admin/actions/users/send-password-reset-email` | High
+36 | File | `/items/search` | High
+37 | File | `/jurusanmatkul/data` | High
+38 | File | `/librarian/bookdetails.php` | High
+39 | File | `/log/decodmail.php` | High
+40 | ... | ... | ...
 
-There are 374 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 340 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

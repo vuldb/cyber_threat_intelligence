@@ -45,12 +45,12 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-25, CWE-29, CWE-36 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94 | Cross Site Scripting | High
+3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+5 | T1068 | CWE-250, CWE-264, CWE-266, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -58,55 +58,49 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/admin/upload/upload` | High
-3 | File | `/api/baskets/{name}` | High
-4 | File | `/api/gen/clients/{language}` | High
-5 | File | `/apply.cgi` | Medium
-6 | File | `/bin/login` | Medium
-7 | File | `/bin/mini_upnpd` | High
-8 | File | `/cgi-bin/wlogin.cgi` | High
-9 | File | `/config/myfield/test.php` | High
-10 | File | `/debug/pprof` | Medium
-11 | File | `/ecshop/admin/template.php` | High
-12 | File | `/file/upload/1` | High
-13 | File | `/forum/away.php` | High
-14 | File | `/forum/PostPrivateMessage` | High
-15 | File | `/goform/set_LimitClient_cfg` | High
-16 | File | `/h/autoSaveDraft` | High
-17 | File | `/h/search?action` | High
-18 | File | `/home/www/cgi-bin/login.cgi` | High
-19 | File | `/hss/admin/?page=products/view_product` | High
-20 | File | `/importexport.php` | High
-21 | File | `/index.php?app=main&func=passport&action=login` | High
-22 | File | `/multi-vendor-shopping-script/product-list.php` | High
-23 | File | `/net-banking/customer_transactions.php` | High
-24 | File | `/obs/book.php` | High
-25 | File | `/ossn/administrator/com_installer` | High
-26 | File | `/owa/auth/logon.aspx` | High
-27 | File | `/pms/update_user.php?user_id=1` | High
-28 | File | `/preview.php` | Medium
-29 | File | `/requests.php` | High
-30 | File | `/scripts/unlock_tasks.php` | High
-31 | File | `/secure/ViewCollectors` | High
-32 | File | `/spip.php` | Medium
-33 | File | `/sqlite3_aflpp/shell.c` | High
-34 | File | `/squashfs-root/etc_ro/custom.conf` | High
-35 | File | `/SVFE2/pages/feegroups/service_group.jsf` | High
-36 | File | `/sys/user/querySysUser?username=admin` | High
-37 | File | `/system/user/modules/mod_users/controller.php` | High
-38 | File | `/uncpath/` | Medium
-39 | File | `/user/upload/upload` | High
-40 | File | `/usr/local/www/csrf/csrf-magic.php` | High
-41 | File | `/vendor` | Low
-42 | File | `AccessibilityManagerService.java` | High
-43 | File | `accountrecoveryendpoint/recoverpassword.do` | High
-44 | File | `adclick.php` | Medium
-45 | File | `add_contestant.php` | High
-46 | File | `admin.php` | Medium
-47 | ... | ... | ...
+1 | File | `$HOME/.terminfo` | High
+2 | File | `/+CSCOE+/logon.html` | High
+3 | File | `/admin/upload/upload` | High
+4 | File | `/api/baskets/{name}` | High
+5 | File | `/api/gen/clients/{language}` | High
+6 | File | `/apply.cgi` | Medium
+7 | File | `/bin/login` | Medium
+8 | File | `/bin/mini_upnpd` | High
+9 | File | `/cgi-bin/wlogin.cgi` | High
+10 | File | `/config/myfield/test.php` | High
+11 | File | `/debug/pprof` | Medium
+12 | File | `/ecshop/admin/template.php` | High
+13 | File | `/file/upload/1` | High
+14 | File | `/forum/away.php` | High
+15 | File | `/forum/PostPrivateMessage` | High
+16 | File | `/goform/set_LimitClient_cfg` | High
+17 | File | `/h/autoSaveDraft` | High
+18 | File | `/h/search?action` | High
+19 | File | `/home/www/cgi-bin/login.cgi` | High
+20 | File | `/hss/admin/?page=products/view_product` | High
+21 | File | `/importexport.php` | High
+22 | File | `/index.php?app=main&func=passport&action=login` | High
+23 | File | `/mgmt/` | Low
+24 | File | `/multi-vendor-shopping-script/product-list.php` | High
+25 | File | `/net-banking/customer_transactions.php` | High
+26 | File | `/obs/book.php` | High
+27 | File | `/ossn/administrator/com_installer` | High
+28 | File | `/owa/auth/logon.aspx` | High
+29 | File | `/pms/update_user.php?user_id=1` | High
+30 | File | `/preview.php` | Medium
+31 | File | `/requests.php` | High
+32 | File | `/scripts/unlock_tasks.php` | High
+33 | File | `/secure/ViewCollectors` | High
+34 | File | `/spip.php` | Medium
+35 | File | `/sqlite3_aflpp/shell.c` | High
+36 | File | `/squashfs-root/etc_ro/custom.conf` | High
+37 | File | `/SVFE2/pages/feegroups/service_group.jsf` | High
+38 | File | `/sys/user/querySysUser?username=admin` | High
+39 | File | `/system/user/modules/mod_users/controller.php` | High
+40 | File | `/uncpath/` | Medium
+41 | ... | ... | ...
 
-There are 404 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 352 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

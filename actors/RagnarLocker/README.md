@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [DE](https://vuldb.com/?country.de)
-* [CN](https://vuldb.com/?country.cn)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
 There are 10 more country items available. Please use our online service to access the data.
@@ -43,7 +43,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -54,31 +54,42 @@ ID | Type | Indicator | Confidence
 1 | File | `/+CSCOE+/logon.html` | High
 2 | File | `/adminlogin.asp` | High
 3 | File | `/category_view.php` | High
-4 | File | `/forum/away.php` | High
-5 | File | `/goform/delAd` | High
-6 | File | `/HNAP1` | Low
-7 | File | `/mc-admin/post.php?state=delete&delete` | High
-8 | File | `/mkshop/Men/profile.php` | High
-9 | File | `/php-jms/review_se_result.php` | High
-10 | File | `/public/login.htm` | High
-11 | File | `/spip.php` | Medium
-12 | File | `/student/bookdetails.php` | High
-13 | File | `/user/profile` | High
-14 | File | `/usr/ucb/mail` | High
-15 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-16 | File | `adclick.php` | Medium
-17 | File | `addmember.php` | High
-18 | File | `addtocart.asp` | High
-19 | File | `addtomylist.asp` | High
-20 | File | `admin.x-shop.php` | High
-21 | File | `admin/auth.php` | High
-22 | File | `admin/import/class-import-settings.php` | High
-23 | File | `admin/sqlpatch.php` | High
-24 | File | `admincp/auth/checklogin.php` | High
-25 | File | `adminlogin.asp` | High
-26 | ... | ... | ...
+4 | File | `/dipam/athlete-profile.php` | High
+5 | File | `/forum/away.php` | High
+6 | File | `/goform/delAd` | High
+7 | File | `/HNAP1` | Low
+8 | File | `/mc-admin/post.php?state=delete&delete` | High
+9 | File | `/mkshop/Men/profile.php` | High
+10 | File | `/php-jms/review_se_result.php` | High
+11 | File | `/public/login.htm` | High
+12 | File | `/Side.php` | Medium
+13 | File | `/spip.php` | Medium
+14 | File | `/student/bookdetails.php` | High
+15 | File | `/textpattern/index.php` | High
+16 | File | `/user/profile` | High
+17 | File | `/usr/ucb/mail` | High
+18 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+19 | File | `account.asp` | Medium
+20 | File | `adclick.php` | Medium
+21 | File | `addmember.php` | High
+22 | File | `addtocart.asp` | High
+23 | File | `addtomylist.asp` | High
+24 | File | `admin.php` | Medium
+25 | File | `admin.x-shop.php` | High
+26 | File | `admin/auth.php` | High
+27 | File | `admin/import/class-import-settings.php` | High
+28 | File | `admin/sqlpatch.php` | High
+29 | File | `adminAttachments.php` | High
+30 | File | `adminBoards.php` | High
+31 | File | `admincp/auth/checklogin.php` | High
+32 | File | `adminlogin.asp` | High
+33 | File | `adminPolls.php` | High
+34 | File | `admin_feature.php` | High
+35 | File | `aj.html` | Low
+36 | File | `ajax/autocompletion.php` | High
+37 | ... | ... | ...
 
-There are 220 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 314 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

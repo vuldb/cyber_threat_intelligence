@@ -8,8 +8,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Space Pirates:
 
-* [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
+* [US](https://vuldb.com/?country.us)
 * [JP](https://vuldb.com/?country.jp)
 * ...
 
@@ -34,12 +34,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-94 | Cross Site Scripting | High
-4 | ... | ... | ... | ...
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 11 more TTP items available. Please use our online service to access the data.
+There are 14 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -51,13 +52,14 @@ ID | Type | Indicator | Confidence
 2 | File | `/GetCSSashx/?CP=%2fwebconfig` | High
 3 | File | `/includes/rrdtool.inc.php` | High
 4 | File | `/login.php` | Medium
-5 | File | `/rom` | Low
-6 | File | `/srv/www/htdocs` | High
-7 | File | `admin/killsource` | High
-8 | File | `api_poller.php` | High
-9 | ... | ... | ...
+5 | File | `/robots.txt` | Medium
+6 | File | `/rom` | Low
+7 | File | `/srv/www/htdocs` | High
+8 | File | `aa/../../uploads/blog/201811/attach_#.jpg` | High
+9 | File | `admin/killsource` | High
+10 | ... | ... | ...
 
-There are 65 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 72 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

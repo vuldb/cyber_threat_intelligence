@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 13 more country items available. Please use our online service to access the data.
+There are 14 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -39,11 +39,11 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94 | Cross Site Scripting | High
+3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 15 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -51,27 +51,30 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/api/RecordingList/DownloadRecord?file=` | High
-2 | File | `/apply.cgi` | Medium
-3 | File | `/cgi-bin/luci/api/switch` | High
-4 | File | `/cgi-bin/sm_changepassword.cgi` | High
-5 | File | `/classes/Master.php?f=delete_inquiry` | High
-6 | File | `/contact.php` | Medium
-7 | File | `/export` | Low
-8 | File | `/guest_auth/cfg/upLoadCfg.php` | High
-9 | File | `/include/chart_generator.php` | High
-10 | File | `/index.php` | Medium
-11 | File | `/items/search` | High
-12 | File | `/jsonrpc` | Medium
-13 | File | `/load.php` | Medium
-14 | File | `/mims/login.php` | High
-15 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-16 | File | `/rapi/read_url` | High
-17 | File | `/SetTriggerWPS/PIN` | High
-18 | File | `/users` | Low
-19 | ... | ... | ...
+1 | File | `/api/baskets/{name}` | High
+2 | File | `/api/RecordingList/DownloadRecord?file=` | High
+3 | File | `/apply.cgi` | Medium
+4 | File | `/cgi-bin/luci/api/switch` | High
+5 | File | `/cgi-bin/sm_changepassword.cgi` | High
+6 | File | `/classes/Master.php?f=delete_inquiry` | High
+7 | File | `/contact.php` | Medium
+8 | File | `/export` | Low
+9 | File | `/forum/away.php` | High
+10 | File | `/guest_auth/cfg/upLoadCfg.php` | High
+11 | File | `/include/chart_generator.php` | High
+12 | File | `/index.php` | Medium
+13 | File | `/items/search` | High
+14 | File | `/jsonrpc` | Medium
+15 | File | `/load.php` | Medium
+16 | File | `/mims/login.php` | High
+17 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+18 | File | `/pages/animals.php` | High
+19 | File | `/rapi/read_url` | High
+20 | File | `/scripts/cpan_config` | High
+21 | File | `/scripts/unlock_tasks.php` | High
+22 | ... | ... | ...
 
-There are 154 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 180 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 19 more country items available. Please use our online service to access the data.
+There are 18 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -62,7 +62,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-28 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-28 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
@@ -80,54 +80,58 @@ ID | Type | Indicator | Confidence
 1 | File | `//WEB-INF` | Medium
 2 | File | `/about.php` | Medium
 3 | File | `/admin.php/update/getFile.html` | High
-4 | File | `/admin/cashadvance_row.php` | High
-5 | File | `/admin/configurations/userInfo` | High
-6 | File | `/admin/departments/view_department.php` | High
-7 | File | `/admin/index.php` | High
-8 | File | `/admin/maintenance/view_designation.php` | High
+4 | File | `/admin/configurations/userInfo` | High
+5 | File | `/admin/departments/view_department.php` | High
+6 | File | `/admin/index.php` | High
+7 | File | `/admin/maintenance/view_designation.php` | High
+8 | File | `/admin/save.php` | High
 9 | File | `/admin/sys_sql_query.php` | High
-10 | File | `/admin/userprofile.php` | High
-11 | File | `/api/baskets/{name}` | High
-12 | File | `/api/download` | High
+10 | File | `/api/baskets/{name}` | High
+11 | File | `/api/download` | High
+12 | File | `/api/v1/terminal/sessions/?limit=1` | High
 13 | File | `/bitrix/admin/ldap_server_edit.php` | High
 14 | File | `/category.php` | High
-15 | File | `/cgi-bin/luci/api/wireless` | High
-16 | File | `/cgi-bin/webviewer_login_page` | High
-17 | File | `/company/store` | High
-18 | File | `/Content/Template/root/reverse-shell.aspx` | High
-19 | File | `/Controller/Ajaxfileupload.ashx` | High
-20 | File | `/core/conditions/AbstractWrapper.java` | High
-21 | File | `/DXR.axd` | Medium
-22 | File | `/etc/passwd` | Medium
-23 | File | `/feeds/post/publish` | High
-24 | File | `/forum/away.php` | High
-25 | File | `/h/` | Low
-26 | File | `/htdocs/web/getcfg.php` | High
-27 | File | `/inc/jquery/uploadify/uploadify.php` | High
-28 | File | `/index.php?app=main&func=passport&action=login` | High
-29 | File | `/index.php?page=category_list` | High
-30 | File | `/jeecg-boot/sys/common/upload` | High
-31 | File | `/jobinfo/` | Medium
-32 | File | `/load.php` | Medium
-33 | File | `/Moosikay/order.php` | High
-34 | File | `/opac/Actions.php?a=login` | High
-35 | File | `/PreviewHandler.ashx` | High
-36 | File | `/REBOOTSYSTEM` | High
-37 | File | `/recipe-result` | High
-38 | File | `/register.do` | Medium
-39 | File | `/reservation/add_message.php` | High
-40 | File | `/Service/ImageStationDataService.asmx` | High
-41 | File | `/spip.php` | Medium
-42 | File | `/src/chatbotapp/chatWindow.java` | High
-43 | File | `/student/bookdetails.php` | High
-44 | File | `/SystemManage/User/GetGridJson?_search=false&nd=1680855479750&rows=50&page=1&sidx=F_CreatorTime+desc&sord=asc` | High
-45 | File | `/uploads/exam_question/` | High
-46 | File | `/user/ticket/create` | High
-47 | File | `/user/updatePwd` | High
-48 | File | `/UserSelfServiceSettings.jsp` | High
-49 | ... | ... | ...
+15 | File | `/categorypage.php` | High
+16 | File | `/cgi-bin/luci/api/wireless` | High
+17 | File | `/cgi-bin/vitogate.cgi` | High
+18 | File | `/cgi-bin/webviewer_login_page` | High
+19 | File | `/company/store` | High
+20 | File | `/Content/Template/root/reverse-shell.aspx` | High
+21 | File | `/Controller/Ajaxfileupload.ashx` | High
+22 | File | `/core/conditions/AbstractWrapper.java` | High
+23 | File | `/DXR.axd` | Medium
+24 | File | `/etc/passwd` | Medium
+25 | File | `/fcgi/scrut_fcgi.fcgi` | High
+26 | File | `/feeds/post/publish` | High
+27 | File | `/forum/away.php` | High
+28 | File | `/h/` | Low
+29 | File | `/HNAP1` | Low
+30 | File | `/htdocs/web/getcfg.php` | High
+31 | File | `/inc/jquery/uploadify/uploadify.php` | High
+32 | File | `/index.php?app=main&func=passport&action=login` | High
+33 | File | `/index.php?page=category_list` | High
+34 | File | `/jeecg-boot/sys/common/upload` | High
+35 | File | `/jobinfo/` | Medium
+36 | File | `/load.php` | Medium
+37 | File | `/Moosikay/order.php` | High
+38 | File | `/opac/Actions.php?a=login` | High
+39 | File | `/PreviewHandler.ashx` | High
+40 | File | `/REBOOTSYSTEM` | High
+41 | File | `/recipe-result` | High
+42 | File | `/register.do` | Medium
+43 | File | `/reservation/add_message.php` | High
+44 | File | `/RPS2019Service/status.html` | High
+45 | File | `/Service/ImageStationDataService.asmx` | High
+46 | File | `/sicweb-ajax/tmproot/` | High
+47 | File | `/spip.php` | Medium
+48 | File | `/src/chatbotapp/chatWindow.java` | High
+49 | File | `/student/bookdetails.php` | High
+50 | File | `/subsys/net/l2/wifi/wifi_shell.c` | High
+51 | File | `/SystemManage/User/GetGridJson?_search=false&nd=1680855479750&rows=50&page=1&sidx=F_CreatorTime+desc&sord=asc` | High
+52 | File | `/uploads/exam_question/` | High
+53 | ... | ... | ...
 
-There are 425 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 461 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

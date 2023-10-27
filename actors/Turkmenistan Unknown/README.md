@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Turkmenistan Unknown:
 
 * [US](https://vuldb.com/?country.us)
-* [RU](https://vuldb.com/?country.ru)
 * [FR](https://vuldb.com/?country.fr)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
 There are 19 more country items available. Please use our online service to access the data.
@@ -79,10 +79,11 @@ ID | Type | Indicator | Confidence
 26 | File | `admin/adminsignin.html` | High
 27 | File | `admin/movieview.php` | High
 28 | File | `admin/versions.html` | High
-29 | File | `ajax_calls.php` | High
-30 | ... | ... | ...
+29 | File | `agenda.php` | Medium
+30 | File | `ajax_calls.php` | High
+31 | ... | ... | ...
 
-There are 259 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 266 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

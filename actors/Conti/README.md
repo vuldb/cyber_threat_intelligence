@@ -17,10 +17,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [NL](https://vuldb.com/?country.nl)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 18 more country items available. Please use our online service to access the data.
+There are 16 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -511,9 +511,10 @@ ID | IP address | Hostname | Campaign | Confidence
 481 | [6.2.4.2](https://vuldb.com/?ip.6.2.4.2) | - | - | High
 482 | [6.2.4.27](https://vuldb.com/?ip.6.2.4.27) | - | - | High
 483 | [6.2.5.2](https://vuldb.com/?ip.6.2.5.2) | - | - | High
-484 | ... | ... | ... | ...
+484 | [6.2.16.1](https://vuldb.com/?ip.6.2.16.1) | - | - | High
+485 | ... | ... | ... | ...
 
-There are 1930 more IOC items available. Please use our online service to access the data.
+There are 1935 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -537,63 +538,59 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/?ajax-request=jnews` | High
-2 | File | `/?p=products` | Medium
-3 | File | `/?r=recruit/resume/edit&op=status` | High
-4 | File | `/academy/tutor/filter` | High
-5 | File | `/admin.php/accessory/filesdel.html` | High
-6 | File | `/admin/?page=user/list` | High
-7 | File | `/admin/?page=user/manage` | High
-8 | File | `/admin/?page=user/manage_user&id=3` | High
-9 | File | `/admin/about-us.php` | High
-10 | File | `/admin/add-new.php` | High
-11 | File | `/admin/curriculum/view_curriculum.php` | High
-12 | File | `/admin/del_category.php` | High
-13 | File | `/admin/del_service.php` | High
-14 | File | `/admin/departments/view_department.php` | High
-15 | File | `/admin/doctors.php` | High
-16 | File | `/admin/edit-accepted-appointment.php` | High
-17 | File | `/admin/edit-services.php` | High
-18 | File | `/admin/edit_category.php` | High
-19 | File | `/admin/edit_subject.php` | High
-20 | File | `/admin/forgot-password.php` | High
-21 | File | `/admin/index.php` | High
-22 | File | `/admin/login.php` | High
-23 | File | `/admin/products/manage_product.php` | High
-24 | File | `/admin/reg.php` | High
-25 | File | `/admin/search-appointment.php` | High
-26 | File | `/admin/sys_sql_query.php` | High
-27 | File | `/admin/user/manage_user.php` | High
-28 | File | `/alphaware/summary.php` | High
-29 | File | `/api/` | Low
-30 | File | `/api/admin/store/product/list` | High
-31 | File | `/api/baskets/{name}` | High
-32 | File | `/api/stl/actions/search` | High
-33 | File | `/api/v2/cli/commands` | High
-34 | File | `/apply.cgi` | Medium
-35 | File | `/bin/ate` | Medium
-36 | File | `/blog` | Low
-37 | File | `/boat/login.php` | High
-38 | File | `/booking/show_bookings/` | High
-39 | File | `/cgi-bin` | Medium
-40 | File | `/cgi-bin/wlogin.cgi` | High
-41 | File | `/classes/master.php?f=delete_order` | High
-42 | File | `/collection/all` | High
-43 | File | `/Content/Template/root/reverse-shell.aspx` | High
-44 | File | `/csms/?page=contact_us` | High
-45 | File | `/dashboard/add-blog.php` | High
-46 | File | `/debug/pprof` | Medium
-47 | File | `/dipam/athlete-profile.php` | High
-48 | File | `/E-mobile/App/System/File/downfile.php` | High
-49 | File | `/edoc/doctor/patient.php` | High
-50 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-51 | File | `/env` | Low
-52 | File | `/forms/doLogin` | High
-53 | File | `/forum/away.php` | High
-54 | File | `/fusion/portal/action/Link` | High
-55 | ... | ... | ...
+1 | File | `/?p=products` | Medium
+2 | File | `/?r=recruit/resume/edit&op=status` | High
+3 | File | `/academy/tutor/filter` | High
+4 | File | `/admin/?page=user/list` | High
+5 | File | `/admin/?page=user/manage_user&id=3` | High
+6 | File | `/admin/about-us.php` | High
+7 | File | `/admin/curriculum/view_curriculum.php` | High
+8 | File | `/admin/del_category.php` | High
+9 | File | `/admin/del_service.php` | High
+10 | File | `/admin/departments/view_department.php` | High
+11 | File | `/admin/edit-accepted-appointment.php` | High
+12 | File | `/admin/edit-services.php` | High
+13 | File | `/admin/edit_category.php` | High
+14 | File | `/admin/edit_subject.php` | High
+15 | File | `/admin/forgot-password.php` | High
+16 | File | `/admin/index.php` | High
+17 | File | `/admin/login.php` | High
+18 | File | `/admin/products/manage_product.php` | High
+19 | File | `/admin/reg.php` | High
+20 | File | `/admin/search-appointment.php` | High
+21 | File | `/admin/sys_sql_query.php` | High
+22 | File | `/admin/user/manage_user.php` | High
+23 | File | `/api/` | Low
+24 | File | `/api/admin/store/product/list` | High
+25 | File | `/api/baskets/{name}` | High
+26 | File | `/api/stl/actions/search` | High
+27 | File | `/api/v2/cli/commands` | High
+28 | File | `/appliance/users?action=edit` | High
+29 | File | `/apply.cgi` | Medium
+30 | File | `/bin/ate` | Medium
+31 | File | `/blog` | Low
+32 | File | `/booking/show_bookings/` | High
+33 | File | `/cgi-bin` | Medium
+34 | File | `/cgi-bin/wlogin.cgi` | High
+35 | File | `/classes/master.php?f=delete_order` | High
+36 | File | `/collection/all` | High
+37 | File | `/Content/Template/root/reverse-shell.aspx` | High
+38 | File | `/csms/?page=contact_us` | High
+39 | File | `/dashboard/add-blog.php` | High
+40 | File | `/debug/pprof` | Medium
+41 | File | `/dipam/athlete-profile.php` | High
+42 | File | `/E-mobile/App/System/File/downfile.php` | High
+43 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+44 | File | `/env` | Low
+45 | File | `/forms/doLogin` | High
+46 | File | `/forum/away.php` | High
+47 | File | `/fusion/portal/action/Link` | High
+48 | File | `/group1/uploa` | High
+49 | File | `/h/autoSaveDraft` | High
+50 | File | `/importexport.php` | High
+51 | ... | ... | ...
 
-There are 476 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 447 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -601,6 +598,7 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://ddanchev.blogspot.com/2022/02/exposing-conti-ransomware-gang-osint_28.html
 * https://ddanchev.blogspot.com/2022/06/how-to-take-down-conti-ransomware-gang.html
+* https://github.com/pan-unit42/iocs/blob/master/Conti_IOCs.txt
 * https://github.com/sophoslabs/IoCs/blob/master/Ransomware-Conti.csv
 * https://thedfirreport.com/2021/05/12/conti-ransomware/
 * https://thedfirreport.com/2021/09/13/bazarloader-to-conti-ransomware-in-32-hours/

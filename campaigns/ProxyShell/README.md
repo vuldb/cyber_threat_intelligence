@@ -85,16 +85,16 @@ ID | Type | Indicator | Confidence
 25 | File | `/group1/uploa` | High
 26 | File | `/HNAP1` | Low
 27 | File | `/HNAP1/SetClientInfo` | High
-28 | File | `/index_amp.php` | High
-29 | File | `/Items/*/RemoteImages/Download` | High
-30 | File | `/menu.html` | Medium
-31 | File | `/modules/profile/index.php` | High
-32 | File | `/navigate/navigate_download.php` | High
-33 | File | `/ocwbs/admin/?page=user/manage_user` | High
-34 | File | `/ofrs/admin/?page=user/manage_user` | High
-35 | File | `/out.php` | Medium
-36 | File | `/password.html` | High
-37 | File | `/php_action/fetchSelectedUser.php` | High
+28 | File | `/Items/*/RemoteImages/Download` | High
+29 | File | `/menu.html` | Medium
+30 | File | `/modules/profile/index.php` | High
+31 | File | `/navigate/navigate_download.php` | High
+32 | File | `/ocwbs/admin/?page=user/manage_user` | High
+33 | File | `/ofrs/admin/?page=user/manage_user` | High
+34 | File | `/out.php` | Medium
+35 | File | `/password.html` | High
+36 | File | `/php_action/fetchSelectedUser.php` | High
+37 | File | `/plugin` | Low
 38 | File | `/proc/ioports` | High
 39 | File | `/property-list/property_view.php` | High
 40 | File | `/ptms/classes/Users.php` | High
@@ -104,7 +104,7 @@ ID | Type | Indicator | Confidence
 44 | File | `/scripts/cpan_config` | High
 45 | ... | ... | ...
 
-There are 394 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 393 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

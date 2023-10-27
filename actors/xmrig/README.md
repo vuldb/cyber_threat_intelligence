@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
-* [ES](https://vuldb.com/?country.es)
+* [NL](https://vuldb.com/?country.nl)
 * ...
 
-There are 15 more country items available. Please use our online service to access the data.
+There are 14 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -41,7 +41,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -72,28 +72,30 @@ ID | Type | Indicator | Confidence
 21 | File | `/cgi-bin` | Medium
 22 | File | `/cgi-bin/luci/api/wireless` | High
 23 | File | `/cgi-bin/wlogin.cgi` | High
-24 | File | `/context/%2e/WEB-INF/web.xml` | High
-25 | File | `/dashboard/reports/logs/view` | High
-26 | File | `/debian/patches/load_ppp_generic_if_needed` | High
-27 | File | `/debug/pprof` | Medium
-28 | File | `/env` | Low
-29 | File | `/etc/hosts` | Medium
-30 | File | `/forum/away.php` | High
-31 | File | `/goform/setmac` | High
-32 | File | `/goform/wizard_end` | High
-33 | File | `/group1/uploa` | High
-34 | File | `/htdocs/upnpinc/gena.php` | High
-35 | File | `/manage-apartment.php` | High
-36 | File | `/medicines/profile.php` | High
-37 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-38 | File | `/pages/apply_vacancy.php` | High
-39 | File | `/php-sms/admin/?page=user/manage_user` | High
-40 | File | `/proc/<PID>/mem` | High
+24 | File | `/Content/Template/root/reverse-shell.aspx` | High
+25 | File | `/context/%2e/WEB-INF/web.xml` | High
+26 | File | `/dashboard/add-blog.php` | High
+27 | File | `/debian/patches/load_ppp_generic_if_needed` | High
+28 | File | `/debug/pprof` | Medium
+29 | File | `/env` | Low
+30 | File | `/etc/hosts` | Medium
+31 | File | `/forum/away.php` | High
+32 | File | `/goform/setmac` | High
+33 | File | `/goform/wizard_end` | High
+34 | File | `/group1/uploa` | High
+35 | File | `/htdocs/upnpinc/gena.php` | High
+36 | File | `/manage-apartment.php` | High
+37 | File | `/medicines/profile.php` | High
+38 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+39 | File | `/pages/apply_vacancy.php` | High
+40 | File | `/php-sms/admin/?page=user/manage_user` | High
 41 | File | `/proxy` | Low
 42 | File | `/reservation/add_message.php` | High
-43 | ... | ... | ...
+43 | File | `/resources//../` | High
+44 | File | `/spip.php` | Medium
+45 | ... | ... | ...
 
-There are 373 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 385 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

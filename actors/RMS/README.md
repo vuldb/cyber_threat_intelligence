@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [RU](https://vuldb.com/?country.ru)
 * [US](https://vuldb.com/?country.us)
-* [IT](https://vuldb.com/?country.it)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
 There are 16 more country items available. Please use our online service to access the data.
@@ -34,9 +34,10 @@ ID | IP address | Hostname | Campaign | Confidence
 11 | [65.0.5.240](https://vuldb.com/?ip.65.0.5.240) | ec2-65-0-5-240.ap-south-1.compute.amazonaws.com | - | Medium
 12 | [66.23.226.254](https://vuldb.com/?ip.66.23.226.254) | - | - | High
 13 | [66.208.244.253](https://vuldb.com/?ip.66.208.244.253) | sbs.heraldtech.net | - | High
-14 | ... | ... | ... | ...
+14 | [77.161.25.182](https://vuldb.com/?ip.77.161.25.182) | 77-161-25-182.fixed.kpn.net | - | High
+15 | ... | ... | ... | ...
 
-There are 52 more IOC items available. Please use our online service to access the data.
+There are 54 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -59,41 +60,42 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/api/addusers` | High
-2 | File | `/api/baskets/{name}` | High
-3 | File | `/api/v11/users/sessions` | High
-4 | File | `/apply.cgi` | Medium
-5 | File | `/category.php` | High
-6 | File | `/cgi-bin/diagnostics` | High
-7 | File | `/cgi-bin/pass` | High
-8 | File | `/cmf/process/<process_id>/logs` | High
-9 | File | `/config.cgi?webmin` | High
-10 | File | `/connectors/index.php` | High
-11 | File | `/data/wps.setup.json` | High
-12 | File | `/download` | Medium
-13 | File | `/index.php` | Medium
-14 | File | `/mcategory.php` | High
-15 | File | `/movie.php` | Medium
-16 | File | `/multi-vendor-shopping-script/product-list.php` | High
-17 | File | `/news-portal-script/information.php` | High
-18 | File | `/page.php` | Medium
-19 | File | `/public/login.htm` | High
-20 | File | `/public/plugins/` | High
-21 | File | `/real-estate-script/search_property.php` | High
-22 | File | `/recordings/index.php` | High
-23 | File | `/searchJob.php` | High
-24 | File | `/uncpath/` | Medium
-25 | File | `/user/loader.php?api=1` | High
-26 | File | `/var/miniupnpd.conf` | High
-27 | File | `/wp-admin/options-general.php` | High
-28 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-29 | File | `addentry.php` | Medium
-30 | File | `addrtoname.c` | Medium
-31 | File | `add_edit_cat.asp` | High
-32 | File | `admin/languages.php` | High
-33 | ... | ... | ...
+1 | File | `/admin/options` | High
+2 | File | `/api/addusers` | High
+3 | File | `/api/baskets/{name}` | High
+4 | File | `/api/v11/users/sessions` | High
+5 | File | `/apply.cgi` | Medium
+6 | File | `/category.php` | High
+7 | File | `/cgi-bin/diagnostics` | High
+8 | File | `/cgi-bin/pass` | High
+9 | File | `/cmf/process/<process_id>/logs` | High
+10 | File | `/config.cgi?webmin` | High
+11 | File | `/connectors/index.php` | High
+12 | File | `/data/wps.setup.json` | High
+13 | File | `/download` | Medium
+14 | File | `/index.php` | Medium
+15 | File | `/mcategory.php` | High
+16 | File | `/movie.php` | Medium
+17 | File | `/multi-vendor-shopping-script/product-list.php` | High
+18 | File | `/news-portal-script/information.php` | High
+19 | File | `/page.php` | Medium
+20 | File | `/public/login.htm` | High
+21 | File | `/public/plugins/` | High
+22 | File | `/real-estate-script/search_property.php` | High
+23 | File | `/recordings/index.php` | High
+24 | File | `/searchJob.php` | High
+25 | File | `/uncpath/` | Medium
+26 | File | `/user/loader.php?api=1` | High
+27 | File | `/var/miniupnpd.conf` | High
+28 | File | `/wp-admin/options-general.php` | High
+29 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+30 | File | `addentry.php` | Medium
+31 | File | `addrtoname.c` | Medium
+32 | File | `add_edit_cat.asp` | High
+33 | File | `admin/languages.php` | High
+34 | ... | ... | ...
 
-There are 285 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 295 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -128,10 +128,9 @@ ID | Type | Indicator | Confidence
 55 | File | `admin.php` | Medium
 56 | File | `admin.php/comments/batchdel/` | High
 57 | File | `admin/aboutus.php` | High
-58 | File | `admin/adm/test.php` | High
-59 | ... | ... | ...
+58 | ... | ... | ...
 
-There are 519 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 511 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

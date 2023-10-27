@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 9 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -438,7 +438,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -449,40 +449,39 @@ ID | Type | Indicator | Confidence
 1 | File | `$HOME/.terminfo` | High
 2 | File | `/admin/admin-profile.php` | High
 3 | File | `/admin/sales/view_details.php` | High
-4 | File | `/api/cron/settings/setJob/` | High
-5 | File | `/api/v1/snapshots` | High
-6 | File | `/api/v1/terminal/sessions/?limit=1` | High
-7 | File | `/authUserAction!edit.action` | High
-8 | File | `/bin/login` | Medium
-9 | File | `/bin/mini_upnpd` | High
-10 | File | `/cgi-bin/mainfunction.cgi` | High
+4 | File | `/admin/user.php` | High
+5 | File | `/api/cron/settings/setJob/` | High
+6 | File | `/api/v1/snapshots` | High
+7 | File | `/audit/log/log_management.php` | High
+8 | File | `/authUserAction!edit.action` | High
+9 | File | `/cgi-bin/mainfunction.cgi` | High
+10 | File | `/cgi-bin/upload_vpntar` | High
 11 | File | `/cgi-bin/wlogin.cgi` | High
 12 | File | `/cgi/networkDiag.cgi` | High
-13 | File | `/collection/all` | High
-14 | File | `/Content/Template/root/reverse-shell.aspx` | High
-15 | File | `/ctcprotocol/Protocol` | High
-16 | File | `/dashboard/add-blog.php` | High
-17 | File | `/debug/pprof` | Medium
-18 | File | `/dottie.js` | Medium
-19 | File | `/DXR.axd` | Medium
-20 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-21 | File | `/filemanager/ajax_calls.php` | High
-22 | File | `/files/` | Low
-23 | File | `/forum/away.php` | High
-24 | File | `/goform/net\_Web\_get_value` | High
-25 | File | `/GponForm/usb_restore_Form?script/` | High
-26 | File | `/group1/uploa` | High
-27 | File | `/h/autoSaveDraft` | High
-28 | File | `/h/search?action` | High
-29 | File | `/importexport.php` | High
-30 | File | `/index.php` | Medium
-31 | File | `/index.php/sysmanage/Login/login_auth/` | High
-32 | File | `/index.php?p=admin/actions/users/send-password-reset-email` | High
-33 | File | `/jurusanmatkul/data` | High
-34 | File | `/log/webmailattach.php` | High
-35 | ... | ... | ...
+13 | File | `/classes/Users.php` | High
+14 | File | `/dashboard/add-blog.php` | High
+15 | File | `/debug/pprof` | Medium
+16 | File | `/dottie.js` | Medium
+17 | File | `/env` | Low
+18 | File | `/forms/doLogin` | High
+19 | File | `/forum/away.php` | High
+20 | File | `/group1/uploa` | High
+21 | File | `/index.php` | Medium
+22 | File | `/librarian/bookdetails.php` | High
+23 | File | `/log/webmailattach.php` | High
+24 | File | `/mgmt/` | Low
+25 | File | `/php-opos/index.php` | High
+26 | File | `/plugin` | Low
+27 | File | `/preview.php` | Medium
+28 | File | `/protocol/iscgwtunnel/uploadiscgwrouteconf.php` | High
+29 | File | `/public/login.htm` | High
+30 | File | `/recreate.php` | High
+31 | File | `/roomtype-details.php` | High
+32 | File | `/search.php` | Medium
+33 | File | `/secure/QueryComponent!Default.jspa` | High
+34 | ... | ... | ...
 
-There are 303 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 288 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

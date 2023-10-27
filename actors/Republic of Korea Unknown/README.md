@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 16 more country items available. Please use our online service to access the data.
+There are 19 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -1071,14 +1071,15 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-36 | Pathname Traversal | High
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+6 | T1068 | CWE-264, CWE-269, CWE-274, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+7 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -1087,61 +1088,49 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.github/workflows/comment.yml` | High
-2 | File | `//WEB-INF` | Medium
-3 | File | `/about.php` | Medium
-4 | File | `/about/../` | Medium
-5 | File | `/admin.php/update/getFile.html` | High
-6 | File | `/admin.php?c=upload&f=zip&_noCache=0.1683794968` | High
-7 | File | `/admin/cashadvance_row.php` | High
-8 | File | `/admin/maintenance/view_designation.php` | High
-9 | File | `/admin/read.php?mudi=getSignal` | High
-10 | File | `/admin/scheprofile.cgi` | High
-11 | File | `/admin/userprofile.php` | High
-12 | File | `/api/baskets/{name}` | High
-13 | File | `/api/blade-log/api/list` | High
-14 | File | `/api/v1/snapshots` | High
-15 | File | `/Application/Admin/Controller/ConfigController.class.php` | High
-16 | File | `/authUserAction!edit.action` | High
-17 | File | `/bin/boa` | Medium
-18 | File | `/blog` | Low
-19 | File | `/category.php` | High
-20 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
-21 | File | `/cgi-bin/wlogin.cgi` | High
-22 | File | `/cimom` | Low
-23 | File | `/classes/Master.php?f=save_inquiry` | High
-24 | File | `/classes/Master.php?f=save_service` | High
-25 | File | `/debug/pprof` | Medium
-26 | File | `/dev/shm` | Medium
-27 | File | `/download` | Medium
-28 | File | `/feeds/post/publish` | High
-29 | File | `/forum/away.php` | High
-30 | File | `/h/` | Low
-31 | File | `/home/kickPlayer` | High
-32 | File | `/inc/jquery/uploadify/uploadify.php` | High
-33 | File | `/index.php` | Medium
-34 | File | `/index.php/coins/update_marketboxslider` | High
-35 | File | `/index.php/payment/getcoinaddress` | High
-36 | File | `/index.php?app=main&func=passport&action=login` | High
-37 | File | `/index.php?page=category_list` | High
-38 | File | `/index/user/user_edit.html` | High
-39 | File | `/Items/*/RemoteImages/Download` | High
-40 | File | `/jobinfo/` | Medium
-41 | File | `/loginsave.php` | High
-42 | File | `/Moosikay/order.php` | High
-43 | File | `/opac/Actions.php?a=login` | High
-44 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-45 | File | `/password.jsn` | High
-46 | File | `/PreviewHandler.ashx` | High
-47 | File | `/public/admin/profile/update.html` | High
-48 | File | `/public/launchNewWindow.jsp` | High
-49 | File | `/reservation/add_message.php` | High
-50 | File | `/rest/project-templates/1.0/createshared` | High
-51 | File | `/Service/FileHandler.ashx` | High
-52 | File | `/settings/account` | High
-53 | File | `/static/ueditor/php/controller.php` | High
-54 | ... | ... | ...
+2 | File | `/admin/read.php?mudi=getSignal` | High
+3 | File | `/admin/save.php` | High
+4 | File | `/admin/sys_sql_query.php` | High
+5 | File | `/api/baskets/{name}` | High
+6 | File | `/api/download` | High
+7 | File | `/api/runscript` | High
+8 | File | `/api/v1/snapshots` | High
+9 | File | `/api/v1/terminal/sessions/?limit=1` | High
+10 | File | `/bin/boa` | Medium
+11 | File | `/bitrix/admin/ldap_server_edit.php` | High
+12 | File | `/blog` | Low
+13 | File | `/category.php` | High
+14 | File | `/categorypage.php` | High
+15 | File | `/cgi-bin/luci/api/wireless` | High
+16 | File | `/cgi-bin/vitogate.cgi` | High
+17 | File | `/cimom` | Low
+18 | File | `/classes/Master.php?f=save_inquiry` | High
+19 | File | `/classes/Master.php?f=save_service` | High
+20 | File | `/company/store` | High
+21 | File | `/Content/Template/root/reverse-shell.aspx` | High
+22 | File | `/Controller/Ajaxfileupload.ashx` | High
+23 | File | `/core/conditions/AbstractWrapper.java` | High
+24 | File | `/download` | Medium
+25 | File | `/etc/passwd` | Medium
+26 | File | `/fcgi/scrut_fcgi.fcgi` | High
+27 | File | `/forum/away.php` | High
+28 | File | `/h/` | Low
+29 | File | `/HNAP1` | Low
+30 | File | `/home/kickPlayer` | High
+31 | File | `/index.php` | Medium
+32 | File | `/index.php/coins/update_marketboxslider` | High
+33 | File | `/index.php/payment/getcoinaddress` | High
+34 | File | `/iniFile/config.ini` | High
+35 | File | `/jeecg-boot/jmreport/show` | High
+36 | File | `/jeecg-boot/jmreport/upload` | High
+37 | File | `/jeecg-boot/sys/common/upload` | High
+38 | File | `/jobinfo/` | Medium
+39 | File | `/password.jsn` | High
+40 | File | `/public/admin/profile/update.html` | High
+41 | File | `/recipe-result` | High
+42 | ... | ... | ...
 
-There are 467 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 367 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
