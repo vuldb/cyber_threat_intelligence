@@ -48,7 +48,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 15 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -58,47 +58,48 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.htaccess` | Medium
 2 | File | `/.env` | Low
-3 | File | `/admin/api/theme-edit/` | High
-4 | File | `/admin/article/article-edit-run.php` | High
-5 | File | `/admin/attendance_row.php` | High
-6 | File | `/admin/cashadvance_row.php` | High
-7 | File | `/admin/employee_row.php` | High
-8 | File | `/Admin/login.php` | High
-9 | File | `/admin/products/manage_product.php` | High
-10 | File | `/admin/read.php?mudi=announContent` | High
-11 | File | `/admin/user/manage_user.php` | High
-12 | File | `/ajax.php?action=read_msg` | High
-13 | File | `/api/upload` | Medium
-14 | File | `/api/wechat/app_auth` | High
-15 | File | `/changeimage.php` | High
-16 | File | `/classes/Master.php?f=delete_sub_category` | High
-17 | File | `/cms/category/list` | High
-18 | File | `/debug/pprof` | Medium
-19 | File | `/Default/Bd` | Medium
-20 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
-21 | File | `/domain/add` | Medium
-22 | File | `/donor-wall` | Medium
-23 | File | `/ebics-server/ebics.aspx` | High
-24 | File | `/esbus/servlet/GetSQLData` | High
-25 | File | `/film-rating.php` | High
-26 | File | `/forum/away.php` | High
-27 | File | `/goform/formLogin` | High
-28 | File | `/HNAP1` | Low
-29 | File | `/horde/util/go.php` | High
-30 | File | `/index.php?app=main&func=passport&action=login` | High
-31 | File | `/index.php?page=member` | High
-32 | File | `/ishttpd/localweb/java/` | High
-33 | File | `/KK_LS9ReportingPortal/GetData` | High
-34 | File | `/mcategory.php` | High
-35 | File | `/out.php` | Medium
-36 | File | `/p` | Low
-37 | File | `/pages/processlogin.php` | High
-38 | File | `/preview.php` | Medium
-39 | File | `/product/savenewproduct.php?flag=1` | High
-40 | File | `/search` | Low
-41 | ... | ... | ...
+3 | File | `/admin/?page=user/list` | High
+4 | File | `/admin/add-category.php` | High
+5 | File | `/admin/api/theme-edit/` | High
+6 | File | `/admin/article/article-edit-run.php` | High
+7 | File | `/admin/attendance_row.php` | High
+8 | File | `/admin/cashadvance_row.php` | High
+9 | File | `/admin/employee_row.php` | High
+10 | File | `/admin/invoice.php` | High
+11 | File | `/Admin/login.php` | High
+12 | File | `/admin/products/manage_product.php` | High
+13 | File | `/admin/read.php?mudi=announContent` | High
+14 | File | `/admin/sys_sql_query.php` | High
+15 | File | `/admin/upload.php` | High
+16 | File | `/admin/user/manage_user.php` | High
+17 | File | `/ajax.php?action=read_msg` | High
+18 | File | `/api/upload` | Medium
+19 | File | `/api/wechat/app_auth` | High
+20 | File | `/changeimage.php` | High
+21 | File | `/classes/Master.php?f=delete_sub_category` | High
+22 | File | `/cms/category/list` | High
+23 | File | `/debug/pprof` | Medium
+24 | File | `/Default/Bd` | Medium
+25 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
+26 | File | `/domain/add` | Medium
+27 | File | `/donor-wall` | Medium
+28 | File | `/ebics-server/ebics.aspx` | High
+29 | File | `/esbus/servlet/GetSQLData` | High
+30 | File | `/film-rating.php` | High
+31 | File | `/forum/away.php` | High
+32 | File | `/goform/formLogin` | High
+33 | File | `/HNAP1` | Low
+34 | File | `/horde/util/go.php` | High
+35 | File | `/index.php?app=main&func=passport&action=login` | High
+36 | File | `/index.php?page=member` | High
+37 | File | `/ishttpd/localweb/java/` | High
+38 | File | `/KK_LS9ReportingPortal/GetData` | High
+39 | File | `/mcategory.php` | High
+40 | File | `/out.php` | Medium
+41 | File | `/p` | Low
+42 | ... | ... | ...
 
-There are 350 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 360 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

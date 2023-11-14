@@ -29,7 +29,7 @@ ID | IP address | Hostname | Campaign | Confidence
 6 | [19.2.45.3](https://vuldb.com/?ip.19.2.45.3) | - | - | High
 7 | ... | ... | ... | ...
 
-There are 23 more IOC items available. Please use our online service to access the data.
+There are 26 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -86,27 +86,28 @@ ID | Type | Indicator | Confidence
 32 | File | `/home/masterConsole` | High
 33 | File | `/index.php` | Medium
 34 | File | `/lists/admin/user.php` | High
-35 | File | `/mkshop/Men/profile.php` | High
-36 | File | `/movie.php` | Medium
-37 | File | `/news-portal-script/information.php` | High
-38 | File | `/pages/apply_vacancy.php` | High
-39 | File | `/param.file.tgz` | High
-40 | File | `/paysystem/branch.php` | High
-41 | File | `/paysystem/datatable.php` | High
-42 | File | `/preview.php` | Medium
-43 | File | `/rest/api/2/user/picker` | High
-44 | File | `/search/index` | High
-45 | File | `/send_order.cgi?parameter=restart` | High
-46 | File | `/tmp` | Low
+35 | File | `/manager?action=getlogcat` | High
+36 | File | `/mkshop/Men/profile.php` | High
+37 | File | `/movie.php` | Medium
+38 | File | `/news-portal-script/information.php` | High
+39 | File | `/pages/apply_vacancy.php` | High
+40 | File | `/param.file.tgz` | High
+41 | File | `/paysystem/branch.php` | High
+42 | File | `/paysystem/datatable.php` | High
+43 | File | `/preview.php` | Medium
+44 | File | `/rest/api/2/user/picker` | High
+45 | File | `/search/index` | High
+46 | File | `/send_order.cgi?parameter=restart` | High
 47 | ... | ... | ...
 
-There are 409 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 412 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://github.com/sophoslabs/IoCs/blob/master/Ransomware-Snatch
+* https://socradar.io/dark-web-profile-snatch-ransomware/
 * https://thedfirreport.com/2020/06/21/snatch-ransomware/
 
 ## Literature

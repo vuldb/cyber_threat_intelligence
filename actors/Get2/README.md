@@ -4,6 +4,13 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.get2](https://vuldb.com/?actor.get2)
 
+## Countries
+
+These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Get2:
+
+* [KR](https://vuldb.com/?country.kr)
+* [US](https://vuldb.com/?country.us)
+
 ## IOC - Indicator of Compromise
 
 These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of Get2.
@@ -11,11 +18,40 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [27.101.221.227](https://vuldb.com/?ip.27.101.221.227) | - | - | High
-2 | [101.78.26.130](https://vuldb.com/?ip.101.78.26.130) | - | - | High
-3 | [124.243.53.149](https://vuldb.com/?ip.124.243.53.149) | - | - | High
+2 | [27.101.222.186](https://vuldb.com/?ip.27.101.222.186) | - | - | High
+3 | [101.78.26.130](https://vuldb.com/?ip.101.78.26.130) | - | - | High
+4 | [110.15.243.148](https://vuldb.com/?ip.110.15.243.148) | - | - | High
+5 | [117.52.115.212](https://vuldb.com/?ip.117.52.115.212) | - | - | High
+6 | [124.243.53.149](https://vuldb.com/?ip.124.243.53.149) | - | - | High
+7 | ... | ... | ... | ...
+
+There are 25 more IOC items available. Please use our online service to access the data.
+
+## TTP - Tactics, Techniques, Procedures
+
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _Get2_. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1055 | CWE-74 | Injection | High
+2 | T1059 | CWE-94 | Cross Site Scripting | High
+3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 7 more IOC items available. Please use our online service to access the data.
+There are 4 more TTP items available. Please use our online service to access the data.
+
+## IOA - Indicator of Attack
+
+These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by Get2. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Type | Indicator | Confidence
+-- | ---- | --------- | ----------
+1 | File | `cng.sys` | Low
+2 | File | `http_auth.c` | Medium
+3 | File | `inc/config.php` | High
+4 | ... | ... | ...
+
+There are 8 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -33,10 +33,10 @@ ID | IP address | Hostname | Campaign | Confidence
 10 | [45.90.57.160](https://vuldb.com/?ip.45.90.57.160) | khalasar.omega.spb.ru | - | High
 11 | [45.130.201.23](https://vuldb.com/?ip.45.130.201.23) | - | - | High
 12 | [45.130.201.24](https://vuldb.com/?ip.45.130.201.24) | - | - | High
-13 | [47.91.94.97](https://vuldb.com/?ip.47.91.94.97) | - | - | High
+13 | [46.4.107.174](https://vuldb.com/?ip.46.4.107.174) | server101.servera.info | - | High
 14 | ... | ... | ... | ...
 
-There are 50 more IOC items available. Please use our online service to access the data.
+There are 53 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -114,7 +114,7 @@ ID | Type | Indicator | Confidence
 52 | File | `adclick.php` | Medium
 53 | ... | ... | ...
 
-There are 465 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 463 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

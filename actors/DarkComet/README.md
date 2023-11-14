@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [UA](https://vuldb.com/?country.ua)
 * ...
 
-There are 4 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -54,9 +54,18 @@ ID | IP address | Hostname | Campaign | Confidence
 31 | [34.107.221.82](https://vuldb.com/?ip.34.107.221.82) | 82.221.107.34.bc.googleusercontent.com | - | Medium
 32 | [34.213.158.239](https://vuldb.com/?ip.34.213.158.239) | ec2-34-213-158-239.us-west-2.compute.amazonaws.com | - | Medium
 33 | [34.214.179.131](https://vuldb.com/?ip.34.214.179.131) | ec2-34-214-179-131.us-west-2.compute.amazonaws.com | - | Medium
-34 | ... | ... | ... | ...
+34 | [35.174.20.103](https://vuldb.com/?ip.35.174.20.103) | ec2-35-174-20-103.compute-1.amazonaws.com | - | Medium
+35 | [35.244.181.201](https://vuldb.com/?ip.35.244.181.201) | 201.181.244.35.bc.googleusercontent.com | - | Medium
+36 | [37.8.24.63](https://vuldb.com/?ip.37.8.24.63) | - | - | High
+37 | [37.8.238.50](https://vuldb.com/?ip.37.8.238.50) | 037008238050.gubin.vectranet.pl | - | High
+38 | [37.192.44.128](https://vuldb.com/?ip.37.192.44.128) | l37-192-44-128.novotelecom.ru | - | High
+39 | [38.41.53.164](https://vuldb.com/?ip.38.41.53.164) | - | - | High
+40 | [39.98.192.182](https://vuldb.com/?ip.39.98.192.182) | - | - | High
+41 | [40.91.78.9](https://vuldb.com/?ip.40.91.78.9) | - | - | High
+42 | [41.43.191.164](https://vuldb.com/?ip.41.43.191.164) | host-41.43.191.164.tedata.net | - | High
+43 | ... | ... | ... | ...
 
-There are 133 more IOC items available. Please use our online service to access the data.
+There are 166 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -65,11 +74,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
-2 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
-3 | T1059.007 | CWE-79 | Cross Site Scripting | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 10 more TTP items available. Please use our online service to access the data.
+There are 12 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -82,17 +91,19 @@ ID | Type | Indicator | Confidence
 3 | File | `/ci_ssms/index.php/orders/create` | High
 4 | File | `/htdocs/upnpinc/gena.php` | High
 5 | File | `/index.php` | Medium
-6 | File | `/param.file.tgz` | High
-7 | File | `/php_action/createUser.php` | High
-8 | File | `/show_news.php` | High
-9 | File | `/v2/customerdb/operator.svc/a` | High
-10 | File | `01article.php` | High
-11 | File | `add-locker-form.php` | High
-12 | File | `add_contestant.php` | High
-13 | File | `admin.php` | Medium
-14 | ... | ... | ...
+6 | File | `/login/index.php` | High
+7 | File | `/param.file.tgz` | High
+8 | File | `/php_action/createUser.php` | High
+9 | File | `/show_news.php` | High
+10 | File | `/v2/customerdb/operator.svc/a` | High
+11 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+12 | File | `01article.php` | High
+13 | File | `add-locker-form.php` | High
+14 | File | `add_contestant.php` | High
+15 | File | `admin.php` | Medium
+16 | ... | ... | ...
 
-There are 114 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 131 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -130,6 +141,31 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/threat-roundup-0317-0324/
 * https://blog.talosintelligence.com/threat-roundup-0407-0414/
 * https://blog.talosintelligence.com/threat-roundup-0421-0428-2/
+* https://search.censys.io/hosts/37.8.238.50
+* https://search.censys.io/hosts/45.136.6.192
+* https://search.censys.io/hosts/45.139.199.19
+* https://search.censys.io/hosts/46.30.188.150
+* https://search.censys.io/hosts/77.199.95.201
+* https://search.censys.io/hosts/77.246.158.48
+* https://search.censys.io/hosts/77.254.176.18
+* https://search.censys.io/hosts/85.105.123.238
+* https://search.censys.io/hosts/93.84.85.42
+* https://search.censys.io/hosts/94.131.207.194
+* https://search.censys.io/hosts/95.175.224.126
+* https://search.censys.io/hosts/141.98.6.204
+* https://search.censys.io/hosts/158.58.205.192
+* https://search.censys.io/hosts/185.175.78.187
+* https://search.censys.io/hosts/185.243.181.62
+* https://search.censys.io/hosts/187.135.139.197
+* https://search.censys.io/hosts/189.129.230.26
+* https://search.censys.io/hosts/189.148.193.109
+* https://search.censys.io/hosts/189.250.25.77
+* https://search.censys.io/hosts/189.250.28.175
+* https://search.censys.io/hosts/189.250.28.178
+* https://search.censys.io/hosts/189.250.48.68
+* https://search.censys.io/hosts/194.147.140.198
+* https://search.censys.io/hosts/212.232.61.111
+* https://search.censys.io/hosts/217.195.197.188
 * https://threatfox.abuse.ch
 
 ## Literature

@@ -76,15 +76,15 @@ ID | Type | Indicator | Confidence
 16 | File | `add_comment.php` | High
 17 | File | `admin.php` | Medium
 18 | File | `admin/plugin.php` | High
-19 | File | `admin/write-post.php` | High
-20 | File | `admin\addgroup.php` | High
-21 | File | `agents.php` | Medium
-22 | File | `app/View/Helper/CommandHelper.php` | High
-23 | File | `apport/hookutils.py` | High
-24 | File | `auth_changepassword.php` | High
+19 | File | `admin/setleaves.php` | High
+20 | File | `admin/write-post.php` | High
+21 | File | `admin\addgroup.php` | High
+22 | File | `agents.php` | Medium
+23 | File | `app/View/Helper/CommandHelper.php` | High
+24 | File | `apport/hookutils.py` | High
 25 | ... | ... | ...
 
-There are 209 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 211 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

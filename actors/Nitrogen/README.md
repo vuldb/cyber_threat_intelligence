@@ -43,7 +43,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1055 | CWE-74 | Injection | High
 4 | ... | ... | ... | ...
 
-There are 11 more TTP items available. Please use our online service to access the data.
+There are 12 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -101,9 +101,11 @@ ID | Type | Indicator | Confidence
 48 | File | `admindocumentworker.jsp` | High
 49 | File | `administrator/components/com_media/helpers/media.php` | High
 50 | File | `adminSmileys.php` | High
-51 | ... | ... | ...
+51 | File | `akocomments.php` | High
+52 | File | `album_portal.php` | High
+53 | ... | ... | ...
 
-There are 446 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 464 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

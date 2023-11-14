@@ -61,28 +61,29 @@ ID | Type | Indicator | Confidence
 10 | File | `/forms/nslookupHandler` | High
 11 | File | `/forum/away.php` | High
 12 | File | `/getcfg.php` | Medium
-13 | File | `/index.php` | Medium
-14 | File | `/librarian/bookdetails.php` | High
-15 | File | `/modules/profile/index.php` | High
-16 | File | `/news.dtl.php` | High
-17 | File | `/ofcms/company-c-47` | High
-18 | File | `/out.php` | Medium
-19 | File | `/patient/appointment.php` | High
-20 | File | `/ptms/?page=user` | High
-21 | File | `/systemrw/` | Medium
-22 | File | `/uncpath/` | Medium
-23 | File | `/upload/file.php` | High
-24 | File | `/usr/sbin/httpd` | High
-25 | File | `/util/print.c` | High
-26 | File | `/web/MCmsAction.java` | High
-27 | File | `/wp-admin/admin-ajax.php` | High
-28 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-29 | File | `5.2.9\syscrb.exe` | High
-30 | File | `abc-pcie.c` | Medium
-31 | File | `accounts/payment_history.php` | High
-32 | ... | ... | ...
+13 | File | `/h/autoSaveDraft` | High
+14 | File | `/index.php` | Medium
+15 | File | `/librarian/bookdetails.php` | High
+16 | File | `/modules/profile/index.php` | High
+17 | File | `/news.dtl.php` | High
+18 | File | `/ofcms/company-c-47` | High
+19 | File | `/out.php` | Medium
+20 | File | `/patient/appointment.php` | High
+21 | File | `/protocol/iscgwtunnel/uploadiscgwrouteconf.php` | High
+22 | File | `/ptms/?page=user` | High
+23 | File | `/systemrw/` | Medium
+24 | File | `/uncpath/` | Medium
+25 | File | `/upload/file.php` | High
+26 | File | `/usr/sbin/httpd` | High
+27 | File | `/util/print.c` | High
+28 | File | `/web/MCmsAction.java` | High
+29 | File | `/wp-admin/admin-ajax.php` | High
+30 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+31 | File | `5.2.9\syscrb.exe` | High
+32 | File | `abc-pcie.c` | Medium
+33 | ... | ... | ...
 
-There are 274 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 277 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

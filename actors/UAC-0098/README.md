@@ -47,10 +47,10 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+3 | T1055 | CWE-74 | Injection | High
 4 | ... | ... | ... | ...
 
-There are 13 more TTP items available. Please use our online service to access the data.
+There are 14 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -63,13 +63,13 @@ ID | Type | Indicator | Confidence
 3 | File | `/goform/net\_Web\_get_value` | High
 4 | File | `/goform/net_WebCSRGen` | High
 5 | File | `/goform/WebRSAKEYGen` | High
-6 | File | `/uncpath/` | Medium
-7 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-8 | File | `add-category.php` | High
-9 | File | `admin/dashboard.php` | High
+6 | File | `/lam/tmp/` | Medium
+7 | File | `/uncpath/` | Medium
+8 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+9 | File | `add-category.php` | High
 10 | ... | ... | ...
 
-There are 77 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 78 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

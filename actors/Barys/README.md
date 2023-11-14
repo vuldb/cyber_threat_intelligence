@@ -86,35 +86,35 @@ ID | Type | Indicator | Confidence
 23 | File | `admin/system_manage/save.html` | High
 24 | File | `admin/system_manage/user_config_add.html` | High
 25 | File | `adminconsole` | Medium
-26 | File | `administrator/mail/download.cfm` | High
-27 | File | `admin_board.php` | High
-28 | File | `af_netlink.c` | Medium
-29 | File | `ajax.php` | Medium
-30 | File | `ajaxRequest/methodCall.do` | High
-31 | File | `announcements.php` | High
-32 | File | `apache2/modsecurity.c` | High
-33 | File | `apply.cgi` | Medium
-34 | File | `app_new.php` | Medium
-35 | File | `aspx` | Low
-36 | File | `AttachmentsList.aspx` | High
-37 | File | `Atx45.ocx` | Medium
-38 | File | `auction_details.php` | High
-39 | File | `auth-gss2.c` | Medium
-40 | File | `auth.php` | Medium
-41 | File | `aut_verifica.inc.php` | High
-42 | File | `awsguest.php` | Medium
-43 | File | `b2edit.showposts.php` | High
-44 | File | `backend.php/screen.php/comment.php` | High
-45 | File | `basicfunctions.php` | High
-46 | File | `board.cgi` | Medium
-47 | File | `bug_actiongroup_ext_page.php` | High
-48 | File | `canned_opr.php` | High
-49 | File | `cart.cgi` | Medium
-50 | File | `cat.asp` | Low
-51 | File | `cddbcontrolaol.cddbaolcontrol` | High
+26 | File | `adminer.php` | Medium
+27 | File | `administrator/mail/download.cfm` | High
+28 | File | `admin_board.php` | High
+29 | File | `af_netlink.c` | Medium
+30 | File | `ajax.php` | Medium
+31 | File | `ajaxRequest/methodCall.do` | High
+32 | File | `announcements.php` | High
+33 | File | `apache2/modsecurity.c` | High
+34 | File | `apply.cgi` | Medium
+35 | File | `app_new.php` | Medium
+36 | File | `aspx` | Low
+37 | File | `AttachmentsList.aspx` | High
+38 | File | `Atx45.ocx` | Medium
+39 | File | `auction_details.php` | High
+40 | File | `auth-gss2.c` | Medium
+41 | File | `auth.php` | Medium
+42 | File | `aut_verifica.inc.php` | High
+43 | File | `awsguest.php` | Medium
+44 | File | `b2edit.showposts.php` | High
+45 | File | `backend.php/screen.php/comment.php` | High
+46 | File | `basicfunctions.php` | High
+47 | File | `board.cgi` | Medium
+48 | File | `bug_actiongroup_ext_page.php` | High
+49 | File | `canned_opr.php` | High
+50 | File | `cart.cgi` | Medium
+51 | File | `cat.asp` | Low
 52 | ... | ... | ...
 
-There are 453 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 455 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

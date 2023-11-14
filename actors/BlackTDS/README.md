@@ -4,6 +4,12 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.blacktds](https://vuldb.com/?actor.blacktds)
 
+## Countries
+
+These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with BlackTDS:
+
+* [RU](https://vuldb.com/?country.ru)
+
 ## IOC - Indicator of Compromise
 
 These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of BlackTDS.
@@ -13,6 +19,14 @@ ID | IP address | Hostname | Campaign | Confidence
 1 | [46.30.45.78](https://vuldb.com/?ip.46.30.45.78) | vm553734.eurodir.ru | - | High
 2 | [88.99.48.65](https://vuldb.com/?ip.88.99.48.65) | static.65.48.99.88.clients.your-server.de | - | High
 3 | [193.70.73.251](https://vuldb.com/?ip.193.70.73.251) | - | - | High
+
+## IOA - Indicator of Attack
+
+These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by BlackTDS. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Type | Indicator | Confidence
+-- | ---- | --------- | ----------
+1 | File | `ftp_parser.c` | Medium
 
 ## References
 

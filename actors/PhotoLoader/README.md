@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 17 more country items available. Please use our online service to access the data.
+There are 18 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -145,44 +145,44 @@ ID | Type | Indicator | Confidence
 7 | File | `/api/baskets/{name}` | High
 8 | File | `/api/RecordingList/DownloadRecord?file=` | High
 9 | File | `/apply.cgi` | Medium
-10 | File | `/cgi-bin/wlogin.cgi` | High
-11 | File | `/College/admin/teacher.php` | High
-12 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
-13 | File | `/dcim/rack-roles/` | High
-14 | File | `/debug/pprof` | Medium
-15 | File | `/forum/away.php` | High
-16 | File | `/goform/addUserName` | High
-17 | File | `/goform/aspForm` | High
-18 | File | `/goform/delAd` | High
-19 | File | `/goform/wifiSSIDset` | High
-20 | File | `/gpac/src/bifs/unquantize.c` | High
-21 | File | `/inc/topBarNav.php` | High
-22 | File | `/index.asp` | Medium
-23 | File | `/index.php` | Medium
-24 | File | `/index.php?app=main&func=passport&action=login` | High
-25 | File | `/jfinal_cms/system/role/list` | High
-26 | File | `/kelas/data` | Medium
-27 | File | `/members/view_member.php` | High
-28 | File | `/mhds/clinic/view_details.php` | High
-29 | File | `/Moosikay/order.php` | High
-30 | File | `/owa/auth/logon.aspx` | High
-31 | File | `/php-sms/admin/quotes/manage_remark.php` | High
-32 | File | `/rapi/read_url` | High
-33 | File | `/scripts/unlock_tasks.php` | High
-34 | File | `/secure/QueryComponent!Default.jspa` | High
-35 | File | `/squashfs-root/etc_ro/custom.conf` | High
-36 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
-37 | File | `/staff/edit_book_details.php` | High
-38 | File | `/SysManage/AddUpdateRole.aspx` | High
-39 | File | `/sysmanage/importconf.php` | High
-40 | File | `/system/user/modules/mod_users/controller.php` | High
-41 | File | `/uncpath/` | Medium
-42 | File | `/user/profile` | High
-43 | File | `/WEB-INF/web.xml` | High
-44 | File | `/webman/info.cgi` | High
+10 | File | `/bitrix/admin/ldap_server_edit.php` | High
+11 | File | `/cgi-bin/wlogin.cgi` | High
+12 | File | `/College/admin/teacher.php` | High
+13 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
+14 | File | `/dcim/rack-roles/` | High
+15 | File | `/debug/pprof` | Medium
+16 | File | `/forum/away.php` | High
+17 | File | `/goform/addUserName` | High
+18 | File | `/goform/aspForm` | High
+19 | File | `/goform/delAd` | High
+20 | File | `/goform/wifiSSIDset` | High
+21 | File | `/gpac/src/bifs/unquantize.c` | High
+22 | File | `/inc/topBarNav.php` | High
+23 | File | `/index.asp` | Medium
+24 | File | `/index.php` | Medium
+25 | File | `/index.php?app=main&func=passport&action=login` | High
+26 | File | `/jfinal_cms/system/role/list` | High
+27 | File | `/kelas/data` | Medium
+28 | File | `/members/view_member.php` | High
+29 | File | `/mhds/clinic/view_details.php` | High
+30 | File | `/Moosikay/order.php` | High
+31 | File | `/owa/auth/logon.aspx` | High
+32 | File | `/php-sms/admin/quotes/manage_remark.php` | High
+33 | File | `/rapi/read_url` | High
+34 | File | `/rest/api/latest/projectvalidate/key` | High
+35 | File | `/scripts/unlock_tasks.php` | High
+36 | File | `/secure/QueryComponent!Default.jspa` | High
+37 | File | `/squashfs-root/etc_ro/custom.conf` | High
+38 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
+39 | File | `/staff/edit_book_details.php` | High
+40 | File | `/SysManage/AddUpdateRole.aspx` | High
+41 | File | `/sysmanage/importconf.php` | High
+42 | File | `/system/user/modules/mod_users/controller.php` | High
+43 | File | `/uncpath/` | Medium
+44 | File | `/user/profile` | High
 45 | ... | ... | ...
 
-There are 392 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 391 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

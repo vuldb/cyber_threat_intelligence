@@ -90,23 +90,23 @@ ID | Type | Indicator | Confidence
 13 | File | `/cgi-bin/koha/catalogue/search.pl` | High
 14 | File | `/cgi-bin/upload_vpntar` | High
 15 | File | `/config/api/v1/reboot` | High
-16 | File | `/CPE` | Low
-17 | File | `/debug/pprof` | Medium
-18 | File | `/forum/away.php` | High
-19 | File | `/ghost/preview` | High
-20 | File | `/goform/Diagnosis` | High
-21 | File | `/group1/uploa` | High
-22 | File | `/home/search` | Medium
-23 | File | `/leaves/validate` | High
-24 | File | `/mail.php` | Medium
-25 | File | `/modules/profile/index.php` | High
-26 | File | `/out.php` | Medium
-27 | File | `/php-spms/admin/?page=user/` | High
-28 | File | `/proc/ftxxxx-debug` | High
-29 | File | `/protocol/iscgwtunnel/uploadiscgwrouteconf.php` | High
+16 | File | `/core/tools/customblock.php` | High
+17 | File | `/CPE` | Low
+18 | File | `/debug/pprof` | Medium
+19 | File | `/forum/away.php` | High
+20 | File | `/ghost/preview` | High
+21 | File | `/goform/Diagnosis` | High
+22 | File | `/group1/uploa` | High
+23 | File | `/home/search` | Medium
+24 | File | `/leaves/validate` | High
+25 | File | `/mail.php` | Medium
+26 | File | `/modules/profile/index.php` | High
+27 | File | `/out.php` | Medium
+28 | File | `/php-spms/admin/?page=user/` | High
+29 | File | `/proc/ftxxxx-debug` | High
 30 | ... | ... | ...
 
-There are 251 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 259 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

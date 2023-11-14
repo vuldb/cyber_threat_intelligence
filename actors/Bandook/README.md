@@ -75,21 +75,22 @@ ID | Type | Indicator | Confidence
 20 | File | `/include/menu_v.inc.php` | High
 21 | File | `/index.php/weblinks-categories` | High
 22 | File | `/librarian/lab.php` | High
-23 | File | `/modules/projects/vw_files.php` | High
-24 | File | `/omos/admin/?page=user/list` | High
-25 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-26 | File | `/out.php` | Medium
-27 | File | `/panel/fields/add` | High
-28 | File | `/patient/settings.php` | High
-29 | File | `/plain` | Low
-30 | File | `/proc/*/cmdline"` | High
-31 | File | `/proc/pid/syscall` | High
-32 | File | `/sbin/acos_service` | High
-33 | File | `/show_group_members.php` | High
-34 | File | `/SysInfo.htm` | Medium
-35 | ... | ... | ...
+23 | File | `/main?cmd=invalid_browser` | High
+24 | File | `/modules/projects/vw_files.php` | High
+25 | File | `/omos/admin/?page=user/list` | High
+26 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+27 | File | `/out.php` | Medium
+28 | File | `/panel/fields/add` | High
+29 | File | `/patient/settings.php` | High
+30 | File | `/plain` | Low
+31 | File | `/proc/*/cmdline"` | High
+32 | File | `/proc/pid/syscall` | High
+33 | File | `/sbin/acos_service` | High
+34 | File | `/show_group_members.php` | High
+35 | File | `/SysInfo.htm` | Medium
+36 | ... | ... | ...
 
-There are 302 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 304 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

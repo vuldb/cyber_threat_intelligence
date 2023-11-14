@@ -61,14 +61,14 @@ ID | Type | Indicator | Confidence
 4 | File | `/members/view_member.php` | High
 5 | File | `/mhds/clinic/view_details.php` | High
 6 | File | `/owa/auth/logon.aspx` | High
-7 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
-8 | File | `/thruk/#cgi-bin/extinfo.cgi?type=2` | High
-9 | File | `/uncpath/` | Medium
-10 | File | `/wp-admin/options.php` | High
-11 | File | `adclick.php` | Medium
+7 | File | `/rest/api/latest/projectvalidate/key` | High
+8 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
+9 | File | `/thruk/#cgi-bin/extinfo.cgi?type=2` | High
+10 | File | `/uncpath/` | Medium
+11 | File | `/wp-admin/options.php` | High
 12 | ... | ... | ...
 
-There are 96 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 97 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -26,7 +26,7 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [20.239.156.147](https://vuldb.com/?ip.20.239.156.147) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 13 more IOC items available. Please use our online service to access the data.
+There are 14 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -51,23 +51,24 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/addNotifyServlet` | High
 2 | File | `/Admin/createClass.php` | High
-3 | File | `/api/notify.php` | High
-4 | File | `/api/v2/cli/commands` | High
-5 | File | `/asan/asan_interceptors_memintrinsics.cpp` | High
-6 | File | `/card_scan.php` | High
-7 | File | `/cgi-bin/uploadAccessCodePic` | High
-8 | File | `/config/getuser` | High
-9 | File | `/expense_action.php` | High
-10 | File | `/filemanager/php/connector.php` | High
-11 | File | `/goform/aspForm` | High
-12 | File | `/home/filter_listings` | High
-13 | File | `/inc/jquery/uploadify/uploadify.php` | High
-14 | File | `/index.php` | Medium
-15 | File | `/index.php?app=main&func=passport&action=login` | High
-16 | File | `/mobile/SelectUsers.jsp` | High
-17 | ... | ... | ...
+3 | File | `/api/authentication/login` | High
+4 | File | `/api/notify.php` | High
+5 | File | `/api/v2/cli/commands` | High
+6 | File | `/asan/asan_interceptors_memintrinsics.cpp` | High
+7 | File | `/card_scan.php` | High
+8 | File | `/cgi-bin/uploadAccessCodePic` | High
+9 | File | `/config/getuser` | High
+10 | File | `/expense_action.php` | High
+11 | File | `/filemanager/php/connector.php` | High
+12 | File | `/goform/aspForm` | High
+13 | File | `/home/filter_listings` | High
+14 | File | `/inc/jquery/uploadify/uploadify.php` | High
+15 | File | `/index.php` | Medium
+16 | File | `/index.php?app=main&func=passport&action=login` | High
+17 | File | `/mobile/SelectUsers.jsp` | High
+18 | ... | ... | ...
 
-There are 141 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 148 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -79,6 +80,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://bazaar.abuse.ch/sample/7504cc47a4f678a063114be7299971ae8a016e9c520fe4243e30513844dfee69/
 * https://bazaar.abuse.ch/sample/da647646cd36a3acb716b4266e9032f9c1caf555b7667e1dbe5bef89e7d2fdbb/
 * https://threatfox.abuse.ch
+* https://www.virustotal.com/gui/file/9645299e58c7521d811fbdcdbd57db45160191db7c7b73eae5d97e4530136da8/detection
 
 ## Literature
 

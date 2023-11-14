@@ -72,29 +72,29 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/.ssh/authorized_keys` | High
 2 | File | `/adminlogin.asp` | High
-3 | File | `/deviceIP` | Medium
-4 | File | `/etc/shadow` | Medium
-5 | File | `/firewall/policy/` | High
-6 | File | `/getcfg.php` | Medium
-7 | File | `/graphStatus/displayServiceStatus.php` | High
-8 | File | `/index.php/admin/tag/add.html` | High
-9 | File | `/Items/*/RemoteImages/Download` | High
-10 | File | `/proc/pid/syscall` | High
-11 | File | `/rom-0` | Low
-12 | File | `/scas/admin/` | Medium
-13 | File | `/servlet.gupld` | High
-14 | File | `/sql/sql_type.cc` | High
-15 | File | `/status` | Low
-16 | File | `/tmp` | Low
-17 | File | `/tools/developerConsoleOperations.jsp` | High
-18 | File | `/uncpath/` | Medium
-19 | File | `/usr/bin/pkexec` | High
-20 | File | `/WEB-INF/web.xml` | High
-21 | File | `ActivityManagerService.java` | High
-22 | File | `adm1n/admin_config.php` | High
+3 | File | `/conf/` | Low
+4 | File | `/controller/AdminController.php` | High
+5 | File | `/deviceIP` | Medium
+6 | File | `/etc/shadow` | Medium
+7 | File | `/firewall/policy/` | High
+8 | File | `/getcfg.php` | Medium
+9 | File | `/graphStatus/displayServiceStatus.php` | High
+10 | File | `/index.php/admin/tag/add.html` | High
+11 | File | `/Items/*/RemoteImages/Download` | High
+12 | File | `/proc/pid/syscall` | High
+13 | File | `/rom-0` | Low
+14 | File | `/scas/admin/` | Medium
+15 | File | `/servlet.gupld` | High
+16 | File | `/sql/sql_type.cc` | High
+17 | File | `/status` | Low
+18 | File | `/tmp` | Low
+19 | File | `/tools/developerConsoleOperations.jsp` | High
+20 | File | `/uncpath/` | Medium
+21 | File | `/usr/bin/pkexec` | High
+22 | File | `/WEB-INF/web.xml` | High
 23 | ... | ... | ...
 
-There are 188 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 189 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -86,7 +86,8 @@ ID | Type | Indicator | Confidence
 27 | File | `admin/versions.html` | High
 28 | File | `agenda.php` | Medium
 29 | File | `ajax_calls.php` | High
-30 | ... | ... | ...
+30 | File | `api.php` | Low
+31 | ... | ... | ...
 
 There are 259 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 

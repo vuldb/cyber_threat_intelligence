@@ -44,7 +44,7 @@ ID | IP address | Hostname | Actor | Confidence
 12 | [75.119.133.15](https://vuldb.com/?ip.75.119.133.15) | ip-15-133-119-75.static.contabo.net | [Crimson RAT](https://vuldb.com/?actor.crimson_rat) | High
 13 | ... | ... | ... | ...
 
-There are 49 more IOC items available. Please use our online service to access the data.
+There are 50 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -76,41 +76,44 @@ ID | Type | Indicator | Confidence
 8 | File | `/app/tag/controller/ApiAdminTagCategory.php` | High
 9 | File | `/common/info.cgi` | High
 10 | File | `/csms/?page=contact_us` | High
-11 | File | `/ecodesource/search_list.php` | High
-12 | File | `/etc/tcsd.conf` | High
-13 | File | `/file` | Low
-14 | File | `/filemanager/upload.php` | High
-15 | File | `/forum/away.php` | High
-16 | File | `/fudforum/index.php` | High
-17 | File | `/horde/imp/search.php` | High
-18 | File | `/index.php?page=search/rentals` | High
-19 | File | `/login.php` | Medium
-20 | File | `/modules/profile/index.php` | High
-21 | File | `/modules/registration_admission/patient_register.php` | High
-22 | File | `/netflow/jspui/selectDevice.jsp` | High
-23 | File | `/out.php` | Medium
-24 | File | `/plugin/rundeck/webhook/` | High
-25 | File | `/pms/admin/crimes/view_crime.php` | High
-26 | File | `/scheduler/addSchedule.php` | High
-27 | File | `/spip.php` | Medium
-28 | File | `/TeamMate/Upload/DomainObjectDocumentUpload.ashx` | High
-29 | File | `/uncpath/` | Medium
-30 | File | `/upload` | Low
-31 | File | `/wp-admin/admin-ajax.php` | High
-32 | File | `4.edu.php` | Medium
-33 | File | `5.2.9\syscrb.exe` | High
-34 | File | `adclick.php` | Medium
-35 | File | `add-vehicle.php` | High
-36 | File | `addentry.php` | Medium
-37 | File | `admin.php` | Medium
-38 | File | `admin/admin.php` | High
-39 | File | `admin/conf_users_edit.php` | High
-40 | File | `adminHome.php` | High
-41 | File | `admin_add.php` | High
-42 | File | `admin_gallery.php3` | High
-43 | ... | ... | ...
+11 | File | `/debug/pprof` | Medium
+12 | File | `/ecodesource/search_list.php` | High
+13 | File | `/etc/tcsd.conf` | High
+14 | File | `/file` | Low
+15 | File | `/filemanager/upload.php` | High
+16 | File | `/forum/away.php` | High
+17 | File | `/fudforum/index.php` | High
+18 | File | `/horde/imp/search.php` | High
+19 | File | `/index.php?page=search/rentals` | High
+20 | File | `/login.php` | Medium
+21 | File | `/modules/profile/index.php` | High
+22 | File | `/modules/registration_admission/patient_register.php` | High
+23 | File | `/netflow/jspui/selectDevice.jsp` | High
+24 | File | `/out.php` | Medium
+25 | File | `/plugin/rundeck/webhook/` | High
+26 | File | `/pms/admin/crimes/view_crime.php` | High
+27 | File | `/scheduler/addSchedule.php` | High
+28 | File | `/spip.php` | Medium
+29 | File | `/student/bookdetails.php` | High
+30 | File | `/uncpath/` | Medium
+31 | File | `/upload` | Low
+32 | File | `/wp-admin/admin-ajax.php` | High
+33 | File | `4.edu.php` | Medium
+34 | File | `5.2.9\syscrb.exe` | High
+35 | File | `adclick.php` | Medium
+36 | File | `add-vehicle.php` | High
+37 | File | `addentry.php` | Medium
+38 | File | `admin.php` | Medium
+39 | File | `admin/admin.php` | High
+40 | File | `admin/conf_users_edit.php` | High
+41 | File | `adminHome.php` | High
+42 | File | `admin_add.php` | High
+43 | File | `admin_gallery.php3` | High
+44 | File | `admsession.php` | High
+45 | File | `advanced_search_result.php` | High
+46 | ... | ... | ...
 
-There are 367 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 397 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -119,6 +122,7 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://blog.malwarebytes.com/threat-analysis/2020/03/apt36-jumps-on-the-coronavirus-bandwagon-delivers-crimson-rat/
 * https://threatfox.abuse.ch
 * https://twitter.com/0xrb/status/1492030514035060741?s=20&t=LxxFCank6LgKGEWxOnVa0Q
+* https://twitter.com/0xrb/status/1704827410695528554
 * https://twitter.com/RedDrip7/status/1622908094606094338
 * https://twitter.com/StopMalvertisin/status/1645805949234597889
 * https://twitter.com/StopMalvertisin/status/1670660520540770305

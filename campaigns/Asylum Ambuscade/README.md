@@ -66,7 +66,7 @@ ID | Technique | Weakness | Description | Confidence
 6 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 7 | ... | ... | ... | ...
 
-There are 24 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -116,11 +116,11 @@ ID | Type | Indicator | Confidence
 40 | File | `/staff_login.php` | High
 41 | File | `/system/user/modules/mod_users/controller.php` | High
 42 | File | `/uncpath/` | Medium
-43 | File | `/usr/sbin/httpd` | High
-44 | File | `/util/print.c` | High
+43 | File | `/usr/bin/pkexec` | High
+44 | File | `/usr/sbin/httpd` | High
 45 | ... | ... | ...
 
-There are 387 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 389 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

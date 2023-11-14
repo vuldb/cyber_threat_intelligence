@@ -72,7 +72,7 @@ ID | Type | Indicator | Confidence
 21 | File | `applications/core/modules/front/system/content.php` | High
 22 | ... | ... | ...
 
-There are 185 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 186 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [GB](https://vuldb.com/?country.gb)
+* [TR](https://vuldb.com/?country.tr)
 * ...
 
-There are 22 more country items available. Please use our online service to access the data.
+There are 21 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -364,13 +364,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-36 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -381,12 +381,12 @@ ID | Type | Indicator | Confidence
 1 | File | `//WEB-INF` | Medium
 2 | File | `/about.php` | Medium
 3 | File | `/adfs/ls` | Medium
-4 | File | `/admin.php/update/getFile.html` | High
-5 | File | `/admin/read.php?mudi=getSignal` | High
-6 | File | `/admin/save.php` | High
-7 | File | `/admin/sys_sql_query.php` | High
-8 | File | `/api/baskets/{name}` | High
-9 | File | `/api/download` | High
+4 | File | `/admin/read.php?mudi=getSignal` | High
+5 | File | `/admin/save.php` | High
+6 | File | `/admin/sys_sql_query.php` | High
+7 | File | `/api/baskets/{name}` | High
+8 | File | `/api/download` | High
+9 | File | `/api/v1/alerts` | High
 10 | File | `/api/v1/terminal/sessions/?limit=1` | High
 11 | File | `/Application/Admin/Controller/ConfigController.class.php` | High
 12 | File | `/bin/boa` | Medium
@@ -395,40 +395,36 @@ ID | Type | Indicator | Confidence
 15 | File | `/categorypage.php` | High
 16 | File | `/cgi-bin/luci/api/wireless` | High
 17 | File | `/cgi-bin/vitogate.cgi` | High
-18 | File | `/cgi-bin/wlogin.cgi` | High
-19 | File | `/cimom` | Low
-20 | File | `/company/store` | High
-21 | File | `/Content/Template/root/reverse-shell.aspx` | High
-22 | File | `/Controller/Ajaxfileupload.ashx` | High
-23 | File | `/core/conditions/AbstractWrapper.java` | High
-24 | File | `/debug/pprof` | Medium
-25 | File | `/E-mobile/App/System/File/downfile.php` | High
-26 | File | `/Electron/download` | High
-27 | File | `/etc/passwd` | Medium
-28 | File | `/fcgi/scrut_fcgi.fcgi` | High
-29 | File | `/feeds/post/publish` | High
-30 | File | `/forum/away.php` | High
-31 | File | `/group1/uploa` | High
-32 | File | `/h/` | Low
-33 | File | `/HNAP1` | Low
-34 | File | `/inc/jquery/uploadify/uploadify.php` | High
-35 | File | `/index.php?app=main&func=passport&action=login` | High
-36 | File | `/index.php?page=category_list` | High
-37 | File | `/jeecg-boot/sys/common/upload` | High
-38 | File | `/jobinfo/` | Medium
-39 | File | `/Moosikay/order.php` | High
-40 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
-41 | File | `/opac/Actions.php?a=login` | High
-42 | File | `/PreviewHandler.ashx` | High
-43 | File | `/proc/ftxxxx-debug` | High
-44 | File | `/recipe-result` | High
-45 | File | `/register.do` | Medium
-46 | File | `/reservation/add_message.php` | High
-47 | File | `/reviewer/system/system/admins/manage/users/user-update.php` | High
-48 | File | `/RPS2019Service/status.html` | High
-49 | ... | ... | ...
+18 | File | `/cimom` | Low
+19 | File | `/company/store` | High
+20 | File | `/Content/Template/root/reverse-shell.aspx` | High
+21 | File | `/Controller/Ajaxfileupload.ashx` | High
+22 | File | `/core/conditions/AbstractWrapper.java` | High
+23 | File | `/debug/pprof` | Medium
+24 | File | `/E-mobile/App/System/File/downfile.php` | High
+25 | File | `/Electron/download` | High
+26 | File | `/etc/passwd` | Medium
+27 | File | `/fcgi/scrut_fcgi.fcgi` | High
+28 | File | `/forum/away.php` | High
+29 | File | `/group1/uploa` | High
+30 | File | `/h/` | Low
+31 | File | `/HNAP1` | Low
+32 | File | `/importexport.php` | High
+33 | File | `/inc/jquery/uploadify/uploadify.php` | High
+34 | File | `/index.php?app=main&func=passport&action=login` | High
+35 | File | `/index.php?page=category_list` | High
+36 | File | `/jeecg-boot/sys/common/upload` | High
+37 | File | `/jobinfo/` | Medium
+38 | File | `/Moosikay/order.php` | High
+39 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
+40 | File | `/PreviewHandler.ashx` | High
+41 | File | `/protocol/iscgwtunnel/uploadiscgwrouteconf.php` | High
+42 | File | `/proxy` | Low
+43 | File | `/recipe-result` | High
+44 | File | `/register.do` | Medium
+45 | ... | ... | ...
 
-There are 424 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 388 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

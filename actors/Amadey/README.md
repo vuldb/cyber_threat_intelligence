@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [TR](https://vuldb.com/?country.tr)
 * ...
 
-There are 16 more country items available. Please use our online service to access the data.
+There are 17 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -65,7 +65,7 @@ ID | IP address | Hostname | Campaign | Confidence
 42 | [62.204.41.6](https://vuldb.com/?ip.62.204.41.6) | - | - | High
 43 | ... | ... | ... | ...
 
-There are 166 more IOC items available. Please use our online service to access the data.
+There are 169 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -74,14 +74,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Pathname Traversal | High
-2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+6 | T1078.001 | CWE-259 | Use of Hard-coded Password | High
 7 | ... | ... | ... | ...
 
-There are 24 more TTP items available. Please use our online service to access the data.
+There are 23 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -90,56 +90,58 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/about-us.php` | High
-2 | File | `/admin/save.php` | High
-3 | File | `/admin/sys_sql_query.php` | High
-4 | File | `/api/baskets/{name}` | High
-5 | File | `/api/download` | High
-6 | File | `/api/v1/terminal/sessions/?limit=1` | High
-7 | File | `/bin/ate` | Medium
-8 | File | `/bitrix/admin/ldap_server_edit.php` | High
-9 | File | `/booking/show_bookings/` | High
-10 | File | `/category.php` | High
-11 | File | `/categorypage.php` | High
-12 | File | `/cgi-bin/luci/api/wireless` | High
-13 | File | `/cgi-bin/vitogate.cgi` | High
-14 | File | `/company/store` | High
-15 | File | `/Content/Template/root/reverse-shell.aspx` | High
-16 | File | `/Controller/Ajaxfileupload.ashx` | High
-17 | File | `/core/conditions/AbstractWrapper.java` | High
-18 | File | `/csms/?page=contact_us` | High
-19 | File | `/dashboard/add-blog.php` | High
-20 | File | `/debug/pprof` | Medium
-21 | File | `/env` | Low
-22 | File | `/etc/passwd` | Medium
-23 | File | `/fcgi/scrut_fcgi.fcgi` | High
-24 | File | `/forum/away.php` | High
-25 | File | `/group1/uploa` | High
-26 | File | `/h/` | Low
-27 | File | `/HNAP1` | Low
-28 | File | `/index.php` | Medium
-29 | File | `/index.php?app=main&func=passport&action=login` | High
-30 | File | `/jeecg-boot/sys/common/upload` | High
-31 | File | `/jobinfo/` | Medium
-32 | File | `/php-sms/admin/?page=user/manage_user` | High
-33 | File | `/recipe-result` | High
-34 | File | `/register.do` | Medium
-35 | File | `/resources//../` | High
-36 | File | `/RPS2019Service/status.html` | High
-37 | File | `/Service/ImageStationDataService.asmx` | High
-38 | File | `/sicweb-ajax/tmproot/` | High
-39 | File | `/spip.php` | Medium
-40 | File | `/squashfs-root/etc_ro/custom.conf` | High
-41 | File | `/staff/edit_book_details.php` | High
-42 | File | `/student/bookdetails.php` | High
-43 | File | `/SysManage/AddUpdateRole.aspx` | High
-44 | ... | ... | ...
+2 | File | `/admin/controller/JobLogController.java` | High
+3 | File | `/admin/save.php` | High
+4 | File | `/admin/sys_sql_query.php` | High
+5 | File | `/api/baskets/{name}` | High
+6 | File | `/api/download` | High
+7 | File | `/api/sys/login` | High
+8 | File | `/api/sys/set_passwd` | High
+9 | File | `/api/v1/alerts` | High
+10 | File | `/api/v1/terminal/sessions/?limit=1` | High
+11 | File | `/bitrix/admin/ldap_server_edit.php` | High
+12 | File | `/booking/show_bookings/` | High
+13 | File | `/category.php` | High
+14 | File | `/categorypage.php` | High
+15 | File | `/cgi-bin/luci/api/wireless` | High
+16 | File | `/cgi-bin/vitogate.cgi` | High
+17 | File | `/changePassword` | High
+18 | File | `/company/store` | High
+19 | File | `/Content/Template/root/reverse-shell.aspx` | High
+20 | File | `/Controller/Ajaxfileupload.ashx` | High
+21 | File | `/core/conditions/AbstractWrapper.java` | High
+22 | File | `/csms/?page=contact_us` | High
+23 | File | `/dashboard/add-blog.php` | High
+24 | File | `/debug/pprof` | Medium
+25 | File | `/ecshop/admin/template.php` | High
+26 | File | `/etc/passwd` | Medium
+27 | File | `/fcgi/scrut_fcgi.fcgi` | High
+28 | File | `/forum/away.php` | High
+29 | File | `/group1/uploa` | High
+30 | File | `/h/` | Low
+31 | File | `/HNAP1` | Low
+32 | File | `/index.php` | Medium
+33 | File | `/index.php?app=main&func=passport&action=login` | High
+34 | File | `/jeecg-boot/sys/common/upload` | High
+35 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
+36 | File | `/proxy` | Low
+37 | File | `/qsr_server/device/reboot` | High
+38 | File | `/recipe-result` | High
+39 | File | `/register.do` | Medium
+40 | File | `/resources//../` | High
+41 | File | `/RPS2019Service/status.html` | High
+42 | File | `/Service/ImageStationDataService.asmx` | High
+43 | File | `/sicweb-ajax/tmproot/` | High
+44 | File | `/spip.php` | Medium
+45 | ... | ... | ...
 
-There are 376 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 390 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://app.any.run/tasks/02405064-4229-4b48-8db7-1ded39e68147
 * https://app.any.run/tasks/02899dcc-a26c-407a-b60c-3944a135f441
 * https://app.any.run/tasks/057f15c5-864c-4535-b8af-70405ead5fcd
 * https://app.any.run/tasks/5ef5240d-27b8-42f9-a436-f8b3e81308e2
@@ -147,6 +149,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://app.any.run/tasks/25aa27e9-a9e9-40cc-9152-d0373b9c7ebb
 * https://app.any.run/tasks/44ace516-679d-4a45-9c23-b3641ff4a094
 * https://app.any.run/tasks/a3102047-51c3-4cb9-ad73-b147835e7bce
+* https://app.any.run/tasks/d46db0da-c4d1-466d-a294-136db798b80b
 * https://app.any.run/tasks/db77c945-c2ff-4e5f-9d37-b105606ed03b
 * https://app.any.run/tasks/dd17daee-32a4-494b-b8d9-c5e6d5b03cae
 * https://cofense.com/new-phishing-campaign-targets-u-s-taxpayers-dropping-amadey-botnet/
@@ -227,6 +230,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://tracker.viriback.com/index.php?q=94.142.138.182
 * https://tracker.viriback.com/index.php?q=95.141.41.12
 * https://tracker.viriback.com/index.php?q=95.214.26.53
+* https://tracker.viriback.com/index.php?q=167.235.20.126
 * https://tracker.viriback.com/index.php?q=176.113.115.253
 * https://tracker.viriback.com/index.php?q=179.43.154.148
 * https://tracker.viriback.com/index.php?q=185.174.137.152

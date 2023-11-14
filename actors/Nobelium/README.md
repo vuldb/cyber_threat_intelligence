@@ -57,28 +57,29 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/functions.php` | High
-2 | File | `/admin/user/manage_user.php` | High
-3 | File | `/cgi-bin/webadminget.cgi` | High
-4 | File | `/dashboard/updatelogo.php` | High
-5 | File | `/etc/networkd-dispatcher` | High
-6 | File | `/etc/openshift/server_priv.pem` | High
-7 | File | `/etc/shadow.sample` | High
-8 | File | `/guest_auth/cfg/upLoadCfg.php` | High
-9 | File | `/index.php` | Medium
-10 | File | `/Interface/DevManage/EC.php?cmd=upload` | High
-11 | File | `/MicroStrategyWS/happyaxis.jsp` | High
-12 | File | `/mkshop/Men/profile.php` | High
-13 | File | `/notice-edit.php` | High
-14 | File | `/Noxen-master/users.php` | High
-15 | File | `/opt/teradata/gsctools/bin/t2a.pl` | High
-16 | File | `/public/login.htm` | High
-17 | File | `/start_apply.htm` | High
-18 | File | `/uncpath/` | Medium
-19 | File | `/upload` | Low
-20 | ... | ... | ...
+1 | File | `/admin/edit.php` | High
+2 | File | `/admin/functions.php` | High
+3 | File | `/admin/user/manage_user.php` | High
+4 | File | `/cgi-bin/webadminget.cgi` | High
+5 | File | `/dashboard/updatelogo.php` | High
+6 | File | `/etc/networkd-dispatcher` | High
+7 | File | `/etc/openshift/server_priv.pem` | High
+8 | File | `/etc/shadow.sample` | High
+9 | File | `/guest_auth/cfg/upLoadCfg.php` | High
+10 | File | `/index.php` | Medium
+11 | File | `/Interface/DevManage/EC.php?cmd=upload` | High
+12 | File | `/MicroStrategyWS/happyaxis.jsp` | High
+13 | File | `/mkshop/Men/profile.php` | High
+14 | File | `/notice-edit.php` | High
+15 | File | `/Noxen-master/users.php` | High
+16 | File | `/opt/teradata/gsctools/bin/t2a.pl` | High
+17 | File | `/public/login.htm` | High
+18 | File | `/start_apply.htm` | High
+19 | File | `/uncpath/` | Medium
+20 | File | `/upload` | Low
+21 | ... | ... | ...
 
-There are 162 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 170 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

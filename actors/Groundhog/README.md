@@ -100,25 +100,26 @@ ID | Type | Indicator | Confidence
 24 | File | `/goform/net\_Web\_get_value` | High
 25 | File | `/goforms/rlminfo` | High
 26 | File | `/GponForm/usb_restore_Form?script/` | High
-27 | File | `/HNAP1` | Low
-28 | File | `/HNAP1/SetClientInfo` | High
-29 | File | `/Items/*/RemoteImages/Download` | High
-30 | File | `/management/api/rcx_management/global_config_query` | High
-31 | File | `/menu.html` | Medium
-32 | File | `/modules/profile/index.php` | High
-33 | File | `/navigate/navigate_download.php` | High
-34 | File | `/ocwbs/admin/?page=user/manage_user` | High
-35 | File | `/ofrs/admin/?page=user/manage_user` | High
-36 | File | `/out.php` | Medium
-37 | File | `/password.html` | High
-38 | File | `/php_action/fetchSelectedUser.php` | High
-39 | File | `/property-list/property_view.php` | High
-40 | File | `/ptms/classes/Users.php` | High
-41 | File | `/resources//../` | High
-42 | File | `/rest/api/2/search` | High
-43 | ... | ... | ...
+27 | File | `/group1/uploa` | High
+28 | File | `/HNAP1` | Low
+29 | File | `/HNAP1/SetClientInfo` | High
+30 | File | `/Items/*/RemoteImages/Download` | High
+31 | File | `/management/api/rcx_management/global_config_query` | High
+32 | File | `/menu.html` | Medium
+33 | File | `/modules/profile/index.php` | High
+34 | File | `/navigate/navigate_download.php` | High
+35 | File | `/ocwbs/admin/?page=user/manage_user` | High
+36 | File | `/ofrs/admin/?page=user/manage_user` | High
+37 | File | `/out.php` | Medium
+38 | File | `/password.html` | High
+39 | File | `/php_action/fetchSelectedUser.php` | High
+40 | File | `/plugin` | Low
+41 | File | `/property-list/property_view.php` | High
+42 | File | `/ptms/classes/Users.php` | High
+43 | File | `/resources//../` | High
+44 | ... | ... | ...
 
-There are 375 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 377 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

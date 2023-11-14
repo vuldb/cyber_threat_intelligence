@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 23 more country items available. Please use our online service to access the data.
+There are 20 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -4130,61 +4130,60 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/academy/tutor/filter` | High
+1 | File | `/admin/?page=bike` | High
 2 | File | `/admin/?page=user` | High
-3 | File | `/admin/article/article-edit-run.php` | High
-4 | File | `/admin/cms_admin.php` | High
-5 | File | `/admin/cms_content.php` | High
-6 | File | `/admin/config/uploadicon.php` | High
-7 | File | `/admin/inquiries/view_inquiry.php` | High
-8 | File | `/admin/leancloud.php` | High
-9 | File | `/admin/list_addr_fwresource_ip.php` | High
+3 | File | `/admin/cms_admin.php` | High
+4 | File | `/admin/cms_content.php` | High
+5 | File | `/admin/config/uploadicon.php` | High
+6 | File | `/admin/inquiries/view_inquiry.php` | High
+7 | File | `/admin/leancloud.php` | High
+8 | File | `/admin/list_addr_fwresource_ip.php` | High
+9 | File | `/admin/login.php` | High
 10 | File | `/admin/order.php` | High
 11 | File | `/admin/plugin.php` | High
 12 | File | `/admin/save.php` | High
 13 | File | `/admin/services/manage_service.php` | High
-14 | File | `/api/` | Low
-15 | File | `/api/download` | High
-16 | File | `/api/download/updateFile` | High
-17 | File | `/api/es/admin/v3/security/user/1` | High
-18 | File | `/api/installation/setThumbnailRc` | High
-19 | File | `/api/runscript` | High
-20 | File | `/api/thumbnail` | High
-21 | File | `/api/v1/alerts` | High
-22 | File | `/api/v1/terminal/sessions/?limit=1` | High
-23 | File | `/bd_genie_create_account.cgi` | High
-24 | File | `/bin/sh` | Low
-25 | File | `/bitrix/admin/ldap_server_edit.php` | High
-26 | File | `/book-services.php` | High
-27 | File | `/category.php` | High
-28 | File | `/categorypage.php` | High
-29 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-30 | File | `/cgi-bin/login.cgi` | High
-31 | File | `/cgi-bin/vitogate.cgi` | High
-32 | File | `/classes/master.php?f=delete_order` | High
-33 | File | `/classes/Master.php?f=delete_sub_category` | High
-34 | File | `/classes/Master.php?f=save_brand` | High
-35 | File | `/classes/Master.php?f=save_category` | High
-36 | File | `/classes/Master.php?f=save_service` | High
-37 | File | `/classes/Master.php?f=update_order_status` | High
-38 | File | `/collection/all` | High
-39 | File | `/content/templates/` | High
-40 | File | `/course/filterRecords/` | High
-41 | File | `/debug/pprof` | Medium
-42 | File | `/fcgi/scrut_fcgi.fcgi` | High
-43 | File | `/forum/away.php` | High
-44 | File | `/goform/Diagnosis` | High
-45 | File | `/HNAP1` | Low
-46 | File | `/im/user/` | Medium
-47 | File | `/importexport.php` | High
-48 | File | `/index.php?controller=calendar&format=raw&cat[0]=SQLi&task=events` | High
-49 | File | `/log/download.php` | High
-50 | File | `/log/webmailattach.php` | High
-51 | File | `/login.php?do=login` | High
-52 | File | `/LogInOut.php` | High
-53 | ... | ... | ...
+14 | File | `/ajax/networking/get_netcfg.php` | High
+15 | File | `/api/` | Low
+16 | File | `/api/download` | High
+17 | File | `/api/runscript` | High
+18 | File | `/api/v1/alerts` | High
+19 | File | `/api/v1/terminal/sessions/?limit=1` | High
+20 | File | `/bd_genie_create_account.cgi` | High
+21 | File | `/bitrix/admin/ldap_server_edit.php` | High
+22 | File | `/book-services.php` | High
+23 | File | `/categorypage.php` | High
+24 | File | `/cgi-bin/login.cgi` | High
+25 | File | `/cgi-bin/vitogate.cgi` | High
+26 | File | `/classes/master.php?f=delete_order` | High
+27 | File | `/classes/Master.php?f=delete_sub_category` | High
+28 | File | `/classes/Master.php?f=save_brand` | High
+29 | File | `/classes/Master.php?f=save_category` | High
+30 | File | `/classes/Master.php?f=save_service` | High
+31 | File | `/classes/Master.php?f=update_order_status` | High
+32 | File | `/collection/all` | High
+33 | File | `/config-manager/save` | High
+34 | File | `/content/templates/` | High
+35 | File | `/course/filterRecords/` | High
+36 | File | `/debug/pprof` | Medium
+37 | File | `/ecommerce/admin/settings/setDiscount.php` | High
+38 | File | `/fcgi/scrut_fcgi.fcgi` | High
+39 | File | `/forum/away.php` | High
+40 | File | `/HNAP1` | Low
+41 | File | `/im/user/` | Medium
+42 | File | `/importexport.php` | High
+43 | File | `/index.php?controller=calendar&format=raw&cat[0]=SQLi&task=events` | High
+44 | File | `/log/download.php` | High
+45 | File | `/log/webmailattach.php` | High
+46 | File | `/login.php?do=login` | High
+47 | File | `/LogInOut.php` | High
+48 | File | `/m4pdf/pdf.php` | High
+49 | File | `/mail.php` | Medium
+50 | File | `/modules/projects/summary.inc.php` | High
+51 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
+52 | ... | ... | ...
 
-There are 460 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 449 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

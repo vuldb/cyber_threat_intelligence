@@ -74,7 +74,8 @@ ID | Type | Indicator | Confidence
 23 | File | `/nova/bin/user` | High
 24 | File | `/novel-admin/src/main/java/com/java2nb/common/controller/FileController.java` | High
 25 | File | `/plesk-site-preview/` | High
-26 | ... | ... | ...
+26 | File | `/public/admin/profile/update.html` | High
+27 | ... | ... | ...
 
 There are 223 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 

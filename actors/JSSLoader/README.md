@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 7 more country items available. Please use our online service to access the data.
+There are 8 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -39,14 +39,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-24, CWE-36, CWE-425 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-22, CWE-36, CWE-425 | Pathname Traversal | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -56,47 +56,41 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
 2 | File | `/admin/assign/assign.php` | High
-3 | File | `/admin/bookings/view_details.php` | High
-4 | File | `/admin/maintenance/manage_category.php` | High
-5 | File | `/admin/maintenance/view_designation.php` | High
-6 | File | `/admin/mechanics/manage_mechanic.php` | High
-7 | File | `/admin/modal_add_product.php` | High
-8 | File | `/admin/reg.php` | High
-9 | File | `/admin/service.php` | High
-10 | File | `/admin/service_requests/manage_inventory.php` | High
-11 | File | `/admin/sys_sql_query.php` | High
-12 | File | `/Ant_Suxin.php` | High
-13 | File | `/api/thumbnail` | High
-14 | File | `/api /v3/auth` | High
-15 | File | `/apply.cgi` | Medium
-16 | File | `/App_Resource/UEditor/server/upload.aspx` | High
-17 | File | `/blog/blogpublish.php` | High
-18 | File | `/boaform/admin/formPing` | High
-19 | File | `/bsms_ci/index.php/book` | High
-20 | File | `/cgi-bin/touchlist_sync.cgi` | High
-21 | File | `/cgi-bin/wlogin.cgi` | High
-22 | File | `/churchcrm/EventAttendance.php` | High
-23 | File | `/classes/Login.php` | High
-24 | File | `/classes/Master.php` | High
-25 | File | `/classes/Master.php?f=save_course` | High
-26 | File | `/classes/Master.php?f=save_service` | High
-27 | File | `/classes/Users.php` | High
-28 | File | `/collection/all` | High
-29 | File | `/company/store` | High
-30 | File | `/config/getuser` | High
-31 | File | `/config/php.ini` | High
-32 | File | `/controllers/Blocks.php` | High
-33 | File | `/dcim/rack/` | Medium
-34 | File | `/debug/pprof` | Medium
-35 | File | `/dede/tpl.php` | High
-36 | File | `/download` | Medium
-37 | File | `/E-mobile/App/System/File/downfile.php` | High
-38 | File | `/EditEventTypes.php` | High
-39 | File | `/Electron/download` | High
-40 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-41 | ... | ... | ...
+3 | File | `/admin/modal_add_product.php` | High
+4 | File | `/admin/reg.php` | High
+5 | File | `/admin/service.php` | High
+6 | File | `/admin/sys_sql_query.php` | High
+7 | File | `/Ant_Suxin.php` | High
+8 | File | `/api/authentication/login` | High
+9 | File | `/api/thumbnail` | High
+10 | File | `/api /v3/auth` | High
+11 | File | `/App_Resource/UEditor/server/upload.aspx` | High
+12 | File | `/blog/blogpublish.php` | High
+13 | File | `/boaform/admin/formPing` | High
+14 | File | `/cgi-bin/vitogate.cgi` | High
+15 | File | `/churchcrm/EventAttendance.php` | High
+16 | File | `/classes/Master.php?f=save_service` | High
+17 | File | `/collection/all` | High
+18 | File | `/company/store` | High
+19 | File | `/config-manager/save` | High
+20 | File | `/config/getuser` | High
+21 | File | `/config/php.ini` | High
+22 | File | `/controllers/Blocks.php` | High
+23 | File | `/dcim/rack/` | Medium
+24 | File | `/debug/pprof` | Medium
+25 | File | `/dede/tpl.php` | High
+26 | File | `/download` | Medium
+27 | File | `/E-mobile/App/System/File/downfile.php` | High
+28 | File | `/EditEventTypes.php` | High
+29 | File | `/Electron/download` | High
+30 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+31 | File | `/file/upload/1` | High
+32 | File | `/filemanager/php/connector.php` | High
+33 | File | `/goform/aspForm` | High
+34 | File | `/home/filter_listings` | High
+35 | ... | ... | ...
 
-There are 350 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 300 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

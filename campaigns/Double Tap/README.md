@@ -81,29 +81,30 @@ ID | Type | Indicator | Confidence
 22 | File | `/goform/net\_Web\_get_value` | High
 23 | File | `/goforms/rlminfo` | High
 24 | File | `/GponForm/usb_restore_Form?script/` | High
-25 | File | `/HNAP1` | Low
-26 | File | `/HNAP1/SetClientInfo` | High
-27 | File | `/Items/*/RemoteImages/Download` | High
-28 | File | `/menu.html` | Medium
-29 | File | `/modules/profile/index.php` | High
-30 | File | `/navigate/navigate_download.php` | High
-31 | File | `/ocwbs/admin/?page=user/manage_user` | High
-32 | File | `/ofrs/admin/?page=user/manage_user` | High
-33 | File | `/out.php` | Medium
-34 | File | `/password.html` | High
-35 | File | `/php_action/fetchSelectedUser.php` | High
-36 | File | `/proc/ioports` | High
-37 | File | `/property-list/property_view.php` | High
-38 | File | `/ptms/classes/Users.php` | High
-39 | File | `/resources//../` | High
-40 | File | `/rest/api/2/search` | High
-41 | File | `/s/` | Low
-42 | File | `/scripts/cpan_config` | High
-43 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-44 | File | `/spip.php` | Medium
-45 | ... | ... | ...
+25 | File | `/group1/uploa` | High
+26 | File | `/HNAP1` | Low
+27 | File | `/HNAP1/SetClientInfo` | High
+28 | File | `/Items/*/RemoteImages/Download` | High
+29 | File | `/menu.html` | Medium
+30 | File | `/modules/profile/index.php` | High
+31 | File | `/navigate/navigate_download.php` | High
+32 | File | `/ocwbs/admin/?page=user/manage_user` | High
+33 | File | `/ofrs/admin/?page=user/manage_user` | High
+34 | File | `/out.php` | Medium
+35 | File | `/password.html` | High
+36 | File | `/php_action/fetchSelectedUser.php` | High
+37 | File | `/plugin` | Low
+38 | File | `/proc/ioports` | High
+39 | File | `/property-list/property_view.php` | High
+40 | File | `/ptms/classes/Users.php` | High
+41 | File | `/resources//../` | High
+42 | File | `/rest/api/2/search` | High
+43 | File | `/s/` | Low
+44 | File | `/scripts/cpan_config` | High
+45 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+46 | ... | ... | ...
 
-There are 392 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 398 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

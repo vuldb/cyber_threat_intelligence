@@ -82,21 +82,22 @@ ID | Type | Indicator | Confidence
 29 | File | `/patient/appointment.php` | High
 30 | File | `/php-opos/index.php` | High
 31 | File | `/proc/<PID>/mem` | High
-32 | File | `/ptms/?page=user` | High
-33 | File | `/Service/ImageStationDataService.asmx` | High
-34 | File | `/setup/finish` | High
-35 | File | `/spip.php` | Medium
-36 | File | `/template/edit` | High
-37 | File | `/uncpath/` | Medium
-38 | File | `/upload/file.php` | High
-39 | File | `/user/s.php` | Medium
-40 | File | `/usr/bin/at` | Medium
-41 | File | `/usr/bin/pkexec` | High
-42 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
-43 | File | `/wolfcms/?/admin/user/add` | High
-44 | ... | ... | ...
+32 | File | `/protocol/iscgwtunnel/uploadiscgwrouteconf.php` | High
+33 | File | `/ptms/?page=user` | High
+34 | File | `/Service/ImageStationDataService.asmx` | High
+35 | File | `/setup/finish` | High
+36 | File | `/spip.php` | Medium
+37 | File | `/sysmanage/importconf.php` | High
+38 | File | `/template/edit` | High
+39 | File | `/uncpath/` | Medium
+40 | File | `/upload/file.php` | High
+41 | File | `/user/s.php` | Medium
+42 | File | `/usr/bin/at` | Medium
+43 | File | `/usr/bin/pkexec` | High
+44 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
+45 | ... | ... | ...
 
-There are 384 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 391 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

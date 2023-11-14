@@ -68,32 +68,33 @@ ID | Type | Indicator | Confidence
 4 | File | `/admin/produts/controller.php` | High
 5 | File | `/admin/user/team` | High
 6 | File | `/backupsettings.conf` | High
-7 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-8 | File | `/cgi-bin/system_mgr.cgi` | High
-9 | File | `/common/logViewer/logViewer.jsf` | High
-10 | File | `/crmeb/app/admin/controller/store/CopyTaobao.php` | High
-11 | File | `/en/blog-comment-4` | High
-12 | File | `/export` | Low
-13 | File | `/forum/away.php` | High
-14 | File | `/goform/aspForm` | High
-15 | File | `/h/` | Low
-16 | File | `/hocms/classes/Master.php?f=delete_collection` | High
-17 | File | `/horde/util/go.php` | High
-18 | File | `/index.php` | Medium
-19 | File | `/mifs/c/i/reg/reg.html` | High
-20 | File | `/ms/cms/content/list.do` | High
-21 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-22 | File | `/orms/` | Low
-23 | File | `/plesk-site-preview/` | High
-24 | File | `/project/PROJECTNAME/reports/` | High
-25 | File | `/public/login.htm` | High
-26 | File | `/school/model/get_admin_profile.php` | High
-27 | File | `/show_news.php` | High
-28 | File | `/student-grading-system/rms.php?page=grade` | High
-29 | File | `/style/` | Low
-30 | ... | ... | ...
+7 | File | `/book-services.php` | High
+8 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
+9 | File | `/cgi-bin/system_mgr.cgi` | High
+10 | File | `/common/logViewer/logViewer.jsf` | High
+11 | File | `/crmeb/app/admin/controller/store/CopyTaobao.php` | High
+12 | File | `/en/blog-comment-4` | High
+13 | File | `/export` | Low
+14 | File | `/forum/away.php` | High
+15 | File | `/goform/aspForm` | High
+16 | File | `/h/` | Low
+17 | File | `/hocms/classes/Master.php?f=delete_collection` | High
+18 | File | `/horde/util/go.php` | High
+19 | File | `/index.php` | Medium
+20 | File | `/mifs/c/i/reg/reg.html` | High
+21 | File | `/ms/cms/content/list.do` | High
+22 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+23 | File | `/orms/` | Low
+24 | File | `/plesk-site-preview/` | High
+25 | File | `/project/PROJECTNAME/reports/` | High
+26 | File | `/public/login.htm` | High
+27 | File | `/school/model/get_admin_profile.php` | High
+28 | File | `/show_news.php` | High
+29 | File | `/student-grading-system/rms.php?page=grade` | High
+30 | File | `/style/` | Low
+31 | ... | ... | ...
 
-There are 253 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 263 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [GB](https://vuldb.com/?country.gb)
+* [DK](https://vuldb.com/?country.dk)
 * ...
 
 There are 14 more country items available. Please use our online service to access the data.
@@ -119,9 +119,13 @@ ID | IP address | Hostname | Campaign | Confidence
 96 | [40.112.72.205](https://vuldb.com/?ip.40.112.72.205) | - | - | High
 97 | [40.113.200.201](https://vuldb.com/?ip.40.113.200.201) | - | - | High
 98 | [41.57.156.203](https://vuldb.com/?ip.41.57.156.203) | - | - | High
-99 | ... | ... | ... | ...
+99 | [42.62.20.137](https://vuldb.com/?ip.42.62.20.137) | - | - | High
+100 | [43.231.4.7](https://vuldb.com/?ip.43.231.4.7) | - | - | High
+101 | [43.252.159.63](https://vuldb.com/?ip.43.252.159.63) | ipv4-63-159-252.as55666.net | - | High
+102 | [44.238.161.76](https://vuldb.com/?ip.44.238.161.76) | ec2-44-238-161-76.us-west-2.compute.amazonaws.com | - | Medium
+103 | ... | ... | ... | ...
 
-There are 391 more IOC items available. Please use our online service to access the data.
+There are 407 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -136,7 +140,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -148,58 +152,59 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin.php/accessory/filesdel.html` | High
 3 | File | `/admin/?page=user/manage` | High
 4 | File | `/admin/add-new.php` | High
-5 | File | `/admin/doctors.php` | High
-6 | File | `/admin/index3.php` | High
-7 | File | `/admin/maintenance/view_designation.php` | High
-8 | File | `/admin/read.php?mudi=getSignal` | High
-9 | File | `/admin/reminders/manage_reminder.php` | High
-10 | File | `/adms/admin/?page=vehicles/view_transaction` | High
-11 | File | `/alphaware/summary.php` | High
-12 | File | `/api/` | Low
-13 | File | `/api/admin/store/product/list` | High
-14 | File | `/api/baskets/{name}` | High
-15 | File | `/api/stl/actions/search` | High
-16 | File | `/api/v2/cli/commands` | High
-17 | File | `/bin/ate` | Medium
-18 | File | `/boat/login.php` | High
-19 | File | `/booking/show_bookings/` | High
-20 | File | `/CCMAdmin/serverlist.asp` | High
-21 | File | `/cgi-bin` | Medium
-22 | File | `/cgi-bin/wlogin.cgi` | High
-23 | File | `/cgi/get_param.cgi` | High
-24 | File | `/classes/Master.php?f=save_sub_category` | High
-25 | File | `/Content/Template/root/reverse-shell.aspx` | High
-26 | File | `/csms/admin/inquiries/view_details.php` | High
-27 | File | `/cstecgi.cgi` | Medium
-28 | File | `/dashboard/add-blog.php` | High
-29 | File | `/debug/pprof` | Medium
-30 | File | `/env` | Low
-31 | File | `/forum/away.php` | High
-32 | File | `/group1/uploa` | High
-33 | File | `/include/chart_generator.php` | High
-34 | File | `/kelas/data` | Medium
-35 | File | `/librarian/bookdetails.php` | High
-36 | File | `/loginsave.php` | High
-37 | File | `/messageboard/view.php` | High
-38 | File | `/out.php` | Medium
-39 | File | `/param.file.tgz` | High
-40 | File | `/php-sms/admin/?page=user/manage_user` | High
-41 | File | `/reservation/add_message.php` | High
-42 | File | `/resources//../` | High
-43 | File | `/search` | Low
-44 | File | `/SVFE2/pages/feegroups/country_group.jsf` | High
-45 | File | `/textpattern/index.php` | High
-46 | File | `/upfile.cgi` | Medium
-47 | File | `/user/updatePwd` | High
-48 | File | `/video-sharing-script/watch-video.php` | High
-49 | File | `/wireless/guestnetwork.asp` | High
-50 | File | `/wireless/security.asp` | High
-51 | File | `/wordpress/wp-admin/admin.php` | High
-52 | File | `?r=recruit/interview/export&interviews=x` | High
-53 | File | `account_footer.php` | High
-54 | ... | ... | ...
+5 | File | `/admin/controller/JobLogController.java` | High
+6 | File | `/admin/doctors.php` | High
+7 | File | `/admin/gnssAutoAlign.php` | High
+8 | File | `/admin/index3.php` | High
+9 | File | `/admin/maintenance/view_designation.php` | High
+10 | File | `/admin/read.php?mudi=getSignal` | High
+11 | File | `/admin/reminders/manage_reminder.php` | High
+12 | File | `/adms/admin/?page=vehicles/view_transaction` | High
+13 | File | `/alphaware/summary.php` | High
+14 | File | `/api/` | Low
+15 | File | `/api/admin/store/product/list` | High
+16 | File | `/api/baskets/{name}` | High
+17 | File | `/api/stl/actions/search` | High
+18 | File | `/api/sys/login` | High
+19 | File | `/api/sys/set_passwd` | High
+20 | File | `/api/v2/cli/commands` | High
+21 | File | `/bin/ate` | Medium
+22 | File | `/boat/login.php` | High
+23 | File | `/booking/show_bookings/` | High
+24 | File | `/CCMAdmin/serverlist.asp` | High
+25 | File | `/cgi-bin` | Medium
+26 | File | `/cgi-bin/wlogin.cgi` | High
+27 | File | `/cgi/get_param.cgi` | High
+28 | File | `/changePassword` | High
+29 | File | `/classes/Master.php?f=save_sub_category` | High
+30 | File | `/Content/Template/root/reverse-shell.aspx` | High
+31 | File | `/csms/admin/inquiries/view_details.php` | High
+32 | File | `/cstecgi.cgi` | Medium
+33 | File | `/dashboard/add-blog.php` | High
+34 | File | `/debug/pprof` | Medium
+35 | File | `/ecshop/admin/template.php` | High
+36 | File | `/env` | Low
+37 | File | `/forum/away.php` | High
+38 | File | `/group1/uploa` | High
+39 | File | `/importexport.php` | High
+40 | File | `/include/chart_generator.php` | High
+41 | File | `/kelas/data` | Medium
+42 | File | `/librarian/bookdetails.php` | High
+43 | File | `/loginsave.php` | High
+44 | File | `/messageboard/view.php` | High
+45 | File | `/out.php` | Medium
+46 | File | `/php-sms/admin/?page=user/manage_user` | High
+47 | File | `/reservation/add_message.php` | High
+48 | File | `/resources//../` | High
+49 | File | `/search` | Low
+50 | File | `/SVFE2/pages/feegroups/country_group.jsf` | High
+51 | File | `/textpattern/index.php` | High
+52 | File | `/upfile.cgi` | Medium
+53 | File | `/user/updatePwd` | High
+54 | File | `/userLogin.asp` | High
+55 | ... | ... | ...
 
-There are 469 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 478 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -248,6 +253,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/threat-roundup-0602-0609-23/
 * https://blog.talosintelligence.com/threat-roundup-0630-0707-2/
 * https://blog.talosintelligence.com/threat-roundup-0922-0929/
+* https://blog.talosintelligence.com/threat-roundup-1013-1020/
 * https://blog.talosintelligence.com/threat-roundup-1021-1028-2/
 
 ## Literature

@@ -34,7 +34,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-25 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-25, CWE-425 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94 | Cross Site Scripting | High
@@ -65,27 +65,27 @@ ID | Type | Indicator | Confidence
 13 | File | `/etc/ciel.cfg` | High
 14 | File | `/etc/gsissh/sshd_config` | High
 15 | File | `/exponent_constants.php` | High
-16 | File | `/goform/addRouting` | High
-17 | File | `/goform/WifiBasicSet` | High
-18 | File | `/group/apply` | Medium
-19 | File | `/image_zoom.php` | High
-20 | File | `/index.php` | Medium
-21 | File | `/instance/detail` | High
-22 | File | `/it-IT/splunkd/__raw/services/get_snapshot` | High
-23 | File | `/jerry-core/ecma/base/ecma-gc.c` | High
-24 | File | `/master/core/PostHandler.php` | High
-25 | File | `/mdiy/dict/list` | High
-26 | File | `/ocwbs/admin/?page=bookings/view_details` | High
-27 | File | `/ofrs/admin/?page=requests/manage_request` | High
-28 | File | `/package_detail.php` | High
-29 | File | `/php-sms/classes/Master.php` | High
-30 | File | `/php_action/createUser.php` | High
-31 | File | `/plugin/dataDictionary/tableView.do` | High
-32 | File | `/preferences/tags` | High
-33 | File | `/release-x64/otfccdump+0x6b559f` | High
+16 | File | `/geoserver/gwc/rest.html` | High
+17 | File | `/goform/addRouting` | High
+18 | File | `/goform/WifiBasicSet` | High
+19 | File | `/group/apply` | Medium
+20 | File | `/image_zoom.php` | High
+21 | File | `/index.php` | Medium
+22 | File | `/instance/detail` | High
+23 | File | `/it-IT/splunkd/__raw/services/get_snapshot` | High
+24 | File | `/jerry-core/ecma/base/ecma-gc.c` | High
+25 | File | `/master/core/PostHandler.php` | High
+26 | File | `/mdiy/dict/list` | High
+27 | File | `/ocwbs/admin/?page=bookings/view_details` | High
+28 | File | `/ofrs/admin/?page=requests/manage_request` | High
+29 | File | `/package_detail.php` | High
+30 | File | `/php-sms/classes/Master.php` | High
+31 | File | `/php_action/createUser.php` | High
+32 | File | `/plugin/dataDictionary/tableView.do` | High
+33 | File | `/preferences/tags` | High
 34 | ... | ... | ...
 
-There are 289 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 290 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

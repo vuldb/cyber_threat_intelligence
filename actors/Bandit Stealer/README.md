@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Bandit Stealer:
 
-* [SH](https://vuldb.com/?country.sh)
 * [US](https://vuldb.com/?country.us)
+* [SH](https://vuldb.com/?country.sh)
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 2 more country items available. Please use our online service to access the data.
+There are 6 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -21,12 +21,15 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [24.199.107.85](https://vuldb.com/?ip.24.199.107.85) | - | - | High
-2 | [45.79.9.191](https://vuldb.com/?ip.45.79.9.191) | 45-79-9-191.ip.linodeusercontent.com | - | High
-3 | [45.131.64.31](https://vuldb.com/?ip.45.131.64.31) | 31.64.131.45.in-addr.arpa | - | High
-4 | ... | ... | ... | ...
+1 | [3.92.209.204](https://vuldb.com/?ip.3.92.209.204) | ec2-3-92-209-204.compute-1.amazonaws.com | - | Medium
+2 | [20.102.80.176](https://vuldb.com/?ip.20.102.80.176) | - | - | High
+3 | [20.150.218.195](https://vuldb.com/?ip.20.150.218.195) | - | - | High
+4 | [24.199.107.85](https://vuldb.com/?ip.24.199.107.85) | - | - | High
+5 | [45.42.45.104](https://vuldb.com/?ip.45.42.45.104) | - | - | High
+6 | [45.79.9.191](https://vuldb.com/?ip.45.79.9.191) | 45-79-9-191.ip.linodeusercontent.com | - | High
+7 | ... | ... | ... | ...
 
-There are 11 more IOC items available. Please use our online service to access the data.
+There are 24 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -34,15 +37,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23, CWE-24, CWE-25, CWE-36 | Pathname Traversal | High
+1 | T1006 | CWE-22, CWE-23, CWE-25 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | T1068 | CWE-250, CWE-264, CWE-267, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
-7 | ... | ... | ... | ...
+6 | ... | ... | ... | ...
 
-There are 24 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -50,53 +52,58 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.cpr/` | Low
-2 | File | `/academy/home/courses` | High
-3 | File | `/account/delivery` | High
-4 | File | `/admin/aboutus.php` | High
-5 | File | `/admin/del_feedback.php` | High
-6 | File | `/admin/edit-accepted-appointment.php` | High
-7 | File | `/admin/modal_add_product.php` | High
-8 | File | `/admin/positions_add.php` | High
-9 | File | `/admin/reg.php` | High
-10 | File | `/agms/product.php` | High
-11 | File | `/ajax.php?action=save_company` | High
-12 | File | `/ajax.php?action=save_user` | High
-13 | File | `/api/database` | High
-14 | File | `/api/download/updateFile` | High
-15 | File | `/api/v1/alerts` | High
-16 | File | `/api?path=files` | High
-17 | File | `/App_Resource/UEditor/server/upload.aspx` | High
-18 | File | `/asms/admin/mechanics/manage_mechanic.php` | High
-19 | File | `/asms/admin/mechanics/view_mechanic.php` | High
+1 | File | `.vscode/cody.json` | High
+2 | File | `/?q=wrkfrm&type=databases` | High
+3 | File | `/?r=email/api/mark&op=delFromSend` | High
+4 | File | `/about.php` | Medium
+5 | File | `/academy/home/courses` | High
+6 | File | `/admin` | Low
+7 | File | `/admin/courses/view_course.php` | High
+8 | File | `/Admin/createClass.php` | High
+9 | File | `/admin/edit_product.php` | High
+10 | File | `/admin/products/manage_product.php` | High
+11 | File | `/admin/products/view_product.php` | High
+12 | File | `/admin/sales/view_details.php` | High
+13 | File | `/admin/students/view_details.php` | High
+14 | File | `/admin/sys_sql_query.php` | High
+15 | File | `/agms/product.php` | High
+16 | File | `/ajax/ajax_login.ashx` | High
+17 | File | `/api/database` | High
+18 | File | `/api/download/updateFile` | High
+19 | File | `/api/v1/alerts` | High
 20 | File | `/blog` | Low
 21 | File | `/c/PluginsController.php` | High
-22 | File | `/category.php` | High
-23 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-24 | File | `/chaincity/user/ticket/create` | High
-25 | File | `/classes/compareClass.php` | High
-26 | File | `/collection/all` | High
-27 | File | `/Controller/Ajaxfileupload.ashx` | High
-28 | File | `/core/feeds/custom.php` | High
-29 | File | `/dede/freelist_add.php` | High
-30 | File | `/dede/vote_add.php` | High
-31 | File | `/dipam/save-delegates.php` | High
-32 | File | `/ecommerce/support_ticket` | High
-33 | File | `/ecrire/exec/puce_statut.php` | High
-34 | File | `/files/` | Low
-35 | File | `/forum/away.php` | High
-36 | File | `/friends/ajax_invite` | High
-37 | File | `/goform/SetPptpServerCfg` | High
-38 | File | `/goform/SetSysTimeCfg` | High
-39 | File | `/goform/WifiGuestSet` | High
-40 | File | `/home/filter_listings` | High
-41 | File | `/index.php` | Medium
-42 | File | `/index.php/client/message/message_read/xxxxxxxx[random-msg-hash]` | High
-43 | File | `/index.php?s=/article/ApiAdminArticle/itemAdd` | High
-44 | File | `/instance/detail` | High
-45 | ... | ... | ...
+22 | File | `/change-language/de_DE` | High
+23 | File | `/classes/compareClass.php` | High
+24 | File | `/collection/all` | High
+25 | File | `/config/myfield/test.php` | High
+26 | File | `/core/feeds/custom.php` | High
+27 | File | `/dede/freelist_add.php` | High
+28 | File | `/dede/vote_add.php` | High
+29 | File | `/ecrire/exec/puce_statut.php` | High
+30 | File | `/edit_branch.php` | High
+31 | File | `/fcgi/scrut_fcgi.fcgi` | High
+32 | File | `/files/` | Low
+33 | File | `/forum/away.php` | High
+34 | File | `/goform/SetPptpServerCfg` | High
+35 | File | `/goform/SetSysTimeCfg` | High
+36 | File | `/home/filter_listings` | High
+37 | File | `/index.php` | Medium
+38 | File | `/index.php?app=main&func=passport&action=login` | High
+39 | File | `/instance/detail` | High
+40 | File | `/items/search` | High
+41 | File | `/knowage/restful-services/dossier/importTemplateFile` | High
+42 | File | `/languages/install.php` | High
+43 | File | `/log/decodmail.php` | High
+44 | File | `/login.php?do=login` | High
+45 | File | `/manage-apartment.php` | High
+46 | File | `/mhds/clinic/view_details.php` | High
+47 | File | `/modules/projects/summary.inc.php` | High
+48 | File | `/modules/projects/vw_files.php` | High
+49 | File | `/multi-vendor-shopping-script/product-list.php` | High
+50 | ... | ... | ...
 
-There are 392 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 433 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

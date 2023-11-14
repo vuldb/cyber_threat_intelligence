@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [DE](https://vuldb.com/?country.de)
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -23,19 +23,21 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [5.9.72.48](https://vuldb.com/?ip.5.9.72.48) | cpanelbk.pcready.me | - | High
 2 | [12.167.151.118](https://vuldb.com/?ip.12.167.151.118) | - | - | High
-3 | [37.1.193.43](https://vuldb.com/?ip.37.1.193.43) | 1.1.1.1 | - | High
-4 | [40.112.72.205](https://vuldb.com/?ip.40.112.72.205) | - | - | High
-5 | [43.230.143.219](https://vuldb.com/?ip.43.230.143.219) | - | - | High
-6 | [43.231.4.7](https://vuldb.com/?ip.43.231.4.7) | - | - | High
-7 | [45.90.34.87](https://vuldb.com/?ip.45.90.34.87) | - | - | High
-8 | [46.105.98.53](https://vuldb.com/?ip.46.105.98.53) | ns382068.ip-46-105-98.eu | - | High
-9 | [52.5.251.20](https://vuldb.com/?ip.52.5.251.20) | ec2-52-5-251-20.compute-1.amazonaws.com | - | Medium
-10 | [69.55.5.252](https://vuldb.com/?ip.69.55.5.252) | - | - | High
-11 | [72.52.91.14](https://vuldb.com/?ip.72.52.91.14) | - | - | High
-12 | [77.104.144.25](https://vuldb.com/?ip.77.104.144.25) | ip-77-104-144-25.siteground.com | - | High
-13 | ... | ... | ... | ...
+3 | [23.12.144.134](https://vuldb.com/?ip.23.12.144.134) | a23-12-144-134.deploy.static.akamaitechnologies.com | - | High
+4 | [23.12.144.141](https://vuldb.com/?ip.23.12.144.141) | a23-12-144-141.deploy.static.akamaitechnologies.com | - | High
+5 | [23.207.202.8](https://vuldb.com/?ip.23.207.202.8) | a23-207-202-8.deploy.static.akamaitechnologies.com | - | High
+6 | [23.207.202.25](https://vuldb.com/?ip.23.207.202.25) | a23-207-202-25.deploy.static.akamaitechnologies.com | - | High
+7 | [23.207.202.50](https://vuldb.com/?ip.23.207.202.50) | a23-207-202-50.deploy.static.akamaitechnologies.com | - | High
+8 | [23.207.202.61](https://vuldb.com/?ip.23.207.202.61) | a23-207-202-61.deploy.static.akamaitechnologies.com | - | High
+9 | [23.221.227.169](https://vuldb.com/?ip.23.221.227.169) | a23-221-227-169.deploy.static.akamaitechnologies.com | - | High
+10 | [23.221.227.172](https://vuldb.com/?ip.23.221.227.172) | a23-221-227-172.deploy.static.akamaitechnologies.com | - | High
+11 | [37.1.193.43](https://vuldb.com/?ip.37.1.193.43) | 1.1.1.1 | - | High
+12 | [40.112.72.205](https://vuldb.com/?ip.40.112.72.205) | - | - | High
+13 | [43.230.143.219](https://vuldb.com/?ip.43.230.143.219) | - | - | High
+14 | [43.231.4.7](https://vuldb.com/?ip.43.231.4.7) | - | - | High
+15 | ... | ... | ... | ...
 
-There are 46 more IOC items available. Please use our online service to access the data.
+There are 56 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -66,7 +68,7 @@ ID | Type | Indicator | Confidence
 8 | File | `admin/conf_users_edit.php` | High
 9 | ... | ... | ...
 
-There are 63 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 64 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -78,6 +80,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/2020/02/threat-roundup-0214-0221.html
 * https://blog.talosintelligence.com/2020/05/threat-roundup-0501-0508.html
 * https://blog.talosintelligence.com/2020/07/threat-roundup-0703-0710.html
+* https://blog.talosintelligence.com/threat-roundup-0922-0929/
 
 ## Literature
 

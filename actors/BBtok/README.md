@@ -17,7 +17,11 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [147.124.213.152](https://vuldb.com/?ip.147.124.213.152) | - | - | High
-2 | [216.250.251.196](https://vuldb.com/?ip.216.250.251.196) | - | - | High
+2 | [173.249.196.195](https://vuldb.com/?ip.173.249.196.195) | - | - | High
+3 | [176.31.159.196](https://vuldb.com/?ip.176.31.159.196) | ip196.ip-176-31-159.eu | - | High
+4 | ... | ... | ... | ...
+
+There are 1 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -25,12 +29,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059 | CWE-94 | Cross Site Scripting | High
-2 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-3 | T1068 | CWE-264, CWE-269 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+1 | T1006 | CWE-22 | Pathname Traversal | High
+2 | T1059 | CWE-94 | Cross Site Scripting | High
+3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 4 more TTP items available. Please use our online service to access the data.
+There are 5 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -41,9 +45,11 @@ ID | Type | Indicator | Confidence
 1 | File | `/forum/away.php` | High
 2 | File | `/horde/util/go.php` | High
 3 | File | `/inc/HTTPClient.php` | High
-4 | ... | ... | ...
+4 | File | `/SASWebReportStudio/logonAndRender.do` | High
+5 | File | `addentry.php` | Medium
+6 | ... | ... | ...
 
-There are 23 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 42 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

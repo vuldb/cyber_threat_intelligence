@@ -27,7 +27,7 @@ ID | IP address | Hostname | Campaign | Confidence
 4 | [45.90.222.131](https://vuldb.com/?ip.45.90.222.131) | 45-90-222-131-hostedby.bcr.host | - | High
 5 | ... | ... | ... | ...
 
-There are 17 more IOC items available. Please use our online service to access the data.
+There are 18 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -40,7 +40,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 11 more TTP items available. Please use our online service to access the data.
+There are 13 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -51,26 +51,29 @@ ID | Type | Indicator | Confidence
 1 | File | `/admin/inquiries/view_details.php` | High
 2 | File | `/Admin/login.php` | High
 3 | File | `/admin/maintenance/view_designation.php` | High
-4 | File | `/coreframe/app/order/admin/index.php` | High
-5 | File | `/debug/pprof` | Medium
-6 | File | `/dev/snd/seq` | Medium
-7 | File | `/etc/sudoers` | Medium
-8 | File | `/forum/away.php` | High
-9 | File | `/products/details.asp` | High
-10 | File | `/showfile.php` | High
-11 | File | `/uncpath/` | Medium
-12 | File | `/Wedding-Management/package_detail.php` | High
-13 | File | `adclick.php` | Medium
-14 | File | `admin-ajax.php` | High
-15 | File | `admin/abc.php` | High
-16 | File | `admin/news.php` | High
-17 | File | `artlinks.dispnew.php` | High
-18 | File | `auth.inc.php` | Medium
-19 | File | `bookPerPub.php` | High
-20 | File | `cart_content.php` | High
-21 | ... | ... | ...
+4 | File | `/AdminDir` | Medium
+5 | File | `/coreframe/app/order/admin/index.php` | High
+6 | File | `/debug/pprof` | Medium
+7 | File | `/dev/snd/seq` | Medium
+8 | File | `/etc/sudoers` | Medium
+9 | File | `/forum/away.php` | High
+10 | File | `/products/details.asp` | High
+11 | File | `/showfile.php` | High
+12 | File | `/uncpath/` | Medium
+13 | File | `/Wedding-Management/package_detail.php` | High
+14 | File | `adclick.php` | Medium
+15 | File | `admin-ajax.php` | High
+16 | File | `admin/abc.php` | High
+17 | File | `admin/news.php` | High
+18 | File | `adminCons.php` | High
+19 | File | `apps\admin\controller\content\SingleController.php` | High
+20 | File | `artlinks.dispnew.php` | High
+21 | File | `auth.inc.php` | Medium
+22 | File | `bookPerPub.php` | High
+23 | File | `ca.c` | Low
+24 | ... | ... | ...
 
-There are 170 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 198 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

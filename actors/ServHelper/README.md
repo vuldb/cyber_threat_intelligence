@@ -63,13 +63,13 @@ ID | Type | Indicator | Confidence
 13 | File | `/scripts/unlock_tasks.php` | High
 14 | File | `/sendKey` | Medium
 15 | File | `/setSystemAdmin` | High
-16 | File | `/system/user/modules/mod_users/controller.php` | High
-17 | File | `/tmp` | Low
-18 | File | `/type.php` | Medium
-19 | File | `/view-property.php` | High
+16 | File | `/signup_script.php` | High
+17 | File | `/system/user/modules/mod_users/controller.php` | High
+18 | File | `/tmp` | Low
+19 | File | `/type.php` | Medium
 20 | ... | ... | ...
 
-There are 164 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 166 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

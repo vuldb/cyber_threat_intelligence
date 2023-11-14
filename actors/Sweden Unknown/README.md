@@ -2570,7 +2570,7 @@ ID | Technique | Weakness | Description | Confidence
 6 | T1068 | CWE-264, CWE-266, CWE-269, CWE-274, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 7 | ... | ... | ... | ...
 
-There are 24 more TTP items available. Please use our online service to access the data.
+There are 23 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -2578,51 +2578,50 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/save.php` | High
-2 | File | `/admin/sys_sql_query.php` | High
-3 | File | `/api/baskets/{name}` | High
-4 | File | `/api/download` | High
-5 | File | `/api/runscript` | High
-6 | File | `/api/v1/alerts` | High
-7 | File | `/api/v1/terminal/sessions/?limit=1` | High
-8 | File | `/bitrix/admin/ldap_server_edit.php` | High
-9 | File | `/category.php` | High
-10 | File | `/categorypage.php` | High
-11 | File | `/cgi-bin/luci/api/wireless` | High
-12 | File | `/cgi-bin/vitogate.cgi` | High
-13 | File | `/company/store` | High
-14 | File | `/Content/Template/root/reverse-shell.aspx` | High
-15 | File | `/Controller/Ajaxfileupload.ashx` | High
-16 | File | `/core/conditions/AbstractWrapper.java` | High
-17 | File | `/dashboard/add-blog.php` | High
-18 | File | `/data/remove` | Medium
-19 | File | `/debug/pprof` | Medium
-20 | File | `/dev/kmem` | Medium
-21 | File | `/download` | Medium
-22 | File | `/etc/passwd` | Medium
-23 | File | `/fcgi/scrut_fcgi.fcgi` | High
-24 | File | `/forum/away.php` | High
-25 | File | `/group1/uploa` | High
-26 | File | `/HNAP1` | Low
-27 | File | `/index.php` | Medium
-28 | File | `/iniFile/config.ini` | High
-29 | File | `/jeecg-boot/jmreport/show` | High
-30 | File | `/jeecg-boot/jmreport/upload` | High
-31 | File | `/jeecg-boot/sys/common/upload` | High
-32 | File | `/librarian/bookdetails.php` | High
-33 | File | `/mhds/clinic/view_details.php` | High
-34 | File | `/modules/projects/vw_files.php` | High
-35 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
-36 | File | `/recipe-result` | High
-37 | File | `/register.do` | Medium
-38 | File | `/resources//../` | High
-39 | File | `/RPS2019Service/status.html` | High
-40 | File | `/search` | Low
-41 | File | `/Service/ImageStationDataService.asmx` | High
-42 | File | `/sicweb-ajax/tmproot/` | High
-43 | ... | ... | ...
+1 | File | `/admin/controller/JobLogController.java` | High
+2 | File | `/admin/save.php` | High
+3 | File | `/ajax/networking/get_wgkey.php` | High
+4 | File | `/api/baskets/{name}` | High
+5 | File | `/api/download` | High
+6 | File | `/api/runscript` | High
+7 | File | `/api/sys/login` | High
+8 | File | `/api/sys/set_passwd` | High
+9 | File | `/api/v1/alerts` | High
+10 | File | `/api/v1/terminal/sessions/?limit=1` | High
+11 | File | `/api2/html/` | Medium
+12 | File | `/bitrix/admin/ldap_server_edit.php` | High
+13 | File | `/category.php` | High
+14 | File | `/categorypage.php` | High
+15 | File | `/cgi-bin/luci/api/wireless` | High
+16 | File | `/cgi-bin/vitogate.cgi` | High
+17 | File | `/changePassword` | High
+18 | File | `/Content/Template/root/reverse-shell.aspx` | High
+19 | File | `/core/conditions/AbstractWrapper.java` | High
+20 | File | `/dashboard/add-blog.php` | High
+21 | File | `/data/remove` | Medium
+22 | File | `/debug/pprof` | Medium
+23 | File | `/dev/kmem` | Medium
+24 | File | `/download` | Medium
+25 | File | `/ecshop/admin/template.php` | High
+26 | File | `/fcgi/scrut_fcgi.fcgi` | High
+27 | File | `/forum/away.php` | High
+28 | File | `/group1/uploa` | High
+29 | File | `/HNAP1` | Low
+30 | File | `/index.php` | Medium
+31 | File | `/iniFile/config.ini` | High
+32 | File | `/jeecg-boot/jmreport/show` | High
+33 | File | `/jeecg-boot/jmreport/upload` | High
+34 | File | `/jeecg-boot/sys/common/upload` | High
+35 | File | `/librarian/bookdetails.php` | High
+36 | File | `/mhds/clinic/view_details.php` | High
+37 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
+38 | File | `/proxy` | Low
+39 | File | `/register.do` | Medium
+40 | File | `/resources//../` | High
+41 | File | `/RPS2019Service/status.html` | High
+42 | ... | ... | ...
 
-There are 375 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 360 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -51,13 +51,13 @@ ID | Type | Indicator | Confidence
 2 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
 3 | File | `/current_action.php?action=reboot` | High
 4 | File | `/etc/postfix/sender_login` | High
-5 | File | `/filemanager/ajax_calls.php` | High
-6 | File | `/Items/*/RemoteImages/Download` | High
-7 | File | `/login.php` | Medium
-8 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+5 | File | `/file/upload/1` | High
+6 | File | `/filemanager/ajax_calls.php` | High
+7 | File | `/Items/*/RemoteImages/Download` | High
+8 | File | `/login.php` | Medium
 9 | ... | ... | ...
 
-There are 68 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 70 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

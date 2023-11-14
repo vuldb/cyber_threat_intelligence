@@ -102,9 +102,10 @@ ID | Type | Indicator | Confidence
 27 | File | `/rating.php` | Medium
 28 | File | `/reviewer/system/system/admins/manage/users/user-update.php` | High
 29 | File | `/scas/admin/` | Medium
-30 | ... | ... | ...
+30 | File | `/scas/classes/Users.php?f=save_user` | High
+31 | ... | ... | ...
 
-There are 258 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 259 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

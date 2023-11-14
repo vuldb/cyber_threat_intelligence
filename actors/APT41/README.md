@@ -13,7 +13,7 @@ The following _campaigns_ are known and can be associated with APT41:
 * CVE-2021-44207
 * ...
 
-There are 2 more campaign items available. Please use our online service to access the data.
+There are 3 more campaign items available. Please use our online service to access the data.
 
 ## Countries
 
@@ -52,9 +52,10 @@ ID | IP address | Hostname | Campaign | Confidence
 18 | [45.128.135.15](https://vuldb.com/?ip.45.128.135.15) | - | MoonBounce | High
 19 | [45.138.157.78](https://vuldb.com/?ip.45.138.157.78) | srv1.fincantleri.co | - | High
 20 | [45.153.231.31](https://vuldb.com/?ip.45.153.231.31) | cheater.rehab | CVE-2021-44207 | High
-21 | ... | ... | ... | ...
+21 | [46.17.43.74](https://vuldb.com/?ip.46.17.43.74) | - | LightSpy | High
+22 | ... | ... | ... | ...
 
-There are 82 more IOC items available. Please use our online service to access the data.
+There are 83 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -81,10 +82,11 @@ ID | Type | Indicator | Confidence
 4 | File | `/members/view_member.php` | High
 5 | File | `/mhds/clinic/view_details.php` | High
 6 | File | `/owa/auth/logon.aspx` | High
-7 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
-8 | File | `/uncpath/` | Medium
-9 | File | `adclick.php` | Medium
-10 | ... | ... | ...
+7 | File | `/rest/api/latest/projectvalidate/key` | High
+8 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
+9 | File | `/uncpath/` | Medium
+10 | File | `adclick.php` | Medium
+11 | ... | ... | ...
 
 There are 79 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
@@ -102,6 +104,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://www.fireeye.com/blog/threat-research/2020/03/apt41-initiates-global-intrusion-campaign-using-multiple-exploits.html
 * https://www.lookout.com/threat-intelligence/article/wyrmspy-dragonegg-surveillanceware-apt41
 * https://www.mandiant.com/resources/apt41-us-state-governments
+* https://www.threatfabric.com/blogs/lightspy-mapt-mobile-payment-system-attack
 * https://www.threatminer.org/report.php?q=OfPigsandMalwareExaminingaPossibleMemberoftheWinntiGroup-TrendMicro.pdf&y=2017
 * https://www.threatminer.org/report.php?q=WinntiAbusesGitHubforC&CCommunications-TrendMicro.pdf&y=2017
 * https://www.threatminer.org/report.php?q=WinntiEvolution-GoingOpenSource-Protectwise.pdf&y=2017

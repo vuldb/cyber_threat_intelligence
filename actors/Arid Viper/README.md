@@ -4,16 +4,22 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.arid_viper](https://vuldb.com/?actor.arid_viper)
 
+## Campaigns
+
+The following _campaigns_ are known and can be associated with Arid Viper:
+
+* Hamas
+
 ## Countries
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Arid Viper:
 
 * [US](https://vuldb.com/?country.us)
 * [DE](https://vuldb.com/?country.de)
-* [PL](https://vuldb.com/?country.pl)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 1 more country items available. Please use our online service to access the data.
+There are 4 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -22,11 +28,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [54.255.143.112](https://vuldb.com/?ip.54.255.143.112) | ec2-54-255-143-112.ap-southeast-1.compute.amazonaws.com | - | Medium
-2 | [173.236.89.19](https://vuldb.com/?ip.173.236.89.19) | 19.89.236.173.unassigned.ord.singlehop.net | - | High
-3 | [188.40.75.132](https://vuldb.com/?ip.188.40.75.132) | static.132.75.40.188.clients.your-server.de | - | High
-4 | ... | ... | ... | ...
+2 | [91.199.147.84](https://vuldb.com/?ip.91.199.147.84) | s726618.srvape.com | Hamas | High
+3 | [94.131.98.3](https://vuldb.com/?ip.94.131.98.3) | stockdc1.com | Hamas | High
+4 | [95.164.18.204](https://vuldb.com/?ip.95.164.18.204) | vm1554543.stark-industries.solutions | Hamas | High
+5 | ... | ... | ... | ...
 
-There are 4 more IOC items available. Please use our online service to access the data.
+There are 14 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -36,10 +43,10 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1059 | CWE-94 | Cross Site Scripting | High
 2 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-3 | T1068 | CWE-264, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+3 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 4 | ... | ... | ... | ...
 
-There are 3 more TTP items available. Please use our online service to access the data.
+There are 5 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -50,15 +57,17 @@ ID | Type | Indicator | Confidence
 1 | File | `addguest.cgi` | Medium
 2 | File | `add_comment.php` | High
 3 | File | `admin/index.php` | High
-4 | File | `data/gbconfiguration.dat` | High
-5 | ... | ... | ...
+4 | File | `api_jsonrpc.php` | High
+5 | File | `data/gbconfiguration.dat` | High
+6 | ... | ... | ...
 
-There are 25 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 38 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://blog.sekoia.io/aridviper-an-intrusion-set-allegedly-associated-with-hamas/
 * https://www.threatminer.org/report.php?q=operation-arid-viper-whitepaper-en.pdf&y=2015
 * https://www.threatminer.org/report.php?q=OperationAridViperSlithersBackintoView_Proofpoint.pdf&y=2015
 

@@ -97,10 +97,9 @@ ID | Type | Indicator | Confidence
 35 | File | `/h/` | Low
 36 | File | `/index.php` | Medium
 37 | File | `/index.php?module=configuration/application` | High
-38 | File | `/index.php?route=extension/module/so_filter_shop_by/filter_data` | High
-39 | ... | ... | ...
+38 | ... | ... | ...
 
-There are 333 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 324 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

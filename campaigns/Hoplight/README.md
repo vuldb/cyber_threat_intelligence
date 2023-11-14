@@ -51,13 +51,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-425 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -85,15 +85,14 @@ ID | Type | Indicator | Confidence
 18 | File | `/fuel/index.php/fuel/pages/items` | High
 19 | File | `/goform/aspForm` | High
 20 | File | `/image_zoom.php` | High
-21 | File | `/include/config.cache.php` | High
-22 | File | `/index.php` | Medium
-23 | File | `/mkshop/Men/profile.php` | High
-24 | File | `/modules/announcement/index.php?view=edit` | High
-25 | File | `/param.file.tgz` | High
-26 | File | `/proxy/` | Low
-27 | ... | ... | ...
+21 | File | `/index.php` | Medium
+22 | File | `/mkshop/Men/profile.php` | High
+23 | File | `/modules/announcement/index.php?view=edit` | High
+24 | File | `/param.file.tgz` | High
+25 | File | `/proxy/` | Low
+26 | ... | ... | ...
 
-There are 226 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 223 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

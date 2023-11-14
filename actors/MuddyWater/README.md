@@ -24,7 +24,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 24 more country items available. Please use our online service to access the data.
+There are 23 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -85,59 +85,58 @@ ID | Type | Indicator | Confidence
 5 | File | `/admin/?page=user` | High
 6 | File | `/admin/?page=user/list` | High
 7 | File | `/admin/?page=user/manage_user&id=3` | High
-8 | File | `/admin/about-us.php` | High
-9 | File | `/admin/add-category.php` | High
-10 | File | `/admin/add-services.php` | High
-11 | File | `/admin/admin-profile.php` | High
-12 | File | `/admin/article/article-edit-run.php` | High
-13 | File | `/admin/cms_admin.php` | High
-14 | File | `/admin/cms_content.php` | High
-15 | File | `/admin/config/uploadicon.php` | High
-16 | File | `/admin/del_category.php` | High
-17 | File | `/admin/del_feedback.php` | High
-18 | File | `/admin/del_service.php` | High
-19 | File | `/admin/edit-accepted-appointment.php` | High
-20 | File | `/admin/edit_category.php` | High
-21 | File | `/admin/edit_product.php` | High
-22 | File | `/admin/files` | Medium
-23 | File | `/admin/forgot-password.php` | High
-24 | File | `/admin/index.php` | High
-25 | File | `/admin/inquiries/view_inquiry.php` | High
-26 | File | `/admin/invoice.php` | High
-27 | File | `/admin/leancloud.php` | High
-28 | File | `/admin/list_addr_fwresource_ip.php` | High
-29 | File | `/admin/login.php` | High
-30 | File | `/admin/order.php` | High
-31 | File | `/admin/plugin.php` | High
-32 | File | `/admin/save.php` | High
-33 | File | `/admin/search-appointment.php` | High
-34 | File | `/admin/services/manage_service.php` | High
-35 | File | `/admin/sys_sql_query.php` | High
-36 | File | `/api/` | Low
-37 | File | `/api/download` | High
-38 | File | `/api/download/updateFile` | High
-39 | File | `/api/es/admin/v3/security/user/1` | High
-40 | File | `/api/installation/setThumbnailRc` | High
-41 | File | `/api/sys/login` | High
-42 | File | `/api/sys/set_passwd` | High
-43 | File | `/api/thumbnail` | High
-44 | File | `/app/sys1.php` | High
-45 | File | `/blog-single.php` | High
-46 | File | `/book-services.php` | High
-47 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-48 | File | `/cgi-bin/vitogate.cgi` | High
-49 | File | `/classes/Master.php?f=delete_category` | High
-50 | File | `/classes/master.php?f=delete_order` | High
-51 | File | `/classes/Master.php?f=delete_sub_category` | High
-52 | File | `/classes/Master.php?f=save_brand` | High
-53 | File | `/classes/Master.php?f=save_category` | High
-54 | File | `/classes/Master.php?f=save_service` | High
-55 | File | `/classes/Master.php?f=update_order_status` | High
-56 | File | `/collection/all` | High
-57 | File | `/conf/` | Low
-58 | ... | ... | ...
+8 | File | `/admin/add-category.php` | High
+9 | File | `/admin/add-services.php` | High
+10 | File | `/admin/article/article-edit-run.php` | High
+11 | File | `/admin/cms_admin.php` | High
+12 | File | `/admin/cms_content.php` | High
+13 | File | `/admin/config/uploadicon.php` | High
+14 | File | `/admin/edit-accepted-appointment.php` | High
+15 | File | `/admin/edit_category.php` | High
+16 | File | `/admin/files` | Medium
+17 | File | `/admin/forgot-password.php` | High
+18 | File | `/admin/inquiries/view_inquiry.php` | High
+19 | File | `/admin/invoice.php` | High
+20 | File | `/admin/leancloud.php` | High
+21 | File | `/admin/list_addr_fwresource_ip.php` | High
+22 | File | `/admin/login.php` | High
+23 | File | `/admin/order.php` | High
+24 | File | `/admin/plugin.php` | High
+25 | File | `/admin/save.php` | High
+26 | File | `/admin/search-appointment.php` | High
+27 | File | `/admin/services/manage_service.php` | High
+28 | File | `/api/` | Low
+29 | File | `/api/download` | High
+30 | File | `/api/download/updateFile` | High
+31 | File | `/api/es/admin/v3/security/user/1` | High
+32 | File | `/api/installation/setThumbnailRc` | High
+33 | File | `/api/sys/login` | High
+34 | File | `/api/sys/set_passwd` | High
+35 | File | `/api/thumbnail` | High
+36 | File | `/app/sys1.php` | High
+37 | File | `/blog-single.php` | High
+38 | File | `/book-services.php` | High
+39 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+40 | File | `/cgi-bin/vitogate.cgi` | High
+41 | File | `/classes/master.php?f=delete_order` | High
+42 | File | `/classes/Master.php?f=delete_sub_category` | High
+43 | File | `/classes/Master.php?f=save_brand` | High
+44 | File | `/classes/Master.php?f=save_category` | High
+45 | File | `/classes/Master.php?f=save_service` | High
+46 | File | `/classes/Master.php?f=update_order_status` | High
+47 | File | `/collection/all` | High
+48 | File | `/conf/` | Low
+49 | File | `/config-manager/save` | High
+50 | File | `/config/php.ini` | High
+51 | File | `/content/templates/` | High
+52 | File | `/course/filterRecords/` | High
+53 | File | `/ecommerce/admin/settings/setDiscount.php` | High
+54 | File | `/fusion/portal/action/Link` | High
+55 | File | `/goform/Diagnosis` | High
+56 | File | `/goform/fast_setting_wifi_set` | High
+57 | ... | ... | ...
 
-There are 509 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 494 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

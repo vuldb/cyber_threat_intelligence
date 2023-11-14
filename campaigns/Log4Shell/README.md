@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Log4Shell:
 
 * [US](https://vuldb.com/?country.us)
-* [SC](https://vuldb.com/?country.sc)
 * [DE](https://vuldb.com/?country.de)
+* [SC](https://vuldb.com/?country.sc)
 * ...
 
-There are 8 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -92,7 +92,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-425 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-425 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
@@ -115,60 +115,61 @@ ID | Type | Indicator | Confidence
 5 | File | `/admin/?page=user/manage_user&id=3` | High
 6 | File | `/admin/addproduct.php` | High
 7 | File | `/admin/ajax.php?action=confirm_order` | High
-8 | File | `/admin/ajax.php?action=delete_uploads` | High
-9 | File | `/admin/ajax.php?action=delete_user` | High
-10 | File | `/admin/attendance_row.php` | High
-11 | File | `/admin/configurations/userInfo` | High
-12 | File | `/admin/deduction_row.php` | High
-13 | File | `/admin/edit-services.php` | High
-14 | File | `/admin/employee_row.php` | High
-15 | File | `/admin/login.php` | High
-16 | File | `/admin/maintenance/brand.php` | High
-17 | File | `/admin/maintenance/view_designation.php` | High
-18 | File | `/admin/mechanics/manage_mechanic.php` | High
-19 | File | `/admin/read.php?mudi=getSignal` | High
-20 | File | `/admin/sales/manage_sale.php` | High
-21 | File | `/admin/service_requests/manage_inventory.php` | High
+8 | File | `/admin/ajax.php?action=delete_user` | High
+9 | File | `/admin/attendance_row.php` | High
+10 | File | `/admin/configurations/userInfo` | High
+11 | File | `/admin/deduction_row.php` | High
+12 | File | `/admin/edit-services.php` | High
+13 | File | `/admin/employee_row.php` | High
+14 | File | `/admin/login.php` | High
+15 | File | `/admin/maintenance/brand.php` | High
+16 | File | `/admin/maintenance/view_designation.php` | High
+17 | File | `/admin/mechanics/manage_mechanic.php` | High
+18 | File | `/admin/read.php?mudi=getSignal` | High
+19 | File | `/admin/sales/manage_sale.php` | High
+20 | File | `/admin/service_requests/manage_inventory.php` | High
+21 | File | `/admin/students/update_status.php` | High
 22 | File | `/admin/sys_sql_query.php` | High
 23 | File | `/admin/test_status.php` | High
 24 | File | `/admin/transactions/track_shipment.php` | High
 25 | File | `/admin/user/manage_user.php` | High
 26 | File | `/ajax.php?action=save_company` | High
-27 | File | `/api/baskets/{name}` | High
-28 | File | `/api/stl/actions/search` | High
-29 | File | `/api/sys/set_passwd` | High
-30 | File | `/apply.cgi` | Medium
-31 | File | `/App_Resource/UEditor/server/upload.aspx` | High
-32 | File | `/blog` | Low
-33 | File | `/booking/show_bookings/` | High
-34 | File | `/cgi-bin/mainfunction.cgi` | High
-35 | File | `/cgi-bin/touchlist_sync.cgi` | High
-36 | File | `/change-language/de_DE` | High
-37 | File | `/classes/Master.php` | High
-38 | File | `/classes/Master.php?f=delete_inquiry` | High
-39 | File | `/classes/Master.php?f=save_item` | High
-40 | File | `/config/api/v1/reboot` | High
-41 | File | `/Duty/AjaxHandle/UploadFloodPlanFileUpdate.ashx` | High
-42 | File | `/DXR.axd` | Medium
-43 | File | `/etc/shadow` | Medium
-44 | File | `/file_manager/admin/save_user.php` | High
-45 | File | `/forum/away.php` | High
-46 | File | `/forum/PostPrivateMessage` | High
-47 | File | `/forums.php?action=post` | High
-48 | File | `/fos/admin/ajax.php?action=login` | High
-49 | File | `/fos/admin/index.php?page=menu` | High
-50 | File | `/goForm/aspForm` | High
-51 | File | `/home/filter_listings` | High
-52 | File | `/im/user/` | Medium
-53 | File | `/importexport.php` | High
-54 | File | `/inc/parser/xhtml.php` | High
-55 | File | `/index.php` | Medium
-56 | File | `/index.php?app=main&func=passport&action=login` | High
-57 | File | `/index.php?controller=GzUser&action=edit&id=1` | High
-58 | File | `/kelas/data` | Medium
-59 | ... | ... | ...
+27 | File | `/api/authentication/login` | High
+28 | File | `/api/baskets/{name}` | High
+29 | File | `/api/stl/actions/search` | High
+30 | File | `/api/sys/set_passwd` | High
+31 | File | `/apply.cgi` | Medium
+32 | File | `/App_Resource/UEditor/server/upload.aspx` | High
+33 | File | `/blog` | Low
+34 | File | `/booking/show_bookings/` | High
+35 | File | `/cgi-bin/mainfunction.cgi` | High
+36 | File | `/cgi-bin/touchlist_sync.cgi` | High
+37 | File | `/change-language/de_DE` | High
+38 | File | `/classes/Master.php` | High
+39 | File | `/classes/Master.php?f=delete_inquiry` | High
+40 | File | `/classes/Master.php?f=save_item` | High
+41 | File | `/config/api/v1/reboot` | High
+42 | File | `/Duty/AjaxHandle/UploadFloodPlanFileUpdate.ashx` | High
+43 | File | `/DXR.axd` | Medium
+44 | File | `/etc/shadow` | Medium
+45 | File | `/file_manager/admin/save_user.php` | High
+46 | File | `/find-a-match` | High
+47 | File | `/forum/away.php` | High
+48 | File | `/forum/PostPrivateMessage` | High
+49 | File | `/forums.php?action=post` | High
+50 | File | `/fos/admin/ajax.php?action=login` | High
+51 | File | `/fos/admin/index.php?page=menu` | High
+52 | File | `/goForm/aspForm` | High
+53 | File | `/home/filter_listings` | High
+54 | File | `/im/user/` | Medium
+55 | File | `/importexport.php` | High
+56 | File | `/inc/parser/xhtml.php` | High
+57 | File | `/index.php` | Medium
+58 | File | `/index.php?app=main&func=passport&action=login` | High
+59 | File | `/index.php?controller=GzUser&action=edit&id=1` | High
+60 | ... | ... | ...
 
-There are 516 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 528 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -19,37 +19,39 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [5.8.55.205](https://vuldb.com/?ip.5.8.55.205) | carpbaboon.com | - | High
 2 | [5.9.224.217](https://vuldb.com/?ip.5.9.224.217) | static.217.224.9.5.clients.your-server.de | - | High
-3 | [6.43.51.17](https://vuldb.com/?ip.6.43.51.17) | - | - | High
-4 | [23.106.122.14](https://vuldb.com/?ip.23.106.122.14) | - | - | High
-5 | [23.106.123.224](https://vuldb.com/?ip.23.106.123.224) | - | - | High
-6 | [23.106.123.249](https://vuldb.com/?ip.23.106.123.249) | - | - | High
-7 | [23.254.129.180](https://vuldb.com/?ip.23.254.129.180) | hwsrv-1035456.hostwindsdns.com | - | High
-8 | [23.254.133.7](https://vuldb.com/?ip.23.254.133.7) | client-23-254-133-7.hostwindsdns.com | - | High
-9 | [23.254.134.53](https://vuldb.com/?ip.23.254.134.53) | hwsrv-1045495.hostwindsdns.com | - | High
-10 | [23.254.144.209](https://vuldb.com/?ip.23.254.144.209) | client-23-254-144-209.hostwindsdns.com | - | High
-11 | [23.254.164.106](https://vuldb.com/?ip.23.254.164.106) | hwsrv-978595.hostwindsdns.com | - | High
-12 | [23.254.201.147](https://vuldb.com/?ip.23.254.201.147) | WIN-FRBTX5I65I.com | - | High
-13 | [23.254.217.192](https://vuldb.com/?ip.23.254.217.192) | hwsrv-982289.hostwindsdns.com | - | High
-14 | [23.254.226.52](https://vuldb.com/?ip.23.254.226.52) | client-23-254-226-52.hostwindsdns.com | - | High
-15 | [23.254.226.136](https://vuldb.com/?ip.23.254.226.136) | box.sostenibilidadsocia.online | - | High
-16 | [23.254.227.74](https://vuldb.com/?ip.23.254.227.74) | hwsrv-1042388.hostwindsdns.com | - | High
-17 | [23.254.228.176](https://vuldb.com/?ip.23.254.228.176) | client-23-254-228-176.hostwindsdns.com | - | High
-18 | [26.64.30.13](https://vuldb.com/?ip.26.64.30.13) | - | - | High
-19 | [31.214.157.12](https://vuldb.com/?ip.31.214.157.12) | mail.private-mail.nl | - | High
-20 | [34.90.104.246](https://vuldb.com/?ip.34.90.104.246) | 246.104.90.34.bc.googleusercontent.com | - | Medium
-21 | [34.95.4.102](https://vuldb.com/?ip.34.95.4.102) | 102.4.95.34.bc.googleusercontent.com | - | Medium
-22 | [34.105.203.100](https://vuldb.com/?ip.34.105.203.100) | 100.203.105.34.bc.googleusercontent.com | - | Medium
-23 | [34.129.5.173](https://vuldb.com/?ip.34.129.5.173) | 173.5.129.34.bc.googleusercontent.com | - | Medium
-24 | [34.247.234.201](https://vuldb.com/?ip.34.247.234.201) | ec2-34-247-234-201.eu-west-1.compute.amazonaws.com | - | Medium
-25 | [35.194.193.144](https://vuldb.com/?ip.35.194.193.144) | 144.193.194.35.bc.googleusercontent.com | - | Medium
-26 | [35.199.99.16](https://vuldb.com/?ip.35.199.99.16) | 16.99.199.35.bc.googleusercontent.com | - | Medium
-27 | [35.199.103.5](https://vuldb.com/?ip.35.199.103.5) | 5.103.199.35.bc.googleusercontent.com | - | Medium
-28 | [35.220.142.90](https://vuldb.com/?ip.35.220.142.90) | 90.142.220.35.bc.googleusercontent.com | - | Medium
-29 | [35.220.149.58](https://vuldb.com/?ip.35.220.149.58) | 58.149.220.35.bc.googleusercontent.com | - | Medium
-30 | [35.226.27.224](https://vuldb.com/?ip.35.226.27.224) | 224.27.226.35.bc.googleusercontent.com | - | Medium
-31 | ... | ... | ... | ...
+3 | [5.189.253.131](https://vuldb.com/?ip.5.189.253.131) | ykfygylyfdtuk.jhy | - | High
+4 | [5.189.253.176](https://vuldb.com/?ip.5.189.253.176) | svdjchfdmsohd.com | - | High
+5 | [6.43.51.17](https://vuldb.com/?ip.6.43.51.17) | - | - | High
+6 | [23.106.122.14](https://vuldb.com/?ip.23.106.122.14) | - | - | High
+7 | [23.106.123.224](https://vuldb.com/?ip.23.106.123.224) | - | - | High
+8 | [23.106.123.249](https://vuldb.com/?ip.23.106.123.249) | - | - | High
+9 | [23.254.129.180](https://vuldb.com/?ip.23.254.129.180) | hwsrv-1035456.hostwindsdns.com | - | High
+10 | [23.254.133.7](https://vuldb.com/?ip.23.254.133.7) | client-23-254-133-7.hostwindsdns.com | - | High
+11 | [23.254.134.53](https://vuldb.com/?ip.23.254.134.53) | hwsrv-1045495.hostwindsdns.com | - | High
+12 | [23.254.144.209](https://vuldb.com/?ip.23.254.144.209) | client-23-254-144-209.hostwindsdns.com | - | High
+13 | [23.254.164.106](https://vuldb.com/?ip.23.254.164.106) | hwsrv-978595.hostwindsdns.com | - | High
+14 | [23.254.201.147](https://vuldb.com/?ip.23.254.201.147) | WIN-FRBTX5I65I.com | - | High
+15 | [23.254.217.192](https://vuldb.com/?ip.23.254.217.192) | hwsrv-982289.hostwindsdns.com | - | High
+16 | [23.254.226.52](https://vuldb.com/?ip.23.254.226.52) | client-23-254-226-52.hostwindsdns.com | - | High
+17 | [23.254.226.136](https://vuldb.com/?ip.23.254.226.136) | box.sostenibilidadsocia.online | - | High
+18 | [23.254.227.74](https://vuldb.com/?ip.23.254.227.74) | hwsrv-1042388.hostwindsdns.com | - | High
+19 | [23.254.228.176](https://vuldb.com/?ip.23.254.228.176) | client-23-254-228-176.hostwindsdns.com | - | High
+20 | [26.64.30.13](https://vuldb.com/?ip.26.64.30.13) | - | - | High
+21 | [31.214.157.12](https://vuldb.com/?ip.31.214.157.12) | mail.private-mail.nl | - | High
+22 | [34.90.104.246](https://vuldb.com/?ip.34.90.104.246) | 246.104.90.34.bc.googleusercontent.com | - | Medium
+23 | [34.95.4.102](https://vuldb.com/?ip.34.95.4.102) | 102.4.95.34.bc.googleusercontent.com | - | Medium
+24 | [34.105.203.100](https://vuldb.com/?ip.34.105.203.100) | 100.203.105.34.bc.googleusercontent.com | - | Medium
+25 | [34.129.5.173](https://vuldb.com/?ip.34.129.5.173) | 173.5.129.34.bc.googleusercontent.com | - | Medium
+26 | [34.247.234.201](https://vuldb.com/?ip.34.247.234.201) | ec2-34-247-234-201.eu-west-1.compute.amazonaws.com | - | Medium
+27 | [35.194.193.144](https://vuldb.com/?ip.35.194.193.144) | 144.193.194.35.bc.googleusercontent.com | - | Medium
+28 | [35.199.99.16](https://vuldb.com/?ip.35.199.99.16) | 16.99.199.35.bc.googleusercontent.com | - | Medium
+29 | [35.199.103.5](https://vuldb.com/?ip.35.199.103.5) | 5.103.199.35.bc.googleusercontent.com | - | Medium
+30 | [35.220.142.90](https://vuldb.com/?ip.35.220.142.90) | 90.142.220.35.bc.googleusercontent.com | - | Medium
+31 | [35.220.149.58](https://vuldb.com/?ip.35.220.149.58) | 58.149.220.35.bc.googleusercontent.com | - | Medium
+32 | [35.226.27.224](https://vuldb.com/?ip.35.226.27.224) | 224.27.226.35.bc.googleusercontent.com | - | Medium
+33 | ... | ... | ... | ...
 
-There are 121 more IOC items available. Please use our online service to access the data.
+There are 129 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -81,6 +83,7 @@ There are 18 more IOA items available (file, library, argument, input value, pat
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://app.any.run/tasks/03df17a0-3267-4e12-aa3f-94288002d285
 * https://blogs.blackberry.com/en/2021/11/threat-thursday-danabot-malware-as-a-service
 * https://community.blueliv.com/#!/s/6220736782df413eb5358bf6
 * https://github.com/eset/malware-ioc/tree/master/danabot
@@ -91,6 +94,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://tria.ge/s/family:danabot
 * https://twitter.com/CERT_OPL/status/1138810411149643777
 * https://www.fortinet.com/blog/threat-research/breakdown-of-a-targeted-danabot-attack.html
+* https://www.silentpush.com/blog/google-malvertising
 * https://www.virustotal.com/gui/file/6134ee02f86b79ea77b58ef215c36d45a849f70d4421dee96efdc1b9f011a8fd
 
 ## Literature

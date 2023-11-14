@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [GB](https://vuldb.com/?country.gb)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
 There are 21 more country items available. Please use our online service to access the data.
@@ -84,40 +84,39 @@ ID | Type | Indicator | Confidence
 22 | File | `/cgi-bin/koha/catalogue/search.pl` | High
 23 | File | `/cgi-bin/wlogin.cgi` | High
 24 | File | `/classes/Master.php?f=save_inquiry` | High
-25 | File | `/collection/all` | High
-26 | File | `/config/getuser` | High
-27 | File | `/cwc/login` | Medium
-28 | File | `/de/cgi/dfs_guest/` | High
-29 | File | `/debug/pprof` | Medium
-30 | File | `/download` | Medium
-31 | File | `/Duty/AjaxHandle/UpLoadFloodPlanFile.ashx` | High
-32 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
-33 | File | `/etc/gsissh/sshd_config` | High
-34 | File | `/etc/puppetlabs/puppetserver/conf.d/ca.conf` | High
-35 | File | `/etc/quagga` | Medium
-36 | File | `/etc/quantum/quantum.conf` | High
-37 | File | `/forms/doLogin` | High
-38 | File | `/forum/away.php` | High
-39 | File | `/goform/SetNetControlList` | High
-40 | File | `/goform/telnet` | High
-41 | File | `/goform/WanParameterSetting` | High
-42 | File | `/h/calendar` | Medium
-43 | File | `/home/cavesConsole` | High
-44 | File | `/hrm/employeeadd.php` | High
-45 | File | `/inc/extensions.php` | High
-46 | File | `/include/makecvs.php` | High
-47 | File | `/index.php` | Medium
-48 | File | `/jeecg-boot/jmreport/upload` | High
-49 | File | `/js/app.js` | Medium
-50 | File | `/listplace/user/ticket/create` | High
-51 | File | `/load.php` | Medium
-52 | File | `/mail.php` | Medium
-53 | File | `/mgmt/tm/util/bash` | High
-54 | File | `/modules/profile/index.php` | High
-55 | File | `/modules/tasks/summary.inc.php` | High
-56 | ... | ... | ...
+25 | File | `/classes/Master.php?f=save_reminder` | High
+26 | File | `/collection/all` | High
+27 | File | `/config/getuser` | High
+28 | File | `/cwc/login` | Medium
+29 | File | `/de/cgi/dfs_guest/` | High
+30 | File | `/debug/pprof` | Medium
+31 | File | `/download` | Medium
+32 | File | `/Duty/AjaxHandle/UpLoadFloodPlanFile.ashx` | High
+33 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
+34 | File | `/etc/gsissh/sshd_config` | High
+35 | File | `/etc/puppetlabs/puppetserver/conf.d/ca.conf` | High
+36 | File | `/etc/quagga` | Medium
+37 | File | `/etc/quantum/quantum.conf` | High
+38 | File | `/forms/doLogin` | High
+39 | File | `/forum/away.php` | High
+40 | File | `/goform/SetNetControlList` | High
+41 | File | `/goform/telnet` | High
+42 | File | `/goform/WanParameterSetting` | High
+43 | File | `/h/calendar` | Medium
+44 | File | `/home/cavesConsole` | High
+45 | File | `/hrm/employeeadd.php` | High
+46 | File | `/inc/extensions.php` | High
+47 | File | `/include/makecvs.php` | High
+48 | File | `/index.php` | Medium
+49 | File | `/jeecg-boot/jmreport/upload` | High
+50 | File | `/js/app.js` | Medium
+51 | File | `/listplace/user/ticket/create` | High
+52 | File | `/load.php` | Medium
+53 | File | `/mail.php` | Medium
+54 | File | `/mgmt/tm/util/bash` | High
+55 | ... | ... | ...
 
-There are 485 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 484 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

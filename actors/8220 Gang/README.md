@@ -57,21 +57,23 @@ ID | Type | Indicator | Confidence
 1 | File | `.htaccess` | Medium
 2 | File | `/cgi-bin/web_index.cgi?lang=en&src=AwSystem.html&ertqVvnKV4TjU9Vt` | High
 3 | File | `/control/stream` | High
-4 | File | `/MicroStrategyWS/happyaxis.jsp` | High
-5 | File | `/product_list.php` | High
-6 | File | `/SM8250_Q_Master/android/vendor/oppo_charger/oppo/oppo_charger.c` | High
-7 | File | `/tmp` | Low
-8 | File | `/ucms/chk.php` | High
-9 | File | `/uncpath/` | Medium
-10 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-11 | File | `add-category.php` | High
-12 | File | `admin/bitrix.xscan_worker.php` | High
-13 | File | `admin/content/postcategory` | High
-14 | File | `AdminByRequest.exe` | High
-15 | File | `announcements.php` | High
-16 | ... | ... | ...
+4 | File | `/index.php/weblinks-categories` | High
+5 | File | `/MicroStrategyWS/happyaxis.jsp` | High
+6 | File | `/phppath/php` | Medium
+7 | File | `/product_list.php` | High
+8 | File | `/SM8250_Q_Master/android/vendor/oppo_charger/oppo/oppo_charger.c` | High
+9 | File | `/tmp` | Low
+10 | File | `/ucms/chk.php` | High
+11 | File | `/uncpath/` | Medium
+12 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+13 | File | `add-category.php` | High
+14 | File | `admin/bitrix.xscan_worker.php` | High
+15 | File | `admin/content/postcategory` | High
+16 | File | `AdminByRequest.exe` | High
+17 | File | `announcements.php` | High
+18 | ... | ... | ...
 
-There are 128 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 143 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

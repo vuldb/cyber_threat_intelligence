@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 26 more country items available. Please use our online service to access the data.
+There are 23 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -320,14 +320,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-24, CWE-36, CWE-425 | Pathname Traversal | High
+1 | T1006 | CWE-22, CWE-23, CWE-24, CWE-36, CWE-425 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -335,71 +335,64 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.github/workflows/comment.yml` | High
-2 | File | `/?r=recruit/resume/edit&op=status` | High
-3 | File | `/academy/home/courses` | High
-4 | File | `/academy/tutor/filter` | High
-5 | File | `/account/delivery` | High
-6 | File | `/ad-list` | Medium
-7 | File | `/admin/?page=user` | High
-8 | File | `/admin/?page=user/list` | High
-9 | File | `/admin/?page=user/manage_user&id=3` | High
-10 | File | `/admin/about-us.php` | High
-11 | File | `/admin/add-category.php` | High
-12 | File | `/admin/add-services.php` | High
-13 | File | `/admin/add_user_modal.php` | High
-14 | File | `/admin/admin-profile.php` | High
-15 | File | `/admin/article/article-edit-run.php` | High
-16 | File | `/admin/cms_admin.php` | High
-17 | File | `/admin/cms_content.php` | High
-18 | File | `/admin/config/uploadicon.php` | High
-19 | File | `/admin/del_category.php` | High
-20 | File | `/admin/del_feedback.php` | High
-21 | File | `/admin/del_service.php` | High
-22 | File | `/admin/edit-accepted-appointment.php` | High
-23 | File | `/admin/edit_category.php` | High
-24 | File | `/admin/edit_product.php` | High
-25 | File | `/admin/files` | Medium
-26 | File | `/admin/forgot-password.php` | High
-27 | File | `/admin/index.php` | High
-28 | File | `/admin/index/index.html#/admin/mall.goods/index.html` | High
-29 | File | `/admin/inquiries/view_inquiry.php` | High
-30 | File | `/admin/invoice.php` | High
-31 | File | `/admin/leancloud.php` | High
-32 | File | `/admin/order.php` | High
-33 | File | `/admin/plugin.php` | High
-34 | File | `/admin/save.php` | High
-35 | File | `/admin/search-appointment.php` | High
-36 | File | `/admin/services/manage_service.php` | High
-37 | File | `/admin/sys_sql_query.php` | High
-38 | File | `/admin/test_status.php` | High
-39 | File | `/api/` | Low
-40 | File | `/api/download` | High
-41 | File | `/api/download/updateFile` | High
-42 | File | `/api/es/admin/v3/security/user/1` | High
-43 | File | `/api/installation/setThumbnailRc` | High
-44 | File | `/api/sys/login` | High
-45 | File | `/api/sys/set_passwd` | High
-46 | File | `/api/thumbnail` | High
-47 | File | `/app/sys1.php` | High
-48 | File | `/App_Resource/UEditor/server/upload.aspx` | High
-49 | File | `/blog` | Low
-50 | File | `/blog-single.php` | High
-51 | File | `/book-services.php` | High
-52 | File | `/browse` | Low
-53 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-54 | File | `/cgi-bin/vitogate.cgi` | High
-55 | File | `/chaincity/user/ticket/create` | High
-56 | File | `/classes/Master.php?f=delete_category` | High
-57 | File | `/classes/master.php?f=delete_order` | High
-58 | File | `/classes/Master.php?f=delete_sub_category` | High
-59 | File | `/classes/Master.php?f=save_brand` | High
-60 | File | `/classes/Master.php?f=save_category` | High
-61 | File | `/classes/Master.php?f=save_inquiry` | High
-62 | File | `/classes/Master.php?f=save_service` | High
-63 | ... | ... | ...
+1 | File | `/academy/home/courses` | High
+2 | File | `/academy/tutor/filter` | High
+3 | File | `/ad-list` | Medium
+4 | File | `/admin/?page=bike` | High
+5 | File | `/admin/?page=user` | High
+6 | File | `/admin/?page=user/list` | High
+7 | File | `/admin/?page=user/manage_user&id=3` | High
+8 | File | `/admin/add-category.php` | High
+9 | File | `/admin/article/article-edit-run.php` | High
+10 | File | `/admin/cms_admin.php` | High
+11 | File | `/admin/cms_content.php` | High
+12 | File | `/admin/config/uploadicon.php` | High
+13 | File | `/admin/edit-accepted-appointment.php` | High
+14 | File | `/admin/edit_category.php` | High
+15 | File | `/admin/files` | Medium
+16 | File | `/admin/forgot-password.php` | High
+17 | File | `/admin/inquiries/view_inquiry.php` | High
+18 | File | `/admin/invoice.php` | High
+19 | File | `/admin/leancloud.php` | High
+20 | File | `/admin/list_addr_fwresource_ip.php` | High
+21 | File | `/admin/login.php` | High
+22 | File | `/admin/order.php` | High
+23 | File | `/admin/plugin.php` | High
+24 | File | `/admin/save.php` | High
+25 | File | `/admin/search-appointment.php` | High
+26 | File | `/admin/services/manage_service.php` | High
+27 | File | `/api/` | Low
+28 | File | `/api/download` | High
+29 | File | `/api/download/updateFile` | High
+30 | File | `/api/es/admin/v3/security/user/1` | High
+31 | File | `/api/installation/setThumbnailRc` | High
+32 | File | `/api/sys/login` | High
+33 | File | `/api/sys/set_passwd` | High
+34 | File | `/api/thumbnail` | High
+35 | File | `/app/sys1.php` | High
+36 | File | `/blog-single.php` | High
+37 | File | `/book-services.php` | High
+38 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+39 | File | `/cgi-bin/vitogate.cgi` | High
+40 | File | `/classes/master.php?f=delete_order` | High
+41 | File | `/classes/Master.php?f=delete_sub_category` | High
+42 | File | `/classes/Master.php?f=save_brand` | High
+43 | File | `/classes/Master.php?f=save_category` | High
+44 | File | `/classes/Master.php?f=save_service` | High
+45 | File | `/classes/Master.php?f=update_order_status` | High
+46 | File | `/collection/all` | High
+47 | File | `/conf/` | Low
+48 | File | `/config-manager/save` | High
+49 | File | `/config/php.ini` | High
+50 | File | `/content/templates/` | High
+51 | File | `/course/filterRecords/` | High
+52 | File | `/ecommerce/admin/settings/setDiscount.php` | High
+53 | File | `/fusion/portal/action/Link` | High
+54 | File | `/goform/Diagnosis` | High
+55 | File | `/goform/fast_setting_wifi_set` | High
+56 | ... | ... | ...
 
-There are 550 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 493 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

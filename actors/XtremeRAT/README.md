@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 12 more country items available. Please use our online service to access the data.
+There are 13 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -53,7 +53,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1068 | CWE-250, CWE-264, CWE-266, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -92,19 +92,14 @@ ID | Type | Indicator | Confidence
 29 | File | `/preview.php` | Medium
 30 | File | `/requests.php` | High
 31 | File | `/secure/ViewCollectors` | High
-32 | File | `/spip.php` | Medium
-33 | File | `/sqlite3_aflpp/shell.c` | High
-34 | File | `/squashfs-root/etc_ro/custom.conf` | High
-35 | File | `/SVFE2/pages/feegroups/service_group.jsf` | High
-36 | File | `/sys/user/querySysUser?username=admin` | High
-37 | File | `/uncpath/` | Medium
-38 | File | `/user/upload/upload` | High
-39 | File | `/useratte/web.php` | High
-40 | File | `/usr/local/www/csrf/csrf-magic.php` | High
-41 | File | `/vendor` | Low
-42 | ... | ... | ...
+32 | File | `/server-status` | High
+33 | File | `/spip.php` | Medium
+34 | File | `/sqlite3_aflpp/shell.c` | High
+35 | File | `/squashfs-root/etc_ro/custom.conf` | High
+36 | File | `/SVFE2/pages/feegroups/service_group.jsf` | High
+37 | ... | ... | ...
 
-There are 362 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 320 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

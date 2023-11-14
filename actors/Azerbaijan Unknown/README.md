@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Azerbaijan Unknown:
 
 * [US](https://vuldb.com/?country.us)
-* [ES](https://vuldb.com/?country.es)
+* [TR](https://vuldb.com/?country.tr)
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 8 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -91,9 +91,10 @@ ID | Type | Indicator | Confidence
 2 | File | `/KK_LS9ReportingPortal/GetData` | High
 3 | File | `/MRcgi/MRABLoad2.pl` | High
 4 | File | `/MRcgi/MRchat.pl` | High
-5 | ... | ... | ...
+5 | File | `/user/ticket/create` | High
+6 | ... | ... | ...
 
-There are 31 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 39 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

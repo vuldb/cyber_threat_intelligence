@@ -125,35 +125,35 @@ ID | Type | Indicator | Confidence
 18 | File | `/Session` | Medium
 19 | File | `/spacecom/login.php` | High
 20 | File | `/student/bookdetails.php` | High
-21 | File | `/xAdmin/html/cm_doclist_view_uc.jsp` | High
-22 | File | `AbstractController.php` | High
-23 | File | `account.asp` | Medium
-24 | File | `adclick.php` | Medium
-25 | File | `addpost_newpoll.php` | High
-26 | File | `add_comment.php` | High
-27 | File | `admin.php` | Medium
-28 | File | `admin.remository.php` | High
-29 | File | `admin/establishment/manage.php` | High
-30 | File | `admin/inquiries/view_details.php` | High
-31 | File | `admin/news.php` | High
-32 | File | `admin/page.php` | High
-33 | File | `administrator/upload.php` | High
-34 | File | `Administrator/users.php` | High
-35 | File | `affich.php` | Medium
-36 | File | `album_portal.php` | High
-37 | File | `announce.php` | Medium
-38 | File | `archive.php` | Medium
-39 | File | `auth.inc.php` | Medium
-40 | File | `autor.php` | Medium
-41 | File | `b2archives.php` | High
-42 | File | `bbs/faq.php` | Medium
-43 | File | `bb_usage_stats.php` | High
-44 | File | `bl-kernel/ajax/upload-images.php` | High
-45 | File | `board.php` | Medium
-46 | File | `book.cfm` | Medium
+21 | File | `/usr/bin/pkexec` | High
+22 | File | `/xAdmin/html/cm_doclist_view_uc.jsp` | High
+23 | File | `AbstractController.php` | High
+24 | File | `account.asp` | Medium
+25 | File | `adclick.php` | Medium
+26 | File | `addpost_newpoll.php` | High
+27 | File | `add_comment.php` | High
+28 | File | `admin.php` | Medium
+29 | File | `admin.remository.php` | High
+30 | File | `admin/content.php` | High
+31 | File | `admin/establishment/manage.php` | High
+32 | File | `admin/inquiries/view_details.php` | High
+33 | File | `admin/news.php` | High
+34 | File | `admin/page.php` | High
+35 | File | `administrator/upload.php` | High
+36 | File | `Administrator/users.php` | High
+37 | File | `affich.php` | Medium
+38 | File | `album_portal.php` | High
+39 | File | `announce.php` | Medium
+40 | File | `archive.php` | Medium
+41 | File | `auth.inc.php` | Medium
+42 | File | `autor.php` | Medium
+43 | File | `b2archives.php` | High
+44 | File | `bbs/faq.php` | Medium
+45 | File | `bb_usage_stats.php` | High
+46 | File | `bl-kernel/ajax/upload-images.php` | High
 47 | ... | ... | ...
 
-There are 403 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 405 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

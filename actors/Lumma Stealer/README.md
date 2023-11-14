@@ -29,7 +29,7 @@ ID | IP address | Hostname | Campaign | Confidence
 6 | [45.15.25.190](https://vuldb.com/?ip.45.15.25.190) | - | - | High
 7 | ... | ... | ... | ...
 
-There are 24 more IOC items available. Please use our online service to access the data.
+There are 26 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -40,7 +40,8 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-94 | Cross Site Scripting | High
-4 | ... | ... | ... | ...
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
 There are 14 more TTP items available. Please use our online service to access the data.
 
@@ -81,6 +82,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://app.any.run/tasks/4e682046-d702-46c7-91c5-6f2a6c9a0909/
 * https://app.any.run/tasks/9a53fdba-8af6-4d2c-9c2b-e5b86fa34e8b
 * https://app.any.run/tasks/330d3bb4-cb91-4311-8bf3-f3d8db2712fb
+* https://app.any.run/tasks/549cccfd-2b19-42f1-b1de-131d9aad5d34
 * https://app.any.run/tasks/b80c5c12-9c12-414d-be8e-818ffdab1e74
 * https://threatfox.abuse.ch
 * https://tracker.viriback.com/index.php?q=45.8.146.130

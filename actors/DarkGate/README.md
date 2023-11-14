@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [LA](https://vuldb.com/?country.la)
 * ...
 
-There are 17 more country items available. Please use our online service to access the data.
+There are 14 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -32,9 +32,11 @@ ID | IP address | Hostname | Campaign | Confidence
 9 | [64.190.113.154](https://vuldb.com/?ip.64.190.113.154) | - | - | High
 10 | [65.20.75.41](https://vuldb.com/?ip.65.20.75.41) | 65.20.75.41.vultrusercontent.com | - | High
 11 | [66.42.63.27](https://vuldb.com/?ip.66.42.63.27) | 66.42.63.27.dedic.cheap | - | High
-12 | ... | ... | ... | ...
+12 | [79.110.62.96](https://vuldb.com/?ip.79.110.62.96) | - | - | High
+13 | [80.66.88.14](https://vuldb.com/?ip.80.66.88.14) | - | - | High
+14 | ... | ... | ... | ...
 
-There are 44 more IOC items available. Please use our online service to access the data.
+There are 52 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -42,14 +44,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -57,85 +59,89 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `//WEB-INF` | Medium
-2 | File | `/about.php` | Medium
-3 | File | `/admin.php/update/getFile.html` | High
-4 | File | `/admin/index/index.html#/admin/mall.goods/index.html` | High
-5 | File | `/admin/maintenance/view_designation.php` | High
-6 | File | `/admin/save.php` | High
-7 | File | `/admin/sys_sql_query.php` | High
-8 | File | `/api/baskets/{name}` | High
-9 | File | `/api/download` | High
-10 | File | `/api/v1/alerts` | High
-11 | File | `/api/v1/terminal/sessions/?limit=1` | High
-12 | File | `/bitrix/admin/ldap_server_edit.php` | High
-13 | File | `/category.php` | High
-14 | File | `/categorypage.php` | High
-15 | File | `/cgi-bin/luci/api/wireless` | High
-16 | File | `/cgi-bin/vitogate.cgi` | High
-17 | File | `/classes/Master.php?f=save_item` | High
-18 | File | `/company/store` | High
-19 | File | `/Content/Template/root/reverse-shell.aspx` | High
-20 | File | `/Controller/Ajaxfileupload.ashx` | High
-21 | File | `/core/conditions/AbstractWrapper.java` | High
-22 | File | `/DXR.axd` | Medium
-23 | File | `/etc/passwd` | Medium
-24 | File | `/fcgi/scrut_fcgi.fcgi` | High
-25 | File | `/feeds/post/publish` | High
-26 | File | `/forum/away.php` | High
-27 | File | `/h/` | Low
-28 | File | `/HNAP1` | Low
-29 | File | `/inc/jquery/uploadify/uploadify.php` | High
-30 | File | `/index.php?app=main&func=passport&action=login` | High
-31 | File | `/index.php?page=category_list` | High
-32 | File | `/jeecg-boot/sys/common/upload` | High
-33 | File | `/jobinfo/` | Medium
-34 | File | `/load.php` | Medium
-35 | File | `/Moosikay/order.php` | High
-36 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
-37 | File | `/opac/Actions.php?a=login` | High
-38 | File | `/PreviewHandler.ashx` | High
-39 | File | `/proxy` | Low
-40 | File | `/recipe-result` | High
-41 | File | `/register.do` | Medium
-42 | File | `/reservation/add_message.php` | High
-43 | File | `/resources//../` | High
-44 | File | `/RPS2019Service/status.html` | High
-45 | File | `/Service/ImageStationDataService.asmx` | High
-46 | File | `/sicweb-ajax/tmproot/` | High
-47 | File | `/spip.php` | Medium
-48 | File | `/student/bookdetails.php` | High
-49 | File | `/subsys/net/l2/wifi/wifi_shell.c` | High
-50 | File | `/SystemManage/User/GetGridJson?_search=false&nd=1680855479750&rows=50&page=1&sidx=F_CreatorTime+desc&sord=asc` | High
-51 | File | `/uploads/exam_question/` | High
-52 | File | `/user/ticket/create` | High
-53 | ... | ... | ...
+1 | File | `/?r=recruit/resume/edit&op=status` | High
+2 | File | `/account/delivery` | High
+3 | File | `/admin/?page=user/manage_user&id=3` | High
+4 | File | `/admin/about-us.php` | High
+5 | File | `/admin/add-services.php` | High
+6 | File | `/admin/courses/view_course.php` | High
+7 | File | `/admin/del_feedback.php` | High
+8 | File | `/admin/del_service.php` | High
+9 | File | `/admin/edit_product.php` | High
+10 | File | `/admin/forgot-password.php` | High
+11 | File | `/admin/index/index.html#/admin/mall.goods/index.html` | High
+12 | File | `/admin/list_addr_fwresource_ip.php` | High
+13 | File | `/admin/save.php` | High
+14 | File | `/admin/sys_sql_query.php` | High
+15 | File | `/admin/vote_edit.php` | High
+16 | File | `/api/baskets/{name}` | High
+17 | File | `/api/download` | High
+18 | File | `/api/v1/alerts` | High
+19 | File | `/api/v1/terminal/sessions/?limit=1` | High
+20 | File | `/app/sys1.php` | High
+21 | File | `/App_Resource/UEditor/server/upload.aspx` | High
+22 | File | `/bitrix/admin/ldap_server_edit.php` | High
+23 | File | `/blog` | Low
+24 | File | `/browse` | Low
+25 | File | `/category.php` | High
+26 | File | `/categorypage.php` | High
+27 | File | `/cgi-bin/luci/api/wireless` | High
+28 | File | `/cgi-bin/vitogate.cgi` | High
+29 | File | `/chaincity/user/ticket/create` | High
+30 | File | `/change-language/de_DE` | High
+31 | File | `/classes/Master.php?f=save_item` | High
+32 | File | `/collection/all` | High
+33 | File | `/company/store` | High
+34 | File | `/config-manager/save` | High
+35 | File | `/Content/Template/root/reverse-shell.aspx` | High
+36 | File | `/Controller/Ajaxfileupload.ashx` | High
+37 | File | `/core/conditions/AbstractWrapper.java` | High
+38 | File | `/debug/pprof` | Medium
+39 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+40 | File | `/etc/passwd` | Medium
+41 | File | `/EventBookingCalendar/load.php?controller=GzFront/action=checkout/cid=1/layout=calendar/show_header=T/local=3` | High
+42 | File | `/fcgi/scrut_fcgi.fcgi` | High
+43 | File | `/forum/away.php` | High
+44 | File | `/fusion/portal/action/Link` | High
+45 | File | `/geoserver/gwc/rest.html` | High
+46 | File | `/HNAP1` | Low
+47 | ... | ... | ...
 
-There are 462 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 412 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2023-10-25-IOCs-from-DarkGate-activity.txt
 * https://github.com/prodaft/malware-ioc/blob/master/PTI-66/DarkGate.md
 * https://github.com/stamparm/maltrail/blob/master/trails/static/malware/darkgate.txt
 * https://github.com/stamparm/maltrail/commit/447dfd954176b9c1810cce08043ad5cfbf72175b
 * https://github.security.telekom.com/2023/08/darkgate-loader.html
 * https://search.censys.io/hosts/94.232.45.90
 * https://search.censys.io/hosts/162.33.178.63
+* https://search.censys.io/hosts/195.123.233.126
+* https://search.censys.io/hosts/195.123.233.152
+* https://search.censys.io/hosts/195.123.233.201
+* https://search.censys.io/hosts/195.123.233.206
 * https://search.censys.io/hosts/195.211.98.105
+* https://search.censys.io/search?resource=hosts&sort=RELEVANCE&per_page=25&virtual_hosts=EXCLUDE&q=services.extended_service_name%3D%22DARKGATE%22
 * https://search.censys.io/search?resource=hosts&sort=RELEVANCE&per_page=25&virtual_hosts=EXCLUDE&q=services.service_name%3A+DARKGATE
 * https://search.censys.io/search?resource=hosts&sort=RELEVANCE&per_page=25&virtual_hosts=EXCLUDE&q=services.service_name%3A+DARKGATE+and+not+labels%3A+tarpit&ref=threatfox
 * https://threatfox.abuse.ch
 * https://tria.ge/230811-bmv8ysbf8s/behavioral2
 * https://tria.ge/230822-xp3lpsgc6v/behavioral2
 * https://tria.ge/230828-zp22aaah9s/behavioral1
+* https://tria.ge/231026-31zl3sbe25
+* https://tria.ge/231102-ssnvhafg98/behavioral2
+* https://tria.ge/231102-zyfveahf27
 * https://twitter.com/0xw4ifu/status/1714738953016746247
 * https://twitter.com/AnFam17/status/1701963227955945552
 * https://twitter.com/malwrhunterteam/status/1704231060865778097
 * https://twitter.com/malwrhunterteam/status/1704483766461173984
 * https://twitter.com/r3dbU7z/status/1712256418483519885
 * https://twitter.com/ULTRAFRAUD/status/1702067641983119421
+* https://urlhaus.abuse.ch/url/2729402/
 * https://www.virustotal.com/gui/file/8ba5c6c94e016941464bc65bd697749e7a2c88fb3a5b420f23cd1aa1ab022eef
 * https://www.virustotal.com/gui/file/9921e057693d70d2f6bf13a04abf816c10fe209cff82cb533596ed313b9d2154/detection
 * https://www.virustotal.com/gui/file/c2e90c45911b7b6e9d46f4dae5bfefa47e50abddd75cc6d5297cddeee23dd002

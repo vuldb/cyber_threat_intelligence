@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with TitanStealer:
 
 * [US](https://vuldb.com/?country.us)
-* [CN](https://vuldb.com/?country.cn)
 * [RU](https://vuldb.com/?country.ru)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 16 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -26,9 +26,11 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [37.220.87.60](https://vuldb.com/?ip.37.220.87.60) | ipn-37-220-87-60.artem-catv.ru | - | High
 4 | [45.9.74.63](https://vuldb.com/?ip.45.9.74.63) | - | - | High
 5 | [45.15.156.137](https://vuldb.com/?ip.45.15.156.137) | - | - | High
-6 | ... | ... | ... | ...
+6 | [45.15.156.211](https://vuldb.com/?ip.45.15.156.211) | - | - | High
+7 | [45.15.156.242](https://vuldb.com/?ip.45.15.156.242) | - | - | High
+8 | ... | ... | ... | ...
 
-There are 21 more IOC items available. Please use our online service to access the data.
+There are 28 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -42,7 +44,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 15 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -53,21 +55,25 @@ ID | Type | Indicator | Confidence
 1 | File | `/+CSCOE+/logon.html` | High
 2 | File | `/.env` | Low
 3 | File | `/category.php` | High
-4 | File | `/cgi-bin/delete_CA` | High
-5 | File | `/Config/SaveUploadedHotspotLogoFile` | High
-6 | File | `/display/map` | Medium
-7 | File | `/download` | Medium
-8 | File | `/get_getnetworkconf.cgi` | High
-9 | File | `/GponForm/device_Form?script/` | High
-10 | File | `/includes/rrdtool.inc.php` | High
-11 | File | `/Main_AdmStatus_Content.asp` | High
-12 | File | `/NAGErrors` | Medium
-13 | File | `/sgms/TreeControl` | High
-14 | File | `/tmp` | Low
-15 | File | `/uncpath/` | Medium
-16 | ... | ... | ...
+4 | File | `/category/list?limit=10&offset=0&order=desc` | High
+5 | File | `/cgi-bin/delete_CA` | High
+6 | File | `/classes/Master.php?f=delete_brand` | High
+7 | File | `/Config/SaveUploadedHotspotLogoFile` | High
+8 | File | `/display/map` | Medium
+9 | File | `/download` | Medium
+10 | File | `/forum/PostPrivateMessage` | High
+11 | File | `/get_getnetworkconf.cgi` | High
+12 | File | `/GponForm/device_Form?script/` | High
+13 | File | `/includes/rrdtool.inc.php` | High
+14 | File | `/Main_AdmStatus_Content.asp` | High
+15 | File | `/NAGErrors` | Medium
+16 | File | `/sgms/TreeControl` | High
+17 | File | `/tmp` | Low
+18 | File | `/uncpath/` | Medium
+19 | File | `/updown/upload.cgi` | High
+20 | ... | ... | ...
 
-There are 130 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 167 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

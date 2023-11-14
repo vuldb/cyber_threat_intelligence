@@ -40,11 +40,12 @@ ID | IP address | Hostname | Campaign | Confidence
 11 | [70.36.107.34](https://vuldb.com/?ip.70.36.107.34) | - | - | High
 12 | [74.91.19.108](https://vuldb.com/?ip.74.91.19.108) | - | - | High
 13 | [74.91.19.122](https://vuldb.com/?ip.74.91.19.122) | - | - | High
-14 | [80.82.79.221](https://vuldb.com/?ip.80.82.79.221) | - | - | High
-15 | [80.82.79.240](https://vuldb.com/?ip.80.82.79.240) | - | - | High
-16 | ... | ... | ... | ...
+14 | [78.47.218.106](https://vuldb.com/?ip.78.47.218.106) | static.106.218.47.78.clients.your-server.de | - | High
+15 | [80.82.79.221](https://vuldb.com/?ip.80.82.79.221) | - | - | High
+16 | [80.82.79.240](https://vuldb.com/?ip.80.82.79.240) | - | - | High
+17 | ... | ... | ... | ...
 
-There are 61 more IOC items available. Please use our online service to access the data.
+There are 64 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -60,7 +61,7 @@ ID | Technique | Weakness | Description | Confidence
 6 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 7 | ... | ... | ... | ...
 
-There are 23 more TTP items available. Please use our online service to access the data.
+There are 24 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -105,14 +106,14 @@ ID | Type | Indicator | Confidence
 35 | File | `/export` | Low
 36 | File | `/file?action=download&file` | High
 37 | File | `/filemanager/upload/drop` | High
-38 | File | `/function/login.php` | High
-39 | File | `/hardware` | Medium
-40 | File | `/hrm/employeeview.php` | High
-41 | File | `/importexport.php` | High
-42 | File | `/index.php` | Medium
+38 | File | `/forum/away.php` | High
+39 | File | `/function/login.php` | High
+40 | File | `/hardware` | Medium
+41 | File | `/hrm/employeeview.php` | High
+42 | File | `/importexport.php` | High
 43 | ... | ... | ...
 
-There are 369 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 374 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -121,6 +122,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://1275.ru/ioc/204/apt34-apt-iocs/
 * https://github.com/blackorbird/APT_REPORT/tree/master/APT34
 * https://nsfocusglobal.com/apt34-unleashes-new-wave-of-phishing-attack-with-variant-of-sidetwist-trojan/
+* https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/crambus-middle-east-government
 * https://unit42.paloaltonetworks.com/unit42-oilrig-group-steps-attacks-new-delivery-documents-new-injector-trojan/
 * https://unit42.paloaltonetworks.com/unit42-oilrig-uses-ismdoor-variant-possibly-linked-greenbug-threat-group/
 * https://unit42.paloaltonetworks.com/unit42-oilrig-uses-updated-bondupdater-target-middle-eastern-government/

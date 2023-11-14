@@ -17,11 +17,11 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [20.197.233.142](https://vuldb.com/?ip.20.197.233.142) | - | - | High
-2 | [20.203.196.228](https://vuldb.com/?ip.20.203.196.228) | - | - | High
-3 | [20.226.249.209](https://vuldb.com/?ip.20.226.249.209) | - | - | High
+2 | [20.201.114.109](https://vuldb.com/?ip.20.201.114.109) | - | - | High
+3 | [20.203.196.228](https://vuldb.com/?ip.20.203.196.228) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 2 more IOC items available. Please use our online service to access the data.
+There are 3 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -51,6 +51,7 @@ There are 4 more IOA items available (file, library, argument, input value, patt
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://app.any.run/tasks/05966f2b-de66-4126-a95e-b0d5d1d373f7
+* https://bazaar.abuse.ch/sample/d5bde9401f3694dfef00d4c30adcd32a5b5af040e6b4c3ae5792e466738886a0/
 * https://bazaar.abuse.ch/sample/dd47970c3f66fd28281dfd3daa70baae8eda1d5cc436c208ad4d319246cf8085/
 * https://malpedia.caad.fkie.fraunhofer.de/details/win.ousaban
 * https://twitter.com/dodo_sec/status/1696952762272231535

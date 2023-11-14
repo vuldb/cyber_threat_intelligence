@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 12 more country items available. Please use our online service to access the data.
+There are 13 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -59,7 +59,7 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -86,16 +86,16 @@ ID | Type | Indicator | Confidence
 13 | File | `/index.php` | Medium
 14 | File | `/Items/*/RemoteImages/Download` | High
 15 | File | `/members/view_member.php` | High
-16 | File | `/mifs/c/i/reg/reg.html` | High
-17 | File | `/nova/bin/console` | High
-18 | File | `/nova/bin/detnet` | High
-19 | File | `/out.php` | Medium
-20 | File | `/owa/auth/logon.aspx` | High
-21 | File | `/req_password_user.php` | High
-22 | File | `/rom-0` | Low
+16 | File | `/mhds/clinic/view_details.php` | High
+17 | File | `/mifs/c/i/reg/reg.html` | High
+18 | File | `/nova/bin/console` | High
+19 | File | `/nova/bin/detnet` | High
+20 | File | `/out.php` | Medium
+21 | File | `/owa/auth/logon.aspx` | High
+22 | File | `/req_password_user.php` | High
 23 | ... | ... | ...
 
-There are 188 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 195 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

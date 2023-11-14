@@ -56,9 +56,10 @@ ID | Type | Indicator | Confidence
 2 | File | `/cgi-bin/system_mgr.cgi` | High
 3 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
 4 | File | `admin/import/class-import-settings.php` | High
-5 | ... | ... | ...
+5 | File | `ajax/comments.php` | High
+6 | ... | ... | ...
 
-There are 34 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 35 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

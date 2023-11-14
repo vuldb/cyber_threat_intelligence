@@ -40,7 +40,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 15 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -52,18 +52,19 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin/login.php` | High
 3 | File | `/api/file_uploader.php` | High
 4 | File | `/app/Http/Controllers/Admin/NEditorController.php` | High
-5 | File | `/mgmt/tm/util/bash` | High
-6 | File | `/mifs/c/i/reg/reg.html` | High
-7 | File | `/secure/admin/ViewInstrumentation.jspa` | High
-8 | File | `/secure/ViewCollectors` | High
-9 | File | `/Session` | Medium
-10 | File | `/xAdmin/html/cm_doclist_view_uc.jsp` | High
-11 | File | `adclick.php` | Medium
-12 | File | `add_comment.php` | High
-13 | File | `board.php` | Medium
-14 | ... | ... | ...
+5 | File | `/blog` | Low
+6 | File | `/Duty/AjaxHandle/UploadFloodPlanFileUpdate.ashx` | High
+7 | File | `/mgmt/tm/util/bash` | High
+8 | File | `/mifs/c/i/reg/reg.html` | High
+9 | File | `/secure/admin/ViewInstrumentation.jspa` | High
+10 | File | `/secure/ViewCollectors` | High
+11 | File | `/Session` | Medium
+12 | File | `/user/settings` | High
+13 | File | `/usr/bin/pkexec` | High
+14 | File | `/xAdmin/html/cm_doclist_view_uc.jsp` | High
+15 | ... | ... | ...
 
-There are 106 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 115 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

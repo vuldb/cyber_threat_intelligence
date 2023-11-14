@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Russia:
 
 * [US](https://vuldb.com/?country.us)
-* [VN](https://vuldb.com/?country.vn)
 * [JP](https://vuldb.com/?country.jp)
+* [VN](https://vuldb.com/?country.vn)
 * ...
 
-There are 16 more country items available. Please use our online service to access the data.
+There are 18 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -3315,7 +3315,7 @@ ID | IP address | Hostname | Actor | Confidence
 3279 | [79.104.64.0](https://vuldb.com/?ip.79.104.64.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
 3280 | ... | ... | ... | ...
 
-There are 13116 more IOC items available. Please use our online service to access the data.
+There are 13117 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -3323,14 +3323,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -3338,55 +3338,51 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/academy/tutor/filter` | High
-2 | File | `/admin/?page=user` | High
-3 | File | `/admin/article/article-edit-run.php` | High
-4 | File | `/admin/cms_admin.php` | High
-5 | File | `/admin/cms_content.php` | High
-6 | File | `/admin/config/uploadicon.php` | High
-7 | File | `/admin/inquiries/view_inquiry.php` | High
-8 | File | `/admin/leancloud.php` | High
+1 | File | `/admin/?page=bike` | High
+2 | File | `/admin/add-services.php` | High
+3 | File | `/admin/controller/JobLogController.java` | High
+4 | File | `/admin/courses/manage_course.php` | High
+5 | File | `/admin/courses/view_course.php` | High
+6 | File | `/admin/departments/manage_department.php` | High
+7 | File | `/admin/index.php` | High
+8 | File | `/admin/index2.html` | High
 9 | File | `/admin/list_addr_fwresource_ip.php` | High
-10 | File | `/admin/order.php` | High
-11 | File | `/admin/plugin.php` | High
-12 | File | `/admin/save.php` | High
-13 | File | `/admin/services/manage_service.php` | High
-14 | File | `/api/` | Low
-15 | File | `/api/download` | High
-16 | File | `/api/runscript` | High
-17 | File | `/api/v1/terminal/sessions/?limit=1` | High
-18 | File | `/aqpg/users/login.php` | High
-19 | File | `/book-services.php` | High
-20 | File | `/category.php` | High
-21 | File | `/categorypage.php` | High
-22 | File | `/cgi-bin/vitogate.cgi` | High
-23 | File | `/cgi-bin/wlogin.cgi` | High
-24 | File | `/classes/master.php?f=delete_order` | High
-25 | File | `/classes/Master.php?f=delete_sub_category` | High
-26 | File | `/classes/Master.php?f=save_brand` | High
-27 | File | `/classes/Master.php?f=save_category` | High
-28 | File | `/classes/Master.php?f=save_position` | High
-29 | File | `/classes/Master.php?f=save_service` | High
-30 | File | `/classes/Master.php?f=update_order_status` | High
-31 | File | `/collection/all` | High
-32 | File | `/content/templates/` | High
-33 | File | `/course/filterRecords/` | High
-34 | File | `/dashboard/add-blog.php` | High
-35 | File | `/data/remove` | Medium
-36 | File | `/debug/pprof` | Medium
+10 | File | `/admin/list_onlineuser.php` | High
+11 | File | `/admin/login.php` | High
+12 | File | `/admin/plugin.php` | High
+13 | File | `/admin/sales/view_details.php` | High
+14 | File | `/admin/sql` | Medium
+15 | File | `/admin/students/manage_academic.php` | High
+16 | File | `/admin/user.php` | High
+17 | File | `/api/authentication/login` | High
+18 | File | `/api/download` | High
+19 | File | `/api/project` | Medium
+20 | File | `/api/sys/login` | High
+21 | File | `/api/sys/set_passwd` | High
+22 | File | `/api/v1/alerts` | High
+23 | File | `/api/v1/snapshots` | High
+24 | File | `/changePassword` | High
+25 | File | `/collection/all` | High
+26 | File | `/config` | Low
+27 | File | `/config-manager/save` | High
+28 | File | `/content/templates/` | High
+29 | File | `/course/filterRecords/` | High
+30 | File | `/dashboard/add-blog.php` | High
+31 | File | `/dashboard/createblog` | High
+32 | File | `/data/remove` | Medium
+33 | File | `/debug/pprof` | Medium
+34 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
+35 | File | `/ecommerce/admin/settings/setDiscount.php` | High
+36 | File | `/ecshop/admin/template.php` | High
 37 | File | `/fcgi/scrut_fcgi.fcgi` | High
 38 | File | `/forum/away.php` | High
-39 | File | `/goform/Diagnosis` | High
-40 | File | `/HNAP1` | Low
-41 | File | `/hrm/controller/employee.php` | High
-42 | File | `/hrm/employeeview.php` | High
-43 | File | `/im/user/` | Medium
-44 | File | `/index.php` | Medium
-45 | File | `/jeecg-boot/jmreport/show` | High
-46 | File | `/jeecg-boot/jmreport/upload` | High
-47 | ... | ... | ...
+39 | File | `/geoserver/gwc/rest.html` | High
+40 | File | `/im/user/` | Medium
+41 | File | `/importexport.php` | High
+42 | File | `/issue` | Low
+43 | ... | ... | ...
 
-There are 403 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 371 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -3399,6 +3395,7 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://ddanchev.blogspot.com/2022/02/the-cyber-war-between-russia-and.html
 * https://ddanchev.blogspot.com/2023/01/exposing-russian-business-networks.html
 * https://exchange.xforce.ibmcloud.com/report/details/guid:4c5162464abb612a04220c6b1453c5d5
+* https://gbhackers.com/hackers-exploiting-winrar-flaw/
 * https://github.com/firehol/blocklist-ipsets/blob/master/geolite2_country/country_ru.netset
 * https://github.com/firehol/blocklist-ipsets/blob/master/ip2location_country/ip2location_country_ru.netset
 * https://isc.sans.edu/forums/diary/A+few+IoCs+related+to+CVE20205902/26378/

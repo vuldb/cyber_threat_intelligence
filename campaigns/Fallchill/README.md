@@ -110,9 +110,10 @@ ID | Type | Indicator | Confidence
 43 | File | `/useratte/web.php` | High
 44 | File | `/v1/hotlink/proxy` | High
 45 | File | `/vm/login.php` | High
-46 | ... | ... | ...
+46 | File | `?r=dashboard/approval/del` | High
+47 | ... | ... | ...
 
-There are 402 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 407 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

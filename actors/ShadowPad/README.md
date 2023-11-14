@@ -10,41 +10,126 @@ The following _campaigns_ are known and can be associated with ShadowPad:
 
 * ScatterBee
 
+## Countries
+
+These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with ShadowPad:
+
+* [CN](https://vuldb.com/?country.cn)
+* [US](https://vuldb.com/?country.us)
+
 ## IOC - Indicator of Compromise
 
 These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of ShadowPad.
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [3.112.45.157](https://vuldb.com/?ip.3.112.45.157) | ec2-3-112-45-157.ap-northeast-1.compute.amazonaws.com | - | Medium
-2 | [5.253.36.199](https://vuldb.com/?ip.5.253.36.199) | - | - | High
-3 | [5.255.88.185](https://vuldb.com/?ip.5.255.88.185) | qumachine.pelicanhub.com | - | High
-4 | [8.218.191.58](https://vuldb.com/?ip.8.218.191.58) | - | - | High
-5 | [8.218.234.216](https://vuldb.com/?ip.8.218.234.216) | - | - | High
-6 | [13.208.47.9](https://vuldb.com/?ip.13.208.47.9) | ec2-13-208-47-9.ap-northeast-3.compute.amazonaws.com | - | Medium
-7 | [16.162.44.42](https://vuldb.com/?ip.16.162.44.42) | ec2-16-162-44-42.ap-east-1.compute.amazonaws.com | - | Medium
-8 | [20.210.134.241](https://vuldb.com/?ip.20.210.134.241) | - | - | High
-9 | [20.214.1.160](https://vuldb.com/?ip.20.214.1.160) | - | - | High
-10 | [34.92.30.54](https://vuldb.com/?ip.34.92.30.54) | 54.30.92.34.bc.googleusercontent.com | - | Medium
-11 | [38.45.120.138](https://vuldb.com/?ip.38.45.120.138) | - | - | High
-12 | [38.45.120.139](https://vuldb.com/?ip.38.45.120.139) | - | - | High
-13 | [38.45.120.140](https://vuldb.com/?ip.38.45.120.140) | - | - | High
-14 | [38.45.120.141](https://vuldb.com/?ip.38.45.120.141) | - | - | High
-15 | [38.45.120.142](https://vuldb.com/?ip.38.45.120.142) | - | - | High
-16 | [38.47.116.103](https://vuldb.com/?ip.38.47.116.103) | - | - | High
-17 | [38.47.123.94](https://vuldb.com/?ip.38.47.123.94) | - | - | High
-18 | [38.47.220.183](https://vuldb.com/?ip.38.47.220.183) | - | - | High
-19 | [38.47.221.86](https://vuldb.com/?ip.38.47.221.86) | - | - | High
-20 | [38.47.221.162](https://vuldb.com/?ip.38.47.221.162) | - | - | High
-21 | [38.54.50.224](https://vuldb.com/?ip.38.54.50.224) | - | - | High
-22 | ... | ... | ... | ...
+1 | [3.19.1.60](https://vuldb.com/?ip.3.19.1.60) | ec2-3-19-1-60.us-east-2.compute.amazonaws.com | - | Medium
+2 | [3.84.66.152](https://vuldb.com/?ip.3.84.66.152) | ec2-3-84-66-152.compute-1.amazonaws.com | - | Medium
+3 | [3.112.45.157](https://vuldb.com/?ip.3.112.45.157) | ec2-3-112-45-157.ap-northeast-1.compute.amazonaws.com | - | Medium
+4 | [3.219.38.25](https://vuldb.com/?ip.3.219.38.25) | ec2-3-219-38-25.compute-1.amazonaws.com | - | Medium
+5 | [5.78.83.190](https://vuldb.com/?ip.5.78.83.190) | static.190.83.78.5.clients.your-server.de | - | High
+6 | [5.252.178.38](https://vuldb.com/?ip.5.252.178.38) | 5-252-178-38.mivocloud.com | - | High
+7 | [5.253.36.199](https://vuldb.com/?ip.5.253.36.199) | - | - | High
+8 | [5.255.88.185](https://vuldb.com/?ip.5.255.88.185) | qumachine.pelicanhub.com | - | High
+9 | [8.218.191.58](https://vuldb.com/?ip.8.218.191.58) | - | - | High
+10 | [8.218.212.77](https://vuldb.com/?ip.8.218.212.77) | - | - | High
+11 | [8.218.234.216](https://vuldb.com/?ip.8.218.234.216) | - | - | High
+12 | [8.219.186.164](https://vuldb.com/?ip.8.219.186.164) | - | - | High
+13 | [13.208.47.9](https://vuldb.com/?ip.13.208.47.9) | ec2-13-208-47-9.ap-northeast-3.compute.amazonaws.com | - | Medium
+14 | [16.162.44.42](https://vuldb.com/?ip.16.162.44.42) | ec2-16-162-44-42.ap-east-1.compute.amazonaws.com | - | Medium
+15 | [18.193.11.42](https://vuldb.com/?ip.18.193.11.42) | ec2-18-193-11-42.eu-central-1.compute.amazonaws.com | - | Medium
+16 | [20.210.134.241](https://vuldb.com/?ip.20.210.134.241) | - | - | High
+17 | [20.214.1.160](https://vuldb.com/?ip.20.214.1.160) | - | - | High
+18 | [34.92.30.54](https://vuldb.com/?ip.34.92.30.54) | 54.30.92.34.bc.googleusercontent.com | - | Medium
+19 | [36.255.221.118](https://vuldb.com/?ip.36.255.221.118) | - | - | High
+20 | [38.45.120.138](https://vuldb.com/?ip.38.45.120.138) | - | - | High
+21 | [38.45.120.139](https://vuldb.com/?ip.38.45.120.139) | - | - | High
+22 | [38.45.120.140](https://vuldb.com/?ip.38.45.120.140) | - | - | High
+23 | [38.45.120.141](https://vuldb.com/?ip.38.45.120.141) | - | - | High
+24 | [38.45.120.142](https://vuldb.com/?ip.38.45.120.142) | - | - | High
+25 | [38.47.116.103](https://vuldb.com/?ip.38.47.116.103) | - | - | High
+26 | [38.47.123.94](https://vuldb.com/?ip.38.47.123.94) | - | - | High
+27 | [38.47.220.183](https://vuldb.com/?ip.38.47.220.183) | - | - | High
+28 | [38.47.221.86](https://vuldb.com/?ip.38.47.221.86) | - | - | High
+29 | [38.47.221.162](https://vuldb.com/?ip.38.47.221.162) | - | - | High
+30 | [38.54.20.187](https://vuldb.com/?ip.38.54.20.187) | - | - | High
+31 | [38.54.50.224](https://vuldb.com/?ip.38.54.50.224) | - | - | High
+32 | [38.60.217.40](https://vuldb.com/?ip.38.60.217.40) | - | - | High
+33 | [38.60.217.198](https://vuldb.com/?ip.38.60.217.198) | - | - | High
+34 | [39.96.58.23](https://vuldb.com/?ip.39.96.58.23) | - | - | High
+35 | ... | ... | ... | ...
 
-There are 83 more IOC items available. Please use our online service to access the data.
+There are 137 more IOC items available. Please use our online service to access the data.
+
+## TTP - Tactics, Techniques, Procedures
+
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _ShadowPad_. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1006 | CWE-22 | Pathname Traversal | High
+2 | T1059.007 | CWE-79 | Cross Site Scripting | High
+3 | T1068 | CWE-264 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+4 | ... | ... | ... | ...
+
+There are 1 more TTP items available. Please use our online service to access the data.
+
+## IOA - Indicator of Attack
+
+These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by ShadowPad. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Type | Indicator | Confidence
+-- | ---- | --------- | ----------
+1 | File | `org/apache/catalina/realm/RealmBase.java` | High
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://search.censys.io/hosts/3.19.1.60
+* https://search.censys.io/hosts/3.84.66.152
+* https://search.censys.io/hosts/3.219.38.25
+* https://search.censys.io/hosts/5.78.83.190
+* https://search.censys.io/hosts/5.252.178.38
+* https://search.censys.io/hosts/18.193.11.42
+* https://search.censys.io/hosts/38.54.20.187
+* https://search.censys.io/hosts/38.60.217.40
+* https://search.censys.io/hosts/39.96.58.23
+* https://search.censys.io/hosts/46.17.103.152
+* https://search.censys.io/hosts/64.176.37.149
+* https://search.censys.io/hosts/64.176.58.84
+* https://search.censys.io/hosts/77.72.85.16
+* https://search.censys.io/hosts/88.119.169.116
+* https://search.censys.io/hosts/95.179.217.17
+* https://search.censys.io/hosts/103.22.255.14
+* https://search.censys.io/hosts/104.233.167.99
+* https://search.censys.io/hosts/111.203.154.198
+* https://search.censys.io/hosts/111.203.154.199
+* https://search.censys.io/hosts/112.94.221.4
+* https://search.censys.io/hosts/112.95.159.90
+* https://search.censys.io/hosts/113.98.238.83
+* https://search.censys.io/hosts/114.255.80.175
+* https://search.censys.io/hosts/118.193.56.234
+* https://search.censys.io/hosts/120.236.186.153
+* https://search.censys.io/hosts/121.32.27.111
+* https://search.censys.io/hosts/121.201.64.100
+* https://search.censys.io/hosts/124.126.116.6
+* https://search.censys.io/hosts/124.126.116.7
+* https://search.censys.io/hosts/124.133.230.153
+* https://search.censys.io/hosts/128.14.105.245
+* https://search.censys.io/hosts/146.70.157.115
+* https://search.censys.io/hosts/146.185.219.33
+* https://search.censys.io/hosts/149.28.157.235
+* https://search.censys.io/hosts/149.202.45.103
+* https://search.censys.io/hosts/158.247.203.58
+* https://search.censys.io/hosts/165.154.227.192
+* https://search.censys.io/hosts/173.199.123.205
+* https://search.censys.io/hosts/183.236.220.4
+* https://search.censys.io/hosts/192.71.26.55
+* https://search.censys.io/hosts/194.165.59.120
+* https://search.censys.io/hosts/198.13.42.128
+* https://search.censys.io/hosts/220.248.252.114
+* https://search.censys.io/search?resource=hosts&sort=RELEVANCE&per_page=25&virtual_hosts=INCLUDE&q=name%3A+static.190.83.78.5.clients.your-server.de&ref=threatfox
 * https://threatfox.abuse.ch
 * https://www.pwc.co.uk/issues/cyber-security-services/research/chasing-shadows.html
 

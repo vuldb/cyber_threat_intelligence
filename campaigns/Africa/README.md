@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [GB](https://vuldb.com/?country.gb)
+* [TR](https://vuldb.com/?country.tr)
 * ...
 
-There are 22 more country items available. Please use our online service to access the data.
+There are 20 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -3981,9 +3981,11 @@ ID | IP address | Hostname | Actor | Confidence
 3945 | [63.223.12.64](https://vuldb.com/?ip.63.223.12.64) | 63-223-12-64.static.pccwglobal.net | [Africa Unknown](https://vuldb.com/?actor.africa_unknown) | High
 3946 | [63.223.12.128](https://vuldb.com/?ip.63.223.12.128) | 63-223-12-128.static.pccwglobal.net | [Africa Unknown](https://vuldb.com/?actor.africa_unknown) | High
 3947 | [63.223.24.0](https://vuldb.com/?ip.63.223.24.0) | 63-223-24-0.static.pccwglobal.net | [Africa Unknown](https://vuldb.com/?actor.africa_unknown) | High
-3948 | ... | ... | ... | ...
+3948 | [63.223.48.0](https://vuldb.com/?ip.63.223.48.0) | 63-223-48-0.static.pccwglobal.net | [Africa Unknown](https://vuldb.com/?actor.africa_unknown) | High
+3949 | [63.223.63.0](https://vuldb.com/?ip.63.223.63.0) | 63-223-63-0.static.pccwglobal.net | [Africa Unknown](https://vuldb.com/?actor.africa_unknown) | High
+3950 | ... | ... | ... | ...
 
-There are 15787 more IOC items available. Please use our online service to access the data.
+There are 15795 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -3991,15 +3993,15 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-36, CWE-425 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-35, CWE-425 | Pathname Traversal | High
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 7 | ... | ... | ... | ...
 
-There are 23 more TTP items available. Please use our online service to access the data.
+There are 25 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -4007,75 +4009,53 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.github/workflows/comment.yml` | High
-2 | File | `/?r=recruit/resume/edit&op=status` | High
-3 | File | `/act/ActDao.xml` | High
-4 | File | `/admin/?page=user/list` | High
-5 | File | `/admin/addproduct.php` | High
-6 | File | `/admin/bookings/manage_booking.php` | High
-7 | File | `/admin/budget/manage_budget.php` | High
-8 | File | `/admin/contacts/organizations/edit/2` | High
-9 | File | `/admin/del_service.php` | High
-10 | File | `/admin/edit_product.php` | High
-11 | File | `/admin/edit_subject.php` | High
-12 | File | `/admin/index.php` | High
-13 | File | `/admin/modal_add_product.php` | High
-14 | File | `/admin/project/update/2` | High
-15 | File | `/admin/read.php?mudi=announContent` | High
-16 | File | `/admin/read.php?mudi=getSignal` | High
-17 | File | `/admin/reg.php` | High
-18 | File | `/admin/reportupload.aspx` | High
-19 | File | `/admin/save_teacher.php` | High
-20 | File | `/admin/service.php` | High
-21 | File | `/admin/sys_sql_query.php` | High
-22 | File | `/admin/test_status.php` | High
-23 | File | `/admin/update_s6.php` | High
-24 | File | `/api/baskets/{name}` | High
-25 | File | `/api/ping` | Medium
-26 | File | `/api/stl/actions/search` | High
-27 | File | `/api/v1/terminal/sessions/?limit=1` | High
-28 | File | `/api/wechat/app_auth` | High
-29 | File | `/app/sys1.php` | High
-30 | File | `/apply.cgi` | Medium
-31 | File | `/author_posts.php` | High
-32 | File | `/bitrix/admin/ldap_server_edit.php` | High
-33 | File | `/blog` | Low
-34 | File | `/booking/show_bookings/` | High
-35 | File | `/browse` | Low
-36 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-37 | File | `/cas/logout` | Medium
-38 | File | `/category.php` | High
-39 | File | `/cgi-bin/adm.cgi` | High
-40 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
-41 | File | `/cgi-bin/luci/api/wireless` | High
-42 | File | `/chaincity/user/ticket/create` | High
-43 | File | `/change-language/de_DE` | High
-44 | File | `/changeimage.php` | High
-45 | File | `/classes/Master.php?f=delete_category` | High
-46 | File | `/classes/Master.php?f=delete_inquiry` | High
-47 | File | `/classes/Master.php?f=delete_item` | High
-48 | File | `/classes/Master.php?f=delete_service` | High
-49 | File | `/classes/Master.php?f=save_inquiry` | High
-50 | File | `/classes/Master.php?f=save_item` | High
-51 | File | `/classes/Master.php?f=save_service` | High
-52 | File | `/classes/Users.php` | High
-53 | File | `/classes/Users.php?f=save` | High
-54 | File | `/company/store` | High
-55 | File | `/config` | Low
-56 | File | `/config/php.ini` | High
-57 | File | `/contact.php` | Medium
-58 | File | `/contact/store` | High
-59 | File | `/Content/Template/root/reverse-shell.aspx` | High
-60 | File | `/Controller/Ajaxfileupload.ashx` | High
-61 | File | `/core/conditions/AbstractWrapper.java` | High
-62 | File | `/dashboard/add-blog.php` | High
-63 | File | `/debug/pprof` | Medium
-64 | File | `/dipam/athlete-profile.php` | High
-65 | File | `/dipam/save-delegates.php` | High
-66 | File | `/dosen/data` | Medium
-67 | ... | ... | ...
+1 | File | `/admin/budget/manage_budget.php` | High
+2 | File | `/admin/controller/JobLogController.java` | High
+3 | File | `/admin/del_service.php` | High
+4 | File | `/admin/maintenance/view_designation.php` | High
+5 | File | `/admin/save.php` | High
+6 | File | `/api/baskets/{name}` | High
+7 | File | `/api/download` | High
+8 | File | `/api/runscript` | High
+9 | File | `/api/sys/login` | High
+10 | File | `/api/sys/set_passwd` | High
+11 | File | `/api/v1/alerts` | High
+12 | File | `/api/v1/terminal/sessions/?limit=1` | High
+13 | File | `/app/sys1.php` | High
+14 | File | `/apply.cgi` | Medium
+15 | File | `/bitrix/admin/ldap_server_edit.php` | High
+16 | File | `/category.php` | High
+17 | File | `/categorypage.php` | High
+18 | File | `/cgi-bin/luci/api/wireless` | High
+19 | File | `/cgi-bin/R14.2/cgi-bin/R14.2/host.pl` | High
+20 | File | `/cgi-bin/vitogate.cgi` | High
+21 | File | `/changePassword` | High
+22 | File | `/conf/` | Low
+23 | File | `/config/php.ini` | High
+24 | File | `/Content/Template/root/reverse-shell.aspx` | High
+25 | File | `/core/conditions/AbstractWrapper.java` | High
+26 | File | `/dashboard/add-blog.php` | High
+27 | File | `/debug/pprof` | Medium
+28 | File | `/ecshop/admin/template.php` | High
+29 | File | `/etc/init.d/openfire` | High
+30 | File | `/etc/passwd` | Medium
+31 | File | `/ethash/algorithm.go` | High
+32 | File | `/fcgi/scrut_fcgi.fcgi` | High
+33 | File | `/filemanager/upload/drop` | High
+34 | File | `/forum/away.php` | High
+35 | File | `/gaia-job-admin/user/add` | High
+36 | File | `/general/ipanel/menu_code.php?MENU_TYPE=FAV` | High
+37 | File | `/group1/uploa` | High
+38 | File | `/HNAP1` | Low
+39 | File | `/index.php?app=main&func=passport&action=login` | High
+40 | File | `/jeecg-boot/sys/common/upload` | High
+41 | File | `/jerry-core/ecma/base/ecma-helpers-string.c` | High
+42 | File | `/jurusanmatkul/data` | High
+43 | File | `/kelas/data` | Medium
+44 | File | `/log/decodmail.php` | High
+45 | ... | ... | ...
 
-There are 592 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 388 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -4088,6 +4068,7 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://github.com/firehol/blocklist-ipsets/blob/master/ipip_country/ipip_continent_af.netset
 * https://github.com/ManagedGuard/AfricaBlackList/blob/main/MGAfricaIPBlackList.txt
 * https://isc.sans.edu/forums/diary/Hunting+for+Phishing+Sites+Masquerading+as+Outlook+Web+Access/27974/
+* https://raw.githubusercontent.com/firehol/blocklist-ipsets/master/geolite2_country/continent_af.netset
 * https://raw.githubusercontent.com/firehol/blocklist-ipsets/master/ipip_country/ipip_continent_af.netset
 * https://research.checkpoint.com/2022/dangeroussavanna-two-year-long-campaign-targets-financial-institutions-in-french-speaking-africa/
 * https://research.checkpoint.com/2023/stealth-soldier-backdoor-used-in-targeted-espionage-attacks-in-north-africa/

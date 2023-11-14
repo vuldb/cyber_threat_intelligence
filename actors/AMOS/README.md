@@ -18,7 +18,11 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [37.220.87.16](https://vuldb.com/?ip.37.220.87.16) | ipn-37-220-87-16.artem-catv.ru | - | High
-2 | [185.106.93.154](https://vuldb.com/?ip.185.106.93.154) | - | - | High
+2 | [104.21.17.179](https://vuldb.com/?ip.104.21.17.179) | - | - | High
+3 | [171.22.28.248](https://vuldb.com/?ip.171.22.28.248) | mail.wmailboxserv.net | - | High
+4 | ... | ... | ... | ...
+
+There are 4 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 

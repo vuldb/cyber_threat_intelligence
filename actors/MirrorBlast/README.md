@@ -37,7 +37,7 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -61,20 +61,21 @@ ID | Type | Indicator | Confidence
 10 | File | `/html/repository` | High
 11 | File | `/index.php` | Medium
 12 | File | `/members/view_member.php` | High
-13 | File | `/modules/projects/vw_files.php` | High
-14 | File | `/nova/bin/console` | High
-15 | File | `/owa/auth/logon.aspx` | High
-16 | File | `/rapi/read_url` | High
-17 | File | `/scripts/unlock_tasks.php` | High
-18 | File | `/services/config/config.xml` | High
-19 | File | `/services/system/setup.json` | High
-20 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
-21 | File | `/system/user/modules/mod_users/controller.php` | High
-22 | File | `/uncpath/` | Medium
-23 | File | `/WEB-INF/web.xml` | High
-24 | ... | ... | ...
+13 | File | `/mhds/clinic/view_details.php` | High
+14 | File | `/modules/projects/vw_files.php` | High
+15 | File | `/nova/bin/console` | High
+16 | File | `/owa/auth/logon.aspx` | High
+17 | File | `/rapi/read_url` | High
+18 | File | `/rest/api/latest/projectvalidate/key` | High
+19 | File | `/scripts/unlock_tasks.php` | High
+20 | File | `/services/config/config.xml` | High
+21 | File | `/services/system/setup.json` | High
+22 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
+23 | File | `/system/user/modules/mod_users/controller.php` | High
+24 | File | `/uncpath/` | Medium
+25 | ... | ... | ...
 
-There are 201 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 205 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

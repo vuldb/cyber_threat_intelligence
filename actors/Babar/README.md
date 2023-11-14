@@ -9,6 +9,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Babar:
 
 * [US](https://vuldb.com/?country.us)
+* [CA](https://vuldb.com/?country.ca)
 
 ## IOC - Indicator of Compromise
 

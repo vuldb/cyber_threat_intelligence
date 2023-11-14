@@ -47,13 +47,13 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/cgi-bin/wlogin.cgi` | High
-2 | File | `/index.php` | Medium
-3 | File | `/uncpath/` | Medium
-4 | File | `add_comment.php` | High
+1 | File | `/ajax/openvpn/activate_ovpncfg.php` | High
+2 | File | `/cgi-bin/wlogin.cgi` | High
+3 | File | `/index.php` | Medium
+4 | File | `/uncpath/` | Medium
 5 | ... | ... | ...
 
-There are 28 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 30 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

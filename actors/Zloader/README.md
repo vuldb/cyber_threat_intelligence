@@ -14,8 +14,8 @@ The following _campaigns_ are known and can be associated with Zloader:
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Zloader:
 
-* [US](https://vuldb.com/?country.us)
 * [GB](https://vuldb.com/?country.gb)
+* [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
@@ -47,7 +47,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 13 more TTP items available. Please use our online service to access the data.
+There are 14 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -59,28 +59,30 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin/add-services.php` | High
 3 | File | `/admin/add_user_modal.php` | High
 4 | File | `/admin/admin-profile.php` | High
-5 | File | `/admin/service.php` | High
-6 | File | `/admin/sys_sql_query.php` | High
-7 | File | `/admin/user/team` | High
-8 | File | `/ajax.php?action=read_msg` | High
-9 | File | `/api/ping` | Medium
-10 | File | `/baseOpLog.do` | High
-11 | File | `/bcms/admin/?page=user/list` | High
-12 | File | `/blog` | Low
-13 | File | `/blog-single.php` | High
-14 | File | `/cgi-bin/adm.cgi` | High
-15 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
-16 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-17 | File | `/classes/Master.php?f=save_inquiry` | High
-18 | File | `/collection/all` | High
-19 | File | `/Duty/AjaxHandle/UpLoadFloodPlanFile.ashx` | High
-20 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
-21 | File | `/home/cavesConsole` | High
-22 | File | `/index.php` | Medium
-23 | File | `/listplace/user/ticket/create` | High
-24 | ... | ... | ...
+5 | File | `/admin/ajax.php?action=confirm_order` | High
+6 | File | `/admin/service.php` | High
+7 | File | `/admin/sys_sql_query.php` | High
+8 | File | `/admin/user/team` | High
+9 | File | `/ajax.php?action=read_msg` | High
+10 | File | `/api/ping` | Medium
+11 | File | `/baseOpLog.do` | High
+12 | File | `/bcms/admin/?page=user/list` | High
+13 | File | `/blog` | Low
+14 | File | `/blog-single.php` | High
+15 | File | `/cgi-bin/adm.cgi` | High
+16 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
+17 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+18 | File | `/classes/Master.php?f=save_inquiry` | High
+19 | File | `/collection/all` | High
+20 | File | `/Duty/AjaxHandle/UpLoadFloodPlanFile.ashx` | High
+21 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
+22 | File | `/home/cavesConsole` | High
+23 | File | `/index.php` | Medium
+24 | File | `/listplace/user/ticket/create` | High
+25 | File | `/load.php` | Medium
+26 | ... | ... | ...
 
-There are 201 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 223 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

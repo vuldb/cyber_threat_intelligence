@@ -104,11 +104,11 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.bash_history` | High
-2 | File | `/usr/local/psa/admin/sbin/wrapper` | High
-3 | File | `data/gbconfiguration.dat` | High
+2 | File | `/edit-db.php` | Medium
+3 | File | `/usr/local/psa/admin/sbin/wrapper` | High
 4 | ... | ... | ...
 
-There are 5 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 6 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

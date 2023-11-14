@@ -20,7 +20,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 16 more country items available. Please use our online service to access the data.
+There are 17 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -108,29 +108,28 @@ ID | Type | Indicator | Confidence
 35 | File | `/services/details.asp` | High
 36 | File | `/Session` | Medium
 37 | File | `/spip.php` | Medium
-38 | File | `/SysInfo.htm` | Medium
-39 | File | `/uncpath/` | Medium
-40 | File | `/usr/syno/etc/mount.conf` | High
-41 | File | `/var/log/fujitsu/ServerViewSuite/ism/FirmwareManagement/FirmwareManagement.log` | High
-42 | File | `/var/log/rkhunter.log` | High
-43 | File | `/vendor` | Low
-44 | File | `/wp-admin/admin.php?page=wp_file_manager_properties` | High
-45 | File | `/wp-json/oembed/1.0/embed?url` | High
-46 | File | `/wp/?cpmvc_id=1&cpmvc_do_action=mvparse&f=datafeed&calid=1&month_index=1&method=adddetails&id=2` | High
-47 | File | `/zm/index.php` | High
-48 | File | `a-b-membres.php` | High
-49 | File | `access.conf` | Medium
-50 | File | `adclick.php` | Medium
-51 | File | `addtocart.asp` | High
+38 | File | `/STATE_ID/1613157927228/InvSWMetering.pdf` | High
+39 | File | `/SysInfo.htm` | Medium
+40 | File | `/usr/bin/pkexec` | High
+41 | File | `/usr/syno/etc/mount.conf` | High
+42 | File | `/var/log/fujitsu/ServerViewSuite/ism/FirmwareManagement/FirmwareManagement.log` | High
+43 | File | `/var/log/rkhunter.log` | High
+44 | File | `/vendor` | Low
+45 | File | `/wp-admin/admin.php?page=wp_file_manager_properties` | High
+46 | File | `/wp-json/oembed/1.0/embed?url` | High
+47 | File | `/wp/?cpmvc_id=1&cpmvc_do_action=mvparse&f=datafeed&calid=1&month_index=1&method=adddetails&id=2` | High
+48 | File | `/zm/index.php` | High
+49 | File | `a-b-membres.php` | High
+50 | File | `access.conf` | Medium
+51 | File | `adclick.php` | Medium
 52 | File | `add_2_basket.asp` | High
 53 | File | `add_edit_cat.asp` | High
 54 | File | `admin.jcomments.php` | High
 55 | File | `admin.php` | Medium
 56 | File | `admin.php/comments/batchdel/` | High
-57 | File | `admin/aboutus.php` | High
-58 | ... | ... | ...
+57 | ... | ... | ...
 
-There are 511 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 496 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

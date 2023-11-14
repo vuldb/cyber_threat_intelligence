@@ -42,7 +42,8 @@ ID | IP address | Hostname | Campaign | Confidence
 19 | [37.59.47.208](https://vuldb.com/?ip.37.59.47.208) | ns3000975.ip-37-59-47.eu | - | High
 20 | [44.35.8.8](https://vuldb.com/?ip.44.35.8.8) | - | - | High
 21 | [45.197.141.250](https://vuldb.com/?ip.45.197.141.250) | - | - | High
-22 | ... | ... | ... | ...
+22 | [47.254.169.212](https://vuldb.com/?ip.47.254.169.212) | - | - | High
+23 | ... | ... | ... | ...
 
 There are 86 more IOC items available. Please use our online service to access the data.
 
@@ -59,7 +60,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -72,47 +73,48 @@ ID | Type | Indicator | Confidence
 3 | File | `/admin.php/accessory/filesdel.html` | High
 4 | File | `/admin/?page=user/manage` | High
 5 | File | `/admin/add-new.php` | High
-6 | File | `/admin/doctors.php` | High
-7 | File | `/admin/login.php` | High
-8 | File | `/admin/submit-articles` | High
-9 | File | `/ad_js.php` | Medium
+6 | File | `/admin/controller/JobLogController.java` | High
+7 | File | `/admin/doctors.php` | High
+8 | File | `/admin/login.php` | High
+9 | File | `/admin/submit-articles` | High
 10 | File | `/alphaware/summary.php` | High
 11 | File | `/api/` | Low
 12 | File | `/api/admin/store/product/list` | High
 13 | File | `/api/baskets/{name}` | High
 14 | File | `/api/stl/actions/search` | High
-15 | File | `/api/v2/cli/commands` | High
-16 | File | `/attachments` | Medium
-17 | File | `/bin/ate` | Medium
-18 | File | `/boat/login.php` | High
-19 | File | `/booking/show_bookings/` | High
-20 | File | `/bsms_ci/index.php/book` | High
-21 | File | `/cgi-bin` | Medium
-22 | File | `/cgi-bin/luci/api/wireless` | High
-23 | File | `/cgi-bin/wlogin.cgi` | High
-24 | File | `/Content/Template/root/reverse-shell.aspx` | High
-25 | File | `/context/%2e/WEB-INF/web.xml` | High
-26 | File | `/dashboard/add-blog.php` | High
-27 | File | `/debug/pprof` | Medium
-28 | File | `/env` | Low
-29 | File | `/etc/hosts` | Medium
-30 | File | `/forum/away.php` | High
-31 | File | `/goform/setmac` | High
-32 | File | `/goform/wizard_end` | High
-33 | File | `/group1/uploa` | High
-34 | File | `/inc/parser/xhtml.php` | High
-35 | File | `/manage-apartment.php` | High
-36 | File | `/medicines/profile.php` | High
-37 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-38 | File | `/pages/apply_vacancy.php` | High
-39 | File | `/php-sms/admin/?page=user/manage_user` | High
-40 | File | `/proxy` | Low
-41 | File | `/requests.php` | High
-42 | File | `/reservation/add_message.php` | High
-43 | File | `/resources//../` | High
-44 | ... | ... | ...
+15 | File | `/api/sys/login` | High
+16 | File | `/api/sys/set_passwd` | High
+17 | File | `/api/v2/cli/commands` | High
+18 | File | `/attachments` | Medium
+19 | File | `/bin/ate` | Medium
+20 | File | `/boat/login.php` | High
+21 | File | `/booking/show_bookings/` | High
+22 | File | `/bsms_ci/index.php/book` | High
+23 | File | `/cgi-bin` | Medium
+24 | File | `/cgi-bin/luci/api/wireless` | High
+25 | File | `/cgi-bin/wlogin.cgi` | High
+26 | File | `/changePassword` | High
+27 | File | `/Content/Template/root/reverse-shell.aspx` | High
+28 | File | `/context/%2e/WEB-INF/web.xml` | High
+29 | File | `/dashboard/add-blog.php` | High
+30 | File | `/debug/pprof` | Medium
+31 | File | `/ecshop/admin/template.php` | High
+32 | File | `/env` | Low
+33 | File | `/etc/hosts` | Medium
+34 | File | `/forum/away.php` | High
+35 | File | `/goform/setmac` | High
+36 | File | `/goform/wizard_end` | High
+37 | File | `/group1/uploa` | High
+38 | File | `/inc/parser/xhtml.php` | High
+39 | File | `/manage-apartment.php` | High
+40 | File | `/medicines/profile.php` | High
+41 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+42 | File | `/pages/apply_vacancy.php` | High
+43 | File | `/php-sms/admin/?page=user/manage_user` | High
+44 | File | `/proxy` | Low
+45 | ... | ... | ...
 
-There are 385 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 393 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -126,6 +128,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.usejournal.com/sesame-street-volusion-customers-are-comprised-how-the-cookie-monster-is-stealing-cc-numbers-21eb51ec613b
 * https://community.blueliv.com/#!/s/614c62f382df414169331f64
 * https://github.com/blackorbird/APT_REPORT/tree/master/Magecart
+* https://sansec.io/research/malware-persistence-via-telegram-and-github
 
 ## Literature
 

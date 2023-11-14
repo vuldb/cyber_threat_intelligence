@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [VN](https://vuldb.com/?country.vn)
 * ...
 
-There are 8 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -97,7 +97,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-29, CWE-36 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-36 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
@@ -116,45 +116,43 @@ ID | Type | Indicator | Confidence
 1 | File | `$HOME/.terminfo` | High
 2 | File | `/act/ActDao.xml` | High
 3 | File | `/admin.php?c=upload&f=zip&_noCache=0.1683794968` | High
-4 | File | `/admin/user.php` | High
-5 | File | `/api/baskets/{name}` | High
-6 | File | `/bin/ate` | Medium
-7 | File | `/bin/login` | Medium
-8 | File | `/bin/mini_upnpd` | High
-9 | File | `/booking/show_bookings/` | High
-10 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
-11 | File | `/cgi/networkDiag.cgi` | High
-12 | File | `/concat?/%2557EB-INF/web.xml` | High
-13 | File | `/Controller/Ajaxfileupload.ashx` | High
-14 | File | `/dashboard/add-blog.php` | High
-15 | File | `/debug/pprof` | Medium
-16 | File | `/env` | Low
-17 | File | `/etc/passwd` | Medium
-18 | File | `/forum/away.php` | High
-19 | File | `/getcfg.php` | Medium
-20 | File | `/goform/AdvSetLanip` | High
-21 | File | `/goform/fromSetWirelessRepeat` | High
-22 | File | `/goform/net\_Web\_get_value` | High
-23 | File | `/goform/setmac` | High
-24 | File | `/goform/setMacFilterCfg` | High
-25 | File | `/goform/SetSysTimeCfg` | High
-26 | File | `/goform/set_LimitClient_cfg` | High
-27 | File | `/goform/WifiGuestSet` | High
-28 | File | `/GponForm/usb_restore_Form?script/` | High
-29 | File | `/group1/uploa` | High
-30 | File | `/h/autoSaveDraft` | High
-31 | File | `/h/search?action` | High
-32 | File | `/hss/admin/?page=products/view_product` | High
-33 | File | `/importexport.php` | High
-34 | File | `/index.php/sysmanage/Login/login_auth/` | High
-35 | File | `/index.php?app=main&func=passport&action=login` | High
-36 | File | `/kelasdosen/data` | High
-37 | File | `/mgmt/` | Low
-38 | File | `/net/sched/cls_fw.c` | High
-39 | File | `/owa/auth/logon.aspx` | High
-40 | ... | ... | ...
+4 | File | `/admin/sql` | Medium
+5 | File | `/admin/user.php` | High
+6 | File | `/api/baskets/{name}` | High
+7 | File | `/api/v1/snapshots` | High
+8 | File | `/bin/login` | Medium
+9 | File | `/bin/mini_upnpd` | High
+10 | File | `/booking/show_bookings/` | High
+11 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
+12 | File | `/cgi/networkDiag.cgi` | High
+13 | File | `/concat?/%2557EB-INF/web.xml` | High
+14 | File | `/Controller/Ajaxfileupload.ashx` | High
+15 | File | `/dashboard/add-blog.php` | High
+16 | File | `/debug/pprof` | Medium
+17 | File | `/env` | Low
+18 | File | `/etc/passwd` | Medium
+19 | File | `/forum/away.php` | High
+20 | File | `/getcfg.php` | Medium
+21 | File | `/goform/net\_Web\_get_value` | High
+22 | File | `/GponForm/usb_restore_Form?script/` | High
+23 | File | `/group1/uploa` | High
+24 | File | `/h/autoSaveDraft` | High
+25 | File | `/h/search?action` | High
+26 | File | `/hss/admin/?page=products/view_product` | High
+27 | File | `/importexport.php` | High
+28 | File | `/index.php/sysmanage/Login/login_auth/` | High
+29 | File | `/index.php?app=main&func=passport&action=login` | High
+30 | File | `/mgmt/` | Low
+31 | File | `/net/sched/cls_fw.c` | High
+32 | File | `/plugin` | Low
+33 | File | `/preview.php` | Medium
+34 | File | `/protocol/iscgwtunnel/uploadiscgwrouteconf.php` | High
+35 | File | `/search.php` | Medium
+36 | File | `/secure/QueryComponent!Default.jspa` | High
+37 | File | `/secure/ViewCollectors` | High
+38 | ... | ... | ...
 
-There are 344 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 327 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

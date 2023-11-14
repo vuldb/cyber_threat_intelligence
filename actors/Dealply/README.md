@@ -50,39 +50,37 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/admin_admin.php` | High
-2 | File | `/admin/ajax.php` | High
-3 | File | `/admin/bookings/view_details.php` | High
+1 | File | `/activate_hook.php` | High
+2 | File | `/admin/admin_admin.php` | High
+3 | File | `/admin/ajax.php` | High
 4 | File | `/admin/index.php` | High
-5 | File | `/ajax/myshop` | Medium
-6 | File | `/api/baskets/{name}` | High
-7 | File | `/bin/ate` | Medium
-8 | File | `/bin/webs` | Medium
-9 | File | `/boafrm/formFilter` | High
-10 | File | `/boafrm/formHomeWlanSetup` | High
-11 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
-12 | File | `/cgi-bin/ping.cgi` | High
-13 | File | `/classes/Master.php` | High
-14 | File | `/classes/Master.php?f=delete_item` | High
-15 | File | `/classes/Master.php?f=delete_service` | High
-16 | File | `/classes/Master.php?f=save_course` | High
-17 | File | `/collection/all` | High
-18 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
-19 | File | `/dosen/data` | Medium
-20 | File | `/ecommerce/support_ticket` | High
-21 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-22 | File | `/Enclave.cpp` | Medium
-23 | File | `/file_manager/admin/save_user.php` | High
-24 | File | `/get-artifact` | High
-25 | File | `/goForm/aspForm` | High
-26 | File | `/goform/formTcpipSetup` | High
-27 | File | `/inc/jquery/uploadify/uploadify.php` | High
-28 | File | `/index.php/archives/1/comment` | High
-29 | File | `/jerry-core/parser/js/js-lexer.c` | High
-30 | File | `/jerry-core/parser/js/js-parser-statm.c` | High
-31 | ... | ... | ...
+5 | File | `/api/baskets/{name}` | High
+6 | File | `/bin/ate` | Medium
+7 | File | `/bin/webs` | Medium
+8 | File | `/boafrm/formFilter` | High
+9 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
+10 | File | `/cgi-bin/ping.cgi` | High
+11 | File | `/classes/Master.php` | High
+12 | File | `/classes/Master.php?f=delete_item` | High
+13 | File | `/classes/Master.php?f=delete_service` | High
+14 | File | `/collection/all` | High
+15 | File | `/dosen/data` | Medium
+16 | File | `/ecommerce/support_ticket` | High
+17 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+18 | File | `/Enclave.cpp` | Medium
+19 | File | `/file_manager/admin/save_user.php` | High
+20 | File | `/get-artifact` | High
+21 | File | `/goForm/aspForm` | High
+22 | File | `/goform/formTcpipSetup` | High
+23 | File | `/inc/jquery/uploadify/uploadify.php` | High
+24 | File | `/index.php/archives/1/comment` | High
+25 | File | `/jerry-core/parser/js/js-lexer.c` | High
+26 | File | `/jerry-core/parser/js/js-parser-statm.c` | High
+27 | File | `/jerry-core/parser/js/js-scanner-util.c` | High
+28 | File | `/jurusan/data` | High
+29 | ... | ... | ...
 
-There are 267 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 249 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

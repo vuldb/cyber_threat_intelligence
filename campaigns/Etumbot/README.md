@@ -8,9 +8,9 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Etumbot:
 
+* [US](https://vuldb.com/?country.us)
 * [AR](https://vuldb.com/?country.ar)
 * [ES](https://vuldb.com/?country.es)
-* [US](https://vuldb.com/?country.us)
 
 ## Actors
 
@@ -53,11 +53,11 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/wp-admin/admin-ajax.php` | High
-2 | File | `GponForm/diag_Form` | High
-3 | Argument | `diag_action=ping` | High
+2 | File | `adclick.php` | Medium
+3 | File | `GponForm/diag_Form` | High
 4 | ... | ... | ...
 
-There are 2 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 4 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

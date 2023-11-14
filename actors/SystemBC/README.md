@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -67,7 +67,7 @@ ID | IP address | Hostname | Campaign | Confidence
 44 | [45.89.125.136](https://vuldb.com/?ip.45.89.125.136) | mail.marlon.world | - | High
 45 | ... | ... | ... | ...
 
-There are 177 more IOC items available. Please use our online service to access the data.
+There are 178 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -82,7 +82,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -102,39 +102,36 @@ ID | Type | Indicator | Confidence
 10 | File | `/api/v1/bait/set` | High
 11 | File | `/apply.cgi` | Medium
 12 | File | `/asms/classes/Master.php?f=delete_img` | High
-13 | File | `/book-services.php` | High
-14 | File | `/cgi-bin/wlogin.cgi` | High
-15 | File | `/College/admin/teacher.php` | High
-16 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
-17 | File | `/csms/?page=contact_us` | High
-18 | File | `/dcim/rack-roles/` | High
-19 | File | `/en/blog-comment-4` | High
-20 | File | `/forum/away.php` | High
-21 | File | `/goform/addUserName` | High
-22 | File | `/goform/aspForm` | High
-23 | File | `/goform/delAd` | High
-24 | File | `/goform/wifiSSIDset` | High
-25 | File | `/gpac/src/bifs/unquantize.c` | High
-26 | File | `/h/` | Low
-27 | File | `/inc/topBarNav.php` | High
-28 | File | `/index.asp` | Medium
-29 | File | `/index.php` | Medium
-30 | File | `/index.php?app=main&func=passport&action=login` | High
-31 | File | `/jfinal_cms/system/role/list` | High
-32 | File | `/kelas/data` | Medium
-33 | File | `/login/index.php` | High
-34 | File | `/Moosikay/order.php` | High
-35 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-36 | File | `/php-sms/admin/quotes/manage_remark.php` | High
-37 | File | `/project/PROJECTNAME/reports/` | High
-38 | File | `/school/model/get_admin_profile.php` | High
+13 | File | `/bitrix/admin/ldap_server_edit.php` | High
+14 | File | `/book-services.php` | High
+15 | File | `/cgi-bin/wlogin.cgi` | High
+16 | File | `/College/admin/teacher.php` | High
+17 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
+18 | File | `/csms/?page=contact_us` | High
+19 | File | `/dcim/rack-roles/` | High
+20 | File | `/en/blog-comment-4` | High
+21 | File | `/forum/away.php` | High
+22 | File | `/goform/addUserName` | High
+23 | File | `/goform/aspForm` | High
+24 | File | `/goform/delAd` | High
+25 | File | `/goform/wifiSSIDset` | High
+26 | File | `/gpac/src/bifs/unquantize.c` | High
+27 | File | `/h/` | Low
+28 | File | `/inc/topBarNav.php` | High
+29 | File | `/index.asp` | Medium
+30 | File | `/index.php` | Medium
+31 | File | `/index.php?app=main&func=passport&action=login` | High
+32 | File | `/jfinal_cms/system/role/list` | High
+33 | File | `/kelas/data` | Medium
+34 | File | `/login/index.php` | High
+35 | File | `/Moosikay/order.php` | High
+36 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+37 | File | `/php-sms/admin/quotes/manage_remark.php` | High
+38 | File | `/project/PROJECTNAME/reports/` | High
 39 | File | `/scripts/unlock_tasks.php` | High
-40 | File | `/secure/QueryComponent!Default.jspa` | High
-41 | File | `/secure/ViewCollectors` | High
-42 | File | `/Session` | Medium
-43 | ... | ... | ...
+40 | ... | ... | ...
 
-There are 375 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 346 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

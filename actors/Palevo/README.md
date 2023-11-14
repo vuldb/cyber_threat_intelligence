@@ -65,9 +65,10 @@ ID | Type | Indicator | Confidence
 15 | File | `/network_test.php` | High
 16 | File | `/okm:root` | Medium
 17 | File | `/SetTriggerLEDBlink/Blink` | High
-18 | ... | ... | ...
+18 | File | `/spip.php` | Medium
+19 | ... | ... | ...
 
-There are 146 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 155 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

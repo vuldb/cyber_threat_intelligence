@@ -16,10 +16,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [CL](https://vuldb.com/?country.cl)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 23 more country items available. Please use our online service to access the data.
+There are 19 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -35,16 +35,17 @@ ID | IP address | Hostname | Campaign | Confidence
 6 | [23.95.128.195](https://vuldb.com/?ip.23.95.128.195) | 23-95-128-195-host.colocrossing.com | - | High
 7 | [31.3.251.197](https://vuldb.com/?ip.31.3.251.197) | h31-3-251-197.host.redstation.co.uk | - | High
 8 | [31.209.137.12](https://vuldb.com/?ip.31.209.137.12) | smtp.vivaldi.net | - | High
-9 | [34.200.207.31](https://vuldb.com/?ip.34.200.207.31) | ec2-34-200-207-31.compute-1.amazonaws.com | - | Medium
-10 | [37.19.196.108](https://vuldb.com/?ip.37.19.196.108) | unn-37-19-196-108.datapacket.com | - | High
-11 | [45.142.215.180](https://vuldb.com/?ip.45.142.215.180) | connectoms.host | - | High
-12 | [45.156.25.78](https://vuldb.com/?ip.45.156.25.78) | - | - | High
-13 | [46.166.133.164](https://vuldb.com/?ip.46.166.133.164) | cybersubtitles.com | - | High
-14 | [47.87.211.157](https://vuldb.com/?ip.47.87.211.157) | - | - | High
-15 | [50.17.5.224](https://vuldb.com/?ip.50.17.5.224) | ec2-50-17-5-224.compute-1.amazonaws.com | - | Medium
-16 | ... | ... | ... | ...
+9 | [31.220.2.200](https://vuldb.com/?ip.31.220.2.200) | shared.swiftslots.com | - | High
+10 | [34.200.207.31](https://vuldb.com/?ip.34.200.207.31) | ec2-34-200-207-31.compute-1.amazonaws.com | - | Medium
+11 | [37.19.196.108](https://vuldb.com/?ip.37.19.196.108) | unn-37-19-196-108.datapacket.com | - | High
+12 | [45.142.215.180](https://vuldb.com/?ip.45.142.215.180) | connectoms.host | - | High
+13 | [45.156.25.78](https://vuldb.com/?ip.45.156.25.78) | - | - | High
+14 | [46.166.133.164](https://vuldb.com/?ip.46.166.133.164) | cybersubtitles.com | - | High
+15 | [47.87.211.157](https://vuldb.com/?ip.47.87.211.157) | - | - | High
+16 | [50.17.5.224](https://vuldb.com/?ip.50.17.5.224) | ec2-50-17-5-224.compute-1.amazonaws.com | - | Medium
+17 | ... | ... | ... | ...
 
-There are 61 more IOC items available. Please use our online service to access the data.
+There are 63 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -59,7 +60,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -68,62 +69,56 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/admin/ajax.php?action=save_window` | High
-3 | File | `/api/addusers` | High
-4 | File | `/app/options.py` | High
-5 | File | `/be/erpc.php` | Medium
-6 | File | `/bitrix/admin/ldap_server_edit.php` | High
-7 | File | `/booking/show_bookings/` | High
-8 | File | `/controller/Index.php` | High
-9 | File | `/csms/?page=contact_us` | High
-10 | File | `/dashboard/add-portfolio.php` | High
-11 | File | `/data/app` | Medium
-12 | File | `/etc/ajenti/config.yml` | High
-13 | File | `/etc/gsissh/sshd_config` | High
-14 | File | `/etc/sudoers` | Medium
-15 | File | `/forum/away.php` | High
-16 | File | `/goform/telnet` | High
-17 | File | `/include/chart_generator.php` | High
-18 | File | `/inxedu/demo_inxedu_open/src/main/resources/mybatis/inxedu/website/WebsiteImagesMapper.xml` | High
-19 | File | `/lilac/main.php` | High
-20 | File | `/manager?action=getlogcat` | High
-21 | File | `/mc` | Low
-22 | File | `/mims/login.php` | High
-23 | File | `/module/admin_bp/add_application.php` | High
-24 | File | `/module/report_event/index.php` | High
-25 | File | `/modules/profile/index.php` | High
-26 | File | `/out.php` | Medium
-27 | File | `/proc/sys/vm/cmm_timeout` | High
-28 | File | `/public/launchNewWindow.jsp` | High
-29 | File | `/public/login.htm` | High
-30 | File | `/RestAPI` | Medium
-31 | File | `/rom-0` | Low
-32 | File | `/royal_event/companyprofile.php` | High
-33 | File | `/server-status` | High
-34 | File | `/spip.php` | Medium
-35 | File | `/src/helper.c` | High
-36 | File | `/staff/bookdetails.php` | High
-37 | File | `/Status/wan_button_action.asp` | High
-38 | File | `/student/bookdetails.php` | High
-39 | File | `/tmp/connlicj.bin` | High
-40 | File | `/uncpath/` | Medium
-41 | File | `/upload` | Low
-42 | File | `/usr/local/nagiosxi/html/includes/configwizards/windowswmi/windowswmi.inc.php` | High
-43 | File | `/var/log/nginx` | High
-44 | File | `/var/tmp/sess_*` | High
-45 | File | `/wp-admin/options.php` | High
-46 | File | `/youthappam/add-food.php` | High
-47 | File | `/youthappam/editclient.php` | High
-48 | File | `4.2.0.CP09` | Medium
-49 | File | `?page=rooms` | Medium
-50 | File | `addsuppliers.php` | High
-51 | File | `add_comment.php` | High
-52 | File | `admin.a6mambocredits.php` | High
-53 | File | `admin.php` | Medium
-54 | File | `admin.php3` | Medium
-55 | ... | ... | ...
+2 | File | `/admin/ajax.php` | High
+3 | File | `/admin/ajax.php?action=save_window` | High
+4 | File | `/api/baskets/{name}` | High
+5 | File | `/app/options.py` | High
+6 | File | `/be/erpc.php` | Medium
+7 | File | `/bitrix/admin/ldap_server_edit.php` | High
+8 | File | `/booking/show_bookings/` | High
+9 | File | `/config/list` | Medium
+10 | File | `/controller/Index.php` | High
+11 | File | `/csms/?page=contact_us` | High
+12 | File | `/dashboard/add-portfolio.php` | High
+13 | File | `/data/app` | Medium
+14 | File | `/dev/wabi` | Medium
+15 | File | `/etc/gsissh/sshd_config` | High
+16 | File | `/etc/sudoers` | Medium
+17 | File | `/forum/away.php` | High
+18 | File | `/goform/WifiBasicSet` | High
+19 | File | `/include/chart_generator.php` | High
+20 | File | `/inxedu/demo_inxedu_open/src/main/resources/mybatis/inxedu/website/WebsiteImagesMapper.xml` | High
+21 | File | `/lilac/main.php` | High
+22 | File | `/login.php` | Medium
+23 | File | `/mc` | Low
+24 | File | `/mims/login.php` | High
+25 | File | `/module/admin_bp/add_application.php` | High
+26 | File | `/module/report_event/index.php` | High
+27 | File | `/modules/profile/index.php` | High
+28 | File | `/news-portal-script/information.php` | High
+29 | File | `/out.php` | Medium
+30 | File | `/proc/sys/vm/cmm_timeout` | High
+31 | File | `/public/launchNewWindow.jsp` | High
+32 | File | `/RestAPI` | Medium
+33 | File | `/reviewer/system/system/admins/manage/users/user-update.php` | High
+34 | File | `/royal_event/companyprofile.php` | High
+35 | File | `/server-status` | High
+36 | File | `/showfile.php` | High
+37 | File | `/spip.php` | Medium
+38 | File | `/staff/bookdetails.php` | High
+39 | File | `/Status/wan_button_action.asp` | High
+40 | File | `/student/bookdetails.php` | High
+41 | File | `/uncpath/` | Medium
+42 | File | `/upload` | Low
+43 | File | `/usr/local/nagiosxi/html/includes/configwizards/windowswmi/windowswmi.inc.php` | High
+44 | File | `/var/log/nginx` | High
+45 | File | `/wbg/core/_includes/authorization.inc.php` | High
+46 | File | `/wp-admin/options.php` | High
+47 | File | `/youthappam/add-food.php` | High
+48 | File | `/youthappam/editclient.php` | High
+49 | ... | ... | ...
 
-There are 480 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 429 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -149,6 +144,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://github.com/netskopeoss/NetskopeThreatLabsIOCs/tree/main/AgentTesla/IOCs
 * https://services.global.ntt/en-us/insights/blog/discovering-a-new-agent-tesla-malware-sample
 * https://threatfox.abuse.ch
+* https://tracker.viriback.com/index.php?q=31.220.2.200
 * https://tracker.viriback.com/index.php?q=95.214.27.98
 * https://tracker.viriback.com/index.php?q=107.175.91.120
 * https://tracker.viriback.com/index.php?q=137.184.5.20

@@ -27,7 +27,7 @@ ID | IP address | Hostname | Campaign | Confidence
 4 | [23.254.227.205](https://vuldb.com/?ip.23.254.227.205) | client-23-254-227-205.hostwindsdns.com | - | High
 5 | ... | ... | ... | ...
 
-There are 15 more IOC items available. Please use our online service to access the data.
+There are 16 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -73,9 +73,10 @@ ID | Type | Indicator | Confidence
 21 | File | `/uapi/doc` | Medium
 22 | File | `/uncpath/` | Medium
 23 | File | `/updownload/t.report` | High
-24 | ... | ... | ...
+24 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
+25 | ... | ... | ...
 
-There are 197 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 209 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -88,6 +89,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://asec.ahnlab.com/en/38942/
 * https://github.com/sophoslabs/IoCs/blob/master/Troj_GuLoader.csv
 * https://isc.sans.edu/diary/GuLoader+or+DBatLoaderModiLoaderstyle+infection+for+Remcos+RAT/29990
+* https://research.checkpoint.com/2023/unveiling-the-shadows-the-dark-alliance-between-guloader-and-remcos/
 
 ## Literature
 

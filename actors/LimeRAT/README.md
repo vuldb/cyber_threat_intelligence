@@ -39,7 +39,7 @@ ID | IP address | Hostname | Campaign | Confidence
 16 | [45.88.79.224](https://vuldb.com/?ip.45.88.79.224) | free.example.com | - | High
 17 | ... | ... | ... | ...
 
-There are 62 more IOC items available. Please use our online service to access the data.
+There are 63 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -65,22 +65,22 @@ ID | Type | Indicator | Confidence
 1 | File | `.travis.yml` | Medium
 2 | File | `/admin/?n=logs&c=index&a=dode` | High
 3 | File | `/admin/?page=orders/manage_request` | High
-4 | File | `/admin/addbookmark.php` | High
-5 | File | `/admin/files` | Medium
-6 | File | `/admin/update_s6.php` | High
-7 | File | `/admin/users/index.php` | High
-8 | File | `/alphaware/details.php` | High
-9 | File | `/api/v2/cli/commands` | High
-10 | File | `/api/ZRQos/set_online_client` | High
-11 | File | `/articles/welcome-to-your-site#comments-head` | High
-12 | File | `/batm/app/admin/standalone/deployments` | High
-13 | File | `/be/erpc.php` | Medium
-14 | File | `/binbloom-master/src/helpers.c` | High
-15 | File | `/blog` | Low
-16 | File | `/boafrm/formHomeWlanSetup` | High
-17 | File | `/cgi-bin/kerbynet` | High
-18 | File | `/ci_hms/massage_room/edit/1` | High
-19 | File | `/classes/Master.php?f=delete_reservation` | High
+4 | File | `/admin/files` | Medium
+5 | File | `/admin/update_s6.php` | High
+6 | File | `/admin/users/index.php` | High
+7 | File | `/alphaware/details.php` | High
+8 | File | `/api/v2/cli/commands` | High
+9 | File | `/api/ZRQos/set_online_client` | High
+10 | File | `/articles/welcome-to-your-site#comments-head` | High
+11 | File | `/batm/app/admin/standalone/deployments` | High
+12 | File | `/be/erpc.php` | Medium
+13 | File | `/binbloom-master/src/helpers.c` | High
+14 | File | `/blog` | Low
+15 | File | `/boafrm/formHomeWlanSetup` | High
+16 | File | `/cgi-bin/kerbynet` | High
+17 | File | `/ci_hms/massage_room/edit/1` | High
+18 | File | `/classes/Master.php?f=delete_reservation` | High
+19 | File | `/common/info.cgi` | High
 20 | File | `/core/kernels/ctc_decoder_ops.cc` | High
 21 | File | `/crmeb/app/admin/controller/store/CopyTaobao.php` | High
 22 | File | `/dashboard/settings` | High
@@ -104,15 +104,16 @@ ID | Type | Indicator | Confidence
 40 | File | `/ManageRoute/postRoute` | High
 41 | File | `/mkshop/Men/profile.php` | High
 42 | File | `/newVersion` | Medium
-43 | File | `/onlineordering/GPST/admin/design.php` | High
-44 | File | `/out.php` | Medium
-45 | File | `/PC/WebService.asmx` | High
-46 | File | `/preauth` | Medium
-47 | File | `/search.php` | Medium
-48 | File | `/Source/C++/Core/Ap4DataBuffer.cpp` | High
-49 | ... | ... | ...
+43 | File | `/out.php` | Medium
+44 | File | `/PC/WebService.asmx` | High
+45 | File | `/preauth` | Medium
+46 | File | `/search.php` | Medium
+47 | File | `/Source/C++/Core/Ap4DataBuffer.cpp` | High
+48 | File | `/spip.php` | Medium
+49 | File | `/staff/edit_book_details.php` | High
+50 | ... | ... | ...
 
-There are 427 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 430 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

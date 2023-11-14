@@ -95,18 +95,18 @@ ID | Type | Indicator | Confidence
 35 | File | `/tmp` | Low
 36 | File | `/tmp/before` | Medium
 37 | File | `/User/saveUser` | High
-38 | File | `/usr/bin/vmware-mount` | High
-39 | File | `/var/WEB-GUI/cgi-bin/downloadfile.cgi` | High
-40 | File | `/WEB-INF/web.xml` | High
-41 | File | `/_vti_pvt/access.cnf` | High
-42 | File | `3/qq_connect2.0/API/class/ErrorCase.class.php` | High
-43 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-44 | File | `accountsettings_add.html` | High
-45 | File | `aclient.exe` | Medium
-46 | File | `admin.php` | Medium
+38 | File | `/userLogin.asp` | High
+39 | File | `/usr/bin/vmware-mount` | High
+40 | File | `/var/WEB-GUI/cgi-bin/downloadfile.cgi` | High
+41 | File | `/WEB-INF/web.xml` | High
+42 | File | `/_vti_pvt/access.cnf` | High
+43 | File | `3/qq_connect2.0/API/class/ErrorCase.class.php` | High
+44 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+45 | File | `accountsettings_add.html` | High
+46 | File | `aclient.exe` | Medium
 47 | ... | ... | ...
 
-There are 410 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 408 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -11,6 +11,11 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [95.214.25.207](https://vuldb.com/?ip.95.214.25.207) | - | - | High
+2 | [104.21.94.45](https://vuldb.com/?ip.104.21.94.45) | - | - | High
+3 | [172.67.172.69](https://vuldb.com/?ip.172.67.172.69) | - | - | High
+4 | ... | ... | ... | ...
+
+There are 2 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -42,6 +47,7 @@ There are 5 more IOA items available (file, library, argument, input value, patt
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://threatfox.abuse.ch
 * https://tracker.viriback.com/index.php?q=95.214.25.207
 
 ## Literature

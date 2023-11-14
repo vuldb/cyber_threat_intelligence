@@ -24,7 +24,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [LA](https://vuldb.com/?country.la)
 * ...
 
-There are 12 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -82,47 +82,48 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin.php/accessory/filesdel.html` | High
 3 | File | `/admin/?page=user/manage` | High
 4 | File | `/admin/add-new.php` | High
-5 | File | `/admin/doctors.php` | High
-6 | File | `/admin/submit-articles` | High
-7 | File | `/alphaware/summary.php` | High
-8 | File | `/api/` | Low
-9 | File | `/api/admin/store/product/list` | High
-10 | File | `/api/baskets/{name}` | High
-11 | File | `/api/stl/actions/search` | High
-12 | File | `/api/v2/cli/commands` | High
-13 | File | `/attachments` | Medium
-14 | File | `/bin/ate` | Medium
-15 | File | `/boat/login.php` | High
-16 | File | `/book-services.php` | High
-17 | File | `/booking/show_bookings/` | High
-18 | File | `/bsms_ci/index.php/book` | High
-19 | File | `/cgi-bin` | Medium
-20 | File | `/cgi-bin/wlogin.cgi` | High
-21 | File | `/Content/Template/root/reverse-shell.aspx` | High
-22 | File | `/context/%2e/WEB-INF/web.xml` | High
-23 | File | `/dashboard/add-blog.php` | High
-24 | File | `/debug/pprof` | Medium
-25 | File | `/DXR.axd` | Medium
-26 | File | `/en/blog-comment-4` | High
-27 | File | `/env` | Low
-28 | File | `/etc/hosts` | Medium
-29 | File | `/forum/away.php` | High
-30 | File | `/goform/setmac` | High
-31 | File | `/goform/wizard_end` | High
-32 | File | `/group1/uploa` | High
-33 | File | `/h/` | Low
-34 | File | `/medicines/profile.php` | High
-35 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-36 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-37 | File | `/owa/auth/logon.aspx` | High
-38 | File | `/php-sms/admin/?page=user/manage_user` | High
-39 | File | `/project/PROJECTNAME/reports/` | High
-40 | File | `/proxy` | Low
-41 | File | `/reservation/add_message.php` | High
-42 | File | `/resources//../` | High
-43 | ... | ... | ...
+5 | File | `/admin/controller/JobLogController.java` | High
+6 | File | `/admin/doctors.php` | High
+7 | File | `/admin/submit-articles` | High
+8 | File | `/alphaware/summary.php` | High
+9 | File | `/api/` | Low
+10 | File | `/api/admin/store/product/list` | High
+11 | File | `/api/baskets/{name}` | High
+12 | File | `/api/stl/actions/search` | High
+13 | File | `/api/sys/login` | High
+14 | File | `/api/sys/set_passwd` | High
+15 | File | `/api/v2/cli/commands` | High
+16 | File | `/attachments` | Medium
+17 | File | `/bin/ate` | Medium
+18 | File | `/boat/login.php` | High
+19 | File | `/book-services.php` | High
+20 | File | `/booking/show_bookings/` | High
+21 | File | `/bsms_ci/index.php/book` | High
+22 | File | `/cgi-bin` | Medium
+23 | File | `/cgi-bin/wlogin.cgi` | High
+24 | File | `/changePassword` | High
+25 | File | `/Content/Template/root/reverse-shell.aspx` | High
+26 | File | `/context/%2e/WEB-INF/web.xml` | High
+27 | File | `/dashboard/add-blog.php` | High
+28 | File | `/debug/pprof` | Medium
+29 | File | `/DXR.axd` | Medium
+30 | File | `/ecshop/admin/template.php` | High
+31 | File | `/en/blog-comment-4` | High
+32 | File | `/env` | Low
+33 | File | `/etc/hosts` | Medium
+34 | File | `/forum/away.php` | High
+35 | File | `/goform/wizard_end` | High
+36 | File | `/group1/uploa` | High
+37 | File | `/h/` | Low
+38 | File | `/medicines/profile.php` | High
+39 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+40 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+41 | File | `/owa/auth/logon.aspx` | High
+42 | File | `/php-sms/admin/?page=user/manage_user` | High
+43 | File | `/project/PROJECTNAME/reports/` | High
+44 | ... | ... | ...
 
-There are 372 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 378 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

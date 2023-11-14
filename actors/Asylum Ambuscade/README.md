@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 16 more country items available. Please use our online service to access the data.
+There are 15 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -57,7 +57,7 @@ ID | Technique | Weakness | Description | Confidence
 6 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 7 | ... | ... | ... | ...
 
-There are 24 more TTP items available. Please use our online service to access the data.
+There are 23 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -81,37 +81,37 @@ ID | Type | Indicator | Confidence
 14 | File | `/cgi-bin/go` | Medium
 15 | File | `/cgi-bin/uploadWeiXinPic` | High
 16 | File | `/cgi-bin/wapopen` | High
-17 | File | `/debug/pprof` | Medium
-18 | File | `/dl/dl_print.php` | High
-19 | File | `/etc/gsissh/sshd_config` | High
-20 | File | `/face-recognition-php/facepay-master/camera.php` | High
-21 | File | `/forum/away.php` | High
-22 | File | `/forum/PostPrivateMessage` | High
-23 | File | `/getcfg.php` | Medium
-24 | File | `/home/masterConsole` | High
-25 | File | `/hrm/employeeadd.php` | High
-26 | File | `/hrm/employeeview.php` | High
-27 | File | `/librarian/bookdetails.php` | High
-28 | File | `/mgmt/tm/util/bash` | High
-29 | File | `/mics/j_spring_security_check` | High
-30 | File | `/ofcms/company-c-47` | High
-31 | File | `/opt/vyatta/share/vyatta-cfg/templates/system/static-host-mapping/host-name/node.def` | High
-32 | File | `/pms/update_user.php?user_id=1` | High
-33 | File | `/public/login.htm` | High
-34 | File | `/scripts/unlock_tasks.php` | High
-35 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-36 | File | `/secure/ViewCollectors` | High
-37 | File | `/Session` | Medium
-38 | File | `/spip.php` | Medium
-39 | File | `/staff_login.php` | High
-40 | File | `/system/user/modules/mod_users/controller.php` | High
-41 | File | `/uncpath/` | Medium
-42 | File | `/usr/sbin/httpd` | High
-43 | File | `/util/print.c` | High
-44 | File | `/v1/tasks/create/` | High
+17 | File | `/contact.php` | Medium
+18 | File | `/debug/pprof` | Medium
+19 | File | `/dl/dl_print.php` | High
+20 | File | `/etc/gsissh/sshd_config` | High
+21 | File | `/face-recognition-php/facepay-master/camera.php` | High
+22 | File | `/forum/away.php` | High
+23 | File | `/forum/PostPrivateMessage` | High
+24 | File | `/getcfg.php` | Medium
+25 | File | `/home/masterConsole` | High
+26 | File | `/hrm/employeeadd.php` | High
+27 | File | `/hrm/employeeview.php` | High
+28 | File | `/librarian/bookdetails.php` | High
+29 | File | `/mgmt/tm/util/bash` | High
+30 | File | `/mics/j_spring_security_check` | High
+31 | File | `/ofcms/company-c-47` | High
+32 | File | `/opt/vyatta/share/vyatta-cfg/templates/system/static-host-mapping/host-name/node.def` | High
+33 | File | `/pms/update_user.php?user_id=1` | High
+34 | File | `/public/login.htm` | High
+35 | File | `/scripts/unlock_tasks.php` | High
+36 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+37 | File | `/secure/ViewCollectors` | High
+38 | File | `/Session` | Medium
+39 | File | `/spip.php` | Medium
+40 | File | `/staff_login.php` | High
+41 | File | `/system/user/modules/mod_users/controller.php` | High
+42 | File | `/uncpath/` | Medium
+43 | File | `/usr/bin/pkexec` | High
+44 | File | `/usr/sbin/httpd` | High
 45 | ... | ... | ...
 
-There are 390 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 387 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -36,17 +36,20 @@ ID | IP address | Hostname | Campaign | Confidence
 13 | [20.25.157.149](https://vuldb.com/?ip.20.25.157.149) | - | - | High
 14 | [20.56.93.201](https://vuldb.com/?ip.20.56.93.201) | - | - | High
 15 | [20.125.118.35](https://vuldb.com/?ip.20.125.118.35) | - | - | High
-16 | [20.219.15.124](https://vuldb.com/?ip.20.219.15.124) | - | - | High
-17 | [23.106.215.7](https://vuldb.com/?ip.23.106.215.7) | - | - | High
-18 | [23.227.198.214](https://vuldb.com/?ip.23.227.198.214) | 23-227-198-214.static.hvvc.us | - | High
-19 | [31.220.76.124](https://vuldb.com/?ip.31.220.76.124) | ip-124-76-220-31.static.contabo.net | - | High
-20 | [44.201.221.153](https://vuldb.com/?ip.44.201.221.153) | ec2-44-201-221-153.compute-1.amazonaws.com | - | Medium
-21 | [45.61.130.7](https://vuldb.com/?ip.45.61.130.7) | - | - | High
-22 | [45.81.225.208](https://vuldb.com/?ip.45.81.225.208) | vm4424272.52ssd.had.wf | - | High
-23 | [45.88.67.75](https://vuldb.com/?ip.45.88.67.75) | - | - | High
-24 | ... | ... | ... | ...
+16 | [20.197.231.178](https://vuldb.com/?ip.20.197.231.178) | - | - | High
+17 | [20.219.15.124](https://vuldb.com/?ip.20.219.15.124) | - | - | High
+18 | [20.229.184.215](https://vuldb.com/?ip.20.229.184.215) | - | - | High
+19 | [23.106.215.7](https://vuldb.com/?ip.23.106.215.7) | - | - | High
+20 | [23.227.198.214](https://vuldb.com/?ip.23.227.198.214) | 23-227-198-214.static.hvvc.us | - | High
+21 | [31.220.76.124](https://vuldb.com/?ip.31.220.76.124) | ip-124-76-220-31.static.contabo.net | - | High
+22 | [41.216.188.29](https://vuldb.com/?ip.41.216.188.29) | - | - | High
+23 | [44.201.221.153](https://vuldb.com/?ip.44.201.221.153) | ec2-44-201-221-153.compute-1.amazonaws.com | - | Medium
+24 | [45.61.130.7](https://vuldb.com/?ip.45.61.130.7) | - | - | High
+25 | [45.81.225.208](https://vuldb.com/?ip.45.81.225.208) | vm4424272.52ssd.had.wf | - | High
+26 | [45.88.67.75](https://vuldb.com/?ip.45.88.67.75) | - | - | High
+27 | ... | ... | ... | ...
 
-There are 92 more IOC items available. Please use our online service to access the data.
+There are 103 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -61,7 +64,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -128,7 +131,7 @@ ID | Type | Indicator | Confidence
 57 | File | `/languages/install.php` | High
 58 | ... | ... | ...
 
-There are 511 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 504 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

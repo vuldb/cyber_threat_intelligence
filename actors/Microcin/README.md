@@ -39,8 +39,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | T1068 | CWE-250, CWE-264, CWE-266, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
-7 | ... | ... | ... | ...
+6 | ... | ... | ... | ...
 
 There are 22 more TTP items available. Please use our online service to access the data.
 
@@ -74,30 +73,29 @@ ID | Type | Indicator | Confidence
 22 | File | `/goform/net\_Web\_get_value` | High
 23 | File | `/goforms/rlminfo` | High
 24 | File | `/GponForm/usb_restore_Form?script/` | High
-25 | File | `/HNAP1` | Low
-26 | File | `/HNAP1/SetClientInfo` | High
-27 | File | `/Items/*/RemoteImages/Download` | High
-28 | File | `/login/index.php` | High
-29 | File | `/menu.html` | Medium
-30 | File | `/modules/profile/index.php` | High
-31 | File | `/navigate/navigate_download.php` | High
-32 | File | `/ocwbs/admin/?page=user/manage_user` | High
-33 | File | `/ofrs/admin/?page=user/manage_user` | High
-34 | File | `/out.php` | Medium
-35 | File | `/password.html` | High
-36 | File | `/php_action/fetchSelectedUser.php` | High
-37 | File | `/property-list/property_view.php` | High
-38 | File | `/ptms/classes/Users.php` | High
-39 | File | `/resources//../` | High
-40 | File | `/rest/api/2/search` | High
-41 | File | `/s/` | Low
-42 | File | `/scripts/cpan_config` | High
-43 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-44 | File | `/spip.php` | Medium
-45 | File | `/squashfs-root/www/HNAP1/control/SetMasterWLanSettings.php` | High
-46 | ... | ... | ...
+25 | File | `/group1/uploa` | High
+26 | File | `/HNAP1` | Low
+27 | File | `/HNAP1/SetClientInfo` | High
+28 | File | `/Items/*/RemoteImages/Download` | High
+29 | File | `/login/index.php` | High
+30 | File | `/menu.html` | Medium
+31 | File | `/modules/profile/index.php` | High
+32 | File | `/navigate/navigate_download.php` | High
+33 | File | `/ocwbs/admin/?page=user/manage_user` | High
+34 | File | `/ofrs/admin/?page=user/manage_user` | High
+35 | File | `/out.php` | Medium
+36 | File | `/password.html` | High
+37 | File | `/php_action/fetchSelectedUser.php` | High
+38 | File | `/plugin` | Low
+39 | File | `/property-list/property_view.php` | High
+40 | File | `/ptms/classes/Users.php` | High
+41 | File | `/resources//../` | High
+42 | File | `/rest/api/2/search` | High
+43 | File | `/s/` | Low
+44 | File | `/scripts/cpan_config` | High
+45 | ... | ... | ...
 
-There are 395 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 391 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

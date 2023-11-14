@@ -4,6 +4,17 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.agenttesla](https://vuldb.com/?actor.agenttesla)
 
+## Countries
+
+These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with AgentTesla:
+
+* [US](https://vuldb.com/?country.us)
+* [RU](https://vuldb.com/?country.ru)
+* [CN](https://vuldb.com/?country.cn)
+* ...
+
+There are 1 more country items available. Please use our online service to access the data.
+
 ## IOC - Indicator of Compromise
 
 These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of AgentTesla.
@@ -11,12 +22,56 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [3.4.1.4](https://vuldb.com/?ip.3.4.1.4) | - | - | High
+2 | [45.67.228.51](https://vuldb.com/?ip.45.67.228.51) | vm1700022.stark-industries.solutions | - | High
+3 | [89.47.1.10](https://vuldb.com/?ip.89.47.1.10) | - | - | High
+4 | ... | ... | ... | ...
+
+There are 11 more IOC items available. Please use our online service to access the data.
+
+## TTP - Tactics, Techniques, Procedures
+
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _AgentTesla_. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1006 | CWE-22 | Pathname Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-94 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
+
+There are 14 more TTP items available. Please use our online service to access the data.
+
+## IOA - Indicator of Attack
+
+These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by AgentTesla. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Type | Indicator | Confidence
+-- | ---- | --------- | ----------
+1 | File | `/cgi-bin/kerbynet` | High
+2 | File | `/cgi-bin/supervisor/CloudSetup.cgi` | High
+3 | File | `/domain/add` | Medium
+4 | File | `/etc/sudoers` | Medium
+5 | File | `/index.php/weblinks-categories` | High
+6 | File | `/plain` | Low
+7 | File | `/show_group_members.php` | High
+8 | File | `/web/google_analytics.php` | High
+9 | File | `archive_endian.h` | High
+10 | File | `bmp.c` | Low
+11 | File | `browse.asp` | Medium
+12 | File | `cgi-bin/jc.cgi` | High
+13 | File | `checklogin.php` | High
+14 | File | `cmd.exe` | Low
+15 | ... | ... | ...
+
+There are 119 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://blog.malwarebytes.com/threat-analysis/2020/04/new-agenttesla-variant-steals-wifi-credentials/
+* https://blog.talosintelligence.com/threat-roundup-1013-1020/
 
 ## Literature
 

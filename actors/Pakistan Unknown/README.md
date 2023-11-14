@@ -238,12 +238,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-35, CWE-36 | Pathname Traversal | High
-2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -258,39 +258,41 @@ ID | Type | Indicator | Confidence
 5 | File | `/admin/maintenance/view_designation.php` | High
 6 | File | `/admin/report/index.php` | High
 7 | File | `/api/baskets/{name}` | High
-8 | File | `/APR/signup.php` | High
-9 | File | `/author_posts.php` | High
-10 | File | `/bin/sh` | Low
-11 | File | `/cgi-bin/wlogin.cgi` | High
-12 | File | `/classes/Master.php?f=delete_service` | High
-13 | File | `/classes/Master.php?f=save_brand` | High
-14 | File | `/classes/Master.php?f=save_course` | High
-15 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
-16 | File | `/E-mobile/App/System/File/downfile.php` | High
-17 | File | `/Electron/download` | High
-18 | File | `/forum/away.php` | High
-19 | File | `/ghost/preview` | High
-20 | File | `/goform/set_LimitClient_cfg` | High
-21 | File | `/htdocs/cgibin` | High
-22 | File | `/inc/topBarNav.php` | High
-23 | File | `/index.php/client/message/message_read/xxxxxxxx[random-msg-hash]` | High
-24 | File | `/mhds/clinic/view_details.php` | High
-25 | File | `/mims/login.php` | High
-26 | File | `/php-scrm/login.php` | High
-27 | File | `/proxy` | Low
-28 | File | `/reviewer/system/system/admins/manage/users/user-update.php` | High
-29 | File | `/search-result.php` | High
-30 | File | `/search.php` | Medium
-31 | File | `/send_order.cgi?parameter=access_detect` | High
-32 | File | `/spip.php` | Medium
-33 | File | `/text/pdf/PdfReader.java` | High
-34 | File | `/textpattern/index.php` | High
-35 | File | `/tmp` | Low
-36 | File | `/VPortal/mgtconsole/Subscribers.jsp` | High
-37 | File | `/wp-admin/admin-ajax.php` | High
-38 | ... | ... | ...
+8 | File | `/api/runscript` | High
+9 | File | `/app/search/table` | High
+10 | File | `/APR/signup.php` | High
+11 | File | `/author_posts.php` | High
+12 | File | `/bin/sh` | Low
+13 | File | `/cgi-bin/wlogin.cgi` | High
+14 | File | `/classes/Master.php?f=delete_service` | High
+15 | File | `/classes/Master.php?f=save_brand` | High
+16 | File | `/classes/Master.php?f=save_course` | High
+17 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
+18 | File | `/E-mobile/App/System/File/downfile.php` | High
+19 | File | `/Electron/download` | High
+20 | File | `/forum/away.php` | High
+21 | File | `/ghost/preview` | High
+22 | File | `/goform/set_LimitClient_cfg` | High
+23 | File | `/htdocs/cgibin` | High
+24 | File | `/inc/topBarNav.php` | High
+25 | File | `/index.php/client/message/message_read/xxxxxxxx[random-msg-hash]` | High
+26 | File | `/mhds/clinic/view_details.php` | High
+27 | File | `/mims/login.php` | High
+28 | File | `/out.php` | Medium
+29 | File | `/proxy` | Low
+30 | File | `/reviewer/system/system/admins/manage/users/user-update.php` | High
+31 | File | `/search-result.php` | High
+32 | File | `/search.php` | Medium
+33 | File | `/send_order.cgi?parameter=access_detect` | High
+34 | File | `/spip.php` | Medium
+35 | File | `/text/pdf/PdfReader.java` | High
+36 | File | `/textpattern/index.php` | High
+37 | File | `/tmp` | Low
+38 | File | `/VPortal/mgtconsole/Subscribers.jsp` | High
+39 | File | `/wp-admin/admin-ajax.php` | High
+40 | ... | ... | ...
 
-There are 328 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 348 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

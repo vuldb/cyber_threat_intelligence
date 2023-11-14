@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 20 more country items available. Please use our online service to access the data.
+There are 21 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -11561,15 +11561,15 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
-2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | T1068 | CWE-264, CWE-269, CWE-274, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1068 | CWE-264, CWE-269, CWE-274, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+6 | T1078.001 | CWE-259 | Use of Hard-coded Password | High
 7 | ... | ... | ... | ...
 
-There are 23 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -11577,59 +11577,62 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/admin-profile.php` | High
+1 | File | `/admin/add-services.php` | High
 2 | File | `/admin/category/cate-edit-run.php` | High
 3 | File | `/admin/cms_content.php` | High
-4 | File | `/admin/edit_product.php` | High
+4 | File | `/admin/controller/JobLogController.java` | High
 5 | File | `/admin/list_addr_fwresource_ip.php` | High
 6 | File | `/admin/save.php` | High
-7 | File | `/api/baskets/{name}` | High
-8 | File | `/api/download` | High
-9 | File | `/api/es/admin/v3/security/user/1` | High
-10 | File | `/api/runscript` | High
-11 | File | `/api/v1/terminal/sessions/?limit=1` | High
-12 | File | `/app/search/table` | High
-13 | File | `/appliance/users?action=edit` | High
-14 | File | `/category.php` | High
-15 | File | `/categorypage.php` | High
-16 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-17 | File | `/cgi-bin/luci/api/wireless` | High
-18 | File | `/cgi-bin/ping.cgi` | High
-19 | File | `/cgi-bin/vitogate.cgi` | High
-20 | File | `/collection/all` | High
-21 | File | `/Content/Template/root/reverse-shell.aspx` | High
-22 | File | `/course/filterRecords/` | High
-23 | File | `/dashboard/add-blog.php` | High
-24 | File | `/data/remove` | Medium
-25 | File | `/debug/pprof` | Medium
-26 | File | `/ecrire/exec/puce_statut.php` | High
-27 | File | `/fcgi/scrut_fcgi.fcgi` | High
-28 | File | `/files/` | Low
-29 | File | `/forum/away.php` | High
-30 | File | `/fusion/portal/action/Link` | High
-31 | File | `/general/ipanel/menu_code.php?MENU_TYPE=FAV` | High
-32 | File | `/HNAP1` | Low
-33 | File | `/home/get_tasks_list` | High
-34 | File | `/importexport.php` | High
-35 | File | `/index.php` | Medium
-36 | File | `/jeecg-boot/jmreport/show` | High
-37 | File | `/jeecg-boot/jmreport/upload` | High
-38 | File | `/jeecg-boot/sys/common/upload` | High
-39 | File | `/log/decodmail.php` | High
-40 | File | `/northstar/Portal/processlogin.jsp` | High
-41 | File | `/out.php` | Medium
-42 | File | `/resource/addgood.php` | High
-43 | File | `/RPS2019Service/status.html` | High
-44 | File | `/search` | Low
-45 | File | `/server/api/v1/login` | High
-46 | File | `/sicweb-ajax/tmproot/` | High
-47 | File | `/spip.php` | Medium
-48 | File | `/subsys/net/l2/wifi/wifi_shell.c` | High
-49 | File | `/sys/dict/loadTreeData` | High
-50 | File | `/SysManage/AddUpdateRole.aspx` | High
-51 | ... | ... | ...
+7 | File | `/admin/students/update_status.php` | High
+8 | File | `/api/baskets/{name}` | High
+9 | File | `/api/download` | High
+10 | File | `/api/es/admin/v3/security/user/1` | High
+11 | File | `/api/runscript` | High
+12 | File | `/api/sys/login` | High
+13 | File | `/api/sys/set_passwd` | High
+14 | File | `/api/v1/alerts` | High
+15 | File | `/api/v1/terminal/sessions/?limit=1` | High
+16 | File | `/api2/html/` | Medium
+17 | File | `/app/search/table` | High
+18 | File | `/appliance/users?action=edit` | High
+19 | File | `/category.php` | High
+20 | File | `/categorypage.php` | High
+21 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+22 | File | `/cgi-bin/ping.cgi` | High
+23 | File | `/cgi-bin/vitogate.cgi` | High
+24 | File | `/changePassword` | High
+25 | File | `/classes/Master.php?f=save_reminder` | High
+26 | File | `/collection/all` | High
+27 | File | `/config-manager/save` | High
+28 | File | `/Content/Template/root/reverse-shell.aspx` | High
+29 | File | `/core/tools/customblock.php` | High
+30 | File | `/course/filterRecords/` | High
+31 | File | `/dashboard/add-blog.php` | High
+32 | File | `/data/remove` | Medium
+33 | File | `/debug/pprof` | Medium
+34 | File | `/ecshop/admin/template.php` | High
+35 | File | `/fcgi/scrut_fcgi.fcgi` | High
+36 | File | `/forum/away.php` | High
+37 | File | `/fusion/portal/action/Link` | High
+38 | File | `/general/ipanel/menu_code.php?MENU_TYPE=FAV` | High
+39 | File | `/geoserver/gwc/rest.html` | High
+40 | File | `/HNAP1` | Low
+41 | File | `/home/get_tasks_list` | High
+42 | File | `/importexport.php` | High
+43 | File | `/index.php` | Medium
+44 | File | `/issue` | Low
+45 | File | `/jeecg-boot/jmreport/show` | High
+46 | File | `/jeecg-boot/jmreport/upload` | High
+47 | File | `/jeecg-boot/sys/common/upload` | High
+48 | File | `/login.php` | Medium
+49 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
+50 | File | `/out.php` | Medium
+51 | File | `/protocol/iscgwtunnel/uploadiscgwrouteconf.php` | High
+52 | File | `/proxy` | Low
+53 | File | `/resource/addgood.php` | High
+54 | ... | ... | ...
 
-There are 448 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 472 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

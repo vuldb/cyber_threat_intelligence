@@ -123,9 +123,11 @@ ID | Type | Indicator | Confidence
 63 | File | `/goform/AdvSetWrlsafeset` | High
 64 | File | `/goForm/aspForm` | High
 65 | File | `/goform/CertListInfo` | High
-66 | ... | ... | ...
+66 | File | `/goform/delFileName` | High
+67 | File | `/goform/editFileName` | High
+68 | ... | ... | ...
 
-There are 575 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 594 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

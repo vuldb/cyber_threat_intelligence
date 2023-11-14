@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [BE](https://vuldb.com/?country.be)
 * ...
 
-There are 4 more country items available. Please use our online service to access the data.
+There are 5 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -40,7 +40,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059 | CWE-94 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 15 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -56,19 +56,19 @@ ID | Type | Indicator | Confidence
 6 | File | `/dist/index.js` | High
 7 | File | `/expert_wizard.php` | High
 8 | File | `/files/list-file` | High
-9 | File | `/jsoa/hntdCustomDesktopActionContent` | High
-10 | File | `/login.html` | Medium
-11 | File | `/new` | Low
-12 | File | `/public/login.htm` | High
-13 | File | `/static/ueditor/php/controller.php` | High
-14 | File | `/system?action=ServiceAdmin` | High
-15 | File | `/upload` | Low
-16 | File | `/var/log/nginx` | High
-17 | File | `/wp-json` | Medium
-18 | File | `add_edit_user.asp` | High
+9 | File | `/forum/away.php` | High
+10 | File | `/jsoa/hntdCustomDesktopActionContent` | High
+11 | File | `/login.html` | Medium
+12 | File | `/new` | Low
+13 | File | `/public/login.htm` | High
+14 | File | `/static/ueditor/php/controller.php` | High
+15 | File | `/system?action=ServiceAdmin` | High
+16 | File | `/upload` | Low
+17 | File | `/var/log/nginx` | High
+18 | File | `/wp-json` | Medium
 19 | ... | ... | ...
 
-There are 156 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 160 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

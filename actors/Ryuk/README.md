@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 15 more country items available. Please use our online service to access the data.
+There are 16 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -71,53 +71,53 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `//proc/kcore` | Medium
-3 | File | `/act/ActDao.xml` | High
-4 | File | `/admin.php/Admin/adminadd.html` | High
-5 | File | `/admin/about-us.php` | High
-6 | File | `/Admin/add-student.php` | High
-7 | File | `/admin/settings/save.php` | High
-8 | File | `/admin/userprofile.php` | High
-9 | File | `/ajax.php?action=read_msg` | High
-10 | File | `/api/baskets/{name}` | High
-11 | File | `/api/gen/clients/{language}` | High
-12 | File | `/apply.cgi` | Medium
-13 | File | `/cgi-bin/wlogin.cgi` | High
-14 | File | `/classes/Master.php?f=delete_appointment` | High
-15 | File | `/College/admin/teacher.php` | High
-16 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
-17 | File | `/ctcprotocol/Protocol` | High
-18 | File | `/dcim/rack-roles/` | High
-19 | File | `/ebics-server/ebics.aspx` | High
-20 | File | `/forum/away.php` | High
-21 | File | `/goform/addUserName` | High
-22 | File | `/goform/aspForm` | High
-23 | File | `/goform/delAd` | High
-24 | File | `/goform/net\_Web\_get_value` | High
-25 | File | `/goform/wifiSSIDset` | High
-26 | File | `/gpac/src/bifs/unquantize.c` | High
-27 | File | `/GponForm/usb_restore_Form?script/` | High
-28 | File | `/group1/uploa` | High
-29 | File | `/HNAP1` | Low
-30 | File | `/HNAP1/SetClientInfo` | High
-31 | File | `/inc/topBarNav.php` | High
-32 | File | `/index.asp` | Medium
-33 | File | `/index.php` | Medium
-34 | File | `/index.php?app=main&func=passport&action=login` | High
-35 | File | `/kelas/data` | Medium
-36 | File | `/menu.html` | Medium
-37 | File | `/mhds/clinic/view_details.php` | High
-38 | File | `/modules/profile/index.php` | High
-39 | File | `/Moosikay/order.php` | High
-40 | File | `/out.php` | Medium
-41 | File | `/php-sms/admin/quotes/manage_remark.php` | High
-42 | File | `/php_action/fetchSelectedUser.php` | High
-43 | File | `/plugin` | Low
-44 | File | `/resources//../` | High
+1 | File | `//proc/kcore` | Medium
+2 | File | `/act/ActDao.xml` | High
+3 | File | `/admin.php/Admin/adminadd.html` | High
+4 | File | `/admin/about-us.php` | High
+5 | File | `/admin/settings/save.php` | High
+6 | File | `/admin/userprofile.php` | High
+7 | File | `/ajax.php?action=read_msg` | High
+8 | File | `/api/baskets/{name}` | High
+9 | File | `/api/gen/clients/{language}` | High
+10 | File | `/apply.cgi` | Medium
+11 | File | `/bitrix/admin/ldap_server_edit.php` | High
+12 | File | `/cgi-bin/wlogin.cgi` | High
+13 | File | `/classes/Master.php?f=delete_appointment` | High
+14 | File | `/College/admin/teacher.php` | High
+15 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
+16 | File | `/ctcprotocol/Protocol` | High
+17 | File | `/dcim/rack-roles/` | High
+18 | File | `/ebics-server/ebics.aspx` | High
+19 | File | `/forum/away.php` | High
+20 | File | `/goform/addUserName` | High
+21 | File | `/goform/aspForm` | High
+22 | File | `/goform/delAd` | High
+23 | File | `/goform/net\_Web\_get_value` | High
+24 | File | `/goform/wifiSSIDset` | High
+25 | File | `/gpac/src/bifs/unquantize.c` | High
+26 | File | `/GponForm/usb_restore_Form?script/` | High
+27 | File | `/group1/uploa` | High
+28 | File | `/HNAP1` | Low
+29 | File | `/HNAP1/SetClientInfo` | High
+30 | File | `/inc/topBarNav.php` | High
+31 | File | `/index.asp` | Medium
+32 | File | `/index.php` | Medium
+33 | File | `/index.php?app=main&func=passport&action=login` | High
+34 | File | `/kelas/data` | Medium
+35 | File | `/menu.html` | Medium
+36 | File | `/mhds/clinic/view_details.php` | High
+37 | File | `/modules/profile/index.php` | High
+38 | File | `/Moosikay/order.php` | High
+39 | File | `/out.php` | Medium
+40 | File | `/php-sms/admin/quotes/manage_remark.php` | High
+41 | File | `/php_action/fetchSelectedUser.php` | High
+42 | File | `/plugin` | Low
+43 | File | `/resources//../` | High
+44 | File | `/rest/api/latest/projectvalidate/key` | High
 45 | ... | ... | ...
 
-There are 392 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 390 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

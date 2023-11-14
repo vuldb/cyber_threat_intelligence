@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Apnic Unknown:
 
 * [VN](https://vuldb.com/?country.vn)
-* [IO](https://vuldb.com/?country.io)
 * [US](https://vuldb.com/?country.us)
+* [IO](https://vuldb.com/?country.io)
 * ...
 
-There are 17 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -804,14 +804,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-29, CWE-35, CWE-36 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-29, CWE-35 | Pathname Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -819,58 +819,51 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.github/workflows/comment.yml` | High
-2 | File | `/admin/?page=user/manage_user&id=3` | High
-3 | File | `/admin/sys_sql_query.php` | High
-4 | File | `/api/baskets/{name}` | High
-5 | File | `/api/common/ping` | High
-6 | File | `/api/sys/set_passwd` | High
-7 | File | `/api/v1/terminal/sessions/?limit=1` | High
-8 | File | `/bitrix/admin/ldap_server_edit.php` | High
-9 | File | `/blog` | Low
-10 | File | `/bsms_ci/index.php/user/edit_user/` | High
-11 | File | `/cgi-bin/luci/api/wireless` | High
-12 | File | `/cgi-bin/wlogin.cgi` | High
-13 | File | `/classes/Master.php?f=save_inquiry` | High
-14 | File | `/classes/Master.php?f=save_service` | High
-15 | File | `/common/info.cgi` | High
-16 | File | `/company/store` | High
+1 | File | `/academy/tutor/filter` | High
+2 | File | `/admin/index2.html` | High
+3 | File | `/admin/sales/view_details.php` | High
+4 | File | `/admin/save.php` | High
+5 | File | `/api/baskets/{name}` | High
+6 | File | `/api/download` | High
+7 | File | `/api/runscript` | High
+8 | File | `/api/v1/alerts` | High
+9 | File | `/api/v1/terminal/sessions/?limit=1` | High
+10 | File | `/aqpg/users/login.php` | High
+11 | File | `/category.php` | High
+12 | File | `/categorypage.php` | High
+13 | File | `/cgi-bin/luci/api/wireless` | High
+14 | File | `/cgi-bin/vitogate.cgi` | High
+15 | File | `/cgi-bin/wlogin.cgi` | High
+16 | File | `/common/info.cgi` | High
 17 | File | `/Content/Template/root/reverse-shell.aspx` | High
-18 | File | `/Controller/Ajaxfileupload.ashx` | High
-19 | File | `/core/conditions/AbstractWrapper.java` | High
-20 | File | `/download` | Medium
-21 | File | `/etc/passwd` | Medium
-22 | File | `/forum/away.php` | High
-23 | File | `/gracemedia-media-player/templates/files/ajax_controller.php` | High
-24 | File | `/home/kickPlayer` | High
-25 | File | `/importexport.php` | High
-26 | File | `/includes/db_connect.php` | High
-27 | File | `/includes/session.php` | High
-28 | File | `/index.php` | Medium
-29 | File | `/index.php/coins/update_marketboxslider` | High
-30 | File | `/index.php/payment/getcoinaddress` | High
-31 | File | `/iniFile/config.ini` | High
-32 | File | `/jeecg-boot/sys/common/upload` | High
+18 | File | `/data/remove` | Medium
+19 | File | `/debug/pprof` | Medium
+20 | File | `/fcgi/scrut_fcgi.fcgi` | High
+21 | File | `/forum/away.php` | High
+22 | File | `/gracemedia-media-player/templates/files/ajax_controller.php` | High
+23 | File | `/HNAP1` | Low
+24 | File | `/hrm/controller/employee.php` | High
+25 | File | `/hrm/employeeview.php` | High
+26 | File | `/importexport.php` | High
+27 | File | `/index.php` | Medium
+28 | File | `/iniFile/config.ini` | High
+29 | File | `/jeecg-boot/jmreport/show` | High
+30 | File | `/jeecg-boot/jmreport/upload` | High
+31 | File | `/jeecg-boot/sys/common/upload` | High
+32 | File | `/mc` | Low
 33 | File | `/modules/projects/vw_files.php` | High
-34 | File | `/modules/public/calendar.php` | High
-35 | File | `/modules/public/date_format.php` | High
-36 | File | `/modules/tasks/gantt.php` | High
-37 | File | `/osms/assets/plugins/jquery-validation-1.11.1/demo/captcha/index.php` | High
-38 | File | `/php-fusion/infusions/shoutbox_panel/shoutbox_archive.php` | High
-39 | File | `/recipe-result` | High
-40 | File | `/register.do` | Medium
-41 | File | `/resources//../` | High
-42 | File | `/search` | Low
-43 | File | `/Service/FileHandler.ashx` | High
-44 | File | `/Service/ImageStationDataService.asmx` | High
-45 | File | `/spip.php` | Medium
-46 | File | `/src/amf/amf-context.c` | High
-47 | File | `/SysManage/AddUpdateSites.aspx` | High
-48 | File | `/SystemManage/User/GetGridJson?_search=false&nd=1680855479750&rows=50&page=1&sidx=F_CreatorTime+desc&sord=asc` | High
-49 | File | `/uncpath/` | Medium
-50 | ... | ... | ...
+34 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
+35 | File | `/project/tasks/list` | High
+36 | File | `/proxy` | Low
+37 | File | `/RPS2019Service/status.html` | High
+38 | File | `/search` | Low
+39 | File | `/sicweb-ajax/tmproot/` | High
+40 | File | `/spip.php` | Medium
+41 | File | `/subsys/net/l2/wifi/wifi_shell.c` | High
+42 | File | `/sys/dict/loadTreeData` | High
+43 | ... | ... | ...
 
-There are 432 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 375 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

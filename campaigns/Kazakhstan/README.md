@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [KZ](https://vuldb.com/?country.kz)
 * ...
 
-There are 16 more country items available. Please use our online service to access the data.
+There are 17 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -222,7 +222,7 @@ ID | Technique | Weakness | Description | Confidence
 6 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 7 | ... | ... | ... | ...
 
-There are 23 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -235,45 +235,46 @@ ID | Type | Indicator | Confidence
 3 | File | `/admin.php/accessory/filesdel.html` | High
 4 | File | `/admin/?page=user/manage` | High
 5 | File | `/admin/add-new.php` | High
-6 | File | `/admin/doctors.php` | High
-7 | File | `/admin/submit-articles` | High
+6 | File | `/admin/controller/JobLogController.java` | High
+7 | File | `/admin/doctors.php` | High
 8 | File | `/alphaware/summary.php` | High
 9 | File | `/api/` | Low
 10 | File | `/api/admin/store/product/list` | High
 11 | File | `/api/baskets/{name}` | High
 12 | File | `/api/common/ping` | High
 13 | File | `/api/stl/actions/search` | High
-14 | File | `/api/v2/cli/commands` | High
-15 | File | `/attachments` | Medium
-16 | File | `/bin/ate` | Medium
-17 | File | `/boat/login.php` | High
-18 | File | `/booking/show_bookings/` | High
-19 | File | `/bsms_ci/index.php/book` | High
-20 | File | `/cgi-bin` | Medium
-21 | File | `/cgi-bin/wlogin.cgi` | High
-22 | File | `/Content/Template/root/reverse-shell.aspx` | High
-23 | File | `/dashboard/add-blog.php` | High
-24 | File | `/debug/pprof` | Medium
-25 | File | `/dottie.js` | Medium
-26 | File | `/env` | Low
-27 | File | `/etc/hosts` | Medium
-28 | File | `/forum/away.php` | High
-29 | File | `/geoserver/rest/about/status` | High
-30 | File | `/graphql` | Medium
-31 | File | `/group1/uploa` | High
-32 | File | `/KK_LS9ReportingPortal/GetData` | High
-33 | File | `/medicines/profile.php` | High
-34 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-35 | File | `/php-sms/admin/?page=user/manage_user` | High
-36 | File | `/plesk-site-preview/` | High
-37 | File | `/proxy` | Low
-38 | File | `/reservation/add_message.php` | High
-39 | File | `/resources//../` | High
-40 | File | `/spip.php` | Medium
-41 | File | `/tmp` | Low
-42 | ... | ... | ...
+14 | File | `/api/sys/login` | High
+15 | File | `/api/sys/set_passwd` | High
+16 | File | `/api/v2/cli/commands` | High
+17 | File | `/attachments` | Medium
+18 | File | `/bin/ate` | Medium
+19 | File | `/boat/login.php` | High
+20 | File | `/booking/show_bookings/` | High
+21 | File | `/bsms_ci/index.php/book` | High
+22 | File | `/cgi-bin` | Medium
+23 | File | `/cgi-bin/wlogin.cgi` | High
+24 | File | `/changePassword` | High
+25 | File | `/Content/Template/root/reverse-shell.aspx` | High
+26 | File | `/dashboard/add-blog.php` | High
+27 | File | `/debug/pprof` | Medium
+28 | File | `/dottie.js` | Medium
+29 | File | `/ecshop/admin/template.php` | High
+30 | File | `/env` | Low
+31 | File | `/etc/hosts` | Medium
+32 | File | `/forum/away.php` | High
+33 | File | `/geoserver/rest/about/status` | High
+34 | File | `/graphql` | Medium
+35 | File | `/group1/uploa` | High
+36 | File | `/KK_LS9ReportingPortal/GetData` | High
+37 | File | `/medicines/profile.php` | High
+38 | File | `/php-sms/admin/?page=user/manage_user` | High
+39 | File | `/plesk-site-preview/` | High
+40 | File | `/proxy` | Low
+41 | File | `/reservation/add_message.php` | High
+42 | File | `/resources//../` | High
+43 | ... | ... | ...
 
-There are 364 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 372 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

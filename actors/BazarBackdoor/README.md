@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with BazarBackdoor:
 
 * [VN](https://vuldb.com/?country.vn)
-* [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
+* [US](https://vuldb.com/?country.us)
 
 ## IOC - Indicator of Compromise
 
@@ -175,10 +175,11 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-250, CWE-264, CWE-266, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
-6 | ... | ... | ... | ...
+5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+6 | T1110.001 | CWE-307, CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
+7 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 23 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -189,48 +190,47 @@ ID | Type | Indicator | Confidence
 1 | File | `/academy/home/courses` | High
 2 | File | `/admin/adclass.php` | High
 3 | File | `/admin/admin-profile.php` | High
-4 | File | `/admin/sales/view_details.php` | High
-5 | File | `/admin/students/view_details.php` | High
+4 | File | `/admin/ajax.php?action=confirm_order` | High
+5 | File | `/admin/sales/view_details.php` | High
 6 | File | `/ajax-files/followBoard.php` | High
-7 | File | `/ajax.php?action=read_msg` | High
-8 | File | `/api/cron/settings/setJob/` | High
-9 | File | `/api/v1/snapshots` | High
+7 | File | `/api/cron/settings/setJob/` | High
+8 | File | `/api/v1/snapshots` | High
+9 | File | `/assets/something/services/AppModule.class` | High
 10 | File | `/audit/log/log_management.php` | High
-11 | File | `/auth/callback` | High
-12 | File | `/authenticationendpoint/login.do` | High
-13 | File | `/cgi-bin/mainfunction.cgi` | High
-14 | File | `/cgi-bin/wlogin.cgi` | High
-15 | File | `/cgi.cgi` | Medium
-16 | File | `/classes/Users.php` | High
-17 | File | `/collection/all` | High
-18 | File | `/Content/Template/root/reverse-shell.aspx` | High
-19 | File | `/ctcprotocol/Protocol` | High
-20 | File | `/dottie.js` | Medium
-21 | File | `/DXR.axd` | Medium
-22 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-23 | File | `/env` | Low
-24 | File | `/files/` | Low
-25 | File | `/forms/doLogin` | High
-26 | File | `/forum/away.php` | High
-27 | File | `/goform/setportList` | High
-28 | File | `/h/autoSaveDraft` | High
-29 | File | `/home/cavesConsole` | High
-30 | File | `/index.php` | Medium
-31 | File | `/index.php?p=admin/actions/users/send-password-reset-email` | High
-32 | File | `/index.php?page=member` | High
-33 | File | `/jurusanmatkul/data` | High
-34 | File | `/librarian/bookdetails.php` | High
-35 | File | `/log/decodmail.php` | High
-36 | File | `/log/webmailattach.php` | High
-37 | File | `/login.php?do=login` | High
-38 | File | `/php-opos/index.php` | High
-39 | File | `/public/login.htm` | High
-40 | File | `/QueryView.php` | High
-41 | File | `/recreate.php` | High
-42 | File | `/romfile.cfg` | Medium
-43 | ... | ... | ...
+11 | File | `/authenticationendpoint/login.do` | High
+12 | File | `/cgi-bin/mainfunction.cgi` | High
+13 | File | `/cgi-bin/wlogin.cgi` | High
+14 | File | `/cgi.cgi` | Medium
+15 | File | `/classes/Users.php` | High
+16 | File | `/collection/all` | High
+17 | File | `/Content/Template/root/reverse-shell.aspx` | High
+18 | File | `/ctcprotocol/Protocol` | High
+19 | File | `/dottie.js` | Medium
+20 | File | `/DXR.axd` | Medium
+21 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+22 | File | `/env` | Low
+23 | File | `/files/` | Low
+24 | File | `/forms/doLogin` | High
+25 | File | `/forum/away.php` | High
+26 | File | `/h/autoSaveDraft` | High
+27 | File | `/home/cavesConsole` | High
+28 | File | `/index.php` | Medium
+29 | File | `/index.php?p=admin/actions/users/send-password-reset-email` | High
+30 | File | `/index.php?page=member` | High
+31 | File | `/jurusanmatkul/data` | High
+32 | File | `/librarian/bookdetails.php` | High
+33 | File | `/log/decodmail.php` | High
+34 | File | `/log/webmailattach.php` | High
+35 | File | `/login.php?do=login` | High
+36 | File | `/php-opos/index.php` | High
+37 | File | `/plain` | Low
+38 | File | `/public/login.htm` | High
+39 | File | `/QueryView.php` | High
+40 | File | `/recreate.php` | High
+41 | File | `/roomtype-details.php` | High
+42 | ... | ... | ...
 
-There are 370 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 363 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

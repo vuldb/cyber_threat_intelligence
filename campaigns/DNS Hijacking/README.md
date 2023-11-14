@@ -46,7 +46,8 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-94 | Cross Site Scripting | High
-4 | ... | ... | ... | ...
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
 There are 14 more TTP items available. Please use our online service to access the data.
 
@@ -73,12 +74,12 @@ ID | Type | Indicator | Confidence
 15 | File | `/ebics-server/ebics.aspx` | High
 16 | File | `/etc/fstab` | Medium
 17 | File | `/EXCU_SHELL` | Medium
-18 | File | `/guestmanagement/front.php` | High
-19 | File | `/index.php/purchase_order/browse_data` | High
-20 | File | `/login.php` | Medium
+18 | File | `/forum/away.php` | High
+19 | File | `/guestmanagement/front.php` | High
+20 | File | `/index.php/purchase_order/browse_data` | High
 21 | ... | ... | ...
 
-There are 170 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 173 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

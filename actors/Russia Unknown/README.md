@@ -9,6 +9,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 The following _campaigns_ are known and can be associated with Russia Unknown:
 
 * CVE-2021-34527
+* CVE-2023-38831
 * Ukraine Document Management System
 
 ## Countries
@@ -20,7 +21,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 20 more country items available. Please use our online service to access the data.
+There are 16 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -3139,7 +3140,7 @@ ID | IP address | Hostname | Campaign | Confidence
 3109 | [79.142.16.0](https://vuldb.com/?ip.79.142.16.0) | - | - | High
 3110 | ... | ... | ... | ...
 
-There are 12435 more IOC items available. Please use our online service to access the data.
+There are 12436 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -3147,14 +3148,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -3162,57 +3163,57 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/academy/tutor/filter` | High
+1 | File | `/admin/?page=bike` | High
 2 | File | `/admin/?page=user` | High
-3 | File | `/admin/article/article-edit-run.php` | High
-4 | File | `/admin/cms_admin.php` | High
-5 | File | `/admin/cms_content.php` | High
-6 | File | `/admin/config/uploadicon.php` | High
+3 | File | `/admin/cms_admin.php` | High
+4 | File | `/admin/cms_content.php` | High
+5 | File | `/admin/config/uploadicon.php` | High
+6 | File | `/admin/controller/JobLogController.java` | High
 7 | File | `/admin/inquiries/view_inquiry.php` | High
 8 | File | `/admin/leancloud.php` | High
-9 | File | `/admin/order.php` | High
-10 | File | `/admin/plugin.php` | High
-11 | File | `/admin/save.php` | High
-12 | File | `/admin/services/manage_service.php` | High
-13 | File | `/api/` | Low
-14 | File | `/api/download` | High
-15 | File | `/api/download/updateFile` | High
-16 | File | `/api/es/admin/v3/security/user/1` | High
-17 | File | `/api/installation/setThumbnailRc` | High
-18 | File | `/api/runscript` | High
-19 | File | `/api/thumbnail` | High
-20 | File | `/api/v1/terminal/sessions/?limit=1` | High
-21 | File | `/book-services.php` | High
-22 | File | `/category.php` | High
-23 | File | `/categorypage.php` | High
-24 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-25 | File | `/cgi-bin/vitogate.cgi` | High
-26 | File | `/classes/master.php?f=delete_order` | High
-27 | File | `/classes/Master.php?f=delete_sub_category` | High
-28 | File | `/classes/Master.php?f=save_brand` | High
-29 | File | `/classes/Master.php?f=save_category` | High
-30 | File | `/classes/Master.php?f=save_position` | High
-31 | File | `/classes/Master.php?f=save_service` | High
-32 | File | `/classes/Master.php?f=update_order_status` | High
-33 | File | `/collection/all` | High
-34 | File | `/content/templates/` | High
-35 | File | `/course/filterRecords/` | High
-36 | File | `/dashboard/add-blog.php` | High
-37 | File | `/debug/pprof` | Medium
-38 | File | `/fcgi/scrut_fcgi.fcgi` | High
-39 | File | `/forum/away.php` | High
-40 | File | `/goform/Diagnosis` | High
-41 | File | `/goform/fast_setting_wifi_set` | High
-42 | File | `/goform/NatStaticSetting` | High
-43 | File | `/goform/PowerSaveSet` | High
-44 | File | `/goform/SetPptpServerCfg` | High
-45 | File | `/goform/SetStaticRouteCfg` | High
-46 | File | `/goform/WifiBasicSet` | High
-47 | File | `/group1/uploa` | High
-48 | File | `/HNAP1` | Low
+9 | File | `/admin/list_addr_fwresource_ip.php` | High
+10 | File | `/admin/login.php` | High
+11 | File | `/admin/order.php` | High
+12 | File | `/admin/plugin.php` | High
+13 | File | `/admin/save.php` | High
+14 | File | `/admin/services/manage_service.php` | High
+15 | File | `/admin/user.php` | High
+16 | File | `/api/` | Low
+17 | File | `/api/download` | High
+18 | File | `/api/project` | Medium
+19 | File | `/api/runscript` | High
+20 | File | `/api/sys/login` | High
+21 | File | `/api/sys/set_passwd` | High
+22 | File | `/api/v1/alerts` | High
+23 | File | `/api/v1/snapshots` | High
+24 | File | `/api/v1/terminal/sessions/?limit=1` | High
+25 | File | `/book-services.php` | High
+26 | File | `/categorypage.php` | High
+27 | File | `/cgi-bin/vitogate.cgi` | High
+28 | File | `/changePassword` | High
+29 | File | `/classes/master.php?f=delete_order` | High
+30 | File | `/classes/Master.php?f=delete_sub_category` | High
+31 | File | `/classes/Master.php?f=save_brand` | High
+32 | File | `/classes/Master.php?f=save_category` | High
+33 | File | `/classes/Master.php?f=save_position` | High
+34 | File | `/classes/Master.php?f=save_service` | High
+35 | File | `/classes/Master.php?f=update_order_status` | High
+36 | File | `/collection/all` | High
+37 | File | `/config-manager/save` | High
+38 | File | `/content/templates/` | High
+39 | File | `/course/filterRecords/` | High
+40 | File | `/dashboard/add-blog.php` | High
+41 | File | `/debug/pprof` | Medium
+42 | File | `/ecommerce/admin/settings/setDiscount.php` | High
+43 | File | `/ecshop/admin/template.php` | High
+44 | File | `/fcgi/scrut_fcgi.fcgi` | High
+45 | File | `/forum/away.php` | High
+46 | File | `/HNAP1` | Low
+47 | File | `/im/user/` | Medium
+48 | File | `/importexport.php` | High
 49 | ... | ... | ...
 
-There are 426 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 421 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -3222,6 +3223,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://community.blueliv.com/#!/s/628f220382df413eb5359232
 * https://ddanchev.blogspot.com/2023/01/exposing-russian-business-networks.html
 * https://exchange.xforce.ibmcloud.com/report/details/guid:4c5162464abb612a04220c6b1453c5d5
+* https://gbhackers.com/hackers-exploiting-winrar-flaw/
 * https://github.com/firehol/blocklist-ipsets/blob/master/geolite2_country/country_ru.netset
 * https://isc.sans.edu/forums/diary/A+few+IoCs+related+to+CVE20205902/26378/
 * https://isc.sans.edu/forums/diary/More+Russian+language+malspam+pushing+Shade+Troldesh+ransomware/24668/

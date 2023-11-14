@@ -61,30 +61,33 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin/add-services.php` | High
 3 | File | `/admin/ajax.php?action=save_area` | High
 4 | File | `/admin/del_service.php` | High
-5 | File | `/admin/reportupload.aspx` | High
-6 | File | `/admin/sys_sql_query.php` | High
-7 | File | `/api/plugin/uninstall` | High
-8 | File | `/api/sys/login` | High
-9 | File | `/app/sys1.php` | High
-10 | File | `/blog` | Low
-11 | File | `/cgi-bin/adm.cgi` | High
-12 | File | `/cgi-bin/webproc` | High
-13 | File | `/classes/Master.php?f=save_inquiry` | High
-14 | File | `/collection/all` | High
-15 | File | `/dipam/athlete-profile.php` | High
-16 | File | `/dosen/data` | Medium
-17 | File | `/Duty/AjaxHandle/Write/UploadFile.ashx` | High
-18 | File | `/etc/puppetlabs/puppetserver/conf.d/ca.conf` | High
-19 | File | `/home/filter_listings` | High
-20 | File | `/im/user/` | Medium
-21 | File | `/index.php` | Medium
-22 | File | `/jeecg-boot/jmreport/upload` | High
-23 | File | `/jeecg-boot/sys/common/upload` | High
-24 | File | `/listplace/user/ticket/create` | High
-25 | File | `/modules/tasks/summary.inc.php` | High
-26 | ... | ... | ...
+5 | File | `/admin/departments/manage_department.php` | High
+6 | File | `/admin/reportupload.aspx` | High
+7 | File | `/admin/sys_sql_query.php` | High
+8 | File | `/api/plugin/uninstall` | High
+9 | File | `/api/sys/login` | High
+10 | File | `/app/sys1.php` | High
+11 | File | `/audimex/cgi-bin/wal.fcgi` | High
+12 | File | `/auth_pic.cgi` | High
+13 | File | `/blog` | Low
+14 | File | `/cgi-bin/adm.cgi` | High
+15 | File | `/cgi-bin/webproc` | High
+16 | File | `/classes/Master.php?f=save_inquiry` | High
+17 | File | `/collection/all` | High
+18 | File | `/dashboard/createblog` | High
+19 | File | `/dipam/athlete-profile.php` | High
+20 | File | `/dosen/data` | Medium
+21 | File | `/Duty/AjaxHandle/Write/UploadFile.ashx` | High
+22 | File | `/etc/puppetlabs/puppetserver/conf.d/ca.conf` | High
+23 | File | `/home/filter_listings` | High
+24 | File | `/im/user/` | Medium
+25 | File | `/index.php` | Medium
+26 | File | `/jeecg-boot/jmreport/upload` | High
+27 | File | `/jeecg-boot/sys/common/upload` | High
+28 | File | `/listplace/user/ticket/create` | High
+29 | ... | ... | ...
 
-There are 217 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 246 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

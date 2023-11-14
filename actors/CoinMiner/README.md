@@ -38,7 +38,7 @@ ID | IP address | Hostname | Campaign | Confidence
 15 | [51.15.54.102](https://vuldb.com/?ip.51.15.54.102) | 102-54-15-51.instances.scw.cloud | - | High
 16 | ... | ... | ... | ...
 
-There are 58 more IOC items available. Please use our online service to access the data.
+There are 60 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -47,10 +47,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22, CWE-23 | Pathname Traversal | High
-2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
 
@@ -60,15 +61,15 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.imwheelrc` | Medium
-2 | File | `.plan` | Low
-3 | File | `.tin` | Low
-4 | File | `/admin/read.php?mudi=announContent` | High
-5 | File | `/ajaxGetFileByPath.php` | High
-6 | File | `/app/sys1.php` | High
-7 | File | `/cgi-bin/editBookmark` | High
-8 | File | `/cgi-bin/luci;stok=/locale` | High
-9 | File | `/classes/Login.php` | High
+1 | File | `.plan` | Low
+2 | File | `.tin` | Low
+3 | File | `/admin/read.php?mudi=announContent` | High
+4 | File | `/ajaxGetFileByPath.php` | High
+5 | File | `/app/sys1.php` | High
+6 | File | `/cgi-bin/editBookmark` | High
+7 | File | `/cgi-bin/luci;stok=/locale` | High
+8 | File | `/classes/Login.php` | High
+9 | File | `/config/list` | Medium
 10 | File | `/configs/application.ini` | High
 11 | File | `/home/cavesConsole` | High
 12 | File | `/home/httpd/cgi-bin/cgi.cgi` | High
@@ -95,15 +96,14 @@ ID | Type | Indicator | Confidence
 33 | File | `admin/admin_process.php` | High
 34 | File | `admin/user.php` | High
 35 | File | `admin/vqmods.app/vqmods.inc.php` | High
-36 | File | `afd.sys` | Low
-37 | File | `akocomment.php` | High
-38 | File | `app/routes/research.js` | High
-39 | File | `article.php` | Medium
-40 | File | `aviso.php` | Medium
-41 | File | `awredir.pl` | Medium
-42 | ... | ... | ...
+36 | File | `ad_manage.php` | High
+37 | File | `afd.sys` | Low
+38 | File | `akocomment.php` | High
+39 | File | `app/routes/research.js` | High
+40 | File | `article.php` | Medium
+41 | ... | ... | ...
 
-There are 359 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 355 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -119,6 +119,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/2021/06/threat-roundup-0611-0617.html
 * https://blog.talosintelligence.com/2021/06/threat-roundup-0617-0624.html
 * https://blog.talosintelligence.com/2022/04/threat-roundup-0408-0415.html
+* https://blog.talosintelligence.com/threat-roundup-1013-1020/
 * https://blog.trendmicro.com/trendlabs-security-intelligence/zoomed-in-a-look-into-a-coinminer-bundled-with-zoom-installer/
 * https://isc.sans.edu/forums/diary/CoinMiners+searching+for+hosts/24364/
 * https://isc.sans.edu/forums/diary/From+Microtik+with+Love/23762/ https://isc.sans.edu/forums/diary/More+malspam+pushing+Lokibot/23754/

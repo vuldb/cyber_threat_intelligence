@@ -68,41 +68,41 @@ ID | Type | Indicator | Confidence
 7 | File | `/cgi-bin/admin/testserver.cgi` | High
 8 | File | `/cgi-bin/supervisor/CloudSetup.cgi` | High
 9 | File | `/cimom` | Low
-10 | File | `/download` | Medium
-11 | File | `/etc/sudoers` | Medium
-12 | File | `/export` | Low
-13 | File | `/forum/away.php` | High
-14 | File | `/getcfg.php` | Medium
-15 | File | `/icingaweb2/navigation/add` | High
-16 | File | `/modules/projects/vw_files.php` | High
-17 | File | `/netflow/jspui/addMailSettings.jsp` | High
-18 | File | `/out.php` | Medium
-19 | File | `/owa/auth/logon.aspx` | High
-20 | File | `/recordings/index.php` | High
-21 | File | `/sec/content/sec_asa_users_local_db_add.html` | High
-22 | File | `/secure/QueryComponent!Default.jspa` | High
-23 | File | `/spip.php` | Medium
-24 | File | `/src/Illuminate/Laravel.php` | High
-25 | File | `/student/bookdetails.php` | High
-26 | File | `/uncpath/` | Medium
-27 | File | `/usr/bin/pkexec` | High
-28 | File | `/var/log/nginx` | High
-29 | File | `/webmail/` | Medium
-30 | File | `/wp-admin/admin-ajax.php` | High
-31 | File | `/wp-admin/options.php` | High
-32 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-33 | File | `adclick.php` | Medium
-34 | File | `addmem.php` | Medium
-35 | File | `add_user.php` | Medium
-36 | File | `admin.php` | Medium
-37 | File | `admin.remository.php` | High
-38 | File | `admin/admin.asp` | High
-39 | File | `adminHome.php` | High
-40 | File | `admin_add.php` | High
-41 | File | `affich.php` | Medium
+10 | File | `/core/tools/customblock.php` | High
+11 | File | `/download` | Medium
+12 | File | `/etc/sudoers` | Medium
+13 | File | `/export` | Low
+14 | File | `/forum/away.php` | High
+15 | File | `/getcfg.php` | Medium
+16 | File | `/icingaweb2/navigation/add` | High
+17 | File | `/modules/projects/vw_files.php` | High
+18 | File | `/netflow/jspui/addMailSettings.jsp` | High
+19 | File | `/out.php` | Medium
+20 | File | `/owa/auth/logon.aspx` | High
+21 | File | `/recordings/index.php` | High
+22 | File | `/sec/content/sec_asa_users_local_db_add.html` | High
+23 | File | `/secure/QueryComponent!Default.jspa` | High
+24 | File | `/spip.php` | Medium
+25 | File | `/src/Illuminate/Laravel.php` | High
+26 | File | `/student/bookdetails.php` | High
+27 | File | `/uncpath/` | Medium
+28 | File | `/usr/bin/pkexec` | High
+29 | File | `/var/log/nginx` | High
+30 | File | `/webmail/` | Medium
+31 | File | `/wp-admin/admin-ajax.php` | High
+32 | File | `/wp-admin/options.php` | High
+33 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+34 | File | `adclick.php` | Medium
+35 | File | `addmem.php` | Medium
+36 | File | `add_user.php` | Medium
+37 | File | `admin.php` | Medium
+38 | File | `admin.remository.php` | High
+39 | File | `admin/admin.asp` | High
+40 | File | `adminHome.php` | High
+41 | File | `admin_add.php` | High
 42 | ... | ... | ...
 
-There are 360 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 362 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

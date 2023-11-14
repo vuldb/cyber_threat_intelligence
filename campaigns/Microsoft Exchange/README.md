@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 28 more country items available. Please use our online service to access the data.
+There are 29 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -89,31 +89,31 @@ ID | Type | Indicator | Confidence
 27 | File | `/asms/admin/products/manage_product.php` | High
 28 | File | `/asms/products/view_product.php` | High
 29 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-30 | File | `/changeimage.php` | High
-31 | File | `/classes/Master.php?f=delete_service` | High
-32 | File | `/config/getuser` | High
-33 | File | `/config/list` | Medium
-34 | File | `/dashboard/snapshot/*?orgId=0` | High
-35 | File | `/dosen/data` | Medium
-36 | File | `/E-mobile/App/System/File/downfile.php` | High
-37 | File | `/export` | Low
-38 | File | `/forum/away.php` | High
-39 | File | `/gena.cgi` | Medium
-40 | File | `/general/ipanel/menu_code.php?MENU_TYPE=FAV` | High
-41 | File | `/home/cavesConsole` | High
-42 | File | `/home/kickPlayer` | High
-43 | File | `/home/masterConsole` | High
-44 | File | `/home/sendBroadcast` | High
-45 | File | `/inc/jquery/uploadify/uploadify.php` | High
-46 | File | `/include/chart_generator.php` | High
-47 | File | `/include/dialog/select_templets_post.php` | High
-48 | File | `/index.php/sysmanage/Login/login_auth/` | High
-49 | File | `/jurusanmatkul/data` | High
-50 | File | `/kelasdosen/data` | High
-51 | File | `/lan.asp` | Medium
+30 | File | `/category.php` | High
+31 | File | `/changeimage.php` | High
+32 | File | `/classes/Master.php?f=delete_service` | High
+33 | File | `/config/getuser` | High
+34 | File | `/config/list` | Medium
+35 | File | `/dashboard/snapshot/*?orgId=0` | High
+36 | File | `/dosen/data` | Medium
+37 | File | `/E-mobile/App/System/File/downfile.php` | High
+38 | File | `/export` | Low
+39 | File | `/forum/away.php` | High
+40 | File | `/gena.cgi` | Medium
+41 | File | `/general/ipanel/menu_code.php?MENU_TYPE=FAV` | High
+42 | File | `/home/cavesConsole` | High
+43 | File | `/home/kickPlayer` | High
+44 | File | `/home/masterConsole` | High
+45 | File | `/home/sendBroadcast` | High
+46 | File | `/inc/jquery/uploadify/uploadify.php` | High
+47 | File | `/include/chart_generator.php` | High
+48 | File | `/include/dialog/select_templets_post.php` | High
+49 | File | `/index.php/sysmanage/Login/login_auth/` | High
+50 | File | `/jurusanmatkul/data` | High
+51 | File | `/kelasdosen/data` | High
 52 | ... | ... | ...
 
-There are 448 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 451 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [GB](https://vuldb.com/?country.gb)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
 There are 17 more country items available. Please use our online service to access the data.
@@ -237,57 +237,53 @@ ID | Type | Indicator | Confidence
 1 | File | `//WEB-INF` | Medium
 2 | File | `/?p=products` | Medium
 3 | File | `/about.php` | Medium
-4 | File | `/admin.php/update/getFile.html` | High
+4 | File | `/admin/controller/JobLogController.java` | High
 5 | File | `/admin/save.php` | High
 6 | File | `/admin/sys_sql_query.php` | High
 7 | File | `/api/baskets/{name}` | High
 8 | File | `/api/download` | High
 9 | File | `/api/stl/actions/search` | High
-10 | File | `/api/v1/terminal/sessions/?limit=1` | High
-11 | File | `/api/v2/cli/commands` | High
-12 | File | `/bin/ate` | Medium
-13 | File | `/bitrix/admin/ldap_server_edit.php` | High
-14 | File | `/booking/show_bookings/` | High
-15 | File | `/category.php` | High
-16 | File | `/categorypage.php` | High
-17 | File | `/cgi-bin` | Medium
-18 | File | `/cgi-bin/luci/api/wireless` | High
-19 | File | `/cgi-bin/vitogate.cgi` | High
-20 | File | `/company/store` | High
-21 | File | `/Content/Template/root/reverse-shell.aspx` | High
-22 | File | `/Controller/Ajaxfileupload.ashx` | High
-23 | File | `/core/conditions/AbstractWrapper.java` | High
-24 | File | `/dashboard/add-blog.php` | High
-25 | File | `/debug/pprof` | Medium
-26 | File | `/env` | Low
-27 | File | `/etc/passwd` | Medium
-28 | File | `/fcgi/scrut_fcgi.fcgi` | High
-29 | File | `/feeds/post/publish` | High
-30 | File | `/forum/away.php` | High
-31 | File | `/group1/uploa` | High
-32 | File | `/h/` | Low
-33 | File | `/HNAP1` | Low
-34 | File | `/inc/jquery/uploadify/uploadify.php` | High
-35 | File | `/index.php?app=main&func=passport&action=login` | High
-36 | File | `/index.php?page=category_list` | High
-37 | File | `/jeecg-boot/sys/common/upload` | High
-38 | File | `/jobinfo/` | Medium
-39 | File | `/Moosikay/order.php` | High
-40 | File | `/opac/Actions.php?a=login` | High
-41 | File | `/php-sms/admin/?page=user/manage_user` | High
-42 | File | `/PreviewHandler.ashx` | High
-43 | File | `/recipe-result` | High
-44 | File | `/register.do` | Medium
-45 | File | `/reservation/add_message.php` | High
-46 | File | `/resources//../` | High
-47 | File | `/RPS2019Service/status.html` | High
-48 | File | `/Service/ImageStationDataService.asmx` | High
-49 | File | `/sicweb-ajax/tmproot/` | High
-50 | File | `/spip.php` | Medium
-51 | File | `/student/bookdetails.php` | High
-52 | ... | ... | ...
+10 | File | `/api/sys/login` | High
+11 | File | `/api/sys/set_passwd` | High
+12 | File | `/api/v1/alerts` | High
+13 | File | `/api/v1/terminal/sessions/?limit=1` | High
+14 | File | `/bin/ate` | Medium
+15 | File | `/bitrix/admin/ldap_server_edit.php` | High
+16 | File | `/booking/show_bookings/` | High
+17 | File | `/category.php` | High
+18 | File | `/categorypage.php` | High
+19 | File | `/cgi-bin` | Medium
+20 | File | `/cgi-bin/luci/api/wireless` | High
+21 | File | `/cgi-bin/vitogate.cgi` | High
+22 | File | `/changePassword` | High
+23 | File | `/company/store` | High
+24 | File | `/Content/Template/root/reverse-shell.aspx` | High
+25 | File | `/Controller/Ajaxfileupload.ashx` | High
+26 | File | `/core/conditions/AbstractWrapper.java` | High
+27 | File | `/dashboard/add-blog.php` | High
+28 | File | `/debug/pprof` | Medium
+29 | File | `/ecshop/admin/template.php` | High
+30 | File | `/env` | Low
+31 | File | `/etc/passwd` | Medium
+32 | File | `/fcgi/scrut_fcgi.fcgi` | High
+33 | File | `/forum/away.php` | High
+34 | File | `/group1/uploa` | High
+35 | File | `/h/` | Low
+36 | File | `/HNAP1` | Low
+37 | File | `/inc/jquery/uploadify/uploadify.php` | High
+38 | File | `/index.php?app=main&func=passport&action=login` | High
+39 | File | `/index.php?page=category_list` | High
+40 | File | `/jeecg-boot/sys/common/upload` | High
+41 | File | `/jobinfo/` | Medium
+42 | File | `/Moosikay/order.php` | High
+43 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
+44 | File | `/opac/Actions.php?a=login` | High
+45 | File | `/php-sms/admin/?page=user/manage_user` | High
+46 | File | `/PreviewHandler.ashx` | High
+47 | File | `/proxy` | Low
+48 | ... | ... | ...
 
-There are 453 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 420 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

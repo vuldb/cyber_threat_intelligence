@@ -26,7 +26,7 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [104.244.76.207](https://vuldb.com/?ip.104.244.76.207) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 1 more IOC items available. Please use our online service to access the data.
+There are 2 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -93,7 +93,7 @@ ID | Type | Indicator | Confidence
 41 | File | `/members/view_member.php` | High
 42 | ... | ... | ...
 
-There are 366 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 363 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -102,6 +102,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://app.any.run/tasks/a536276d-8b87-4b02-bed5-ca8135a0dbce/
 * https://threatfox.abuse.ch
 * https://tria.ge/220316-w6lh3sffe3
+* https://www.filescan.io/uploads/652746408d16e62970c20643/reports/933c92b2-db25-4cd7-8e05-1595ed51992b/ioc
 
 ## Literature
 

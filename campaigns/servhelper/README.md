@@ -76,34 +76,34 @@ ID | Type | Indicator | Confidence
 16 | File | `/scripts/unlock_tasks.php` | High
 17 | File | `/sendKey` | Medium
 18 | File | `/setSystemAdmin` | High
-19 | File | `/system/user/modules/mod_users/controller.php` | High
-20 | File | `/tmp` | Low
-21 | File | `/type.php` | Medium
-22 | File | `/usr/5bin/su` | Medium
-23 | File | `/usr/bin/mail` | High
-24 | File | `/var/dt/` | Medium
-25 | File | `/view-property.php` | High
-26 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
-27 | File | `00.jsp` | Low
-28 | File | `adclick.php` | Medium
-29 | File | `admin.asp` | Medium
-30 | File | `admin.php` | Medium
-31 | File | `admin/` | Low
-32 | File | `admin/Login.php` | High
-33 | File | `admin/manage-comments.php` | High
-34 | File | `Administration/Controllers/ImportController.cs` | High
-35 | File | `administrator/mail/download.cfm` | High
-36 | File | `AdminViewError/AdminAddadmin` | High
-37 | File | `agentdisplay.php` | High
-38 | File | `appserv/main.php` | High
-39 | File | `ashnews.php/ashheadlines.php` | High
-40 | File | `auction.cgi` | Medium
-41 | File | `autologin.jsp` | High
-42 | File | `axspawn.c` | Medium
-43 | File | `base_ag_main.php` | High
+19 | File | `/signup_script.php` | High
+20 | File | `/system/user/modules/mod_users/controller.php` | High
+21 | File | `/tmp` | Low
+22 | File | `/type.php` | Medium
+23 | File | `/usr/5bin/su` | Medium
+24 | File | `/usr/bin/mail` | High
+25 | File | `/var/dt/` | Medium
+26 | File | `/view-property.php` | High
+27 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
+28 | File | `00.jsp` | Low
+29 | File | `adclick.php` | Medium
+30 | File | `admin.asp` | Medium
+31 | File | `admin.php` | Medium
+32 | File | `admin/` | Low
+33 | File | `admin/Login.php` | High
+34 | File | `admin/manage-comments.php` | High
+35 | File | `Administration/Controllers/ImportController.cs` | High
+36 | File | `administrator/mail/download.cfm` | High
+37 | File | `AdminViewError/AdminAddadmin` | High
+38 | File | `agentdisplay.php` | High
+39 | File | `appserv/main.php` | High
+40 | File | `ashnews.php/ashheadlines.php` | High
+41 | File | `auction.cgi` | Medium
+42 | File | `autologin.jsp` | High
+43 | File | `axspawn.c` | Medium
 44 | ... | ... | ...
 
-There are 380 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 382 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

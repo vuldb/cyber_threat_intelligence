@@ -57,7 +57,7 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-264, CWE-266, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+5 | T1068 | CWE-250, CWE-264, CWE-266, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 6 | ... | ... | ... | ...
 
 There are 19 more TTP items available. Please use our online service to access the data.
@@ -72,61 +72,63 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin/add-services.php` | High
 3 | File | `/admin/ajax.php?action=save_area` | High
 4 | File | `/admin/del_service.php` | High
-5 | File | `/admin/reportupload.aspx` | High
-6 | File | `/admin/sys_sql_query.php` | High
-7 | File | `/api/` | Low
-8 | File | `/api/plugin/uninstall` | High
-9 | File | `/api/sys/login` | High
-10 | File | `/app/sys1.php` | High
-11 | File | `/blog` | Low
-12 | File | `/cgi-bin-sdb/ExportSettings.sh` | High
-13 | File | `/cgi-bin/adm.cgi` | High
-14 | File | `/cgi-bin/wlogin.cgi` | High
-15 | File | `/classes/Master.php?f=save_inquiry` | High
-16 | File | `/collection/all` | High
-17 | File | `/common/ticket_associated_tickets.php` | High
-18 | File | `/crmeb/crmeb/services/UploadService.php` | High
-19 | File | `/debug/pprof` | Medium
-20 | File | `/dipam/athlete-profile.php` | High
-21 | File | `/dosen/data` | Medium
-22 | File | `/dus/shopliste/index.php` | High
-23 | File | `/Duty/AjaxHandle/Write/UploadFile.ashx` | High
-24 | File | `/etc/pki/pesign` | High
-25 | File | `/etc/puppetlabs/puppetserver/conf.d/ca.conf` | High
-26 | File | `/home/filter_listings` | High
-27 | File | `/hrm/employeeadd.php` | High
-28 | File | `/im/user/` | Medium
-29 | File | `/include/chart_generator.php` | High
-30 | File | `/index.php` | Medium
-31 | File | `/jeecg-boot/jmreport/upload` | High
-32 | File | `/jeecg-boot/sys/common/upload` | High
-33 | File | `/listplace/user/ticket/create` | High
-34 | File | `/mgmt/tm/util/bash` | High
-35 | File | `/modules/profile/index.php` | High
-36 | File | `/nagiosql/admin/checkcommands.php` | High
-37 | File | `/out.php` | Medium
-38 | File | `/php-sms/classes/Master.php?f=save_quote` | High
-39 | File | `/portal/reports/account_statement` | High
-40 | File | `/preview.php` | Medium
-41 | File | `/property` | Medium
-42 | File | `/robots.txt` | Medium
-43 | File | `/search` | Low
-44 | File | `/send_order.cgi?parameter=restart` | High
-45 | File | `/sys/dict/loadTreeData` | High
-46 | File | `/SysInfo.htm` | Medium
-47 | File | `/uncpath/` | Medium
-48 | File | `/user/ticket/create` | High
-49 | File | `/usr/5bin/su` | Medium
-50 | File | `/usr/bin/pkexec` | High
-51 | File | `/var/log/rkhunter.log` | High
-52 | File | `/view-booking-detail.php` | High
-53 | File | `/view-property.php` | High
-54 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-55 | File | `?r=contact/default/export` | High
-56 | File | `?r=recruit/contact/export&contactids=x` | High
-57 | ... | ... | ...
+5 | File | `/admin/departments/manage_department.php` | High
+6 | File | `/admin/reportupload.aspx` | High
+7 | File | `/admin/sys_sql_query.php` | High
+8 | File | `/api/` | Low
+9 | File | `/api/plugin/uninstall` | High
+10 | File | `/api/sys/login` | High
+11 | File | `/app/sys1.php` | High
+12 | File | `/audimex/cgi-bin/wal.fcgi` | High
+13 | File | `/auth_pic.cgi` | High
+14 | File | `/blog` | Low
+15 | File | `/cgi-bin-sdb/ExportSettings.sh` | High
+16 | File | `/cgi-bin/adm.cgi` | High
+17 | File | `/cgi-bin/wlogin.cgi` | High
+18 | File | `/classes/Master.php?f=save_inquiry` | High
+19 | File | `/collection/all` | High
+20 | File | `/common/ticket_associated_tickets.php` | High
+21 | File | `/crmeb/crmeb/services/UploadService.php` | High
+22 | File | `/dashboard/createblog` | High
+23 | File | `/debug/pprof` | Medium
+24 | File | `/dipam/athlete-profile.php` | High
+25 | File | `/dosen/data` | Medium
+26 | File | `/dus/shopliste/index.php` | High
+27 | File | `/Duty/AjaxHandle/Write/UploadFile.ashx` | High
+28 | File | `/etc/pki/pesign` | High
+29 | File | `/etc/postfix/sender_login` | High
+30 | File | `/etc/puppetlabs/puppetserver/conf.d/ca.conf` | High
+31 | File | `/home/filter_listings` | High
+32 | File | `/hrm/employeeadd.php` | High
+33 | File | `/im/user/` | Medium
+34 | File | `/include/chart_generator.php` | High
+35 | File | `/index.php` | Medium
+36 | File | `/jeecg-boot/jmreport/upload` | High
+37 | File | `/jeecg-boot/sys/common/upload` | High
+38 | File | `/listplace/user/ticket/create` | High
+39 | File | `/mgmt/tm/util/bash` | High
+40 | File | `/modules/profile/index.php` | High
+41 | File | `/out.php` | Medium
+42 | File | `/php-sms/classes/Master.php?f=save_quote` | High
+43 | File | `/portal/reports/account_statement` | High
+44 | File | `/preview.php` | Medium
+45 | File | `/property` | Medium
+46 | File | `/robots.txt` | Medium
+47 | File | `/search` | Low
+48 | File | `/send_order.cgi?parameter=restart` | High
+49 | File | `/signup_script.php` | High
+50 | File | `/sys/dict/loadTreeData` | High
+51 | File | `/SysInfo.htm` | Medium
+52 | File | `/sysmanage/edit_manageadmin.php` | High
+53 | File | `/uncpath/` | Medium
+54 | File | `/user/ticket/create` | High
+55 | File | `/usr/5bin/su` | Medium
+56 | File | `/usr/bin/at` | Medium
+57 | File | `/usr/bin/pkexec` | High
+58 | File | `/var/log/rkhunter.log` | High
+59 | ... | ... | ...
 
-There are 495 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 519 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

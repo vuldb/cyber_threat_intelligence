@@ -20,7 +20,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 24 more country items available. Please use our online service to access the data.
+There are 22 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -106,14 +106,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-25, CWE-425 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | T1068 | CWE-250, CWE-264, CWE-266, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1068 | CWE-250, CWE-264, CWE-266, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+6 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 7 | ... | ... | ... | ...
 
-There are 23 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -123,8 +123,8 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
 2 | File | `/act/ActDao.xml` | High
-3 | File | `/ajax.php?action=read_msg` | High
-4 | File | `/ajax/networking/get_netcfg.php` | High
+3 | File | `/admin/maintenance/view_designation.php` | High
+4 | File | `/ajax.php?action=read_msg` | High
 5 | File | `/api/gen/clients/{language}` | High
 6 | File | `/app/options.py` | High
 7 | File | `/bin/httpd` | Medium
@@ -145,26 +145,25 @@ ID | Type | Indicator | Confidence
 22 | File | `/goform/net\_Web\_get_value` | High
 23 | File | `/goforms/rlminfo` | High
 24 | File | `/GponForm/usb_restore_Form?script/` | High
-25 | File | `/HNAP1` | Low
-26 | File | `/HNAP1/SetClientInfo` | High
-27 | File | `/Items/*/RemoteImages/Download` | High
-28 | File | `/menu.html` | Medium
-29 | File | `/modules/profile/index.php` | High
-30 | File | `/navigate/navigate_download.php` | High
-31 | File | `/ocwbs/admin/?page=user/manage_user` | High
-32 | File | `/ofrs/admin/?page=user/manage_user` | High
-33 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-34 | File | `/out.php` | Medium
-35 | File | `/password.html` | High
+25 | File | `/group1/uploa` | High
+26 | File | `/HNAP1` | Low
+27 | File | `/HNAP1/SetClientInfo` | High
+28 | File | `/Items/*/RemoteImages/Download` | High
+29 | File | `/menu.html` | Medium
+30 | File | `/modules/profile/index.php` | High
+31 | File | `/navigate/navigate_download.php` | High
+32 | File | `/ocwbs/admin/?page=user/manage_user` | High
+33 | File | `/ofrs/admin/?page=user/manage_user` | High
+34 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+35 | File | `/out.php` | Medium
 36 | File | `/php_action/fetchSelectedUser.php` | High
-37 | File | `/property-list/property_view.php` | High
-38 | File | `/ptms/classes/Users.php` | High
-39 | File | `/resources//../` | High
-40 | File | `/scripts/cpan_config` | High
-41 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-42 | ... | ... | ...
+37 | File | `/plugin` | Low
+38 | File | `/property-list/property_view.php` | High
+39 | File | `/ptms/classes/Users.php` | High
+40 | File | `/resources//../` | High
+41 | ... | ... | ...
 
-There are 362 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 358 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

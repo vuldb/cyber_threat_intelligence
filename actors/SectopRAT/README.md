@@ -8,8 +8,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with SectopRAT:
 
-* [US](https://vuldb.com/?country.us)
 * [DE](https://vuldb.com/?country.de)
+* [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
@@ -30,7 +30,8 @@ ID | IP address | Hostname | Campaign | Confidence
 7 | [34.107.35.186](https://vuldb.com/?ip.34.107.35.186) | 186.35.107.34.bc.googleusercontent.com | - | Medium
 8 | [34.107.84.7](https://vuldb.com/?ip.34.107.84.7) | 7.84.107.34.bc.googleusercontent.com | - | Medium
 9 | [34.141.92.1](https://vuldb.com/?ip.34.141.92.1) | 1.92.141.34.bc.googleusercontent.com | - | Medium
-10 | ... | ... | ... | ...
+10 | [34.141.167.33](https://vuldb.com/?ip.34.141.167.33) | 33.167.141.34.bc.googleusercontent.com | - | Medium
+11 | ... | ... | ... | ...
 
 There are 38 more IOC items available. Please use our online service to access the data.
 
@@ -47,7 +48,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -56,34 +57,44 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `//proc/kcore` | Medium
-2 | File | `/api/v1/bait/set` | High
-3 | File | `/asms/classes/Master.php?f=delete_img` | High
-4 | File | `/banner/add.html` | High
-5 | File | `/coreframe/app/pay/admin/index.php` | High
-6 | File | `/forum/away.php` | High
-7 | File | `/librarian/bookdetails.php` | High
-8 | File | `/mics/j_spring_security_check` | High
-9 | File | `/opac/Actions.php?a=login` | High
-10 | File | `/public/launchNewWindow.jsp` | High
-11 | File | `/public/login.htm` | High
-12 | File | `/rpc/membership/setProfile` | High
-13 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-14 | File | `/simple_chat_bot/admin/?page=responses/manage_response` | High
-15 | File | `/spip.php` | Medium
-16 | File | `/src/main/java/com/dotmarketing/filters/CMSFilter.java` | High
-17 | File | `/staff/bookdetails.php` | High
-18 | File | `about.php` | Medium
-19 | File | `adclick.php` | Medium
-20 | File | `add_comment.php` | High
-21 | File | `admin.color.php` | High
-22 | File | `admin/addons/archive/archive.php` | High
-23 | File | `admin/admin.php` | High
-24 | File | `admincp/auth/secure.php` | High
-25 | File | `advsearch.php` | High
-26 | File | `appserv/main.php` | High
-27 | ... | ... | ...
+2 | File | `/api/CONFIG/backup` | High
+3 | File | `/api/v1/bait/set` | High
+4 | File | `/asms/classes/Master.php?f=delete_img` | High
+5 | File | `/banner/add.html` | High
+6 | File | `/coreframe/app/pay/admin/index.php` | High
+7 | File | `/forum/away.php` | High
+8 | File | `/itplus/FileStorage/302/shell.jsp` | High
+9 | File | `/lawyer-list` | Medium
+10 | File | `/librarian/bookdetails.php` | High
+11 | File | `/login.php?recoverme=` | High
+12 | File | `/mics/j_spring_security_check` | High
+13 | File | `/opac/Actions.php?a=login` | High
+14 | File | `/public/launchNewWindow.jsp` | High
+15 | File | `/public/login.htm` | High
+16 | File | `/rpc/membership/setProfile` | High
+17 | File | `/search` | Low
+18 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+19 | File | `/sendKey` | Medium
+20 | File | `/setSystemAdmin` | High
+21 | File | `/simple_chat_bot/admin/?page=responses/manage_response` | High
+22 | File | `/spip.php` | Medium
+23 | File | `/src/main/java/com/dotmarketing/filters/CMSFilter.java` | High
+24 | File | `/staff/bookdetails.php` | High
+25 | File | `/~user_handler` | High
+26 | File | `2345MPCSafe.exe/2345SafeTray.exe/2345Speedup.exe` | High
+27 | File | `about.php` | Medium
+28 | File | `adclick.php` | Medium
+29 | File | `add_comment.php` | High
+30 | File | `admin.color.php` | High
+31 | File | `admin/addons/archive/archive.php` | High
+32 | File | `admin/admin.php` | High
+33 | File | `admin/members_view.php` | High
+34 | File | `admin/users` | Medium
+35 | File | `admincp/auth/secure.php` | High
+36 | File | `advsearch.php` | High
+37 | ... | ... | ...
 
-There are 229 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 322 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

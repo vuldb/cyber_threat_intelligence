@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [MS](https://vuldb.com/?country.ms)
 * [HK](https://vuldb.com/?country.hk)
-* [KR](https://vuldb.com/?country.kr)
+* [US](https://vuldb.com/?country.us)
 * ...
 
 There are 3 more country items available. Please use our online service to access the data.
@@ -89,9 +89,10 @@ ID | Type | Indicator | Confidence
 16 | File | `/server-info` | Medium
 17 | File | `/uncpath/` | Medium
 18 | File | `/updown/upload.cgi` | High
-19 | ... | ... | ...
+19 | File | `/vmi/manager/engine/management/commands/apns_worker.py` | High
+20 | ... | ... | ...
 
-There are 160 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 161 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

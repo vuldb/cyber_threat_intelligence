@@ -120,9 +120,10 @@ ID | Type | Indicator | Confidence
 65 | File | `/goform/RgDdns` | High
 66 | File | `/goform/RgDhcp` | High
 67 | File | `/goform/RGFirewallEL` | High
-68 | ... | ... | ...
+68 | File | `/goform/RgTime` | High
+69 | ... | ... | ...
 
-There are 597 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 601 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

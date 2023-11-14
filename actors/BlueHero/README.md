@@ -32,9 +32,9 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22 | Pathname Traversal | High
-2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
@@ -60,24 +60,24 @@ ID | Type | Indicator | Confidence
 13 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
 14 | File | `/cgi-bin/koha/catalogue/search.pl` | High
 15 | File | `/cgi-bin/upload_vpntar` | High
-16 | File | `/CPE` | Low
-17 | File | `/debug/pprof` | Medium
-18 | File | `/forum/away.php` | High
-19 | File | `/ghost/preview` | High
-20 | File | `/goform/Diagnosis` | High
-21 | File | `/home/search` | Medium
-22 | File | `/leaves/validate` | High
-23 | File | `/mail.php` | Medium
-24 | File | `/modules/profile/index.php` | High
-25 | File | `/out.php` | Medium
-26 | File | `/php-opos/index.php` | High
+16 | File | `/core/tools/customblock.php` | High
+17 | File | `/CPE` | Low
+18 | File | `/debug/pprof` | Medium
+19 | File | `/forum/away.php` | High
+20 | File | `/ghost/preview` | High
+21 | File | `/goform/Diagnosis` | High
+22 | File | `/home/search` | Medium
+23 | File | `/leaves/validate` | High
+24 | File | `/mail.php` | Medium
+25 | File | `/modules/profile/index.php` | High
+26 | File | `/out.php` | Medium
 27 | File | `/php-spms/admin/?page=user/` | High
 28 | File | `/reviewer_0/admins/assessments/pretest/questions-view.php` | High
 29 | File | `/shell` | Low
-30 | File | `/tourism/rate_review.php` | High
+30 | File | `/shopping/product.php` | High
 31 | ... | ... | ...
 
-There are 264 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 261 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

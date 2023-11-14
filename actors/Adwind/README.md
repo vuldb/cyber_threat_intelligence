@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
-* [IR](https://vuldb.com/?country.ir)
+* [FR](https://vuldb.com/?country.fr)
 * ...
 
 There are 17 more country items available. Please use our online service to access the data.
@@ -95,9 +95,10 @@ ID | Type | Indicator | Confidence
 15 | File | `admin/index.php?n=ui_set&m=admin&c=index&a=doget_text_content&table=lang&field=1` | High
 16 | File | `admin/login.asp` | High
 17 | File | `administrator/components/com_media/helpers/media.php` | High
-18 | ... | ... | ...
+18 | File | `admin_safe.php` | High
+19 | ... | ... | ...
 
-There are 149 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 151 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -30,6 +30,14 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1202 | CWE-78 | Command Injection | High
 3 | T1505 | CWE-89 | SQL Injection | High
 
+## IOA - Indicator of Attack
+
+These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by Cobalt Mirage. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Type | Indicator | Confidence
+-- | ---- | --------- | ----------
+1 | File | `tiki-register.php` | High
+
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:

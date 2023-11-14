@@ -129,7 +129,7 @@ ID | Type | Indicator | Confidence
 52 | File | `adclick.php` | Medium
 53 | ... | ... | ...
 
-There are 460 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 458 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
