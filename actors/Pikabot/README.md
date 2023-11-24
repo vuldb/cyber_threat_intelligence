@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Pikabot:
 
 * [US](https://vuldb.com/?country.us)
-* [DE](https://vuldb.com/?country.de)
 * [CN](https://vuldb.com/?country.cn)
+* [DE](https://vuldb.com/?country.de)
 * ...
 
 There are 1 more country items available. Please use our online service to access the data.
@@ -40,34 +40,42 @@ ID | IP address | Hostname | Campaign | Confidence
 17 | [38.242.240.28](https://vuldb.com/?ip.38.242.240.28) | vmi1471651.contaboserver.net | - | High
 18 | [45.32.140.39](https://vuldb.com/?ip.45.32.140.39) | 45.32.140.39.vultrusercontent.com | - | High
 19 | [45.32.194.209](https://vuldb.com/?ip.45.32.194.209) | 45.32.194.209.vultrusercontent.com | - | High
-20 | [45.33.76.163](https://vuldb.com/?ip.45.33.76.163) | 45-33-76-163.ip.linodeusercontent.com | - | High
-21 | [45.33.85.73](https://vuldb.com/?ip.45.33.85.73) | 45-33-85-73.ip.linodeusercontent.com | - | High
-22 | [45.63.67.40](https://vuldb.com/?ip.45.63.67.40) | 45.63.67.40.vultrusercontent.com | - | High
-23 | [45.63.106.193](https://vuldb.com/?ip.45.63.106.193) | 45.63.106.193.vultrusercontent.com | - | High
-24 | [45.76.103.152](https://vuldb.com/?ip.45.76.103.152) | 45.76.103.152.vultrusercontent.com | - | High
-25 | [45.76.171.107](https://vuldb.com/?ip.45.76.171.107) | 45.76.171.107.vultrusercontent.com | - | High
-26 | [45.76.233.103](https://vuldb.com/?ip.45.76.233.103) | 45.76.233.103.vultrusercontent.com | - | High
-27 | [45.77.72.139](https://vuldb.com/?ip.45.77.72.139) | 45.77.72.139.vultrusercontent.com | - | High
-28 | [45.77.79.67](https://vuldb.com/?ip.45.77.79.67) | 45.77.79.67.vultrusercontent.com | - | High
-29 | [45.79.147.119](https://vuldb.com/?ip.45.79.147.119) | 45-79-147-119.ip.linodeusercontent.com | - | High
-30 | [45.79.174.92](https://vuldb.com/?ip.45.79.174.92) | 45-79-174-92.ip.linodeusercontent.com | - | High
-31 | [45.85.235.39](https://vuldb.com/?ip.45.85.235.39) | - | - | High
-32 | [45.131.108.250](https://vuldb.com/?ip.45.131.108.250) | tube-hosting.com | - | High
-33 | [45.154.24.57](https://vuldb.com/?ip.45.154.24.57) | - | - | High
-34 | [45.182.189.105](https://vuldb.com/?ip.45.182.189.105) | - | - | High
-35 | [45.182.189.107](https://vuldb.com/?ip.45.182.189.107) | - | - | High
-36 | [46.101.42.93](https://vuldb.com/?ip.46.101.42.93) | uk.awintern.com | - | High
-37 | [49.13.94.145](https://vuldb.com/?ip.49.13.94.145) | static.145.94.13.49.clients.your-server.de | - | High
-38 | [49.13.94.147](https://vuldb.com/?ip.49.13.94.147) | static.147.94.13.49.clients.your-server.de | - | High
-39 | [49.13.119.72](https://vuldb.com/?ip.49.13.119.72) | static.72.119.13.49.clients.your-server.de | - | High
-40 | [49.13.119.73](https://vuldb.com/?ip.49.13.119.73) | static.73.119.13.49.clients.your-server.de | - | High
-41 | [49.13.119.242](https://vuldb.com/?ip.49.13.119.242) | static.242.119.13.49.clients.your-server.de | - | High
-42 | [50.116.54.138](https://vuldb.com/?ip.50.116.54.138) | 50-116-54-138.ip.linodeusercontent.com | - | High
-43 | [51.68.144.135](https://vuldb.com/?ip.51.68.144.135) | - | - | High
-44 | [51.68.146.19](https://vuldb.com/?ip.51.68.146.19) | - | - | High
-45 | ... | ... | ... | ...
+20 | [45.32.232.31](https://vuldb.com/?ip.45.32.232.31) | 45.32.232.31.vultrusercontent.com | - | High
+21 | [45.32.244.94](https://vuldb.com/?ip.45.32.244.94) | 45.32.244.94.vultrusercontent.com | - | High
+22 | [45.33.69.35](https://vuldb.com/?ip.45.33.69.35) | 45-33-69-35.ip.linodeusercontent.com | - | High
+23 | [45.33.76.163](https://vuldb.com/?ip.45.33.76.163) | 45-33-76-163.ip.linodeusercontent.com | - | High
+24 | [45.33.85.73](https://vuldb.com/?ip.45.33.85.73) | 45-33-85-73.ip.linodeusercontent.com | - | High
+25 | [45.63.67.40](https://vuldb.com/?ip.45.63.67.40) | 45.63.67.40.vultrusercontent.com | - | High
+26 | [45.63.106.193](https://vuldb.com/?ip.45.63.106.193) | 45.63.106.193.vultrusercontent.com | - | High
+27 | [45.76.103.152](https://vuldb.com/?ip.45.76.103.152) | 45.76.103.152.vultrusercontent.com | - | High
+28 | [45.76.171.107](https://vuldb.com/?ip.45.76.171.107) | 45.76.171.107.vultrusercontent.com | - | High
+29 | [45.76.233.103](https://vuldb.com/?ip.45.76.233.103) | 45.76.233.103.vultrusercontent.com | - | High
+30 | [45.77.72.139](https://vuldb.com/?ip.45.77.72.139) | 45.77.72.139.vultrusercontent.com | - | High
+31 | [45.77.79.67](https://vuldb.com/?ip.45.77.79.67) | 45.77.79.67.vultrusercontent.com | - | High
+32 | [45.79.147.119](https://vuldb.com/?ip.45.79.147.119) | 45-79-147-119.ip.linodeusercontent.com | - | High
+33 | [45.79.174.92](https://vuldb.com/?ip.45.79.174.92) | 45-79-174-92.ip.linodeusercontent.com | - | High
+34 | [45.85.235.39](https://vuldb.com/?ip.45.85.235.39) | - | - | High
+35 | [45.131.108.250](https://vuldb.com/?ip.45.131.108.250) | tube-hosting.com | - | High
+36 | [45.154.24.57](https://vuldb.com/?ip.45.154.24.57) | - | - | High
+37 | [45.182.189.105](https://vuldb.com/?ip.45.182.189.105) | - | - | High
+38 | [45.182.189.107](https://vuldb.com/?ip.45.182.189.107) | - | - | High
+39 | [46.101.42.93](https://vuldb.com/?ip.46.101.42.93) | uk.awintern.com | - | High
+40 | [46.250.241.188](https://vuldb.com/?ip.46.250.241.188) | vmd122107.contaboserver.net | - | High
+41 | [49.13.6.174](https://vuldb.com/?ip.49.13.6.174) | static.174.6.13.49.clients.your-server.de | - | High
+42 | [49.13.31.229](https://vuldb.com/?ip.49.13.31.229) | static.229.31.13.49.clients.your-server.de | - | High
+43 | [49.13.75.67](https://vuldb.com/?ip.49.13.75.67) | static.67.75.13.49.clients.your-server.de | - | High
+44 | [49.13.94.145](https://vuldb.com/?ip.49.13.94.145) | static.145.94.13.49.clients.your-server.de | - | High
+45 | [49.13.94.147](https://vuldb.com/?ip.49.13.94.147) | static.147.94.13.49.clients.your-server.de | - | High
+46 | [49.13.119.72](https://vuldb.com/?ip.49.13.119.72) | static.72.119.13.49.clients.your-server.de | - | High
+47 | [49.13.119.73](https://vuldb.com/?ip.49.13.119.73) | static.73.119.13.49.clients.your-server.de | - | High
+48 | [49.13.119.242](https://vuldb.com/?ip.49.13.119.242) | static.242.119.13.49.clients.your-server.de | - | High
+49 | [50.116.54.138](https://vuldb.com/?ip.50.116.54.138) | 50-116-54-138.ip.linodeusercontent.com | - | High
+50 | [51.68.144.135](https://vuldb.com/?ip.51.68.144.135) | - | - | High
+51 | [51.68.146.19](https://vuldb.com/?ip.51.68.146.19) | - | - | High
+52 | [51.68.147.114](https://vuldb.com/?ip.51.68.147.114) | - | - | High
+53 | ... | ... | ... | ...
 
-There are 174 more IOC items available. Please use our online service to access the data.
+There are 206 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -112,6 +120,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/45.79.174.92
 * https://search.censys.io/hosts/45.182.189.105
 * https://search.censys.io/hosts/46.101.42.93
+* https://search.censys.io/hosts/46.250.241.188
 * https://search.censys.io/hosts/51.68.144.135
 * https://search.censys.io/hosts/51.68.147.114
 * https://search.censys.io/hosts/64.227.4.216
@@ -137,6 +146,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/93.214.157.247
 * https://search.censys.io/hosts/94.228.169.221
 * https://search.censys.io/hosts/95.179.141.41
+* https://search.censys.io/hosts/95.179.182.147
 * https://search.censys.io/hosts/104.200.28.75
 * https://search.censys.io/hosts/104.237.145.83
 * https://search.censys.io/hosts/109.107.182.10
@@ -154,6 +164,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/138.68.181.13
 * https://search.censys.io/hosts/139.144.31.103
 * https://search.censys.io/hosts/139.144.61.197
+* https://search.censys.io/hosts/141.164.56.189
 * https://search.censys.io/hosts/154.61.75.156
 * https://search.censys.io/hosts/158.247.210.203
 * https://search.censys.io/hosts/162.55.162.160

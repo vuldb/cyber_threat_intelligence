@@ -8,8 +8,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Gh0stRAT:
 
-* [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
 * [VN](https://vuldb.com/?country.vn)
 * ...
 
@@ -114,45 +114,41 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `$HOME/.terminfo` | High
-2 | File | `/act/ActDao.xml` | High
-3 | File | `/admin.php?c=upload&f=zip&_noCache=0.1683794968` | High
-4 | File | `/admin/sql` | Medium
-5 | File | `/admin/user.php` | High
-6 | File | `/api/baskets/{name}` | High
-7 | File | `/api/v1/snapshots` | High
-8 | File | `/bin/login` | Medium
-9 | File | `/bin/mini_upnpd` | High
-10 | File | `/booking/show_bookings/` | High
-11 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
-12 | File | `/cgi/networkDiag.cgi` | High
-13 | File | `/concat?/%2557EB-INF/web.xml` | High
-14 | File | `/Controller/Ajaxfileupload.ashx` | High
-15 | File | `/dashboard/add-blog.php` | High
-16 | File | `/debug/pprof` | Medium
-17 | File | `/env` | Low
-18 | File | `/etc/passwd` | Medium
-19 | File | `/forum/away.php` | High
-20 | File | `/getcfg.php` | Medium
-21 | File | `/goform/net\_Web\_get_value` | High
-22 | File | `/GponForm/usb_restore_Form?script/` | High
-23 | File | `/group1/uploa` | High
-24 | File | `/h/autoSaveDraft` | High
-25 | File | `/h/search?action` | High
-26 | File | `/hss/admin/?page=products/view_product` | High
-27 | File | `/importexport.php` | High
-28 | File | `/index.php/sysmanage/Login/login_auth/` | High
-29 | File | `/index.php?app=main&func=passport&action=login` | High
-30 | File | `/mgmt/` | Low
-31 | File | `/net/sched/cls_fw.c` | High
+2 | File | `/admin.php?c=upload&f=zip&_noCache=0.1683794968` | High
+3 | File | `/admin/sql` | Medium
+4 | File | `/admin/user.php` | High
+5 | File | `/api/baskets/{name}` | High
+6 | File | `/api/v1/snapshots` | High
+7 | File | `/bin/login` | Medium
+8 | File | `/bin/mini_upnpd` | High
+9 | File | `/booking/show_bookings/` | High
+10 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
+11 | File | `/cgi/networkDiag.cgi` | High
+12 | File | `/concat?/%2557EB-INF/web.xml` | High
+13 | File | `/Controller/Ajaxfileupload.ashx` | High
+14 | File | `/dashboard/add-blog.php` | High
+15 | File | `/debug/pprof` | Medium
+16 | File | `/env` | Low
+17 | File | `/etc/passwd` | Medium
+18 | File | `/forum/away.php` | High
+19 | File | `/getcfg.php` | Medium
+20 | File | `/goform/net\_Web\_get_value` | High
+21 | File | `/GponForm/usb_restore_Form?script/` | High
+22 | File | `/group1/uploa` | High
+23 | File | `/h/autoSaveDraft` | High
+24 | File | `/h/search?action` | High
+25 | File | `/hss/admin/?page=products/view_product` | High
+26 | File | `/importexport.php` | High
+27 | File | `/index.php/sysmanage/Login/login_auth/` | High
+28 | File | `/index.php?app=main&func=passport&action=login` | High
+29 | File | `/mgmt/` | Low
+30 | File | `/net/sched/cls_fw.c` | High
+31 | File | `/oauth/idp/.well-known/openid-configuration` | High
 32 | File | `/plugin` | Low
 33 | File | `/preview.php` | Medium
-34 | File | `/protocol/iscgwtunnel/uploadiscgwrouteconf.php` | High
-35 | File | `/search.php` | Medium
-36 | File | `/secure/QueryComponent!Default.jspa` | High
-37 | File | `/secure/ViewCollectors` | High
-38 | ... | ... | ...
+34 | ... | ... | ...
 
-There are 327 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 290 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

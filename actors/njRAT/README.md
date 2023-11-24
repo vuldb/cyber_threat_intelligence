@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [NZ](https://vuldb.com/?country.nz)
 * ...
 
-There are 18 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -346,9 +346,10 @@ ID | IP address | Hostname | Campaign | Confidence
 323 | [43.229.151.135](https://vuldb.com/?ip.43.229.151.135) | - | - | High
 324 | [43.229.151.171](https://vuldb.com/?ip.43.229.151.171) | - | - | High
 325 | [43.229.151.191](https://vuldb.com/?ip.43.229.151.191) | - | - | High
-326 | ... | ... | ... | ...
+326 | [43.245.199.210](https://vuldb.com/?ip.43.245.199.210) | - | - | High
+327 | ... | ... | ... | ...
 
-There are 1301 more IOC items available. Please use our online service to access the data.
+There are 1303 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -356,14 +357,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-29, CWE-425 | Pathname Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -374,46 +375,41 @@ ID | Type | Indicator | Confidence
 1 | File | `%PROGRAMFILES(X86)%\TSplus\UserDesktop\themes.` | High
 2 | File | `/admin/add-category.php` | High
 3 | File | `/admin/maintenance/view_designation.php` | High
-4 | File | `/admin/orders/update_status.php` | High
-5 | File | `/admin/save.php` | High
-6 | File | `/api/baskets/{name}` | High
-7 | File | `/api/download` | High
-8 | File | `/api/v1/alerts` | High
-9 | File | `/api/v1/terminal/sessions/?limit=1` | High
-10 | File | `/billing/home.php` | High
-11 | File | `/category.php` | High
-12 | File | `/categorypage.php` | High
-13 | File | `/cgi-bin/luci/api/wireless` | High
+4 | File | `/admin/save.php` | High
+5 | File | `/admin/search-appointment.php` | High
+6 | File | `/admin/students/manage_academic.php` | High
+7 | File | `/api/baskets/{name}` | High
+8 | File | `/api/download` | High
+9 | File | `/api/v1/alerts` | High
+10 | File | `/api/v1/terminal/sessions/?limit=1` | High
+11 | File | `/billing/home.php` | High
+12 | File | `/category.php` | High
+13 | File | `/categorypage.php` | High
 14 | File | `/cgi-bin/vitogate.cgi` | High
-15 | File | `/cgi-bin/wapopen` | High
-16 | File | `/config/php.ini` | High
-17 | File | `/debug/pprof` | Medium
-18 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-19 | File | `/fcgi/scrut_fcgi.fcgi` | High
-20 | File | `/forum/away.php` | High
-21 | File | `/geoserver/gwc/rest.html` | High
-22 | File | `/HNAP1` | Low
-23 | File | `/home/cavesConsole` | High
-24 | File | `/home/masterConsole` | High
-25 | File | `/home/playerOperate` | High
-26 | File | `/importexport.php` | High
-27 | File | `/items/search` | High
-28 | File | `/jeecg-boot/sys/common/upload` | High
-29 | File | `/modules/projects/vw_files.php` | High
-30 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
-31 | File | `/param.file.tgz` | High
-32 | File | `/proxy` | Low
-33 | File | `/RPS2019Service/status.html` | High
-34 | File | `/scripts/unlock_tasks.php` | High
-35 | File | `/setting` | Medium
-36 | File | `/sicweb-ajax/tmproot/` | High
-37 | File | `/subsys/net/l2/wifi/wifi_shell.c` | High
-38 | File | `/sws/swsAlert.sws` | High
-39 | File | `/system/user/modules/mod_users/controller.php` | High
-40 | File | `/SystemManage/User/GetGridJson?_search=false&nd=1680855479750&rows=50&page=1&sidx=F_CreatorTime+desc&sord=asc` | High
-41 | ... | ... | ...
+15 | File | `/debug/pprof` | Medium
+16 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+17 | File | `/fcgi/scrut_fcgi.fcgi` | High
+18 | File | `/forum/away.php` | High
+19 | File | `/geoserver/gwc/rest.html` | High
+20 | File | `/HNAP1` | Low
+21 | File | `/home/cavesConsole` | High
+22 | File | `/home/masterConsole` | High
+23 | File | `/home/playerOperate` | High
+24 | File | `/importexport.php` | High
+25 | File | `/items/search` | High
+26 | File | `/modules/projects/vw_files.php` | High
+27 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
+28 | File | `/param.file.tgz` | High
+29 | File | `/proxy` | Low
+30 | File | `/RPS2019Service/status.html` | High
+31 | File | `/scripts/unlock_tasks.php` | High
+32 | File | `/setting` | Medium
+33 | File | `/sicweb-ajax/tmproot/` | High
+34 | File | `/spip.php` | Medium
+35 | File | `/sqlite3_aflpp/shell.c` | High
+36 | ... | ... | ...
 
-There are 354 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 307 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -453,6 +449,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://tria.ge/220515-scsthshdcp
 * https://tria.ge/220522-zyxg6abab8/
 * https://tria.ge/220808-nnvp2accf2
+* https://tria.ge/231112-vtn8rshc7w/behavioral2
 * https://twitter.com/500mk500/status/1488945561176879106
 * https://twitter.com/500mk500/status/1582811443887382528
 * https://twitter.com/ScumBots/status/1648885910686015488

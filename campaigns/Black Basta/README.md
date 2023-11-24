@@ -107,34 +107,34 @@ ID | Type | Indicator | Confidence
 34 | File | `/secure/QueryComponent!Default.jspa` | High
 35 | File | `/sendrcpackage?keyid=-2544&keysymbol=-4081` | High
 36 | File | `/system?action=ServiceAdmin` | High
-37 | File | `/var/WEB-GUI/cgi-bin/downloadfile.cgi` | High
-38 | File | `/vicidial/user_stats.php` | High
-39 | File | `/vm/admin/doctors.php` | High
-40 | File | `/websocket/exec` | High
-41 | File | `access.conf` | Medium
-42 | File | `action.php` | Medium
-43 | File | `adclick.php` | Medium
-44 | File | `addsuppliers.php` | High
-45 | File | `admin.php` | Medium
-46 | File | `admin.remository.php` | High
-47 | File | `admin/admin_users.php` | High
-48 | File | `admin/login.php` | High
-49 | File | `administers` | Medium
-50 | File | `Administrator_list.php` | High
-51 | File | `advancedsetup_websiteblocking.html` | High
-52 | File | `affich.php` | Medium
-53 | File | `ajax_mail_autoreply.php` | High
-54 | File | `ajax_save_name.php` | High
-55 | File | `album_portal.php` | High
-56 | File | `allocator.cc` | Medium
-57 | File | `announcements.php` | High
-58 | File | `ap1.com` | Low
-59 | File | `apache2/modsecurity.c` | High
-60 | File | `api_jsonrpc.php` | High
-61 | File | `app/admin/controller/Ajax.php` | High
+37 | File | `/SystemMng.ashx` | High
+38 | File | `/var/WEB-GUI/cgi-bin/downloadfile.cgi` | High
+39 | File | `/vicidial/user_stats.php` | High
+40 | File | `/vm/admin/doctors.php` | High
+41 | File | `/websocket/exec` | High
+42 | File | `access.conf` | Medium
+43 | File | `action.php` | Medium
+44 | File | `adclick.php` | Medium
+45 | File | `addsuppliers.php` | High
+46 | File | `admin.php` | Medium
+47 | File | `admin.remository.php` | High
+48 | File | `admin/admin_users.php` | High
+49 | File | `admin/login.php` | High
+50 | File | `administers` | Medium
+51 | File | `Administrator_list.php` | High
+52 | File | `advancedsetup_websiteblocking.html` | High
+53 | File | `affich.php` | Medium
+54 | File | `ajax_mail_autoreply.php` | High
+55 | File | `ajax_save_name.php` | High
+56 | File | `album_portal.php` | High
+57 | File | `allocator.cc` | Medium
+58 | File | `announcements.php` | High
+59 | File | `ap1.com` | Low
+60 | File | `apache2/modsecurity.c` | High
+61 | File | `api_jsonrpc.php` | High
 62 | ... | ... | ...
 
-There are 545 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 546 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

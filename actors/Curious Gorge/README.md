@@ -51,12 +51,12 @@ ID | Type | Indicator | Confidence
 2 | File | `/classes/Master.php` | High
 3 | File | `/classes/Master.php?f=delete_service` | High
 4 | File | `/etc/postfix/sender_login` | High
-5 | File | `/filemanager/ajax_calls.php` | High
-6 | File | `/Items/*/RemoteImages/Download` | High
-7 | File | `/restapi/v1/certificates/FFM-SSLInspect` | High
+5 | File | `/file/upload/1` | High
+6 | File | `/filemanager/ajax_calls.php` | High
+7 | File | `/Items/*/RemoteImages/Download` | High
 8 | ... | ... | ...
 
-There are 59 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 60 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -128,18 +128,18 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/admin.php?c=upload&f=zip&_noCache=0.1683794968` | High
-3 | File | `/admin/categories/manage_category.php` | High
-4 | File | `/admin/edit_product.php` | High
-5 | File | `/admin/sales/manage_sale.php` | High
-6 | File | `/admin/user.php` | High
-7 | File | `/api/baskets/{name}` | High
-8 | File | `/api/v1/snapshots` | High
-9 | File | `/bin/ate` | Medium
-10 | File | `/blog` | Low
-11 | File | `/booking/show_bookings/` | High
-12 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
+1 | File | `$HOME/.terminfo` | High
+2 | File | `/+CSCOE+/logon.html` | High
+3 | File | `/admin.php?c=upload&f=zip&_noCache=0.1683794968` | High
+4 | File | `/admin/categories/manage_category.php` | High
+5 | File | `/admin/edit_product.php` | High
+6 | File | `/admin/sales/manage_sale.php` | High
+7 | File | `/admin/sql` | Medium
+8 | File | `/admin/user.php` | High
+9 | File | `/api/baskets/{name}` | High
+10 | File | `/api/v1/snapshots` | High
+11 | File | `/blog` | Low
+12 | File | `/booking/show_bookings/` | High
 13 | File | `/cgi-bin/koha/catalogue/search.pl` | High
 14 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
 15 | File | `/cgi-bin/upload_vpntar` | High
@@ -152,19 +152,18 @@ ID | Type | Indicator | Confidence
 22 | File | `/etc/passwd` | Medium
 23 | File | `/forum/away.php` | High
 24 | File | `/getcfg.php` | Medium
-25 | File | `/ghost/preview` | High
-26 | File | `/goform/AdvSetLanip` | High
-27 | File | `/goform/Diagnosis` | High
-28 | File | `/goform/fromSetWirelessRepeat` | High
-29 | File | `/goform/setmac` | High
-30 | File | `/goform/setMacFilterCfg` | High
-31 | File | `/goform/SetSysTimeCfg` | High
-32 | File | `/goform/WifiGuestSet` | High
-33 | File | `/group1/uploa` | High
-34 | File | `/home/search` | Medium
-35 | ... | ... | ...
+25 | File | `/goform/Diagnosis` | High
+26 | File | `/group1/uploa` | High
+27 | File | `/home/search` | Medium
+28 | File | `/index.php/sysmanage/Login/login_auth/` | High
+29 | File | `/leaves/validate` | High
+30 | File | `/mail.php` | Medium
+31 | File | `/oauth/idp/.well-known/openid-configuration` | High
+32 | File | `/out.php` | Medium
+33 | File | `/php-spms/admin/?page=user/` | High
+34 | ... | ... | ...
 
-There are 295 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 291 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

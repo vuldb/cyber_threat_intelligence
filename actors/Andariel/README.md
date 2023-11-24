@@ -66,9 +66,10 @@ ID | Type | Indicator | Confidence
 16 | File | `/upload` | Low
 17 | File | `/var/log/nginx` | High
 18 | File | `/wp-json` | Medium
-19 | ... | ... | ...
+19 | File | `adclick.php` | Medium
+20 | ... | ... | ...
 
-There are 160 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 162 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

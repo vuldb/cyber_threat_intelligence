@@ -113,7 +113,7 @@ ID | Type | Indicator | Confidence
 51 | File | `/kelasdosen/data` | High
 52 | ... | ... | ...
 
-There are 451 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 453 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

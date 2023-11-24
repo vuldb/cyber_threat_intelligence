@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 12 more country items available. Please use our online service to access the data.
+There are 13 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -52,22 +52,23 @@ ID | IP address | Hostname | Campaign | Confidence
 29 | [34.171.171.32](https://vuldb.com/?ip.34.171.171.32) | 32.171.171.34.bc.googleusercontent.com | - | Medium
 30 | [35.198.166.27](https://vuldb.com/?ip.35.198.166.27) | 27.166.198.35.bc.googleusercontent.com | - | Medium
 31 | [37.1.214.251](https://vuldb.com/?ip.37.1.214.251) | - | - | High
-32 | [45.11.57.142](https://vuldb.com/?ip.45.11.57.142) | dedicated.vsys.host | - | High
-33 | [45.15.156.48](https://vuldb.com/?ip.45.15.156.48) | - | - | High
-34 | [45.15.156.213](https://vuldb.com/?ip.45.15.156.213) | - | - | High
-35 | [45.15.159.230](https://vuldb.com/?ip.45.15.159.230) | nl-gateway.aeza.network | - | High
-36 | [45.32.132.182](https://vuldb.com/?ip.45.32.132.182) | 45.32.132.182.vultrusercontent.com | - | High
-37 | [45.32.181.136](https://vuldb.com/?ip.45.32.181.136) | 45.32.181.136.vultrusercontent.com | - | High
-38 | [45.66.249.84](https://vuldb.com/?ip.45.66.249.84) | 7g6Ve.monticelloedc.org | - | High
-39 | [45.77.101.240](https://vuldb.com/?ip.45.77.101.240) | 45.77.101.240.vultrusercontent.com | - | High
-40 | [45.77.115.67](https://vuldb.com/?ip.45.77.115.67) | 45.77.115.67.vultrusercontent.com | - | High
-41 | [45.79.237.92](https://vuldb.com/?ip.45.79.237.92) | 45-79-237-92.ip.linodeusercontent.com | - | High
-42 | [45.81.225.72](https://vuldb.com/?ip.45.81.225.72) | vm3618662.24ssd.had.wf | - | High
-43 | [45.86.162.219](https://vuldb.com/?ip.45.86.162.219) | west219.reel.gen.tr | - | High
-44 | [45.89.125.136](https://vuldb.com/?ip.45.89.125.136) | mail.marlon.world | - | High
-45 | ... | ... | ... | ...
+32 | [37.220.86.73](https://vuldb.com/?ip.37.220.86.73) | lp-cx21.ip-ptr.tech | - | High
+33 | [45.11.57.142](https://vuldb.com/?ip.45.11.57.142) | dedicated.vsys.host | - | High
+34 | [45.15.156.48](https://vuldb.com/?ip.45.15.156.48) | - | - | High
+35 | [45.15.156.213](https://vuldb.com/?ip.45.15.156.213) | - | - | High
+36 | [45.15.159.230](https://vuldb.com/?ip.45.15.159.230) | nl-gateway.aeza.network | - | High
+37 | [45.32.132.182](https://vuldb.com/?ip.45.32.132.182) | 45.32.132.182.vultrusercontent.com | - | High
+38 | [45.32.181.136](https://vuldb.com/?ip.45.32.181.136) | 45.32.181.136.vultrusercontent.com | - | High
+39 | [45.66.249.84](https://vuldb.com/?ip.45.66.249.84) | 7g6Ve.monticelloedc.org | - | High
+40 | [45.77.101.240](https://vuldb.com/?ip.45.77.101.240) | 45.77.101.240.vultrusercontent.com | - | High
+41 | [45.77.115.67](https://vuldb.com/?ip.45.77.115.67) | 45.77.115.67.vultrusercontent.com | - | High
+42 | [45.79.237.92](https://vuldb.com/?ip.45.79.237.92) | 45-79-237-92.ip.linodeusercontent.com | - | High
+43 | [45.81.225.72](https://vuldb.com/?ip.45.81.225.72) | vm3618662.24ssd.had.wf | - | High
+44 | [45.86.162.219](https://vuldb.com/?ip.45.86.162.219) | west219.reel.gen.tr | - | High
+45 | [45.89.125.136](https://vuldb.com/?ip.45.89.125.136) | mail.marlon.world | - | High
+46 | ... | ... | ... | ...
 
-There are 178 more IOC items available. Please use our online service to access the data.
+There are 179 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -121,17 +122,18 @@ ID | Type | Indicator | Confidence
 29 | File | `/index.asp` | Medium
 30 | File | `/index.php` | Medium
 31 | File | `/index.php?app=main&func=passport&action=login` | High
-32 | File | `/jfinal_cms/system/role/list` | High
-33 | File | `/kelas/data` | Medium
+32 | File | `/kelas/data` | Medium
+33 | File | `/listplace/user/ticket/create` | High
 34 | File | `/login/index.php` | High
 35 | File | `/Moosikay/order.php` | High
 36 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
 37 | File | `/php-sms/admin/quotes/manage_remark.php` | High
 38 | File | `/project/PROJECTNAME/reports/` | High
 39 | File | `/scripts/unlock_tasks.php` | High
-40 | ... | ... | ...
+40 | File | `/secure/QueryComponent!Default.jspa` | High
+41 | ... | ... | ...
 
-There are 346 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 353 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

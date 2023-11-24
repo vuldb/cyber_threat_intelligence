@@ -85,7 +85,7 @@ ID | IP address | Hostname | Campaign | Confidence
 67 | [66.188.233.100](https://vuldb.com/?ip.66.188.233.100) | 066-188-233-100.res.spectrum.com | - | High
 68 | ... | ... | ... | ...
 
-There are 267 more IOC items available. Please use our online service to access the data.
+There are 270 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -93,14 +93,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-35 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+5 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -108,44 +108,44 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/academy/tutor/filter` | High
-2 | File | `/admin/admin-profile.php` | High
-3 | File | `/admin/ajax.php?action=confirm_order` | High
-4 | File | `/admin/index2.html` | High
-5 | File | `/admin/sales/view_details.php` | High
-6 | File | `/api/baskets/{name}` | High
-7 | File | `/api/cron/settings/setJob/` | High
-8 | File | `/api/v1/snapshots` | High
-9 | File | `/aqpg/users/login.php` | High
-10 | File | `/assets/something/services/AppModule.class` | High
-11 | File | `/audit/log/log_management.php` | High
-12 | File | `/cgi-bin/mainfunction.cgi` | High
-13 | File | `/cgi-bin/wlogin.cgi` | High
-14 | File | `/classes/Users.php` | High
-15 | File | `/ctcprotocol/Protocol` | High
-16 | File | `/dottie.js` | Medium
-17 | File | `/DXR.axd` | Medium
-18 | File | `/env` | Low
-19 | File | `/forms/doLogin` | High
-20 | File | `/forum/away.php` | High
-21 | File | `/hrm/controller/employee.php` | High
-22 | File | `/hrm/employeeview.php` | High
-23 | File | `/importexport.php` | High
-24 | File | `/index.php` | Medium
-25 | File | `/index.php?p=admin/actions/users/send-password-reset-email` | High
-26 | File | `/jurusanmatkul/data` | High
-27 | File | `/librarian/bookdetails.php` | High
-28 | File | `/log/webmailattach.php` | High
-29 | File | `/login.php?do=login` | High
-30 | File | `/mc` | Low
-31 | File | `/modules/projects/vw_files.php` | High
-32 | File | `/php-opos/index.php` | High
-33 | File | `/plain` | Low
-34 | File | `/project/tasks/list` | High
-35 | File | `/public/login.htm` | High
+1 | File | `/?ajax-request=jnews` | High
+2 | File | `/academy/tutor/filter` | High
+3 | File | `/admin/admin-profile.php` | High
+4 | File | `/admin/ajax.php?action=confirm_order` | High
+5 | File | `/admin/index2.html` | High
+6 | File | `/admin/sales/view_details.php` | High
+7 | File | `/api/addusers` | High
+8 | File | `/api/baskets/{name}` | High
+9 | File | `/api/cron/settings/setJob/` | High
+10 | File | `/api/v1/snapshots` | High
+11 | File | `/api/v1/terminal/sessions/?limit=1` | High
+12 | File | `/aqpg/users/login.php` | High
+13 | File | `/assets/something/services/AppModule.class` | High
+14 | File | `/audit/log/log_management.php` | High
+15 | File | `/authenticationendpoint/login.do` | High
+16 | File | `/blog/comment` | High
+17 | File | `/cgi-bin/mainfunction.cgi` | High
+18 | File | `/cgi-bin/wlogin.cgi` | High
+19 | File | `/classes/Users.php` | High
+20 | File | `/debug/pprof` | Medium
+21 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
+22 | File | `/dottie.js` | Medium
+23 | File | `/DXR.axd` | Medium
+24 | File | `/env` | Low
+25 | File | `/forms/doLogin` | High
+26 | File | `/forum/away.php` | High
+27 | File | `/hrm/controller/employee.php` | High
+28 | File | `/hrm/employeeview.php` | High
+29 | File | `/index.php` | Medium
+30 | File | `/index.php?p=admin/actions/users/send-password-reset-email` | High
+31 | File | `/librarian/bookdetails.php` | High
+32 | File | `/log/webmailattach.php` | High
+33 | File | `/login` | Low
+34 | File | `/mc` | Low
+35 | File | `/modules/projects/vw_files.php` | High
 36 | ... | ... | ...
 
-There are 305 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 312 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -172,6 +172,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/2021/05/threat-roundup-0507-0514.html
 * https://blog.talosintelligence.com/2021/05/threat-roundup-0521-0528.html
 * https://blog.talosintelligence.com/2021/07/threat-roundup-0723-0730.html
+* https://threatfox.abuse.ch
 
 ## Literature
 

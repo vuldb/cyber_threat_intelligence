@@ -129,7 +129,7 @@ ID | Type | Indicator | Confidence
 58 | File | `/wp/?cpmvc_id=1&cpmvc_do_action=mvparse&f=datafeed&calid=1&month_index=1&method=adddetails&id=2` | High
 59 | ... | ... | ...
 
-There are 513 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 515 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

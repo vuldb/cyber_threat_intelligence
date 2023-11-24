@@ -174,9 +174,11 @@ ID | IP address | Hostname | Campaign | Confidence
 151 | [45.144.29.99](https://vuldb.com/?ip.45.144.29.99) | vm467374.stark-industries.solutions | - | High
 152 | [45.144.179.23](https://vuldb.com/?ip.45.144.179.23) | zhaibingyeshishabi.xyz | - | High
 153 | [45.145.226.64](https://vuldb.com/?ip.45.145.226.64) | - | - | High
-154 | ... | ... | ... | ...
+154 | [45.148.10.76](https://vuldb.com/?ip.45.148.10.76) | - | - | High
+155 | [45.148.10.243](https://vuldb.com/?ip.45.148.10.243) | - | - | High
+156 | ... | ... | ... | ...
 
-There are 613 more IOC items available. Please use our online service to access the data.
+There are 619 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -185,7 +187,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-35 | Pathname Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
@@ -207,45 +209,46 @@ ID | Type | Indicator | Confidence
 5 | File | `/admin/user/manage_user.php` | High
 6 | File | `/admin/userprofile.php` | High
 7 | File | `/ajax.php?action=read_msg` | High
-8 | File | `/api/` | Low
-9 | File | `/api/admin/store/product/list` | High
-10 | File | `/api/baskets/{name}` | High
-11 | File | `/api/gen/clients/{language}` | High
-12 | File | `/api/stl/actions/search` | High
-13 | File | `/api/sys/login` | High
-14 | File | `/api/sys/set_passwd` | High
-15 | File | `/api/v2/cli/commands` | High
-16 | File | `/bin/ate` | Medium
-17 | File | `/bitrix/admin/ldap_server_edit.php` | High
-18 | File | `/booking/show_bookings/` | High
-19 | File | `/cgi-bin` | Medium
-20 | File | `/cgi-bin/wlogin.cgi` | High
-21 | File | `/changePassword` | High
-22 | File | `/College/admin/teacher.php` | High
-23 | File | `/Content/Template/root/reverse-shell.aspx` | High
-24 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
-25 | File | `/dashboard/add-blog.php` | High
-26 | File | `/dcim/rack-roles/` | High
-27 | File | `/debug/pprof` | Medium
-28 | File | `/ecshop/admin/template.php` | High
-29 | File | `/env` | Low
-30 | File | `/forum/away.php` | High
-31 | File | `/goform/aspForm` | High
-32 | File | `/goform/net\_Web\_get_value` | High
-33 | File | `/GponForm/usb_restore_Form?script/` | High
-34 | File | `/group1/uploa` | High
-35 | File | `/HNAP1` | Low
-36 | File | `/home/cavesConsole` | High
-37 | File | `/inc/parser/xhtml.php` | High
-38 | File | `/inc/topBarNav.php` | High
-39 | File | `/index.php` | Medium
-40 | File | `/index.php?app=main&func=passport&action=login` | High
-41 | File | `/kelas/data` | Medium
-42 | File | `/mhds/clinic/view_details.php` | High
-43 | File | `/modules/profile/index.php` | High
-44 | ... | ... | ...
+8 | File | `/api/baskets/{name}` | High
+9 | File | `/api/gen/clients/{language}` | High
+10 | File | `/api/stl/actions/search` | High
+11 | File | `/api/sys/login` | High
+12 | File | `/api/sys/set_passwd` | High
+13 | File | `/api/v2/cli/commands` | High
+14 | File | `/bin/ate` | Medium
+15 | File | `/bitrix/admin/ldap_server_edit.php` | High
+16 | File | `/booking/show_bookings/` | High
+17 | File | `/cgi-bin` | Medium
+18 | File | `/cgi-bin/wlogin.cgi` | High
+19 | File | `/changePassword` | High
+20 | File | `/College/admin/teacher.php` | High
+21 | File | `/Content/Template/root/reverse-shell.aspx` | High
+22 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
+23 | File | `/dashboard/add-blog.php` | High
+24 | File | `/dcim/rack-roles/` | High
+25 | File | `/debug/pprof` | Medium
+26 | File | `/ecshop/admin/template.php` | High
+27 | File | `/env` | Low
+28 | File | `/forum/away.php` | High
+29 | File | `/goform/aspForm` | High
+30 | File | `/goform/net\_Web\_get_value` | High
+31 | File | `/GponForm/usb_restore_Form?script/` | High
+32 | File | `/group1/uploa` | High
+33 | File | `/HNAP1` | Low
+34 | File | `/home/cavesConsole` | High
+35 | File | `/inc/parser/xhtml.php` | High
+36 | File | `/inc/topBarNav.php` | High
+37 | File | `/index.php` | Medium
+38 | File | `/index.php?app=main&func=passport&action=login` | High
+39 | File | `/kelas/data` | Medium
+40 | File | `/listplace/user/ticket/create` | High
+41 | File | `/mhds/clinic/view_details.php` | High
+42 | File | `/modules/profile/index.php` | High
+43 | File | `/php-sms/admin/?page=user/manage_user` | High
+44 | File | `/plugin` | Low
+45 | ... | ... | ...
 
-There are 383 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 389 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -777,9 +780,12 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.trendmicro.co.jp/archives/20879
 * https://blog.trendmicro.co.jp/archives/22211
 * https://search.censys.io/hosts/66.175.213.12
+* https://search.censys.io/hosts/69.197.142.158
+* https://search.censys.io/hosts/91.92.240.152
 * https://search.censys.io/hosts/152.104.161.36
 * https://search.censys.io/hosts/159.203.71.125
 * https://search.censys.io/hosts/185.196.9.51
+* https://search.censys.io/hosts/185.196.9.57
 * https://search.censys.io/hosts/203.148.17.67
 * https://threatfox.abuse.ch
 * https://twitter.com/r3dbU7z/status/1704222237572649048

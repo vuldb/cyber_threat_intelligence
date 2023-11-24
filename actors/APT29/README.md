@@ -24,7 +24,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [LA](https://vuldb.com/?country.la)
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -32,30 +32,32 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [5.45.66.134](https://vuldb.com/?ip.5.45.66.134) | - | - | High
-2 | [5.199.174.164](https://vuldb.com/?ip.5.199.174.164) | - | - | High
-3 | [23.29.115.180](https://vuldb.com/?ip.23.29.115.180) | 23-29-115-180.static.hvvc.us | StellarParticle | High
-4 | [23.82.128.144](https://vuldb.com/?ip.23.82.128.144) | - | StellarParticle | High
-5 | [27.102.130.115](https://vuldb.com/?ip.27.102.130.115) | - | - | High
-6 | [31.7.63.141](https://vuldb.com/?ip.31.7.63.141) | game.bignamegamereviewz.com | - | High
-7 | [31.31.74.79](https://vuldb.com/?ip.31.31.74.79) | - | Cobalt Strike | High
-8 | [31.170.107.186](https://vuldb.com/?ip.31.170.107.186) | ohra.supplrald.com | - | High
-9 | [45.120.156.69](https://vuldb.com/?ip.45.120.156.69) | - | - | High
-10 | [45.123.190.167](https://vuldb.com/?ip.45.123.190.167) | - | COVID-19 | High
-11 | [45.123.190.168](https://vuldb.com/?ip.45.123.190.168) | - | - | High
-12 | [45.129.229.48](https://vuldb.com/?ip.45.129.229.48) | - | COVID-19 | High
-13 | [45.152.84.57](https://vuldb.com/?ip.45.152.84.57) | - | - | High
-14 | [46.19.143.69](https://vuldb.com/?ip.46.19.143.69) | - | - | High
-15 | [46.246.120.178](https://vuldb.com/?ip.46.246.120.178) | - | - | High
-16 | [50.7.192.146](https://vuldb.com/?ip.50.7.192.146) | - | - | High
-17 | [64.18.143.66](https://vuldb.com/?ip.64.18.143.66) | - | - | High
-18 | [65.15.88.243](https://vuldb.com/?ip.65.15.88.243) | adsl-065-015-088-243.sip.asm.bellsouth.net | PowerDuke | High
-19 | [66.29.115.55](https://vuldb.com/?ip.66.29.115.55) | 647807.ds.nac.net | - | High
-20 | [66.70.247.215](https://vuldb.com/?ip.66.70.247.215) | ip215.ip-66-70-247.net | - | High
-21 | [69.59.28.57](https://vuldb.com/?ip.69.59.28.57) | - | - | High
-22 | ... | ... | ... | ...
+1 | [3.64.163.50](https://vuldb.com/?ip.3.64.163.50) | ec2-3-64-163-50.eu-central-1.compute.amazonaws.com | - | Medium
+2 | [5.45.66.134](https://vuldb.com/?ip.5.45.66.134) | - | - | High
+3 | [5.199.174.164](https://vuldb.com/?ip.5.199.174.164) | - | - | High
+4 | [13.248.169.48](https://vuldb.com/?ip.13.248.169.48) | a904c694c05102f30.awsglobalaccelerator.com | - | High
+5 | [23.29.115.180](https://vuldb.com/?ip.23.29.115.180) | 23-29-115-180.static.hvvc.us | StellarParticle | High
+6 | [23.82.128.144](https://vuldb.com/?ip.23.82.128.144) | - | StellarParticle | High
+7 | [23.227.38.32](https://vuldb.com/?ip.23.227.38.32) | myshopify.com | - | High
+8 | [27.102.130.115](https://vuldb.com/?ip.27.102.130.115) | - | - | High
+9 | [31.7.63.141](https://vuldb.com/?ip.31.7.63.141) | game.bignamegamereviewz.com | - | High
+10 | [31.31.74.79](https://vuldb.com/?ip.31.31.74.79) | - | Cobalt Strike | High
+11 | [31.170.107.186](https://vuldb.com/?ip.31.170.107.186) | ohra.supplrald.com | - | High
+12 | [35.205.61.67](https://vuldb.com/?ip.35.205.61.67) | 67.61.205.35.bc.googleusercontent.com | - | Medium
+13 | [45.120.156.69](https://vuldb.com/?ip.45.120.156.69) | - | - | High
+14 | [45.123.190.167](https://vuldb.com/?ip.45.123.190.167) | - | COVID-19 | High
+15 | [45.123.190.168](https://vuldb.com/?ip.45.123.190.168) | - | - | High
+16 | [45.129.229.48](https://vuldb.com/?ip.45.129.229.48) | - | COVID-19 | High
+17 | [45.152.84.57](https://vuldb.com/?ip.45.152.84.57) | - | - | High
+18 | [46.19.143.69](https://vuldb.com/?ip.46.19.143.69) | - | - | High
+19 | [46.246.120.178](https://vuldb.com/?ip.46.246.120.178) | - | - | High
+20 | [50.7.192.146](https://vuldb.com/?ip.50.7.192.146) | - | - | High
+21 | [64.18.143.66](https://vuldb.com/?ip.64.18.143.66) | - | - | High
+22 | [64.91.249.20](https://vuldb.com/?ip.64.91.249.20) | tiger.parklogic.com | - | High
+23 | [65.15.88.243](https://vuldb.com/?ip.65.15.88.243) | adsl-065-015-088-243.sip.asm.bellsouth.net | PowerDuke | High
+24 | ... | ... | ... | ...
 
-There are 85 more IOC items available. Please use our online service to access the data.
+There are 92 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -112,24 +114,25 @@ ID | Type | Indicator | Confidence
 32 | File | `/env` | Low
 33 | File | `/etc/hosts` | Medium
 34 | File | `/forum/away.php` | High
-35 | File | `/goform/wizard_end` | High
-36 | File | `/group1/uploa` | High
-37 | File | `/h/` | Low
-38 | File | `/medicines/profile.php` | High
-39 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-40 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-41 | File | `/owa/auth/logon.aspx` | High
-42 | File | `/php-sms/admin/?page=user/manage_user` | High
-43 | File | `/project/PROJECTNAME/reports/` | High
+35 | File | `/group1/uploa` | High
+36 | File | `/h/` | Low
+37 | File | `/medicines/profile.php` | High
+38 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+39 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+40 | File | `/owa/auth/logon.aspx` | High
+41 | File | `/php-sms/admin/?page=user/manage_user` | High
+42 | File | `/project/PROJECTNAME/reports/` | High
+43 | File | `/proxy` | Low
 44 | ... | ... | ...
 
-There are 378 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 382 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://blog-assets.f-secure.com/wp-content/uploads/2020/03/18122307/F-Secure_Dukes_Whitepaper.pdf
+* https://circleid.com/posts/20231114-apt29-goes-from-targeted-attacks-to-phishing-via-nobelium-a-dns-deep-dive
 * https://github.com/blackorbird/APT_REPORT/blob/master/International%20Strategic/Russia/Advisory-APT29-targets-COVID-19-vaccine-development.pdf
 * https://unit42.paloaltonetworks.com/cloaked-ursa-online-storage-services-campaigns/
 * https://us-cert.cisa.gov/ncas/alerts/aa21-148a

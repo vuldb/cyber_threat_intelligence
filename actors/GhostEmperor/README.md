@@ -48,16 +48,17 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin/comment.php` | High
 3 | File | `/admin/index.php` | High
 4 | File | `/api/v1/terminal/sessions/?limit=1` | High
-5 | File | `/etc/postfix/sender_login` | High
-6 | File | `/forum/away.php` | High
-7 | File | `/lists/index.php` | High
-8 | File | `/login.html` | Medium
-9 | File | `/new` | Low
-10 | File | `/system?action=ServiceAdmin` | High
-11 | File | `/tlogin.cgi` | Medium
-12 | ... | ... | ...
+5 | File | `/blog` | Low
+6 | File | `/cgi-bin/login.cgi` | High
+7 | File | `/etc/postfix/sender_login` | High
+8 | File | `/forum/away.php` | High
+9 | File | `/lists/index.php` | High
+10 | File | `/login.html` | Medium
+11 | File | `/new` | Low
+12 | File | `/system?action=ServiceAdmin` | High
+13 | ... | ... | ...
 
-There are 95 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 101 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

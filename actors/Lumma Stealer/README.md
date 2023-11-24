@@ -27,9 +27,10 @@ ID | IP address | Hostname | Campaign | Confidence
 4 | [45.8.146.213](https://vuldb.com/?ip.45.8.146.213) | vm1266137.stark-industries.solutions | - | High
 5 | [45.8.146.227](https://vuldb.com/?ip.45.8.146.227) | vm1266137.stark-industries.solutions | - | High
 6 | [45.15.25.190](https://vuldb.com/?ip.45.15.25.190) | - | - | High
-7 | ... | ... | ... | ...
+7 | [77.73.134.68](https://vuldb.com/?ip.77.73.134.68) | - | - | High
+8 | ... | ... | ... | ...
 
-There are 26 more IOC items available. Please use our online service to access the data.
+There are 27 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 

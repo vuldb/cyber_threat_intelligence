@@ -142,14 +142,15 @@ ID | Type | Indicator | Confidence
 51 | File | `/kelas/data` | Medium
 52 | File | `/kelasdosen/data` | High
 53 | File | `/listplace/user/coverPhotoUpdate` | High
-54 | File | `/Moosikay/order.php` | High
-55 | File | `/osm/REGISTER.cmd` | High
-56 | File | `/out.php` | Medium
-57 | File | `/paysystem/datatable.php` | High
-58 | File | `/php-scrm/login.php` | High
-59 | ... | ... | ...
+54 | File | `/listplace/user/ticket/create` | High
+55 | File | `/Moosikay/order.php` | High
+56 | File | `/osm/REGISTER.cmd` | High
+57 | File | `/out.php` | Medium
+58 | File | `/paysystem/datatable.php` | High
+59 | File | `/php-scrm/login.php` | High
+60 | ... | ... | ...
 
-There are 518 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 520 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

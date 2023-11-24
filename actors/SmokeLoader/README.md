@@ -20,7 +20,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 12 more country items available. Please use our online service to access the data.
+There are 14 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -29,27 +29,28 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [5.9.224.217](https://vuldb.com/?ip.5.9.224.217) | static.217.224.9.5.clients.your-server.de | - | High
-2 | [5.101.0.32](https://vuldb.com/?ip.5.101.0.32) | - | - | High
-3 | [5.135.183.146](https://vuldb.com/?ip.5.135.183.146) | freya.stelas.de | Tsunami | High
-4 | [5.196.8.173](https://vuldb.com/?ip.5.196.8.173) | vps-b5645e9a.vps.ovh.net | - | High
-5 | [13.107.21.200](https://vuldb.com/?ip.13.107.21.200) | - | - | High
-6 | [20.45.1.107](https://vuldb.com/?ip.20.45.1.107) | - | - | High
-7 | [23.0.48.75](https://vuldb.com/?ip.23.0.48.75) | a23-0-48-75.deploy.static.akamaitechnologies.com | - | High
-8 | [23.0.209.167](https://vuldb.com/?ip.23.0.209.167) | a23-0-209-167.deploy.static.akamaitechnologies.com | - | High
-9 | [23.3.13.154](https://vuldb.com/?ip.23.3.13.154) | a23-3-13-154.deploy.static.akamaitechnologies.com | - | High
-10 | [23.6.69.99](https://vuldb.com/?ip.23.6.69.99) | a23-6-69-99.deploy.static.akamaitechnologies.com | - | High
-11 | [23.13.211.142](https://vuldb.com/?ip.23.13.211.142) | a23-13-211-142.deploy.static.akamaitechnologies.com | - | High
-12 | [23.20.239.12](https://vuldb.com/?ip.23.20.239.12) | ec2-23-20-239-12.compute-1.amazonaws.com | - | Medium
-13 | [23.66.61.153](https://vuldb.com/?ip.23.66.61.153) | a23-66-61-153.deploy.static.akamaitechnologies.com | - | High
-14 | [23.193.177.127](https://vuldb.com/?ip.23.193.177.127) | a23-193-177-127.deploy.static.akamaitechnologies.com | - | High
-15 | [23.218.40.161](https://vuldb.com/?ip.23.218.40.161) | a23-218-40-161.deploy.static.akamaitechnologies.com | - | High
-16 | [23.221.48.201](https://vuldb.com/?ip.23.221.48.201) | a23-221-48-201.deploy.static.akamaitechnologies.com | - | High
-17 | [27.102.67.144](https://vuldb.com/?ip.27.102.67.144) | - | - | High
-18 | [31.13.65.36](https://vuldb.com/?ip.31.13.65.36) | edge-star-mini-shv-01-atl3.facebook.com | - | High
-19 | [31.210.170.195](https://vuldb.com/?ip.31.210.170.195) | vps16632.hosted-by.eurohoster.online | - | High
-20 | ... | ... | ... | ...
+2 | [5.42.92.190](https://vuldb.com/?ip.5.42.92.190) | hosted-by.yeezyhost.net | - | High
+3 | [5.101.0.32](https://vuldb.com/?ip.5.101.0.32) | - | - | High
+4 | [5.135.183.146](https://vuldb.com/?ip.5.135.183.146) | freya.stelas.de | Tsunami | High
+5 | [5.196.8.173](https://vuldb.com/?ip.5.196.8.173) | vps-b5645e9a.vps.ovh.net | - | High
+6 | [13.107.21.200](https://vuldb.com/?ip.13.107.21.200) | - | - | High
+7 | [20.45.1.107](https://vuldb.com/?ip.20.45.1.107) | - | - | High
+8 | [23.0.48.75](https://vuldb.com/?ip.23.0.48.75) | a23-0-48-75.deploy.static.akamaitechnologies.com | - | High
+9 | [23.0.209.167](https://vuldb.com/?ip.23.0.209.167) | a23-0-209-167.deploy.static.akamaitechnologies.com | - | High
+10 | [23.3.13.154](https://vuldb.com/?ip.23.3.13.154) | a23-3-13-154.deploy.static.akamaitechnologies.com | - | High
+11 | [23.6.69.99](https://vuldb.com/?ip.23.6.69.99) | a23-6-69-99.deploy.static.akamaitechnologies.com | - | High
+12 | [23.13.211.142](https://vuldb.com/?ip.23.13.211.142) | a23-13-211-142.deploy.static.akamaitechnologies.com | - | High
+13 | [23.20.239.12](https://vuldb.com/?ip.23.20.239.12) | ec2-23-20-239-12.compute-1.amazonaws.com | - | Medium
+14 | [23.66.61.153](https://vuldb.com/?ip.23.66.61.153) | a23-66-61-153.deploy.static.akamaitechnologies.com | - | High
+15 | [23.193.177.127](https://vuldb.com/?ip.23.193.177.127) | a23-193-177-127.deploy.static.akamaitechnologies.com | - | High
+16 | [23.218.40.161](https://vuldb.com/?ip.23.218.40.161) | a23-218-40-161.deploy.static.akamaitechnologies.com | - | High
+17 | [23.221.48.201](https://vuldb.com/?ip.23.221.48.201) | a23-221-48-201.deploy.static.akamaitechnologies.com | - | High
+18 | [27.102.67.144](https://vuldb.com/?ip.27.102.67.144) | - | - | High
+19 | [31.13.65.36](https://vuldb.com/?ip.31.13.65.36) | edge-star-mini-shv-01-atl3.facebook.com | - | High
+20 | [31.210.170.195](https://vuldb.com/?ip.31.210.170.195) | vps16632.hosted-by.eurohoster.online | - | High
+21 | ... | ... | ... | ...
 
-There are 76 more IOC items available. Please use our online service to access the data.
+There are 78 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -83,59 +84,63 @@ ID | Type | Indicator | Confidence
 8 | File | `/admin/edit_review.php` | High
 9 | File | `/admin/order.php` | High
 10 | File | `/admin/profile/save_profile` | High
-11 | File | `/api/v2/labels/` | High
-12 | File | `/aux` | Low
-13 | File | `/cgi-bin/koha/acqui/supplier.pl?op=enter` | High
-14 | File | `/cgi-bin/luci` | High
-15 | File | `/config/getuser` | High
-16 | File | `/debug/pprof` | Medium
-17 | File | `/dl/dl_print.php` | High
-18 | File | `/etc/gsissh/sshd_config` | High
-19 | File | `/film-rating.php` | High
-20 | File | `/forum/away.php` | High
-21 | File | `/gateway/services/EdgeServiceImpl` | High
-22 | File | `/getcfg.php` | Medium
-23 | File | `/goform/dir_setWanWifi` | High
-24 | File | `/goform/setmac` | High
-25 | File | `/goform/telnet` | High
-26 | File | `/goform/WanParameterSetting` | High
-27 | File | `/inc/extensions.php` | High
-28 | File | `/include/makecvs.php` | High
-29 | File | `/index.php` | Medium
-30 | File | `/info.xml` | Medium
-31 | File | `/js/app.js` | Medium
-32 | File | `/librarian/bookdetails.php` | High
-33 | File | `/mgmt/tm/util/bash` | High
-34 | File | `/MIME/INBOX-MM-1/` | High
-35 | File | `/monitoring` | Medium
-36 | File | `/ofcms/company-c-47` | High
-37 | File | `/opac/Actions.php?a=login` | High
-38 | File | `/opt/pia/ruby/64/ruby` | High
-39 | File | `/Pwrchute` | Medium
-40 | File | `/ServletAPI/accounts/login` | High
-41 | File | `/spip.php` | Medium
-42 | File | `/src/Illuminate/Laravel.php` | High
-43 | File | `/student/bookdetails.php` | High
-44 | File | `/usr/sbin/httpd` | High
-45 | File | `/util/print.c` | High
-46 | File | `/var/hnap/timestamp` | High
+11 | File | `/api/admin/store/product/list` | High
+12 | File | `/api/v2/labels/` | High
+13 | File | `/aux` | Low
+14 | File | `/cgi-bin/koha/acqui/supplier.pl?op=enter` | High
+15 | File | `/cgi-bin/luci` | High
+16 | File | `/config/getuser` | High
+17 | File | `/debug/pprof` | Medium
+18 | File | `/dl/dl_print.php` | High
+19 | File | `/etc/gsissh/sshd_config` | High
+20 | File | `/film-rating.php` | High
+21 | File | `/forum/away.php` | High
+22 | File | `/gateway/services/EdgeServiceImpl` | High
+23 | File | `/getcfg.php` | Medium
+24 | File | `/goform/dir_setWanWifi` | High
+25 | File | `/goform/setmac` | High
+26 | File | `/goform/telnet` | High
+27 | File | `/goform/WanParameterSetting` | High
+28 | File | `/inc/extensions.php` | High
+29 | File | `/include/makecvs.php` | High
+30 | File | `/index.php` | Medium
+31 | File | `/info.xml` | Medium
+32 | File | `/js/app.js` | Medium
+33 | File | `/librarian/bookdetails.php` | High
+34 | File | `/mgmt/tm/util/bash` | High
+35 | File | `/MIME/INBOX-MM-1/` | High
+36 | File | `/monitoring` | Medium
+37 | File | `/ofcms/company-c-47` | High
+38 | File | `/opac/Actions.php?a=login` | High
+39 | File | `/opt/pia/ruby/64/ruby` | High
+40 | File | `/Pwrchute` | Medium
+41 | File | `/ServletAPI/accounts/login` | High
+42 | File | `/spip.php` | Medium
+43 | File | `/src/Illuminate/Laravel.php` | High
+44 | File | `/student/bookdetails.php` | High
+45 | File | `/usr/sbin/httpd` | High
+46 | File | `/util/print.c` | High
 47 | File | `/vloggers_merch/admin/?page=product/manage_product` | High
 48 | File | `/web/MCmsAction.java` | High
 49 | File | `/wp-content/plugins/forum-server/feed.php` | High
-50 | File | `account.asp` | Medium
-51 | File | `accounts/payment_history.php` | High
-52 | File | `adclick.php` | Medium
-53 | ... | ... | ...
+50 | File | `about.php` | Medium
+51 | File | `account.asp` | Medium
+52 | File | `accounts/payment_history.php` | High
+53 | File | `adclick.php` | Medium
+54 | ... | ... | ...
 
-There are 460 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 471 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://bazaar.abuse.ch/sample/0cbee59f9e035659029cc87768c25903a603582a0d247460dcbbf6bf497311c4/
+* https://bazaar.abuse.ch/sample/3ab01b2ae713f3f64d98e50cc72e066329b78751621d91b01f4b1736b69163fa/
 * https://bazaar.abuse.ch/sample/5bbe4ff9dc3e2fb44d356785216d39faa2ea386b1a5227798aea9c2d18b8b3fa/
 * https://bazaar.abuse.ch/sample/5e30a88fb1c9a45bd6697990493098ca05e87b2560172ae89e9811ea887ff8b4/#intel
+* https://bazaar.abuse.ch/sample/83b5b5e0e33939cd18fbb34cb15e39647d93aeeb878df52a324f73f357749811/
+* https://bazaar.abuse.ch/sample/ea8ecda6aaf0a6560b614a46a33112caf8ab6404be64ced23fa202737ddbacbf/
 * https://blog.talosintelligence.com/2020/01/threat-roundup-0124-0131.html
 * https://blog.talosintelligence.com/2021/07/threat-roundup-0716-0723.html
 * https://community.blueliv.com/#!/s/6333fa0182df417ed0331a1d

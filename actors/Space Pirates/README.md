@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [JP](https://vuldb.com/?country.jp)
 * ...
 
-There are 2 more country items available. Please use our online service to access the data.
+There are 3 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -56,10 +56,11 @@ ID | Type | Indicator | Confidence
 6 | File | `/rom` | Low
 7 | File | `/srv/www/htdocs` | High
 8 | File | `aa/../../uploads/blog/201811/attach_#.jpg` | High
-9 | File | `admin/killsource` | High
-10 | ... | ... | ...
+9 | File | `abook_database.php` | High
+10 | File | `admin/killsource` | High
+11 | ... | ... | ...
 
-There are 75 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 81 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

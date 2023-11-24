@@ -106,24 +106,24 @@ ID | Type | Indicator | Confidence
 20 | File | `/one_church/userregister.php` | High
 21 | File | `/out.php` | Medium
 22 | File | `/owa/auth/logon.aspx` | High
-23 | File | `/public/plugins/` | High
-24 | File | `/rest/api/latest/projectvalidate/key` | High
-25 | File | `/SAP_Information_System/controllers/add_admin.php` | High
-26 | File | `/SASWebReportStudio/logonAndRender.do` | High
-27 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-28 | File | `/secure/admin/ViewInstrumentation.jspa` | High
-29 | File | `/SVFE2/pages/feegroups/country_group.jsf` | High
-30 | File | `/textpattern/index.php` | High
-31 | File | `/upfile.cgi` | Medium
-32 | File | `/v2/quantum/save-data-upload-big-file` | High
-33 | File | `/wordpress/wp-admin/admin.php` | High
-34 | File | `4.edu.php` | Medium
-35 | File | `account_footer.php` | High
-36 | File | `adclick.php` | Medium
-37 | File | `add_edit_cat.asp` | High
+23 | File | `/rest/api/latest/projectvalidate/key` | High
+24 | File | `/SAP_Information_System/controllers/add_admin.php` | High
+25 | File | `/SASWebReportStudio/logonAndRender.do` | High
+26 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+27 | File | `/secure/admin/ViewInstrumentation.jspa` | High
+28 | File | `/SVFE2/pages/feegroups/country_group.jsf` | High
+29 | File | `/textpattern/index.php` | High
+30 | File | `/upfile.cgi` | Medium
+31 | File | `/v2/quantum/save-data-upload-big-file` | High
+32 | File | `/wordpress/wp-admin/admin.php` | High
+33 | File | `4.edu.php` | Medium
+34 | File | `account_footer.php` | High
+35 | File | `adclick.php` | Medium
+36 | File | `add_edit_cat.asp` | High
+37 | File | `add_edit_user.asp` | High
 38 | ... | ... | ...
 
-There are 323 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 322 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

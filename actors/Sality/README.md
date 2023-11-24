@@ -29,7 +29,7 @@ ID | IP address | Hostname | Campaign | Confidence
 6 | [20.103.85.33](https://vuldb.com/?ip.20.103.85.33) | - | - | High
 7 | ... | ... | ... | ...
 
-There are 24 more IOC items available. Please use our online service to access the data.
+There are 25 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -66,6 +66,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/2018/10/threat-roundup-1019-1026.html
 * https://blog.talosintelligence.com/2019/01/threat-roundup-0111-0118.html
 * https://blog.talosintelligence.com/2022/07/threat-roundup-for-july-22-29.html
+* https://threatfox.abuse.ch
 
 ## Literature
 

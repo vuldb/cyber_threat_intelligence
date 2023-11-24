@@ -84,7 +84,7 @@ ID | Type | Indicator | Confidence
 19 | File | `catchsegv` | Medium
 20 | ... | ... | ...
 
-There are 165 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 166 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

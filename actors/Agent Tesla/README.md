@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 19 more country items available. Please use our online service to access the data.
+There are 20 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -38,14 +38,14 @@ ID | IP address | Hostname | Campaign | Confidence
 9 | [31.220.2.200](https://vuldb.com/?ip.31.220.2.200) | shared.swiftslots.com | - | High
 10 | [34.200.207.31](https://vuldb.com/?ip.34.200.207.31) | ec2-34-200-207-31.compute-1.amazonaws.com | - | Medium
 11 | [37.19.196.108](https://vuldb.com/?ip.37.19.196.108) | unn-37-19-196-108.datapacket.com | - | High
-12 | [45.142.215.180](https://vuldb.com/?ip.45.142.215.180) | connectoms.host | - | High
-13 | [45.156.25.78](https://vuldb.com/?ip.45.156.25.78) | - | - | High
-14 | [46.166.133.164](https://vuldb.com/?ip.46.166.133.164) | cybersubtitles.com | - | High
-15 | [47.87.211.157](https://vuldb.com/?ip.47.87.211.157) | - | - | High
-16 | [50.17.5.224](https://vuldb.com/?ip.50.17.5.224) | ec2-50-17-5-224.compute-1.amazonaws.com | - | Medium
+12 | [43.230.131.138](https://vuldb.com/?ip.43.230.131.138) | srv1.nusadatacenter.com | - | High
+13 | [45.142.215.180](https://vuldb.com/?ip.45.142.215.180) | connectoms.host | - | High
+14 | [45.156.25.78](https://vuldb.com/?ip.45.156.25.78) | - | - | High
+15 | [46.166.133.164](https://vuldb.com/?ip.46.166.133.164) | cybersubtitles.com | - | High
+16 | [47.87.211.157](https://vuldb.com/?ip.47.87.211.157) | - | - | High
 17 | ... | ... | ... | ...
 
-There are 63 more IOC items available. Please use our online service to access the data.
+There are 65 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -118,7 +118,7 @@ ID | Type | Indicator | Confidence
 48 | File | `/youthappam/editclient.php` | High
 49 | ... | ... | ...
 
-There are 429 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 428 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -126,6 +126,7 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://1275.ru/ioc/254/gs-002-agent-tesla-spyware-iocs/
 * https://1275.ru/ioc/310/gs-032-agent-tesla-spyware-iocs/
+* https://app.any.run/tasks/91b72945-2a21-4e9e-98c5-132ed8d15714/
 * https://asec.ahnlab.com/en/31083/
 * https://blog.talosintelligence.com/2020/07/threat-roundup-0724-0731.html
 * https://blog.talosintelligence.com/2022/09/threat-roundup-0826-0902.html

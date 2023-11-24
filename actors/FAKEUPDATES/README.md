@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [TR](https://vuldb.com/?country.tr)
 * ...
 
-There are 13 more country items available. Please use our online service to access the data.
+There are 15 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -34,9 +34,11 @@ ID | IP address | Hostname | Campaign | Confidence
 11 | [45.130.201.23](https://vuldb.com/?ip.45.130.201.23) | - | - | High
 12 | [45.130.201.24](https://vuldb.com/?ip.45.130.201.24) | - | - | High
 13 | [46.4.107.174](https://vuldb.com/?ip.46.4.107.174) | server101.servera.info | - | High
-14 | ... | ... | ... | ...
+14 | [47.91.94.97](https://vuldb.com/?ip.47.91.94.97) | - | - | High
+15 | [47.251.55.14](https://vuldb.com/?ip.47.251.55.14) | - | - | High
+16 | ... | ... | ... | ...
 
-There are 53 more IOC items available. Please use our online service to access the data.
+There are 59 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -92,29 +94,29 @@ ID | Type | Indicator | Confidence
 30 | File | `/index.php?app=main&func=passport&action=login` | High
 31 | File | `/jfinal_cms/system/role/list` | High
 32 | File | `/kelas/data` | Medium
-33 | File | `/Moosikay/order.php` | High
-34 | File | `/out.php` | Medium
-35 | File | `/paysystem/datatable.php` | High
-36 | File | `/php-sms/admin/quotes/manage_remark.php` | High
-37 | File | `/product_list.php` | High
-38 | File | `/secure/QueryComponent!Default.jspa` | High
-39 | File | `/server/ajax/events_manager.php` | High
-40 | File | `/server/ajax/user_manager.php` | High
-41 | File | `/squashfs-root/etc_ro/custom.conf` | High
-42 | File | `/staff/edit_book_details.php` | High
-43 | File | `/SysManage/AddUpdateRole.aspx` | High
-44 | File | `/sysmanage/importconf.php` | High
-45 | File | `/uncpath/` | Medium
-46 | File | `/user/profile` | High
-47 | File | `/vloggers_merch/admin/?page=product/manage_product` | High
-48 | File | `/webman/info.cgi` | High
-49 | File | `/wp-admin/admin-ajax.php` | High
-50 | File | `acloudCosAction.php.SQL` | High
-51 | File | `ActiveServices.java` | High
-52 | File | `adclick.php` | Medium
+33 | File | `/listplace/user/ticket/create` | High
+34 | File | `/Moosikay/order.php` | High
+35 | File | `/out.php` | Medium
+36 | File | `/paysystem/datatable.php` | High
+37 | File | `/php-sms/admin/quotes/manage_remark.php` | High
+38 | File | `/product_list.php` | High
+39 | File | `/secure/QueryComponent!Default.jspa` | High
+40 | File | `/server/ajax/events_manager.php` | High
+41 | File | `/server/ajax/user_manager.php` | High
+42 | File | `/squashfs-root/etc_ro/custom.conf` | High
+43 | File | `/staff/edit_book_details.php` | High
+44 | File | `/SysManage/AddUpdateRole.aspx` | High
+45 | File | `/sysmanage/importconf.php` | High
+46 | File | `/uncpath/` | Medium
+47 | File | `/user/profile` | High
+48 | File | `/vloggers_merch/admin/?page=product/manage_product` | High
+49 | File | `/webman/info.cgi` | High
+50 | File | `/wp-admin/admin-ajax.php` | High
+51 | File | `acloudCosAction.php.SQL` | High
+52 | File | `ActiveServices.java` | High
 53 | ... | ... | ...
 
-There are 463 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 466 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

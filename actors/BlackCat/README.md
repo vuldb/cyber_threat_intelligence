@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [SV](https://vuldb.com/?country.sv)
-* [ES](https://vuldb.com/?country.es)
+* [DE](https://vuldb.com/?country.de)
 * ...
 
 There are 11 more country items available. Please use our online service to access the data.
@@ -102,9 +102,10 @@ ID | Type | Indicator | Confidence
 50 | File | `/hss/admin/brands/manage_brand.php` | High
 51 | File | `/importexport.php` | High
 52 | File | `/index.php?module=help_pages/pages&entities_id=24` | High
-53 | ... | ... | ...
+53 | File | `/items/search` | High
+54 | ... | ... | ...
 
-There are 463 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 466 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

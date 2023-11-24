@@ -211,9 +211,10 @@ ID | IP address | Hostname | Campaign | Confidence
 188 | [31.184.234.170](https://vuldb.com/?ip.31.184.234.170) | - | - | High
 189 | [31.184.234.171](https://vuldb.com/?ip.31.184.234.171) | - | - | High
 190 | [31.184.234.172](https://vuldb.com/?ip.31.184.234.172) | - | - | High
-191 | ... | ... | ... | ...
+191 | [31.184.234.173](https://vuldb.com/?ip.31.184.234.173) | - | - | High
+192 | ... | ... | ... | ...
 
-There are 761 more IOC items available. Please use our online service to access the data.
+There are 764 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -221,7 +222,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-36 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-36, CWE-425 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
@@ -254,29 +255,30 @@ ID | Type | Indicator | Confidence
 16 | File | `/Content/Template/root/reverse-shell.aspx` | High
 17 | File | `/Controller/Ajaxfileupload.ashx` | High
 18 | File | `/core/conditions/AbstractWrapper.java` | High
-19 | File | `/etc/passwd` | Medium
-20 | File | `/fcgi/scrut_fcgi.fcgi` | High
-21 | File | `/forum/away.php` | High
-22 | File | `/h/` | Low
-23 | File | `/h/autoSaveDraft` | High
-24 | File | `/h/search?action` | High
-25 | File | `/HNAP1` | Low
-26 | File | `/hss/admin/?page=products/view_product` | High
-27 | File | `/importexport.php` | High
-28 | File | `/index.php?app=main&func=passport&action=login` | High
-29 | File | `/jeecg-boot/sys/common/upload` | High
-30 | File | `/mgmt/` | Low
-31 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
-32 | File | `/preview.php` | Medium
-33 | File | `/proxy` | Low
-34 | File | `/recipe-result` | High
-35 | File | `/register.do` | Medium
-36 | File | `/RPS2019Service/status.html` | High
-37 | File | `/secure/ViewCollectors` | High
-38 | File | `/server-status` | High
-39 | ... | ... | ...
+19 | File | `/debug/pprof` | Medium
+20 | File | `/etc/passwd` | Medium
+21 | File | `/fcgi/scrut_fcgi.fcgi` | High
+22 | File | `/forum/away.php` | High
+23 | File | `/geoserver/gwc/rest.html` | High
+24 | File | `/h/autoSaveDraft` | High
+25 | File | `/h/search?action` | High
+26 | File | `/HNAP1` | Low
+27 | File | `/hss/admin/?page=products/view_product` | High
+28 | File | `/importexport.php` | High
+29 | File | `/index.php?app=main&func=passport&action=login` | High
+30 | File | `/jeecg-boot/sys/common/upload` | High
+31 | File | `/mgmt/` | Low
+32 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
+33 | File | `/preview.php` | Medium
+34 | File | `/proxy` | Low
+35 | File | `/recipe-result` | High
+36 | File | `/register.do` | Medium
+37 | File | `/RPS2019Service/status.html` | High
+38 | File | `/secure/ViewCollectors` | High
+39 | File | `/server-status` | High
+40 | ... | ... | ...
 
-There are 340 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 342 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -324,7 +326,10 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/threat-roundup-0120-0127/
 * https://blog.talosintelligence.com/threat-roundup-0317-0324/
 * https://blog.talosintelligence.com/threat-roundup-0421-0428-2/
+* https://redcanary.com/blog/confluence-exploit-ransomware/
 * https://www.cyber45.com
+* https://www.sentinelone.com/blog/c3rb3r-ransomware-ongoing-exploitation-of-cve-2023-22518-targets-unpatched-confluence-servers/
+* https://www.trendmicro.com/en_us/research/23/k/cerber-ransomware-exploits-cve-2023-22518.html
 
 ## Literature
 

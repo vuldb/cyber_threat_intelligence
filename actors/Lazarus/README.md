@@ -27,7 +27,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [US](https://vuldb.com/?country.us)
 * ...
 
-There are 8 more country items available. Please use our online service to access the data.
+There are 9 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -214,61 +214,62 @@ ID | IP address | Hostname | Campaign | Confidence
 177 | [46.21.147.161](https://vuldb.com/?ip.46.21.147.161) | 46-21-147-161.static.hvvc.us | - | High
 178 | [46.21.153.87](https://vuldb.com/?ip.46.21.153.87) | 87.153.21.46.static.swiftway.net | - | High
 179 | [46.52.131.102](https://vuldb.com/?ip.46.52.131.102) | - | Hidden Cobra | High
-180 | [46.121.242.180](https://vuldb.com/?ip.46.121.242.180) | 46-121-242-180.static.012.net.il | Hidden Cobra | High
-181 | [46.174.116.60](https://vuldb.com/?ip.46.174.116.60) | - | Hidden Cobra | High
-182 | [46.174.116.87](https://vuldb.com/?ip.46.174.116.87) | - | Hidden Cobra | High
-183 | [46.174.116.90](https://vuldb.com/?ip.46.174.116.90) | - | Hidden Cobra | High
-184 | [46.174.116.99](https://vuldb.com/?ip.46.174.116.99) | - | Hidden Cobra | High
-185 | [46.174.116.221](https://vuldb.com/?ip.46.174.116.221) | - | Hidden Cobra | High
-186 | [46.174.116.231](https://vuldb.com/?ip.46.174.116.231) | - | Hidden Cobra | High
-187 | [46.174.116.234](https://vuldb.com/?ip.46.174.116.234) | - | Hidden Cobra | High
-188 | [46.174.117.15](https://vuldb.com/?ip.46.174.117.15) | - | Hidden Cobra | High
-189 | [46.174.117.32](https://vuldb.com/?ip.46.174.117.32) | - | Hidden Cobra | High
-190 | [46.174.117.36](https://vuldb.com/?ip.46.174.117.36) | - | Hidden Cobra | High
-191 | [46.174.117.42](https://vuldb.com/?ip.46.174.117.42) | - | Hidden Cobra | High
-192 | [46.174.117.44](https://vuldb.com/?ip.46.174.117.44) | - | Hidden Cobra | High
-193 | [46.174.117.50](https://vuldb.com/?ip.46.174.117.50) | - | Hidden Cobra | High
-194 | [46.174.117.61](https://vuldb.com/?ip.46.174.117.61) | - | Hidden Cobra | High
-195 | [46.174.117.77](https://vuldb.com/?ip.46.174.117.77) | - | Hidden Cobra | High
-196 | [46.174.117.80](https://vuldb.com/?ip.46.174.117.80) | - | Hidden Cobra | High
-197 | [46.174.117.97](https://vuldb.com/?ip.46.174.117.97) | - | Hidden Cobra | High
-198 | [46.174.117.98](https://vuldb.com/?ip.46.174.117.98) | - | Hidden Cobra | High
-199 | [46.174.117.103](https://vuldb.com/?ip.46.174.117.103) | - | Hidden Cobra | High
-200 | [46.174.117.116](https://vuldb.com/?ip.46.174.117.116) | - | Hidden Cobra | High
-201 | [46.174.117.121](https://vuldb.com/?ip.46.174.117.121) | - | Hidden Cobra | High
-202 | [46.174.117.129](https://vuldb.com/?ip.46.174.117.129) | - | Hidden Cobra | High
-203 | [46.174.117.134](https://vuldb.com/?ip.46.174.117.134) | - | Hidden Cobra | High
-204 | [46.174.117.153](https://vuldb.com/?ip.46.174.117.153) | - | Hidden Cobra | High
-205 | [46.174.117.164](https://vuldb.com/?ip.46.174.117.164) | - | Hidden Cobra | High
-206 | [46.183.221.109](https://vuldb.com/?ip.46.183.221.109) | ip-221-109.dataclub.info | - | High
-207 | [46.218.127.110](https://vuldb.com/?ip.46.218.127.110) | reverse.completel.fr | Hidden Cobra | High
-208 | [47.206.4.145](https://vuldb.com/?ip.47.206.4.145) | static-47-206-4-145.srst.fl.frontiernet.net | Hoplight | High
-209 | [49.206.1.61](https://vuldb.com/?ip.49.206.1.61) | 49.206.1.61.actcorp.in | Hidden Cobra | High
-210 | [49.247.9.177](https://vuldb.com/?ip.49.247.9.177) | - | - | High
-211 | [50.62.168.157](https://vuldb.com/?ip.50.62.168.157) | p3nwvpweb145.shr.prod.phx3.secureserver.net | Fallchill | High
-212 | [50.87.144.227](https://vuldb.com/?ip.50.87.144.227) | somethingaboutmarketing.com | - | High
-213 | [50.192.28.29](https://vuldb.com/?ip.50.192.28.29) | speed-stream.com | Netherlands and Belgium | High
-214 | [51.38.234.8](https://vuldb.com/?ip.51.38.234.8) | hydra.skok.pl | - | High
-215 | [51.68.119.230](https://vuldb.com/?ip.51.68.119.230) | ns3145204.ip-51-68-119.eu | - | High
-216 | [51.79.44.111](https://vuldb.com/?ip.51.79.44.111) | server2.urgentfury.net | - | High
-217 | [51.235.1.216](https://vuldb.com/?ip.51.235.1.216) | - | Hidden Cobra | High
-218 | [51.235.13.162](https://vuldb.com/?ip.51.235.13.162) | - | Hidden Cobra | High
-219 | [51.235.17.133](https://vuldb.com/?ip.51.235.17.133) | - | Hidden Cobra | High
-220 | [51.235.19.202](https://vuldb.com/?ip.51.235.19.202) | - | Hidden Cobra | High
-221 | [51.235.33.226](https://vuldb.com/?ip.51.235.33.226) | - | Hidden Cobra | High
-222 | [51.235.49.202](https://vuldb.com/?ip.51.235.49.202) | - | Hidden Cobra | High
-223 | [52.79.118.195](https://vuldb.com/?ip.52.79.118.195) | ec2-52-79-118-195.ap-northeast-2.compute.amazonaws.com | Chemical Sector | Medium
-224 | [52.79.120.37](https://vuldb.com/?ip.52.79.120.37) | ec2-52-79-120-37.ap-northeast-2.compute.amazonaws.com | - | Medium
-225 | [52.128.23.153](https://vuldb.com/?ip.52.128.23.153) | - | DTrack | High
-226 | [52.148.148.114](https://vuldb.com/?ip.52.148.148.114) | - | - | High
-227 | [52.202.193.124](https://vuldb.com/?ip.52.202.193.124) | ec2-52-202-193-124.compute-1.amazonaws.com | MagicRAT | Medium
-228 | [54.38.11.132](https://vuldb.com/?ip.54.38.11.132) | ip132.ip-54-38-11.eu | - | High
-229 | [54.39.64.114](https://vuldb.com/?ip.54.39.64.114) | server2.urgentfury.net | - | High
-230 | [54.39.204.190](https://vuldb.com/?ip.54.39.204.190) | ip190.ip-54-39-204.net | - | High
-231 | [54.64.30.175](https://vuldb.com/?ip.54.64.30.175) | vega.mh-tec.co.jp | - | High
-232 | ... | ... | ... | ...
+180 | [46.105.57.169](https://vuldb.com/?ip.46.105.57.169) | cluster020.hosting.ovh.net | - | High
+181 | [46.121.242.180](https://vuldb.com/?ip.46.121.242.180) | 46-121-242-180.static.012.net.il | Hidden Cobra | High
+182 | [46.174.116.60](https://vuldb.com/?ip.46.174.116.60) | - | Hidden Cobra | High
+183 | [46.174.116.87](https://vuldb.com/?ip.46.174.116.87) | - | Hidden Cobra | High
+184 | [46.174.116.90](https://vuldb.com/?ip.46.174.116.90) | - | Hidden Cobra | High
+185 | [46.174.116.99](https://vuldb.com/?ip.46.174.116.99) | - | Hidden Cobra | High
+186 | [46.174.116.221](https://vuldb.com/?ip.46.174.116.221) | - | Hidden Cobra | High
+187 | [46.174.116.231](https://vuldb.com/?ip.46.174.116.231) | - | Hidden Cobra | High
+188 | [46.174.116.234](https://vuldb.com/?ip.46.174.116.234) | - | Hidden Cobra | High
+189 | [46.174.117.15](https://vuldb.com/?ip.46.174.117.15) | - | Hidden Cobra | High
+190 | [46.174.117.32](https://vuldb.com/?ip.46.174.117.32) | - | Hidden Cobra | High
+191 | [46.174.117.36](https://vuldb.com/?ip.46.174.117.36) | - | Hidden Cobra | High
+192 | [46.174.117.42](https://vuldb.com/?ip.46.174.117.42) | - | Hidden Cobra | High
+193 | [46.174.117.44](https://vuldb.com/?ip.46.174.117.44) | - | Hidden Cobra | High
+194 | [46.174.117.50](https://vuldb.com/?ip.46.174.117.50) | - | Hidden Cobra | High
+195 | [46.174.117.61](https://vuldb.com/?ip.46.174.117.61) | - | Hidden Cobra | High
+196 | [46.174.117.77](https://vuldb.com/?ip.46.174.117.77) | - | Hidden Cobra | High
+197 | [46.174.117.80](https://vuldb.com/?ip.46.174.117.80) | - | Hidden Cobra | High
+198 | [46.174.117.97](https://vuldb.com/?ip.46.174.117.97) | - | Hidden Cobra | High
+199 | [46.174.117.98](https://vuldb.com/?ip.46.174.117.98) | - | Hidden Cobra | High
+200 | [46.174.117.103](https://vuldb.com/?ip.46.174.117.103) | - | Hidden Cobra | High
+201 | [46.174.117.116](https://vuldb.com/?ip.46.174.117.116) | - | Hidden Cobra | High
+202 | [46.174.117.121](https://vuldb.com/?ip.46.174.117.121) | - | Hidden Cobra | High
+203 | [46.174.117.129](https://vuldb.com/?ip.46.174.117.129) | - | Hidden Cobra | High
+204 | [46.174.117.134](https://vuldb.com/?ip.46.174.117.134) | - | Hidden Cobra | High
+205 | [46.174.117.153](https://vuldb.com/?ip.46.174.117.153) | - | Hidden Cobra | High
+206 | [46.174.117.164](https://vuldb.com/?ip.46.174.117.164) | - | Hidden Cobra | High
+207 | [46.183.221.109](https://vuldb.com/?ip.46.183.221.109) | ip-221-109.dataclub.info | - | High
+208 | [46.218.127.110](https://vuldb.com/?ip.46.218.127.110) | reverse.completel.fr | Hidden Cobra | High
+209 | [47.206.4.145](https://vuldb.com/?ip.47.206.4.145) | static-47-206-4-145.srst.fl.frontiernet.net | Hoplight | High
+210 | [49.206.1.61](https://vuldb.com/?ip.49.206.1.61) | 49.206.1.61.actcorp.in | Hidden Cobra | High
+211 | [49.247.9.177](https://vuldb.com/?ip.49.247.9.177) | - | - | High
+212 | [50.62.168.157](https://vuldb.com/?ip.50.62.168.157) | p3nwvpweb145.shr.prod.phx3.secureserver.net | Fallchill | High
+213 | [50.87.144.227](https://vuldb.com/?ip.50.87.144.227) | somethingaboutmarketing.com | - | High
+214 | [50.192.28.29](https://vuldb.com/?ip.50.192.28.29) | speed-stream.com | Netherlands and Belgium | High
+215 | [51.38.234.8](https://vuldb.com/?ip.51.38.234.8) | hydra.skok.pl | - | High
+216 | [51.68.119.230](https://vuldb.com/?ip.51.68.119.230) | ns3145204.ip-51-68-119.eu | - | High
+217 | [51.79.44.111](https://vuldb.com/?ip.51.79.44.111) | server2.urgentfury.net | - | High
+218 | [51.235.1.216](https://vuldb.com/?ip.51.235.1.216) | - | Hidden Cobra | High
+219 | [51.235.13.162](https://vuldb.com/?ip.51.235.13.162) | - | Hidden Cobra | High
+220 | [51.235.17.133](https://vuldb.com/?ip.51.235.17.133) | - | Hidden Cobra | High
+221 | [51.235.19.202](https://vuldb.com/?ip.51.235.19.202) | - | Hidden Cobra | High
+222 | [51.235.33.226](https://vuldb.com/?ip.51.235.33.226) | - | Hidden Cobra | High
+223 | [51.235.49.202](https://vuldb.com/?ip.51.235.49.202) | - | Hidden Cobra | High
+224 | [52.79.118.195](https://vuldb.com/?ip.52.79.118.195) | ec2-52-79-118-195.ap-northeast-2.compute.amazonaws.com | Chemical Sector | Medium
+225 | [52.79.120.37](https://vuldb.com/?ip.52.79.120.37) | ec2-52-79-120-37.ap-northeast-2.compute.amazonaws.com | - | Medium
+226 | [52.128.23.153](https://vuldb.com/?ip.52.128.23.153) | - | DTrack | High
+227 | [52.148.148.114](https://vuldb.com/?ip.52.148.148.114) | - | - | High
+228 | [52.202.193.124](https://vuldb.com/?ip.52.202.193.124) | ec2-52-202-193-124.compute-1.amazonaws.com | MagicRAT | Medium
+229 | [54.38.11.132](https://vuldb.com/?ip.54.38.11.132) | ip132.ip-54-38-11.eu | - | High
+230 | [54.39.64.114](https://vuldb.com/?ip.54.39.64.114) | server2.urgentfury.net | - | High
+231 | [54.39.204.190](https://vuldb.com/?ip.54.39.204.190) | ip190.ip-54-39-204.net | - | High
+232 | [54.64.30.175](https://vuldb.com/?ip.54.64.30.175) | vega.mh-tec.co.jp | - | High
+233 | ... | ... | ... | ...
 
-There are 922 more IOC items available. Please use our online service to access the data.
+There are 930 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -276,11 +277,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-25, CWE-29, CWE-35 | Pathname Traversal | High
-2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-25, CWE-35 | Pathname Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
 
@@ -290,52 +292,42 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/academy/tutor/filter` | High
-3 | File | `/adfs/ls` | Medium
-4 | File | `/admin/index2.html` | High
-5 | File | `/admin/sales/view_details.php` | High
-6 | File | `/api/baskets/{name}` | High
-7 | File | `/app/search/table` | High
-8 | File | `/aqpg/users/login.php` | High
-9 | File | `/bsms_ci/index.php/user/edit_user/` | High
-10 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-11 | File | `/cgi-bin/upload_vpntar` | High
-12 | File | `/cgi-bin/wlogin.cgi` | High
-13 | File | `/common/info.cgi` | High
+1 | File | `$HOME/.terminfo` | High
+2 | File | `/+CSCOE+/logon.html` | High
+3 | File | `/academy/tutor/filter` | High
+4 | File | `/adfs/ls` | Medium
+5 | File | `/admin/index2.html` | High
+6 | File | `/admin/sales/view_details.php` | High
+7 | File | `/api/baskets/{name}` | High
+8 | File | `/app/search/table` | High
+9 | File | `/aqpg/users/login.php` | High
+10 | File | `/calendar/minimizer/index.php` | High
+11 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+12 | File | `/cgi-bin/upload_vpntar` | High
+13 | File | `/cgi-bin/wlogin.cgi` | High
 14 | File | `/core/tools/customblock.php` | High
 15 | File | `/debug/pprof` | Medium
-16 | File | `/forum/away.php` | High
-17 | File | `/goform/Diagnosis` | High
-18 | File | `/goform/net\_Web\_get_value` | High
-19 | File | `/GponForm/usb_restore_Form?script/` | High
-20 | File | `/gracemedia-media-player/templates/files/ajax_controller.php` | High
-21 | File | `/group1/uploa` | High
-22 | File | `/hrm/controller/employee.php` | High
-23 | File | `/hrm/employeeview.php` | High
-24 | File | `/importexport.php` | High
-25 | File | `/includes/db_connect.php` | High
-26 | File | `/includes/session.php` | High
-27 | File | `/leaves/validate` | High
-28 | File | `/mail.php` | Medium
-29 | File | `/mc` | Low
-30 | File | `/modules/projects/vw_files.php` | High
-31 | File | `/modules/public/calendar.php` | High
-32 | File | `/modules/public/date_format.php` | High
-33 | File | `/modules/tasks/gantt.php` | High
-34 | File | `/out.php` | Medium
-35 | File | `/pf/idprofile.ping` | High
-36 | File | `/php-spms/admin/?page=user/` | High
-37 | File | `/plugin` | Low
-38 | File | `/project/tasks/list` | High
-39 | File | `/protocol/iscgwtunnel/uploadiscgwrouteconf.php` | High
-40 | File | `/secure/QueryComponent!Default.jspa` | High
-41 | File | `/spip.php` | Medium
-42 | File | `/SysManage/AddUpdateSites.aspx` | High
-43 | File | `/sysmanage/changelogo.php` | High
-44 | ... | ... | ...
+16 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
+17 | File | `/forum/away.php` | High
+18 | File | `/goform/Diagnosis` | High
+19 | File | `/goform/net\_Web\_get_value` | High
+20 | File | `/GponForm/usb_restore_Form?script/` | High
+21 | File | `/gracemedia-media-player/templates/files/ajax_controller.php` | High
+22 | File | `/group1/uploa` | High
+23 | File | `/hrm/controller/employee.php` | High
+24 | File | `/hrm/employeeview.php` | High
+25 | File | `/importexport.php` | High
+26 | File | `/leaves/validate` | High
+27 | File | `/mail.php` | Medium
+28 | File | `/mc` | Low
+29 | File | `/modules/projects/vw_files.php` | High
+30 | File | `/oauth/idp/.well-known/openid-configuration` | High
+31 | File | `/out.php` | Medium
+32 | File | `/pf/idprofile.ping` | High
+33 | File | `/php-spms/admin/?page=user/` | High
+34 | ... | ... | ...
 
-There are 380 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 295 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -380,6 +372,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://www.trendmicro.com/en_us/research/18/k/lazarus-continues-heists-mounts-attacks-on-financial-organizations-in-latin-america.html
 * https://www.trendmicro.com/en_us/research/20/e/new-macos-dacls-rat-backdoor-show-lazarus-multi-platform-attack-capability.html
 * https://www.welivesecurity.com/2022/09/30/amazon-themed-campaigns-lazarus-netherlands-belgium/
+* https://www.welivesecurity.com/en/eset-research/lazarus-luring-employees-trojanized-coding-challenges-case-spanish-aerospace-company/
 * https://www.zscaler.com/blogs/security-research/naver-ending-game-lazarus-apt
 
 ## Literature

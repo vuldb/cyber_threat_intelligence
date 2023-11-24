@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 19 more country items available. Please use our online service to access the data.
+There are 20 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -1215,7 +1215,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
@@ -1232,45 +1232,43 @@ ID | Type | Indicator | Confidence
 1 | File | `%PROGRAMFILES(X86)%\TSplus\UserDesktop\themes.` | High
 2 | File | `/admin/?page=bike` | High
 3 | File | `/admin/add-services.php` | High
-4 | File | `/admin/ajax.php?action=confirm_order` | High
-5 | File | `/admin/controller/JobLogController.java` | High
-6 | File | `/admin/courses/manage_course.php` | High
-7 | File | `/admin/courses/view_course.php` | High
-8 | File | `/admin/departments/manage_department.php` | High
-9 | File | `/admin/index.php` | High
-10 | File | `/admin/index2.html` | High
-11 | File | `/admin/maintenance/view_designation.php` | High
-12 | File | `/admin/sales/view_details.php` | High
-13 | File | `/admin/save.php` | High
-14 | File | `/admin/sql` | Medium
-15 | File | `/admin/students/manage_academic.php` | High
-16 | File | `/admin/user.php` | High
-17 | File | `/api/baskets/{name}` | High
-18 | File | `/api/sys/login` | High
-19 | File | `/api/sys/set_passwd` | High
-20 | File | `/api/v1/alerts` | High
-21 | File | `/api/v1/snapshots` | High
-22 | File | `/api/v4/opengraph` | High
-23 | File | `/aqpg/users/login.php` | High
-24 | File | `/bitrix/admin/ldap_server_edit.php` | High
-25 | File | `/cgi-bin/vitogate.cgi` | High
-26 | File | `/cgi-bin/wlogin.cgi` | High
-27 | File | `/changePassword` | High
-28 | File | `/classes/Master.php?f=save_reminder` | High
-29 | File | `/classes/Users.php?f=save` | High
-30 | File | `/core/tools/customblock.php` | High
-31 | File | `/dashboard/add-blog.php` | High
-32 | File | `/debug/` | Low
-33 | File | `/debug/pprof` | Medium
-34 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
-35 | File | `/ecshop/admin/template.php` | High
-36 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-37 | File | `/fcgi/scrut_fcgi.fcgi` | High
-38 | File | `/file` | Low
-39 | File | `/forum/away.php` | High
-40 | ... | ... | ...
+4 | File | `/admin/controller/JobLogController.java` | High
+5 | File | `/admin/courses/manage_course.php` | High
+6 | File | `/admin/courses/view_course.php` | High
+7 | File | `/admin/departments/manage_department.php` | High
+8 | File | `/admin/index.php` | High
+9 | File | `/admin/index2.html` | High
+10 | File | `/admin/maintenance/view_designation.php` | High
+11 | File | `/admin/sales/view_details.php` | High
+12 | File | `/admin/search-appointment.php` | High
+13 | File | `/admin/sql` | Medium
+14 | File | `/admin/students/manage_academic.php` | High
+15 | File | `/admin/user.php` | High
+16 | File | `/api/baskets/{name}` | High
+17 | File | `/api/sys/login` | High
+18 | File | `/api/sys/set_passwd` | High
+19 | File | `/api/v1/alerts` | High
+20 | File | `/api/v1/snapshots` | High
+21 | File | `/bin/login` | Medium
+22 | File | `/bitrix/admin/ldap_server_edit.php` | High
+23 | File | `/calendar/minimizer/index.php` | High
+24 | File | `/changePassword` | High
+25 | File | `/classes/Master.php?f=save_reminder` | High
+26 | File | `/classes/Users.php?f=save` | High
+27 | File | `/core/tools/customblock.php` | High
+28 | File | `/debug/` | Low
+29 | File | `/debug/pprof` | Medium
+30 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
+31 | File | `/ecshop/admin/template.php` | High
+32 | File | `/fcgi/scrut_fcgi.fcgi` | High
+33 | File | `/file` | Low
+34 | File | `/forum/away.php` | High
+35 | File | `/geoserver/gwc/rest.html` | High
+36 | File | `/index.php` | Medium
+37 | File | `/listplace/user/ticket/create` | High
+38 | ... | ... | ...
 
-There are 342 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 324 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

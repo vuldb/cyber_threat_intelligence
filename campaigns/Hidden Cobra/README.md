@@ -183,25 +183,26 @@ ID | Type | Indicator | Confidence
 3 | File | `/admin/maintenance/view_designation.php` | High
 4 | File | `/admin/reports.php` | High
 5 | File | `/advanced-tools/nova/bin/netwatch` | High
-6 | File | `/app/search/table` | High
-7 | File | `/catcompany.php` | High
-8 | File | `/cgi-bin/login.cgi` | High
-9 | File | `/cgi-bin/R14.2/easy1350.pl` | High
-10 | File | `/cgi-bin/R14.2/log.pl` | High
-11 | File | `/debug/pprof` | Medium
-12 | File | `/EventBookingCalendar/load.php?controller=GzFront/action=checkout/cid=1/layout=calendar/show_header=T/local=3` | High
-13 | File | `/export` | Low
-14 | File | `/forgetpassword.php` | High
-15 | File | `/FormLogin` | Medium
-16 | File | `/forum/away.php` | High
-17 | File | `/group1/uploa` | High
-18 | File | `/modules/profile/index.php` | High
-19 | File | `/nova/bin/detnet` | High
-20 | File | `/out.php` | Medium
-21 | File | `/plugin` | Low
-22 | ... | ... | ...
+6 | File | `/api/baskets/{name}` | High
+7 | File | `/app/search/table` | High
+8 | File | `/catcompany.php` | High
+9 | File | `/cgi-bin/login.cgi` | High
+10 | File | `/cgi-bin/R14.2/easy1350.pl` | High
+11 | File | `/cgi-bin/R14.2/log.pl` | High
+12 | File | `/debug/pprof` | Medium
+13 | File | `/EventBookingCalendar/load.php?controller=GzFront/action=checkout/cid=1/layout=calendar/show_header=T/local=3` | High
+14 | File | `/export` | Low
+15 | File | `/forgetpassword.php` | High
+16 | File | `/FormLogin` | Medium
+17 | File | `/forum/away.php` | High
+18 | File | `/group1/uploa` | High
+19 | File | `/modules/profile/index.php` | High
+20 | File | `/nova/bin/detnet` | High
+21 | File | `/out.php` | Medium
+22 | File | `/plugin` | Low
+23 | ... | ... | ...
 
-There are 185 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 189 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

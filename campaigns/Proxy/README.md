@@ -66,40 +66,40 @@ ID | Type | Indicator | Confidence
 2 | File | `/?r=recruit/resume/edit&op=status` | High
 3 | File | `/academy/home/courses` | High
 4 | File | `/act/ActDao.xml` | High
-5 | File | `/admin.php?c=upload&f=zip&_noCache=0.1683794968` | High
-6 | File | `/admin/?page=user/list` | High
-7 | File | `/admin/?page=user/manage_user&id=3` | High
-8 | File | `/admin/addproduct.php` | High
-9 | File | `/admin/add_user_modal.php` | High
-10 | File | `/admin/admin-profile.php` | High
-11 | File | `/admin/ajax.php?action=confirm_order` | High
-12 | File | `/admin/article/article-add.php` | High
-13 | File | `/admin/article/article-edit-run.php` | High
-14 | File | `/admin/category/cate-edit-run.php` | High
-15 | File | `/admin/cms_admin.php` | High
-16 | File | `/admin/contacts/organizations/edit/2` | High
-17 | File | `/admin/courses/manage_course.php` | High
-18 | File | `/admin/edit_product.php` | High
-19 | File | `/admin/index.php` | High
-20 | File | `/admin/index/index.html#/admin/mall.goods/index.html` | High
-21 | File | `/admin/inquiries/view_inquiry.php` | High
-22 | File | `/admin/leancloud.php` | High
-23 | File | `/admin/modal_add_product.php` | High
-24 | File | `/admin/project/update/2` | High
-25 | File | `/admin/read.php?mudi=announContent` | High
-26 | File | `/admin/read.php?mudi=getSignal` | High
-27 | File | `/admin/reg.php` | High
-28 | File | `/admin/services/manage_service.php` | High
-29 | File | `/admin/students/manage_academic.php` | High
-30 | File | `/admin/students/update_status.php` | High
-31 | File | `/admin/sys_sql_query.php` | High
-32 | File | `/admin/test_status.php` | High
-33 | File | `/admin/upload.php` | High
-34 | File | `/admin/user/manage_user.php` | High
-35 | File | `/admin/userprofile.php` | High
-36 | File | `/admin/vote_edit.php` | High
-37 | File | `/ajax.php?action=read_msg` | High
-38 | File | `/api/authentication/login` | High
+5 | File | `/admin/?page=user/list` | High
+6 | File | `/admin/?page=user/manage_user&id=3` | High
+7 | File | `/admin/addproduct.php` | High
+8 | File | `/admin/add_user_modal.php` | High
+9 | File | `/admin/admin-profile.php` | High
+10 | File | `/admin/ajax.php?action=confirm_order` | High
+11 | File | `/admin/article/article-add.php` | High
+12 | File | `/admin/article/article-edit-run.php` | High
+13 | File | `/admin/category/cate-edit-run.php` | High
+14 | File | `/admin/cms_admin.php` | High
+15 | File | `/admin/courses/manage_course.php` | High
+16 | File | `/admin/edit_product.php` | High
+17 | File | `/admin/index.php` | High
+18 | File | `/admin/index/index.html#/admin/mall.goods/index.html` | High
+19 | File | `/admin/inquiries/view_inquiry.php` | High
+20 | File | `/admin/leancloud.php` | High
+21 | File | `/admin/modal_add_product.php` | High
+22 | File | `/admin/project/update/2` | High
+23 | File | `/admin/read.php?mudi=announContent` | High
+24 | File | `/admin/read.php?mudi=getSignal` | High
+25 | File | `/admin/reg.php` | High
+26 | File | `/admin/services/manage_service.php` | High
+27 | File | `/admin/students/manage_academic.php` | High
+28 | File | `/admin/students/update_status.php` | High
+29 | File | `/admin/sys_sql_query.php` | High
+30 | File | `/admin/test_status.php` | High
+31 | File | `/admin/theme-edit.php` | High
+32 | File | `/admin/upload.php` | High
+33 | File | `/admin/user/manage_user.php` | High
+34 | File | `/admin/userprofile.php` | High
+35 | File | `/admin/vote_edit.php` | High
+36 | File | `/ajax.php?action=read_msg` | High
+37 | File | `/api/authentication/login` | High
+38 | File | `/api/DataDictionary/GetItemList` | High
 39 | File | `/api/es/admin/v3/security/user/1` | High
 40 | File | `/api/ping` | Medium
 41 | File | `/api/runscript` | High
@@ -148,7 +148,7 @@ ID | Type | Indicator | Confidence
 84 | File | `/goform/aspForm` | High
 85 | ... | ... | ...
 
-There are 751 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 753 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

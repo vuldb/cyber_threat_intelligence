@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [VN](https://vuldb.com/?country.vn)
 * [CN](https://vuldb.com/?country.cn)
-* [LA](https://vuldb.com/?country.la)
+* [US](https://vuldb.com/?country.us)
 * ...
 
-There are 5 more country items available. Please use our online service to access the data.
+There are 6 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -149,14 +149,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-27, CWE-37 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-27, CWE-29 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+5 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -169,15 +169,15 @@ ID | Type | Indicator | Confidence
 3 | File | `/admin/ajax.php?action=confirm_order` | High
 4 | File | `/admin/controller/JobLogController.java` | High
 5 | File | `/admin/sales/view_details.php` | High
-6 | File | `/api/baskets/{name}` | High
-7 | File | `/api/cron/settings/setJob/` | High
+6 | File | `/api/addusers` | High
+7 | File | `/api/baskets/{name}` | High
 8 | File | `/api/sys/login` | High
 9 | File | `/api/sys/set_passwd` | High
 10 | File | `/api/v1/snapshots` | High
-11 | File | `/assets/something/services/AppModule.class` | High
-12 | File | `/audit/log/log_management.php` | High
-13 | File | `/authenticationendpoint/login.do` | High
-14 | File | `/bin/login` | Medium
+11 | File | `/api/v1/terminal/sessions/?limit=1` | High
+12 | File | `/assets/something/services/AppModule.class` | High
+13 | File | `/audit/log/log_management.php` | High
+14 | File | `/authenticationendpoint/login.do` | High
 15 | File | `/blog/comment` | High
 16 | File | `/cgi-bin/mainfunction.cgi` | High
 17 | File | `/cgi-bin/wlogin.cgi` | High
@@ -189,20 +189,18 @@ ID | Type | Indicator | Confidence
 23 | File | `/DXR.axd` | Medium
 24 | File | `/ecshop/admin/template.php` | High
 25 | File | `/env` | Low
-26 | File | `/filemanager/ajax_calls.php` | High
-27 | File | `/forms/doLogin` | High
-28 | File | `/forum/away.php` | High
-29 | File | `/index.php` | Medium
-30 | File | `/index.php?p=admin/actions/users/send-password-reset-email` | High
-31 | File | `/jurusanmatkul/data` | High
-32 | File | `/librarian/bookdetails.php` | High
-33 | File | `/log/webmailattach.php` | High
-34 | File | `/login` | Low
-35 | File | `/login.php?do=login` | High
-36 | File | `/mhds/clinic/view_details.php` | High
-37 | ... | ... | ...
+26 | File | `/forms/doLogin` | High
+27 | File | `/forum/away.php` | High
+28 | File | `/librarian/bookdetails.php` | High
+29 | File | `/log/webmailattach.php` | High
+30 | File | `/login` | Low
+31 | File | `/mhds/clinic/view_details.php` | High
+32 | File | `/php-opos/index.php` | High
+33 | File | `/plain` | Low
+34 | File | `/proc/#####/fd/3` | High
+35 | ... | ... | ...
 
-There are 319 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 302 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

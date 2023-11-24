@@ -128,7 +128,7 @@ ID | Type | Indicator | Confidence
 58 | File | `/var/log/rkhunter.log` | High
 59 | ... | ... | ...
 
-There are 519 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 518 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

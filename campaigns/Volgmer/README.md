@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [IR](https://vuldb.com/?country.ir)
 * ...
 
-There are 3 more country items available. Please use our online service to access the data.
+There are 2 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -62,12 +62,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-24 | Pathname Traversal | High
-2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -75,21 +76,21 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.FBCIndex` | Medium
-2 | File | `/+CSCOE+/logon.html` | High
-3 | File | `/?ajax-request=jnews` | High
-4 | File | `/adfs/ls` | Medium
-5 | File | `/admin/categories/manage_category.php` | High
-6 | File | `/admin/edit_product.php` | High
-7 | File | `/admin/maintenance/view_designation.php` | High
-8 | File | `/admin/sales/manage_sale.php` | High
-9 | File | `/api/baskets/{name}` | High
-10 | File | `/blog` | Low
-11 | File | `/cas/logout` | Medium
-12 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
-13 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-14 | File | `/cgi-bin/upload_vpntar` | High
-15 | File | `/config/api/v1/reboot` | High
+1 | File | `$HOME/.terminfo` | High
+2 | File | `.FBCIndex` | Medium
+3 | File | `/+CSCOE+/logon.html` | High
+4 | File | `/?ajax-request=jnews` | High
+5 | File | `/adfs/ls` | Medium
+6 | File | `/admin/categories/manage_category.php` | High
+7 | File | `/admin/edit_product.php` | High
+8 | File | `/admin/maintenance/view_designation.php` | High
+9 | File | `/admin/sales/manage_sale.php` | High
+10 | File | `/api/baskets/{name}` | High
+11 | File | `/blog` | Low
+12 | File | `/cas/logout` | Medium
+13 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
+14 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+15 | File | `/cgi-bin/upload_vpntar` | High
 16 | File | `/core/tools/customblock.php` | High
 17 | File | `/CPE` | Low
 18 | File | `/debug/pprof` | Medium
@@ -100,13 +101,13 @@ ID | Type | Indicator | Confidence
 23 | File | `/home/search` | Medium
 24 | File | `/leaves/validate` | High
 25 | File | `/mail.php` | Medium
-26 | File | `/modules/profile/index.php` | High
+26 | File | `/oauth/idp/.well-known/openid-configuration` | High
 27 | File | `/out.php` | Medium
 28 | File | `/php-spms/admin/?page=user/` | High
 29 | File | `/proc/ftxxxx-debug` | High
 30 | ... | ... | ...
 
-There are 259 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 254 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

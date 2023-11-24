@@ -58,19 +58,20 @@ ID | Type | Indicator | Confidence
 8 | File | `/classes/Master.php?f=delete_item` | High
 9 | File | `/classes/Master.php?f=delete_service` | High
 10 | File | `/classes/Master.php?f=save_service` | High
-11 | File | `/controller/OnlinePreviewController.java` | High
-12 | File | `/dayrui/My/Config/Install.txt` | High
-13 | File | `/debug/pprof` | Medium
-14 | File | `/designer/add/layout` | High
-15 | File | `/dialog/select_media.php` | High
-16 | File | `/DXR.axd` | Medium
-17 | File | `/etc/quagga` | Medium
-18 | File | `/filemanager/upload/drop` | High
-19 | File | `/group1/uploa` | High
-20 | File | `/HNAP1` | Low
-21 | ... | ... | ...
+11 | File | `/contact.php` | Medium
+12 | File | `/controller/OnlinePreviewController.java` | High
+13 | File | `/dayrui/My/Config/Install.txt` | High
+14 | File | `/debug/pprof` | Medium
+15 | File | `/designer/add/layout` | High
+16 | File | `/dialog/select_media.php` | High
+17 | File | `/DXR.axd` | Medium
+18 | File | `/etc/quagga` | Medium
+19 | File | `/filemanager/upload/drop` | High
+20 | File | `/group1/uploa` | High
+21 | File | `/HNAP1` | Low
+22 | ... | ... | ...
 
-There are 170 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 183 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

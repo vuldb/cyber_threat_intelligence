@@ -94,13 +94,14 @@ ID | Type | Indicator | Confidence
 40 | File | `/param.file.tgz` | High
 41 | File | `/paysystem/branch.php` | High
 42 | File | `/paysystem/datatable.php` | High
-43 | File | `/preview.php` | Medium
-44 | File | `/rest/api/2/user/picker` | High
-45 | File | `/search/index` | High
-46 | File | `/send_order.cgi?parameter=restart` | High
-47 | ... | ... | ...
+43 | File | `/php-opos/index.php` | High
+44 | File | `/preview.php` | Medium
+45 | File | `/rest/api/2/user/picker` | High
+46 | File | `/search/index` | High
+47 | File | `/send_order.cgi?parameter=restart` | High
+48 | ... | ... | ...
 
-There are 412 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 416 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

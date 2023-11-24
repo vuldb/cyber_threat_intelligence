@@ -269,12 +269,13 @@ ID | Type | Indicator | Confidence
 37 | File | `/medicines/profile.php` | High
 38 | File | `/php-sms/admin/?page=user/manage_user` | High
 39 | File | `/plesk-site-preview/` | High
-40 | File | `/proxy` | Low
-41 | File | `/reservation/add_message.php` | High
-42 | File | `/resources//../` | High
-43 | ... | ... | ...
+40 | File | `/reservation/add_message.php` | High
+41 | File | `/resources//../` | High
+42 | File | `/spip.php` | Medium
+43 | File | `/testConnection` | High
+44 | ... | ... | ...
 
-There are 372 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 377 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

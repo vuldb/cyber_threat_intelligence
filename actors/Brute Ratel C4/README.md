@@ -76,7 +76,7 @@ ID | IP address | Hostname | Campaign | Confidence
 53 | [18.238.132.97](https://vuldb.com/?ip.18.238.132.97) | server-18-238-132-97.dfw57.r.cloudfront.net | - | High
 54 | ... | ... | ... | ...
 
-There are 211 more IOC items available. Please use our online service to access the data.
+There are 212 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -103,9 +103,9 @@ ID | Type | Indicator | Confidence
 2 | File | `//WEB-INF` | Medium
 3 | File | `/about.php` | Medium
 4 | File | `/admin.php/update/getFile.html` | High
-5 | File | `/admin/cashadvance_row.php` | High
-6 | File | `/admin/maintenance/view_designation.php` | High
-7 | File | `/admin/save.php` | High
+5 | File | `/admin/maintenance/view_designation.php` | High
+6 | File | `/admin/save.php` | High
+7 | File | `/admin/search-appointment.php` | High
 8 | File | `/admin/sys_sql_query.php` | High
 9 | File | `/admin/userprofile.php` | High
 10 | File | `/api/baskets/{name}` | High
@@ -154,7 +154,7 @@ ID | Type | Indicator | Confidence
 53 | File | `/uploads/exam_question/` | High
 54 | ... | ... | ...
 
-There are 469 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 470 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -241,6 +241,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/52.196.8.3
 * https://search.censys.io/hosts/52.196.36.24
 * https://search.censys.io/hosts/52.196.50.60
+* https://search.censys.io/hosts/52.196.213.220
 * https://search.censys.io/hosts/52.197.43.5
 * https://search.censys.io/hosts/52.197.222.201
 * https://search.censys.io/hosts/52.198.154.115

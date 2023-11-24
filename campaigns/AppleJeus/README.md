@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 12 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -67,45 +67,42 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `$HOME/.terminfo` | High
-2 | File | `/+CSCOE+/logon.html` | High
-3 | File | `/?ajax-request=jnews` | High
-4 | File | `/admin/upload/upload` | High
-5 | File | `/api/baskets/{name}` | High
-6 | File | `/api/gen/clients/{language}` | High
-7 | File | `/bin/login` | Medium
-8 | File | `/bin/mini_upnpd` | High
-9 | File | `/cgi-bin/wlogin.cgi` | High
-10 | File | `/classes/Users.php` | High
-11 | File | `/config/getuser` | High
-12 | File | `/config/myfield/test.php` | High
-13 | File | `/debug/pprof` | Medium
-14 | File | `/ecshop/admin/template.php` | High
-15 | File | `/file/upload/1` | High
-16 | File | `/forum/away.php` | High
-17 | File | `/forum/PostPrivateMessage` | High
-18 | File | `/goform/set_LimitClient_cfg` | High
-19 | File | `/h/autoSaveDraft` | High
-20 | File | `/h/search?action` | High
-21 | File | `/home/www/cgi-bin/login.cgi` | High
-22 | File | `/hss/admin/?page=products/view_product` | High
-23 | File | `/importexport.php` | High
-24 | File | `/index.php?app=main&func=passport&action=login` | High
-25 | File | `/mgmt/` | Low
-26 | File | `/multi-vendor-shopping-script/product-list.php` | High
-27 | File | `/net-banking/customer_transactions.php` | High
-28 | File | `/obs/book.php` | High
-29 | File | `/ossn/administrator/com_installer` | High
-30 | File | `/owa/auth/logon.aspx` | High
-31 | File | `/pms/update_user.php?user_id=1` | High
-32 | File | `/preview.php` | Medium
-33 | File | `/requests.php` | High
-34 | File | `/secure/ViewCollectors` | High
-35 | File | `/server-status` | High
-36 | File | `/spip.php` | Medium
-37 | File | `/sqlite3_aflpp/shell.c` | High
-38 | ... | ... | ...
+2 | File | `/?ajax-request=jnews` | High
+3 | File | `/api/baskets/{name}` | High
+4 | File | `/api/gen/clients/{language}` | High
+5 | File | `/bin/login` | Medium
+6 | File | `/bin/mini_upnpd` | High
+7 | File | `/cgi-bin/wlogin.cgi` | High
+8 | File | `/classes/Users.php` | High
+9 | File | `/config/getuser` | High
+10 | File | `/config/myfield/test.php` | High
+11 | File | `/debug/pprof` | Medium
+12 | File | `/ecshop/admin/template.php` | High
+13 | File | `/file/upload/1` | High
+14 | File | `/forum/away.php` | High
+15 | File | `/forum/PostPrivateMessage` | High
+16 | File | `/goform/set_LimitClient_cfg` | High
+17 | File | `/h/autoSaveDraft` | High
+18 | File | `/h/search?action` | High
+19 | File | `/home/www/cgi-bin/login.cgi` | High
+20 | File | `/hss/admin/?page=products/view_product` | High
+21 | File | `/importexport.php` | High
+22 | File | `/index.php?app=main&func=passport&action=login` | High
+23 | File | `/mgmt/` | Low
+24 | File | `/multi-vendor-shopping-script/product-list.php` | High
+25 | File | `/net-banking/customer_transactions.php` | High
+26 | File | `/oauth/idp/.well-known/openid-configuration` | High
+27 | File | `/obs/book.php` | High
+28 | File | `/owa/auth/logon.aspx` | High
+29 | File | `/preview.php` | Medium
+30 | File | `/requests.php` | High
+31 | File | `/secure/ViewCollectors` | High
+32 | File | `/server-status` | High
+33 | File | `/spip.php` | Medium
+34 | File | `/sqlite3_aflpp/shell.c` | High
+35 | ... | ... | ...
 
-There are 329 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 304 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

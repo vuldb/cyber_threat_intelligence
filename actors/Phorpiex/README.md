@@ -81,21 +81,21 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/read.php?mudi=getSignal` | High
-2 | File | `/cgi-bin/wlogin.cgi` | High
-3 | File | `/cloud_config/router_post/get_reset_pwd_veirfy_code` | High
-4 | File | `/etc/tomcat8/Catalina/attack` | High
-5 | File | `/index.php` | Medium
-6 | File | `/libraries` | Medium
-7 | File | `/proc/pid/attr` | High
-8 | File | `/RestAPI` | Medium
-9 | File | `/service/upload` | High
-10 | File | `/wp-admin/admin-ajax.php` | High
-11 | File | `adclick.php` | Medium
-12 | File | `admin.php` | Medium
+1 | File | `/admin/add-category.php` | High
+2 | File | `/admin/read.php?mudi=getSignal` | High
+3 | File | `/cgi-bin/wlogin.cgi` | High
+4 | File | `/cloud_config/router_post/get_reset_pwd_veirfy_code` | High
+5 | File | `/etc/tomcat8/Catalina/attack` | High
+6 | File | `/index.php` | Medium
+7 | File | `/libraries` | Medium
+8 | File | `/proc/pid/attr` | High
+9 | File | `/RestAPI` | Medium
+10 | File | `/service/upload` | High
+11 | File | `/wp-admin/admin-ajax.php` | High
+12 | File | `adclick.php` | Medium
 13 | ... | ... | ...
 
-There are 102 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 104 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

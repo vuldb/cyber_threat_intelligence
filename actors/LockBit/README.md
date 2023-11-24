@@ -36,7 +36,7 @@ ID | IP address | Hostname | Campaign | Confidence
 7 | [52.237.96.13](https://vuldb.com/?ip.52.237.96.13) | - | - | High
 8 | ... | ... | ... | ...
 
-There are 27 more IOC items available. Please use our online service to access the data.
+There are 28 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -102,13 +102,14 @@ ID | Type | Indicator | Confidence
 41 | File | `admin_add.php` | High
 42 | ... | ... | ...
 
-There are 362 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 363 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://1275.ru/ioc/158/lockbit-ransomware-iocs/
+* https://asec.ahnlab.com/en/58750/
 * https://blog.cyble.com/2023/06/06/lockbit-2-0-ransomware-resurfaces/
 * https://github.com/hvs-consulting/ioc_signatures/blob/main/Proxyshell/HvS_Proxyshell_2021_09_IOCs.csv
 * https://github.com/sophoslabs/IoCs/blob/master/Ransomware-LockBit.csv
