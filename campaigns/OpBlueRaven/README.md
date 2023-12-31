@@ -57,7 +57,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -72,63 +72,64 @@ ID | Type | Indicator | Confidence
 5 | File | `/admin/?page=user/list` | High
 6 | File | `/admin/?page=user/manage` | High
 7 | File | `/admin/about-us.php` | High
-8 | File | `/admin/add-new.php` | High
-9 | File | `/admin/admin-profile.php` | High
-10 | File | `/admin/api/theme-edit/` | High
+8 | File | `/admin/add-category.php` | High
+9 | File | `/admin/add-new.php` | High
+10 | File | `/admin/admin-profile.php` | High
 11 | File | `/admin/article/article-edit-run.php` | High
 12 | File | `/admin/attendance_row.php` | High
 13 | File | `/admin/cashadvance_row.php` | High
 14 | File | `/admin/controller/JobLogController.java` | High
 15 | File | `/admin/deduction_row.php` | High
-16 | File | `/admin/doctors.php` | High
-17 | File | `/admin/edit-accepted-appointment.php` | High
-18 | File | `/admin/employee_row.php` | High
-19 | File | `/admin/invoice.php` | High
-20 | File | `/admin/login.php` | High
-21 | File | `/admin/maintenance/brand.php` | High
-22 | File | `/admin/maintenance/view_designation.php` | High
-23 | File | `/admin/read.php?mudi=getSignal` | High
-24 | File | `/admin/sys_sql_query.php` | High
-25 | File | `/ajax.php?action=read_msg` | High
-26 | File | `/alphaware/summary.php` | High
-27 | File | `/api/` | Low
-28 | File | `/api/admin/store/product/list` | High
-29 | File | `/api/baskets/{name}` | High
-30 | File | `/api/stl/actions/search` | High
-31 | File | `/api/sys/login` | High
-32 | File | `/api/sys/set_passwd` | High
-33 | File | `/api/v2/cli/commands` | High
-34 | File | `/api/wechat/app_auth` | High
-35 | File | `/apply.cgi` | Medium
-36 | File | `/App_Resource/UEditor/server/upload.aspx` | High
-37 | File | `/author/list?limit=10&offset=0&order=desc` | High
-38 | File | `/bin/ate` | Medium
-39 | File | `/blog` | Low
-40 | File | `/boat/login.php` | High
-41 | File | `/booking/show_bookings/` | High
-42 | File | `/browse` | Low
-43 | File | `/bsms_ci/index.php/book` | High
-44 | File | `/cgi-bin` | Medium
-45 | File | `/cgi-bin/wlogin.cgi` | High
-46 | File | `/chaincity/user/ticket/create` | High
-47 | File | `/changePassword` | High
-48 | File | `/classes/Master.php?f=delete_category` | High
-49 | File | `/classes/Master.php?f=delete_sub_category` | High
-50 | File | `/classes/Users.php?f=save` | High
-51 | File | `/collection/all` | High
-52 | File | `/common/info.cgi` | High
-53 | File | `/company/store` | High
-54 | File | `/Content/Template/root/reverse-shell.aspx` | High
-55 | File | `/dashboard/add-blog.php` | High
-56 | File | `/debug/pprof` | Medium
-57 | File | `/ecshop/admin/template.php` | High
-58 | File | `/env` | Low
-59 | File | `/etc/pki/pesign` | High
-60 | File | `/forum/away.php` | High
-61 | File | `/front/roomtype-details.php` | High
-62 | ... | ... | ...
+16 | File | `/admin/del_feedback.php` | High
+17 | File | `/admin/doctors.php` | High
+18 | File | `/admin/edit-accepted-appointment.php` | High
+19 | File | `/admin/edit-services.php` | High
+20 | File | `/admin/employee_row.php` | High
+21 | File | `/admin/invoice.php` | High
+22 | File | `/admin/login.php` | High
+23 | File | `/admin/maintenance/brand.php` | High
+24 | File | `/admin/maintenance/view_designation.php` | High
+25 | File | `/admin/read.php?mudi=getSignal` | High
+26 | File | `/admin/sys_sql_query.php` | High
+27 | File | `/ajax.php?action=read_msg` | High
+28 | File | `/alphaware/summary.php` | High
+29 | File | `/api/` | Low
+30 | File | `/api/admin/store/product/list` | High
+31 | File | `/api/baskets/{name}` | High
+32 | File | `/api/stl/actions/search` | High
+33 | File | `/api/sys/login` | High
+34 | File | `/api/sys/set_passwd` | High
+35 | File | `/api/v2/cli/commands` | High
+36 | File | `/api/wechat/app_auth` | High
+37 | File | `/apply.cgi` | Medium
+38 | File | `/App_Resource/UEditor/server/upload.aspx` | High
+39 | File | `/author/list?limit=10&offset=0&order=desc` | High
+40 | File | `/bin/ate` | Medium
+41 | File | `/blog` | Low
+42 | File | `/boat/login.php` | High
+43 | File | `/booking/show_bookings/` | High
+44 | File | `/browse` | Low
+45 | File | `/bsms_ci/index.php/book` | High
+46 | File | `/cgi-bin` | Medium
+47 | File | `/cgi-bin/wlogin.cgi` | High
+48 | File | `/chaincity/user/ticket/create` | High
+49 | File | `/changePassword` | High
+50 | File | `/classes/Master.php?f=delete_category` | High
+51 | File | `/classes/Master.php?f=delete_sub_category` | High
+52 | File | `/classes/Users.php?f=save` | High
+53 | File | `/collection/all` | High
+54 | File | `/company/store` | High
+55 | File | `/Content/Template/root/reverse-shell.aspx` | High
+56 | File | `/dashboard/add-blog.php` | High
+57 | File | `/debug/pprof` | Medium
+58 | File | `/ecshop/admin/template.php` | High
+59 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+60 | File | `/env` | Low
+61 | File | `/etc/pki/pesign` | High
+62 | File | `/forum/away.php` | High
+63 | ... | ... | ...
 
-There are 546 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 549 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

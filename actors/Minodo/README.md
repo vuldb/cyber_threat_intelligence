@@ -39,7 +39,8 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
 
@@ -52,35 +53,38 @@ ID | Type | Indicator | Confidence
 1 | File | `%APPDATA%\Securepoint SSL VPN` | High
 2 | File | `/admin/read.php?mudi=announContent` | High
 3 | File | `/api/RecordingList/DownloadRecord?file=` | High
-4 | File | `/application/common.php#action_log` | High
-5 | File | `/apply.cgi` | Medium
-6 | File | `/card_scan.php` | High
-7 | File | `/cgi-bin/wlogin.cgi` | High
-8 | File | `/changeimage.php` | High
-9 | File | `/cwc/login` | Medium
-10 | File | `/download` | Medium
-11 | File | `/etc/quagga` | Medium
-12 | File | `/etc/shadow` | Medium
-13 | File | `/forms/doLogin` | High
-14 | File | `/goform/L7Im` | Medium
-15 | File | `/h/calendar` | Medium
-16 | File | `/icingaweb2/navigation/add` | High
-17 | File | `/inc/extensions.php` | High
-18 | File | `/netflow/jspui/editProfile.jsp` | High
-19 | File | `/nova/bin/console` | High
-20 | File | `/nova/bin/detnet` | High
-21 | File | `/out.php` | Medium
-22 | File | `/php-sms/classes/Master.php?f=save_quote` | High
-23 | File | `/rapi/read_url` | High
-24 | File | `/req_password_user.php` | High
-25 | File | `/rom-0` | Low
-26 | File | `/scripts/unlock_tasks.php` | High
-27 | File | `/secure/QueryComponent!Default.jspa` | High
-28 | File | `/ServletAPI/accounts/login` | High
-29 | File | `/setNTP.cgi` | Medium
-30 | ... | ... | ...
+4 | File | `/app/options.py` | High
+5 | File | `/application/common.php#action_log` | High
+6 | File | `/apply.cgi` | Medium
+7 | File | `/card_scan.php` | High
+8 | File | `/cgi-bin/wlogin.cgi` | High
+9 | File | `/changeimage.php` | High
+10 | File | `/cwc/login` | Medium
+11 | File | `/download` | Medium
+12 | File | `/etc/quagga` | Medium
+13 | File | `/etc/shadow` | Medium
+14 | File | `/forms/doLogin` | High
+15 | File | `/goform/L7Im` | Medium
+16 | File | `/h/calendar` | Medium
+17 | File | `/icingaweb2/navigation/add` | High
+18 | File | `/inc/extensions.php` | High
+19 | File | `/mhds/clinic/view_details.php` | High
+20 | File | `/netflow/jspui/editProfile.jsp` | High
+21 | File | `/nova/bin/console` | High
+22 | File | `/nova/bin/detnet` | High
+23 | File | `/out.php` | Medium
+24 | File | `/php-sms/classes/Master.php?f=save_quote` | High
+25 | File | `/rapi/read_url` | High
+26 | File | `/req_password_user.php` | High
+27 | File | `/rom-0` | Low
+28 | File | `/scripts/unlock_tasks.php` | High
+29 | File | `/secure/QueryComponent!Default.jspa` | High
+30 | File | `/ServletAPI/accounts/login` | High
+31 | File | `/setNTP.cgi` | Medium
+32 | File | `/student/bookdetails.php` | High
+33 | ... | ... | ...
 
-There are 255 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 282 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

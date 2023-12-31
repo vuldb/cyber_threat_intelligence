@@ -4,6 +4,12 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.winter_vivern](https://vuldb.com/?actor.winter_vivern)
 
+## Campaigns
+
+The following _campaigns_ are known and can be associated with Winter Vivern:
+
+* CVE-2023-5631
+
 ## Countries
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Winter Vivern:
@@ -23,10 +29,10 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [37.252.5.133](https://vuldb.com/?ip.37.252.5.133) | - | - | High
 2 | [37.252.9.123](https://vuldb.com/?ip.37.252.9.123) | gw.r-service.info | - | High
-3 | [80.79.124.135](https://vuldb.com/?ip.80.79.124.135) | 80.79.124.135.wavecom.ee | - | High
+3 | [38.180.76.31](https://vuldb.com/?ip.38.180.76.31) | - | CVE-2023-5631 | High
 4 | ... | ... | ... | ...
 
-There are 5 more IOC items available. Please use our online service to access the data.
+There are 6 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -57,7 +63,7 @@ ID | Type | Indicator | Confidence
 8 | File | `/youthappam/editcategory.php` | High
 9 | ... | ... | ...
 
-There are 68 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 69 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -66,6 +72,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://lab52.io/blog/winter-vivern-all-summer/
 * https://www.domaintools.com/resources/blog/winter-vivern-a-look-at-re-crafted-government-maldocs
 * https://www.sentinelone.com/labs/winter-vivern-uncovering-a-wave-of-global-espionage/
+* https://www.welivesecurity.com/en/eset-research/winter-vivern-exploits-zero-day-vulnerability-roundcube-webmail-servers/
 
 ## Literature
 

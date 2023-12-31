@@ -59,33 +59,33 @@ ID | Type | Indicator | Confidence
 10 | File | `/php-scrm/login.php` | High
 11 | File | `/proxy` | Low
 12 | File | `/reviewer/system/system/admins/manage/users/user-update.php` | High
-13 | File | `/send_order.cgi?parameter=access_detect` | High
-14 | File | `/text/pdf/PdfReader.java` | High
-15 | File | `/textpattern/index.php` | High
-16 | File | `/tmp` | Low
-17 | File | `/wp-admin/admin-ajax.php` | High
-18 | File | `account-signup.php` | High
-19 | File | `account/signup.php` | High
-20 | File | `addentry.php` | Medium
-21 | File | `addressbook/backends/ldap/e-book-backend-ldap.c` | High
-22 | File | `admin.jcomments.php` | High
-23 | File | `admin.php` | Medium
-24 | File | `admin/admin_editor.php` | High
-25 | File | `admin/conf_users_edit.php` | High
-26 | File | `admin/data.php` | High
-27 | File | `admin/edit_category.php` | High
-28 | File | `admin/operations/currency.php` | High
-29 | File | `agenda.php` | Medium
-30 | File | `album_portal.php` | High
-31 | File | `awstats.pl` | Medium
-32 | File | `blocks/block-Old_Articles.php` | High
-33 | File | `blogger-importer.php` | High
-34 | File | `bp_ncom.php` | Medium
-35 | File | `buy.php` | Low
-36 | File | `category.cfm` | Medium
+13 | File | `/scripts/unlock_tasks.php` | High
+14 | File | `/send_order.cgi?parameter=access_detect` | High
+15 | File | `/text/pdf/PdfReader.java` | High
+16 | File | `/textpattern/index.php` | High
+17 | File | `/tmp` | Low
+18 | File | `/wp-admin/admin-ajax.php` | High
+19 | File | `account-signup.php` | High
+20 | File | `account/signup.php` | High
+21 | File | `addentry.php` | Medium
+22 | File | `addressbook/backends/ldap/e-book-backend-ldap.c` | High
+23 | File | `admin.jcomments.php` | High
+24 | File | `admin.php` | Medium
+25 | File | `admin/admin_editor.php` | High
+26 | File | `admin/conf_users_edit.php` | High
+27 | File | `admin/data.php` | High
+28 | File | `admin/edit_category.php` | High
+29 | File | `admin/operations/currency.php` | High
+30 | File | `agenda.php` | Medium
+31 | File | `album_portal.php` | High
+32 | File | `awstats.pl` | Medium
+33 | File | `blocks/block-Old_Articles.php` | High
+34 | File | `blogger-importer.php` | High
+35 | File | `bp_ncom.php` | Medium
+36 | File | `buy.php` | Low
 37 | ... | ... | ...
 
-There are 314 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 320 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

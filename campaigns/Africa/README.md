@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Africa:
 
-* [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [TR](https://vuldb.com/?country.tr)
+* [US](https://vuldb.com/?country.us)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 20 more country items available. Please use our online service to access the data.
+There are 17 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -3994,14 +3994,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-35, CWE-425 | Pathname Traversal | High
-2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 7 | ... | ... | ... | ...
 
-There are 25 more TTP items available. Please use our online service to access the data.
+There are 23 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -4009,53 +4009,53 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/budget/manage_budget.php` | High
-2 | File | `/admin/controller/JobLogController.java` | High
-3 | File | `/admin/del_service.php` | High
-4 | File | `/admin/maintenance/view_designation.php` | High
-5 | File | `/admin/save.php` | High
-6 | File | `/api/baskets/{name}` | High
-7 | File | `/api/download` | High
-8 | File | `/api/runscript` | High
-9 | File | `/api/sys/login` | High
-10 | File | `/api/sys/set_passwd` | High
-11 | File | `/api/v1/alerts` | High
-12 | File | `/api/v1/terminal/sessions/?limit=1` | High
-13 | File | `/app/sys1.php` | High
-14 | File | `/apply.cgi` | Medium
-15 | File | `/bitrix/admin/ldap_server_edit.php` | High
-16 | File | `/category.php` | High
-17 | File | `/categorypage.php` | High
-18 | File | `/cgi-bin/luci/api/wireless` | High
-19 | File | `/cgi-bin/R14.2/cgi-bin/R14.2/host.pl` | High
-20 | File | `/cgi-bin/vitogate.cgi` | High
-21 | File | `/changePassword` | High
-22 | File | `/conf/` | Low
-23 | File | `/config/php.ini` | High
-24 | File | `/Content/Template/root/reverse-shell.aspx` | High
-25 | File | `/core/conditions/AbstractWrapper.java` | High
-26 | File | `/dashboard/add-blog.php` | High
-27 | File | `/debug/pprof` | Medium
-28 | File | `/ecshop/admin/template.php` | High
-29 | File | `/etc/init.d/openfire` | High
-30 | File | `/etc/passwd` | Medium
-31 | File | `/ethash/algorithm.go` | High
-32 | File | `/fcgi/scrut_fcgi.fcgi` | High
-33 | File | `/filemanager/upload/drop` | High
-34 | File | `/forum/away.php` | High
-35 | File | `/gaia-job-admin/user/add` | High
-36 | File | `/general/ipanel/menu_code.php?MENU_TYPE=FAV` | High
-37 | File | `/group1/uploa` | High
-38 | File | `/HNAP1` | Low
-39 | File | `/index.php?app=main&func=passport&action=login` | High
-40 | File | `/jeecg-boot/sys/common/upload` | High
-41 | File | `/jerry-core/ecma/base/ecma-helpers-string.c` | High
-42 | File | `/jurusanmatkul/data` | High
-43 | File | `/kelas/data` | Medium
-44 | File | `/log/decodmail.php` | High
+1 | File | `%PROGRAMFILES(X86)%\TSplus\UserDesktop\themes.` | High
+2 | File | `%SYSTEMDRIVE%\node_modules\.bin\wmic.exe` | High
+3 | File | `/admin/add-category.php` | High
+4 | File | `/admin/add-services.php` | High
+5 | File | `/admin/controller/JobLogController.java` | High
+6 | File | `/admin/maintenance/view_designation.php` | High
+7 | File | `/admin/save.php` | High
+8 | File | `/admin/search-appointment.php` | High
+9 | File | `/api/authentication/login` | High
+10 | File | `/api/download` | High
+11 | File | `/api/runscript` | High
+12 | File | `/api/sys/login` | High
+13 | File | `/api/sys/set_passwd` | High
+14 | File | `/api/v1/alerts` | High
+15 | File | `/api/v1/terminal/sessions/?limit=1` | High
+16 | File | `/app/sys1.php` | High
+17 | File | `/bin/rc4_crypt` | High
+18 | File | `/category.php` | High
+19 | File | `/categorypage.php` | High
+20 | File | `/cgi-bin/luci/api/switch` | High
+21 | File | `/cgi-bin/qcmap_auth` | High
+22 | File | `/cgi-bin/R14.2/cgi-bin/R14.2/host.pl` | High
+23 | File | `/cgi-bin/vitogate.cgi` | High
+24 | File | `/changePassword` | High
+25 | File | `/CMD_ACCOUNT_ADMIN` | High
+26 | File | `/conf/` | Low
+27 | File | `/dayrui/My/View/main.html` | High
+28 | File | `/debug/pprof` | Medium
+29 | File | `/ecshop/admin/template.php` | High
+30 | File | `/etc/init.d/openfire` | High
+31 | File | `/fcgi/scrut_fcgi.fcgi` | High
+32 | File | `/forum/away.php` | High
+33 | File | `/general/ipanel/menu_code.php?MENU_TYPE=FAV` | High
+34 | File | `/geoserver/gwc/rest.html` | High
+35 | File | `/goform/formSysCmd` | High
+36 | File | `/HNAP1` | Low
+37 | File | `/jerry-core/ecma/base/ecma-helpers-string.c` | High
+38 | File | `/link/` | Low
+39 | File | `/Log/Query?appid=0B736354-9473-4D66-B9C0-15CAC149EB05&tabid=tab_0B73635494734D66B9C015CAC149EB05` | High
+40 | File | `/metrics` | Medium
+41 | File | `/oauth/idp/.well-known/openid-configuration` | High
+42 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
+43 | File | `/officescan/console/html/cgi/fcgiOfcDDA.exe` | High
+44 | File | `/out.php` | Medium
 45 | ... | ... | ...
 
-There are 388 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 390 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

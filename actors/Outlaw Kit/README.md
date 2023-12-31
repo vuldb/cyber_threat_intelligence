@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Outlaw Kit:
 
-* [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 2 more country items available. Please use our online service to access the data.
+There are 3 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -40,7 +40,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 15 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -50,15 +50,15 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/ajax.php?action=read_msg` | High
 2 | File | `/debug/pprof` | Medium
-3 | File | `/env` | Low
-4 | File | `/goform/SetNetControlList` | High
-5 | File | `/src/chatbotapp/chatWindow.java` | High
-6 | File | `admin/categories_industry.php` | High
-7 | File | `admin/class-woo-popup-admin.php` | High
-8 | File | `admin/content/postcategory` | High
+3 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
+4 | File | `/env` | Low
+5 | File | `/goform/SetNetControlList` | High
+6 | File | `/src/chatbotapp/chatWindow.java` | High
+7 | File | `admin/categories_industry.php` | High
+8 | File | `admin/class-woo-popup-admin.php` | High
 9 | ... | ... | ...
 
-There are 66 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 67 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

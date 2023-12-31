@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [WF](https://vuldb.com/?country.wf)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 8 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -22,21 +22,24 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [4.240.84.251](https://vuldb.com/?ip.4.240.84.251) | - | - | High
-2 | [13.66.15.167](https://vuldb.com/?ip.13.66.15.167) | - | - | High
-3 | [15.228.13.156](https://vuldb.com/?ip.15.228.13.156) | ec2-15-228-13-156.sa-east-1.compute.amazonaws.com | - | Medium
-4 | [15.228.16.45](https://vuldb.com/?ip.15.228.16.45) | ec2-15-228-16-45.sa-east-1.compute.amazonaws.com | - | Medium
-5 | [15.228.46.182](https://vuldb.com/?ip.15.228.46.182) | ec2-15-228-46-182.sa-east-1.compute.amazonaws.com | - | Medium
-6 | [15.229.26.142](https://vuldb.com/?ip.15.229.26.142) | ec2-15-229-26-142.sa-east-1.compute.amazonaws.com | - | Medium
-7 | [18.118.78.11](https://vuldb.com/?ip.18.118.78.11) | ec2-18-118-78-11.us-east-2.compute.amazonaws.com | - | Medium
-8 | [18.223.102.186](https://vuldb.com/?ip.18.223.102.186) | ec2-18-223-102-186.us-east-2.compute.amazonaws.com | - | Medium
-9 | [18.231.161.239](https://vuldb.com/?ip.18.231.161.239) | ec2-18-231-161-239.sa-east-1.compute.amazonaws.com | - | Medium
-10 | [20.5.65.48](https://vuldb.com/?ip.20.5.65.48) | - | - | High
-11 | [20.25.181.202](https://vuldb.com/?ip.20.25.181.202) | - | - | High
-12 | [20.38.37.160](https://vuldb.com/?ip.20.38.37.160) | - | - | High
-13 | [20.121.119.89](https://vuldb.com/?ip.20.121.119.89) | - | - | High
-14 | ... | ... | ... | ...
+2 | [5.181.156.86](https://vuldb.com/?ip.5.181.156.86) | 5-181-156-86.mivocloud.com | - | High
+3 | [13.66.15.167](https://vuldb.com/?ip.13.66.15.167) | - | - | High
+4 | [15.228.13.156](https://vuldb.com/?ip.15.228.13.156) | ec2-15-228-13-156.sa-east-1.compute.amazonaws.com | - | Medium
+5 | [15.228.16.45](https://vuldb.com/?ip.15.228.16.45) | ec2-15-228-16-45.sa-east-1.compute.amazonaws.com | - | Medium
+6 | [15.228.46.182](https://vuldb.com/?ip.15.228.46.182) | ec2-15-228-46-182.sa-east-1.compute.amazonaws.com | - | Medium
+7 | [15.229.26.142](https://vuldb.com/?ip.15.229.26.142) | ec2-15-229-26-142.sa-east-1.compute.amazonaws.com | - | Medium
+8 | [18.118.78.11](https://vuldb.com/?ip.18.118.78.11) | ec2-18-118-78-11.us-east-2.compute.amazonaws.com | - | Medium
+9 | [18.223.102.186](https://vuldb.com/?ip.18.223.102.186) | ec2-18-223-102-186.us-east-2.compute.amazonaws.com | - | Medium
+10 | [18.231.161.239](https://vuldb.com/?ip.18.231.161.239) | ec2-18-231-161-239.sa-east-1.compute.amazonaws.com | - | Medium
+11 | [20.5.65.48](https://vuldb.com/?ip.20.5.65.48) | - | - | High
+12 | [20.25.181.202](https://vuldb.com/?ip.20.25.181.202) | - | - | High
+13 | [20.38.37.160](https://vuldb.com/?ip.20.38.37.160) | - | - | High
+14 | [20.121.119.89](https://vuldb.com/?ip.20.121.119.89) | - | - | High
+15 | [20.206.121.1](https://vuldb.com/?ip.20.206.121.1) | - | - | High
+16 | [20.239.166.4](https://vuldb.com/?ip.20.239.166.4) | - | - | High
+17 | ... | ... | ... | ...
 
-There are 51 more IOC items available. Please use our online service to access the data.
+There are 62 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -67,37 +70,38 @@ ID | Type | Indicator | Confidence
 7 | File | `/admin/launch_time.php` | High
 8 | File | `/admin/moduleinterface.php` | High
 9 | File | `/admin/payment.php` | High
-10 | File | `/apps/app_article/controller/editor.php` | High
-11 | File | `/artist-display.php` | High
-12 | File | `/BRS_netgear_success.html` | High
-13 | File | `/controllers/MgrDiagnosticTools.php` | High
-14 | File | `/czarnews/cn_users.php` | High
-15 | File | `/designer/add/layout` | High
-16 | File | `/dev/zero` | Medium
-17 | File | `/etc/waipass` | Medium
-18 | File | `/include/stat/stat.php` | High
-19 | File | `/index.php` | Medium
-20 | File | `/message/ajax/send/` | High
-21 | File | `/mgmt/tm/util/bash` | High
-22 | File | `/myAccount` | Medium
-23 | File | `/proc/*/exe` | Medium
-24 | File | `/real-estate-script/search_property.php` | High
-25 | File | `/recordings/index.php` | High
-26 | File | `/roomtype-details.php` | High
-27 | File | `/search.php` | Medium
-28 | File | `/searchJob.php` | High
+10 | File | `/artist-display.php` | High
+11 | File | `/BRS_netgear_success.html` | High
+12 | File | `/controllers/MgrDiagnosticTools.php` | High
+13 | File | `/czarnews/cn_users.php` | High
+14 | File | `/designer/add/layout` | High
+15 | File | `/dev/zero` | Medium
+16 | File | `/etc/waipass` | Medium
+17 | File | `/index.php` | Medium
+18 | File | `/manager/index.php` | High
+19 | File | `/message/ajax/send/` | High
+20 | File | `/mgmt/tm/util/bash` | High
+21 | File | `/myAccount` | Medium
+22 | File | `/proc/*/exe` | Medium
+23 | File | `/real-estate-script/search_property.php` | High
+24 | File | `/recordings/index.php` | High
+25 | File | `/roomtype-details.php` | High
+26 | File | `/search.php` | Medium
+27 | File | `/searchJob.php` | High
+28 | File | `/secure/QueryComponent!Default.jspa` | High
 29 | File | `/see_more_details.php` | High
 30 | File | `/StartingPage/link_req_2.php` | High
 31 | File | `/storage.html` | High
 32 | File | `/tools/required/files/importers/imageeditor` | High
 33 | File | `/uncpath/` | Medium
-34 | File | `/userman/inbox.php` | High
-35 | File | `/UserSelfServiceSettings.jsp` | High
-36 | File | `/usr/local/contego/scripts/hostname.sh` | High
-37 | File | `/var/run/docker.sock` | High
-38 | ... | ... | ...
+34 | File | `/uploads/tags.php` | High
+35 | File | `/userman/inbox.php` | High
+36 | File | `/UserSelfServiceSettings.jsp` | High
+37 | File | `/usr/local/contego/scripts/hostname.sh` | High
+38 | File | `/var/run/docker.sock` | High
+39 | ... | ... | ...
 
-There are 331 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 337 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -108,6 +112,8 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://threatfox.abuse.ch
 * https://twitter.com/Dkavalanche/status/1623456458464702468
 * https://twitter.com/Dkavalanche/status/1633256558158118913
+* https://twitter.com/Dkavalanche/status/1723002138853310922
+* https://twitter.com/jorgemieres/status/1717940842982223980
 * https://twitter.com/Merlax_/status/1598764864738033680
 * https://twitter.com/Merlax_/status/1612827626967638017
 * https://twitter.com/Merlax_/status/1617705925779017729
@@ -119,9 +125,12 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://twitter.com/Merlax_/status/1659652152543813652
 * https://twitter.com/Merlax_/status/1676546469808209925
 * https://twitter.com/Merlax_/status/1687558327457181696
+* https://twitter.com/Merlax_/status/1732944960180158722
 * https://twitter.com/SeguInfo/status/1699869450038554725
 * https://twitter.com/SeguInfo/status/1703851435077587315
+* https://twitter.com/SeguInfo/status/1705308358696210620
 * https://twitter.com/V3n0mStrike/status/1688312316134117377
+* https://www.virustotal.com/gui/file/c25dc30e13c33341aaa22ecbaa17fd28334d06089658a5521663564ee5f96b35/detection
 
 ## Literature
 

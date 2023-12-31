@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [IM](https://vuldb.com/?country.im)
 * ...
 
-There are 13 more country items available. Please use our online service to access the data.
+There are 15 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -38,7 +38,7 @@ ID | IP address | Hostname | Campaign | Confidence
 15 | [51.15.54.102](https://vuldb.com/?ip.51.15.54.102) | 102-54-15-51.instances.scw.cloud | - | High
 16 | ... | ... | ... | ...
 
-There are 60 more IOC items available. Please use our online service to access the data.
+There are 62 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -50,8 +50,7 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+5 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
 
@@ -64,32 +63,32 @@ ID | Type | Indicator | Confidence
 1 | File | `.plan` | Low
 2 | File | `.tin` | Low
 3 | File | `/admin/read.php?mudi=announContent` | High
-4 | File | `/ajaxGetFileByPath.php` | High
-5 | File | `/app/sys1.php` | High
-6 | File | `/cgi-bin/editBookmark` | High
-7 | File | `/cgi-bin/luci;stok=/locale` | High
-8 | File | `/classes/Login.php` | High
-9 | File | `/config/list` | Medium
-10 | File | `/configs/application.ini` | High
-11 | File | `/home/cavesConsole` | High
-12 | File | `/home/httpd/cgi-bin/cgi.cgi` | High
-13 | File | `/home/kickPlayer` | High
-14 | File | `/home/masterConsole` | High
-15 | File | `/home/sendBroadcast` | High
-16 | File | `/rapi/read_url` | High
-17 | File | `/services/Card/findUser` | High
-18 | File | `/spacecom/login.php` | High
-19 | File | `/student/bookdetails.php` | High
-20 | File | `/sys/dict/queryTableData` | High
-21 | File | `/Taier/API/tenant/listTenant` | High
-22 | File | `/ucenter/active.php` | High
-23 | File | `/uncpath/` | Medium
-24 | File | `/user/updatePwd` | High
-25 | File | `/userRpm/PingIframeRpm` | High
-26 | File | `/vm/admin/doctors.php` | High
-27 | File | `/xampp/guestbook-en.pl` | High
-28 | File | `/zm/index.php` | High
-29 | File | `123flashchat.php` | High
+4 | File | `/advanced-tools/nova/bin/netwatch` | High
+5 | File | `/ajaxGetFileByPath.php` | High
+6 | File | `/app/sys1.php` | High
+7 | File | `/cgi-bin/editBookmark` | High
+8 | File | `/cgi-bin/luci;stok=/locale` | High
+9 | File | `/classes/Login.php` | High
+10 | File | `/config/list` | Medium
+11 | File | `/configs/application.ini` | High
+12 | File | `/home/cavesConsole` | High
+13 | File | `/home/httpd/cgi-bin/cgi.cgi` | High
+14 | File | `/home/kickPlayer` | High
+15 | File | `/home/masterConsole` | High
+16 | File | `/home/sendBroadcast` | High
+17 | File | `/rapi/read_url` | High
+18 | File | `/services/Card/findUser` | High
+19 | File | `/spacecom/login.php` | High
+20 | File | `/student/bookdetails.php` | High
+21 | File | `/sys/dict/queryTableData` | High
+22 | File | `/Taier/API/tenant/listTenant` | High
+23 | File | `/ucenter/active.php` | High
+24 | File | `/uncpath/` | Medium
+25 | File | `/user/updatePwd` | High
+26 | File | `/userRpm/PingIframeRpm` | High
+27 | File | `/vm/admin/doctors.php` | High
+28 | File | `/xampp/guestbook-en.pl` | High
+29 | File | `/zm/index.php` | High
 30 | File | `abook_database.php` | High
 31 | File | `action.php` | Medium
 32 | File | `admin.php` | Medium
@@ -100,10 +99,9 @@ ID | Type | Indicator | Confidence
 37 | File | `afd.sys` | Low
 38 | File | `akocomment.php` | High
 39 | File | `app/routes/research.js` | High
-40 | File | `article.php` | Medium
-41 | ... | ... | ...
+40 | ... | ... | ...
 
-There are 355 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 345 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -124,7 +122,9 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://isc.sans.edu/forums/diary/CoinMiners+searching+for+hosts/24364/
 * https://isc.sans.edu/forums/diary/From+Microtik+with+Love/23762/ https://isc.sans.edu/forums/diary/More+malspam+pushing+Lokibot/23754/
 * https://isc.sans.edu/forums/diary/Pornographic+malspam+pushes+coin+miner+malware/23119/
+* https://threatfox.abuse.ch
 * https://tria.ge/220416-dv7casgchn
+* https://urlhaus.abuse.ch/url/2739139/
 * https://www.trendmicro.com/en_us/research/22/i/a-post-exploitation-look-at-coinminers-abusing-weblogic-vulnerab.html
 
 ## Literature

@@ -20,7 +20,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [LA](https://vuldb.com/?country.la)
 * ...
 
-There are 15 more country items available. Please use our online service to access the data.
+There are 14 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -47,12 +47,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-28 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-28, CWE-35 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+6 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+7 | ... | ... | ... | ...
 
 There are 22 more TTP items available. Please use our online service to access the data.
 
@@ -66,48 +67,49 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin.php/accessory/filesdel.html` | High
 3 | File | `/admin/?page=user/manage` | High
 4 | File | `/admin/add-new.php` | High
-5 | File | `/admin/doctors.php` | High
-6 | File | `/admin/submit-articles` | High
-7 | File | `/alphaware/summary.php` | High
-8 | File | `/api/` | Low
-9 | File | `/api/admin/store/product/list` | High
-10 | File | `/api/baskets/{name}` | High
-11 | File | `/api/stl/actions/search` | High
-12 | File | `/api/v2/cli/commands` | High
-13 | File | `/attachments` | Medium
-14 | File | `/bin/ate` | Medium
-15 | File | `/boat/login.php` | High
-16 | File | `/booking/show_bookings/` | High
-17 | File | `/bsms_ci/index.php/book` | High
-18 | File | `/cgi-bin` | Medium
-19 | File | `/cgi-bin/wlogin.cgi` | High
-20 | File | `/Content/Template/root/reverse-shell.aspx` | High
-21 | File | `/context/%2e/WEB-INF/web.xml` | High
-22 | File | `/dashboard/add-blog.php` | High
-23 | File | `/debug/pprof` | Medium
-24 | File | `/DXR.axd` | Medium
-25 | File | `/enginemanager/server/user/delete.htm` | High
-26 | File | `/env` | Low
-27 | File | `/etc/hosts` | Medium
-28 | File | `/forum/away.php` | High
-29 | File | `/goform/delAd` | High
-30 | File | `/goform/SetFirewallCfg` | High
-31 | File | `/goform/wizard_end` | High
-32 | File | `/group1/uploa` | High
-33 | File | `/j_security_check` | High
-34 | File | `/medicines/profile.php` | High
-35 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-36 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-37 | File | `/out.php` | Medium
-38 | File | `/owa/auth/logon.aspx` | High
-39 | File | `/php-sms/admin/?page=user/manage_user` | High
-40 | File | `/probe?target` | High
-41 | File | `/proxy` | Low
-42 | File | `/reservation/add_message.php` | High
-43 | File | `/resources//../` | High
-44 | ... | ... | ...
+5 | File | `/admin/controller/JobLogController.java` | High
+6 | File | `/admin/doctors.php` | High
+7 | File | `/admin/submit-articles` | High
+8 | File | `/alphaware/summary.php` | High
+9 | File | `/api/` | Low
+10 | File | `/api/admin/store/product/list` | High
+11 | File | `/api/baskets/{name}` | High
+12 | File | `/api/stl/actions/search` | High
+13 | File | `/api/sys/login` | High
+14 | File | `/api/sys/set_passwd` | High
+15 | File | `/api/v2/cli/commands` | High
+16 | File | `/attachments` | Medium
+17 | File | `/bin/ate` | Medium
+18 | File | `/bitrix/admin/ldap_server_edit.php` | High
+19 | File | `/boat/login.php` | High
+20 | File | `/booking/show_bookings/` | High
+21 | File | `/bsms_ci/index.php/book` | High
+22 | File | `/cgi-bin` | Medium
+23 | File | `/cgi-bin/wlogin.cgi` | High
+24 | File | `/changePassword` | High
+25 | File | `/Content/Template/root/reverse-shell.aspx` | High
+26 | File | `/dashboard/add-blog.php` | High
+27 | File | `/debug/pprof` | Medium
+28 | File | `/DXR.axd` | Medium
+29 | File | `/ecshop/admin/template.php` | High
+30 | File | `/enginemanager/server/user/delete.htm` | High
+31 | File | `/env` | Low
+32 | File | `/etc/hosts` | Medium
+33 | File | `/forum/away.php` | High
+34 | File | `/goform/SetFirewallCfg` | High
+35 | File | `/group1/uploa` | High
+36 | File | `/j_security_check` | High
+37 | File | `/medicines/profile.php` | High
+38 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+39 | File | `/out.php` | Medium
+40 | File | `/owa/auth/logon.aspx` | High
+41 | File | `/php-sms/admin/?page=user/manage_user` | High
+42 | File | `/probe?target` | High
+43 | File | `/proxy` | Low
+44 | File | `/reservation/add_message.php` | High
+45 | ... | ... | ...
 
-There are 380 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 390 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

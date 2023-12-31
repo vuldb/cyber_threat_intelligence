@@ -21,7 +21,8 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [179.43.170.241](https://vuldb.com/?ip.179.43.170.241) | hostedby.privatelayer.com | - | High
+1 | [89.208.107.12](https://vuldb.com/?ip.89.208.107.12) | attractive-reason.aeza.network | - | High
+2 | [179.43.170.241](https://vuldb.com/?ip.179.43.170.241) | hostedby.privatelayer.com | - | High
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -69,16 +70,18 @@ ID | Type | Indicator | Confidence
 23 | File | `/index.php?app=main&func=passport&action=login` | High
 24 | File | `/jfinal_cms/system/role/list` | High
 25 | File | `/kelas/data` | Medium
-26 | File | `/Moosikay/order.php` | High
-27 | File | `/php-sms/admin/quotes/manage_remark.php` | High
-28 | File | `/secure/QueryComponent!Default.jspa` | High
-29 | File | `/squashfs-root/etc_ro/custom.conf` | High
-30 | File | `/staff/edit_book_details.php` | High
-31 | File | `/SysManage/AddUpdateRole.aspx` | High
-32 | File | `/sysmanage/importconf.php` | High
-33 | ... | ... | ...
+26 | File | `/listplace/user/ticket/create` | High
+27 | File | `/Moosikay/order.php` | High
+28 | File | `/php-sms/admin/quotes/manage_remark.php` | High
+29 | File | `/secure/QueryComponent!Default.jspa` | High
+30 | File | `/squashfs-root/etc_ro/custom.conf` | High
+31 | File | `/staff/edit_book_details.php` | High
+32 | File | `/SysManage/AddUpdateRole.aspx` | High
+33 | File | `/sysmanage/importconf.php` | High
+34 | File | `/user/profile` | High
+35 | ... | ... | ...
 
-There are 284 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 295 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

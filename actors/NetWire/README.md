@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 20 more country items available. Please use our online service to access the data.
+There are 21 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -90,24 +90,24 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.../gogo/` | Medium
-2 | File | `/?ajax-request=jnews` | High
-3 | File | `/?r=recruit/resume/edit&op=status` | High
-4 | File | `/admin.php/Admin/adminadd.html` | High
-5 | File | `/admin/?page=user/list` | High
-6 | File | `/admin/?page=user/manage_user&id=3` | High
-7 | File | `/admin/about-us.php` | High
-8 | File | `/admin/del_category.php` | High
-9 | File | `/admin/del_service.php` | High
-10 | File | `/admin/edit-accepted-appointment.php` | High
-11 | File | `/admin/edit-services.php` | High
-12 | File | `/admin/edit_category.php` | High
-13 | File | `/admin/edit_subject.php` | High
-14 | File | `/admin/forgot-password.php` | High
-15 | File | `/admin/index.php` | High
-16 | File | `/admin/products/manage_product.php` | High
-17 | File | `/admin/reg.php` | High
-18 | File | `/admin/search-appointment.php` | High
-19 | File | `/admin/settings/save.php` | High
+2 | File | `/.env` | Low
+3 | File | `//proc/kcore` | Medium
+4 | File | `/?ajax-request=jnews` | High
+5 | File | `/?r=recruit/resume/edit&op=status` | High
+6 | File | `/admin/?page=user/list` | High
+7 | File | `/admin/?page=user/manage_user&id=3` | High
+8 | File | `/admin/about-us.php` | High
+9 | File | `/admin/del_category.php` | High
+10 | File | `/admin/del_service.php` | High
+11 | File | `/admin/edit-accepted-appointment.php` | High
+12 | File | `/admin/edit-services.php` | High
+13 | File | `/admin/edit_category.php` | High
+14 | File | `/admin/edit_subject.php` | High
+15 | File | `/admin/forgot-password.php` | High
+16 | File | `/admin/index.php` | High
+17 | File | `/admin/products/manage_product.php` | High
+18 | File | `/admin/reg.php` | High
+19 | File | `/admin/search-appointment.php` | High
 20 | File | `/admin/sys_sql_query.php` | High
 21 | File | `/admin/userprofile.php` | High
 22 | File | `/api/baskets/{name}` | High
@@ -150,7 +150,7 @@ ID | Type | Indicator | Confidence
 59 | File | `/php-scrm/login.php` | High
 60 | ... | ... | ...
 
-There are 520 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 526 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -88,32 +88,33 @@ ID | Type | Indicator | Confidence
 17 | File | `/admin/payment.php` | High
 18 | File | `/admin/reg.php` | High
 19 | File | `/admin/search-appointment.php` | High
-20 | File | `/admin/subnets/ripe-query.php` | High
-21 | File | `/api/sys/login` | High
-22 | File | `/api/sys/set_passwd` | High
-23 | File | `/apply.cgi` | Medium
-24 | File | `/App_Resource/UEditor/server/upload.aspx` | High
-25 | File | `/booking/show_bookings/` | High
-26 | File | `/cgi-bin/adm.cgi` | High
-27 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
-28 | File | `/chaincity/user/ticket/create` | High
-29 | File | `/collection/all` | High
-30 | File | `/common/info.cgi` | High
-31 | File | `/core/conditions/AbstractWrapper.java` | High
-32 | File | `/debug/pprof` | Medium
-33 | File | `/dipam/athlete-profile.php` | High
-34 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-35 | File | `/export` | Low
-36 | File | `/file?action=download&file` | High
-37 | File | `/filemanager/upload/drop` | High
-38 | File | `/forum/away.php` | High
-39 | File | `/function/login.php` | High
-40 | File | `/hardware` | Medium
-41 | File | `/hrm/employeeview.php` | High
-42 | File | `/importexport.php` | High
-43 | ... | ... | ...
+20 | File | `/admin/students/update_status.php` | High
+21 | File | `/admin/subnets/ripe-query.php` | High
+22 | File | `/api/sys/login` | High
+23 | File | `/api/sys/set_passwd` | High
+24 | File | `/apply.cgi` | Medium
+25 | File | `/App_Resource/UEditor/server/upload.aspx` | High
+26 | File | `/booking/show_bookings/` | High
+27 | File | `/cgi-bin/adm.cgi` | High
+28 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
+29 | File | `/chaincity/user/ticket/create` | High
+30 | File | `/collection/all` | High
+31 | File | `/common/info.cgi` | High
+32 | File | `/core/conditions/AbstractWrapper.java` | High
+33 | File | `/debug/pprof` | Medium
+34 | File | `/dipam/athlete-profile.php` | High
+35 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+36 | File | `/export` | Low
+37 | File | `/file?action=download&file` | High
+38 | File | `/filemanager/upload/drop` | High
+39 | File | `/forum/away.php` | High
+40 | File | `/function/login.php` | High
+41 | File | `/goform/SetNetControlList` | High
+42 | File | `/hardware` | Medium
+43 | File | `/hrm/employeeview.php` | High
+44 | ... | ... | ...
 
-There are 374 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 378 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -15,8 +15,8 @@ The following _campaigns_ are known and can be associated with LULU:
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with LULU:
 
 * [IT](https://vuldb.com/?country.it)
-* [GB](https://vuldb.com/?country.gb)
 * [US](https://vuldb.com/?country.us)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
 There are 1 more country items available. Please use our online service to access the data.

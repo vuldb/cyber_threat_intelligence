@@ -20,7 +20,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 15 more country items available. Please use our online service to access the data.
+There are 16 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -77,56 +77,56 @@ ID | Type | Indicator | Confidence
 8 | File | `/advance_push/public/login` | High
 9 | File | `/ajax-files/postComment.php` | High
 10 | File | `/anony/mjpg.cgi` | High
-11 | File | `/catalog` | Medium
-12 | File | `/cgi-bin/ExportSettings.sh` | High
-13 | File | `/cgi-bin/login_action.cgi` | High
-14 | File | `/cgi-bin/webproc` | High
-15 | File | `/checkLogin.cgi` | High
-16 | File | `/classes/profile.class.php` | High
-17 | File | `/common/run_report.php` | High
-18 | File | `/data/inc/images.php` | High
-19 | File | `/data/syslog.filter.json` | High
-20 | File | `/data/wps.setup.json` | High
-21 | File | `/docs/captcha_(number).jpeg` | High
-22 | File | `/etc/config/rpcd` | High
-23 | File | `/etc/hosts` | Medium
-24 | File | `/forum/` | Low
-25 | File | `/forum/away.php` | High
-26 | File | `/goform/net\_Web\_get_value` | High
-27 | File | `/index.php` | Medium
-28 | File | `/index.php/weblinks-categories` | High
-29 | File | `/j_security_check` | High
-30 | File | `/login.html` | Medium
-31 | File | `/menu.html` | Medium
-32 | File | `/mics/j_spring_security_check` | High
-33 | File | `/mnt/sdcard/$PRO_NAME/upgrade.sh` | High
-34 | File | `/mnt/skyeye/mode_switch.sh` | High
-35 | File | `/mybb_1806/Upload/admin/index.php` | High
-36 | File | `/oauth/token` | Medium
-37 | File | `/plain` | Low
-38 | File | `/pms/admin/visits/view_visit.php` | High
-39 | File | `/public/login.htm` | High
-40 | File | `/romfile.cfg` | Medium
-41 | File | `/scp/directory.php` | High
-42 | File | `/setSystemAdmin` | High
-43 | File | `/system/WCore/WHelper.php` | High
-44 | File | `/uncpath/` | Medium
-45 | File | `/upload` | Low
-46 | File | `/userfs/bin/tcapi` | High
-47 | File | `/var/www/xms/application/config/config.php` | High
-48 | File | `/var/www/xms/application/controllers/gatherLogs.php` | High
-49 | File | `/var/www/xms/application/controllers/verifyLogin.php` | High
-50 | File | `/var/www/xms/cleanzip.sh` | High
-51 | File | `/vendor/phpdocumentor/reflection-docblock/tests/phpDocumentor/Reflection/DocBlock/Tag/LinkTagTeet.php` | High
-52 | File | `/wbms/classes/Master.php?f=delete_client` | High
-53 | File | `/websocket/exec` | High
-54 | File | `/workspaceCleanup` | High
-55 | File | `/wp-admin/admin-ajax.php?action=get_wdtable&table_id=1` | High
-56 | File | `account/gallery.php` | High
-57 | File | `add_edit_cat.asp` | High
+11 | File | `/application/common.php#action_log` | High
+12 | File | `/catalog` | Medium
+13 | File | `/cgi-bin/ExportSettings.sh` | High
+14 | File | `/cgi-bin/login_action.cgi` | High
+15 | File | `/cgi-bin/webproc` | High
+16 | File | `/checkLogin.cgi` | High
+17 | File | `/classes/profile.class.php` | High
+18 | File | `/common/run_report.php` | High
+19 | File | `/data/inc/images.php` | High
+20 | File | `/data/syslog.filter.json` | High
+21 | File | `/data/wps.setup.json` | High
+22 | File | `/docs/captcha_(number).jpeg` | High
+23 | File | `/etc/config/rpcd` | High
+24 | File | `/etc/hosts` | Medium
+25 | File | `/forum/` | Low
+26 | File | `/forum/away.php` | High
+27 | File | `/goform/net\_Web\_get_value` | High
+28 | File | `/index.php` | Medium
+29 | File | `/index.php/weblinks-categories` | High
+30 | File | `/j_security_check` | High
+31 | File | `/login.html` | Medium
+32 | File | `/menu.html` | Medium
+33 | File | `/mics/j_spring_security_check` | High
+34 | File | `/mnt/sdcard/$PRO_NAME/upgrade.sh` | High
+35 | File | `/mnt/skyeye/mode_switch.sh` | High
+36 | File | `/mybb_1806/Upload/admin/index.php` | High
+37 | File | `/oauth/token` | Medium
+38 | File | `/plain` | Low
+39 | File | `/pms/admin/visits/view_visit.php` | High
+40 | File | `/public/login.htm` | High
+41 | File | `/romfile.cfg` | Medium
+42 | File | `/scp/directory.php` | High
+43 | File | `/setSystemAdmin` | High
+44 | File | `/system/WCore/WHelper.php` | High
+45 | File | `/uncpath/` | Medium
+46 | File | `/upload` | Low
+47 | File | `/userfs/bin/tcapi` | High
+48 | File | `/var/www/xms/application/config/config.php` | High
+49 | File | `/var/www/xms/application/controllers/gatherLogs.php` | High
+50 | File | `/var/www/xms/application/controllers/verifyLogin.php` | High
+51 | File | `/var/www/xms/cleanzip.sh` | High
+52 | File | `/vendor/phpdocumentor/reflection-docblock/tests/phpDocumentor/Reflection/DocBlock/Tag/LinkTagTeet.php` | High
+53 | File | `/wbms/classes/Master.php?f=delete_client` | High
+54 | File | `/websocket/exec` | High
+55 | File | `/workspaceCleanup` | High
+56 | File | `/wp-admin/admin-ajax.php?action=get_wdtable&table_id=1` | High
+57 | File | `account/gallery.php` | High
 58 | ... | ... | ...
 
-There are 503 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 504 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

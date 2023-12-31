@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 18 more country items available. Please use our online service to access the data.
+There are 17 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -163,12 +163,12 @@ ID | Type | Indicator | Confidence
 25 | File | `/index.php?app=main&func=passport&action=login` | High
 26 | File | `/jfinal_cms/system/role/list` | High
 27 | File | `/kelas/data` | Medium
-28 | File | `/members/view_member.php` | High
-29 | File | `/mhds/clinic/view_details.php` | High
-30 | File | `/Moosikay/order.php` | High
-31 | File | `/owa/auth/logon.aspx` | High
-32 | File | `/php-sms/admin/quotes/manage_remark.php` | High
-33 | File | `/rapi/read_url` | High
+28 | File | `/listplace/user/ticket/create` | High
+29 | File | `/members/view_member.php` | High
+30 | File | `/mhds/clinic/view_details.php` | High
+31 | File | `/Moosikay/order.php` | High
+32 | File | `/owa/auth/logon.aspx` | High
+33 | File | `/php-sms/admin/quotes/manage_remark.php` | High
 34 | File | `/rest/api/latest/projectvalidate/key` | High
 35 | File | `/scripts/unlock_tasks.php` | High
 36 | File | `/secure/QueryComponent!Default.jspa` | High
@@ -178,11 +178,11 @@ ID | Type | Indicator | Confidence
 40 | File | `/SysManage/AddUpdateRole.aspx` | High
 41 | File | `/sysmanage/importconf.php` | High
 42 | File | `/system/user/modules/mod_users/controller.php` | High
-43 | File | `/uncpath/` | Medium
-44 | File | `/user/profile` | High
+43 | File | `/user/profile` | High
+44 | File | `/WEB-INF/web.xml` | High
 45 | ... | ... | ...
 
-There are 391 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 387 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

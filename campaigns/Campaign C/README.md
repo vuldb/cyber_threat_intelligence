@@ -81,34 +81,33 @@ ID | Type | Indicator | Confidence
 16 | File | `/Content/Template/root/reverse-shell.aspx` | High
 17 | File | `/ctcprotocol/Protocol` | High
 18 | File | `/dashboard/menu-list.php` | High
-19 | File | `/data/remove` | Medium
-20 | File | `/debug` | Low
-21 | File | `/debug/pprof` | Medium
-22 | File | `/ebics-server/ebics.aspx` | High
-23 | File | `/env` | Low
-24 | File | `/ffos/classes/Master.php?f=save_category` | High
-25 | File | `/forum/away.php` | High
-26 | File | `/goform/net\_Web\_get_value` | High
-27 | File | `/goform/setmac` | High
-28 | File | `/goforms/rlminfo` | High
-29 | File | `/GponForm/usb_restore_Form?script/` | High
-30 | File | `/group1/uploa` | High
-31 | File | `/HNAP1` | Low
-32 | File | `/HNAP1/SetClientInfo` | High
-33 | File | `/Items/*/RemoteImages/Download` | High
-34 | File | `/menu.html` | Medium
-35 | File | `/modules/profile/index.php` | High
-36 | File | `/navigate/navigate_download.php` | High
-37 | File | `/net/sched/cls_fw.c` | High
-38 | File | `/ocwbs/admin/?page=user/manage_user` | High
-39 | File | `/ofrs/admin/?page=user/manage_user` | High
-40 | File | `/out.php` | Medium
-41 | File | `/php_action/fetchSelectedUser.php` | High
-42 | File | `/plugin` | Low
-43 | File | `/property-list/property_view.php` | High
-44 | ... | ... | ...
+19 | File | `/debug` | Low
+20 | File | `/debug/pprof` | Medium
+21 | File | `/ebics-server/ebics.aspx` | High
+22 | File | `/env` | Low
+23 | File | `/ffos/classes/Master.php?f=save_category` | High
+24 | File | `/forum/away.php` | High
+25 | File | `/goform/net\_Web\_get_value` | High
+26 | File | `/goform/setmac` | High
+27 | File | `/goforms/rlminfo` | High
+28 | File | `/GponForm/usb_restore_Form?script/` | High
+29 | File | `/group1/uploa` | High
+30 | File | `/HNAP1` | Low
+31 | File | `/HNAP1/SetClientInfo` | High
+32 | File | `/Items/*/RemoteImages/Download` | High
+33 | File | `/menu.html` | Medium
+34 | File | `/modules/profile/index.php` | High
+35 | File | `/navigate/navigate_download.php` | High
+36 | File | `/net/sched/cls_fw.c` | High
+37 | File | `/ocwbs/admin/?page=user/manage_user` | High
+38 | File | `/ofrs/admin/?page=user/manage_user` | High
+39 | File | `/out.php` | Medium
+40 | File | `/php_action/fetchSelectedUser.php` | High
+41 | File | `/plugin` | Low
+42 | File | `/property-list/property_view.php` | High
+43 | ... | ... | ...
 
-There are 379 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 373 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

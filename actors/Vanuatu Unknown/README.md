@@ -82,36 +82,37 @@ ID | Type | Indicator | Confidence
 23 | File | `/items/search` | High
 24 | File | `/maint/index.php` | High
 25 | File | `/obs/bookPerPub.php` | High
-26 | File | `/pages/apply_vacancy.php` | High
-27 | File | `/proc` | Low
-28 | File | `/reviewer/system/system/admins/manage/users/user-update.php` | High
-29 | File | `/timeline2.php` | High
-30 | File | `/tmp/csman/0` | Medium
-31 | File | `/uncpath/` | Medium
-32 | File | `/vaccinated/admin/maintenance/manage_location.php` | High
-33 | File | `adclick.php` | Medium
-34 | File | `addentry.php` | Medium
-35 | File | `addtocart.asp` | High
-36 | File | `add_comment.php` | High
-37 | File | `admin.color.php` | High
-38 | File | `admin.php` | Medium
-39 | File | `admin.php?mod=db&act=del` | High
-40 | File | `admin.php?mod=user&act=del` | High
-41 | File | `admin.php?moduleid=2&action=add` | High
-42 | File | `admin/addons/archive/archive.php` | High
-43 | File | `admin/auth.php` | High
-44 | File | `admin/category.inc.php` | High
-45 | File | `admin/conf_users_edit.php` | High
-46 | File | `admin/languages.php` | High
-47 | File | `admin/login.asp` | High
-48 | File | `admincp/auth/checklogin.php` | High
-49 | File | `admin\setting.inc.php` | High
-50 | File | `album_portal.php` | High
-51 | File | `al_initialize.php` | High
-52 | File | `app/controllers/oauth.js` | High
-53 | ... | ... | ...
+26 | File | `/oews/classes/Master.php?f=update_cart` | High
+27 | File | `/pages/apply_vacancy.php` | High
+28 | File | `/proc` | Low
+29 | File | `/reviewer/system/system/admins/manage/users/user-update.php` | High
+30 | File | `/timeline2.php` | High
+31 | File | `/tmp/csman/0` | Medium
+32 | File | `/uncpath/` | Medium
+33 | File | `/vaccinated/admin/maintenance/manage_location.php` | High
+34 | File | `adclick.php` | Medium
+35 | File | `addentry.php` | Medium
+36 | File | `addtocart.asp` | High
+37 | File | `add_comment.php` | High
+38 | File | `admin.color.php` | High
+39 | File | `admin.php` | Medium
+40 | File | `admin.php?mod=db&act=del` | High
+41 | File | `admin.php?mod=user&act=del` | High
+42 | File | `admin.php?moduleid=2&action=add` | High
+43 | File | `admin/addons/archive/archive.php` | High
+44 | File | `admin/auth.php` | High
+45 | File | `admin/category.inc.php` | High
+46 | File | `admin/conf_users_edit.php` | High
+47 | File | `admin/languages.php` | High
+48 | File | `admin/login.asp` | High
+49 | File | `admincp/auth/checklogin.php` | High
+50 | File | `admin\setting.inc.php` | High
+51 | File | `album_portal.php` | High
+52 | File | `al_initialize.php` | High
+53 | File | `app/controllers/oauth.js` | High
+54 | ... | ... | ...
 
-There are 461 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 469 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

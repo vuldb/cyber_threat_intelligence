@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 20 more country items available. Please use our online service to access the data.
+There are 19 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -80,24 +80,24 @@ ID | Type | Indicator | Confidence
 23 | File | `/goform/net\_Web\_get_value` | High
 24 | File | `/goforms/rlminfo` | High
 25 | File | `/GponForm/usb_restore_Form?script/` | High
-26 | File | `/HNAP1` | Low
-27 | File | `/HNAP1/SetClientInfo` | High
-28 | File | `/Items/*/RemoteImages/Download` | High
-29 | File | `/menu.html` | Medium
-30 | File | `/modules/profile/index.php` | High
-31 | File | `/navigate/navigate_download.php` | High
-32 | File | `/ocwbs/admin/?page=user/manage_user` | High
-33 | File | `/ofrs/admin/?page=user/manage_user` | High
-34 | File | `/out.php` | Medium
-35 | File | `/password.html` | High
-36 | File | `/php_action/fetchSelectedUser.php` | High
-37 | File | `/pms/index.php` | High
-38 | File | `/property-list/property_view.php` | High
-39 | File | `/ptms/classes/Users.php` | High
-40 | File | `/resources//../` | High
+26 | File | `/group1/uploa` | High
+27 | File | `/HNAP1` | Low
+28 | File | `/HNAP1/SetClientInfo` | High
+29 | File | `/Items/*/RemoteImages/Download` | High
+30 | File | `/menu.html` | Medium
+31 | File | `/modules/profile/index.php` | High
+32 | File | `/navigate/navigate_download.php` | High
+33 | File | `/ocwbs/admin/?page=user/manage_user` | High
+34 | File | `/ofrs/admin/?page=user/manage_user` | High
+35 | File | `/out.php` | Medium
+36 | File | `/password.html` | High
+37 | File | `/php_action/fetchSelectedUser.php` | High
+38 | File | `/plugin` | Low
+39 | File | `/pms/index.php` | High
+40 | File | `/property-list/property_view.php` | High
 41 | ... | ... | ...
 
-There are 354 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 356 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

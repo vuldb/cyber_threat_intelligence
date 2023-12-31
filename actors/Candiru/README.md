@@ -84,14 +84,14 @@ ID | Type | Indicator | Confidence
 23 | File | `/getcfg.php` | Medium
 24 | File | `/goform/aspForm` | High
 25 | File | `/goform/SetClientState` | High
-26 | File | `/goform/SysToolChangePwd` | High
-27 | File | `/irj/servlet/prt/portal/prtroot/com.sap.portal.usermanagement.admin.UserMapping` | High
-28 | File | `/jerry-core/ecma/base/ecma-gc.c` | High
-29 | File | `/jerry-core/ecma/base/ecma-helpers-conversion.c` | High
-30 | File | `/librarian/bookdetails.php` | High
-31 | File | `/librarian/lab.php` | High
-32 | File | `/login` | Low
-33 | File | `/mngset/authset` | High
+26 | File | `/goform/set_LimitClient_cfg` | High
+27 | File | `/goform/SysToolChangePwd` | High
+28 | File | `/irj/servlet/prt/portal/prtroot/com.sap.portal.usermanagement.admin.UserMapping` | High
+29 | File | `/jerry-core/ecma/base/ecma-gc.c` | High
+30 | File | `/jerry-core/ecma/base/ecma-helpers-conversion.c` | High
+31 | File | `/librarian/bookdetails.php` | High
+32 | File | `/librarian/lab.php` | High
+33 | File | `/login` | Low
 34 | ... | ... | ...
 
 There are 293 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.

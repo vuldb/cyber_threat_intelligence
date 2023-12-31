@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Hong Kong Unknown:
 
 * [VN](https://vuldb.com/?country.vn)
-* [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
+* [US](https://vuldb.com/?country.us)
 * ...
 
-There are 10 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -4428,12 +4428,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-37 | Pathname Traversal | High
-2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
-6 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-425 | Pathname Traversal | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+7 | ... | ... | ... | ...
 
 There are 22 more TTP items available. Please use our online service to access the data.
 
@@ -4443,45 +4444,50 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/ajax.php?action=confirm_order` | High
-2 | File | `/admin/controller/JobLogController.java` | High
-3 | File | `/admin/index2.html` | High
-4 | File | `/admin/sales/view_details.php` | High
-5 | File | `/api/blade-log/api/list` | High
-6 | File | `/api/sys/login` | High
-7 | File | `/api/sys/set_passwd` | High
-8 | File | `/api/v1/alerts` | High
-9 | File | `/app/sys1.php` | High
-10 | File | `/assets/something/services/AppModule.class` | High
-11 | File | `/audit/log/log_management.php` | High
-12 | File | `/bsms_ci/index.php` | High
-13 | File | `/cgi-bin/upload_vpntar` | High
-14 | File | `/cgi-bin/wlogin.cgi` | High
-15 | File | `/changePassword` | High
-16 | File | `/classes/Master.php?f=delete_sub_category` | High
-17 | File | `/classes/Users.php` | High
-18 | File | `/conf/` | Low
-19 | File | `/config-manager/save` | High
-20 | File | `/core/tools/customblock.php` | High
-21 | File | `/data/remove` | Medium
-22 | File | `/debug/pprof` | Medium
-23 | File | `/ecshop/admin/template.php` | High
-24 | File | `/env` | Low
-25 | File | `/etc/init.d/openfire` | High
-26 | File | `/fcgi/scrut_fcgi.fcgi` | High
-27 | File | `/forms/doLogin` | High
-28 | File | `/forum/away.php` | High
-29 | File | `/index.php?app=main&func=passport&action=login` | High
-30 | File | `/librarian/bookdetails.php` | High
-31 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
-32 | File | `/officescan/console/html/cgi/fcgiOfcDDA.exe` | High
-33 | File | `/out.php` | Medium
-34 | File | `/php-opos/index.php` | High
-35 | File | `/plain` | Low
-36 | File | `/preview.php` | Medium
-37 | ... | ... | ...
+1 | File | `%SYSTEMDRIVE%\node_modules\.bin\wmic.exe` | High
+2 | File | `/accounts/password_change/` | High
+3 | File | `/admin/category/save` | High
+4 | File | `/admin/manage-pages.php` | High
+5 | File | `/admin/manage-users.php` | High
+6 | File | `/admin/options-theme.php` | High
+7 | File | `/admin/subject.php` | High
+8 | File | `/adms/admin/?page=user/manage_user` | High
+9 | File | `/api/admin/system/store/order/list` | High
+10 | File | `/api/authentication/login` | High
+11 | File | `/api/baskets/{name}` | High
+12 | File | `/api/upload.php` | High
+13 | File | `/auth/auth.php?user=1` | High
+14 | File | `/authenticationendpoint/login.do` | High
+15 | File | `/b2b-supermarket/catalog/all-products` | High
+16 | File | `/b2b-supermarket/shopping-cart` | High
+17 | File | `/bin/rc4_crypt` | High
+18 | File | `/bsms_ci/index.php` | High
+19 | File | `/cgi-bin/cstecgi.cgi` | High
+20 | File | `/cgi-bin/luci/api/switch` | High
+21 | File | `/cgi-bin/qcmap_auth` | High
+22 | File | `/cgi-bin/wlogin.cgi` | High
+23 | File | `/classes/Master.php` | High
+24 | File | `/classes/Master.php?f=delete_category` | High
+25 | File | `/classes/Master.php?f=delete_reminder` | High
+26 | File | `/classes/Master.php?f=save_category` | High
+27 | File | `/classes/Master.php?f=save_inquiry` | High
+28 | File | `/classes/Master.php?f=save_item` | High
+29 | File | `/classes/Master.php?f=save_reminder` | High
+30 | File | `/CMD_ACCOUNT_ADMIN` | High
+31 | File | `/config/getuser` | High
+32 | File | `/Content/Plugins/uploader/FileChoose.html?fileUrl=/Upload/File/Pics/&parent` | High
+33 | File | `/debug/pprof` | Medium
+34 | File | `/DesignTools/CssEditor.aspx` | High
+35 | File | `/DXR.axd` | Medium
+36 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+37 | File | `/forum/away.php` | High
+38 | File | `/geoserver/gwc/rest.html` | High
+39 | File | `/goform/formSysCmd` | High
+40 | File | `/grade/report/grader/index.php` | High
+41 | File | `/HNAP1/` | Low
+42 | ... | ... | ...
 
-There are 321 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 365 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

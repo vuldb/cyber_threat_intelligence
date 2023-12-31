@@ -44,7 +44,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 16 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -55,26 +55,27 @@ ID | Type | Indicator | Confidence
 1 | File | `.htaccess` | Medium
 2 | File | `/admin/maintenance/view_designation.php` | High
 3 | File | `/category/list?limit=10&offset=0&order=desc` | High
-4 | File | `/classes/Master.php?f=delete_brand` | High
-5 | File | `/diag_ping_admin.asp` | High
-6 | File | `/forum/PostPrivateMessage` | High
-7 | File | `/HNAP1` | Low
-8 | File | `/owa/auth/logon.aspx` | High
-9 | File | `/pages/systemcall.php?command={COMMAND}` | High
-10 | File | `/phppath/php` | Medium
-11 | File | `/setSystemAdmin` | High
-12 | File | `/shell` | Low
-13 | File | `/spip.php` | Medium
-14 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
-15 | File | `/uncpath/` | Medium
-16 | File | `/user/loader.php?api=1` | High
-17 | File | `/usr/bin/pkexec` | High
-18 | File | `/webpages/data` | High
-19 | File | `/wp-admin/options.php` | High
-20 | File | `/xxl-job-admin/user/add` | High
-21 | ... | ... | ...
+4 | File | `/cgi-bin/login_action.cgi` | High
+5 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
+6 | File | `/cgi-bin/touchlist_sync.cgi` | High
+7 | File | `/classes/Master.php?f=delete_brand` | High
+8 | File | `/diag_ping_admin.asp` | High
+9 | File | `/forum/PostPrivateMessage` | High
+10 | File | `/goform/formSysCmd` | High
+11 | File | `/HNAP1` | Low
+12 | File | `/owa/auth/logon.aspx` | High
+13 | File | `/pages/systemcall.php?command={COMMAND}` | High
+14 | File | `/phppath/php` | Medium
+15 | File | `/setSystemAdmin` | High
+16 | File | `/shell` | Low
+17 | File | `/spip.php` | Medium
+18 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
+19 | File | `/uncpath/` | Medium
+20 | File | `/user/loader.php?api=1` | High
+21 | File | `/usr/bin/pkexec` | High
+22 | ... | ... | ...
 
-There are 177 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 183 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

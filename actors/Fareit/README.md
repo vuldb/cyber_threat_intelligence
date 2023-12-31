@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 3 more country items available. Please use our online service to access the data.
+There are 4 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -56,9 +56,11 @@ ID | IP address | Hostname | Campaign | Confidence
 33 | [62.75.224.4](https://vuldb.com/?ip.62.75.224.4) | prag239.dedicatedpanel.com | - | High
 34 | [62.173.140.44](https://vuldb.com/?ip.62.173.140.44) | itkn.planetahost.ru | - | High
 35 | [62.210.204.55](https://vuldb.com/?ip.62.210.204.55) | 62-210-204-55.rev.poneytelecom.eu | - | High
-36 | ... | ... | ... | ...
+36 | [62.212.132.148](https://vuldb.com/?ip.62.212.132.148) | 62.212.132.148.xenosite.net | - | High
+37 | [63.141.242.46](https://vuldb.com/?ip.63.141.242.46) | - | - | High
+38 | ... | ... | ... | ...
 
-There are 139 more IOC items available. Please use our online service to access the data.
+There are 146 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -82,26 +84,27 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/dl_sendmail.php` | High
 2 | File | `/admin/login.php` | High
-3 | File | `/api/v2/cli/commands` | High
-4 | File | `/app/Http/Controllers/Admin/NEditorController.php` | High
-5 | File | `/DXR.axd` | Medium
-6 | File | `/forum/away.php` | High
-7 | File | `/mgmt/tm/util/bash` | High
-8 | File | `/mifs/c/i/reg/reg.html` | High
-9 | File | `/owa/auth/logon.aspx` | High
-10 | File | `/secure/ViewCollectors` | High
-11 | File | `/Session` | Medium
-12 | File | `/spip.php` | Medium
-13 | File | `/xAdmin/html/cm_doclist_view_uc.jsp` | High
-14 | File | `/zm/index.php` | High
-15 | File | `adclick.php` | Medium
-16 | File | `add_comment.php` | High
-17 | File | `admin.jcomments.php` | High
-18 | File | `application/modules/admin/views/ecommerce/products.php` | High
-19 | File | `base/ErrorHandler.php` | High
-20 | ... | ... | ...
+3 | File | `/api/baskets/{name}` | High
+4 | File | `/api/v2/cli/commands` | High
+5 | File | `/app/Http/Controllers/Admin/NEditorController.php` | High
+6 | File | `/DXR.axd` | Medium
+7 | File | `/forum/away.php` | High
+8 | File | `/mgmt/tm/util/bash` | High
+9 | File | `/mifs/c/i/reg/reg.html` | High
+10 | File | `/owa/auth/logon.aspx` | High
+11 | File | `/secure/ViewCollectors` | High
+12 | File | `/Session` | Medium
+13 | File | `/spip.php` | Medium
+14 | File | `/usr/bin/pkexec` | High
+15 | File | `/xAdmin/html/cm_doclist_view_uc.jsp` | High
+16 | File | `/zm/index.php` | High
+17 | File | `adclick.php` | Medium
+18 | File | `add_comment.php` | High
+19 | File | `admin.jcomments.php` | High
+20 | File | `admin/content.php` | High
+21 | ... | ... | ...
 
-There are 167 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 169 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -128,6 +131,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/2022/05/threat-roundup-0429-0506.html
 * https://blog.talosintelligence.com/2022/09/threat-roundup-0923-0930.html
 * https://blog.talosintelligence.com/2022/10/threat-roundup-1014-1021.html
+* https://blog.talosintelligence.com/threat-roundup-0922-0929/
 
 ## Literature
 

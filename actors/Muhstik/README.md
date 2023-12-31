@@ -21,7 +21,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 17 more country items available. Please use our online service to access the data.
+There are 16 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -77,24 +77,23 @@ ID | Type | Indicator | Confidence
 5 | File | `/deviceIP` | Medium
 6 | File | `/etc/shadow` | Medium
 7 | File | `/firewall/policy/` | High
-8 | File | `/getcfg.php` | Medium
-9 | File | `/graphStatus/displayServiceStatus.php` | High
-10 | File | `/index.php/admin/tag/add.html` | High
-11 | File | `/Items/*/RemoteImages/Download` | High
-12 | File | `/proc/pid/syscall` | High
-13 | File | `/rom-0` | Low
-14 | File | `/scas/admin/` | Medium
-15 | File | `/servlet.gupld` | High
-16 | File | `/sql/sql_type.cc` | High
-17 | File | `/status` | Low
-18 | File | `/tmp` | Low
-19 | File | `/tools/developerConsoleOperations.jsp` | High
-20 | File | `/uncpath/` | Medium
-21 | File | `/usr/bin/pkexec` | High
-22 | File | `/WEB-INF/web.xml` | High
-23 | ... | ... | ...
+8 | File | `/friends/ajax_invite` | High
+9 | File | `/getcfg.php` | Medium
+10 | File | `/graphStatus/displayServiceStatus.php` | High
+11 | File | `/index.php/admin/tag/add.html` | High
+12 | File | `/Items/*/RemoteImages/Download` | High
+13 | File | `/proc/pid/syscall` | High
+14 | File | `/rom-0` | Low
+15 | File | `/scas/admin/` | Medium
+16 | File | `/servlet.gupld` | High
+17 | File | `/sql/sql_type.cc` | High
+18 | File | `/status` | Low
+19 | File | `/tmp` | Low
+20 | File | `/tools/developerConsoleOperations.jsp` | High
+21 | File | `/uncpath/` | Medium
+22 | ... | ... | ...
 
-There are 189 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 186 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

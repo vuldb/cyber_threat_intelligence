@@ -84,9 +84,10 @@ ID | Type | Indicator | Confidence
 35 | File | `/linkedcontent/editfolder.php` | High
 36 | File | `/manage/network-basic.php` | High
 37 | File | `/master/core/PostHandler.php` | High
-38 | ... | ... | ...
+38 | File | `/matchmakings/question` | High
+39 | ... | ... | ...
 
-There are 331 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 334 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

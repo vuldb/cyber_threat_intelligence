@@ -94,10 +94,10 @@ ID | Type | Indicator | Confidence
 43 | File | `ajax_calls.php` | High
 44 | File | `api.php` | Low
 45 | File | `artlinks.dispnew.php` | High
-46 | File | `blocklayered-ajax.php` | High
+46 | File | `awstats.pl` | Medium
 47 | ... | ... | ...
 
-There are 405 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 410 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

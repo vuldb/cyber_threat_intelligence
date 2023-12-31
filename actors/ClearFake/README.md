@@ -4,19 +4,51 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.clearfake](https://vuldb.com/?actor.clearfake)
 
+## Countries
+
+These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with ClearFake:
+
+* [RU](https://vuldb.com/?country.ru)
+
 ## IOC - Indicator of Compromise
 
 These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of ClearFake.
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [109.248.206.138](https://vuldb.com/?ip.109.248.206.138) | 109.248.206.138.yadc.ru | - | High
+1 | [62.182.156.148](https://vuldb.com/?ip.62.182.156.148) | - | - | High
+2 | [109.248.206.49](https://vuldb.com/?ip.109.248.206.49) | 109.248.206.49.yadc.ru | - | High
+3 | [109.248.206.51](https://vuldb.com/?ip.109.248.206.51) | 109.248.206.51.yadc.ru | - | High
+4 | [109.248.206.83](https://vuldb.com/?ip.109.248.206.83) | 109.248.206.83.yadc.ru | - | High
+5 | ... | ... | ... | ...
+
+There are 16 more IOC items available. Please use our online service to access the data.
+
+## TTP - Tactics, Techniques, Procedures
+
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _ClearFake_. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1059.007 | CWE-79 | Cross Site Scripting | High
+2 | T1068 | CWE-264 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+3 | T1204.001 | CWE-601 | Open Redirect | High
+
+## IOA - Indicator of Attack
+
+These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by ClearFake. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Type | Indicator | Confidence
+-- | ---- | --------- | ----------
+1 | File | `/forum/away.php` | High
+2 | File | `/public/launchNewWindow.jsp` | High
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://blog.sekoia.io/clearfake-a-newcomer-to-the-fake-updates-threats-landscape/
+* https://threatfox.abuse.ch
 
 ## Literature
 

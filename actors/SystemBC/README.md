@@ -21,54 +21,54 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [5.2.78.113](https://vuldb.com/?ip.5.2.78.113) | - | - | High
-2 | [5.39.221.47](https://vuldb.com/?ip.5.39.221.47) | - | - | High
-3 | [5.42.65.67](https://vuldb.com/?ip.5.42.65.67) | - | - | High
-4 | [5.42.95.122](https://vuldb.com/?ip.5.42.95.122) | timmy.aeza.network | - | High
-5 | [5.45.73.25](https://vuldb.com/?ip.5.45.73.25) | - | - | High
-6 | [5.45.127.115](https://vuldb.com/?ip.5.45.127.115) | s0b7731cb.fastvps-server.com | - | High
-7 | [5.61.41.136](https://vuldb.com/?ip.5.61.41.136) | - | - | High
-8 | [5.61.41.225](https://vuldb.com/?ip.5.61.41.225) | - | - | High
-9 | [5.75.208.145](https://vuldb.com/?ip.5.75.208.145) | static.145.208.75.5.clients.your-server.de | - | High
-10 | [5.101.78.2](https://vuldb.com/?ip.5.101.78.2) | - | - | High
-11 | [5.183.95.197](https://vuldb.com/?ip.5.183.95.197) | - | - | High
-12 | [5.188.62.165](https://vuldb.com/?ip.5.188.62.165) | - | - | High
-13 | [5.199.174.179](https://vuldb.com/?ip.5.199.174.179) | - | - | High
-14 | [5.199.174.223](https://vuldb.com/?ip.5.199.174.223) | - | - | High
-15 | [15.204.166.162](https://vuldb.com/?ip.15.204.166.162) | ip162.ip-15-204-166.us | - | High
-16 | [20.115.47.118](https://vuldb.com/?ip.20.115.47.118) | - | - | High
-17 | [20.157.93.87](https://vuldb.com/?ip.20.157.93.87) | - | - | High
-18 | [23.19.227.233](https://vuldb.com/?ip.23.19.227.233) | - | - | High
-19 | [23.95.44.228](https://vuldb.com/?ip.23.95.44.228) | 23-95-44-228-host.colocrossing.com | - | High
-20 | [23.137.249.215](https://vuldb.com/?ip.23.137.249.215) | - | - | High
-21 | [23.227.202.22](https://vuldb.com/?ip.23.227.202.22) | 23-227-202-22.static.hvvc.us | - | High
-22 | [31.41.244.183](https://vuldb.com/?ip.31.41.244.183) | - | - | High
-23 | [31.41.244.235](https://vuldb.com/?ip.31.41.244.235) | - | - | High
-24 | [31.44.184.201](https://vuldb.com/?ip.31.44.184.201) | - | - | High
-25 | [31.44.184.202](https://vuldb.com/?ip.31.44.184.202) | - | - | High
-26 | [31.44.185.6](https://vuldb.com/?ip.31.44.185.6) | - | - | High
-27 | [31.44.185.11](https://vuldb.com/?ip.31.44.185.11) | - | - | High
-28 | [31.222.238.58](https://vuldb.com/?ip.31.222.238.58) | wsuoog1.example.com | - | High
-29 | [34.171.171.32](https://vuldb.com/?ip.34.171.171.32) | 32.171.171.34.bc.googleusercontent.com | - | Medium
-30 | [35.198.166.27](https://vuldb.com/?ip.35.198.166.27) | 27.166.198.35.bc.googleusercontent.com | - | Medium
-31 | [37.1.214.251](https://vuldb.com/?ip.37.1.214.251) | - | - | High
-32 | [37.220.86.73](https://vuldb.com/?ip.37.220.86.73) | lp-cx21.ip-ptr.tech | - | High
-33 | [45.11.57.142](https://vuldb.com/?ip.45.11.57.142) | dedicated.vsys.host | - | High
-34 | [45.15.156.48](https://vuldb.com/?ip.45.15.156.48) | - | - | High
-35 | [45.15.156.213](https://vuldb.com/?ip.45.15.156.213) | - | - | High
-36 | [45.15.159.230](https://vuldb.com/?ip.45.15.159.230) | nl-gateway.aeza.network | - | High
-37 | [45.32.132.182](https://vuldb.com/?ip.45.32.132.182) | 45.32.132.182.vultrusercontent.com | - | High
-38 | [45.32.181.136](https://vuldb.com/?ip.45.32.181.136) | 45.32.181.136.vultrusercontent.com | - | High
-39 | [45.66.249.84](https://vuldb.com/?ip.45.66.249.84) | 7g6Ve.monticelloedc.org | - | High
-40 | [45.77.101.240](https://vuldb.com/?ip.45.77.101.240) | 45.77.101.240.vultrusercontent.com | - | High
-41 | [45.77.115.67](https://vuldb.com/?ip.45.77.115.67) | 45.77.115.67.vultrusercontent.com | - | High
-42 | [45.79.237.92](https://vuldb.com/?ip.45.79.237.92) | 45-79-237-92.ip.linodeusercontent.com | - | High
-43 | [45.81.225.72](https://vuldb.com/?ip.45.81.225.72) | vm3618662.24ssd.had.wf | - | High
-44 | [45.86.162.219](https://vuldb.com/?ip.45.86.162.219) | west219.reel.gen.tr | - | High
-45 | [45.89.125.136](https://vuldb.com/?ip.45.89.125.136) | mail.marlon.world | - | High
+1 | [2.57.149.230](https://vuldb.com/?ip.2.57.149.230) | - | - | High
+2 | [5.2.78.113](https://vuldb.com/?ip.5.2.78.113) | - | - | High
+3 | [5.39.221.47](https://vuldb.com/?ip.5.39.221.47) | - | - | High
+4 | [5.42.65.67](https://vuldb.com/?ip.5.42.65.67) | - | - | High
+5 | [5.42.95.122](https://vuldb.com/?ip.5.42.95.122) | timmy.aeza.network | - | High
+6 | [5.45.73.25](https://vuldb.com/?ip.5.45.73.25) | - | - | High
+7 | [5.45.127.115](https://vuldb.com/?ip.5.45.127.115) | s0b7731cb.fastvps-server.com | - | High
+8 | [5.61.41.136](https://vuldb.com/?ip.5.61.41.136) | - | - | High
+9 | [5.61.41.225](https://vuldb.com/?ip.5.61.41.225) | - | - | High
+10 | [5.75.208.145](https://vuldb.com/?ip.5.75.208.145) | static.145.208.75.5.clients.your-server.de | - | High
+11 | [5.101.78.2](https://vuldb.com/?ip.5.101.78.2) | - | - | High
+12 | [5.161.74.235](https://vuldb.com/?ip.5.161.74.235) | static.235.74.161.5.clients.your-server.de | - | High
+13 | [5.183.95.197](https://vuldb.com/?ip.5.183.95.197) | - | - | High
+14 | [5.188.62.165](https://vuldb.com/?ip.5.188.62.165) | - | - | High
+15 | [5.199.174.179](https://vuldb.com/?ip.5.199.174.179) | - | - | High
+16 | [5.199.174.223](https://vuldb.com/?ip.5.199.174.223) | - | - | High
+17 | [15.204.166.162](https://vuldb.com/?ip.15.204.166.162) | ip162.ip-15-204-166.us | - | High
+18 | [20.115.47.118](https://vuldb.com/?ip.20.115.47.118) | - | - | High
+19 | [20.157.93.87](https://vuldb.com/?ip.20.157.93.87) | - | - | High
+20 | [23.19.227.233](https://vuldb.com/?ip.23.19.227.233) | - | - | High
+21 | [23.95.44.228](https://vuldb.com/?ip.23.95.44.228) | 23-95-44-228-host.colocrossing.com | - | High
+22 | [23.137.249.215](https://vuldb.com/?ip.23.137.249.215) | - | - | High
+23 | [23.227.202.22](https://vuldb.com/?ip.23.227.202.22) | 23-227-202-22.static.hvvc.us | - | High
+24 | [31.41.244.183](https://vuldb.com/?ip.31.41.244.183) | - | - | High
+25 | [31.41.244.235](https://vuldb.com/?ip.31.41.244.235) | - | - | High
+26 | [31.44.184.201](https://vuldb.com/?ip.31.44.184.201) | - | - | High
+27 | [31.44.184.202](https://vuldb.com/?ip.31.44.184.202) | - | - | High
+28 | [31.44.185.6](https://vuldb.com/?ip.31.44.185.6) | - | - | High
+29 | [31.44.185.11](https://vuldb.com/?ip.31.44.185.11) | - | - | High
+30 | [31.222.238.58](https://vuldb.com/?ip.31.222.238.58) | wsuoog1.example.com | - | High
+31 | [34.171.171.32](https://vuldb.com/?ip.34.171.171.32) | 32.171.171.34.bc.googleusercontent.com | - | Medium
+32 | [35.198.166.27](https://vuldb.com/?ip.35.198.166.27) | 27.166.198.35.bc.googleusercontent.com | - | Medium
+33 | [37.1.214.251](https://vuldb.com/?ip.37.1.214.251) | - | - | High
+34 | [37.220.86.73](https://vuldb.com/?ip.37.220.86.73) | lp-cx21.ip-ptr.tech | - | High
+35 | [45.11.57.142](https://vuldb.com/?ip.45.11.57.142) | dedicated.vsys.host | - | High
+36 | [45.15.156.48](https://vuldb.com/?ip.45.15.156.48) | - | - | High
+37 | [45.15.156.213](https://vuldb.com/?ip.45.15.156.213) | - | - | High
+38 | [45.15.159.230](https://vuldb.com/?ip.45.15.159.230) | nl-gateway.aeza.network | - | High
+39 | [45.32.132.182](https://vuldb.com/?ip.45.32.132.182) | 45.32.132.182.vultrusercontent.com | - | High
+40 | [45.32.181.136](https://vuldb.com/?ip.45.32.181.136) | 45.32.181.136.vultrusercontent.com | - | High
+41 | [45.66.249.84](https://vuldb.com/?ip.45.66.249.84) | 7g6Ve.monticelloedc.org | - | High
+42 | [45.77.101.240](https://vuldb.com/?ip.45.77.101.240) | 45.77.101.240.vultrusercontent.com | - | High
+43 | [45.77.115.67](https://vuldb.com/?ip.45.77.115.67) | 45.77.115.67.vultrusercontent.com | - | High
+44 | [45.79.237.92](https://vuldb.com/?ip.45.79.237.92) | 45-79-237-92.ip.linodeusercontent.com | - | High
+45 | [45.81.225.72](https://vuldb.com/?ip.45.81.225.72) | vm3618662.24ssd.had.wf | - | High
 46 | ... | ... | ... | ...
 
-There are 179 more IOC items available. Please use our online service to access the data.
+There are 182 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -83,7 +83,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -92,48 +92,46 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `//proc/kcore` | Medium
-2 | File | `/admin.php/Admin/adminadd.html` | High
-3 | File | `/admin/about-us.php` | High
-4 | File | `/Admin/add-student.php` | High
-5 | File | `/admin/login.php` | High
-6 | File | `/admin/settings/save.php` | High
-7 | File | `/admin/userprofile.php` | High
-8 | File | `/api/baskets/{name}` | High
-9 | File | `/api/RecordingList/DownloadRecord?file=` | High
-10 | File | `/api/v1/bait/set` | High
-11 | File | `/apply.cgi` | Medium
-12 | File | `/asms/classes/Master.php?f=delete_img` | High
-13 | File | `/bitrix/admin/ldap_server_edit.php` | High
-14 | File | `/book-services.php` | High
-15 | File | `/cgi-bin/wlogin.cgi` | High
-16 | File | `/College/admin/teacher.php` | High
-17 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
-18 | File | `/csms/?page=contact_us` | High
-19 | File | `/dcim/rack-roles/` | High
-20 | File | `/en/blog-comment-4` | High
-21 | File | `/forum/away.php` | High
-22 | File | `/goform/addUserName` | High
-23 | File | `/goform/aspForm` | High
-24 | File | `/goform/delAd` | High
-25 | File | `/goform/wifiSSIDset` | High
-26 | File | `/gpac/src/bifs/unquantize.c` | High
-27 | File | `/h/` | Low
-28 | File | `/inc/topBarNav.php` | High
-29 | File | `/index.asp` | Medium
-30 | File | `/index.php` | Medium
-31 | File | `/index.php?app=main&func=passport&action=login` | High
-32 | File | `/kelas/data` | Medium
-33 | File | `/listplace/user/ticket/create` | High
-34 | File | `/login/index.php` | High
-35 | File | `/Moosikay/order.php` | High
-36 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-37 | File | `/php-sms/admin/quotes/manage_remark.php` | High
-38 | File | `/project/PROJECTNAME/reports/` | High
-39 | File | `/scripts/unlock_tasks.php` | High
-40 | File | `/secure/QueryComponent!Default.jspa` | High
-41 | ... | ... | ...
+2 | File | `/admin/about-us.php` | High
+3 | File | `/admin/index2.html` | High
+4 | File | `/admin/login.php` | High
+5 | File | `/admin/userprofile.php` | High
+6 | File | `/api/admin/system/store/order/list` | High
+7 | File | `/api/baskets/{name}` | High
+8 | File | `/apply.cgi` | Medium
+9 | File | `/bitrix/admin/ldap_server_edit.php` | High
+10 | File | `/book-services.php` | High
+11 | File | `/cgi-bin/wlogin.cgi` | High
+12 | File | `/College/admin/teacher.php` | High
+13 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
+14 | File | `/csms/?page=contact_us` | High
+15 | File | `/dcim/rack-roles/` | High
+16 | File | `/en/blog-comment-4` | High
+17 | File | `/forum/away.php` | High
+18 | File | `/goform/addUserName` | High
+19 | File | `/goform/aspForm` | High
+20 | File | `/goform/delAd` | High
+21 | File | `/goform/wifiSSIDset` | High
+22 | File | `/gpac/src/bifs/unquantize.c` | High
+23 | File | `/h/` | Low
+24 | File | `/inc/topBarNav.php` | High
+25 | File | `/index.php` | Medium
+26 | File | `/index.php?app=main&func=passport&action=login` | High
+27 | File | `/kelas/data` | Medium
+28 | File | `/listplace/user/ticket/create` | High
+29 | File | `/login/index.php` | High
+30 | File | `/Moosikay/order.php` | High
+31 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+32 | File | `/php-sms/admin/quotes/manage_remark.php` | High
+33 | File | `/scripts/unlock_tasks.php` | High
+34 | File | `/Session` | Medium
+35 | File | `/squashfs-root/etc_ro/custom.conf` | High
+36 | File | `/staff/edit_book_details.php` | High
+37 | File | `/SysManage/AddUpdateRole.aspx` | High
+38 | File | `/sysmanage/importconf.php` | High
+39 | ... | ... | ...
 
-There are 353 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 331 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

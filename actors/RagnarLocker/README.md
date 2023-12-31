@@ -60,36 +60,36 @@ ID | Type | Indicator | Confidence
 7 | File | `/HNAP1` | Low
 8 | File | `/mc-admin/post.php?state=delete&delete` | High
 9 | File | `/mkshop/Men/profile.php` | High
-10 | File | `/php-jms/review_se_result.php` | High
-11 | File | `/public/login.htm` | High
-12 | File | `/Side.php` | Medium
-13 | File | `/spip.php` | Medium
-14 | File | `/student/bookdetails.php` | High
-15 | File | `/textpattern/index.php` | High
-16 | File | `/user/profile` | High
-17 | File | `/usr/ucb/mail` | High
-18 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-19 | File | `account.asp` | Medium
-20 | File | `adclick.php` | Medium
-21 | File | `addmember.php` | High
-22 | File | `addtocart.asp` | High
-23 | File | `addtomylist.asp` | High
-24 | File | `admin.php` | Medium
-25 | File | `admin.x-shop.php` | High
-26 | File | `admin/auth.php` | High
-27 | File | `admin/import/class-import-settings.php` | High
-28 | File | `admin/sqlpatch.php` | High
-29 | File | `adminAttachments.php` | High
-30 | File | `adminBoards.php` | High
-31 | File | `admincp/auth/checklogin.php` | High
-32 | File | `adminlogin.asp` | High
-33 | File | `adminPolls.php` | High
-34 | File | `admin_feature.php` | High
-35 | File | `aj.html` | Low
-36 | File | `ajax/autocompletion.php` | High
+10 | File | `/pharmacy-sales-and-inventory-system/manage_user.php` | High
+11 | File | `/php-jms/review_se_result.php` | High
+12 | File | `/public/login.htm` | High
+13 | File | `/Side.php` | Medium
+14 | File | `/spip.php` | Medium
+15 | File | `/student/bookdetails.php` | High
+16 | File | `/textpattern/index.php` | High
+17 | File | `/user/profile` | High
+18 | File | `/usr/ucb/mail` | High
+19 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+20 | File | `account.asp` | Medium
+21 | File | `adclick.php` | Medium
+22 | File | `addmember.php` | High
+23 | File | `addtocart.asp` | High
+24 | File | `addtomylist.asp` | High
+25 | File | `admin.php` | Medium
+26 | File | `admin.x-shop.php` | High
+27 | File | `admin/auth.php` | High
+28 | File | `admin/import/class-import-settings.php` | High
+29 | File | `admin/sqlpatch.php` | High
+30 | File | `adminAttachments.php` | High
+31 | File | `adminBoards.php` | High
+32 | File | `admincp/auth/checklogin.php` | High
+33 | File | `adminlogin.asp` | High
+34 | File | `adminPolls.php` | High
+35 | File | `admin_feature.php` | High
+36 | File | `aj.html` | Low
 37 | ... | ... | ...
 
-There are 314 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 316 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

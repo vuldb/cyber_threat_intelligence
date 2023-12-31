@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 17 more country items available. Please use our online service to access the data.
+There are 19 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -23,14 +23,15 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [5.34.182.29](https://vuldb.com/?ip.5.34.182.29) | m.ashori | - | High
 2 | [41.41.255.235](https://vuldb.com/?ip.41.41.255.235) | host-41.41.255.235.tedata.net | - | High
-3 | [45.142.213.108](https://vuldb.com/?ip.45.142.213.108) | lv-ira.client | - | High
-4 | [45.142.214.31](https://vuldb.com/?ip.45.142.214.31) | vm341765.pq.hosting | - | High
-5 | [58.235.189.192](https://vuldb.com/?ip.58.235.189.192) | - | - | High
-6 | [80.233.134.242](https://vuldb.com/?ip.80.233.134.242) | - | - | High
-7 | [83.97.20.153](https://vuldb.com/?ip.83.97.20.153) | 153.20.97.83.ro.ovo.sc | - | High
-8 | ... | ... | ... | ...
+3 | [45.67.34.219](https://vuldb.com/?ip.45.67.34.219) | vm1684766.stark-industries.solutions | - | High
+4 | [45.142.213.108](https://vuldb.com/?ip.45.142.213.108) | lv-ira.client | - | High
+5 | [45.142.214.31](https://vuldb.com/?ip.45.142.214.31) | vm341765.pq.hosting | - | High
+6 | [58.235.189.192](https://vuldb.com/?ip.58.235.189.192) | - | - | High
+7 | [77.91.100.237](https://vuldb.com/?ip.77.91.100.237) | vm1792557.stark-industries.solutions | - | High
+8 | [80.233.134.242](https://vuldb.com/?ip.80.233.134.242) | - | - | High
+9 | ... | ... | ... | ...
 
-There are 29 more IOC items available. Please use our online service to access the data.
+There are 30 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -86,11 +87,12 @@ ID | Type | Indicator | Confidence
 31 | File | `/proc/*/cmdline"` | High
 32 | File | `/proc/pid/syscall` | High
 33 | File | `/sbin/acos_service` | High
-34 | File | `/show_group_members.php` | High
-35 | File | `/SysInfo.htm` | Medium
-36 | ... | ... | ...
+34 | File | `/search` | Low
+35 | File | `/show_group_members.php` | High
+36 | File | `/SysInfo.htm` | Medium
+37 | ... | ... | ...
 
-There are 304 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 314 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -99,6 +101,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/2022/09/threat-roundup-0826-0902.html
 * https://github.com/eset/malware-ioc/tree/master/bandook
 * https://threatfox.abuse.ch
+* https://www.fortinet.com/blog/threat-research/bandook-persistent-threat-that-keeps-evolving
 
 ## Literature
 

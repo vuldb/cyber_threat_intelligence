@@ -59,19 +59,19 @@ ID | Type | Indicator | Confidence
 1 | File | `/.env` | Low
 2 | File | `/?/admin/snippet/add` | High
 3 | File | `/bin/false` | Medium
-4 | File | `/cgi-bin/webproc` | High
-5 | File | `/expert_wizard.php` | High
-6 | File | `/images/browserslide.jpg` | High
-7 | File | `/includes/lib/get.php` | High
-8 | File | `/lists/index.php` | High
-9 | File | `/main?cmd=invalid_browser` | High
-10 | File | `/manager?action=getlogcat` | High
-11 | File | `/mc` | Low
-12 | File | `/rest/jpo/1.0/hierarchyConfiguration` | High
-13 | File | `/SASWebReportStudio/logonAndRender.do` | High
+4 | File | `/blog` | Low
+5 | File | `/cgi-bin/webproc` | High
+6 | File | `/expert_wizard.php` | High
+7 | File | `/images/browserslide.jpg` | High
+8 | File | `/includes/lib/get.php` | High
+9 | File | `/lists/index.php` | High
+10 | File | `/main?cmd=invalid_browser` | High
+11 | File | `/manager?action=getlogcat` | High
+12 | File | `/mc` | Low
+13 | File | `/rest/jpo/1.0/hierarchyConfiguration` | High
 14 | ... | ... | ...
 
-There are 109 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 110 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Yemen Unknown:
 
 * [US](https://vuldb.com/?country.us)
-* [EG](https://vuldb.com/?country.eg)
 * [YE](https://vuldb.com/?country.ye)
+* [EG](https://vuldb.com/?country.eg)
 * ...
 
 There are 30 more country items available. Please use our online service to access the data.
@@ -65,49 +65,49 @@ ID | Type | Indicator | Confidence
 4 | File | `/admin.php?action=themeinstall` | High
 5 | File | `/admin/addemployee.php` | High
 6 | File | `/admin/index.php` | High
-7 | File | `/apilog.php` | Medium
-8 | File | `/appliance/users?action=edit` | High
-9 | File | `/cgi-bin/webproc` | High
-10 | File | `/classes/Master.php?f=save_service` | High
-11 | File | `/export` | Low
-12 | File | `/filemanager/upload.php` | High
-13 | File | `/forum/away.php` | High
-14 | File | `/if.cgi` | Low
-15 | File | `/login` | Low
-16 | File | `/mifs/c/i/reg/reg.html` | High
-17 | File | `/modules/profile/index.php` | High
-18 | File | `/my_photo_gallery/image.php` | High
-19 | File | `/news.dtl.php` | High
-20 | File | `/nova/bin/detnet` | High
-21 | File | `/nova/bin/igmp-proxy` | High
-22 | File | `/nova/bin/route` | High
-23 | File | `/pro-school/indexphp?student/message/send_reply/` | High
-24 | File | `/scas/admin/` | Medium
-25 | File | `/see_more_details.php` | High
-26 | File | `/services/details.asp` | High
-27 | File | `/setSystemAdmin` | High
-28 | File | `/setup` | Low
-29 | File | `/spip.php` | Medium
-30 | File | `/squashfs-root/etc_ro/custom.conf` | High
-31 | File | `/uncpath/` | Medium
-32 | File | `/usr/bin/pkexec` | High
-33 | File | `/var/log/nginx` | High
-34 | File | `/var/log/rkhunter.log` | High
-35 | File | `/VPortal/mgtconsole/Subscriptions.jsp` | High
-36 | File | `/wbms/classes/Users.php?f=save` | High
-37 | File | `/wp-admin/admin-ajax.php` | High
-38 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-39 | File | `3f.jsp` | Low
-40 | File | `a2dp_aac_decoder.cc` | High
-41 | File | `act.php` | Low
-42 | File | `adclick.php` | Medium
-43 | File | `addentry.php` | Medium
-44 | File | `admin` | Low
-45 | File | `admin-ajax.php` | High
-46 | File | `admin.php` | Medium
+7 | File | `/admin/index2.html` | High
+8 | File | `/apilog.php` | Medium
+9 | File | `/appliance/users?action=edit` | High
+10 | File | `/cgi-bin/webproc` | High
+11 | File | `/classes/Master.php?f=save_service` | High
+12 | File | `/export` | Low
+13 | File | `/filemanager/upload.php` | High
+14 | File | `/forum/away.php` | High
+15 | File | `/if.cgi` | Low
+16 | File | `/login` | Low
+17 | File | `/mifs/c/i/reg/reg.html` | High
+18 | File | `/modules/profile/index.php` | High
+19 | File | `/my_photo_gallery/image.php` | High
+20 | File | `/news.dtl.php` | High
+21 | File | `/nova/bin/detnet` | High
+22 | File | `/nova/bin/igmp-proxy` | High
+23 | File | `/nova/bin/route` | High
+24 | File | `/pro-school/indexphp?student/message/send_reply/` | High
+25 | File | `/scas/admin/` | Medium
+26 | File | `/see_more_details.php` | High
+27 | File | `/services/details.asp` | High
+28 | File | `/setSystemAdmin` | High
+29 | File | `/setup` | Low
+30 | File | `/spip.php` | Medium
+31 | File | `/squashfs-root/etc_ro/custom.conf` | High
+32 | File | `/uncpath/` | Medium
+33 | File | `/usr/bin/pkexec` | High
+34 | File | `/var/log/nginx` | High
+35 | File | `/var/log/rkhunter.log` | High
+36 | File | `/VPortal/mgtconsole/Subscriptions.jsp` | High
+37 | File | `/wbms/classes/Users.php?f=save` | High
+38 | File | `/wp-admin/admin-ajax.php` | High
+39 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+40 | File | `3f.jsp` | Low
+41 | File | `a2dp_aac_decoder.cc` | High
+42 | File | `act.php` | Low
+43 | File | `adclick.php` | Medium
+44 | File | `addentry.php` | Medium
+45 | File | `admin` | Low
+46 | File | `admin-ajax.php` | High
 47 | ... | ... | ...
 
-There are 411 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 405 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

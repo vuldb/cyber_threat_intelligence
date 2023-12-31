@@ -87,9 +87,11 @@ ID | Type | Indicator | Confidence
 37 | File | `adminForums.php` | High
 38 | File | `allopass-error.php` | High
 39 | File | `app/application.cpp` | High
-40 | ... | ... | ...
+40 | File | `ashnews.php/ashheadlines.php` | High
+41 | File | `auth-gss2.c` | Medium
+42 | ... | ... | ...
 
-There are 342 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 359 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

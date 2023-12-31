@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 18 more country items available. Please use our online service to access the data.
+There are 17 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -59,34 +59,34 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/.env` | Low
-2 | File | `/admin/maintenance/view_designation.php` | High
-3 | File | `/admin/students/update_status.php` | High
-4 | File | `/api/baskets/{name}` | High
-5 | File | `/bin/sh` | Low
-6 | File | `/bitrix/admin/ldap_server_edit.php` | High
-7 | File | `/collection/all` | High
-8 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
-9 | File | `/detail` | Low
-10 | File | `/edoc/doctor/patient.php` | High
-11 | File | `/goform/SysToolReboot` | High
-12 | File | `/home/get_tasks_list` | High
-13 | File | `/info.xml` | Medium
-14 | File | `/lists/admin/` | High
-15 | File | `/log/decodmail.php` | High
-16 | File | `/Main_AdmStatus_Content.asp` | High
-17 | File | `/mygym/admin/login.php` | High
-18 | File | `/owa/auth/logon.aspx` | High
-19 | File | `/plain` | Low
-20 | File | `/proc/self/setgroups` | High
-21 | File | `/products/view_product.php` | High
-22 | File | `/rest/synchronizer/1.0/technicalUser` | High
-23 | File | `/scripts/cpan_config` | High
-24 | File | `/sysmanage/updateos.php` | High
-25 | File | `/usr/bin/write` | High
+1 | File | `/admin/students/update_status.php` | High
+2 | File | `/api/baskets/{name}` | High
+3 | File | `/bin/sh` | Low
+4 | File | `/bitrix/admin/ldap_server_edit.php` | High
+5 | File | `/collection/all` | High
+6 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
+7 | File | `/detail` | Low
+8 | File | `/edoc/doctor/patient.php` | High
+9 | File | `/goform/SysToolReboot` | High
+10 | File | `/home/get_tasks_list` | High
+11 | File | `/info.xml` | Medium
+12 | File | `/lists/admin/` | High
+13 | File | `/log/decodmail.php` | High
+14 | File | `/Main_AdmStatus_Content.asp` | High
+15 | File | `/mygym/admin/login.php` | High
+16 | File | `/owa/auth/logon.aspx` | High
+17 | File | `/plain` | Low
+18 | File | `/proc/self/setgroups` | High
+19 | File | `/products/view_product.php` | High
+20 | File | `/rest/synchronizer/1.0/technicalUser` | High
+21 | File | `/scripts/cpan_config` | High
+22 | File | `/sysmanage/updateos.php` | High
+23 | File | `/usr/bin/write` | High
+24 | File | `/var/run/cloudera-scm-agent` | High
+25 | File | `/webssh` | Low
 26 | ... | ... | ...
 
-There are 219 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 221 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -29,7 +29,8 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | ... | ... | ... | ...
+4 | T1059 | CWE-94 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
 There are 14 more TTP items available. Please use our online service to access the data.
 
@@ -40,14 +41,15 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/api/v1/terminal/sessions/?limit=1` | High
-2 | File | `/login.html` | Medium
-3 | File | `/new` | Low
-4 | File | `/service/upload` | High
-5 | File | `/system?action=ServiceAdmin` | High
-6 | File | `/var/log/nginx` | High
-7 | ... | ... | ...
+2 | File | `/cgi-bin/login.cgi` | High
+3 | File | `/login.html` | Medium
+4 | File | `/new` | Low
+5 | File | `/service/upload` | High
+6 | File | `/system?action=ServiceAdmin` | High
+7 | File | `/var/log/nginx` | High
+8 | ... | ... | ...
 
-There are 51 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 54 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

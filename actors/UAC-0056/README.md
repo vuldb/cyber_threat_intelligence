@@ -24,7 +24,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [TR](https://vuldb.com/?country.tr)
 * ...
 
-There are 17 more country items available. Please use our online service to access the data.
+There are 16 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -60,46 +60,41 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin.php` | Medium
-2 | File | `/admin/?page=system_info/contact_info` | High
-3 | File | `/admin/edit_user.php` | High
-4 | File | `/admin/products/controller.php?action=add` | High
-5 | File | `/admin/question/edit` | High
-6 | File | `/admin/students/manage.php` | High
-7 | File | `/api/` | Low
-8 | File | `/auth/register` | High
-9 | File | `/bifs/field_decode.c` | High
-10 | File | `/bin/proc.cgi` | High
-11 | File | `/bitrix/admin/ldap_server_edit.php` | High
-12 | File | `/book-services.php` | High
-13 | File | `/cgi/get_param.cgi` | High
-14 | File | `/common/download_agent_installer.php` | High
-15 | File | `/common/run_cross_report.php` | High
-16 | File | `/Core/Ap4File.cpp` | High
-17 | File | `/csms/?page=contact_us` | High
-18 | File | `/debug/pprof` | Medium
-19 | File | `/dev/audio` | Medium
-20 | File | `/DS/LM_API/api/SelectionService/InsertQueryWithActiveRelationsReturnId` | High
-21 | File | `/DXR.axd` | Medium
-22 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-23 | File | `/en/blog-comment-4` | High
-24 | File | `/etc/crash` | Medium
-25 | File | `/etc/master.passwd` | High
-26 | File | `/etc/passwd` | Medium
-27 | File | `/etc/shadow` | Medium
-28 | File | `/EXCU_SHELL` | Medium
-29 | File | `/forum/away.php` | High
-30 | File | `/goform/addressNat` | High
-31 | File | `/goform/AddSysLogRule` | High
-32 | File | `/goform/aspForm` | High
-33 | File | `/goform/NatStaticSetting` | High
-34 | File | `/goform/WifiBasicSet` | High
-35 | File | `/h/` | Low
-36 | File | `/index.php` | Medium
-37 | File | `/index.php?module=configuration/application` | High
-38 | ... | ... | ...
+1 | File | `/admin/edit_user.php` | High
+2 | File | `/admin/products/controller.php?action=add` | High
+3 | File | `/admin/question/edit` | High
+4 | File | `/admin/students/manage.php` | High
+5 | File | `/api/` | Low
+6 | File | `/auth/register` | High
+7 | File | `/bifs/field_decode.c` | High
+8 | File | `/bin/proc.cgi` | High
+9 | File | `/bitrix/admin/ldap_server_edit.php` | High
+10 | File | `/book-services.php` | High
+11 | File | `/cgi-bin/system_mgr.cgi` | High
+12 | File | `/cgi/get_param.cgi` | High
+13 | File | `/common/download_agent_installer.php` | High
+14 | File | `/common/run_cross_report.php` | High
+15 | File | `/Core/Ap4File.cpp` | High
+16 | File | `/csms/?page=contact_us` | High
+17 | File | `/dev/audio` | Medium
+18 | File | `/DS/LM_API/api/SelectionService/InsertQueryWithActiveRelationsReturnId` | High
+19 | File | `/DXR.axd` | Medium
+20 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+21 | File | `/en/blog-comment-4` | High
+22 | File | `/etc/crash` | Medium
+23 | File | `/etc/shadow` | Medium
+24 | File | `/EXCU_SHELL` | Medium
+25 | File | `/forum/away.php` | High
+26 | File | `/goform/addressNat` | High
+27 | File | `/goform/AddSysLogRule` | High
+28 | File | `/goform/NatStaticSetting` | High
+29 | File | `/goform/WifiBasicSet` | High
+30 | File | `/h/` | Low
+31 | File | `/index.php` | Medium
+32 | File | `/index.php?module=configuration/application` | High
+33 | ... | ... | ...
 
-There are 324 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 283 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

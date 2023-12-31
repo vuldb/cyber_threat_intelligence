@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 28 more country items available. Please use our online service to access the data.
+There are 29 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -88,33 +88,34 @@ ID | Type | Indicator | Confidence
 28 | File | `/GponForm/usb_restore_Form?script/` | High
 29 | File | `/hrm/employeeview.php` | High
 30 | File | `/html/device-id` | High
-31 | File | `/includes/decorators/global-translations.jsp` | High
-32 | File | `/index.php` | Medium
-33 | File | `/loginsave.php` | High
-34 | File | `/param.file.tgz` | High
-35 | File | `/product_list.php` | High
-36 | File | `/public_html/users.php` | High
-37 | File | `/secure/QueryComponent!Default.jspa` | High
-38 | File | `/see_more_details.php` | High
-39 | File | `/server-status` | High
-40 | File | `/setSystemAdmin` | High
-41 | File | `/uncpath/` | Medium
-42 | File | `/user/s.php` | Medium
-43 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
-44 | File | `/WEB-INF/web.xml` | High
-45 | File | `/wireless/guestnetwork.asp` | High
-46 | File | `?r=recruit/interview/export&interviews=x` | High
-47 | File | `a2dp_aac_decoder.cc` | High
-48 | File | `actbar3.ocx` | Medium
-49 | File | `adclick.php` | Medium
-50 | File | `add-locker-form.php` | High
-51 | File | `addentry.php` | Medium
-52 | File | `admin.php` | Medium
-53 | File | `admin/booking_report.php` | High
-54 | File | `admin/executar_login.php` | High
-55 | ... | ... | ...
+31 | File | `/importexport.php` | High
+32 | File | `/includes/decorators/global-translations.jsp` | High
+33 | File | `/index.php` | Medium
+34 | File | `/loginsave.php` | High
+35 | File | `/param.file.tgz` | High
+36 | File | `/product_list.php` | High
+37 | File | `/public_html/users.php` | High
+38 | File | `/secure/QueryComponent!Default.jspa` | High
+39 | File | `/see_more_details.php` | High
+40 | File | `/server-status` | High
+41 | File | `/setSystemAdmin` | High
+42 | File | `/uncpath/` | Medium
+43 | File | `/user/s.php` | Medium
+44 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
+45 | File | `/WEB-INF/web.xml` | High
+46 | File | `/wireless/guestnetwork.asp` | High
+47 | File | `?r=recruit/interview/export&interviews=x` | High
+48 | File | `a2dp_aac_decoder.cc` | High
+49 | File | `actbar3.ocx` | Medium
+50 | File | `adclick.php` | Medium
+51 | File | `add-locker-form.php` | High
+52 | File | `addentry.php` | Medium
+53 | File | `admin.php` | Medium
+54 | File | `admin/booking_report.php` | High
+55 | File | `admin/executar_login.php` | High
+56 | ... | ... | ...
 
-There are 484 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 492 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

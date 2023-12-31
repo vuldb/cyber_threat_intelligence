@@ -68,7 +68,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -77,37 +77,61 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `$HOME/.terminfo` | High
-2 | File | `.FBCIndex` | Medium
-3 | File | `/+CSCOE+/logon.html` | High
-4 | File | `/?ajax-request=jnews` | High
-5 | File | `/adfs/ls` | Medium
-6 | File | `/admin/categories/manage_category.php` | High
-7 | File | `/admin/edit_product.php` | High
-8 | File | `/admin/maintenance/view_designation.php` | High
-9 | File | `/admin/sales/manage_sale.php` | High
-10 | File | `/api/baskets/{name}` | High
-11 | File | `/blog` | Low
-12 | File | `/cas/logout` | Medium
-13 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
-14 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-15 | File | `/cgi-bin/upload_vpntar` | High
-16 | File | `/core/tools/customblock.php` | High
-17 | File | `/CPE` | Low
-18 | File | `/debug/pprof` | Medium
-19 | File | `/forum/away.php` | High
-20 | File | `/ghost/preview` | High
-21 | File | `/goform/Diagnosis` | High
-22 | File | `/group1/uploa` | High
-23 | File | `/home/search` | Medium
-24 | File | `/leaves/validate` | High
-25 | File | `/mail.php` | Medium
-26 | File | `/oauth/idp/.well-known/openid-configuration` | High
-27 | File | `/out.php` | Medium
-28 | File | `/php-spms/admin/?page=user/` | High
-29 | File | `/proc/ftxxxx-debug` | High
-30 | ... | ... | ...
+2 | File | `/+CSCOE+/logon.html` | High
+3 | File | `/adfs/ls` | Medium
+4 | File | `/admin/addemployee.php` | High
+5 | File | `/admin/add_exercises.php` | High
+6 | File | `/admin/add_trainers.php` | High
+7 | File | `/admin/api/admin/articles/` | High
+8 | File | `/admin/api/theme-edit/` | High
+9 | File | `/Admin/createClass.php` | High
+10 | File | `/admin/edit.php` | High
+11 | File | `/admin/edit_product.php` | High
+12 | File | `/admin/settings.php` | High
+13 | File | `/admin/students/manage.php` | High
+14 | File | `/api/baskets/{name}` | High
+15 | File | `/api/public/signup` | High
+16 | File | `/api/v1/attack` | High
+17 | File | `/api/v1/bait/set` | High
+18 | File | `/api/v2/open/tablesInfo` | High
+19 | File | `/category.php` | High
+20 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+21 | File | `/cgi-bin/upload_vpntar` | High
+22 | File | `/core/tools/customblock.php` | High
+23 | File | `/CPE` | Low
+24 | File | `/csms/?page=contact_us` | High
+25 | File | `/csms/admin/?page=user/list` | High
+26 | File | `/cwms/classes/Master.php?f=save_contact` | High
+27 | File | `/debug/pprof` | Medium
+28 | File | `/ebics-server/ebics.aspx` | High
+29 | File | `/edituser.php` | High
+30 | File | `/employeeview.php` | High
+31 | File | `/forum/away.php` | High
+32 | File | `/goform/Diagnosis` | High
+33 | File | `/group1/uploa` | High
+34 | File | `/home/search` | Medium
+35 | File | `/leaves/validate` | High
+36 | File | `/login.php` | Medium
+37 | File | `/loginVaLidation.php` | High
+38 | File | `/mail.php` | Medium
+39 | File | `/MicroStrategyWS/happyaxis.jsp` | High
+40 | File | `/mims/app/addcustomerHandler.php` | High
+41 | File | `/mkshope/login.php` | High
+42 | File | `/oauth/idp/.well-known/openid-configuration` | High
+43 | File | `/obs/bookPerPub.php` | High
+44 | File | `/omos/admin/?page=user/list` | High
+45 | File | `/one_church/churchprofile.php` | High
+46 | File | `/one_church/userregister.php` | High
+47 | File | `/out.php` | Medium
+48 | File | `/pages/processlogin.php` | High
+49 | File | `/php-sms/classes/Master.php` | High
+50 | File | `/php-spms/admin/?page=user/` | High
+51 | File | `/php_action/createUser.php` | High
+52 | File | `/picturesPreview` | High
+53 | File | `/products/view_product.php` | High
+54 | ... | ... | ...
 
-There are 254 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 470 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

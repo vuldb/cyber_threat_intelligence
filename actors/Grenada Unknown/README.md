@@ -121,12 +121,12 @@ ID | Type | Indicator | Confidence
 59 | File | `app/index.php/accounts/default/details?id=2&kanbanBoard=1&openToTaskId=1` | High
 60 | File | `artlinks.dispnew.php` | High
 61 | File | `auth.php` | Medium
-62 | File | `bin/named/query.c` | High
-63 | File | `blank.php` | Medium
-64 | File | `blocklayered-ajax.php` | High
+62 | File | `awstats.pl` | Medium
+63 | File | `bin/named/query.c` | High
+64 | File | `blank.php` | Medium
 65 | ... | ... | ...
 
-There are 565 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 569 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

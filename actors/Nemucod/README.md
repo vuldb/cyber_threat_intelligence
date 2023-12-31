@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [NL](https://vuldb.com/?country.nl)
 * ...
 
-There are 12 more country items available. Please use our online service to access the data.
+There are 13 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -62,53 +62,56 @@ ID | Type | Indicator | Confidence
 6 | File | `/admin/attendance_row.php` | High
 7 | File | `/admin/categories/manage_category.php` | High
 8 | File | `/admin/categories/view_category.php` | High
-9 | File | `/admin/doctors.php` | High
-10 | File | `/admin/edit-services.php` | High
-11 | File | `/admin/edit_subject.php` | High
-12 | File | `/admin/employee_row.php` | High
-13 | File | `/admin/maintenance/brand.php` | High
-14 | File | `/admin/maintenance/view_designation.php` | High
-15 | File | `/admin/mechanics/manage_mechanic.php` | High
-16 | File | `/admin/reportupload.aspx` | High
-17 | File | `/admin/service.php` | High
-18 | File | `/admin/submit-articles` | High
-19 | File | `/admin/transactions/track_shipment.php` | High
-20 | File | `/admin/user/manage_user.php` | High
-21 | File | `/alphaware/summary.php` | High
-22 | File | `/api/` | Low
-23 | File | `/api/admin/store/product/list` | High
-24 | File | `/api/baskets/{name}` | High
-25 | File | `/api/stl/actions/search` | High
-26 | File | `/api/v2/cli/commands` | High
-27 | File | `/attachments` | Medium
-28 | File | `/bin/ate` | Medium
-29 | File | `/boat/login.php` | High
-30 | File | `/booking/show_bookings/` | High
-31 | File | `/bsms_ci/index.php/book` | High
-32 | File | `/cgi-bin` | Medium
-33 | File | `/cgi-bin/wlogin.cgi` | High
-34 | File | `/change-language/de_DE` | High
-35 | File | `/classes/Master.php?f=save_item` | High
-36 | File | `/collection/all` | High
-37 | File | `/Content/Template/root/reverse-shell.aspx` | High
-38 | File | `/dashboard/add-blog.php` | High
-39 | File | `/debug/pprof` | Medium
-40 | File | `/env` | Low
-41 | File | `/etc/hosts` | Medium
-42 | File | `/forum/away.php` | High
-43 | File | `/friends` | Medium
-44 | File | `/goform/WifiBasicSet` | High
-45 | File | `/group1/uploa` | High
-46 | File | `/hrm/index.php?msg` | High
-47 | File | `/hrm/state.php` | High
-48 | File | `/index.php` | Medium
-49 | File | `/index.php?controller=GzUser&action=edit&id=1` | High
-50 | File | `/index/user/user_edit.html` | High
-51 | File | `/lib` | Low
-52 | File | `/medicines/profile.php` | High
-53 | ... | ... | ...
+9 | File | `/admin/controller/JobLogController.java` | High
+10 | File | `/admin/courses/manage_course.php` | High
+11 | File | `/admin/departments/manage_department.php` | High
+12 | File | `/admin/doctors.php` | High
+13 | File | `/admin/edit-services.php` | High
+14 | File | `/admin/edit_subject.php` | High
+15 | File | `/admin/employee_row.php` | High
+16 | File | `/admin/maintenance/brand.php` | High
+17 | File | `/admin/maintenance/view_designation.php` | High
+18 | File | `/admin/mechanics/manage_mechanic.php` | High
+19 | File | `/admin/reportupload.aspx` | High
+20 | File | `/admin/service.php` | High
+21 | File | `/admin/students/manage_academic.php` | High
+22 | File | `/admin/submit-articles` | High
+23 | File | `/admin/transactions/track_shipment.php` | High
+24 | File | `/admin/user/manage_user.php` | High
+25 | File | `/alphaware/summary.php` | High
+26 | File | `/api/` | Low
+27 | File | `/api/admin/store/product/list` | High
+28 | File | `/api/baskets/{name}` | High
+29 | File | `/api/stl/actions/search` | High
+30 | File | `/api/sys/login` | High
+31 | File | `/api/sys/set_passwd` | High
+32 | File | `/api/v2/cli/commands` | High
+33 | File | `/attachments` | Medium
+34 | File | `/bin/ate` | Medium
+35 | File | `/boat/login.php` | High
+36 | File | `/booking/show_bookings/` | High
+37 | File | `/bsms_ci/index.php/book` | High
+38 | File | `/cgi-bin` | Medium
+39 | File | `/cgi-bin/wlogin.cgi` | High
+40 | File | `/change-language/de_DE` | High
+41 | File | `/changePassword` | High
+42 | File | `/classes/Master.php?f=save_item` | High
+43 | File | `/collection/all` | High
+44 | File | `/Content/Template/root/reverse-shell.aspx` | High
+45 | File | `/dashboard/add-blog.php` | High
+46 | File | `/debug/pprof` | Medium
+47 | File | `/ecshop/admin/template.php` | High
+48 | File | `/env` | Low
+49 | File | `/etc/hosts` | Medium
+50 | File | `/forum/away.php` | High
+51 | File | `/friends` | Medium
+52 | File | `/goform/WifiBasicSet` | High
+53 | File | `/group1/uploa` | High
+54 | File | `/index.php` | Medium
+55 | File | `/index.php?controller=GzUser&action=edit&id=1` | High
+56 | ... | ... | ...
 
-There are 463 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 492 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

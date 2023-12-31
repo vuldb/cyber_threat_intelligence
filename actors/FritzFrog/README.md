@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with FritzFrog:
 
-* [VN](https://vuldb.com/?country.vn)
-* [US](https://vuldb.com/?country.us)
 * [IN](https://vuldb.com/?country.in)
+* [VN](https://vuldb.com/?country.vn)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -328,14 +328,15 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-425 | Pathname Traversal | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+6 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+7 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 24 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -343,46 +344,61 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `$HOME/.terminfo` | High
-2 | File | `/+CSCOE+/logon.html` | High
-3 | File | `/admin/admin-profile.php` | High
-4 | File | `/admin/sales/view_details.php` | High
-5 | File | `/admin/save.php` | High
-6 | File | `/admin/user.php` | High
-7 | File | `/api/baskets/{name}` | High
-8 | File | `/api/cron/settings/setJob/` | High
-9 | File | `/api/v1/alerts` | High
-10 | File | `/api/v1/snapshots` | High
-11 | File | `/api/v1/terminal/sessions/?limit=1` | High
-12 | File | `/audit/log/log_management.php` | High
-13 | File | `/categorypage.php` | High
-14 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-15 | File | `/cgi-bin/mainfunction.cgi` | High
-16 | File | `/cgi-bin/vitogate.cgi` | High
-17 | File | `/cgi-bin/wlogin.cgi` | High
-18 | File | `/classes/Users.php` | High
-19 | File | `/dashboard/add-blog.php` | High
-20 | File | `/dottie.js` | Medium
-21 | File | `/env` | Low
-22 | File | `/fcgi/scrut_fcgi.fcgi` | High
-23 | File | `/forms/doLogin` | High
-24 | File | `/forum/away.php` | High
-25 | File | `/goform/Diagnosis` | High
-26 | File | `/HNAP1` | Low
-27 | File | `/index.php` | Medium
-28 | File | `/jerry-core/ecma/base/ecma-helpers-string.c` | High
-29 | File | `/leaves/validate` | High
-30 | File | `/librarian/bookdetails.php` | High
-31 | File | `/log/webmailattach.php` | High
-32 | File | `/mail.php` | Medium
-33 | File | `/mgmt/` | Low
-34 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
-35 | File | `/out.php` | Medium
-36 | File | `/php-opos/index.php` | High
-37 | File | `/php-spms/admin/?page=user/` | High
-38 | ... | ... | ...
+1 | File | `%SYSTEMDRIVE%\node_modules\.bin\wmic.exe` | High
+2 | File | `/accounts/password_change/` | High
+3 | File | `/admin/addemployee.php` | High
+4 | File | `/admin/add_exercises.php` | High
+5 | File | `/admin/add_trainers.php` | High
+6 | File | `/admin/api/admin/articles/` | High
+7 | File | `/admin/api/theme-edit/` | High
+8 | File | `/admin/category/save` | High
+9 | File | `/Admin/createClass.php` | High
+10 | File | `/admin/edit.php` | High
+11 | File | `/admin/settings.php` | High
+12 | File | `/admin/students/manage.php` | High
+13 | File | `/api/authentication/login` | High
+14 | File | `/api/public/signup` | High
+15 | File | `/api/v1/attack` | High
+16 | File | `/api/v1/bait/set` | High
+17 | File | `/api/v2/open/tablesInfo` | High
+18 | File | `/bin/rc4_crypt` | High
+19 | File | `/catalog/compare` | High
+20 | File | `/category.php` | High
+21 | File | `/cgi-bin/downloadFile.cgi` | High
+22 | File | `/cgi-bin/luci/api/switch` | High
+23 | File | `/cgi-bin/qcmap_auth` | High
+24 | File | `/CMD_ACCOUNT_ADMIN` | High
+25 | File | `/csms/?page=contact_us` | High
+26 | File | `/csms/admin/?page=user/list` | High
+27 | File | `/cwms/classes/Master.php?f=save_contact` | High
+28 | File | `/ebics-server/ebics.aspx` | High
+29 | File | `/edituser.php` | High
+30 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+31 | File | `/employeeview.php` | High
+32 | File | `/forum/away.php` | High
+33 | File | `/geoserver/gwc/rest.html` | High
+34 | File | `/goform/formSysCmd` | High
+35 | File | `/goform/goform_get_cmd_process` | High
+36 | File | `/importexport.php` | High
+37 | File | `/index.php` | Medium
+38 | File | `/link/` | Low
+39 | File | `/login.php` | Medium
+40 | File | `/loginVaLidation.php` | High
+41 | File | `/main/webservices/additional_webservices.php` | High
+42 | File | `/mc` | Low
+43 | File | `/mhds/clinic/view_details.php` | High
+44 | File | `/MicroStrategyWS/happyaxis.jsp` | High
+45 | File | `/mims/app/addcustomerHandler.php` | High
+46 | File | `/mkshope/login.php` | High
+47 | File | `/oauth/idp/.well-known/openid-configuration` | High
+48 | File | `/obs/bookPerPub.php` | High
+49 | File | `/omos/admin/?page=user/list` | High
+50 | File | `/one_church/churchprofile.php` | High
+51 | File | `/one_church/userregister.php` | High
+52 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+53 | ... | ... | ...
 
-There are 323 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 464 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

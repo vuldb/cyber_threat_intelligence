@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [TR](https://vuldb.com/?country.tr)
 * ...
 
-There are 9 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -48,37 +48,39 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin.php/Admin/adminadd.html` | High
 3 | File | `/admin/about-us.php` | High
 4 | File | `/Admin/add-student.php` | High
-5 | File | `/admin/settings/save.php` | High
-6 | File | `/admin/userprofile.php` | High
-7 | File | `/api/baskets/{name}` | High
-8 | File | `/apply.cgi` | Medium
-9 | File | `/bitrix/admin/ldap_server_edit.php` | High
-10 | File | `/cgi-bin/wlogin.cgi` | High
-11 | File | `/College/admin/teacher.php` | High
-12 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
-13 | File | `/dcim/rack-roles/` | High
-14 | File | `/forum/away.php` | High
-15 | File | `/goform/addUserName` | High
-16 | File | `/goform/aspForm` | High
-17 | File | `/goform/delAd` | High
-18 | File | `/goform/wifiSSIDset` | High
-19 | File | `/gpac/src/bifs/unquantize.c` | High
-20 | File | `/inc/topBarNav.php` | High
-21 | File | `/index.asp` | Medium
-22 | File | `/index.php` | Medium
-23 | File | `/index.php?app=main&func=passport&action=login` | High
-24 | File | `/jfinal_cms/system/role/list` | High
-25 | File | `/kelas/data` | Medium
-26 | File | `/Moosikay/order.php` | High
-27 | File | `/php-sms/admin/quotes/manage_remark.php` | High
-28 | File | `/secure/QueryComponent!Default.jspa` | High
-29 | File | `/squashfs-root/etc_ro/custom.conf` | High
-30 | File | `/staff/edit_book_details.php` | High
-31 | File | `/SysManage/AddUpdateRole.aspx` | High
-32 | File | `/sysmanage/importconf.php` | High
-33 | ... | ... | ...
+5 | File | `/admin/index2.html` | High
+6 | File | `/admin/settings/save.php` | High
+7 | File | `/admin/userprofile.php` | High
+8 | File | `/api/baskets/{name}` | High
+9 | File | `/apply.cgi` | Medium
+10 | File | `/bitrix/admin/ldap_server_edit.php` | High
+11 | File | `/cgi-bin/wlogin.cgi` | High
+12 | File | `/College/admin/teacher.php` | High
+13 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
+14 | File | `/dcim/rack-roles/` | High
+15 | File | `/forum/away.php` | High
+16 | File | `/goform/addUserName` | High
+17 | File | `/goform/aspForm` | High
+18 | File | `/goform/delAd` | High
+19 | File | `/goform/wifiSSIDset` | High
+20 | File | `/gpac/src/bifs/unquantize.c` | High
+21 | File | `/inc/topBarNav.php` | High
+22 | File | `/index.asp` | Medium
+23 | File | `/index.php` | Medium
+24 | File | `/index.php?app=main&func=passport&action=login` | High
+25 | File | `/jfinal_cms/system/role/list` | High
+26 | File | `/kelas/data` | Medium
+27 | File | `/listplace/user/ticket/create` | High
+28 | File | `/Moosikay/order.php` | High
+29 | File | `/php-sms/admin/quotes/manage_remark.php` | High
+30 | File | `/secure/QueryComponent!Default.jspa` | High
+31 | File | `/squashfs-root/etc_ro/custom.conf` | High
+32 | File | `/staff/edit_book_details.php` | High
+33 | File | `/SysManage/AddUpdateRole.aspx` | High
+34 | File | `/sysmanage/importconf.php` | High
+35 | ... | ... | ...
 
-There are 284 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 299 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

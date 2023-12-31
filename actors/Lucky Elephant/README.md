@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 21 more country items available. Please use our online service to access the data.
+There are 19 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -51,21 +51,21 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/.htpasswd` | Medium
-3 | File | `//proc/kcore` | Medium
-4 | File | `/admin.php/Admin/adminadd.html` | High
-5 | File | `/admin/about-us.php` | High
-6 | File | `/Admin/add-student.php` | High
-7 | File | `/admin/index.php` | High
+2 | File | `//proc/kcore` | Medium
+3 | File | `/admin.php/Admin/adminadd.html` | High
+4 | File | `/admin/about-us.php` | High
+5 | File | `/Admin/add-student.php` | High
+6 | File | `/admin/index.php` | High
+7 | File | `/admin/index2.html` | High
 8 | File | `/admin/settings/save.php` | High
 9 | File | `/admin/userprofile.php` | High
 10 | File | `/api/baskets/{name}` | High
 11 | File | `/apply.cgi` | Medium
-12 | File | `/cgi-bin/wlogin.cgi` | High
-13 | File | `/College/admin/teacher.php` | High
-14 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
-15 | File | `/dcim/rack-roles/` | High
-16 | File | `/filemanager/ajax_calls.php` | High
+12 | File | `/bitrix/admin/ldap_server_edit.php` | High
+13 | File | `/cgi-bin/wlogin.cgi` | High
+14 | File | `/College/admin/teacher.php` | High
+15 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
+16 | File | `/dcim/rack-roles/` | High
 17 | File | `/forum/away.php` | High
 18 | File | `/goform/addUserName` | High
 19 | File | `/goform/aspForm` | High
@@ -78,30 +78,24 @@ ID | Type | Indicator | Confidence
 26 | File | `/index.php?app=main&func=passport&action=login` | High
 27 | File | `/jfinal_cms/system/role/list` | High
 28 | File | `/kelas/data` | Medium
-29 | File | `/Moosikay/order.php` | High
-30 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-31 | File | `/php-sms/admin/quotes/manage_remark.php` | High
-32 | File | `/products/details.asp` | High
-33 | File | `/secure/QueryComponent!Default.jspa` | High
-34 | File | `/shell` | Low
-35 | File | `/spcgi.cgi` | Medium
-36 | File | `/squashfs-root/etc_ro/custom.conf` | High
-37 | File | `/staff/edit_book_details.php` | High
-38 | File | `/SysManage/AddUpdateRole.aspx` | High
-39 | File | `/uncpath/` | Medium
-40 | File | `/user/profile` | High
-41 | File | `/webman/info.cgi` | High
-42 | File | `/wp-admin/admin-ajax.php` | High
-43 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-44 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-45 | File | `about.php` | Medium
-46 | File | `acloudCosAction.php.SQL` | High
-47 | File | `ActiveServices.java` | High
-48 | File | `adclick.php` | Medium
-49 | File | `add.asp` | Low
-50 | ... | ... | ...
+29 | File | `/listplace/user/ticket/create` | High
+30 | File | `/Moosikay/order.php` | High
+31 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+32 | File | `/php-sms/admin/quotes/manage_remark.php` | High
+33 | File | `/php/ping.php` | High
+34 | File | `/products/details.asp` | High
+35 | File | `/secure/QueryComponent!Default.jspa` | High
+36 | File | `/shell` | Low
+37 | File | `/spcgi.cgi` | Medium
+38 | File | `/squashfs-root/etc_ro/custom.conf` | High
+39 | File | `/staff/edit_book_details.php` | High
+40 | File | `/SysManage/AddUpdateRole.aspx` | High
+41 | File | `/sysmanage/importconf.php` | High
+42 | File | `/user/profile` | High
+43 | File | `/webman/info.cgi` | High
+44 | ... | ... | ...
 
-There are 437 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 377 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

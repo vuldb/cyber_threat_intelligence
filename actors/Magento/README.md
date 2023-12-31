@@ -8,8 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Magento:
 
+* [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [DE](https://vuldb.com/?country.de)
+* [CO](https://vuldb.com/?country.co)
+* ...
+
+There are 13 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -17,9 +21,14 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [8.208.15.67](https://vuldb.com/?ip.8.208.15.67) | - | - | High
-2 | [45.114.8.166](https://vuldb.com/?ip.45.114.8.166) | - | - | High
-3 | [47.254.202.112](https://vuldb.com/?ip.47.254.202.112) | - | - | High
+1 | [2.58.45.2](https://vuldb.com/?ip.2.58.45.2) | - | - | High
+2 | [8.208.15.67](https://vuldb.com/?ip.8.208.15.67) | - | - | High
+3 | [45.114.8.166](https://vuldb.com/?ip.45.114.8.166) | - | - | High
+4 | [47.254.202.112](https://vuldb.com/?ip.47.254.202.112) | - | - | High
+5 | [50.7.159.34](https://vuldb.com/?ip.50.7.159.34) | - | - | High
+6 | ... | ... | ... | ...
+
+There are 18 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -27,8 +36,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059 | CWE-94 | Cross Site Scripting | High
-2 | T1600.001 | CWE-330 | Key Management Error | High
+1 | T1006 | CWE-22 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
+
+There are 15 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -36,13 +50,45 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `text/impl/DefaultTextCreator.java` | High
+1 | File | `/admin/index.php` | High
+2 | File | `/api/es/admin/v3/security/user/1` | High
+3 | File | `/api /v3/auth` | High
+4 | File | `/cgi-bin/webviewer_login_page` | High
+5 | File | `/cgi-bin/wlogin.cgi` | High
+6 | File | `/common/sysFile/list` | High
+7 | File | `/Content/Template/root/reverse-shell.aspx` | High
+8 | File | `/ebics-server/ebics.aspx` | High
+9 | File | `/forum/away.php` | High
+10 | File | `/fuel/index.php/fuel/logs/items` | High
+11 | File | `/monitoring` | Medium
+12 | File | `/ocwbs/classes/Master.php?f=get_vehicle_service` | High
+13 | File | `/one/getpassword.php` | High
+14 | File | `/out.php` | Medium
+15 | File | `/phppath/php` | Medium
+16 | File | `/preview.php` | Medium
+17 | File | `/sec/content/sec_asa_users_local_db_add.html` | High
+18 | File | `/secure/admin/AssociatedProjectsForCustomField.jspa` | High
+19 | File | `/secure/QueryComponent!Default.jspa` | High
+20 | File | `/servlet/webacc` | High
+21 | File | `/setNTP.cgi` | Medium
+22 | File | `/Side.php` | Medium
+23 | File | `/spip/ecrire/` | High
+24 | File | `/uncpath/` | Medium
+25 | File | `/userfs/bin/tcapi` | High
+26 | File | `/usr/bin/pkexec` | High
+27 | File | `/vendor/views/add_product.php` | High
+28 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+29 | ... | ... | ...
+
+There are 242 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://blog.sucuri.net/2019/08/magento-skimmers-from-atob-to-alibaba.html
+* https://sansec.io/research/cardbleed
+* https://sansec.io/research/magento-2-persistent-parasite
 
 ## Literature
 

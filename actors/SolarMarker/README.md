@@ -26,9 +26,10 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [45.42.201.248](https://vuldb.com/?ip.45.42.201.248) | - | - | High
 4 | [46.30.188.221](https://vuldb.com/?ip.46.30.188.221) | 46.30.188.221.static.quadranet.com | - | High
 5 | [78.135.73.148](https://vuldb.com/?ip.78.135.73.148) | - | - | High
-6 | ... | ... | ... | ...
+6 | [78.135.73.160](https://vuldb.com/?ip.78.135.73.160) | - | - | High
+7 | ... | ... | ... | ...
 
-There are 21 more IOC items available. Please use our online service to access the data.
+There are 22 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -38,7 +39,7 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94 | Cross Site Scripting | High
+3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 6 | ... | ... | ... | ...
@@ -69,35 +70,36 @@ ID | Type | Indicator | Confidence
 16 | File | `/home/cavesConsole` | High
 17 | File | `/include/chart_generator.php` | High
 18 | File | `/index.php` | Medium
-19 | File | `/librarian/bookdetails.php` | High
-20 | File | `/login/index.php` | High
-21 | File | `/log_download.cgi` | High
-22 | File | `/mgmt/tm/util/bash` | High
-23 | File | `/modules/profile/index.php` | High
-24 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-25 | File | `/news.dtl.php` | High
-26 | File | `/out.php` | Medium
-27 | File | `/p1/p2/:name` | Medium
-28 | File | `/param.file.tgz` | High
-29 | File | `/patient/appointment.php` | High
-30 | File | `/php-opos/index.php` | High
-31 | File | `/proc/<PID>/mem` | High
-32 | File | `/protocol/iscgwtunnel/uploadiscgwrouteconf.php` | High
-33 | File | `/ptms/?page=user` | High
-34 | File | `/Service/ImageStationDataService.asmx` | High
-35 | File | `/setup/finish` | High
-36 | File | `/spip.php` | Medium
-37 | File | `/sysmanage/importconf.php` | High
-38 | File | `/template/edit` | High
-39 | File | `/uncpath/` | Medium
-40 | File | `/upload/file.php` | High
-41 | File | `/user/s.php` | Medium
-42 | File | `/usr/bin/at` | Medium
-43 | File | `/usr/bin/pkexec` | High
-44 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
-45 | ... | ... | ...
+19 | File | `/lam/tmp/` | Medium
+20 | File | `/librarian/bookdetails.php` | High
+21 | File | `/login/index.php` | High
+22 | File | `/log_download.cgi` | High
+23 | File | `/manager?action=getlogcat` | High
+24 | File | `/mgmt/tm/util/bash` | High
+25 | File | `/modules/profile/index.php` | High
+26 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+27 | File | `/news.dtl.php` | High
+28 | File | `/oauth/idp/.well-known/openid-configuration` | High
+29 | File | `/out.php` | Medium
+30 | File | `/p1/p2/:name` | Medium
+31 | File | `/param.file.tgz` | High
+32 | File | `/patient/appointment.php` | High
+33 | File | `/php-opos/index.php` | High
+34 | File | `/proc/<PID>/mem` | High
+35 | File | `/protocol/iscgwtunnel/uploadiscgwrouteconf.php` | High
+36 | File | `/ptms/?page=user` | High
+37 | File | `/Service/ImageStationDataService.asmx` | High
+38 | File | `/setup/finish` | High
+39 | File | `/spip.php` | Medium
+40 | File | `/sysmanage/importconf.php` | High
+41 | File | `/template/edit` | High
+42 | File | `/uncpath/` | Medium
+43 | File | `/upload/file.php` | High
+44 | File | `/user/s.php` | Medium
+45 | File | `/usr/bin/at` | Medium
+46 | ... | ... | ...
 
-There are 391 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 403 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

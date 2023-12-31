@@ -8,6 +8,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 The following _campaigns_ are known and can be associated with Agent Tesla:
 
+* CVE-2017-11882
 * Phishing Korea
 
 ## Countries
@@ -19,7 +20,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 20 more country items available. Please use our online service to access the data.
+There are 23 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -43,9 +44,11 @@ ID | IP address | Hostname | Campaign | Confidence
 14 | [45.156.25.78](https://vuldb.com/?ip.45.156.25.78) | - | - | High
 15 | [46.166.133.164](https://vuldb.com/?ip.46.166.133.164) | cybersubtitles.com | - | High
 16 | [47.87.211.157](https://vuldb.com/?ip.47.87.211.157) | - | - | High
-17 | ... | ... | ... | ...
+17 | [50.17.5.224](https://vuldb.com/?ip.50.17.5.224) | ec2-50-17-5-224.compute-1.amazonaws.com | - | Medium
+18 | [51.68.128.171](https://vuldb.com/?ip.51.68.128.171) | ip171.ip-51-68-128.eu | - | High
+19 | ... | ... | ... | ...
 
-There are 65 more IOC items available. Please use our online service to access the data.
+There are 72 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -53,14 +56,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-36 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -69,56 +72,78 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/admin/ajax.php` | High
-3 | File | `/admin/ajax.php?action=save_window` | High
-4 | File | `/api/baskets/{name}` | High
-5 | File | `/app/options.py` | High
-6 | File | `/be/erpc.php` | Medium
-7 | File | `/bitrix/admin/ldap_server_edit.php` | High
-8 | File | `/booking/show_bookings/` | High
-9 | File | `/config/list` | Medium
-10 | File | `/controller/Index.php` | High
-11 | File | `/csms/?page=contact_us` | High
-12 | File | `/dashboard/add-portfolio.php` | High
-13 | File | `/data/app` | Medium
-14 | File | `/dev/wabi` | Medium
-15 | File | `/etc/gsissh/sshd_config` | High
-16 | File | `/etc/sudoers` | Medium
-17 | File | `/forum/away.php` | High
-18 | File | `/goform/WifiBasicSet` | High
-19 | File | `/include/chart_generator.php` | High
-20 | File | `/inxedu/demo_inxedu_open/src/main/resources/mybatis/inxedu/website/WebsiteImagesMapper.xml` | High
-21 | File | `/lilac/main.php` | High
-22 | File | `/login.php` | Medium
-23 | File | `/mc` | Low
-24 | File | `/mims/login.php` | High
-25 | File | `/module/admin_bp/add_application.php` | High
-26 | File | `/module/report_event/index.php` | High
-27 | File | `/modules/profile/index.php` | High
-28 | File | `/news-portal-script/information.php` | High
-29 | File | `/out.php` | Medium
-30 | File | `/proc/sys/vm/cmm_timeout` | High
-31 | File | `/public/launchNewWindow.jsp` | High
-32 | File | `/RestAPI` | Medium
-33 | File | `/reviewer/system/system/admins/manage/users/user-update.php` | High
-34 | File | `/royal_event/companyprofile.php` | High
-35 | File | `/server-status` | High
-36 | File | `/showfile.php` | High
-37 | File | `/spip.php` | Medium
-38 | File | `/staff/bookdetails.php` | High
-39 | File | `/Status/wan_button_action.asp` | High
-40 | File | `/student/bookdetails.php` | High
-41 | File | `/uncpath/` | Medium
-42 | File | `/upload` | Low
-43 | File | `/usr/local/nagiosxi/html/includes/configwizards/windowswmi/windowswmi.inc.php` | High
-44 | File | `/var/log/nginx` | High
-45 | File | `/wbg/core/_includes/authorization.inc.php` | High
-46 | File | `/wp-admin/options.php` | High
-47 | File | `/youthappam/add-food.php` | High
-48 | File | `/youthappam/editclient.php` | High
-49 | ... | ... | ...
+2 | File | `/admin/about-us.php` | High
+3 | File | `/admin/add-services.php` | High
+4 | File | `/admin/admin.php` | High
+5 | File | `/admin/ajax.php` | High
+6 | File | `/admin/ajax.php?action=save_window` | High
+7 | File | `/admin/edit.php` | High
+8 | File | `/admin/index3.php` | High
+9 | File | `/admin/maintenance/view_designation.php` | High
+10 | File | `/admin/reg.php` | High
+11 | File | `/admin/service.php` | High
+12 | File | `/admin/view_order.php` | High
+13 | File | `/api/admin/system/store/order/list` | High
+14 | File | `/api/baskets/{name}` | High
+15 | File | `/app/options.py` | High
+16 | File | `/apply.cgi` | Medium
+17 | File | `/artist-display.php` | High
+18 | File | `/be/erpc.php` | Medium
+19 | File | `/bitrix/admin/ldap_server_edit.php` | High
+20 | File | `/booking/show_bookings/` | High
+21 | File | `/cgi-bin/ping.cgi` | High
+22 | File | `/config/list` | Medium
+23 | File | `/Controller/Ajaxfileupload.ashx` | High
+24 | File | `/controller/Index.php` | High
+25 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
+26 | File | `/coreframe/app/order/admin/card.php` | High
+27 | File | `/csms/?page=contact_us` | High
+28 | File | `/dashboard/add-portfolio.php` | High
+29 | File | `/dashboard/add-service.php` | High
+30 | File | `/data/app` | Medium
+31 | File | `/dede/group_store.php` | High
+32 | File | `/dipam/athlete-profile.php` | High
+33 | File | `/ecommerce/admin/category/controller.php` | High
+34 | File | `/edit-db.php` | Medium
+35 | File | `/etc/gsissh/sshd_config` | High
+36 | File | `/etc/sudoers` | Medium
+37 | File | `/forum/away.php` | High
+38 | File | `/forum/PostPrivateMessage` | High
+39 | File | `/forums.php?action=post` | High
+40 | File | `/goform/WifiBasicSet` | High
+41 | File | `/include/chart_generator.php` | High
+42 | File | `/index1.html` | Medium
+43 | File | `/inxedu/demo_inxedu_open/src/main/resources/mybatis/inxedu/website/WebsiteImagesMapper.xml` | High
+44 | File | `/items/view_item.php` | High
+45 | File | `/LEPTON_stable_2.2.2/upload/admins/media/index.php` | High
+46 | File | `/lilac/main.php` | High
+47 | File | `/list.php` | Medium
+48 | File | `/login.php` | Medium
+49 | File | `/login/index.php` | High
+50 | File | `/mc` | Low
+51 | File | `/mims/login.php` | High
+52 | File | `/mkshop/Men/profile.php` | High
+53 | File | `/module/admin_bp/add_application.php` | High
+54 | File | `/module/report_event/index.php` | High
+55 | File | `/modules/profile/index.php` | High
+56 | File | `/Moosikay/order.php` | High
+57 | File | `/news-portal-script/information.php` | High
+58 | File | `/out.php` | Medium
+59 | File | `/php-opos/index.php` | High
+60 | File | `/preview.php` | Medium
+61 | File | `/public/launchNewWindow.jsp` | High
+62 | File | `/QueryView.php` | High
+63 | File | `/RestAPI` | Medium
+64 | File | `/reviewer/system/system/admins/manage/users/user-update.php` | High
+65 | File | `/royal_event/companyprofile.php` | High
+66 | File | `/search.php` | Medium
+67 | File | `/secure/QueryComponent!Default.jspa` | High
+68 | File | `/see_more_details.php` | High
+69 | File | `/server-status` | High
+70 | File | `/Service/FileHandler.ashx` | High
+71 | ... | ... | ...
 
-There are 428 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 619 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -126,7 +151,9 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://1275.ru/ioc/254/gs-002-agent-tesla-spyware-iocs/
 * https://1275.ru/ioc/310/gs-032-agent-tesla-spyware-iocs/
+* https://app.any.run/tasks/5f20b5d1-d039-48cb-8481-f3c451d8bcf0/#
 * https://app.any.run/tasks/91b72945-2a21-4e9e-98c5-132ed8d15714/
+* https://app.any.run/tasks/126973bd-0df8-408d-85ae-913ba5c53612/#
 * https://asec.ahnlab.com/en/31083/
 * https://blog.talosintelligence.com/2020/07/threat-roundup-0724-0731.html
 * https://blog.talosintelligence.com/2022/09/threat-roundup-0826-0902.html
@@ -143,11 +170,13 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://github.com/executemalware/Malware-IOCs/blob/main/2022-04-22%20AgentTesla%20IOCs%20Rd2
 * https://github.com/executemalware/Malware-IOCs/blob/main/2022-05-20%20Agent%20Tesla%20IOCs
 * https://github.com/netskopeoss/NetskopeThreatLabsIOCs/tree/main/AgentTesla/IOCs
+* https://malware-traffic-analysis.net/2023/11/22/index.html
 * https://services.global.ntt/en-us/insights/blog/discovering-a-new-agent-tesla-malware-sample
 * https://threatfox.abuse.ch
 * https://tracker.viriback.com/index.php?q=31.220.2.200
 * https://tracker.viriback.com/index.php?q=95.214.27.98
 * https://tracker.viriback.com/index.php?q=107.175.91.120
+* https://tracker.viriback.com/index.php?q=107.175.221.154
 * https://tracker.viriback.com/index.php?q=137.184.5.20
 * https://tracker.viriback.com/index.php?q=139.99.153.90
 * https://tracker.viriback.com/index.php?q=185.225.74.69
@@ -161,6 +190,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://www.cyber45.com
 * https://www.fortinet.com/blog/threat-research/phishing-campaign-targeting-korean-to-deliver-agent-tesla-new-variant
 * https://www.zscaler.com/blogs/security-research/agent-tesla-rat-delivered-quantum-builder-new-ttps
+* https://www.zscaler.com/blogs/security-research/threat-actors-exploit-cve-2017-11882-deliver-agent-tesla
 
 ## Literature
 

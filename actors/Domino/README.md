@@ -37,8 +37,9 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
 
@@ -50,27 +51,30 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/?ajax-request=jnews` | High
 2 | File | `/api/RecordingList/DownloadRecord?file=` | High
-3 | File | `/apply.cgi` | Medium
-4 | File | `/card_scan.php` | High
-5 | File | `/cgi-bin/wlogin.cgi` | High
-6 | File | `/cwc/login` | Medium
-7 | File | `/download` | Medium
-8 | File | `/etc/quagga` | Medium
-9 | File | `/etc/shadow` | Medium
-10 | File | `/forms/doLogin` | High
-11 | File | `/h/calendar` | Medium
-12 | File | `/inc/extensions.php` | High
-13 | File | `/netflow/jspui/editProfile.jsp` | High
-14 | File | `/nova/bin/console` | High
-15 | File | `/nova/bin/detnet` | High
-16 | File | `/out.php` | Medium
-17 | File | `/rapi/read_url` | High
-18 | File | `/req_password_user.php` | High
-19 | File | `/rom-0` | Low
-20 | File | `/scripts/unlock_tasks.php` | High
-21 | ... | ... | ...
+3 | File | `/app/options.py` | High
+4 | File | `/apply.cgi` | Medium
+5 | File | `/card_scan.php` | High
+6 | File | `/cgi-bin/wlogin.cgi` | High
+7 | File | `/cwc/login` | Medium
+8 | File | `/download` | Medium
+9 | File | `/etc/quagga` | Medium
+10 | File | `/etc/shadow` | Medium
+11 | File | `/forms/doLogin` | High
+12 | File | `/h/calendar` | Medium
+13 | File | `/inc/extensions.php` | High
+14 | File | `/mhds/clinic/view_details.php` | High
+15 | File | `/netflow/jspui/editProfile.jsp` | High
+16 | File | `/nova/bin/console` | High
+17 | File | `/nova/bin/detnet` | High
+18 | File | `/out.php` | Medium
+19 | File | `/rapi/read_url` | High
+20 | File | `/req_password_user.php` | High
+21 | File | `/rom-0` | Low
+22 | File | `/scripts/unlock_tasks.php` | High
+23 | File | `/secure/QueryComponent!Default.jspa` | High
+24 | ... | ... | ...
 
-There are 171 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 200 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

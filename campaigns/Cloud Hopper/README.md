@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CH](https://vuldb.com/?country.ch)
-* [RU](https://vuldb.com/?country.ru)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 7 more country items available. Please use our online service to access the data.
+There are 6 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -74,20 +74,20 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/reminders/manage_reminder.php` | High
-2 | File | `/CCMAdmin/serverlist.asp` | High
-3 | File | `/cgi/get_param.cgi` | High
-4 | File | `/csms/admin/inquiries/view_details.php` | High
-5 | File | `/cstecgi.cgi` | Medium
-6 | File | `/dashboard/updatelogo.php` | High
-7 | File | `/etc/openshift/server_priv.pem` | High
-8 | File | `/files.md5` | Medium
-9 | File | `/forum/away.php` | High
-10 | File | `/hrm/employeeview.php` | High
-11 | File | `/include/chart_generator.php` | High
-12 | File | `/index.php` | Medium
-13 | File | `/librarian/bookdetails.php` | High
-14 | File | `/login` | Low
+1 | File | `/admin/general.cgi` | High
+2 | File | `/admin/reminders/manage_reminder.php` | High
+3 | File | `/CCMAdmin/serverlist.asp` | High
+4 | File | `/cgi/get_param.cgi` | High
+5 | File | `/csms/admin/inquiries/view_details.php` | High
+6 | File | `/cstecgi.cgi` | Medium
+7 | File | `/dashboard/updatelogo.php` | High
+8 | File | `/etc/openshift/server_priv.pem` | High
+9 | File | `/files.md5` | Medium
+10 | File | `/forum/away.php` | High
+11 | File | `/hrm/employeeview.php` | High
+12 | File | `/include/chart_generator.php` | High
+13 | File | `/index.php` | Medium
+14 | File | `/librarian/bookdetails.php` | High
 15 | File | `/members/view_member.php` | High
 16 | File | `/messageboard/view.php` | High
 17 | File | `/mhds/clinic/view_details.php` | High
@@ -96,14 +96,14 @@ ID | Type | Indicator | Confidence
 20 | File | `/one_church/userregister.php` | High
 21 | File | `/out.php` | Medium
 22 | File | `/owa/auth/logon.aspx` | High
-23 | File | `/public/plugins/` | High
-24 | File | `/rest/api/latest/projectvalidate/key` | High
-25 | File | `/SAP_Information_System/controllers/add_admin.php` | High
-26 | File | `/SASWebReportStudio/logonAndRender.do` | High
-27 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-28 | File | `/secure/admin/ViewInstrumentation.jspa` | High
-29 | File | `/SVFE2/pages/feegroups/country_group.jsf` | High
-30 | File | `/textpattern/index.php` | High
+23 | File | `/rest/api/latest/projectvalidate/key` | High
+24 | File | `/SAP_Information_System/controllers/add_admin.php` | High
+25 | File | `/SASWebReportStudio/logonAndRender.do` | High
+26 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+27 | File | `/secure/admin/ViewInstrumentation.jspa` | High
+28 | File | `/SVFE2/pages/feegroups/country_group.jsf` | High
+29 | File | `/textpattern/index.php` | High
+30 | File | `/uncpath/` | Medium
 31 | File | `/upfile.cgi` | Medium
 32 | File | `/v2/quantum/save-data-upload-big-file` | High
 33 | File | `/wordpress/wp-admin/admin.php` | High
@@ -113,7 +113,7 @@ ID | Type | Indicator | Confidence
 37 | File | `add_edit_cat.asp` | High
 38 | ... | ... | ...
 
-There are 322 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 327 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

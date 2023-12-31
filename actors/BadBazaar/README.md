@@ -8,8 +8,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with BadBazaar:
 
-* [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
 * [DE](https://vuldb.com/?country.de)
 * ...
 
@@ -55,7 +55,8 @@ ID | Type | Indicator | Confidence
 6 | File | `/filemanager/ajax_calls.php` | High
 7 | File | `/Items/*/RemoteImages/Download` | High
 8 | File | `/login.php` | Medium
-9 | ... | ... | ...
+9 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+10 | ... | ... | ...
 
 There are 70 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 

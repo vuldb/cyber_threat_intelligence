@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [PL](https://vuldb.com/?country.pl)
 * ...
 
-There are 5 more country items available. Please use our online service to access the data.
+There are 6 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -35,7 +35,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 6 more TTP items available. Please use our online service to access the data.
+There are 7 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -44,13 +44,14 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/cfg` | Low
-2 | File | `/etc/quantum/quantum.conf` | High
-3 | File | `/index.php` | Medium
-4 | File | `/iwguestbook/admin/badwords_edit.asp` | High
-5 | File | `/iwguestbook/admin/messages_edit.asp` | High
-6 | ... | ... | ...
+2 | File | `/conf/` | Low
+3 | File | `/controller/AdminController.php` | High
+4 | File | `/etc/quantum/quantum.conf` | High
+5 | File | `/friends/ajax_invite` | High
+6 | File | `/index.php` | Medium
+7 | ... | ... | ...
 
-There are 41 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 52 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -90,15 +90,15 @@ ID | Type | Indicator | Confidence
 10 | File | `/spip.php` | Medium
 11 | File | `/uncpath/` | Medium
 12 | File | `acl.c` | Low
-13 | File | `admin.php` | Medium
-14 | File | `admin.php?mod=user&act=del` | High
-15 | File | `admin/index.php?n=ui_set&m=admin&c=index&a=doget_text_content&table=lang&field=1` | High
-16 | File | `admin/login.asp` | High
-17 | File | `administrator/components/com_media/helpers/media.php` | High
-18 | File | `admin_safe.php` | High
+13 | File | `Addmessage.php` | High
+14 | File | `admin.php` | Medium
+15 | File | `admin.php?mod=user&act=del` | High
+16 | File | `admin/index.php?n=ui_set&m=admin&c=index&a=doget_text_content&table=lang&field=1` | High
+17 | File | `admin/login.asp` | High
+18 | File | `administrator/components/com_media/helpers/media.php` | High
 19 | ... | ... | ...
 
-There are 151 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 152 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

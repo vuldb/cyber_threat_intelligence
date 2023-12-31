@@ -24,7 +24,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [US](https://vuldb.com/?country.us)
 * ...
 
-There are 8 more country items available. Please use our online service to access the data.
+There are 9 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -140,11 +140,11 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -152,46 +152,41 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/act/ActDao.xml` | High
-2 | File | `/admin.php?c=upload&f=zip&_noCache=0.1683794968` | High
-3 | File | `/admin/add-category.php` | High
-4 | File | `/admin/edit.php` | High
-5 | File | `/admin/orders/update_status.php` | High
-6 | File | `/admin/user.php` | High
-7 | File | `/ajax.php?action=read_msg` | High
-8 | File | `/analysisProject/pagingQueryData` | High
-9 | File | `/api/baskets/{name}` | High
+1 | File | `/admin.php?c=upload&f=zip&_noCache=0.1683794968` | High
+2 | File | `/admin/add-category.php` | High
+3 | File | `/admin/orders/update_status.php` | High
+4 | File | `/admin/sql` | Medium
+5 | File | `/admin/user.php` | High
+6 | File | `/api/baskets/{name}` | High
+7 | File | `/api/upload.php` | High
+8 | File | `/api/v1/snapshots` | High
+9 | File | `/api /v3/auth` | High
 10 | File | `/billing/home.php` | High
-11 | File | `/bin/ate` | Medium
-12 | File | `/booking/show_bookings/` | High
+11 | File | `/booking/show_bookings/` | High
+12 | File | `/cgi-bin/cstecgi.cgi` | High
 13 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
 14 | File | `/cgi-bin/wapopen` | High
 15 | File | `/cgi-bin/wlogin.cgi` | High
 16 | File | `/cgi/networkDiag.cgi` | High
-17 | File | `/classes/Master.php?f=delete_category` | High
-18 | File | `/classes/Master.php?f=save_service` | High
-19 | File | `/concat?/%2557EB-INF/web.xml` | High
-20 | File | `/Controller/Ajaxfileupload.ashx` | High
-21 | File | `/dashboard/add-blog.php` | High
-22 | File | `/data/remove` | Medium
-23 | File | `/debug/pprof` | Medium
-24 | File | `/env` | Low
-25 | File | `/etc/passwd` | Medium
-26 | File | `/forum/away.php` | High
-27 | File | `/getcfg.php` | Medium
-28 | File | `/goform/AdvSetLanip` | High
-29 | File | `/goform/fromSetWirelessRepeat` | High
-30 | File | `/goform/net\_Web\_get_value` | High
-31 | File | `/goform/setmac` | High
-32 | File | `/goform/setMacFilterCfg` | High
-33 | File | `/goform/SetSysTimeCfg` | High
-34 | File | `/goform/WifiGuestSet` | High
-35 | File | `/GponForm/usb_restore_Form?script/` | High
-36 | File | `/group1/uploa` | High
-37 | File | `/home/cavesConsole` | High
-38 | ... | ... | ...
+17 | File | `/dashboard/add-blog.php` | High
+18 | File | `/debug/pprof` | Medium
+19 | File | `/etc/passwd` | Medium
+20 | File | `/forum/away.php` | High
+21 | File | `/getcfg.php` | Medium
+22 | File | `/goform/net\_Web\_get_value` | High
+23 | File | `/GponForm/usb_restore_Form?script/` | High
+24 | File | `/group1/uploa` | High
+25 | File | `/home/cavesConsole` | High
+26 | File | `/home/masterConsole` | High
+27 | File | `/home/playerOperate` | High
+28 | File | `/importexport.php` | High
+29 | File | `/index.php/sysmanage/Login/login_auth/` | High
+30 | File | `/items/search` | High
+31 | File | `/net/sched/cls_fw.c` | High
+32 | File | `/oauth/idp/.well-known/openid-configuration` | High
+33 | ... | ... | ...
 
-There are 327 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 283 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

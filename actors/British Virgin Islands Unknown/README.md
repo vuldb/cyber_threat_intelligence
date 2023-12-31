@@ -72,7 +72,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -92,30 +92,32 @@ ID | Type | Indicator | Confidence
 10 | File | `/admin/users.php?source=edit_user&id=1` | High
 11 | File | `/administrator/alerts/alertLightbox.php` | High
 12 | File | `/administrator/templates/default/html/windows/right.php` | High
-13 | File | `/apps/acs-commons/content/page-compare.html` | High
-14 | File | `/cgi-bin/webadminget.cgi` | High
-15 | File | `/classes/Master.php?f=delete_service` | High
-16 | File | `/classes/Master.php?f=save_course` | High
-17 | File | `/demo/module/?module=HERE` | High
-18 | File | `/download/set.cgi` | High
-19 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
-20 | File | `/dvcset/sysset/set.cgi` | High
-21 | File | `/forum/away.php` | High
-22 | File | `/goform/SysToolReboot` | High
-23 | File | `/goform/WifiExtraSet` | High
-24 | File | `/inc/topBarNav.php` | High
-25 | File | `/index.php?m=admin&c=custom&a=plugindelhandle` | High
-26 | File | `/mkshop/Men/profile.php` | High
-27 | File | `/mngset/authset` | High
-28 | File | `/mobile/downloadfile.aspx` | High
-29 | File | `/net/nfc/netlink.c` | High
-30 | File | `/out.php` | Medium
-31 | File | `/outgoing.php` | High
-32 | File | `/php-fusion/infusions/shoutbox_panel/shoutbox_archive.php` | High
-33 | File | `/presale/join` | High
-34 | ... | ... | ...
+13 | File | `/api/runscript` | High
+14 | File | `/apps/acs-commons/content/page-compare.html` | High
+15 | File | `/cgi-bin/webadminget.cgi` | High
+16 | File | `/classes/Master.php?f=delete_service` | High
+17 | File | `/classes/Master.php?f=save_course` | High
+18 | File | `/demo/module/?module=HERE` | High
+19 | File | `/download/set.cgi` | High
+20 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
+21 | File | `/dvcset/sysset/set.cgi` | High
+22 | File | `/forum/away.php` | High
+23 | File | `/goform/SysToolReboot` | High
+24 | File | `/goform/WifiExtraSet` | High
+25 | File | `/inc/topBarNav.php` | High
+26 | File | `/index.php?m=admin&c=custom&a=plugindelhandle` | High
+27 | File | `/mkshop/Men/profile.php` | High
+28 | File | `/mngset/authset` | High
+29 | File | `/mobile/downloadfile.aspx` | High
+30 | File | `/net/nfc/netlink.c` | High
+31 | File | `/out.php` | Medium
+32 | File | `/outgoing.php` | High
+33 | File | `/php-fusion/infusions/shoutbox_panel/shoutbox_archive.php` | High
+34 | File | `/presale/join` | High
+35 | File | `/public/launchNewWindow.jsp` | High
+36 | ... | ... | ...
 
-There are 291 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 307 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

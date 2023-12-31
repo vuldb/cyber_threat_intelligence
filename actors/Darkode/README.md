@@ -43,23 +43,23 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/cgi-bin/user/Config.cgi` | High
-2 | File | `/config/php.ini` | High
-3 | File | `/htdocs/cgibin` | High
-4 | File | `/uncpath/` | Medium
-5 | File | `/videotalk` | Medium
-6 | File | `/web/MCmsAction.java` | High
-7 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-8 | File | `activity_log.php` | High
-9 | File | `adm/systools.asp` | High
-10 | File | `admin/getparam.cgi` | High
-11 | File | `admin/media/index.php"` | High
-12 | File | `adminCons.php` | High
-13 | File | `ajax_list_accounts.php` | High
-14 | File | `auth-options.c` | High
+1 | File | `%PROGRAMFILES(X86)%\TSplus\UserDesktop\themes.` | High
+2 | File | `/admin/maintenance/view_designation.php` | High
+3 | File | `/admin/search-appointment.php` | High
+4 | File | `/cgi-bin/user/Config.cgi` | High
+5 | File | `/config/php.ini` | High
+6 | File | `/htdocs/cgibin` | High
+7 | File | `/uncpath/` | Medium
+8 | File | `/videotalk` | Medium
+9 | File | `/web/MCmsAction.java` | High
+10 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+11 | File | `activity_log.php` | High
+12 | File | `adm/systools.asp` | High
+13 | File | `admin/getparam.cgi` | High
+14 | File | `admin/media/index.php"` | High
 15 | ... | ... | ...
 
-There are 118 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 124 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

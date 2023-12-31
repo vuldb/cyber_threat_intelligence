@@ -8,8 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with LOLBins:
 
+* [SC](https://vuldb.com/?country.sc)
 * [US](https://vuldb.com/?country.us)
-* [AU](https://vuldb.com/?country.au)
+* [GB](https://vuldb.com/?country.gb)
+* ...
+
+There are 1 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -18,6 +22,7 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [134.209.176.24](https://vuldb.com/?ip.134.209.176.24) | 970773.cloudwaysapps.com | - | High
+2 | [185.56.83.82](https://vuldb.com/?ip.185.56.83.82) | linux.one | - | High
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -26,7 +31,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22 | Pathname Traversal | High
-2 | T1592 | CWE-200 | Configuration | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
+
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -34,14 +45,37 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `module/api.php?mobile/webNasIPS` | High
-2 | Argument | `PWD` | Low
+1 | File | `/?p=products` | Medium
+2 | File | `/admin/api/theme-edit/` | High
+3 | File | `/admin/maintenance/view_designation.php` | High
+4 | File | `/admin/sales/manage_sale.php` | High
+5 | File | `/admin/sign/out` | High
+6 | File | `/adminui/history_log.php` | High
+7 | File | `/api/v1/attack` | High
+8 | File | `/apply.cgi` | Medium
+9 | File | `/blog/edit` | Medium
+10 | File | `/clients/listclients.php` | High
+11 | File | `/common/run_cross_report.php` | High
+12 | File | `/common/user_profile.php` | High
+13 | File | `/etc/gsissh/sshd_config` | High
+14 | File | `/etc/shadow` | Medium
+15 | File | `/goForm/aspForm` | High
+16 | File | `/goform/delFileName` | High
+17 | File | `/goform/exeCommand` | High
+18 | File | `/goform/WifiBasicSet` | High
+19 | File | `/index.php` | Medium
+20 | File | `/libsystem/login.php` | High
+21 | File | `/login/index.php` | High
+22 | ... | ... | ...
+
+There are 182 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://blog.talosintelligence.com/2019/11/hunting-for-lolbins.html
+* https://www.huntress.com/blog/cant-touch-this-data-exfiltration-via-finger
 
 ## Literature
 

@@ -85,13 +85,14 @@ ID | Type | Indicator | Confidence
 18 | File | `/uncpath/` | Medium
 19 | File | `/upload` | Low
 20 | File | `add_vhost.php` | High
-21 | File | `admin/images.aspx` | High
-22 | File | `admin/index.php` | High
-23 | File | `adv2.php?action=modify` | High
-24 | File | `agent.cfg` | Medium
-25 | ... | ... | ...
+21 | File | `admin/gv_mail.php` | High
+22 | File | `admin/images.aspx` | High
+23 | File | `admin/index.php` | High
+24 | File | `adv2.php?action=modify` | High
+25 | File | `agent.cfg` | Medium
+26 | ... | ... | ...
 
-There are 214 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 220 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

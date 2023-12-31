@@ -26,6 +26,14 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1592 | CWE-209 | Configuration | High
 
+## IOA - Indicator of Attack
+
+These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by Dark Nexus. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Type | Indicator | Confidence
+-- | ---- | --------- | ----------
+1 | File | `/oauth/idp/.well-known/openid-configuration` | High
+
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:

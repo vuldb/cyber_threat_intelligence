@@ -93,7 +93,7 @@ ID | IP address | Hostname | Campaign | Confidence
 64 | [66.180.118.226](https://vuldb.com/?ip.66.180.118.226) | 66-180-118-226.customerip.birch.net | - | High
 65 | ... | ... | ... | ...
 
-There are 257 more IOC items available. Please use our online service to access the data.
+There are 258 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -109,7 +109,7 @@ ID | Technique | Weakness | Description | Confidence
 6 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 7 | ... | ... | ... | ...
 
-There are 23 more TTP items available. Please use our online service to access the data.
+There are 24 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -117,52 +117,53 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/?p=products` | Medium
-2 | File | `/about.php` | Medium
-3 | File | `/admin.php/accessory/filesdel.html` | High
-4 | File | `/admin/?page=user/manage` | High
-5 | File | `/admin/add-new.php` | High
-6 | File | `/admin/doctors.php` | High
-7 | File | `/admin/submit-articles` | High
-8 | File | `/ad_js.php` | Medium
-9 | File | `/alphaware/summary.php` | High
-10 | File | `/api/` | Low
-11 | File | `/api/admin/store/product/list` | High
-12 | File | `/api/baskets/{name}` | High
-13 | File | `/api/stl/actions/search` | High
-14 | File | `/api/v2/cli/commands` | High
-15 | File | `/attachments` | Medium
-16 | File | `/bin/ate` | Medium
-17 | File | `/boat/login.php` | High
-18 | File | `/booking/show_bookings/` | High
-19 | File | `/bsms_ci/index.php/book` | High
-20 | File | `/cgi-bin` | Medium
-21 | File | `/cgi-bin/luci/api/wireless` | High
-22 | File | `/cgi-bin/wlogin.cgi` | High
-23 | File | `/config/php.ini` | High
-24 | File | `/Content/Template/root/reverse-shell.aspx` | High
-25 | File | `/context/%2e/WEB-INF/web.xml` | High
-26 | File | `/dashboard/add-blog.php` | High
-27 | File | `/debug/pprof` | Medium
-28 | File | `/env` | Low
-29 | File | `/etc/hosts` | Medium
-30 | File | `/forum/away.php` | High
-31 | File | `/goform/setmac` | High
-32 | File | `/goform/wizard_end` | High
-33 | File | `/group1/uploa` | High
-34 | File | `/manage-apartment.php` | High
-35 | File | `/medicines/profile.php` | High
-36 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-37 | File | `/pages/apply_vacancy.php` | High
-38 | File | `/php-sms/admin/?page=user/manage_user` | High
-39 | File | `/proxy` | Low
-40 | File | `/reservation/add_message.php` | High
-41 | File | `/resources//../` | High
-42 | File | `/spip.php` | Medium
-43 | File | `/tmp` | Low
-44 | ... | ... | ...
+1 | File | `%PROGRAMFILES(X86)%\TSplus\UserDesktop\themes.` | High
+2 | File | `/?p=products` | Medium
+3 | File | `/about.php` | Medium
+4 | File | `/admin.php/accessory/filesdel.html` | High
+5 | File | `/admin/?page=user/manage` | High
+6 | File | `/admin/add-new.php` | High
+7 | File | `/admin/controller/JobLogController.java` | High
+8 | File | `/admin/doctors.php` | High
+9 | File | `/admin/maintenance/view_designation.php` | High
+10 | File | `/admin/search-appointment.php` | High
+11 | File | `/admin/submit-articles` | High
+12 | File | `/alphaware/summary.php` | High
+13 | File | `/api/` | Low
+14 | File | `/api/admin/store/product/list` | High
+15 | File | `/api/baskets/{name}` | High
+16 | File | `/api/stl/actions/search` | High
+17 | File | `/api/sys/login` | High
+18 | File | `/api/sys/set_passwd` | High
+19 | File | `/api/v2/cli/commands` | High
+20 | File | `/attachments` | Medium
+21 | File | `/bin/ate` | Medium
+22 | File | `/boat/login.php` | High
+23 | File | `/booking/show_bookings/` | High
+24 | File | `/bsms_ci/index.php/book` | High
+25 | File | `/cgi-bin` | Medium
+26 | File | `/cgi-bin/luci/api/wireless` | High
+27 | File | `/cgi-bin/wlogin.cgi` | High
+28 | File | `/changePassword` | High
+29 | File | `/config/php.ini` | High
+30 | File | `/Content/Template/root/reverse-shell.aspx` | High
+31 | File | `/context/%2e/WEB-INF/web.xml` | High
+32 | File | `/dashboard/add-blog.php` | High
+33 | File | `/debug/pprof` | Medium
+34 | File | `/ecshop/admin/template.php` | High
+35 | File | `/env` | Low
+36 | File | `/etc/hosts` | Medium
+37 | File | `/forum/away.php` | High
+38 | File | `/goform/setmac` | High
+39 | File | `/goform/wizard_end` | High
+40 | File | `/group1/uploa` | High
+41 | File | `/manage-apartment.php` | High
+42 | File | `/medicines/profile.php` | High
+43 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+44 | File | `/pages/apply_vacancy.php` | High
+45 | ... | ... | ...
 
-There are 384 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 393 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -175,6 +176,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/threat-roundup-0217-0224/
 * https://blog.talosintelligence.com/threat-roundup-0414-0421-3/
 * https://blog.talosintelligence.com/threat-roundup-0519-0526-23/
+* https://blog.talosintelligence.com/threat-roundup-1013-1020/
 * https://blog.talosintelligence.com/threat-roundup-1021-1028-2/
 * https://blog.talosintelligence.com/threat-roundup-1202-1209/
 * https://ddanchev.blogspot.com/2022/11/profiling-zeusesta-managed-zeus.html

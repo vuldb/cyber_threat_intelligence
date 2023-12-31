@@ -61,36 +61,36 @@ ID | Type | Indicator | Confidence
 10 | File | `/goform/SetNetControlList` | High
 11 | File | `/lists/admin/` | High
 12 | File | `/status.js` | Medium
-13 | File | `/usr/bin/lua` | Medium
-14 | File | `/var/lib/dpkg/info/` | High
-15 | File | `/vloggers_merch/classes/Master.php?f=delete_category` | High
-16 | File | `/websitebaker/admin/preferences/save.php` | High
-17 | File | `aai.c` | Low
-18 | File | `account/login.php` | High
-19 | File | `admin-ajax.php` | High
-20 | File | `admin.comms.php` | High
-21 | File | `admin.php` | Medium
-22 | File | `admin/auto.def` | High
-23 | File | `admin/blog/add/` | High
-24 | File | `admin/home#/person/` | High
-25 | File | `admin/mcart_xls_import.php` | High
-26 | File | `admin/plugin/file_manager/browse/` | High
-27 | File | `admin/services/packages/remove` | High
-28 | File | `administrator/components/com_media/helpers/media.php` | High
-29 | File | `adm_config_report.php` | High
-30 | File | `adm_program/modules/members/members_function.php` | High
-31 | File | `album_portal.php` | High
-32 | File | `amf.c` | Low
-33 | File | `api.c` | Low
-34 | File | `api/includes/systems.php` | High
-35 | File | `archive_read_support_format_cab.c` | High
-36 | File | `assembler/MacroAssemblerARM64.h` | High
-37 | File | `auction_offer.php` | High
-38 | File | `Autopilot/route_mgr.cxx` | High
-39 | File | `avs.c` | Low
+13 | File | `/sysmanage/edit_manageadmin.php` | High
+14 | File | `/usr/bin/lua` | Medium
+15 | File | `/var/lib/dpkg/info/` | High
+16 | File | `/vloggers_merch/classes/Master.php?f=delete_category` | High
+17 | File | `/websitebaker/admin/preferences/save.php` | High
+18 | File | `aai.c` | Low
+19 | File | `account/login.php` | High
+20 | File | `admin-ajax.php` | High
+21 | File | `admin.comms.php` | High
+22 | File | `admin.php` | Medium
+23 | File | `admin/auto.def` | High
+24 | File | `admin/blog/add/` | High
+25 | File | `admin/home#/person/` | High
+26 | File | `admin/mcart_xls_import.php` | High
+27 | File | `admin/plugin/file_manager/browse/` | High
+28 | File | `admin/services/packages/remove` | High
+29 | File | `administrator/components/com_media/helpers/media.php` | High
+30 | File | `adm_config_report.php` | High
+31 | File | `adm_program/modules/members/members_function.php` | High
+32 | File | `album_portal.php` | High
+33 | File | `amf.c` | Low
+34 | File | `api.c` | Low
+35 | File | `api/includes/systems.php` | High
+36 | File | `archive_read_support_format_cab.c` | High
+37 | File | `assembler/MacroAssemblerARM64.h` | High
+38 | File | `auction_offer.php` | High
+39 | File | `Autopilot/route_mgr.cxx` | High
 40 | ... | ... | ...
 
-There are 344 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 348 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

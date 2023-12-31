@@ -134,19 +134,19 @@ ID | Type | Indicator | Confidence
 11 | File | `/eval/admin/manage_class.php` | High
 12 | File | `/importTool/preview` | High
 13 | File | `/mods/_core/courses/users/create_course.php` | High
-14 | File | `/phppath/php` | Medium
-15 | File | `/plugins/Dashboard/Controller.php` | High
-16 | File | `/server-status` | High
-17 | File | `/uncpath/` | Medium
-18 | File | `?page=about` | Medium
-19 | File | `adclick.php` | Medium
-20 | File | `add_comment.php` | High
-21 | File | `admin-ajax.php` | High
-22 | File | `admin.php` | Medium
-23 | File | `admin/add_user/UID` | High
+14 | File | `/oauth/idp/.well-known/openid-configuration` | High
+15 | File | `/phppath/php` | Medium
+16 | File | `/plugins/Dashboard/Controller.php` | High
+17 | File | `/server-status` | High
+18 | File | `/uncpath/` | Medium
+19 | File | `?page=about` | Medium
+20 | File | `adclick.php` | Medium
+21 | File | `add_comment.php` | High
+22 | File | `admin-ajax.php` | High
+23 | File | `admin.php` | Medium
 24 | ... | ... | ...
 
-There are 203 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 205 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

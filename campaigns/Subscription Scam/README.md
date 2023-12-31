@@ -70,28 +70,28 @@ ID | Type | Indicator | Confidence
 3 | File | `/forum/away.php` | High
 4 | File | `/includes/lib/detail.php` | High
 5 | File | `/modules/projects/vw_files.php` | High
-6 | File | `/resources//../` | High
-7 | File | `/see_more_details.php` | High
-8 | File | `/server-status` | High
-9 | File | `add-services.php` | High
-10 | File | `admin.php` | Medium
-11 | File | `admin/index.php` | High
-12 | File | `admin/models/Galleries.php` | High
-13 | File | `affich.php` | Medium
-14 | File | `affiliate-preview.php` | High
-15 | File | `akocomments.php` | High
-16 | File | `album_portal.php` | High
-17 | File | `application/modules/admin/views/ecommerce/products.php` | High
-18 | File | `apps/app_article/controller/rating.php` | High
-19 | File | `app\Http\Controllers\Backend\ProfileController.php` | High
-20 | File | `auktion.cgi` | Medium
-21 | File | `basket.php` | Medium
-22 | File | `big.php` | Low
-23 | File | `category_list.php` | High
-24 | File | `closeup.php` | Medium
+6 | File | `/oauth/idp/.well-known/openid-configuration` | High
+7 | File | `/resources//../` | High
+8 | File | `/see_more_details.php` | High
+9 | File | `/server-status` | High
+10 | File | `add-services.php` | High
+11 | File | `admin.php` | Medium
+12 | File | `admin/index.php` | High
+13 | File | `admin/models/Galleries.php` | High
+14 | File | `affich.php` | Medium
+15 | File | `affiliate-preview.php` | High
+16 | File | `akocomments.php` | High
+17 | File | `album_portal.php` | High
+18 | File | `application/modules/admin/views/ecommerce/products.php` | High
+19 | File | `apps/app_article/controller/rating.php` | High
+20 | File | `app\Http\Controllers\Backend\ProfileController.php` | High
+21 | File | `auktion.cgi` | Medium
+22 | File | `basket.php` | Medium
+23 | File | `big.php` | Low
+24 | File | `category_list.php` | High
 25 | ... | ... | ...
 
-There are 208 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 209 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

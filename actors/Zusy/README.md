@@ -134,7 +134,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Pathname Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
@@ -149,62 +149,60 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/?p=products` | Medium
-2 | File | `/admin.php/accessory/filesdel.html` | High
-3 | File | `/admin/?page=user/manage` | High
-4 | File | `/admin/add-new.php` | High
-5 | File | `/admin/controller/JobLogController.java` | High
-6 | File | `/admin/doctors.php` | High
-7 | File | `/admin/gnssAutoAlign.php` | High
-8 | File | `/admin/index3.php` | High
-9 | File | `/admin/maintenance/view_designation.php` | High
-10 | File | `/admin/read.php?mudi=getSignal` | High
-11 | File | `/admin/reminders/manage_reminder.php` | High
-12 | File | `/adms/admin/?page=vehicles/view_transaction` | High
-13 | File | `/alphaware/summary.php` | High
-14 | File | `/api/` | Low
-15 | File | `/api/admin/store/product/list` | High
-16 | File | `/api/baskets/{name}` | High
-17 | File | `/api/stl/actions/search` | High
-18 | File | `/api/sys/login` | High
-19 | File | `/api/sys/set_passwd` | High
-20 | File | `/api/v2/cli/commands` | High
-21 | File | `/bin/ate` | Medium
-22 | File | `/boat/login.php` | High
-23 | File | `/booking/show_bookings/` | High
-24 | File | `/CCMAdmin/serverlist.asp` | High
-25 | File | `/cgi-bin` | Medium
-26 | File | `/cgi-bin/wlogin.cgi` | High
-27 | File | `/cgi/get_param.cgi` | High
-28 | File | `/changePassword` | High
-29 | File | `/classes/Master.php?f=save_sub_category` | High
-30 | File | `/Content/Template/root/reverse-shell.aspx` | High
-31 | File | `/csms/admin/inquiries/view_details.php` | High
-32 | File | `/cstecgi.cgi` | Medium
-33 | File | `/dashboard/add-blog.php` | High
-34 | File | `/debug/pprof` | Medium
-35 | File | `/ecshop/admin/template.php` | High
-36 | File | `/env` | Low
-37 | File | `/forum/away.php` | High
-38 | File | `/group1/uploa` | High
-39 | File | `/importexport.php` | High
-40 | File | `/include/chart_generator.php` | High
-41 | File | `/kelas/data` | Medium
-42 | File | `/librarian/bookdetails.php` | High
-43 | File | `/loginsave.php` | High
-44 | File | `/messageboard/view.php` | High
-45 | File | `/out.php` | Medium
-46 | File | `/php-sms/admin/?page=user/manage_user` | High
-47 | File | `/reservation/add_message.php` | High
-48 | File | `/resources//../` | High
-49 | File | `/search` | Low
-50 | File | `/SVFE2/pages/feegroups/country_group.jsf` | High
-51 | File | `/textpattern/index.php` | High
-52 | File | `/upfile.cgi` | Medium
-53 | File | `/user/updatePwd` | High
-54 | File | `/userLogin.asp` | High
-55 | ... | ... | ...
+2 | File | `/admin/add-category.php` | High
+3 | File | `/admin/controller/JobLogController.java` | High
+4 | File | `/admin/gnssAutoAlign.php` | High
+5 | File | `/admin/maintenance/view_designation.php` | High
+6 | File | `/admin/read.php?mudi=getSignal` | High
+7 | File | `/admin/reminders/manage_reminder.php` | High
+8 | File | `/api/` | Low
+9 | File | `/api/admin/store/product/list` | High
+10 | File | `/api/baskets/{name}` | High
+11 | File | `/api/stl/actions/search` | High
+12 | File | `/api/sys/login` | High
+13 | File | `/api/sys/set_passwd` | High
+14 | File | `/api/v2/cli/commands` | High
+15 | File | `/bin/ate` | Medium
+16 | File | `/booking/show_bookings/` | High
+17 | File | `/CCMAdmin/serverlist.asp` | High
+18 | File | `/cgi-bin` | Medium
+19 | File | `/cgi-bin/wlogin.cgi` | High
+20 | File | `/cgi/get_param.cgi` | High
+21 | File | `/changePassword` | High
+22 | File | `/classes/Master.php?f=save_sub_category` | High
+23 | File | `/Content/Template/root/reverse-shell.aspx` | High
+24 | File | `/csms/admin/inquiries/view_details.php` | High
+25 | File | `/cstecgi.cgi` | Medium
+26 | File | `/dashboard/add-blog.php` | High
+27 | File | `/debug/pprof` | Medium
+28 | File | `/ecshop/admin/template.php` | High
+29 | File | `/env` | Low
+30 | File | `/forum/away.php` | High
+31 | File | `/goform/SetOnlineDevName` | High
+32 | File | `/group1/uploa` | High
+33 | File | `/importexport.php` | High
+34 | File | `/include/chart_generator.php` | High
+35 | File | `/kelas/data` | Medium
+36 | File | `/librarian/bookdetails.php` | High
+37 | File | `/loginsave.php` | High
+38 | File | `/messageboard/view.php` | High
+39 | File | `/out.php` | Medium
+40 | File | `/php-sms/admin/?page=user/manage_user` | High
+41 | File | `/resources//../` | High
+42 | File | `/search` | Low
+43 | File | `/SVFE2/pages/feegroups/country_group.jsf` | High
+44 | File | `/testConnection` | High
+45 | File | `/textpattern/index.php` | High
+46 | File | `/upfile.cgi` | Medium
+47 | File | `/user/updatePwd` | High
+48 | File | `/userLogin.asp` | High
+49 | File | `/vm/admin/doctors.php` | High
+50 | File | `/wireless/security.asp` | High
+51 | File | `/wordpress/wp-admin/admin.php` | High
+52 | File | `?r=recruit/interview/export&interviews=x` | High
+53 | ... | ... | ...
 
-There are 478 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 459 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

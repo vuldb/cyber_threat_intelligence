@@ -61,9 +61,10 @@ ID | Type | Indicator | Confidence
 3 | File | `/admin/test_status.php` | High
 4 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
 5 | File | `/edituser.php` | High
-6 | ... | ... | ...
+6 | File | `/etc/shadow` | Medium
+7 | ... | ... | ...
 
-There are 43 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 46 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

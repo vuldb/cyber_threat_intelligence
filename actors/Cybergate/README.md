@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 15 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -38,7 +38,7 @@ ID | IP address | Hostname | Campaign | Confidence
 15 | [86.18.99.199](https://vuldb.com/?ip.86.18.99.199) | cpc86441-seve24-2-0-cust198.13-3.cable.virginm.net | - | High
 16 | ... | ... | ... | ...
 
-There are 59 more IOC items available. Please use our online service to access the data.
+There are 60 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -62,45 +62,41 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `$HOME/.terminfo` | High
-2 | File | `/+CSCOE+/logon.html` | High
-3 | File | `/admin/upload/upload` | High
-4 | File | `/api/baskets/{name}` | High
-5 | File | `/api/gen/clients/{language}` | High
-6 | File | `/bin/login` | Medium
-7 | File | `/bin/mini_upnpd` | High
-8 | File | `/cgi-bin/wlogin.cgi` | High
-9 | File | `/config/myfield/test.php` | High
-10 | File | `/debug/pprof` | Medium
-11 | File | `/ecshop/admin/template.php` | High
-12 | File | `/file/upload/1` | High
-13 | File | `/forum/away.php` | High
-14 | File | `/forum/PostPrivateMessage` | High
-15 | File | `/goform/set_LimitClient_cfg` | High
-16 | File | `/h/autoSaveDraft` | High
-17 | File | `/h/search?action` | High
-18 | File | `/home/www/cgi-bin/login.cgi` | High
-19 | File | `/hss/admin/?page=products/view_product` | High
-20 | File | `/importexport.php` | High
-21 | File | `/index.php?app=main&func=passport&action=login` | High
-22 | File | `/mgmt/` | Low
-23 | File | `/multi-vendor-shopping-script/product-list.php` | High
-24 | File | `/net-banking/customer_transactions.php` | High
-25 | File | `/obs/book.php` | High
-26 | File | `/ossn/administrator/com_installer` | High
-27 | File | `/owa/auth/logon.aspx` | High
-28 | File | `/pms/update_user.php?user_id=1` | High
-29 | File | `/preview.php` | Medium
-30 | File | `/requests.php` | High
-31 | File | `/secure/ViewCollectors` | High
-32 | File | `/server-status` | High
-33 | File | `/spip.php` | Medium
-34 | File | `/sqlite3_aflpp/shell.c` | High
-35 | File | `/squashfs-root/etc_ro/custom.conf` | High
-36 | File | `/SVFE2/pages/feegroups/service_group.jsf` | High
-37 | File | `/sys/user/querySysUser?username=admin` | High
-38 | ... | ... | ...
+2 | File | `/api/baskets/{name}` | High
+3 | File | `/api/gen/clients/{language}` | High
+4 | File | `/bin/login` | Medium
+5 | File | `/bin/mini_upnpd` | High
+6 | File | `/cgi-bin/wlogin.cgi` | High
+7 | File | `/config/myfield/test.php` | High
+8 | File | `/ecshop/admin/template.php` | High
+9 | File | `/file/upload/1` | High
+10 | File | `/forum/away.php` | High
+11 | File | `/forum/PostPrivateMessage` | High
+12 | File | `/goform/goform_get_cmd_process` | High
+13 | File | `/goform/set_LimitClient_cfg` | High
+14 | File | `/h/autoSaveDraft` | High
+15 | File | `/h/search?action` | High
+16 | File | `/home/www/cgi-bin/login.cgi` | High
+17 | File | `/hss/admin/?page=products/view_product` | High
+18 | File | `/importexport.php` | High
+19 | File | `/index.php?app=main&func=passport&action=login` | High
+20 | File | `/main/webservices/additional_webservices.php` | High
+21 | File | `/mgmt/` | Low
+22 | File | `/multi-vendor-shopping-script/product-list.php` | High
+23 | File | `/net-banking/customer_transactions.php` | High
+24 | File | `/oauth/idp/.well-known/openid-configuration` | High
+25 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+26 | File | `/owa/auth/logon.aspx` | High
+27 | File | `/preview.php` | Medium
+28 | File | `/requests.php` | High
+29 | File | `/secure/ViewCollectors` | High
+30 | File | `/server-status` | High
+31 | File | `/spip.php` | Medium
+32 | File | `/sqlite3_aflpp/shell.c` | High
+33 | File | `/squashfs-root/etc_ro/custom.conf` | High
+34 | ... | ... | ...
 
-There are 327 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 291 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 12 more country items available. Please use our online service to access the data.
+There are 14 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -139,15 +139,14 @@ ID | Type | Indicator | Confidence
 37 | File | `/goform/setmac` | High
 38 | File | `/goform/wizard_end` | High
 39 | File | `/group1/uploa` | High
-40 | File | `/manage-apartment.php` | High
-41 | File | `/medicines/profile.php` | High
-42 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-43 | File | `/pages/apply_vacancy.php` | High
-44 | File | `/php-sms/admin/?page=user/manage_user` | High
-45 | File | `/proxy` | Low
-46 | ... | ... | ...
+40 | File | `/medicines/profile.php` | High
+41 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+42 | File | `/php-sms/admin/?page=user/manage_user` | High
+43 | File | `/proxy` | Low
+44 | File | `/reservation/add_message.php` | High
+45 | ... | ... | ...
 
-There are 395 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 389 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with PoshC2:
 
 * [US](https://vuldb.com/?country.us)
-* [ES](https://vuldb.com/?country.es)
 * [RU](https://vuldb.com/?country.ru)
+* [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 2 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -21,12 +21,13 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [18.134.14.164](https://vuldb.com/?ip.18.134.14.164) | ec2-18-134-14-164.eu-west-2.compute.amazonaws.com | - | Medium
-2 | [35.202.253.45](https://vuldb.com/?ip.35.202.253.45) | 45.253.202.35.bc.googleusercontent.com | - | Medium
-3 | [46.243.186.112](https://vuldb.com/?ip.46.243.186.112) | - | - | High
-4 | ... | ... | ... | ...
+1 | [3.253.77.60](https://vuldb.com/?ip.3.253.77.60) | ec2-3-253-77-60.eu-west-1.compute.amazonaws.com | - | Medium
+2 | [13.48.77.144](https://vuldb.com/?ip.13.48.77.144) | ec2-13-48-77-144.eu-north-1.compute.amazonaws.com | - | Medium
+3 | [18.134.14.164](https://vuldb.com/?ip.18.134.14.164) | ec2-18-134-14-164.eu-west-2.compute.amazonaws.com | - | Medium
+4 | [35.202.253.45](https://vuldb.com/?ip.35.202.253.45) | 45.253.202.35.bc.googleusercontent.com | - | Medium
+5 | ... | ... | ... | ...
 
-There are 7 more IOC items available. Please use our online service to access the data.
+There are 18 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -34,12 +35,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
 2 | T1059 | CWE-94 | Cross Site Scripting | High
 3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 5 more TTP items available. Please use our online service to access the data.
+There are 8 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -53,23 +54,34 @@ ID | Type | Indicator | Confidence
 4 | File | `/inquiries/view_inquiry.php` | High
 5 | File | `/product/savenewproduct.php?flag=1` | High
 6 | File | `/search` | Low
-7 | File | `/sysmanage/updatelib.php` | High
-8 | File | `/thruk/#cgi-bin/extinfo.cgi?type=2` | High
-9 | File | `booking.php` | Medium
-10 | File | `browse-category.php` | High
-11 | File | `cat.asp` | Low
-12 | ... | ... | ...
+7 | File | `/start_apply.htm` | High
+8 | File | `/sysmanage/updatelib.php` | High
+9 | File | `/thruk/#cgi-bin/extinfo.cgi?type=2` | High
+10 | File | `booking.php` | Medium
+11 | File | `browse-category.php` | High
+12 | File | `cat.asp` | Low
+13 | ... | ... | ...
 
-There are 92 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 103 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://search.censys.io/hosts/3.253.77.60
+* https://search.censys.io/hosts/13.48.77.144
 * https://search.censys.io/hosts/18.134.14.164
+* https://search.censys.io/hosts/45.79.196.203
+* https://search.censys.io/hosts/51.250.38.28
+* https://search.censys.io/hosts/79.143.181.62
 * https://search.censys.io/hosts/88.210.9.139
+* https://search.censys.io/hosts/94.23.228.43
+* https://search.censys.io/hosts/159.100.29.105
+* https://search.censys.io/hosts/184.72.153.18
 * https://search.censys.io/hosts/185.234.216.64
+* https://search.censys.io/hosts/213.219.37.158
 * https://search.censys.io/search?resource=hosts&sort=RELEVANCE&per_page=25&virtual_hosts=EXCLUDE&q=services.software.product%3A+poshc2+and+not+labels%3A+tarpit
+* https://threatfox.abuse.ch
 * https://twitter.com/1ZRR4H/status/1582068501036273665
 * https://twitter.com/TheDFIRReport/status/1407322479664762890
 * https://www.lac.co.jp/lacwatch/people/20190213_001770.html

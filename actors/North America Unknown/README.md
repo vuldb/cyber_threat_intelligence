@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with North America Unknown:
 
 * [US](https://vuldb.com/?country.us)
-* [VN](https://vuldb.com/?country.vn)
 * [CN](https://vuldb.com/?country.cn)
+* [VN](https://vuldb.com/?country.vn)
 * ...
 
 There are 23 more country items available. Please use our online service to access the data.
@@ -37256,7 +37256,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
@@ -37271,45 +37271,41 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/activate_hook.php` | High
-2 | File | `/admin/?page=bike` | High
-3 | File | `/admin/controller/JobLogController.java` | High
-4 | File | `/admin/index2.html` | High
-5 | File | `/admin/list_addr_fwresource_ip.php` | High
-6 | File | `/admin/login.php` | High
-7 | File | `/admin/sales/view_details.php` | High
-8 | File | `/ajax.php?action=save_company` | High
-9 | File | `/ajax/networking/get_netcfg.php` | High
-10 | File | `/ajax/networking/get_wgkey.php` | High
-11 | File | `/api/baskets/{name}` | High
-12 | File | `/api/download` | High
-13 | File | `/api/sys/login` | High
-14 | File | `/api/sys/set_passwd` | High
-15 | File | `/api/v1/alerts` | High
-16 | File | `/bitrix/admin/ldap_server_edit.php` | High
-17 | File | `/changePassword` | High
-18 | File | `/conf/` | Low
-19 | File | `/config-manager/save` | High
-20 | File | `/data/remove` | Medium
-21 | File | `/debug/pprof` | Medium
-22 | File | `/ecommerce/admin/settings/setDiscount.php` | High
-23 | File | `/ecshop/admin/template.php` | High
-24 | File | `/etc/init.d/openfire` | High
-25 | File | `/fcgi/scrut_fcgi.fcgi` | High
-26 | File | `/forum/away.php` | High
-27 | File | `/importexport.php` | High
-28 | File | `/login.php?do=login` | High
-29 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
-30 | File | `/officescan/console/html/cgi/fcgiOfcDDA.exe` | High
-31 | File | `/out.php` | Medium
-32 | File | `/protocol/iscgwtunnel/uploadiscgwrouteconf.php` | High
-33 | File | `/proxy` | Low
-34 | File | `/rest/api/latest/projectvalidate/key` | High
-35 | File | `/server-status` | High
-36 | File | `/sistema/flash/reboot` | High
-37 | ... | ... | ...
+1 | File | `%SYSTEMDRIVE%\node_modules\.bin\wmic.exe` | High
+2 | File | `/.env` | Low
+3 | File | `//proc/kcore` | Medium
+4 | File | `/admin/add-category.php` | High
+5 | File | `/admin/index2.html` | High
+6 | File | `/admin/theme-edit.php` | High
+7 | File | `/ample/app/ajax/member_data.php` | High
+8 | File | `/api/authentication/login` | High
+9 | File | `/api/upload.php` | High
+10 | File | `/base/ecma-helpers.c` | High
+11 | File | `/bin/login` | Medium
+12 | File | `/bin/rc4_crypt` | High
+13 | File | `/calendar/minimizer/index.php` | High
+14 | File | `/catalog/compare` | High
+15 | File | `/cgi-bin/luci/api/switch` | High
+16 | File | `/CMD_ACCOUNT_ADMIN` | High
+17 | File | `/common/logViewer/logViewer.jsf` | High
+18 | File | `/Content/Plugins/uploader/FileChoose.html?fileUrl=/Upload/File/Pics/&parent` | High
+19 | File | `/DXR.axd` | Medium
+20 | File | `/ecommerce/admin/settings/setDiscount.php` | High
+21 | File | `/endpoint/add-user.php` | High
+22 | File | `/forum/away.php` | High
+23 | File | `/goform/formSysCmd` | High
+24 | File | `/goform/goform_get_cmd_process` | High
+25 | File | `/h/autoSaveDraft` | High
+26 | File | `/link/` | Low
+27 | File | `/log/decodmail.php` | High
+28 | File | `/main/webservices/additional_webservices.php` | High
+29 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+30 | File | `/oauth/idp/.well-known/openid-configuration` | High
+31 | File | `/one_church/churchprofile.php` | High
+32 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+33 | ... | ... | ...
 
-There are 313 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 282 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

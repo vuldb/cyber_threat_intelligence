@@ -51,7 +51,7 @@ ID | IP address | Hostname | Campaign | Confidence
 32 | [35.226.27.224](https://vuldb.com/?ip.35.226.27.224) | 224.27.226.35.bc.googleusercontent.com | - | Medium
 33 | ... | ... | ... | ...
 
-There are 129 more IOC items available. Please use our online service to access the data.
+There are 130 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 

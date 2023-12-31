@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [AT](https://vuldb.com/?country.at)
 * ...
 
-There are 30 more country items available. Please use our online service to access the data.
+There are 29 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -40,7 +40,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
@@ -68,9 +68,9 @@ ID | Type | Indicator | Confidence
 12 | File | `/defaultui/player/modern.html` | High
 13 | File | `/eval/admin/manage_class.php` | High
 14 | File | `/forum/away.php` | High
-15 | File | `/importTool/preview` | High
-16 | File | `/modules/projects/vw_files.php` | High
-17 | File | `/nagiosxi/admin/graphtemplates.php` | High
+15 | File | `/modules/projects/vw_files.php` | High
+16 | File | `/nagiosxi/admin/graphtemplates.php` | High
+17 | File | `/oauth/idp/.well-known/openid-configuration` | High
 18 | File | `/pro-school/indexphp?student/message/send_reply/` | High
 19 | File | `/server-status` | High
 20 | File | `/squashfs-root/www/HNAP1/control/SetMasterWLanSettings.php` | High
@@ -86,7 +86,7 @@ ID | Type | Indicator | Confidence
 30 | File | `?page=about` | Medium
 31 | ... | ... | ...
 
-There are 266 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 268 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

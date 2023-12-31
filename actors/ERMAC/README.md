@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 12 more country items available. Please use our online service to access the data.
+There are 17 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -24,10 +24,15 @@ ID | IP address | Hostname | Campaign | Confidence
 1 | [5.42.199.3](https://vuldb.com/?ip.5.42.199.3) | - | - | High
 2 | [5.42.199.22](https://vuldb.com/?ip.5.42.199.22) | - | - | High
 3 | [5.42.199.91](https://vuldb.com/?ip.5.42.199.91) | - | - | High
-4 | [45.93.201.92](https://vuldb.com/?ip.45.93.201.92) | - | - | High
-5 | ... | ... | ... | ...
+4 | [20.108.0.165](https://vuldb.com/?ip.20.108.0.165) | - | - | High
+5 | [20.210.252.118](https://vuldb.com/?ip.20.210.252.118) | - | - | High
+6 | [20.249.63.72](https://vuldb.com/?ip.20.249.63.72) | - | - | High
+7 | [31.41.244.187](https://vuldb.com/?ip.31.41.244.187) | - | - | High
+8 | [35.90.154.240](https://vuldb.com/?ip.35.90.154.240) | ec2-35-90-154-240.us-west-2.compute.amazonaws.com | - | Medium
+9 | [35.91.53.224](https://vuldb.com/?ip.35.91.53.224) | ec2-35-91-53-224.us-west-2.compute.amazonaws.com | - | Medium
+10 | ... | ... | ... | ...
 
-There are 15 more IOC items available. Please use our online service to access the data.
+There are 36 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -38,11 +43,11 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -51,48 +56,63 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/api/theme-edit/` | High
-2 | File | `/card_scan.php` | High
-3 | File | `/cgi-bin/viewcert` | High
-4 | File | `/cgi-bin/wlogin.cgi` | High
-5 | File | `/cwc/login` | Medium
-6 | File | `/download` | Medium
-7 | File | `/etc/quagga` | Medium
-8 | File | `/etc/shadow` | Medium
-9 | File | `/face-recognition-php/facepay-master/camera.php` | High
-10 | File | `/forms/doLogin` | High
-11 | File | `/forum/PostPrivateMessage` | High
-12 | File | `/h/calendar` | Medium
-13 | File | `/home/masterConsole` | High
-14 | File | `/hrm/employeeadd.php` | High
-15 | File | `/hrm/employeeview.php` | High
-16 | File | `/inc/extensions.php` | High
-17 | File | `/iwguestbook/admin/badwords_edit.asp` | High
-18 | File | `/iwguestbook/admin/messages_edit.asp` | High
-19 | File | `/nova/bin/console` | High
-20 | File | `/nova/bin/detnet` | High
-21 | File | `/out.php` | Medium
-22 | File | `/req_password_user.php` | High
-23 | File | `/rom-0` | Low
-24 | File | `/secure/QueryComponent!Default.jspa` | High
-25 | File | `/ServletAPI/accounts/login` | High
-26 | File | `/TemplateManager/indexExternalLocation.jsp` | High
-27 | File | `/uncpath/` | Medium
-28 | File | `/usr/syno/etc/mount.conf` | High
-29 | File | `/WEB-INF/web.xml` | High
-30 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-31 | File | `/wp-json` | Medium
-32 | File | `action.php` | Medium
-33 | File | `adm.cgi` | Low
-34 | File | `admin.php&r=article/AdminContent/edit` | High
-35 | ... | ... | ...
+2 | File | `/admin/index/index.html#listarticle` | High
+3 | File | `/app/options.py` | High
+4 | File | `/card_scan.php` | High
+5 | File | `/cgi-bin/viewcert` | High
+6 | File | `/cgi-bin/wlogin.cgi` | High
+7 | File | `/cwc/login` | Medium
+8 | File | `/download` | Medium
+9 | File | `/etc/quagga` | Medium
+10 | File | `/etc/shadow` | Medium
+11 | File | `/face-recognition-php/facepay-master/camera.php` | High
+12 | File | `/forms/doLogin` | High
+13 | File | `/forum/PostPrivateMessage` | High
+14 | File | `/h/calendar` | Medium
+15 | File | `/home/masterConsole` | High
+16 | File | `/hrm/employeeadd.php` | High
+17 | File | `/hrm/employeeview.php` | High
+18 | File | `/inc/extensions.php` | High
+19 | File | `/iwguestbook/admin/badwords_edit.asp` | High
+20 | File | `/iwguestbook/admin/messages_edit.asp` | High
+21 | File | `/nova/bin/console` | High
+22 | File | `/nova/bin/detnet` | High
+23 | File | `/out.php` | Medium
+24 | File | `/req_password_user.php` | High
+25 | File | `/rom-0` | Low
+26 | File | `/secure/QueryComponent!Default.jspa` | High
+27 | File | `/ServletAPI/accounts/login` | High
+28 | File | `/SysInfo.htm` | Medium
+29 | File | `/TemplateManager/indexExternalLocation.jsp` | High
+30 | File | `/uncpath/` | Medium
+31 | File | `/user/updatePwd` | High
+32 | File | `/usr/syno/etc/mount.conf` | High
+33 | File | `/v2/quantum/save-data-upload-big-file` | High
+34 | File | `/WEB-INF/web.xml` | High
+35 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+36 | File | `/wp-json` | Medium
+37 | File | `action.php` | Medium
+38 | File | `adm.cgi` | Low
+39 | File | `admin.php` | Medium
+40 | File | `admin.php&r=article/AdminContent/edit` | High
+41 | File | `admin/?page=admin` | High
+42 | File | `admin/batch_manager_unit.php` | High
+43 | File | `admin/dashboard.php` | High
+44 | File | `admin/general.php` | High
+45 | File | `admin/reply-ticket.php` | High
+46 | ... | ... | ...
 
-There are 301 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 396 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://community.blueliv.com/#!/s/6290743382df41552632f5fe
+* https://research.nccgroup.com/2023/09/11/from-ermac-to-hook-investigating-the-technical-differences-between-two-android-malware-variants/
+* https://search.censys.io/hosts/82.147.85.136
+* https://search.censys.io/hosts/91.92.246.222
+* https://search.censys.io/hosts/94.131.111.119
 * https://threatfox.abuse.ch
 * https://twitter.com/0xrb/status/1564222855830597632
 * https://twitter.com/ReBensk/status/1695321207766127094

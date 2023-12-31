@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [DE](https://vuldb.com/?country.de)
 * ...
 
-There are 18 more country items available. Please use our online service to access the data.
+There are 17 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -61,7 +61,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -70,53 +70,53 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/?ajax-request=jnews` | High
-3 | File | `/admin/about-us.php` | High
-4 | File | `/admin/delete.php` | High
-5 | File | `/Admin/login.php` | High
-6 | File | `/admin/sales/view_details.php` | High
-7 | File | `/admin/userprofile.php` | High
-8 | File | `/admin/view_order.php` | High
-9 | File | `/api/baskets/{name}` | High
-10 | File | `/apply.cgi` | Medium
-11 | File | `/backup.pl` | Medium
-12 | File | `/bitrix/admin/ldap_server_edit.php` | High
-13 | File | `/cgi-bin/wlogin.cgi` | High
-14 | File | `/classes/Master.php?f=save_item` | High
-15 | File | `/College/admin/teacher.php` | High
-16 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
-17 | File | `/dcim/rack-roles/` | High
-18 | File | `/forum/away.php` | High
-19 | File | `/goform/aspForm` | High
-20 | File | `/goform/delAd` | High
-21 | File | `/goform/wifiSSIDset` | High
-22 | File | `/h/autoSaveDraft` | High
-23 | File | `/inc/topBarNav.php` | High
-24 | File | `/index.php` | Medium
-25 | File | `/index.php?app=main&func=passport&action=login` | High
-26 | File | `/inxedu/demo_inxedu_open/src/main/resources/mybatis/inxedu/website/WebsiteImagesMapper.xml` | High
-27 | File | `/iwgallery/pictures/details.asp` | High
-28 | File | `/job` | Low
-29 | File | `/kelas/data` | Medium
-30 | File | `/listplace/user/ticket/create` | High
-31 | File | `/medianet/mail.aspx` | High
-32 | File | `/Moosikay/order.php` | High
-33 | File | `/oauth/idp/.well-known/openid-configuration` | High
-34 | File | `/settings/account` | High
-35 | File | `/shell` | Low
-36 | File | `/spip.php` | Medium
-37 | File | `/squashfs-root/etc_ro/custom.conf` | High
-38 | File | `/staff/edit_book_details.php` | High
-39 | File | `/SysManage/AddUpdateRole.aspx` | High
-40 | File | `/sysmanage/importconf.php` | High
-41 | File | `/user/loader.php?api=1` | High
-42 | File | `/user/profile` | High
-43 | File | `/user/s.php` | Medium
-44 | File | `/user/updatePwd` | High
-45 | File | `/useratte/web.php` | High
+2 | File | `//proc/kcore` | Medium
+3 | File | `/?ajax-request=jnews` | High
+4 | File | `/accounts_con/register_account` | High
+5 | File | `/admin/about-us.php` | High
+6 | File | `/admin/delete.php` | High
+7 | File | `/admin/index2.html` | High
+8 | File | `/Admin/login.php` | High
+9 | File | `/admin/sales/view_details.php` | High
+10 | File | `/admin/userprofile.php` | High
+11 | File | `/admin/view_order.php` | High
+12 | File | `/api/baskets/{name}` | High
+13 | File | `/api/sys/set_passwd` | High
+14 | File | `/apply.cgi` | Medium
+15 | File | `/backup.pl` | Medium
+16 | File | `/bitrix/admin/ldap_server_edit.php` | High
+17 | File | `/cgi-bin/wlogin.cgi` | High
+18 | File | `/classes/Master.php?f=save_item` | High
+19 | File | `/College/admin/teacher.php` | High
+20 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
+21 | File | `/dcim/rack-roles/` | High
+22 | File | `/forum/away.php` | High
+23 | File | `/goform/aspForm` | High
+24 | File | `/h/autoSaveDraft` | High
+25 | File | `/inc/topBarNav.php` | High
+26 | File | `/index.php` | Medium
+27 | File | `/index.php?app=main&func=passport&action=login` | High
+28 | File | `/inxedu/demo_inxedu_open/src/main/resources/mybatis/inxedu/website/WebsiteImagesMapper.xml` | High
+29 | File | `/iwgallery/pictures/details.asp` | High
+30 | File | `/job` | Low
+31 | File | `/kelas/data` | Medium
+32 | File | `/listplace/user/ticket/create` | High
+33 | File | `/medianet/mail.aspx` | High
+34 | File | `/mhds/clinic/view_details.php` | High
+35 | File | `/Moosikay/order.php` | High
+36 | File | `/oauth/idp/.well-known/openid-configuration` | High
+37 | File | `/settings/account` | High
+38 | File | `/shell` | Low
+39 | File | `/squashfs-root/etc_ro/custom.conf` | High
+40 | File | `/staff/edit_book_details.php` | High
+41 | File | `/SysManage/AddUpdateRole.aspx` | High
+42 | File | `/sysmanage/importconf.php` | High
+43 | File | `/user/loader.php?api=1` | High
+44 | File | `/user/profile` | High
+45 | File | `/user/s.php` | Medium
 46 | ... | ... | ...
 
-There are 400 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 396 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

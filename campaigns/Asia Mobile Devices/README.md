@@ -67,9 +67,10 @@ ID | Type | Indicator | Confidence
 12 | File | `/HNAP1` | Low
 13 | File | `/htdocs/web/getcfg.php` | High
 14 | File | `/lan.asp` | Medium
-15 | ... | ... | ...
+15 | File | `/MTFWU` | Low
+16 | ... | ... | ...
 
-There are 124 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 126 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

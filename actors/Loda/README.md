@@ -28,7 +28,7 @@ ID | IP address | Hostname | Campaign | Confidence
 5 | [37.0.14.214](https://vuldb.com/?ip.37.0.14.214) | - | - | High
 6 | ... | ... | ... | ...
 
-There are 21 more IOC items available. Please use our online service to access the data.
+There are 22 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -36,7 +36,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-22, CWE-23 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
@@ -51,50 +51,49 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/?p=products` | Medium
-2 | File | `/academy/home/courses` | High
-3 | File | `/admin/?page=product/manage_product&id=2` | High
-4 | File | `/admin/admin.php` | High
-5 | File | `/admin/casedetails.php` | High
-6 | File | `/admin/config/uploadicon.php` | High
-7 | File | `/admin/del_feedback.php` | High
-8 | File | `/admin/fields/manage_field.php` | High
-9 | File | `/admin/maintenance/brand.php` | High
-10 | File | `/admin/mechanics/manage_mechanic.php` | High
-11 | File | `/admin/modal_add_product.php` | High
-12 | File | `/admin/offenses/view_details.php` | High
-13 | File | `/admin/plugin.php` | High
-14 | File | `/admin/positions_add.php` | High
-15 | File | `/admin/sales/index.php` | High
-16 | File | `/admin/user/manage_user.php` | High
-17 | File | `/admin/voters_row.php` | High
-18 | File | `/adv_resource` | High
-19 | File | `/ajax.php?action=save_company` | High
-20 | File | `/ajax.php?action=save_user` | High
-21 | File | `/ajax/myshop` | Medium
-22 | File | `/api/database` | High
-23 | File | `/api/gen/clients/{language}` | High
-24 | File | `/api/v1/terminal/sessions/?limit=1` | High
-25 | File | `/api/v4/opengraph` | High
-26 | File | `/App_Resource/UEditor/server/upload.aspx` | High
-27 | File | `/authenticationendpoint/login.do` | High
-28 | File | `/backup.pl` | Medium
-29 | File | `/blog` | Low
-30 | File | `/BRS_netgear_success.html` | High
-31 | File | `/c/PluginsController.php` | High
-32 | File | `/cas/logout` | Medium
-33 | File | `/category.php` | High
-34 | File | `/cgi-bin/adm.cgi` | High
-35 | File | `/cgi-bin/system_mgr.cgi` | High
-36 | File | `/cgi-bin/vitogate.cgi` | High
-37 | File | `/chaincity/user/ticket/create` | High
-38 | File | `/classes/Master.php?f=delete_sub_category` | High
-39 | File | `/collection/all` | High
-40 | File | `/contactform/contactform.php` | High
-41 | File | `/Controller/Ajaxfileupload.ashx` | High
-42 | ... | ... | ...
+1 | File | `/academy/home/courses` | High
+2 | File | `/admin/config/uploadicon.php` | High
+3 | File | `/admin/del_feedback.php` | High
+4 | File | `/admin/modal_add_product.php` | High
+5 | File | `/admin/plugin.php` | High
+6 | File | `/admin/positions_add.php` | High
+7 | File | `/admin/user/manage_user.php` | High
+8 | File | `/adv_resource` | High
+9 | File | `/ajax.php?action=save_company` | High
+10 | File | `/ajax.php?action=save_user` | High
+11 | File | `/ajax/myshop` | Medium
+12 | File | `/api/authentication/login` | High
+13 | File | `/api/database` | High
+14 | File | `/api/upload.php` | High
+15 | File | `/api/v1/terminal/sessions/?limit=1` | High
+16 | File | `/api/v4/opengraph` | High
+17 | File | `/App_Resource/UEditor/server/upload.aspx` | High
+18 | File | `/authenticationendpoint/login.do` | High
+19 | File | `/backup.pl` | Medium
+20 | File | `/blog` | Low
+21 | File | `/c/PluginsController.php` | High
+22 | File | `/cas/logout` | Medium
+23 | File | `/category.php` | High
+24 | File | `/cgi-bin/adm.cgi` | High
+25 | File | `/cgi-bin/system_mgr.cgi` | High
+26 | File | `/cgi-bin/vitogate.cgi` | High
+27 | File | `/chaincity/user/ticket/create` | High
+28 | File | `/collection/all` | High
+29 | File | `/contactform/contactform.php` | High
+30 | File | `/Controller/Ajaxfileupload.ashx` | High
+31 | File | `/course/filterRecords/` | High
+32 | File | `/download/image` | High
+33 | File | `/ecommerce/support_ticket` | High
+34 | File | `/ecrire/exec/puce_statut.php` | High
+35 | File | `/files/` | Low
+36 | File | `/friends/ajax_invite` | High
+37 | File | `/goform/goform_get_cmd_process` | High
+38 | File | `/goform/setModules` | High
+39 | File | `/goform/SetOnlineDevName` | High
+40 | File | `/goform/telnet` | High
+41 | ... | ... | ...
 
-There are 358 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 352 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with NukeSped:
 
 * [HK](https://vuldb.com/?country.hk)
+* [CN](https://vuldb.com/?country.cn)
 * [GB](https://vuldb.com/?country.gb)
-* [US](https://vuldb.com/?country.us)
 * ...
 
-There are 1 more country items available. Please use our online service to access the data.
+There are 2 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -24,6 +24,9 @@ ID | Actor | Confidence
 1 | [Lazarus](https://vuldb.com/?actor.lazarus) | High
 2 | [NukeSped](https://vuldb.com/?actor.nukesped) | High
 3 | [Nukesped](https://vuldb.com/?actor.nukesped) | High
+4 | ... | ...
+
+There are 1 more actor items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -32,11 +35,11 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
 1 | [6.43.51.17](https://vuldb.com/?ip.6.43.51.17) | - | [Nukesped](https://vuldb.com/?actor.nukesped) | High
-2 | [84.38.133.16](https://vuldb.com/?ip.84.38.133.16) | - | [NukeSped](https://vuldb.com/?actor.nukesped) | High
-3 | [84.38.133.145](https://vuldb.com/?ip.84.38.133.145) | - | [NukeSped](https://vuldb.com/?actor.nukesped) | High
+2 | [27.102.114.215](https://vuldb.com/?ip.27.102.114.215) | - | [Andariel](https://vuldb.com/?actor.andariel) | High
+3 | [84.38.133.16](https://vuldb.com/?ip.84.38.133.16) | - | [NukeSped](https://vuldb.com/?actor.nukesped) | High
 4 | ... | ... | ... | ...
 
-There are 3 more IOC items available. Please use our online service to access the data.
+There are 4 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -61,39 +64,41 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin-panel1.php` | High
 2 | File | `/admin/academic/studenview_left.php` | High
-3 | File | `/admin/controller/JobLogController.java` | High
-4 | File | `/admin/login.php` | High
-5 | File | `/ad_js.php` | Medium
-6 | File | `/alerts/alertConfigField.php` | High
-7 | File | `/api/v1/terminal/sessions/?limit=1` | High
-8 | File | `/config/myfield/test.php` | High
-9 | File | `/context/%2e/WEB-INF/web.xml` | High
-10 | File | `/core/conditions/AbstractWrapper.java` | High
-11 | File | `/data/remove` | Medium
-12 | File | `/debug/pprof` | Medium
-13 | File | `/etc/passwd` | Medium
-14 | File | `/face-recognition-php/facepay-master/camera.php` | High
-15 | File | `/forms/doLogin` | High
-16 | File | `/fuel/index.php/fuel/logs/items` | High
-17 | File | `/fuel/index.php/fuel/pages/items` | High
-18 | File | `/goform/aspForm` | High
-19 | File | `/image_zoom.php` | High
-20 | File | `/include/config.cache.php` | High
-21 | File | `/index.php` | Medium
-22 | File | `/mkshop/Men/profile.php` | High
-23 | File | `/param.file.tgz` | High
-24 | File | `/proxy/` | Low
-25 | File | `/public/plugins/` | High
-26 | File | `/rest/api/2/search` | High
-27 | ... | ... | ...
+3 | File | `/admin/ajax.php` | High
+4 | File | `/admin/ajax.php?action=confirm_order` | High
+5 | File | `/admin/controller/JobLogController.java` | High
+6 | File | `/admin/login.php` | High
+7 | File | `/ad_js.php` | Medium
+8 | File | `/alerts/alertConfigField.php` | High
+9 | File | `/api/v1/terminal/sessions/?limit=1` | High
+10 | File | `/blog` | Low
+11 | File | `/config/myfield/test.php` | High
+12 | File | `/context/%2e/WEB-INF/web.xml` | High
+13 | File | `/core/conditions/AbstractWrapper.java` | High
+14 | File | `/data/remove` | Medium
+15 | File | `/debug/pprof` | Medium
+16 | File | `/etc/passwd` | Medium
+17 | File | `/face-recognition-php/facepay-master/camera.php` | High
+18 | File | `/forms/doLogin` | High
+19 | File | `/fuel/index.php/fuel/logs/items` | High
+20 | File | `/fuel/index.php/fuel/pages/items` | High
+21 | File | `/goform/aspForm` | High
+22 | File | `/image_zoom.php` | High
+23 | File | `/include/config.cache.php` | High
+24 | File | `/index.php` | Medium
+25 | File | `/lists/index.php` | High
+26 | File | `/mkshop/Men/profile.php` | High
+27 | File | `/param.file.tgz` | High
+28 | ... | ... | ...
 
-There are 225 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 235 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the campaign and the associated activities:
 
 * https://asec.ahnlab.com/en/34461/
+* https://asec.ahnlab.com/en/59318/
 * https://www.fortinet.com/blog/threat-research/deep-analysis-nukesped-rat.html
 
 ## Literature

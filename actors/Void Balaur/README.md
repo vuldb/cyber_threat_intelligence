@@ -54,7 +54,8 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+6 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+7 | ... | ... | ... | ...
 
 There are 22 more TTP items available. Please use our online service to access the data.
 
@@ -69,47 +70,47 @@ ID | Type | Indicator | Confidence
 3 | File | `/admin.php/accessory/filesdel.html` | High
 4 | File | `/admin/?page=user/manage` | High
 5 | File | `/admin/add-new.php` | High
-6 | File | `/admin/doctors.php` | High
-7 | File | `/admin/submit-articles` | High
-8 | File | `/ad_js.php` | Medium
+6 | File | `/admin/controller/JobLogController.java` | High
+7 | File | `/admin/doctors.php` | High
+8 | File | `/admin/submit-articles` | High
 9 | File | `/alphaware/summary.php` | High
 10 | File | `/api/` | Low
 11 | File | `/api/admin/store/product/list` | High
 12 | File | `/api/baskets/{name}` | High
 13 | File | `/api/stl/actions/search` | High
-14 | File | `/api/v2/cli/commands` | High
-15 | File | `/attachments` | Medium
-16 | File | `/bin/ate` | Medium
-17 | File | `/boat/login.php` | High
-18 | File | `/booking/show_bookings/` | High
-19 | File | `/bsms_ci/index.php/book` | High
-20 | File | `/cgi-bin` | Medium
-21 | File | `/cgi-bin/luci/api/wireless` | High
-22 | File | `/cgi-bin/wlogin.cgi` | High
-23 | File | `/Content/Template/root/reverse-shell.aspx` | High
-24 | File | `/context/%2e/WEB-INF/web.xml` | High
-25 | File | `/dashboard/add-blog.php` | High
-26 | File | `/debian/patches/load_ppp_generic_if_needed` | High
-27 | File | `/debug/pprof` | Medium
-28 | File | `/env` | Low
-29 | File | `/etc/hosts` | Medium
-30 | File | `/forum/away.php` | High
-31 | File | `/goform/formSetEmail` | High
-32 | File | `/goform/setmac` | High
-33 | File | `/goform/wizard_end` | High
-34 | File | `/group1/uploa` | High
-35 | File | `/manage-apartment.php` | High
-36 | File | `/medicines/profile.php` | High
-37 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-38 | File | `/pages/apply_vacancy.php` | High
-39 | File | `/php-sms/admin/?page=user/manage_user` | High
-40 | File | `/proxy` | Low
-41 | File | `/reservation/add_message.php` | High
-42 | File | `/resources//../` | High
-43 | File | `/spip.php` | Medium
+14 | File | `/api/sys/login` | High
+15 | File | `/api/sys/set_passwd` | High
+16 | File | `/api/v2/cli/commands` | High
+17 | File | `/attachments` | Medium
+18 | File | `/bin/ate` | Medium
+19 | File | `/boat/login.php` | High
+20 | File | `/booking/show_bookings/` | High
+21 | File | `/bsms_ci/index.php/book` | High
+22 | File | `/cgi-bin` | Medium
+23 | File | `/cgi-bin/luci/api/wireless` | High
+24 | File | `/cgi-bin/wlogin.cgi` | High
+25 | File | `/changePassword` | High
+26 | File | `/Content/Template/root/reverse-shell.aspx` | High
+27 | File | `/context/%2e/WEB-INF/web.xml` | High
+28 | File | `/dashboard/add-blog.php` | High
+29 | File | `/debug/pprof` | Medium
+30 | File | `/ecshop/admin/template.php` | High
+31 | File | `/env` | Low
+32 | File | `/etc/hosts` | Medium
+33 | File | `/forum/away.php` | High
+34 | File | `/goform/formSetEmail` | High
+35 | File | `/goform/setmac` | High
+36 | File | `/goform/wizard_end` | High
+37 | File | `/group1/uploa` | High
+38 | File | `/manage-apartment.php` | High
+39 | File | `/medicines/profile.php` | High
+40 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+41 | File | `/pages/apply_vacancy.php` | High
+42 | File | `/php-sms/admin/?page=user/manage_user` | High
+43 | File | `/proxy` | Low
 44 | ... | ... | ...
 
-There are 384 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 383 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

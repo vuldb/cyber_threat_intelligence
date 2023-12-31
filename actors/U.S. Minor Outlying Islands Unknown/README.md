@@ -89,10 +89,10 @@ ID | Type | Indicator | Confidence
 35 | File | `/mgm_dev_reboot.asp` | High
 36 | File | `/MicroStrategyWS/happyaxis.jsp` | High
 37 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-38 | File | `/out.php` | Medium
+38 | File | `/oauth/idp/.well-known/openid-configuration` | High
 39 | ... | ... | ...
 
-There are 332 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 333 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -15,11 +15,11 @@ The following _campaigns_ are known and can be associated with RTM:
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with RTM:
 
 * [NL](https://vuldb.com/?country.nl)
-* [CH](https://vuldb.com/?country.ch)
 * [US](https://vuldb.com/?country.us)
+* [CH](https://vuldb.com/?country.ch)
 * ...
 
-There are 8 more country items available. Please use our online service to access the data.
+There are 9 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -72,24 +72,23 @@ ID | Type | Indicator | Confidence
 10 | File | `/export` | Low
 11 | File | `/file?action=download&file` | High
 12 | File | `/hardware` | Medium
-13 | File | `/index.php` | Medium
-14 | File | `/librarian/bookdetails.php` | High
-15 | File | `/medical/inventories.php` | High
-16 | File | `/mkshop/Men/profile.php` | High
-17 | File | `/monitoring` | Medium
-18 | File | `/Noxen-master/users.php` | High
-19 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-20 | File | `/plugin/LiveChat/getChat.json.php` | High
-21 | File | `/plugins/servlet/audit/resource` | High
-22 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
-23 | File | `/PreviewHandler.ashx` | High
-24 | File | `/recordings/index.php` | High
-25 | File | `/replication` | Medium
-26 | File | `/RestAPI` | Medium
-27 | File | `/server-status` | High
-28 | ... | ... | ...
+13 | File | `/importexport.php` | High
+14 | File | `/index.php` | Medium
+15 | File | `/librarian/bookdetails.php` | High
+16 | File | `/medical/inventories.php` | High
+17 | File | `/mkshop/Men/profile.php` | High
+18 | File | `/monitoring` | Medium
+19 | File | `/Noxen-master/users.php` | High
+20 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+21 | File | `/plugin/LiveChat/getChat.json.php` | High
+22 | File | `/plugins/servlet/audit/resource` | High
+23 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
+24 | File | `/PreviewHandler.ashx` | High
+25 | File | `/recordings/index.php` | High
+26 | File | `/replication` | Medium
+27 | ... | ... | ...
 
-There are 232 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 231 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

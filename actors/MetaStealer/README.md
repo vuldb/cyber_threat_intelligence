@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
-* [CN](https://vuldb.com/?country.cn)
+* [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 1 more country items available. Please use our online service to access the data.
+There are 5 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -21,12 +21,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [167.88.12.112](https://vuldb.com/?ip.167.88.12.112) | 112-12-88-167.reverse-dns | - | High
-2 | [185.172.129.192](https://vuldb.com/?ip.185.172.129.192) | vm2063812.firstbyte.club | - | High
-3 | [185.200.190.185](https://vuldb.com/?ip.185.200.190.185) | dablup.vpn | - | High
+1 | [4.224.60.120](https://vuldb.com/?ip.4.224.60.120) | - | - | High
+2 | [95.216.123.81](https://vuldb.com/?ip.95.216.123.81) | static.81.123.216.95.clients.your-server.de | - | High
+3 | [167.88.12.112](https://vuldb.com/?ip.167.88.12.112) | 112-12-88-167.reverse-dns | - | High
 4 | ... | ... | ... | ...
 
-There are 3 more IOC items available. Please use our online service to access the data.
+There are 8 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -39,7 +39,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 7 more TTP items available. Please use our online service to access the data.
+There are 8 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -49,16 +49,23 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/index.php` | Medium
 2 | File | `/uncpath/` | Medium
-3 | File | `admin.php` | Medium
-4 | File | `admin_feature.php` | High
-5 | ... | ... | ...
+3 | File | `about.php` | Medium
+4 | File | `admin.php` | Medium
+5 | File | `admin_feature.php` | High
+6 | File | `aj.html` | Low
+7 | File | `akocomments.php` | High
+8 | File | `archives.php` | Medium
+9 | ... | ... | ...
 
-There are 33 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 64 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://app.any.run/tasks/3fee3583-590c-4f90-ac08-4e22e0b27b2f
+* https://app.any.run/tasks/880feaf2-29fd-42a8-ad05-9638f08ee84a
+* https://app.any.run/tasks/a5179dde-6f3d-4980-aa44-302c95af337e
 * https://bazaar.abuse.ch/sample/d3da939964cbf347635dd39214d941dc4bd59c84060ae4465ee6e943bae79dc9/
 * https://isc.sans.edu/forums/diary/Windows+MetaStealer+Malware/28522/
 * https://medium.com/walmartglobaltech/metastealer-string-decryption-and-dga-overview-5f38f76830cd

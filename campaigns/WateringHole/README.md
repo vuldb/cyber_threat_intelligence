@@ -64,16 +64,16 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin/store.php` | High
 3 | File | `/admin_system/api.php` | High
 4 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
-5 | File | `/maint/index.php` | High
-6 | File | `/see_more_details.php` | High
-7 | File | `/shopping/product.php` | High
-8 | File | `adclick.php` | Medium
-9 | File | `admin.php` | Medium
-10 | File | `admsession.php` | High
-11 | File | `al_initialize.php` | High
+5 | File | `/cgi-bin/wapopen` | High
+6 | File | `/forum/away.php` | High
+7 | File | `/maint/index.php` | High
+8 | File | `/see_more_details.php` | High
+9 | File | `/shopping/product.php` | High
+10 | File | `adclick.php` | Medium
+11 | File | `admin.php` | Medium
 12 | ... | ... | ...
 
-There are 90 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 95 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

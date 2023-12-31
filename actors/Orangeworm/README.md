@@ -78,9 +78,10 @@ ID | Type | Indicator | Confidence
 31 | File | `/www/cgi-bin/popen.cgi` | High
 32 | File | `5.2.9\syscrb.exe` | High
 33 | File | `accountrecoveryendpoint/recoverpassword.do` | High
-34 | ... | ... | ...
+34 | File | `ad.cgi` | Low
+35 | ... | ... | ...
 
-There are 286 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 298 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

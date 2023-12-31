@@ -57,20 +57,21 @@ ID | Type | Indicator | Confidence
 7 | File | `/MicroStrategyWS/happyaxis.jsp` | High
 8 | File | `/owa/auth/logon.aspx` | High
 9 | File | `/proc/ioports` | High
-10 | File | `/services/details.asp` | High
-11 | File | `/tmp` | Low
-12 | File | `/uncpath/` | Medium
-13 | File | `/Upload.ashx` | Medium
-14 | File | `/usr/sbin/suexec` | High
-15 | File | `/var/tmp/sess_*` | High
-16 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-17 | File | `activateuser.aspx` | High
-18 | File | `adclick.php` | Medium
-19 | File | `admin/killsource` | High
-20 | File | `admin/orion.extfeedbackform_efbf_forms.php` | High
-21 | ... | ... | ...
+10 | File | `/search.php` | Medium
+11 | File | `/services/details.asp` | High
+12 | File | `/tmp` | Low
+13 | File | `/uncpath/` | Medium
+14 | File | `/Upload.ashx` | Medium
+15 | File | `/usr/sbin/suexec` | High
+16 | File | `/var/tmp/sess_*` | High
+17 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+18 | File | `activateuser.aspx` | High
+19 | File | `adclick.php` | Medium
+20 | File | `admin/killsource` | High
+21 | File | `admin/orion.extfeedbackform_efbf_forms.php` | High
+22 | ... | ... | ...
 
-There are 172 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 178 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

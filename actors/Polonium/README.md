@@ -69,18 +69,18 @@ ID | Type | Indicator | Confidence
 12 | File | `/out.php` | Medium
 13 | File | `/patient/appointment.php` | High
 14 | File | `/php-opos/index.php` | High
-15 | File | `/ptms/?page=user` | High
-16 | File | `/sqfs/bin/sccd` | High
-17 | File | `/tmp` | Low
-18 | File | `/uncpath/` | Medium
-19 | File | `/upload/file.php` | High
-20 | File | `/usr/bin/at` | Medium
-21 | File | `/usr/local/www/pkg.php` | High
-22 | File | `/wp-admin/admin-ajax.php` | High
-23 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+15 | File | `/protocol/iscgwtunnel/uploadiscgwrouteconf.php` | High
+16 | File | `/ptms/?page=user` | High
+17 | File | `/sqfs/bin/sccd` | High
+18 | File | `/tmp` | Low
+19 | File | `/uncpath/` | Medium
+20 | File | `/upload/file.php` | High
+21 | File | `/usr/bin/at` | Medium
+22 | File | `/usr/local/www/pkg.php` | High
+23 | File | `/wp-admin/admin-ajax.php` | High
 24 | ... | ... | ...
 
-There are 199 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 202 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

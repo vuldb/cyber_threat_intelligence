@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 22 more country items available. Please use our online service to access the data.
+There are 23 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -53,7 +53,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 16 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -74,44 +74,45 @@ ID | Type | Indicator | Confidence
 11 | File | `/admin/show.php` | High
 12 | File | `/api/` | Low
 13 | File | `/api/addusers` | High
-14 | File | `/default.php?idx=17` | High
-15 | File | `/download` | Medium
-16 | File | `/env` | Low
-17 | File | `/forum/away.php` | High
-18 | File | `/ims/login.php` | High
-19 | File | `/index.php` | Medium
-20 | File | `/mgmt/tm/util/bash` | High
-21 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
-22 | File | `/opt/bin/cli` | Medium
-23 | File | `/p` | Low
-24 | File | `/patient/doctors.php` | High
-25 | File | `/phpinventory/editcategory.php` | High
-26 | File | `/php_action/createUser.php` | High
-27 | File | `/product-list.php` | High
-28 | File | `/public/login.htm` | High
-29 | File | `/server-status` | High
-30 | File | `/spip.php` | Medium
-31 | File | `/tmp` | Low
-32 | File | `/uncpath/` | Medium
-33 | File | `/updown/upload.cgi` | High
-34 | File | `/user/del.php` | High
-35 | File | `/usr/bin/pkexec` | High
-36 | File | `/wbg/core/_includes/authorization.inc.php` | High
-37 | File | `/wp-admin/admin-ajax.php` | High
-38 | File | `/_next` | Low
-39 | File | `123flashchat.php` | High
-40 | File | `act.php` | Low
-41 | File | `admin.php` | Medium
-42 | File | `admin.php/pay` | High
-43 | File | `admin/bad.php` | High
-44 | File | `admin/index.php` | High
-45 | File | `admin/index.php/user/del/1` | High
-46 | File | `admin/index.php?id=themes&action=edit_chunk` | High
-47 | File | `administrator/index.php` | High
-48 | File | `agenda.php` | Medium
-49 | ... | ... | ...
+14 | File | `/boat/login.php` | High
+15 | File | `/default.php?idx=17` | High
+16 | File | `/download` | Medium
+17 | File | `/env` | Low
+18 | File | `/forum/away.php` | High
+19 | File | `/ims/login.php` | High
+20 | File | `/index.php` | Medium
+21 | File | `/mgmt/tm/util/bash` | High
+22 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
+23 | File | `/opt/bin/cli` | Medium
+24 | File | `/p` | Low
+25 | File | `/patient/doctors.php` | High
+26 | File | `/phpinventory/editcategory.php` | High
+27 | File | `/php_action/createUser.php` | High
+28 | File | `/product-list.php` | High
+29 | File | `/public/login.htm` | High
+30 | File | `/server-status` | High
+31 | File | `/spip.php` | Medium
+32 | File | `/tmp` | Low
+33 | File | `/uncpath/` | Medium
+34 | File | `/updown/upload.cgi` | High
+35 | File | `/user/del.php` | High
+36 | File | `/usr/bin/pkexec` | High
+37 | File | `/wbg/core/_includes/authorization.inc.php` | High
+38 | File | `/wp-admin/admin-ajax.php` | High
+39 | File | `/_next` | Low
+40 | File | `123flashchat.php` | High
+41 | File | `act.php` | Low
+42 | File | `admin.php` | Medium
+43 | File | `admin.php/pay` | High
+44 | File | `admin/bad.php` | High
+45 | File | `admin/index.php` | High
+46 | File | `admin/index.php/user/del/1` | High
+47 | File | `admin/index.php?id=themes&action=edit_chunk` | High
+48 | File | `administrator/index.php` | High
+49 | File | `agenda.php` | Medium
+50 | ... | ... | ...
 
-There are 430 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 435 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

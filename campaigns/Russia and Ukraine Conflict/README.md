@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Russia and Ukraine Conflict:
 
 * [VN](https://vuldb.com/?country.vn)
-* [DE](https://vuldb.com/?country.de)
 * [US](https://vuldb.com/?country.us)
+* [DE](https://vuldb.com/?country.de)
 * ...
 
-There are 5 more country items available. Please use our online service to access the data.
+There are 6 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -57,7 +57,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-29, CWE-35 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-29, CWE-35 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
@@ -77,59 +77,55 @@ ID | Type | Indicator | Confidence
 3 | File | `/academy/tutor/filter` | High
 4 | File | `/admin/?page=user/manage_user&id=3` | High
 5 | File | `/admin/addproduct.php` | High
-6 | File | `/admin/ajax.php?action=save_area` | High
-7 | File | `/admin/index2.html` | High
-8 | File | `/admin/modal_add_product.php` | High
-9 | File | `/admin/sales/view_details.php` | High
-10 | File | `/admin/update_s6.php` | High
-11 | File | `/ajax.php?action=read_msg` | High
-12 | File | `/ajax.php?action=save_company` | High
-13 | File | `/api/baskets/{name}` | High
-14 | File | `/api/common/ping` | High
-15 | File | `/api/sys/set_passwd` | High
-16 | File | `/aqpg/users/login.php` | High
-17 | File | `/bin/login` | Medium
-18 | File | `/bsms_ci/index.php/user/edit_user/` | High
-19 | File | `/calendar/minimizer/index.php` | High
-20 | File | `/cgi-bin/vitogate.cgi` | High
-21 | File | `/cgi-bin/wlogin.cgi` | High
-22 | File | `/changeimage.php` | High
-23 | File | `/classes/Users.php?f=save` | High
-24 | File | `/common/info.cgi` | High
-25 | File | `/cwms/classes/Master.php?f=save_contact` | High
-26 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
-27 | File | `/DXR.axd` | Medium
-28 | File | `/forum/away.php` | High
-29 | File | `/gracemedia-media-player/templates/files/ajax_controller.php` | High
-30 | File | `/hrm/controller/employee.php` | High
-31 | File | `/hrm/employeeview.php` | High
-32 | File | `/importexport.php` | High
-33 | File | `/includes/db_connect.php` | High
-34 | File | `/includes/session.php` | High
-35 | File | `/index.php` | Medium
-36 | File | `/items/search` | High
-37 | File | `/librarian/bookdetails.php` | High
-38 | File | `/mc` | Low
-39 | File | `/mifs/c/i/reg/reg.html` | High
-40 | File | `/modules/projects/vw_files.php` | High
-41 | File | `/modules/public/calendar.php` | High
-42 | File | `/modules/public/date_format.php` | High
-43 | File | `/modules/tasks/gantt.php` | High
-44 | File | `/osms/assets/plugins/jquery-validation-1.11.1/demo/captcha/index.php` | High
-45 | File | `/out.php` | Medium
-46 | File | `/owa/auth/logon.aspx` | High
-47 | File | `/php-fusion/infusions/shoutbox_panel/shoutbox_archive.php` | High
-48 | File | `/project/tasks/list` | High
-49 | File | `/send_order.cgi?parameter=restart` | High
-50 | File | `/setting` | Medium
-51 | File | `/spip.php` | Medium
-52 | File | `/src/amf/amf-context.c` | High
-53 | File | `/SysManage/AddUpdateSites.aspx` | High
-54 | File | `/sysmanage/changelogo.php` | High
-55 | File | `/tmp` | Low
-56 | ... | ... | ...
+6 | File | `/admin/index2.html` | High
+7 | File | `/admin/sales/view_details.php` | High
+8 | File | `/api/baskets/{name}` | High
+9 | File | `/api/common/ping` | High
+10 | File | `/api/sys/set_passwd` | High
+11 | File | `/aqpg/users/login.php` | High
+12 | File | `/bin/login` | Medium
+13 | File | `/bsms_ci/index.php/user/edit_user/` | High
+14 | File | `/calendar/minimizer/index.php` | High
+15 | File | `/cgi-bin/vitogate.cgi` | High
+16 | File | `/cgi-bin/wlogin.cgi` | High
+17 | File | `/changeimage.php` | High
+18 | File | `/classes/Users.php?f=save` | High
+19 | File | `/common/info.cgi` | High
+20 | File | `/cwms/classes/Master.php?f=save_contact` | High
+21 | File | `/DesignTools/CssEditor.aspx` | High
+22 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
+23 | File | `/DXR.axd` | Medium
+24 | File | `/forum/away.php` | High
+25 | File | `/gracemedia-media-player/templates/files/ajax_controller.php` | High
+26 | File | `/hrm/controller/employee.php` | High
+27 | File | `/hrm/employeeview.php` | High
+28 | File | `/importexport.php` | High
+29 | File | `/includes/db_connect.php` | High
+30 | File | `/includes/session.php` | High
+31 | File | `/index.php` | Medium
+32 | File | `/items/search` | High
+33 | File | `/librarian/bookdetails.php` | High
+34 | File | `/mc` | Low
+35 | File | `/mifs/c/i/reg/reg.html` | High
+36 | File | `/modules/projects/vw_files.php` | High
+37 | File | `/modules/public/calendar.php` | High
+38 | File | `/modules/public/date_format.php` | High
+39 | File | `/modules/tasks/gantt.php` | High
+40 | File | `/osms/assets/plugins/jquery-validation-1.11.1/demo/captcha/index.php` | High
+41 | File | `/out.php` | Medium
+42 | File | `/owa/auth/logon.aspx` | High
+43 | File | `/php-fusion/infusions/shoutbox_panel/shoutbox_archive.php` | High
+44 | File | `/project/tasks/list` | High
+45 | File | `/search.php` | Medium
+46 | File | `/send_order.cgi?parameter=restart` | High
+47 | File | `/setting` | Medium
+48 | File | `/spip.php` | Medium
+49 | File | `/src/amf/amf-context.c` | High
+50 | File | `/SysManage/AddUpdateSites.aspx` | High
+51 | File | `/sysmanage/changelogo.php` | High
+52 | ... | ... | ...
 
-There are 486 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 449 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

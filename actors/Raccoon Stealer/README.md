@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 9 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -53,13 +53,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22 | Pathname Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -67,11 +67,11 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/?p=products` | Medium
-2 | File | `/academy/home/courses` | High
-3 | File | `/admin/?page=product/manage_product&id=2` | High
-4 | File | `/admin/about-us.php` | High
-5 | File | `/admin/casedetails.php` | High
+1 | File | `//proc/kcore` | Medium
+2 | File | `/?p=products` | Medium
+3 | File | `/academy/home/courses` | High
+4 | File | `/admin/?page=product/manage_product&id=2` | High
+5 | File | `/admin/about-us.php` | High
 6 | File | `/admin/del_feedback.php` | High
 7 | File | `/admin/maintenance/brand.php` | High
 8 | File | `/admin/mechanics/manage_mechanic.php` | High
@@ -85,32 +85,32 @@ ID | Type | Indicator | Confidence
 16 | File | `/ajax/myshop` | Medium
 17 | File | `/api/baskets/{name}` | High
 18 | File | `/api/database` | High
-19 | File | `/api/gen/clients/{language}` | High
-20 | File | `/App_Resource/UEditor/server/upload.aspx` | High
-21 | File | `/authenticationendpoint/login.do` | High
-22 | File | `/backup.pl` | Medium
-23 | File | `/bitrix/admin/ldap_server_edit.php` | High
-24 | File | `/c/PluginsController.php` | High
-25 | File | `/cas/logout` | Medium
-26 | File | `/category.php` | High
-27 | File | `/cgi-bin/system_mgr.cgi` | High
-28 | File | `/chaincity/user/ticket/create` | High
-29 | File | `/collection/all` | High
-30 | File | `/College/admin/teacher.php` | High
-31 | File | `/contactform/contactform.php` | High
-32 | File | `/Controller/Ajaxfileupload.ashx` | High
-33 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
-34 | File | `/dayrui/Fcms/View/system_log.html` | High
-35 | File | `/dcim/rack-roles/` | High
-36 | File | `/ecommerce/support_ticket` | High
-37 | File | `/ecrire/exec/puce_statut.php` | High
-38 | File | `/files/` | Low
-39 | File | `/forum/away.php` | High
-40 | File | `/friends/ajax_invite` | High
-41 | File | `/goform/aspForm` | High
+19 | File | `/App_Resource/UEditor/server/upload.aspx` | High
+20 | File | `/authenticationendpoint/login.do` | High
+21 | File | `/backup.pl` | Medium
+22 | File | `/bitrix/admin/ldap_server_edit.php` | High
+23 | File | `/c/PluginsController.php` | High
+24 | File | `/cas/logout` | Medium
+25 | File | `/category.php` | High
+26 | File | `/cgi-bin/system_mgr.cgi` | High
+27 | File | `/chaincity/user/ticket/create` | High
+28 | File | `/collection/all` | High
+29 | File | `/College/admin/teacher.php` | High
+30 | File | `/contactform/contactform.php` | High
+31 | File | `/Controller/Ajaxfileupload.ashx` | High
+32 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
+33 | File | `/dcim/rack-roles/` | High
+34 | File | `/ecommerce/support_ticket` | High
+35 | File | `/ecrire/exec/puce_statut.php` | High
+36 | File | `/files/` | Low
+37 | File | `/forum/away.php` | High
+38 | File | `/friends/ajax_invite` | High
+39 | File | `/goform/aspForm` | High
+40 | File | `/goform/WifiGuestSet` | High
+41 | File | `/home/filter_listings` | High
 42 | ... | ... | ...
 
-There are 363 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 361 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

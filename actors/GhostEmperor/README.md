@@ -54,11 +54,11 @@ ID | Type | Indicator | Confidence
 8 | File | `/forum/away.php` | High
 9 | File | `/lists/index.php` | High
 10 | File | `/login.html` | Medium
-11 | File | `/new` | Low
-12 | File | `/system?action=ServiceAdmin` | High
+11 | File | `/mobilebroker/ServiceToBroker.svc/Json/Connect` | High
+12 | File | `/new` | Low
 13 | ... | ... | ...
 
-There are 101 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 103 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

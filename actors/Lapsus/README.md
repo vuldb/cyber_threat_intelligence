@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [GB](https://vuldb.com/?country.gb)
-* [GR](https://vuldb.com/?country.gr)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 9 more country items available. Please use our online service to access the data.
+There are 20 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -21,9 +21,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [104.238.222.158](https://vuldb.com/?ip.104.238.222.158) | - | - | High
-2 | [108.61.173.214](https://vuldb.com/?ip.108.61.173.214) | 108.61.173.214.vultrusercontent.com | - | High
-3 | [185.169.255.74](https://vuldb.com/?ip.185.169.255.74) | - | - | High
+1 | [45.132.227.213](https://vuldb.com/?ip.45.132.227.213) | - | - | High
+2 | [62.182.98.170](https://vuldb.com/?ip.62.182.98.170) | - | - | High
+3 | [67.43.235.122](https://vuldb.com/?ip.67.43.235.122) | mail.pnoc.com.ph | - | High
+4 | ... | ... | ... | ...
+
+There are 10 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -31,13 +34,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Pathname Traversal | High
-2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-36, CWE-425 | Pathname Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -46,28 +50,86 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.github/workflows/combine-prs.yml` | High
-2 | File | `/.env` | Low
-3 | File | `/admin/generalsettings.php` | High
-4 | File | `/Admin/login.php` | High
-5 | File | `/cbpos/` | Low
-6 | File | `/context/%2e/WEB-INF/web.xml` | High
-7 | File | `/forum/away.php` | High
-8 | File | `/horde/util/go.php` | High
-9 | File | `/index.php` | Medium
-10 | File | `/plain` | Low
-11 | File | `/secure/admin/ImporterFinishedPage.jspa` | High
-12 | File | `/uncpath/` | Medium
-13 | File | `/upload/ueditorConfig?action=config` | High
-14 | File | `admin/admin.shtml` | High
-15 | File | `admin/area.php` | High
-16 | ... | ... | ...
+2 | File | `.travis.yml` | Medium
+3 | File | `/+CSCOE+/logon.html` | High
+4 | File | `/../conf/config.properties` | High
+5 | File | `/.env` | Low
+6 | File | `//proc/kcore` | Medium
+7 | File | `/admin/?page=user` | High
+8 | File | `/admin/cms.php` | High
+9 | File | `/admin/communitymanagement.php` | High
+10 | File | `/admin/contacts/organizations/edit/2` | High
+11 | File | `/admin/edit_admin_details.php?id=admin` | High
+12 | File | `/admin/employee_row.php` | High
+13 | File | `/admin/featured.php` | High
+14 | File | `/admin/generalsettings.php` | High
+15 | File | `/Admin/login.php` | High
+16 | File | `/admin/login.php` | High
+17 | File | `/admin/maintenance/brand.php` | High
+18 | File | `/admin/newsletter1.php` | High
+19 | File | `/admin/offenses/view_details.php` | High
+20 | File | `/admin/patient.php` | High
+21 | File | `/admin/payment.php` | High
+22 | File | `/admin/photo.php` | High
+23 | File | `/admin/products/index.php` | High
+24 | File | `/admin/read.php?mudi=getSignal` | High
+25 | File | `/admin/renewaldue.php` | High
+26 | File | `/admin/robot/approval/list` | High
+27 | File | `/admin/searchview.php` | High
+28 | File | `/admin/success_story.php` | High
+29 | File | `/admin/sys_sql_query.php` | High
+30 | File | `/admin/test_status.php` | High
+31 | File | `/admin/user/manage_user.php` | High
+32 | File | `/admin/voters_row.php` | High
+33 | File | `/ajax.php?action=save_company` | High
+34 | File | `/api/wechat/app_auth` | High
+35 | File | `/appliance/users?action=edit` | High
+36 | File | `/APR/login.php` | High
+37 | File | `/author_posts.php` | High
+38 | File | `/bilal final/login.php` | High
+39 | File | `/blog` | Low
+40 | File | `/blog-single.php` | High
+41 | File | `/browse` | Low
+42 | File | `/bsms_ci/index.php` | High
+43 | File | `/bsms_ci/index.php/user/edit_user/` | High
+44 | File | `/catalog/admin/categories.php?cPath=&action=new_product` | High
+45 | File | `/category.php` | High
+46 | File | `/cbpos/` | Low
+47 | File | `/classes/Master.php` | High
+48 | File | `/classes/Master.php?f=delete_img` | High
+49 | File | `/classes/Master.php?f=delete_service` | High
+50 | File | `/classes/Master.php?f=save_item` | High
+51 | File | `/classes/Master.php?f=update_order_status` | High
+52 | File | `/classes/Users.php` | High
+53 | File | `/common/download?filename=1.jsp&delete=false` | High
+54 | File | `/config/getuser` | High
+55 | File | `/contact.php` | Medium
+56 | File | `/contact/store` | High
+57 | File | `/context/%2e/WEB-INF/web.xml` | High
+58 | File | `/Controller/Ajaxfileupload.ashx` | High
+59 | File | `/Default/Bd` | Medium
+60 | File | `/E-mobile/App/System/File/downfile.php` | High
+61 | File | `/ecommerce/admin/category/controller.php` | High
+62 | File | `/ecshop/admin/template.php` | High
+63 | File | `/event/admin/?page=user/list` | High
+64 | File | `/ffos/admin/menus/view_menu.php` | High
+65 | File | `/forum/away.php` | High
+66 | File | `/fos/admin/ajax.php?action=login` | High
+67 | File | `/getImage` | Medium
+68 | File | `/goform/formTcpipSetup` | High
+69 | File | `/group1/uploa` | High
+70 | File | `/horde/util/go.php` | High
+71 | File | `/hrm/controller/employee.php` | High
+72 | File | `/hrm/employeeadd.php` | High
+73 | ... | ... | ...
 
-There are 128 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 645 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://krypt3ia.wordpress.com/2023/12/22/lapsus-threat-card-and-dossiers/
 * https://research.nccgroup.com/2022/04/28/lapsus-recent-techniques-tactics-and-procedures/
 
 ## Literature

@@ -55,7 +55,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -67,44 +67,43 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin.php?c=upload&f=zip&_noCache=0.1683794968` | High
 3 | File | `/admin/inquiries/view_inquiry.php` | High
 4 | File | `/admin/maintenance/view_designation.php` | High
-5 | File | `/admin/sys_sql_query.php` | High
-6 | File | `/admin/user.php` | High
-7 | File | `/alphaware/details.php` | High
-8 | File | `/analysisProject/pagingQueryData` | High
-9 | File | `/api/admin/system/store/order/list` | High
-10 | File | `/api/baskets/{name}` | High
-11 | File | `/auth/fn.php` | Medium
-12 | File | `/bin/ate` | Medium
-13 | File | `/bin/sh` | Low
-14 | File | `/blog` | Low
-15 | File | `/booking/show_bookings/` | High
-16 | File | `/cgi-bin/ExportLogs.sh` | High
-17 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
-18 | File | `/classes/Master.php?f=delete_category` | High
-19 | File | `/classes/Master.php?f=save_service` | High
-20 | File | `/classes/Users.php?f=save` | High
-21 | File | `/common/sysFile/list` | High
-22 | File | `/concat?/%2557EB-INF/web.xml` | High
-23 | File | `/context/%2e/WEB-INF/web.xml` | High
-24 | File | `/Controller/Ajaxfileupload.ashx` | High
-25 | File | `/dashboard/add-blog.php` | High
-26 | File | `/data/remove` | Medium
-27 | File | `/debug/pprof` | Medium
-28 | File | `/Default/Bd` | Medium
-29 | File | `/dist/index.js` | High
-30 | File | `/editor/index.php` | High
-31 | File | `/Electron/download` | High
-32 | File | `/etc/openstack-dashboard/local_settings` | High
-33 | File | `/etc/passwd` | Medium
-34 | File | `/feeds/post/publish` | High
-35 | File | `/getcfg.php` | Medium
-36 | File | `/goform/addressNat` | High
-37 | File | `/goform/AdvSetLanip` | High
-38 | File | `/goForm/aspForm` | High
-39 | File | `/goform/fromSetWirelessRepeat` | High
-40 | ... | ... | ...
+5 | File | `/admin/sql` | Medium
+6 | File | `/admin/sys_sql_query.php` | High
+7 | File | `/admin/user.php` | High
+8 | File | `/alphaware/details.php` | High
+9 | File | `/analysisProject/pagingQueryData` | High
+10 | File | `/api/admin/system/store/order/list` | High
+11 | File | `/api/baskets/{name}` | High
+12 | File | `/api/v1/snapshots` | High
+13 | File | `/auth/fn.php` | Medium
+14 | File | `/bin/ate` | Medium
+15 | File | `/bin/sh` | Low
+16 | File | `/blog` | Low
+17 | File | `/booking/show_bookings/` | High
+18 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
+19 | File | `/classes/Master.php?f=delete_category` | High
+20 | File | `/classes/Master.php?f=save_service` | High
+21 | File | `/classes/Users.php?f=save` | High
+22 | File | `/common/sysFile/list` | High
+23 | File | `/concat?/%2557EB-INF/web.xml` | High
+24 | File | `/context/%2e/WEB-INF/web.xml` | High
+25 | File | `/Controller/Ajaxfileupload.ashx` | High
+26 | File | `/dashboard/add-blog.php` | High
+27 | File | `/data/remove` | Medium
+28 | File | `/debug/pprof` | Medium
+29 | File | `/Default/Bd` | Medium
+30 | File | `/dist/index.js` | High
+31 | File | `/editor/index.php` | High
+32 | File | `/Electron/download` | High
+33 | File | `/etc/openstack-dashboard/local_settings` | High
+34 | File | `/etc/passwd` | Medium
+35 | File | `/feeds/post/publish` | High
+36 | File | `/getcfg.php` | Medium
+37 | File | `/goform/addressNat` | High
+38 | File | `/goform/AdvSetLanip` | High
+39 | ... | ... | ...
 
-There are 345 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 338 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

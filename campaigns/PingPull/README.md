@@ -81,30 +81,31 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/api/trackedEntityInstances` | High
-2 | File | `/card_scan.php` | High
-3 | File | `/cgi-bin/portal` | High
-4 | File | `/cgi-bin/wapopen` | High
-5 | File | `/cgi-bin/wlogin.cgi` | High
-6 | File | `/cwc/login` | Medium
-7 | File | `/download` | Medium
-8 | File | `/etc/quagga` | Medium
-9 | File | `/etc/shadow` | Medium
-10 | File | `/forms/doLogin` | High
-11 | File | `/h/calendar` | Medium
-12 | File | `/inc/extensions.php` | High
-13 | File | `/index.php` | Medium
-14 | File | `/Items/*/RemoteImages/Download` | High
-15 | File | `/members/view_member.php` | High
-16 | File | `/mhds/clinic/view_details.php` | High
-17 | File | `/mifs/c/i/reg/reg.html` | High
-18 | File | `/nova/bin/console` | High
-19 | File | `/nova/bin/detnet` | High
-20 | File | `/out.php` | Medium
-21 | File | `/owa/auth/logon.aspx` | High
-22 | File | `/req_password_user.php` | High
-23 | ... | ... | ...
+2 | File | `/app/options.py` | High
+3 | File | `/card_scan.php` | High
+4 | File | `/cgi-bin/portal` | High
+5 | File | `/cgi-bin/wapopen` | High
+6 | File | `/cgi-bin/wlogin.cgi` | High
+7 | File | `/cwc/login` | Medium
+8 | File | `/download` | Medium
+9 | File | `/etc/quagga` | Medium
+10 | File | `/etc/shadow` | Medium
+11 | File | `/forms/doLogin` | High
+12 | File | `/h/calendar` | Medium
+13 | File | `/inc/extensions.php` | High
+14 | File | `/index.php` | Medium
+15 | File | `/Items/*/RemoteImages/Download` | High
+16 | File | `/members/view_member.php` | High
+17 | File | `/mhds/clinic/view_details.php` | High
+18 | File | `/mifs/c/i/reg/reg.html` | High
+19 | File | `/nova/bin/console` | High
+20 | File | `/nova/bin/detnet` | High
+21 | File | `/out.php` | Medium
+22 | File | `/owa/auth/logon.aspx` | High
+23 | File | `/req_password_user.php` | High
+24 | ... | ... | ...
 
-There are 195 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 201 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

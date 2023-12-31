@@ -52,40 +52,41 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.travis.yml` | Medium
-2 | File | `/admin/subnets/ripe-query.php` | High
-3 | File | `/apply.cgi` | Medium
-4 | File | `/config/php.ini` | High
-5 | File | `/core/conditions/AbstractWrapper.java` | High
-6 | File | `/dcim/sites/add/` | High
-7 | File | `/debug/pprof` | Medium
-8 | File | `/ecrire` | Low
-9 | File | `/export` | Low
-10 | File | `/file?action=download&file` | High
-11 | File | `/forum/away.php` | High
-12 | File | `/hardware` | Medium
-13 | File | `/importexport.php` | High
-14 | File | `/include/makecvs.php` | High
-15 | File | `/librarian/bookdetails.php` | High
-16 | File | `/MicroStrategyWS/happyaxis.jsp` | High
-17 | File | `/monitoring` | Medium
-18 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-19 | File | `/out.php` | Medium
-20 | File | `/owa/auth/logon.aspx` | High
-21 | File | `/plugin/LiveChat/getChat.json.php` | High
-22 | File | `/plugins/servlet/audit/resource` | High
-23 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
-24 | File | `/recordings/index.php` | High
-25 | File | `/replication` | Medium
-26 | File | `/rest/api/1.0/render` | High
-27 | File | `/RestAPI` | Medium
-28 | File | `/search.php` | Medium
-29 | File | `/server-status` | High
-30 | File | `/tmp/zarafa-vacation-*` | High
-31 | File | `/uncpath/` | Medium
-32 | ... | ... | ...
+1 | File | `%PROGRAMFILES(X86)%\TSplus\UserDesktop\themes.` | High
+2 | File | `.travis.yml` | Medium
+3 | File | `/admin/maintenance/view_designation.php` | High
+4 | File | `/admin/search-appointment.php` | High
+5 | File | `/admin/subnets/ripe-query.php` | High
+6 | File | `/apply.cgi` | Medium
+7 | File | `/config/php.ini` | High
+8 | File | `/core/conditions/AbstractWrapper.java` | High
+9 | File | `/dcim/sites/add/` | High
+10 | File | `/debug/pprof` | Medium
+11 | File | `/ecrire` | Low
+12 | File | `/export` | Low
+13 | File | `/file?action=download&file` | High
+14 | File | `/forum/away.php` | High
+15 | File | `/hardware` | Medium
+16 | File | `/importexport.php` | High
+17 | File | `/include/makecvs.php` | High
+18 | File | `/librarian/bookdetails.php` | High
+19 | File | `/MicroStrategyWS/happyaxis.jsp` | High
+20 | File | `/monitoring` | Medium
+21 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+22 | File | `/out.php` | Medium
+23 | File | `/owa/auth/logon.aspx` | High
+24 | File | `/plugin/LiveChat/getChat.json.php` | High
+25 | File | `/plugins/servlet/audit/resource` | High
+26 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
+27 | File | `/products/view_product.php` | High
+28 | File | `/recordings/index.php` | High
+29 | File | `/replication` | Medium
+30 | File | `/rest/api/1.0/render` | High
+31 | File | `/RestAPI` | Medium
+32 | File | `/search.php` | Medium
+33 | ... | ... | ...
 
-There are 274 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 282 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [LA](https://vuldb.com/?country.la)
 * ...
 
-There are 13 more country items available. Please use our online service to access the data.
+There are 14 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -83,7 +83,7 @@ ID | IP address | Hostname | Campaign | Confidence
 60 | [62.233.51.122](https://vuldb.com/?ip.62.233.51.122) | - | - | High
 61 | ... | ... | ... | ...
 
-There are 239 more IOC items available. Please use our online service to access the data.
+There are 241 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -92,14 +92,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Pathname Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 7 | ... | ... | ... | ...
 
-There are 23 more TTP items available. Please use our online service to access the data.
+There are 24 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -107,13 +107,13 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/?p=products` | Medium
-2 | File | `/admin/about-us.php` | High
-3 | File | `/admin/controller/JobLogController.java` | High
-4 | File | `/admin/user/manage_user.php` | High
-5 | File | `/admin/userprofile.php` | High
-6 | File | `/api/` | Low
-7 | File | `/api/admin/store/product/list` | High
+1 | File | `//proc/kcore` | Medium
+2 | File | `/?p=products` | Medium
+3 | File | `/admin/about-us.php` | High
+4 | File | `/admin/controller/JobLogController.java` | High
+5 | File | `/admin/index2.html` | High
+6 | File | `/admin/user/manage_user.php` | High
+7 | File | `/admin/userprofile.php` | High
 8 | File | `/api/baskets/{name}` | High
 9 | File | `/api/stl/actions/search` | High
 10 | File | `/api/sys/login` | High
@@ -159,20 +159,20 @@ ID | Type | Indicator | Confidence
 50 | File | `/userLogin.asp` | High
 51 | File | `/vm/admin/doctors.php` | High
 52 | File | `/wbms/classes/Master.php?f=delete_client` | High
-53 | File | `/wireless/security.asp` | High
-54 | File | `/wp-admin/admin-ajax.php` | High
-55 | ... | ... | ...
+53 | ... | ... | ...
 
-There are 477 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 458 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://app.any.run/tasks/3f8e8db8-1be2-4e1d-b282-7bdb6a55c76c
 * https://app.any.run/tasks/8e6d495a-2678-49e7-a93c-b1f74664e551
 * https://app.any.run/tasks/54b224f2-562f-4b1b-a36f-0ea1f69b407c
 * https://app.any.run/tasks/57cc7daa-2711-4e03-9a7a-08275f1e9bc3
 * https://app.any.run/tasks/b23ce44b-d84a-4e59-ba6b-13611b20ff25
+* https://app.any.run/tasks/c05e6e85-c298-4ac7-9207-b09da6e1ab4e
 * https://app.any.run/tasks/d28f31bb-a6e3-4f72-b343-ab4ff19bbed9
 * https://app.any.run/tasks/f3358280-53c7-43a6-9980-bcb59c2aa0ca
 * https://app.any.run/tasks/ff79a6bc-0eff-4012-b9eb-b22ab6de61c2

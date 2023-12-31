@@ -88,20 +88,21 @@ ID | Type | Indicator | Confidence
 21 | File | `/public/login.htm` | High
 22 | File | `/register.do` | Medium
 23 | File | `/sessions/sess_<sessionid>` | High
-24 | File | `/themes/<php_file_name>` | High
-25 | File | `/tmp/speedtest_urls.xml` | High
-26 | File | `/uncpath/` | Medium
-27 | File | `/upload` | Low
-28 | File | `/var/log/nginx` | High
-29 | File | `/wbg/core/_includes/authorization.inc.php` | High
-30 | File | `/wp-admin/admin.php` | High
-31 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-32 | File | `adclick.php` | Medium
-33 | File | `admin.php` | Medium
-34 | File | `admin/?n=tags&c=index&a=doSaveTags` | High
-35 | ... | ... | ...
+24 | File | `/sysmanage/edit_manageadmin.php` | High
+25 | File | `/themes/<php_file_name>` | High
+26 | File | `/tmp/speedtest_urls.xml` | High
+27 | File | `/uncpath/` | Medium
+28 | File | `/upload` | Low
+29 | File | `/var/log/nginx` | High
+30 | File | `/wbg/core/_includes/authorization.inc.php` | High
+31 | File | `/wp-admin/admin.php` | High
+32 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+33 | File | `adclick.php` | Medium
+34 | File | `admin.php` | Medium
+35 | File | `admin/?n=tags&c=index&a=doSaveTags` | High
+36 | ... | ... | ...
 
-There are 301 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 304 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

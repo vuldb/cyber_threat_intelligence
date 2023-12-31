@@ -53,17 +53,18 @@ ID | Type | Indicator | Confidence
 2 | File | `//etc/RT2870STA.dat` | High
 3 | File | `/cgi-bin/luci;stok=/locale` | High
 4 | File | `/cgi-bin/wapopen` | High
-5 | File | `/HNAP1` | Low
-6 | File | `/index.php` | Medium
-7 | File | `/mgmt/tm/util/bash` | High
-8 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-9 | File | `/setSystemAdmin` | High
-10 | File | `/sp/ListSp.php` | High
-11 | File | `/updown/upload.cgi` | High
-12 | File | `/usr/bin/pkexec` | High
-13 | ... | ... | ...
+5 | File | `/classes/Users.php?f=save` | High
+6 | File | `/HNAP1` | Low
+7 | File | `/index.php` | Medium
+8 | File | `/mgmt/tm/util/bash` | High
+9 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+10 | File | `/setSystemAdmin` | High
+11 | File | `/sp/ListSp.php` | High
+12 | File | `/updown/upload.cgi` | High
+13 | File | `/usr/bin/pkexec` | High
+14 | ... | ... | ...
 
-There are 98 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 108 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

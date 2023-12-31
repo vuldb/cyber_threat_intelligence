@@ -51,32 +51,32 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.htaccess` | Medium
-2 | File | `/admin/ajax.php?action=save_window` | High
-3 | File | `/admin/index2.html` | High
-4 | File | `/cgi/get_param.cgi` | High
-5 | File | `/common/download_agent_installer.php` | High
-6 | File | `/common/run_cross_report.php` | High
-7 | File | `/connectors/index.php` | High
-8 | File | `/dashboard/add-portfolio.php` | High
-9 | File | `/EXCU_SHELL` | Medium
-10 | File | `/forum/away.php` | High
-11 | File | `/ghost/preview` | High
-12 | File | `/goform/addressNat` | High
-13 | File | `/goform/NatStaticSetting` | High
-14 | File | `/jerry-core/ecma/base/ecma-helpers-conversion.c` | High
-15 | File | `/login` | Low
-16 | File | `/opt/IBM/es/lib/libffq.cryptionjni.so` | High
-17 | File | `/opt/vyatta/share/vyatta-cfg/templates/system/static-host-mapping/host-name/node.def` | High
-18 | File | `/php-sms/admin/?page=services/manage_service` | High
-19 | File | `/sdm-ws-rest/preconfiguration` | High
-20 | File | `/settings` | Medium
-21 | File | `/uapi/doc` | Medium
-22 | File | `/uncpath/` | Medium
-23 | File | `/updownload/t.report` | High
-24 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
+2 | File | `/admin/ajax.php` | High
+3 | File | `/admin/ajax.php?action=save_window` | High
+4 | File | `/admin/index2.html` | High
+5 | File | `/cgi/get_param.cgi` | High
+6 | File | `/common/download_agent_installer.php` | High
+7 | File | `/common/run_cross_report.php` | High
+8 | File | `/connectors/index.php` | High
+9 | File | `/dashboard/add-portfolio.php` | High
+10 | File | `/EXCU_SHELL` | Medium
+11 | File | `/forum/away.php` | High
+12 | File | `/ghost/preview` | High
+13 | File | `/goform/addressNat` | High
+14 | File | `/goform/NatStaticSetting` | High
+15 | File | `/jerry-core/ecma/base/ecma-helpers-conversion.c` | High
+16 | File | `/login` | Low
+17 | File | `/opt/IBM/es/lib/libffq.cryptionjni.so` | High
+18 | File | `/opt/vyatta/share/vyatta-cfg/templates/system/static-host-mapping/host-name/node.def` | High
+19 | File | `/php-sms/admin/?page=services/manage_service` | High
+20 | File | `/sdm-ws-rest/preconfiguration` | High
+21 | File | `/settings` | Medium
+22 | File | `/uapi/doc` | Medium
+23 | File | `/uncpath/` | Medium
+24 | File | `/updownload/t.report` | High
 25 | ... | ... | ...
 
-There are 209 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 210 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -31,6 +31,7 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1552 | CWE-255 | ASP.NET Misconfiguration: Password in Configuration File | High
 2 | T1592 | CWE-200 | Configuration | High
+3 | T1600 | CWE-311 | J2EE Misconfiguration: Data Transmission Without Encryption | High
 
 ## References
 

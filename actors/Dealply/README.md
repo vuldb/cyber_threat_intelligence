@@ -72,15 +72,16 @@ ID | Type | Indicator | Confidence
 20 | File | `/get-artifact` | High
 21 | File | `/goForm/aspForm` | High
 22 | File | `/goform/formTcpipSetup` | High
-23 | File | `/inc/jquery/uploadify/uploadify.php` | High
-24 | File | `/index.php/archives/1/comment` | High
-25 | File | `/jerry-core/parser/js/js-lexer.c` | High
-26 | File | `/jerry-core/parser/js/js-parser-statm.c` | High
-27 | File | `/jerry-core/parser/js/js-scanner-util.c` | High
-28 | File | `/jurusan/data` | High
-29 | ... | ... | ...
+23 | File | `/HNAP1/` | Low
+24 | File | `/inc/jquery/uploadify/uploadify.php` | High
+25 | File | `/index.php/archives/1/comment` | High
+26 | File | `/jerry-core/parser/js/js-lexer.c` | High
+27 | File | `/jerry-core/parser/js/js-parser-statm.c` | High
+28 | File | `/jerry-core/parser/js/js-scanner-util.c` | High
+29 | File | `/jurusan/data` | High
+30 | ... | ... | ...
 
-There are 249 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 252 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

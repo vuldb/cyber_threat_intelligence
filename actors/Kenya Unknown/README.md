@@ -249,22 +249,22 @@ ID | Type | Indicator | Confidence
 4 | File | `/administrator/components/table_manager/` | High
 5 | File | `/api/baskets/{name}` | High
 6 | File | `/balance/service/list` | High
-7 | File | `/cgi-bin/system_mgr.cgi` | High
-8 | File | `/goform/form2Wan.cgi` | High
-9 | File | `/goform/WifiGuestSet` | High
-10 | File | `/HNAP1/SetClientInfo` | High
-11 | File | `/includes/rrdtool.inc.php` | High
-12 | File | `/index.php` | Medium
-13 | File | `/management/users/register` | High
-14 | File | `/opt/vyatta/share/vyatta-cfg/templates/system/static-host-mapping/host-name/node.def` | High
-15 | File | `/php-sms/classes/Master.php` | High
-16 | File | `/php-sms/classes/SystemSettings.php` | High
-17 | File | `/plugin/getList` | High
-18 | File | `/queuing/login.php` | High
-19 | File | `/sacco_shield/manage_payment.php` | High
+7 | File | `/cgi-bin/R14.2/cgi-bin/R14.2/host.pl` | High
+8 | File | `/cgi-bin/system_mgr.cgi` | High
+9 | File | `/goform/form2Wan.cgi` | High
+10 | File | `/goform/WifiGuestSet` | High
+11 | File | `/HNAP1/SetClientInfo` | High
+12 | File | `/includes/rrdtool.inc.php` | High
+13 | File | `/index.php` | Medium
+14 | File | `/management/users/register` | High
+15 | File | `/opt/vyatta/share/vyatta-cfg/templates/system/static-host-mapping/host-name/node.def` | High
+16 | File | `/php-sms/classes/Master.php` | High
+17 | File | `/php-sms/classes/SystemSettings.php` | High
+18 | File | `/plugin/getList` | High
+19 | File | `/queuing/login.php` | High
 20 | ... | ... | ...
 
-There are 161 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 162 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

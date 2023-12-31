@@ -112,14 +112,15 @@ ID | Type | Indicator | Confidence
 56 | File | `app/index.php/accounts/default/details?id=2&kanbanBoard=1&openToTaskId=1` | High
 57 | File | `artlinks.dispnew.php` | High
 58 | File | `auth.php` | Medium
-59 | File | `bin/named/query.c` | High
-60 | File | `blank.php` | Medium
-61 | File | `blocklayered-ajax.php` | High
-62 | File | `blogger-importer.php` | High
-63 | File | `bluegate_seo.inc.php` | High
-64 | ... | ... | ...
+59 | File | `awstats.pl` | Medium
+60 | File | `bin/named/query.c` | High
+61 | File | `blank.php` | Medium
+62 | File | `blocklayered-ajax.php` | High
+63 | File | `blogger-importer.php` | High
+64 | File | `bluegate_seo.inc.php` | High
+65 | ... | ... | ...
 
-There are 562 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 565 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

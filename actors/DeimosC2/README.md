@@ -4,6 +4,13 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.deimosc2](https://vuldb.com/?actor.deimosc2)
 
+## Countries
+
+These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with DeimosC2:
+
+* [CN](https://vuldb.com/?country.cn)
+* [US](https://vuldb.com/?country.us)
+
 ## IOC - Indicator of Compromise
 
 These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of DeimosC2.
@@ -12,7 +19,10 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [5.101.4.196](https://vuldb.com/?ip.5.101.4.196) | hvilica.ru.4.101.5.in-addr.arpa | - | High
 2 | [5.101.5.196](https://vuldb.com/?ip.5.101.5.196) | - | - | High
-3 | [13.245.163.162](https://vuldb.com/?ip.13.245.163.162) | ec2-13-245-163-162.af-south-1.compute.amazonaws.com | - | Medium
+3 | [5.181.156.137](https://vuldb.com/?ip.5.181.156.137) | 5-181-156-137.mivocloud.com | - | High
+4 | ... | ... | ... | ...
+
+There are 4 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -21,6 +31,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1059.007 | CWE-79 | Cross Site Scripting | High
+2 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+3 | T1202 | CWE-77 | Command Injection | High
+4 | ... | ... | ... | ...
+
+There are 3 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -28,12 +43,21 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | Argument | `name` | Low
+1 | File | `Ant_Check.php` | High
+2 | File | `cgi-bin/MANGA/admin.cgi` | High
+3 | File | `fs/io-wq.c` | Medium
+4 | ... | ... | ...
+
+There are 10 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://search.censys.io/hosts/5.181.156.137
+* https://search.censys.io/hosts/8.218.170.109
+* https://search.censys.io/hosts/34.235.18.0
+* https://search.censys.io/hosts/124.156.173.75
 * https://search.censys.io/search?resource=hosts&sort=RELEVANCE&per_page=25&virtual_hosts=EXCLUDE&q=services.software.product%3A+DeimosC2+and+not+labels%3A+tarpit
 
 ## Literature

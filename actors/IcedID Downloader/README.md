@@ -45,25 +45,27 @@ ID | IP address | Hostname | Campaign | Confidence
 22 | [5.199.173.217](https://vuldb.com/?ip.5.199.173.217) | - | - | High
 23 | [5.199.173.234](https://vuldb.com/?ip.5.199.173.234) | - | - | High
 24 | [5.199.174.232](https://vuldb.com/?ip.5.199.174.232) | - | - | High
-25 | [23.106.124.26](https://vuldb.com/?ip.23.106.124.26) | - | - | High
-26 | [37.61.229.95](https://vuldb.com/?ip.37.61.229.95) | zeno.igorclark.net | - | High
-27 | [45.11.19.121](https://vuldb.com/?ip.45.11.19.121) | - | - | High
-28 | [45.66.248.151](https://vuldb.com/?ip.45.66.248.151) | - | - | High
-29 | [45.86.229.46](https://vuldb.com/?ip.45.86.229.46) | - | - | High
-30 | [45.86.229.94](https://vuldb.com/?ip.45.86.229.94) | - | - | High
-31 | [45.86.229.105](https://vuldb.com/?ip.45.86.229.105) | 1lf7cf33e.northernstarmarketing.com | - | High
-32 | [45.86.229.180](https://vuldb.com/?ip.45.86.229.180) | - | - | High
-33 | [45.86.229.251](https://vuldb.com/?ip.45.86.229.251) | - | - | High
-34 | [45.86.229.253](https://vuldb.com/?ip.45.86.229.253) | 32l.edUcated-352.insuranceforourfamily.com | - | High
-35 | [45.147.230.150](https://vuldb.com/?ip.45.147.230.150) | - | - | High
-36 | [45.147.231.142](https://vuldb.com/?ip.45.147.231.142) | - | - | High
-37 | [45.147.231.164](https://vuldb.com/?ip.45.147.231.164) | - | - | High
-38 | [45.153.241.140](https://vuldb.com/?ip.45.153.241.140) | - | - | High
-39 | [51.83.193.221](https://vuldb.com/?ip.51.83.193.221) | srv21.leadsflex.co | - | High
-40 | [51.89.88.113](https://vuldb.com/?ip.51.89.88.113) | be14.wordume.top | - | High
-41 | ... | ... | ... | ...
+25 | [23.88.37.159](https://vuldb.com/?ip.23.88.37.159) | static.159.37.88.23.clients.your-server.de | - | High
+26 | [23.106.124.26](https://vuldb.com/?ip.23.106.124.26) | - | - | High
+27 | [37.61.229.95](https://vuldb.com/?ip.37.61.229.95) | zeno.igorclark.net | - | High
+28 | [45.11.19.121](https://vuldb.com/?ip.45.11.19.121) | - | - | High
+29 | [45.66.248.151](https://vuldb.com/?ip.45.66.248.151) | - | - | High
+30 | [45.86.229.46](https://vuldb.com/?ip.45.86.229.46) | - | - | High
+31 | [45.86.229.94](https://vuldb.com/?ip.45.86.229.94) | - | - | High
+32 | [45.86.229.105](https://vuldb.com/?ip.45.86.229.105) | 1lf7cf33e.northernstarmarketing.com | - | High
+33 | [45.86.229.180](https://vuldb.com/?ip.45.86.229.180) | - | - | High
+34 | [45.86.229.251](https://vuldb.com/?ip.45.86.229.251) | - | - | High
+35 | [45.86.229.253](https://vuldb.com/?ip.45.86.229.253) | 32l.edUcated-352.insuranceforourfamily.com | - | High
+36 | [45.147.230.150](https://vuldb.com/?ip.45.147.230.150) | - | - | High
+37 | [45.147.231.142](https://vuldb.com/?ip.45.147.231.142) | - | - | High
+38 | [45.147.231.164](https://vuldb.com/?ip.45.147.231.164) | - | - | High
+39 | [45.153.241.140](https://vuldb.com/?ip.45.153.241.140) | - | - | High
+40 | [51.83.193.221](https://vuldb.com/?ip.51.83.193.221) | srv21.leadsflex.co | - | High
+41 | [51.89.88.113](https://vuldb.com/?ip.51.89.88.113) | be14.wordume.top | - | High
+42 | [51.89.88.119](https://vuldb.com/?ip.51.89.88.119) | mail.cartoscan.info | - | High
+43 | ... | ... | ... | ...
 
-There are 160 more IOC items available. Please use our online service to access the data.
+There are 166 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -73,10 +75,10 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22, CWE-23 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94 | Cross Site Scripting | High
+3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 13 more TTP items available. Please use our online service to access the data.
+There are 14 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -88,23 +90,25 @@ ID | Type | Indicator | Confidence
 2 | File | `/apply.cgi` | Medium
 3 | File | `/index.php` | Medium
 4 | File | `/members/view_member.php` | High
-5 | File | `/owa/auth/logon.aspx` | High
-6 | File | `/rapi/read_url` | High
-7 | File | `/scripts/unlock_tasks.php` | High
-8 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
-9 | File | `/system/user/modules/mod_users/controller.php` | High
-10 | File | `/uncpath/` | Medium
-11 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
-12 | File | `adclick.php` | Medium
-13 | File | `appserv/main.php` | High
-14 | ... | ... | ...
+5 | File | `/mhds/clinic/view_details.php` | High
+6 | File | `/owa/auth/logon.aspx` | High
+7 | File | `/rapi/read_url` | High
+8 | File | `/rest/api/latest/projectvalidate/key` | High
+9 | File | `/scripts/unlock_tasks.php` | High
+10 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
+11 | File | `/system/user/modules/mod_users/controller.php` | High
+12 | File | `/uncpath/` | Medium
+13 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
+14 | File | `adclick.php` | Medium
+15 | ... | ... | ...
 
-There are 109 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 118 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2023-09-28-IOCs-for-IcedID-with-KeyholeVNC-and-Cobalt-Strike.txt
 * https://threatfox.abuse.ch
 * https://tria.ge/220309-14yg3sbgg3
 * https://tria.ge/220417-3ey4esfhh7

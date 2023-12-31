@@ -8,9 +8,9 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Mystic Stealer:
 
-* [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
-* [RU](https://vuldb.com/?country.ru)
+* [CN](https://vuldb.com/?country.cn)
+* [LA](https://vuldb.com/?country.la)
 * ...
 
 There are 13 more country items available. Please use our online service to access the data.
@@ -22,19 +22,21 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [3.111.145.27](https://vuldb.com/?ip.3.111.145.27) | ec2-3-111-145-27.ap-south-1.compute.amazonaws.com | - | Medium
-2 | [5.42.92.88](https://vuldb.com/?ip.5.42.92.88) | hosted-by.yeezyhost.net | - | High
-3 | [5.42.92.211](https://vuldb.com/?ip.5.42.92.211) | . | - | High
-4 | [5.42.94.125](https://vuldb.com/?ip.5.42.94.125) | juicy-milk.aeza.network | - | High
-5 | [5.75.183.169](https://vuldb.com/?ip.5.75.183.169) | static.169.183.75.5.clients.your-server.de | - | High
-6 | [13.208.166.206](https://vuldb.com/?ip.13.208.166.206) | ec2-13-208-166-206.ap-northeast-3.compute.amazonaws.com | - | Medium
-7 | [23.163.0.179](https://vuldb.com/?ip.23.163.0.179) | mail.pnet-asp.tech | - | High
-8 | [37.139.129.70](https://vuldb.com/?ip.37.139.129.70) | - | - | High
-9 | [43.154.7.225](https://vuldb.com/?ip.43.154.7.225) | - | - | High
-10 | [45.9.74.110](https://vuldb.com/?ip.45.9.74.110) | - | - | High
-11 | [45.155.249.38](https://vuldb.com/?ip.45.155.249.38) | - | - | High
-12 | ... | ... | ... | ...
+2 | [5.42.64.18](https://vuldb.com/?ip.5.42.64.18) | - | - | High
+3 | [5.42.64.20](https://vuldb.com/?ip.5.42.64.20) | - | - | High
+4 | [5.42.65.126](https://vuldb.com/?ip.5.42.65.126) | - | - | High
+5 | [5.42.92.43](https://vuldb.com/?ip.5.42.92.43) | hosted-by.yeezyhost.net | - | High
+6 | [5.42.92.88](https://vuldb.com/?ip.5.42.92.88) | hosted-by.yeezyhost.net | - | High
+7 | [5.42.92.211](https://vuldb.com/?ip.5.42.92.211) | . | - | High
+8 | [5.42.94.125](https://vuldb.com/?ip.5.42.94.125) | juicy-milk.aeza.network | - | High
+9 | [5.75.183.169](https://vuldb.com/?ip.5.75.183.169) | static.169.183.75.5.clients.your-server.de | - | High
+10 | [13.208.166.206](https://vuldb.com/?ip.13.208.166.206) | ec2-13-208-166-206.ap-northeast-3.compute.amazonaws.com | - | Medium
+11 | [23.163.0.179](https://vuldb.com/?ip.23.163.0.179) | mail.pnet-asp.tech | - | High
+12 | [37.139.129.70](https://vuldb.com/?ip.37.139.129.70) | - | - | High
+13 | [41.208.73.44](https://vuldb.com/?ip.41.208.73.44) | 41.208.73.44.static.ltt.ly | - | High
+14 | ... | ... | ... | ...
 
-There are 42 more IOC items available. Please use our online service to access the data.
+There are 50 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -42,15 +44,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-28 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
-7 | ... | ... | ... | ...
+6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -59,68 +60,66 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/?p=products` | Medium
-2 | File | `/about.php` | Medium
-3 | File | `/admin.php/accessory/filesdel.html` | High
-4 | File | `/admin/?page=user/manage` | High
-5 | File | `/admin/add-new.php` | High
-6 | File | `/admin/controller/JobLogController.java` | High
-7 | File | `/admin/doctors.php` | High
-8 | File | `/admin/submit-articles` | High
-9 | File | `/alphaware/summary.php` | High
-10 | File | `/api/` | Low
-11 | File | `/api/admin/store/product/list` | High
-12 | File | `/api/baskets/{name}` | High
-13 | File | `/api/stl/actions/search` | High
-14 | File | `/api/sys/login` | High
-15 | File | `/api/sys/set_passwd` | High
-16 | File | `/api/v2/cli/commands` | High
-17 | File | `/attachments` | Medium
-18 | File | `/be/erpc.php` | Medium
-19 | File | `/bin/ate` | Medium
-20 | File | `/boat/login.php` | High
-21 | File | `/booking/show_bookings/` | High
-22 | File | `/bsms_ci/index.php/book` | High
-23 | File | `/cgi-bin` | Medium
-24 | File | `/cgi-bin/luci/api/wireless` | High
-25 | File | `/cgi-bin/wlogin.cgi` | High
-26 | File | `/changePassword` | High
-27 | File | `/Content/Template/root/reverse-shell.aspx` | High
-28 | File | `/context/%2e/WEB-INF/web.xml` | High
-29 | File | `/dashboard/add-blog.php` | High
-30 | File | `/debug/pprof` | Medium
-31 | File | `/ecshop/admin/template.php` | High
-32 | File | `/env` | Low
-33 | File | `/etc/gsissh/sshd_config` | High
-34 | File | `/etc/hosts` | Medium
-35 | File | `/film-rating.php` | High
-36 | File | `/forum/away.php` | High
-37 | File | `/goform/setmac` | High
-38 | File | `/goform/wizard_end` | High
-39 | File | `/group1/uploa` | High
-40 | File | `/index.php` | Medium
-41 | File | `/librarian/bookdetails.php` | High
-42 | File | `/medicines/profile.php` | High
-43 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-44 | File | `/php-sms/admin/?page=user/manage_user` | High
-45 | File | `/proxy` | Low
-46 | File | `/reservation/add_message.php` | High
-47 | File | `/resources//../` | High
-48 | File | `/spip.php` | Medium
-49 | File | `/student/bookdetails.php` | High
-50 | File | `/tmp` | Low
-51 | File | `/uncpath/` | Medium
-52 | File | `/user/updatePwd` | High
-53 | File | `/userLogin.asp` | High
-54 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
-55 | File | `/video-sharing-script/watch-video.php` | High
-56 | ... | ... | ...
+2 | File | `/admin.php/accessory/filesdel.html` | High
+3 | File | `/admin/?page=user/manage` | High
+4 | File | `/admin/add-new.php` | High
+5 | File | `/admin/controller/JobLogController.java` | High
+6 | File | `/admin/doctors.php` | High
+7 | File | `/alphaware/summary.php` | High
+8 | File | `/api/` | Low
+9 | File | `/api/admin/store/product/list` | High
+10 | File | `/api/baskets/{name}` | High
+11 | File | `/api/stl/actions/search` | High
+12 | File | `/api/sys/login` | High
+13 | File | `/api/sys/set_passwd` | High
+14 | File | `/api/v2/cli/commands` | High
+15 | File | `/be/erpc.php` | Medium
+16 | File | `/bin/ate` | Medium
+17 | File | `/boat/login.php` | High
+18 | File | `/booking/show_bookings/` | High
+19 | File | `/bsms_ci/index.php/book` | High
+20 | File | `/cgi-bin` | Medium
+21 | File | `/cgi-bin/wlogin.cgi` | High
+22 | File | `/changePassword` | High
+23 | File | `/Content/Template/root/reverse-shell.aspx` | High
+24 | File | `/dashboard/add-blog.php` | High
+25 | File | `/debug/pprof` | Medium
+26 | File | `/DXR.axd` | Medium
+27 | File | `/ecshop/admin/template.php` | High
+28 | File | `/env` | Low
+29 | File | `/etc/gsissh/sshd_config` | High
+30 | File | `/film-rating.php` | High
+31 | File | `/forum/away.php` | High
+32 | File | `/group1/uploa` | High
+33 | File | `/index.php` | Medium
+34 | File | `/librarian/bookdetails.php` | High
+35 | File | `/medicines/profile.php` | High
+36 | File | `/oauth/idp/.well-known/openid-configuration` | High
+37 | File | `/owa/auth/logon.aspx` | High
+38 | File | `/php-sms/admin/?page=user/manage_user` | High
+39 | File | `/ping.html` | Medium
+40 | File | `/qsr_server/device/reboot` | High
+41 | File | `/reservation/add_message.php` | High
+42 | File | `/resources//../` | High
+43 | File | `/spip.php` | Medium
+44 | File | `/student/bookdetails.php` | High
+45 | File | `/testConnection` | High
+46 | File | `/tmp` | Low
+47 | File | `/user/updatePwd` | High
+48 | File | `/userLogin.asp` | High
+49 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
+50 | File | `/video-sharing-script/watch-video.php` | High
+51 | File | `/vm/admin/doctors.php` | High
+52 | File | `/wireless/security.asp` | High
+53 | ... | ... | ...
 
-There are 487 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 465 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://app.any.run/tasks/3bfdcee7-1163-4cb5-a421-c89ebe581fb3
 * https://app.any.run/tasks/6a907458-4ae2-4bbf-a4cd-120e7c7c5b60
 * https://app.any.run/tasks/83e1bcf1-7e3f-46d1-b87f-9dc761b34cd0
 * https://app.any.run/tasks/342f5538-7e82-4f54-908e-18efa2cc2669

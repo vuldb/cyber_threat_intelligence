@@ -70,7 +70,7 @@ ID | Type | Indicator | Confidence
 7 | File | `auth-gss2.c` | Medium
 8 | ... | ... | ...
 
-There are 57 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 59 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

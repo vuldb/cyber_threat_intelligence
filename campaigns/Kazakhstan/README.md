@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [KZ](https://vuldb.com/?country.kz)
 * ...
 
-There are 17 more country items available. Please use our online service to access the data.
+There are 18 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -242,11 +242,11 @@ ID | Type | Indicator | Confidence
 10 | File | `/api/admin/store/product/list` | High
 11 | File | `/api/baskets/{name}` | High
 12 | File | `/api/common/ping` | High
-13 | File | `/api/stl/actions/search` | High
-14 | File | `/api/sys/login` | High
-15 | File | `/api/sys/set_passwd` | High
-16 | File | `/api/v2/cli/commands` | High
-17 | File | `/attachments` | Medium
+13 | File | `/api/jolokia org.jolokia.http.HttpRequestHandler#handlePostRequest` | High
+14 | File | `/api/stl/actions/search` | High
+15 | File | `/api/sys/login` | High
+16 | File | `/api/sys/set_passwd` | High
+17 | File | `/api/v2/cli/commands` | High
 18 | File | `/bin/ate` | Medium
 19 | File | `/boat/login.php` | High
 20 | File | `/booking/show_bookings/` | High
@@ -269,13 +269,12 @@ ID | Type | Indicator | Confidence
 37 | File | `/medicines/profile.php` | High
 38 | File | `/php-sms/admin/?page=user/manage_user` | High
 39 | File | `/plesk-site-preview/` | High
-40 | File | `/reservation/add_message.php` | High
-41 | File | `/resources//../` | High
-42 | File | `/spip.php` | Medium
-43 | File | `/testConnection` | High
-44 | ... | ... | ...
+40 | File | `/post.php` | Medium
+41 | File | `/reservation/add_message.php` | High
+42 | File | `/resources//../` | High
+43 | ... | ... | ...
 
-There are 377 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 370 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 3 more country items available. Please use our online service to access the data.
+There are 4 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -31,14 +31,14 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
-1 | [23.27.112.216](https://vuldb.com/?ip.23.27.112.216) | - | [Tropic Trooper](https://vuldb.com/?actor.tropic_trooper) | High
-2 | [45.32.8.137](https://vuldb.com/?ip.45.32.8.137) | 45.32.8.137.vultr.com | [Poison Ivy](https://vuldb.com/?actor.poison_ivy) | Medium
-3 | [45.76.125.176](https://vuldb.com/?ip.45.76.125.176) | 45.76.125.176.vultr.com | [Poison Ivy](https://vuldb.com/?actor.poison_ivy) | Medium
-4 | [45.76.228.61](https://vuldb.com/?ip.45.76.228.61) | 45.76.228.61.vultr.com | [Poison Ivy](https://vuldb.com/?actor.poison_ivy) | Medium
-5 | [49.254.211.75](https://vuldb.com/?ip.49.254.211.75) | - | [Tropic Trooper](https://vuldb.com/?actor.tropic_trooper) | High
+1 | [5.153.123.11](https://vuldb.com/?ip.5.153.123.11) | 11-123-153-5.dyn.cable.fcom.ch | [Poison Ivy](https://vuldb.com/?actor.poison_ivy) | High
+2 | [23.27.112.216](https://vuldb.com/?ip.23.27.112.216) | - | [Tropic Trooper](https://vuldb.com/?actor.tropic_trooper) | High
+3 | [45.32.8.137](https://vuldb.com/?ip.45.32.8.137) | 45.32.8.137.vultr.com | [Poison Ivy](https://vuldb.com/?actor.poison_ivy) | Medium
+4 | [45.76.125.176](https://vuldb.com/?ip.45.76.125.176) | 45.76.125.176.vultr.com | [Poison Ivy](https://vuldb.com/?actor.poison_ivy) | Medium
+5 | [45.76.228.61](https://vuldb.com/?ip.45.76.228.61) | 45.76.228.61.vultr.com | [Poison Ivy](https://vuldb.com/?actor.poison_ivy) | Medium
 6 | ... | ... | ... | ...
 
-There are 18 more IOC items available. Please use our online service to access the data.
+There are 22 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -67,14 +67,16 @@ ID | Type | Indicator | Confidence
 6 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
 7 | File | `/uncpath/` | Medium
 8 | File | `2020\Messages\SDNotify.exe` | High
-9 | ... | ... | ...
+9 | File | `admin/admin_disallow.php` | High
+10 | ... | ... | ...
 
-There are 69 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 70 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the campaign and the associated activities:
 
+* https://threatfox.abuse.ch
 * https://unit42.paloaltonetworks.com/unit42-tropic-trooper-targets-taiwanese-government-and-fossil-fuel-provider-with-poison-ivy/
 * https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/rpt-poison-ivy.pdf
 * https://www.threatminer.org/report.php?q=PoisonIvyGroupandtheCyberespionageCampaignAgainstChineseMilitaryandGoverment-360CoreSecurity.pdf&y=2018

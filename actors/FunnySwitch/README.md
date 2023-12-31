@@ -53,14 +53,14 @@ ID | Type | Indicator | Confidence
 4 | File | `/lists/admin/` | High
 5 | File | `/public/login.htm` | High
 6 | File | `/wp-admin/admin-ajax.php` | High
-7 | File | `/_next` | Low
-8 | File | `addentry.php` | Medium
-9 | File | `admin/conf_users_edit.php` | High
-10 | File | `admin/write-post.php` | High
-11 | File | `archiver\index.php` | High
+7 | File | `/w_selfservice/oauthservlet/%2e./.%2e/general/inform/org/loadhistroyorgtree` | High
+8 | File | `/_next` | Low
+9 | File | `addentry.php` | Medium
+10 | File | `admin/conf_users_edit.php` | High
+11 | File | `admin/write-post.php` | High
 12 | ... | ... | ...
 
-There are 94 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 97 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

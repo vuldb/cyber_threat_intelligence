@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 2 more country items available. Please use our online service to access the data.
+There are 3 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -21,12 +21,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [5.161.104.72](https://vuldb.com/?ip.5.161.104.72) | h91.wpherc.dev | - | High
-2 | [47.242.51.181](https://vuldb.com/?ip.47.242.51.181) | - | - | High
-3 | [72.104.161.5](https://vuldb.com/?ip.72.104.161.5) | 5.sub-72-104-161.myvzw.com | - | High
+1 | [2.58.113.190](https://vuldb.com/?ip.2.58.113.190) | tube-hosting.com | - | High
+2 | [5.161.104.72](https://vuldb.com/?ip.5.161.104.72) | h91.wpherc.dev | - | High
+3 | [18.142.254.96](https://vuldb.com/?ip.18.142.254.96) | ec2-18-142-254-96.ap-southeast-1.compute.amazonaws.com | - | Medium
 4 | ... | ... | ... | ...
 
-There are 4 more IOC items available. Please use our online service to access the data.
+There are 8 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -48,32 +48,37 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/administrator/components/table_manager/` | High
-2 | File | `/Content/Template/root/reverse-shell.aspx` | High
-3 | File | `/school/model/get_events.php` | High
-4 | File | `/sessions/sess_<sessionid>` | High
-5 | File | `/tmp` | Low
-6 | File | `/xxl-job-admin/jobinfo` | High
-7 | File | `admin.php` | Medium
-8 | File | `admin/moduleinterface.php` | High
-9 | File | `ajax_calls.php` | High
-10 | File | `app/sections/user-menu.php` | High
-11 | File | `arch/x86/kvm/emulate.c` | High
-12 | File | `assets/edit/ip-address.php` | High
-13 | ... | ... | ...
+1 | File | `/+CSCOE+/logon.html` | High
+2 | File | `/administrator/components/table_manager/` | High
+3 | File | `/Content/Template/root/reverse-shell.aspx` | High
+4 | File | `/school/model/get_events.php` | High
+5 | File | `/sessions/sess_<sessionid>` | High
+6 | File | `/tmp` | Low
+7 | File | `/whbs/?page=manage_account` | High
+8 | File | `/xxl-job-admin/jobinfo` | High
+9 | File | `admin.php` | Medium
+10 | File | `admin/moduleinterface.php` | High
+11 | File | `ajax_calls.php` | High
+12 | File | `app/sections/user-menu.php` | High
+13 | File | `arch/x86/kvm/emulate.c` | High
+14 | File | `assets/edit/ip-address.php` | High
+15 | ... | ... | ...
 
-There are 101 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 116 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://search.censys.io/hosts/5.161.104.72
+* https://search.censys.io/hosts/34.121.161.18
 * https://search.censys.io/hosts/47.242.51.181
+* https://search.censys.io/hosts/66.42.93.127
 * https://search.censys.io/hosts/77.68.91.91
 * https://search.censys.io/hosts/161.97.151.220
 * https://search.censys.io/hosts/207.180.220.55
 * https://search.censys.io/search?resource=hosts&sort=RELEVANCE&per_page=25&virtual_hosts=INCLUDE&q=name%3A+static.72.104.161.5.clients.your-server.de&ref=threatfox
+* https://threatfox.abuse.ch
 * https://www.zscaler.com/blogs/security-research/ares-banking-trojan-learns-old-tricks-adds-defunct-qakbot-dga
 
 ## Literature

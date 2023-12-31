@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 20 more country items available. Please use our online service to access the data.
+There are 21 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -58,7 +58,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -66,57 +66,53 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `//WEB-INF` | Medium
-2 | File | `/about.php` | Medium
-3 | File | `/admin.php/update/getFile.html` | High
-4 | File | `/admin/save.php` | High
-5 | File | `/admin/sys_sql_query.php` | High
-6 | File | `/api/baskets/{name}` | High
-7 | File | `/api/download` | High
-8 | File | `/api/v1/alerts` | High
-9 | File | `/api/v1/terminal/sessions/?limit=1` | High
-10 | File | `/bitrix/admin/ldap_server_edit.php` | High
-11 | File | `/category.php` | High
-12 | File | `/categorypage.php` | High
-13 | File | `/cgi-bin/luci/api/wireless` | High
-14 | File | `/cgi-bin/vitogate.cgi` | High
-15 | File | `/cgi-bin/wlogin.cgi` | High
-16 | File | `/company/store` | High
-17 | File | `/Content/Template/root/reverse-shell.aspx` | High
-18 | File | `/Controller/Ajaxfileupload.ashx` | High
-19 | File | `/core/conditions/AbstractWrapper.java` | High
-20 | File | `/debug/pprof` | Medium
-21 | File | `/Duty/AjaxHandle/UploadFloodPlanFileUpdate.ashx` | High
-22 | File | `/etc/passwd` | Medium
-23 | File | `/fcgi/scrut_fcgi.fcgi` | High
-24 | File | `/feeds/post/publish` | High
-25 | File | `/forum/away.php` | High
-26 | File | `/geoserver/gwc/rest.html` | High
-27 | File | `/h/` | Low
-28 | File | `/HNAP1` | Low
-29 | File | `/inc/jquery/uploadify/uploadify.php` | High
-30 | File | `/index.php?app=main&func=passport&action=login` | High
-31 | File | `/index.php?page=category_list` | High
-32 | File | `/jeecg-boot/sys/common/upload` | High
-33 | File | `/jobinfo/` | Medium
-34 | File | `/load.php` | Medium
-35 | File | `/Moosikay/order.php` | High
-36 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
-37 | File | `/opac/Actions.php?a=login` | High
-38 | File | `/PreviewHandler.ashx` | High
-39 | File | `/proxy` | Low
-40 | File | `/recipe-result` | High
-41 | File | `/register.do` | Medium
-42 | File | `/reservation/add_message.php` | High
-43 | File | `/RPS2019Service/status.html` | High
-44 | File | `/Service/ImageStationDataService.asmx` | High
-45 | File | `/setting` | Medium
-46 | File | `/sicweb-ajax/tmproot/` | High
-47 | File | `/spip.php` | Medium
-48 | File | `/src/chatbotapp/chatWindow.java` | High
-49 | ... | ... | ...
+1 | File | `%SYSTEMDRIVE%\node_modules\.bin\wmic.exe` | High
+2 | File | `/admin/save.php` | High
+3 | File | `/admin/sys_sql_query.php` | High
+4 | File | `/api/baskets/{name}` | High
+5 | File | `/api/download` | High
+6 | File | `/api/v1/alerts` | High
+7 | File | `/api/v1/terminal/sessions/?limit=1` | High
+8 | File | `/bitrix/admin/ldap_server_edit.php` | High
+9 | File | `/catalog/admin/categories.php?cPath=&action=new_product` | High
+10 | File | `/category.php` | High
+11 | File | `/categorypage.php` | High
+12 | File | `/cgi-bin/luci/api/wireless` | High
+13 | File | `/cgi-bin/vitogate.cgi` | High
+14 | File | `/cgi-bin/wlogin.cgi` | High
+15 | File | `/company/store` | High
+16 | File | `/Content/Template/root/reverse-shell.aspx` | High
+17 | File | `/Controller/Ajaxfileupload.ashx` | High
+18 | File | `/core/conditions/AbstractWrapper.java` | High
+19 | File | `/debug/pprof` | Medium
+20 | File | `/Duty/AjaxHandle/UploadFloodPlanFileUpdate.ashx` | High
+21 | File | `/etc/passwd` | Medium
+22 | File | `/fcgi/scrut_fcgi.fcgi` | High
+23 | File | `/forum/away.php` | High
+24 | File | `/geoserver/gwc/rest.html` | High
+25 | File | `/goform/formSysCmd` | High
+26 | File | `/h/` | Low
+27 | File | `/HNAP1` | Low
+28 | File | `/index.php?app=main&func=passport&action=login` | High
+29 | File | `/index.php?page=category_list` | High
+30 | File | `/jeecg-boot/sys/common/upload` | High
+31 | File | `/jobinfo/` | Medium
+32 | File | `/load.php` | Medium
+33 | File | `/oauth/idp/.well-known/openid-configuration` | High
+34 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
+35 | File | `/PreviewHandler.ashx` | High
+36 | File | `/proxy` | Low
+37 | File | `/recipe-result` | High
+38 | File | `/register.do` | Medium
+39 | File | `/RPS2019Service/status.html` | High
+40 | File | `/Service/ImageStationDataService.asmx` | High
+41 | File | `/setting` | Medium
+42 | File | `/sicweb-ajax/tmproot/` | High
+43 | File | `/spip.php` | Medium
+44 | File | `/src/chatbotapp/chatWindow.java` | High
+45 | ... | ... | ...
 
-There are 427 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 393 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

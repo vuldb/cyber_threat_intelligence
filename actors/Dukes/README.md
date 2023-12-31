@@ -39,7 +39,8 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
-4 | ... | ... | ... | ...
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
 There are 14 more TTP items available. Please use our online service to access the data.
 
@@ -53,15 +54,16 @@ ID | Type | Indicator | Confidence
 2 | File | `/cdsms/classes/Master.php?f=delete_package` | High
 3 | File | `/debug/pprof` | Medium
 4 | File | `/forum/away.php` | High
-5 | File | `/modules/profile/index.php` | High
-6 | File | `/onvif/device_service` | High
-7 | File | `/pro/repo-create.html` | High
-8 | File | `/proc/self/environ` | High
-9 | File | `/rest/project-templates/1.0/createshared` | High
-10 | File | `/server-status` | High
-11 | ... | ... | ...
+5 | File | `/hrm/employeeadd.php` | High
+6 | File | `/modules/profile/index.php` | High
+7 | File | `/onvif/device_service` | High
+8 | File | `/pro/repo-create.html` | High
+9 | File | `/proc/self/environ` | High
+10 | File | `/rest/project-templates/1.0/createshared` | High
+11 | File | `/server-status` | High
+12 | ... | ... | ...
 
-There are 85 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 94 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

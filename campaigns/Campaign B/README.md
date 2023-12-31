@@ -82,18 +82,18 @@ ID | Type | Indicator | Confidence
 16 | File | `/filemanager/upload.php` | High
 17 | File | `/forum/away.php` | High
 18 | File | `/home/cavesConsole` | High
-19 | File | `/importexport.php` | High
-20 | File | `/include/chart_generator.php` | High
-21 | File | `/items/search` | High
-22 | File | `/login` | Low
-23 | File | `/mgmt/tm/util/bash` | High
-24 | File | `/owa/auth/logon.aspx` | High
-25 | File | `/param.file.tgz` | High
-26 | File | `/product.php` | Medium
-27 | File | `/see_more_details.php` | High
+19 | File | `/home/masterConsole` | High
+20 | File | `/home/playerOperate` | High
+21 | File | `/importexport.php` | High
+22 | File | `/include/chart_generator.php` | High
+23 | File | `/items/search` | High
+24 | File | `/mgmt/tm/util/bash` | High
+25 | File | `/owa/auth/logon.aspx` | High
+26 | File | `/param.file.tgz` | High
+27 | File | `/product.php` | Medium
 28 | ... | ... | ...
 
-There are 234 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 235 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

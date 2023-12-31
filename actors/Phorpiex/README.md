@@ -60,7 +60,7 @@ ID | IP address | Hostname | Campaign | Confidence
 31 | [66.218.85.151](https://vuldb.com/?ip.66.218.85.151) | unknown.yahoo.com | - | High
 32 | ... | ... | ... | ...
 
-There are 122 more IOC items available. Please use our online service to access the data.
+There are 123 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -83,19 +83,19 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/add-category.php` | High
 2 | File | `/admin/read.php?mudi=getSignal` | High
-3 | File | `/cgi-bin/wlogin.cgi` | High
-4 | File | `/cloud_config/router_post/get_reset_pwd_veirfy_code` | High
-5 | File | `/etc/tomcat8/Catalina/attack` | High
-6 | File | `/index.php` | Medium
-7 | File | `/libraries` | Medium
-8 | File | `/proc/pid/attr` | High
-9 | File | `/RestAPI` | Medium
-10 | File | `/service/upload` | High
-11 | File | `/wp-admin/admin-ajax.php` | High
-12 | File | `adclick.php` | Medium
+3 | File | `/cgi-bin/system_mgr.cgi` | High
+4 | File | `/cgi-bin/wlogin.cgi` | High
+5 | File | `/cloud_config/router_post/get_reset_pwd_veirfy_code` | High
+6 | File | `/etc/tomcat8/Catalina/attack` | High
+7 | File | `/index.php` | Medium
+8 | File | `/libraries` | Medium
+9 | File | `/proc/pid/attr` | High
+10 | File | `/RestAPI` | Medium
+11 | File | `/service/upload` | High
+12 | File | `/wp-admin/admin-ajax.php` | High
 13 | ... | ... | ...
 
-There are 104 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 105 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -116,6 +116,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://research.checkpoint.com/2019/in-the-footsteps-of-a-sextortion-campaign/
 * https://research.checkpoint.com/2019/phorpiex-breakdown/
 * https://research.checkpoint.com/2021/phorpiex-botnet-is-back-with-a-new-twizt-hijacking-hundreds-of-crypto-transactions/
+* https://threatfox.abuse.ch
 
 ## Literature
 

@@ -54,9 +54,10 @@ ID | Type | Indicator | Confidence
 5 | File | `/debug/pprof` | Medium
 6 | File | `/editbrand.php` | High
 7 | File | `/etc/raspap/hostapd/enablelog.sh` | High
-8 | ... | ... | ...
+8 | File | `/infusions/shoutbox_panel/shoutbox_admin.php` | High
+9 | ... | ... | ...
 
-There are 59 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 65 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

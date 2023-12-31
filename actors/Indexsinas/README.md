@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Indexsinas:
 
 * [VN](https://vuldb.com/?country.vn)
-* [NZ](https://vuldb.com/?country.nz)
 * [US](https://vuldb.com/?country.us)
+* [NZ](https://vuldb.com/?country.nz)
 * ...
 
-There are 5 more country items available. Please use our online service to access the data.
+There are 3 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -287,13 +287,15 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-29, CWE-37 | Pathname Traversal | High
+1 | T1006 | CWE-22, CWE-23, CWE-24, CWE-37, CWE-425 | Pathname Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+7 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -301,44 +303,46 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `$HOME/.terminfo` | High
-2 | File | `/academy/tutor/filter` | High
-3 | File | `/admin/add-category.php` | High
-4 | File | `/admin/admin-profile.php` | High
-5 | File | `/admin/sales/view_details.php` | High
-6 | File | `/api/cron/settings/setJob/` | High
-7 | File | `/api/v1/snapshots` | High
-8 | File | `/aqpg/users/login.php` | High
-9 | File | `/audit/log/log_management.php` | High
-10 | File | `/authenticationendpoint/login.do` | High
-11 | File | `/authUserAction!edit.action` | High
-12 | File | `/billing/home.php` | High
-13 | File | `/cgi-bin/mainfunction.cgi` | High
-14 | File | `/cgi-bin/upload_vpntar` | High
-15 | File | `/cgi-bin/wlogin.cgi` | High
-16 | File | `/dottie.js` | Medium
-17 | File | `/env` | Low
-18 | File | `/forum/away.php` | High
-19 | File | `/home/cavesConsole` | High
-20 | File | `/hrm/controller/employee.php` | High
-21 | File | `/hrm/employeeview.php` | High
-22 | File | `/importexport.php` | High
-23 | File | `/index.php` | Medium
-24 | File | `/index.php?p=admin/actions/users/send-password-reset-email` | High
-25 | File | `/items/search` | High
-26 | File | `/log/webmailattach.php` | High
-27 | File | `/m4pdf/pdf.php` | High
-28 | File | `/mc` | Low
-29 | File | `/mgmt/` | Low
-30 | File | `/modules/projects/vw_files.php` | High
-31 | File | `/preview.php` | Medium
-32 | File | `/project/tasks/list` | High
-33 | File | `/public/login.htm` | High
-34 | File | `/recreate.php` | High
-35 | File | `/roomtype-details.php` | High
-36 | ... | ... | ...
+1 | File | `/accounts/password_change/` | High
+2 | File | `/admin/ajax.php` | High
+3 | File | `/admin/ajax.php?action=confirm_order` | High
+4 | File | `/admin/category/save` | High
+5 | File | `/admin/manage-pages.php` | High
+6 | File | `/admin/manage-users.php` | High
+7 | File | `/admin/options-theme.php` | High
+8 | File | `/admin/subject.php` | High
+9 | File | `/adms/admin/?page=user/manage_user` | High
+10 | File | `/api/baskets/{name}` | High
+11 | File | `/application/down.php` | High
+12 | File | `/auth/auth.php?user=1` | High
+13 | File | `/authenticationendpoint/login.do` | High
+14 | File | `/b2b-supermarket/catalog/all-products` | High
+15 | File | `/b2b-supermarket/shopping-cart` | High
+16 | File | `/bin/login` | Medium
+17 | File | `/bsms_ci/index.php` | High
+18 | File | `/calendar/minimizer/index.php` | High
+19 | File | `/catalog/compare` | High
+20 | File | `/cgi-bin/cstecgi.cgi` | High
+21 | File | `/cgi-bin/downloadFile.cgi` | High
+22 | File | `/cgi-bin/wlogin.cgi` | High
+23 | File | `/classes/Master.php` | High
+24 | File | `/classes/Master.php?f=delete_reminder` | High
+25 | File | `/classes/Master.php?f=save_category` | High
+26 | File | `/classes/Master.php?f=save_inquiry` | High
+27 | File | `/classes/Master.php?f=save_item` | High
+28 | File | `/classes/Master.php?f=save_reminder` | High
+29 | File | `/DesignTools/CssEditor.aspx` | High
+30 | File | `/DXR.axd` | Medium
+31 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+32 | File | `/forum/away.php` | High
+33 | File | `/geoserver/gwc/rest.html` | High
+34 | File | `/goform/goform_get_cmd_process` | High
+35 | File | `/HNAP1/` | Low
+36 | File | `/importexport.php` | High
+37 | File | `/index.php/client/message/message_read/xxxxxxxx[random-msg-hash]` | High
+38 | ... | ... | ...
 
-There are 308 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 331 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

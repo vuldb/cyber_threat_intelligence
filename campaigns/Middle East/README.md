@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 16 more country items available. Please use our online service to access the data.
+There are 17 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -64,14 +64,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-25, CWE-29, CWE-36, CWE-425 | Pathname Traversal | High
+1 | T1006 | CWE-22, CWE-23, CWE-24, CWE-29, CWE-36 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-250, CWE-264, CWE-266, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+5 | T1068 | CWE-264, CWE-266, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -85,44 +85,45 @@ ID | Type | Indicator | Confidence
 4 | File | `/admin/add_user_modal.php` | High
 5 | File | `/admin/admin_content_tag.php?action=save_content` | High
 6 | File | `/admin/article/article-edit-run.php` | High
-7 | File | `/admin/categories/view_category.php` | High
-8 | File | `/admin/maintenance/view_designation.php` | High
+7 | File | `/admin/category/save` | High
+8 | File | `/admin/ind_backstage.php` | High
 9 | File | `/admin/project/update/2` | High
-10 | File | `/admin/report/index.php` | High
-11 | File | `/api/baskets/{name}` | High
-12 | File | `/api/gen/clients/{language}` | High
-13 | File | `/bin/login` | Medium
-14 | File | `/bin/mini_upnpd` | High
-15 | File | `/blog` | Low
-16 | File | `/category.php` | High
-17 | File | `/cgi-bin/wlogin.cgi` | High
-18 | File | `/classes/Master.php?f=delete_reminder` | High
-19 | File | `/file/upload/1` | High
-20 | File | `/forum/away.php` | High
-21 | File | `/ghost/preview` | High
-22 | File | `/goform/set_LimitClient_cfg` | High
-23 | File | `/h/autoSaveDraft` | High
-24 | File | `/h/search?action` | High
-25 | File | `/hss/admin/?page=products/view_product` | High
-26 | File | `/im/user/` | Medium
-27 | File | `/importexport.php` | High
-28 | File | `/index.php` | Medium
-29 | File | `/index.php?app=main&func=passport&action=login` | High
-30 | File | `/index.php?page=member` | High
-31 | File | `/load.php` | Medium
-32 | File | `/mgmt/` | Low
-33 | File | `/oauth/idp/.well-known/openid-configuration` | High
-34 | File | `/owa/auth/logon.aspx` | High
-35 | File | `/preview.php` | Medium
-36 | File | `/requests.php` | High
-37 | File | `/robot/initialize` | High
-38 | File | `/search.php` | Medium
-39 | File | `/secure/ViewCollectors` | High
-40 | File | `/server-status` | High
-41 | File | `/spip.php` | Medium
-42 | ... | ... | ...
+10 | File | `/admin/subject.php` | High
+11 | File | `/admin/upload/img` | High
+12 | File | `/api/baskets/{name}` | High
+13 | File | `/auth/auth.php?user=1` | High
+14 | File | `/b2b-supermarket/catalog/all-products` | High
+15 | File | `/bin/login` | Medium
+16 | File | `/bin/mini_upnpd` | High
+17 | File | `/blog` | Low
+18 | File | `/boaform/wlan_basic_set.cgi` | High
+19 | File | `/category.php` | High
+20 | File | `/classes/Master.php?f=delete_reminder` | High
+21 | File | `/DXR.axd` | Medium
+22 | File | `/forum/away.php` | High
+23 | File | `/ghost/preview` | High
+24 | File | `/goform/goform_get_cmd_process` | High
+25 | File | `/goform/set_LimitClient_cfg` | High
+26 | File | `/h/autoSaveDraft` | High
+27 | File | `/h/search?action` | High
+28 | File | `/HNAP1/` | Low
+29 | File | `/hss/admin/?page=products/view_product` | High
+30 | File | `/im/user/` | Medium
+31 | File | `/importexport.php` | High
+32 | File | `/index.php` | Medium
+33 | File | `/index.php?app=main&func=passport&action=login` | High
+34 | File | `/index.php?page=member` | High
+35 | File | `/load.php` | Medium
+36 | File | `/main/checkout.php` | High
+37 | File | `/main/webservices/additional_webservices.php` | High
+38 | File | `/mc` | Low
+39 | File | `/mgmt/` | Low
+40 | File | `/oauth/idp/.well-known/openid-configuration` | High
+41 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+42 | File | `/owa/auth/logon.aspx` | High
+43 | ... | ... | ...
 
-There are 363 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 367 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -13,7 +13,7 @@ The following _campaigns_ are known and can be associated with MuddyWater:
 * Log4j
 * ...
 
-There are 3 more campaign items available. Please use our online service to access the data.
+There are 4 more campaign items available. Please use our online service to access the data.
 
 ## Countries
 
@@ -21,10 +21,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [JP](https://vuldb.com/?country.jp)
-* [ES](https://vuldb.com/?country.es)
+* [NL](https://vuldb.com/?country.nl)
 * ...
 
-There are 23 more country items available. Please use our online service to access the data.
+There are 24 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -37,25 +37,29 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [5.199.133.149](https://vuldb.com/?ip.5.199.133.149) | ve958.venus.servdiscount-customer.com | - | High
 4 | [7.236.212.22](https://vuldb.com/?ip.7.236.212.22) | - | - | High
 5 | [31.171.154.67](https://vuldb.com/?ip.31.171.154.67) | - | Seedworm | High
-6 | [38.132.99.167](https://vuldb.com/?ip.38.132.99.167) | - | BlackWater | High
-7 | [45.86.230.20](https://vuldb.com/?ip.45.86.230.20) | mta0.officeportal-centers.gq | PhonyC2 | High
-8 | [45.132.75.101](https://vuldb.com/?ip.45.132.75.101) | edc1.6nc051221c.co | - | High
-9 | [45.142.212.61](https://vuldb.com/?ip.45.142.212.61) | vm218389.pq.hosting | - | High
-10 | [45.142.213.17](https://vuldb.com/?ip.45.142.213.17) | vm218393.pq.hosting | - | High
-11 | [45.153.231.104](https://vuldb.com/?ip.45.153.231.104) | vm218397.pq.hosting | - | High
-12 | [45.159.248.244](https://vuldb.com/?ip.45.159.248.244) | vm1355757.stark-industries.solutions | PhonyC2 | High
-13 | [46.99.148.96](https://vuldb.com/?ip.46.99.148.96) | - | Seedworm | High
-14 | [46.166.129.159](https://vuldb.com/?ip.46.166.129.159) | gcn.warrirge.com | - | High
-15 | [46.249.35.243](https://vuldb.com/?ip.46.249.35.243) | uhteronia.xyz | PhonyC2 | High
-16 | [51.77.97.65](https://vuldb.com/?ip.51.77.97.65) | ip65.ip-51-77-97.eu | - | High
-17 | [51.255.19.178](https://vuldb.com/?ip.51.255.19.178) | pru2.6nc110821hdb.co | - | High
-18 | [65.21.183.238](https://vuldb.com/?ip.65.21.183.238) | static.238.183.21.65.clients.your-server.de | PhonyC2 | High
-19 | [66.219.22.235](https://vuldb.com/?ip.66.219.22.235) | core96.hostingmadeeasy.com | - | High
-20 | [78.129.139.131](https://vuldb.com/?ip.78.129.139.131) | - | - | High
-21 | [78.129.139.134](https://vuldb.com/?ip.78.129.139.134) | der134.creditloanlenders.com | - | High
-22 | ... | ... | ... | ...
+6 | [37.120.237.204](https://vuldb.com/?ip.37.120.237.204) | - | - | High
+7 | [37.120.237.248](https://vuldb.com/?ip.37.120.237.248) | - | - | High
+8 | [38.132.99.167](https://vuldb.com/?ip.38.132.99.167) | - | BlackWater | High
+9 | [45.67.230.91](https://vuldb.com/?ip.45.67.230.91) | vm1552984.stark-industries.solutions | - | High
+10 | [45.86.230.20](https://vuldb.com/?ip.45.86.230.20) | mta0.officeportal-centers.gq | PhonyC2 | High
+11 | [45.132.75.101](https://vuldb.com/?ip.45.132.75.101) | edc1.6nc051221c.co | - | High
+12 | [45.142.212.61](https://vuldb.com/?ip.45.142.212.61) | vm218389.pq.hosting | - | High
+13 | [45.142.213.17](https://vuldb.com/?ip.45.142.213.17) | vm218393.pq.hosting | - | High
+14 | [45.150.64.23](https://vuldb.com/?ip.45.150.64.23) | vm1804325.stark-industries.solutions | - | High
+15 | [45.150.64.39](https://vuldb.com/?ip.45.150.64.39) | vm1518947.stark-industries.solutions | - | High
+16 | [45.150.64.239](https://vuldb.com/?ip.45.150.64.239) | vm1715150.stark-industries.solutions | - | High
+17 | [45.153.231.104](https://vuldb.com/?ip.45.153.231.104) | vm218397.pq.hosting | - | High
+18 | [45.159.248.244](https://vuldb.com/?ip.45.159.248.244) | vm1355757.stark-industries.solutions | PhonyC2 | High
+19 | [46.99.148.96](https://vuldb.com/?ip.46.99.148.96) | - | Seedworm | High
+20 | [46.166.129.159](https://vuldb.com/?ip.46.166.129.159) | gcn.warrirge.com | - | High
+21 | [46.249.35.243](https://vuldb.com/?ip.46.249.35.243) | uhteronia.xyz | PhonyC2 | High
+22 | [51.77.97.65](https://vuldb.com/?ip.51.77.97.65) | ip65.ip-51-77-97.eu | - | High
+23 | [51.255.19.178](https://vuldb.com/?ip.51.255.19.178) | pru2.6nc110821hdb.co | - | High
+24 | [65.21.183.238](https://vuldb.com/?ip.65.21.183.238) | static.238.183.21.65.clients.your-server.de | PhonyC2 | High
+25 | [66.219.22.235](https://vuldb.com/?ip.66.219.22.235) | core96.hostingmadeeasy.com | - | High
+26 | ... | ... | ... | ...
 
-There are 84 more IOC items available. Please use our online service to access the data.
+There are 100 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -63,14 +67,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23, CWE-24, CWE-36, CWE-425 | Pathname Traversal | High
+1 | T1006 | CWE-22, CWE-23, CWE-24, CWE-425 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -78,65 +82,62 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/academy/home/courses` | High
-2 | File | `/academy/tutor/filter` | High
-3 | File | `/ad-list` | Medium
-4 | File | `/admin/?page=bike` | High
-5 | File | `/admin/?page=user` | High
-6 | File | `/admin/?page=user/list` | High
-7 | File | `/admin/?page=user/manage_user&id=3` | High
-8 | File | `/admin/add-category.php` | High
-9 | File | `/admin/add-services.php` | High
-10 | File | `/admin/article/article-edit-run.php` | High
-11 | File | `/admin/cms_admin.php` | High
-12 | File | `/admin/cms_content.php` | High
-13 | File | `/admin/config/uploadicon.php` | High
-14 | File | `/admin/edit-accepted-appointment.php` | High
-15 | File | `/admin/edit_category.php` | High
-16 | File | `/admin/files` | Medium
-17 | File | `/admin/forgot-password.php` | High
-18 | File | `/admin/inquiries/view_inquiry.php` | High
-19 | File | `/admin/invoice.php` | High
-20 | File | `/admin/leancloud.php` | High
-21 | File | `/admin/list_addr_fwresource_ip.php` | High
-22 | File | `/admin/login.php` | High
-23 | File | `/admin/order.php` | High
-24 | File | `/admin/plugin.php` | High
-25 | File | `/admin/save.php` | High
-26 | File | `/admin/search-appointment.php` | High
-27 | File | `/admin/services/manage_service.php` | High
-28 | File | `/api/` | Low
-29 | File | `/api/download` | High
-30 | File | `/api/download/updateFile` | High
-31 | File | `/api/es/admin/v3/security/user/1` | High
-32 | File | `/api/installation/setThumbnailRc` | High
-33 | File | `/api/sys/login` | High
-34 | File | `/api/sys/set_passwd` | High
-35 | File | `/api/thumbnail` | High
-36 | File | `/app/sys1.php` | High
-37 | File | `/blog-single.php` | High
-38 | File | `/book-services.php` | High
-39 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-40 | File | `/cgi-bin/vitogate.cgi` | High
-41 | File | `/classes/master.php?f=delete_order` | High
-42 | File | `/classes/Master.php?f=delete_sub_category` | High
-43 | File | `/classes/Master.php?f=save_brand` | High
-44 | File | `/classes/Master.php?f=save_category` | High
-45 | File | `/classes/Master.php?f=save_service` | High
-46 | File | `/classes/Master.php?f=update_order_status` | High
-47 | File | `/collection/all` | High
-48 | File | `/conf/` | Low
-49 | File | `/config-manager/save` | High
-50 | File | `/config/php.ini` | High
-51 | File | `/content/templates/` | High
-52 | File | `/course/filterRecords/` | High
-53 | File | `/ecommerce/admin/settings/setDiscount.php` | High
-54 | File | `/fusion/portal/action/Link` | High
-55 | File | `/goform/Diagnosis` | High
-56 | File | `/goform/fast_setting_wifi_set` | High
-57 | ... | ... | ...
+1 | File | `/academy/tutor/filter` | High
+2 | File | `/admin/?page=bike` | High
+3 | File | `/admin/?page=user` | High
+4 | File | `/admin/article/article-edit-run.php` | High
+5 | File | `/admin/cms_admin.php` | High
+6 | File | `/admin/cms_content.php` | High
+7 | File | `/admin/config/uploadicon.php` | High
+8 | File | `/admin/courses/manage_course.php` | High
+9 | File | `/admin/courses/view_course.php` | High
+10 | File | `/admin/departments/manage_department.php` | High
+11 | File | `/admin/index.php` | High
+12 | File | `/admin/inquiries/view_inquiry.php` | High
+13 | File | `/admin/leancloud.php` | High
+14 | File | `/admin/list_addr_fwresource_ip.php` | High
+15 | File | `/admin/list_onlineuser.php` | High
+16 | File | `/admin/login.php` | High
+17 | File | `/admin/order.php` | High
+18 | File | `/admin/plugin.php` | High
+19 | File | `/admin/save.php` | High
+20 | File | `/admin/services/manage_service.php` | High
+21 | File | `/admin/students/manage_academic.php` | High
+22 | File | `/admin/theme-edit.php` | High
+23 | File | `/ample/app/ajax/member_data.php` | High
+24 | File | `/api/` | Low
+25 | File | `/api/authentication/login` | High
+26 | File | `/api/download` | High
+27 | File | `/api/download/updateFile` | High
+28 | File | `/api/es/admin/v3/security/user/1` | High
+29 | File | `/api/installation/setThumbnailRc` | High
+30 | File | `/api/sys/login` | High
+31 | File | `/api/thumbnail` | High
+32 | File | `/app/sys1.php` | High
+33 | File | `/book-services.php` | High
+34 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+35 | File | `/cgi-bin/vitogate.cgi` | High
+36 | File | `/classes/master.php?f=delete_order` | High
+37 | File | `/classes/Master.php?f=delete_sub_category` | High
+38 | File | `/classes/Master.php?f=save_brand` | High
+39 | File | `/classes/Master.php?f=save_category` | High
+40 | File | `/classes/Master.php?f=save_service` | High
+41 | File | `/classes/Master.php?f=update_order_status` | High
+42 | File | `/collection/all` | High
+43 | File | `/config-manager/save` | High
+44 | File | `/config/php.ini` | High
+45 | File | `/Content/Plugins/uploader/FileChoose.html?fileUrl=/Upload/File/Pics/&parent` | High
+46 | File | `/content/templates/` | High
+47 | File | `/course/filterRecords/` | High
+48 | File | `/dashboard/createblog` | High
+49 | File | `/ecommerce/admin/settings/setDiscount.php` | High
+50 | File | `/endpoint/add-user.php` | High
+51 | File | `/etc/hosts.deny` | High
+52 | File | `/fusion/portal/action/Link` | High
+53 | File | `/goform/Diagnosis` | High
+54 | ... | ... | ...
 
-There are 494 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 470 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -146,6 +147,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/2022/01/iranian-apt-muddywater-targets-turkey.html
 * https://blog.talosintelligence.com/2022/03/iranian-supergroup-muddywater.html
 * https://github.com/blackorbird/APT_REPORT/blob/master/muddywater/wp_new_muddywater_findings_uncovered.pdf
+* https://github.com/deepinstinct/Israel-Cyber-Warfare-Threat-Actors/blob/main/IOCs-MuddyC2GO.csv
 * https://reaqta.com/2017/11/muddywater-apt-targeting-middle-east/
 * https://securelist.com/muddywater/88059/
 * https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/seedworm-espionage-group
@@ -153,6 +155,8 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://unit42.paloaltonetworks.com/unit42-muddying-the-water-targeted-attacks-in-the-middle-east/
 * https://www.cisa.gov/uscert/ncas/alerts/aa22-055a
 * https://www.clearskysec.com/wp-content/uploads/2019/06/Clearsky-Iranian-APT-group-%E2%80%98MuddyWater%E2%80%99-Adds-Exploits-to-Their-Arsenal.pdf
+* https://www.deepinstinct.com/blog/muddyc2go-latest-c2-framework-used-by-iranian-apt-muddywater-spotted-in-israel
+* https://www.deepinstinct.com/blog/muddywater-en-able-spear-phishing-with-new-ttps
 * https://www.deepinstinct.com/blog/phonyc2-revealing-a-new-malicious-command-control-framework-by-muddywater
 * https://www.mandiant.com/resources/telegram-malware-iranian-espionage
 * https://www.microsoft.com/security/blog/2022/08/25/mercury-leveraging-log4j-2-vulnerabilities-in-unpatched-systems-to-target-israeli-organizations/

@@ -15,8 +15,8 @@ The following _campaigns_ are known and can be associated with Cloud Atlas:
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Cloud Atlas:
 
 * [PT](https://vuldb.com/?country.pt)
-* [FR](https://vuldb.com/?country.fr)
 * [AR](https://vuldb.com/?country.ar)
+* [FR](https://vuldb.com/?country.fr)
 * ...
 
 There are 6 more country items available. Please use our online service to access the data.
@@ -60,49 +60,52 @@ ID | Type | Indicator | Confidence
 3 | File | `/admin/?page=bike` | High
 4 | File | `/admin/?page=user/manage_user` | High
 5 | File | `/admin/cms_content.php` | High
-6 | File | `/admin/edit-services.php` | High
-7 | File | `/admin/edit_product.php` | High
-8 | File | `/admin/index.php` | High
-9 | File | `/admin/orders/update_status.php` | High
-10 | File | `/admin/pages/sections_save.php` | High
-11 | File | `/admin/positions_row.php` | High
-12 | File | `/admin/settings/fields` | High
-13 | File | `/admin/userprofile.php` | High
-14 | File | `/ajax.php?action=save_company` | High
-15 | File | `/api/es/admin/v3/security/user/1` | High
-16 | File | `/api/v1/chat.getThreadsList` | High
-17 | File | `/api/v2/cli/commands` | High
-18 | File | `/api/v2/open/rowsInfo` | High
-19 | File | `/api/v3/flows/instances/default-user-settings-flow/execute/` | High
-20 | File | `/api/wechat/app_auth` | High
-21 | File | `/asms/admin/?page=user/manage_user` | High
-22 | File | `/blog/comment` | High
-23 | File | `/classes/Login.php` | High
-24 | File | `/course/filterRecords/` | High
-25 | File | `/dosen/data` | Medium
-26 | File | `/E-mobile/App/System/File/downfile.php` | High
-27 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-28 | File | `/env` | Low
-29 | File | `/etc/master.passwd` | High
-30 | File | `/etc/os-release` | High
-31 | File | `/file_manager/admin/save_user.php` | High
-32 | File | `/front/search.php` | High
-33 | File | `/garage/php_action/createBrand.php` | High
-34 | File | `/goform/addressNat` | High
-35 | File | `/goform/AdvSetWrlsafeset` | High
-36 | File | `/goform/editFileName` | High
-37 | File | `/goform/form2WizardStep54` | High
-38 | File | `/goform/setSysAdm` | High
-39 | File | `/goform/webExcptypemanFilter` | High
-40 | File | `/goform/WifiBasicSet` | High
-41 | File | `/goform/WifiMacFilterGet` | High
-42 | File | `/hss/admin/categories/view_category.php` | High
-43 | File | `/index.php` | Medium
-44 | File | `/jurusanmatkul/data` | High
-45 | File | `/load.php` | Medium
-46 | ... | ... | ...
+6 | File | `/admin/course.php` | High
+7 | File | `/admin/edit-services.php` | High
+8 | File | `/admin/edit_product.php` | High
+9 | File | `/admin/index.php` | High
+10 | File | `/admin/options-theme.php` | High
+11 | File | `/admin/orders/update_status.php` | High
+12 | File | `/admin/pages/sections_save.php` | High
+13 | File | `/admin/php/crud.php` | High
+14 | File | `/admin/positions_row.php` | High
+15 | File | `/admin/userprofile.php` | High
+16 | File | `/adplanet/PlanetCommentList` | High
+17 | File | `/ajax.php?action=save_company` | High
+18 | File | `/api/es/admin/v3/security/user/1` | High
+19 | File | `/api/v1/chat.getThreadsList` | High
+20 | File | `/api/v2/cli/commands` | High
+21 | File | `/api/v2/open/rowsInfo` | High
+22 | File | `/api/v3/flows/instances/default-user-settings-flow/execute/` | High
+23 | File | `/api/wechat/app_auth` | High
+24 | File | `/asms/admin/?page=user/manage_user` | High
+25 | File | `/blog/comment` | High
+26 | File | `/classes/Login.php` | High
+27 | File | `/config,admin.jsp` | High
+28 | File | `/Content/Plugins/uploader/FileChoose.html?fileUrl=/Upload/File/Pics/&parent` | High
+29 | File | `/course/filterRecords/` | High
+30 | File | `/dosen/data` | Medium
+31 | File | `/E-mobile/App/System/File/downfile.php` | High
+32 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+33 | File | `/env` | Low
+34 | File | `/etc/master.passwd` | High
+35 | File | `/etc/os-release` | High
+36 | File | `/file_manager/admin/save_user.php` | High
+37 | File | `/front/search.php` | High
+38 | File | `/garage/php_action/createBrand.php` | High
+39 | File | `/goform/addressNat` | High
+40 | File | `/goform/AdvSetWrlsafeset` | High
+41 | File | `/goform/editFileName` | High
+42 | File | `/goform/form2WizardStep54` | High
+43 | File | `/goform/setSysAdm` | High
+44 | File | `/goform/webExcptypemanFilter` | High
+45 | File | `/goform/WifiBasicSet` | High
+46 | File | `/goform/WifiMacFilterGet` | High
+47 | File | `/hss/admin/categories/view_category.php` | High
+48 | File | `/index.php` | Medium
+49 | ... | ... | ...
 
-There are 400 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 423 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

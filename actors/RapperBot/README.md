@@ -44,17 +44,17 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/fos/admin/ajax.php` | High
-2 | File | `/include/chart_generator.php` | High
-3 | File | `/index.php` | Medium
-4 | File | `/modules/projects/vw_files.php` | High
-5 | File | `admin.php` | Medium
-6 | File | `affich.php` | Medium
-7 | File | `album_portal.php` | High
-8 | File | `category.cfm` | Medium
+1 | File | `/?r=email/api/mark&op=delFromSend` | High
+2 | File | `/fos/admin/ajax.php` | High
+3 | File | `/include/chart_generator.php` | High
+4 | File | `/index.php` | Medium
+5 | File | `/modules/projects/vw_files.php` | High
+6 | File | `admin.php` | Medium
+7 | File | `affich.php` | Medium
+8 | File | `album_portal.php` | High
 9 | ... | ... | ...
 
-There are 67 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 69 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

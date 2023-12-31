@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [ES](https://vuldb.com/?country.es)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
 There are 3 more country items available. Please use our online service to access the data.
@@ -59,9 +59,10 @@ ID | Type | Indicator | Confidence
 5 | File | `aepx` | Low
 6 | File | `app/Plugin/GrafanaModule/Controller/GrafanaConfigurationController.php` | High
 7 | File | `boafrm/formSysCmd` | High
-8 | ... | ... | ...
+8 | File | `browser.php` | Medium
+9 | ... | ... | ...
 
-There are 60 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 62 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

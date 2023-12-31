@@ -57,21 +57,21 @@ ID | Type | Indicator | Confidence
 7 | File | `/etc/sudoers` | Medium
 8 | File | `/EXCU_SHELL` | Medium
 9 | File | `/fastfood/purchase.php` | High
-10 | File | `/inc/HTTPClient.php` | High
-11 | File | `/inc/parser/xhtml.php` | High
-12 | File | `/loginVaLidation.php` | High
-13 | File | `/net-banking/send_funds.php` | High
-14 | File | `/Security/Transactions/Transactions.aspx` | High
-15 | File | `/uncpath/` | Medium
-16 | File | `accountlogon.cfm` | High
-17 | File | `addentry.php` | Medium
-18 | File | `add_customer.php` | High
-19 | File | `admin/bad.php` | High
-20 | File | `Admin/edit-admin.php` | High
-21 | File | `adm_config_report.php` | High
+10 | File | `/forum/away.php` | High
+11 | File | `/inc/HTTPClient.php` | High
+12 | File | `/inc/parser/xhtml.php` | High
+13 | File | `/loginVaLidation.php` | High
+14 | File | `/net-banking/send_funds.php` | High
+15 | File | `/Security/Transactions/Transactions.aspx` | High
+16 | File | `/uncpath/` | Medium
+17 | File | `accountlogon.cfm` | High
+18 | File | `addentry.php` | Medium
+19 | File | `add_customer.php` | High
+20 | File | `admin/bad.php` | High
+21 | File | `Admin/edit-admin.php` | High
 22 | ... | ... | ...
 
-There are 180 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 183 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

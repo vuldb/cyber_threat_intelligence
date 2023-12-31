@@ -48,17 +48,18 @@ ID | Type | Indicator | Confidence
 3 | File | `/admin/curriculum/view_curriculum.php` | High
 4 | File | `/admin/deduction_row.php` | High
 5 | File | `/admin/departments/view_department.php` | High
-6 | File | `/admin/login.php` | High
-7 | File | `/admin/maintenance/brand.php` | High
-8 | File | `/admin/order.php` | High
-9 | File | `/admin/products/manage_product.php` | High
-10 | File | `/admin/transactions/track_shipment.php` | High
-11 | File | `/api/admin/store/product/list` | High
-12 | File | `/blog` | Low
-13 | File | `/files/list-file` | High
-14 | ... | ... | ...
+6 | File | `/admin/edit-accepted-appointment.php` | High
+7 | File | `/admin/edit_category.php` | High
+8 | File | `/admin/login.php` | High
+9 | File | `/admin/maintenance/brand.php` | High
+10 | File | `/admin/order.php` | High
+11 | File | `/admin/products/manage_product.php` | High
+12 | File | `/admin/transactions/track_shipment.php` | High
+13 | File | `/admin/vote_edit.php` | High
+14 | File | `/api/admin/store/product/list` | High
+15 | ... | ... | ...
 
-There are 107 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 123 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

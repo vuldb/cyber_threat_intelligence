@@ -43,10 +43,11 @@ ID | IP address | Hostname | Actor | Confidence
 11 | [45.87.154.208](https://vuldb.com/?ip.45.87.154.208) | vm1075965.stark-industries.solutions | [Black Basta](https://vuldb.com/?actor.black_basta) | High
 12 | [45.133.216.39](https://vuldb.com/?ip.45.133.216.39) | vm627637.stark-industries.solutions | [Black Basta](https://vuldb.com/?actor.black_basta) | High
 13 | [45.153.241.167](https://vuldb.com/?ip.45.153.241.167) | - | [Black Basta](https://vuldb.com/?actor.black_basta) | High
-14 | [46.176.222.241](https://vuldb.com/?ip.46.176.222.241) | ppp046176222241.access.hol.gr | [Black Basta](https://vuldb.com/?actor.black_basta) | High
-15 | [47.23.89.126](https://vuldb.com/?ip.47.23.89.126) | ool-2f17597e.static.optonline.net | [Black Basta](https://vuldb.com/?actor.black_basta) | High
-16 | [69.46.15.147](https://vuldb.com/?ip.69.46.15.147) | 69-46-15-147.static.hvvc.us | [Black Basta](https://vuldb.com/?actor.black_basta) | High
-17 | ... | ... | ... | ...
+14 | [46.22.211.151](https://vuldb.com/?ip.46.22.211.151) | ns6.printembrace.com | [Black Basta](https://vuldb.com/?actor.black_basta) | High
+15 | [46.176.222.241](https://vuldb.com/?ip.46.176.222.241) | ppp046176222241.access.hol.gr | [Black Basta](https://vuldb.com/?actor.black_basta) | High
+16 | [47.23.89.126](https://vuldb.com/?ip.47.23.89.126) | ool-2f17597e.static.optonline.net | [Black Basta](https://vuldb.com/?actor.black_basta) | High
+17 | [69.46.15.147](https://vuldb.com/?ip.69.46.15.147) | 69-46-15-147.static.hvvc.us | [Black Basta](https://vuldb.com/?actor.black_basta) | High
+18 | ... | ... | ... | ...
 
 There are 66 more IOC items available. Please use our online service to access the data.
 
@@ -80,22 +81,22 @@ ID | Type | Indicator | Confidence
 7 | File | `/admin/user/manage_user.php` | High
 8 | File | `/api/trackedEntityInstances` | High
 9 | File | `/bin/login.php` | High
-10 | File | `/cgi-bin/system_mgr.cgi` | High
-11 | File | `/cgi/sshcheck.cgi` | High
-12 | File | `/common/logViewer/logViewer.jsf` | High
-13 | File | `/ConsoleHelp/` | High
-14 | File | `/etc/sudoers` | Medium
-15 | File | `/export` | Low
-16 | File | `/home/filter_listings` | High
-17 | File | `/horde/imp/search.php` | High
-18 | File | `/ims/login.php` | High
-19 | File | `/index.php` | Medium
-20 | File | `/jsoa/hntdCustomDesktopActionContent` | High
-21 | File | `/LEPTON_stable_2.2.2/upload/admins/media/index.php` | High
-22 | File | `/login` | Low
-23 | File | `/messageboard/view.php` | High
-24 | File | `/modules/projects/vw_files.php` | High
-25 | File | `/netflow/servlet/CReportPDFServlet` | High
+10 | File | `/cgi/sshcheck.cgi` | High
+11 | File | `/common/logViewer/logViewer.jsf` | High
+12 | File | `/ConsoleHelp/` | High
+13 | File | `/etc/sudoers` | Medium
+14 | File | `/export` | Low
+15 | File | `/home/filter_listings` | High
+16 | File | `/horde/imp/search.php` | High
+17 | File | `/ims/login.php` | High
+18 | File | `/index.php` | Medium
+19 | File | `/jsoa/hntdCustomDesktopActionContent` | High
+20 | File | `/LEPTON_stable_2.2.2/upload/admins/media/index.php` | High
+21 | File | `/login` | Low
+22 | File | `/messageboard/view.php` | High
+23 | File | `/modules/projects/vw_files.php` | High
+24 | File | `/netflow/servlet/CReportPDFServlet` | High
+25 | File | `/oauth/idp/.well-known/openid-configuration` | High
 26 | File | `/opensis/modules/grades/InputFinalGrades.php` | High
 27 | File | `/opensis/modules/users/Staff.php` | High
 28 | File | `/plesk-site-preview/` | High
@@ -114,33 +115,33 @@ ID | Type | Indicator | Confidence
 41 | File | `/websocket/exec` | High
 42 | File | `access.conf` | Medium
 43 | File | `action.php` | Medium
-44 | File | `adclick.php` | Medium
-45 | File | `addsuppliers.php` | High
-46 | File | `admin.php` | Medium
-47 | File | `admin.remository.php` | High
-48 | File | `admin/admin_users.php` | High
-49 | File | `admin/login.php` | High
-50 | File | `administers` | Medium
-51 | File | `Administrator_list.php` | High
-52 | File | `advancedsetup_websiteblocking.html` | High
-53 | File | `affich.php` | Medium
-54 | File | `ajax_mail_autoreply.php` | High
-55 | File | `ajax_save_name.php` | High
-56 | File | `album_portal.php` | High
-57 | File | `allocator.cc` | Medium
-58 | File | `announcements.php` | High
-59 | File | `ap1.com` | Low
-60 | File | `apache2/modsecurity.c` | High
-61 | File | `api_jsonrpc.php` | High
-62 | ... | ... | ...
+44 | File | `actions.class.php` | High
+45 | File | `adclick.php` | Medium
+46 | File | `addsuppliers.php` | High
+47 | File | `admin.php` | Medium
+48 | File | `admin.remository.php` | High
+49 | File | `admin/admin_users.php` | High
+50 | File | `admin/login.php` | High
+51 | File | `administers` | Medium
+52 | File | `Administrator_list.php` | High
+53 | File | `advancedsetup_websiteblocking.html` | High
+54 | File | `affich.php` | Medium
+55 | File | `ajax_mail_autoreply.php` | High
+56 | File | `ajax_save_name.php` | High
+57 | File | `album_portal.php` | High
+58 | File | `allocator.cc` | Medium
+59 | File | `announcements.php` | High
+60 | File | `ap1.com` | Low
+61 | ... | ... | ...
 
-There are 546 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 532 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the campaign and the associated activities:
 
 * https://1275.ru/ioc/311/black-basta-apt-iocs/
+* https://de.darktrace.com/blog/black-basta-old-dogs-with-new-tricks
 * https://get.zerofox.com/rs/143-DHV-007/images/ZeroFox-Intelligence-Update-Black-Basta-Ransomware-Report-2023.pdf
 * https://www.cybereason.com/blog/threat-alert-aggressive-qakbot-campaign-and-the-black-basta-ransomware-group-targeting-u.s.-companies
 * https://www.sentinelone.com/labs/black-basta-ransomware-attacks-deploy-custom-edr-evasion-tools-tied-to-fin7-threat-actor/

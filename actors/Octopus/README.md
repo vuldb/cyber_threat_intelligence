@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 13 more country items available. Please use our online service to access the data.
+There are 14 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -25,9 +25,10 @@ ID | IP address | Hostname | Campaign | Confidence
 2 | [5.188.231.101](https://vuldb.com/?ip.5.188.231.101) | free.ds | - | High
 3 | [5.255.71.84](https://vuldb.com/?ip.5.255.71.84) | - | - | High
 4 | [5.255.71.85](https://vuldb.com/?ip.5.255.71.85) | - | - | High
-5 | ... | ... | ... | ...
+5 | [46.249.52.244](https://vuldb.com/?ip.46.249.52.244) | echichens-c | - | High
+6 | ... | ... | ... | ...
 
-There are 14 more IOC items available. Please use our online service to access the data.
+There are 20 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -37,7 +38,7 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94 | Cross Site Scripting | High
+3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
 There are 13 more TTP items available. Please use our online service to access the data.
@@ -53,20 +54,27 @@ ID | Type | Indicator | Confidence
 3 | File | `/inc/lists/edit-list.php` | High
 4 | File | `/index.php` | Medium
 5 | File | `/members/view_member.php` | High
-6 | File | `/owa/auth/logon.aspx` | High
-7 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
-8 | File | `/uncpath/` | Medium
-9 | File | `adclick.php` | Medium
-10 | File | `admin/media.php` | High
-11 | File | `bbs/faq.php` | Medium
+6 | File | `/mhds/clinic/view_details.php` | High
+7 | File | `/owa/auth/logon.aspx` | High
+8 | File | `/rest/api/latest/projectvalidate/key` | High
+9 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
+10 | File | `/uncpath/` | Medium
+11 | File | `adclick.php` | Medium
 12 | ... | ... | ...
 
-There are 89 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 93 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://search.censys.io/hosts/149.81.74.204
+* https://search.censys.io/hosts/149.81.74.205
+* https://search.censys.io/hosts/149.81.74.206
+* https://search.censys.io/hosts/149.81.74.207
+* https://search.censys.io/hosts/149.81.87.18
+* https://search.censys.io/hosts/162.248.161.252
+* https://search.censys.io/hosts/167.99.117.245
 * https://www.cyber45.com
 
 ## Literature

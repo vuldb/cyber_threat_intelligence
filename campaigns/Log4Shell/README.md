@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [DE](https://vuldb.com/?country.de)
-* [SC](https://vuldb.com/?country.sc)
+* [LA](https://vuldb.com/?country.la)
 * ...
 
 There are 11 more country items available. Please use our online service to access the data.
@@ -115,61 +115,64 @@ ID | Type | Indicator | Confidence
 5 | File | `/admin/?page=user/manage_user&id=3` | High
 6 | File | `/admin/addproduct.php` | High
 7 | File | `/admin/ajax.php?action=confirm_order` | High
-8 | File | `/admin/ajax.php?action=delete_user` | High
-9 | File | `/admin/attendance_row.php` | High
-10 | File | `/admin/configurations/userInfo` | High
-11 | File | `/admin/deduction_row.php` | High
-12 | File | `/admin/edit-services.php` | High
-13 | File | `/admin/employee_row.php` | High
-14 | File | `/admin/login.php` | High
-15 | File | `/admin/maintenance/brand.php` | High
-16 | File | `/admin/maintenance/view_designation.php` | High
-17 | File | `/admin/mechanics/manage_mechanic.php` | High
-18 | File | `/admin/read.php?mudi=getSignal` | High
-19 | File | `/admin/sales/manage_sale.php` | High
-20 | File | `/admin/service_requests/manage_inventory.php` | High
+8 | File | `/admin/attendance_row.php` | High
+9 | File | `/admin/configurations/userInfo` | High
+10 | File | `/admin/deduction_row.php` | High
+11 | File | `/admin/edit-services.php` | High
+12 | File | `/admin/employee_row.php` | High
+13 | File | `/admin/login.php` | High
+14 | File | `/admin/maintenance/brand.php` | High
+15 | File | `/admin/maintenance/view_designation.php` | High
+16 | File | `/admin/mechanics/manage_mechanic.php` | High
+17 | File | `/admin/read.php?mudi=getSignal` | High
+18 | File | `/admin/sales/manage_sale.php` | High
+19 | File | `/admin/service_requests/manage_inventory.php` | High
+20 | File | `/admin/settings/` | High
 21 | File | `/admin/students/update_status.php` | High
-22 | File | `/admin/sys_sql_query.php` | High
-23 | File | `/admin/test_status.php` | High
-24 | File | `/admin/transactions/track_shipment.php` | High
-25 | File | `/admin/user/manage_user.php` | High
-26 | File | `/ajax.php?action=save_company` | High
-27 | File | `/api/authentication/login` | High
-28 | File | `/api/baskets/{name}` | High
-29 | File | `/api/stl/actions/search` | High
-30 | File | `/api/sys/set_passwd` | High
-31 | File | `/apply.cgi` | Medium
-32 | File | `/App_Resource/UEditor/server/upload.aspx` | High
-33 | File | `/blog` | Low
-34 | File | `/booking/show_bookings/` | High
-35 | File | `/cgi-bin/mainfunction.cgi` | High
-36 | File | `/cgi-bin/touchlist_sync.cgi` | High
-37 | File | `/change-language/de_DE` | High
-38 | File | `/classes/Master.php` | High
-39 | File | `/classes/Master.php?f=delete_inquiry` | High
-40 | File | `/classes/Master.php?f=save_item` | High
-41 | File | `/config/api/v1/reboot` | High
-42 | File | `/Duty/AjaxHandle/UploadFloodPlanFileUpdate.ashx` | High
-43 | File | `/DXR.axd` | Medium
-44 | File | `/etc/shadow` | Medium
-45 | File | `/file_manager/admin/save_user.php` | High
-46 | File | `/find-a-match` | High
-47 | File | `/forum/away.php` | High
-48 | File | `/forum/PostPrivateMessage` | High
-49 | File | `/forums.php?action=post` | High
-50 | File | `/fos/admin/ajax.php?action=login` | High
-51 | File | `/fos/admin/index.php?page=menu` | High
-52 | File | `/goForm/aspForm` | High
-53 | File | `/home/filter_listings` | High
-54 | File | `/im/user/` | Medium
-55 | File | `/importexport.php` | High
-56 | File | `/inc/parser/xhtml.php` | High
-57 | File | `/index.php` | Medium
-58 | File | `/index.php?app=main&func=passport&action=login` | High
-59 | File | `/index.php?controller=GzUser&action=edit&id=1` | High
-60 | ... | ... | ...
+22 | File | `/admin/subject.php` | High
+23 | File | `/admin/sys_sql_query.php` | High
+24 | File | `/admin/test_status.php` | High
+25 | File | `/admin/transactions/track_shipment.php` | High
+26 | File | `/admin/user/manage_user.php` | High
+27 | File | `/ajax.php?action=save_company` | High
+28 | File | `/api/authentication/login` | High
+29 | File | `/api/baskets/{name}` | High
+30 | File | `/api/stl/actions/search` | High
+31 | File | `/api/sys/set_passwd` | High
+32 | File | `/apply.cgi` | Medium
+33 | File | `/App_Resource/UEditor/server/upload.aspx` | High
+34 | File | `/blog` | Low
+35 | File | `/booking/show_bookings/` | High
+36 | File | `/cgi-bin/mainfunction.cgi` | High
+37 | File | `/cgi-bin/touchlist_sync.cgi` | High
+38 | File | `/change-language/de_DE` | High
+39 | File | `/classes/Master.php` | High
+40 | File | `/classes/Master.php?f=delete_inquiry` | High
+41 | File | `/classes/Master.php?f=save_item` | High
+42 | File | `/config,admin.jsp` | High
+43 | File | `/config/api/v1/reboot` | High
+44 | File | `/Duty/AjaxHandle/UploadFloodPlanFileUpdate.ashx` | High
+45 | File | `/DXR.axd` | Medium
+46 | File | `/endpoint/delete-user.php` | High
+47 | File | `/etc/shadow` | Medium
+48 | File | `/file_manager/admin/save_user.php` | High
+49 | File | `/find-a-match` | High
+50 | File | `/forum/away.php` | High
+51 | File | `/forum/PostPrivateMessage` | High
+52 | File | `/forums.php?action=post` | High
+53 | File | `/fos/admin/ajax.php?action=login` | High
+54 | File | `/fos/admin/index.php?page=menu` | High
+55 | File | `/goForm/aspForm` | High
+56 | File | `/home/filter_listings` | High
+57 | File | `/im/user/` | Medium
+58 | File | `/importexport.php` | High
+59 | File | `/inc/jquery/uploadify/uploadify.php` | High
+60 | File | `/inc/parser/xhtml.php` | High
+61 | File | `/index.php` | Medium
+62 | File | `/index.php?app=main&func=passport&action=login` | High
+63 | ... | ... | ...
 
-There are 529 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 555 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

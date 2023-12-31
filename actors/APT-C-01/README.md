@@ -34,12 +34,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-22, CWE-24 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 8 more TTP items available. Please use our online service to access the data.
+There are 13 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -47,13 +47,39 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/forum/away.php` | High
-2 | File | `/goform/saveParentControlInfo` | High
-3 | File | `/uncpath/` | Medium
-4 | File | `2020\Messages\SDNotify.exe` | High
-5 | ... | ... | ...
+1 | File | `/accounts_con/register_account` | High
+2 | File | `/addbill.php` | Medium
+3 | File | `/admin` | Low
+4 | File | `/admin/` | Low
+5 | File | `/admin/bwdates-report-details.php` | High
+6 | File | `/admin/clientview.php` | High
+7 | File | `/admin/course.php` | High
+8 | File | `/admin/ind_backstage.php` | High
+9 | File | `/admin/manage-pages.php` | High
+10 | File | `/admin/manage-users.php` | High
+11 | File | `/admin/options-theme.php` | High
+12 | File | `/admin/pages/subjects.php` | High
+13 | File | `/admin/pages/yearlevel.php` | High
+14 | File | `/admin/php/crud.php` | High
+15 | File | `/admin/regester.php` | High
+16 | File | `/admin/singlelogin.php?submit=1` | High
+17 | File | `/admin/subject.php` | High
+18 | File | `/admin/update-clients.php` | High
+19 | File | `/admin/upload/img` | High
+20 | File | `/adplanet/PlanetCommentList` | High
+21 | File | `/adplanet/PlanetUser` | High
+22 | File | `/ample/app/action/edit_product.php` | High
+23 | File | `/api/log/killJob` | High
+24 | File | `/app/ajax/sell_return_data.php` | High
+25 | File | `/article/DelectArticleById/` | High
+26 | File | `/auth/auth.php?user=1` | High
+27 | File | `/b2b-supermarket/catalog/all-products` | High
+28 | File | `/boaform/wlan_basic_set.cgi` | High
+29 | File | `/cgi-bin/cstecgi.cgi` | High
+30 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+31 | ... | ... | ...
 
-There are 33 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 265 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

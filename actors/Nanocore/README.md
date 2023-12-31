@@ -125,7 +125,8 @@ ID | Type | Indicator | Confidence
 39 | File | `akeyActivationLogin.do` | High
 40 | File | `album_portal.php` | High
 41 | File | `alipay/alipayapi.php` | High
-42 | ... | ... | ...
+42 | File | `apache-auth.conf` | High
+43 | ... | ... | ...
 
 There are 367 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 

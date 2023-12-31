@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 10 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -68,26 +68,26 @@ ID | Type | Indicator | Confidence
 5 | File | `/admin/index.php` | High
 6 | File | `/aqpg/users/login.php` | High
 7 | File | `/card/in-card.php` | High
-8 | File | `/config.cgi?webmin` | High
-9 | File | `/configs/application.ini` | High
-10 | File | `/dishes.php` | Medium
-11 | File | `/DXR.axd` | Medium
-12 | File | `/fax/fax_send.php` | High
-13 | File | `/mobile/downloadfile.aspx` | High
-14 | File | `/pages/animals.php` | High
-15 | File | `/products/view_product.php` | High
-16 | File | `/psrs/admin/categories/manage_category.php` | High
-17 | File | `/rom-0` | Low
-18 | File | `/sendrcpackage?keyid=-2544&keysymbol=-4081` | High
-19 | File | `/show_news.php` | High
-20 | File | `/siteminderagent/pwcgi/smpwservicescgi.exe` | High
-21 | File | `/Status/wan_button_action.asp` | High
-22 | File | `/uapi/doc` | Medium
-23 | File | `/uncpath/` | Medium
-24 | File | `/Upload.ashx` | Medium
+8 | File | `/conf/` | Low
+9 | File | `/config.cgi?webmin` | High
+10 | File | `/configs/application.ini` | High
+11 | File | `/controller/AdminController.php` | High
+12 | File | `/dishes.php` | Medium
+13 | File | `/DXR.axd` | Medium
+14 | File | `/fax/fax_send.php` | High
+15 | File | `/friends/ajax_invite` | High
+16 | File | `/mobile/downloadfile.aspx` | High
+17 | File | `/pages/animals.php` | High
+18 | File | `/products/view_product.php` | High
+19 | File | `/psrs/admin/categories/manage_category.php` | High
+20 | File | `/rom-0` | Low
+21 | File | `/sendrcpackage?keyid=-2544&keysymbol=-4081` | High
+22 | File | `/show_news.php` | High
+23 | File | `/siteminderagent/pwcgi/smpwservicescgi.exe` | High
+24 | File | `/Status/wan_button_action.asp` | High
 25 | ... | ... | ...
 
-There are 206 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 213 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

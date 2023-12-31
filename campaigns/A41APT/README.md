@@ -56,17 +56,18 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/addnews.html` | High
-2 | File | `/sysworkflow/en/neoclassic/reportTables/reportTables_Ajax` | High
-3 | File | `/wordpress/wp-admin/options-general.php` | High
-4 | File | `/wp-admin/options.php` | High
-5 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-6 | File | `account.asp` | Medium
-7 | File | `admin/admin.php` | High
-8 | File | `admin/admin.shtml` | High
-9 | File | `adminpanel/modules/pro/inc/ajax.php` | High
-10 | ... | ... | ...
+2 | File | `/oauth/idp/.well-known/openid-configuration` | High
+3 | File | `/sysworkflow/en/neoclassic/reportTables/reportTables_Ajax` | High
+4 | File | `/wordpress/wp-admin/options-general.php` | High
+5 | File | `/wp-admin/options.php` | High
+6 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+7 | File | `account.asp` | Medium
+8 | File | `admin/admin.php` | High
+9 | File | `admin/admin.shtml` | High
+10 | File | `adminpanel/modules/pro/inc/ajax.php` | High
+11 | ... | ... | ...
 
-There are 79 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 80 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

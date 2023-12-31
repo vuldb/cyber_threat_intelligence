@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [RU](https://vuldb.com/?country.ru)
+* [ME](https://vuldb.com/?country.me)
 * ...
 
 There are 3 more country items available. Please use our online service to access the data.
@@ -59,13 +59,13 @@ ID | Type | Indicator | Confidence
 1 | File | `/cgi-bin/cgiServer.exx` | High
 2 | File | `/uncpath/` | Medium
 3 | File | `add_vhost.php` | High
-4 | File | `adv2.php?action=modify` | High
-5 | File | `asm/float.c` | Medium
-6 | File | `asm/nasm.c` | Medium
-7 | File | `cgi-bin/` | Medium
+4 | File | `admin/gv_mail.php` | High
+5 | File | `adv2.php?action=modify` | High
+6 | File | `asm/float.c` | Medium
+7 | File | `asm/nasm.c` | Medium
 8 | ... | ... | ...
 
-There are 52 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 59 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

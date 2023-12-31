@@ -77,42 +77,42 @@ ID | Type | Indicator | Confidence
 20 | File | `/mhds/clinic/view_details.php` | High
 21 | File | `/nova/bin/console` | High
 22 | File | `/nova/bin/detnet` | High
-23 | File | `/out.php` | Medium
-24 | File | `/owa/auth/logon.aspx` | High
-25 | File | `/product_list.php` | High
-26 | File | `/req_password_user.php` | High
-27 | File | `/rest/api/latest/projectvalidate/key` | High
-28 | File | `/rom-0` | Low
-29 | File | `/secure/QueryComponent!Default.jspa` | High
-30 | File | `/ServletAPI/accounts/login` | High
-31 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
-32 | File | `/sysmanage/changelogo.php` | High
-33 | File | `/tmp/.uci/network` | High
-34 | File | `/uncpath/` | Medium
-35 | File | `/upload` | Low
-36 | File | `/usr/bin/pkexec` | High
-37 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
-38 | File | `/usr/syno/etc/mount.conf` | High
-39 | File | `/vdesk` | Low
-40 | File | `/WEB-INF/web.xml` | High
-41 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-42 | File | `/wp-json` | Medium
-43 | File | `aboutus.php` | Medium
-44 | File | `achat/produit_details.php` | High
-45 | File | `adclick.php` | Medium
-46 | File | `add_to_cart.php` | High
-47 | File | `adm.cgi` | Low
-48 | File | `admin.jcomments.php` | High
-49 | File | `admin/index.php` | High
-50 | File | `admin/modules/tools/ip_history_logs.php` | High
-51 | File | `admin/specials.php` | High
-52 | File | `announce.php` | Medium
-53 | File | `App/Ajax/ajax.php?action=mobile_upload_save` | High
-54 | File | `articles.php` | Medium
-55 | File | `auth-gss2.c` | Medium
+23 | File | `/oauth/idp/.well-known/openid-configuration` | High
+24 | File | `/out.php` | Medium
+25 | File | `/owa/auth/logon.aspx` | High
+26 | File | `/product_list.php` | High
+27 | File | `/req_password_user.php` | High
+28 | File | `/rest/api/latest/projectvalidate/key` | High
+29 | File | `/rom-0` | Low
+30 | File | `/secure/QueryComponent!Default.jspa` | High
+31 | File | `/ServletAPI/accounts/login` | High
+32 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
+33 | File | `/sysmanage/changelogo.php` | High
+34 | File | `/tmp/.uci/network` | High
+35 | File | `/uncpath/` | Medium
+36 | File | `/upload` | Low
+37 | File | `/usr/bin/pkexec` | High
+38 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
+39 | File | `/usr/syno/etc/mount.conf` | High
+40 | File | `/vdesk` | Low
+41 | File | `/WEB-INF/web.xml` | High
+42 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+43 | File | `/wp-json` | Medium
+44 | File | `aboutus.php` | Medium
+45 | File | `achat/produit_details.php` | High
+46 | File | `adclick.php` | Medium
+47 | File | `add_to_cart.php` | High
+48 | File | `adm.cgi` | Low
+49 | File | `admin.jcomments.php` | High
+50 | File | `admin/index.php` | High
+51 | File | `admin/modules/tools/ip_history_logs.php` | High
+52 | File | `admin/specials.php` | High
+53 | File | `announce.php` | Medium
+54 | File | `App/Ajax/ajax.php?action=mobile_upload_save` | High
+55 | File | `articles.php` | Medium
 56 | ... | ... | ...
 
-There are 486 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 489 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

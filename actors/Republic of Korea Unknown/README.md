@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Republic of Korea Unknown:
 
-* [IO](https://vuldb.com/?country.io)
 * [US](https://vuldb.com/?country.us)
+* [IO](https://vuldb.com/?country.io)
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 19 more country items available. Please use our online service to access the data.
+There are 16 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -1071,13 +1071,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-36 | Pathname Traversal | High
-2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-36, CWE-425 | Pathname Traversal | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | T1068 | CWE-264, CWE-269, CWE-274, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
-7 | ... | ... | ... | ...
+6 | ... | ... | ... | ...
 
 There are 22 more TTP items available. Please use our online service to access the data.
 
@@ -1087,50 +1086,48 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.github/workflows/comment.yml` | High
-2 | File | `/admin/read.php?mudi=getSignal` | High
+1 | File | `%SYSTEMDRIVE%\node_modules\.bin\wmic.exe` | High
+2 | File | `/admin/add-category.php` | High
 3 | File | `/admin/save.php` | High
-4 | File | `/admin/sys_sql_query.php` | High
+4 | File | `/admin/theme-edit.php` | High
 5 | File | `/api/baskets/{name}` | High
 6 | File | `/api/download` | High
 7 | File | `/api/runscript` | High
-8 | File | `/api/v1/snapshots` | High
-9 | File | `/api/v1/terminal/sessions/?limit=1` | High
-10 | File | `/bin/boa` | Medium
+8 | File | `/api/upload.php` | High
+9 | File | `/api/v1/alerts` | High
+10 | File | `/api/v1/terminal/sessions/?limit=1` | High
 11 | File | `/bitrix/admin/ldap_server_edit.php` | High
-12 | File | `/blog` | Low
-13 | File | `/category.php` | High
-14 | File | `/categorypage.php` | High
-15 | File | `/cgi-bin/luci/api/wireless` | High
-16 | File | `/cgi-bin/vitogate.cgi` | High
-17 | File | `/cimom` | Low
-18 | File | `/classes/Master.php?f=save_inquiry` | High
-19 | File | `/classes/Master.php?f=save_service` | High
-20 | File | `/company/store` | High
-21 | File | `/Content/Template/root/reverse-shell.aspx` | High
-22 | File | `/Controller/Ajaxfileupload.ashx` | High
-23 | File | `/core/conditions/AbstractWrapper.java` | High
-24 | File | `/download` | Medium
-25 | File | `/etc/passwd` | Medium
-26 | File | `/fcgi/scrut_fcgi.fcgi` | High
-27 | File | `/forum/away.php` | High
-28 | File | `/h/` | Low
-29 | File | `/HNAP1` | Low
-30 | File | `/home/kickPlayer` | High
-31 | File | `/index.php` | Medium
-32 | File | `/index.php/coins/update_marketboxslider` | High
-33 | File | `/index.php/payment/getcoinaddress` | High
-34 | File | `/iniFile/config.ini` | High
-35 | File | `/jeecg-boot/jmreport/show` | High
-36 | File | `/jeecg-boot/jmreport/upload` | High
-37 | File | `/jeecg-boot/sys/common/upload` | High
-38 | File | `/jobinfo/` | Medium
-39 | File | `/password.jsn` | High
-40 | File | `/public/admin/profile/update.html` | High
-41 | File | `/recipe-result` | High
-42 | ... | ... | ...
+12 | File | `/category.php` | High
+13 | File | `/categorypage.php` | High
+14 | File | `/cgi-bin/luci/api/wireless` | High
+15 | File | `/cgi-bin/vitogate.cgi` | High
+16 | File | `/Content/Plugins/uploader/FileChoose.html?fileUrl=/Upload/File/Pics/&parent` | High
+17 | File | `/Content/Template/root/reverse-shell.aspx` | High
+18 | File | `/core/conditions/AbstractWrapper.java` | High
+19 | File | `/dashboard/add-blog.php` | High
+20 | File | `/data/remove` | Medium
+21 | File | `/debug/pprof` | Medium
+22 | File | `/download` | Medium
+23 | File | `/fcgi/scrut_fcgi.fcgi` | High
+24 | File | `/forum/away.php` | High
+25 | File | `/geoserver/gwc/rest.html` | High
+26 | File | `/goform/formSysCmd` | High
+27 | File | `/HNAP1` | Low
+28 | File | `/index.php` | Medium
+29 | File | `/iniFile/config.ini` | High
+30 | File | `/issue` | Low
+31 | File | `/jeecg-boot/jmreport/show` | High
+32 | File | `/jeecg-boot/jmreport/upload` | High
+33 | File | `/jeecg-boot/sys/common/upload` | High
+34 | File | `/oauth/idp/.well-known/openid-configuration` | High
+35 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
+36 | File | `/proxy` | Low
+37 | File | `/register.do` | Medium
+38 | File | `/resources//../` | High
+39 | File | `/RPS2019Service/status.html` | High
+40 | ... | ... | ...
 
-There are 367 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 342 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

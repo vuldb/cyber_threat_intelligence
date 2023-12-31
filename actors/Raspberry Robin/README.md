@@ -21,24 +21,26 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [1.175.125.217](https://vuldb.com/?ip.1.175.125.217) | 1-175-125-217.dynamic-ip.hinet.net | - | High
 4 | [1.175.137.191](https://vuldb.com/?ip.1.175.137.191) | 1-175-137-191.dynamic-ip.hinet.net | - | High
 5 | [1.175.153.226](https://vuldb.com/?ip.1.175.153.226) | 1-175-153-226.dynamic-ip.hinet.net | - | High
-6 | [31.17.3.210](https://vuldb.com/?ip.31.17.3.210) | ip1f1103d2.dynamic.kabel-deutschland.de | - | High
-7 | [37.223.74.108](https://vuldb.com/?ip.37.223.74.108) | - | - | High
-8 | [46.11.6.104](https://vuldb.com/?ip.46.11.6.104) | - | - | High
-9 | [46.11.83.236](https://vuldb.com/?ip.46.11.83.236) | - | - | High
-10 | [46.11.88.157](https://vuldb.com/?ip.46.11.88.157) | - | - | High
-11 | [46.11.88.251](https://vuldb.com/?ip.46.11.88.251) | - | - | High
-12 | [46.217.252.5](https://vuldb.com/?ip.46.217.252.5) | - | - | High
-13 | [46.217.252.172](https://vuldb.com/?ip.46.217.252.172) | - | - | High
-14 | [46.246.235.240](https://vuldb.com/?ip.46.246.235.240) | 46.246.235.240.dsl.dyn.forthnet.gr | - | High
-15 | [47.62.21.60](https://vuldb.com/?ip.47.62.21.60) | 47-62-21-60.red-acceso.airtel.net | - | High
-16 | [47.62.80.170](https://vuldb.com/?ip.47.62.80.170) | 47-62-80-170.red-acceso.airtel.net | - | High
-17 | [58.136.1.101](https://vuldb.com/?ip.58.136.1.101) | - | - | High
-18 | [58.136.239.28](https://vuldb.com/?ip.58.136.239.28) | - | - | High
-19 | [58.177.98.79](https://vuldb.com/?ip.58.177.98.79) | 058177098079.ctinets.com | - | High
-20 | [61.68.74.170](https://vuldb.com/?ip.61.68.74.170) | 61-68-74-170.tpgi.com.au | - | High
-21 | ... | ... | ... | ...
+6 | [2.11.150.174](https://vuldb.com/?ip.2.11.150.174) | arennes-257-1-3-174.w2-11.abo.wanadoo.fr | - | High
+7 | [31.17.3.210](https://vuldb.com/?ip.31.17.3.210) | ip1f1103d2.dynamic.kabel-deutschland.de | - | High
+8 | [37.223.74.108](https://vuldb.com/?ip.37.223.74.108) | - | - | High
+9 | [46.11.6.104](https://vuldb.com/?ip.46.11.6.104) | - | - | High
+10 | [46.11.83.236](https://vuldb.com/?ip.46.11.83.236) | - | - | High
+11 | [46.11.88.157](https://vuldb.com/?ip.46.11.88.157) | - | - | High
+12 | [46.11.88.251](https://vuldb.com/?ip.46.11.88.251) | - | - | High
+13 | [46.217.252.5](https://vuldb.com/?ip.46.217.252.5) | - | - | High
+14 | [46.217.252.172](https://vuldb.com/?ip.46.217.252.172) | - | - | High
+15 | [46.246.235.240](https://vuldb.com/?ip.46.246.235.240) | 46.246.235.240.dsl.dyn.forthnet.gr | - | High
+16 | [47.62.21.60](https://vuldb.com/?ip.47.62.21.60) | 47-62-21-60.red-acceso.airtel.net | - | High
+17 | [47.62.80.170](https://vuldb.com/?ip.47.62.80.170) | 47-62-80-170.red-acceso.airtel.net | - | High
+18 | [58.136.1.101](https://vuldb.com/?ip.58.136.1.101) | - | - | High
+19 | [58.136.239.28](https://vuldb.com/?ip.58.136.239.28) | - | - | High
+20 | [58.177.98.79](https://vuldb.com/?ip.58.177.98.79) | 058177098079.ctinets.com | - | High
+21 | [61.68.74.170](https://vuldb.com/?ip.61.68.74.170) | 61-68-74-170.tpgi.com.au | - | High
+22 | [61.69.195.109](https://vuldb.com/?ip.61.69.195.109) | 61-69-195-109.static.tpgi.com.au | - | High
+23 | ... | ... | ... | ...
 
-There are 81 more IOC items available. Please use our online service to access the data.
+There are 86 more IOC items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 

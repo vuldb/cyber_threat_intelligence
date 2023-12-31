@@ -252,9 +252,10 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -274,36 +275,38 @@ ID | Type | Indicator | Confidence
 10 | File | `/APR/signup.php` | High
 11 | File | `/author_posts.php` | High
 12 | File | `/bin/sh` | Low
-13 | File | `/cgi-bin/wlogin.cgi` | High
-14 | File | `/classes/Master.php?f=delete_service` | High
-15 | File | `/classes/Master.php?f=save_brand` | High
-16 | File | `/classes/Master.php?f=save_course` | High
-17 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
-18 | File | `/E-mobile/App/System/File/downfile.php` | High
-19 | File | `/Electron/download` | High
-20 | File | `/forum/away.php` | High
-21 | File | `/ghost/preview` | High
-22 | File | `/goform/set_LimitClient_cfg` | High
-23 | File | `/htdocs/cgibin` | High
-24 | File | `/inc/topBarNav.php` | High
-25 | File | `/index.php/client/message/message_read/xxxxxxxx[random-msg-hash]` | High
-26 | File | `/mhds/clinic/view_details.php` | High
-27 | File | `/mims/login.php` | High
-28 | File | `/out.php` | Medium
-29 | File | `/proxy` | Low
-30 | File | `/reviewer/system/system/admins/manage/users/user-update.php` | High
-31 | File | `/search-result.php` | High
-32 | File | `/search.php` | Medium
-33 | File | `/send_order.cgi?parameter=access_detect` | High
-34 | File | `/spip.php` | Medium
-35 | File | `/text/pdf/PdfReader.java` | High
-36 | File | `/textpattern/index.php` | High
-37 | File | `/tmp` | Low
-38 | File | `/VPortal/mgtconsole/Subscribers.jsp` | High
-39 | File | `/wp-admin/admin-ajax.php` | High
-40 | ... | ... | ...
+13 | File | `/boaform/wlan_basic_set.cgi` | High
+14 | File | `/cgi-bin/wlogin.cgi` | High
+15 | File | `/classes/Master.php?f=delete_service` | High
+16 | File | `/classes/Master.php?f=save_brand` | High
+17 | File | `/classes/Master.php?f=save_course` | High
+18 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
+19 | File | `/E-mobile/App/System/File/downfile.php` | High
+20 | File | `/Electron/download` | High
+21 | File | `/forum/away.php` | High
+22 | File | `/ghost/preview` | High
+23 | File | `/goform/formDefault` | High
+24 | File | `/goform/set_LimitClient_cfg` | High
+25 | File | `/htdocs/cgibin` | High
+26 | File | `/inc/topBarNav.php` | High
+27 | File | `/index.php/client/message/message_read/xxxxxxxx[random-msg-hash]` | High
+28 | File | `/mhds/clinic/view_details.php` | High
+29 | File | `/mims/login.php` | High
+30 | File | `/out.php` | Medium
+31 | File | `/products/view_product.php` | High
+32 | File | `/proxy` | Low
+33 | File | `/reviewer/system/system/admins/manage/users/user-update.php` | High
+34 | File | `/scripts/unlock_tasks.php` | High
+35 | File | `/search-result.php` | High
+36 | File | `/search.php` | Medium
+37 | File | `/send_order.cgi?parameter=access_detect` | High
+38 | File | `/spip.php` | Medium
+39 | File | `/text/pdf/PdfReader.java` | High
+40 | File | `/textpattern/index.php` | High
+41 | File | `/tmp` | Low
+42 | ... | ... | ...
 
-There are 348 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 360 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

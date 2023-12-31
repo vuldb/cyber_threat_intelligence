@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [LU](https://vuldb.com/?country.lu)
 * ...
 
-There are 4 more country items available. Please use our online service to access the data.
+There are 2 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -21,16 +21,19 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [5.180.44.53](https://vuldb.com/?ip.5.180.44.53) | 53.44-180-5.rdns.scalabledns.com | - | High
-2 | [20.90.110.121](https://vuldb.com/?ip.20.90.110.121) | - | - | High
-3 | [20.187.95.103](https://vuldb.com/?ip.20.187.95.103) | - | - | High
-4 | [23.224.132.58](https://vuldb.com/?ip.23.224.132.58) | - | - | High
-5 | [23.225.194.65](https://vuldb.com/?ip.23.225.194.65) | - | - | High
-6 | [23.226.76.122](https://vuldb.com/?ip.23.226.76.122) | we.love.servers.at.ioflood.net | - | High
-7 | [43.142.157.239](https://vuldb.com/?ip.43.142.157.239) | - | - | High
-8 | ... | ... | ... | ...
+1 | [3.120.164.69](https://vuldb.com/?ip.3.120.164.69) | chaos.fk0.name | - | High
+2 | [5.180.44.53](https://vuldb.com/?ip.5.180.44.53) | 53.44-180-5.rdns.scalabledns.com | - | High
+3 | [20.90.110.121](https://vuldb.com/?ip.20.90.110.121) | - | - | High
+4 | [20.187.95.103](https://vuldb.com/?ip.20.187.95.103) | - | - | High
+5 | [23.224.132.58](https://vuldb.com/?ip.23.224.132.58) | - | - | High
+6 | [23.225.194.65](https://vuldb.com/?ip.23.225.194.65) | - | - | High
+7 | [23.226.76.122](https://vuldb.com/?ip.23.226.76.122) | we.love.servers.at.ioflood.net | - | High
+8 | [43.142.157.239](https://vuldb.com/?ip.43.142.157.239) | - | - | High
+9 | [43.155.37.192](https://vuldb.com/?ip.43.155.37.192) | - | - | High
+10 | [45.14.185.146](https://vuldb.com/?ip.45.14.185.146) | 146.185.14.45.servereasy.it | - | High
+11 | ... | ... | ... | ...
 
-There are 28 more IOC items available. Please use our online service to access the data.
+There are 42 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -39,13 +42,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-24 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -58,17 +61,17 @@ ID | Type | Indicator | Confidence
 3 | File | `/admin/getallarticleinfo` | High
 4 | File | `/admin/reminders/manage_reminder.php` | High
 5 | File | `/admin/services/view_service.php` | High
-6 | File | `/api/baskets/{name}` | High
-7 | File | `/api/v1/terminal/sessions/?limit=1` | High
-8 | File | `/baseOpLog.do` | High
-9 | File | `/CCMAdmin/serverlist.asp` | High
-10 | File | `/cgi-bin/luci/api/auth` | High
-11 | File | `/cgi-bin/wlogin.cgi` | High
-12 | File | `/cgi/get_param.cgi` | High
-13 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
-14 | File | `/csms/admin/inquiries/view_details.php` | High
-15 | File | `/cstecgi.cgi` | Medium
-16 | File | `/dashboard/contact` | High
+6 | File | `/admin/tag/delete` | High
+7 | File | `/api/baskets/{name}` | High
+8 | File | `/api/jmeter/download/files` | High
+9 | File | `/api/v1/terminal/sessions/?limit=1` | High
+10 | File | `/CCMAdmin/serverlist.asp` | High
+11 | File | `/cgi-bin/luci/api/auth` | High
+12 | File | `/cgi-bin/wlogin.cgi` | High
+13 | File | `/cgi/get_param.cgi` | High
+14 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
+15 | File | `/csms/admin/inquiries/view_details.php` | High
+16 | File | `/cstecgi.cgi` | Medium
 17 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
 18 | File | `/forum/away.php` | High
 19 | File | `/goform/WifiBasicSet` | High
@@ -84,18 +87,20 @@ ID | Type | Indicator | Confidence
 29 | File | `/message/form/` | High
 30 | File | `/messageboard/view.php` | High
 31 | File | `/out.php` | Medium
-32 | File | `/src/Illuminate/Laravel.php` | High
-33 | File | `/SVFE2/pages/feegroups/country_group.jsf` | High
-34 | File | `/system/dict/list` | High
-35 | File | `/SystemManage/Organize/GetTreeGridJson?_search=false&nd=1681813520783&rows=10000&page=1&sidx=&sord=asc` | High
-36 | File | `/SystemManage/Role/GetGridJson?keyword=&page=1&rows=20` | High
-37 | File | `/textpattern/index.php` | High
-38 | File | `/upfile.cgi` | Medium
-39 | File | `/upgrade_filter.asp` | High
-40 | File | `/v1/avatars/favicon` | High
-41 | ... | ... | ...
+32 | File | `/sm/api/v1/firewall/zone/services` | High
+33 | File | `/src/Illuminate/Laravel.php` | High
+34 | File | `/SVFE2/pages/feegroups/country_group.jsf` | High
+35 | File | `/system/dict/list` | High
+36 | File | `/SystemManage/Organize/GetTreeGridJson?_search=false&nd=1681813520783&rows=10000&page=1&sidx=&sord=asc` | High
+37 | File | `/SystemManage/Role/GetGridJson?keyword=&page=1&rows=20` | High
+38 | File | `/textpattern/index.php` | High
+39 | File | `/upfile.cgi` | Medium
+40 | File | `/upgrade_filter.asp` | High
+41 | File | `/v1/avatars/favicon` | High
+42 | File | `/vendor/views/add_product.php` | High
+43 | ... | ... | ...
 
-There are 356 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 374 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -103,6 +108,23 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://cloudsecurityalliance.org/blog/2023/06/15/chaos-malware-quietly-evolves-persistence-and-evasion-techniques/
 * https://community.blueliv.com/#!/s/63353bd382df413eb5359c9b
+* https://search.censys.io/hosts/3.120.164.69
+* https://search.censys.io/hosts/45.14.185.146
+* https://search.censys.io/hosts/45.76.80.199
+* https://search.censys.io/hosts/47.103.98.239
+* https://search.censys.io/hosts/47.113.145.151
+* https://search.censys.io/hosts/50.193.250.21
+* https://search.censys.io/hosts/52.0.83.31
+* https://search.censys.io/hosts/64.227.71.105
+* https://search.censys.io/hosts/79.137.51.184
+* https://search.censys.io/hosts/93.90.59.79
+* https://search.censys.io/hosts/94.21.157.169
+* https://search.censys.io/hosts/100.25.226.74
+* https://search.censys.io/hosts/103.56.19.194
+* https://search.censys.io/hosts/116.203.230.194
+* https://search.censys.io/hosts/117.20.108.15
+* https://search.censys.io/hosts/130.61.253.246
+* https://search.censys.io/hosts/161.97.117.117
 
 ## Literature
 

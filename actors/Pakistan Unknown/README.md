@@ -241,7 +241,8 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
 
@@ -281,18 +282,20 @@ ID | Type | Indicator | Confidence
 28 | File | `/out.php` | Medium
 29 | File | `/proxy` | Low
 30 | File | `/reviewer/system/system/admins/manage/users/user-update.php` | High
-31 | File | `/search-result.php` | High
-32 | File | `/search.php` | Medium
-33 | File | `/send_order.cgi?parameter=access_detect` | High
-34 | File | `/spip.php` | Medium
-35 | File | `/text/pdf/PdfReader.java` | High
-36 | File | `/textpattern/index.php` | High
-37 | File | `/tmp` | Low
-38 | File | `/VPortal/mgtconsole/Subscribers.jsp` | High
-39 | File | `/wp-admin/admin-ajax.php` | High
-40 | ... | ... | ...
+31 | File | `/scripts/unlock_tasks.php` | High
+32 | File | `/search-result.php` | High
+33 | File | `/search.php` | Medium
+34 | File | `/send_order.cgi?parameter=access_detect` | High
+35 | File | `/spip.php` | Medium
+36 | File | `/text/pdf/PdfReader.java` | High
+37 | File | `/textpattern/index.php` | High
+38 | File | `/tmp` | Low
+39 | File | `/VPortal/mgtconsole/Subscribers.jsp` | High
+40 | File | `/wp-admin/admin-ajax.php` | High
+41 | File | `account/signup.php` | High
+42 | ... | ... | ...
 
-There are 348 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 360 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

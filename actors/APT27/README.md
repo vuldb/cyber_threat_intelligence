@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 14 more country items available. Please use our online service to access the data.
+There are 15 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -62,48 +62,48 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/cgi-bin/live_api.cgi` | High
-3 | File | `/cgi-bin/wapopen` | High
-4 | File | `/cgi-bin/wlogin.cgi` | High
-5 | File | `/config/getuser` | High
-6 | File | `/csms/?page=contact_us` | High
-7 | File | `/etc/ajenti/config.yml` | High
-8 | File | `/etc/shadow` | Medium
-9 | File | `/forum/away.php` | High
-10 | File | `/goform/telnet` | High
-11 | File | `/h/` | Low
-12 | File | `/infusions/shoutbox_panel/shoutbox_admin.php` | High
-13 | File | `/lan.asp` | Medium
-14 | File | `/modules/profile/index.php` | High
-15 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-16 | File | `/oscommerce/admin/currencies.php` | High
-17 | File | `/proc/pid/syscall` | High
-18 | File | `/public/launchNewWindow.jsp` | High
-19 | File | `/rapi/read_url` | High
-20 | File | `/rom-0` | Low
-21 | File | `/session/list/allActiveSession` | High
-22 | File | `/sys/dict/loadTreeData` | High
-23 | File | `/SysInfo.htm` | Medium
-24 | File | `/syslog_rules` | High
-25 | File | `/uncpath/` | Medium
-26 | File | `/upload` | Low
-27 | File | `/users/{id}` | Medium
-28 | File | `/var/tmp/sess_*` | High
-29 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
-30 | File | `/video` | Low
-31 | File | `actionphp/download.File.php` | High
-32 | File | `ActivityManagerService.java` | High
-33 | File | `adaptmap_reg.c` | High
-34 | File | `add_comment.php` | High
-35 | File | `admin.cgi` | Medium
-36 | File | `admin.php` | Medium
-37 | File | `admin.php?action=files` | High
-38 | File | `admin/admin.php` | High
-39 | File | `admin/content.php` | High
-40 | File | `admin/index.php?id=users/action=edit/user_id=1` | High
+2 | File | `/api/admin/system/store/order/list` | High
+3 | File | `/cgi-bin/live_api.cgi` | High
+4 | File | `/cgi-bin/wapopen` | High
+5 | File | `/cgi-bin/wlogin.cgi` | High
+6 | File | `/config/getuser` | High
+7 | File | `/csms/?page=contact_us` | High
+8 | File | `/etc/ajenti/config.yml` | High
+9 | File | `/etc/shadow` | Medium
+10 | File | `/forum/away.php` | High
+11 | File | `/goform/telnet` | High
+12 | File | `/h/` | Low
+13 | File | `/infusions/shoutbox_panel/shoutbox_admin.php` | High
+14 | File | `/lan.asp` | Medium
+15 | File | `/modules/profile/index.php` | High
+16 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+17 | File | `/oscommerce/admin/currencies.php` | High
+18 | File | `/proc/pid/syscall` | High
+19 | File | `/public/launchNewWindow.jsp` | High
+20 | File | `/rapi/read_url` | High
+21 | File | `/rom-0` | Low
+22 | File | `/session/list/allActiveSession` | High
+23 | File | `/sys/dict/loadTreeData` | High
+24 | File | `/SysInfo.htm` | Medium
+25 | File | `/syslog_rules` | High
+26 | File | `/uncpath/` | Medium
+27 | File | `/upload` | Low
+28 | File | `/users/{id}` | Medium
+29 | File | `/var/tmp/sess_*` | High
+30 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
+31 | File | `/video` | Low
+32 | File | `actionphp/download.File.php` | High
+33 | File | `ActivityManagerService.java` | High
+34 | File | `adaptmap_reg.c` | High
+35 | File | `add_comment.php` | High
+36 | File | `admin.cgi` | Medium
+37 | File | `admin.php` | Medium
+38 | File | `admin.php?action=files` | High
+39 | File | `admin/admin.php` | High
+40 | File | `admin/content.php` | High
 41 | ... | ... | ...
 
-There are 349 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 353 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

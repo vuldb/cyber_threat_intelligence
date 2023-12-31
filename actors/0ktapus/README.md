@@ -76,31 +76,31 @@ ID | Type | Indicator | Confidence
 18 | File | `/ajax.php?action=read_msg` | High
 19 | File | `/api/upload` | Medium
 20 | File | `/api/wechat/app_auth` | High
-21 | File | `/changeimage.php` | High
-22 | File | `/classes/Master.php?f=delete_sub_category` | High
-23 | File | `/cms/category/list` | High
-24 | File | `/company/store` | High
-25 | File | `/debug/pprof` | Medium
-26 | File | `/Default/Bd` | Medium
-27 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
-28 | File | `/domain/add` | Medium
-29 | File | `/donor-wall` | Medium
-30 | File | `/ebics-server/ebics.aspx` | High
-31 | File | `/esbus/servlet/GetSQLData` | High
-32 | File | `/film-rating.php` | High
-33 | File | `/forum/away.php` | High
-34 | File | `/friends/ajax_invite` | High
-35 | File | `/goform/formLogin` | High
-36 | File | `/HNAP1` | Low
-37 | File | `/horde/util/go.php` | High
-38 | File | `/index.php?app=main&func=passport&action=login` | High
-39 | File | `/index.php?page=member` | High
-40 | File | `/ishttpd/localweb/java/` | High
-41 | File | `/KK_LS9ReportingPortal/GetData` | High
-42 | File | `/mcategory.php` | High
+21 | File | `/cgi-bin/system_mgr.cgi` | High
+22 | File | `/changeimage.php` | High
+23 | File | `/classes/Master.php?f=delete_sub_category` | High
+24 | File | `/cms/category/list` | High
+25 | File | `/company/store` | High
+26 | File | `/debug/pprof` | Medium
+27 | File | `/Default/Bd` | Medium
+28 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
+29 | File | `/domain/add` | Medium
+30 | File | `/donor-wall` | Medium
+31 | File | `/ebics-server/ebics.aspx` | High
+32 | File | `/esbus/servlet/GetSQLData` | High
+33 | File | `/film-rating.php` | High
+34 | File | `/forum/away.php` | High
+35 | File | `/friends/ajax_invite` | High
+36 | File | `/goform/formLogin` | High
+37 | File | `/HNAP1` | Low
+38 | File | `/horde/util/go.php` | High
+39 | File | `/index.php?app=main&func=passport&action=login` | High
+40 | File | `/index.php?page=member` | High
+41 | File | `/ishttpd/localweb/java/` | High
+42 | File | `/KK_LS9ReportingPortal/GetData` | High
 43 | ... | ... | ...
 
-There are 370 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 374 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

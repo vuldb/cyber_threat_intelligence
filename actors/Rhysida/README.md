@@ -21,18 +21,19 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [5.161.150.40](https://vuldb.com/?ip.5.161.150.40) | static.40.150.161.5.clients.your-server.de | - | High
-2 | [5.226.141.196](https://vuldb.com/?ip.5.226.141.196) | 196.141.226.5.baremetal.zare.com | - | High
-3 | [5.226.141.198](https://vuldb.com/?ip.5.226.141.198) | 198.141.226.5.baremetal.zare.com | - | High
-4 | [5.255.100.101](https://vuldb.com/?ip.5.255.100.101) | - | - | High
-5 | [5.255.101.30](https://vuldb.com/?ip.5.255.101.30) | - | - | High
-6 | [5.255.103.7](https://vuldb.com/?ip.5.255.103.7) | - | - | High
-7 | [5.255.103.142](https://vuldb.com/?ip.5.255.103.142) | - | - | High
-8 | [5.255.104.237](https://vuldb.com/?ip.5.255.104.237) | - | - | High
-9 | [23.19.58.57](https://vuldb.com/?ip.23.19.58.57) | - | - | High
-10 | ... | ... | ... | ...
+1 | [5.39.222.67](https://vuldb.com/?ip.5.39.222.67) | - | - | High
+2 | [5.161.150.40](https://vuldb.com/?ip.5.161.150.40) | static.40.150.161.5.clients.your-server.de | - | High
+3 | [5.226.141.196](https://vuldb.com/?ip.5.226.141.196) | 196.141.226.5.baremetal.zare.com | - | High
+4 | [5.226.141.198](https://vuldb.com/?ip.5.226.141.198) | 198.141.226.5.baremetal.zare.com | - | High
+5 | [5.255.99.59](https://vuldb.com/?ip.5.255.99.59) | - | - | High
+6 | [5.255.100.101](https://vuldb.com/?ip.5.255.100.101) | - | - | High
+7 | [5.255.101.30](https://vuldb.com/?ip.5.255.101.30) | - | - | High
+8 | [5.255.103.7](https://vuldb.com/?ip.5.255.103.7) | - | - | High
+9 | [5.255.103.142](https://vuldb.com/?ip.5.255.103.142) | - | - | High
+10 | [5.255.104.237](https://vuldb.com/?ip.5.255.104.237) | - | - | High
+11 | ... | ... | ... | ...
 
-There are 37 more IOC items available. Please use our online service to access the data.
+There are 40 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -56,51 +57,50 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `%PROGRAMFILES%\1E\Client\Tachyon.Performance.Metrics.exe` | High
-2 | File | `.rhosts` | Low
-3 | File | `/+CSCOE+/logon.html` | High
-4 | File | `/.vnc/sesman_${username}_passwd` | High
-5 | File | `/admin/maintenance/view_designation.php` | High
-6 | File | `/api/baskets/{name}` | High
-7 | File | `/api/plugin/uninstall` | High
-8 | File | `/api2/html/` | Medium
-9 | File | `/Applications/Utilities/Terminal` | High
-10 | File | `/baseOpLog.do` | High
-11 | File | `/config.cgi?webmin` | High
-12 | File | `/Core/Ap4File.cpp` | High
-13 | File | `/edoc/doctor/patient.php` | High
-14 | File | `/etc/passwd` | Medium
-15 | File | `/filemanager/php/connector.php` | High
-16 | File | `/Forms/tools_test_1` | High
-17 | File | `/forum/away.php` | High
-18 | File | `/forum/PostPrivateMessage` | High
-19 | File | `/general/search.php?searchtype=simple` | High
-20 | File | `/HNAP1` | Low
-21 | File | `/home/cavesConsole` | High
-22 | File | `/irj/portal/` | Medium
-23 | File | `/login` | Low
-24 | File | `/mgm_dev_reboot.asp` | High
-25 | File | `/opt/tplink/EAPController/lib/eap-web-3.2.6.jar` | High
-26 | File | `/param.file.tgz` | High
-27 | File | `/patient/appointment.php` | High
-28 | File | `/product.php` | Medium
-29 | File | `/public/launchNewWindow.jsp` | High
-30 | File | `/spip.php` | Medium
-31 | File | `/Status/wan_button_action.asp` | High
-32 | File | `/sys/user/putRecycleBin` | High
-33 | File | `/template/edit` | High
-34 | File | `/tmp` | Low
-35 | File | `/user/s.php` | Medium
-36 | File | `/usr/bin/lua` | Medium
-37 | File | `/var/log/drachtio` | High
-38 | File | `/wp-json/oembed/1.0/embed?url` | High
-39 | File | `?r=recruit/bgchecks/export&checkids=x` | High
-40 | File | `?r=weibo/comment/addcomment` | High
-41 | File | `adclick.php` | Medium
-42 | File | `add-patient.php` | High
-43 | ... | ... | ...
+1 | File | `.rhosts` | Low
+2 | File | `/+CSCOE+/logon.html` | High
+3 | File | `/.vnc/sesman_${username}_passwd` | High
+4 | File | `/?r=email/api/mark&op=delFromSend` | High
+5 | File | `/admin/invoice.php` | High
+6 | File | `/admin/maintenance/view_designation.php` | High
+7 | File | `/api/baskets/{name}` | High
+8 | File | `/api/plugin/uninstall` | High
+9 | File | `/api2/html/` | Medium
+10 | File | `/Applications/Utilities/Terminal` | High
+11 | File | `/baseOpLog.do` | High
+12 | File | `/cms/category/list` | High
+13 | File | `/config.cgi?webmin` | High
+14 | File | `/edoc/doctor/patient.php` | High
+15 | File | `/etc/passwd` | Medium
+16 | File | `/filemanager/php/connector.php` | High
+17 | File | `/Forms/tools_test_1` | High
+18 | File | `/forum/away.php` | High
+19 | File | `/forum/PostPrivateMessage` | High
+20 | File | `/general/search.php?searchtype=simple` | High
+21 | File | `/goform/setSnmpInfo` | High
+22 | File | `/goform/WifiBasicSet` | High
+23 | File | `/HNAP1` | Low
+24 | File | `/home/cavesConsole` | High
+25 | File | `/irj/portal/` | Medium
+26 | File | `/login` | Low
+27 | File | `/mgm_dev_reboot.asp` | High
+28 | File | `/opt/tplink/EAPController/lib/eap-web-3.2.6.jar` | High
+29 | File | `/param.file.tgz` | High
+30 | File | `/patient/appointment.php` | High
+31 | File | `/product.php` | Medium
+32 | File | `/public/launchNewWindow.jsp` | High
+33 | File | `/search.php` | Medium
+34 | File | `/Status/wan_button_action.asp` | High
+35 | File | `/sys/user/putRecycleBin` | High
+36 | File | `/sysmanage/importconf.php` | High
+37 | File | `/template/edit` | High
+38 | File | `/tmp` | Low
+39 | File | `/user/s.php` | Medium
+40 | File | `/usr/bin/lua` | Medium
+41 | File | `/var/log/drachtio` | High
+42 | ... | ... | ...
 
-There are 368 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 363 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -108,6 +108,7 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://github.com/prodaft/malware-ioc/tree/master/ViceSociety
 * https://research.checkpoint.com/2023/the-rhysida-ransomware-activity-analysis-and-ties-to-vice-society/
+* https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-319a
 
 ## Literature
 

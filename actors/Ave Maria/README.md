@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Ave Maria:
 
 * [US](https://vuldb.com/?country.us)
-* [SH](https://vuldb.com/?country.sh)
 * [CN](https://vuldb.com/?country.cn)
+* [SH](https://vuldb.com/?country.sh)
 * ...
 
-There are 13 more country items available. Please use our online service to access the data.
+There are 18 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -85,163 +85,169 @@ ID | IP address | Hostname | Campaign | Confidence
 62 | [23.105.131.243](https://vuldb.com/?ip.23.105.131.243) | mail243.nessfist.com | - | High
 63 | [23.106.121.172](https://vuldb.com/?ip.23.106.121.172) | - | - | High
 64 | [23.226.130.102](https://vuldb.com/?ip.23.226.130.102) | 23.226.130.102.static.greencloudvps.com | - | High
-65 | [23.227.199.106](https://vuldb.com/?ip.23.227.199.106) | 23-227-199-106.static.hvvc.us | - | High
-66 | [23.227.202.157](https://vuldb.com/?ip.23.227.202.157) | 23-227-202-157.static.hvvc.us | - | High
-67 | [23.227.203.214](https://vuldb.com/?ip.23.227.203.214) | 23-227-203-214.static.hvvc.us | - | High
-68 | [23.254.230.117](https://vuldb.com/?ip.23.254.230.117) | client-23-254-230-117.hostwindsdns.com | - | High
-69 | [24.152.37.45](https://vuldb.com/?ip.24.152.37.45) | 24-152-37-45.masterdaweb.com | - | High
-70 | [31.210.20.4](https://vuldb.com/?ip.31.210.20.4) | - | - | High
-71 | [31.210.20.155](https://vuldb.com/?ip.31.210.20.155) | - | - | High
-72 | [31.210.20.207](https://vuldb.com/?ip.31.210.20.207) | - | - | High
-73 | [31.210.20.231](https://vuldb.com/?ip.31.210.20.231) | - | - | High
-74 | [34.92.152.18](https://vuldb.com/?ip.34.92.152.18) | 18.152.92.34.bc.googleusercontent.com | - | Medium
-75 | [35.171.18.39](https://vuldb.com/?ip.35.171.18.39) | ec2-35-171-18-39.compute-1.amazonaws.com | - | Medium
-76 | [35.181.21.143](https://vuldb.com/?ip.35.181.21.143) | ec2-35-181-21-143.eu-west-3.compute.amazonaws.com | - | Medium
-77 | [37.0.8.145](https://vuldb.com/?ip.37.0.8.145) | elliott.athinneru.com | - | High
-78 | [37.0.10.69](https://vuldb.com/?ip.37.0.10.69) | - | - | High
-79 | [37.0.10.141](https://vuldb.com/?ip.37.0.10.141) | - | - | High
-80 | [37.0.10.166](https://vuldb.com/?ip.37.0.10.166) | - | - | High
-81 | [37.0.11.205](https://vuldb.com/?ip.37.0.11.205) | - | - | High
-82 | [37.0.11.237](https://vuldb.com/?ip.37.0.11.237) | - | - | High
-83 | [37.0.14.195](https://vuldb.com/?ip.37.0.14.195) | - | - | High
-84 | [37.0.14.197](https://vuldb.com/?ip.37.0.14.197) | - | - | High
-85 | [37.0.14.198](https://vuldb.com/?ip.37.0.14.198) | - | - | High
-86 | [37.0.14.201](https://vuldb.com/?ip.37.0.14.201) | - | - | High
-87 | [37.0.14.202](https://vuldb.com/?ip.37.0.14.202) | - | - | High
-88 | [37.0.14.204](https://vuldb.com/?ip.37.0.14.204) | - | - | High
-89 | [37.0.14.205](https://vuldb.com/?ip.37.0.14.205) | - | - | High
-90 | [37.0.14.206](https://vuldb.com/?ip.37.0.14.206) | - | - | High
-91 | [37.0.14.207](https://vuldb.com/?ip.37.0.14.207) | - | - | High
-92 | [37.0.14.208](https://vuldb.com/?ip.37.0.14.208) | - | - | High
-93 | [37.0.14.209](https://vuldb.com/?ip.37.0.14.209) | - | - | High
-94 | [37.0.14.210](https://vuldb.com/?ip.37.0.14.210) | host-37-0-14-210.static.deli-one.co.uk | - | High
-95 | [37.0.14.211](https://vuldb.com/?ip.37.0.14.211) | - | - | High
-96 | [37.0.14.212](https://vuldb.com/?ip.37.0.14.212) | - | - | High
-97 | [37.0.14.215](https://vuldb.com/?ip.37.0.14.215) | - | - | High
-98 | [37.0.14.216](https://vuldb.com/?ip.37.0.14.216) | - | - | High
-99 | [37.0.14.217](https://vuldb.com/?ip.37.0.14.217) | - | - | High
-100 | [37.19.193.217](https://vuldb.com/?ip.37.19.193.217) | unn-37-19-193-217.cdn77.com | - | High
-101 | [37.46.150.67](https://vuldb.com/?ip.37.46.150.67) | - | - | High
-102 | [37.46.150.86](https://vuldb.com/?ip.37.46.150.86) | - | - | High
-103 | [37.49.225.194](https://vuldb.com/?ip.37.49.225.194) | - | - | High
-104 | [37.49.230.168](https://vuldb.com/?ip.37.49.230.168) | - | - | High
-105 | [37.120.155.179](https://vuldb.com/?ip.37.120.155.179) | - | - | High
-106 | [37.120.206.69](https://vuldb.com/?ip.37.120.206.69) | - | - | High
-107 | [37.120.208.43](https://vuldb.com/?ip.37.120.208.43) | - | - | High
-108 | [37.120.210.211](https://vuldb.com/?ip.37.120.210.211) | - | - | High
-109 | [37.120.222.54](https://vuldb.com/?ip.37.120.222.54) | - | - | High
-110 | [37.120.247.13](https://vuldb.com/?ip.37.120.247.13) | - | - | High
-111 | [37.120.247.211](https://vuldb.com/?ip.37.120.247.211) | - | - | High
-112 | [37.139.34.62](https://vuldb.com/?ip.37.139.34.62) | 62.mcs.mail.ru | - | High
-113 | [37.139.129.47](https://vuldb.com/?ip.37.139.129.47) | - | - | High
-114 | [37.139.129.100](https://vuldb.com/?ip.37.139.129.100) | - | - | High
-115 | [37.187.186.28](https://vuldb.com/?ip.37.187.186.28) | ip28.ip-37-187-186.eu | - | High
-116 | [37.187.222.230](https://vuldb.com/?ip.37.187.222.230) | ip230.ip-37-187-222.eu | - | High
-117 | [37.220.87.3](https://vuldb.com/?ip.37.220.87.3) | ipn-37-220-87-3.artem-catv.ru | - | High
-118 | [37.221.113.65](https://vuldb.com/?ip.37.221.113.65) | - | - | High
-119 | [38.68.41.122](https://vuldb.com/?ip.38.68.41.122) | - | - | High
-120 | [38.117.65.122](https://vuldb.com/?ip.38.117.65.122) | 38-117-65-122.static-ip.ravand.ca | - | High
-121 | [38.132.114.178](https://vuldb.com/?ip.38.132.114.178) | - | - | High
-122 | [38.170.239.42](https://vuldb.com/?ip.38.170.239.42) | - | - | High
-123 | [38.255.42.252](https://vuldb.com/?ip.38.255.42.252) | - | - | High
-124 | [40.83.20.77](https://vuldb.com/?ip.40.83.20.77) | - | - | High
-125 | [40.83.220.150](https://vuldb.com/?ip.40.83.220.150) | - | - | High
-126 | [40.84.216.183](https://vuldb.com/?ip.40.84.216.183) | - | - | High
-127 | [41.185.97.216](https://vuldb.com/?ip.41.185.97.216) | - | - | High
-128 | [41.216.183.52](https://vuldb.com/?ip.41.216.183.52) | - | - | High
-129 | [41.216.188.29](https://vuldb.com/?ip.41.216.188.29) | - | - | High
-130 | [43.226.229.43](https://vuldb.com/?ip.43.226.229.43) | - | - | High
-131 | [45.8.146.20](https://vuldb.com/?ip.45.8.146.20) | vm1480953.stark-industries.solutions | - | High
-132 | [45.12.253.22](https://vuldb.com/?ip.45.12.253.22) | - | - | High
-133 | [45.12.253.146](https://vuldb.com/?ip.45.12.253.146) | - | - | High
-134 | [45.12.253.202](https://vuldb.com/?ip.45.12.253.202) | - | - | High
-135 | [45.15.143.216](https://vuldb.com/?ip.45.15.143.216) | - | - | High
-136 | [45.15.156.33](https://vuldb.com/?ip.45.15.156.33) | - | - | High
-137 | [45.42.45.245](https://vuldb.com/?ip.45.42.45.245) | - | - | High
-138 | [45.59.119.153](https://vuldb.com/?ip.45.59.119.153) | - | - | High
-139 | [45.59.119.212](https://vuldb.com/?ip.45.59.119.212) | - | - | High
-140 | [45.61.128.246](https://vuldb.com/?ip.45.61.128.246) | - | - | High
-141 | [45.61.136.88](https://vuldb.com/?ip.45.61.136.88) | - | - | High
-142 | [45.61.136.129](https://vuldb.com/?ip.45.61.136.129) | - | - | High
-143 | [45.61.175.241](https://vuldb.com/?ip.45.61.175.241) | - | - | High
-144 | [45.66.230.22](https://vuldb.com/?ip.45.66.230.22) | - | - | High
-145 | [45.66.230.108](https://vuldb.com/?ip.45.66.230.108) | - | - | High
-146 | [45.72.96.199](https://vuldb.com/?ip.45.72.96.199) | - | - | High
-147 | [45.74.4.244](https://vuldb.com/?ip.45.74.4.244) | - | - | High
-148 | [45.81.39.33](https://vuldb.com/?ip.45.81.39.33) | - | - | High
-149 | [45.81.39.55](https://vuldb.com/?ip.45.81.39.55) | - | - | High
-150 | [45.81.39.89](https://vuldb.com/?ip.45.81.39.89) | - | - | High
-151 | [45.81.150.32](https://vuldb.com/?ip.45.81.150.32) | - | - | High
-152 | [45.83.129.166](https://vuldb.com/?ip.45.83.129.166) | - | - | High
-153 | [45.87.61.105](https://vuldb.com/?ip.45.87.61.105) | - | - | High
-154 | [45.87.61.139](https://vuldb.com/?ip.45.87.61.139) | - | - | High
-155 | [45.87.61.202](https://vuldb.com/?ip.45.87.61.202) | - | - | High
-156 | [45.87.62.181](https://vuldb.com/?ip.45.87.62.181) | - | - | High
-157 | [45.87.63.121](https://vuldb.com/?ip.45.87.63.121) | - | - | High
-158 | [45.88.67.9](https://vuldb.com/?ip.45.88.67.9) | - | - | High
-159 | [45.88.67.63](https://vuldb.com/?ip.45.88.67.63) | - | - | High
-160 | [45.88.67.72](https://vuldb.com/?ip.45.88.67.72) | - | - | High
-161 | [45.88.67.103](https://vuldb.com/?ip.45.88.67.103) | - | - | High
-162 | [45.88.67.145](https://vuldb.com/?ip.45.88.67.145) | - | - | High
-163 | [45.88.79.162](https://vuldb.com/?ip.45.88.79.162) | free.example.com | - | High
-164 | [45.90.222.97](https://vuldb.com/?ip.45.90.222.97) | 45-90-222-97-hostedby.bcr.host | - | High
-165 | [45.95.168.83](https://vuldb.com/?ip.45.95.168.83) | - | - | High
-166 | [45.124.54.94](https://vuldb.com/?ip.45.124.54.94) | maccullohmelb | - | High
-167 | [45.127.101.18](https://vuldb.com/?ip.45.127.101.18) | - | - | High
-168 | [45.132.106.37](https://vuldb.com/?ip.45.132.106.37) | vm4440858.34ssd.had.wf | - | High
-169 | [45.133.1.34](https://vuldb.com/?ip.45.133.1.34) | - | - | High
-170 | [45.133.174.153](https://vuldb.com/?ip.45.133.174.153) | - | - | High
-171 | [45.135.164.194](https://vuldb.com/?ip.45.135.164.194) | ibera.togeteheran.com | - | High
-172 | [45.137.22.35](https://vuldb.com/?ip.45.137.22.35) | hosted-by.rootlayer.net | - | High
-173 | [45.137.22.45](https://vuldb.com/?ip.45.137.22.45) | hosted-by.rootlayer.net | - | High
-174 | [45.137.22.62](https://vuldb.com/?ip.45.137.22.62) | hosted-by.rootlayer.net | - | High
-175 | [45.137.22.70](https://vuldb.com/?ip.45.137.22.70) | hosted-by.rootlayer.net | - | High
-176 | [45.137.22.79](https://vuldb.com/?ip.45.137.22.79) | hosted-by.rootlayer.net | - | High
-177 | [45.137.22.89](https://vuldb.com/?ip.45.137.22.89) | hosted-by.rootlayer.net | - | High
-178 | [45.137.22.107](https://vuldb.com/?ip.45.137.22.107) | hosted-by.rootlayer.net | - | High
-179 | [45.137.22.117](https://vuldb.com/?ip.45.137.22.117) | hosted-by.rootlayer.net | - | High
-180 | [45.137.22.123](https://vuldb.com/?ip.45.137.22.123) | hosted-by.rootlayer.net | - | High
-181 | [45.137.22.131](https://vuldb.com/?ip.45.137.22.131) | hosted-by.rootlayer.net | - | High
-182 | [45.137.22.143](https://vuldb.com/?ip.45.137.22.143) | hosted-by.rootlayer.net | - | High
-183 | [45.137.65.132](https://vuldb.com/?ip.45.137.65.132) | vm4266462.34ssd.had.wf | - | High
-184 | [45.137.65.229](https://vuldb.com/?ip.45.137.65.229) | vm4437484.25ssd.had.wf | - | High
-185 | [45.137.116.170](https://vuldb.com/?ip.45.137.116.170) | vps-zap970417-5.zap-srv.com | - | High
-186 | [45.138.16.214](https://vuldb.com/?ip.45.138.16.214) | - | - | High
-187 | [45.138.172.34](https://vuldb.com/?ip.45.138.172.34) | - | - | High
-188 | [45.138.172.56](https://vuldb.com/?ip.45.138.172.56) | - | - | High
-189 | [45.139.105.7](https://vuldb.com/?ip.45.139.105.7) | - | - | High
-190 | [45.139.105.147](https://vuldb.com/?ip.45.139.105.147) | - | - | High
-191 | [45.139.105.174](https://vuldb.com/?ip.45.139.105.174) | - | - | High
-192 | [45.139.105.207](https://vuldb.com/?ip.45.139.105.207) | - | - | High
-193 | [45.139.105.231](https://vuldb.com/?ip.45.139.105.231) | - | - | High
-194 | [45.143.144.94](https://vuldb.com/?ip.45.143.144.94) | - | - | High
-195 | [45.143.146.56](https://vuldb.com/?ip.45.143.146.56) | - | - | High
-196 | [45.143.146.186](https://vuldb.com/?ip.45.143.146.186) | - | - | High
-197 | [45.143.147.163](https://vuldb.com/?ip.45.143.147.163) | - | - | High
-198 | [45.143.147.226](https://vuldb.com/?ip.45.143.147.226) | - | - | High
-199 | [45.144.225.22](https://vuldb.com/?ip.45.144.225.22) | - | - | High
-200 | [45.144.225.112](https://vuldb.com/?ip.45.144.225.112) | - | - | High
-201 | [45.145.185.52](https://vuldb.com/?ip.45.145.185.52) | - | - | High
-202 | [45.145.185.153](https://vuldb.com/?ip.45.145.185.153) | - | - | High
-203 | [45.147.230.113](https://vuldb.com/?ip.45.147.230.113) | - | - | High
-204 | [45.147.231.60](https://vuldb.com/?ip.45.147.231.60) | - | - | High
-205 | [45.150.65.8](https://vuldb.com/?ip.45.150.65.8) | vm1384194.stark-industries.solutions | - | High
-206 | [45.151.122.57](https://vuldb.com/?ip.45.151.122.57) | vmi1478658.contaboserver.net | - | High
-207 | [45.153.203.33](https://vuldb.com/?ip.45.153.203.33) | - | - | High
-208 | [45.153.241.55](https://vuldb.com/?ip.45.153.241.55) | - | - | High
-209 | [45.154.98.130](https://vuldb.com/?ip.45.154.98.130) | powered.by.rdp.sh | - | High
-210 | [45.155.37.81](https://vuldb.com/?ip.45.155.37.81) | - | - | High
-211 | [45.162.228.171](https://vuldb.com/?ip.45.162.228.171) | - | - | High
-212 | [46.3.197.239](https://vuldb.com/?ip.46.3.197.239) | - | - | High
-213 | [46.3.199.112](https://vuldb.com/?ip.46.3.199.112) | - | - | High
-214 | [46.21.147.99](https://vuldb.com/?ip.46.21.147.99) | 46-21-147-99.static.hvvc.us | - | High
-215 | [46.101.159.120](https://vuldb.com/?ip.46.101.159.120) | - | - | High
-216 | [46.183.216.163](https://vuldb.com/?ip.46.183.216.163) | tagoe.lstartanalystconcepts.org.uk | - | High
-217 | [46.183.220.113](https://vuldb.com/?ip.46.183.220.113) | ip-220-113.dataclub.info | - | High
-218 | [46.183.220.120](https://vuldb.com/?ip.46.183.220.120) | ip-220-120.dataclub.info | - | High
-219 | ... | ... | ... | ...
+65 | [23.227.199.39](https://vuldb.com/?ip.23.227.199.39) | autumn.blackcurrants.me | - | High
+66 | [23.227.199.106](https://vuldb.com/?ip.23.227.199.106) | 23-227-199-106.static.hvvc.us | - | High
+67 | [23.227.202.157](https://vuldb.com/?ip.23.227.202.157) | 23-227-202-157.static.hvvc.us | - | High
+68 | [23.227.203.214](https://vuldb.com/?ip.23.227.203.214) | 23-227-203-214.static.hvvc.us | - | High
+69 | [23.254.230.117](https://vuldb.com/?ip.23.254.230.117) | client-23-254-230-117.hostwindsdns.com | - | High
+70 | [24.152.37.45](https://vuldb.com/?ip.24.152.37.45) | 24-152-37-45.masterdaweb.com | - | High
+71 | [31.210.20.4](https://vuldb.com/?ip.31.210.20.4) | - | - | High
+72 | [31.210.20.155](https://vuldb.com/?ip.31.210.20.155) | - | - | High
+73 | [31.210.20.207](https://vuldb.com/?ip.31.210.20.207) | - | - | High
+74 | [31.210.20.231](https://vuldb.com/?ip.31.210.20.231) | - | - | High
+75 | [31.220.99.254](https://vuldb.com/?ip.31.220.99.254) | vmi1549599.contaboserver.net | - | High
+76 | [34.92.152.18](https://vuldb.com/?ip.34.92.152.18) | 18.152.92.34.bc.googleusercontent.com | - | Medium
+77 | [35.171.18.39](https://vuldb.com/?ip.35.171.18.39) | ec2-35-171-18-39.compute-1.amazonaws.com | - | Medium
+78 | [35.181.21.143](https://vuldb.com/?ip.35.181.21.143) | ec2-35-181-21-143.eu-west-3.compute.amazonaws.com | - | Medium
+79 | [37.0.8.145](https://vuldb.com/?ip.37.0.8.145) | elliott.athinneru.com | - | High
+80 | [37.0.10.69](https://vuldb.com/?ip.37.0.10.69) | - | - | High
+81 | [37.0.10.141](https://vuldb.com/?ip.37.0.10.141) | - | - | High
+82 | [37.0.10.166](https://vuldb.com/?ip.37.0.10.166) | - | - | High
+83 | [37.0.11.205](https://vuldb.com/?ip.37.0.11.205) | - | - | High
+84 | [37.0.11.237](https://vuldb.com/?ip.37.0.11.237) | - | - | High
+85 | [37.0.14.195](https://vuldb.com/?ip.37.0.14.195) | - | - | High
+86 | [37.0.14.197](https://vuldb.com/?ip.37.0.14.197) | - | - | High
+87 | [37.0.14.198](https://vuldb.com/?ip.37.0.14.198) | - | - | High
+88 | [37.0.14.201](https://vuldb.com/?ip.37.0.14.201) | - | - | High
+89 | [37.0.14.202](https://vuldb.com/?ip.37.0.14.202) | - | - | High
+90 | [37.0.14.204](https://vuldb.com/?ip.37.0.14.204) | - | - | High
+91 | [37.0.14.205](https://vuldb.com/?ip.37.0.14.205) | - | - | High
+92 | [37.0.14.206](https://vuldb.com/?ip.37.0.14.206) | - | - | High
+93 | [37.0.14.207](https://vuldb.com/?ip.37.0.14.207) | - | - | High
+94 | [37.0.14.208](https://vuldb.com/?ip.37.0.14.208) | - | - | High
+95 | [37.0.14.209](https://vuldb.com/?ip.37.0.14.209) | - | - | High
+96 | [37.0.14.210](https://vuldb.com/?ip.37.0.14.210) | host-37-0-14-210.static.deli-one.co.uk | - | High
+97 | [37.0.14.211](https://vuldb.com/?ip.37.0.14.211) | - | - | High
+98 | [37.0.14.212](https://vuldb.com/?ip.37.0.14.212) | - | - | High
+99 | [37.0.14.215](https://vuldb.com/?ip.37.0.14.215) | - | - | High
+100 | [37.0.14.216](https://vuldb.com/?ip.37.0.14.216) | - | - | High
+101 | [37.0.14.217](https://vuldb.com/?ip.37.0.14.217) | - | - | High
+102 | [37.19.193.217](https://vuldb.com/?ip.37.19.193.217) | unn-37-19-193-217.cdn77.com | - | High
+103 | [37.46.150.67](https://vuldb.com/?ip.37.46.150.67) | - | - | High
+104 | [37.46.150.86](https://vuldb.com/?ip.37.46.150.86) | - | - | High
+105 | [37.49.225.194](https://vuldb.com/?ip.37.49.225.194) | - | - | High
+106 | [37.49.230.168](https://vuldb.com/?ip.37.49.230.168) | - | - | High
+107 | [37.120.155.179](https://vuldb.com/?ip.37.120.155.179) | - | - | High
+108 | [37.120.206.69](https://vuldb.com/?ip.37.120.206.69) | - | - | High
+109 | [37.120.208.43](https://vuldb.com/?ip.37.120.208.43) | - | - | High
+110 | [37.120.210.211](https://vuldb.com/?ip.37.120.210.211) | - | - | High
+111 | [37.120.222.54](https://vuldb.com/?ip.37.120.222.54) | - | - | High
+112 | [37.120.247.13](https://vuldb.com/?ip.37.120.247.13) | - | - | High
+113 | [37.120.247.211](https://vuldb.com/?ip.37.120.247.211) | - | - | High
+114 | [37.139.34.62](https://vuldb.com/?ip.37.139.34.62) | 62.mcs.mail.ru | - | High
+115 | [37.139.129.47](https://vuldb.com/?ip.37.139.129.47) | - | - | High
+116 | [37.139.129.100](https://vuldb.com/?ip.37.139.129.100) | - | - | High
+117 | [37.187.186.28](https://vuldb.com/?ip.37.187.186.28) | ip28.ip-37-187-186.eu | - | High
+118 | [37.187.222.230](https://vuldb.com/?ip.37.187.222.230) | ip230.ip-37-187-222.eu | - | High
+119 | [37.220.87.3](https://vuldb.com/?ip.37.220.87.3) | ipn-37-220-87-3.artem-catv.ru | - | High
+120 | [37.221.113.65](https://vuldb.com/?ip.37.221.113.65) | - | - | High
+121 | [38.68.41.122](https://vuldb.com/?ip.38.68.41.122) | - | - | High
+122 | [38.117.65.122](https://vuldb.com/?ip.38.117.65.122) | 38-117-65-122.static-ip.ravand.ca | - | High
+123 | [38.132.114.178](https://vuldb.com/?ip.38.132.114.178) | - | - | High
+124 | [38.170.239.42](https://vuldb.com/?ip.38.170.239.42) | - | - | High
+125 | [38.170.239.48](https://vuldb.com/?ip.38.170.239.48) | - | - | High
+126 | [38.255.42.181](https://vuldb.com/?ip.38.255.42.181) | - | - | High
+127 | [38.255.42.252](https://vuldb.com/?ip.38.255.42.252) | - | - | High
+128 | [40.83.20.77](https://vuldb.com/?ip.40.83.20.77) | - | - | High
+129 | [40.83.220.150](https://vuldb.com/?ip.40.83.220.150) | - | - | High
+130 | [40.84.216.183](https://vuldb.com/?ip.40.84.216.183) | - | - | High
+131 | [41.185.97.216](https://vuldb.com/?ip.41.185.97.216) | - | - | High
+132 | [41.216.183.52](https://vuldb.com/?ip.41.216.183.52) | - | - | High
+133 | [41.216.188.29](https://vuldb.com/?ip.41.216.188.29) | - | - | High
+134 | [43.226.229.43](https://vuldb.com/?ip.43.226.229.43) | - | - | High
+135 | [45.8.146.20](https://vuldb.com/?ip.45.8.146.20) | vm1480953.stark-industries.solutions | - | High
+136 | [45.12.253.22](https://vuldb.com/?ip.45.12.253.22) | - | - | High
+137 | [45.12.253.146](https://vuldb.com/?ip.45.12.253.146) | - | - | High
+138 | [45.12.253.202](https://vuldb.com/?ip.45.12.253.202) | - | - | High
+139 | [45.15.143.216](https://vuldb.com/?ip.45.15.143.216) | - | - | High
+140 | [45.15.156.33](https://vuldb.com/?ip.45.15.156.33) | - | - | High
+141 | [45.42.45.245](https://vuldb.com/?ip.45.42.45.245) | - | - | High
+142 | [45.59.119.153](https://vuldb.com/?ip.45.59.119.153) | - | - | High
+143 | [45.59.119.212](https://vuldb.com/?ip.45.59.119.212) | - | - | High
+144 | [45.61.128.246](https://vuldb.com/?ip.45.61.128.246) | - | - | High
+145 | [45.61.136.88](https://vuldb.com/?ip.45.61.136.88) | - | - | High
+146 | [45.61.136.129](https://vuldb.com/?ip.45.61.136.129) | - | - | High
+147 | [45.61.171.47](https://vuldb.com/?ip.45.61.171.47) | - | - | High
+148 | [45.61.175.241](https://vuldb.com/?ip.45.61.175.241) | - | - | High
+149 | [45.66.230.22](https://vuldb.com/?ip.45.66.230.22) | - | - | High
+150 | [45.66.230.108](https://vuldb.com/?ip.45.66.230.108) | - | - | High
+151 | [45.72.96.199](https://vuldb.com/?ip.45.72.96.199) | - | - | High
+152 | [45.74.4.244](https://vuldb.com/?ip.45.74.4.244) | - | - | High
+153 | [45.81.39.33](https://vuldb.com/?ip.45.81.39.33) | - | - | High
+154 | [45.81.39.55](https://vuldb.com/?ip.45.81.39.55) | - | - | High
+155 | [45.81.39.89](https://vuldb.com/?ip.45.81.39.89) | - | - | High
+156 | [45.81.150.32](https://vuldb.com/?ip.45.81.150.32) | - | - | High
+157 | [45.83.129.166](https://vuldb.com/?ip.45.83.129.166) | - | - | High
+158 | [45.87.61.105](https://vuldb.com/?ip.45.87.61.105) | - | - | High
+159 | [45.87.61.139](https://vuldb.com/?ip.45.87.61.139) | - | - | High
+160 | [45.87.61.156](https://vuldb.com/?ip.45.87.61.156) | - | - | High
+161 | [45.87.61.202](https://vuldb.com/?ip.45.87.61.202) | - | - | High
+162 | [45.87.62.181](https://vuldb.com/?ip.45.87.62.181) | - | - | High
+163 | [45.87.63.121](https://vuldb.com/?ip.45.87.63.121) | - | - | High
+164 | [45.88.67.9](https://vuldb.com/?ip.45.88.67.9) | - | - | High
+165 | [45.88.67.63](https://vuldb.com/?ip.45.88.67.63) | - | - | High
+166 | [45.88.67.72](https://vuldb.com/?ip.45.88.67.72) | - | - | High
+167 | [45.88.67.103](https://vuldb.com/?ip.45.88.67.103) | - | - | High
+168 | [45.88.67.145](https://vuldb.com/?ip.45.88.67.145) | - | - | High
+169 | [45.88.79.162](https://vuldb.com/?ip.45.88.79.162) | free.example.com | - | High
+170 | [45.90.222.97](https://vuldb.com/?ip.45.90.222.97) | 45-90-222-97-hostedby.bcr.host | - | High
+171 | [45.95.168.83](https://vuldb.com/?ip.45.95.168.83) | - | - | High
+172 | [45.124.54.94](https://vuldb.com/?ip.45.124.54.94) | maccullohmelb | - | High
+173 | [45.127.101.18](https://vuldb.com/?ip.45.127.101.18) | - | - | High
+174 | [45.132.106.37](https://vuldb.com/?ip.45.132.106.37) | vm4440858.34ssd.had.wf | - | High
+175 | [45.133.1.34](https://vuldb.com/?ip.45.133.1.34) | - | - | High
+176 | [45.133.174.153](https://vuldb.com/?ip.45.133.174.153) | - | - | High
+177 | [45.133.235.148](https://vuldb.com/?ip.45.133.235.148) | - | - | High
+178 | [45.135.164.194](https://vuldb.com/?ip.45.135.164.194) | ibera.togeteheran.com | - | High
+179 | [45.137.22.35](https://vuldb.com/?ip.45.137.22.35) | hosted-by.rootlayer.net | - | High
+180 | [45.137.22.45](https://vuldb.com/?ip.45.137.22.45) | hosted-by.rootlayer.net | - | High
+181 | [45.137.22.62](https://vuldb.com/?ip.45.137.22.62) | hosted-by.rootlayer.net | - | High
+182 | [45.137.22.70](https://vuldb.com/?ip.45.137.22.70) | hosted-by.rootlayer.net | - | High
+183 | [45.137.22.79](https://vuldb.com/?ip.45.137.22.79) | hosted-by.rootlayer.net | - | High
+184 | [45.137.22.89](https://vuldb.com/?ip.45.137.22.89) | hosted-by.rootlayer.net | - | High
+185 | [45.137.22.107](https://vuldb.com/?ip.45.137.22.107) | hosted-by.rootlayer.net | - | High
+186 | [45.137.22.117](https://vuldb.com/?ip.45.137.22.117) | hosted-by.rootlayer.net | - | High
+187 | [45.137.22.123](https://vuldb.com/?ip.45.137.22.123) | hosted-by.rootlayer.net | - | High
+188 | [45.137.22.131](https://vuldb.com/?ip.45.137.22.131) | hosted-by.rootlayer.net | - | High
+189 | [45.137.22.143](https://vuldb.com/?ip.45.137.22.143) | hosted-by.rootlayer.net | - | High
+190 | [45.137.65.132](https://vuldb.com/?ip.45.137.65.132) | vm4266462.34ssd.had.wf | - | High
+191 | [45.137.65.229](https://vuldb.com/?ip.45.137.65.229) | vm4437484.25ssd.had.wf | - | High
+192 | [45.137.116.170](https://vuldb.com/?ip.45.137.116.170) | vps-zap970417-5.zap-srv.com | - | High
+193 | [45.138.16.214](https://vuldb.com/?ip.45.138.16.214) | - | - | High
+194 | [45.138.172.34](https://vuldb.com/?ip.45.138.172.34) | - | - | High
+195 | [45.138.172.56](https://vuldb.com/?ip.45.138.172.56) | - | - | High
+196 | [45.139.105.7](https://vuldb.com/?ip.45.139.105.7) | - | - | High
+197 | [45.139.105.147](https://vuldb.com/?ip.45.139.105.147) | - | - | High
+198 | [45.139.105.174](https://vuldb.com/?ip.45.139.105.174) | - | - | High
+199 | [45.139.105.207](https://vuldb.com/?ip.45.139.105.207) | - | - | High
+200 | [45.139.105.231](https://vuldb.com/?ip.45.139.105.231) | - | - | High
+201 | [45.143.144.94](https://vuldb.com/?ip.45.143.144.94) | - | - | High
+202 | [45.143.146.56](https://vuldb.com/?ip.45.143.146.56) | - | - | High
+203 | [45.143.146.186](https://vuldb.com/?ip.45.143.146.186) | - | - | High
+204 | [45.143.147.163](https://vuldb.com/?ip.45.143.147.163) | - | - | High
+205 | [45.143.147.226](https://vuldb.com/?ip.45.143.147.226) | - | - | High
+206 | [45.144.225.22](https://vuldb.com/?ip.45.144.225.22) | - | - | High
+207 | [45.144.225.112](https://vuldb.com/?ip.45.144.225.112) | - | - | High
+208 | [45.145.185.52](https://vuldb.com/?ip.45.145.185.52) | - | - | High
+209 | [45.145.185.153](https://vuldb.com/?ip.45.145.185.153) | - | - | High
+210 | [45.147.230.113](https://vuldb.com/?ip.45.147.230.113) | - | - | High
+211 | [45.147.231.60](https://vuldb.com/?ip.45.147.231.60) | - | - | High
+212 | [45.150.65.8](https://vuldb.com/?ip.45.150.65.8) | vm1384194.stark-industries.solutions | - | High
+213 | [45.151.122.57](https://vuldb.com/?ip.45.151.122.57) | vmi1478658.contaboserver.net | - | High
+214 | [45.153.203.33](https://vuldb.com/?ip.45.153.203.33) | - | - | High
+215 | [45.153.241.55](https://vuldb.com/?ip.45.153.241.55) | - | - | High
+216 | [45.154.98.130](https://vuldb.com/?ip.45.154.98.130) | powered.by.rdp.sh | - | High
+217 | [45.155.37.81](https://vuldb.com/?ip.45.155.37.81) | - | - | High
+218 | [45.162.228.171](https://vuldb.com/?ip.45.162.228.171) | - | - | High
+219 | [46.3.197.239](https://vuldb.com/?ip.46.3.197.239) | - | - | High
+220 | [46.3.199.112](https://vuldb.com/?ip.46.3.199.112) | - | - | High
+221 | [46.21.147.99](https://vuldb.com/?ip.46.21.147.99) | 46-21-147-99.static.hvvc.us | - | High
+222 | [46.101.159.120](https://vuldb.com/?ip.46.101.159.120) | - | - | High
+223 | [46.183.216.163](https://vuldb.com/?ip.46.183.216.163) | tagoe.lstartanalystconcepts.org.uk | - | High
+224 | [46.183.220.113](https://vuldb.com/?ip.46.183.220.113) | ip-220-113.dataclub.info | - | High
+225 | ... | ... | ... | ...
 
-There are 871 more IOC items available. Please use our online service to access the data.
+There are 897 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -250,13 +256,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Pathname Traversal | High
-2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -264,57 +270,46 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/about-us.php` | High
-2 | File | `/admin/maintenance/view_designation.php` | High
-3 | File | `/admin/save.php` | High
-4 | File | `/api/baskets/{name}` | High
-5 | File | `/api/download` | High
-6 | File | `/api/v1/alerts` | High
-7 | File | `/api/v1/terminal/sessions/?limit=1` | High
-8 | File | `/api/v4/users/ids` | High
-9 | File | `/apply.cgi` | Medium
-10 | File | `/bitrix/admin/ldap_server_edit.php` | High
-11 | File | `/category.php` | High
-12 | File | `/categorypage.php` | High
-13 | File | `/CCMAdmin/serverlist.asp` | High
-14 | File | `/cgi-bin/luci/api/wireless` | High
-15 | File | `/cgi-bin/vitogate.cgi` | High
-16 | File | `/cgi-bin/wlogin.cgi` | High
-17 | File | `/cgi/get_param.cgi` | High
-18 | File | `/collection/all` | High
-19 | File | `/config/php.ini` | High
-20 | File | `/Content/Template/root/reverse-shell.aspx` | High
-21 | File | `/core/conditions/AbstractWrapper.java` | High
-22 | File | `/cstecgi.cgi` | Medium
-23 | File | `/ecrire/exec/puce_statut.php` | High
-24 | File | `/fcgi/scrut_fcgi.fcgi` | High
-25 | File | `/files/` | Low
+1 | File | `%PROGRAMFILES(X86)%\TSplus\UserDesktop\themes.` | High
+2 | File | `%SYSTEMDRIVE%\node_modules\.bin\wmic.exe` | High
+3 | File | `//proc/kcore` | Medium
+4 | File | `/admin/general.cgi` | High
+5 | File | `/admin/index2.html` | High
+6 | File | `/admin/maintenance/view_designation.php` | High
+7 | File | `/admin/save.php` | High
+8 | File | `/admin/search-appointment.php` | High
+9 | File | `/api/admin/system/store/order/list` | High
+10 | File | `/api/baskets/{name}` | High
+11 | File | `/api/download` | High
+12 | File | `/api/v1/alerts` | High
+13 | File | `/api/v1/terminal/sessions/?limit=1` | High
+14 | File | `/api/v4/users/ids` | High
+15 | File | `/apply.cgi` | Medium
+16 | File | `/b2b-supermarket/shopping-cart` | High
+17 | File | `/bitrix/admin/ldap_server_edit.php` | High
+18 | File | `/category.php` | High
+19 | File | `/categorypage.php` | High
+20 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+21 | File | `/cgi-bin/vitogate.cgi` | High
+22 | File | `/config/php.ini` | High
+23 | File | `/debug/pprof` | Medium
+24 | File | `/etc/shadow` | Medium
+25 | File | `/fcgi/scrut_fcgi.fcgi` | High
 26 | File | `/forum/away.php` | High
-27 | File | `/HNAP1` | Low
-28 | File | `/index.php` | Medium
-29 | File | `/index.php?p=admin/actions/users/send-password-reset-email` | High
-30 | File | `/jeecg-boot/sys/common/upload` | High
-31 | File | `/knowage/restful-services/dossier/importTemplateFile` | High
-32 | File | `/log/decodmail.php` | High
-33 | File | `/mhds/clinic/view_details.php` | High
-34 | File | `/northstar/Portal/processlogin.jsp` | High
-35 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
-36 | File | `/out.php` | Medium
-37 | File | `/proxy` | Low
-38 | File | `/register.do` | Medium
-39 | File | `/rest/api/latest/projectvalidate/key` | High
-40 | File | `/RPS2019Service/status.html` | High
-41 | File | `/scripts/unlock_tasks.php` | High
-42 | File | `/sicweb-ajax/tmproot/` | High
-43 | File | `/spip.php` | Medium
-44 | File | `/staff/edit_book_details.php` | High
-45 | File | `/subsys/net/l2/wifi/wifi_shell.c` | High
-46 | File | `/SysManage/AddUpdateRole.aspx` | High
-47 | File | `/sysmanage/importconf.php` | High
-48 | File | `/system/user/modules/mod_users/controller.php` | High
-49 | ... | ... | ...
+27 | File | `/geoserver/gwc/rest.html` | High
+28 | File | `/goform/formSysCmd` | High
+29 | File | `/HNAP1` | Low
+30 | File | `/listplace/user/ticket/create` | High
+31 | File | `/mhds/clinic/view_details.php` | High
+32 | File | `/oauth/idp/.well-known/openid-configuration` | High
+33 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
+34 | File | `/proxy` | Low
+35 | File | `/rest/api/latest/projectvalidate/key` | High
+36 | File | `/RPS2019Service/status.html` | High
+37 | File | `/setting` | Medium
+38 | ... | ... | ...
 
-There are 426 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 331 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

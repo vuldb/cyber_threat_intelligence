@@ -60,32 +60,34 @@ ID | Type | Indicator | Confidence
 11 | File | `/product_list.php` | High
 12 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
 13 | File | `/services/details.asp` | High
-14 | File | `/uncpath/` | Medium
-15 | File | `account/signup.php` | High
-16 | File | `action/usermanager.htm` | High
-17 | File | `adclick.php` | Medium
-18 | File | `add-category.php` | High
-19 | File | `addentry.php` | Medium
-20 | File | `add_comment.php` | High
-21 | File | `add_edit_user.asp` | High
-22 | File | `adm-admlog.php` | High
-23 | File | `admin.php` | Medium
-24 | File | `admin.php3` | Medium
-25 | File | `admin.webring.docs.php` | High
-26 | File | `admin/admin_editor.php` | High
-27 | File | `admin/conf_users_edit.php` | High
-28 | File | `admin_login.asp` | High
-29 | File | `ajax.php` | Medium
-30 | File | `auth-gss2.c` | Medium
-31 | File | `blocks/block-Old_Articles.php` | High
-32 | File | `board.php` | Medium
-33 | File | `books.php` | Medium
-34 | File | `buy.php` | Low
-35 | File | `cashconfirm.php` | High
-36 | File | `category.cfm` | Medium
-37 | ... | ... | ...
+14 | File | `/SystemMng.ashx` | High
+15 | File | `/uncpath/` | Medium
+16 | File | `account/signup.php` | High
+17 | File | `action/usermanager.htm` | High
+18 | File | `adb/adb_client.c` | High
+19 | File | `adclick.php` | Medium
+20 | File | `add-category.php` | High
+21 | File | `addentry.php` | Medium
+22 | File | `add_comment.php` | High
+23 | File | `add_edit_user.asp` | High
+24 | File | `adm-admlog.php` | High
+25 | File | `admin.php` | Medium
+26 | File | `admin.php3` | Medium
+27 | File | `admin.webring.docs.php` | High
+28 | File | `admin/admin_editor.php` | High
+29 | File | `admin/conf_users_edit.php` | High
+30 | File | `admin_login.asp` | High
+31 | File | `ajax.php` | Medium
+32 | File | `auth-gss2.c` | Medium
+33 | File | `blocks/block-Old_Articles.php` | High
+34 | File | `board.php` | Medium
+35 | File | `books.php` | Medium
+36 | File | `buy.php` | Low
+37 | File | `cashconfirm.php` | High
+38 | File | `category.cfm` | Medium
+39 | ... | ... | ...
 
-There are 319 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 334 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

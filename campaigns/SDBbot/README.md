@@ -43,7 +43,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-37 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-37 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
@@ -79,15 +79,16 @@ ID | Type | Indicator | Confidence
 20 | File | `/dosen/data` | Medium
 21 | File | `/Duty/AjaxHandle/Write/UploadFile.ashx` | High
 22 | File | `/etc/puppetlabs/puppetserver/conf.d/ca.conf` | High
-23 | File | `/home/filter_listings` | High
-24 | File | `/im/user/` | Medium
-25 | File | `/index.php` | Medium
-26 | File | `/jeecg-boot/jmreport/upload` | High
-27 | File | `/jeecg-boot/sys/common/upload` | High
-28 | File | `/listplace/user/ticket/create` | High
-29 | ... | ... | ...
+23 | File | `/file-manager/rename.php` | High
+24 | File | `/home/filter_listings` | High
+25 | File | `/im/user/` | Medium
+26 | File | `/index.php` | Medium
+27 | File | `/index.php?pluginApp/to/yzOffice/getFile` | High
+28 | File | `/jeecg-boot/jmreport/upload` | High
+29 | File | `/jeecg-boot/sys/common/upload` | High
+30 | ... | ... | ...
 
-There are 246 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 258 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
-* [ES](https://vuldb.com/?country.es)
+* [IR](https://vuldb.com/?country.ir)
 * ...
 
-There are 15 more country items available. Please use our online service to access the data.
+There are 8 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -40,9 +40,10 @@ ID | IP address | Hostname | Campaign | Confidence
 17 | [37.139.128.51](https://vuldb.com/?ip.37.139.128.51) | - | - | High
 18 | [40.121.49.138](https://vuldb.com/?ip.40.121.49.138) | - | - | High
 19 | [45.77.146.176](https://vuldb.com/?ip.45.77.146.176) | 45.77.146.176.vultrusercontent.com | - | High
-20 | ... | ... | ... | ...
+20 | [45.81.39.90](https://vuldb.com/?ip.45.81.39.90) | - | - | High
+21 | ... | ... | ... | ...
 
-There are 78 more IOC items available. Please use our online service to access the data.
+There are 81 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -50,13 +51,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-36 | Pathname Traversal | High
-2 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
-3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-4 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+1 | T1006 | CWE-22 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 16 more TTP items available. Please use our online service to access the data.
+There are 15 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -64,85 +65,28 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/about.php` | Medium
-2 | File | `/admin` | Low
-3 | File | `/admin/admin.php` | High
-4 | File | `/admin/ajax.php` | High
-5 | File | `/admin/ajax.php?action=save_window` | High
-6 | File | `/Admin/createClass.php` | High
-7 | File | `/admin/edit-accepted-appointment.php` | High
-8 | File | `/admin/edit_product.php` | High
-9 | File | `/admin/includes/send_emails.inc.php` | High
-10 | File | `/admin/index2.html` | High
-11 | File | `/admin/products/manage_product.php` | High
-12 | File | `/admin/products/view_product.php` | High
-13 | File | `/admin/reg.php` | High
-14 | File | `/admin/service.php` | High
-15 | File | `/admin/transactions/track_shipment.php` | High
-16 | File | `/api/admin/store/product/list` | High
-17 | File | `/api/baskets/{name}` | High
-18 | File | `/apply.cgi` | Medium
-19 | File | `/bd_genie_create_account.cgi` | High
-20 | File | `/be/erpc.php` | Medium
-21 | File | `/boat/login.php` | High
-22 | File | `/cardo/api` | Medium
-23 | File | `/category.php` | High
-24 | File | `/cgi-bin/wlogin.cgi` | High
-25 | File | `/cgi.cgi` | Medium
-26 | File | `/changeimage.php` | High
-27 | File | `/check` | Low
-28 | File | `/cimom` | Low
-29 | File | `/client.php` | Medium
-30 | File | `/config/list` | Medium
-31 | File | `/config/myfield/test.php` | High
-32 | File | `/coreframe/app/member/admin/group.php` | High
-33 | File | `/drobopix/api/drobo.php` | High
-34 | File | `/Duty/AjaxHandle/Write/UploadFile.ashx` | High
-35 | File | `/ecommerce/support_ticket` | High
-36 | File | `/etc/master.passwd` | High
-37 | File | `/files/list-file` | High
-38 | File | `/forum/away.php` | High
-39 | File | `/fos/admin/ajax.php` | High
-40 | File | `/goform/SetNetControlList` | High
-41 | File | `/goform/WifiBasicSet` | High
-42 | File | `/home/courses` | High
-43 | File | `/index.php` | Medium
-44 | File | `/index.php/newsletter/subscriber/new/` | High
-45 | File | `/index.php?app=main&func=passport&action=login` | High
-46 | File | `/index.php?p=admin/actions/users/send-password-reset-email` | High
-47 | File | `/index.php?page=member` | High
-48 | File | `/jsoa/hntdCustomDesktopActionContent` | High
-49 | File | `/login.php` | Medium
-50 | File | `/login/index.php` | High
-51 | File | `/manage-apartment.php` | High
-52 | File | `/mobile/downloadfile.aspx` | High
-53 | File | `/modules/projects/vw_files.php` | High
-54 | File | `/multi-vendor-shopping-script/product-list.php` | High
-55 | File | `/news-portal-script/information.php` | High
-56 | File | `/Noxen-master/users.php` | High
-57 | File | `/owa/auth/logon.aspx` | High
-58 | File | `/pages/animals.php` | High
-59 | File | `/paysystem/branch.php` | High
-60 | File | `/phppath/php` | Medium
-61 | File | `/preview.php` | Medium
-62 | File | `/reports/rwservlet` | High
-63 | File | `/reviewer/system/system/admins/manage/users/user-update.php` | High
-64 | File | `/setting/setWanIeCfg` | High
-65 | File | `/showfile.php` | High
-66 | File | `/user/settings` | High
-67 | File | `/usr/local/www/pkg.php` | High
-68 | File | `/vm/login.php` | High
-69 | File | `/web_cste/cgi-bin/product.ini` | High
-70 | File | `/wp-admin/admin-ajax.php` | High
-71 | File | `/wp-admin/options-general.php` | High
-72 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-73 | File | `?r=recruit/bgchecks/export&checkids=x` | High
-74 | File | `account.php` | Medium
-75 | File | `ad-blocking-detector.php` | High
-76 | File | `adclick.php` | Medium
-77 | ... | ... | ...
+1 | File | `/addWhiteListDomain.imss` | High
+2 | File | `/admin/index2.html` | High
+3 | File | `/admin_giant/add_team_member.php` | High
+4 | File | `/api/baskets/{name}` | High
+5 | File | `/api/v4/users/ids` | High
+6 | File | `/apply.cgi` | Medium
+7 | File | `/cgi-bin/wlogin.cgi` | High
+8 | File | `/common/info.cgi` | High
+9 | File | `/etc/shadow` | Medium
+10 | File | `/forum/away.php` | High
+11 | File | `/get_getnetworkconf.cgi` | High
+12 | File | `/goform/setmac` | High
+13 | File | `/index.php?p=admin/actions/users/send-password-reset-email` | High
+14 | File | `/integrations.json` | High
+15 | File | `/lists/admin/` | High
+16 | File | `/phppath/php` | Medium
+17 | File | `/services/details.asp` | High
+18 | File | `/spip.php` | Medium
+19 | File | `adclick.php` | Medium
+20 | ... | ... | ...
 
-There are 681 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 165 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

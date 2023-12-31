@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
-* [GB](https://vuldb.com/?country.gb)
+* [DE](https://vuldb.com/?country.de)
 * ...
 
-There are 2 more country items available. Please use our online service to access the data.
+There are 5 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -21,8 +21,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [144.76.173.247](https://vuldb.com/?ip.144.76.173.247) | static.247.173.76.144.clients.your-server.de | - | High
-2 | [195.123.226.91](https://vuldb.com/?ip.195.123.226.91) | vds1077458.hosted-by-itldc.com | - | High
+1 | [89.185.84.37](https://vuldb.com/?ip.89.185.84.37) | pkalan21.ip-ptr.tech | - | High
+2 | [104.21.21.50](https://vuldb.com/?ip.104.21.21.50) | - | - | High
+3 | [144.76.173.247](https://vuldb.com/?ip.144.76.173.247) | static.247.173.76.144.clients.your-server.de | - | High
+4 | ... | ... | ... | ...
+
+There are 6 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -31,11 +35,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22 | Pathname Traversal | High
-2 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-3 | T1068 | CWE-264 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 4 more TTP items available. Please use our online service to access the data.
+There are 9 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -43,23 +47,33 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/index.php?id=themes&action=edit_template&filename=blog` | High
-2 | File | `/forum/PostPrivateMessage` | High
-3 | File | `/pages.php` | Medium
-4 | File | `/pages/processlogin.php` | High
-5 | File | `admin/?page=system_info` | High
-6 | File | `admin/gallery.php` | High
-7 | File | `articles.php` | Medium
-8 | File | `cart_remove.php` | High
-9 | ... | ... | ...
+1 | File | `/admin/admin.php` | High
+2 | File | `/admin/comn/service/update.json` | High
+3 | File | `/admin/index.php?id=themes&action=edit_template&filename=blog` | High
+4 | File | `/filemanager/php/connector.php` | High
+5 | File | `/forum/PostPrivateMessage` | High
+6 | File | `/pages.php` | Medium
+7 | File | `/pages/processlogin.php` | High
+8 | File | `/tmp` | Low
+9 | File | `admin.cgi` | Medium
+10 | File | `admin/?page=system_info` | High
+11 | File | `admin/adminlogin.php` | High
+12 | File | `admin/gallery.php` | High
+13 | File | `article.php` | Medium
+14 | File | `articles.php` | Medium
+15 | File | `bb-hist.sh/bb-histlog.sh/bb-hostsvc.sh/bb-rep.sh/bb-replog.sh/bb-ack.sh` | High
+16 | File | `books.php` | Medium
+17 | ... | ... | ...
 
-There are 69 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 140 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://blog.cyble.com/2023/01/06/lummac2-stealer-a-potent-threat-to-crypto-users/
+* https://perception-point.io/blog/behind-the-attack-lumma-malware/
+* https://www.silentpush.com/blog/lummac2
 
 ## Literature
 

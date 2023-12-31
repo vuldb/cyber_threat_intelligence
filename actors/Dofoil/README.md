@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Dofoil:
 
-* [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 12 more country items available. Please use our online service to access the data.
+There are 1 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -43,14 +43,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-28 | Pathname Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+1 | T1006 | CWE-22 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 7 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -58,54 +56,26 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/?p=products` | Medium
-2 | File | `/about.php` | Medium
-3 | File | `/admin.php/accessory/filesdel.html` | High
-4 | File | `/admin/?page=user/manage` | High
-5 | File | `/admin/add-new.php` | High
-6 | File | `/admin/config.php?display=disa&view=form` | High
-7 | File | `/admin/controller/JobLogController.java` | High
-8 | File | `/admin/doctors.php` | High
-9 | File | `/admin/submit-articles` | High
-10 | File | `/ad_js.php` | Medium
-11 | File | `/alphaware/summary.php` | High
-12 | File | `/api/` | Low
-13 | File | `/api/admin/store/product/list` | High
-14 | File | `/api/baskets/{name}` | High
-15 | File | `/api/stl/actions/search` | High
-16 | File | `/api/sys/login` | High
-17 | File | `/api/sys/set_passwd` | High
-18 | File | `/api/v2/cli/commands` | High
-19 | File | `/attachments` | Medium
-20 | File | `/bin/ate` | Medium
-21 | File | `/boat/login.php` | High
-22 | File | `/booking/show_bookings/` | High
-23 | File | `/bsms_ci/index.php/book` | High
-24 | File | `/cgi-bin` | Medium
-25 | File | `/cgi-bin/luci/api/wireless` | High
-26 | File | `/cgi-bin/wlogin.cgi` | High
-27 | File | `/changePassword` | High
-28 | File | `/configs/application.ini` | High
-29 | File | `/Content/Template/root/reverse-shell.aspx` | High
-30 | File | `/context/%2e/WEB-INF/web.xml` | High
-31 | File | `/dashboard/add-blog.php` | High
-32 | File | `/debug/pprof` | Medium
-33 | File | `/ecshop/admin/template.php` | High
-34 | File | `/env` | Low
-35 | File | `/etc/hosts` | Medium
-36 | File | `/forum/away.php` | High
-37 | File | `/goform/setmac` | High
-38 | File | `/goform/wizard_end` | High
-39 | File | `/group1/uploa` | High
-40 | File | `/manage-apartment.php` | High
-41 | File | `/medicines/profile.php` | High
-42 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-43 | File | `/out.php` | Medium
-44 | File | `/pages/apply_vacancy.php` | High
-45 | File | `/php-sms/admin/?page=user/manage_user` | High
-46 | ... | ... | ...
+1 | File | `/act/ActDao.xml` | High
+2 | File | `/userLogin.asp` | High
+3 | File | `Access.app/Contents/Resources/kcproxy` | High
+4 | File | `act.php` | Low
+5 | File | `act_newsletter.php` | High
+6 | File | `cloud.php` | Medium
+7 | File | `com_android_bluetooth_btservice_AdapterService.cpp` | High
+8 | File | `mod.php` | Low
+9 | File | `mod/assign/adminmanageplugins.php` | High
+10 | File | `mod/chat/index.php` | High
+11 | File | `mod/contak.php` | High
+12 | File | `mod/lesson/mediafile.php` | High
+13 | File | `mod/lti/ajax.php` | High
+14 | File | `mod/PM/reply.php` | High
+15 | File | `mod/quiz/db/access.php` | High
+16 | File | `mod/quiz/report/statistics/statistics_question_table.php` | High
+17 | File | `mod/user/act_user.php` | High
+18 | ... | ... | ...
 
-There are 397 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 143 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

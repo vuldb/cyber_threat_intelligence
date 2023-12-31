@@ -9,7 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with zgRAT:
 
 * [US](https://vuldb.com/?country.us)
-* [DE](https://vuldb.com/?country.de)
+* [ES](https://vuldb.com/?country.es)
+* [RU](https://vuldb.com/?country.ru)
+* ...
+
+There are 5 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -19,10 +23,10 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [45.81.39.182](https://vuldb.com/?ip.45.81.39.182) | - | - | High
 2 | [45.88.66.118](https://vuldb.com/?ip.45.88.66.118) | - | - | High
-3 | [109.206.240.13](https://vuldb.com/?ip.109.206.240.13) | - | - | High
+3 | [103.212.81.156](https://vuldb.com/?ip.103.212.81.156) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 2 more IOC items available. Please use our online service to access the data.
+There are 4 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -35,7 +39,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 6 more TTP items available. Please use our online service to access the data.
+There are 10 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -43,25 +47,33 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/?page=user/manage_user&id=3` | High
-2 | File | `/admin/admin.php` | High
-3 | File | `/forum/away.php` | High
-4 | File | `/horde/util/go.php` | High
-5 | File | `/Service/ImageStationDataService.asmx` | High
-6 | File | `/wp-admin/options-general.php` | High
-7 | File | `adclick.php` | Medium
-8 | File | `admin.color.php` | High
-9 | File | `admin.cropcanvas.php` | High
-10 | File | `admin.joomlaradiov5.php` | High
-11 | File | `admin.php` | Medium
-12 | File | `admin/addons/archive/archive.php` | High
-13 | File | `admin/class-favicon-by-realfavicongenerator-admin.php` | High
-14 | File | `administrator/components/com_media/helpers/media.php` | High
-15 | File | `akocomments.php` | High
-16 | File | `album_portal.php` | High
-17 | ... | ... | ...
+1 | File | `/about.php` | Medium
+2 | File | `/admin` | Low
+3 | File | `/admin/?page=user/manage_user&id=3` | High
+4 | File | `/admin/admin.php` | High
+5 | File | `/Admin/createClass.php` | High
+6 | File | `/admin/edit_product.php` | High
+7 | File | `/admin/products/manage_product.php` | High
+8 | File | `/admin/products/view_product.php` | High
+9 | File | `/config/myfield/test.php` | High
+10 | File | `/forum/away.php` | High
+11 | File | `/horde/util/go.php` | High
+12 | File | `/index.php` | Medium
+13 | File | `/index.php?app=main&func=passport&action=login` | High
+14 | File | `/manage-apartment.php` | High
+15 | File | `/multi-vendor-shopping-script/product-list.php` | High
+16 | File | `/Noxen-master/users.php` | High
+17 | File | `/pages/animals.php` | High
+18 | File | `/reports/rwservlet` | High
+19 | File | `/reviewer/system/system/admins/manage/users/user-update.php` | High
+20 | File | `/Service/ImageStationDataService.asmx` | High
+21 | File | `/wp-admin/options-general.php` | High
+22 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+23 | File | `adclick.php` | Medium
+24 | File | `admin.color.php` | High
+25 | ... | ... | ...
 
-There are 137 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 209 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -70,7 +82,9 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://app.any.run/tasks/2a222e24-d4ac-47fe-9504-c2f8a3ec642b
 * https://app.any.run/tasks/6a23e4c0-1a85-4e9f-a322-19e10dd7d346
 * https://app.any.run/tasks/6cee07ce-6197-4507-bd68-5928b8247843
+* https://bazaar.abuse.ch/sample/cfa592b0128bc126fbf3fb66c551a8d87223b196f5e0cd87e60b88bdc688c6e0/
 * https://threatfox.abuse.ch
+* https://tria.ge/231112-thxkbsgg3s/behavioral2
 
 ## Literature
 

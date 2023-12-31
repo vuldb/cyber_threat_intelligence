@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with IRATA:
 
-* [DE](https://vuldb.com/?country.de)
 * [US](https://vuldb.com/?country.us)
-* [CN](https://vuldb.com/?country.cn)
+* [IR](https://vuldb.com/?country.ir)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 4 more country items available. Please use our online service to access the data.
+There are 6 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -21,13 +21,17 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [5.255.113.62](https://vuldb.com/?ip.5.255.113.62) | - | - | High
-2 | [5.255.117.115](https://vuldb.com/?ip.5.255.117.115) | - | - | High
-3 | [20.74.163.6](https://vuldb.com/?ip.20.74.163.6) | - | - | High
-4 | [20.197.199.136](https://vuldb.com/?ip.20.197.199.136) | - | - | High
-5 | ... | ... | ... | ...
+1 | [5.144.130.58](https://vuldb.com/?ip.5.144.130.58) | 5-144-130-58.static.hostiran.name | - | High
+2 | [5.161.202.99](https://vuldb.com/?ip.5.161.202.99) | static.99.202.161.5.clients.your-server.de | - | High
+3 | [5.255.113.62](https://vuldb.com/?ip.5.255.113.62) | - | - | High
+4 | [5.255.117.115](https://vuldb.com/?ip.5.255.117.115) | - | - | High
+5 | [5.255.117.149](https://vuldb.com/?ip.5.255.117.149) | - | - | High
+6 | [5.255.126.184](https://vuldb.com/?ip.5.255.126.184) | - | - | High
+7 | [20.74.163.6](https://vuldb.com/?ip.20.74.163.6) | - | - | High
+8 | [20.197.199.136](https://vuldb.com/?ip.20.197.199.136) | - | - | High
+9 | ... | ... | ... | ...
 
-There are 16 more IOC items available. Please use our online service to access the data.
+There are 32 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -35,13 +39,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-37 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94 | Cross Site Scripting | High
+3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -49,33 +53,38 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/` | Low
-2 | File | `/admin/addemployee.php` | High
-3 | File | `/admin/admin_login.php` | High
-4 | File | `/admin/edit_review.php` | High
-5 | File | `/admin/index.php` | High
-6 | File | `/admin/maintenance/view_designation.php` | High
-7 | File | `/ajax-files/followBoard.php` | High
-8 | File | `/ajax-files/postComment.php` | High
-9 | File | `/categoriesServlet` | High
-10 | File | `/cgi-bin/extensionsettings` | High
-11 | File | `/cgi-bin/viewcert` | High
-12 | File | `/connectors/index.php` | High
-13 | File | `/czarnews/cn_users.php` | High
-14 | File | `/expert_wizard.php` | High
-15 | File | `/expPaginator.php` | High
-16 | File | `/framework/core/models/expConfig.php` | High
-17 | File | `/framework/core/models/expRecord.php` | High
-18 | File | `/framework/modules/core/controllers/expHTMLEditorController.php` | High
-19 | File | `/framework/modules/ecommerce/controllers/orderController.php` | High
-20 | File | `/framework/modules/help/controllers/helpController.php` | High
-21 | File | `/framework/modules/notfound/controllers/notfoundController.php` | High
-22 | File | `/framework/modules/users/models/user.php` | High
-23 | File | `/hotel.php` | Medium
-24 | File | `/inc/campaign/campaign-delete.php` | High
-25 | ... | ... | ...
+1 | File | `/admin/addemployee.php` | High
+2 | File | `/admin/countrymanagement.php` | High
+3 | File | `/admin/maintenance/view_designation.php` | High
+4 | File | `/admin/photo.php` | High
+5 | File | `/admin/reports.php` | High
+6 | File | `/admin/success_story.php` | High
+7 | File | `/admin/user/team` | High
+8 | File | `/cgi-bin/login.cgi` | High
+9 | File | `/cm/delete` | Medium
+10 | File | `/dipam/athlete-profile.php` | High
+11 | File | `/dipam/save-delegates.php` | High
+12 | File | `/forum/away.php` | High
+13 | File | `/getcfg.php` | Medium
+14 | File | `/goform/RouteStatic` | High
+15 | File | `/hrm/employeeadd.php` | High
+16 | File | `/hrm/employeeview.php` | High
+17 | File | `/login.php` | Medium
+18 | File | `/mkshop/Men/profile.php` | High
+19 | File | `/pms/admin/prisons/view_prison.php` | High
+20 | File | `/product` | Medium
+21 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+22 | File | `/services/Card/findUser` | High
+23 | File | `/spip.php` | Medium
+24 | File | `/TeleoptiWFM/Administration/GetOneTenant` | High
+25 | File | `/uncpath/` | Medium
+26 | File | `/wordpress/wp-admin/options-general.php` | High
+27 | File | `?r=recruit/interview/export&interviews=x` | High
+28 | File | `actions.hsp` | Medium
+29 | File | `adclick.php` | Medium
+30 | ... | ... | ...
 
-There are 213 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 258 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -94,6 +103,9 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://twitter.com/onecert_ir/status/1564267795680055297
 * https://urlhaus.abuse.ch/host/23.88.43.247/
 * https://www.joesandbox.com/analysis/1277946
+* https://www.joesandbox.com/analysis/1311115#iocs
+* https://www.joesandbox.com/analysis/1313677
+* https://www.joesandbox.com/analysis/1313726
 
 ## Literature
 

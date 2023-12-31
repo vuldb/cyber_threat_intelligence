@@ -32,7 +32,7 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22, CWE-23 | Pathname Traversal | High
 2 | T1068 | CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
-3 | T1505 | CWE-89 | SQL Injection | High
+3 | T1505 | CWE-89, CWE-90 | SQL Injection | High
 4 | ... | ... | ... | ...
 
 There are 1 more TTP items available. Please use our online service to access the data.
@@ -48,7 +48,7 @@ ID | Type | Indicator | Confidence
 3 | File | `install_db.php` | High
 4 | ... | ... | ...
 
-There are 4 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 5 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

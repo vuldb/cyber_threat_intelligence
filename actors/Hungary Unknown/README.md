@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [NL](https://vuldb.com/?country.nl)
 * ...
 
-There are 23 more country items available. Please use our online service to access the data.
+There are 22 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -353,7 +353,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-28, CWE-36, CWE-37 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-36, CWE-37 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
@@ -361,7 +361,7 @@ ID | Technique | Weakness | Description | Confidence
 6 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 7 | ... | ... | ... | ...
 
-There are 24 more TTP items available. Please use our online service to access the data.
+There are 23 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -369,39 +369,39 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/?ajax-request=jnews` | High
-2 | File | `/?p=products` | Medium
-3 | File | `/?r=recruit/resume/edit&op=status` | High
-4 | File | `/admin.php/accessory/filesdel.html` | High
-5 | File | `/admin/?page=user/list` | High
-6 | File | `/admin/?page=user/manage` | High
-7 | File | `/admin/?page=user/manage_user&id=3` | High
-8 | File | `/admin/about-us.php` | High
-9 | File | `/admin/add-new.php` | High
-10 | File | `/admin/controller/JobLogController.java` | High
-11 | File | `/admin/del_category.php` | High
-12 | File | `/admin/del_service.php` | High
-13 | File | `/admin/doctors.php` | High
-14 | File | `/admin/edit-accepted-appointment.php` | High
-15 | File | `/admin/edit-services.php` | High
-16 | File | `/admin/edit_category.php` | High
-17 | File | `/admin/edit_subject.php` | High
-18 | File | `/admin/forgot-password.php` | High
-19 | File | `/admin/index.php` | High
-20 | File | `/admin/products/manage_product.php` | High
-21 | File | `/admin/reg.php` | High
-22 | File | `/admin/search-appointment.php` | High
-23 | File | `/admin/sys_sql_query.php` | High
-24 | File | `/alphaware/summary.php` | High
-25 | File | `/api/` | Low
-26 | File | `/api/admin/store/product/list` | High
-27 | File | `/api/baskets/{name}` | High
-28 | File | `/api/stl/actions/search` | High
-29 | File | `/api/sys/login` | High
-30 | File | `/api/sys/set_passwd` | High
-31 | File | `/api/v2/cli/commands` | High
-32 | File | `/appliance/users?action=edit` | High
-33 | File | `/attachments` | Medium
+1 | File | `/.env` | Low
+2 | File | `/?ajax-request=jnews` | High
+3 | File | `/?p=products` | Medium
+4 | File | `/?r=recruit/resume/edit&op=status` | High
+5 | File | `/admin.php/accessory/filesdel.html` | High
+6 | File | `/admin/?page=user/list` | High
+7 | File | `/admin/?page=user/manage` | High
+8 | File | `/admin/?page=user/manage_user&id=3` | High
+9 | File | `/admin/about-us.php` | High
+10 | File | `/admin/add-new.php` | High
+11 | File | `/admin/controller/JobLogController.java` | High
+12 | File | `/admin/del_category.php` | High
+13 | File | `/admin/del_service.php` | High
+14 | File | `/admin/doctors.php` | High
+15 | File | `/admin/edit-accepted-appointment.php` | High
+16 | File | `/admin/edit-services.php` | High
+17 | File | `/admin/edit_category.php` | High
+18 | File | `/admin/edit_subject.php` | High
+19 | File | `/admin/forgot-password.php` | High
+20 | File | `/admin/index.php` | High
+21 | File | `/admin/products/manage_product.php` | High
+22 | File | `/admin/reg.php` | High
+23 | File | `/admin/search-appointment.php` | High
+24 | File | `/admin/sys_sql_query.php` | High
+25 | File | `/alphaware/summary.php` | High
+26 | File | `/api/` | Low
+27 | File | `/api/admin/store/product/list` | High
+28 | File | `/api/baskets/{name}` | High
+29 | File | `/api/stl/actions/search` | High
+30 | File | `/api/sys/login` | High
+31 | File | `/api/sys/set_passwd` | High
+32 | File | `/api/v2/cli/commands` | High
+33 | File | `/appliance/users?action=edit` | High
 34 | File | `/backup.pl` | Medium
 35 | File | `/bin/ate` | Medium
 36 | File | `/blog` | Low
@@ -421,17 +421,17 @@ ID | Type | Indicator | Confidence
 50 | File | `/edoc/doctor/patient.php` | High
 51 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
 52 | File | `/env` | Low
-53 | File | `/etc/hosts` | Medium
-54 | File | `/etc/shadow` | Medium
-55 | File | `/forum/away.php` | High
-56 | File | `/fusion/portal/action/Link` | High
-57 | File | `/goform/SysToolChangePwd` | High
-58 | File | `/group1/uploa` | High
+53 | File | `/etc/shadow` | Medium
+54 | File | `/forum/away.php` | High
+55 | File | `/fusion/portal/action/Link` | High
+56 | File | `/goform/SysToolChangePwd` | High
+57 | File | `/group1/uploa` | High
+58 | File | `/HNAP1/` | Low
 59 | File | `/importexport.php` | High
 60 | File | `/index.php` | Medium
 61 | ... | ... | ...
 
-There are 538 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 532 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

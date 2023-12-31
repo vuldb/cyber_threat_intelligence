@@ -115,10 +115,9 @@ ID | Type | Indicator | Confidence
 32 | File | `add_edit_user.asp` | High
 33 | File | `admin.cropcanvas.php` | High
 34 | File | `admin.jcomments.php` | High
-35 | File | `admin/editusertag.php` | High
-36 | ... | ... | ...
+35 | ... | ... | ...
 
-There are 305 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 301 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

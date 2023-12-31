@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [NL](https://vuldb.com/?country.nl)
 * ...
 
-There are 17 more country items available. Please use our online service to access the data.
+There are 18 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -747,7 +747,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-25, CWE-28 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-25 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
@@ -765,20 +765,20 @@ ID | Type | Indicator | Confidence
 1 | File | `/?p=products` | Medium
 2 | File | `/admin.php/accessory/filesdel.html` | High
 3 | File | `/admin/?page=user/manage` | High
-4 | File | `/admin/add-new.php` | High
-5 | File | `/admin/controller/JobLogController.java` | High
-6 | File | `/admin/doctors.php` | High
-7 | File | `/admin/read.php?mudi=getSignal` | High
-8 | File | `/alphaware/summary.php` | High
-9 | File | `/api/` | Low
-10 | File | `/api/admin/store/product/list` | High
-11 | File | `/api/baskets/{name}` | High
-12 | File | `/api/stl/actions/search` | High
-13 | File | `/api/sys/login` | High
-14 | File | `/api/sys/set_passwd` | High
-15 | File | `/api/v1/attack/falco` | High
-16 | File | `/api/v2/cli/commands` | High
-17 | File | `/attachments` | Medium
+4 | File | `/admin/add-category.php` | High
+5 | File | `/admin/add-new.php` | High
+6 | File | `/admin/controller/JobLogController.java` | High
+7 | File | `/admin/doctors.php` | High
+8 | File | `/admin/read.php?mudi=getSignal` | High
+9 | File | `/alphaware/summary.php` | High
+10 | File | `/api/` | Low
+11 | File | `/api/admin/store/product/list` | High
+12 | File | `/api/baskets/{name}` | High
+13 | File | `/api/stl/actions/search` | High
+14 | File | `/api/sys/login` | High
+15 | File | `/api/sys/set_passwd` | High
+16 | File | `/api/v1/attack/falco` | High
+17 | File | `/api/v2/cli/commands` | High
 18 | File | `/bin/ate` | Medium
 19 | File | `/boat/login.php` | High
 20 | File | `/booking/show_bookings/` | High
@@ -794,18 +794,17 @@ ID | Type | Indicator | Confidence
 30 | File | `/debug/pprof` | Medium
 31 | File | `/ecshop/admin/template.php` | High
 32 | File | `/env` | Low
-33 | File | `/etc/hosts` | Medium
-34 | File | `/forum/away.php` | High
-35 | File | `/group1/uploa` | High
-36 | File | `/medicines/profile.php` | High
+33 | File | `/forum/away.php` | High
+34 | File | `/group1/uploa` | High
+35 | File | `/medicines/profile.php` | High
+36 | File | `/oauth/idp/.well-known/openid-configuration` | High
 37 | File | `/pf/idprofile.ping` | High
 38 | File | `/php-sms/admin/?page=user/manage_user` | High
 39 | File | `/reservation/add_message.php` | High
 40 | File | `/resources//../` | High
-41 | File | `/scheduler/index.php` | High
-42 | ... | ... | ...
+41 | ... | ... | ...
 
-There are 360 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 351 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

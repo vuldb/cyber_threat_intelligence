@@ -63,7 +63,8 @@ ID | Type | Indicator | Confidence
 6 | File | `/info/headers` | High
 7 | File | `/mkshop/Men/profile.php` | High
 8 | File | `/Noxen-master/users.php` | High
-9 | ... | ... | ...
+9 | File | `/uncpath/` | Medium
+10 | ... | ... | ...
 
 There are 70 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 

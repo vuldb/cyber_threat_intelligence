@@ -60,9 +60,10 @@ ID | Type | Indicator | Confidence
 4 | File | `awstats.pl` | Medium
 5 | File | `board.php` | Medium
 6 | File | `conf.c` | Low
-7 | ... | ... | ...
+7 | File | `crc32.c` | Low
+8 | ... | ... | ...
 
-There are 51 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 52 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

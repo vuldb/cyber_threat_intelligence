@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Grizzly Steppe:
 
 * [CN](https://vuldb.com/?country.cn)
-* [RU](https://vuldb.com/?country.ru)
 * [US](https://vuldb.com/?country.us)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
 There are 12 more country items available. Please use our online service to access the data.
@@ -170,62 +170,61 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.htaccess` | Medium
-2 | File | `/?p=products` | Medium
-3 | File | `/?r=recruit/resume/edit&op=status` | High
-4 | File | `/ad-list` | Medium
-5 | File | `/admin/?page=bike` | High
-6 | File | `/admin/config/uploadicon.php` | High
-7 | File | `/admin/controller/JobLogController.java` | High
-8 | File | `/admin/edit-accepted-appointment.php` | High
-9 | File | `/admin/edit-services.php` | High
-10 | File | `/admin/edit_subject.php` | High
-11 | File | `/admin/login.php` | High
-12 | File | `/admin/maintenance/view_designation.php` | High
-13 | File | `/admin/orders/update_status.php` | High
-14 | File | `/admin/read.php?mudi=getSignal` | High
-15 | File | `/admin/reportupload.aspx` | High
-16 | File | `/admin/service.php` | High
-17 | File | `/admin/test_status.php` | High
-18 | File | `/api/baskets/{name}` | High
-19 | File | `/api/crontab` | Medium
-20 | File | `/api/stl/actions/search` | High
-21 | File | `/api/sys/login` | High
-22 | File | `/api/sys/set_passwd` | High
-23 | File | `/api/v2/cli/commands` | High
-24 | File | `/api2/html/` | Medium
-25 | File | `/apply.cgi` | Medium
-26 | File | `/archibus/login.axvw` | High
-27 | File | `/bin/ate` | Medium
-28 | File | `/blog` | Low
-29 | File | `/booking/show_bookings/` | High
-30 | File | `/cgi-bin` | Medium
-31 | File | `/change-language/de_DE` | High
-32 | File | `/changePassword` | High
-33 | File | `/churchcrm/v2/family/not-found` | High
-34 | File | `/classes/Master.php?f=delete_inquiry` | High
-35 | File | `/company/store` | High
-36 | File | `/config` | Low
-37 | File | `/config/php.ini` | High
-38 | File | `/Content/Template/root/reverse-shell.aspx` | High
-39 | File | `/core/redirect` | High
-40 | File | `/csms/?page=contact_us` | High
-41 | File | `/dashboard/add-blog.php` | High
-42 | File | `/debug/pprof` | Medium
-43 | File | `/dipam/save-delegates.php` | High
-44 | File | `/ecshop/admin/template.php` | High
-45 | File | `/env` | Low
-46 | File | `/file_manager/admin/save_user.php` | High
-47 | File | `/forum/away.php` | High
-48 | File | `/friends` | Medium
-49 | File | `/goform/aspForm` | High
-50 | File | `/group1/uploa` | High
-51 | File | `/importexport.php` | High
-52 | File | `/index.php` | Medium
-53 | File | `/index.php?controller=GzUser&action=edit&id=1` | High
-54 | ... | ... | ...
+1 | File | `%PROGRAMFILES(X86)%\TSplus\UserDesktop\themes.` | High
+2 | File | `.htaccess` | Medium
+3 | File | `/?p=products` | Medium
+4 | File | `/?r=recruit/resume/edit&op=status` | High
+5 | File | `/ad-list` | Medium
+6 | File | `/admin/?page=bike` | High
+7 | File | `/admin/add-category.php` | High
+8 | File | `/admin/config/uploadicon.php` | High
+9 | File | `/admin/controller/JobLogController.java` | High
+10 | File | `/admin/courses/manage_course.php` | High
+11 | File | `/admin/departments/manage_department.php` | High
+12 | File | `/admin/edit-accepted-appointment.php` | High
+13 | File | `/admin/edit-services.php` | High
+14 | File | `/admin/edit_subject.php` | High
+15 | File | `/admin/login.php` | High
+16 | File | `/admin/maintenance/view_designation.php` | High
+17 | File | `/admin/nav/update` | High
+18 | File | `/admin/read.php?mudi=getSignal` | High
+19 | File | `/admin/reportupload.aspx` | High
+20 | File | `/admin/search-appointment.php` | High
+21 | File | `/admin/service.php` | High
+22 | File | `/admin/students/manage_academic.php` | High
+23 | File | `/admin/test_status.php` | High
+24 | File | `/admin/theme-edit.php` | High
+25 | File | `/api/baskets/{name}` | High
+26 | File | `/api/crontab` | Medium
+27 | File | `/api/stl/actions/search` | High
+28 | File | `/api/sys/login` | High
+29 | File | `/api/sys/set_passwd` | High
+30 | File | `/api2/html/` | Medium
+31 | File | `/apply.cgi` | Medium
+32 | File | `/archibus/login.axvw` | High
+33 | File | `/bin/ate` | Medium
+34 | File | `/blog` | Low
+35 | File | `/booking/show_bookings/` | High
+36 | File | `/cgi-bin` | Medium
+37 | File | `/change-language/de_DE` | High
+38 | File | `/changePassword` | High
+39 | File | `/company/store` | High
+40 | File | `/config` | Low
+41 | File | `/config/php.ini` | High
+42 | File | `/Content/Template/root/reverse-shell.aspx` | High
+43 | File | `/core/redirect` | High
+44 | File | `/csms/?page=contact_us` | High
+45 | File | `/dashboard/add-blog.php` | High
+46 | File | `/debug/pprof` | Medium
+47 | File | `/dipam/save-delegates.php` | High
+48 | File | `/ecshop/admin/template.php` | High
+49 | File | `/env` | Low
+50 | File | `/file_manager/admin/save_user.php` | High
+51 | File | `/forum/away.php` | High
+52 | File | `/friends` | Medium
+53 | ... | ... | ...
 
-There are 471 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 462 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

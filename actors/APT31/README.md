@@ -59,24 +59,24 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/api/RecordingList/DownloadRecord?file=` | High
-2 | File | `/apply.cgi` | Medium
-3 | File | `/etc/openstack-dashboard/local_settings` | High
-4 | File | `/get_getnetworkconf.cgi` | High
-5 | File | `/goform/RgDhcp` | High
-6 | File | `/goform/RGFirewallEL` | High
-7 | File | `/horde/util/go.php` | High
-8 | File | `/rapi/read_url` | High
-9 | File | `/scripts/unlock_tasks.php` | High
-10 | File | `/system/user/modules/mod_users/controller.php` | High
-11 | File | `/uncpath/` | Medium
-12 | File | `/usr/bin/pkexec` | High
-13 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
-14 | File | `/wp-content/uploads/photo-gallery/` | High
-15 | File | `administrator/components/com_media/helpers/media.php` | High
+1 | File | `/+CSCOE+/logon.html` | High
+2 | File | `/api/RecordingList/DownloadRecord?file=` | High
+3 | File | `/apply.cgi` | Medium
+4 | File | `/etc/openstack-dashboard/local_settings` | High
+5 | File | `/get_getnetworkconf.cgi` | High
+6 | File | `/goform/RgDhcp` | High
+7 | File | `/goform/RGFirewallEL` | High
+8 | File | `/horde/util/go.php` | High
+9 | File | `/rapi/read_url` | High
+10 | File | `/scripts/unlock_tasks.php` | High
+11 | File | `/system/user/modules/mod_users/controller.php` | High
+12 | File | `/uncpath/` | Medium
+13 | File | `/usr/bin/pkexec` | High
+14 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
+15 | File | `/wp-content/uploads/photo-gallery/` | High
 16 | ... | ... | ...
 
-There are 126 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 128 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

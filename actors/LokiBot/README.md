@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with LokiBot:
 
 * [US](https://vuldb.com/?country.us)
-* [CN](https://vuldb.com/?country.cn)
 * [VN](https://vuldb.com/?country.vn)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
 There are 12 more country items available. Please use our online service to access the data.
@@ -121,15 +121,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-29, CWE-36 | Pathname Traversal | High
-2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | T1068 | CWE-264, CWE-266, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
-7 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-36 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1068 | CWE-264, CWE-266, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+6 | ... | ... | ... | ...
 
-There are 23 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -138,46 +137,43 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `$HOME/.terminfo` | High
-2 | File | `/admin/about-us.php` | High
-3 | File | `/admin/controller/JobLogController.java` | High
-4 | File | `/api/baskets/{name}` | High
-5 | File | `/api/sys/login` | High
-6 | File | `/api/sys/set_passwd` | High
-7 | File | `/bin/ate` | Medium
-8 | File | `/bin/login` | Medium
-9 | File | `/bin/mini_upnpd` | High
-10 | File | `/bitrix/admin/ldap_server_edit.php` | High
-11 | File | `/booking/show_bookings/` | High
+2 | File | `//proc/kcore` | Medium
+3 | File | `/admin/about-us.php` | High
+4 | File | `/admin/category/save` | High
+5 | File | `/admin/controller/JobLogController.java` | High
+6 | File | `/api/baskets/{name}` | High
+7 | File | `/api/sys/login` | High
+8 | File | `/api/sys/set_passwd` | High
+9 | File | `/bin/login` | Medium
+10 | File | `/bin/mini_upnpd` | High
+11 | File | `/bitrix/admin/ldap_server_edit.php` | High
 12 | File | `/changePassword` | High
 13 | File | `/Content/Template/root/reverse-shell.aspx` | High
 14 | File | `/dashboard/add-blog.php` | High
 15 | File | `/debug/pprof` | Medium
 16 | File | `/ecshop/admin/template.php` | High
-17 | File | `/env` | Low
-18 | File | `/forum/away.php` | High
-19 | File | `/goform/set_LimitClient_cfg` | High
-20 | File | `/group1/uploa` | High
-21 | File | `/h/autoSaveDraft` | High
-22 | File | `/h/search?action` | High
+17 | File | `/forum/away.php` | High
+18 | File | `/goform/goform_get_cmd_process` | High
+19 | File | `/group1/uploa` | High
+20 | File | `/h/autoSaveDraft` | High
+21 | File | `/h/search?action` | High
+22 | File | `/HNAP1/` | Low
 23 | File | `/hss/admin/?page=products/view_product` | High
 24 | File | `/importexport.php` | High
 25 | File | `/index.php` | Medium
 26 | File | `/index.php?app=main&func=passport&action=login` | High
-27 | File | `/mgmt/` | Low
-28 | File | `/owa/auth/logon.aspx` | High
-29 | File | `/php-sms/admin/?page=user/manage_user` | High
-30 | File | `/preview.php` | Medium
-31 | File | `/resources//../` | High
-32 | File | `/secure/ViewCollectors` | High
-33 | File | `/server-status` | High
-34 | File | `/spip.php` | Medium
-35 | File | `/sqlite3_aflpp/shell.c` | High
-36 | File | `/squashfs-root/etc_ro/custom.conf` | High
-37 | File | `/staff/edit_book_details.php` | High
-38 | File | `/SVFE2/pages/feegroups/service_group.jsf` | High
-39 | ... | ... | ...
+27 | File | `/listplace/user/ticket/create` | High
+28 | File | `/main/webservices/additional_webservices.php` | High
+29 | File | `/mc` | Low
+30 | File | `/mgmt/` | Low
+31 | File | `/oauth/idp/.well-known/openid-configuration` | High
+32 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+33 | File | `/preview.php` | Medium
+34 | File | `/resources//../` | High
+35 | File | `/secure/ViewCollectors` | High
+36 | ... | ... | ...
 
-There are 332 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 309 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

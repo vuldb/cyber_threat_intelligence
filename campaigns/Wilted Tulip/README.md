@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Wilted Tulip:
 
-* [PL](https://vuldb.com/?country.pl)
-* [AR](https://vuldb.com/?country.ar)
+* [US](https://vuldb.com/?country.us)
 * [IT](https://vuldb.com/?country.it)
+* [PL](https://vuldb.com/?country.pl)
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -70,54 +70,59 @@ ID | Type | Indicator | Confidence
 2 | File | `/action/factory` | High
 3 | File | `/admin.php` | Medium
 4 | File | `/admin/add-category.php` | High
-5 | File | `/admin/add-fee.php` | High
-6 | File | `/admin/add_user_modal.php` | High
+5 | File | `/admin/add_user_modal.php` | High
+6 | File | `/admin/admin_content_tag.php?action=save_content` | High
 7 | File | `/admin/article/article-edit-run.php` | High
 8 | File | `/admin/categories/view_category.php` | High
-9 | File | `/admin/loginc.php` | High
-10 | File | `/admin/maintenance/view_designation.php` | High
-11 | File | `/admin/project/update/2` | High
-12 | File | `/admin/report/index.php` | High
-13 | File | `/api/common/ping` | High
-14 | File | `/api/v2/open/rowsInfo` | High
-15 | File | `/appointments/update_status.php` | High
-16 | File | `/binbloom-master/src/helpers.c` | High
-17 | File | `/blog` | Low
-18 | File | `/bookings/update_status.php` | High
-19 | File | `/category.php` | High
-20 | File | `/classes/Users.php?f=delete_client` | High
-21 | File | `/contacts/listcontacts.php` | High
-22 | File | `/Core/Ap4File.cpp` | High
-23 | File | `/data/app` | Medium
-24 | File | `/dede/file_manage_control.php` | High
-25 | File | `/depotHead/list` | High
-26 | File | `/etc/os-release` | High
-27 | File | `/etc/pki/pulp/nodes/` | High
-28 | File | `/forms/web_runScript` | High
-29 | File | `/forum/away.php` | High
-30 | File | `/fs/nfsd/nfs4proc.c` | High
-31 | File | `/garage/php_action/createBrand.php` | High
-32 | File | `/general/search.php?searchtype=simple` | High
-33 | File | `/ghost/preview` | High
-34 | File | `/goform/AddSysLogRule` | High
-35 | File | `/goform/AdvSetWrlsafeset` | High
-36 | File | `/goform/qossetting` | High
-37 | File | `/goform/setAutoPing` | High
-38 | File | `/hrm/employeeview.php` | High
-39 | File | `/hss/?page=product_per_brand` | High
-40 | File | `/index.php` | Medium
-41 | File | `/index.php?page=member` | High
-42 | File | `/load.php` | Medium
-43 | File | `/meetings/listmeetings.php` | High
-44 | File | `/odlms/?page=appointments/view_appointment` | High
-45 | File | `/odlms/classes/Users.php?f=delete` | High
-46 | File | `/preview.php` | Medium
-47 | File | `/proc/*/exe` | Medium
-48 | File | `/projects/listprojects.php` | High
-49 | File | `/robot/initialize` | High
-50 | ... | ... | ...
+9 | File | `/admin/ind_backstage.php` | High
+10 | File | `/admin/loginc.php` | High
+11 | File | `/admin/maintenance/view_designation.php` | High
+12 | File | `/admin/project/update/2` | High
+13 | File | `/admin/report/index.php` | High
+14 | File | `/admin/upload/img` | High
+15 | File | `/app/ajax/sell_return_data.php` | High
+16 | File | `/b2b-supermarket/catalog/all-products` | High
+17 | File | `/binbloom-master/src/helpers.c` | High
+18 | File | `/blog` | Low
+19 | File | `/boaform/wlan_basic_set.cgi` | High
+20 | File | `/category.php` | High
+21 | File | `/classes/Master.php?f=delete_reminder` | High
+22 | File | `/classes/Users.php?f=delete_client` | High
+23 | File | `/contacts/listcontacts.php` | High
+24 | File | `/Core/Ap4File.cpp` | High
+25 | File | `/data/app` | Medium
+26 | File | `/dede/file_manage_control.php` | High
+27 | File | `/depotHead/list` | High
+28 | File | `/etc/os-release` | High
+29 | File | `/etc/pki/pulp/nodes/` | High
+30 | File | `/forms/web_runScript` | High
+31 | File | `/forum/away.php` | High
+32 | File | `/fs/nfsd/nfs4proc.c` | High
+33 | File | `/garage/php_action/createBrand.php` | High
+34 | File | `/general/search.php?searchtype=simple` | High
+35 | File | `/ghost/preview` | High
+36 | File | `/goform/AddSysLogRule` | High
+37 | File | `/goform/AdvSetWrlsafeset` | High
+38 | File | `/goform/qossetting` | High
+39 | File | `/goform/setAutoPing` | High
+40 | File | `/hrm/employeeview.php` | High
+41 | File | `/hss/?page=product_per_brand` | High
+42 | File | `/im/user/` | Medium
+43 | File | `/index.php` | Medium
+44 | File | `/index.php?page=member` | High
+45 | File | `/load.php` | Medium
+46 | File | `/main/checkout.php` | High
+47 | File | `/meetings/listmeetings.php` | High
+48 | File | `/oauth/idp/.well-known/openid-configuration` | High
+49 | File | `/odlms/?page=appointments/view_appointment` | High
+50 | File | `/odlms/classes/Users.php?f=delete` | High
+51 | File | `/php/ping.php` | High
+52 | File | `/preview.php` | Medium
+53 | File | `/proc/*/exe` | Medium
+54 | File | `/projects/listprojects.php` | High
+55 | ... | ... | ...
 
-There are 438 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 484 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

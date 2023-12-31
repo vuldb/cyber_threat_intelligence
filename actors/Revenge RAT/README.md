@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [DE](https://vuldb.com/?country.de)
-* [GB](https://vuldb.com/?country.gb)
+* [FR](https://vuldb.com/?country.fr)
 * ...
 
 There are 20 more country items available. Please use our online service to access the data.
@@ -32,7 +32,7 @@ ID | IP address | Hostname | Campaign | Confidence
 9 | [45.137.22.152](https://vuldb.com/?ip.45.137.22.152) | hosted-by.rootlayer.net | - | High
 10 | ... | ... | ... | ...
 
-There are 34 more IOC items available. Please use our online service to access the data.
+There are 38 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -47,7 +47,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1068 | CWE-264, CWE-266, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -65,42 +65,42 @@ ID | Type | Indicator | Confidence
 8 | File | `/bin/login` | Medium
 9 | File | `/cgi-bin/ExportALLSettings.sh` | High
 10 | File | `/common/info.cgi` | High
-11 | File | `/DXR.axd` | Medium
-12 | File | `/etc/gsissh/sshd_config` | High
-13 | File | `/etc/sudoers` | Medium
-14 | File | `/fhconf/umconfig.txt` | High
-15 | File | `/forum/away.php` | High
-16 | File | `/get_getnetworkconf.cgi` | High
-17 | File | `/goform/setmac` | High
-18 | File | `/home` | Low
-19 | File | `/horde/util/go.php` | High
-20 | File | `/include/chart_generator.php` | High
-21 | File | `/integrations.json` | High
-22 | File | `/lists/admin/` | High
-23 | File | `/phppath/php` | Medium
-24 | File | `/product.php` | Medium
-25 | File | `/public` | Low
-26 | File | `/public/login.htm` | High
-27 | File | `/services/details.asp` | High
-28 | File | `/spip.php` | Medium
-29 | File | `/uncpath/` | Medium
-30 | File | `/users/admin/user_activity.php` | High
-31 | File | `/var/www/rhcert` | High
-32 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
-33 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-34 | File | `a2billing/customer/iridium_threed.php` | High
-35 | File | `adclick.php` | Medium
-36 | File | `admin.php` | Medium
-37 | File | `admin.php/comments/batchdel/` | High
-38 | File | `admin.php/User/del/ucode/` | High
-39 | File | `admin.php?c=a_adminuser&a=add&run=1` | High
-40 | File | `admin.php?m=Member&a=adminaddsave` | High
-41 | File | `admin.php?mod=user&act=del` | High
-42 | File | `admin/?/layout/edit/1` | High
-43 | File | `admin/?/page/edit/1` | High
+11 | File | `/course/filterRecords/` | High
+12 | File | `/download/image` | High
+13 | File | `/DXR.axd` | Medium
+14 | File | `/etc/gsissh/sshd_config` | High
+15 | File | `/etc/sudoers` | Medium
+16 | File | `/fhconf/umconfig.txt` | High
+17 | File | `/forum/away.php` | High
+18 | File | `/get_getnetworkconf.cgi` | High
+19 | File | `/goform/setmac` | High
+20 | File | `/home` | Low
+21 | File | `/horde/util/go.php` | High
+22 | File | `/hrm/controller/employee.php` | High
+23 | File | `/include/chart_generator.php` | High
+24 | File | `/integrations.json` | High
+25 | File | `/lists/admin/` | High
+26 | File | `/product.php` | Medium
+27 | File | `/public` | Low
+28 | File | `/public/login.htm` | High
+29 | File | `/spip.php` | Medium
+30 | File | `/uncpath/` | Medium
+31 | File | `/users/admin/user_activity.php` | High
+32 | File | `/usr/local/www/pkg.php` | High
+33 | File | `/var/www/rhcert` | High
+34 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
+35 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+36 | File | `a2billing/customer/iridium_threed.php` | High
+37 | File | `adclick.php` | Medium
+38 | File | `addentry.php` | Medium
+39 | File | `admin.php` | Medium
+40 | File | `admin.php/comments/batchdel/` | High
+41 | File | `admin.php/User/del/ucode/` | High
+42 | File | `admin.php?c=a_adminuser&a=add&run=1` | High
+43 | File | `admin.php?m=Member&a=adminaddsave` | High
 44 | ... | ... | ...
 
-There are 385 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 383 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

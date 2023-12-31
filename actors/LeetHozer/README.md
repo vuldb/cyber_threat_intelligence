@@ -55,7 +55,8 @@ ID | Type | Indicator | Confidence
 6 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
 7 | File | `AjaxFileUploadHandler.axd` | High
 8 | File | `appserv/main.php` | High
-9 | ... | ... | ...
+9 | File | `coders/png.c` | Medium
+10 | ... | ... | ...
 
 There are 70 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 

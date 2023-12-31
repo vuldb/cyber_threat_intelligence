@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
-* [CN](https://vuldb.com/?country.cn)
+* [IT](https://vuldb.com/?country.it)
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -48,23 +48,26 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin/login.php` | High
 3 | File | `/admin/produts/controller.php` | High
 4 | File | `/admin/user/team` | High
-5 | File | `/cgi-bin/system_mgr.cgi` | High
-6 | File | `/common/logViewer/logViewer.jsf` | High
-7 | File | `/crmeb/app/admin/controller/store/CopyTaobao.php` | High
-8 | File | `/en/blog-comment-4` | High
-9 | File | `/forum/away.php` | High
-10 | File | `/getcfg.php` | Medium
-11 | File | `/goform/aspForm` | High
-12 | File | `/h/` | Low
-13 | File | `/hocms/classes/Master.php?f=delete_collection` | High
-14 | File | `/mifs/c/i/reg/reg.html` | High
-15 | File | `/ms/cms/content/list.do` | High
-16 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-17 | File | `/orms/` | Low
-18 | File | `/plesk-site-preview/` | High
-19 | ... | ... | ...
+5 | File | `/book-services.php` | High
+6 | File | `/cgi-bin/system_mgr.cgi` | High
+7 | File | `/common/logViewer/logViewer.jsf` | High
+8 | File | `/crmeb/app/admin/controller/store/CopyTaobao.php` | High
+9 | File | `/en/blog-comment-4` | High
+10 | File | `/forum/away.php` | High
+11 | File | `/getcfg.php` | Medium
+12 | File | `/goform/aspForm` | High
+13 | File | `/h/` | Low
+14 | File | `/hocms/classes/Master.php?f=delete_collection` | High
+15 | File | `/mifs/c/i/reg/reg.html` | High
+16 | File | `/ms/cms/content/list.do` | High
+17 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+18 | File | `/orms/` | Low
+19 | File | `/plesk-site-preview/` | High
+20 | File | `/project/PROJECTNAME/reports/` | High
+21 | File | `/school/model/get_admin_profile.php` | High
+22 | ... | ... | ...
 
-There are 153 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 184 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

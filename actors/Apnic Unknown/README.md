@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Apnic Unknown:
 
 * [VN](https://vuldb.com/?country.vn)
+* [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
-* [IO](https://vuldb.com/?country.io)
 * ...
 
-There are 10 more country items available. Please use our online service to access the data.
+There are 13 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -804,14 +804,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-29, CWE-35 | Pathname Traversal | High
-2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Pathname Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -819,51 +819,45 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/academy/tutor/filter` | High
-2 | File | `/admin/index2.html` | High
-3 | File | `/admin/sales/view_details.php` | High
-4 | File | `/admin/save.php` | High
-5 | File | `/api/baskets/{name}` | High
-6 | File | `/api/download` | High
-7 | File | `/api/runscript` | High
-8 | File | `/api/v1/alerts` | High
-9 | File | `/api/v1/terminal/sessions/?limit=1` | High
-10 | File | `/aqpg/users/login.php` | High
-11 | File | `/category.php` | High
-12 | File | `/categorypage.php` | High
-13 | File | `/cgi-bin/luci/api/wireless` | High
-14 | File | `/cgi-bin/vitogate.cgi` | High
-15 | File | `/cgi-bin/wlogin.cgi` | High
-16 | File | `/common/info.cgi` | High
-17 | File | `/Content/Template/root/reverse-shell.aspx` | High
-18 | File | `/data/remove` | Medium
-19 | File | `/debug/pprof` | Medium
-20 | File | `/fcgi/scrut_fcgi.fcgi` | High
-21 | File | `/forum/away.php` | High
-22 | File | `/gracemedia-media-player/templates/files/ajax_controller.php` | High
-23 | File | `/HNAP1` | Low
-24 | File | `/hrm/controller/employee.php` | High
-25 | File | `/hrm/employeeview.php` | High
-26 | File | `/importexport.php` | High
-27 | File | `/index.php` | Medium
-28 | File | `/iniFile/config.ini` | High
-29 | File | `/jeecg-boot/jmreport/show` | High
-30 | File | `/jeecg-boot/jmreport/upload` | High
-31 | File | `/jeecg-boot/sys/common/upload` | High
-32 | File | `/mc` | Low
-33 | File | `/modules/projects/vw_files.php` | High
-34 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
-35 | File | `/project/tasks/list` | High
-36 | File | `/proxy` | Low
-37 | File | `/RPS2019Service/status.html` | High
-38 | File | `/search` | Low
-39 | File | `/sicweb-ajax/tmproot/` | High
-40 | File | `/spip.php` | Medium
-41 | File | `/subsys/net/l2/wifi/wifi_shell.c` | High
-42 | File | `/sys/dict/loadTreeData` | High
-43 | ... | ... | ...
+1 | File | `%SYSTEMDRIVE%\node_modules\.bin\wmic.exe` | High
+2 | File | `/admin/add-category.php` | High
+3 | File | `/admin/index2.html` | High
+4 | File | `/admin/sales/view_details.php` | High
+5 | File | `/admin/theme-edit.php` | High
+6 | File | `/api/log/killJob` | High
+7 | File | `/api/snapshot and /api/get_log_file` | High
+8 | File | `/api/upload.php` | High
+9 | File | `/api/v1/alerts` | High
+10 | File | `/b2b-supermarket/shopping-cart` | High
+11 | File | `/bin/login` | Medium
+12 | File | `/calendar/minimizer/index.php` | High
+13 | File | `/classes/Master.php?f=delete_category` | High
+14 | File | `/Content/Plugins/uploader/FileChoose.html?fileUrl=/Upload/File/Pics/&parent` | High
+15 | File | `/dashboard/add-blog.php` | High
+16 | File | `/data/remove` | Medium
+17 | File | `/debug/pprof` | Medium
+18 | File | `/DesignTools/CssEditor.aspx` | High
+19 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
+20 | File | `/DXR.axd` | Medium
+21 | File | `/fcgi/scrut_fcgi.fcgi` | High
+22 | File | `/forum/away.php` | High
+23 | File | `/geoserver/gwc/rest.html` | High
+24 | File | `/goform/formSysCmd` | High
+25 | File | `/HNAP1/` | Low
+26 | File | `/home/courses` | High
+27 | File | `/hosts/firewall/ip` | High
+28 | File | `/index.php/ccm/system/file/upload` | High
+29 | File | `/issue` | Low
+30 | File | `/login` | Low
+31 | File | `/oauth/idp/.well-known/openid-configuration` | High
+32 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
+33 | File | `/php/ping.php` | High
+34 | File | `/proxy` | Low
+35 | File | `/public/admin/profile/update.html` | High
+36 | File | `/search.php` | Medium
+37 | ... | ... | ...
 
-There are 375 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 317 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

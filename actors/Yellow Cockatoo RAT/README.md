@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
-* [GB](https://vuldb.com/?country.gb)
+* [IL](https://vuldb.com/?country.il)
 * ...
 
-There are 1 more country items available. Please use our online service to access the data.
+There are 4 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -21,7 +21,9 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [146.70.147.41](https://vuldb.com/?ip.146.70.147.41) | - | - | High
+1 | [67.43.234.48](https://vuldb.com/?ip.67.43.234.48) | - | - | High
+2 | [146.70.147.41](https://vuldb.com/?ip.146.70.147.41) | - | - | High
+3 | [217.138.215.85](https://vuldb.com/?ip.217.138.215.85) | - | - | High
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -34,7 +36,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 8 more TTP items available. Please use our online service to access the data.
+There are 9 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -51,12 +53,13 @@ ID | Type | Indicator | Confidence
 7 | File | `/upfile.cgi` | Medium
 8 | ... | ... | ...
 
-There are 53 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 60 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://threatfox.abuse.ch
 * https://twitter.com/SquiblydooBlog/status/1588965633752199168
 
 ## Literature

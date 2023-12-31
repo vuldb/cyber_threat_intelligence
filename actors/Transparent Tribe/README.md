@@ -18,10 +18,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
-* [IT](https://vuldb.com/?country.it)
+* [IS](https://vuldb.com/?country.is)
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -47,7 +47,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
@@ -84,22 +84,22 @@ ID | Type | Indicator | Confidence
 19 | File | `/isms/admin/stocks/view_stock.php` | High
 20 | File | `/lab.html` | Medium
 21 | File | `/list/<path:folderpath>` | High
-22 | File | `/out.php` | Medium
-23 | File | `/php-jms/updateBlankTxtview.php` | High
-24 | File | `/products/details.asp` | High
-25 | File | `/RestAPI` | Medium
-26 | File | `/sm/api/v1/firewall/zone/services` | High
-27 | File | `/spacecom/login.php` | High
-28 | File | `/src/helper.c` | High
-29 | File | `/strings/ctype-simple.c` | High
-30 | File | `/sys/dict/queryTableData` | High
-31 | File | `/uncpath/` | Medium
-32 | File | `/user/dls_download.php` | High
-33 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
-34 | File | `/v1/sql-runner` | High
-35 | File | `/web/IndexController.java` | High
-36 | File | `acknowledge.c` | High
-37 | File | `actions/CompanyDetailsSave.php` | High
+22 | File | `/oauth/idp/.well-known/openid-configuration` | High
+23 | File | `/out.php` | Medium
+24 | File | `/php-jms/updateBlankTxtview.php` | High
+25 | File | `/products/details.asp` | High
+26 | File | `/RestAPI` | Medium
+27 | File | `/sm/api/v1/firewall/zone/services` | High
+28 | File | `/spacecom/login.php` | High
+29 | File | `/src/helper.c` | High
+30 | File | `/strings/ctype-simple.c` | High
+31 | File | `/sys/dict/queryTableData` | High
+32 | File | `/uncpath/` | Medium
+33 | File | `/user/dls_download.php` | High
+34 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
+35 | File | `/v1/sql-runner` | High
+36 | File | `/web/IndexController.java` | High
+37 | File | `acknowledge.c` | High
 38 | ... | ... | ...
 
 There are 330 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.

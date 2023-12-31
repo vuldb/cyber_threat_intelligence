@@ -10,6 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
+* [GB](https://vuldb.com/?country.gb)
+* ...
+
+There are 3 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -17,12 +21,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [18.221.226.193](https://vuldb.com/?ip.18.221.226.193) | ec2-18-221-226-193.us-east-2.compute.amazonaws.com | - | Medium
-2 | [20.102.61.215](https://vuldb.com/?ip.20.102.61.215) | - | - | High
-3 | [23.96.53.135](https://vuldb.com/?ip.23.96.53.135) | - | - | High
+1 | [13.52.36.101](https://vuldb.com/?ip.13.52.36.101) | ec2-13-52-36-101.us-west-1.compute.amazonaws.com | - | Medium
+2 | [18.221.226.193](https://vuldb.com/?ip.18.221.226.193) | ec2-18-221-226-193.us-east-2.compute.amazonaws.com | - | Medium
+3 | [20.102.61.215](https://vuldb.com/?ip.20.102.61.215) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 2 more IOC items available. Please use our online service to access the data.
+There are 4 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -31,11 +35,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22 | Pathname Traversal | High
-2 | T1059 | CWE-94 | Cross Site Scripting | High
-3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-4 | ... | ... | ... | ...
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-94 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 6 more TTP items available. Please use our online service to access the data.
+There are 15 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -43,18 +48,33 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `admin/admin_users.php` | High
-2 | File | `admin/versions.html` | High
-3 | File | `board.php` | Medium
-4 | File | `cloud.php` | Medium
-5 | ... | ... | ...
+1 | File | `/admin/?page=inmates/view_inmate` | High
+2 | File | `/admin/?page=system_info` | High
+3 | File | `/admin/?page=system_info/contact_info` | High
+4 | File | `/admin/edit.php` | High
+5 | File | `/admin/edit_admin_details.php?id=admin` | High
+6 | File | `/admin/new-content` | High
+7 | File | `/aqpg/users/login.php` | High
+8 | File | `/backups/` | Medium
+9 | File | `/bcms/admin/?page=user/list` | High
+10 | File | `/CCMAdmin/serverlist.asp` | High
+11 | File | `/cgi-bin/editBookmark` | High
+12 | File | `/classes/Users.php?f=save` | High
+13 | File | `/cwms/admin/?page=articles/view_article/` | High
+14 | File | `/cwms/classes/Master.php?f=save_contact` | High
+15 | File | `/goform/RgDdns` | High
+16 | File | `/goform/RgDhcp` | High
+17 | File | `/goform/RGFirewallEL` | High
+18 | File | `/goform/RgTime` | High
+19 | ... | ... | ...
 
-There are 25 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 153 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://threatfox.abuse.ch
 * https://twitter.com/Malwar3Ninja/status/1448234445920563200
 
 ## Literature

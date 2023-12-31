@@ -123,17 +123,18 @@ ID | Type | Indicator | Confidence
 7 | File | `/carbon/ndatasource/validateconnection/ajaxprocessor.jsp` | High
 8 | File | `/catcompany.php` | High
 9 | File | `/cgi-bin/kerbynet` | High
-10 | File | `/cgi-bin/webproc` | High
-11 | File | `/etc/passwd` | Medium
-12 | File | `/inc/extensions.php` | High
-13 | File | `/index.php/client/message/message_read/xxxxxxxx[random-msg-hash]` | High
-14 | File | `/login.php` | Medium
-15 | File | `/relax-order-checks` | High
-16 | File | `/ueditor/net/controller.ashx?action=catchimage` | High
-17 | File | `/uncpath/` | Medium
-18 | ... | ... | ...
+10 | File | `/cgi-bin/ping.cgi` | High
+11 | File | `/cgi-bin/webproc` | High
+12 | File | `/etc/passwd` | Medium
+13 | File | `/inc/extensions.php` | High
+14 | File | `/index.php/client/message/message_read/xxxxxxxx[random-msg-hash]` | High
+15 | File | `/login.php` | Medium
+16 | File | `/relax-order-checks` | High
+17 | File | `/server/api/v1/login` | High
+18 | File | `/ueditor/net/controller.ashx?action=catchimage` | High
+19 | ... | ... | ...
 
-There are 149 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 156 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

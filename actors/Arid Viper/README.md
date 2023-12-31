@@ -15,8 +15,8 @@ The following _campaigns_ are known and can be associated with Arid Viper:
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Arid Viper:
 
 * [US](https://vuldb.com/?country.us)
-* [DE](https://vuldb.com/?country.de)
 * [RU](https://vuldb.com/?country.ru)
+* [DE](https://vuldb.com/?country.de)
 * ...
 
 There are 4 more country items available. Please use our online service to access the data.
@@ -61,7 +61,7 @@ ID | Type | Indicator | Confidence
 5 | File | `data/gbconfiguration.dat` | High
 6 | ... | ... | ...
 
-There are 38 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 41 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

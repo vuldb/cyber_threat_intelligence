@@ -53,7 +53,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-37 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-37 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
@@ -98,37 +98,38 @@ ID | Type | Indicator | Confidence
 28 | File | `/etc/pki/pesign` | High
 29 | File | `/etc/postfix/sender_login` | High
 30 | File | `/etc/puppetlabs/puppetserver/conf.d/ca.conf` | High
-31 | File | `/home/filter_listings` | High
-32 | File | `/hrm/employeeadd.php` | High
-33 | File | `/im/user/` | Medium
-34 | File | `/include/chart_generator.php` | High
-35 | File | `/index.php` | Medium
-36 | File | `/jeecg-boot/jmreport/upload` | High
-37 | File | `/jeecg-boot/sys/common/upload` | High
-38 | File | `/listplace/user/ticket/create` | High
-39 | File | `/mgmt/tm/util/bash` | High
-40 | File | `/modules/profile/index.php` | High
-41 | File | `/out.php` | Medium
-42 | File | `/php-sms/classes/Master.php?f=save_quote` | High
-43 | File | `/portal/reports/account_statement` | High
-44 | File | `/preview.php` | Medium
-45 | File | `/property` | Medium
-46 | File | `/robots.txt` | Medium
-47 | File | `/search` | Low
-48 | File | `/send_order.cgi?parameter=restart` | High
-49 | File | `/signup_script.php` | High
-50 | File | `/sys/dict/loadTreeData` | High
-51 | File | `/SysInfo.htm` | Medium
-52 | File | `/sysmanage/edit_manageadmin.php` | High
-53 | File | `/uncpath/` | Medium
-54 | File | `/user/ticket/create` | High
-55 | File | `/usr/5bin/su` | Medium
-56 | File | `/usr/bin/at` | Medium
-57 | File | `/usr/bin/pkexec` | High
-58 | File | `/var/log/rkhunter.log` | High
-59 | ... | ... | ...
+31 | File | `/file-manager/rename.php` | High
+32 | File | `/home/filter_listings` | High
+33 | File | `/hrm/employeeadd.php` | High
+34 | File | `/im/user/` | Medium
+35 | File | `/include/chart_generator.php` | High
+36 | File | `/index.php` | Medium
+37 | File | `/index.php?pluginApp/to/yzOffice/getFile` | High
+38 | File | `/jeecg-boot/jmreport/upload` | High
+39 | File | `/jeecg-boot/sys/common/upload` | High
+40 | File | `/listplace/user/ticket/create` | High
+41 | File | `/mgmt/tm/util/bash` | High
+42 | File | `/modules/profile/index.php` | High
+43 | File | `/out.php` | Medium
+44 | File | `/php-sms/classes/Master.php?f=save_quote` | High
+45 | File | `/portal/reports/account_statement` | High
+46 | File | `/preview.php` | Medium
+47 | File | `/property` | Medium
+48 | File | `/robots.txt` | Medium
+49 | File | `/search` | Low
+50 | File | `/send_order.cgi?parameter=restart` | High
+51 | File | `/signup_script.php` | High
+52 | File | `/sys/dict/loadTreeData` | High
+53 | File | `/SysInfo.htm` | Medium
+54 | File | `/sysmanage/edit_manageadmin.php` | High
+55 | File | `/uncpath/` | Medium
+56 | File | `/user/ticket/create` | High
+57 | File | `/usr/5bin/su` | Medium
+58 | File | `/usr/bin/at` | Medium
+59 | File | `/usr/bin/pkexec` | High
+60 | ... | ... | ...
 
-There are 518 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 525 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -8,9 +8,9 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with RIS:
 
-* [RU](https://vuldb.com/?country.ru)
 * [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
 There are 12 more country items available. Please use our online service to access the data.
@@ -156,8 +156,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
-7 | ... | ... | ... | ...
+6 | ... | ... | ... | ...
 
 There are 22 more TTP items available. Please use our online service to access the data.
 
@@ -167,60 +166,61 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.htaccess` | Medium
-2 | File | `/?p=products` | Medium
-3 | File | `/?r=recruit/resume/edit&op=status` | High
-4 | File | `/ad-list` | Medium
-5 | File | `/admin/?page=bike` | High
-6 | File | `/admin/attendance_row.php` | High
-7 | File | `/admin/config/uploadicon.php` | High
-8 | File | `/admin/edit-accepted-appointment.php` | High
-9 | File | `/admin/edit-services.php` | High
-10 | File | `/admin/edit_subject.php` | High
-11 | File | `/admin/employee_row.php` | High
-12 | File | `/admin/login.php` | High
-13 | File | `/admin/maintenance/brand.php` | High
-14 | File | `/admin/maintenance/view_designation.php` | High
-15 | File | `/admin/mechanics/manage_mechanic.php` | High
-16 | File | `/admin/orders/update_status.php` | High
+1 | File | `%PROGRAMFILES(X86)%\TSplus\UserDesktop\themes.` | High
+2 | File | `.htaccess` | Medium
+3 | File | `/?p=products` | Medium
+4 | File | `/?r=recruit/resume/edit&op=status` | High
+5 | File | `/ad-list` | Medium
+6 | File | `/admin/?page=bike` | High
+7 | File | `/admin/add-category.php` | High
+8 | File | `/admin/config/uploadicon.php` | High
+9 | File | `/admin/controller/JobLogController.java` | High
+10 | File | `/admin/courses/manage_course.php` | High
+11 | File | `/admin/departments/manage_department.php` | High
+12 | File | `/admin/edit-accepted-appointment.php` | High
+13 | File | `/admin/edit-services.php` | High
+14 | File | `/admin/edit_subject.php` | High
+15 | File | `/admin/login.php` | High
+16 | File | `/admin/maintenance/view_designation.php` | High
 17 | File | `/admin/read.php?mudi=getSignal` | High
 18 | File | `/admin/reportupload.aspx` | High
-19 | File | `/admin/service.php` | High
-20 | File | `/admin/service_requests/manage_inventory.php` | High
-21 | File | `/admin/test_status.php` | High
-22 | File | `/admin/transactions/track_shipment.php` | High
-23 | File | `/api/baskets/{name}` | High
-24 | File | `/api/crontab` | Medium
-25 | File | `/api/stl/actions/search` | High
-26 | File | `/api/v2/cli/commands` | High
-27 | File | `/api2/html/` | Medium
-28 | File | `/apply.cgi` | Medium
-29 | File | `/archibus/login.axvw` | High
-30 | File | `/bin/ate` | Medium
-31 | File | `/blog` | Low
-32 | File | `/booking/show_bookings/` | High
-33 | File | `/cgi-bin` | Medium
-34 | File | `/cgi-bin/nightled.cgi` | High
-35 | File | `/cgi-bin/wlogin.cgi` | High
+19 | File | `/admin/search-appointment.php` | High
+20 | File | `/admin/service.php` | High
+21 | File | `/admin/students/manage_academic.php` | High
+22 | File | `/admin/test_status.php` | High
+23 | File | `/admin/theme-edit.php` | High
+24 | File | `/api/baskets/{name}` | High
+25 | File | `/api/crontab` | Medium
+26 | File | `/api/stl/actions/search` | High
+27 | File | `/api/sys/login` | High
+28 | File | `/api/sys/set_passwd` | High
+29 | File | `/api2/html/` | Medium
+30 | File | `/apply.cgi` | Medium
+31 | File | `/archibus/login.axvw` | High
+32 | File | `/bin/ate` | Medium
+33 | File | `/blog` | Low
+34 | File | `/booking/show_bookings/` | High
+35 | File | `/cgi-bin` | Medium
 36 | File | `/change-language/de_DE` | High
-37 | File | `/churchcrm/v2/family/not-found` | High
-38 | File | `/classes/Master.php?f=delete_inquiry` | High
-39 | File | `/company/store` | High
-40 | File | `/config` | Low
-41 | File | `/config/php.ini` | High
-42 | File | `/Content/Template/root/reverse-shell.aspx` | High
+37 | File | `/changePassword` | High
+38 | File | `/company/store` | High
+39 | File | `/config` | Low
+40 | File | `/config/php.ini` | High
+41 | File | `/Content/Template/root/reverse-shell.aspx` | High
+42 | File | `/core/redirect` | High
 43 | File | `/csms/?page=contact_us` | High
 44 | File | `/dashboard/add-blog.php` | High
 45 | File | `/debug/pprof` | Medium
 46 | File | `/dipam/save-delegates.php` | High
-47 | File | `/env` | Low
-48 | File | `/file_manager/admin/save_user.php` | High
-49 | File | `/forum/away.php` | High
-50 | File | `/friends` | Medium
-51 | File | `/goform/aspForm` | High
-52 | ... | ... | ...
+47 | File | `/ecshop/admin/template.php` | High
+48 | File | `/env` | Low
+49 | File | `/file_manager/admin/save_user.php` | High
+50 | File | `/forum/away.php` | High
+51 | File | `/friends` | Medium
+52 | File | `/goform/aspForm` | High
+53 | ... | ... | ...
 
-There are 454 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 461 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -84,21 +84,22 @@ ID | Type | Indicator | Confidence
 23 | File | `act.php` | Low
 24 | File | `adclick.php` | Medium
 25 | File | `admin` | Low
-26 | File | `admin.php` | Medium
-27 | File | `admin/adminsignin.html` | High
-28 | File | `admin/admin_password.php` | High
-29 | File | `admin/movieview.php` | High
-30 | File | `admin/plib/api-rpc/Agent.php` | High
-31 | File | `admin/versions.html` | High
-32 | File | `agenda.php` | Medium
-33 | File | `ajax_calls.php` | High
-34 | File | `api.php` | Low
-35 | File | `attendancy.php` | High
-36 | File | `auth-gss2.c` | Medium
-37 | File | `blog.php` | Medium
-38 | ... | ... | ...
+26 | File | `admin.a6mambocredits.php` | High
+27 | File | `admin.php` | Medium
+28 | File | `admin/adminsignin.html` | High
+29 | File | `admin/admin_password.php` | High
+30 | File | `admin/movieview.php` | High
+31 | File | `admin/plib/api-rpc/Agent.php` | High
+32 | File | `admin/versions.html` | High
+33 | File | `agenda.php` | Medium
+34 | File | `ajax_calls.php` | High
+35 | File | `api.php` | Low
+36 | File | `attendancy.php` | High
+37 | File | `auth-gss2.c` | Medium
+38 | File | `auth.inc.php` | Medium
+39 | ... | ... | ...
 
-There are 328 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 338 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

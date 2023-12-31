@@ -61,7 +61,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 11 more TTP items available. Please use our online service to access the data.
+There are 12 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -79,26 +79,27 @@ ID | Type | Indicator | Confidence
 8 | File | `/php-scrm/login.php` | High
 9 | File | `/proxy` | Low
 10 | File | `/reviewer/system/system/admins/manage/users/user-update.php` | High
-11 | File | `/send_order.cgi?parameter=access_detect` | High
-12 | File | `/text/pdf/PdfReader.java` | High
-13 | File | `/textpattern/index.php` | High
-14 | File | `/tmp` | Low
-15 | File | `/wp-admin/admin-ajax.php` | High
-16 | File | `account-signup.php` | High
-17 | File | `account/signup.php` | High
-18 | File | `addentry.php` | Medium
-19 | File | `addressbook/backends/ldap/e-book-backend-ldap.c` | High
-20 | File | `admin.jcomments.php` | High
-21 | File | `admin.php` | Medium
-22 | File | `admin/admin_editor.php` | High
-23 | File | `admin/conf_users_edit.php` | High
-24 | File | `admin/data.php` | High
-25 | File | `admin/edit_category.php` | High
-26 | File | `admin/operations/currency.php` | High
-27 | File | `awstats.pl` | Medium
-28 | ... | ... | ...
+11 | File | `/scripts/unlock_tasks.php` | High
+12 | File | `/send_order.cgi?parameter=access_detect` | High
+13 | File | `/text/pdf/PdfReader.java` | High
+14 | File | `/textpattern/index.php` | High
+15 | File | `/tmp` | Low
+16 | File | `/wp-admin/admin-ajax.php` | High
+17 | File | `account-signup.php` | High
+18 | File | `account/signup.php` | High
+19 | File | `addentry.php` | Medium
+20 | File | `addressbook/backends/ldap/e-book-backend-ldap.c` | High
+21 | File | `admin.jcomments.php` | High
+22 | File | `admin.php` | Medium
+23 | File | `admin/admin_editor.php` | High
+24 | File | `admin/conf_users_edit.php` | High
+25 | File | `admin/data.php` | High
+26 | File | `admin/edit_category.php` | High
+27 | File | `admin/operations/currency.php` | High
+28 | File | `awstats.pl` | Medium
+29 | ... | ... | ...
 
-There are 241 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 242 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

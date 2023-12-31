@@ -91,9 +91,10 @@ ID | Type | Indicator | Confidence
 36 | File | `admin/status/realtime/bandwidth_status` | High
 37 | File | `agent.c` | Low
 38 | File | `ajax_crons.php` | High
-39 | ... | ... | ...
+39 | File | `ansi.c` | Low
+40 | ... | ... | ...
 
-There are 337 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 340 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

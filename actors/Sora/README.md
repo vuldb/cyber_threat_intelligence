@@ -9,6 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Sora:
 
 * [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
+* [ES](https://vuldb.com/?country.es)
+* ...
+
+There are 4 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -18,6 +23,7 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [45.148.10.86](https://vuldb.com/?ip.45.148.10.86) | - | - | High
 2 | [193.70.125.169](https://vuldb.com/?ip.193.70.125.169) | ip169.ip-193-70-125.eu | - | High
+3 | [209.141.45.139](https://vuldb.com/?ip.209.141.45.139) | smtp6.thkingl.top | - | High
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -25,12 +31,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-94 | Cross Site Scripting | High
-4 | ... | ... | ... | ...
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1068 | CWE-264, CWE-266, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+6 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -39,17 +47,63 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `%PROGRAMDATA%\checkmk\agent\local` | High
-2 | File | `/users/admin/user_activity.php` | High
-3 | File | `/var/www/rhcert` | High
-4 | ... | ... | ...
+2 | File | `.htaccess` | Medium
+3 | File | `/admin/featured.php` | High
+4 | File | `/api/email_accounts` | High
+5 | File | `/app/config/of` | High
+6 | File | `/APR/login.php` | High
+7 | File | `/artist-display.php` | High
+8 | File | `/bin/su` | Low
+9 | File | `/common/security/realms/realms.jsf` | High
+10 | File | `/configuration/auditModuleEdit.jsf` | High
+11 | File | `/configuration/configuration.jsf` | High
+12 | File | `/configuration/httpListenerEdit.jsf` | High
+13 | File | `/core/model/modx/modmanagerrequest.class.php` | High
+14 | File | `/easy-team-manager/inc/easy_team_manager_desc_edit.php` | High
+15 | File | `/etc/srapi/config/system.conf` | High
+16 | File | `/file_manager/login.php` | High
+17 | File | `/film-rating.php` | High
+18 | File | `/librarian/lab.php` | High
+19 | File | `/movie.php` | Medium
+20 | File | `/pet_shop/classes/Master.php?f=delete_order` | High
+21 | File | `/pineapple/ui` | High
+22 | File | `/resourceNode/jdbcResourceEdit.jsf` | High
+23 | File | `/resourceNode/resources.jsf` | High
+24 | File | `/show_news.php` | High
+25 | File | `/staff/bookdetails.php` | High
+26 | File | `/staff/edit_book_details.php` | High
+27 | File | `/staff/lab.php` | High
+28 | File | `/staff/studentdetails.php` | High
+29 | File | `/tmp/var/passwd` | High
+30 | File | `/users/admin/user_activity.php` | High
+31 | File | `/var/www/rhcert` | High
+32 | File | `/ViewUserHover.jspa` | High
+33 | File | `/webService/webServicesGeneral.jsf` | High
+34 | File | `802dot1xclientcert.cgi` | High
+35 | File | `acc_verify.php` | High
+36 | File | `activate.php` | Medium
+37 | File | `adclick.php` | Medium
+38 | File | `admin.a6mambohelpdesk.php` | High
+39 | File | `admin.php` | Medium
+40 | File | `admin/clients/manage_client.php` | High
+41 | File | `admin/clients/view_client.php` | High
+42 | File | `admin/customers.php` | High
+43 | File | `admin/index.php` | High
+44 | File | `admin/vqmods.app/vqmods.inc.php` | High
+45 | File | `admin/zones.php` | High
+46 | File | `admin_cs.php` | Medium
+47 | File | `admin_ok.asp` | Medium
+48 | File | `affich.php` | Medium
+49 | ... | ... | ...
 
-There are 13 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 428 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://blog.trendmicro.co.jp/wp-content/uploads/2020/02/IoCs_SORA_UNSTABLE.pdf
+* https://s.tencent.com/research/report/1177.html
 
 ## Literature
 

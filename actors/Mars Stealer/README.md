@@ -34,9 +34,10 @@ ID | IP address | Hostname | Campaign | Confidence
 11 | [62.3.12.9](https://vuldb.com/?ip.62.3.12.9) | zserg.ch | - | High
 12 | [62.113.99.76](https://vuldb.com/?ip.62.113.99.76) | - | - | High
 13 | [62.204.41.69](https://vuldb.com/?ip.62.204.41.69) | - | - | High
-14 | ... | ... | ... | ...
+14 | [62.204.41.70](https://vuldb.com/?ip.62.204.41.70) | - | - | High
+15 | ... | ... | ... | ...
 
-There are 53 more IOC items available. Please use our online service to access the data.
+There are 54 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -96,9 +97,11 @@ ID | Type | Indicator | Confidence
 35 | File | `/uncpath/` | Medium
 36 | File | `/usr/www/ja/mnt_cmd.cgi` | High
 37 | File | `/videotalk` | Medium
-38 | ... | ... | ...
+38 | File | `/view-property.php` | High
+39 | File | `/webman/info.cgi` | High
+40 | ... | ... | ...
 
-There are 331 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 340 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -110,6 +113,8 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://gist.github.com/viriback/362a91ed9601ba906d8a17c8102a68bb
 * https://github.com/SEKOIA-IO/Community/blob/main/IOCs/marsstealer/mars_stealer_iocs_20220407.csv
 * https://isc.sans.edu/forums/diary/Arkei+Variants+From+Vidar+to+Mars+Stealer/28468/
+* https://tracker.viriback.com/index.php?q=91.92.246.39
+* https://tracker.viriback.com/index.php?q=91.92.250.149
 * https://tracker.viriback.com/index.php?q=152.89.218.27
 * https://tracker.viriback.com/index.php?q=152.89.218.84
 * https://tracker.viriback.com/index.php?q=152.89.218.97

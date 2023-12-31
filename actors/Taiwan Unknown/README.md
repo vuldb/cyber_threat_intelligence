@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 25 more country items available. Please use our online service to access the data.
+There are 20 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -815,14 +815,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-425 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -830,61 +830,57 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/academy/tutor/filter` | High
-2 | File | `/admin/?page=user` | High
-3 | File | `/admin/article/article-edit-run.php` | High
-4 | File | `/admin/cms_admin.php` | High
-5 | File | `/admin/cms_content.php` | High
-6 | File | `/admin/config/uploadicon.php` | High
-7 | File | `/admin/inquiries/view_inquiry.php` | High
-8 | File | `/admin/leancloud.php` | High
-9 | File | `/admin/order.php` | High
-10 | File | `/admin/plugin.php` | High
-11 | File | `/admin/save.php` | High
-12 | File | `/admin/services/manage_service.php` | High
-13 | File | `/api/` | Low
-14 | File | `/api/baskets/{name}` | High
-15 | File | `/api/download` | High
-16 | File | `/api/download/updateFile` | High
-17 | File | `/api/es/admin/v3/security/user/1` | High
-18 | File | `/api/installation/setThumbnailRc` | High
-19 | File | `/api/sys/login` | High
-20 | File | `/api/sys/set_passwd` | High
-21 | File | `/api/thumbnail` | High
-22 | File | `/api/v1/terminal/sessions/?limit=1` | High
-23 | File | `/app/sys1.php` | High
-24 | File | `/book-services.php` | High
-25 | File | `/category.php` | High
-26 | File | `/categorypage.php` | High
-27 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-28 | File | `/cgi-bin/luci/api/wireless` | High
-29 | File | `/cgi-bin/vitogate.cgi` | High
-30 | File | `/classes/master.php?f=delete_order` | High
-31 | File | `/classes/Master.php?f=delete_sub_category` | High
-32 | File | `/classes/Master.php?f=save_brand` | High
-33 | File | `/classes/Master.php?f=save_category` | High
-34 | File | `/classes/Master.php?f=save_service` | High
-35 | File | `/classes/Master.php?f=update_order_status` | High
-36 | File | `/collection/all` | High
-37 | File | `/conf/` | Low
-38 | File | `/config/php.ini` | High
-39 | File | `/Content/Template/root/reverse-shell.aspx` | High
-40 | File | `/content/templates/` | High
-41 | File | `/course/filterRecords/` | High
-42 | File | `/fcgi/scrut_fcgi.fcgi` | High
-43 | File | `/forum/away.php` | High
-44 | File | `/fusion/portal/action/Link` | High
-45 | File | `/goform/Diagnosis` | High
-46 | File | `/goform/fast_setting_wifi_set` | High
-47 | File | `/goform/NatStaticSetting` | High
-48 | File | `/goform/PowerSaveSet` | High
-49 | File | `/goform/SetPptpServerCfg` | High
-50 | File | `/goform/SetStaticRouteCfg` | High
-51 | File | `/goform/WifiBasicSet` | High
-52 | File | `/HNAP1` | Low
-53 | ... | ... | ...
+1 | File | `%SYSTEMDRIVE%\node_modules\.bin\wmic.exe` | High
+2 | File | `/admin/?page=bike` | High
+3 | File | `/admin/?page=user` | High
+4 | File | `/admin/add-category.php` | High
+5 | File | `/admin/courses/manage_course.php` | High
+6 | File | `/admin/courses/view_course.php` | High
+7 | File | `/admin/departments/manage_department.php` | High
+8 | File | `/admin/index.php` | High
+9 | File | `/admin/inquiries/view_inquiry.php` | High
+10 | File | `/admin/list_addr_fwresource_ip.php` | High
+11 | File | `/admin/list_onlineuser.php` | High
+12 | File | `/admin/login.php` | High
+13 | File | `/admin/order.php` | High
+14 | File | `/admin/plugin.php` | High
+15 | File | `/admin/save.php` | High
+16 | File | `/admin/services/manage_service.php` | High
+17 | File | `/admin/students/manage_academic.php` | High
+18 | File | `/admin/theme-edit.php` | High
+19 | File | `/ample/app/ajax/member_data.php` | High
+20 | File | `/api/` | Low
+21 | File | `/api/authentication/login` | High
+22 | File | `/api/download` | High
+23 | File | `/api/v1/alerts` | High
+24 | File | `/cgi-bin/vitogate.cgi` | High
+25 | File | `/classes/master.php?f=delete_order` | High
+26 | File | `/classes/Master.php?f=delete_sub_category` | High
+27 | File | `/classes/Master.php?f=save_brand` | High
+28 | File | `/classes/Master.php?f=save_category` | High
+29 | File | `/classes/Master.php?f=save_service` | High
+30 | File | `/classes/Master.php?f=update_order_status` | High
+31 | File | `/collection/all` | High
+32 | File | `/config-manager/save` | High
+33 | File | `/Content/Plugins/uploader/FileChoose.html?fileUrl=/Upload/File/Pics/&parent` | High
+34 | File | `/content/templates/` | High
+35 | File | `/course/filterRecords/` | High
+36 | File | `/dashboard/createblog` | High
+37 | File | `/debug/pprof` | Medium
+38 | File | `/ecommerce/admin/settings/setDiscount.php` | High
+39 | File | `/endpoint/add-user.php` | High
+40 | File | `/fcgi/scrut_fcgi.fcgi` | High
+41 | File | `/forum/away.php` | High
+42 | File | `/geoserver/gwc/rest.html` | High
+43 | File | `/goform/formSysCmd` | High
+44 | File | `/h/autoSaveDraft` | High
+45 | File | `/HNAP1` | Low
+46 | File | `/im/user/` | Medium
+47 | File | `/importexport.php` | High
+48 | File | `/jbig2dec/jbig2.c` | High
+49 | ... | ... | ...
 
-There are 466 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 424 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

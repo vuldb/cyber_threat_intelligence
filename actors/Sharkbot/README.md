@@ -28,12 +28,12 @@ ID | IP address | Hostname | Campaign | Confidence
 5 | [45.11.180.240](https://vuldb.com/?ip.45.11.180.240) | - | - | High
 6 | [45.11.182.33](https://vuldb.com/?ip.45.11.182.33) | - | - | High
 7 | [45.11.182.62](https://vuldb.com/?ip.45.11.182.62) | - | - | High
-8 | [79.132.128.91](https://vuldb.com/?ip.79.132.128.91) | - | - | High
-9 | [79.132.131.131](https://vuldb.com/?ip.79.132.131.131) | - | - | High
-10 | [79.132.133.244](https://vuldb.com/?ip.79.132.133.244) | - | - | High
+8 | [67.223.117.90](https://vuldb.com/?ip.67.223.117.90) | - | - | High
+9 | [79.132.128.91](https://vuldb.com/?ip.79.132.128.91) | - | - | High
+10 | [79.132.131.131](https://vuldb.com/?ip.79.132.131.131) | - | - | High
 11 | ... | ... | ... | ...
 
-There are 41 more IOC items available. Please use our online service to access the data.
+There are 42 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -66,7 +66,7 @@ ID | Type | Indicator | Confidence
 9 | File | `/rom-0` | Low
 10 | ... | ... | ...
 
-There are 77 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 79 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

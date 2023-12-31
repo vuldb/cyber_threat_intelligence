@@ -22,11 +22,11 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [2.57.19.173](https://vuldb.com/?ip.2.57.19.173) | - | - | High
-2 | [45.133.1.98](https://vuldb.com/?ip.45.133.1.98) | - | - | High
-3 | [80.85.157.98](https://vuldb.com/?ip.80.85.157.98) | 06.use | - | High
+2 | [20.163.158.142](https://vuldb.com/?ip.20.163.158.142) | - | - | High
+3 | [45.133.1.98](https://vuldb.com/?ip.45.133.1.98) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 2 more IOC items available. Please use our online service to access the data.
+There are 3 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -60,6 +60,7 @@ There are 33 more IOA items available (file, library, argument, input value, pat
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://search.censys.io/hosts/2.57.19.173
+* https://search.censys.io/hosts/20.163.158.142
 * https://search.censys.io/hosts/103.90.161.122
 * https://tracker.viriback.com/index.php?q=80.85.157.98
 * https://tracker.viriback.com/index.php?q=146.19.191.190

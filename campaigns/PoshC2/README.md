@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with PoshC2:
 
 * [US](https://vuldb.com/?country.us)
-* [ES](https://vuldb.com/?country.es)
 * [RU](https://vuldb.com/?country.ru)
+* [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 4 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -33,9 +33,11 @@ ID | IP address | Hostname | Actor | Confidence
 1 | [3.253.77.60](https://vuldb.com/?ip.3.253.77.60) | ec2-3-253-77-60.eu-west-1.compute.amazonaws.com | [PoshC2](https://vuldb.com/?actor.poshc2) | Medium
 2 | [13.48.77.144](https://vuldb.com/?ip.13.48.77.144) | ec2-13-48-77-144.eu-north-1.compute.amazonaws.com | [PoshC2](https://vuldb.com/?actor.poshc2) | Medium
 3 | [18.134.14.164](https://vuldb.com/?ip.18.134.14.164) | ec2-18-134-14-164.eu-west-2.compute.amazonaws.com | [PoshC2](https://vuldb.com/?actor.poshc2) | Medium
-4 | ... | ... | ... | ...
+4 | [35.202.253.45](https://vuldb.com/?ip.35.202.253.45) | 45.253.202.35.bc.googleusercontent.com | [PoshC2](https://vuldb.com/?actor.poshc2) | Medium
+5 | [45.79.196.203](https://vuldb.com/?ip.45.79.196.203) | 45-79-196-203.ip.linodeusercontent.com | [PoshC2](https://vuldb.com/?actor.poshc2) | High
+6 | ... | ... | ... | ...
 
-There are 14 more IOC items available. Please use our online service to access the data.
+There are 21 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -70,7 +72,7 @@ ID | Type | Indicator | Confidence
 12 | File | `cat.asp` | Low
 13 | ... | ... | ...
 
-There are 100 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 104 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -81,15 +83,22 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://search.censys.io/hosts/13.48.77.144
 * https://search.censys.io/hosts/18.134.14.164
 * https://search.censys.io/hosts/45.79.196.203
+* https://search.censys.io/hosts/51.250.38.28
+* https://search.censys.io/hosts/70.77.124.96
+* https://search.censys.io/hosts/79.143.181.62
 * https://search.censys.io/hosts/88.210.9.139
 * https://search.censys.io/hosts/94.23.228.43
+* https://search.censys.io/hosts/157.245.128.27
 * https://search.censys.io/hosts/159.100.29.105
+* https://search.censys.io/hosts/184.72.153.18
 * https://search.censys.io/hosts/185.234.216.64
 * https://search.censys.io/hosts/213.219.37.158
 * https://search.censys.io/search?resource=hosts&sort=RELEVANCE&per_page=25&virtual_hosts=EXCLUDE&q=services.software.product%3A+poshc2+and+not+labels%3A+tarpit
+* https://threatfox.abuse.ch
 * https://twitter.com/1ZRR4H/status/1582068501036273665
 * https://twitter.com/TheDFIRReport/status/1407322479664762890
 * https://www.lac.co.jp/lacwatch/people/20190213_001770.html
+* https://x.com/drb_ra/status/1735296172758069289?s=20
 
 ## Literature
 

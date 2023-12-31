@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 16 more country items available. Please use our online service to access the data.
+There are 17 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -67,35 +67,36 @@ ID | Type | Indicator | Confidence
 5 | File | `/apply.cgi` | Medium
 6 | File | `/category.php` | High
 7 | File | `/cgi-bin/diagnostics` | High
-8 | File | `/cgi-bin/pass` | High
-9 | File | `/cmf/process/<process_id>/logs` | High
-10 | File | `/config.cgi?webmin` | High
-11 | File | `/connectors/index.php` | High
-12 | File | `/data/wps.setup.json` | High
-13 | File | `/download` | Medium
-14 | File | `/index.php` | Medium
-15 | File | `/mcategory.php` | High
-16 | File | `/movie.php` | Medium
-17 | File | `/multi-vendor-shopping-script/product-list.php` | High
-18 | File | `/news-portal-script/information.php` | High
-19 | File | `/page.php` | Medium
-20 | File | `/public/login.htm` | High
-21 | File | `/public/plugins/` | High
-22 | File | `/real-estate-script/search_property.php` | High
-23 | File | `/recordings/index.php` | High
-24 | File | `/searchJob.php` | High
-25 | File | `/uncpath/` | Medium
-26 | File | `/user/loader.php?api=1` | High
-27 | File | `/var/miniupnpd.conf` | High
-28 | File | `/wp-admin/options-general.php` | High
-29 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-30 | File | `addentry.php` | Medium
-31 | File | `addrtoname.c` | Medium
-32 | File | `add_edit_cat.asp` | High
-33 | File | `admin/languages.php` | High
-34 | ... | ... | ...
+8 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
+9 | File | `/cgi-bin/pass` | High
+10 | File | `/cmf/process/<process_id>/logs` | High
+11 | File | `/config.cgi?webmin` | High
+12 | File | `/connectors/index.php` | High
+13 | File | `/data/wps.setup.json` | High
+14 | File | `/download` | Medium
+15 | File | `/index.php` | Medium
+16 | File | `/mcategory.php` | High
+17 | File | `/MIME/INBOX-MM-1/` | High
+18 | File | `/movie.php` | Medium
+19 | File | `/multi-vendor-shopping-script/product-list.php` | High
+20 | File | `/news-portal-script/information.php` | High
+21 | File | `/page.php` | Medium
+22 | File | `/public/login.htm` | High
+23 | File | `/public/plugins/` | High
+24 | File | `/real-estate-script/search_property.php` | High
+25 | File | `/recordings/index.php` | High
+26 | File | `/searchJob.php` | High
+27 | File | `/uncpath/` | Medium
+28 | File | `/user/loader.php?api=1` | High
+29 | File | `/var/miniupnpd.conf` | High
+30 | File | `/wp-admin/options-general.php` | High
+31 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+32 | File | `addentry.php` | Medium
+33 | File | `addrtoname.c` | Medium
+34 | File | `add_edit_cat.asp` | High
+35 | ... | ... | ...
 
-There are 295 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 300 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

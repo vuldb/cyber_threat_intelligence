@@ -54,20 +54,20 @@ ID | Type | Indicator | Confidence
 4 | File | `/admin/googleads.php` | High
 5 | File | `/admin/reg.php` | High
 6 | File | `/admin/renewaldue.php` | High
-7 | File | `/analysisProject/pagingQueryData` | High
-8 | File | `/api/sys/login` | High
-9 | File | `/booking/show_bookings/` | High
-10 | File | `/cgi-bin/adm.cgi` | High
-11 | File | `/collection/all` | High
-12 | File | `/dashboard/add-portfolio.php` | High
-13 | File | `/dipam/save-delegates.php` | High
-14 | File | `/E-mobile/App/System/File/downfile.php` | High
-15 | File | `/importexport.php` | High
-16 | File | `/jurusanmatkul/data` | High
-17 | File | `/log/decodmail.php` | High
+7 | File | `/ajax` | Low
+8 | File | `/analysisProject/pagingQueryData` | High
+9 | File | `/api/sys/login` | High
+10 | File | `/booking/show_bookings/` | High
+11 | File | `/cgi-bin/adm.cgi` | High
+12 | File | `/collection/all` | High
+13 | File | `/dashboard/add-portfolio.php` | High
+14 | File | `/dipam/save-delegates.php` | High
+15 | File | `/E-mobile/App/System/File/downfile.php` | High
+16 | File | `/importexport.php` | High
+17 | File | `/jurusanmatkul/data` | High
 18 | ... | ... | ...
 
-There are 148 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 150 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

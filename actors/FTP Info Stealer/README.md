@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 17 more country items available. Please use our online service to access the data.
+There are 19 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -47,7 +47,7 @@ ID | Technique | Weakness | Description | Confidence
 6 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 7 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 23 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -61,20 +61,20 @@ ID | Type | Indicator | Confidence
 4 | File | `/api/baskets/{name}` | High
 5 | File | `/api/files/` | Medium
 6 | File | `/api/RecordingList/DownloadRecord?file=` | High
-7 | File | `/apply.cgi` | Medium
-8 | File | `/card_scan.php` | High
-9 | File | `/cgi-bin/luci/api/switch` | High
-10 | File | `/cgi-bin/sm_changepassword.cgi` | High
-11 | File | `/cgi-bin/touchlist_sync.cgi` | High
-12 | File | `/cgi-bin/wlogin.cgi` | High
-13 | File | `/classes/Master.php?f=delete_inquiry` | High
-14 | File | `/contact.php` | Medium
-15 | File | `/cwc/login` | Medium
-16 | File | `/dev/shm` | Medium
-17 | File | `/dl/dl_print.php` | High
-18 | File | `/download` | Medium
-19 | File | `/etc/quagga` | Medium
-20 | File | `/etc/shadow` | Medium
+7 | File | `/app/options.py` | High
+8 | File | `/apply.cgi` | Medium
+9 | File | `/card_scan.php` | High
+10 | File | `/cgi-bin/luci/api/switch` | High
+11 | File | `/cgi-bin/sm_changepassword.cgi` | High
+12 | File | `/cgi-bin/touchlist_sync.cgi` | High
+13 | File | `/cgi-bin/wlogin.cgi` | High
+14 | File | `/classes/Master.php?f=delete_inquiry` | High
+15 | File | `/contact.php` | Medium
+16 | File | `/cwc/login` | Medium
+17 | File | `/dev/shm` | Medium
+18 | File | `/dl/dl_print.php` | High
+19 | File | `/download` | Medium
+20 | File | `/etc/quagga` | Medium
 21 | File | `/export` | Low
 22 | File | `/forms/doLogin` | High
 23 | File | `/forum/away.php` | High
@@ -97,7 +97,7 @@ ID | Type | Indicator | Confidence
 40 | File | `/rapi/read_url` | High
 41 | ... | ... | ...
 
-There are 358 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 354 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

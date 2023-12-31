@@ -59,25 +59,25 @@ ID | Type | Indicator | Confidence
 8 | File | `/App_Resource/UEditor/server/upload.aspx` | High
 9 | File | `/bin/sh` | Low
 10 | File | `/cgi-bin/luci/api/diagnose` | High
-11 | File | `/classes/conf/db.properties&config=filemanager.config.js` | High
-12 | File | `/coders/palm.c` | High
-13 | File | `/collection/all` | High
-14 | File | `/dcim/rack/` | Medium
-15 | File | `/EditEventTypes.php` | High
-16 | File | `/etc/groups` | Medium
-17 | File | `/file/upload/1` | High
-18 | File | `/formSetPortTr` | High
-19 | File | `/forum/away.php` | High
-20 | File | `/goform/wlanPrimaryNetwork` | High
-21 | File | `/index.php?module=help_pages/pages&entities_id=24` | High
-22 | File | `/it-IT/splunkd/__raw/services/get_snapshot` | High
-23 | File | `/nova/bin/user` | High
-24 | File | `/novel-admin/src/main/java/com/java2nb/common/controller/FileController.java` | High
-25 | File | `/plesk-site-preview/` | High
-26 | File | `/public/admin/profile/update.html` | High
+11 | File | `/cgi-bin/R19.9/easy1350.pl` | High
+12 | File | `/classes/conf/db.properties&config=filemanager.config.js` | High
+13 | File | `/coders/palm.c` | High
+14 | File | `/collection/all` | High
+15 | File | `/dcim/rack/` | Medium
+16 | File | `/EditEventTypes.php` | High
+17 | File | `/endpoint/add-user.php` | High
+18 | File | `/etc/groups` | Medium
+19 | File | `/file/upload/1` | High
+20 | File | `/formSetPortTr` | High
+21 | File | `/forum/away.php` | High
+22 | File | `/goform/wlanPrimaryNetwork` | High
+23 | File | `/index.php?module=help_pages/pages&entities_id=24` | High
+24 | File | `/it-IT/splunkd/__raw/services/get_snapshot` | High
+25 | File | `/nova/bin/user` | High
+26 | File | `/novel-admin/src/main/java/com/java2nb/common/controller/FileController.java` | High
 27 | ... | ... | ...
 
-There are 224 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 229 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

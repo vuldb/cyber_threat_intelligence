@@ -8,8 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with AMOS:
 
-* [RU](https://vuldb.com/?country.ru)
 * [US](https://vuldb.com/?country.us)
+* [RU](https://vuldb.com/?country.ru)
+* [DE](https://vuldb.com/?country.de)
+* ...
+
+There are 5 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -17,12 +21,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [37.220.87.16](https://vuldb.com/?ip.37.220.87.16) | ipn-37-220-87-16.artem-catv.ru | - | High
-2 | [104.21.17.179](https://vuldb.com/?ip.104.21.17.179) | - | - | High
-3 | [171.22.28.248](https://vuldb.com/?ip.171.22.28.248) | mail.wmailboxserv.net | - | High
+1 | [5.42.65.55](https://vuldb.com/?ip.5.42.65.55) | - | - | High
+2 | [5.182.86.8](https://vuldb.com/?ip.5.182.86.8) | frequent-minute.aeza.network | - | High
+3 | [37.220.87.16](https://vuldb.com/?ip.37.220.87.16) | ipn-37-220-87-16.artem-catv.ru | - | High
 4 | ... | ... | ... | ...
 
-There are 4 more IOC items available. Please use our online service to access the data.
+There are 10 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -30,12 +34,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
-3 | T1505 | CWE-89 | SQL Injection | High
+1 | T1006 | CWE-22 | Pathname Traversal | High
+2 | T1059 | CWE-94 | Cross Site Scripting | High
+3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 3 more TTP items available. Please use our online service to access the data.
+There are 7 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -43,18 +47,27 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/display/map` | Medium
-2 | File | `ClipboardListener.java` | High
-3 | File | `drivers/cpufreq/qcom-cpufreq-hw.c` | High
-4 | ... | ... | ...
+1 | File | `/advanced-tools/nova/bin/netwatch` | High
+2 | File | `/display/map` | Medium
+3 | File | `/forum/away.php` | High
+4 | File | `/oauth/idp/.well-known/openid-configuration` | High
+5 | File | `/qsr_server/device/reboot` | High
+6 | File | `about.php` | Medium
+7 | File | `auktion.cgi` | Medium
+8 | ... | ... | ...
 
-There are 8 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 58 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://search.censys.io/hosts/5.42.65.55
+* https://search.censys.io/hosts/185.172.128.31/
+* https://search.censys.io/hosts/185.172.128.163
+* https://search.censys.io/hosts/185.215.113.71/
 * https://threatfox.abuse.ch
+* https://tracker.viriback.com/index.php?q=5.182.86.8
 * https://twitter.com/phd_phuc/status/1651002681798926337
 
 ## Literature

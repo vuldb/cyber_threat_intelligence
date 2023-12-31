@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Netherlands Unknown:
 
 * [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
 * [IO](https://vuldb.com/?country.io)
-* [SH](https://vuldb.com/?country.sh)
 * ...
 
-There are 20 more country items available. Please use our online service to access the data.
+There are 21 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -7464,8 +7464,8 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-36 | Pathname Traversal | High
-2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Pathname Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
@@ -7479,49 +7479,44 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/academy/home/courses` | High
-2 | File | `/admin/?page=user/list` | High
-3 | File | `/admin/del_service.php` | High
-4 | File | `/api/baskets/{name}` | High
-5 | File | `/api/database` | High
-6 | File | `/api/sys/set_passwd` | High
-7 | File | `/api/v1/terminal/sessions/?limit=1` | High
-8 | File | `/bitrix/admin/ldap_server_edit.php` | High
-9 | File | `/c/PluginsController.php` | High
-10 | File | `/cgi-bin/luci/api/wireless` | High
-11 | File | `/cgi-bin/wlogin.cgi` | High
-12 | File | `/collection/all` | High
-13 | File | `/Content/Template/root/reverse-shell.aspx` | High
-14 | File | `/core/conditions/AbstractWrapper.java` | High
-15 | File | `/dashboard/add-blog.php` | High
-16 | File | `/debug/pprof` | Medium
-17 | File | `/download` | Medium
-18 | File | `/ecrire/exec/puce_statut.php` | High
-19 | File | `/files/` | Low
-20 | File | `/forum/away.php` | High
-21 | File | `/fusion/portal/action/Link` | High
-22 | File | `/group1/uploa` | High
-23 | File | `/importexport.php` | High
-24 | File | `/index.php` | Medium
-25 | File | `/index.php?p=admin/actions/users/send-password-reset-email` | High
-26 | File | `/iniFile/config.ini` | High
-27 | File | `/jeecg-boot/sys/common/upload` | High
-28 | File | `/knowage/restful-services/dossier/importTemplateFile` | High
-29 | File | `/languages/install.php` | High
-30 | File | `/listplace/user/coverPhotoUpdate` | High
-31 | File | `/log/decodmail.php` | High
-32 | File | `/mgmt/` | Low
-33 | File | `/northstar/Portal/processlogin.jsp` | High
-34 | File | `/pf/idprofile.ping` | High
-35 | File | `/register.do` | Medium
-36 | File | `/resources//../` | High
-37 | File | `/search` | Low
-38 | File | `/spip.php` | Medium
-39 | File | `/SysManage/AddUpdateRole.aspx` | High
-40 | File | `/sysmanage/updateos.php` | High
-41 | ... | ... | ...
+1 | File | `%SYSTEMDRIVE%\node_modules\.bin\wmic.exe` | High
+2 | File | `/.env` | Low
+3 | File | `/admin/add-category.php` | High
+4 | File | `/admin/add-services.php` | High
+5 | File | `/admin/controller/JobLogController.java` | High
+6 | File | `/admin/offenses/view_details.php` | High
+7 | File | `/admin/theme-edit.php` | High
+8 | File | `/api/sys/login` | High
+9 | File | `/api/sys/set_passwd` | High
+10 | File | `/api/upload.php` | High
+11 | File | `/api/v1/alerts` | High
+12 | File | `/api/v4/users/ids` | High
+13 | File | `/api2/html/` | Medium
+14 | File | `/cgi-bin/luci;stok=/locale` | High
+15 | File | `/cgi-bin/ping.cgi` | High
+16 | File | `/changePassword` | High
+17 | File | `/common/logViewer/logViewer.jsf` | High
+18 | File | `/Content/Plugins/uploader/FileChoose.html?fileUrl=/Upload/File/Pics/&parent` | High
+19 | File | `/dashboard/add-blog.php` | High
+20 | File | `/data/remove` | Medium
+21 | File | `/debug/pprof` | Medium
+22 | File | `/ecshop/admin/template.php` | High
+23 | File | `/etc/shadow` | Medium
+24 | File | `/fcgi/scrut_fcgi.fcgi` | High
+25 | File | `/forum/away.php` | High
+26 | File | `/geoserver/gwc/rest.html` | High
+27 | File | `/goform/formSysCmd` | High
+28 | File | `/goform/goform_get_cmd_process` | High
+29 | File | `/issue` | Low
+30 | File | `/login.php` | Medium
+31 | File | `/oauth/idp/.well-known/openid-configuration` | High
+32 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
+33 | File | `/pandora_console/ajax.php` | High
+34 | File | `/proxy` | Low
+35 | File | `/scripts/unlock_tasks.php` | High
+36 | ... | ... | ...
 
-There are 355 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 307 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

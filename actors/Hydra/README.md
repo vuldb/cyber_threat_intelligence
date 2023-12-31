@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 17 more country items available. Please use our online service to access the data.
+There are 19 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -46,9 +46,10 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+6 | ... | ... | ... | ...
 
-There are 16 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -91,24 +92,25 @@ ID | Type | Indicator | Confidence
 33 | File | `/secure/QueryComponent!Default.jspa` | High
 34 | File | `/spacecom/login.php` | High
 35 | File | `/spip.php` | Medium
-36 | File | `/uncpath/` | Medium
-37 | File | `/user/updatePwd` | High
-38 | File | `/wp-admin/admin-ajax.php` | High
-39 | File | `AbstractController.php` | High
-40 | File | `action.php` | Medium
-41 | File | `add-locker-form.php` | High
-42 | File | `addpost_newpoll.php` | High
-43 | File | `admin.cgi` | Medium
-44 | File | `admin.php` | Medium
-45 | File | `admin.remository.php` | High
-46 | File | `admin/news.php` | High
-47 | File | `admin/page.php` | High
-48 | File | `admin/partials/ajax/add_field_to_form.php` | High
-49 | File | `administrator/upload.php` | High
-50 | File | `Administrator/users.php` | High
-51 | ... | ... | ...
+36 | File | `/src/admin/content_batchup_action.php` | High
+37 | File | `/uncpath/` | Medium
+38 | File | `/user/updatePwd` | High
+39 | File | `/wp-admin/admin-ajax.php` | High
+40 | File | `AbstractController.php` | High
+41 | File | `action.php` | Medium
+42 | File | `add-locker-form.php` | High
+43 | File | `addpost_newpoll.php` | High
+44 | File | `admin.cgi` | Medium
+45 | File | `admin.php` | Medium
+46 | File | `admin.remository.php` | High
+47 | File | `admin/news.php` | High
+48 | File | `admin/page.php` | High
+49 | File | `admin/partials/ajax/add_field_to_form.php` | High
+50 | File | `administrator/upload.php` | High
+51 | File | `Administrator/users.php` | High
+52 | ... | ... | ...
 
-There are 443 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 455 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

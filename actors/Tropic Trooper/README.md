@@ -16,7 +16,6 @@ The following _campaigns_ are known and can be associated with Tropic Trooper:
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Tropic Trooper:
 
 * [US](https://vuldb.com/?country.us)
-* [GW](https://vuldb.com/?country.gw)
 
 ## IOC - Indicator of Compromise
 
@@ -50,12 +49,9 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Pathname Traversal | High
-2 | T1059.007 | CWE-79 | Cross Site Scripting | High
-3 | T1068 | CWE-269 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
-4 | ... | ... | ... | ...
-
-There are 4 more TTP items available. Please use our online service to access the data.
+1 | T1059.007 | CWE-79 | Cross Site Scripting | High
+2 | T1202 | CWE-77 | Command Injection | High
+3 | T1505 | CWE-89 | SQL Injection | High
 
 ## IOA - Indicator of Attack
 
@@ -64,11 +60,11 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/ecommerce/admin/settings/setDiscount.php` | High
-2 | File | `/forum/away.php` | High
-3 | File | `/wireless/guestnetwork.asp` | High
+2 | File | `/wireless/guestnetwork.asp` | High
+3 | File | `/wireless/security.asp` | High
 4 | ... | ... | ...
 
-There are 23 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 19 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

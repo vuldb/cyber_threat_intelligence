@@ -66,20 +66,20 @@ ID | Type | Indicator | Confidence
 15 | File | `/api/stl/actions/search` | High
 16 | File | `/api/sys/login` | High
 17 | File | `/api/sys/set_passwd` | High
-18 | File | `/api/v2/cli/commands` | High
-19 | File | `/attachments` | Medium
-20 | File | `/bin/ate` | Medium
-21 | File | `/boat/login.php` | High
-22 | File | `/booking/show_bookings/` | High
-23 | File | `/bsms_ci/index.php/book` | High
-24 | File | `/cgi-bin` | Medium
-25 | File | `/cgi-bin/luci/api/wireless` | High
-26 | File | `/cgi-bin/wlogin.cgi` | High
-27 | File | `/changePassword` | High
-28 | File | `/Content/Template/root/reverse-shell.aspx` | High
-29 | File | `/context/%2e/WEB-INF/web.xml` | High
-30 | File | `/dashboard/add-blog.php` | High
-31 | File | `/debian/patches/load_ppp_generic_if_needed` | High
+18 | File | `/api/trackedEntityInstances` | High
+19 | File | `/api/v2/cli/commands` | High
+20 | File | `/attachments` | Medium
+21 | File | `/bin/ate` | Medium
+22 | File | `/boat/login.php` | High
+23 | File | `/booking/show_bookings/` | High
+24 | File | `/bsms_ci/index.php/book` | High
+25 | File | `/cgi-bin` | Medium
+26 | File | `/cgi-bin/luci/api/wireless` | High
+27 | File | `/cgi-bin/wlogin.cgi` | High
+28 | File | `/changePassword` | High
+29 | File | `/Content/Template/root/reverse-shell.aspx` | High
+30 | File | `/context/%2e/WEB-INF/web.xml` | High
+31 | File | `/dashboard/add-blog.php` | High
 32 | File | `/debug/pprof` | Medium
 33 | File | `/ecshop/admin/template.php` | High
 34 | File | `/env` | Low
@@ -93,10 +93,9 @@ ID | Type | Indicator | Confidence
 42 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
 43 | File | `/pages/apply_vacancy.php` | High
 44 | File | `/php-sms/admin/?page=user/manage_user` | High
-45 | File | `/proxy` | Low
-46 | ... | ... | ...
+45 | ... | ... | ...
 
-There are 403 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 387 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

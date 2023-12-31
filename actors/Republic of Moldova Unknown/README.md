@@ -196,7 +196,8 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-35, CWE-36 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-94 | Cross Site Scripting | High
-4 | ... | ... | ... | ...
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
 There are 14 more TTP items available. Please use our online service to access the data.
 
@@ -241,9 +242,10 @@ ID | Type | Indicator | Confidence
 33 | File | `addressbook/backends/ldap/e-book-backend-ldap.c` | High
 34 | File | `admin.jcomments.php` | High
 35 | File | `admin.php` | Medium
-36 | ... | ... | ...
+36 | File | `admin/?page=students/view_student` | High
+37 | ... | ... | ...
 
-There are 313 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 318 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

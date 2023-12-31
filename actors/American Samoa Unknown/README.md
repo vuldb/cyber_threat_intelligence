@@ -127,13 +127,14 @@ ID | Type | Indicator | Confidence
 60 | File | `apps/yang/web/src/main/java/org/onosproject/yang/web/YangWebResource.java` | High
 61 | File | `artlinks.dispnew.php` | High
 62 | File | `auth.php` | Medium
-63 | File | `bin/named/query.c` | High
-64 | File | `blank.php` | Medium
-65 | File | `blocklayered-ajax.php` | High
-66 | File | `blogger-importer.php` | High
-67 | ... | ... | ...
+63 | File | `awstats.pl` | Medium
+64 | File | `bin/named/query.c` | High
+65 | File | `blank.php` | Medium
+66 | File | `blocklayered-ajax.php` | High
+67 | File | `blogger-importer.php` | High
+68 | ... | ... | ...
 
-There are 585 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 592 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

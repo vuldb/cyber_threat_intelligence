@@ -21,8 +21,9 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [194.55.224.183](https://vuldb.com/?ip.194.55.224.183) | - | - | High
-2 | [194.180.48.211](https://vuldb.com/?ip.194.180.48.211) | - | - | High
+1 | [85.209.176.46](https://vuldb.com/?ip.85.209.176.46) | - | - | High
+2 | [194.55.224.183](https://vuldb.com/?ip.194.55.224.183) | - | - | High
+3 | [194.180.48.211](https://vuldb.com/?ip.194.180.48.211) | - | - | High
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -48,7 +49,7 @@ ID | Type | Indicator | Confidence
 3 | File | `downloadFlile.cgi` | High
 4 | ... | ... | ...
 
-There are 21 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 25 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [NL](https://vuldb.com/?country.nl)
 * ...
 
-There are 14 more country items available. Please use our online service to access the data.
+There are 15 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -66,45 +66,45 @@ ID | Type | Indicator | Confidence
 6 | File | `/admin/controller/JobLogController.java` | High
 7 | File | `/admin/doctors.php` | High
 8 | File | `/admin/submit-articles` | High
-9 | File | `/ad_js.php` | Medium
-10 | File | `/alphaware/summary.php` | High
-11 | File | `/api/` | Low
-12 | File | `/api/admin/store/product/list` | High
-13 | File | `/api/baskets/{name}` | High
-14 | File | `/api/stl/actions/search` | High
-15 | File | `/api/sys/login` | High
-16 | File | `/api/sys/set_passwd` | High
-17 | File | `/api/v2/cli/commands` | High
-18 | File | `/attachments` | Medium
-19 | File | `/bin/ate` | Medium
-20 | File | `/boat/login.php` | High
-21 | File | `/booking/show_bookings/` | High
-22 | File | `/bsms_ci/index.php/book` | High
-23 | File | `/cgi-bin` | Medium
-24 | File | `/cgi-bin/luci/api/wireless` | High
-25 | File | `/cgi-bin/wlogin.cgi` | High
-26 | File | `/changePassword` | High
-27 | File | `/Content/Template/root/reverse-shell.aspx` | High
-28 | File | `/context/%2e/WEB-INF/web.xml` | High
-29 | File | `/csms/?page=contact_us` | High
-30 | File | `/dashboard/add-blog.php` | High
-31 | File | `/debug/pprof` | Medium
-32 | File | `/ecshop/admin/template.php` | High
-33 | File | `/env` | Low
-34 | File | `/etc/hosts` | Medium
-35 | File | `/forum/away.php` | High
-36 | File | `/goform/setmac` | High
-37 | File | `/goform/wizard_end` | High
-38 | File | `/group1/uploa` | High
-39 | File | `/manage-apartment.php` | High
-40 | File | `/medicines/profile.php` | High
-41 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-42 | File | `/pages/apply_vacancy.php` | High
-43 | File | `/php-sms/admin/?page=user/manage_user` | High
-44 | File | `/proxy` | Low
+9 | File | `/alphaware/summary.php` | High
+10 | File | `/api/` | Low
+11 | File | `/api/admin/store/product/list` | High
+12 | File | `/api/baskets/{name}` | High
+13 | File | `/api/stl/actions/search` | High
+14 | File | `/api/sys/login` | High
+15 | File | `/api/sys/set_passwd` | High
+16 | File | `/api/v2/cli/commands` | High
+17 | File | `/attachments` | Medium
+18 | File | `/bin/ate` | Medium
+19 | File | `/boat/login.php` | High
+20 | File | `/booking/show_bookings/` | High
+21 | File | `/bsms_ci/index.php/book` | High
+22 | File | `/cgi-bin` | Medium
+23 | File | `/cgi-bin/luci/api/wireless` | High
+24 | File | `/cgi-bin/wlogin.cgi` | High
+25 | File | `/changePassword` | High
+26 | File | `/Content/Template/root/reverse-shell.aspx` | High
+27 | File | `/context/%2e/WEB-INF/web.xml` | High
+28 | File | `/csms/?page=contact_us` | High
+29 | File | `/dashboard/add-blog.php` | High
+30 | File | `/debug/pprof` | Medium
+31 | File | `/ecshop/admin/template.php` | High
+32 | File | `/env` | Low
+33 | File | `/etc/hosts` | Medium
+34 | File | `/forum/away.php` | High
+35 | File | `/goform/setmac` | High
+36 | File | `/goform/wizard_end` | High
+37 | File | `/group1/uploa` | High
+38 | File | `/manage-apartment.php` | High
+39 | File | `/medicines/profile.php` | High
+40 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+41 | File | `/pages/apply_vacancy.php` | High
+42 | File | `/php-sms/admin/?page=user/manage_user` | High
+43 | File | `/proxy` | Low
+44 | File | `/reservation/add_message.php` | High
 45 | ... | ... | ...
 
-There are 386 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 388 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

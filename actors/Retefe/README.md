@@ -54,14 +54,14 @@ ID | Type | Indicator | Confidence
 5 | File | `/mhds/clinic/view_details.php` | High
 6 | File | `/owa/auth/logon.aspx` | High
 7 | File | `/product.php` | Medium
-8 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
-9 | File | `/uncpath/` | Medium
-10 | File | `adclick.php` | Medium
-11 | File | `admin/modules/master_file/rda_cmc.php?keywords` | High
-12 | File | `bbs/faq.php` | Medium
+8 | File | `/rest/api/latest/projectvalidate/key` | High
+9 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
+10 | File | `/uncpath/` | Medium
+11 | File | `adclick.php` | Medium
+12 | File | `admin/modules/master_file/rda_cmc.php?keywords` | High
 13 | ... | ... | ...
 
-There are 97 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 99 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

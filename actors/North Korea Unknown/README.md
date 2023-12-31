@@ -114,10 +114,10 @@ ID | Type | Indicator | Confidence
 55 | File | `AttributionSource.java` | High
 56 | File | `auth-gss2.c` | Medium
 57 | File | `auth.php` | Medium
-58 | File | `bin/named/query.c` | High
+58 | File | `awstats.pl` | Medium
 59 | ... | ... | ...
 
-There are 513 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 517 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

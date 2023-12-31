@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [LU](https://vuldb.com/?country.lu)
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -22,11 +22,11 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [45.11.229.188](https://vuldb.com/?ip.45.11.229.188) | 188.229.11.45.in-addr.arpa | - | High
-2 | [93.174.93.178](https://vuldb.com/?ip.93.174.93.178) | - | - | High
-3 | [104.244.76.207](https://vuldb.com/?ip.104.244.76.207) | - | - | High
+2 | [91.92.250.149](https://vuldb.com/?ip.91.92.250.149) | - | - | High
+3 | [93.174.93.178](https://vuldb.com/?ip.93.174.93.178) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 2 more IOC items available. Please use our online service to access the data.
+There are 3 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -83,17 +83,18 @@ ID | Type | Indicator | Confidence
 31 | File | `/dev/ptpX` | Medium
 32 | File | `/etc/passwd` | Medium
 33 | File | `/event/admin/?page=user/list` | High
-34 | File | `/filemanager/upload/drop` | High
-35 | File | `/getcfg.php` | Medium
-36 | File | `/goform/WifiBasicSet` | High
-37 | File | `/hrm/employeeview.php` | High
-38 | File | `/htdocs/cgibin` | High
-39 | File | `/inc/topBarNav.php` | High
-40 | File | `/index.php?case=table&act=add&table=archive&admin_dir=admin` | High
-41 | File | `/members/view_member.php` | High
-42 | ... | ... | ...
+34 | File | `/file-manager/upload.php` | High
+35 | File | `/filemanager/upload/drop` | High
+36 | File | `/getcfg.php` | Medium
+37 | File | `/goform/WifiBasicSet` | High
+38 | File | `/hrm/employeeview.php` | High
+39 | File | `/htdocs/cgibin` | High
+40 | File | `/inc/topBarNav.php` | High
+41 | File | `/index.php?case=table&act=add&table=archive&admin_dir=admin` | High
+42 | File | `/members/view_member.php` | High
+43 | ... | ... | ...
 
-There are 363 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 372 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

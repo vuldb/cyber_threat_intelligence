@@ -77,31 +77,31 @@ ID | Type | Indicator | Confidence
 14 | File | `/goform/saveParentControlInfo` | High
 15 | File | `/goform/SetFirewallCfg` | High
 16 | File | `/goform/SysToolChangePwd` | High
-17 | File | `/htdocs/admin/dict.php?id=3` | High
-18 | File | `/module/module_frame/index.php` | High
-19 | File | `/nidp/app/login` | High
-20 | File | `/pms/admin/crimes/manage_crime.php` | High
-21 | File | `/proc` | Low
-22 | File | `/rapi/read_url` | High
-23 | File | `/release-x64/otfccdump` | High
-24 | File | `/rom-0` | Low
-25 | File | `/sbin/conf.d/SuSEconfig.javarunt` | High
-26 | File | `/scripts/unlock_tasks.php` | High
-27 | File | `/see_more_details.php` | High
-28 | File | `/sitecore/shell/Invoke.aspx` | High
-29 | File | `/system/user/modules/mod_users/controller.php` | High
-30 | File | `/tmp` | Low
-31 | File | `/uncpath/` | Medium
-32 | File | `/user-utils/users/md5.json` | High
-33 | File | `/usr/lib/utmp_update` | High
-34 | File | `/usr/local` | Medium
-35 | File | `/wp-admin` | Medium
-36 | File | `2020\Messages\SDNotify.exe` | High
-37 | File | `adclick.php` | Medium
-38 | File | `admin/plugin-index.php` | High
+17 | File | `/nidp/app/login` | High
+18 | File | `/pms/admin/crimes/manage_crime.php` | High
+19 | File | `/proc` | Low
+20 | File | `/rapi/read_url` | High
+21 | File | `/release-x64/otfccdump` | High
+22 | File | `/rom-0` | Low
+23 | File | `/sbin/conf.d/SuSEconfig.javarunt` | High
+24 | File | `/scripts/unlock_tasks.php` | High
+25 | File | `/see_more_details.php` | High
+26 | File | `/sitecore/shell/Invoke.aspx` | High
+27 | File | `/system/user/modules/mod_users/controller.php` | High
+28 | File | `/tmp` | Low
+29 | File | `/uncpath/` | Medium
+30 | File | `/usr/lib/utmp_update` | High
+31 | File | `/usr/local` | Medium
+32 | File | `/wp-admin` | Medium
+33 | File | `2020\Messages\SDNotify.exe` | High
+34 | File | `adclick.php` | Medium
+35 | File | `admin/plugin-index.php` | High
+36 | File | `administration` | High
+37 | File | `administrative` | High
+38 | File | `ag_server_service.exe` | High
 39 | ... | ... | ...
 
-There are 336 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 335 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

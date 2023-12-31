@@ -67,9 +67,10 @@ ID | Type | Indicator | Confidence
 21 | File | `/etc/init.d/sshd_service` | High
 22 | File | `/fuel/sitevariables/delete/4` | High
 23 | File | `/goform/saveParentControlInfo` | High
-24 | ... | ... | ...
+24 | File | `/goform/setSnmpInfo` | High
+25 | ... | ... | ...
 
-There are 205 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 210 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

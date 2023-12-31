@@ -11,11 +11,13 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [6.43.51.17](https://vuldb.com/?ip.6.43.51.17) | - | - | High
+2 | [8.8.8.8](https://vuldb.com/?ip.8.8.8.8) | dns.google | - | High
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://decoded.avast.io/threatintel/opening-a-new-front-against-dns-based-threats/
 * https://www.fortinet.com/blog/threat-research/vipersoftx-new-javascript-threat.html
 
 ## Literature

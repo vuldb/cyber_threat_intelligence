@@ -26,7 +26,7 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [15.228.233.242](https://vuldb.com/?ip.15.228.233.242) | ec2-15-228-233-242.sa-east-1.compute.amazonaws.com | - | Medium
 4 | ... | ... | ... | ...
 
-There are 11 more IOC items available. Please use our online service to access the data.
+There are 12 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 

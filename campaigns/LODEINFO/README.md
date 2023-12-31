@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 7 more country items available. Please use our online service to access the data.
+There are 8 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -70,13 +70,14 @@ ID | Type | Indicator | Confidence
 8 | File | `/app/Http/Controllers/Admin/NEditorController.php` | High
 9 | File | `/auth` | Low
 10 | File | `/balance/service/list` | High
-11 | File | `/config/getuser` | High
-12 | File | `/resources//../` | High
-13 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-14 | File | `/SiteServer/Ajax/ajaxOtherService.aspx` | High
-15 | ... | ... | ...
+11 | File | `/boaform/wlan_basic_set.cgi` | High
+12 | File | `/config/getuser` | High
+13 | File | `/resources//../` | High
+14 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+15 | File | `/SiteServer/Ajax/ajaxOtherService.aspx` | High
+16 | ... | ... | ...
 
-There are 122 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 124 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

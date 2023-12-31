@@ -86,7 +86,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
@@ -101,17 +101,17 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/?p=products` | Medium
-2 | File | `/academy/home/courses` | High
-3 | File | `/admin/about-us.php` | High
-4 | File | `/admin/del_feedback.php` | High
-5 | File | `/admin/maintenance/brand.php` | High
-6 | File | `/admin/mechanics/manage_mechanic.php` | High
-7 | File | `/admin/modal_add_product.php` | High
-8 | File | `/admin/positions_add.php` | High
-9 | File | `/admin/user/manage_user.php` | High
-10 | File | `/admin/userprofile.php` | High
-11 | File | `/admin/voters_row.php` | High
+1 | File | `//proc/kcore` | Medium
+2 | File | `/?p=products` | Medium
+3 | File | `/academy/home/courses` | High
+4 | File | `/admin/about-us.php` | High
+5 | File | `/admin/del_feedback.php` | High
+6 | File | `/admin/maintenance/brand.php` | High
+7 | File | `/admin/mechanics/manage_mechanic.php` | High
+8 | File | `/admin/modal_add_product.php` | High
+9 | File | `/admin/positions_add.php` | High
+10 | File | `/admin/user/manage_user.php` | High
+11 | File | `/admin/userprofile.php` | High
 12 | File | `/ajax.php?action=save_company` | High
 13 | File | `/ajax.php?action=save_user` | High
 14 | File | `/ajax/myshop` | Medium
@@ -137,13 +137,13 @@ ID | Type | Indicator | Confidence
 34 | File | `/files/` | Low
 35 | File | `/forum/away.php` | High
 36 | File | `/friends/ajax_invite` | High
-37 | File | `/goform/aspForm` | High
-38 | File | `/goform/WifiGuestSet` | High
-39 | File | `/home/filter_listings` | High
-40 | File | `/inc/topBarNav.php` | High
+37 | File | `/goform/WifiGuestSet` | High
+38 | File | `/home/filter_listings` | High
+39 | File | `/inc/topBarNav.php` | High
+40 | File | `/index.php` | Medium
 41 | ... | ... | ...
 
-There are 349 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 351 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

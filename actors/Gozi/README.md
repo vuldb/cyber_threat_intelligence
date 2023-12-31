@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Gozi:
 
 * [US](https://vuldb.com/?country.us)
-* [CN](https://vuldb.com/?country.cn)
 * [RU](https://vuldb.com/?country.ru)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 25 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -33,15 +33,32 @@ ID | IP address | Hostname | Campaign | Confidence
 10 | [31.148.99.142](https://vuldb.com/?ip.31.148.99.142) | - | - | High
 11 | [31.148.99.193](https://vuldb.com/?ip.31.148.99.193) | - | - | High
 12 | [31.207.46.12](https://vuldb.com/?ip.31.207.46.12) | - | - | High
-13 | [31.214.157.235](https://vuldb.com/?ip.31.214.157.235) | kuhit.rdfew.com | - | High
-14 | [37.10.71.221](https://vuldb.com/?ip.37.10.71.221) | smtp1.cloudmailsys.com | - | High
-15 | [37.120.206.71](https://vuldb.com/?ip.37.120.206.71) | - | - | High
-16 | [37.120.206.84](https://vuldb.com/?ip.37.120.206.84) | - | - | High
-17 | [37.120.206.91](https://vuldb.com/?ip.37.120.206.91) | - | - | High
-18 | [37.120.206.95](https://vuldb.com/?ip.37.120.206.95) | - | - | High
-19 | ... | ... | ... | ...
+13 | [31.214.157.11](https://vuldb.com/?ip.31.214.157.11) | hardware-optimal.de | - | High
+14 | [31.214.157.31](https://vuldb.com/?ip.31.214.157.31) | vm12150.ru | - | High
+15 | [31.214.157.160](https://vuldb.com/?ip.31.214.157.160) | elijah-nascent.specbowel.net | - | High
+16 | [31.214.157.235](https://vuldb.com/?ip.31.214.157.235) | kuhit.rdfew.com | - | High
+17 | [37.10.71.114](https://vuldb.com/?ip.37.10.71.114) | - | - | High
+18 | [37.10.71.221](https://vuldb.com/?ip.37.10.71.221) | smtp1.cloudmailsys.com | - | High
+19 | [37.120.206.71](https://vuldb.com/?ip.37.120.206.71) | - | - | High
+20 | [37.120.206.84](https://vuldb.com/?ip.37.120.206.84) | - | - | High
+21 | [37.120.206.91](https://vuldb.com/?ip.37.120.206.91) | - | - | High
+22 | [37.120.206.95](https://vuldb.com/?ip.37.120.206.95) | - | - | High
+23 | [37.120.222.23](https://vuldb.com/?ip.37.120.222.23) | - | - | High
+24 | [37.120.222.161](https://vuldb.com/?ip.37.120.222.161) | vlan119.as13.fra4.de.m247.com | - | High
+25 | [37.120.222.163](https://vuldb.com/?ip.37.120.222.163) | - | - | High
+26 | [37.120.222.189](https://vuldb.com/?ip.37.120.222.189) | - | - | High
+27 | [45.11.180.110](https://vuldb.com/?ip.45.11.180.110) | - | - | High
+28 | [45.11.180.140](https://vuldb.com/?ip.45.11.180.140) | boab-exchange.stuffbent.net | - | High
+29 | [45.11.180.178](https://vuldb.com/?ip.45.11.180.178) | pleased-process.eitherbar.com | - | High
+30 | [45.11.181.28](https://vuldb.com/?ip.45.11.181.28) | sourengine.com | - | High
+31 | [45.11.181.117](https://vuldb.com/?ip.45.11.181.117) | - | - | High
+32 | [45.11.181.122](https://vuldb.com/?ip.45.11.181.122) | - | - | High
+33 | [45.11.182.38](https://vuldb.com/?ip.45.11.182.38) | - | - | High
+34 | [45.11.182.97](https://vuldb.com/?ip.45.11.182.97) | - | - | High
+35 | [45.11.183.24](https://vuldb.com/?ip.45.11.183.24) | - | - | High
+36 | ... | ... | ... | ...
 
-There are 70 more IOC items available. Please use our online service to access the data.
+There are 142 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -49,15 +66,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-25 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
-7 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | ... | ... | ... | ...
 
-There are 23 more TTP items available. Please use our online service to access the data.
+There are 10 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -65,58 +79,16 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.../gogo/` | Medium
-2 | File | `/+CSCOE+/logon.html` | High
-3 | File | `/about.php` | Medium
-4 | File | `/addnews.html` | High
-5 | File | `/admin` | Low
-6 | File | `/admin.add` | Medium
-7 | File | `/admin/add_exercises.php` | High
-8 | File | `/admin/admin.php?module=admin_access_group_edit&aagID` | High
-9 | File | `/admin/admin.php?module=admin_group_edit&agID` | High
-10 | File | `/admin/edit.php` | High
-11 | File | `/api/v2/labels/` | High
-12 | File | `/category.php` | High
-13 | File | `/cgi/loginDefaultUser` | High
-14 | File | `/cimom` | Low
-15 | File | `/ci_hms/search` | High
-16 | File | `/dashboard/add-portfolio.php` | High
-17 | File | `/dashboard/updatelogo.php` | High
-18 | File | `/debug/pprof` | Medium
-19 | File | `/dev/snd/seq` | Medium
-20 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-21 | File | `/etc/controller-agent/agent.conf` | High
-22 | File | `/index.php` | Medium
-23 | File | `/info.xml` | Medium
-24 | File | `/jeecg-boot/sys/user/queryUserByDepId` | High
-25 | File | `/login.php` | Medium
-26 | File | `/manage-apartment.php` | High
-27 | File | `/members/view_member.php` | High
-28 | File | `/mgmt/tm/util/bash` | High
-29 | File | `/mygym/admin/index.php?view_exercises` | High
-30 | File | `/out.php` | Medium
-31 | File | `/owa/auth/logon.aspx` | High
-32 | File | `/php-jms/review_se_result.php` | High
-33 | File | `/plesk-site-preview/` | High
-34 | File | `/plugins/servlet/gadgets/makeRequest` | High
-35 | File | `/pms/admin/crimes/manage_crime.php` | High
-36 | File | `/ptms/classes/Users.php` | High
-37 | File | `/REBOOTSYSTEM` | High
-38 | File | `/rest/project-templates/1.0/createshared` | High
-39 | File | `/secure/admin/ImporterFinishedPage.jspa` | High
-40 | File | `/secure/QueryComponent!Default.jspa` | High
-41 | File | `/see_more_details.php` | High
-42 | File | `/sitecore/shell/Invoke.aspx` | High
-43 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
-44 | File | `/tmp` | Low
-45 | File | `/tmp/csman/0` | Medium
-46 | File | `/uncpath/` | Medium
-47 | File | `/usr/bin/at` | Medium
-48 | File | `/v3/credentials` | High
-49 | File | `/var/run/jboss-eap/` | High
-50 | ... | ... | ...
+1 | File | `/index.php` | Medium
+2 | File | `/members/view_member.php` | High
+3 | File | `/mhds/clinic/view_details.php` | High
+4 | File | `/owa/auth/logon.aspx` | High
+5 | File | `/rest/api/latest/projectvalidate/key` | High
+6 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
+7 | File | `/uncpath/` | Medium
+8 | ... | ... | ...
 
-There are 435 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 56 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -125,6 +97,19 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://bazaar.abuse.ch/sample/aa8a59aaed89dd7c8696a7d63fa2763689be023a4a7692f63d950d8b923b6154/
 * https://bazaar.abuse.ch/sample/eb617fa7cba6309640cda1035eee2fc79fa77c44b229e3c0213d44d97f1b4426/
 * https://blog.talosintelligence.com/2019/10/threat-roundup-1011-1018.html
+* https://search.censys.io/hosts/31.214.157.11
+* https://search.censys.io/hosts/45.93.139.24
+* https://search.censys.io/hosts/83.217.9.90
+* https://search.censys.io/hosts/91.212.166.70
+* https://search.censys.io/hosts/91.218.114.34
+* https://search.censys.io/hosts/95.163.233.114
+* https://search.censys.io/hosts/154.56.40.58
+* https://search.censys.io/hosts/176.10.111.79
+* https://search.censys.io/hosts/185.14.30.10
+* https://search.censys.io/hosts/185.247.184.139
+* https://search.censys.io/hosts/193.203.162.14
+* https://search.censys.io/hosts/193.203.163.96
+* https://search.censys.io/hosts/222.92.64.208
 * https://threatfox.abuse.ch
 * https://twitter.com/reecdeep/status/1407262328140320769
 

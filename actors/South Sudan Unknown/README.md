@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [IL](https://vuldb.com/?country.il)
-* [IN](https://vuldb.com/?country.in)
+* [AM](https://vuldb.com/?country.am)
 * ...
 
-There are 4 more country items available. Please use our online service to access the data.
+There are 5 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -59,11 +59,12 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/admapi.php` | High
-2 | File | `/mgmt/tm/util/bash` | High
-3 | File | `/modules/registration_admission/patient_register.php` | High
-4 | ... | ... | ...
+2 | File | `/goform/goform_get_cmd_process` | High
+3 | File | `/mgmt/tm/util/bash` | High
+4 | File | `/modules/registration_admission/patient_register.php` | High
+5 | ... | ... | ...
 
-There are 24 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 25 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

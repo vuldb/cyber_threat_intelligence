@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 17 more country items available. Please use our online service to access the data.
+There are 19 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -70,7 +70,7 @@ ID | IP address | Hostname | Campaign | Confidence
 47 | [74.201.28.116](https://vuldb.com/?ip.74.201.28.116) | - | - | High
 48 | ... | ... | ... | ...
 
-There are 186 more IOC items available. Please use our online service to access the data.
+There are 187 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -78,14 +78,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-24, CWE-27, CWE-36, CWE-37 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-27, CWE-36, CWE-37 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -93,30 +93,30 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/?ajax-request=jnews` | High
-2 | File | `/?r=recruit/resume/edit&op=status` | High
-3 | File | `/admin/?page=user/list` | High
-4 | File | `/admin/?page=user/manage_user&id=3` | High
-5 | File | `/admin/about-us.php` | High
-6 | File | `/admin/del_category.php` | High
-7 | File | `/admin/del_service.php` | High
-8 | File | `/admin/edit-accepted-appointment.php` | High
-9 | File | `/admin/edit-services.php` | High
-10 | File | `/admin/edit_category.php` | High
-11 | File | `/admin/edit_subject.php` | High
-12 | File | `/admin/forgot-password.php` | High
-13 | File | `/admin/index.php` | High
-14 | File | `/admin/index2.html` | High
-15 | File | `/admin/products/manage_product.php` | High
-16 | File | `/admin/reg.php` | High
-17 | File | `/admin/reminders/manage_reminder.php` | High
-18 | File | `/admin/search-appointment.php` | High
-19 | File | `/admin/sys_sql_query.php` | High
-20 | File | `/api/baskets/{name}` | High
-21 | File | `/api/v4/users/ids` | High
-22 | File | `/appliance/users?action=edit` | High
-23 | File | `/apply.cgi` | Medium
-24 | File | `/backup.pl` | Medium
+1 | File | `/.env` | Low
+2 | File | `/?ajax-request=jnews` | High
+3 | File | `/?r=recruit/resume/edit&op=status` | High
+4 | File | `/admin/?page=user/list` | High
+5 | File | `/admin/?page=user/manage_user&id=3` | High
+6 | File | `/admin/about-us.php` | High
+7 | File | `/admin/del_category.php` | High
+8 | File | `/admin/del_service.php` | High
+9 | File | `/admin/edit-accepted-appointment.php` | High
+10 | File | `/admin/edit-services.php` | High
+11 | File | `/admin/edit_category.php` | High
+12 | File | `/admin/edit_subject.php` | High
+13 | File | `/admin/forgot-password.php` | High
+14 | File | `/admin/index.php` | High
+15 | File | `/admin/index2.html` | High
+16 | File | `/admin/products/manage_product.php` | High
+17 | File | `/admin/reg.php` | High
+18 | File | `/admin/reminders/manage_reminder.php` | High
+19 | File | `/admin/search-appointment.php` | High
+20 | File | `/admin/sys_sql_query.php` | High
+21 | File | `/api/baskets/{name}` | High
+22 | File | `/api/v4/users/ids` | High
+23 | File | `/appliance/users?action=edit` | High
+24 | File | `/apply.cgi` | Medium
 25 | File | `/blog` | Low
 26 | File | `/booking/show_bookings/` | High
 27 | File | `/CCMAdmin/serverlist.asp` | High
@@ -129,8 +129,8 @@ ID | Type | Indicator | Confidence
 34 | File | `/dipam/athlete-profile.php` | High
 35 | File | `/DXR.axd` | Medium
 36 | File | `/E-mobile/App/System/File/downfile.php` | High
-37 | File | `/edoc/doctor/patient.php` | High
-38 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+37 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+38 | File | `/etc/shadow` | Medium
 39 | File | `/forum/away.php` | High
 40 | File | `/fusion/portal/action/Link` | High
 41 | File | `/h/autoSaveDraft` | High
@@ -149,13 +149,13 @@ ID | Type | Indicator | Confidence
 54 | File | `/owa/auth/logon.aspx` | High
 55 | File | `/patient/appointment.php` | High
 56 | File | `/paysystem/datatable.php` | High
-57 | File | `/php-scrm/login.php` | High
-58 | File | `/protocol/iscgwtunnel/uploadiscgwrouteconf.php` | High
-59 | File | `/reservation/add_message.php` | High
-60 | File | `/reviewer/system/system/admins/manage/users/user-update.php` | High
+57 | File | `/protocol/iscgwtunnel/uploadiscgwrouteconf.php` | High
+58 | File | `/reviewer/system/system/admins/manage/users/user-update.php` | High
+59 | File | `/reviewer_0/admins/assessments/pretest/questions-view.php` | High
+60 | File | `/send_order.cgi?parameter=restart` | High
 61 | ... | ... | ...
 
-There are 532 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 530 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

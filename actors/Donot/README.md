@@ -87,21 +87,23 @@ ID | Type | Indicator | Confidence
 23 | File | `/catcompany.php` | High
 24 | File | `/CCMAdmin/serverlist.asp` | High
 25 | File | `/cgi-bin/editBookmark` | High
-26 | File | `/cgi-bin/touchlist_sync.cgi` | High
-27 | File | `/cimom` | Low
-28 | File | `/ci_spms/admin/category` | High
-29 | File | `/classes/Users.php?f=save` | High
-30 | File | `/cwms/admin/?page=articles/view_article/` | High
-31 | File | `/cwms/classes/Master.php?f=save_contact` | High
-32 | File | `/dashboard/add-blog.php` | High
-33 | File | `/dashboard/add-portfolio.php` | High
-34 | File | `/dashboard/settings` | High
-35 | File | `/downloadmaster/dm_apply.cgi?action_mode=initial&download_type=General&special_cgi=get_language` | High
-36 | File | `/env` | Low
-37 | File | `/film-rating.php` | High
-38 | ... | ... | ...
+26 | File | `/cgi-bin/system_mgr.cgi` | High
+27 | File | `/cgi-bin/touchlist_sync.cgi` | High
+28 | File | `/cimom` | Low
+29 | File | `/ci_spms/admin/category` | High
+30 | File | `/classes/Users.php?f=save` | High
+31 | File | `/cwms/admin/?page=articles/view_article/` | High
+32 | File | `/cwms/classes/Master.php?f=save_contact` | High
+33 | File | `/dashboard/add-blog.php` | High
+34 | File | `/dashboard/add-portfolio.php` | High
+35 | File | `/dashboard/settings` | High
+36 | File | `/downloadmaster/dm_apply.cgi?action_mode=initial&download_type=General&special_cgi=get_language` | High
+37 | File | `/env` | Low
+38 | File | `/film-rating.php` | High
+39 | File | `/forum/away.php` | High
+40 | ... | ... | ...
 
-There are 330 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 341 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -8,9 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with VBREVSHELL:
 
-* [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
-* [BR](https://vuldb.com/?country.br)
+* [CN](https://vuldb.com/?country.cn)
+* [GB](https://vuldb.com/?country.gb)
+* ...
+
+There are 1 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -19,11 +22,11 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [27.124.47.147](https://vuldb.com/?ip.27.124.47.147) | - | - | High
-2 | [134.122.132.52](https://vuldb.com/?ip.134.122.132.52) | - | - | High
-3 | [172.247.35.240](https://vuldb.com/?ip.172.247.35.240) | - | - | High
+2 | [45.77.250.196](https://vuldb.com/?ip.45.77.250.196) | 45.77.250.196.vultrusercontent.com | - | High
+3 | [47.115.230.18](https://vuldb.com/?ip.47.115.230.18) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 1 more IOC items available. Please use our online service to access the data.
+There are 7 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -36,7 +39,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1068 | CWE-264, CWE-269 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 4 | ... | ... | ... | ...
 
-There are 5 more TTP items available. Please use our online service to access the data.
+There are 6 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -45,17 +48,23 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-2 | File | `common.php` | Medium
-3 | File | `store.php` | Medium
+2 | File | `/uncpath/` | Medium
+3 | File | `common.php` | Medium
 4 | ... | ... | ...
 
-There are 7 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 12 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://tracker.viriback.com/index.php?q=27.124.47.147
+* https://tracker.viriback.com/index.php?q=45.77.250.196
+* https://tracker.viriback.com/index.php?q=47.115.230.18
+* https://tracker.viriback.com/index.php?q=82.157.154.37
+* https://tracker.viriback.com/index.php?q=84.32.41.23
+* https://tracker.viriback.com/index.php?q=116.204.110.99
+* https://tracker.viriback.com/index.php?q=134.122.132.23
 * https://tracker.viriback.com/index.php?q=134.122.132.52
 * https://tracker.viriback.com/index.php?q=172.247.35.240
 * https://tracker.viriback.com/index.php?q=198.52.97.143

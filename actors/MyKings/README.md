@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 24 more country items available. Please use our online service to access the data.
+There are 26 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -43,9 +43,10 @@ ID | IP address | Hostname | Campaign | Confidence
 14 | [54.255.141.50](https://vuldb.com/?ip.54.255.141.50) | ec2-54-255-141-50.ap-southeast-1.compute.amazonaws.com | - | Medium
 15 | [60.250.76.52](https://vuldb.com/?ip.60.250.76.52) | 60-250-76-52.hinet-ip.hinet.net | - | High
 16 | [64.32.3.186](https://vuldb.com/?ip.64.32.3.186) | - | - | High
-17 | ... | ... | ... | ...
+17 | [66.117.2.182](https://vuldb.com/?ip.66.117.2.182) | crownwine.net | - | High
+18 | ... | ... | ... | ...
 
-There are 66 more IOC items available. Please use our online service to access the data.
+There are 70 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -76,43 +77,45 @@ ID | Type | Indicator | Confidence
 6 | File | `/cgi-bin/luci/admin/network/wireless/status` | High
 7 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
 8 | File | `/cgi-bin/wapopen` | High
-9 | File | `/dev/urandom` | Medium
-10 | File | `/DroboAccess/enable_user` | High
-11 | File | `/etc/quantum/quantum.conf` | High
-12 | File | `/exec/` | Low
-13 | File | `/getcfg.php` | Medium
-14 | File | `/HNAP1` | Low
-15 | File | `/jquery_file_upload/server/php/index.php` | High
-16 | File | `/mgmt/tm/util/bash` | High
-17 | File | `/modules/projects/vw_files.php` | High
-18 | File | `/mysql/api/drobo.php` | High
-19 | File | `/plain` | Low
-20 | File | `/rating.php` | Medium
-21 | File | `/rom-0` | Low
-22 | File | `/secure/admin/ConfigureBatching!default.jspa` | High
-23 | File | `/staff/tools/custom-fields` | High
-24 | File | `/uncpath/` | Medium
-25 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
-26 | File | `/var/log/nginx` | High
-27 | File | `/wordpress/wp-admin/admin.php` | High
-28 | File | `/xyhai.php?s=/Auth/editUser` | High
-29 | File | `/_next` | Low
-30 | File | `actionHandler/ajax_managed_services.php` | High
-31 | File | `actions.hsp` | Medium
-32 | File | `addtocart.asp` | High
-33 | File | `admin.jcomments.php` | High
-34 | File | `admin/admin.shtml` | High
-35 | File | `admin/shophelp.php` | High
-36 | File | `ajax-actions.php` | High
-37 | File | `ajax/api/hook/decodeArguments` | High
-38 | ... | ... | ...
+9 | File | `/cgi-bin/wlogin.cgi` | High
+10 | File | `/dev/urandom` | Medium
+11 | File | `/DroboAccess/enable_user` | High
+12 | File | `/etc/quantum/quantum.conf` | High
+13 | File | `/exec/` | Low
+14 | File | `/getcfg.php` | Medium
+15 | File | `/HNAP1` | Low
+16 | File | `/jquery_file_upload/server/php/index.php` | High
+17 | File | `/mgmt/tm/util/bash` | High
+18 | File | `/modules/projects/vw_files.php` | High
+19 | File | `/mysql/api/drobo.php` | High
+20 | File | `/oauth/idp/.well-known/openid-configuration` | High
+21 | File | `/plain` | Low
+22 | File | `/rating.php` | Medium
+23 | File | `/rom-0` | Low
+24 | File | `/secure/admin/ConfigureBatching!default.jspa` | High
+25 | File | `/staff/tools/custom-fields` | High
+26 | File | `/uncpath/` | Medium
+27 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
+28 | File | `/var/log/nginx` | High
+29 | File | `/wordpress/wp-admin/admin.php` | High
+30 | File | `/xyhai.php?s=/Auth/editUser` | High
+31 | File | `/_next` | Low
+32 | File | `actionHandler/ajax_managed_services.php` | High
+33 | File | `actions.hsp` | Medium
+34 | File | `addtocart.asp` | High
+35 | File | `admin.jcomments.php` | High
+36 | File | `admin/admin.shtml` | High
+37 | File | `admin/shophelp.php` | High
+38 | File | `ajax-actions.php` | High
+39 | ... | ... | ...
 
-There are 322 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 334 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://de.darktrace.com/blog/royal-pains-how-darktrace-refused-to-bend-the-knee-to-the-mykings-botnet
 * https://github.com/sophoslabs/IoCs/blob/master/malware-MyKings
 * https://github.com/sophoslabs/IoCs/blob/master/malware-MyKings-v2.csv
 

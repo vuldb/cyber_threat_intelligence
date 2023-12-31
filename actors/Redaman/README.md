@@ -50,7 +50,8 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-425 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
-4 | ... | ... | ... | ...
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
 There are 14 more TTP items available. Please use our online service to access the data.
 
@@ -62,27 +63,27 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/edit.php` | High
 2 | File | `/api/index.php` | High
-3 | File | `/debug/pprof` | Medium
-4 | File | `/inc/extensions.php` | High
-5 | File | `/MIME/INBOX-MM-1/` | High
-6 | File | `/ServletAPI/accounts/login` | High
-7 | File | `/sqfs/bin/sccd` | High
-8 | File | `/uncpath/` | Medium
-9 | File | `/var/WEB-GUI/cgi-bin/downloadfile.cgi` | High
-10 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-11 | File | `admin.php` | Medium
-12 | File | `admin.php?action=file&ctrl=download&path=../../1.txt` | High
-13 | File | `admin/google_search_console/class-gsc-table.php` | High
-14 | File | `ajax.php` | Medium
-15 | File | `akocomments.php` | High
-16 | File | `appGet.cgi` | Medium
-17 | File | `auth.inc.php` | Medium
-18 | File | `bgpd/bgp_aspath.c` | High
-19 | File | `bigdecimal.c` | Medium
-20 | File | `browser.php` | Medium
+3 | File | `/bin/goahead` | Medium
+4 | File | `/debug/pprof` | Medium
+5 | File | `/inc/extensions.php` | High
+6 | File | `/MIME/INBOX-MM-1/` | High
+7 | File | `/ServletAPI/accounts/login` | High
+8 | File | `/sqfs/bin/sccd` | High
+9 | File | `/uncpath/` | Medium
+10 | File | `/var/WEB-GUI/cgi-bin/downloadfile.cgi` | High
+11 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+12 | File | `admin.php` | Medium
+13 | File | `admin.php?action=file&ctrl=download&path=../../1.txt` | High
+14 | File | `admin/google_search_console/class-gsc-table.php` | High
+15 | File | `ajax.php` | Medium
+16 | File | `akocomments.php` | High
+17 | File | `appGet.cgi` | Medium
+18 | File | `auth.inc.php` | Medium
+19 | File | `bgpd/bgp_aspath.c` | High
+20 | File | `bigdecimal.c` | Medium
 21 | ... | ... | ...
 
-There are 176 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 177 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

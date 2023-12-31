@@ -49,7 +49,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-35 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
@@ -75,40 +75,38 @@ ID | Type | Indicator | Confidence
 9 | File | `/api/sys/login` | High
 10 | File | `/apply.cgi` | Medium
 11 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-12 | File | `/cgi?` | Low
-13 | File | `/classes/Users.php` | High
-14 | File | `/dashboard/updatelogo.php` | High
-15 | File | `/dipam/save-delegates.php` | High
-16 | File | `/ecommerce/support_ticket` | High
-17 | File | `/etc/controller-agent/agent.conf` | High
-18 | File | `/etc/openshift/server_priv.pem` | High
-19 | File | `/forms/web_importTFTP` | High
-20 | File | `/goform/SysToolReboot` | High
-21 | File | `/goform/SysToolRestoreSet` | High
-22 | File | `/graphql` | Medium
-23 | File | `/index.php` | Medium
-24 | File | `/jeecg-boot/jmreport/upload` | High
-25 | File | `/jeecg-boot/jmreport/view` | High
-26 | File | `/jsoa/hntdCustomDesktopActionContent` | High
-27 | File | `/localhost/u` | Medium
-28 | File | `/mkshop/Men/profile.php` | High
-29 | File | `/net` | Low
-30 | File | `/Noxen-master/users.php` | High
-31 | File | `/opt/bin/cli` | Medium
-32 | File | `/PluXml/core/admin/parametres_edittpl.php` | High
-33 | File | `/public/plugins/` | High
-34 | File | `/public_html/admin/plugins/bad_behavior2/blacklist.php` | High
-35 | File | `/root/run/adm.php?admin-ediy&part=exdiy` | High
-36 | File | `/setNTP.cgi` | Medium
-37 | File | `/setting/setWanIeCfg` | High
-38 | File | `/templates/header.inc.php` | High
-39 | File | `/tmp` | Low
-40 | File | `/uncpath/` | Medium
-41 | File | `/v2/devices/add` | High
-42 | File | `/var/ipfire/backup/bin/backup.pl` | High
-43 | ... | ... | ...
+12 | File | `/classes/Users.php` | High
+13 | File | `/dashboard/updatelogo.php` | High
+14 | File | `/dipam/save-delegates.php` | High
+15 | File | `/ecommerce/support_ticket` | High
+16 | File | `/etc/controller-agent/agent.conf` | High
+17 | File | `/etc/openshift/server_priv.pem` | High
+18 | File | `/forms/web_importTFTP` | High
+19 | File | `/goform/SysToolReboot` | High
+20 | File | `/goform/SysToolRestoreSet` | High
+21 | File | `/graphql` | Medium
+22 | File | `/index.php` | Medium
+23 | File | `/jeecg-boot/jmreport/upload` | High
+24 | File | `/jeecg-boot/jmreport/view` | High
+25 | File | `/jsoa/hntdCustomDesktopActionContent` | High
+26 | File | `/localhost/u` | Medium
+27 | File | `/mkshop/Men/profile.php` | High
+28 | File | `/net` | Low
+29 | File | `/Noxen-master/users.php` | High
+30 | File | `/opt/bin/cli` | Medium
+31 | File | `/PluXml/core/admin/parametres_edittpl.php` | High
+32 | File | `/public/plugins/` | High
+33 | File | `/public_html/admin/plugins/bad_behavior2/blacklist.php` | High
+34 | File | `/root/run/adm.php?admin-ediy&part=exdiy` | High
+35 | File | `/setNTP.cgi` | Medium
+36 | File | `/setting/setWanIeCfg` | High
+37 | File | `/templates/header.inc.php` | High
+38 | File | `/tmp` | Low
+39 | File | `/uncpath/` | Medium
+40 | File | `/v2/devices/add` | High
+41 | ... | ... | ...
 
-There are 372 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 357 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

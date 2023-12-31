@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [VN](https://vuldb.com/?country.vn)
 * ...
 
-There are 7 more country items available. Please use our online service to access the data.
+There are 8 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -97,15 +97,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-36 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | T1068 | CWE-250, CWE-264, CWE-266, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
-7 | ... | ... | ... | ...
+6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -114,41 +113,39 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `$HOME/.terminfo` | High
-2 | File | `/admin.php?c=upload&f=zip&_noCache=0.1683794968` | High
+2 | File | `/admin/category/save` | High
 3 | File | `/admin/sql` | Medium
-4 | File | `/admin/user.php` | High
-5 | File | `/api/baskets/{name}` | High
-6 | File | `/api/v1/snapshots` | High
-7 | File | `/bin/login` | Medium
-8 | File | `/bin/mini_upnpd` | High
-9 | File | `/booking/show_bookings/` | High
-10 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
-11 | File | `/cgi/networkDiag.cgi` | High
-12 | File | `/concat?/%2557EB-INF/web.xml` | High
-13 | File | `/Controller/Ajaxfileupload.ashx` | High
-14 | File | `/dashboard/add-blog.php` | High
-15 | File | `/debug/pprof` | Medium
-16 | File | `/env` | Low
-17 | File | `/etc/passwd` | Medium
-18 | File | `/forum/away.php` | High
-19 | File | `/getcfg.php` | Medium
-20 | File | `/goform/net\_Web\_get_value` | High
-21 | File | `/GponForm/usb_restore_Form?script/` | High
-22 | File | `/group1/uploa` | High
-23 | File | `/h/autoSaveDraft` | High
-24 | File | `/h/search?action` | High
-25 | File | `/hss/admin/?page=products/view_product` | High
-26 | File | `/importexport.php` | High
-27 | File | `/index.php/sysmanage/Login/login_auth/` | High
-28 | File | `/index.php?app=main&func=passport&action=login` | High
+4 | File | `/admin/subject.php` | High
+5 | File | `/admin/user.php` | High
+6 | File | `/api/upload.php` | High
+7 | File | `/api/v1/snapshots` | High
+8 | File | `/api /v3/auth` | High
+9 | File | `/auth/auth.php?user=1` | High
+10 | File | `/bin/mini_upnpd` | High
+11 | File | `/cgi-bin/cstecgi.cgi` | High
+12 | File | `/cgi/networkDiag.cgi` | High
+13 | File | `/dashboard/add-blog.php` | High
+14 | File | `/debug/pprof` | Medium
+15 | File | `/DXR.axd` | Medium
+16 | File | `/forum/away.php` | High
+17 | File | `/goform/goform_get_cmd_process` | High
+18 | File | `/goform/net\_Web\_get_value` | High
+19 | File | `/GponForm/usb_restore_Form?script/` | High
+20 | File | `/group1/uploa` | High
+21 | File | `/h/autoSaveDraft` | High
+22 | File | `/h/search?action` | High
+23 | File | `/HNAP1/` | Low
+24 | File | `/importexport.php` | High
+25 | File | `/index.php/sysmanage/Login/login_auth/` | High
+26 | File | `/main/doctype.php` | High
+27 | File | `/main/webservices/additional_webservices.php` | High
+28 | File | `/mc` | Low
 29 | File | `/mgmt/` | Low
-30 | File | `/net/sched/cls_fw.c` | High
-31 | File | `/oauth/idp/.well-known/openid-configuration` | High
-32 | File | `/plugin` | Low
-33 | File | `/preview.php` | Medium
-34 | ... | ... | ...
+30 | File | `/oauth/idp/.well-known/openid-configuration` | High
+31 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+32 | ... | ... | ...
 
-There are 290 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 270 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

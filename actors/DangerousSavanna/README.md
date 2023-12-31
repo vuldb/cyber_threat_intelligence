@@ -57,9 +57,10 @@ ID | Type | Indicator | Confidence
 6 | File | `/eclime/manufacturers.php` | High
 7 | File | `/install/index.php` | High
 8 | File | `/php-inventory-management-system/product.php` | High
-9 | ... | ... | ...
+9 | File | `/subscribe/subscribe` | High
+10 | ... | ... | ...
 
-There are 69 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 70 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

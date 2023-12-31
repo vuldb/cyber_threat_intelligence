@@ -8,8 +8,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with OldGremlin:
 
-* [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
 * [AT](https://vuldb.com/?country.at)
 * ...
 
@@ -56,9 +56,10 @@ ID | Type | Indicator | Confidence
 7 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
 8 | File | `AppCompatCache.exe` | High
 9 | File | `appserv/main.php` | High
-10 | ... | ... | ...
+10 | File | `category.php` | Medium
+11 | ... | ... | ...
 
-There are 71 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 80 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

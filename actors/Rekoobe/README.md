@@ -69,14 +69,14 @@ ID | Type | Indicator | Confidence
 27 | File | `/pms/update_user.php?user_id=1` | High
 28 | File | `/programScopes` | High
 29 | File | `/userfs/bin/tcapi` | High
-30 | File | `/usr/local/nagiosxi/html/admin/sshterm.php` | High
-31 | File | `/usr/local/nagiosxi/html/includes/configwizards/cloud-vm/cloud-vm.inc.php` | High
-32 | File | `/usr/local/nagiosxi/html/includes/configwizards/switch/switch.inc.php` | High
-33 | File | `/usr/local/nagiosxi/html/includes/configwizards/windowswmi/windowswmi.inc.php` | High
-34 | File | `/WEB-INF/web.xml` | High
+30 | File | `/userLogin.asp` | High
+31 | File | `/usr/local/nagiosxi/html/admin/sshterm.php` | High
+32 | File | `/usr/local/nagiosxi/html/includes/configwizards/cloud-vm/cloud-vm.inc.php` | High
+33 | File | `/usr/local/nagiosxi/html/includes/configwizards/switch/switch.inc.php` | High
+34 | File | `/usr/local/nagiosxi/html/includes/configwizards/windowswmi/windowswmi.inc.php` | High
 35 | ... | ... | ...
 
-There are 296 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 297 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

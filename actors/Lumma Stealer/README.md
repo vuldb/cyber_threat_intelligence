@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Lumma Stealer:
 
 * [US](https://vuldb.com/?country.us)
-* [CN](https://vuldb.com/?country.cn)
 * [RU](https://vuldb.com/?country.ru)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 9 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -21,16 +21,16 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [5.161.155.121](https://vuldb.com/?ip.5.161.155.121) | static.121.155.161.5.clients.your-server.de | - | High
-2 | [23.254.225.133](https://vuldb.com/?ip.23.254.225.133) | hwsrv-1067631.hostwindsdns.com | - | High
-3 | [45.8.146.130](https://vuldb.com/?ip.45.8.146.130) | vm1266137.stark-industries.solutions | - | High
-4 | [45.8.146.213](https://vuldb.com/?ip.45.8.146.213) | vm1266137.stark-industries.solutions | - | High
-5 | [45.8.146.227](https://vuldb.com/?ip.45.8.146.227) | vm1266137.stark-industries.solutions | - | High
-6 | [45.15.25.190](https://vuldb.com/?ip.45.15.25.190) | - | - | High
-7 | [77.73.134.68](https://vuldb.com/?ip.77.73.134.68) | - | - | High
+1 | [5.42.92.179](https://vuldb.com/?ip.5.42.92.179) | hosted-by.yeezyhost.net | - | High
+2 | [5.161.155.121](https://vuldb.com/?ip.5.161.155.121) | static.121.155.161.5.clients.your-server.de | - | High
+3 | [23.254.225.133](https://vuldb.com/?ip.23.254.225.133) | hwsrv-1067631.hostwindsdns.com | - | High
+4 | [45.8.146.130](https://vuldb.com/?ip.45.8.146.130) | vm1266137.stark-industries.solutions | - | High
+5 | [45.8.146.213](https://vuldb.com/?ip.45.8.146.213) | vm1266137.stark-industries.solutions | - | High
+6 | [45.8.146.227](https://vuldb.com/?ip.45.8.146.227) | vm1266137.stark-industries.solutions | - | High
+7 | [45.15.25.190](https://vuldb.com/?ip.45.15.25.190) | - | - | High
 8 | ... | ... | ... | ...
 
-There are 27 more IOC items available. Please use our online service to access the data.
+There are 30 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -44,7 +44,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 15 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -59,21 +59,33 @@ ID | Type | Indicator | Confidence
 5 | File | `/dataset/data/{id}` | High
 6 | File | `/debug/pprof` | Medium
 7 | File | `/etc/grafana/grafana.ini` | High
-8 | File | `/forum/PostPrivateMessage` | High
-9 | File | `/nova/bin/igmp-proxy` | High
-10 | File | `/orrs/admin/?page=user/manage_user` | High
-11 | File | `/pages/processlogin.php` | High
-12 | File | `/rapi/read_url` | High
-13 | File | `/scripts/unlock_tasks.php` | High
-14 | File | `/system/user/modules/mod_users/controller.php` | High
-15 | File | `/uncpath/` | Medium
-16 | File | `/usr/local/psa/admin/sbin/wrapper` | High
-17 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
-18 | File | `123flashchat.php` | High
-19 | File | `admin.jcomments.php` | High
-20 | ... | ... | ...
+8 | File | `/film-rating.php` | High
+9 | File | `/forum/PostPrivateMessage` | High
+10 | File | `/index.php` | Medium
+11 | File | `/librarian/bookdetails.php` | High
+12 | File | `/nova/bin/igmp-proxy` | High
+13 | File | `/orrs/admin/?page=user/manage_user` | High
+14 | File | `/pages/processlogin.php` | High
+15 | File | `/rapi/read_url` | High
+16 | File | `/scripts/unlock_tasks.php` | High
+17 | File | `/student/bookdetails.php` | High
+18 | File | `/system/user/modules/mod_users/controller.php` | High
+19 | File | `/uncpath/` | Medium
+20 | File | `/usr/local/psa/admin/sbin/wrapper` | High
+21 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
+22 | File | `123flashchat.php` | High
+23 | File | `account.asp` | Medium
+24 | File | `admin.jcomments.php` | High
+25 | File | `admin.php` | Medium
+26 | File | `admin/?page=system_info` | High
+27 | File | `admin/conf_users_edit.php` | High
+28 | File | `admin/establishment/manage.php` | High
+29 | File | `admin/inquiries/view_details.php` | High
+30 | File | `admin/modules/tools/ip_history_logs.php` | High
+31 | File | `affiliate-preview.php` | High
+32 | ... | ... | ...
 
-There are 164 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 277 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -85,6 +97,8 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://app.any.run/tasks/330d3bb4-cb91-4311-8bf3-f3d8db2712fb
 * https://app.any.run/tasks/549cccfd-2b19-42f1-b1de-131d9aad5d34
 * https://app.any.run/tasks/b80c5c12-9c12-414d-be8e-818ffdab1e74
+* https://search.censys.io/hosts/5.42.92.179
+* https://search.censys.io/hosts/95.217.74.243
 * https://threatfox.abuse.ch
 * https://tracker.viriback.com/index.php?q=45.8.146.130
 * https://tracker.viriback.com/index.php?q=45.8.146.213

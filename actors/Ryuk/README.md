@@ -101,10 +101,10 @@ ID | Type | Indicator | Confidence
 28 | File | `/HNAP1` | Low
 29 | File | `/HNAP1/SetClientInfo` | High
 30 | File | `/inc/topBarNav.php` | High
-31 | File | `/index.asp` | Medium
-32 | File | `/index.php` | Medium
-33 | File | `/index.php?app=main&func=passport&action=login` | High
-34 | File | `/kelas/data` | Medium
+31 | File | `/index.php` | Medium
+32 | File | `/index.php?app=main&func=passport&action=login` | High
+33 | File | `/kelas/data` | Medium
+34 | File | `/listplace/user/ticket/create` | High
 35 | File | `/menu.html` | Medium
 36 | File | `/mhds/clinic/view_details.php` | High
 37 | File | `/modules/profile/index.php` | High
@@ -115,9 +115,10 @@ ID | Type | Indicator | Confidence
 42 | File | `/plugin` | Low
 43 | File | `/resources//../` | High
 44 | File | `/rest/api/latest/projectvalidate/key` | High
-45 | ... | ... | ...
+45 | File | `/squashfs-root/etc_ro/custom.conf` | High
+46 | ... | ... | ...
 
-There are 390 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 403 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -10,6 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
+* [DE](https://vuldb.com/?country.de)
 
 ## Actors
 
@@ -50,64 +51,64 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.user` | Low
 2 | File | `/admin/` | Low
-3 | File | `/etc/password` | High
-4 | File | `/php/` | Low
-5 | File | `/Pwrchute` | Medium
-6 | File | `/var/yp` | Low
-7 | File | `/_vti_pvt/access.cnf` | High
-8 | File | `1.TEXT` | Low
-9 | File | `14all.cgi` | Medium
-10 | File | `500error.jsp` | Medium
-11 | File | `ab.c` | Low
-12 | File | `account_update.php` | High
-13 | File | `add.php` | Low
-14 | File | `addentry.cgi` | Medium
-15 | File | `addressbook.php/options.php/search.php/help.php` | High
-16 | File | `admin.html` | Medium
-17 | File | `admin.php` | Medium
-18 | File | `admin/auth/checksession.php` | High
-19 | File | `administrator/phpinfo.php` | High
-20 | File | `AdminViewError/AdminAddadmin` | High
-21 | File | `admin_ug_auth.php` | High
-22 | File | `admin_user.db` | High
-23 | File | `advserver.exe` | High
-24 | File | `agentadmin.php` | High
-25 | File | `aolsecurityprivate.class` | High
-26 | File | `article.php` | Medium
-27 | File | `artlist.php` | Medium
-28 | File | `astrocam.cgi` | Medium
-29 | File | `as_web.exe/as_web4.exe` | High
-30 | File | `athcgi.exe` | Medium
-31 | File | `auction.cgi` | Medium
-32 | File | `auth.inc.php` | Medium
-33 | File | `axspawn.c` | Medium
-34 | File | `backend.php/screen.php/comment.php` | High
-35 | File | `badmin.c` | Medium
-36 | File | `books.php` | Medium
-37 | File | `bttv-driver.c` | High
-38 | File | `bugzilla_email_append.pl` | High
-39 | File | `bug_update_advanced_page.php/bug_update_page.php/view_bug_advanced_page.php/view_bug_page.php` | High
-40 | File | `calendar.php` | Medium
-41 | File | `category.cfm` | Medium
-42 | File | `cgi-bin` | Low
-43 | File | `cgi-bin/` | Medium
-44 | File | `cgicso.c` | Medium
-45 | File | `cgitest.exe` | Medium
-46 | File | `charities.cron` | High
-47 | File | `check_me.mod.php` | High
-48 | File | `chetcpasswd.cgi` | High
-49 | File | `cio_main.c` | Medium
-50 | File | `clear_cookies.php` | High
-51 | File | `CodeBrws.asp` | Medium
-52 | File | `colegal.htm` | Medium
-53 | File | `com.ms.vm.loader.cabcracker` | High
-54 | File | `compose.php` | Medium
-55 | File | `config.img` | Medium
-56 | File | `config.inc` | Medium
-57 | File | `config.php` | Medium
+3 | File | `/apply.cgi` | Medium
+4 | File | `/etc/password` | High
+5 | File | `/php/` | Low
+6 | File | `/Pwrchute` | Medium
+7 | File | `/var/yp` | Low
+8 | File | `/_vti_pvt/access.cnf` | High
+9 | File | `1.TEXT` | Low
+10 | File | `14all.cgi` | Medium
+11 | File | `500error.jsp` | Medium
+12 | File | `ab.c` | Low
+13 | File | `account_update.php` | High
+14 | File | `add.php` | Low
+15 | File | `addentry.cgi` | Medium
+16 | File | `addressbook.php/options.php/search.php/help.php` | High
+17 | File | `admin.html` | Medium
+18 | File | `admin.php` | Medium
+19 | File | `admin/auth/checksession.php` | High
+20 | File | `administrator/phpinfo.php` | High
+21 | File | `AdminViewError/AdminAddadmin` | High
+22 | File | `admin_ug_auth.php` | High
+23 | File | `admin_user.db` | High
+24 | File | `advserver.exe` | High
+25 | File | `agentadmin.php` | High
+26 | File | `aolsecurityprivate.class` | High
+27 | File | `article.php` | Medium
+28 | File | `artlist.php` | Medium
+29 | File | `astrocam.cgi` | Medium
+30 | File | `as_web.exe/as_web4.exe` | High
+31 | File | `athcgi.exe` | Medium
+32 | File | `auction.cgi` | Medium
+33 | File | `auth.inc.php` | Medium
+34 | File | `axspawn.c` | Medium
+35 | File | `backend.php/screen.php/comment.php` | High
+36 | File | `badmin.c` | Medium
+37 | File | `books.php` | Medium
+38 | File | `bttv-driver.c` | High
+39 | File | `bugzilla_email_append.pl` | High
+40 | File | `bug_update_advanced_page.php/bug_update_page.php/view_bug_advanced_page.php/view_bug_page.php` | High
+41 | File | `calendar.php` | Medium
+42 | File | `category.cfm` | Medium
+43 | File | `cgi-bin` | Low
+44 | File | `cgi-bin/` | Medium
+45 | File | `cgicso.c` | Medium
+46 | File | `cgitest.exe` | Medium
+47 | File | `charities.cron` | High
+48 | File | `check_me.mod.php` | High
+49 | File | `chetcpasswd.cgi` | High
+50 | File | `cio_main.c` | Medium
+51 | File | `clear_cookies.php` | High
+52 | File | `CodeBrws.asp` | Medium
+53 | File | `colegal.htm` | Medium
+54 | File | `com.ms.vm.loader.cabcracker` | High
+55 | File | `compose.php` | Medium
+56 | File | `config.img` | Medium
+57 | File | `config.inc` | Medium
 58 | ... | ... | ...
 
-There are 504 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 506 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

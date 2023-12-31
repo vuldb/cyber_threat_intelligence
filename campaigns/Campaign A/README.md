@@ -59,31 +59,32 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/maintenance/view_designation.php` | High
 2 | File | `/forum/away.php` | High
-3 | File | `/resourceNode/jdbcResourceEdit.jsf` | High
-4 | File | `/resourceNode/resources.jsf` | High
-5 | File | `3.6.cpj` | Low
-6 | File | `404.php` | Low
-7 | File | `adclick.php` | Medium
-8 | File | `admin.asp` | Medium
-9 | File | `admin.aspx` | Medium
-10 | File | `admin.php` | Medium
-11 | File | `admin/member_details.php` | High
-12 | File | `admin_chatconfig.php` | High
-13 | File | `admin_iplog.php` | High
-14 | File | `ajaxp.php` | Medium
-15 | File | `alphabet.php` | Medium
-16 | File | `app/controllers/oauth.js` | High
-17 | File | `article2/comments.inc.php` | High
-18 | File | `articles/edit.php` | High
-19 | File | `assp.pl` | Low
-20 | File | `awstats.pl` | Medium
-21 | File | `be_config.php` | High
-22 | File | `bridge/yabbse.inc.php` | High
-23 | File | `calendar_Eventupdate.asp` | High
-24 | File | `cal_week.php` | Medium
-25 | ... | ... | ...
+3 | File | `/oauth/idp/.well-known/openid-configuration` | High
+4 | File | `/resourceNode/jdbcResourceEdit.jsf` | High
+5 | File | `/resourceNode/resources.jsf` | High
+6 | File | `3.6.cpj` | Low
+7 | File | `404.php` | Low
+8 | File | `adclick.php` | Medium
+9 | File | `admin.asp` | Medium
+10 | File | `admin.aspx` | Medium
+11 | File | `admin.php` | Medium
+12 | File | `admin/conf_users_edit.php` | High
+13 | File | `admin/member_details.php` | High
+14 | File | `admin_chatconfig.php` | High
+15 | File | `admin_iplog.php` | High
+16 | File | `ajaxp.php` | Medium
+17 | File | `alphabet.php` | Medium
+18 | File | `app/controllers/oauth.js` | High
+19 | File | `article2/comments.inc.php` | High
+20 | File | `articles/edit.php` | High
+21 | File | `assp.pl` | Low
+22 | File | `awstats.pl` | Medium
+23 | File | `be_config.php` | High
+24 | File | `bridge/yabbse.inc.php` | High
+25 | File | `calendar_Eventupdate.asp` | High
+26 | ... | ... | ...
 
-There are 214 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 220 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

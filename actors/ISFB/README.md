@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 13 more country items available. Please use our online service to access the data.
+There are 14 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -106,9 +106,11 @@ ID | IP address | Hostname | Campaign | Confidence
 83 | [45.155.249.94](https://vuldb.com/?ip.45.155.249.94) | - | - | High
 84 | [45.155.249.129](https://vuldb.com/?ip.45.155.249.129) | - | - | High
 85 | [45.155.249.170](https://vuldb.com/?ip.45.155.249.170) | - | - | High
-86 | ... | ... | ... | ...
+86 | [45.155.249.172](https://vuldb.com/?ip.45.155.249.172) | - | - | High
+87 | [45.155.249.200](https://vuldb.com/?ip.45.155.249.200) | - | - | High
+88 | ... | ... | ... | ...
 
-There are 338 more IOC items available. Please use our online service to access the data.
+There are 347 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -119,7 +121,7 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -131,31 +133,33 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/card_scan.php` | High
-2 | File | `/cgi-bin/wlogin.cgi` | High
-3 | File | `/cwc/login` | Medium
-4 | File | `/download` | Medium
-5 | File | `/etc/quagga` | Medium
-6 | File | `/etc/shadow` | Medium
-7 | File | `/forms/doLogin` | High
-8 | File | `/h/calendar` | Medium
-9 | File | `/inc/extensions.php` | High
-10 | File | `/index.php` | Medium
-11 | File | `/members/view_member.php` | High
-12 | File | `/nova/bin/console` | High
-13 | File | `/nova/bin/detnet` | High
-14 | File | `/out.php` | Medium
-15 | File | `/owa/auth/logon.aspx` | High
-16 | File | `/req_password_user.php` | High
-17 | ... | ... | ...
+1 | File | `/app/options.py` | High
+2 | File | `/card_scan.php` | High
+3 | File | `/cgi-bin/wlogin.cgi` | High
+4 | File | `/cwc/login` | Medium
+5 | File | `/download` | Medium
+6 | File | `/etc/quagga` | Medium
+7 | File | `/etc/shadow` | Medium
+8 | File | `/forms/doLogin` | High
+9 | File | `/h/calendar` | Medium
+10 | File | `/inc/extensions.php` | High
+11 | File | `/index.php` | Medium
+12 | File | `/members/view_member.php` | High
+13 | File | `/mhds/clinic/view_details.php` | High
+14 | File | `/nova/bin/console` | High
+15 | File | `/nova/bin/detnet` | High
+16 | File | `/out.php` | Medium
+17 | File | `/owa/auth/logon.aspx` | High
+18 | ... | ... | ...
 
-There are 137 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 150 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://bazaar.abuse.ch/sample/4f38f1e0e4d1a7b0ee3e98bf9eb766bad6bddbe0ff43af23d28728f6195f109f/
+* https://bazaar.abuse.ch/sample/6ac7ce03310cde657eec90facfa67bc6c878a413c462858fc671c1e8acc670f3/
 * https://bazaar.abuse.ch/sample/6da6fa5a959ad50302b32db9fad3862abcbd0597402941d66935203300d52821/
 * https://bazaar.abuse.ch/sample/7c854a125b0d2613bbfcd1fb3664c03c61bc3787ec8bde6be11a2f75692da268/
 * https://bazaar.abuse.ch/sample/41ae907a2bb73794bb2cff40b429e62305847a3e1a95f188b596f1cf925c4547/
@@ -196,6 +200,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://twitter.com/JAMESWT_MHT/status/1639161112405975042
 * https://twitter.com/JAMESWT_MHT/status/1641002609765916672
 * https://twitter.com/JAMESWT_MHT/status/1671438225838161920
+* https://twitter.com/JAMESWT_MHT/status/1711667650160382354
 * https://twitter.com/luc4m/status/1555095048122949632
 * https://twitter.com/reecdeep/status/1414873034234679296
 * https://twitter.com/reecdeep/status/1414878988103790593
@@ -218,6 +223,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://twitter.com/reecdeep/status/1638134135955808258
 * https://twitter.com/reecdeep/status/1638498403419054080
 * https://twitter.com/reecdeep/status/1639173997265928193
+* https://twitter.com/Tac_Mangusta/status/1712462898365419973
 * https://twitter.com/VirITeXplorer/status/1595347501032382464
 * https://www.bridewell.com/insights/news/detail/hunting-for-ursnif
 * https://www.malware-traffic-analysis.net/2023/02/03/index.html

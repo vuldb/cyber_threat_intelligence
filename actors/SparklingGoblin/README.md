@@ -14,8 +14,8 @@ The following _campaigns_ are known and can be associated with SparklingGoblin:
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with SparklingGoblin:
 
-* [RU](https://vuldb.com/?country.ru)
 * [US](https://vuldb.com/?country.us)
+* [RU](https://vuldb.com/?country.ru)
 * [NL](https://vuldb.com/?country.nl)
 * ...
 

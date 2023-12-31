@@ -9,6 +9,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Dacls RAT:
 
 * [US](https://vuldb.com/?country.us)
+* [ME](https://vuldb.com/?country.me)
 * [GB](https://vuldb.com/?country.gb)
 
 ## IOC - Indicator of Compromise
@@ -48,7 +49,7 @@ ID | Type | Indicator | Confidence
 3 | File | `/uncpath/` | Medium
 4 | ... | ... | ...
 
-There are 17 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 25 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

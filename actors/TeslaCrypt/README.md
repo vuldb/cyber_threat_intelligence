@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 16 more country items available. Please use our online service to access the data.
+There are 14 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -102,15 +102,15 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/about.php` | Medium
-2 | File | `/admin.php` | Medium
-3 | File | `/admin.php/accessory/filesdel.html` | High
-4 | File | `/admin/` | Low
-5 | File | `/Admin/add-student.php` | High
-6 | File | `/admin/api/theme-edit/` | High
-7 | File | `/admin/index3.php` | High
-8 | File | `/admin/photo.php` | High
-9 | File | `/admin/reminders/manage_reminder.php` | High
-10 | File | `/adms/admin/?page=vehicles/view_transaction` | High
+2 | File | `/admin.php/accessory/filesdel.html` | High
+3 | File | `/admin/` | Low
+4 | File | `/Admin/add-student.php` | High
+5 | File | `/admin/api/theme-edit/` | High
+6 | File | `/admin/index3.php` | High
+7 | File | `/admin/photo.php` | High
+8 | File | `/admin/reminders/manage_reminder.php` | High
+9 | File | `/adms/admin/?page=vehicles/view_transaction` | High
+10 | File | `/api/admin/system/store/order/list` | High
 11 | File | `/catcompany.php` | High
 12 | File | `/CCMAdmin/serverlist.asp` | High
 13 | File | `/cgi/get_param.cgi` | High
@@ -124,15 +124,15 @@ ID | Type | Indicator | Confidence
 21 | File | `/files.md5` | Medium
 22 | File | `/forum/away.php` | High
 23 | File | `/hrm/employeeview.php` | High
-24 | File | `/include/chart_generator.php` | High
-25 | File | `/index.php` | Medium
-26 | File | `/librarian/bookdetails.php` | High
-27 | File | `/loginsave.php` | High
-28 | File | `/messageboard/view.php` | High
-29 | File | `/out.php` | Medium
-30 | File | `/param.file.tgz` | High
-31 | File | `/public_html/users.php` | High
-32 | File | `/SAP_Information_System/controllers/add_admin.php` | High
+24 | File | `/importexport.php` | High
+25 | File | `/include/chart_generator.php` | High
+26 | File | `/index.php` | Medium
+27 | File | `/librarian/bookdetails.php` | High
+28 | File | `/loginsave.php` | High
+29 | File | `/messageboard/view.php` | High
+30 | File | `/out.php` | Medium
+31 | File | `/param.file.tgz` | High
+32 | File | `/public_html/users.php` | High
 33 | File | `/SVFE2/pages/feegroups/country_group.jsf` | High
 34 | File | `/textpattern/index.php` | High
 35 | File | `/upfile.cgi` | Medium
@@ -146,9 +146,10 @@ ID | Type | Indicator | Confidence
 43 | File | `account_footer.php` | High
 44 | File | `adclick.php` | Medium
 45 | File | `add-locker-form.php` | High
-46 | ... | ... | ...
+46 | File | `add_edit_cat.asp` | High
+47 | ... | ... | ...
 
-There are 400 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 406 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

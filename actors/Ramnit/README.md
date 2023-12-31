@@ -109,10 +109,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Pathname Traversal | High
-2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
 
@@ -126,34 +127,35 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin/edit-doc.php` | High
 3 | File | `/admin/imageslider/file.php` | High
 4 | File | `/admin/sign/out` | High
-5 | File | `/cgi-bin/luci` | High
-6 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-7 | File | `/cgi-bin/viewcert` | High
-8 | File | `/config/getuser` | High
-9 | File | `/core/vb/vurl.php` | High
-10 | File | `/debug/pprof` | Medium
-11 | File | `/etc/gsissh/sshd_config` | High
-12 | File | `/etc/ldap.conf` | High
-13 | File | `/eval/admin/manage_class.php` | High
-14 | File | `/getcfg.php` | Medium
-15 | File | `/goform/telnet` | High
-16 | File | `/goform/WanParameterSetting` | High
-17 | File | `/importTool/preview` | High
-18 | File | `/include/makecvs.php` | High
-19 | File | `/js/app.js` | Medium
-20 | File | `/mgmt/tm/util/bash` | High
-21 | File | `/mods/_core/courses/users/create_course.php` | High
-22 | File | `/monitoring` | Medium
-23 | File | `/phppath/php` | Medium
-24 | File | `/plugins/Dashboard/Controller.php` | High
-25 | File | `/server-status` | High
-26 | File | `/uncpath/` | Medium
-27 | File | `?page=about` | Medium
-28 | File | `adclick.php` | Medium
-29 | File | `addentry.php` | Medium
-30 | ... | ... | ...
+5 | File | `/api/admin/store/product/list` | High
+6 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+7 | File | `/cgi-bin/luci` | High
+8 | File | `/cgi-bin/qcmap_auth` | High
+9 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
+10 | File | `/cgi-bin/viewcert` | High
+11 | File | `/config/getuser` | High
+12 | File | `/core/vb/vurl.php` | High
+13 | File | `/debug/pprof` | Medium
+14 | File | `/etc/gsissh/sshd_config` | High
+15 | File | `/etc/ldap.conf` | High
+16 | File | `/eval/admin/manage_class.php` | High
+17 | File | `/getcfg.php` | Medium
+18 | File | `/goform/telnet` | High
+19 | File | `/goform/WanParameterSetting` | High
+20 | File | `/importTool/preview` | High
+21 | File | `/include/makecvs.php` | High
+22 | File | `/js/app.js` | Medium
+23 | File | `/mgmt/tm/util/bash` | High
+24 | File | `/mods/_core/courses/users/create_course.php` | High
+25 | File | `/monitoring` | Medium
+26 | File | `/phppath/php` | Medium
+27 | File | `/plugins/Dashboard/Controller.php` | High
+28 | File | `/server-status` | High
+29 | File | `/uncpath/` | Medium
+30 | File | `/ureport/designer/saveReportFile` | High
+31 | ... | ... | ...
 
-There are 253 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 266 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

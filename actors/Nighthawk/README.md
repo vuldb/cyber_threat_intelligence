@@ -8,8 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Nighthawk:
 
-* [US](https://vuldb.com/?country.us)
-* [IN](https://vuldb.com/?country.in)
+* [PL](https://vuldb.com/?country.pl)
+* [PT](https://vuldb.com/?country.pt)
+* [SV](https://vuldb.com/?country.sv)
+* ...
+
+There are 6 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -33,12 +37,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-23 | Pathname Traversal | High
-2 | T1059 | CWE-94 | Cross Site Scripting | High
-3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-22, CWE-23, CWE-24, CWE-36, CWE-425 | Pathname Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 9 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -46,13 +52,86 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/etc/postfix/sender_login` | High
-2 | File | `/goform/formWlanMP` | High
-3 | File | `123flashchat.php` | High
-4 | File | `app/View/Elements/genericElements/IndexTable/Fields/generic_field.ctp` | High
-5 | ... | ... | ...
+1 | File | `/?r=recruit/resume/edit&op=status` | High
+2 | File | `/academy/tutor/filter` | High
+3 | File | `/admin.php/appcenter/local.html?type=addon` | High
+4 | File | `/admin.php/update/getFile.html` | High
+5 | File | `/admin/?page=user/manage` | High
+6 | File | `/admin/about-us.php` | High
+7 | File | `/admin/addemployee.php` | High
+8 | File | `/admin/addproduct.php` | High
+9 | File | `/admin/add_user_modal.php` | High
+10 | File | `/admin/ajax.php` | High
+11 | File | `/admin/api/theme-edit/` | High
+12 | File | `/admin/configure.php` | High
+13 | File | `/admin/content/index` | High
+14 | File | `/admin/edit-accepted-appointment.php` | High
+15 | File | `/admin/edit-doc.php` | High
+16 | File | `/admin/edit.php` | High
+17 | File | `/admin/fields/manage_field.php` | High
+18 | File | `/admin/inquiries/view_inquiry.php` | High
+19 | File | `/admin/lab.php` | High
+20 | File | `/admin/list_addr_fwresource_ip.php` | High
+21 | File | `/admin/maintenance/brand.php` | High
+22 | File | `/admin/modal_add_product.php` | High
+23 | File | `/admin/positions_add.php` | High
+24 | File | `/admin/positions_delete.php` | High
+25 | File | `/admin/products/index.php` | High
+26 | File | `/admin/project/update/2` | High
+27 | File | `/admin/reminders/manage_reminder.php` | High
+28 | File | `/admin/reports/index.php` | High
+29 | File | `/admin/transactions/track_shipment.php` | High
+30 | File | `/admin/usermanagement.php` | High
+31 | File | `/adms/classes/Users.php` | High
+32 | File | `/alphaware/summary.php` | High
+33 | File | `/api/admin/store/product/list` | High
+34 | File | `/api/browserextension/UpdatePassword/` | High
+35 | File | `/api/upload` | Medium
+36 | File | `/api/v1/bait/set` | High
+37 | File | `/api/v2/open/rowsInfo` | High
+38 | File | `/api/v2/open/tablesInfo` | High
+39 | File | `/bilal final/edit_stud.php` | High
+40 | File | `/blog` | Low
+41 | File | `/cardo/api` | Medium
+42 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
+43 | File | `/cgi-bin/touchlist_sync.cgi` | High
+44 | File | `/change-language/de_DE` | High
+45 | File | `/ci_spms/admin/category` | High
+46 | File | `/classes/Master.php?f=delete_img` | High
+47 | File | `/classes/Master.php?f=delete_inquiry` | High
+48 | File | `/classes/Master.php?f=save_category` | High
+49 | File | `/classes/Master.php?f=save_inquiry` | High
+50 | File | `/core/tools/customblock.php` | High
+51 | File | `/dashboard/contact` | High
+52 | File | `/dashboard/settings` | High
+53 | File | `/data/0/admin.txt` | High
+54 | File | `/dayrui/My/View/main.html` | High
+55 | File | `/Default/Bd` | Medium
+56 | File | `/diagnostic/login.php` | High
+57 | File | `/dipam/save-delegates.php` | High
+58 | File | `/ecommerce/admin/user/controller.php?action=edit` | High
+59 | File | `/editbrand.php` | High
+60 | File | `/edituser.php` | High
+61 | File | `/feeds/post/publish` | High
+62 | File | `/finance/help/en/frameset.htm` | High
+63 | File | `/gasmark/assets/myimages/oneWord.php` | High
+64 | File | `/goform/aspForm` | High
+65 | File | `/goForm/aspForm` | High
+66 | File | `/goform/RgDhcp` | High
+67 | File | `/goform/RgUrlBlock.asp` | High
+68 | File | `/home/cavesConsole` | High
+69 | File | `/home/courses` | High
+70 | File | `/hrm/employeeview.php` | High
+71 | File | `/hslist` | Low
+72 | File | `/importexport.php` | High
+73 | File | `/include/dialog/select_templets_post.php` | High
+74 | File | `/index.asp` | Medium
+75 | File | `/index.php` | Medium
+76 | File | `/index.php?controller=GzUser&action=edit&id=1` | High
+77 | File | `/index.php?zone=settings` | High
+78 | ... | ... | ...
 
-There are 34 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 687 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

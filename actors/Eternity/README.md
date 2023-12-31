@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 2 more country items available. Please use our online service to access the data.
+There are 3 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -57,25 +57,25 @@ ID | Type | Indicator | Confidence
 1 | File | `/admin.php/admin/art/data.html` | High
 2 | File | `/ajax.php?action=read_msg` | High
 3 | File | `/debug/pprof` | Medium
-4 | File | `/env` | Low
-5 | File | `/forum/away.php` | High
-6 | File | `/goform/SetNetControlList` | High
-7 | File | `/librarian/bookdetails.php` | High
-8 | File | `/ptipupgrade.cgi` | High
-9 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-10 | File | `/src/chatbotapp/chatWindow.java` | High
-11 | File | `/staff/bookdetails.php` | High
-12 | File | `about.php` | Medium
-13 | File | `admin.color.php` | High
-14 | File | `admin/addons/archive/archive.php` | High
-15 | File | `admin/categories_industry.php` | High
-16 | File | `admin/class-woo-popup-admin.php` | High
-17 | File | `admin/content/postcategory` | High
-18 | File | `admincp/auth/secure.php` | High
-19 | File | `Adminstrator/Users/Edit/` | High
+4 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
+5 | File | `/env` | Low
+6 | File | `/forum/away.php` | High
+7 | File | `/goform/SetNetControlList` | High
+8 | File | `/librarian/bookdetails.php` | High
+9 | File | `/ptipupgrade.cgi` | High
+10 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+11 | File | `/src/chatbotapp/chatWindow.java` | High
+12 | File | `/staff/bookdetails.php` | High
+13 | File | `about.php` | Medium
+14 | File | `admin.color.php` | High
+15 | File | `admin/addons/archive/archive.php` | High
+16 | File | `admin/categories_industry.php` | High
+17 | File | `admin/class-woo-popup-admin.php` | High
+18 | File | `admin/content/postcategory` | High
+19 | File | `admincp/auth/secure.php` | High
 20 | ... | ... | ...
 
-There are 160 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 163 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -580,45 +580,46 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/?admin/user.html` | High
-2 | File | `/admin.php?r=admin/AdminBackup/del` | High
-3 | File | `/admin/addemployee.php` | High
-4 | File | `/admin/edit.php` | High
-5 | File | `/admin/index.php/template/ajax?action=delete` | High
-6 | File | `/admin/index.php?mode=content&page=media&action=edit` | High
-7 | File | `/admin/inquiries/view_inquiry.php` | High
-8 | File | `/admin/maintenance/view_designation.php` | High
-9 | File | `/admin/report/index.php` | High
-10 | File | `/admin/users.php?source=edit_user&id=1` | High
-11 | File | `/administrator/alerts/alertLightbox.php` | High
-12 | File | `/administrator/templates/default/html/windows/right.php` | High
-13 | File | `/api/runscript` | High
-14 | File | `/apps/acs-commons/content/page-compare.html` | High
-15 | File | `/cgi-bin/webadminget.cgi` | High
-16 | File | `/classes/Master.php?f=delete_service` | High
-17 | File | `/classes/Master.php?f=save_course` | High
-18 | File | `/config/php.ini` | High
-19 | File | `/demo/module/?module=HERE` | High
-20 | File | `/download/set.cgi` | High
-21 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
-22 | File | `/dvcset/sysset/set.cgi` | High
-23 | File | `/forum/away.php` | High
-24 | File | `/goform/SysToolReboot` | High
-25 | File | `/goform/WifiExtraSet` | High
-26 | File | `/inc/topBarNav.php` | High
-27 | File | `/index.php?m=admin&c=custom&a=plugindelhandle` | High
-28 | File | `/mkshop/Men/profile.php` | High
-29 | File | `/mngset/authset` | High
-30 | File | `/mobile/downloadfile.aspx` | High
-31 | File | `/net/nfc/netlink.c` | High
-32 | File | `/out.php` | Medium
-33 | File | `/outgoing.php` | High
-34 | File | `/php-fusion/infusions/shoutbox_panel/shoutbox_archive.php` | High
-35 | File | `/presale/join` | High
-36 | File | `/public/launchNewWindow.jsp` | High
-37 | ... | ... | ...
+1 | File | `%PROGRAMFILES(X86)%\TSplus\UserDesktop\themes.` | High
+2 | File | `/?admin/user.html` | High
+3 | File | `/admin.php?r=admin/AdminBackup/del` | High
+4 | File | `/admin/addemployee.php` | High
+5 | File | `/admin/edit.php` | High
+6 | File | `/admin/index.php/template/ajax?action=delete` | High
+7 | File | `/admin/index.php?mode=content&page=media&action=edit` | High
+8 | File | `/admin/inquiries/view_inquiry.php` | High
+9 | File | `/admin/maintenance/view_designation.php` | High
+10 | File | `/admin/report/index.php` | High
+11 | File | `/admin/search-appointment.php` | High
+12 | File | `/admin/users.php?source=edit_user&id=1` | High
+13 | File | `/administrator/alerts/alertLightbox.php` | High
+14 | File | `/administrator/templates/default/html/windows/right.php` | High
+15 | File | `/api/runscript` | High
+16 | File | `/apps/acs-commons/content/page-compare.html` | High
+17 | File | `/cgi-bin/webadminget.cgi` | High
+18 | File | `/classes/Master.php?f=delete_service` | High
+19 | File | `/classes/Master.php?f=save_course` | High
+20 | File | `/config/php.ini` | High
+21 | File | `/demo/module/?module=HERE` | High
+22 | File | `/download/set.cgi` | High
+23 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
+24 | File | `/dvcset/sysset/set.cgi` | High
+25 | File | `/forum/away.php` | High
+26 | File | `/goform/SysToolReboot` | High
+27 | File | `/goform/WifiExtraSet` | High
+28 | File | `/inc/topBarNav.php` | High
+29 | File | `/index.php?m=admin&c=custom&a=plugindelhandle` | High
+30 | File | `/mkshop/Men/profile.php` | High
+31 | File | `/mngset/authset` | High
+32 | File | `/mobile/downloadfile.aspx` | High
+33 | File | `/net/nfc/netlink.c` | High
+34 | File | `/out.php` | Medium
+35 | File | `/outgoing.php` | High
+36 | File | `/php-fusion/infusions/shoutbox_panel/shoutbox_archive.php` | High
+37 | File | `/presale/join` | High
+38 | ... | ... | ...
 
-There are 313 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 324 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with South America Unknown:
 
 * [US](https://vuldb.com/?country.us)
-* [JP](https://vuldb.com/?country.jp)
 * [CN](https://vuldb.com/?country.cn)
+* [JP](https://vuldb.com/?country.jp)
 * ...
 
-There are 20 more country items available. Please use our online service to access the data.
+There are 21 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -4115,7 +4115,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-29 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-425 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
@@ -4130,60 +4130,55 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/?page=bike` | High
-2 | File | `/admin/?page=user` | High
-3 | File | `/admin/cms_admin.php` | High
-4 | File | `/admin/cms_content.php` | High
-5 | File | `/admin/config/uploadicon.php` | High
-6 | File | `/admin/inquiries/view_inquiry.php` | High
-7 | File | `/admin/leancloud.php` | High
-8 | File | `/admin/list_addr_fwresource_ip.php` | High
-9 | File | `/admin/login.php` | High
-10 | File | `/admin/order.php` | High
-11 | File | `/admin/plugin.php` | High
-12 | File | `/admin/save.php` | High
-13 | File | `/admin/services/manage_service.php` | High
-14 | File | `/ajax/networking/get_netcfg.php` | High
-15 | File | `/api/` | Low
-16 | File | `/api/download` | High
-17 | File | `/api/runscript` | High
-18 | File | `/api/v1/alerts` | High
-19 | File | `/api/v1/terminal/sessions/?limit=1` | High
-20 | File | `/bd_genie_create_account.cgi` | High
+1 | File | `%SYSTEMDRIVE%\node_modules\.bin\wmic.exe` | High
+2 | File | `/.env` | Low
+3 | File | `//proc/kcore` | Medium
+4 | File | `/admin/?page=bike` | High
+5 | File | `/admin/add-category.php` | High
+6 | File | `/admin/add-services.php` | High
+7 | File | `/admin/courses/manage_course.php` | High
+8 | File | `/admin/courses/view_course.php` | High
+9 | File | `/admin/departments/manage_department.php` | High
+10 | File | `/admin/index.php` | High
+11 | File | `/admin/list_addr_fwresource_ip.php` | High
+12 | File | `/admin/list_onlineuser.php` | High
+13 | File | `/admin/login.php` | High
+14 | File | `/admin/students/manage_academic.php` | High
+15 | File | `/admin/theme-edit.php` | High
+16 | File | `/ajax/networking/get_netcfg.php` | High
+17 | File | `/ample/app/ajax/member_data.php` | High
+18 | File | `/api/authentication/login` | High
+19 | File | `/api/download` | High
+20 | File | `/api/v1/alerts` | High
 21 | File | `/bitrix/admin/ldap_server_edit.php` | High
-22 | File | `/book-services.php` | High
-23 | File | `/categorypage.php` | High
-24 | File | `/cgi-bin/login.cgi` | High
-25 | File | `/cgi-bin/vitogate.cgi` | High
-26 | File | `/classes/master.php?f=delete_order` | High
-27 | File | `/classes/Master.php?f=delete_sub_category` | High
-28 | File | `/classes/Master.php?f=save_brand` | High
-29 | File | `/classes/Master.php?f=save_category` | High
-30 | File | `/classes/Master.php?f=save_service` | High
-31 | File | `/classes/Master.php?f=update_order_status` | High
-32 | File | `/collection/all` | High
-33 | File | `/config-manager/save` | High
-34 | File | `/content/templates/` | High
-35 | File | `/course/filterRecords/` | High
-36 | File | `/debug/pprof` | Medium
-37 | File | `/ecommerce/admin/settings/setDiscount.php` | High
-38 | File | `/fcgi/scrut_fcgi.fcgi` | High
-39 | File | `/forum/away.php` | High
-40 | File | `/HNAP1` | Low
-41 | File | `/im/user/` | Medium
-42 | File | `/importexport.php` | High
-43 | File | `/index.php?controller=calendar&format=raw&cat[0]=SQLi&task=events` | High
-44 | File | `/log/download.php` | High
-45 | File | `/log/webmailattach.php` | High
-46 | File | `/login.php?do=login` | High
-47 | File | `/LogInOut.php` | High
-48 | File | `/m4pdf/pdf.php` | High
-49 | File | `/mail.php` | Medium
-50 | File | `/modules/projects/summary.inc.php` | High
-51 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
-52 | ... | ... | ...
+22 | File | `/config-manager/save` | High
+23 | File | `/Content/Plugins/uploader/FileChoose.html?fileUrl=/Upload/File/Pics/&parent` | High
+24 | File | `/dashboard/createblog` | High
+25 | File | `/debug/pprof` | Medium
+26 | File | `/ecommerce/admin/settings/setDiscount.php` | High
+27 | File | `/endpoint/add-user.php` | High
+28 | File | `/Forms/oadmin_1` | High
+29 | File | `/forum/away.php` | High
+30 | File | `/geoserver/gwc/rest.html` | High
+31 | File | `/goform/formSysCmd` | High
+32 | File | `/h/autoSaveDraft` | High
+33 | File | `/importexport.php` | High
+34 | File | `/index.php?controller=calendar&format=raw&cat[0]=SQLi&task=events` | High
+35 | File | `/jbig2dec/jbig2.c` | High
+36 | File | `/listplace/user/ticket/create` | High
+37 | File | `/login.php?do=login` | High
+38 | File | `/mobileredir/openApp.jsp` | High
+39 | File | `/modules/projects/summary.inc.php` | High
+40 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+41 | File | `/oauth/idp/.well-known/openid-configuration` | High
+42 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
+43 | File | `/one_church/churchprofile.php` | High
+44 | File | `/pages/animals.php` | High
+45 | File | `/protocol/firewall/uploadfirewall.php` | High
+46 | File | `/protocol/iscgwtunnel/uploadiscgwrouteconf.php` | High
+47 | ... | ... | ...
 
-There are 449 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 405 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

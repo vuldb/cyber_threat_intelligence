@@ -4,6 +4,12 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.agrius](https://vuldb.com/?actor.agrius)
 
+## Campaigns
+
+The following _campaigns_ are known and can be associated with Agrius:
+
+* Israel
+
 ## Countries
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Agrius:
@@ -24,9 +30,10 @@ ID | IP address | Hostname | Campaign | Confidence
 1 | [5.2.67.85](https://vuldb.com/?ip.5.2.67.85) | mail.astrilll.com | - | High
 2 | [5.2.73.67](https://vuldb.com/?ip.5.2.73.67) | - | - | High
 3 | [37.59.236.232](https://vuldb.com/?ip.37.59.236.232) | 37.59.236.232.rdns.hasaserver.com | - | High
-4 | ... | ... | ... | ...
+4 | [37.120.238.15](https://vuldb.com/?ip.37.120.238.15) | - | - | High
+5 | ... | ... | ... | ...
 
-There are 9 more IOC items available. Please use our online service to access the data.
+There are 14 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -48,27 +55,29 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/auth/register` | High
-2 | File | `/cgi-bin/kerbynet` | High
-3 | File | `/damicms-master/admin.php?s=/Article/doedit` | High
-4 | File | `/etc/quagga` | Medium
-5 | File | `/main?cmd=invalid_browser` | High
-6 | File | `/opt/IBM/es/lib/libffq.cryptionjni.so` | High
-7 | File | `/pdf/InfoOutputDev.cc` | High
-8 | File | `/plugins/Dashboard/Controller.php` | High
-9 | File | `/storage/app/media/evil.svg` | High
-10 | File | `/uncpath/` | Medium
-11 | File | `/usr/lpp/mmfs/bin/` | High
-12 | File | `adclick.php` | Medium
-13 | ... | ... | ...
+1 | File | `/admin/maintenance/view_designation.php` | High
+2 | File | `/auth/register` | High
+3 | File | `/cgi-bin/kerbynet` | High
+4 | File | `/damicms-master/admin.php?s=/Article/doedit` | High
+5 | File | `/etc/quagga` | Medium
+6 | File | `/main?cmd=invalid_browser` | High
+7 | File | `/opt/IBM/es/lib/libffq.cryptionjni.so` | High
+8 | File | `/pdf/InfoOutputDev.cc` | High
+9 | File | `/plugins/Dashboard/Controller.php` | High
+10 | File | `/storage/app/media/evil.svg` | High
+11 | File | `/uncpath/` | Medium
+12 | File | `/usr/lpp/mmfs/bin/` | High
+13 | File | `adclick.php` | Medium
+14 | ... | ... | ...
 
-There are 105 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 112 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://github.com/blackorbird/APT_REPORT/blob/master/Agrius/evol-agrius.pdf
+* https://unit42.paloaltonetworks.com/agonizing-serpens-targets-israeli-tech-higher-ed-sectors/
 
 ## Literature
 

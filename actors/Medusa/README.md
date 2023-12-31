@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Medusa:
 
 * [US](https://vuldb.com/?country.us)
-* [CN](https://vuldb.com/?country.cn)
 * [RU](https://vuldb.com/?country.ru)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 8 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -23,15 +23,15 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [5.42.78.61](https://vuldb.com/?ip.5.42.78.61) | - | - | High
 2 | [5.61.49.177](https://vuldb.com/?ip.5.61.49.177) | - | - | High
-3 | [8.217.23.144](https://vuldb.com/?ip.8.217.23.144) | - | - | High
-4 | [20.0.25.177](https://vuldb.com/?ip.20.0.25.177) | - | - | High
-5 | [45.15.157.16](https://vuldb.com/?ip.45.15.157.16) | scientific-group.aeza.network | - | High
-6 | [45.150.65.121](https://vuldb.com/?ip.45.150.65.121) | vm1757649.stark-industries.solutions | - | High
-7 | [64.52.80.13](https://vuldb.com/?ip.64.52.80.13) | - | - | High
-8 | [77.105.146.254](https://vuldb.com/?ip.77.105.146.254) | doubtful-reason.aeza.network | - | High
+3 | [5.182.87.27](https://vuldb.com/?ip.5.182.87.27) | - | - | High
+4 | [8.217.23.144](https://vuldb.com/?ip.8.217.23.144) | - | - | High
+5 | [20.0.25.177](https://vuldb.com/?ip.20.0.25.177) | - | - | High
+6 | [45.15.157.16](https://vuldb.com/?ip.45.15.157.16) | scientific-group.aeza.network | - | High
+7 | [45.150.65.121](https://vuldb.com/?ip.45.150.65.121) | vm1757649.stark-industries.solutions | - | High
+8 | [64.52.80.13](https://vuldb.com/?ip.64.52.80.13) | - | - | High
 9 | ... | ... | ... | ...
 
-There are 33 more IOC items available. Please use our online service to access the data.
+There are 34 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -44,7 +44,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 11 more TTP items available. Please use our online service to access the data.
+There are 12 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -61,16 +61,18 @@ ID | Type | Indicator | Confidence
 7 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
 8 | File | `/collection/all` | High
 9 | File | `/common/info.cgi` | High
-10 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-11 | File | `/rest/api/latest/user/avatar/temporary` | High
-12 | File | `/spip.php` | Medium
-13 | File | `/uncpath/` | Medium
-14 | File | `/user/updatePwd` | High
-15 | File | `/var/www/xms/xmsdb/default.db` | High
-16 | File | `/WEB-INF/web.xml` | High
-17 | ... | ... | ...
+10 | File | `/jeecg-boot/jmreport/show` | High
+11 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+12 | File | `/rest/api/latest/user/avatar/temporary` | High
+13 | File | `/spip.php` | Medium
+14 | File | `/src/admin/content_batchup_action.php` | High
+15 | File | `/uncpath/` | Medium
+16 | File | `/user/updatePwd` | High
+17 | File | `/var/www/xms/xmsdb/default.db` | High
+18 | File | `/WEB-INF/web.xml` | High
+19 | ... | ... | ...
 
-There are 137 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 152 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

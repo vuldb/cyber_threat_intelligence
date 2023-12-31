@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [US](https://vuldb.com/?country.us)
 * ...
 
-There are 9 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -71,10 +71,12 @@ ID | IP address | Hostname | Campaign | Confidence
 48 | [45.137.22.141](https://vuldb.com/?ip.45.137.22.141) | hosted-by.rootlayer.net | - | High
 49 | [45.137.22.150](https://vuldb.com/?ip.45.137.22.150) | hosted-by.rootlayer.net | - | High
 50 | [45.137.22.170](https://vuldb.com/?ip.45.137.22.170) | hosted-by.rootlayer.net | - | High
-51 | [45.137.22.251](https://vuldb.com/?ip.45.137.22.251) | hosted-by.rootlayer.net | - | High
-52 | ... | ... | ... | ...
+51 | [45.137.22.173](https://vuldb.com/?ip.45.137.22.173) | hosted-by.rootlayer.net | - | High
+52 | [45.137.22.182](https://vuldb.com/?ip.45.137.22.182) | hosted-by.rootlayer.net | - | High
+53 | [45.137.22.251](https://vuldb.com/?ip.45.137.22.251) | hosted-by.rootlayer.net | - | High
+54 | ... | ... | ... | ...
 
-There are 206 more IOC items available. Please use our online service to access the data.
+There are 212 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -87,9 +89,10 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
-6 | ... | ... | ... | ...
+6 | T1078.001 | CWE-259 | Use of Hard-coded Password | High
+7 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 23 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -99,50 +102,49 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/?p=products` | Medium
 2 | File | `/academy/home/courses` | High
-3 | File | `/admin/?page=product/manage_product&id=2` | High
-4 | File | `/admin/casedetails.php` | High
-5 | File | `/admin/del_feedback.php` | High
-6 | File | `/admin/maintenance/brand.php` | High
-7 | File | `/admin/mechanics/manage_mechanic.php` | High
-8 | File | `/admin/modal_add_product.php` | High
-9 | File | `/admin/positions_add.php` | High
-10 | File | `/admin/user/manage_user.php` | High
-11 | File | `/admin/voters_row.php` | High
-12 | File | `/ajax.php?action=save_company` | High
-13 | File | `/ajax.php?action=save_user` | High
-14 | File | `/ajax/myshop` | Medium
-15 | File | `/api/baskets/{name}` | High
-16 | File | `/api/database` | High
-17 | File | `/api/gen/clients/{language}` | High
-18 | File | `/api/stl/actions/search` | High
-19 | File | `/api/v2/cli/commands` | High
-20 | File | `/apply.cgi` | Medium
-21 | File | `/App_Resource/UEditor/server/upload.aspx` | High
-22 | File | `/authenticationendpoint/login.do` | High
-23 | File | `/backup.pl` | Medium
-24 | File | `/bin/ate` | Medium
-25 | File | `/booking/show_bookings/` | High
-26 | File | `/c/PluginsController.php` | High
-27 | File | `/cas/logout` | Medium
-28 | File | `/category.php` | High
-29 | File | `/cgi-bin` | Medium
-30 | File | `/cgi-bin/system_mgr.cgi` | High
-31 | File | `/cgi-bin/wlogin.cgi` | High
-32 | File | `/chaincity/user/ticket/create` | High
-33 | File | `/collection/all` | High
-34 | File | `/contactform/contactform.php` | High
-35 | File | `/Content/Template/root/reverse-shell.aspx` | High
-36 | File | `/Controller/Ajaxfileupload.ashx` | High
-37 | File | `/csms/?page=contact_us` | High
-38 | File | `/cwms/classes/Master.php?f=save_contact` | High
-39 | File | `/dashboard/add-blog.php` | High
-40 | File | `/debug/pprof` | Medium
-41 | File | `/ecommerce/support_ticket` | High
-42 | File | `/ecrire/exec/puce_statut.php` | High
-43 | File | `/env` | Low
-44 | ... | ... | ...
+3 | File | `/admin/controller/JobLogController.java` | High
+4 | File | `/admin/del_feedback.php` | High
+5 | File | `/admin/modal_add_product.php` | High
+6 | File | `/admin/positions_add.php` | High
+7 | File | `/admin/user/manage_user.php` | High
+8 | File | `/ajax.php?action=save_company` | High
+9 | File | `/ajax.php?action=save_user` | High
+10 | File | `/ajax/myshop` | Medium
+11 | File | `/api/baskets/{name}` | High
+12 | File | `/api/database` | High
+13 | File | `/api/stl/actions/search` | High
+14 | File | `/api/sys/login` | High
+15 | File | `/api/sys/set_passwd` | High
+16 | File | `/api/v2/cli/commands` | High
+17 | File | `/api/v4/users/ids` | High
+18 | File | `/apply.cgi` | Medium
+19 | File | `/App_Resource/UEditor/server/upload.aspx` | High
+20 | File | `/authenticationendpoint/login.do` | High
+21 | File | `/backup.pl` | Medium
+22 | File | `/bin/ate` | Medium
+23 | File | `/booking/show_bookings/` | High
+24 | File | `/c/PluginsController.php` | High
+25 | File | `/cas/logout` | Medium
+26 | File | `/category.php` | High
+27 | File | `/cgi-bin` | Medium
+28 | File | `/cgi-bin/system_mgr.cgi` | High
+29 | File | `/cgi-bin/wlogin.cgi` | High
+30 | File | `/chaincity/user/ticket/create` | High
+31 | File | `/changePassword` | High
+32 | File | `/collection/all` | High
+33 | File | `/contactform/contactform.php` | High
+34 | File | `/Content/Template/root/reverse-shell.aspx` | High
+35 | File | `/Controller/Ajaxfileupload.ashx` | High
+36 | File | `/csms/?page=contact_us` | High
+37 | File | `/cwms/classes/Master.php?f=save_contact` | High
+38 | File | `/dashboard/add-blog.php` | High
+39 | File | `/debug/pprof` | Medium
+40 | File | `/ecommerce/support_ticket` | High
+41 | File | `/ecrire/exec/puce_statut.php` | High
+42 | File | `/ecshop/admin/template.php` | High
+43 | ... | ... | ...
 
-There are 378 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 373 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

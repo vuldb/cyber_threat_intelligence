@@ -17,11 +17,11 @@ The following _campaigns_ are known and can be associated with Charming Kitten:
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Charming Kitten:
 
 * [CN](https://vuldb.com/?country.cn)
-* [NL](https://vuldb.com/?country.nl)
 * [US](https://vuldb.com/?country.us)
+* [NL](https://vuldb.com/?country.nl)
 * ...
 
-There are 12 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -68,7 +68,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -77,10 +77,10 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/?p=products` | Medium
-2 | File | `/about.php` | Medium
-3 | File | `/admin.php/accessory/filesdel.html` | High
-4 | File | `/admin/?page=user/manage` | High
-5 | File | `/admin/add-new.php` | High
+2 | File | `/admin.php/accessory/filesdel.html` | High
+3 | File | `/admin/?page=user/manage` | High
+4 | File | `/admin/add-new.php` | High
+5 | File | `/admin/controller/JobLogController.java` | High
 6 | File | `/admin/doctors.php` | High
 7 | File | `/admin/submit-articles` | High
 8 | File | `/admin/subnets/ripe-query.php` | High
@@ -89,36 +89,37 @@ ID | Type | Indicator | Confidence
 11 | File | `/api/admin/store/product/list` | High
 12 | File | `/api/baskets/{name}` | High
 13 | File | `/api/stl/actions/search` | High
-14 | File | `/api/v2/cli/commands` | High
-15 | File | `/apply.cgi` | Medium
-16 | File | `/attachments` | Medium
-17 | File | `/bin/ate` | Medium
-18 | File | `/boat/login.php` | High
-19 | File | `/booking/show_bookings/` | High
-20 | File | `/bsms_ci/index.php/book` | High
-21 | File | `/cgi-bin` | Medium
-22 | File | `/cgi-bin/luci/api/wireless` | High
-23 | File | `/cgi-bin/wlogin.cgi` | High
-24 | File | `/Content/Template/root/reverse-shell.aspx` | High
-25 | File | `/context/%2e/WEB-INF/web.xml` | High
-26 | File | `/cwms/classes/Master.php?f=save_contact` | High
-27 | File | `/dashboard/add-blog.php` | High
-28 | File | `/debug/pprof` | Medium
-29 | File | `/env` | Low
-30 | File | `/etc/hosts` | Medium
-31 | File | `/export` | Low
-32 | File | `/forum/away.php` | High
-33 | File | `/goform/setmac` | High
-34 | File | `/goform/wizard_end` | High
-35 | File | `/group1/uploa` | High
-36 | File | `/hardware` | Medium
-37 | File | `/librarian/bookdetails.php` | High
-38 | File | `/medicines/profile.php` | High
-39 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-40 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-41 | ... | ... | ...
+14 | File | `/api/sys/login` | High
+15 | File | `/api/sys/set_passwd` | High
+16 | File | `/api/v2/cli/commands` | High
+17 | File | `/apply.cgi` | Medium
+18 | File | `/attachments` | Medium
+19 | File | `/bin/ate` | Medium
+20 | File | `/boat/login.php` | High
+21 | File | `/booking/show_bookings/` | High
+22 | File | `/bsms_ci/index.php/book` | High
+23 | File | `/cgi-bin` | Medium
+24 | File | `/cgi-bin/wlogin.cgi` | High
+25 | File | `/changePassword` | High
+26 | File | `/Content/Template/root/reverse-shell.aspx` | High
+27 | File | `/context/%2e/WEB-INF/web.xml` | High
+28 | File | `/cwms/classes/Master.php?f=save_contact` | High
+29 | File | `/dashboard/add-blog.php` | High
+30 | File | `/debug/pprof` | Medium
+31 | File | `/ecshop/admin/template.php` | High
+32 | File | `/env` | Low
+33 | File | `/etc/hosts` | Medium
+34 | File | `/forum/away.php` | High
+35 | File | `/goform/wizard_end` | High
+36 | File | `/group1/uploa` | High
+37 | File | `/hardware` | Medium
+38 | File | `/librarian/bookdetails.php` | High
+39 | File | `/medicines/profile.php` | High
+40 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+41 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+42 | ... | ... | ...
 
-There are 357 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 367 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -88,9 +88,10 @@ ID | Type | Indicator | Confidence
 42 | File | `/rest/api/2/search` | High
 43 | File | `/s/` | Low
 44 | File | `/scripts/cpan_config` | High
-45 | ... | ... | ...
+45 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+46 | ... | ... | ...
 
-There are 393 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 399 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

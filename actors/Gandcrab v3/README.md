@@ -45,7 +45,7 @@ ID | Type | Indicator | Confidence
 3 | File | `index.php?s=Admin-Data-Down-id-..` | High
 4 | ... | ... | ...
 
-There are 8 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 9 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
