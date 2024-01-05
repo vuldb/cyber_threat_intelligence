@@ -40,7 +40,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-25, CWE-29, CWE-36 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-25, CWE-29, CWE-36 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
@@ -56,40 +56,42 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `$HOME/.terminfo` | High
-2 | File | `/api/baskets/{name}` | High
-3 | File | `/api/gen/clients/{language}` | High
-4 | File | `/bin/login` | Medium
-5 | File | `/bin/mini_upnpd` | High
-6 | File | `/cgi-bin/wlogin.cgi` | High
-7 | File | `/config/myfield/test.php` | High
-8 | File | `/ecshop/admin/template.php` | High
-9 | File | `/file/upload/1` | High
-10 | File | `/forum/away.php` | High
-11 | File | `/forum/PostPrivateMessage` | High
+2 | File | `/admin/category/save` | High
+3 | File | `/admin/subject.php` | High
+4 | File | `/api/baskets/{name}` | High
+5 | File | `/api/gen/clients/{language}` | High
+6 | File | `/auth/auth.php?user=1` | High
+7 | File | `/bin/login` | Medium
+8 | File | `/bin/mini_upnpd` | High
+9 | File | `/cgi-bin/wlogin.cgi` | High
+10 | File | `/DXR.axd` | Medium
+11 | File | `/forum/away.php` | High
 12 | File | `/goform/goform_get_cmd_process` | High
 13 | File | `/goform/set_LimitClient_cfg` | High
 14 | File | `/h/autoSaveDraft` | High
 15 | File | `/h/search?action` | High
-16 | File | `/home/www/cgi-bin/login.cgi` | High
+16 | File | `/HNAP1/` | Low
 17 | File | `/hss/admin/?page=products/view_product` | High
 18 | File | `/importexport.php` | High
 19 | File | `/index.php?app=main&func=passport&action=login` | High
-20 | File | `/main/webservices/additional_webservices.php` | High
-21 | File | `/mgmt/` | Low
-22 | File | `/multi-vendor-shopping-script/product-list.php` | High
-23 | File | `/net-banking/customer_transactions.php` | High
+20 | File | `/main/doctype.php` | High
+21 | File | `/main/webservices/additional_webservices.php` | High
+22 | File | `/mc` | Low
+23 | File | `/mgmt/` | Low
 24 | File | `/oauth/idp/.well-known/openid-configuration` | High
 25 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
 26 | File | `/owa/auth/logon.aspx` | High
 27 | File | `/preview.php` | Medium
-28 | File | `/requests.php` | High
+28 | File | `/register.php` | High
 29 | File | `/secure/ViewCollectors` | High
 30 | File | `/server-status` | High
-31 | File | `/spip.php` | Medium
-32 | File | `/sqlite3_aflpp/shell.c` | High
-33 | ... | ... | ...
+31 | File | `/setting/NTPSyncWithHost` | High
+32 | File | `/spip.php` | Medium
+33 | File | `/sqlite3_aflpp/shell.c` | High
+34 | File | `/squashfs-root/etc_ro/custom.conf` | High
+35 | ... | ... | ...
 
-There are 286 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 295 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -108,4 +110,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

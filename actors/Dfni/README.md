@@ -35,7 +35,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1068 | CWE-269 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 4 | ... | ... | ... | ...
 
-There are 6 more TTP items available. Please use our online service to access the data.
+There are 7 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -43,12 +43,12 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `FlexCell.ocx` | Medium
-2 | File | `photo-gallery.php` | High
-3 | File | `wp-admin/profile.php` | High
+1 | File | `/ajax/openvpn/activate_ovpncfg.php` | High
+2 | File | `FlexCell.ocx` | Medium
+3 | File | `photo-gallery.php` | High
 4 | ... | ... | ...
 
-There are 6 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 8 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

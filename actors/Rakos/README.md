@@ -40,7 +40,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059 | CWE-94 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 15 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -50,26 +50,26 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/addWhiteListDomain.imss` | High
 2 | File | `/anony/mjpg.cgi` | High
-3 | File | `/cobbler-api` | Medium
-4 | File | `/forum/away.php` | High
-5 | File | `/inc/parser/xhtml.php` | High
-6 | File | `/include/makecvs.php` | High
-7 | File | `/index.php` | Medium
-8 | File | `/login/index.php` | High
-9 | File | `/requests.php` | High
-10 | File | `/uncpath/` | Medium
-11 | File | `/wp-admin/admin.php?page=wp_file_manager_properties` | High
-12 | File | `add.php` | Low
-13 | File | `adminer.php` | Medium
-14 | File | `adm_config_report.php` | High
-15 | File | `ampie.swf` | Medium
-16 | File | `api/it-recht-kanzlei/api-it-recht-kanzlei.php` | High
-17 | File | `auth-gss2.c` | Medium
-18 | File | `cat.asp` | Low
-19 | File | `class.phpmailer.php` | High
+3 | File | `/cgi-bin/wlogin.cgi` | High
+4 | File | `/cobbler-api` | Medium
+5 | File | `/forum/away.php` | High
+6 | File | `/inc/parser/xhtml.php` | High
+7 | File | `/include/makecvs.php` | High
+8 | File | `/index.php` | Medium
+9 | File | `/login/index.php` | High
+10 | File | `/requests.php` | High
+11 | File | `/uncpath/` | Medium
+12 | File | `/wp-admin/admin.php?page=wp_file_manager_properties` | High
+13 | File | `add.php` | Low
+14 | File | `adminer.php` | Medium
+15 | File | `adm_config_report.php` | High
+16 | File | `ampie.swf` | Medium
+17 | File | `api/it-recht-kanzlei/api-it-recht-kanzlei.php` | High
+18 | File | `auth-gss2.c` | Medium
+19 | File | `cat.asp` | Low
 20 | ... | ... | ...
 
-There are 160 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 165 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -86,4 +86,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

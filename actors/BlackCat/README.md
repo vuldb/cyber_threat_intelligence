@@ -65,54 +65,55 @@ ID | Type | Indicator | Confidence
 12 | File | `/admin/index.php` | High
 13 | File | `/admin/index/index.html#/admin/mall.goods/index.html` | High
 14 | File | `/admin/list_onlineuser.php` | High
-15 | File | `/admin/options` | High
-16 | File | `/admin/report/index.php` | High
-17 | File | `/admin/services/manage_service.php` | High
-18 | File | `/admin/settings/` | High
-19 | File | `/admin/show.php` | High
-20 | File | `/admin/students/update_status.php` | High
-21 | File | `/admin/subject.php` | High
-22 | File | `/admin/user/manage_user.php` | High
-23 | File | `/admin/users/index.php` | High
-24 | File | `/ample/app/ajax/member_data.php` | High
-25 | File | `/article/DelectArticleById/` | High
-26 | File | `/asms/classes/Master.php?f=delete_service` | High
-27 | File | `/auth/auth.php?user=1` | High
-28 | File | `/b2b-supermarket/shopping-cart` | High
-29 | File | `/blog` | Low
-30 | File | `/bsms_ci/index.php/user/edit_user/` | High
-31 | File | `/cgi-bin/cstecgi.cgi` | High
-32 | File | `/classes/Master.php?f=delete_category` | High
-33 | File | `/classes/Master.php?f=delete_inquiry` | High
-34 | File | `/classes/Master.php?f=save_reminder` | High
-35 | File | `/classes/Users.php?f=delete_client` | High
-36 | File | `/clients/listclients.php` | High
-37 | File | `/clients/profile` | High
-38 | File | `/cms/category/list` | High
-39 | File | `/collection/all` | High
-40 | File | `/company/store` | High
-41 | File | `/contacts/listcontacts.php` | High
-42 | File | `/Default/Bd` | Medium
-43 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-44 | File | `/ext/phar/phar_object.c` | High
-45 | File | `/forum/away.php` | High
-46 | File | `/fos/admin/index.php?page=menu` | High
-47 | File | `/friends` | Medium
-48 | File | `/goform/AddSysLogRule` | High
-49 | File | `/goform/SafeEmailFilter` | High
-50 | File | `/goform/SetIpMacBind` | High
-51 | File | `/goform/setSnmpInfo` | High
-52 | File | `/goform/setUplinkInfo` | High
-53 | File | `/goform/SysToolReboot` | High
-54 | File | `/goform/WifiBasicSet` | High
-55 | File | `/graphql` | Medium
-56 | File | `/home/get_tasks_list` | High
-57 | File | `/hrm/employeeview.php` | High
-58 | File | `/hss/?page=categories` | High
-59 | File | `/hss/admin/brands/manage_brand.php` | High
-60 | ... | ... | ...
+15 | File | `/admin/login.php` | High
+16 | File | `/admin/options` | High
+17 | File | `/admin/report/index.php` | High
+18 | File | `/admin/services/manage_service.php` | High
+19 | File | `/admin/settings/` | High
+20 | File | `/admin/show.php` | High
+21 | File | `/admin/students/update_status.php` | High
+22 | File | `/admin/subject.php` | High
+23 | File | `/admin/user/manage_user.php` | High
+24 | File | `/admin/users/index.php` | High
+25 | File | `/ample/app/ajax/member_data.php` | High
+26 | File | `/article/DelectArticleById/` | High
+27 | File | `/asms/classes/Master.php?f=delete_service` | High
+28 | File | `/auth/auth.php?user=1` | High
+29 | File | `/b2b-supermarket/shopping-cart` | High
+30 | File | `/blog` | Low
+31 | File | `/bsms_ci/index.php/user/edit_user/` | High
+32 | File | `/cgi-bin/cstecgi.cgi` | High
+33 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=ie8` | High
+34 | File | `/classes/Master.php?f=delete_category` | High
+35 | File | `/classes/Master.php?f=delete_inquiry` | High
+36 | File | `/classes/Master.php?f=save_reminder` | High
+37 | File | `/classes/Users.php?f=delete_client` | High
+38 | File | `/clients/listclients.php` | High
+39 | File | `/clients/profile` | High
+40 | File | `/cms/category/list` | High
+41 | File | `/collection/all` | High
+42 | File | `/company/store` | High
+43 | File | `/contacts/listcontacts.php` | High
+44 | File | `/Default/Bd` | Medium
+45 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+46 | File | `/ext/phar/phar_object.c` | High
+47 | File | `/file-manager/upload.php` | High
+48 | File | `/forum/away.php` | High
+49 | File | `/fos/admin/index.php?page=menu` | High
+50 | File | `/friends` | Medium
+51 | File | `/goform/AddSysLogRule` | High
+52 | File | `/goform/SafeEmailFilter` | High
+53 | File | `/goform/SetIpMacBind` | High
+54 | File | `/goform/setSnmpInfo` | High
+55 | File | `/goform/setUplinkInfo` | High
+56 | File | `/goform/SysToolReboot` | High
+57 | File | `/goform/WifiBasicSet` | High
+58 | File | `/graphql` | Medium
+59 | File | `/home/get_tasks_list` | High
+60 | File | `/hrm/employeeview.php` | High
+61 | ... | ... | ...
 
-There are 527 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 536 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -131,4 +132,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

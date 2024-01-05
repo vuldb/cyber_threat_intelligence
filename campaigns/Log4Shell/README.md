@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Log4Shell:
 
 * [US](https://vuldb.com/?country.us)
-* [DE](https://vuldb.com/?country.de)
 * [LA](https://vuldb.com/?country.la)
+* [DE](https://vuldb.com/?country.de)
 * ...
 
 There are 11 more country items available. Please use our online service to access the data.
@@ -100,7 +100,7 @@ ID | Technique | Weakness | Description | Confidence
 6 | T1068 | CWE-264, CWE-266, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 7 | ... | ... | ... | ...
 
-There are 26 more TTP items available. Please use our online service to access the data.
+There are 25 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -143,36 +143,39 @@ ID | Type | Indicator | Confidence
 33 | File | `/App_Resource/UEditor/server/upload.aspx` | High
 34 | File | `/blog` | Low
 35 | File | `/booking/show_bookings/` | High
-36 | File | `/cgi-bin/mainfunction.cgi` | High
-37 | File | `/cgi-bin/touchlist_sync.cgi` | High
-38 | File | `/change-language/de_DE` | High
-39 | File | `/classes/Master.php` | High
-40 | File | `/classes/Master.php?f=delete_inquiry` | High
-41 | File | `/classes/Master.php?f=save_item` | High
-42 | File | `/config,admin.jsp` | High
-43 | File | `/config/api/v1/reboot` | High
-44 | File | `/Duty/AjaxHandle/UploadFloodPlanFileUpdate.ashx` | High
-45 | File | `/DXR.axd` | Medium
-46 | File | `/endpoint/delete-user.php` | High
-47 | File | `/etc/shadow` | Medium
-48 | File | `/file_manager/admin/save_user.php` | High
-49 | File | `/find-a-match` | High
-50 | File | `/forum/away.php` | High
-51 | File | `/forum/PostPrivateMessage` | High
-52 | File | `/forums.php?action=post` | High
-53 | File | `/fos/admin/ajax.php?action=login` | High
-54 | File | `/fos/admin/index.php?page=menu` | High
-55 | File | `/goForm/aspForm` | High
-56 | File | `/home/filter_listings` | High
-57 | File | `/im/user/` | Medium
-58 | File | `/importexport.php` | High
-59 | File | `/inc/jquery/uploadify/uploadify.php` | High
-60 | File | `/inc/parser/xhtml.php` | High
-61 | File | `/index.php` | Medium
-62 | File | `/index.php?app=main&func=passport&action=login` | High
-63 | ... | ... | ...
+36 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=ie8` | High
+37 | File | `/cgi-bin/mainfunction.cgi` | High
+38 | File | `/cgi-bin/touchlist_sync.cgi` | High
+39 | File | `/change-language/de_DE` | High
+40 | File | `/classes/Master.php` | High
+41 | File | `/classes/Master.php?f=delete_inquiry` | High
+42 | File | `/classes/Master.php?f=save_item` | High
+43 | File | `/config,admin.jsp` | High
+44 | File | `/download.php?file=author.png` | High
+45 | File | `/Duty/AjaxHandle/UploadFloodPlanFileUpdate.ashx` | High
+46 | File | `/DXR.axd` | Medium
+47 | File | `/endpoint/delete-user.php` | High
+48 | File | `/etc/shadow` | Medium
+49 | File | `/file-manager/upload.php` | High
+50 | File | `/file_manager/admin/save_user.php` | High
+51 | File | `/find-a-match` | High
+52 | File | `/forum/away.php` | High
+53 | File | `/forum/PostPrivateMessage` | High
+54 | File | `/forums.php?action=post` | High
+55 | File | `/fos/admin/ajax.php?action=login` | High
+56 | File | `/fos/admin/index.php?page=menu` | High
+57 | File | `/goForm/aspForm` | High
+58 | File | `/home/filter_listings` | High
+59 | File | `/im/user/` | Medium
+60 | File | `/importexport.php` | High
+61 | File | `/inc/jquery/uploadify/uploadify.php` | High
+62 | File | `/inc/parser/xhtml.php` | High
+63 | File | `/index.php` | Medium
+64 | File | `/index.php?app=main&func=passport&action=login` | High
+65 | File | `/index.php?controller=GzUser&action=edit&id=1` | High
+66 | ... | ... | ...
 
-There are 555 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 576 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -199,4 +202,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

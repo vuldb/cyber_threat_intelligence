@@ -402,22 +402,22 @@ ID | Type | Indicator | Confidence
 27 | File | `/h/` | Low
 28 | File | `/HNAP1` | Low
 29 | File | `/hosts/firewall/ip` | High
-30 | File | `/jeecg-boot/sys/common/upload` | High
-31 | File | `/oauth/idp/.well-known/openid-configuration` | High
-32 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
-33 | File | `/php/ping.php` | High
-34 | File | `/proxy` | Low
-35 | File | `/recipe-result` | High
-36 | File | `/register.do` | Medium
-37 | File | `/RPS2019Service/status.html` | High
-38 | File | `/scripts/unlock_tasks.php` | High
-39 | File | `/Service/ImageStationDataService.asmx` | High
-40 | File | `/setting` | Medium
-41 | File | `/sicweb-ajax/tmproot/` | High
-42 | File | `/spip.php` | Medium
+30 | File | `/index.php/ccm/system/file/upload` | High
+31 | File | `/jeecg-boot/sys/common/upload` | High
+32 | File | `/oauth/idp/.well-known/openid-configuration` | High
+33 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
+34 | File | `/php/ping.php` | High
+35 | File | `/proxy` | Low
+36 | File | `/recipe-result` | High
+37 | File | `/register.do` | Medium
+38 | File | `/RPS2019Service/status.html` | High
+39 | File | `/scripts/unlock_tasks.php` | High
+40 | File | `/Service/ImageStationDataService.asmx` | High
+41 | File | `/setting` | Medium
+42 | File | `/sicweb-ajax/tmproot/` | High
 43 | ... | ... | ...
 
-There are 376 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 375 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -437,4 +437,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

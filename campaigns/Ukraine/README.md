@@ -1217,7 +1217,7 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-25 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -1232,42 +1232,43 @@ ID | Type | Indicator | Confidence
 1 | File | `%SYSTEMDRIVE%\node_modules\.bin\wmic.exe` | High
 2 | File | `//proc/kcore` | Medium
 3 | File | `/accounts_con/register_account` | High
-4 | File | `/admin/ajax.php` | High
-5 | File | `/admin/cms_admin.php` | High
-6 | File | `/admin/index2.html` | High
-7 | File | `/admin/login.php` | High
-8 | File | `/admin/manage-users.php` | High
-9 | File | `/admin/media.php` | High
-10 | File | `/admin/subject.php` | High
-11 | File | `/ample/app/ajax/member_data.php` | High
-12 | File | `/api/log/killJob` | High
-13 | File | `/api/trackedEntityInstances` | High
-14 | File | `/api/upload.php` | High
-15 | File | `/api /v3/auth` | High
-16 | File | `/auth/auth.php?user=1` | High
-17 | File | `/b2b-supermarket/shopping-cart` | High
-18 | File | `/bin/login` | Medium
-19 | File | `/calendar/minimizer/index.php` | High
+4 | File | `/admin/admin_user.php` | High
+5 | File | `/admin/ajax.php` | High
+6 | File | `/admin/book_row.php` | High
+7 | File | `/admin/cms_admin.php` | High
+8 | File | `/admin/index2.html` | High
+9 | File | `/admin/login.php` | High
+10 | File | `/admin/manage-users.php` | High
+11 | File | `/admin/media.php` | High
+12 | File | `/admin/subject.php` | High
+13 | File | `/ample/app/ajax/member_data.php` | High
+14 | File | `/api/log/killJob` | High
+15 | File | `/api/trackedEntityInstances` | High
+16 | File | `/api/upload.php` | High
+17 | File | `/api /v3/auth` | High
+18 | File | `/auth/auth.php?user=1` | High
+19 | File | `/b2b-supermarket/shopping-cart` | High
 20 | File | `/cgi-bin/cstecgi.cgi` | High
 21 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-22 | File | `/debug/pprof` | Medium
-23 | File | `/DesignTools/CssEditor.aspx` | High
-24 | File | `/download.php?file=author.png` | High
-25 | File | `/DXR.axd` | Medium
-26 | File | `/file-manager/upload.php` | High
-27 | File | `/forum/away.php` | High
-28 | File | `/goform/formSysCmd` | High
-29 | File | `/goform/goform_get_cmd_process` | High
-30 | File | `/goform/setModules` | High
-31 | File | `/home/admin/.ash_history` | High
-32 | File | `/home/courses` | High
-33 | File | `/hosts/firewall/ip` | High
-34 | File | `/index.php/ccm/system/file/upload` | High
-35 | File | `/libsystem/login.php` | High
-36 | File | `/login` | Low
-37 | ... | ... | ...
+22 | File | `/customer_support/ajax.php?action=save_department` | High
+23 | File | `/debug/pprof` | Medium
+24 | File | `/DesignTools/CssEditor.aspx` | High
+25 | File | `/dist/index.js` | High
+26 | File | `/download.php?file=author.png` | High
+27 | File | `/DXR.axd` | Medium
+28 | File | `/file-manager/upload.php` | High
+29 | File | `/forum/away.php` | High
+30 | File | `/goform/formSysCmd` | High
+31 | File | `/goform/goform_get_cmd_process` | High
+32 | File | `/goform/setModules` | High
+33 | File | `/home/admin/.ash_history` | High
+34 | File | `/home/courses` | High
+35 | File | `/hosts/firewall/ip` | High
+36 | File | `/index.php/ccm/system/file/upload` | High
+37 | File | `/libsystem/login.php` | High
+38 | ... | ... | ...
 
-There are 321 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 326 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -1313,4 +1314,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

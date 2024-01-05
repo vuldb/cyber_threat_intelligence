@@ -48,7 +48,7 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -86,36 +86,36 @@ ID | Type | Indicator | Confidence
 24 | File | `/api/v1/alerts` | High
 25 | File | `/api/v1/terminal/sessions/?limit=1` | High
 26 | File | `/app/sys1.php` | High
-27 | File | `/App_Resource/UEditor/server/upload.aspx` | High
-28 | File | `/auth/auth.php?user=1` | High
-29 | File | `/b2b-supermarket/shopping-cart` | High
-30 | File | `/blog` | Low
-31 | File | `/category.php` | High
-32 | File | `/categorypage.php` | High
-33 | File | `/cgi-bin/cstecgi.cgi` | High
-34 | File | `/cgi-bin/luci/api/wireless` | High
-35 | File | `/cgi-bin/vitogate.cgi` | High
-36 | File | `/classes/Master.php?f=delete_category` | High
-37 | File | `/collection/all` | High
-38 | File | `/company/store` | High
-39 | File | `/config-manager/save` | High
-40 | File | `/Controller/Ajaxfileupload.ashx` | High
-41 | File | `/debug/pprof` | Medium
-42 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-43 | File | `/EventBookingCalendar/load.php?controller=GzFront/action=checkout/cid=1/layout=calendar/show_header=T/local=3` | High
-44 | File | `/fcgi/scrut_fcgi.fcgi` | High
-45 | File | `/forum/away.php` | High
-46 | File | `/fusion/portal/action/Link` | High
-47 | File | `/geoserver/gwc/rest.html` | High
-48 | File | `/goform/formSysCmd` | High
-49 | File | `/HNAP1` | Low
-50 | File | `/home/courses` | High
-51 | File | `/home/get_tasks_list` | High
-52 | File | `/hosts/firewall/ip` | High
-53 | File | `/importexport.php` | High
+27 | File | `/auth/auth.php?user=1` | High
+28 | File | `/b2b-supermarket/shopping-cart` | High
+29 | File | `/blog` | Low
+30 | File | `/category.php` | High
+31 | File | `/categorypage.php` | High
+32 | File | `/cgi-bin/cstecgi.cgi` | High
+33 | File | `/cgi-bin/vitogate.cgi` | High
+34 | File | `/classes/Master.php?f=delete_category` | High
+35 | File | `/collection/all` | High
+36 | File | `/company/store` | High
+37 | File | `/config-manager/save` | High
+38 | File | `/Controller/Ajaxfileupload.ashx` | High
+39 | File | `/debug/pprof` | Medium
+40 | File | `/dist/index.js` | High
+41 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+42 | File | `/EventBookingCalendar/load.php?controller=GzFront/action=checkout/cid=1/layout=calendar/show_header=T/local=3` | High
+43 | File | `/fcgi/scrut_fcgi.fcgi` | High
+44 | File | `/forum/away.php` | High
+45 | File | `/fusion/portal/action/Link` | High
+46 | File | `/geoserver/gwc/rest.html` | High
+47 | File | `/goform/formSysCmd` | High
+48 | File | `/HNAP1` | Low
+49 | File | `/home/courses` | High
+50 | File | `/home/get_tasks_list` | High
+51 | File | `/hosts/firewall/ip` | High
+52 | File | `/importexport.php` | High
+53 | File | `/index.php` | Medium
 54 | ... | ... | ...
 
-There are 469 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 467 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -168,4 +168,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -57,32 +57,33 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin-panel1.php` | High
 2 | File | `/admin/academic/studenview_left.php` | High
-3 | File | `/admin/bookings/view_details.php` | High
-4 | File | `/admin/controller/JobLogController.java` | High
-5 | File | `/admin/login.php` | High
-6 | File | `/ad_js.php` | Medium
-7 | File | `/alerts/alertConfigField.php` | High
-8 | File | `/api/v1/terminal/sessions/?limit=1` | High
-9 | File | `/config/myfield/test.php` | High
-10 | File | `/context/%2e/WEB-INF/web.xml` | High
-11 | File | `/core/conditions/AbstractWrapper.java` | High
-12 | File | `/data/remove` | Medium
-13 | File | `/debug/pprof` | Medium
-14 | File | `/etc/passwd` | Medium
-15 | File | `/face-recognition-php/facepay-master/camera.php` | High
-16 | File | `/forms/doLogin` | High
-17 | File | `/fuel/index.php/fuel/logs/items` | High
-18 | File | `/fuel/index.php/fuel/pages/items` | High
-19 | File | `/goform/aspForm` | High
-20 | File | `/image_zoom.php` | High
+3 | File | `/admin/ajax.php` | High
+4 | File | `/admin/ajax.php?action=confirm_order` | High
+5 | File | `/admin/bookings/view_details.php` | High
+6 | File | `/admin/controller/JobLogController.java` | High
+7 | File | `/admin/login.php` | High
+8 | File | `/alerts/alertConfigField.php` | High
+9 | File | `/api/v1/terminal/sessions/?limit=1` | High
+10 | File | `/config/myfield/test.php` | High
+11 | File | `/context/%2e/WEB-INF/web.xml` | High
+12 | File | `/core/conditions/AbstractWrapper.java` | High
+13 | File | `/data/remove` | Medium
+14 | File | `/debug/pprof` | Medium
+15 | File | `/etc/passwd` | Medium
+16 | File | `/face-recognition-php/facepay-master/camera.php` | High
+17 | File | `/forms/doLogin` | High
+18 | File | `/fuel/index.php/fuel/logs/items` | High
+19 | File | `/fuel/index.php/fuel/pages/items` | High
+20 | File | `/goform/aspForm` | High
 21 | File | `/index.php` | Medium
 22 | File | `/mkshop/Men/profile.php` | High
 23 | File | `/modules/announcement/index.php?view=edit` | High
 24 | File | `/param.file.tgz` | High
-25 | File | `/proxy/` | Low
-26 | ... | ... | ...
+25 | File | `/php/exportrecord.php` | High
+26 | File | `/proxy/` | Low
+27 | ... | ... | ...
 
-There are 223 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 224 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -99,4 +100,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

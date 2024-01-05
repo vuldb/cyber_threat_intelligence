@@ -49,16 +49,17 @@ ID | Type | Indicator | Confidence
 3 | File | `/admin/cms_admin.php` | High
 4 | File | `/admin/config/uploadicon.php` | High
 5 | File | `/admin/students/manage_academic.php` | High
-6 | File | `/ajax.php?action=read_msg` | High
-7 | File | `/api/authentication/login` | High
-8 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-9 | File | `/classes/Master.php?f=delete_inquiry` | High
-10 | File | `/classes/Master.php?f=delete_item` | High
-11 | File | `/classes/Master.php?f=save_inquiry` | High
-12 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
-13 | ... | ... | ...
+6 | File | `/admin/subject.php` | High
+7 | File | `/ajax.php?action=read_msg` | High
+8 | File | `/api/authentication/login` | High
+9 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+10 | File | `/classes/Master.php?f=delete_inquiry` | High
+11 | File | `/classes/Master.php?f=delete_item` | High
+12 | File | `/classes/Master.php?f=save_inquiry` | High
+13 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
+14 | ... | ... | ...
 
-There are 99 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 108 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -75,4 +76,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

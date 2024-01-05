@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Bahrain Unknown:
 
 * [US](https://vuldb.com/?country.us)
-* [JP](https://vuldb.com/?country.jp)
 * [CN](https://vuldb.com/?country.cn)
+* [JP](https://vuldb.com/?country.jp)
 * ...
 
 There are 23 more country items available. Please use our online service to access the data.
@@ -87,55 +87,60 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `%SYSTEMDRIVE%\node_modules\.bin\wmic.exe` | High
 2 | File | `/accounts_con/register_account` | High
-3 | File | `/admin/?page=bike` | High
-4 | File | `/admin/course.php` | High
-5 | File | `/admin/courses/manage_course.php` | High
-6 | File | `/admin/courses/view_course.php` | High
-7 | File | `/admin/departments/manage_department.php` | High
-8 | File | `/admin/index.php` | High
-9 | File | `/admin/ind_backstage.php` | High
-10 | File | `/admin/list_addr_fwresource_ip.php` | High
-11 | File | `/admin/list_onlineuser.php` | High
-12 | File | `/admin/login.php` | High
-13 | File | `/admin/manage-pages.php` | High
-14 | File | `/admin/manage-users.php` | High
-15 | File | `/admin/options-theme.php` | High
-16 | File | `/admin/plugin.php` | High
-17 | File | `/admin/students/manage_academic.php` | High
-18 | File | `/admin/subject.php` | High
-19 | File | `/admin/theme-edit.php` | High
-20 | File | `/adplanet/PlanetUser` | High
-21 | File | `/ample/app/ajax/member_data.php` | High
-22 | File | `/api/authentication/login` | High
-23 | File | `/api/download` | High
-24 | File | `/api/v1/alerts` | High
-25 | File | `/article/DelectArticleById/` | High
-26 | File | `/auth/auth.php?user=1` | High
-27 | File | `/b2b-supermarket/catalog/all-products` | High
-28 | File | `/b2b-supermarket/shopping-cart` | High
-29 | File | `/cgi-bin/cstecgi.cgi` | High
-30 | File | `/config-manager/save` | High
-31 | File | `/Content/Plugins/uploader/FileChoose.html?fileUrl=/Upload/File/Pics/&parent` | High
-32 | File | `/content/templates/` | High
-33 | File | `/course/filterRecords/` | High
-34 | File | `/dashboard/createblog` | High
-35 | File | `/debug/pprof` | Medium
-36 | File | `/ecommerce/admin/settings/setDiscount.php` | High
-37 | File | `/endpoint/add-guest.php` | High
-38 | File | `/endpoint/add-user.php` | High
-39 | File | `/etc/hosts.deny` | High
-40 | File | `/fcgi/scrut_fcgi.fcgi` | High
-41 | File | `/forum/away.php` | High
-42 | File | `/geoserver/gwc/rest.html` | High
-43 | File | `/goform/formSysCmd` | High
-44 | File | `/h/autoSaveDraft` | High
-45 | File | `/HNAP1/` | Low
-46 | File | `/im/user/` | Medium
-47 | File | `/importexport.php` | High
-48 | File | `/index.php?pluginApp/to/yzOffice/getFile` | High
-49 | ... | ... | ...
+3 | File | `/admin/` | Low
+4 | File | `/admin/?page=bike` | High
+5 | File | `/admin/book_add.php` | High
+6 | File | `/admin/book_row.php` | High
+7 | File | `/admin/bwdates-report-details.php` | High
+8 | File | `/admin/course.php` | High
+9 | File | `/admin/courses/manage_course.php` | High
+10 | File | `/admin/courses/view_course.php` | High
+11 | File | `/admin/departments/manage_department.php` | High
+12 | File | `/admin/index.php` | High
+13 | File | `/admin/ind_backstage.php` | High
+14 | File | `/admin/list_addr_fwresource_ip.php` | High
+15 | File | `/admin/list_onlineuser.php` | High
+16 | File | `/admin/login.php` | High
+17 | File | `/admin/manage-pages.php` | High
+18 | File | `/admin/manage-users.php` | High
+19 | File | `/admin/options-theme.php` | High
+20 | File | `/admin/pages/subjects.php` | High
+21 | File | `/admin/pages/yearlevel.php` | High
+22 | File | `/admin/students/manage_academic.php` | High
+23 | File | `/admin/subject.php` | High
+24 | File | `/admin/theme-edit.php` | High
+25 | File | `/admin/upload/img` | High
+26 | File | `/adplanet/PlanetUser` | High
+27 | File | `/ample/app/ajax/member_data.php` | High
+28 | File | `/api/authentication/login` | High
+29 | File | `/api/download` | High
+30 | File | `/api/v1/alerts` | High
+31 | File | `/article/DelectArticleById/` | High
+32 | File | `/auth/auth.php?user=1` | High
+33 | File | `/b2b-supermarket/catalog/all-products` | High
+34 | File | `/b2b-supermarket/shopping-cart` | High
+35 | File | `/boaform/wlan_basic_set.cgi` | High
+36 | File | `/cgi-bin/cstecgi.cgi` | High
+37 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+38 | File | `/config,admin.jsp` | High
+39 | File | `/config-manager/save` | High
+40 | File | `/Content/Plugins/uploader/FileChoose.html?fileUrl=/Upload/File/Pics/&parent` | High
+41 | File | `/dashboard/createblog` | High
+42 | File | `/debug/pprof` | Medium
+43 | File | `/ecommerce/admin/settings/setDiscount.php` | High
+44 | File | `/endpoint/add-guest.php` | High
+45 | File | `/endpoint/add-user.php` | High
+46 | File | `/etc/hosts.deny` | High
+47 | File | `/file-manager/delete.php` | High
+48 | File | `/file-manager/upload.php` | High
+49 | File | `/forum/away.php` | High
+50 | File | `/geoserver/gwc/rest.html` | High
+51 | File | `/goform/formSysCmd` | High
+52 | File | `/h/autoSaveDraft` | High
+53 | File | `/HNAP1/` | Low
+54 | ... | ... | ...
 
-There are 430 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 468 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -154,4 +159,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

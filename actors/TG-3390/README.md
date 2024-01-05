@@ -21,7 +21,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -63,43 +63,43 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/cgi-bin/live_api.cgi` | High
-3 | File | `/cgi-bin/wapopen` | High
-4 | File | `/csms/?page=contact_us` | High
-5 | File | `/etc/ajenti/config.yml` | High
-6 | File | `/etc/shadow` | Medium
-7 | File | `/forum/away.php` | High
-8 | File | `/getcfg.php` | Medium
-9 | File | `/goform/telnet` | High
-10 | File | `/infusions/shoutbox_panel/shoutbox_admin.php` | High
-11 | File | `/modules/profile/index.php` | High
-12 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-13 | File | `/oscommerce/admin/currencies.php` | High
-14 | File | `/proc/pid/syscall` | High
-15 | File | `/rom-0` | Low
-16 | File | `/session/list/allActiveSession` | High
-17 | File | `/syslog_rules` | High
-18 | File | `/tmp/phpglibccheck` | High
-19 | File | `/uncpath/` | Medium
-20 | File | `/upload` | Low
-21 | File | `/users/{id}` | Medium
-22 | File | `/usr/bin/pkexec` | High
-23 | File | `/var/tmp/sess_*` | High
-24 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
-25 | File | `/video` | Low
-26 | File | `/videotalk` | Medium
-27 | File | `action-visitor.php` | High
-28 | File | `actionphp/download.File.php` | High
-29 | File | `ActivityManagerService.java` | High
-30 | File | `adaptmap_reg.c` | High
-31 | File | `add_comment.php` | High
-32 | File | `admin.cgi` | Medium
-33 | File | `admin.php?action=files` | High
-34 | File | `admin/admin.php` | High
-35 | File | `admin/content.php` | High
+2 | File | `/api/admin/system/store/order/list` | High
+3 | File | `/cgi-bin/live_api.cgi` | High
+4 | File | `/cgi-bin/wapopen` | High
+5 | File | `/csms/?page=contact_us` | High
+6 | File | `/etc/ajenti/config.yml` | High
+7 | File | `/etc/shadow` | Medium
+8 | File | `/forum/away.php` | High
+9 | File | `/getcfg.php` | Medium
+10 | File | `/goform/telnet` | High
+11 | File | `/infusions/shoutbox_panel/shoutbox_admin.php` | High
+12 | File | `/modules/profile/index.php` | High
+13 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+14 | File | `/oscommerce/admin/currencies.php` | High
+15 | File | `/proc/pid/syscall` | High
+16 | File | `/rom-0` | Low
+17 | File | `/session/list/allActiveSession` | High
+18 | File | `/syslog_rules` | High
+19 | File | `/tmp/phpglibccheck` | High
+20 | File | `/uncpath/` | Medium
+21 | File | `/upload` | Low
+22 | File | `/users/{id}` | Medium
+23 | File | `/usr/bin/pkexec` | High
+24 | File | `/var/tmp/sess_*` | High
+25 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
+26 | File | `/video` | Low
+27 | File | `/videotalk` | Medium
+28 | File | `action-visitor.php` | High
+29 | File | `actionphp/download.File.php` | High
+30 | File | `ActivityManagerService.java` | High
+31 | File | `adaptmap_reg.c` | High
+32 | File | `add_comment.php` | High
+33 | File | `admin.cgi` | Medium
+34 | File | `admin.php?action=files` | High
+35 | File | `admin/admin.php` | High
 36 | ... | ... | ...
 
-There are 310 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 313 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -120,4 +120,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

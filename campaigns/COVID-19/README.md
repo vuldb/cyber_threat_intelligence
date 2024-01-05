@@ -149,10 +149,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-27, CWE-29, CWE-37, CWE-425 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-29, CWE-37, CWE-425 | Pathname Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -164,33 +164,33 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/?ajax-request=jnews` | High
-2 | File | `/accounts/password_change/` | High
-3 | File | `/act/ActDao.xml` | High
-4 | File | `/api/addusers` | High
-5 | File | `/api/baskets/{name}` | High
-6 | File | `/api/trackedEntityInstances` | High
-7 | File | `/api/v1/terminal/sessions/?limit=1` | High
-8 | File | `/auth/auth.php?user=1` | High
-9 | File | `/authenticationendpoint/login.do` | High
-10 | File | `/b2b-supermarket/shopping-cart` | High
-11 | File | `/blog/comment` | High
-12 | File | `/bsms_ci/index.php` | High
-13 | File | `/catalog/compare` | High
-14 | File | `/cgi-bin/cstecgi.cgi` | High
-15 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-16 | File | `/cgi-bin/downloadFile.cgi` | High
-17 | File | `/cgi-bin/kerbynet` | High
-18 | File | `/cgi-bin/wlogin.cgi` | High
-19 | File | `/clinic/disease_symptoms_view.php` | High
-20 | File | `/debug/pprof` | Medium
-21 | File | `/DXR.axd` | Medium
-22 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-23 | File | `/forum/away.php` | High
-24 | File | `/geoserver/gwc/rest.html` | High
-25 | File | `/importexport.php` | High
-26 | File | `/index.php/client/message/message_read/xxxxxxxx[random-msg-hash]` | High
-27 | File | `/login` | Low
+1 | File | `/accounts/password_change/` | High
+2 | File | `/act/ActDao.xml` | High
+3 | File | `/api/addusers` | High
+4 | File | `/api/baskets/{name}` | High
+5 | File | `/api/trackedEntityInstances` | High
+6 | File | `/api/v1/terminal/sessions/?limit=1` | High
+7 | File | `/auth/auth.php?user=1` | High
+8 | File | `/b2b-supermarket/shopping-cart` | High
+9 | File | `/blog/comment` | High
+10 | File | `/bsms_ci/index.php` | High
+11 | File | `/catalog/compare` | High
+12 | File | `/cgi-bin/cstecgi.cgi` | High
+13 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+14 | File | `/cgi-bin/downloadFile.cgi` | High
+15 | File | `/cgi-bin/kerbynet` | High
+16 | File | `/cgi-bin/wlogin.cgi` | High
+17 | File | `/clinic/disease_symptoms_view.php` | High
+18 | File | `/config/getuser` | High
+19 | File | `/debug/pprof` | Medium
+20 | File | `/DXR.axd` | Medium
+21 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+22 | File | `/forum/away.php` | High
+23 | File | `/geoserver/gwc/rest.html` | High
+24 | File | `/importexport.php` | High
+25 | File | `/index.php/client/message/message_read/xxxxxxxx[random-msg-hash]` | High
+26 | File | `/login` | Low
+27 | File | `/mehah/otclient` | High
 28 | File | `/mhds/clinic/view_details.php` | High
 29 | File | `/modals/class_form.php` | High
 30 | File | `/oauth/idp/.well-known/openid-configuration` | High
@@ -201,7 +201,8 @@ ID | Type | Indicator | Confidence
 35 | File | `/shell` | Low
 36 | File | `/showfile.php` | High
 37 | File | `/spip.php` | Medium
-38 | ... | ... | ...
+38 | File | `/squashfs-root/etc_ro/custom.conf` | High
+39 | ... | ... | ...
 
 There are 331 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
@@ -224,4 +225,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

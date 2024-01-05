@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [US](https://vuldb.com/?country.us)
 * ...
 
-There are 4 more country items available. Please use our online service to access the data.
+There are 5 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -431,14 +431,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23, CWE-24, CWE-29 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-29, CWE-37 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -447,49 +447,49 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/accounts_con/register_account` | High
-2 | File | `/act/ActDao.xml` | High
-3 | File | `/admin/?page=maintenance/brand` | High
-4 | File | `/admin/?page=user/list` | High
-5 | File | `/admin/?page=user/manage` | High
-6 | File | `/admin/?page=user/manage_user&id=3` | High
-7 | File | `/admin/course.php` | High
-8 | File | `/admin/courses/manage_course.php` | High
-9 | File | `/admin/courses/view_course.php` | High
-10 | File | `/admin/curriculum/view_curriculum.php` | High
-11 | File | `/admin/departments/manage_department.php` | High
-12 | File | `/admin/index.php` | High
-13 | File | `/admin/ind_backstage.php` | High
-14 | File | `/admin/list_onlineuser.php` | High
-15 | File | `/admin/manage-pages.php` | High
-16 | File | `/admin/manage-users.php` | High
-17 | File | `/admin/offenses/view_details.php` | High
-18 | File | `/admin/options-theme.php` | High
-19 | File | `/admin/report/index.php` | High
-20 | File | `/admin/reportupload.aspx` | High
-21 | File | `/admin/services/view_service.php` | High
-22 | File | `/admin/settings/` | High
-23 | File | `/admin/singlelogin.php?submit=1` | High
-24 | File | `/admin/students/view_details.php` | High
-25 | File | `/admin/students/view_student.php` | High
-26 | File | `/admin/subject.php` | High
-27 | File | `/admin/theme-edit.php` | High
-28 | File | `/admin/upload/img` | High
-29 | File | `/admin/user/manage_user.php` | High
-30 | File | `/adms/admin/?page=user/manage_user` | High
-31 | File | `/adplanet/PlanetCommentList` | High
-32 | File | `/adplanet/PlanetUser` | High
-33 | File | `/ajax.php?action=save_company` | High
-34 | File | `/ample/app/ajax/member_data.php` | High
-35 | File | `/api/browserextension/UpdatePassword/` | High
-36 | File | `/api/upload.php` | High
+2 | File | `/admin/?page=maintenance/brand` | High
+3 | File | `/admin/?page=user/list` | High
+4 | File | `/admin/?page=user/manage` | High
+5 | File | `/admin/?page=user/manage_user&id=3` | High
+6 | File | `/admin/course.php` | High
+7 | File | `/admin/courses/manage_course.php` | High
+8 | File | `/admin/courses/view_course.php` | High
+9 | File | `/admin/curriculum/view_curriculum.php` | High
+10 | File | `/admin/departments/manage_department.php` | High
+11 | File | `/admin/index.php` | High
+12 | File | `/admin/ind_backstage.php` | High
+13 | File | `/admin/list_onlineuser.php` | High
+14 | File | `/admin/manage-pages.php` | High
+15 | File | `/admin/manage-users.php` | High
+16 | File | `/admin/offenses/view_details.php` | High
+17 | File | `/admin/options-theme.php` | High
+18 | File | `/admin/report/index.php` | High
+19 | File | `/admin/reportupload.aspx` | High
+20 | File | `/admin/services/view_service.php` | High
+21 | File | `/admin/settings/` | High
+22 | File | `/admin/singlelogin.php?submit=1` | High
+23 | File | `/admin/students/view_details.php` | High
+24 | File | `/admin/students/view_student.php` | High
+25 | File | `/admin/subject.php` | High
+26 | File | `/admin/theme-edit.php` | High
+27 | File | `/admin/upload/img` | High
+28 | File | `/admin/user/manage_user.php` | High
+29 | File | `/adms/admin/?page=user/manage_user` | High
+30 | File | `/adplanet/PlanetCommentList` | High
+31 | File | `/adplanet/PlanetUser` | High
+32 | File | `/ajax.php?action=save_company` | High
+33 | File | `/ample/app/ajax/member_data.php` | High
+34 | File | `/api/browserextension/UpdatePassword/` | High
+35 | File | `/api/trackedEntityInstances` | High
+36 | File | `/api/v1/terminal/sessions/?limit=1` | High
 37 | File | `/article/DelectArticleById/` | High
 38 | File | `/auth/auth.php?user=1` | High
 39 | File | `/b2b-supermarket/catalog/all-products` | High
 40 | File | `/b2b-supermarket/shopping-cart` | High
-41 | File | `/catalog/compare` | High
-42 | File | `/cgi-bin/cstecgi.cgi` | High
-43 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-44 | File | `/cgi-bin/kerbynet` | High
+41 | File | `/carbon/ndatasource/validateconnection/ajaxprocessor.jsp` | High
+42 | File | `/catalog/compare` | High
+43 | File | `/cgi-bin/cstecgi.cgi` | High
+44 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
 45 | File | `/cgi-bin/mainfunction.cgi` | High
 46 | File | `/classes/Master.php` | High
 47 | File | `/classes/Master.php?f=delete_category` | High
@@ -507,19 +507,26 @@ ID | Type | Indicator | Confidence
 59 | File | `/classes/Users.php?f=save` | High
 60 | File | `/clinic/disease_symptoms_view.php` | High
 61 | File | `/config,admin.jsp` | High
-62 | File | `/download/image` | High
-63 | File | `/DXR.axd` | Medium
-64 | File | `/endpoint/add-guest.php` | High
-65 | File | `/endpoint/add-user.php` | High
-66 | File | `/endpoint/delete-user.php` | High
-67 | File | `/fax/fax_send.php` | High
-68 | File | `/file-manager/delete.php` | High
-69 | File | `/file-manager/upload.php` | High
-70 | File | `/forum/away.php` | High
-71 | File | `/general/ipanel/menu_code.php?MENU_TYPE=FAV` | High
-72 | ... | ... | ...
+62 | File | `/config/getuser` | High
+63 | File | `/debug/pprof` | Medium
+64 | File | `/download/image` | High
+65 | File | `/DXR.axd` | Medium
+66 | File | `/endpoint/add-guest.php` | High
+67 | File | `/endpoint/add-user.php` | High
+68 | File | `/endpoint/delete-user.php` | High
+69 | File | `/fax/fax_send.php` | High
+70 | File | `/file-manager/delete.php` | High
+71 | File | `/file-manager/upload.php` | High
+72 | File | `/forum/away.php` | High
+73 | File | `/general/ipanel/menu_code.php?MENU_TYPE=FAV` | High
+74 | File | `/goform/goform_get_cmd_process` | High
+75 | File | `/HNAP1/` | Low
+76 | File | `/inc/topBarNav.php` | High
+77 | File | `/index.php` | Medium
+78 | File | `/index.php?page=member` | High
+79 | ... | ... | ...
 
-There are 632 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 691 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -540,4 +547,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

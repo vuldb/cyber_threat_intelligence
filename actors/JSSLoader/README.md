@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -39,11 +39,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23, CWE-36, CWE-425 | Pathname Traversal | High
+1 | T1006 | CWE-22, CWE-23, CWE-29, CWE-36, CWE-425 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
 There are 20 more TTP items available. Please use our online service to access the data.
@@ -59,37 +59,39 @@ ID | Type | Indicator | Confidence
 3 | File | `/admin/manage-users.php` | High
 4 | File | `/admin/modal_add_product.php` | High
 5 | File | `/admin/reg.php` | High
-6 | File | `/admin/service.php` | High
-7 | File | `/admin/sys_sql_query.php` | High
+6 | File | `/admin/sys_sql_query.php` | High
+7 | File | `/admin/users` | Medium
 8 | File | `/Ant_Suxin.php` | High
 9 | File | `/api/admin/user/list` | High
 10 | File | `/api/authentication/login` | High
 11 | File | `/api/thumbnail` | High
-12 | File | `/App_Resource/UEditor/server/upload.aspx` | High
-13 | File | `/blog/blogpublish.php` | High
-14 | File | `/boaform/admin/formPing` | High
-15 | File | `/cgi-bin/vitogate.cgi` | High
-16 | File | `/collection/all` | High
-17 | File | `/company/store` | High
-18 | File | `/config-manager/save` | High
-19 | File | `/config/getuser` | High
-20 | File | `/config/php.ini` | High
-21 | File | `/controllers/Blocks.php` | High
-22 | File | `/dcim/rack/` | Medium
-23 | File | `/debug/pprof` | Medium
-24 | File | `/dede/tpl.php` | High
-25 | File | `/download` | Medium
-26 | File | `/download/image` | High
-27 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-28 | File | `/endpoint/add-user.php` | High
-29 | File | `/etc/hosts.deny` | High
-30 | File | `/file/upload/1` | High
-31 | File | `/filemanager/php/connector.php` | High
-32 | File | `/goform/aspForm` | High
-33 | File | `/goform/telnet` | High
-34 | ... | ... | ...
+12 | File | `/api /v3/auth` | High
+13 | File | `/App_Resource/UEditor/server/upload.aspx` | High
+14 | File | `/blog/blogpublish.php` | High
+15 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+16 | File | `/cgi-bin/R19.9/easy1350.pl` | High
+17 | File | `/cgi-bin/vitogate.cgi` | High
+18 | File | `/collection/all` | High
+19 | File | `/company/store` | High
+20 | File | `/config-manager/save` | High
+21 | File | `/config/getuser` | High
+22 | File | `/config/php.ini` | High
+23 | File | `/controllers/Blocks.php` | High
+24 | File | `/debug/pprof` | Medium
+25 | File | `/dede/tpl.php` | High
+26 | File | `/download` | Medium
+27 | File | `/download/image` | High
+28 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+29 | File | `/endpoint/add-user.php` | High
+30 | File | `/etc/hosts.deny` | High
+31 | File | `/file-manager/upload.php` | High
+32 | File | `/file/upload/1` | High
+33 | File | `/filemanager/php/connector.php` | High
+34 | File | `/goform/aspForm` | High
+35 | File | `/goform/telnet` | High
+36 | ... | ... | ...
 
-There are 289 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 309 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -106,4 +108,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
