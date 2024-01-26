@@ -82,9 +82,10 @@ ID | Type | Indicator | Confidence
 30 | File | `/ServletAPI/accounts/login` | High
 31 | File | `/setNTP.cgi` | Medium
 32 | File | `/student/bookdetails.php` | High
-33 | ... | ... | ...
+33 | File | `/system/user/modules/mod_users/controller.php` | High
+34 | ... | ... | ...
 
-There are 282 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 286 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

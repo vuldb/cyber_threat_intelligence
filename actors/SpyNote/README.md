@@ -15,11 +15,11 @@ The following _campaigns_ are known and can be associated with SpyNote:
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with SpyNote:
 
 * [PL](https://vuldb.com/?country.pl)
-* [SV](https://vuldb.com/?country.sv)
 * [PT](https://vuldb.com/?country.pt)
+* [SV](https://vuldb.com/?country.sv)
 * ...
 
-There are 6 more country items available. Please use our online service to access the data.
+There are 8 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -30,10 +30,11 @@ ID | IP address | Hostname | Campaign | Confidence
 1 | [8.219.143.100](https://vuldb.com/?ip.8.219.143.100) | - | - | High
 2 | [37.120.141.140](https://vuldb.com/?ip.37.120.141.140) | - | - | High
 3 | [37.120.141.144](https://vuldb.com/?ip.37.120.141.144) | - | - | High
-4 | [81.161.229.3](https://vuldb.com/?ip.81.161.229.3) | - | - | High
-5 | ... | ... | ... | ...
+4 | [67.205.154.243](https://vuldb.com/?ip.67.205.154.243) | nyc1.portmap.io | - | High
+5 | [80.85.143.7](https://vuldb.com/?ip.80.85.143.7) | vm4714915.43ssd.had.wf | - | High
+6 | ... | ... | ... | ...
 
-There are 16 more IOC items available. Please use our online service to access the data.
+There are 18 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -48,7 +49,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -69,74 +70,73 @@ ID | Type | Indicator | Confidence
 11 | File | `/admin/api/theme-edit/` | High
 12 | File | `/admin/configure.php` | High
 13 | File | `/admin/content/index` | High
-14 | File | `/admin/curriculum/view_curriculum.php` | High
-15 | File | `/admin/edit-accepted-appointment.php` | High
-16 | File | `/admin/edit.php` | High
-17 | File | `/admin/fields/manage_field.php` | High
-18 | File | `/admin/inquiries/view_inquiry.php` | High
-19 | File | `/admin/lab.php` | High
-20 | File | `/admin/list_addr_fwresource_ip.php` | High
-21 | File | `/admin/maintenance/brand.php` | High
-22 | File | `/admin/modal_add_product.php` | High
-23 | File | `/admin/positions_add.php` | High
-24 | File | `/admin/positions_delete.php` | High
-25 | File | `/admin/products/index.php` | High
-26 | File | `/admin/project/update/2` | High
-27 | File | `/admin/reminders/manage_reminder.php` | High
-28 | File | `/admin/reports/index.php` | High
-29 | File | `/admin/transactions/track_shipment.php` | High
+14 | File | `/admin/edit-accepted-appointment.php` | High
+15 | File | `/admin/edit-doc.php` | High
+16 | File | `/admin/fields/manage_field.php` | High
+17 | File | `/admin/inquiries/view_inquiry.php` | High
+18 | File | `/admin/lab.php` | High
+19 | File | `/admin/list_addr_fwresource_ip.php` | High
+20 | File | `/admin/maintenance/brand.php` | High
+21 | File | `/admin/modal_add_product.php` | High
+22 | File | `/admin/positions_add.php` | High
+23 | File | `/admin/positions_delete.php` | High
+24 | File | `/admin/products/index.php` | High
+25 | File | `/admin/project/update/2` | High
+26 | File | `/admin/reminders/manage_reminder.php` | High
+27 | File | `/admin/reports/index.php` | High
+28 | File | `/admin/transactions/track_shipment.php` | High
+29 | File | `/admin/usermanagement.php` | High
 30 | File | `/adms/classes/Users.php` | High
 31 | File | `/alphaware/summary.php` | High
-32 | File | `/api/admin/store/product/list` | High
-33 | File | `/api/browserextension/UpdatePassword/` | High
-34 | File | `/api/upload` | Medium
-35 | File | `/api/v1/bait/set` | High
-36 | File | `/api/v2/open/rowsInfo` | High
-37 | File | `/api/v2/open/tablesInfo` | High
-38 | File | `/bilal final/edit_stud.php` | High
-39 | File | `/blog` | Low
-40 | File | `/cardo/api` | Medium
-41 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
-42 | File | `/change-language/de_DE` | High
-43 | File | `/ci_spms/admin/category` | High
-44 | File | `/classes/Master.php?f=delete_img` | High
-45 | File | `/classes/Master.php?f=delete_inquiry` | High
-46 | File | `/classes/Master.php?f=save_category` | High
-47 | File | `/classes/Master.php?f=save_inquiry` | High
-48 | File | `/core/tools/customblock.php` | High
-49 | File | `/dashboard/contact` | High
-50 | File | `/dashboard/settings` | High
-51 | File | `/data/0/admin.txt` | High
-52 | File | `/dayrui/My/View/main.html` | High
-53 | File | `/Default/Bd` | Medium
-54 | File | `/dipam/save-delegates.php` | High
-55 | File | `/ecommerce/admin/user/controller.php?action=edit` | High
-56 | File | `/editbrand.php` | High
-57 | File | `/edituser.php` | High
-58 | File | `/feeds/post/publish` | High
-59 | File | `/finance/help/en/frameset.htm` | High
-60 | File | `/gasmark/assets/myimages/oneWord.php` | High
-61 | File | `/goform/aspForm` | High
-62 | File | `/goForm/aspForm` | High
-63 | File | `/goform/RgDhcp` | High
-64 | File | `/goform/RgUrlBlock.asp` | High
-65 | File | `/home/cavesConsole` | High
-66 | File | `/home/courses` | High
-67 | File | `/hrm/employeeview.php` | High
-68 | File | `/hslist` | Low
-69 | File | `/importexport.php` | High
-70 | File | `/include/dialog/select_templets_post.php` | High
-71 | File | `/index.asp` | Medium
-72 | File | `/index.php` | Medium
-73 | File | `/index.php?controller=GzUser&action=edit&id=1` | High
-74 | File | `/index.php?zone=settings` | High
-75 | File | `/jurusan/data` | High
-76 | File | `/kelas/data` | Medium
-77 | File | `/login` | Low
-78 | File | `/loginVaLidation.php` | High
-79 | ... | ... | ...
+32 | File | `/ample/app/action/edit_product.php` | High
+33 | File | `/api/admin/store/product/list` | High
+34 | File | `/api/browserextension/UpdatePassword/` | High
+35 | File | `/api/upload` | Medium
+36 | File | `/api/v1/bait/set` | High
+37 | File | `/api/v2/open/rowsInfo` | High
+38 | File | `/api/v2/open/tablesInfo` | High
+39 | File | `/bilal final/edit_stud.php` | High
+40 | File | `/blog` | Low
+41 | File | `/cardo/api` | Medium
+42 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
+43 | File | `/cgi-bin/touchlist_sync.cgi` | High
+44 | File | `/change-language/de_DE` | High
+45 | File | `/ci_spms/admin/category` | High
+46 | File | `/classes/Master.php?f=delete_img` | High
+47 | File | `/classes/Master.php?f=delete_inquiry` | High
+48 | File | `/classes/Master.php?f=save_category` | High
+49 | File | `/classes/Master.php?f=save_inquiry` | High
+50 | File | `/core/tools/customblock.php` | High
+51 | File | `/dashboard/contact` | High
+52 | File | `/dashboard/settings` | High
+53 | File | `/data/0/admin.txt` | High
+54 | File | `/dayrui/My/View/main.html` | High
+55 | File | `/Default/Bd` | Medium
+56 | File | `/diagnostic/login.php` | High
+57 | File | `/dipam/save-delegates.php` | High
+58 | File | `/ecommerce/admin/user/controller.php?action=edit` | High
+59 | File | `/editbrand.php` | High
+60 | File | `/edituser.php` | High
+61 | File | `/feeds/post/publish` | High
+62 | File | `/finance/help/en/frameset.htm` | High
+63 | File | `/gasmark/assets/myimages/oneWord.php` | High
+64 | File | `/goform/aspForm` | High
+65 | File | `/goForm/aspForm` | High
+66 | File | `/goform/RgDhcp` | High
+67 | File | `/goform/RgUrlBlock.asp` | High
+68 | File | `/home/cavesConsole` | High
+69 | File | `/home/courses` | High
+70 | File | `/hrm/employeeview.php` | High
+71 | File | `/hslist` | Low
+72 | File | `/importexport.php` | High
+73 | File | `/include/dialog/select_templets_post.php` | High
+74 | File | `/index.asp` | Medium
+75 | File | `/index.php` | Medium
+76 | File | `/index.php?controller=GzUser&action=edit&id=1` | High
+77 | File | `/index.php?zone=settings` | High
+78 | ... | ... | ...
 
-There are 700 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 688 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -161,4 +161,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

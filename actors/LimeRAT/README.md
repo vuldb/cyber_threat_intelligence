@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [IN](https://vuldb.com/?country.in)
 * ...
 
-There are 18 more country items available. Please use our online service to access the data.
+There are 17 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -39,7 +39,7 @@ ID | IP address | Hostname | Campaign | Confidence
 16 | [45.88.79.224](https://vuldb.com/?ip.45.88.79.224) | free.example.com | - | High
 17 | ... | ... | ... | ...
 
-There are 63 more IOC items available. Please use our online service to access the data.
+There are 64 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -52,7 +52,8 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+6 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+7 | ... | ... | ... | ...
 
 There are 22 more TTP items available. Please use our online service to access the data.
 
@@ -66,11 +67,11 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin/?n=logs&c=index&a=dode` | High
 3 | File | `/admin/?page=orders/manage_request` | High
 4 | File | `/admin/files` | Medium
-5 | File | `/admin/update_s6.php` | High
-6 | File | `/admin/users/index.php` | High
-7 | File | `/alphaware/details.php` | High
-8 | File | `/api/v2/cli/commands` | High
-9 | File | `/api/ZRQos/set_online_client` | High
+5 | File | `/admin/regester.php` | High
+6 | File | `/admin/update_s6.php` | High
+7 | File | `/admin/users/index.php` | High
+8 | File | `/alphaware/details.php` | High
+9 | File | `/api/v2/cli/commands` | High
 10 | File | `/articles/welcome-to-your-site#comments-head` | High
 11 | File | `/batm/app/admin/standalone/deployments` | High
 12 | File | `/be/erpc.php` | Medium
@@ -85,35 +86,34 @@ ID | Type | Indicator | Confidence
 21 | File | `/crmeb/app/admin/controller/store/CopyTaobao.php` | High
 22 | File | `/dashboard/settings` | High
 23 | File | `/dashboard/system/express/entities/forms/save_control/[GUID]` | High
-24 | File | `/dev/dri/card1` | High
-25 | File | `/diagnostic/login.php` | High
-26 | File | `/ecrire/tools/blogroll/index.php` | High
-27 | File | `/employeeview.php` | High
-28 | File | `/enterprise/www/student.php` | High
-29 | File | `/etc/config/image_sign` | High
-30 | File | `/etc/sudoers` | Medium
-31 | File | `/files/$username/Myfolder/Mysubfolder/shared.txt` | High
-32 | File | `/forum/away.php` | High
-33 | File | `/garage/editclient.php` | High
-34 | File | `/gasmark/assets/myimages/oneWord.php` | High
-35 | File | `/hocms/classes/Master.php?f=delete_phase` | High
-36 | File | `/hrm/controller/employee.php` | High
-37 | File | `/index.php` | Medium
-38 | File | `/lam/tmp/` | Medium
-39 | File | `/logs/sql-error.log` | High
-40 | File | `/ManageRoute/postRoute` | High
-41 | File | `/mkshop/Men/profile.php` | High
-42 | File | `/newVersion` | Medium
+24 | File | `/diagnostic/login.php` | High
+25 | File | `/ecrire/tools/blogroll/index.php` | High
+26 | File | `/employeeview.php` | High
+27 | File | `/enterprise/www/student.php` | High
+28 | File | `/etc/config/image_sign` | High
+29 | File | `/etc/sudoers` | Medium
+30 | File | `/files/$username/Myfolder/Mysubfolder/shared.txt` | High
+31 | File | `/forum/away.php` | High
+32 | File | `/garage/editclient.php` | High
+33 | File | `/gasmark/assets/myimages/oneWord.php` | High
+34 | File | `/hocms/classes/Master.php?f=delete_phase` | High
+35 | File | `/hrm/controller/employee.php` | High
+36 | File | `/inventory/transactions_view.php` | High
+37 | File | `/lam/tmp/` | Medium
+38 | File | `/logs/sql-error.log` | High
+39 | File | `/ManageRoute/postRoute` | High
+40 | File | `/mkshop/Men/profile.php` | High
+41 | File | `/newVersion` | Medium
+42 | File | `/oauth/idp/.well-known/openid-configuration` | High
 43 | File | `/out.php` | Medium
 44 | File | `/PC/WebService.asmx` | High
 45 | File | `/preauth` | Medium
 46 | File | `/search.php` | Medium
 47 | File | `/Source/C++/Core/Ap4DataBuffer.cpp` | High
 48 | File | `/spip.php` | Medium
-49 | File | `/staff/edit_book_details.php` | High
-50 | ... | ... | ...
+49 | ... | ... | ...
 
-There are 430 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 424 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -131,4 +131,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

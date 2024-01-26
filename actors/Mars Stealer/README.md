@@ -37,7 +37,7 @@ ID | IP address | Hostname | Campaign | Confidence
 14 | [62.204.41.70](https://vuldb.com/?ip.62.204.41.70) | - | - | High
 15 | ... | ... | ... | ...
 
-There are 54 more IOC items available. Please use our online service to access the data.
+There are 55 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -70,38 +70,40 @@ ID | Type | Indicator | Confidence
 8 | File | `/api/user/password/sent-reset-email` | High
 9 | File | `/aqpg/users/login.php` | High
 10 | File | `/bsms_ci/index.php/user/edit_user/` | High
-11 | File | `/cgi-bin/wlogin.cgi` | High
-12 | File | `/classes/Master.php?f=save_inquiry` | High
-13 | File | `/dashboard/add-service.php` | High
-14 | File | `/dashboard/updatelogo.php` | High
-15 | File | `/Default/Bd` | Medium
-16 | File | `/download` | Medium
-17 | File | `/event/admin/?page=user/list` | High
-18 | File | `/face-recognition-php/facepay-master/camera.php` | High
-19 | File | `/filemanager/upload/drop` | High
-20 | File | `/forum/away.php` | High
-21 | File | `/forum/PostPrivateMessage` | High
-22 | File | `/getcfg.php` | Medium
-23 | File | `/goform/aspForm` | High
-24 | File | `/goform/RouteStatic` | High
-25 | File | `/home/masterConsole` | High
-26 | File | `/hrm/employeeadd.php` | High
-27 | File | `/hrm/employeeview.php` | High
-28 | File | `/htdocs/cgibin` | High
-29 | File | `/lists/index.php` | High
-30 | File | `/login.php` | Medium
-31 | File | `/mifs/c/i/reg/reg.html` | High
-32 | File | `/netflow/jspui/editProfile.jsp` | High
-33 | File | `/settings/download-test-pdf` | High
-34 | File | `/spip.php` | Medium
-35 | File | `/uncpath/` | Medium
-36 | File | `/usr/www/ja/mnt_cmd.cgi` | High
-37 | File | `/videotalk` | Medium
-38 | File | `/view-property.php` | High
-39 | File | `/webman/info.cgi` | High
-40 | ... | ... | ...
+11 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+12 | File | `/cgi-bin/wlogin.cgi` | High
+13 | File | `/classes/Master.php?f=save_inquiry` | High
+14 | File | `/cstecgi.cgi` | Medium
+15 | File | `/dashboard/add-service.php` | High
+16 | File | `/dashboard/updatelogo.php` | High
+17 | File | `/Default/Bd` | Medium
+18 | File | `/download` | Medium
+19 | File | `/event/admin/?page=user/list` | High
+20 | File | `/face-recognition-php/facepay-master/camera.php` | High
+21 | File | `/filemanager/upload/drop` | High
+22 | File | `/forum/away.php` | High
+23 | File | `/forum/PostPrivateMessage` | High
+24 | File | `/getcfg.php` | Medium
+25 | File | `/goform/aspForm` | High
+26 | File | `/goform/RouteStatic` | High
+27 | File | `/home/masterConsole` | High
+28 | File | `/hrm/employeeadd.php` | High
+29 | File | `/hrm/employeeview.php` | High
+30 | File | `/htdocs/cgibin` | High
+31 | File | `/lists/index.php` | High
+32 | File | `/login.php` | Medium
+33 | File | `/mifs/c/i/reg/reg.html` | High
+34 | File | `/netflow/jspui/editProfile.jsp` | High
+35 | File | `/portmap` | Medium
+36 | File | `/settings/download-test-pdf` | High
+37 | File | `/spip.php` | Medium
+38 | File | `/uncpath/` | Medium
+39 | File | `/usr/www/ja/mnt_cmd.cgi` | High
+40 | File | `/videotalk` | Medium
+41 | File | `/view-property.php` | High
+42 | ... | ... | ...
 
-There are 340 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 366 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -115,6 +117,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://isc.sans.edu/forums/diary/Arkei+Variants+From+Vidar+to+Mars+Stealer/28468/
 * https://tracker.viriback.com/index.php?q=91.92.246.39
 * https://tracker.viriback.com/index.php?q=91.92.250.149
+* https://tracker.viriback.com/index.php?q=91.92.254.204
 * https://tracker.viriback.com/index.php?q=152.89.218.27
 * https://tracker.viriback.com/index.php?q=152.89.218.84
 * https://tracker.viriback.com/index.php?q=152.89.218.97
@@ -132,4 +135,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -78,31 +78,32 @@ ID | Type | Indicator | Confidence
 27 | File | `/module/index.php` | High
 28 | File | `/Monitoring-History.php` | High
 29 | File | `/my_photo_gallery/image.php` | High
-30 | File | `/owa/auth/logon.aspx` | High
-31 | File | `/product.php` | Medium
-32 | File | `/ServletAPI/accounts/login` | High
-33 | File | `/spip.php` | Medium
-34 | File | `/uncpath/` | Medium
-35 | File | `/usr/bin/pkexec` | High
-36 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
-37 | File | `/videotalk` | Medium
-38 | File | `/vloggers_merch/?p=products` | High
-39 | File | `/vloggers_merch/classes/Master.php?f=delete_category` | High
-40 | File | `/vloggers_merch/classes/Master.php?f=delete_product` | High
-41 | File | `/web/MCmsAction.java` | High
-42 | File | `/wp-admin/options.php` | High
-43 | File | `/zm/index.php` | High
-44 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-45 | File | `activity_log.php` | High
-46 | File | `adclick.php` | Medium
-47 | File | `adm/systools.asp` | High
-48 | File | `admin.cropcanvas.php` | High
-49 | File | `admin.jcomments.php` | High
-50 | File | `admin/dashboard.php` | High
-51 | File | `admin/departments/manage_department.php` | High
-52 | ... | ... | ...
+30 | File | `/novel/bookSetting/list` | High
+31 | File | `/owa/auth/logon.aspx` | High
+32 | File | `/product.php` | Medium
+33 | File | `/ServletAPI/accounts/login` | High
+34 | File | `/spip.php` | Medium
+35 | File | `/uncpath/` | Medium
+36 | File | `/usr/bin/pkexec` | High
+37 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
+38 | File | `/videotalk` | Medium
+39 | File | `/vloggers_merch/?p=products` | High
+40 | File | `/vloggers_merch/classes/Master.php?f=delete_category` | High
+41 | File | `/vloggers_merch/classes/Master.php?f=delete_product` | High
+42 | File | `/web/MCmsAction.java` | High
+43 | File | `/wp-admin/options.php` | High
+44 | File | `/zm/index.php` | High
+45 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+46 | File | `activity_log.php` | High
+47 | File | `adclick.php` | Medium
+48 | File | `adm/systools.asp` | High
+49 | File | `admin.cropcanvas.php` | High
+50 | File | `admin.jcomments.php` | High
+51 | File | `admin/dashboard.php` | High
+52 | File | `admin/departments/manage_department.php` | High
+53 | ... | ... | ...
 
-There are 449 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 461 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -119,4 +120,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

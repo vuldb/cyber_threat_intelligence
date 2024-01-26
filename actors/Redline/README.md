@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [LA](https://vuldb.com/?country.la)
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -93,7 +93,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -102,48 +102,48 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `//proc/kcore` | Medium
-2 | File | `/?p=products` | Medium
-3 | File | `/academy/home/courses` | High
-4 | File | `/admin/about-us.php` | High
+2 | File | `/academy/home/courses` | High
+3 | File | `/admin/about-us.php` | High
+4 | File | `/admin/action/delete-vaccine.php` | High
 5 | File | `/admin/del_feedback.php` | High
-6 | File | `/admin/maintenance/brand.php` | High
-7 | File | `/admin/mechanics/manage_mechanic.php` | High
-8 | File | `/admin/modal_add_product.php` | High
-9 | File | `/admin/positions_add.php` | High
-10 | File | `/admin/user/manage_user.php` | High
-11 | File | `/admin/userprofile.php` | High
-12 | File | `/ajax.php?action=save_company` | High
-13 | File | `/ajax.php?action=save_user` | High
-14 | File | `/ajax/myshop` | Medium
-15 | File | `/api/baskets/{name}` | High
-16 | File | `/api/database` | High
-17 | File | `/App_Resource/UEditor/server/upload.aspx` | High
-18 | File | `/authenticationendpoint/login.do` | High
-19 | File | `/backup.pl` | Medium
-20 | File | `/bitrix/admin/ldap_server_edit.php` | High
-21 | File | `/c/PluginsController.php` | High
-22 | File | `/cas/logout` | Medium
-23 | File | `/category.php` | High
-24 | File | `/cgi-bin/system_mgr.cgi` | High
-25 | File | `/chaincity/user/ticket/create` | High
-26 | File | `/collection/all` | High
-27 | File | `/contactform/contactform.php` | High
-28 | File | `/Controller/Ajaxfileupload.ashx` | High
-29 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
-30 | File | `/dcim/rack-roles/` | High
-31 | File | `/DXR.axd` | Medium
-32 | File | `/ecommerce/support_ticket` | High
-33 | File | `/ecrire/exec/puce_statut.php` | High
-34 | File | `/files/` | Low
-35 | File | `/forum/away.php` | High
-36 | File | `/friends/ajax_invite` | High
-37 | File | `/goform/WifiGuestSet` | High
-38 | File | `/home/filter_listings` | High
-39 | File | `/inc/topBarNav.php` | High
-40 | File | `/index.php` | Medium
+6 | File | `/admin/index2.html` | High
+7 | File | `/admin/modal_add_product.php` | High
+8 | File | `/admin/positions_add.php` | High
+9 | File | `/admin/user/manage_user.php` | High
+10 | File | `/ajax.php?action=save_company` | High
+11 | File | `/ajax.php?action=save_user` | High
+12 | File | `/api/baskets/{name}` | High
+13 | File | `/api/database` | High
+14 | File | `/app/index/controller/Common.php` | High
+15 | File | `/App_Resource/UEditor/server/upload.aspx` | High
+16 | File | `/authenticationendpoint/login.do` | High
+17 | File | `/backup.pl` | Medium
+18 | File | `/bitrix/admin/ldap_server_edit.php` | High
+19 | File | `/c/PluginsController.php` | High
+20 | File | `/cas/logout` | Medium
+21 | File | `/category.php` | High
+22 | File | `/chaincity/user/ticket/create` | High
+23 | File | `/collection/all` | High
+24 | File | `/contactform/contactform.php` | High
+25 | File | `/Controller/Ajaxfileupload.ashx` | High
+26 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
+27 | File | `/dcim/rack-roles/` | High
+28 | File | `/DXR.axd` | Medium
+29 | File | `/ecommerce/support_ticket` | High
+30 | File | `/ecrire/exec/puce_statut.php` | High
+31 | File | `/files/` | Low
+32 | File | `/forms/doLogin` | High
+33 | File | `/forum/away.php` | High
+34 | File | `/friends/ajax_invite` | High
+35 | File | `/goform/WifiGuestSet` | High
+36 | File | `/home/filter_listings` | High
+37 | File | `/index.php` | Medium
+38 | File | `/index.php/client/message/message_read/xxxxxxxx[random-msg-hash]` | High
+39 | File | `/index.php?app=main&func=passport&action=login` | High
+40 | File | `/index.php?s=/article/ApiAdminArticle/itemAdd` | High
 41 | ... | ... | ...
 
-There are 351 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 353 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -207,4 +207,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -53,58 +53,62 @@ ID | Type | Indicator | Confidence
 1 | File | `/academy/home/courses` | High
 2 | File | `/action/import_https_cert_file/` | High
 3 | File | `/admin` | Low
-4 | File | `/admin/?page=user/manage_user` | High
-5 | File | `/admin/contacts/organizations/edit/2` | High
-6 | File | `/admin/course.php` | High
-7 | File | `/admin/curriculum/view_curriculum.php` | High
-8 | File | `/Admin/dashboard.php` | High
-9 | File | `/admin/edit-accepted-appointment.php` | High
-10 | File | `/admin/edit.php` | High
-11 | File | `/admin/edit_category.php` | High
-12 | File | `/admin/edit_subject.php` | High
-13 | File | `/admin/list_addr_fwresource_ip.php` | High
-14 | File | `/admin/modal_add_product.php` | High
-15 | File | `/admin/order.php` | High
-16 | File | `/admin/sales/view_details.php` | High
-17 | File | `/admin/service.php` | High
-18 | File | `/admin/test_status.php` | High
-19 | File | `/admin/theme-edit.php` | High
-20 | File | `/ample/app/ajax/member_data.php` | High
-21 | File | `/api/v2/open/tablesInfo` | High
-22 | File | `/api/wechat/app_auth` | High
-23 | File | `/asms/classes/Master.php?f=delete_img` | High
-24 | File | `/catcompany.php` | High
-25 | File | `/classes/Master.php?f=delete_appointment` | High
-26 | File | `/classes/Master.php?f=save_item` | High
-27 | File | `/classes/Users.php` | High
-28 | File | `/cms/notify` | Medium
-29 | File | `/depotHead/list` | High
-30 | File | `/device/signin` | High
-31 | File | `/fusiondirectory/index.php` | High
-32 | File | `/general/ipanel/menu_code.php?MENU_TYPE=FAV` | High
-33 | File | `/goform/addressNat` | High
-34 | File | `/goform/RGFirewallEL` | High
-35 | File | `/goform/WifiBasicSet` | High
-36 | File | `/h/` | Low
-37 | File | `/HNAP1` | Low
-38 | File | `/hslist` | Low
-39 | File | `/importexport.php` | High
-40 | File | `/include/dialog/select_templets_post.php` | High
-41 | File | `/index.php/sysmanage/Login/login_auth/` | High
-42 | File | `/index.php?page=member` | High
-43 | File | `/js/player/dmplayer/dmku/index.php` | High
-44 | File | `/lists/admin/` | High
-45 | File | `/log/decodmail.php` | High
-46 | File | `/login/index.php` | High
-47 | File | `/multi-vendor-shopping-script/product-list.php` | High
-48 | File | `/myAccount` | Medium
-49 | File | `/note/index/delete` | High
-50 | File | `/operations/travellers.php` | High
-51 | File | `/patient/appointment.php` | High
-52 | File | `/paysystem/datatable.php` | High
-53 | ... | ... | ...
+4 | File | `/admin/admin_login_process.php` | High
+5 | File | `/admin/borrow_add.php` | High
+6 | File | `/admin/contacts/organizations/edit/2` | High
+7 | File | `/admin/course.php` | High
+8 | File | `/admin/curriculum/view_curriculum.php` | High
+9 | File | `/Admin/dashboard.php` | High
+10 | File | `/admin/edit-accepted-appointment.php` | High
+11 | File | `/admin/edit.php` | High
+12 | File | `/admin/edit_category.php` | High
+13 | File | `/admin/edit_subject.php` | High
+14 | File | `/admin/index.php?act=reset_admin_psw` | High
+15 | File | `/admin/list_addr_fwresource_ip.php` | High
+16 | File | `/admin/manage-users.php` | High
+17 | File | `/admin/modal_add_product.php` | High
+18 | File | `/admin/order.php` | High
+19 | File | `/admin/pages/edit_chicken.php` | High
+20 | File | `/admin/pages/subjects.php` | High
+21 | File | `/admin/sales/view_details.php` | High
+22 | File | `/admin/service.php` | High
+23 | File | `/admin/test_status.php` | High
+24 | File | `/admin/theme-edit.php` | High
+25 | File | `/ample/app/ajax/member_data.php` | High
+26 | File | `/api/wechat/app_auth` | High
+27 | File | `/asms/classes/Master.php?f=delete_img` | High
+28 | File | `/catcompany.php` | High
+29 | File | `/cgi-bin/cstecgi.cgi` | High
+30 | File | `/classes/Master.php?f=delete_appointment` | High
+31 | File | `/classes/Master.php?f=save_item` | High
+32 | File | `/classes/Users.php` | High
+33 | File | `/cms/notify` | Medium
+34 | File | `/depotHead/list` | High
+35 | File | `/device/signin` | High
+36 | File | `/fusiondirectory/index.php` | High
+37 | File | `/general/ipanel/menu_code.php?MENU_TYPE=FAV` | High
+38 | File | `/goform/addressNat` | High
+39 | File | `/goform/RGFirewallEL` | High
+40 | File | `/goform/SetOnlineDevName` | High
+41 | File | `/goform/WifiBasicSet` | High
+42 | File | `/h/` | Low
+43 | File | `/HNAP1` | Low
+44 | File | `/hslist` | Low
+45 | File | `/importexport.php` | High
+46 | File | `/include/dialog/select_templets_post.php` | High
+47 | File | `/index.php/sysmanage/Login/login_auth/` | High
+48 | File | `/index.php?page=member` | High
+49 | File | `/js/player/dmplayer/dmku/index.php` | High
+50 | File | `/lists/admin/` | High
+51 | File | `/log/decodmail.php` | High
+52 | File | `/login/index.php` | High
+53 | File | `/LoginRegistration.php` | High
+54 | File | `/multi-vendor-shopping-script/product-list.php` | High
+55 | File | `/myAccount` | Medium
+56 | File | `/note/index/delete` | High
+57 | ... | ... | ...
 
-There are 458 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 494 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -126,4 +130,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

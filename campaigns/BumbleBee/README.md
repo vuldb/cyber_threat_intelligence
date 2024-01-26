@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with BumbleBee:
 
+* [CN](https://vuldb.com/?country.cn)
 * [VN](https://vuldb.com/?country.vn)
 * [US](https://vuldb.com/?country.us)
-* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 7 more country items available. Please use our online service to access the data.
+There are 3 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -403,7 +403,7 @@ ID | IP address | Hostname | Actor | Confidence
 367 | [48.165.175.199](https://vuldb.com/?ip.48.165.175.199) | - | [Bumblebee](https://vuldb.com/?actor.bumblebee) | High
 368 | ... | ... | ... | ...
 
-There are 1467 more IOC items available. Please use our online service to access the data.
+There are 1468 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -411,14 +411,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-29, CWE-425 | Pathname Traversal | High
-2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+1 | T1006 | CWE-22, CWE-425 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 14 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -426,40 +425,70 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/.env` | Low
-2 | File | `/accounts/password_change/` | High
-3 | File | `/act/ActDao.xml` | High
-4 | File | `/api/baskets/{name}` | High
-5 | File | `/api/upload.php` | High
-6 | File | `/api /v3/auth` | High
-7 | File | `/b2b-supermarket/shopping-cart` | High
-8 | File | `/bin/login` | Medium
-9 | File | `/bsms_ci/index.php` | High
-10 | File | `/calendar/minimizer/index.php` | High
-11 | File | `/catalog/compare` | High
+1 | File | `/admin/action/new-father.php` | High
+2 | File | `/admin/admin.php` | High
+3 | File | `/admin/edit_teacher.php` | High
+4 | File | `/admin/fields/manage_field.php` | High
+5 | File | `/admin_route/dec_service_credits.php` | High
+6 | File | `/admin_route/inc_service_credits.php` | High
+7 | File | `/api/sys/set_passwd` | High
+8 | File | `/app/api/controller/default/Sqlite.php` | High
+9 | File | `/arch/x86/mm/cpu_entry_area.c` | High
+10 | File | `/aux` | Low
+11 | File | `/bin/boa` | Medium
 12 | File | `/cgi-bin/cstecgi.cgi` | High
-13 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-14 | File | `/cgi-bin/downloadFile.cgi` | High
-15 | File | `/cgi-bin/kerbynet` | High
-16 | File | `/cgi-bin/wlogin.cgi` | High
-17 | File | `/clinic/disease_symptoms_view.php` | High
-18 | File | `/DesignTools/CssEditor.aspx` | High
-19 | File | `/DXR.axd` | Medium
-20 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-21 | File | `/forum/away.php` | High
-22 | File | `/geoserver/gwc/rest.html` | High
-23 | File | `/HNAP1/` | Low
-24 | File | `/importexport.php` | High
-25 | File | `/index.php/client/message/message_read/xxxxxxxx[random-msg-hash]` | High
-26 | File | `/login` | Low
-27 | File | `/mhds/clinic/view_details.php` | High
-28 | File | `/modals/class_form.php` | High
-29 | File | `/oauth/idp/.well-known/openid-configuration` | High
-30 | File | `/proc/#####/fd/3` | High
-31 | File | `/search.php` | Medium
-32 | ... | ... | ...
+13 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+14 | File | `/dayrui/My/Config/Install.txt` | High
+15 | File | `/forum/away.php` | High
+16 | File | `/include/lang-en.php` | High
+17 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+18 | File | `/php/ping.php` | High
+19 | File | `/showfile.php` | High
+20 | File | `/src/Illuminate/Laravel.php` | High
+21 | File | `/status/` | Medium
+22 | File | `/student/bookdetails.php` | High
+23 | File | `/sysmanage/updateos.php` | High
+24 | File | `/tmp/ppd.trace` | High
+25 | File | `/usr/bin/write` | High
+26 | File | `/var/spool/fax/outgoing/.last_run` | High
+27 | File | `3G/UMTS` | Low
+28 | File | `400.htm/500.htm` | High
+29 | File | `abitwhizzy.php` | High
+30 | File | `acc.php` | Low
+31 | File | `Account.asp` | Medium
+32 | File | `accton` | Low
+33 | File | `adclick.php` | Medium
+34 | File | `add-category.php` | High
+35 | File | `addressbook.update.php` | High
+36 | File | `add_comment.php` | High
+37 | File | `add_post.php3` | High
+38 | File | `admin.php` | Medium
+39 | File | `admin/action/update_mother.php` | High
+40 | File | `admin/auth.php` | High
+41 | File | `admin/contact.php` | High
+42 | File | `admin/index.php` | High
+43 | File | `admin/patient-search.php` | High
+44 | File | `adminpanel/admin/facebox_modal/updateCourse.php` | High
+45 | File | `apachectl` | Medium
+46 | File | `apexec.pl` | Medium
+47 | File | `ArchivesMapper.xml` | High
+48 | File | `assets/sources/instagram.php` | High
+49 | File | `attendance_report.php` | High
+50 | File | `avatar.php` | Medium
+51 | File | `bb-includes/formatting-functions.php` | High
+52 | File | `BBStore.php` | Medium
+53 | File | `board.php` | Medium
+54 | File | `books.php` | Medium
+55 | File | `bp_ncom.php` | Medium
+56 | File | `brokenlink.php` | High
+57 | File | `browse.php` | Medium
+58 | File | `cal2.jsp` | Medium
+59 | File | `calendar.php` | Medium
+60 | File | `category.php` | Medium
+61 | File | `categos.php` | Medium
+62 | ... | ... | ...
 
-There are 270 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 544 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -506,6 +535,7 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://search.censys.io/hosts/216.48.179.106
 * https://search.censys.io/hosts/216.48.179.170
 * https://search.censys.io/hosts/216.48.179.174
+* https://search.censys.io/hosts/216.48.180.70
 * https://search.censys.io/hosts/216.48.181.201
 * https://search.censys.io/hosts/216.48.182.251
 * https://search.censys.io/hosts/216.48.183.41
@@ -540,4 +570,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -42,9 +42,10 @@ ID | IP address | Hostname | Campaign | Confidence
 11 | [27.102.127.240](https://vuldb.com/?ip.27.102.127.240) | - | - | High
 12 | [27.102.128.169](https://vuldb.com/?ip.27.102.128.169) | - | - | High
 13 | [27.255.79.204](https://vuldb.com/?ip.27.255.79.204) | - | - | High
-14 | ... | ... | ... | ...
+14 | [27.255.81.71](https://vuldb.com/?ip.27.255.81.71) | - | - | High
+15 | ... | ... | ... | ...
 
-There are 51 more IOC items available. Please use our online service to access the data.
+There are 55 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -74,48 +75,48 @@ ID | Type | Indicator | Confidence
 5 | File | `/admin/categories/manage_category.php` | High
 6 | File | `/admin/categories/view_category.php` | High
 7 | File | `/admin/index.php` | High
-8 | File | `/admin/inquiries/view_inquiry.php` | High
-9 | File | `/admin/manage_academic.php` | High
-10 | File | `/admin/orders/update_status.php` | High
-11 | File | `/admin/products/manage_product.php` | High
-12 | File | `/admin/products/view_product.php` | High
-13 | File | `/admin/reminders/manage_reminder.php` | High
-14 | File | `/admin/sales/manage_sale.php` | High
-15 | File | `/admin/sales/view_details.php` | High
-16 | File | `/admin/services/manage_service.php` | High
-17 | File | `/admin/user/manage_user.php` | High
-18 | File | `/api/` | Low
-19 | File | `/api/upload` | Medium
-20 | File | `/assets/something/services/AppModule.class` | High
-21 | File | `/bin/false` | Medium
-22 | File | `/blog` | Low
-23 | File | `/cgi-bin/ExportLogs.sh` | High
-24 | File | `/cgi-bin/luci/api/wireless` | High
-25 | File | `/cgi-bin/webproc` | High
-26 | File | `/classes/Master.php?f=delete_inquiry` | High
-27 | File | `/classes/Master.php?f=save_service` | High
-28 | File | `/classes/Users.php` | High
-29 | File | `/editsettings` | High
-30 | File | `/etc/postfix/sender_login` | High
-31 | File | `/export` | Low
-32 | File | `/forgetpassword.php` | High
-33 | File | `/forum/away.php` | High
-34 | File | `/function/login.php` | High
-35 | File | `/hrm/controller/employee.php` | High
-36 | File | `/images/browserslide.jpg` | High
-37 | File | `/inc/HTTPClient.php` | High
-38 | File | `/includes/lib/get.php` | High
-39 | File | `/lists/index.php` | High
-40 | File | `/login` | Low
-41 | File | `/main?cmd=invalid_browser` | High
-42 | File | `/manager?action=getlogcat` | High
-43 | File | `/mgmt/tm/util/bash` | High
-44 | File | `/mkshop/Men/profile.php` | High
-45 | File | `/mkshope/login.php` | High
-46 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+8 | File | `/admin/index2.html` | High
+9 | File | `/admin/inquiries/view_inquiry.php` | High
+10 | File | `/admin/manage_academic.php` | High
+11 | File | `/admin/orders/update_status.php` | High
+12 | File | `/admin/products/manage_product.php` | High
+13 | File | `/admin/products/view_product.php` | High
+14 | File | `/admin/reminders/manage_reminder.php` | High
+15 | File | `/admin/sales/manage_sale.php` | High
+16 | File | `/admin/sales/view_details.php` | High
+17 | File | `/admin/services/manage_service.php` | High
+18 | File | `/admin/user/manage_user.php` | High
+19 | File | `/api/` | Low
+20 | File | `/api/upload` | Medium
+21 | File | `/assets/something/services/AppModule.class` | High
+22 | File | `/bin/false` | Medium
+23 | File | `/blog` | Low
+24 | File | `/cgi-bin/ExportLogs.sh` | High
+25 | File | `/cgi-bin/luci/api/wireless` | High
+26 | File | `/cgi-bin/webproc` | High
+27 | File | `/classes/Master.php?f=delete_inquiry` | High
+28 | File | `/classes/Master.php?f=save_service` | High
+29 | File | `/classes/Users.php` | High
+30 | File | `/debug/pprof` | Medium
+31 | File | `/editsettings` | High
+32 | File | `/etc/postfix/sender_login` | High
+33 | File | `/export` | Low
+34 | File | `/forgetpassword.php` | High
+35 | File | `/forum/away.php` | High
+36 | File | `/function/login.php` | High
+37 | File | `/hrm/controller/employee.php` | High
+38 | File | `/images/browserslide.jpg` | High
+39 | File | `/inc/HTTPClient.php` | High
+40 | File | `/includes/lib/get.php` | High
+41 | File | `/language/lang` | High
+42 | File | `/lists/index.php` | High
+43 | File | `/login` | Low
+44 | File | `/main?cmd=invalid_browser` | High
+45 | File | `/manager?action=getlogcat` | High
+46 | File | `/mgmt/tm/util/bash` | High
 47 | ... | ... | ...
 
-There are 407 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 408 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -124,6 +125,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://asec.ahnlab.com/en/30532/
 * https://asec.ahnlab.com/en/57873/
 * https://asec.ahnlab.com/en/59590/
+* https://asec.ahnlab.com/en/60054/
 * https://blog.alyac.co.kr/2234
 * https://blog.alyac.co.kr/4892
 * https://blog.malwarebytes.com/threat-analysis/2021/06/kimsuky-apt-continues-to-target-south-korean-government-using-appleseed-backdoor/
@@ -145,4 +147,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

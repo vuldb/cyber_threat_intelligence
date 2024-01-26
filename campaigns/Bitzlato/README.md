@@ -158,24 +158,24 @@ ID | Type | Indicator | Confidence
 27 | File | `/Content/Template/root/reverse-shell.aspx` | High
 28 | File | `/context/%2e/WEB-INF/web.xml` | High
 29 | File | `/dashboard/add-blog.php` | High
-30 | File | `/debug/pprof` | Medium
-31 | File | `/ecshop/admin/template.php` | High
-32 | File | `/env` | Low
-33 | File | `/etc/hosts` | Medium
-34 | File | `/etc/openshift/server_priv.pem` | High
-35 | File | `/forum/away.php` | High
-36 | File | `/goform/setmac` | High
-37 | File | `/goform/wizard_end` | High
-38 | File | `/group1/uploa` | High
-39 | File | `/index.php` | Medium
-40 | File | `/manage-apartment.php` | High
-41 | File | `/medicines/profile.php` | High
-42 | File | `/mkshop/Men/profile.php` | High
-43 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-44 | File | `/Noxen-master/users.php` | High
+30 | File | `/data/remove` | Medium
+31 | File | `/debug/pprof` | Medium
+32 | File | `/ecshop/admin/template.php` | High
+33 | File | `/env` | Low
+34 | File | `/etc/hosts` | Medium
+35 | File | `/etc/openshift/server_priv.pem` | High
+36 | File | `/forum/away.php` | High
+37 | File | `/goform/setmac` | High
+38 | File | `/goform/wizard_end` | High
+39 | File | `/group1/uploa` | High
+40 | File | `/index.php` | Medium
+41 | File | `/manage-apartment.php` | High
+42 | File | `/medicines/profile.php` | High
+43 | File | `/mkshop/Men/profile.php` | High
+44 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
 45 | ... | ... | ...
 
-There are 389 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 392 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -192,4 +192,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

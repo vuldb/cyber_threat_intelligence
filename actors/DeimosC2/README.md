@@ -22,7 +22,7 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [5.181.156.137](https://vuldb.com/?ip.5.181.156.137) | 5-181-156-137.mivocloud.com | - | High
 4 | ... | ... | ... | ...
 
-There are 4 more IOC items available. Please use our online service to access the data.
+There are 6 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -35,7 +35,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1202 | CWE-77 | Command Injection | High
 4 | ... | ... | ... | ...
 
-There are 3 more TTP items available. Please use our online service to access the data.
+There are 4 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -45,10 +45,10 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `Ant_Check.php` | High
 2 | File | `cgi-bin/MANGA/admin.cgi` | High
-3 | File | `fs/io-wq.c` | Medium
+3 | File | `download.rsp` | Medium
 4 | ... | ... | ...
 
-There are 10 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 12 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -58,6 +58,8 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/8.218.170.109
 * https://search.censys.io/hosts/34.235.18.0
 * https://search.censys.io/hosts/124.156.173.75
+* https://search.censys.io/hosts/137.175.19.209
+* https://search.censys.io/hosts/207.174.28.42
 * https://search.censys.io/search?resource=hosts&sort=RELEVANCE&per_page=25&virtual_hosts=EXCLUDE&q=services.software.product%3A+DeimosC2+and+not+labels%3A+tarpit
 
 ## Literature
@@ -69,4 +71,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

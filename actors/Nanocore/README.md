@@ -85,50 +85,50 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/api/sys/set_passwd` | High
-3 | File | `/bin/boa` | Medium
-4 | File | `/cgi-bin/wapopen` | High
-5 | File | `/csms/?page=contact_us` | High
-6 | File | `/dev/urandom` | Medium
-7 | File | `/etc/ajenti/config.yml` | High
-8 | File | `/etc/quantum/quantum.conf` | High
-9 | File | `/exec/` | Low
-10 | File | `/forum/away.php` | High
-11 | File | `/getcfg.php` | Medium
-12 | File | `/goform/telnet` | High
-13 | File | `/HNAP1` | Low
-14 | File | `/mgmt/tm/util/bash` | High
-15 | File | `/modules/profile/index.php` | High
-16 | File | `/modules/projects/vw_files.php` | High
-17 | File | `/plain` | Low
-18 | File | `/rom-0` | Low
-19 | File | `/staff/tools/custom-fields` | High
-20 | File | `/tmp/phpglibccheck` | High
-21 | File | `/uncpath/` | Medium
-22 | File | `/upload` | Low
-23 | File | `/var/tmp/sess_*` | High
-24 | File | `/xyhai.php?s=/Auth/editUser` | High
-25 | File | `/_next` | Low
-26 | File | `action.php` | Medium
-27 | File | `actionHandler/ajax_managed_services.php` | High
-28 | File | `actionphp/download.File.php` | High
-29 | File | `add_comment.php` | High
-30 | File | `admin/admin.php` | High
-31 | File | `admin/admin.shtml` | High
-32 | File | `admin/content.php` | High
-33 | File | `admin/index.php?id=users/action=edit/user_id=1` | High
-34 | File | `admin_gallery.php3` | High
-35 | File | `affich.php` | Medium
-36 | File | `agent/Core/Controller/SendRequest.cpp` | High
-37 | File | `ajax-actions.php` | High
-38 | File | `ajax/telemetry.php` | High
-39 | File | `akeyActivationLogin.do` | High
-40 | File | `album_portal.php` | High
-41 | File | `alipay/alipayapi.php` | High
-42 | File | `apache-auth.conf` | High
+2 | File | `/api/admin/system/store/order/list` | High
+3 | File | `/api/sys/set_passwd` | High
+4 | File | `/bin/boa` | Medium
+5 | File | `/cgi-bin/wapopen` | High
+6 | File | `/cgi-bin/wlogin.cgi` | High
+7 | File | `/csms/?page=contact_us` | High
+8 | File | `/dev/urandom` | Medium
+9 | File | `/etc/ajenti/config.yml` | High
+10 | File | `/etc/quantum/quantum.conf` | High
+11 | File | `/exec/` | Low
+12 | File | `/forum/away.php` | High
+13 | File | `/getcfg.php` | Medium
+14 | File | `/goform/telnet` | High
+15 | File | `/HNAP1` | Low
+16 | File | `/mgmt/tm/util/bash` | High
+17 | File | `/modules/profile/index.php` | High
+18 | File | `/modules/projects/vw_files.php` | High
+19 | File | `/plain` | Low
+20 | File | `/rom-0` | Low
+21 | File | `/staff/tools/custom-fields` | High
+22 | File | `/tmp/phpglibccheck` | High
+23 | File | `/uncpath/` | Medium
+24 | File | `/upload` | Low
+25 | File | `/var/tmp/sess_*` | High
+26 | File | `/xyhai.php?s=/Auth/editUser` | High
+27 | File | `/_next` | Low
+28 | File | `action.php` | Medium
+29 | File | `actionHandler/ajax_managed_services.php` | High
+30 | File | `actionphp/download.File.php` | High
+31 | File | `add_comment.php` | High
+32 | File | `admin/admin.php` | High
+33 | File | `admin/admin.shtml` | High
+34 | File | `admin/content.php` | High
+35 | File | `admin/index.php?id=users/action=edit/user_id=1` | High
+36 | File | `admin_gallery.php3` | High
+37 | File | `affich.php` | Medium
+38 | File | `agent/Core/Controller/SendRequest.cpp` | High
+39 | File | `ajax-actions.php` | High
+40 | File | `ajax/telemetry.php` | High
+41 | File | `akeyActivationLogin.do` | High
+42 | File | `album_portal.php` | High
 43 | ... | ... | ...
 
-There are 367 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 375 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -167,4 +167,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

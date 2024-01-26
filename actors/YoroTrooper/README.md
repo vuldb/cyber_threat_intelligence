@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 6 more country items available. Please use our online service to access the data.
+There are 8 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -25,9 +25,10 @@ ID | IP address | Hostname | Campaign | Confidence
 2 | [45.61.136.175](https://vuldb.com/?ip.45.61.136.175) | - | - | High
 3 | [45.61.138.243](https://vuldb.com/?ip.45.61.138.243) | - | - | High
 4 | [45.227.252.247](https://vuldb.com/?ip.45.227.252.247) | - | - | High
-5 | ... | ... | ... | ...
+5 | [46.161.27.151](https://vuldb.com/?ip.46.161.27.151) | - | - | High
+6 | ... | ... | ... | ...
 
-There are 15 more IOC items available. Please use our online service to access the data.
+There are 19 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -38,10 +39,11 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 15 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -50,23 +52,50 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/index2.html` | High
-2 | File | `/devices/ProcessRequest.do` | High
-3 | File | `/jeecg-boot/sys/common/upload` | High
-4 | File | `/thruk/#cgi-bin/extinfo.cgi?type=2` | High
-5 | File | `/uncpath/` | Medium
-6 | File | `/usr/sbin/nagios` | High
-7 | File | `/web/entry/en/address/adrsSetUserWizard.cgi` | High
-8 | File | `/zm/index.php` | High
-9 | File | `admin/admin.php` | High
-10 | ... | ... | ...
+2 | File | `/cgi-bin/system_mgr.cgi` | High
+3 | File | `/devices/ProcessRequest.do` | High
+4 | File | `/dus/shopliste/index.php` | High
+5 | File | `/etc/path` | Medium
+6 | File | `/fax/fax_send.php` | High
+7 | File | `/hotel.php` | Medium
+8 | File | `/jeecg-boot/sys/common/upload` | High
+9 | File | `/lam/tmp/` | Medium
+10 | File | `/nagiosql/admin/checkcommands.php` | High
+11 | File | `/thruk/#cgi-bin/extinfo.cgi?type=2` | High
+12 | File | `/tmp` | Low
+13 | File | `/usr/5bin/su` | Medium
+14 | File | `/usr/bin/mail` | High
+15 | File | `/var/dt/` | Medium
+16 | File | `/web/entry/en/address/adrsSetUserWizard.cgi` | High
+17 | File | `/zm/index.php` | High
+18 | File | `00.jsp` | Low
+19 | File | `add_edit_download.asp` | High
+20 | File | `admin.asp` | Medium
+21 | File | `admin.php` | Medium
+22 | File | `admin/` | Low
+23 | File | `admin/admin.php` | High
+24 | File | `admin/manage-comments.php` | High
+25 | File | `admin/moduleinterface.php` | High
+26 | File | `AdminViewError/AdminAddadmin` | High
+27 | File | `agentdisplay.php` | High
+28 | File | `and/or` | Low
+29 | File | `auction.cgi` | Medium
+30 | File | `authent.php4` | Medium
+31 | File | `autologin.jsp` | High
+32 | File | `axspawn.c` | Medium
+33 | File | `base_ag_main.php` | High
+34 | File | `base_qry_main.php` | High
+35 | File | `bigsam_guestbook.php` | High
+36 | ... | ... | ...
 
-There are 77 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 304 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://github.com/Cisco-Talos/IOCs/blob/main/2023/03/YoroTrooper.txt
+* https://github.com/Cisco-Talos/IOCs/blob/main/2023/10/attributing-yorotrooper.txt
 
 ## Literature
 
@@ -77,4 +106,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

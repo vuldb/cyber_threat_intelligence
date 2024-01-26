@@ -218,15 +218,15 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-425 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 7 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 25 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -237,48 +237,49 @@ ID | Type | Indicator | Confidence
 1 | File | `%SYSTEMDRIVE%\node_modules\.bin\wmic.exe` | High
 2 | File | `/admin/controller/JobLogController.java` | High
 3 | File | `/admin/save.php` | High
-4 | File | `/admin/sys_sql_query.php` | High
-5 | File | `/api/baskets/{name}` | High
-6 | File | `/api/download` | High
-7 | File | `/api/sys/login` | High
-8 | File | `/api/sys/set_passwd` | High
+4 | File | `/api/baskets/{name}` | High
+5 | File | `/api/download` | High
+6 | File | `/api/sys/login` | High
+7 | File | `/api/sys/set_passwd` | High
+8 | File | `/api/trackedEntityInstances` | High
 9 | File | `/api/v1/alerts` | High
 10 | File | `/api/v1/terminal/sessions/?limit=1` | High
-11 | File | `/bitrix/admin/ldap_server_edit.php` | High
-12 | File | `/booking/show_bookings/` | High
+11 | File | `/aux` | Low
+12 | File | `/b2b-supermarket/shopping-cart` | High
 13 | File | `/category.php` | High
 14 | File | `/categorypage.php` | High
 15 | File | `/cgi-bin/luci/api/wireless` | High
 16 | File | `/cgi-bin/vitogate.cgi` | High
-17 | File | `/changePassword` | High
-18 | File | `/company/store` | High
+17 | File | `/change-language/de_DE` | High
+18 | File | `/changePassword` | High
 19 | File | `/Content/Template/root/reverse-shell.aspx` | High
-20 | File | `/Controller/Ajaxfileupload.ashx` | High
-21 | File | `/core/conditions/AbstractWrapper.java` | High
-22 | File | `/dashboard/add-blog.php` | High
+20 | File | `/core/conditions/AbstractWrapper.java` | High
+21 | File | `/dashboard/add-blog.php` | High
+22 | File | `/data/remove` | Medium
 23 | File | `/debug/pprof` | Medium
-24 | File | `/ecshop/admin/template.php` | High
-25 | File | `/etc/passwd` | Medium
+24 | File | `/dist/index.js` | High
+25 | File | `/ecshop/admin/template.php` | High
 26 | File | `/fcgi/scrut_fcgi.fcgi` | High
 27 | File | `/forum/away.php` | High
 28 | File | `/geoserver/gwc/rest.html` | High
 29 | File | `/goform/formSysCmd` | High
-30 | File | `/group1/uploa` | High
-31 | File | `/h/` | Low
-32 | File | `/HNAP1` | Low
-33 | File | `/jeecg-boot/sys/common/upload` | High
-34 | File | `/oauth/idp/.well-known/openid-configuration` | High
-35 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
-36 | File | `/proxy` | Low
-37 | File | `/recipe-result` | High
-38 | File | `/register.do` | Medium
-39 | File | `/resources//../` | High
-40 | File | `/RPS2019Service/status.html` | High
-41 | File | `/Service/ImageStationDataService.asmx` | High
-42 | File | `/setting` | Medium
-43 | ... | ... | ...
+30 | File | `/HNAP1` | Low
+31 | File | `/hosts/firewall/ip` | High
+32 | File | `/index.php` | Medium
+33 | File | `/index.php/ccm/system/file/upload` | High
+34 | File | `/jeecg-boot/sys/common/upload` | High
+35 | File | `/log/decodmail.php` | High
+36 | File | `/oauth/idp/.well-known/openid-configuration` | High
+37 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
+38 | File | `/php/ping.php` | High
+39 | File | `/proxy` | Low
+40 | File | `/register.do` | Medium
+41 | File | `/RPS2019Service/status.html` | High
+42 | File | `/s/index.php?action=statistics` | High
+43 | File | `/setting` | Medium
+44 | ... | ... | ...
 
-There are 375 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 381 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -297,4 +298,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

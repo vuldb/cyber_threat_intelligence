@@ -46,7 +46,7 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -71,40 +71,41 @@ ID | Type | Indicator | Confidence
 11 | File | `/categorypage.php` | High
 12 | File | `/cgi-bin/luci/api/wireless` | High
 13 | File | `/cgi-bin/vitogate.cgi` | High
-14 | File | `/company/store` | High
-15 | File | `/Content/Template/root/reverse-shell.aspx` | High
-16 | File | `/Controller/Ajaxfileupload.ashx` | High
-17 | File | `/core/conditions/AbstractWrapper.java` | High
-18 | File | `/debug/pprof` | Medium
-19 | File | `/Duty/AjaxHandle/UploadFloodPlanFileUpdate.ashx` | High
-20 | File | `/etc/passwd` | Medium
-21 | File | `/fcgi/scrut_fcgi.fcgi` | High
-22 | File | `/forum/away.php` | High
-23 | File | `/geoserver/gwc/rest.html` | High
-24 | File | `/goform/formSysCmd` | High
-25 | File | `/h/` | Low
-26 | File | `/HNAP1` | Low
-27 | File | `/hosts/firewall/ip` | High
-28 | File | `/index.php/ccm/system/file/upload` | High
-29 | File | `/index.php?app=main&func=passport&action=login` | High
-30 | File | `/index.php?page=category_list` | High
+14 | File | `/change-language/de_DE` | High
+15 | File | `/company/store` | High
+16 | File | `/Content/Template/root/reverse-shell.aspx` | High
+17 | File | `/Controller/Ajaxfileupload.ashx` | High
+18 | File | `/core/conditions/AbstractWrapper.java` | High
+19 | File | `/debug/pprof` | Medium
+20 | File | `/dist/index.js` | High
+21 | File | `/Duty/AjaxHandle/UploadFloodPlanFileUpdate.ashx` | High
+22 | File | `/etc/passwd` | Medium
+23 | File | `/fcgi/scrut_fcgi.fcgi` | High
+24 | File | `/forum/away.php` | High
+25 | File | `/geoserver/gwc/rest.html` | High
+26 | File | `/goform/formSysCmd` | High
+27 | File | `/h/` | Low
+28 | File | `/HNAP1` | Low
+29 | File | `/hosts/firewall/ip` | High
+30 | File | `/index.php/ccm/system/file/upload` | High
 31 | File | `/jeecg-boot/sys/common/upload` | High
-32 | File | `/jobinfo/` | Medium
+32 | File | `/log/decodmail.php` | High
 33 | File | `/oauth/idp/.well-known/openid-configuration` | High
 34 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
 35 | File | `/php/ping.php` | High
-36 | File | `/PreviewHandler.ashx` | High
-37 | File | `/proxy` | Low
-38 | File | `/recipe-result` | High
-39 | File | `/register.do` | Medium
-40 | File | `/RPS2019Service/status.html` | High
+36 | File | `/proxy` | Low
+37 | File | `/recipe-result` | High
+38 | File | `/register.do` | Medium
+39 | File | `/RPS2019Service/status.html` | High
+40 | File | `/s/index.php?action=statistics` | High
 41 | File | `/Service/ImageStationDataService.asmx` | High
 42 | File | `/setting` | Medium
 43 | File | `/sicweb-ajax/tmproot/` | High
 44 | File | `/spip.php` | Medium
-45 | ... | ... | ...
+45 | File | `/student/bookdetails.php` | High
+46 | ... | ... | ...
 
-There are 393 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 394 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -9,18 +9,19 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 The following _campaigns_ are known and can be associated with Kinsing:
 
 * CVE-2023-32315
+* CVE-2023-46604
 * Log4Shell
 
 ## Countries
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Kinsing:
 
-* [US](https://vuldb.com/?country.us)
 * [LA](https://vuldb.com/?country.la)
+* [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 17 more country items available. Please use our online service to access the data.
+There are 8 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -47,9 +48,12 @@ ID | IP address | Hostname | Campaign | Confidence
 17 | [45.137.155.55](https://vuldb.com/?ip.45.137.155.55) | vm360194.pq.hosting | Log4Shell | High
 18 | [45.142.214.48](https://vuldb.com/?ip.45.142.214.48) | server.com | Log4Shell | High
 19 | [45.147.201.186](https://vuldb.com/?ip.45.147.201.186) | - | - | High
-20 | ... | ... | ... | ...
+20 | [45.153.231.22](https://vuldb.com/?ip.45.153.231.22) | electacasper.example.com | - | High
+21 | [45.156.23.210](https://vuldb.com/?ip.45.156.23.210) | - | Log4Shell | High
+22 | [46.17.43.156](https://vuldb.com/?ip.46.17.43.156) | - | CVE-2023-46604 | High
+23 | ... | ... | ... | ...
 
-There are 75 more IOC items available. Please use our online service to access the data.
+There are 89 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -57,10 +61,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
@@ -71,65 +75,37 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/add_post_sql.php` | High
-2 | File | `/admin/contenttemp` | High
-3 | File | `/admin/dl_sendmail.php` | High
-4 | File | `/admin/login.php` | High
-5 | File | `/admin/store.php` | High
-6 | File | `/api/baskets/{name}` | High
-7 | File | `/api/trackedEntityInstances` | High
-8 | File | `/api/user/password/sent-reset-email` | High
-9 | File | `/api/v2/cli/commands` | High
-10 | File | `/app/Http/Controllers/Admin/NEditorController.php` | High
-11 | File | `/cgi-bin/wlogin.cgi` | High
-12 | File | `/DXR.axd` | Medium
-13 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-14 | File | `/etc/shadow.sample` | High
-15 | File | `/forum/away.php` | High
-16 | File | `/GponForm/fsetup_Form` | High
-17 | File | `/inc/parser/xhtml.php` | High
-18 | File | `/include/makecvs.php` | High
-19 | File | `/includes/event-management/index.php` | High
-20 | File | `/index.php` | Medium
-21 | File | `/lab.html` | Medium
-22 | File | `/member/picture/album` | High
-23 | File | `/mgmt/tm/util/bash` | High
-24 | File | `/modules/profile/index.php` | High
-25 | File | `/out.php` | Medium
-26 | File | `/owa/auth/logon.aspx` | High
-27 | File | `/plugins/servlet/gadgets/makeRequest` | High
-28 | File | `/preview.php` | Medium
-29 | File | `/products/details.asp` | High
-30 | File | `/public/plugins/` | High
-31 | File | `/requests.php` | High
-32 | File | `/reviewer_0/admins/assessments/pretest/questions-view.php` | High
-33 | File | `/secure/QueryComponent!Default.jspa` | High
-34 | File | `/secure/ViewCollectors` | High
-35 | File | `/services/details.asp` | High
-36 | File | `/Session` | Medium
-37 | File | `/spip.php` | Medium
-38 | File | `/STATE_ID/1613157927228/InvSWMetering.pdf` | High
-39 | File | `/SysInfo.htm` | Medium
-40 | File | `/usr/bin/pkexec` | High
-41 | File | `/usr/syno/etc/mount.conf` | High
-42 | File | `/var/log/fujitsu/ServerViewSuite/ism/FirmwareManagement/FirmwareManagement.log` | High
-43 | File | `/var/log/rkhunter.log` | High
-44 | File | `/vendor` | Low
-45 | File | `/wp-admin/admin.php?page=wp_file_manager_properties` | High
-46 | File | `/wp-json/oembed/1.0/embed?url` | High
-47 | File | `/wp/?cpmvc_id=1&cpmvc_do_action=mvparse&f=datafeed&calid=1&month_index=1&method=adddetails&id=2` | High
-48 | File | `/zm/index.php` | High
-49 | File | `a-b-membres.php` | High
-50 | File | `access.conf` | Medium
-51 | File | `adclick.php` | Medium
-52 | File | `add_2_basket.asp` | High
-53 | File | `add_edit_cat.asp` | High
-54 | File | `admin.jcomments.php` | High
-55 | File | `admin.php` | Medium
-56 | File | `admin.php/comments/batchdel/` | High
-57 | ... | ... | ...
+1 | File | `/admin/dl_sendmail.php` | High
+2 | File | `/admin/index2.html` | High
+3 | File | `/admin/login.php` | High
+4 | File | `/api/baskets/{name}` | High
+5 | File | `/api/v2/cli/commands` | High
+6 | File | `/app/Http/Controllers/Admin/NEditorController.php` | High
+7 | File | `/DXR.axd` | Medium
+8 | File | `/forum/away.php` | High
+9 | File | `/inc/parser/xhtml.php` | High
+10 | File | `/include/makecvs.php` | High
+11 | File | `/mgmt/tm/util/bash` | High
+12 | File | `/mifs/c/i/reg/reg.html` | High
+13 | File | `/novel/bookSetting/list` | High
+14 | File | `/owa/auth/logon.aspx` | High
+15 | File | `/requests.php` | High
+16 | File | `/secure/ViewCollectors` | High
+17 | File | `/Session` | Medium
+18 | File | `/spip.php` | Medium
+19 | File | `/usr/bin/pkexec` | High
+20 | File | `/wp-admin/admin.php?page=wp_file_manager_properties` | High
+21 | File | `/xAdmin/html/cm_doclist_view_uc.jsp` | High
+22 | File | `/zm/index.php` | High
+23 | File | `adclick.php` | Medium
+24 | File | `add.php` | Low
+25 | File | `add_comment.php` | High
+26 | File | `admin.jcomments.php` | High
+27 | File | `admin/content.php` | High
+28 | File | `admin\model\catalog\download.php` | High
+29 | ... | ... | ...
 
-There are 496 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 241 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -138,6 +114,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://1275.ru/ioc/315/kinsing-i-dark-iot-botnet-iocs/
 * https://blog.aquasec.com/kinsing-malware-exploits-novel-openfire-vulnerability
 * https://blog.aquasec.com/threat-alert-kinsing-malware-container-vulnerability
+* https://blog.sekoia.io/activemq-cve-2023-46604-exploited-by-kinsing-and-overview-of-this-threat/
 * https://blogs.infoblox.com/cyber-threat-intelligence/cyber-campaign-briefs/log4j-indicators-of-compromise-to-date/
 * https://gist.github.com/Iansus/050e121170a864c37b13f979c1883ad4
 * https://threatfox.abuse.ch
@@ -156,4 +133,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

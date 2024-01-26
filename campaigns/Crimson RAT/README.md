@@ -92,30 +92,29 @@ ID | Type | Indicator | Confidence
 22 | File | `/modules/profile/index.php` | High
 23 | File | `/modules/registration_admission/patient_register.php` | High
 24 | File | `/netflow/jspui/selectDevice.jsp` | High
-25 | File | `/out.php` | Medium
-26 | File | `/plugin/rundeck/webhook/` | High
-27 | File | `/pms/admin/crimes/view_crime.php` | High
-28 | File | `/scheduler/addSchedule.php` | High
-29 | File | `/spip.php` | Medium
-30 | File | `/student/bookdetails.php` | High
-31 | File | `/uncpath/` | Medium
-32 | File | `/upload` | Low
-33 | File | `/wp-admin/admin-ajax.php` | High
-34 | File | `4.edu.php` | Medium
-35 | File | `5.2.9\syscrb.exe` | High
-36 | File | `adclick.php` | Medium
-37 | File | `add-vehicle.php` | High
-38 | File | `addentry.php` | Medium
-39 | File | `admin.php` | Medium
-40 | File | `admin/admin.php` | High
-41 | File | `admin/conf_users_edit.php` | High
-42 | File | `adminHome.php` | High
-43 | File | `admin_add.php` | High
-44 | File | `admin_gallery.php3` | High
-45 | File | `admsession.php` | High
-46 | ... | ... | ...
+25 | File | `/oauth/idp/.well-known/openid-configuration` | High
+26 | File | `/out.php` | Medium
+27 | File | `/plugin/rundeck/webhook/` | High
+28 | File | `/pms/admin/crimes/view_crime.php` | High
+29 | File | `/scheduler/addSchedule.php` | High
+30 | File | `/spip.php` | Medium
+31 | File | `/student/bookdetails.php` | High
+32 | File | `/uncpath/` | Medium
+33 | File | `/upload` | Low
+34 | File | `/wp-admin/admin-ajax.php` | High
+35 | File | `4.edu.php` | Medium
+36 | File | `5.2.9\syscrb.exe` | High
+37 | File | `adclick.php` | Medium
+38 | File | `add-vehicle.php` | High
+39 | File | `addentry.php` | Medium
+40 | File | `admin.php` | Medium
+41 | File | `admin/admin.php` | High
+42 | File | `admin/conf_users_edit.php` | High
+43 | File | `adminHome.php` | High
+44 | File | `admin_add.php` | High
+45 | ... | ... | ...
 
-There are 397 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 391 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -141,4 +140,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

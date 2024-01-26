@@ -43,15 +43,15 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/login/index.php` | High
-2 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-3 | File | `arch/powerpc/kernel/entry_64.S` | High
-4 | File | `auth2-gss.c` | Medium
-5 | File | `block/bfq-iosched.c` | High
-6 | File | `cgi-bin/webcm` | High
-7 | File | `chat.php` | Medium
+2 | File | `/oauth/idp/.well-known/openid-configuration` | High
+3 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+4 | File | `arch/powerpc/kernel/entry_64.S` | High
+5 | File | `auth2-gss.c` | Medium
+6 | File | `block/bfq-iosched.c` | High
+7 | File | `cgi-bin/webcm` | High
 8 | ... | ... | ...
 
-There are 53 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 55 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -68,4 +68,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

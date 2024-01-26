@@ -85,32 +85,33 @@ ID | Type | Indicator | Confidence
 26 | File | `/medical/inventories.php` | High
 27 | File | `/mgmt/tm/util/bash` | High
 28 | File | `/modules/projects/vw_files.php` | High
-29 | File | `/rest/api/2/user/picker` | High
-30 | File | `/school/model/get_events.php` | High
-31 | File | `/scripts/cpan_config` | High
-32 | File | `/search/index` | High
-33 | File | `/secure/QueryComponent!Default.jspa` | High
-34 | File | `/spacecom/login.php` | High
-35 | File | `/spip.php` | Medium
-36 | File | `/src/admin/content_batchup_action.php` | High
-37 | File | `/uncpath/` | Medium
-38 | File | `/user/updatePwd` | High
-39 | File | `/wp-admin/admin-ajax.php` | High
-40 | File | `AbstractController.php` | High
-41 | File | `action.php` | Medium
-42 | File | `add-locker-form.php` | High
-43 | File | `addpost_newpoll.php` | High
-44 | File | `admin.cgi` | Medium
-45 | File | `admin.php` | Medium
-46 | File | `admin.remository.php` | High
-47 | File | `admin/news.php` | High
-48 | File | `admin/page.php` | High
-49 | File | `admin/partials/ajax/add_field_to_form.php` | High
-50 | File | `administrator/upload.php` | High
-51 | File | `Administrator/users.php` | High
-52 | ... | ... | ...
+29 | File | `/owa/auth/logon.aspx` | High
+30 | File | `/rest/api/2/user/picker` | High
+31 | File | `/school/model/get_events.php` | High
+32 | File | `/scripts/cpan_config` | High
+33 | File | `/search/index` | High
+34 | File | `/secure/QueryComponent!Default.jspa` | High
+35 | File | `/spacecom/login.php` | High
+36 | File | `/spip.php` | Medium
+37 | File | `/src/admin/content_batchup_action.php` | High
+38 | File | `/uncpath/` | Medium
+39 | File | `/user/updatePwd` | High
+40 | File | `/wp-admin/admin-ajax.php` | High
+41 | File | `AbstractController.php` | High
+42 | File | `action.php` | Medium
+43 | File | `add-locker-form.php` | High
+44 | File | `addpost_newpoll.php` | High
+45 | File | `admin.cgi` | Medium
+46 | File | `admin.php` | Medium
+47 | File | `admin.remository.php` | High
+48 | File | `admin/news.php` | High
+49 | File | `admin/page.php` | High
+50 | File | `admin/partials/ajax/add_field_to_form.php` | High
+51 | File | `administrator/upload.php` | High
+52 | File | `Administrator/users.php` | High
+53 | ... | ... | ...
 
-There are 455 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 464 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -137,4 +138,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -71,24 +71,24 @@ ID | Type | Indicator | Confidence
 12 | File | `/balance/service/list` | High
 13 | File | `/base/ecma-helpers-string.c` | High
 14 | File | `/blog/edit` | Medium
-15 | File | `/cimom` | Low
-16 | File | `/ci_spms/admin/search/searching/` | High
-17 | File | `/classes/Master.php?f=delete_student` | High
-18 | File | `/dev/tty` | Medium
-19 | File | `/EPOAGENTMETA/DisplayMSAPropsDetail.do` | High
-20 | File | `/etc/sysconfig/tomcat` | High
-21 | File | `/fantasticblog/single.php` | High
-22 | File | `/goform/aspForm` | High
-23 | File | `/goform/delIpMacBind/` | High
-24 | File | `/goform/SetLEDCfg` | High
-25 | File | `/home/iojs/build/ws/out/Release/obj.target/deps/openssl/openssl.cnf` | High
-26 | File | `/htdocs/utils/Files.php` | High
-27 | File | `/jpg/image.jpg` | High
-28 | File | `/Main_AdmStatus_Content.asp` | High
-29 | File | `/mgmt/tm/util/bash` | High
+15 | File | `/cgi-bin/system_mgr.cgi` | High
+16 | File | `/cimom` | Low
+17 | File | `/ci_spms/admin/search/searching/` | High
+18 | File | `/classes/Master.php?f=delete_student` | High
+19 | File | `/dev/tty` | Medium
+20 | File | `/EPOAGENTMETA/DisplayMSAPropsDetail.do` | High
+21 | File | `/etc/sysconfig/tomcat` | High
+22 | File | `/fantasticblog/single.php` | High
+23 | File | `/goform/aspForm` | High
+24 | File | `/goform/delIpMacBind/` | High
+25 | File | `/goform/SetLEDCfg` | High
+26 | File | `/home/iojs/build/ws/out/Release/obj.target/deps/openssl/openssl.cnf` | High
+27 | File | `/htdocs/utils/Files.php` | High
+28 | File | `/jpg/image.jpg` | High
+29 | File | `/Main_AdmStatus_Content.asp` | High
 30 | ... | ... | ...
 
-There are 254 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 255 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -111,4 +111,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

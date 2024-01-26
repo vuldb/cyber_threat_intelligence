@@ -44,12 +44,12 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `data/gbconfiguration.dat` | High
-2 | File | `dede\co_do.php` | High
-3 | File | `download` | Medium
+1 | File | `Controller.class.php` | High
+2 | File | `data/gbconfiguration.dat` | High
+3 | File | `dede\co_do.php` | High
 4 | ... | ... | ...
 
-There are 16 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 17 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

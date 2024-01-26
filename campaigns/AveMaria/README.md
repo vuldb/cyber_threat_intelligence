@@ -88,32 +88,32 @@ ID | Type | Indicator | Confidence
 25 | File | `/mcategory.php` | High
 26 | File | `/member/picture/album` | High
 27 | File | `/mysql/api/diags.php` | High
-28 | File | `/oauth/idp/.well-known/openid-configuration` | High
-29 | File | `/phpcollab/users/edituser.php` | High
-30 | File | `/plain` | Low
-31 | File | `/products/details.asp` | High
-32 | File | `/product_list.php` | High
-33 | File | `/public/login.htm` | High
-34 | File | `/replication` | Medium
-35 | File | `/service/upload` | High
-36 | File | `/services/details.asp` | High
-37 | File | `/showfile.php` | High
-38 | File | `/trx_addons/v2/get/sc_layout` | High
-39 | File | `/uncpath/` | Medium
-40 | File | `/upload/catalog/controller/account/password.php` | High
-41 | File | `/usr/bin/pkexec` | High
-42 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
-43 | File | `/wbms/classes/Master.php?f=delete_client` | High
-44 | File | `/web/api/app/Controller/HostController.php` | High
-45 | File | `/WebMstr7/servlet/mstrWeb` | High
-46 | File | `/wp-admin/admin-ajax.php` | High
-47 | File | `4.edu.php` | Medium
-48 | File | `5.2.9\syscrb.exe` | High
-49 | File | `123flashchat.php` | High
-50 | File | `a2billing/customer/iridium_threed.php` | High
+28 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+29 | File | `/oauth/idp/.well-known/openid-configuration` | High
+30 | File | `/phpcollab/users/edituser.php` | High
+31 | File | `/plain` | Low
+32 | File | `/products/details.asp` | High
+33 | File | `/product_list.php` | High
+34 | File | `/public/login.htm` | High
+35 | File | `/replication` | Medium
+36 | File | `/service/upload` | High
+37 | File | `/services/details.asp` | High
+38 | File | `/showfile.php` | High
+39 | File | `/trx_addons/v2/get/sc_layout` | High
+40 | File | `/uncpath/` | Medium
+41 | File | `/upload/catalog/controller/account/password.php` | High
+42 | File | `/usr/bin/pkexec` | High
+43 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
+44 | File | `/wbms/classes/Master.php?f=delete_client` | High
+45 | File | `/web/api/app/Controller/HostController.php` | High
+46 | File | `/WebMstr7/servlet/mstrWeb` | High
+47 | File | `/wp-admin/admin-ajax.php` | High
+48 | File | `4.edu.php` | Medium
+49 | File | `5.2.9\syscrb.exe` | High
+50 | File | `123flashchat.php` | High
 51 | ... | ... | ...
 
-There are 440 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 441 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -141,4 +141,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

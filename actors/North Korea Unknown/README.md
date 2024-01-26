@@ -69,55 +69,60 @@ ID | Type | Indicator | Confidence
 10 | File | `/forum/away.php` | High
 11 | File | `/getcfg.php` | Medium
 12 | File | `/goform/aspForm` | High
-13 | File | `/home.php` | Medium
-14 | File | `/mifs/c/i/reg/reg.html` | High
-15 | File | `/omps/seller` | Medium
-16 | File | `/p` | Low
-17 | File | `/php/passport/index.php` | High
-18 | File | `/preauth` | Medium
-19 | File | `/products/details.asp` | High
-20 | File | `/replication` | Medium
-21 | File | `/see_more_details.php` | High
-22 | File | `/settings` | Medium
-23 | File | `/show_news.php` | High
-24 | File | `/spip.php` | Medium
-25 | File | `/staff/tools/custom-fields` | High
-26 | File | `/strings/ctype-latin1.c` | High
-27 | File | `/uncpath/` | Medium
-28 | File | `/updownload/t.report` | High
-29 | File | `/user.profile.php` | High
-30 | File | `/var/log/nginx` | High
-31 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
-32 | File | `/VPortal/mgtconsole/Subscriptions.jsp` | High
-33 | File | `/Wedding-Management/admin/client_manage_account_details.php?booking_id=31` | High
-34 | File | `/wp-admin` | Medium
-35 | File | `/wp-admin/admin-ajax.php` | High
-36 | File | `adclick.php` | Medium
-37 | File | `adm/systools.asp` | High
-38 | File | `admin` | Low
-39 | File | `admin.php` | Medium
-40 | File | `admin/adminsignin.html` | High
-41 | File | `admin/category.inc.php` | High
-42 | File | `admin/editproductetails.php` | High
-43 | File | `admin/main.asp` | High
-44 | File | `admin/movieview.php` | High
-45 | File | `admin/versions.html` | High
-46 | File | `admin/y_admin.asp` | High
-47 | File | `adminer.php` | Medium
-48 | File | `administrator/components/com_media/helpers/media.php` | High
-49 | File | `admin_ok.asp` | Medium
-50 | File | `agenda.php` | Medium
-51 | File | `album_portal.php` | High
-52 | File | `app/Core/Paginator.php` | High
-53 | File | `app/index.php/accounts/default/details?id=2&kanbanBoard=1&openToTaskId=1` | High
-54 | File | `attendancy.php` | High
-55 | File | `AttributionSource.java` | High
-56 | File | `auth-gss2.c` | Medium
-57 | File | `auth.php` | Medium
-58 | File | `awstats.pl` | Medium
-59 | ... | ... | ...
+13 | File | `/healthcare/Admin/consulting_detail.php` | High
+14 | File | `/home.php` | Medium
+15 | File | `/mifs/c/i/reg/reg.html` | High
+16 | File | `/omps/seller` | Medium
+17 | File | `/p` | Low
+18 | File | `/php/passport/index.php` | High
+19 | File | `/preauth` | Medium
+20 | File | `/products/details.asp` | High
+21 | File | `/replication` | Medium
+22 | File | `/see_more_details.php` | High
+23 | File | `/settings` | Medium
+24 | File | `/show_news.php` | High
+25 | File | `/spip.php` | Medium
+26 | File | `/staff/tools/custom-fields` | High
+27 | File | `/strings/ctype-latin1.c` | High
+28 | File | `/uncpath/` | Medium
+29 | File | `/updownload/t.report` | High
+30 | File | `/user.profile.php` | High
+31 | File | `/var/log/nginx` | High
+32 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
+33 | File | `/VPortal/mgtconsole/Subscriptions.jsp` | High
+34 | File | `/Wedding-Management/admin/client_manage_account_details.php?booking_id=31` | High
+35 | File | `/wp-admin` | Medium
+36 | File | `/wp-admin/admin-ajax.php` | High
+37 | File | `/zm/index.php` | High
+38 | File | `adclick.php` | Medium
+39 | File | `adm/systools.asp` | High
+40 | File | `admin` | Low
+41 | File | `admin.php` | Medium
+42 | File | `admin/adminsignin.html` | High
+43 | File | `admin/category.inc.php` | High
+44 | File | `admin/editproductetails.php` | High
+45 | File | `admin/main.asp` | High
+46 | File | `admin/movieview.php` | High
+47 | File | `admin/versions.html` | High
+48 | File | `admin/y_admin.asp` | High
+49 | File | `adminer.php` | Medium
+50 | File | `administrator/components/com_media/helpers/media.php` | High
+51 | File | `admin_ok.asp` | Medium
+52 | File | `agenda.php` | Medium
+53 | File | `album_portal.php` | High
+54 | File | `app/Core/Paginator.php` | High
+55 | File | `app/index.php/accounts/default/details?id=2&kanbanBoard=1&openToTaskId=1` | High
+56 | File | `army.php` | Medium
+57 | File | `attendancy.php` | High
+58 | File | `AttributionSource.java` | High
+59 | File | `auth-gss2.c` | Medium
+60 | File | `auth.php` | Medium
+61 | File | `awstats.pl` | Medium
+62 | File | `bb-login.php` | Medium
+63 | File | `bb_admin.php` | Medium
+64 | ... | ... | ...
 
-There are 517 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 564 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -136,4 +141,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

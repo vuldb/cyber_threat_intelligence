@@ -66,18 +66,18 @@ ID | Type | Indicator | Confidence
 3 | File | `/adminlogin.asp` | High
 4 | File | `/forum/away.php` | High
 5 | File | `/mc-admin/post.php?state=delete&delete` | High
-6 | File | `/wp-admin/options.php` | High
-7 | File | `addmember.php` | High
-8 | File | `addtocart.asp` | High
-9 | File | `addtomylist.asp` | High
-10 | File | `admin.x-shop.php` | High
-11 | File | `admin/adminlogin.php` | High
-12 | File | `admin/article_save.php` | High
-13 | File | `admin/auth.php` | High
-14 | File | `admin/ueditor/uploadFile` | High
+6 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+7 | File | `/wp-admin/options.php` | High
+8 | File | `addmember.php` | High
+9 | File | `addtocart.asp` | High
+10 | File | `addtomylist.asp` | High
+11 | File | `admin.x-shop.php` | High
+12 | File | `admin/adminlogin.php` | High
+13 | File | `admin/article_save.php` | High
+14 | File | `admin/auth.php` | High
 15 | ... | ... | ...
 
-There are 118 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 120 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -97,4 +97,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

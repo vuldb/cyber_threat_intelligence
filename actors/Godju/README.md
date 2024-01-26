@@ -60,17 +60,18 @@ ID | Type | Indicator | Confidence
 14 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
 15 | File | `/classes/Master.php?f=save_inquiry` | High
 16 | File | `/collection/all` | High
-17 | File | `/config/list` | Medium
-18 | File | `/coreframe/app/guestbook/myissue.php` | High
-19 | File | `/dede/co_do.php` | High
-20 | File | `/DXR.axd` | Medium
-21 | File | `/etc/init.d/sshd_service` | High
-22 | File | `/fuel/sitevariables/delete/4` | High
-23 | File | `/goform/saveParentControlInfo` | High
-24 | File | `/goform/setSnmpInfo` | High
-25 | ... | ... | ...
+17 | File | `/config,admin.jsp` | High
+18 | File | `/config/list` | Medium
+19 | File | `/coreframe/app/guestbook/myissue.php` | High
+20 | File | `/dede/co_do.php` | High
+21 | File | `/DXR.axd` | Medium
+22 | File | `/etc/init.d/sshd_service` | High
+23 | File | `/fuel/sitevariables/delete/4` | High
+24 | File | `/goform/saveParentControlInfo` | High
+25 | File | `/goform/setBlackRule` | High
+26 | ... | ... | ...
 
-There are 210 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 219 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -87,4 +88,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

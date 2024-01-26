@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 20 more country items available. Please use our online service to access the data.
+There are 21 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -54,7 +54,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 16 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -65,47 +65,49 @@ ID | Type | Indicator | Confidence
 1 | File | `/+CSCOE+/logon.html` | High
 2 | File | `/?Page=Node/OBJ=/System/DeviceFolder/DeviceFolder/DateTime/Action=Submit` | High
 3 | File | `/acms/admin/cargo_types/manage_cargo_type.php` | High
-4 | File | `/admin/ajax/avatar.php` | High
-5 | File | `/admin/forgot-password.php` | High
-6 | File | `/admin/index.php` | High
-7 | File | `/admin/lab.php` | High
-8 | File | `/admin/login.php` | High
-9 | File | `/admin/payment.php` | High
-10 | File | `/admin/show.php` | High
-11 | File | `/advanced-tools/nova/bin/netwatch` | High
-12 | File | `/api/baskets/{name}` | High
-13 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-14 | File | `/default.php?idx=17` | High
-15 | File | `/device/device=345/?tab=ports` | High
-16 | File | `/download` | Medium
-17 | File | `/env` | Low
-18 | File | `/forum/away.php` | High
-19 | File | `/index.php` | Medium
-20 | File | `/opt/bin/cli` | Medium
-21 | File | `/p` | Low
-22 | File | `/patient/doctors.php` | High
-23 | File | `/phpinventory/editcategory.php` | High
-24 | File | `/preview.php` | Medium
-25 | File | `/product-list.php` | High
-26 | File | `/proxy/` | Low
-27 | File | `/spip.php` | Medium
-28 | File | `/uncpath/` | Medium
-29 | File | `/updown/upload.cgi` | High
-30 | File | `/user/del.php` | High
-31 | File | `/wp-admin/admin-ajax.php` | High
-32 | File | `/_next` | Low
-33 | File | `123flashchat.php` | High
-34 | File | `act.php` | Low
-35 | File | `admin.php/pay` | High
-36 | File | `admin/admin_menu.php` | High
-37 | File | `admin/bad.php` | High
-38 | File | `admin/index.php` | High
-39 | File | `admin/index.php/user/del/1` | High
-40 | File | `admin/index.php?id=themes&action=edit_chunk` | High
-41 | File | `administrator/index.php` | High
-42 | ... | ... | ...
+4 | File | `/admin/add-services.php` | High
+5 | File | `/admin/ajax/avatar.php` | High
+6 | File | `/admin/edit-services.php` | High
+7 | File | `/admin/forgot-password.php` | High
+8 | File | `/admin/index.php` | High
+9 | File | `/admin/lab.php` | High
+10 | File | `/admin/login.php` | High
+11 | File | `/admin/payment.php` | High
+12 | File | `/admin/show.php` | High
+13 | File | `/advanced-tools/nova/bin/netwatch` | High
+14 | File | `/api/baskets/{name}` | High
+15 | File | `/boat/login.php` | High
+16 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
+17 | File | `/clinic/disease_symptoms_view.php` | High
+18 | File | `/default.php?idx=17` | High
+19 | File | `/device/device=345/?tab=ports` | High
+20 | File | `/download` | Medium
+21 | File | `/env` | Low
+22 | File | `/forum/away.php` | High
+23 | File | `/index.php` | Medium
+24 | File | `/opt/bin/cli` | Medium
+25 | File | `/p` | Low
+26 | File | `/patient/doctors.php` | High
+27 | File | `/phpinventory/editcategory.php` | High
+28 | File | `/preview.php` | Medium
+29 | File | `/product-list.php` | High
+30 | File | `/proxy/` | Low
+31 | File | `/spip.php` | Medium
+32 | File | `/uncpath/` | Medium
+33 | File | `/updown/upload.cgi` | High
+34 | File | `/user/del.php` | High
+35 | File | `/wp-admin/admin-ajax.php` | High
+36 | File | `/_next` | Low
+37 | File | `123flashchat.php` | High
+38 | File | `act.php` | Low
+39 | File | `admin.php/pay` | High
+40 | File | `admin/admin_menu.php` | High
+41 | File | `admin/bad.php` | High
+42 | File | `admin/index.php` | High
+43 | File | `admin/index.php/user/del/1` | High
+44 | ... | ... | ...
 
-There are 362 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 377 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -124,4 +126,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

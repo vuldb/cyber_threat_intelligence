@@ -61,46 +61,50 @@ ID | Type | Indicator | Confidence
 2 | File | `/+CSCOE+/logon.html` | High
 3 | File | `/.vnc/sesman_${username}_passwd` | High
 4 | File | `/?r=email/api/mark&op=delFromSend` | High
-5 | File | `/admin/invoice.php` | High
-6 | File | `/admin/maintenance/view_designation.php` | High
-7 | File | `/api/baskets/{name}` | High
-8 | File | `/api/plugin/uninstall` | High
-9 | File | `/api2/html/` | Medium
-10 | File | `/Applications/Utilities/Terminal` | High
-11 | File | `/baseOpLog.do` | High
-12 | File | `/cms/category/list` | High
-13 | File | `/config.cgi?webmin` | High
-14 | File | `/edoc/doctor/patient.php` | High
-15 | File | `/etc/passwd` | Medium
-16 | File | `/filemanager/php/connector.php` | High
-17 | File | `/Forms/tools_test_1` | High
-18 | File | `/forum/away.php` | High
-19 | File | `/forum/PostPrivateMessage` | High
-20 | File | `/general/search.php?searchtype=simple` | High
-21 | File | `/goform/setSnmpInfo` | High
-22 | File | `/goform/WifiBasicSet` | High
-23 | File | `/HNAP1` | Low
-24 | File | `/home/cavesConsole` | High
-25 | File | `/irj/portal/` | Medium
-26 | File | `/login` | Low
-27 | File | `/mgm_dev_reboot.asp` | High
-28 | File | `/opt/tplink/EAPController/lib/eap-web-3.2.6.jar` | High
-29 | File | `/param.file.tgz` | High
-30 | File | `/patient/appointment.php` | High
-31 | File | `/product.php` | Medium
-32 | File | `/public/launchNewWindow.jsp` | High
-33 | File | `/search.php` | Medium
-34 | File | `/Status/wan_button_action.asp` | High
-35 | File | `/sys/user/putRecycleBin` | High
-36 | File | `/sysmanage/importconf.php` | High
-37 | File | `/template/edit` | High
-38 | File | `/tmp` | Low
-39 | File | `/user/s.php` | Medium
-40 | File | `/usr/bin/lua` | Medium
-41 | File | `/var/log/drachtio` | High
-42 | ... | ... | ...
+5 | File | `/admin/action/edit_chicken.php` | High
+6 | File | `/admin/action/update-deworm.php` | High
+7 | File | `/admin/invoice.php` | High
+8 | File | `/admin/maintenance/view_designation.php` | High
+9 | File | `/admin/pages/edit_chicken.php` | High
+10 | File | `/admin/update-clients.php` | High
+11 | File | `/api/baskets/{name}` | High
+12 | File | `/api/plugin/uninstall` | High
+13 | File | `/api2/html/` | Medium
+14 | File | `/app/Http/Controllers/ImageController.php` | High
+15 | File | `/Applications/Utilities/Terminal` | High
+16 | File | `/Attachment/fromImageUrl` | High
+17 | File | `/b2b-supermarket/shopping-cart` | High
+18 | File | `/baseOpLog.do` | High
+19 | File | `/bin/boa` | Medium
+20 | File | `/cgi-bin/cstecgi.cgi` | High
+21 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+22 | File | `/cms/category/list` | High
+23 | File | `/config.cgi?webmin` | High
+24 | File | `/edoc/doctor/patient.php` | High
+25 | File | `/etc/passwd` | Medium
+26 | File | `/filemanager/php/connector.php` | High
+27 | File | `/Forms/tools_test_1` | High
+28 | File | `/forum/away.php` | High
+29 | File | `/forum/PostPrivateMessage` | High
+30 | File | `/general/search.php?searchtype=simple` | High
+31 | File | `/goform/setSnmpInfo` | High
+32 | File | `/goform/WifiBasicSet` | High
+33 | File | `/HNAP1` | Low
+34 | File | `/home/cavesConsole` | High
+35 | File | `/irj/portal/` | Medium
+36 | File | `/log/download.php` | High
+37 | File | `/login` | Low
+38 | File | `/mgm_dev_reboot.asp` | High
+39 | File | `/opt/tplink/EAPController/lib/eap-web-3.2.6.jar` | High
+40 | File | `/param.file.tgz` | High
+41 | File | `/patient/appointment.php` | High
+42 | File | `/product.php` | Medium
+43 | File | `/public/launchNewWindow.jsp` | High
+44 | File | `/search.php` | Medium
+45 | File | `/Status/wan_button_action.asp` | High
+46 | ... | ... | ...
 
-There are 363 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 401 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -119,4 +123,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

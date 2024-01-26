@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [IT](https://vuldb.com/?country.it)
-* [PL](https://vuldb.com/?country.pl)
+* [PT](https://vuldb.com/?country.pt)
 * ...
 
 There are 12 more country items available. Please use our online service to access the data.
@@ -51,7 +51,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-425 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
@@ -69,60 +69,64 @@ ID | Type | Indicator | Confidence
 1 | File | `/academy/tutor/filter` | High
 2 | File | `/action/factory` | High
 3 | File | `/admin.php` | Medium
-4 | File | `/admin/add-category.php` | High
-5 | File | `/admin/add_user_modal.php` | High
-6 | File | `/admin/admin_content_tag.php?action=save_content` | High
-7 | File | `/admin/article/article-edit-run.php` | High
-8 | File | `/admin/categories/view_category.php` | High
-9 | File | `/admin/ind_backstage.php` | High
-10 | File | `/admin/loginc.php` | High
-11 | File | `/admin/maintenance/view_designation.php` | High
-12 | File | `/admin/project/update/2` | High
-13 | File | `/admin/report/index.php` | High
-14 | File | `/admin/upload/img` | High
-15 | File | `/app/ajax/sell_return_data.php` | High
-16 | File | `/b2b-supermarket/catalog/all-products` | High
-17 | File | `/binbloom-master/src/helpers.c` | High
-18 | File | `/blog` | Low
-19 | File | `/boaform/wlan_basic_set.cgi` | High
-20 | File | `/category.php` | High
-21 | File | `/classes/Master.php?f=delete_reminder` | High
-22 | File | `/classes/Users.php?f=delete_client` | High
-23 | File | `/contacts/listcontacts.php` | High
-24 | File | `/Core/Ap4File.cpp` | High
-25 | File | `/data/app` | Medium
-26 | File | `/dede/file_manage_control.php` | High
-27 | File | `/depotHead/list` | High
-28 | File | `/etc/os-release` | High
-29 | File | `/etc/pki/pulp/nodes/` | High
-30 | File | `/forms/web_runScript` | High
-31 | File | `/forum/away.php` | High
-32 | File | `/fs/nfsd/nfs4proc.c` | High
-33 | File | `/garage/php_action/createBrand.php` | High
-34 | File | `/general/search.php?searchtype=simple` | High
-35 | File | `/ghost/preview` | High
-36 | File | `/goform/AddSysLogRule` | High
-37 | File | `/goform/AdvSetWrlsafeset` | High
-38 | File | `/goform/qossetting` | High
-39 | File | `/goform/setAutoPing` | High
-40 | File | `/hrm/employeeview.php` | High
-41 | File | `/hss/?page=product_per_brand` | High
-42 | File | `/im/user/` | Medium
-43 | File | `/index.php` | Medium
-44 | File | `/index.php?page=member` | High
-45 | File | `/load.php` | Medium
-46 | File | `/main/checkout.php` | High
-47 | File | `/meetings/listmeetings.php` | High
-48 | File | `/oauth/idp/.well-known/openid-configuration` | High
-49 | File | `/odlms/?page=appointments/view_appointment` | High
-50 | File | `/odlms/classes/Users.php?f=delete` | High
-51 | File | `/php/ping.php` | High
-52 | File | `/preview.php` | Medium
-53 | File | `/proc/*/exe` | Medium
-54 | File | `/projects/listprojects.php` | High
-55 | ... | ... | ...
+4 | File | `/admin/` | Low
+5 | File | `/admin/add-category.php` | High
+6 | File | `/admin/add_user_modal.php` | High
+7 | File | `/admin/admin_content_tag.php?action=save_content` | High
+8 | File | `/admin/article/article-edit-run.php` | High
+9 | File | `/admin/categories/view_category.php` | High
+10 | File | `/admin/category_row.php` | High
+11 | File | `/admin/ind_backstage.php` | High
+12 | File | `/admin/loginc.php` | High
+13 | File | `/admin/maintenance/view_designation.php` | High
+14 | File | `/admin/project/update/2` | High
+15 | File | `/admin/report/index.php` | High
+16 | File | `/admin/return_add.php` | High
+17 | File | `/admin/upload/img` | High
+18 | File | `/admin_route/dec_service_credits.php` | High
+19 | File | `/app/ajax/sell_return_data.php` | High
+20 | File | `/app/api/controller/default/File.php` | High
+21 | File | `/b2b-supermarket/catalog/all-products` | High
+22 | File | `/bin/boa` | Medium
+23 | File | `/binbloom-master/src/helpers.c` | High
+24 | File | `/blog` | Low
+25 | File | `/boaform/wlan_basic_set.cgi` | High
+26 | File | `/category.php` | High
+27 | File | `/cgi-bin/cstecgi.cgi` | High
+28 | File | `/classes/Master.php?f=delete_reminder` | High
+29 | File | `/contacts/listcontacts.php` | High
+30 | File | `/Core/Ap4File.cpp` | High
+31 | File | `/data/app` | Medium
+32 | File | `/dede/file_manage_control.php` | High
+33 | File | `/depotHead/list` | High
+34 | File | `/etc/os-release` | High
+35 | File | `/etc/pki/pulp/nodes/` | High
+36 | File | `/forms/web_runScript` | High
+37 | File | `/forum/away.php` | High
+38 | File | `/fs/nfsd/nfs4proc.c` | High
+39 | File | `/garage/php_action/createBrand.php` | High
+40 | File | `/general/search.php?searchtype=simple` | High
+41 | File | `/ghost/preview` | High
+42 | File | `/goform/AddSysLogRule` | High
+43 | File | `/goform/AdvSetWrlsafeset` | High
+44 | File | `/goform/qossetting` | High
+45 | File | `/goform/setAutoPing` | High
+46 | File | `/hrm/employeeview.php` | High
+47 | File | `/hss/?page=product_per_brand` | High
+48 | File | `/im/user/` | Medium
+49 | File | `/index.php` | Medium
+50 | File | `/index.php?page=member` | High
+51 | File | `/libsystem/login.php` | High
+52 | File | `/load.php` | Medium
+53 | File | `/main/checkout.php` | High
+54 | File | `/meetings/listmeetings.php` | High
+55 | File | `/novel/bookSetting/list` | High
+56 | File | `/oauth/idp/.well-known/openid-configuration` | High
+57 | File | `/odlms/classes/Users.php?f=delete` | High
+58 | File | `/php/ping.php` | High
+59 | ... | ... | ...
 
-There are 484 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 514 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -139,4 +143,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

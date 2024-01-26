@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [DE](https://vuldb.com/?country.de)
 * ...
 
-There are 13 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -62,43 +62,43 @@ ID | Type | Indicator | Confidence
 7 | File | `/admin/?page=inmates/view_inmate` | High
 8 | File | `/admin/?page=system_info` | High
 9 | File | `/admin/?page=system_info/contact_info` | High
-10 | File | `/admin/addemployee.php` | High
-11 | File | `/admin/add_exercises.php` | High
-12 | File | `/admin/attendance_row.php` | High
-13 | File | `/admin/categories/manage_category.php` | High
-14 | File | `/admin/categories/view_category.php` | High
-15 | File | `/admin/courses/manage_course.php` | High
-16 | File | `/admin/del.php` | High
-17 | File | `/admin/departments/manage_department.php` | High
-18 | File | `/admin/edit-services.php` | High
-19 | File | `/admin/edit.php` | High
-20 | File | `/admin/edit_subject.php` | High
-21 | File | `/admin/employee_row.php` | High
-22 | File | `/admin/folderrollpicture/list` | High
-23 | File | `/admin/lab.php` | High
-24 | File | `/Admin/login.php` | High
-25 | File | `/admin/maintenance/brand.php` | High
-26 | File | `/admin/maintenance/view_designation.php` | High
-27 | File | `/admin/mechanics/manage_mechanic.php` | High
-28 | File | `/admin/new-content` | High
-29 | File | `/admin/reportupload.aspx` | High
-30 | File | `/admin/service.php` | High
-31 | File | `/admin/sign/out` | High
-32 | File | `/admin/siteoptions.php&action=displaygoal&value=1&roleid=1` | High
+10 | File | `/admin/action/add_con.php` | High
+11 | File | `/admin/addemployee.php` | High
+12 | File | `/admin/add_exercises.php` | High
+13 | File | `/admin/attendance_row.php` | High
+14 | File | `/admin/categories/manage_category.php` | High
+15 | File | `/admin/categories/view_category.php` | High
+16 | File | `/admin/courses/manage_course.php` | High
+17 | File | `/admin/del.php` | High
+18 | File | `/admin/departments/manage_department.php` | High
+19 | File | `/admin/edit-services.php` | High
+20 | File | `/admin/edit.php` | High
+21 | File | `/admin/edit_subject.php` | High
+22 | File | `/admin/employee_row.php` | High
+23 | File | `/admin/folderrollpicture/list` | High
+24 | File | `/admin/lab.php` | High
+25 | File | `/Admin/login.php` | High
+26 | File | `/admin/maintenance/brand.php` | High
+27 | File | `/admin/maintenance/view_designation.php` | High
+28 | File | `/admin/mechanics/manage_mechanic.php` | High
+29 | File | `/admin/new-content` | High
+30 | File | `/admin/reportupload.aspx` | High
+31 | File | `/admin/service.php` | High
+32 | File | `/admin/sign/out` | High
 33 | File | `/admin/students/manage_academic.php` | High
 34 | File | `/admin/transactions/track_shipment.php` | High
 35 | File | `/admin/usermanagement.php` | High
 36 | File | `/admin/video/list` | High
-37 | File | `/api/plugin/uninstall` | High
-38 | File | `/aqpg/users/login.php` | High
-39 | File | `/bcms/admin/?page=reports/daily_court_rental_report` | High
-40 | File | `/bcms/admin/?page=user/list` | High
-41 | File | `/bin/httpd` | Medium
-42 | File | `/blog` | Low
-43 | File | `/blog/edit` | Medium
-44 | File | `/car-rental-management-system/admin/manage_user.php` | High
-45 | File | `/cardo/api` | Medium
-46 | File | `/cdsms/classes/Master.php?f=delete_enrollment` | High
+37 | File | `/api/log/killJob` | High
+38 | File | `/api/plugin/uninstall` | High
+39 | File | `/aqpg/users/login.php` | High
+40 | File | `/bcms/admin/?page=reports/daily_court_rental_report` | High
+41 | File | `/bcms/admin/?page=user/list` | High
+42 | File | `/bin/httpd` | Medium
+43 | File | `/blog` | Low
+44 | File | `/blog/edit` | Medium
+45 | File | `/car-rental-management-system/admin/manage_user.php` | High
+46 | File | `/cardo/api` | Medium
 47 | File | `/cgi-bin/login.cgi` | High
 48 | File | `/cgi-bin/touchlist_sync.cgi` | High
 49 | File | `/change-language/de_DE` | High
@@ -115,15 +115,16 @@ ID | Type | Indicator | Confidence
 60 | File | `/dashboard/add-blog.php` | High
 61 | File | `/dashboard/add-portfolio.php` | High
 62 | File | `/dashboard/settings` | High
-63 | File | `/downloadmaster/dm_apply.cgi?action_mode=initial&download_type=General&special_cgi=get_language` | High
-64 | File | `/etc/passwd` | Medium
-65 | File | `/forum/away.php` | High
-66 | File | `/friends` | Medium
-67 | File | `/goform/aspForm` | High
-68 | File | `/goform/RgDdns` | High
-69 | ... | ... | ...
+63 | File | `/download.php?file=author.png` | High
+64 | File | `/downloadmaster/dm_apply.cgi?action_mode=initial&download_type=General&special_cgi=get_language` | High
+65 | File | `/etc/passwd` | Medium
+66 | File | `/forum/away.php` | High
+67 | File | `/friends` | Medium
+68 | File | `/goform/aspForm` | High
+69 | File | `/goform/RgDdns` | High
+70 | ... | ... | ...
 
-There are 608 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 619 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -141,4 +142,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

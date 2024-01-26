@@ -69,39 +69,40 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin.php?action=editpage` | High
 3 | File | `/admin/web_config.php&amp` | High
 4 | File | `/alphaware/details.php` | High
-5 | File | `/core/kernels/ctc_decoder_ops.cc` | High
-6 | File | `/etc/controller-agent/agent.conf` | High
-7 | File | `/etc/shadow` | Medium
-8 | File | `/evaluate/index.php` | High
-9 | File | `/forum/away.php` | High
-10 | File | `/goform/setmac` | High
-11 | File | `/goform/setportList` | High
-12 | File | `/goform/setVLAN` | High
-13 | File | `/gofrom/setwanType` | High
-14 | File | `/hcms/admin/index.php/language/ajax` | High
-15 | File | `/index.class.php` | High
-16 | File | `/knowage/restful-services/documentnotes/saveNote` | High
-17 | File | `/log_download.cgi` | High
-18 | File | `/mgmt/tm/util/bash` | High
-19 | File | `/MIME/INBOX-MM-1/` | High
-20 | File | `/new` | Low
-21 | File | `/nova/bin/diskd` | High
-22 | File | `/nova/bin/lcdstat` | High
-23 | File | `/proc/pid/syscall` | High
-24 | File | `/servlet/AdapterHTTP` | High
-25 | File | `/tmp` | Low
-26 | File | `/user/ldap_user/add` | High
-27 | File | `/wp-admin/upload.php?page=instant-images` | High
-28 | File | `adclick.php` | Medium
-29 | File | `admin/article/add.html` | High
-30 | File | `admin/navbar.php?action=add_page` | High
-31 | File | `admin/plugin-settings.php` | High
-32 | File | `admin/user_import.php` | High
-33 | File | `admin/wenjian.php?wj=../templets/pc` | High
-34 | File | `administrative` | High
-35 | ... | ... | ...
+5 | File | `/b2b-supermarket/shopping-cart` | High
+6 | File | `/cgi-bin/cstecgi.cgi` | High
+7 | File | `/core/kernels/ctc_decoder_ops.cc` | High
+8 | File | `/etc/controller-agent/agent.conf` | High
+9 | File | `/etc/shadow` | Medium
+10 | File | `/evaluate/index.php` | High
+11 | File | `/forum/away.php` | High
+12 | File | `/goform/setmac` | High
+13 | File | `/goform/setportList` | High
+14 | File | `/goform/setVLAN` | High
+15 | File | `/gofrom/setwanType` | High
+16 | File | `/hcms/admin/index.php/language/ajax` | High
+17 | File | `/index.class.php` | High
+18 | File | `/knowage/restful-services/documentnotes/saveNote` | High
+19 | File | `/log_download.cgi` | High
+20 | File | `/mgmt/tm/util/bash` | High
+21 | File | `/MIME/INBOX-MM-1/` | High
+22 | File | `/new` | Low
+23 | File | `/nova/bin/diskd` | High
+24 | File | `/nova/bin/lcdstat` | High
+25 | File | `/proc/pid/syscall` | High
+26 | File | `/servlet/AdapterHTTP` | High
+27 | File | `/tmp` | Low
+28 | File | `/user/inc/workidajax.php` | High
+29 | File | `/user/ldap_user/add` | High
+30 | File | `/wp-admin/upload.php?page=instant-images` | High
+31 | File | `adclick.php` | Medium
+32 | File | `admin/article/add.html` | High
+33 | File | `admin/navbar.php?action=add_page` | High
+34 | File | `admin/plugin-settings.php` | High
+35 | File | `admin/user_import.php` | High
+36 | ... | ... | ...
 
-There are 304 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 311 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -118,4 +119,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

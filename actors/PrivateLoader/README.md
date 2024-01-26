@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [LU](https://vuldb.com/?country.lu)
-* [CN](https://vuldb.com/?country.cn)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 14 more country items available. Please use our online service to access the data.
+There are 15 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -62,63 +62,65 @@ ID | Type | Indicator | Confidence
 5 | File | `/Admin/add-student.php` | High
 6 | File | `/admin/ajax/avatar.php` | High
 7 | File | `/admin/index.PHP` | High
-8 | File | `/admin/options` | High
-9 | File | `/admin/show.php` | High
-10 | File | `/admin/transactions/update_status.php` | High
-11 | File | `/alphaware/summary.php` | High
-12 | File | `/api/sys/login` | High
-13 | File | `/api/user/password/sent-reset-email` | High
-14 | File | `/baseOpLog.do` | High
-15 | File | `/bl-plugins/backup/plugin.php` | High
-16 | File | `/cgi-bin/nightled.cgi` | High
-17 | File | `/cgi/get_param.cgi` | High
-18 | File | `/classes/Users.php` | High
-19 | File | `/common/download_agent_installer.php` | High
-20 | File | `/common/info.cgi` | High
-21 | File | `/common/run_cross_report.php` | High
-22 | File | `/confirm` | Medium
-23 | File | `/controller/Index.php` | High
-24 | File | `/cwc/login` | Medium
-25 | File | `/debug/pprof` | Medium
-26 | File | `/doorgets/app/requests/user/emailingRequest.php` | High
-27 | File | `/etc/master.passwd` | High
-28 | File | `/etc/passwd` | Medium
-29 | File | `/EXCU_SHELL` | Medium
-30 | File | `/fax/fax_send.php` | High
-31 | File | `/foms/all-orders.php?status=Cancelled%20by%20Customer` | High
-32 | File | `/goform/addressNat` | High
-33 | File | `/goform/NatStaticSetting` | High
-34 | File | `/goform/setMacFilterCfg` | High
-35 | File | `/goform/systemlog?cmd=set` | High
-36 | File | `/goform/SysToolChangePwd` | High
-37 | File | `/goform/WifiBasicSet` | High
-38 | File | `/HNAP1` | Low
-39 | File | `/home/resume/index` | High
-40 | File | `/includes/lib/tree.php` | High
-41 | File | `/index.php` | Medium
-42 | File | `/index.php?action=seomatic/file/seo-file-link` | High
-43 | File | `/main?cmd=invalid_browser` | High
-44 | File | `/manager?action=getlogcat` | High
-45 | File | `/my_photo_gallery/image.php` | High
-46 | File | `/ofrs/admin/?page=reports` | High
-47 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-48 | File | `/page.php` | Medium
-49 | File | `/pages/permit/permit.php` | High
-50 | File | `/patient/doctors.php` | High
-51 | File | `/pet_shop/classes/Master.php?f=delete_category` | High
-52 | File | `/php-sms/admin/?page=services/manage_service` | High
-53 | File | `/phpinventory/editcategory.php` | High
-54 | File | `/phpinventory/edituser.php` | High
-55 | File | `/ping.html` | Medium
-56 | File | `/query` | Low
-57 | File | `/SASWebReportStudio/logonAndRender.do` | High
-58 | File | `/schedules/view_schedule.php` | High
-59 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-60 | File | `/secure/admin/RestoreDefaults.jspa` | High
-61 | File | `/services/view_service.php` | High
-62 | ... | ... | ...
+8 | File | `/Admin/News.php` | High
+9 | File | `/admin/options` | High
+10 | File | `/admin/show.php` | High
+11 | File | `/admin/transactions/update_status.php` | High
+12 | File | `/admin/view_sendlist.php` | High
+13 | File | `/alphaware/summary.php` | High
+14 | File | `/api/index.php` | High
+15 | File | `/api/sys/login` | High
+16 | File | `/api/user/password/sent-reset-email` | High
+17 | File | `/baseOpLog.do` | High
+18 | File | `/bl-plugins/backup/plugin.php` | High
+19 | File | `/cgi-bin/nightled.cgi` | High
+20 | File | `/cgi/get_param.cgi` | High
+21 | File | `/classes/Users.php` | High
+22 | File | `/common/download_agent_installer.php` | High
+23 | File | `/common/info.cgi` | High
+24 | File | `/common/run_cross_report.php` | High
+25 | File | `/confirm` | Medium
+26 | File | `/controller/Index.php` | High
+27 | File | `/cwc/login` | Medium
+28 | File | `/debug/pprof` | Medium
+29 | File | `/doorgets/app/requests/user/emailingRequest.php` | High
+30 | File | `/etc/master.passwd` | High
+31 | File | `/etc/passwd` | Medium
+32 | File | `/EXCU_SHELL` | Medium
+33 | File | `/fax/fax_send.php` | High
+34 | File | `/foms/all-orders.php?status=Cancelled%20by%20Customer` | High
+35 | File | `/forum/away.php` | High
+36 | File | `/goform/addressNat` | High
+37 | File | `/goform/NatStaticSetting` | High
+38 | File | `/goform/setMacFilterCfg` | High
+39 | File | `/goform/systemlog?cmd=set` | High
+40 | File | `/goform/SysToolChangePwd` | High
+41 | File | `/goform/WifiBasicSet` | High
+42 | File | `/HNAP1` | Low
+43 | File | `/home/resume/index` | High
+44 | File | `/includes/lib/tree.php` | High
+45 | File | `/index.php` | Medium
+46 | File | `/index.php?action=seomatic/file/seo-file-link` | High
+47 | File | `/LoginRegistration.php` | High
+48 | File | `/main?cmd=invalid_browser` | High
+49 | File | `/manager?action=getlogcat` | High
+50 | File | `/member/ad.php?action=ad` | High
+51 | File | `/my_photo_gallery/image.php` | High
+52 | File | `/ofrs/admin/?page=reports` | High
+53 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+54 | File | `/page.php` | Medium
+55 | File | `/pages/permit/permit.php` | High
+56 | File | `/patient/doctors.php` | High
+57 | File | `/pet_shop/classes/Master.php?f=delete_category` | High
+58 | File | `/php-sms/admin/?page=services/manage_service` | High
+59 | File | `/phpinventory/editcategory.php` | High
+60 | File | `/phpinventory/edituser.php` | High
+61 | File | `/query` | Low
+62 | File | `/SASWebReportStudio/logonAndRender.do` | High
+63 | File | `/schedules/view_schedule.php` | High
+64 | ... | ... | ...
 
-There are 546 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 558 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -145,4 +147,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

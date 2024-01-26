@@ -47,8 +47,9 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `asm/preproc.c` | High
-2 | File | `data/gbconfiguration.dat` | High
+1 | File | `administrator/components/com_media/helpers/media.php` | High
+2 | File | `asm/preproc.c` | High
+3 | File | `data/gbconfiguration.dat` | High
 
 ## References
 

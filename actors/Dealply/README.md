@@ -51,37 +51,38 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/activate_hook.php` | High
-2 | File | `/admin/admin_admin.php` | High
-3 | File | `/admin/ajax.php` | High
-4 | File | `/admin/index.php` | High
-5 | File | `/api/baskets/{name}` | High
-6 | File | `/bin/ate` | Medium
-7 | File | `/bin/webs` | Medium
-8 | File | `/boafrm/formFilter` | High
-9 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
-10 | File | `/cgi-bin/ping.cgi` | High
-11 | File | `/classes/Master.php` | High
-12 | File | `/classes/Master.php?f=delete_item` | High
-13 | File | `/classes/Master.php?f=delete_service` | High
-14 | File | `/collection/all` | High
-15 | File | `/dosen/data` | Medium
-16 | File | `/ecommerce/support_ticket` | High
-17 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-18 | File | `/Enclave.cpp` | Medium
-19 | File | `/file_manager/admin/save_user.php` | High
-20 | File | `/get-artifact` | High
-21 | File | `/goForm/aspForm` | High
-22 | File | `/goform/formTcpipSetup` | High
-23 | File | `/HNAP1/` | Low
-24 | File | `/inc/jquery/uploadify/uploadify.php` | High
-25 | File | `/index.php/archives/1/comment` | High
-26 | File | `/jerry-core/parser/js/js-lexer.c` | High
-27 | File | `/jerry-core/parser/js/js-parser-statm.c` | High
-28 | File | `/jerry-core/parser/js/js-scanner-util.c` | High
-29 | File | `/jurusan/data` | High
-30 | ... | ... | ...
+2 | File | `/admin/` | Low
+3 | File | `/admin/admin_admin.php` | High
+4 | File | `/admin/ajax.php` | High
+5 | File | `/admin/index.php` | High
+6 | File | `/admin/singlelogin.php?submit=1` | High
+7 | File | `/api/baskets/{name}` | High
+8 | File | `/bin/ate` | Medium
+9 | File | `/bin/webs` | Medium
+10 | File | `/boaform/device_reset.cgi` | High
+11 | File | `/boaform/wlan_basic_set.cgi` | High
+12 | File | `/boafrm/formFilter` | High
+13 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+14 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
+15 | File | `/cgi-bin/ping.cgi` | High
+16 | File | `/classes/Master.php` | High
+17 | File | `/classes/Master.php?f=delete_item` | High
+18 | File | `/classes/Master.php?f=delete_service` | High
+19 | File | `/collection/all` | High
+20 | File | `/dosen/data` | Medium
+21 | File | `/ecommerce/support_ticket` | High
+22 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+23 | File | `/Enclave.cpp` | Medium
+24 | File | `/file_manager/admin/save_user.php` | High
+25 | File | `/get-artifact` | High
+26 | File | `/goForm/aspForm` | High
+27 | File | `/goform/formTcpipSetup` | High
+28 | File | `/HNAP1/` | Low
+29 | File | `/inc/jquery/uploadify/uploadify.php` | High
+30 | File | `/index.php/archives/1/comment` | High
+31 | ... | ... | ...
 
-There are 252 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 268 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -100,4 +101,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

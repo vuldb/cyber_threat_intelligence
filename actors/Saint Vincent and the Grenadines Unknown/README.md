@@ -90,40 +90,41 @@ ID | Type | Indicator | Confidence
 31 | File | `/recordings/index.php` | High
 32 | File | `/see_more_details.php` | High
 33 | File | `/show_news.php` | High
-34 | File | `/tmp/before` | Medium
-35 | File | `/uncpath/` | Medium
-36 | File | `/updownload/t.report` | High
-37 | File | `/user.profile.php` | High
-38 | File | `/usr/bin/pkexec` | High
-39 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
-40 | File | `/wordpress/wp-admin/options-general.php` | High
-41 | File | `/wp-admin` | Medium
-42 | File | `/wp-admin/admin-ajax.php` | High
-43 | File | `4.2.0.CP09` | Medium
-44 | File | `account.asp` | Medium
-45 | File | `adclick.php` | Medium
-46 | File | `adm/systools.asp` | High
-47 | File | `admin.php` | Medium
-48 | File | `admin/admin.shtml` | High
-49 | File | `Admin/ADM_Pagina.php` | High
-50 | File | `admin/category.inc.php` | High
-51 | File | `admin/main.asp` | High
-52 | File | `admin/param/param_func.inc.php` | High
-53 | File | `admin/y_admin.asp` | High
-54 | File | `adminer.php` | Medium
-55 | File | `administration/admins.php` | High
-56 | File | `administrator/components/com_media/helpers/media.php` | High
-57 | File | `admin_ok.asp` | Medium
-58 | File | `album_portal.php` | High
-59 | File | `app/Core/Paginator.php` | High
-60 | File | `app/index.php/accounts/default/details?id=2&kanbanBoard=1&openToTaskId=1` | High
-61 | File | `artlinks.dispnew.php` | High
-62 | File | `auth.php` | Medium
-63 | File | `awstats.pl` | Medium
-64 | File | `bin/named/query.c` | High
-65 | ... | ... | ...
+34 | File | `/student/bookdetails.php` | High
+35 | File | `/tmp/before` | Medium
+36 | File | `/uncpath/` | Medium
+37 | File | `/updownload/t.report` | High
+38 | File | `/user.profile.php` | High
+39 | File | `/usr/bin/pkexec` | High
+40 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
+41 | File | `/wordpress/wp-admin/options-general.php` | High
+42 | File | `/wp-admin` | Medium
+43 | File | `/wp-admin/admin-ajax.php` | High
+44 | File | `4.2.0.CP09` | Medium
+45 | File | `account.asp` | Medium
+46 | File | `adclick.php` | Medium
+47 | File | `adm/systools.asp` | High
+48 | File | `admin.php` | Medium
+49 | File | `admin/admin.shtml` | High
+50 | File | `Admin/ADM_Pagina.php` | High
+51 | File | `admin/category.inc.php` | High
+52 | File | `admin/main.asp` | High
+53 | File | `admin/param/param_func.inc.php` | High
+54 | File | `admin/y_admin.asp` | High
+55 | File | `adminer.php` | Medium
+56 | File | `administration/admins.php` | High
+57 | File | `administrator/components/com_media/helpers/media.php` | High
+58 | File | `admin_ok.asp` | Medium
+59 | File | `album_portal.php` | High
+60 | File | `app/Core/Paginator.php` | High
+61 | File | `app/index.php/accounts/default/details?id=2&kanbanBoard=1&openToTaskId=1` | High
+62 | File | `artlinks.dispnew.php` | High
+63 | File | `auth.php` | Medium
+64 | File | `awstats.pl` | Medium
+65 | File | `bin/named/query.c` | High
+66 | ... | ... | ...
 
-There are 573 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 582 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -142,4 +143,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

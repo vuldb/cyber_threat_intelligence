@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 1 more country items available. Please use our online service to access the data.
+There are 2 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -48,7 +48,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 7 more TTP items available. Please use our online service to access the data.
+There are 10 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -57,25 +57,28 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/act/ActDao.xml` | High
-2 | File | `/userLogin.asp` | High
-3 | File | `Access.app/Contents/Resources/kcproxy` | High
-4 | File | `act.php` | Low
-5 | File | `act_newsletter.php` | High
-6 | File | `cloud.php` | Medium
-7 | File | `com_android_bluetooth_btservice_AdapterService.cpp` | High
-8 | File | `mod.php` | Low
-9 | File | `mod/assign/adminmanageplugins.php` | High
-10 | File | `mod/chat/index.php` | High
-11 | File | `mod/contak.php` | High
-12 | File | `mod/lesson/mediafile.php` | High
-13 | File | `mod/lti/ajax.php` | High
-14 | File | `mod/PM/reply.php` | High
-15 | File | `mod/quiz/db/access.php` | High
-16 | File | `mod/quiz/report/statistics/statistics_question_table.php` | High
-17 | File | `mod/user/act_user.php` | High
-18 | ... | ... | ...
+2 | File | `/api/trackedEntityInstances` | High
+3 | File | `/aux` | Low
+4 | File | `/dashboard/system/basics/name` | High
+5 | File | `/data/remove` | Medium
+6 | File | `/forum/away.php` | High
+7 | File | `/index.php` | Medium
+8 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+9 | File | `/tmp/ppd.trace` | High
+10 | File | `/userLogin.asp` | High
+11 | File | `Access.app/Contents/Resources/kcproxy` | High
+12 | File | `act.php` | Low
+13 | File | `act_newsletter.php` | High
+14 | File | `apexec.pl` | Medium
+15 | File | `cloud.php` | Medium
+16 | File | `com_android_bluetooth_btservice_AdapterService.cpp` | High
+17 | File | `Generator.php` | High
+18 | File | `Image/ImageProcessor` | High
+19 | File | `includes/baijiacms/common.inc.php` | High
+20 | File | `INETINFO.EXE` | Medium
+21 | ... | ... | ...
 
-There are 143 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 170 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -96,4 +99,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

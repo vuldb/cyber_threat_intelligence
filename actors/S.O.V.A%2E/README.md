@@ -47,38 +47,39 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/login.php` | High
-2 | File | `/aterm_httpif.cgi/negotiate` | High
-3 | File | `/cgi-bin/kerbynet` | High
-4 | File | `/churchcrm/WhyCameEditor.php` | High
-5 | File | `/cmsms-2.1.6-install.php/index.php` | High
-6 | File | `/ControlManager/cgi-bin/VA/isaNVWRequest.dll` | High
-7 | File | `/coreframe/app/member/admin/group.php` | High
-8 | File | `/forum/away.php` | High
-9 | File | `/goform/GetNewDir` | High
-10 | File | `/guestmanagement/front.php` | High
-11 | File | `/proc/self/environ` | High
-12 | File | `/Pwrchute` | Medium
-13 | File | `/recordings/index.php` | High
-14 | File | `/royal_event/companyprofile.php` | High
-15 | File | `/school/model/get_events.php` | High
-16 | File | `/setting_hidden.asp` | High
-17 | File | `/spip.php` | Medium
-18 | File | `/staff_login.php` | High
-19 | File | `/usr/bin/gxserve-update.sh` | High
-20 | File | `active_appointments.asp` | High
-21 | File | `add_edit_user.asp` | High
-22 | File | `admin/versions.html` | High
-23 | File | `admindocumentworker.jsp` | High
-24 | File | `albums.php` | Medium
-25 | File | `announcements.php` | High
-26 | File | `app/admin/custom-fields/edit-result.php` | High
-27 | File | `app/admin/custom-fields/edit.php` | High
-28 | File | `apply.cgi` | Medium
-29 | File | `ara.asp` | Low
-30 | File | `arch/x86/kvm/emulate.c` | High
-31 | ... | ... | ...
+2 | File | `/admin/mechanics/manage_mechanic.php` | High
+3 | File | `/aterm_httpif.cgi/negotiate` | High
+4 | File | `/cgi-bin/kerbynet` | High
+5 | File | `/churchcrm/WhyCameEditor.php` | High
+6 | File | `/cmsms-2.1.6-install.php/index.php` | High
+7 | File | `/ControlManager/cgi-bin/VA/isaNVWRequest.dll` | High
+8 | File | `/coreframe/app/member/admin/group.php` | High
+9 | File | `/forum/away.php` | High
+10 | File | `/goform/GetNewDir` | High
+11 | File | `/guestmanagement/front.php` | High
+12 | File | `/Interface/DevManage/VM.php` | High
+13 | File | `/proc/self/environ` | High
+14 | File | `/Pwrchute` | Medium
+15 | File | `/recordings/index.php` | High
+16 | File | `/royal_event/companyprofile.php` | High
+17 | File | `/school/model/get_events.php` | High
+18 | File | `/setting_hidden.asp` | High
+19 | File | `/spip.php` | Medium
+20 | File | `/staff_login.php` | High
+21 | File | `/usr/bin/gxserve-update.sh` | High
+22 | File | `active_appointments.asp` | High
+23 | File | `add_edit_user.asp` | High
+24 | File | `admin/versions.html` | High
+25 | File | `admindocumentworker.jsp` | High
+26 | File | `albums.php` | Medium
+27 | File | `announcements.php` | High
+28 | File | `app/admin/custom-fields/edit-result.php` | High
+29 | File | `app/admin/custom-fields/edit.php` | High
+30 | File | `apply.cgi` | Medium
+31 | File | `ara.asp` | Low
+32 | ... | ... | ...
 
-There are 267 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 271 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -95,4 +96,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

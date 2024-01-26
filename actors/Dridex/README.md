@@ -221,7 +221,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-28 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
@@ -252,7 +252,7 @@ ID | Type | Indicator | Confidence
 14 | File | `/api/trackedEntityInstances` | High
 15 | File | `/api/v2/cli/commands` | High
 16 | File | `/apply.cgi` | Medium
-17 | File | `/attachments` | Medium
+17 | File | `/aux` | Low
 18 | File | `/bin/ate` | Medium
 19 | File | `/boat/login.php` | High
 20 | File | `/booking/show_bookings/` | High
@@ -264,24 +264,25 @@ ID | Type | Indicator | Confidence
 26 | File | `/changePassword` | High
 27 | File | `/Content/Template/root/reverse-shell.aspx` | High
 28 | File | `/dashboard/add-blog.php` | High
-29 | File | `/debug/pprof` | Medium
-30 | File | `/ecshop/admin/template.php` | High
-31 | File | `/env` | Low
-32 | File | `/etc/hosts` | Medium
+29 | File | `/data/remove` | Medium
+30 | File | `/debug/pprof` | Medium
+31 | File | `/ecshop/admin/template.php` | High
+32 | File | `/env` | Low
 33 | File | `/eval/admin/manage_class.php` | High
 34 | File | `/forum/away.php` | High
 35 | File | `/group1/uploa` | High
 36 | File | `/home/cavesConsole` | High
-37 | File | `/medicines/profile.php` | High
-38 | File | `/mhds/clinic/view_details.php` | High
-39 | File | `/php-sms/admin/?page=user/manage_user` | High
-40 | File | `/reservation/add_message.php` | High
-41 | File | `/resources//../` | High
-42 | File | `/rest/api/latest/projectvalidate/key` | High
-43 | File | `/scripts/unlock_tasks.php` | High
-44 | ... | ... | ...
+37 | File | `/index.php` | Medium
+38 | File | `/medicines/profile.php` | High
+39 | File | `/mhds/clinic/view_details.php` | High
+40 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+41 | File | `/php-sms/admin/?page=user/manage_user` | High
+42 | File | `/reservation/add_message.php` | High
+43 | File | `/resources//../` | High
+44 | File | `/rest/api/latest/projectvalidate/key` | High
+45 | ... | ... | ...
 
-There are 381 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 393 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -482,4 +483,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

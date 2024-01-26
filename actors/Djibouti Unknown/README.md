@@ -68,32 +68,37 @@ ID | Type | Indicator | Confidence
 7 | File | `/filemanager/upload.php` | High
 8 | File | `/Forms/WLAN_General_1` | High
 9 | File | `/forum/away.php` | High
-10 | File | `/if.cgi` | Low
-11 | File | `/mifs/c/i/reg/reg.html` | High
-12 | File | `/modules/profile/index.php` | High
-13 | File | `/news.dtl.php` | High
-14 | File | `/pages/sdcall/Download.jsp` | High
-15 | File | `/see_more_details.php` | High
-16 | File | `/services/details.asp` | High
-17 | File | `/setup` | Low
-18 | File | `/spip.php` | Medium
-19 | File | `/uncpath/` | Medium
-20 | File | `/var/log/nginx` | High
-21 | File | `/VPortal/mgtconsole/Subscriptions.jsp` | High
-22 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-23 | File | `act.php` | Low
-24 | File | `adclick.php` | Medium
-25 | File | `add_comment.php` | High
-26 | File | `admin` | Low
-27 | File | `admin.php` | Medium
-28 | File | `admin/adminsignin.html` | High
-29 | File | `admin/movieview.php` | High
-30 | File | `admin/versions.html` | High
-31 | File | `agenda.php` | Medium
-32 | File | `ajax_calls.php` | High
-33 | ... | ... | ...
+10 | File | `/healthcare/Admin/consulting_detail.php` | High
+11 | File | `/if.cgi` | Low
+12 | File | `/mifs/c/i/reg/reg.html` | High
+13 | File | `/modules/profile/index.php` | High
+14 | File | `/news.dtl.php` | High
+15 | File | `/pages/sdcall/Download.jsp` | High
+16 | File | `/see_more_details.php` | High
+17 | File | `/services/details.asp` | High
+18 | File | `/setup` | Low
+19 | File | `/spip.php` | Medium
+20 | File | `/uncpath/` | Medium
+21 | File | `/var/log/nginx` | High
+22 | File | `/VPortal/mgtconsole/Subscriptions.jsp` | High
+23 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+24 | File | `/zm/index.php` | High
+25 | File | `act.php` | Low
+26 | File | `adclick.php` | Medium
+27 | File | `add_comment.php` | High
+28 | File | `admin` | Low
+29 | File | `admin.php` | Medium
+30 | File | `admin/adminsignin.html` | High
+31 | File | `admin/movieview.php` | High
+32 | File | `admin/versions.html` | High
+33 | File | `agenda.php` | Medium
+34 | File | `ajax_calls.php` | High
+35 | File | `api.php` | Low
+36 | File | `army.php` | Medium
+37 | File | `attendancy.php` | High
+38 | ... | ... | ...
 
-There are 278 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 328 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -112,4 +117,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -59,7 +59,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -70,47 +70,46 @@ ID | Type | Indicator | Confidence
 1 | File | `//proc/kcore` | Medium
 2 | File | `/?p=products` | Medium
 3 | File | `/academy/home/courses` | High
-4 | File | `/admin/?page=product/manage_product&id=2` | High
-5 | File | `/admin/about-us.php` | High
+4 | File | `/admin/about-us.php` | High
+5 | File | `/admin/action/delete-vaccine.php` | High
 6 | File | `/admin/del_feedback.php` | High
-7 | File | `/admin/maintenance/brand.php` | High
-8 | File | `/admin/mechanics/manage_mechanic.php` | High
-9 | File | `/admin/modal_add_product.php` | High
-10 | File | `/admin/positions_add.php` | High
-11 | File | `/admin/user/manage_user.php` | High
-12 | File | `/admin/userprofile.php` | High
-13 | File | `/admin/voters_row.php` | High
-14 | File | `/ajax.php?action=save_company` | High
-15 | File | `/ajax.php?action=save_user` | High
-16 | File | `/ajax/myshop` | Medium
-17 | File | `/api/baskets/{name}` | High
-18 | File | `/api/database` | High
-19 | File | `/App_Resource/UEditor/server/upload.aspx` | High
-20 | File | `/authenticationendpoint/login.do` | High
-21 | File | `/backup.pl` | Medium
-22 | File | `/bitrix/admin/ldap_server_edit.php` | High
-23 | File | `/c/PluginsController.php` | High
-24 | File | `/cas/logout` | Medium
-25 | File | `/category.php` | High
-26 | File | `/cgi-bin/system_mgr.cgi` | High
-27 | File | `/chaincity/user/ticket/create` | High
-28 | File | `/collection/all` | High
-29 | File | `/College/admin/teacher.php` | High
-30 | File | `/contactform/contactform.php` | High
-31 | File | `/Controller/Ajaxfileupload.ashx` | High
-32 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
-33 | File | `/dcim/rack-roles/` | High
-34 | File | `/ecommerce/support_ticket` | High
-35 | File | `/ecrire/exec/puce_statut.php` | High
-36 | File | `/files/` | Low
-37 | File | `/forum/away.php` | High
-38 | File | `/friends/ajax_invite` | High
-39 | File | `/goform/aspForm` | High
-40 | File | `/goform/WifiGuestSet` | High
-41 | File | `/home/filter_listings` | High
-42 | ... | ... | ...
+7 | File | `/admin/index2.html` | High
+8 | File | `/admin/maintenance/brand.php` | High
+9 | File | `/admin/mechanics/manage_mechanic.php` | High
+10 | File | `/admin/modal_add_product.php` | High
+11 | File | `/admin/positions_add.php` | High
+12 | File | `/admin/user/manage_user.php` | High
+13 | File | `/admin/userprofile.php` | High
+14 | File | `/admin/voters_row.php` | High
+15 | File | `/ajax.php?action=save_company` | High
+16 | File | `/ajax.php?action=save_user` | High
+17 | File | `/ajax/myshop` | Medium
+18 | File | `/api/baskets/{name}` | High
+19 | File | `/api/database` | High
+20 | File | `/app/index/controller/Common.php` | High
+21 | File | `/App_Resource/UEditor/server/upload.aspx` | High
+22 | File | `/authenticationendpoint/login.do` | High
+23 | File | `/backup.pl` | Medium
+24 | File | `/bitrix/admin/ldap_server_edit.php` | High
+25 | File | `/c/PluginsController.php` | High
+26 | File | `/cas/logout` | Medium
+27 | File | `/category.php` | High
+28 | File | `/cgi-bin/system_mgr.cgi` | High
+29 | File | `/chaincity/user/ticket/create` | High
+30 | File | `/collection/all` | High
+31 | File | `/contactform/contactform.php` | High
+32 | File | `/Controller/Ajaxfileupload.ashx` | High
+33 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
+34 | File | `/dcim/rack-roles/` | High
+35 | File | `/ecommerce/support_ticket` | High
+36 | File | `/ecrire/exec/puce_statut.php` | High
+37 | File | `/files/` | Low
+38 | File | `/forms/doLogin` | High
+39 | File | `/forum/away.php` | High
+40 | File | `/friends/ajax_invite` | High
+41 | ... | ... | ...
 
-There are 361 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 350 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -129,4 +128,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

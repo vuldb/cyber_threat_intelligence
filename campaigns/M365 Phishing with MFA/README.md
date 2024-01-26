@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 20 more country items available. Please use our online service to access the data.
+There are 21 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -61,36 +61,37 @@ ID | Type | Indicator | Confidence
 5 | File | `/iissamples/sdk/asp/interaction/Form_JScript.asp` | High
 6 | File | `/index.php` | Medium
 7 | File | `/iwgallery/admin/pictures_edit.asp` | High
-8 | File | `/lists/index.php` | High
-9 | File | `/mail/index.html` | High
-10 | File | `/okm:root` | Medium
-11 | File | `/public/plugins/` | High
-12 | File | `/replication` | Medium
-13 | File | `/TeamMate/Upload/DomainObjectDocumentUpload.ashx` | High
-14 | File | `/uncpath/` | Medium
-15 | File | `/uploads/dede` | High
-16 | File | `/WEB-INF/web.xml` | High
-17 | File | `/wp-json/oembed/1.0/embed?url` | High
-18 | File | `AccessPoint.aspx` | High
-19 | File | `activateuser.aspx` | High
-20 | File | `AdHocQuery_Processor.aspx` | High
-21 | File | `admin.asp` | Medium
-22 | File | `admin/admin.asp` | High
-23 | File | `admin/images.aspx` | High
-24 | File | `admin/index.php` | High
-25 | File | `admin/login.asp` | High
-26 | File | `advsearch.asp` | High
-27 | File | `AEAgent.cpp` | Medium
-28 | File | `ajax.php` | Medium
-29 | File | `ajax_calls.php` | High
-30 | File | `ajax_cmd.php` | Medium
-31 | File | `allmanageup.pl` | High
-32 | File | `appfeed.c` | Medium
-33 | File | `appointment.php` | High
-34 | File | `ara.asp` | Low
-35 | ... | ... | ...
+8 | File | `/jmreport/loadTableData` | High
+9 | File | `/lists/index.php` | High
+10 | File | `/mail/index.html` | High
+11 | File | `/okm:root` | Medium
+12 | File | `/public/plugins/` | High
+13 | File | `/replication` | Medium
+14 | File | `/TeamMate/Upload/DomainObjectDocumentUpload.ashx` | High
+15 | File | `/uncpath/` | Medium
+16 | File | `/uploads/dede` | High
+17 | File | `/WEB-INF/web.xml` | High
+18 | File | `/wp-json/oembed/1.0/embed?url` | High
+19 | File | `AccessPoint.aspx` | High
+20 | File | `activateuser.aspx` | High
+21 | File | `AdHocQuery_Processor.aspx` | High
+22 | File | `admin.asp` | Medium
+23 | File | `admin/admin.asp` | High
+24 | File | `admin/images.aspx` | High
+25 | File | `admin/index.php` | High
+26 | File | `admin/login.asp` | High
+27 | File | `advsearch.asp` | High
+28 | File | `AEAgent.cpp` | Medium
+29 | File | `ajax.php` | Medium
+30 | File | `ajax_calls.php` | High
+31 | File | `ajax_cmd.php` | Medium
+32 | File | `allmanageup.pl` | High
+33 | File | `appfeed.c` | Medium
+34 | File | `appointment.php` | High
+35 | File | `ara.asp` | Low
+36 | ... | ... | ...
 
-There are 296 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 309 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -107,4 +108,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

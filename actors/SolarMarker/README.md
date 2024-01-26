@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [DE](https://vuldb.com/?country.de)
 * ...
 
-There are 29 more country items available. Please use our online service to access the data.
+There are 30 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -25,11 +25,11 @@ ID | IP address | Hostname | Campaign | Confidence
 2 | [37.120.237.251](https://vuldb.com/?ip.37.120.237.251) | - | - | High
 3 | [45.42.201.248](https://vuldb.com/?ip.45.42.201.248) | - | - | High
 4 | [46.30.188.221](https://vuldb.com/?ip.46.30.188.221) | 46.30.188.221.static.quadranet.com | - | High
-5 | [78.135.73.148](https://vuldb.com/?ip.78.135.73.148) | - | - | High
-6 | [78.135.73.160](https://vuldb.com/?ip.78.135.73.160) | - | - | High
+5 | [77.105.166.247](https://vuldb.com/?ip.77.105.166.247) | fleet-impulse.aeza.network | - | High
+6 | [78.135.73.148](https://vuldb.com/?ip.78.135.73.148) | - | - | High
 7 | ... | ... | ... | ...
 
-There are 22 more IOC items available. Please use our online service to access the data.
+There are 23 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -44,7 +44,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -58,48 +58,49 @@ ID | Type | Indicator | Confidence
 4 | File | `/apiadmin/notice/add` | High
 5 | File | `/classes/master.php?f=delete_order` | High
 6 | File | `/cloud_config/router_post/register` | High
-7 | File | `/ecommerce/support_ticket` | High
-8 | File | `/etc/gsissh/sshd_config` | High
-9 | File | `/forms/nslookupHandler` | High
-10 | File | `/Forms/tools_test_1` | High
-11 | File | `/forum/away.php` | High
-12 | File | `/forum/PostPrivateMessage` | High
-13 | File | `/h/autoSaveDraft` | High
-14 | File | `/h/calendar` | Medium
-15 | File | `/holiday.php` | Medium
-16 | File | `/home/cavesConsole` | High
-17 | File | `/include/chart_generator.php` | High
-18 | File | `/index.php` | Medium
-19 | File | `/lam/tmp/` | Medium
-20 | File | `/librarian/bookdetails.php` | High
-21 | File | `/login/index.php` | High
-22 | File | `/log_download.cgi` | High
-23 | File | `/manager?action=getlogcat` | High
-24 | File | `/mgmt/tm/util/bash` | High
-25 | File | `/modules/profile/index.php` | High
-26 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-27 | File | `/news.dtl.php` | High
-28 | File | `/oauth/idp/.well-known/openid-configuration` | High
-29 | File | `/out.php` | Medium
-30 | File | `/p1/p2/:name` | Medium
-31 | File | `/param.file.tgz` | High
-32 | File | `/patient/appointment.php` | High
-33 | File | `/php-opos/index.php` | High
-34 | File | `/proc/<PID>/mem` | High
-35 | File | `/protocol/iscgwtunnel/uploadiscgwrouteconf.php` | High
-36 | File | `/ptms/?page=user` | High
-37 | File | `/Service/ImageStationDataService.asmx` | High
-38 | File | `/setup/finish` | High
-39 | File | `/spip.php` | Medium
-40 | File | `/sysmanage/importconf.php` | High
-41 | File | `/template/edit` | High
-42 | File | `/uncpath/` | Medium
-43 | File | `/upload/file.php` | High
-44 | File | `/user/s.php` | Medium
-45 | File | `/usr/bin/at` | Medium
-46 | ... | ... | ...
+7 | File | `/debug/pprof` | Medium
+8 | File | `/ecommerce/support_ticket` | High
+9 | File | `/etc/gsissh/sshd_config` | High
+10 | File | `/forms/nslookupHandler` | High
+11 | File | `/Forms/tools_test_1` | High
+12 | File | `/forum/away.php` | High
+13 | File | `/forum/PostPrivateMessage` | High
+14 | File | `/h/autoSaveDraft` | High
+15 | File | `/h/calendar` | Medium
+16 | File | `/holiday.php` | Medium
+17 | File | `/home/cavesConsole` | High
+18 | File | `/include/chart_generator.php` | High
+19 | File | `/index.php` | Medium
+20 | File | `/lam/tmp/` | Medium
+21 | File | `/librarian/bookdetails.php` | High
+22 | File | `/login/index.php` | High
+23 | File | `/log_download.cgi` | High
+24 | File | `/manager?action=getlogcat` | High
+25 | File | `/mgmt/tm/util/bash` | High
+26 | File | `/modules/profile/index.php` | High
+27 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+28 | File | `/news.dtl.php` | High
+29 | File | `/oauth/idp/.well-known/openid-configuration` | High
+30 | File | `/out.php` | Medium
+31 | File | `/p1/p2/:name` | Medium
+32 | File | `/param.file.tgz` | High
+33 | File | `/patient/appointment.php` | High
+34 | File | `/php-opos/index.php` | High
+35 | File | `/proc/<PID>/mem` | High
+36 | File | `/protocol/iscgwtunnel/uploadiscgwrouteconf.php` | High
+37 | File | `/ptms/?page=user` | High
+38 | File | `/Service/ImageStationDataService.asmx` | High
+39 | File | `/setup/finish` | High
+40 | File | `/spip.php` | Medium
+41 | File | `/sysmanage/importconf.php` | High
+42 | File | `/template/edit` | High
+43 | File | `/uncpath/` | Medium
+44 | File | `/upload/file.php` | High
+45 | File | `/user/s.php` | Medium
+46 | File | `/usr/bin/at` | Medium
+47 | ... | ... | ...
 
-There are 403 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 408 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -123,4 +124,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -58,53 +58,58 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/action/import_xml_file/` | High
 2 | File | `/action/wirelessConnect` | High
-3 | File | `/admin/?page=bike` | High
-4 | File | `/admin/?page=user/manage_user` | High
-5 | File | `/admin/cms_content.php` | High
-6 | File | `/admin/edit-services.php` | High
-7 | File | `/admin/edit_product.php` | High
-8 | File | `/admin/index.php` | High
-9 | File | `/admin/options-theme.php` | High
-10 | File | `/admin/orders/update_status.php` | High
-11 | File | `/admin/pages/sections_save.php` | High
-12 | File | `/admin/positions_row.php` | High
-13 | File | `/admin/userprofile.php` | High
-14 | File | `/ajax.php?action=save_company` | High
-15 | File | `/api/es/admin/v3/security/user/1` | High
-16 | File | `/api/v1/chat.getThreadsList` | High
-17 | File | `/api/v2/cli/commands` | High
-18 | File | `/api/v2/open/rowsInfo` | High
-19 | File | `/api/v3/flows/instances/default-user-settings-flow/execute/` | High
-20 | File | `/api/wechat/app_auth` | High
-21 | File | `/asms/admin/?page=user/manage_user` | High
-22 | File | `/blog/comment` | High
-23 | File | `/classes/Login.php` | High
-24 | File | `/Content/Plugins/uploader/FileChoose.html?fileUrl=/Upload/File/Pics/&parent` | High
-25 | File | `/course/filterRecords/` | High
-26 | File | `/dosen/data` | Medium
-27 | File | `/E-mobile/App/System/File/downfile.php` | High
-28 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-29 | File | `/env` | Low
-30 | File | `/etc/master.passwd` | High
-31 | File | `/etc/os-release` | High
-32 | File | `/file_manager/admin/save_user.php` | High
-33 | File | `/front/search.php` | High
-34 | File | `/garage/php_action/createBrand.php` | High
-35 | File | `/goform/addressNat` | High
-36 | File | `/goform/AdvSetWrlsafeset` | High
-37 | File | `/goform/editFileName` | High
-38 | File | `/goform/form2WizardStep54` | High
-39 | File | `/goform/setSysAdm` | High
-40 | File | `/goform/webExcptypemanFilter` | High
-41 | File | `/goform/WifiBasicSet` | High
-42 | File | `/goform/WifiMacFilterGet` | High
-43 | File | `/hss/admin/categories/view_category.php` | High
-44 | File | `/index.php` | Medium
-45 | File | `/jurusanmatkul/data` | High
-46 | File | `/load.php` | Medium
-47 | ... | ... | ...
+3 | File | `/admin/` | Low
+4 | File | `/admin/?page=bike` | High
+5 | File | `/admin/?page=user/manage_user` | High
+6 | File | `/admin/action/new-feed.php` | High
+7 | File | `/admin/cms_content.php` | High
+8 | File | `/admin/course.php` | High
+9 | File | `/admin/edit-services.php` | High
+10 | File | `/admin/edit_product.php` | High
+11 | File | `/admin/index.php` | High
+12 | File | `/admin/index.php?act=reset_admin_psw` | High
+13 | File | `/admin/ind_backstage.php` | High
+14 | File | `/admin/options-theme.php` | High
+15 | File | `/admin/orders/update_status.php` | High
+16 | File | `/admin/pages/sections_save.php` | High
+17 | File | `/admin/php/crud.php` | High
+18 | File | `/admin/positions_row.php` | High
+19 | File | `/admin/userprofile.php` | High
+20 | File | `/admin_route/inc_service_credits.php` | High
+21 | File | `/adplanet/PlanetCommentList` | High
+22 | File | `/ajax.php?action=save_company` | High
+23 | File | `/ample/app/action/edit_product.php` | High
+24 | File | `/api/es/admin/v3/security/user/1` | High
+25 | File | `/api/v2/cli/commands` | High
+26 | File | `/api/v2/open/rowsInfo` | High
+27 | File | `/api/v3/flows/instances/default-user-settings-flow/execute/` | High
+28 | File | `/api/wechat/app_auth` | High
+29 | File | `/asms/admin/?page=user/manage_user` | High
+30 | File | `/blog/comment` | High
+31 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
+32 | File | `/classes/Login.php` | High
+33 | File | `/config,admin.jsp` | High
+34 | File | `/Content/Plugins/uploader/FileChoose.html?fileUrl=/Upload/File/Pics/&parent` | High
+35 | File | `/course/filterRecords/` | High
+36 | File | `/dosen/data` | Medium
+37 | File | `/E-mobile/App/System/File/downfile.php` | High
+38 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+39 | File | `/env` | Low
+40 | File | `/etc/master.passwd` | High
+41 | File | `/etc/os-release` | High
+42 | File | `/file_manager/admin/save_user.php` | High
+43 | File | `/front/search.php` | High
+44 | File | `/garage/php_action/createBrand.php` | High
+45 | File | `/goform/addressNat` | High
+46 | File | `/goform/AdvSetWrlsafeset` | High
+47 | File | `/goform/editFileName` | High
+48 | File | `/goform/form2WizardStep54` | High
+49 | File | `/goform/SetOnlineDevName` | High
+50 | File | `/goform/setSysAdm` | High
+51 | File | `/goform/webExcptypemanFilter` | High
+52 | ... | ... | ...
 
-There are 409 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 451 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -125,4 +130,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

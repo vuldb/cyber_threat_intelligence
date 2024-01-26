@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [IO](https://vuldb.com/?country.io)
 * ...
 
-There are 24 more country items available. Please use our online service to access the data.
+There are 25 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -2562,12 +2562,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-425 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | T1068 | CWE-264, CWE-266, CWE-269, CWE-274, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+6 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 7 | ... | ... | ... | ...
 
 There are 22 more TTP items available. Please use our online service to access the data.
@@ -2581,45 +2581,47 @@ ID | Type | Indicator | Confidence
 1 | File | `%SYSTEMDRIVE%\node_modules\.bin\wmic.exe` | High
 2 | File | `/admin/add-category.php` | High
 3 | File | `/admin/add-services.php` | High
-4 | File | `/admin/controller/JobLogController.java` | High
-5 | File | `/admin/save.php` | High
-6 | File | `/admin/theme-edit.php` | High
-7 | File | `/ajax/networking/get_wgkey.php` | High
-8 | File | `/api/download` | High
-9 | File | `/api/runscript` | High
-10 | File | `/api/sys/login` | High
-11 | File | `/api/sys/set_passwd` | High
+4 | File | `/admin/borrow_add.php` | High
+5 | File | `/admin/clientview.php` | High
+6 | File | `/admin/controller/JobLogController.java` | High
+7 | File | `/admin/edit_teacher.php` | High
+8 | File | `/admin/theme-edit.php` | High
+9 | File | `/api/log/killJob` | High
+10 | File | `/api/snapshot and /api/get_log_file` | High
+11 | File | `/api/trackedEntityInstances` | High
 12 | File | `/api/upload.php` | High
-13 | File | `/api/v1/alerts` | High
-14 | File | `/api/v1/terminal/sessions/?limit=1` | High
-15 | File | `/api2/html/` | Medium
-16 | File | `/base/ecma-helpers.c` | High
-17 | File | `/category.php` | High
-18 | File | `/categorypage.php` | High
-19 | File | `/cgi-bin/vitogate.cgi` | High
-20 | File | `/changePassword` | High
-21 | File | `/Content/Plugins/uploader/FileChoose.html?fileUrl=/Upload/File/Pics/&parent` | High
-22 | File | `/dashboard/add-blog.php` | High
-23 | File | `/data/remove` | Medium
-24 | File | `/debug/pprof` | Medium
-25 | File | `/dev/kmem` | Medium
-26 | File | `/ecshop/admin/template.php` | High
-27 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-28 | File | `/fcgi/scrut_fcgi.fcgi` | High
-29 | File | `/forum/away.php` | High
-30 | File | `/geoserver/gwc/rest.html` | High
-31 | File | `/goform/formSysCmd` | High
-32 | File | `/HNAP1` | Low
-33 | File | `/index.php` | Medium
-34 | File | `/issue` | Low
-35 | File | `/jeecg-boot/jmreport/show` | High
-36 | File | `/jeecg-boot/jmreport/upload` | High
-37 | File | `/librarian/bookdetails.php` | High
-38 | File | `/oauth/idp/.well-known/openid-configuration` | High
-39 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
-40 | ... | ... | ...
+13 | File | `/app/api/controller/caiji.php` | High
+14 | File | `/app/Http/Controllers/ImageController.php` | High
+15 | File | `/app/index/controller/Common.php` | High
+16 | File | `/application/pay/controller/Api.php` | High
+17 | File | `/aux` | Low
+18 | File | `/b2b-supermarket/shopping-cart` | High
+19 | File | `/base/ecma-helpers.c` | High
+20 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+21 | File | `/change-language/de_DE` | High
+22 | File | `/churchcrm/WhyCameEditor.php` | High
+23 | File | `/classes/Master.php?f=delete_category` | High
+24 | File | `/Content/Plugins/uploader/FileChoose.html?fileUrl=/Upload/File/Pics/&parent` | High
+25 | File | `/dashboard/add-blog.php` | High
+26 | File | `/data/remove` | Medium
+27 | File | `/debug/pprof` | Medium
+28 | File | `/dist/index.js` | High
+29 | File | `/ecshop/admin/template.php` | High
+30 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+31 | File | `/forum/away.php` | High
+32 | File | `/geoserver/gwc/rest.html` | High
+33 | File | `/goform/formSysCmd` | High
+34 | File | `/gracemedia-media-player/templates/files/ajax_controller.php` | High
+35 | File | `/HNAP1/` | Low
+36 | File | `/hosts/firewall/ip` | High
+37 | File | `/index.php` | Medium
+38 | File | `/index.php/ccm/system/file/upload` | High
+39 | File | `/index.php?c=api` | High
+40 | File | `/issue` | Low
+41 | File | `/log/decodmail.php` | High
+42 | ... | ... | ...
 
-There are 344 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 364 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -2640,4 +2642,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

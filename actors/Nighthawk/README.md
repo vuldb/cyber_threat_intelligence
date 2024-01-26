@@ -67,23 +67,23 @@ ID | Type | Indicator | Confidence
 13 | File | `/admin/content/index` | High
 14 | File | `/admin/edit-accepted-appointment.php` | High
 15 | File | `/admin/edit-doc.php` | High
-16 | File | `/admin/edit.php` | High
-17 | File | `/admin/fields/manage_field.php` | High
-18 | File | `/admin/inquiries/view_inquiry.php` | High
-19 | File | `/admin/lab.php` | High
-20 | File | `/admin/list_addr_fwresource_ip.php` | High
-21 | File | `/admin/maintenance/brand.php` | High
-22 | File | `/admin/modal_add_product.php` | High
-23 | File | `/admin/positions_add.php` | High
-24 | File | `/admin/positions_delete.php` | High
-25 | File | `/admin/products/index.php` | High
-26 | File | `/admin/project/update/2` | High
-27 | File | `/admin/reminders/manage_reminder.php` | High
-28 | File | `/admin/reports/index.php` | High
-29 | File | `/admin/transactions/track_shipment.php` | High
-30 | File | `/admin/usermanagement.php` | High
-31 | File | `/adms/classes/Users.php` | High
-32 | File | `/alphaware/summary.php` | High
+16 | File | `/admin/fields/manage_field.php` | High
+17 | File | `/admin/inquiries/view_inquiry.php` | High
+18 | File | `/admin/lab.php` | High
+19 | File | `/admin/list_addr_fwresource_ip.php` | High
+20 | File | `/admin/maintenance/brand.php` | High
+21 | File | `/admin/modal_add_product.php` | High
+22 | File | `/admin/positions_add.php` | High
+23 | File | `/admin/positions_delete.php` | High
+24 | File | `/admin/products/index.php` | High
+25 | File | `/admin/project/update/2` | High
+26 | File | `/admin/reminders/manage_reminder.php` | High
+27 | File | `/admin/reports/index.php` | High
+28 | File | `/admin/transactions/track_shipment.php` | High
+29 | File | `/admin/usermanagement.php` | High
+30 | File | `/adms/classes/Users.php` | High
+31 | File | `/alphaware/summary.php` | High
+32 | File | `/ample/app/action/edit_product.php` | High
 33 | File | `/api/admin/store/product/list` | High
 34 | File | `/api/browserextension/UpdatePassword/` | High
 35 | File | `/api/upload` | Medium
@@ -131,7 +131,7 @@ ID | Type | Indicator | Confidence
 77 | File | `/index.php?zone=settings` | High
 78 | ... | ... | ...
 
-There are 687 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 685 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -165,4 +165,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

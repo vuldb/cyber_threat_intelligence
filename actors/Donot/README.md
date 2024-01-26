@@ -76,34 +76,34 @@ ID | Type | Indicator | Confidence
 12 | File | `/admin/group/list/` | High
 13 | File | `/admin/lab.php` | High
 14 | File | `/admin/new-content` | High
-15 | File | `/admin/renewaldue.php` | High
-16 | File | `/admin/sign/out` | High
-17 | File | `/admin/usermanagement.php` | High
-18 | File | `/aqpg/users/login.php` | High
-19 | File | `/artist-display.php` | High
-20 | File | `/backups/` | Medium
-21 | File | `/bcms/admin/?page=user/list` | High
-22 | File | `/cardo/api` | Medium
-23 | File | `/catcompany.php` | High
-24 | File | `/CCMAdmin/serverlist.asp` | High
-25 | File | `/cgi-bin/editBookmark` | High
-26 | File | `/cgi-bin/system_mgr.cgi` | High
-27 | File | `/cgi-bin/touchlist_sync.cgi` | High
-28 | File | `/cimom` | Low
-29 | File | `/ci_spms/admin/category` | High
-30 | File | `/classes/Users.php?f=save` | High
-31 | File | `/cwms/admin/?page=articles/view_article/` | High
-32 | File | `/cwms/classes/Master.php?f=save_contact` | High
-33 | File | `/dashboard/add-blog.php` | High
-34 | File | `/dashboard/add-portfolio.php` | High
-35 | File | `/dashboard/settings` | High
-36 | File | `/downloadmaster/dm_apply.cgi?action_mode=initial&download_type=General&special_cgi=get_language` | High
-37 | File | `/env` | Low
-38 | File | `/film-rating.php` | High
-39 | File | `/forum/away.php` | High
+15 | File | `/Admin/News.php` | High
+16 | File | `/admin/renewaldue.php` | High
+17 | File | `/admin/sign/out` | High
+18 | File | `/admin/usermanagement.php` | High
+19 | File | `/aqpg/users/login.php` | High
+20 | File | `/artist-display.php` | High
+21 | File | `/backups/` | Medium
+22 | File | `/bcms/admin/?page=user/list` | High
+23 | File | `/cardo/api` | Medium
+24 | File | `/catcompany.php` | High
+25 | File | `/CCMAdmin/serverlist.asp` | High
+26 | File | `/cgi-bin/editBookmark` | High
+27 | File | `/cgi-bin/system_mgr.cgi` | High
+28 | File | `/cgi-bin/touchlist_sync.cgi` | High
+29 | File | `/cgi-bin/wlogin.cgi` | High
+30 | File | `/cimom` | Low
+31 | File | `/ci_spms/admin/category` | High
+32 | File | `/classes/Users.php?f=save` | High
+33 | File | `/cwms/admin/?page=articles/view_article/` | High
+34 | File | `/cwms/classes/Master.php?f=save_contact` | High
+35 | File | `/dashboard/add-blog.php` | High
+36 | File | `/dashboard/add-portfolio.php` | High
+37 | File | `/dashboard/settings` | High
+38 | File | `/downloadmaster/dm_apply.cgi?action_mode=initial&download_type=General&special_cgi=get_language` | High
+39 | File | `/env` | Low
 40 | ... | ... | ...
 
-There are 341 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 348 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -125,4 +125,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

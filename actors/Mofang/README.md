@@ -53,16 +53,17 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin/index.php` | High
 3 | File | `/cgi-mod/lookup.cgi` | High
 4 | File | `/getcfg.php` | Medium
-5 | File | `/message/ajax/send/` | High
-6 | File | `/proc/self/environ` | High
-7 | File | `/sitecore/client/Applications/List Manager/Taskpages/Contact list` | High
-8 | File | `/v2/customerdb/operator.svc/a` | High
-9 | File | `add_comment.php` | High
-10 | File | `app/controllers/application_controller.rb` | High
-11 | File | `application\api\controller\User.php` | High
-12 | ... | ... | ...
+5 | File | `/ipms/imageConvert/image` | High
+6 | File | `/message/ajax/send/` | High
+7 | File | `/proc/self/environ` | High
+8 | File | `/sitecore/client/Applications/List Manager/Taskpages/Contact list` | High
+9 | File | `/v2/customerdb/operator.svc/a` | High
+10 | File | `add_comment.php` | High
+11 | File | `app/controllers/application_controller.rb` | High
+12 | File | `application\api\controller\User.php` | High
+13 | ... | ... | ...
 
-There are 95 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 105 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

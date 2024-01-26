@@ -275,38 +275,36 @@ ID | Type | Indicator | Confidence
 10 | File | `/APR/signup.php` | High
 11 | File | `/author_posts.php` | High
 12 | File | `/bin/sh` | Low
-13 | File | `/boaform/wlan_basic_set.cgi` | High
-14 | File | `/cgi-bin/wlogin.cgi` | High
-15 | File | `/classes/Master.php?f=delete_service` | High
-16 | File | `/classes/Master.php?f=save_brand` | High
-17 | File | `/classes/Master.php?f=save_course` | High
-18 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
-19 | File | `/E-mobile/App/System/File/downfile.php` | High
-20 | File | `/Electron/download` | High
-21 | File | `/forum/away.php` | High
-22 | File | `/ghost/preview` | High
-23 | File | `/goform/formDefault` | High
-24 | File | `/goform/set_LimitClient_cfg` | High
-25 | File | `/htdocs/cgibin` | High
-26 | File | `/inc/topBarNav.php` | High
-27 | File | `/index.php/client/message/message_read/xxxxxxxx[random-msg-hash]` | High
-28 | File | `/mhds/clinic/view_details.php` | High
-29 | File | `/mims/login.php` | High
-30 | File | `/out.php` | Medium
-31 | File | `/products/view_product.php` | High
-32 | File | `/proxy` | Low
-33 | File | `/reviewer/system/system/admins/manage/users/user-update.php` | High
-34 | File | `/scripts/unlock_tasks.php` | High
-35 | File | `/search-result.php` | High
-36 | File | `/search.php` | Medium
-37 | File | `/send_order.cgi?parameter=access_detect` | High
-38 | File | `/spip.php` | Medium
-39 | File | `/text/pdf/PdfReader.java` | High
-40 | File | `/textpattern/index.php` | High
-41 | File | `/tmp` | Low
-42 | ... | ... | ...
+13 | File | `/boaform/device_reset.cgi` | High
+14 | File | `/boaform/wlan_basic_set.cgi` | High
+15 | File | `/cgi-bin/wlogin.cgi` | High
+16 | File | `/classes/Master.php?f=delete_service` | High
+17 | File | `/classes/Master.php?f=save_brand` | High
+18 | File | `/classes/Master.php?f=save_course` | High
+19 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
+20 | File | `/E-mobile/App/System/File/downfile.php` | High
+21 | File | `/Electron/download` | High
+22 | File | `/forum/away.php` | High
+23 | File | `/ghost/preview` | High
+24 | File | `/goform/AdvSetLanip` | High
+25 | File | `/goform/formDefault` | High
+26 | File | `/goform/set_LimitClient_cfg` | High
+27 | File | `/htdocs/cgibin` | High
+28 | File | `/inc/topBarNav.php` | High
+29 | File | `/index.php/client/message/message_read/xxxxxxxx[random-msg-hash]` | High
+30 | File | `/mhds/clinic/view_details.php` | High
+31 | File | `/mims/login.php` | High
+32 | File | `/out.php` | Medium
+33 | File | `/products/view_product.php` | High
+34 | File | `/proxy` | Low
+35 | File | `/register.do` | Medium
+36 | File | `/reviewer/system/system/admins/manage/users/user-update.php` | High
+37 | File | `/scripts/unlock_tasks.php` | High
+38 | File | `/search-result.php` | High
+39 | File | `/search.php` | Medium
+40 | ... | ... | ...
 
-There are 360 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 343 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -327,4 +325,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -72,47 +72,47 @@ ID | Type | Indicator | Confidence
 15 | File | `/h/calendar` | Medium
 16 | File | `/inc/extensions.php` | High
 17 | File | `/include/chart_generator.php` | High
-18 | File | `/index.php` | Medium
-19 | File | `/members/view_member.php` | High
-20 | File | `/mhds/clinic/view_details.php` | High
-21 | File | `/nova/bin/console` | High
-22 | File | `/nova/bin/detnet` | High
-23 | File | `/oauth/idp/.well-known/openid-configuration` | High
-24 | File | `/out.php` | Medium
-25 | File | `/owa/auth/logon.aspx` | High
-26 | File | `/product_list.php` | High
-27 | File | `/req_password_user.php` | High
-28 | File | `/rest/api/latest/projectvalidate/key` | High
-29 | File | `/rom-0` | Low
-30 | File | `/secure/QueryComponent!Default.jspa` | High
-31 | File | `/ServletAPI/accounts/login` | High
-32 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
-33 | File | `/sysmanage/changelogo.php` | High
-34 | File | `/tmp/.uci/network` | High
-35 | File | `/uncpath/` | Medium
-36 | File | `/upload` | Low
-37 | File | `/usr/bin/pkexec` | High
-38 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
-39 | File | `/usr/syno/etc/mount.conf` | High
-40 | File | `/vdesk` | Low
-41 | File | `/WEB-INF/web.xml` | High
-42 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-43 | File | `/wp-json` | Medium
-44 | File | `aboutus.php` | Medium
-45 | File | `achat/produit_details.php` | High
-46 | File | `adclick.php` | Medium
-47 | File | `add_to_cart.php` | High
-48 | File | `adm.cgi` | Low
-49 | File | `admin.jcomments.php` | High
-50 | File | `admin/index.php` | High
-51 | File | `admin/modules/tools/ip_history_logs.php` | High
-52 | File | `admin/specials.php` | High
-53 | File | `announce.php` | Medium
-54 | File | `App/Ajax/ajax.php?action=mobile_upload_save` | High
-55 | File | `articles.php` | Medium
+18 | File | `/includes/login.php` | High
+19 | File | `/index.php` | Medium
+20 | File | `/members/view_member.php` | High
+21 | File | `/mhds/clinic/view_details.php` | High
+22 | File | `/nova/bin/console` | High
+23 | File | `/nova/bin/detnet` | High
+24 | File | `/oauth/idp/.well-known/openid-configuration` | High
+25 | File | `/out.php` | Medium
+26 | File | `/owa/auth/logon.aspx` | High
+27 | File | `/product_list.php` | High
+28 | File | `/req_password_user.php` | High
+29 | File | `/rest/api/latest/projectvalidate/key` | High
+30 | File | `/rom-0` | Low
+31 | File | `/secure/QueryComponent!Default.jspa` | High
+32 | File | `/ServletAPI/accounts/login` | High
+33 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
+34 | File | `/sysmanage/changelogo.php` | High
+35 | File | `/tmp/.uci/network` | High
+36 | File | `/uncpath/` | Medium
+37 | File | `/upload` | Low
+38 | File | `/usr/bin/pkexec` | High
+39 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
+40 | File | `/usr/syno/etc/mount.conf` | High
+41 | File | `/vdesk` | Low
+42 | File | `/WEB-INF/web.xml` | High
+43 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+44 | File | `/wp-json` | Medium
+45 | File | `aboutus.php` | Medium
+46 | File | `achat/produit_details.php` | High
+47 | File | `adclick.php` | Medium
+48 | File | `add_to_cart.php` | High
+49 | File | `adm.cgi` | Low
+50 | File | `admin.jcomments.php` | High
+51 | File | `admin/index.php` | High
+52 | File | `admin/modules/tools/ip_history_logs.php` | High
+53 | File | `admin/specials.php` | High
+54 | File | `announce.php` | Medium
+55 | File | `App/Ajax/ajax.php?action=mobile_upload_save` | High
 56 | ... | ... | ...
 
-There are 489 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 490 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -129,4 +129,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

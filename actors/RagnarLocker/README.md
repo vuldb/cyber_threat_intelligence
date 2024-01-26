@@ -53,43 +53,43 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
 2 | File | `/adminlogin.asp` | High
-3 | File | `/category_view.php` | High
-4 | File | `/dipam/athlete-profile.php` | High
-5 | File | `/forum/away.php` | High
-6 | File | `/goform/delAd` | High
-7 | File | `/HNAP1` | Low
-8 | File | `/mc-admin/post.php?state=delete&delete` | High
-9 | File | `/mkshop/Men/profile.php` | High
-10 | File | `/pharmacy-sales-and-inventory-system/manage_user.php` | High
-11 | File | `/php-jms/review_se_result.php` | High
-12 | File | `/public/login.htm` | High
-13 | File | `/Side.php` | Medium
-14 | File | `/spip.php` | Medium
-15 | File | `/student/bookdetails.php` | High
-16 | File | `/textpattern/index.php` | High
-17 | File | `/user/profile` | High
-18 | File | `/usr/ucb/mail` | High
-19 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-20 | File | `account.asp` | Medium
-21 | File | `adclick.php` | Medium
-22 | File | `addmember.php` | High
-23 | File | `addtocart.asp` | High
-24 | File | `addtomylist.asp` | High
-25 | File | `admin.php` | Medium
-26 | File | `admin.x-shop.php` | High
-27 | File | `admin/auth.php` | High
-28 | File | `admin/import/class-import-settings.php` | High
-29 | File | `admin/sqlpatch.php` | High
-30 | File | `adminAttachments.php` | High
-31 | File | `adminBoards.php` | High
-32 | File | `admincp/auth/checklogin.php` | High
-33 | File | `adminlogin.asp` | High
-34 | File | `adminPolls.php` | High
-35 | File | `admin_feature.php` | High
-36 | File | `aj.html` | Low
+3 | File | `/app/index/controller/Common.php` | High
+4 | File | `/category_view.php` | High
+5 | File | `/dipam/athlete-profile.php` | High
+6 | File | `/forum/away.php` | High
+7 | File | `/goform/delAd` | High
+8 | File | `/HNAP1` | Low
+9 | File | `/mc-admin/post.php?state=delete&delete` | High
+10 | File | `/mkshop/Men/profile.php` | High
+11 | File | `/pharmacy-sales-and-inventory-system/manage_user.php` | High
+12 | File | `/php-jms/review_se_result.php` | High
+13 | File | `/public/login.htm` | High
+14 | File | `/Side.php` | Medium
+15 | File | `/spip.php` | Medium
+16 | File | `/student/bookdetails.php` | High
+17 | File | `/textpattern/index.php` | High
+18 | File | `/user/profile` | High
+19 | File | `/usr/ucb/mail` | High
+20 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+21 | File | `account.asp` | Medium
+22 | File | `adclick.php` | Medium
+23 | File | `addmember.php` | High
+24 | File | `addtocart.asp` | High
+25 | File | `addtomylist.asp` | High
+26 | File | `admin.php` | Medium
+27 | File | `admin.x-shop.php` | High
+28 | File | `admin/auth.php` | High
+29 | File | `admin/import/class-import-settings.php` | High
+30 | File | `admin/sqlpatch.php` | High
+31 | File | `adminAttachments.php` | High
+32 | File | `adminBoards.php` | High
+33 | File | `admincp/auth/checklogin.php` | High
+34 | File | `adminlogin.asp` | High
+35 | File | `adminPolls.php` | High
+36 | File | `admin_feature.php` | High
 37 | ... | ... | ...
 
-There are 316 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 318 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -106,4 +106,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

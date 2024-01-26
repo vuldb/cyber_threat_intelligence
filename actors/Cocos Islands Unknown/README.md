@@ -40,7 +40,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 15 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -50,47 +50,48 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/?Page=Node/OBJ=/System/DeviceFolder/DeviceFolder/DateTime/Action=Submit` | High
 2 | File | `/acms/admin/cargo_types/manage_cargo_type.php` | High
-3 | File | `/admin/ajax/avatar.php` | High
-4 | File | `/admin/forgot-password.php` | High
-5 | File | `/admin/index.php` | High
-6 | File | `/admin/lab.php` | High
-7 | File | `/admin/login.php` | High
-8 | File | `/admin/payment.php` | High
-9 | File | `/admin/show.php` | High
-10 | File | `/default.php?idx=17` | High
-11 | File | `/download` | Medium
-12 | File | `/env` | Low
-13 | File | `/forum/away.php` | High
-14 | File | `/index.php` | Medium
-15 | File | `/opt/bin/cli` | Medium
-16 | File | `/p` | Low
-17 | File | `/patient/doctors.php` | High
-18 | File | `/phpinventory/editcategory.php` | High
-19 | File | `/product-list.php` | High
-20 | File | `/public/login.htm` | High
-21 | File | `/server-info` | Medium
-22 | File | `/spip.php` | Medium
-23 | File | `/tmp` | Low
-24 | File | `/tmp/sysstat.run` | High
-25 | File | `/uncpath/` | Medium
-26 | File | `/updown/upload.cgi` | High
-27 | File | `/user/del.php` | High
-28 | File | `/websocket/exec` | High
-29 | File | `/wp-admin/admin-ajax.php` | High
-30 | File | `/_next` | Low
-31 | File | `123flashchat.php` | High
-32 | File | `act.php` | Low
-33 | File | `add_vhost.php` | High
-34 | File | `admin.php/pay` | High
-35 | File | `admin/bad.php` | High
-36 | File | `admin/index.php` | High
-37 | File | `admin/index.php/user/del/1` | High
-38 | File | `admin/index.php?id=themes&action=edit_chunk` | High
-39 | File | `administrator/index.php` | High
-40 | File | `agenda.php` | Medium
-41 | ... | ... | ...
+3 | File | `/admin/add-services.php` | High
+4 | File | `/admin/ajax/avatar.php` | High
+5 | File | `/admin/edit-services.php` | High
+6 | File | `/admin/forgot-password.php` | High
+7 | File | `/admin/index.php` | High
+8 | File | `/admin/lab.php` | High
+9 | File | `/admin/login.php` | High
+10 | File | `/admin/payment.php` | High
+11 | File | `/admin/show.php` | High
+12 | File | `/boat/login.php` | High
+13 | File | `/clinic/disease_symptoms_view.php` | High
+14 | File | `/default.php?idx=17` | High
+15 | File | `/download` | Medium
+16 | File | `/env` | Low
+17 | File | `/forum/away.php` | High
+18 | File | `/index.php` | Medium
+19 | File | `/opt/bin/cli` | Medium
+20 | File | `/p` | Low
+21 | File | `/patient/doctors.php` | High
+22 | File | `/phpinventory/editcategory.php` | High
+23 | File | `/product-list.php` | High
+24 | File | `/public/login.htm` | High
+25 | File | `/server-info` | Medium
+26 | File | `/spip.php` | Medium
+27 | File | `/tmp` | Low
+28 | File | `/tmp/sysstat.run` | High
+29 | File | `/uncpath/` | Medium
+30 | File | `/updown/upload.cgi` | High
+31 | File | `/user/del.php` | High
+32 | File | `/websocket/exec` | High
+33 | File | `/wp-admin/admin-ajax.php` | High
+34 | File | `/_next` | Low
+35 | File | `123flashchat.php` | High
+36 | File | `act.php` | Low
+37 | File | `add_vhost.php` | High
+38 | File | `admin.php/pay` | High
+39 | File | `admin/bad.php` | High
+40 | File | `admin/index.php` | High
+41 | File | `admin/index.php/user/del/1` | High
+42 | ... | ... | ...
 
-There are 353 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 367 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -108,4 +109,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

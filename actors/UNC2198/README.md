@@ -40,7 +40,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059 | CWE-94 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 15 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -64,36 +64,44 @@ ID | Type | Indicator | Confidence
 14 | File | `/admin/article/article-edit-run.php` | High
 15 | File | `/admin/attendance_row.php` | High
 16 | File | `/admin/cashadvance_row.php` | High
-17 | File | `/admin/cms.php` | High
-18 | File | `/admin/deduction_row.php` | High
-19 | File | `/admin/del_feedback.php` | High
-20 | File | `/admin/edit-accepted-appointment.php` | High
-21 | File | `/admin/edit-services.php` | High
-22 | File | `/admin/employee_row.php` | High
-23 | File | `/admin/featured.php` | High
-24 | File | `/admin/invoice.php` | High
-25 | File | `/admin/login.php` | High
-26 | File | `/admin/maintenance/brand.php` | High
-27 | File | `/admin/payment.php` | High
-28 | File | `/admin/photo.php` | High
-29 | File | `/admin/read.php?mudi=getSignal` | High
-30 | File | `/admin/searchview.php` | High
-31 | File | `/admin/students/manage.php` | High
-32 | File | `/admin/sys_sql_query.php` | High
-33 | File | `/ajax-files/followBoard.php` | High
-34 | File | `/ajax-files/postComment.php` | High
-35 | File | `/ajax.php?action=read_msg` | High
-36 | File | `/anony/mjpg.cgi` | High
-37 | File | `/api/wechat/app_auth` | High
-38 | File | `/App_Resource/UEditor/server/upload.aspx` | High
-39 | File | `/artist-display.php` | High
-40 | File | `/author/list?limit=10&offset=0&order=desc` | High
-41 | File | `/blog` | Low
-42 | File | `/browse` | Low
-43 | File | `/bsms_ci/index.php` | High
-44 | ... | ... | ...
+17 | File | `/admin/clientview.php` | High
+18 | File | `/admin/cms.php` | High
+19 | File | `/admin/deduction_row.php` | High
+20 | File | `/admin/del_feedback.php` | High
+21 | File | `/admin/edit-accepted-appointment.php` | High
+22 | File | `/admin/edit-services.php` | High
+23 | File | `/admin/employee_row.php` | High
+24 | File | `/admin/featured.php` | High
+25 | File | `/admin/invoice.php` | High
+26 | File | `/admin/login.php` | High
+27 | File | `/admin/maintenance/brand.php` | High
+28 | File | `/admin/manage-users.php` | High
+29 | File | `/admin/payment.php` | High
+30 | File | `/admin/photo.php` | High
+31 | File | `/admin/read.php?mudi=getSignal` | High
+32 | File | `/admin/regester.php` | High
+33 | File | `/admin/searchview.php` | High
+34 | File | `/admin/students/manage.php` | High
+35 | File | `/admin/sys_sql_query.php` | High
+36 | File | `/ajax-files/followBoard.php` | High
+37 | File | `/ajax-files/postComment.php` | High
+38 | File | `/ajax.php?action=read_msg` | High
+39 | File | `/anony/mjpg.cgi` | High
+40 | File | `/api/wechat/app_auth` | High
+41 | File | `/app/api/controller/default/Sqlite.php` | High
+42 | File | `/App_Resource/UEditor/server/upload.aspx` | High
+43 | File | `/artist-display.php` | High
+44 | File | `/auth/auth.php?user=1` | High
+45 | File | `/author/list?limit=10&offset=0&order=desc` | High
+46 | File | `/b2b-supermarket/shopping-cart` | High
+47 | File | `/bin/boa` | Medium
+48 | File | `/blog` | Low
+49 | File | `/browse` | Low
+50 | File | `/bsms_ci/index.php` | High
+51 | File | `/categorypage.php` | High
+52 | ... | ... | ...
 
-There are 385 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 454 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -110,4 +118,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

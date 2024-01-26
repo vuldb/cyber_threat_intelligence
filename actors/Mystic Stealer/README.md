@@ -8,8 +8,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Mystic Stealer:
 
-* [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
+* [US](https://vuldb.com/?country.us)
 * [LA](https://vuldb.com/?country.la)
 * ...
 
@@ -51,7 +51,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -72,48 +72,52 @@ ID | Type | Indicator | Confidence
 11 | File | `/api/stl/actions/search` | High
 12 | File | `/api/sys/login` | High
 13 | File | `/api/sys/set_passwd` | High
-14 | File | `/api/v2/cli/commands` | High
-15 | File | `/be/erpc.php` | Medium
-16 | File | `/bin/ate` | Medium
-17 | File | `/boat/login.php` | High
-18 | File | `/booking/show_bookings/` | High
-19 | File | `/bsms_ci/index.php/book` | High
-20 | File | `/cgi-bin` | Medium
-21 | File | `/cgi-bin/wlogin.cgi` | High
-22 | File | `/changePassword` | High
-23 | File | `/Content/Template/root/reverse-shell.aspx` | High
-24 | File | `/dashboard/add-blog.php` | High
-25 | File | `/debug/pprof` | Medium
-26 | File | `/DXR.axd` | Medium
-27 | File | `/ecshop/admin/template.php` | High
-28 | File | `/env` | Low
-29 | File | `/etc/gsissh/sshd_config` | High
-30 | File | `/film-rating.php` | High
-31 | File | `/forum/away.php` | High
-32 | File | `/group1/uploa` | High
-33 | File | `/index.php` | Medium
-34 | File | `/librarian/bookdetails.php` | High
-35 | File | `/medicines/profile.php` | High
-36 | File | `/oauth/idp/.well-known/openid-configuration` | High
-37 | File | `/owa/auth/logon.aspx` | High
-38 | File | `/php-sms/admin/?page=user/manage_user` | High
-39 | File | `/ping.html` | Medium
-40 | File | `/qsr_server/device/reboot` | High
-41 | File | `/reservation/add_message.php` | High
-42 | File | `/resources//../` | High
-43 | File | `/spip.php` | Medium
-44 | File | `/student/bookdetails.php` | High
-45 | File | `/testConnection` | High
-46 | File | `/tmp` | Low
-47 | File | `/user/updatePwd` | High
-48 | File | `/userLogin.asp` | High
-49 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
-50 | File | `/video-sharing-script/watch-video.php` | High
-51 | File | `/vm/admin/doctors.php` | High
-52 | File | `/wireless/security.asp` | High
-53 | ... | ... | ...
+14 | File | `/api/trackedEntityInstances` | High
+15 | File | `/api/v2/cli/commands` | High
+16 | File | `/aux` | Low
+17 | File | `/be/erpc.php` | Medium
+18 | File | `/bin/ate` | Medium
+19 | File | `/boat/login.php` | High
+20 | File | `/booking/show_bookings/` | High
+21 | File | `/cgi-bin` | Medium
+22 | File | `/cgi-bin/wlogin.cgi` | High
+23 | File | `/changePassword` | High
+24 | File | `/Content/Template/root/reverse-shell.aspx` | High
+25 | File | `/dashboard/add-blog.php` | High
+26 | File | `/data/remove` | Medium
+27 | File | `/debug/pprof` | Medium
+28 | File | `/DXR.axd` | Medium
+29 | File | `/ecshop/admin/template.php` | High
+30 | File | `/env` | Low
+31 | File | `/film-rating.php` | High
+32 | File | `/forum/away.php` | High
+33 | File | `/group1/uploa` | High
+34 | File | `/index.php` | Medium
+35 | File | `/librarian/bookdetails.php` | High
+36 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+37 | File | `/novel/bookSetting/list` | High
+38 | File | `/oauth/idp/.well-known/openid-configuration` | High
+39 | File | `/owa/auth/logon.aspx` | High
+40 | File | `/php-sms/admin/?page=user/manage_user` | High
+41 | File | `/ping.html` | Medium
+42 | File | `/qsr_server/device/reboot` | High
+43 | File | `/reservation/add_message.php` | High
+44 | File | `/resources//../` | High
+45 | File | `/spip.php` | Medium
+46 | File | `/student/bookdetails.php` | High
+47 | File | `/testConnection` | High
+48 | File | `/tmp/ppd.trace` | High
+49 | File | `/user/updatePwd` | High
+50 | File | `/userLogin.asp` | High
+51 | File | `/video-sharing-script/watch-video.php` | High
+52 | File | `/vm/admin/doctors.php` | High
+53 | File | `/wireless/security.asp` | High
+54 | File | `/wp-json` | Medium
+55 | File | `/zm/index.php` | High
+56 | File | `Access.app/Contents/Resources/kcproxy` | High
+57 | ... | ... | ...
 
-There are 465 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 495 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -139,4 +143,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

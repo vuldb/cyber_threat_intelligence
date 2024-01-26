@@ -63,37 +63,37 @@ ID | Type | Indicator | Confidence
 11 | File | `/admin/show.php` | High
 12 | File | `/boat/login.php` | High
 13 | File | `/cgi-bin/kerbynet` | High
-14 | File | `/clinic/disease_symptoms_view.php` | High
-15 | File | `/default.php?idx=17` | High
-16 | File | `/download` | Medium
-17 | File | `/env` | Low
-18 | File | `/forum/away.php` | High
-19 | File | `/index.php` | Medium
-20 | File | `/opt/bin/cli` | Medium
-21 | File | `/p` | Low
-22 | File | `/patient/doctors.php` | High
-23 | File | `/phpinventory/editcategory.php` | High
-24 | File | `/product-list.php` | High
-25 | File | `/spip.php` | Medium
-26 | File | `/uncpath/` | Medium
-27 | File | `/updown/upload.cgi` | High
-28 | File | `/user/del.php` | High
-29 | File | `/wp-admin/admin-ajax.php` | High
-30 | File | `/_next` | Low
-31 | File | `123flashchat.php` | High
-32 | File | `act.php` | Low
-33 | File | `admin.php/pay` | High
-34 | File | `admin/bad.php` | High
-35 | File | `admin/index.php` | High
-36 | File | `admin/index.php/user/del/1` | High
-37 | File | `admin/index.php?id=themes&action=edit_chunk` | High
-38 | File | `admin/products/controller.php?action=add` | High
-39 | File | `administrator/index.php` | High
-40 | File | `agenda.php` | Medium
-41 | File | `ajax/render/widget_php` | High
+14 | File | `/ckeditor/samples/old/ajax.html` | High
+15 | File | `/clinic/disease_symptoms_view.php` | High
+16 | File | `/default.php?idx=17` | High
+17 | File | `/download` | Medium
+18 | File | `/env` | Low
+19 | File | `/forum/away.php` | High
+20 | File | `/index.php` | Medium
+21 | File | `/opt/bin/cli` | Medium
+22 | File | `/p` | Low
+23 | File | `/patient/doctors.php` | High
+24 | File | `/phpinventory/editcategory.php` | High
+25 | File | `/product-list.php` | High
+26 | File | `/spip.php` | Medium
+27 | File | `/uncpath/` | Medium
+28 | File | `/updown/upload.cgi` | High
+29 | File | `/user/del.php` | High
+30 | File | `/wp-admin/admin-ajax.php` | High
+31 | File | `/_next` | Low
+32 | File | `123flashchat.php` | High
+33 | File | `act.php` | Low
+34 | File | `admin.php/pay` | High
+35 | File | `admin/bad.php` | High
+36 | File | `admin/index.php` | High
+37 | File | `admin/index.php/user/del/1` | High
+38 | File | `admin/index.php?id=themes&action=edit_chunk` | High
+39 | File | `admin/products/controller.php?action=add` | High
+40 | File | `administrator/index.php` | High
+41 | File | `agenda.php` | Medium
 42 | ... | ... | ...
 
-There are 362 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 363 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

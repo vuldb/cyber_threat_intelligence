@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [DE](https://vuldb.com/?country.de)
-* [FR](https://vuldb.com/?country.fr)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
 There are 20 more country items available. Please use our online service to access the data.
@@ -30,9 +30,10 @@ ID | IP address | Hostname | Campaign | Confidence
 7 | [40.127.163.74](https://vuldb.com/?ip.40.127.163.74) | - | - | High
 8 | [42.118.133.241](https://vuldb.com/?ip.42.118.133.241) | - | - | High
 9 | [45.137.22.152](https://vuldb.com/?ip.45.137.22.152) | hosted-by.rootlayer.net | - | High
-10 | ... | ... | ... | ...
+10 | [45.147.230.231](https://vuldb.com/?ip.45.147.230.231) | - | - | High
+11 | ... | ... | ... | ...
 
-There are 38 more IOC items available. Please use our online service to access the data.
+There are 39 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -79,7 +80,7 @@ ID | Type | Indicator | Confidence
 22 | File | `/hrm/controller/employee.php` | High
 23 | File | `/include/chart_generator.php` | High
 24 | File | `/integrations.json` | High
-25 | File | `/lists/admin/` | High
+25 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
 26 | File | `/product.php` | Medium
 27 | File | `/public` | Low
 28 | File | `/public/login.htm` | High
@@ -89,24 +90,25 @@ ID | Type | Indicator | Confidence
 32 | File | `/usr/local/www/pkg.php` | High
 33 | File | `/var/www/rhcert` | High
 34 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
-35 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-36 | File | `a2billing/customer/iridium_threed.php` | High
-37 | File | `adclick.php` | Medium
-38 | File | `addentry.php` | Medium
-39 | File | `admin.php` | Medium
-40 | File | `admin.php/comments/batchdel/` | High
-41 | File | `admin.php/User/del/ucode/` | High
-42 | File | `admin.php?c=a_adminuser&a=add&run=1` | High
-43 | File | `admin.php?m=Member&a=adminaddsave` | High
+35 | File | `/web/api/app/Controller/HostController.php` | High
+36 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+37 | File | `a2billing/customer/iridium_threed.php` | High
+38 | File | `adclick.php` | Medium
+39 | File | `addentry.php` | Medium
+40 | File | `Addmessage.php` | High
+41 | File | `admin.php` | Medium
+42 | File | `admin.php/comments/batchdel/` | High
+43 | File | `admin.php/User/del/ucode/` | High
 44 | ... | ... | ...
 
-There are 383 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 380 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://threatfox.abuse.ch
+* https://tria.ge/231218-shv6tscgh3
 
 ## Literature
 
@@ -117,4 +119,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

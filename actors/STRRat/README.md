@@ -76,7 +76,7 @@ ID | IP address | Hostname | Campaign | Confidence
 53 | [45.137.22.251](https://vuldb.com/?ip.45.137.22.251) | hosted-by.rootlayer.net | - | High
 54 | ... | ... | ... | ...
 
-There are 212 more IOC items available. Please use our online service to access the data.
+There are 213 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -85,14 +85,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Pathname Traversal | High
-2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
-6 | T1078.001 | CWE-259 | Use of Hard-coded Password | High
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 7 | ... | ... | ... | ...
 
-There are 23 more TTP items available. Please use our online service to access the data.
+There are 25 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -100,51 +100,53 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/?p=products` | Medium
-2 | File | `/academy/home/courses` | High
-3 | File | `/admin/controller/JobLogController.java` | High
-4 | File | `/admin/del_feedback.php` | High
-5 | File | `/admin/modal_add_product.php` | High
-6 | File | `/admin/positions_add.php` | High
-7 | File | `/admin/user/manage_user.php` | High
-8 | File | `/ajax.php?action=save_company` | High
-9 | File | `/ajax.php?action=save_user` | High
-10 | File | `/ajax/myshop` | Medium
-11 | File | `/api/baskets/{name}` | High
-12 | File | `/api/database` | High
-13 | File | `/api/stl/actions/search` | High
-14 | File | `/api/sys/login` | High
-15 | File | `/api/sys/set_passwd` | High
-16 | File | `/api/v2/cli/commands` | High
-17 | File | `/api/v4/users/ids` | High
-18 | File | `/apply.cgi` | Medium
-19 | File | `/App_Resource/UEditor/server/upload.aspx` | High
-20 | File | `/authenticationendpoint/login.do` | High
-21 | File | `/backup.pl` | Medium
-22 | File | `/bin/ate` | Medium
-23 | File | `/booking/show_bookings/` | High
-24 | File | `/c/PluginsController.php` | High
-25 | File | `/cas/logout` | Medium
-26 | File | `/category.php` | High
-27 | File | `/cgi-bin` | Medium
-28 | File | `/cgi-bin/system_mgr.cgi` | High
-29 | File | `/cgi-bin/wlogin.cgi` | High
-30 | File | `/chaincity/user/ticket/create` | High
-31 | File | `/changePassword` | High
-32 | File | `/collection/all` | High
-33 | File | `/contactform/contactform.php` | High
-34 | File | `/Content/Template/root/reverse-shell.aspx` | High
-35 | File | `/Controller/Ajaxfileupload.ashx` | High
-36 | File | `/csms/?page=contact_us` | High
-37 | File | `/cwms/classes/Master.php?f=save_contact` | High
-38 | File | `/dashboard/add-blog.php` | High
-39 | File | `/debug/pprof` | Medium
-40 | File | `/ecommerce/support_ticket` | High
-41 | File | `/ecrire/exec/puce_statut.php` | High
-42 | File | `/ecshop/admin/template.php` | High
-43 | ... | ... | ...
+1 | File | `/academy/home/courses` | High
+2 | File | `/admin/controller/JobLogController.java` | High
+3 | File | `/admin/del_feedback.php` | High
+4 | File | `/admin/modal_add_product.php` | High
+5 | File | `/admin/positions_add.php` | High
+6 | File | `/ajax.php?action=save_company` | High
+7 | File | `/ajax.php?action=save_user` | High
+8 | File | `/api/admin/system/store/order/list` | High
+9 | File | `/api/baskets/{name}` | High
+10 | File | `/api/database` | High
+11 | File | `/api/sys/login` | High
+12 | File | `/api/sys/set_passwd` | High
+13 | File | `/api/trackedEntityInstances` | High
+14 | File | `/api/v4/users/ids` | High
+15 | File | `/apply.cgi` | Medium
+16 | File | `/App_Resource/UEditor/server/upload.aspx` | High
+17 | File | `/aux` | Low
+18 | File | `/bin/ate` | Medium
+19 | File | `/booking/show_bookings/` | High
+20 | File | `/c/PluginsController.php` | High
+21 | File | `/category.php` | High
+22 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+23 | File | `/cgi-bin/wlogin.cgi` | High
+24 | File | `/chaincity/user/ticket/create` | High
+25 | File | `/changePassword` | High
+26 | File | `/collection/all` | High
+27 | File | `/Content/Template/root/reverse-shell.aspx` | High
+28 | File | `/Controller/Ajaxfileupload.ashx` | High
+29 | File | `/csms/?page=contact_us` | High
+30 | File | `/cwms/classes/Master.php?f=save_contact` | High
+31 | File | `/dashboard/add-blog.php` | High
+32 | File | `/data/remove` | Medium
+33 | File | `/debug/pprof` | Medium
+34 | File | `/ecommerce/support_ticket` | High
+35 | File | `/ecrire/exec/puce_statut.php` | High
+36 | File | `/ecshop/admin/template.php` | High
+37 | File | `/env` | Low
+38 | File | `/etc/shadow` | Medium
+39 | File | `/files/` | Low
+40 | File | `/forum/away.php` | High
+41 | File | `/friends/ajax_invite` | High
+42 | File | `/goform/WifiGuestSet` | High
+43 | File | `/group1/uploa` | High
+44 | File | `/home/filter_listings` | High
+45 | ... | ... | ...
 
-There are 373 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 386 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -172,4 +174,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

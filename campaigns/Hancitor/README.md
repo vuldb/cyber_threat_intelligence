@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CA](https://vuldb.com/?country.ca)
 * ...
 
-There are 12 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -112,7 +112,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -121,45 +121,46 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/academy/tutor/filter` | High
-2 | File | `/admin/reminders/manage_reminder.php` | High
-3 | File | `/app/options.py` | High
-4 | File | `/CCMAdmin/serverlist.asp` | High
-5 | File | `/cgi/get_param.cgi` | High
-6 | File | `/csms/admin/inquiries/view_details.php` | High
-7 | File | `/cstecgi.cgi` | Medium
-8 | File | `/etc/quagga` | Medium
-9 | File | `/forms/doLogin` | High
-10 | File | `/forum/away.php` | High
-11 | File | `/hrm/employeeview.php` | High
-12 | File | `/include/chart_generator.php` | High
-13 | File | `/install/index.php` | High
-14 | File | `/lan.asp` | Medium
-15 | File | `/librarian/bookdetails.php` | High
-16 | File | `/messageboard/view.php` | High
-17 | File | `/mhds/clinic/view_details.php` | High
-18 | File | `/out.php` | Medium
-19 | File | `/rest/api/latest/projectvalidate/key` | High
-20 | File | `/rom-0` | Low
-21 | File | `/ServletAPI/accounts/login` | High
-22 | File | `/SVFE2/pages/feegroups/country_group.jsf` | High
-23 | File | `/textpattern/index.php` | High
-24 | File | `/upfile.cgi` | Medium
-25 | File | `/wordpress/wp-admin/admin.php` | High
-26 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-27 | File | `account_footer.php` | High
-28 | File | `adclick.php` | Medium
-29 | File | `add_edit_cat.asp` | High
-30 | File | `add_edit_user.asp` | High
-31 | File | `adm.cgi` | Low
-32 | File | `admin.cropcanvas.php` | High
-33 | File | `admin/editusertag.php` | High
-34 | File | `admin/edit_category.php` | High
-35 | File | `admin/index.php` | High
-36 | File | `adminAttachments.php` | High
-37 | File | `adminBanned.php` | High
-38 | ... | ... | ...
+2 | File | `/admin/general.cgi` | High
+3 | File | `/admin/reminders/manage_reminder.php` | High
+4 | File | `/app/options.py` | High
+5 | File | `/CCMAdmin/serverlist.asp` | High
+6 | File | `/cgi/get_param.cgi` | High
+7 | File | `/csms/admin/inquiries/view_details.php` | High
+8 | File | `/cstecgi.cgi` | Medium
+9 | File | `/etc/quagga` | Medium
+10 | File | `/forms/doLogin` | High
+11 | File | `/forum/away.php` | High
+12 | File | `/hrm/employeeview.php` | High
+13 | File | `/include/chart_generator.php` | High
+14 | File | `/install/index.php` | High
+15 | File | `/lan.asp` | Medium
+16 | File | `/librarian/bookdetails.php` | High
+17 | File | `/messageboard/view.php` | High
+18 | File | `/mhds/clinic/view_details.php` | High
+19 | File | `/out.php` | Medium
+20 | File | `/rest/api/latest/projectvalidate/key` | High
+21 | File | `/rom-0` | Low
+22 | File | `/ServletAPI/accounts/login` | High
+23 | File | `/SVFE2/pages/feegroups/country_group.jsf` | High
+24 | File | `/textpattern/index.php` | High
+25 | File | `/upfile.cgi` | Medium
+26 | File | `/wordpress/wp-admin/admin.php` | High
+27 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+28 | File | `account_footer.php` | High
+29 | File | `adclick.php` | Medium
+30 | File | `add_edit_cat.asp` | High
+31 | File | `add_edit_user.asp` | High
+32 | File | `adm.cgi` | Low
+33 | File | `admin.cropcanvas.php` | High
+34 | File | `admin.jcomments.php` | High
+35 | File | `admin/editusertag.php` | High
+36 | File | `admin/edit_category.php` | High
+37 | File | `admin/index.php` | High
+38 | File | `adminAttachments.php` | High
+39 | ... | ... | ...
 
-There are 327 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 337 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -195,4 +196,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

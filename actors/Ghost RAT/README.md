@@ -4,6 +4,12 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.ghost_rat](https://vuldb.com/?actor.ghost_rat)
 
+## Countries
+
+These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Ghost RAT:
+
+* [US](https://vuldb.com/?country.us)
+
 ## IOC - Indicator of Compromise
 
 These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of Ghost RAT.
@@ -31,11 +37,41 @@ ID | IP address | Hostname | Campaign | Confidence
 19 | [39.109.113.141](https://vuldb.com/?ip.39.109.113.141) | - | - | High
 20 | [43.129.192.59](https://vuldb.com/?ip.43.129.192.59) | - | - | High
 21 | [43.142.38.153](https://vuldb.com/?ip.43.142.38.153) | - | - | High
-22 | [43.249.195.178](https://vuldb.com/?ip.43.249.195.178) | - | - | High
-23 | [43.255.241.176](https://vuldb.com/?ip.43.255.241.176) | 43-255-241-176.static.bestidc.net | - | High
-24 | ... | ... | ... | ...
+22 | [43.248.137.153](https://vuldb.com/?ip.43.248.137.153) | - | - | High
+23 | [43.249.195.178](https://vuldb.com/?ip.43.249.195.178) | - | - | High
+24 | [43.255.241.176](https://vuldb.com/?ip.43.255.241.176) | 43-255-241-176.static.bestidc.net | - | High
+25 | [45.153.241.207](https://vuldb.com/?ip.45.153.241.207) | - | - | High
+26 | [47.92.53.65](https://vuldb.com/?ip.47.92.53.65) | - | - | High
+27 | [47.97.103.217](https://vuldb.com/?ip.47.97.103.217) | - | - | High
+28 | ... | ... | ... | ...
 
-There are 94 more IOC items available. Please use our online service to access the data.
+There are 108 more IOC items available. Please use our online service to access the data.
+
+## TTP - Tactics, Techniques, Procedures
+
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _Ghost RAT_. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1055 | CWE-74 | Injection | High
+2 | T1059 | CWE-94 | Cross Site Scripting | High
+3 | T1059.007 | CWE-79 | Cross Site Scripting | High
+4 | ... | ... | ... | ...
+
+There are 5 more TTP items available. Please use our online service to access the data.
+
+## IOA - Indicator of Attack
+
+These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by Ghost RAT. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Type | Indicator | Confidence
+-- | ---- | --------- | ----------
+1 | File | `/debug/pprof` | Medium
+2 | File | `/yxcms/index.php?r=admin/extendfield/mesedit&tabid=12&id=4` | High
+3 | File | `common.php` | Medium
+4 | ... | ... | ...
+
+There are 8 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -48,17 +84,26 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://bazaar.abuse.ch/sample/ca15a055b2e1d06a8fbd3a22341aeda29bbc19688b778dc3a15c615f0367bc21/
 * https://mobile.twitter.com/1ZRR4H/status/1523791593278345217
 * https://search.censys.io/hosts/1.13.249.49
+* https://search.censys.io/hosts/43.248.137.153
 * https://search.censys.io/hosts/61.147.93.153
 * https://search.censys.io/hosts/61.147.199.238
 * https://search.censys.io/hosts/85.214.255.25
+* https://search.censys.io/hosts/101.43.129.115
 * https://search.censys.io/hosts/103.148.245.125
 * https://search.censys.io/hosts/106.52.216.65
 * https://search.censys.io/hosts/116.63.35.42
 * https://search.censys.io/hosts/121.5.136.143
+* https://search.censys.io/hosts/121.22.243.241
 * https://search.censys.io/hosts/121.62.16.112
 * https://search.censys.io/hosts/124.222.227.63
 * https://search.censys.io/hosts/124.223.199.81
 * https://search.censys.io/hosts/125.229.22.79
+* https://search.censys.io/hosts/129.204.53.10
+* https://search.censys.io/hosts/134.122.135.75
+* https://search.censys.io/hosts/134.122.135.81
+* https://search.censys.io/hosts/149.88.73.191
+* https://search.censys.io/hosts/154.23.141.34
+* https://search.censys.io/hosts/156.224.27.167
 * https://search.censys.io/hosts/180.97.238.254
 * https://search.censys.io/hosts/202.63.172.122
 * https://search.censys.io/hosts/211.101.247.155
@@ -75,4 +120,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

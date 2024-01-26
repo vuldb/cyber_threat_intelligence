@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [NL](https://vuldb.com/?country.nl)
 * ...
 
-There are 14 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -28,11 +28,11 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [37.1.204.87](https://vuldb.com/?ip.37.1.204.87) | - | - | High
-2 | [104.168.145.204](https://vuldb.com/?ip.104.168.145.204) | hwsrv-836597.hostwindsdns.com | Badhatch | High
-3 | [104.168.237.21](https://vuldb.com/?ip.104.168.237.21) | hwsrv-850035.hostwindsdns.com | - | High
+2 | [37.10.71.215](https://vuldb.com/?ip.37.10.71.215) | pewna-kamagra.pl | - | High
+3 | [104.168.145.204](https://vuldb.com/?ip.104.168.145.204) | hwsrv-836597.hostwindsdns.com | Badhatch | High
 4 | ... | ... | ... | ...
 
-There are 6 more IOC items available. Please use our online service to access the data.
+There are 7 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -56,53 +56,54 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/?p=products` | Medium
-2 | File | `/about.php` | Medium
-3 | File | `/admin.php/accessory/filesdel.html` | High
-4 | File | `/admin/?page=user/manage` | High
-5 | File | `/admin/add-new.php` | High
-6 | File | `/admin/controller/JobLogController.java` | High
-7 | File | `/admin/doctors.php` | High
-8 | File | `/admin/submit-articles` | High
-9 | File | `/alphaware/summary.php` | High
-10 | File | `/api/` | Low
-11 | File | `/api/admin/store/product/list` | High
-12 | File | `/api/baskets/{name}` | High
-13 | File | `/api/stl/actions/search` | High
-14 | File | `/api/sys/login` | High
-15 | File | `/api/sys/set_passwd` | High
+2 | File | `/admin.php/accessory/filesdel.html` | High
+3 | File | `/admin/?page=user/manage` | High
+4 | File | `/admin/add-new.php` | High
+5 | File | `/admin/controller/JobLogController.java` | High
+6 | File | `/admin/doctors.php` | High
+7 | File | `/admin/submit-articles` | High
+8 | File | `/alphaware/summary.php` | High
+9 | File | `/api/` | Low
+10 | File | `/api/admin/store/product/list` | High
+11 | File | `/api/baskets/{name}` | High
+12 | File | `/api/stl/actions/search` | High
+13 | File | `/api/sys/login` | High
+14 | File | `/api/sys/set_passwd` | High
+15 | File | `/api/trackedEntityInstances` | High
 16 | File | `/api/v2/cli/commands` | High
 17 | File | `/attachments` | Medium
-18 | File | `/bin/ate` | Medium
-19 | File | `/boat/login.php` | High
-20 | File | `/booking/show_bookings/` | High
-21 | File | `/bsms_ci/index.php/book` | High
-22 | File | `/cgi-bin` | Medium
-23 | File | `/cgi-bin/luci/api/wireless` | High
+18 | File | `/aux` | Low
+19 | File | `/bin/ate` | Medium
+20 | File | `/boat/login.php` | High
+21 | File | `/booking/show_bookings/` | High
+22 | File | `/bsms_ci/index.php/book` | High
+23 | File | `/cgi-bin` | Medium
 24 | File | `/cgi-bin/wlogin.cgi` | High
 25 | File | `/changePassword` | High
 26 | File | `/Content/Template/root/reverse-shell.aspx` | High
 27 | File | `/context/%2e/WEB-INF/web.xml` | High
 28 | File | `/dashboard/add-blog.php` | High
-29 | File | `/debug/pprof` | Medium
-30 | File | `/ecshop/admin/template.php` | High
-31 | File | `/env` | Low
-32 | File | `/etc/hosts` | Medium
-33 | File | `/forum/away.php` | High
-34 | File | `/goform/setmac` | High
+29 | File | `/data/remove` | Medium
+30 | File | `/debug/pprof` | Medium
+31 | File | `/ecshop/admin/template.php` | High
+32 | File | `/env` | Low
+33 | File | `/etc/hosts` | Medium
+34 | File | `/forum/away.php` | High
 35 | File | `/goform/wizard_end` | High
 36 | File | `/group1/uploa` | High
-37 | File | `/manage-apartment.php` | High
+37 | File | `/index.php` | Medium
 38 | File | `/medicines/profile.php` | High
 39 | File | `/mhds/clinic/view_details.php` | High
 40 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-41 | File | `/pages/apply_vacancy.php` | High
+41 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
 42 | File | `/php-sms/admin/?page=user/manage_user` | High
 43 | File | `/proxy` | Low
 44 | File | `/reservation/add_message.php` | High
 45 | File | `/resources//../` | High
-46 | ... | ... | ...
+46 | File | `/spip.php` | Medium
+47 | ... | ... | ...
 
-There are 396 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 403 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -122,4 +123,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

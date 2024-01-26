@@ -107,48 +107,49 @@ ID | Type | Indicator | Confidence
 3 | File | `/admin/index2.html` | High
 4 | File | `/admin/save.php` | High
 5 | File | `/api/authentication/login` | High
-6 | File | `/api/baskets/{name}` | High
-7 | File | `/api/download` | High
-8 | File | `/api/v1/alerts` | High
-9 | File | `/api/v1/terminal/sessions/?limit=1` | High
-10 | File | `/api /v3/auth` | High
-11 | File | `/app/sys1.php` | High
-12 | File | `/b2b-supermarket/shopping-cart` | High
-13 | File | `/bin/rc4_crypt` | High
-14 | File | `/category.php` | High
-15 | File | `/categorypage.php` | High
-16 | File | `/cgi-bin/luci/api/switch` | High
-17 | File | `/cgi-bin/luci/api/wireless` | High
-18 | File | `/cgi-bin/qcmap_auth` | High
-19 | File | `/cgi-bin/vitogate.cgi` | High
-20 | File | `/CMD_ACCOUNT_ADMIN` | High
-21 | File | `/conf/` | Low
-22 | File | `/config/getuser` | High
-23 | File | `/config/php.ini` | High
-24 | File | `/Content/Plugins/uploader/FileChoose.html?fileUrl=/Upload/File/Pics/&parent` | High
-25 | File | `/Content/Template/root/reverse-shell.aspx` | High
-26 | File | `/dayrui/My/View/main.html` | High
-27 | File | `/debug/pprof` | Medium
+6 | File | `/api/download` | High
+7 | File | `/api/v1/alerts` | High
+8 | File | `/api/v1/terminal/sessions/?limit=1` | High
+9 | File | `/api /v3/auth` | High
+10 | File | `/app/sys1.php` | High
+11 | File | `/b2b-supermarket/shopping-cart` | High
+12 | File | `/bin/rc4_crypt` | High
+13 | File | `/category.php` | High
+14 | File | `/categorypage.php` | High
+15 | File | `/cgi-bin/luci/api/switch` | High
+16 | File | `/cgi-bin/qcmap_auth` | High
+17 | File | `/cgi-bin/vitogate.cgi` | High
+18 | File | `/change-language/de_DE` | High
+19 | File | `/CMD_ACCOUNT_ADMIN` | High
+20 | File | `/conf/` | Low
+21 | File | `/config/getuser` | High
+22 | File | `/config/php.ini` | High
+23 | File | `/Content/Plugins/uploader/FileChoose.html?fileUrl=/Upload/File/Pics/&parent` | High
+24 | File | `/core/admin/categories.php` | High
+25 | File | `/dayrui/My/View/main.html` | High
+26 | File | `/debug/pprof` | Medium
+27 | File | `/dist/index.js` | High
 28 | File | `/etc/init.d/openfire` | High
-29 | File | `/ethash/algorithm.go` | High
-30 | File | `/fcgi/scrut_fcgi.fcgi` | High
-31 | File | `/filemanager/upload/drop` | High
-32 | File | `/forum/away.php` | High
-33 | File | `/general/ipanel/menu_code.php?MENU_TYPE=FAV` | High
-34 | File | `/geoserver/gwc/rest.html` | High
-35 | File | `/goform/formSysCmd` | High
-36 | File | `/HNAP1` | Low
-37 | File | `/hosts/firewall/ip` | High
-38 | File | `/index.php/ccm/system/file/upload` | High
-39 | File | `/jeecg-boot/sys/common/upload` | High
-40 | File | `/jerry-core/ecma/base/ecma-helpers-string.c` | High
-41 | File | `/link/` | Low
-42 | File | `/log/decodmail.php` | High
-43 | File | `/oauth/idp/.well-known/openid-configuration` | High
-44 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
-45 | ... | ... | ...
+29 | File | `/fcgi/scrut_fcgi.fcgi` | High
+30 | File | `/forum/away.php` | High
+31 | File | `/general/ipanel/menu_code.php?MENU_TYPE=FAV` | High
+32 | File | `/geoserver/gwc/rest.html` | High
+33 | File | `/goform/formSysCmd` | High
+34 | File | `/HNAP1` | Low
+35 | File | `/hosts/firewall/ip` | High
+36 | File | `/index.php/ccm/system/file/upload` | High
+37 | File | `/jeecg-boot/sys/common/upload` | High
+38 | File | `/jerry-core/ecma/base/ecma-helpers-string.c` | High
+39 | File | `/link/` | Low
+40 | File | `/log/decodmail.php` | High
+41 | File | `/login` | Low
+42 | File | `/oauth/idp/.well-known/openid-configuration` | High
+43 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
+44 | File | `/officescan/console/html/cgi/fcgiOfcDDA.exe` | High
+45 | File | `/out.php` | Medium
+46 | ... | ... | ...
 
-There are 394 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 400 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

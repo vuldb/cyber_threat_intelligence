@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 4 more country items available. Please use our online service to access the data.
+There are 5 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -24,13 +24,14 @@ ID | IP address | Hostname | Campaign | Confidence
 1 | [5.181.12.94](https://vuldb.com/?ip.5.181.12.94) | - | - | High
 2 | [8.130.31.155](https://vuldb.com/?ip.8.130.31.155) | - | - | High
 3 | [18.171.15.157](https://vuldb.com/?ip.18.171.15.157) | ec2-18-171-15-157.eu-west-2.compute.amazonaws.com | - | Medium
-4 | [45.132.96.113](https://vuldb.com/?ip.45.132.96.113) | - | - | High
-5 | [45.155.171.134](https://vuldb.com/?ip.45.155.171.134) | - | - | High
-6 | [52.86.18.77](https://vuldb.com/?ip.52.86.18.77) | ec2-52-86-18-77.compute-1.amazonaws.com | - | Medium
-7 | [66.42.56.128](https://vuldb.com/?ip.66.42.56.128) | 66.42.56.128.vultrusercontent.com | - | High
-8 | ... | ... | ... | ...
+4 | [18.218.18.183](https://vuldb.com/?ip.18.218.18.183) | ec2-18-218-18-183.us-east-2.compute.amazonaws.com | - | Medium
+5 | [45.132.96.113](https://vuldb.com/?ip.45.132.96.113) | - | - | High
+6 | [45.155.171.134](https://vuldb.com/?ip.45.155.171.134) | - | - | High
+7 | [52.86.18.77](https://vuldb.com/?ip.52.86.18.77) | ec2-52-86-18-77.compute-1.amazonaws.com | - | Medium
+8 | [66.42.56.128](https://vuldb.com/?ip.66.42.56.128) | 66.42.56.128.vultrusercontent.com | - | High
+9 | ... | ... | ... | ...
 
-There are 30 more IOC items available. Please use our online service to access the data.
+There are 31 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -79,25 +80,25 @@ ID | Type | Indicator | Confidence
 23 | File | `/be/rpc.php` | Medium
 24 | File | `/boafrm/formFilter` | High
 25 | File | `/bsms/?page=manage_account` | High
-26 | File | `/churchcrm/v2/family/not-found` | High
-27 | File | `/classes/Login.php` | High
-28 | File | `/classes/Master.php?f=delete_sub_category` | High
-29 | File | `/dashboard/blocks/stacks/view_details/` | High
-30 | File | `/dosen/data` | Medium
-31 | File | `/ecommerce/admin/settings/setDiscount.php` | High
-32 | File | `/editor/index.php` | High
-33 | File | `/foms/place-order.php` | High
-34 | File | `/framework/mod/db/DBMapper.xml` | High
-35 | File | `/FreshRSS/p/ext.php` | High
-36 | File | `/goform/SafeClientFilter` | High
-37 | File | `/goform/SetPptpServerCfg` | High
-38 | File | `/goform/setSysAdm` | High
-39 | File | `/goform/SetVirtualServerCfg` | High
-40 | File | `/goform/sysTools` | High
-41 | File | `/goform/WifiBasicSet` | High
+26 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+27 | File | `/churchcrm/v2/family/not-found` | High
+28 | File | `/classes/Login.php` | High
+29 | File | `/classes/Master.php?f=delete_sub_category` | High
+30 | File | `/dashboard/blocks/stacks/view_details/` | High
+31 | File | `/dosen/data` | Medium
+32 | File | `/ecommerce/admin/settings/setDiscount.php` | High
+33 | File | `/editor/index.php` | High
+34 | File | `/foms/place-order.php` | High
+35 | File | `/framework/mod/db/DBMapper.xml` | High
+36 | File | `/FreshRSS/p/ext.php` | High
+37 | File | `/goform/SafeClientFilter` | High
+38 | File | `/goform/SetPptpServerCfg` | High
+39 | File | `/goform/setSysAdm` | High
+40 | File | `/goform/SetVirtualServerCfg` | High
+41 | File | `/goform/sysTools` | High
 42 | ... | ... | ...
 
-There are 361 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 363 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -115,4 +116,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

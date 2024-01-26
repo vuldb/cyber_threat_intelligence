@@ -37,7 +37,7 @@ ID | IP address | Hostname | Campaign | Confidence
 14 | [77.161.25.182](https://vuldb.com/?ip.77.161.25.182) | 77-161-25-182.fixed.kpn.net | - | High
 15 | ... | ... | ... | ...
 
-There are 54 more IOC items available. Please use our online service to access the data.
+There are 55 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -74,29 +74,30 @@ ID | Type | Indicator | Confidence
 12 | File | `/connectors/index.php` | High
 13 | File | `/data/wps.setup.json` | High
 14 | File | `/download` | Medium
-15 | File | `/index.php` | Medium
-16 | File | `/mcategory.php` | High
-17 | File | `/MIME/INBOX-MM-1/` | High
-18 | File | `/movie.php` | Medium
-19 | File | `/multi-vendor-shopping-script/product-list.php` | High
-20 | File | `/news-portal-script/information.php` | High
-21 | File | `/page.php` | Medium
-22 | File | `/public/login.htm` | High
-23 | File | `/public/plugins/` | High
-24 | File | `/real-estate-script/search_property.php` | High
-25 | File | `/recordings/index.php` | High
-26 | File | `/searchJob.php` | High
-27 | File | `/uncpath/` | Medium
-28 | File | `/user/loader.php?api=1` | High
-29 | File | `/var/miniupnpd.conf` | High
-30 | File | `/wp-admin/options-general.php` | High
-31 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-32 | File | `addentry.php` | Medium
-33 | File | `addrtoname.c` | Medium
-34 | File | `add_edit_cat.asp` | High
-35 | ... | ... | ...
+15 | File | `/edit/server` | Medium
+16 | File | `/index.php` | Medium
+17 | File | `/mcategory.php` | High
+18 | File | `/MIME/INBOX-MM-1/` | High
+19 | File | `/movie.php` | Medium
+20 | File | `/multi-vendor-shopping-script/product-list.php` | High
+21 | File | `/news-portal-script/information.php` | High
+22 | File | `/owa/auth/logon.aspx` | High
+23 | File | `/page.php` | Medium
+24 | File | `/public/login.htm` | High
+25 | File | `/public/plugins/` | High
+26 | File | `/real-estate-script/search_property.php` | High
+27 | File | `/recordings/index.php` | High
+28 | File | `/searchJob.php` | High
+29 | File | `/uncpath/` | Medium
+30 | File | `/user/loader.php?api=1` | High
+31 | File | `/var/miniupnpd.conf` | High
+32 | File | `/wp-admin/options-general.php` | High
+33 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+34 | File | `addentry.php` | Medium
+35 | File | `addrtoname.c` | Medium
+36 | ... | ... | ...
 
-There are 300 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 305 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -114,4 +115,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

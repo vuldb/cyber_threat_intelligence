@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 17 more country items available. Please use our online service to access the data.
+There are 24 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -3984,15 +3984,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-29, CWE-37, CWE-425 | Pathname Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | T1068 | CWE-264, CWE-266, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
-7 | ... | ... | ... | ...
+1 | T1006 | CWE-22, CWE-24, CWE-29 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 23 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -4000,42 +3998,60 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `%SYSTEMDRIVE%\node_modules\.bin\wmic.exe` | High
-2 | File | `/.env` | Low
-3 | File | `/admin/add-category.php` | High
-4 | File | `/admin/theme-edit.php` | High
-5 | File | `/adms/admin/?page=user/manage_user` | High
-6 | File | `/ample/app/ajax/member_data.php` | High
-7 | File | `/api/upload.php` | High
-8 | File | `/application/down.php` | High
-9 | File | `/bin/login` | Medium
-10 | File | `/calendar/minimizer/index.php` | High
-11 | File | `/catalog/compare` | High
-12 | File | `/cgi-bin/downloadFile.cgi` | High
-13 | File | `/Content/Plugins/uploader/FileChoose.html?fileUrl=/Upload/File/Pics/&parent` | High
-14 | File | `/DXR.axd` | Medium
-15 | File | `/endpoint/add-user.php` | High
-16 | File | `/forum/away.php` | High
-17 | File | `/geoserver/gwc/rest.html` | High
-18 | File | `/goform/formSysCmd` | High
-19 | File | `/goform/goform_get_cmd_process` | High
-20 | File | `/h/autoSaveDraft` | High
-21 | File | `/importexport.php` | High
-22 | File | `/main/webservices/additional_webservices.php` | High
-23 | File | `/mhds/clinic/view_details.php` | High
-24 | File | `/oauth/idp/.well-known/openid-configuration` | High
-25 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-26 | File | `/proc/#####/fd/3` | High
-27 | File | `/public/login.htm` | High
-28 | File | `/setting` | Medium
-29 | File | `/spip.php` | Medium
-30 | File | `/squashfs-root/etc_ro/custom.conf` | High
-31 | File | `/TC/V2.7/ha.html` | High
-32 | File | `/uncpath/` | Medium
-33 | File | `/user/upload` | Medium
-34 | ... | ... | ...
+1 | File | `/.env` | Low
+2 | File | `/admin/` | Low
+3 | File | `/admin/action/edit_chicken.php` | High
+4 | File | `/admin/action/new-father.php` | High
+5 | File | `/admin/action/update-deworm.php` | High
+6 | File | `/admin/admin_login_process.php` | High
+7 | File | `/admin/admin_user.php` | High
+8 | File | `/admin/book_add.php` | High
+9 | File | `/admin/book_row.php` | High
+10 | File | `/admin/borrow_add.php` | High
+11 | File | `/admin/edit_teacher.php` | High
+12 | File | `/admin/index.php?act=reset_admin_psw` | High
+13 | File | `/admin/pages/edit_chicken.php` | High
+14 | File | `/admin/return_add.php` | High
+15 | File | `/admin/students.php` | High
+16 | File | `/admin/update-clients.php` | High
+17 | File | `/admin/uploads/` | High
+18 | File | `/admin/users` | Medium
+19 | File | `/admin_route/dec_service_credits.php` | High
+20 | File | `/admin_route/inc_service_credits.php` | High
+21 | File | `/api/sys/set_passwd` | High
+22 | File | `/api/v4/teams//channels/deleted` | High
+23 | File | `/app/api/controller/caiji.php` | High
+24 | File | `/app/api/controller/default/Sqlite.php` | High
+25 | File | `/app/Http/Controllers/ImageController.php` | High
+26 | File | `/app/index/controller/Common.php` | High
+27 | File | `/application/pay/controller/Api.php` | High
+28 | File | `/apply.cgi` | Medium
+29 | File | `/auth/user/all.api` | High
+30 | File | `/authenticationendpoint/login.do` | High
+31 | File | `/aux` | Low
+32 | File | `/b2b-supermarket/shopping-cart` | High
+33 | File | `/bin/boa` | Medium
+34 | File | `/boaform/device_reset.cgi` | High
+35 | File | `/boaform/wlan_basic_set.cgi` | High
+36 | File | `/bsms_ci/index.php/user/edit_user/` | High
+37 | File | `/ccm/system/dialogs/file/delete/1/submit` | High
+38 | File | `/cgi-bin/cstecgi.cgi` | High
+39 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+40 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
+41 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=ie8` | High
+42 | File | `/cgi-bin/R14.2/cgi-bin/R14.2/host.pl` | High
+43 | File | `/cgi-bin/R14.2/easy1350.pl` | High
+44 | File | `/cgi-bin/wlogin.cgi` | High
+45 | File | `/cgi/cpaddons_report.pl` | High
+46 | File | `/change-language/de_DE` | High
+47 | File | `/classes/Users.php?f=save` | High
+48 | File | `/dashboard/snapshot/*?orgId=0` | High
+49 | File | `/data/remove` | Medium
+50 | File | `/debug/pprof` | Medium
+51 | File | `/endpoint/add-user.php` | High
+52 | ... | ... | ...
 
-There are 293 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 453 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -4054,4 +4070,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -65,48 +65,49 @@ ID | Type | Indicator | Confidence
 5 | File | `/api/collection/findone` | High
 6 | File | `/api/crontab` | Medium
 7 | File | `/api/geojson` | Medium
-8 | File | `/cbs/system/ShowAdvanced.do` | High
-9 | File | `/cgi-bin/editBookmark` | High
-10 | File | `/cgi-bin/loaddata.py` | High
-11 | File | `/cgi-bin/webviewer_login_page` | High
-12 | File | `/cgi/networkDiag.cgi` | High
-13 | File | `/cms/category/list` | High
-14 | File | `/debug` | Low
-15 | File | `/debug/pprof` | Medium
-16 | File | `/DXR.axd` | Medium
-17 | File | `/env` | Low
-18 | File | `/etc/passwd` | Medium
-19 | File | `/forum/away.php` | High
-20 | File | `/goform/setmac` | High
-21 | File | `/goform/setportList` | High
-22 | File | `/goform/setVLAN` | High
-23 | File | `/goform/wlanPrimaryNetwork` | High
-24 | File | `/GponForm/usb_Form?script/` | High
-25 | File | `/groups/31-twitter-basics` | High
-26 | File | `/inc/jquery/uploadify/uploadify.php` | High
-27 | File | `/login` | Low
-28 | File | `/login/index.php` | High
-29 | File | `/modules/profile/index.php` | High
-30 | File | `/net/sched/cls_fw.c` | High
-31 | File | `/search.php` | Medium
-32 | File | `/secure/QueryComponent!Default.jspa` | High
-33 | File | `/spip.php` | Medium
-34 | File | `/sys/dict/queryTableData` | High
-35 | File | `/tmp` | Low
-36 | File | `/tmp/before` | Medium
-37 | File | `/User/saveUser` | High
-38 | File | `/userLogin.asp` | High
-39 | File | `/usr/bin/vmware-mount` | High
-40 | File | `/var/WEB-GUI/cgi-bin/downloadfile.cgi` | High
-41 | File | `/WEB-INF/web.xml` | High
-42 | File | `/_vti_pvt/access.cnf` | High
-43 | File | `3/qq_connect2.0/API/class/ErrorCase.class.php` | High
-44 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-45 | File | `accountsettings_add.html` | High
-46 | File | `aclient.exe` | Medium
-47 | ... | ... | ...
+8 | File | `/api/jolokia org.jolokia.http.HttpRequestHandler#handlePostRequest` | High
+9 | File | `/cbs/system/ShowAdvanced.do` | High
+10 | File | `/cgi-bin/editBookmark` | High
+11 | File | `/cgi-bin/loaddata.py` | High
+12 | File | `/cgi-bin/webviewer_login_page` | High
+13 | File | `/cgi/networkDiag.cgi` | High
+14 | File | `/cms/category/list` | High
+15 | File | `/debug` | Low
+16 | File | `/debug/pprof` | Medium
+17 | File | `/DXR.axd` | Medium
+18 | File | `/em/console/logon/logon` | High
+19 | File | `/env` | Low
+20 | File | `/etc/passwd` | Medium
+21 | File | `/forum/away.php` | High
+22 | File | `/goform/setmac` | High
+23 | File | `/goform/setportList` | High
+24 | File | `/goform/setVLAN` | High
+25 | File | `/goform/wlanPrimaryNetwork` | High
+26 | File | `/GponForm/usb_Form?script/` | High
+27 | File | `/groups/31-twitter-basics` | High
+28 | File | `/inc/jquery/uploadify/uploadify.php` | High
+29 | File | `/login` | Low
+30 | File | `/login/index.php` | High
+31 | File | `/modules/profile/index.php` | High
+32 | File | `/net/sched/cls_fw.c` | High
+33 | File | `/search.php` | Medium
+34 | File | `/secure/QueryComponent!Default.jspa` | High
+35 | File | `/spip.php` | Medium
+36 | File | `/sys/dict/queryTableData` | High
+37 | File | `/tmp` | Low
+38 | File | `/tmp/before` | Medium
+39 | File | `/User/saveUser` | High
+40 | File | `/userLogin.asp` | High
+41 | File | `/usr/bin/vmware-mount` | High
+42 | File | `/var/WEB-GUI/cgi-bin/downloadfile.cgi` | High
+43 | File | `/WEB-INF/web.xml` | High
+44 | File | `/_vti_pvt/access.cnf` | High
+45 | File | `3/qq_connect2.0/API/class/ErrorCase.class.php` | High
+46 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+47 | File | `accountsettings_add.html` | High
+48 | ... | ... | ...
 
-There are 405 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 414 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -123,4 +124,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

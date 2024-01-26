@@ -79,26 +79,27 @@ ID | Type | Indicator | Confidence
 26 | File | `/goforms/rlminfo` | High
 27 | File | `/GponForm/usb_restore_Form?script/` | High
 28 | File | `/group1/uploa` | High
-29 | File | `/HNAP1` | Low
-30 | File | `/HNAP1/SetClientInfo` | High
-31 | File | `/hospital/hms/admin/patient-search.php` | High
-32 | File | `/index.php` | Medium
-33 | File | `/Items/*/RemoteImages/Download` | High
-34 | File | `/jsoa/hntdCustomDesktopActionContent` | High
-35 | File | `/menu.html` | Medium
-36 | File | `/mkshop/Men/profile.php` | High
-37 | File | `/modules/announcement/index.php?view=edit` | High
-38 | File | `/modules/profile/index.php` | High
-39 | File | `/navigate/navigate_download.php` | High
-40 | File | `/Noxen-master/users.php` | High
-41 | File | `/ocwbs/admin/?page=user/manage_user` | High
-42 | File | `/ofrs/admin/?page=user/manage_user` | High
-43 | File | `/out.php` | Medium
-44 | File | `/password.html` | High
-45 | File | `/php_action/fetchSelectedUser.php` | High
-46 | ... | ... | ...
+29 | File | `/hedwig.cgi` | Medium
+30 | File | `/HNAP1` | Low
+31 | File | `/HNAP1/SetClientInfo` | High
+32 | File | `/hospital/hms/admin/patient-search.php` | High
+33 | File | `/index.php` | Medium
+34 | File | `/Items/*/RemoteImages/Download` | High
+35 | File | `/jsoa/hntdCustomDesktopActionContent` | High
+36 | File | `/menu.html` | Medium
+37 | File | `/mkshop/Men/profile.php` | High
+38 | File | `/modules/announcement/index.php?view=edit` | High
+39 | File | `/modules/profile/index.php` | High
+40 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+41 | File | `/navigate/navigate_download.php` | High
+42 | File | `/Noxen-master/users.php` | High
+43 | File | `/ocwbs/admin/?page=user/manage_user` | High
+44 | File | `/ofrs/admin/?page=user/manage_user` | High
+45 | File | `/out.php` | Medium
+46 | File | `/password.html` | High
+47 | ... | ... | ...
 
-There are 399 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 404 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -115,4 +116,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

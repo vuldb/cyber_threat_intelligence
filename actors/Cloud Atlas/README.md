@@ -15,8 +15,8 @@ The following _campaigns_ are known and can be associated with Cloud Atlas:
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Cloud Atlas:
 
 * [PT](https://vuldb.com/?country.pt)
-* [AR](https://vuldb.com/?country.ar)
 * [FR](https://vuldb.com/?country.fr)
+* [AR](https://vuldb.com/?country.ar)
 * ...
 
 There are 6 more country items available. Please use our online service to access the data.
@@ -57,55 +57,58 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/action/import_xml_file/` | High
 2 | File | `/action/wirelessConnect` | High
-3 | File | `/admin/?page=bike` | High
-4 | File | `/admin/?page=user/manage_user` | High
-5 | File | `/admin/cms_content.php` | High
-6 | File | `/admin/course.php` | High
-7 | File | `/admin/edit-services.php` | High
-8 | File | `/admin/edit_product.php` | High
-9 | File | `/admin/index.php` | High
-10 | File | `/admin/options-theme.php` | High
-11 | File | `/admin/orders/update_status.php` | High
-12 | File | `/admin/pages/sections_save.php` | High
-13 | File | `/admin/php/crud.php` | High
-14 | File | `/admin/positions_row.php` | High
-15 | File | `/admin/userprofile.php` | High
-16 | File | `/adplanet/PlanetCommentList` | High
-17 | File | `/ajax.php?action=save_company` | High
-18 | File | `/api/es/admin/v3/security/user/1` | High
-19 | File | `/api/v1/chat.getThreadsList` | High
-20 | File | `/api/v2/cli/commands` | High
-21 | File | `/api/v2/open/rowsInfo` | High
-22 | File | `/api/v3/flows/instances/default-user-settings-flow/execute/` | High
-23 | File | `/api/wechat/app_auth` | High
-24 | File | `/asms/admin/?page=user/manage_user` | High
-25 | File | `/blog/comment` | High
-26 | File | `/classes/Login.php` | High
-27 | File | `/config,admin.jsp` | High
-28 | File | `/Content/Plugins/uploader/FileChoose.html?fileUrl=/Upload/File/Pics/&parent` | High
-29 | File | `/course/filterRecords/` | High
-30 | File | `/dosen/data` | Medium
-31 | File | `/E-mobile/App/System/File/downfile.php` | High
-32 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-33 | File | `/env` | Low
-34 | File | `/etc/master.passwd` | High
-35 | File | `/etc/os-release` | High
-36 | File | `/file_manager/admin/save_user.php` | High
-37 | File | `/front/search.php` | High
-38 | File | `/garage/php_action/createBrand.php` | High
-39 | File | `/goform/addressNat` | High
-40 | File | `/goform/AdvSetWrlsafeset` | High
-41 | File | `/goform/editFileName` | High
-42 | File | `/goform/form2WizardStep54` | High
-43 | File | `/goform/setSysAdm` | High
-44 | File | `/goform/webExcptypemanFilter` | High
-45 | File | `/goform/WifiBasicSet` | High
-46 | File | `/goform/WifiMacFilterGet` | High
-47 | File | `/hss/admin/categories/view_category.php` | High
-48 | File | `/index.php` | Medium
-49 | ... | ... | ...
+3 | File | `/admin/` | Low
+4 | File | `/admin/?page=bike` | High
+5 | File | `/admin/?page=user/manage_user` | High
+6 | File | `/admin/action/new-feed.php` | High
+7 | File | `/admin/cms_content.php` | High
+8 | File | `/admin/course.php` | High
+9 | File | `/admin/edit-services.php` | High
+10 | File | `/admin/edit_product.php` | High
+11 | File | `/admin/index.php` | High
+12 | File | `/admin/index.php?act=reset_admin_psw` | High
+13 | File | `/admin/ind_backstage.php` | High
+14 | File | `/admin/options-theme.php` | High
+15 | File | `/admin/orders/update_status.php` | High
+16 | File | `/admin/pages/sections_save.php` | High
+17 | File | `/admin/php/crud.php` | High
+18 | File | `/admin/positions_row.php` | High
+19 | File | `/admin/userprofile.php` | High
+20 | File | `/admin_route/inc_service_credits.php` | High
+21 | File | `/adplanet/PlanetCommentList` | High
+22 | File | `/ajax.php?action=save_company` | High
+23 | File | `/ample/app/action/edit_product.php` | High
+24 | File | `/api/es/admin/v3/security/user/1` | High
+25 | File | `/api/v1/chat.getThreadsList` | High
+26 | File | `/api/v2/cli/commands` | High
+27 | File | `/api/v2/open/rowsInfo` | High
+28 | File | `/api/v3/flows/instances/default-user-settings-flow/execute/` | High
+29 | File | `/api/wechat/app_auth` | High
+30 | File | `/asms/admin/?page=user/manage_user` | High
+31 | File | `/blog/comment` | High
+32 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
+33 | File | `/classes/Login.php` | High
+34 | File | `/config,admin.jsp` | High
+35 | File | `/Content/Plugins/uploader/FileChoose.html?fileUrl=/Upload/File/Pics/&parent` | High
+36 | File | `/course/filterRecords/` | High
+37 | File | `/dosen/data` | Medium
+38 | File | `/E-mobile/App/System/File/downfile.php` | High
+39 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+40 | File | `/env` | Low
+41 | File | `/etc/master.passwd` | High
+42 | File | `/etc/os-release` | High
+43 | File | `/file_manager/admin/save_user.php` | High
+44 | File | `/front/search.php` | High
+45 | File | `/garage/php_action/createBrand.php` | High
+46 | File | `/goform/addressNat` | High
+47 | File | `/goform/AdvSetWrlsafeset` | High
+48 | File | `/goform/editFileName` | High
+49 | File | `/goform/form2WizardStep54` | High
+50 | File | `/goform/SetOnlineDevName` | High
+51 | File | `/goform/setSysAdm` | High
+52 | ... | ... | ...
 
-There are 423 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 450 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -123,4 +126,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

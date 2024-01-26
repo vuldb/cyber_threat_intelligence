@@ -375,35 +375,35 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `%SYSTEMDRIVE%\node_modules\.bin\wmic.exe` | High
 2 | File | `/admin/add-category.php` | High
-3 | File | `/admin/read.php?mudi=getSignal` | High
-4 | File | `/admin/save.php` | High
-5 | File | `/admin/sys_sql_query.php` | High
-6 | File | `/api/baskets/{name}` | High
-7 | File | `/api/download` | High
-8 | File | `/api/v1/alerts` | High
-9 | File | `/api/v1/terminal/sessions/?limit=1` | High
-10 | File | `/b2b-supermarket/shopping-cart` | High
-11 | File | `/bitrix/admin/ldap_server_edit.php` | High
-12 | File | `/category.php` | High
-13 | File | `/categorypage.php` | High
-14 | File | `/cgi-bin/luci/api/wireless` | High
-15 | File | `/cgi-bin/vitogate.cgi` | High
-16 | File | `/cimom` | Low
-17 | File | `/company/store` | High
-18 | File | `/Content/Template/root/reverse-shell.aspx` | High
-19 | File | `/Controller/Ajaxfileupload.ashx` | High
-20 | File | `/core/conditions/AbstractWrapper.java` | High
-21 | File | `/debug/pprof` | Medium
+3 | File | `/admin/save.php` | High
+4 | File | `/admin/sys_sql_query.php` | High
+5 | File | `/api/baskets/{name}` | High
+6 | File | `/api/download` | High
+7 | File | `/api/v1/alerts` | High
+8 | File | `/api/v1/terminal/sessions/?limit=1` | High
+9 | File | `/b2b-supermarket/shopping-cart` | High
+10 | File | `/bitrix/admin/ldap_server_edit.php` | High
+11 | File | `/category.php` | High
+12 | File | `/categorypage.php` | High
+13 | File | `/cgi-bin/luci/api/wireless` | High
+14 | File | `/cgi-bin/vitogate.cgi` | High
+15 | File | `/change-language/de_DE` | High
+16 | File | `/company/store` | High
+17 | File | `/Content/Template/root/reverse-shell.aspx` | High
+18 | File | `/Controller/Ajaxfileupload.ashx` | High
+19 | File | `/core/conditions/AbstractWrapper.java` | High
+20 | File | `/debug/pprof` | Medium
+21 | File | `/dist/index.js` | High
 22 | File | `/etc/passwd` | Medium
 23 | File | `/fcgi/scrut_fcgi.fcgi` | High
 24 | File | `/forum/away.php` | High
 25 | File | `/geoserver/gwc/rest.html` | High
 26 | File | `/goform/formSysCmd` | High
-27 | File | `/h/` | Low
-28 | File | `/HNAP1` | Low
-29 | File | `/hosts/firewall/ip` | High
-30 | File | `/index.php/ccm/system/file/upload` | High
-31 | File | `/jeecg-boot/sys/common/upload` | High
+27 | File | `/HNAP1` | Low
+28 | File | `/hosts/firewall/ip` | High
+29 | File | `/index.php/ccm/system/file/upload` | High
+30 | File | `/jeecg-boot/sys/common/upload` | High
+31 | File | `/log/decodmail.php` | High
 32 | File | `/oauth/idp/.well-known/openid-configuration` | High
 33 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
 34 | File | `/php/ping.php` | High
@@ -411,13 +411,14 @@ ID | Type | Indicator | Confidence
 36 | File | `/recipe-result` | High
 37 | File | `/register.do` | Medium
 38 | File | `/RPS2019Service/status.html` | High
-39 | File | `/scripts/unlock_tasks.php` | High
-40 | File | `/Service/ImageStationDataService.asmx` | High
-41 | File | `/setting` | Medium
-42 | File | `/sicweb-ajax/tmproot/` | High
-43 | ... | ... | ...
+39 | File | `/s/index.php?action=statistics` | High
+40 | File | `/scripts/unlock_tasks.php` | High
+41 | File | `/Service/ImageStationDataService.asmx` | High
+42 | File | `/setting` | Medium
+43 | File | `/sicweb-ajax/tmproot/` | High
+44 | ... | ... | ...
 
-There are 375 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 380 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

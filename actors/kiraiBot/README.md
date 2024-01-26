@@ -47,40 +47,41 @@ ID | Type | Indicator | Confidence
 1 | File | `//proc/kcore` | Medium
 2 | File | `/admin.php/Admin/adminadd.html` | High
 3 | File | `/admin/about-us.php` | High
-4 | File | `/Admin/add-student.php` | High
-5 | File | `/admin/index2.html` | High
-6 | File | `/admin/settings/save.php` | High
-7 | File | `/admin/userprofile.php` | High
-8 | File | `/api/baskets/{name}` | High
-9 | File | `/apply.cgi` | Medium
-10 | File | `/bitrix/admin/ldap_server_edit.php` | High
-11 | File | `/cgi-bin/wlogin.cgi` | High
-12 | File | `/College/admin/teacher.php` | High
-13 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
-14 | File | `/dcim/rack-roles/` | High
-15 | File | `/forum/away.php` | High
-16 | File | `/goform/addUserName` | High
-17 | File | `/goform/aspForm` | High
-18 | File | `/goform/delAd` | High
-19 | File | `/goform/wifiSSIDset` | High
-20 | File | `/gpac/src/bifs/unquantize.c` | High
-21 | File | `/inc/topBarNav.php` | High
-22 | File | `/index.asp` | Medium
-23 | File | `/index.php` | Medium
-24 | File | `/index.php?app=main&func=passport&action=login` | High
-25 | File | `/jfinal_cms/system/role/list` | High
-26 | File | `/kelas/data` | Medium
-27 | File | `/listplace/user/ticket/create` | High
-28 | File | `/Moosikay/order.php` | High
-29 | File | `/php-sms/admin/quotes/manage_remark.php` | High
-30 | File | `/secure/QueryComponent!Default.jspa` | High
-31 | File | `/squashfs-root/etc_ro/custom.conf` | High
-32 | File | `/staff/edit_book_details.php` | High
-33 | File | `/SysManage/AddUpdateRole.aspx` | High
-34 | File | `/sysmanage/importconf.php` | High
-35 | ... | ... | ...
+4 | File | `/admin/action/delete-vaccine.php` | High
+5 | File | `/Admin/add-student.php` | High
+6 | File | `/admin/index2.html` | High
+7 | File | `/admin/settings/save.php` | High
+8 | File | `/admin/userprofile.php` | High
+9 | File | `/api/baskets/{name}` | High
+10 | File | `/app/index/controller/Common.php` | High
+11 | File | `/apply.cgi` | Medium
+12 | File | `/bitrix/admin/ldap_server_edit.php` | High
+13 | File | `/cgi-bin/wlogin.cgi` | High
+14 | File | `/College/admin/teacher.php` | High
+15 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
+16 | File | `/dcim/rack-roles/` | High
+17 | File | `/forms/doLogin` | High
+18 | File | `/forum/away.php` | High
+19 | File | `/goform/addUserName` | High
+20 | File | `/goform/aspForm` | High
+21 | File | `/goform/delAd` | High
+22 | File | `/goform/wifiSSIDset` | High
+23 | File | `/gpac/src/bifs/unquantize.c` | High
+24 | File | `/inc/topBarNav.php` | High
+25 | File | `/index.asp` | Medium
+26 | File | `/index.php` | Medium
+27 | File | `/index.php?app=main&func=passport&action=login` | High
+28 | File | `/jfinal_cms/system/role/list` | High
+29 | File | `/kelas/data` | Medium
+30 | File | `/listplace/user/ticket/create` | High
+31 | File | `/Moosikay/order.php` | High
+32 | File | `/php-sms/admin/quotes/manage_remark.php` | High
+33 | File | `/secure/QueryComponent!Default.jspa` | High
+34 | File | `/squashfs-root/etc_ro/custom.conf` | High
+35 | File | `/staff/edit_book_details.php` | High
+36 | ... | ... | ...
 
-There are 299 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 308 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -97,4 +98,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

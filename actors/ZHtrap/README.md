@@ -58,34 +58,34 @@ ID | Type | Indicator | Confidence
 6 | File | `/Ap4RtpAtom.cpp` | High
 7 | File | `/bcms/admin/?page=service_transactions/manage_service_transaction` | High
 8 | File | `/bcms/admin/?page=user/manage_user` | High
-9 | File | `/classes/Master.php?f=save_category` | High
-10 | File | `/College/admin/teacher.php` | High
-11 | File | `/common/run_cross_report.php` | High
-12 | File | `/confirm` | Medium
-13 | File | `/etc/ciel.cfg` | High
-14 | File | `/etc/gsissh/sshd_config` | High
-15 | File | `/exponent_constants.php` | High
-16 | File | `/geoserver/gwc/rest.html` | High
-17 | File | `/goform/addRouting` | High
-18 | File | `/goform/WifiBasicSet` | High
-19 | File | `/group/apply` | Medium
-20 | File | `/image_zoom.php` | High
-21 | File | `/index.php` | Medium
-22 | File | `/instance/detail` | High
-23 | File | `/it-IT/splunkd/__raw/services/get_snapshot` | High
-24 | File | `/jerry-core/ecma/base/ecma-gc.c` | High
-25 | File | `/master/core/PostHandler.php` | High
-26 | File | `/mdiy/dict/list` | High
-27 | File | `/ocwbs/admin/?page=bookings/view_details` | High
-28 | File | `/ofrs/admin/?page=requests/manage_request` | High
-29 | File | `/package_detail.php` | High
-30 | File | `/php-sms/classes/Master.php` | High
-31 | File | `/php_action/createUser.php` | High
-32 | File | `/plugin/dataDictionary/tableView.do` | High
-33 | File | `/preferences/tags` | High
+9 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+10 | File | `/classes/Master.php?f=save_category` | High
+11 | File | `/College/admin/teacher.php` | High
+12 | File | `/common/run_cross_report.php` | High
+13 | File | `/confirm` | Medium
+14 | File | `/etc/ciel.cfg` | High
+15 | File | `/etc/gsissh/sshd_config` | High
+16 | File | `/exponent_constants.php` | High
+17 | File | `/geoserver/gwc/rest.html` | High
+18 | File | `/goform/addRouting` | High
+19 | File | `/goform/WifiBasicSet` | High
+20 | File | `/group/apply` | Medium
+21 | File | `/image_zoom.php` | High
+22 | File | `/index.php` | Medium
+23 | File | `/instance/detail` | High
+24 | File | `/it-IT/splunkd/__raw/services/get_snapshot` | High
+25 | File | `/jerry-core/ecma/base/ecma-gc.c` | High
+26 | File | `/master/core/PostHandler.php` | High
+27 | File | `/mdiy/dict/list` | High
+28 | File | `/ocwbs/admin/?page=bookings/view_details` | High
+29 | File | `/ofrs/admin/?page=requests/manage_request` | High
+30 | File | `/package_detail.php` | High
+31 | File | `/php-sms/classes/Master.php` | High
+32 | File | `/php_action/createUser.php` | High
+33 | File | `/plugin/dataDictionary/tableView.do` | High
 34 | ... | ... | ...
 
-There are 290 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 295 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -102,4 +102,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

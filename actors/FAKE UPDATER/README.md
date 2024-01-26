@@ -44,20 +44,22 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/account/details.php` | High
-2 | File | `/cgi/get_param.cgi` | High
-3 | File | `/forum/away.php` | High
-4 | File | `/modules/registration_admission/patient_register.php` | High
-5 | File | `/out.php` | Medium
-6 | File | `/sbin/gs_config` | High
-7 | File | `add_comment.php` | High
-8 | File | `album_portal.php` | High
-9 | File | `browse-category.php` | High
-10 | File | `category.cfm` | Medium
-11 | File | `ClientModeImpl.java` | High
-12 | File | `comment_add.asp` | High
-13 | ... | ... | ...
+2 | File | `/admin/subject.php` | High
+3 | File | `/cgi/get_param.cgi` | High
+4 | File | `/forum/away.php` | High
+5 | File | `/modules/registration_admission/patient_register.php` | High
+6 | File | `/oauth/idp/.well-known/openid-configuration` | High
+7 | File | `/out.php` | Medium
+8 | File | `/sbin/gs_config` | High
+9 | File | `adclick.php` | Medium
+10 | File | `add_comment.php` | High
+11 | File | `album_portal.php` | High
+12 | File | `browse-category.php` | High
+13 | File | `category.cfm` | Medium
+14 | File | `classified_right.php` | High
+15 | ... | ... | ...
 
-There are 99 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 115 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -74,4 +76,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

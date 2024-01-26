@@ -85,24 +85,24 @@ ID | Type | Indicator | Confidence
 25 | File | `/goforms/rlminfo` | High
 26 | File | `/GponForm/usb_restore_Form?script/` | High
 27 | File | `/group1/uploa` | High
-28 | File | `/HNAP1` | Low
-29 | File | `/HNAP1/SetClientInfo` | High
-30 | File | `/Items/*/RemoteImages/Download` | High
-31 | File | `/menu.html` | Medium
-32 | File | `/MIME/INBOX-MM-1/` | High
-33 | File | `/modules/profile/index.php` | High
-34 | File | `/navigate/navigate_download.php` | High
-35 | File | `/ocwbs/admin/?page=user/manage_user` | High
-36 | File | `/ofrs/admin/?page=user/manage_user` | High
-37 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-38 | File | `/out.php` | Medium
-39 | File | `/page.php` | Medium
-40 | File | `/password.html` | High
-41 | File | `/php_action/fetchSelectedUser.php` | High
-42 | File | `/plugin` | Low
+28 | File | `/hedwig.cgi` | Medium
+29 | File | `/HNAP1` | Low
+30 | File | `/HNAP1/SetClientInfo` | High
+31 | File | `/Items/*/RemoteImages/Download` | High
+32 | File | `/menu.html` | Medium
+33 | File | `/MIME/INBOX-MM-1/` | High
+34 | File | `/modules/profile/index.php` | High
+35 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+36 | File | `/navigate/navigate_download.php` | High
+37 | File | `/ocwbs/admin/?page=user/manage_user` | High
+38 | File | `/ofrs/admin/?page=user/manage_user` | High
+39 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+40 | File | `/out.php` | Medium
+41 | File | `/page.php` | Medium
+42 | File | `/password.html` | High
 43 | ... | ... | ...
 
-There are 367 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 373 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -125,4 +125,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

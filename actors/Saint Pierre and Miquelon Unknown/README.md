@@ -77,27 +77,29 @@ ID | Type | Indicator | Confidence
 26 | File | `/setup` | Low
 27 | File | `/show_news.php` | High
 28 | File | `/spip.php` | Medium
-29 | File | `/tmp/before` | Medium
-30 | File | `/uncpath/` | Medium
-31 | File | `/wordpress/wp-admin/options-general.php` | High
-32 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-33 | File | `4.2.0.CP09` | Medium
-34 | File | `account.asp` | Medium
-35 | File | `act.php` | Low
-36 | File | `adclick.php` | Medium
-37 | File | `admin.php` | Medium
-38 | File | `admin/admin.shtml` | High
-39 | File | `Admin/ADM_Pagina.php` | High
-40 | File | `admin/category.inc.php` | High
-41 | File | `admin/param/param_func.inc.php` | High
-42 | File | `administration/admins.php` | High
-43 | File | `ajax_calls.php` | High
-44 | File | `api.php` | Low
-45 | File | `artlinks.dispnew.php` | High
-46 | File | `awstats.pl` | Medium
-47 | ... | ... | ...
+29 | File | `/student/bookdetails.php` | High
+30 | File | `/tmp/before` | Medium
+31 | File | `/uncpath/` | Medium
+32 | File | `/wordpress/wp-admin/options-general.php` | High
+33 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+34 | File | `4.2.0.CP09` | Medium
+35 | File | `account.asp` | Medium
+36 | File | `act.php` | Low
+37 | File | `adclick.php` | Medium
+38 | File | `admin.php` | Medium
+39 | File | `admin/admin.shtml` | High
+40 | File | `Admin/ADM_Pagina.php` | High
+41 | File | `admin/category.inc.php` | High
+42 | File | `admin/param/param_func.inc.php` | High
+43 | File | `administration/admins.php` | High
+44 | File | `ajax_calls.php` | High
+45 | File | `api.php` | Low
+46 | File | `artlinks.dispnew.php` | High
+47 | File | `auth2-gss.c` | Medium
+48 | File | `awstats.pl` | Medium
+49 | ... | ... | ...
 
-There are 410 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 423 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -115,4 +117,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

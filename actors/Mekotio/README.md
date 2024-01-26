@@ -27,19 +27,19 @@ ID | IP address | Hostname | Campaign | Confidence
 4 | [15.228.13.156](https://vuldb.com/?ip.15.228.13.156) | ec2-15-228-13-156.sa-east-1.compute.amazonaws.com | - | Medium
 5 | [15.228.16.45](https://vuldb.com/?ip.15.228.16.45) | ec2-15-228-16-45.sa-east-1.compute.amazonaws.com | - | Medium
 6 | [15.228.46.182](https://vuldb.com/?ip.15.228.46.182) | ec2-15-228-46-182.sa-east-1.compute.amazonaws.com | - | Medium
-7 | [15.229.26.142](https://vuldb.com/?ip.15.229.26.142) | ec2-15-229-26-142.sa-east-1.compute.amazonaws.com | - | Medium
-8 | [18.118.78.11](https://vuldb.com/?ip.18.118.78.11) | ec2-18-118-78-11.us-east-2.compute.amazonaws.com | - | Medium
-9 | [18.223.102.186](https://vuldb.com/?ip.18.223.102.186) | ec2-18-223-102-186.us-east-2.compute.amazonaws.com | - | Medium
-10 | [18.231.161.239](https://vuldb.com/?ip.18.231.161.239) | ec2-18-231-161-239.sa-east-1.compute.amazonaws.com | - | Medium
-11 | [20.5.65.48](https://vuldb.com/?ip.20.5.65.48) | - | - | High
-12 | [20.25.181.202](https://vuldb.com/?ip.20.25.181.202) | - | - | High
-13 | [20.38.37.160](https://vuldb.com/?ip.20.38.37.160) | - | - | High
-14 | [20.121.119.89](https://vuldb.com/?ip.20.121.119.89) | - | - | High
-15 | [20.206.121.1](https://vuldb.com/?ip.20.206.121.1) | - | - | High
-16 | [20.239.166.4](https://vuldb.com/?ip.20.239.166.4) | - | - | High
+7 | [15.229.1.40](https://vuldb.com/?ip.15.229.1.40) | ec2-15-229-1-40.sa-east-1.compute.amazonaws.com | - | Medium
+8 | [15.229.26.142](https://vuldb.com/?ip.15.229.26.142) | ec2-15-229-26-142.sa-east-1.compute.amazonaws.com | - | Medium
+9 | [18.118.78.11](https://vuldb.com/?ip.18.118.78.11) | ec2-18-118-78-11.us-east-2.compute.amazonaws.com | - | Medium
+10 | [18.223.102.186](https://vuldb.com/?ip.18.223.102.186) | ec2-18-223-102-186.us-east-2.compute.amazonaws.com | - | Medium
+11 | [18.231.161.239](https://vuldb.com/?ip.18.231.161.239) | ec2-18-231-161-239.sa-east-1.compute.amazonaws.com | - | Medium
+12 | [20.5.65.48](https://vuldb.com/?ip.20.5.65.48) | - | - | High
+13 | [20.25.181.202](https://vuldb.com/?ip.20.25.181.202) | - | - | High
+14 | [20.38.37.160](https://vuldb.com/?ip.20.38.37.160) | - | - | High
+15 | [20.121.119.89](https://vuldb.com/?ip.20.121.119.89) | - | - | High
+16 | [20.206.121.1](https://vuldb.com/?ip.20.206.121.1) | - | - | High
 17 | ... | ... | ... | ...
 
-There are 62 more IOC items available. Please use our online service to access the data.
+There are 65 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -47,7 +47,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-37 | Pathname Traversal | High
+1 | T1006 | CWE-22, CWE-23, CWE-37 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
@@ -101,7 +101,7 @@ ID | Type | Indicator | Confidence
 38 | File | `/var/run/docker.sock` | High
 39 | ... | ... | ...
 
-There are 337 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 336 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -141,4 +141,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

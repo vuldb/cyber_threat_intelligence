@@ -37,7 +37,7 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94 | Cross Site Scripting | High
+3 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
@@ -54,20 +54,21 @@ ID | Type | Indicator | Confidence
 3 | File | `/api/v2/cli/commands` | High
 4 | File | `/DXR.axd` | Medium
 5 | File | `/forum/away.php` | High
-6 | File | `/out.php` | Medium
-7 | File | `/owa/auth/logon.aspx` | High
-8 | File | `/phppath/php` | Medium
-9 | File | `/spip.php` | Medium
-10 | File | `/systemrw/` | Medium
-11 | File | `/zm/index.php` | High
-12 | File | `adclick.php` | Medium
-13 | File | `admin.jcomments.php` | High
-14 | File | `admin/gv_mail.php` | High
-15 | File | `application/modules/admin/views/ecommerce/products.php` | High
-16 | File | `base/ErrorHandler.php` | High
-17 | ... | ... | ...
+6 | File | `/novel/bookSetting/list` | High
+7 | File | `/out.php` | Medium
+8 | File | `/owa/auth/logon.aspx` | High
+9 | File | `/phppath/php` | Medium
+10 | File | `/spip.php` | Medium
+11 | File | `/systemrw/` | Medium
+12 | File | `/zm/index.php` | High
+13 | File | `adclick.php` | Medium
+14 | File | `admin.jcomments.php` | High
+15 | File | `admin/gv_mail.php` | High
+16 | File | `application/modules/admin/views/ecommerce/products.php` | High
+17 | File | `base/ErrorHandler.php` | High
+18 | ... | ... | ...
 
-There are 139 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 150 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -84,4 +85,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -120,21 +120,22 @@ ID | Type | Indicator | Confidence
 4 | File | `/admin/login.php` | High
 5 | File | `/agenttrayicon` | High
 6 | File | `/ajax/networking/get_netcfg.php` | High
-7 | File | `/carbon/ndatasource/validateconnection/ajaxprocessor.jsp` | High
-8 | File | `/catcompany.php` | High
-9 | File | `/cgi-bin/kerbynet` | High
-10 | File | `/cgi-bin/ping.cgi` | High
-11 | File | `/cgi-bin/webproc` | High
-12 | File | `/etc/passwd` | Medium
-13 | File | `/inc/extensions.php` | High
-14 | File | `/index.php/client/message/message_read/xxxxxxxx[random-msg-hash]` | High
-15 | File | `/login.php` | Medium
-16 | File | `/relax-order-checks` | High
-17 | File | `/server/api/v1/login` | High
-18 | File | `/ueditor/net/controller.ashx?action=catchimage` | High
-19 | ... | ... | ...
+7 | File | `/app/api/controller/default/Sqlite.php` | High
+8 | File | `/carbon/ndatasource/validateconnection/ajaxprocessor.jsp` | High
+9 | File | `/catcompany.php` | High
+10 | File | `/cgi-bin/kerbynet` | High
+11 | File | `/cgi-bin/ping.cgi` | High
+12 | File | `/cgi-bin/webproc` | High
+13 | File | `/etc/passwd` | Medium
+14 | File | `/inc/extensions.php` | High
+15 | File | `/index.php/client/message/message_read/xxxxxxxx[random-msg-hash]` | High
+16 | File | `/login.php` | Medium
+17 | File | `/relax-order-checks` | High
+18 | File | `/server/api/v1/login` | High
+19 | File | `/ueditor/net/controller.ashx?action=catchimage` | High
+20 | ... | ... | ...
 
-There are 156 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 164 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -153,4 +154,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

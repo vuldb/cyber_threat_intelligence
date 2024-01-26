@@ -21,7 +21,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 15 more country items available. Please use our online service to access the data.
+There are 13 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -54,7 +54,8 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+6 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+7 | ... | ... | ... | ...
 
 There are 22 more TTP items available. Please use our online service to access the data.
 
@@ -65,48 +66,49 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.ssh/authorized_keys` | High
-2 | File | `/admin/ballot_down.php` | High
-3 | File | `/admin/config_save.php` | High
-4 | File | `/admin/edit_visitor.php` | High
-5 | File | `/admin/info.php` | High
-6 | File | `/admin/plugin.php` | High
-7 | File | `/admin/template.php` | High
-8 | File | `/alphaware/summary.php` | High
-9 | File | `/api/sys/login` | High
-10 | File | `/apply.cgi` | Medium
-11 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-12 | File | `/classes/Users.php` | High
-13 | File | `/dashboard/updatelogo.php` | High
-14 | File | `/dipam/save-delegates.php` | High
-15 | File | `/ecommerce/support_ticket` | High
-16 | File | `/etc/controller-agent/agent.conf` | High
-17 | File | `/etc/openshift/server_priv.pem` | High
-18 | File | `/forms/web_importTFTP` | High
-19 | File | `/goform/SysToolReboot` | High
-20 | File | `/goform/SysToolRestoreSet` | High
-21 | File | `/graphql` | Medium
-22 | File | `/index.php` | Medium
-23 | File | `/jeecg-boot/jmreport/upload` | High
-24 | File | `/jeecg-boot/jmreport/view` | High
-25 | File | `/jsoa/hntdCustomDesktopActionContent` | High
-26 | File | `/localhost/u` | Medium
-27 | File | `/mkshop/Men/profile.php` | High
-28 | File | `/net` | Low
-29 | File | `/Noxen-master/users.php` | High
-30 | File | `/opt/bin/cli` | Medium
-31 | File | `/PluXml/core/admin/parametres_edittpl.php` | High
-32 | File | `/public/plugins/` | High
-33 | File | `/public_html/admin/plugins/bad_behavior2/blacklist.php` | High
-34 | File | `/root/run/adm.php?admin-ediy&part=exdiy` | High
-35 | File | `/setNTP.cgi` | Medium
-36 | File | `/setting/setWanIeCfg` | High
-37 | File | `/templates/header.inc.php` | High
-38 | File | `/tmp` | Low
-39 | File | `/uncpath/` | Medium
-40 | File | `/v2/devices/add` | High
-41 | ... | ... | ...
+2 | File | `/admin/action/add_con.php` | High
+3 | File | `/admin/action/new-feed.php` | High
+4 | File | `/admin/app` | Medium
+5 | File | `/admin/ballot_down.php` | High
+6 | File | `/admin/config_save.php` | High
+7 | File | `/admin/edit_visitor.php` | High
+8 | File | `/admin/info.php` | High
+9 | File | `/admin/plugin.php` | High
+10 | File | `/admin/template.php` | High
+11 | File | `/alphaware/summary.php` | High
+12 | File | `/api/sys/login` | High
+13 | File | `/apply.cgi` | Medium
+14 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
+15 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+16 | File | `/classes/Users.php` | High
+17 | File | `/dashboard/updatelogo.php` | High
+18 | File | `/dipam/save-delegates.php` | High
+19 | File | `/ecommerce/support_ticket` | High
+20 | File | `/etc/controller-agent/agent.conf` | High
+21 | File | `/etc/openshift/server_priv.pem` | High
+22 | File | `/forms/web_importTFTP` | High
+23 | File | `/goform/SysToolReboot` | High
+24 | File | `/goform/SysToolRestoreSet` | High
+25 | File | `/graphql` | Medium
+26 | File | `/index.php` | Medium
+27 | File | `/jeecg-boot/jmreport/upload` | High
+28 | File | `/jeecg-boot/jmreport/view` | High
+29 | File | `/jsoa/hntdCustomDesktopActionContent` | High
+30 | File | `/localhost/u` | Medium
+31 | File | `/mkshop/Men/profile.php` | High
+32 | File | `/net` | Low
+33 | File | `/Noxen-master/users.php` | High
+34 | File | `/opt/bin/cli` | Medium
+35 | File | `/PluXml/core/admin/parametres_edittpl.php` | High
+36 | File | `/public/plugins/` | High
+37 | File | `/public_html/admin/plugins/bad_behavior2/blacklist.php` | High
+38 | File | `/root/run/adm.php?admin-ediy&part=exdiy` | High
+39 | File | `/setNTP.cgi` | Medium
+40 | File | `/setting/setWanIeCfg` | High
+41 | File | `/setup/diags_ir_learn.asp` | High
+42 | ... | ... | ...
 
-There are 357 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 362 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -128,4 +130,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

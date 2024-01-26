@@ -15,8 +15,8 @@ The following _campaigns_ are known and can be associated with REvil:
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with REvil:
 
 * [US](https://vuldb.com/?country.us)
-* [DE](https://vuldb.com/?country.de)
 * [RU](https://vuldb.com/?country.ru)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
 There are 13 more country items available. Please use our online service to access the data.
@@ -39,7 +39,7 @@ ID | IP address | Hostname | Campaign | Confidence
 10 | [45.56.79.23](https://vuldb.com/?ip.45.56.79.23) | li929-23.members.linode.com | - | High
 11 | ... | ... | ... | ...
 
-There are 39 more IOC items available. Please use our online service to access the data.
+There are 41 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -51,7 +51,8 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+5 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+6 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
 
@@ -63,39 +64,41 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/.htpasswd` | Medium
 2 | File | `/ajax.php?action=read_msg` | High
-3 | File | `/assets/something/services/AppModule.class` | High
-4 | File | `/category_view.php` | High
-5 | File | `/cgi-bin/nasset.cgi` | High
-6 | File | `/cgi-bin/webadminget.cgi` | High
-7 | File | `/cms/process.php` | High
-8 | File | `/debug/pprof` | Medium
-9 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
-10 | File | `/DXR.axd` | Medium
-11 | File | `/env` | Low
-12 | File | `/etc/shadow` | Medium
-13 | File | `/forum/away.php` | High
-14 | File | `/goform/SetNetControlList` | High
-15 | File | `/hrm/controller/employee.php` | High
-16 | File | `/index.php/weblinks-categories` | High
-17 | File | `/modules/profile/index.php` | High
-18 | File | `/movie.php` | Medium
-19 | File | `/public/login.htm` | High
-20 | File | `/service/v1/createUser` | High
-21 | File | `/show_news.php` | High
-22 | File | `/src/chatbotapp/chatWindow.java` | High
-23 | File | `/system?action=ServiceAdmin` | High
-24 | File | `/uncpath/` | Medium
-25 | File | `/web/entry/en/address/adrsSetUserWizard.cgi` | High
-26 | File | `adclick.php` | Medium
-27 | File | `admin.asp` | Medium
-28 | File | `admin/categories_industry.php` | High
-29 | File | `admin/class-woo-popup-admin.php` | High
-30 | File | `admin/content/postcategory` | High
-31 | File | `admin/index.php` | High
-32 | File | `admin/settings.php` | High
-33 | ... | ... | ...
+3 | File | `/api/jolokia org.jolokia.http.HttpRequestHandler#handlePostRequest` | High
+4 | File | `/assets/something/services/AppModule.class` | High
+5 | File | `/category_view.php` | High
+6 | File | `/cgi-bin/nasset.cgi` | High
+7 | File | `/cgi-bin/webadminget.cgi` | High
+8 | File | `/cms/process.php` | High
+9 | File | `/debug/pprof` | Medium
+10 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
+11 | File | `/DXR.axd` | Medium
+12 | File | `/env` | Low
+13 | File | `/etc/shadow` | Medium
+14 | File | `/forum/away.php` | High
+15 | File | `/goform/SetNetControlList` | High
+16 | File | `/HNAP1` | Low
+17 | File | `/HNAP1/` | Low
+18 | File | `/hrm/controller/employee.php` | High
+19 | File | `/index.php/weblinks-categories` | High
+20 | File | `/modules/profile/index.php` | High
+21 | File | `/movie.php` | Medium
+22 | File | `/public/login.htm` | High
+23 | File | `/service/v1/createUser` | High
+24 | File | `/show_news.php` | High
+25 | File | `/src/chatbotapp/chatWindow.java` | High
+26 | File | `/system?action=ServiceAdmin` | High
+27 | File | `/uncpath/` | Medium
+28 | File | `/web/entry/en/address/adrsSetUserWizard.cgi` | High
+29 | File | `/_vti_bin/_vti_log` | High
+30 | File | `adclick.php` | Medium
+31 | File | `add_quiz.php` | Medium
+32 | File | `admin.asp` | Medium
+33 | File | `admin/categories_industry.php` | High
+34 | File | `admin/class-woo-popup-admin.php` | High
+35 | ... | ... | ...
 
-There are 281 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 295 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -104,6 +107,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/2019/04/sodinokibi-ransomware-exploits-weblogic.html
 * https://blogs.blackberry.com/en/2021/11/revil-under-the-microscope
 * https://ddanchev.blogspot.com/2022/01/exposing-internet-connected_24.html
+* https://de.darktrace.com/blog/blackmatters-smash-and-grab-tactics-and-the-need-for-respond
 * https://thedfirreport.com/2021/03/29/sodinokibi-aka-revil-ransomware/
 * https://www.darktrace.com/en/blog/darktraces-cyber-ai-analyst-investigates-sodinokibi-r-evil-ransomware/
 * https://www.varonis.com/blog/revil-msp-supply-chain-attack/
@@ -117,4 +121,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

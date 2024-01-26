@@ -52,7 +52,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1068 | CWE-264, CWE-266, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -106,16 +106,16 @@ ID | Type | Indicator | Confidence
 44 | File | `/_next` | Low
 45 | File | `/_vti_pvt/access.cnf` | High
 46 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-47 | File | `123flashchat.php` | High
-48 | File | `act.php` | Low
-49 | File | `ActionServlet.java` | High
-50 | File | `adclick.php` | Medium
-51 | File | `admin.php` | Medium
-52 | File | `admin.php/pay` | High
-53 | File | `admin/bad.php` | High
+47 | File | `act.php` | Low
+48 | File | `ActionServlet.java` | High
+49 | File | `adclick.php` | Medium
+50 | File | `admin.php` | Medium
+51 | File | `admin.php/pay` | High
+52 | File | `admin/bad.php` | High
+53 | File | `admin/index.php/user/del/1` | High
 54 | ... | ... | ...
 
-There are 474 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 466 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -133,4 +133,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

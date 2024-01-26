@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Seychelles Unknown:
 
 * [US](https://vuldb.com/?country.us)
-* [AR](https://vuldb.com/?country.ar)
 * [FR](https://vuldb.com/?country.fr)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
 There are 13 more country items available. Please use our online service to access the data.
@@ -566,7 +566,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-425 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
@@ -594,32 +594,32 @@ ID | Type | Indicator | Confidence
 12 | File | `/admin/users.php?source=edit_user&id=1` | High
 13 | File | `/administrator/alerts/alertLightbox.php` | High
 14 | File | `/administrator/templates/default/html/windows/right.php` | High
-15 | File | `/api/runscript` | High
-16 | File | `/apps/acs-commons/content/page-compare.html` | High
-17 | File | `/cgi-bin/webadminget.cgi` | High
-18 | File | `/classes/Master.php?f=delete_service` | High
-19 | File | `/classes/Master.php?f=save_course` | High
-20 | File | `/config/php.ini` | High
-21 | File | `/demo/module/?module=HERE` | High
-22 | File | `/download/set.cgi` | High
+15 | File | `/admin_route/inc_service_credits.php` | High
+16 | File | `/api/runscript` | High
+17 | File | `/cgi-bin/cstecgi.cgi` | High
+18 | File | `/cgi-bin/webadminget.cgi` | High
+19 | File | `/classes/Master.php?f=delete_service` | High
+20 | File | `/classes/Master.php?f=save_course` | High
+21 | File | `/config/php.ini` | High
+22 | File | `/demo/module/?module=HERE` | High
 23 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
-24 | File | `/dvcset/sysset/set.cgi` | High
-25 | File | `/forum/away.php` | High
-26 | File | `/goform/SysToolReboot` | High
-27 | File | `/goform/WifiExtraSet` | High
-28 | File | `/inc/topBarNav.php` | High
-29 | File | `/index.php?m=admin&c=custom&a=plugindelhandle` | High
-30 | File | `/mkshop/Men/profile.php` | High
-31 | File | `/mngset/authset` | High
-32 | File | `/mobile/downloadfile.aspx` | High
-33 | File | `/net/nfc/netlink.c` | High
-34 | File | `/out.php` | Medium
-35 | File | `/outgoing.php` | High
-36 | File | `/php-fusion/infusions/shoutbox_panel/shoutbox_archive.php` | High
-37 | File | `/presale/join` | High
+24 | File | `/forum/away.php` | High
+25 | File | `/goform/SysToolReboot` | High
+26 | File | `/goform/WifiExtraSet` | High
+27 | File | `/inc/topBarNav.php` | High
+28 | File | `/index.php?m=admin&c=custom&a=plugindelhandle` | High
+29 | File | `/mkshop/Men/profile.php` | High
+30 | File | `/mobile/downloadfile.aspx` | High
+31 | File | `/net/nfc/netlink.c` | High
+32 | File | `/oauth/idp/.well-known/openid-configuration` | High
+33 | File | `/out.php` | Medium
+34 | File | `/outgoing.php` | High
+35 | File | `/php-fusion/infusions/shoutbox_panel/shoutbox_archive.php` | High
+36 | File | `/register.do` | Medium
+37 | File | `/spip.php` | Medium
 38 | ... | ... | ...
 
-There are 324 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 326 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -638,4 +638,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

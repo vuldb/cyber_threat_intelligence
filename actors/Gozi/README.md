@@ -22,43 +22,46 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [5.42.199.57](https://vuldb.com/?ip.5.42.199.57) | - | - | High
-2 | [23.227.202.64](https://vuldb.com/?ip.23.227.202.64) | 23-227-202-64.static.hvvc.us | - | High
-3 | [31.41.44.60](https://vuldb.com/?ip.31.41.44.60) | free.cishost.ru | - | High
-4 | [31.41.44.63](https://vuldb.com/?ip.31.41.44.63) | free.cishost.ru | - | High
-5 | [31.41.44.112](https://vuldb.com/?ip.31.41.44.112) | free.cishost.ru | - | High
-6 | [31.41.44.124](https://vuldb.com/?ip.31.41.44.124) | free.cishost.ru | - | High
-7 | [31.41.44.125](https://vuldb.com/?ip.31.41.44.125) | free.cishost.ru | - | High
-8 | [31.41.46.120](https://vuldb.com/?ip.31.41.46.120) | free.cishost.ru | - | High
-9 | [31.41.46.132](https://vuldb.com/?ip.31.41.46.132) | free.cishost.ru | - | High
-10 | [31.148.99.142](https://vuldb.com/?ip.31.148.99.142) | - | - | High
-11 | [31.148.99.193](https://vuldb.com/?ip.31.148.99.193) | - | - | High
-12 | [31.207.46.12](https://vuldb.com/?ip.31.207.46.12) | - | - | High
-13 | [31.214.157.11](https://vuldb.com/?ip.31.214.157.11) | hardware-optimal.de | - | High
-14 | [31.214.157.31](https://vuldb.com/?ip.31.214.157.31) | vm12150.ru | - | High
-15 | [31.214.157.160](https://vuldb.com/?ip.31.214.157.160) | elijah-nascent.specbowel.net | - | High
-16 | [31.214.157.235](https://vuldb.com/?ip.31.214.157.235) | kuhit.rdfew.com | - | High
-17 | [37.10.71.114](https://vuldb.com/?ip.37.10.71.114) | - | - | High
-18 | [37.10.71.221](https://vuldb.com/?ip.37.10.71.221) | smtp1.cloudmailsys.com | - | High
-19 | [37.120.206.71](https://vuldb.com/?ip.37.120.206.71) | - | - | High
-20 | [37.120.206.84](https://vuldb.com/?ip.37.120.206.84) | - | - | High
-21 | [37.120.206.91](https://vuldb.com/?ip.37.120.206.91) | - | - | High
-22 | [37.120.206.95](https://vuldb.com/?ip.37.120.206.95) | - | - | High
-23 | [37.120.222.23](https://vuldb.com/?ip.37.120.222.23) | - | - | High
-24 | [37.120.222.161](https://vuldb.com/?ip.37.120.222.161) | vlan119.as13.fra4.de.m247.com | - | High
-25 | [37.120.222.163](https://vuldb.com/?ip.37.120.222.163) | - | - | High
-26 | [37.120.222.189](https://vuldb.com/?ip.37.120.222.189) | - | - | High
-27 | [45.11.180.110](https://vuldb.com/?ip.45.11.180.110) | - | - | High
-28 | [45.11.180.140](https://vuldb.com/?ip.45.11.180.140) | boab-exchange.stuffbent.net | - | High
-29 | [45.11.180.178](https://vuldb.com/?ip.45.11.180.178) | pleased-process.eitherbar.com | - | High
-30 | [45.11.181.28](https://vuldb.com/?ip.45.11.181.28) | sourengine.com | - | High
-31 | [45.11.181.117](https://vuldb.com/?ip.45.11.181.117) | - | - | High
-32 | [45.11.181.122](https://vuldb.com/?ip.45.11.181.122) | - | - | High
-33 | [45.11.182.38](https://vuldb.com/?ip.45.11.182.38) | - | - | High
-34 | [45.11.182.97](https://vuldb.com/?ip.45.11.182.97) | - | - | High
-35 | [45.11.183.24](https://vuldb.com/?ip.45.11.183.24) | - | - | High
-36 | ... | ... | ... | ...
+2 | [5.61.37.91](https://vuldb.com/?ip.5.61.37.91) | - | - | High
+3 | [23.227.202.64](https://vuldb.com/?ip.23.227.202.64) | 23-227-202-64.static.hvvc.us | - | High
+4 | [31.41.44.60](https://vuldb.com/?ip.31.41.44.60) | free.cishost.ru | - | High
+5 | [31.41.44.63](https://vuldb.com/?ip.31.41.44.63) | free.cishost.ru | - | High
+6 | [31.41.44.112](https://vuldb.com/?ip.31.41.44.112) | free.cishost.ru | - | High
+7 | [31.41.44.124](https://vuldb.com/?ip.31.41.44.124) | free.cishost.ru | - | High
+8 | [31.41.44.125](https://vuldb.com/?ip.31.41.44.125) | free.cishost.ru | - | High
+9 | [31.41.46.120](https://vuldb.com/?ip.31.41.46.120) | free.cishost.ru | - | High
+10 | [31.41.46.132](https://vuldb.com/?ip.31.41.46.132) | free.cishost.ru | - | High
+11 | [31.148.99.142](https://vuldb.com/?ip.31.148.99.142) | - | - | High
+12 | [31.148.99.193](https://vuldb.com/?ip.31.148.99.193) | - | - | High
+13 | [31.207.46.12](https://vuldb.com/?ip.31.207.46.12) | - | - | High
+14 | [31.214.157.11](https://vuldb.com/?ip.31.214.157.11) | hardware-optimal.de | - | High
+15 | [31.214.157.31](https://vuldb.com/?ip.31.214.157.31) | vm12150.ru | - | High
+16 | [31.214.157.160](https://vuldb.com/?ip.31.214.157.160) | elijah-nascent.specbowel.net | - | High
+17 | [31.214.157.235](https://vuldb.com/?ip.31.214.157.235) | kuhit.rdfew.com | - | High
+18 | [35.205.61.67](https://vuldb.com/?ip.35.205.61.67) | 67.61.205.35.bc.googleusercontent.com | - | Medium
+19 | [37.10.71.114](https://vuldb.com/?ip.37.10.71.114) | - | - | High
+20 | [37.10.71.221](https://vuldb.com/?ip.37.10.71.221) | smtp1.cloudmailsys.com | - | High
+21 | [37.120.206.71](https://vuldb.com/?ip.37.120.206.71) | - | - | High
+22 | [37.120.206.84](https://vuldb.com/?ip.37.120.206.84) | - | - | High
+23 | [37.120.206.91](https://vuldb.com/?ip.37.120.206.91) | - | - | High
+24 | [37.120.206.95](https://vuldb.com/?ip.37.120.206.95) | - | - | High
+25 | [37.120.222.23](https://vuldb.com/?ip.37.120.222.23) | - | - | High
+26 | [37.120.222.161](https://vuldb.com/?ip.37.120.222.161) | vlan119.as13.fra4.de.m247.com | - | High
+27 | [37.120.222.163](https://vuldb.com/?ip.37.120.222.163) | - | - | High
+28 | [37.120.222.189](https://vuldb.com/?ip.37.120.222.189) | - | - | High
+29 | [45.11.180.110](https://vuldb.com/?ip.45.11.180.110) | - | - | High
+30 | [45.11.180.140](https://vuldb.com/?ip.45.11.180.140) | boab-exchange.stuffbent.net | - | High
+31 | [45.11.180.178](https://vuldb.com/?ip.45.11.180.178) | pleased-process.eitherbar.com | - | High
+32 | [45.11.181.28](https://vuldb.com/?ip.45.11.181.28) | sourengine.com | - | High
+33 | [45.11.181.117](https://vuldb.com/?ip.45.11.181.117) | - | - | High
+34 | [45.11.181.122](https://vuldb.com/?ip.45.11.181.122) | - | - | High
+35 | [45.11.182.38](https://vuldb.com/?ip.45.11.182.38) | - | - | High
+36 | [45.11.182.97](https://vuldb.com/?ip.45.11.182.97) | - | - | High
+37 | [45.11.183.24](https://vuldb.com/?ip.45.11.183.24) | - | - | High
+38 | [45.15.157.239](https://vuldb.com/?ip.45.15.157.239) | 02.aeza.network | - | High
+39 | ... | ... | ... | ...
 
-There are 142 more IOC items available. Please use our online service to access the data.
+There are 153 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -71,7 +74,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 10 more TTP items available. Please use our online service to access the data.
+There are 11 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -79,16 +82,17 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/index.php` | Medium
-2 | File | `/members/view_member.php` | High
-3 | File | `/mhds/clinic/view_details.php` | High
-4 | File | `/owa/auth/logon.aspx` | High
-5 | File | `/rest/api/latest/projectvalidate/key` | High
-6 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
-7 | File | `/uncpath/` | Medium
-8 | ... | ... | ...
+1 | File | `/cgi-bin/wlogin.cgi` | High
+2 | File | `/index.php` | Medium
+3 | File | `/members/view_member.php` | High
+4 | File | `/mhds/clinic/view_details.php` | High
+5 | File | `/owa/auth/logon.aspx` | High
+6 | File | `/rest/api/latest/projectvalidate/key` | High
+7 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
+8 | File | `/uncpath/` | Medium
+9 | ... | ... | ...
 
-There are 56 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 63 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -97,6 +101,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://bazaar.abuse.ch/sample/aa8a59aaed89dd7c8696a7d63fa2763689be023a4a7692f63d950d8b923b6154/
 * https://bazaar.abuse.ch/sample/eb617fa7cba6309640cda1035eee2fc79fa77c44b229e3c0213d44d97f1b4426/
 * https://blog.talosintelligence.com/2019/10/threat-roundup-1011-1018.html
+* https://de.darktrace.com/blog/gozi-isfb-darktraces-detection-of-the-malware-with-a-thousand-faces
 * https://search.censys.io/hosts/31.214.157.11
 * https://search.censys.io/hosts/45.93.139.24
 * https://search.censys.io/hosts/83.217.9.90
@@ -122,4 +127,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -66,35 +66,35 @@ ID | Type | Indicator | Confidence
 14 | File | `/dl/dl_print.php` | High
 15 | File | `/export` | Low
 16 | File | `/file?action=download&file` | High
-17 | File | `/home.jsp` | Medium
-18 | File | `/hrm/controller/employee.php` | High
-19 | File | `/icingaweb2/navigation/add` | High
-20 | File | `/importexport.php` | High
-21 | File | `/include/chart_generator.php` | High
-22 | File | `/index.php` | Medium
-23 | File | `/iwgallery/pictures/details.asp` | High
-24 | File | `/librarian/bookdetails.php` | High
-25 | File | `/log/download.php` | High
-26 | File | `/loginsave.php` | High
-27 | File | `/LogoStore/search.php` | High
-28 | File | `/maint/index.php` | High
-29 | File | `/MTFWU` | Low
-30 | File | `/new` | Low
-31 | File | `/opt/teradata/gsctools/bin/t2a.pl` | High
-32 | File | `/pf/idprofile.ping` | High
-33 | File | `/php-scrm/login.php` | High
-34 | File | `/plain` | Low
-35 | File | `/plesk-site-preview/` | High
-36 | File | `/ReleaseX64/ssl/openssl.cnf` | High
-37 | File | `/reports-viewScriptReport.view` | High
-38 | File | `/RestAPI` | Medium
-39 | File | `/rom-0` | Low
-40 | File | `/scripts/cpan_config` | High
-41 | File | `/setSystemAdmin` | High
-42 | File | `/spip.php` | Medium
+17 | File | `/forum/away.php` | High
+18 | File | `/home.jsp` | Medium
+19 | File | `/hrm/controller/employee.php` | High
+20 | File | `/icingaweb2/navigation/add` | High
+21 | File | `/importexport.php` | High
+22 | File | `/include/chart_generator.php` | High
+23 | File | `/index.php` | Medium
+24 | File | `/iwgallery/pictures/details.asp` | High
+25 | File | `/librarian/bookdetails.php` | High
+26 | File | `/log/download.php` | High
+27 | File | `/loginsave.php` | High
+28 | File | `/LogoStore/search.php` | High
+29 | File | `/maint/index.php` | High
+30 | File | `/MTFWU` | Low
+31 | File | `/new` | Low
+32 | File | `/oauth/idp/.well-known/openid-configuration` | High
+33 | File | `/opt/teradata/gsctools/bin/t2a.pl` | High
+34 | File | `/pf/idprofile.ping` | High
+35 | File | `/php-scrm/login.php` | High
+36 | File | `/plain` | Low
+37 | File | `/plesk-site-preview/` | High
+38 | File | `/ReleaseX64/ssl/openssl.cnf` | High
+39 | File | `/reports-viewScriptReport.view` | High
+40 | File | `/RestAPI` | Medium
+41 | File | `/rom-0` | Low
+42 | File | `/scripts/cpan_config` | High
 43 | ... | ... | ...
 
-There are 369 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 368 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -114,4 +114,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

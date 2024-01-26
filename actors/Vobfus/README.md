@@ -61,42 +61,42 @@ ID | Type | Indicator | Confidence
 5 | File | `/app/controller/Books.php` | High
 6 | File | `/bin/boa` | Medium
 7 | File | `/cgi-bin/wapopen` | High
-8 | File | `/config/getuser` | High
-9 | File | `/context/%2e/WEB-INF/web.xml` | High
-10 | File | `/dev/urandom` | Medium
-11 | File | `/etc/ajenti/config.yml` | High
-12 | File | `/etc/quantum/quantum.conf` | High
-13 | File | `/etc/shadow` | Medium
-14 | File | `/exec/` | Low
-15 | File | `/forum/away.php` | High
-16 | File | `/getcfg.php` | Medium
-17 | File | `/goform/dir_setWanWifi` | High
-18 | File | `/HNAP1` | Low
-19 | File | `/mgmt/tm/util/bash` | High
-20 | File | `/MIME/INBOX-MM-1/` | High
-21 | File | `/modules/projects/vw_files.php` | High
-22 | File | `/opt/tms/bin/cli` | High
-23 | File | `/out.php` | Medium
-24 | File | `/plain` | Low
-25 | File | `/server-status` | High
-26 | File | `/setSystemAdmin` | High
-27 | File | `/staff/tools/custom-fields` | High
-28 | File | `/tmp/phpglibccheck` | High
-29 | File | `/uncpath/` | Medium
-30 | File | `/WebMstr7/servlet/mstrWeb` | High
-31 | File | `/webpages/data` | High
-32 | File | `/wp-admin/options.php` | High
-33 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-34 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-35 | File | `/wp-json/oembed/1.0/embed?url` | High
-36 | File | `/xyhai.php?s=/Auth/editUser` | High
-37 | File | `/_next` | Low
-38 | File | `account.asp` | Medium
-39 | File | `actionHandler/ajax_managed_services.php` | High
-40 | File | `adclick.php` | Medium
+8 | File | `/cgi-bin/wlogin.cgi` | High
+9 | File | `/config/getuser` | High
+10 | File | `/context/%2e/WEB-INF/web.xml` | High
+11 | File | `/dev/urandom` | Medium
+12 | File | `/etc/ajenti/config.yml` | High
+13 | File | `/etc/quantum/quantum.conf` | High
+14 | File | `/etc/shadow` | Medium
+15 | File | `/exec/` | Low
+16 | File | `/forum/away.php` | High
+17 | File | `/getcfg.php` | Medium
+18 | File | `/goform/dir_setWanWifi` | High
+19 | File | `/HNAP1` | Low
+20 | File | `/mgmt/tm/util/bash` | High
+21 | File | `/MIME/INBOX-MM-1/` | High
+22 | File | `/modules/projects/vw_files.php` | High
+23 | File | `/opt/tms/bin/cli` | High
+24 | File | `/out.php` | Medium
+25 | File | `/plain` | Low
+26 | File | `/server-status` | High
+27 | File | `/setSystemAdmin` | High
+28 | File | `/staff/tools/custom-fields` | High
+29 | File | `/tmp/phpglibccheck` | High
+30 | File | `/uncpath/` | Medium
+31 | File | `/WebMstr7/servlet/mstrWeb` | High
+32 | File | `/webpages/data` | High
+33 | File | `/wp-admin/options.php` | High
+34 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+35 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+36 | File | `/wp-json/oembed/1.0/embed?url` | High
+37 | File | `/xyhai.php?s=/Auth/editUser` | High
+38 | File | `/_next` | Low
+39 | File | `account.asp` | Medium
+40 | File | `actionHandler/ajax_managed_services.php` | High
 41 | ... | ... | ...
 
-There are 350 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 354 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -122,4 +122,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

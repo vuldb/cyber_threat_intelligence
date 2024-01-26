@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [NZ](https://vuldb.com/?country.nz)
 * ...
 
-There are 18 more country items available. Please use our online service to access the data.
+There are 17 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -642,9 +642,9 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Pathname Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -658,46 +658,47 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `%SYSTEMDRIVE%\node_modules\.bin\wmic.exe` | High
 2 | File | `/activate_hook.php` | High
-3 | File | `/admin/?page=system_info` | High
-4 | File | `/admin/add-category.php` | High
-5 | File | `/admin/orders/update_status.php` | High
-6 | File | `/admin/save.php` | High
-7 | File | `/api/download` | High
-8 | File | `/api/v1/alerts` | High
-9 | File | `/api/v1/terminal/sessions/?limit=1` | High
-10 | File | `/billing/home.php` | High
-11 | File | `/category.php` | High
-12 | File | `/categorypage.php` | High
-13 | File | `/cgi-bin/vitogate.cgi` | High
-14 | File | `/cgi-bin/wapopen` | High
-15 | File | `/classes/Master.php` | High
-16 | File | `/debug/pprof` | Medium
-17 | File | `/fcgi/scrut_fcgi.fcgi` | High
-18 | File | `/forum/away.php` | High
-19 | File | `/geoserver/gwc/rest.html` | High
-20 | File | `/goform/formSysCmd` | High
-21 | File | `/HNAP1` | Low
-22 | File | `/home/cavesConsole` | High
-23 | File | `/home/masterConsole` | High
-24 | File | `/home/playerOperate` | High
+3 | File | `/admin/` | Low
+4 | File | `/admin/?page=system_info` | High
+5 | File | `/admin/add-category.php` | High
+6 | File | `/admin/singlelogin.php?submit=1` | High
+7 | File | `/api/v1/alerts` | High
+8 | File | `/b2b-supermarket/shopping-cart` | High
+9 | File | `/boaform/device_reset.cgi` | High
+10 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+11 | File | `/change-language/de_DE` | High
+12 | File | `/classes/Master.php` | High
+13 | File | `/debug/pprof` | Medium
+14 | File | `/dist/index.js` | High
+15 | File | `/fcgi/scrut_fcgi.fcgi` | High
+16 | File | `/forum/away.php` | High
+17 | File | `/geoserver/gwc/rest.html` | High
+18 | File | `/goform/formSysCmd` | High
+19 | File | `/HNAP1` | Low
+20 | File | `/HNAP1/` | Low
+21 | File | `/home/kickPlayer` | High
+22 | File | `/home/masterConsole` | High
+23 | File | `/home/playerOperate` | High
+24 | File | `/hosts/firewall/ip` | High
 25 | File | `/importexport.php` | High
 26 | File | `/inc/jquery/uploadify/uploadify.php` | High
-27 | File | `/items/search` | High
-28 | File | `/jeecg-boot/sys/common/upload` | High
-29 | File | `/oauth/idp/.well-known/openid-configuration` | High
-30 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
-31 | File | `/owa/auth/logon.aspx` | High
-32 | File | `/param.file.tgz` | High
-33 | File | `/proxy` | Low
-34 | File | `/RPS2019Service/status.html` | High
-35 | File | `/scripts/unlock_tasks.php` | High
-36 | File | `/setting` | Medium
-37 | File | `/sicweb-ajax/tmproot/` | High
-38 | File | `/spip.php` | Medium
-39 | File | `/subsys/net/l2/wifi/wifi_shell.c` | High
-40 | ... | ... | ...
+27 | File | `/index.php/ccm/system/file/upload` | High
+28 | File | `/log/decodmail.php` | High
+29 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+30 | File | `/oauth/idp/.well-known/openid-configuration` | High
+31 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
+32 | File | `/owa/auth/logon.aspx` | High
+33 | File | `/php/ping.php` | High
+34 | File | `/proxy` | Low
+35 | File | `/register.php` | High
+36 | File | `/rom-0` | Low
+37 | File | `/s/index.php?action=statistics` | High
+38 | File | `/scripts/unlock_tasks.php` | High
+39 | File | `/setting` | Medium
+40 | File | `/sicweb-ajax/tmproot/` | High
+41 | ... | ... | ...
 
-There are 345 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 356 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -716,4 +717,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

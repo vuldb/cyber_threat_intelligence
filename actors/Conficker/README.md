@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 9 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -236,15 +236,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-425 | Pathname Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
-7 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-29, CWE-37 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 24 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -252,44 +250,55 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `%SYSTEMDRIVE%\node_modules\.bin\wmic.exe` | High
-2 | File | `/accounts/password_change/` | High
-3 | File | `/act/ActDao.xml` | High
-4 | File | `/admin/category/save` | High
-5 | File | `/admin/subject.php` | High
-6 | File | `/api/baskets/{name}` | High
-7 | File | `/auth/auth.php?user=1` | High
-8 | File | `/b2b-supermarket/shopping-cart` | High
-9 | File | `/bin/login` | Medium
-10 | File | `/bsms_ci/index.php` | High
-11 | File | `/calendar/minimizer/index.php` | High
-12 | File | `/catalog/compare` | High
-13 | File | `/cgi-bin/downloadFile.cgi` | High
-14 | File | `/cgi-bin/kerbynet` | High
-15 | File | `/cgi-bin/webviewer_login_page` | High
-16 | File | `/cgi-bin/wlogin.cgi` | High
-17 | File | `/debug/pprof` | Medium
-18 | File | `/DesignTools/CssEditor.aspx` | High
-19 | File | `/DXR.axd` | Medium
-20 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-21 | File | `/forum/away.php` | High
-22 | File | `/geoserver/gwc/rest.html` | High
-23 | File | `/goform/formSysCmd` | High
-24 | File | `/goform/goform_get_cmd_process` | High
-25 | File | `/HNAP1/` | Low
-26 | File | `/importexport.php` | High
-27 | File | `/index.php/client/message/message_read/xxxxxxxx[random-msg-hash]` | High
-28 | File | `/main/webservices/additional_webservices.php` | High
-29 | File | `/mc` | Low
-30 | File | `/mhds/clinic/view_details.php` | High
-31 | File | `/modals/class_form.php` | High
-32 | File | `/oauth/idp/.well-known/openid-configuration` | High
-33 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-34 | File | `/register.php` | High
-35 | File | `/search.php` | Medium
-36 | ... | ... | ...
+1 | File | `/.env` | Low
+2 | File | `/act/ActDao.xml` | High
+3 | File | `/admin/` | Low
+4 | File | `/admin/admin_user.php` | High
+5 | File | `/admin/clientview.php` | High
+6 | File | `/admin/pages/update_go.php` | High
+7 | File | `/admin/regester.php` | High
+8 | File | `/admin/update-clients.php` | High
+9 | File | `/api/cron/settings/setJob/` | High
+10 | File | `/api/sys/set_passwd` | High
+11 | File | `/api/v1/terminal/sessions/?limit=1` | High
+12 | File | `/apply.cgi` | Medium
+13 | File | `/authenticationendpoint/login.do` | High
+14 | File | `/b2b-supermarket/shopping-cart` | High
+15 | File | `/boaform/device_reset.cgi` | High
+16 | File | `/bsms_ci/index.php/user/edit_user/` | High
+17 | File | `/cgi-bin/cstecgi.cgi` | High
+18 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+19 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
+20 | File | `/cgi-bin/kerbynet` | High
+21 | File | `/cgi-bin/R14.2/cgi-bin/R14.2/host.pl` | High
+22 | File | `/cgi-bin/R14.2/easy1350.pl` | High
+23 | File | `/cgi-bin/wlogin.cgi` | High
+24 | File | `/cgi/cpaddons_report.pl` | High
+25 | File | `/change-language/de_DE` | High
+26 | File | `/clinic/disease_symptoms_view.php` | High
+27 | File | `/config/getuser` | High
+28 | File | `/dashboard/snapshot/*?orgId=0` | High
+29 | File | `/debug/pprof` | Medium
+30 | File | `/dist/index.js` | High
+31 | File | `/DXR.axd` | Medium
+32 | File | `/endpoint/add-user.php` | High
+33 | File | `/forum/away.php` | High
+34 | File | `/forums/editforum.php` | High
+35 | File | `/goform/goform_get_cmd_process` | High
+36 | File | `/home/courses` | High
+37 | File | `/hosts/firewall/ip` | High
+38 | File | `/importexport.php` | High
+39 | File | `/index.php/ccm/system/file/upload` | High
+40 | File | `/log/decodmail.php` | High
+41 | File | `/login` | Low
+42 | File | `/main/doctype.php` | High
+43 | File | `/Main_AdmStatus_Content.asp` | High
+44 | File | `/manager?action=getlogcat` | High
+45 | File | `/mehah/otclient` | High
+46 | File | `/modals/class_form.php` | High
+47 | ... | ... | ...
 
-There are 307 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 403 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -307,4 +316,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

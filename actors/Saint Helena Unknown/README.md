@@ -55,30 +55,35 @@ ID | Type | Indicator | Confidence
 6 | File | `/appliance/users?action=edit` | High
 7 | File | `/filemanager/upload.php` | High
 8 | File | `/forum/away.php` | High
-9 | File | `/if.cgi` | Low
-10 | File | `/mifs/c/i/reg/reg.html` | High
-11 | File | `/modules/profile/index.php` | High
-12 | File | `/news.dtl.php` | High
-13 | File | `/see_more_details.php` | High
-14 | File | `/services/details.asp` | High
-15 | File | `/setup` | Low
-16 | File | `/spip.php` | Medium
-17 | File | `/uncpath/` | Medium
-18 | File | `/var/log/nginx` | High
-19 | File | `/VPortal/mgtconsole/Subscriptions.jsp` | High
-20 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-21 | File | `act.php` | Low
-22 | File | `adclick.php` | Medium
-23 | File | `admin` | Low
-24 | File | `admin.php` | Medium
-25 | File | `admin/adminsignin.html` | High
-26 | File | `admin/movieview.php` | High
-27 | File | `admin/versions.html` | High
-28 | File | `agenda.php` | Medium
-29 | File | `ajax_calls.php` | High
-30 | ... | ... | ...
+9 | File | `/healthcare/Admin/consulting_detail.php` | High
+10 | File | `/if.cgi` | Low
+11 | File | `/mifs/c/i/reg/reg.html` | High
+12 | File | `/modules/profile/index.php` | High
+13 | File | `/news.dtl.php` | High
+14 | File | `/see_more_details.php` | High
+15 | File | `/services/details.asp` | High
+16 | File | `/setup` | Low
+17 | File | `/spip.php` | Medium
+18 | File | `/uncpath/` | Medium
+19 | File | `/var/log/nginx` | High
+20 | File | `/VPortal/mgtconsole/Subscriptions.jsp` | High
+21 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+22 | File | `/zm/index.php` | High
+23 | File | `act.php` | Low
+24 | File | `adclick.php` | Medium
+25 | File | `admin` | Low
+26 | File | `admin.php` | Medium
+27 | File | `admin/adminsignin.html` | High
+28 | File | `admin/movieview.php` | High
+29 | File | `admin/versions.html` | High
+30 | File | `agenda.php` | Medium
+31 | File | `ajax_calls.php` | High
+32 | File | `api.php` | Low
+33 | File | `army.php` | Medium
+34 | File | `attendancy.php` | High
+35 | ... | ... | ...
 
-There are 254 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 303 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -96,4 +101,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

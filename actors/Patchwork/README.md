@@ -110,8 +110,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | T1068 | CWE-250, CWE-264, CWE-266, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
-6 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
-7 | ... | ... | ... | ...
+6 | ... | ... | ... | ...
 
 There are 22 more TTP items available. Please use our online service to access the data.
 
@@ -147,24 +146,25 @@ ID | Type | Indicator | Confidence
 24 | File | `/goforms/rlminfo` | High
 25 | File | `/GponForm/usb_restore_Form?script/` | High
 26 | File | `/group1/uploa` | High
-27 | File | `/HNAP1` | Low
-28 | File | `/HNAP1/SetClientInfo` | High
-29 | File | `/Items/*/RemoteImages/Download` | High
-30 | File | `/menu.html` | Medium
-31 | File | `/modules/profile/index.php` | High
-32 | File | `/navigate/navigate_download.php` | High
-33 | File | `/ocwbs/admin/?page=user/manage_user` | High
-34 | File | `/ofrs/admin/?page=user/manage_user` | High
-35 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-36 | File | `/out.php` | Medium
-37 | File | `/php_action/fetchSelectedUser.php` | High
-38 | File | `/plugin` | Low
-39 | File | `/property-list/property_view.php` | High
-40 | File | `/ptms/classes/Users.php` | High
-41 | File | `/resources//../` | High
-42 | ... | ... | ...
+27 | File | `/hedwig.cgi` | Medium
+28 | File | `/HNAP1` | Low
+29 | File | `/HNAP1/SetClientInfo` | High
+30 | File | `/Items/*/RemoteImages/Download` | High
+31 | File | `/menu.html` | Medium
+32 | File | `/modules/profile/index.php` | High
+33 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+34 | File | `/navigate/navigate_download.php` | High
+35 | File | `/ocwbs/admin/?page=user/manage_user` | High
+36 | File | `/ofrs/admin/?page=user/manage_user` | High
+37 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+38 | File | `/out.php` | Medium
+39 | File | `/php_action/fetchSelectedUser.php` | High
+40 | File | `/plugin` | Low
+41 | File | `/property-list/property_view.php` | High
+42 | File | `/ptms/classes/Users.php` | High
+43 | ... | ... | ...
 
-There are 362 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 368 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -193,4 +193,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

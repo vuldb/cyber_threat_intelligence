@@ -58,20 +58,20 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/.env` | Low
 2 | File | `/?/admin/snippet/add` | High
-3 | File | `/bin/false` | Medium
-4 | File | `/blog` | Low
-5 | File | `/cgi-bin/webproc` | High
-6 | File | `/expert_wizard.php` | High
-7 | File | `/images/browserslide.jpg` | High
-8 | File | `/includes/lib/get.php` | High
-9 | File | `/lists/index.php` | High
-10 | File | `/main?cmd=invalid_browser` | High
-11 | File | `/manager?action=getlogcat` | High
-12 | File | `/mc` | Low
-13 | File | `/rest/jpo/1.0/hierarchyConfiguration` | High
+3 | File | `/admin/index2.html` | High
+4 | File | `/bin/false` | Medium
+5 | File | `/blog` | Low
+6 | File | `/cgi-bin/webproc` | High
+7 | File | `/expert_wizard.php` | High
+8 | File | `/images/browserslide.jpg` | High
+9 | File | `/includes/lib/get.php` | High
+10 | File | `/lists/index.php` | High
+11 | File | `/main?cmd=invalid_browser` | High
+12 | File | `/manager?action=getlogcat` | High
+13 | File | `/mc` | Low
 14 | ... | ... | ...
 
-There are 110 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 111 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -88,4 +88,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

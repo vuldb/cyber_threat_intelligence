@@ -55,40 +55,40 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin/maintenance/view_designation.php` | High
 3 | File | `/admin/manage_academic.php` | High
 4 | File | `/admin/subnets/ripe-query.php` | High
-5 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
-6 | File | `/fw.login.php` | High
-7 | File | `/gfxpoly/convert.c` | High
-8 | File | `/GponForm/device_Form?script/` | High
-9 | File | `/index.php?/manage/channel/addchannel` | High
-10 | File | `/opac/Actions.php?a=login` | High
-11 | File | `/opt/tms/bin/cli` | High
-12 | File | `/out.php` | Medium
-13 | File | `/settings/account` | High
-14 | File | `/spip.php` | Medium
-15 | File | `/var/log/nginx` | High
-16 | File | `/wp-admin/admin-ajax.php` | High
-17 | File | `action.php` | Medium
-18 | File | `actions/beats_uploader.php` | High
-19 | File | `actions/vote_channel.php` | High
-20 | File | `ad.cgi` | Low
-21 | File | `adclick.php` | Medium
-22 | File | `admin/admin.php` | High
-23 | File | `Admin/ADM_Pagina.php` | High
-24 | File | `admin/article.php` | High
-25 | File | `admin/dashboard.php` | High
-26 | File | `Admin/edit-admin.php` | High
-27 | File | `admin/partials/ajax/add_field_to_form.php` | High
-28 | File | `admin/show.php?rec=update` | High
-29 | File | `album.asp` | Medium
-30 | File | `allmanageup.pl` | High
-31 | File | `allow/block` | Medium
-32 | File | `AlUpdate.exe` | Medium
-33 | File | `amadmin.pl` | Medium
-34 | File | `app/admin/controller/api/Update.php` | High
-35 | File | `ashmem.c` | Medium
+5 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+6 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
+7 | File | `/fw.login.php` | High
+8 | File | `/gfxpoly/convert.c` | High
+9 | File | `/GponForm/device_Form?script/` | High
+10 | File | `/index.php?/manage/channel/addchannel` | High
+11 | File | `/opac/Actions.php?a=login` | High
+12 | File | `/opt/tms/bin/cli` | High
+13 | File | `/out.php` | Medium
+14 | File | `/settings/account` | High
+15 | File | `/spip.php` | Medium
+16 | File | `/var/log/nginx` | High
+17 | File | `/way4acs/enroll` | High
+18 | File | `/wp-admin/admin-ajax.php` | High
+19 | File | `action.php` | Medium
+20 | File | `actions/beats_uploader.php` | High
+21 | File | `actions/vote_channel.php` | High
+22 | File | `ad.cgi` | Low
+23 | File | `adclick.php` | Medium
+24 | File | `admin/admin.php` | High
+25 | File | `Admin/ADM_Pagina.php` | High
+26 | File | `admin/article.php` | High
+27 | File | `admin/dashboard.php` | High
+28 | File | `Admin/edit-admin.php` | High
+29 | File | `admin/partials/ajax/add_field_to_form.php` | High
+30 | File | `admin/show.php?rec=update` | High
+31 | File | `album.asp` | Medium
+32 | File | `allmanageup.pl` | High
+33 | File | `allow/block` | Medium
+34 | File | `AlUpdate.exe` | Medium
+35 | File | `amadmin.pl` | Medium
 36 | ... | ... | ...
 
-There are 304 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 309 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -105,4 +105,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

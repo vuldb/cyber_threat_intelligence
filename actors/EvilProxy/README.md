@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [IR](https://vuldb.com/?country.ir)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 22 more country items available. Please use our online service to access the data.
+There are 23 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -69,35 +69,35 @@ ID | Type | Indicator | Confidence
 15 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
 16 | File | `/cgi-bin/luci/api/wireless` | High
 17 | File | `/cgi-bin/vitogate.cgi` | High
-18 | File | `/company/store` | High
-19 | File | `/Content/Template/root/reverse-shell.aspx` | High
-20 | File | `/Controller/Ajaxfileupload.ashx` | High
-21 | File | `/core/conditions/AbstractWrapper.java` | High
-22 | File | `/debug/pprof` | Medium
-23 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
-24 | File | `/Duty/AjaxHandle/Write/UploadFile.ashx` | High
-25 | File | `/etc/passwd` | Medium
-26 | File | `/fcgi/scrut_fcgi.fcgi` | High
-27 | File | `/forum/away.php` | High
-28 | File | `/geoserver/gwc/rest.html` | High
-29 | File | `/goform/formSysCmd` | High
-30 | File | `/h/` | Low
-31 | File | `/HNAP1` | Low
-32 | File | `/hosts/firewall/ip` | High
-33 | File | `/index.php/ccm/system/file/upload` | High
-34 | File | `/jeecg-boot/sys/common/upload` | High
-35 | File | `/oauth/idp/.well-known/openid-configuration` | High
-36 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
-37 | File | `/php/ping.php` | High
-38 | File | `/proxy` | Low
-39 | File | `/recipe-result` | High
-40 | File | `/register.do` | Medium
-41 | File | `/RPS2019Service/status.html` | High
-42 | File | `/Service/ImageStationDataService.asmx` | High
-43 | File | `/setting` | Medium
+18 | File | `/change-language/de_DE` | High
+19 | File | `/company/store` | High
+20 | File | `/Content/Template/root/reverse-shell.aspx` | High
+21 | File | `/Controller/Ajaxfileupload.ashx` | High
+22 | File | `/core/conditions/AbstractWrapper.java` | High
+23 | File | `/debug/pprof` | Medium
+24 | File | `/dist/index.js` | High
+25 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
+26 | File | `/Duty/AjaxHandle/Write/UploadFile.ashx` | High
+27 | File | `/etc/passwd` | Medium
+28 | File | `/fcgi/scrut_fcgi.fcgi` | High
+29 | File | `/forum/away.php` | High
+30 | File | `/geoserver/gwc/rest.html` | High
+31 | File | `/goform/formSysCmd` | High
+32 | File | `/h/` | Low
+33 | File | `/HNAP1` | Low
+34 | File | `/hosts/firewall/ip` | High
+35 | File | `/index.php/ccm/system/file/upload` | High
+36 | File | `/jeecg-boot/sys/common/upload` | High
+37 | File | `/log/decodmail.php` | High
+38 | File | `/oauth/idp/.well-known/openid-configuration` | High
+39 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
+40 | File | `/php/ping.php` | High
+41 | File | `/proxy` | Low
+42 | File | `/recipe-result` | High
+43 | File | `/register.do` | Medium
 44 | ... | ... | ...
 
-There are 383 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 381 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

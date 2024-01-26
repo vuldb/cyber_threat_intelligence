@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with GuLoader:
 
 * [US](https://vuldb.com/?country.us)
+* [LA](https://vuldb.com/?country.la)
 * [RU](https://vuldb.com/?country.ru)
-* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -27,7 +27,7 @@ ID | IP address | Hostname | Campaign | Confidence
 4 | [23.254.227.205](https://vuldb.com/?ip.23.254.227.205) | client-23-254-227-205.hostwindsdns.com | - | High
 5 | ... | ... | ... | ...
 
-There are 16 more IOC items available. Please use our online service to access the data.
+There are 17 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -35,14 +35,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -53,30 +53,40 @@ ID | Type | Indicator | Confidence
 1 | File | `.htaccess` | Medium
 2 | File | `/admin/ajax.php` | High
 3 | File | `/admin/ajax.php?action=save_window` | High
-4 | File | `/admin/index2.html` | High
-5 | File | `/cgi/get_param.cgi` | High
-6 | File | `/common/download_agent_installer.php` | High
-7 | File | `/common/run_cross_report.php` | High
-8 | File | `/connectors/index.php` | High
-9 | File | `/dashboard/add-portfolio.php` | High
-10 | File | `/EXCU_SHELL` | Medium
-11 | File | `/forum/away.php` | High
-12 | File | `/ghost/preview` | High
-13 | File | `/goform/addressNat` | High
-14 | File | `/goform/NatStaticSetting` | High
-15 | File | `/jerry-core/ecma/base/ecma-helpers-conversion.c` | High
-16 | File | `/login` | Low
-17 | File | `/opt/IBM/es/lib/libffq.cryptionjni.so` | High
-18 | File | `/opt/vyatta/share/vyatta-cfg/templates/system/static-host-mapping/host-name/node.def` | High
-19 | File | `/php-sms/admin/?page=services/manage_service` | High
-20 | File | `/sdm-ws-rest/preconfiguration` | High
-21 | File | `/settings` | Medium
-22 | File | `/uapi/doc` | Medium
-23 | File | `/uncpath/` | Medium
-24 | File | `/updownload/t.report` | High
-25 | ... | ... | ...
+4 | File | `/admin/dl_sendmail.php` | High
+5 | File | `/admin/index2.html` | High
+6 | File | `/api/baskets/{name}` | High
+7 | File | `/api/v2/cli/commands` | High
+8 | File | `/cgi/get_param.cgi` | High
+9 | File | `/common/download_agent_installer.php` | High
+10 | File | `/common/run_cross_report.php` | High
+11 | File | `/connectors/index.php` | High
+12 | File | `/dashboard/add-portfolio.php` | High
+13 | File | `/DXR.axd` | Medium
+14 | File | `/EXCU_SHELL` | Medium
+15 | File | `/forum/away.php` | High
+16 | File | `/ghost/preview` | High
+17 | File | `/goform/addressNat` | High
+18 | File | `/goform/NatStaticSetting` | High
+19 | File | `/jerry-core/ecma/base/ecma-helpers-conversion.c` | High
+20 | File | `/login` | Low
+21 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+22 | File | `/novel/bookSetting/list` | High
+23 | File | `/opt/IBM/es/lib/libffq.cryptionjni.so` | High
+24 | File | `/opt/vyatta/share/vyatta-cfg/templates/system/static-host-mapping/host-name/node.def` | High
+25 | File | `/owa/auth/logon.aspx` | High
+26 | File | `/php-sms/admin/?page=services/manage_service` | High
+27 | File | `/sdm-ws-rest/preconfiguration` | High
+28 | File | `/settings` | Medium
+29 | File | `/spip.php` | Medium
+30 | File | `/uapi/doc` | Medium
+31 | File | `/uncpath/` | Medium
+32 | File | `/updownload/t.report` | High
+33 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
+34 | File | `/woocommerce-stock-manager/trunk/admin/views/import-export.php` | High
+35 | ... | ... | ...
 
-There are 210 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 296 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -90,6 +100,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://github.com/sophoslabs/IoCs/blob/master/Troj_GuLoader.csv
 * https://isc.sans.edu/diary/GuLoader+or+DBatLoaderModiLoaderstyle+infection+for+Remcos+RAT/29990
 * https://research.checkpoint.com/2023/unveiling-the-shadows-the-dark-alliance-between-guloader-and-remcos/
+* https://www.elastic.co/security-labs/getting-gooey-with-guloader-downloader
 
 ## Literature
 
@@ -100,4 +111,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

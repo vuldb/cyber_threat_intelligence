@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 10 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -49,52 +49,53 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/cgi-bin/wapopen` | High
-3 | File | `/csms/?page=contact_us` | High
-4 | File | `/etc/ajenti/config.yml` | High
-5 | File | `/forum/away.php` | High
-6 | File | `/goform/telnet` | High
-7 | File | `/modules/profile/index.php` | High
-8 | File | `/rom-0` | Low
-9 | File | `/tmp/phpglibccheck` | High
-10 | File | `/uncpath/` | Medium
-11 | File | `/upload` | Low
-12 | File | `/var/tmp/sess_*` | High
-13 | File | `action.php` | Medium
-14 | File | `actionphp/download.File.php` | High
-15 | File | `add_comment.php` | High
-16 | File | `admin/admin.php` | High
-17 | File | `admin/content.php` | High
-18 | File | `admin/index.php?id=users/action=edit/user_id=1` | High
-19 | File | `admin/memberviewdetails.php` | High
-20 | File | `admin_gallery.php3` | High
-21 | File | `affich.php` | Medium
-22 | File | `agent/Core/Controller/SendRequest.cpp` | High
-23 | File | `ajax/telemetry.php` | High
-24 | File | `akeyActivationLogin.do` | High
-25 | File | `album_portal.php` | High
-26 | File | `apache-auth.conf` | High
-27 | File | `askapache-firefox-adsense.php` | High
-28 | File | `attachment.cgi` | High
-29 | File | `blueprints/sections/edit/1` | High
-30 | File | `boaform/admin/formPing` | High
-31 | File | `books.php` | Medium
-32 | File | `cart_add.php` | Medium
-33 | File | `CFS.c` | Low
-34 | File | `cgi-bin/gnudip.cgi` | High
-35 | File | `checktransferstatus.php` | High
-36 | File | `checkuser.php` | High
-37 | File | `class.SystemAction.php` | High
-38 | File | `clientarea.php` | High
-39 | File | `cmdmon.c` | Medium
-40 | File | `collectivite.class.php` | High
-41 | File | `confirm.php` | Medium
-42 | File | `contact` | Low
-43 | File | `control.c` | Medium
-44 | File | `core-util.c` | Medium
-45 | ... | ... | ...
+2 | File | `/api/admin/system/store/order/list` | High
+3 | File | `/cgi-bin/wapopen` | High
+4 | File | `/csms/?page=contact_us` | High
+5 | File | `/etc/ajenti/config.yml` | High
+6 | File | `/forum/away.php` | High
+7 | File | `/goform/telnet` | High
+8 | File | `/modules/profile/index.php` | High
+9 | File | `/rom-0` | Low
+10 | File | `/tmp/phpglibccheck` | High
+11 | File | `/uncpath/` | Medium
+12 | File | `/upload` | Low
+13 | File | `/var/tmp/sess_*` | High
+14 | File | `action.php` | Medium
+15 | File | `actionphp/download.File.php` | High
+16 | File | `add_comment.php` | High
+17 | File | `admin/admin.php` | High
+18 | File | `admin/content.php` | High
+19 | File | `admin/index.php?id=users/action=edit/user_id=1` | High
+20 | File | `admin/memberviewdetails.php` | High
+21 | File | `admin_gallery.php3` | High
+22 | File | `affich.php` | Medium
+23 | File | `agent/Core/Controller/SendRequest.cpp` | High
+24 | File | `ajax/telemetry.php` | High
+25 | File | `akeyActivationLogin.do` | High
+26 | File | `album_portal.php` | High
+27 | File | `apache-auth.conf` | High
+28 | File | `askapache-firefox-adsense.php` | High
+29 | File | `attachment.cgi` | High
+30 | File | `blueprints/sections/edit/1` | High
+31 | File | `boaform/admin/formPing` | High
+32 | File | `books.php` | Medium
+33 | File | `cart_add.php` | Medium
+34 | File | `CFS.c` | Low
+35 | File | `cgi-bin/gnudip.cgi` | High
+36 | File | `checktransferstatus.php` | High
+37 | File | `checkuser.php` | High
+38 | File | `class.SystemAction.php` | High
+39 | File | `clientarea.php` | High
+40 | File | `cmdmon.c` | Medium
+41 | File | `collectivite.class.php` | High
+42 | File | `com_android_bluetooth_btservice_AdapterService.cpp` | High
+43 | File | `confirm.php` | Medium
+44 | File | `contact` | Low
+45 | File | `control.c` | Medium
+46 | ... | ... | ...
 
-There are 392 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 395 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -114,4 +115,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -21,7 +21,7 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [103.40.123.34](https://vuldb.com/?ip.103.40.123.34) | ip-34.123.40.jogjaringan.net.id | - | High
 4 | ... | ... | ... | ...
 
-There are 7 more IOC items available. Please use our online service to access the data.
+There are 8 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -52,13 +52,14 @@ ID | Type | Indicator | Confidence
 8 | File | `/out.php` | Medium
 9 | ... | ... | ...
 
-There are 63 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 64 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://github.com/Cisco-Talos/IOCs/blob/main/2023/03/prometei-botnet-improves.txt
+* https://isc.sans.edu/forums/diary/Suspicious+Prometei+Botnet+Activity/30538/
 
 ## Literature
 
@@ -69,4 +70,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -74,64 +74,65 @@ ID | Type | Indicator | Confidence
 3 | File | `/admin/admin.php` | High
 4 | File | `/admin/attendance_row.php` | High
 5 | File | `/admin/maintenance/view_designation.php` | High
-6 | File | `/admin/test_status.php` | High
-7 | File | `/admin/user/manage_user.php` | High
-8 | File | `/api/trackedEntityInstances` | High
-9 | File | `/bin/login.php` | High
-10 | File | `/cgi/sshcheck.cgi` | High
-11 | File | `/common/logViewer/logViewer.jsf` | High
-12 | File | `/ConsoleHelp/` | High
-13 | File | `/etc/sudoers` | Medium
-14 | File | `/export` | Low
-15 | File | `/home/filter_listings` | High
-16 | File | `/horde/imp/search.php` | High
-17 | File | `/ims/login.php` | High
-18 | File | `/index.php` | Medium
-19 | File | `/jsoa/hntdCustomDesktopActionContent` | High
-20 | File | `/LEPTON_stable_2.2.2/upload/admins/media/index.php` | High
-21 | File | `/login` | Low
-22 | File | `/messageboard/view.php` | High
-23 | File | `/modules/projects/vw_files.php` | High
-24 | File | `/netflow/servlet/CReportPDFServlet` | High
-25 | File | `/oauth/idp/.well-known/openid-configuration` | High
-26 | File | `/opensis/modules/grades/InputFinalGrades.php` | High
-27 | File | `/opensis/modules/users/Staff.php` | High
-28 | File | `/plesk-site-preview/` | High
-29 | File | `/proc/self/environ` | High
-30 | File | `/protocol/iscgwtunnel/uploadiscgwrouteconf.php` | High
-31 | File | `/rest/api/2/user/picker` | High
-32 | File | `/s/` | Low
-33 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-34 | File | `/secure/QueryComponent!Default.jspa` | High
-35 | File | `/sendrcpackage?keyid=-2544&keysymbol=-4081` | High
-36 | File | `/system?action=ServiceAdmin` | High
-37 | File | `/SystemMng.ashx` | High
-38 | File | `/var/WEB-GUI/cgi-bin/downloadfile.cgi` | High
-39 | File | `/vicidial/user_stats.php` | High
-40 | File | `/vm/admin/doctors.php` | High
-41 | File | `/websocket/exec` | High
-42 | File | `access.conf` | Medium
-43 | File | `action.php` | Medium
-44 | File | `actions.class.php` | High
-45 | File | `adclick.php` | Medium
-46 | File | `addsuppliers.php` | High
-47 | File | `admin.php` | Medium
-48 | File | `admin.remository.php` | High
-49 | File | `admin/admin_users.php` | High
-50 | File | `admin/login.php` | High
-51 | File | `administers` | Medium
-52 | File | `Administrator_list.php` | High
-53 | File | `advancedsetup_websiteblocking.html` | High
-54 | File | `affich.php` | Medium
-55 | File | `ajax_mail_autoreply.php` | High
-56 | File | `ajax_save_name.php` | High
-57 | File | `album_portal.php` | High
-58 | File | `allocator.cc` | Medium
-59 | File | `announcements.php` | High
-60 | File | `ap1.com` | Low
-61 | ... | ... | ...
+6 | File | `/admin/request-received-bydonar.php` | High
+7 | File | `/admin/test_status.php` | High
+8 | File | `/admin/user/manage_user.php` | High
+9 | File | `/admin_route/inc_service_credits.php` | High
+10 | File | `/api/trackedEntityInstances` | High
+11 | File | `/bin/login.php` | High
+12 | File | `/cgi-bin/cstecgi.cgi` | High
+13 | File | `/cgi/sshcheck.cgi` | High
+14 | File | `/common/logViewer/logViewer.jsf` | High
+15 | File | `/ConsoleHelp/` | High
+16 | File | `/debug/pprof` | Medium
+17 | File | `/etc/sudoers` | Medium
+18 | File | `/export` | Low
+19 | File | `/forum/away.php` | High
+20 | File | `/home/filter_listings` | High
+21 | File | `/horde/imp/search.php` | High
+22 | File | `/ims/login.php` | High
+23 | File | `/index.php` | Medium
+24 | File | `/jsoa/hntdCustomDesktopActionContent` | High
+25 | File | `/LEPTON_stable_2.2.2/upload/admins/media/index.php` | High
+26 | File | `/login` | Low
+27 | File | `/messageboard/view.php` | High
+28 | File | `/modules/projects/vw_files.php` | High
+29 | File | `/netflow/servlet/CReportPDFServlet` | High
+30 | File | `/oauth/idp/.well-known/openid-configuration` | High
+31 | File | `/opensis/modules/grades/InputFinalGrades.php` | High
+32 | File | `/opensis/modules/users/Staff.php` | High
+33 | File | `/pages/short_to_long.php` | High
+34 | File | `/plesk-site-preview/` | High
+35 | File | `/proc/self/environ` | High
+36 | File | `/protocol/iscgwtunnel/uploadiscgwrouteconf.php` | High
+37 | File | `/rest/api/2/user/picker` | High
+38 | File | `/s/` | Low
+39 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+40 | File | `/secure/QueryComponent!Default.jspa` | High
+41 | File | `/sendrcpackage?keyid=-2544&keysymbol=-4081` | High
+42 | File | `/system?action=ServiceAdmin` | High
+43 | File | `/SystemMng.ashx` | High
+44 | File | `/var/WEB-GUI/cgi-bin/downloadfile.cgi` | High
+45 | File | `/vicidial/user_stats.php` | High
+46 | File | `/vm/admin/doctors.php` | High
+47 | File | `/websocket/exec` | High
+48 | File | `access.conf` | Medium
+49 | File | `action.php` | Medium
+50 | File | `actions.class.php` | High
+51 | File | `adclick.php` | Medium
+52 | File | `addsuppliers.php` | High
+53 | File | `admin.php` | Medium
+54 | File | `admin.remository.php` | High
+55 | File | `admin/admin_users.php` | High
+56 | File | `admin/login.php` | High
+57 | File | `administers` | Medium
+58 | File | `Administrator_list.php` | High
+59 | File | `advancedsetup_websiteblocking.html` | High
+60 | File | `affich.php` | Medium
+61 | File | `ajax_mail_autoreply.php` | High
+62 | ... | ... | ...
 
-There are 532 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 543 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -152,4 +153,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

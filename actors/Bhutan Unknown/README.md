@@ -66,53 +66,55 @@ ID | Type | Indicator | Confidence
 1 | File | `.htaccess` | Medium
 2 | File | `/?Page=Node/OBJ=/System/DeviceFolder/DeviceFolder/DateTime/Action=Submit` | High
 3 | File | `/acms/admin/cargo_types/manage_cargo_type.php` | High
-4 | File | `/admin/ajax/avatar.php` | High
-5 | File | `/admin/forgot-password.php` | High
-6 | File | `/admin/index.php` | High
-7 | File | `/admin/lab.php` | High
-8 | File | `/admin/login.php` | High
-9 | File | `/admin/payment.php` | High
-10 | File | `/admin/show.php` | High
-11 | File | `/api/file_uploader.php` | High
-12 | File | `/default.php?idx=17` | High
-13 | File | `/download` | Medium
-14 | File | `/env` | Low
-15 | File | `/forum/away.php` | High
-16 | File | `/include/commrecc.inc.php` | High
-17 | File | `/index.php` | Medium
-18 | File | `/Main_AdmStatus_Content.asp` | High
-19 | File | `/opt/bin/cli` | Medium
-20 | File | `/out.php` | Medium
-21 | File | `/p` | Low
-22 | File | `/patient/doctors.php` | High
-23 | File | `/phpinventory/editcategory.php` | High
-24 | File | `/product-list.php` | High
-25 | File | `/setup/finish` | High
-26 | File | `/spip.php` | Medium
-27 | File | `/system-info/health` | High
-28 | File | `/uncpath/` | Medium
-29 | File | `/updown/upload.cgi` | High
-30 | File | `/user/del.php` | High
-31 | File | `/wp-admin/admin-ajax.php` | High
-32 | File | `/_next` | Low
-33 | File | `123flashchat.php` | High
-34 | File | `act.php` | Low
-35 | File | `admin.php/pay` | High
-36 | File | `admin/bad.php` | High
-37 | File | `admin/index.php` | High
-38 | File | `admin/index.php/user/del/1` | High
-39 | File | `admin/index.php?id=themes&action=edit_chunk` | High
-40 | File | `admin/loginform.php` | High
-41 | File | `administrator/components/com_media/helpers/media.php` | High
-42 | File | `administrator/index.php` | High
-43 | File | `administrator/mail/download.cfm` | High
-44 | File | `AdminUpdateController.class.php` | High
-45 | File | `Advanced_ASUSDDNS_Content.asp` | High
-46 | File | `affich.php` | Medium
-47 | File | `agenda.php` | Medium
-48 | ... | ... | ...
+4 | File | `/admin/add-services.php` | High
+5 | File | `/admin/ajax/avatar.php` | High
+6 | File | `/admin/edit-services.php` | High
+7 | File | `/admin/forgot-password.php` | High
+8 | File | `/admin/index.php` | High
+9 | File | `/admin/lab.php` | High
+10 | File | `/admin/login.php` | High
+11 | File | `/admin/payment.php` | High
+12 | File | `/admin/show.php` | High
+13 | File | `/api/file_uploader.php` | High
+14 | File | `/boat/login.php` | High
+15 | File | `/clinic/disease_symptoms_view.php` | High
+16 | File | `/default.php?idx=17` | High
+17 | File | `/download` | Medium
+18 | File | `/env` | Low
+19 | File | `/forum/away.php` | High
+20 | File | `/include/commrecc.inc.php` | High
+21 | File | `/index.php` | Medium
+22 | File | `/Main_AdmStatus_Content.asp` | High
+23 | File | `/opt/bin/cli` | Medium
+24 | File | `/out.php` | Medium
+25 | File | `/p` | Low
+26 | File | `/patient/doctors.php` | High
+27 | File | `/phpinventory/editcategory.php` | High
+28 | File | `/product-list.php` | High
+29 | File | `/setup/finish` | High
+30 | File | `/spip.php` | Medium
+31 | File | `/system-info/health` | High
+32 | File | `/uncpath/` | Medium
+33 | File | `/updown/upload.cgi` | High
+34 | File | `/user/del.php` | High
+35 | File | `/wp-admin/admin-ajax.php` | High
+36 | File | `/_next` | Low
+37 | File | `123flashchat.php` | High
+38 | File | `act.php` | Low
+39 | File | `admin.php/pay` | High
+40 | File | `admin/bad.php` | High
+41 | File | `admin/index.php` | High
+42 | File | `admin/index.php/user/del/1` | High
+43 | File | `admin/index.php?id=themes&action=edit_chunk` | High
+44 | File | `admin/loginform.php` | High
+45 | File | `admin/products/controller.php?action=add` | High
+46 | File | `administrator/components/com_media/helpers/media.php` | High
+47 | File | `administrator/index.php` | High
+48 | File | `administrator/mail/download.cfm` | High
+49 | File | `AdminUpdateController.class.php` | High
+50 | ... | ... | ...
 
-There are 421 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 434 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -131,4 +133,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -94,11 +94,11 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/.env` | Low
-2 | File | `/?ajax-request=jnews` | High
-3 | File | `/?r=recruit/resume/edit&op=status` | High
-4 | File | `/admin/?page=user/list` | High
-5 | File | `/admin/?page=user/manage_user&id=3` | High
-6 | File | `/admin/about-us.php` | High
+2 | File | `/?r=recruit/resume/edit&op=status` | High
+3 | File | `/admin/?page=user/list` | High
+4 | File | `/admin/?page=user/manage_user&id=3` | High
+5 | File | `/admin/about-us.php` | High
+6 | File | `/admin/action/new-father.php` | High
 7 | File | `/admin/del_category.php` | High
 8 | File | `/admin/del_service.php` | High
 9 | File | `/admin/edit-accepted-appointment.php` | High
@@ -106,56 +106,58 @@ ID | Type | Indicator | Confidence
 11 | File | `/admin/edit_category.php` | High
 12 | File | `/admin/edit_subject.php` | High
 13 | File | `/admin/forgot-password.php` | High
-14 | File | `/admin/index.php` | High
-15 | File | `/admin/index2.html` | High
+14 | File | `/admin/general.cgi` | High
+15 | File | `/admin/index.php` | High
 16 | File | `/admin/products/manage_product.php` | High
 17 | File | `/admin/reg.php` | High
 18 | File | `/admin/reminders/manage_reminder.php` | High
 19 | File | `/admin/search-appointment.php` | High
 20 | File | `/admin/sys_sql_query.php` | High
 21 | File | `/api/baskets/{name}` | High
-22 | File | `/api/v4/users/ids` | High
-23 | File | `/appliance/users?action=edit` | High
-24 | File | `/apply.cgi` | Medium
-25 | File | `/blog` | Low
-26 | File | `/booking/show_bookings/` | High
-27 | File | `/CCMAdmin/serverlist.asp` | High
-28 | File | `/cgi-bin/wlogin.cgi` | High
-29 | File | `/cgi/get_param.cgi` | High
-30 | File | `/classes/master.php?f=delete_order` | High
-31 | File | `/collection/all` | High
-32 | File | `/csms/admin/inquiries/view_details.php` | High
-33 | File | `/cstecgi.cgi` | Medium
-34 | File | `/dipam/athlete-profile.php` | High
-35 | File | `/DXR.axd` | Medium
-36 | File | `/E-mobile/App/System/File/downfile.php` | High
-37 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-38 | File | `/etc/shadow` | Medium
-39 | File | `/forum/away.php` | High
-40 | File | `/fusion/portal/action/Link` | High
-41 | File | `/h/autoSaveDraft` | High
-42 | File | `/importexport.php` | High
-43 | File | `/include/chart_generator.php` | High
-44 | File | `/index.php` | Medium
-45 | File | `/index.php?app=main&func=passport&action=login` | High
-46 | File | `/index.php?p=admin/actions/users/send-password-reset-email` | High
-47 | File | `/kelasdosen/data` | High
-48 | File | `/librarian/bookdetails.php` | High
-49 | File | `/listplace/user/coverPhotoUpdate` | High
-50 | File | `/messageboard/view.php` | High
-51 | File | `/MIME/INBOX-MM-1/` | High
-52 | File | `/osm/REGISTER.cmd` | High
-53 | File | `/out.php` | Medium
-54 | File | `/owa/auth/logon.aspx` | High
-55 | File | `/patient/appointment.php` | High
-56 | File | `/paysystem/datatable.php` | High
-57 | File | `/protocol/iscgwtunnel/uploadiscgwrouteconf.php` | High
-58 | File | `/reviewer/system/system/admins/manage/users/user-update.php` | High
-59 | File | `/reviewer_0/admins/assessments/pretest/questions-view.php` | High
-60 | File | `/send_order.cgi?parameter=restart` | High
-61 | ... | ... | ...
+22 | File | `/api/v4/teams//channels/deleted` | High
+23 | File | `/api/v4/users/ids` | High
+24 | File | `/appliance/users?action=edit` | High
+25 | File | `/apply.cgi` | Medium
+26 | File | `/bin/boa` | Medium
+27 | File | `/blog` | Low
+28 | File | `/booking/show_bookings/` | High
+29 | File | `/CCMAdmin/serverlist.asp` | High
+30 | File | `/cgi-bin/cstecgi.cgi` | High
+31 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+32 | File | `/cgi-bin/wlogin.cgi` | High
+33 | File | `/cgi/get_param.cgi` | High
+34 | File | `/classes/master.php?f=delete_order` | High
+35 | File | `/collection/all` | High
+36 | File | `/csms/admin/inquiries/view_details.php` | High
+37 | File | `/cstecgi.cgi` | Medium
+38 | File | `/dipam/athlete-profile.php` | High
+39 | File | `/DXR.axd` | Medium
+40 | File | `/E-mobile/App/System/File/downfile.php` | High
+41 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+42 | File | `/etc/shadow` | Medium
+43 | File | `/forum/away.php` | High
+44 | File | `/fusion/portal/action/Link` | High
+45 | File | `/h/autoSaveDraft` | High
+46 | File | `/HNAP1/` | Low
+47 | File | `/importexport.php` | High
+48 | File | `/include/chart_generator.php` | High
+49 | File | `/index.php` | Medium
+50 | File | `/index.php?app=main&func=passport&action=login` | High
+51 | File | `/index.php?p=admin/actions/users/send-password-reset-email` | High
+52 | File | `/kelasdosen/data` | High
+53 | File | `/librarian/bookdetails.php` | High
+54 | File | `/listplace/user/coverPhotoUpdate` | High
+55 | File | `/messageboard/view.php` | High
+56 | File | `/MIME/INBOX-MM-1/` | High
+57 | File | `/osm/REGISTER.cmd` | High
+58 | File | `/out.php` | Medium
+59 | File | `/patient/appointment.php` | High
+60 | File | `/paysystem/datatable.php` | High
+61 | File | `/php/ping.php` | High
+62 | File | `/protocol/iscgwtunnel/uploadiscgwrouteconf.php` | High
+63 | ... | ... | ...
 
-There are 530 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 550 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -183,4 +185,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

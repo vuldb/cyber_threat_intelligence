@@ -93,44 +93,45 @@ ID | Type | Indicator | Confidence
 28 | File | `/recordings/index.php` | High
 29 | File | `/see_more_details.php` | High
 30 | File | `/show_news.php` | High
-31 | File | `/tmp/before` | Medium
-32 | File | `/uncpath/` | Medium
-33 | File | `/updownload/t.report` | High
-34 | File | `/user.profile.php` | High
-35 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
-36 | File | `/wordpress/wp-admin/options-general.php` | High
-37 | File | `/wp-admin` | Medium
-38 | File | `/wp-admin/admin-ajax.php` | High
-39 | File | `4.2.0.CP09` | Medium
-40 | File | `account.asp` | Medium
-41 | File | `activateuser.aspx` | High
-42 | File | `adclick.php` | Medium
-43 | File | `adm/systools.asp` | High
-44 | File | `admin.php` | Medium
-45 | File | `admin/admin.shtml` | High
-46 | File | `Admin/ADM_Pagina.php` | High
-47 | File | `admin/category.inc.php` | High
-48 | File | `admin/main.asp` | High
-49 | File | `admin/param/param_func.inc.php` | High
-50 | File | `admin/y_admin.asp` | High
-51 | File | `adminer.php` | Medium
-52 | File | `administration/admins.php` | High
-53 | File | `administrator/components/com_media/helpers/media.php` | High
-54 | File | `admin_ok.asp` | Medium
-55 | File | `album_portal.php` | High
-56 | File | `app/Core/Paginator.php` | High
-57 | File | `app/index.php/accounts/default/details?id=2&kanbanBoard=1&openToTaskId=1` | High
-58 | File | `artlinks.dispnew.php` | High
-59 | File | `auth.php` | Medium
-60 | File | `awstats.pl` | Medium
-61 | File | `bin/named/query.c` | High
-62 | File | `blank.php` | Medium
-63 | File | `blocklayered-ajax.php` | High
-64 | File | `blogger-importer.php` | High
-65 | File | `bluegate_seo.inc.php` | High
-66 | ... | ... | ...
+31 | File | `/student/bookdetails.php` | High
+32 | File | `/tmp/before` | Medium
+33 | File | `/uncpath/` | Medium
+34 | File | `/updownload/t.report` | High
+35 | File | `/user.profile.php` | High
+36 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
+37 | File | `/wordpress/wp-admin/options-general.php` | High
+38 | File | `/wp-admin` | Medium
+39 | File | `/wp-admin/admin-ajax.php` | High
+40 | File | `4.2.0.CP09` | Medium
+41 | File | `account.asp` | Medium
+42 | File | `activateuser.aspx` | High
+43 | File | `adclick.php` | Medium
+44 | File | `adm/systools.asp` | High
+45 | File | `admin.php` | Medium
+46 | File | `admin/admin.shtml` | High
+47 | File | `Admin/ADM_Pagina.php` | High
+48 | File | `admin/category.inc.php` | High
+49 | File | `admin/main.asp` | High
+50 | File | `admin/param/param_func.inc.php` | High
+51 | File | `admin/y_admin.asp` | High
+52 | File | `adminer.php` | Medium
+53 | File | `administration/admins.php` | High
+54 | File | `administrator/components/com_media/helpers/media.php` | High
+55 | File | `admin_ok.asp` | Medium
+56 | File | `album_portal.php` | High
+57 | File | `app/Core/Paginator.php` | High
+58 | File | `app/index.php/accounts/default/details?id=2&kanbanBoard=1&openToTaskId=1` | High
+59 | File | `artlinks.dispnew.php` | High
+60 | File | `auth.php` | Medium
+61 | File | `awstats.pl` | Medium
+62 | File | `bin/named/query.c` | High
+63 | File | `blank.php` | Medium
+64 | File | `blocklayered-ajax.php` | High
+65 | File | `blogger-importer.php` | High
+66 | File | `bluegate_seo.inc.php` | High
+67 | ... | ... | ...
 
-There are 576 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 586 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -149,4 +150,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -8,9 +8,9 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Tofsee:
 
-* [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [NL](https://vuldb.com/?country.nl)
+* [US](https://vuldb.com/?country.us)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
 There are 14 more country items available. Please use our online service to access the data.
@@ -189,56 +189,54 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/?p=products` | Medium
-2 | File | `/admin.php/accessory/filesdel.html` | High
-3 | File | `/admin/?page=user/manage` | High
-4 | File | `/admin/about-us.php` | High
+1 | File | `//proc/kcore` | Medium
+2 | File | `/?p=products` | Medium
+3 | File | `/admin/about-us.php` | High
+4 | File | `/admin/action/delete-vaccine.php` | High
 5 | File | `/admin/add-category.php` | High
-6 | File | `/admin/add-new.php` | High
-7 | File | `/admin/controller/JobLogController.java` | High
-8 | File | `/admin/departments/view_department.php` | High
-9 | File | `/admin/doctors.php` | High
-10 | File | `/admin/read.php?mudi=getSignal` | High
-11 | File | `/admin/userprofile.php` | High
-12 | File | `/alphaware/summary.php` | High
-13 | File | `/api/` | Low
-14 | File | `/api/admin/store/product/list` | High
-15 | File | `/api/baskets/{name}` | High
-16 | File | `/api/stl/actions/search` | High
-17 | File | `/api/sys/login` | High
-18 | File | `/api/sys/set_passwd` | High
-19 | File | `/api/v2/cli/commands` | High
-20 | File | `/apply.cgi` | Medium
+6 | File | `/admin/controller/JobLogController.java` | High
+7 | File | `/admin/departments/view_department.php` | High
+8 | File | `/admin/index2.html` | High
+9 | File | `/admin/read.php?mudi=getSignal` | High
+10 | File | `/admin/userprofile.php` | High
+11 | File | `/api/` | Low
+12 | File | `/api/admin/store/product/list` | High
+13 | File | `/api/baskets/{name}` | High
+14 | File | `/api/stl/actions/search` | High
+15 | File | `/api/sys/login` | High
+16 | File | `/api/sys/set_passwd` | High
+17 | File | `/api/trackedEntityInstances` | High
+18 | File | `/api/v2/cli/commands` | High
+19 | File | `/app/index/controller/Common.php` | High
+20 | File | `/aux` | Low
 21 | File | `/bin/ate` | Medium
 22 | File | `/bitrix/admin/ldap_server_edit.php` | High
-23 | File | `/boat/login.php` | High
-24 | File | `/booking/show_bookings/` | High
-25 | File | `/cgi-bin` | Medium
-26 | File | `/cgi-bin/wlogin.cgi` | High
-27 | File | `/changePassword` | High
-28 | File | `/College/admin/teacher.php` | High
-29 | File | `/Content/Template/root/reverse-shell.aspx` | High
-30 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
-31 | File | `/dashboard/add-blog.php` | High
+23 | File | `/booking/show_bookings/` | High
+24 | File | `/cgi-bin` | Medium
+25 | File | `/cgi-bin/wlogin.cgi` | High
+26 | File | `/changePassword` | High
+27 | File | `/College/admin/teacher.php` | High
+28 | File | `/Content/Template/root/reverse-shell.aspx` | High
+29 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
+30 | File | `/dashboard/add-blog.php` | High
+31 | File | `/data/remove` | Medium
 32 | File | `/dcim/rack-roles/` | High
 33 | File | `/debug/pprof` | Medium
 34 | File | `/ecshop/admin/template.php` | High
 35 | File | `/env` | Low
-36 | File | `/forum/away.php` | High
-37 | File | `/goform/aspForm` | High
-38 | File | `/group1/uploa` | High
-39 | File | `/inc/topBarNav.php` | High
-40 | File | `/index.php` | Medium
-41 | File | `/index.php?app=main&func=passport&action=login` | High
-42 | File | `/kelas/data` | Medium
-43 | File | `/listplace/user/ticket/create` | High
-44 | File | `/Moosikay/order.php` | High
-45 | File | `/php-sms/admin/?page=user/manage_user` | High
-46 | File | `/reservation/add_message.php` | High
-47 | File | `/resources//../` | High
-48 | ... | ... | ...
+36 | File | `/forms/doLogin` | High
+37 | File | `/forum/away.php` | High
+38 | File | `/goform/aspForm` | High
+39 | File | `/group1/uploa` | High
+40 | File | `/inc/topBarNav.php` | High
+41 | File | `/index.php` | Medium
+42 | File | `/index.php?app=main&func=passport&action=login` | High
+43 | File | `/kelas/data` | Medium
+44 | File | `/listplace/user/ticket/create` | High
+45 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+46 | ... | ... | ...
 
-There are 414 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 403 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -353,4 +351,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

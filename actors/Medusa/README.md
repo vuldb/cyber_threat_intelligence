@@ -44,7 +44,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 12 more TTP items available. Please use our online service to access the data.
+There are 13 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -58,21 +58,23 @@ ID | Type | Indicator | Confidence
 4 | File | `/alphaware/summary.php` | High
 5 | File | `/api/baskets/{name}` | High
 6 | File | `/cas/logout` | Medium
-7 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-8 | File | `/collection/all` | High
-9 | File | `/common/info.cgi` | High
-10 | File | `/jeecg-boot/jmreport/show` | High
-11 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-12 | File | `/rest/api/latest/user/avatar/temporary` | High
-13 | File | `/spip.php` | Medium
-14 | File | `/src/admin/content_batchup_action.php` | High
-15 | File | `/uncpath/` | Medium
-16 | File | `/user/updatePwd` | High
-17 | File | `/var/www/xms/xmsdb/default.db` | High
-18 | File | `/WEB-INF/web.xml` | High
-19 | ... | ... | ...
+7 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+8 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
+9 | File | `/collection/all` | High
+10 | File | `/common/info.cgi` | High
+11 | File | `/forum/away.php` | High
+12 | File | `/jeecg-boot/jmreport/show` | High
+13 | File | `/LoginRegistration.php` | High
+14 | File | `/member/ad.php?action=ad` | High
+15 | File | `/oauth/idp/.well-known/openid-configuration` | High
+16 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+17 | File | `/owa/auth/logon.aspx` | High
+18 | File | `/rest/api/latest/user/avatar/temporary` | High
+19 | File | `/spip.php` | Medium
+20 | File | `/src/admin/content_batchup_action.php` | High
+21 | ... | ... | ...
 
-There are 152 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 172 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -119,4 +121,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

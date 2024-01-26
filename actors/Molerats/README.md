@@ -21,7 +21,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [HU](https://vuldb.com/?country.hu)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
 There are 11 more country items available. Please use our online service to access the data.
@@ -46,7 +46,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-425 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-425 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94 | Cross Site Scripting | High
@@ -63,38 +63,39 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.encfs6.xml` | Medium
 2 | File | `.htaccess` | Medium
-3 | File | `/admin/admin_manage/delete` | High
-4 | File | `/admin/video/list` | High
-5 | File | `/adminlogin.asp` | High
-6 | File | `/cgi-bin/supervisor/CloudSetup.cgi` | High
-7 | File | `/collection/all` | High
-8 | File | `/config/php.ini` | High
-9 | File | `/dl/dl_sendmail.php` | High
-10 | File | `/drivers/net/ethernet/broadcom/tg3.c` | High
-11 | File | `/etc/passwd` | Medium
-12 | File | `/etc/qci/answers` | High
-13 | File | `/forms/nslookupHandler` | High
-14 | File | `/forum/away.php` | High
-15 | File | `/function/booksave.php` | High
-16 | File | `/goform/form2userconfig.cgi` | High
-17 | File | `/gracemedia-media-player/templates/files/ajax_controller.php` | High
-18 | File | `/inc/campaign/campaign-delete.php` | High
-19 | File | `/search.php` | Medium
-20 | File | `/sgmi/` | Low
-21 | File | `/tmp` | Low
-22 | File | `/uncpath/` | Medium
-23 | File | `/usr/lib/print/conv_fix` | High
-24 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-25 | File | `adclick.php` | Medium
-26 | File | `add.php` | Low
-27 | File | `add_comment.php` | High
-28 | File | `admin.php` | Medium
-29 | File | `admin.php?page=languages` | High
-30 | File | `admin/controllers/Albumsgalleries.php` | High
-31 | File | `admin/plugin.php` | High
-32 | ... | ... | ...
+3 | File | `/addbill.php` | Medium
+4 | File | `/admin/admin_manage/delete` | High
+5 | File | `/admin/clientview.php` | High
+6 | File | `/admin/video/list` | High
+7 | File | `/adminlogin.asp` | High
+8 | File | `/boaform/device_reset.cgi` | High
+9 | File | `/cgi-bin/supervisor/CloudSetup.cgi` | High
+10 | File | `/collection/all` | High
+11 | File | `/config/php.ini` | High
+12 | File | `/dl/dl_sendmail.php` | High
+13 | File | `/drivers/net/ethernet/broadcom/tg3.c` | High
+14 | File | `/etc/passwd` | Medium
+15 | File | `/etc/qci/answers` | High
+16 | File | `/file-manager/rename.php` | High
+17 | File | `/forms/nslookupHandler` | High
+18 | File | `/forum/away.php` | High
+19 | File | `/function/booksave.php` | High
+20 | File | `/goform/form2userconfig.cgi` | High
+21 | File | `/gracemedia-media-player/templates/files/ajax_controller.php` | High
+22 | File | `/inc/campaign/campaign-delete.php` | High
+23 | File | `/login` | Low
+24 | File | `/search.php` | Medium
+25 | File | `/sgmi/` | Low
+26 | File | `/tmp` | Low
+27 | File | `/uncpath/` | Medium
+28 | File | `/usr/lib/print/conv_fix` | High
+29 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+30 | File | `adclick.php` | Medium
+31 | File | `add.php` | Low
+32 | File | `add_comment.php` | High
+33 | ... | ... | ...
 
-There are 274 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 286 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -116,4 +117,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -96,9 +96,10 @@ ID | Type | Indicator | Confidence
 10 | File | `/wp-admin/admin.php?page=wp_file_manager_properties` | High
 11 | File | `add.php` | Low
 12 | File | `admin/admin.shtml` | High
-13 | ... | ... | ...
+13 | File | `album_add.php` | High
+14 | ... | ... | ...
 
-There are 106 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 107 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

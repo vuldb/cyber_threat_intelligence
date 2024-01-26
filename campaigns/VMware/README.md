@@ -66,42 +66,42 @@ ID | Type | Indicator | Confidence
 7 | File | `/connectors/index.php` | High
 8 | File | `/etc/init.d/opsview-reporting-module` | High
 9 | File | `/etc/passwd` | Medium
-10 | File | `/getcfg.php` | Medium
-11 | File | `/goform/aspForm` | High
-12 | File | `/goform/form2userconfig.cgi` | High
-13 | File | `/gracemedia-media-player/templates/files/ajax_controller.php` | High
-14 | File | `/guest/index.html` | High
-15 | File | `/HNAP1` | Low
-16 | File | `/include/logs` | High
-17 | File | `/index.php` | Medium
-18 | File | `/index.php?page=forums&action=search` | High
-19 | File | `/index.php?page=signup` | High
-20 | File | `/index.php?page=viewnews` | High
-21 | File | `/job-details` | Medium
-22 | File | `/list-gitolite` | High
-23 | File | `/login` | Low
-24 | File | `/member/pm.php` | High
-25 | File | `/objects/getSpiritsFromVideo.php` | High
-26 | File | `/onvif/device_service` | High
-27 | File | `/rapi/read_url` | High
-28 | File | `/secure/QueryComponent!Default.jspa` | High
-29 | File | `/SetTriggerWPS/PIN` | High
-30 | File | `/tab_tariffe.php` | High
-31 | File | `/var/log/drachtio` | High
-32 | File | `/var/log/groonga` | High
-33 | File | `/visualizza_tabelle.php` | High
-34 | File | `/wp-admin/admin-ajax.php` | High
-35 | File | `/wp-json/wc/v3/webhooks` | High
-36 | File | `acrord32.exe` | Medium
-37 | File | `admin.php/user/add` | High
-38 | File | `admin.php?m=Member&a=adminadd` | High
-39 | File | `admin/conf_users_edit.php` | High
-40 | File | `admin/content.php` | High
-41 | File | `admin/content/search.html` | High
-42 | File | `admin/index.php?lfj=member&action=addmember` | High
+10 | File | `/forum/away.php` | High
+11 | File | `/getcfg.php` | Medium
+12 | File | `/goform/aspForm` | High
+13 | File | `/goform/form2userconfig.cgi` | High
+14 | File | `/gracemedia-media-player/templates/files/ajax_controller.php` | High
+15 | File | `/guest/index.html` | High
+16 | File | `/HNAP1` | Low
+17 | File | `/include/logs` | High
+18 | File | `/index.php` | Medium
+19 | File | `/index.php?page=forums&action=search` | High
+20 | File | `/index.php?page=signup` | High
+21 | File | `/index.php?page=viewnews` | High
+22 | File | `/job-details` | Medium
+23 | File | `/list-gitolite` | High
+24 | File | `/login` | Low
+25 | File | `/member/pm.php` | High
+26 | File | `/objects/getSpiritsFromVideo.php` | High
+27 | File | `/onvif/device_service` | High
+28 | File | `/rapi/read_url` | High
+29 | File | `/secure/QueryComponent!Default.jspa` | High
+30 | File | `/SetTriggerWPS/PIN` | High
+31 | File | `/tab_tariffe.php` | High
+32 | File | `/var/log/drachtio` | High
+33 | File | `/var/log/groonga` | High
+34 | File | `/visualizza_tabelle.php` | High
+35 | File | `/wp-admin/admin-ajax.php` | High
+36 | File | `/wp-json/wc/v3/webhooks` | High
+37 | File | `acrord32.exe` | Medium
+38 | File | `admin.php/user/add` | High
+39 | File | `admin.php?m=Member&a=adminadd` | High
+40 | File | `admin/conf_users_edit.php` | High
+41 | File | `admin/content.php` | High
+42 | File | `admin/content/search.html` | High
 43 | ... | ... | ...
 
-There are 374 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 369 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -119,4 +119,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

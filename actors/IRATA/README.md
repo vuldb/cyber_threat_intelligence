@@ -39,13 +39,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-37 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-37 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -59,32 +59,33 @@ ID | Type | Indicator | Confidence
 4 | File | `/admin/photo.php` | High
 5 | File | `/admin/reports.php` | High
 6 | File | `/admin/success_story.php` | High
-7 | File | `/admin/user/team` | High
-8 | File | `/cgi-bin/login.cgi` | High
-9 | File | `/cm/delete` | Medium
-10 | File | `/dipam/athlete-profile.php` | High
-11 | File | `/dipam/save-delegates.php` | High
-12 | File | `/forum/away.php` | High
-13 | File | `/getcfg.php` | Medium
-14 | File | `/goform/RouteStatic` | High
-15 | File | `/hrm/employeeadd.php` | High
-16 | File | `/hrm/employeeview.php` | High
-17 | File | `/login.php` | Medium
-18 | File | `/mkshop/Men/profile.php` | High
-19 | File | `/pms/admin/prisons/view_prison.php` | High
-20 | File | `/product` | Medium
-21 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-22 | File | `/services/Card/findUser` | High
-23 | File | `/spip.php` | Medium
-24 | File | `/TeleoptiWFM/Administration/GetOneTenant` | High
-25 | File | `/uncpath/` | Medium
-26 | File | `/wordpress/wp-admin/options-general.php` | High
-27 | File | `?r=recruit/interview/export&interviews=x` | High
-28 | File | `actions.hsp` | Medium
-29 | File | `adclick.php` | Medium
-30 | ... | ... | ...
+7 | File | `/admin/sys_sql_query.php` | High
+8 | File | `/admin/user/team` | High
+9 | File | `/cgi-bin/login.cgi` | High
+10 | File | `/cm/delete` | Medium
+11 | File | `/dipam/athlete-profile.php` | High
+12 | File | `/dipam/save-delegates.php` | High
+13 | File | `/forum/away.php` | High
+14 | File | `/getcfg.php` | Medium
+15 | File | `/goform/RouteStatic` | High
+16 | File | `/hrm/employeeadd.php` | High
+17 | File | `/hrm/employeeview.php` | High
+18 | File | `/login.php` | Medium
+19 | File | `/mkshop/Men/profile.php` | High
+20 | File | `/pms/admin/prisons/view_prison.php` | High
+21 | File | `/product` | Medium
+22 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+23 | File | `/services/Card/findUser` | High
+24 | File | `/spip.php` | Medium
+25 | File | `/TeleoptiWFM/Administration/GetOneTenant` | High
+26 | File | `/uncpath/` | Medium
+27 | File | `/wordpress/wp-admin/options-general.php` | High
+28 | File | `?r=recruit/interview/export&interviews=x` | High
+29 | File | `actions.hsp` | Medium
+30 | File | `adclick.php` | Medium
+31 | ... | ... | ...
 
-There are 258 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 264 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -116,4 +117,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

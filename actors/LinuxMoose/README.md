@@ -50,7 +50,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -64,49 +64,52 @@ ID | Type | Indicator | Confidence
 4 | File | `/admin/add-new.php` | High
 5 | File | `/admin/controller/JobLogController.java` | High
 6 | File | `/admin/doctors.php` | High
-7 | File | `/admin/submit-articles` | High
-8 | File | `/alphaware/summary.php` | High
-9 | File | `/api/` | Low
-10 | File | `/api/admin/store/product/list` | High
-11 | File | `/api/baskets/{name}` | High
-12 | File | `/api/stl/actions/search` | High
-13 | File | `/api/sys/login` | High
-14 | File | `/api/sys/set_passwd` | High
-15 | File | `/api/trackedEntityInstances` | High
-16 | File | `/api/v2/cli/commands` | High
-17 | File | `/apply.cgi` | Medium
-18 | File | `/attachments` | Medium
-19 | File | `/bin/ate` | Medium
-20 | File | `/bin/boa` | Medium
-21 | File | `/boat/login.php` | High
-22 | File | `/booking/show_bookings/` | High
-23 | File | `/bsms_ci/index.php/book` | High
-24 | File | `/cgi-bin` | Medium
-25 | File | `/cgi-bin/wlogin.cgi` | High
-26 | File | `/changePassword` | High
-27 | File | `/comments` | Medium
-28 | File | `/Content/Template/root/reverse-shell.aspx` | High
-29 | File | `/dashboard/add-blog.php` | High
-30 | File | `/dcim/sites/add/` | High
-31 | File | `/debug/pprof` | Medium
-32 | File | `/ecshop/admin/template.php` | High
-33 | File | `/env` | Low
-34 | File | `/etc/hosts` | Medium
-35 | File | `/etc/shadow` | Medium
-36 | File | `/forum/away.php` | High
-37 | File | `/group1/uploa` | High
-38 | File | `/hardware` | Medium
-39 | File | `/include/makecvs.php` | High
+7 | File | `/alphaware/summary.php` | High
+8 | File | `/api/` | Low
+9 | File | `/api/admin/store/product/list` | High
+10 | File | `/api/baskets/{name}` | High
+11 | File | `/api/stl/actions/search` | High
+12 | File | `/api/sys/login` | High
+13 | File | `/api/sys/set_passwd` | High
+14 | File | `/api/trackedEntityInstances` | High
+15 | File | `/api/v2/cli/commands` | High
+16 | File | `/apply.cgi` | Medium
+17 | File | `/aux` | Low
+18 | File | `/bin/ate` | Medium
+19 | File | `/boat/login.php` | High
+20 | File | `/booking/show_bookings/` | High
+21 | File | `/bsms_ci/index.php/book` | High
+22 | File | `/cgi-bin` | Medium
+23 | File | `/cgi-bin/wlogin.cgi` | High
+24 | File | `/changePassword` | High
+25 | File | `/comments` | Medium
+26 | File | `/Content/Template/root/reverse-shell.aspx` | High
+27 | File | `/dashboard/add-blog.php` | High
+28 | File | `/data/remove` | Medium
+29 | File | `/dcim/sites/add/` | High
+30 | File | `/debug/pprof` | Medium
+31 | File | `/ecshop/admin/template.php` | High
+32 | File | `/env` | Low
+33 | File | `/etc/hosts` | Medium
+34 | File | `/etc/shadow` | Medium
+35 | File | `/forum/away.php` | High
+36 | File | `/group1/uploa` | High
+37 | File | `/hardware` | Medium
+38 | File | `/include/makecvs.php` | High
+39 | File | `/index.php` | Medium
 40 | File | `/librarian/bookdetails.php` | High
 41 | File | `/medicines/profile.php` | High
-42 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+42 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
 43 | File | `/out.php` | Medium
 44 | File | `/php-sms/admin/?page=user/manage_user` | High
 45 | File | `/products/view_product.php` | High
-46 | File | `/proxy` | Low
-47 | ... | ... | ...
+46 | File | `/reservation/add_message.php` | High
+47 | File | `/resources//../` | High
+48 | File | `/spip.php` | Medium
+49 | File | `/testConnection` | High
+50 | ... | ... | ...
 
-There are 404 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 436 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -125,4 +128,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ME](https://vuldb.com/?country.me)
 * ...
 
-There are 3 more country items available. Please use our online service to access the data.
+There are 4 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -21,12 +21,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [10.0.0.0](https://vuldb.com/?ip.10.0.0.0) | - | - | High
-2 | [92.204.243.155](https://vuldb.com/?ip.92.204.243.155) | - | - | High
-3 | [94.176.237.229](https://vuldb.com/?ip.94.176.237.229) | cim8.f.dedikuoti.lt | - | High
+1 | [1.46.6.1](https://vuldb.com/?ip.1.46.6.1) | - | - | High
+2 | [10.0.0.0](https://vuldb.com/?ip.10.0.0.0) | - | - | High
+3 | [92.204.243.155](https://vuldb.com/?ip.92.204.243.155) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 7 more IOC items available. Please use our online service to access the data.
+There are 8 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -47,16 +47,16 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/index.php?action=seomatic/file/seo-file-link` | High
-2 | File | `/librarian/bookdetails.php` | High
-3 | File | `/mgmt/tm/util/bash` | High
-4 | File | `/staff/bookdetails.php` | High
-5 | File | `/student/bookdetails.php` | High
-6 | File | `/text/pdf/PdfReader.java` | High
-7 | File | `add.php` | Low
+1 | File | `/config/getuser` | High
+2 | File | `/index.php?action=seomatic/file/seo-file-link` | High
+3 | File | `/librarian/bookdetails.php` | High
+4 | File | `/mgmt/tm/util/bash` | High
+5 | File | `/staff/bookdetails.php` | High
+6 | File | `/student/bookdetails.php` | High
+7 | File | `/text/pdf/PdfReader.java` | High
 8 | ... | ... | ...
 
-There are 53 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 55 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -66,6 +66,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://community.blueliv.com/#!/s/600e7a2d82df413eb5354ce6
 * https://github.com/threatlabz/iocs/blob/main/dreambus/c2_domains.txt
 * https://github.com/threatlabz/iocs/blob/main/dreambus/dreambus.yara
+* https://www.zscaler.com/blogs/security-research/dreambus-unleashes-metabase-mayhem-new-exploit-module
 
 ## Literature
 
@@ -76,4 +77,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Brunei Darussalam Unknown:
 
 * [US](https://vuldb.com/?country.us)
-* [JP](https://vuldb.com/?country.jp)
 * [CN](https://vuldb.com/?country.cn)
+* [JP](https://vuldb.com/?country.jp)
 * ...
 
 There are 11 more country items available. Please use our online service to access the data.
@@ -46,7 +46,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 16 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -55,26 +55,27 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.htaccess` | Medium
-2 | File | `/apiclient/ember/index.jsp` | High
-3 | File | `/Application/Admin/Controller/ConfigController.class.php` | High
-4 | File | `/bin/boa` | Medium
-5 | File | `/cimom` | Low
-6 | File | `/etc/sysconfig/tomcat` | High
-7 | File | `/forum/away.php` | High
-8 | File | `/getcfg.php` | Medium
-9 | File | `/goform` | Low
-10 | File | `/login/index.php` | High
-11 | File | `/mgmt/tm/util/bash` | High
-12 | File | `/printers` | Medium
-13 | File | `/SASWebReportStudio/logonAndRender.do` | High
-14 | File | `/uncpath/` | Medium
-15 | File | `/viewer/krpano.html` | High
-16 | File | `/wp-json/oembed/1.0/embed?url` | High
-17 | File | `/_vti_pvt/access.cnf` | High
-18 | File | `ActionServlet.java` | High
-19 | ... | ... | ...
+2 | File | `/api/v1/terminal/sessions/?limit=1` | High
+3 | File | `/apiclient/ember/index.jsp` | High
+4 | File | `/Application/Admin/Controller/ConfigController.class.php` | High
+5 | File | `/bin/boa` | Medium
+6 | File | `/cimom` | Low
+7 | File | `/etc/sysconfig/tomcat` | High
+8 | File | `/forum/away.php` | High
+9 | File | `/getcfg.php` | Medium
+10 | File | `/goform` | Low
+11 | File | `/login/index.php` | High
+12 | File | `/mgmt/tm/util/bash` | High
+13 | File | `/printers` | Medium
+14 | File | `/SASWebReportStudio/logonAndRender.do` | High
+15 | File | `/sysmanage/edit_manageadmin.php` | High
+16 | File | `/uncpath/` | Medium
+17 | File | `/viewer/krpano.html` | High
+18 | File | `/wp-json/oembed/1.0/embed?url` | High
+19 | File | `/_vti_pvt/access.cnf` | High
+20 | ... | ... | ...
 
-There are 154 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 160 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -91,4 +92,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

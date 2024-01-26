@@ -41,9 +41,10 @@ ID | IP address | Hostname | Campaign | Confidence
 18 | [40.121.49.138](https://vuldb.com/?ip.40.121.49.138) | - | - | High
 19 | [45.77.146.176](https://vuldb.com/?ip.45.77.146.176) | 45.77.146.176.vultrusercontent.com | - | High
 20 | [45.81.39.90](https://vuldb.com/?ip.45.81.39.90) | - | - | High
-21 | ... | ... | ... | ...
+21 | [45.81.233.69](https://vuldb.com/?ip.45.81.233.69) | 45.81.233.69.mc-host24.de | - | High
+22 | ... | ... | ... | ...
 
-There are 81 more IOC items available. Please use our online service to access the data.
+There are 82 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -86,7 +87,7 @@ ID | Type | Indicator | Confidence
 19 | File | `adclick.php` | Medium
 20 | ... | ... | ...
 
-There are 165 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 166 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -116,4 +117,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

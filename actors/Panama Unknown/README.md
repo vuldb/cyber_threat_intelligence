@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 19 more country items available. Please use our online service to access the data.
+There are 18 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -161,7 +161,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -171,53 +171,54 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `%SYSTEMDRIVE%\node_modules\.bin\wmic.exe` | High
 2 | File | `//proc/kcore` | Medium
-3 | File | `/admin/about-us.php` | High
-4 | File | `/admin/save.php` | High
-5 | File | `/admin/sys_sql_query.php` | High
+3 | File | `/admin/action/delete-vaccine.php` | High
+4 | File | `/admin/index2.html` | High
+5 | File | `/admin/save.php` | High
 6 | File | `/api/baskets/{name}` | High
 7 | File | `/api/download` | High
 8 | File | `/api/v1/alerts` | High
 9 | File | `/api/v1/terminal/sessions/?limit=1` | High
-10 | File | `/bitrix/admin/ldap_server_edit.php` | High
-11 | File | `/category.php` | High
-12 | File | `/categorypage.php` | High
-13 | File | `/cgi-bin/luci/api/wireless` | High
-14 | File | `/cgi-bin/vitogate.cgi` | High
-15 | File | `/company/store` | High
-16 | File | `/Content/Template/root/reverse-shell.aspx` | High
-17 | File | `/Controller/Ajaxfileupload.ashx` | High
-18 | File | `/core/conditions/AbstractWrapper.java` | High
+10 | File | `/app/index/controller/Common.php` | High
+11 | File | `/b2b-supermarket/shopping-cart` | High
+12 | File | `/bitrix/admin/ldap_server_edit.php` | High
+13 | File | `/category.php` | High
+14 | File | `/categorypage.php` | High
+15 | File | `/cgi-bin/luci/api/wireless` | High
+16 | File | `/cgi-bin/vitogate.cgi` | High
+17 | File | `/change-language/de_DE` | High
+18 | File | `/Content/Template/root/reverse-shell.aspx` | High
 19 | File | `/debug/pprof` | Medium
-20 | File | `/etc/passwd` | Medium
+20 | File | `/dist/index.js` | High
 21 | File | `/fcgi/scrut_fcgi.fcgi` | High
-22 | File | `/forum/away.php` | High
-23 | File | `/geoserver/gwc/rest.html` | High
-24 | File | `/goform/formSysCmd` | High
-25 | File | `/HNAP1` | Low
-26 | File | `/index.php` | Medium
-27 | File | `/jeecg-boot/sys/common/upload` | High
-28 | File | `/listplace/user/ticket/create` | High
-29 | File | `/oauth/idp/.well-known/openid-configuration` | High
-30 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
-31 | File | `/proxy` | Low
-32 | File | `/recipe-result` | High
-33 | File | `/register.do` | Medium
-34 | File | `/RPS2019Service/status.html` | High
-35 | File | `/Service/ImageStationDataService.asmx` | High
-36 | File | `/setting` | Medium
-37 | File | `/sicweb-ajax/tmproot/` | High
-38 | File | `/spip.php` | Medium
-39 | File | `/squashfs-root/etc_ro/custom.conf` | High
-40 | File | `/staff/edit_book_details.php` | High
-41 | File | `/subsys/net/l2/wifi/wifi_shell.c` | High
-42 | File | `/SysManage/AddUpdateRole.aspx` | High
-43 | File | `/sysmanage/importconf.php` | High
-44 | File | `/SystemManage/User/GetGridJson?_search=false&nd=1680855479750&rows=50&page=1&sidx=F_CreatorTime+desc&sord=asc` | High
-45 | File | `/user/profile` | High
-46 | File | `/user/ticket/create` | High
-47 | ... | ... | ...
+22 | File | `/forms/doLogin` | High
+23 | File | `/forum/away.php` | High
+24 | File | `/geoserver/gwc/rest.html` | High
+25 | File | `/goform/formSysCmd` | High
+26 | File | `/HNAP1` | Low
+27 | File | `/hosts/firewall/ip` | High
+28 | File | `/index.php/ccm/system/file/upload` | High
+29 | File | `/jeecg-boot/sys/common/upload` | High
+30 | File | `/listplace/user/ticket/create` | High
+31 | File | `/log/decodmail.php` | High
+32 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+33 | File | `/oauth/idp/.well-known/openid-configuration` | High
+34 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
+35 | File | `/php/ping.php` | High
+36 | File | `/proxy` | Low
+37 | File | `/RPS2019Service/status.html` | High
+38 | File | `/s/index.php?action=statistics` | High
+39 | File | `/setting` | Medium
+40 | File | `/sicweb-ajax/tmproot/` | High
+41 | File | `/spip.php` | Medium
+42 | File | `/subsys/net/l2/wifi/wifi_shell.c` | High
+43 | File | `/SysManage/AddUpdateRole.aspx` | High
+44 | File | `/sysmanage/importconf.php` | High
+45 | File | `/SystemManage/User/GetGridJson?_search=false&nd=1680855479750&rows=50&page=1&sidx=F_CreatorTime+desc&sord=asc` | High
+46 | File | `/TMS/admin/setting/mail/createorupdate` | High
+47 | File | `/upload/ueditorConfig?action=config` | High
+48 | ... | ... | ...
 
-There are 403 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 412 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -236,4 +237,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

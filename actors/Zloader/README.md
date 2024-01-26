@@ -56,33 +56,36 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/?page=user/list` | High
-2 | File | `/admin/add-services.php` | High
-3 | File | `/admin/add_user_modal.php` | High
-4 | File | `/admin/admin-profile.php` | High
-5 | File | `/admin/ajax.php?action=confirm_order` | High
-6 | File | `/admin/service.php` | High
-7 | File | `/admin/sys_sql_query.php` | High
-8 | File | `/admin/user/team` | High
-9 | File | `/ajax.php?action=read_msg` | High
-10 | File | `/api/ping` | Medium
-11 | File | `/baseOpLog.do` | High
-12 | File | `/bcms/admin/?page=user/list` | High
-13 | File | `/blog` | Low
-14 | File | `/blog-single.php` | High
-15 | File | `/cgi-bin/adm.cgi` | High
-16 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
-17 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-18 | File | `/classes/Master.php?f=save_inquiry` | High
-19 | File | `/collection/all` | High
-20 | File | `/Duty/AjaxHandle/UpLoadFloodPlanFile.ashx` | High
-21 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
-22 | File | `/home/cavesConsole` | High
-23 | File | `/index.php` | Medium
-24 | File | `/listplace/user/ticket/create` | High
-25 | File | `/load.php` | Medium
-26 | ... | ... | ...
+2 | File | `/admin/action/edit_chicken.php` | High
+3 | File | `/admin/add-services.php` | High
+4 | File | `/admin/add_user_modal.php` | High
+5 | File | `/admin/admin-profile.php` | High
+6 | File | `/admin/ajax.php?action=confirm_order` | High
+7 | File | `/admin/ind_backstage.php` | High
+8 | File | `/admin/pages/subjects.php` | High
+9 | File | `/admin/service.php` | High
+10 | File | `/admin/sys_sql_query.php` | High
+11 | File | `/admin/user/team` | High
+12 | File | `/adplanet/PlanetCommentList` | High
+13 | File | `/ajax.php?action=read_msg` | High
+14 | File | `/api/ping` | Medium
+15 | File | `/baseOpLog.do` | High
+16 | File | `/bcms/admin/?page=user/list` | High
+17 | File | `/blog` | Low
+18 | File | `/blog-single.php` | High
+19 | File | `/cgi-bin/adm.cgi` | High
+20 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
+21 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+22 | File | `/classes/Master.php?f=save_inquiry` | High
+23 | File | `/collection/all` | High
+24 | File | `/Duty/AjaxHandle/UpLoadFloodPlanFile.ashx` | High
+25 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
+26 | File | `/home/cavesConsole` | High
+27 | File | `/index.php` | Medium
+28 | File | `/listplace/user/ticket/create` | High
+29 | ... | ... | ...
 
-There are 223 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 248 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -104,4 +107,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

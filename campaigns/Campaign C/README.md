@@ -84,30 +84,31 @@ ID | Type | Indicator | Confidence
 19 | File | `/debug` | Low
 20 | File | `/debug/pprof` | Medium
 21 | File | `/ebics-server/ebics.aspx` | High
-22 | File | `/env` | Low
-23 | File | `/ffos/classes/Master.php?f=save_category` | High
-24 | File | `/forum/away.php` | High
-25 | File | `/goform/net\_Web\_get_value` | High
-26 | File | `/goform/setmac` | High
-27 | File | `/goforms/rlminfo` | High
-28 | File | `/GponForm/usb_restore_Form?script/` | High
-29 | File | `/group1/uploa` | High
-30 | File | `/HNAP1` | Low
-31 | File | `/HNAP1/SetClientInfo` | High
-32 | File | `/Items/*/RemoteImages/Download` | High
-33 | File | `/menu.html` | Medium
-34 | File | `/modules/profile/index.php` | High
-35 | File | `/navigate/navigate_download.php` | High
-36 | File | `/net/sched/cls_fw.c` | High
-37 | File | `/ocwbs/admin/?page=user/manage_user` | High
-38 | File | `/ofrs/admin/?page=user/manage_user` | High
-39 | File | `/out.php` | Medium
-40 | File | `/php_action/fetchSelectedUser.php` | High
-41 | File | `/plugin` | Low
-42 | File | `/property-list/property_view.php` | High
-43 | ... | ... | ...
+22 | File | `/em/console/logon/logon` | High
+23 | File | `/env` | Low
+24 | File | `/ffos/classes/Master.php?f=save_category` | High
+25 | File | `/forum/away.php` | High
+26 | File | `/goform/net\_Web\_get_value` | High
+27 | File | `/goform/setmac` | High
+28 | File | `/goforms/rlminfo` | High
+29 | File | `/GponForm/usb_restore_Form?script/` | High
+30 | File | `/group1/uploa` | High
+31 | File | `/hedwig.cgi` | Medium
+32 | File | `/HNAP1` | Low
+33 | File | `/HNAP1/SetClientInfo` | High
+34 | File | `/Items/*/RemoteImages/Download` | High
+35 | File | `/menu.html` | Medium
+36 | File | `/modules/profile/index.php` | High
+37 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+38 | File | `/net/sched/cls_fw.c` | High
+39 | File | `/ocwbs/admin/?page=user/manage_user` | High
+40 | File | `/ofrs/admin/?page=user/manage_user` | High
+41 | File | `/out.php` | Medium
+42 | File | `/php_action/fetchSelectedUser.php` | High
+43 | File | `/plugin` | Low
+44 | ... | ... | ...
 
-There are 373 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 381 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -124,4 +125,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

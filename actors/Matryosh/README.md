@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 6 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -50,47 +50,48 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/.kedpm/history` | High
-2 | File | `/cgi-bin/` | Medium
-3 | File | `/cgi-bin/ExportAllSettings.sh` | High
-4 | File | `/cgi-bin/touchlist_sync.cgi` | High
-5 | File | `/domain/add` | Medium
-6 | File | `/download` | Medium
-7 | File | `/etc/ajenti/config.yml` | High
-8 | File | `/exponent_constants.php` | High
-9 | File | `/goform/` | Medium
-10 | File | `/goform/SetNetControlList` | High
-11 | File | `/lists/admin/` | High
-12 | File | `/status.js` | Medium
-13 | File | `/sysmanage/edit_manageadmin.php` | High
-14 | File | `/usr/bin/lua` | Medium
-15 | File | `/var/lib/dpkg/info/` | High
-16 | File | `/vloggers_merch/classes/Master.php?f=delete_category` | High
-17 | File | `/websitebaker/admin/preferences/save.php` | High
-18 | File | `aai.c` | Low
-19 | File | `account/login.php` | High
-20 | File | `admin-ajax.php` | High
-21 | File | `admin.comms.php` | High
-22 | File | `admin.php` | Medium
-23 | File | `admin/auto.def` | High
-24 | File | `admin/blog/add/` | High
-25 | File | `admin/home#/person/` | High
-26 | File | `admin/mcart_xls_import.php` | High
-27 | File | `admin/plugin/file_manager/browse/` | High
-28 | File | `admin/services/packages/remove` | High
-29 | File | `administrator/components/com_media/helpers/media.php` | High
-30 | File | `adm_config_report.php` | High
-31 | File | `adm_program/modules/members/members_function.php` | High
-32 | File | `album_portal.php` | High
-33 | File | `amf.c` | Low
-34 | File | `api.c` | Low
-35 | File | `api/includes/systems.php` | High
-36 | File | `archive_read_support_format_cab.c` | High
-37 | File | `assembler/MacroAssemblerARM64.h` | High
-38 | File | `auction_offer.php` | High
-39 | File | `Autopilot/route_mgr.cxx` | High
-40 | ... | ... | ...
+2 | File | `/auth/user/all.api` | High
+3 | File | `/cgi-bin/` | Medium
+4 | File | `/cgi-bin/ExportAllSettings.sh` | High
+5 | File | `/cgi-bin/touchlist_sync.cgi` | High
+6 | File | `/collection/all` | High
+7 | File | `/domain/add` | Medium
+8 | File | `/download` | Medium
+9 | File | `/etc/ajenti/config.yml` | High
+10 | File | `/exponent_constants.php` | High
+11 | File | `/goform/` | Medium
+12 | File | `/goform/SetNetControlList` | High
+13 | File | `/lists/admin/` | High
+14 | File | `/status.js` | Medium
+15 | File | `/sysmanage/edit_manageadmin.php` | High
+16 | File | `/usr/bin/lua` | Medium
+17 | File | `/var/lib/dpkg/info/` | High
+18 | File | `/vloggers_merch/classes/Master.php?f=delete_category` | High
+19 | File | `/websitebaker/admin/preferences/save.php` | High
+20 | File | `aai.c` | Low
+21 | File | `account/login.php` | High
+22 | File | `admin-ajax.php` | High
+23 | File | `admin.comms.php` | High
+24 | File | `admin.php` | Medium
+25 | File | `admin/auto.def` | High
+26 | File | `admin/blog/add/` | High
+27 | File | `admin/home#/person/` | High
+28 | File | `admin/mcart_xls_import.php` | High
+29 | File | `admin/plugin/file_manager/browse/` | High
+30 | File | `admin/services/packages/remove` | High
+31 | File | `administrator/components/com_media/helpers/media.php` | High
+32 | File | `adm_config_report.php` | High
+33 | File | `adm_program/modules/members/members_function.php` | High
+34 | File | `album_portal.php` | High
+35 | File | `amf.c` | Low
+36 | File | `api.c` | Low
+37 | File | `api/includes/systems.php` | High
+38 | File | `archive_read_support_format_cab.c` | High
+39 | File | `assembler/MacroAssemblerARM64.h` | High
+40 | File | `auction_offer.php` | High
+41 | ... | ... | ...
 
-There are 348 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 350 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -107,4 +108,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -79,51 +79,51 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `%SYSTEMDRIVE%\node_modules\.bin\wmic.exe` | High
-2 | File | `/admin/index.php` | High
-3 | File | `/admin/save.php` | High
-4 | File | `/admin/sys_sql_query.php` | High
+2 | File | `/admin/save.php` | High
+3 | File | `/admin/sys_sql_query.php` | High
+4 | File | `/adplanet/PlanetUser` | High
 5 | File | `/api/baskets/{name}` | High
 6 | File | `/api/download` | High
 7 | File | `/api/v1/alerts` | High
 8 | File | `/api/v1/terminal/sessions/?limit=1` | High
-9 | File | `/bitrix/admin/ldap_server_edit.php` | High
-10 | File | `/category.php` | High
-11 | File | `/categorypage.php` | High
-12 | File | `/cgi-bin/luci/api/wireless` | High
-13 | File | `/cgi-bin/vitogate.cgi` | High
-14 | File | `/company/store` | High
-15 | File | `/Content/Template/root/reverse-shell.aspx` | High
-16 | File | `/Controller/Ajaxfileupload.ashx` | High
-17 | File | `/core/conditions/AbstractWrapper.java` | High
-18 | File | `/debug/pprof` | Medium
-19 | File | `/DXR.axd` | Medium
-20 | File | `/etc/passwd` | Medium
-21 | File | `/fcgi/scrut_fcgi.fcgi` | High
-22 | File | `/forum/away.php` | High
-23 | File | `/geoserver/gwc/rest.html` | High
-24 | File | `/goform/formSysCmd` | High
-25 | File | `/h/` | Low
-26 | File | `/HNAP1` | Low
-27 | File | `/htdocs/web/getcfg.php` | High
-28 | File | `/jeecg-boot/sys/common/upload` | High
-29 | File | `/load.php` | Medium
-30 | File | `/oauth/idp/.well-known/openid-configuration` | High
-31 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
-32 | File | `/proxy` | Low
-33 | File | `/REBOOTSYSTEM` | High
-34 | File | `/recipe-result` | High
-35 | File | `/register.do` | Medium
-36 | File | `/RPS2019Service/status.html` | High
-37 | File | `/Service/ImageStationDataService.asmx` | High
-38 | File | `/setting` | Medium
-39 | File | `/sicweb-ajax/tmproot/` | High
-40 | File | `/spip.php` | Medium
-41 | File | `/src/chatbotapp/chatWindow.java` | High
-42 | File | `/student/bookdetails.php` | High
-43 | File | `/subsys/net/l2/wifi/wifi_shell.c` | High
+9 | File | `/b2b-supermarket/shopping-cart` | High
+10 | File | `/bitrix/admin/ldap_server_edit.php` | High
+11 | File | `/category.php` | High
+12 | File | `/categorypage.php` | High
+13 | File | `/cgi-bin/luci/api/wireless` | High
+14 | File | `/cgi-bin/vitogate.cgi` | High
+15 | File | `/change-language/de_DE` | High
+16 | File | `/company/store` | High
+17 | File | `/Content/Template/root/reverse-shell.aspx` | High
+18 | File | `/Controller/Ajaxfileupload.ashx` | High
+19 | File | `/core/conditions/AbstractWrapper.java` | High
+20 | File | `/debug/pprof` | Medium
+21 | File | `/dist/index.js` | High
+22 | File | `/DXR.axd` | Medium
+23 | File | `/etc/passwd` | Medium
+24 | File | `/fcgi/scrut_fcgi.fcgi` | High
+25 | File | `/forum/away.php` | High
+26 | File | `/geoserver/gwc/rest.html` | High
+27 | File | `/goform/formSysCmd` | High
+28 | File | `/HNAP1` | Low
+29 | File | `/hosts/firewall/ip` | High
+30 | File | `/index.php/ccm/system/file/upload` | High
+31 | File | `/jeecg-boot/sys/common/upload` | High
+32 | File | `/log/decodmail.php` | High
+33 | File | `/login` | Low
+34 | File | `/oauth/idp/.well-known/openid-configuration` | High
+35 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
+36 | File | `/php/ping.php` | High
+37 | File | `/proxy` | Low
+38 | File | `/REBOOTSYSTEM` | High
+39 | File | `/recipe-result` | High
+40 | File | `/register.do` | Medium
+41 | File | `/RPS2019Service/status.html` | High
+42 | File | `/s/index.php?action=statistics` | High
+43 | File | `/Service/ImageStationDataService.asmx` | High
 44 | ... | ... | ...
 
-There are 377 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 385 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -141,4 +141,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

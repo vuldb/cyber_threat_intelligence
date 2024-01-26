@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [VN](https://vuldb.com/?country.vn)
 * [CN](https://vuldb.com/?country.cn)
-* [US](https://vuldb.com/?country.us)
+* [LA](https://vuldb.com/?country.la)
 * ...
 
-There are 4 more country items available. Please use our online service to access the data.
+There are 2 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -149,14 +149,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-29, CWE-37, CWE-425 | Pathname Traversal | High
-2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-29, CWE-37 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -164,47 +164,56 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/accounts/password_change/` | High
-2 | File | `/act/ActDao.xml` | High
-3 | File | `/api/addusers` | High
-4 | File | `/api/baskets/{name}` | High
-5 | File | `/api/trackedEntityInstances` | High
-6 | File | `/api/v1/terminal/sessions/?limit=1` | High
-7 | File | `/auth/auth.php?user=1` | High
-8 | File | `/b2b-supermarket/shopping-cart` | High
-9 | File | `/blog/comment` | High
-10 | File | `/bsms_ci/index.php` | High
-11 | File | `/catalog/compare` | High
-12 | File | `/cgi-bin/cstecgi.cgi` | High
-13 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-14 | File | `/cgi-bin/downloadFile.cgi` | High
-15 | File | `/cgi-bin/kerbynet` | High
-16 | File | `/cgi-bin/wlogin.cgi` | High
-17 | File | `/clinic/disease_symptoms_view.php` | High
-18 | File | `/config/getuser` | High
-19 | File | `/debug/pprof` | Medium
-20 | File | `/DXR.axd` | Medium
-21 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-22 | File | `/forum/away.php` | High
-23 | File | `/geoserver/gwc/rest.html` | High
-24 | File | `/importexport.php` | High
-25 | File | `/index.php/client/message/message_read/xxxxxxxx[random-msg-hash]` | High
-26 | File | `/login` | Low
-27 | File | `/mehah/otclient` | High
-28 | File | `/mhds/clinic/view_details.php` | High
-29 | File | `/modals/class_form.php` | High
-30 | File | `/oauth/idp/.well-known/openid-configuration` | High
-31 | File | `/php/exportrecord.php` | High
-32 | File | `/php/ping.php` | High
-33 | File | `/proc/#####/fd/3` | High
-34 | File | `/register.php` | High
-35 | File | `/shell` | Low
-36 | File | `/showfile.php` | High
-37 | File | `/spip.php` | Medium
-38 | File | `/squashfs-root/etc_ro/custom.conf` | High
-39 | ... | ... | ...
+1 | File | `/.env` | Low
+2 | File | `/accounts/password_change/` | High
+3 | File | `/act/ActDao.xml` | High
+4 | File | `/admin/action/new-father.php` | High
+5 | File | `/admin/clientview.php` | High
+6 | File | `/admin/edit_teacher.php` | High
+7 | File | `/admin/fields/manage_field.php` | High
+8 | File | `/admin/manage-users.php` | High
+9 | File | `/admin/pages/update_go.php` | High
+10 | File | `/admin/regester.php` | High
+11 | File | `/admin/update-clients.php` | High
+12 | File | `/admin_route/dec_service_credits.php` | High
+13 | File | `/admin_route/inc_service_credits.php` | High
+14 | File | `/api/baskets/{name}` | High
+15 | File | `/api/cron/settings/setJob/` | High
+16 | File | `/api/sys/set_passwd` | High
+17 | File | `/api/trackedEntityInstances` | High
+18 | File | `/api/v1/terminal/sessions/?limit=1` | High
+19 | File | `/app/api/controller/default/Sqlite.php` | High
+20 | File | `/apply.cgi` | Medium
+21 | File | `/auth/auth.php?user=1` | High
+22 | File | `/authenticationendpoint/login.do` | High
+23 | File | `/aux` | Low
+24 | File | `/b2b-supermarket/shopping-cart` | High
+25 | File | `/bin/boa` | Medium
+26 | File | `/boaform/device_reset.cgi` | High
+27 | File | `/bsms_ci/index.php` | High
+28 | File | `/bsms_ci/index.php/user/edit_user/` | High
+29 | File | `/cgi-bin/cstecgi.cgi` | High
+30 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+31 | File | `/cgi-bin/kerbynet` | High
+32 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+33 | File | `/cgi-bin/R14.2/cgi-bin/R14.2/host.pl` | High
+34 | File | `/cgi-bin/R14.2/easy1350.pl` | High
+35 | File | `/cgi-bin/wlogin.cgi` | High
+36 | File | `/clinic/disease_symptoms_view.php` | High
+37 | File | `/config/getuser` | High
+38 | File | `/dashboard/snapshot/*?orgId=0` | High
+39 | File | `/data/remove` | Medium
+40 | File | `/debug/pprof` | Medium
+41 | File | `/DXR.axd` | Medium
+42 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+43 | File | `/forum/away.php` | High
+44 | File | `/index.php` | Medium
+45 | File | `/index.php/client/message/message_read/xxxxxxxx[random-msg-hash]` | High
+46 | File | `/login` | Low
+47 | File | `/Main_AdmStatus_Content.asp` | High
+48 | ... | ... | ...
 
-There are 331 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 412 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

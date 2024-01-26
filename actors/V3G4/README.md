@@ -59,35 +59,36 @@ ID | Type | Indicator | Confidence
 10 | File | `/admin/transactions/update_status.php` | High
 11 | File | `/admin/uesrs.php&action=display&value=Hide` | High
 12 | File | `/administrator/components/menu/` | High
-13 | File | `/auparse/auparse.c` | High
-14 | File | `/back/index.php/user/User/?1` | High
-15 | File | `/backups/` | Medium
-16 | File | `/cgi-bin/logs.ha` | High
-17 | File | `/claire_blake` | High
-18 | File | `/classes/Master.php?f=delete_service` | High
-19 | File | `/common/info.cgi` | High
-20 | File | `/core/table/query` | High
-21 | File | `/damicms-master/admin.php?s=/Article/doedit` | High
-22 | File | `/feedback/post/` | High
-23 | File | `/gaia-job-admin/user/add` | High
-24 | File | `/goform/dir_setWanWifi` | High
-25 | File | `/goform/login` | High
-26 | File | `/goform/SetInternetLanInfo` | High
-27 | File | `/goform/setportList` | High
-28 | File | `/goform/SetPptpServerCfg` | High
-29 | File | `/goform/WifiBasicSet` | High
-30 | File | `/group/apply` | Medium
-31 | File | `/hdf5/src/H5Fint.c` | High
-32 | File | `/includes/login.php` | High
-33 | File | `/index.cfm/_api/asset/image/` | High
-34 | File | `/insurance/editClient.php` | High
-35 | File | `/linkedcontent/editfolder.php` | High
-36 | File | `/manage/network-basic.php` | High
-37 | File | `/master/core/PostHandler.php` | High
-38 | File | `/matchmakings/question` | High
-39 | ... | ... | ...
+13 | File | `/assets/php/upload.php` | High
+14 | File | `/auparse/auparse.c` | High
+15 | File | `/back/index.php/user/User/?1` | High
+16 | File | `/backups/` | Medium
+17 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+18 | File | `/cgi-bin/logs.ha` | High
+19 | File | `/claire_blake` | High
+20 | File | `/classes/Master.php?f=delete_service` | High
+21 | File | `/common/info.cgi` | High
+22 | File | `/core/table/query` | High
+23 | File | `/damicms-master/admin.php?s=/Article/doedit` | High
+24 | File | `/feedback/post/` | High
+25 | File | `/gaia-job-admin/user/add` | High
+26 | File | `/goform/dir_setWanWifi` | High
+27 | File | `/goform/login` | High
+28 | File | `/goform/SetInternetLanInfo` | High
+29 | File | `/goform/setportList` | High
+30 | File | `/goform/SetPptpServerCfg` | High
+31 | File | `/goform/WifiBasicSet` | High
+32 | File | `/group/apply` | Medium
+33 | File | `/gusetbook/save` | High
+34 | File | `/hdf5/src/H5Fint.c` | High
+35 | File | `/includes/login.php` | High
+36 | File | `/index.cfm/_api/asset/image/` | High
+37 | File | `/insurance/editClient.php` | High
+38 | File | `/linkedcontent/editfolder.php` | High
+39 | File | `/manage/network-basic.php` | High
+40 | ... | ... | ...
 
-There are 334 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 341 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -104,4 +105,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

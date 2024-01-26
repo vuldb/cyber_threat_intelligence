@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [LU](https://vuldb.com/?country.lu)
 * ...
 
-There are 2 more country items available. Please use our online service to access the data.
+There are 3 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -58,49 +58,51 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/add_post_sql.php` | High
 2 | File | `/admin/article.php` | High
-3 | File | `/admin/getallarticleinfo` | High
-4 | File | `/admin/reminders/manage_reminder.php` | High
-5 | File | `/admin/services/view_service.php` | High
-6 | File | `/admin/tag/delete` | High
-7 | File | `/api/baskets/{name}` | High
-8 | File | `/api/jmeter/download/files` | High
-9 | File | `/api/v1/terminal/sessions/?limit=1` | High
-10 | File | `/CCMAdmin/serverlist.asp` | High
-11 | File | `/cgi-bin/luci/api/auth` | High
-12 | File | `/cgi-bin/wlogin.cgi` | High
-13 | File | `/cgi/get_param.cgi` | High
-14 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
-15 | File | `/csms/admin/inquiries/view_details.php` | High
-16 | File | `/cstecgi.cgi` | Medium
-17 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-18 | File | `/forum/away.php` | High
-19 | File | `/goform/WifiBasicSet` | High
-20 | File | `/group1/uploa` | High
-21 | File | `/htdocs/cgibin` | High
-22 | File | `/importexport.php` | High
-23 | File | `/include/chart_generator.php` | High
-24 | File | `/index.php` | Medium
-25 | File | `/index.php?page=member` | High
-26 | File | `/librarian/bookdetails.php` | High
-27 | File | `/link/` | Low
-28 | File | `/matkul/data` | Medium
-29 | File | `/message/form/` | High
-30 | File | `/messageboard/view.php` | High
-31 | File | `/out.php` | Medium
-32 | File | `/sm/api/v1/firewall/zone/services` | High
-33 | File | `/src/Illuminate/Laravel.php` | High
-34 | File | `/SVFE2/pages/feegroups/country_group.jsf` | High
-35 | File | `/system/dict/list` | High
-36 | File | `/SystemManage/Organize/GetTreeGridJson?_search=false&nd=1681813520783&rows=10000&page=1&sidx=&sord=asc` | High
-37 | File | `/SystemManage/Role/GetGridJson?keyword=&page=1&rows=20` | High
-38 | File | `/textpattern/index.php` | High
-39 | File | `/upfile.cgi` | Medium
-40 | File | `/upgrade_filter.asp` | High
-41 | File | `/v1/avatars/favicon` | High
-42 | File | `/vendor/views/add_product.php` | High
-43 | ... | ... | ...
+3 | File | `/admin/book_row.php` | High
+4 | File | `/admin/general.cgi` | High
+5 | File | `/admin/getallarticleinfo` | High
+6 | File | `/admin/reminders/manage_reminder.php` | High
+7 | File | `/admin/services/view_service.php` | High
+8 | File | `/admin/tag/delete` | High
+9 | File | `/api/baskets/{name}` | High
+10 | File | `/api/jmeter/download/files` | High
+11 | File | `/api/v1/terminal/sessions/?limit=1` | High
+12 | File | `/api/wechat/app_auth` | High
+13 | File | `/CCMAdmin/serverlist.asp` | High
+14 | File | `/cgi-bin/luci/api/auth` | High
+15 | File | `/cgi-bin/wlogin.cgi` | High
+16 | File | `/cgi/get_param.cgi` | High
+17 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
+18 | File | `/csms/admin/inquiries/view_details.php` | High
+19 | File | `/cstecgi.cgi` | Medium
+20 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+21 | File | `/forum/away.php` | High
+22 | File | `/goform/WifiBasicSet` | High
+23 | File | `/group1/uploa` | High
+24 | File | `/htdocs/cgibin` | High
+25 | File | `/importexport.php` | High
+26 | File | `/include/chart_generator.php` | High
+27 | File | `/index.php` | Medium
+28 | File | `/index.php?page=member` | High
+29 | File | `/librarian/bookdetails.php` | High
+30 | File | `/link/` | Low
+31 | File | `/matkul/data` | Medium
+32 | File | `/message/form/` | High
+33 | File | `/messageboard/view.php` | High
+34 | File | `/out.php` | Medium
+35 | File | `/production/admin_view_info.php` | High
+36 | File | `/sm/api/v1/firewall/zone/services` | High
+37 | File | `/src/Illuminate/Laravel.php` | High
+38 | File | `/SVFE2/pages/feegroups/country_group.jsf` | High
+39 | File | `/system/dict/list` | High
+40 | File | `/SystemManage/Organize/GetTreeGridJson?_search=false&nd=1681813520783&rows=10000&page=1&sidx=&sord=asc` | High
+41 | File | `/SystemManage/Role/GetGridJson?keyword=&page=1&rows=20` | High
+42 | File | `/textpattern/index.php` | High
+43 | File | `/upfile.cgi` | Medium
+44 | File | `/upgrade_filter.asp` | High
+45 | ... | ... | ...
 
-There are 374 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 386 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -135,4 +137,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

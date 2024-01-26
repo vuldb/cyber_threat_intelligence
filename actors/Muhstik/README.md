@@ -71,29 +71,31 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/.ssh/authorized_keys` | High
-2 | File | `/adminlogin.asp` | High
-3 | File | `/conf/` | Low
-4 | File | `/controller/AdminController.php` | High
-5 | File | `/deviceIP` | Medium
-6 | File | `/etc/shadow` | Medium
-7 | File | `/firewall/policy/` | High
-8 | File | `/friends/ajax_invite` | High
-9 | File | `/getcfg.php` | Medium
-10 | File | `/graphStatus/displayServiceStatus.php` | High
-11 | File | `/index.php/admin/tag/add.html` | High
-12 | File | `/Items/*/RemoteImages/Download` | High
-13 | File | `/proc/pid/syscall` | High
-14 | File | `/rom-0` | Low
-15 | File | `/scas/admin/` | Medium
-16 | File | `/servlet.gupld` | High
-17 | File | `/sql/sql_type.cc` | High
-18 | File | `/status` | Low
-19 | File | `/tmp` | Low
-20 | File | `/tools/developerConsoleOperations.jsp` | High
-21 | File | `/uncpath/` | Medium
-22 | ... | ... | ...
+2 | File | `/addbill.php` | Medium
+3 | File | `/adminlogin.asp` | High
+4 | File | `/ample/app/action/edit_product.php` | High
+5 | File | `/conf/` | Low
+6 | File | `/controller/AdminController.php` | High
+7 | File | `/deviceIP` | Medium
+8 | File | `/etc/shadow` | Medium
+9 | File | `/firewall/policy/` | High
+10 | File | `/friends/ajax_invite` | High
+11 | File | `/getcfg.php` | Medium
+12 | File | `/graphStatus/displayServiceStatus.php` | High
+13 | File | `/index.php/admin/tag/add.html` | High
+14 | File | `/Items/*/RemoteImages/Download` | High
+15 | File | `/proc/pid/syscall` | High
+16 | File | `/rom-0` | Low
+17 | File | `/scas/admin/` | Medium
+18 | File | `/servlet.gupld` | High
+19 | File | `/sql/sql_type.cc` | High
+20 | File | `/status` | Low
+21 | File | `/tmp` | Low
+22 | File | `/tools/developerConsoleOperations.jsp` | High
+23 | File | `/uncpath/` | Medium
+24 | ... | ... | ...
 
-There are 186 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 197 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -119,4 +121,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

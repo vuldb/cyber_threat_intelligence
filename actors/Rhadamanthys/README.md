@@ -8,8 +8,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Rhadamanthys:
 
-* [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
+* [US](https://vuldb.com/?country.us)
 * [LA](https://vuldb.com/?country.la)
 * ...
 
@@ -81,9 +81,11 @@ ID | IP address | Hostname | Campaign | Confidence
 58 | [62.233.51.95](https://vuldb.com/?ip.62.233.51.95) | - | - | High
 59 | [62.233.51.121](https://vuldb.com/?ip.62.233.51.121) | - | - | High
 60 | [62.233.51.122](https://vuldb.com/?ip.62.233.51.122) | - | - | High
-61 | ... | ... | ... | ...
+61 | [65.21.101.233](https://vuldb.com/?ip.65.21.101.233) | - | - | High
+62 | [65.109.161.133](https://vuldb.com/?ip.65.109.161.133) | static.133.161.109.65.clients.your-server.de | - | High
+63 | ... | ... | ... | ...
 
-There are 241 more IOC items available. Please use our online service to access the data.
+There are 250 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -110,58 +112,54 @@ ID | Type | Indicator | Confidence
 1 | File | `//proc/kcore` | Medium
 2 | File | `/?p=products` | Medium
 3 | File | `/admin/about-us.php` | High
-4 | File | `/admin/controller/JobLogController.java` | High
-5 | File | `/admin/index2.html` | High
-6 | File | `/admin/user/manage_user.php` | High
-7 | File | `/admin/userprofile.php` | High
-8 | File | `/api/baskets/{name}` | High
-9 | File | `/api/stl/actions/search` | High
-10 | File | `/api/sys/login` | High
-11 | File | `/api/sys/set_passwd` | High
-12 | File | `/api/v2/cli/commands` | High
-13 | File | `/bin/ate` | Medium
-14 | File | `/bitrix/admin/ldap_server_edit.php` | High
-15 | File | `/booking/show_bookings/` | High
-16 | File | `/cgi-bin` | Medium
-17 | File | `/cgi-bin/wlogin.cgi` | High
+4 | File | `/admin/action/delete-vaccine.php` | High
+5 | File | `/admin/controller/JobLogController.java` | High
+6 | File | `/admin/index2.html` | High
+7 | File | `/api/baskets/{name}` | High
+8 | File | `/api/stl/actions/search` | High
+9 | File | `/api/sys/login` | High
+10 | File | `/api/sys/set_passwd` | High
+11 | File | `/api/trackedEntityInstances` | High
+12 | File | `/app/index/controller/Common.php` | High
+13 | File | `/aux` | Low
+14 | File | `/bin/ate` | Medium
+15 | File | `/bitrix/admin/ldap_server_edit.php` | High
+16 | File | `/booking/show_bookings/` | High
+17 | File | `/cgi-bin` | Medium
 18 | File | `/changePassword` | High
-19 | File | `/College/admin/teacher.php` | High
-20 | File | `/Content/Template/root/reverse-shell.aspx` | High
-21 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
-22 | File | `/dashboard/add-blog.php` | High
-23 | File | `/dcim/rack-roles/` | High
-24 | File | `/debug/pprof` | Medium
-25 | File | `/DXR.axd` | Medium
-26 | File | `/ecshop/admin/template.php` | High
-27 | File | `/env` | Low
-28 | File | `/film-rating.php` | High
-29 | File | `/forum/away.php` | High
-30 | File | `/goform/aspForm` | High
-31 | File | `/group1/uploa` | High
-32 | File | `/inc/parser/xhtml.php` | High
-33 | File | `/inc/topBarNav.php` | High
-34 | File | `/index.php` | Medium
-35 | File | `/index.php?app=main&func=passport&action=login` | High
-36 | File | `/kelas/data` | Medium
-37 | File | `/librarian/bookdetails.php` | High
-38 | File | `/listplace/user/ticket/create` | High
-39 | File | `/owa/auth/logon.aspx` | High
-40 | File | `/php-sms/admin/?page=user/manage_user` | High
-41 | File | `/resources//../` | High
-42 | File | `/squashfs-root/etc_ro/custom.conf` | High
-43 | File | `/staff/edit_book_details.php` | High
-44 | File | `/student/bookdetails.php` | High
-45 | File | `/SysManage/AddUpdateRole.aspx` | High
-46 | File | `/sysmanage/importconf.php` | High
-47 | File | `/testConnection` | High
-48 | File | `/user/profile` | High
-49 | File | `/user/updatePwd` | High
-50 | File | `/userLogin.asp` | High
-51 | File | `/vm/admin/doctors.php` | High
-52 | File | `/wbms/classes/Master.php?f=delete_client` | High
-53 | ... | ... | ...
+19 | File | `/Content/Template/root/reverse-shell.aspx` | High
+20 | File | `/dashboard/add-blog.php` | High
+21 | File | `/data/remove` | Medium
+22 | File | `/dcim/rack-roles/` | High
+23 | File | `/debug/pprof` | Medium
+24 | File | `/DXR.axd` | Medium
+25 | File | `/ecshop/admin/template.php` | High
+26 | File | `/env` | Low
+27 | File | `/forms/doLogin` | High
+28 | File | `/forum/away.php` | High
+29 | File | `/group1/uploa` | High
+30 | File | `/inc/parser/xhtml.php` | High
+31 | File | `/index.php` | Medium
+32 | File | `/index.php?app=main&func=passport&action=login` | High
+33 | File | `/kelas/data` | Medium
+34 | File | `/listplace/user/ticket/create` | High
+35 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+36 | File | `/novel/bookSetting/list` | High
+37 | File | `/php-sms/admin/?page=user/manage_user` | High
+38 | File | `/resources//../` | High
+39 | File | `/squashfs-root/etc_ro/custom.conf` | High
+40 | File | `/staff/edit_book_details.php` | High
+41 | File | `/SysManage/AddUpdateRole.aspx` | High
+42 | File | `/sysmanage/importconf.php` | High
+43 | File | `/testConnection` | High
+44 | File | `/tmp/ppd.trace` | High
+45 | File | `/user/profile` | High
+46 | File | `/user/updatePwd` | High
+47 | File | `/userLogin.asp` | High
+48 | File | `/vm/admin/doctors.php` | High
+49 | ... | ... | ...
 
-There are 458 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 424 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -171,9 +169,13 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://app.any.run/tasks/8e6d495a-2678-49e7-a93c-b1f74664e551
 * https://app.any.run/tasks/54b224f2-562f-4b1b-a36f-0ea1f69b407c
 * https://app.any.run/tasks/57cc7daa-2711-4e03-9a7a-08275f1e9bc3
+* https://app.any.run/tasks/616d2fa4-9595-4b0b-be84-dd5580df2fc5
+* https://app.any.run/tasks/29501c15-d961-4664-98d8-7e90203124fb
+* https://app.any.run/tasks/320928b0-071d-4205-bef2-394de36a959a
 * https://app.any.run/tasks/b23ce44b-d84a-4e59-ba6b-13611b20ff25
 * https://app.any.run/tasks/c05e6e85-c298-4ac7-9207-b09da6e1ab4e
 * https://app.any.run/tasks/d28f31bb-a6e3-4f72-b343-ab4ff19bbed9
+* https://app.any.run/tasks/e856a354-7a1d-45dc-8edf-380743659fce
 * https://app.any.run/tasks/f3358280-53c7-43a6-9980-bcb59c2aa0ca
 * https://app.any.run/tasks/ff79a6bc-0eff-4012-b9eb-b22ab6de61c2
 * https://bazaar.abuse.ch/sample/612580febe9bad2c60ab8ad8564a38680cf415581c542e5e6109e680dc5e9d15/
@@ -270,4 +272,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 14 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -101,52 +101,53 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/?p=products` | Medium
-2 | File | `/about.php` | Medium
-3 | File | `/admin.php/accessory/filesdel.html` | High
-4 | File | `/admin/?page=user/manage` | High
-5 | File | `/admin/add-new.php` | High
-6 | File | `/admin/controller/JobLogController.java` | High
-7 | File | `/admin/doctors.php` | High
-8 | File | `/admin/login.php` | High
-9 | File | `/admin/submit-articles` | High
-10 | File | `/alphaware/summary.php` | High
-11 | File | `/api/` | Low
-12 | File | `/api/admin/store/product/list` | High
-13 | File | `/api/baskets/{name}` | High
-14 | File | `/api/RecordingList/DownloadRecord?file=` | High
-15 | File | `/api/stl/actions/search` | High
-16 | File | `/api/sys/login` | High
-17 | File | `/api/sys/set_passwd` | High
-18 | File | `/api/v2/cli/commands` | High
-19 | File | `/apply.cgi` | Medium
-20 | File | `/attachments` | Medium
+2 | File | `/admin.php/accessory/filesdel.html` | High
+3 | File | `/admin/?page=user/manage` | High
+4 | File | `/admin/add-new.php` | High
+5 | File | `/admin/controller/JobLogController.java` | High
+6 | File | `/admin/doctors.php` | High
+7 | File | `/admin/login.php` | High
+8 | File | `/admin/submit-articles` | High
+9 | File | `/alphaware/summary.php` | High
+10 | File | `/api/` | Low
+11 | File | `/api/admin/store/product/list` | High
+12 | File | `/api/baskets/{name}` | High
+13 | File | `/api/stl/actions/search` | High
+14 | File | `/api/sys/login` | High
+15 | File | `/api/sys/set_passwd` | High
+16 | File | `/api/trackedEntityInstances` | High
+17 | File | `/api/v2/cli/commands` | High
+18 | File | `/apply.cgi` | Medium
+19 | File | `/attachments` | Medium
+20 | File | `/aux` | Low
 21 | File | `/bin/ate` | Medium
 22 | File | `/boat/login.php` | High
 23 | File | `/booking/show_bookings/` | High
 24 | File | `/bsms_ci/index.php/book` | High
 25 | File | `/cgi-bin` | Medium
-26 | File | `/cgi-bin/luci/api/wireless` | High
-27 | File | `/cgi-bin/wlogin.cgi` | High
-28 | File | `/changePassword` | High
-29 | File | `/Content/Template/root/reverse-shell.aspx` | High
-30 | File | `/context/%2e/WEB-INF/web.xml` | High
-31 | File | `/dashboard/add-blog.php` | High
-32 | File | `/debug/pprof` | Medium
-33 | File | `/ecshop/admin/template.php` | High
-34 | File | `/env` | Low
-35 | File | `/etc/hosts` | Medium
-36 | File | `/forum/away.php` | High
-37 | File | `/goform/setmac` | High
-38 | File | `/goform/wizard_end` | High
-39 | File | `/group1/uploa` | High
-40 | File | `/medicines/profile.php` | High
-41 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-42 | File | `/php-sms/admin/?page=user/manage_user` | High
-43 | File | `/proxy` | Low
-44 | File | `/reservation/add_message.php` | High
-45 | ... | ... | ...
+26 | File | `/cgi-bin/wlogin.cgi` | High
+27 | File | `/changePassword` | High
+28 | File | `/Content/Template/root/reverse-shell.aspx` | High
+29 | File | `/dashboard/add-blog.php` | High
+30 | File | `/data/remove` | Medium
+31 | File | `/debug/pprof` | Medium
+32 | File | `/ecshop/admin/template.php` | High
+33 | File | `/env` | Low
+34 | File | `/etc/hosts` | Medium
+35 | File | `/forum/away.php` | High
+36 | File | `/group1/uploa` | High
+37 | File | `/index.php` | Medium
+38 | File | `/medicines/profile.php` | High
+39 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+40 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+41 | File | `/php-sms/admin/?page=user/manage_user` | High
+42 | File | `/proxy` | Low
+43 | File | `/reservation/add_message.php` | High
+44 | File | `/resources//../` | High
+45 | File | `/scripts/unlock_tasks.php` | High
+46 | ... | ... | ...
 
-There are 389 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 397 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -193,4 +194,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

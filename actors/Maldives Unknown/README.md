@@ -75,36 +75,41 @@ ID | Type | Indicator | Confidence
 15 | File | `/default.php?idx=17` | High
 16 | File | `/filemanager/upload.php` | High
 17 | File | `/forum/away.php` | High
-18 | File | `/index.php` | Medium
-19 | File | `/mifs/c/i/reg/reg.html` | High
-20 | File | `/opt/bin/cli` | Medium
-21 | File | `/out.php` | Medium
-22 | File | `/patient/doctors.php` | High
-23 | File | `/phpinventory/editcategory.php` | High
-24 | File | `/spip.php` | Medium
-25 | File | `/tmp` | Low
-26 | File | `/uncpath/` | Medium
-27 | File | `/updater.php` | Medium
-28 | File | `/var/log/nginx` | High
-29 | File | `/VPortal/mgtconsole/Subscriptions.jsp` | High
-30 | File | `/wp-admin/admin-ajax.php` | High
-31 | File | `admin` | Low
-32 | File | `admin.php` | Medium
-33 | File | `admin.php/pay` | High
-34 | File | `admin/adminsignin.html` | High
-35 | File | `admin/bad.php` | High
-36 | File | `admin/index.php?id=themes&action=edit_chunk` | High
-37 | File | `admin/keyWord_deal.php?mudi=add` | High
-38 | File | `admin/loginform.php` | High
-39 | File | `admin/movieview.php` | High
-40 | File | `admin/products/controller.php?action=add` | High
-41 | File | `admin/versions.html` | High
-42 | File | `AdminByRequest.exe` | High
-43 | File | `administrator/components/com_media/helpers/media.php` | High
-44 | File | `administrator/index.php` | High
-45 | ... | ... | ...
+18 | File | `/healthcare/Admin/consulting_detail.php` | High
+19 | File | `/index.php` | Medium
+20 | File | `/mifs/c/i/reg/reg.html` | High
+21 | File | `/opt/bin/cli` | Medium
+22 | File | `/out.php` | Medium
+23 | File | `/patient/doctors.php` | High
+24 | File | `/phpinventory/editcategory.php` | High
+25 | File | `/spip.php` | Medium
+26 | File | `/tmp` | Low
+27 | File | `/uncpath/` | Medium
+28 | File | `/updater.php` | Medium
+29 | File | `/var/log/nginx` | High
+30 | File | `/VPortal/mgtconsole/Subscriptions.jsp` | High
+31 | File | `/wp-admin/admin-ajax.php` | High
+32 | File | `/zm/index.php` | High
+33 | File | `admin` | Low
+34 | File | `admin.php` | Medium
+35 | File | `admin.php/pay` | High
+36 | File | `admin/adminsignin.html` | High
+37 | File | `admin/bad.php` | High
+38 | File | `admin/index.php?id=themes&action=edit_chunk` | High
+39 | File | `admin/keyWord_deal.php?mudi=add` | High
+40 | File | `admin/loginform.php` | High
+41 | File | `admin/movieview.php` | High
+42 | File | `admin/products/controller.php?action=add` | High
+43 | File | `admin/versions.html` | High
+44 | File | `AdminByRequest.exe` | High
+45 | File | `administrator/components/com_media/helpers/media.php` | High
+46 | File | `administrator/index.php` | High
+47 | File | `administrator/mail/download.cfm` | High
+48 | File | `AdminUpdateController.class.php` | High
+49 | File | `agenda.php` | Medium
+50 | ... | ... | ...
 
-There are 385 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 431 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

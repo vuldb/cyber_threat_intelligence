@@ -51,11 +51,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-29, CWE-35 | Pathname Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-29, CWE-35 | Pathname Traversal | High
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
 
@@ -67,56 +68,53 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/academy/tutor/filter` | High
 2 | File | `/admin/?page=user/manage_user&id=3` | High
-3 | File | `/admin/addproduct.php` | High
-4 | File | `/admin/index2.html` | High
-5 | File | `/admin/sales/view_details.php` | High
-6 | File | `/api/baskets/{name}` | High
-7 | File | `/api/common/ping` | High
-8 | File | `/api/sys/set_passwd` | High
-9 | File | `/aqpg/users/login.php` | High
+3 | File | `/admin/index2.html` | High
+4 | File | `/admin/sales/view_details.php` | High
+5 | File | `/api/baskets/{name}` | High
+6 | File | `/api/common/ping` | High
+7 | File | `/api/sys/set_passwd` | High
+8 | File | `/aqpg/users/login.php` | High
+9 | File | `/b2b-supermarket/shopping-cart` | High
 10 | File | `/bin/login` | Medium
 11 | File | `/bsms_ci/index.php/user/edit_user/` | High
 12 | File | `/calendar/minimizer/index.php` | High
-13 | File | `/cgi-bin/wlogin.cgi` | High
-14 | File | `/changeimage.php` | High
-15 | File | `/classes/Users.php?f=save` | High
+13 | File | `/cgi-bin/cstecgi.cgi` | High
+14 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+15 | File | `/cgi-bin/wlogin.cgi` | High
 16 | File | `/common/info.cgi` | High
 17 | File | `/DesignTools/CssEditor.aspx` | High
 18 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
 19 | File | `/DXR.axd` | Medium
-20 | File | `/forum/away.php` | High
-21 | File | `/gracemedia-media-player/templates/files/ajax_controller.php` | High
-22 | File | `/hrm/controller/employee.php` | High
-23 | File | `/hrm/employeeview.php` | High
-24 | File | `/importexport.php` | High
-25 | File | `/includes/db_connect.php` | High
-26 | File | `/includes/session.php` | High
-27 | File | `/librarian/bookdetails.php` | High
-28 | File | `/mc` | Low
-29 | File | `/modules/projects/vw_files.php` | High
-30 | File | `/modules/public/calendar.php` | High
-31 | File | `/modules/public/date_format.php` | High
-32 | File | `/modules/tasks/gantt.php` | High
-33 | File | `/osms/assets/plugins/jquery-validation-1.11.1/demo/captcha/index.php` | High
-34 | File | `/out.php` | Medium
-35 | File | `/owa/auth/logon.aspx` | High
-36 | File | `/php-fusion/infusions/shoutbox_panel/shoutbox_archive.php` | High
-37 | File | `/project/tasks/list` | High
-38 | File | `/search.php` | Medium
-39 | File | `/send_order.cgi?parameter=restart` | High
-40 | File | `/setting` | Medium
-41 | File | `/spip.php` | Medium
-42 | File | `/src/amf/amf-context.c` | High
-43 | File | `/SysManage/AddUpdateSites.aspx` | High
-44 | File | `/sysmanage/changelogo.php` | High
-45 | File | `/tmp` | Low
-46 | File | `/uncpath/` | Medium
-47 | File | `/useratte/web.php` | High
-48 | File | `/usr/bin/tddp` | High
-49 | File | `/v1/hotlink/proxy` | High
-50 | ... | ... | ...
+20 | File | `/endpoint/add-user.php` | High
+21 | File | `/forum/away.php` | High
+22 | File | `/forums/editforum.php` | High
+23 | File | `/gracemedia-media-player/templates/files/ajax_controller.php` | High
+24 | File | `/home/courses` | High
+25 | File | `/hrm/controller/employee.php` | High
+26 | File | `/hrm/employeeview.php` | High
+27 | File | `/importexport.php` | High
+28 | File | `/includes/db_connect.php` | High
+29 | File | `/includes/session.php` | High
+30 | File | `/librarian/bookdetails.php` | High
+31 | File | `/mc` | Low
+32 | File | `/modals/class_form.php` | High
+33 | File | `/modules/projects/vw_files.php` | High
+34 | File | `/modules/public/calendar.php` | High
+35 | File | `/modules/public/date_format.php` | High
+36 | File | `/modules/tasks/gantt.php` | High
+37 | File | `/osms/assets/plugins/jquery-validation-1.11.1/demo/captcha/index.php` | High
+38 | File | `/out.php` | Medium
+39 | File | `/php-fusion/infusions/shoutbox_panel/shoutbox_archive.php` | High
+40 | File | `/project/tasks/list` | High
+41 | File | `/search.php` | Medium
+42 | File | `/setting` | Medium
+43 | File | `/spip.php` | Medium
+44 | File | `/src/amf/amf-context.c` | High
+45 | File | `/SysManage/AddUpdateSites.aspx` | High
+46 | File | `/sysmanage/changelogo.php` | High
+47 | ... | ... | ...
 
-There are 438 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 407 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -133,4 +131,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

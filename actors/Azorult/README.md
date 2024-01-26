@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Azorult:
 
-* [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
+* [US](https://vuldb.com/?country.us)
 * [LA](https://vuldb.com/?country.la)
 * ...
 
-There are 24 more country items available. Please use our online service to access the data.
+There are 22 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -106,7 +106,7 @@ ID | IP address | Hostname | Campaign | Confidence
 83 | [46.249.38.134](https://vuldb.com/?ip.46.249.38.134) | - | - | High
 84 | ... | ... | ... | ...
 
-There are 331 more IOC items available. Please use our online service to access the data.
+There are 332 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -115,14 +115,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-36, CWE-37 | Pathname Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 7 | ... | ... | ... | ...
 
-There are 23 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -156,44 +156,42 @@ ID | Type | Indicator | Confidence
 24 | File | `/admin/reg.php` | High
 25 | File | `/admin/search-appointment.php` | High
 26 | File | `/admin/sys_sql_query.php` | High
-27 | File | `/adms/admin/?page=vehicles/view_transaction` | High
-28 | File | `/alphaware/summary.php` | High
-29 | File | `/api/` | Low
-30 | File | `/api/admin/store/product/list` | High
-31 | File | `/api/baskets/{name}` | High
-32 | File | `/api/stl/actions/search` | High
-33 | File | `/api/sys/login` | High
-34 | File | `/api/sys/set_passwd` | High
+27 | File | `/alphaware/summary.php` | High
+28 | File | `/api/` | Low
+29 | File | `/api/admin/store/product/list` | High
+30 | File | `/api/baskets/{name}` | High
+31 | File | `/api/stl/actions/search` | High
+32 | File | `/api/sys/login` | High
+33 | File | `/api/sys/set_passwd` | High
+34 | File | `/api/trackedEntityInstances` | High
 35 | File | `/api/v2/cli/commands` | High
-36 | File | `/appliance/users?action=edit` | High
-37 | File | `/backup.pl` | Medium
+36 | File | `/api/v4/teams//channels/deleted` | High
+37 | File | `/appliance/users?action=edit` | High
 38 | File | `/bin/ate` | Medium
 39 | File | `/blog` | Low
 40 | File | `/boat/login.php` | High
 41 | File | `/booking/show_bookings/` | High
 42 | File | `/cgi-bin` | Medium
-43 | File | `/cgi-bin/wlogin.cgi` | High
-44 | File | `/changePassword` | High
-45 | File | `/collection/all` | High
-46 | File | `/Content/Template/root/reverse-shell.aspx` | High
-47 | File | `/dashboard/add-blog.php` | High
-48 | File | `/debug/pprof` | Medium
-49 | File | `/dipam/athlete-profile.php` | High
-50 | File | `/DXR.axd` | Medium
-51 | File | `/E-mobile/App/System/File/downfile.php` | High
-52 | File | `/ecshop/admin/template.php` | High
-53 | File | `/edoc/doctor/patient.php` | High
-54 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-55 | File | `/env` | Low
-56 | File | `/forum/away.php` | High
-57 | File | `/fusion/portal/action/Link` | High
-58 | File | `/group1/uploa` | High
-59 | File | `/h/autoSaveDraft` | High
-60 | File | `/HNAP1/` | Low
-61 | File | `/importexport.php` | High
-62 | ... | ... | ...
+43 | File | `/cgi-bin/cstecgi.cgi` | High
+44 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+45 | File | `/cgi-bin/wlogin.cgi` | High
+46 | File | `/changePassword` | High
+47 | File | `/collection/all` | High
+48 | File | `/Content/Template/root/reverse-shell.aspx` | High
+49 | File | `/dashboard/add-blog.php` | High
+50 | File | `/data/remove` | Medium
+51 | File | `/debug/pprof` | Medium
+52 | File | `/dipam/athlete-profile.php` | High
+53 | File | `/DXR.axd` | Medium
+54 | File | `/E-mobile/App/System/File/downfile.php` | High
+55 | File | `/ecshop/admin/template.php` | High
+56 | File | `/edoc/doctor/patient.php` | High
+57 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+58 | File | `/env` | Low
+59 | File | `/forum/away.php` | High
+60 | ... | ... | ...
 
-There are 546 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 528 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -222,4 +220,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

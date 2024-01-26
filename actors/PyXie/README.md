@@ -51,51 +51,52 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
 2 | File | `/act/ActDao.xml` | High
-3 | File | `/ajax.php?action=read_msg` | High
-4 | File | `/ajax/networking/get_netcfg.php` | High
-5 | File | `/api/gen/clients/{language}` | High
-6 | File | `/app/options.py` | High
-7 | File | `/bin/httpd` | Medium
-8 | File | `/cgi-bin/wapopen` | High
-9 | File | `/ci_spms/admin/category` | High
-10 | File | `/ci_spms/admin/search/searching/` | High
-11 | File | `/classes/Master.php?f=delete_appointment` | High
-12 | File | `/classes/Master.php?f=delete_train` | High
-13 | File | `/collection/all` | High
-14 | File | `/concat?/%2557EB-INF/web.xml` | High
-15 | File | `/config/php.ini` | High
-16 | File | `/Content/Template/root/reverse-shell.aspx` | High
-17 | File | `/ctcprotocol/Protocol` | High
-18 | File | `/dashboard/menu-list.php` | High
-19 | File | `/data/remove` | Medium
-20 | File | `/ebics-server/ebics.aspx` | High
-21 | File | `/ffos/classes/Master.php?f=save_category` | High
-22 | File | `/forum/away.php` | High
-23 | File | `/goform/net\_Web\_get_value` | High
-24 | File | `/goforms/rlminfo` | High
-25 | File | `/GponForm/usb_restore_Form?script/` | High
-26 | File | `/group1/uploa` | High
-27 | File | `/HNAP1` | Low
-28 | File | `/HNAP1/SetClientInfo` | High
-29 | File | `/Items/*/RemoteImages/Download` | High
-30 | File | `/login/index.php` | High
-31 | File | `/menu.html` | Medium
-32 | File | `/modules/profile/index.php` | High
-33 | File | `/navigate/navigate_download.php` | High
-34 | File | `/ocwbs/admin/?page=user/manage_user` | High
-35 | File | `/ofrs/admin/?page=user/manage_user` | High
-36 | File | `/out.php` | Medium
-37 | File | `/password.html` | High
-38 | File | `/php_action/fetchSelectedUser.php` | High
-39 | File | `/plugin` | Low
-40 | File | `/property-list/property_view.php` | High
-41 | File | `/ptms/classes/Users.php` | High
-42 | File | `/resources//../` | High
-43 | File | `/rest/api/2/search` | High
-44 | File | `/s/` | Low
-45 | ... | ... | ...
+3 | File | `/addbill.php` | Medium
+4 | File | `/admin/clientview.php` | High
+5 | File | `/ajax.php?action=read_msg` | High
+6 | File | `/ajax/networking/get_netcfg.php` | High
+7 | File | `/api/gen/clients/{language}` | High
+8 | File | `/app/options.py` | High
+9 | File | `/bin/httpd` | Medium
+10 | File | `/cgi-bin/wapopen` | High
+11 | File | `/ci_spms/admin/category` | High
+12 | File | `/ci_spms/admin/search/searching/` | High
+13 | File | `/classes/Master.php?f=delete_appointment` | High
+14 | File | `/classes/Master.php?f=delete_train` | High
+15 | File | `/collection/all` | High
+16 | File | `/concat?/%2557EB-INF/web.xml` | High
+17 | File | `/config/php.ini` | High
+18 | File | `/Content/Template/root/reverse-shell.aspx` | High
+19 | File | `/ctcprotocol/Protocol` | High
+20 | File | `/dashboard/menu-list.php` | High
+21 | File | `/data/remove` | Medium
+22 | File | `/ebics-server/ebics.aspx` | High
+23 | File | `/ffos/classes/Master.php?f=save_category` | High
+24 | File | `/file-manager/rename.php` | High
+25 | File | `/forum/away.php` | High
+26 | File | `/goform/net\_Web\_get_value` | High
+27 | File | `/goforms/rlminfo` | High
+28 | File | `/GponForm/usb_restore_Form?script/` | High
+29 | File | `/group1/uploa` | High
+30 | File | `/hedwig.cgi` | Medium
+31 | File | `/HNAP1` | Low
+32 | File | `/HNAP1/SetClientInfo` | High
+33 | File | `/Items/*/RemoteImages/Download` | High
+34 | File | `/login` | Low
+35 | File | `/login/index.php` | High
+36 | File | `/menu.html` | Medium
+37 | File | `/modules/profile/index.php` | High
+38 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+39 | File | `/navigate/navigate_download.php` | High
+40 | File | `/ocwbs/admin/?page=user/manage_user` | High
+41 | File | `/ofrs/admin/?page=user/manage_user` | High
+42 | File | `/out.php` | Medium
+43 | File | `/password.html` | High
+44 | File | `/php_action/fetchSelectedUser.php` | High
+45 | File | `/plugin` | Low
+46 | ... | ... | ...
 
-There are 394 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 400 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -113,4 +114,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

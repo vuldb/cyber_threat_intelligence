@@ -18,14 +18,16 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [27.101.221.227](https://vuldb.com/?ip.27.101.221.227) | - | - | High
-2 | [27.101.222.186](https://vuldb.com/?ip.27.101.222.186) | - | - | High
-3 | [101.78.26.130](https://vuldb.com/?ip.101.78.26.130) | - | - | High
-4 | [110.15.243.148](https://vuldb.com/?ip.110.15.243.148) | - | - | High
-5 | [117.52.115.212](https://vuldb.com/?ip.117.52.115.212) | - | - | High
-6 | [124.243.53.149](https://vuldb.com/?ip.124.243.53.149) | - | - | High
-7 | ... | ... | ... | ...
+2 | [27.101.222.24](https://vuldb.com/?ip.27.101.222.24) | - | - | High
+3 | [27.101.222.186](https://vuldb.com/?ip.27.101.222.186) | - | - | High
+4 | [101.78.26.130](https://vuldb.com/?ip.101.78.26.130) | - | - | High
+5 | [110.15.243.148](https://vuldb.com/?ip.110.15.243.148) | - | - | High
+6 | [117.52.115.212](https://vuldb.com/?ip.117.52.115.212) | - | - | High
+7 | [124.243.43.9](https://vuldb.com/?ip.124.243.43.9) | - | - | High
+8 | [124.243.53.149](https://vuldb.com/?ip.124.243.53.149) | - | - | High
+9 | ... | ... | ... | ...
 
-There are 25 more IOC items available. Please use our online service to access the data.
+There are 33 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -68,4 +70,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

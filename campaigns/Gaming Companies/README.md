@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [MS](https://vuldb.com/?country.ms)
 * [HK](https://vuldb.com/?country.hk)
-* [US](https://vuldb.com/?country.us)
+* [KR](https://vuldb.com/?country.kr)
 * ...
 
 There are 3 more country items available. Please use our online service to access the data.
@@ -87,12 +87,12 @@ ID | Type | Indicator | Confidence
 14 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
 15 | File | `/pages/systemcall.php?command={COMMAND}` | High
 16 | File | `/server-info` | Medium
-17 | File | `/uncpath/` | Medium
-18 | File | `/updown/upload.cgi` | High
-19 | File | `/vmi/manager/engine/management/commands/apns_worker.py` | High
+17 | File | `/system/dept/edit` | High
+18 | File | `/uncpath/` | Medium
+19 | File | `/updown/upload.cgi` | High
 20 | ... | ... | ...
 
-There are 161 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 163 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -109,4 +109,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

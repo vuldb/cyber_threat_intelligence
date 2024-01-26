@@ -58,42 +58,44 @@ ID | Type | Indicator | Confidence
 2 | File | `/accounts/password_change/` | High
 3 | File | `/act/ActDao.xml` | High
 4 | File | `/admin/ajax.php?action=confirm_order` | High
-5 | File | `/api/addusers` | High
-6 | File | `/api/admin/store/product/list` | High
-7 | File | `/api/baskets/{name}` | High
-8 | File | `/api/v1/terminal/sessions/?limit=1` | High
-9 | File | `/assets/something/services/AppModule.class` | High
-10 | File | `/authenticationendpoint/login.do` | High
-11 | File | `/b2b-supermarket/shopping-cart` | High
-12 | File | `/blog/comment` | High
-13 | File | `/bsms_ci/index.php` | High
-14 | File | `/catalog/compare` | High
-15 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-16 | File | `/cgi-bin/downloadFile.cgi` | High
-17 | File | `/cgi-bin/kerbynet` | High
-18 | File | `/cgi-bin/qcmap_auth` | High
-19 | File | `/cgi-bin/wlogin.cgi` | High
-20 | File | `/clinic/disease_symptoms_view.php` | High
-21 | File | `/debug/pprof` | Medium
-22 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
-23 | File | `/DXR.axd` | Medium
-24 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-25 | File | `/forum/away.php` | High
-26 | File | `/geoserver/gwc/rest.html` | High
-27 | File | `/importexport.php` | High
-28 | File | `/index.php/client/message/message_read/xxxxxxxx[random-msg-hash]` | High
-29 | File | `/login` | Low
-30 | File | `/mhds/clinic/view_details.php` | High
-31 | File | `/modals/class_form.php` | High
-32 | File | `/oauth/idp/.well-known/openid-configuration` | High
-33 | File | `/php-opos/index.php` | High
-34 | File | `/php/exportrecord.php` | High
-35 | File | `/php/ping.php` | High
-36 | File | `/plain` | Low
-37 | File | `/proc/#####/fd/3` | High
-38 | ... | ... | ...
+5 | File | `/admin/clientview.php` | High
+6 | File | `/admin/regester.php` | High
+7 | File | `/admin/update-clients.php` | High
+8 | File | `/api/addusers` | High
+9 | File | `/api/admin/store/product/list` | High
+10 | File | `/api/baskets/{name}` | High
+11 | File | `/api/cron/settings/setJob/` | High
+12 | File | `/api/v1/terminal/sessions/?limit=1` | High
+13 | File | `/assets/something/services/AppModule.class` | High
+14 | File | `/authenticationendpoint/login.do` | High
+15 | File | `/b2b-supermarket/shopping-cart` | High
+16 | File | `/blog/comment` | High
+17 | File | `/bsms_ci/index.php` | High
+18 | File | `/catalog/compare` | High
+19 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+20 | File | `/cgi-bin/downloadFile.cgi` | High
+21 | File | `/cgi-bin/kerbynet` | High
+22 | File | `/cgi-bin/qcmap_auth` | High
+23 | File | `/cgi-bin/wlogin.cgi` | High
+24 | File | `/clinic/disease_symptoms_view.php` | High
+25 | File | `/config/getuser` | High
+26 | File | `/debug/pprof` | Medium
+27 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
+28 | File | `/DXR.axd` | Medium
+29 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+30 | File | `/forum/away.php` | High
+31 | File | `/geoserver/gwc/rest.html` | High
+32 | File | `/importexport.php` | High
+33 | File | `/index.php/client/message/message_read/xxxxxxxx[random-msg-hash]` | High
+34 | File | `/login` | Low
+35 | File | `/mehah/otclient` | High
+36 | File | `/mhds/clinic/view_details.php` | High
+37 | File | `/modals/class_form.php` | High
+38 | File | `/oauth/idp/.well-known/openid-configuration` | High
+39 | File | `/php/exportrecord.php` | High
+40 | ... | ... | ...
 
-There are 329 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 342 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -134,4 +136,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

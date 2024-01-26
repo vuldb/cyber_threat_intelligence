@@ -93,14 +93,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Pathname Traversal | High
-2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+1 | T1006 | CWE-21, CWE-22, CWE-29, CWE-425 | Pathname Traversal | High
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-94 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -108,41 +108,50 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/?ajax-request=jnews` | High
-2 | File | `/admin/admin-profile.php` | High
-3 | File | `/admin/ajax.php?action=confirm_order` | High
-4 | File | `/admin/index2.html` | High
-5 | File | `/admin/sales/view_details.php` | High
-6 | File | `/api/addusers` | High
-7 | File | `/api/baskets/{name}` | High
-8 | File | `/api/v1/snapshots` | High
-9 | File | `/api/v1/terminal/sessions/?limit=1` | High
-10 | File | `/aqpg/users/login.php` | High
-11 | File | `/assets/something/services/AppModule.class` | High
-12 | File | `/audit/log/log_management.php` | High
-13 | File | `/authenticationendpoint/login.do` | High
-14 | File | `/bin/login` | Medium
-15 | File | `/blog/comment` | High
-16 | File | `/calendar/minimizer/index.php` | High
-17 | File | `/catalog/compare` | High
-18 | File | `/cgi-bin/downloadFile.cgi` | High
-19 | File | `/cgi-bin/mainfunction.cgi` | High
-20 | File | `/cgi-bin/wlogin.cgi` | High
-21 | File | `/classes/Users.php` | High
-22 | File | `/debug/pprof` | Medium
-23 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
-24 | File | `/DXR.axd` | Medium
-25 | File | `/env` | Low
-26 | File | `/forms/doLogin` | High
-27 | File | `/forum/away.php` | High
-28 | File | `/geoserver/gwc/rest.html` | High
-29 | File | `/importexport.php` | High
-30 | File | `/librarian/bookdetails.php` | High
-31 | File | `/login` | Low
-32 | File | `/php-opos/index.php` | High
-33 | ... | ... | ...
+1 | File | `/.env` | Low
+2 | File | `/accounts/password_change/` | High
+3 | File | `/act/ActDao.xml` | High
+4 | File | `/admin/action/new-father.php` | High
+5 | File | `/admin/clientview.php` | High
+6 | File | `/admin/regester.php` | High
+7 | File | `/admin/update-clients.php` | High
+8 | File | `/admin_route/dec_service_credits.php` | High
+9 | File | `/admin_route/inc_service_credits.php` | High
+10 | File | `/api/baskets/{name}` | High
+11 | File | `/api/cron/settings/setJob/` | High
+12 | File | `/api/sys/set_passwd` | High
+13 | File | `/api/v1/terminal/sessions/?limit=1` | High
+14 | File | `/app/api/controller/default/Sqlite.php` | High
+15 | File | `/apply.cgi` | Medium
+16 | File | `/authenticationendpoint/login.do` | High
+17 | File | `/b2b-supermarket/shopping-cart` | High
+18 | File | `/bin/boa` | Medium
+19 | File | `/boaform/device_reset.cgi` | High
+20 | File | `/bsms_ci/index.php` | High
+21 | File | `/bsms_ci/index.php/user/edit_user/` | High
+22 | File | `/cgi-bin/cstecgi.cgi` | High
+23 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+24 | File | `/cgi-bin/kerbynet` | High
+25 | File | `/cgi-bin/R14.2/cgi-bin/R14.2/host.pl` | High
+26 | File | `/cgi-bin/R14.2/easy1350.pl` | High
+27 | File | `/cgi-bin/wlogin.cgi` | High
+28 | File | `/clinic/disease_symptoms_view.php` | High
+29 | File | `/config/getuser` | High
+30 | File | `/dashboard/snapshot/*?orgId=0` | High
+31 | File | `/debug/pprof` | Medium
+32 | File | `/DesignTools/CssEditor.aspx` | High
+33 | File | `/DXR.axd` | Medium
+34 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+35 | File | `/endpoint/add-user.php` | High
+36 | File | `/forum/away.php` | High
+37 | File | `/forums/editforum.php` | High
+38 | File | `/geoserver/gwc/rest.html` | High
+39 | File | `/home/courses` | High
+40 | File | `/index.php/client/message/message_read/xxxxxxxx[random-msg-hash]` | High
+41 | File | `/login` | Low
+42 | ... | ... | ...
 
-There are 284 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 365 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -180,4 +189,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

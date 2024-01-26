@@ -39,7 +39,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 12 more TTP items available. Please use our online service to access the data.
+There are 13 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -55,37 +55,42 @@ ID | Type | Indicator | Confidence
 6 | File | `/cgi-bin/wlogin.cgi` | High
 7 | File | `/E-mobile/App/System/File/downfile.php` | High
 8 | File | `/Electron/download` | High
-9 | File | `/mims/login.php` | High
-10 | File | `/php-scrm/login.php` | High
-11 | File | `/proxy` | Low
-12 | File | `/reviewer/system/system/admins/manage/users/user-update.php` | High
-13 | File | `/scripts/unlock_tasks.php` | High
-14 | File | `/send_order.cgi?parameter=access_detect` | High
-15 | File | `/text/pdf/PdfReader.java` | High
-16 | File | `/textpattern/index.php` | High
-17 | File | `/tmp` | Low
-18 | File | `/wp-admin/admin-ajax.php` | High
-19 | File | `account-signup.php` | High
-20 | File | `account/signup.php` | High
-21 | File | `addentry.php` | Medium
-22 | File | `addressbook/backends/ldap/e-book-backend-ldap.c` | High
-23 | File | `admin.jcomments.php` | High
-24 | File | `admin.php` | Medium
-25 | File | `admin/admin_editor.php` | High
-26 | File | `admin/conf_users_edit.php` | High
-27 | File | `admin/data.php` | High
-28 | File | `admin/edit_category.php` | High
-29 | File | `admin/operations/currency.php` | High
-30 | File | `agenda.php` | Medium
-31 | File | `album_portal.php` | High
-32 | File | `awstats.pl` | Medium
-33 | File | `blocks/block-Old_Articles.php` | High
-34 | File | `blogger-importer.php` | High
-35 | File | `bp_ncom.php` | Medium
-36 | File | `buy.php` | Low
-37 | ... | ... | ...
+9 | File | `/healthcare/Admin/consulting_detail.php` | High
+10 | File | `/mims/login.php` | High
+11 | File | `/php-scrm/login.php` | High
+12 | File | `/proxy` | Low
+13 | File | `/reviewer/system/system/admins/manage/users/user-update.php` | High
+14 | File | `/scripts/unlock_tasks.php` | High
+15 | File | `/send_order.cgi?parameter=access_detect` | High
+16 | File | `/text/pdf/PdfReader.java` | High
+17 | File | `/textpattern/index.php` | High
+18 | File | `/tmp` | Low
+19 | File | `/wp-admin/admin-ajax.php` | High
+20 | File | `/zm/index.php` | High
+21 | File | `account-signup.php` | High
+22 | File | `account/signup.php` | High
+23 | File | `addentry.php` | Medium
+24 | File | `addressbook/backends/ldap/e-book-backend-ldap.c` | High
+25 | File | `admin.jcomments.php` | High
+26 | File | `admin.php` | Medium
+27 | File | `admin/admin_editor.php` | High
+28 | File | `admin/conf_users_edit.php` | High
+29 | File | `admin/data.php` | High
+30 | File | `admin/edit_category.php` | High
+31 | File | `admin/operations/currency.php` | High
+32 | File | `agenda.php` | Medium
+33 | File | `album_portal.php` | High
+34 | File | `army.php` | Medium
+35 | File | `awstats.pl` | Medium
+36 | File | `bb-login.php` | Medium
+37 | File | `bb_admin.php` | Medium
+38 | File | `bb_functions.php` | High
+39 | File | `bb_func_search.php` | High
+40 | File | `bb_func_unsub.php` | High
+41 | File | `blocks/block-Old_Articles.php` | High
+42 | ... | ... | ...
 
-There are 320 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 367 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -104,4 +109,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

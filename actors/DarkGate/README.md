@@ -25,19 +25,19 @@ ID | IP address | Hostname | Campaign | Confidence
 2 | [5.2.68.77](https://vuldb.com/?ip.5.2.68.77) | - | - | High
 3 | [5.2.68.89](https://vuldb.com/?ip.5.2.68.89) | - | - | High
 4 | [5.34.178.21](https://vuldb.com/?ip.5.34.178.21) | udfurgqxmjzcc.pserver.ru | - | High
-5 | [5.188.87.58](https://vuldb.com/?ip.5.188.87.58) | - | - | High
-6 | [45.89.65.198](https://vuldb.com/?ip.45.89.65.198) | 2.server.com | - | High
-7 | [45.141.87.89](https://vuldb.com/?ip.45.141.87.89) | - | - | High
-8 | [54.39.198.245](https://vuldb.com/?ip.54.39.198.245) | ip245.ip-54-39-198.net | - | High
-9 | [64.190.113.154](https://vuldb.com/?ip.64.190.113.154) | - | - | High
-10 | [65.20.75.41](https://vuldb.com/?ip.65.20.75.41) | 65.20.75.41.vultrusercontent.com | - | High
-11 | [66.42.63.27](https://vuldb.com/?ip.66.42.63.27) | 66.42.63.27.dedic.cheap | - | High
-12 | [79.110.62.96](https://vuldb.com/?ip.79.110.62.96) | - | - | High
-13 | [80.66.88.14](https://vuldb.com/?ip.80.66.88.14) | - | - | High
-14 | [80.66.88.145](https://vuldb.com/?ip.80.66.88.145) | - | - | High
+5 | [5.181.159.64](https://vuldb.com/?ip.5.181.159.64) | no-rdns.mivocloud.com | - | High
+6 | [5.188.87.58](https://vuldb.com/?ip.5.188.87.58) | - | - | High
+7 | [45.89.65.198](https://vuldb.com/?ip.45.89.65.198) | 2.server.com | - | High
+8 | [45.141.87.89](https://vuldb.com/?ip.45.141.87.89) | - | - | High
+9 | [54.39.198.245](https://vuldb.com/?ip.54.39.198.245) | ip245.ip-54-39-198.net | - | High
+10 | [64.190.113.154](https://vuldb.com/?ip.64.190.113.154) | - | - | High
+11 | [65.20.75.41](https://vuldb.com/?ip.65.20.75.41) | 65.20.75.41.vultrusercontent.com | - | High
+12 | [66.42.63.27](https://vuldb.com/?ip.66.42.63.27) | 66.42.63.27.dedic.cheap | - | High
+13 | [79.110.62.96](https://vuldb.com/?ip.79.110.62.96) | - | - | High
+14 | [80.66.88.14](https://vuldb.com/?ip.80.66.88.14) | - | - | High
 15 | ... | ... | ... | ...
 
-There are 56 more IOC items available. Please use our online service to access the data.
+There are 57 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -45,7 +45,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-425 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
@@ -61,61 +61,71 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `%SYSTEMDRIVE%\node_modules\.bin\wmic.exe` | High
-2 | File | `/?r=recruit/resume/edit&op=status` | High
-3 | File | `/admin/?page=user/list` | High
-4 | File | `/admin/?page=user/manage_user&id=3` | High
-5 | File | `/admin/about-us.php` | High
-6 | File | `/admin/add-services.php` | High
-7 | File | `/admin/admin-profile.php` | High
-8 | File | `/admin/courses/view_course.php` | High
-9 | File | `/admin/del_category.php` | High
-10 | File | `/admin/del_feedback.php` | High
-11 | File | `/admin/del_service.php` | High
-12 | File | `/admin/edit_category.php` | High
-13 | File | `/admin/edit_product.php` | High
-14 | File | `/admin/forgot-password.php` | High
-15 | File | `/admin/index/index.html#/admin/mall.goods/index.html` | High
-16 | File | `/admin/list_addr_fwresource_ip.php` | High
-17 | File | `/admin/save.php` | High
-18 | File | `/admin/search-appointment.php` | High
-19 | File | `/admin/sys_sql_query.php` | High
-20 | File | `/admin/vote_edit.php` | High
-21 | File | `/ample/app/ajax/member_data.php` | High
-22 | File | `/api/baskets/{name}` | High
-23 | File | `/api/download` | High
-24 | File | `/api/v1/alerts` | High
-25 | File | `/api/v1/terminal/sessions/?limit=1` | High
-26 | File | `/app/sys1.php` | High
-27 | File | `/auth/auth.php?user=1` | High
-28 | File | `/b2b-supermarket/shopping-cart` | High
-29 | File | `/blog` | Low
-30 | File | `/category.php` | High
-31 | File | `/categorypage.php` | High
-32 | File | `/cgi-bin/cstecgi.cgi` | High
-33 | File | `/cgi-bin/vitogate.cgi` | High
-34 | File | `/classes/Master.php?f=delete_category` | High
-35 | File | `/collection/all` | High
-36 | File | `/company/store` | High
-37 | File | `/config-manager/save` | High
-38 | File | `/Controller/Ajaxfileupload.ashx` | High
-39 | File | `/debug/pprof` | Medium
-40 | File | `/dist/index.js` | High
-41 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-42 | File | `/EventBookingCalendar/load.php?controller=GzFront/action=checkout/cid=1/layout=calendar/show_header=T/local=3` | High
-43 | File | `/fcgi/scrut_fcgi.fcgi` | High
-44 | File | `/forum/away.php` | High
-45 | File | `/fusion/portal/action/Link` | High
-46 | File | `/geoserver/gwc/rest.html` | High
-47 | File | `/goform/formSysCmd` | High
-48 | File | `/HNAP1` | Low
-49 | File | `/home/courses` | High
-50 | File | `/home/get_tasks_list` | High
-51 | File | `/hosts/firewall/ip` | High
-52 | File | `/importexport.php` | High
-53 | File | `/index.php` | Medium
-54 | ... | ... | ...
+2 | File | `/#ProductSerie/view/` | High
+3 | File | `/?r=recruit/resume/edit&op=status` | High
+4 | File | `/admin/?page=user/list` | High
+5 | File | `/admin/?page=user/manage_user&id=3` | High
+6 | File | `/admin/about-us.php` | High
+7 | File | `/admin/action/add_con.php` | High
+8 | File | `/admin/action/delete-vaccine.php` | High
+9 | File | `/admin/action/edit_chicken.php` | High
+10 | File | `/admin/action/new-father.php` | High
+11 | File | `/admin/action/new-feed.php` | High
+12 | File | `/admin/action/update-deworm.php` | High
+13 | File | `/admin/add-services.php` | High
+14 | File | `/admin/admin-profile.php` | High
+15 | File | `/admin/clientview.php` | High
+16 | File | `/admin/courses/view_course.php` | High
+17 | File | `/admin/del_category.php` | High
+18 | File | `/admin/del_feedback.php` | High
+19 | File | `/admin/del_service.php` | High
+20 | File | `/admin/edit_category.php` | High
+21 | File | `/admin/edit_product.php` | High
+22 | File | `/admin/forgot-password.php` | High
+23 | File | `/admin/index/index.html#/admin/mall.goods/index.html` | High
+24 | File | `/admin/list_addr_fwresource_ip.php` | High
+25 | File | `/admin/pages/edit_chicken.php` | High
+26 | File | `/admin/pages/student-print.php` | High
+27 | File | `/admin/regester.php` | High
+28 | File | `/admin/request-received-bydonar.php` | High
+29 | File | `/admin/save.php` | High
+30 | File | `/admin/search-appointment.php` | High
+31 | File | `/admin/sys_sql_query.php` | High
+32 | File | `/admin/update-clients.php` | High
+33 | File | `/admin/vote_edit.php` | High
+34 | File | `/admin_route/inc_service_credits.php` | High
+35 | File | `/ample/app/ajax/member_data.php` | High
+36 | File | `/api.php` | Medium
+37 | File | `/api/download` | High
+38 | File | `/api/v1/alerts` | High
+39 | File | `/api/v1/terminal/sessions/?limit=1` | High
+40 | File | `/app/api/controller/default/Sqlite.php` | High
+41 | File | `/app/Http/Controllers/ImageController.php` | High
+42 | File | `/app/index/controller/Common.php` | High
+43 | File | `/auth/auth.php?user=1` | High
+44 | File | `/b2b-supermarket/shopping-cart` | High
+45 | File | `/bin/boa` | Medium
+46 | File | `/blog` | Low
+47 | File | `/category.php` | High
+48 | File | `/categorypage.php` | High
+49 | File | `/cgi-bin/cstecgi.cgi` | High
+50 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+51 | File | `/cgi-bin/vitogate.cgi` | High
+52 | File | `/change-language/de_DE` | High
+53 | File | `/classes/Master.php?f=delete_category` | High
+54 | File | `/classes/Users.php?f=save` | High
+55 | File | `/company/store` | High
+56 | File | `/config-manager/save` | High
+57 | File | `/Controller/Ajaxfileupload.ashx` | High
+58 | File | `/debug/pprof` | Medium
+59 | File | `/dist/index.js` | High
+60 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+61 | File | `/EventBookingCalendar/load.php?controller=GzFront/action=checkout/cid=1/layout=calendar/show_header=T/local=3` | High
+62 | File | `/fcgi/scrut_fcgi.fcgi` | High
+63 | File | `/forum/away.php` | High
+64 | ... | ... | ...
 
-There are 467 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 562 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -58,7 +58,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -67,45 +67,46 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.ssh/authorized_keys` | High
-2 | File | `/admin/ballot_down.php` | High
-3 | File | `/admin/config_save.php` | High
-4 | File | `/admin/edit_visitor.php` | High
-5 | File | `/admin/info.php` | High
-6 | File | `/admin/plugin.php` | High
-7 | File | `/admin/template.php` | High
-8 | File | `/alphaware/summary.php` | High
-9 | File | `/api/sys/login` | High
-10 | File | `/apply.cgi` | Medium
-11 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-12 | File | `/classes/Users.php` | High
-13 | File | `/dipam/save-delegates.php` | High
-14 | File | `/ecommerce/support_ticket` | High
-15 | File | `/etc/controller-agent/agent.conf` | High
-16 | File | `/forms/web_importTFTP` | High
-17 | File | `/goform/SysToolReboot` | High
-18 | File | `/goform/SysToolRestoreSet` | High
-19 | File | `/graphql` | Medium
-20 | File | `/individual` | Medium
-21 | File | `/jeecg-boot/jmreport/upload` | High
-22 | File | `/jeecg-boot/jmreport/view` | High
-23 | File | `/jsoa/hntdCustomDesktopActionContent` | High
-24 | File | `/localhost/u` | Medium
-25 | File | `/net` | Low
-26 | File | `/opt/bin/cli` | Medium
-27 | File | `/PluXml/core/admin/parametres_edittpl.php` | High
-28 | File | `/public/plugins/` | High
-29 | File | `/public_html/admin/plugins/bad_behavior2/blacklist.php` | High
-30 | File | `/root/run/adm.php?admin-ediy&part=exdiy` | High
-31 | File | `/setNTP.cgi` | Medium
-32 | File | `/setting/setWanIeCfg` | High
-33 | File | `/templates/header.inc.php` | High
-34 | File | `/tmp` | Low
-35 | File | `/v2/devices/add` | High
-36 | File | `/var/ipfire/backup/bin/backup.pl` | High
-37 | File | `/wp-json/wc/v3/webhooks` | High
-38 | ... | ... | ...
+2 | File | `/admin/action/add_con.php` | High
+3 | File | `/admin/action/new-feed.php` | High
+4 | File | `/admin/app` | Medium
+5 | File | `/admin/ballot_down.php` | High
+6 | File | `/admin/config_save.php` | High
+7 | File | `/admin/edit_visitor.php` | High
+8 | File | `/admin/info.php` | High
+9 | File | `/admin/plugin.php` | High
+10 | File | `/admin/template.php` | High
+11 | File | `/alphaware/summary.php` | High
+12 | File | `/api/sys/login` | High
+13 | File | `/apply.cgi` | Medium
+14 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
+15 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+16 | File | `/classes/Users.php` | High
+17 | File | `/dipam/save-delegates.php` | High
+18 | File | `/ecommerce/support_ticket` | High
+19 | File | `/etc/controller-agent/agent.conf` | High
+20 | File | `/forms/web_importTFTP` | High
+21 | File | `/goform/SysToolReboot` | High
+22 | File | `/goform/SysToolRestoreSet` | High
+23 | File | `/graphql` | Medium
+24 | File | `/individual` | Medium
+25 | File | `/jeecg-boot/jmreport/upload` | High
+26 | File | `/jeecg-boot/jmreport/view` | High
+27 | File | `/jsoa/hntdCustomDesktopActionContent` | High
+28 | File | `/localhost/u` | Medium
+29 | File | `/net` | Low
+30 | File | `/opt/bin/cli` | Medium
+31 | File | `/PluXml/core/admin/parametres_edittpl.php` | High
+32 | File | `/public/plugins/` | High
+33 | File | `/public_html/admin/plugins/bad_behavior2/blacklist.php` | High
+34 | File | `/root/run/adm.php?admin-ediy&part=exdiy` | High
+35 | File | `/setNTP.cgi` | Medium
+36 | File | `/setting/setWanIeCfg` | High
+37 | File | `/setup/diags_ir_learn.asp` | High
+38 | File | `/sys/replicate/check` | High
+39 | ... | ... | ...
 
-There are 328 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 331 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -125,4 +126,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

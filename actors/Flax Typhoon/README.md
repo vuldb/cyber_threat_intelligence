@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 1 more country items available. Please use our online service to access the data.
+There are 2 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -43,7 +43,7 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-29, CWE-425 | Pathname Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -65,11 +65,11 @@ ID | Type | Indicator | Confidence
 8 | File | `/admin/index.php` | High
 9 | File | `/admin/index2.html` | High
 10 | File | `/admin/scripts/pi-hole/phpqueryads.php` | High
-11 | File | `/api/audits` | Medium
-12 | File | `/api/authentication/login` | High
-13 | File | `/api/resource/Item?fields` | High
-14 | File | `/api/upload.php` | High
-15 | File | `/api/v1/terminal/sessions/?limit=1` | High
+11 | File | `/api/authentication/login` | High
+12 | File | `/api/resource/Item?fields` | High
+13 | File | `/api/upload.php` | High
+14 | File | `/api/v1/terminal/sessions/?limit=1` | High
+15 | File | `/api /v3/auth` | High
 16 | File | `/app/sys1.php` | High
 17 | File | `/application/common.php#action_log` | High
 18 | File | `/APR/signup.php` | High
@@ -92,16 +92,18 @@ ID | Type | Indicator | Confidence
 35 | File | `/classes/Users.php?f=save` | High
 36 | File | `/CMD_ACCOUNT_ADMIN` | High
 37 | File | `/conf/` | Low
-38 | File | `/config/php.ini` | High
-39 | File | `/controller/OnlinePreviewController.java` | High
-40 | File | `/crmeb/crmeb/services/UploadService.php` | High
-41 | File | `/dayrui/My/View/main.html` | High
-42 | File | `/debug/pprof` | Medium
-43 | File | `/etc/init.d/openfire` | High
-44 | File | `/etc/sudoers` | Medium
-45 | ... | ... | ...
+38 | File | `/config/getuser` | High
+39 | File | `/config/php.ini` | High
+40 | File | `/Content/Plugins/uploader/FileChoose.html?fileUrl=/Upload/File/Pics/&parent` | High
+41 | File | `/controller/OnlinePreviewController.java` | High
+42 | File | `/core/admin/categories.php` | High
+43 | File | `/dayrui/My/View/main.html` | High
+44 | File | `/debug/pprof` | Medium
+45 | File | `/etc/init.d/openfire` | High
+46 | File | `/etc/sudoers` | Medium
+47 | ... | ... | ...
 
-There are 389 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 407 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -118,4 +120,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

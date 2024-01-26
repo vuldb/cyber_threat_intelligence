@@ -68,7 +68,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -79,59 +79,61 @@ ID | Type | Indicator | Confidence
 1 | File | `$HOME/.terminfo` | High
 2 | File | `/+CSCOE+/logon.html` | High
 3 | File | `/adfs/ls` | Medium
-4 | File | `/admin/addemployee.php` | High
-5 | File | `/admin/add_exercises.php` | High
-6 | File | `/admin/add_trainers.php` | High
-7 | File | `/admin/api/admin/articles/` | High
-8 | File | `/admin/api/theme-edit/` | High
-9 | File | `/Admin/createClass.php` | High
-10 | File | `/admin/edit.php` | High
-11 | File | `/admin/edit_product.php` | High
-12 | File | `/admin/settings.php` | High
-13 | File | `/admin/students/manage.php` | High
-14 | File | `/api/baskets/{name}` | High
-15 | File | `/api/public/signup` | High
-16 | File | `/api/v1/attack` | High
-17 | File | `/api/v1/bait/set` | High
-18 | File | `/api/v2/open/tablesInfo` | High
-19 | File | `/category.php` | High
-20 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-21 | File | `/cgi-bin/upload_vpntar` | High
-22 | File | `/core/tools/customblock.php` | High
-23 | File | `/CPE` | Low
-24 | File | `/csms/?page=contact_us` | High
-25 | File | `/csms/admin/?page=user/list` | High
-26 | File | `/cwms/classes/Master.php?f=save_contact` | High
-27 | File | `/debug/pprof` | Medium
-28 | File | `/ebics-server/ebics.aspx` | High
-29 | File | `/edituser.php` | High
-30 | File | `/employeeview.php` | High
-31 | File | `/forum/away.php` | High
-32 | File | `/goform/Diagnosis` | High
-33 | File | `/group1/uploa` | High
-34 | File | `/home/search` | Medium
-35 | File | `/leaves/validate` | High
-36 | File | `/login.php` | Medium
-37 | File | `/loginVaLidation.php` | High
-38 | File | `/mail.php` | Medium
-39 | File | `/MicroStrategyWS/happyaxis.jsp` | High
-40 | File | `/mims/app/addcustomerHandler.php` | High
-41 | File | `/mkshope/login.php` | High
-42 | File | `/oauth/idp/.well-known/openid-configuration` | High
-43 | File | `/obs/bookPerPub.php` | High
-44 | File | `/omos/admin/?page=user/list` | High
-45 | File | `/one_church/churchprofile.php` | High
-46 | File | `/one_church/userregister.php` | High
-47 | File | `/out.php` | Medium
-48 | File | `/pages/processlogin.php` | High
-49 | File | `/php-sms/classes/Master.php` | High
-50 | File | `/php-spms/admin/?page=user/` | High
-51 | File | `/php_action/createUser.php` | High
-52 | File | `/picturesPreview` | High
-53 | File | `/products/view_product.php` | High
-54 | ... | ... | ...
+4 | File | `/admin/` | Low
+5 | File | `/admin/addemployee.php` | High
+6 | File | `/admin/add_exercises.php` | High
+7 | File | `/admin/add_trainers.php` | High
+8 | File | `/admin/admin_user.php` | High
+9 | File | `/admin/api/admin/articles/` | High
+10 | File | `/admin/api/theme-edit/` | High
+11 | File | `/Admin/createClass.php` | High
+12 | File | `/admin/edit.php` | High
+13 | File | `/admin/settings.php` | High
+14 | File | `/admin/students/manage.php` | High
+15 | File | `/api/baskets/{name}` | High
+16 | File | `/api/public/signup` | High
+17 | File | `/api/v1/attack` | High
+18 | File | `/api/v1/bait/set` | High
+19 | File | `/api/v2/open/tablesInfo` | High
+20 | File | `/boaform/device_reset.cgi` | High
+21 | File | `/boaform/wlan_basic_set.cgi` | High
+22 | File | `/category.php` | High
+23 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+24 | File | `/cgi-bin/upload_vpntar` | High
+25 | File | `/core/tools/customblock.php` | High
+26 | File | `/course/filterRecords/` | High
+27 | File | `/csms/?page=contact_us` | High
+28 | File | `/csms/admin/?page=user/list` | High
+29 | File | `/cwms/classes/Master.php?f=save_contact` | High
+30 | File | `/debug/pprof` | Medium
+31 | File | `/ebics-server/ebics.aspx` | High
+32 | File | `/edituser.php` | High
+33 | File | `/employeeview.php` | High
+34 | File | `/forum/away.php` | High
+35 | File | `/FuguHub/cmsdocs/` | High
+36 | File | `/goform/Diagnosis` | High
+37 | File | `/group1/uploa` | High
+38 | File | `/inc/jquery/uploadify/uploadify.php` | High
+39 | File | `/leaves/validate` | High
+40 | File | `/login.php` | Medium
+41 | File | `/loginVaLidation.php` | High
+42 | File | `/mail.php` | Medium
+43 | File | `/MicroStrategyWS/happyaxis.jsp` | High
+44 | File | `/mims/app/addcustomerHandler.php` | High
+45 | File | `/mkshope/login.php` | High
+46 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+47 | File | `/oauth/idp/.well-known/openid-configuration` | High
+48 | File | `/obs/bookPerPub.php` | High
+49 | File | `/omos/admin/?page=user/list` | High
+50 | File | `/one_church/churchprofile.php` | High
+51 | File | `/one_church/userregister.php` | High
+52 | File | `/out.php` | Medium
+53 | File | `/pages/processlogin.php` | High
+54 | File | `/php-sms/classes/Master.php` | High
+55 | File | `/php-spms/admin/?page=user/` | High
+56 | ... | ... | ...
 
-There are 470 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 485 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -148,4 +150,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

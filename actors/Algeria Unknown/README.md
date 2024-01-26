@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [FR](https://vuldb.com/?country.fr)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
 There are 22 more country items available. Please use our online service to access the data.
@@ -80,40 +80,44 @@ ID | Type | Indicator | Confidence
 12 | File | `/categorypage.php` | High
 13 | File | `/cgi-bin/luci/api/wireless` | High
 14 | File | `/cgi-bin/vitogate.cgi` | High
-15 | File | `/company/store` | High
-16 | File | `/Content/Template/root/reverse-shell.aspx` | High
-17 | File | `/Controller/Ajaxfileupload.ashx` | High
-18 | File | `/core/conditions/AbstractWrapper.java` | High
-19 | File | `/debug/pprof` | Medium
-20 | File | `/DXR.axd` | Medium
-21 | File | `/etc/passwd` | Medium
-22 | File | `/fcgi/scrut_fcgi.fcgi` | High
-23 | File | `/forum/away.php` | High
-24 | File | `/geoserver/gwc/rest.html` | High
-25 | File | `/goform/formSysCmd` | High
-26 | File | `/h/` | Low
-27 | File | `/HNAP1` | Low
-28 | File | `/hosts/firewall/ip` | High
-29 | File | `/index.php/ccm/system/file/upload` | High
-30 | File | `/jeecg-boot/sys/common/upload` | High
-31 | File | `/modals/class_form.php` | High
-32 | File | `/oauth/idp/.well-known/openid-configuration` | High
-33 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
-34 | File | `/php/ping.php` | High
-35 | File | `/proxy` | Low
-36 | File | `/recipe-result` | High
-37 | File | `/register.do` | Medium
-38 | File | `/RPS2019Service/status.html` | High
-39 | File | `/scripts/unlock_tasks.php` | High
-40 | File | `/Service/ImageStationDataService.asmx` | High
-41 | File | `/setting` | Medium
-42 | File | `/sicweb-ajax/tmproot/` | High
-43 | File | `/spip.php` | Medium
-44 | File | `/student/bookdetails.php` | High
-45 | File | `/subsys/net/l2/wifi/wifi_shell.c` | High
-46 | ... | ... | ...
+15 | File | `/change-language/de_DE` | High
+16 | File | `/company/store` | High
+17 | File | `/Content/Template/root/reverse-shell.aspx` | High
+18 | File | `/Controller/Ajaxfileupload.ashx` | High
+19 | File | `/core/conditions/AbstractWrapper.java` | High
+20 | File | `/debug/pprof` | Medium
+21 | File | `/dist/index.js` | High
+22 | File | `/DXR.axd` | Medium
+23 | File | `/etc/passwd` | Medium
+24 | File | `/fcgi/scrut_fcgi.fcgi` | High
+25 | File | `/forum/away.php` | High
+26 | File | `/geoserver/gwc/rest.html` | High
+27 | File | `/goform/formSysCmd` | High
+28 | File | `/healthcare/Admin/consulting_detail.php` | High
+29 | File | `/HNAP1` | Low
+30 | File | `/hosts/firewall/ip` | High
+31 | File | `/index.php/ccm/system/file/upload` | High
+32 | File | `/jeecg-boot/sys/common/upload` | High
+33 | File | `/log/decodmail.php` | High
+34 | File | `/modals/class_form.php` | High
+35 | File | `/oauth/idp/.well-known/openid-configuration` | High
+36 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
+37 | File | `/php/ping.php` | High
+38 | File | `/proxy` | Low
+39 | File | `/recipe-result` | High
+40 | File | `/register.do` | Medium
+41 | File | `/RPS2019Service/status.html` | High
+42 | File | `/s/index.php?action=statistics` | High
+43 | File | `/scripts/unlock_tasks.php` | High
+44 | File | `/Service/ImageStationDataService.asmx` | High
+45 | File | `/setting` | Medium
+46 | File | `/sicweb-ajax/tmproot/` | High
+47 | File | `/spip.php` | Medium
+48 | File | `/subsys/net/l2/wifi/wifi_shell.c` | High
+49 | File | `/SystemManage/User/GetGridJson?_search=false&nd=1680855479750&rows=50&page=1&sidx=F_CreatorTime+desc&sord=asc` | High
+50 | ... | ... | ...
 
-There are 394 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 433 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -132,4 +136,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

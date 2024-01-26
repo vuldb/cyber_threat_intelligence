@@ -56,25 +56,25 @@ ID | Type | Indicator | Confidence
 2 | File | `/.env` | Low
 3 | File | `/category.php` | High
 4 | File | `/category/list?limit=10&offset=0&order=desc` | High
-5 | File | `/cgi-bin/delete_CA` | High
-6 | File | `/classes/Master.php?f=delete_brand` | High
-7 | File | `/Config/SaveUploadedHotspotLogoFile` | High
-8 | File | `/display/map` | Medium
-9 | File | `/download` | Medium
-10 | File | `/forum/PostPrivateMessage` | High
-11 | File | `/get_getnetworkconf.cgi` | High
-12 | File | `/GponForm/device_Form?script/` | High
-13 | File | `/includes/rrdtool.inc.php` | High
-14 | File | `/Main_AdmStatus_Content.asp` | High
-15 | File | `/NAGErrors` | Medium
-16 | File | `/sgms/TreeControl` | High
-17 | File | `/src/admin/content_batchup_action.php` | High
-18 | File | `/tmp` | Low
-19 | File | `/uncpath/` | Medium
-20 | File | `/updown/upload.cgi` | High
+5 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+6 | File | `/cgi-bin/delete_CA` | High
+7 | File | `/classes/Master.php?f=delete_brand` | High
+8 | File | `/Config/SaveUploadedHotspotLogoFile` | High
+9 | File | `/display/map` | Medium
+10 | File | `/download` | Medium
+11 | File | `/forum/PostPrivateMessage` | High
+12 | File | `/get_getnetworkconf.cgi` | High
+13 | File | `/GponForm/device_Form?script/` | High
+14 | File | `/includes/rrdtool.inc.php` | High
+15 | File | `/Main_AdmStatus_Content.asp` | High
+16 | File | `/NAGErrors` | Medium
+17 | File | `/sgms/TreeControl` | High
+18 | File | `/src/admin/content_batchup_action.php` | High
+19 | File | `/tmp` | Low
+20 | File | `/uncpath/` | Medium
 21 | ... | ... | ...
 
-There are 174 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 178 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

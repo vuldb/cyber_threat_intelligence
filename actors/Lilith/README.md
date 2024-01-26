@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 2 more country items available. Please use our online service to access the data.
+There are 3 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -34,7 +34,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-425 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-425 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
@@ -52,24 +52,25 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin.php/pic/admin/pic/del` | High
 3 | File | `/ajax.php?action=read_msg` | High
 4 | File | `/debug/pprof` | Medium
-5 | File | `/env` | Low
-6 | File | `/forum/away.php` | High
-7 | File | `/goform/SetNetControlList` | High
-8 | File | `/librarian/bookdetails.php` | High
-9 | File | `/ptipupgrade.cgi` | High
-10 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-11 | File | `/src/chatbotapp/chatWindow.java` | High
-12 | File | `/staff/bookdetails.php` | High
-13 | File | `about.php` | Medium
-14 | File | `admin.color.php` | High
-15 | File | `admin/addons/archive/archive.php` | High
-16 | File | `admin/categories_industry.php` | High
-17 | File | `admin/class-woo-popup-admin.php` | High
-18 | File | `admin/content/postcategory` | High
-19 | File | `admincp/auth/secure.php` | High
-20 | ... | ... | ...
+5 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
+6 | File | `/env` | Low
+7 | File | `/forum/away.php` | High
+8 | File | `/goform/SetNetControlList` | High
+9 | File | `/librarian/bookdetails.php` | High
+10 | File | `/ptipupgrade.cgi` | High
+11 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+12 | File | `/src/chatbotapp/chatWindow.java` | High
+13 | File | `/staff/bookdetails.php` | High
+14 | File | `about.php` | Medium
+15 | File | `admin.color.php` | High
+16 | File | `admin/addons/archive/archive.php` | High
+17 | File | `admin/categories_industry.php` | High
+18 | File | `admin/class-woo-popup-admin.php` | High
+19 | File | `admin/content/postcategory` | High
+20 | File | `admincp/auth/secure.php` | High
+21 | ... | ... | ...
 
-There are 163 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 169 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -87,4 +88,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

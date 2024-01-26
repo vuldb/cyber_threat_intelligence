@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 4 more country items available. Please use our online service to access the data.
+There are 5 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -44,21 +44,21 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/login.php` | High
-2 | File | `/app/Http/Controllers/Admin/NEditorController.php` | High
-3 | File | `/mgmt/tm/util/bash` | High
-4 | File | `/mifs/c/i/reg/reg.html` | High
-5 | File | `/secure/QueryComponent!Default.jspa` | High
-6 | File | `/secure/ViewCollectors` | High
-7 | File | `/Session` | Medium
-8 | File | `/usr/bin/pkexec` | High
-9 | File | `/xAdmin/html/cm_doclist_view_uc.jsp` | High
-10 | File | `/xxl-job-admin/jobinfo` | High
-11 | File | `adclick.php` | Medium
-12 | File | `add_comment.php` | High
+1 | File | `/admin/index2.html` | High
+2 | File | `/admin/login.php` | High
+3 | File | `/app/Http/Controllers/Admin/NEditorController.php` | High
+4 | File | `/mgmt/tm/util/bash` | High
+5 | File | `/mifs/c/i/reg/reg.html` | High
+6 | File | `/secure/QueryComponent!Default.jspa` | High
+7 | File | `/secure/ViewCollectors` | High
+8 | File | `/Session` | Medium
+9 | File | `/usr/bin/pkexec` | High
+10 | File | `/xAdmin/html/cm_doclist_view_uc.jsp` | High
+11 | File | `/xxl-job-admin/jobinfo` | High
+12 | File | `adclick.php` | Medium
 13 | ... | ... | ...
 
-There are 98 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 101 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -75,4 +75,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -63,19 +63,20 @@ ID | Type | Indicator | Confidence
 13 | File | `/admin/payment.php` | High
 14 | File | `/admin/reg.php` | High
 15 | File | `/admin/search-appointment.php` | High
-16 | File | `/collection/all` | High
-17 | File | `/doc/packages` | High
-18 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-19 | File | `/forum/away.php` | High
-20 | File | `/getcfg.php` | Medium
-21 | File | `/hrm/employeeview.php` | High
-22 | File | `/log/decodmail.php` | High
-23 | File | `/login` | Low
-24 | File | `/mkshop/Men/profile.php` | High
-25 | File | `/newsDia.php` | Medium
-26 | ... | ... | ...
+16 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
+17 | File | `/collection/all` | High
+18 | File | `/doc/packages` | High
+19 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+20 | File | `/forum/away.php` | High
+21 | File | `/getcfg.php` | Medium
+22 | File | `/hrm/employeeview.php` | High
+23 | File | `/log/decodmail.php` | High
+24 | File | `/login` | Low
+25 | File | `/mkshop/Men/profile.php` | High
+26 | File | `/newsDia.php` | Medium
+27 | ... | ... | ...
 
-There are 221 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 224 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -92,4 +93,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

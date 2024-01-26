@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [NL](https://vuldb.com/?country.nl)
 * ...
 
-There are 13 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -43,8 +43,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
-7 | ... | ... | ... | ...
+6 | ... | ... | ... | ...
 
 There are 22 more TTP items available. Please use our online service to access the data.
 
@@ -75,43 +74,47 @@ ID | Type | Indicator | Confidence
 19 | File | `/admin/reportupload.aspx` | High
 20 | File | `/admin/service.php` | High
 21 | File | `/admin/students/manage_academic.php` | High
-22 | File | `/admin/submit-articles` | High
-23 | File | `/admin/transactions/track_shipment.php` | High
-24 | File | `/admin/user/manage_user.php` | High
-25 | File | `/alphaware/summary.php` | High
-26 | File | `/api/` | Low
-27 | File | `/api/admin/store/product/list` | High
-28 | File | `/api/baskets/{name}` | High
+22 | File | `/admin/transactions/track_shipment.php` | High
+23 | File | `/admin/user/manage_user.php` | High
+24 | File | `/alphaware/summary.php` | High
+25 | File | `/api/` | Low
+26 | File | `/api/admin/store/product/list` | High
+27 | File | `/api/baskets/{name}` | High
+28 | File | `/api/log/killJob` | High
 29 | File | `/api/stl/actions/search` | High
 30 | File | `/api/sys/login` | High
 31 | File | `/api/sys/set_passwd` | High
-32 | File | `/api/v2/cli/commands` | High
-33 | File | `/attachments` | Medium
-34 | File | `/bin/ate` | Medium
-35 | File | `/boat/login.php` | High
-36 | File | `/booking/show_bookings/` | High
-37 | File | `/bsms_ci/index.php/book` | High
-38 | File | `/cgi-bin` | Medium
-39 | File | `/cgi-bin/wlogin.cgi` | High
-40 | File | `/change-language/de_DE` | High
-41 | File | `/changePassword` | High
-42 | File | `/classes/Master.php?f=save_item` | High
-43 | File | `/collection/all` | High
-44 | File | `/Content/Template/root/reverse-shell.aspx` | High
-45 | File | `/dashboard/add-blog.php` | High
-46 | File | `/debug/pprof` | Medium
-47 | File | `/ecshop/admin/template.php` | High
-48 | File | `/env` | Low
-49 | File | `/etc/hosts` | Medium
-50 | File | `/forum/away.php` | High
-51 | File | `/friends` | Medium
-52 | File | `/goform/WifiBasicSet` | High
-53 | File | `/group1/uploa` | High
-54 | File | `/index.php` | Medium
-55 | File | `/index.php?controller=GzUser&action=edit&id=1` | High
-56 | ... | ... | ...
+32 | File | `/api/trackedEntityInstances` | High
+33 | File | `/api/v2/cli/commands` | High
+34 | File | `/aux` | Low
+35 | File | `/bin/ate` | Medium
+36 | File | `/boat/login.php` | High
+37 | File | `/booking/show_bookings/` | High
+38 | File | `/bsms_ci/index.php/book` | High
+39 | File | `/cgi-bin` | Medium
+40 | File | `/cgi-bin/wlogin.cgi` | High
+41 | File | `/change-language/de_DE` | High
+42 | File | `/changePassword` | High
+43 | File | `/classes/Master.php?f=save_item` | High
+44 | File | `/collection/all` | High
+45 | File | `/Content/Template/root/reverse-shell.aspx` | High
+46 | File | `/dashboard/add-blog.php` | High
+47 | File | `/data/remove` | Medium
+48 | File | `/debug/pprof` | Medium
+49 | File | `/download.php?file=author.png` | High
+50 | File | `/ecshop/admin/template.php` | High
+51 | File | `/env` | Low
+52 | File | `/forum/away.php` | High
+53 | File | `/friends` | Medium
+54 | File | `/goform/WifiBasicSet` | High
+55 | File | `/group1/uploa` | High
+56 | File | `/index.php` | Medium
+57 | File | `/index.php?controller=GzUser&action=edit&id=1` | High
+58 | File | `/index/user/user_edit.html` | High
+59 | File | `/main/offices.php` | High
+60 | ... | ... | ...
 
-There are 492 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 526 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -131,4 +134,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

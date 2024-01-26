@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with BazarBackdoor:
 
 * [VN](https://vuldb.com/?country.vn)
-* [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
+* [US](https://vuldb.com/?country.us)
 
 ## IOC - Indicator of Compromise
 
@@ -171,15 +171,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-29, CWE-425 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-29, CWE-425 | Pathname Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
-7 | ... | ... | ... | ...
+6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -187,44 +186,48 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/?ajax-request=jnews` | High
+1 | File | `/.env` | Low
 2 | File | `/accounts/password_change/` | High
 3 | File | `/act/ActDao.xml` | High
-4 | File | `/admin/ajax.php?action=confirm_order` | High
-5 | File | `/api/addusers` | High
-6 | File | `/api/baskets/{name}` | High
-7 | File | `/api/v1/terminal/sessions/?limit=1` | High
-8 | File | `/assets/something/services/AppModule.class` | High
-9 | File | `/authenticationendpoint/login.do` | High
-10 | File | `/b2b-supermarket/shopping-cart` | High
-11 | File | `/blog/comment` | High
-12 | File | `/bsms_ci/index.php` | High
-13 | File | `/catalog/compare` | High
-14 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-15 | File | `/cgi-bin/downloadFile.cgi` | High
-16 | File | `/cgi-bin/kerbynet` | High
-17 | File | `/cgi-bin/wlogin.cgi` | High
-18 | File | `/classes/Users.php` | High
-19 | File | `/clinic/disease_symptoms_view.php` | High
-20 | File | `/debug/pprof` | Medium
-21 | File | `/DXR.axd` | Medium
-22 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-23 | File | `/forms/doLogin` | High
-24 | File | `/forum/away.php` | High
-25 | File | `/geoserver/gwc/rest.html` | High
-26 | File | `/importexport.php` | High
-27 | File | `/index.php/client/message/message_read/xxxxxxxx[random-msg-hash]` | High
-28 | File | `/librarian/bookdetails.php` | High
-29 | File | `/login` | Low
-30 | File | `/mhds/clinic/view_details.php` | High
-31 | File | `/modals/class_form.php` | High
-32 | File | `/oauth/idp/.well-known/openid-configuration` | High
-33 | File | `/php-opos/index.php` | High
-34 | File | `/php/ping.php` | High
-35 | File | `/plain` | Low
-36 | ... | ... | ...
+4 | File | `/admin/clientview.php` | High
+5 | File | `/admin/regester.php` | High
+6 | File | `/admin/update-clients.php` | High
+7 | File | `/api/addusers` | High
+8 | File | `/api/baskets/{name}` | High
+9 | File | `/api/cron/settings/setJob/` | High
+10 | File | `/api/sys/set_passwd` | High
+11 | File | `/api/v1/terminal/sessions/?limit=1` | High
+12 | File | `/apply.cgi` | Medium
+13 | File | `/authenticationendpoint/login.do` | High
+14 | File | `/b2b-supermarket/shopping-cart` | High
+15 | File | `/blog/comment` | High
+16 | File | `/boaform/device_reset.cgi` | High
+17 | File | `/bsms_ci/index.php` | High
+18 | File | `/bsms_ci/index.php/user/edit_user/` | High
+19 | File | `/catalog/compare` | High
+20 | File | `/cgi-bin/cstecgi.cgi` | High
+21 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+22 | File | `/cgi-bin/downloadFile.cgi` | High
+23 | File | `/cgi-bin/kerbynet` | High
+24 | File | `/cgi-bin/R14.2/cgi-bin/R14.2/host.pl` | High
+25 | File | `/cgi-bin/R14.2/easy1350.pl` | High
+26 | File | `/cgi-bin/wlogin.cgi` | High
+27 | File | `/clinic/disease_symptoms_view.php` | High
+28 | File | `/config/getuser` | High
+29 | File | `/dashboard/snapshot/*?orgId=0` | High
+30 | File | `/debug/pprof` | Medium
+31 | File | `/DXR.axd` | Medium
+32 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+33 | File | `/forum/away.php` | High
+34 | File | `/geoserver/gwc/rest.html` | High
+35 | File | `/importexport.php` | High
+36 | File | `/index.php/client/message/message_read/xxxxxxxx[random-msg-hash]` | High
+37 | File | `/login` | Low
+38 | File | `/Main_AdmStatus_Content.asp` | High
+39 | File | `/manager?action=getlogcat` | High
+40 | ... | ... | ...
 
-There are 312 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 347 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -246,4 +249,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

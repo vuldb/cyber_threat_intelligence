@@ -60,39 +60,39 @@ ID | Type | Indicator | Confidence
 4 | File | `/api/content/posts/comments` | High
 5 | File | `/asms/classes/Master.php?f=delete_transaction` | High
 6 | File | `/bin/posix/src/ports/POSIX/OpENer` | High
-7 | File | `/cgi-bin/editBookmark` | High
-8 | File | `/cgi-bin/kerbynet` | High
-9 | File | `/cgi-bin/supervisor/CloudSetup.cgi` | High
-10 | File | `/cgi-bin/wlogin.cgi` | High
-11 | File | `/cimom` | Low
-12 | File | `/debug/pprof` | Medium
-13 | File | `/domain/add` | Medium
-14 | File | `/etc/pki/pesign` | High
-15 | File | `/etc/sudoers` | Medium
-16 | File | `/goform/addressNat` | High
-17 | File | `/goform/aspForm` | High
-18 | File | `/group1/uploa` | High
-19 | File | `/Home/GetAttachment` | High
-20 | File | `/include/menu_v.inc.php` | High
-21 | File | `/index.php/weblinks-categories` | High
-22 | File | `/librarian/lab.php` | High
-23 | File | `/main?cmd=invalid_browser` | High
-24 | File | `/modules/projects/vw_files.php` | High
-25 | File | `/omos/admin/?page=user/list` | High
-26 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-27 | File | `/out.php` | Medium
-28 | File | `/panel/fields/add` | High
-29 | File | `/patient/settings.php` | High
-30 | File | `/plain` | Low
-31 | File | `/proc/*/cmdline"` | High
-32 | File | `/proc/pid/syscall` | High
-33 | File | `/sbin/acos_service` | High
-34 | File | `/search` | Low
-35 | File | `/show_group_members.php` | High
-36 | File | `/SysInfo.htm` | Medium
+7 | File | `/cgi-bin/cstecgi.cgi` | High
+8 | File | `/cgi-bin/editBookmark` | High
+9 | File | `/cgi-bin/kerbynet` | High
+10 | File | `/cgi-bin/supervisor/CloudSetup.cgi` | High
+11 | File | `/cgi-bin/wlogin.cgi` | High
+12 | File | `/cimom` | Low
+13 | File | `/debug/pprof` | Medium
+14 | File | `/domain/add` | Medium
+15 | File | `/etc/pki/pesign` | High
+16 | File | `/etc/sudoers` | Medium
+17 | File | `/goform/addressNat` | High
+18 | File | `/goform/aspForm` | High
+19 | File | `/group1/uploa` | High
+20 | File | `/Home/GetAttachment` | High
+21 | File | `/include/menu_v.inc.php` | High
+22 | File | `/index.php/weblinks-categories` | High
+23 | File | `/librarian/lab.php` | High
+24 | File | `/main?cmd=invalid_browser` | High
+25 | File | `/me` | Low
+26 | File | `/modules/projects/vw_files.php` | High
+27 | File | `/omos/admin/?page=user/list` | High
+28 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+29 | File | `/out.php` | Medium
+30 | File | `/panel/fields/add` | High
+31 | File | `/patient/settings.php` | High
+32 | File | `/plain` | Low
+33 | File | `/proc/*/cmdline"` | High
+34 | File | `/proc/pid/syscall` | High
+35 | File | `/sbin/acos_service` | High
+36 | File | `/search` | Low
 37 | ... | ... | ...
 
-There are 314 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 318 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -112,4 +112,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

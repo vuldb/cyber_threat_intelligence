@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 17 more country items available. Please use our online service to access the data.
+There are 20 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -43,7 +43,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-24 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 4 | T1059.007 | CWE-79, CWE-80, CWE-83 | Cross Site Scripting | High
@@ -51,7 +51,7 @@ ID | Technique | Weakness | Description | Confidence
 6 | T1078.001 | CWE-259 | Use of Hard-coded Password | High
 7 | ... | ... | ... | ...
 
-There are 24 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -59,34 +59,38 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/students/update_status.php` | High
-2 | File | `/api/baskets/{name}` | High
-3 | File | `/bin/sh` | Low
-4 | File | `/bitrix/admin/ldap_server_edit.php` | High
-5 | File | `/collection/all` | High
-6 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
-7 | File | `/detail` | Low
-8 | File | `/edoc/doctor/patient.php` | High
-9 | File | `/goform/SysToolReboot` | High
-10 | File | `/home/get_tasks_list` | High
-11 | File | `/info.xml` | Medium
-12 | File | `/lists/admin/` | High
-13 | File | `/log/decodmail.php` | High
-14 | File | `/Main_AdmStatus_Content.asp` | High
-15 | File | `/mygym/admin/login.php` | High
-16 | File | `/owa/auth/logon.aspx` | High
-17 | File | `/plain` | Low
-18 | File | `/proc/self/setgroups` | High
-19 | File | `/products/view_product.php` | High
-20 | File | `/rest/synchronizer/1.0/technicalUser` | High
-21 | File | `/scripts/cpan_config` | High
-22 | File | `/sysmanage/updateos.php` | High
-23 | File | `/usr/bin/write` | High
-24 | File | `/var/run/cloudera-scm-agent` | High
-25 | File | `/webssh` | Low
-26 | ... | ... | ...
+1 | File | `/accounts_con/register_account` | High
+2 | File | `/admin/students/update_status.php` | High
+3 | File | `/api/baskets/{name}` | High
+4 | File | `/app/api/controller/default/File.php` | High
+5 | File | `/app/api/controller/default/Sqlite.php` | High
+6 | File | `/bin/boa` | Medium
+7 | File | `/bin/sh` | Low
+8 | File | `/bitrix/admin/ldap_server_edit.php` | High
+9 | File | `/collection/all` | High
+10 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
+11 | File | `/detail` | Low
+12 | File | `/devinfo` | Medium
+13 | File | `/edoc/doctor/patient.php` | High
+14 | File | `/goform/SysToolReboot` | High
+15 | File | `/home/get_tasks_list` | High
+16 | File | `/index.php/signin` | High
+17 | File | `/lists/admin/` | High
+18 | File | `/log/decodmail.php` | High
+19 | File | `/Main_AdmStatus_Content.asp` | High
+20 | File | `/mygym/admin/login.php` | High
+21 | File | `/owa/auth/logon.aspx` | High
+22 | File | `/plain` | Low
+23 | File | `/proc/self/setgroups` | High
+24 | File | `/products/view_product.php` | High
+25 | File | `/rest/synchronizer/1.0/technicalUser` | High
+26 | File | `/support/docs/?action=assortment` | High
+27 | File | `/sysmanage/updateos.php` | High
+28 | File | `/useratte/inc/userattea.php` | High
+29 | File | `/usr/bin/write` | High
+30 | ... | ... | ...
 
-There are 221 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 255 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -103,4 +107,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

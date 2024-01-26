@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [IL](https://vuldb.com/?country.il)
-* [VN](https://vuldb.com/?country.vn)
+* [TR](https://vuldb.com/?country.tr)
 * ...
 
-There are 12 more country items available. Please use our online service to access the data.
+There are 9 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -76,45 +76,44 @@ ID | Type | Indicator | Confidence
 10 | File | `/classes/Master.php?f=delete_payment` | High
 11 | File | `/com` | Low
 12 | File | `/com.biepie/shared_prefs/com.bitpie_preferences.xml` | High
-13 | File | `/cwp_{SESSION_HASH}/admin/loader_ajax.php` | High
-14 | File | `/drivers/infiniband/core/cm.c` | High
-15 | File | `/feegroups/tgrt_group.jsf` | High
-16 | File | `/fm-data.lua` | Medium
-17 | File | `/forum/away.php` | High
-18 | File | `/goform/SetLEDCfg` | High
-19 | File | `/goform/setMacFilterCfg` | High
-20 | File | `/goform/setSysAdm` | High
-21 | File | `/inc/campaign_save.php` | High
-22 | File | `/jerry-core/ecma/operations/ecma-get-put-value.c` | High
-23 | File | `/leave_system/classes/Master.php?f=delete_department` | High
-24 | File | `/linux/main.cpp` | High
-25 | File | `/magick/quantize.c` | High
-26 | File | `/modules/profile/index.php` | High
-27 | File | `/Monitoring-History.php` | High
-28 | File | `/news.dtl.php` | High
-29 | File | `/plugin/rundeck/webhook/` | High
-30 | File | `/publisher` | Medium
-31 | File | `/release-x64/otfccdump` | High
-32 | File | `/RestAPI` | Medium
-33 | File | `/sacco_shield/ajax.php?action=delete_plan` | High
-34 | File | `/SASWebReportStudio/logonAndRender.do` | High
-35 | File | `/setup` | Low
-36 | File | `/SiteServer/Ajax/ajaxOtherService.aspx` | High
-37 | File | `/spip.php` | Medium
-38 | File | `/staff/delete.php` | High
-39 | File | `/sws/swsAlert.sws` | High
-40 | File | `/v1/sql-runner` | High
-41 | File | `/var/mail` | Medium
-42 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-43 | File | `actions/doreport.php` | High
-44 | File | `adclick.php` | Medium
-45 | File | `addcustomer.asp/addprod.asp/process.asp` | High
-46 | File | `addressbookprovider.php` | High
-47 | File | `admin` | Low
-48 | File | `admin.php` | Medium
-49 | ... | ... | ...
+13 | File | `/drivers/infiniband/core/cm.c` | High
+14 | File | `/feegroups/tgrt_group.jsf` | High
+15 | File | `/fm-data.lua` | Medium
+16 | File | `/forum/away.php` | High
+17 | File | `/goform/SetLEDCfg` | High
+18 | File | `/goform/setMacFilterCfg` | High
+19 | File | `/goform/setSysAdm` | High
+20 | File | `/inc/campaign_save.php` | High
+21 | File | `/jerry-core/ecma/operations/ecma-get-put-value.c` | High
+22 | File | `/leave_system/classes/Master.php?f=delete_department` | High
+23 | File | `/linux/main.cpp` | High
+24 | File | `/magick/quantize.c` | High
+25 | File | `/modules/profile/index.php` | High
+26 | File | `/Monitoring-History.php` | High
+27 | File | `/plugin/rundeck/webhook/` | High
+28 | File | `/publisher` | Medium
+29 | File | `/release-x64/otfccdump` | High
+30 | File | `/RestAPI` | Medium
+31 | File | `/sacco_shield/ajax.php?action=delete_plan` | High
+32 | File | `/SASWebReportStudio/logonAndRender.do` | High
+33 | File | `/SiteServer/Ajax/ajaxOtherService.aspx` | High
+34 | File | `/spip.php` | Medium
+35 | File | `/staff/delete.php` | High
+36 | File | `/sws/swsAlert.sws` | High
+37 | File | `/v1/sql-runner` | High
+38 | File | `/var/mail` | Medium
+39 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+40 | File | `actions.c` | Medium
+41 | File | `actions/doreport.php` | High
+42 | File | `adclick.php` | Medium
+43 | File | `addcustomer.asp/addprod.asp/process.asp` | High
+44 | File | `addressbookprovider.php` | High
+45 | File | `admin.html` | Medium
+46 | File | `admin/admin_users.php` | High
+47 | File | `agenda.php` | Medium
+48 | ... | ... | ...
 
-There are 427 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 417 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -132,4 +131,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

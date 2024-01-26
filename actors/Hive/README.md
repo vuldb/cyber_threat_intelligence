@@ -24,12 +24,13 @@ ID | IP address | Hostname | Campaign | Confidence
 1 | [5.61.37.207](https://vuldb.com/?ip.5.61.37.207) | mx.domain.com | - | High
 2 | [5.199.162.220](https://vuldb.com/?ip.5.199.162.220) | - | - | High
 3 | [5.199.162.229](https://vuldb.com/?ip.5.199.162.229) | - | - | High
-4 | [45.9.150.144](https://vuldb.com/?ip.45.9.150.144) | - | - | High
-5 | [46.166.161.93](https://vuldb.com/?ip.46.166.161.93) | - | - | High
-6 | [46.166.161.123](https://vuldb.com/?ip.46.166.161.123) | - | - | High
-7 | ... | ... | ... | ...
+4 | [23.81.246.84](https://vuldb.com/?ip.23.81.246.84) | - | - | High
+5 | [23.227.178.65](https://vuldb.com/?ip.23.227.178.65) | 23-227-178-65.static.hvvc.us | - | High
+6 | [45.9.150.144](https://vuldb.com/?ip.45.9.150.144) | - | - | High
+7 | [46.166.161.68](https://vuldb.com/?ip.46.166.161.68) | - | - | High
+8 | ... | ... | ... | ...
 
-There are 23 more IOC items available. Please use our online service to access the data.
+There are 29 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -56,29 +57,31 @@ ID | Type | Indicator | Confidence
 3 | File | `/admin/cashadvance_row.php` | High
 4 | File | `/admin/login.php` | High
 5 | File | `/asms/classes/Master.php?f=delete_transaction` | High
-6 | File | `/cgi-bin/editBookmark` | High
-7 | File | `/cgi-bin/login.cgi` | High
-8 | File | `/cgi-bin/wlogin.cgi` | High
-9 | File | `/goform/addressNat` | High
-10 | File | `/goform/aspForm` | High
-11 | File | `/include/chart_generator.php` | High
-12 | File | `/include/menu_v.inc.php` | High
-13 | File | `/kubepi/api/v1/users/search?pageNum=1&&pageSize=10` | High
-14 | File | `/librarian/lab.php` | High
-15 | File | `/omos/admin/?page=user/list` | High
-16 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-17 | File | `/panel/fields/add` | High
-18 | File | `/patient/settings.php` | High
-19 | File | `/proc/*/cmdline"` | High
-20 | ... | ... | ...
+6 | File | `/cgi-bin/cstecgi.cgi` | High
+7 | File | `/cgi-bin/editBookmark` | High
+8 | File | `/cgi-bin/login.cgi` | High
+9 | File | `/cgi-bin/wlogin.cgi` | High
+10 | File | `/controller/Index.php` | High
+11 | File | `/endpoint/add-guest.php` | High
+12 | File | `/goform/addressNat` | High
+13 | File | `/goform/aspForm` | High
+14 | File | `/include/chart_generator.php` | High
+15 | File | `/include/menu_v.inc.php` | High
+16 | File | `/kubepi/api/v1/users/search?pageNum=1&&pageSize=10` | High
+17 | File | `/librarian/lab.php` | High
+18 | File | `/omos/admin/?page=user/list` | High
+19 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+20 | File | `/panel/fields/add` | High
+21 | ... | ... | ...
 
-There are 162 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 174 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://blog.netlab.360.com/warning-hive-variant-xdr33-is-coming_cn/
+* https://de.darktrace.com/blog/tracking-the-hive-darktraces-detection-of-a-hive-ransomware-as-service
 * https://www.cisa.gov/uscert/ncas/alerts/aa22-321a
 * https://www.varonis.com/blog/hive-ransomware-analysis
 
@@ -91,4 +94,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

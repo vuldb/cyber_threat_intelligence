@@ -3525,7 +3525,7 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-36 | Pathname Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-94 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | T1068 | CWE-264, CWE-269, CWE-274, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 7 | ... | ... | ... | ...
@@ -3538,56 +3538,56 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.github/workflows/comment.yml` | High
-2 | File | `/.env` | Low
-3 | File | `/?r=recruit/resume/edit&op=status` | High
-4 | File | `/admin/?page=user/list` | High
-5 | File | `/admin/?page=user/manage_user&id=3` | High
-6 | File | `/admin/about-us.php` | High
-7 | File | `/admin/add-category.php` | High
-8 | File | `/admin/add-services.php` | High
-9 | File | `/admin/controller/JobLogController.java` | High
-10 | File | `/admin/del_category.php` | High
-11 | File | `/admin/del_service.php` | High
-12 | File | `/admin/edit-accepted-appointment.php` | High
-13 | File | `/admin/edit-services.php` | High
-14 | File | `/admin/edit_category.php` | High
-15 | File | `/admin/forgot-password.php` | High
-16 | File | `/admin/index.php` | High
-17 | File | `/admin/search-appointment.php` | High
-18 | File | `/admin/sys_sql_query.php` | High
-19 | File | `/admin/theme-edit.php` | High
-20 | File | `/api/baskets/{name}` | High
-21 | File | `/api/runscript` | High
-22 | File | `/api/snapshot and /api/get_log_file` | High
-23 | File | `/api/sys/login` | High
-24 | File | `/api/sys/set_passwd` | High
-25 | File | `/api/upload.php` | High
-26 | File | `/api/v1/terminal/sessions/?limit=1` | High
-27 | File | `/appliance/users?action=edit` | High
-28 | File | `/b2b-supermarket/shopping-cart` | High
-29 | File | `/blog` | Low
-30 | File | `/booking/show_bookings/` | High
-31 | File | `/category.php` | High
-32 | File | `/changePassword` | High
-33 | File | `/classes/Master.php?f=delete_category` | High
-34 | File | `/classes/Master.php?f=save_inquiry` | High
-35 | File | `/classes/Master.php?f=save_service` | High
-36 | File | `/collection/all` | High
-37 | File | `/Content/Plugins/uploader/FileChoose.html?fileUrl=/Upload/File/Pics/&parent` | High
-38 | File | `/Content/Template/root/reverse-shell.aspx` | High
-39 | File | `/dashboard/add-blog.php` | High
-40 | File | `/data/remove` | Medium
-41 | File | `/debug/pprof` | Medium
-42 | File | `/download` | Medium
-43 | File | `/ecshop/admin/template.php` | High
-44 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-45 | File | `/forum/away.php` | High
-46 | File | `/fusion/portal/action/Link` | High
-47 | File | `/group1/uploa` | High
+1 | File | `/.env` | Low
+2 | File | `/?r=recruit/resume/edit&op=status` | High
+3 | File | `/admin/?page=user/list` | High
+4 | File | `/admin/?page=user/manage_user&id=3` | High
+5 | File | `/admin/about-us.php` | High
+6 | File | `/admin/add-category.php` | High
+7 | File | `/admin/add-services.php` | High
+8 | File | `/admin/borrow_add.php` | High
+9 | File | `/admin/clientview.php` | High
+10 | File | `/admin/controller/JobLogController.java` | High
+11 | File | `/admin/del_category.php` | High
+12 | File | `/admin/del_service.php` | High
+13 | File | `/admin/edit-accepted-appointment.php` | High
+14 | File | `/admin/edit-services.php` | High
+15 | File | `/admin/edit_category.php` | High
+16 | File | `/admin/edit_teacher.php` | High
+17 | File | `/admin/forgot-password.php` | High
+18 | File | `/admin/index.php` | High
+19 | File | `/admin/search-appointment.php` | High
+20 | File | `/admin/sys_sql_query.php` | High
+21 | File | `/admin/theme-edit.php` | High
+22 | File | `/api/baskets/{name}` | High
+23 | File | `/api/log/killJob` | High
+24 | File | `/api/runscript` | High
+25 | File | `/api/snapshot and /api/get_log_file` | High
+26 | File | `/api/sys/login` | High
+27 | File | `/api/sys/set_passwd` | High
+28 | File | `/api/trackedEntityInstances` | High
+29 | File | `/api/upload.php` | High
+30 | File | `/api/v1/terminal/sessions/?limit=1` | High
+31 | File | `/api/v4/teams//channels/deleted` | High
+32 | File | `/app/api/controller/caiji.php` | High
+33 | File | `/appliance/users?action=edit` | High
+34 | File | `/application/pay/controller/Api.php` | High
+35 | File | `/b2b-supermarket/shopping-cart` | High
+36 | File | `/blog` | Low
+37 | File | `/cgi-bin/cstecgi.cgi` | High
+38 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+39 | File | `/changePassword` | High
+40 | File | `/classes/Master.php?f=delete_category` | High
+41 | File | `/collection/all` | High
+42 | File | `/Content/Plugins/uploader/FileChoose.html?fileUrl=/Upload/File/Pics/&parent` | High
+43 | File | `/Content/Template/root/reverse-shell.aspx` | High
+44 | File | `/dashboard/add-blog.php` | High
+45 | File | `/data/remove` | Medium
+46 | File | `/debug/pprof` | Medium
+47 | File | `/download` | Medium
 48 | ... | ... | ...
 
-There are 415 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 419 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -3605,4 +3605,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

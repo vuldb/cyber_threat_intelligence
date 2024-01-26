@@ -66,53 +66,54 @@ ID | Type | Indicator | Confidence
 3 | File | `/acms/admin/cargo_types/manage_cargo_type.php` | High
 4 | File | `/admin/add-services.php` | High
 5 | File | `/admin/ajax/avatar.php` | High
-6 | File | `/admin/forgot-password.php` | High
-7 | File | `/admin/index.php` | High
-8 | File | `/admin/lab.php` | High
-9 | File | `/admin/login.php` | High
-10 | File | `/admin/payment.php` | High
-11 | File | `/admin/show.php` | High
-12 | File | `/api/` | Low
-13 | File | `/api/addusers` | High
-14 | File | `/boat/login.php` | High
-15 | File | `/default.php?idx=17` | High
-16 | File | `/download` | Medium
-17 | File | `/env` | Low
-18 | File | `/forum/away.php` | High
-19 | File | `/ims/login.php` | High
-20 | File | `/index.php` | Medium
-21 | File | `/mgmt/tm/util/bash` | High
-22 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
-23 | File | `/opt/bin/cli` | Medium
-24 | File | `/p` | Low
-25 | File | `/patient/doctors.php` | High
-26 | File | `/phpinventory/editcategory.php` | High
-27 | File | `/php_action/createUser.php` | High
-28 | File | `/product-list.php` | High
-29 | File | `/public/login.htm` | High
-30 | File | `/server-status` | High
-31 | File | `/spip.php` | Medium
-32 | File | `/tmp` | Low
-33 | File | `/uncpath/` | Medium
-34 | File | `/updown/upload.cgi` | High
-35 | File | `/user/del.php` | High
-36 | File | `/usr/bin/pkexec` | High
-37 | File | `/wbg/core/_includes/authorization.inc.php` | High
-38 | File | `/wp-admin/admin-ajax.php` | High
-39 | File | `/_next` | Low
-40 | File | `123flashchat.php` | High
-41 | File | `act.php` | Low
-42 | File | `admin.php` | Medium
-43 | File | `admin.php/pay` | High
-44 | File | `admin/bad.php` | High
-45 | File | `admin/index.php` | High
-46 | File | `admin/index.php/user/del/1` | High
-47 | File | `admin/index.php?id=themes&action=edit_chunk` | High
-48 | File | `administrator/index.php` | High
-49 | File | `agenda.php` | Medium
-50 | ... | ... | ...
+6 | File | `/admin/edit-services.php` | High
+7 | File | `/admin/forgot-password.php` | High
+8 | File | `/admin/index.php` | High
+9 | File | `/admin/lab.php` | High
+10 | File | `/admin/login.php` | High
+11 | File | `/admin/payment.php` | High
+12 | File | `/admin/show.php` | High
+13 | File | `/api/` | Low
+14 | File | `/api/addusers` | High
+15 | File | `/boat/login.php` | High
+16 | File | `/clinic/disease_symptoms_view.php` | High
+17 | File | `/default.php?idx=17` | High
+18 | File | `/download` | Medium
+19 | File | `/env` | Low
+20 | File | `/forum/away.php` | High
+21 | File | `/ims/login.php` | High
+22 | File | `/index.php` | Medium
+23 | File | `/mgmt/tm/util/bash` | High
+24 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
+25 | File | `/opt/bin/cli` | Medium
+26 | File | `/p` | Low
+27 | File | `/patient/doctors.php` | High
+28 | File | `/phpinventory/editcategory.php` | High
+29 | File | `/php_action/createUser.php` | High
+30 | File | `/product-list.php` | High
+31 | File | `/public/login.htm` | High
+32 | File | `/server-status` | High
+33 | File | `/spip.php` | Medium
+34 | File | `/tmp` | Low
+35 | File | `/uncpath/` | Medium
+36 | File | `/updown/upload.cgi` | High
+37 | File | `/user/del.php` | High
+38 | File | `/usr/bin/pkexec` | High
+39 | File | `/wbg/core/_includes/authorization.inc.php` | High
+40 | File | `/wp-admin/admin-ajax.php` | High
+41 | File | `/_next` | Low
+42 | File | `123flashchat.php` | High
+43 | File | `act.php` | Low
+44 | File | `admin.php` | Medium
+45 | File | `admin.php/pay` | High
+46 | File | `admin/bad.php` | High
+47 | File | `admin/index.php` | High
+48 | File | `admin/index.php/user/del/1` | High
+49 | File | `admin/index.php?id=themes&action=edit_chunk` | High
+50 | File | `admin/products/controller.php?action=add` | High
+51 | ... | ... | ...
 
-There are 435 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 442 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -132,4 +133,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -152,7 +152,7 @@ ID | Type | Indicator | Confidence
 74 | File | `/home/<user>/SecurityOnion/setup/so-setup` | High
 75 | ... | ... | ...
 
-There are 656 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 655 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

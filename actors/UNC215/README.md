@@ -49,13 +49,13 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
 2 | File | `/api/baskets/{name}` | High
-3 | File | `/config/getuser` | High
-4 | File | `/h/` | Low
-5 | File | `/img/main.cgi` | High
-6 | File | `/lan.asp` | Medium
+3 | File | `/cgi-bin/cstecgi.cgi` | High
+4 | File | `/config/getuser` | High
+5 | File | `/h/` | Low
+6 | File | `/img/main.cgi` | High
 7 | ... | ... | ...
 
-There are 47 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 49 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

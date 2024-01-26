@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 8 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -43,11 +43,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-25, CWE-29, CWE-36 | Pathname Traversal | High
+1 | T1006 | CWE-22, CWE-23, CWE-24, CWE-36 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-250, CWE-264, CWE-266, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+5 | T1068 | CWE-264, CWE-266, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 6 | ... | ... | ... | ...
 
 There are 21 more TTP items available. Please use our online service to access the data.
@@ -59,48 +59,46 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `$HOME/.terminfo` | High
-2 | File | `/+CSCOE+/logon.html` | High
-3 | File | `/admin/upload/upload` | High
-4 | File | `/api/baskets/{name}` | High
-5 | File | `/api/gen/clients/{language}` | High
-6 | File | `/apply.cgi` | Medium
-7 | File | `/bin/login` | Medium
-8 | File | `/bin/mini_upnpd` | High
-9 | File | `/cgi-bin/wlogin.cgi` | High
-10 | File | `/config/myfield/test.php` | High
-11 | File | `/debug/pprof` | Medium
-12 | File | `/ecshop/admin/template.php` | High
-13 | File | `/file/upload/1` | High
-14 | File | `/forum/away.php` | High
-15 | File | `/forum/PostPrivateMessage` | High
-16 | File | `/goform/set_LimitClient_cfg` | High
-17 | File | `/h/autoSaveDraft` | High
-18 | File | `/h/search?action` | High
-19 | File | `/home/www/cgi-bin/login.cgi` | High
-20 | File | `/hss/admin/?page=products/view_product` | High
-21 | File | `/importexport.php` | High
-22 | File | `/index.php?app=main&func=passport&action=login` | High
-23 | File | `/mgmt/` | Low
-24 | File | `/multi-vendor-shopping-script/product-list.php` | High
-25 | File | `/net-banking/customer_transactions.php` | High
-26 | File | `/obs/book.php` | High
-27 | File | `/ossn/administrator/com_installer` | High
-28 | File | `/owa/auth/logon.aspx` | High
-29 | File | `/pms/update_user.php?user_id=1` | High
-30 | File | `/preview.php` | Medium
-31 | File | `/requests.php` | High
-32 | File | `/scripts/unlock_tasks.php` | High
-33 | File | `/secure/ViewCollectors` | High
-34 | File | `/spip.php` | Medium
-35 | File | `/sqlite3_aflpp/shell.c` | High
-36 | File | `/squashfs-root/etc_ro/custom.conf` | High
-37 | File | `/SVFE2/pages/feegroups/service_group.jsf` | High
-38 | File | `/sys/user/querySysUser?username=admin` | High
-39 | File | `/system/user/modules/mod_users/controller.php` | High
-40 | File | `/uncpath/` | Medium
-41 | ... | ... | ...
+2 | File | `/admin/` | Low
+3 | File | `/admin/admin_user.php` | High
+4 | File | `/admin/category/save` | High
+5 | File | `/admin/subject.php` | High
+6 | File | `/api/baskets/{name}` | High
+7 | File | `/auth/auth.php?user=1` | High
+8 | File | `/bin/login` | Medium
+9 | File | `/bin/mini_upnpd` | High
+10 | File | `/boaform/device_reset.cgi` | High
+11 | File | `/cgi-bin/cstecgi.cgi` | High
+12 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+13 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
+14 | File | `/cgi-bin/wlogin.cgi` | High
+15 | File | `/cgi/cpaddons_report.pl` | High
+16 | File | `/debug/pprof` | Medium
+17 | File | `/DXR.axd` | Medium
+18 | File | `/forum/away.php` | High
+19 | File | `/goform/goform_get_cmd_process` | High
+20 | File | `/goform/set_LimitClient_cfg` | High
+21 | File | `/h/autoSaveDraft` | High
+22 | File | `/h/search?action` | High
+23 | File | `/HNAP1/` | Low
+24 | File | `/hss/admin/?page=products/view_product` | High
+25 | File | `/importexport.php` | High
+26 | File | `/index.php?app=main&func=passport&action=login` | High
+27 | File | `/main/doctype.php` | High
+28 | File | `/main/webservices/additional_webservices.php` | High
+29 | File | `/mc` | Low
+30 | File | `/mgmt/` | Low
+31 | File | `/oauth/idp/.well-known/openid-configuration` | High
+32 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+33 | File | `/preview.php` | Medium
+34 | File | `/register.php` | High
+35 | File | `/scripts/unlock_tasks.php` | High
+36 | File | `/secure/ViewCollectors` | High
+37 | File | `/server-status` | High
+38 | File | `/setting/NTPSyncWithHost` | High
+39 | ... | ... | ...
 
-There are 352 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 332 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -118,4 +116,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

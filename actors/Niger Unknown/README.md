@@ -74,38 +74,44 @@ ID | Type | Indicator | Confidence
 19 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
 20 | File | `/classes/Master.php?f=save_inquiry` | High
 21 | File | `/collection/all` | High
-22 | File | `/config/list` | Medium
-23 | File | `/coreframe/app/guestbook/myissue.php` | High
-24 | File | `/dede/co_do.php` | High
-25 | File | `/DXR.axd` | Medium
-26 | File | `/etc/init.d/sshd_service` | High
-27 | File | `/filemanager/upload.php` | High
-28 | File | `/forum/away.php` | High
-29 | File | `/fuel/sitevariables/delete/4` | High
-30 | File | `/goform/saveParentControlInfo` | High
-31 | File | `/goform/setSnmpInfo` | High
-32 | File | `/if.cgi` | Low
-33 | File | `/include/make.php` | High
-34 | File | `/index.php` | Medium
-35 | File | `/index.php/admins/Fields/get_fields.html` | High
-36 | File | `/login` | Low
-37 | File | `/mgm_dev_reset.asp` | High
-38 | File | `/mifs/c/i/reg/reg.html` | High
-39 | File | `/modules/profile/index.php` | High
-40 | File | `/news.dtl.php` | High
-41 | File | `/odlms/classes/Master.php?f=delete_message` | High
-42 | File | `/php-sms/classes/SystemSettings.php` | High
-43 | File | `/php_action/createUser.php` | High
-44 | File | `/release-x64/otfccdump+0x6e7e3d` | High
-45 | File | `/reps/admin/?page=agents/manage_agent` | High
-46 | File | `/see_more_details.php` | High
-47 | File | `/services/Card/findUser` | High
-48 | File | `/services/details.asp` | High
-49 | File | `/setup` | Low
-50 | File | `/spip.php` | Medium
-51 | ... | ... | ...
+22 | File | `/config,admin.jsp` | High
+23 | File | `/config/list` | Medium
+24 | File | `/coreframe/app/guestbook/myissue.php` | High
+25 | File | `/dede/co_do.php` | High
+26 | File | `/DXR.axd` | Medium
+27 | File | `/etc/init.d/sshd_service` | High
+28 | File | `/filemanager/upload.php` | High
+29 | File | `/forum/away.php` | High
+30 | File | `/fuel/sitevariables/delete/4` | High
+31 | File | `/goform/saveParentControlInfo` | High
+32 | File | `/goform/setBlackRule` | High
+33 | File | `/goform/setSnmpInfo` | High
+34 | File | `/healthcare/Admin/consulting_detail.php` | High
+35 | File | `/if.cgi` | Low
+36 | File | `/include/make.php` | High
+37 | File | `/index.php` | Medium
+38 | File | `/index.php/admins/Fields/get_fields.html` | High
+39 | File | `/login` | Low
+40 | File | `/mgm_dev_reset.asp` | High
+41 | File | `/mifs/c/i/reg/reg.html` | High
+42 | File | `/modules/profile/index.php` | High
+43 | File | `/news.dtl.php` | High
+44 | File | `/odlms/classes/Master.php?f=delete_message` | High
+45 | File | `/php-sms/classes/SystemSettings.php` | High
+46 | File | `/php_action/createUser.php` | High
+47 | File | `/release-x64/otfccdump+0x6e7e3d` | High
+48 | File | `/reps/admin/?page=agents/manage_agent` | High
+49 | File | `/see_more_details.php` | High
+50 | File | `/services/Card/findUser` | High
+51 | File | `/services/details.asp` | High
+52 | File | `/setup` | Low
+53 | File | `/spip.php` | Medium
+54 | File | `/src/njs_object.c` | High
+55 | File | `/system/menu/list` | High
+56 | File | `/system/user/modules/mod_users/controller.php` | High
+57 | ... | ... | ...
 
-There are 448 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 502 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -124,4 +130,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

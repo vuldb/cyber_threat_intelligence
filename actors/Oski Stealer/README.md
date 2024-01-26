@@ -10,6 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [DE](https://vuldb.com/?country.de)
 * [US](https://vuldb.com/?country.us)
+* [GR](https://vuldb.com/?country.gr)
+* ...
+
+There are 2 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -17,8 +21,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [3.84.190.152](https://vuldb.com/?ip.3.84.190.152) | ec2-3-84-190-152.compute-1.amazonaws.com | - | Medium
-2 | [65.109.226.91](https://vuldb.com/?ip.65.109.226.91) | static.91.226.109.65.clients.your-server.de | - | High
+1 | [2.56.57.108](https://vuldb.com/?ip.2.56.57.108) | montoyalozano.imatee.com | - | High
+2 | [2.56.59.226](https://vuldb.com/?ip.2.56.59.226) | - | - | High
+3 | [3.84.190.152](https://vuldb.com/?ip.3.84.190.152) | ec2-3-84-190-152.compute-1.amazonaws.com | - | Medium
+4 | ... | ... | ... | ...
+
+There are 4 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -26,9 +34,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79 | Cross Site Scripting | High
-2 | T1505 | CWE-89 | SQL Injection | High
-3 | T1592 | CWE-200, CWE-209 | Configuration | High
+1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+2 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+3 | T1202 | CWE-77 | Command Injection | High
+4 | ... | ... | ... | ...
+
+There are 6 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -36,18 +47,19 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/spip.php` | Medium
-2 | File | `read.php` | Medium
-3 | File | `responsive_menus.module` | High
+1 | File | `/product.php` | Medium
+2 | File | `/spip.php` | Medium
+3 | File | `admin.php` | Medium
 4 | ... | ... | ...
 
-There are 5 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 23 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://app.any.run/tasks/ea90227b-85e8-45fa-9d2c-5fb655f4ac43/
+* https://threatfox.abuse.ch
 * https://tria.ge/220329-vdaqfacegr
 
 ## Literature
@@ -59,4 +71,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

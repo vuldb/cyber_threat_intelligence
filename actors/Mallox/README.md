@@ -9,6 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Mallox:
 
 * [RU](https://vuldb.com/?country.ru)
+* [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
 
 ## IOC - Indicator of Compromise
 
@@ -17,7 +19,27 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [43.138.76.102](https://vuldb.com/?ip.43.138.76.102) | - | - | High
-2 | [80.66.75.116](https://vuldb.com/?ip.80.66.75.116) | - | - | High
+2 | [64.185.227.155](https://vuldb.com/?ip.64.185.227.155) | api64.ipify.org | - | High
+3 | [80.66.75.37](https://vuldb.com/?ip.80.66.75.37) | - | - | High
+4 | ... | ... | ... | ...
+
+There are 4 more IOC items available. Please use our online service to access the data.
+
+## TTP - Tactics, Techniques, Procedures
+
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _Mallox_. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1592 | CWE-200 | Configuration | High
+
+## IOA - Indicator of Attack
+
+These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by Mallox. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Type | Indicator | Confidence
+-- | ---- | --------- | ----------
+1 | File | `tiki-login.php` | High
 
 ## References
 
@@ -25,6 +47,7 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://blog.cyble.com/2023/06/22/mallox-ransomware-implements-new-infection-strategy/
 * https://exchange.xforce.ibmcloud.com/report/details/guid:4d6f6e39c1b851d8882f5aaa5cb12209
+* https://www.sentinelone.com/blog/mallox-resurrected-ransomware-attacks-exploiting-ms-sql-continue-to-burden-enterprises/
 
 ## Literature
 
@@ -35,4 +58,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

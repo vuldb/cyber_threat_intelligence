@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 13 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -88,37 +88,37 @@ ID | Type | Indicator | Confidence
 12 | File | `/api/stl/actions/search` | High
 13 | File | `/api/sys/login` | High
 14 | File | `/api/sys/set_passwd` | High
-15 | File | `/api/v2/cli/commands` | High
-16 | File | `/app/options.py` | High
-17 | File | `/attachments` | Medium
-18 | File | `/bin/ate` | Medium
-19 | File | `/boat/login.php` | High
-20 | File | `/booking/show_bookings/` | High
-21 | File | `/bsms_ci/index.php/book` | High
-22 | File | `/cgi-bin` | Medium
-23 | File | `/cgi-bin/wlogin.cgi` | High
-24 | File | `/changePassword` | High
-25 | File | `/Content/Template/root/reverse-shell.aspx` | High
-26 | File | `/context/%2e/WEB-INF/web.xml` | High
+15 | File | `/api/trackedEntityInstances` | High
+16 | File | `/api/v2/cli/commands` | High
+17 | File | `/app/options.py` | High
+18 | File | `/attachments` | Medium
+19 | File | `/bin/ate` | Medium
+20 | File | `/boat/login.php` | High
+21 | File | `/booking/show_bookings/` | High
+22 | File | `/bsms_ci/index.php/book` | High
+23 | File | `/cgi-bin` | Medium
+24 | File | `/cgi-bin/wlogin.cgi` | High
+25 | File | `/changePassword` | High
+26 | File | `/Content/Template/root/reverse-shell.aspx` | High
 27 | File | `/dashboard/add-blog.php` | High
-28 | File | `/debug/pprof` | Medium
-29 | File | `/ecshop/admin/template.php` | High
-30 | File | `/env` | Low
-31 | File | `/etc/hosts` | Medium
-32 | File | `/etc/quagga` | Medium
-33 | File | `/forms/doLogin` | High
-34 | File | `/forum/away.php` | High
-35 | File | `/goform/wizard_end` | High
+28 | File | `/data/remove` | Medium
+29 | File | `/debug/pprof` | Medium
+30 | File | `/ecshop/admin/template.php` | High
+31 | File | `/env` | Low
+32 | File | `/etc/hosts` | Medium
+33 | File | `/etc/quagga` | Medium
+34 | File | `/forms/doLogin` | High
+35 | File | `/forum/away.php` | High
 36 | File | `/group1/uploa` | High
-37 | File | `/h/calendar` | Medium
+37 | File | `/index.php` | Medium
 38 | File | `/medicines/profile.php` | High
 39 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-40 | File | `/nova/bin/detnet` | High
-41 | File | `/php-sms/admin/?page=user/manage_user` | High
-42 | File | `/proxy` | Low
+40 | File | `/php-sms/admin/?page=user/manage_user` | High
+41 | File | `/proxy` | Low
+42 | File | `/reservation/add_message.php` | High
 43 | ... | ... | ...
 
-There are 376 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 368 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -139,4 +139,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [DE](https://vuldb.com/?country.de)
 * ...
 
-There are 5 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -21,12 +21,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [89.185.84.37](https://vuldb.com/?ip.89.185.84.37) | pkalan21.ip-ptr.tech | - | High
-2 | [104.21.21.50](https://vuldb.com/?ip.104.21.21.50) | - | - | High
-3 | [144.76.173.247](https://vuldb.com/?ip.144.76.173.247) | static.247.173.76.144.clients.your-server.de | - | High
+1 | [45.9.74.78](https://vuldb.com/?ip.45.9.74.78) | - | - | High
+2 | [77.73.134.68](https://vuldb.com/?ip.77.73.134.68) | - | - | High
+3 | [82.117.255.80](https://vuldb.com/?ip.82.117.255.80) | vds1223468.hosted-by-itldc.com | - | High
 4 | ... | ... | ... | ...
 
-There are 6 more IOC items available. Please use our online service to access the data.
+There are 11 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -39,7 +39,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 9 more TTP items available. Please use our online service to access the data.
+There are 10 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -50,28 +50,30 @@ ID | Type | Indicator | Confidence
 1 | File | `/admin/admin.php` | High
 2 | File | `/admin/comn/service/update.json` | High
 3 | File | `/admin/index.php?id=themes&action=edit_template&filename=blog` | High
-4 | File | `/filemanager/php/connector.php` | High
-5 | File | `/forum/PostPrivateMessage` | High
-6 | File | `/pages.php` | Medium
-7 | File | `/pages/processlogin.php` | High
-8 | File | `/tmp` | Low
-9 | File | `admin.cgi` | Medium
-10 | File | `admin/?page=system_info` | High
-11 | File | `admin/adminlogin.php` | High
-12 | File | `admin/gallery.php` | High
-13 | File | `article.php` | Medium
-14 | File | `articles.php` | Medium
-15 | File | `bb-hist.sh/bb-histlog.sh/bb-hostsvc.sh/bb-rep.sh/bb-replog.sh/bb-ack.sh` | High
-16 | File | `books.php` | Medium
-17 | ... | ... | ...
+4 | File | `/api/profile` | Medium
+5 | File | `/filemanager/php/connector.php` | High
+6 | File | `/forum/PostPrivateMessage` | High
+7 | File | `/pages.php` | Medium
+8 | File | `/pages/processlogin.php` | High
+9 | File | `/tmp` | Low
+10 | File | `admin.cgi` | Medium
+11 | File | `admin/?page=system_info` | High
+12 | File | `admin/adminlogin.php` | High
+13 | File | `admin/gallery.php` | High
+14 | File | `admin\posts\view_post.php` | High
+15 | File | `article.php` | Medium
+16 | File | `articles.php` | Medium
+17 | File | `bb-hist.sh/bb-histlog.sh/bb-hostsvc.sh/bb-rep.sh/bb-replog.sh/bb-ack.sh` | High
+18 | ... | ... | ...
 
-There are 140 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 147 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://blog.cyble.com/2023/01/06/lummac2-stealer-a-potent-threat-to-crypto-users/
+* https://de.darktrace.com/blog/the-rise-of-the-lumma-info-stealer
 * https://perception-point.io/blog/behind-the-attack-lumma-malware/
 * https://www.silentpush.com/blog/lummac2
 
@@ -84,4 +86,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 17 more country items available. Please use our online service to access the data.
+There are 18 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -70,19 +70,19 @@ ID | Type | Indicator | Confidence
 7 | File | `/apply.cgi` | Medium
 8 | File | `/CFIDE/probe.cfm` | High
 9 | File | `/cgi-bin/kerbynet` | High
-10 | File | `/collection/all` | High
-11 | File | `/conf/` | Low
-12 | File | `/dev/snd/seq` | Medium
-13 | File | `/etc/passwd` | Medium
-14 | File | `/goform/saveParentControlInfo` | High
-15 | File | `/goform/SetFirewallCfg` | High
-16 | File | `/goform/SysToolChangePwd` | High
-17 | File | `/nidp/app/login` | High
-18 | File | `/pms/admin/crimes/manage_crime.php` | High
-19 | File | `/proc` | Low
-20 | File | `/rapi/read_url` | High
-21 | File | `/release-x64/otfccdump` | High
-22 | File | `/rom-0` | Low
+10 | File | `/cgi-bin/wlogin.cgi` | High
+11 | File | `/collection/all` | High
+12 | File | `/conf/` | Low
+13 | File | `/dev/snd/seq` | Medium
+14 | File | `/etc/passwd` | Medium
+15 | File | `/goform/saveParentControlInfo` | High
+16 | File | `/goform/SetFirewallCfg` | High
+17 | File | `/goform/SysToolChangePwd` | High
+18 | File | `/nidp/app/login` | High
+19 | File | `/pms/admin/crimes/manage_crime.php` | High
+20 | File | `/proc` | Low
+21 | File | `/rapi/read_url` | High
+22 | File | `/release-x64/otfccdump` | High
 23 | File | `/sbin/conf.d/SuSEconfig.javarunt` | High
 24 | File | `/scripts/unlock_tasks.php` | High
 25 | File | `/see_more_details.php` | High
@@ -98,10 +98,9 @@ ID | Type | Indicator | Confidence
 35 | File | `admin/plugin-index.php` | High
 36 | File | `administration` | High
 37 | File | `administrative` | High
-38 | File | `ag_server_service.exe` | High
-39 | ... | ... | ...
+38 | ... | ... | ...
 
-There are 335 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 331 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -119,4 +118,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

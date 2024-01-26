@@ -112,21 +112,22 @@ ID | Type | Indicator | Confidence
 1 | File | `/api/sys/set_passwd` | High
 2 | File | `/bin/boa` | Medium
 3 | File | `/cgi-bin/wapopen` | High
-4 | File | `/dev/urandom` | Medium
-5 | File | `/etc/quantum/quantum.conf` | High
-6 | File | `/exec/` | Low
-7 | File | `/getcfg.php` | Medium
-8 | File | `/HNAP1` | Low
-9 | File | `/mgmt/tm/util/bash` | High
-10 | File | `/modules/projects/vw_files.php` | High
-11 | File | `/plain` | Low
-12 | File | `/staff/tools/custom-fields` | High
-13 | File | `/uncpath/` | Medium
-14 | File | `/xyhai.php?s=/Auth/editUser` | High
-15 | File | `/_next` | Low
-16 | ... | ... | ...
+4 | File | `/cgi-bin/wlogin.cgi` | High
+5 | File | `/dev/urandom` | Medium
+6 | File | `/etc/quantum/quantum.conf` | High
+7 | File | `/exec/` | Low
+8 | File | `/getcfg.php` | Medium
+9 | File | `/HNAP1` | Low
+10 | File | `/mgmt/tm/util/bash` | High
+11 | File | `/modules/projects/vw_files.php` | High
+12 | File | `/plain` | Low
+13 | File | `/staff/tools/custom-fields` | High
+14 | File | `/uncpath/` | Medium
+15 | File | `/xyhai.php?s=/Auth/editUser` | High
+16 | File | `/_next` | Low
+17 | ... | ... | ...
 
-There are 130 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 134 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -170,4 +171,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

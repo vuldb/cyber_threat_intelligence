@@ -48,11 +48,11 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -71,27 +71,27 @@ ID | Type | Indicator | Confidence
 9 | File | `/bitrix/admin/ldap_server_edit.php` | High
 10 | File | `/book-services.php` | High
 11 | File | `/cgi-bin/system_mgr.cgi` | High
-12 | File | `/cgi/get_param.cgi` | High
-13 | File | `/common/download_agent_installer.php` | High
-14 | File | `/common/run_cross_report.php` | High
-15 | File | `/Core/Ap4File.cpp` | High
-16 | File | `/csms/?page=contact_us` | High
-17 | File | `/dev/audio` | Medium
-18 | File | `/DS/LM_API/api/SelectionService/InsertQueryWithActiveRelationsReturnId` | High
-19 | File | `/DXR.axd` | Medium
-20 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-21 | File | `/en/blog-comment-4` | High
-22 | File | `/etc/crash` | Medium
-23 | File | `/etc/shadow` | Medium
-24 | File | `/EXCU_SHELL` | Medium
-25 | File | `/forum/away.php` | High
-26 | File | `/goform/addressNat` | High
-27 | File | `/goform/AddSysLogRule` | High
-28 | File | `/goform/NatStaticSetting` | High
-29 | File | `/goform/WifiBasicSet` | High
-30 | File | `/h/` | Low
-31 | File | `/index.php` | Medium
-32 | File | `/index.php?module=configuration/application` | High
+12 | File | `/cgi-bin/wlogin.cgi` | High
+13 | File | `/common/run_cross_report.php` | High
+14 | File | `/Core/Ap4File.cpp` | High
+15 | File | `/csms/?page=contact_us` | High
+16 | File | `/dev/audio` | Medium
+17 | File | `/DS/LM_API/api/SelectionService/InsertQueryWithActiveRelationsReturnId` | High
+18 | File | `/DXR.axd` | Medium
+19 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+20 | File | `/en/blog-comment-4` | High
+21 | File | `/etc/crash` | Medium
+22 | File | `/etc/shadow` | Medium
+23 | File | `/EXCU_SHELL` | Medium
+24 | File | `/forum/away.php` | High
+25 | File | `/goform/addressNat` | High
+26 | File | `/goform/AddSysLogRule` | High
+27 | File | `/goform/NatStaticSetting` | High
+28 | File | `/goform/WifiBasicSet` | High
+29 | File | `/h/` | Low
+30 | File | `/index.php` | Medium
+31 | File | `/index.php?module=configuration/application` | High
+32 | File | `/index.php?route=extension/module/so_filter_shop_by/filter_data` | High
 33 | ... | ... | ...
 
 There are 283 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
@@ -120,4 +120,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

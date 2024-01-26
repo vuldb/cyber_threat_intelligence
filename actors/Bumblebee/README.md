@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with BumbleBee:
 
+* [CN](https://vuldb.com/?country.cn)
 * [VN](https://vuldb.com/?country.vn)
 * [US](https://vuldb.com/?country.us)
-* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 7 more country items available. Please use our online service to access the data.
+There are 2 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -384,7 +384,7 @@ ID | IP address | Hostname | Campaign | Confidence
 361 | [47.58.200.234](https://vuldb.com/?ip.47.58.200.234) | 47-58-200-234.red-acceso.airtel.net | - | High
 362 | ... | ... | ... | ...
 
-There are 1443 more IOC items available. Please use our online service to access the data.
+There are 1444 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -392,14 +392,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-29, CWE-425 | Pathname Traversal | High
-2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-29 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -408,39 +407,46 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/.env` | Low
-2 | File | `/accounts/password_change/` | High
-3 | File | `/act/ActDao.xml` | High
-4 | File | `/api/baskets/{name}` | High
-5 | File | `/api/upload.php` | High
-6 | File | `/api /v3/auth` | High
-7 | File | `/b2b-supermarket/shopping-cart` | High
-8 | File | `/bin/login` | Medium
-9 | File | `/bsms_ci/index.php` | High
-10 | File | `/calendar/minimizer/index.php` | High
-11 | File | `/catalog/compare` | High
-12 | File | `/cgi-bin/cstecgi.cgi` | High
-13 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-14 | File | `/cgi-bin/downloadFile.cgi` | High
-15 | File | `/cgi-bin/kerbynet` | High
-16 | File | `/cgi-bin/wlogin.cgi` | High
-17 | File | `/clinic/disease_symptoms_view.php` | High
-18 | File | `/DesignTools/CssEditor.aspx` | High
-19 | File | `/DXR.axd` | Medium
-20 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-21 | File | `/forum/away.php` | High
-22 | File | `/geoserver/gwc/rest.html` | High
-23 | File | `/HNAP1/` | Low
-24 | File | `/importexport.php` | High
-25 | File | `/index.php/client/message/message_read/xxxxxxxx[random-msg-hash]` | High
-26 | File | `/login` | Low
-27 | File | `/mhds/clinic/view_details.php` | High
-28 | File | `/modals/class_form.php` | High
-29 | File | `/oauth/idp/.well-known/openid-configuration` | High
-30 | File | `/proc/#####/fd/3` | High
-31 | File | `/search.php` | Medium
-32 | ... | ... | ...
+2 | File | `/admin/clientview.php` | High
+3 | File | `/admin/edit_teacher.php` | High
+4 | File | `/admin/regester.php` | High
+5 | File | `/admin/update-clients.php` | High
+6 | File | `/api/cron/settings/setJob/` | High
+7 | File | `/api/sys/set_passwd` | High
+8 | File | `/api/trackedEntityInstances` | High
+9 | File | `/api/v1/terminal/sessions/?limit=1` | High
+10 | File | `/api/v4/teams//channels/deleted` | High
+11 | File | `/apply.cgi` | Medium
+12 | File | `/authenticationendpoint/login.do` | High
+13 | File | `/aux` | Low
+14 | File | `/b2b-supermarket/shopping-cart` | High
+15 | File | `/boaform/device_reset.cgi` | High
+16 | File | `/bsms_ci/index.php/user/edit_user/` | High
+17 | File | `/cgi-bin/cstecgi.cgi` | High
+18 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+19 | File | `/cgi-bin/R14.2/cgi-bin/R14.2/host.pl` | High
+20 | File | `/cgi-bin/R14.2/easy1350.pl` | High
+21 | File | `/config/getuser` | High
+22 | File | `/dashboard/snapshot/*?orgId=0` | High
+23 | File | `/data/remove` | Medium
+24 | File | `/debug/pprof` | Medium
+25 | File | `/dev/cpu/*/msr` | High
+26 | File | `/em/console/logon/logon` | High
+27 | File | `/endpoint/add-user.php` | High
+28 | File | `/filemanager/upload/drop` | High
+29 | File | `/forum/away.php` | High
+30 | File | `/forums/editforum.php` | High
+31 | File | `/goform/NatStaticSetting` | High
+32 | File | `/home/courses` | High
+33 | File | `/index.php` | Medium
+34 | File | `/Main_AdmStatus_Content.asp` | High
+35 | File | `/manager?action=getlogcat` | High
+36 | File | `/mehah/otclient` | High
+37 | File | `/modals/class_form.php` | High
+38 | File | `/modules/projects/vw_files.php` | High
+39 | ... | ... | ...
 
-There are 270 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 338 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -487,6 +493,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/216.48.179.106
 * https://search.censys.io/hosts/216.48.179.170
 * https://search.censys.io/hosts/216.48.179.174
+* https://search.censys.io/hosts/216.48.180.70
 * https://search.censys.io/hosts/216.48.181.201
 * https://search.censys.io/hosts/216.48.182.251
 * https://search.censys.io/hosts/216.48.183.41
@@ -519,4 +526,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

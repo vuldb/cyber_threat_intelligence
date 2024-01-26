@@ -62,32 +62,33 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/accounts/password_change/` | High
-2 | File | `/admin/assign/assign.php` | High
-3 | File | `/admin/casedetails.php` | High
-4 | File | `/admin/featured.php` | High
-5 | File | `/admin/index.php` | High
-6 | File | `/aqpg/users/login.php` | High
-7 | File | `/card/in-card.php` | High
-8 | File | `/conf/` | Low
-9 | File | `/config.cgi?webmin` | High
-10 | File | `/configs/application.ini` | High
-11 | File | `/controller/AdminController.php` | High
-12 | File | `/dishes.php` | Medium
-13 | File | `/DXR.axd` | Medium
-14 | File | `/fax/fax_send.php` | High
-15 | File | `/friends/ajax_invite` | High
-16 | File | `/mobile/downloadfile.aspx` | High
-17 | File | `/pages/animals.php` | High
-18 | File | `/products/view_product.php` | High
-19 | File | `/psrs/admin/categories/manage_category.php` | High
-20 | File | `/rom-0` | Low
-21 | File | `/sendrcpackage?keyid=-2544&keysymbol=-4081` | High
-22 | File | `/show_news.php` | High
-23 | File | `/siteminderagent/pwcgi/smpwservicescgi.exe` | High
-24 | File | `/Status/wan_button_action.asp` | High
-25 | ... | ... | ...
+2 | File | `/addbill.php` | Medium
+3 | File | `/admin/assign/assign.php` | High
+4 | File | `/admin/casedetails.php` | High
+5 | File | `/admin/featured.php` | High
+6 | File | `/admin/index.php` | High
+7 | File | `/ample/app/action/edit_product.php` | High
+8 | File | `/aqpg/users/login.php` | High
+9 | File | `/card/in-card.php` | High
+10 | File | `/conf/` | Low
+11 | File | `/config.cgi?webmin` | High
+12 | File | `/configs/application.ini` | High
+13 | File | `/controller/AdminController.php` | High
+14 | File | `/dishes.php` | Medium
+15 | File | `/DXR.axd` | Medium
+16 | File | `/fax/fax_send.php` | High
+17 | File | `/friends/ajax_invite` | High
+18 | File | `/mobile/downloadfile.aspx` | High
+19 | File | `/pages/animals.php` | High
+20 | File | `/products/view_product.php` | High
+21 | File | `/psrs/admin/categories/manage_category.php` | High
+22 | File | `/rom-0` | Low
+23 | File | `/sendrcpackage?keyid=-2544&keysymbol=-4081` | High
+24 | File | `/show_news.php` | High
+25 | File | `/siteminderagent/pwcgi/smpwservicescgi.exe` | High
+26 | ... | ... | ...
 
-There are 213 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 216 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -105,4 +106,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

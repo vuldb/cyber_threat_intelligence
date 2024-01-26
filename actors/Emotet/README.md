@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Emotet:
 
+* [CN](https://vuldb.com/?country.cn)
 * [VN](https://vuldb.com/?country.vn)
-* [ES](https://vuldb.com/?country.es)
 * [US](https://vuldb.com/?country.us)
 * ...
 
-There are 13 more country items available. Please use our online service to access the data.
+There are 9 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -954,15 +954,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-29, CWE-37, CWE-425 | Pathname Traversal | High
-2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
-7 | ... | ... | ... | ...
+1 | T1006 | CWE-22, CWE-425 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 23 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -970,36 +968,70 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/add-category.php` | High
-2 | File | `/admin/ajax.php` | High
-3 | File | `/admin/ajax.php?action=confirm_order` | High
-4 | File | `/adms/admin/?page=user/manage_user` | High
-5 | File | `/application/down.php` | High
-6 | File | `/bin/login` | Medium
-7 | File | `/calendar/minimizer/index.php` | High
-8 | File | `/catalog/compare` | High
-9 | File | `/cgi-bin/downloadFile.cgi` | High
-10 | File | `/cgi-bin/wlogin.cgi` | High
-11 | File | `/DXR.axd` | Medium
-12 | File | `/fax/fax_send.php` | High
-13 | File | `/forum/away.php` | High
-14 | File | `/geoserver/gwc/rest.html` | High
-15 | File | `/goform/goform_get_cmd_process` | High
-16 | File | `/importexport.php` | High
-17 | File | `/index.php` | Medium
-18 | File | `/main/webservices/additional_webservices.php` | High
-19 | File | `/mc` | Low
-20 | File | `/mhds/clinic/view_details.php` | High
-21 | File | `/oauth/idp/.well-known/openid-configuration` | High
-22 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-23 | File | `/proc/#####/fd/3` | High
-24 | File | `/public/login.htm` | High
-25 | File | `/setting` | Medium
-26 | File | `/squashfs-root/etc_ro/custom.conf` | High
-27 | File | `/uncpath/` | Medium
-28 | ... | ... | ...
+1 | File | `/admin/action/new-father.php` | High
+2 | File | `/admin/admin.php` | High
+3 | File | `/admin/edit_teacher.php` | High
+4 | File | `/admin/fields/manage_field.php` | High
+5 | File | `/admin/pages/subjects.php` | High
+6 | File | `/admin_route/dec_service_credits.php` | High
+7 | File | `/admin_route/inc_service_credits.php` | High
+8 | File | `/app/api/controller/default/Sqlite.php` | High
+9 | File | `/arch/x86/mm/cpu_entry_area.c` | High
+10 | File | `/aux` | Low
+11 | File | `/bin/boa` | Medium
+12 | File | `/bsms_ci/index.php` | High
+13 | File | `/bsms_ci/index.php/user/edit_user/` | High
+14 | File | `/cgi-bin/cstecgi.cgi` | High
+15 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+16 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+17 | File | `/dayrui/My/Config/Install.txt` | High
+18 | File | `/forum/away.php` | High
+19 | File | `/include/lang-en.php` | High
+20 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+21 | File | `/php/ping.php` | High
+22 | File | `/src/Illuminate/Laravel.php` | High
+23 | File | `/status/` | Medium
+24 | File | `/system/traceLog/page` | High
+25 | File | `/tmp/ppd.trace` | High
+26 | File | `/var/spool/fax/outgoing/.last_run` | High
+27 | File | `/Websquare/likeClickComment/` | High
+28 | File | `400.htm/500.htm` | High
+29 | File | `abitwhizzy.php` | High
+30 | File | `acc.php` | Low
+31 | File | `Account.asp` | Medium
+32 | File | `adclick.php` | Medium
+33 | File | `add-category.php` | High
+34 | File | `add-phlebotomist.php` | High
+35 | File | `addressbook.update.php` | High
+36 | File | `add_comment.php` | High
+37 | File | `add_post.php3` | High
+38 | File | `admin.php` | Medium
+39 | File | `admin/auth.php` | High
+40 | File | `admin/change-password.php` | High
+41 | File | `admin/contact.php` | High
+42 | File | `admin/edit-doctor-specialization.php` | High
+43 | File | `admin/index.php` | High
+44 | File | `admin/patient-search.php` | High
+45 | File | `admin/picture/picture_real_edit.asp` | High
+46 | File | `admin/query-details.php` | High
+47 | File | `admin/tool/policy/classes/output/page_viewalldoc.php` | High
+48 | File | `adminpanel/admin/facebox_modal/updateCourse.php` | High
+49 | File | `apachectl` | Medium
+50 | File | `apexec.pl` | Medium
+51 | File | `app\xml_cdr\xml_cdr_delete.php` | High
+52 | File | `ArchivesMapper.xml` | High
+53 | File | `assets/sources/instagram.php` | High
+54 | File | `attendance_report.php` | High
+55 | File | `authinfo.java` | High
+56 | File | `avatar.php` | Medium
+57 | File | `backup_xi.sh` | Medium
+58 | File | `bb-includes/formatting-functions.php` | High
+59 | File | `BBStore.php` | Medium
+60 | File | `board.php` | Medium
+61 | File | `books.php` | Medium
+62 | ... | ... | ...
 
-There are 241 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 545 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -1213,4 +1245,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

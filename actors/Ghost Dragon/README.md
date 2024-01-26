@@ -48,15 +48,15 @@ ID | Type | Indicator | Confidence
 1 | File | `/cdsms/classes/Master.php?f=delete_enrollment` | High
 2 | File | `/mifs/c/i/reg/reg.html` | High
 3 | File | `/server-info` | Medium
-4 | File | `/wp-json/oembed/1.0/embed?url` | High
-5 | File | `a2billing/customer/iridium_threed.php` | High
-6 | File | `admin.php?s=/Channel/add.html` | High
-7 | File | `admin/class-bulk-editor-list-table.php` | High
-8 | File | `administrator/components/com_media/helpers/media.php` | High
-9 | File | `auth.asp` | Medium
+4 | File | `/system/dept/edit` | High
+5 | File | `/wp-json/oembed/1.0/embed?url` | High
+6 | File | `a2billing/customer/iridium_threed.php` | High
+7 | File | `admin.php?s=/Channel/add.html` | High
+8 | File | `admin/class-bulk-editor-list-table.php` | High
+9 | File | `administrator/components/com_media/helpers/media.php` | High
 10 | ... | ... | ...
 
-There are 76 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 77 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -73,4 +73,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

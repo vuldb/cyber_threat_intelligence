@@ -81,18 +81,18 @@ ID | Type | Indicator | Confidence
 27 | File | `/dcim/sites/add/` | High
 28 | File | `/dev/ptpX` | Medium
 29 | File | `/etc/passwd` | Medium
-30 | File | `/goform/WifiBasicSet` | High
-31 | File | `/hrm/employeeview.php` | High
-32 | File | `/inc/topBarNav.php` | High
-33 | File | `/index.php?case=table&act=add&table=archive&admin_dir=admin` | High
-34 | File | `/members/view_member.php` | High
-35 | File | `/mgm_dev_reboot.asp` | High
-36 | File | `/MicroStrategyWS/happyaxis.jsp` | High
-37 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-38 | File | `/oauth/idp/.well-known/openid-configuration` | High
+30 | File | `/file-manager/upload.php` | High
+31 | File | `/forum/away.php` | High
+32 | File | `/goform/WifiBasicSet` | High
+33 | File | `/hrm/employeeview.php` | High
+34 | File | `/inc/topBarNav.php` | High
+35 | File | `/index.php?case=table&act=add&table=archive&admin_dir=admin` | High
+36 | File | `/members/view_member.php` | High
+37 | File | `/mgm_dev_reboot.asp` | High
+38 | File | `/MicroStrategyWS/happyaxis.jsp` | High
 39 | ... | ... | ...
 
-There are 333 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 332 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -109,4 +109,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

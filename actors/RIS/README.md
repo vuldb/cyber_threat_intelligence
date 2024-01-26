@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 12 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -156,7 +156,8 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+6 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+7 | ... | ... | ... | ...
 
 There are 22 more TTP items available. Please use our online service to access the data.
 
@@ -168,59 +169,65 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `%PROGRAMFILES(X86)%\TSplus\UserDesktop\themes.` | High
 2 | File | `.htaccess` | Medium
-3 | File | `/?p=products` | Medium
-4 | File | `/?r=recruit/resume/edit&op=status` | High
-5 | File | `/ad-list` | Medium
+3 | File | `/?r=recruit/resume/edit&op=status` | High
+4 | File | `/ad-list` | Medium
+5 | File | `/admin/` | Low
 6 | File | `/admin/?page=bike` | High
-7 | File | `/admin/add-category.php` | High
-8 | File | `/admin/config/uploadicon.php` | High
-9 | File | `/admin/controller/JobLogController.java` | High
-10 | File | `/admin/courses/manage_course.php` | High
-11 | File | `/admin/departments/manage_department.php` | High
-12 | File | `/admin/edit-accepted-appointment.php` | High
-13 | File | `/admin/edit-services.php` | High
-14 | File | `/admin/edit_subject.php` | High
-15 | File | `/admin/login.php` | High
-16 | File | `/admin/maintenance/view_designation.php` | High
-17 | File | `/admin/read.php?mudi=getSignal` | High
-18 | File | `/admin/reportupload.aspx` | High
-19 | File | `/admin/search-appointment.php` | High
-20 | File | `/admin/service.php` | High
-21 | File | `/admin/students/manage_academic.php` | High
-22 | File | `/admin/test_status.php` | High
-23 | File | `/admin/theme-edit.php` | High
-24 | File | `/api/baskets/{name}` | High
-25 | File | `/api/crontab` | Medium
-26 | File | `/api/stl/actions/search` | High
-27 | File | `/api/sys/login` | High
-28 | File | `/api/sys/set_passwd` | High
-29 | File | `/api2/html/` | Medium
-30 | File | `/apply.cgi` | Medium
-31 | File | `/archibus/login.axvw` | High
-32 | File | `/bin/ate` | Medium
-33 | File | `/blog` | Low
-34 | File | `/booking/show_bookings/` | High
-35 | File | `/cgi-bin` | Medium
-36 | File | `/change-language/de_DE` | High
-37 | File | `/changePassword` | High
-38 | File | `/company/store` | High
-39 | File | `/config` | Low
-40 | File | `/config/php.ini` | High
-41 | File | `/Content/Template/root/reverse-shell.aspx` | High
-42 | File | `/core/redirect` | High
-43 | File | `/csms/?page=contact_us` | High
-44 | File | `/dashboard/add-blog.php` | High
-45 | File | `/debug/pprof` | Medium
-46 | File | `/dipam/save-delegates.php` | High
-47 | File | `/ecshop/admin/template.php` | High
-48 | File | `/env` | Low
-49 | File | `/file_manager/admin/save_user.php` | High
-50 | File | `/forum/away.php` | High
-51 | File | `/friends` | Medium
-52 | File | `/goform/aspForm` | High
-53 | ... | ... | ...
+7 | File | `/admin/action/add_con.php` | High
+8 | File | `/admin/add-category.php` | High
+9 | File | `/admin/app` | Medium
+10 | File | `/admin/config/uploadicon.php` | High
+11 | File | `/admin/controller/JobLogController.java` | High
+12 | File | `/admin/courses/manage_course.php` | High
+13 | File | `/admin/departments/manage_department.php` | High
+14 | File | `/admin/edit-accepted-appointment.php` | High
+15 | File | `/admin/edit-services.php` | High
+16 | File | `/admin/login.php` | High
+17 | File | `/admin/maintenance/view_designation.php` | High
+18 | File | `/admin/manage-users.php` | High
+19 | File | `/admin/nav/update` | High
+20 | File | `/admin/read.php?mudi=getSignal` | High
+21 | File | `/admin/search-appointment.php` | High
+22 | File | `/admin/singlelogin.php?submit=1` | High
+23 | File | `/admin/students/manage_academic.php` | High
+24 | File | `/admin/test_status.php` | High
+25 | File | `/admin/theme-edit.php` | High
+26 | File | `/api/admin/system/store/order/list` | High
+27 | File | `/api/baskets/{name}` | High
+28 | File | `/api/log/killJob` | High
+29 | File | `/api/sys/login` | High
+30 | File | `/api/sys/set_passwd` | High
+31 | File | `/api/trackedEntityInstances` | High
+32 | File | `/apply.cgi` | Medium
+33 | File | `/archibus/login.axvw` | High
+34 | File | `/auth/auth.php?user=1` | High
+35 | File | `/aux` | Low
+36 | File | `/bin/ate` | Medium
+37 | File | `/blog` | Low
+38 | File | `/booking/show_bookings/` | High
+39 | File | `/cgi-bin/cstecgi.cgi` | High
+40 | File | `/change-language/de_DE` | High
+41 | File | `/changePassword` | High
+42 | File | `/company/store` | High
+43 | File | `/config` | Low
+44 | File | `/config,admin.jsp` | High
+45 | File | `/config/php.ini` | High
+46 | File | `/Content/Template/root/reverse-shell.aspx` | High
+47 | File | `/core/redirect` | High
+48 | File | `/csms/?page=contact_us` | High
+49 | File | `/dashboard/add-blog.php` | High
+50 | File | `/data/remove` | Medium
+51 | File | `/debug/pprof` | Medium
+52 | File | `/dipam/save-delegates.php` | High
+53 | File | `/download.php?file=author.png` | High
+54 | File | `/ecshop/admin/template.php` | High
+55 | File | `/forum/away.php` | High
+56 | File | `/friends` | Medium
+57 | File | `/goform/setModules` | High
+58 | File | `/group1/uploa` | High
+59 | ... | ... | ...
 
-There are 461 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 513 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -237,4 +244,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

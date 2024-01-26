@@ -21,7 +21,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [NL](https://vuldb.com/?country.nl)
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 9 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -83,43 +83,46 @@ ID | Type | Indicator | Confidence
 5 | File | `/admin/controller/JobLogController.java` | High
 6 | File | `/admin/doctors.php` | High
 7 | File | `/admin/submit-articles` | High
-8 | File | `/admin/subnets/ripe-query.php` | High
-9 | File | `/alphaware/summary.php` | High
-10 | File | `/api/` | Low
-11 | File | `/api/admin/store/product/list` | High
-12 | File | `/api/baskets/{name}` | High
-13 | File | `/api/stl/actions/search` | High
-14 | File | `/api/sys/login` | High
-15 | File | `/api/sys/set_passwd` | High
+8 | File | `/alphaware/summary.php` | High
+9 | File | `/api/` | Low
+10 | File | `/api/admin/store/product/list` | High
+11 | File | `/api/baskets/{name}` | High
+12 | File | `/api/stl/actions/search` | High
+13 | File | `/api/sys/login` | High
+14 | File | `/api/sys/set_passwd` | High
+15 | File | `/api/trackedEntityInstances` | High
 16 | File | `/api/v2/cli/commands` | High
 17 | File | `/apply.cgi` | Medium
 18 | File | `/attachments` | Medium
-19 | File | `/bin/ate` | Medium
-20 | File | `/boat/login.php` | High
-21 | File | `/booking/show_bookings/` | High
-22 | File | `/bsms_ci/index.php/book` | High
-23 | File | `/cgi-bin` | Medium
-24 | File | `/cgi-bin/wlogin.cgi` | High
-25 | File | `/changePassword` | High
-26 | File | `/Content/Template/root/reverse-shell.aspx` | High
-27 | File | `/context/%2e/WEB-INF/web.xml` | High
+19 | File | `/aux` | Low
+20 | File | `/bin/ate` | Medium
+21 | File | `/boat/login.php` | High
+22 | File | `/booking/show_bookings/` | High
+23 | File | `/bsms_ci/index.php/book` | High
+24 | File | `/cgi-bin` | Medium
+25 | File | `/cgi-bin/wlogin.cgi` | High
+26 | File | `/changePassword` | High
+27 | File | `/Content/Template/root/reverse-shell.aspx` | High
 28 | File | `/cwms/classes/Master.php?f=save_contact` | High
 29 | File | `/dashboard/add-blog.php` | High
-30 | File | `/debug/pprof` | Medium
-31 | File | `/ecshop/admin/template.php` | High
-32 | File | `/env` | Low
-33 | File | `/etc/hosts` | Medium
-34 | File | `/forum/away.php` | High
-35 | File | `/goform/wizard_end` | High
+30 | File | `/data/remove` | Medium
+31 | File | `/debug/pprof` | Medium
+32 | File | `/ecshop/admin/template.php` | High
+33 | File | `/env` | Low
+34 | File | `/etc/hosts` | Medium
+35 | File | `/forum/away.php` | High
 36 | File | `/group1/uploa` | High
 37 | File | `/hardware` | Medium
-38 | File | `/librarian/bookdetails.php` | High
-39 | File | `/medicines/profile.php` | High
-40 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-41 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-42 | ... | ... | ...
+38 | File | `/index.php` | Medium
+39 | File | `/librarian/bookdetails.php` | High
+40 | File | `/medicines/profile.php` | High
+41 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+42 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+43 | File | `/php-sms/admin/?page=user/manage_user` | High
+44 | File | `/proxy` | Low
+45 | ... | ... | ...
 
-There are 367 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 391 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -141,4 +144,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

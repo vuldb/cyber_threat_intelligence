@@ -9,7 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Outlaw Cryptominer:
 
 * [US](https://vuldb.com/?country.us)
-* [MN](https://vuldb.com/?country.mn)
+* [CN](https://vuldb.com/?country.cn)
+* [RU](https://vuldb.com/?country.ru)
+* ...
+
+There are 4 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -17,8 +21,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [67.205.129.169](https://vuldb.com/?ip.67.205.129.169) | - | - | High
-2 | [167.114.54.15](https://vuldb.com/?ip.167.114.54.15) | - | - | High
+1 | [45.9.148.59](https://vuldb.com/?ip.45.9.148.59) | - | - | High
+2 | [45.9.148.99](https://vuldb.com/?ip.45.9.148.99) | - | - | High
+3 | [45.9.148.117](https://vuldb.com/?ip.45.9.148.117) | - | - | High
+4 | ... | ... | ... | ...
+
+There are 13 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -26,12 +34,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1055 | CWE-74 | Injection | High
-2 | T1068 | CWE-269 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
-3 | T1204.001 | CWE-601 | Open Redirect | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-22, CWE-425 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 1 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -39,14 +48,24 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `redirector.php` | High
-2 | Argument | `Host` | Low
-3 | Argument | `url` | Low
+1 | File | `/ajax.php?action=read_msg` | High
+2 | File | `/debug/pprof` | Medium
+3 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
+4 | File | `/env` | Low
+5 | File | `/goform/SetNetControlList` | High
+6 | File | `/sns/classes/Users.php?f=save` | High
+7 | File | `/src/chatbotapp/chatWindow.java` | High
+8 | File | `/uncpath/` | Medium
+9 | File | `admin/categories_industry.php` | High
+10 | ... | ... | ...
+
+There are 78 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://de.darktrace.com/blog/outlaw-returns-uncovering-returning-features-and-new-tactics
 * https://www.cyber45.com
 
 ## Literature
@@ -58,4 +77,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

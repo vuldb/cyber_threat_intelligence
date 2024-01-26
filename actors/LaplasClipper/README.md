@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 13 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -21,12 +21,13 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [45.84.121.44](https://vuldb.com/?ip.45.84.121.44) | - | - | High
-2 | [45.159.188.125](https://vuldb.com/?ip.45.159.188.125) | coinreborn24.com | - | High
-3 | [45.159.189.105](https://vuldb.com/?ip.45.159.189.105) | . | - | High
-4 | ... | ... | ... | ...
+1 | [5.61.62.241](https://vuldb.com/?ip.5.61.62.241) | - | - | High
+2 | [45.84.121.44](https://vuldb.com/?ip.45.84.121.44) | - | - | High
+3 | [45.159.188.125](https://vuldb.com/?ip.45.159.188.125) | coinreborn24.com | - | High
+4 | [45.159.189.105](https://vuldb.com/?ip.45.159.189.105) | . | - | High
+5 | ... | ... | ... | ...
 
-There are 9 more IOC items available. Please use our online service to access the data.
+There are 14 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -39,8 +40,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
-7 | ... | ... | ... | ...
+6 | ... | ... | ... | ...
 
 There are 22 more TTP items available. Please use our online service to access the data.
 
@@ -57,7 +57,7 @@ ID | Type | Indicator | Confidence
 5 | File | `/admin/controller/JobLogController.java` | High
 6 | File | `/admin/delete_user.php` | High
 7 | File | `/admin/doctors.php` | High
-8 | File | `/admin/submit-articles` | High
+8 | File | `/admin/user/manage_user.php` | High
 9 | File | `/alphaware/summary.php` | High
 10 | File | `/api/` | Low
 11 | File | `/api/admin/store/product/list` | High
@@ -65,38 +65,40 @@ ID | Type | Indicator | Confidence
 13 | File | `/api/stl/actions/search` | High
 14 | File | `/api/sys/login` | High
 15 | File | `/api/sys/set_passwd` | High
-16 | File | `/api/v2/cli/commands` | High
-17 | File | `/attachments` | Medium
-18 | File | `/bin/ate` | Medium
-19 | File | `/boat/login.php` | High
-20 | File | `/booking/show_bookings/` | High
-21 | File | `/bsms_ci/index.php/book` | High
-22 | File | `/cas/logout` | Medium
-23 | File | `/cgi-bin` | Medium
-24 | File | `/cgi-bin/wlogin.cgi` | High
-25 | File | `/changePassword` | High
-26 | File | `/collection/all` | High
-27 | File | `/Content/Template/root/reverse-shell.aspx` | High
-28 | File | `/context/%2e/WEB-INF/web.xml` | High
+16 | File | `/api/trackedEntityInstances` | High
+17 | File | `/api/v2/cli/commands` | High
+18 | File | `/aux` | Low
+19 | File | `/bin/ate` | Medium
+20 | File | `/boat/login.php` | High
+21 | File | `/booking/show_bookings/` | High
+22 | File | `/bsms_ci/index.php/book` | High
+23 | File | `/cas/logout` | Medium
+24 | File | `/cgi-bin` | Medium
+25 | File | `/cgi-bin/wlogin.cgi` | High
+26 | File | `/changePassword` | High
+27 | File | `/collection/all` | High
+28 | File | `/Content/Template/root/reverse-shell.aspx` | High
 29 | File | `/dashboard/add-blog.php` | High
-30 | File | `/debug/pprof` | Medium
-31 | File | `/ecshop/admin/template.php` | High
-32 | File | `/env` | Low
-33 | File | `/etc/gsissh/sshd_config` | High
-34 | File | `/etc/hosts` | Medium
-35 | File | `/forum/away.php` | High
-36 | File | `/goform/wizard_end` | High
-37 | File | `/group1/uploa` | High
-38 | File | `/hrm/controller/employee.php` | High
-39 | File | `/medicines/profile.php` | High
-40 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-41 | File | `/out.php` | Medium
-42 | File | `/php-sms/admin/?page=user/manage_user` | High
-43 | File | `/proxy` | Low
-44 | File | `/reservation/add_message.php` | High
-45 | ... | ... | ...
+30 | File | `/data/remove` | Medium
+31 | File | `/debug/pprof` | Medium
+32 | File | `/ecshop/admin/template.php` | High
+33 | File | `/env` | Low
+34 | File | `/etc/gsissh/sshd_config` | High
+35 | File | `/etc/hosts` | Medium
+36 | File | `/forum/away.php` | High
+37 | File | `/goform/aspForm` | High
+38 | File | `/group1/uploa` | High
+39 | File | `/hrm/controller/employee.php` | High
+40 | File | `/index.php` | Medium
+41 | File | `/medicines/profile.php` | High
+42 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+43 | File | `/out.php` | Medium
+44 | File | `/php-sms/admin/?page=user/manage_user` | High
+45 | File | `/reservation/add_message.php` | High
+46 | File | `/resources//../` | High
+47 | ... | ... | ...
 
-There are 386 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 411 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -105,6 +107,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://app.any.run/tasks/6c910d55-f846-46f8-bfa5-b6af3986466c
 * https://app.any.run/tasks/47c2c5a4-d752-4ba2-a2d4-15665bd5aac3
 * https://bazaar.abuse.ch/sample/bd7b6f6ef2d0adfb9b2e058fc46ad29ff1edffc648f9d7408745916bb8a2f310/
+* https://de.darktrace.com/blog/laplas-clipper-defending-against-crypto-currency-thieves-with-detect-respond
 * https://github.com/Cisco-Talos/IOCs/blob/main/2023/02/new-mortalkombat-ransomware-and-laplas-clipper-malware-threats.txt
 * https://threatfox.abuse.ch
 * https://twitter.com/1ZRR4H/status/1623067548781539339
@@ -120,4 +123,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

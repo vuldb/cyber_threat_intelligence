@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [SH](https://vuldb.com/?country.sh)
-* [RU](https://vuldb.com/?country.ru)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 9 more country items available. Please use our online service to access the data.
+There are 6 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -25,12 +25,12 @@ ID | IP address | Hostname | Campaign | Confidence
 2 | [20.102.80.176](https://vuldb.com/?ip.20.102.80.176) | - | - | High
 3 | [20.150.218.195](https://vuldb.com/?ip.20.150.218.195) | - | - | High
 4 | [24.199.107.85](https://vuldb.com/?ip.24.199.107.85) | - | - | High
-5 | [45.42.45.104](https://vuldb.com/?ip.45.42.45.104) | - | - | High
-6 | [45.79.9.191](https://vuldb.com/?ip.45.79.9.191) | 45-79-9-191.ip.linodeusercontent.com | - | High
-7 | [45.131.64.31](https://vuldb.com/?ip.45.131.64.31) | 31.64.131.45.in-addr.arpa | - | High
+5 | [41.216.183.23](https://vuldb.com/?ip.41.216.183.23) | - | - | High
+6 | [41.216.183.94](https://vuldb.com/?ip.41.216.183.94) | - | - | High
+7 | [45.42.45.10](https://vuldb.com/?ip.45.42.45.10) | web9-redirect.me | - | High
 8 | ... | ... | ... | ...
 
-There are 27 more IOC items available. Please use our online service to access the data.
+There are 30 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -45,7 +45,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -55,61 +55,65 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.vscode/cody.json` | High
 2 | File | `/?r=email/api/mark&op=delFromSend` | High
-3 | File | `/about.php` | Medium
-4 | File | `/admin` | Low
-5 | File | `/admin/courses/view_course.php` | High
-6 | File | `/Admin/createClass.php` | High
-7 | File | `/admin/edit_product.php` | High
-8 | File | `/admin/products/manage_product.php` | High
-9 | File | `/admin/products/view_product.php` | High
-10 | File | `/admin/sales/view_details.php` | High
-11 | File | `/admin/students/view_details.php` | High
-12 | File | `/admin/sys_sql_query.php` | High
-13 | File | `/ajax/ajax_login.ashx` | High
-14 | File | `/api/download/updateFile` | High
-15 | File | `/api/v1/alerts` | High
-16 | File | `/blog` | Low
-17 | File | `/catalog/compare` | High
-18 | File | `/clinic/disease_symptoms_view.php` | High
-19 | File | `/collection/all` | High
-20 | File | `/common/log/list` | High
-21 | File | `/config/myfield/test.php` | High
-22 | File | `/dede/freelist_add.php` | High
-23 | File | `/dede/vote_add.php` | High
-24 | File | `/ecrire/exec/puce_statut.php` | High
-25 | File | `/edit_branch.php` | High
-26 | File | `/endpoint/add-user.php` | High
-27 | File | `/fcgi/scrut_fcgi.fcgi` | High
-28 | File | `/files/` | Low
-29 | File | `/forum/away.php` | High
-30 | File | `/goform/SetOnlineDevName` | High
-31 | File | `/goform/SetPptpServerCfg` | High
-32 | File | `/goform/SetSysTimeCfg` | High
-33 | File | `/index.php` | Medium
-34 | File | `/index.php?app=main&func=passport&action=login` | High
-35 | File | `/log/decodmail.php` | High
-36 | File | `/login.php?do=login` | High
-37 | File | `/log_proxy` | Medium
-38 | File | `/MailAdmin_dll.htm` | High
-39 | File | `/main/inc/ajax/work.ajax.php` | High
-40 | File | `/manage-apartment.php` | High
-41 | File | `/mhds/clinic/view_details.php` | High
-42 | File | `/mobileredir/openApp.jsp` | High
-43 | File | `/modules/projects/summary.inc.php` | High
-44 | File | `/modules/projects/vw_files.php` | High
-45 | File | `/multi-vendor-shopping-script/product-list.php` | High
-46 | File | `/northstar/Portal/processlogin.jsp` | High
-47 | File | `/Noxen-master/users.php` | High
-48 | File | `/oauth/idp/.well-known/openid-configuration` | High
-49 | File | `/owa/auth/logon.aspx` | High
-50 | ... | ... | ...
+3 | File | `/accounts/login` | High
+4 | File | `/accounts_con/register_account` | High
+5 | File | `/admin.php` | Medium
+6 | File | `/admin/` | Low
+7 | File | `/admin/action/new-feed.php` | High
+8 | File | `/admin/book_add.php` | High
+9 | File | `/admin/courses/view_course.php` | High
+10 | File | `/admin/database/backup` | High
+11 | File | `/admin/index.php?act=reset_admin_psw` | High
+12 | File | `/admin/list_onlineuser.php` | High
+13 | File | `/admin/sales/view_details.php` | High
+14 | File | `/admin/students/view_details.php` | High
+15 | File | `/admin/sys_sql_query.php` | High
+16 | File | `/ajax/ajax_login.ashx` | High
+17 | File | `/api/download/updateFile` | High
+18 | File | `/api/email/update` | High
+19 | File | `/Attachment/fromImageUrl` | High
+20 | File | `/b2b-supermarket/shopping-cart` | High
+21 | File | `/bin/boa` | Medium
+22 | File | `/blog` | Low
+23 | File | `/catalog/compare` | High
+24 | File | `/cgi-bin/cstecgi.cgi` | High
+25 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+26 | File | `/cgi-bin/wlogin.cgi` | High
+27 | File | `/classes/Master.php? f=save_medicine` | High
+28 | File | `/classes/Users.php?f=save` | High
+29 | File | `/clinic/disease_symptoms_view.php` | High
+30 | File | `/collection/all` | High
+31 | File | `/common/log/list` | High
+32 | File | `/content/list.do` | High
+33 | File | `/dataset/new` | Medium
+34 | File | `/edit_branch.php` | High
+35 | File | `/endpoint/add-user.php` | High
+36 | File | `/fcgi/scrut_fcgi.fcgi` | High
+37 | File | `/file` | Low
+38 | File | `/forum/away.php` | High
+39 | File | `/goform/SetNetControlList` | High
+40 | File | `/goform/SetOnlineDevName` | High
+41 | File | `/login` | Low
+42 | File | `/login.php?do=login` | High
+43 | File | `/log_proxy` | Medium
+44 | File | `/MailAdmin_dll.htm` | High
+45 | File | `/main/inc/ajax/work.ajax.php` | High
+46 | File | `/me` | Low
+47 | File | `/mhds/clinic/view_details.php` | High
+48 | File | `/mobileredir/openApp.jsp` | High
+49 | File | `/modals/class_form.php` | High
+50 | File | `/modules/projects/summary.inc.php` | High
+51 | ... | ... | ...
 
-There are 430 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 439 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://search.censys.io/hosts/41.216.183.23
+* https://search.censys.io/hosts/41.216.183.94
+* https://search.censys.io/hosts/45.42.45.10
 * https://threatfox.abuse.ch
 
 ## Literature
@@ -121,4 +125,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

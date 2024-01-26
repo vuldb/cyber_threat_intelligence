@@ -123,39 +123,39 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/admin.php` | High
-2 | File | `/admin/edit-doc.php` | High
-3 | File | `/admin/imageslider/file.php` | High
-4 | File | `/admin/sign/out` | High
-5 | File | `/api/admin/store/product/list` | High
-6 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-7 | File | `/cgi-bin/luci` | High
-8 | File | `/cgi-bin/qcmap_auth` | High
-9 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-10 | File | `/cgi-bin/viewcert` | High
-11 | File | `/config/getuser` | High
-12 | File | `/core/vb/vurl.php` | High
-13 | File | `/debug/pprof` | Medium
-14 | File | `/etc/gsissh/sshd_config` | High
-15 | File | `/etc/ldap.conf` | High
-16 | File | `/eval/admin/manage_class.php` | High
-17 | File | `/getcfg.php` | Medium
-18 | File | `/goform/telnet` | High
-19 | File | `/goform/WanParameterSetting` | High
-20 | File | `/importTool/preview` | High
-21 | File | `/include/makecvs.php` | High
-22 | File | `/js/app.js` | Medium
-23 | File | `/mgmt/tm/util/bash` | High
-24 | File | `/mods/_core/courses/users/create_course.php` | High
-25 | File | `/monitoring` | Medium
-26 | File | `/phppath/php` | Medium
-27 | File | `/plugins/Dashboard/Controller.php` | High
-28 | File | `/server-status` | High
-29 | File | `/uncpath/` | Medium
-30 | File | `/ureport/designer/saveReportFile` | High
+1 | File | `/admin/edit-doc.php` | High
+2 | File | `/admin/sign/out` | High
+3 | File | `/api/admin/store/product/list` | High
+4 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+5 | File | `/cgi-bin/luci` | High
+6 | File | `/cgi-bin/qcmap_auth` | High
+7 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
+8 | File | `/cgi-bin/viewcert` | High
+9 | File | `/config/getuser` | High
+10 | File | `/core/vb/vurl.php` | High
+11 | File | `/debug/pprof` | Medium
+12 | File | `/etc/gsissh/sshd_config` | High
+13 | File | `/etc/ldap.conf` | High
+14 | File | `/eval/admin/manage_class.php` | High
+15 | File | `/getcfg.php` | Medium
+16 | File | `/goform/telnet` | High
+17 | File | `/goform/WanParameterSetting` | High
+18 | File | `/importTool/preview` | High
+19 | File | `/include/makecvs.php` | High
+20 | File | `/js/app.js` | Medium
+21 | File | `/mgmt/tm/util/bash` | High
+22 | File | `/mods/_core/courses/users/create_course.php` | High
+23 | File | `/monitoring` | Medium
+24 | File | `/phppath/php` | Medium
+25 | File | `/server-status` | High
+26 | File | `/uncpath/` | Medium
+27 | File | `/ureport/designer/saveReportFile` | High
+28 | File | `?page=about` | Medium
+29 | File | `addentry.php` | Medium
+30 | File | `add_comment.php` | High
 31 | ... | ... | ...
 
-There are 266 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 260 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -206,4 +206,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

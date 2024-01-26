@@ -20,7 +20,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 19 more country items available. Please use our online service to access the data.
+There are 17 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -550,44 +550,45 @@ ID | Type | Indicator | Confidence
 10 | File | `/admin/edit-accepted-appointment.php` | High
 11 | File | `/admin/edit-services.php` | High
 12 | File | `/admin/edit_category.php` | High
-13 | File | `/admin/edit_subject.php` | High
-14 | File | `/admin/forgot-password.php` | High
-15 | File | `/admin/index.php` | High
-16 | File | `/admin/reg.php` | High
-17 | File | `/admin/search-appointment.php` | High
-18 | File | `/admin/sys_sql_query.php` | High
+13 | File | `/admin/forgot-password.php` | High
+14 | File | `/admin/index.php` | High
+15 | File | `/admin/reg.php` | High
+16 | File | `/admin/search-appointment.php` | High
+17 | File | `/admin/sys_sql_query.php` | High
+18 | File | `/admin/users` | Medium
 19 | File | `/api/admin/system/store/order/list` | High
 20 | File | `/api/baskets/{name}` | High
 21 | File | `/api/sys/login` | High
 22 | File | `/api/sys/set_passwd` | High
 23 | File | `/api/trackedEntityInstances` | High
-24 | File | `/app/options.py` | High
-25 | File | `/appliance/users?action=edit` | High
-26 | File | `/apply.cgi` | Medium
-27 | File | `/bin/ate` | Medium
-28 | File | `/blog` | Low
-29 | File | `/booking/show_bookings/` | High
-30 | File | `/changePassword` | High
-31 | File | `/classes/master.php?f=delete_order` | High
-32 | File | `/collection/all` | High
-33 | File | `/Content/Template/root/reverse-shell.aspx` | High
-34 | File | `/csms/?page=contact_us` | High
-35 | File | `/dashboard/add-blog.php` | High
-36 | File | `/debug/pprof` | Medium
-37 | File | `/dipam/athlete-profile.php` | High
-38 | File | `/ecshop/admin/template.php` | High
-39 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-40 | File | `/env` | Low
-41 | File | `/forum/away.php` | High
-42 | File | `/fusion/portal/action/Link` | High
-43 | File | `/group1/uploa` | High
-44 | File | `/h/autoSaveDraft` | High
-45 | File | `/HNAP1/` | Low
-46 | File | `/importexport.php` | High
-47 | File | `/index.php` | Medium
-48 | ... | ... | ...
+24 | File | `/api/v4/teams//channels/deleted` | High
+25 | File | `/app/options.py` | High
+26 | File | `/appliance/users?action=edit` | High
+27 | File | `/apply.cgi` | Medium
+28 | File | `/aux` | Low
+29 | File | `/bin/ate` | Medium
+30 | File | `/blog` | Low
+31 | File | `/booking/show_bookings/` | High
+32 | File | `/cgi-bin/cstecgi.cgi` | High
+33 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+34 | File | `/changePassword` | High
+35 | File | `/classes/master.php?f=delete_order` | High
+36 | File | `/collection/all` | High
+37 | File | `/Content/Template/root/reverse-shell.aspx` | High
+38 | File | `/csms/?page=contact_us` | High
+39 | File | `/dashboard/add-blog.php` | High
+40 | File | `/data/remove` | Medium
+41 | File | `/debug/pprof` | Medium
+42 | File | `/dipam/athlete-profile.php` | High
+43 | File | `/ecshop/admin/template.php` | High
+44 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+45 | File | `/forum/away.php` | High
+46 | File | `/fusion/portal/action/Link` | High
+47 | File | `/group1/uploa` | High
+48 | File | `/h/autoSaveDraft` | High
+49 | ... | ... | ...
 
-There are 419 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 421 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -613,4 +614,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

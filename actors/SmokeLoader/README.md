@@ -15,12 +15,9 @@ The following _campaigns_ are known and can be associated with SmokeLoader:
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with SmokeLoader:
 
-* [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
+* [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
-* ...
-
-There are 14 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -50,7 +47,7 @@ ID | IP address | Hostname | Campaign | Confidence
 20 | [31.210.170.195](https://vuldb.com/?ip.31.210.170.195) | vps16632.hosted-by.eurohoster.online | - | High
 21 | ... | ... | ... | ...
 
-There are 78 more IOC items available. Please use our online service to access the data.
+There are 80 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -59,14 +56,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | T1068 | CWE-264, CWE-269, CWE-274, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
-7 | ... | ... | ... | ...
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+4 | ... | ... | ... | ...
 
-There are 23 more TTP items available. Please use our online service to access the data.
+There are 12 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -74,72 +68,41 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.pref.xml` | Medium
-2 | File | `/acms/classes/Master.php?f=delete_cargo` | High
-3 | File | `/admin.add` | Medium
-4 | File | `/admin.php/news/admin/topic/save` | High
-5 | File | `/admin/comn/service/update.json` | High
-6 | File | `/admin/edit-doc.php` | High
-7 | File | `/admin/edit_member.php` | High
-8 | File | `/admin/edit_review.php` | High
-9 | File | `/admin/order.php` | High
-10 | File | `/admin/profile/save_profile` | High
-11 | File | `/api/admin/store/product/list` | High
-12 | File | `/api/v2/labels/` | High
-13 | File | `/aux` | Low
-14 | File | `/cgi-bin/koha/acqui/supplier.pl?op=enter` | High
-15 | File | `/cgi-bin/luci` | High
-16 | File | `/config/getuser` | High
-17 | File | `/debug/pprof` | Medium
-18 | File | `/dl/dl_print.php` | High
-19 | File | `/etc/gsissh/sshd_config` | High
-20 | File | `/film-rating.php` | High
-21 | File | `/forum/away.php` | High
-22 | File | `/gateway/services/EdgeServiceImpl` | High
-23 | File | `/getcfg.php` | Medium
-24 | File | `/goform/dir_setWanWifi` | High
-25 | File | `/goform/setmac` | High
-26 | File | `/goform/telnet` | High
-27 | File | `/goform/WanParameterSetting` | High
-28 | File | `/inc/extensions.php` | High
-29 | File | `/include/makecvs.php` | High
-30 | File | `/index.php` | Medium
-31 | File | `/info.xml` | Medium
-32 | File | `/js/app.js` | Medium
-33 | File | `/librarian/bookdetails.php` | High
-34 | File | `/mgmt/tm/util/bash` | High
-35 | File | `/MIME/INBOX-MM-1/` | High
-36 | File | `/monitoring` | Medium
-37 | File | `/ofcms/company-c-47` | High
-38 | File | `/opac/Actions.php?a=login` | High
-39 | File | `/opt/pia/ruby/64/ruby` | High
-40 | File | `/Pwrchute` | Medium
-41 | File | `/ServletAPI/accounts/login` | High
-42 | File | `/spip.php` | Medium
-43 | File | `/src/Illuminate/Laravel.php` | High
-44 | File | `/student/bookdetails.php` | High
-45 | File | `/usr/sbin/httpd` | High
-46 | File | `/util/print.c` | High
-47 | File | `/vloggers_merch/admin/?page=product/manage_product` | High
-48 | File | `/web/MCmsAction.java` | High
-49 | File | `/wp-content/plugins/forum-server/feed.php` | High
-50 | File | `about.php` | Medium
-51 | File | `account.asp` | Medium
-52 | File | `accounts/payment_history.php` | High
-53 | File | `adclick.php` | Medium
-54 | ... | ... | ...
+1 | File | `/admin/edit-doc.php` | High
+2 | File | `/api/admin/store/product/list` | High
+3 | File | `/cgi-bin/qcmap_auth` | High
+4 | File | `/config/getuser` | High
+5 | File | `/debug/pprof` | Medium
+6 | File | `/etc/gsissh/sshd_config` | High
+7 | File | `/film-rating.php` | High
+8 | File | `/getcfg.php` | Medium
+9 | File | `/goform/telnet` | High
+10 | File | `/goform/WanParameterSetting` | High
+11 | File | `/include/makecvs.php` | High
+12 | File | `/index.php` | Medium
+13 | File | `/js/app.js` | Medium
+14 | File | `/librarian/bookdetails.php` | High
+15 | File | `/mgmt/tm/util/bash` | High
+16 | File | `/monitoring` | Medium
+17 | File | `/student/bookdetails.php` | High
+18 | File | `/ureport/designer/saveReportFile` | High
+19 | File | `account.asp` | Medium
+20 | File | `admin.php` | Medium
+21 | ... | ... | ...
 
-There are 469 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 177 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://bazaar.abuse.ch/sample/0cbee59f9e035659029cc87768c25903a603582a0d247460dcbbf6bf497311c4/
+* https://bazaar.abuse.ch/sample/1ce005163f0931b60a2340dae83894ab89a710d930c7e0c28da75b41518a6ef3/
 * https://bazaar.abuse.ch/sample/3ab01b2ae713f3f64d98e50cc72e066329b78751621d91b01f4b1736b69163fa/
 * https://bazaar.abuse.ch/sample/5bbe4ff9dc3e2fb44d356785216d39faa2ea386b1a5227798aea9c2d18b8b3fa/
 * https://bazaar.abuse.ch/sample/5e30a88fb1c9a45bd6697990493098ca05e87b2560172ae89e9811ea887ff8b4/#intel
 * https://bazaar.abuse.ch/sample/83b5b5e0e33939cd18fbb34cb15e39647d93aeeb878df52a324f73f357749811/
+* https://bazaar.abuse.ch/sample/217098c45eed16334b9d30551cc45b8a7b5e028163ee2bbc0d0906c2b381a1c4/
 * https://bazaar.abuse.ch/sample/ea8ecda6aaf0a6560b614a46a33112caf8ab6404be64ced23fa202737ddbacbf/
 * https://blog.talosintelligence.com/2020/01/threat-roundup-0124-0131.html
 * https://blog.talosintelligence.com/2021/07/threat-roundup-0716-0723.html
@@ -161,4 +124,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

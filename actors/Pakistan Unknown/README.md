@@ -237,14 +237,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-35, CWE-36 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-35, CWE-36 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -257,45 +257,46 @@ ID | Type | Indicator | Confidence
 3 | File | `/admin/` | Low
 4 | File | `/admin/inquiries/view_inquiry.php` | High
 5 | File | `/admin/maintenance/view_designation.php` | High
-6 | File | `/admin/report/index.php` | High
-7 | File | `/api/baskets/{name}` | High
-8 | File | `/api/runscript` | High
-9 | File | `/app/search/table` | High
-10 | File | `/APR/signup.php` | High
-11 | File | `/author_posts.php` | High
-12 | File | `/bin/sh` | Low
-13 | File | `/cgi-bin/wlogin.cgi` | High
-14 | File | `/classes/Master.php?f=delete_service` | High
-15 | File | `/classes/Master.php?f=save_brand` | High
-16 | File | `/classes/Master.php?f=save_course` | High
-17 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
-18 | File | `/E-mobile/App/System/File/downfile.php` | High
-19 | File | `/Electron/download` | High
-20 | File | `/forum/away.php` | High
-21 | File | `/ghost/preview` | High
-22 | File | `/goform/set_LimitClient_cfg` | High
-23 | File | `/htdocs/cgibin` | High
-24 | File | `/inc/topBarNav.php` | High
-25 | File | `/index.php/client/message/message_read/xxxxxxxx[random-msg-hash]` | High
-26 | File | `/mhds/clinic/view_details.php` | High
-27 | File | `/mims/login.php` | High
-28 | File | `/out.php` | Medium
-29 | File | `/proxy` | Low
-30 | File | `/reviewer/system/system/admins/manage/users/user-update.php` | High
-31 | File | `/scripts/unlock_tasks.php` | High
-32 | File | `/search-result.php` | High
-33 | File | `/search.php` | Medium
-34 | File | `/send_order.cgi?parameter=access_detect` | High
-35 | File | `/spip.php` | Medium
-36 | File | `/text/pdf/PdfReader.java` | High
-37 | File | `/textpattern/index.php` | High
-38 | File | `/tmp` | Low
-39 | File | `/VPortal/mgtconsole/Subscribers.jsp` | High
-40 | File | `/wp-admin/admin-ajax.php` | High
-41 | File | `account/signup.php` | High
-42 | ... | ... | ...
+6 | File | `/admin/pages/edit_chicken.php` | High
+7 | File | `/admin/pages/student-print.php` | High
+8 | File | `/admin/report/index.php` | High
+9 | File | `/admin_route/inc_service_credits.php` | High
+10 | File | `/api/baskets/{name}` | High
+11 | File | `/api/runscript` | High
+12 | File | `/app/Http/Controllers/ImageController.php` | High
+13 | File | `/app/search/table` | High
+14 | File | `/author_posts.php` | High
+15 | File | `/bin/sh` | Low
+16 | File | `/boaform/device_reset.cgi` | High
+17 | File | `/boaform/wlan_basic_set.cgi` | High
+18 | File | `/cgi-bin/cstecgi.cgi` | High
+19 | File | `/cgi-bin/login.cgi` | High
+20 | File | `/cgi-bin/wlogin.cgi` | High
+21 | File | `/classes/Master.php?f=delete_service` | High
+22 | File | `/classes/Master.php?f=save_brand` | High
+23 | File | `/classes/Master.php?f=save_course` | High
+24 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
+25 | File | `/E-mobile/App/System/File/downfile.php` | High
+26 | File | `/Electron/download` | High
+27 | File | `/forum/away.php` | High
+28 | File | `/ghost/preview` | High
+29 | File | `/goform/AdvSetLanip` | High
+30 | File | `/goform/formDefault` | High
+31 | File | `/goform/set_LimitClient_cfg` | High
+32 | File | `/htdocs/cgibin` | High
+33 | File | `/inc/topBarNav.php` | High
+34 | File | `/index.php/client/message/message_read/xxxxxxxx[random-msg-hash]` | High
+35 | File | `/mhds/clinic/view_details.php` | High
+36 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+37 | File | `/oauth/idp/.well-known/openid-configuration` | High
+38 | File | `/out.php` | Medium
+39 | File | `/products/view_product.php` | High
+40 | File | `/proxy` | Low
+41 | File | `/register.do` | Medium
+42 | File | `/reviewer/system/system/admins/manage/users/user-update.php` | High
+43 | ... | ... | ...
 
-There are 360 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 368 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -314,4 +315,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

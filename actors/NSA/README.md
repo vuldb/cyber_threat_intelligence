@@ -68,54 +68,55 @@ ID | Type | Indicator | Confidence
 8 | File | `/Admin/add-student.php` | High
 9 | File | `/admin/api/theme-edit/` | High
 10 | File | `/admin/index3.php` | High
-11 | File | `/admin/photo.php` | High
-12 | File | `/adms/admin/?page=vehicles/view_transaction` | High
-13 | File | `/anony/mjpg.cgi` | High
-14 | File | `/apply.cgi` | Medium
-15 | File | `/auth` | Low
-16 | File | `/catcompany.php` | High
-17 | File | `/cms/category/list` | High
-18 | File | `/dashboard/view-chair-list.php` | High
-19 | File | `/Default/Bd` | Medium
-20 | File | `/ebics-server/ebics.aspx` | High
-21 | File | `/egroupware/index.php` | High
-22 | File | `/etc/hosts` | Medium
-23 | File | `/filemanager/upload.php` | High
-24 | File | `/forms/doLogin` | High
-25 | File | `/forum/away.php` | High
-26 | File | `/GponForm/device_Form?script/` | High
-27 | File | `/GponForm/fsetup_Form` | High
-28 | File | `/GponForm/usb_restore_Form?script/` | High
-29 | File | `/hrm/employeeview.php` | High
-30 | File | `/html/device-id` | High
-31 | File | `/importexport.php` | High
-32 | File | `/includes/decorators/global-translations.jsp` | High
-33 | File | `/index.php` | Medium
-34 | File | `/loginsave.php` | High
-35 | File | `/param.file.tgz` | High
-36 | File | `/product_list.php` | High
-37 | File | `/public_html/users.php` | High
-38 | File | `/secure/QueryComponent!Default.jspa` | High
-39 | File | `/see_more_details.php` | High
-40 | File | `/server-status` | High
-41 | File | `/setSystemAdmin` | High
-42 | File | `/uncpath/` | Medium
-43 | File | `/user/s.php` | Medium
-44 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
-45 | File | `/WEB-INF/web.xml` | High
-46 | File | `/wireless/guestnetwork.asp` | High
-47 | File | `?r=recruit/interview/export&interviews=x` | High
-48 | File | `a2dp_aac_decoder.cc` | High
-49 | File | `actbar3.ocx` | Medium
-50 | File | `adclick.php` | Medium
-51 | File | `add-locker-form.php` | High
-52 | File | `addentry.php` | Medium
-53 | File | `admin.php` | Medium
-54 | File | `admin/booking_report.php` | High
-55 | File | `admin/executar_login.php` | High
-56 | ... | ... | ...
+11 | File | `/admin/manage-users.php` | High
+12 | File | `/admin/photo.php` | High
+13 | File | `/adms/admin/?page=vehicles/view_transaction` | High
+14 | File | `/anony/mjpg.cgi` | High
+15 | File | `/apply.cgi` | Medium
+16 | File | `/auth` | Low
+17 | File | `/catcompany.php` | High
+18 | File | `/cms/category/list` | High
+19 | File | `/dashboard/view-chair-list.php` | High
+20 | File | `/Default/Bd` | Medium
+21 | File | `/ebics-server/ebics.aspx` | High
+22 | File | `/egroupware/index.php` | High
+23 | File | `/etc/hosts` | Medium
+24 | File | `/filemanager/upload.php` | High
+25 | File | `/forms/doLogin` | High
+26 | File | `/forum/away.php` | High
+27 | File | `/GponForm/device_Form?script/` | High
+28 | File | `/GponForm/fsetup_Form` | High
+29 | File | `/GponForm/usb_restore_Form?script/` | High
+30 | File | `/hrm/employeeview.php` | High
+31 | File | `/html/device-id` | High
+32 | File | `/importexport.php` | High
+33 | File | `/includes/decorators/global-translations.jsp` | High
+34 | File | `/index.php` | Medium
+35 | File | `/loginsave.php` | High
+36 | File | `/param.file.tgz` | High
+37 | File | `/product_list.php` | High
+38 | File | `/public_html/users.php` | High
+39 | File | `/secure/QueryComponent!Default.jspa` | High
+40 | File | `/see_more_details.php` | High
+41 | File | `/server-status` | High
+42 | File | `/setSystemAdmin` | High
+43 | File | `/uncpath/` | Medium
+44 | File | `/user/s.php` | Medium
+45 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
+46 | File | `/WEB-INF/web.xml` | High
+47 | File | `/wireless/guestnetwork.asp` | High
+48 | File | `?r=recruit/interview/export&interviews=x` | High
+49 | File | `a2dp_aac_decoder.cc` | High
+50 | File | `actbar3.ocx` | Medium
+51 | File | `adclick.php` | Medium
+52 | File | `add-locker-form.php` | High
+53 | File | `addentry.php` | Medium
+54 | File | `admin.php` | Medium
+55 | File | `admin/booking_report.php` | High
+56 | File | `admin/executar_login.php` | High
+57 | ... | ... | ...
 
-There are 492 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 495 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -132,4 +133,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -18,11 +18,11 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [46.161.1.172](https://vuldb.com/?ip.46.161.1.172) | free.gbnhost.com | - | High
-2 | [81.177.22.179](https://vuldb.com/?ip.81.177.22.179) | cl.hostlix.ru | - | High
-3 | [82.54.254.143](https://vuldb.com/?ip.82.54.254.143) | host-82-54-254-143.retail.telecomitalia.it | - | High
+2 | [66.175.212.25](https://vuldb.com/?ip.66.175.212.25) | 66-175-212-25.ip.linodeusercontent.com | - | High
+3 | [81.177.22.179](https://vuldb.com/?ip.81.177.22.179) | cl.hostlix.ru | - | High
 4 | ... | ... | ... | ...
 
-There are 8 more IOC items available. Please use our online service to access the data.
+There are 9 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -30,12 +30,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059 | CWE-94 | Cross Site Scripting | High
-2 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-3 | T1068 | CWE-264 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+1 | T1006 | CWE-22 | Pathname Traversal | High
+2 | T1059 | CWE-94 | Cross Site Scripting | High
+3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 3 more TTP items available. Please use our online service to access the data.
+There are 14 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -43,12 +43,29 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `admin.php` | Medium
-2 | File | `data/gbconfiguration.dat` | High
-3 | File | `inc/config.php` | High
-4 | ... | ... | ...
+1 | File | `/admin/` | Low
+2 | File | `/admin/featured.php` | High
+3 | File | `/admin/slider.php` | High
+4 | File | `/admin/users.php` | High
+5 | File | `/apiclient/ember/index.jsp` | High
+6 | File | `/category.php` | High
+7 | File | `/cgi/ansi` | Medium
+8 | File | `/dev/datum/` | Medium
+9 | File | `/getImage` | Medium
+10 | File | `/goform/` | Medium
+11 | File | `/holiday.php` | Medium
+12 | File | `/home/dna/spool/.pfile` | High
+13 | File | `/html/feed.php` | High
+14 | File | `/inc/campaign/view-campaign-list.php` | High
+15 | File | `/index.php` | Medium
+16 | File | `/install/index.php` | High
+17 | File | `/lists/index.php` | High
+18 | File | `/myAccount` | Medium
+19 | File | `/real-estate-script/search_property.php` | High
+20 | File | `/SAAS/WEB-INF` | High
+21 | ... | ... | ...
 
-There are 12 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 176 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -66,4 +83,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

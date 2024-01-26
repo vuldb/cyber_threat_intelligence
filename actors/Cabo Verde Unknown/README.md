@@ -53,49 +53,50 @@ ID | Type | Indicator | Confidence
 1 | File | `.htaccess` | Medium
 2 | File | `/?Page=Node/OBJ=/System/DeviceFolder/DeviceFolder/DateTime/Action=Submit` | High
 3 | File | `/acms/admin/cargo_types/manage_cargo_type.php` | High
-4 | File | `/admin/ajax/avatar.php` | High
-5 | File | `/admin/forgot-password.php` | High
-6 | File | `/admin/index.php` | High
-7 | File | `/admin/lab.php` | High
-8 | File | `/admin/login.php` | High
-9 | File | `/admin/payment.php` | High
-10 | File | `/admin/show.php` | High
-11 | File | `/api/json/admin/getmailserversettings` | High
-12 | File | `/default.php?idx=17` | High
-13 | File | `/download` | Medium
-14 | File | `/env` | Low
-15 | File | `/forum/away.php` | High
-16 | File | `/home.php` | Medium
-17 | File | `/index.php` | Medium
-18 | File | `/opt/bin/cli` | Medium
-19 | File | `/p` | Low
-20 | File | `/patient/doctors.php` | High
-21 | File | `/phpinventory/editcategory.php` | High
-22 | File | `/product-list.php` | High
-23 | File | `/rest/api/2/user/picker` | High
-24 | File | `/RestAPI` | Medium
-25 | File | `/spip.php` | Medium
-26 | File | `/uncpath/` | Medium
-27 | File | `/updown/upload.cgi` | High
-28 | File | `/user/del.php` | High
-29 | File | `/wp-admin/admin-ajax.php` | High
-30 | File | `/_next` | Low
-31 | File | `123flashchat.php` | High
-32 | File | `act.php` | Low
-33 | File | `admin.php` | Medium
-34 | File | `admin.php/pay` | High
-35 | File | `admin/bad.php` | High
-36 | File | `admin/index.php` | High
-37 | File | `admin/index.php/user/del/1` | High
-38 | File | `admin/index.php?id=themes&action=edit_chunk` | High
-39 | File | `administrator/index.php` | High
-40 | File | `affich.php` | Medium
-41 | File | `agenda.php` | Medium
-42 | File | `ajax/render/widget_php` | High
-43 | File | `album_portal.php` | High
-44 | ... | ... | ...
+4 | File | `/admin/add-services.php` | High
+5 | File | `/admin/ajax/avatar.php` | High
+6 | File | `/admin/edit-services.php` | High
+7 | File | `/admin/forgot-password.php` | High
+8 | File | `/admin/index.php` | High
+9 | File | `/admin/lab.php` | High
+10 | File | `/admin/login.php` | High
+11 | File | `/admin/payment.php` | High
+12 | File | `/admin/show.php` | High
+13 | File | `/api/json/admin/getmailserversettings` | High
+14 | File | `/boat/login.php` | High
+15 | File | `/clinic/disease_symptoms_view.php` | High
+16 | File | `/default.php?idx=17` | High
+17 | File | `/download` | Medium
+18 | File | `/env` | Low
+19 | File | `/forum/away.php` | High
+20 | File | `/home.php` | Medium
+21 | File | `/index.php` | Medium
+22 | File | `/opt/bin/cli` | Medium
+23 | File | `/p` | Low
+24 | File | `/patient/doctors.php` | High
+25 | File | `/phpinventory/editcategory.php` | High
+26 | File | `/product-list.php` | High
+27 | File | `/rest/api/2/user/picker` | High
+28 | File | `/RestAPI` | Medium
+29 | File | `/spip.php` | Medium
+30 | File | `/uncpath/` | Medium
+31 | File | `/updown/upload.cgi` | High
+32 | File | `/user/del.php` | High
+33 | File | `/wp-admin/admin-ajax.php` | High
+34 | File | `/_next` | Low
+35 | File | `123flashchat.php` | High
+36 | File | `act.php` | Low
+37 | File | `admin.php` | Medium
+38 | File | `admin.php/pay` | High
+39 | File | `admin/bad.php` | High
+40 | File | `admin/index.php` | High
+41 | File | `admin/index.php/user/del/1` | High
+42 | File | `admin/index.php?id=themes&action=edit_chunk` | High
+43 | File | `admin/products/controller.php?action=add` | High
+44 | File | `administrator/index.php` | High
+45 | ... | ... | ...
 
-There are 379 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 393 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -113,4 +114,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

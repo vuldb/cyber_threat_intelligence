@@ -57,36 +57,37 @@ ID | Type | Indicator | Confidence
 1 | File | `//etc/RT2870STA.dat` | High
 2 | File | `/admin/sign/out` | High
 3 | File | `/categorypage.php` | High
-4 | File | `/cgi-bin/luci` | High
-5 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-6 | File | `/cgi-bin/user/Config.cgi` | High
-7 | File | `/cgi-bin/viewcert` | High
-8 | File | `/common/info.cgi` | High
-9 | File | `/config/getuser` | High
-10 | File | `/configs/application.ini` | High
-11 | File | `/core/vb/vurl.php` | High
-12 | File | `/defaultui/player/modern.html` | High
-13 | File | `/eval/admin/manage_class.php` | High
-14 | File | `/forum/away.php` | High
-15 | File | `/modules/projects/vw_files.php` | High
-16 | File | `/nagiosxi/admin/graphtemplates.php` | High
-17 | File | `/oauth/idp/.well-known/openid-configuration` | High
-18 | File | `/pro-school/indexphp?student/message/send_reply/` | High
-19 | File | `/server-status` | High
-20 | File | `/squashfs-root/www/HNAP1/control/SetMasterWLanSettings.php` | High
-21 | File | `/tools/required/files/importers/imageeditor` | High
-22 | File | `/uncpath/` | Medium
-23 | File | `/usr/bin/pkexec` | High
-24 | File | `/usr/local/nagiosxi/html/admin/sshterm.php` | High
-25 | File | `/wp-admin/admin-ajax.php` | High
-26 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-27 | File | `/wp-json/wc/v3/webhooks` | High
-28 | File | `/xwiki/bin/view/AppWithinMinutes/CreateApplication?wizard=true` | High
-29 | File | `7za.exe` | Low
-30 | File | `?page=about` | Medium
-31 | ... | ... | ...
+4 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+5 | File | `/cgi-bin/luci` | High
+6 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
+7 | File | `/cgi-bin/user/Config.cgi` | High
+8 | File | `/cgi-bin/viewcert` | High
+9 | File | `/common/info.cgi` | High
+10 | File | `/config/getuser` | High
+11 | File | `/configs/application.ini` | High
+12 | File | `/core/vb/vurl.php` | High
+13 | File | `/defaultui/player/modern.html` | High
+14 | File | `/eval/admin/manage_class.php` | High
+15 | File | `/forum/away.php` | High
+16 | File | `/modules/projects/vw_files.php` | High
+17 | File | `/nagiosxi/admin/graphtemplates.php` | High
+18 | File | `/oauth/idp/.well-known/openid-configuration` | High
+19 | File | `/pro-school/indexphp?student/message/send_reply/` | High
+20 | File | `/server-status` | High
+21 | File | `/squashfs-root/www/HNAP1/control/SetMasterWLanSettings.php` | High
+22 | File | `/tools/required/files/importers/imageeditor` | High
+23 | File | `/uncpath/` | Medium
+24 | File | `/usr/bin/pkexec` | High
+25 | File | `/usr/local/nagiosxi/html/admin/sshterm.php` | High
+26 | File | `/wp-admin/admin-ajax.php` | High
+27 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+28 | File | `/wp-json/wc/v3/webhooks` | High
+29 | File | `/xwiki/bin/view/AppWithinMinutes/CreateApplication?wizard=true` | High
+30 | File | `7za.exe` | Low
+31 | File | `?page=about` | Medium
+32 | ... | ... | ...
 
-There are 268 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 275 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -104,4 +105,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
