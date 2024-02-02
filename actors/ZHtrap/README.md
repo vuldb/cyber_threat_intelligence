@@ -83,9 +83,10 @@ ID | Type | Indicator | Confidence
 31 | File | `/php-sms/classes/Master.php` | High
 32 | File | `/php_action/createUser.php` | High
 33 | File | `/plugin/dataDictionary/tableView.do` | High
-34 | ... | ... | ...
+34 | File | `/preferences/tags` | High
+35 | ... | ... | ...
 
-There are 295 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 297 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

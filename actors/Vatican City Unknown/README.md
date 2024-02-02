@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Vatican City Unknown:
 
 * [US](https://vuldb.com/?country.us)
-* [IL](https://vuldb.com/?country.il)
 * [TR](https://vuldb.com/?country.tr)
+* [FR](https://vuldb.com/?country.fr)
 * ...
 
-There are 9 more country items available. Please use our online service to access the data.
+There are 8 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -83,12 +83,12 @@ ID | Type | Indicator | Confidence
 17 | File | `/goform/SetLEDCfg` | High
 18 | File | `/goform/setMacFilterCfg` | High
 19 | File | `/goform/setSysAdm` | High
-20 | File | `/inc/campaign_save.php` | High
-21 | File | `/jerry-core/ecma/operations/ecma-get-put-value.c` | High
-22 | File | `/leave_system/classes/Master.php?f=delete_department` | High
-23 | File | `/linux/main.cpp` | High
-24 | File | `/magick/quantize.c` | High
-25 | File | `/modules/profile/index.php` | High
+20 | File | `/healthcare/Admin/consulting_detail.php` | High
+21 | File | `/inc/campaign_save.php` | High
+22 | File | `/jerry-core/ecma/operations/ecma-get-put-value.c` | High
+23 | File | `/leave_system/classes/Master.php?f=delete_department` | High
+24 | File | `/linux/main.cpp` | High
+25 | File | `/magick/quantize.c` | High
 26 | File | `/Monitoring-History.php` | High
 27 | File | `/plugin/rundeck/webhook/` | High
 28 | File | `/publisher` | Medium
@@ -102,7 +102,7 @@ ID | Type | Indicator | Confidence
 36 | File | `/sws/swsAlert.sws` | High
 37 | File | `/v1/sql-runner` | High
 38 | File | `/var/mail` | Medium
-39 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+39 | File | `/zm/index.php` | High
 40 | File | `actions.c` | Medium
 41 | File | `actions/doreport.php` | High
 42 | File | `adclick.php` | Medium
@@ -111,9 +111,13 @@ ID | Type | Indicator | Confidence
 45 | File | `admin.html` | Medium
 46 | File | `admin/admin_users.php` | High
 47 | File | `agenda.php` | Medium
-48 | ... | ... | ...
+48 | File | `alert.php` | Medium
+49 | File | `api.php` | Low
+50 | File | `AppRestrictionController.java` | High
+51 | File | `arch/x86/kvm/lapic.c` | High
+52 | ... | ... | ...
 
-There are 417 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 451 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

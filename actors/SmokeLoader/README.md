@@ -88,9 +88,10 @@ ID | Type | Indicator | Confidence
 18 | File | `/ureport/designer/saveReportFile` | High
 19 | File | `account.asp` | Medium
 20 | File | `admin.php` | Medium
-21 | ... | ... | ...
+21 | File | `admin/establishment/manage.php` | High
+22 | ... | ... | ...
 
-There are 177 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 178 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

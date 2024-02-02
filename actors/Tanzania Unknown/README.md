@@ -117,8 +117,8 @@ ID | Type | Indicator | Confidence
 7 | File | `/admin/del_service.php` | High
 8 | File | `/admin/index.php` | High
 9 | File | `/admin/index2.html` | High
-10 | File | `/admin/scripts/pi-hole/phpqueryads.php` | High
-11 | File | `/api/audits` | Medium
+10 | File | `/admin/read.php?mudi=announContent` | High
+11 | File | `/admin/scripts/pi-hole/phpqueryads.php` | High
 12 | File | `/api/authentication/login` | High
 13 | File | `/api/resource/Item?fields` | High
 14 | File | `/api/upload.php` | High
@@ -132,31 +132,31 @@ ID | Type | Indicator | Confidence
 22 | File | `/bitrix/admin/ldap_server_edit.php` | High
 23 | File | `/cgi-bin/activate.cgi` | High
 24 | File | `/cgi-bin/kerbynet` | High
-25 | File | `/cgi-bin/luci/api/switch` | High
-26 | File | `/cgi-bin/luci/api/wireless` | High
-27 | File | `/cgi-bin/luci;stok=/locale` | High
-28 | File | `/cgi-bin/qcmap_auth` | High
-29 | File | `/cgi-bin/wapopen` | High
-30 | File | `/classes/Master.php?f=delete_category` | High
-31 | File | `/classes/Master.php?f=delete_inquiry` | High
-32 | File | `/classes/Master.php?f=delete_item` | High
-33 | File | `/classes/Master.php?f=delete_service` | High
-34 | File | `/classes/Master.php?f=save_service` | High
-35 | File | `/classes/Users.php` | High
-36 | File | `/classes/Users.php?f=save` | High
-37 | File | `/CMD_ACCOUNT_ADMIN` | High
-38 | File | `/conf/` | Low
-39 | File | `/config/getuser` | High
-40 | File | `/config/php.ini` | High
-41 | File | `/Content/Plugins/uploader/FileChoose.html?fileUrl=/Upload/File/Pics/&parent` | High
-42 | File | `/controller/OnlinePreviewController.java` | High
-43 | File | `/dayrui/My/View/main.html` | High
-44 | File | `/debug/pprof` | Medium
-45 | File | `/etc/init.d/openfire` | High
-46 | File | `/etc/sudoers` | Medium
+25 | File | `/cgi-bin/login.cgi` | High
+26 | File | `/cgi-bin/luci/api/switch` | High
+27 | File | `/cgi-bin/luci/api/wireless` | High
+28 | File | `/cgi-bin/luci;stok=/locale` | High
+29 | File | `/cgi-bin/qcmap_auth` | High
+30 | File | `/cgi-bin/wapopen` | High
+31 | File | `/classes/Master.php?f=delete_category` | High
+32 | File | `/classes/Master.php?f=delete_inquiry` | High
+33 | File | `/classes/Master.php?f=delete_item` | High
+34 | File | `/classes/Master.php?f=delete_service` | High
+35 | File | `/classes/Master.php?f=save_service` | High
+36 | File | `/classes/Users.php` | High
+37 | File | `/classes/Users.php?f=save` | High
+38 | File | `/CMD_ACCOUNT_ADMIN` | High
+39 | File | `/conf/` | Low
+40 | File | `/config/getuser` | High
+41 | File | `/config/php.ini` | High
+42 | File | `/Content/Plugins/uploader/FileChoose.html?fileUrl=/Upload/File/Pics/&parent` | High
+43 | File | `/controller/OnlinePreviewController.java` | High
+44 | File | `/core/admin/categories.php` | High
+45 | File | `/cupseasylive/taxstructuredisplay.php` | High
+46 | File | `/dayrui/My/View/main.html` | High
 47 | ... | ... | ...
 
-There are 408 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 412 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

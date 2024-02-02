@@ -21,7 +21,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [MO](https://vuldb.com/?country.mo)
 * ...
 
-There are 5 more country items available. Please use our online service to access the data.
+There are 6 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -59,18 +59,18 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/ajax.php?action=read_msg` | High
-2 | File | `/debug/pprof` | Medium
-3 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
-4 | File | `/env` | Low
-5 | File | `/goform/SetNetControlList` | High
-6 | File | `/Search-Results` | High
-7 | File | `/src/chatbotapp/chatWindow.java` | High
-8 | File | `/usr/bin/pkexec` | High
-9 | File | `admin/categories_industry.php` | High
-10 | File | `admin/class-woo-popup-admin.php` | High
+2 | File | `/change_password_process` | High
+3 | File | `/debug/pprof` | Medium
+4 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
+5 | File | `/env` | Low
+6 | File | `/goform/SetNetControlList` | High
+7 | File | `/Search-Results` | High
+8 | File | `/src/chatbotapp/chatWindow.java` | High
+9 | File | `/usr/bin/pkexec` | High
+10 | File | `admin/categories_industry.php` | High
 11 | ... | ... | ...
 
-There are 79 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 87 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

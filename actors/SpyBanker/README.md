@@ -9,6 +9,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with SpyBanker:
 
 * [US](https://vuldb.com/?country.us)
+* [RU](https://vuldb.com/?country.ru)
 
 ## IOC - Indicator of Compromise
 
@@ -16,8 +17,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [89.23.101.40](https://vuldb.com/?ip.89.23.101.40) | - | - | High
-2 | [176.124.32.39](https://vuldb.com/?ip.176.124.32.39) | - | - | High
+1 | [79.137.205.212](https://vuldb.com/?ip.79.137.205.212) | Zugzwangwork9.aeza.network | - | High
+2 | [89.23.101.40](https://vuldb.com/?ip.89.23.101.40) | - | - | High
+3 | [176.124.32.39](https://vuldb.com/?ip.176.124.32.39) | - | - | High
+4 | ... | ... | ... | ...
+
+There are 1 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -51,6 +56,7 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://threatfox.abuse.ch
 * https://twitter.com/h_krobot/status/1749447223631290527
+* https://twitter.com/malwrhunterteam/status/1750590052001026402
 
 ## Literature
 

@@ -53,41 +53,41 @@ ID | Type | Indicator | Confidence
 4 | File | `/contact.php` | Medium
 5 | File | `/FreshRSS/p/ext.php` | High
 6 | File | `/HNAP1` | Low
-7 | File | `/mgmt/tm/util/bash` | High
-8 | File | `/mims/login.php` | High
-9 | File | `/opt/IBM/es/lib/libffq.cryptionjni.so` | High
-10 | File | `/php-sms/classes/Master.php?f=save_quote` | High
-11 | File | `/product_list.php` | High
-12 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-13 | File | `/services/details.asp` | High
-14 | File | `/SystemMng.ashx` | High
-15 | File | `/uncpath/` | Medium
-16 | File | `account/signup.php` | High
-17 | File | `action/usermanager.htm` | High
-18 | File | `adb/adb_client.c` | High
-19 | File | `adclick.php` | Medium
-20 | File | `add-category.php` | High
-21 | File | `addentry.php` | Medium
-22 | File | `add_comment.php` | High
-23 | File | `add_edit_user.asp` | High
-24 | File | `adm-admlog.php` | High
-25 | File | `admin.php` | Medium
-26 | File | `admin.php3` | Medium
-27 | File | `admin.webring.docs.php` | High
-28 | File | `admin/admin_editor.php` | High
-29 | File | `admin/conf_users_edit.php` | High
-30 | File | `admin_login.asp` | High
-31 | File | `ajax.php` | Medium
-32 | File | `auth-gss2.c` | Medium
-33 | File | `blocks/block-Old_Articles.php` | High
-34 | File | `board.php` | Medium
-35 | File | `books.php` | Medium
-36 | File | `buy.php` | Low
-37 | File | `cashconfirm.php` | High
-38 | File | `category.cfm` | Medium
+7 | File | `/index.php` | Medium
+8 | File | `/mgmt/tm/util/bash` | High
+9 | File | `/mims/login.php` | High
+10 | File | `/opt/IBM/es/lib/libffq.cryptionjni.so` | High
+11 | File | `/php-sms/classes/Master.php?f=save_quote` | High
+12 | File | `/product_list.php` | High
+13 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+14 | File | `/services/details.asp` | High
+15 | File | `/SystemMng.ashx` | High
+16 | File | `/uncpath/` | Medium
+17 | File | `account/signup.php` | High
+18 | File | `action/usermanager.htm` | High
+19 | File | `adb/adb_client.c` | High
+20 | File | `adclick.php` | Medium
+21 | File | `add-category.php` | High
+22 | File | `addentry.php` | Medium
+23 | File | `add_comment.php` | High
+24 | File | `add_edit_user.asp` | High
+25 | File | `adm-admlog.php` | High
+26 | File | `admin.php` | Medium
+27 | File | `admin.php3` | Medium
+28 | File | `admin.webring.docs.php` | High
+29 | File | `admin/admin_editor.php` | High
+30 | File | `admin/conf_users_edit.php` | High
+31 | File | `admin_login.asp` | High
+32 | File | `ajax.php` | Medium
+33 | File | `auth-gss2.c` | Medium
+34 | File | `blocks/block-Old_Articles.php` | High
+35 | File | `board.php` | Medium
+36 | File | `books.php` | Medium
+37 | File | `buy.php` | Low
+38 | File | `cashconfirm.php` | High
 39 | ... | ... | ...
 
-There are 337 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 339 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

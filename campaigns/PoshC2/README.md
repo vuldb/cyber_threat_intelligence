@@ -36,9 +36,10 @@ ID | IP address | Hostname | Actor | Confidence
 4 | [18.134.14.164](https://vuldb.com/?ip.18.134.14.164) | ec2-18-134-14-164.eu-west-2.compute.amazonaws.com | [PoshC2](https://vuldb.com/?actor.poshc2) | Medium
 5 | [35.80.38.180](https://vuldb.com/?ip.35.80.38.180) | ec2-35-80-38-180.us-west-2.compute.amazonaws.com | [PoshC2](https://vuldb.com/?actor.poshc2) | Medium
 6 | [35.202.253.45](https://vuldb.com/?ip.35.202.253.45) | 45.253.202.35.bc.googleusercontent.com | [PoshC2](https://vuldb.com/?actor.poshc2) | Medium
-7 | ... | ... | ... | ...
+7 | [45.79.196.203](https://vuldb.com/?ip.45.79.196.203) | 45-79-196-203.ip.linodeusercontent.com | [PoshC2](https://vuldb.com/?actor.poshc2) | High
+8 | ... | ... | ... | ...
 
-There are 25 more IOC items available. Please use our online service to access the data.
+There are 27 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -51,7 +52,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 12 more TTP items available. Please use our online service to access the data.
+There are 13 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -86,6 +87,7 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://search.censys.io/hosts/13.48.77.144
 * https://search.censys.io/hosts/18.134.14.164
 * https://search.censys.io/hosts/45.79.196.203
+* https://search.censys.io/hosts/46.101.126.207
 * https://search.censys.io/hosts/51.250.38.28
 * https://search.censys.io/hosts/65.20.68.219
 * https://search.censys.io/hosts/70.77.124.96
@@ -96,7 +98,9 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://search.censys.io/hosts/157.245.128.27
 * https://search.censys.io/hosts/159.100.29.105
 * https://search.censys.io/hosts/161.35.21.152
+* https://search.censys.io/hosts/165.227.246.129
 * https://search.censys.io/hosts/184.72.153.18
+* https://search.censys.io/hosts/185.167.63.27
 * https://search.censys.io/hosts/185.234.216.64
 * https://search.censys.io/hosts/213.219.37.158
 * https://search.censys.io/search?resource=hosts&sort=RELEVANCE&per_page=25&virtual_hosts=EXCLUDE&q=services.software.product%3A+poshc2+and+not+labels%3A+tarpit

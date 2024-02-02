@@ -8,8 +8,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with STRRAT:
 
-* [SH](https://vuldb.com/?country.sh)
 * [CN](https://vuldb.com/?country.cn)
+* [SH](https://vuldb.com/?country.sh)
 * [US](https://vuldb.com/?country.us)
 * ...
 
@@ -92,7 +92,7 @@ ID | Technique | Weakness | Description | Confidence
 6 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 7 | ... | ... | ... | ...
 
-There are 25 more TTP items available. Please use our online service to access the data.
+There are 24 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -105,48 +105,47 @@ ID | Type | Indicator | Confidence
 3 | File | `/admin/del_feedback.php` | High
 4 | File | `/admin/modal_add_product.php` | High
 5 | File | `/admin/positions_add.php` | High
-6 | File | `/ajax.php?action=save_company` | High
-7 | File | `/ajax.php?action=save_user` | High
-8 | File | `/api/admin/system/store/order/list` | High
-9 | File | `/api/baskets/{name}` | High
-10 | File | `/api/database` | High
-11 | File | `/api/sys/login` | High
-12 | File | `/api/sys/set_passwd` | High
-13 | File | `/api/trackedEntityInstances` | High
-14 | File | `/api/v4/users/ids` | High
-15 | File | `/apply.cgi` | Medium
-16 | File | `/App_Resource/UEditor/server/upload.aspx` | High
-17 | File | `/aux` | Low
-18 | File | `/bin/ate` | Medium
-19 | File | `/booking/show_bookings/` | High
-20 | File | `/c/PluginsController.php` | High
-21 | File | `/category.php` | High
-22 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-23 | File | `/cgi-bin/wlogin.cgi` | High
-24 | File | `/chaincity/user/ticket/create` | High
-25 | File | `/changePassword` | High
-26 | File | `/collection/all` | High
-27 | File | `/Content/Template/root/reverse-shell.aspx` | High
-28 | File | `/Controller/Ajaxfileupload.ashx` | High
-29 | File | `/csms/?page=contact_us` | High
-30 | File | `/cwms/classes/Master.php?f=save_contact` | High
-31 | File | `/dashboard/add-blog.php` | High
-32 | File | `/data/remove` | Medium
-33 | File | `/debug/pprof` | Medium
-34 | File | `/ecommerce/support_ticket` | High
-35 | File | `/ecrire/exec/puce_statut.php` | High
-36 | File | `/ecshop/admin/template.php` | High
-37 | File | `/env` | Low
-38 | File | `/etc/shadow` | Medium
-39 | File | `/files/` | Low
-40 | File | `/forum/away.php` | High
-41 | File | `/friends/ajax_invite` | High
-42 | File | `/goform/WifiGuestSet` | High
-43 | File | `/group1/uploa` | High
-44 | File | `/home/filter_listings` | High
-45 | ... | ... | ...
+6 | File | `/api/admin/system/store/order/list` | High
+7 | File | `/api/baskets/{name}` | High
+8 | File | `/api/database` | High
+9 | File | `/api/sys/login` | High
+10 | File | `/api/sys/set_passwd` | High
+11 | File | `/api/trackedEntityInstances` | High
+12 | File | `/api/v4/users/ids` | High
+13 | File | `/application/index/controller/Service.php` | High
+14 | File | `/apply.cgi` | Medium
+15 | File | `/App_Resource/UEditor/server/upload.aspx` | High
+16 | File | `/aux` | Low
+17 | File | `/bin/ate` | Medium
+18 | File | `/booking/show_bookings/` | High
+19 | File | `/c/PluginsController.php` | High
+20 | File | `/category.php` | High
+21 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+22 | File | `/cgi-bin/wlogin.cgi` | High
+23 | File | `/chaincity/user/ticket/create` | High
+24 | File | `/changePassword` | High
+25 | File | `/collection/all` | High
+26 | File | `/Content/Template/root/reverse-shell.aspx` | High
+27 | File | `/Controller/Ajaxfileupload.ashx` | High
+28 | File | `/csms/?page=contact_us` | High
+29 | File | `/cwms/classes/Master.php?f=save_contact` | High
+30 | File | `/dashboard/add-blog.php` | High
+31 | File | `/data/remove` | Medium
+32 | File | `/debug/pprof` | Medium
+33 | File | `/ecommerce/support_ticket` | High
+34 | File | `/ecrire/exec/puce_statut.php` | High
+35 | File | `/ecshop/admin/template.php` | High
+36 | File | `/env` | Low
+37 | File | `/etc/shadow` | Medium
+38 | File | `/files/` | Low
+39 | File | `/forum/away.php` | High
+40 | File | `/friends/ajax_invite` | High
+41 | File | `/goform/WifiGuestSet` | High
+42 | File | `/group1/uploa` | High
+43 | File | `/home/filter_listings` | High
+44 | ... | ... | ...
 
-There are 386 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 381 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -94,7 +94,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-25, CWE-425 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
@@ -102,7 +102,7 @@ ID | Technique | Weakness | Description | Confidence
 6 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 7 | ... | ... | ... | ...
 
-There are 24 more TTP items available. Please use our online service to access the data.
+There are 23 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -120,17 +120,17 @@ ID | Type | Indicator | Confidence
 8 | File | `/api/trackedEntityInstances` | High
 9 | File | `/api/v1/alerts` | High
 10 | File | `/api/v1/terminal/sessions/?limit=1` | High
-11 | File | `/aux` | Low
-12 | File | `/b2b-supermarket/shopping-cart` | High
-13 | File | `/category.php` | High
-14 | File | `/categorypage.php` | High
-15 | File | `/cgi-bin/vitogate.cgi` | High
-16 | File | `/change-language/de_DE` | High
-17 | File | `/changePassword` | High
-18 | File | `/Content/Template/root/reverse-shell.aspx` | High
-19 | File | `/dashboard/add-blog.php` | High
-20 | File | `/data/remove` | Medium
-21 | File | `/debug/pprof` | Medium
+11 | File | `/api/v4/teams//channels/deleted` | High
+12 | File | `/aux` | Low
+13 | File | `/b2b-supermarket/shopping-cart` | High
+14 | File | `/category.php` | High
+15 | File | `/categorypage.php` | High
+16 | File | `/cgi-bin/vitogate.cgi` | High
+17 | File | `/change-language/de_DE` | High
+18 | File | `/changePassword` | High
+19 | File | `/data/remove` | Medium
+20 | File | `/debug/pprof` | Medium
+21 | File | `/devinfo` | Medium
 22 | File | `/dist/index.js` | High
 23 | File | `/ecshop/admin/template.php` | High
 24 | File | `/fcgi/scrut_fcgi.fcgi` | High
@@ -142,20 +142,20 @@ ID | Type | Indicator | Confidence
 30 | File | `/hosts/firewall/ip` | High
 31 | File | `/index.php` | Medium
 32 | File | `/index.php/ccm/system/file/upload` | High
-33 | File | `/jeecg-boot/sys/common/upload` | High
-34 | File | `/log/decodmail.php` | High
-35 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-36 | File | `/oauth/idp/.well-known/openid-configuration` | High
-37 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
-38 | File | `/php/ping.php` | High
-39 | File | `/protocol/iscgwtunnel/uploadiscgwrouteconf.php` | High
-40 | File | `/proxy` | Low
-41 | File | `/RPS2019Service/status.html` | High
-42 | File | `/s/index.php?action=statistics` | High
-43 | File | `/setting` | Medium
-44 | File | `/sicweb-ajax/tmproot/` | High
-45 | File | `/spip.php` | Medium
-46 | File | `/subsys/net/l2/wifi/wifi_shell.c` | High
+33 | File | `/log/decodmail.php` | High
+34 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+35 | File | `/oauth/idp/.well-known/openid-configuration` | High
+36 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
+37 | File | `/php/ping.php` | High
+38 | File | `/protocol/iscgwtunnel/uploadiscgwrouteconf.php` | High
+39 | File | `/proxy` | Low
+40 | File | `/RPS2019Service/status.html` | High
+41 | File | `/s/index.php?action=statistics` | High
+42 | File | `/setting` | Medium
+43 | File | `/sicweb-ajax/tmproot/` | High
+44 | File | `/spip.php` | Medium
+45 | File | `/subsys/net/l2/wifi/wifi_shell.c` | High
+46 | File | `/system/role/list` | High
 47 | ... | ... | ...
 
 There are 410 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.

@@ -153,7 +153,7 @@ ID | Type | Indicator | Confidence
 3 | File | `/admin/controller/JobLogController.java` | High
 4 | File | `/admin/general.cgi` | High
 5 | File | `/admin/gnssAutoAlign.php` | High
-6 | File | `/admin/maintenance/view_designation.php` | High
+6 | File | `/admin/manage-users.php` | High
 7 | File | `/admin/read.php?mudi=getSignal` | High
 8 | File | `/admin/reminders/manage_reminder.php` | High
 9 | File | `/api/baskets/{name}` | High
@@ -167,42 +167,38 @@ ID | Type | Indicator | Confidence
 17 | File | `/booking/show_bookings/` | High
 18 | File | `/CCMAdmin/serverlist.asp` | High
 19 | File | `/cgi-bin` | Medium
-20 | File | `/cgi-bin/wlogin.cgi` | High
-21 | File | `/cgi/get_param.cgi` | High
-22 | File | `/changePassword` | High
-23 | File | `/classes/Master.php?f=save_sub_category` | High
-24 | File | `/Content/Template/root/reverse-shell.aspx` | High
-25 | File | `/csms/admin/inquiries/view_details.php` | High
-26 | File | `/cstecgi.cgi` | Medium
-27 | File | `/dashboard/add-blog.php` | High
-28 | File | `/data/remove` | Medium
-29 | File | `/debug/pprof` | Medium
-30 | File | `/ecshop/admin/template.php` | High
-31 | File | `/env` | Low
-32 | File | `/forum/away.php` | High
-33 | File | `/goform/SetOnlineDevName` | High
-34 | File | `/group1/uploa` | High
-35 | File | `/importexport.php` | High
-36 | File | `/include/chart_generator.php` | High
-37 | File | `/index.php` | Medium
-38 | File | `/kelas/data` | Medium
-39 | File | `/librarian/bookdetails.php` | High
-40 | File | `/messageboard/view.php` | High
-41 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-42 | File | `/out.php` | Medium
-43 | File | `/php-sms/admin/?page=user/manage_user` | High
-44 | File | `/resources//../` | High
-45 | File | `/search` | Low
-46 | File | `/SVFE2/pages/feegroups/country_group.jsf` | High
-47 | File | `/testConnection` | High
-48 | File | `/textpattern/index.php` | High
-49 | File | `/tmp/ppd.trace` | High
-50 | File | `/ueditor/net/controller.ashx?action=catchimage` | High
-51 | File | `/upfile.cgi` | Medium
-52 | File | `/user/updatePwd` | High
-53 | ... | ... | ...
+20 | File | `/cgi/get_param.cgi` | High
+21 | File | `/changePassword` | High
+22 | File | `/Content/Template/root/reverse-shell.aspx` | High
+23 | File | `/csms/admin/inquiries/view_details.php` | High
+24 | File | `/cstecgi.cgi` | Medium
+25 | File | `/cupseasylive/locationmodify.php` | High
+26 | File | `/dashboard/add-blog.php` | High
+27 | File | `/data/remove` | Medium
+28 | File | `/debug/pprof` | Medium
+29 | File | `/ecshop/admin/template.php` | High
+30 | File | `/env` | Low
+31 | File | `/forum/away.php` | High
+32 | File | `/goform/SetOnlineDevName` | High
+33 | File | `/group1/uploa` | High
+34 | File | `/importexport.php` | High
+35 | File | `/include/chart_generator.php` | High
+36 | File | `/index.php` | Medium
+37 | File | `/kelas/data` | Medium
+38 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+39 | File | `/out.php` | Medium
+40 | File | `/owa/auth/logon.aspx` | High
+41 | File | `/php-sms/admin/?page=user/manage_user` | High
+42 | File | `/resources//../` | High
+43 | File | `/search` | Low
+44 | File | `/SVFE2/pages/feegroups/country_group.jsf` | High
+45 | File | `/testConnection` | High
+46 | File | `/tmp/ppd.trace` | High
+47 | File | `/ueditor/net/controller.ashx?action=catchimage` | High
+48 | File | `/upfile.cgi` | Medium
+49 | ... | ... | ...
 
-There are 459 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 421 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

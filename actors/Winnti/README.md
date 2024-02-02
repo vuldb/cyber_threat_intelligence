@@ -76,13 +76,14 @@ ID | Type | Indicator | Confidence
 1 | File | `/cdsms/classes/Master.php?f=delete_enrollment` | High
 2 | File | `/mifs/c/i/reg/reg.html` | High
 3 | File | `/server-info` | Medium
-4 | File | `/wp-json/oembed/1.0/embed?url` | High
-5 | File | `a2billing/customer/iridium_threed.php` | High
-6 | File | `admin.php?s=/Channel/add.html` | High
-7 | File | `admin/class-bulk-editor-list-table.php` | High
-8 | File | `administrator/components/com_media/helpers/media.php` | High
-9 | File | `auth.asp` | Medium
-10 | ... | ... | ...
+4 | File | `/system/dept/edit` | High
+5 | File | `/wp-json/oembed/1.0/embed?url` | High
+6 | File | `a2billing/customer/iridium_threed.php` | High
+7 | File | `admin.php?s=/Channel/add.html` | High
+8 | File | `admin/class-bulk-editor-list-table.php` | High
+9 | File | `administrator/components/com_media/helpers/media.php` | High
+10 | File | `auth.asp` | Medium
+11 | ... | ... | ...
 
 There are 79 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 

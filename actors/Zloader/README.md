@@ -62,30 +62,33 @@ ID | Type | Indicator | Confidence
 5 | File | `/admin/admin-profile.php` | High
 6 | File | `/admin/ajax.php?action=confirm_order` | High
 7 | File | `/admin/ind_backstage.php` | High
-8 | File | `/admin/pages/subjects.php` | High
-9 | File | `/admin/service.php` | High
-10 | File | `/admin/sys_sql_query.php` | High
-11 | File | `/admin/user/team` | High
-12 | File | `/adplanet/PlanetCommentList` | High
-13 | File | `/ajax.php?action=read_msg` | High
-14 | File | `/api/ping` | Medium
-15 | File | `/baseOpLog.do` | High
-16 | File | `/bcms/admin/?page=user/list` | High
-17 | File | `/blog` | Low
-18 | File | `/blog-single.php` | High
-19 | File | `/cgi-bin/adm.cgi` | High
-20 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
-21 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-22 | File | `/classes/Master.php?f=save_inquiry` | High
-23 | File | `/collection/all` | High
-24 | File | `/Duty/AjaxHandle/UpLoadFloodPlanFile.ashx` | High
-25 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
-26 | File | `/home/cavesConsole` | High
-27 | File | `/index.php` | Medium
-28 | File | `/listplace/user/ticket/create` | High
-29 | ... | ... | ...
+8 | File | `/admin/pages/student-print.php` | High
+9 | File | `/admin/pages/subjects.php` | High
+10 | File | `/admin/service.php` | High
+11 | File | `/admin/sys_sql_query.php` | High
+12 | File | `/admin/user/team` | High
+13 | File | `/adplanet/PlanetCommentList` | High
+14 | File | `/ajax.php?action=read_msg` | High
+15 | File | `/api/ping` | Medium
+16 | File | `/apply/index.php` | High
+17 | File | `/baseOpLog.do` | High
+18 | File | `/bcms/admin/?page=user/list` | High
+19 | File | `/blog` | Low
+20 | File | `/blog-single.php` | High
+21 | File | `/cgi-bin/adm.cgi` | High
+22 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
+23 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+24 | File | `/classes/Master.php?f=save_inquiry` | High
+25 | File | `/classes/Users.php?f=save` | High
+26 | File | `/collection/all` | High
+27 | File | `/Duty/AjaxHandle/UpLoadFloodPlanFile.ashx` | High
+28 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
+29 | File | `/home/cavesConsole` | High
+30 | File | `/include/file.php` | High
+31 | File | `/index.php` | Medium
+32 | ... | ... | ...
 
-There are 248 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 268 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -49,7 +49,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -69,28 +69,29 @@ ID | Type | Indicator | Confidence
 10 | File | `/api/plugin/uninstall` | High
 11 | File | `/api/sys/login` | High
 12 | File | `/app/sys1.php` | High
-13 | File | `/audimex/cgi-bin/wal.fcgi` | High
-14 | File | `/auth_pic.cgi` | High
-15 | File | `/blog` | Low
-16 | File | `/boaform/device_reset.cgi` | High
-17 | File | `/cgi-bin/adm.cgi` | High
-18 | File | `/cgi-bin/cstecgi.cgi` | High
-19 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
-20 | File | `/cgi-bin/webproc` | High
-21 | File | `/classes/Master.php?f=save_inquiry` | High
-22 | File | `/classes/Users.php?f=save` | High
-23 | File | `/collection/all` | High
-24 | File | `/dashboard/createblog` | High
-25 | File | `/dipam/athlete-profile.php` | High
-26 | File | `/dosen/data` | Medium
-27 | File | `/Duty/AjaxHandle/Write/UploadFile.ashx` | High
-28 | File | `/etc/puppetlabs/puppetserver/conf.d/ca.conf` | High
-29 | File | `/file-manager/rename.php` | High
-30 | File | `/home/filter_listings` | High
-31 | File | `/im/user/` | Medium
-32 | ... | ... | ...
+13 | File | `/apply/index.php` | High
+14 | File | `/assets/php/upload.php` | High
+15 | File | `/audimex/cgi-bin/wal.fcgi` | High
+16 | File | `/auth_pic.cgi` | High
+17 | File | `/blog` | Low
+18 | File | `/boaform/device_reset.cgi` | High
+19 | File | `/cgi-bin/adm.cgi` | High
+20 | File | `/cgi-bin/cstecgi.cgi` | High
+21 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
+22 | File | `/cgi-bin/webproc` | High
+23 | File | `/classes/Master.php?f=save_inquiry` | High
+24 | File | `/classes/Users.php?f=save` | High
+25 | File | `/collection/all` | High
+26 | File | `/dashboard/createblog` | High
+27 | File | `/dipam/athlete-profile.php` | High
+28 | File | `/dosen/data` | Medium
+29 | File | `/Duty/AjaxHandle/Write/UploadFile.ashx` | High
+30 | File | `/etc/puppetlabs/puppetserver/conf.d/ca.conf` | High
+31 | File | `/file-manager/rename.php` | High
+32 | File | `/home/filter_listings` | High
+33 | ... | ... | ...
 
-There are 274 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 284 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

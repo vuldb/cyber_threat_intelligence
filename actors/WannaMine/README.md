@@ -30,7 +30,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-22, CWE-24 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | ... | ... | ... | ...
@@ -45,24 +45,28 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/?p=products` | Medium
 2 | File | `/admin` | Low
-3 | File | `/admin/curriculum/view_curriculum.php` | High
-4 | File | `/admin/deduction_row.php` | High
-5 | File | `/admin/departments/view_department.php` | High
-6 | File | `/admin/edit-accepted-appointment.php` | High
-7 | File | `/admin/edit_category.php` | High
-8 | File | `/admin/edit_teacher.php` | High
-9 | File | `/admin/login.php` | High
-10 | File | `/admin/maintenance/brand.php` | High
-11 | File | `/admin/order.php` | High
-12 | File | `/admin/products/manage_product.php` | High
-13 | File | `/admin/transactions/track_shipment.php` | High
-14 | File | `/admin/vote_edit.php` | High
-15 | File | `/api/admin/store/product/list` | High
-16 | File | `/auth/auth.php?user=1` | High
-17 | File | `/b2b-supermarket/shopping-cart` | High
-18 | ... | ... | ...
+3 | File | `/admin/action/update-deworm.php` | High
+4 | File | `/admin/curriculum/view_curriculum.php` | High
+5 | File | `/admin/deduction_row.php` | High
+6 | File | `/admin/departments/view_department.php` | High
+7 | File | `/admin/edit-accepted-appointment.php` | High
+8 | File | `/admin/edit_category.php` | High
+9 | File | `/admin/edit_teacher.php` | High
+10 | File | `/admin/login.php` | High
+11 | File | `/admin/maintenance/brand.php` | High
+12 | File | `/admin/order.php` | High
+13 | File | `/admin/pages/update_go.php` | High
+14 | File | `/admin/products/manage_product.php` | High
+15 | File | `/admin/transactions/track_shipment.php` | High
+16 | File | `/admin/vote_edit.php` | High
+17 | File | `/api/admin/store/product/list` | High
+18 | File | `/auth/auth.php?user=1` | High
+19 | File | `/b2b-supermarket/shopping-cart` | High
+20 | File | `/bin/boa` | Medium
+21 | File | `/blog` | Low
+22 | ... | ... | ...
 
-There are 142 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 178 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

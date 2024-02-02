@@ -34,7 +34,7 @@ ID | IP address | Hostname | Campaign | Confidence
 5 | [80.85.143.7](https://vuldb.com/?ip.80.85.143.7) | vm4714915.43ssd.had.wf | - | High
 6 | ... | ... | ... | ...
 
-There are 18 more IOC items available. Please use our online service to access the data.
+There are 19 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -136,12 +136,13 @@ ID | Type | Indicator | Confidence
 77 | File | `/index.php?zone=settings` | High
 78 | ... | ... | ...
 
-There are 688 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 686 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://bazaar.abuse.ch/sample/b31404188e071efe50919a8e37a4c65176d14c4da92bc1d302b00c97474c6dd2/
 * https://cert-agid.gov.it/news/in-crescita-la-diffusione-di-spyware-per-android-il-caso-di-spynote/
 * https://threatfox.abuse.ch
 * https://tracker.viriback.com/index.php?q=104.225.158.203.16clouds.com

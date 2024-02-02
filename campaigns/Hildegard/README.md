@@ -57,17 +57,17 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/ajax.php?action=read_msg` | High
-2 | File | `/debug/pprof` | Medium
-3 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
-4 | File | `/env` | Low
-5 | File | `/goform/SetNetControlList` | High
-6 | File | `/src/chatbotapp/chatWindow.java` | High
-7 | File | `admin/categories_industry.php` | High
-8 | File | `admin/class-woo-popup-admin.php` | High
-9 | File | `admin/content/postcategory` | High
+2 | File | `/change_password_process` | High
+3 | File | `/debug/pprof` | Medium
+4 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
+5 | File | `/env` | Low
+6 | File | `/goform/SetNetControlList` | High
+7 | File | `/src/chatbotapp/chatWindow.java` | High
+8 | File | `admin/categories_industry.php` | High
+9 | File | `admin/class-woo-popup-admin.php` | High
 10 | ... | ... | ...
 
-There are 75 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 78 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -771,42 +771,42 @@ ID | Type | Indicator | Confidence
 7 | File | `/admin/doctors.php` | High
 8 | File | `/admin/edit_teacher.php` | High
 9 | File | `/admin/read.php?mudi=getSignal` | High
-10 | File | `/alphaware/summary.php` | High
-11 | File | `/api/` | Low
-12 | File | `/api/admin/store/product/list` | High
-13 | File | `/api/baskets/{name}` | High
-14 | File | `/api/stl/actions/search` | High
-15 | File | `/api/sys/login` | High
-16 | File | `/api/sys/set_passwd` | High
-17 | File | `/api/trackedEntityInstances` | High
-18 | File | `/api/v1/attack/falco` | High
-19 | File | `/api/v2/cli/commands` | High
-20 | File | `/aux` | Low
-21 | File | `/bin/ate` | Medium
-22 | File | `/boat/login.php` | High
-23 | File | `/booking/show_bookings/` | High
-24 | File | `/bsms_ci/index.php/book` | High
+10 | File | `/admin/statistics/ConfigureStatistics` | High
+11 | File | `/alphaware/summary.php` | High
+12 | File | `/api/` | Low
+13 | File | `/api/admin/store/product/list` | High
+14 | File | `/api/baskets/{name}` | High
+15 | File | `/api/stl/actions/search` | High
+16 | File | `/api/sys/login` | High
+17 | File | `/api/sys/set_passwd` | High
+18 | File | `/api/trackedEntityInstances` | High
+19 | File | `/api/v1/attack/falco` | High
+20 | File | `/api/v2/cli/commands` | High
+21 | File | `/aux` | Low
+22 | File | `/bin/ate` | Medium
+23 | File | `/boat/login.php` | High
+24 | File | `/booking/show_bookings/` | High
 25 | File | `/cgi-bin` | Medium
-26 | File | `/cgi-bin/touchlist_sync.cgi` | High
-27 | File | `/cgi-bin/wapopen` | High
-28 | File | `/cgi-bin/wlogin.cgi` | High
-29 | File | `/changePassword` | High
-30 | File | `/Content/Template/root/reverse-shell.aspx` | High
-31 | File | `/dashboard/add-blog.php` | High
-32 | File | `/data/remove` | Medium
-33 | File | `/debug/pprof` | Medium
-34 | File | `/ecshop/admin/template.php` | High
-35 | File | `/env` | Low
-36 | File | `/forum/away.php` | High
-37 | File | `/group1/uploa` | High
-38 | File | `/index.php` | Medium
-39 | File | `/medicines/profile.php` | High
-40 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-41 | File | `/oauth/idp/.well-known/openid-configuration` | High
-42 | File | `/pf/idprofile.ping` | High
+26 | File | `/cgi-bin/wapopen` | High
+27 | File | `/cgi-bin/wlogin.cgi` | High
+28 | File | `/changePassword` | High
+29 | File | `/Content/Template/root/reverse-shell.aspx` | High
+30 | File | `/dashboard/add-blog.php` | High
+31 | File | `/data/remove` | Medium
+32 | File | `/debug/pprof` | Medium
+33 | File | `/ecshop/admin/template.php` | High
+34 | File | `/env` | Low
+35 | File | `/forum/away.php` | High
+36 | File | `/group1/uploa` | High
+37 | File | `/index.php` | Medium
+38 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+39 | File | `/oauth/idp/.well-known/openid-configuration` | High
+40 | File | `/pf/idprofile.ping` | High
+41 | File | `/php-sms/admin/?page=user/manage_user` | High
+42 | File | `/reservation/add_message.php` | High
 43 | ... | ... | ...
 
-There are 373 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 371 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

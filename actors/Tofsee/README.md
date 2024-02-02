@@ -174,14 +174,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Pathname Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 7 | ... | ... | ... | ...
 
-There are 24 more TTP items available. Please use our online service to access the data.
+There are 23 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -199,44 +199,43 @@ ID | Type | Indicator | Confidence
 8 | File | `/admin/index2.html` | High
 9 | File | `/admin/read.php?mudi=getSignal` | High
 10 | File | `/admin/userprofile.php` | High
-11 | File | `/api/` | Low
-12 | File | `/api/admin/store/product/list` | High
-13 | File | `/api/baskets/{name}` | High
-14 | File | `/api/stl/actions/search` | High
-15 | File | `/api/sys/login` | High
-16 | File | `/api/sys/set_passwd` | High
-17 | File | `/api/trackedEntityInstances` | High
-18 | File | `/api/v2/cli/commands` | High
-19 | File | `/app/index/controller/Common.php` | High
-20 | File | `/aux` | Low
-21 | File | `/bin/ate` | Medium
-22 | File | `/bitrix/admin/ldap_server_edit.php` | High
-23 | File | `/booking/show_bookings/` | High
-24 | File | `/cgi-bin` | Medium
-25 | File | `/cgi-bin/wlogin.cgi` | High
-26 | File | `/changePassword` | High
-27 | File | `/College/admin/teacher.php` | High
-28 | File | `/Content/Template/root/reverse-shell.aspx` | High
-29 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
-30 | File | `/dashboard/add-blog.php` | High
-31 | File | `/data/remove` | Medium
-32 | File | `/dcim/rack-roles/` | High
-33 | File | `/debug/pprof` | Medium
-34 | File | `/ecshop/admin/template.php` | High
-35 | File | `/env` | Low
-36 | File | `/forms/doLogin` | High
-37 | File | `/forum/away.php` | High
-38 | File | `/goform/aspForm` | High
-39 | File | `/group1/uploa` | High
-40 | File | `/inc/topBarNav.php` | High
-41 | File | `/index.php` | Medium
-42 | File | `/index.php?app=main&func=passport&action=login` | High
-43 | File | `/kelas/data` | Medium
-44 | File | `/listplace/user/ticket/create` | High
-45 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-46 | ... | ... | ...
+11 | File | `/api/baskets/{name}` | High
+12 | File | `/api/stl/actions/search` | High
+13 | File | `/api/sys/login` | High
+14 | File | `/api/sys/set_passwd` | High
+15 | File | `/api/trackedEntityInstances` | High
+16 | File | `/api/v2/cli/commands` | High
+17 | File | `/app/index/controller/Common.php` | High
+18 | File | `/aux` | Low
+19 | File | `/bin/ate` | Medium
+20 | File | `/bitrix/admin/ldap_server_edit.php` | High
+21 | File | `/booking/show_bookings/` | High
+22 | File | `/cgi-bin` | Medium
+23 | File | `/changePassword` | High
+24 | File | `/Content/Template/root/reverse-shell.aspx` | High
+25 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
+26 | File | `/dashboard/add-blog.php` | High
+27 | File | `/data/remove` | Medium
+28 | File | `/dcim/rack-roles/` | High
+29 | File | `/debug/pprof` | Medium
+30 | File | `/ecshop/admin/template.php` | High
+31 | File | `/env` | Low
+32 | File | `/forms/doLogin` | High
+33 | File | `/forum/away.php` | High
+34 | File | `/group1/uploa` | High
+35 | File | `/inc/topBarNav.php` | High
+36 | File | `/index.php` | Medium
+37 | File | `/index.php?app=main&func=passport&action=login` | High
+38 | File | `/kelas/data` | Medium
+39 | File | `/listplace/user/ticket/create` | High
+40 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+41 | File | `/php-sms/admin/?page=user/manage_user` | High
+42 | File | `/resources//../` | High
+43 | File | `/scripts/unlock_tasks.php` | High
+44 | File | `/squashfs-root/etc_ro/custom.conf` | High
+45 | ... | ... | ...
 
-There are 403 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 388 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

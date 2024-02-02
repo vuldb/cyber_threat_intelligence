@@ -77,28 +77,27 @@ ID | Type | Indicator | Confidence
 17 | File | `/DXR.axd` | Medium
 18 | File | `/forum/away.php` | High
 19 | File | `/goform/goform_get_cmd_process` | High
-20 | File | `/goform/set_LimitClient_cfg` | High
-21 | File | `/h/autoSaveDraft` | High
-22 | File | `/h/search?action` | High
-23 | File | `/HNAP1/` | Low
-24 | File | `/hss/admin/?page=products/view_product` | High
-25 | File | `/importexport.php` | High
-26 | File | `/index.php?app=main&func=passport&action=login` | High
-27 | File | `/main/doctype.php` | High
-28 | File | `/main/webservices/additional_webservices.php` | High
-29 | File | `/mc` | Low
-30 | File | `/mgmt/` | Low
-31 | File | `/oauth/idp/.well-known/openid-configuration` | High
-32 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-33 | File | `/preview.php` | Medium
-34 | File | `/register.php` | High
-35 | File | `/scripts/unlock_tasks.php` | High
-36 | File | `/secure/ViewCollectors` | High
-37 | File | `/server-status` | High
-38 | File | `/setting/NTPSyncWithHost` | High
-39 | ... | ... | ...
+20 | File | `/h/autoSaveDraft` | High
+21 | File | `/h/search?action` | High
+22 | File | `/HNAP1/` | Low
+23 | File | `/hss/admin/?page=products/view_product` | High
+24 | File | `/importexport.php` | High
+25 | File | `/index.php?app=main&func=passport&action=login` | High
+26 | File | `/main/doctype.php` | High
+27 | File | `/main/webservices/additional_webservices.php` | High
+28 | File | `/mc` | Low
+29 | File | `/mgmt/` | Low
+30 | File | `/oauth/idp/.well-known/openid-configuration` | High
+31 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+32 | File | `/preview.php` | Medium
+33 | File | `/register.php` | High
+34 | File | `/scripts/unlock_tasks.php` | High
+35 | File | `/secure/ViewCollectors` | High
+36 | File | `/server-status` | High
+37 | File | `/setting/NTPSyncWithHost` | High
+38 | ... | ... | ...
 
-There are 332 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 330 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

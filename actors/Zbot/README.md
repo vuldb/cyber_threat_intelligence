@@ -126,29 +126,29 @@ ID | Type | Indicator | Confidence
 3 | File | `/admin/imageslider/file.php` | High
 4 | File | `/admin/sign/out` | High
 5 | File | `/advanced-tools/nova/bin/netwatch` | High
-6 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-7 | File | `/cgi-bin/luci` | High
-8 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-9 | File | `/cgi-bin/viewcert` | High
-10 | File | `/core/vb/vurl.php` | High
-11 | File | `/etc/ldap.conf` | High
-12 | File | `/eval/admin/manage_class.php` | High
-13 | File | `/importTool/preview` | High
-14 | File | `/mods/_core/courses/users/create_course.php` | High
-15 | File | `/oauth/idp/.well-known/openid-configuration` | High
-16 | File | `/phppath/php` | Medium
-17 | File | `/plugins/Dashboard/Controller.php` | High
-18 | File | `/server-status` | High
-19 | File | `/uncpath/` | Medium
-20 | File | `?page=about` | Medium
-21 | File | `adclick.php` | Medium
-22 | File | `add_comment.php` | High
-23 | File | `admin-ajax.php` | High
-24 | File | `admin.php` | Medium
-25 | File | `admin/add_user/UID` | High
+6 | File | `/application/index/controller/Service.php` | High
+7 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+8 | File | `/cgi-bin/luci` | High
+9 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
+10 | File | `/cgi-bin/viewcert` | High
+11 | File | `/core/vb/vurl.php` | High
+12 | File | `/etc/ldap.conf` | High
+13 | File | `/eval/admin/manage_class.php` | High
+14 | File | `/importTool/preview` | High
+15 | File | `/mods/_core/courses/users/create_course.php` | High
+16 | File | `/oauth/idp/.well-known/openid-configuration` | High
+17 | File | `/phppath/php` | Medium
+18 | File | `/plugins/Dashboard/Controller.php` | High
+19 | File | `/server-status` | High
+20 | File | `/uncpath/` | Medium
+21 | File | `?page=about` | Medium
+22 | File | `adclick.php` | Medium
+23 | File | `add_comment.php` | High
+24 | File | `admin-ajax.php` | High
+25 | File | `admin.php` | Medium
 26 | ... | ... | ...
 
-There are 215 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 218 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

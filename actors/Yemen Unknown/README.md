@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [EG](https://vuldb.com/?country.eg)
 * ...
 
-There are 30 more country items available. Please use our online service to access the data.
+There are 29 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -73,41 +73,44 @@ ID | Type | Indicator | Confidence
 12 | File | `/export` | Low
 13 | File | `/filemanager/upload.php` | High
 14 | File | `/forum/away.php` | High
-15 | File | `/if.cgi` | Low
-16 | File | `/login` | Low
-17 | File | `/mifs/c/i/reg/reg.html` | High
-18 | File | `/modules/profile/index.php` | High
-19 | File | `/my_photo_gallery/image.php` | High
-20 | File | `/news.dtl.php` | High
-21 | File | `/nova/bin/detnet` | High
-22 | File | `/nova/bin/igmp-proxy` | High
-23 | File | `/nova/bin/route` | High
-24 | File | `/pro-school/indexphp?student/message/send_reply/` | High
-25 | File | `/scas/admin/` | Medium
-26 | File | `/see_more_details.php` | High
-27 | File | `/services/details.asp` | High
-28 | File | `/setSystemAdmin` | High
-29 | File | `/setup` | Low
-30 | File | `/spip.php` | Medium
-31 | File | `/squashfs-root/etc_ro/custom.conf` | High
-32 | File | `/uncpath/` | Medium
-33 | File | `/usr/bin/pkexec` | High
-34 | File | `/var/log/nginx` | High
-35 | File | `/var/log/rkhunter.log` | High
-36 | File | `/VPortal/mgtconsole/Subscriptions.jsp` | High
-37 | File | `/wbms/classes/Users.php?f=save` | High
-38 | File | `/wp-admin/admin-ajax.php` | High
-39 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-40 | File | `3f.jsp` | Low
-41 | File | `a2dp_aac_decoder.cc` | High
-42 | File | `act.php` | Low
-43 | File | `adclick.php` | Medium
-44 | File | `addentry.php` | Medium
-45 | File | `admin` | Low
-46 | File | `admin-ajax.php` | High
-47 | ... | ... | ...
+15 | File | `/healthcare/Admin/consulting_detail.php` | High
+16 | File | `/if.cgi` | Low
+17 | File | `/login` | Low
+18 | File | `/mifs/c/i/reg/reg.html` | High
+19 | File | `/modules/profile/index.php` | High
+20 | File | `/my_photo_gallery/image.php` | High
+21 | File | `/news.dtl.php` | High
+22 | File | `/nova/bin/detnet` | High
+23 | File | `/nova/bin/igmp-proxy` | High
+24 | File | `/nova/bin/route` | High
+25 | File | `/pro-school/indexphp?student/message/send_reply/` | High
+26 | File | `/scas/admin/` | Medium
+27 | File | `/see_more_details.php` | High
+28 | File | `/services/details.asp` | High
+29 | File | `/setSystemAdmin` | High
+30 | File | `/setup` | Low
+31 | File | `/spip.php` | Medium
+32 | File | `/squashfs-root/etc_ro/custom.conf` | High
+33 | File | `/uncpath/` | Medium
+34 | File | `/usr/bin/pkexec` | High
+35 | File | `/var/log/nginx` | High
+36 | File | `/var/log/rkhunter.log` | High
+37 | File | `/VPortal/mgtconsole/Subscriptions.jsp` | High
+38 | File | `/wbms/classes/Users.php?f=save` | High
+39 | File | `/wp-admin/admin-ajax.php` | High
+40 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+41 | File | `/zm/index.php` | High
+42 | File | `3f.jsp` | Low
+43 | File | `a2dp_aac_decoder.cc` | High
+44 | File | `act.php` | Low
+45 | File | `adclick.php` | Medium
+46 | File | `addentry.php` | Medium
+47 | File | `admin` | Low
+48 | File | `admin-ajax.php` | High
+49 | File | `admin.php` | Medium
+50 | ... | ... | ...
 
-There are 405 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 432 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [US](https://vuldb.com/?country.us)
 * ...
 
-There are 5 more country items available. Please use our online service to access the data.
+There are 3 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -93,23 +93,25 @@ ID | IP address | Hostname | Campaign | Confidence
 70 | [45.66.230.37](https://vuldb.com/?ip.45.66.230.37) | - | - | High
 71 | [45.67.35.68](https://vuldb.com/?ip.45.67.35.68) | relay.amadeus.net | - | High
 72 | [45.81.39.167](https://vuldb.com/?ip.45.81.39.167) | - | - | High
-73 | [45.87.154.30](https://vuldb.com/?ip.45.87.154.30) | 777palm.com | - | High
-74 | [45.88.67.78](https://vuldb.com/?ip.45.88.67.78) | - | - | High
-75 | [45.88.67.133](https://vuldb.com/?ip.45.88.67.133) | - | - | High
-76 | [45.89.54.82](https://vuldb.com/?ip.45.89.54.82) | vm1280053.stark-industries.solutions | - | High
-77 | [45.138.74.30](https://vuldb.com/?ip.45.138.74.30) | sweet-sound.aeza.network | - | High
-78 | [45.140.147.83](https://vuldb.com/?ip.45.140.147.83) | vm1690418.stark-industries.solutions | - | High
-79 | [45.141.86.121](https://vuldb.com/?ip.45.141.86.121) | - | - | High
-80 | [45.144.28.84](https://vuldb.com/?ip.45.144.28.84) | dresgdrfgbd.com | - | High
-81 | [45.144.28.154](https://vuldb.com/?ip.45.144.28.154) | vm1226483.stark-industries.solutions | - | High
-82 | [45.147.197.114](https://vuldb.com/?ip.45.147.197.114) | vm4576730.1nvme.had.wf | - | High
-83 | [45.147.197.188](https://vuldb.com/?ip.45.147.197.188) | vm4456743.1nvme.had.wf | - | High
-84 | [45.147.197.249](https://vuldb.com/?ip.45.147.197.249) | vm4624888.1nvme.had.wf | - | High
-85 | [45.147.229.23](https://vuldb.com/?ip.45.147.229.23) | - | - | High
-86 | [45.147.231.118](https://vuldb.com/?ip.45.147.231.118) | - | - | High
-87 | ... | ... | ... | ...
+73 | [45.87.153.135](https://vuldb.com/?ip.45.87.153.135) | vm2006573.stark-industries.solutions | - | High
+74 | [45.87.154.30](https://vuldb.com/?ip.45.87.154.30) | 777palm.com | - | High
+75 | [45.88.67.78](https://vuldb.com/?ip.45.88.67.78) | - | - | High
+76 | [45.88.67.133](https://vuldb.com/?ip.45.88.67.133) | - | - | High
+77 | [45.89.54.82](https://vuldb.com/?ip.45.89.54.82) | vm1280053.stark-industries.solutions | - | High
+78 | [45.138.74.30](https://vuldb.com/?ip.45.138.74.30) | sweet-sound.aeza.network | - | High
+79 | [45.140.147.83](https://vuldb.com/?ip.45.140.147.83) | vm1690418.stark-industries.solutions | - | High
+80 | [45.141.86.121](https://vuldb.com/?ip.45.141.86.121) | - | - | High
+81 | [45.144.28.84](https://vuldb.com/?ip.45.144.28.84) | dresgdrfgbd.com | - | High
+82 | [45.144.28.154](https://vuldb.com/?ip.45.144.28.154) | vm1226483.stark-industries.solutions | - | High
+83 | [45.147.197.114](https://vuldb.com/?ip.45.147.197.114) | vm4576730.1nvme.had.wf | - | High
+84 | [45.147.197.188](https://vuldb.com/?ip.45.147.197.188) | vm4456743.1nvme.had.wf | - | High
+85 | [45.147.197.249](https://vuldb.com/?ip.45.147.197.249) | vm4624888.1nvme.had.wf | - | High
+86 | [45.147.229.23](https://vuldb.com/?ip.45.147.229.23) | - | - | High
+87 | [45.147.231.118](https://vuldb.com/?ip.45.147.231.118) | - | - | High
+88 | [45.150.65.128](https://vuldb.com/?ip.45.150.65.128) | vm1155929.stark-industries.solutions | - | High
+89 | ... | ... | ... | ...
 
-There are 346 more IOC items available. Please use our online service to access the data.
+There are 351 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -117,14 +119,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-29, CWE-425 | Pathname Traversal | High
-2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-29 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -133,47 +134,55 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/.env` | Low
-2 | File | `//proc/kcore` | Medium
-3 | File | `/accounts/password_change/` | High
-4 | File | `/act/ActDao.xml` | High
+2 | File | `/act/ActDao.xml` | High
+3 | File | `/admin/action/delete-vaccine.php` | High
+4 | File | `/admin/action/new-father.php` | High
 5 | File | `/admin/clientview.php` | High
-6 | File | `/admin/index2.html` | High
-7 | File | `/admin/regester.php` | High
-8 | File | `/admin/update-clients.php` | High
-9 | File | `/api/addusers` | High
-10 | File | `/api/baskets/{name}` | High
-11 | File | `/api/cron/settings/setJob/` | High
-12 | File | `/api/trackedEntityInstances` | High
-13 | File | `/api/v1/terminal/sessions/?limit=1` | High
-14 | File | `/apply.cgi` | Medium
-15 | File | `/b2b-supermarket/shopping-cart` | High
-16 | File | `/blog/comment` | High
-17 | File | `/boaform/device_reset.cgi` | High
-18 | File | `/bsms_ci/index.php` | High
-19 | File | `/catalog/compare` | High
-20 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-21 | File | `/cgi-bin/downloadFile.cgi` | High
-22 | File | `/cgi-bin/kerbynet` | High
-23 | File | `/cgi-bin/wlogin.cgi` | High
-24 | File | `/clinic/disease_symptoms_view.php` | High
-25 | File | `/config/getuser` | High
-26 | File | `/debug/pprof` | Medium
-27 | File | `/DXR.axd` | Medium
-28 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-29 | File | `/forms/doLogin` | High
-30 | File | `/forum/away.php` | High
-31 | File | `/geoserver/gwc/rest.html` | High
-32 | File | `/importexport.php` | High
-33 | File | `/index.php/client/message/message_read/xxxxxxxx[random-msg-hash]` | High
-34 | File | `/listplace/user/ticket/create` | High
-35 | File | `/login` | Low
-36 | File | `/manager?action=getlogcat` | High
-37 | File | `/mehah/otclient` | High
-38 | File | `/mhds/clinic/view_details.php` | High
-39 | File | `/modals/class_form.php` | High
-40 | ... | ... | ...
+6 | File | `/admin/edit_teacher.php` | High
+7 | File | `/admin/fields/manage_field.php` | High
+8 | File | `/admin/index2.html` | High
+9 | File | `/admin/regester.php` | High
+10 | File | `/admin/update-clients.php` | High
+11 | File | `/admin_ping.htm` | High
+12 | File | `/admin_route/dec_service_credits.php` | High
+13 | File | `/admin_route/inc_service_credits.php` | High
+14 | File | `/api/cron/settings/setJob/` | High
+15 | File | `/api/sys/set_passwd` | High
+16 | File | `/api/trackedEntityInstances` | High
+17 | File | `/api/v1/terminal/sessions/?limit=1` | High
+18 | File | `/app/api/controller/default/Sqlite.php` | High
+19 | File | `/app/index/controller/Common.php` | High
+20 | File | `/apply.cgi` | Medium
+21 | File | `/arch/x86/mm/cpu_entry_area.c` | High
+22 | File | `/authenticationendpoint/login.do` | High
+23 | File | `/aux` | Low
+24 | File | `/b2b-supermarket/shopping-cart` | High
+25 | File | `/bin/boa` | Medium
+26 | File | `/boaform/device_reset.cgi` | High
+27 | File | `/boafrm/formMapDelDevice` | High
+28 | File | `/bsms_ci/index.php` | High
+29 | File | `/bsms_ci/index.php/user/edit_user/` | High
+30 | File | `/cgi-bin/cstecgi.cgi` | High
+31 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+32 | File | `/cgi-bin/kerbynet` | High
+33 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+34 | File | `/cgi-bin/R14.2/cgi-bin/R14.2/host.pl` | High
+35 | File | `/cgi-bin/R14.2/easy1350.pl` | High
+36 | File | `/cgi-bin/wlogin.cgi` | High
+37 | File | `/clinic/disease_symptoms_view.php` | High
+38 | File | `/config/getuser` | High
+39 | File | `/core/redirect` | High
+40 | File | `/dashboard/snapshot/*?orgId=0` | High
+41 | File | `/data/remove` | Medium
+42 | File | `/debug/pprof` | Medium
+43 | File | `/DXR.axd` | Medium
+44 | File | `/forms/doLogin` | High
+45 | File | `/forum/away.php` | High
+46 | File | `/goform/WifiMacFilterGet` | High
+47 | File | `/goform/wifiSSIDset` | High
+48 | ... | ... | ...
 
-There are 347 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 419 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

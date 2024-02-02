@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [BR](https://vuldb.com/?country.br)
 * ...
 
-There are 4 more country items available. Please use our online service to access the data.
+There are 3 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -132,42 +132,43 @@ ID | Type | Indicator | Confidence
 7 | File | `/admin/fields/manage_field.php` | High
 8 | File | `/admin/regester.php` | High
 9 | File | `/admin/update-clients.php` | High
-10 | File | `/admin_route/dec_service_credits.php` | High
-11 | File | `/admin_route/inc_service_credits.php` | High
-12 | File | `/api/admin/system/store/order/list` | High
-13 | File | `/api/baskets/{name}` | High
-14 | File | `/api/cron/settings/setJob/` | High
-15 | File | `/api/sys/set_passwd` | High
-16 | File | `/api/v1/terminal/sessions/?limit=1` | High
-17 | File | `/app/api/controller/default/Sqlite.php` | High
-18 | File | `/apply.cgi` | Medium
-19 | File | `/arch/x86/mm/cpu_entry_area.c` | High
-20 | File | `/authenticationendpoint/login.do` | High
-21 | File | `/b2b-supermarket/shopping-cart` | High
-22 | File | `/bin/boa` | Medium
-23 | File | `/boaform/device_reset.cgi` | High
-24 | File | `/bsms_ci/index.php` | High
-25 | File | `/bsms_ci/index.php/user/edit_user/` | High
-26 | File | `/catalog/compare` | High
-27 | File | `/cgi-bin/cstecgi.cgi` | High
-28 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-29 | File | `/cgi-bin/downloadFile.cgi` | High
-30 | File | `/cgi-bin/kerbynet` | High
-31 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-32 | File | `/cgi-bin/R14.2/cgi-bin/R14.2/host.pl` | High
-33 | File | `/cgi-bin/R14.2/easy1350.pl` | High
-34 | File | `/cgi-bin/wlogin.cgi` | High
-35 | File | `/clinic/disease_symptoms_view.php` | High
-36 | File | `/config/getuser` | High
-37 | File | `/dashboard/snapshot/*?orgId=0` | High
-38 | File | `/debug/pprof` | Medium
-39 | File | `/DXR.axd` | Medium
-40 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-41 | File | `/forum/away.php` | High
-42 | File | `/geoserver/gwc/rest.html` | High
-43 | ... | ... | ...
+10 | File | `/admin_ping.htm` | High
+11 | File | `/admin_route/dec_service_credits.php` | High
+12 | File | `/admin_route/inc_service_credits.php` | High
+13 | File | `/api/admin/system/store/order/list` | High
+14 | File | `/api/baskets/{name}` | High
+15 | File | `/api/cron/settings/setJob/` | High
+16 | File | `/api/sys/set_passwd` | High
+17 | File | `/api/v1/terminal/sessions/?limit=1` | High
+18 | File | `/app/api/controller/default/Sqlite.php` | High
+19 | File | `/apply.cgi` | Medium
+20 | File | `/arch/x86/mm/cpu_entry_area.c` | High
+21 | File | `/authenticationendpoint/login.do` | High
+22 | File | `/b2b-supermarket/shopping-cart` | High
+23 | File | `/bin/boa` | Medium
+24 | File | `/boaform/device_reset.cgi` | High
+25 | File | `/boafrm/formMapDelDevice` | High
+26 | File | `/bsms_ci/index.php` | High
+27 | File | `/bsms_ci/index.php/user/edit_user/` | High
+28 | File | `/catalog/compare` | High
+29 | File | `/cgi-bin/cstecgi.cgi` | High
+30 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+31 | File | `/cgi-bin/downloadFile.cgi` | High
+32 | File | `/cgi-bin/kerbynet` | High
+33 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+34 | File | `/cgi-bin/R14.2/cgi-bin/R14.2/host.pl` | High
+35 | File | `/cgi-bin/R14.2/easy1350.pl` | High
+36 | File | `/cgi-bin/wlogin.cgi` | High
+37 | File | `/clinic/disease_symptoms_view.php` | High
+38 | File | `/config/getuser` | High
+39 | File | `/core/redirect` | High
+40 | File | `/dashboard/snapshot/*?orgId=0` | High
+41 | File | `/debug/pprof` | Medium
+42 | File | `/DXR.axd` | Medium
+43 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+44 | ... | ... | ...
 
-There are 372 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 377 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

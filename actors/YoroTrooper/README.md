@@ -43,7 +43,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -65,30 +65,28 @@ ID | Type | Indicator | Confidence
 12 | File | `/tmp` | Low
 13 | File | `/usr/5bin/su` | Medium
 14 | File | `/usr/bin/mail` | High
-15 | File | `/var/dt/` | Medium
-16 | File | `/web/entry/en/address/adrsSetUserWizard.cgi` | High
-17 | File | `/zm/index.php` | High
-18 | File | `00.jsp` | Low
-19 | File | `add_edit_download.asp` | High
-20 | File | `admin.asp` | Medium
-21 | File | `admin.php` | Medium
-22 | File | `admin/` | Low
-23 | File | `admin/admin.php` | High
-24 | File | `admin/manage-comments.php` | High
-25 | File | `admin/moduleinterface.php` | High
-26 | File | `AdminViewError/AdminAddadmin` | High
-27 | File | `agentdisplay.php` | High
-28 | File | `and/or` | Low
-29 | File | `auction.cgi` | Medium
-30 | File | `authent.php4` | Medium
-31 | File | `autologin.jsp` | High
-32 | File | `axspawn.c` | Medium
-33 | File | `base_ag_main.php` | High
-34 | File | `base_qry_main.php` | High
-35 | File | `bigsam_guestbook.php` | High
-36 | ... | ... | ...
+15 | File | `/web/entry/en/address/adrsSetUserWizard.cgi` | High
+16 | File | `/zm/index.php` | High
+17 | File | `add_edit_download.asp` | High
+18 | File | `admin.asp` | Medium
+19 | File | `admin.php` | Medium
+20 | File | `admin/` | Low
+21 | File | `admin/admin.php` | High
+22 | File | `admin/manage-comments.php` | High
+23 | File | `admin/moduleinterface.php` | High
+24 | File | `AdminViewError/AdminAddadmin` | High
+25 | File | `agentdisplay.php` | High
+26 | File | `and/or` | Low
+27 | File | `auction.cgi` | Medium
+28 | File | `authent.php4` | Medium
+29 | File | `autologin.jsp` | High
+30 | File | `axspawn.c` | Medium
+31 | File | `base_ag_main.php` | High
+32 | File | `base_qry_main.php` | High
+33 | File | `bigsam_guestbook.php` | High
+34 | ... | ... | ...
 
-There are 304 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 295 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

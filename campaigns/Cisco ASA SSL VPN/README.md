@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 23 more country items available. Please use our online service to access the data.
+There are 22 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -51,7 +51,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-25, CWE-425 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
@@ -87,18 +87,18 @@ ID | Type | Indicator | Confidence
 19 | File | `/Controller/Ajaxfileupload.ashx` | High
 20 | File | `/core/conditions/AbstractWrapper.java` | High
 21 | File | `/debug/pprof` | Medium
-22 | File | `/dist/index.js` | High
-23 | File | `/Duty/AjaxHandle/UploadFloodPlanFileUpdate.ashx` | High
-24 | File | `/etc/passwd` | Medium
-25 | File | `/fcgi/scrut_fcgi.fcgi` | High
-26 | File | `/forum/away.php` | High
-27 | File | `/geoserver/gwc/rest.html` | High
-28 | File | `/goform/formSysCmd` | High
-29 | File | `/HNAP1` | Low
-30 | File | `/hosts/firewall/ip` | High
-31 | File | `/index.php/ccm/system/file/upload` | High
-32 | File | `/jeecg-boot/sys/common/upload` | High
-33 | File | `/load.php` | Medium
+22 | File | `/devinfo` | Medium
+23 | File | `/dist/index.js` | High
+24 | File | `/Duty/AjaxHandle/UploadFloodPlanFileUpdate.ashx` | High
+25 | File | `/etc/passwd` | Medium
+26 | File | `/fcgi/scrut_fcgi.fcgi` | High
+27 | File | `/forum/away.php` | High
+28 | File | `/geoserver/gwc/rest.html` | High
+29 | File | `/goform/formSysCmd` | High
+30 | File | `/HNAP1` | Low
+31 | File | `/hosts/firewall/ip` | High
+32 | File | `/index.php/ccm/system/file/upload` | High
+33 | File | `/jeecg-boot/sys/common/upload` | High
 34 | File | `/log/decodmail.php` | High
 35 | File | `/oauth/idp/.well-known/openid-configuration` | High
 36 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
@@ -113,7 +113,7 @@ ID | Type | Indicator | Confidence
 45 | File | `/sicweb-ajax/tmproot/` | High
 46 | ... | ... | ...
 
-There are 400 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 395 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

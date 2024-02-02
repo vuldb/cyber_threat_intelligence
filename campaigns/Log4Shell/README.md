@@ -146,39 +146,40 @@ ID | Type | Indicator | Confidence
 36 | File | `/App_Resource/UEditor/server/upload.aspx` | High
 37 | File | `/blog` | Low
 38 | File | `/booking/show_bookings/` | High
-39 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-40 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=ie8` | High
-41 | File | `/cgi-bin/mainfunction.cgi` | High
-42 | File | `/cgi-bin/touchlist_sync.cgi` | High
-43 | File | `/change-language/de_DE` | High
-44 | File | `/classes/Master.php` | High
-45 | File | `/classes/Master.php?f=delete_inquiry` | High
-46 | File | `/classes/Master.php?f=save_item` | High
-47 | File | `/config,admin.jsp` | High
-48 | File | `/download.php?file=author.png` | High
-49 | File | `/Duty/AjaxHandle/UploadFloodPlanFileUpdate.ashx` | High
-50 | File | `/DXR.axd` | Medium
-51 | File | `/endpoint/delete-user.php` | High
-52 | File | `/etc/init.d/update_notifications.sh` | High
-53 | File | `/etc/shadow` | Medium
-54 | File | `/file-manager/upload.php` | High
-55 | File | `/file_manager/admin/save_user.php` | High
-56 | File | `/find-a-match` | High
-57 | File | `/forum/away.php` | High
-58 | File | `/forum/PostPrivateMessage` | High
-59 | File | `/forums.php?action=post` | High
-60 | File | `/fos/admin/ajax.php?action=login` | High
-61 | File | `/fos/admin/index.php?page=menu` | High
-62 | File | `/goForm/aspForm` | High
-63 | File | `/home/filter_listings` | High
-64 | File | `/im/user/` | Medium
-65 | File | `/importexport.php` | High
-66 | File | `/inc/jquery/uploadify/uploadify.php` | High
-67 | File | `/inc/parser/xhtml.php` | High
-68 | File | `/index.php` | Medium
-69 | ... | ... | ...
+39 | File | `/cgi-bin/cstecgi.cgi` | High
+40 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+41 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=ie8` | High
+42 | File | `/cgi-bin/mainfunction.cgi` | High
+43 | File | `/cgi-bin/touchlist_sync.cgi` | High
+44 | File | `/change-language/de_DE` | High
+45 | File | `/classes/Master.php` | High
+46 | File | `/classes/Master.php?f=delete_inquiry` | High
+47 | File | `/classes/Master.php?f=save_item` | High
+48 | File | `/config,admin.jsp` | High
+49 | File | `/download.php?file=author.png` | High
+50 | File | `/Duty/AjaxHandle/UploadFloodPlanFileUpdate.ashx` | High
+51 | File | `/DXR.axd` | Medium
+52 | File | `/endpoint/delete-user.php` | High
+53 | File | `/etc/init.d/update_notifications.sh` | High
+54 | File | `/etc/shadow` | Medium
+55 | File | `/file-manager/upload.php` | High
+56 | File | `/file_manager/admin/save_user.php` | High
+57 | File | `/find-a-match` | High
+58 | File | `/forum/away.php` | High
+59 | File | `/forum/PostPrivateMessage` | High
+60 | File | `/forums.php?action=post` | High
+61 | File | `/fos/admin/ajax.php?action=login` | High
+62 | File | `/fos/admin/index.php?page=menu` | High
+63 | File | `/goForm/aspForm` | High
+64 | File | `/home/filter_listings` | High
+65 | File | `/im/user/` | Medium
+66 | File | `/importexport.php` | High
+67 | File | `/inc/jquery/uploadify/uploadify.php` | High
+68 | File | `/inc/parser/xhtml.php` | High
+69 | File | `/index.php` | Medium
+70 | ... | ... | ...
 
-There are 603 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 610 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

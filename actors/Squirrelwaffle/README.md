@@ -64,15 +64,15 @@ ID | Type | Indicator | Confidence
 7 | File | `/index.php` | Medium
 8 | File | `/product_list.php` | High
 9 | File | `/qsr_server/device/reboot` | High
-10 | File | `/snmpGet` | Medium
-11 | File | `/tmp` | Low
-12 | File | `/uncpath/` | Medium
-13 | File | `/wp-admin/admin-ajax.php` | High
-14 | File | `administrator/components/com_media/helpers/media.php` | High
-15 | File | `adm_program/modules/dates/dates_function.php` | High
+10 | File | `/resource/file/api/save?auto=1` | High
+11 | File | `/snmpGet` | Medium
+12 | File | `/tmp` | Low
+13 | File | `/uncpath/` | Medium
+14 | File | `/wp-admin/admin-ajax.php` | High
+15 | File | `administrator/components/com_media/helpers/media.php` | High
 16 | ... | ... | ...
 
-There are 127 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 129 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

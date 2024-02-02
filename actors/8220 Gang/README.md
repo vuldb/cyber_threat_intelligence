@@ -73,7 +73,7 @@ ID | Type | Indicator | Confidence
 17 | File | `AdminByRequest.exe` | High
 18 | ... | ... | ...
 
-There are 148 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 151 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

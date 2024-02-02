@@ -153,7 +153,7 @@ ID | IP address | Hostname | Campaign | Confidence
 130 | [59.127.209.88](https://vuldb.com/?ip.59.127.209.88) | 59-127-209-88.hinet-ip.hinet.net | - | High
 131 | ... | ... | ... | ...
 
-There are 519 more IOC items available. Please use our online service to access the data.
+There are 520 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -161,10 +161,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-29 | Pathname Traversal | High
+1 | T1006 | CWE-22, CWE-23 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94 | Cross Site Scripting | High
-4 | ... | ... | ... | ...
+3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
 There are 14 more TTP items available. Please use our online service to access the data.
 
@@ -174,55 +175,53 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/.env` | Low
-2 | File | `/admin/action/new-father.php` | High
-3 | File | `/admin/admin.php` | High
-4 | File | `/admin/clientview.php` | High
-5 | File | `/admin/regester.php` | High
-6 | File | `/admin/update-clients.php` | High
-7 | File | `/admin_route/dec_service_credits.php` | High
-8 | File | `/admin_route/inc_service_credits.php` | High
-9 | File | `/api/cron/settings/setJob/` | High
-10 | File | `/api/sys/set_passwd` | High
-11 | File | `/app/api/controller/default/Sqlite.php` | High
-12 | File | `/apply.cgi` | Medium
-13 | File | `/authenticationendpoint/login.do` | High
-14 | File | `/bin/boa` | Medium
-15 | File | `/boaform/device_reset.cgi` | High
-16 | File | `/bsms_ci/index.php/user/edit_user/` | High
-17 | File | `/cgi-bin/cstecgi.cgi` | High
-18 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-19 | File | `/cgi-bin/R14.2/cgi-bin/R14.2/host.pl` | High
-20 | File | `/cgi-bin/R14.2/easy1350.pl` | High
-21 | File | `/dashboard/snapshot/*?orgId=0` | High
-22 | File | `/data/remove` | Medium
-23 | File | `/debug/pprof` | Medium
-24 | File | `/dev/cpu/*/msr` | High
-25 | File | `/filemanager/upload/drop` | High
-26 | File | `/forum/away.php` | High
-27 | File | `/goform/NatStaticSetting` | High
-28 | File | `/include/lang-en.php` | High
-29 | File | `/Main_AdmStatus_Content.asp` | High
-30 | File | `/manager?action=getlogcat` | High
-31 | File | `/modules/projects/vw_files.php` | High
-32 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-33 | File | `/navigation/create?ParentID=%23` | High
-34 | File | `/oauth/idp/.well-known/openid-configuration` | High
-35 | File | `/preview.php` | Medium
-36 | File | `/public/login.htm` | High
-37 | File | `/sbin/conf.d/SuSEconfig.javarunt` | High
-38 | File | `/src/Illuminate/Laravel.php` | High
-39 | File | `/status/` | Medium
-40 | File | `/sysmanage/updateos.php` | High
-41 | File | `/usr/bin/write` | High
-42 | File | `/var/spool/fax/outgoing/.last_run` | High
-43 | File | `3G/UMTS` | Low
-44 | File | `400.htm/500.htm` | High
-45 | File | `abitwhizzy.php` | High
-46 | File | `acc.php` | Low
-47 | ... | ... | ...
+1 | File | `/admin/` | Low
+2 | File | `/admin/edit_teacher.php` | High
+3 | File | `/admin/fields/manage_field.php` | High
+4 | File | `/admin_ping.htm` | High
+5 | File | `/arch/x86/mm/cpu_entry_area.c` | High
+6 | File | `/boafrm/formMapDelDevice` | High
+7 | File | `/cgi-bin/cstecgi.cgi` | High
+8 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+9 | File | `/core/redirect` | High
+10 | File | `/forum/away.php` | High
+11 | File | `/goform/WifiMacFilterGet` | High
+12 | File | `/goform/wifiSSIDset` | High
+13 | File | `/include/lang-en.php` | High
+14 | File | `/index.php?app=main&func=passport&action=login` | High
+15 | File | `/login` | Low
+16 | File | `/obj/utilisateur.class.php` | High
+17 | File | `/php/ping.php` | High
+18 | File | `/public/login.htm` | High
+19 | File | `/resources//../` | High
+20 | File | `abitwhizzy.php` | High
+21 | File | `acc.php` | Low
+22 | File | `Account.asp` | Medium
+23 | File | `add_comment.php` | High
+24 | File | `admin-ajax.php` | High
+25 | File | `admin.php` | Medium
+26 | File | `admin/index.php` | High
+27 | File | `afd.sys` | Low
+28 | File | `ajax/telemetry.php` | High
+29 | File | `app/plug/controller/giftcontroller.php` | High
+30 | File | `apply.cgi` | Medium
+31 | File | `ArchivesMapper.xml` | High
+32 | File | `articlesdetails.php` | High
+33 | File | `AscoServer.exe` | High
+34 | File | `asp:.jpg` | Medium
+35 | File | `a_viewusers.php` | High
+36 | File | `bb-includes/formatting-functions.php` | High
+37 | File | `BBStore.php` | Medium
+38 | File | `BKFSim_vhfd.exe` | High
+39 | File | `brokenlink.php` | High
+40 | File | `cal2.jsp` | Medium
+41 | File | `categos.php` | Medium
+42 | File | `centre.php` | Medium
+43 | File | `cgi-bin/admin.c` | High
+44 | File | `check_vote.php` | High
+45 | ... | ... | ...
 
-There are 411 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 393 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

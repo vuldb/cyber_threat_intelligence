@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 19 more country items available. Please use our online service to access the data.
+There are 16 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -62,13 +62,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-25, CWE-425 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
-7 | ... | ... | ... | ...
+6 | ... | ... | ... | ...
 
 There are 22 more TTP items available. Please use our online service to access the data.
 
@@ -93,11 +92,11 @@ ID | Type | Indicator | Confidence
 13 | File | `/cgi-bin/luci/api/wireless` | High
 14 | File | `/cgi-bin/vitogate.cgi` | High
 15 | File | `/change-language/de_DE` | High
-16 | File | `/company/store` | High
-17 | File | `/Content/Template/root/reverse-shell.aspx` | High
-18 | File | `/Controller/Ajaxfileupload.ashx` | High
-19 | File | `/core/conditions/AbstractWrapper.java` | High
-20 | File | `/debug/pprof` | Medium
+16 | File | `/Content/Template/root/reverse-shell.aspx` | High
+17 | File | `/core/admin/copyfrom.php` | High
+18 | File | `/core/conditions/AbstractWrapper.java` | High
+19 | File | `/debug/pprof` | Medium
+20 | File | `/devinfo` | Medium
 21 | File | `/dist/index.js` | High
 22 | File | `/DXR.axd` | Medium
 23 | File | `/etc/passwd` | Medium
@@ -120,10 +119,10 @@ ID | Type | Indicator | Confidence
 40 | File | `/register.do` | Medium
 41 | File | `/RPS2019Service/status.html` | High
 42 | File | `/s/index.php?action=statistics` | High
-43 | File | `/Service/ImageStationDataService.asmx` | High
+43 | File | `/setting` | Medium
 44 | ... | ... | ...
 
-There are 385 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 384 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -33,6 +33,7 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `V1/customers/me` | High
+2 | Argument | `viewUrl` | Low
 
 ## References
 

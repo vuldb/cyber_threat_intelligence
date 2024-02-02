@@ -49,25 +49,25 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/cgi-bin/kerbynet` | High
-2 | File | `/cgi-bin/touchlist_sync.cgi` | High
-3 | File | `/Core/Ap4Stz2Atom.cpp` | High
-4 | File | `/etc/config/cameo` | High
-5 | File | `/etc/fstab` | Medium
-6 | File | `/goform/aspForm` | High
-7 | File | `/ofrs/admin/?page=user/manage_user` | High
-8 | File | `/user/dls_download.php` | High
-9 | File | `/xxl-job-admin/jobinfo` | High
-10 | File | `AAVCAssembler.cpp` | High
-11 | File | `admin.php` | Medium
-12 | File | `Admin.php` | Medium
-13 | File | `admin/admin.guestbook.php` | High
-14 | File | `admin/comment.php` | High
-15 | File | `afr.php` | Low
-16 | File | `album_add.php` | High
+1 | File | `/admin/markdown` | High
+2 | File | `/cgi-bin/kerbynet` | High
+3 | File | `/cgi-bin/touchlist_sync.cgi` | High
+4 | File | `/Core/Ap4Stz2Atom.cpp` | High
+5 | File | `/etc/config/cameo` | High
+6 | File | `/etc/fstab` | Medium
+7 | File | `/goform/aspForm` | High
+8 | File | `/ofrs/admin/?page=user/manage_user` | High
+9 | File | `/user/dls_download.php` | High
+10 | File | `/xxl-job-admin/jobinfo` | High
+11 | File | `AAVCAssembler.cpp` | High
+12 | File | `admin.php` | Medium
+13 | File | `Admin.php` | Medium
+14 | File | `admin/admin.guestbook.php` | High
+15 | File | `admin/comment.php` | High
+16 | File | `afr.php` | Low
 17 | ... | ... | ...
 
-There are 138 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 139 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -84,4 +84,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

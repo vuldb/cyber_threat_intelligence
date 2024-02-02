@@ -69,26 +69,26 @@ ID | Type | Indicator | Confidence
 20 | File | `/classes/Master.php?f=delete_service` | High
 21 | File | `/common/info.cgi` | High
 22 | File | `/core/table/query` | High
-23 | File | `/damicms-master/admin.php?s=/Article/doedit` | High
-24 | File | `/feedback/post/` | High
-25 | File | `/gaia-job-admin/user/add` | High
-26 | File | `/goform/dir_setWanWifi` | High
-27 | File | `/goform/login` | High
-28 | File | `/goform/SetInternetLanInfo` | High
-29 | File | `/goform/setportList` | High
-30 | File | `/goform/SetPptpServerCfg` | High
-31 | File | `/goform/WifiBasicSet` | High
-32 | File | `/group/apply` | Medium
-33 | File | `/gusetbook/save` | High
-34 | File | `/hdf5/src/H5Fint.c` | High
-35 | File | `/includes/login.php` | High
-36 | File | `/index.cfm/_api/asset/image/` | High
-37 | File | `/insurance/editClient.php` | High
-38 | File | `/linkedcontent/editfolder.php` | High
-39 | File | `/manage/network-basic.php` | High
+23 | File | `/cupseasylive/costcentercreate.php` | High
+24 | File | `/damicms-master/admin.php?s=/Article/doedit` | High
+25 | File | `/feedback/post/` | High
+26 | File | `/gaia-job-admin/user/add` | High
+27 | File | `/goform/dir_setWanWifi` | High
+28 | File | `/goform/login` | High
+29 | File | `/goform/SetInternetLanInfo` | High
+30 | File | `/goform/setportList` | High
+31 | File | `/goform/SetPptpServerCfg` | High
+32 | File | `/goform/WifiBasicSet` | High
+33 | File | `/group/apply` | Medium
+34 | File | `/gusetbook/save` | High
+35 | File | `/hdf5/src/H5Fint.c` | High
+36 | File | `/includes/login.php` | High
+37 | File | `/index.cfm/_api/asset/image/` | High
+38 | File | `/insurance/editClient.php` | High
+39 | File | `/linkedcontent/editfolder.php` | High
 40 | ... | ... | ...
 
-There are 341 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 340 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

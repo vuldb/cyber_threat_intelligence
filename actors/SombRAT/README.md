@@ -51,6 +51,7 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `http_auth.c` | Medium
 2 | File | `wp/v2/posts` | Medium
+3 | Library | `win32k.sys` | Medium
 
 ## References
 

@@ -58,12 +58,12 @@ ID | Type | Indicator | Confidence
 1 | File | `/admin/maintenance/view_designation.php` | High
 2 | File | `/admin/orders/update_status.php` | High
 3 | File | `/admin/sys_sql_query.php` | High
-4 | File | `/cgi-bin/wapopen` | High
-5 | File | `/etc/fstab` | Medium
-6 | File | `/forum/away.php` | High
+4 | File | `/application/index/common.php` | High
+5 | File | `/cgi-bin/wapopen` | High
+6 | File | `/etc/fstab` | Medium
 7 | ... | ... | ...
 
-There are 46 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 49 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

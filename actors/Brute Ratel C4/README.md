@@ -81,7 +81,7 @@ ID | IP address | Hostname | Campaign | Confidence
 58 | [18.238.132.74](https://vuldb.com/?ip.18.238.132.74) | server-18-238-132-74.dfw57.r.cloudfront.net | - | High
 59 | ... | ... | ... | ...
 
-There are 233 more IOC items available. Please use our online service to access the data.
+There are 234 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -150,7 +150,7 @@ ID | Type | Indicator | Confidence
 44 | File | `/Service/ImageStationDataService.asmx` | High
 45 | ... | ... | ...
 
-There are 391 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 386 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -205,6 +205,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/31.42.189.61
 * https://search.censys.io/hosts/34.206.147.4
 * https://search.censys.io/hosts/35.72.0.113
+* https://search.censys.io/hosts/35.72.81.251
 * https://search.censys.io/hosts/35.72.94.12
 * https://search.censys.io/hosts/35.72.100.201
 * https://search.censys.io/hosts/35.73.40.176

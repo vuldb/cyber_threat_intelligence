@@ -92,7 +92,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -107,47 +107,48 @@ ID | Type | Indicator | Confidence
 5 | File | `/admin/controller/JobLogController.java` | High
 6 | File | `/admin/doctors.php` | High
 7 | File | `/admin/login.php` | High
-8 | File | `/admin/submit-articles` | High
-9 | File | `/alphaware/summary.php` | High
-10 | File | `/api/` | Low
-11 | File | `/api/admin/store/product/list` | High
-12 | File | `/api/baskets/{name}` | High
-13 | File | `/api/stl/actions/search` | High
-14 | File | `/api/sys/login` | High
-15 | File | `/api/sys/set_passwd` | High
-16 | File | `/api/trackedEntityInstances` | High
-17 | File | `/api/v2/cli/commands` | High
-18 | File | `/apply.cgi` | Medium
-19 | File | `/attachments` | Medium
-20 | File | `/aux` | Low
-21 | File | `/bin/ate` | Medium
-22 | File | `/boat/login.php` | High
-23 | File | `/booking/show_bookings/` | High
-24 | File | `/bsms_ci/index.php/book` | High
-25 | File | `/cgi-bin` | Medium
-26 | File | `/cgi-bin/wlogin.cgi` | High
-27 | File | `/changePassword` | High
-28 | File | `/Content/Template/root/reverse-shell.aspx` | High
-29 | File | `/dashboard/add-blog.php` | High
-30 | File | `/data/remove` | Medium
-31 | File | `/debug/pprof` | Medium
-32 | File | `/ecshop/admin/template.php` | High
-33 | File | `/env` | Low
-34 | File | `/etc/hosts` | Medium
-35 | File | `/forum/away.php` | High
-36 | File | `/group1/uploa` | High
-37 | File | `/index.php` | Medium
-38 | File | `/medicines/profile.php` | High
-39 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-40 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-41 | File | `/php-sms/admin/?page=user/manage_user` | High
-42 | File | `/proxy` | Low
-43 | File | `/reservation/add_message.php` | High
-44 | File | `/resources//../` | High
-45 | File | `/scripts/unlock_tasks.php` | High
-46 | ... | ... | ...
+8 | File | `/alphaware/summary.php` | High
+9 | File | `/api/` | Low
+10 | File | `/api/admin/store/product/list` | High
+11 | File | `/api/baskets/{name}` | High
+12 | File | `/api/stl/actions/search` | High
+13 | File | `/api/sys/login` | High
+14 | File | `/api/sys/set_passwd` | High
+15 | File | `/api/trackedEntityInstances` | High
+16 | File | `/api/v2/cli/commands` | High
+17 | File | `/apply.cgi` | Medium
+18 | File | `/attachments` | Medium
+19 | File | `/aux` | Low
+20 | File | `/bin/ate` | Medium
+21 | File | `/boat/login.php` | High
+22 | File | `/booking/show_bookings/` | High
+23 | File | `/bsms_ci/index.php/book` | High
+24 | File | `/cgi-bin` | Medium
+25 | File | `/cgi-bin/wlogin.cgi` | High
+26 | File | `/changePassword` | High
+27 | File | `/Content/Template/root/reverse-shell.aspx` | High
+28 | File | `/dashboard/add-blog.php` | High
+29 | File | `/data/remove` | Medium
+30 | File | `/debug/pprof` | Medium
+31 | File | `/ecshop/admin/template.php` | High
+32 | File | `/env` | Low
+33 | File | `/etc/hosts` | Medium
+34 | File | `/forum/away.php` | High
+35 | File | `/group1/uploa` | High
+36 | File | `/index.php` | Medium
+37 | File | `/medicines/profile.php` | High
+38 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+39 | File | `/php-sms/admin/?page=user/manage_user` | High
+40 | File | `/reservation/add_message.php` | High
+41 | File | `/resources//../` | High
+42 | File | `/scripts/unlock_tasks.php` | High
+43 | File | `/Session` | Medium
+44 | File | `/spip.php` | Medium
+45 | File | `/system/user/modules/mod_users/controller.php` | High
+46 | File | `/testConnection` | High
+47 | ... | ... | ...
 
-There are 397 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 411 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

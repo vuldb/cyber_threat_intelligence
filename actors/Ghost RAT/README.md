@@ -36,16 +36,17 @@ ID | IP address | Hostname | Campaign | Confidence
 18 | [38.181.58.21](https://vuldb.com/?ip.38.181.58.21) | uhn19.pm.com | - | High
 19 | [39.109.113.141](https://vuldb.com/?ip.39.109.113.141) | - | - | High
 20 | [43.129.192.59](https://vuldb.com/?ip.43.129.192.59) | - | - | High
-21 | [43.142.38.153](https://vuldb.com/?ip.43.142.38.153) | - | - | High
-22 | [43.248.137.153](https://vuldb.com/?ip.43.248.137.153) | - | - | High
-23 | [43.249.195.178](https://vuldb.com/?ip.43.249.195.178) | - | - | High
-24 | [43.255.241.176](https://vuldb.com/?ip.43.255.241.176) | 43-255-241-176.static.bestidc.net | - | High
-25 | [45.153.241.207](https://vuldb.com/?ip.45.153.241.207) | - | - | High
-26 | [47.92.53.65](https://vuldb.com/?ip.47.92.53.65) | - | - | High
-27 | [47.97.103.217](https://vuldb.com/?ip.47.97.103.217) | - | - | High
-28 | ... | ... | ... | ...
+21 | [43.136.78.18](https://vuldb.com/?ip.43.136.78.18) | - | - | High
+22 | [43.142.38.153](https://vuldb.com/?ip.43.142.38.153) | - | - | High
+23 | [43.248.137.153](https://vuldb.com/?ip.43.248.137.153) | - | - | High
+24 | [43.249.195.178](https://vuldb.com/?ip.43.249.195.178) | - | - | High
+25 | [43.255.241.176](https://vuldb.com/?ip.43.255.241.176) | 43-255-241-176.static.bestidc.net | - | High
+26 | [45.153.241.207](https://vuldb.com/?ip.45.153.241.207) | - | - | High
+27 | [47.92.53.65](https://vuldb.com/?ip.47.92.53.65) | - | - | High
+28 | [47.97.103.217](https://vuldb.com/?ip.47.97.103.217) | - | - | High
+29 | ... | ... | ... | ...
 
-There are 108 more IOC items available. Please use our online service to access the data.
+There are 110 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -84,12 +85,15 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://bazaar.abuse.ch/sample/ca15a055b2e1d06a8fbd3a22341aeda29bbc19688b778dc3a15c615f0367bc21/
 * https://mobile.twitter.com/1ZRR4H/status/1523791593278345217
 * https://search.censys.io/hosts/1.13.249.49
+* https://search.censys.io/hosts/43.136.78.18
 * https://search.censys.io/hosts/43.248.137.153
 * https://search.censys.io/hosts/61.147.93.153
 * https://search.censys.io/hosts/61.147.199.238
 * https://search.censys.io/hosts/85.214.255.25
 * https://search.censys.io/hosts/101.43.129.115
+* https://search.censys.io/hosts/103.45.128.143
 * https://search.censys.io/hosts/103.148.245.125
+* https://search.censys.io/hosts/103.165.81.82
 * https://search.censys.io/hosts/106.52.216.65
 * https://search.censys.io/hosts/116.63.35.42
 * https://search.censys.io/hosts/121.5.136.143

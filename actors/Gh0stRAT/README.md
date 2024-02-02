@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [VN](https://vuldb.com/?country.vn)
 * ...
 
-There are 3 more country items available. Please use our online service to access the data.
+There are 2 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -102,7 +102,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 12 more TTP items available. Please use our online service to access the data.
+There are 11 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -110,59 +110,57 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/admin.php` | High
-2 | File | `/cgi/cpaddons_report.pl` | High
-3 | File | `/debug/pprof` | Medium
-4 | File | `/dev/cpu/*/msr` | High
-5 | File | `/em/console/logon/logon` | High
-6 | File | `/goform/NatStaticSetting` | High
-7 | File | `/hedwig.cgi` | Medium
-8 | File | `/include/lang-en.php` | High
-9 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-10 | File | `/oauth/idp/.well-known/openid-configuration` | High
-11 | File | `/preview.php` | Medium
-12 | File | `/status/` | Medium
-13 | File | `/update-resource-data/` | High
-14 | File | `/usr/bin/write` | High
-15 | File | `/var/spool/fax/outgoing/.last_run` | High
-16 | File | `3G/UMTS` | Low
-17 | File | `400.htm/500.htm` | High
-18 | File | `abitwhizzy.php` | High
-19 | File | `acc.php` | Low
-20 | File | `Account.asp` | Medium
-21 | File | `accton` | Low
-22 | File | `adduser` | Low
-23 | File | `add_comment.php` | High
-24 | File | `add_post.php3` | High
-25 | File | `admin/auth.php` | High
-26 | File | `admin/index.php` | High
-27 | File | `admin/picture/picture_real_edit.asp` | High
-28 | File | `admin/tool/policy/classes/output/page_viewalldoc.php` | High
-29 | File | `ArchivesMapper.xml` | High
-30 | File | `authinfo.java` | High
-31 | File | `AutomaticZenRule.java` | High
-32 | File | `avatar.php` | Medium
-33 | File | `bb-includes/formatting-functions.php` | High
-34 | File | `BBStore.php` | Medium
-35 | File | `binder.c` | Medium
-36 | File | `block/blk-cgroup.c` | High
-37 | File | `board.php` | Medium
-38 | File | `brokenlink.php` | High
-39 | File | `browse.php` | Medium
-40 | File | `bsc_sms_send.php` | High
-41 | File | `cal2.jsp` | Medium
-42 | File | `calendar.php` | Medium
-43 | File | `categos.php` | Medium
-44 | File | `centre.php` | Medium
-45 | File | `cgi-bin/admin.c` | High
-46 | File | `cgi-bin/doLogin_CgiEntry` | High
-47 | File | `channels/chan_skinny.c` | High
-48 | File | `check_vote.php` | High
-49 | File | `class.layout_phpcms.php` | High
-50 | File | `class.openbsd.inc.php` | High
-51 | ... | ... | ...
+1 | File | `/general/email/inbox/delete_webmail.php` | High
+2 | File | `/hedwig.cgi` | Medium
+3 | File | `/include/lang-en.php` | High
+4 | File | `/login` | Low
+5 | File | `/obj/utilisateur.class.php` | High
+6 | File | `/resources//../` | High
+7 | File | `/status/` | Medium
+8 | File | `/uploads/tags.php` | High
+9 | File | `abitwhizzy.php` | High
+10 | File | `acc.php` | Low
+11 | File | `Account.asp` | Medium
+12 | File | `add_comment.php` | High
+13 | File | `add_post.php3` | High
+14 | File | `admin.php` | Medium
+15 | File | `admin/index.php` | High
+16 | File | `admin/picture/picture_real_edit.asp` | High
+17 | File | `admin/tool/policy/classes/output/page_viewalldoc.php` | High
+18 | File | `afd.sys` | Low
+19 | File | `ArchivesMapper.xml` | High
+20 | File | `articlesdetails.php` | High
+21 | File | `AscoServer.exe` | High
+22 | File | `asp:.jpg` | Medium
+23 | File | `a_viewusers.php` | High
+24 | File | `bb-includes/formatting-functions.php` | High
+25 | File | `BBStore.php` | Medium
+26 | File | `BKFSim_vhfd.exe` | High
+27 | File | `brokenlink.php` | High
+28 | File | `cal2.jsp` | Medium
+29 | File | `category.php` | Medium
+30 | File | `categos.php` | Medium
+31 | File | `centre.php` | Medium
+32 | File | `cgi-bin/admin.c` | High
+33 | File | `check_vote.php` | High
+34 | File | `comadd.php` | Medium
+35 | File | `comments.php` | Medium
+36 | File | `compose.php` | Medium
+37 | File | `config.php` | Medium
+38 | File | `connector.php` | High
+39 | File | `content_footer.php` | High
+40 | File | `core/admin/modules/developer/modules/views/add.php` | High
+41 | File | `coupon_detail.asp` | High
+42 | File | `create_lazarus_export_tgz.sh` | High
+43 | File | `crs.exe` | Low
+44 | File | `ctlprovider.exe` | High
+45 | File | `db.mysql.inc.php` | High
+46 | File | `decoder.php` | Medium
+47 | File | `default.asp` | Medium
+48 | File | `defaultroot/platform/bpm/work_flow/operate/wf_printnum.jsp` | High
+49 | ... | ... | ...
 
-There are 439 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 427 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

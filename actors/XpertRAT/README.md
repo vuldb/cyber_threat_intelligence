@@ -71,10 +71,10 @@ ID | Type | Indicator | Confidence
 19 | File | `/index.php?app=main&func=passport&action=login` | High
 20 | File | `/manage-apartment.php` | High
 21 | File | `/multi-vendor-shopping-script/product-list.php` | High
-22 | File | `/Noxen-master/users.php` | High
+22 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
 23 | ... | ... | ...
 
-There are 187 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 189 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Socks5 Systemz:
 
 * [NL](https://vuldb.com/?country.nl)
-* [US](https://vuldb.com/?country.us)
 * [FR](https://vuldb.com/?country.fr)
+* [US](https://vuldb.com/?country.us)
 * ...
 
 There are 12 more country items available. Please use our online service to access the data.
@@ -21,22 +21,23 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [37.187.122.227](https://vuldb.com/?ip.37.187.122.227) | 519.gra.ovh.abcd.network | - | High
-2 | [37.187.142.187](https://vuldb.com/?ip.37.187.142.187) | 2416.gra1.ovh.abcd.network | - | High
-3 | [37.187.143.172](https://vuldb.com/?ip.37.187.143.172) | ns372109.ip-37-187-143.eu | - | High
-4 | [37.187.148.204](https://vuldb.com/?ip.37.187.148.204) | ns3010993.ip-37-187-148.eu | - | High
-5 | [45.155.250.90](https://vuldb.com/?ip.45.155.250.90) | - | - | High
-6 | [51.159.66.125](https://vuldb.com/?ip.51.159.66.125) | 51-159-66-125.rev.poneytelecom.eu | - | High
-7 | [62.210.204.131](https://vuldb.com/?ip.62.210.204.131) | 62-210-204-131.rev.poneytelecom.eu | - | High
-8 | [69.30.215.106](https://vuldb.com/?ip.69.30.215.106) | lumpet.peardong.org.uk | - | High
-9 | [69.30.233.162](https://vuldb.com/?ip.69.30.233.162) | - | - | High
-10 | [69.30.253.122](https://vuldb.com/?ip.69.30.253.122) | - | - | High
-11 | [79.132.130.163](https://vuldb.com/?ip.79.132.130.163) | - | - | High
-12 | [81.31.197.8](https://vuldb.com/?ip.81.31.197.8) | vm4755017.34ssd.had.wf | - | High
-13 | [81.31.197.38](https://vuldb.com/?ip.81.31.197.38) | vm4742695.34ssd.had.wf | - | High
-14 | ... | ... | ... | ...
+1 | [34.29.85.190](https://vuldb.com/?ip.34.29.85.190) | 190.85.29.34.bc.googleusercontent.com | - | Medium
+2 | [37.187.122.227](https://vuldb.com/?ip.37.187.122.227) | 519.gra.ovh.abcd.network | - | High
+3 | [37.187.142.187](https://vuldb.com/?ip.37.187.142.187) | 2416.gra1.ovh.abcd.network | - | High
+4 | [37.187.143.172](https://vuldb.com/?ip.37.187.143.172) | ns372109.ip-37-187-143.eu | - | High
+5 | [37.187.148.204](https://vuldb.com/?ip.37.187.148.204) | ns3010993.ip-37-187-148.eu | - | High
+6 | [45.155.250.90](https://vuldb.com/?ip.45.155.250.90) | - | - | High
+7 | [51.159.66.125](https://vuldb.com/?ip.51.159.66.125) | 51-159-66-125.rev.poneytelecom.eu | - | High
+8 | [62.210.204.131](https://vuldb.com/?ip.62.210.204.131) | 62-210-204-131.rev.poneytelecom.eu | - | High
+9 | [65.109.80.185](https://vuldb.com/?ip.65.109.80.185) | static.185.80.109.65.clients.your-server.de | - | High
+10 | [69.30.215.106](https://vuldb.com/?ip.69.30.215.106) | lumpet.peardong.org.uk | - | High
+11 | [69.30.233.162](https://vuldb.com/?ip.69.30.233.162) | - | - | High
+12 | [69.30.253.122](https://vuldb.com/?ip.69.30.253.122) | - | - | High
+13 | [79.132.130.163](https://vuldb.com/?ip.79.132.130.163) | - | - | High
+14 | [81.31.197.8](https://vuldb.com/?ip.81.31.197.8) | vm4755017.34ssd.had.wf | - | High
+15 | ... | ... | ... | ...
 
-There are 51 more IOC items available. Please use our online service to access the data.
+There are 56 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -59,39 +60,39 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/subnets/ripe-query.php` | High
-2 | File | `/alphaware/details.php` | High
-3 | File | `/apply.cgi` | Medium
-4 | File | `/cgi-bin/downloadFile.cgi` | High
-5 | File | `/cgi/loginDefaultUser` | High
-6 | File | `/core/conditions/AbstractWrapper.java` | High
-7 | File | `/debug/pprof` | Medium
-8 | File | `/export` | Low
-9 | File | `/file?action=download&file` | High
-10 | File | `/h/autoSaveDraft` | High
-11 | File | `/hardware` | Medium
-12 | File | `/librarian/bookdetails.php` | High
-13 | File | `/monitoring` | Medium
-14 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-15 | File | `/plugin/LiveChat/getChat.json.php` | High
-16 | File | `/plugins/servlet/audit/resource` | High
-17 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
-18 | File | `/PROD_ar/twbkwbis.P_FirstMenu` | High
-19 | File | `/RestAPI` | Medium
-20 | File | `/server-status` | High
-21 | File | `/tmp/zarafa-vacation-*` | High
-22 | File | `/uncpath/` | Medium
-23 | File | `/upload` | Low
-24 | File | `/user/loader.php?api=1` | High
-25 | File | `/usr/bin/sonia` | High
-26 | File | `/var/log/nginx` | High
-27 | File | `/var/run/sudo-rs/ts` | High
-28 | File | `/var/run/watchman.pid` | High
-29 | File | `/viewer/krpano.html` | High
-30 | File | `/wp-json/oembed/1.0/embed?url` | High
-31 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-32 | File | `about.php` | Medium
-33 | File | `ActivityManagerService.java` | High
+1 | File | `/admin/students.php` | High
+2 | File | `/admin/subnets/ripe-query.php` | High
+3 | File | `/admin/theme-edit.php` | High
+4 | File | `/alphaware/details.php` | High
+5 | File | `/api/jolokia org.jolokia.http.HttpRequestHandler#handlePostRequest` | High
+6 | File | `/app/sys1.php` | High
+7 | File | `/apply.cgi` | Medium
+8 | File | `/cgi-bin/downloadFile.cgi` | High
+9 | File | `/cgi/loginDefaultUser` | High
+10 | File | `/core/conditions/AbstractWrapper.java` | High
+11 | File | `/debug/pprof` | Medium
+12 | File | `/export` | Low
+13 | File | `/file?action=download&file` | High
+14 | File | `/h/autoSaveDraft` | High
+15 | File | `/hardware` | Medium
+16 | File | `/librarian/bookdetails.php` | High
+17 | File | `/monitoring` | Medium
+18 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+19 | File | `/plugin/LiveChat/getChat.json.php` | High
+20 | File | `/plugins/servlet/audit/resource` | High
+21 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
+22 | File | `/product/savenewproduct.php?flag=1` | High
+23 | File | `/PROD_ar/twbkwbis.P_FirstMenu` | High
+24 | File | `/RestAPI` | Medium
+25 | File | `/server-status` | High
+26 | File | `/tmp/zarafa-vacation-*` | High
+27 | File | `/uncpath/` | Medium
+28 | File | `/upload` | Low
+29 | File | `/user/loader.php?api=1` | High
+30 | File | `/usr/bin/sonia` | High
+31 | File | `/var/log/nginx` | High
+32 | File | `/var/run/sudo-rs/ts` | High
+33 | File | `/var/run/watchman.pid` | High
 34 | ... | ... | ...
 
 There are 287 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
@@ -113,4 +114,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

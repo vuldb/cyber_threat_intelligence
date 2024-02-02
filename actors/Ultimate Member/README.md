@@ -50,33 +50,35 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/.env` | Low
-2 | File | `/admin/index2.html` | High
-3 | File | `/admin/project/update/2` | High
-4 | File | `/admin/upload/img` | High
-5 | File | `/api/authentication/login` | High
-6 | File | `/api/baskets/{name}` | High
-7 | File | `/api/jolokia org.jolokia.http.HttpRequestHandler#handlePostRequest` | High
-8 | File | `/api/wechat/app_auth` | High
-9 | File | `/api2/html/` | Medium
-10 | File | `/books` | Low
-11 | File | `/cas/logout` | Medium
-12 | File | `/cgi-bin/supervisor/CloudSetup.cgi` | High
-13 | File | `/cgi-bin/wlogin.cgi` | High
-14 | File | `/classes/Master.php` | High
-15 | File | `/classes/Master.php?f=delete_item` | High
-16 | File | `/classes/Master.php?f=delete_service` | High
-17 | File | `/classes/Master.php?f=save_service` | High
-18 | File | `/contact.php` | Medium
-19 | File | `/controller/OnlinePreviewController.java` | High
-20 | File | `/dayrui/My/Config/Install.txt` | High
-21 | File | `/debug/pprof` | Medium
-22 | File | `/designer/add/layout` | High
-23 | File | `/dialog/select_media.php` | High
-24 | File | `/DXR.axd` | Medium
-25 | File | `/etc/quagga` | Medium
-26 | ... | ... | ...
+2 | File | `/admin/category_row.php` | High
+3 | File | `/admin/index2.html` | High
+4 | File | `/admin/project/update/2` | High
+5 | File | `/admin/upload/img` | High
+6 | File | `/api/authentication/login` | High
+7 | File | `/api/baskets/{name}` | High
+8 | File | `/api/jolokia org.jolokia.http.HttpRequestHandler#handlePostRequest` | High
+9 | File | `/api/wechat/app_auth` | High
+10 | File | `/api2/html/` | Medium
+11 | File | `/books` | Low
+12 | File | `/cas/logout` | Medium
+13 | File | `/cgi-bin/supervisor/CloudSetup.cgi` | High
+14 | File | `/cgi-bin/wlogin.cgi` | High
+15 | File | `/classes/Master.php` | High
+16 | File | `/classes/Master.php?f=delete_item` | High
+17 | File | `/classes/Master.php?f=delete_service` | High
+18 | File | `/classes/Master.php?f=save_service` | High
+19 | File | `/contact.php` | Medium
+20 | File | `/controller/OnlinePreviewController.java` | High
+21 | File | `/dayrui/My/Config/Install.txt` | High
+22 | File | `/debug/pprof` | Medium
+23 | File | `/designer/add/layout` | High
+24 | File | `/dialog/select_media.php` | High
+25 | File | `/DXR.axd` | Medium
+26 | File | `/etc/quagga` | Medium
+27 | File | `/filemanager/upload/drop` | High
+28 | ... | ... | ...
 
-There are 214 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 235 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -61,7 +61,7 @@ ID | IP address | Hostname | Campaign | Confidence
 27 | [64.18.143.66](https://vuldb.com/?ip.64.18.143.66) | - | - | High
 28 | ... | ... | ... | ...
 
-There are 106 more IOC items available. Please use our online service to access the data.
+There are 107 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -70,13 +70,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Pathname Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -85,50 +85,50 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/?p=products` | Medium
-2 | File | `/admin.php/accessory/filesdel.html` | High
-3 | File | `/admin/?page=user/manage` | High
-4 | File | `/admin/add-new.php` | High
-5 | File | `/admin/controller/JobLogController.java` | High
-6 | File | `/admin/doctors.php` | High
-7 | File | `/admin/sign/out` | High
-8 | File | `/alphaware/summary.php` | High
-9 | File | `/api/` | Low
-10 | File | `/api/admin/store/product/list` | High
-11 | File | `/api/baskets/{name}` | High
-12 | File | `/api/stl/actions/search` | High
-13 | File | `/api/sys/login` | High
-14 | File | `/api/sys/set_passwd` | High
-15 | File | `/api/trackedEntityInstances` | High
-16 | File | `/api/v1/terminal/sessions/?limit=1` | High
-17 | File | `/api/v2/cli/commands` | High
-18 | File | `/aux` | Low
-19 | File | `/bin/ate` | Medium
-20 | File | `/boat/login.php` | High
-21 | File | `/book-services.php` | High
-22 | File | `/booking/show_bookings/` | High
-23 | File | `/cgi-bin` | Medium
-24 | File | `/cgi-bin/wlogin.cgi` | High
-25 | File | `/changePassword` | High
-26 | File | `/Content/Template/root/reverse-shell.aspx` | High
-27 | File | `/dashboard/add-blog.php` | High
-28 | File | `/data/remove` | Medium
-29 | File | `/debug/pprof` | Medium
-30 | File | `/DXR.axd` | Medium
-31 | File | `/ecshop/admin/template.php` | High
-32 | File | `/en/blog-comment-4` | High
-33 | File | `/env` | Low
-34 | File | `/forum/away.php` | High
-35 | File | `/group1/uploa` | High
-36 | File | `/h/` | Low
-37 | File | `/index.php` | Medium
-38 | File | `/medicines/profile.php` | High
-39 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-40 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-41 | File | `/owa/auth/logon.aspx` | High
-42 | File | `/php-sms/admin/?page=user/manage_user` | High
+2 | File | `/admin/controller/JobLogController.java` | High
+3 | File | `/admin/sign/out` | High
+4 | File | `/api/` | Low
+5 | File | `/api/admin/store/product/list` | High
+6 | File | `/api/baskets/{name}` | High
+7 | File | `/api/stl/actions/search` | High
+8 | File | `/api/sys/login` | High
+9 | File | `/api/sys/set_passwd` | High
+10 | File | `/api/trackedEntityInstances` | High
+11 | File | `/api/v1/terminal/sessions/?limit=1` | High
+12 | File | `/api/v2/cli/commands` | High
+13 | File | `/aux` | Low
+14 | File | `/bin/ate` | Medium
+15 | File | `/book-services.php` | High
+16 | File | `/booking/show_bookings/` | High
+17 | File | `/cgi-bin` | Medium
+18 | File | `/cgi-bin/wlogin.cgi` | High
+19 | File | `/changePassword` | High
+20 | File | `/Content/Template/root/reverse-shell.aspx` | High
+21 | File | `/dashboard/add-blog.php` | High
+22 | File | `/data/remove` | Medium
+23 | File | `/debug/pprof` | Medium
+24 | File | `/DXR.axd` | Medium
+25 | File | `/ecshop/admin/template.php` | High
+26 | File | `/en/blog-comment-4` | High
+27 | File | `/env` | Low
+28 | File | `/forum/away.php` | High
+29 | File | `/group1/uploa` | High
+30 | File | `/h/` | Low
+31 | File | `/index.php` | Medium
+32 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+33 | File | `/novel/bookSetting/list` | High
+34 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+35 | File | `/owa/auth/logon.aspx` | High
+36 | File | `/php-sms/admin/?page=user/manage_user` | High
+37 | File | `/resources//../` | High
+38 | File | `/testConnection` | High
+39 | File | `/tmp/ppd.trace` | High
+40 | File | `/user/inc/workidajax.php` | High
+41 | File | `/user/updatePwd` | High
+42 | File | `/userLogin.asp` | High
 43 | ... | ... | ...
 
-There are 373 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 368 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

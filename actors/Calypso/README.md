@@ -56,17 +56,18 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.htaccess` | Medium
 2 | File | `/admin/user/manage/add` | High
-3 | File | `/export` | Low
-4 | File | `/iisadmin` | Medium
-5 | File | `/inc/jquery/uploadify/uploadify.php` | High
-6 | File | `/inc/parser/xhtml.php` | High
-7 | File | `/includes/lib/detail.php` | High
-8 | File | `/MIME/INBOX-MM-1/` | High
-9 | File | `/ptms/classes/Users.php` | High
-10 | File | `/public/plugins/` | High
-11 | ... | ... | ...
+3 | File | `/api.php` | Medium
+4 | File | `/export` | Low
+5 | File | `/iisadmin` | Medium
+6 | File | `/inc/jquery/uploadify/uploadify.php` | High
+7 | File | `/inc/parser/xhtml.php` | High
+8 | File | `/includes/lib/detail.php` | High
+9 | File | `/MIME/INBOX-MM-1/` | High
+10 | File | `/ptms/classes/Users.php` | High
+11 | File | `/public/plugins/` | High
+12 | ... | ... | ...
 
-There are 85 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 92 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

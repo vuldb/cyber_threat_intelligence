@@ -51,7 +51,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-29, CWE-35 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-29, CWE-35, CWE-425 | Pathname Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
@@ -82,39 +82,39 @@ ID | Type | Indicator | Confidence
 14 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
 15 | File | `/cgi-bin/wlogin.cgi` | High
 16 | File | `/common/info.cgi` | High
-17 | File | `/DesignTools/CssEditor.aspx` | High
-18 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
-19 | File | `/DXR.axd` | Medium
-20 | File | `/endpoint/add-user.php` | High
-21 | File | `/forum/away.php` | High
-22 | File | `/forums/editforum.php` | High
-23 | File | `/gracemedia-media-player/templates/files/ajax_controller.php` | High
-24 | File | `/home/courses` | High
-25 | File | `/hrm/controller/employee.php` | High
-26 | File | `/hrm/employeeview.php` | High
-27 | File | `/importexport.php` | High
-28 | File | `/includes/db_connect.php` | High
-29 | File | `/includes/session.php` | High
-30 | File | `/librarian/bookdetails.php` | High
-31 | File | `/mc` | Low
-32 | File | `/modals/class_form.php` | High
-33 | File | `/modules/projects/vw_files.php` | High
-34 | File | `/modules/public/calendar.php` | High
-35 | File | `/modules/public/date_format.php` | High
-36 | File | `/modules/tasks/gantt.php` | High
-37 | File | `/osms/assets/plugins/jquery-validation-1.11.1/demo/captcha/index.php` | High
-38 | File | `/out.php` | Medium
-39 | File | `/php-fusion/infusions/shoutbox_panel/shoutbox_archive.php` | High
-40 | File | `/project/tasks/list` | High
-41 | File | `/search.php` | Medium
-42 | File | `/setting` | Medium
-43 | File | `/spip.php` | Medium
-44 | File | `/src/amf/amf-context.c` | High
-45 | File | `/SysManage/AddUpdateSites.aspx` | High
-46 | File | `/sysmanage/changelogo.php` | High
+17 | File | `/dayrui/My/Config/Install.txt` | High
+18 | File | `/DesignTools/CssEditor.aspx` | High
+19 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
+20 | File | `/DXR.axd` | Medium
+21 | File | `/endpoint/add-user.php` | High
+22 | File | `/forum/away.php` | High
+23 | File | `/forums/editforum.php` | High
+24 | File | `/gracemedia-media-player/templates/files/ajax_controller.php` | High
+25 | File | `/home/courses` | High
+26 | File | `/hrm/controller/employee.php` | High
+27 | File | `/hrm/employeeview.php` | High
+28 | File | `/importexport.php` | High
+29 | File | `/includes/db_connect.php` | High
+30 | File | `/includes/session.php` | High
+31 | File | `/librarian/bookdetails.php` | High
+32 | File | `/mc` | Low
+33 | File | `/modals/class_form.php` | High
+34 | File | `/modules/projects/vw_files.php` | High
+35 | File | `/modules/public/calendar.php` | High
+36 | File | `/modules/public/date_format.php` | High
+37 | File | `/modules/tasks/gantt.php` | High
+38 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
+39 | File | `/osms/assets/plugins/jquery-validation-1.11.1/demo/captcha/index.php` | High
+40 | File | `/out.php` | Medium
+41 | File | `/php-fusion/infusions/shoutbox_panel/shoutbox_archive.php` | High
+42 | File | `/project/tasks/list` | High
+43 | File | `/search.php` | Medium
+44 | File | `/setting` | Medium
+45 | File | `/spip.php` | Medium
+46 | File | `/src/amf/amf-context.c` | High
 47 | ... | ... | ...
 
-There are 407 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 411 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

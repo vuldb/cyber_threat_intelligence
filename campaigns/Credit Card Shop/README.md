@@ -53,7 +53,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-28 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
@@ -85,41 +85,40 @@ ID | Type | Indicator | Confidence
 15 | File | `/api/sys/set_passwd` | High
 16 | File | `/api/trackedEntityInstances` | High
 17 | File | `/api/v2/cli/commands` | High
-18 | File | `/attachments` | Medium
-19 | File | `/aux` | Low
-20 | File | `/bin/ate` | Medium
-21 | File | `/boat/login.php` | High
-22 | File | `/booking/show_bookings/` | High
-23 | File | `/bsms_ci/index.php/book` | High
-24 | File | `/cgi-bin` | Medium
-25 | File | `/cgi-bin/wlogin.cgi` | High
-26 | File | `/changePassword` | High
-27 | File | `/classes/Users.php` | High
-28 | File | `/Content/Template/root/reverse-shell.aspx` | High
-29 | File | `/dashboard/add-blog.php` | High
-30 | File | `/data/remove` | Medium
-31 | File | `/debug/pprof` | Medium
-32 | File | `/ecshop/admin/template.php` | High
-33 | File | `/env` | Low
-34 | File | `/etc/hosts` | Medium
-35 | File | `/etc/postfix/sender_login` | High
-36 | File | `/forum/away.php` | High
-37 | File | `/group1/uploa` | High
-38 | File | `/index.php` | Medium
-39 | File | `/medicines/profile.php` | High
-40 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-41 | File | `/out.php` | Medium
-42 | File | `/pharmacy-sales-and-inventory-system/manage_user.php` | High
-43 | File | `/php-sms/admin/?page=user/manage_user` | High
-44 | File | `/preview.php` | Medium
-45 | File | `/reservation/add_message.php` | High
-46 | File | `/resources//../` | High
-47 | File | `/Session` | Medium
-48 | File | `/spip.php` | Medium
-49 | File | `/testConnection` | High
-50 | ... | ... | ...
+18 | File | `/aux` | Low
+19 | File | `/bin/ate` | Medium
+20 | File | `/boat/login.php` | High
+21 | File | `/booking/show_bookings/` | High
+22 | File | `/bsms_ci/index.php/book` | High
+23 | File | `/cgi-bin` | Medium
+24 | File | `/cgi-bin/wlogin.cgi` | High
+25 | File | `/changePassword` | High
+26 | File | `/classes/Users.php` | High
+27 | File | `/Content/Template/root/reverse-shell.aspx` | High
+28 | File | `/dashboard/add-blog.php` | High
+29 | File | `/data/remove` | Medium
+30 | File | `/debug/pprof` | Medium
+31 | File | `/ecshop/admin/template.php` | High
+32 | File | `/env` | Low
+33 | File | `/etc/postfix/sender_login` | High
+34 | File | `/forum/away.php` | High
+35 | File | `/group1/uploa` | High
+36 | File | `/index.php` | Medium
+37 | File | `/medicines/profile.php` | High
+38 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+39 | File | `/pharmacy-sales-and-inventory-system/manage_user.php` | High
+40 | File | `/php-sms/admin/?page=user/manage_user` | High
+41 | File | `/preview.php` | Medium
+42 | File | `/reservation/add_message.php` | High
+43 | File | `/resources//../` | High
+44 | File | `/Session` | Medium
+45 | File | `/spip.php` | Medium
+46 | File | `/testConnection` | High
+47 | File | `/tmp` | Low
+48 | File | `/tmp/ppd.trace` | High
+49 | ... | ... | ...
 
-There are 430 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 421 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

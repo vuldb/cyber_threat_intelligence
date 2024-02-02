@@ -100,12 +100,12 @@ ID | Type | Indicator | Confidence
 39 | File | `attendancy.php` | High
 40 | File | `auth-gss2.c` | Medium
 41 | File | `auth.inc.php` | Medium
-42 | File | `bb-login.php` | Medium
-43 | File | `bb_admin.php` | Medium
-44 | File | `bb_functions.php` | High
+42 | File | `auth2-gss.c` | Medium
+43 | File | `bb-login.php` | Medium
+44 | File | `bb_admin.php` | Medium
 45 | ... | ... | ...
 
-There are 385 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 386 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

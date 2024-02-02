@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 12 more country items available. Please use our online service to access the data.
+There are 14 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -22,25 +22,49 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [2.56.245.21](https://vuldb.com/?ip.2.56.245.21) | - | - | High
-2 | [5.2.70.111](https://vuldb.com/?ip.5.2.70.111) | - | - | High
-3 | [5.2.72.165](https://vuldb.com/?ip.5.2.72.165) | - | - | High
-4 | [5.181.156.107](https://vuldb.com/?ip.5.181.156.107) | no-rdns.mivocloud.com | - | High
-5 | [5.181.156.244](https://vuldb.com/?ip.5.181.156.244) | no-rdns.mivocloud.com | - | High
-6 | [5.182.206.168](https://vuldb.com/?ip.5.182.206.168) | - | - | High
-7 | [5.230.67.22](https://vuldb.com/?ip.5.230.67.22) | placeholder.noezserver.de | - | High
-8 | [5.230.67.166](https://vuldb.com/?ip.5.230.67.166) | placeholder.noezserver.de | - | High
-9 | [5.230.67.191](https://vuldb.com/?ip.5.230.67.191) | placeholder.noezserver.de | - | High
-10 | [5.252.178.129](https://vuldb.com/?ip.5.252.178.129) | 5-252-178-129.mivocloud.com | - | High
-11 | [5.252.179.18](https://vuldb.com/?ip.5.252.179.18) | 5-252-179-18.mivocloud.com | - | High
-12 | [5.252.179.197](https://vuldb.com/?ip.5.252.179.197) | no-rdns.mivocloud.com | - | High
-13 | [5.252.195.27](https://vuldb.com/?ip.5.252.195.27) | 195-27.static.ipcserver.net | - | High
-14 | [5.252.195.55](https://vuldb.com/?ip.5.252.195.55) | 195-55.static.ipcserver.net | - | High
-15 | [5.252.195.161](https://vuldb.com/?ip.5.252.195.161) | 195-161.static.ipcserver.net | - | High
-16 | [5.255.103.63](https://vuldb.com/?ip.5.255.103.63) | - | - | High
-17 | [45.86.162.75](https://vuldb.com/?ip.45.86.162.75) | - | - | High
-18 | ... | ... | ... | ...
+2 | [2.58.14.202](https://vuldb.com/?ip.2.58.14.202) | crm.road-cargo.com.ua | - | High
+3 | [2.58.14.249](https://vuldb.com/?ip.2.58.14.249) | - | - | High
+4 | [2.58.15.61](https://vuldb.com/?ip.2.58.15.61) | - | - | High
+5 | [5.2.70.111](https://vuldb.com/?ip.5.2.70.111) | - | - | High
+6 | [5.2.72.165](https://vuldb.com/?ip.5.2.72.165) | - | - | High
+7 | [5.2.74.116](https://vuldb.com/?ip.5.2.74.116) | - | - | High
+8 | [5.2.76.232](https://vuldb.com/?ip.5.2.76.232) | - | - | High
+9 | [5.2.77.238](https://vuldb.com/?ip.5.2.77.238) | - | - | High
+10 | [5.2.78.64](https://vuldb.com/?ip.5.2.78.64) | - | - | High
+11 | [5.149.249.186](https://vuldb.com/?ip.5.149.249.186) | - | - | High
+12 | [5.181.156.107](https://vuldb.com/?ip.5.181.156.107) | no-rdns.mivocloud.com | - | High
+13 | [5.181.156.244](https://vuldb.com/?ip.5.181.156.244) | no-rdns.mivocloud.com | - | High
+14 | [5.182.206.168](https://vuldb.com/?ip.5.182.206.168) | - | - | High
+15 | [5.230.67.22](https://vuldb.com/?ip.5.230.67.22) | placeholder.noezserver.de | - | High
+16 | [5.230.67.41](https://vuldb.com/?ip.5.230.67.41) | placeholder.noezserver.de | - | High
+17 | [5.230.67.108](https://vuldb.com/?ip.5.230.67.108) | placeholder.noezserver.de | - | High
+18 | [5.230.67.166](https://vuldb.com/?ip.5.230.67.166) | placeholder.noezserver.de | - | High
+19 | [5.230.67.170](https://vuldb.com/?ip.5.230.67.170) | placeholder.noezserver.de | - | High
+20 | [5.230.67.191](https://vuldb.com/?ip.5.230.67.191) | placeholder.noezserver.de | - | High
+21 | [5.230.67.201](https://vuldb.com/?ip.5.230.67.201) | placeholder.noezserver.de | - | High
+22 | [5.230.67.211](https://vuldb.com/?ip.5.230.67.211) | placeholder.noezserver.de | - | High
+23 | [5.230.67.243](https://vuldb.com/?ip.5.230.67.243) | placeholder.noezserver.de | - | High
+24 | [5.230.68.124](https://vuldb.com/?ip.5.230.68.124) | placeholder.noezserver.de | - | High
+25 | [5.230.68.190](https://vuldb.com/?ip.5.230.68.190) | placeholder.noezserver.de | - | High
+26 | [5.230.69.72](https://vuldb.com/?ip.5.230.69.72) | placeholder.noezserver.de | - | High
+27 | [5.230.69.136](https://vuldb.com/?ip.5.230.69.136) | placeholder.noezserver.de | - | High
+28 | [5.230.71.10](https://vuldb.com/?ip.5.230.71.10) | placeholder.noezserver.de | - | High
+29 | [5.230.72.27](https://vuldb.com/?ip.5.230.72.27) | placeholder.noezserver.de | - | High
+30 | [5.230.72.63](https://vuldb.com/?ip.5.230.72.63) | placeholder.noezserver.de | - | High
+31 | [5.230.72.98](https://vuldb.com/?ip.5.230.72.98) | placeholder.noezserver.de | - | High
+32 | [5.230.72.173](https://vuldb.com/?ip.5.230.72.173) | placeholder.noezserver.de | - | High
+33 | [5.230.72.184](https://vuldb.com/?ip.5.230.72.184) | placeholder.noezserver.de | - | High
+34 | [5.230.72.213](https://vuldb.com/?ip.5.230.72.213) | placeholder.noezserver.de | - | High
+35 | [5.230.73.48](https://vuldb.com/?ip.5.230.73.48) | - | - | High
+36 | [5.230.73.60](https://vuldb.com/?ip.5.230.73.60) | placeholder.noezserver.de | - | High
+37 | [5.230.73.106](https://vuldb.com/?ip.5.230.73.106) | placeholder.noezserver.de | - | High
+38 | [5.230.73.180](https://vuldb.com/?ip.5.230.73.180) | placeholder.noezserver.de | - | High
+39 | [5.230.74.66](https://vuldb.com/?ip.5.230.74.66) | - | - | High
+40 | [5.230.74.103](https://vuldb.com/?ip.5.230.74.103) | - | - | High
+41 | [5.230.74.251](https://vuldb.com/?ip.5.230.74.251) | - | - | High
+42 | ... | ... | ... | ...
 
-There are 69 more IOC items available. Please use our online service to access the data.
+There are 164 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -48,14 +72,15 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-37 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+6 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+7 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -63,56 +88,59 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/?page=system_info/contact_info` | High
-2 | File | `/api/RecordingList/DownloadRecord?file=` | High
-3 | File | `/apply.cgi` | Medium
-4 | File | `/backups/` | Medium
-5 | File | `/blogengine/api/posts` | High
-6 | File | `/cgi-bin/wlogin.cgi` | High
-7 | File | `/client.php` | Medium
-8 | File | `/controller/OnlinePreviewController.java` | High
-9 | File | `/dashboard/reports/logs/view` | High
-10 | File | `/dashboard/system/express/entities/forms/save_control/[GUID]` | High
-11 | File | `/debug/pprof` | Medium
-12 | File | `/forum/away.php` | High
-13 | File | `/goform/delAd` | High
-14 | File | `/goform/setMAC` | High
-15 | File | `/goform/wifiSSIDset` | High
-16 | File | `/items/view_item.php` | High
-17 | File | `/librarian/bookdetails.php` | High
-18 | File | `/login` | Low
-19 | File | `/login/index.php` | High
-20 | File | `/mail/index.html` | High
-21 | File | `/mgmt/tm/util/bash` | High
-22 | File | `/MIME/INBOX-MM-1/` | High
-23 | File | `/ms/file/uploadTemplate.do` | High
-24 | File | `/novel-admin/src/main/java/com/java2nb/common/controller/FileController.java` | High
-25 | File | `/ofrs/admin/?page=requests/view_request` | High
-26 | File | `/pages/processlogin.php` | High
-27 | File | `/patient/appointment.php` | High
-28 | File | `/pet_shop/classes/Master.php?f=delete_sub_category` | High
-29 | File | `/php/ajax.php` | High
-30 | File | `/product.php` | Medium
-31 | File | `/ptipupgrade.cgi` | High
-32 | File | `/public/login.htm` | High
-33 | File | `/release-x64/otfccdump+0x6b6a8f` | High
-34 | File | `/scripts/unlock_tasks.php` | High
-35 | File | `/Service/FileHandler.ashx` | High
-36 | File | `/spip.php` | Medium
-37 | File | `/Storage/Emulated/0/Telegram/Telegram` | High
-38 | File | `/student/bookdetails.php` | High
-39 | File | `/sys/user/queryUserComponentData` | High
-40 | File | `/system/user/modules/mod_users/controller.php` | High
-41 | File | `/table_manager/view/cu_user_groups` | High
-42 | ... | ... | ...
+1 | File | `//proc/kcore` | Medium
+2 | File | `/admin.php/Admin/adminadd.html` | High
+3 | File | `/admin/about-us.php` | High
+4 | File | `/admin/action/delete-vaccine.php` | High
+5 | File | `/Admin/add-student.php` | High
+6 | File | `/admin/index2.html` | High
+7 | File | `/admin/settings/save.php` | High
+8 | File | `/admin/userprofile.php` | High
+9 | File | `/api/baskets/{name}` | High
+10 | File | `/api/RecordingList/DownloadRecord?file=` | High
+11 | File | `/app/index/controller/Common.php` | High
+12 | File | `/apply.cgi` | Medium
+13 | File | `/bitrix/admin/ldap_server_edit.php` | High
+14 | File | `/cgi-bin/wlogin.cgi` | High
+15 | File | `/College/admin/teacher.php` | High
+16 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
+17 | File | `/dcim/rack-roles/` | High
+18 | File | `/dipam/athlete-profile.php` | High
+19 | File | `/forms/doLogin` | High
+20 | File | `/forum/away.php` | High
+21 | File | `/goform/addUserName` | High
+22 | File | `/goform/aspForm` | High
+23 | File | `/goform/delAd` | High
+24 | File | `/goform/wifiSSIDset` | High
+25 | File | `/gpac/src/bifs/unquantize.c` | High
+26 | File | `/inc/topBarNav.php` | High
+27 | File | `/index.asp` | Medium
+28 | File | `/index.php` | Medium
+29 | File | `/index.php?app=main&func=passport&action=login` | High
+30 | File | `/jfinal_cms/system/role/list` | High
+31 | File | `/kelas/data` | Medium
+32 | File | `/listplace/user/ticket/create` | High
+33 | File | `/Moosikay/order.php` | High
+34 | File | `/php-sms/admin/quotes/manage_remark.php` | High
+35 | File | `/rapi/read_url` | High
+36 | File | `/scripts/unlock_tasks.php` | High
+37 | File | `/secure/QueryComponent!Default.jspa` | High
+38 | File | `/squashfs-root/etc_ro/custom.conf` | High
+39 | File | `/staff/edit_book_details.php` | High
+40 | File | `/SysManage/AddUpdateRole.aspx` | High
+41 | File | `/sysmanage/importconf.php` | High
+42 | File | `/system/user/modules/mod_users/controller.php` | High
+43 | File | `/user/profile` | High
+44 | ... | ... | ...
 
-There are 361 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 385 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://blog.group-ib.com/sidewinder-antibot
+* https://www.bridewell.com/insights/blogs/detail/the-distinctive-rattle-of-apt-sidewinder
 
 ## Literature
 

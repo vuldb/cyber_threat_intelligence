@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [NL](https://vuldb.com/?country.nl)
 * ...
 
-There are 29 more country items available. Please use our online service to access the data.
+There are 28 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -48,8 +48,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
-7 | ... | ... | ... | ...
+6 | ... | ... | ... | ...
 
 There are 22 more TTP items available. Please use our online service to access the data.
 
@@ -94,40 +93,41 @@ ID | Type | Indicator | Confidence
 33 | File | `/belegungsplan/monatsuebersicht.inc.php` | High
 34 | File | `/bin/boa` | Medium
 35 | File | `/blog` | Low
-36 | File | `/booking/show_bookings/` | High
-37 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-38 | File | `/cgi-bin/cstecgi.cgi` | High
-39 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-40 | File | `/cgi-bin/luci;stok=/locale` | High
-41 | File | `/cgi-bin/wlogin.cgi` | High
-42 | File | `/classes/Master.php` | High
-43 | File | `/classes/Master.php?f=save_category` | High
-44 | File | `/classes/Master.php?f=save_sub_category` | High
-45 | File | `/classes/Users.php?f=save` | High
-46 | File | `/collection/all` | High
-47 | File | `/dashboard/settings` | High
-48 | File | `/dashboard/system/basics/name` | High
-49 | File | `/dipam/athlete-profile.php` | High
-50 | File | `/E-mobile/App/System/File/downfile.php` | High
-51 | File | `/edoc/doctor/patient.php` | High
-52 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-53 | File | `/etc/passwd` | Medium
-54 | File | `/etc/shadow` | Medium
-55 | File | `/forum/away.php` | High
-56 | File | `/function/login.php` | High
-57 | File | `/fusion/portal/action/Link` | High
-58 | File | `/gadgets/definitions/uptime.CapacityWhatIfGadget/getmetrics.php` | High
-59 | File | `/gadgets/definitions/uptime.CapacityWhatifGadget/getxenmetrics.php` | High
-60 | File | `/HNAP1/` | Low
-61 | File | `/importexport.php` | High
-62 | File | `/index.php` | Medium
-63 | File | `/index.php?app=main&func=passport&action=login` | High
-64 | File | `/kelasdosen/data` | High
-65 | File | `/listplace/user/coverPhotoUpdate` | High
-66 | File | `/maintenance/manage_department.php` | High
-67 | ... | ... | ...
+36 | File | `/boafrm/formMapDelDevice` | High
+37 | File | `/booking/show_bookings/` | High
+38 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+39 | File | `/cgi-bin/cstecgi.cgi` | High
+40 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+41 | File | `/cgi-bin/luci;stok=/locale` | High
+42 | File | `/cgi-bin/wlogin.cgi` | High
+43 | File | `/classes/Master.php` | High
+44 | File | `/classes/Master.php?f=save_category` | High
+45 | File | `/classes/Master.php?f=save_sub_category` | High
+46 | File | `/classes/Users.php?f=save` | High
+47 | File | `/collection/all` | High
+48 | File | `/dashboard/settings` | High
+49 | File | `/dashboard/system/basics/name` | High
+50 | File | `/dipam/athlete-profile.php` | High
+51 | File | `/E-mobile/App/System/File/downfile.php` | High
+52 | File | `/edoc/doctor/patient.php` | High
+53 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+54 | File | `/etc/passwd` | Medium
+55 | File | `/etc/shadow` | Medium
+56 | File | `/forum/away.php` | High
+57 | File | `/function/login.php` | High
+58 | File | `/fusion/portal/action/Link` | High
+59 | File | `/gadgets/definitions/uptime.CapacityWhatIfGadget/getmetrics.php` | High
+60 | File | `/gadgets/definitions/uptime.CapacityWhatifGadget/getxenmetrics.php` | High
+61 | File | `/hedwig.cgi` | Medium
+62 | File | `/HNAP1/` | Low
+63 | File | `/importexport.php` | High
+64 | File | `/index.php` | Medium
+65 | File | `/index.php?app=main&func=passport&action=login` | High
+66 | File | `/kelasdosen/data` | High
+67 | File | `/listplace/user/coverPhotoUpdate` | High
+68 | ... | ... | ...
 
-There are 584 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 597 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

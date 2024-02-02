@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [LA](https://vuldb.com/?country.la)
 * ...
 
-There are 15 more country items available. Please use our online service to access the data.
+There are 16 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -25,19 +25,20 @@ ID | IP address | Hostname | Campaign | Confidence
 2 | [5.2.68.77](https://vuldb.com/?ip.5.2.68.77) | - | - | High
 3 | [5.2.68.89](https://vuldb.com/?ip.5.2.68.89) | - | - | High
 4 | [5.34.178.21](https://vuldb.com/?ip.5.34.178.21) | udfurgqxmjzcc.pserver.ru | - | High
-5 | [5.181.159.64](https://vuldb.com/?ip.5.181.159.64) | no-rdns.mivocloud.com | - | High
-6 | [5.188.87.58](https://vuldb.com/?ip.5.188.87.58) | - | - | High
-7 | [45.89.65.198](https://vuldb.com/?ip.45.89.65.198) | 2.server.com | - | High
-8 | [45.141.87.89](https://vuldb.com/?ip.45.141.87.89) | - | - | High
-9 | [54.39.198.245](https://vuldb.com/?ip.54.39.198.245) | ip245.ip-54-39-198.net | - | High
-10 | [64.190.113.154](https://vuldb.com/?ip.64.190.113.154) | - | - | High
-11 | [65.20.75.41](https://vuldb.com/?ip.65.20.75.41) | 65.20.75.41.vultrusercontent.com | - | High
-12 | [66.42.63.27](https://vuldb.com/?ip.66.42.63.27) | 66.42.63.27.dedic.cheap | - | High
-13 | [79.110.62.96](https://vuldb.com/?ip.79.110.62.96) | - | - | High
-14 | [80.66.88.14](https://vuldb.com/?ip.80.66.88.14) | - | - | High
-15 | ... | ... | ... | ...
+5 | [5.181.159.49](https://vuldb.com/?ip.5.181.159.49) | no-rdns.mivocloud.com | - | High
+6 | [5.181.159.64](https://vuldb.com/?ip.5.181.159.64) | no-rdns.mivocloud.com | - | High
+7 | [5.188.87.58](https://vuldb.com/?ip.5.188.87.58) | - | - | High
+8 | [38.180.60.31](https://vuldb.com/?ip.38.180.60.31) | - | - | High
+9 | [45.89.65.198](https://vuldb.com/?ip.45.89.65.198) | 2.server.com | - | High
+10 | [45.141.87.89](https://vuldb.com/?ip.45.141.87.89) | - | - | High
+11 | [54.39.198.245](https://vuldb.com/?ip.54.39.198.245) | ip245.ip-54-39-198.net | - | High
+12 | [64.190.113.154](https://vuldb.com/?ip.64.190.113.154) | - | - | High
+13 | [65.20.75.41](https://vuldb.com/?ip.65.20.75.41) | 65.20.75.41.vultrusercontent.com | - | High
+14 | [66.42.63.27](https://vuldb.com/?ip.66.42.63.27) | 66.42.63.27.dedic.cheap | - | High
+15 | [79.110.62.96](https://vuldb.com/?ip.79.110.62.96) | - | - | High
+16 | ... | ... | ... | ...
 
-There are 57 more IOC items available. Please use our online service to access the data.
+There are 59 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -45,12 +46,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-425 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-25, CWE-425 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+6 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+7 | ... | ... | ... | ...
 
 There are 22 more TTP items available. Please use our online service to access the data.
 
@@ -96,36 +98,35 @@ ID | Type | Indicator | Confidence
 34 | File | `/admin_route/inc_service_credits.php` | High
 35 | File | `/ample/app/ajax/member_data.php` | High
 36 | File | `/api.php` | Medium
-37 | File | `/api/download` | High
-38 | File | `/api/v1/alerts` | High
-39 | File | `/api/v1/terminal/sessions/?limit=1` | High
-40 | File | `/app/api/controller/default/Sqlite.php` | High
-41 | File | `/app/Http/Controllers/ImageController.php` | High
-42 | File | `/app/index/controller/Common.php` | High
-43 | File | `/auth/auth.php?user=1` | High
-44 | File | `/b2b-supermarket/shopping-cart` | High
-45 | File | `/bin/boa` | Medium
-46 | File | `/blog` | Low
-47 | File | `/category.php` | High
-48 | File | `/categorypage.php` | High
-49 | File | `/cgi-bin/cstecgi.cgi` | High
-50 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-51 | File | `/cgi-bin/vitogate.cgi` | High
-52 | File | `/change-language/de_DE` | High
-53 | File | `/classes/Master.php?f=delete_category` | High
-54 | File | `/classes/Users.php?f=save` | High
-55 | File | `/company/store` | High
-56 | File | `/config-manager/save` | High
-57 | File | `/Controller/Ajaxfileupload.ashx` | High
-58 | File | `/debug/pprof` | Medium
+37 | File | `/api/v1/alerts` | High
+38 | File | `/api/v1/terminal/sessions/?limit=1` | High
+39 | File | `/app/api/controller/default/Sqlite.php` | High
+40 | File | `/app/Http/Controllers/ImageController.php` | High
+41 | File | `/app/index/controller/Common.php` | High
+42 | File | `/auth/auth.php?user=1` | High
+43 | File | `/b2b-supermarket/shopping-cart` | High
+44 | File | `/bin/boa` | Medium
+45 | File | `/blog` | Low
+46 | File | `/boafrm/formMapDelDevice` | High
+47 | File | `/categorypage.php` | High
+48 | File | `/cgi-bin/cstecgi.cgi` | High
+49 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+50 | File | `/cgi-bin/vitogate.cgi` | High
+51 | File | `/change-language/de_DE` | High
+52 | File | `/classes/Master.php?f=delete_category` | High
+53 | File | `/classes/Users.php?f=save` | High
+54 | File | `/company/store` | High
+55 | File | `/config-manager/save` | High
+56 | File | `/Controller/Ajaxfileupload.ashx` | High
+57 | File | `/debug/pprof` | Medium
+58 | File | `/devinfo` | Medium
 59 | File | `/dist/index.js` | High
 60 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
 61 | File | `/EventBookingCalendar/load.php?controller=GzFront/action=checkout/cid=1/layout=calendar/show_header=T/local=3` | High
 62 | File | `/fcgi/scrut_fcgi.fcgi` | High
-63 | File | `/forum/away.php` | High
-64 | ... | ... | ...
+63 | ... | ... | ...
 
-There are 562 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 548 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -77,7 +77,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
@@ -93,26 +93,26 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `//proc/kcore` | Medium
 2 | File | `/admin/about-us.php` | High
-3 | File | `/admin/index2.html` | High
-4 | File | `/admin/login.php` | High
-5 | File | `/admin/userprofile.php` | High
-6 | File | `/api/admin/system/store/order/list` | High
-7 | File | `/api/baskets/{name}` | High
-8 | File | `/apply.cgi` | Medium
-9 | File | `/bitrix/admin/ldap_server_edit.php` | High
-10 | File | `/book-services.php` | High
-11 | File | `/cgi-bin/wlogin.cgi` | High
-12 | File | `/College/admin/teacher.php` | High
-13 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
-14 | File | `/csms/?page=contact_us` | High
-15 | File | `/dcim/rack-roles/` | High
-16 | File | `/en/blog-comment-4` | High
-17 | File | `/forum/away.php` | High
-18 | File | `/goform/addUserName` | High
-19 | File | `/goform/aspForm` | High
-20 | File | `/goform/delAd` | High
-21 | File | `/goform/wifiSSIDset` | High
-22 | File | `/gpac/src/bifs/unquantize.c` | High
+3 | File | `/admin/action/delete-vaccine.php` | High
+4 | File | `/admin/index2.html` | High
+5 | File | `/admin/login.php` | High
+6 | File | `/admin/userprofile.php` | High
+7 | File | `/api/admin/system/store/order/list` | High
+8 | File | `/api/baskets/{name}` | High
+9 | File | `/app/index/controller/Common.php` | High
+10 | File | `/apply.cgi` | Medium
+11 | File | `/bitrix/admin/ldap_server_edit.php` | High
+12 | File | `/book-services.php` | High
+13 | File | `/cgi-bin/wlogin.cgi` | High
+14 | File | `/College/admin/teacher.php` | High
+15 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
+16 | File | `/csms/?page=contact_us` | High
+17 | File | `/dcim/rack-roles/` | High
+18 | File | `/en/blog-comment-4` | High
+19 | File | `/forms/doLogin` | High
+20 | File | `/forum/away.php` | High
+21 | File | `/goform/aspForm` | High
+22 | File | `/goform/delAd` | High
 23 | File | `/h/` | Low
 24 | File | `/inc/topBarNav.php` | High
 25 | File | `/index.php` | Medium
@@ -122,16 +122,16 @@ ID | Type | Indicator | Confidence
 29 | File | `/login/index.php` | High
 30 | File | `/Moosikay/order.php` | High
 31 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-32 | File | `/php-sms/admin/quotes/manage_remark.php` | High
-33 | File | `/scripts/unlock_tasks.php` | High
-34 | File | `/Session` | Medium
-35 | File | `/squashfs-root/etc_ro/custom.conf` | High
-36 | File | `/staff/edit_book_details.php` | High
-37 | File | `/SysManage/AddUpdateRole.aspx` | High
-38 | File | `/sysmanage/importconf.php` | High
+32 | File | `/scripts/unlock_tasks.php` | High
+33 | File | `/Session` | Medium
+34 | File | `/squashfs-root/etc_ro/custom.conf` | High
+35 | File | `/staff/edit_book_details.php` | High
+36 | File | `/SysManage/AddUpdateRole.aspx` | High
+37 | File | `/sysmanage/importconf.php` | High
+38 | File | `/system/user/modules/mod_users/controller.php` | High
 39 | ... | ... | ...
 
-There are 331 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 335 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -178,4 +178,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

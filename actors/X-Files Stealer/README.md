@@ -8,8 +8,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with X-Files Stealer:
 
-* [DE](https://vuldb.com/?country.de)
 * [US](https://vuldb.com/?country.us)
+* [DE](https://vuldb.com/?country.de)
 
 ## IOC - Indicator of Compromise
 
@@ -17,8 +17,9 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [185.225.73.216](https://vuldb.com/?ip.185.225.73.216) | - | - | High
-2 | [185.225.73.217](https://vuldb.com/?ip.185.225.73.217) | - | - | High
+1 | [91.92.240.39](https://vuldb.com/?ip.91.92.240.39) | - | - | High
+2 | [185.225.73.216](https://vuldb.com/?ip.185.225.73.216) | - | - | High
+3 | [185.225.73.217](https://vuldb.com/?ip.185.225.73.217) | - | - | High
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -26,8 +27,9 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1068 | CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
-2 | T1608.002 | CWE-434 | Unrestricted Upload | High
+1 | T1055 | CWE-74 | Injection | High
+2 | T1068 | CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+3 | T1608.002 | CWE-434 | Unrestricted Upload | High
 
 ## IOA - Indicator of Attack
 
@@ -45,6 +47,7 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://bazaar.abuse.ch/sample/506aa9e26a8962c561e5486356913ee40e53e5ea2434363e4b5827c126b0ce6c/
 * https://bazaar.abuse.ch/sample/bb6e3bb232cdd16773464d14e3f6ba292f9e2031c9b2eb46cfe86dfb352989e5/
+* https://tria.ge/240119-wprzjabfb4
 
 ## Literature
 

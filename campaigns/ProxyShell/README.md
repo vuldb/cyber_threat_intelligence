@@ -106,7 +106,7 @@ ID | Type | Indicator | Confidence
 46 | File | `/scripts/cpan_config` | High
 47 | ... | ... | ...
 
-There are 404 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 403 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

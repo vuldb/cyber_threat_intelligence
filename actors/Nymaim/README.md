@@ -61,28 +61,28 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/?p=products` | Medium
-3 | File | `/admin/controller/JobLogController.java` | High
-4 | File | `/api/baskets/{name}` | High
-5 | File | `/api/stl/actions/search` | High
-6 | File | `/api/sys/login` | High
-7 | File | `/api/sys/set_passwd` | High
-8 | File | `/api/trackedEntityInstances` | High
-9 | File | `/api/v2/cli/commands` | High
-10 | File | `/aux` | Low
-11 | File | `/bin/ate` | Medium
-12 | File | `/boaform/device_reset.cgi` | High
-13 | File | `/booking/show_bookings/` | High
-14 | File | `/cgi-bin` | Medium
-15 | File | `/changePassword` | High
-16 | File | `/Content/Template/root/reverse-shell.aspx` | High
-17 | File | `/dashboard/add-blog.php` | High
-18 | File | `/data/remove` | Medium
-19 | File | `/debug/pprof` | Medium
-20 | File | `/ecshop/admin/template.php` | High
-21 | File | `/env` | Low
-22 | File | `/forms/doLogin` | High
-23 | File | `/forum/away.php` | High
+2 | File | `/admin/controller/JobLogController.java` | High
+3 | File | `/api/baskets/{name}` | High
+4 | File | `/api/stl/actions/search` | High
+5 | File | `/api/sys/login` | High
+6 | File | `/api/sys/set_passwd` | High
+7 | File | `/api/trackedEntityInstances` | High
+8 | File | `/aux` | Low
+9 | File | `/bin/ate` | Medium
+10 | File | `/boaform/device_reset.cgi` | High
+11 | File | `/booking/show_bookings/` | High
+12 | File | `/cgi-bin` | Medium
+13 | File | `/changePassword` | High
+14 | File | `/classes/Master.php?f=save_inquiry` | High
+15 | File | `/Content/Template/root/reverse-shell.aspx` | High
+16 | File | `/dashboard/add-blog.php` | High
+17 | File | `/data/remove` | Medium
+18 | File | `/debug/pprof` | Medium
+19 | File | `/ecshop/admin/template.php` | High
+20 | File | `/env` | Low
+21 | File | `/forms/doLogin` | High
+22 | File | `/forum/away.php` | High
+23 | File | `/front/admin/tenancyDetail.php` | High
 24 | File | `/group1/uploa` | High
 25 | File | `/index.php` | Medium
 26 | File | `/load.php` | Medium
@@ -90,22 +90,21 @@ ID | Type | Indicator | Confidence
 28 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
 29 | File | `/php-sms/admin/?page=user/manage_user` | High
 30 | File | `/resources//../` | High
-31 | File | `/secure/QueryComponent!Default.jspa` | High
-32 | File | `/servlet/webacc` | High
-33 | File | `/servlet/webacc?user.html` | High
-34 | File | `/templates/importinline.vm` | High
-35 | File | `/testConnection` | High
-36 | File | `/tmp/ppd.trace` | High
-37 | File | `/trx_addons/v2/get/sc_layout` | High
-38 | File | `/uncpath/` | Medium
-39 | File | `/uscgi-bin/users.cgi` | High
-40 | File | `/user/updatePwd` | High
-41 | File | `/userLogin.asp` | High
-42 | File | `/vm/admin/doctors.php` | High
-43 | File | `/web/entry/en/address/adrsSetUserWizard.cgi` | High
-44 | ... | ... | ...
+31 | File | `/servlet/webacc` | High
+32 | File | `/servlet/webacc?user.html` | High
+33 | File | `/testConnection` | High
+34 | File | `/tmp/ppd.trace` | High
+35 | File | `/uncpath/` | Medium
+36 | File | `/uscgi-bin/users.cgi` | High
+37 | File | `/user/inc/workidajax.php` | High
+38 | File | `/user/updatePwd` | High
+39 | File | `/userLogin.asp` | High
+40 | File | `/vm/admin/doctors.php` | High
+41 | File | `5.2.9\syscrb.exe` | High
+42 | File | `Access.app/Contents/Resources/kcproxy` | High
+43 | ... | ... | ...
 
-There are 377 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 375 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

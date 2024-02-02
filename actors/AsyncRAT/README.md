@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [US](https://vuldb.com/?country.us)
 * ...
 
-There are 14 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -558,9 +558,14 @@ ID | IP address | Hostname | Campaign | Confidence
 535 | [45.144.30.31](https://vuldb.com/?ip.45.144.30.31) | vm1277577.stark-industries.solutions | - | High
 536 | [45.144.31.124](https://vuldb.com/?ip.45.144.31.124) | 3.dev | - | High
 537 | [45.144.154.150](https://vuldb.com/?ip.45.144.154.150) | rdns.sterly.com.tr | - | High
-538 | ... | ... | ... | ...
+538 | [45.144.154.192](https://vuldb.com/?ip.45.144.154.192) | rdns.sterly.com.tr | - | High
+539 | [45.144.225.178](https://vuldb.com/?ip.45.144.225.178) | - | - | High
+540 | [45.144.225.194](https://vuldb.com/?ip.45.144.225.194) | - | - | High
+541 | [45.145.22.128](https://vuldb.com/?ip.45.145.22.128) | - | - | High
+542 | [45.145.22.142](https://vuldb.com/?ip.45.145.22.142) | - | - | High
+543 | ... | ... | ... | ...
 
-There are 2149 more IOC items available. Please use our online service to access the data.
+There are 2167 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -570,10 +575,9 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-29, CWE-425 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-264, CWE-267, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
-6 | ... | ... | ... | ...
+5 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
 
@@ -583,60 +587,53 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/.env` | Low
-2 | File | `/admin/` | Low
-3 | File | `/admin/action/delete-vaccine.php` | High
-4 | File | `/admin/action/new-father.php` | High
-5 | File | `/admin/admin_user.php` | High
-6 | File | `/admin/clientview.php` | High
-7 | File | `/admin/edit_teacher.php` | High
-8 | File | `/admin/fields/manage_field.php` | High
-9 | File | `/admin/manage-users.php` | High
-10 | File | `/admin/pages/subjects.php` | High
-11 | File | `/admin/regester.php` | High
-12 | File | `/admin/update-clients.php` | High
-13 | File | `/admin_route/dec_service_credits.php` | High
-14 | File | `/admin_route/inc_service_credits.php` | High
-15 | File | `/api/cron/settings/setJob/` | High
-16 | File | `/api/sys/set_passwd` | High
-17 | File | `/api/trackedEntityInstances` | High
-18 | File | `/api/v1/terminal/sessions/?limit=1` | High
-19 | File | `/app/api/controller/default/Sqlite.php` | High
-20 | File | `/app/index/controller/Common.php` | High
-21 | File | `/apply.cgi` | Medium
-22 | File | `/authenticationendpoint/login.do` | High
-23 | File | `/aux` | Low
-24 | File | `/b2b-supermarket/shopping-cart` | High
-25 | File | `/bin/boa` | Medium
-26 | File | `/boaform/device_reset.cgi` | High
-27 | File | `/bsms_ci/index.php/user/edit_user/` | High
-28 | File | `/cgi-bin/cstecgi.cgi` | High
-29 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-30 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
-31 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-32 | File | `/cgi-bin/R14.2/cgi-bin/R14.2/host.pl` | High
-33 | File | `/cgi-bin/R14.2/easy1350.pl` | High
-34 | File | `/cgi-bin/wlogin.cgi` | High
-35 | File | `/cgi/cpaddons_report.pl` | High
-36 | File | `/classes/Users.php?f=save` | High
-37 | File | `/config/getuser` | High
-38 | File | `/dashboard/snapshot/*?orgId=0` | High
-39 | File | `/data/remove` | Medium
-40 | File | `/dayrui/My/Config/Install.txt` | High
-41 | File | `/debug/pprof` | Medium
-42 | File | `/endpoint/add-user.php` | High
-43 | File | `/forms/doLogin` | High
-44 | File | `/forum/away.php` | High
-45 | File | `/forums/editforum.php` | High
-46 | File | `/goform/goform_get_cmd_process` | High
-47 | File | `/hedwig.cgi` | Medium
-48 | File | `/home/courses` | High
-49 | File | `/importexport.php` | High
-50 | File | `/index.php` | Medium
-51 | File | `/main/doctype.php` | High
-52 | ... | ... | ...
+1 | File | `/admin/action/delete-vaccine.php` | High
+2 | File | `/admin/action/new-father.php` | High
+3 | File | `/admin/edit_teacher.php` | High
+4 | File | `/admin/fields/manage_field.php` | High
+5 | File | `/admin/manage-users.php` | High
+6 | File | `/admin/pages/subjects.php` | High
+7 | File | `/admin_ping.htm` | High
+8 | File | `/admin_route/dec_service_credits.php` | High
+9 | File | `/admin_route/inc_service_credits.php` | High
+10 | File | `/api/sys/set_passwd` | High
+11 | File | `/app/api/controller/default/Sqlite.php` | High
+12 | File | `/app/index/controller/Common.php` | High
+13 | File | `/arch/x86/mm/cpu_entry_area.c` | High
+14 | File | `/authenticationendpoint/login.do` | High
+15 | File | `/aux` | Low
+16 | File | `/b2b-supermarket/shopping-cart` | High
+17 | File | `/bin/boa` | Medium
+18 | File | `/boafrm/formMapDelDevice` | High
+19 | File | `/bsms_ci/index.php/user/edit_user/` | High
+20 | File | `/cgi-bin/cstecgi.cgi` | High
+21 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+22 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+23 | File | `/cgi-bin/R14.2/cgi-bin/R14.2/host.pl` | High
+24 | File | `/cgi-bin/R14.2/easy1350.pl` | High
+25 | File | `/cgi/cpaddons_report.pl` | High
+26 | File | `/classes/Users.php?f=save` | High
+27 | File | `/core/redirect` | High
+28 | File | `/cupseasylive/statelist.php` | High
+29 | File | `/dashboard/snapshot/*?orgId=0` | High
+30 | File | `/data/remove` | Medium
+31 | File | `/dayrui/My/Config/Install.txt` | High
+32 | File | `/debug/pprof` | Medium
+33 | File | `/endpoint/add-user.php` | High
+34 | File | `/forum/away.php` | High
+35 | File | `/forums/editforum.php` | High
+36 | File | `/goform/WifiMacFilterGet` | High
+37 | File | `/goform/wifiSSIDset` | High
+38 | File | `/hedwig.cgi` | Medium
+39 | File | `/icehrm/app/fileupload_page.php` | High
+40 | File | `/index.php` | Medium
+41 | File | `/index.php?app=main&func=passport&action=login` | High
+42 | File | `/Main_AdmStatus_Content.asp` | High
+43 | File | `/modals/class_form.php` | High
+44 | File | `/modules/projects/vw_files.php` | High
+45 | ... | ... | ...
 
-There are 448 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 393 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -818,6 +815,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://bazaar.abuse.ch/sample/30e641405af2fa5bc1a705bf239a45bf8b8e42d6bf2c2692d98299d4a8ff344e/
 * https://bazaar.abuse.ch/sample/34a78af77d1a2f1f5480dd329df09ea973e1423cc48c768fffb2374c340b5217/
 * https://bazaar.abuse.ch/sample/39ae1a73d9326d866c0ea79742243790ed3aeeceac161f1a23f7b0c7b84b4570/
+* https://bazaar.abuse.ch/sample/40b2c8937a96f8c487a16197cbdd1394d12fba0141571f8b529f94c87f5e56c6/
 * https://bazaar.abuse.ch/sample/42b8be731007bfe95a319be6726441e9da0504048f8402beabaabf712db3f3ef/
 * https://bazaar.abuse.ch/sample/44b973071a7a8b22ab1a3defe1b2ec8028c39de957180e9a71e09b48c0d8a641/
 * https://bazaar.abuse.ch/sample/45e87ee0b025a7e4a783a6786564982e7735c8c50d0b3d84a3d5dd90ce735cfe/
@@ -904,6 +902,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://bazaar.abuse.ch/sample/867cb40a0a835cde92debbf6c8482c93057aa75b44c7696568acc1332c302b67/
 * https://bazaar.abuse.ch/sample/878c680864cd95fc8be624b36d702a2ce4e0d9c7a5ce127c5b4d3cbbb7d6407d/
 * https://bazaar.abuse.ch/sample/882f1966196bd40e20845b2c587fc496a54f744b1c2a27a557fd1a8a0c9f1f79/
+* https://bazaar.abuse.ch/sample/923cf7d4a3785f11ac119a4a429a46fbcf1ff745d5865ce05efd9ef0a1ccef45/
 * https://bazaar.abuse.ch/sample/941db96a7825e25da6f8c3530091ef9be244ca2027d55214f5a475e76dbab982/
 * https://bazaar.abuse.ch/sample/953dfa74fd6ae4b726b20f31059be34f2f9adccbaada481b91875963a070a6c7/
 * https://bazaar.abuse.ch/sample/972f465092718aff426ef0bfd0f3bbae919f1d17aafcbac64c107beafa34eb40/
@@ -1052,6 +1051,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://bazaar.abuse.ch/sample/b80bf99f9519393987d431958487bc507e6f8b475e032aa950880f89ddfa11a1/
 * https://bazaar.abuse.ch/sample/b691fce33f6868054ae5d9e77b6bb6f6e75084ba7a63c85dc336edeededc0ad6/
 * https://bazaar.abuse.ch/sample/b924f8f3b8ec730ab652403248f07d163b4218260e8896afdb6cb7b002205a3a/
+* https://bazaar.abuse.ch/sample/b9371b217090aadf41da567face2032494d9fc5d7e4bb438dad702814c88fb97/
 * https://bazaar.abuse.ch/sample/b24993e503f1ba6774ff88faebc3487bfece018b3baac4b0ada076d7f86ef26d/
 * https://bazaar.abuse.ch/sample/b79718f59f3d7d72a416fe00c3ab3477b43282981e69f9cf5426b2c8012423c1/
 * https://bazaar.abuse.ch/sample/b633829ec12cb30879e514affc54a512165078d659bded04214cb543aff1bc34/
@@ -1115,6 +1115,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://bazaar.abuse.ch/sample/ce19ced2d3f31d4e5393708d993dceca2717b59e6d58b76515cea0db262807c9/
 * https://bazaar.abuse.ch/sample/ce438c103a40dbd12f48547c2d8604c947232376f87eadd1a2da3b7bfac28d02/
 * https://bazaar.abuse.ch/sample/cf1de08c2a552617a6e8591a2bd25c72d597854e9564246a700329aa60b08be7/
+* https://bazaar.abuse.ch/sample/cf154a7b0efc6f02c475e4c44a410faed6129b356c6688b4f63deb9bae517048/
 * https://bazaar.abuse.ch/sample/cf7197b0cda0b202978ad64f10b4eeb25c10774e4275558148cd47e7fd000fa6/
 * https://bazaar.abuse.ch/sample/cf9821c4c08a6d62cbe17ebc6c0d6ea40336c145e8e9369fe76505e1d3dc8674/
 * https://bazaar.abuse.ch/sample/d0de97d9f6773d634fe90c11579b13411bd07dbdb5faa9644f5edaba12d97856/
@@ -1209,6 +1210,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://bazaar.abuse.ch/sample/fcfda22e8938ce7846eb3494af9778f601b676df3446a0b5b1a710c08d632010/
 * https://bazaar.abuse.ch/sample/fd42fff03752fe763d0e90f0c164ad376edaf3c24b7bc872c70ecf236ebf9f10/
 * https://bazaar.abuse.ch/sample/fd87155ae16286e44eb0068f8ea18a735bc8b8a1fbefc60f70b7a5a14538677b/
+* https://bazaar.abuse.ch/sample/feffae70bbd8a147e747b2cd75cba2415163f4158dc94b77f83a4844f95ccb4a/
 * https://bazaar.abuse.ch/sample/ff3df6e74b6eb27f5dbe734d78ca97937d121df09149bba70d2bd1fb151bb56b/
 * https://bazaar.abuse.ch/sample/ffb0cc5b049fb6579cdd30203ad594c72f1f985b067b7139e7fc770b8f900648/
 * https://bazaar.abuse.ch/sample/ffdbbc04470d0abb40347fa73fbe6c0e16cb21689f8ff11c0947fde79baad402/
@@ -1262,6 +1264,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/45.141.215.5
 * https://search.censys.io/hosts/45.141.215.40
 * https://search.censys.io/hosts/45.141.215.141
+* https://search.censys.io/hosts/46.4.37.212
 * https://search.censys.io/hosts/46.246.4.18
 * https://search.censys.io/hosts/46.246.6.3
 * https://search.censys.io/hosts/46.246.12.9
@@ -1309,7 +1312,9 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/88.251.135.18
 * https://search.censys.io/hosts/88.251.226.111
 * https://search.censys.io/hosts/89.137.121.142
+* https://search.censys.io/hosts/89.148.24.117
 * https://search.censys.io/hosts/89.148.48.240
+* https://search.censys.io/hosts/91.92.240.147
 * https://search.censys.io/hosts/91.92.240.157
 * https://search.censys.io/hosts/91.92.240.159
 * https://search.censys.io/hosts/91.92.241.23
@@ -1328,6 +1333,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/91.109.176.7
 * https://search.censys.io/hosts/91.109.176.9
 * https://search.censys.io/hosts/91.109.176.10
+* https://search.censys.io/hosts/91.109.178.4
 * https://search.censys.io/hosts/91.109.180.4
 * https://search.censys.io/hosts/91.109.180.6
 * https://search.censys.io/hosts/91.109.182.2
@@ -1352,7 +1358,9 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/92.87.6.121
 * https://search.censys.io/hosts/93.43.214.206
 * https://search.censys.io/hosts/93.242.233.250
+* https://search.censys.io/hosts/94.46.246.95
 * https://search.censys.io/hosts/94.156.64.168
+* https://search.censys.io/hosts/94.156.67.155
 * https://search.censys.io/hosts/94.156.68.120
 * https://search.censys.io/hosts/94.156.69.57
 * https://search.censys.io/hosts/95.10.154.172
@@ -1418,6 +1426,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/158.247.235.51
 * https://search.censys.io/hosts/161.97.151.222
 * https://search.censys.io/hosts/162.55.36.154
+* https://search.censys.io/hosts/163.5.64.75
 * https://search.censys.io/hosts/165.73.249.21
 * https://search.censys.io/hosts/166.0.156.25
 * https://search.censys.io/hosts/167.235.78.69
@@ -1435,8 +1444,10 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/177.143.216.81
 * https://search.censys.io/hosts/177.255.84.119
 * https://search.censys.io/hosts/178.33.203.39
+* https://search.censys.io/hosts/178.73.192.6
 * https://search.censys.io/hosts/178.73.192.20
 * https://search.censys.io/hosts/179.13.2.132
+* https://search.censys.io/hosts/179.13.3.199
 * https://search.censys.io/hosts/181.32.146.243
 * https://search.censys.io/hosts/181.131.219.252
 * https://search.censys.io/hosts/181.214.240.107
@@ -1450,10 +1461,12 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/185.62.87.238
 * https://search.censys.io/hosts/185.62.87.246
 * https://search.censys.io/hosts/185.62.87.247
+* https://search.censys.io/hosts/185.81.157.1
 * https://search.censys.io/hosts/185.81.157.12
 * https://search.censys.io/hosts/185.81.157.103
 * https://search.censys.io/hosts/185.81.157.112
 * https://search.censys.io/hosts/185.81.157.123
+* https://search.censys.io/hosts/185.81.157.129
 * https://search.censys.io/hosts/185.81.157.133
 * https://search.censys.io/hosts/185.81.157.147
 * https://search.censys.io/hosts/185.81.157.148
@@ -1482,6 +1495,8 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/186.102.174.131
 * https://search.censys.io/hosts/186.112.202.44
 * https://search.censys.io/hosts/186.112.202.162
+* https://search.censys.io/hosts/186.112.204.173
+* https://search.censys.io/hosts/186.112.205.208
 * https://search.censys.io/hosts/186.168.66.85
 * https://search.censys.io/hosts/186.168.71.240
 * https://search.censys.io/hosts/186.170.115.82
@@ -1570,6 +1585,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/213.195.114.146
 * https://search.censys.io/hosts/213.195.115.111
 * https://search.censys.io/hosts/213.195.115.250
+* https://search.censys.io/hosts/213.195.118.64
 * https://search.censys.io/hosts/213.195.119.8
 * https://search.censys.io/hosts/213.195.120.176
 * https://search.censys.io/hosts/213.195.120.238

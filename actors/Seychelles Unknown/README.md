@@ -589,37 +589,40 @@ ID | Type | Indicator | Confidence
 7 | File | `/admin/index.php?mode=content&page=media&action=edit` | High
 8 | File | `/admin/inquiries/view_inquiry.php` | High
 9 | File | `/admin/maintenance/view_designation.php` | High
-10 | File | `/admin/report/index.php` | High
-11 | File | `/admin/search-appointment.php` | High
-12 | File | `/admin/users.php?source=edit_user&id=1` | High
-13 | File | `/administrator/alerts/alertLightbox.php` | High
-14 | File | `/administrator/templates/default/html/windows/right.php` | High
-15 | File | `/admin_route/inc_service_credits.php` | High
-16 | File | `/api/runscript` | High
-17 | File | `/cgi-bin/cstecgi.cgi` | High
-18 | File | `/cgi-bin/webadminget.cgi` | High
-19 | File | `/classes/Master.php?f=delete_service` | High
-20 | File | `/classes/Master.php?f=save_course` | High
-21 | File | `/config/php.ini` | High
-22 | File | `/demo/module/?module=HERE` | High
-23 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
-24 | File | `/forum/away.php` | High
-25 | File | `/goform/SysToolReboot` | High
-26 | File | `/goform/WifiExtraSet` | High
-27 | File | `/inc/topBarNav.php` | High
-28 | File | `/index.php?m=admin&c=custom&a=plugindelhandle` | High
-29 | File | `/mkshop/Men/profile.php` | High
-30 | File | `/mobile/downloadfile.aspx` | High
-31 | File | `/net/nfc/netlink.c` | High
-32 | File | `/oauth/idp/.well-known/openid-configuration` | High
-33 | File | `/out.php` | Medium
-34 | File | `/outgoing.php` | High
-35 | File | `/php-fusion/infusions/shoutbox_panel/shoutbox_archive.php` | High
-36 | File | `/register.do` | Medium
-37 | File | `/spip.php` | Medium
-38 | ... | ... | ...
+10 | File | `/admin/pages/edit_chicken.php` | High
+11 | File | `/admin/pages/student-print.php` | High
+12 | File | `/admin/report/index.php` | High
+13 | File | `/admin/search-appointment.php` | High
+14 | File | `/admin/users.php?source=edit_user&id=1` | High
+15 | File | `/administrator/alerts/alertLightbox.php` | High
+16 | File | `/administrator/templates/default/html/windows/right.php` | High
+17 | File | `/admin_route/inc_service_credits.php` | High
+18 | File | `/api/runscript` | High
+19 | File | `/app/Http/Controllers/ImageController.php` | High
+20 | File | `/cgi-bin/cstecgi.cgi` | High
+21 | File | `/cgi-bin/webadminget.cgi` | High
+22 | File | `/classes/Master.php?f=delete_service` | High
+23 | File | `/classes/Master.php?f=save_course` | High
+24 | File | `/config/php.ini` | High
+25 | File | `/demo/module/?module=HERE` | High
+26 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
+27 | File | `/forum/away.php` | High
+28 | File | `/goform/SysToolReboot` | High
+29 | File | `/goform/WifiExtraSet` | High
+30 | File | `/inc/topBarNav.php` | High
+31 | File | `/index.php?m=admin&c=custom&a=plugindelhandle` | High
+32 | File | `/mkshop/Men/profile.php` | High
+33 | File | `/mobile/downloadfile.aspx` | High
+34 | File | `/net/nfc/netlink.c` | High
+35 | File | `/oauth/idp/.well-known/openid-configuration` | High
+36 | File | `/out.php` | Medium
+37 | File | `/outgoing.php` | High
+38 | File | `/php-fusion/infusions/shoutbox_panel/shoutbox_archive.php` | High
+39 | File | `/register.do` | Medium
+40 | File | `/spip.php` | Medium
+41 | ... | ... | ...
 
-There are 326 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 351 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

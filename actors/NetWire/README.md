@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 20 more country items available. Please use our online service to access the data.
+There are 21 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -120,38 +120,38 @@ ID | Type | Indicator | Confidence
 30 | File | `/bin/boa` | Medium
 31 | File | `/bitrix/admin/ldap_server_edit.php` | High
 32 | File | `/blog` | Low
-33 | File | `/booking/show_bookings/` | High
-34 | File | `/cgi-bin/cstecgi.cgi` | High
-35 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-36 | File | `/cgi-bin/wlogin.cgi` | High
-37 | File | `/collection/all` | High
-38 | File | `/College/admin/teacher.php` | High
-39 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
-40 | File | `/dcim/rack-roles/` | High
-41 | File | `/dipam/athlete-profile.php` | High
-42 | File | `/E-mobile/App/System/File/downfile.php` | High
-43 | File | `/edoc/doctor/patient.php` | High
-44 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-45 | File | `/etc/shadow` | Medium
-46 | File | `/forms/doLogin` | High
-47 | File | `/forum/away.php` | High
-48 | File | `/fusion/portal/action/Link` | High
-49 | File | `/goform/aspForm` | High
-50 | File | `/HNAP1/` | Low
-51 | File | `/importexport.php` | High
-52 | File | `/inc/topBarNav.php` | High
-53 | File | `/index.php` | Medium
-54 | File | `/index.php?app=main&func=passport&action=login` | High
-55 | File | `/kelas/data` | Medium
-56 | File | `/kelasdosen/data` | High
-57 | File | `/listplace/user/coverPhotoUpdate` | High
-58 | File | `/listplace/user/ticket/create` | High
-59 | File | `/manage/IPSetup.php` | High
-60 | File | `/Moosikay/order.php` | High
-61 | File | `/osm/REGISTER.cmd` | High
+33 | File | `/boafrm/formMapDelDevice` | High
+34 | File | `/booking/show_bookings/` | High
+35 | File | `/cgi-bin/cstecgi.cgi` | High
+36 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+37 | File | `/cgi-bin/wlogin.cgi` | High
+38 | File | `/collection/all` | High
+39 | File | `/College/admin/teacher.php` | High
+40 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
+41 | File | `/dcim/rack-roles/` | High
+42 | File | `/dipam/athlete-profile.php` | High
+43 | File | `/E-mobile/App/System/File/downfile.php` | High
+44 | File | `/edoc/doctor/patient.php` | High
+45 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+46 | File | `/etc/shadow` | Medium
+47 | File | `/forms/doLogin` | High
+48 | File | `/forum/away.php` | High
+49 | File | `/fusion/portal/action/Link` | High
+50 | File | `/goform/aspForm` | High
+51 | File | `/hedwig.cgi` | Medium
+52 | File | `/HNAP1/` | Low
+53 | File | `/importexport.php` | High
+54 | File | `/inc/topBarNav.php` | High
+55 | File | `/index.php` | Medium
+56 | File | `/index.php?app=main&func=passport&action=login` | High
+57 | File | `/kelas/data` | Medium
+58 | File | `/kelasdosen/data` | High
+59 | File | `/listplace/user/coverPhotoUpdate` | High
+60 | File | `/listplace/user/ticket/create` | High
+61 | File | `/manage/IPSetup.php` | High
 62 | ... | ... | ...
 
-There are 542 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 540 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

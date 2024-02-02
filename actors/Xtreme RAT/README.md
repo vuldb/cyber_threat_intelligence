@@ -48,9 +48,10 @@ ID | IP address | Hostname | Campaign | Confidence
 30 | [47.91.89.136](https://vuldb.com/?ip.47.91.89.136) | - | - | High
 31 | [47.106.39.1](https://vuldb.com/?ip.47.106.39.1) | - | - | High
 32 | [47.241.35.83](https://vuldb.com/?ip.47.241.35.83) | - | - | High
-33 | ... | ... | ... | ...
+33 | [47.241.79.18](https://vuldb.com/?ip.47.241.79.18) | - | - | High
+34 | ... | ... | ... | ...
 
-There are 128 more IOC items available. Please use our online service to access the data.
+There are 130 more IOC items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 

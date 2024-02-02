@@ -31,7 +31,7 @@ ID | IP address | Hostname | Campaign | Confidence
 8 | [77.73.134.68](https://vuldb.com/?ip.77.73.134.68) | - | - | High
 9 | ... | ... | ... | ...
 
-There are 30 more IOC items available. Please use our online service to access the data.
+There are 31 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -53,40 +53,41 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/api/baskets/{name}` | High
-2 | File | `/api/profile` | Medium
-3 | File | `/api/RecordingList/DownloadRecord?file=` | High
-4 | File | `/apply.cgi` | Medium
-5 | File | `/dataset/data/{id}` | High
-6 | File | `/debug/pprof` | Medium
-7 | File | `/etc/grafana/grafana.ini` | High
-8 | File | `/film-rating.php` | High
-9 | File | `/forum/PostPrivateMessage` | High
-10 | File | `/index.php` | Medium
-11 | File | `/librarian/bookdetails.php` | High
-12 | File | `/nova/bin/igmp-proxy` | High
-13 | File | `/orrs/admin/?page=user/manage_user` | High
-14 | File | `/pages/processlogin.php` | High
-15 | File | `/rapi/read_url` | High
-16 | File | `/scripts/unlock_tasks.php` | High
-17 | File | `/student/bookdetails.php` | High
-18 | File | `/system/user/modules/mod_users/controller.php` | High
-19 | File | `/uncpath/` | Medium
-20 | File | `/usr/local/psa/admin/sbin/wrapper` | High
-21 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
-22 | File | `123flashchat.php` | High
-23 | File | `account.asp` | Medium
-24 | File | `admin.jcomments.php` | High
-25 | File | `admin.php` | Medium
-26 | File | `admin/?page=system_info` | High
-27 | File | `admin/conf_users_edit.php` | High
-28 | File | `admin/establishment/manage.php` | High
-29 | File | `admin/inquiries/view_details.php` | High
-30 | File | `admin/modules/tools/ip_history_logs.php` | High
-31 | File | `affiliate-preview.php` | High
-32 | ... | ... | ...
+1 | File | `/advanced-tools/nova/bin/netwatch` | High
+2 | File | `/api/baskets/{name}` | High
+3 | File | `/api/profile` | Medium
+4 | File | `/api/RecordingList/DownloadRecord?file=` | High
+5 | File | `/apply.cgi` | Medium
+6 | File | `/dataset/data/{id}` | High
+7 | File | `/debug/pprof` | Medium
+8 | File | `/etc/grafana/grafana.ini` | High
+9 | File | `/film-rating.php` | High
+10 | File | `/forum/PostPrivateMessage` | High
+11 | File | `/index.php` | Medium
+12 | File | `/librarian/bookdetails.php` | High
+13 | File | `/nova/bin/igmp-proxy` | High
+14 | File | `/orrs/admin/?page=user/manage_user` | High
+15 | File | `/pages/processlogin.php` | High
+16 | File | `/rapi/read_url` | High
+17 | File | `/scripts/unlock_tasks.php` | High
+18 | File | `/student/bookdetails.php` | High
+19 | File | `/system/user/modules/mod_users/controller.php` | High
+20 | File | `/uncpath/` | Medium
+21 | File | `/usr/local/psa/admin/sbin/wrapper` | High
+22 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
+23 | File | `123flashchat.php` | High
+24 | File | `account.asp` | Medium
+25 | File | `admin.jcomments.php` | High
+26 | File | `admin.php` | Medium
+27 | File | `admin/?page=system_info` | High
+28 | File | `admin/conf_users_edit.php` | High
+29 | File | `admin/establishment/manage.php` | High
+30 | File | `admin/inquiries/view_details.php` | High
+31 | File | `admin/modules/tools/ip_history_logs.php` | High
+32 | File | `affiliate-preview.php` | High
+33 | ... | ... | ...
 
-There are 277 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 280 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -79,12 +79,12 @@ ID | Type | Indicator | Confidence
 19 | File | `/env` | Low
 20 | File | `/etc/passwd` | Medium
 21 | File | `/forum/away.php` | High
-22 | File | `/goform/setmac` | High
-23 | File | `/goform/setportList` | High
-24 | File | `/goform/setVLAN` | High
-25 | File | `/goform/wlanPrimaryNetwork` | High
-26 | File | `/GponForm/usb_Form?script/` | High
-27 | File | `/groups/31-twitter-basics` | High
+22 | File | `/general/email/inbox/delete_webmail.php` | High
+23 | File | `/goform/setmac` | High
+24 | File | `/goform/setportList` | High
+25 | File | `/goform/setVLAN` | High
+26 | File | `/goform/wlanPrimaryNetwork` | High
+27 | File | `/GponForm/usb_Form?script/` | High
 28 | File | `/inc/jquery/uploadify/uploadify.php` | High
 29 | File | `/login` | Low
 30 | File | `/login/index.php` | High
@@ -94,20 +94,21 @@ ID | Type | Indicator | Confidence
 34 | File | `/secure/QueryComponent!Default.jspa` | High
 35 | File | `/spip.php` | Medium
 36 | File | `/sys/dict/queryTableData` | High
-37 | File | `/tmp` | Low
-38 | File | `/tmp/before` | Medium
-39 | File | `/User/saveUser` | High
-40 | File | `/userLogin.asp` | High
-41 | File | `/usr/bin/vmware-mount` | High
-42 | File | `/var/WEB-GUI/cgi-bin/downloadfile.cgi` | High
-43 | File | `/WEB-INF/web.xml` | High
-44 | File | `/_vti_pvt/access.cnf` | High
-45 | File | `3/qq_connect2.0/API/class/ErrorCase.class.php` | High
-46 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-47 | File | `accountsettings_add.html` | High
-48 | ... | ... | ...
+37 | File | `/tmp/before` | Medium
+38 | File | `/User/saveUser` | High
+39 | File | `/userLogin.asp` | High
+40 | File | `/usr/bin/vmware-mount` | High
+41 | File | `/var/WEB-GUI/cgi-bin/downloadfile.cgi` | High
+42 | File | `/WEB-INF/web.xml` | High
+43 | File | `/_vti_pvt/access.cnf` | High
+44 | File | `3/qq_connect2.0/API/class/ErrorCase.class.php` | High
+45 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+46 | File | `aclient.exe` | Medium
+47 | File | `admin.php` | Medium
+48 | File | `admin.php?c=update&f=unzip` | High
+49 | ... | ... | ...
 
-There are 414 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 424 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

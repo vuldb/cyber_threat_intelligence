@@ -116,9 +116,10 @@ ID | Type | Indicator | Confidence
 41 | File | `/system/user/modules/mod_users/controller.php` | High
 42 | File | `/uncpath/` | Medium
 43 | File | `/usr/bin/pkexec` | High
-44 | ... | ... | ...
+44 | File | `/usr/sbin/httpd` | High
+45 | ... | ... | ...
 
-There are 385 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 388 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

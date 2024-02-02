@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -109,7 +109,7 @@ ID | Technique | Weakness | Description | Confidence
 6 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 7 | ... | ... | ... | ...
 
-There are 24 more TTP items available. Please use our online service to access the data.
+There are 23 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -147,24 +147,25 @@ ID | Type | Indicator | Confidence
 28 | File | `/changePassword` | High
 29 | File | `/config/php.ini` | High
 30 | File | `/Content/Template/root/reverse-shell.aspx` | High
-31 | File | `/context/%2e/WEB-INF/web.xml` | High
-32 | File | `/dashboard/add-blog.php` | High
-33 | File | `/data/remove` | Medium
-34 | File | `/debug/pprof` | Medium
-35 | File | `/ecshop/admin/template.php` | High
-36 | File | `/env` | Low
-37 | File | `/etc/hosts` | Medium
-38 | File | `/forum/away.php` | High
-39 | File | `/goform/wizard_end` | High
-40 | File | `/group1/uploa` | High
-41 | File | `/index.php` | Medium
-42 | File | `/medicines/profile.php` | High
-43 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-44 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-45 | File | `/php-sms/admin/?page=user/manage_user` | High
-46 | ... | ... | ...
+31 | File | `/dashboard/add-blog.php` | High
+32 | File | `/data/remove` | Medium
+33 | File | `/debug/pprof` | Medium
+34 | File | `/ecshop/admin/template.php` | High
+35 | File | `/env` | Low
+36 | File | `/etc/hosts` | Medium
+37 | File | `/forum/away.php` | High
+38 | File | `/group1/uploa` | High
+39 | File | `/index.php` | Medium
+40 | File | `/medicines/profile.php` | High
+41 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+42 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+43 | File | `/php-sms/admin/?page=user/manage_user` | High
+44 | File | `/proxy` | Low
+45 | File | `/reservation/add_message.php` | High
+46 | File | `/resources//../` | High
+47 | ... | ... | ...
 
-There are 398 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 408 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

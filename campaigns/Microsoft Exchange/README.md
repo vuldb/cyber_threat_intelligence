@@ -106,15 +106,14 @@ ID | Type | Indicator | Confidence
 44 | File | `/home/masterConsole` | High
 45 | File | `/home/sendBroadcast` | High
 46 | File | `/inc/jquery/uploadify/uploadify.php` | High
-47 | File | `/include/chart_generator.php` | High
-48 | File | `/include/dialog/select_templets_post.php` | High
-49 | File | `/index.php/sysmanage/Login/login_auth/` | High
-50 | File | `/jurusanmatkul/data` | High
-51 | File | `/kelasdosen/data` | High
-52 | File | `/lan.asp` | Medium
-53 | ... | ... | ...
+47 | File | `/include/dialog/select_templets_post.php` | High
+48 | File | `/index.php/sysmanage/Login/login_auth/` | High
+49 | File | `/jurusanmatkul/data` | High
+50 | File | `/kelasdosen/data` | High
+51 | File | `/lan.asp` | Medium
+52 | ... | ... | ...
 
-There are 459 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 457 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

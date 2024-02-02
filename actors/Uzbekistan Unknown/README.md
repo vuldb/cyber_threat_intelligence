@@ -84,7 +84,10 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1059.007 | CWE-79 | Cross Site Scripting | High
 2 | T1222 | CWE-275 | Permission Issues | High
-3 | T1574 | CWE-426 | Untrusted Search Path | High
+3 | T1505 | CWE-89 | SQL Injection | High
+4 | ... | ... | ... | ...
+
+There are 1 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -93,11 +96,11 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/product.php` | Medium
-2 | File | `drfone_setup_full3360.exe` | High
-3 | File | `mobiletrans_setup_full5793.exe` | High
+2 | File | `/products/view_product.php` | High
+3 | File | `drfone_setup_full3360.exe` | High
 4 | ... | ... | ...
 
-There are 3 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 5 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

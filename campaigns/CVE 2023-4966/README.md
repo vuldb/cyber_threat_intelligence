@@ -43,7 +43,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-25, CWE-425 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
@@ -77,35 +77,34 @@ ID | Type | Indicator | Confidence
 17 | File | `/Controller/Ajaxfileupload.ashx` | High
 18 | File | `/core/conditions/AbstractWrapper.java` | High
 19 | File | `/debug/pprof` | Medium
-20 | File | `/dist/index.js` | High
-21 | File | `/Duty/AjaxHandle/UploadFloodPlanFileUpdate.ashx` | High
-22 | File | `/etc/passwd` | Medium
-23 | File | `/fcgi/scrut_fcgi.fcgi` | High
-24 | File | `/forum/away.php` | High
-25 | File | `/geoserver/gwc/rest.html` | High
-26 | File | `/goform/formSysCmd` | High
-27 | File | `/h/` | Low
-28 | File | `/HNAP1` | Low
-29 | File | `/hosts/firewall/ip` | High
-30 | File | `/index.php/ccm/system/file/upload` | High
-31 | File | `/jeecg-boot/sys/common/upload` | High
-32 | File | `/log/decodmail.php` | High
-33 | File | `/oauth/idp/.well-known/openid-configuration` | High
-34 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
-35 | File | `/php/ping.php` | High
-36 | File | `/proxy` | Low
-37 | File | `/recipe-result` | High
-38 | File | `/register.do` | Medium
-39 | File | `/RPS2019Service/status.html` | High
-40 | File | `/s/index.php?action=statistics` | High
-41 | File | `/Service/ImageStationDataService.asmx` | High
-42 | File | `/setting` | Medium
-43 | File | `/sicweb-ajax/tmproot/` | High
-44 | File | `/spip.php` | Medium
-45 | File | `/student/bookdetails.php` | High
-46 | ... | ... | ...
+20 | File | `/devinfo` | Medium
+21 | File | `/dist/index.js` | High
+22 | File | `/Duty/AjaxHandle/UploadFloodPlanFileUpdate.ashx` | High
+23 | File | `/etc/passwd` | Medium
+24 | File | `/fcgi/scrut_fcgi.fcgi` | High
+25 | File | `/forum/away.php` | High
+26 | File | `/geoserver/gwc/rest.html` | High
+27 | File | `/goform/formSysCmd` | High
+28 | File | `/h/` | Low
+29 | File | `/HNAP1` | Low
+30 | File | `/hosts/firewall/ip` | High
+31 | File | `/index.php/ccm/system/file/upload` | High
+32 | File | `/jeecg-boot/sys/common/upload` | High
+33 | File | `/log/decodmail.php` | High
+34 | File | `/oauth/idp/.well-known/openid-configuration` | High
+35 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
+36 | File | `/php/ping.php` | High
+37 | File | `/proxy` | Low
+38 | File | `/recipe-result` | High
+39 | File | `/register.do` | Medium
+40 | File | `/RPS2019Service/status.html` | High
+41 | File | `/s/index.php?action=statistics` | High
+42 | File | `/Service/ImageStationDataService.asmx` | High
+43 | File | `/setting` | Medium
+44 | File | `/sicweb-ajax/tmproot/` | High
+45 | ... | ... | ...
 
-There are 394 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 393 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

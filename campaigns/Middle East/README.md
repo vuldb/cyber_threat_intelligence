@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 16 more country items available. Please use our online service to access the data.
+There are 15 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -64,14 +64,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23, CWE-24, CWE-36 | Pathname Traversal | High
+1 | T1006 | CWE-22, CWE-23, CWE-24 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | T1068 | CWE-264, CWE-266, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -94,42 +94,42 @@ ID | Type | Indicator | Confidence
 13 | File | `/admin_route/dec_service_credits.php` | High
 14 | File | `/app/ajax/sell_return_data.php` | High
 15 | File | `/app/api/controller/default/File.php` | High
-16 | File | `/auth/auth.php?user=1` | High
-17 | File | `/b2b-supermarket/catalog/all-products` | High
-18 | File | `/bin/boa` | Medium
-19 | File | `/bin/login` | Medium
-20 | File | `/bin/mini_upnpd` | High
-21 | File | `/boaform/device_reset.cgi` | High
-22 | File | `/boaform/wlan_basic_set.cgi` | High
-23 | File | `/cgi-bin/cstecgi.cgi` | High
-24 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-25 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
-26 | File | `/cgi-bin/wlogin.cgi` | High
-27 | File | `/cgi/cpaddons_report.pl` | High
-28 | File | `/classes/Master.php?f=delete_reminder` | High
-29 | File | `/debug/pprof` | Medium
-30 | File | `/DXR.axd` | Medium
-31 | File | `/forum/away.php` | High
-32 | File | `/goform/goform_get_cmd_process` | High
-33 | File | `/h/autoSaveDraft` | High
-34 | File | `/h/search?action` | High
-35 | File | `/HNAP1/` | Low
-36 | File | `/im/user/` | Medium
-37 | File | `/importexport.php` | High
-38 | File | `/index.php?app=main&func=passport&action=login` | High
-39 | File | `/index.php?page=member` | High
-40 | File | `/libsystem/login.php` | High
-41 | File | `/main/checkout.php` | High
-42 | File | `/main/doctype.php` | High
-43 | File | `/main/webservices/additional_webservices.php` | High
-44 | File | `/mc` | Low
-45 | File | `/mgmt/` | Low
-46 | File | `/novel/bookSetting/list` | High
-47 | File | `/oa/notify/edit` | High
-48 | File | `/oauth/idp/.well-known/openid-configuration` | High
+16 | File | `/application/index/controller/Datament.php` | High
+17 | File | `/application/index/controller/File.php` | High
+18 | File | `/auth/auth.php?user=1` | High
+19 | File | `/b2b-supermarket/catalog/all-products` | High
+20 | File | `/bin/boa` | Medium
+21 | File | `/bin/login` | Medium
+22 | File | `/bin/mini_upnpd` | High
+23 | File | `/boaform/device_reset.cgi` | High
+24 | File | `/boaform/wlan_basic_set.cgi` | High
+25 | File | `/cgi-bin/cstecgi.cgi` | High
+26 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+27 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
+28 | File | `/cgi-bin/wlogin.cgi` | High
+29 | File | `/cgi/cpaddons_report.pl` | High
+30 | File | `/classes/Master.php?f=delete_reminder` | High
+31 | File | `/debug/pprof` | Medium
+32 | File | `/DXR.axd` | Medium
+33 | File | `/forum/away.php` | High
+34 | File | `/goform/goform_get_cmd_process` | High
+35 | File | `/h/autoSaveDraft` | High
+36 | File | `/h/search?action` | High
+37 | File | `/HNAP1/` | Low
+38 | File | `/im/user/` | Medium
+39 | File | `/importexport.php` | High
+40 | File | `/index.php?app=main&func=passport&action=login` | High
+41 | File | `/libsystem/login.php` | High
+42 | File | `/main/checkout.php` | High
+43 | File | `/main/doctype.php` | High
+44 | File | `/main/webservices/additional_webservices.php` | High
+45 | File | `/mc` | Low
+46 | File | `/mgmt/` | Low
+47 | File | `/novel/bookSetting/list` | High
+48 | File | `/oa/notify/edit` | High
 49 | ... | ... | ...
 
-There are 427 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 428 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

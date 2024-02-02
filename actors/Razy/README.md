@@ -133,27 +133,27 @@ ID | Type | Indicator | Confidence
 15 | File | `/modules/profile/index.php` | High
 16 | File | `/one_church/userregister.php` | High
 17 | File | `/out.php` | Medium
-18 | File | `/public/plugins/` | High
-19 | File | `/SAP_Information_System/controllers/add_admin.php` | High
-20 | File | `/SASWebReportStudio/logonAndRender.do` | High
-21 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-22 | File | `/secure/admin/ViewInstrumentation.jspa` | High
-23 | File | `/SVFE2/pages/feegroups/country_group.jsf` | High
-24 | File | `/textpattern/index.php` | High
-25 | File | `/upfile.cgi` | Medium
-26 | File | `/v2/quantum/save-data-upload-big-file` | High
-27 | File | `/wordpress/wp-admin/admin.php` | High
-28 | File | `4.edu.php` | Medium
-29 | File | `account_footer.php` | High
-30 | File | `adclick.php` | Medium
-31 | File | `add_edit_cat.asp` | High
-32 | File | `add_edit_user.asp` | High
-33 | File | `admin.cropcanvas.php` | High
-34 | File | `admin.jcomments.php` | High
-35 | File | `admin/editusertag.php` | High
+18 | File | `/owa/auth/logon.aspx` | High
+19 | File | `/public/plugins/` | High
+20 | File | `/SAP_Information_System/controllers/add_admin.php` | High
+21 | File | `/SASWebReportStudio/logonAndRender.do` | High
+22 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+23 | File | `/secure/admin/ViewInstrumentation.jspa` | High
+24 | File | `/SVFE2/pages/feegroups/country_group.jsf` | High
+25 | File | `/textpattern/index.php` | High
+26 | File | `/upfile.cgi` | Medium
+27 | File | `/v2/quantum/save-data-upload-big-file` | High
+28 | File | `/wordpress/wp-admin/admin.php` | High
+29 | File | `4.edu.php` | Medium
+30 | File | `account_footer.php` | High
+31 | File | `adclick.php` | Medium
+32 | File | `add_edit_cat.asp` | High
+33 | File | `add_edit_user.asp` | High
+34 | File | `admin.cropcanvas.php` | High
+35 | File | `admin.jcomments.php` | High
 36 | ... | ... | ...
 
-There are 309 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 311 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

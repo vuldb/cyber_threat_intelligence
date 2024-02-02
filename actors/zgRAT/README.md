@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with zgRAT:
 
 * [US](https://vuldb.com/?country.us)
-* [ES](https://vuldb.com/?country.es)
 * [RU](https://vuldb.com/?country.ru)
+* [ES](https://vuldb.com/?country.es)
 * ...
 
 There are 5 more country items available. Please use our online service to access the data.
@@ -21,12 +21,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [45.81.39.182](https://vuldb.com/?ip.45.81.39.182) | - | - | High
-2 | [45.88.66.118](https://vuldb.com/?ip.45.88.66.118) | - | - | High
-3 | [103.212.81.156](https://vuldb.com/?ip.103.212.81.156) | - | - | High
+1 | [45.15.156.186](https://vuldb.com/?ip.45.15.156.186) | - | - | High
+2 | [45.81.39.182](https://vuldb.com/?ip.45.81.39.182) | - | - | High
+3 | [45.88.66.118](https://vuldb.com/?ip.45.88.66.118) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 4 more IOC items available. Please use our online service to access the data.
+There are 8 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -47,33 +47,37 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/about.php` | Medium
-2 | File | `/admin` | Low
-3 | File | `/admin/?page=user/manage_user&id=3` | High
-4 | File | `/admin/admin.php` | High
-5 | File | `/Admin/createClass.php` | High
-6 | File | `/admin/edit_product.php` | High
-7 | File | `/admin/products/manage_product.php` | High
-8 | File | `/admin/products/view_product.php` | High
-9 | File | `/config/myfield/test.php` | High
-10 | File | `/forum/away.php` | High
-11 | File | `/horde/util/go.php` | High
-12 | File | `/index.php` | Medium
-13 | File | `/index.php?app=main&func=passport&action=login` | High
-14 | File | `/manage-apartment.php` | High
-15 | File | `/multi-vendor-shopping-script/product-list.php` | High
-16 | File | `/Noxen-master/users.php` | High
-17 | File | `/pages/animals.php` | High
-18 | File | `/reports/rwservlet` | High
-19 | File | `/reviewer/system/system/admins/manage/users/user-update.php` | High
-20 | File | `/Service/ImageStationDataService.asmx` | High
-21 | File | `/wp-admin/options-general.php` | High
-22 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-23 | File | `adclick.php` | Medium
-24 | File | `admin.color.php` | High
-25 | ... | ... | ...
+1 | File | `/+CSCOE+/logon.html` | High
+2 | File | `/about.php` | Medium
+3 | File | `/admin` | Low
+4 | File | `/admin/?page=user/manage_user&id=3` | High
+5 | File | `/admin/admin.php` | High
+6 | File | `/Admin/createClass.php` | High
+7 | File | `/admin/edit_product.php` | High
+8 | File | `/admin/products/manage_product.php` | High
+9 | File | `/admin/products/view_product.php` | High
+10 | File | `/config/myfield/test.php` | High
+11 | File | `/forum/away.php` | High
+12 | File | `/horde/util/go.php` | High
+13 | File | `/index.php` | Medium
+14 | File | `/index.php?app=main&func=passport&action=login` | High
+15 | File | `/manage-apartment.php` | High
+16 | File | `/multi-vendor-shopping-script/product-list.php` | High
+17 | File | `/Noxen-master/users.php` | High
+18 | File | `/pages/animals.php` | High
+19 | File | `/reports/rwservlet` | High
+20 | File | `/reviewer/system/system/admins/manage/users/user-update.php` | High
+21 | File | `/Service/ImageStationDataService.asmx` | High
+22 | File | `/wp-admin/options-general.php` | High
+23 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+24 | File | `ad.cgi` | Low
+25 | File | `adclick.php` | Medium
+26 | File | `admin.color.php` | High
+27 | File | `admin.cropcanvas.php` | High
+28 | File | `admin.joomlaradiov5.php` | High
+29 | ... | ... | ...
 
-There are 209 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 246 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -82,6 +86,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://app.any.run/tasks/2a222e24-d4ac-47fe-9504-c2f8a3ec642b
 * https://app.any.run/tasks/6a23e4c0-1a85-4e9f-a322-19e10dd7d346
 * https://app.any.run/tasks/6cee07ce-6197-4507-bd68-5928b8247843
+* https://bazaar.abuse.ch/sample/4acddc15352051552d4684fff6d07d18305cf7276d208adf7e2f59c5a70c909a/
 * https://bazaar.abuse.ch/sample/cfa592b0128bc126fbf3fb66c551a8d87223b196f5e0cd87e60b88bdc688c6e0/
 * https://threatfox.abuse.ch
 * https://tria.ge/231112-thxkbsgg3s/behavioral2
@@ -95,4 +100,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
