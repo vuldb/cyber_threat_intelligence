@@ -9,6 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with ObserverStealer:
 
 * [US](https://vuldb.com/?country.us)
+* [DE](https://vuldb.com/?country.de)
+* [IT](https://vuldb.com/?country.it)
 
 ## IOC - Indicator of Compromise
 
@@ -17,7 +19,8 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [5.42.64.13](https://vuldb.com/?ip.5.42.64.13) | - | - | High
-2 | [91.103.252.17](https://vuldb.com/?ip.91.103.252.17) | - | - | High
+2 | [5.42.66.25](https://vuldb.com/?ip.5.42.66.25) | - | - | High
+3 | [91.103.252.17](https://vuldb.com/?ip.91.103.252.17) | - | - | High
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -25,12 +28,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Pathname Traversal | High
-2 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-3 | T1068 | CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+1 | T1006 | CWE-22 | Path Traversal | High
+2 | T1059 | CWE-94 | Argument Injection | High
+3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 4 more TTP items available. Please use our online service to access the data.
+There are 6 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -40,10 +43,12 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/forum/away.php` | High
 2 | File | `/oauth/idp/.well-known/openid-configuration` | High
-3 | File | `/spip.php` | Medium
-4 | ... | ... | ...
+3 | File | `/settings/account` | High
+4 | File | `/spip.php` | Medium
+5 | File | `/userLogin.asp` | High
+6 | ... | ... | ...
 
-There are 24 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 40 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

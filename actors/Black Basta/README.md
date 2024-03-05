@@ -46,7 +46,7 @@ ID | IP address | Hostname | Campaign | Confidence
 17 | [69.46.15.147](https://vuldb.com/?ip.69.46.15.147) | 69-46-15-147.static.hvvc.us | - | High
 18 | ... | ... | ... | ...
 
-There are 66 more IOC items available. Please use our online service to access the data.
+There are 69 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -54,14 +54,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -96,43 +96,45 @@ ID | Type | Indicator | Confidence
 25 | File | `/LEPTON_stable_2.2.2/upload/admins/media/index.php` | High
 26 | File | `/login` | Low
 27 | File | `/messageboard/view.php` | High
-28 | File | `/modules/projects/vw_files.php` | High
-29 | File | `/netflow/servlet/CReportPDFServlet` | High
-30 | File | `/oauth/idp/.well-known/openid-configuration` | High
-31 | File | `/opensis/modules/grades/InputFinalGrades.php` | High
-32 | File | `/opensis/modules/users/Staff.php` | High
-33 | File | `/pages/short_to_long.php` | High
-34 | File | `/plesk-site-preview/` | High
-35 | File | `/proc/self/environ` | High
-36 | File | `/protocol/iscgwtunnel/uploadiscgwrouteconf.php` | High
-37 | File | `/rest/api/2/user/picker` | High
-38 | File | `/s/` | Low
-39 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-40 | File | `/secure/QueryComponent!Default.jspa` | High
-41 | File | `/sendrcpackage?keyid=-2544&keysymbol=-4081` | High
-42 | File | `/system?action=ServiceAdmin` | High
-43 | File | `/SystemMng.ashx` | High
-44 | File | `/var/WEB-GUI/cgi-bin/downloadfile.cgi` | High
-45 | File | `/vicidial/user_stats.php` | High
-46 | File | `/vm/admin/doctors.php` | High
-47 | File | `/websocket/exec` | High
-48 | File | `access.conf` | Medium
-49 | File | `action.php` | Medium
-50 | File | `actions.class.php` | High
-51 | File | `adclick.php` | Medium
-52 | File | `addsuppliers.php` | High
-53 | File | `admin.php` | Medium
-54 | File | `admin.remository.php` | High
-55 | File | `admin/admin_users.php` | High
-56 | File | `admin/login.php` | High
-57 | File | `administers` | Medium
-58 | File | `Administrator_list.php` | High
-59 | File | `advancedsetup_websiteblocking.html` | High
-60 | File | `affich.php` | Medium
-61 | File | `ajax_mail_autoreply.php` | High
-62 | ... | ... | ...
+28 | File | `/modules/profile/index.php` | High
+29 | File | `/modules/projects/vw_files.php` | High
+30 | File | `/netflow/servlet/CReportPDFServlet` | High
+31 | File | `/oauth/idp/.well-known/openid-configuration` | High
+32 | File | `/opensis/modules/grades/InputFinalGrades.php` | High
+33 | File | `/opensis/modules/users/Staff.php` | High
+34 | File | `/pages/short_to_long.php` | High
+35 | File | `/php-opos/index.php` | High
+36 | File | `/plesk-site-preview/` | High
+37 | File | `/proc/self/environ` | High
+38 | File | `/protocol/iscgwtunnel/uploadiscgwrouteconf.php` | High
+39 | File | `/rest/api/2/user/picker` | High
+40 | File | `/s/` | Low
+41 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+42 | File | `/secure/QueryComponent!Default.jspa` | High
+43 | File | `/sendrcpackage?keyid=-2544&keysymbol=-4081` | High
+44 | File | `/SystemMng.ashx` | High
+45 | File | `/usr/bin/at` | Medium
+46 | File | `/var/WEB-GUI/cgi-bin/downloadfile.cgi` | High
+47 | File | `/vicidial/user_stats.php` | High
+48 | File | `/vm/admin/doctors.php` | High
+49 | File | `/websocket/exec` | High
+50 | File | `access.conf` | Medium
+51 | File | `action.php` | Medium
+52 | File | `actions.class.php` | High
+53 | File | `adclick.php` | Medium
+54 | File | `addsuppliers.php` | High
+55 | File | `admin.php` | Medium
+56 | File | `admin.remository.php` | High
+57 | File | `admin/admin_users.php` | High
+58 | File | `admin/login.php` | High
+59 | File | `administers` | Medium
+60 | File | `Administrator_list.php` | High
+61 | File | `advancedsetup_websiteblocking.html` | High
+62 | File | `affich.php` | Medium
+63 | File | `ajax_mail_autoreply.php` | High
+64 | ... | ... | ...
 
-There are 547 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 560 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -142,6 +144,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://de.darktrace.com/blog/black-basta-old-dogs-with-new-tricks
 * https://get.zerofox.com/rs/143-DHV-007/images/ZeroFox-Intelligence-Update-Black-Basta-Ransomware-Report-2023.pdf
 * https://www.cybereason.com/blog/threat-alert-aggressive-qakbot-campaign-and-the-black-basta-ransomware-group-targeting-u.s.-companies
+* https://www.secureworks.com/blog/qakbot-campaign-delivered-black-basta-ransomware
 * https://www.trendmicro.com/de_de/research/22/f/black-basta-ransomware-operators-expand-their-attack-arsenal-wit.html
 
 ## Literature

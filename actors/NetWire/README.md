@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 21 more country items available. Please use our online service to access the data.
+There are 22 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -73,10 +73,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-36, CWE-37 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-36, CWE-37, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -115,43 +115,42 @@ ID | Type | Indicator | Confidence
 25 | File | `/api/v4/teams//channels/deleted` | High
 26 | File | `/app/index/controller/Common.php` | High
 27 | File | `/appliance/users?action=edit` | High
-28 | File | `/apply.cgi` | Medium
-29 | File | `/backup.pl` | Medium
-30 | File | `/bin/boa` | Medium
-31 | File | `/bitrix/admin/ldap_server_edit.php` | High
-32 | File | `/blog` | Low
-33 | File | `/boafrm/formMapDelDevice` | High
-34 | File | `/booking/show_bookings/` | High
-35 | File | `/cgi-bin/cstecgi.cgi` | High
-36 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-37 | File | `/cgi-bin/wlogin.cgi` | High
-38 | File | `/collection/all` | High
-39 | File | `/College/admin/teacher.php` | High
-40 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
-41 | File | `/dcim/rack-roles/` | High
-42 | File | `/dipam/athlete-profile.php` | High
-43 | File | `/E-mobile/App/System/File/downfile.php` | High
-44 | File | `/edoc/doctor/patient.php` | High
-45 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-46 | File | `/etc/shadow` | Medium
-47 | File | `/forms/doLogin` | High
-48 | File | `/forum/away.php` | High
-49 | File | `/fusion/portal/action/Link` | High
-50 | File | `/goform/aspForm` | High
-51 | File | `/hedwig.cgi` | Medium
-52 | File | `/HNAP1/` | Low
-53 | File | `/importexport.php` | High
-54 | File | `/inc/topBarNav.php` | High
-55 | File | `/index.php` | Medium
-56 | File | `/index.php?app=main&func=passport&action=login` | High
-57 | File | `/kelas/data` | Medium
-58 | File | `/kelasdosen/data` | High
-59 | File | `/listplace/user/coverPhotoUpdate` | High
-60 | File | `/listplace/user/ticket/create` | High
-61 | File | `/manage/IPSetup.php` | High
-62 | ... | ... | ...
+28 | File | `/application/index/controller/Screen.php` | High
+29 | File | `/application/websocket/controller/Setting.php` | High
+30 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
+31 | File | `/apply.cgi` | Medium
+32 | File | `/backup.pl` | Medium
+33 | File | `/bin/boa` | Medium
+34 | File | `/bitrix/admin/ldap_server_edit.php` | High
+35 | File | `/blog` | Low
+36 | File | `/boafrm/formMapDelDevice` | High
+37 | File | `/booking/show_bookings/` | High
+38 | File | `/cgi-bin/cstecgi.cgi` | High
+39 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+40 | File | `/cgi-bin/wlogin.cgi` | High
+41 | File | `/collection/all` | High
+42 | File | `/College/admin/teacher.php` | High
+43 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
+44 | File | `/dcim/rack-roles/` | High
+45 | File | `/dipam/athlete-profile.php` | High
+46 | File | `/E-mobile/App/System/File/downfile.php` | High
+47 | File | `/edoc/doctor/patient.php` | High
+48 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+49 | File | `/forms/doLogin` | High
+50 | File | `/forum/away.php` | High
+51 | File | `/fusion/portal/action/Link` | High
+52 | File | `/goform/aspForm` | High
+53 | File | `/hedwig.cgi` | Medium
+54 | File | `/HNAP1/` | Low
+55 | File | `/importexport.php` | High
+56 | File | `/inc/topBarNav.php` | High
+57 | File | `/index.php` | Medium
+58 | File | `/index.php?app=main&func=passport&action=login` | High
+59 | File | `/kelas/data` | Medium
+60 | File | `/kelasdosen/data` | High
+61 | ... | ... | ...
 
-There are 540 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 537 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Grandoreiro:
 
 * [US](https://vuldb.com/?country.us)
+* [RU](https://vuldb.com/?country.ru)
 * [ES](https://vuldb.com/?country.es)
-* [PT](https://vuldb.com/?country.pt)
 * ...
 
-There are 2 more country items available. Please use our online service to access the data.
+There are 3 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -21,12 +21,15 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [15.188.63.127](https://vuldb.com/?ip.15.188.63.127) | ec2-15-188-63-127.eu-west-3.compute.amazonaws.com | - | Medium
-2 | [15.228.57.146](https://vuldb.com/?ip.15.228.57.146) | ec2-15-228-57-146.sa-east-1.compute.amazonaws.com | - | Medium
-3 | [15.228.233.242](https://vuldb.com/?ip.15.228.233.242) | ec2-15-228-233-242.sa-east-1.compute.amazonaws.com | - | Medium
-4 | ... | ... | ... | ...
+1 | [3.144.135.247](https://vuldb.com/?ip.3.144.135.247) | ec2-3-144-135-247.us-east-2.compute.amazonaws.com | - | Medium
+2 | [4.229.235.160](https://vuldb.com/?ip.4.229.235.160) | - | - | High
+3 | [15.188.63.127](https://vuldb.com/?ip.15.188.63.127) | ec2-15-188-63-127.eu-west-3.compute.amazonaws.com | - | Medium
+4 | [15.228.57.146](https://vuldb.com/?ip.15.228.57.146) | ec2-15-228-57-146.sa-east-1.compute.amazonaws.com | - | Medium
+5 | [15.228.233.242](https://vuldb.com/?ip.15.228.233.242) | ec2-15-228-233-242.sa-east-1.compute.amazonaws.com | - | Medium
+6 | [15.229.47.198](https://vuldb.com/?ip.15.229.47.198) | ec2-15-229-47-198.sa-east-1.compute.amazonaws.com | - | Medium
+7 | ... | ... | ... | ...
 
-There are 12 more IOC items available. Please use our online service to access the data.
+There are 24 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -39,7 +42,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 7 more TTP items available. Please use our online service to access the data.
+There are 8 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -47,23 +50,27 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/cgi-bin/wapopen` | High
-2 | File | `/mgmt/tm/util/bash` | High
-3 | File | `/SASWebReportStudio/logonAndRender.do` | High
-4 | File | `/uncpath/` | Medium
-5 | ... | ... | ...
+1 | File | `/admin/admin-profile.php` | High
+2 | File | `/archibus/login.axvw` | High
+3 | File | `/cgi-bin/wapopen` | High
+4 | File | `/download` | Medium
+5 | File | `/forum/away.php` | High
+6 | File | `/mgmt/tm/util/bash` | High
+7 | ... | ... | ...
 
-There are 34 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 49 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://exchange.xforce.ibmcloud.com/report/details/guid:6ce86d1d2e9c4d47b70c16b12a3e27fc
 * https://threatfox.abuse.ch
 * https://tracker.viriback.com/index.php?q=51.77.193.20
 * https://twitter.com/beethzydyaz/status/1382737444169265160
 * https://twitter.com/Dkavalanche/status/1670618649651040256
 * https://twitter.com/Merlax_/status/1594862075897339904
+* https://www.welivesecurity.com/en/eset-research/eset-takes-part-global-operation-disrupt-grandoreiro-banking-trojan/
 * https://www.zscaler.com/blogs/security-research/grandoreiro-banking-trojan-new-ttps-targeting-various-industry-verticals
 
 ## Literature

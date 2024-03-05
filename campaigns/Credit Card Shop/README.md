@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 16 more country items available. Please use our online service to access the data.
+There are 14 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -53,14 +53,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Path Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -89,36 +89,34 @@ ID | Type | Indicator | Confidence
 19 | File | `/bin/ate` | Medium
 20 | File | `/boat/login.php` | High
 21 | File | `/booking/show_bookings/` | High
-22 | File | `/bsms_ci/index.php/book` | High
-23 | File | `/cgi-bin` | Medium
-24 | File | `/cgi-bin/wlogin.cgi` | High
-25 | File | `/changePassword` | High
-26 | File | `/classes/Users.php` | High
-27 | File | `/Content/Template/root/reverse-shell.aspx` | High
-28 | File | `/dashboard/add-blog.php` | High
-29 | File | `/data/remove` | Medium
-30 | File | `/debug/pprof` | Medium
-31 | File | `/ecshop/admin/template.php` | High
-32 | File | `/env` | Low
+22 | File | `/cgi-bin` | Medium
+23 | File | `/cgi-bin/wlogin.cgi` | High
+24 | File | `/changePassword` | High
+25 | File | `/classes/Users.php` | High
+26 | File | `/Content/Template/root/reverse-shell.aspx` | High
+27 | File | `/dashboard/add-blog.php` | High
+28 | File | `/data/remove` | Medium
+29 | File | `/debug/pprof` | Medium
+30 | File | `/ecshop/admin/template.php` | High
+31 | File | `/env` | Low
+32 | File | `/etc/passwd` | Medium
 33 | File | `/etc/postfix/sender_login` | High
 34 | File | `/forum/away.php` | High
 35 | File | `/group1/uploa` | High
 36 | File | `/index.php` | Medium
-37 | File | `/medicines/profile.php` | High
-38 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-39 | File | `/pharmacy-sales-and-inventory-system/manage_user.php` | High
-40 | File | `/php-sms/admin/?page=user/manage_user` | High
-41 | File | `/preview.php` | Medium
-42 | File | `/reservation/add_message.php` | High
-43 | File | `/resources//../` | High
-44 | File | `/Session` | Medium
-45 | File | `/spip.php` | Medium
-46 | File | `/testConnection` | High
-47 | File | `/tmp` | Low
-48 | File | `/tmp/ppd.trace` | High
-49 | ... | ... | ...
+37 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+38 | File | `/pharmacy-sales-and-inventory-system/manage_user.php` | High
+39 | File | `/php-sms/admin/?page=user/manage_user` | High
+40 | File | `/preview.php` | Medium
+41 | File | `/reservation/add_message.php` | High
+42 | File | `/resources//../` | High
+43 | File | `/Session` | Medium
+44 | File | `/testConnection` | High
+45 | File | `/tmp/ppd.trace` | High
+46 | File | `/user/inc/workidajax.php` | High
+47 | ... | ... | ...
 
-There are 421 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 412 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

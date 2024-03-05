@@ -46,10 +46,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Path Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-94 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -74,46 +74,49 @@ ID | Type | Indicator | Confidence
 11 | File | `/admin/user/manage_user.php` | High
 12 | File | `/advance_push/public/login` | High
 13 | File | `/anony/mjpg.cgi` | High
-14 | File | `/assets/components/gallery/connector.php` | High
-15 | File | `/course/filterRecords/` | High
-16 | File | `/ctcprotocol/Protocol` | High
-17 | File | `/device/device=140/tab=wifi/view` | High
-18 | File | `/download/image` | High
-19 | File | `/etc/sudoers` | Medium
-20 | File | `/Forms/` | Low
-21 | File | `/framework/modules/users/models/user.php` | High
-22 | File | `/ghost/preview` | High
-23 | File | `/HNAP1/SetAccessPointMode` | High
-24 | File | `/index.php` | Medium
-25 | File | `/mcategory.php` | High
-26 | File | `/member/picture/album` | High
-27 | File | `/mysql/api/diags.php` | High
-28 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-29 | File | `/oauth/idp/.well-known/openid-configuration` | High
-30 | File | `/phpcollab/users/edituser.php` | High
-31 | File | `/plain` | Low
-32 | File | `/products/details.asp` | High
-33 | File | `/product_list.php` | High
-34 | File | `/public/login.htm` | High
-35 | File | `/replication` | Medium
-36 | File | `/service/upload` | High
-37 | File | `/services/details.asp` | High
-38 | File | `/showfile.php` | High
-39 | File | `/trx_addons/v2/get/sc_layout` | High
-40 | File | `/uncpath/` | Medium
-41 | File | `/upload/catalog/controller/account/password.php` | High
-42 | File | `/usr/bin/pkexec` | High
-43 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
-44 | File | `/wbms/classes/Master.php?f=delete_client` | High
-45 | File | `/web/api/app/Controller/HostController.php` | High
-46 | File | `/WebMstr7/servlet/mstrWeb` | High
-47 | File | `/wp-admin/admin-ajax.php` | High
-48 | File | `4.edu.php` | Medium
-49 | File | `5.2.9\syscrb.exe` | High
-50 | File | `123flashchat.php` | High
-51 | ... | ... | ...
+14 | File | `/application/index/controller/Databasesource.php` | High
+15 | File | `/application/index/controller/File.php` | High
+16 | File | `/application/plugins/controller/Upload.php` | High
+17 | File | `/assets/components/gallery/connector.php` | High
+18 | File | `/cgi-bin/cstecgi.cgi` | High
+19 | File | `/classes/master.php?f=delete_order` | High
+20 | File | `/course/filterRecords/` | High
+21 | File | `/ctcprotocol/Protocol` | High
+22 | File | `/device/device=140/tab=wifi/view` | High
+23 | File | `/download/image` | High
+24 | File | `/etc/sudoers` | Medium
+25 | File | `/ext/collect/find_text.do` | High
+26 | File | `/Forms/` | Low
+27 | File | `/framework/modules/users/models/user.php` | High
+28 | File | `/ghost/preview` | High
+29 | File | `/HNAP1/SetAccessPointMode` | High
+30 | File | `/index.php` | Medium
+31 | File | `/mcategory.php` | High
+32 | File | `/member/picture/album` | High
+33 | File | `/mysql/api/diags.php` | High
+34 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+35 | File | `/oauth/idp/.well-known/openid-configuration` | High
+36 | File | `/phpcollab/users/edituser.php` | High
+37 | File | `/plain` | Low
+38 | File | `/products/details.asp` | High
+39 | File | `/product_list.php` | High
+40 | File | `/public/login.htm` | High
+41 | File | `/replication` | Medium
+42 | File | `/service/upload` | High
+43 | File | `/services/details.asp` | High
+44 | File | `/showfile.php` | High
+45 | File | `/trx_addons/v2/get/sc_layout` | High
+46 | File | `/uncpath/` | Medium
+47 | File | `/upload/catalog/controller/account/password.php` | High
+48 | File | `/usr/bin/pkexec` | High
+49 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
+50 | File | `/wbms/classes/Master.php?f=delete_client` | High
+51 | File | `/web/api/app/Controller/HostController.php` | High
+52 | File | `/WebMstr7/servlet/mstrWeb` | High
+53 | File | `/wp-admin/admin-ajax.php` | High
+54 | ... | ... | ...
 
-There are 441 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 472 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

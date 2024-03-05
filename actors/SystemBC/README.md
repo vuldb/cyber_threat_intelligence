@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 13 more country items available. Please use our online service to access the data.
+There are 14 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -58,17 +58,21 @@ ID | IP address | Hostname | Campaign | Confidence
 35 | [45.11.57.142](https://vuldb.com/?ip.45.11.57.142) | dedicated.vsys.host | - | High
 36 | [45.15.156.48](https://vuldb.com/?ip.45.15.156.48) | - | - | High
 37 | [45.15.156.213](https://vuldb.com/?ip.45.15.156.213) | - | - | High
-38 | [45.15.159.230](https://vuldb.com/?ip.45.15.159.230) | nl-gateway.aeza.network | - | High
-39 | [45.32.132.182](https://vuldb.com/?ip.45.32.132.182) | 45.32.132.182.vultrusercontent.com | - | High
-40 | [45.32.181.136](https://vuldb.com/?ip.45.32.181.136) | 45.32.181.136.vultrusercontent.com | - | High
-41 | [45.66.249.84](https://vuldb.com/?ip.45.66.249.84) | 7g6Ve.monticelloedc.org | - | High
-42 | [45.77.101.240](https://vuldb.com/?ip.45.77.101.240) | 45.77.101.240.vultrusercontent.com | - | High
-43 | [45.77.115.67](https://vuldb.com/?ip.45.77.115.67) | 45.77.115.67.vultrusercontent.com | - | High
-44 | [45.79.237.92](https://vuldb.com/?ip.45.79.237.92) | 45-79-237-92.ip.linodeusercontent.com | - | High
-45 | [45.81.225.72](https://vuldb.com/?ip.45.81.225.72) | vm3618662.24ssd.had.wf | - | High
-46 | ... | ... | ... | ...
+38 | [45.15.159.28](https://vuldb.com/?ip.45.15.159.28) | asso.vip | - | High
+39 | [45.15.159.230](https://vuldb.com/?ip.45.15.159.230) | nl-gateway.aeza.network | - | High
+40 | [45.32.132.182](https://vuldb.com/?ip.45.32.132.182) | 45.32.132.182.vultrusercontent.com | - | High
+41 | [45.32.181.136](https://vuldb.com/?ip.45.32.181.136) | 45.32.181.136.vultrusercontent.com | - | High
+42 | [45.63.66.10](https://vuldb.com/?ip.45.63.66.10) | 45.63.66.10.vultrusercontent.com | - | High
+43 | [45.66.249.84](https://vuldb.com/?ip.45.66.249.84) | 7g6Ve.monticelloedc.org | - | High
+44 | [45.77.101.240](https://vuldb.com/?ip.45.77.101.240) | 45.77.101.240.vultrusercontent.com | - | High
+45 | [45.77.115.67](https://vuldb.com/?ip.45.77.115.67) | 45.77.115.67.vultrusercontent.com | - | High
+46 | [45.79.237.92](https://vuldb.com/?ip.45.79.237.92) | 45-79-237-92.ip.linodeusercontent.com | - | High
+47 | [45.81.225.72](https://vuldb.com/?ip.45.81.225.72) | vm3618662.24ssd.had.wf | - | High
+48 | [45.86.162.219](https://vuldb.com/?ip.45.86.162.219) | west219.reel.gen.tr | - | High
+49 | [45.89.125.136](https://vuldb.com/?ip.45.89.125.136) | mail.marlon.world | - | High
+50 | ... | ... | ... | ...
 
-There are 182 more IOC items available. Please use our online service to access the data.
+There are 198 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -76,14 +80,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -100,38 +104,37 @@ ID | Type | Indicator | Confidence
 7 | File | `/api/admin/system/store/order/list` | High
 8 | File | `/api/baskets/{name}` | High
 9 | File | `/app/index/controller/Common.php` | High
-10 | File | `/apply.cgi` | Medium
-11 | File | `/bitrix/admin/ldap_server_edit.php` | High
-12 | File | `/book-services.php` | High
-13 | File | `/cgi-bin/wlogin.cgi` | High
-14 | File | `/College/admin/teacher.php` | High
-15 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
-16 | File | `/csms/?page=contact_us` | High
-17 | File | `/dcim/rack-roles/` | High
-18 | File | `/en/blog-comment-4` | High
-19 | File | `/forms/doLogin` | High
-20 | File | `/forum/away.php` | High
-21 | File | `/goform/aspForm` | High
-22 | File | `/goform/delAd` | High
+10 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
+11 | File | `/apply.cgi` | Medium
+12 | File | `/bitrix/admin/ldap_server_edit.php` | High
+13 | File | `/book-services.php` | High
+14 | File | `/cgi-bin/wlogin.cgi` | High
+15 | File | `/College/admin/teacher.php` | High
+16 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
+17 | File | `/csms/?page=contact_us` | High
+18 | File | `/dcim/rack-roles/` | High
+19 | File | `/en/blog-comment-4` | High
+20 | File | `/forms/doLogin` | High
+21 | File | `/forum/away.php` | High
+22 | File | `/goform/aspForm` | High
 23 | File | `/h/` | Low
 24 | File | `/inc/topBarNav.php` | High
 25 | File | `/index.php` | Medium
 26 | File | `/index.php?app=main&func=passport&action=login` | High
 27 | File | `/kelas/data` | Medium
 28 | File | `/listplace/user/ticket/create` | High
-29 | File | `/login/index.php` | High
+29 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
 30 | File | `/Moosikay/order.php` | High
-31 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-32 | File | `/scripts/unlock_tasks.php` | High
-33 | File | `/Session` | Medium
-34 | File | `/squashfs-root/etc_ro/custom.conf` | High
-35 | File | `/staff/edit_book_details.php` | High
-36 | File | `/SysManage/AddUpdateRole.aspx` | High
-37 | File | `/sysmanage/importconf.php` | High
-38 | File | `/system/user/modules/mod_users/controller.php` | High
-39 | ... | ... | ...
+31 | File | `/novel/author/list` | High
+32 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+33 | File | `/scripts/unlock_tasks.php` | High
+34 | File | `/Session` | Medium
+35 | File | `/squashfs-root/etc_ro/custom.conf` | High
+36 | File | `/staff/edit_book_details.php` | High
+37 | File | `/SysInfo1.htm` | High
+38 | ... | ... | ...
 
-There are 335 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 327 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -163,6 +166,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://bazaar.abuse.ch/sample/f84a10e65b8b479c09668202550f40f3f7ccc5e3343e1a8ed6173e0873aefd11/
 * https://blogs.blackberry.com/en/2021/06/threat-thursday-systembc-a-rat-in-the-pipeline
 * https://github.com/prodaft/malware-ioc/tree/master/ViceSociety
+* https://thedfirreport.com/2024/02/26/seo-poisoning-to-domain-control-the-gootloader-saga-continues/
 * https://threatfox.abuse.ch
 * https://twitter.com/0xrb/status/1516651127944941568
 * https://twitter.com/0xrb/status/1518499002681282560

@@ -54,14 +54,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-28 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -76,44 +76,44 @@ ID | Type | Indicator | Confidence
 5 | File | `/admin/controller/JobLogController.java` | High
 6 | File | `/admin/doctors.php` | High
 7 | File | `/admin/login.php` | High
-8 | File | `/admin/submit-articles` | High
-9 | File | `/alphaware/summary.php` | High
-10 | File | `/api/` | Low
-11 | File | `/api/admin/store/product/list` | High
-12 | File | `/api/baskets/{name}` | High
-13 | File | `/api/stl/actions/search` | High
-14 | File | `/api/sys/login` | High
-15 | File | `/api/sys/set_passwd` | High
-16 | File | `/api/trackedEntityInstances` | High
-17 | File | `/api/v2/cli/commands` | High
-18 | File | `/attachments` | Medium
-19 | File | `/aux` | Low
-20 | File | `/bin/ate` | Medium
-21 | File | `/boat/login.php` | High
-22 | File | `/booking/show_bookings/` | High
-23 | File | `/bsms_ci/index.php/book` | High
-24 | File | `/cgi-bin` | Medium
-25 | File | `/cgi-bin/wlogin.cgi` | High
-26 | File | `/changePassword` | High
-27 | File | `/Content/Template/root/reverse-shell.aspx` | High
-28 | File | `/dashboard/add-blog.php` | High
-29 | File | `/data/remove` | Medium
-30 | File | `/debug/pprof` | Medium
-31 | File | `/ecshop/admin/template.php` | High
-32 | File | `/env` | Low
-33 | File | `/etc/hosts` | Medium
-34 | File | `/forum/away.php` | High
-35 | File | `/group1/uploa` | High
-36 | File | `/inc/parser/xhtml.php` | High
-37 | File | `/index.php` | Medium
-38 | File | `/medicines/profile.php` | High
-39 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-40 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-41 | File | `/php-sms/admin/?page=user/manage_user` | High
-42 | File | `/proxy` | Low
-43 | File | `/reservation/add_message.php` | High
-44 | File | `/resources//../` | High
-45 | File | `/Session` | Medium
+8 | File | `/alphaware/summary.php` | High
+9 | File | `/api/` | Low
+10 | File | `/api/admin/store/product/list` | High
+11 | File | `/api/baskets/{name}` | High
+12 | File | `/api/stl/actions/search` | High
+13 | File | `/api/sys/login` | High
+14 | File | `/api/sys/set_passwd` | High
+15 | File | `/api/trackedEntityInstances` | High
+16 | File | `/api/v2/cli/commands` | High
+17 | File | `/aux` | Low
+18 | File | `/bin/ate` | Medium
+19 | File | `/boat/login.php` | High
+20 | File | `/booking/show_bookings/` | High
+21 | File | `/bsms_ci/index.php/book` | High
+22 | File | `/cgi-bin` | Medium
+23 | File | `/cgi-bin/wlogin.cgi` | High
+24 | File | `/changePassword` | High
+25 | File | `/Content/Template/root/reverse-shell.aspx` | High
+26 | File | `/dashboard/add-blog.php` | High
+27 | File | `/data/remove` | Medium
+28 | File | `/debug/pprof` | Medium
+29 | File | `/ecshop/admin/template.php` | High
+30 | File | `/env` | Low
+31 | File | `/etc/passwd` | Medium
+32 | File | `/forum/away.php` | High
+33 | File | `/group1/uploa` | High
+34 | File | `/inc/parser/xhtml.php` | High
+35 | File | `/index.php` | Medium
+36 | File | `/medicines/profile.php` | High
+37 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+38 | File | `/php-sms/admin/?page=user/manage_user` | High
+39 | File | `/reservation/add_message.php` | High
+40 | File | `/resources//../` | High
+41 | File | `/Session` | Medium
+42 | File | `/spip.php` | Medium
+43 | File | `/testConnection` | High
+44 | File | `/tmp` | Low
+45 | File | `/tmp/ppd.trace` | High
 46 | ... | ... | ...
 
 There are 400 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.

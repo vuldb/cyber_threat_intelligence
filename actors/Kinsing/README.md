@@ -103,9 +103,10 @@ ID | Type | Indicator | Confidence
 26 | File | `admin.jcomments.php` | High
 27 | File | `admin/content.php` | High
 28 | File | `admin\model\catalog\download.php` | High
-29 | ... | ... | ...
+29 | File | `application/modules/admin/views/ecommerce/products.php` | High
+30 | ... | ... | ...
 
-There are 241 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 250 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

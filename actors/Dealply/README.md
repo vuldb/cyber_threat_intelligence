@@ -42,7 +42,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80, CWE-86 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -57,33 +57,33 @@ ID | Type | Indicator | Confidence
 5 | File | `/admin/index.php` | High
 6 | File | `/admin/singlelogin.php?submit=1` | High
 7 | File | `/api/baskets/{name}` | High
-8 | File | `/bin/ate` | Medium
-9 | File | `/bin/webs` | Medium
-10 | File | `/boaform/device_reset.cgi` | High
-11 | File | `/boaform/wlan_basic_set.cgi` | High
-12 | File | `/boafrm/formFilter` | High
-13 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-14 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
-15 | File | `/cgi-bin/ping.cgi` | High
-16 | File | `/classes/Master.php` | High
-17 | File | `/classes/Master.php?f=delete_item` | High
-18 | File | `/classes/Master.php?f=delete_service` | High
-19 | File | `/collection/all` | High
-20 | File | `/dosen/data` | Medium
-21 | File | `/ecommerce/support_ticket` | High
-22 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-23 | File | `/Enclave.cpp` | Medium
-24 | File | `/file_manager/admin/save_user.php` | High
-25 | File | `/get-artifact` | High
-26 | File | `/goForm/aspForm` | High
-27 | File | `/goform/formTcpipSetup` | High
-28 | File | `/HNAP1/` | Low
-29 | File | `/inc/jquery/uploadify/uploadify.php` | High
-30 | File | `/index.php/archives/1/comment` | High
-31 | File | `/Interface/DevManage/VM.php` | High
+8 | File | `/apply/index.php` | High
+9 | File | `/bin/ate` | Medium
+10 | File | `/bin/webs` | Medium
+11 | File | `/boaform/device_reset.cgi` | High
+12 | File | `/boaform/wlan_basic_set.cgi` | High
+13 | File | `/boafrm/formFilter` | High
+14 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+15 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
+16 | File | `/cgi-bin/ping.cgi` | High
+17 | File | `/classes/Master.php` | High
+18 | File | `/classes/Master.php?f=delete_item` | High
+19 | File | `/classes/Master.php?f=delete_service` | High
+20 | File | `/collection/all` | High
+21 | File | `/dosen/data` | Medium
+22 | File | `/ecommerce/support_ticket` | High
+23 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+24 | File | `/Enclave.cpp` | Medium
+25 | File | `/file_manager/admin/save_user.php` | High
+26 | File | `/get-artifact` | High
+27 | File | `/goForm/aspForm` | High
+28 | File | `/goform/formTcpipSetup` | High
+29 | File | `/HNAP1/` | Low
+30 | File | `/inc/jquery/uploadify/uploadify.php` | High
+31 | File | `/index.php/archives/1/comment` | High
 32 | ... | ... | ...
 
-There are 269 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 272 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

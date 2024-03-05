@@ -41,13 +41,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-425 | Pathname Traversal | High
-2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94 | Cross Site Scripting | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+1 | T1006 | CWE-22, CWE-425 | Path Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-94 | Argument Injection | High
 5 | ... | ... | ... | ...
 
-There are 15 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -60,14 +60,14 @@ ID | Type | Indicator | Confidence
 3 | File | `/api/RecordingList/DownloadRecord?file=` | High
 4 | File | `/api/v2/cli/commands` | High
 5 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-6 | File | `/mics/j_spring_security_check` | High
-7 | File | `/oauth/token` | Medium
-8 | File | `/opt/bin/cli` | Medium
-9 | File | `/rom-0` | Low
-10 | File | `/uncpath/` | Medium
+6 | File | `/Duty/AjaxHandle/UpLoadFloodPlanFile.ashx` | High
+7 | File | `/mics/j_spring_security_check` | High
+8 | File | `/oauth/token` | Medium
+9 | File | `/opt/bin/cli` | Medium
+10 | File | `/rom-0` | Low
 11 | ... | ... | ...
 
-There are 81 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 88 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

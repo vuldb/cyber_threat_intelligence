@@ -42,9 +42,9 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-22 | Path Traversal | High
 2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94 | Cross Site Scripting | High
+3 | T1059 | CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
 
 There are 9 more TTP items available. Please use our online service to access the data.
@@ -56,16 +56,17 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/cgi-bin/wlogin.cgi` | High
-3 | File | `/config/getuser` | High
-4 | File | `/h/` | Low
-5 | File | `/lan.asp` | Medium
-6 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-7 | File | `/public/launchNewWindow.jsp` | High
-8 | File | `/rapi/read_url` | High
-9 | ... | ... | ...
+2 | File | `/cgi-bin/cstecgi.cgi` | High
+3 | File | `/cgi-bin/wlogin.cgi` | High
+4 | File | `/config/getuser` | High
+5 | File | `/h/` | Low
+6 | File | `/lan.asp` | Medium
+7 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+8 | File | `/public/launchNewWindow.jsp` | High
+9 | File | `/rapi/read_url` | High
+10 | ... | ... | ...
 
-There are 70 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 74 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

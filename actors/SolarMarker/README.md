@@ -100,7 +100,7 @@ ID | Type | Indicator | Confidence
 46 | File | `/usr/bin/at` | Medium
 47 | ... | ... | ...
 
-There are 408 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 411 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

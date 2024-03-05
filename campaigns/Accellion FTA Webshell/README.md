@@ -42,9 +42,9 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
 2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94 | Cross Site Scripting | High
+3 | T1059 | CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
@@ -95,13 +95,13 @@ ID | Type | Indicator | Confidence
 37 | File | `/services/details.asp` | High
 38 | File | `/ServletAPI/accounts/login` | High
 39 | File | `/student/bookdetails.php` | High
-40 | File | `/templates/header.inc.php` | High
-41 | File | `/uncpath/` | Medium
-42 | File | `/usr/bin/pkexec` | High
-43 | File | `/usr/local/contego/scripts/mgrconfig.pl` | High
+40 | File | `/sys/replicate/check` | High
+41 | File | `/templates/header.inc.php` | High
+42 | File | `/uncpath/` | Medium
+43 | File | `/usr/bin/pkexec` | High
 44 | ... | ... | ...
 
-There are 379 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 380 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

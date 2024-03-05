@@ -62,13 +62,14 @@ ID | Type | Indicator | Confidence
 6 | File | `/usr/local/nagiosxi/html/includes/configwizards/switch/switch.inc.php` | High
 7 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
 8 | File | `/wp-json/oembed/1.0/embed?url` | High
-9 | File | `admin/modules/tools/ip_history_logs.php` | High
-10 | File | `adminer.php` | Medium
-11 | File | `admin_feature.php` | High
-12 | File | `api_poller.php` | High
-13 | ... | ... | ...
+9 | File | `about.php` | Medium
+10 | File | `admin/modules/tools/ip_history_logs.php` | High
+11 | File | `adminer.php` | Medium
+12 | File | `admin_feature.php` | High
+13 | File | `api_poller.php` | High
+14 | ... | ... | ...
 
-There are 99 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 106 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

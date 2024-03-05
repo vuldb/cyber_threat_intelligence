@@ -21,10 +21,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [RU](https://vuldb.com/?country.ru)
 * [DE](https://vuldb.com/?country.de)
-* [US](https://vuldb.com/?country.us)
+* [IT](https://vuldb.com/?country.it)
 * ...
 
-There are 10 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -95,84 +95,84 @@ ID | Type | Indicator | Confidence
 22 | File | `/admin/bwdates-report-details.php` | High
 23 | File | `/admin/category/cate-edit-run.php` | High
 24 | File | `/admin/cms_content.php` | High
-25 | File | `/admin/contacts/organizations/edit/2` | High
-26 | File | `/admin/course.php` | High
-27 | File | `/admin/courses/view_course.php` | High
-28 | File | `/admin/del_feedback.php` | High
-29 | File | `/admin/del_service.php` | High
-30 | File | `/admin/departments/manage_department.php` | High
-31 | File | `/admin/edit-accepted-appointment.php` | High
-32 | File | `/admin/edit-services.php` | High
-33 | File | `/admin/edit_category.php` | High
-34 | File | `/admin/edit_product.php` | High
-35 | File | `/admin/edit_teacher.php` | High
-36 | File | `/admin/forgot-password.php` | High
-37 | File | `/admin/index.php` | High
-38 | File | `/admin/index.php?act=reset_admin_psw` | High
-39 | File | `/admin/index/index.html#/admin/mall.goods/index.html` | High
-40 | File | `/admin/invoice.php` | High
-41 | File | `/admin/list_addr_fwresource_ip.php` | High
-42 | File | `/admin/manage-pages.php` | High
-43 | File | `/admin/manage-users.php` | High
-44 | File | `/admin/modal_add_product.php` | High
-45 | File | `/Admin/News.php` | High
-46 | File | `/admin/order.php` | High
-47 | File | `/admin/pages/edit_chicken.php` | High
-48 | File | `/admin/pages/subjects.php` | High
-49 | File | `/admin/pages/yearlevel.php` | High
-50 | File | `/admin/project/update/2` | High
-51 | File | `/admin/reg.php` | High
-52 | File | `/admin/regester.php` | High
-53 | File | `/admin/search-appointment.php` | High
-54 | File | `/admin/settings/` | High
-55 | File | `/admin/students/manage_academic.php` | High
-56 | File | `/admin/students/update_status.php` | High
-57 | File | `/admin/sys_sql_query.php` | High
-58 | File | `/admin/update-clients.php` | High
-59 | File | `/admin_route/inc_service_credits.php` | High
-60 | File | `/adplanet/PlanetCommentList` | High
-61 | File | `/ajax.php?action=read_msg` | High
-62 | File | `/ajax.php?action=save_company` | High
-63 | File | `/ample/app/action/edit_product.php` | High
-64 | File | `/ample/app/ajax/member_data.php` | High
-65 | File | `/api/` | Low
-66 | File | `/api/authentication/login` | High
+25 | File | `/admin/course.php` | High
+26 | File | `/admin/courses/view_course.php` | High
+27 | File | `/admin/del_feedback.php` | High
+28 | File | `/admin/del_service.php` | High
+29 | File | `/admin/departments/manage_department.php` | High
+30 | File | `/admin/edit-accepted-appointment.php` | High
+31 | File | `/admin/edit-services.php` | High
+32 | File | `/admin/edit_category.php` | High
+33 | File | `/admin/edit_product.php` | High
+34 | File | `/admin/edit_teacher.php` | High
+35 | File | `/admin/forgot-password.php` | High
+36 | File | `/admin/index.php` | High
+37 | File | `/admin/index.php?act=reset_admin_psw` | High
+38 | File | `/admin/index/index.html#/admin/mall.goods/index.html` | High
+39 | File | `/admin/invoice.php` | High
+40 | File | `/admin/list_addr_fwresource_ip.php` | High
+41 | File | `/admin/manage-pages.php` | High
+42 | File | `/admin/manage-users.php` | High
+43 | File | `/admin/modal_add_product.php` | High
+44 | File | `/Admin/News.php` | High
+45 | File | `/admin/order.php` | High
+46 | File | `/admin/pages/edit_chicken.php` | High
+47 | File | `/admin/pages/subjects.php` | High
+48 | File | `/admin/pages/yearlevel.php` | High
+49 | File | `/admin/project/update/2` | High
+50 | File | `/admin/reg.php` | High
+51 | File | `/admin/regester.php` | High
+52 | File | `/admin/search-appointment.php` | High
+53 | File | `/admin/settings/` | High
+54 | File | `/admin/students/manage_academic.php` | High
+55 | File | `/admin/students/update_status.php` | High
+56 | File | `/admin/sys_sql_query.php` | High
+57 | File | `/admin/update-clients.php` | High
+58 | File | `/admin_route/inc_service_credits.php` | High
+59 | File | `/adplanet/PlanetCommentList` | High
+60 | File | `/ample/app/action/edit_product.php` | High
+61 | File | `/ample/app/ajax/member_data.php` | High
+62 | File | `/api/` | Low
+63 | File | `/api/authentication/login` | High
+64 | File | `/api/controllers/admin/app/AppController.php` | High
+65 | File | `/api/controllers/merchant/design/MaterialController.php` | High
+66 | File | `/api/controllers/merchant/shop/PosterController.php` | High
 67 | File | `/api/DataDictionary/GetItemList` | High
 68 | File | `/api/es/admin/v3/security/user/1` | High
 69 | File | `/api/log/killJob` | High
-70 | File | `/api/stl/actions/search` | High
-71 | File | `/api/sys/set_passwd` | High
-72 | File | `/app/api/controller/collect.php` | High
-73 | File | `/app/api/controller/default/File.php` | High
-74 | File | `/app/api/controller/default/Sqlite.php` | High
-75 | File | `/app/sys1.php` | High
-76 | File | `/application/index/controller/Databasesource.php` | High
-77 | File | `/application/index/controller/Icon.php` | High
+70 | File | `/api/sys/set_passwd` | High
+71 | File | `/app/api/controller/collect.php` | High
+72 | File | `/app/api/controller/default/File.php` | High
+73 | File | `/app/api/controller/default/Sqlite.php` | High
+74 | File | `/app/sys1.php` | High
+75 | File | `/application/index/controller/Databasesource.php` | High
+76 | File | `/application/index/controller/Icon.php` | High
+77 | File | `/application/index/controller/Pay.php` | High
 78 | File | `/application/index/controller/Service.php` | High
-79 | File | `/application/pay/controller/Api.php` | High
-80 | File | `/apply/index.php` | High
-81 | File | `/apps/reg_go.php` | High
-82 | File | `/App_Resource/UEditor/server/upload.aspx` | High
-83 | File | `/article/DelectArticleById/` | High
-84 | File | `/bin/boa` | Medium
-85 | File | `/blog` | Low
-86 | File | `/boaform/wlan_basic_set.cgi` | High
-87 | File | `/book-services.php` | High
-88 | File | `/booking/show_bookings/` | High
-89 | File | `/catalog/compare` | High
-90 | File | `/cgi-bin/adm.cgi` | High
-91 | File | `/cgi-bin/cstecgi.cgi` | High
-92 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-93 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-94 | File | `/cgi-bin/mainfunction.cgi` | High
-95 | File | `/cgi-bin/vitogate.cgi` | High
-96 | File | `/changeimage.php` | High
-97 | File | `/classes/Master.php?f=delete_inquiry` | High
-98 | File | `/classes/Master.php?f=save_inquiry` | High
-99 | File | `/classes/Master.php?f=save_item` | High
+79 | File | `/application/index/controller/Unity.php` | High
+80 | File | `/application/pay/controller/Api.php` | High
+81 | File | `/apply/index.php` | High
+82 | File | `/apps/reg_go.php` | High
+83 | File | `/App_Resource/UEditor/server/upload.aspx` | High
+84 | File | `/article/DelectArticleById/` | High
+85 | File | `/bin/boa` | Medium
+86 | File | `/blog` | Low
+87 | File | `/boaform/wlan_basic_set.cgi` | High
+88 | File | `/book-services.php` | High
+89 | File | `/booking/show_bookings/` | High
+90 | File | `/catalog/compare` | High
+91 | File | `/cgi-bin/adm.cgi` | High
+92 | File | `/cgi-bin/cstecgi.cgi` | High
+93 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+94 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+95 | File | `/cgi-bin/mainfunction.cgi` | High
+96 | File | `/cgi-bin/vitogate.cgi` | High
+97 | File | `/changeimage.php` | High
+98 | File | `/classes/Master.php?f=delete_inquiry` | High
+99 | File | `/classes/Master.php?f=save_inquiry` | High
 100 | ... | ... | ...
 
-There are 882 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 887 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

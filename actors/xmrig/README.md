@@ -41,7 +41,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -75,13 +75,13 @@ ID | Type | Indicator | Confidence
 24 | File | `/cgi-bin/wlogin.cgi` | High
 25 | File | `/changePassword` | High
 26 | File | `/Content/Template/root/reverse-shell.aspx` | High
-27 | File | `/context/%2e/WEB-INF/web.xml` | High
-28 | File | `/dashboard/add-blog.php` | High
-29 | File | `/data/remove` | Medium
-30 | File | `/debug/pprof` | Medium
-31 | File | `/ecshop/admin/template.php` | High
-32 | File | `/env` | Low
-33 | File | `/etc/hosts` | Medium
+27 | File | `/dashboard/add-blog.php` | High
+28 | File | `/data/remove` | Medium
+29 | File | `/debug/pprof` | Medium
+30 | File | `/ecshop/admin/template.php` | High
+31 | File | `/env` | Low
+32 | File | `/etc/hosts` | Medium
+33 | File | `/etc/passwd` | Medium
 34 | File | `/forum/away.php` | High
 35 | File | `/group1/uploa` | High
 36 | File | `/index.php` | Medium
@@ -93,11 +93,11 @@ ID | Type | Indicator | Confidence
 42 | File | `/reservation/add_message.php` | High
 43 | File | `/resources//../` | High
 44 | File | `/spip.php` | Medium
-45 | File | `/testConnection` | High
-46 | File | `/tmp` | Low
+45 | File | `/st_reg.php` | Medium
+46 | File | `/testConnection` | High
 47 | ... | ... | ...
 
-There are 403 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 404 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

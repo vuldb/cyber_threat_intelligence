@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 7 more country items available. Please use our online service to access the data.
+There are 8 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -34,10 +34,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-22 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-94 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -70,28 +70,28 @@ ID | Type | Indicator | Confidence
 19 | File | `/websitebaker/admin/preferences/save.php` | High
 20 | File | `aai.c` | Low
 21 | File | `account/login.php` | High
-22 | File | `admin-ajax.php` | High
-23 | File | `admin.comms.php` | High
-24 | File | `admin.php` | Medium
-25 | File | `admin/auto.def` | High
-26 | File | `admin/blog/add/` | High
-27 | File | `admin/home#/person/` | High
-28 | File | `admin/mcart_xls_import.php` | High
-29 | File | `admin/plugin/file_manager/browse/` | High
-30 | File | `admin/services/packages/remove` | High
-31 | File | `administrator/components/com_media/helpers/media.php` | High
-32 | File | `adm_config_report.php` | High
-33 | File | `adm_program/modules/members/members_function.php` | High
-34 | File | `album_portal.php` | High
-35 | File | `amf.c` | Low
-36 | File | `api.c` | Low
-37 | File | `api/includes/systems.php` | High
-38 | File | `archive_read_support_format_cab.c` | High
-39 | File | `assembler/MacroAssemblerARM64.h` | High
-40 | File | `auction_offer.php` | High
+22 | File | `adclick.php` | Medium
+23 | File | `admin-ajax.php` | High
+24 | File | `admin.comms.php` | High
+25 | File | `admin.php` | Medium
+26 | File | `admin/auto.def` | High
+27 | File | `admin/blog/add/` | High
+28 | File | `admin/home#/person/` | High
+29 | File | `admin/mcart_xls_import.php` | High
+30 | File | `admin/plugin/file_manager/browse/` | High
+31 | File | `admin/services/packages/remove` | High
+32 | File | `administrator/components/com_media/helpers/media.php` | High
+33 | File | `adm_config_report.php` | High
+34 | File | `adm_program/modules/members/members_function.php` | High
+35 | File | `album_portal.php` | High
+36 | File | `amf.c` | Low
+37 | File | `api.c` | Low
+38 | File | `api/includes/systems.php` | High
+39 | File | `archive_read_support_format_cab.c` | High
+40 | File | `assembler/MacroAssemblerARM64.h` | High
 41 | ... | ... | ...
 
-There are 350 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 352 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

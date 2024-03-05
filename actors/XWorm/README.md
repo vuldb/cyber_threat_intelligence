@@ -56,7 +56,7 @@ ID | IP address | Hostname | Campaign | Confidence
 33 | [45.130.141.212](https://vuldb.com/?ip.45.130.141.212) | - | - | High
 34 | ... | ... | ... | ...
 
-There are 130 more IOC items available. Please use our online service to access the data.
+There are 131 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -70,7 +70,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -91,32 +91,32 @@ ID | Type | Indicator | Confidence
 11 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
 12 | File | `/cgi-bin/qcmap_auth` | High
 13 | File | `/cgi-bin/wlogin.cgi` | High
-14 | File | `/dayrui/My/Config/Install.txt` | High
-15 | File | `/DesignTools/CssEditor.aspx` | High
-16 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
-17 | File | `/DXR.axd` | Medium
-18 | File | `/endpoint/add-user.php` | High
-19 | File | `/forum/away.php` | High
-20 | File | `/forums/editforum.php` | High
-21 | File | `/goform/goform_get_cmd_process` | High
-22 | File | `/gracemedia-media-player/templates/files/ajax_controller.php` | High
-23 | File | `/home/courses` | High
-24 | File | `/hrm/controller/employee.php` | High
-25 | File | `/hrm/employeeview.php` | High
-26 | File | `/importexport.php` | High
-27 | File | `/login.php?do=login` | High
-28 | File | `/m4pdf/pdf.php` | High
-29 | File | `/mc` | Low
-30 | File | `/modals/class_form.php` | High
-31 | File | `/modules/projects/vw_files.php` | High
-32 | File | `/novel/bookSetting/list` | High
-33 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
-34 | File | `/project/tasks/list` | High
-35 | File | `/search.php` | Medium
-36 | File | `/setting` | Medium
+14 | File | `/core/conditions/AbstractWrapper.java` | High
+15 | File | `/core/tools/update_menu.php` | High
+16 | File | `/dayrui/My/Config/Install.txt` | High
+17 | File | `/DesignTools/CssEditor.aspx` | High
+18 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
+19 | File | `/DXR.axd` | Medium
+20 | File | `/endpoint/add-user.php` | High
+21 | File | `/forum/away.php` | High
+22 | File | `/forums/editforum.php` | High
+23 | File | `/goform/goform_get_cmd_process` | High
+24 | File | `/home/courses` | High
+25 | File | `/hrm/controller/employee.php` | High
+26 | File | `/hrm/employeeview.php` | High
+27 | File | `/importexport.php` | High
+28 | File | `/index.php?menu=asterisk_cli` | High
+29 | File | `/login.php?do=login` | High
+30 | File | `/m4pdf/pdf.php` | High
+31 | File | `/mc` | Low
+32 | File | `/modals/class_form.php` | High
+33 | File | `/modules/projects/vw_files.php` | High
+34 | File | `/novel/bookSetting/list` | High
+35 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
+36 | File | `/php-opos/index.php` | High
 37 | ... | ... | ...
 
-There are 315 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 320 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -129,6 +129,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://cert.pl/en/posts/2023/10/deworming-the-xworm/
 * https://threatfox.abuse.ch
 * https://tria.ge/230908-y775ksfb85/behavioral2
+* https://tria.ge/240212-x7hz1sbb5x
 * https://twitter.com/ScumBots/status/1633119068986257413
 * https://www.joesandbox.com/analysis/1321945/0/html
 

@@ -21,7 +21,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [US](https://vuldb.com/?country.us)
 * ...
 
-There are 7 more country items available. Please use our online service to access the data.
+There are 5 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -426,7 +426,7 @@ ID | IP address | Hostname | Campaign | Confidence
 395 | [62.99.76.213](https://vuldb.com/?ip.62.99.76.213) | 213.62-99-76.static.clientes.euskaltel.es | - | High
 396 | ... | ... | ... | ...
 
-There are 1579 more IOC items available. Please use our online service to access the data.
+There are 1580 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -434,13 +434,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-29, CWE-425 | Pathname Traversal | High
-2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94 | Cross Site Scripting | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Path Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -449,51 +450,43 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/.env` | Low
-2 | File | `/admin/action/delete-vaccine.php` | High
-3 | File | `/admin/action/new-father.php` | High
-4 | File | `/admin/clientview.php` | High
-5 | File | `/admin/edit_teacher.php` | High
-6 | File | `/admin/fields/manage_field.php` | High
-7 | File | `/admin/manage-users.php` | High
-8 | File | `/admin/regester.php` | High
-9 | File | `/admin/update-clients.php` | High
-10 | File | `/admin_ping.htm` | High
-11 | File | `/admin_route/dec_service_credits.php` | High
-12 | File | `/admin_route/inc_service_credits.php` | High
-13 | File | `/api/cron/settings/setJob/` | High
-14 | File | `/api/sys/set_passwd` | High
-15 | File | `/api/v1/terminal/sessions/?limit=1` | High
-16 | File | `/app/api/controller/default/Sqlite.php` | High
-17 | File | `/app/index/controller/Common.php` | High
-18 | File | `/apply.cgi` | Medium
-19 | File | `/arch/x86/mm/cpu_entry_area.c` | High
-20 | File | `/authenticationendpoint/login.do` | High
-21 | File | `/aux` | Low
-22 | File | `/b2b-supermarket/shopping-cart` | High
-23 | File | `/bin/boa` | Medium
-24 | File | `/boaform/device_reset.cgi` | High
-25 | File | `/boafrm/formMapDelDevice` | High
-26 | File | `/bsms_ci/index.php/user/edit_user/` | High
-27 | File | `/cgi-bin/cstecgi.cgi` | High
-28 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-29 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-30 | File | `/cgi-bin/R14.2/cgi-bin/R14.2/host.pl` | High
-31 | File | `/cgi-bin/R14.2/easy1350.pl` | High
-32 | File | `/config/getuser` | High
-33 | File | `/core/redirect` | High
-34 | File | `/dashboard/snapshot/*?orgId=0` | High
-35 | File | `/data/remove` | Medium
-36 | File | `/dayrui/My/Config/Install.txt` | High
-37 | File | `/debug/pprof` | Medium
-38 | File | `/endpoint/add-user.php` | High
-39 | File | `/forms/doLogin` | High
-40 | File | `/forum/away.php` | High
-41 | File | `/forums/editforum.php` | High
-42 | File | `/goform/WifiMacFilterGet` | High
-43 | File | `/goform/wifiSSIDset` | High
-44 | ... | ... | ...
+2 | File | `/admin/orders/view_order.php` | High
+3 | File | `/admin_ping.htm` | High
+4 | File | `/application/index/controller/Databasesource.php` | High
+5 | File | `/application/index/controller/File.php` | High
+6 | File | `/application/index/controller/Icon.php` | High
+7 | File | `/application/index/controller/Screen.php` | High
+8 | File | `/application/index/controller/Unity.php` | High
+9 | File | `/application/plugins/controller/Upload.php` | High
+10 | File | `/application/websocket/controller/Setting.php` | High
+11 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
+12 | File | `/calendar/minimizer/index.php` | High
+13 | File | `/cgi-bin/cstecgi.cgi` | High
+14 | File | `/cgi-bin/mainfunction.cgi` | High
+15 | File | `/cgi-bin/wlogin.cgi` | High
+16 | File | `/core/conditions/AbstractWrapper.java` | High
+17 | File | `/core/redirect` | High
+18 | File | `/core/tools/update_menu.php` | High
+19 | File | `/DXR.axd` | Medium
+20 | File | `/ECT_Provider/` | High
+21 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+22 | File | `/etc/passwd` | Medium
+23 | File | `/fax/fax_send.php` | High
+24 | File | `/forum/away.php` | High
+25 | File | `/general/attendance/manage/ask_duty/delete.php` | High
+26 | File | `/general/email/outbox/delete.php` | High
+27 | File | `/goform/` | Medium
+28 | File | `/h/autoSaveDraft` | High
+29 | File | `/index.php?app=main&func=passport&action=login` | High
+30 | File | `/index.php?menu=asterisk_cli` | High
+31 | File | `/install/` | Medium
+32 | File | `/ipms/imageConvert/image` | High
+33 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
+34 | File | `/novel/author/list` | High
+35 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
+36 | ... | ... | ...
 
-There are 382 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 304 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -586,6 +579,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://isc.sans.edu/forums/diary/Malspam+with+passwordprotected+word+docs+still+pushing+IcedID+Bokbot+with+Trickbot/24708/
 * https://isc.sans.edu/forums/diary/One+Emotet+infection+leads+to+three+followup+malware+infections/24140/
 * https://isc.sans.edu/forums/diary/Trickbot+gtag+red5+distributed+as+a+DLL+file/25918/
+* https://jp.security.ntt/tech_blog/trickbot-variant-anchor_dns-communicating-over-dns
 * https://pastebin.com/AynCmBXq
 * https://pastebin.com/Cyt0hwDX
 * https://pastebin.com/fuiyABK2

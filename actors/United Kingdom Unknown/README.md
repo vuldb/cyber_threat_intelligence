@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [IO](https://vuldb.com/?country.io)
 * ...
 
-There are 26 more country items available. Please use our online service to access the data.
+There are 24 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -10096,7 +10096,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -10104,66 +10104,65 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin` | Low
-2 | File | `/admin/` | Low
-3 | File | `/admin/action/delete-vaccine.php` | High
-4 | File | `/admin/action/new-father.php` | High
-5 | File | `/admin/book_row.php` | High
-6 | File | `/admin/borrow_add.php` | High
-7 | File | `/admin/bwdates-report-details.php` | High
-8 | File | `/admin/clientview.php` | High
-9 | File | `/admin/edit_teacher.php` | High
-10 | File | `/admin/manage-pages.php` | High
-11 | File | `/admin/manage-users.php` | High
-12 | File | `/admin/pages/edit_chicken.php` | High
-13 | File | `/admin/pages/student-print.php` | High
-14 | File | `/admin/php/crud.php` | High
-15 | File | `/admin/regester.php` | High
-16 | File | `/admin/view_sendlist.php` | High
-17 | File | `/admin_route/dec_service_credits.php` | High
-18 | File | `/admin_route/inc_service_credits.php` | High
-19 | File | `/api.php` | Medium
-20 | File | `/api/0/api-tokens/` | High
-21 | File | `/api/log/killJob` | High
-22 | File | `/api/trackedEntityInstances` | High
-23 | File | `/api/v4/teams//channels/deleted` | High
-24 | File | `/app/ajax/sell_return_data.php` | High
-25 | File | `/app/api/controller/caiji.php` | High
-26 | File | `/app/api/controller/default/File.php` | High
-27 | File | `/app/Http/Controllers/ImageController.php` | High
-28 | File | `/app/index/controller/Common.php` | High
-29 | File | `/application/index/common.php` | High
-30 | File | `/application/index/controller/Databasesource.php` | High
-31 | File | `/application/index/controller/File.php` | High
-32 | File | `/application/index/controller/Service.php` | High
-33 | File | `/application/pay/controller/Api.php` | High
-34 | File | `/assets/php/upload.php` | High
-35 | File | `/aux` | Low
-36 | File | `/bin/boa` | Medium
-37 | File | `/boaform/device_reset.cgi` | High
-38 | File | `/boafrm/formMapDelDevice` | High
-39 | File | `/cgi-bin/cstecgi.cgi` | High
-40 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-41 | File | `/change-language/de_DE` | High
-42 | File | `/churchcrm/WhyCameEditor.php` | High
-43 | File | `/classes/Users.php?f=save` | High
-44 | File | `/core/config-revisions` | High
-45 | File | `/cupseasylive/stockissuancelinecreate.php` | High
-46 | File | `/data/remove` | Medium
-47 | File | `/debug/pprof` | Medium
-48 | File | `/devinfo` | Medium
-49 | File | `/dist/index.js` | High
-50 | File | `/forms/doLogin` | High
-51 | File | `/forum/away.php` | High
-52 | File | `/general/email/inbox/delete_webmail.php` | High
-53 | File | `/goform/setAutoPing` | High
-54 | File | `/goform/setBlackRule` | High
-55 | File | `/goform/setcfm` | High
-56 | File | `/goform/SetOnlineDevName` | High
-57 | File | `/goform/WifiExtraSet` | High
-58 | ... | ... | ...
+1 | File | `/admin/action/delete-vaccine.php` | High
+2 | File | `/admin/action/new-father.php` | High
+3 | File | `/admin/borrow_add.php` | High
+4 | File | `/admin/clientview.php` | High
+5 | File | `/admin/edit_teacher.php` | High
+6 | File | `/admin/index2.html` | High
+7 | File | `/admin/manage-users.php` | High
+8 | File | `/admin/pages/edit_chicken.php` | High
+9 | File | `/admin/pages/student-print.php` | High
+10 | File | `/admin/view_sendlist.php` | High
+11 | File | `/admin_route/dec_service_credits.php` | High
+12 | File | `/admin_route/inc_service_credits.php` | High
+13 | File | `/api.php` | Medium
+14 | File | `/api/0/api-tokens/` | High
+15 | File | `/api/v4/teams//channels/deleted` | High
+16 | File | `/app/api/controller/caiji.php` | High
+17 | File | `/app/api/controller/default/File.php` | High
+18 | File | `/app/Http/Controllers/ImageController.php` | High
+19 | File | `/app/index/controller/Common.php` | High
+20 | File | `/application/index/common.php` | High
+21 | File | `/application/index/controller/Databasesource.php` | High
+22 | File | `/application/index/controller/File.php` | High
+23 | File | `/application/index/controller/Pay.php` | High
+24 | File | `/application/index/controller/Service.php` | High
+25 | File | `/application/pay/controller/Api.php` | High
+26 | File | `/assets/php/upload.php` | High
+27 | File | `/aux` | Low
+28 | File | `/bin/boa` | Medium
+29 | File | `/boaform/device_reset.cgi` | High
+30 | File | `/boafrm/formMapDelDevice` | High
+31 | File | `/cgi-bin/cstecgi.cgi` | High
+32 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+33 | File | `/change-language/de_DE` | High
+34 | File | `/churchcrm/WhyCameEditor.php` | High
+35 | File | `/classes/Users.php?f=save` | High
+36 | File | `/core/config-revisions` | High
+37 | File | `/cupseasylive/stockissuancelinecreate.php` | High
+38 | File | `/data/remove` | Medium
+39 | File | `/debug/pprof` | Medium
+40 | File | `/devinfo` | Medium
+41 | File | `/dist/index.js` | High
+42 | File | `/etc/passwd` | Medium
+43 | File | `/forms/doLogin` | High
+44 | File | `/forum/away.php` | High
+45 | File | `/general/email/inbox/delete_webmail.php` | High
+46 | File | `/goform/setAutoPing` | High
+47 | File | `/goform/setBlackRule` | High
+48 | File | `/goform/setcfm` | High
+49 | File | `/goform/SetOnlineDevName` | High
+50 | File | `/goform/WifiExtraSet` | High
+51 | File | `/goform/WifiMacFilterGet` | High
+52 | File | `/hedwig.cgi` | Medium
+53 | File | `/hslist` | Low
+54 | File | `/include/file.php` | High
+55 | File | `/index.php` | Medium
+56 | File | `/index.php?c=api` | High
+57 | ... | ... | ...
 
-There are 504 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 499 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

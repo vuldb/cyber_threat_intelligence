@@ -34,12 +34,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23 | Pathname Traversal | High
+1 | T1006 | CWE-22, CWE-23 | Path Traversal | High
 2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94 | Cross Site Scripting | High
+3 | T1059 | CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
 
-There are 13 more TTP items available. Please use our online service to access the data.
+There are 14 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -55,13 +55,13 @@ ID | Type | Indicator | Confidence
 6 | File | `/netflow/jspui/editProfile.jsp` | High
 7 | File | `/rapi/read_url` | High
 8 | File | `/scripts/unlock_tasks.php` | High
-9 | File | `/system/user/modules/mod_users/controller.php` | High
-10 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
-11 | File | `admin/google_search_console/class-gsc-table.php` | High
-12 | File | `administrator/components/com_media/helpers/media.php` | High
+9 | File | `/SysInfo1.htm` | High
+10 | File | `/sysinfo_json.cgi` | High
+11 | File | `/system/user/modules/mod_users/controller.php` | High
+12 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
 13 | ... | ... | ...
 
-There are 97 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 104 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

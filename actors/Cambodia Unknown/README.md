@@ -175,7 +175,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-22 | Path Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | ... | ... | ... | ...
@@ -204,12 +204,13 @@ ID | Type | Indicator | Confidence
 14 | File | `/uncpath/` | Medium
 15 | File | `/usr/bin/pkexec` | High
 16 | File | `adclick.php` | Medium
-17 | File | `addentry.php` | Medium
-18 | File | `add_edit_user.asp` | High
-19 | File | `admin.php` | Medium
-20 | ... | ... | ...
+17 | File | `add-testimonial.php` | High
+18 | File | `addentry.php` | Medium
+19 | File | `add_edit_user.asp` | High
+20 | File | `admin.php` | Medium
+21 | ... | ... | ...
 
-There are 164 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 169 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

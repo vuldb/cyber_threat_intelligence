@@ -91,10 +91,9 @@ ID | Type | Indicator | Confidence
 29 | File | `/h/` | Low
 30 | File | `/index.php?module=configuration/application` | High
 31 | File | `/index.php?route=extension/module/so_filter_shop_by/filter_data` | High
-32 | File | `/isomedia/box_funcs.c` | High
-33 | ... | ... | ...
+32 | ... | ... | ...
 
-There are 279 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 276 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

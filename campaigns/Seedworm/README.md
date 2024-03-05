@@ -42,9 +42,9 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23 | Pathname Traversal | High
+1 | T1006 | CWE-22, CWE-23 | Path Traversal | High
 2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94 | Cross Site Scripting | High
+3 | T1059 | CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
 
 There are 14 more TTP items available. Please use our online service to access the data.
@@ -58,26 +58,26 @@ ID | Type | Indicator | Confidence
 1 | File | `/cgi-bin/wlogin.cgi` | High
 2 | File | `/DesignTools/CssEditor.aspx` | High
 3 | File | `/dev/tty` | Medium
-4 | File | `/etc/passwd` | Medium
-5 | File | `/forum/away.php` | High
-6 | File | `/movie.php` | Medium
-7 | File | `/out.php` | Medium
-8 | File | `/pet_shop/admin/?page=inventory/manage_inventory` | High
-9 | File | `/phppath/php` | Medium
-10 | File | `/search_events.php` | High
-11 | File | `/StartingPage/link_req_2.php` | High
-12 | File | `/user/s.php` | Medium
-13 | File | `/vendor` | Low
-14 | File | `/ViewUserHover.jspa` | High
-15 | File | `admin.php` | Medium
-16 | File | `admin/AJAX_lookup_handler.php` | High
-17 | File | `admin/general.php` | High
-18 | File | `admin/index.php` | High
-19 | File | `admin/login.asp` | High
-20 | File | `admin/movieedit.php` | High
+4 | File | `/Duty/AjaxHandle/UpLoadFloodPlanFile.ashx` | High
+5 | File | `/etc/passwd` | Medium
+6 | File | `/forum/away.php` | High
+7 | File | `/movie.php` | Medium
+8 | File | `/out.php` | Medium
+9 | File | `/pet_shop/admin/?page=inventory/manage_inventory` | High
+10 | File | `/phppath/php` | Medium
+11 | File | `/search_events.php` | High
+12 | File | `/StartingPage/link_req_2.php` | High
+13 | File | `/user/s.php` | Medium
+14 | File | `/vendor` | Low
+15 | File | `/ViewUserHover.jspa` | High
+16 | File | `admin.php` | Medium
+17 | File | `admin/AJAX_lookup_handler.php` | High
+18 | File | `admin/general.php` | High
+19 | File | `admin/index.php` | High
+20 | File | `admin/login.asp` | High
 21 | ... | ... | ...
 
-There are 175 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 177 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

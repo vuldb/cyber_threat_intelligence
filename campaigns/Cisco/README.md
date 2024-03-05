@@ -62,10 +62,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-25, CWE-425 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-25, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -78,28 +78,28 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `%SYSTEMDRIVE%\node_modules\.bin\wmic.exe` | High
-2 | File | `/admin/save.php` | High
-3 | File | `/admin/sys_sql_query.php` | High
-4 | File | `/adplanet/PlanetUser` | High
-5 | File | `/api/baskets/{name}` | High
-6 | File | `/api/download` | High
-7 | File | `/api/v1/alerts` | High
-8 | File | `/api/v1/terminal/sessions/?limit=1` | High
-9 | File | `/b2b-supermarket/shopping-cart` | High
-10 | File | `/bitrix/admin/ldap_server_edit.php` | High
-11 | File | `/category.php` | High
-12 | File | `/categorypage.php` | High
-13 | File | `/cgi-bin/luci/api/wireless` | High
-14 | File | `/cgi-bin/vitogate.cgi` | High
-15 | File | `/change-language/de_DE` | High
-16 | File | `/Content/Template/root/reverse-shell.aspx` | High
-17 | File | `/core/admin/copyfrom.php` | High
-18 | File | `/core/conditions/AbstractWrapper.java` | High
-19 | File | `/debug/pprof` | Medium
-20 | File | `/devinfo` | Medium
-21 | File | `/dist/index.js` | High
-22 | File | `/DXR.axd` | Medium
-23 | File | `/etc/passwd` | Medium
+2 | File | `/#ilang=DE&b=c_smartenergy_swgroups` | High
+3 | File | `/admin/save.php` | High
+4 | File | `/admin_route/dec_service_credits.php` | High
+5 | File | `/adplanet/PlanetUser` | High
+6 | File | `/api/baskets/{name}` | High
+7 | File | `/api/download` | High
+8 | File | `/api/v1/alerts` | High
+9 | File | `/api/v1/terminal/sessions/?limit=1` | High
+10 | File | `/api/v4/teams//channels/deleted` | High
+11 | File | `/b2b-supermarket/shopping-cart` | High
+12 | File | `/category.php` | High
+13 | File | `/categorypage.php` | High
+14 | File | `/cgi-bin/luci/api/wireless` | High
+15 | File | `/cgi-bin/vitogate.cgi` | High
+16 | File | `/change-language/de_DE` | High
+17 | File | `/Content/Template/root/reverse-shell.aspx` | High
+18 | File | `/core/admin/copyfrom.php` | High
+19 | File | `/core/conditions/AbstractWrapper.java` | High
+20 | File | `/debug/pprof` | Medium
+21 | File | `/devinfo` | Medium
+22 | File | `/dist/index.js` | High
+23 | File | `/DXR.axd` | Medium
 24 | File | `/fcgi/scrut_fcgi.fcgi` | High
 25 | File | `/forum/away.php` | High
 26 | File | `/geoserver/gwc/rest.html` | High
@@ -115,14 +115,16 @@ ID | Type | Indicator | Confidence
 36 | File | `/php/ping.php` | High
 37 | File | `/proxy` | Low
 38 | File | `/REBOOTSYSTEM` | High
-39 | File | `/recipe-result` | High
-40 | File | `/register.do` | Medium
-41 | File | `/RPS2019Service/status.html` | High
-42 | File | `/s/index.php?action=statistics` | High
-43 | File | `/setting` | Medium
-44 | ... | ... | ...
+39 | File | `/register.do` | Medium
+40 | File | `/RPS2019Service/status.html` | High
+41 | File | `/s/index.php?action=statistics` | High
+42 | File | `/setting` | Medium
+43 | File | `/sicweb-ajax/tmproot/` | High
+44 | File | `/spip.php` | Medium
+45 | File | `/st_reg.php` | Medium
+46 | ... | ... | ...
 
-There are 384 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 397 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

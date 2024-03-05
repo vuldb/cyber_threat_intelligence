@@ -29,9 +29,9 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-425 | Pathname Traversal | High
+1 | T1006 | CWE-22, CWE-425 | Path Traversal | High
 2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
@@ -49,18 +49,18 @@ ID | Type | Indicator | Confidence
 4 | File | `/cgi-bin/user/Config.cgi` | High
 5 | File | `/config/php.ini` | High
 6 | File | `/htdocs/cgibin` | High
-7 | File | `/uncpath/` | Medium
-8 | File | `/videotalk` | Medium
-9 | File | `/web/MCmsAction.java` | High
-10 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-11 | File | `activity_log.php` | High
-12 | File | `adm/systools.asp` | High
-13 | File | `admin/getparam.cgi` | High
-14 | File | `admin/media/index.php"` | High
-15 | File | `adminCons.php` | High
+7 | File | `/myprofile.php` | High
+8 | File | `/uncpath/` | Medium
+9 | File | `/videotalk` | Medium
+10 | File | `/web/MCmsAction.java` | High
+11 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+12 | File | `activity_log.php` | High
+13 | File | `adm/systools.asp` | High
+14 | File | `admin/getparam.cgi` | High
+15 | File | `admin/media/index.php"` | High
 16 | ... | ... | ...
 
-There are 126 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 132 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

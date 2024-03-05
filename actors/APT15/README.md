@@ -10,19 +10,46 @@ The following _campaigns_ are known and can be associated with APT15:
 
 * Ke3chang
 
+## Countries
+
+These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with APT15:
+
+* [CN](https://vuldb.com/?country.cn)
+
 ## IOC - Indicator of Compromise
 
 These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of APT15.
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [61.128.110.38](https://vuldb.com/?ip.61.128.110.38) | - | Ke3chang | High
-2 | [180.149.252.181](https://vuldb.com/?ip.180.149.252.181) | - | Ke3chang | High
+1 | [45.56.84.25](https://vuldb.com/?ip.45.56.84.25) | 45-56-84-25.ip.linodeusercontent.com | - | High
+2 | [61.128.110.38](https://vuldb.com/?ip.61.128.110.38) | - | Ke3chang | High
+3 | [180.149.252.181](https://vuldb.com/?ip.180.149.252.181) | - | Ke3chang | High
+
+## TTP - Tactics, Techniques, Procedures
+
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _APT15_. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1068 | CWE-264 | Execution with Unnecessary Privileges | High
+2 | T1202 | CWE-77 | Command Shell in Externally Accessible Directory | High
+3 | T1592 | CWE-200 | Invocation of Process Using Visible Sensitive Information | High
+
+## IOA - Indicator of Attack
+
+These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by APT15. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Type | Indicator | Confidence
+-- | ---- | --------- | ----------
+1 | Library | `idq.dll` | Low
+2 | Library | `webapps/ROOT/WEB-INF/lib/commons-collections-*.jar` | High
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://intezer.com/blog/research/the-evolution-of-apt15s-codebase-2020/
 * https://www.threatminer.org/report.php?q=XSLCmd_OSX.pdf&y=2014
 
 ## Literature

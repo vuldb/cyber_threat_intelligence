@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Atomic Stealer:
 
 * [US](https://vuldb.com/?country.us)
-* [DE](https://vuldb.com/?country.de)
 * [RU](https://vuldb.com/?country.ru)
+* [DE](https://vuldb.com/?country.de)
 * ...
 
 There are 3 more country items available. Please use our online service to access the data.
@@ -22,7 +22,8 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [5.42.65.108](https://vuldb.com/?ip.5.42.65.108) | - | - | High
-2 | [185.106.93.154](https://vuldb.com/?ip.185.106.93.154) | - | - | High
+2 | [5.42.65.114](https://vuldb.com/?ip.5.42.65.114) | - | - | High
+3 | [185.106.93.154](https://vuldb.com/?ip.185.106.93.154) | - | - | High
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -30,8 +31,8 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Pathname Traversal | High
-2 | T1059 | CWE-94 | Cross Site Scripting | High
+1 | T1006 | CWE-22 | Path Traversal | High
+2 | T1059 | CWE-94 | Argument Injection | High
 3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
@@ -55,6 +56,7 @@ There are 23 more IOA items available (file, library, argument, input value, pat
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://russianpanda.com/2024/01/15/Atomic-Stealer-AMOS/
+* https://www.bitdefender.com/blog/labs/when-stealers-converge-new-variant-of-atomic-stealer-in-the-wild/
 
 ## Literature
 

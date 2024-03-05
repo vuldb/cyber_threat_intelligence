@@ -17,8 +17,8 @@ The following _campaigns_ are known and can be associated with APT33:
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with APT33:
 
 * [US](https://vuldb.com/?country.us)
-* [DE](https://vuldb.com/?country.de)
 * [PL](https://vuldb.com/?country.pl)
+* [FR](https://vuldb.com/?country.fr)
 * ...
 
 There are 10 more country items available. Please use our online service to access the data.
@@ -54,11 +54,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Path Traversal | High
 2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94 | Cross Site Scripting | High
+3 | T1059 | CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
 There are 19 more TTP items available. Please use our online service to access the data.
@@ -95,56 +95,59 @@ ID | Type | Indicator | Confidence
 24 | File | `/admin/theme-edit.php` | High
 25 | File | `/admin/update-clients.php` | High
 26 | File | `/admin/userprofile.php` | High
-27 | File | `/api/log/killJob` | High
-28 | File | `/application/index/common.php` | High
-29 | File | `/apply/index.php` | High
-30 | File | `/author_posts.php` | High
-31 | File | `/blog` | Low
-32 | File | `/book-services.php` | High
-33 | File | `/booking/show_bookings/` | High
-34 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-35 | File | `/cas/logout` | Medium
-36 | File | `/category.php` | High
-37 | File | `/cgi-bin/cstecgi.cgi` | High
-38 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-39 | File | `/cgi-bin/mainfunction.cgi` | High
-40 | File | `/change-language/de_DE` | High
-41 | File | `/classes/Login.php` | High
-42 | File | `/classes/Master.php?f=delete_service` | High
-43 | File | `/classes/Master.php?f=save_inquiry` | High
-44 | File | `/classes/Master.php?f=save_item` | High
-45 | File | `/classes/Users.php?f=save` | High
-46 | File | `/cms/notify` | Medium
-47 | File | `/contact/store` | High
-48 | File | `/Duty/AjaxHandle/UploadFloodPlanFileUpdate.ashx` | High
-49 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
-50 | File | `/Duty/AjaxHandle/Write/UploadFile.ashx` | High
-51 | File | `/ecommerce/support_ticket` | High
-52 | File | `/en/blog-comment-4` | High
-53 | File | `/endpoint/add-guest.php` | High
-54 | File | `/endpoint/add-user.php` | High
-55 | File | `/file_manager/admin/save_user.php` | High
-56 | File | `/forum/away.php` | High
-57 | File | `/general/ipanel/menu_code.php?MENU_TYPE=FAV` | High
-58 | File | `/get.php` | Medium
-59 | File | `/goform/RgUrlBlock.asp` | High
-60 | File | `/goform/setDeviceSettings` | High
-61 | File | `/goform/SetOnlineDevName` | High
-62 | File | `/goform/WifiBasicSet` | High
-63 | File | `/h/` | Low
-64 | File | `/hedwig.cgi` | Medium
-65 | File | `/HNAP1/` | Low
-66 | File | `/home/courses` | High
-67 | File | `/home/filter_listings` | High
-68 | File | `/hss/?page=product_per_brand` | High
-69 | File | `/hss/admin/?page=client/manage_client` | High
-70 | File | `/hss/admin/?page=user/manage_user` | High
-71 | File | `/importexport.php` | High
-72 | File | `/inc/jquery/uploadify/uploadify.php` | High
-73 | File | `/index.php` | Medium
-74 | ... | ... | ...
+27 | File | `/api/controllers/admin/app/ComboController.php` | High
+28 | File | `/api/log/killJob` | High
+29 | File | `/application/index/common.php` | High
+30 | File | `/application/index/controller/Pay.php` | High
+31 | File | `/application/index/controller/Screen.php` | High
+32 | File | `/application/index/controller/Unity.php` | High
+33 | File | `/apply/index.php` | High
+34 | File | `/author_posts.php` | High
+35 | File | `/blog` | Low
+36 | File | `/book-services.php` | High
+37 | File | `/booking/show_bookings/` | High
+38 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+39 | File | `/cas/logout` | Medium
+40 | File | `/category.php` | High
+41 | File | `/cgi-bin/cstecgi.cgi` | High
+42 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+43 | File | `/cgi-bin/mainfunction.cgi` | High
+44 | File | `/change-language/de_DE` | High
+45 | File | `/classes/Login.php` | High
+46 | File | `/classes/Master.php?f=delete_service` | High
+47 | File | `/classes/Master.php?f=save_inquiry` | High
+48 | File | `/classes/Master.php?f=save_item` | High
+49 | File | `/classes/Users.php?f=save` | High
+50 | File | `/cms/notify` | Medium
+51 | File | `/contact/store` | High
+52 | File | `/Duty/AjaxHandle/UploadFloodPlanFileUpdate.ashx` | High
+53 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
+54 | File | `/Duty/AjaxHandle/Write/UploadFile.ashx` | High
+55 | File | `/ecommerce/support_ticket` | High
+56 | File | `/edit.php` | Medium
+57 | File | `/en/blog-comment-4` | High
+58 | File | `/endpoint/add-guest.php` | High
+59 | File | `/endpoint/add-user.php` | High
+60 | File | `/ext/collect/filter_text.do` | High
+61 | File | `/file_manager/admin/save_user.php` | High
+62 | File | `/forum/away.php` | High
+63 | File | `/general/email/outbox/delete.php` | High
+64 | File | `/general/ipanel/menu_code.php?MENU_TYPE=FAV` | High
+65 | File | `/get.php` | Medium
+66 | File | `/goform/RgUrlBlock.asp` | High
+67 | File | `/goform/setDeviceSettings` | High
+68 | File | `/goform/SetOnlineDevName` | High
+69 | File | `/goform/WifiBasicSet` | High
+70 | File | `/goform/wifiSSIDset` | High
+71 | File | `/h/` | Low
+72 | File | `/hedwig.cgi` | Medium
+73 | File | `/HNAP1/` | Low
+74 | File | `/home/courses` | High
+75 | File | `/home/filter_listings` | High
+76 | File | `/hss/?page=product_per_brand` | High
+77 | ... | ... | ...
 
-There are 653 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 680 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

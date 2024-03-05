@@ -60,11 +60,12 @@ ID | Type | Indicator | Confidence
 14 | File | `/ajax.php?action=read_msg` | High
 15 | File | `/api/authentication/login` | High
 16 | File | `/app/api/controller/collect.php` | High
-17 | File | `/apply/index.php` | High
-18 | File | `/apps/login_auth.php` | High
-19 | ... | ... | ...
+17 | File | `/application/index/controller/Databasesource.php` | High
+18 | File | `/apply/index.php` | High
+19 | File | `/apps/login_auth.php` | High
+20 | ... | ... | ...
 
-There are 156 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 160 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -78,7 +78,7 @@ ID | IP address | Hostname | Campaign | Confidence
 55 | [49.12.5.55](https://vuldb.com/?ip.49.12.5.55) | static.55.5.12.49.clients.your-server.de | - | High
 56 | ... | ... | ... | ...
 
-There are 218 more IOC items available. Please use our online service to access the data.
+There are 220 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -86,10 +86,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -109,41 +109,41 @@ ID | Type | Indicator | Confidence
 6 | File | `/admin/index2.html` | High
 7 | File | `/admin/modal_add_product.php` | High
 8 | File | `/admin/positions_add.php` | High
-9 | File | `/admin/user/manage_user.php` | High
-10 | File | `/ajax.php?action=save_company` | High
-11 | File | `/ajax.php?action=save_user` | High
-12 | File | `/api/baskets/{name}` | High
-13 | File | `/api/database` | High
-14 | File | `/app/index/controller/Common.php` | High
-15 | File | `/App_Resource/UEditor/server/upload.aspx` | High
-16 | File | `/authenticationendpoint/login.do` | High
-17 | File | `/backup.pl` | Medium
-18 | File | `/bitrix/admin/ldap_server_edit.php` | High
-19 | File | `/c/PluginsController.php` | High
-20 | File | `/cas/logout` | Medium
-21 | File | `/category.php` | High
-22 | File | `/chaincity/user/ticket/create` | High
-23 | File | `/collection/all` | High
-24 | File | `/contactform/contactform.php` | High
-25 | File | `/Controller/Ajaxfileupload.ashx` | High
-26 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
-27 | File | `/dcim/rack-roles/` | High
-28 | File | `/DXR.axd` | Medium
-29 | File | `/ecommerce/support_ticket` | High
-30 | File | `/ecrire/exec/puce_statut.php` | High
-31 | File | `/files/` | Low
-32 | File | `/forms/doLogin` | High
-33 | File | `/forum/away.php` | High
-34 | File | `/friends/ajax_invite` | High
-35 | File | `/goform/WifiGuestSet` | High
-36 | File | `/home/filter_listings` | High
-37 | File | `/index.php` | Medium
-38 | File | `/index.php/client/message/message_read/xxxxxxxx[random-msg-hash]` | High
-39 | File | `/index.php?app=main&func=passport&action=login` | High
-40 | File | `/index.php?s=/article/ApiAdminArticle/itemAdd` | High
+9 | File | `/ajax.php?action=save_company` | High
+10 | File | `/ajax.php?action=save_user` | High
+11 | File | `/api/baskets/{name}` | High
+12 | File | `/api/database` | High
+13 | File | `/app/index/controller/Common.php` | High
+14 | File | `/App_Resource/UEditor/server/upload.aspx` | High
+15 | File | `/authenticationendpoint/login.do` | High
+16 | File | `/backup.pl` | Medium
+17 | File | `/bitrix/admin/ldap_server_edit.php` | High
+18 | File | `/c/PluginsController.php` | High
+19 | File | `/cas/logout` | Medium
+20 | File | `/category.php` | High
+21 | File | `/chaincity/user/ticket/create` | High
+22 | File | `/collection/all` | High
+23 | File | `/contactform/contactform.php` | High
+24 | File | `/Controller/Ajaxfileupload.ashx` | High
+25 | File | `/dcim/rack-roles/` | High
+26 | File | `/DXR.axd` | Medium
+27 | File | `/ecommerce/support_ticket` | High
+28 | File | `/ecrire/exec/puce_statut.php` | High
+29 | File | `/files/` | Low
+30 | File | `/forms/doLogin` | High
+31 | File | `/forum/away.php` | High
+32 | File | `/friends/ajax_invite` | High
+33 | File | `/goform/WifiGuestSet` | High
+34 | File | `/home/filter_listings` | High
+35 | File | `/index.php` | Medium
+36 | File | `/index.php/client/message/message_read/xxxxxxxx[random-msg-hash]` | High
+37 | File | `/index.php?app=main&func=passport&action=login` | High
+38 | File | `/index.php?s=/article/ApiAdminArticle/itemAdd` | High
+39 | File | `/instance/detail` | High
+40 | File | `/items/search` | High
 41 | ... | ... | ...
 
-There are 353 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 356 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -197,6 +197,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://github.com/threatlabz/iocs/blob/main/onenote_attacks/network_indicators.txt
 * https://isc.sans.edu/forums/diary/RedLine+Stealer+Delivered+Through+FTP/28258/
 * https://www.malwarebytes.com/blog/news/2022/09/2k-games-helpdesk-abused-to-spread-redline-malware
+* https://www.proofpoint.com/us/blog/threat-insight/onenote-documents-increasingly-used-to-deliver-malware
 
 ## Literature
 

@@ -70,11 +70,12 @@ ID | Type | Indicator | Confidence
 16 | File | `/NAGErrors` | Medium
 17 | File | `/sgms/TreeControl` | High
 18 | File | `/src/admin/content_batchup_action.php` | High
-19 | File | `/tmp` | Low
-20 | File | `/uncpath/` | Medium
-21 | ... | ... | ...
+19 | File | `/st_reg.php` | Medium
+20 | File | `/tmp` | Low
+21 | File | `/uncpath/` | Medium
+22 | ... | ... | ...
 
-There are 178 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 179 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 15 more country items available. Please use our online service to access the data.
+There are 17 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -46,10 +46,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -63,47 +63,48 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
 2 | File | `/api/admin/system/store/order/list` | High
-3 | File | `/cgi-bin/live_api.cgi` | High
-4 | File | `/cgi-bin/wapopen` | High
-5 | File | `/cgi-bin/wlogin.cgi` | High
-6 | File | `/config/getuser` | High
-7 | File | `/csms/?page=contact_us` | High
-8 | File | `/etc/ajenti/config.yml` | High
-9 | File | `/etc/shadow` | Medium
-10 | File | `/forum/away.php` | High
-11 | File | `/goform/telnet` | High
-12 | File | `/h/` | Low
-13 | File | `/infusions/shoutbox_panel/shoutbox_admin.php` | High
-14 | File | `/lan.asp` | Medium
-15 | File | `/modules/profile/index.php` | High
-16 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-17 | File | `/oscommerce/admin/currencies.php` | High
-18 | File | `/proc/pid/syscall` | High
-19 | File | `/public/launchNewWindow.jsp` | High
-20 | File | `/rapi/read_url` | High
-21 | File | `/rom-0` | Low
-22 | File | `/session/list/allActiveSession` | High
-23 | File | `/sys/dict/loadTreeData` | High
-24 | File | `/SysInfo.htm` | Medium
-25 | File | `/syslog_rules` | High
-26 | File | `/uncpath/` | Medium
-27 | File | `/upload` | Low
-28 | File | `/users/{id}` | Medium
-29 | File | `/var/tmp/sess_*` | High
-30 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
-31 | File | `/video` | Low
-32 | File | `actionphp/download.File.php` | High
-33 | File | `ActivityManagerService.java` | High
-34 | File | `adaptmap_reg.c` | High
-35 | File | `add_comment.php` | High
-36 | File | `admin.cgi` | Medium
-37 | File | `admin.php` | Medium
-38 | File | `admin.php?action=files` | High
-39 | File | `admin/admin.php` | High
-40 | File | `admin/content.php` | High
-41 | ... | ... | ...
+3 | File | `/cgi-bin/cstecgi.cgi` | High
+4 | File | `/cgi-bin/live_api.cgi` | High
+5 | File | `/cgi-bin/wapopen` | High
+6 | File | `/cgi-bin/wlogin.cgi` | High
+7 | File | `/config/getuser` | High
+8 | File | `/csms/?page=contact_us` | High
+9 | File | `/etc/ajenti/config.yml` | High
+10 | File | `/etc/shadow` | Medium
+11 | File | `/forum/away.php` | High
+12 | File | `/goform/telnet` | High
+13 | File | `/h/` | Low
+14 | File | `/infusions/shoutbox_panel/shoutbox_admin.php` | High
+15 | File | `/lan.asp` | Medium
+16 | File | `/modules/profile/index.php` | High
+17 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+18 | File | `/oscommerce/admin/currencies.php` | High
+19 | File | `/proc/pid/syscall` | High
+20 | File | `/public/launchNewWindow.jsp` | High
+21 | File | `/rapi/read_url` | High
+22 | File | `/rom-0` | Low
+23 | File | `/session/list/allActiveSession` | High
+24 | File | `/sys/dict/loadTreeData` | High
+25 | File | `/SysInfo.htm` | Medium
+26 | File | `/syslog_rules` | High
+27 | File | `/Tool/uploadfile.php` | High
+28 | File | `/uncpath/` | Medium
+29 | File | `/upload` | Low
+30 | File | `/users/{id}` | Medium
+31 | File | `/var/tmp/sess_*` | High
+32 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
+33 | File | `/video` | Low
+34 | File | `actionphp/download.File.php` | High
+35 | File | `ActivityManagerService.java` | High
+36 | File | `adaptmap_reg.c` | High
+37 | File | `add_comment.php` | High
+38 | File | `admin.cgi` | Medium
+39 | File | `admin.php` | Medium
+40 | File | `admin.php?action=files` | High
+41 | File | `admin/admin.php` | High
+42 | ... | ... | ...
 
-There are 353 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 358 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

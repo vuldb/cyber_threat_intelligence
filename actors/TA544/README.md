@@ -40,12 +40,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Pathname Traversal | High
-2 | T1059 | CWE-94 | Cross Site Scripting | High
+1 | T1006 | CWE-22 | Path Traversal | High
+2 | T1059 | CWE-94 | Argument Injection | High
 3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 10 more TTP items available. Please use our online service to access the data.
+There are 11 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -53,17 +53,18 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/Tools/tools_admin.htm` | High
-2 | File | `adm/krgourl.php` | High
-3 | File | `admin.php` | Medium
-4 | File | `administers` | Medium
-5 | File | `catchsegv` | Medium
-6 | File | `classified.php` | High
-7 | File | `coders/mat.c` | Medium
-8 | File | `data/gbconfiguration.dat` | High
-9 | File | `default.asp` | Medium
-10 | File | `drivers/char/lp.c` | High
-11 | ... | ... | ...
+1 | File | `/forum/away.php` | High
+2 | File | `/Tools/tools_admin.htm` | High
+3 | File | `adm/krgourl.php` | High
+4 | File | `admin.php` | Medium
+5 | File | `administers` | Medium
+6 | File | `catchsegv` | Medium
+7 | File | `classified.php` | High
+8 | File | `coders/mat.c` | Medium
+9 | File | `data/gbconfiguration.dat` | High
+10 | File | `default.asp` | Medium
+11 | File | `drivers/char/lp.c` | High
+12 | ... | ... | ...
 
 There are 88 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 

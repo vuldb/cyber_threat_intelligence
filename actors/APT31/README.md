@@ -22,22 +22,22 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [5.252.176.102](https://vuldb.com/?ip.5.252.176.102) | no-rdns.mivocloud.com | - | High
-2 | [45.147.229.194](https://vuldb.com/?ip.45.147.229.194) | - | - | High
-3 | [50.71.100.164](https://vuldb.com/?ip.50.71.100.164) | S010690a7c1a10cf2.wp.shawcable.net | - | High
-4 | [58.96.237.98](https://vuldb.com/?ip.58.96.237.98) | - | - | High
-5 | [58.182.61.137](https://vuldb.com/?ip.58.182.61.137) | 137.61.182.58.starhub.net.sg | - | High
-6 | [68.146.18.127](https://vuldb.com/?ip.68.146.18.127) | S010690a7c1b6e041.cg.shawcable.net | - | High
-7 | [71.64.151.132](https://vuldb.com/?ip.71.64.151.132) | cpe-71-64-151-132.cinci.res.rr.com | - | High
-8 | [73.229.137.54](https://vuldb.com/?ip.73.229.137.54) | c-73-229-137-54.hsd1.co.comcast.net | - | High
-9 | [78.82.247.37](https://vuldb.com/?ip.78.82.247.37) | 78-82-247-37.customers.ownit.se | - | High
-10 | [81.83.4.48](https://vuldb.com/?ip.81.83.4.48) | d51530430.static.telenet.be | - | High
-11 | [81.227.88.108](https://vuldb.com/?ip.81.227.88.108) | 81-227-88-108-no2661.tbcn.telia.com | - | High
-12 | [81.232.51.161](https://vuldb.com/?ip.81.232.51.161) | 81-232-51-161-no600.tbcn.telia.com | - | High
-13 | [81.234.227.62](https://vuldb.com/?ip.81.234.227.62) | 81-234-227-62-no551.tbcn.telia.com | - | High
-14 | [81.236.182.199](https://vuldb.com/?ip.81.236.182.199) | 81-236-182-199-no272.tbcn.telia.com | - | High
+2 | [20.11.11.67](https://vuldb.com/?ip.20.11.11.67) | - | - | High
+3 | [45.147.229.194](https://vuldb.com/?ip.45.147.229.194) | - | - | High
+4 | [50.71.100.164](https://vuldb.com/?ip.50.71.100.164) | S010690a7c1a10cf2.wp.shawcable.net | - | High
+5 | [58.96.237.98](https://vuldb.com/?ip.58.96.237.98) | - | - | High
+6 | [58.182.61.137](https://vuldb.com/?ip.58.182.61.137) | 137.61.182.58.starhub.net.sg | - | High
+7 | [68.146.18.127](https://vuldb.com/?ip.68.146.18.127) | S010690a7c1b6e041.cg.shawcable.net | - | High
+8 | [71.64.151.132](https://vuldb.com/?ip.71.64.151.132) | cpe-71-64-151-132.cinci.res.rr.com | - | High
+9 | [73.229.137.54](https://vuldb.com/?ip.73.229.137.54) | c-73-229-137-54.hsd1.co.comcast.net | - | High
+10 | [78.82.247.37](https://vuldb.com/?ip.78.82.247.37) | 78-82-247-37.customers.ownit.se | - | High
+11 | [81.83.4.48](https://vuldb.com/?ip.81.83.4.48) | d51530430.static.telenet.be | - | High
+12 | [81.227.88.108](https://vuldb.com/?ip.81.227.88.108) | 81-227-88-108-no2661.tbcn.telia.com | - | High
+13 | [81.232.51.161](https://vuldb.com/?ip.81.232.51.161) | 81-232-51-161-no600.tbcn.telia.com | - | High
+14 | [81.234.227.62](https://vuldb.com/?ip.81.234.227.62) | 81-234-227-62-no551.tbcn.telia.com | - | High
 15 | ... | ... | ... | ...
 
-There are 55 more IOC items available. Please use our online service to access the data.
+There are 56 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -45,9 +45,9 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23, CWE-29 | Pathname Traversal | High
+1 | T1006 | CWE-22, CWE-23, CWE-29 | Path Traversal | High
 2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94 | Cross Site Scripting | High
+3 | T1059 | CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
@@ -84,6 +84,7 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://blogs.infoblox.com/cyber-threat-intelligence/cyber-threat-advisory-apt31-targeting-france/
 * https://github.com/SEKOIA-IO/Community/blob/main/IOCs/2021-11-10%20APT31%20IOCs.csv
+* https://www.ptsecurity.com/ww-en/analytics/pt-esc-threat-intelligence/apt31-new-attacks/
 
 ## Literature
 

@@ -8,8 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Get2:
 
-* [KR](https://vuldb.com/?country.kr)
 * [US](https://vuldb.com/?country.us)
+* [KR](https://vuldb.com/?country.kr)
+* [MY](https://vuldb.com/?country.my)
+* ...
+
+There are 2 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -21,13 +25,19 @@ ID | IP address | Hostname | Campaign | Confidence
 2 | [27.101.222.24](https://vuldb.com/?ip.27.101.222.24) | - | - | High
 3 | [27.101.222.186](https://vuldb.com/?ip.27.101.222.186) | - | - | High
 4 | [101.78.26.130](https://vuldb.com/?ip.101.78.26.130) | - | - | High
-5 | [110.15.243.148](https://vuldb.com/?ip.110.15.243.148) | - | - | High
-6 | [117.52.115.212](https://vuldb.com/?ip.117.52.115.212) | - | - | High
-7 | [124.243.43.9](https://vuldb.com/?ip.124.243.43.9) | - | - | High
-8 | [124.243.53.149](https://vuldb.com/?ip.124.243.53.149) | - | - | High
-9 | ... | ... | ... | ...
+5 | [103.86.130.35](https://vuldb.com/?ip.103.86.130.35) | amis.unimap.edu.my | - | High
+6 | [103.86.130.50](https://vuldb.com/?ip.103.86.130.50) | edev.unimap.edu.my | - | High
+7 | [103.86.130.51](https://vuldb.com/?ip.103.86.130.51) | usis.unimap.edu.my | - | High
+8 | [103.86.130.54](https://vuldb.com/?ip.103.86.130.54) | courseregdip.unimap.edu.my | - | High
+9 | [103.86.130.61](https://vuldb.com/?ip.103.86.130.61) | elearninglab.unimap.edu.my | - | High
+10 | [103.86.130.67](https://vuldb.com/?ip.103.86.130.67) | ipam1.unimap.edu.my | - | High
+11 | [103.86.130.68](https://vuldb.com/?ip.103.86.130.68) | imsic.unimap.edu.my | - | High
+12 | [103.86.130.72](https://vuldb.com/?ip.103.86.130.72) | kedatangan.unimap.edu.my | - | High
+13 | [103.86.130.74](https://vuldb.com/?ip.103.86.130.74) | security.unimap.edu.my | - | High
+14 | [103.86.130.76](https://vuldb.com/?ip.103.86.130.76) | ofis.unimap.edu.my | - | High
+15 | ... | ... | ... | ...
 
-There are 33 more IOC items available. Please use our online service to access the data.
+There are 57 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -35,12 +45,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1055 | CWE-74 | Injection | High
-2 | T1059 | CWE-94 | Cross Site Scripting | High
-3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+1 | T1006 | CWE-22 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 4 more TTP items available. Please use our online service to access the data.
+There are 7 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -48,12 +58,12 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `cng.sys` | Low
-2 | File | `http_auth.c` | Medium
-3 | File | `inc/config.php` | High
+1 | File | `/tmp` | Low
+2 | File | `admin.php` | Medium
+3 | File | `admin_add.php` | High
 4 | ... | ... | ...
 
-There are 8 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 16 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

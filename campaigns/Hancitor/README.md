@@ -131,13 +131,13 @@ ID | Type | Indicator | Confidence
 9 | File | `/etc/quagga` | Medium
 10 | File | `/forms/doLogin` | High
 11 | File | `/forum/away.php` | High
-12 | File | `/hrm/employeeview.php` | High
-13 | File | `/include/chart_generator.php` | High
-14 | File | `/install/index.php` | High
-15 | File | `/lan.asp` | Medium
-16 | File | `/librarian/bookdetails.php` | High
-17 | File | `/messageboard/view.php` | High
-18 | File | `/mhds/clinic/view_details.php` | High
+12 | File | `/include/chart_generator.php` | High
+13 | File | `/install/index.php` | High
+14 | File | `/lan.asp` | Medium
+15 | File | `/librarian/bookdetails.php` | High
+16 | File | `/messageboard/view.php` | High
+17 | File | `/mhds/clinic/view_details.php` | High
+18 | File | `/novel/bookComment/list` | High
 19 | File | `/out.php` | Medium
 20 | File | `/owa/auth/logon.aspx` | High
 21 | File | `/rest/api/latest/projectvalidate/key` | High
@@ -161,7 +161,7 @@ ID | Type | Indicator | Confidence
 39 | File | `adminAttachments.php` | High
 40 | ... | ... | ...
 
-There are 340 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 343 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

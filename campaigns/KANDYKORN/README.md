@@ -17,6 +17,7 @@ These _actors_ are associated with KANDYKORN or other actors linked to the campa
 ID | Actor | Confidence
 -- | ----- | ----------
 1 | [DPRK](https://vuldb.com/?actor.dprk) | High
+2 | [SwiftLoader](https://vuldb.com/?actor.swiftloader) | High
 
 ## IOC - Indicator of Compromise
 
@@ -24,8 +25,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
-1 | [23.254.226.90](https://vuldb.com/?ip.23.254.226.90) | hwsrv-1044656.hostwindsdns.com | [DPRK](https://vuldb.com/?actor.dprk) | High
-2 | [192.119.64.43](https://vuldb.com/?ip.192.119.64.43) | client-192-119-64-43.hostwindsdns.com | [DPRK](https://vuldb.com/?actor.dprk) | High
+1 | [23.254.226.90](https://vuldb.com/?ip.23.254.226.90) | hwsrv-1044656.hostwindsdns.com | [SwiftLoader](https://vuldb.com/?actor.swiftloader) | High
+2 | [104.168.214.151](https://vuldb.com/?ip.104.168.214.151) | client-104-168-214-151.hostwindsdns.com | [SwiftLoader](https://vuldb.com/?actor.swiftloader) | High
+3 | [142.11.209.144](https://vuldb.com/?ip.142.11.209.144) | hwsrv-1131674.hostwindsdns.com | [SwiftLoader](https://vuldb.com/?actor.swiftloader) | High
+4 | ... | ... | ... | ...
+
+There are 1 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -48,6 +53,7 @@ ID | Type | Indicator | Confidence
 
 The following list contains _external sources_ which discuss the campaign and the associated activities:
 
+* https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence
 * https://www.elastic.co/security-labs/elastic-catches-dprk-passing-out-kandykorn
 
 ## Literature

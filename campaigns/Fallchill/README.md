@@ -9,6 +9,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Fallchill:
 
 * [VN](https://vuldb.com/?country.vn)
+* [CL](https://vuldb.com/?country.cl)
 
 ## Actors
 
@@ -51,10 +52,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-29, CWE-35, CWE-425 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-29, CWE-35, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -67,21 +68,21 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/academy/tutor/filter` | High
-2 | File | `/admin/?page=user/manage_user&id=3` | High
-3 | File | `/admin/index2.html` | High
-4 | File | `/admin/sales/view_details.php` | High
-5 | File | `/api/baskets/{name}` | High
-6 | File | `/api/common/ping` | High
-7 | File | `/api/sys/set_passwd` | High
-8 | File | `/aqpg/users/login.php` | High
-9 | File | `/b2b-supermarket/shopping-cart` | High
-10 | File | `/bin/login` | Medium
-11 | File | `/bsms_ci/index.php/user/edit_user/` | High
-12 | File | `/calendar/minimizer/index.php` | High
-13 | File | `/cgi-bin/cstecgi.cgi` | High
-14 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-15 | File | `/cgi-bin/wlogin.cgi` | High
-16 | File | `/common/info.cgi` | High
+2 | File | `/admin/index2.html` | High
+3 | File | `/admin/sales/view_details.php` | High
+4 | File | `/api/baskets/{name}` | High
+5 | File | `/api/sys/set_passwd` | High
+6 | File | `/aqpg/users/login.php` | High
+7 | File | `/b2b-supermarket/shopping-cart` | High
+8 | File | `/bin/login` | Medium
+9 | File | `/bsms_ci/index.php/user/edit_user/` | High
+10 | File | `/calendar/minimizer/index.php` | High
+11 | File | `/cgi-bin/cstecgi.cgi` | High
+12 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+13 | File | `/cgi-bin/wlogin.cgi` | High
+14 | File | `/common/info.cgi` | High
+15 | File | `/core/conditions/AbstractWrapper.java` | High
+16 | File | `/core/tools/update_menu.php` | High
 17 | File | `/dayrui/My/Config/Install.txt` | High
 18 | File | `/DesignTools/CssEditor.aspx` | High
 19 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
@@ -96,25 +97,25 @@ ID | Type | Indicator | Confidence
 28 | File | `/importexport.php` | High
 29 | File | `/includes/db_connect.php` | High
 30 | File | `/includes/session.php` | High
-31 | File | `/librarian/bookdetails.php` | High
-32 | File | `/mc` | Low
-33 | File | `/modals/class_form.php` | High
-34 | File | `/modules/projects/vw_files.php` | High
-35 | File | `/modules/public/calendar.php` | High
-36 | File | `/modules/public/date_format.php` | High
-37 | File | `/modules/tasks/gantt.php` | High
-38 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
-39 | File | `/osms/assets/plugins/jquery-validation-1.11.1/demo/captcha/index.php` | High
-40 | File | `/out.php` | Medium
-41 | File | `/php-fusion/infusions/shoutbox_panel/shoutbox_archive.php` | High
-42 | File | `/project/tasks/list` | High
-43 | File | `/search.php` | Medium
-44 | File | `/setting` | Medium
-45 | File | `/spip.php` | Medium
-46 | File | `/src/amf/amf-context.c` | High
+31 | File | `/index.php?menu=asterisk_cli` | High
+32 | File | `/install/` | Medium
+33 | File | `/mc` | Low
+34 | File | `/modals/class_form.php` | High
+35 | File | `/modules/projects/vw_files.php` | High
+36 | File | `/modules/public/calendar.php` | High
+37 | File | `/modules/public/date_format.php` | High
+38 | File | `/modules/tasks/gantt.php` | High
+39 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
+40 | File | `/php-opos/index.php` | High
+41 | File | `/project/tasks/list` | High
+42 | File | `/search.php` | Medium
+43 | File | `/setting` | Medium
+44 | File | `/spip.php` | Medium
+45 | File | `/SysManage/AddUpdateSites.aspx` | High
+46 | File | `/sysmanage/changelogo.php` | High
 47 | ... | ... | ...
 
-There are 411 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 412 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

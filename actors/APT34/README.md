@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -53,12 +53,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-37 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-37 | Path Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+6 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 7 | ... | ... | ... | ...
 
 There are 24 more TTP items available. Please use our online service to access the data.
@@ -84,37 +84,39 @@ ID | Type | Indicator | Confidence
 13 | File | `/admin/generalsettings.php` | High
 14 | File | `/admin/index.php` | High
 15 | File | `/admin/maintenance/view_designation.php` | High
-16 | File | `/admin/newsletter1.php` | High
-17 | File | `/admin/payment.php` | High
-18 | File | `/admin/reg.php` | High
-19 | File | `/admin/search-appointment.php` | High
-20 | File | `/admin/students/update_status.php` | High
-21 | File | `/admin/subnets/ripe-query.php` | High
-22 | File | `/api/sys/login` | High
-23 | File | `/api/sys/set_passwd` | High
-24 | File | `/apply.cgi` | Medium
-25 | File | `/App_Resource/UEditor/server/upload.aspx` | High
-26 | File | `/booking/show_bookings/` | High
-27 | File | `/cgi-bin/adm.cgi` | High
-28 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
-29 | File | `/chaincity/user/ticket/create` | High
-30 | File | `/collection/all` | High
-31 | File | `/common/info.cgi` | High
-32 | File | `/core/conditions/AbstractWrapper.java` | High
-33 | File | `/debug/pprof` | Medium
-34 | File | `/dipam/athlete-profile.php` | High
-35 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-36 | File | `/export` | Low
-37 | File | `/file?action=download&file` | High
-38 | File | `/filemanager/upload/drop` | High
-39 | File | `/forum/away.php` | High
-40 | File | `/function/login.php` | High
-41 | File | `/goform/SetNetControlList` | High
-42 | File | `/hardware` | Medium
-43 | File | `/hrm/employeeview.php` | High
-44 | ... | ... | ...
+16 | File | `/admin/makehtml_freelist_action.php` | High
+17 | File | `/admin/newsletter1.php` | High
+18 | File | `/admin/payment.php` | High
+19 | File | `/admin/reg.php` | High
+20 | File | `/admin/search-appointment.php` | High
+21 | File | `/admin/students/update_status.php` | High
+22 | File | `/admin/subnets/ripe-query.php` | High
+23 | File | `/api/sys/login` | High
+24 | File | `/api/sys/set_passwd` | High
+25 | File | `/apply.cgi` | Medium
+26 | File | `/App_Resource/UEditor/server/upload.aspx` | High
+27 | File | `/bin/boa` | Medium
+28 | File | `/boafrm/formMapDelDevice` | High
+29 | File | `/booking/show_bookings/` | High
+30 | File | `/cgi-bin/adm.cgi` | High
+31 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+32 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
+33 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
+34 | File | `/chaincity/user/ticket/create` | High
+35 | File | `/collection/all` | High
+36 | File | `/common/info.cgi` | High
+37 | File | `/core/conditions/AbstractWrapper.java` | High
+38 | File | `/core/config-revisions` | High
+39 | File | `/debug/pprof` | Medium
+40 | File | `/dipam/athlete-profile.php` | High
+41 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+42 | File | `/export` | Low
+43 | File | `/filemanager/upload/drop` | High
+44 | File | `/forum/away.php` | High
+45 | File | `/function/login.php` | High
+46 | ... | ... | ...
 
-There are 378 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 398 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -142,4 +144,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

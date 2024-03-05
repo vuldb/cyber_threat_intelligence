@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [DE](https://vuldb.com/?country.de)
 * [US](https://vuldb.com/?country.us)
-* [WF](https://vuldb.com/?country.wf)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
 There are 11 more country items available. Please use our online service to access the data.
@@ -36,10 +36,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -57,38 +57,39 @@ ID | Type | Indicator | Confidence
 4 | File | `/admin/subnets/ripe-query.php` | High
 5 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
 6 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
-7 | File | `/fw.login.php` | High
-8 | File | `/gfxpoly/convert.c` | High
-9 | File | `/GponForm/device_Form?script/` | High
-10 | File | `/index.php?/manage/channel/addchannel` | High
-11 | File | `/opac/Actions.php?a=login` | High
-12 | File | `/opt/tms/bin/cli` | High
-13 | File | `/out.php` | Medium
-14 | File | `/settings/account` | High
-15 | File | `/spip.php` | Medium
-16 | File | `/var/log/nginx` | High
-17 | File | `/way4acs/enroll` | High
-18 | File | `/wp-admin/admin-ajax.php` | High
-19 | File | `action.php` | Medium
-20 | File | `actions/beats_uploader.php` | High
-21 | File | `actions/vote_channel.php` | High
-22 | File | `ad.cgi` | Low
-23 | File | `adclick.php` | Medium
-24 | File | `admin/admin.php` | High
-25 | File | `Admin/ADM_Pagina.php` | High
-26 | File | `admin/article.php` | High
-27 | File | `admin/dashboard.php` | High
-28 | File | `Admin/edit-admin.php` | High
-29 | File | `admin/partials/ajax/add_field_to_form.php` | High
-30 | File | `admin/show.php?rec=update` | High
-31 | File | `album.asp` | Medium
-32 | File | `allmanageup.pl` | High
-33 | File | `allow/block` | Medium
-34 | File | `AlUpdate.exe` | Medium
-35 | File | `amadmin.pl` | Medium
-36 | ... | ... | ...
+7 | File | `/forum/away.php` | High
+8 | File | `/fw.login.php` | High
+9 | File | `/gfxpoly/convert.c` | High
+10 | File | `/GponForm/device_Form?script/` | High
+11 | File | `/index.php?/manage/channel/addchannel` | High
+12 | File | `/opac/Actions.php?a=login` | High
+13 | File | `/opt/tms/bin/cli` | High
+14 | File | `/out.php` | Medium
+15 | File | `/owa/auth/logon.aspx` | High
+16 | File | `/settings/account` | High
+17 | File | `/spip.php` | Medium
+18 | File | `/st_reg.php` | Medium
+19 | File | `/var/log/nginx` | High
+20 | File | `/way4acs/enroll` | High
+21 | File | `/wp-admin/admin-ajax.php` | High
+22 | File | `action.php` | Medium
+23 | File | `actions/beats_uploader.php` | High
+24 | File | `actions/vote_channel.php` | High
+25 | File | `ad.cgi` | Low
+26 | File | `adclick.php` | Medium
+27 | File | `admin/admin.php` | High
+28 | File | `Admin/ADM_Pagina.php` | High
+29 | File | `admin/article.php` | High
+30 | File | `admin/dashboard.php` | High
+31 | File | `Admin/edit-admin.php` | High
+32 | File | `admin/partials/ajax/add_field_to_form.php` | High
+33 | File | `admin/show.php?rec=update` | High
+34 | File | `album.asp` | Medium
+35 | File | `allmanageup.pl` | High
+36 | File | `allow/block` | Medium
+37 | ... | ... | ...
 
-There are 309 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 319 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -52,15 +52,15 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/orders/update_status.php` | High
 2 | File | `/admin/sys_sql_query.php` | High
-3 | File | `/getcfg.php` | Medium
-4 | File | `/paysystem/datatable.php` | High
-5 | File | `/settings/account` | High
-6 | File | `act.php` | Low
-7 | File | `admin.php` | Medium
-8 | File | `admin\posts\manage_post.php` | High
+3 | File | `/application/index/common.php` | High
+4 | File | `/getcfg.php` | Medium
+5 | File | `/paysystem/datatable.php` | High
+6 | File | `/settings/account` | High
+7 | File | `act.php` | Low
+8 | File | `admin.php` | Medium
 9 | ... | ... | ...
 
-There are 61 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 64 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

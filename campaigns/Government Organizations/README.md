@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 1 more country items available. Please use our online service to access the data.
+There are 2 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -42,9 +42,9 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23, CWE-36 | Pathname Traversal | High
+1 | T1006 | CWE-22, CWE-23, CWE-36 | Path Traversal | High
 2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94 | Cross Site Scripting | High
+3 | T1059 | CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
@@ -56,15 +56,16 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/authenticationendpoint/login.do` | High
-2 | File | `/carbon/mediation_secure_vault/properties/ajaxprocessor.jsp` | High
-3 | File | `/carbon/ndatasource/validateconnection/ajaxprocessor.jsp` | High
-4 | File | `/confirm` | Medium
-5 | File | `/DesignTools/CssEditor.aspx` | High
-6 | File | `/etc/config/luci` | High
-7 | ... | ... | ...
+1 | File | `/admin/sales/manage_sale.php` | High
+2 | File | `/authenticationendpoint/login.do` | High
+3 | File | `/carbon/mediation_secure_vault/properties/ajaxprocessor.jsp` | High
+4 | File | `/carbon/ndatasource/validateconnection/ajaxprocessor.jsp` | High
+5 | File | `/confirm` | Medium
+6 | File | `/DesignTools/CssEditor.aspx` | High
+7 | File | `/etc/config/luci` | High
+8 | ... | ... | ...
 
-There are 51 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 56 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

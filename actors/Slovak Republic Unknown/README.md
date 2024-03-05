@@ -196,14 +196,14 @@ ID | Type | Indicator | Confidence
 7 | File | `/api/trackedEntityInstances` | High
 8 | File | `/api/v1/alerts` | High
 9 | File | `/api/v1/terminal/sessions/?limit=1` | High
-10 | File | `/aux` | Low
-11 | File | `/b2b-supermarket/shopping-cart` | High
-12 | File | `/category.php` | High
-13 | File | `/categorypage.php` | High
-14 | File | `/cgi-bin/vitogate.cgi` | High
-15 | File | `/change-language/de_DE` | High
-16 | File | `/changePassword` | High
-17 | File | `/dashboard/add-blog.php` | High
+10 | File | `/api/v4/teams//channels/deleted` | High
+11 | File | `/aux` | Low
+12 | File | `/b2b-supermarket/shopping-cart` | High
+13 | File | `/category.php` | High
+14 | File | `/categorypage.php` | High
+15 | File | `/cgi-bin/vitogate.cgi` | High
+16 | File | `/change-language/de_DE` | High
+17 | File | `/changePassword` | High
 18 | File | `/data/remove` | Medium
 19 | File | `/debug/pprof` | Medium
 20 | File | `/devinfo` | Medium
@@ -230,11 +230,12 @@ ID | Type | Indicator | Confidence
 41 | File | `/spip.php` | Medium
 42 | File | `/subsys/net/l2/wifi/wifi_shell.c` | High
 43 | File | `/system/role/list` | High
-44 | File | `/SystemManage/User/GetGridJson?_search=false&nd=1680855479750&rows=50&page=1&sidx=F_CreatorTime+desc&sord=asc` | High
-45 | File | `/testConnection` | High
-46 | ... | ... | ...
+44 | File | `/testConnection` | High
+45 | File | `/tmp/ppd.trace` | High
+46 | File | `/TMS/admin/setting/mail/createorupdate` | High
+47 | ... | ... | ...
 
-There are 403 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 405 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -41,9 +41,9 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
 2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
@@ -64,13 +64,13 @@ ID | Type | Indicator | Confidence
 7 | File | `/opt/IBM/es/lib/libffq.cryptionjni.so` | High
 8 | File | `/pdf/InfoOutputDev.cc` | High
 9 | File | `/plugins/Dashboard/Controller.php` | High
-10 | File | `/storage/app/media/evil.svg` | High
-11 | File | `/uncpath/` | Medium
-12 | File | `/usr/lpp/mmfs/bin/` | High
-13 | File | `adclick.php` | Medium
+10 | File | `/signup.php` | Medium
+11 | File | `/storage/app/media/evil.svg` | High
+12 | File | `/uncpath/` | Medium
+13 | File | `/usr/lpp/mmfs/bin/` | High
 14 | ... | ... | ...
 
-There are 112 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 115 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

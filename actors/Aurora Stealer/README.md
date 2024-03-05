@@ -91,9 +91,9 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
 2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
@@ -120,40 +120,41 @@ ID | Type | Indicator | Confidence
 13 | File | `/mgmt/tm/util/bash` | High
 14 | File | `/mifs/c/i/reg/reg.html` | High
 15 | File | `/modules/projects/vw_files.php` | High
-16 | File | `/school/model/get_events.php` | High
-17 | File | `/secure/ViewCollectors` | High
-18 | File | `/Session` | Medium
-19 | File | `/spacecom/login.php` | High
-20 | File | `/student/bookdetails.php` | High
-21 | File | `/usr/bin/pkexec` | High
-22 | File | `/xAdmin/html/cm_doclist_view_uc.jsp` | High
-23 | File | `AbstractController.php` | High
-24 | File | `account.asp` | Medium
-25 | File | `adclick.php` | Medium
-26 | File | `addpost_newpoll.php` | High
-27 | File | `add_comment.php` | High
-28 | File | `admin.php` | Medium
-29 | File | `admin.remository.php` | High
-30 | File | `admin/content.php` | High
-31 | File | `admin/establishment/manage.php` | High
-32 | File | `admin/inquiries/view_details.php` | High
-33 | File | `admin/news.php` | High
-34 | File | `admin/page.php` | High
-35 | File | `administrator/upload.php` | High
-36 | File | `Administrator/users.php` | High
-37 | File | `affich.php` | Medium
-38 | File | `album_portal.php` | High
-39 | File | `announce.php` | Medium
-40 | File | `archive.php` | Medium
-41 | File | `auth.inc.php` | Medium
-42 | File | `autor.php` | Medium
-43 | File | `b2archives.php` | High
-44 | File | `bbs/faq.php` | Medium
-45 | File | `bb_usage_stats.php` | High
-46 | File | `bl-kernel/ajax/upload-images.php` | High
-47 | ... | ... | ...
+16 | File | `/owa/auth/logon.aspx` | High
+17 | File | `/school/model/get_events.php` | High
+18 | File | `/secure/ViewCollectors` | High
+19 | File | `/Session` | Medium
+20 | File | `/spacecom/login.php` | High
+21 | File | `/student/bookdetails.php` | High
+22 | File | `/usr/bin/pkexec` | High
+23 | File | `/xAdmin/html/cm_doclist_view_uc.jsp` | High
+24 | File | `AbstractController.php` | High
+25 | File | `account.asp` | Medium
+26 | File | `adclick.php` | Medium
+27 | File | `addpost_newpoll.php` | High
+28 | File | `add_comment.php` | High
+29 | File | `admin.php` | Medium
+30 | File | `admin.remository.php` | High
+31 | File | `admin/content.php` | High
+32 | File | `admin/establishment/manage.php` | High
+33 | File | `admin/inquiries/view_details.php` | High
+34 | File | `admin/news.php` | High
+35 | File | `admin/page.php` | High
+36 | File | `administrator/upload.php` | High
+37 | File | `Administrator/users.php` | High
+38 | File | `affich.php` | Medium
+39 | File | `album_portal.php` | High
+40 | File | `announce.php` | Medium
+41 | File | `archive.php` | Medium
+42 | File | `auth.inc.php` | Medium
+43 | File | `autor.php` | Medium
+44 | File | `b2archives.php` | High
+45 | File | `bbs/faq.php` | Medium
+46 | File | `bb_usage_stats.php` | High
+47 | File | `bl-kernel/ajax/upload-images.php` | High
+48 | ... | ... | ...
 
-There are 408 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 414 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

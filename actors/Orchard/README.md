@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [IR](https://vuldb.com/?country.ir)
 * ...
 
-There are 3 more country items available. Please use our online service to access the data.
+There are 4 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -72,12 +72,12 @@ ID | Type | Indicator | Confidence
 21 | File | `/forum/away.php` | High
 22 | File | `/goform/wlanPrimaryNetwork` | High
 23 | File | `/index.php?module=help_pages/pages&entities_id=24` | High
-24 | File | `/it-IT/splunkd/__raw/services/get_snapshot` | High
-25 | File | `/nova/bin/user` | High
-26 | File | `/novel-admin/src/main/java/com/java2nb/common/controller/FileController.java` | High
+24 | File | `/index.php?zone=settings` | High
+25 | File | `/it-IT/splunkd/__raw/services/get_snapshot` | High
+26 | File | `/nova/bin/user` | High
 27 | ... | ... | ...
 
-There are 231 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 232 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -4,6 +4,13 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.apt30](https://vuldb.com/?actor.apt30)
 
+## Countries
+
+These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with APT30:
+
+* [CN](https://vuldb.com/?country.cn)
+* [US](https://vuldb.com/?country.us)
+
 ## IOC - Indicator of Compromise
 
 These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of APT30.
@@ -11,12 +18,39 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [5.1.0.29](https://vuldb.com/?ip.5.1.0.29) | 5-1-0-29.datagroup.ua | - | High
-2 | [112.117.9.222](https://vuldb.com/?ip.112.117.9.222) | - | - | High
+2 | [103.233.10.152](https://vuldb.com/?ip.103.233.10.152) | - | - | High
+3 | [112.117.9.222](https://vuldb.com/?ip.112.117.9.222) | - | - | High
+4 | ... | ... | ... | ...
+
+There are 1 more IOC items available. Please use our online service to access the data.
+
+## TTP - Tactics, Techniques, Procedures
+
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _APT30_. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1059 | CWE-94 | Argument Injection | High
+2 | T1068 | CWE-264 | Execution with Unnecessary Privileges | High
+3 | T1202 | CWE-77 | Command Shell in Externally Accessible Directory | High
+4 | ... | ... | ... | ...
+
+There are 1 more TTP items available. Please use our online service to access the data.
+
+## IOA - Indicator of Attack
+
+These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by APT30. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Type | Indicator | Confidence
+-- | ---- | --------- | ----------
+1 | File | `web/env-production/itop-config/config.php` | High
+2 | File | `zabbix.php?action=dashboard.view&dashboardid=1` | High
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://www.ptsecurity.com/ww-en/analytics/pt-esc-threat-intelligence/eagle-eye-is-back-apt30/
 * https://www.threatminer.org/report.php?q=rpt-apt30.pdf&y=2015
 * https://www.threatminer.org/_reports/2015/rpt-apt30.pdf#viewer.action=download
 

@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [US](https://vuldb.com/?country.us)
 * ...
 
-There are 2 more country items available. Please use our online service to access the data.
+There are 4 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -384,7 +384,7 @@ ID | IP address | Hostname | Campaign | Confidence
 361 | [47.58.200.234](https://vuldb.com/?ip.47.58.200.234) | 47-58-200-234.red-acceso.airtel.net | - | High
 362 | ... | ... | ... | ...
 
-There are 1444 more IOC items available. Please use our online service to access the data.
+There are 1445 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -392,13 +392,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-29 | Pathname Traversal | High
-2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+1 | T1006 | CWE-22, CWE-23, CWE-36 | Path Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -406,47 +407,46 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/.env` | Low
-2 | File | `/admin/clientview.php` | High
-3 | File | `/admin/edit_teacher.php` | High
-4 | File | `/admin/regester.php` | High
-5 | File | `/admin/update-clients.php` | High
-6 | File | `/api/cron/settings/setJob/` | High
-7 | File | `/api/sys/set_passwd` | High
-8 | File | `/api/trackedEntityInstances` | High
-9 | File | `/api/v1/terminal/sessions/?limit=1` | High
-10 | File | `/api/v4/teams//channels/deleted` | High
-11 | File | `/apply.cgi` | Medium
-12 | File | `/authenticationendpoint/login.do` | High
-13 | File | `/aux` | Low
-14 | File | `/b2b-supermarket/shopping-cart` | High
-15 | File | `/boaform/device_reset.cgi` | High
-16 | File | `/bsms_ci/index.php/user/edit_user/` | High
-17 | File | `/cgi-bin/cstecgi.cgi` | High
-18 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-19 | File | `/cgi-bin/R14.2/cgi-bin/R14.2/host.pl` | High
-20 | File | `/cgi-bin/R14.2/easy1350.pl` | High
-21 | File | `/config/getuser` | High
-22 | File | `/dashboard/snapshot/*?orgId=0` | High
-23 | File | `/data/remove` | Medium
-24 | File | `/debug/pprof` | Medium
-25 | File | `/dev/cpu/*/msr` | High
-26 | File | `/em/console/logon/logon` | High
-27 | File | `/endpoint/add-user.php` | High
-28 | File | `/filemanager/upload/drop` | High
-29 | File | `/forum/away.php` | High
-30 | File | `/forums/editforum.php` | High
-31 | File | `/goform/NatStaticSetting` | High
-32 | File | `/home/courses` | High
-33 | File | `/index.php` | Medium
-34 | File | `/Main_AdmStatus_Content.asp` | High
-35 | File | `/manager?action=getlogcat` | High
-36 | File | `/mehah/otclient` | High
-37 | File | `/modals/class_form.php` | High
-38 | File | `/modules/projects/vw_files.php` | High
-39 | ... | ... | ...
+1 | File | `/admin_ping.htm` | High
+2 | File | `/app/index/controller/Common.php` | High
+3 | File | `/application/index/controller/Databasesource.php` | High
+4 | File | `/application/index/controller/Icon.php` | High
+5 | File | `/application/index/controller/Screen.php` | High
+6 | File | `/application/plugins/controller/Upload.php` | High
+7 | File | `/application/websocket/controller/Setting.php` | High
+8 | File | `/belegungsplan/wochenuebersicht.inc.php` | High
+9 | File | `/calendar/minimizer/index.php` | High
+10 | File | `/cgi-bin/mainfunction.cgi` | High
+11 | File | `/cgi-bin/nobody/VerifyCode.cgi` | High
+12 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
+13 | File | `/cgi-bin/wlogin.cgi` | High
+14 | File | `/cgi.cgi` | Medium
+15 | File | `/core/tools/update_menu.php` | High
+16 | File | `/counter/index2.php` | High
+17 | File | `/DXR.axd` | Medium
+18 | File | `/forum/away.php` | High
+19 | File | `/general/attendance/manage/ask_duty/delete.php` | High
+20 | File | `/highlight/index.html` | High
+21 | File | `/iisadmin` | Medium
+22 | File | `/iissamples` | Medium
+23 | File | `/include/dialog/select_templets_post.php` | High
+24 | File | `/includes/js/admin.php` | High
+25 | File | `/index.php?menu=asterisk_cli` | High
+26 | File | `/install/` | Medium
+27 | File | `/modx/manager/index.php` | High
+28 | File | `/php-opos/index.php` | High
+29 | File | `/search-result/` | High
+30 | File | `/search.php` | Medium
+31 | File | `/server-status` | High
+32 | File | `/sgms/reports/scheduledreports/configure/scheduleProps.jsp` | High
+33 | File | `/SysInfo1.htm` | High
+34 | File | `/templates/header.inc.php` | High
+35 | File | `/useratte/userattestation.php` | High
+36 | File | `/webmail/` | Medium
+37 | File | `/webmail/server/webmail.php` | High
+38 | ... | ... | ...
 
-There are 338 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 329 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -515,6 +515,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://www.cybereason.com/blog/threat-analysis-report-bumblebee-loader-the-high-road-to-enterprise-domain-control
 * https://www.joesandbox.com/analysis/717845/0/html
 * https://www.joesandbox.com/analysis/1085369
+* https://www.proofpoint.com/us/blog/threat-insight/bumblebee-buzzes-back-black
 * https://www.trendmicro.com/en_us/research/22/i/buzzing-in-the-background-bumblebee-a-new-modular-backdoor-evolv.html
 
 ## Literature

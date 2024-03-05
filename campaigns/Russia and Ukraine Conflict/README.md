@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [VN](https://vuldb.com/?country.vn)
 * [US](https://vuldb.com/?country.us)
-* [DE](https://vuldb.com/?country.de)
+* [TH](https://vuldb.com/?country.th)
 * ...
 
-There are 5 more country items available. Please use our online service to access the data.
+There are 6 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -57,13 +57,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-29, CWE-35, CWE-425 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-29, CWE-35, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -71,56 +72,48 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/academy/home/courses` | High
-2 | File | `/academy/tutor/filter` | High
-3 | File | `/addbill.php` | Medium
-4 | File | `/admin/?page=user/manage_user&id=3` | High
-5 | File | `/admin/admin_user.php` | High
-6 | File | `/admin/bwdates-report-details.php` | High
-7 | File | `/admin/index2.html` | High
-8 | File | `/admin/sales/view_details.php` | High
-9 | File | `/api/baskets/{name}` | High
-10 | File | `/api/sys/set_passwd` | High
-11 | File | `/aqpg/users/login.php` | High
-12 | File | `/b2b-supermarket/shopping-cart` | High
-13 | File | `/bin/login` | Medium
-14 | File | `/bsms_ci/index.php/user/edit_user/` | High
-15 | File | `/calendar/minimizer/index.php` | High
-16 | File | `/cgi-bin/cstecgi.cgi` | High
-17 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-18 | File | `/cgi-bin/vitogate.cgi` | High
-19 | File | `/cgi-bin/wlogin.cgi` | High
-20 | File | `/common/info.cgi` | High
-21 | File | `/dayrui/My/Config/Install.txt` | High
-22 | File | `/DesignTools/CssEditor.aspx` | High
-23 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
-24 | File | `/DXR.axd` | Medium
-25 | File | `/endpoint/add-user.php` | High
-26 | File | `/forum/away.php` | High
-27 | File | `/forums/editforum.php` | High
-28 | File | `/gracemedia-media-player/templates/files/ajax_controller.php` | High
-29 | File | `/home/courses` | High
-30 | File | `/hrm/controller/employee.php` | High
-31 | File | `/hrm/employeeview.php` | High
-32 | File | `/importexport.php` | High
-33 | File | `/includes/db_connect.php` | High
-34 | File | `/includes/session.php` | High
-35 | File | `/index.php` | Medium
-36 | File | `/mc` | Low
-37 | File | `/mifs/c/i/reg/reg.html` | High
-38 | File | `/modals/class_form.php` | High
-39 | File | `/modules/projects/vw_files.php` | High
-40 | File | `/modules/public/calendar.php` | High
-41 | File | `/modules/public/date_format.php` | High
-42 | File | `/modules/tasks/gantt.php` | High
-43 | File | `/php-fusion/infusions/shoutbox_panel/shoutbox_archive.php` | High
-44 | File | `/project/tasks/list` | High
-45 | File | `/search.php` | Medium
-46 | File | `/setting` | Medium
-47 | File | `/spip.php` | Medium
-48 | ... | ... | ...
+1 | File | `/academy/tutor/filter` | High
+2 | File | `/addbill.php` | Medium
+3 | File | `/admin/admin_user.php` | High
+4 | File | `/admin/bwdates-report-details.php` | High
+5 | File | `/admin/index2.html` | High
+6 | File | `/admin/sales/view_details.php` | High
+7 | File | `/api/baskets/{name}` | High
+8 | File | `/aqpg/users/login.php` | High
+9 | File | `/b2b-supermarket/shopping-cart` | High
+10 | File | `/bin/login` | Medium
+11 | File | `/calendar/minimizer/index.php` | High
+12 | File | `/cgi-bin/cstecgi.cgi` | High
+13 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+14 | File | `/cgi-bin/vitogate.cgi` | High
+15 | File | `/cgi-bin/wlogin.cgi` | High
+16 | File | `/common/info.cgi` | High
+17 | File | `/core/conditions/AbstractWrapper.java` | High
+18 | File | `/core/tools/update_menu.php` | High
+19 | File | `/dayrui/My/Config/Install.txt` | High
+20 | File | `/DesignTools/CssEditor.aspx` | High
+21 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
+22 | File | `/DXR.axd` | Medium
+23 | File | `/edit.php` | Medium
+24 | File | `/endpoint/add-user.php` | High
+25 | File | `/forum/away.php` | High
+26 | File | `/forums/editforum.php` | High
+27 | File | `/gracemedia-media-player/templates/files/ajax_controller.php` | High
+28 | File | `/home/courses` | High
+29 | File | `/hrm/controller/employee.php` | High
+30 | File | `/hrm/employeeview.php` | High
+31 | File | `/importexport.php` | High
+32 | File | `/include/file.php` | High
+33 | File | `/index.php?menu=asterisk_cli` | High
+34 | File | `/install/` | Medium
+35 | File | `/mc` | Low
+36 | File | `/modals/class_form.php` | High
+37 | File | `/modules/projects/vw_files.php` | High
+38 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
+39 | File | `/php-opos/index.php` | High
+40 | ... | ... | ...
 
-There are 417 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 347 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

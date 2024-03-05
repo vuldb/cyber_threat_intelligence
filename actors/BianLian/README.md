@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with BianLian:
 
 * [US](https://vuldb.com/?country.us)
-* [VN](https://vuldb.com/?country.vn)
 * [CN](https://vuldb.com/?country.cn)
+* [VN](https://vuldb.com/?country.vn)
 * ...
 
-There are 12 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -57,108 +57,116 @@ ID | IP address | Hostname | Campaign | Confidence
 34 | [5.230.74.62](https://vuldb.com/?ip.5.230.74.62) | placeholder.noezserver.de | - | High
 35 | [5.230.74.81](https://vuldb.com/?ip.5.230.74.81) | - | - | High
 36 | [5.255.97.126](https://vuldb.com/?ip.5.255.97.126) | - | - | High
-37 | [5.255.123.19](https://vuldb.com/?ip.5.255.123.19) | - | - | High
-38 | [13.36.137.110](https://vuldb.com/?ip.13.36.137.110) | ec2-13-36-137-110.eu-west-3.compute.amazonaws.com | - | Medium
-39 | [13.38.36.123](https://vuldb.com/?ip.13.38.36.123) | ec2-13-38-36-123.eu-west-3.compute.amazonaws.com | - | Medium
-40 | [13.38.37.128](https://vuldb.com/?ip.13.38.37.128) | ec2-13-38-37-128.eu-west-3.compute.amazonaws.com | - | Medium
-41 | [13.39.160.220](https://vuldb.com/?ip.13.39.160.220) | ec2-13-39-160-220.eu-west-3.compute.amazonaws.com | - | Medium
-42 | [13.49.57.110](https://vuldb.com/?ip.13.49.57.110) | ec2-13-49-57-110.eu-north-1.compute.amazonaws.com | - | Medium
-43 | [13.59.168.154](https://vuldb.com/?ip.13.59.168.154) | ec2-13-59-168-154.us-east-2.compute.amazonaws.com | - | Medium
-44 | [13.212.116.128](https://vuldb.com/?ip.13.212.116.128) | ec2-13-212-116-128.ap-southeast-1.compute.amazonaws.com | - | Medium
-45 | [13.215.227.78](https://vuldb.com/?ip.13.215.227.78) | ec2-13-215-227-78.ap-southeast-1.compute.amazonaws.com | - | Medium
-46 | [13.215.228.73](https://vuldb.com/?ip.13.215.228.73) | ec2-13-215-228-73.ap-southeast-1.compute.amazonaws.com | - | Medium
-47 | [15.188.49.63](https://vuldb.com/?ip.15.188.49.63) | ec2-15-188-49-63.eu-west-3.compute.amazonaws.com | - | Medium
-48 | [16.162.137.220](https://vuldb.com/?ip.16.162.137.220) | ec2-16-162-137-220.ap-east-1.compute.amazonaws.com | - | Medium
-49 | [18.130.242.71](https://vuldb.com/?ip.18.130.242.71) | ec2-18-130-242-71.eu-west-2.compute.amazonaws.com | - | Medium
-50 | [18.144.70.39](https://vuldb.com/?ip.18.144.70.39) | ec2-18-144-70-39.us-west-1.compute.amazonaws.com | - | Medium
-51 | [18.159.131.20](https://vuldb.com/?ip.18.159.131.20) | ec2-18-159-131-20.eu-central-1.compute.amazonaws.com | - | Medium
-52 | [18.159.131.209](https://vuldb.com/?ip.18.159.131.209) | ec2-18-159-131-209.eu-central-1.compute.amazonaws.com | - | Medium
-53 | [18.191.133.139](https://vuldb.com/?ip.18.191.133.139) | ec2-18-191-133-139.us-east-2.compute.amazonaws.com | - | Medium
-54 | [18.204.17.193](https://vuldb.com/?ip.18.204.17.193) | ec2-18-204-17-193.compute-1.amazonaws.com | - | Medium
-55 | [18.221.191.129](https://vuldb.com/?ip.18.221.191.129) | ec2-18-221-191-129.us-east-2.compute.amazonaws.com | - | Medium
-56 | [20.68.243.107](https://vuldb.com/?ip.20.68.243.107) | - | - | High
-57 | [23.94.56.154](https://vuldb.com/?ip.23.94.56.154) | 23-94-56-154-host.colocrossing.com | - | High
-58 | [23.106.215.47](https://vuldb.com/?ip.23.106.215.47) | - | - | High
-59 | [23.106.223.117](https://vuldb.com/?ip.23.106.223.117) | - | - | High
-60 | [23.152.0.64](https://vuldb.com/?ip.23.152.0.64) | - | - | High
-61 | [23.163.0.32](https://vuldb.com/?ip.23.163.0.32) | gods-cible.hotelalder.com | - | High
-62 | [23.163.0.34](https://vuldb.com/?ip.23.163.0.34) | hehomeset.com | - | High
-63 | [23.163.0.50](https://vuldb.com/?ip.23.163.0.50) | nordns.crowncloud.net | - | High
-64 | [23.163.0.51](https://vuldb.com/?ip.23.163.0.51) | good-jikmoon.electmum.com | - | High
-65 | [23.163.0.149](https://vuldb.com/?ip.23.163.0.149) | lyfb-000149.lyfbuz.com | - | High
-66 | [23.163.0.168](https://vuldb.com/?ip.23.163.0.168) | tech-000168.techydrov.com | - | High
-67 | [23.163.0.228](https://vuldb.com/?ip.23.163.0.228) | scary-pencil.fluentbeam.com | - | High
-68 | [23.163.0.241](https://vuldb.com/?ip.23.163.0.241) | way2-000241.way2moveis.com | - | High
-69 | [23.227.198.243](https://vuldb.com/?ip.23.227.198.243) | 23-227-198-243.static.hvvc.us | - | High
-70 | [23.227.203.245](https://vuldb.com/?ip.23.227.203.245) | 23-227-203-245.static.hvvc.us | - | High
-71 | [23.229.117.247](https://vuldb.com/?ip.23.229.117.247) | - | - | High
-72 | [31.13.195.125](https://vuldb.com/?ip.31.13.195.125) | - | - | High
-73 | [34.172.205.52](https://vuldb.com/?ip.34.172.205.52) | 52.205.172.34.bc.googleusercontent.com | - | Medium
-74 | [34.207.174.202](https://vuldb.com/?ip.34.207.174.202) | ec2-34-207-174-202.compute-1.amazonaws.com | - | Medium
-75 | [34.219.121.232](https://vuldb.com/?ip.34.219.121.232) | ec2-34-219-121-232.us-west-2.compute.amazonaws.com | - | Medium
-76 | [34.245.119.31](https://vuldb.com/?ip.34.245.119.31) | ec2-34-245-119-31.eu-west-1.compute.amazonaws.com | - | Medium
-77 | [34.249.53.58](https://vuldb.com/?ip.34.249.53.58) | ec2-34-249-53-58.eu-west-1.compute.amazonaws.com | - | Medium
-78 | [35.157.43.44](https://vuldb.com/?ip.35.157.43.44) | ec2-35-157-43-44.eu-central-1.compute.amazonaws.com | - | Medium
-79 | [35.180.225.185](https://vuldb.com/?ip.35.180.225.185) | ec2-35-180-225-185.eu-west-3.compute.amazonaws.com | - | Medium
-80 | [35.181.59.201](https://vuldb.com/?ip.35.181.59.201) | ec2-35-181-59-201.eu-west-3.compute.amazonaws.com | - | Medium
-81 | [35.183.14.149](https://vuldb.com/?ip.35.183.14.149) | ec2-35-183-14-149.ca-central-1.compute.amazonaws.com | - | Medium
-82 | [37.1.220.35](https://vuldb.com/?ip.37.1.220.35) | - | - | High
-83 | [37.120.239.146](https://vuldb.com/?ip.37.120.239.146) | - | - | High
-84 | [37.220.31.17](https://vuldb.com/?ip.37.220.31.17) | aviation.metagroups.info | - | High
-85 | [37.220.31.54](https://vuldb.com/?ip.37.220.31.54) | d6.wve.futuristi-ccoding.com | - | High
-86 | [37.220.31.104](https://vuldb.com/?ip.37.220.31.104) | 10-4netw0rk.mynet.com.tr | - | High
-87 | [37.228.129.4](https://vuldb.com/?ip.37.228.129.4) | - | - | High
-88 | [37.235.54.42](https://vuldb.com/?ip.37.235.54.42) | 42.54.235.37.in-addr.arpa | - | High
-89 | [37.235.54.52](https://vuldb.com/?ip.37.235.54.52) | 52.54.235.37.in-addr.arpa | - | High
-90 | [37.235.54.81](https://vuldb.com/?ip.37.235.54.81) | 81.54.235.37.in-addr.arpa | - | High
-91 | [38.62.236.182](https://vuldb.com/?ip.38.62.236.182) | - | - | High
-92 | [41.199.178.166](https://vuldb.com/?ip.41.199.178.166) | HOST-166-178.199.41.nile-online.net | - | High
-93 | [43.139.241.58](https://vuldb.com/?ip.43.139.241.58) | - | - | High
-94 | [43.155.77.226](https://vuldb.com/?ip.43.155.77.226) | - | - | High
-95 | [43.155.116.250](https://vuldb.com/?ip.43.155.116.250) | - | - | High
-96 | [43.239.158.5](https://vuldb.com/?ip.43.239.158.5) | - | - | High
-97 | [44.203.127.31](https://vuldb.com/?ip.44.203.127.31) | ec2-44-203-127-31.compute-1.amazonaws.com | - | Medium
-98 | [44.212.9.14](https://vuldb.com/?ip.44.212.9.14) | ec2-44-212-9-14.compute-1.amazonaws.com | - | Medium
-99 | [44.212.18.9](https://vuldb.com/?ip.44.212.18.9) | ec2-44-212-18-9.compute-1.amazonaws.com | - | Medium
-100 | [45.9.150.132](https://vuldb.com/?ip.45.9.150.132) | - | - | High
-101 | [45.12.2.230](https://vuldb.com/?ip.45.12.2.230) | iNfAcTor.disneybaby.com | - | High
-102 | [45.12.2.242](https://vuldb.com/?ip.45.12.2.242) | chuchu.tigateworld.com | - | High
-103 | [45.32.124.182](https://vuldb.com/?ip.45.32.124.182) | 45.32.124.182.vultrusercontent.com | - | High
-104 | [45.33.119.19](https://vuldb.com/?ip.45.33.119.19) | li1056-19.members.linode.com | - | High
-105 | [45.45.219.118](https://vuldb.com/?ip.45.45.219.118) | - | - | High
-106 | [45.45.219.141](https://vuldb.com/?ip.45.45.219.141) | - | - | High
-107 | [45.55.132.52](https://vuldb.com/?ip.45.55.132.52) | astrology.com | - | High
-108 | [45.56.162.16](https://vuldb.com/?ip.45.56.162.16) | sand-162016.sandartery.com | - | High
-109 | [45.56.165.17](https://vuldb.com/?ip.45.56.165.17) | nordns.crowncloud.net | - | High
-110 | [45.56.165.27](https://vuldb.com/?ip.45.56.165.27) | server.jascoconsultingllc.com | - | High
-111 | [45.56.165.30](https://vuldb.com/?ip.45.56.165.30) | nordns.crowncloud.net | - | High
-112 | [45.58.52.123](https://vuldb.com/?ip.45.58.52.123) | - | - | High
-113 | [45.61.136.152](https://vuldb.com/?ip.45.61.136.152) | - | - | High
-114 | [45.61.139.234](https://vuldb.com/?ip.45.61.139.234) | - | - | High
-115 | [45.64.186.135](https://vuldb.com/?ip.45.64.186.135) | hml02.murrowirrime.info | - | High
-116 | [45.66.248.135](https://vuldb.com/?ip.45.66.248.135) | mta0.chasemake.com | - | High
-117 | [45.66.249.118](https://vuldb.com/?ip.45.66.249.118) | 7r277nw66g.shybeaveronline.com | - | High
-118 | [45.76.80.199](https://vuldb.com/?ip.45.76.80.199) | 45.76.80.199.vultrusercontent.com | - | High
-119 | [45.76.181.107](https://vuldb.com/?ip.45.76.181.107) | 45.76.181.107.vultrusercontent.com | - | High
-120 | [45.77.198.117](https://vuldb.com/?ip.45.77.198.117) | 45.77.198.117.vultrusercontent.com | - | High
-121 | [45.80.151.49](https://vuldb.com/?ip.45.80.151.49) | - | - | High
-122 | [45.82.72.227](https://vuldb.com/?ip.45.82.72.227) | - | - | High
-123 | [45.82.153.168](https://vuldb.com/?ip.45.82.153.168) | - | - | High
-124 | [45.86.163.188](https://vuldb.com/?ip.45.86.163.188) | - | - | High
-125 | [45.86.163.224](https://vuldb.com/?ip.45.86.163.224) | - | - | High
-126 | [45.86.163.228](https://vuldb.com/?ip.45.86.163.228) | - | - | High
-127 | [45.86.230.64](https://vuldb.com/?ip.45.86.230.64) | srv2.lg-c.net | - | High
-128 | [45.87.155.88](https://vuldb.com/?ip.45.87.155.88) | yarom.com | - | High
-129 | [45.92.156.105](https://vuldb.com/?ip.45.92.156.105) | - | - | High
-130 | [45.114.129.150](https://vuldb.com/?ip.45.114.129.150) | hostedby.idfnv.net | - | High
-131 | [45.125.64.198](https://vuldb.com/?ip.45.125.64.198) | openisa.dealingdeals4us.info | - | High
-132 | [45.128.156.3](https://vuldb.com/?ip.45.128.156.3) | webfair.store | - | High
-133 | [45.128.156.10](https://vuldb.com/?ip.45.128.156.10) | frm3-zendable.com | - | High
-134 | [45.128.156.43](https://vuldb.com/?ip.45.128.156.43) | buyetcapp.store | - | High
-135 | [45.134.173.229](https://vuldb.com/?ip.45.134.173.229) | mta02.speedtsur.info | - | High
-136 | ... | ... | ... | ...
+37 | [5.255.117.32](https://vuldb.com/?ip.5.255.117.32) | - | - | High
+38 | [5.255.123.19](https://vuldb.com/?ip.5.255.123.19) | - | - | High
+39 | [13.36.137.110](https://vuldb.com/?ip.13.36.137.110) | ec2-13-36-137-110.eu-west-3.compute.amazonaws.com | - | Medium
+40 | [13.37.127.130](https://vuldb.com/?ip.13.37.127.130) | ec2-13-37-127-130.eu-west-3.compute.amazonaws.com | - | Medium
+41 | [13.38.36.123](https://vuldb.com/?ip.13.38.36.123) | ec2-13-38-36-123.eu-west-3.compute.amazonaws.com | - | Medium
+42 | [13.38.37.128](https://vuldb.com/?ip.13.38.37.128) | ec2-13-38-37-128.eu-west-3.compute.amazonaws.com | - | Medium
+43 | [13.39.160.220](https://vuldb.com/?ip.13.39.160.220) | ec2-13-39-160-220.eu-west-3.compute.amazonaws.com | - | Medium
+44 | [13.49.57.110](https://vuldb.com/?ip.13.49.57.110) | ec2-13-49-57-110.eu-north-1.compute.amazonaws.com | - | Medium
+45 | [13.59.168.154](https://vuldb.com/?ip.13.59.168.154) | ec2-13-59-168-154.us-east-2.compute.amazonaws.com | - | Medium
+46 | [13.212.116.128](https://vuldb.com/?ip.13.212.116.128) | ec2-13-212-116-128.ap-southeast-1.compute.amazonaws.com | - | Medium
+47 | [13.215.227.78](https://vuldb.com/?ip.13.215.227.78) | ec2-13-215-227-78.ap-southeast-1.compute.amazonaws.com | - | Medium
+48 | [13.215.228.73](https://vuldb.com/?ip.13.215.228.73) | ec2-13-215-228-73.ap-southeast-1.compute.amazonaws.com | - | Medium
+49 | [15.188.49.63](https://vuldb.com/?ip.15.188.49.63) | ec2-15-188-49-63.eu-west-3.compute.amazonaws.com | - | Medium
+50 | [16.162.137.220](https://vuldb.com/?ip.16.162.137.220) | ec2-16-162-137-220.ap-east-1.compute.amazonaws.com | - | Medium
+51 | [18.130.242.71](https://vuldb.com/?ip.18.130.242.71) | ec2-18-130-242-71.eu-west-2.compute.amazonaws.com | - | Medium
+52 | [18.144.70.39](https://vuldb.com/?ip.18.144.70.39) | ec2-18-144-70-39.us-west-1.compute.amazonaws.com | - | Medium
+53 | [18.159.131.20](https://vuldb.com/?ip.18.159.131.20) | ec2-18-159-131-20.eu-central-1.compute.amazonaws.com | - | Medium
+54 | [18.159.131.209](https://vuldb.com/?ip.18.159.131.209) | ec2-18-159-131-209.eu-central-1.compute.amazonaws.com | - | Medium
+55 | [18.191.133.139](https://vuldb.com/?ip.18.191.133.139) | ec2-18-191-133-139.us-east-2.compute.amazonaws.com | - | Medium
+56 | [18.204.17.193](https://vuldb.com/?ip.18.204.17.193) | ec2-18-204-17-193.compute-1.amazonaws.com | - | Medium
+57 | [18.221.191.129](https://vuldb.com/?ip.18.221.191.129) | ec2-18-221-191-129.us-east-2.compute.amazonaws.com | - | Medium
+58 | [20.68.243.107](https://vuldb.com/?ip.20.68.243.107) | - | - | High
+59 | [23.94.56.154](https://vuldb.com/?ip.23.94.56.154) | 23-94-56-154-host.colocrossing.com | - | High
+60 | [23.106.215.47](https://vuldb.com/?ip.23.106.215.47) | - | - | High
+61 | [23.106.223.117](https://vuldb.com/?ip.23.106.223.117) | - | - | High
+62 | [23.152.0.64](https://vuldb.com/?ip.23.152.0.64) | - | - | High
+63 | [23.163.0.32](https://vuldb.com/?ip.23.163.0.32) | gods-cible.hotelalder.com | - | High
+64 | [23.163.0.34](https://vuldb.com/?ip.23.163.0.34) | hehomeset.com | - | High
+65 | [23.163.0.50](https://vuldb.com/?ip.23.163.0.50) | nordns.crowncloud.net | - | High
+66 | [23.163.0.51](https://vuldb.com/?ip.23.163.0.51) | good-jikmoon.electmum.com | - | High
+67 | [23.163.0.149](https://vuldb.com/?ip.23.163.0.149) | lyfb-000149.lyfbuz.com | - | High
+68 | [23.163.0.168](https://vuldb.com/?ip.23.163.0.168) | tech-000168.techydrov.com | - | High
+69 | [23.163.0.228](https://vuldb.com/?ip.23.163.0.228) | scary-pencil.fluentbeam.com | - | High
+70 | [23.163.0.241](https://vuldb.com/?ip.23.163.0.241) | way2-000241.way2moveis.com | - | High
+71 | [23.227.198.243](https://vuldb.com/?ip.23.227.198.243) | 23-227-198-243.static.hvvc.us | - | High
+72 | [23.227.203.245](https://vuldb.com/?ip.23.227.203.245) | 23-227-203-245.static.hvvc.us | - | High
+73 | [23.229.31.21](https://vuldb.com/?ip.23.229.31.21) | - | - | High
+74 | [23.229.117.247](https://vuldb.com/?ip.23.229.117.247) | - | - | High
+75 | [31.13.195.125](https://vuldb.com/?ip.31.13.195.125) | - | - | High
+76 | [31.220.80.82](https://vuldb.com/?ip.31.220.80.82) | vmi1217242.contaboserver.net | - | High
+77 | [34.172.205.52](https://vuldb.com/?ip.34.172.205.52) | 52.205.172.34.bc.googleusercontent.com | - | Medium
+78 | [34.207.174.202](https://vuldb.com/?ip.34.207.174.202) | ec2-34-207-174-202.compute-1.amazonaws.com | - | Medium
+79 | [34.219.121.232](https://vuldb.com/?ip.34.219.121.232) | ec2-34-219-121-232.us-west-2.compute.amazonaws.com | - | Medium
+80 | [34.245.119.31](https://vuldb.com/?ip.34.245.119.31) | ec2-34-245-119-31.eu-west-1.compute.amazonaws.com | - | Medium
+81 | [34.249.53.58](https://vuldb.com/?ip.34.249.53.58) | ec2-34-249-53-58.eu-west-1.compute.amazonaws.com | - | Medium
+82 | [35.157.43.44](https://vuldb.com/?ip.35.157.43.44) | ec2-35-157-43-44.eu-central-1.compute.amazonaws.com | - | Medium
+83 | [35.180.225.185](https://vuldb.com/?ip.35.180.225.185) | ec2-35-180-225-185.eu-west-3.compute.amazonaws.com | - | Medium
+84 | [35.181.59.201](https://vuldb.com/?ip.35.181.59.201) | ec2-35-181-59-201.eu-west-3.compute.amazonaws.com | - | Medium
+85 | [35.183.14.149](https://vuldb.com/?ip.35.183.14.149) | ec2-35-183-14-149.ca-central-1.compute.amazonaws.com | - | Medium
+86 | [37.1.220.35](https://vuldb.com/?ip.37.1.220.35) | - | - | High
+87 | [37.120.239.146](https://vuldb.com/?ip.37.120.239.146) | - | - | High
+88 | [37.128.207.56](https://vuldb.com/?ip.37.128.207.56) | - | - | High
+89 | [37.220.31.17](https://vuldb.com/?ip.37.220.31.17) | aviation.metagroups.info | - | High
+90 | [37.220.31.54](https://vuldb.com/?ip.37.220.31.54) | d6.wve.futuristi-ccoding.com | - | High
+91 | [37.220.31.104](https://vuldb.com/?ip.37.220.31.104) | 10-4netw0rk.mynet.com.tr | - | High
+92 | [37.228.129.4](https://vuldb.com/?ip.37.228.129.4) | - | - | High
+93 | [37.235.54.42](https://vuldb.com/?ip.37.235.54.42) | 42.54.235.37.in-addr.arpa | - | High
+94 | [37.235.54.52](https://vuldb.com/?ip.37.235.54.52) | 52.54.235.37.in-addr.arpa | - | High
+95 | [37.235.54.81](https://vuldb.com/?ip.37.235.54.81) | 81.54.235.37.in-addr.arpa | - | High
+96 | [38.62.230.181](https://vuldb.com/?ip.38.62.230.181) | - | - | High
+97 | [38.62.236.152](https://vuldb.com/?ip.38.62.236.152) | - | - | High
+98 | [38.62.236.182](https://vuldb.com/?ip.38.62.236.182) | - | - | High
+99 | [41.199.178.166](https://vuldb.com/?ip.41.199.178.166) | HOST-166-178.199.41.nile-online.net | - | High
+100 | [43.139.241.58](https://vuldb.com/?ip.43.139.241.58) | - | - | High
+101 | [43.155.77.226](https://vuldb.com/?ip.43.155.77.226) | - | - | High
+102 | [43.155.116.250](https://vuldb.com/?ip.43.155.116.250) | - | - | High
+103 | [43.239.158.5](https://vuldb.com/?ip.43.239.158.5) | - | - | High
+104 | [44.203.127.31](https://vuldb.com/?ip.44.203.127.31) | ec2-44-203-127-31.compute-1.amazonaws.com | - | Medium
+105 | [44.212.9.14](https://vuldb.com/?ip.44.212.9.14) | ec2-44-212-9-14.compute-1.amazonaws.com | - | Medium
+106 | [44.212.18.9](https://vuldb.com/?ip.44.212.18.9) | ec2-44-212-18-9.compute-1.amazonaws.com | - | Medium
+107 | [45.9.150.132](https://vuldb.com/?ip.45.9.150.132) | - | - | High
+108 | [45.12.2.230](https://vuldb.com/?ip.45.12.2.230) | iNfAcTor.disneybaby.com | - | High
+109 | [45.12.2.242](https://vuldb.com/?ip.45.12.2.242) | chuchu.tigateworld.com | - | High
+110 | [45.32.124.182](https://vuldb.com/?ip.45.32.124.182) | 45.32.124.182.vultrusercontent.com | - | High
+111 | [45.33.119.19](https://vuldb.com/?ip.45.33.119.19) | li1056-19.members.linode.com | - | High
+112 | [45.45.219.118](https://vuldb.com/?ip.45.45.219.118) | - | - | High
+113 | [45.45.219.141](https://vuldb.com/?ip.45.45.219.141) | - | - | High
+114 | [45.55.128.82](https://vuldb.com/?ip.45.55.128.82) | - | - | High
+115 | [45.55.132.52](https://vuldb.com/?ip.45.55.132.52) | astrology.com | - | High
+116 | [45.56.162.16](https://vuldb.com/?ip.45.56.162.16) | sand-162016.sandartery.com | - | High
+117 | [45.56.165.17](https://vuldb.com/?ip.45.56.165.17) | nordns.crowncloud.net | - | High
+118 | [45.56.165.27](https://vuldb.com/?ip.45.56.165.27) | server.jascoconsultingllc.com | - | High
+119 | [45.56.165.30](https://vuldb.com/?ip.45.56.165.30) | nordns.crowncloud.net | - | High
+120 | [45.58.52.17](https://vuldb.com/?ip.45.58.52.17) | server.asiatldes.com | - | High
+121 | [45.58.52.123](https://vuldb.com/?ip.45.58.52.123) | - | - | High
+122 | [45.61.136.152](https://vuldb.com/?ip.45.61.136.152) | - | - | High
+123 | [45.61.138.43](https://vuldb.com/?ip.45.61.138.43) | - | - | High
+124 | [45.61.139.234](https://vuldb.com/?ip.45.61.139.234) | - | - | High
+125 | [45.64.186.135](https://vuldb.com/?ip.45.64.186.135) | hml02.murrowirrime.info | - | High
+126 | [45.66.248.84](https://vuldb.com/?ip.45.66.248.84) | - | - | High
+127 | [45.66.248.135](https://vuldb.com/?ip.45.66.248.135) | mta0.chasemake.com | - | High
+128 | [45.66.249.118](https://vuldb.com/?ip.45.66.249.118) | 7r277nw66g.shybeaveronline.com | - | High
+129 | [45.76.80.199](https://vuldb.com/?ip.45.76.80.199) | 45.76.80.199.vultrusercontent.com | - | High
+130 | [45.76.181.107](https://vuldb.com/?ip.45.76.181.107) | 45.76.181.107.vultrusercontent.com | - | High
+131 | [45.77.198.117](https://vuldb.com/?ip.45.77.198.117) | 45.77.198.117.vultrusercontent.com | - | High
+132 | [45.80.151.49](https://vuldb.com/?ip.45.80.151.49) | - | - | High
+133 | [45.82.72.227](https://vuldb.com/?ip.45.82.72.227) | - | - | High
+134 | [45.82.153.168](https://vuldb.com/?ip.45.82.153.168) | - | - | High
+135 | [45.86.163.188](https://vuldb.com/?ip.45.86.163.188) | - | - | High
+136 | [45.86.163.224](https://vuldb.com/?ip.45.86.163.224) | - | - | High
+137 | [45.86.163.228](https://vuldb.com/?ip.45.86.163.228) | - | - | High
+138 | [45.86.230.64](https://vuldb.com/?ip.45.86.230.64) | srv2.lg-c.net | - | High
+139 | [45.87.155.88](https://vuldb.com/?ip.45.87.155.88) | yarom.com | - | High
+140 | [45.92.156.105](https://vuldb.com/?ip.45.92.156.105) | - | - | High
+141 | [45.114.129.150](https://vuldb.com/?ip.45.114.129.150) | hostedby.idfnv.net | - | High
+142 | [45.125.64.198](https://vuldb.com/?ip.45.125.64.198) | openisa.dealingdeals4us.info | - | High
+143 | [45.128.133.21](https://vuldb.com/?ip.45.128.133.21) | - | - | High
+144 | ... | ... | ... | ...
 
-There are 540 more IOC items available. Please use our online service to access the data.
+There are 570 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -166,13 +174,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-24 | Pathname Traversal | High
+1 | T1006 | CWE-22, CWE-24 | Path Traversal | High
 2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -184,40 +192,41 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin/` | Low
 3 | File | `/admin/admin_user.php` | High
 4 | File | `/admin/category/save` | High
-5 | File | `/admin/maintenance/view_designation.php` | High
-6 | File | `/admin/search-appointment.php` | High
-7 | File | `/admin/subject.php` | High
-8 | File | `/app/options.py` | High
-9 | File | `/auth/auth.php?user=1` | High
-10 | File | `/boaform/device_reset.cgi` | High
-11 | File | `/book-services.php` | High
+5 | File | `/admin/list_ipAddressPolicy.php` | High
+6 | File | `/admin/maintenance/view_designation.php` | High
+7 | File | `/admin/search-appointment.php` | High
+8 | File | `/admin/subject.php` | High
+9 | File | `/app/options.py` | High
+10 | File | `/auth/auth.php?user=1` | High
+11 | File | `/boaform/device_reset.cgi` | High
 12 | File | `/cgi-bin/cstecgi.cgi` | High
 13 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
 14 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
 15 | File | `/cgi-bin/wlogin.cgi` | High
 16 | File | `/cgi/cpaddons_report.pl` | High
-17 | File | `/debug/pprof` | Medium
-18 | File | `/DXR.axd` | Medium
-19 | File | `/forum/away.php` | High
-20 | File | `/goform/goform_get_cmd_process` | High
-21 | File | `/HNAP1/` | Low
-22 | File | `/importexport.php` | High
-23 | File | `/main/doctype.php` | High
-24 | File | `/main/webservices/additional_webservices.php` | High
-25 | File | `/mc` | Low
-26 | File | `/mgmt/` | Low
-27 | File | `/oauth/idp/.well-known/openid-configuration` | High
-28 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-29 | File | `/preview.php` | Medium
-30 | File | `/register.php` | High
-31 | File | `/server-status` | High
+17 | File | `/common/dict/list` | High
+18 | File | `/debug/pprof` | Medium
+19 | File | `/DXR.axd` | Medium
+20 | File | `/forum/away.php` | High
+21 | File | `/goform/goform_get_cmd_process` | High
+22 | File | `/HNAP1/` | Low
+23 | File | `/importexport.php` | High
+24 | File | `/main/doctype.php` | High
+25 | File | `/main/webservices/additional_webservices.php` | High
+26 | File | `/mc` | Low
+27 | File | `/myprofile.php` | High
+28 | File | `/net/bluetooth/rfcomm/core.C` | High
+29 | File | `/oauth/idp/.well-known/openid-configuration` | High
+30 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+31 | File | `/register.php` | High
 32 | File | `/setting/NTPSyncWithHost` | High
 33 | File | `/spip.php` | Medium
 34 | File | `/terminal/handle-command.php` | High
 35 | File | `/uncpath/` | Medium
-36 | ... | ... | ...
+36 | File | `/update-resource-data/` | High
+37 | ... | ... | ...
 
-There are 308 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 322 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -228,8 +237,12 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/2.58.14.41
 * https://search.censys.io/hosts/2.58.15.111
 * https://search.censys.io/hosts/5.161.223.88
+* https://search.censys.io/hosts/38.62.236.152
+* https://search.censys.io/hosts/45.58.52.17
 * https://search.censys.io/hosts/45.66.248.135
+* https://search.censys.io/hosts/45.128.133.21
 * https://search.censys.io/hosts/46.149.76.101
+* https://search.censys.io/hosts/51.159.183.32
 * https://search.censys.io/hosts/62.84.103.154
 * https://search.censys.io/hosts/65.109.166.117+static.117.166.109.65.clients.your-server.de
 * https://search.censys.io/hosts/88.214.25.249
@@ -243,12 +256,15 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/151.236.16.27
 * https://search.censys.io/hosts/151.236.22.182
 * https://search.censys.io/hosts/156.236.76.243
+* https://search.censys.io/hosts/172.205.219.119
 * https://search.censys.io/hosts/185.82.127.212
+* https://search.censys.io/hosts/185.83.113.126
 * https://search.censys.io/hosts/185.243.112.245
 * https://search.censys.io/hosts/192.121.113.129
 * https://search.censys.io/hosts/209.127.186.46
 * https://search.censys.io/hosts/209.127.186.195
 * https://search.censys.io/hosts/209.127.186.233
+* https://search.censys.io/hosts/210.16.120.210
 * https://search.censys.io/hosts/216.238.83.84
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%22a0ca093b2efdccb6a832251c03cab67f70af4d918a2158376f5521017fb65e2b%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%22a08312fb4d7c732f34cbfe5d7a9f84b6638cf53c4b7a994a39d77de2aeb40e4b%22
@@ -260,6 +276,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%22a8acf8933f1108fbf55a9c84b7fecaaa6fead1760af8d1b9da6fae6331bb3541%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%22a8edc058a81ca26ce7ce137aef48f09aab834dd9974929403203cef258623223%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%22a9f0dba902298a463c27d83b8c539ba267995f5e7ee65e6ac24b0fad9d4b83c4%22
+* https://search.censys.io/search?resource=hosts&q=services.certificate%3A%22a22c275708f13d8fd2ba0fff3e08c50f43a8055700c3eaae1bbdca3de70dd43e%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%22a85bd3278dfeac8e3cda14a7d7b619cf2884fd84dd3dcc3333738882775587ae%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%22a233c1de5f25d7fba906d79dae636dba6ee42bd794bbba44b7ff00270a0a7b45%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%22a6150f19c37c92bfbc6d92db21a83fea6d08116bfeec2e88443603fc9b65aef0%22
@@ -278,12 +295,14 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%22b0e362faccad431a7e0a653c473ad23f291c79403696cac237cff35564f5a8a2%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%22b0eb7b9460f11f2dbe05aa15ca0905e18124384ec1451191e1f956220addb6a5%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%22b07b0aa2108ad7c8c05d3a55bd9f7d7f8e02a90884b8b99eaf54101b83d29a0a%22
+* https://search.censys.io/search?resource=hosts&q=services.certificate%3A%22b088059e2e12a46c8655d1e3efb5533790fec4735f5a22ce5772788592bf0807%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%22b1d48d3b1e2de4f34c5d0a84b5d615cff0a5ef03c20bd3673a35a67e2889f6c5%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%22b5d3c2c448ce35bf88d563450dc664f92899f3e438f1cbbc4c7dee7c85a49fb9%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%22b5dd58d8484de4efe0e67ee0e7bde49bf64d729c313c231bbb83f85a9697c228%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%22b6e8925438d85fa4ce8e8936bbd3cf968a7bb2b07be58b2175d057bf729f2fcd%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%22b6f81955b79259fe591adc7a3252069b83eabe3e3d19e76a6ddea8fc6d40da10%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%22b8a87485e6ffc155de26a997065fbdbe9a33d8418fabc3bcfea6ec984839e9dc%22
+* https://search.censys.io/search?resource=hosts&q=services.certificate%3A%22b8fbe9f5761771be32b58d2d432c4f74abc7d1d96c93faeb534b94469ef5e0c2%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%22b15ef04543738a78c4da894fc64cd5cbca6973a2194550f9a9616d2004950c16%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%22b39f885726c989e40aa7bcb78fb417d65f3f1b2169c03e030e9eeb5d266a9197%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%22b58b9ebe1f519edc160ec4f56d5522caa4596230257ec75d82d93b9cfaec0c63%22
@@ -324,12 +343,14 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%22c78931c928b4a1a92f3b7b324ad629e6f214f0c754744370b4429290a3ea1778%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%22c6828131b54d1763f71902802c6b5f3db60b6b3bccef346c78d246cb0735e743%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%22c19111023ded35b0a5b80720a662b351b7f57c18131899891c2686c8c761869f%22
+* https://search.censys.io/search?resource=hosts&q=services.certificate%3A%22c20743418e0312b6fb48e674bf77935d5182a53c28aec732198bbf459993d32d%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%22c37110977687092b83bc51a1b9174780d2ed34fc051899c22bb8e699376c5dbb%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%22ca3e227a3912971b1514834aaf900f74c2f048ae148ad1dd6e07196fdbd95d1e%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%22cbff4c94db0234aa6cb0516600eceb6d5b22e764a333dbbb3e7a8816239e0f2d%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%22cc10c0e94f526de99f4cef244723cec6128c05fe7da7f913c32de8e1b2182f99%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%22cce6e7ac67867dc95d6dee604d8b45b2b894fc13636a08a8c2c57142504d9548%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%22cce80bdb9741cc1b5b2f7a0ef7734007e09662cbac94a32487d8c2745ba00d03%22
+* https://search.censys.io/search?resource=hosts&q=services.certificate%3A%22cd9df2e9e20b2f22dd77bd3e88ee7492eb8e2f1ee13860fd14a728e645a8251a%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%22cd155b015ea2e8d4b4ad255bde80522605cce7dd45e63a553da19eb40f4ba164%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%22cd274fe56f25f49fa8b2108e8692611aed1eff06908b1929b13701a7b8121757%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%22ce97cd23fb93eb9f406f25fe588758adcc842f7d299ccd14dec1dfa4634aa0c5%22
@@ -342,6 +363,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%22d9df611dfbc777b89a20c3346f527fa2b9981782657f6a44a515b8b62b2dff6a%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%22d12ba4226456edac1c9b5937fb0ea3bdc508d1120e5912d7c9d0eb8ee9cc2d32%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%22d62e30b1ad3e4a5e6af1f3e0451ee6432c7949b73751d3a456be5b40c13a447e%22
+* https://search.censys.io/search?resource=hosts&q=services.certificate%3A%22d80e4f06365b6a189965218bb618c4aaeb424c2d0c7a1581ff8f947614f37332%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%22d360ecb50280e8747808acda5f0e2bc9f7e29f4b60576af14284ec6aa87f676b%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%22db12a43510d9c013dd32fd4c5f3d3e8b882f2b3541139a45742c8ddecad999cd%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%22dbddfe3e7c9f992b12a776387ec36baef4689c90e76e70c32f5742fca707cf07%22
@@ -350,6 +372,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%22dd8c978e3efc11293c4dde7798249a1e0cba013e96d20e2a29adf4faa1b3c18c%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%22de2443346c6de5eb76223af9845011eafa4dcdc305b1ab3cc7e29cb87c25306a%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%22e02965151a24e098e731890d714cf7512a4d8bd3f61f2edb24e2d2a388784a6e%22
+* https://search.censys.io/search?resource=hosts&q=services.certificate%3A%22e0344a0a5d8f219ae27b0a37ed9405a3adafdf08e3e516f6f147400aa7f05e64%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%22e079e26331ab421908da3c609f1aa97d58b6c030150498c74aace849c9d7aa12%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%22e1caf0308e9eb8602a988b80c1cc99b11123733769ffe2f970d969a5421e4c31%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%22e2e7399fae3b50cfb2d9f2055430ef5a10ff15f8f05e5b090615af121fef0454%22
@@ -364,6 +387,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%22e333aec0db01cb90f86f3999a744b3463d5a8bc86a582e6b3a6c7cc04b53ba5c%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%22e3298af9fe892648035a035d22de962ffaa2abe523cf3c0b0318a4317752c857%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%22e4357b9507e9ddd2dd566551d30a8d495fea13c42a8df96ce2584eb5cde36dbb%22
+* https://search.censys.io/search?resource=hosts&q=services.certificate%3A%22e4846b3500583ef91568c4a5ba08eb0350956c3e8ce71e6ce54c1c76748cdb80%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%22e8171da4f1059e0b1e48d8ec788a975159f28a0bdc27b4cdba014fb55aa6f236%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%22e8751ab788f4ff73d0facc30a0b2ec5ea37a18fce1b1aa38f8eadcec19745a5e%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%22e62160ae86ff880d0516811cb33e8fe31949daf9dee136cec2a96b72dd115518%22
@@ -372,6 +396,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%22ebcbd208dfc442cdfb1be34d6cc99cac2d35f87bfe4fd6d7b1b87c1e212bbfa2%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%22ec7292eb3e9757445c8533dc830f38bc0690c8f91d8d684f0ffb8faa1db74000%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%22ecc06ccade3b4dac6f4558476d742b7e88df4375c6ab11b186d217433244afd1%22
+* https://search.censys.io/search?resource=hosts&q=services.certificate%3A%22ed252ea59e5753951c807090cb7df07e9deebcdb97835f51c148c4169f15a3f9%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%22ef39fdbc59a559df2462ce0956458a80e6338d58d04f366d90cdb7965f5edcb2%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%22efadcf13721f669472945371a57fa40a4bdbed063fde1b851a311ead7c66c3ef%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%22f0a9da6183475506a6b6ffaff59beb88f2713af7b0ae89629a29dbd7267929a7%22
@@ -400,6 +425,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%22fcdd83167b92e1c7bdec56fc9d7f46ab044bca777ef3901d84debb12b60c8d43%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%22fdbfb2e037b1276e0a70cae3fb21ff4f8052df57117967e0af038d5999f8ae9a%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%22fdffacdd96db3eb4c84ea257e4ecdfd2c18ccf184804e78315545be0026314b7%22
+* https://search.censys.io/search?resource=hosts&q=services.certificate%3A%22fec1c596de0893fcb976895e2e09bfcda799be536f6a71b1320f5429eac5c565%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%220b5b4b77e76fc323debdd6b60e05ce3c80d6d305512fd066259e25e7b91bb3b2%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%220bed903c9b43242ce2bf776bc1f8b826a47442ec472bf28e3d300221d45e5631%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%220c92aa99f6dbc7e76b8248b06e393fc5a0967bf6bdc5ac88b1753f79ff1be159%22
@@ -411,6 +437,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%220edd2d75fcf4c8b0840516d473cfc5d8af8606fa301ebac23fc210cf79d1dd0d%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%220f44657bc73691af07715812236ab162bb75df18a28f317fd77f077ff22c5ad0%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%221af6ae62dca201286d4b11ee20fd1e8dcf343d2e8500de51f9175bcf3d12e06f%22
+* https://search.censys.io/search?resource=hosts&q=services.certificate%3A%221b00dfd6a492dcb9e9f22913ed64a36da34672a59cd5610d8e9438976ded4dc9%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%221b6d4e3302e4407da1693a4e39b4d352656e2fd7053af0c46a6ae9be62e77a9c%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%221bbd0b2ebe5d1d0eee59adbdd54f5ad1bdcf84cb4baee7784729aedf22502cf6%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%221bd713b603ea09badad645fd38c8e9f75629d122cd81fcecd00ab2a5933feeea%22
@@ -420,6 +447,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%221efe88adbb16d17952851e961e3a1937735bd63faf208fe7fa1efcfaa0180222%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%221f45a7a12cc9bdd9712584e317a3d1f765f87af196682600728350bf86898f8e%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%221f168a4d8532e3222ce7b947eb6acb66f1ca41917e95bf19a1e6086896c43c46%22
+* https://search.censys.io/search?resource=hosts&q=services.certificate%3A%221fb6ef077373326b3b9811df7834025a7ec1d213aa94c41f1ac812fe9ece7a42%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%221fd7f24859223de432acd6da227f11efed092381066387d87323508534b539f7%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%222b4fa4b11d23c7b5ab563cb9c03d8d9d552390f2f3798cbea787da05f1150e05%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%222c4e0c64e1c5539d936bdeb6cb5917eb74b976572ff7c84e484caa0d86ed1b43%22
@@ -428,6 +456,8 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%222d02e5aa8065bca63541458fc190780583486548b3f1beae1c623ac915efc5a0%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%222d2f08e2a84aa19e48a6ae61e0b8dad491e5d0ec5a86c27c582927026061178a%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%222d8ee9ae4a111e33063aee6eeab4aeb2a277c7b98c836c5edce93fa4158a1517%22
+* https://search.censys.io/search?resource=hosts&q=services.certificate%3A%222dc0f99bf9fdef615d53ba11e4520c286bd775ce3603df84607aaef3d2f14a8d%22
+* https://search.censys.io/search?resource=hosts&q=services.certificate%3A%222e7dc8f56986ecb7375304c20c0645ec2c8c88bce4c3350d77102b6e17bbb531%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%223b60ecf79082052bf2e2efb45b502a936426c2472ea853bfef36e3d2c01a4b79%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%223b88aac57230a7bf62660854852ee7167f13c02ab261825216ff7c3a58d09711%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%223b41807b1368cefedf5c70842a73166497bc95121dad4b3ff2a93555420cc656%22
@@ -437,6 +467,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%224a943035ece09785d49f4ed52e49faf12c3559fec100e3937f009d7f585854df%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%224a5267702429ff9be90c1551a33984297ef388f440de12b60c1c90a959490309%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%224b48b862c654b5ea4ed623522704b945ce28e222feb6738bf95f9513617eb203%22
+* https://search.censys.io/search?resource=hosts&q=services.certificate%3A%224c7319d3007fa2ac35309fa844c6c163b062af5bc9fd90451da7ba5742840372%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%224ccefeb48da08bbfc50cd8f9bc7dcc0187f45e1b62e079ea19c6f80a040c0cee%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%224cf314b141acb1f2cf2a4a88d39e1d6aa7c8bda40fb44edf5c33850416bea988%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%224da0d71509226e8aed9a04e389b2a78fedd527469c1c429c634ab821d9b8ec65%22
@@ -450,6 +481,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%225c8474878a2a3e529486a7674026f8eb3a5b4d37e1af966646f3a1d3f22b979d%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%225d3eb0b9bc00549d4f12f12f8eaf9a9a024258e648841b20bddf0cfe45d792dd%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%225d5ff125ad48581ab86d75669d2ca79c1e02de1be746508c5cdcf767fd6b1eb0%22
+* https://search.censys.io/search?resource=hosts&q=services.certificate%3A%225d715e500b841e38eff4acc909a619276d6f18705166dd23cfb072c742e9c85b%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%225e72f7c4dacbb13e0a87be3d0133fd1ef9782d4d5cd60287c692ad6008a9fbc6%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%225e279697fbda136046542fc6db82a4bc3def212b9e15bd9e4f967c8a03e8dca7%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%225ea2161f353b71cc360d245cfdeaafa1cac41d672d0035780aa42cac6da6c5dd%22
@@ -464,6 +496,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%226b401e864cf63c438779b4935499f28f2f26dd685af330f311c9a80d55f6d7b5%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%226b5706c23d2c44d23360638793012e5df95c88f8408ad93c71113719f9ef02a2%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%226bf2c0222a11b931ebd7439cae3df34d91625fdcd19b7879611a0523b036ae9a%22
+* https://search.censys.io/search?resource=hosts&q=services.certificate%3A%226c0cb0729408ef01b02415a90f1eb79f32669cfce9081a2ae7bf6eac67d8d940%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%226c6d464110a46f813722131e8cce268bdccfdfeb705ce25fcc51cabe0b88c8e4%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%226c7f72691b8a7ce8293b2097063a090927c5359e5980d714b1c0932c02f4bb77%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%226cbb0cef1838f2b253613796470b7fcc3cd4453d3f5be8220aeda52f383fb781%22
@@ -481,12 +514,14 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%227dc2846444a74b2a4090fea4c48a5e5e8d04ae81be94fac62ce50af24701b83b%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%227de4a51d9fd29fe60f6e79a8dd16ca21fd1250a3f76015fca9f1ced7e407ffd3%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%227dffb2929eef277e16a02a7b9d0cd02297e9ba3bab3a2c1130f4fdf1db6e8f43%22
+* https://search.censys.io/search?resource=hosts&q=services.certificate%3A%227e51db5d6029c5f567e5dfc63570b8c3b7a3c7a6f16652a6617247a76d898e4f%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%228b161e041cd5e59e23673c7f94430700fd03e2fb75f399449dc98b3f512c5fa2%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%228bb6e8f5ea77117c12ddc37a1fce3c6cbb662d97fd0bc4ffa7ecb9eb45303b32%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%228d0a7fb11481882ec86b2711cbf989ed7df024485bb4ad230222ff4ebde80e77%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%228d99137fde73683c67b4701cfb75b61cc42a23858d065a47a8e7ae01e6070140%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%228f532fe8babcbda860f2916592d90b128b327990fd75e34dff68204efc1c6a47%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%228fafdb85d70c9758135b2a9538ea6c16284f9e5a25c7ba7dfb6a2c566f79dd9d%22
+* https://search.censys.io/search?resource=hosts&q=services.certificate%3A%229ab554fbdeb9bbe3197369987ce496590ffdce906ce33c65660a385e42c9f11b%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%229abc86f1304f41b1a2281e113afa695ee9e6661a3766a5862f460548ff6980ad%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%229ae1a707bdb87aa40ec1139533ee543b5bcdf6ce89f7b9c560520d5868e5353e%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%229c71fdb3c7ac17591c355ba028b6a86f243246fac32eb07af552199037c2faf2%22
@@ -519,6 +554,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%2227b04ac57339ca7542a1c1a9ebd0cc84a4cb13f5add52da4a563e7a12d23b105%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%2227b262ee97133072dff8ecef3062eeb69d658f0f240d618b6a7f0d5d7cbed34f%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%2228f6d72bb14e1db565dd560d261adac5f4e82559d7a0f6103f27be82e36a219c%22
+* https://search.censys.io/search?resource=hosts&q=services.certificate%3A%2231bf59ee30250af52593e7d2ef7d8a9391d44cff749545d756ce86aa15c78606%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%2231f34798ffa8b495e1893400a8e88ea13fe5b063d83dbfcc86182d9fc07571b5%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%2233abfc317d0aedc826d52823baa142f94c0190f38b85a8c1bf88baa87686545d%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%2233b6af004f0cd8ab4a9976dba81ca09d682d3531eda5b889a4c6f5debaeaf8f8%22
@@ -533,9 +569,11 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%2256a81b6bd6f430fe13065283fc4d0024ccb6ca71253692dd00c04b803d49665a%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%2257e048e6ef05549d71e3bdcb969d80a9167e7631438e3bf4d259395f286f887f%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%2260bc503bf60ca0fb911488c1a3b2b551aa53d0990dacd679a3c03bd137908932%22
+* https://search.censys.io/search?resource=hosts&q=services.certificate%3A%2261d776a8e0ff96b948edaa3b96190c1297cc1d2a48014f88ea26f66158758d68%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%2262df3eb31b15ce349607fac96133903f7d79217711b41765930bcfbc35e2e254%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%2264f10645543b381433274644c230d8628a7b116cc6761223b56414a954f42061%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%2266bebf88087c5a9d8dfe0eec8a7afac26ea0d295fb23d67dc89a648bd493a42b%22
+* https://search.censys.io/search?resource=hosts&q=services.certificate%3A%2266c9d5b49ee19981b8ec3365f76b944c5d536d0dfc5c190a5284bb175934c7fc%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%2267c2e50cfff1f930d5b72a183fc51a6d19456bcdc557ebbbebc9158ac126e4ea%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%2267eaba5e933148fa326e6b4053eecce284b08065f38150dfffdfb87d7bc604bf%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%2268f411f453d0f7b4595ea53fd239846565cb3e26eed99a5dcf2173256669bfb6%22
@@ -547,13 +585,16 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%2280b4844cfce9fcfaaa849478a079e757eff4c268a26c6895c2a1dd4099fcd5d4%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%2281dbb2a6599d33aa28d83bcdecd7440e87d879aece39c65e9479da668803444c%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%2284dd10727e6b29b3278e3f64dbbab293711957835f23cc755b3226b58ec5ef51%22
+* https://search.censys.io/search?resource=hosts&q=services.certificate%3A%2286f7a12fe2e0e65187df1809cb5b56ac30af8ff932b402174ecf2bfed1e23801%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%2287f6a2b139fb7e28ab9a72845ff44f123997a34c76560b634327e97a37166001%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%2289b7c20aa4bebee72606b859d5e951821cfc39a9c0f1f71b44eb2dd52967f8c0%22
+* https://search.censys.io/search?resource=hosts&q=services.certificate%3A%2289bc7e5d645400f899408f9b3bdc6d93aaf4df4ae868428e2cbe9fc80d17fa50%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%2289f93e716d00ae70260a12db179e56169f551be3d16e405ae654e2f9745dc4d6%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%2291e2fbc55cde47e1fdb40035c2f17068b03b92307e639862cbf22686bbe597d5%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%2292b673b4bd06a2dc2e9e12c3dc3c7b6bd29a757518e0c643921bc4cd2eb1fbe4%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%2292d420d98e83cd18d2411c5f8aab8aad8f0ca9029203deaa2df9be917c9c4cee%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%2293e3039ff32ef103f8edec9083741aa34441922f04d8727412faea89df4eb064%22
+* https://search.censys.io/search?resource=hosts&q=services.certificate%3A%2294d4e81ccaa26496d1630c8a8c67d7ba832609be3e354a7743610e81a9d68786%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%2295c5b6651cb9190a61b5a8bbda94815572ec7559150d3df8d56bd2c486ebda3d%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%2296a14d3e7284923dfbd6c5b6775bf42b37ed0f6973d7d5f2a0e72e5aa57ed6af%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%2296af81d660c79e3f90f94b28c419a86b89071aa6c17648e95bcb961460d24152%22
@@ -563,6 +604,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%2298af871908ffc7c141802d96f585def4a160491c875118ef88c545ce04194cd8%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%2299b3f3b85d0fc68918abbde16579009b2ebae3300d633fd0ed81d96ba98a38d8%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%22009c8a2e3fa145b581f92872496c315c7ce87635db83c520db2a1153d532e2b4%22
+* https://search.censys.io/search?resource=hosts&q=services.certificate%3A%22047d7a075bd8be6f38adf5a1686e2ef866f16515066a4b6087432cb6a0991c53%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%22090d7e7b16af3600510b612486eaeafe80b0106788d634aa3fade4a54a1d263c%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%22097cd9f2c1af35f7dd632fe16f83b9b3aef51e78f1b4393047c499ebb2be2fda%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%22108f811bc2de45a7dab2156c4617ce3fa42cf3eb5abb72759839a63cefec4cad%22
@@ -591,8 +633,10 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%22674a2fef172685c51fda91aba205c20fb95e0c63fa4f0ecb598fb6213775ede5%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%22690d07f864220db5078dd937da7104993d3e7820732f8502b7c3c68cc9c22ae8%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%22723c18cc60cbfd6430123a2c5326ac021826f9b750f43159628fe4a0df882537%22
+* https://search.censys.io/search?resource=hosts&q=services.certificate%3A%22724b6ecc48b645ccf85bbe22fb22230e7110732b5dee9da44ebe3d5ebc38761f%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%22727f93738823de234b1ade5e45d5e5de82c86ce5baa7e52bbb4f9ef7a5e352d0%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%22737aa903ba42e1c108016e48749246b4823686fd7c08c27ce56c9165745a7a7c%22
+* https://search.censys.io/search?resource=hosts&q=services.certificate%3A%22766d53c1a0b9fc45fbc2194bff0d93b3027ced2b277de61f8438ee80828308b0%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%22785ffc1cc3857a81cb96b04ec4126a56b6744ef1d83077799f0c731ca18f8b92%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%22795d565f61de6456820bf2df946764ceb251073b7f46113275a0fe2d0030f3d4%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%22800f5e4b53f4eb3cec54b39687bdb55f56f39c636c1ee51547dea1122e6aee1d%22
@@ -622,6 +666,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%224615b87e15834285bc731a52377a0610119846a648eca2486fafdb3a7022b144%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%224779babbd7d7db7fc16ae9bf3eb01051e71bc25906c0721d57cac33220435d87%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%225131a305b8b55673516f5f4cd9d737d5230d1e801dc7e63b26cb9354cfc3ef68%22
+* https://search.censys.io/search?resource=hosts&q=services.certificate%3A%225233aba2d8505c508879f4646c1cef3d24c065975e9289b80fadd52f81621515%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%225492c40f3f7c806a8a36549cd1255f030261234c6398c4d3de8516bc43e69a03%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%226027fe7316151729adc842539a7a2b0b7d9bb3269080574309ec51fef8ff6e1d%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%226265c6a19bdd439abd12c8b00ab92d828a62795504b1c9414403f99861f840b6%22
@@ -671,6 +716,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%22026411613ded81fce0f3777630cd76feb9d090336c1d9a27f4d500c78ad621ae%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%22096958952a4fe814286e4bbe6b60b0f396c7cc04da4d115597c6a21acc037133%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%22269208974fe96bdf3b58a83ca13a951270c23ff1edd4f17a513df17566f1e7a8%22
+* https://search.censys.io/search?resource=hosts&q=services.certificate%3A%22532852872a9d0ab78ba516c46b36c0457f85aa4d82c916045219e9ed65f49b2c%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%226459653303b86856a4a9e2a671d9719ae07cc6a124d663e257dbd1eb54c5260f%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%227905731606e1bf1979fd3512fc9df1d8f60d692814da4037c241ec8c00b01d5a%22
 * https://search.censys.io/search?resource=hosts&q=services.certificate%3A%2274700456869fd9bafc50aefc0fd10f061be643101c9b9822a5db68735741e88b%22

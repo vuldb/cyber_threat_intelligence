@@ -120,13 +120,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
-7 | ... | ... | ... | ...
+6 | ... | ... | ... | ...
 
 There are 22 more TTP items available. Please use our online service to access the data.
 
@@ -169,20 +168,20 @@ ID | Type | Indicator | Confidence
 31 | File | `/jfinal_cms/system/role/list` | High
 32 | File | `/kelas/data` | Medium
 33 | File | `/listplace/user/ticket/create` | High
-34 | File | `/members/view_member.php` | High
-35 | File | `/mhds/clinic/view_details.php` | High
-36 | File | `/Moosikay/order.php` | High
-37 | File | `/owa/auth/logon.aspx` | High
-38 | File | `/php-sms/admin/quotes/manage_remark.php` | High
-39 | File | `/rest/api/latest/projectvalidate/key` | High
-40 | File | `/scripts/unlock_tasks.php` | High
-41 | File | `/secure/QueryComponent!Default.jspa` | High
-42 | File | `/squashfs-root/etc_ro/custom.conf` | High
-43 | File | `/staff/edit_book_details.php` | High
-44 | File | `/SysManage/AddUpdateRole.aspx` | High
+34 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
+35 | File | `/members/view_member.php` | High
+36 | File | `/mhds/clinic/view_details.php` | High
+37 | File | `/Moosikay/order.php` | High
+38 | File | `/novel/author/list` | High
+39 | File | `/owa/auth/logon.aspx` | High
+40 | File | `/php-sms/admin/quotes/manage_remark.php` | High
+41 | File | `/rest/api/latest/projectvalidate/key` | High
+42 | File | `/scripts/unlock_tasks.php` | High
+43 | File | `/secure/QueryComponent!Default.jspa` | High
+44 | File | `/squashfs-root/etc_ro/custom.conf` | High
 45 | ... | ... | ...
 
-There are 388 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 390 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

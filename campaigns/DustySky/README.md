@@ -42,8 +42,8 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-24, CWE-425 | Pathname Traversal | High
-2 | T1059 | CWE-94 | Cross Site Scripting | High
+1 | T1006 | CWE-22, CWE-24, CWE-425 | Path Traversal | High
+2 | T1059 | CWE-94 | Argument Injection | High
 3 | T1059.007 | CWE-79 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
@@ -58,11 +58,12 @@ ID | Type | Indicator | Confidence
 1 | File | `/addbill.php` | Medium
 2 | File | `/admin/clientview.php` | High
 3 | File | `/adminlogin.asp` | High
-4 | File | `/collection/all` | High
-5 | File | `/config/php.ini` | High
-6 | ... | ... | ...
+4 | File | `/application/index/controller/Icon.php` | High
+5 | File | `/apply/index.php` | High
+6 | File | `/cgi-bin/cstecgi.cgi` | High
+7 | ... | ... | ...
 
-There are 41 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 49 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -146,19 +146,19 @@ ID | Type | Indicator | Confidence
 59 | File | `/admin_route/dec_service_credits.php` | High
 60 | File | `/admin_route/inc_service_credits.php` | High
 61 | File | `/ample/app/action/edit_product.php` | High
-62 | File | `/api/` | Low
-63 | File | `/api/sys/login` | High
-64 | File | `/api/sys/set_passwd` | High
-65 | File | `/api/v1/terminal/sessions/?limit=1` | High
-66 | File | `/app/ajax/sell_return_data.php` | High
-67 | File | `/app/index/controller/Common.php` | High
-68 | File | `/app/sys1.php` | High
-69 | File | `/application/pay/controller/Api.php` | High
-70 | File | `/apply/index.php` | High
-71 | File | `/apps/login_auth.php` | High
+62 | File | `/api.php` | Medium
+63 | File | `/api/` | Low
+64 | File | `/api/sys/login` | High
+65 | File | `/api/sys/set_passwd` | High
+66 | File | `/api/v1/terminal/sessions/?limit=1` | High
+67 | File | `/app/ajax/sell_return_data.php` | High
+68 | File | `/app/index/controller/Common.php` | High
+69 | File | `/app/sys1.php` | High
+70 | File | `/application/index/controller/Databasesource.php` | High
+71 | File | `/application/index/controller/File.php` | High
 72 | ... | ... | ...
 
-There are 629 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 635 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

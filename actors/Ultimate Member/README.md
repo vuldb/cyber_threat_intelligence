@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 12 more country items available. Please use our online service to access the data.
+There are 13 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -34,10 +34,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-425 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -49,36 +49,39 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/.env` | Low
-2 | File | `/admin/category_row.php` | High
-3 | File | `/admin/index2.html` | High
-4 | File | `/admin/project/update/2` | High
-5 | File | `/admin/upload/img` | High
-6 | File | `/api/authentication/login` | High
-7 | File | `/api/baskets/{name}` | High
-8 | File | `/api/jolokia org.jolokia.http.HttpRequestHandler#handlePostRequest` | High
-9 | File | `/api/wechat/app_auth` | High
-10 | File | `/api2/html/` | Medium
-11 | File | `/books` | Low
-12 | File | `/cas/logout` | Medium
-13 | File | `/cgi-bin/supervisor/CloudSetup.cgi` | High
-14 | File | `/cgi-bin/wlogin.cgi` | High
-15 | File | `/classes/Master.php` | High
-16 | File | `/classes/Master.php?f=delete_item` | High
-17 | File | `/classes/Master.php?f=delete_service` | High
-18 | File | `/classes/Master.php?f=save_service` | High
-19 | File | `/contact.php` | Medium
-20 | File | `/controller/OnlinePreviewController.java` | High
-21 | File | `/dayrui/My/Config/Install.txt` | High
-22 | File | `/debug/pprof` | Medium
-23 | File | `/designer/add/layout` | High
-24 | File | `/dialog/select_media.php` | High
-25 | File | `/DXR.axd` | Medium
-26 | File | `/etc/quagga` | Medium
-27 | File | `/filemanager/upload/drop` | High
-28 | ... | ... | ...
+1 | File | `/+CSCOE+/logon.html` | High
+2 | File | `/.env` | Low
+3 | File | `/academy/tutor/filter` | High
+4 | File | `/admin/admin_user.php` | High
+5 | File | `/admin/category_row.php` | High
+6 | File | `/admin/index2.html` | High
+7 | File | `/admin/project/update/2` | High
+8 | File | `/admin/upload/img` | High
+9 | File | `/api/authentication/login` | High
+10 | File | `/api/baskets/{name}` | High
+11 | File | `/api/jolokia org.jolokia.http.HttpRequestHandler#handlePostRequest` | High
+12 | File | `/api/wechat/app_auth` | High
+13 | File | `/api2/html/` | Medium
+14 | File | `/books` | Low
+15 | File | `/cas/logout` | Medium
+16 | File | `/cgi-bin/supervisor/CloudSetup.cgi` | High
+17 | File | `/cgi-bin/wlogin.cgi` | High
+18 | File | `/ckeditor/samples/old/ajax.html` | High
+19 | File | `/classes/Master.php` | High
+20 | File | `/classes/Master.php?f=delete_item` | High
+21 | File | `/classes/Master.php?f=delete_service` | High
+22 | File | `/classes/Master.php?f=save_service` | High
+23 | File | `/config/getuser` | High
+24 | File | `/contact.php` | Medium
+25 | File | `/controller/OnlinePreviewController.java` | High
+26 | File | `/controllers/api/user.php` | High
+27 | File | `/dayrui/My/Config/Install.txt` | High
+28 | File | `/debug/pprof` | Medium
+29 | File | `/designer/add/layout` | High
+30 | File | `/dialog/select_media.php` | High
+31 | ... | ... | ...
 
-There are 235 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 264 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

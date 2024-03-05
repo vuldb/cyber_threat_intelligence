@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 20 more country items available. Please use our online service to access the data.
+There are 19 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -34,10 +34,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-25, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -50,51 +50,54 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `%SYSTEMDRIVE%\node_modules\.bin\wmic.exe` | High
-2 | File | `/admin/save.php` | High
-3 | File | `/admin/sys_sql_query.php` | High
-4 | File | `/api/baskets/{name}` | High
-5 | File | `/api/download` | High
-6 | File | `/api/v1/alerts` | High
-7 | File | `/api/v1/terminal/sessions/?limit=1` | High
-8 | File | `/b2b-supermarket/shopping-cart` | High
-9 | File | `/bitrix/admin/ldap_server_edit.php` | High
-10 | File | `/category.php` | High
-11 | File | `/categorypage.php` | High
-12 | File | `/cgi-bin/luci/api/wireless` | High
-13 | File | `/cgi-bin/vitogate.cgi` | High
-14 | File | `/company/store` | High
-15 | File | `/Content/Template/root/reverse-shell.aspx` | High
-16 | File | `/Controller/Ajaxfileupload.ashx` | High
-17 | File | `/core/conditions/AbstractWrapper.java` | High
-18 | File | `/debug/pprof` | Medium
-19 | File | `/etc/passwd` | Medium
-20 | File | `/fcgi/scrut_fcgi.fcgi` | High
-21 | File | `/forum/away.php` | High
-22 | File | `/geoserver/gwc/rest.html` | High
-23 | File | `/goform/formSysCmd` | High
-24 | File | `/h/` | Low
-25 | File | `/HNAP1` | Low
-26 | File | `/hosts/firewall/ip` | High
-27 | File | `/inc/jquery/uploadify/uploadify.php` | High
-28 | File | `/index.php/ccm/system/file/upload` | High
-29 | File | `/index.php?app=main&func=passport&action=login` | High
-30 | File | `/index.php?page=category_list` | High
-31 | File | `/jeecg-boot/sys/common/upload` | High
-32 | File | `/jobinfo/` | Medium
-33 | File | `/oauth/idp/.well-known/openid-configuration` | High
-34 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
-35 | File | `/php/ping.php` | High
-36 | File | `/PreviewHandler.ashx` | High
-37 | File | `/proxy` | Low
-38 | File | `/recipe-result` | High
-39 | File | `/register.do` | Medium
-40 | File | `/RPS2019Service/status.html` | High
-41 | File | `/Service/ImageStationDataService.asmx` | High
-42 | File | `/setting` | Medium
-43 | File | `/sicweb-ajax/tmproot/` | High
-44 | ... | ... | ...
+2 | File | `/#ilang=DE&b=c_smartenergy_swgroups` | High
+3 | File | `/admin/save.php` | High
+4 | File | `/admin/sys_sql_query.php` | High
+5 | File | `/admin_route/dec_service_credits.php` | High
+6 | File | `/api/baskets/{name}` | High
+7 | File | `/api/download` | High
+8 | File | `/api/v1/alerts` | High
+9 | File | `/api/v1/terminal/sessions/?limit=1` | High
+10 | File | `/api/v4/teams//channels/deleted` | High
+11 | File | `/b2b-supermarket/shopping-cart` | High
+12 | File | `/bitrix/admin/ldap_server_edit.php` | High
+13 | File | `/category.php` | High
+14 | File | `/categorypage.php` | High
+15 | File | `/cgi-bin/luci/api/wireless` | High
+16 | File | `/cgi-bin/vitogate.cgi` | High
+17 | File | `/change-language/de_DE` | High
+18 | File | `/company/store` | High
+19 | File | `/Content/Template/root/reverse-shell.aspx` | High
+20 | File | `/Controller/Ajaxfileupload.ashx` | High
+21 | File | `/core/conditions/AbstractWrapper.java` | High
+22 | File | `/debug/pprof` | Medium
+23 | File | `/devinfo` | Medium
+24 | File | `/dist/index.js` | High
+25 | File | `/etc/passwd` | Medium
+26 | File | `/fcgi/scrut_fcgi.fcgi` | High
+27 | File | `/forum/away.php` | High
+28 | File | `/geoserver/gwc/rest.html` | High
+29 | File | `/goform/formSysCmd` | High
+30 | File | `/HNAP1` | Low
+31 | File | `/hosts/firewall/ip` | High
+32 | File | `/index.php/ccm/system/file/upload` | High
+33 | File | `/jeecg-boot/sys/common/upload` | High
+34 | File | `/log/decodmail.php` | High
+35 | File | `/oauth/idp/.well-known/openid-configuration` | High
+36 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
+37 | File | `/php/ping.php` | High
+38 | File | `/proxy` | Low
+39 | File | `/recipe-result` | High
+40 | File | `/register.do` | Medium
+41 | File | `/RPS2019Service/status.html` | High
+42 | File | `/s/index.php?action=statistics` | High
+43 | File | `/Service/ImageStationDataService.asmx` | High
+44 | File | `/setting` | Medium
+45 | File | `/sicweb-ajax/tmproot/` | High
+46 | File | `/spip.php` | Medium
+47 | ... | ... | ...
 
-There are 382 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 406 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -112,4 +115,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

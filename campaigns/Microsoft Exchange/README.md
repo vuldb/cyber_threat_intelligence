@@ -44,12 +44,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-27, CWE-36 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-27, CWE-36 | Path Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+6 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 7 | ... | ... | ... | ...
 
 There are 22 more TTP items available. Please use our online service to access the data.
@@ -60,60 +60,61 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/academic/studenview_left.php` | High
-2 | File | `/Admin/add-student.php` | High
-3 | File | `/admin/add_user_modal.php` | High
-4 | File | `/admin/admin-profile.php` | High
-5 | File | `/admin/article/article-add.php` | High
-6 | File | `/admin/article/article-edit-run.php` | High
-7 | File | `/admin/category/cate-edit-run.php` | High
-8 | File | `/admin/index/index.html#/admin/mall.goods/index.html` | High
-9 | File | `/admin/inquiries/view_inquiry.php` | High
-10 | File | `/admin/modal_add_product.php` | High
-11 | File | `/admin/new-content` | High
-12 | File | `/admin/read.php?mudi=announContent` | High
-13 | File | `/admin/services/manage_service.php` | High
-14 | File | `/admin/suppliers/view_details.php` | High
-15 | File | `/admin/transactions/track_shipment.php` | High
-16 | File | `/admin/upload.php` | High
-17 | File | `/admin/user/manage_user.php` | High
-18 | File | `/alarm_pi/alarmService.php` | High
-19 | File | `/api/crontab` | Medium
-20 | File | `/api/es/admin/v3/security/user/1` | High
-21 | File | `/api/ping` | Medium
-22 | File | `/api/RecordingList/DownloadRecord?file=` | High
-23 | File | `/api/runscript` | High
-24 | File | `/api/sys/login` | High
-25 | File | `/api/sys/set_passwd` | High
-26 | File | `/application/common.php#action_log` | High
-27 | File | `/asms/admin/products/manage_product.php` | High
-28 | File | `/asms/products/view_product.php` | High
-29 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-30 | File | `/category.php` | High
-31 | File | `/changeimage.php` | High
-32 | File | `/classes/Master.php?f=delete_service` | High
-33 | File | `/config/getuser` | High
-34 | File | `/config/list` | Medium
-35 | File | `/dashboard/snapshot/*?orgId=0` | High
-36 | File | `/dosen/data` | Medium
-37 | File | `/E-mobile/App/System/File/downfile.php` | High
-38 | File | `/export` | Low
-39 | File | `/forum/away.php` | High
-40 | File | `/gena.cgi` | Medium
-41 | File | `/general/ipanel/menu_code.php?MENU_TYPE=FAV` | High
-42 | File | `/home/cavesConsole` | High
-43 | File | `/home/kickPlayer` | High
-44 | File | `/home/masterConsole` | High
-45 | File | `/home/sendBroadcast` | High
-46 | File | `/inc/jquery/uploadify/uploadify.php` | High
-47 | File | `/include/dialog/select_templets_post.php` | High
-48 | File | `/index.php/sysmanage/Login/login_auth/` | High
-49 | File | `/jurusanmatkul/data` | High
-50 | File | `/kelasdosen/data` | High
-51 | File | `/lan.asp` | Medium
-52 | ... | ... | ...
+1 | File | `/Admin/add-student.php` | High
+2 | File | `/admin/add_user_modal.php` | High
+3 | File | `/admin/admin-profile.php` | High
+4 | File | `/admin/article/article-add.php` | High
+5 | File | `/admin/article/article-edit-run.php` | High
+6 | File | `/admin/category/cate-edit-run.php` | High
+7 | File | `/admin/index/index.html#/admin/mall.goods/index.html` | High
+8 | File | `/admin/inquiries/view_inquiry.php` | High
+9 | File | `/admin/modal_add_product.php` | High
+10 | File | `/admin/new-content` | High
+11 | File | `/admin/read.php?mudi=announContent` | High
+12 | File | `/admin/services/manage_service.php` | High
+13 | File | `/admin/suppliers/view_details.php` | High
+14 | File | `/admin/transactions/track_shipment.php` | High
+15 | File | `/admin/upload.php` | High
+16 | File | `/admin/user/manage_user.php` | High
+17 | File | `/alarm_pi/alarmService.php` | High
+18 | File | `/api/crontab` | Medium
+19 | File | `/api/es/admin/v3/security/user/1` | High
+20 | File | `/api/ping` | Medium
+21 | File | `/api/RecordingList/DownloadRecord?file=` | High
+22 | File | `/api/runscript` | High
+23 | File | `/api/sys/login` | High
+24 | File | `/api/sys/set_passwd` | High
+25 | File | `/application/common.php#action_log` | High
+26 | File | `/asms/admin/products/manage_product.php` | High
+27 | File | `/asms/products/view_product.php` | High
+28 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+29 | File | `/category.php` | High
+30 | File | `/changeimage.php` | High
+31 | File | `/classes/Master.php?f=delete_service` | High
+32 | File | `/config/getuser` | High
+33 | File | `/config/list` | Medium
+34 | File | `/dashboard/snapshot/*?orgId=0` | High
+35 | File | `/dosen/data` | Medium
+36 | File | `/E-mobile/App/System/File/downfile.php` | High
+37 | File | `/export` | Low
+38 | File | `/forum/away.php` | High
+39 | File | `/gena.cgi` | Medium
+40 | File | `/general/ipanel/menu_code.php?MENU_TYPE=FAV` | High
+41 | File | `/home/cavesConsole` | High
+42 | File | `/home/kickPlayer` | High
+43 | File | `/home/masterConsole` | High
+44 | File | `/home/sendBroadcast` | High
+45 | File | `/inc/jquery/uploadify/uploadify.php` | High
+46 | File | `/include/dialog/select_templets_post.php` | High
+47 | File | `/index.php/sysmanage/Login/login_auth/` | High
+48 | File | `/jurusanmatkul/data` | High
+49 | File | `/kelasdosen/data` | High
+50 | File | `/lan.asp` | Medium
+51 | File | `/login` | Low
+52 | File | `/Login/CheckLogin` | High
+53 | ... | ... | ...
 
-There are 457 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 463 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

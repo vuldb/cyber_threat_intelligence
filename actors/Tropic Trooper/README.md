@@ -16,8 +16,8 @@ The following _campaigns_ are known and can be associated with Tropic Trooper:
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Tropic Trooper:
 
 * [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
 * [GW](https://vuldb.com/?country.gw)
-* [HK](https://vuldb.com/?country.hk)
 * ...
 
 There are 2 more country items available. Please use our online service to access the data.
@@ -54,12 +54,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Pathname Traversal | High
-2 | T1059.007 | CWE-79 | Cross Site Scripting | High
-3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
+1 | T1006 | CWE-22 | Path Traversal | High
+2 | T1059 | CWE-94 | Argument Injection | High
+3 | T1059.007 | CWE-79 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 2 more TTP items available. Please use our online service to access the data.
+There are 3 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 

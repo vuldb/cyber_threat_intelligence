@@ -24,7 +24,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [LA](https://vuldb.com/?country.la)
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -46,22 +46,23 @@ ID | IP address | Hostname | Campaign | Confidence
 12 | [31.170.107.186](https://vuldb.com/?ip.31.170.107.186) | ohra.supplrald.com | - | High
 13 | [35.205.61.67](https://vuldb.com/?ip.35.205.61.67) | 67.61.205.35.bc.googleusercontent.com | - | Medium
 14 | [43.248.34.77](https://vuldb.com/?ip.43.248.34.77) | - | CVE-2023-42793 | High
-15 | [45.120.156.69](https://vuldb.com/?ip.45.120.156.69) | - | - | High
-16 | [45.123.190.167](https://vuldb.com/?ip.45.123.190.167) | - | COVID-19 | High
-17 | [45.123.190.168](https://vuldb.com/?ip.45.123.190.168) | - | - | High
-18 | [45.129.229.48](https://vuldb.com/?ip.45.129.229.48) | - | COVID-19 | High
-19 | [45.133.7.124](https://vuldb.com/?ip.45.133.7.124) | - | CVE-2023-42793 | High
-20 | [45.133.7.129](https://vuldb.com/?ip.45.133.7.129) | - | CVE-2023-42793 | High
-21 | [45.133.7.154](https://vuldb.com/?ip.45.133.7.154) | - | CVE-2023-42793 | High
-22 | [45.133.7.156](https://vuldb.com/?ip.45.133.7.156) | - | CVE-2023-42793 | High
-23 | [45.152.84.57](https://vuldb.com/?ip.45.152.84.57) | - | - | High
-24 | [46.19.143.69](https://vuldb.com/?ip.46.19.143.69) | - | - | High
-25 | [46.246.120.178](https://vuldb.com/?ip.46.246.120.178) | - | - | High
-26 | [50.7.192.146](https://vuldb.com/?ip.50.7.192.146) | - | - | High
-27 | [64.18.143.66](https://vuldb.com/?ip.64.18.143.66) | - | - | High
-28 | ... | ... | ... | ...
+15 | [45.77.179.110](https://vuldb.com/?ip.45.77.179.110) | 45.77.179.110.vultrusercontent.com | - | High
+16 | [45.120.156.69](https://vuldb.com/?ip.45.120.156.69) | - | - | High
+17 | [45.123.190.167](https://vuldb.com/?ip.45.123.190.167) | - | COVID-19 | High
+18 | [45.123.190.168](https://vuldb.com/?ip.45.123.190.168) | - | - | High
+19 | [45.129.229.48](https://vuldb.com/?ip.45.129.229.48) | - | COVID-19 | High
+20 | [45.133.7.124](https://vuldb.com/?ip.45.133.7.124) | - | CVE-2023-42793 | High
+21 | [45.133.7.129](https://vuldb.com/?ip.45.133.7.129) | - | CVE-2023-42793 | High
+22 | [45.133.7.154](https://vuldb.com/?ip.45.133.7.154) | - | CVE-2023-42793 | High
+23 | [45.133.7.156](https://vuldb.com/?ip.45.133.7.156) | - | CVE-2023-42793 | High
+24 | [45.152.84.57](https://vuldb.com/?ip.45.152.84.57) | - | - | High
+25 | [46.19.143.69](https://vuldb.com/?ip.46.19.143.69) | - | - | High
+26 | [46.246.120.178](https://vuldb.com/?ip.46.246.120.178) | - | - | High
+27 | [50.7.192.146](https://vuldb.com/?ip.50.7.192.146) | - | - | High
+28 | [64.18.143.66](https://vuldb.com/?ip.64.18.143.66) | - | - | High
+29 | ... | ... | ... | ...
 
-There are 107 more IOC items available. Please use our online service to access the data.
+There are 113 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -69,10 +70,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -84,51 +85,44 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/?p=products` | Medium
-2 | File | `/admin/controller/JobLogController.java` | High
-3 | File | `/admin/sign/out` | High
-4 | File | `/api/` | Low
-5 | File | `/api/admin/store/product/list` | High
-6 | File | `/api/baskets/{name}` | High
-7 | File | `/api/stl/actions/search` | High
-8 | File | `/api/sys/login` | High
-9 | File | `/api/sys/set_passwd` | High
-10 | File | `/api/trackedEntityInstances` | High
-11 | File | `/api/v1/terminal/sessions/?limit=1` | High
-12 | File | `/api/v2/cli/commands` | High
-13 | File | `/aux` | Low
-14 | File | `/bin/ate` | Medium
-15 | File | `/book-services.php` | High
-16 | File | `/booking/show_bookings/` | High
-17 | File | `/cgi-bin` | Medium
-18 | File | `/cgi-bin/wlogin.cgi` | High
-19 | File | `/changePassword` | High
-20 | File | `/Content/Template/root/reverse-shell.aspx` | High
-21 | File | `/dashboard/add-blog.php` | High
-22 | File | `/data/remove` | Medium
-23 | File | `/debug/pprof` | Medium
-24 | File | `/DXR.axd` | Medium
-25 | File | `/ecshop/admin/template.php` | High
-26 | File | `/en/blog-comment-4` | High
-27 | File | `/env` | Low
-28 | File | `/forum/away.php` | High
-29 | File | `/group1/uploa` | High
-30 | File | `/h/` | Low
-31 | File | `/index.php` | Medium
-32 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-33 | File | `/novel/bookSetting/list` | High
-34 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-35 | File | `/owa/auth/logon.aspx` | High
-36 | File | `/php-sms/admin/?page=user/manage_user` | High
-37 | File | `/resources//../` | High
-38 | File | `/testConnection` | High
-39 | File | `/tmp/ppd.trace` | High
-40 | File | `/user/inc/workidajax.php` | High
-41 | File | `/user/updatePwd` | High
-42 | File | `/userLogin.asp` | High
-43 | ... | ... | ...
+1 | File | `/admin/controller/JobLogController.java` | High
+2 | File | `/admin/sign/out` | High
+3 | File | `/api/baskets/{name}` | High
+4 | File | `/api/sys/login` | High
+5 | File | `/api/sys/set_passwd` | High
+6 | File | `/api/trackedEntityInstances` | High
+7 | File | `/api/v1/terminal/sessions/?limit=1` | High
+8 | File | `/aux` | Low
+9 | File | `/book-services.php` | High
+10 | File | `/booking/show_bookings/` | High
+11 | File | `/changePassword` | High
+12 | File | `/Content/Template/root/reverse-shell.aspx` | High
+13 | File | `/dashboard/add-blog.php` | High
+14 | File | `/data/remove` | Medium
+15 | File | `/debug/pprof` | Medium
+16 | File | `/ecshop/admin/template.php` | High
+17 | File | `/en/blog-comment-4` | High
+18 | File | `/etc/passwd` | Medium
+19 | File | `/forum/away.php` | High
+20 | File | `/group1/uploa` | High
+21 | File | `/h/` | Low
+22 | File | `/index.php` | Medium
+23 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+24 | File | `/novel/bookSetting/list` | High
+25 | File | `/novel/userFeedback/list` | High
+26 | File | `/owa/auth/logon.aspx` | High
+27 | File | `/resources//../` | High
+28 | File | `/testConnection` | High
+29 | File | `/tmp/ppd.trace` | High
+30 | File | `/user/inc/workidajax.php` | High
+31 | File | `/userLogin.asp` | High
+32 | File | `/vm/admin/doctors.php` | High
+33 | File | `Access.app/Contents/Resources/kcproxy` | High
+34 | File | `acs.exe` | Low
+35 | File | `action-visitor.php` | High
+36 | ... | ... | ...
 
-There are 368 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 306 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -137,6 +131,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog-assets.f-secure.com/wp-content/uploads/2020/03/18122307/F-Secure_Dukes_Whitepaper.pdf
 * https://circleid.com/posts/20231114-apt29-goes-from-targeted-attacks-to-phishing-via-nobelium-a-dns-deep-dive
 * https://github.com/blackorbird/APT_REPORT/blob/master/International%20Strategic/Russia/Advisory-APT29-targets-COVID-19-vaccine-development.pdf
+* https://jp.security.ntt/tech_blog/102hojk
 * https://unit42.paloaltonetworks.com/cloaked-ursa-online-storage-services-campaigns/
 * https://us-cert.cisa.gov/ncas/alerts/aa21-148a
 * https://us-cert.cisa.gov/ncas/analysis-reports/ar20-198c

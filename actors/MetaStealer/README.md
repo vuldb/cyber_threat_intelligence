@@ -22,11 +22,11 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [4.224.60.120](https://vuldb.com/?ip.4.224.60.120) | - | - | High
-2 | [95.216.123.81](https://vuldb.com/?ip.95.216.123.81) | static.81.123.216.95.clients.your-server.de | - | High
-3 | [167.88.12.112](https://vuldb.com/?ip.167.88.12.112) | 112-12-88-167.reverse-dns | - | High
+2 | [13.114.196.60](https://vuldb.com/?ip.13.114.196.60) | ec2-13-114-196-60.ap-northeast-1.compute.amazonaws.com | - | Medium
+3 | [13.125.88.10](https://vuldb.com/?ip.13.125.88.10) | ec2-13-125-88-10.ap-northeast-2.compute.amazonaws.com | - | Medium
 4 | ... | ... | ... | ...
 
-There are 9 more IOC items available. Please use our online service to access the data.
+There are 11 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -35,7 +35,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1055 | CWE-74 | Injection | High
-2 | T1059 | CWE-94 | Cross Site Scripting | High
+2 | T1059 | CWE-94 | Argument Injection | High
 3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
@@ -71,6 +71,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://isc.sans.edu/forums/diary/Windows+MetaStealer+Malware/28522/
 * https://medium.com/walmartglobaltech/metastealer-string-decryption-and-dga-overview-5f38f76830cd
 * https://threatfox.abuse.ch
+* https://www.sentinelone.com/blog/macos-metastealer-new-family-of-obfuscated-go-infostealers-spread-in-targeted-attacks/
 
 ## Literature
 

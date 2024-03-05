@@ -24,7 +24,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -46,10 +46,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-425 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-94 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -68,34 +68,35 @@ ID | Type | Indicator | Confidence
 5 | File | `/admin/clientview.php` | High
 6 | File | `/admin/video/list` | High
 7 | File | `/adminlogin.asp` | High
-8 | File | `/boaform/device_reset.cgi` | High
-9 | File | `/cgi-bin/supervisor/CloudSetup.cgi` | High
-10 | File | `/collection/all` | High
-11 | File | `/config/php.ini` | High
-12 | File | `/dl/dl_sendmail.php` | High
-13 | File | `/drivers/net/ethernet/broadcom/tg3.c` | High
-14 | File | `/etc/passwd` | Medium
-15 | File | `/etc/qci/answers` | High
-16 | File | `/file-manager/rename.php` | High
-17 | File | `/forms/nslookupHandler` | High
-18 | File | `/forum/away.php` | High
-19 | File | `/function/booksave.php` | High
-20 | File | `/goform/form2userconfig.cgi` | High
-21 | File | `/gracemedia-media-player/templates/files/ajax_controller.php` | High
-22 | File | `/inc/campaign/campaign-delete.php` | High
-23 | File | `/login` | Low
-24 | File | `/search.php` | Medium
-25 | File | `/sgmi/` | Low
-26 | File | `/tmp` | Low
-27 | File | `/uncpath/` | Medium
-28 | File | `/usr/lib/print/conv_fix` | High
-29 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-30 | File | `adclick.php` | Medium
-31 | File | `add.php` | Low
-32 | File | `add_comment.php` | High
-33 | ... | ... | ...
+8 | File | `/application/index/controller/Icon.php` | High
+9 | File | `/apply/index.php` | High
+10 | File | `/boaform/device_reset.cgi` | High
+11 | File | `/cgi-bin/cstecgi.cgi` | High
+12 | File | `/cgi-bin/supervisor/CloudSetup.cgi` | High
+13 | File | `/collection/all` | High
+14 | File | `/config/php.ini` | High
+15 | File | `/dl/dl_sendmail.php` | High
+16 | File | `/drivers/net/ethernet/broadcom/tg3.c` | High
+17 | File | `/etc/passwd` | Medium
+18 | File | `/etc/qci/answers` | High
+19 | File | `/file-manager/rename.php` | High
+20 | File | `/forms/nslookupHandler` | High
+21 | File | `/forum/away.php` | High
+22 | File | `/function/booksave.php` | High
+23 | File | `/goform/form2userconfig.cgi` | High
+24 | File | `/gracemedia-media-player/templates/files/ajax_controller.php` | High
+25 | File | `/inc/campaign/campaign-delete.php` | High
+26 | File | `/include/file.php` | High
+27 | File | `/login` | Low
+28 | File | `/search.php` | Medium
+29 | File | `/sgmi/` | Low
+30 | File | `/sys/replicate/check` | High
+31 | File | `/SysInfo.htm` | Medium
+32 | File | `/tmp` | Low
+33 | File | `/uncpath/` | Medium
+34 | ... | ... | ...
 
-There are 286 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 295 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

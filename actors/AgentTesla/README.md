@@ -26,7 +26,7 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [89.47.1.10](https://vuldb.com/?ip.89.47.1.10) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 11 more IOC items available. Please use our online service to access the data.
+There are 13 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -34,10 +34,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-22 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-94 | Argument Injection | High
 5 | ... | ... | ... | ...
 
 There are 14 more TTP items available. Please use our online service to access the data.
@@ -55,16 +55,17 @@ ID | Type | Indicator | Confidence
 5 | File | `/index.php/weblinks-categories` | High
 6 | File | `/plain` | Low
 7 | File | `/show_group_members.php` | High
-8 | File | `/web/google_analytics.php` | High
-9 | File | `archive_endian.h` | High
-10 | File | `bmp.c` | Low
-11 | File | `browse.asp` | Medium
-12 | File | `cgi-bin/jc.cgi` | High
-13 | File | `checklogin.php` | High
-14 | File | `cmd.exe` | Low
-15 | ... | ... | ...
+8 | File | `/show_news.php` | High
+9 | File | `/web/google_analytics.php` | High
+10 | File | `archive_endian.h` | High
+11 | File | `bmp.c` | Low
+12 | File | `browse.asp` | Medium
+13 | File | `burl.c` | Low
+14 | File | `cgi-bin/jc.cgi` | High
+15 | File | `checklogin.php` | High
+16 | ... | ... | ...
 
-There are 119 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 125 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -72,6 +73,7 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://blog.malwarebytes.com/threat-analysis/2020/04/new-agenttesla-variant-steals-wifi-credentials/
 * https://blog.talosintelligence.com/threat-roundup-1013-1020/
+* https://www.mcafee.com/blogs/other-blogs/mcafee-labs/from-email-to-rat-deciphering-a-vb-script-driven-campaign/
 
 ## Literature
 
@@ -82,4 +84,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

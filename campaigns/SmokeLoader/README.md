@@ -47,9 +47,10 @@ ID | IP address | Hostname | Actor | Confidence
 18 | [27.102.67.144](https://vuldb.com/?ip.27.102.67.144) | - | [SmokeLoader](https://vuldb.com/?actor.smokeloader) | High
 19 | [31.13.65.36](https://vuldb.com/?ip.31.13.65.36) | edge-star-mini-shv-01-atl3.facebook.com | [SmokeLoader](https://vuldb.com/?actor.smokeloader) | High
 20 | [31.210.170.195](https://vuldb.com/?ip.31.210.170.195) | vps16632.hosted-by.eurohoster.online | [SmokeLoader](https://vuldb.com/?actor.smokeloader) | High
-21 | ... | ... | ... | ...
+21 | [36.38.34.230](https://vuldb.com/?ip.36.38.34.230) | - | [SmokeLoader](https://vuldb.com/?actor.smokeloader) | High
+22 | ... | ... | ... | ...
 
-There are 82 more IOC items available. Please use our online service to access the data.
+There are 83 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -57,9 +58,9 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
 2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
 
 There are 12 more TTP items available. Please use our online service to access the data.
@@ -111,6 +112,7 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://blog.talosintelligence.com/2020/01/threat-roundup-0124-0131.html
 * https://blog.talosintelligence.com/2021/07/threat-roundup-0716-0723.html
 * https://community.blueliv.com/#!/s/6333fa0182df417ed0331a1d
+* https://detect.fyi/demystification-8base-threat-hunting-and-detection-opportunities-44c55c4c5667
 * https://github.com/threatlabz/iocs/blob/main/smokeloader_tradingview_campaign/c2s.txt
 * https://isc.sans.edu/forums/diary/Resumethemed+malspam+pushing+Smoke+Loader/23054/
 * https://research.checkpoint.com/2019/2019-resurgence-of-smokeloader/

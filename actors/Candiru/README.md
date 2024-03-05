@@ -16,7 +16,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [SC](https://vuldb.com/?country.sc)
-* [ES](https://vuldb.com/?country.es)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
 There are 11 more country items available. Please use our online service to access the data.
@@ -77,24 +77,25 @@ ID | Type | Indicator | Confidence
 16 | File | `/collection/all` | High
 17 | File | `/controller/pay.class.php` | High
 18 | File | `/ctpms/admin/?page=applications/view_application` | High
-19 | File | `/dev/block/mmcblk0rpmb` | High
-20 | File | `/dev/snd/seq` | Medium
-21 | File | `/dl/dl_print.php` | High
-22 | File | `/etc/passwd` | Medium
-23 | File | `/getcfg.php` | Medium
-24 | File | `/goform/aspForm` | High
-25 | File | `/goform/SetClientState` | High
-26 | File | `/goform/set_LimitClient_cfg` | High
-27 | File | `/goform/SysToolChangePwd` | High
-28 | File | `/irj/servlet/prt/portal/prtroot/com.sap.portal.usermanagement.admin.UserMapping` | High
-29 | File | `/jerry-core/ecma/base/ecma-gc.c` | High
-30 | File | `/jerry-core/ecma/base/ecma-helpers-conversion.c` | High
-31 | File | `/librarian/bookdetails.php` | High
-32 | File | `/librarian/lab.php` | High
-33 | File | `/login` | Low
-34 | ... | ... | ...
+19 | File | `/cupseasylive/grnlist.php` | High
+20 | File | `/cupseasylive/statemodify.php` | High
+21 | File | `/dev/block/mmcblk0rpmb` | High
+22 | File | `/dev/snd/seq` | Medium
+23 | File | `/dl/dl_print.php` | High
+24 | File | `/etc/passwd` | Medium
+25 | File | `/getcfg.php` | Medium
+26 | File | `/goform/aspForm` | High
+27 | File | `/goform/SetClientState` | High
+28 | File | `/goform/set_LimitClient_cfg` | High
+29 | File | `/goform/SysToolChangePwd` | High
+30 | File | `/irj/servlet/prt/portal/prtroot/com.sap.portal.usermanagement.admin.UserMapping` | High
+31 | File | `/jerry-core/ecma/base/ecma-gc.c` | High
+32 | File | `/jerry-core/ecma/base/ecma-helpers-conversion.c` | High
+33 | File | `/librarian/bookdetails.php` | High
+34 | File | `/librarian/lab.php` | High
+35 | ... | ... | ...
 
-There are 291 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 296 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

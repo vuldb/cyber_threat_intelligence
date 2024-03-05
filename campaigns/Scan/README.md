@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Scan:
 
-* [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [CH](https://vuldb.com/?country.ch)
+* [US](https://vuldb.com/?country.us)
+* [TH](https://vuldb.com/?country.th)
 * ...
 
-There are 6 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -32,15 +32,16 @@ ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
 1 | [1.9.5.38](https://vuldb.com/?ip.1.9.5.38) | - | [ScanBox](https://vuldb.com/?actor.scanbox) | High
 2 | [23.251.102.74](https://vuldb.com/?ip.23.251.102.74) | zl-dal-us-gp3-wk109.internet-census.org | [Unknown](https://vuldb.com/?actor.unknown) | High
-3 | [45.146.164.110](https://vuldb.com/?ip.45.146.164.110) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
-4 | [46.101.59.235](https://vuldb.com/?ip.46.101.59.235) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
-5 | [50.2.24.211](https://vuldb.com/?ip.50.2.24.211) | - | [ScanBox](https://vuldb.com/?actor.scanbox) | High
-6 | [52.220.244.242](https://vuldb.com/?ip.52.220.244.242) | ec2-52-220-244-242.ap-southeast-1.compute.amazonaws.com | [Unknown](https://vuldb.com/?actor.unknown) | Medium
-7 | [66.197.231.62](https://vuldb.com/?ip.66.197.231.62) | - | [ScanBox](https://vuldb.com/?actor.scanbox) | High
-8 | [69.197.146.80](https://vuldb.com/?ip.69.197.146.80) | - | [ScanBox](https://vuldb.com/?actor.scanbox) | High
-9 | ... | ... | ... | ...
+3 | [45.77.237.243](https://vuldb.com/?ip.45.77.237.243) | 45.77.237.243.vultrusercontent.com | [ScanBox](https://vuldb.com/?actor.scanbox) | High
+4 | [45.146.164.110](https://vuldb.com/?ip.45.146.164.110) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
+5 | [46.101.59.235](https://vuldb.com/?ip.46.101.59.235) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
+6 | [50.2.24.211](https://vuldb.com/?ip.50.2.24.211) | - | [ScanBox](https://vuldb.com/?actor.scanbox) | High
+7 | [52.220.244.242](https://vuldb.com/?ip.52.220.244.242) | ec2-52-220-244-242.ap-southeast-1.compute.amazonaws.com | [Unknown](https://vuldb.com/?actor.unknown) | Medium
+8 | [66.197.231.62](https://vuldb.com/?ip.66.197.231.62) | - | [ScanBox](https://vuldb.com/?actor.scanbox) | High
+9 | [69.197.146.80](https://vuldb.com/?ip.69.197.146.80) | - | [ScanBox](https://vuldb.com/?actor.scanbox) | High
+10 | ... | ... | ... | ...
 
-There are 30 more IOC items available. Please use our online service to access the data.
+There are 34 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -48,12 +49,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
 2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
-4 | ... | ... | ... | ...
+3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 12 more TTP items available. Please use our online service to access the data.
+There are 15 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -64,20 +66,27 @@ ID | Type | Indicator | Confidence
 1 | File | `/admin/admin.php` | High
 2 | File | `/admin/maintenance/view_designation.php` | High
 3 | File | `/adminlogin.asp` | High
-4 | File | `/forum/away.php` | High
-5 | File | `/mc-admin/post.php?state=delete&delete` | High
-6 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-7 | File | `/wp-admin/options.php` | High
-8 | File | `addmember.php` | High
-9 | File | `addtocart.asp` | High
-10 | File | `addtomylist.asp` | High
-11 | File | `admin.x-shop.php` | High
-12 | File | `admin/adminlogin.php` | High
-13 | File | `admin/article_save.php` | High
-14 | File | `admin/auth.php` | High
-15 | ... | ... | ...
+4 | File | `/cgi-bin/wapopen` | High
+5 | File | `/forum/away.php` | High
+6 | File | `/mc-admin/post.php?state=delete&delete` | High
+7 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+8 | File | `/proc/self/setgroups` | High
+9 | File | `/secure/QueryComponent!Default.jspa` | High
+10 | File | `/userRpm/PingIframeRpm.htm` | High
+11 | File | `/webman/info.cgi` | High
+12 | File | `/wp-admin/options.php` | High
+13 | File | `adclick.php` | Medium
+14 | File | `addentry.php` | Medium
+15 | File | `addmember.php` | High
+16 | File | `addtocart.asp` | High
+17 | File | `addtomylist.asp` | High
+18 | File | `admin.x-shop.php` | High
+19 | File | `admin/adminlogin.php` | High
+20 | File | `admin/article_save.php` | High
+21 | File | `admin/auth.php` | High
+22 | ... | ... | ...
 
-There are 120 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 183 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -85,6 +94,7 @@ The following list contains _external sources_ which discuss the campaign and th
 
 * https://isc.sans.edu/forums/diary/10+Most+Popular+Targeted+Ports+in+the+Past+3+Weeks/28242/
 * https://isc.sans.edu/forums/diary/Apache+is+Actively+Scan+for+CVE202141773+CVE202142013/27940/
+* https://www.proofpoint.com/us/blog/threat-insight/chasing-currents-espionage-south-china-sea
 * https://www.threatminer.org/report.php?q=cto-tib-20150223-01a.pdf&y=2015
 * https://www.threatminer.org/report.php?q=pwc_ScanBox_framework.pdf&y=2014
 

@@ -39,14 +39,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23, CWE-29, CWE-36, CWE-425 | Pathname Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-22, CWE-23, CWE-29, CWE-36, CWE-425 | Path Traversal | High
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -54,44 +54,45 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/+CSCOE+/logon.html` | High
+1 | File | `.alerts-security.alerts-{space_id}` | High
 2 | File | `/admin/assign/assign.php` | High
 3 | File | `/admin/manage-users.php` | High
 4 | File | `/admin/pages/student-print.php` | High
-5 | File | `/admin/reg.php` | High
-6 | File | `/admin/sys_sql_query.php` | High
-7 | File | `/admin/users` | Medium
-8 | File | `/admin_route/inc_service_credits.php` | High
+5 | File | `/admin/sys_sql_query.php` | High
+6 | File | `/admin/users` | Medium
+7 | File | `/admin_route/inc_service_credits.php` | High
+8 | File | `/alsdemo/ss/mediam.cgi` | High
 9 | File | `/Ant_Suxin.php` | High
 10 | File | `/api/admin/user/list` | High
 11 | File | `/api/authentication/login` | High
-12 | File | `/api/thumbnail` | High
-13 | File | `/api /v3/auth` | High
-14 | File | `/App_Resource/UEditor/server/upload.aspx` | High
-15 | File | `/assets/php/upload.php` | High
-16 | File | `/blog/blogpublish.php` | High
-17 | File | `/cgi-bin/cstecgi.cgi` | High
-18 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-19 | File | `/cgi-bin/R19.9/easy1350.pl` | High
-20 | File | `/cgi-bin/vitogate.cgi` | High
-21 | File | `/collection/all` | High
-22 | File | `/company/store` | High
-23 | File | `/config-manager/save` | High
-24 | File | `/config/getuser` | High
-25 | File | `/config/php.ini` | High
-26 | File | `/controllers/Blocks.php` | High
-27 | File | `/debug/pprof` | Medium
-28 | File | `/dede/tpl.php` | High
-29 | File | `/download` | Medium
-30 | File | `/download/image` | High
-31 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-32 | File | `/endpoint/add-user.php` | High
-33 | File | `/etc/hosts.deny` | High
-34 | File | `/file-manager/upload.php` | High
-35 | File | `/file/upload/1` | High
-36 | ... | ... | ...
+12 | File | `/api/controllers/merchant/app/ComboController.php` | High
+13 | File | `/api/thumbnail` | High
+14 | File | `/api /v3/auth` | High
+15 | File | `/application/index/controller/Databasesource.php` | High
+16 | File | `/App_Resource/UEditor/server/upload.aspx` | High
+17 | File | `/assets/php/upload.php` | High
+18 | File | `/blog/blogpublish.php` | High
+19 | File | `/cgi-bin/cstecgi.cgi` | High
+20 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+21 | File | `/cgi-bin/R19.9/easy1350.pl` | High
+22 | File | `/cgi-bin/vitogate.cgi` | High
+23 | File | `/collection/all` | High
+24 | File | `/company/store` | High
+25 | File | `/config-manager/save` | High
+26 | File | `/config/getuser` | High
+27 | File | `/config/php.ini` | High
+28 | File | `/cupseasylive/itemlist.php` | High
+29 | File | `/cupseasylive/itempopup.php` | High
+30 | File | `/cupseasylive/unitofmeasurementmodify.php` | High
+31 | File | `/debug/pprof` | Medium
+32 | File | `/dede/tpl.php` | High
+33 | File | `/download/image` | High
+34 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+35 | File | `/endpoint/add-user.php` | High
+36 | File | `/etc/hosts.deny` | High
+37 | ... | ... | ...
 
-There are 310 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 322 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

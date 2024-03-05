@@ -43,10 +43,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-94 | Argument Injection | High
 5 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
@@ -75,17 +75,18 @@ ID | Type | Indicator | Confidence
 16 | File | `/bin/boa` | Medium
 17 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
 18 | File | `/collection/all` | High
-19 | File | `/doc/packages` | High
-20 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-21 | File | `/forum/away.php` | High
-22 | File | `/getcfg.php` | Medium
-23 | File | `/hrm/employeeview.php` | High
-24 | File | `/log/decodmail.php` | High
-25 | File | `/login` | Low
-26 | File | `/mkshop/Men/profile.php` | High
-27 | ... | ... | ...
+19 | File | `/core/config-revisions` | High
+20 | File | `/doc/packages` | High
+21 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+22 | File | `/forum/away.php` | High
+23 | File | `/general/attendance/manage/ask_duty/delete.php` | High
+24 | File | `/getcfg.php` | Medium
+25 | File | `/hrm/employeeview.php` | High
+26 | File | `/log/decodmail.php` | High
+27 | File | `/login` | Low
+28 | ... | ... | ...
 
-There are 228 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 232 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

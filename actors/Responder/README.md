@@ -207,13 +207,14 @@ ID | IP address | Hostname | Campaign | Confidence
 184 | [18.201.103.208](https://vuldb.com/?ip.18.201.103.208) | ec2-18-201-103-208.eu-west-1.compute.amazonaws.com | - | Medium
 185 | [18.201.186.200](https://vuldb.com/?ip.18.201.186.200) | ec2-18-201-186-200.eu-west-1.compute.amazonaws.com | - | Medium
 186 | [18.201.203.167](https://vuldb.com/?ip.18.201.203.167) | ec2-18-201-203-167.eu-west-1.compute.amazonaws.com | - | Medium
-187 | [18.202.28.86](https://vuldb.com/?ip.18.202.28.86) | ec2-18-202-28-86.eu-west-1.compute.amazonaws.com | - | Medium
-188 | [18.202.32.159](https://vuldb.com/?ip.18.202.32.159) | ec2-18-202-32-159.eu-west-1.compute.amazonaws.com | - | Medium
-189 | [18.202.77.193](https://vuldb.com/?ip.18.202.77.193) | ec2-18-202-77-193.eu-west-1.compute.amazonaws.com | - | Medium
-190 | [18.203.66.157](https://vuldb.com/?ip.18.203.66.157) | ec2-18-203-66-157.eu-west-1.compute.amazonaws.com | - | Medium
-191 | ... | ... | ... | ...
+187 | [18.201.215.198](https://vuldb.com/?ip.18.201.215.198) | ec2-18-201-215-198.eu-west-1.compute.amazonaws.com | - | Medium
+188 | [18.202.28.86](https://vuldb.com/?ip.18.202.28.86) | ec2-18-202-28-86.eu-west-1.compute.amazonaws.com | - | Medium
+189 | [18.202.32.159](https://vuldb.com/?ip.18.202.32.159) | ec2-18-202-32-159.eu-west-1.compute.amazonaws.com | - | Medium
+190 | [18.202.77.193](https://vuldb.com/?ip.18.202.77.193) | ec2-18-202-77-193.eu-west-1.compute.amazonaws.com | - | Medium
+191 | [18.203.66.157](https://vuldb.com/?ip.18.203.66.157) | ec2-18-203-66-157.eu-west-1.compute.amazonaws.com | - | Medium
+192 | ... | ... | ... | ...
 
-There are 761 more IOC items available. Please use our online service to access the data.
+There are 765 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -224,7 +225,7 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-29, CWE-425 | Pathname Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-94 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -245,25 +246,25 @@ ID | Type | Indicator | Confidence
 7 | File | `/admin/fields/manage_field.php` | High
 8 | File | `/admin/regester.php` | High
 9 | File | `/admin/update-clients.php` | High
-10 | File | `/admin_route/dec_service_credits.php` | High
-11 | File | `/admin_route/inc_service_credits.php` | High
-12 | File | `/api/baskets/{name}` | High
-13 | File | `/api/cron/settings/setJob/` | High
-14 | File | `/api/sys/set_passwd` | High
-15 | File | `/api/v1/terminal/sessions/?limit=1` | High
-16 | File | `/app/api/controller/default/Sqlite.php` | High
-17 | File | `/apply.cgi` | Medium
-18 | File | `/arch/x86/mm/cpu_entry_area.c` | High
-19 | File | `/authenticationendpoint/login.do` | High
-20 | File | `/b2b-supermarket/shopping-cart` | High
-21 | File | `/bin/boa` | Medium
-22 | File | `/boaform/device_reset.cgi` | High
-23 | File | `/bsms_ci/index.php` | High
-24 | File | `/bsms_ci/index.php/user/edit_user/` | High
-25 | File | `/catalog/compare` | High
-26 | File | `/cgi-bin/cstecgi.cgi` | High
-27 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-28 | File | `/cgi-bin/downloadFile.cgi` | High
+10 | File | `/admin_ping.htm` | High
+11 | File | `/admin_route/dec_service_credits.php` | High
+12 | File | `/admin_route/inc_service_credits.php` | High
+13 | File | `/api/baskets/{name}` | High
+14 | File | `/api/cron/settings/setJob/` | High
+15 | File | `/api/sys/set_passwd` | High
+16 | File | `/api/v1/terminal/sessions/?limit=1` | High
+17 | File | `/app/api/controller/default/Sqlite.php` | High
+18 | File | `/apply.cgi` | Medium
+19 | File | `/arch/x86/mm/cpu_entry_area.c` | High
+20 | File | `/authenticationendpoint/login.do` | High
+21 | File | `/b2b-supermarket/shopping-cart` | High
+22 | File | `/bin/boa` | Medium
+23 | File | `/boaform/device_reset.cgi` | High
+24 | File | `/boafrm/formMapDelDevice` | High
+25 | File | `/bsms_ci/index.php` | High
+26 | File | `/bsms_ci/index.php/user/edit_user/` | High
+27 | File | `/cgi-bin/cstecgi.cgi` | High
+28 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
 29 | File | `/cgi-bin/kerbynet` | High
 30 | File | `/cgi-bin/koha/catalogue/search.pl` | High
 31 | File | `/cgi-bin/R14.2/cgi-bin/R14.2/host.pl` | High
@@ -271,15 +272,16 @@ ID | Type | Indicator | Confidence
 33 | File | `/cgi-bin/wlogin.cgi` | High
 34 | File | `/clinic/disease_symptoms_view.php` | High
 35 | File | `/config/getuser` | High
-36 | File | `/dashboard/snapshot/*?orgId=0` | High
-37 | File | `/debug/pprof` | Medium
-38 | File | `/DXR.axd` | Medium
-39 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-40 | File | `/forum/away.php` | High
-41 | File | `/geoserver/gwc/rest.html` | High
-42 | ... | ... | ...
+36 | File | `/core/redirect` | High
+37 | File | `/dashboard/snapshot/*?orgId=0` | High
+38 | File | `/debug/pprof` | Medium
+39 | File | `/DXR.axd` | Medium
+40 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+41 | File | `/forum/away.php` | High
+42 | File | `/geoserver/gwc/rest.html` | High
+43 | ... | ... | ...
 
-There are 364 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 372 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -470,6 +472,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/18.201.103.208
 * https://search.censys.io/hosts/18.201.186.200
 * https://search.censys.io/hosts/18.201.203.167
+* https://search.censys.io/hosts/18.201.215.198
 * https://search.censys.io/hosts/18.202.28.86
 * https://search.censys.io/hosts/18.202.32.159
 * https://search.censys.io/hosts/18.202.77.193
@@ -676,6 +679,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/51.20.80.52
 * https://search.censys.io/hosts/51.38.185.204
 * https://search.censys.io/hosts/51.75.91.172
+* https://search.censys.io/hosts/51.81.35.61
 * https://search.censys.io/hosts/51.83.99.132
 * https://search.censys.io/hosts/51.83.249.137
 * https://search.censys.io/hosts/51.91.102.222
@@ -817,6 +821,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/78.57.231.58
 * https://search.censys.io/hosts/78.128.99.215
 * https://search.censys.io/hosts/78.128.113.130
+* https://search.censys.io/hosts/79.132.128.47
 * https://search.censys.io/hosts/79.137.199.98
 * https://search.censys.io/hosts/80.77.25.147
 * https://search.censys.io/hosts/80.85.155.43
@@ -1024,6 +1029,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/158.101.172.180
 * https://search.censys.io/hosts/158.160.16.61
 * https://search.censys.io/hosts/158.160.68.42
+* https://search.censys.io/hosts/158.160.124.3
 * https://search.censys.io/hosts/158.255.213.74
 * https://search.censys.io/hosts/159.65.86.149
 * https://search.censys.io/hosts/159.65.130.138

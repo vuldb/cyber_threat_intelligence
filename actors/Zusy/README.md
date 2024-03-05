@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Zusy:
 
-* [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
+* [US](https://vuldb.com/?country.us)
 * [DK](https://vuldb.com/?country.dk)
 * ...
 
-There are 14 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -133,14 +133,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Pathname Traversal | High
-2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Path Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -148,57 +148,56 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/?p=products` | Medium
-2 | File | `/admin/add-category.php` | High
-3 | File | `/admin/controller/JobLogController.java` | High
-4 | File | `/admin/general.cgi` | High
-5 | File | `/admin/gnssAutoAlign.php` | High
-6 | File | `/admin/manage-users.php` | High
-7 | File | `/admin/read.php?mudi=getSignal` | High
-8 | File | `/admin/reminders/manage_reminder.php` | High
-9 | File | `/api/baskets/{name}` | High
-10 | File | `/api/stl/actions/search` | High
-11 | File | `/api/sys/login` | High
-12 | File | `/api/sys/set_passwd` | High
-13 | File | `/api/trackedEntityInstances` | High
-14 | File | `/api/v2/cli/commands` | High
-15 | File | `/aux` | Low
-16 | File | `/bin/ate` | Medium
-17 | File | `/booking/show_bookings/` | High
-18 | File | `/CCMAdmin/serverlist.asp` | High
-19 | File | `/cgi-bin` | Medium
-20 | File | `/cgi/get_param.cgi` | High
-21 | File | `/changePassword` | High
-22 | File | `/Content/Template/root/reverse-shell.aspx` | High
-23 | File | `/csms/admin/inquiries/view_details.php` | High
-24 | File | `/cstecgi.cgi` | Medium
-25 | File | `/cupseasylive/locationmodify.php` | High
-26 | File | `/dashboard/add-blog.php` | High
-27 | File | `/data/remove` | Medium
-28 | File | `/debug/pprof` | Medium
-29 | File | `/ecshop/admin/template.php` | High
-30 | File | `/env` | Low
-31 | File | `/forum/away.php` | High
-32 | File | `/goform/SetOnlineDevName` | High
-33 | File | `/group1/uploa` | High
-34 | File | `/importexport.php` | High
-35 | File | `/include/chart_generator.php` | High
-36 | File | `/index.php` | Medium
-37 | File | `/kelas/data` | Medium
-38 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-39 | File | `/out.php` | Medium
-40 | File | `/owa/auth/logon.aspx` | High
-41 | File | `/php-sms/admin/?page=user/manage_user` | High
-42 | File | `/resources//../` | High
-43 | File | `/search` | Low
-44 | File | `/SVFE2/pages/feegroups/country_group.jsf` | High
-45 | File | `/testConnection` | High
-46 | File | `/tmp/ppd.trace` | High
-47 | File | `/ueditor/net/controller.ashx?action=catchimage` | High
-48 | File | `/upfile.cgi` | Medium
-49 | ... | ... | ...
+1 | File | `/admin/add-category.php` | High
+2 | File | `/admin/controller/JobLogController.java` | High
+3 | File | `/admin/general.cgi` | High
+4 | File | `/admin/gnssAutoAlign.php` | High
+5 | File | `/admin/manage-users.php` | High
+6 | File | `/admin/read.php?mudi=getSignal` | High
+7 | File | `/admin/reminders/manage_reminder.php` | High
+8 | File | `/api/baskets/{name}` | High
+9 | File | `/api/sys/login` | High
+10 | File | `/api/sys/set_passwd` | High
+11 | File | `/api/trackedEntityInstances` | High
+12 | File | `/aux` | Low
+13 | File | `/booking/show_bookings/` | High
+14 | File | `/CCMAdmin/serverlist.asp` | High
+15 | File | `/cgi/get_param.cgi` | High
+16 | File | `/changePassword` | High
+17 | File | `/Content/Template/root/reverse-shell.aspx` | High
+18 | File | `/csms/admin/inquiries/view_details.php` | High
+19 | File | `/cstecgi.cgi` | Medium
+20 | File | `/cupseasylive/locationmodify.php` | High
+21 | File | `/dashboard/add-blog.php` | High
+22 | File | `/data/remove` | Medium
+23 | File | `/debug/pprof` | Medium
+24 | File | `/ecshop/admin/template.php` | High
+25 | File | `/etc/passwd` | Medium
+26 | File | `/forum/away.php` | High
+27 | File | `/goform/SetOnlineDevName` | High
+28 | File | `/group1/uploa` | High
+29 | File | `/importexport.php` | High
+30 | File | `/include/chart_generator.php` | High
+31 | File | `/index.php` | Medium
+32 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+33 | File | `/out.php` | Medium
+34 | File | `/owa/auth/logon.aspx` | High
+35 | File | `/resources//../` | High
+36 | File | `/search` | Low
+37 | File | `/SVFE2/pages/feegroups/country_group.jsf` | High
+38 | File | `/testConnection` | High
+39 | File | `/tmp/ppd.trace` | High
+40 | File | `/ueditor/net/controller.ashx?action=catchimage` | High
+41 | File | `/upfile.cgi` | Medium
+42 | File | `/user/inc/workidajax.php` | High
+43 | File | `/userLogin.asp` | High
+44 | File | `/vm/admin/doctors.php` | High
+45 | File | `/wordpress/wp-admin/admin.php` | High
+46 | File | `?r=recruit/interview/export&interviews=x` | High
+47 | File | `Access.app/Contents/Resources/kcproxy` | High
+48 | ... | ... | ...
 
-There are 421 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 412 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

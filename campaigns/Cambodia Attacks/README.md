@@ -79,9 +79,10 @@ ID | Type | Indicator | Confidence
 20 | File | `/wp-json/oembed/1.0/embed?url` | High
 21 | File | `/xAdmin/html/cm_doclist_view_uc.jsp` | High
 22 | File | `adclick.php` | Medium
-23 | ... | ... | ...
+23 | File | `add_comment.php` | High
+24 | ... | ... | ...
 
-There are 196 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 199 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

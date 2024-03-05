@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 19 more country items available. Please use our online service to access the data.
+There are 21 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -85,7 +85,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -120,44 +120,43 @@ ID | Type | Indicator | Confidence
 25 | File | `/apply.cgi` | Medium
 26 | File | `/bin/boa` | Medium
 27 | File | `/blog` | Low
-28 | File | `/booking/show_bookings/` | High
-29 | File | `/CCMAdmin/serverlist.asp` | High
-30 | File | `/cgi-bin/cstecgi.cgi` | High
-31 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-32 | File | `/cgi-bin/wlogin.cgi` | High
-33 | File | `/cgi/get_param.cgi` | High
-34 | File | `/classes/master.php?f=delete_order` | High
-35 | File | `/collection/all` | High
-36 | File | `/csms/admin/inquiries/view_details.php` | High
-37 | File | `/cstecgi.cgi` | Medium
-38 | File | `/dipam/athlete-profile.php` | High
-39 | File | `/DXR.axd` | Medium
-40 | File | `/E-mobile/App/System/File/downfile.php` | High
-41 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-42 | File | `/etc/shadow` | Medium
-43 | File | `/forum/away.php` | High
-44 | File | `/fusion/portal/action/Link` | High
-45 | File | `/h/autoSaveDraft` | High
-46 | File | `/HNAP1/` | Low
-47 | File | `/importexport.php` | High
-48 | File | `/include/chart_generator.php` | High
-49 | File | `/index.php` | Medium
-50 | File | `/index.php?app=main&func=passport&action=login` | High
-51 | File | `/index.php?p=admin/actions/users/send-password-reset-email` | High
-52 | File | `/kelasdosen/data` | High
-53 | File | `/librarian/bookdetails.php` | High
-54 | File | `/listplace/user/coverPhotoUpdate` | High
-55 | File | `/messageboard/view.php` | High
-56 | File | `/MIME/INBOX-MM-1/` | High
-57 | File | `/osm/REGISTER.cmd` | High
-58 | File | `/out.php` | Medium
-59 | File | `/patient/appointment.php` | High
-60 | File | `/paysystem/datatable.php` | High
-61 | File | `/php/ping.php` | High
-62 | File | `/protocol/iscgwtunnel/uploadiscgwrouteconf.php` | High
-63 | ... | ... | ...
+28 | File | `/boafrm/formMapDelDevice` | High
+29 | File | `/booking/show_bookings/` | High
+30 | File | `/CCMAdmin/serverlist.asp` | High
+31 | File | `/cgi-bin/cstecgi.cgi` | High
+32 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+33 | File | `/cgi-bin/wlogin.cgi` | High
+34 | File | `/cgi/get_param.cgi` | High
+35 | File | `/classes/master.php?f=delete_order` | High
+36 | File | `/collection/all` | High
+37 | File | `/csms/admin/inquiries/view_details.php` | High
+38 | File | `/cstecgi.cgi` | Medium
+39 | File | `/dipam/athlete-profile.php` | High
+40 | File | `/DXR.axd` | Medium
+41 | File | `/E-mobile/App/System/File/downfile.php` | High
+42 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+43 | File | `/etc/shadow` | Medium
+44 | File | `/forum/away.php` | High
+45 | File | `/fusion/portal/action/Link` | High
+46 | File | `/h/autoSaveDraft` | High
+47 | File | `/hedwig.cgi` | Medium
+48 | File | `/HNAP1/` | Low
+49 | File | `/importexport.php` | High
+50 | File | `/include/chart_generator.php` | High
+51 | File | `/index.php` | Medium
+52 | File | `/index.php?app=main&func=passport&action=login` | High
+53 | File | `/index.php?p=admin/actions/users/send-password-reset-email` | High
+54 | File | `/kelasdosen/data` | High
+55 | File | `/librarian/bookdetails.php` | High
+56 | File | `/listplace/user/coverPhotoUpdate` | High
+57 | File | `/messageboard/view.php` | High
+58 | File | `/MIME/INBOX-MM-1/` | High
+59 | File | `/novel/bookSetting/list` | High
+60 | File | `/osm/REGISTER.cmd` | High
+61 | File | `/out.php` | Medium
+62 | ... | ... | ...
 
-There are 550 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 544 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

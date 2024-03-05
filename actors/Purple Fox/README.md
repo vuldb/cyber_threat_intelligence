@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [US](https://vuldb.com/?country.us)
 * ...
 
-There are 4 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -431,13 +431,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Path Traversal | High
 2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94 | Cross Site Scripting | High
+3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -445,69 +445,28 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/action/new-father.php` | High
-2 | File | `/admin/admin.php` | High
-3 | File | `/admin/edit_teacher.php` | High
-4 | File | `/admin/fields/manage_field.php` | High
-5 | File | `/admin_route/dec_service_credits.php` | High
-6 | File | `/admin_route/inc_service_credits.php` | High
-7 | File | `/api/sys/set_passwd` | High
-8 | File | `/app/api/controller/default/Sqlite.php` | High
-9 | File | `/arch/x86/mm/cpu_entry_area.c` | High
-10 | File | `/aux` | Low
-11 | File | `/bin/boa` | Medium
-12 | File | `/bsms_ci/index.php` | High
-13 | File | `/bsms_ci/index.php/user/edit_user/` | High
-14 | File | `/cgi-bin/cstecgi.cgi` | High
-15 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-16 | File | `/cgi/cpaddons_report.pl` | High
-17 | File | `/forum/away.php` | High
-18 | File | `/hedwig.cgi` | Medium
-19 | File | `/include/lang-en.php` | High
-20 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-21 | File | `/php/ping.php` | High
-22 | File | `/src/Illuminate/Laravel.php` | High
-23 | File | `/status/` | Medium
-24 | File | `/sysmanage/updateos.php` | High
-25 | File | `/system/traceLog/page` | High
-26 | File | `/tmp/ppd.trace` | High
-27 | File | `/usr/bin/write` | High
-28 | File | `/var/spool/fax/outgoing/.last_run` | High
-29 | File | `3G/UMTS` | Low
-30 | File | `400.htm/500.htm` | High
-31 | File | `abitwhizzy.php` | High
-32 | File | `acc.php` | Low
-33 | File | `Account.asp` | Medium
-34 | File | `accton` | Low
-35 | File | `adclick.php` | Medium
-36 | File | `add-category.php` | High
-37 | File | `addressbook.update.php` | High
-38 | File | `add_comment.php` | High
-39 | File | `add_post.php3` | High
-40 | File | `admin/auth.php` | High
-41 | File | `admin/change-password.php` | High
-42 | File | `admin/contact.php` | High
-43 | File | `admin/index.php` | High
-44 | File | `admin/patient-search.php` | High
-45 | File | `admin/picture/picture_real_edit.asp` | High
-46 | File | `admin/query-details.php` | High
-47 | File | `admin/tool/policy/classes/output/page_viewalldoc.php` | High
-48 | File | `apexec.pl` | Medium
-49 | File | `app\xml_cdr\xml_cdr_delete.php` | High
-50 | File | `ArchivesMapper.xml` | High
-51 | File | `assets/sources/instagram.php` | High
-52 | File | `attendance_report.php` | High
-53 | File | `authinfo.java` | High
-54 | File | `avatar.php` | Medium
-55 | File | `backup_xi.sh` | Medium
-56 | File | `bb-includes/formatting-functions.php` | High
-57 | File | `BBStore.php` | Medium
-58 | File | `board.php` | Medium
-59 | File | `books.php` | Medium
-60 | File | `brokenlink.php` | High
-61 | ... | ... | ...
+1 | File | `/.env` | Low
+2 | File | `/admin/list_ipAddressPolicy.php` | High
+3 | File | `/admin/orders/view_order.php` | High
+4 | File | `/api/blade-log/api/list` | High
+5 | File | `/api /v3/auth` | High
+6 | File | `/cgi-bin/cstecgi.cgi` | High
+7 | File | `/cgi-bin/mainfunction.cgi` | High
+8 | File | `/cgi-bin/nobody/VerifyCode.cgi` | High
+9 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
+10 | File | `/cgi-bin/wlogin.cgi` | High
+11 | File | `/cgi.cgi` | Medium
+12 | File | `/common/dict/list` | High
+13 | File | `/counter/index2.php` | High
+14 | File | `/data/remove` | Medium
+15 | File | `/DXR.axd` | Medium
+16 | File | `/ECT_Provider/` | High
+17 | File | `/fax/fax_send.php` | High
+18 | File | `/goform/` | Medium
+19 | File | `/h/autoSaveDraft` | High
+20 | ... | ... | ...
 
-There are 532 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 162 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -43,7 +43,7 @@ ID | IP address | Hostname | Actor | Confidence
 11 | [45.9.148.182](https://vuldb.com/?ip.45.9.148.182) | - | [Tsunami](https://vuldb.com/?actor.tsunami) | High
 12 | ... | ... | ... | ...
 
-There are 42 more IOC items available. Please use our online service to access the data.
+There are 44 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -51,14 +51,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-29, CWE-425 | Pathname Traversal | High
-2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-29 | Path Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-271, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -67,50 +67,53 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/.env` | Low
-2 | File | `/accounts/password_change/` | High
-3 | File | `/act/ActDao.xml` | High
-4 | File | `/admin/action/new-father.php` | High
-5 | File | `/admin/clientview.php` | High
-6 | File | `/admin/edit_teacher.php` | High
-7 | File | `/admin/fields/manage_field.php` | High
-8 | File | `/admin/regester.php` | High
-9 | File | `/admin/update-clients.php` | High
-10 | File | `/admin_ping.htm` | High
-11 | File | `/admin_route/dec_service_credits.php` | High
-12 | File | `/admin_route/inc_service_credits.php` | High
-13 | File | `/api/baskets/{name}` | High
-14 | File | `/api/cron/settings/setJob/` | High
-15 | File | `/api/sys/set_passwd` | High
-16 | File | `/api/v1/terminal/sessions/?limit=1` | High
-17 | File | `/app/api/controller/default/Sqlite.php` | High
-18 | File | `/apply.cgi` | Medium
-19 | File | `/arch/x86/mm/cpu_entry_area.c` | High
-20 | File | `/authenticationendpoint/login.do` | High
-21 | File | `/b2b-supermarket/shopping-cart` | High
-22 | File | `/bin/boa` | Medium
-23 | File | `/boaform/device_reset.cgi` | High
-24 | File | `/boafrm/formMapDelDevice` | High
-25 | File | `/bsms_ci/index.php` | High
-26 | File | `/bsms_ci/index.php/user/edit_user/` | High
-27 | File | `/cgi-bin/cstecgi.cgi` | High
-28 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-29 | File | `/cgi-bin/downloadFile.cgi` | High
-30 | File | `/cgi-bin/kerbynet` | High
-31 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-32 | File | `/cgi-bin/qcmap_auth` | High
-33 | File | `/cgi-bin/R14.2/cgi-bin/R14.2/host.pl` | High
-34 | File | `/cgi-bin/R14.2/easy1350.pl` | High
-35 | File | `/cgi-bin/wlogin.cgi` | High
-36 | File | `/clinic/disease_symptoms_view.php` | High
-37 | File | `/config/getuser` | High
-38 | File | `/core/redirect` | High
-39 | File | `/dashboard/snapshot/*?orgId=0` | High
-40 | File | `/debug/pprof` | Medium
-41 | File | `/DXR.axd` | Medium
-42 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-43 | ... | ... | ...
+2 | File | `/act/ActDao.xml` | High
+3 | File | `/admin/action/new-father.php` | High
+4 | File | `/admin/clientview.php` | High
+5 | File | `/admin/edit_teacher.php` | High
+6 | File | `/admin/fields/manage_field.php` | High
+7 | File | `/admin/regester.php` | High
+8 | File | `/admin/update-clients.php` | High
+9 | File | `/admin_ping.htm` | High
+10 | File | `/admin_route/dec_service_credits.php` | High
+11 | File | `/admin_route/inc_service_credits.php` | High
+12 | File | `/api/cron/settings/setJob/` | High
+13 | File | `/api/sys/set_passwd` | High
+14 | File | `/api/v1/terminal/sessions/?limit=1` | High
+15 | File | `/app/api/controller/default/Sqlite.php` | High
+16 | File | `/application/index/controller/Databasesource.php` | High
+17 | File | `/application/index/controller/Icon.php` | High
+18 | File | `/application/index/controller/Screen.php` | High
+19 | File | `/application/plugins/controller/Upload.php` | High
+20 | File | `/apply.cgi` | Medium
+21 | File | `/arch/x86/mm/cpu_entry_area.c` | High
+22 | File | `/authenticationendpoint/login.do` | High
+23 | File | `/b2b-supermarket/shopping-cart` | High
+24 | File | `/bin/boa` | Medium
+25 | File | `/boaform/device_reset.cgi` | High
+26 | File | `/boafrm/formMapDelDevice` | High
+27 | File | `/bsms_ci/index.php` | High
+28 | File | `/bsms_ci/index.php/user/edit_user/` | High
+29 | File | `/cgi-bin/cstecgi.cgi` | High
+30 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+31 | File | `/cgi-bin/kerbynet` | High
+32 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+33 | File | `/cgi-bin/mainfunction.cgi` | High
+34 | File | `/cgi-bin/R14.2/cgi-bin/R14.2/host.pl` | High
+35 | File | `/cgi-bin/R14.2/easy1350.pl` | High
+36 | File | `/cgi-bin/wlogin.cgi` | High
+37 | File | `/clinic/disease_symptoms_view.php` | High
+38 | File | `/config/getuser` | High
+39 | File | `/core/redirect` | High
+40 | File | `/dashboard/snapshot/*?orgId=0` | High
+41 | File | `/debug/pprof` | Medium
+42 | File | `/DXR.axd` | Medium
+43 | File | `/ECT_Provider/` | High
+44 | File | `/fax/fax_send.php` | High
+45 | File | `/forum/away.php` | High
+46 | ... | ... | ...
 
-There are 374 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 396 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -118,6 +121,7 @@ The following list contains _external sources_ which discuss the campaign and th
 
 * https://asec.ahnlab.com/en/54647/
 * https://bazaar.abuse.ch/sample/02acdc11b6e22b8fa19ebafb10190ac28a7f0e5ee569a058c2df825337e4447a/
+* https://bazaar.abuse.ch/sample/1b40a289556934d67a35d6422f66b3b062e616d0b7e00d23f543d25183ebe8d6/
 * https://bazaar.abuse.ch/sample/6c6888a75d6a62dc7414dd22d0b6a70456a108a14889b8406f7aeb8b61b34633/
 * https://bazaar.abuse.ch/sample/7c4e9e95a27147623ec5b3be81c76c131a0871d75f50b148b93e88ef6ee0b468/
 * https://bazaar.abuse.ch/sample/8a04585157033b86cb2c104f441d236bc3255b46127355f8342b75ab40eb3e35/
@@ -130,6 +134,7 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://bazaar.abuse.ch/sample/1917aa3e5bfd1c6a958ca61875c4f58edcbf68d5b954707523b3088fbb096363/
 * https://bazaar.abuse.ch/sample/76420e2f4edda9c5b643b1d2d1ff895b02373a746a8d004e87f71e2b15122669/
 * https://bazaar.abuse.ch/sample/355807fc92869c656200c3c8a7f41cd204c92a5abf3437324e4a0a6a8a68ed78/
+* https://bazaar.abuse.ch/sample/656639f032e8e10efc8c581cf03bd2a75c89cdb71cf25e857f2bca1d8b983c42/
 * https://bazaar.abuse.ch/sample/aaa03b1810498597909ddb7756779921fd187df1baea91faafeee0e00ffdaccc/
 * https://bazaar.abuse.ch/sample/b30702b6432c4a5ca65ebc060b72f28ba71f60b20bb38b6f858af5e6aa61896f/
 * https://bazaar.abuse.ch/sample/d335c83c0dd5bc9a078e796016f9a9f845ff89ee434c63c7a2e7b360e8be3e95/

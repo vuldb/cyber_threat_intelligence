@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Middle East:
 
 * [US](https://vuldb.com/?country.us)
-* [VN](https://vuldb.com/?country.vn)
 * [CN](https://vuldb.com/?country.cn)
+* [VN](https://vuldb.com/?country.vn)
 * ...
 
-There are 15 more country items available. Please use our online service to access the data.
+There are 14 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -64,14 +64,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23, CWE-24 | Pathname Traversal | High
+1 | T1006 | CWE-22, CWE-24 | Path Traversal | High
 2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-264, CWE-266, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+5 | T1068 | CWE-264, CWE-266, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -79,28 +79,28 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `$HOME/.terminfo` | High
-2 | File | `/academy/tutor/filter` | High
-3 | File | `/admin/` | Low
-4 | File | `/admin/admin_content_tag.php?action=save_content` | High
-5 | File | `/admin/admin_user.php` | High
-6 | File | `/admin/article/article-edit-run.php` | High
-7 | File | `/admin/category/save` | High
-8 | File | `/admin/category_row.php` | High
-9 | File | `/admin/ind_backstage.php` | High
+1 | File | `/addnews.html` | High
+2 | File | `/admin/` | Low
+3 | File | `/admin/admin_content_tag.php?action=save_content` | High
+4 | File | `/admin/admin_user.php` | High
+5 | File | `/admin/app/product.php` | High
+6 | File | `/admin/category/save` | High
+7 | File | `/admin/category_row.php` | High
+8 | File | `/admin/ind_backstage.php` | High
+9 | File | `/admin/list_ipAddressPolicy.php` | High
 10 | File | `/admin/return_add.php` | High
 11 | File | `/admin/subject.php` | High
 12 | File | `/admin/upload/img` | High
 13 | File | `/admin_route/dec_service_credits.php` | High
-14 | File | `/app/ajax/sell_return_data.php` | High
-15 | File | `/app/api/controller/default/File.php` | High
-16 | File | `/application/index/controller/Datament.php` | High
-17 | File | `/application/index/controller/File.php` | High
-18 | File | `/auth/auth.php?user=1` | High
-19 | File | `/b2b-supermarket/catalog/all-products` | High
-20 | File | `/bin/boa` | Medium
-21 | File | `/bin/login` | Medium
-22 | File | `/bin/mini_upnpd` | High
+14 | File | `/api/controllers/merchant/design/MaterialController.php` | High
+15 | File | `/app/ajax/sell_return_data.php` | High
+16 | File | `/app/api/controller/default/File.php` | High
+17 | File | `/application/index/controller/Datament.php` | High
+18 | File | `/application/index/controller/File.php` | High
+19 | File | `/att_add.php` | Medium
+20 | File | `/auth/auth.php?user=1` | High
+21 | File | `/b2b-supermarket/catalog/all-products` | High
+22 | File | `/bin/boa` | Medium
 23 | File | `/boaform/device_reset.cgi` | High
 24 | File | `/boaform/wlan_basic_set.cgi` | High
 25 | File | `/cgi-bin/cstecgi.cgi` | High
@@ -111,20 +111,20 @@ ID | Type | Indicator | Confidence
 30 | File | `/classes/Master.php?f=delete_reminder` | High
 31 | File | `/debug/pprof` | Medium
 32 | File | `/DXR.axd` | Medium
-33 | File | `/forum/away.php` | High
-34 | File | `/goform/goform_get_cmd_process` | High
-35 | File | `/h/autoSaveDraft` | High
-36 | File | `/h/search?action` | High
+33 | File | `/Employer/EditProfile.php` | High
+34 | File | `/Employer/ManageWalkin.php` | High
+35 | File | `/forum/away.php` | High
+36 | File | `/goform/goform_get_cmd_process` | High
 37 | File | `/HNAP1/` | Low
 38 | File | `/im/user/` | Medium
 39 | File | `/importexport.php` | High
-40 | File | `/index.php?app=main&func=passport&action=login` | High
-41 | File | `/libsystem/login.php` | High
-42 | File | `/main/checkout.php` | High
-43 | File | `/main/doctype.php` | High
-44 | File | `/main/webservices/additional_webservices.php` | High
-45 | File | `/mc` | Low
-46 | File | `/mgmt/` | Low
+40 | File | `/libsystem/login.php` | High
+41 | File | `/main/checkout.php` | High
+42 | File | `/main/doctype.php` | High
+43 | File | `/main/webservices/additional_webservices.php` | High
+44 | File | `/mc` | Low
+45 | File | `/mgmt/` | Low
+46 | File | `/net/bluetooth/rfcomm/core.C` | High
 47 | File | `/novel/bookSetting/list` | High
 48 | File | `/oa/notify/edit` | High
 49 | ... | ... | ...

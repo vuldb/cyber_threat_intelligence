@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 20 more country items available. Please use our online service to access the data.
+There are 19 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -59,14 +59,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-425 | Path Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -76,50 +76,50 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
 2 | File | `/act/ActDao.xml` | High
-3 | File | `/admin.php?&m=Public&a=login` | High
-4 | File | `/ajax.php?action=read_msg` | High
-5 | File | `/ajax/networking/get_netcfg.php` | High
-6 | File | `/api/` | Low
-7 | File | `/api/admin/system/store/order/list` | High
-8 | File | `/api/gen/clients/{language}` | High
-9 | File | `/app/options.py` | High
-10 | File | `/bin/httpd` | Medium
-11 | File | `/cgi-bin/wapopen` | High
-12 | File | `/ci_spms/admin/category` | High
-13 | File | `/ci_spms/admin/search/searching/` | High
-14 | File | `/classes/Master.php?f=delete_appointment` | High
-15 | File | `/classes/Master.php?f=delete_train` | High
-16 | File | `/concat?/%2557EB-INF/web.xml` | High
-17 | File | `/Content/Template/root/reverse-shell.aspx` | High
-18 | File | `/csms/?page=contact_us` | High
-19 | File | `/ctcprotocol/Protocol` | High
-20 | File | `/dashboard/menu-list.php` | High
-21 | File | `/data/remove` | Medium
-22 | File | `/ebics-server/ebics.aspx` | High
-23 | File | `/ffos/classes/Master.php?f=save_category` | High
-24 | File | `/forum/away.php` | High
-25 | File | `/goform/net\_Web\_get_value` | High
-26 | File | `/goforms/rlminfo` | High
-27 | File | `/GponForm/usb_restore_Form?script/` | High
-28 | File | `/group1/uploa` | High
-29 | File | `/hedwig.cgi` | Medium
-30 | File | `/HNAP1` | Low
-31 | File | `/HNAP1/SetClientInfo` | High
-32 | File | `/Items/*/RemoteImages/Download` | High
-33 | File | `/management/api/rcx_management/global_config_query` | High
-34 | File | `/menu.html` | Medium
-35 | File | `/modules/profile/index.php` | High
-36 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-37 | File | `/navigate/navigate_download.php` | High
-38 | File | `/ocwbs/admin/?page=user/manage_user` | High
-39 | File | `/ofrs/admin/?page=user/manage_user` | High
-40 | File | `/out.php` | Medium
-41 | File | `/password.html` | High
-42 | File | `/php_action/fetchSelectedUser.php` | High
-43 | File | `/plugin` | Low
+3 | File | `/ajax.php?action=read_msg` | High
+4 | File | `/api/` | Low
+5 | File | `/api/admin/system/store/order/list` | High
+6 | File | `/api/clusters/local/topics/{topic}/messages` | High
+7 | File | `/api/gen/clients/{language}` | High
+8 | File | `/app/options.py` | High
+9 | File | `/bin/httpd` | Medium
+10 | File | `/cgi-bin/wapopen` | High
+11 | File | `/ci_spms/admin/category` | High
+12 | File | `/ci_spms/admin/search/searching/` | High
+13 | File | `/classes/Master.php?f=delete_appointment` | High
+14 | File | `/classes/Master.php?f=delete_train` | High
+15 | File | `/concat?/%2557EB-INF/web.xml` | High
+16 | File | `/Content/Template/root/reverse-shell.aspx` | High
+17 | File | `/csms/?page=contact_us` | High
+18 | File | `/ctcprotocol/Protocol` | High
+19 | File | `/dashboard/menu-list.php` | High
+20 | File | `/data/remove` | Medium
+21 | File | `/ebics-server/ebics.aspx` | High
+22 | File | `/ffos/classes/Master.php?f=save_category` | High
+23 | File | `/forum/away.php` | High
+24 | File | `/goform/net\_Web\_get_value` | High
+25 | File | `/goforms/rlminfo` | High
+26 | File | `/GponForm/usb_restore_Form?script/` | High
+27 | File | `/group1/uploa` | High
+28 | File | `/hedwig.cgi` | Medium
+29 | File | `/HNAP1` | Low
+30 | File | `/HNAP1/SetClientInfo` | High
+31 | File | `/Items/*/RemoteImages/Download` | High
+32 | File | `/management/api/rcx_management/global_config_query` | High
+33 | File | `/menu.html` | Medium
+34 | File | `/modules/profile/index.php` | High
+35 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+36 | File | `/navigate/navigate_download.php` | High
+37 | File | `/ocwbs/admin/?page=user/manage_user` | High
+38 | File | `/ofrs/admin/?page=user/manage_user` | High
+39 | File | `/out.php` | Medium
+40 | File | `/php_action/fetchSelectedUser.php` | High
+41 | File | `/plugin` | Low
+42 | File | `/property-list/property_view.php` | High
+43 | File | `/ptms/classes/Users.php` | High
 44 | ... | ... | ...
 
-There are 384 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 377 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -44,10 +44,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-94 | Argument Injection | High
 5 | ... | ... | ... | ...
 
 There are 17 more TTP items available. Please use our online service to access the data.
@@ -70,21 +70,21 @@ ID | Type | Indicator | Confidence
 10 | File | `/function/booksave.php` | High
 11 | File | `/inc/campaign/campaign-delete.php` | High
 12 | File | `/sgmi/` | Low
-13 | File | `/tmp` | Low
-14 | File | `/usr/lib/print/conv_fix` | High
-15 | File | `AdClass.php` | Medium
-16 | File | `add_comment.php` | High
-17 | File | `admin.php` | Medium
-18 | File | `admin/plugin.php` | High
-19 | File | `admin/setleaves.php` | High
-20 | File | `admin/write-post.php` | High
-21 | File | `admin\addgroup.php` | High
-22 | File | `agents.php` | Medium
-23 | File | `app/View/Helper/CommandHelper.php` | High
-24 | File | `apport/hookutils.py` | High
+13 | File | `/SysInfo.htm` | Medium
+14 | File | `/tmp` | Low
+15 | File | `/usr/lib/print/conv_fix` | High
+16 | File | `AdClass.php` | Medium
+17 | File | `add_comment.php` | High
+18 | File | `admin.php` | Medium
+19 | File | `admin/plugin.php` | High
+20 | File | `admin/setleaves.php` | High
+21 | File | `admin/write-post.php` | High
+22 | File | `admin\addgroup.php` | High
+23 | File | `agents.php` | Medium
+24 | File | `app/View/Helper/CommandHelper.php` | High
 25 | ... | ... | ...
 
-There are 212 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 213 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

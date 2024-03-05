@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [DE](https://vuldb.com/?country.de)
 * ...
 
-There are 15 more country items available. Please use our online service to access the data.
+There are 16 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -45,14 +45,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
 2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-264, CWE-269, CWE-271, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+5 | T1068 | CWE-264, CWE-269, CWE-271, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -67,44 +67,45 @@ ID | Type | Indicator | Confidence
 5 | File | `/admin/inquiries/view_inquiry.php` | High
 6 | File | `/admin/payment.php` | High
 7 | File | `/admin/transactions/update_status.php` | High
-8 | File | `/api/user/password/sent-reset-email` | High
-9 | File | `/application/plugins/controller/Upload.php` | High
-10 | File | `/aqpg/users/login.php` | High
-11 | File | `/bsms_ci/index.php/user/edit_user/` | High
-12 | File | `/cgi-bin/cstecgi.cgi` | High
-13 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-14 | File | `/cgi-bin/wlogin.cgi` | High
-15 | File | `/classes/Master.php?f=save_inquiry` | High
-16 | File | `/cstecgi.cgi` | Medium
-17 | File | `/dashboard/add-service.php` | High
-18 | File | `/dashboard/updatelogo.php` | High
-19 | File | `/Default/Bd` | Medium
-20 | File | `/download` | Medium
-21 | File | `/event/admin/?page=user/list` | High
-22 | File | `/face-recognition-php/facepay-master/camera.php` | High
-23 | File | `/filemanager/upload/drop` | High
-24 | File | `/forum/away.php` | High
-25 | File | `/forum/PostPrivateMessage` | High
-26 | File | `/getcfg.php` | Medium
-27 | File | `/goform/aspForm` | High
-28 | File | `/goform/RouteStatic` | High
-29 | File | `/home/masterConsole` | High
-30 | File | `/hrm/employeeadd.php` | High
-31 | File | `/hrm/employeeview.php` | High
-32 | File | `/htdocs/cgibin` | High
-33 | File | `/lists/index.php` | High
-34 | File | `/login.php` | Medium
-35 | File | `/mifs/c/i/reg/reg.html` | High
-36 | File | `/netflow/jspui/editProfile.jsp` | High
-37 | File | `/portmap` | Medium
-38 | File | `/settings/download-test-pdf` | High
-39 | File | `/spip.php` | Medium
-40 | File | `/uncpath/` | Medium
-41 | File | `/usr/www/ja/mnt_cmd.cgi` | High
-42 | File | `/videotalk` | Medium
-43 | ... | ... | ...
+8 | File | `/api/controllers/admin/app/ComboController.php` | High
+9 | File | `/api/user/password/sent-reset-email` | High
+10 | File | `/application/plugins/controller/Upload.php` | High
+11 | File | `/aqpg/users/login.php` | High
+12 | File | `/bsms_ci/index.php/user/edit_user/` | High
+13 | File | `/cgi-bin/cstecgi.cgi` | High
+14 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+15 | File | `/cgi-bin/wlogin.cgi` | High
+16 | File | `/classes/Master.php?f=save_inquiry` | High
+17 | File | `/cstecgi.cgi` | Medium
+18 | File | `/dashboard/add-service.php` | High
+19 | File | `/dashboard/updatelogo.php` | High
+20 | File | `/Default/Bd` | Medium
+21 | File | `/download` | Medium
+22 | File | `/event/admin/?page=user/list` | High
+23 | File | `/face-recognition-php/facepay-master/camera.php` | High
+24 | File | `/filemanager/upload/drop` | High
+25 | File | `/forum/away.php` | High
+26 | File | `/forum/PostPrivateMessage` | High
+27 | File | `/getcfg.php` | Medium
+28 | File | `/goform/aspForm` | High
+29 | File | `/goform/RouteStatic` | High
+30 | File | `/home/masterConsole` | High
+31 | File | `/hrm/employeeadd.php` | High
+32 | File | `/hrm/employeeview.php` | High
+33 | File | `/htdocs/cgibin` | High
+34 | File | `/lists/index.php` | High
+35 | File | `/login.php` | Medium
+36 | File | `/mifs/c/i/reg/reg.html` | High
+37 | File | `/netflow/jspui/editProfile.jsp` | High
+38 | File | `/portmap` | Medium
+39 | File | `/settings/download-test-pdf` | High
+40 | File | `/spip.php` | Medium
+41 | File | `/st_reg.php` | Medium
+42 | File | `/uncpath/` | Medium
+43 | File | `/usr/www/ja/mnt_cmd.cgi` | High
+44 | ... | ... | ...
 
-There are 368 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 380 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

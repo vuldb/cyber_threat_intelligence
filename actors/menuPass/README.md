@@ -17,8 +17,8 @@ The following _campaigns_ are known and can be associated with menuPass:
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with menuPass:
 
 * [US](https://vuldb.com/?country.us)
+* [UA](https://vuldb.com/?country.ua)
 * [CN](https://vuldb.com/?country.cn)
-* [ES](https://vuldb.com/?country.es)
 * ...
 
 There are 5 more country items available. Please use our online service to access the data.
@@ -32,9 +32,10 @@ ID | IP address | Hostname | Campaign | Confidence
 1 | [60.2.148.167](https://vuldb.com/?ip.60.2.148.167) | - | Poison Ivy | High
 2 | [60.10.1.114](https://vuldb.com/?ip.60.10.1.114) | hebei.10.60.in-addr.arpa | Poison Ivy | High
 3 | [60.10.1.115](https://vuldb.com/?ip.60.10.1.115) | hebei.10.60.in-addr.arpa | Poison Ivy | High
-4 | ... | ... | ... | ...
+4 | [60.10.1.120](https://vuldb.com/?ip.60.10.1.120) | hebei.10.60.in-addr.arpa | Poison Ivy | High
+5 | ... | ... | ... | ...
 
-There are 12 more IOC items available. Please use our online service to access the data.
+There are 14 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -42,8 +43,8 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Pathname Traversal | High
-2 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+1 | T1006 | CWE-22 | Path Traversal | High
+2 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
@@ -62,9 +63,10 @@ ID | Type | Indicator | Confidence
 5 | File | `ArchivesMapper.xml` | High
 6 | File | `blind\source\high.php` | High
 7 | File | `cart.php` | Medium
-8 | ... | ... | ...
+8 | File | `cat.php` | Low
+9 | ... | ... | ...
 
-There are 52 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 70 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -74,6 +76,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://www.accenture.com/t20180423T055005Z_w_/se-en/_acnmedia/PDF-76/Accenture-Hogfish-Threat-Analysis.pdf
 * https://www.fireeye.com/blog/threat-research/2018/09/apt10-targeting-japanese-corporations-using-updated-ttps.html
 * https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/rpt-poison-ivy.pdf
+* https://www.lac.co.jp/lacwatch/people/20180521_001638.html
 * https://www.pwc.co.uk/cyber-security/pdf/cloud-hopper-annex-b-final.pdf
 
 ## Literature

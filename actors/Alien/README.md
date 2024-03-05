@@ -163,11 +163,11 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22, CWE-23 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -175,53 +175,40 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/` | Low
-2 | File | `/admin/edit_teacher.php` | High
-3 | File | `/admin/fields/manage_field.php` | High
-4 | File | `/admin_ping.htm` | High
-5 | File | `/arch/x86/mm/cpu_entry_area.c` | High
-6 | File | `/boafrm/formMapDelDevice` | High
-7 | File | `/cgi-bin/cstecgi.cgi` | High
-8 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+1 | File | `/admin_ping.htm` | High
+2 | File | `/app/index/controller/Common.php` | High
+3 | File | `/application/index/controller/Databasesource.php` | High
+4 | File | `/application/index/controller/Icon.php` | High
+5 | File | `/application/index/controller/Screen.php` | High
+6 | File | `/application/plugins/controller/Upload.php` | High
+7 | File | `/boafrm/formMapDelDevice` | High
+8 | File | `/cgi-bin/cstecgi.cgi` | High
 9 | File | `/core/redirect` | High
 10 | File | `/forum/away.php` | High
 11 | File | `/goform/WifiMacFilterGet` | High
 12 | File | `/goform/wifiSSIDset` | High
-13 | File | `/include/lang-en.php` | High
-14 | File | `/index.php?app=main&func=passport&action=login` | High
-15 | File | `/login` | Low
-16 | File | `/obj/utilisateur.class.php` | High
-17 | File | `/php/ping.php` | High
-18 | File | `/public/login.htm` | High
-19 | File | `/resources//../` | High
-20 | File | `abitwhizzy.php` | High
-21 | File | `acc.php` | Low
-22 | File | `Account.asp` | Medium
-23 | File | `add_comment.php` | High
-24 | File | `admin-ajax.php` | High
-25 | File | `admin.php` | Medium
-26 | File | `admin/index.php` | High
-27 | File | `afd.sys` | Low
-28 | File | `ajax/telemetry.php` | High
-29 | File | `app/plug/controller/giftcontroller.php` | High
-30 | File | `apply.cgi` | Medium
-31 | File | `ArchivesMapper.xml` | High
-32 | File | `articlesdetails.php` | High
-33 | File | `AscoServer.exe` | High
-34 | File | `asp:.jpg` | Medium
-35 | File | `a_viewusers.php` | High
-36 | File | `bb-includes/formatting-functions.php` | High
-37 | File | `BBStore.php` | Medium
-38 | File | `BKFSim_vhfd.exe` | High
-39 | File | `brokenlink.php` | High
-40 | File | `cal2.jsp` | Medium
-41 | File | `categos.php` | Medium
-42 | File | `centre.php` | Medium
-43 | File | `cgi-bin/admin.c` | High
-44 | File | `check_vote.php` | High
-45 | ... | ... | ...
+13 | File | `/index.php?app=main&func=passport&action=login` | High
+14 | File | `/login` | Low
+15 | File | `/obj/utilisateur.class.php` | High
+16 | File | `/opt/fs/redisraft/deps/hiredis/alloc.c` | High
+17 | File | `/public/login.htm` | High
+18 | File | `/resources//../` | High
+19 | File | `/SysInfo1.htm` | High
+20 | File | `/travel-journal/write-journal.php` | High
+21 | File | `/v1/sql-runner` | High
+22 | File | `admin-ajax.php` | High
+23 | File | `admin.php` | Medium
+24 | File | `admin/inc/auth.inc.php` | High
+25 | File | `admin/index.php` | High
+26 | File | `afd.sys` | Low
+27 | File | `ajax/telemetry.php` | High
+28 | File | `app/plug/controller/giftcontroller.php` | High
+29 | File | `apply.cgi` | Medium
+30 | File | `articlesdetails.php` | High
+31 | File | `AscoServer.exe` | High
+32 | ... | ... | ...
 
-There are 393 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 270 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

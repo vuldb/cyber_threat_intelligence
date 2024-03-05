@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 10 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -39,9 +39,9 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-425 | Path Traversal | High
 2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
 
 There are 13 more TTP items available. Please use our online service to access the data.
@@ -52,29 +52,33 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/delete_user.php` | High
-2 | File | `/admin/index.php` | High
-3 | File | `/admin/maintenance/view_designation.php` | High
-4 | File | `/alphaware/summary.php` | High
-5 | File | `/api/baskets/{name}` | High
-6 | File | `/cas/logout` | Medium
-7 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-8 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-9 | File | `/collection/all` | High
-10 | File | `/common/info.cgi` | High
-11 | File | `/forum/away.php` | High
-12 | File | `/jeecg-boot/jmreport/show` | High
-13 | File | `/LoginRegistration.php` | High
-14 | File | `/member/ad.php?action=ad` | High
-15 | File | `/oauth/idp/.well-known/openid-configuration` | High
-16 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-17 | File | `/owa/auth/logon.aspx` | High
-18 | File | `/rest/api/latest/user/avatar/temporary` | High
-19 | File | `/spip.php` | Medium
-20 | File | `/src/admin/content_batchup_action.php` | High
-21 | ... | ... | ...
+1 | File | `/admin/app/product.php` | High
+2 | File | `/admin/delete_user.php` | High
+3 | File | `/admin/index.php` | High
+4 | File | `/admin/maintenance/view_designation.php` | High
+5 | File | `/alphaware/summary.php` | High
+6 | File | `/api/baskets/{name}` | High
+7 | File | `/cas/logout` | Medium
+8 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+9 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
+10 | File | `/collection/all` | High
+11 | File | `/common/info.cgi` | High
+12 | File | `/cupseasylive/countrymodify.php` | High
+13 | File | `/cupseasylive/taxstructurelist.php` | High
+14 | File | `/filex/read-raw` | High
+15 | File | `/forum/away.php` | High
+16 | File | `/jeecg-boot/jmreport/show` | High
+17 | File | `/LoginRegistration.php` | High
+18 | File | `/member/ad.php?action=ad` | High
+19 | File | `/oauth/idp/.well-known/openid-configuration` | High
+20 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+21 | File | `/owa/auth/logon.aspx` | High
+22 | File | `/rest/api/latest/user/avatar/temporary` | High
+23 | File | `/spip.php` | Medium
+24 | File | `/src/admin/content_batchup_action.php` | High
+25 | ... | ... | ...
 
-There are 172 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 206 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

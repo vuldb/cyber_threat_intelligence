@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 21 more country items available. Please use our online service to access the data.
+There are 23 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -43,13 +43,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-24 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-24 | Path Traversal | High
 2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
-4 | T1059.007 | CWE-79, CWE-80, CWE-83 | Cross Site Scripting | High
-5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-272, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
-6 | T1078.001 | CWE-259 | Use of Hard-coded Password | High
-7 | ... | ... | ... | ...
+3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-271, CWE-272, CWE-284 | Execution with Unnecessary Privileges | High
+6 | ... | ... | ... | ...
 
 There are 22 more TTP items available. Please use our online service to access the data.
 
@@ -64,33 +63,33 @@ ID | Type | Indicator | Confidence
 3 | File | `/api/baskets/{name}` | High
 4 | File | `/app/api/controller/default/File.php` | High
 5 | File | `/app/api/controller/default/Sqlite.php` | High
-6 | File | `/bin/boa` | Medium
-7 | File | `/bin/sh` | Low
-8 | File | `/bitrix/admin/ldap_server_edit.php` | High
-9 | File | `/collection/all` | High
-10 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
-11 | File | `/detail` | Low
-12 | File | `/devinfo` | Medium
-13 | File | `/edoc/doctor/patient.php` | High
-14 | File | `/goform/SysToolReboot` | High
-15 | File | `/home/get_tasks_list` | High
-16 | File | `/index.php/signin` | High
-17 | File | `/lists/admin/` | High
-18 | File | `/log/decodmail.php` | High
-19 | File | `/Main_AdmStatus_Content.asp` | High
-20 | File | `/mygym/admin/login.php` | High
-21 | File | `/owa/auth/logon.aspx` | High
-22 | File | `/plain` | Low
-23 | File | `/proc/self/setgroups` | High
-24 | File | `/products/view_product.php` | High
-25 | File | `/rest/synchronizer/1.0/technicalUser` | High
-26 | File | `/support/docs/?action=assortment` | High
-27 | File | `/sysmanage/updateos.php` | High
-28 | File | `/uncpath/` | Medium
-29 | File | `/useratte/inc/userattea.php` | High
+6 | File | `/assets/php/upload.php` | High
+7 | File | `/bin/boa` | Medium
+8 | File | `/bin/sh` | Low
+9 | File | `/bitrix/admin/ldap_server_edit.php` | High
+10 | File | `/collection/all` | High
+11 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
+12 | File | `/detail` | Low
+13 | File | `/devinfo` | Medium
+14 | File | `/edoc/doctor/patient.php` | High
+15 | File | `/general/email/outbox/delete.php` | High
+16 | File | `/home/get_tasks_list` | High
+17 | File | `/index.php/signin` | High
+18 | File | `/lists/admin/` | High
+19 | File | `/log/decodmail.php` | High
+20 | File | `/Main_AdmStatus_Content.asp` | High
+21 | File | `/mygym/admin/login.php` | High
+22 | File | `/net/bluetooth/rfcomm/core.C` | High
+23 | File | `/opt/fs/redisraft/deps/hiredis/alloc.c` | High
+24 | File | `/owa/auth/logon.aspx` | High
+25 | File | `/plain` | Low
+26 | File | `/proc/self/setgroups` | High
+27 | File | `/products/view_product.php` | High
+28 | File | `/rest/synchronizer/1.0/technicalUser` | High
+29 | File | `/support/docs/?action=assortment` | High
 30 | ... | ... | ...
 
-There are 254 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 256 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

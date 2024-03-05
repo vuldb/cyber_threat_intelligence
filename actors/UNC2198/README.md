@@ -34,13 +34,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-24 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-24 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-94 | Argument Injection | High
 5 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -87,32 +87,40 @@ ID | Type | Indicator | Confidence
 37 | File | `/admin/regester.php` | High
 38 | File | `/admin/searchview.php` | High
 39 | File | `/admin/students/manage.php` | High
-40 | File | `/admin/sys_sql_query.php` | High
-41 | File | `/admin_route/inc_service_credits.php` | High
-42 | File | `/ajax-files/followBoard.php` | High
-43 | File | `/ajax-files/postComment.php` | High
-44 | File | `/ajax.php?action=read_msg` | High
-45 | File | `/anony/mjpg.cgi` | High
-46 | File | `/api.php` | Medium
-47 | File | `/api/wechat/app_auth` | High
-48 | File | `/app/api/controller/default/Sqlite.php` | High
-49 | File | `/application/pay/controller/Api.php` | High
-50 | File | `/apps/login_auth.php` | High
-51 | File | `/App_Resource/UEditor/server/upload.aspx` | High
-52 | File | `/artist-display.php` | High
-53 | File | `/assets/php/upload.php` | High
-54 | File | `/auth/auth.php?user=1` | High
-55 | File | `/author/list?limit=10&offset=0&order=desc` | High
-56 | File | `/b2b-supermarket/shopping-cart` | High
-57 | File | `/bin/boa` | Medium
-58 | File | `/blog` | Low
-59 | File | `/boafrm/formMapDelDevice` | High
-60 | File | `/browse` | Low
-61 | File | `/bsms_ci/index.php` | High
-62 | File | `/categorypage.php` | High
-63 | ... | ... | ...
+40 | File | `/admin/suppliers/view_details.php` | High
+41 | File | `/admin/sys_sql_query.php` | High
+42 | File | `/admin_route/inc_service_credits.php` | High
+43 | File | `/ajax-files/followBoard.php` | High
+44 | File | `/ajax-files/postComment.php` | High
+45 | File | `/ajax.php?action=read_msg` | High
+46 | File | `/anony/mjpg.cgi` | High
+47 | File | `/api.php` | Medium
+48 | File | `/api/sys/login` | High
+49 | File | `/api/sys/set_passwd` | High
+50 | File | `/api/wechat/app_auth` | High
+51 | File | `/app/api/controller/default/Sqlite.php` | High
+52 | File | `/application/index/controller/Databasesource.php` | High
+53 | File | `/application/index/controller/File.php` | High
+54 | File | `/application/index/controller/Icon.php` | High
+55 | File | `/application/index/controller/Screen.php` | High
+56 | File | `/application/index/controller/Unity.php` | High
+57 | File | `/application/pay/controller/Api.php` | High
+58 | File | `/application/plugins/controller/Upload.php` | High
+59 | File | `/application/websocket/controller/Setting.php` | High
+60 | File | `/apply/index.php` | High
+61 | File | `/apps/login_auth.php` | High
+62 | File | `/App_Resource/UEditor/server/upload.aspx` | High
+63 | File | `/artist-display.php` | High
+64 | File | `/assets/php/upload.php` | High
+65 | File | `/auth/auth.php?user=1` | High
+66 | File | `/author/list?limit=10&offset=0&order=desc` | High
+67 | File | `/b2b-supermarket/shopping-cart` | High
+68 | File | `/bin/boa` | Medium
+69 | File | `/blog` | Low
+70 | File | `/boafrm/formMapDelDevice` | High
+71 | ... | ... | ...
 
-There are 554 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 625 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

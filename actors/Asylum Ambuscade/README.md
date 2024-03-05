@@ -49,14 +49,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -83,33 +83,34 @@ ID | Type | Indicator | Confidence
 17 | File | `/cgi-bin/uploadWeiXinPic` | High
 18 | File | `/cgi-bin/wapopen` | High
 19 | File | `/contact.php` | Medium
-20 | File | `/debug/pprof` | Medium
-21 | File | `/etc/gsissh/sshd_config` | High
-22 | File | `/face-recognition-php/facepay-master/camera.php` | High
-23 | File | `/forum/away.php` | High
-24 | File | `/forum/PostPrivateMessage` | High
-25 | File | `/home/masterConsole` | High
-26 | File | `/hrm/employeeadd.php` | High
-27 | File | `/hrm/employeeview.php` | High
-28 | File | `/librarian/bookdetails.php` | High
-29 | File | `/mgmt/tm/util/bash` | High
-30 | File | `/mics/j_spring_security_check` | High
-31 | File | `/ofcms/company-c-47` | High
-32 | File | `/opt/vyatta/share/vyatta-cfg/templates/system/static-host-mapping/host-name/node.def` | High
-33 | File | `/pms/update_user.php?user_id=1` | High
-34 | File | `/public/login.htm` | High
-35 | File | `/scripts/unlock_tasks.php` | High
-36 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-37 | File | `/secure/ViewCollectors` | High
-38 | File | `/Session` | Medium
-39 | File | `/spip.php` | Medium
-40 | File | `/staff_login.php` | High
-41 | File | `/system/user/modules/mod_users/controller.php` | High
-42 | File | `/uncpath/` | Medium
-43 | File | `/usr/bin/pkexec` | High
-44 | ... | ... | ...
+20 | File | `/CPE` | Low
+21 | File | `/debug/pprof` | Medium
+22 | File | `/etc/gsissh/sshd_config` | High
+23 | File | `/face-recognition-php/facepay-master/camera.php` | High
+24 | File | `/forum/away.php` | High
+25 | File | `/forum/PostPrivateMessage` | High
+26 | File | `/home/masterConsole` | High
+27 | File | `/hrm/employeeadd.php` | High
+28 | File | `/hrm/employeeview.php` | High
+29 | File | `/librarian/bookdetails.php` | High
+30 | File | `/mgmt/tm/util/bash` | High
+31 | File | `/mics/j_spring_security_check` | High
+32 | File | `/ofcms/company-c-47` | High
+33 | File | `/opt/vyatta/share/vyatta-cfg/templates/system/static-host-mapping/host-name/node.def` | High
+34 | File | `/owa/auth/logon.aspx` | High
+35 | File | `/pms/update_user.php?user_id=1` | High
+36 | File | `/scripts/unlock_tasks.php` | High
+37 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+38 | File | `/secure/ViewCollectors` | High
+39 | File | `/Session` | Medium
+40 | File | `/spip.php` | Medium
+41 | File | `/staff_login.php` | High
+42 | File | `/system/user/modules/mod_users/controller.php` | High
+43 | File | `/uncpath/` | Medium
+44 | File | `/usr/bin/pkexec` | High
+45 | ... | ... | ...
 
-There are 383 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 387 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -126,4 +127,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

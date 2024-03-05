@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [VN](https://vuldb.com/?country.vn)
 * ...
 
-There are 20 more country items available. Please use our online service to access the data.
+There are 13 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -4860,13 +4860,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-25, CWE-36 | Pathname Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-36, CWE-425 | Path Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+6 | ... | ... | ... | ...
 
-There are 15 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -4874,53 +4875,56 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/?ajax-request=jnews` | High
-2 | File | `/add_classes.php` | High
-3 | File | `/admin.php?p=/Area/index#tab=t2` | High
-4 | File | `/admin/ajax.php?action=confirm_order` | High
-5 | File | `/admin/article.php?action=write` | High
-6 | File | `/admin/bookings/view_details.php` | High
-7 | File | `/Admin/News.php` | High
-8 | File | `/admin/read.php?mudi=announContent` | High
-9 | File | `/admin/sales/view_details.php` | High
-10 | File | `/admin_ping.htm` | High
-11 | File | `/api.php` | Medium
-12 | File | `/application/index/common.php` | High
-13 | File | `/application/index/controller/Databasesource.php` | High
-14 | File | `/application/index/controller/Datament.php` | High
-15 | File | `/application/index/controller/File.php` | High
-16 | File | `/application/index/controller/Screen.php` | High
-17 | File | `/application/index/controller/Service.php` | High
-18 | File | `/apply/index.php` | High
-19 | File | `/assets/php/upload.php` | High
-20 | File | `/boafrm/formMapDelDevice` | High
-21 | File | `/cgi-bin/cstecgi.cgi` | High
-22 | File | `/core/config-revisions` | High
-23 | File | `/core/redirect` | High
-24 | File | `/cupseasylive/costcentercreate.php` | High
-25 | File | `/cupseasylive/grnlist.php` | High
-26 | File | `/cupseasylive/locationmodify.php` | High
-27 | File | `/cupseasylive/stock.php` | High
-28 | File | `/cupseasylive/taxstructuredisplay.php` | High
-29 | File | `/debug/pprof` | Medium
-30 | File | `/dede/sys_sql_query.php` | High
-31 | File | `/devinfo` | Medium
-32 | File | `/filex/proxy-download` | High
-33 | File | `/forum/away.php` | High
-34 | File | `/front/admin/tenancyDetail.php` | High
-35 | File | `/general/email/inbox/delete_webmail.php` | High
-36 | File | `/get.php` | Medium
-37 | File | `/goform/setAutoPing` | High
-38 | File | `/goform/setcfm` | High
-39 | File | `/goform/setDeviceSettings` | High
-40 | File | `/goform/WifiMacFilterGet` | High
-41 | File | `/goform/wifiSSIDset` | High
-42 | File | `/hedwig.cgi` | Medium
-43 | File | `/include/file.php` | High
-44 | File | `/index.php` | Medium
-45 | ... | ... | ...
+1 | File | `/#ilang=DE&b=c_smartenergy_swgroups` | High
+2 | File | `/Account/login.php` | High
+3 | File | `/admin/adclass.php` | High
+4 | File | `/admin/borrow_add.php` | High
+5 | File | `/admin/category_row.php` | High
+6 | File | `/admin/request-received-bydonar.php` | High
+7 | File | `/admin/view_sendlist.php` | High
+8 | File | `/adminapi/system/crud` | High
+9 | File | `/adminapi/system/file/openfile` | High
+10 | File | `/assets/php/upload.php` | High
+11 | File | `/belegungsplan/wochenuebersicht.inc.php` | High
+12 | File | `/cancel.php` | Medium
+13 | File | `/cgi-bin/cstecgi.cgi` | High
+14 | File | `/cgi-bin/mainfunction.cgi` | High
+15 | File | `/cgi-bin/nobody/VerifyCode.cgi` | High
+16 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
+17 | File | `/cgi-bin/wlogin.cgi` | High
+18 | File | `/cgi.cgi` | Medium
+19 | File | `/classes/Users.php?f=save` | High
+20 | File | `/counter/index2.php` | High
+21 | File | `/currentsetting.htm` | High
+22 | File | `/debuginfo.htm` | High
+23 | File | `/DXR.axd` | Medium
+24 | File | `/edit.php` | Medium
+25 | File | `/etc/shadow` | Medium
+26 | File | `/forum/away.php` | High
+27 | File | `/highlight/index.html` | High
+28 | File | `/iisadmin` | Medium
+29 | File | `/iissamples` | Medium
+30 | File | `/includes/js/admin.php` | High
+31 | File | `/index.jsp#settings` | High
+32 | File | `/inquiries/view_inquiry.php` | High
+33 | File | `/main/webservices/additional_webservices.php` | High
+34 | File | `/modules/projects/summary.inc.php` | High
+35 | File | `/modx/manager/index.php` | High
+36 | File | `/myprofile.php` | High
+37 | File | `/novel/userFeedback/list` | High
+38 | File | `/php-opos/index.php` | High
+39 | File | `/process/aprocess.php` | High
+40 | File | `/process/assignp.php` | High
+41 | File | `/process/eprocess.php` | High
+42 | File | `/psubmit.php` | Medium
+43 | File | `/search-result/` | High
+44 | File | `/search.php` | Medium
+45 | File | `/server-status` | High
+46 | File | `/sgms/reports/scheduledreports/configure/scheduleProps.jsp` | High
+47 | File | `/signup.php` | Medium
+48 | ... | ... | ...
 
-There are 390 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 419 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [LA](https://vuldb.com/?country.la)
 * ...
 
-There are 13 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -83,24 +83,24 @@ ID | Type | Indicator | Confidence
 29 | File | `/DXR.axd` | Medium
 30 | File | `/ecshop/admin/template.php` | High
 31 | File | `/env` | Low
-32 | File | `/forum/away.php` | High
-33 | File | `/group1/uploa` | High
-34 | File | `/index.php` | Medium
-35 | File | `/medicines/profile.php` | High
-36 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-37 | File | `/novel/bookSetting/list` | High
-38 | File | `/out.php` | Medium
-39 | File | `/owa/auth/logon.aspx` | High
-40 | File | `/php-sms/admin/?page=user/manage_user` | High
-41 | File | `/reservation/add_message.php` | High
-42 | File | `/resources//../` | High
-43 | File | `/spip.php` | Medium
-44 | File | `/testConnection` | High
-45 | File | `/tmp` | Low
+32 | File | `/etc/passwd` | Medium
+33 | File | `/forum/away.php` | High
+34 | File | `/group1/uploa` | High
+35 | File | `/index.php` | Medium
+36 | File | `/medicines/profile.php` | High
+37 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+38 | File | `/novel/bookSetting/list` | High
+39 | File | `/out.php` | Medium
+40 | File | `/owa/auth/logon.aspx` | High
+41 | File | `/php-sms/admin/?page=user/manage_user` | High
+42 | File | `/reservation/add_message.php` | High
+43 | File | `/resources//../` | High
+44 | File | `/spip.php` | Medium
+45 | File | `/testConnection` | High
 46 | File | `/tmp/ppd.trace` | High
 47 | ... | ... | ...
 
-There are 406 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 410 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

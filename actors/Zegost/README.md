@@ -62,9 +62,9 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-24 | Path Traversal | High
 2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+3 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
@@ -85,43 +85,44 @@ ID | Type | Indicator | Confidence
 7 | File | `/admin_route/inc_service_credits.php` | High
 8 | File | `/ajax.php?action=read_msg` | High
 9 | File | `/api/admin/system/store/order/list` | High
-10 | File | `/api/gen/clients/{language}` | High
-11 | File | `/api/runscript` | High
-12 | File | `/app/Http/Controllers/ImageController.php` | High
-13 | File | `/cgi-bin/cstecgi.cgi` | High
-14 | File | `/cgi-bin/webadminget.cgi` | High
-15 | File | `/classes/Master.php?f=delete_appointment` | High
-16 | File | `/classes/Master.php?f=delete_service` | High
-17 | File | `/classes/Master.php?f=save_course` | High
-18 | File | `/csms/?page=contact_us` | High
-19 | File | `/ctcprotocol/Protocol` | High
-20 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
-21 | File | `/ebics-server/ebics.aspx` | High
-22 | File | `/ecommerce/admin/settings/setDiscount.php` | High
-23 | File | `/forum/away.php` | High
-24 | File | `/goform/net\_Web\_get_value` | High
-25 | File | `/GponForm/usb_restore_Form?script/` | High
-26 | File | `/group1/uploa` | High
-27 | File | `/hedwig.cgi` | Medium
-28 | File | `/HNAP1` | Low
-29 | File | `/HNAP1/SetClientInfo` | High
-30 | File | `/inc/topBarNav.php` | High
-31 | File | `/menu.html` | Medium
-32 | File | `/modules/profile/index.php` | High
-33 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-34 | File | `/oauth/idp/.well-known/openid-configuration` | High
-35 | File | `/out.php` | Medium
-36 | File | `/php-fusion/infusions/shoutbox_panel/shoutbox_archive.php` | High
-37 | File | `/php_action/fetchSelectedUser.php` | High
-38 | File | `/plugin` | Low
-39 | File | `/register.do` | Medium
-40 | File | `/resources//../` | High
-41 | File | `/spip.php` | Medium
-42 | File | `/squashfs-root/www/HNAP1/control/SetMasterWLanSettings.php` | High
-43 | File | `/sys/dict/queryTableData` | High
-44 | ... | ... | ...
+10 | File | `/api/clusters/local/topics/{topic}/messages` | High
+11 | File | `/api/gen/clients/{language}` | High
+12 | File | `/api/runscript` | High
+13 | File | `/app/Http/Controllers/ImageController.php` | High
+14 | File | `/application/index/controller/Icon.php` | High
+15 | File | `/cgi-bin/cstecgi.cgi` | High
+16 | File | `/cgi-bin/webadminget.cgi` | High
+17 | File | `/classes/Master.php?f=delete_appointment` | High
+18 | File | `/classes/Master.php?f=delete_service` | High
+19 | File | `/classes/Master.php?f=save_course` | High
+20 | File | `/csms/?page=contact_us` | High
+21 | File | `/ctcprotocol/Protocol` | High
+22 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
+23 | File | `/ebics-server/ebics.aspx` | High
+24 | File | `/ecommerce/admin/settings/setDiscount.php` | High
+25 | File | `/forum/away.php` | High
+26 | File | `/general/attendance/manage/ask_duty/delete.php` | High
+27 | File | `/goform/net\_Web\_get_value` | High
+28 | File | `/GponForm/usb_restore_Form?script/` | High
+29 | File | `/group1/uploa` | High
+30 | File | `/hedwig.cgi` | Medium
+31 | File | `/HNAP1` | Low
+32 | File | `/HNAP1/SetClientInfo` | High
+33 | File | `/inc/topBarNav.php` | High
+34 | File | `/Interface/DevManage/VM.php` | High
+35 | File | `/menu.html` | Medium
+36 | File | `/modules/profile/index.php` | High
+37 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+38 | File | `/oauth/idp/.well-known/openid-configuration` | High
+39 | File | `/out.php` | Medium
+40 | File | `/php-fusion/infusions/shoutbox_panel/shoutbox_archive.php` | High
+41 | File | `/plugin` | Low
+42 | File | `/register.do` | Medium
+43 | File | `/resources//../` | High
+44 | File | `/spip.php` | Medium
+45 | ... | ... | ...
 
-There are 385 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 389 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
