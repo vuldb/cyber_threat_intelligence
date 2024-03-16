@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [LA](https://vuldb.com/?country.la)
 * ...
 
-There are 13 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -36,7 +36,7 @@ ID | IP address | Hostname | Campaign | Confidence
 13 | [41.208.73.44](https://vuldb.com/?ip.41.208.73.44) | 41.208.73.44.static.ltt.ly | - | High
 14 | ... | ... | ... | ...
 
-There are 50 more IOC items available. Please use our online service to access the data.
+There are 51 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -44,14 +44,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Pathname Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Path Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -59,65 +59,45 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/?p=products` | Medium
-2 | File | `/admin.php/accessory/filesdel.html` | High
-3 | File | `/admin/?page=user/manage` | High
-4 | File | `/admin/add-new.php` | High
-5 | File | `/admin/controller/JobLogController.java` | High
-6 | File | `/admin/doctors.php` | High
-7 | File | `/alphaware/summary.php` | High
-8 | File | `/api/` | Low
-9 | File | `/api/admin/store/product/list` | High
-10 | File | `/api/baskets/{name}` | High
-11 | File | `/api/stl/actions/search` | High
-12 | File | `/api/sys/login` | High
-13 | File | `/api/sys/set_passwd` | High
-14 | File | `/api/trackedEntityInstances` | High
-15 | File | `/api/v2/cli/commands` | High
-16 | File | `/aux` | Low
-17 | File | `/be/erpc.php` | Medium
-18 | File | `/bin/ate` | Medium
-19 | File | `/boat/login.php` | High
-20 | File | `/booking/show_bookings/` | High
-21 | File | `/cgi-bin` | Medium
-22 | File | `/cgi-bin/wlogin.cgi` | High
-23 | File | `/changePassword` | High
-24 | File | `/Content/Template/root/reverse-shell.aspx` | High
-25 | File | `/dashboard/add-blog.php` | High
-26 | File | `/data/remove` | Medium
-27 | File | `/debug/pprof` | Medium
-28 | File | `/DXR.axd` | Medium
-29 | File | `/ecshop/admin/template.php` | High
-30 | File | `/env` | Low
-31 | File | `/film-rating.php` | High
-32 | File | `/forum/away.php` | High
-33 | File | `/group1/uploa` | High
-34 | File | `/index.php` | Medium
-35 | File | `/librarian/bookdetails.php` | High
-36 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-37 | File | `/novel/bookSetting/list` | High
-38 | File | `/oauth/idp/.well-known/openid-configuration` | High
-39 | File | `/owa/auth/logon.aspx` | High
-40 | File | `/php-sms/admin/?page=user/manage_user` | High
-41 | File | `/ping.html` | Medium
-42 | File | `/qsr_server/device/reboot` | High
-43 | File | `/reservation/add_message.php` | High
-44 | File | `/resources//../` | High
-45 | File | `/spip.php` | Medium
-46 | File | `/student/bookdetails.php` | High
-47 | File | `/testConnection` | High
-48 | File | `/tmp/ppd.trace` | High
-49 | File | `/user/updatePwd` | High
-50 | File | `/userLogin.asp` | High
-51 | File | `/video-sharing-script/watch-video.php` | High
-52 | File | `/vm/admin/doctors.php` | High
-53 | File | `/wireless/security.asp` | High
-54 | File | `/wp-json` | Medium
-55 | File | `/zm/index.php` | High
-56 | File | `Access.app/Contents/Resources/kcproxy` | High
-57 | ... | ... | ...
+1 | File | `/admin/controller/JobLogController.java` | High
+2 | File | `/api/baskets/{name}` | High
+3 | File | `/api/sys/login` | High
+4 | File | `/api/sys/set_passwd` | High
+5 | File | `/api/trackedEntityInstances` | High
+6 | File | `/aux` | Low
+7 | File | `/be/erpc.php` | Medium
+8 | File | `/booking/show_bookings/` | High
+9 | File | `/changePassword` | High
+10 | File | `/Content/Template/root/reverse-shell.aspx` | High
+11 | File | `/dashboard/add-blog.php` | High
+12 | File | `/data/remove` | Medium
+13 | File | `/debug/pprof` | Medium
+14 | File | `/ecshop/admin/template.php` | High
+15 | File | `/etc/passwd` | Medium
+16 | File | `/forum/away.php` | High
+17 | File | `/group1/uploa` | High
+18 | File | `/index.php` | Medium
+19 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+20 | File | `/novel/bookSetting/list` | High
+21 | File | `/novel/userFeedback/list` | High
+22 | File | `/oauth/idp/.well-known/openid-configuration` | High
+23 | File | `/qsr_server/device/reboot` | High
+24 | File | `/resources//../` | High
+25 | File | `/spip.php` | Medium
+26 | File | `/testConnection` | High
+27 | File | `/tmp/ppd.trace` | High
+28 | File | `/user/inc/workidajax.php` | High
+29 | File | `/userLogin.asp` | High
+30 | File | `/vm/admin/doctors.php` | High
+31 | File | `Access.app/Contents/Resources/kcproxy` | High
+32 | File | `acs.exe` | Low
+33 | File | `action-visitor.php` | High
+34 | File | `adclick.php` | Medium
+35 | File | `addressbook.update.php` | High
+36 | File | `admin.php` | Medium
+37 | ... | ... | ...
 
-There are 495 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 321 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

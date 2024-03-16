@@ -190,27 +190,27 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/AddNewCity/Add_City` | High
 2 | File | `/admin/subnets/ripe-query.php` | High
-3 | File | `/food/admin/all_users.php` | High
-4 | File | `/forum/away.php` | High
-5 | File | `/index.php/client/message/message_read/xxxxxxxx[random-msg-hash]` | High
-6 | File | `/log/download.php` | High
-7 | File | `/mkshop/Men/profile.php` | High
-8 | File | `/modules/profile/index.php` | High
-9 | File | `/netflow/servlet/CReportPDFServlet` | High
-10 | File | `/nova/bin/console` | High
-11 | File | `/oauth/idp/.well-known/openid-configuration` | High
-12 | File | `/out.php` | Medium
-13 | File | `/spip.php` | Medium
-14 | File | `/uncpath/` | Medium
-15 | File | `/usr/bin/pkexec` | High
-16 | File | `adclick.php` | Medium
-17 | File | `add-testimonial.php` | High
-18 | File | `addentry.php` | Medium
-19 | File | `add_edit_user.asp` | High
-20 | File | `admin.php` | Medium
+3 | File | `/app/index/controller/Common.php` | High
+4 | File | `/food/admin/all_users.php` | High
+5 | File | `/forum/away.php` | High
+6 | File | `/index.php/client/message/message_read/xxxxxxxx[random-msg-hash]` | High
+7 | File | `/log/download.php` | High
+8 | File | `/mkshop/Men/profile.php` | High
+9 | File | `/modules/profile/index.php` | High
+10 | File | `/netflow/servlet/CReportPDFServlet` | High
+11 | File | `/nova/bin/console` | High
+12 | File | `/oauth/idp/.well-known/openid-configuration` | High
+13 | File | `/out.php` | Medium
+14 | File | `/spip.php` | Medium
+15 | File | `/uncpath/` | Medium
+16 | File | `/usr/bin/pkexec` | High
+17 | File | `adclick.php` | Medium
+18 | File | `add-testimonial.php` | High
+19 | File | `addentry.php` | Medium
+20 | File | `add_edit_user.asp` | High
 21 | ... | ... | ...
 
-There are 169 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 174 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -44,7 +44,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -72,23 +72,23 @@ ID | Type | Indicator | Confidence
 18 | File | `/REBOOTSYSTEM` | High
 19 | File | `/req_password_user.php` | High
 20 | File | `/services` | Medium
-21 | File | `/tmp` | Low
-22 | File | `/uncpath/` | Medium
-23 | File | `/Uploads` | Medium
-24 | File | `/userRpm/MediaServerFoldersCfgRpm.htm` | High
-25 | File | `/WEB-INF/web.xml` | High
-26 | File | `/webconsole/APIController` | High
-27 | File | `/wp-admin/admin-ajax.php` | High
-28 | File | `account.asp` | Medium
-29 | File | `AccountStatus.jsp` | High
-30 | File | `addentry.php` | Medium
-31 | File | `admin.a6mambocredits.php` | High
-32 | File | `admin.cropcanvas.php` | High
-33 | File | `Admin.PHP` | Medium
-34 | File | `admin.php` | Medium
+21 | File | `/Setting/change_password_save` | High
+22 | File | `/tmp` | Low
+23 | File | `/uncpath/` | Medium
+24 | File | `/Uploads` | Medium
+25 | File | `/userRpm/MediaServerFoldersCfgRpm.htm` | High
+26 | File | `/WEB-INF/web.xml` | High
+27 | File | `/webconsole/APIController` | High
+28 | File | `/wp-admin/admin-ajax.php` | High
+29 | File | `account.asp` | Medium
+30 | File | `AccountStatus.jsp` | High
+31 | File | `addentry.php` | Medium
+32 | File | `admin.a6mambocredits.php` | High
+33 | File | `admin.cropcanvas.php` | High
+34 | File | `Admin.PHP` | Medium
 35 | ... | ... | ...
 
-There are 299 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 298 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -51,10 +51,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-35 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-35 | Path Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -78,35 +78,36 @@ ID | Type | Indicator | Confidence
 10 | File | `/admin/template.php` | High
 11 | File | `/alphaware/summary.php` | High
 12 | File | `/api/sys/login` | High
-13 | File | `/apply.cgi` | Medium
-14 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
-15 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-16 | File | `/classes/Users.php` | High
-17 | File | `/dipam/save-delegates.php` | High
-18 | File | `/ecommerce/support_ticket` | High
-19 | File | `/etc/controller-agent/agent.conf` | High
-20 | File | `/forms/web_importTFTP` | High
-21 | File | `/goform/SysToolReboot` | High
-22 | File | `/goform/SysToolRestoreSet` | High
-23 | File | `/graphql` | Medium
-24 | File | `/individual` | Medium
-25 | File | `/jeecg-boot/jmreport/upload` | High
-26 | File | `/jeecg-boot/jmreport/view` | High
-27 | File | `/jsoa/hntdCustomDesktopActionContent` | High
-28 | File | `/localhost/u` | Medium
-29 | File | `/net` | Low
-30 | File | `/opt/bin/cli` | Medium
-31 | File | `/PluXml/core/admin/parametres_edittpl.php` | High
-32 | File | `/public/plugins/` | High
-33 | File | `/public_html/admin/plugins/bad_behavior2/blacklist.php` | High
-34 | File | `/root/run/adm.php?admin-ediy&part=exdiy` | High
-35 | File | `/setNTP.cgi` | Medium
-36 | File | `/setting/setWanIeCfg` | High
-37 | File | `/setup/diags_ir_learn.asp` | High
-38 | File | `/sys/replicate/check` | High
-39 | ... | ... | ...
+13 | File | `/application/index/controller/Unity.php` | High
+14 | File | `/apply.cgi` | Medium
+15 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
+16 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+17 | File | `/classes/Users.php` | High
+18 | File | `/cupseasylive/grndisplay.php` | High
+19 | File | `/dipam/save-delegates.php` | High
+20 | File | `/ecommerce/support_ticket` | High
+21 | File | `/etc/controller-agent/agent.conf` | High
+22 | File | `/forms/web_importTFTP` | High
+23 | File | `/front/admin/tenancyDetail.php` | High
+24 | File | `/goform/SysToolReboot` | High
+25 | File | `/goform/SysToolRestoreSet` | High
+26 | File | `/graphql` | Medium
+27 | File | `/individual` | Medium
+28 | File | `/jeecg-boot/jmreport/upload` | High
+29 | File | `/jeecg-boot/jmreport/view` | High
+30 | File | `/jsoa/hntdCustomDesktopActionContent` | High
+31 | File | `/localhost/u` | Medium
+32 | File | `/net` | Low
+33 | File | `/opt/bin/cli` | Medium
+34 | File | `/PluXml/core/admin/parametres_edittpl.php` | High
+35 | File | `/public/plugins/` | High
+36 | File | `/public_html/admin/plugins/bad_behavior2/blacklist.php` | High
+37 | File | `/root/run/adm.php?admin-ediy&part=exdiy` | High
+38 | File | `/setNTP.cgi` | Medium
+39 | File | `/setting/setWanIeCfg` | High
+40 | ... | ... | ...
 
-There are 331 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 345 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

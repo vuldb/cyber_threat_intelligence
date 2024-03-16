@@ -36,9 +36,9 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
 2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94 | Cross Site Scripting | High
+3 | T1059 | CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
@@ -51,52 +51,53 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.htaccess` | Medium
-2 | File | `/?Page=Node/OBJ=/System/DeviceFolder/DeviceFolder/DateTime/Action=Submit` | High
-3 | File | `/acms/admin/cargo_types/manage_cargo_type.php` | High
-4 | File | `/admin/add-services.php` | High
-5 | File | `/admin/ajax/avatar.php` | High
-6 | File | `/admin/edit-services.php` | High
-7 | File | `/admin/forgot-password.php` | High
-8 | File | `/admin/index.php` | High
-9 | File | `/admin/lab.php` | High
-10 | File | `/admin/login.php` | High
-11 | File | `/admin/payment.php` | High
-12 | File | `/admin/show.php` | High
-13 | File | `/api/json/admin/getmailserversettings` | High
-14 | File | `/boat/login.php` | High
-15 | File | `/clinic/disease_symptoms_view.php` | High
-16 | File | `/default.php?idx=17` | High
-17 | File | `/download` | Medium
-18 | File | `/env` | Low
-19 | File | `/forum/away.php` | High
-20 | File | `/home.php` | Medium
-21 | File | `/index.php` | Medium
-22 | File | `/opt/bin/cli` | Medium
-23 | File | `/p` | Low
-24 | File | `/patient/doctors.php` | High
-25 | File | `/phpinventory/editcategory.php` | High
-26 | File | `/product-list.php` | High
-27 | File | `/rest/api/2/user/picker` | High
-28 | File | `/RestAPI` | Medium
-29 | File | `/spip.php` | Medium
-30 | File | `/uncpath/` | Medium
-31 | File | `/updown/upload.cgi` | High
-32 | File | `/user/del.php` | High
-33 | File | `/wp-admin/admin-ajax.php` | High
-34 | File | `/_next` | Low
-35 | File | `123flashchat.php` | High
-36 | File | `act.php` | Low
-37 | File | `admin.php` | Medium
-38 | File | `admin.php/pay` | High
-39 | File | `admin/bad.php` | High
-40 | File | `admin/index.php` | High
-41 | File | `admin/index.php/user/del/1` | High
-42 | File | `admin/index.php?id=themes&action=edit_chunk` | High
-43 | File | `admin/products/controller.php?action=add` | High
-44 | File | `administrator/index.php` | High
-45 | ... | ... | ...
+2 | File | `.php.gif` | Medium
+3 | File | `/?Page=Node/OBJ=/System/DeviceFolder/DeviceFolder/DateTime/Action=Submit` | High
+4 | File | `/acms/admin/cargo_types/manage_cargo_type.php` | High
+5 | File | `/admin/add-services.php` | High
+6 | File | `/admin/ajax/avatar.php` | High
+7 | File | `/admin/edit-services.php` | High
+8 | File | `/admin/forgot-password.php` | High
+9 | File | `/admin/index.php` | High
+10 | File | `/admin/lab.php` | High
+11 | File | `/admin/login.php` | High
+12 | File | `/admin/payment.php` | High
+13 | File | `/admin/show.php` | High
+14 | File | `/api/json/admin/getmailserversettings` | High
+15 | File | `/boat/login.php` | High
+16 | File | `/clinic/disease_symptoms_view.php` | High
+17 | File | `/default.php?idx=17` | High
+18 | File | `/download` | Medium
+19 | File | `/env` | Low
+20 | File | `/forum/away.php` | High
+21 | File | `/home.php` | Medium
+22 | File | `/index.php` | Medium
+23 | File | `/opt/bin/cli` | Medium
+24 | File | `/p` | Low
+25 | File | `/patient/doctors.php` | High
+26 | File | `/phpinventory/editcategory.php` | High
+27 | File | `/product-list.php` | High
+28 | File | `/rest/api/2/user/picker` | High
+29 | File | `/RestAPI` | Medium
+30 | File | `/spip.php` | Medium
+31 | File | `/uncpath/` | Medium
+32 | File | `/updown/upload.cgi` | High
+33 | File | `/user/del.php` | High
+34 | File | `/wp-admin/admin-ajax.php` | High
+35 | File | `/_next` | Low
+36 | File | `123flashchat.php` | High
+37 | File | `act.php` | Low
+38 | File | `admin.php` | Medium
+39 | File | `admin.php/pay` | High
+40 | File | `admin/bad.php` | High
+41 | File | `admin/index.php` | High
+42 | File | `admin/index.php/user/del/1` | High
+43 | File | `admin/index.php?id=themes&action=edit_chunk` | High
+44 | File | `admin/products/controller.php?action=add` | High
+45 | File | `administrator/index.php` | High
+46 | ... | ... | ...
 
-There are 393 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 396 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

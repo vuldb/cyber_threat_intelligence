@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [US](https://vuldb.com/?country.us)
 * ...
 
-There are 8 more country items available. Please use our online service to access the data.
+There are 9 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -956,11 +956,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23 | Path Traversal | High
-2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
 
@@ -972,25 +973,26 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/.env` | Low
 2 | File | `/admin/list_ipAddressPolicy.php` | High
-3 | File | `/api/blade-log/api/list` | High
-4 | File | `/cgi-bin/cstecgi.cgi` | High
-5 | File | `/cgi-bin/mainfunction.cgi` | High
-6 | File | `/cgi-bin/wlogin.cgi` | High
-7 | File | `/cgi.cgi` | Medium
-8 | File | `/common/dict/list` | High
-9 | File | `/data/remove` | Medium
-10 | File | `/DXR.axd` | Medium
-11 | File | `/ECT_Provider/` | High
-12 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-13 | File | `/fax/fax_send.php` | High
-14 | File | `/goform/` | Medium
-15 | File | `/h/autoSaveDraft` | High
-16 | File | `/ipms/imageConvert/image` | High
-17 | File | `/rules/REQUEST-932-APPLICATION-ATTACK-RCE.conf` | High
-18 | File | `/search-result/` | High
-19 | ... | ... | ...
+3 | File | `/admin/list_resource_icon.php?action=delete` | High
+4 | File | `/admin/orders/view_order.php` | High
+5 | File | `/api /v3/auth` | High
+6 | File | `/cgi-bin/cstecgi.cgi` | High
+7 | File | `/common/dict/list` | High
+8 | File | `/data/remove` | Medium
+9 | File | `/ECT_Provider/` | High
+10 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+11 | File | `/Employer/EditProfile.php` | High
+12 | File | `/fax/fax_send.php` | High
+13 | File | `/goform/` | Medium
+14 | File | `/goform/goform_set_cmd_process` | High
+15 | File | `/goform/net\_Web\_get_value` | High
+16 | File | `/h/autoSaveDraft` | High
+17 | File | `/home.php` | Medium
+18 | File | `/ipms/imageConvert/image` | High
+19 | File | `/ossn/administrator/com_installer` | High
+20 | ... | ... | ...
 
-There are 160 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 162 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

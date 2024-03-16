@@ -24,12 +24,13 @@ ID | IP address | Hostname | Campaign | Confidence
 1 | [3.120.209.174](https://vuldb.com/?ip.3.120.209.174) | ec2-3-120-209-174.eu-central-1.compute.amazonaws.com | - | Medium
 2 | [3.253.77.60](https://vuldb.com/?ip.3.253.77.60) | ec2-3-253-77-60.eu-west-1.compute.amazonaws.com | - | Medium
 3 | [13.48.77.144](https://vuldb.com/?ip.13.48.77.144) | ec2-13-48-77-144.eu-north-1.compute.amazonaws.com | - | Medium
-4 | [18.134.14.164](https://vuldb.com/?ip.18.134.14.164) | ec2-18-134-14-164.eu-west-2.compute.amazonaws.com | - | Medium
-5 | [35.80.38.180](https://vuldb.com/?ip.35.80.38.180) | ec2-35-80-38-180.us-west-2.compute.amazonaws.com | - | Medium
-6 | [35.202.253.45](https://vuldb.com/?ip.35.202.253.45) | 45.253.202.35.bc.googleusercontent.com | - | Medium
-7 | ... | ... | ... | ...
+4 | [13.78.10.244](https://vuldb.com/?ip.13.78.10.244) | - | - | High
+5 | [18.134.14.164](https://vuldb.com/?ip.18.134.14.164) | ec2-18-134-14-164.eu-west-2.compute.amazonaws.com | - | Medium
+6 | [35.80.38.180](https://vuldb.com/?ip.35.80.38.180) | ec2-35-80-38-180.us-west-2.compute.amazonaws.com | - | Medium
+7 | [35.202.253.45](https://vuldb.com/?ip.35.202.253.45) | 45.253.202.35.bc.googleusercontent.com | - | Medium
+8 | ... | ... | ... | ...
 
-There are 24 more IOC items available. Please use our online service to access the data.
+There are 28 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -37,12 +38,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
 2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94 | Cross Site Scripting | High
+3 | T1059 | CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
 
-There are 12 more TTP items available. Please use our online service to access the data.
+There are 13 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -63,10 +64,11 @@ ID | Type | Indicator | Confidence
 11 | File | `/var/log/nginx` | High
 12 | File | `booking.php` | Medium
 13 | File | `browse-category.php` | High
-14 | File | `cat.asp` | Low
-15 | ... | ... | ...
+14 | File | `BSW_cxttongr.htm` | High
+15 | File | `cat.asp` | Low
+16 | ... | ... | ...
 
-There are 124 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 129 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -76,6 +78,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/13.48.77.144
 * https://search.censys.io/hosts/18.134.14.164
 * https://search.censys.io/hosts/45.79.196.203
+* https://search.censys.io/hosts/46.101.126.207
 * https://search.censys.io/hosts/51.250.38.28
 * https://search.censys.io/hosts/65.20.68.219
 * https://search.censys.io/hosts/70.77.124.96
@@ -86,7 +89,10 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/157.245.128.27
 * https://search.censys.io/hosts/159.100.29.105
 * https://search.censys.io/hosts/161.35.21.152
+* https://search.censys.io/hosts/164.90.183.39
+* https://search.censys.io/hosts/165.227.246.129
 * https://search.censys.io/hosts/184.72.153.18
+* https://search.censys.io/hosts/185.167.63.27
 * https://search.censys.io/hosts/185.234.216.64
 * https://search.censys.io/hosts/213.219.37.158
 * https://search.censys.io/search?resource=hosts&sort=RELEVANCE&per_page=25&virtual_hosts=EXCLUDE&q=services.software.product%3A+poshc2+and+not+labels%3A+tarpit
@@ -94,6 +100,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://twitter.com/1ZRR4H/status/1582068501036273665
 * https://twitter.com/TheDFIRReport/status/1407322479664762890
 * https://www.lac.co.jp/lacwatch/people/20190213_001770.html
+* https://www.lac.co.jp/lacwatch/people/20200424_002177.html
 * https://x.com/drb_ra/status/1735296172758069289?s=20
 
 ## Literature

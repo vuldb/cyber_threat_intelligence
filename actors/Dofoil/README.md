@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 2 more country items available. Please use our online service to access the data.
+There are 3 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -43,12 +43,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Pathname Traversal | High
-2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94 | Cross Site Scripting | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-94 | Argument Injection | High
+5 | ... | ... | ... | ...
 
-There are 10 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -57,28 +58,38 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/act/ActDao.xml` | High
-2 | File | `/api/trackedEntityInstances` | High
-3 | File | `/aux` | Low
-4 | File | `/dashboard/system/basics/name` | High
-5 | File | `/data/remove` | Medium
-6 | File | `/forum/away.php` | High
-7 | File | `/index.php` | Medium
-8 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-9 | File | `/tmp/ppd.trace` | High
-10 | File | `/userLogin.asp` | High
-11 | File | `Access.app/Contents/Resources/kcproxy` | High
-12 | File | `act.php` | Low
-13 | File | `act_newsletter.php` | High
-14 | File | `apexec.pl` | Medium
-15 | File | `cloud.php` | Medium
-16 | File | `com_android_bluetooth_btservice_AdapterService.cpp` | High
-17 | File | `Generator.php` | High
-18 | File | `Image/ImageProcessor` | High
-19 | File | `includes/baijiacms/common.inc.php` | High
-20 | File | `INETINFO.EXE` | Medium
-21 | ... | ... | ...
+2 | File | `/api/clusters/local/topics/{topic}/messages` | High
+3 | File | `/api/trackedEntityInstances` | High
+4 | File | `/aux` | Low
+5 | File | `/dashboard/system/basics/name` | High
+6 | File | `/data/remove` | Medium
+7 | File | `/debug/pprof` | Medium
+8 | File | `/etc/passwd` | Medium
+9 | File | `/forum/away.php` | High
+10 | File | `/index.php` | Medium
+11 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+12 | File | `/tmp/ppd.trace` | High
+13 | File | `/user/inc/workidajax.php` | High
+14 | File | `/userLogin.asp` | High
+15 | File | `Access.app/Contents/Resources/kcproxy` | High
+16 | File | `act.php` | Low
+17 | File | `addressbook.update.php` | High
+18 | File | `admin.php` | Medium
+19 | File | `admin/index.php` | High
+20 | File | `admin/password_reset.lua` | High
+21 | File | `apexec.pl` | Medium
+22 | File | `arch/arm/p2m.c` | High
+23 | File | `arch/arm64/kernel/sys.c` | High
+24 | File | `arch/x86/include/asm/uaccess.h` | High
+25 | File | `arch/x86/kernel/cpu/microcode/intel_early.c` | High
+26 | File | `Certificates.java` | High
+27 | File | `cloud.php` | Medium
+28 | File | `com_android_bluetooth_btservice_AdapterService.cpp` | High
+29 | File | `devices.common.ibm.atm.rte` | High
+30 | File | `download.php` | Medium
+31 | ... | ... | ...
 
-There are 170 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 268 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [GB](https://vuldb.com/?country.gb)
+* [NL](https://vuldb.com/?country.nl)
 * ...
 
-There are 1 more country items available. Please use our online service to access the data.
+There are 2 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -26,7 +26,7 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [47.115.230.18](https://vuldb.com/?ip.47.115.230.18) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 7 more IOC items available. Please use our online service to access the data.
+There are 8 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -34,9 +34,9 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059 | CWE-94 | Cross Site Scripting | High
+1 | T1059 | CWE-94 | Argument Injection | High
 2 | T1059.007 | CWE-79 | Cross Site Scripting | High
-3 | T1068 | CWE-264, CWE-269 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+3 | T1068 | CWE-264, CWE-269 | Execution with Unnecessary Privileges | High
 4 | ... | ... | ... | ...
 
 There are 6 more TTP items available. Please use our online service to access the data.
@@ -63,6 +63,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://tracker.viriback.com/index.php?q=47.115.230.18
 * https://tracker.viriback.com/index.php?q=82.157.154.37
 * https://tracker.viriback.com/index.php?q=84.32.41.23
+* https://tracker.viriback.com/index.php?q=107.175.28.248
 * https://tracker.viriback.com/index.php?q=116.204.110.99
 * https://tracker.viriback.com/index.php?q=134.122.132.23
 * https://tracker.viriback.com/index.php?q=134.122.132.52

@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ID](https://vuldb.com/?country.id)
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 8 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -36,14 +36,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-28, CWE-425 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -63,49 +63,46 @@ ID | Type | Indicator | Confidence
 10 | File | `/admin/manage-pages.php` | High
 11 | File | `/admin/manage-users.php` | High
 12 | File | `/admin/subject.php` | High
-13 | File | `/admin/submit-articles` | High
-14 | File | `/admin/success_story.php` | High
-15 | File | `/admin/usermanagement.php` | High
-16 | File | `/adplanet/PlanetCommentList` | High
-17 | File | `/adplanet/PlanetUser` | High
-18 | File | `/alphaware/summary.php` | High
-19 | File | `/api/` | Low
-20 | File | `/api/admin/store/product/list` | High
-21 | File | `/api/authentication/login` | High
-22 | File | `/api/baskets/{name}` | High
-23 | File | `/api/stl/actions/search` | High
-24 | File | `/api/sys/login` | High
-25 | File | `/api/sys/set_passwd` | High
-26 | File | `/api/trackedEntityInstances` | High
-27 | File | `/api/v2/cli/commands` | High
-28 | File | `/article/DelectArticleById/` | High
-29 | File | `/attachments` | Medium
-30 | File | `/aux` | Low
-31 | File | `/bin/ate` | Medium
-32 | File | `/boat/login.php` | High
-33 | File | `/booking/show_bookings/` | High
-34 | File | `/bsms_ci/index.php/book` | High
-35 | File | `/cgi-bin` | Medium
-36 | File | `/cgi-bin/cstecgi.cgi` | High
-37 | File | `/cgi-bin/wlogin.cgi` | High
-38 | File | `/changePassword` | High
-39 | File | `/classes/Master.php?f=delete_reminder` | High
-40 | File | `/config-manager/save` | High
-41 | File | `/Content/Template/root/reverse-shell.aspx` | High
-42 | File | `/core/tools/customblock.php` | High
-43 | File | `/dashboard/add-blog.php` | High
-44 | File | `/data/remove` | Medium
-45 | File | `/debug/pprof` | Medium
-46 | File | `/ecshop/admin/template.php` | High
-47 | File | `/env` | Low
-48 | File | `/etc/hosts` | Medium
-49 | File | `/forum/away.php` | High
-50 | File | `/geoserver/gwc/rest.html` | High
-51 | File | `/group1/uploa` | High
-52 | File | `/importexport.php` | High
-53 | ... | ... | ...
+13 | File | `/admin/success_story.php` | High
+14 | File | `/admin/usermanagement.php` | High
+15 | File | `/adplanet/PlanetCommentList` | High
+16 | File | `/adplanet/PlanetUser` | High
+17 | File | `/alphaware/summary.php` | High
+18 | File | `/api/` | Low
+19 | File | `/api/admin/store/product/list` | High
+20 | File | `/api/authentication/login` | High
+21 | File | `/api/baskets/{name}` | High
+22 | File | `/api/stl/actions/search` | High
+23 | File | `/api/sys/login` | High
+24 | File | `/api/sys/set_passwd` | High
+25 | File | `/api/trackedEntityInstances` | High
+26 | File | `/api/v2/cli/commands` | High
+27 | File | `/article/DelectArticleById/` | High
+28 | File | `/aux` | Low
+29 | File | `/bin/ate` | Medium
+30 | File | `/boat/login.php` | High
+31 | File | `/booking/show_bookings/` | High
+32 | File | `/cgi-bin` | Medium
+33 | File | `/cgi-bin/cstecgi.cgi` | High
+34 | File | `/cgi-bin/wlogin.cgi` | High
+35 | File | `/changePassword` | High
+36 | File | `/classes/Master.php?f=delete_reminder` | High
+37 | File | `/config-manager/save` | High
+38 | File | `/Content/Template/root/reverse-shell.aspx` | High
+39 | File | `/core/tools/customblock.php` | High
+40 | File | `/dashboard/add-blog.php` | High
+41 | File | `/data/remove` | Medium
+42 | File | `/debug/pprof` | Medium
+43 | File | `/ecshop/admin/template.php` | High
+44 | File | `/env` | Low
+45 | File | `/etc/passwd` | Medium
+46 | File | `/forum/away.php` | High
+47 | File | `/geoserver/gwc/rest.html` | High
+48 | File | `/group1/uploa` | High
+49 | File | `/importexport.php` | High
+50 | ... | ... | ...
 
-There are 458 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 434 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

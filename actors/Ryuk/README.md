@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 15 more country items available. Please use our online service to access the data.
+There are 16 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -56,10 +56,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-24 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -73,16 +73,16 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `//proc/kcore` | Medium
 2 | File | `/act/ActDao.xml` | High
-3 | File | `/admin.php/Admin/adminadd.html` | High
-4 | File | `/admin/about-us.php` | High
-5 | File | `/admin/action/delete-vaccine.php` | High
-6 | File | `/admin/index2.html` | High
-7 | File | `/admin/settings/save.php` | High
-8 | File | `/admin/userprofile.php` | High
-9 | File | `/ajax.php?action=read_msg` | High
-10 | File | `/api/baskets/{name}` | High
-11 | File | `/api/gen/clients/{language}` | High
-12 | File | `/app/index/controller/Common.php` | High
+3 | File | `/admin/about-us.php` | High
+4 | File | `/admin/action/delete-vaccine.php` | High
+5 | File | `/admin/index2.html` | High
+6 | File | `/admin/userprofile.php` | High
+7 | File | `/ajax.php?action=read_msg` | High
+8 | File | `/api/baskets/{name}` | High
+9 | File | `/api/clusters/local/topics/{topic}/messages` | High
+10 | File | `/api/gen/clients/{language}` | High
+11 | File | `/app/index/controller/Common.php` | High
+12 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
 13 | File | `/apply.cgi` | Medium
 14 | File | `/bitrix/admin/ldap_server_edit.php` | High
 15 | File | `/cgi-bin/wlogin.cgi` | High
@@ -98,27 +98,27 @@ ID | Type | Indicator | Confidence
 25 | File | `/goform/delAd` | High
 26 | File | `/goform/net\_Web\_get_value` | High
 27 | File | `/goform/wifiSSIDset` | High
-28 | File | `/gpac/src/bifs/unquantize.c` | High
-29 | File | `/GponForm/usb_restore_Form?script/` | High
-30 | File | `/group1/uploa` | High
-31 | File | `/hedwig.cgi` | Medium
-32 | File | `/HNAP1` | Low
-33 | File | `/HNAP1/SetClientInfo` | High
-34 | File | `/inc/topBarNav.php` | High
-35 | File | `/index.php` | Medium
-36 | File | `/index.php?app=main&func=passport&action=login` | High
-37 | File | `/kelas/data` | Medium
-38 | File | `/listplace/user/ticket/create` | High
+28 | File | `/GponForm/usb_restore_Form?script/` | High
+29 | File | `/group1/uploa` | High
+30 | File | `/hedwig.cgi` | Medium
+31 | File | `/HNAP1` | Low
+32 | File | `/HNAP1/SetClientInfo` | High
+33 | File | `/inc/topBarNav.php` | High
+34 | File | `/index.php` | Medium
+35 | File | `/index.php?app=main&func=passport&action=login` | High
+36 | File | `/kelas/data` | Medium
+37 | File | `/listplace/user/ticket/create` | High
+38 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
 39 | File | `/menu.html` | Medium
 40 | File | `/mhds/clinic/view_details.php` | High
 41 | File | `/modules/profile/index.php` | High
 42 | File | `/Moosikay/order.php` | High
 43 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-44 | File | `/php-sms/admin/quotes/manage_remark.php` | High
+44 | File | `/novel/author/list` | High
 45 | File | `/plugin` | Low
 46 | ... | ... | ...
 
-There are 403 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 398 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

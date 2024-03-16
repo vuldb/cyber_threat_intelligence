@@ -30,10 +30,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-22 | Path Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -51,25 +51,25 @@ ID | Type | Indicator | Confidence
 4 | File | `/admin/sales/manage_sale.php` | High
 5 | File | `/admin/sign/out` | High
 6 | File | `/adminui/history_log.php` | High
-7 | File | `/api/v1/attack` | High
-8 | File | `/apply.cgi` | Medium
-9 | File | `/blog/edit` | Medium
-10 | File | `/clients/listclients.php` | High
-11 | File | `/common/run_cross_report.php` | High
-12 | File | `/common/user_profile.php` | High
-13 | File | `/etc/gsissh/sshd_config` | High
-14 | File | `/etc/shadow` | Medium
-15 | File | `/goForm/aspForm` | High
-16 | File | `/goform/delFileName` | High
-17 | File | `/goform/exeCommand` | High
-18 | File | `/goform/WifiBasicSet` | High
-19 | File | `/index.php` | Medium
-20 | File | `/libsystem/login.php` | High
-21 | File | `/login` | Low
-22 | File | `/login/index.php` | High
+7 | File | `/api/controllers/merchant/shop/PosterController.php` | High
+8 | File | `/api/v1/attack` | High
+9 | File | `/apply.cgi` | Medium
+10 | File | `/blog/edit` | Medium
+11 | File | `/clients/listclients.php` | High
+12 | File | `/common/run_cross_report.php` | High
+13 | File | `/common/user_profile.php` | High
+14 | File | `/etc/gsissh/sshd_config` | High
+15 | File | `/etc/shadow` | Medium
+16 | File | `/goForm/aspForm` | High
+17 | File | `/goform/delFileName` | High
+18 | File | `/goform/exeCommand` | High
+19 | File | `/goform/WifiBasicSet` | High
+20 | File | `/index.php` | Medium
+21 | File | `/libsystem/login.php` | High
+22 | File | `/login` | Low
 23 | ... | ... | ...
 
-There are 187 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 190 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

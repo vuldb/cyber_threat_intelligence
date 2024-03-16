@@ -29,9 +29,17 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1552 | CWE-255 | ASP.NET Misconfiguration: Password in Configuration File | High
-2 | T1592 | CWE-200 | Configuration | High
-3 | T1600 | CWE-311 | J2EE Misconfiguration: Data Transmission Without Encryption | High
+1 | T1552 | CWE-255 | Credentials Management | High
+2 | T1592 | CWE-200 | Invocation of Process Using Visible Sensitive Information | High
+3 | T1600 | CWE-311 | Cryptographic Issues | High
+
+## IOA - Indicator of Attack
+
+These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by Hellsing. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Type | Indicator | Confidence
+-- | ---- | --------- | ----------
+1 | Library | `opennurbs.dll` | High
 
 ## References
 

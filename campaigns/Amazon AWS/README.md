@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [DE](https://vuldb.com/?country.de)
 * ...
 
-There are 16 more country items available. Please use our online service to access the data.
+There are 17 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -109,13 +109,13 @@ ID | Type | Indicator | Confidence
 38 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
 39 | File | `/medianet/mail.aspx` | High
 40 | File | `/mhds/clinic/view_details.php` | High
-41 | File | `/Moosikay/order.php` | High
-42 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-43 | File | `/novel/author/list` | High
-44 | File | `/oauth/idp/.well-known/openid-configuration` | High
+41 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+42 | File | `/novel/author/list` | High
+43 | File | `/oauth/idp/.well-known/openid-configuration` | High
+44 | File | `/settings/account` | High
 45 | ... | ... | ...
 
-There are 394 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 390 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

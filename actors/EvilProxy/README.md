@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [GB](https://vuldb.com/?country.gb)
+* [TR](https://vuldb.com/?country.tr)
 * ...
 
 There are 21 more country items available. Please use our online service to access the data.
@@ -61,46 +61,46 @@ ID | Type | Indicator | Confidence
 8 | File | `/adminapi/system/crud` | High
 9 | File | `/adminapi/system/file/openfile` | High
 10 | File | `/admin_route/dec_service_credits.php` | High
-11 | File | `/api/baskets/{name}` | High
-12 | File | `/api/download` | High
-13 | File | `/api/snapshot and /api/get_log_file` | High
-14 | File | `/api/v1/alerts` | High
-15 | File | `/api/v1/terminal/sessions/?limit=1` | High
-16 | File | `/api/v2/cli/commands` | High
-17 | File | `/api/v4/teams//channels/deleted` | High
-18 | File | `/b2b-supermarket/shopping-cart` | High
-19 | File | `/cancel.php` | Medium
-20 | File | `/category.php` | High
-21 | File | `/categorypage.php` | High
-22 | File | `/cgi-bin/cstecgi.cgi` | High
-23 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-24 | File | `/cgi-bin/luci/api/wireless` | High
-25 | File | `/cgi-bin/vitogate.cgi` | High
-26 | File | `/change-language/de_DE` | High
-27 | File | `/Content/Template/root/reverse-shell.aspx` | High
-28 | File | `/core/conditions/AbstractWrapper.java` | High
-29 | File | `/debug/pprof` | Medium
-30 | File | `/devinfo` | Medium
-31 | File | `/dist/index.js` | High
-32 | File | `/fcgi/scrut_fcgi.fcgi` | High
-33 | File | `/filemanager/php/connector.php` | High
-34 | File | `/forum/away.php` | High
-35 | File | `/geoserver/gwc/rest.html` | High
-36 | File | `/goform/formSysCmd` | High
-37 | File | `/HNAP1` | Low
-38 | File | `/hosts/firewall/ip` | High
-39 | File | `/index.jsp#settings` | High
-40 | File | `/index.php/ccm/system/file/upload` | High
-41 | File | `/jeecg-boot/sys/common/upload` | High
-42 | File | `/log/decodmail.php` | High
-43 | File | `/oauth/idp/.well-known/openid-configuration` | High
-44 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
-45 | File | `/php/ping.php` | High
-46 | File | `/proxy` | Low
-47 | File | `/register.do` | Medium
+11 | File | `/api/download` | High
+12 | File | `/api/snapshot and /api/get_log_file` | High
+13 | File | `/api/v1/alerts` | High
+14 | File | `/api/v1/terminal/sessions/?limit=1` | High
+15 | File | `/api/v2/cli/commands` | High
+16 | File | `/api/v4/teams//channels/deleted` | High
+17 | File | `/b2b-supermarket/shopping-cart` | High
+18 | File | `/cancel.php` | Medium
+19 | File | `/category.php` | High
+20 | File | `/categorypage.php` | High
+21 | File | `/cgi-bin/cstecgi.cgi` | High
+22 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+23 | File | `/cgi-bin/luci/api/wireless` | High
+24 | File | `/cgi-bin/vitogate.cgi` | High
+25 | File | `/change-language/de_DE` | High
+26 | File | `/debug/pprof` | Medium
+27 | File | `/devinfo` | Medium
+28 | File | `/dist/index.js` | High
+29 | File | `/fcgi/scrut_fcgi.fcgi` | High
+30 | File | `/filemanager/php/connector.php` | High
+31 | File | `/forum/away.php` | High
+32 | File | `/geoserver/gwc/rest.html` | High
+33 | File | `/goform/formSysCmd` | High
+34 | File | `/HNAP1` | Low
+35 | File | `/hosts/firewall/ip` | High
+36 | File | `/index.jsp#settings` | High
+37 | File | `/index.php/ccm/system/file/upload` | High
+38 | File | `/jeecg-boot/sys/common/upload` | High
+39 | File | `/log/decodmail.php` | High
+40 | File | `/oauth/idp/.well-known/openid-configuration` | High
+41 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
+42 | File | `/php/ping.php` | High
+43 | File | `/proxy` | Low
+44 | File | `/RPS2019Service/status.html` | High
+45 | File | `/s/index.php?action=statistics` | High
+46 | File | `/setting` | Medium
+47 | File | `/Setting/change_password_save` | High
 48 | ... | ... | ...
 
-There are 420 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 417 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 18 more country items available. Please use our online service to access the data.
+There are 19 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -43,12 +43,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-425 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+6 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 7 | ... | ... | ... | ...
 
 There are 23 more TTP items available. Please use our online service to access the data.
@@ -65,26 +65,26 @@ ID | Type | Indicator | Confidence
 4 | File | `/admin.php/singer/admin/lists/zhuan` | High
 5 | File | `/admin.php/User/level_sort` | High
 6 | File | `/admin/book_row.php` | High
-7 | File | `/admin/cloud.php` | High
-8 | File | `/admin/del_service.php` | High
-9 | File | `/admin/maintenance/view_designation.php` | High
-10 | File | `/admin/search-appointment.php` | High
-11 | File | `/admin/siteoptions.php&action=displaygoal&value=1&roleid=1` | High
-12 | File | `/admin/tag/delete` | High
-13 | File | `/admin/user/manage_user.php` | High
-14 | File | `/ajax.php?action=read_msg` | High
-15 | File | `/api/baskets/{name}` | High
-16 | File | `/bitrix/admin/ldap_server_edit.php` | High
-17 | File | `/blog/edit` | Medium
-18 | File | `/cgi-bin/uploadWeiXinPic` | High
-19 | File | `/cgi-bin/wlogin.cgi` | High
-20 | File | `/classes/Master.php?f=delete_category` | High
-21 | File | `/classes/Master.php?f=save_item` | High
-22 | File | `/config/php.ini` | High
-23 | File | `/core/admin/categories.php` | High
-24 | File | `/debug/pprof` | Medium
-25 | File | `/dms/admin/reports/daily_collection_report.php` | High
-26 | File | `/editprofile.php` | High
+7 | File | `/admin/del_service.php` | High
+8 | File | `/admin/maintenance/view_designation.php` | High
+9 | File | `/admin/search-appointment.php` | High
+10 | File | `/admin/siteoptions.php&action=displaygoal&value=1&roleid=1` | High
+11 | File | `/admin/tag/delete` | High
+12 | File | `/admin/user/manage_user.php` | High
+13 | File | `/ajax.php?action=read_msg` | High
+14 | File | `/api/baskets/{name}` | High
+15 | File | `/bitrix/admin/ldap_server_edit.php` | High
+16 | File | `/blog/edit` | Medium
+17 | File | `/cgi-bin/uploadWeiXinPic` | High
+18 | File | `/cgi-bin/wlogin.cgi` | High
+19 | File | `/classes/Master.php?f=delete_category` | High
+20 | File | `/classes/Master.php?f=save_item` | High
+21 | File | `/config/php.ini` | High
+22 | File | `/core/admin/categories.php` | High
+23 | File | `/debug/pprof` | Medium
+24 | File | `/dms/admin/reports/daily_collection_report.php` | High
+25 | File | `/editprofile.php` | High
+26 | File | `/Employer/ManageWalkin.php` | High
 27 | File | `/etc/config/cameo` | High
 28 | File | `/food/admin/all_users.php` | High
 29 | File | `/forum/away.php` | High
@@ -102,17 +102,17 @@ ID | Type | Indicator | Confidence
 41 | File | `/messageboard/view.php` | High
 42 | File | `/mhds/clinic/view_details.php` | High
 43 | File | `/modules/projects/vw_files.php` | High
-44 | File | `/net/tls/tls_sw.c` | High
-45 | File | `/ofrs/admin/?page=teams/view_team` | High
-46 | File | `/ordering/index.php?q=category` | High
-47 | File | `/owa/auth/logon.aspx` | High
-48 | File | `/picturesPreview` | High
-49 | File | `/production/admin_view_info.php` | High
-50 | File | `/rest/api/2/user/picker` | High
-51 | File | `/rest/api/latest/projectvalidate/key` | High
+44 | File | `/myprofile.php` | High
+45 | File | `/net/tls/tls_sw.c` | High
+46 | File | `/ofrs/admin/?page=teams/view_team` | High
+47 | File | `/ordering/index.php?q=category` | High
+48 | File | `/owa/auth/logon.aspx` | High
+49 | File | `/picturesPreview` | High
+50 | File | `/process/assignp.php` | High
+51 | File | `/production/admin_view_info.php` | High
 52 | ... | ... | ...
 
-There are 453 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 452 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

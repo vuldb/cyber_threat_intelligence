@@ -105,11 +105,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-25, CWE-425 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-25, CWE-425 | Path Traversal | High
 2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+3 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-250, CWE-264, CWE-266, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+5 | T1068 | CWE-250, CWE-264, CWE-266, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
 There are 22 more TTP items available. Please use our online service to access the data.
@@ -126,19 +126,19 @@ ID | Type | Indicator | Confidence
 4 | File | `/admin/maintenance/view_designation.php` | High
 5 | File | `/admin/search-appointment.php` | High
 6 | File | `/ajax.php?action=read_msg` | High
-7 | File | `/api/gen/clients/{language}` | High
-8 | File | `/app/options.py` | High
-9 | File | `/bin/httpd` | Medium
-10 | File | `/cgi-bin/wapopen` | High
-11 | File | `/ci_spms/admin/category` | High
-12 | File | `/ci_spms/admin/search/searching/` | High
-13 | File | `/classes/Master.php?f=delete_appointment` | High
-14 | File | `/classes/Master.php?f=delete_train` | High
-15 | File | `/config/php.ini` | High
-16 | File | `/Content/Template/root/reverse-shell.aspx` | High
-17 | File | `/ctcprotocol/Protocol` | High
-18 | File | `/dashboard/menu-list.php` | High
-19 | File | `/data/remove` | Medium
+7 | File | `/api/clusters/local/topics/{topic}/messages` | High
+8 | File | `/api/gen/clients/{language}` | High
+9 | File | `/app/options.py` | High
+10 | File | `/bin/httpd` | Medium
+11 | File | `/cgi-bin/wapopen` | High
+12 | File | `/ci_spms/admin/category` | High
+13 | File | `/ci_spms/admin/search/searching/` | High
+14 | File | `/classes/Master.php?f=delete_appointment` | High
+15 | File | `/classes/Master.php?f=delete_train` | High
+16 | File | `/config/php.ini` | High
+17 | File | `/Content/Template/root/reverse-shell.aspx` | High
+18 | File | `/ctcprotocol/Protocol` | High
+19 | File | `/dashboard/menu-list.php` | High
 20 | File | `/ebics-server/ebics.aspx` | High
 21 | File | `/ffos/classes/Master.php?f=save_category` | High
 22 | File | `/forum/away.php` | High
@@ -152,19 +152,18 @@ ID | Type | Indicator | Confidence
 30 | File | `/Items/*/RemoteImages/Download` | High
 31 | File | `/menu.html` | Medium
 32 | File | `/modules/profile/index.php` | High
-33 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-34 | File | `/navigate/navigate_download.php` | High
-35 | File | `/ocwbs/admin/?page=user/manage_user` | High
-36 | File | `/ofrs/admin/?page=user/manage_user` | High
-37 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-38 | File | `/out.php` | Medium
-39 | File | `/php_action/fetchSelectedUser.php` | High
-40 | File | `/plugin` | Low
-41 | File | `/property-list/property_view.php` | High
-42 | File | `/ptms/classes/Users.php` | High
-43 | ... | ... | ...
+33 | File | `/myprofile.php` | High
+34 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+35 | File | `/navigate/navigate_download.php` | High
+36 | File | `/ocwbs/admin/?page=user/manage_user` | High
+37 | File | `/ofrs/admin/?page=user/manage_user` | High
+38 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+39 | File | `/out.php` | Medium
+40 | File | `/php_action/fetchSelectedUser.php` | High
+41 | File | `/plugin` | Low
+42 | ... | ... | ...
 
-There are 368 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 361 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

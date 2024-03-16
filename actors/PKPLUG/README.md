@@ -16,6 +16,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
+* [GB](https://vuldb.com/?country.gb)
 
 ## IOC - Indicator of Compromise
 
@@ -37,9 +38,9 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
 2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
@@ -61,7 +62,8 @@ ID | Type | Indicator | Confidence
 8 | File | `/htmlcode/html/indexdefault.asp` | High
 9 | File | `/include/config.cache.php` | High
 10 | File | `/include/helpers/upload.helper.php` | High
-11 | ... | ... | ...
+11 | File | `/patient/appointment.php` | High
+12 | ... | ... | ...
 
 There are 88 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 

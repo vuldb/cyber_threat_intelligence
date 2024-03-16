@@ -24,7 +24,8 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `tiki-register.php` | High
+1 | File | `tiki-login.php` | High
+2 | File | `tiki-register.php` | High
 
 ## References
 

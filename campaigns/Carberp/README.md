@@ -111,7 +111,7 @@ ID | Type | Indicator | Confidence
 57 | File | `ash.c` | Low
 58 | ... | ... | ...
 
-There are 506 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 507 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

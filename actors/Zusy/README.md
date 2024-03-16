@@ -140,7 +140,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -153,51 +153,48 @@ ID | Type | Indicator | Confidence
 3 | File | `/admin/general.cgi` | High
 4 | File | `/admin/gnssAutoAlign.php` | High
 5 | File | `/admin/manage-users.php` | High
-6 | File | `/admin/read.php?mudi=getSignal` | High
-7 | File | `/admin/reminders/manage_reminder.php` | High
-8 | File | `/api/baskets/{name}` | High
-9 | File | `/api/sys/login` | High
-10 | File | `/api/sys/set_passwd` | High
-11 | File | `/api/trackedEntityInstances` | High
-12 | File | `/aux` | Low
-13 | File | `/booking/show_bookings/` | High
-14 | File | `/CCMAdmin/serverlist.asp` | High
-15 | File | `/cgi/get_param.cgi` | High
-16 | File | `/changePassword` | High
-17 | File | `/Content/Template/root/reverse-shell.aspx` | High
-18 | File | `/csms/admin/inquiries/view_details.php` | High
-19 | File | `/cstecgi.cgi` | Medium
-20 | File | `/cupseasylive/locationmodify.php` | High
-21 | File | `/dashboard/add-blog.php` | High
-22 | File | `/data/remove` | Medium
-23 | File | `/debug/pprof` | Medium
-24 | File | `/ecshop/admin/template.php` | High
-25 | File | `/etc/passwd` | Medium
-26 | File | `/forum/away.php` | High
-27 | File | `/goform/SetOnlineDevName` | High
-28 | File | `/group1/uploa` | High
-29 | File | `/importexport.php` | High
-30 | File | `/include/chart_generator.php` | High
-31 | File | `/index.php` | Medium
-32 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-33 | File | `/out.php` | Medium
-34 | File | `/owa/auth/logon.aspx` | High
-35 | File | `/resources//../` | High
-36 | File | `/search` | Low
-37 | File | `/SVFE2/pages/feegroups/country_group.jsf` | High
-38 | File | `/testConnection` | High
-39 | File | `/tmp/ppd.trace` | High
-40 | File | `/ueditor/net/controller.ashx?action=catchimage` | High
-41 | File | `/upfile.cgi` | Medium
-42 | File | `/user/inc/workidajax.php` | High
-43 | File | `/userLogin.asp` | High
-44 | File | `/vm/admin/doctors.php` | High
-45 | File | `/wordpress/wp-admin/admin.php` | High
-46 | File | `?r=recruit/interview/export&interviews=x` | High
-47 | File | `Access.app/Contents/Resources/kcproxy` | High
-48 | ... | ... | ...
+6 | File | `/api/baskets/{name}` | High
+7 | File | `/api/sys/login` | High
+8 | File | `/api/sys/set_passwd` | High
+9 | File | `/api/trackedEntityInstances` | High
+10 | File | `/aux` | Low
+11 | File | `/CCMAdmin/serverlist.asp` | High
+12 | File | `/cgi/get_param.cgi` | High
+13 | File | `/changePassword` | High
+14 | File | `/Content/Template/root/reverse-shell.aspx` | High
+15 | File | `/csms/admin/inquiries/view_details.php` | High
+16 | File | `/cstecgi.cgi` | Medium
+17 | File | `/cupseasylive/locationmodify.php` | High
+18 | File | `/dashboard/add-blog.php` | High
+19 | File | `/data/remove` | Medium
+20 | File | `/debug/pprof` | Medium
+21 | File | `/ecshop/admin/template.php` | High
+22 | File | `/etc/passwd` | Medium
+23 | File | `/forum/away.php` | High
+24 | File | `/goform/SetOnlineDevName` | High
+25 | File | `/group1/uploa` | High
+26 | File | `/importexport.php` | High
+27 | File | `/include/chart_generator.php` | High
+28 | File | `/index.php` | Medium
+29 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+30 | File | `/out.php` | Medium
+31 | File | `/owa/auth/logon.aspx` | High
+32 | File | `/resources//../` | High
+33 | File | `/search` | Low
+34 | File | `/testConnection` | High
+35 | File | `/tmp/ppd.trace` | High
+36 | File | `/ueditor/net/controller.ashx?action=catchimage` | High
+37 | File | `/upfile.cgi` | Medium
+38 | File | `/user/inc/workidajax.php` | High
+39 | File | `/userLogin.asp` | High
+40 | File | `/vm/admin/doctors.php` | High
+41 | File | `/wordpress/wp-admin/admin.php` | High
+42 | File | `Access.app/Contents/Resources/kcproxy` | High
+43 | File | `account_footer.php` | High
+44 | File | `acs.exe` | Low
+45 | ... | ... | ...
 
-There are 412 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 392 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

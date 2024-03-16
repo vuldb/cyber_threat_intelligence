@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [BR](https://vuldb.com/?country.br)
 * ...
 
-There are 2 more country items available. Please use our online service to access the data.
+There are 3 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -34,10 +34,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23 | Pathname Traversal | High
+1 | T1006 | CWE-22, CWE-23 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-94 | Argument Injection | High
 5 | ... | ... | ... | ...
 
 There are 14 more TTP items available. Please use our online service to access the data.
@@ -49,43 +49,43 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/general.cgi` | High
-2 | File | `/admin/reminders/manage_reminder.php` | High
-3 | File | `/CCMAdmin/serverlist.asp` | High
-4 | File | `/cgi/get_param.cgi` | High
-5 | File | `/csms/admin/inquiries/view_details.php` | High
-6 | File | `/cstecgi.cgi` | Medium
-7 | File | `/files.md5` | Medium
-8 | File | `/forum/away.php` | High
-9 | File | `/hrm/employeeview.php` | High
-10 | File | `/include/chart_generator.php` | High
-11 | File | `/librarian/bookdetails.php` | High
-12 | File | `/login` | Low
-13 | File | `/messageboard/view.php` | High
-14 | File | `/modules/profile/index.php` | High
-15 | File | `/oauth/idp/.well-known/openid-configuration` | High
-16 | File | `/one_church/userregister.php` | High
-17 | File | `/out.php` | Medium
-18 | File | `/public/plugins/` | High
-19 | File | `/SAP_Information_System/controllers/add_admin.php` | High
-20 | File | `/SASWebReportStudio/logonAndRender.do` | High
-21 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-22 | File | `/secure/admin/ViewInstrumentation.jspa` | High
-23 | File | `/SVFE2/pages/feegroups/country_group.jsf` | High
-24 | File | `/SystemMng.ashx` | High
-25 | File | `/textpattern/index.php` | High
-26 | File | `/upfile.cgi` | Medium
-27 | File | `/v2/quantum/save-data-upload-big-file` | High
-28 | File | `/wordpress/wp-admin/admin.php` | High
-29 | File | `4.edu.php` | Medium
-30 | File | `AccountManagerService.java` | High
-31 | File | `account_footer.php` | High
-32 | File | `adclick.php` | Medium
-33 | File | `addlink.php` | Medium
-34 | File | `add_edit_cat.asp` | High
-35 | File | `add_edit_user.asp` | High
+2 | File | `/Admin/login.php` | High
+3 | File | `/admin/reminders/manage_reminder.php` | High
+4 | File | `/CCMAdmin/serverlist.asp` | High
+5 | File | `/cgi/get_param.cgi` | High
+6 | File | `/csms/admin/inquiries/view_details.php` | High
+7 | File | `/cstecgi.cgi` | Medium
+8 | File | `/files.md5` | Medium
+9 | File | `/forum/away.php` | High
+10 | File | `/hrm/employeeview.php` | High
+11 | File | `/include/chart_generator.php` | High
+12 | File | `/index.php?menu=asterisk_cli` | High
+13 | File | `/librarian/bookdetails.php` | High
+14 | File | `/login` | Low
+15 | File | `/messageboard/view.php` | High
+16 | File | `/oauth/idp/.well-known/openid-configuration` | High
+17 | File | `/one_church/userregister.php` | High
+18 | File | `/out.php` | Medium
+19 | File | `/owa/auth/logon.aspx` | High
+20 | File | `/public/plugins/` | High
+21 | File | `/SAP_Information_System/controllers/add_admin.php` | High
+22 | File | `/SASWebReportStudio/logonAndRender.do` | High
+23 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+24 | File | `/secure/admin/ViewInstrumentation.jspa` | High
+25 | File | `/SVFE2/pages/feegroups/country_group.jsf` | High
+26 | File | `/SystemMng.ashx` | High
+27 | File | `/textpattern/index.php` | High
+28 | File | `/upfile.cgi` | Medium
+29 | File | `/v2/quantum/save-data-upload-big-file` | High
+30 | File | `/wordpress/wp-admin/admin.php` | High
+31 | File | `4.edu.php` | Medium
+32 | File | `AccountManagerService.java` | High
+33 | File | `account_footer.php` | High
+34 | File | `adclick.php` | Medium
+35 | File | `addlink.php` | Medium
 36 | ... | ... | ...
 
-There are 305 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 309 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

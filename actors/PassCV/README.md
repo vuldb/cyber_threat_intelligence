@@ -16,7 +16,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [MS](https://vuldb.com/?country.ms)
 * [HK](https://vuldb.com/?country.hk)
-* [KR](https://vuldb.com/?country.kr)
+* [US](https://vuldb.com/?country.us)
 * ...
 
 There are 3 more country items available. Please use our online service to access the data.
@@ -55,10 +55,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-94 | Argument Injection | High
 5 | ... | ... | ... | ...
 
 There are 17 more TTP items available. Please use our online service to access the data.
@@ -90,7 +90,7 @@ ID | Type | Indicator | Confidence
 19 | File | `/updown/upload.cgi` | High
 20 | ... | ... | ...
 
-There are 163 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 164 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

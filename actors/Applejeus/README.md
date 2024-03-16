@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Applejeus:
 
+* [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
 * [VN](https://vuldb.com/?country.vn)
-* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 6 more country items available. Please use our online service to access the data.
+There are 4 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -34,9 +34,9 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-24 | Pathname Traversal | High
+1 | T1006 | CWE-22, CWE-24 | Path Traversal | High
 2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
@@ -56,15 +56,15 @@ ID | Type | Indicator | Confidence
 6 | File | `/admin/book_add.php` | High
 7 | File | `/admin/book_row.php` | High
 8 | File | `/admin/borrow_add.php` | High
-9 | File | `/admin/category/save` | High
-10 | File | `/admin/category_row.php` | High
-11 | File | `/admin/clientview.php` | High
-12 | File | `/admin/course.php` | High
-13 | File | `/admin/courses/manage_course.php` | High
-14 | File | `/admin/courses/view_course.php` | High
-15 | File | `/admin/departments/manage_department.php` | High
-16 | File | `/admin/index.php` | High
-17 | File | `/admin/ind_backstage.php` | High
+9 | File | `/admin/category_row.php` | High
+10 | File | `/admin/clientview.php` | High
+11 | File | `/admin/course.php` | High
+12 | File | `/admin/courses/manage_course.php` | High
+13 | File | `/admin/courses/view_course.php` | High
+14 | File | `/admin/departments/manage_department.php` | High
+15 | File | `/admin/index.php` | High
+16 | File | `/admin/ind_backstage.php` | High
+17 | File | `/admin/list_ipAddressPolicy.php` | High
 18 | File | `/admin/makehtml_freelist_action.php` | High
 19 | File | `/admin/manage-users.php` | High
 20 | File | `/admin/options-theme.php` | High
@@ -76,42 +76,50 @@ ID | Type | Indicator | Confidence
 26 | File | `/admin/students/update_status.php` | High
 27 | File | `/admin/subject.php` | High
 28 | File | `/admin/update-clients.php` | High
-29 | File | `/adplanet/PlanetCommentList` | High
-30 | File | `/adplanet/PlanetUser` | High
-31 | File | `/ample/app/action/edit_product.php` | High
-32 | File | `/api.php` | Medium
-33 | File | `/api/baskets/{name}` | High
-34 | File | `/api/jolokia org.jolokia.http.HttpRequestHandler#handlePostRequest` | High
-35 | File | `/api/log/killJob` | High
-36 | File | `/app/ajax/sell_return_data.php` | High
-37 | File | `/app/api/controller/caiji.php` | High
-38 | File | `/app/api/controller/collect.php` | High
-39 | File | `/app/Http/Controllers/ImageController.php` | High
-40 | File | `/application/pay/controller/Api.php` | High
-41 | File | `/article/DelectArticleById/` | High
-42 | File | `/assets/php/upload.php` | High
-43 | File | `/auth/auth.php?user=1` | High
-44 | File | `/b2b-supermarket/catalog/all-products` | High
-45 | File | `/bin/boa` | Medium
-46 | File | `/boaform/device_reset.cgi` | High
-47 | File | `/boaform/wlan_basic_set.cgi` | High
-48 | File | `/cgi-bin/cstecgi.cgi` | High
-49 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-50 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
-51 | File | `/cgi-bin/wlogin.cgi` | High
-52 | File | `/cgi/cpaddons_report.pl` | High
-53 | File | `/classes/Master.php` | High
-54 | File | `/classes/Master.php? f=save_medicine` | High
-55 | File | `/config-manager/save` | High
-56 | File | `/dashboard/createblog` | High
-57 | File | `/dashboard?controller=UserCollection::createUser` | High
-58 | File | `/debug/pprof` | Medium
-59 | File | `/devinfo` | Medium
-60 | File | `/DXR.axd` | Medium
-61 | File | `/endpoint/add-guest.php` | High
-62 | ... | ... | ...
+29 | File | `/admin/view_sendlist.php` | High
+30 | File | `/adplanet/PlanetCommentList` | High
+31 | File | `/adplanet/PlanetUser` | High
+32 | File | `/ample/app/action/edit_product.php` | High
+33 | File | `/api.php` | Medium
+34 | File | `/api/baskets/{name}` | High
+35 | File | `/api/controllers/admin/app/AppController.php` | High
+36 | File | `/api/controllers/admin/app/ComboController.php` | High
+37 | File | `/api/controllers/common/UploadsController.php` | High
+38 | File | `/api/controllers/merchant/app/ComboController.php` | High
+39 | File | `/api/controllers/merchant/design/MaterialController.php` | High
+40 | File | `/api/controllers/merchant/shop/PosterController.php` | High
+41 | File | `/api/jolokia org.jolokia.http.HttpRequestHandler#handlePostRequest` | High
+42 | File | `/api/log/killJob` | High
+43 | File | `/app/ajax/sell_return_data.php` | High
+44 | File | `/app/api/controller/caiji.php` | High
+45 | File | `/app/api/controller/collect.php` | High
+46 | File | `/app/Http/Controllers/ImageController.php` | High
+47 | File | `/application/index/controller/Datament.php` | High
+48 | File | `/application/pay/controller/Api.php` | High
+49 | File | `/article/DelectArticleById/` | High
+50 | File | `/assets/php/upload.php` | High
+51 | File | `/auth/auth.php?user=1` | High
+52 | File | `/b2b-supermarket/catalog/all-products` | High
+53 | File | `/bin/boa` | Medium
+54 | File | `/boaform/device_reset.cgi` | High
+55 | File | `/boaform/wlan_basic_set.cgi` | High
+56 | File | `/cgi-bin/cstecgi.cgi` | High
+57 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+58 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
+59 | File | `/cgi-bin/wlogin.cgi` | High
+60 | File | `/cgi/cpaddons_report.pl` | High
+61 | File | `/classes/Master.php` | High
+62 | File | `/classes/Master.php? f=save_medicine` | High
+63 | File | `/common/dict/list` | High
+64 | File | `/config-manager/save` | High
+65 | File | `/core/config-revisions` | High
+66 | File | `/currentsetting.htm` | High
+67 | File | `/dashboard/createblog` | High
+68 | File | `/dashboard?controller=UserCollection::createUser` | High
+69 | File | `/debug/pprof` | Medium
+70 | ... | ... | ...
 
-There are 540 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 619 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

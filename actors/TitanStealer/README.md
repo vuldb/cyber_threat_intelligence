@@ -38,9 +38,9 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-22 | Path Traversal | High
 2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94 | Cross Site Scripting | High
+3 | T1059 | CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
@@ -62,20 +62,20 @@ ID | Type | Indicator | Confidence
 8 | File | `/Config/SaveUploadedHotspotLogoFile` | High
 9 | File | `/display/map` | Medium
 10 | File | `/download` | Medium
-11 | File | `/forum/PostPrivateMessage` | High
-12 | File | `/get_getnetworkconf.cgi` | High
-13 | File | `/GponForm/device_Form?script/` | High
-14 | File | `/includes/rrdtool.inc.php` | High
-15 | File | `/Main_AdmStatus_Content.asp` | High
-16 | File | `/NAGErrors` | Medium
-17 | File | `/sgms/TreeControl` | High
-18 | File | `/src/admin/content_batchup_action.php` | High
-19 | File | `/st_reg.php` | Medium
-20 | File | `/tmp` | Low
-21 | File | `/uncpath/` | Medium
+11 | File | `/forum/away.php` | High
+12 | File | `/forum/PostPrivateMessage` | High
+13 | File | `/get_getnetworkconf.cgi` | High
+14 | File | `/GponForm/device_Form?script/` | High
+15 | File | `/includes/rrdtool.inc.php` | High
+16 | File | `/Main_AdmStatus_Content.asp` | High
+17 | File | `/NAGErrors` | Medium
+18 | File | `/sgms/TreeControl` | High
+19 | File | `/src/admin/content_batchup_action.php` | High
+20 | File | `/st_reg.php` | Medium
+21 | File | `/tmp` | Low
 22 | ... | ... | ...
 
-There are 179 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 182 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

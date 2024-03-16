@@ -24,9 +24,9 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+1 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 2 | T1505 | CWE-89 | SQL Injection | High
-3 | T1608.002 | CWE-434 | Unrestricted Upload | High
+3 | T1608.002 | CWE-434 | Incomplete Identification of Uploaded File Variables | High
 
 ## IOA - Indicator of Attack
 

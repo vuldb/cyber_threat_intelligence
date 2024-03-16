@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 12 more country items available. Please use our online service to access the data.
+There are 14 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -38,9 +38,9 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23 | Pathname Traversal | High
+1 | T1006 | CWE-22, CWE-23 | Path Traversal | High
 2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94 | Cross Site Scripting | High
+3 | T1059 | CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
@@ -61,20 +61,21 @@ ID | Type | Indicator | Confidence
 7 | File | `/cgi-bin/editBookmark` | High
 8 | File | `/cgi-bin/login.cgi` | High
 9 | File | `/cgi-bin/wlogin.cgi` | High
-10 | File | `/controller/Index.php` | High
-11 | File | `/endpoint/add-guest.php` | High
-12 | File | `/goform/addressNat` | High
-13 | File | `/goform/aspForm` | High
-14 | File | `/include/chart_generator.php` | High
-15 | File | `/include/menu_v.inc.php` | High
-16 | File | `/kubepi/api/v1/users/search?pageNum=1&&pageSize=10` | High
-17 | File | `/librarian/lab.php` | High
-18 | File | `/omos/admin/?page=user/list` | High
-19 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-20 | File | `/panel/fields/add` | High
-21 | ... | ... | ...
+10 | File | `/change_password_process` | High
+11 | File | `/controller/Index.php` | High
+12 | File | `/CPE` | Low
+13 | File | `/Employer/EditProfile.php` | High
+14 | File | `/endpoint/add-guest.php` | High
+15 | File | `/goform/addressNat` | High
+16 | File | `/goform/aspForm` | High
+17 | File | `/include/chart_generator.php` | High
+18 | File | `/include/menu_v.inc.php` | High
+19 | File | `/kubepi/api/v1/users/search?pageNum=1&&pageSize=10` | High
+20 | File | `/librarian/lab.php` | High
+21 | File | `/omos/admin/?page=user/list` | High
+22 | ... | ... | ...
 
-There are 174 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 185 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -54,7 +54,7 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1059.007 | CWE-79 | Cross Site Scripting | High
 2 | T1505 | CWE-89 | SQL Injection | High
-3 | T1592 | CWE-200 | Configuration | High
+3 | T1592 | CWE-200 | Invocation of Process Using Visible Sensitive Information | High
 
 ## IOA - Indicator of Attack
 

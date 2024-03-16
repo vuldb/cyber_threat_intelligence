@@ -73,7 +73,7 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
+4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -94,35 +94,33 @@ ID | Type | Indicator | Confidence
 7 | File | `/api/v1/terminal/sessions/?limit=1` | High
 8 | File | `/aux` | Low
 9 | File | `/book-services.php` | High
-10 | File | `/booking/show_bookings/` | High
-11 | File | `/changePassword` | High
-12 | File | `/Content/Template/root/reverse-shell.aspx` | High
-13 | File | `/dashboard/add-blog.php` | High
-14 | File | `/data/remove` | Medium
-15 | File | `/debug/pprof` | Medium
-16 | File | `/ecshop/admin/template.php` | High
-17 | File | `/en/blog-comment-4` | High
-18 | File | `/etc/passwd` | Medium
-19 | File | `/forum/away.php` | High
-20 | File | `/group1/uploa` | High
-21 | File | `/h/` | Low
-22 | File | `/index.php` | Medium
-23 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-24 | File | `/novel/bookSetting/list` | High
-25 | File | `/novel/userFeedback/list` | High
-26 | File | `/owa/auth/logon.aspx` | High
-27 | File | `/resources//../` | High
-28 | File | `/testConnection` | High
-29 | File | `/tmp/ppd.trace` | High
-30 | File | `/user/inc/workidajax.php` | High
-31 | File | `/userLogin.asp` | High
-32 | File | `/vm/admin/doctors.php` | High
-33 | File | `Access.app/Contents/Resources/kcproxy` | High
-34 | File | `acs.exe` | Low
-35 | File | `action-visitor.php` | High
-36 | ... | ... | ...
+10 | File | `/changePassword` | High
+11 | File | `/Content/Template/root/reverse-shell.aspx` | High
+12 | File | `/dashboard/add-blog.php` | High
+13 | File | `/data/remove` | Medium
+14 | File | `/debug/pprof` | Medium
+15 | File | `/ecshop/admin/template.php` | High
+16 | File | `/etc/passwd` | Medium
+17 | File | `/forum/away.php` | High
+18 | File | `/goform/net\_Web\_get_value` | High
+19 | File | `/group1/uploa` | High
+20 | File | `/index.php` | Medium
+21 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+22 | File | `/novel/bookSetting/list` | High
+23 | File | `/novel/userFeedback/list` | High
+24 | File | `/owa/auth/logon.aspx` | High
+25 | File | `/testConnection` | High
+26 | File | `/tmp/ppd.trace` | High
+27 | File | `/user/inc/workidajax.php` | High
+28 | File | `/userLogin.asp` | High
+29 | File | `/vm/admin/doctors.php` | High
+30 | File | `Access.app/Contents/Resources/kcproxy` | High
+31 | File | `acs.exe` | Low
+32 | File | `action-visitor.php` | High
+33 | File | `adclick.php` | Medium
+34 | ... | ... | ...
 
-There are 306 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 286 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

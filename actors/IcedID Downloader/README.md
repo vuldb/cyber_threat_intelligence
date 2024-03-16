@@ -73,10 +73,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23 | Pathname Traversal | High
+1 | T1006 | CWE-22, CWE-23 | Path Traversal | High
 2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
-4 | ... | ... | ... | ...
+3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
 There are 14 more TTP items available. Please use our online service to access the data.
 
@@ -92,17 +93,18 @@ ID | Type | Indicator | Confidence
 4 | File | `/members/view_member.php` | High
 5 | File | `/mhds/clinic/view_details.php` | High
 6 | File | `/owa/auth/logon.aspx` | High
-7 | File | `/rapi/read_url` | High
-8 | File | `/rest/api/latest/projectvalidate/key` | High
-9 | File | `/scripts/unlock_tasks.php` | High
-10 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
-11 | File | `/system/user/modules/mod_users/controller.php` | High
-12 | File | `/uncpath/` | Medium
-13 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
-14 | File | `adclick.php` | Medium
-15 | ... | ... | ...
+7 | File | `/php/ping.php` | High
+8 | File | `/rapi/read_url` | High
+9 | File | `/rest/api/latest/projectvalidate/key` | High
+10 | File | `/scripts/unlock_tasks.php` | High
+11 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
+12 | File | `/SysInfo1.htm` | High
+13 | File | `/sysinfo_json.cgi` | High
+14 | File | `/system/user/modules/mod_users/controller.php` | High
+15 | File | `/uncpath/` | Medium
+16 | ... | ... | ...
 
-There are 118 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 127 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

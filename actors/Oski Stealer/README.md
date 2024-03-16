@@ -8,8 +8,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Oski Stealer:
 
-* [DE](https://vuldb.com/?country.de)
 * [US](https://vuldb.com/?country.us)
+* [DE](https://vuldb.com/?country.de)
 * [GR](https://vuldb.com/?country.gr)
 * ...
 
@@ -35,8 +35,8 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
-3 | T1202 | CWE-77 | Command Injection | High
+2 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+3 | T1202 | CWE-77 | Command Shell in Externally Accessible Directory | High
 4 | ... | ... | ... | ...
 
 There are 6 more TTP items available. Please use our online service to access the data.
@@ -47,12 +47,13 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/product.php` | Medium
-2 | File | `/spip.php` | Medium
-3 | File | `admin.php` | Medium
-4 | ... | ... | ...
+1 | File | `/Noxen-master/users.php` | High
+2 | File | `/product.php` | Medium
+3 | File | `/spip.php` | Medium
+4 | File | `admin.php` | Medium
+5 | ... | ... | ...
 
-There are 23 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 28 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

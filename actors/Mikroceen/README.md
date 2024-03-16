@@ -27,7 +27,7 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1055 | CWE-74 | Injection | High
 2 | T1548.002 | CWE-285 | Improper Authorization | High
-3 | T1592 | CWE-200 | Configuration | High
+3 | T1592 | CWE-200 | Invocation of Process Using Visible Sensitive Information | High
 
 ## References
 

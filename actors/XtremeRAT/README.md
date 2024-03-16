@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with XtremeRAT:
 
 * [US](https://vuldb.com/?country.us)
-* [VN](https://vuldb.com/?country.vn)
 * [CN](https://vuldb.com/?country.cn)
+* [VN](https://vuldb.com/?country.vn)
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -46,14 +46,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23, CWE-24, CWE-36 | Pathname Traversal | High
+1 | T1006 | CWE-22, CWE-23, CWE-24 | Path Traversal | High
 2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-264, CWE-266, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+5 | T1068 | CWE-264, CWE-266, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -65,8 +65,8 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin/` | Low
 3 | File | `/admin/admin_user.php` | High
 4 | File | `/admin/category/save` | High
-5 | File | `/admin/subject.php` | High
-6 | File | `/api/baskets/{name}` | High
+5 | File | `/admin/list_ipAddressPolicy.php` | High
+6 | File | `/admin/subject.php` | High
 7 | File | `/auth/auth.php?user=1` | High
 8 | File | `/bin/login` | Medium
 9 | File | `/bin/mini_upnpd` | High
@@ -76,31 +76,31 @@ ID | Type | Indicator | Confidence
 13 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
 14 | File | `/cgi-bin/wlogin.cgi` | High
 15 | File | `/cgi/cpaddons_report.pl` | High
-16 | File | `/debug/pprof` | Medium
-17 | File | `/DXR.axd` | Medium
-18 | File | `/forum/away.php` | High
-19 | File | `/goform/goform_get_cmd_process` | High
-20 | File | `/h/autoSaveDraft` | High
-21 | File | `/h/search?action` | High
-22 | File | `/HNAP1/` | Low
-23 | File | `/hss/admin/?page=products/view_product` | High
+16 | File | `/common/dict/list` | High
+17 | File | `/debug/pprof` | Medium
+18 | File | `/DXR.axd` | Medium
+19 | File | `/forum/away.php` | High
+20 | File | `/goform/goform_get_cmd_process` | High
+21 | File | `/h/autoSaveDraft` | High
+22 | File | `/h/search?action` | High
+23 | File | `/HNAP1/` | Low
 24 | File | `/importexport.php` | High
 25 | File | `/index.php?app=main&func=passport&action=login` | High
 26 | File | `/main/doctype.php` | High
 27 | File | `/main/webservices/additional_webservices.php` | High
 28 | File | `/mc` | Low
 29 | File | `/mgmt/` | Low
-30 | File | `/oauth/idp/.well-known/openid-configuration` | High
-31 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-32 | File | `/preview.php` | Medium
-33 | File | `/register.php` | High
-34 | File | `/secure/ViewCollectors` | High
-35 | File | `/server-status` | High
-36 | File | `/setting/NTPSyncWithHost` | High
-37 | File | `/spip.php` | Medium
+30 | File | `/net/bluetooth/rfcomm/core.C` | High
+31 | File | `/oauth/idp/.well-known/openid-configuration` | High
+32 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+33 | File | `/pdf` | Low
+34 | File | `/preview.php` | Medium
+35 | File | `/register.php` | High
+36 | File | `/server-status` | High
+37 | File | `/setting/NTPSyncWithHost` | High
 38 | ... | ... | ...
 
-There are 329 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 328 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

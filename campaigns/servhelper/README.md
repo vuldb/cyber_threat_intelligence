@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 7 more country items available. Please use our online service to access the data.
+There are 8 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -43,11 +43,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23 | Pathname Traversal | High
+1 | T1006 | CWE-22, CWE-23 | Path Traversal | High
 2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94 | Cross Site Scripting | High
+3 | T1059 | CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
 There are 21 more TTP items available. Please use our online service to access the data.
@@ -71,40 +71,41 @@ ID | Type | Indicator | Confidence
 11 | File | `/login` | Low
 12 | File | `/nagiosql/admin/checkcommands.php` | High
 13 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
-14 | File | `/public/login.htm` | High
-15 | File | `/rapi/read_url` | High
-16 | File | `/scripts/unlock_tasks.php` | High
-17 | File | `/sendKey` | Medium
-18 | File | `/setSystemAdmin` | High
-19 | File | `/signup_script.php` | High
-20 | File | `/system/user/modules/mod_users/controller.php` | High
-21 | File | `/tmp` | Low
-22 | File | `/type.php` | Medium
-23 | File | `/uncpath/` | Medium
-24 | File | `/usr/5bin/su` | Medium
-25 | File | `/usr/bin/mail` | High
-26 | File | `/var/dt/` | Medium
-27 | File | `/view-property.php` | High
-28 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
-29 | File | `00.jsp` | Low
-30 | File | `adclick.php` | Medium
-31 | File | `admin.asp` | Medium
-32 | File | `admin.php` | Medium
-33 | File | `admin/` | Low
-34 | File | `admin/Login.php` | High
-35 | File | `admin/manage-comments.php` | High
-36 | File | `Administration/Controllers/ImportController.cs` | High
-37 | File | `administrator/mail/download.cfm` | High
-38 | File | `AdminViewError/AdminAddadmin` | High
-39 | File | `agentdisplay.php` | High
-40 | File | `appserv/main.php` | High
-41 | File | `ashnews.php/ashheadlines.php` | High
-42 | File | `auction.cgi` | Medium
-43 | File | `autologin.jsp` | High
-44 | File | `axspawn.c` | Medium
-45 | ... | ... | ...
+14 | File | `/php/ping.php` | High
+15 | File | `/public/login.htm` | High
+16 | File | `/rapi/read_url` | High
+17 | File | `/scripts/unlock_tasks.php` | High
+18 | File | `/sendKey` | Medium
+19 | File | `/setSystemAdmin` | High
+20 | File | `/signup_script.php` | High
+21 | File | `/SysInfo1.htm` | High
+22 | File | `/sysinfo_json.cgi` | High
+23 | File | `/system/user/modules/mod_users/controller.php` | High
+24 | File | `/tmp` | Low
+25 | File | `/type.php` | Medium
+26 | File | `/uncpath/` | Medium
+27 | File | `/usr/5bin/su` | Medium
+28 | File | `/usr/bin/mail` | High
+29 | File | `/var/dt/` | Medium
+30 | File | `/view-property.php` | High
+31 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
+32 | File | `00.jsp` | Low
+33 | File | `adclick.php` | Medium
+34 | File | `admin.asp` | Medium
+35 | File | `admin.php` | Medium
+36 | File | `admin/` | Low
+37 | File | `admin/Login.php` | High
+38 | File | `admin/manage-comments.php` | High
+39 | File | `Administration/Controllers/ImportController.cs` | High
+40 | File | `administrator/mail/download.cfm` | High
+41 | File | `AdminViewError/AdminAddadmin` | High
+42 | File | `agentdisplay.php` | High
+43 | File | `appserv/main.php` | High
+44 | File | `ashnews.php/ashheadlines.php` | High
+45 | File | `auction.cgi` | Medium
+46 | ... | ... | ...
 
-There are 385 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 394 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -98,43 +98,44 @@ ID | IP address | Hostname | Campaign | Confidence
 72 | [38.54.32.114](https://vuldb.com/?ip.38.54.32.114) | - | - | High
 73 | [38.54.50.224](https://vuldb.com/?ip.38.54.50.224) | - | - | High
 74 | [38.54.84.31](https://vuldb.com/?ip.38.54.84.31) | - | - | High
-75 | [38.60.217.40](https://vuldb.com/?ip.38.60.217.40) | - | - | High
-76 | [38.60.217.198](https://vuldb.com/?ip.38.60.217.198) | - | - | High
-77 | [38.60.221.150](https://vuldb.com/?ip.38.60.221.150) | - | - | High
-78 | [38.180.54.6](https://vuldb.com/?ip.38.180.54.6) | - | - | High
-79 | [38.181.24.48](https://vuldb.com/?ip.38.181.24.48) | - | - | High
-80 | [39.96.58.23](https://vuldb.com/?ip.39.96.58.23) | - | - | High
-81 | [40.74.70.136](https://vuldb.com/?ip.40.74.70.136) | - | - | High
-82 | [43.128.40.28](https://vuldb.com/?ip.43.128.40.28) | - | - | High
-83 | [43.129.188.223](https://vuldb.com/?ip.43.129.188.223) | - | - | High
-84 | [43.132.173.7](https://vuldb.com/?ip.43.132.173.7) | - | - | High
-85 | [43.135.1.200](https://vuldb.com/?ip.43.135.1.200) | - | - | High
-86 | [43.153.63.174](https://vuldb.com/?ip.43.153.63.174) | - | - | High
-87 | [43.153.92.190](https://vuldb.com/?ip.43.153.92.190) | - | - | High
-88 | [43.154.29.157](https://vuldb.com/?ip.43.154.29.157) | - | - | High
-89 | [43.229.112.203](https://vuldb.com/?ip.43.229.112.203) | - | - | High
-90 | [43.230.161.205](https://vuldb.com/?ip.43.230.161.205) | - | - | High
-91 | [43.242.34.12](https://vuldb.com/?ip.43.242.34.12) | - | - | High
-92 | [43.242.34.23](https://vuldb.com/?ip.43.242.34.23) | - | - | High
-93 | [43.242.34.30](https://vuldb.com/?ip.43.242.34.30) | - | - | High
-94 | [43.255.28.190](https://vuldb.com/?ip.43.255.28.190) | - | - | High
-95 | [45.32.106.247](https://vuldb.com/?ip.45.32.106.247) | 45.32.106.247.vultrusercontent.com | - | High
-96 | [45.63.65.123](https://vuldb.com/?ip.45.63.65.123) | 45.63.65.123.vultrusercontent.com | - | High
-97 | [45.67.34.151](https://vuldb.com/?ip.45.67.34.151) | vm1974176.stark-industries.solutions | - | High
-98 | [45.67.230.185](https://vuldb.com/?ip.45.67.230.185) | vm1503208.stark-industries.solutions | - | High
-99 | [45.74.6.14](https://vuldb.com/?ip.45.74.6.14) | - | - | High
-100 | [45.74.6.77](https://vuldb.com/?ip.45.74.6.77) | - | - | High
-101 | [45.74.6.148](https://vuldb.com/?ip.45.74.6.148) | - | - | High
-102 | [45.74.6.169](https://vuldb.com/?ip.45.74.6.169) | - | - | High
-103 | [45.74.6.174](https://vuldb.com/?ip.45.74.6.174) | - | - | High
-104 | [45.74.6.175](https://vuldb.com/?ip.45.74.6.175) | - | - | High
-105 | [45.74.6.188](https://vuldb.com/?ip.45.74.6.188) | - | - | High
-106 | [45.74.6.251](https://vuldb.com/?ip.45.74.6.251) | - | - | High
-107 | [45.74.41.38](https://vuldb.com/?ip.45.74.41.38) | - | - | High
-108 | [45.76.83.253](https://vuldb.com/?ip.45.76.83.253) | 45.76.83.253.vultrusercontent.com | - | High
-109 | [45.76.110.175](https://vuldb.com/?ip.45.76.110.175) | 45.76.110.175.vultrusercontent.com | - | High
-110 | [45.76.189.91](https://vuldb.com/?ip.45.76.189.91) | 45.76.189.91.vultrusercontent.com | - | High
-111 | ... | ... | ... | ...
+75 | [38.55.204.19](https://vuldb.com/?ip.38.55.204.19) | - | - | High
+76 | [38.60.217.40](https://vuldb.com/?ip.38.60.217.40) | - | - | High
+77 | [38.60.217.198](https://vuldb.com/?ip.38.60.217.198) | - | - | High
+78 | [38.60.221.150](https://vuldb.com/?ip.38.60.221.150) | - | - | High
+79 | [38.180.54.6](https://vuldb.com/?ip.38.180.54.6) | - | - | High
+80 | [38.181.24.48](https://vuldb.com/?ip.38.181.24.48) | - | - | High
+81 | [39.96.58.23](https://vuldb.com/?ip.39.96.58.23) | - | - | High
+82 | [40.74.70.136](https://vuldb.com/?ip.40.74.70.136) | - | - | High
+83 | [43.128.40.28](https://vuldb.com/?ip.43.128.40.28) | - | - | High
+84 | [43.129.188.223](https://vuldb.com/?ip.43.129.188.223) | - | - | High
+85 | [43.132.173.7](https://vuldb.com/?ip.43.132.173.7) | - | - | High
+86 | [43.135.1.200](https://vuldb.com/?ip.43.135.1.200) | - | - | High
+87 | [43.153.63.174](https://vuldb.com/?ip.43.153.63.174) | - | - | High
+88 | [43.153.92.190](https://vuldb.com/?ip.43.153.92.190) | - | - | High
+89 | [43.154.29.157](https://vuldb.com/?ip.43.154.29.157) | - | - | High
+90 | [43.229.112.203](https://vuldb.com/?ip.43.229.112.203) | - | - | High
+91 | [43.230.161.205](https://vuldb.com/?ip.43.230.161.205) | - | - | High
+92 | [43.242.34.12](https://vuldb.com/?ip.43.242.34.12) | - | - | High
+93 | [43.242.34.23](https://vuldb.com/?ip.43.242.34.23) | - | - | High
+94 | [43.242.34.30](https://vuldb.com/?ip.43.242.34.30) | - | - | High
+95 | [43.255.28.190](https://vuldb.com/?ip.43.255.28.190) | - | - | High
+96 | [45.32.106.247](https://vuldb.com/?ip.45.32.106.247) | 45.32.106.247.vultrusercontent.com | - | High
+97 | [45.63.65.123](https://vuldb.com/?ip.45.63.65.123) | 45.63.65.123.vultrusercontent.com | - | High
+98 | [45.67.34.151](https://vuldb.com/?ip.45.67.34.151) | vm1974176.stark-industries.solutions | - | High
+99 | [45.67.230.185](https://vuldb.com/?ip.45.67.230.185) | vm1503208.stark-industries.solutions | - | High
+100 | [45.74.6.14](https://vuldb.com/?ip.45.74.6.14) | - | - | High
+101 | [45.74.6.77](https://vuldb.com/?ip.45.74.6.77) | - | - | High
+102 | [45.74.6.148](https://vuldb.com/?ip.45.74.6.148) | - | - | High
+103 | [45.74.6.169](https://vuldb.com/?ip.45.74.6.169) | - | - | High
+104 | [45.74.6.174](https://vuldb.com/?ip.45.74.6.174) | - | - | High
+105 | [45.74.6.175](https://vuldb.com/?ip.45.74.6.175) | - | - | High
+106 | [45.74.6.188](https://vuldb.com/?ip.45.74.6.188) | - | - | High
+107 | [45.74.6.251](https://vuldb.com/?ip.45.74.6.251) | - | - | High
+108 | [45.74.41.38](https://vuldb.com/?ip.45.74.41.38) | - | - | High
+109 | [45.76.83.253](https://vuldb.com/?ip.45.76.83.253) | 45.76.83.253.vultrusercontent.com | - | High
+110 | [45.76.110.175](https://vuldb.com/?ip.45.76.110.175) | 45.76.110.175.vultrusercontent.com | - | High
+111 | [45.76.189.91](https://vuldb.com/?ip.45.76.189.91) | 45.76.189.91.vultrusercontent.com | - | High
+112 | ... | ... | ... | ...
 
 There are 442 more IOC items available. Please use our online service to access the data.
 
@@ -160,11 +161,11 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/.env` | Low
-2 | File | `/act/ActDao.xml` | High
-3 | File | `/admin/action/new-father.php` | High
-4 | File | `/admin/clientview.php` | High
-5 | File | `/admin/edit_teacher.php` | High
-6 | File | `/admin/fields/manage_field.php` | High
+2 | File | `/admin/action/new-father.php` | High
+3 | File | `/admin/clientview.php` | High
+4 | File | `/admin/edit_teacher.php` | High
+5 | File | `/admin/fields/manage_field.php` | High
+6 | File | `/admin/orders/view_order.php` | High
 7 | File | `/admin/regester.php` | High
 8 | File | `/admin/update-clients.php` | High
 9 | File | `/admin_ping.htm` | High
@@ -181,32 +182,29 @@ ID | Type | Indicator | Confidence
 20 | File | `/apply.cgi` | Medium
 21 | File | `/arch/x86/mm/cpu_entry_area.c` | High
 22 | File | `/authenticationendpoint/login.do` | High
-23 | File | `/b2b-supermarket/shopping-cart` | High
-24 | File | `/bin/boa` | Medium
-25 | File | `/boaform/device_reset.cgi` | High
-26 | File | `/boafrm/formMapDelDevice` | High
-27 | File | `/bsms_ci/index.php` | High
-28 | File | `/bsms_ci/index.php/user/edit_user/` | High
-29 | File | `/cgi-bin/cstecgi.cgi` | High
-30 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-31 | File | `/cgi-bin/kerbynet` | High
-32 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-33 | File | `/cgi-bin/mainfunction.cgi` | High
-34 | File | `/cgi-bin/R14.2/cgi-bin/R14.2/host.pl` | High
-35 | File | `/cgi-bin/R14.2/easy1350.pl` | High
-36 | File | `/cgi-bin/wlogin.cgi` | High
-37 | File | `/clinic/disease_symptoms_view.php` | High
-38 | File | `/config/getuser` | High
-39 | File | `/core/redirect` | High
-40 | File | `/dashboard/snapshot/*?orgId=0` | High
-41 | File | `/debug/pprof` | Medium
-42 | File | `/DXR.axd` | Medium
-43 | File | `/ECT_Provider/` | High
-44 | File | `/fax/fax_send.php` | High
-45 | File | `/forum/away.php` | High
-46 | ... | ... | ...
+23 | File | `/bin/boa` | Medium
+24 | File | `/boaform/device_reset.cgi` | High
+25 | File | `/boafrm/formMapDelDevice` | High
+26 | File | `/bsms_ci/index.php/user/edit_user/` | High
+27 | File | `/cgi-bin/cstecgi.cgi` | High
+28 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+29 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+30 | File | `/cgi-bin/mainfunction.cgi` | High
+31 | File | `/cgi-bin/R14.2/cgi-bin/R14.2/host.pl` | High
+32 | File | `/cgi-bin/R14.2/easy1350.pl` | High
+33 | File | `/cgi-bin/wlogin.cgi` | High
+34 | File | `/clinic/disease_symptoms_view.php` | High
+35 | File | `/config/getuser` | High
+36 | File | `/core/redirect` | High
+37 | File | `/dashboard/snapshot/*?orgId=0` | High
+38 | File | `/debug/pprof` | Medium
+39 | File | `/DXR.axd` | Medium
+40 | File | `/ECT_Provider/` | High
+41 | File | `/Employer/EditProfile.php` | High
+42 | File | `/fax/fax_send.php` | High
+43 | ... | ... | ...
 
-There are 403 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 372 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -233,6 +231,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/37.1.193.156
 * https://search.censys.io/hosts/37.120.247.29
 * https://search.censys.io/hosts/38.54.20.187
+* https://search.censys.io/hosts/38.55.204.19
 * https://search.censys.io/hosts/38.60.217.40
 * https://search.censys.io/hosts/39.96.58.23
 * https://search.censys.io/hosts/43.153.63.174

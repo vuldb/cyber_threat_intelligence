@@ -94,7 +94,8 @@ ID | Type | Indicator | Confidence
 31 | File | `/SysInfo.htm` | Medium
 32 | File | `/tmp` | Low
 33 | File | `/uncpath/` | Medium
-34 | ... | ... | ...
+34 | File | `/usr/lib/print/conv_fix` | High
+35 | ... | ... | ...
 
 There are 295 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 

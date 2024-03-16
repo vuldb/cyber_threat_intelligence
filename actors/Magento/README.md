@@ -36,9 +36,9 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-22 | Path Traversal | High
 2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
@@ -57,31 +57,31 @@ ID | Type | Indicator | Confidence
 5 | File | `/cgi-bin/wlogin.cgi` | High
 6 | File | `/common/sysFile/list` | High
 7 | File | `/Content/Template/root/reverse-shell.aspx` | High
-8 | File | `/ebics-server/ebics.aspx` | High
-9 | File | `/forum/away.php` | High
-10 | File | `/fuel/index.php/fuel/logs/items` | High
-11 | File | `/monitoring` | Medium
-12 | File | `/ocwbs/classes/Master.php?f=get_vehicle_service` | High
-13 | File | `/one/getpassword.php` | High
-14 | File | `/out.php` | Medium
-15 | File | `/phppath/php` | Medium
-16 | File | `/preview.php` | Medium
-17 | File | `/sec/content/sec_asa_users_local_db_add.html` | High
-18 | File | `/secure/admin/AssociatedProjectsForCustomField.jspa` | High
-19 | File | `/secure/QueryComponent!Default.jspa` | High
-20 | File | `/servlet/webacc` | High
-21 | File | `/setNTP.cgi` | Medium
-22 | File | `/Side.php` | Medium
-23 | File | `/spip/ecrire/` | High
-24 | File | `/uncpath/` | Medium
-25 | File | `/userfs/bin/tcapi` | High
-26 | File | `/usr/bin/pkexec` | High
-27 | File | `/vendor/views/add_product.php` | High
-28 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-29 | File | `?r=recruit/interview/export&interviews=x` | High
+8 | File | `/dede/group_store.php` | High
+9 | File | `/ebics-server/ebics.aspx` | High
+10 | File | `/forum/away.php` | High
+11 | File | `/fuel/index.php/fuel/logs/items` | High
+12 | File | `/monitoring` | Medium
+13 | File | `/ocwbs/classes/Master.php?f=get_vehicle_service` | High
+14 | File | `/one/getpassword.php` | High
+15 | File | `/out.php` | Medium
+16 | File | `/phppath/php` | Medium
+17 | File | `/preview.php` | Medium
+18 | File | `/sec/content/sec_asa_users_local_db_add.html` | High
+19 | File | `/secure/admin/AssociatedProjectsForCustomField.jspa` | High
+20 | File | `/secure/QueryComponent!Default.jspa` | High
+21 | File | `/servlet/webacc` | High
+22 | File | `/setNTP.cgi` | Medium
+23 | File | `/Side.php` | Medium
+24 | File | `/spip/ecrire/` | High
+25 | File | `/uncpath/` | Medium
+26 | File | `/uploads/tags.php` | High
+27 | File | `/userfs/bin/tcapi` | High
+28 | File | `/usr/bin/pkexec` | High
+29 | File | `/vendor/views/add_product.php` | High
 30 | ... | ... | ...
 
-There are 250 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 258 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Liberty Front Press:
 
-* [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
+* [US](https://vuldb.com/?country.us)
 * [VN](https://vuldb.com/?country.vn)
 * ...
 
-There are 12 more country items available. Please use our online service to access the data.
+There are 5 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -88,14 +88,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Pathname Traversal | High
-2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-264, CWE-266, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+1 | T1006 | CWE-21, CWE-22, CWE-24 | Path Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -103,51 +103,49 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `$HOME/.terminfo` | High
-2 | File | `/admin/` | Low
-3 | File | `/admin/admin_user.php` | High
-4 | File | `/admin/category/save` | High
-5 | File | `/admin/controller/JobLogController.java` | High
-6 | File | `/admin/manage-users.php` | High
-7 | File | `/admin/subject.php` | High
-8 | File | `/api/sys/login` | High
-9 | File | `/api/sys/set_passwd` | High
-10 | File | `/api/trackedEntityInstances` | High
-11 | File | `/auth/auth.php?user=1` | High
-12 | File | `/aux` | Low
-13 | File | `/bin/mini_upnpd` | High
-14 | File | `/boaform/device_reset.cgi` | High
-15 | File | `/cgi-bin/cstecgi.cgi` | High
-16 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-17 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
-18 | File | `/cgi-bin/wlogin.cgi` | High
-19 | File | `/cgi/cpaddons_report.pl` | High
-20 | File | `/changePassword` | High
-21 | File | `/dashboard/add-blog.php` | High
-22 | File | `/data/remove` | Medium
-23 | File | `/debug/pprof` | Medium
-24 | File | `/DXR.axd` | Medium
-25 | File | `/ecshop/admin/template.php` | High
-26 | File | `/forum/away.php` | High
-27 | File | `/goform/goform_get_cmd_process` | High
-28 | File | `/h/autoSaveDraft` | High
-29 | File | `/h/search?action` | High
-30 | File | `/HNAP1/` | Low
-31 | File | `/importexport.php` | High
-32 | File | `/index.php` | Medium
-33 | File | `/main/doctype.php` | High
-34 | File | `/main/webservices/additional_webservices.php` | High
-35 | File | `/mc` | Low
-36 | File | `/mgmt/` | Low
-37 | File | `/mhds/clinic/view_details.php` | High
-38 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-39 | File | `/oauth/idp/.well-known/openid-configuration` | High
-40 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-41 | File | `/preview.php` | Medium
-42 | File | `/register.php` | High
-43 | ... | ... | ...
+1 | File | `/admin/` | Low
+2 | File | `/admin/admin_user.php` | High
+3 | File | `/admin/category/save` | High
+4 | File | `/admin/list_ipAddressPolicy.php` | High
+5 | File | `/admin/manage-users.php` | High
+6 | File | `/admin/subject.php` | High
+7 | File | `/api/trackedEntityInstances` | High
+8 | File | `/auth/auth.php?user=1` | High
+9 | File | `/aux` | Low
+10 | File | `/boaform/device_reset.cgi` | High
+11 | File | `/cgi-bin/cstecgi.cgi` | High
+12 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+13 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
+14 | File | `/cgi-bin/wlogin.cgi` | High
+15 | File | `/cgi/cpaddons_report.pl` | High
+16 | File | `/common/dict/list` | High
+17 | File | `/data/remove` | Medium
+18 | File | `/debug/pprof` | Medium
+19 | File | `/DXR.axd` | Medium
+20 | File | `/etc/passwd` | Medium
+21 | File | `/forum/away.php` | High
+22 | File | `/goform/goform_get_cmd_process` | High
+23 | File | `/HNAP1/` | Low
+24 | File | `/importexport.php` | High
+25 | File | `/index.php` | Medium
+26 | File | `/main/doctype.php` | High
+27 | File | `/main/webservices/additional_webservices.php` | High
+28 | File | `/mc` | Low
+29 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+30 | File | `/net/bluetooth/rfcomm/core.C` | High
+31 | File | `/pdf` | Low
+32 | File | `/register.php` | High
+33 | File | `/setting/NTPSyncWithHost` | High
+34 | File | `/spip.php` | Medium
+35 | File | `/terminal/handle-command.php` | High
+36 | File | `/tmp/ppd.trace` | High
+37 | File | `/update-resource-data/` | High
+38 | File | `/uploads/tags.php` | High
+39 | File | `/user/inc/workidajax.php` | High
+40 | File | `/var/tmp/abrt/abrt-hax-coredump` | High
+41 | ... | ... | ...
 
-There are 370 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 351 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

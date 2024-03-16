@@ -10,6 +10,12 @@ The following _campaigns_ are known and can be associated with Hydrochasma:
 
 * Medical and Shipping
 
+## Countries
+
+These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Hydrochasma:
+
+* [CN](https://vuldb.com/?country.cn)
+
 ## IOC - Indicator of Compromise
 
 These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of Hydrochasma.
@@ -22,6 +28,14 @@ ID | IP address | Hostname | Campaign | Confidence
 4 | ... | ... | ... | ...
 
 There are 1 more IOC items available. Please use our online service to access the data.
+
+## TTP - Tactics, Techniques, Procedures
+
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _Hydrochasma_. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1202 | CWE-78 | Command Shell in Externally Accessible Directory | High
 
 ## References
 

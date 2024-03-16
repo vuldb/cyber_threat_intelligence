@@ -8,9 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with TA577:
 
-* [FR](https://vuldb.com/?country.fr)
-* [CO](https://vuldb.com/?country.co)
 * [US](https://vuldb.com/?country.us)
+* [NL](https://vuldb.com/?country.nl)
+* [FR](https://vuldb.com/?country.fr)
+* ...
+
+There are 9 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -20,10 +23,10 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [86.250.12.217](https://vuldb.com/?ip.86.250.12.217) | lfbn-tou-1-665-217.w86-250.abo.wanadoo.fr | - | High
 2 | [92.154.17.149](https://vuldb.com/?ip.92.154.17.149) | laubervilliers-656-1-150-149.w92-154.abo.wanadoo.fr | - | High
-3 | [172.248.42.122](https://vuldb.com/?ip.172.248.42.122) | cpe-172-248-42-122.socal.res.rr.com | - | High
+3 | [146.70.158.28](https://vuldb.com/?ip.146.70.158.28) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 1 more IOC items available. Please use our online service to access the data.
+There are 4 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -31,12 +34,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1055 | CWE-74 | Injection | High
-2 | T1059.007 | CWE-79 | Cross Site Scripting | High
-3 | T1068 | CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+1 | T1006 | CWE-22, CWE-36 | Path Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
 
-There are 4 more TTP items available. Please use our online service to access the data.
+There are 12 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -44,17 +47,25 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/nova/bin/dot1x` | High
-2 | File | `/services/config/config.xml` | High
-3 | File | `/uncpath/` | Medium
-4 | ... | ... | ...
+1 | File | `/Account/login.php` | High
+2 | File | `/adminapi/system/file/openfile` | High
+3 | File | `/b2b-supermarket/shopping-cart` | High
+4 | File | `/listplace/user/ticket/create` | High
+5 | File | `/modules/profile/index.php` | High
+6 | File | `/nova/bin/dot1x` | High
+7 | File | `/services/config/config.xml` | High
+8 | File | `/signup.php` | Medium
+9 | File | `/uncpath/` | Medium
+10 | File | `?r=recruit/interview/export&interviews=x` | High
+11 | ... | ... | ...
 
-There are 2 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 87 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://exchange.xforce.ibmcloud.com/report/details/guid:b0c792eb9cb5f6b84ef7bca84f50c9f8
 * https://exchange.xforce.ibmcloud.com/threats/guid:7f0659d266174b9a9ba40c618b853782
 
 ## Literature

@@ -45,10 +45,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-425 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -68,25 +68,25 @@ ID | Type | Indicator | Confidence
 6 | File | `/admin/login.php` | High
 7 | File | `/ad_js.php` | Medium
 8 | File | `/alerts/alertConfigField.php` | High
-9 | File | `/api/v1/terminal/sessions/?limit=1` | High
-10 | File | `/config/myfield/test.php` | High
-11 | File | `/context/%2e/WEB-INF/web.xml` | High
-12 | File | `/core/conditions/AbstractWrapper.java` | High
-13 | File | `/data/remove` | Medium
-14 | File | `/debug/pprof` | Medium
-15 | File | `/etc/passwd` | Medium
-16 | File | `/face-recognition-php/facepay-master/camera.php` | High
-17 | File | `/forms/doLogin` | High
-18 | File | `/fuel/index.php/fuel/logs/items` | High
-19 | File | `/fuel/index.php/fuel/pages/items` | High
-20 | File | `/goform/aspForm` | High
-21 | File | `/image_zoom.php` | High
-22 | File | `/include/config.cache.php` | High
-23 | File | `/index.php` | Medium
-24 | File | `/mkshop/Men/profile.php` | High
-25 | File | `/param.file.tgz` | High
-26 | File | `/php/exportrecord.php` | High
-27 | File | `/preauth` | Medium
+9 | File | `/api/blade-log/api/list` | High
+10 | File | `/api/v1/terminal/sessions/?limit=1` | High
+11 | File | `/config/myfield/test.php` | High
+12 | File | `/context/%2e/WEB-INF/web.xml` | High
+13 | File | `/core/conditions/AbstractWrapper.java` | High
+14 | File | `/data/remove` | Medium
+15 | File | `/debug/pprof` | Medium
+16 | File | `/etc/passwd` | Medium
+17 | File | `/face-recognition-php/facepay-master/camera.php` | High
+18 | File | `/forms/doLogin` | High
+19 | File | `/fuel/index.php/fuel/logs/items` | High
+20 | File | `/fuel/index.php/fuel/pages/items` | High
+21 | File | `/goform/aspForm` | High
+22 | File | `/image_zoom.php` | High
+23 | File | `/include/config.cache.php` | High
+24 | File | `/index.php` | Medium
+25 | File | `/mkshop/Men/profile.php` | High
+26 | File | `/param.file.tgz` | High
+27 | File | `/php/exportrecord.php` | High
 28 | ... | ... | ...
 
 There are 235 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.

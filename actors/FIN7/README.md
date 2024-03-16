@@ -153,10 +153,9 @@ ID | Type | Indicator | Confidence
 39 | File | `/uploads/` | Medium
 40 | File | `/user/inc/workidajax.php` | High
 41 | File | `/user/index/findpass?do=4` | High
-42 | File | `/view-pass-detail.php` | High
-43 | ... | ... | ...
+42 | ... | ... | ...
 
-There are 369 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 367 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

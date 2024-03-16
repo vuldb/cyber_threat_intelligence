@@ -9,7 +9,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with XpertRAT:
 
 * [US](https://vuldb.com/?country.us)
-* [ES](https://vuldb.com/?country.es)
+* [CN](https://vuldb.com/?country.cn)
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
@@ -28,7 +28,7 @@ ID | IP address | Hostname | Campaign | Confidence
 5 | [37.0.11.150](https://vuldb.com/?ip.37.0.11.150) | - | - | High
 6 | ... | ... | ... | ...
 
-There are 21 more IOC items available. Please use our online service to access the data.
+There are 22 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -36,13 +36,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1059 | CWE-94 | Cross Site Scripting | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-94 | Argument Injection | High
 5 | ... | ... | ... | ...
 
-There are 16 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -58,23 +58,23 @@ ID | Type | Indicator | Confidence
 6 | File | `/admin/products/manage_product.php` | High
 7 | File | `/admin/products/view_product.php` | High
 8 | File | `/admin/web_config.php` | High
-9 | File | `/be/erpc.php` | Medium
-10 | File | `/cgi-bin/kerbynet` | High
-11 | File | `/config/myfield/test.php` | High
-12 | File | `/configs/application.ini` | High
-13 | File | `/DataHandler/AM/AM_Handler.ashx` | High
-14 | File | `/debug/pprof` | Medium
-15 | File | `/etc/sudoers` | Medium
-16 | File | `/forum/away.php` | High
-17 | File | `/goform/set_LimitClient_cfg` | High
-18 | File | `/index.php` | Medium
-19 | File | `/index.php?app=main&func=passport&action=login` | High
-20 | File | `/manage-apartment.php` | High
-21 | File | `/multi-vendor-shopping-script/product-list.php` | High
-22 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+9 | File | `/api/sys/set_passwd` | High
+10 | File | `/be/erpc.php` | Medium
+11 | File | `/cgi-bin/kerbynet` | High
+12 | File | `/config/myfield/test.php` | High
+13 | File | `/configs/application.ini` | High
+14 | File | `/DataHandler/AM/AM_Handler.ashx` | High
+15 | File | `/debug/pprof` | Medium
+16 | File | `/etc/sudoers` | Medium
+17 | File | `/forum/away.php` | High
+18 | File | `/goform/set_LimitClient_cfg` | High
+19 | File | `/index.php` | Medium
+20 | File | `/index.php?app=main&func=passport&action=login` | High
+21 | File | `/manage-apartment.php` | High
+22 | File | `/multi-vendor-shopping-script/product-list.php` | High
 23 | ... | ... | ...
 
-There are 189 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 190 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

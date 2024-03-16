@@ -42,11 +42,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23, CWE-425 | Pathname Traversal | High
+1 | T1006 | CWE-22, CWE-23, CWE-425 | Path Traversal | High
 2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
@@ -76,42 +76,43 @@ ID | Type | Indicator | Confidence
 17 | File | `/coreframe/app/member/admin/group.php` | High
 18 | File | `/Duty/AjaxHandle/UploadFloodPlanFileUpdate.ashx` | High
 19 | File | `/filemanager/php/connector.php` | High
-20 | File | `/forum/away.php` | High
-21 | File | `/goform/L7Im` | Medium
-22 | File | `/hoteldruid/interconnessioni.php` | High
-23 | File | `/include/chart_generator.php` | High
-24 | File | `/index.php?page=member` | High
-25 | File | `/login/index.php` | High
-26 | File | `/medical/inventories.php` | High
-27 | File | `/mgmt/tm/util/bash` | High
-28 | File | `/modules/projects/vw_files.php` | High
-29 | File | `/owa/auth/logon.aspx` | High
-30 | File | `/rest/api/2/user/picker` | High
-31 | File | `/school/model/get_events.php` | High
-32 | File | `/scripts/cpan_config` | High
-33 | File | `/search/index` | High
-34 | File | `/secure/QueryComponent!Default.jspa` | High
-35 | File | `/spacecom/login.php` | High
-36 | File | `/spip.php` | Medium
-37 | File | `/src/admin/content_batchup_action.php` | High
-38 | File | `/uncpath/` | Medium
-39 | File | `/user/updatePwd` | High
-40 | File | `/wp-admin/admin-ajax.php` | High
-41 | File | `AbstractController.php` | High
-42 | File | `action.php` | Medium
-43 | File | `add-locker-form.php` | High
-44 | File | `addpost_newpoll.php` | High
-45 | File | `admin.cgi` | Medium
-46 | File | `admin.php` | Medium
-47 | File | `admin.remository.php` | High
-48 | File | `admin/news.php` | High
-49 | File | `admin/page.php` | High
-50 | File | `admin/partials/ajax/add_field_to_form.php` | High
-51 | File | `administrator/upload.php` | High
-52 | File | `Administrator/users.php` | High
-53 | ... | ... | ...
+20 | File | `/filex/read-raw` | High
+21 | File | `/forum/away.php` | High
+22 | File | `/goform/L7Im` | Medium
+23 | File | `/hospital_activities/birth/form` | High
+24 | File | `/hoteldruid/interconnessioni.php` | High
+25 | File | `/include/chart_generator.php` | High
+26 | File | `/index.php?page=member` | High
+27 | File | `/investigation/delete/` | High
+28 | File | `/login/index.php` | High
+29 | File | `/medical/inventories.php` | High
+30 | File | `/mgmt/tm/util/bash` | High
+31 | File | `/modules/projects/vw_files.php` | High
+32 | File | `/owa/auth/logon.aspx` | High
+33 | File | `/rest/api/2/user/picker` | High
+34 | File | `/school/model/get_events.php` | High
+35 | File | `/scripts/cpan_config` | High
+36 | File | `/search/index` | High
+37 | File | `/secure/QueryComponent!Default.jspa` | High
+38 | File | `/spacecom/login.php` | High
+39 | File | `/spip.php` | Medium
+40 | File | `/src/admin/content_batchup_action.php` | High
+41 | File | `/uncpath/` | Medium
+42 | File | `/user/updatePwd` | High
+43 | File | `/wp-admin/admin-ajax.php` | High
+44 | File | `AbstractController.php` | High
+45 | File | `action.php` | Medium
+46 | File | `adclick.php` | Medium
+47 | File | `add-locker-form.php` | High
+48 | File | `addpost_newpoll.php` | High
+49 | File | `admin.cgi` | Medium
+50 | File | `admin.php` | Medium
+51 | File | `admin.remository.php` | High
+52 | File | `admin/news.php` | High
+53 | File | `admin/page.php` | High
+54 | ... | ... | ...
 
-There are 464 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 473 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

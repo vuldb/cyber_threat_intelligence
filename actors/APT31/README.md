@@ -67,16 +67,17 @@ ID | Type | Indicator | Confidence
 6 | File | `/goform/RgDhcp` | High
 7 | File | `/goform/RGFirewallEL` | High
 8 | File | `/horde/util/go.php` | High
-9 | File | `/rapi/read_url` | High
-10 | File | `/scripts/unlock_tasks.php` | High
-11 | File | `/system/user/modules/mod_users/controller.php` | High
-12 | File | `/uncpath/` | Medium
-13 | File | `/usr/bin/pkexec` | High
-14 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
-15 | File | `/wp-content/uploads/photo-gallery/` | High
-16 | ... | ... | ...
+9 | File | `/php/ping.php` | High
+10 | File | `/rapi/read_url` | High
+11 | File | `/scripts/unlock_tasks.php` | High
+12 | File | `/SysInfo1.htm` | High
+13 | File | `/sysinfo_json.cgi` | High
+14 | File | `/system/user/modules/mod_users/controller.php` | High
+15 | File | `/uncpath/` | Medium
+16 | File | `/usr/bin/pkexec` | High
+17 | ... | ... | ...
 
-There are 128 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 137 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

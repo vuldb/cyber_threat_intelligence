@@ -61,7 +61,7 @@ ID | Technique | Weakness | Description | Confidence
 6 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 7 | ... | ... | ... | ...
 
-There are 24 more TTP items available. Please use our online service to access the data.
+There are 23 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -70,53 +70,61 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/?r=recruit/resume/edit&op=status` | High
-2 | File | `/admin/about-us.php` | High
-3 | File | `/admin/addemployee.php` | High
-4 | File | `/admin/add_trainers.php` | High
-5 | File | `/admin/api/theme-edit/` | High
-6 | File | `/admin/countrymanagement.php` | High
-7 | File | `/admin/del_category.php` | High
-8 | File | `/admin/del_service.php` | High
-9 | File | `/admin/edit-accepted-appointment.php` | High
-10 | File | `/admin/edit-services.php` | High
-11 | File | `/admin/edit_category.php` | High
-12 | File | `/admin/forgot-password.php` | High
-13 | File | `/admin/generalsettings.php` | High
-14 | File | `/admin/index.php` | High
-15 | File | `/admin/maintenance/view_designation.php` | High
-16 | File | `/admin/makehtml_freelist_action.php` | High
-17 | File | `/admin/newsletter1.php` | High
-18 | File | `/admin/payment.php` | High
-19 | File | `/admin/reg.php` | High
-20 | File | `/admin/search-appointment.php` | High
-21 | File | `/admin/students/update_status.php` | High
-22 | File | `/admin/subnets/ripe-query.php` | High
-23 | File | `/api/sys/login` | High
-24 | File | `/api/sys/set_passwd` | High
-25 | File | `/apply.cgi` | Medium
-26 | File | `/App_Resource/UEditor/server/upload.aspx` | High
-27 | File | `/bin/boa` | Medium
-28 | File | `/boafrm/formMapDelDevice` | High
-29 | File | `/booking/show_bookings/` | High
-30 | File | `/cgi-bin/adm.cgi` | High
-31 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-32 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
-33 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
-34 | File | `/chaincity/user/ticket/create` | High
-35 | File | `/collection/all` | High
-36 | File | `/common/info.cgi` | High
-37 | File | `/core/conditions/AbstractWrapper.java` | High
-38 | File | `/core/config-revisions` | High
-39 | File | `/debug/pprof` | Medium
-40 | File | `/dipam/athlete-profile.php` | High
-41 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-42 | File | `/export` | Low
-43 | File | `/filemanager/upload/drop` | High
-44 | File | `/forum/away.php` | High
-45 | File | `/function/login.php` | High
-46 | ... | ... | ...
+2 | File | `/admin/` | Low
+3 | File | `/admin/about-us.php` | High
+4 | File | `/admin/addemployee.php` | High
+5 | File | `/admin/add_trainers.php` | High
+6 | File | `/admin/api/theme-edit/` | High
+7 | File | `/admin/app/login_crud.php` | High
+8 | File | `/admin/app/profile_crud.php` | High
+9 | File | `/admin/countrymanagement.php` | High
+10 | File | `/admin/del_category.php` | High
+11 | File | `/admin/del_service.php` | High
+12 | File | `/admin/edit-accepted-appointment.php` | High
+13 | File | `/admin/edit-services.php` | High
+14 | File | `/admin/edit_category.php` | High
+15 | File | `/admin/edit_supplier.php` | High
+16 | File | `/admin/forgot-password.php` | High
+17 | File | `/admin/generalsettings.php` | High
+18 | File | `/admin/index.php` | High
+19 | File | `/admin/list_ipAddressPolicy.php` | High
+20 | File | `/admin/login.php` | High
+21 | File | `/Admin/login.php` | High
+22 | File | `/admin/maintenance/view_designation.php` | High
+23 | File | `/admin/makehtml_freelist_action.php` | High
+24 | File | `/admin/newsletter1.php` | High
+25 | File | `/admin/payment.php` | High
+26 | File | `/admin/reg.php` | High
+27 | File | `/admin/search-appointment.php` | High
+28 | File | `/admin/students/update_status.php` | High
+29 | File | `/admin/subnets/ripe-query.php` | High
+30 | File | `/ajax-api.php` | High
+31 | File | `/api/sys/login` | High
+32 | File | `/api/sys/set_passwd` | High
+33 | File | `/app/ajax/search_sales_report.php` | High
+34 | File | `/app/controller/Setup.php` | High
+35 | File | `/apply.cgi` | Medium
+36 | File | `/App_Resource/UEditor/server/upload.aspx` | High
+37 | File | `/bin/boa` | Medium
+38 | File | `/boafrm/formMapDelDevice` | High
+39 | File | `/booking/show_bookings/` | High
+40 | File | `/cancel.php` | Medium
+41 | File | `/cgi-bin/adm.cgi` | High
+42 | File | `/cgi-bin/cstecgi.cgi` | High
+43 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+44 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
+45 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
+46 | File | `/chaincity/user/ticket/create` | High
+47 | File | `/collection/all` | High
+48 | File | `/common/info.cgi` | High
+49 | File | `/core/conditions/AbstractWrapper.java` | High
+50 | File | `/core/config-revisions` | High
+51 | File | `/debug/pprof` | Medium
+52 | File | `/dipam/athlete-profile.php` | High
+53 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+54 | ... | ... | ...
 
-There are 398 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 472 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

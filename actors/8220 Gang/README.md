@@ -8,6 +8,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 The following _campaigns_ are known and can be associated with 8220 Gang:
 
+* CVE-2019-2725
 * CVE-2022-26134
 
 ## Countries
@@ -19,7 +20,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [SE](https://vuldb.com/?country.se)
 * ...
 
-There are 9 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -30,9 +31,10 @@ ID | IP address | Hostname | Campaign | Confidence
 1 | [5.42.67.29](https://vuldb.com/?ip.5.42.67.29) | - | - | High
 2 | [51.79.175.139](https://vuldb.com/?ip.51.79.175.139) | vps-dc8b0481.vps.ovh.ca | CVE-2022-26134 | High
 3 | [51.255.171.23](https://vuldb.com/?ip.51.255.171.23) | vps-fc1a1567.vps.ovh.net | CVE-2022-26134 | High
-4 | ... | ... | ... | ...
+4 | [79.110.62.23](https://vuldb.com/?ip.79.110.62.23) | - | CVE-2019-2725 | High
+5 | ... | ... | ... | ...
 
-There are 11 more IOC items available. Please use our online service to access the data.
+There are 15 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -44,9 +46,10 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+5 | T1068 | CWE-264, CWE-266, CWE-267, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -57,29 +60,34 @@ ID | Type | Indicator | Confidence
 1 | File | `%PROGRAMFILES%\MyQ\PHP\Sessions\` | High
 2 | File | `.htaccess` | Medium
 3 | File | `/alphaware/summary.php` | High
-4 | File | `/cgi-bin/web_index.cgi?lang=en&src=AwSystem.html&ertqVvnKV4TjU9Vt` | High
-5 | File | `/common/info.cgi` | High
-6 | File | `/control/stream` | High
-7 | File | `/cupseasylive/countrymodify.php` | High
-8 | File | `/domains/list` | High
-9 | File | `/index.php/weblinks-categories` | High
-10 | File | `/LoginRegistration.php` | High
-11 | File | `/member/ad.php?action=ad` | High
-12 | File | `/MicroStrategyWS/happyaxis.jsp` | High
-13 | File | `/phppath/php` | Medium
-14 | File | `/product_list.php` | High
-15 | File | `/SM8250_Q_Master/android/vendor/oppo_charger/oppo/oppo_charger.c` | High
-16 | File | `/spip.php` | Medium
-17 | File | `/tmp` | Low
-18 | File | `/ucms/chk.php` | High
-19 | File | `/uncpath/` | Medium
-20 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-21 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-22 | File | `add-category.php` | High
-23 | File | `admin/bitrix.xscan_worker.php` | High
-24 | ... | ... | ...
+4 | File | `/brand.php` | Medium
+5 | File | `/cgi-bin/web_index.cgi?lang=en&src=AwSystem.html&ertqVvnKV4TjU9Vt` | High
+6 | File | `/common/info.cgi` | High
+7 | File | `/control/stream` | High
+8 | File | `/cupseasylive/countrymodify.php` | High
+9 | File | `/domains/list` | High
+10 | File | `/forum/away.php` | High
+11 | File | `/index.php/weblinks-categories` | High
+12 | File | `/LoginRegistration.php` | High
+13 | File | `/member/ad.php?action=ad` | High
+14 | File | `/MicroStrategyWS/happyaxis.jsp` | High
+15 | File | `/phppath/php` | Medium
+16 | File | `/product_list.php` | High
+17 | File | `/SM8250_Q_Master/android/vendor/oppo_charger/oppo/oppo_charger.c` | High
+18 | File | `/spip.php` | Medium
+19 | File | `/src/admin/content_batchup_action.php` | High
+20 | File | `/tmp` | Low
+21 | File | `/ucms/chk.php` | High
+22 | File | `/uncpath/` | Medium
+23 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+24 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+25 | File | `add-category.php` | High
+26 | File | `admin/bitrix.xscan_worker.php` | High
+27 | File | `admin/content/postcategory` | High
+28 | File | `admin/index.php` | High
+29 | ... | ... | ...
 
-There are 204 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 245 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -89,6 +97,8 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://asec.ahnlab.com/en/36820/
 * https://blog.checkpoint.com/2022/06/09/crypto-miners-leveraging-atlassian-zero-day-vulnerability/
 * https://github.com/uptycslabs/IOCs/blob/main/8220Gang
+* https://www.sentinelone.com/blog/8220-gang-cloud-botnet-targets-misconfigured-cloud-workloads/
+* https://www.sentinelone.com/blog/soc-team-essentials-how-to-investigate-and-track-the-8220-gang-cloud-threat/
 
 ## Literature
 

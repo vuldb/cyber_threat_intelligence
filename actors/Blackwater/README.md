@@ -34,9 +34,9 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-36 | Pathname Traversal | High
+1 | T1006 | CWE-22, CWE-36 | Path Traversal | High
 2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94 | Cross Site Scripting | High
+3 | T1059 | CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
@@ -52,23 +52,25 @@ ID | Type | Indicator | Confidence
 2 | File | `/.flatpak-info` | High
 3 | File | `/admin/edit.php` | High
 4 | File | `/admin/googleads.php` | High
-5 | File | `/admin/reg.php` | High
-6 | File | `/admin/renewaldue.php` | High
-7 | File | `/ajax` | Low
-8 | File | `/analysisProject/pagingQueryData` | High
-9 | File | `/api/sys/login` | High
-10 | File | `/booking/show_bookings/` | High
-11 | File | `/cgi-bin/adm.cgi` | High
-12 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-13 | File | `/collection/all` | High
-14 | File | `/dashboard/add-portfolio.php` | High
-15 | File | `/dipam/save-delegates.php` | High
-16 | File | `/E-mobile/App/System/File/downfile.php` | High
-17 | File | `/importexport.php` | High
-18 | File | `/jurusanmatkul/data` | High
-19 | ... | ... | ...
+5 | File | `/admin/pages/update_go.php` | High
+6 | File | `/admin/reg.php` | High
+7 | File | `/admin/renewaldue.php` | High
+8 | File | `/ajax` | Low
+9 | File | `/analysisProject/pagingQueryData` | High
+10 | File | `/api/sys/login` | High
+11 | File | `/application/index/controller/Databasesource.php` | High
+12 | File | `/application/index/controller/Screen.php` | High
+13 | File | `/bin/boa` | Medium
+14 | File | `/booking/show_bookings/` | High
+15 | File | `/cgi-bin/adm.cgi` | High
+16 | File | `/cgi-bin/cstecgi.cgi` | High
+17 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+18 | File | `/collection/all` | High
+19 | File | `/dashboard/add-portfolio.php` | High
+20 | File | `/devinfo` | Medium
+21 | ... | ... | ...
 
-There are 160 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 178 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

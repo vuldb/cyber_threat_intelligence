@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 16 more country items available. Please use our online service to access the data.
+There are 17 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -1649,12 +1649,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-25, CWE-35, CWE-425 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-25, CWE-35, CWE-36, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+6 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+7 | ... | ... | ... | ...
 
 There are 22 more TTP items available. Please use our online service to access the data.
 
@@ -1665,55 +1666,57 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `%SYSTEMDRIVE%\node_modules\.bin\wmic.exe` | High
-2 | File | `/admin/action/delete-vaccine.php` | High
-3 | File | `/admin/add-category.php` | High
-4 | File | `/admin/add-services.php` | High
-5 | File | `/admin/borrow_add.php` | High
-6 | File | `/admin/edit_teacher.php` | High
-7 | File | `/admin/pages/edit_chicken.php` | High
-8 | File | `/admin/pages/student-print.php` | High
-9 | File | `/admin/save.php` | High
-10 | File | `/admin_route/inc_service_credits.php` | High
-11 | File | `/api/download` | High
-12 | File | `/api/runscript` | High
-13 | File | `/api/v1/alerts` | High
-14 | File | `/api/v1/terminal/sessions/?limit=1` | High
-15 | File | `/app/Http/Controllers/ImageController.php` | High
-16 | File | `/b2b-supermarket/shopping-cart` | High
-17 | File | `/category.php` | High
-18 | File | `/categorypage.php` | High
-19 | File | `/cgi-bin/cstecgi.cgi` | High
-20 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-21 | File | `/cgi-bin/vitogate.cgi` | High
-22 | File | `/change-language/de_DE` | High
-23 | File | `/debug/pprof` | Medium
-24 | File | `/devinfo` | Medium
-25 | File | `/dist/index.js` | High
-26 | File | `/fcgi/scrut_fcgi.fcgi` | High
-27 | File | `/forum/away.php` | High
-28 | File | `/geoserver/gwc/rest.html` | High
-29 | File | `/goform/formSysCmd` | High
-30 | File | `/goform/goform_get_cmd_process` | High
-31 | File | `/HNAP1` | Low
-32 | File | `/hosts/firewall/ip` | High
-33 | File | `/index.php/ccm/system/file/upload` | High
-34 | File | `/log/decodmail.php` | High
-35 | File | `/login` | Low
-36 | File | `/metrics` | Medium
-37 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-38 | File | `/oauth/idp/.well-known/openid-configuration` | High
-39 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
-40 | File | `/out.php` | Medium
-41 | File | `/php/ping.php` | High
-42 | File | `/proxy` | Low
-43 | File | `/register.do` | Medium
-44 | File | `/register.php` | High
-45 | File | `/RPS2019Service/status.html` | High
-46 | File | `/s/index.php?action=statistics` | High
-47 | File | `/setting` | Medium
-48 | ... | ... | ...
+2 | File | `/#ilang=DE&b=c_smartenergy_swgroups` | High
+3 | File | `/Account/login.php` | High
+4 | File | `/admin/` | Low
+5 | File | `/admin/action/delete-vaccine.php` | High
+6 | File | `/admin/add-category.php` | High
+7 | File | `/admin/add-services.php` | High
+8 | File | `/admin/borrow_add.php` | High
+9 | File | `/admin/edit_teacher.php` | High
+10 | File | `/admin/pages/edit_chicken.php` | High
+11 | File | `/admin/pages/student-print.php` | High
+12 | File | `/adminapi/system/crud` | High
+13 | File | `/adminapi/system/file/openfile` | High
+14 | File | `/admin_route/dec_service_credits.php` | High
+15 | File | `/admin_route/inc_service_credits.php` | High
+16 | File | `/api/v1/alerts` | High
+17 | File | `/api/v4/teams//channels/deleted` | High
+18 | File | `/app/Http/Controllers/ImageController.php` | High
+19 | File | `/application/index/controller/Icon.php` | High
+20 | File | `/b2b-supermarket/shopping-cart` | High
+21 | File | `/cgi-bin/cstecgi.cgi` | High
+22 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+23 | File | `/change-language/de_DE` | High
+24 | File | `/debug/pprof` | Medium
+25 | File | `/devinfo` | Medium
+26 | File | `/dist/index.js` | High
+27 | File | `/fcgi/scrut_fcgi.fcgi` | High
+28 | File | `/forum/away.php` | High
+29 | File | `/general/attendance/manage/ask_duty/delete.php` | High
+30 | File | `/geoserver/gwc/rest.html` | High
+31 | File | `/goform/formSysCmd` | High
+32 | File | `/goform/goform_get_cmd_process` | High
+33 | File | `/hosts/firewall/ip` | High
+34 | File | `/index.jsp#settings` | High
+35 | File | `/index.php/ccm/system/file/upload` | High
+36 | File | `/Interface/DevManage/VM.php` | High
+37 | File | `/log/decodmail.php` | High
+38 | File | `/login` | Low
+39 | File | `/metrics` | Medium
+40 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+41 | File | `/oauth/idp/.well-known/openid-configuration` | High
+42 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
+43 | File | `/php/ping.php` | High
+44 | File | `/proxy` | Low
+45 | File | `/register.do` | Medium
+46 | File | `/register.php` | High
+47 | File | `/s/index.php?action=statistics` | High
+48 | File | `/setting` | Medium
+49 | File | `/signup.php` | Medium
+50 | ... | ... | ...
 
-There are 412 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 439 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

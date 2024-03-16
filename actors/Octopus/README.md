@@ -29,7 +29,7 @@ ID | IP address | Hostname | Campaign | Confidence
 6 | [46.249.52.244](https://vuldb.com/?ip.46.249.52.244) | echichens-c | - | High
 7 | ... | ... | ... | ...
 
-There are 23 more IOC items available. Please use our online service to access the data.
+There are 24 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -37,9 +37,9 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-22 | Path Traversal | High
 2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
@@ -87,6 +87,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/162.248.161.252
 * https://search.censys.io/hosts/164.92.250.55
 * https://search.censys.io/hosts/167.99.117.245
+* https://search.censys.io/hosts/174.138.56.147
 * https://www.cyber45.com
 
 ## Literature

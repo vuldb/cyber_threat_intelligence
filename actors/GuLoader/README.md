@@ -35,10 +35,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -72,21 +72,22 @@ ID | Type | Indicator | Confidence
 20 | File | `/login` | Low
 21 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
 22 | File | `/novel/bookSetting/list` | High
-23 | File | `/opt/IBM/es/lib/libffq.cryptionjni.so` | High
-24 | File | `/opt/vyatta/share/vyatta-cfg/templates/system/static-host-mapping/host-name/node.def` | High
-25 | File | `/owa/auth/logon.aspx` | High
-26 | File | `/php-sms/admin/?page=services/manage_service` | High
-27 | File | `/sdm-ws-rest/preconfiguration` | High
-28 | File | `/settings` | Medium
-29 | File | `/spip.php` | Medium
-30 | File | `/uapi/doc` | Medium
-31 | File | `/uncpath/` | Medium
-32 | File | `/updownload/t.report` | High
-33 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
-34 | File | `/woocommerce-stock-manager/trunk/admin/views/import-export.php` | High
-35 | ... | ... | ...
+23 | File | `/novel/userFeedback/list` | High
+24 | File | `/opt/IBM/es/lib/libffq.cryptionjni.so` | High
+25 | File | `/opt/vyatta/share/vyatta-cfg/templates/system/static-host-mapping/host-name/node.def` | High
+26 | File | `/owa/auth/logon.aspx` | High
+27 | File | `/php-sms/admin/?page=services/manage_service` | High
+28 | File | `/sdm-ws-rest/preconfiguration` | High
+29 | File | `/settings` | Medium
+30 | File | `/spip.php` | Medium
+31 | File | `/uapi/doc` | Medium
+32 | File | `/uncpath/` | Medium
+33 | File | `/updownload/t.report` | High
+34 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
+35 | File | `/woocommerce-stock-manager/trunk/admin/views/import-export.php` | High
+36 | ... | ... | ...
 
-There are 296 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 305 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

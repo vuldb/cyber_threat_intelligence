@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [PL](https://vuldb.com/?country.pl)
 * ...
 
-There are 16 more country items available. Please use our online service to access the data.
+There are 18 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -34,10 +34,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-22, CWE-23 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-94 | Argument Injection | High
 5 | ... | ... | ... | ...
 
 There are 16 more TTP items available. Please use our online service to access the data.
@@ -49,27 +49,32 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/addWhiteListDomain.imss` | High
-2 | File | `/anony/mjpg.cgi` | High
-3 | File | `/cgi-bin/wlogin.cgi` | High
-4 | File | `/cobbler-api` | Medium
-5 | File | `/forum/away.php` | High
-6 | File | `/inc/parser/xhtml.php` | High
-7 | File | `/include/makecvs.php` | High
-8 | File | `/index.php` | Medium
-9 | File | `/login/index.php` | High
-10 | File | `/requests.php` | High
-11 | File | `/uncpath/` | Medium
-12 | File | `/wp-admin/admin.php?page=wp_file_manager_properties` | High
-13 | File | `add.php` | Low
-14 | File | `adminer.php` | Medium
-15 | File | `adm_config_report.php` | High
-16 | File | `ampie.swf` | Medium
-17 | File | `api/it-recht-kanzlei/api-it-recht-kanzlei.php` | High
-18 | File | `auth-gss2.c` | Medium
-19 | File | `cat.asp` | Low
-20 | ... | ... | ...
+2 | File | `/admin/app/product.php` | High
+3 | File | `/anony/mjpg.cgi` | High
+4 | File | `/cgi-bin/wlogin.cgi` | High
+5 | File | `/cobbler-api` | Medium
+6 | File | `/customer_support/index.php` | High
+7 | File | `/forum/away.php` | High
+8 | File | `/inc/parser/xhtml.php` | High
+9 | File | `/include/makecvs.php` | High
+10 | File | `/index.php` | Medium
+11 | File | `/login/index.php` | High
+12 | File | `/preview.php` | Medium
+13 | File | `/protocol/index.php` | High
+14 | File | `/requests.php` | High
+15 | File | `/search-result.php` | High
+16 | File | `/secret_coder.sql` | High
+17 | File | `/shop.php` | Medium
+18 | File | `/uncpath/` | Medium
+19 | File | `/view_order.php` | High
+20 | File | `/wp-admin/admin.php?page=wp_file_manager_properties` | High
+21 | File | `add.php` | Low
+22 | File | `adminer.php` | Medium
+23 | File | `adm_config_report.php` | High
+24 | File | `ampie.swf` | Medium
+25 | ... | ... | ...
 
-There are 169 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 205 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

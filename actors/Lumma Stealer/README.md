@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 10 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -31,7 +31,7 @@ ID | IP address | Hostname | Campaign | Confidence
 8 | [77.73.134.68](https://vuldb.com/?ip.77.73.134.68) | - | - | High
 9 | ... | ... | ... | ...
 
-There are 32 more IOC items available. Please use our online service to access the data.
+There are 33 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -58,37 +58,37 @@ ID | Type | Indicator | Confidence
 3 | File | `/api/profile` | Medium
 4 | File | `/api/RecordingList/DownloadRecord?file=` | High
 5 | File | `/apply.cgi` | Medium
-6 | File | `/dataset/data/{id}` | High
-7 | File | `/debug/pprof` | Medium
-8 | File | `/etc/grafana/grafana.ini` | High
-9 | File | `/film-rating.php` | High
-10 | File | `/forum/PostPrivateMessage` | High
-11 | File | `/index.php` | Medium
-12 | File | `/librarian/bookdetails.php` | High
-13 | File | `/nova/bin/igmp-proxy` | High
-14 | File | `/orrs/admin/?page=user/manage_user` | High
-15 | File | `/pages/processlogin.php` | High
-16 | File | `/rapi/read_url` | High
-17 | File | `/scripts/unlock_tasks.php` | High
-18 | File | `/student/bookdetails.php` | High
-19 | File | `/SysInfo1.htm` | High
-20 | File | `/sysinfo_json.cgi` | High
-21 | File | `/system/user/modules/mod_users/controller.php` | High
-22 | File | `/uncpath/` | Medium
-23 | File | `/usr/local/psa/admin/sbin/wrapper` | High
-24 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
-25 | File | `123flashchat.php` | High
-26 | File | `account.asp` | Medium
-27 | File | `admin.jcomments.php` | High
-28 | File | `admin.php` | Medium
-29 | File | `admin/?page=system_info` | High
-30 | File | `admin/conf_users_edit.php` | High
-31 | File | `admin/establishment/manage.php` | High
-32 | File | `admin/inquiries/view_details.php` | High
-33 | File | `admin/modules/tools/ip_history_logs.php` | High
+6 | File | `/cgi-bin-sdb/` | High
+7 | File | `/dataset/data/{id}` | High
+8 | File | `/debug/pprof` | Medium
+9 | File | `/etc/grafana/grafana.ini` | High
+10 | File | `/film-rating.php` | High
+11 | File | `/forum/away.php` | High
+12 | File | `/forum/PostPrivateMessage` | High
+13 | File | `/index.php` | Medium
+14 | File | `/librarian/bookdetails.php` | High
+15 | File | `/nova/bin/igmp-proxy` | High
+16 | File | `/orrs/admin/?page=user/manage_user` | High
+17 | File | `/pages/processlogin.php` | High
+18 | File | `/php/ping.php` | High
+19 | File | `/rapi/read_url` | High
+20 | File | `/scripts/unlock_tasks.php` | High
+21 | File | `/student/bookdetails.php` | High
+22 | File | `/SysInfo1.htm` | High
+23 | File | `/sysinfo_json.cgi` | High
+24 | File | `/system/user/modules/mod_users/controller.php` | High
+25 | File | `/uncpath/` | Medium
+26 | File | `/usr/local/psa/admin/sbin/wrapper` | High
+27 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
+28 | File | `123flashchat.php` | High
+29 | File | `account.asp` | Medium
+30 | File | `admin.jcomments.php` | High
+31 | File | `admin.php` | Medium
+32 | File | `admin/?page=system_info` | High
+33 | File | `admin/conf_users_edit.php` | High
 34 | ... | ... | ...
 
-There are 287 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 293 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -102,6 +102,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://app.any.run/tasks/b80c5c12-9c12-414d-be8e-818ffdab1e74
 * https://search.censys.io/hosts/5.42.92.179
 * https://search.censys.io/hosts/95.217.74.243
+* https://search.censys.io/hosts/195.211.97.9
 * https://threatfox.abuse.ch
 * https://tracker.viriback.com/index.php?q=45.8.146.130
 * https://tracker.viriback.com/index.php?q=45.8.146.213

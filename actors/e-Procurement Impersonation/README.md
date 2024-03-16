@@ -32,7 +32,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1059.007 | CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+2 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 3 | T1083 | CWE-552 | File and Directory Information Exposure | High
 4 | ... | ... | ... | ...
 
@@ -44,12 +44,12 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `class.phpmailer.php` | High
-2 | File | `email.php` | Medium
-3 | File | `Parser.php` | Medium
+1 | File | `adclick.php` | Medium
+2 | File | `class.phpmailer.php` | High
+3 | File | `email.php` | Medium
 4 | ... | ... | ...
 
-There are 9 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 13 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

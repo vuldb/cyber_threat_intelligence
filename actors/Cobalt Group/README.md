@@ -35,11 +35,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-36, CWE-425 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-36, CWE-425 | Path Traversal | High
 2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
 There are 21 more TTP items available. Please use our online service to access the data.
@@ -74,41 +74,45 @@ ID | Type | Indicator | Confidence
 22 | File | `/admin/service.php` | High
 23 | File | `/admin/test_status.php` | High
 24 | File | `/admin/theme-edit.php` | High
-25 | File | `/ample/app/ajax/member_data.php` | High
-26 | File | `/api/wechat/app_auth` | High
-27 | File | `/asms/classes/Master.php?f=delete_img` | High
-28 | File | `/catcompany.php` | High
-29 | File | `/cgi-bin/cstecgi.cgi` | High
-30 | File | `/classes/Master.php?f=delete_appointment` | High
-31 | File | `/classes/Master.php?f=save_item` | High
-32 | File | `/classes/Users.php` | High
-33 | File | `/cms/notify` | Medium
-34 | File | `/depotHead/list` | High
-35 | File | `/device/signin` | High
-36 | File | `/fusiondirectory/index.php` | High
-37 | File | `/general/ipanel/menu_code.php?MENU_TYPE=FAV` | High
-38 | File | `/goform/addressNat` | High
-39 | File | `/goform/RGFirewallEL` | High
-40 | File | `/goform/SetOnlineDevName` | High
-41 | File | `/goform/WifiBasicSet` | High
-42 | File | `/h/` | Low
-43 | File | `/HNAP1` | Low
-44 | File | `/hslist` | Low
-45 | File | `/importexport.php` | High
-46 | File | `/include/dialog/select_templets_post.php` | High
-47 | File | `/index.php/sysmanage/Login/login_auth/` | High
-48 | File | `/index.php?page=member` | High
-49 | File | `/js/player/dmplayer/dmku/index.php` | High
-50 | File | `/lists/admin/` | High
-51 | File | `/log/decodmail.php` | High
-52 | File | `/login/index.php` | High
-53 | File | `/LoginRegistration.php` | High
-54 | File | `/multi-vendor-shopping-script/product-list.php` | High
-55 | File | `/myAccount` | Medium
-56 | File | `/note/index/delete` | High
-57 | ... | ... | ...
+25 | File | `/adminapi/system/file/openfile` | High
+26 | File | `/ample/app/ajax/member_data.php` | High
+27 | File | `/api/wechat/app_auth` | High
+28 | File | `/application/pay/controller/Api.php` | High
+29 | File | `/asms/classes/Master.php?f=delete_img` | High
+30 | File | `/assets/php/upload.php` | High
+31 | File | `/catcompany.php` | High
+32 | File | `/cgi-bin/cstecgi.cgi` | High
+33 | File | `/classes/Master.php?f=save_item` | High
+34 | File | `/classes/Users.php` | High
+35 | File | `/cms/notify` | Medium
+36 | File | `/dashboard/message` | High
+37 | File | `/depotHead/list` | High
+38 | File | `/device/signin` | High
+39 | File | `/devinfo` | Medium
+40 | File | `/fusiondirectory/index.php` | High
+41 | File | `/general/attendance/manage/ask_duty/delete.php` | High
+42 | File | `/general/ipanel/menu_code.php?MENU_TYPE=FAV` | High
+43 | File | `/goform/addressNat` | High
+44 | File | `/goform/RGFirewallEL` | High
+45 | File | `/goform/SetOnlineDevName` | High
+46 | File | `/goform/WifiBasicSet` | High
+47 | File | `/goform/wifiSSIDset` | High
+48 | File | `/h/` | Low
+49 | File | `/HNAP1` | Low
+50 | File | `/hslist` | Low
+51 | File | `/importexport.php` | High
+52 | File | `/include/dialog/select_templets_post.php` | High
+53 | File | `/index.jsp#settings` | High
+54 | File | `/index.php/sysmanage/Login/login_auth/` | High
+55 | File | `/index.php?page=member` | High
+56 | File | `/js/player/dmplayer/dmku/index.php` | High
+57 | File | `/lists/admin/` | High
+58 | File | `/log/decodmail.php` | High
+59 | File | `/login/index.php` | High
+60 | File | `/LoginRegistration.php` | High
+61 | ... | ... | ...
 
-There are 494 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 536 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

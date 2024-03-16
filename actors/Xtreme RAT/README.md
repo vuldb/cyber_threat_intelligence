@@ -45,13 +45,14 @@ ID | IP address | Hostname | Campaign | Confidence
 27 | [45.130.141.161](https://vuldb.com/?ip.45.130.141.161) | - | - | High
 28 | [46.228.222.234](https://vuldb.com/?ip.46.228.222.234) | 46.228.222.234.ip.fost.sk | - | High
 29 | [47.52.117.253](https://vuldb.com/?ip.47.52.117.253) | - | - | High
-30 | [47.91.89.136](https://vuldb.com/?ip.47.91.89.136) | - | - | High
-31 | [47.106.39.1](https://vuldb.com/?ip.47.106.39.1) | - | - | High
-32 | [47.241.35.83](https://vuldb.com/?ip.47.241.35.83) | - | - | High
-33 | [47.241.79.18](https://vuldb.com/?ip.47.241.79.18) | - | - | High
-34 | ... | ... | ... | ...
+30 | [47.88.53.49](https://vuldb.com/?ip.47.88.53.49) | - | - | High
+31 | [47.91.89.136](https://vuldb.com/?ip.47.91.89.136) | - | - | High
+32 | [47.106.39.1](https://vuldb.com/?ip.47.106.39.1) | - | - | High
+33 | [47.241.35.83](https://vuldb.com/?ip.47.241.35.83) | - | - | High
+34 | [47.241.79.18](https://vuldb.com/?ip.47.241.79.18) | - | - | High
+35 | ... | ... | ... | ...
 
-There are 130 more IOC items available. Please use our online service to access the data.
+There are 134 more IOC items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 

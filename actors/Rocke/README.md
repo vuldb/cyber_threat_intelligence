@@ -44,9 +44,9 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
-2 | T1059 | CWE-94 | Cross Site Scripting | High
-3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+1 | T1006 | CWE-22, CWE-36 | Path Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
 
 There are 13 more TTP items available. Please use our online service to access the data.
@@ -57,56 +57,32 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/admin.php` | High
-2 | File | `/data/remove` | Medium
-3 | File | `/debug/pprof` | Medium
-4 | File | `/dev/cpu/*/msr` | High
-5 | File | `/filemanager/upload/drop` | High
-6 | File | `/goform/NatStaticSetting` | High
-7 | File | `/include/lang-en.php` | High
-8 | File | `/navigation/create?ParentID=%23` | High
-9 | File | `/oauth/idp/.well-known/openid-configuration` | High
-10 | File | `/preview.php` | Medium
-11 | File | `/sbin/conf.d/SuSEconfig.javarunt` | High
-12 | File | `/status/` | Medium
-13 | File | `/usr/bin/write` | High
-14 | File | `/var/spool/fax/outgoing/.last_run` | High
-15 | File | `3G/UMTS` | Low
-16 | File | `400.htm/500.htm` | High
-17 | File | `abitwhizzy.php` | High
-18 | File | `acc.php` | Low
-19 | File | `Account.asp` | Medium
-20 | File | `accton` | Low
-21 | File | `adduser` | Low
-22 | File | `add_comment.php` | High
-23 | File | `add_post.php3` | High
-24 | File | `admin/auth.php` | High
-25 | File | `admin/index.php` | High
-26 | File | `admin/TemplateController.java` | High
-27 | File | `ApiController.class.php` | High
-28 | File | `app/ctrl/admin/User.php` | High
-29 | File | `ArchivesMapper.xml` | High
-30 | File | `avatar.php` | Medium
-31 | File | `bb-includes/formatting-functions.php` | High
-32 | File | `BBStore.php` | Medium
-33 | File | `brokenlink.php` | High
-34 | File | `browse.php` | Medium
-35 | File | `bsc_sms_send.php` | High
-36 | File | `cal2.jsp` | Medium
-37 | File | `calendar.php` | Medium
-38 | File | `categos.php` | Medium
-39 | File | `centre.php` | Medium
-40 | File | `cgi-bin/admin.c` | High
-41 | File | `channels/chan_skinny.c` | High
-42 | File | `check_vote.php` | High
-43 | File | `class.layout_phpcms.php` | High
-44 | File | `class.openbsd.inc.php` | High
-45 | File | `cluster.asp` | Medium
-46 | File | `cn.hutool.core.util.ZipUtil.java` | High
-47 | File | `com2001.ini` | Medium
-48 | ... | ... | ...
+1 | File | `/api /v3/auth` | High
+2 | File | `/app/index/controller/Common.php` | High
+3 | File | `/belegungsplan/wochenuebersicht.inc.php` | High
+4 | File | `/cgi-bin/nobody/VerifyCode.cgi` | High
+5 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
+6 | File | `/cgi.cgi` | Medium
+7 | File | `/counter/index2.php` | High
+8 | File | `/data/remove` | Medium
+9 | File | `/highlight/index.html` | High
+10 | File | `/iisadmin` | Medium
+11 | File | `/iissamples` | Medium
+12 | File | `/include/dialog/select_templets_post.php` | High
+13 | File | `/includes/js/admin.php` | High
+14 | File | `/modx/manager/index.php` | High
+15 | File | `/search-result/` | High
+16 | File | `/search.php` | Medium
+17 | File | `/server-status` | High
+18 | File | `/sgms/reports/scheduledreports/configure/scheduleProps.jsp` | High
+19 | File | `/templates/header.inc.php` | High
+20 | File | `/tmp` | Low
+21 | File | `a.jsp` | Low
+22 | File | `admin/comedit.php` | High
+23 | File | `admin/db.php` | Medium
+24 | ... | ... | ...
 
-There are 415 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 198 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

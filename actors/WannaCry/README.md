@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [DE](https://vuldb.com/?country.de)
 * ...
 
-There are 12 more country items available. Please use our online service to access the data.
+There are 13 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -38,10 +38,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-25, CWE-425 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-25, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80, CWE-85 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -89,42 +89,43 @@ ID | Type | Indicator | Confidence
 34 | File | `/admin/transactions/track_shipment.php` | High
 35 | File | `/admin/usermanagement.php` | High
 36 | File | `/admin/video/list` | High
-37 | File | `/api/log/killJob` | High
-38 | File | `/api/plugin/uninstall` | High
-39 | File | `/aqpg/users/login.php` | High
-40 | File | `/bcms/admin/?page=reports/daily_court_rental_report` | High
-41 | File | `/bcms/admin/?page=user/list` | High
-42 | File | `/bin/httpd` | Medium
-43 | File | `/blog` | Low
-44 | File | `/blog/edit` | Medium
-45 | File | `/car-rental-management-system/admin/manage_user.php` | High
-46 | File | `/cardo/api` | Medium
-47 | File | `/cgi-bin/login.cgi` | High
-48 | File | `/cgi-bin/touchlist_sync.cgi` | High
-49 | File | `/change-language/de_DE` | High
-50 | File | `/ci_spms/admin/category` | High
-51 | File | `/classes/Master.php?f=delete_account` | High
-52 | File | `/classes/Master.php?f=save_item` | High
-53 | File | `/classes/Users.php?f=save` | High
-54 | File | `/collection/all` | High
-55 | File | `/company/down_resume/total/nature` | High
-56 | File | `/ctpms/admin/?page=applications/view_application` | High
-57 | File | `/ctpms/admin/individuals/update_status.php` | High
-58 | File | `/cwms/admin/?page=articles/view_article/` | High
-59 | File | `/cwms/classes/Master.php?f=save_contact` | High
-60 | File | `/dashboard/add-blog.php` | High
-61 | File | `/dashboard/add-portfolio.php` | High
-62 | File | `/dashboard/settings` | High
-63 | File | `/download.php?file=author.png` | High
-64 | File | `/downloadmaster/dm_apply.cgi?action_mode=initial&download_type=General&special_cgi=get_language` | High
-65 | File | `/etc/passwd` | Medium
-66 | File | `/forum/away.php` | High
-67 | File | `/friends` | Medium
-68 | File | `/goform/aspForm` | High
-69 | File | `/goform/RgDdns` | High
-70 | ... | ... | ...
+37 | File | `/api/controllers/merchant/shop/PosterController.php` | High
+38 | File | `/api/log/killJob` | High
+39 | File | `/api/plugin/uninstall` | High
+40 | File | `/app/controller/Setup.php` | High
+41 | File | `/aqpg/users/login.php` | High
+42 | File | `/bcms/admin/?page=reports/daily_court_rental_report` | High
+43 | File | `/bcms/admin/?page=user/list` | High
+44 | File | `/bin/httpd` | Medium
+45 | File | `/blog` | Low
+46 | File | `/blog/edit` | Medium
+47 | File | `/car-rental-management-system/admin/manage_user.php` | High
+48 | File | `/cardo/api` | Medium
+49 | File | `/cgi-bin/login.cgi` | High
+50 | File | `/cgi-bin/touchlist_sync.cgi` | High
+51 | File | `/change-language/de_DE` | High
+52 | File | `/ci_spms/admin/category` | High
+53 | File | `/classes/Master.php?f=delete_account` | High
+54 | File | `/classes/Master.php?f=save_item` | High
+55 | File | `/classes/Users.php?f=save` | High
+56 | File | `/collection/all` | High
+57 | File | `/company/down_resume/total/nature` | High
+58 | File | `/ctpms/admin/?page=applications/view_application` | High
+59 | File | `/ctpms/admin/individuals/update_status.php` | High
+60 | File | `/cwms/admin/?page=articles/view_article/` | High
+61 | File | `/cwms/classes/Master.php?f=save_contact` | High
+62 | File | `/dashboard/add-blog.php` | High
+63 | File | `/dashboard/add-portfolio.php` | High
+64 | File | `/dashboard/settings` | High
+65 | File | `/debuginfo.htm` | High
+66 | File | `/download.php?file=author.png` | High
+67 | File | `/downloadmaster/dm_apply.cgi?action_mode=initial&download_type=General&special_cgi=get_language` | High
+68 | File | `/etc/passwd` | Medium
+69 | File | `/forum/away.php` | High
+70 | File | `/friends` | Medium
+71 | ... | ... | ...
 
-There are 619 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 626 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

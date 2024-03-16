@@ -43,11 +43,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23 | Pathname Traversal | High
+1 | T1006 | CWE-22, CWE-23 | Path Traversal | High
 2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+3 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-264, CWE-269, CWE-274, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+5 | T1068 | CWE-264, CWE-269, CWE-274, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
 There are 21 more TTP items available. Please use our online service to access the data.
@@ -113,10 +113,9 @@ ID | Type | Indicator | Confidence
 53 | File | `addentry.php` | Medium
 54 | File | `admin.php` | Medium
 55 | File | `admin/booking_report.php` | High
-56 | File | `admin/executar_login.php` | High
-57 | ... | ... | ...
+56 | ... | ... | ...
 
-There are 495 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 493 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

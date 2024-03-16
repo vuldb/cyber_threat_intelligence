@@ -30,10 +30,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-36 | Pathname Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-36 | Path Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -45,13 +45,13 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/action/import_xml_file/` | High
-2 | File | `/action/wirelessConnect` | High
-3 | File | `/admin.php?p=/Area/index#tab=t2` | High
-4 | File | `/admin/` | Low
-5 | File | `/admin/?page=bike` | High
-6 | File | `/admin/?page=user/manage_user` | High
-7 | File | `/admin/action/new-feed.php` | High
+1 | File | `/action/wirelessConnect` | High
+2 | File | `/admin.php?p=/Area/index#tab=t2` | High
+3 | File | `/admin/` | Low
+4 | File | `/admin/?page=bike` | High
+5 | File | `/admin/?page=user/manage_user` | High
+6 | File | `/admin/action/new-feed.php` | High
+7 | File | `/admin/app/service_crud.php` | High
 8 | File | `/admin/cms_content.php` | High
 9 | File | `/admin/course.php` | High
 10 | File | `/admin/edit-services.php` | High
@@ -76,30 +76,32 @@ ID | Type | Indicator | Confidence
 29 | File | `/api/wechat/app_auth` | High
 30 | File | `/application/index/controller/File.php` | High
 31 | File | `/asms/admin/?page=user/manage_user` | High
-32 | File | `/blog/comment` | High
-33 | File | `/cgi-bin/cstecgi.cgi` | High
-34 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
-35 | File | `/classes/Login.php` | High
-36 | File | `/config,admin.jsp` | High
-37 | File | `/Content/Plugins/uploader/FileChoose.html?fileUrl=/Upload/File/Pics/&parent` | High
-38 | File | `/course/filterRecords/` | High
-39 | File | `/dosen/data` | Medium
-40 | File | `/E-mobile/App/System/File/downfile.php` | High
-41 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-42 | File | `/env` | Low
-43 | File | `/etc/master.passwd` | High
-44 | File | `/etc/os-release` | High
-45 | File | `/file_manager/admin/save_user.php` | High
-46 | File | `/front/search.php` | High
-47 | File | `/garage/php_action/createBrand.php` | High
-48 | File | `/goform/addressNat` | High
-49 | File | `/goform/AdvSetWrlsafeset` | High
-50 | File | `/goform/editFileName` | High
-51 | File | `/goform/form2WizardStep54` | High
-52 | File | `/goform/SetOnlineDevName` | High
-53 | ... | ... | ...
+32 | File | `/att_add.php` | Medium
+33 | File | `/blog/comment` | High
+34 | File | `/cgi-bin/cstecgi.cgi` | High
+35 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
+36 | File | `/classes/Login.php` | High
+37 | File | `/config,admin.jsp` | High
+38 | File | `/Content/Plugins/uploader/FileChoose.html?fileUrl=/Upload/File/Pics/&parent` | High
+39 | File | `/course/filterRecords/` | High
+40 | File | `/dosen/data` | Medium
+41 | File | `/E-mobile/App/System/File/downfile.php` | High
+42 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+43 | File | `/Employer/EditProfile.php` | High
+44 | File | `/env` | Low
+45 | File | `/etc/master.passwd` | High
+46 | File | `/etc/os-release` | High
+47 | File | `/ext/collect/find_text.do` | High
+48 | File | `/file_manager/admin/save_user.php` | High
+49 | File | `/front/search.php` | High
+50 | File | `/garage/php_action/createBrand.php` | High
+51 | File | `/goform/addressNat` | High
+52 | File | `/goform/AdvSetWrlsafeset` | High
+53 | File | `/goform/editFileName` | High
+54 | File | `/goform/form2WizardStep54` | High
+55 | ... | ... | ...
 
-There are 459 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 478 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

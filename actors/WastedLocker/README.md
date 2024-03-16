@@ -34,10 +34,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-37 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-37 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-94 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -55,34 +55,34 @@ ID | Type | Indicator | Confidence
 4 | File | `/admin/index.php` | High
 5 | File | `/admin/video/list` | High
 6 | File | `/bdswebui/assignusers/` | High
-7 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-8 | File | `/dev/snd/seq` | Medium
-9 | File | `/dl/dl_sendmail.php` | High
-10 | File | `/etc/passwd` | Medium
-11 | File | `/etc/qci/answers` | High
-12 | File | `/forum/away.php` | High
-13 | File | `/function/booksave.php` | High
-14 | File | `/GetCSSashx/?CP=%2fwebconfig` | High
-15 | File | `/goform/SysToolChangePwd` | High
-16 | File | `/horde/util/go.php` | High
-17 | File | `/login.html` | Medium
-18 | File | `/romfile.cfg` | Medium
-19 | File | `/see_more_details.php` | High
-20 | File | `/tmp` | Low
-21 | File | `/uncpath/` | Medium
-22 | File | `/usr/local` | Medium
-23 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-24 | File | `actions.hsp` | Medium
-25 | File | `adclick.php` | Medium
-26 | File | `add_comment.php` | High
-27 | File | `add_edit_user.asp` | High
-28 | File | `admin.php` | Medium
-29 | File | `admin/?page=reports` | High
-30 | File | `admin/index.php` | High
-31 | File | `admin/setleaves.php` | High
+7 | File | `/cgi-bin-sdb/` | High
+8 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
+9 | File | `/dev/snd/seq` | Medium
+10 | File | `/dl/dl_sendmail.php` | High
+11 | File | `/etc/passwd` | Medium
+12 | File | `/etc/qci/answers` | High
+13 | File | `/forum/away.php` | High
+14 | File | `/function/booksave.php` | High
+15 | File | `/GetCSSashx/?CP=%2fwebconfig` | High
+16 | File | `/goform/SysToolChangePwd` | High
+17 | File | `/horde/util/go.php` | High
+18 | File | `/login.html` | Medium
+19 | File | `/romfile.cfg` | Medium
+20 | File | `/see_more_details.php` | High
+21 | File | `/SysInfo.htm` | Medium
+22 | File | `/tmp` | Low
+23 | File | `/uncpath/` | Medium
+24 | File | `/usr/local` | Medium
+25 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+26 | File | `actions.hsp` | Medium
+27 | File | `adclick.php` | Medium
+28 | File | `add_comment.php` | High
+29 | File | `add_edit_user.asp` | High
+30 | File | `admin.php` | Medium
+31 | File | `admin/?page=reports` | High
 32 | ... | ... | ...
 
-There are 269 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 271 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

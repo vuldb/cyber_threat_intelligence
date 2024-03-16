@@ -34,9 +34,9 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
 2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
 
 There are 14 more TTP items available. Please use our online service to access the data.
@@ -53,14 +53,15 @@ ID | Type | Indicator | Confidence
 4 | File | `/DXR.axd` | Medium
 5 | File | `/forum/away.php` | High
 6 | File | `/novel/bookSetting/list` | High
-7 | File | `/owa/auth/logon.aspx` | High
-8 | File | `/spip.php` | Medium
-9 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
-10 | File | `/zm/index.php` | High
-11 | File | `admin.jcomments.php` | High
-12 | ... | ... | ...
+7 | File | `/novel/userFeedback/list` | High
+8 | File | `/owa/auth/logon.aspx` | High
+9 | File | `/spip.php` | Medium
+10 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
+11 | File | `/zm/index.php` | High
+12 | File | `adclick.php` | Medium
+13 | ... | ... | ...
 
-There are 92 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 100 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

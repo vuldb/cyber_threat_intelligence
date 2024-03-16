@@ -37,8 +37,8 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Pathname Traversal | High
-2 | T1059 | CWE-94 | Cross Site Scripting | High
+1 | T1006 | CWE-22 | Path Traversal | High
+2 | T1059 | CWE-94 | Argument Injection | High
 3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
@@ -51,13 +51,14 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/departments/view_department.php` | High
-2 | File | `/pages/processlogin.php` | High
-3 | File | `/SCRIPTPATH/index.php` | High
-4 | File | `admin/index.php` | High
-5 | File | `auth-gss2.c` | Medium
-6 | ... | ... | ...
+2 | File | `/cgi-bin/cstecgi.cgi` | High
+3 | File | `/pages/processlogin.php` | High
+4 | File | `/SCRIPTPATH/index.php` | High
+5 | File | `admin/index.php` | High
+6 | File | `auth-gss2.c` | Medium
+7 | ... | ... | ...
 
-There are 43 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 44 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

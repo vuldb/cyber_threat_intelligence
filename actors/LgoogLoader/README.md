@@ -25,8 +25,8 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
-3 | T1202 | CWE-77 | Command Injection | High
+2 | T1110.001 | CWE-798 | Hard-coded Credentials | High
+3 | T1202 | CWE-77 | Command Shell in Externally Accessible Directory | High
 4 | ... | ... | ... | ...
 
 There are 3 more TTP items available. Please use our online service to access the data.

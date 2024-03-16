@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [VN](https://vuldb.com/?country.vn)
 * ...
 
-There are 5 more country items available. Please use our online service to access the data.
+There are 6 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -97,7 +97,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23, CWE-425 | Path Traversal | High
+1 | T1006 | CWE-22, CWE-23, CWE-24, CWE-425 | Path Traversal | High
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
@@ -112,33 +112,25 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/list_ipAddressPolicy.php` | High
-2 | File | `/api /v3/auth` | High
-3 | File | `/belegungsplan/wochenuebersicht.inc.php` | High
+2 | File | `/admin/list_resource_icon.php?action=delete` | High
+3 | File | `/api /v3/auth` | High
 4 | File | `/cgi-bin/nobody/VerifyCode.cgi` | High
 5 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
 6 | File | `/cgi.cgi` | Medium
 7 | File | `/common/dict/list` | High
 8 | File | `/counter/index2.php` | High
 9 | File | `/data/remove` | Medium
-10 | File | `/forum/away.php` | High
-11 | File | `/highlight/index.html` | High
+10 | File | `/debug/pprof` | Medium
+11 | File | `/forum/away.php` | High
 12 | File | `/iisadmin` | Medium
 13 | File | `/iissamples` | Medium
-14 | File | `/includes/js/admin.php` | High
-15 | File | `/main/webservices/additional_webservices.php` | High
-16 | File | `/modx/manager/index.php` | High
-17 | File | `/search-result/` | High
-18 | File | `/search.php` | Medium
-19 | File | `/server-status` | High
-20 | File | `/sgms/reports/scheduledreports/configure/scheduleProps.jsp` | High
-21 | File | `/spip.php` | Medium
-22 | File | `/templates/header.inc.php` | High
-23 | File | `/tmp` | Low
-24 | File | `a.jsp` | Low
-25 | File | `add.php` | Low
-26 | ... | ... | ...
+14 | File | `/modx/manager/index.php` | High
+15 | File | `/pdf` | Low
+16 | File | `/prescription/prescription/delete/` | High
+17 | File | `/pro/common/download` | High
+18 | ... | ... | ...
 
-There are 223 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 144 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

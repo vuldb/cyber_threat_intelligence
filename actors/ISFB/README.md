@@ -137,23 +137,24 @@ ID | Type | Indicator | Confidence
 2 | File | `/card_scan.php` | High
 3 | File | `/cgi-bin/wlogin.cgi` | High
 4 | File | `/cwc/login` | Medium
-5 | File | `/download` | Medium
-6 | File | `/etc/quagga` | Medium
-7 | File | `/etc/shadow` | Medium
-8 | File | `/forms/doLogin` | High
-9 | File | `/h/calendar` | Medium
-10 | File | `/inc/extensions.php` | High
-11 | File | `/index.php` | Medium
-12 | File | `/members/view_member.php` | High
-13 | File | `/mhds/clinic/view_details.php` | High
-14 | File | `/nova/bin/console` | High
-15 | File | `/nova/bin/detnet` | High
-16 | File | `/out.php` | Medium
-17 | File | `/owa/auth/logon.aspx` | High
-18 | File | `/req_password_user.php` | High
-19 | ... | ... | ...
+5 | File | `/debuginfo.htm` | High
+6 | File | `/download` | Medium
+7 | File | `/etc/quagga` | Medium
+8 | File | `/etc/shadow` | Medium
+9 | File | `/forms/doLogin` | High
+10 | File | `/h/calendar` | Medium
+11 | File | `/inc/extensions.php` | High
+12 | File | `/index.php` | Medium
+13 | File | `/members/view_member.php` | High
+14 | File | `/mhds/clinic/view_details.php` | High
+15 | File | `/nova/bin/console` | High
+16 | File | `/nova/bin/detnet` | High
+17 | File | `/out.php` | Medium
+18 | File | `/owa/auth/logon.aspx` | High
+19 | File | `/req_password_user.php` | High
+20 | ... | ... | ...
 
-There are 160 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 168 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

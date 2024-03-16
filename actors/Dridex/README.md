@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 15 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -211,9 +211,10 @@ ID | IP address | Hostname | Campaign | Confidence
 188 | [52.222.136.102](https://vuldb.com/?ip.52.222.136.102) | server-52-222-136-102.ams50.r.cloudfront.net | - | High
 189 | [52.222.136.174](https://vuldb.com/?ip.52.222.136.174) | server-52-222-136-174.ams50.r.cloudfront.net | - | High
 190 | [54.37.70.105](https://vuldb.com/?ip.54.37.70.105) | 105.ip-54-37-70.eu | - | High
-191 | ... | ... | ... | ...
+191 | [54.37.84.240](https://vuldb.com/?ip.54.37.84.240) | ns3104224.ip-54-37-84.eu | - | High
+192 | ... | ... | ... | ...
 
-There are 758 more IOC items available. Please use our online service to access the data.
+There are 763 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -221,14 +222,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -236,53 +237,49 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/?p=products` | Medium
-2 | File | `/admin.php/accessory/filesdel.html` | High
-3 | File | `/admin/?page=user/manage` | High
-4 | File | `/admin/add-new.php` | High
-5 | File | `/admin/controller/JobLogController.java` | High
-6 | File | `/admin/doctors.php` | High
-7 | File | `/alphaware/summary.php` | High
-8 | File | `/api/` | Low
-9 | File | `/api/admin/store/product/list` | High
-10 | File | `/api/baskets/{name}` | High
-11 | File | `/api/stl/actions/search` | High
-12 | File | `/api/sys/login` | High
-13 | File | `/api/sys/set_passwd` | High
-14 | File | `/api/trackedEntityInstances` | High
-15 | File | `/api/v2/cli/commands` | High
-16 | File | `/apply.cgi` | Medium
-17 | File | `/aux` | Low
-18 | File | `/bin/ate` | Medium
-19 | File | `/boat/login.php` | High
-20 | File | `/booking/show_bookings/` | High
-21 | File | `/bsms_ci/index.php/book` | High
-22 | File | `/cgi-bin` | Medium
-23 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-24 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-25 | File | `/cgi-bin/wlogin.cgi` | High
-26 | File | `/changePassword` | High
-27 | File | `/Content/Template/root/reverse-shell.aspx` | High
-28 | File | `/dashboard/add-blog.php` | High
-29 | File | `/data/remove` | Medium
-30 | File | `/debug/pprof` | Medium
-31 | File | `/ecshop/admin/template.php` | High
-32 | File | `/env` | Low
-33 | File | `/eval/admin/manage_class.php` | High
-34 | File | `/forum/away.php` | High
-35 | File | `/group1/uploa` | High
-36 | File | `/home/cavesConsole` | High
-37 | File | `/index.php` | Medium
-38 | File | `/medicines/profile.php` | High
-39 | File | `/mhds/clinic/view_details.php` | High
-40 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-41 | File | `/php-sms/admin/?page=user/manage_user` | High
-42 | File | `/reservation/add_message.php` | High
-43 | File | `/resources//../` | High
-44 | File | `/rest/api/latest/projectvalidate/key` | High
-45 | ... | ... | ...
+1 | File | `//proc/kcore` | Medium
+2 | File | `/admin/about-us.php` | High
+3 | File | `/admin/action/delete-vaccine.php` | High
+4 | File | `/admin/controller/JobLogController.java` | High
+5 | File | `/admin/index2.html` | High
+6 | File | `/api/sys/login` | High
+7 | File | `/api/sys/set_passwd` | High
+8 | File | `/api/trackedEntityInstances` | High
+9 | File | `/app/index/controller/Common.php` | High
+10 | File | `/application/index/controller/Service.php` | High
+11 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
+12 | File | `/aux` | Low
+13 | File | `/bitrix/admin/ldap_server_edit.php` | High
+14 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+15 | File | `/changePassword` | High
+16 | File | `/Content/Template/root/reverse-shell.aspx` | High
+17 | File | `/dashboard/add-blog.php` | High
+18 | File | `/data/remove` | Medium
+19 | File | `/debug/pprof` | Medium
+20 | File | `/ecshop/admin/template.php` | High
+21 | File | `/etc/passwd` | Medium
+22 | File | `/forms/doLogin` | High
+23 | File | `/forum/away.php` | High
+24 | File | `/home/cavesConsole` | High
+25 | File | `/index.php` | Medium
+26 | File | `/listplace/user/ticket/create` | High
+27 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
+28 | File | `/mhds/clinic/view_details.php` | High
+29 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+30 | File | `/novel/author/list` | High
+31 | File | `/php/ping.php` | High
+32 | File | `/rest/api/latest/projectvalidate/key` | High
+33 | File | `/scripts/unlock_tasks.php` | High
+34 | File | `/staff/edit_book_details.php` | High
+35 | File | `/SysInfo1.htm` | High
+36 | File | `/sysinfo_json.cgi` | High
+37 | File | `/SysManage/AddUpdateRole.aspx` | High
+38 | File | `/sysmanage/importconf.php` | High
+39 | File | `/system/user/modules/mod_users/controller.php` | High
+40 | File | `/testConnection` | High
+41 | ... | ... | ...
 
-There are 393 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 354 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -463,6 +460,8 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://isc.sans.edu/forums/diary/Malspam+with+links+to+zip+archives+pushes+Dridex+malware/26116/
 * https://isc.sans.edu/forums/diary/Malspam+with+passwordprotected+Word+docs+pushing+Dridex/25042/
 * https://isc.sans.edu/forums/diary/Recent+Dridex+activity/26550/
+* https://jp.security.ntt/tech_blog/102g0dt
+* https://jp.security.ntt/tech_blog/dridex-and-emotet-infrastructure-overlaps
 * https://mobile.twitter.com/pmmkowalczyk/status/1370422937426219014
 * https://pastebin.com/0XNMhLP2
 * https://thedfirreport.com/2020/08/03/dridex-from-word-to-domain-dominance/

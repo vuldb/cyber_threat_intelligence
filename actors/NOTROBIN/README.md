@@ -29,7 +29,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1055 | CWE-74 | Injection | High
-2 | T1059 | CWE-94 | Cross Site Scripting | High
+2 | T1059 | CWE-94 | Argument Injection | High
 3 | T1059.007 | CWE-79 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
@@ -43,10 +43,10 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
 2 | File | `/front/search.php` | High
-3 | File | `/rom-0` | Low
+3 | File | `/index.php/signin` | High
 4 | ... | ... | ...
 
-There are 13 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 18 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -73,15 +73,15 @@ ID | Type | Indicator | Confidence
 6 | File | `/admin/book_add.php` | High
 7 | File | `/admin/book_row.php` | High
 8 | File | `/admin/borrow_add.php` | High
-9 | File | `/admin/category/save` | High
-10 | File | `/admin/category_row.php` | High
-11 | File | `/admin/clientview.php` | High
-12 | File | `/admin/course.php` | High
-13 | File | `/admin/courses/manage_course.php` | High
-14 | File | `/admin/courses/view_course.php` | High
-15 | File | `/admin/departments/manage_department.php` | High
-16 | File | `/admin/index.php` | High
-17 | File | `/admin/ind_backstage.php` | High
+9 | File | `/admin/category_row.php` | High
+10 | File | `/admin/clientview.php` | High
+11 | File | `/admin/course.php` | High
+12 | File | `/admin/courses/manage_course.php` | High
+13 | File | `/admin/courses/view_course.php` | High
+14 | File | `/admin/departments/manage_department.php` | High
+15 | File | `/admin/index.php` | High
+16 | File | `/admin/ind_backstage.php` | High
+17 | File | `/admin/list_ipAddressPolicy.php` | High
 18 | File | `/admin/makehtml_freelist_action.php` | High
 19 | File | `/admin/manage-users.php` | High
 20 | File | `/admin/options-theme.php` | High
@@ -127,17 +127,17 @@ ID | Type | Indicator | Confidence
 60 | File | `/cgi/cpaddons_report.pl` | High
 61 | File | `/classes/Master.php` | High
 62 | File | `/classes/Master.php? f=save_medicine` | High
-63 | File | `/config-manager/save` | High
-64 | File | `/core/config-revisions` | High
-65 | File | `/currentsetting.htm` | High
-66 | File | `/dashboard/createblog` | High
-67 | File | `/dashboard?controller=UserCollection::createUser` | High
-68 | File | `/debug/pprof` | Medium
-69 | File | `/debuginfo.htm` | High
-70 | File | `/devinfo` | Medium
+63 | File | `/common/dict/list` | High
+64 | File | `/config-manager/save` | High
+65 | File | `/core/config-revisions` | High
+66 | File | `/currentsetting.htm` | High
+67 | File | `/dashboard/createblog` | High
+68 | File | `/dashboard?controller=UserCollection::createUser` | High
+69 | File | `/debug/pprof` | Medium
+70 | File | `/debuginfo.htm` | High
 71 | ... | ... | ...
 
-There are 623 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 622 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

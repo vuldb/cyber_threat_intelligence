@@ -34,10 +34,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-425 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -77,33 +77,35 @@ ID | Type | Indicator | Confidence
 26 | File | `/mkshop/Men/profile.php` | High
 27 | File | `/module/index.php` | High
 28 | File | `/Monitoring-History.php` | High
-29 | File | `/my_photo_gallery/image.php` | High
-30 | File | `/novel/bookSetting/list` | High
-31 | File | `/owa/auth/logon.aspx` | High
-32 | File | `/product.php` | Medium
-33 | File | `/ServletAPI/accounts/login` | High
-34 | File | `/spip.php` | Medium
-35 | File | `/uncpath/` | Medium
-36 | File | `/usr/bin/pkexec` | High
-37 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
-38 | File | `/videotalk` | Medium
-39 | File | `/vloggers_merch/?p=products` | High
-40 | File | `/vloggers_merch/classes/Master.php?f=delete_category` | High
-41 | File | `/vloggers_merch/classes/Master.php?f=delete_product` | High
-42 | File | `/web/MCmsAction.java` | High
-43 | File | `/wp-admin/options.php` | High
-44 | File | `/zm/index.php` | High
-45 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-46 | File | `activity_log.php` | High
-47 | File | `adclick.php` | Medium
-48 | File | `adm/systools.asp` | High
-49 | File | `admin.cropcanvas.php` | High
-50 | File | `admin.jcomments.php` | High
-51 | File | `admin/dashboard.php` | High
-52 | File | `admin/departments/manage_department.php` | High
-53 | ... | ... | ...
+29 | File | `/myprofile.php` | High
+30 | File | `/my_photo_gallery/image.php` | High
+31 | File | `/novel/bookSetting/list` | High
+32 | File | `/novel/userFeedback/list` | High
+33 | File | `/owa/auth/logon.aspx` | High
+34 | File | `/product.php` | Medium
+35 | File | `/ServletAPI/accounts/login` | High
+36 | File | `/spip.php` | Medium
+37 | File | `/uncpath/` | Medium
+38 | File | `/usr/bin/pkexec` | High
+39 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
+40 | File | `/videotalk` | Medium
+41 | File | `/vloggers_merch/?p=products` | High
+42 | File | `/vloggers_merch/classes/Master.php?f=delete_category` | High
+43 | File | `/vloggers_merch/classes/Master.php?f=delete_product` | High
+44 | File | `/web/MCmsAction.java` | High
+45 | File | `/wp-admin/options.php` | High
+46 | File | `/zm/index.php` | High
+47 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+48 | File | `activity_log.php` | High
+49 | File | `adclick.php` | Medium
+50 | File | `adm/systools.asp` | High
+51 | File | `admin.cropcanvas.php` | High
+52 | File | `admin.jcomments.php` | High
+53 | File | `admin/dashboard.php` | High
+54 | File | `admin/departments/manage_department.php` | High
+55 | ... | ... | ...
 
-There are 461 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 477 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

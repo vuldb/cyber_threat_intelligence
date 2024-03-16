@@ -43,9 +43,9 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-37 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-37 | Path Traversal | High
 2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94 | Cross Site Scripting | High
+3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
@@ -65,33 +65,35 @@ ID | Type | Indicator | Confidence
 6 | File | `/admin/departments/manage_department.php` | High
 7 | File | `/admin/reportupload.aspx` | High
 8 | File | `/admin/sys_sql_query.php` | High
-9 | File | `/ample/app/action/edit_product.php` | High
-10 | File | `/api/plugin/uninstall` | High
-11 | File | `/api/sys/login` | High
-12 | File | `/app/sys1.php` | High
-13 | File | `/apply/index.php` | High
-14 | File | `/assets/php/upload.php` | High
-15 | File | `/audimex/cgi-bin/wal.fcgi` | High
-16 | File | `/auth_pic.cgi` | High
-17 | File | `/blog` | Low
-18 | File | `/boaform/device_reset.cgi` | High
-19 | File | `/cgi-bin/adm.cgi` | High
-20 | File | `/cgi-bin/cstecgi.cgi` | High
-21 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
-22 | File | `/cgi-bin/webproc` | High
-23 | File | `/classes/Master.php?f=save_inquiry` | High
-24 | File | `/classes/Users.php?f=save` | High
-25 | File | `/collection/all` | High
-26 | File | `/dashboard/createblog` | High
-27 | File | `/dipam/athlete-profile.php` | High
-28 | File | `/dosen/data` | Medium
-29 | File | `/Duty/AjaxHandle/Write/UploadFile.ashx` | High
-30 | File | `/etc/puppetlabs/puppetserver/conf.d/ca.conf` | High
-31 | File | `/file-manager/rename.php` | High
-32 | File | `/home/filter_listings` | High
-33 | ... | ... | ...
+9 | File | `/admin_ping.htm` | High
+10 | File | `/ample/app/action/edit_product.php` | High
+11 | File | `/api/clusters/local/topics/{topic}/messages` | High
+12 | File | `/api/plugin/uninstall` | High
+13 | File | `/api/sys/login` | High
+14 | File | `/app/sys1.php` | High
+15 | File | `/application/index/controller/File.php` | High
+16 | File | `/apply/index.php` | High
+17 | File | `/assets/php/upload.php` | High
+18 | File | `/audimex/cgi-bin/wal.fcgi` | High
+19 | File | `/auth_pic.cgi` | High
+20 | File | `/blog` | Low
+21 | File | `/boaform/device_reset.cgi` | High
+22 | File | `/cgi-bin/adm.cgi` | High
+23 | File | `/cgi-bin/cstecgi.cgi` | High
+24 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
+25 | File | `/cgi-bin/webproc` | High
+26 | File | `/classes/Master.php?f=save_inquiry` | High
+27 | File | `/classes/Users.php?f=save` | High
+28 | File | `/collection/all` | High
+29 | File | `/dashboard/createblog` | High
+30 | File | `/dipam/athlete-profile.php` | High
+31 | File | `/dosen/data` | Medium
+32 | File | `/Duty/AjaxHandle/Write/UploadFile.ashx` | High
+33 | File | `/etc/puppetlabs/puppetserver/conf.d/ca.conf` | High
+34 | File | `/file-manager/rename.php` | High
+35 | ... | ... | ...
 
-There are 284 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 295 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -109,7 +109,7 @@ ID | Type | Indicator | Confidence
 38 | File | `ajax-actions.php` | High
 39 | ... | ... | ...
 
-There are 335 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 336 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

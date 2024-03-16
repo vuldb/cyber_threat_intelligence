@@ -25,9 +25,9 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059 | CWE-94 | Cross Site Scripting | High
-2 | T1592 | CWE-200 | Configuration | High
-3 | T1608.002 | CWE-434 | Unrestricted Upload | High
+1 | T1059 | CWE-94 | Argument Injection | High
+2 | T1592 | CWE-200 | Invocation of Process Using Visible Sensitive Information | High
+3 | T1608.002 | CWE-434 | Incomplete Identification of Uploaded File Variables | High
 
 ## IOA - Indicator of Attack
 

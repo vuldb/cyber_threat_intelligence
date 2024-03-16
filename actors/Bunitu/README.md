@@ -37,12 +37,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | T1068 | CWE-250, CWE-264, CWE-266, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+6 | T1068 | CWE-250, CWE-264, CWE-266, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 7 | ... | ... | ... | ...
 
 There are 23 more TTP items available. Please use our online service to access the data.
@@ -60,41 +60,41 @@ ID | Type | Indicator | Confidence
 5 | File | `/admin/categories/view_category.php` | High
 6 | File | `/admin/maintenance/view_designation.php` | High
 7 | File | `/admin/usermanagement.php` | High
-8 | File | `/assets/something/services/AppModule.class` | High
-9 | File | `/bcms/admin/?page=reports/daily_court_rental_report` | High
-10 | File | `/cgi-bin/kerbynet` | High
-11 | File | `/cgi-bin/luci;stok=/locale` | High
-12 | File | `/cgi-bin/pass` | High
-13 | File | `/classes/Master.php?f=save_item` | High
-14 | File | `/collection/all` | High
-15 | File | `/ctpms/admin/?page=applications/view_application` | High
-16 | File | `/dev/tcx0` | Medium
-17 | File | `/dev/urandom` | Medium
-18 | File | `/etc/environment` | High
-19 | File | `/etc/keystone/user-project-map.json` | High
-20 | File | `/etc/passwd` | Medium
-21 | File | `/home.jsp` | Medium
-22 | File | `/inc/campaign/view-campaign-list.php` | High
-23 | File | `/include/menu_v.inc.php` | High
-24 | File | `/index.php/weblinks-categories` | High
-25 | File | `/servlet/webacc` | High
-26 | File | `/student-grading-system/rms.php?page=school_year` | High
-27 | File | `/system?action=ServiceAdmin` | High
-28 | File | `/usr/` | Low
-29 | File | `/usr/bin/pkexec` | High
-30 | File | `/wp-admin/admin.php?page=cpabc_appointments.php` | High
-31 | File | `ActiveMQConnection.java` | High
-32 | File | `admin-ajax.php` | High
-33 | File | `admin.php` | Medium
-34 | File | `admin/ad_list.php` | High
-35 | File | `admin/panels/uploader/admin.uploader.php` | High
-36 | File | `admin/status/realtime/bandwidth_status` | High
-37 | File | `agent.c` | Low
-38 | File | `ajax_crons.php` | High
-39 | File | `ansi.c` | Low
+8 | File | `/api/controllers/merchant/shop/PosterController.php` | High
+9 | File | `/assets/something/services/AppModule.class` | High
+10 | File | `/bcms/admin/?page=reports/daily_court_rental_report` | High
+11 | File | `/cgi-bin/kerbynet` | High
+12 | File | `/cgi-bin/luci;stok=/locale` | High
+13 | File | `/cgi-bin/pass` | High
+14 | File | `/classes/Master.php?f=save_item` | High
+15 | File | `/collection/all` | High
+16 | File | `/ctpms/admin/?page=applications/view_application` | High
+17 | File | `/dev/tcx0` | Medium
+18 | File | `/dev/urandom` | Medium
+19 | File | `/etc/environment` | High
+20 | File | `/etc/keystone/user-project-map.json` | High
+21 | File | `/etc/passwd` | Medium
+22 | File | `/home.jsp` | Medium
+23 | File | `/inc/campaign/view-campaign-list.php` | High
+24 | File | `/include/menu_v.inc.php` | High
+25 | File | `/index.php/weblinks-categories` | High
+26 | File | `/servlet/webacc` | High
+27 | File | `/student-grading-system/rms.php?page=school_year` | High
+28 | File | `/system?action=ServiceAdmin` | High
+29 | File | `/usr/` | Low
+30 | File | `/usr/bin/pkexec` | High
+31 | File | `/wp-admin/admin.php?page=cpabc_appointments.php` | High
+32 | File | `ActiveMQConnection.java` | High
+33 | File | `admin-ajax.php` | High
+34 | File | `admin.php` | Medium
+35 | File | `admin/ad_list.php` | High
+36 | File | `admin/panels/uploader/admin.uploader.php` | High
+37 | File | `admin/status/realtime/bandwidth_status` | High
+38 | File | `agent.c` | Low
+39 | File | `ajax_crons.php` | High
 40 | ... | ... | ...
 
-There are 342 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 345 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

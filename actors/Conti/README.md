@@ -20,7 +20,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 17 more country items available. Please use our online service to access the data.
+There are 19 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -522,15 +522,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Pathname Traversal | High
-2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-264, CWE-269, CWE-270, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
-6 | T1078.001 | CWE-259 | Use of Hard-coded Password | High
-7 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -539,60 +538,52 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/.env` | Low
-2 | File | `/?r=recruit/resume/edit&op=status` | High
-3 | File | `/academy/tutor/filter` | High
-4 | File | `/admin/?page=user/list` | High
-5 | File | `/admin/?page=user/manage_user&id=3` | High
-6 | File | `/admin/about-us.php` | High
-7 | File | `/admin/action/new-father.php` | High
-8 | File | `/admin/controller/JobLogController.java` | High
-9 | File | `/admin/del_category.php` | High
-10 | File | `/admin/del_service.php` | High
-11 | File | `/admin/edit-accepted-appointment.php` | High
-12 | File | `/admin/edit-services.php` | High
-13 | File | `/admin/edit_category.php` | High
-14 | File | `/admin/forgot-password.php` | High
-15 | File | `/admin/index.php` | High
-16 | File | `/admin/search-appointment.php` | High
-17 | File | `/admin/sys_sql_query.php` | High
-18 | File | `/admin/users` | Medium
-19 | File | `/api/admin/system/store/order/list` | High
-20 | File | `/api/baskets/{name}` | High
-21 | File | `/api/sys/login` | High
-22 | File | `/api/sys/set_passwd` | High
-23 | File | `/api/trackedEntityInstances` | High
-24 | File | `/api/v4/teams//channels/deleted` | High
-25 | File | `/app/options.py` | High
-26 | File | `/appliance/users?action=edit` | High
-27 | File | `/apply.cgi` | Medium
-28 | File | `/aux` | Low
-29 | File | `/bin/boa` | Medium
-30 | File | `/blog` | Low
-31 | File | `/boafrm/formMapDelDevice` | High
-32 | File | `/cgi-bin/cstecgi.cgi` | High
-33 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-34 | File | `/changePassword` | High
-35 | File | `/collection/all` | High
-36 | File | `/Content/Template/root/reverse-shell.aspx` | High
-37 | File | `/dashboard/add-blog.php` | High
-38 | File | `/data/remove` | Medium
-39 | File | `/debug/pprof` | Medium
-40 | File | `/ecshop/admin/template.php` | High
-41 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-42 | File | `/forum/away.php` | High
-43 | File | `/fusion/portal/action/Link` | High
-44 | File | `/group1/uploa` | High
-45 | File | `/h/autoSaveDraft` | High
-46 | File | `/hedwig.cgi` | Medium
-47 | File | `/HNAP1/` | Low
-48 | File | `/importexport.php` | High
-49 | File | `/index.php` | Medium
-50 | File | `/install/index.php` | High
-51 | File | `/listplace/user/coverPhotoUpdate` | High
-52 | File | `/mhds/clinic/view_details.php` | High
-53 | ... | ... | ...
+2 | File | `/admin/action/new-father.php` | High
+3 | File | `/admin/controller/JobLogController.java` | High
+4 | File | `/admin/users` | Medium
+5 | File | `/api/admin/system/store/order/list` | High
+6 | File | `/api/sys/login` | High
+7 | File | `/api/sys/set_passwd` | High
+8 | File | `/api/trackedEntityInstances` | High
+9 | File | `/api/v4/teams//channels/deleted` | High
+10 | File | `/app/options.py` | High
+11 | File | `/appliance/users?action=edit` | High
+12 | File | `/application/index/controller/Screen.php` | High
+13 | File | `/application/websocket/controller/Setting.php` | High
+14 | File | `/aux` | Low
+15 | File | `/bin/boa` | Medium
+16 | File | `/boafrm/formMapDelDevice` | High
+17 | File | `/cgi-bin/cstecgi.cgi` | High
+18 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+19 | File | `/changePassword` | High
+20 | File | `/data/remove` | Medium
+21 | File | `/debug/pprof` | Medium
+22 | File | `/ecshop/admin/template.php` | High
+23 | File | `/endpoint/delete-computer.php` | High
+24 | File | `/endpoint/update-tracker.php` | High
+25 | File | `/etc/passwd` | Medium
+26 | File | `/forum/away.php` | High
+27 | File | `/h/autoSaveDraft` | High
+28 | File | `/hedwig.cgi` | Medium
+29 | File | `/HNAP1/` | Low
+30 | File | `/index.php` | Medium
+31 | File | `/install/index.php` | High
+32 | File | `/mhds/clinic/view_details.php` | High
+33 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+34 | File | `/novel/bookComment/list` | High
+35 | File | `/novel/bookSetting/list` | High
+36 | File | `/php/ping.php` | High
+37 | File | `/protocol/iscgwtunnel/uploadiscgwrouteconf.php` | High
+38 | File | `/rest/api/latest/projectvalidate/key` | High
+39 | File | `/rules/REQUEST-932-APPLICATION-ATTACK-RCE.conf` | High
+40 | File | `/showfile.php` | High
+41 | File | `/student/bookdetails.php` | High
+42 | File | `/SysInfo1.htm` | High
+43 | File | `/sysinfo_json.cgi` | High
+44 | File | `/testConnection` | High
+45 | ... | ... | ...
 
-There are 460 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 388 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

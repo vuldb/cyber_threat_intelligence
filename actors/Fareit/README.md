@@ -68,9 +68,9 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
 2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
@@ -91,20 +91,22 @@ ID | Type | Indicator | Confidence
 7 | File | `/forum/away.php` | High
 8 | File | `/mgmt/tm/util/bash` | High
 9 | File | `/mifs/c/i/reg/reg.html` | High
-10 | File | `/owa/auth/logon.aspx` | High
-11 | File | `/secure/ViewCollectors` | High
-12 | File | `/Session` | Medium
-13 | File | `/spip.php` | Medium
-14 | File | `/usr/bin/pkexec` | High
-15 | File | `/xAdmin/html/cm_doclist_view_uc.jsp` | High
-16 | File | `/zm/index.php` | High
-17 | File | `adclick.php` | Medium
-18 | File | `add_comment.php` | High
-19 | File | `admin.jcomments.php` | High
-20 | File | `admin/content.php` | High
-21 | ... | ... | ...
+10 | File | `/novel/bookSetting/list` | High
+11 | File | `/novel/userFeedback/list` | High
+12 | File | `/owa/auth/logon.aspx` | High
+13 | File | `/secure/ViewCollectors` | High
+14 | File | `/Session` | Medium
+15 | File | `/spip.php` | Medium
+16 | File | `/usr/bin/pkexec` | High
+17 | File | `/xAdmin/html/cm_doclist_view_uc.jsp` | High
+18 | File | `/zm/index.php` | High
+19 | File | `adclick.php` | Medium
+20 | File | `add_comment.php` | High
+21 | File | `admin.jcomments.php` | High
+22 | File | `admin/content.php` | High
+23 | ... | ... | ...
 
-There are 174 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 191 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

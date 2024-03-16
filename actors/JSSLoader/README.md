@@ -86,13 +86,14 @@ ID | Type | Indicator | Confidence
 30 | File | `/cupseasylive/unitofmeasurementmodify.php` | High
 31 | File | `/debug/pprof` | Medium
 32 | File | `/dede/tpl.php` | High
-33 | File | `/download/image` | High
-34 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-35 | File | `/endpoint/add-user.php` | High
-36 | File | `/etc/hosts.deny` | High
-37 | ... | ... | ...
+33 | File | `/devinfo` | Medium
+34 | File | `/download/image` | High
+35 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+36 | File | `/endpoint/add-user.php` | High
+37 | File | `/etc/hosts.deny` | High
+38 | ... | ... | ...
 
-There are 322 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 325 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -125,12 +125,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | T1068 | CWE-264, CWE-269, CWE-270, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+6 | T1068 | CWE-264, CWE-269, CWE-270, CWE-284 | Execution with Unnecessary Privileges | High
 7 | ... | ... | ... | ...
 
 There are 22 more TTP items available. Please use our online service to access the data.
@@ -158,25 +158,26 @@ ID | Type | Indicator | Confidence
 15 | File | `/install/index.php` | High
 16 | File | `/lan.asp` | Medium
 17 | File | `/lists/index.php` | High
-18 | File | `/plugins/servlet/gadgets/makeRequest` | High
-19 | File | `/replication` | Medium
-20 | File | `/rom-0` | Low
-21 | File | `/setSystemAdmin` | High
-22 | File | `/tmp` | Low
-23 | File | `/trx_addons/v2/get/sc_layout` | High
-24 | File | `/uncpath/` | Medium
-25 | File | `/var/log/nginx` | High
-26 | File | `/web/entry/en/address/adrsSetUserWizard.cgi` | High
-27 | File | `/webtools/control/httpService` | High
-28 | File | `/wp-json/oembed/1.0/embed?url` | High
-29 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-30 | File | `adclick.php` | Medium
-31 | File | `add_vhost.php` | High
-32 | File | `admin.php` | Medium
-33 | File | `admin/conf_users_edit.php` | High
-34 | File | `admin/create-package.php` | High
-35 | File | `admin/movieedit.php` | High
-36 | ... | ... | ...
+18 | File | `/novel/bookComment/list` | High
+19 | File | `/plugins/servlet/gadgets/makeRequest` | High
+20 | File | `/replication` | Medium
+21 | File | `/rom-0` | Low
+22 | File | `/rules/REQUEST-932-APPLICATION-ATTACK-RCE.conf` | High
+23 | File | `/setSystemAdmin` | High
+24 | File | `/tmp` | Low
+25 | File | `/trx_addons/v2/get/sc_layout` | High
+26 | File | `/uncpath/` | Medium
+27 | File | `/var/log/nginx` | High
+28 | File | `/web/entry/en/address/adrsSetUserWizard.cgi` | High
+29 | File | `/webtools/control/httpService` | High
+30 | File | `/wp-json/oembed/1.0/embed?url` | High
+31 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+32 | File | `adclick.php` | Medium
+33 | File | `add_vhost.php` | High
+34 | File | `admin.php` | Medium
+35 | File | `admin/conf_users_edit.php` | High
+36 | File | `admin/create-package.php` | High
+37 | ... | ... | ...
 
 There are 313 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 

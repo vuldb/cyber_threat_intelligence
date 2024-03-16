@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [US](https://vuldb.com/?country.us)
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -74,9 +74,10 @@ ID | IP address | Hostname | Campaign | Confidence
 51 | [45.137.22.173](https://vuldb.com/?ip.45.137.22.173) | hosted-by.rootlayer.net | - | High
 52 | [45.137.22.182](https://vuldb.com/?ip.45.137.22.182) | hosted-by.rootlayer.net | - | High
 53 | [45.137.22.251](https://vuldb.com/?ip.45.137.22.251) | hosted-by.rootlayer.net | - | High
-54 | ... | ... | ... | ...
+54 | [45.138.16.101](https://vuldb.com/?ip.45.138.16.101) | - | - | High
+55 | ... | ... | ... | ...
 
-There are 213 more IOC items available. Please use our online service to access the data.
+There are 217 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -84,15 +85,15 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Pathname Traversal | High
-2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Path Traversal | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-94 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+6 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 7 | ... | ... | ... | ...
 
-There are 24 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -103,49 +104,46 @@ ID | Type | Indicator | Confidence
 1 | File | `/academy/home/courses` | High
 2 | File | `/admin/controller/JobLogController.java` | High
 3 | File | `/admin/del_feedback.php` | High
-4 | File | `/admin/modal_add_product.php` | High
-5 | File | `/admin/positions_add.php` | High
-6 | File | `/api/admin/system/store/order/list` | High
-7 | File | `/api/baskets/{name}` | High
-8 | File | `/api/database` | High
-9 | File | `/api/sys/login` | High
-10 | File | `/api/sys/set_passwd` | High
-11 | File | `/api/trackedEntityInstances` | High
-12 | File | `/api/v4/users/ids` | High
-13 | File | `/application/index/controller/Service.php` | High
-14 | File | `/apply.cgi` | Medium
-15 | File | `/App_Resource/UEditor/server/upload.aspx` | High
-16 | File | `/aux` | Low
-17 | File | `/bin/ate` | Medium
-18 | File | `/booking/show_bookings/` | High
-19 | File | `/c/PluginsController.php` | High
-20 | File | `/category.php` | High
-21 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-22 | File | `/cgi-bin/wlogin.cgi` | High
-23 | File | `/chaincity/user/ticket/create` | High
-24 | File | `/changePassword` | High
-25 | File | `/collection/all` | High
-26 | File | `/Content/Template/root/reverse-shell.aspx` | High
-27 | File | `/Controller/Ajaxfileupload.ashx` | High
-28 | File | `/csms/?page=contact_us` | High
-29 | File | `/cwms/classes/Master.php?f=save_contact` | High
-30 | File | `/dashboard/add-blog.php` | High
-31 | File | `/data/remove` | Medium
-32 | File | `/debug/pprof` | Medium
-33 | File | `/ecommerce/support_ticket` | High
-34 | File | `/ecrire/exec/puce_statut.php` | High
-35 | File | `/ecshop/admin/template.php` | High
-36 | File | `/env` | Low
-37 | File | `/etc/shadow` | Medium
-38 | File | `/files/` | Low
-39 | File | `/forum/away.php` | High
-40 | File | `/friends/ajax_invite` | High
-41 | File | `/goform/WifiGuestSet` | High
-42 | File | `/group1/uploa` | High
-43 | File | `/home/filter_listings` | High
-44 | ... | ... | ...
+4 | File | `/api/admin/system/store/order/list` | High
+5 | File | `/api/baskets/{name}` | High
+6 | File | `/api/database` | High
+7 | File | `/api/sys/login` | High
+8 | File | `/api/sys/set_passwd` | High
+9 | File | `/api/trackedEntityInstances` | High
+10 | File | `/api/v4/users/ids` | High
+11 | File | `/application/index/controller/Service.php` | High
+12 | File | `/apply.cgi` | Medium
+13 | File | `/aux` | Low
+14 | File | `/c/PluginsController.php` | High
+15 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+16 | File | `/cgi-bin/wlogin.cgi` | High
+17 | File | `/changePassword` | High
+18 | File | `/collection/all` | High
+19 | File | `/Content/Template/root/reverse-shell.aspx` | High
+20 | File | `/dashboard/add-blog.php` | High
+21 | File | `/data/remove` | Medium
+22 | File | `/debug/pprof` | Medium
+23 | File | `/ecrire/exec/puce_statut.php` | High
+24 | File | `/ecshop/admin/template.php` | High
+25 | File | `/etc/passwd` | Medium
+26 | File | `/etc/shadow` | Medium
+27 | File | `/files/` | Low
+28 | File | `/forum/away.php` | High
+29 | File | `/group1/uploa` | High
+30 | File | `/home/filter_listings` | High
+31 | File | `/index.php` | Medium
+32 | File | `/index.php?p=admin/actions/users/send-password-reset-email` | High
+33 | File | `/instance/detail` | High
+34 | File | `/items/search` | High
+35 | File | `/knowage/restful-services/dossier/importTemplateFile` | High
+36 | File | `/languages/install.php` | High
+37 | File | `/log/decodmail.php` | High
+38 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+39 | File | `/northstar/Portal/processlogin.jsp` | High
+40 | File | `/project/tasks/list` | High
+41 | ... | ... | ...
 
-There are 381 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 350 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

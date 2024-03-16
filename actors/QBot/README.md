@@ -93,12 +93,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-36 | Path Traversal | High
 2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
-4 | ... | ... | ... | ...
+3 | T1059 | CWE-94 | Argument Injection | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 13 more TTP items available. Please use our online service to access the data.
+There are 14 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -106,56 +107,36 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/` | Low
-2 | File | `/admin/admin.php` | High
-3 | File | `/boaform/device_reset.cgi` | High
-4 | File | `/boaform/wlan_basic_set.cgi` | High
-5 | File | `/debug/pprof` | Medium
-6 | File | `/dev/cpu/*/msr` | High
-7 | File | `/filemanager/upload/drop` | High
-8 | File | `/goform/NatStaticSetting` | High
-9 | File | `/include/lang-en.php` | High
-10 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-11 | File | `/oauth/idp/.well-known/openid-configuration` | High
-12 | File | `/plain` | Low
-13 | File | `/preview.php` | Medium
-14 | File | `/resource/file/api/save?auto=1` | High
-15 | File | `/sbin/conf.d/SuSEconfig.javarunt` | High
-16 | File | `/status/` | Medium
-17 | File | `/uncpath/` | Medium
-18 | File | `/usr/bin/write` | High
-19 | File | `/var/spool/fax/outgoing/.last_run` | High
-20 | File | `3G/UMTS` | Low
-21 | File | `400.htm/500.htm` | High
-22 | File | `abitwhizzy.php` | High
-23 | File | `acc.php` | Low
-24 | File | `Account.asp` | Medium
-25 | File | `accton` | Low
-26 | File | `adclick.php` | Medium
-27 | File | `adduser` | Low
-28 | File | `add_comment.php` | High
-29 | File | `add_post.php3` | High
-30 | File | `add_reserve.php` | High
-31 | File | `admin/auth.php` | High
-32 | File | `admin/index.php` | High
-33 | File | `admin/TemplateController.java` | High
-34 | File | `ArchivesMapper.xml` | High
-35 | File | `avatar.php` | Medium
-36 | File | `bb-includes/formatting-functions.php` | High
-37 | File | `BBStore.php` | Medium
-38 | File | `brokenlink.php` | High
-39 | File | `browse.php` | Medium
-40 | File | `bsc_sms_send.php` | High
-41 | File | `cal2.jsp` | Medium
-42 | File | `calendar.php` | Medium
-43 | File | `categos.php` | Medium
-44 | File | `centre.php` | Medium
-45 | File | `cgi-bin/admin.c` | High
-46 | File | `channels/chan_skinny.c` | High
-47 | File | `check_vote.php` | High
-48 | ... | ... | ...
+1 | File | `/admin/borrow_add.php` | High
+2 | File | `/admin/category_row.php` | High
+3 | File | `/admin/login.php` | High
+4 | File | `/admin/request-received-bydonar.php` | High
+5 | File | `/api /v3/auth` | High
+6 | File | `/belegungsplan/wochenuebersicht.inc.php` | High
+7 | File | `/cgi-bin/nobody/VerifyCode.cgi` | High
+8 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
+9 | File | `/cgi.cgi` | Medium
+10 | File | `/classes/Users.php?f=save` | High
+11 | File | `/counter/index2.php` | High
+12 | File | `/data/remove` | Medium
+13 | File | `/Employer/EditProfile.php` | High
+14 | File | `/forum/away.php` | High
+15 | File | `/highlight/index.html` | High
+16 | File | `/iisadmin` | Medium
+17 | File | `/iissamples` | Medium
+18 | File | `/include/dialog/select_templets_post.php` | High
+19 | File | `/includes/js/admin.php` | High
+20 | File | `/index.jsp#settings` | High
+21 | File | `/inquiries/view_inquiry.php` | High
+22 | File | `/install/` | Medium
+23 | File | `/leave_system/classes/SystemSettings.php?f=update_settings` | High
+24 | File | `/modx/manager/index.php` | High
+25 | File | `/myprofile.php` | High
+26 | File | `/preview.php` | Medium
+27 | File | `/search-result/` | High
+28 | ... | ... | ...
 
-There are 415 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 240 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

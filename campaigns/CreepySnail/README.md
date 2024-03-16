@@ -39,8 +39,8 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Pathname Traversal | High
-2 | T1059 | CWE-94 | Cross Site Scripting | High
+1 | T1006 | CWE-22 | Path Traversal | High
+2 | T1059 | CWE-94 | Argument Injection | High
 3 | T1059.007 | CWE-79 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
@@ -52,12 +52,12 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/etc/passwd` | Medium
-2 | File | `/tmp` | Low
-3 | File | `admin/cal_login.php` | High
+1 | File | `/advanced-tools/nova/bin/netwatch` | High
+2 | File | `/etc/passwd` | Medium
+3 | File | `/tmp` | Low
 4 | ... | ... | ...
 
-There are 22 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 23 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

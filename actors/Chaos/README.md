@@ -41,11 +41,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-24 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-24 | Path Traversal | High
 2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
 There are 22 more TTP items available. Please use our online service to access the data.
@@ -68,41 +68,42 @@ ID | Type | Indicator | Confidence
 10 | File | `/api/jmeter/download/files` | High
 11 | File | `/api/v1/terminal/sessions/?limit=1` | High
 12 | File | `/api/wechat/app_auth` | High
-13 | File | `/CCMAdmin/serverlist.asp` | High
-14 | File | `/cgi-bin/luci/api/auth` | High
-15 | File | `/cgi-bin/wlogin.cgi` | High
-16 | File | `/cgi/get_param.cgi` | High
-17 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
-18 | File | `/csms/admin/inquiries/view_details.php` | High
-19 | File | `/cstecgi.cgi` | Medium
-20 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-21 | File | `/forum/away.php` | High
-22 | File | `/goform/WifiBasicSet` | High
-23 | File | `/group1/uploa` | High
-24 | File | `/htdocs/cgibin` | High
-25 | File | `/importexport.php` | High
-26 | File | `/include/chart_generator.php` | High
-27 | File | `/index.php` | Medium
-28 | File | `/index.php?page=member` | High
-29 | File | `/librarian/bookdetails.php` | High
-30 | File | `/link/` | Low
-31 | File | `/matkul/data` | Medium
-32 | File | `/message/form/` | High
-33 | File | `/messageboard/view.php` | High
-34 | File | `/out.php` | Medium
-35 | File | `/production/admin_view_info.php` | High
-36 | File | `/sm/api/v1/firewall/zone/services` | High
-37 | File | `/src/Illuminate/Laravel.php` | High
-38 | File | `/SVFE2/pages/feegroups/country_group.jsf` | High
-39 | File | `/system/dict/list` | High
-40 | File | `/SystemManage/Organize/GetTreeGridJson?_search=false&nd=1681813520783&rows=10000&page=1&sidx=&sord=asc` | High
-41 | File | `/SystemManage/Role/GetGridJson?keyword=&page=1&rows=20` | High
-42 | File | `/textpattern/index.php` | High
-43 | File | `/upfile.cgi` | Medium
-44 | File | `/upgrade_filter.asp` | High
-45 | ... | ... | ...
+13 | File | `/application/index/controller/Screen.php` | High
+14 | File | `/CCMAdmin/serverlist.asp` | High
+15 | File | `/cgi-bin/luci/api/auth` | High
+16 | File | `/cgi-bin/wlogin.cgi` | High
+17 | File | `/cgi/get_param.cgi` | High
+18 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
+19 | File | `/csms/admin/inquiries/view_details.php` | High
+20 | File | `/cstecgi.cgi` | Medium
+21 | File | `/devinfo` | Medium
+22 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+23 | File | `/forum/away.php` | High
+24 | File | `/group1/uploa` | High
+25 | File | `/htdocs/cgibin` | High
+26 | File | `/importexport.php` | High
+27 | File | `/include/chart_generator.php` | High
+28 | File | `/index.php` | Medium
+29 | File | `/index.php?page=member` | High
+30 | File | `/librarian/bookdetails.php` | High
+31 | File | `/link/` | Low
+32 | File | `/manage/IPSetup.php` | High
+33 | File | `/matkul/data` | Medium
+34 | File | `/message/form/` | High
+35 | File | `/messageboard/view.php` | High
+36 | File | `/net/tls/tls_sw.c` | High
+37 | File | `/out.php` | Medium
+38 | File | `/owa/auth/logon.aspx` | High
+39 | File | `/process/assignp.php` | High
+40 | File | `/production/admin_view_info.php` | High
+41 | File | `/sm/api/v1/firewall/zone/services` | High
+42 | File | `/src/Illuminate/Laravel.php` | High
+43 | File | `/SVFE2/pages/feegroups/country_group.jsf` | High
+44 | File | `/system/dict/list` | High
+45 | File | `/SystemManage/Organize/GetTreeGridJson?_search=false&nd=1681813520783&rows=10000&page=1&sidx=&sord=asc` | High
+46 | ... | ... | ...
 
-There are 386 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 403 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

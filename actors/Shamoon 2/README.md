@@ -9,6 +9,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Shamoon 2:
 
 * [US](https://vuldb.com/?country.us)
+* [RU](https://vuldb.com/?country.ru)
 * [CN](https://vuldb.com/?country.cn)
 
 ## IOC - Indicator of Compromise
@@ -17,8 +18,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [45.76.128.71](https://vuldb.com/?ip.45.76.128.71) | 45.76.128.71.vultr.com | - | Medium
-2 | [45.76.128.165](https://vuldb.com/?ip.45.76.128.165) | 45.76.128.165.vultr.com | - | Medium
+1 | [5.254.100.200](https://vuldb.com/?ip.5.254.100.200) | - | - | High
+2 | [45.63.10.99](https://vuldb.com/?ip.45.63.10.99) | 45.63.10.99.vultrusercontent.com | - | High
+3 | [45.76.128.71](https://vuldb.com/?ip.45.76.128.71) | 45.76.128.71.vultr.com | - | Medium
+4 | ... | ... | ... | ...
+
+There are 4 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -26,8 +31,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1505 | CWE-89 | SQL Injection | High
-2 | T1592 | CWE-200 | Configuration | High
+1 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+4 | ... | ... | ... | ...
+
+There are 6 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -35,13 +44,19 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `profile.php` | Medium
-2 | Argument | `user_id` | Low
+1 | File | `/adv_resource` | High
+2 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
+3 | File | `/userRpm/AccessCtrlAccessRulesRpm` | High
+4 | File | `/userRpm/NetworkCfgRpm` | High
+5 | ... | ... | ...
+
+There are 29 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://www.netscout.com/blog/asert/additional-insights-shamoon2
 * https://www.threatminer.org/_reports/2017/Shamoon2_DeliveringDisttrack-PaloAltoNetworksBlog.pdf#viewer.action=download
 
 ## Literature

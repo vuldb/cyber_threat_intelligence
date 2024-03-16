@@ -40,11 +40,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-22 | Path Traversal | High
 2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
@@ -90,41 +90,42 @@ ID | Type | Indicator | Confidence
 33 | File | `/recordings/index.php` | High
 34 | File | `/see_more_details.php` | High
 35 | File | `/show_news.php` | High
-36 | File | `/SysInfo.htm` | Medium
-37 | File | `/tmp/before` | Medium
-38 | File | `/uncpath/` | Medium
-39 | File | `/updownload/t.report` | High
-40 | File | `/user.profile.php` | High
-41 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
-42 | File | `/wordpress/wp-admin/options-general.php` | High
-43 | File | `/wp-admin` | Medium
-44 | File | `/wp-admin/admin-ajax.php` | High
-45 | File | `4.2.0.CP09` | Medium
-46 | File | `account.asp` | Medium
-47 | File | `adclick.php` | Medium
-48 | File | `adm/systools.asp` | High
-49 | File | `admin.php` | Medium
-50 | File | `admin/admin.shtml` | High
-51 | File | `Admin/ADM_Pagina.php` | High
-52 | File | `admin/category.inc.php` | High
-53 | File | `admin/main.asp` | High
-54 | File | `admin/param/param_func.inc.php` | High
-55 | File | `admin/theme-edit.php` | High
-56 | File | `admin/y_admin.asp` | High
-57 | File | `adminer.php` | Medium
-58 | File | `administration/admins.php` | High
-59 | File | `administrator/components/com_media/helpers/media.php` | High
-60 | File | `admin_ok.asp` | Medium
-61 | File | `album_portal.php` | High
-62 | File | `app.coffee` | Medium
-63 | File | `app/Core/Paginator.php` | High
-64 | File | `app/index.php/accounts/default/details?id=2&kanbanBoard=1&openToTaskId=1` | High
-65 | File | `artlinks.dispnew.php` | High
-66 | File | `auth.php` | Medium
-67 | File | `awstats.pl` | Medium
-68 | ... | ... | ...
+36 | File | `/student/bookdetails.php` | High
+37 | File | `/SysInfo.htm` | Medium
+38 | File | `/tmp/before` | Medium
+39 | File | `/uncpath/` | Medium
+40 | File | `/updownload/t.report` | High
+41 | File | `/user.profile.php` | High
+42 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
+43 | File | `/wordpress/wp-admin/options-general.php` | High
+44 | File | `/wp-admin` | Medium
+45 | File | `/wp-admin/admin-ajax.php` | High
+46 | File | `4.2.0.CP09` | Medium
+47 | File | `account.asp` | Medium
+48 | File | `adclick.php` | Medium
+49 | File | `adm/systools.asp` | High
+50 | File | `admin.php` | Medium
+51 | File | `admin/admin.shtml` | High
+52 | File | `Admin/ADM_Pagina.php` | High
+53 | File | `admin/category.inc.php` | High
+54 | File | `admin/main.asp` | High
+55 | File | `admin/param/param_func.inc.php` | High
+56 | File | `admin/theme-edit.php` | High
+57 | File | `admin/y_admin.asp` | High
+58 | File | `adminer.php` | Medium
+59 | File | `administration/admins.php` | High
+60 | File | `administrator/components/com_media/helpers/media.php` | High
+61 | File | `admin_ok.asp` | Medium
+62 | File | `album_portal.php` | High
+63 | File | `app.coffee` | Medium
+64 | File | `app/Core/Paginator.php` | High
+65 | File | `app/index.php/accounts/default/details?id=2&kanbanBoard=1&openToTaskId=1` | High
+66 | File | `artlinks.dispnew.php` | High
+67 | File | `auth.php` | Medium
+68 | File | `awstats.pl` | Medium
+69 | ... | ... | ...
 
-There are 595 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 603 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

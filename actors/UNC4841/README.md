@@ -110,7 +110,7 @@ ID | Type | Indicator | Confidence
 43 | File | `/user/loader.php?api=1` | High
 44 | ... | ... | ...
 
-There are 381 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 384 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

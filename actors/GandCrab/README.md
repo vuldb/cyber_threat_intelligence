@@ -67,10 +67,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-94 | Argument Injection | High
 5 | ... | ... | ... | ...
 
 There are 15 more TTP items available. Please use our online service to access the data.
@@ -99,26 +99,26 @@ ID | Type | Indicator | Confidence
 16 | File | `/modules/profile/index.php` | High
 17 | File | `/one_church/userregister.php` | High
 18 | File | `/out.php` | Medium
-19 | File | `/public/plugins/` | High
-20 | File | `/SAP_Information_System/controllers/add_admin.php` | High
-21 | File | `/SASWebReportStudio/logonAndRender.do` | High
-22 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-23 | File | `/secure/admin/ViewInstrumentation.jspa` | High
-24 | File | `/SVFE2/pages/feegroups/country_group.jsf` | High
-25 | File | `/textpattern/index.php` | High
-26 | File | `/upfile.cgi` | Medium
-27 | File | `/v2/quantum/save-data-upload-big-file` | High
-28 | File | `/wordpress/wp-admin/admin.php` | High
-29 | File | `4.edu.php` | Medium
-30 | File | `account_footer.php` | High
-31 | File | `adclick.php` | Medium
-32 | File | `add_edit_cat.asp` | High
-33 | File | `add_edit_user.asp` | High
-34 | File | `admin.cropcanvas.php` | High
-35 | File | `admin.jcomments.php` | High
+19 | File | `/owa/auth/logon.aspx` | High
+20 | File | `/public/plugins/` | High
+21 | File | `/SAP_Information_System/controllers/add_admin.php` | High
+22 | File | `/SASWebReportStudio/logonAndRender.do` | High
+23 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+24 | File | `/secure/admin/ViewInstrumentation.jspa` | High
+25 | File | `/SVFE2/pages/feegroups/country_group.jsf` | High
+26 | File | `/textpattern/index.php` | High
+27 | File | `/upfile.cgi` | Medium
+28 | File | `/v2/quantum/save-data-upload-big-file` | High
+29 | File | `/wordpress/wp-admin/admin.php` | High
+30 | File | `4.edu.php` | Medium
+31 | File | `account_footer.php` | High
+32 | File | `adclick.php` | Medium
+33 | File | `add_edit_cat.asp` | High
+34 | File | `add_edit_user.asp` | High
+35 | File | `admin.cropcanvas.php` | High
 36 | ... | ... | ...
 
-There are 308 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 312 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

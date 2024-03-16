@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [TT](https://vuldb.com/?country.tt)
-* [IT](https://vuldb.com/?country.it)
+* [DE](https://vuldb.com/?country.de)
 * ...
 
-There are 7 more country items available. Please use our online service to access the data.
+There are 8 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -35,7 +35,7 @@ ID | IP address | Hostname | Actor | Confidence
 3 | [34.106.243.174](https://vuldb.com/?ip.34.106.243.174) | 174.243.106.34.bc.googleusercontent.com | [BelialDemon](https://vuldb.com/?actor.belialdemon) | Medium
 4 | ... | ... | ... | ...
 
-There are 4 more IOC items available. Please use our online service to access the data.
+There are 8 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -43,12 +43,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-425 | Pathname Traversal | High
-2 | T1059 | CWE-94 | Cross Site Scripting | High
-3 | T1059.007 | CWE-79 | Cross Site Scripting | High
+1 | T1006 | CWE-22, CWE-425 | Path Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1059 | CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
 
-There are 8 more TTP items available. Please use our online service to access the data.
+There are 9 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -63,9 +63,10 @@ ID | Type | Indicator | Confidence
 5 | File | `/admin_route/inc_service_credits.php` | High
 6 | File | `/cgi-bin/cstecgi.cgi` | High
 7 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-8 | ... | ... | ...
+8 | File | `/edituser.php` | High
+9 | ... | ... | ...
 
-There are 57 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 61 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -73,6 +74,7 @@ The following list contains _external sources_ which discuss the campaign and th
 
 * https://circleid.com/posts/20220721-matanbuchus-with-cobalt-strike-not-your-favorite-combo
 * https://github.com/executemalware/Malware-IOCs/blob/main/2022-06-16%20Matanbuchus%20IOCs
+* https://threatfox.abuse.ch
 * https://unit42.paloaltonetworks.com/matanbuchus-malware-as-a-service/
 
 ## Literature

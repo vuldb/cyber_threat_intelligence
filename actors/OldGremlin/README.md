@@ -34,10 +34,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
 2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94 | Cross Site Scripting | High
-4 | ... | ... | ... | ...
+3 | T1059 | CWE-94 | Argument Injection | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
 There are 14 more TTP items available. Please use our online service to access the data.
 
@@ -49,17 +50,18 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/api/RecordingList/DownloadRecord?file=` | High
 2 | File | `/apply.cgi` | Medium
-3 | File | `/rapi/read_url` | High
-4 | File | `/scripts/unlock_tasks.php` | High
-5 | File | `/system/user/modules/mod_users/controller.php` | High
-6 | File | `/uncpath/` | Medium
-7 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
-8 | File | `AppCompatCache.exe` | High
-9 | File | `appserv/main.php` | High
-10 | File | `category.php` | Medium
-11 | ... | ... | ...
+3 | File | `/php/ping.php` | High
+4 | File | `/rapi/read_url` | High
+5 | File | `/scripts/unlock_tasks.php` | High
+6 | File | `/SysInfo1.htm` | High
+7 | File | `/sysinfo_json.cgi` | High
+8 | File | `/system/user/modules/mod_users/controller.php` | High
+9 | File | `/uncpath/` | Medium
+10 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
+11 | File | `AppCompatCache.exe` | High
+12 | ... | ... | ...
 
-There are 82 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 91 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

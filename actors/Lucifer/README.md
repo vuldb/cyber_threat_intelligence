@@ -4,11 +4,18 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.lucifer](https://vuldb.com/?actor.lucifer)
 
+## Campaigns
+
+The following _campaigns_ are known and can be associated with Lucifer:
+
+* CVE-2021-25646
+
 ## Countries
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Lucifer:
 
 * [CN](https://vuldb.com/?country.cn)
+* [US](https://vuldb.com/?country.us)
 
 ## IOC - Indicator of Compromise
 
@@ -16,12 +23,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [121.206.143.140](https://vuldb.com/?ip.121.206.143.140) | 140.143.206.121.broad.sm.fj.dynamic.163data.com.cn | - | High
-2 | [122.112.179.189](https://vuldb.com/?ip.122.112.179.189) | ecs-122-112-179-189.compute.hwclouds-dns.com | - | High
-3 | [180.126.161.27](https://vuldb.com/?ip.180.126.161.27) | - | - | High
+1 | [20.205.116.139](https://vuldb.com/?ip.20.205.116.139) | - | CVE-2021-25646 | High
+2 | [45.141.68.25](https://vuldb.com/?ip.45.141.68.25) | - | CVE-2021-25646 | High
+3 | [47.88.49.239](https://vuldb.com/?ip.47.88.49.239) | - | CVE-2021-25646 | High
 4 | ... | ... | ... | ...
 
-There are 1 more IOC items available. Please use our online service to access the data.
+There are 11 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -29,9 +36,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79 | Cross Site Scripting | High
-2 | T1505 | CWE-89 | SQL Injection | High
-3 | T1592 | CWE-200 | Configuration | High
+1 | T1059 | CWE-94 | Argument Injection | High
+2 | T1059.007 | CWE-79 | Cross Site Scripting | High
+3 | T1068 | CWE-284 | Execution with Unnecessary Privileges | High
+4 | ... | ... | ... | ...
+
+There are 2 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -40,17 +50,18 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `import_stl.cc` | High
-2 | File | `include.php` | Medium
-3 | File | `news.php` | Medium
+2 | File | `inc/config.php` | High
+3 | File | `include.php` | Medium
 4 | ... | ... | ...
 
-There are 4 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 7 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://unit42.paloaltonetworks.com/lucifer-new-cryptojacking-and-ddos-hybrid-malware/
+* https://www.aquasec.com/blog/lucifer-ddos-botnet-malware-is-targeting-apache-big-data-stack/
 
 ## Literature
 

@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 7 more country items available. Please use our online service to access the data.
+There are 8 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -34,9 +34,9 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23 | Pathname Traversal | High
+1 | T1006 | CWE-22, CWE-23 | Path Traversal | High
 2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94 | Cross Site Scripting | High
+3 | T1059 | CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
@@ -58,19 +58,20 @@ ID | Type | Indicator | Confidence
 8 | File | `/hrm/employeeadd.php` | High
 9 | File | `/login` | Low
 10 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
-11 | File | `/public/login.htm` | High
-12 | File | `/rapi/read_url` | High
-13 | File | `/scripts/unlock_tasks.php` | High
-14 | File | `/sendKey` | Medium
-15 | File | `/setSystemAdmin` | High
-16 | File | `/signup_script.php` | High
-17 | File | `/system/user/modules/mod_users/controller.php` | High
-18 | File | `/tmp` | Low
-19 | File | `/type.php` | Medium
-20 | File | `/uncpath/` | Medium
-21 | ... | ... | ...
+11 | File | `/php/ping.php` | High
+12 | File | `/public/login.htm` | High
+13 | File | `/rapi/read_url` | High
+14 | File | `/scripts/unlock_tasks.php` | High
+15 | File | `/sendKey` | Medium
+16 | File | `/setSystemAdmin` | High
+17 | File | `/signup_script.php` | High
+18 | File | `/SysInfo1.htm` | High
+19 | File | `/sysinfo_json.cgi` | High
+20 | File | `/system/user/modules/mod_users/controller.php` | High
+21 | File | `/tmp` | Low
+22 | ... | ... | ...
 
-There are 169 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 178 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

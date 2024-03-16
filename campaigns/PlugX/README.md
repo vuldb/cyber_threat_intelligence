@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [US](https://vuldb.com/?country.us)
 * ...
 
-There are 4 more country items available. Please use our online service to access the data.
+There are 5 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -126,11 +126,11 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/.env` | Low
-2 | File | `/act/ActDao.xml` | High
-3 | File | `/admin/action/new-father.php` | High
-4 | File | `/admin/clientview.php` | High
-5 | File | `/admin/edit_teacher.php` | High
-6 | File | `/admin/fields/manage_field.php` | High
+2 | File | `/admin/action/new-father.php` | High
+3 | File | `/admin/clientview.php` | High
+4 | File | `/admin/edit_teacher.php` | High
+5 | File | `/admin/fields/manage_field.php` | High
+6 | File | `/admin/orders/view_order.php` | High
 7 | File | `/admin/regester.php` | High
 8 | File | `/admin/update-clients.php` | High
 9 | File | `/admin_ping.htm` | High
@@ -147,32 +147,28 @@ ID | Type | Indicator | Confidence
 20 | File | `/apply.cgi` | Medium
 21 | File | `/arch/x86/mm/cpu_entry_area.c` | High
 22 | File | `/authenticationendpoint/login.do` | High
-23 | File | `/b2b-supermarket/shopping-cart` | High
-24 | File | `/bin/boa` | Medium
-25 | File | `/boaform/device_reset.cgi` | High
-26 | File | `/boafrm/formMapDelDevice` | High
-27 | File | `/bsms_ci/index.php` | High
-28 | File | `/bsms_ci/index.php/user/edit_user/` | High
-29 | File | `/cgi-bin/cstecgi.cgi` | High
-30 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-31 | File | `/cgi-bin/kerbynet` | High
-32 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-33 | File | `/cgi-bin/mainfunction.cgi` | High
-34 | File | `/cgi-bin/R14.2/cgi-bin/R14.2/host.pl` | High
-35 | File | `/cgi-bin/R14.2/easy1350.pl` | High
-36 | File | `/cgi-bin/wlogin.cgi` | High
-37 | File | `/clinic/disease_symptoms_view.php` | High
-38 | File | `/config/getuser` | High
-39 | File | `/core/redirect` | High
-40 | File | `/dashboard/snapshot/*?orgId=0` | High
-41 | File | `/debug/pprof` | Medium
-42 | File | `/DXR.axd` | Medium
-43 | File | `/ECT_Provider/` | High
-44 | File | `/fax/fax_send.php` | High
-45 | File | `/forum/away.php` | High
-46 | ... | ... | ...
+23 | File | `/bin/boa` | Medium
+24 | File | `/boaform/device_reset.cgi` | High
+25 | File | `/boafrm/formMapDelDevice` | High
+26 | File | `/bsms_ci/index.php/user/edit_user/` | High
+27 | File | `/cgi-bin/cstecgi.cgi` | High
+28 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+29 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+30 | File | `/cgi-bin/mainfunction.cgi` | High
+31 | File | `/cgi-bin/R14.2/cgi-bin/R14.2/host.pl` | High
+32 | File | `/cgi-bin/R14.2/easy1350.pl` | High
+33 | File | `/cgi-bin/wlogin.cgi` | High
+34 | File | `/clinic/disease_symptoms_view.php` | High
+35 | File | `/config/getuser` | High
+36 | File | `/core/redirect` | High
+37 | File | `/dashboard/snapshot/*?orgId=0` | High
+38 | File | `/debug/pprof` | Medium
+39 | File | `/DXR.axd` | Medium
+40 | File | `/ECT_Provider/` | High
+41 | File | `/Employer/EditProfile.php` | High
+42 | ... | ... | ...
 
-There are 400 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 365 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

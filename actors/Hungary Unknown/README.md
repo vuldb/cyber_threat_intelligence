@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
-* [NL](https://vuldb.com/?country.nl)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 21 more country items available. Please use our online service to access the data.
+There are 15 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -353,12 +353,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-36, CWE-37 | Pathname Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Path Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-94 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+6 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 7 | ... | ... | ... | ...
 
 There are 22 more TTP items available. Please use our online service to access the data.
@@ -370,72 +370,62 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/.env` | Low
-2 | File | `/?ajax-request=jnews` | High
-3 | File | `/?p=products` | Medium
-4 | File | `/?r=recruit/resume/edit&op=status` | High
-5 | File | `/admin.php/accessory/filesdel.html` | High
-6 | File | `/admin/?page=user/list` | High
-7 | File | `/admin/?page=user/manage` | High
-8 | File | `/admin/?page=user/manage_user&id=3` | High
-9 | File | `/admin/about-us.php` | High
-10 | File | `/admin/action/new-father.php` | High
-11 | File | `/admin/add-new.php` | High
-12 | File | `/admin/controller/JobLogController.java` | High
-13 | File | `/admin/del_category.php` | High
-14 | File | `/admin/del_service.php` | High
-15 | File | `/admin/doctors.php` | High
-16 | File | `/admin/edit-accepted-appointment.php` | High
-17 | File | `/admin/edit-services.php` | High
-18 | File | `/admin/edit_category.php` | High
-19 | File | `/admin/edit_subject.php` | High
-20 | File | `/admin/forgot-password.php` | High
-21 | File | `/admin/index.php` | High
-22 | File | `/admin/products/manage_product.php` | High
-23 | File | `/admin/reg.php` | High
-24 | File | `/admin/search-appointment.php` | High
-25 | File | `/admin/sys_sql_query.php` | High
-26 | File | `/alphaware/summary.php` | High
-27 | File | `/api/` | Low
-28 | File | `/api/admin/store/product/list` | High
-29 | File | `/api/baskets/{name}` | High
-30 | File | `/api/stl/actions/search` | High
-31 | File | `/api/sys/login` | High
-32 | File | `/api/sys/set_passwd` | High
-33 | File | `/api/trackedEntityInstances` | High
-34 | File | `/api/v2/cli/commands` | High
-35 | File | `/api/v4/teams//channels/deleted` | High
-36 | File | `/appliance/users?action=edit` | High
-37 | File | `/aux` | Low
-38 | File | `/backup.pl` | Medium
-39 | File | `/bin/ate` | Medium
-40 | File | `/bin/boa` | Medium
-41 | File | `/blog` | Low
-42 | File | `/boat/login.php` | High
-43 | File | `/booking/show_bookings/` | High
-44 | File | `/cgi-bin` | Medium
-45 | File | `/cgi-bin/cstecgi.cgi` | High
-46 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-47 | File | `/cgi-bin/wlogin.cgi` | High
-48 | File | `/changePassword` | High
-49 | File | `/collection/all` | High
-50 | File | `/Content/Template/root/reverse-shell.aspx` | High
-51 | File | `/dashboard/add-blog.php` | High
-52 | File | `/data/remove` | Medium
-53 | File | `/debug/pprof` | Medium
-54 | File | `/dipam/athlete-profile.php` | High
-55 | File | `/E-mobile/App/System/File/downfile.php` | High
-56 | File | `/ecshop/admin/template.php` | High
-57 | File | `/edoc/doctor/patient.php` | High
-58 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-59 | File | `/env` | Low
-60 | File | `/forum/away.php` | High
-61 | File | `/fusion/portal/action/Link` | High
-62 | File | `/group1/uploa` | High
-63 | File | `/HNAP1/` | Low
-64 | File | `/importexport.php` | High
-65 | ... | ... | ...
+2 | File | `/?r=recruit/resume/edit&op=status` | High
+3 | File | `/admin/?page=user/list` | High
+4 | File | `/admin/?page=user/manage_user&id=3` | High
+5 | File | `/admin/about-us.php` | High
+6 | File | `/admin/action/new-father.php` | High
+7 | File | `/admin/app/service_crud.php` | High
+8 | File | `/admin/controller/JobLogController.java` | High
+9 | File | `/admin/del_category.php` | High
+10 | File | `/admin/del_service.php` | High
+11 | File | `/admin/edit-accepted-appointment.php` | High
+12 | File | `/admin/edit-admin.php` | High
+13 | File | `/admin/edit-services.php` | High
+14 | File | `/admin/edit_category.php` | High
+15 | File | `/admin/forgot-password.php` | High
+16 | File | `/admin/index.php` | High
+17 | File | `/Admin/login.php` | High
+18 | File | `/admin/search-appointment.php` | High
+19 | File | `/admin/sys_sql_query.php` | High
+20 | File | `/api/baskets/{name}` | High
+21 | File | `/api/sys/login` | High
+22 | File | `/api/sys/set_passwd` | High
+23 | File | `/api/trackedEntityInstances` | High
+24 | File | `/api/v4/teams//channels/deleted` | High
+25 | File | `/app/admin/controller/Upload.php` | High
+26 | File | `/app/ajax/search_sales_report.php` | High
+27 | File | `/app/controller/Setup.php` | High
+28 | File | `/app/middleware/TokenVerify.php` | High
+29 | File | `/appliance/users?action=edit` | High
+30 | File | `/application/index/controller/Screen.php` | High
+31 | File | `/application/websocket/controller/Setting.php` | High
+32 | File | `/aux` | Low
+33 | File | `/bin/boa` | Medium
+34 | File | `/blog` | Low
+35 | File | `/boafrm/formMapDelDevice` | High
+36 | File | `/cgi-bin/cstecgi.cgi` | High
+37 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+38 | File | `/changePassword` | High
+39 | File | `/collection/all` | High
+40 | File | `/Content/Template/root/reverse-shell.aspx` | High
+41 | File | `/dashboard/add-blog.php` | High
+42 | File | `/data/remove` | Medium
+43 | File | `/debug/pprof` | Medium
+44 | File | `/ecshop/admin/template.php` | High
+45 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+46 | File | `/Employer/ManageWalkin.php` | High
+47 | File | `/endpoint/add-faq.php` | High
+48 | File | `/endpoint/delete-computer.php` | High
+49 | File | `/endpoint/update-resident.php` | High
+50 | File | `/endpoint/update-tracker.php` | High
+51 | File | `/etc/passwd` | Medium
+52 | File | `/forum/away.php` | High
+53 | File | `/fusion/portal/action/Link` | High
+54 | File | `/goform/net\_Web\_get_value` | High
+55 | ... | ... | ...
 
-There are 572 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 481 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

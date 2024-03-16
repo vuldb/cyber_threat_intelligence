@@ -566,9 +566,9 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-425 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-425 | Path Traversal | High
 2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
@@ -599,30 +599,31 @@ ID | Type | Indicator | Confidence
 17 | File | `/admin_route/inc_service_credits.php` | High
 18 | File | `/api/runscript` | High
 19 | File | `/app/Http/Controllers/ImageController.php` | High
-20 | File | `/cgi-bin/cstecgi.cgi` | High
-21 | File | `/cgi-bin/webadminget.cgi` | High
-22 | File | `/classes/Master.php?f=delete_service` | High
-23 | File | `/classes/Master.php?f=save_course` | High
-24 | File | `/config/php.ini` | High
-25 | File | `/demo/module/?module=HERE` | High
-26 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
-27 | File | `/forum/away.php` | High
-28 | File | `/goform/SysToolReboot` | High
-29 | File | `/goform/WifiExtraSet` | High
-30 | File | `/inc/topBarNav.php` | High
-31 | File | `/index.php?m=admin&c=custom&a=plugindelhandle` | High
-32 | File | `/mkshop/Men/profile.php` | High
-33 | File | `/mobile/downloadfile.aspx` | High
-34 | File | `/net/nfc/netlink.c` | High
-35 | File | `/oauth/idp/.well-known/openid-configuration` | High
-36 | File | `/out.php` | Medium
-37 | File | `/outgoing.php` | High
-38 | File | `/php-fusion/infusions/shoutbox_panel/shoutbox_archive.php` | High
-39 | File | `/register.do` | Medium
-40 | File | `/spip.php` | Medium
-41 | ... | ... | ...
+20 | File | `/application/index/controller/Icon.php` | High
+21 | File | `/cgi-bin/cstecgi.cgi` | High
+22 | File | `/cgi-bin/webadminget.cgi` | High
+23 | File | `/classes/Master.php?f=delete_service` | High
+24 | File | `/classes/Master.php?f=save_course` | High
+25 | File | `/config/php.ini` | High
+26 | File | `/demo/module/?module=HERE` | High
+27 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
+28 | File | `/forum/away.php` | High
+29 | File | `/general/attendance/manage/ask_duty/delete.php` | High
+30 | File | `/goform/SysToolReboot` | High
+31 | File | `/goform/WifiExtraSet` | High
+32 | File | `/inc/topBarNav.php` | High
+33 | File | `/index.php?m=admin&c=custom&a=plugindelhandle` | High
+34 | File | `/Interface/DevManage/VM.php` | High
+35 | File | `/mkshop/Men/profile.php` | High
+36 | File | `/mobile/downloadfile.aspx` | High
+37 | File | `/myprofile.php` | High
+38 | File | `/net/nfc/netlink.c` | High
+39 | File | `/oauth/idp/.well-known/openid-configuration` | High
+40 | File | `/out.php` | Medium
+41 | File | `/outgoing.php` | High
+42 | ... | ... | ...
 
-There are 351 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 365 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

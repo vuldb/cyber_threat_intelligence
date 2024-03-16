@@ -61,10 +61,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23 | Pathname Traversal | High
+1 | T1006 | CWE-22, CWE-23 | Path Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -87,36 +87,37 @@ ID | Type | Indicator | Confidence
 9 | File | `/etc/quagga` | Medium
 10 | File | `/forms/doLogin` | High
 11 | File | `/forum/away.php` | High
-12 | File | `/hrm/employeeview.php` | High
-13 | File | `/include/chart_generator.php` | High
-14 | File | `/install/index.php` | High
-15 | File | `/lan.asp` | Medium
-16 | File | `/librarian/bookdetails.php` | High
-17 | File | `/messageboard/view.php` | High
-18 | File | `/mhds/clinic/view_details.php` | High
+12 | File | `/include/chart_generator.php` | High
+13 | File | `/install/index.php` | High
+14 | File | `/lan.asp` | Medium
+15 | File | `/librarian/bookdetails.php` | High
+16 | File | `/messageboard/view.php` | High
+17 | File | `/mhds/clinic/view_details.php` | High
+18 | File | `/novel/bookComment/list` | High
 19 | File | `/out.php` | Medium
-20 | File | `/rest/api/latest/projectvalidate/key` | High
-21 | File | `/rom-0` | Low
-22 | File | `/ServletAPI/accounts/login` | High
-23 | File | `/SVFE2/pages/feegroups/country_group.jsf` | High
-24 | File | `/textpattern/index.php` | High
-25 | File | `/upfile.cgi` | Medium
-26 | File | `/wordpress/wp-admin/admin.php` | High
-27 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-28 | File | `account_footer.php` | High
-29 | File | `adclick.php` | Medium
-30 | File | `add_edit_cat.asp` | High
-31 | File | `add_edit_user.asp` | High
-32 | File | `adm.cgi` | Low
-33 | File | `admin.cropcanvas.php` | High
-34 | File | `admin.jcomments.php` | High
-35 | File | `admin/editusertag.php` | High
-36 | File | `admin/edit_category.php` | High
-37 | File | `admin/index.php` | High
-38 | File | `adminAttachments.php` | High
-39 | ... | ... | ...
+20 | File | `/owa/auth/logon.aspx` | High
+21 | File | `/rest/api/latest/projectvalidate/key` | High
+22 | File | `/rom-0` | Low
+23 | File | `/rules/REQUEST-932-APPLICATION-ATTACK-RCE.conf` | High
+24 | File | `/ServletAPI/accounts/login` | High
+25 | File | `/SVFE2/pages/feegroups/country_group.jsf` | High
+26 | File | `/textpattern/index.php` | High
+27 | File | `/upfile.cgi` | Medium
+28 | File | `/wordpress/wp-admin/admin.php` | High
+29 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+30 | File | `account_footer.php` | High
+31 | File | `adclick.php` | Medium
+32 | File | `add_edit_cat.asp` | High
+33 | File | `add_edit_user.asp` | High
+34 | File | `adm.cgi` | Low
+35 | File | `admin.cropcanvas.php` | High
+36 | File | `admin.jcomments.php` | High
+37 | File | `admin/editusertag.php` | High
+38 | File | `admin/edit_category.php` | High
+39 | File | `admin/index.php` | High
+40 | ... | ... | ...
 
-There are 337 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 344 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

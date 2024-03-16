@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Stolen Pencil:
 
 * [US](https://vuldb.com/?country.us)
+* [FR](https://vuldb.com/?country.fr)
 * [IR](https://vuldb.com/?country.ir)
-* [ES](https://vuldb.com/?country.es)
 * ...
 
 There are 7 more country items available. Please use our online service to access the data.
@@ -34,8 +34,8 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Pathname Traversal | High
-2 | T1059 | CWE-94 | Cross Site Scripting | High
+1 | T1006 | CWE-22 | Path Traversal | High
+2 | T1059 | CWE-94 | Argument Injection | High
 3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
@@ -52,20 +52,21 @@ ID | Type | Indicator | Confidence
 3 | File | `/admin/transactions/track_shipment.php` | High
 4 | File | `/api/browserextension/UpdatePassword/` | High
 5 | File | `/boat/login.php` | High
-6 | File | `/coreframe/app/member/admin/group.php` | High
-7 | File | `/forum/away.php` | High
-8 | File | `/home/courses` | High
-9 | File | `/horde/util/go.php` | High
-10 | File | `/owa/auth/logon.aspx` | High
-11 | File | `/secure/EditSubscription.jspa` | High
-12 | File | `/systemrw/` | Medium
-13 | File | `/tmp/supp_log` | High
-14 | File | `?r=recruit/bgchecks/export&checkids=x` | High
-15 | File | `account.php` | Medium
-16 | File | `ActivityStarter.java` | High
-17 | ... | ... | ...
+6 | File | `/book-services.php` | High
+7 | File | `/coreframe/app/member/admin/group.php` | High
+8 | File | `/forum/away.php` | High
+9 | File | `/home/courses` | High
+10 | File | `/horde/util/go.php` | High
+11 | File | `/owa/auth/logon.aspx` | High
+12 | File | `/secure/EditSubscription.jspa` | High
+13 | File | `/systemrw/` | Medium
+14 | File | `/tmp/supp_log` | High
+15 | File | `?r=recruit/bgchecks/export&checkids=x` | High
+16 | File | `account.php` | Medium
+17 | File | `ActivityStarter.java` | High
+18 | ... | ... | ...
 
-There are 138 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 149 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

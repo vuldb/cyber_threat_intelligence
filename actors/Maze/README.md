@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [PL](https://vuldb.com/?country.pl)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
 There are 8 more country items available. Please use our online service to access the data.
@@ -34,9 +34,9 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
 2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94 | Cross Site Scripting | High
+3 | T1059 | CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
 
 There are 10 more TTP items available. Please use our online service to access the data.
@@ -48,25 +48,26 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `//` | Low
-2 | File | `/ajax-files/postComment.php` | High
-3 | File | `/cgi-bin/login_action.cgi` | High
-4 | File | `/cgi-bin/webproc` | High
-5 | File | `/forum/away.php` | High
-6 | File | `/index.php` | Medium
-7 | File | `/index.php/weblinks-categories` | High
-8 | File | `/menu.html` | Medium
-9 | File | `/mics/j_spring_security_check` | High
-10 | File | `/mybb_1806/Upload/admin/index.php` | High
-11 | File | `/scp/directory.php` | High
-12 | File | `/uncpath/` | Medium
-13 | File | `/var/log/nginx` | High
-14 | File | `account/gallery.php` | High
-15 | File | `add_edit_cat.asp` | High
-16 | File | `admin.php?mod=user&act=del` | High
-17 | File | `admin/admin_process.php` | High
-18 | ... | ... | ...
+2 | File | `/admin/edit-admin.php` | High
+3 | File | `/ajax-files/postComment.php` | High
+4 | File | `/cgi-bin/login_action.cgi` | High
+5 | File | `/cgi-bin/webproc` | High
+6 | File | `/export` | Low
+7 | File | `/forum/away.php` | High
+8 | File | `/index.php` | Medium
+9 | File | `/index.php/weblinks-categories` | High
+10 | File | `/menu.html` | Medium
+11 | File | `/mics/j_spring_security_check` | High
+12 | File | `/mybb_1806/Upload/admin/index.php` | High
+13 | File | `/scp/directory.php` | High
+14 | File | `/uncpath/` | Medium
+15 | File | `/var/log/nginx` | High
+16 | File | `account/gallery.php` | High
+17 | File | `add_edit_cat.asp` | High
+18 | File | `admin.php?mod=user&act=del` | High
+19 | ... | ... | ...
 
-There are 147 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 151 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

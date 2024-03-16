@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [US](https://vuldb.com/?country.us)
 * ...
 
-There are 4 more country items available. Please use our online service to access the data.
+There are 5 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -165,48 +165,41 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/.env` | Low
-2 | File | `/admin/action/new-father.php` | High
-3 | File | `/admin/edit_teacher.php` | High
-4 | File | `/admin/fields/manage_field.php` | High
-5 | File | `/admin_ping.htm` | High
-6 | File | `/admin_route/dec_service_credits.php` | High
-7 | File | `/admin_route/inc_service_credits.php` | High
-8 | File | `/app/api/controller/default/Sqlite.php` | High
-9 | File | `/application/index/controller/Databasesource.php` | High
-10 | File | `/application/index/controller/File.php` | High
-11 | File | `/application/index/controller/Icon.php` | High
-12 | File | `/application/index/controller/Screen.php` | High
-13 | File | `/application/index/controller/Unity.php` | High
-14 | File | `/application/plugins/controller/Upload.php` | High
-15 | File | `/application/websocket/controller/Setting.php` | High
-16 | File | `/arch/x86/mm/cpu_entry_area.c` | High
-17 | File | `/bin/boa` | Medium
-18 | File | `/boafrm/formMapDelDevice` | High
-19 | File | `/bsms_ci/index.php/user/edit_user/` | High
-20 | File | `/cgi-bin/cstecgi.cgi` | High
-21 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-22 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-23 | File | `/cgi-bin/mainfunction.cgi` | High
-24 | File | `/cgi-bin/wlogin.cgi` | High
-25 | File | `/core/redirect` | High
-26 | File | `/debug/pprof` | Medium
-27 | File | `/DXR.axd` | Medium
-28 | File | `/ECT_Provider/` | High
-29 | File | `/etc/passwd` | Medium
-30 | File | `/fax/fax_send.php` | High
-31 | File | `/forum/away.php` | High
-32 | File | `/general/attendance/manage/ask_duty/delete.php` | High
-33 | File | `/general/email/outbox/delete.php` | High
-34 | File | `/goform/WifiMacFilterGet` | High
-35 | File | `/goform/wifiSSIDset` | High
-36 | File | `/h/autoSaveDraft` | High
-37 | File | `/index.php?app=main&func=passport&action=login` | High
-38 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-39 | File | `/novel/bookSetting/list` | High
-40 | File | `/novel/userFeedback/list` | High
-41 | ... | ... | ...
+2 | File | `/admin/orders/view_order.php` | High
+3 | File | `/admin_ping.htm` | High
+4 | File | `/application/index/controller/Databasesource.php` | High
+5 | File | `/application/index/controller/File.php` | High
+6 | File | `/application/index/controller/Icon.php` | High
+7 | File | `/application/index/controller/Screen.php` | High
+8 | File | `/application/index/controller/Unity.php` | High
+9 | File | `/application/plugins/controller/Upload.php` | High
+10 | File | `/application/websocket/controller/Setting.php` | High
+11 | File | `/boafrm/formMapDelDevice` | High
+12 | File | `/bsms_ci/index.php/user/edit_user/` | High
+13 | File | `/cgi-bin/cstecgi.cgi` | High
+14 | File | `/cgi-bin/mainfunction.cgi` | High
+15 | File | `/cgi-bin/wlogin.cgi` | High
+16 | File | `/core/redirect` | High
+17 | File | `/debug/pprof` | Medium
+18 | File | `/DXR.axd` | Medium
+19 | File | `/ECT_Provider/` | High
+20 | File | `/Employer/EditProfile.php` | High
+21 | File | `/etc/passwd` | Medium
+22 | File | `/fax/fax_send.php` | High
+23 | File | `/forum/away.php` | High
+24 | File | `/general/attendance/manage/ask_duty/delete.php` | High
+25 | File | `/general/email/outbox/delete.php` | High
+26 | File | `/goform/` | Medium
+27 | File | `/goform/net\_Web\_get_value` | High
+28 | File | `/goform/WifiMacFilterGet` | High
+29 | File | `/goform/wifiSSIDset` | High
+30 | File | `/h/autoSaveDraft` | High
+31 | File | `/home.php` | Medium
+32 | File | `/index.php?app=main&func=passport&action=login` | High
+33 | File | `/novel/userFeedback/list` | High
+34 | ... | ... | ...
 
-There are 354 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 286 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

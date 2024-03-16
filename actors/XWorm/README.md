@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [VN](https://vuldb.com/?country.vn)
 * [LA](https://vuldb.com/?country.la)
-* [SH](https://vuldb.com/?country.sh)
+* [SG](https://vuldb.com/?country.sg)
 * ...
 
-There are 3 more country items available. Please use our online service to access the data.
+There are 2 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -56,7 +56,7 @@ ID | IP address | Hostname | Campaign | Confidence
 33 | [45.130.141.212](https://vuldb.com/?ip.45.130.141.212) | - | - | High
 34 | ... | ... | ... | ...
 
-There are 131 more IOC items available. Please use our online service to access the data.
+There are 132 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -64,13 +64,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-35, CWE-425 | Pathname Traversal | High
-2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Path Traversal | High
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -78,51 +79,52 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/academy/tutor/filter` | High
-2 | File | `/admin/add-category.php` | High
-3 | File | `/admin/index2.html` | High
-4 | File | `/admin/sales/view_details.php` | High
-5 | File | `/api/baskets/{name}` | High
-6 | File | `/aqpg/users/login.php` | High
-7 | File | `/b2b-supermarket/shopping-cart` | High
-8 | File | `/bin/login` | Medium
-9 | File | `/calendar/minimizer/index.php` | High
-10 | File | `/cgi-bin/cstecgi.cgi` | High
-11 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-12 | File | `/cgi-bin/qcmap_auth` | High
-13 | File | `/cgi-bin/wlogin.cgi` | High
-14 | File | `/core/conditions/AbstractWrapper.java` | High
-15 | File | `/core/tools/update_menu.php` | High
-16 | File | `/dayrui/My/Config/Install.txt` | High
-17 | File | `/DesignTools/CssEditor.aspx` | High
-18 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
-19 | File | `/DXR.axd` | Medium
-20 | File | `/endpoint/add-user.php` | High
-21 | File | `/forum/away.php` | High
-22 | File | `/forums/editforum.php` | High
-23 | File | `/goform/goform_get_cmd_process` | High
+1 | File | `/admin/index2.html` | High
+2 | File | `/admin/sales/view_details.php` | High
+3 | File | `/aqpg/users/login.php` | High
+4 | File | `/b2b-supermarket/shopping-cart` | High
+5 | File | `/bin/login` | Medium
+6 | File | `/calendar/minimizer/index.php` | High
+7 | File | `/cgi-bin/cstecgi.cgi` | High
+8 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+9 | File | `/cgi-bin/qcmap_auth` | High
+10 | File | `/cgi-bin/wlogin.cgi` | High
+11 | File | `/core/conditions/AbstractWrapper.java` | High
+12 | File | `/core/tools/update_menu.php` | High
+13 | File | `/dayrui/My/Config/Install.txt` | High
+14 | File | `/DesignTools/CssEditor.aspx` | High
+15 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
+16 | File | `/DXR.axd` | Medium
+17 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+18 | File | `/endpoint/add-user.php` | High
+19 | File | `/forum/away.php` | High
+20 | File | `/forums/editforum.php` | High
+21 | File | `/goform/` | Medium
+22 | File | `/goform/goform_get_cmd_process` | High
+23 | File | `/h/autoSaveDraft` | High
 24 | File | `/home/courses` | High
-25 | File | `/hrm/controller/employee.php` | High
-26 | File | `/hrm/employeeview.php` | High
-27 | File | `/importexport.php` | High
-28 | File | `/index.php?menu=asterisk_cli` | High
-29 | File | `/login.php?do=login` | High
-30 | File | `/m4pdf/pdf.php` | High
-31 | File | `/mc` | Low
-32 | File | `/modals/class_form.php` | High
-33 | File | `/modules/projects/vw_files.php` | High
-34 | File | `/novel/bookSetting/list` | High
-35 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
-36 | File | `/php-opos/index.php` | High
+25 | File | `/index.php?menu=asterisk_cli` | High
+26 | File | `/install/` | Medium
+27 | File | `/ipms/imageConvert/image` | High
+28 | File | `/modals/class_form.php` | High
+29 | File | `/novel/bookSetting/list` | High
+30 | File | `/novel/userFeedback/list` | High
+31 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
+32 | File | `/php-opos/index.php` | High
+33 | File | `/project/tasks/list` | High
+34 | File | `/search.php` | Medium
+35 | File | `/secret_coder.sql` | High
+36 | File | `/setting` | Medium
 37 | ... | ... | ...
 
-There are 320 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 314 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://app.any.run/tasks/07d48cef-8f74-4755-96c9-c793a8ede462
+* https://app.any.run/tasks/4c57ca4c-db7a-444c-822d-35bafda21a49/#
 * https://app.any.run/tasks/2744678e-9602-4ad4-9364-534032ae9a5d
 * https://bazaar.abuse.ch/sample/a19a8e6782f0008c3b10276c764962f6f27b27754d826f8d3679ef15bea122d5/
 * https://bazaar.abuse.ch/sample/d6c50d8b4d0a37b3ba41811faaedd5cd58d87fad30515bb3bf2d3f60810abb55/

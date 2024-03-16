@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Vjw0rm:
 
 * [US](https://vuldb.com/?country.us)
+* [GB](https://vuldb.com/?country.gb)
 * [RU](https://vuldb.com/?country.ru)
-* [IR](https://vuldb.com/?country.ir)
 * ...
 
 There are 8 more country items available. Please use our online service to access the data.
@@ -44,7 +44,7 @@ ID | IP address | Hostname | Campaign | Confidence
 21 | [45.81.233.69](https://vuldb.com/?ip.45.81.233.69) | 45.81.233.69.mc-host24.de | - | High
 22 | ... | ... | ... | ...
 
-There are 82 more IOC items available. Please use our online service to access the data.
+There are 84 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -52,9 +52,9 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-22 | Path Traversal | High
 2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94 | Cross Site Scripting | High
+3 | T1059 | CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
@@ -67,27 +67,29 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/addWhiteListDomain.imss` | High
-2 | File | `/admin/index2.html` | High
-3 | File | `/admin_giant/add_team_member.php` | High
-4 | File | `/api/baskets/{name}` | High
-5 | File | `/api/v4/users/ids` | High
-6 | File | `/apply.cgi` | Medium
-7 | File | `/cgi-bin/wlogin.cgi` | High
-8 | File | `/common/info.cgi` | High
-9 | File | `/etc/shadow` | Medium
-10 | File | `/forum/away.php` | High
-11 | File | `/get_getnetworkconf.cgi` | High
-12 | File | `/goform/setmac` | High
-13 | File | `/index.php?p=admin/actions/users/send-password-reset-email` | High
-14 | File | `/integrations.json` | High
-15 | File | `/lists/admin/` | High
-16 | File | `/phppath/php` | Medium
-17 | File | `/services/details.asp` | High
-18 | File | `/spip.php` | Medium
-19 | File | `adclick.php` | Medium
-20 | ... | ... | ...
+2 | File | `/admin/category/cate-edit-run.php` | High
+3 | File | `/admin/index2.html` | High
+4 | File | `/admin_giant/add_team_member.php` | High
+5 | File | `/api/baskets/{name}` | High
+6 | File | `/api/v4/users/ids` | High
+7 | File | `/apply.cgi` | Medium
+8 | File | `/cgi-bin/wlogin.cgi` | High
+9 | File | `/common/info.cgi` | High
+10 | File | `/debug/pprof` | Medium
+11 | File | `/etc/shadow` | Medium
+12 | File | `/forum/away.php` | High
+13 | File | `/get_getnetworkconf.cgi` | High
+14 | File | `/goform/setmac` | High
+15 | File | `/index.php?p=admin/actions/users/send-password-reset-email` | High
+16 | File | `/integrations.json` | High
+17 | File | `/lists/admin/` | High
+18 | File | `/phppath/php` | Medium
+19 | File | `/project/tasks/list` | High
+20 | File | `/services/details.asp` | High
+21 | File | `/spip.php` | Medium
+22 | ... | ... | ...
 
-There are 166 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 185 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

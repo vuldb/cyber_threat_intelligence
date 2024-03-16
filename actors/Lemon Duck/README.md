@@ -51,14 +51,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-29, CWE-425 | Pathname Traversal | High
-2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-29 | Path Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-271, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -67,50 +67,53 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/.env` | Low
-2 | File | `/accounts/password_change/` | High
-3 | File | `/act/ActDao.xml` | High
-4 | File | `/admin/action/new-father.php` | High
-5 | File | `/admin/clientview.php` | High
-6 | File | `/admin/regester.php` | High
-7 | File | `/admin/update-clients.php` | High
-8 | File | `/admin_route/dec_service_credits.php` | High
-9 | File | `/admin_route/inc_service_credits.php` | High
-10 | File | `/api/baskets/{name}` | High
-11 | File | `/api/cron/settings/setJob/` | High
-12 | File | `/api/sys/set_passwd` | High
-13 | File | `/api/v1/terminal/sessions/?limit=1` | High
-14 | File | `/app/api/controller/default/Sqlite.php` | High
-15 | File | `/apply.cgi` | Medium
-16 | File | `/authenticationendpoint/login.do` | High
-17 | File | `/b2b-supermarket/shopping-cart` | High
-18 | File | `/bin/boa` | Medium
-19 | File | `/boaform/device_reset.cgi` | High
-20 | File | `/bsms_ci/index.php` | High
-21 | File | `/bsms_ci/index.php/user/edit_user/` | High
-22 | File | `/catalog/compare` | High
-23 | File | `/cgi-bin/cstecgi.cgi` | High
-24 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-25 | File | `/cgi-bin/downloadFile.cgi` | High
-26 | File | `/cgi-bin/kerbynet` | High
-27 | File | `/cgi-bin/qcmap_auth` | High
-28 | File | `/cgi-bin/R14.2/cgi-bin/R14.2/host.pl` | High
-29 | File | `/cgi-bin/R14.2/easy1350.pl` | High
-30 | File | `/cgi-bin/wlogin.cgi` | High
-31 | File | `/clinic/disease_symptoms_view.php` | High
-32 | File | `/config/getuser` | High
-33 | File | `/dashboard/snapshot/*?orgId=0` | High
-34 | File | `/debug/pprof` | Medium
-35 | File | `/DXR.axd` | Medium
-36 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-37 | File | `/forum/away.php` | High
-38 | File | `/geoserver/gwc/rest.html` | High
-39 | File | `/importexport.php` | High
-40 | File | `/index.php/client/message/message_read/xxxxxxxx[random-msg-hash]` | High
-41 | File | `/login` | Low
-42 | File | `/Main_AdmStatus_Content.asp` | High
-43 | ... | ... | ...
+2 | File | `/act/ActDao.xml` | High
+3 | File | `/admin/action/new-father.php` | High
+4 | File | `/admin/clientview.php` | High
+5 | File | `/admin/edit_teacher.php` | High
+6 | File | `/admin/fields/manage_field.php` | High
+7 | File | `/admin/orders/view_order.php` | High
+8 | File | `/admin/regester.php` | High
+9 | File | `/admin/update-clients.php` | High
+10 | File | `/admin_ping.htm` | High
+11 | File | `/admin_route/dec_service_credits.php` | High
+12 | File | `/admin_route/inc_service_credits.php` | High
+13 | File | `/api/cron/settings/setJob/` | High
+14 | File | `/api/sys/set_passwd` | High
+15 | File | `/api/v1/terminal/sessions/?limit=1` | High
+16 | File | `/app/api/controller/default/Sqlite.php` | High
+17 | File | `/application/index/controller/Databasesource.php` | High
+18 | File | `/application/index/controller/Icon.php` | High
+19 | File | `/application/index/controller/Screen.php` | High
+20 | File | `/application/plugins/controller/Upload.php` | High
+21 | File | `/apply.cgi` | Medium
+22 | File | `/arch/x86/mm/cpu_entry_area.c` | High
+23 | File | `/authenticationendpoint/login.do` | High
+24 | File | `/bin/boa` | Medium
+25 | File | `/boaform/device_reset.cgi` | High
+26 | File | `/boafrm/formMapDelDevice` | High
+27 | File | `/bsms_ci/index.php/user/edit_user/` | High
+28 | File | `/cgi-bin/cstecgi.cgi` | High
+29 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+30 | File | `/cgi-bin/kerbynet` | High
+31 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+32 | File | `/cgi-bin/mainfunction.cgi` | High
+33 | File | `/cgi-bin/R14.2/cgi-bin/R14.2/host.pl` | High
+34 | File | `/cgi-bin/R14.2/easy1350.pl` | High
+35 | File | `/cgi-bin/wlogin.cgi` | High
+36 | File | `/clinic/disease_symptoms_view.php` | High
+37 | File | `/config/getuser` | High
+38 | File | `/core/redirect` | High
+39 | File | `/dashboard/snapshot/*?orgId=0` | High
+40 | File | `/debug/pprof` | Medium
+41 | File | `/DXR.axd` | Medium
+42 | File | `/ECT_Provider/` | High
+43 | File | `/fax/fax_send.php` | High
+44 | File | `/forum/away.php` | High
+45 | File | `/general/attendance/manage/ask_duty/delete.php` | High
+46 | ... | ... | ...
 
-There are 371 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 400 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

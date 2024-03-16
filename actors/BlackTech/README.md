@@ -16,12 +16,12 @@ The following _campaigns_ are known and can be associated with BlackTech:
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with BlackTech:
 
-* [MS](https://vuldb.com/?country.ms)
-* [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
+* [MS](https://vuldb.com/?country.ms)
 * ...
 
-There are 1 more country items available. Please use our online service to access the data.
+There are 2 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -31,11 +31,12 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [10.0.0.211](https://vuldb.com/?ip.10.0.0.211) | - | WaterBear | High
 2 | [43.240.12.81](https://vuldb.com/?ip.43.240.12.81) | mail.terascape.net | Taiwan Government Agencies | High
-3 | [45.76.102.145](https://vuldb.com/?ip.45.76.102.145) | 45.76.102.145.vultr.com | TSCookie | Medium
-4 | [45.124.25.31](https://vuldb.com/?ip.45.124.25.31) | hkhdc.laws.ms | Taiwan Government Agencies | High
-5 | ... | ... | ... | ...
+3 | [45.32.23.140](https://vuldb.com/?ip.45.32.23.140) | 45.32.23.140.vultrusercontent.com | - | High
+4 | [45.76.102.145](https://vuldb.com/?ip.45.76.102.145) | 45.76.102.145.vultr.com | TSCookie | Medium
+5 | [45.76.184.227](https://vuldb.com/?ip.45.76.184.227) | 45.76.184.227.vultrusercontent.com | - | High
+6 | ... | ... | ... | ...
 
-There are 14 more IOC items available. Please use our online service to access the data.
+There are 18 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -43,11 +44,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+4 | T1059 | CWE-94 | Argument Injection | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
 
@@ -57,26 +59,33 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/cdsms/classes/Master.php?f=delete_enrollment` | High
-2 | File | `/cgi-bin/portal` | High
-3 | File | `/cgi-mod/lookup.cgi` | High
-4 | File | `/forum/away.php` | High
-5 | File | `/mifs/c/i/reg/reg.html` | High
-6 | File | `/modules/profile/index.php` | High
-7 | File | `/RPC2` | Low
-8 | File | `/server-info` | Medium
-9 | File | `/service/upload` | High
-10 | File | `/system/dept/edit` | High
-11 | File | `/tmp` | Low
-12 | File | `/uncpath/` | Medium
-13 | File | `/user/updatePwd` | High
-14 | File | `/wp-json/oembed/1.0/embed?url` | High
-15 | File | `a2billing/customer/iridium_threed.php` | High
-16 | File | `admin.php` | Medium
-17 | File | `admin.php?s=/Channel/add.html` | High
-18 | ... | ... | ...
+1 | File | `/administration/theme.php` | High
+2 | File | `/cdsms/classes/Master.php?f=delete_enrollment` | High
+3 | File | `/cgi-bin/portal` | High
+4 | File | `/cgi-mod/lookup.cgi` | High
+5 | File | `/forum/away.php` | High
+6 | File | `/mifs/c/i/reg/reg.html` | High
+7 | File | `/modules/profile/index.php` | High
+8 | File | `/RPC2` | Low
+9 | File | `/server-info` | Medium
+10 | File | `/service/upload` | High
+11 | File | `/services` | Medium
+12 | File | `/system/dept/edit` | High
+13 | File | `/tmp` | Low
+14 | File | `/uncpath/` | Medium
+15 | File | `/upload` | Low
+16 | File | `/user/updatePwd` | High
+17 | File | `/wp-json/oembed/1.0/embed?url` | High
+18 | File | `a2billing/customer/iridium_threed.php` | High
+19 | File | `additem.asp` | Medium
+20 | File | `admin.php` | Medium
+21 | File | `admin.php?s=/Channel/add.html` | High
+22 | File | `admin/class-bulk-editor-list-table.php` | High
+23 | File | `administrator/components/com_media/helpers/media.php` | High
+24 | File | `agora.cgi` | Medium
+25 | ... | ... | ...
 
-There are 149 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 210 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -85,7 +94,9 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blogs.jpcert.or.jp/en/2018/03/malware-tscooki-7aa0.html
 * https://blogs.jpcert.or.jp/en/2021/10/gh0sttimes.html
 * https://blogs.jpcert.or.jp/en/2022/09/bigip-exploit.html
+* https://jp.security.ntt/tech_blog/102h7vx
 * https://www.ithome.com.tw/news/139504
+* https://www.lac.co.jp/lacwatch/people/20180425_001625.html
 * https://www.trendmicro.com/en_us/research/17/f/following-trail-blacktech-cyber-espionage-campaigns.html
 * https://www.trendmicro.com/en_us/research/19/l/waterbear-is-back-uses-api-hooking-to-evade-security-product-detection.html
 

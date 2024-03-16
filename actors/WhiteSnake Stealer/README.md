@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 6 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -30,9 +30,10 @@ ID | IP address | Hostname | Campaign | Confidence
 7 | [45.132.96.113](https://vuldb.com/?ip.45.132.96.113) | - | - | High
 8 | [45.155.171.134](https://vuldb.com/?ip.45.155.171.134) | - | - | High
 9 | [52.86.18.77](https://vuldb.com/?ip.52.86.18.77) | ec2-52-86-18-77.compute-1.amazonaws.com | - | Medium
-10 | ... | ... | ... | ...
+10 | [54.37.196.189](https://vuldb.com/?ip.54.37.196.189) | ip189.ip-54-37-196.eu | - | High
+11 | ... | ... | ... | ...
 
-There are 38 more IOC items available. Please use our online service to access the data.
+There are 39 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -40,15 +41,15 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+1 | T1006 | CWE-22, CWE-23 | Path Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | T1068 | CWE-250, CWE-264, CWE-269, CWE-274, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+6 | T1068 | CWE-250, CWE-264, CWE-269, CWE-274, CWE-284 | Execution with Unnecessary Privileges | High
 7 | ... | ... | ... | ...
 
-There are 24 more TTP items available. Please use our online service to access the data.
+There are 23 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -56,11 +57,11 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `//proc/kcore` | Medium
-2 | File | `/action/import_nodejs_app/` | High
-3 | File | `/admin/add_exercises.php` | High
-4 | File | `/admin/categories/view_category.php` | High
-5 | File | `/admin/delete_user.php` | High
+1 | File | `/action/import_nodejs_app/` | High
+2 | File | `/admin/add_exercises.php` | High
+3 | File | `/admin/categories/view_category.php` | High
+4 | File | `/admin/delete_user.php` | High
+5 | File | `/admin/lab.php` | High
 6 | File | `/admin/login.php` | High
 7 | File | `/admin/maintenance/manage_category.php` | High
 8 | File | `/admin/sales/manage_sale.php` | High
@@ -70,36 +71,36 @@ ID | Type | Indicator | Confidence
 12 | File | `/admin/users_add.php` | High
 13 | File | `/admin_system/api.php` | High
 14 | File | `/adms/admin/?page=user/manage_user` | High
-15 | File | `/alarm_pi/alarmService.php` | High
-16 | File | `/Ap4RtpAtom.cpp` | High
-17 | File | `/api/audits` | Medium
-18 | File | `/api/browserextension/UpdatePassword/` | High
-19 | File | `/apngopt/ubuntu.png` | High
-20 | File | `/app/options.py` | High
-21 | File | `/asms/classes/Master.php?f=delete_service` | High
-22 | File | `/balance/service/list` | High
-23 | File | `/be/rpc.php` | Medium
-24 | File | `/boafrm/formFilter` | High
-25 | File | `/bsms/?page=manage_account` | High
-26 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-27 | File | `/churchcrm/v2/family/not-found` | High
-28 | File | `/classes/Login.php` | High
-29 | File | `/classes/Master.php?f=delete_sub_category` | High
-30 | File | `/dashboard/blocks/stacks/view_details/` | High
-31 | File | `/dosen/data` | Medium
-32 | File | `/ecommerce/admin/settings/setDiscount.php` | High
-33 | File | `/editor/index.php` | High
-34 | File | `/foms/place-order.php` | High
-35 | File | `/framework/mod/db/DBMapper.xml` | High
-36 | File | `/FreshRSS/p/ext.php` | High
-37 | File | `/goform/SafeClientFilter` | High
-38 | File | `/goform/SetPptpServerCfg` | High
-39 | File | `/goform/setSysAdm` | High
-40 | File | `/goform/SetVirtualServerCfg` | High
-41 | File | `/goform/sysTools` | High
+15 | File | `/api/audits` | Medium
+16 | File | `/api/browserextension/UpdatePassword/` | High
+17 | File | `/apngopt/ubuntu.png` | High
+18 | File | `/app/options.py` | High
+19 | File | `/asms/classes/Master.php?f=delete_service` | High
+20 | File | `/balance/service/list` | High
+21 | File | `/be/rpc.php` | Medium
+22 | File | `/boafrm/formFilter` | High
+23 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+24 | File | `/churchcrm/v2/family/not-found` | High
+25 | File | `/classes/Login.php` | High
+26 | File | `/classes/Master.php?f=delete_sub_category` | High
+27 | File | `/dosen/data` | Medium
+28 | File | `/ecommerce/admin/settings/setDiscount.php` | High
+29 | File | `/editor/index.php` | High
+30 | File | `/env` | Low
+31 | File | `/filemanager/ajax_calls.php` | High
+32 | File | `/foms/place-order.php` | High
+33 | File | `/framework/mod/db/DBMapper.xml` | High
+34 | File | `/FreshRSS/p/ext.php` | High
+35 | File | `/goform/SafeClientFilter` | High
+36 | File | `/goform/SetPptpServerCfg` | High
+37 | File | `/goform/setSysAdm` | High
+38 | File | `/goform/SetVirtualServerCfg` | High
+39 | File | `/goform/sysTools` | High
+40 | File | `/goform/WifiBasicSet` | High
+41 | File | `/include/Model/Upload.php` | High
 42 | ... | ... | ...
 
-There are 363 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 361 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

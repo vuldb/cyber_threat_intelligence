@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -34,14 +34,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-94 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -68,21 +68,23 @@ ID | Type | Indicator | Confidence
 17 | File | `/jerry-core/ecma/base/ecma-gc.c` | High
 18 | File | `/jpg/image.jpg` | High
 19 | File | `/out.php` | Medium
-20 | File | `/product_list.php` | High
-21 | File | `/rapi/read_url` | High
-22 | File | `/rrps/classes/Master.php?f=delete_category` | High
-23 | File | `/rukovoditel_2.4.1/index.php?module=configuration/save&redirect_to=configuration/application` | High
-24 | File | `/scripts/unlock_tasks.php` | High
-25 | File | `/sec/content/sec_asa_users_local_db_add.html` | High
-26 | File | `/see_more_details.php` | High
-27 | File | `/src/core/controllers/cm.php` | High
-28 | File | `/system/user/modules/mod_users/controller.php` | High
-29 | File | `/transmission/web/` | High
-30 | File | `/uncpath/` | Medium
-31 | File | `/usr/local` | Medium
-32 | ... | ... | ...
+20 | File | `/php/ping.php` | High
+21 | File | `/product_list.php` | High
+22 | File | `/rapi/read_url` | High
+23 | File | `/rrps/classes/Master.php?f=delete_category` | High
+24 | File | `/rukovoditel_2.4.1/index.php?module=configuration/save&redirect_to=configuration/application` | High
+25 | File | `/scripts/unlock_tasks.php` | High
+26 | File | `/sec/content/sec_asa_users_local_db_add.html` | High
+27 | File | `/see_more_details.php` | High
+28 | File | `/src/core/controllers/cm.php` | High
+29 | File | `/SysInfo1.htm` | High
+30 | File | `/sysinfo_json.cgi` | High
+31 | File | `/system/user/modules/mod_users/controller.php` | High
+32 | File | `/transmission/web/` | High
+33 | File | `/uncpath/` | Medium
+34 | ... | ... | ...
 
-There are 269 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 289 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

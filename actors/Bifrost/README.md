@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Bifrost:
 
 * [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
 * [CA](https://vuldb.com/?country.ca)
-* [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 2 more country items available. Please use our online service to access the data.
+There are 3 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -27,7 +27,7 @@ ID | IP address | Hostname | Campaign | Confidence
 4 | [31.170.164.19](https://vuldb.com/?ip.31.170.164.19) | - | - | High
 5 | ... | ... | ... | ...
 
-There are 14 more IOC items available. Please use our online service to access the data.
+There are 15 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -53,7 +53,7 @@ ID | Type | Indicator | Confidence
 3 | File | `inc/autoload.function.php` | High
 4 | ... | ... | ...
 
-There are 11 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 13 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -65,6 +65,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/threat-roundup-0106-0113/
 * https://blog.talosintelligence.com/threat-roundup-0120-0127/
 * https://blog.talosintelligence.com/threat-roundup-0526-0602/
+* https://unit42.paloaltonetworks.com/new-linux-variant-bifrost-malware/
 
 ## Literature
 

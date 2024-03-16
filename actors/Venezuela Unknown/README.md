@@ -161,7 +161,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-22 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | ... | ... | ... | ...
@@ -179,7 +179,8 @@ ID | Type | Indicator | Confidence
 3 | File | `/MRcgi/MRABLoad2.pl` | High
 4 | File | `/MRcgi/MRchat.pl` | High
 5 | File | `/out.php` | Medium
-6 | ... | ... | ...
+6 | File | `/user/ticket/create` | High
+7 | ... | ... | ...
 
 There are 43 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 

@@ -4,19 +4,39 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.z0miner](https://vuldb.com/?actor.z0miner)
 
+## Countries
+
+These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with z0Miner:
+
+* [JP](https://vuldb.com/?country.jp)
+
 ## IOC - Indicator of Compromise
 
 These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of z0Miner.
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [27.1.1.34](https://vuldb.com/?ip.27.1.1.34) | - | - | High
+1 | [15.235.22.212](https://vuldb.com/?ip.15.235.22.212) | ip212.ip-15-235-22.net | - | High
+2 | [15.235.22.213](https://vuldb.com/?ip.15.235.22.213) | ip213.ip-15-235-22.net | - | High
+3 | [27.1.1.34](https://vuldb.com/?ip.27.1.1.34) | - | - | High
+4 | ... | ... | ... | ...
+
+There are 1 more IOC items available. Please use our online service to access the data.
+
+## TTP - Tactics, Techniques, Procedures
+
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _z0Miner_. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1068 | CWE-269 | Execution with Unnecessary Privileges | High
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://asec.ahnlab.com/en/36820/
+* https://asec.ahnlab.com/en/62564/
 
 ## Literature
 

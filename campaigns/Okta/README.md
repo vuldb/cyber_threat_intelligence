@@ -50,7 +50,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-271, CWE-272, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -59,37 +59,39 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/accounts_con/register_account` | High
-2 | File | `/admin/students/update_status.php` | High
-3 | File | `/api/baskets/{name}` | High
-4 | File | `/app/api/controller/default/File.php` | High
-5 | File | `/app/api/controller/default/Sqlite.php` | High
-6 | File | `/assets/php/upload.php` | High
-7 | File | `/bin/boa` | Medium
-8 | File | `/bin/sh` | Low
-9 | File | `/bitrix/admin/ldap_server_edit.php` | High
-10 | File | `/collection/all` | High
-11 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
-12 | File | `/detail` | Low
-13 | File | `/devinfo` | Medium
-14 | File | `/edoc/doctor/patient.php` | High
-15 | File | `/general/email/outbox/delete.php` | High
-16 | File | `/home/get_tasks_list` | High
-17 | File | `/index.php/signin` | High
-18 | File | `/lists/admin/` | High
-19 | File | `/log/decodmail.php` | High
-20 | File | `/Main_AdmStatus_Content.asp` | High
-21 | File | `/mygym/admin/login.php` | High
-22 | File | `/net/bluetooth/rfcomm/core.C` | High
-23 | File | `/opt/fs/redisraft/deps/hiredis/alloc.c` | High
-24 | File | `/owa/auth/logon.aspx` | High
-25 | File | `/plain` | Low
-26 | File | `/proc/self/setgroups` | High
-27 | File | `/products/view_product.php` | High
-28 | File | `/rest/synchronizer/1.0/technicalUser` | High
-29 | File | `/support/docs/?action=assortment` | High
-30 | ... | ... | ...
+2 | File | `/admin/app/product.php` | High
+3 | File | `/admin/app/service_crud.php` | High
+4 | File | `/admin/edit_categories.php` | High
+5 | File | `/admin/list_ipAddressPolicy.php` | High
+6 | File | `/Admin/login.php` | High
+7 | File | `/admin/students/update_status.php` | High
+8 | File | `/api/baskets/{name}` | High
+9 | File | `/app/api/controller/default/File.php` | High
+10 | File | `/app/api/controller/default/Sqlite.php` | High
+11 | File | `/app/controller/Setup.php` | High
+12 | File | `/assets/php/upload.php` | High
+13 | File | `/bin/boa` | Medium
+14 | File | `/bin/sh` | Low
+15 | File | `/bitrix/admin/ldap_server_edit.php` | High
+16 | File | `/cgi-bin/cstecgi.cgi` | High
+17 | File | `/collection/all` | High
+18 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
+19 | File | `/detail` | Low
+20 | File | `/devinfo` | Medium
+21 | File | `/edoc/doctor/patient.php` | High
+22 | File | `/endpoint/update-tracker.php` | High
+23 | File | `/general/email/outbox/delete.php` | High
+24 | File | `/get_membership_amount.php` | High
+25 | File | `/home/get_tasks_list` | High
+26 | File | `/index.php` | Medium
+27 | File | `/index.php/signin` | High
+28 | File | `/lists/admin/` | High
+29 | File | `/log/decodmail.php` | High
+30 | File | `/Main_AdmStatus_Content.asp` | High
+31 | File | `/mygym/admin/login.php` | High
+32 | ... | ... | ...
 
-There are 256 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 275 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

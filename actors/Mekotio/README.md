@@ -47,9 +47,9 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23, CWE-37 | Pathname Traversal | High
+1 | T1006 | CWE-22, CWE-23, CWE-37 | Path Traversal | High
 2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94 | Cross Site Scripting | High
+3 | T1059 | CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
@@ -82,26 +82,26 @@ ID | Type | Indicator | Confidence
 19 | File | `/message/ajax/send/` | High
 20 | File | `/mgmt/tm/util/bash` | High
 21 | File | `/myAccount` | Medium
-22 | File | `/proc/*/exe` | Medium
-23 | File | `/real-estate-script/search_property.php` | High
-24 | File | `/recordings/index.php` | High
-25 | File | `/roomtype-details.php` | High
-26 | File | `/search.php` | Medium
-27 | File | `/searchJob.php` | High
-28 | File | `/secure/QueryComponent!Default.jspa` | High
-29 | File | `/see_more_details.php` | High
-30 | File | `/StartingPage/link_req_2.php` | High
-31 | File | `/storage.html` | High
-32 | File | `/tools/required/files/importers/imageeditor` | High
-33 | File | `/uncpath/` | Medium
-34 | File | `/uploads/tags.php` | High
-35 | File | `/userman/inbox.php` | High
-36 | File | `/UserSelfServiceSettings.jsp` | High
-37 | File | `/usr/local/contego/scripts/hostname.sh` | High
-38 | File | `/var/run/docker.sock` | High
+22 | File | `/real-estate-script/search_property.php` | High
+23 | File | `/recordings/index.php` | High
+24 | File | `/roomtype-details.php` | High
+25 | File | `/search.php` | Medium
+26 | File | `/searchJob.php` | High
+27 | File | `/secure/QueryComponent!Default.jspa` | High
+28 | File | `/see_more_details.php` | High
+29 | File | `/StartingPage/link_req_2.php` | High
+30 | File | `/storage.html` | High
+31 | File | `/tools/required/files/importers/imageeditor` | High
+32 | File | `/uncpath/` | Medium
+33 | File | `/uploads/tags.php` | High
+34 | File | `/userman/inbox.php` | High
+35 | File | `/UserSelfServiceSettings.jsp` | High
+36 | File | `/usr/local/contego/scripts/hostname.sh` | High
+37 | File | `/var/run/docker.sock` | High
+38 | File | `/video-sharing-script/watch-video.php` | High
 39 | ... | ... | ...
 
-There are 336 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 335 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

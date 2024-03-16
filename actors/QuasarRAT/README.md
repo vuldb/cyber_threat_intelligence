@@ -16,13 +16,14 @@ ID | IP address | Hostname | Campaign | Confidence
 4 | [142.250.64.78](https://vuldb.com/?ip.142.250.64.78) | lga34s30-in-f14.1e100.net | - | High
 5 | ... | ... | ... | ...
 
-There are 17 more IOC items available. Please use our online service to access the data.
+There are 18 more IOC items available. Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://blog.talosintelligence.com/threat-roundup-0113-0120/
+* https://www.proofpoint.com/us/blog/threat-insight/onenote-documents-increasingly-used-to-deliver-malware
 
 ## Literature
 

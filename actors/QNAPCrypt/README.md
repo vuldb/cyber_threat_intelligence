@@ -10,7 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [GB](https://vuldb.com/?country.gb)
-* [RU](https://vuldb.com/?country.ru)
+* [IT](https://vuldb.com/?country.it)
+* ...
+
+There are 1 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -21,6 +24,9 @@ ID | IP address | Hostname | Campaign | Confidence
 1 | [167.99.218.114](https://vuldb.com/?ip.167.99.218.114) | - | - | High
 2 | [176.122.23.54](https://vuldb.com/?ip.176.122.23.54) | - | - | High
 3 | [185.193.126.161](https://vuldb.com/?ip.185.193.126.161) | b9c17ea1.host.njalla.net | - | High
+4 | ... | ... | ... | ...
+
+There are 1 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -28,9 +34,9 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-22 | Path Traversal | High
 2 | T1059.007 | CWE-80 | Cross Site Scripting | High
-3 | T1068 | CWE-264, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+3 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
 4 | ... | ... | ... | ...
 
 There are 4 more TTP items available. Please use our online service to access the data.
@@ -55,6 +61,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://bazaar.abuse.ch/sample/0fa72e1644ed30436844eafc53c3003f0de056d68953673e0b5600099d0b5b8f/
 * https://bazaar.abuse.ch/sample/24b5cdfc8de10c99929b230f0dcbf7fcefe9de448eeb6c75675cfe6c44633073/
 * https://bazaar.abuse.ch/sample/fb011faabf050be96509d2e50f4b03ed6b370815b5aeef955bce3b135af533a4/
+* https://intezer.com/blog/research/seizing-15-active-ransomware-campaigns-targeting-linux-file-storage-servers/
 
 ## Literature
 

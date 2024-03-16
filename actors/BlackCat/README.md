@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [SV](https://vuldb.com/?country.sv)
-* [ES](https://vuldb.com/?country.es)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
 There are 11 more country items available. Please use our online service to access the data.
@@ -27,7 +27,7 @@ ID | IP address | Hostname | Campaign | Confidence
 4 | [45.134.20.66](https://vuldb.com/?ip.45.134.20.66) | - | - | High
 5 | ... | ... | ... | ...
 
-There are 14 more IOC items available. Please use our online service to access the data.
+There are 15 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -115,7 +115,7 @@ ID | Type | Indicator | Confidence
 62 | File | `/hss/admin/brands/manage_brand.php` | High
 63 | ... | ... | ...
 
-There are 549 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 550 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -123,6 +123,7 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://blog.talosintelligence.com/2022/03/from-blackmatter-to-blackcat-analyzing.html
 * https://threatfox.abuse.ch
+* https://www.huntress.com/blog/blackcat-ransomware-affiliate-ttps
 * https://www.ic3.gov/Media/News/2022/220420.pdf
 
 ## Literature

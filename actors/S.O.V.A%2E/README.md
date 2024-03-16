@@ -31,10 +31,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -48,38 +48,39 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/login.php` | High
 2 | File | `/admin/mechanics/manage_mechanic.php` | High
-3 | File | `/aterm_httpif.cgi/negotiate` | High
-4 | File | `/cgi-bin/kerbynet` | High
-5 | File | `/churchcrm/WhyCameEditor.php` | High
-6 | File | `/cmsms-2.1.6-install.php/index.php` | High
-7 | File | `/ControlManager/cgi-bin/VA/isaNVWRequest.dll` | High
-8 | File | `/coreframe/app/member/admin/group.php` | High
-9 | File | `/forum/away.php` | High
-10 | File | `/goform/GetNewDir` | High
-11 | File | `/guestmanagement/front.php` | High
-12 | File | `/Interface/DevManage/VM.php` | High
-13 | File | `/proc/self/environ` | High
-14 | File | `/Pwrchute` | Medium
-15 | File | `/recordings/index.php` | High
-16 | File | `/royal_event/companyprofile.php` | High
-17 | File | `/school/model/get_events.php` | High
-18 | File | `/setting_hidden.asp` | High
-19 | File | `/spip.php` | Medium
-20 | File | `/staff_login.php` | High
-21 | File | `/usr/bin/gxserve-update.sh` | High
-22 | File | `active_appointments.asp` | High
-23 | File | `add_edit_user.asp` | High
-24 | File | `admin/versions.html` | High
-25 | File | `admindocumentworker.jsp` | High
-26 | File | `albums.php` | Medium
-27 | File | `announcements.php` | High
-28 | File | `app/admin/custom-fields/edit-result.php` | High
-29 | File | `app/admin/custom-fields/edit.php` | High
-30 | File | `apply.cgi` | Medium
-31 | File | `ara.asp` | Low
-32 | ... | ... | ...
+3 | File | `/admin_route/dec_service_credits.php` | High
+4 | File | `/aterm_httpif.cgi/negotiate` | High
+5 | File | `/cgi-bin/kerbynet` | High
+6 | File | `/churchcrm/WhyCameEditor.php` | High
+7 | File | `/cmsms-2.1.6-install.php/index.php` | High
+8 | File | `/ControlManager/cgi-bin/VA/isaNVWRequest.dll` | High
+9 | File | `/coreframe/app/member/admin/group.php` | High
+10 | File | `/forum/away.php` | High
+11 | File | `/goform/GetNewDir` | High
+12 | File | `/guestmanagement/front.php` | High
+13 | File | `/Interface/DevManage/VM.php` | High
+14 | File | `/proc/self/environ` | High
+15 | File | `/Pwrchute` | Medium
+16 | File | `/recordings/index.php` | High
+17 | File | `/royal_event/companyprofile.php` | High
+18 | File | `/school/model/get_events.php` | High
+19 | File | `/setting_hidden.asp` | High
+20 | File | `/spip.php` | Medium
+21 | File | `/staff_login.php` | High
+22 | File | `/usr/bin/gxserve-update.sh` | High
+23 | File | `active_appointments.asp` | High
+24 | File | `add_edit_user.asp` | High
+25 | File | `admin/versions.html` | High
+26 | File | `admindocumentworker.jsp` | High
+27 | File | `admin_class.php` | High
+28 | File | `albums.php` | Medium
+29 | File | `announcements.php` | High
+30 | File | `app/admin/custom-fields/edit-result.php` | High
+31 | File | `app/admin/custom-fields/edit.php` | High
+32 | File | `apply.cgi` | Medium
+33 | ... | ... | ...
 
-There are 271 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 278 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -39,7 +39,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1059.007 | CWE-79 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-269 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+2 | T1068 | CWE-264, CWE-269 | Execution with Unnecessary Privileges | High
 3 | T1505 | CWE-89 | SQL Injection | High
 4 | ... | ... | ... | ...
 
@@ -56,7 +56,7 @@ ID | Type | Indicator | Confidence
 3 | File | `index.cgi` | Medium
 4 | ... | ... | ...
 
-There are 5 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 6 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

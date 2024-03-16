@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
-* [NL](https://vuldb.com/?country.nl)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
 There are 8 more country items available. Please use our online service to access the data.
@@ -144,32 +144,30 @@ ID | Type | Indicator | Confidence
 20 | File | `/bin/ate` | Medium
 21 | File | `/boat/login.php` | High
 22 | File | `/booking/show_bookings/` | High
-23 | File | `/bsms_ci/index.php/book` | High
-24 | File | `/cgi-bin` | Medium
-25 | File | `/cgi-bin/wlogin.cgi` | High
-26 | File | `/changePassword` | High
-27 | File | `/config/php.ini` | High
-28 | File | `/Content/Template/root/reverse-shell.aspx` | High
-29 | File | `/dashboard/add-blog.php` | High
-30 | File | `/data/remove` | Medium
-31 | File | `/debug/pprof` | Medium
-32 | File | `/ecshop/admin/template.php` | High
-33 | File | `/env` | Low
-34 | File | `/etc/passwd` | Medium
-35 | File | `/forum/away.php` | High
+23 | File | `/cgi-bin` | Medium
+24 | File | `/cgi-bin/wlogin.cgi` | High
+25 | File | `/changePassword` | High
+26 | File | `/config/php.ini` | High
+27 | File | `/Content/Template/root/reverse-shell.aspx` | High
+28 | File | `/dashboard/add-blog.php` | High
+29 | File | `/data/remove` | Medium
+30 | File | `/debug/pprof` | Medium
+31 | File | `/ecshop/admin/template.php` | High
+32 | File | `/env` | Low
+33 | File | `/etc/passwd` | Medium
+34 | File | `/forum/away.php` | High
+35 | File | `/goform/net\_Web\_get_value` | High
 36 | File | `/group1/uploa` | High
 37 | File | `/index.php` | Medium
-38 | File | `/medicines/profile.php` | High
-39 | File | `/myprofile.php` | High
-40 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-41 | File | `/php-sms/admin/?page=user/manage_user` | High
-42 | File | `/reservation/add_message.php` | High
-43 | File | `/resources//../` | High
-44 | File | `/spip.php` | Medium
-45 | File | `/testConnection` | High
-46 | ... | ... | ...
+38 | File | `/myprofile.php` | High
+39 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+40 | File | `/php-sms/admin/?page=user/manage_user` | High
+41 | File | `/reservation/add_message.php` | High
+42 | File | `/resources//../` | High
+43 | File | `/testConnection` | High
+44 | ... | ... | ...
 
-There are 400 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 380 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

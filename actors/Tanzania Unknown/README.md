@@ -93,10 +93,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-29, CWE-425 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-29, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -120,13 +120,13 @@ ID | Type | Indicator | Confidence
 10 | File | `/admin/read.php?mudi=announContent` | High
 11 | File | `/admin/scripts/pi-hole/phpqueryads.php` | High
 12 | File | `/api/authentication/login` | High
-13 | File | `/api/resource/Item?fields` | High
-14 | File | `/api/upload.php` | High
-15 | File | `/api/v1/terminal/sessions/?limit=1` | High
-16 | File | `/api /v3/auth` | High
-17 | File | `/app/sys1.php` | High
-18 | File | `/application/common.php#action_log` | High
-19 | File | `/APR/signup.php` | High
+13 | File | `/api/upload.php` | High
+14 | File | `/api/v1/terminal/sessions/?limit=1` | High
+15 | File | `/api /v3/auth` | High
+16 | File | `/app/sys1.php` | High
+17 | File | `/application/common.php#action_log` | High
+18 | File | `/APR/signup.php` | High
+19 | File | `/assets/php/upload.php` | High
 20 | File | `/bin/ate` | Medium
 21 | File | `/bin/rc4_crypt` | High
 22 | File | `/bitrix/admin/ldap_server_edit.php` | High
@@ -156,7 +156,7 @@ ID | Type | Indicator | Confidence
 46 | File | `/dayrui/My/View/main.html` | High
 47 | ... | ... | ...
 
-There are 412 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 407 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

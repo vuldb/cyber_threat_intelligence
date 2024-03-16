@@ -9,6 +9,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Fallchill:
 
 * [VN](https://vuldb.com/?country.vn)
+* [DK](https://vuldb.com/?country.dk)
 * [CL](https://vuldb.com/?country.cl)
 
 ## Actors
@@ -71,51 +72,42 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin/index2.html` | High
 3 | File | `/admin/sales/view_details.php` | High
 4 | File | `/api/baskets/{name}` | High
-5 | File | `/api/sys/set_passwd` | High
-6 | File | `/aqpg/users/login.php` | High
-7 | File | `/b2b-supermarket/shopping-cart` | High
-8 | File | `/bin/login` | Medium
-9 | File | `/bsms_ci/index.php/user/edit_user/` | High
-10 | File | `/calendar/minimizer/index.php` | High
-11 | File | `/cgi-bin/cstecgi.cgi` | High
-12 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-13 | File | `/cgi-bin/wlogin.cgi` | High
-14 | File | `/common/info.cgi` | High
-15 | File | `/core/conditions/AbstractWrapper.java` | High
-16 | File | `/core/tools/update_menu.php` | High
-17 | File | `/dayrui/My/Config/Install.txt` | High
-18 | File | `/DesignTools/CssEditor.aspx` | High
-19 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
-20 | File | `/DXR.axd` | Medium
-21 | File | `/endpoint/add-user.php` | High
-22 | File | `/forum/away.php` | High
-23 | File | `/forums/editforum.php` | High
+5 | File | `/aqpg/users/login.php` | High
+6 | File | `/b2b-supermarket/shopping-cart` | High
+7 | File | `/bin/login` | Medium
+8 | File | `/calendar/minimizer/index.php` | High
+9 | File | `/cgi-bin/cstecgi.cgi` | High
+10 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+11 | File | `/cgi-bin/wlogin.cgi` | High
+12 | File | `/common/info.cgi` | High
+13 | File | `/core/conditions/AbstractWrapper.java` | High
+14 | File | `/core/tools/update_menu.php` | High
+15 | File | `/dayrui/My/Config/Install.txt` | High
+16 | File | `/DesignTools/CssEditor.aspx` | High
+17 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
+18 | File | `/DXR.axd` | Medium
+19 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+20 | File | `/endpoint/add-user.php` | High
+21 | File | `/forum/away.php` | High
+22 | File | `/forums/editforum.php` | High
+23 | File | `/goform/` | Medium
 24 | File | `/gracemedia-media-player/templates/files/ajax_controller.php` | High
 25 | File | `/home/courses` | High
 26 | File | `/hrm/controller/employee.php` | High
 27 | File | `/hrm/employeeview.php` | High
 28 | File | `/importexport.php` | High
-29 | File | `/includes/db_connect.php` | High
-30 | File | `/includes/session.php` | High
-31 | File | `/index.php?menu=asterisk_cli` | High
-32 | File | `/install/` | Medium
-33 | File | `/mc` | Low
-34 | File | `/modals/class_form.php` | High
-35 | File | `/modules/projects/vw_files.php` | High
-36 | File | `/modules/public/calendar.php` | High
-37 | File | `/modules/public/date_format.php` | High
-38 | File | `/modules/tasks/gantt.php` | High
-39 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
-40 | File | `/php-opos/index.php` | High
-41 | File | `/project/tasks/list` | High
-42 | File | `/search.php` | Medium
-43 | File | `/setting` | Medium
-44 | File | `/spip.php` | Medium
-45 | File | `/SysManage/AddUpdateSites.aspx` | High
-46 | File | `/sysmanage/changelogo.php` | High
-47 | ... | ... | ...
+29 | File | `/index.php?menu=asterisk_cli` | High
+30 | File | `/install/` | Medium
+31 | File | `/ipms/imageConvert/image` | High
+32 | File | `/mc` | Low
+33 | File | `/modals/class_form.php` | High
+34 | File | `/modules/projects/vw_files.php` | High
+35 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
+36 | File | `/php-opos/index.php` | High
+37 | File | `/project/tasks/list` | High
+38 | ... | ... | ...
 
-There are 412 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 331 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

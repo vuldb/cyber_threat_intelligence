@@ -45,9 +45,9 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-22 | Path Traversal | High
 2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94 | Cross Site Scripting | High
+3 | T1059 | CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
 
 There are 13 more TTP items available. Please use our online service to access the data.
@@ -60,15 +60,15 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/departments/view_department.php` | High
 2 | File | `/aux` | Low
-3 | File | `/etc/sudoers` | Medium
-4 | File | `/items/view_item.php` | High
-5 | File | `/pages/processlogin.php` | High
-6 | File | `/uncpath/` | Medium
-7 | File | `/way4acs/enroll` | High
-8 | File | `admin/conf_users_edit.php` | High
+3 | File | `/cgi-bin/cstecgi.cgi` | High
+4 | File | `/etc/sudoers` | Medium
+5 | File | `/items/view_item.php` | High
+6 | File | `/pages/processlogin.php` | High
+7 | File | `/uncpath/` | Medium
+8 | File | `/way4acs/enroll` | High
 9 | ... | ... | ...
 
-There are 65 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 68 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

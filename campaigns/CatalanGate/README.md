@@ -35,7 +35,7 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 2 | T1505 | CWE-89 | SQL Injection | High
-3 | T1557.003 | CWE-298 | Improper Following of a Certificate's Chain of Trust | High
+3 | T1557.003 | CWE-298 | Missing Check for Certificate Revocation after Initial Check | High
 4 | ... | ... | ... | ...
 
 There are 1 more TTP items available. Please use our online service to access the data.

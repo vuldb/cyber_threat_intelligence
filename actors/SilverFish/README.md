@@ -46,10 +46,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-94 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -80,28 +80,28 @@ ID | Type | Indicator | Confidence
 17 | File | `/goform/SetFirewallCfg` | High
 18 | File | `/goform/SysToolChangePwd` | High
 19 | File | `/nidp/app/login` | High
-20 | File | `/pms/admin/crimes/manage_crime.php` | High
-21 | File | `/proc` | Low
-22 | File | `/rapi/read_url` | High
+20 | File | `/php/ping.php` | High
+21 | File | `/pms/admin/crimes/manage_crime.php` | High
+22 | File | `/proc` | Low
 23 | File | `/release-x64/otfccdump` | High
 24 | File | `/sbin/conf.d/SuSEconfig.javarunt` | High
 25 | File | `/scripts/unlock_tasks.php` | High
 26 | File | `/see_more_details.php` | High
 27 | File | `/sitecore/shell/Invoke.aspx` | High
-28 | File | `/system/user/modules/mod_users/controller.php` | High
-29 | File | `/tmp` | Low
-30 | File | `/uncpath/` | Medium
-31 | File | `/usr/lib/utmp_update` | High
-32 | File | `/usr/local` | Medium
-33 | File | `/wp-admin` | Medium
-34 | File | `2020\Messages\SDNotify.exe` | High
-35 | File | `adclick.php` | Medium
-36 | File | `admin/plugin-index.php` | High
-37 | File | `administration` | High
-38 | File | `administrative` | High
+28 | File | `/SysInfo1.htm` | High
+29 | File | `/sysinfo_json.cgi` | High
+30 | File | `/system/user/modules/mod_users/controller.php` | High
+31 | File | `/tmp` | Low
+32 | File | `/uncpath/` | Medium
+33 | File | `/usr/lib/utmp_update` | High
+34 | File | `/usr/local` | Medium
+35 | File | `/wp-admin` | Medium
+36 | File | `2020\Messages\SDNotify.exe` | High
+37 | File | `adclick.php` | Medium
+38 | File | `admin/plugin-index.php` | High
 39 | ... | ... | ...
 
-There are 331 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 334 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

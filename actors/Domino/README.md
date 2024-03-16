@@ -34,10 +34,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -67,14 +67,16 @@ ID | Type | Indicator | Confidence
 16 | File | `/nova/bin/console` | High
 17 | File | `/nova/bin/detnet` | High
 18 | File | `/out.php` | Medium
-19 | File | `/rapi/read_url` | High
-20 | File | `/req_password_user.php` | High
-21 | File | `/rom-0` | Low
-22 | File | `/scripts/unlock_tasks.php` | High
-23 | File | `/secure/QueryComponent!Default.jspa` | High
-24 | ... | ... | ...
+19 | File | `/php/ping.php` | High
+20 | File | `/rapi/read_url` | High
+21 | File | `/req_password_user.php` | High
+22 | File | `/rom-0` | Low
+23 | File | `/scripts/unlock_tasks.php` | High
+24 | File | `/secure/QueryComponent!Default.jspa` | High
+25 | File | `/ServletAPI/accounts/login` | High
+26 | ... | ... | ...
 
-There are 203 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 217 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

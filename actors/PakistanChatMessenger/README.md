@@ -34,9 +34,9 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-24 | Pathname Traversal | High
+1 | T1006 | CWE-22, CWE-24 | Path Traversal | High
 2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94 | Cross Site Scripting | High
+3 | T1059 | CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
@@ -55,24 +55,25 @@ ID | Type | Indicator | Confidence
 5 | File | `/admin/user/manage_user.php` | High
 6 | File | `/administration/settings_registration.php` | High
 7 | File | `/ajax-files/postComment.php` | High
-8 | File | `/auth/auth.php?user=1` | High
-9 | File | `/blog` | Low
-10 | File | `/categorypage.php` | High
-11 | File | `/cgi-bin/cstecgi.cgi` | High
-12 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-13 | File | `/classes/Master.php` | High
-14 | File | `/collection/all` | High
-15 | File | `/home.php` | Medium
-16 | File | `/list_temp_photo_pin_upload.php` | High
-17 | File | `/login` | Low
-18 | File | `/nova/bin/detnet` | High
-19 | File | `/print.php` | Medium
-20 | File | `/searchpin.php` | High
-21 | File | `/service/upload` | High
-22 | File | `/services/Card/findUser` | High
-23 | ... | ... | ...
+8 | File | `/application/index/controller/File.php` | High
+9 | File | `/application/index/controller/Screen.php` | High
+10 | File | `/application/websocket/controller/Setting.php` | High
+11 | File | `/auth/auth.php?user=1` | High
+12 | File | `/blog` | Low
+13 | File | `/categorypage.php` | High
+14 | File | `/cgi-bin/cstecgi.cgi` | High
+15 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+16 | File | `/classes/Master.php` | High
+17 | File | `/collection/all` | High
+18 | File | `/general/email/outbox/delete.php` | High
+19 | File | `/home.php` | Medium
+20 | File | `/list_temp_photo_pin_upload.php` | High
+21 | File | `/login` | Low
+22 | File | `/nova/bin/detnet` | High
+23 | File | `/print.php` | Medium
+24 | ... | ... | ...
 
-There are 193 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 204 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

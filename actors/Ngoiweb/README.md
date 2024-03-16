@@ -8,8 +8,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Ngoiweb:
 
-* [GB](https://vuldb.com/?country.gb)
 * [US](https://vuldb.com/?country.us)
+* [GB](https://vuldb.com/?country.gb)
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
@@ -38,9 +38,9 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-24 | Pathname Traversal | High
+1 | T1006 | CWE-22, CWE-24 | Path Traversal | High
 2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94 | Cross Site Scripting | High
+3 | T1059 | CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
 
 There are 10 more TTP items available. Please use our online service to access the data.
@@ -51,16 +51,19 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/catcompany.php` | High
-2 | File | `/cgi-bin/adm.cgi` | High
-3 | File | `/cgi-bin/cstecgi.cgi` | High
-4 | File | `/eclime/manufacturers.php` | High
-5 | File | `/forum/away.php` | High
-6 | File | `/Login` | Low
-7 | File | `/uncpath/` | Medium
-8 | ... | ... | ...
+1 | File | `/apply/index.php` | High
+2 | File | `/catcompany.php` | High
+3 | File | `/cgi-bin/adm.cgi` | High
+4 | File | `/cgi-bin/cstecgi.cgi` | High
+5 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+6 | File | `/eclime/manufacturers.php` | High
+7 | File | `/forum/away.php` | High
+8 | File | `/include/file.php` | High
+9 | File | `/Login` | Low
+10 | File | `/uncpath/` | Medium
+11 | ... | ... | ...
 
-There are 61 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 80 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -41,12 +41,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-36, CWE-37, CWE-425 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-36, CWE-37, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+6 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 7 | ... | ... | ... | ...
 
 There are 23 more TTP items available. Please use our online service to access the data.
@@ -71,40 +71,41 @@ ID | Type | Indicator | Confidence
 12 | File | `/api/plugin/uninstall` | High
 13 | File | `/api2/html/` | Medium
 14 | File | `/app/Http/Controllers/ImageController.php` | High
-15 | File | `/Applications/Utilities/Terminal` | High
-16 | File | `/Attachment/fromImageUrl` | High
-17 | File | `/b2b-supermarket/shopping-cart` | High
-18 | File | `/baseOpLog.do` | High
-19 | File | `/bin/boa` | Medium
-20 | File | `/cgi-bin/cstecgi.cgi` | High
-21 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-22 | File | `/cms/category/list` | High
-23 | File | `/config.cgi?webmin` | High
-24 | File | `/edoc/doctor/patient.php` | High
-25 | File | `/etc/passwd` | Medium
-26 | File | `/filemanager/php/connector.php` | High
-27 | File | `/Forms/tools_test_1` | High
-28 | File | `/forum/away.php` | High
-29 | File | `/forum/PostPrivateMessage` | High
-30 | File | `/general/search.php?searchtype=simple` | High
-31 | File | `/goform/setSnmpInfo` | High
-32 | File | `/goform/WifiBasicSet` | High
-33 | File | `/HNAP1` | Low
-34 | File | `/home/cavesConsole` | High
-35 | File | `/irj/portal/` | Medium
-36 | File | `/log/download.php` | High
-37 | File | `/login` | Low
-38 | File | `/mgm_dev_reboot.asp` | High
-39 | File | `/opt/tplink/EAPController/lib/eap-web-3.2.6.jar` | High
-40 | File | `/param.file.tgz` | High
-41 | File | `/patient/appointment.php` | High
-42 | File | `/product.php` | Medium
-43 | File | `/public/launchNewWindow.jsp` | High
-44 | File | `/search.php` | Medium
-45 | File | `/Status/wan_button_action.asp` | High
-46 | ... | ... | ...
+15 | File | `/application/index/controller/File.php` | High
+16 | File | `/application/index/controller/Icon.php` | High
+17 | File | `/application/index/controller/Screen.php` | High
+18 | File | `/application/websocket/controller/Setting.php` | High
+19 | File | `/Applications/Utilities/Terminal` | High
+20 | File | `/Attachment/fromImageUrl` | High
+21 | File | `/b2b-supermarket/shopping-cart` | High
+22 | File | `/baseOpLog.do` | High
+23 | File | `/bin/boa` | Medium
+24 | File | `/cgi-bin/cstecgi.cgi` | High
+25 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+26 | File | `/cms/category/list` | High
+27 | File | `/config.cgi?webmin` | High
+28 | File | `/edit.php` | Medium
+29 | File | `/edoc/doctor/patient.php` | High
+30 | File | `/etc/passwd` | Medium
+31 | File | `/filemanager/php/connector.php` | High
+32 | File | `/Forms/tools_test_1` | High
+33 | File | `/forum/away.php` | High
+34 | File | `/forum/PostPrivateMessage` | High
+35 | File | `/general/search.php?searchtype=simple` | High
+36 | File | `/goform/setSnmpInfo` | High
+37 | File | `/goform/WifiBasicSet` | High
+38 | File | `/HNAP1` | Low
+39 | File | `/home/cavesConsole` | High
+40 | File | `/irj/portal/` | Medium
+41 | File | `/log/download.php` | High
+42 | File | `/login` | Low
+43 | File | `/mgm_dev_reboot.asp` | High
+44 | File | `/opt/tplink/EAPController/lib/eap-web-3.2.6.jar` | High
+45 | File | `/param.file.tgz` | High
+46 | File | `/patient/appointment.php` | High
+47 | ... | ... | ...
 
-There are 401 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 410 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

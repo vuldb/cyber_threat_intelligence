@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 3 more country items available. Please use our online service to access the data.
+There are 5 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -26,7 +26,7 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [20.102.61.215](https://vuldb.com/?ip.20.102.61.215) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 4 more IOC items available. Please use our online service to access the data.
+There are 7 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -34,10 +34,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-22 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-94 | Argument Injection | High
 5 | ... | ... | ... | ...
 
 There are 15 more TTP items available. Please use our online service to access the data.
@@ -66,9 +66,11 @@ ID | Type | Indicator | Confidence
 16 | File | `/goform/RgDhcp` | High
 17 | File | `/goform/RGFirewallEL` | High
 18 | File | `/goform/RgTime` | High
-19 | ... | ... | ...
+19 | File | `/goform/RgUrlBlock.asp` | High
+20 | File | `/goform/wlanPrimaryNetwork` | High
+21 | ... | ... | ...
 
-There are 153 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 176 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

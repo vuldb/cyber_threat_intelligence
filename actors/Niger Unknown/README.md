@@ -38,10 +38,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -76,42 +76,43 @@ ID | Type | Indicator | Confidence
 21 | File | `/collection/all` | High
 22 | File | `/config,admin.jsp` | High
 23 | File | `/config/list` | Medium
-24 | File | `/coreframe/app/guestbook/myissue.php` | High
-25 | File | `/dede/co_do.php` | High
-26 | File | `/DXR.axd` | Medium
-27 | File | `/etc/init.d/sshd_service` | High
-28 | File | `/filemanager/upload.php` | High
-29 | File | `/forum/away.php` | High
-30 | File | `/fuel/sitevariables/delete/4` | High
-31 | File | `/goform/saveParentControlInfo` | High
-32 | File | `/goform/setBlackRule` | High
-33 | File | `/goform/setSnmpInfo` | High
-34 | File | `/healthcare/Admin/consulting_detail.php` | High
-35 | File | `/if.cgi` | Low
-36 | File | `/include/make.php` | High
-37 | File | `/index.php` | Medium
-38 | File | `/index.php/admins/Fields/get_fields.html` | High
-39 | File | `/login` | Low
-40 | File | `/mgm_dev_reset.asp` | High
-41 | File | `/mifs/c/i/reg/reg.html` | High
-42 | File | `/modules/profile/index.php` | High
-43 | File | `/news.dtl.php` | High
-44 | File | `/odlms/classes/Master.php?f=delete_message` | High
-45 | File | `/php-sms/classes/SystemSettings.php` | High
-46 | File | `/php_action/createUser.php` | High
-47 | File | `/release-x64/otfccdump+0x6e7e3d` | High
-48 | File | `/reps/admin/?page=agents/manage_agent` | High
-49 | File | `/see_more_details.php` | High
-50 | File | `/services/Card/findUser` | High
-51 | File | `/services/details.asp` | High
-52 | File | `/setup` | Low
-53 | File | `/spip.php` | Medium
-54 | File | `/src/njs_object.c` | High
-55 | File | `/system/menu/list` | High
-56 | File | `/system/user/modules/mod_users/controller.php` | High
-57 | ... | ... | ...
+24 | File | `/core/config-revisions` | High
+25 | File | `/coreframe/app/guestbook/myissue.php` | High
+26 | File | `/dede/co_do.php` | High
+27 | File | `/DXR.axd` | Medium
+28 | File | `/etc/init.d/sshd_service` | High
+29 | File | `/filemanager/upload.php` | High
+30 | File | `/forum/away.php` | High
+31 | File | `/fuel/sitevariables/delete/4` | High
+32 | File | `/goform/saveParentControlInfo` | High
+33 | File | `/goform/setBlackRule` | High
+34 | File | `/goform/setSnmpInfo` | High
+35 | File | `/healthcare/Admin/consulting_detail.php` | High
+36 | File | `/hospital_activities/birth/form` | High
+37 | File | `/if.cgi` | Low
+38 | File | `/include/make.php` | High
+39 | File | `/index.php` | Medium
+40 | File | `/index.php/admins/Fields/get_fields.html` | High
+41 | File | `/login` | Low
+42 | File | `/mgm_dev_reset.asp` | High
+43 | File | `/mifs/c/i/reg/reg.html` | High
+44 | File | `/modules/profile/index.php` | High
+45 | File | `/news.dtl.php` | High
+46 | File | `/odlms/classes/Master.php?f=delete_message` | High
+47 | File | `/php-sms/classes/SystemSettings.php` | High
+48 | File | `/php_action/createUser.php` | High
+49 | File | `/release-x64/otfccdump+0x6e7e3d` | High
+50 | File | `/reps/admin/?page=agents/manage_agent` | High
+51 | File | `/see_more_details.php` | High
+52 | File | `/services/Card/findUser` | High
+53 | File | `/services/details.asp` | High
+54 | File | `/setup` | Low
+55 | File | `/spip.php` | Medium
+56 | File | `/src/njs_object.c` | High
+57 | File | `/system/menu/list` | High
+58 | ... | ... | ...
 
-There are 502 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 509 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

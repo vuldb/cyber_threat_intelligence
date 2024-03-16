@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
-* [GB](https://vuldb.com/?country.gb)
+* [IL](https://vuldb.com/?country.il)
 * ...
 
-There are 23 more country items available. Please use our online service to access the data.
+There are 19 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -1325,15 +1325,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-425 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-25, CWE-36 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-94 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
-7 | ... | ... | ... | ...
+6 | ... | ... | ... | ...
 
-There are 23 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -1342,62 +1341,59 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `%SYSTEMDRIVE%\node_modules\.bin\wmic.exe` | High
-2 | File | `/admin/action/new-feed.php` | High
-3 | File | `/admin/borrow_add.php` | High
-4 | File | `/admin/controller/JobLogController.java` | High
-5 | File | `/admin/ind_backstage.php` | High
-6 | File | `/admin/list_addr_fwresource_ip.php` | High
-7 | File | `/admin/pages/subjects.php` | High
-8 | File | `/admin/pages/yearlevel.php` | High
-9 | File | `/admin/save.php` | High
-10 | File | `/admin/students/update_status.php` | High
-11 | File | `/adplanet/PlanetCommentList` | High
-12 | File | `/api/authentication/login` | High
-13 | File | `/api/download` | High
-14 | File | `/api/log/killJob` | High
-15 | File | `/api/sys/login` | High
-16 | File | `/api/sys/set_passwd` | High
-17 | File | `/api/trackedEntityInstances` | High
-18 | File | `/api/v1/alerts` | High
-19 | File | `/api/v1/terminal/sessions/?limit=1` | High
-20 | File | `/aux` | Low
-21 | File | `/b2b-supermarket/shopping-cart` | High
-22 | File | `/boaform/device_reset.cgi` | High
-23 | File | `/catalog/compare` | High
-24 | File | `/category.php` | High
-25 | File | `/categorypage.php` | High
-26 | File | `/cgi-bin/vitogate.cgi` | High
-27 | File | `/change-language/de_DE` | High
-28 | File | `/changePassword` | High
+2 | File | `/#ilang=DE&b=c_smartenergy_swgroups` | High
+3 | File | `/Account/login.php` | High
+4 | File | `/admin/` | Low
+5 | File | `/admin/action/new-feed.php` | High
+6 | File | `/admin/admin_login_process.php` | High
+7 | File | `/admin/borrow_add.php` | High
+8 | File | `/admin/ind_backstage.php` | High
+9 | File | `/admin/list_ipAddressPolicy.php` | High
+10 | File | `/admin/pages/subjects.php` | High
+11 | File | `/admin/pages/yearlevel.php` | High
+12 | File | `/admin/product/manage_product.php` | High
+13 | File | `/adminapi/system/crud` | High
+14 | File | `/adminapi/system/file/openfile` | High
+15 | File | `/admin_route/dec_service_credits.php` | High
+16 | File | `/adplanet/PlanetCommentList` | High
+17 | File | `/api/controllers/merchant/app/ComboController.php` | High
+18 | File | `/api/log/killJob` | High
+19 | File | `/api/trackedEntityInstances` | High
+20 | File | `/api/v4/teams//channels/deleted` | High
+21 | File | `/app/controller/Setup.php` | High
+22 | File | `/app/middleware/TokenVerify.php` | High
+23 | File | `/att_add.php` | Medium
+24 | File | `/aux` | Low
+25 | File | `/b2b-supermarket/shopping-cart` | High
+26 | File | `/boaform/device_reset.cgi` | High
+27 | File | `/cgi-bin/cstecgi.cgi` | High
+28 | File | `/change-language/de_DE` | High
 29 | File | `/config,admin.jsp` | High
-30 | File | `/dashboard/add-blog.php` | High
-31 | File | `/data/remove` | Medium
-32 | File | `/debug/pprof` | Medium
-33 | File | `/dist/index.js` | High
-34 | File | `/download/image` | High
-35 | File | `/ecshop/admin/template.php` | High
+30 | File | `/currentsetting.htm` | High
+31 | File | `/dashboard/Cinvoice/manage_invoice` | High
+32 | File | `/data/remove` | Medium
+33 | File | `/debug/pprof` | Medium
+34 | File | `/devinfo` | Medium
+35 | File | `/dist/index.js` | High
 36 | File | `/endpoint/delete-user.php` | High
-37 | File | `/fcgi/scrut_fcgi.fcgi` | High
-38 | File | `/file-manager/rename.php` | High
-39 | File | `/forum/away.php` | High
-40 | File | `/general/ipanel/menu_code.php?MENU_TYPE=FAV` | High
-41 | File | `/geoserver/gwc/rest.html` | High
-42 | File | `/goform/formSysCmd` | High
-43 | File | `/HNAP1` | Low
-44 | File | `/home/get_tasks_list` | High
+37 | File | `/endpoint/update-flashcard.php` | High
+38 | File | `/etc/passwd` | Medium
+39 | File | `/ext/collect/filter_text.do` | High
+40 | File | `/file-manager/rename.php` | High
+41 | File | `/forum/away.php` | High
+42 | File | `/general/email/outbox/delete.php` | High
+43 | File | `/goform/formSysCmd` | High
+44 | File | `/goform/setcfm` | High
 45 | File | `/hosts/firewall/ip` | High
-46 | File | `/importexport.php` | High
+46 | File | `/index.jsp#settings` | High
 47 | File | `/index.php` | Medium
 48 | File | `/index.php/ccm/system/file/upload` | High
-49 | File | `/index.php/sysmanage/Login/login_auth/` | High
+49 | File | `/Interface/DevManage/VM.php` | High
 50 | File | `/log/decodmail.php` | High
 51 | File | `/log/download.php` | High
-52 | File | `/LoginRegistration.php` | High
-53 | File | `/mhds/clinic/view_details.php` | High
-54 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-55 | ... | ... | ...
+52 | ... | ... | ...
 
-There are 479 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 457 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

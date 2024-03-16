@@ -9,6 +9,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Campaign A:
 
 * [US](https://vuldb.com/?country.us)
+* [IT](https://vuldb.com/?country.it)
 * [CN](https://vuldb.com/?country.cn)
 
 ## Actors
@@ -44,8 +45,8 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Pathname Traversal | High
-2 | T1059 | CWE-94 | Cross Site Scripting | High
+1 | T1006 | CWE-22 | Path Traversal | High
+2 | T1059 | CWE-94 | Argument Injection | High
 3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
@@ -65,26 +66,27 @@ ID | Type | Indicator | Confidence
 6 | File | `3.6.cpj` | Low
 7 | File | `404.php` | Low
 8 | File | `adclick.php` | Medium
-9 | File | `admin.asp` | Medium
-10 | File | `admin.aspx` | Medium
-11 | File | `admin.php` | Medium
-12 | File | `admin/conf_users_edit.php` | High
-13 | File | `admin/member_details.php` | High
-14 | File | `admin_chatconfig.php` | High
-15 | File | `admin_iplog.php` | High
-16 | File | `ajaxp.php` | Medium
-17 | File | `alphabet.php` | Medium
-18 | File | `app/controllers/oauth.js` | High
-19 | File | `article2/comments.inc.php` | High
-20 | File | `articles/edit.php` | High
-21 | File | `assp.pl` | Low
-22 | File | `awstats.pl` | Medium
-23 | File | `be_config.php` | High
-24 | File | `bridge/yabbse.inc.php` | High
-25 | File | `calendar_Eventupdate.asp` | High
-26 | ... | ... | ...
+9 | File | `add-testimonial.php` | High
+10 | File | `admin.asp` | Medium
+11 | File | `admin.aspx` | Medium
+12 | File | `admin.php` | Medium
+13 | File | `admin/conf_users_edit.php` | High
+14 | File | `admin/member_details.php` | High
+15 | File | `admin_chatconfig.php` | High
+16 | File | `admin_iplog.php` | High
+17 | File | `ajaxp.php` | Medium
+18 | File | `alphabet.php` | Medium
+19 | File | `app/controllers/oauth.js` | High
+20 | File | `article2/comments.inc.php` | High
+21 | File | `articles/edit.php` | High
+22 | File | `assp.pl` | Low
+23 | File | `awstats.pl` | Medium
+24 | File | `be_config.php` | High
+25 | File | `bridge/yabbse.inc.php` | High
+26 | File | `calendar_Eventupdate.asp` | High
+27 | ... | ... | ...
 
-There are 220 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 228 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -10,6 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [PT](https://vuldb.com/?country.pt)
+* [SV](https://vuldb.com/?country.sv)
+* ...
+
+There are 8 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -20,6 +24,9 @@ ID | IP address | Hostname | Campaign | Confidence
 1 | [5.2.68.94](https://vuldb.com/?ip.5.2.68.94) | - | - | High
 2 | [51.195.57.229](https://vuldb.com/?ip.51.195.57.229) | ip229.ip-51-195-57.eu | - | High
 3 | [51.195.57.236](https://vuldb.com/?ip.51.195.57.236) | ip236.ip-51-195-57.eu | - | High
+4 | ... | ... | ... | ...
+
+There are 1 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -27,12 +34,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Pathname Traversal | High
-2 | T1059 | CWE-88 | Cross Site Scripting | High
-3 | T1059.007 | CWE-79 | Cross Site Scripting | High
+1 | T1006 | CWE-21, CWE-22, CWE-36 | Path Traversal | High
+2 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
+3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 2 more TTP items available. Please use our online service to access the data.
+There are 14 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -40,18 +47,26 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `api/account/register` | High
-2 | File | `index.js` | Medium
-3 | File | `index.php` | Medium
-4 | ... | ... | ...
+1 | File | `/action/ipcamSetParamPost` | High
+2 | File | `/admin/?page=orders/view_order` | High
+3 | File | `/admin/add_exercises.php` | High
+4 | File | `/admin/baojia_list.php` | High
+5 | File | `/adminui/history_log.php` | High
+6 | File | `/ajax/remove_sniffer_raw_log/` | High
+7 | File | `/bin/httpd` | Medium
+8 | File | `/dist/index.js` | High
+9 | File | `/goform/AddSysLogRule` | High
+10 | File | `/goform/delDhcpRules/` | High
+11 | ... | ... | ...
 
-There are 5 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 82 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://threatfox.abuse.ch
+* https://www.proofpoint.com/us/blog/threat-insight/security-brief-tis-season-tax-hax
 
 ## Literature
 

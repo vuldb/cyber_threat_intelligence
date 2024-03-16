@@ -38,10 +38,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23 | Pathname Traversal | High
+1 | T1006 | CWE-22, CWE-23 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-94 | Argument Injection | High
 5 | ... | ... | ... | ...
 
 There are 17 more TTP items available. Please use our online service to access the data.
@@ -71,17 +71,18 @@ ID | Type | Indicator | Confidence
 17 | File | `/private/var` | Medium
 18 | File | `/sanadata/seo/index.asp` | High
 19 | File | `/secure/QueryComponent!Default.jspa` | High
-20 | File | `/uncpath/` | Medium
-21 | File | `/var/tmp/audacity-$USER` | High
-22 | File | `adclick.php` | Medium
-23 | File | `admin/components/menu/views/menuitems.php` | High
-24 | File | `admin/convertutf8/index.php` | High
-25 | File | `admin/download.php` | High
-26 | File | `admin/editusertag.php` | High
-27 | File | `adm_config_report.php` | High
-28 | ... | ... | ...
+20 | File | `/travel-journal/write-journal.php` | High
+21 | File | `/uncpath/` | Medium
+22 | File | `/var/tmp/audacity-$USER` | High
+23 | File | `adclick.php` | Medium
+24 | File | `admin/components/menu/views/menuitems.php` | High
+25 | File | `admin/convertutf8/index.php` | High
+26 | File | `admin/download.php` | High
+27 | File | `admin/editusertag.php` | High
+28 | File | `adm_config_report.php` | High
+29 | ... | ... | ...
 
-There are 241 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 242 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

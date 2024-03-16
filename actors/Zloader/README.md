@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 4 more country items available. Please use our online service to access the data.
+There are 5 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -42,9 +42,9 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-24 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-24 | Path Traversal | High
 2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 4 | ... | ... | ... | ...
 
 There are 14 more TTP items available. Please use our online service to access the data.
@@ -67,28 +67,30 @@ ID | Type | Indicator | Confidence
 10 | File | `/admin/service.php` | High
 11 | File | `/admin/sys_sql_query.php` | High
 12 | File | `/admin/user/team` | High
-13 | File | `/adplanet/PlanetCommentList` | High
-14 | File | `/ajax.php?action=read_msg` | High
-15 | File | `/api/ping` | Medium
-16 | File | `/apply/index.php` | High
-17 | File | `/baseOpLog.do` | High
-18 | File | `/bcms/admin/?page=user/list` | High
-19 | File | `/blog` | Low
-20 | File | `/blog-single.php` | High
-21 | File | `/cgi-bin/adm.cgi` | High
-22 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
-23 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-24 | File | `/classes/Master.php?f=save_inquiry` | High
-25 | File | `/classes/Users.php?f=save` | High
-26 | File | `/collection/all` | High
-27 | File | `/Duty/AjaxHandle/UpLoadFloodPlanFile.ashx` | High
-28 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
-29 | File | `/home/cavesConsole` | High
-30 | File | `/include/file.php` | High
-31 | File | `/index.php` | Medium
-32 | ... | ... | ...
+13 | File | `/admin_ping.htm` | High
+14 | File | `/adplanet/PlanetCommentList` | High
+15 | File | `/ajax.php?action=read_msg` | High
+16 | File | `/api/ping` | Medium
+17 | File | `/application/index/controller/Databasesource.php` | High
+18 | File | `/application/index/controller/Screen.php` | High
+19 | File | `/application/websocket/controller/Setting.php` | High
+20 | File | `/apply/index.php` | High
+21 | File | `/baseOpLog.do` | High
+22 | File | `/bcms/admin/?page=user/list` | High
+23 | File | `/blog` | Low
+24 | File | `/blog-single.php` | High
+25 | File | `/cgi-bin/adm.cgi` | High
+26 | File | `/cgi-bin/cstecgi.cgi` | High
+27 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
+28 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+29 | File | `/classes/Master.php?f=save_inquiry` | High
+30 | File | `/classes/Users.php?f=save` | High
+31 | File | `/collection/all` | High
+32 | File | `/Duty/AjaxHandle/UpLoadFloodPlanFile.ashx` | High
+33 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
+34 | ... | ... | ...
 
-There are 268 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 286 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

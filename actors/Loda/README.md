@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [US](https://vuldb.com/?country.us)
 * ...
 
-There are 6 more country items available. Please use our online service to access the data.
+There are 8 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -29,7 +29,7 @@ ID | IP address | Hostname | Campaign | Confidence
 6 | [45.155.249.183](https://vuldb.com/?ip.45.155.249.183) | - | - | High
 7 | ... | ... | ... | ...
 
-There are 24 more IOC items available. Please use our online service to access the data.
+There are 25 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -37,14 +37,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-29 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -52,59 +52,52 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/academy/home/courses` | High
-2 | File | `/admin/add-category.php` | High
-3 | File | `/admin/config/uploadicon.php` | High
-4 | File | `/admin/course.php` | High
-5 | File | `/admin/del_feedback.php` | High
-6 | File | `/admin/general/change-lang` | High
-7 | File | `/admin/index2.html` | High
+1 | File | `/admin/add-category.php` | High
+2 | File | `/admin/config/uploadicon.php` | High
+3 | File | `/admin/course.php` | High
+4 | File | `/admin/general/change-lang` | High
+5 | File | `/admin/index2.html` | High
+6 | File | `/admin/list_resource_icon.php?action=delete` | High
+7 | File | `/admin/orders/view_order.php` | High
 8 | File | `/admin/plugin.php` | High
 9 | File | `/adv_resource` | High
-10 | File | `/api/authentication/login` | High
-11 | File | `/api/database` | High
+10 | File | `/alogin.html` | Medium
+11 | File | `/api/authentication/login` | High
 12 | File | `/api/upload.php` | High
 13 | File | `/api/v1/terminal/sessions/?limit=1` | High
 14 | File | `/api/v4/opengraph` | High
-15 | File | `/app/api/controller/default/Sqlite.php` | High
-16 | File | `/App_Resource/UEditor/server/upload.aspx` | High
-17 | File | `/bookstore/bookPerPub.php` | High
-18 | File | `/c/PluginsController.php` | High
-19 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-20 | File | `/cgi-bin/qcmap_auth` | High
-21 | File | `/cgi-bin/vitogate.cgi` | High
-22 | File | `/collection/all` | High
-23 | File | `/common/info.cgi` | High
-24 | File | `/config/getuser` | High
-25 | File | `/course/filterRecords/` | High
-26 | File | `/download/image` | High
-27 | File | `/DXR.axd` | Medium
-28 | File | `/ecrire/exec/puce_statut.php` | High
-29 | File | `/files/` | Low
-30 | File | `/forum/away.php` | High
-31 | File | `/getcfg.php` | Medium
-32 | File | `/goform/goform_get_cmd_process` | High
-33 | File | `/goform/setModules` | High
-34 | File | `/goform/telnet` | High
-35 | File | `/gracemedia-media-player/templates/files/ajax_controller.php` | High
-36 | File | `/graphql` | Medium
-37 | File | `/gui/terminal_tool.cgi` | High
-38 | File | `/home/filter_listings` | High
-39 | File | `/include/chart_generator.php` | High
-40 | File | `/index.php` | Medium
-41 | File | `/instance/detail` | High
-42 | File | `/items/search` | High
-43 | File | `/jsoa/hntdCustomDesktopActionContent` | High
-44 | File | `/knowage/restful-services/dossier/importTemplateFile` | High
-45 | File | `/languages/install.php` | High
-46 | File | `/log/decodmail.php` | High
-47 | File | `/login.php` | Medium
-48 | File | `/login.php?do=login` | High
-49 | File | `/m4pdf/pdf.php` | High
-50 | File | `/mc` | Low
-51 | ... | ... | ...
+15 | File | `/api/{org_id}/users/{email_id}` | High
+16 | File | `/app/api/controller/default/Sqlite.php` | High
+17 | File | `/app/zentao/module/repo/model.php` | High
+18 | File | `/application/index/controller/Pay.php` | High
+19 | File | `/bookstore/bookPerPub.php` | High
+20 | File | `/cgi-bin/cstecgi.cgi` | High
+21 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+22 | File | `/cgi-bin/qcmap_auth` | High
+23 | File | `/cgi-bin/vitogate.cgi` | High
+24 | File | `/collection/all` | High
+25 | File | `/configs/application.ini` | High
+26 | File | `/course/filterRecords/` | High
+27 | File | `/cupseasylive/taxcodecreate.php` | High
+28 | File | `/download/image` | High
+29 | File | `/DXR.axd` | Medium
+30 | File | `/ecrire/exec/puce_statut.php` | High
+31 | File | `/files/` | Low
+32 | File | `/forum/away.php` | High
+33 | File | `/getcfg.php` | Medium
+34 | File | `/goform/goform_get_cmd_process` | High
+35 | File | `/goform/setAutoPing` | High
+36 | File | `/goform/setModules` | High
+37 | File | `/goform/telnet` | High
+38 | File | `/gracemedia-media-player/templates/files/ajax_controller.php` | High
+39 | File | `/gui/terminal_tool.cgi` | High
+40 | File | `/h/autoSaveDraft` | High
+41 | File | `/include/file.php` | High
+42 | File | `/index.php?menu=asterisk_cli` | High
+43 | File | `/install.php?m=install&c=index&a=step3` | High
+44 | ... | ... | ...
 
-There are 442 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 384 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

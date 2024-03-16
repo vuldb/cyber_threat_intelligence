@@ -35,10 +35,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Path Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -74,18 +74,19 @@ ID | Type | Indicator | Confidence
 22 | File | `/nova/bin/detnet` | High
 23 | File | `/out.php` | Medium
 24 | File | `/php-sms/classes/Master.php?f=save_quote` | High
-25 | File | `/rapi/read_url` | High
-26 | File | `/req_password_user.php` | High
-27 | File | `/rom-0` | Low
-28 | File | `/scripts/unlock_tasks.php` | High
-29 | File | `/secure/QueryComponent!Default.jspa` | High
-30 | File | `/ServletAPI/accounts/login` | High
-31 | File | `/setNTP.cgi` | Medium
-32 | File | `/student/bookdetails.php` | High
-33 | File | `/system/user/modules/mod_users/controller.php` | High
-34 | ... | ... | ...
+25 | File | `/php/ping.php` | High
+26 | File | `/rapi/read_url` | High
+27 | File | `/req_password_user.php` | High
+28 | File | `/rom-0` | Low
+29 | File | `/scripts/unlock_tasks.php` | High
+30 | File | `/secure/QueryComponent!Default.jspa` | High
+31 | File | `/ServletAPI/accounts/login` | High
+32 | File | `/setNTP.cgi` | Medium
+33 | File | `/student/bookdetails.php` | High
+34 | File | `/SysInfo1.htm` | High
+35 | ... | ... | ...
 
-There are 286 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 300 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

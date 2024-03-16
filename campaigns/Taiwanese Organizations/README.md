@@ -42,10 +42,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-29, CWE-425 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-29, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -58,51 +58,51 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/act/ActDao.xml` | High
-2 | File | `/admin.php?action=themeinstall` | High
-3 | File | `/admin/?page=product/manage_product&id=2` | High
-4 | File | `/admin/?setting-base.htm` | High
-5 | File | `/admin/bookings/manage_booking.php` | High
-6 | File | `/admin/controller/JobLogController.java` | High
-7 | File | `/admin/del_service.php` | High
-8 | File | `/admin/index.php` | High
-9 | File | `/admin/index2.html` | High
+2 | File | `/admin/?page=product/manage_product&id=2` | High
+3 | File | `/admin/?setting-base.htm` | High
+4 | File | `/admin/bookings/manage_booking.php` | High
+5 | File | `/admin/controller/JobLogController.java` | High
+6 | File | `/admin/del_service.php` | High
+7 | File | `/admin/index.php` | High
+8 | File | `/admin/index2.html` | High
+9 | File | `/admin/read.php?mudi=announContent` | High
 10 | File | `/admin/scripts/pi-hole/phpqueryads.php` | High
 11 | File | `/api/authentication/login` | High
-12 | File | `/api/resource/Item?fields` | High
-13 | File | `/api/upload.php` | High
-14 | File | `/api/v1/terminal/sessions/?limit=1` | High
-15 | File | `/api /v3/auth` | High
-16 | File | `/app/sys1.php` | High
-17 | File | `/application/common.php#action_log` | High
-18 | File | `/APR/signup.php` | High
+12 | File | `/api/upload.php` | High
+13 | File | `/api/v1/terminal/sessions/?limit=1` | High
+14 | File | `/api /v3/auth` | High
+15 | File | `/app/sys1.php` | High
+16 | File | `/application/common.php#action_log` | High
+17 | File | `/APR/signup.php` | High
+18 | File | `/assets/php/upload.php` | High
 19 | File | `/bin/ate` | Medium
 20 | File | `/bin/rc4_crypt` | High
 21 | File | `/bitrix/admin/ldap_server_edit.php` | High
 22 | File | `/cgi-bin/activate.cgi` | High
 23 | File | `/cgi-bin/kerbynet` | High
-24 | File | `/cgi-bin/luci/api/switch` | High
-25 | File | `/cgi-bin/luci/api/wireless` | High
-26 | File | `/cgi-bin/luci;stok=/locale` | High
-27 | File | `/cgi-bin/qcmap_auth` | High
-28 | File | `/cgi-bin/wapopen` | High
-29 | File | `/classes/Master.php?f=delete_category` | High
-30 | File | `/classes/Master.php?f=delete_inquiry` | High
-31 | File | `/classes/Master.php?f=delete_item` | High
-32 | File | `/classes/Master.php?f=delete_service` | High
-33 | File | `/classes/Master.php?f=save_service` | High
-34 | File | `/classes/Users.php` | High
-35 | File | `/classes/Users.php?f=save` | High
-36 | File | `/CMD_ACCOUNT_ADMIN` | High
-37 | File | `/conf/` | Low
-38 | File | `/config/getuser` | High
-39 | File | `/config/php.ini` | High
-40 | File | `/Content/Plugins/uploader/FileChoose.html?fileUrl=/Upload/File/Pics/&parent` | High
-41 | File | `/controller/OnlinePreviewController.java` | High
-42 | File | `/core/admin/categories.php` | High
-43 | File | `/dayrui/My/View/main.html` | High
-44 | File | `/debug/pprof` | Medium
-45 | File | `/etc/init.d/openfire` | High
-46 | File | `/etc/sudoers` | Medium
+24 | File | `/cgi-bin/login.cgi` | High
+25 | File | `/cgi-bin/luci/api/switch` | High
+26 | File | `/cgi-bin/luci/api/wireless` | High
+27 | File | `/cgi-bin/luci;stok=/locale` | High
+28 | File | `/cgi-bin/qcmap_auth` | High
+29 | File | `/cgi-bin/wapopen` | High
+30 | File | `/classes/Master.php?f=delete_category` | High
+31 | File | `/classes/Master.php?f=delete_inquiry` | High
+32 | File | `/classes/Master.php?f=delete_item` | High
+33 | File | `/classes/Master.php?f=delete_service` | High
+34 | File | `/classes/Master.php?f=save_service` | High
+35 | File | `/classes/Users.php` | High
+36 | File | `/classes/Users.php?f=save` | High
+37 | File | `/CMD_ACCOUNT_ADMIN` | High
+38 | File | `/conf/` | Low
+39 | File | `/config/getuser` | High
+40 | File | `/config/php.ini` | High
+41 | File | `/Content/Plugins/uploader/FileChoose.html?fileUrl=/Upload/File/Pics/&parent` | High
+42 | File | `/controller/OnlinePreviewController.java` | High
+43 | File | `/core/admin/categories.php` | High
+44 | File | `/cupseasylive/taxstructuredisplay.php` | High
+45 | File | `/dayrui/My/View/main.html` | High
+46 | File | `/dede/sys_sql_query.php` | High
 47 | ... | ... | ...
 
 There are 407 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.

@@ -4,18 +4,29 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.mintstealer](https://vuldb.com/?actor.mintstealer)
 
+## Countries
+
+These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with MintStealer:
+
+* [US](https://vuldb.com/?country.us)
+* [PS](https://vuldb.com/?country.ps)
+* [FR](https://vuldb.com/?country.fr)
+* ...
+
+There are 1 more country items available. Please use our online service to access the data.
+
 ## IOC - Indicator of Compromise
 
 These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of MintStealer.
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [95.214.25.207](https://vuldb.com/?ip.95.214.25.207) | - | - | High
-2 | [104.21.94.45](https://vuldb.com/?ip.104.21.94.45) | - | - | High
-3 | [172.67.172.69](https://vuldb.com/?ip.172.67.172.69) | - | - | High
+1 | [85.114.96.2](https://vuldb.com/?ip.85.114.96.2) | - | - | High
+2 | [95.214.25.207](https://vuldb.com/?ip.95.214.25.207) | - | - | High
+3 | [104.21.67.23](https://vuldb.com/?ip.104.21.67.23) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 2 more IOC items available. Please use our online service to access the data.
+There are 5 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -23,7 +34,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79 | Cross Site Scripting | High
+1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 2 | T1222 | CWE-275 | Permission Issues | High
 3 | T1505 | CWE-89 | SQL Injection | High
 4 | ... | ... | ... | ...
@@ -37,11 +48,11 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/login.php` | High
-2 | File | `/sauvegarde/restaure_act.php` | High
-3 | File | `adminHome.php` | High
+2 | File | `/cgi-bin/wlogin.cgi` | High
+3 | File | `/htmlcode/html/system_reboot.asp` | High
 4 | ... | ... | ...
 
-There are 5 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 20 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -93,11 +93,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-29, CWE-425 | Path Traversal | High
-2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-271, CWE-284 | Execution with Unnecessary Privileges | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Path Traversal | High
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
 There are 21 more TTP items available. Please use our online service to access the data.
@@ -110,50 +110,48 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/.env` | Low
 2 | File | `/admin/action/new-father.php` | High
-3 | File | `/admin/clientview.php` | High
-4 | File | `/admin/edit_teacher.php` | High
-5 | File | `/admin/fields/manage_field.php` | High
-6 | File | `/admin/regester.php` | High
-7 | File | `/admin/update-clients.php` | High
-8 | File | `/admin_ping.htm` | High
-9 | File | `/admin_route/dec_service_credits.php` | High
-10 | File | `/admin_route/inc_service_credits.php` | High
-11 | File | `/api/cron/settings/setJob/` | High
-12 | File | `/api/sys/set_passwd` | High
-13 | File | `/api/v1/terminal/sessions/?limit=1` | High
-14 | File | `/app/api/controller/default/Sqlite.php` | High
-15 | File | `/application/index/controller/Databasesource.php` | High
-16 | File | `/application/index/controller/Icon.php` | High
-17 | File | `/application/index/controller/Screen.php` | High
-18 | File | `/application/plugins/controller/Upload.php` | High
-19 | File | `/apply.cgi` | Medium
-20 | File | `/arch/x86/mm/cpu_entry_area.c` | High
-21 | File | `/authenticationendpoint/login.do` | High
-22 | File | `/b2b-supermarket/shopping-cart` | High
-23 | File | `/bin/boa` | Medium
-24 | File | `/boaform/device_reset.cgi` | High
-25 | File | `/boafrm/formMapDelDevice` | High
-26 | File | `/bsms_ci/index.php/user/edit_user/` | High
-27 | File | `/calendar/minimizer/index.php` | High
-28 | File | `/cgi-bin/cstecgi.cgi` | High
-29 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-30 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-31 | File | `/cgi-bin/mainfunction.cgi` | High
-32 | File | `/cgi-bin/R14.2/cgi-bin/R14.2/host.pl` | High
-33 | File | `/cgi-bin/R14.2/easy1350.pl` | High
-34 | File | `/cgi-bin/wlogin.cgi` | High
-35 | File | `/config/getuser` | High
-36 | File | `/core/conditions/AbstractWrapper.java` | High
-37 | File | `/core/redirect` | High
-38 | File | `/core/tools/update_menu.php` | High
-39 | File | `/dashboard/snapshot/*?orgId=0` | High
-40 | File | `/dayrui/My/Config/Install.txt` | High
-41 | File | `/debug/pprof` | Medium
-42 | File | `/DXR.axd` | Medium
-43 | File | `/ECT_Provider/` | High
-44 | ... | ... | ...
+3 | File | `/admin/edit_teacher.php` | High
+4 | File | `/admin/fields/manage_field.php` | High
+5 | File | `/admin/orders/view_order.php` | High
+6 | File | `/admin_ping.htm` | High
+7 | File | `/admin_route/dec_service_credits.php` | High
+8 | File | `/admin_route/inc_service_credits.php` | High
+9 | File | `/api/sys/set_passwd` | High
+10 | File | `/app/api/controller/default/Sqlite.php` | High
+11 | File | `/application/index/controller/Databasesource.php` | High
+12 | File | `/application/index/controller/Icon.php` | High
+13 | File | `/application/index/controller/Screen.php` | High
+14 | File | `/application/plugins/controller/Upload.php` | High
+15 | File | `/arch/x86/mm/cpu_entry_area.c` | High
+16 | File | `/b2b-supermarket/shopping-cart` | High
+17 | File | `/bin/boa` | Medium
+18 | File | `/boafrm/formMapDelDevice` | High
+19 | File | `/calendar/minimizer/index.php` | High
+20 | File | `/cgi-bin/cstecgi.cgi` | High
+21 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+22 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+23 | File | `/cgi-bin/mainfunction.cgi` | High
+24 | File | `/cgi-bin/wlogin.cgi` | High
+25 | File | `/core/conditions/AbstractWrapper.java` | High
+26 | File | `/core/redirect` | High
+27 | File | `/core/tools/update_menu.php` | High
+28 | File | `/dashboard/snapshot/*?orgId=0` | High
+29 | File | `/dayrui/My/Config/Install.txt` | High
+30 | File | `/DXR.axd` | Medium
+31 | File | `/ECT_Provider/` | High
+32 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+33 | File | `/Employer/EditProfile.php` | High
+34 | File | `/endpoint/add-user.php` | High
+35 | File | `/fax/fax_send.php` | High
+36 | File | `/forum/away.php` | High
+37 | File | `/forums/editforum.php` | High
+38 | File | `/general/attendance/manage/ask_duty/delete.php` | High
+39 | File | `/goform/` | Medium
+40 | File | `/goform/WifiMacFilterGet` | High
+41 | File | `/goform/wifiSSIDset` | High
+42 | ... | ... | ...
 
-There are 382 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 360 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

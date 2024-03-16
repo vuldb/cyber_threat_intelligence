@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [VN](https://vuldb.com/?country.vn)
 * ...
 
-There are 13 more country items available. Please use our online service to access the data.
+There are 15 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -1218,9 +1218,10 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94 | Argument Injection | High
-5 | ... | ... | ... | ...
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -1239,20 +1240,22 @@ ID | Type | Indicator | Confidence
 9 | File | `/adminapi/system/file/openfile` | High
 10 | File | `/api /v3/auth` | High
 11 | File | `/app/controller/Setup.php` | High
-12 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
+12 | File | `/category.php` | High
 13 | File | `/cgi-bin/cstecgi.cgi` | High
-14 | File | `/cgi-bin/nobody/VerifyCode.cgi` | High
-15 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-16 | File | `/cgi-bin/wlogin.cgi` | High
-17 | File | `/cgi.cgi` | Medium
-18 | File | `/classes/Users.php` | High
-19 | File | `/counter/index2.php` | High
-20 | File | `/dashboard/Cinvoice/manage_invoice` | High
-21 | File | `/data/remove` | Medium
-22 | File | `/edit.php` | Medium
-23 | ... | ... | ...
+14 | File | `/classes/Users.php` | High
+15 | File | `/conversation/ajax-html/send_log?folder_id=&thread_id=` | High
+16 | File | `/dashboard/Cinvoice/manage_invoice` | High
+17 | File | `/data/remove` | Medium
+18 | File | `/DXR.axd` | Medium
+19 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+20 | File | `/endpoint/update-tracker.php` | High
+21 | File | `/forum/away.php` | High
+22 | File | `/goform/` | Medium
+23 | File | `/goform/net\_Web\_get_value` | High
+24 | File | `/hedwig.cgi` | Medium
+25 | ... | ... | ...
 
-There are 190 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 207 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

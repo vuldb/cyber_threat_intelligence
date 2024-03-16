@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 4 more country items available. Please use our online service to access the data.
+There are 5 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -59,17 +59,18 @@ ID | Type | Indicator | Confidence
 2 | File | `/api/RecordingList/DownloadRecord?file=` | High
 3 | File | `/apply.cgi` | Medium
 4 | File | `/etc/config/rpcd` | High
-5 | File | `/rapi/read_url` | High
-6 | File | `/scripts/unlock_tasks.php` | High
-7 | File | `/setSystemAdmin` | High
-8 | File | `/system/user/modules/mod_users/controller.php` | High
-9 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
-10 | File | `admin/conf_users_edit.php` | High
-11 | File | `admin/Login.php` | High
-12 | File | `appserv/main.php` | High
-13 | ... | ... | ...
+5 | File | `/php/ping.php` | High
+6 | File | `/rapi/read_url` | High
+7 | File | `/scripts/unlock_tasks.php` | High
+8 | File | `/setSystemAdmin` | High
+9 | File | `/SysInfo1.htm` | High
+10 | File | `/sysinfo_json.cgi` | High
+11 | File | `/system/user/modules/mod_users/controller.php` | High
+12 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
+13 | File | `admin/conf_users_edit.php` | High
+14 | ... | ... | ...
 
-There are 101 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 110 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

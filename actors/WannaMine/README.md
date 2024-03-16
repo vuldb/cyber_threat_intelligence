@@ -30,12 +30,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-24 | Pathname Traversal | High
+1 | T1006 | CWE-22, CWE-24 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | ... | ... | ... | ...
 
-There are 11 more TTP items available. Please use our online service to access the data.
+There are 12 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -60,13 +60,15 @@ ID | Type | Indicator | Confidence
 15 | File | `/admin/transactions/track_shipment.php` | High
 16 | File | `/admin/vote_edit.php` | High
 17 | File | `/api/admin/store/product/list` | High
-18 | File | `/auth/auth.php?user=1` | High
-19 | File | `/b2b-supermarket/shopping-cart` | High
-20 | File | `/bin/boa` | Medium
-21 | File | `/blog` | Low
-22 | ... | ... | ...
+18 | File | `/api/controllers/common/UploadsController.php` | High
+19 | File | `/application/index/controller/Icon.php` | High
+20 | File | `/application/index/controller/Unity.php` | High
+21 | File | `/apply/index.php` | High
+22 | File | `/auth/auth.php?user=1` | High
+23 | File | `/b2b-supermarket/shopping-cart` | High
+24 | ... | ... | ...
 
-There are 178 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 197 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

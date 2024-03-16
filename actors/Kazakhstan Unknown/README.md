@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Kazakhstan Unknown:
 
 * [CN](https://vuldb.com/?country.cn)
-* [US](https://vuldb.com/?country.us)
 * [KZ](https://vuldb.com/?country.kz)
+* [US](https://vuldb.com/?country.us)
 * ...
 
-There are 16 more country items available. Please use our online service to access the data.
+There are 13 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -198,14 +198,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-50 | Pathname Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-50 | Path Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -213,52 +213,44 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `%APPDATA%\Securepoint SSL VPN` | High
-2 | File | `/?p=products` | Medium
-3 | File | `/admin.php/accessory/filesdel.html` | High
-4 | File | `/admin/?page=user/manage` | High
-5 | File | `/admin/add-new.php` | High
-6 | File | `/admin/controller/JobLogController.java` | High
-7 | File | `/admin/doctors.php` | High
-8 | File | `/alphaware/summary.php` | High
-9 | File | `/api/` | Low
-10 | File | `/api/admin/store/product/list` | High
-11 | File | `/api/baskets/{name}` | High
-12 | File | `/api/common/ping` | High
-13 | File | `/api/jolokia org.jolokia.http.HttpRequestHandler#handlePostRequest` | High
-14 | File | `/api/stl/actions/search` | High
-15 | File | `/api/sys/login` | High
-16 | File | `/api/sys/set_passwd` | High
-17 | File | `/api/trackedEntityInstances` | High
-18 | File | `/api/v2/cli/commands` | High
-19 | File | `/aux` | Low
-20 | File | `/bin/ate` | Medium
-21 | File | `/boat/login.php` | High
-22 | File | `/booking/show_bookings/` | High
-23 | File | `/bsms_ci/index.php/book` | High
-24 | File | `/cgi-bin` | Medium
-25 | File | `/cgi-bin/wlogin.cgi` | High
-26 | File | `/changePassword` | High
-27 | File | `/Content/Template/root/reverse-shell.aspx` | High
-28 | File | `/dashboard/add-blog.php` | High
-29 | File | `/data/remove` | Medium
-30 | File | `/debug/pprof` | Medium
-31 | File | `/dottie.js` | Medium
-32 | File | `/ecshop/admin/template.php` | High
-33 | File | `/env` | Low
-34 | File | `/forum/away.php` | High
-35 | File | `/geoserver/rest/about/status` | High
-36 | File | `/graphql` | Medium
-37 | File | `/group1/uploa` | High
-38 | File | `/index.php` | Medium
-39 | File | `/KK_LS9ReportingPortal/GetData` | High
-40 | File | `/medicines/profile.php` | High
-41 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-42 | File | `/php-sms/admin/?page=user/manage_user` | High
-43 | File | `/plesk-site-preview/` | High
-44 | ... | ... | ...
+1 | File | `/admin/controller/JobLogController.java` | High
+2 | File | `/api/baskets/{name}` | High
+3 | File | `/api/jolokia org.jolokia.http.HttpRequestHandler#handlePostRequest` | High
+4 | File | `/api/stl/actions/search` | High
+5 | File | `/api/sys/login` | High
+6 | File | `/api/sys/set_passwd` | High
+7 | File | `/api/trackedEntityInstances` | High
+8 | File | `/aux` | Low
+9 | File | `/bin/ate` | Medium
+10 | File | `/booking/show_bookings/` | High
+11 | File | `/cgi-bin` | Medium
+12 | File | `/changePassword` | High
+13 | File | `/Content/Template/root/reverse-shell.aspx` | High
+14 | File | `/dashboard/add-blog.php` | High
+15 | File | `/data/remove` | Medium
+16 | File | `/debug/pprof` | Medium
+17 | File | `/dottie.js` | Medium
+18 | File | `/ecshop/admin/template.php` | High
+19 | File | `/env` | Low
+20 | File | `/etc/passwd` | Medium
+21 | File | `/forum/away.php` | High
+22 | File | `/geoserver/rest/about/status` | High
+23 | File | `/group1/uploa` | High
+24 | File | `/index.php` | Medium
+25 | File | `/index.php?menu=asterisk_cli` | High
+26 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+27 | File | `/php-sms/admin/?page=user/manage_user` | High
+28 | File | `/post.php` | Medium
+29 | File | `/resources//../` | High
+30 | File | `/testConnection` | High
+31 | File | `/tmp/ppd.trace` | High
+32 | File | `/uncpath/` | Medium
+33 | File | `/user/inc/workidajax.php` | High
+34 | File | `/user/ticket/create` | High
+35 | File | `/user/updatePwd` | High
+36 | ... | ... | ...
 
-There are 384 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 307 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

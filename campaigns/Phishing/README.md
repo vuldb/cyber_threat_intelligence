@@ -131,30 +131,30 @@ ID | Type | Indicator | Confidence
 19 | File | `/etc/passwd` | Medium
 20 | File | `/forum/away.php` | High
 21 | File | `/goform/formSysCmd` | High
-22 | File | `/hosts/firewall/ip` | High
-23 | File | `/index.jsp#settings` | High
-24 | File | `/index.php` | Medium
-25 | File | `/index.php/ccm/system/file/upload` | High
-26 | File | `/log/decodmail.php` | High
-27 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-28 | File | `/oauth/idp/.well-known/openid-configuration` | High
-29 | File | `/php/ping.php` | High
-30 | File | `/s/index.php?action=statistics` | High
-31 | File | `/signup.php` | Medium
-32 | File | `/st_reg.php` | Medium
-33 | File | `/supplier.php` | High
-34 | File | `/system/role/list` | High
-35 | File | `/tmp/ppd.trace` | High
-36 | File | `/TMS/admin/setting/mail/createorupdate` | High
-37 | File | `/upload/ueditorConfig?action=config` | High
-38 | File | `/uploads/` | Medium
-39 | File | `/user/inc/workidajax.php` | High
-40 | File | `/user/index/findpass?do=4` | High
-41 | File | `/view-pass-detail.php` | High
-42 | File | `/WebResource/resource` | High
+22 | File | `/goform/net\_Web\_get_value` | High
+23 | File | `/hosts/firewall/ip` | High
+24 | File | `/index.jsp#settings` | High
+25 | File | `/index.php` | Medium
+26 | File | `/index.php/ccm/system/file/upload` | High
+27 | File | `/log/decodmail.php` | High
+28 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+29 | File | `/oauth/idp/.well-known/openid-configuration` | High
+30 | File | `/php/ping.php` | High
+31 | File | `/s/index.php?action=statistics` | High
+32 | File | `/Setting/change_password_save` | High
+33 | File | `/signup.php` | Medium
+34 | File | `/st_reg.php` | Medium
+35 | File | `/supplier.php` | High
+36 | File | `/system/role/list` | High
+37 | File | `/tmp/ppd.trace` | High
+38 | File | `/TMS/admin/setting/mail/createorupdate` | High
+39 | File | `/upload/ueditorConfig?action=config` | High
+40 | File | `/uploads/` | Medium
+41 | File | `/user/inc/workidajax.php` | High
+42 | File | `/user/index/findpass?do=4` | High
 43 | ... | ... | ...
 
-There are 370 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 368 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

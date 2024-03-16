@@ -29,8 +29,8 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Pathname Traversal | High
-2 | T1059 | CWE-94 | Cross Site Scripting | High
+1 | T1006 | CWE-22 | Path Traversal | High
+2 | T1059 | CWE-94 | Argument Injection | High
 3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
@@ -47,9 +47,10 @@ ID | Type | Indicator | Confidence
 3 | File | `/inc/HTTPClient.php` | High
 4 | File | `/SASWebReportStudio/logonAndRender.do` | High
 5 | File | `addentry.php` | Medium
-6 | ... | ... | ...
+6 | File | `add_edit_cat.asp` | High
+7 | ... | ... | ...
 
-There are 42 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 43 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

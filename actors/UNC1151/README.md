@@ -17,8 +17,8 @@ The following _campaigns_ are known and can be associated with UNC1151:
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with UNC1151:
 
 * [CN](https://vuldb.com/?country.cn)
+* [US](https://vuldb.com/?country.us)
 * [DE](https://vuldb.com/?country.de)
-* [RU](https://vuldb.com/?country.ru)
 * ...
 
 There are 2 more country items available. Please use our online service to access the data.
@@ -42,8 +42,8 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Pathname Traversal | High
-2 | T1059 | CWE-94 | Cross Site Scripting | High
+1 | T1006 | CWE-22 | Path Traversal | High
+2 | T1059 | CWE-94 | Argument Injection | High
 3 | T1059.007 | CWE-80 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
@@ -60,7 +60,7 @@ ID | Type | Indicator | Confidence
 3 | File | `/context/%2e/WEB-INF/web.xml` | High
 4 | ... | ... | ...
 
-There are 14 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 16 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

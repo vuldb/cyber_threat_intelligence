@@ -21,7 +21,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [VN](https://vuldb.com/?country.vn)
 * [RO](https://vuldb.com/?country.ro)
-* [CN](https://vuldb.com/?country.cn)
+* [US](https://vuldb.com/?country.us)
 * ...
 
 There are 2 more country items available. Please use our online service to access the data.
@@ -107,7 +107,8 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-271, CWE-284 | Execution with Unnecessary Privileges | High
+6 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
 
@@ -118,53 +119,50 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/.env` | Low
-2 | File | `/act/ActDao.xml` | High
+2 | File | `/add_members.php` | High
 3 | File | `/admin/` | Low
 4 | File | `/admin/action/new-father.php` | High
 5 | File | `/admin/clientview.php` | High
 6 | File | `/admin/edit_teacher.php` | High
 7 | File | `/admin/fields/manage_field.php` | High
-8 | File | `/admin/regester.php` | High
-9 | File | `/admin/update-clients.php` | High
-10 | File | `/admin_ping.htm` | High
-11 | File | `/admin_route/dec_service_credits.php` | High
-12 | File | `/admin_route/inc_service_credits.php` | High
-13 | File | `/api/cron/settings/setJob/` | High
-14 | File | `/api/sys/set_passwd` | High
-15 | File | `/api/v1/terminal/sessions/?limit=1` | High
-16 | File | `/app/api/controller/default/Sqlite.php` | High
-17 | File | `/application/index/controller/Databasesource.php` | High
-18 | File | `/application/index/controller/Icon.php` | High
-19 | File | `/application/index/controller/Screen.php` | High
-20 | File | `/application/plugins/controller/Upload.php` | High
-21 | File | `/apply.cgi` | Medium
-22 | File | `/arch/x86/mm/cpu_entry_area.c` | High
-23 | File | `/authenticationendpoint/login.do` | High
-24 | File | `/b2b-supermarket/shopping-cart` | High
+8 | File | `/admin/orders/view_order.php` | High
+9 | File | `/admin/regester.php` | High
+10 | File | `/admin/update-clients.php` | High
+11 | File | `/admin_ping.htm` | High
+12 | File | `/admin_route/dec_service_credits.php` | High
+13 | File | `/admin_route/inc_service_credits.php` | High
+14 | File | `/api/cron/settings/setJob/` | High
+15 | File | `/api/sys/set_passwd` | High
+16 | File | `/api/v1/terminal/sessions/?limit=1` | High
+17 | File | `/app/api/controller/default/Sqlite.php` | High
+18 | File | `/application/index/controller/Databasesource.php` | High
+19 | File | `/application/index/controller/Icon.php` | High
+20 | File | `/application/index/controller/Screen.php` | High
+21 | File | `/application/plugins/controller/Upload.php` | High
+22 | File | `/apply.cgi` | Medium
+23 | File | `/arch/x86/mm/cpu_entry_area.c` | High
+24 | File | `/authenticationendpoint/login.do` | High
 25 | File | `/bin/boa` | Medium
 26 | File | `/boaform/device_reset.cgi` | High
 27 | File | `/boafrm/formMapDelDevice` | High
-28 | File | `/bsms_ci/index.php` | High
-29 | File | `/bsms_ci/index.php/user/edit_user/` | High
-30 | File | `/cgi-bin/cstecgi.cgi` | High
-31 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-32 | File | `/cgi-bin/kerbynet` | High
-33 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-34 | File | `/cgi-bin/mainfunction.cgi` | High
-35 | File | `/cgi-bin/R14.2/cgi-bin/R14.2/host.pl` | High
-36 | File | `/cgi-bin/R14.2/easy1350.pl` | High
-37 | File | `/cgi-bin/wlogin.cgi` | High
-38 | File | `/clinic/disease_symptoms_view.php` | High
-39 | File | `/config/getuser` | High
-40 | File | `/core/redirect` | High
-41 | File | `/dashboard/message` | High
-42 | File | `/dashboard/snapshot/*?orgId=0` | High
-43 | File | `/debug/pprof` | Medium
-44 | File | `/DXR.axd` | Medium
-45 | File | `/ECT_Provider/` | High
-46 | ... | ... | ...
+28 | File | `/bsms_ci/index.php/user/edit_user/` | High
+29 | File | `/cgi-bin/cstecgi.cgi` | High
+30 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+31 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+32 | File | `/cgi-bin/mainfunction.cgi` | High
+33 | File | `/cgi-bin/R14.2/cgi-bin/R14.2/host.pl` | High
+34 | File | `/cgi-bin/R14.2/easy1350.pl` | High
+35 | File | `/cgi-bin/wlogin.cgi` | High
+36 | File | `/clinic/disease_symptoms_view.php` | High
+37 | File | `/config/getuser` | High
+38 | File | `/core/redirect` | High
+39 | File | `/dashboard/message` | High
+40 | File | `/dashboard/snapshot/*?orgId=0` | High
+41 | File | `/debug/pprof` | Medium
+42 | File | `/DXR.axd` | Medium
+43 | ... | ... | ...
 
-There are 401 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 371 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

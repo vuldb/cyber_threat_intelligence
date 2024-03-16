@@ -68,9 +68,9 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23 | Pathname Traversal | High
+1 | T1006 | CWE-22, CWE-23 | Path Traversal | High
 2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
@@ -83,26 +83,27 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.htaccess` | Medium
-2 | File | `/api/v1/terminal/sessions/?limit=1` | High
-3 | File | `/apiclient/ember/index.jsp` | High
-4 | File | `/Application/Admin/Controller/ConfigController.class.php` | High
-5 | File | `/bin/boa` | Medium
-6 | File | `/cimom` | Low
-7 | File | `/etc/sysconfig/tomcat` | High
-8 | File | `/forum/away.php` | High
-9 | File | `/getcfg.php` | Medium
-10 | File | `/goform` | Low
-11 | File | `/login/index.php` | High
-12 | File | `/mgmt/tm/util/bash` | High
-13 | File | `/printers` | Medium
-14 | File | `/SASWebReportStudio/logonAndRender.do` | High
-15 | File | `/sysmanage/edit_manageadmin.php` | High
-16 | File | `/uncpath/` | Medium
-17 | File | `/wp-json/oembed/1.0/embed?url` | High
-18 | File | `/_vti_pvt/access.cnf` | High
-19 | ... | ... | ...
+2 | File | `/admin.php?p=/Area/index#tab=t2` | High
+3 | File | `/api/v1/terminal/sessions/?limit=1` | High
+4 | File | `/apiclient/ember/index.jsp` | High
+5 | File | `/Application/Admin/Controller/ConfigController.class.php` | High
+6 | File | `/bin/boa` | Medium
+7 | File | `/cimom` | Low
+8 | File | `/etc/sysconfig/tomcat` | High
+9 | File | `/forum/away.php` | High
+10 | File | `/getcfg.php` | Medium
+11 | File | `/goform` | Low
+12 | File | `/login/index.php` | High
+13 | File | `/mgmt/tm/util/bash` | High
+14 | File | `/printers` | Medium
+15 | File | `/SASWebReportStudio/logonAndRender.do` | High
+16 | File | `/sysmanage/edit_manageadmin.php` | High
+17 | File | `/uncpath/` | Medium
+18 | File | `/wp-json/oembed/1.0/embed?url` | High
+19 | File | `/_vti_pvt/access.cnf` | High
+20 | ... | ... | ...
 
-There are 158 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 160 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

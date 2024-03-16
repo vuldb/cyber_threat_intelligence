@@ -24,16 +24,16 @@ ID | IP address | Hostname | Campaign | Confidence
 1 | [3.138.180.119](https://vuldb.com/?ip.3.138.180.119) | ec2-3-138-180-119.us-east-2.compute.amazonaws.com | - | Medium
 2 | [5.39.19.8](https://vuldb.com/?ip.5.39.19.8) | - | - | High
 3 | [18.228.214.231](https://vuldb.com/?ip.18.228.214.231) | ec2-18-228-214-231.sa-east-1.compute.amazonaws.com | - | Medium
-4 | [23.237.25.123](https://vuldb.com/?ip.23.237.25.123) | - | - | High
-5 | [37.0.11.45](https://vuldb.com/?ip.37.0.11.45) | - | - | High
-6 | [38.132.101.45](https://vuldb.com/?ip.38.132.101.45) | - | - | High
-7 | [40.127.163.74](https://vuldb.com/?ip.40.127.163.74) | - | - | High
-8 | [42.118.133.241](https://vuldb.com/?ip.42.118.133.241) | - | - | High
-9 | [45.137.22.152](https://vuldb.com/?ip.45.137.22.152) | hosted-by.rootlayer.net | - | High
-10 | [45.147.230.231](https://vuldb.com/?ip.45.147.230.231) | - | - | High
+4 | [18.231.151.211](https://vuldb.com/?ip.18.231.151.211) | ec2-18-231-151-211.sa-east-1.compute.amazonaws.com | - | Medium
+5 | [23.237.25.123](https://vuldb.com/?ip.23.237.25.123) | - | - | High
+6 | [37.0.11.45](https://vuldb.com/?ip.37.0.11.45) | - | - | High
+7 | [38.132.101.45](https://vuldb.com/?ip.38.132.101.45) | - | - | High
+8 | [40.127.163.74](https://vuldb.com/?ip.40.127.163.74) | - | - | High
+9 | [42.118.133.241](https://vuldb.com/?ip.42.118.133.241) | - | - | High
+10 | [45.137.22.152](https://vuldb.com/?ip.45.137.22.152) | hosted-by.rootlayer.net | - | High
 11 | ... | ... | ... | ...
 
-There are 39 more IOC items available. Please use our online service to access the data.
+There are 40 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -41,11 +41,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
 2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94 | Cross Site Scripting | High
+3 | T1059 | CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-264, CWE-266, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+5 | T1068 | CWE-264, CWE-266, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
 There are 20 more TTP items available. Please use our online service to access the data.
@@ -98,10 +98,9 @@ ID | Type | Indicator | Confidence
 40 | File | `Addmessage.php` | High
 41 | File | `admin.php` | Medium
 42 | File | `admin.php/comments/batchdel/` | High
-43 | File | `admin.php/User/del/ucode/` | High
-44 | ... | ... | ...
+43 | ... | ... | ...
 
-There are 380 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 375 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

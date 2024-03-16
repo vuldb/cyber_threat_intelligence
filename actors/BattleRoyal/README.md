@@ -14,8 +14,8 @@ The following _campaigns_ are known and can be associated with BattleRoyal:
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with BattleRoyal:
 
-* [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
 * [CE](https://vuldb.com/?country.ce)
 * ...
 
@@ -37,12 +37,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23 | Pathname Traversal | High
+1 | T1006 | CWE-22, CWE-23 | Path Traversal | High
 2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94 | Cross Site Scripting | High
+3 | T1059 | CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
 
-There are 12 more TTP items available. Please use our online service to access the data.
+There are 13 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -53,15 +53,16 @@ ID | Type | Indicator | Confidence
 1 | File | `/api/RecordingList/DownloadRecord?file=` | High
 2 | File | `/apply.cgi` | Medium
 3 | File | `/brand.php` | Medium
-4 | File | `/rapi/read_url` | High
-5 | File | `/scripts/unlock_tasks.php` | High
-6 | File | `/system/user/modules/mod_users/controller.php` | High
-7 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
-8 | File | `appserv/main.php` | High
-9 | File | `coders/png.c` | Medium
-10 | ... | ... | ...
+4 | File | `/php/ping.php` | High
+5 | File | `/rapi/read_url` | High
+6 | File | `/scripts/unlock_tasks.php` | High
+7 | File | `/SysInfo1.htm` | High
+8 | File | `/sysinfo_json.cgi` | High
+9 | File | `/system/user/modules/mod_users/controller.php` | High
+10 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
+11 | ... | ... | ...
 
-There are 71 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 80 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -78,4 +79,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

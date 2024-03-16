@@ -11,6 +11,9 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
 * [TH](https://vuldb.com/?country.th)
+* ...
+
+There are 1 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -19,12 +22,13 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [1.9.5.38](https://vuldb.com/?ip.1.9.5.38) | - | - | High
-2 | [50.2.24.211](https://vuldb.com/?ip.50.2.24.211) | - | - | High
-3 | [66.197.231.62](https://vuldb.com/?ip.66.197.231.62) | - | - | High
-4 | [69.197.146.80](https://vuldb.com/?ip.69.197.146.80) | - | - | High
-5 | ... | ... | ... | ...
+2 | [45.77.237.243](https://vuldb.com/?ip.45.77.237.243) | 45.77.237.243.vultrusercontent.com | - | High
+3 | [50.2.24.211](https://vuldb.com/?ip.50.2.24.211) | - | - | High
+4 | [66.197.231.62](https://vuldb.com/?ip.66.197.231.62) | - | - | High
+5 | [69.197.146.80](https://vuldb.com/?ip.69.197.146.80) | - | - | High
+6 | ... | ... | ... | ...
 
-There are 17 more IOC items available. Please use our online service to access the data.
+There are 21 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -32,12 +36,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79 | Cross Site Scripting | High
-2 | T1068 | CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
-3 | T1505 | CWE-89 | SQL Injection | High
+1 | T1006 | CWE-22, CWE-23 | Path Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
 
-There are 3 more TTP items available. Please use our online service to access the data.
+There are 12 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -45,17 +49,24 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/wp-admin/options.php` | High
-2 | File | `and/or` | Low
-3 | File | `functions.inc.php` | High
-4 | ... | ... | ...
+1 | File | `/cgi-bin/wapopen` | High
+2 | File | `/proc/self/setgroups` | High
+3 | File | `/secure/QueryComponent!Default.jspa` | High
+4 | File | `/userRpm/PingIframeRpm.htm` | High
+5 | File | `/webman/info.cgi` | High
+6 | File | `/wp-admin/options.php` | High
+7 | File | `adclick.php` | Medium
+8 | File | `addentry.php` | Medium
+9 | File | `and/or` | Low
+10 | ... | ... | ...
 
-There are 9 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 75 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://www.proofpoint.com/us/blog/threat-insight/chasing-currents-espionage-south-china-sea
 * https://www.threatminer.org/report.php?q=cto-tib-20150223-01a.pdf&y=2015
 * https://www.threatminer.org/report.php?q=pwc_ScanBox_framework.pdf&y=2014
 

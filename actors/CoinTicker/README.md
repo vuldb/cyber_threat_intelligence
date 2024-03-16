@@ -27,8 +27,8 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Pathname Traversal | High
-2 | T1202 | CWE-77, CWE-78 | Command Injection | High
+1 | T1006 | CWE-22 | Path Traversal | High
+2 | T1202 | CWE-77, CWE-78 | Command Shell in Externally Accessible Directory | High
 3 | T1204.001 | CWE-601 | Open Redirect | High
 4 | ... | ... | ... | ...
 

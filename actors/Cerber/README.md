@@ -222,10 +222,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-25, CWE-425 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-25, CWE-36 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -238,48 +238,56 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `%SYSTEMDRIVE%\node_modules\.bin\wmic.exe` | High
-2 | File | `/admin/` | Low
-3 | File | `/admin/admin_user.php` | High
-4 | File | `/admin/category/save` | High
-5 | File | `/admin/subject.php` | High
-6 | File | `/auth/auth.php?user=1` | High
-7 | File | `/b2b-supermarket/shopping-cart` | High
-8 | File | `/boaform/device_reset.cgi` | High
-9 | File | `/cgi-bin/cstecgi.cgi` | High
-10 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-11 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
-12 | File | `/cgi-bin/wlogin.cgi` | High
-13 | File | `/cgi/cpaddons_report.pl` | High
-14 | File | `/change-language/de_DE` | High
-15 | File | `/debug/pprof` | Medium
-16 | File | `/dist/index.js` | High
-17 | File | `/DXR.axd` | Medium
-18 | File | `/forum/away.php` | High
-19 | File | `/geoserver/gwc/rest.html` | High
-20 | File | `/goform/formSysCmd` | High
-21 | File | `/goform/goform_get_cmd_process` | High
-22 | File | `/HNAP1/` | Low
-23 | File | `/hosts/firewall/ip` | High
-24 | File | `/importexport.php` | High
-25 | File | `/index.php/ccm/system/file/upload` | High
-26 | File | `/log/decodmail.php` | High
-27 | File | `/main/doctype.php` | High
-28 | File | `/main/webservices/additional_webservices.php` | High
-29 | File | `/mc` | Low
-30 | File | `/oauth/idp/.well-known/openid-configuration` | High
-31 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-32 | File | `/php/ping.php` | High
-33 | File | `/register.php` | High
-34 | File | `/s/index.php?action=statistics` | High
-35 | File | `/setting` | Medium
-36 | File | `/setting/NTPSyncWithHost` | High
-37 | File | `/spip.php` | Medium
-38 | File | `/system/role/list` | High
-39 | File | `/terminal/handle-command.php` | High
-40 | File | `/TMS/admin/setting/mail/createorupdate` | High
-41 | ... | ... | ...
+2 | File | `/#ilang=DE&b=c_smartenergy_swgroups` | High
+3 | File | `/Account/login.php` | High
+4 | File | `/admin/` | Low
+5 | File | `/admin/admin_user.php` | High
+6 | File | `/admin/category/save` | High
+7 | File | `/admin/list_ipAddressPolicy.php` | High
+8 | File | `/admin/subject.php` | High
+9 | File | `/adminapi/system/crud` | High
+10 | File | `/adminapi/system/file/openfile` | High
+11 | File | `/admin_route/dec_service_credits.php` | High
+12 | File | `/api/v4/teams//channels/deleted` | High
+13 | File | `/auth/auth.php?user=1` | High
+14 | File | `/b2b-supermarket/shopping-cart` | High
+15 | File | `/boaform/device_reset.cgi` | High
+16 | File | `/cgi-bin/cstecgi.cgi` | High
+17 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+18 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
+19 | File | `/cgi-bin/wlogin.cgi` | High
+20 | File | `/cgi/cpaddons_report.pl` | High
+21 | File | `/change-language/de_DE` | High
+22 | File | `/common/dict/list` | High
+23 | File | `/debug/pprof` | Medium
+24 | File | `/devinfo` | Medium
+25 | File | `/dist/index.js` | High
+26 | File | `/DXR.axd` | Medium
+27 | File | `/forum/away.php` | High
+28 | File | `/goform/formSysCmd` | High
+29 | File | `/goform/goform_get_cmd_process` | High
+30 | File | `/HNAP1/` | Low
+31 | File | `/hosts/firewall/ip` | High
+32 | File | `/importexport.php` | High
+33 | File | `/index.jsp#settings` | High
+34 | File | `/index.php/ccm/system/file/upload` | High
+35 | File | `/log/decodmail.php` | High
+36 | File | `/main/doctype.php` | High
+37 | File | `/main/webservices/additional_webservices.php` | High
+38 | File | `/mc` | Low
+39 | File | `/net/bluetooth/rfcomm/core.C` | High
+40 | File | `/oauth/idp/.well-known/openid-configuration` | High
+41 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+42 | File | `/pdf` | Low
+43 | File | `/php/ping.php` | High
+44 | File | `/register.php` | High
+45 | File | `/s/index.php?action=statistics` | High
+46 | File | `/setting/NTPSyncWithHost` | High
+47 | File | `/signup.php` | Medium
+48 | File | `/spip.php` | Medium
+49 | ... | ... | ...
 
-There are 357 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 422 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

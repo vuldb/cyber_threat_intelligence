@@ -50,7 +50,7 @@ ID | IP address | Hostname | Actor | Confidence
 21 | [36.38.34.230](https://vuldb.com/?ip.36.38.34.230) | - | [SmokeLoader](https://vuldb.com/?actor.smokeloader) | High
 22 | ... | ... | ... | ...
 
-There are 83 more IOC items available. Please use our online service to access the data.
+There are 84 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -94,7 +94,7 @@ ID | Type | Indicator | Confidence
 21 | File | `admin/establishment/manage.php` | High
 22 | ... | ... | ...
 
-There are 178 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 179 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -113,6 +113,7 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://blog.talosintelligence.com/2021/07/threat-roundup-0716-0723.html
 * https://community.blueliv.com/#!/s/6333fa0182df417ed0331a1d
 * https://detect.fyi/demystification-8base-threat-hunting-and-detection-opportunities-44c55c4c5667
+* https://farghlymal.github.io/SmokeLoader-Analysis/
 * https://github.com/threatlabz/iocs/blob/main/smokeloader_tradingview_campaign/c2s.txt
 * https://isc.sans.edu/forums/diary/Resumethemed+malspam+pushing+Smoke+Loader/23054/
 * https://research.checkpoint.com/2019/2019-resurgence-of-smokeloader/

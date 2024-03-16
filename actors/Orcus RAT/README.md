@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 6 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -36,17 +36,23 @@ ID | IP address | Hostname | Campaign | Confidence
 13 | [18.117.142.49](https://vuldb.com/?ip.18.117.142.49) | ec2-18-117-142-49.us-east-2.compute.amazonaws.com | - | Medium
 14 | [18.192.31.165](https://vuldb.com/?ip.18.192.31.165) | ec2-18-192-31-165.eu-central-1.compute.amazonaws.com | - | Medium
 15 | [20.89.177.186](https://vuldb.com/?ip.20.89.177.186) | - | - | High
-16 | [27.124.3.19](https://vuldb.com/?ip.27.124.3.19) | - | - | High
-17 | [27.124.4.200](https://vuldb.com/?ip.27.124.4.200) | - | - | High
-18 | [27.124.6.248](https://vuldb.com/?ip.27.124.6.248) | - | - | High
-19 | [31.44.184.52](https://vuldb.com/?ip.31.44.184.52) | - | - | High
-20 | [31.173.170.243](https://vuldb.com/?ip.31.173.170.243) | - | - | High
-21 | [39.44.128.21](https://vuldb.com/?ip.39.44.128.21) | - | - | High
-22 | [42.114.153.12](https://vuldb.com/?ip.42.114.153.12) | - | - | High
-23 | [42.114.153.115](https://vuldb.com/?ip.42.114.153.115) | - | - | High
-24 | ... | ... | ... | ...
+16 | [20.163.19.3](https://vuldb.com/?ip.20.163.19.3) | - | - | High
+17 | [20.240.201.149](https://vuldb.com/?ip.20.240.201.149) | - | - | High
+18 | [27.124.3.19](https://vuldb.com/?ip.27.124.3.19) | - | - | High
+19 | [27.124.4.200](https://vuldb.com/?ip.27.124.4.200) | - | - | High
+20 | [27.124.6.248](https://vuldb.com/?ip.27.124.6.248) | - | - | High
+21 | [31.44.184.52](https://vuldb.com/?ip.31.44.184.52) | - | - | High
+22 | [31.173.170.243](https://vuldb.com/?ip.31.173.170.243) | - | - | High
+23 | [39.38.245.19](https://vuldb.com/?ip.39.38.245.19) | - | - | High
+24 | [39.44.128.21](https://vuldb.com/?ip.39.44.128.21) | - | - | High
+25 | [40.113.117.114](https://vuldb.com/?ip.40.113.117.114) | - | - | High
+26 | [42.114.153.12](https://vuldb.com/?ip.42.114.153.12) | - | - | High
+27 | [42.114.153.115](https://vuldb.com/?ip.42.114.153.115) | - | - | High
+28 | [42.117.36.184](https://vuldb.com/?ip.42.117.36.184) | - | - | High
+29 | [45.94.31.205](https://vuldb.com/?ip.45.94.31.205) | - | - | High
+30 | ... | ... | ... | ...
 
-There are 91 more IOC items available. Please use our online service to access the data.
+There are 118 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -54,9 +60,9 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23 | Pathname Traversal | High
+1 | T1006 | CWE-22, CWE-23 | Path Traversal | High
 2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94 | Cross Site Scripting | High
+3 | T1059 | CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
 
 There are 14 more TTP items available. Please use our online service to access the data.
@@ -76,19 +82,20 @@ ID | Type | Indicator | Confidence
 7 | File | `/configs/application.ini` | High
 8 | File | `/etc/gsissh/sshd_config` | High
 9 | File | `/home` | Low
-10 | File | `/public` | Low
-11 | File | `/rapi/read_url` | High
-12 | File | `/scripts/unlock_tasks.php` | High
-13 | File | `/system/user/modules/mod_users/controller.php` | High
-14 | File | `/whbs/?page=manage_account` | High
-15 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
-16 | File | `admin.php/comments/batchdel/` | High
-17 | File | `admin.php/User/del/ucode/` | High
-18 | File | `admin.php?c=a_adminuser&a=add&run=1` | High
-19 | File | `admin.php?m=Member&a=adminaddsave` | High
-20 | ... | ... | ...
+10 | File | `/php/ping.php` | High
+11 | File | `/public` | Low
+12 | File | `/rapi/read_url` | High
+13 | File | `/scripts/unlock_tasks.php` | High
+14 | File | `/SysInfo1.htm` | High
+15 | File | `/sysinfo_json.cgi` | High
+16 | File | `/system/user/modules/mod_users/controller.php` | High
+17 | File | `/whbs/?page=manage_account` | High
+18 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
+19 | File | `admin.php/comments/batchdel/` | High
+20 | File | `admin.php/User/del/ucode/` | High
+21 | ... | ... | ...
 
-There are 164 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 173 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -98,37 +105,59 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/1.54.172.244
 * https://search.censys.io/hosts/15.235.3.1
 * https://search.censys.io/hosts/16.170.253.123
+* https://search.censys.io/hosts/20.163.19.3
+* https://search.censys.io/hosts/20.240.201.149
 * https://search.censys.io/hosts/27.124.6.248
+* https://search.censys.io/hosts/39.38.245.19
 * https://search.censys.io/hosts/39.44.128.21
 * https://search.censys.io/hosts/42.114.153.12
 * https://search.censys.io/hosts/42.114.153.115
+* https://search.censys.io/hosts/45.94.31.205
 * https://search.censys.io/hosts/45.204.82.82
 * https://search.censys.io/hosts/45.204.82.103
+* https://search.censys.io/hosts/58.187.115.100
 * https://search.censys.io/hosts/61.92.130.64
+* https://search.censys.io/hosts/73.3.46.163
 * https://search.censys.io/hosts/85.209.176.26
+* https://search.censys.io/hosts/86.126.4.236
 * https://search.censys.io/hosts/88.119.171.56
 * https://search.censys.io/hosts/89.208.105.120
+* https://search.censys.io/hosts/94.156.64.66
+* https://search.censys.io/hosts/94.156.66.77
+* https://search.censys.io/hosts/103.155.214.134
 * https://search.censys.io/hosts/104.168.163.193
 * https://search.censys.io/hosts/116.103.214.233
+* https://search.censys.io/hosts/123.206.29.183
+* https://search.censys.io/hosts/134.255.254.225
 * https://search.censys.io/hosts/138.197.66.62
 * https://search.censys.io/hosts/146.235.217.116
 * https://search.censys.io/hosts/150.107.2.102
+* https://search.censys.io/hosts/154.212.146.81
 * https://search.censys.io/hosts/154.243.252.14
+* https://search.censys.io/hosts/154.244.6.141
 * https://search.censys.io/hosts/154.244.157.117
 * https://search.censys.io/hosts/154.244.175.192
 * https://search.censys.io/hosts/154.244.248.129
+* https://search.censys.io/hosts/154.245.89.99
 * https://search.censys.io/hosts/154.245.132.20
 * https://search.censys.io/hosts/154.245.216.63
 * https://search.censys.io/hosts/154.245.225.202
 * https://search.censys.io/hosts/183.80.186.171
 * https://search.censys.io/hosts/183.80.187.20
 * https://search.censys.io/hosts/185.196.10.32
+* https://search.censys.io/hosts/188.26.86.131
+* https://search.censys.io/hosts/188.27.175.18
 * https://search.censys.io/hosts/188.27.189.65
+* https://search.censys.io/hosts/188.27.189.141
+* https://search.censys.io/hosts/188.27.189.235
 * https://search.censys.io/hosts/194.26.192.11
 * https://search.censys.io/hosts/194.87.216.52
 * https://search.censys.io/hosts/194.233.31.117
+* https://search.censys.io/hosts/197.82.164.175
+* https://search.censys.io/hosts/197.119.85.192
 * https://search.censys.io/hosts/197.119.113.44
 * https://search.censys.io/hosts/197.119.135.90
+* https://search.censys.io/hosts/197.119.141.49
 * https://search.censys.io/hosts/206.84.153.217
 * https://search.censys.io/hosts/206.84.154.119
 * https://search.censys.io/search?resource=hosts&sort=RELEVANCE&per_page=25&virtual_hosts=EXCLUDE&q=services.software.product%3A+orcus+and+not+labels%3A+tarpit

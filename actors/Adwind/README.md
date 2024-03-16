@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with AdWind:
 
 * [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
 * [RU](https://vuldb.com/?country.ru)
-* [FR](https://vuldb.com/?country.fr)
 * ...
 
-There are 17 more country items available. Please use our online service to access the data.
+There are 21 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -49,14 +49,15 @@ ID | IP address | Hostname | Campaign | Confidence
 26 | [45.147.231.41](https://vuldb.com/?ip.45.147.231.41) | - | - | High
 27 | [46.20.33.76](https://vuldb.com/?ip.46.20.33.76) | - | - | High
 28 | [46.183.220.114](https://vuldb.com/?ip.46.183.220.114) | ip-220-114.dataclub.info | - | High
-29 | [50.7.199.164](https://vuldb.com/?ip.50.7.199.164) | - | - | High
-30 | [51.254.21.25](https://vuldb.com/?ip.51.254.21.25) | ip25.ip-51-254-21.eu | - | High
-31 | [65.99.225.111](https://vuldb.com/?ip.65.99.225.111) | hv36svg168.neubox.net | - | High
-32 | [66.154.111.3](https://vuldb.com/?ip.66.154.111.3) | - | - | High
-33 | [67.215.4.74](https://vuldb.com/?ip.67.215.4.74) | - | - | High
-34 | ... | ... | ... | ...
+29 | [46.183.223.64](https://vuldb.com/?ip.46.183.223.64) | ip-223-64.dataclub.info | - | High
+30 | [50.7.199.164](https://vuldb.com/?ip.50.7.199.164) | - | - | High
+31 | [51.254.21.25](https://vuldb.com/?ip.51.254.21.25) | ip25.ip-51-254-21.eu | - | High
+32 | [65.99.225.111](https://vuldb.com/?ip.65.99.225.111) | hv36svg168.neubox.net | - | High
+33 | [66.154.111.3](https://vuldb.com/?ip.66.154.111.3) | - | - | High
+34 | [67.215.4.74](https://vuldb.com/?ip.67.215.4.74) | - | - | High
+35 | ... | ... | ... | ...
 
-There are 133 more IOC items available. Please use our online service to access the data.
+There are 135 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -64,13 +65,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
 2 | T1055 | CWE-74 | Injection | High
-3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-4 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -78,27 +79,53 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin_giant/add_team_member.php` | High
-2 | File | `/common/info.cgi` | High
-3 | File | `/get_getnetworkconf.cgi` | High
-4 | File | `/goform/setmac` | High
-5 | File | `/integrations.json` | High
-6 | File | `/irj/portal/` | Medium
-7 | File | `/lists/admin/` | High
-8 | File | `/phppath/php` | Medium
-9 | File | `/services/details.asp` | High
-10 | File | `/spip.php` | Medium
-11 | File | `/uncpath/` | Medium
-12 | File | `acl.c` | Low
-13 | File | `Addmessage.php` | High
-14 | File | `admin.php` | Medium
-15 | File | `admin.php?mod=user&act=del` | High
-16 | File | `admin/index.php?n=ui_set&m=admin&c=index&a=doget_text_content&table=lang&field=1` | High
-17 | File | `admin/login.asp` | High
-18 | File | `administrator/components/com_media/helpers/media.php` | High
-19 | ... | ... | ...
+1 | File | `/+CSCOE+/logon.html` | High
+2 | File | `/admin_giant/add_team_member.php` | High
+3 | File | `/api/admin/system/store/order/list` | High
+4 | File | `/cgi-bin/wapopen` | High
+5 | File | `/common/info.cgi` | High
+6 | File | `/csms/?page=contact_us` | High
+7 | File | `/etc/ajenti/config.yml` | High
+8 | File | `/forum/away.php` | High
+9 | File | `/get_getnetworkconf.cgi` | High
+10 | File | `/goform/setmac` | High
+11 | File | `/goform/telnet` | High
+12 | File | `/index.php/signin` | High
+13 | File | `/integrations.json` | High
+14 | File | `/lists/admin/` | High
+15 | File | `/modules/profile/index.php` | High
+16 | File | `/phppath/php` | Medium
+17 | File | `/rom-0` | Low
+18 | File | `/services/details.asp` | High
+19 | File | `/spip.php` | Medium
+20 | File | `/tmp/phpglibccheck` | High
+21 | File | `/uncpath/` | Medium
+22 | File | `/upload` | Low
+23 | File | `/var/tmp/sess_*` | High
+24 | File | `acl.c` | Low
+25 | File | `action.php` | Medium
+26 | File | `actionphp/download.File.php` | High
+27 | File | `Addmessage.php` | High
+28 | File | `add_comment.php` | High
+29 | File | `admin.php` | Medium
+30 | File | `admin.php?mod=user&act=del` | High
+31 | File | `admin/admin.php` | High
+32 | File | `admin/content.php` | High
+33 | File | `admin/index.php?id=users/action=edit/user_id=1` | High
+34 | File | `admin/index.php?n=ui_set&m=admin&c=index&a=doget_text_content&table=lang&field=1` | High
+35 | File | `admin/login.asp` | High
+36 | File | `admin_gallery.php3` | High
+37 | File | `admin_safe.php` | High
+38 | File | `affich.php` | Medium
+39 | File | `agent/Core/Controller/SendRequest.cpp` | High
+40 | File | `ajax/telemetry.php` | High
+41 | File | `akeyActivationLogin.do` | High
+42 | File | `album_portal.php` | High
+43 | File | `apache-auth.conf` | High
+44 | File | `app\contacts\contact_addresses.php` | High
+45 | ... | ... | ...
 
-There are 152 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 393 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

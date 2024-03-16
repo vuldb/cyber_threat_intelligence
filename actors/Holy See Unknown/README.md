@@ -30,9 +30,9 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Pathname Traversal | High
-2 | T1068 | CWE-264, CWE-269 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
-3 | T1552 | CWE-255 | ASP.NET Misconfiguration: Password in Configuration File | High
+1 | T1006 | CWE-22 | Path Traversal | High
+2 | T1068 | CWE-264, CWE-269 | Execution with Unnecessary Privileges | High
+3 | T1552 | CWE-255 | Credentials Management | High
 
 ## IOA - Indicator of Attack
 

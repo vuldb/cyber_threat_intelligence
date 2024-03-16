@@ -34,10 +34,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-94 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -50,24 +50,24 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/markdown` | High
-2 | File | `/cgi-bin/kerbynet` | High
-3 | File | `/cgi-bin/touchlist_sync.cgi` | High
-4 | File | `/Core/Ap4Stz2Atom.cpp` | High
-5 | File | `/etc/config/cameo` | High
-6 | File | `/etc/fstab` | Medium
-7 | File | `/goform/aspForm` | High
-8 | File | `/ofrs/admin/?page=user/manage_user` | High
-9 | File | `/user/dls_download.php` | High
-10 | File | `/xxl-job-admin/jobinfo` | High
-11 | File | `AAVCAssembler.cpp` | High
-12 | File | `admin.php` | Medium
-13 | File | `Admin.php` | Medium
-14 | File | `admin/admin.guestbook.php` | High
-15 | File | `admin/comment.php` | High
-16 | File | `afr.php` | Low
+2 | File | `/atheme/src/crypto-benchmark/main.c` | High
+3 | File | `/cgi-bin/kerbynet` | High
+4 | File | `/cgi-bin/touchlist_sync.cgi` | High
+5 | File | `/Core/Ap4Stz2Atom.cpp` | High
+6 | File | `/etc/config/cameo` | High
+7 | File | `/etc/fstab` | Medium
+8 | File | `/goform/aspForm` | High
+9 | File | `/ofrs/admin/?page=user/manage_user` | High
+10 | File | `/user/dls_download.php` | High
+11 | File | `/xxl-job-admin/jobinfo` | High
+12 | File | `AAVCAssembler.cpp` | High
+13 | File | `admin.php` | Medium
+14 | File | `Admin.php` | Medium
+15 | File | `admin/admin.guestbook.php` | High
+16 | File | `admin/comment.php` | High
 17 | ... | ... | ...
 
-There are 139 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 138 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

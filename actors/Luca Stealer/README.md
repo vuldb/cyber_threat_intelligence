@@ -9,6 +9,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Luca Stealer:
 
 * [US](https://vuldb.com/?country.us)
+* [UA](https://vuldb.com/?country.ua)
 
 ## IOC - Indicator of Compromise
 
@@ -25,7 +26,8 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1592 | CWE-200 | Configuration | High
+1 | T1078.001 | CWE-259 | Use of Hard-coded Password | High
+2 | T1592 | CWE-200 | Invocation of Process Using Visible Sensitive Information | High
 
 ## IOA - Indicator of Attack
 
@@ -33,8 +35,9 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `inline-gdocs-viewer.php` | High
-2 | File | `wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php` | High
+1 | File | `/cgi-bin/vitogate.cgi` | High
+2 | File | `inline-gdocs-viewer.php` | High
+3 | File | `wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php` | High
 
 ## References
 

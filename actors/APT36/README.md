@@ -17,7 +17,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [NL](https://vuldb.com/?country.nl)
-* [RU](https://vuldb.com/?country.ru)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
 There are 10 more country items available. Please use our online service to access the data.
@@ -50,10 +50,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-94 | Argument Injection | High
 5 | ... | ... | ... | ...
 
 There are 17 more TTP items available. Please use our online service to access the data.
@@ -83,38 +83,38 @@ ID | Type | Indicator | Confidence
 17 | File | `/admin/usermanagement.php` | High
 18 | File | `/aqpg/users/login.php` | High
 19 | File | `/artist-display.php` | High
-20 | File | `/backups/` | Medium
-21 | File | `/bcms/admin/?page=user/list` | High
-22 | File | `/cardo/api` | Medium
-23 | File | `/catcompany.php` | High
-24 | File | `/CCMAdmin/serverlist.asp` | High
-25 | File | `/cgi-bin/editBookmark` | High
-26 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
-27 | File | `/cgi-bin/nightled.cgi` | High
-28 | File | `/cgi-bin/touchlist_sync.cgi` | High
-29 | File | `/ci_hms/massage_room/edit/1` | High
-30 | File | `/ci_hms/search` | High
-31 | File | `/ci_spms/admin/category` | High
-32 | File | `/ci_spms/admin/search/searching/` | High
-33 | File | `/ci_ssms/index.php/orders/create` | High
-34 | File | `/classes/Users.php?f=save` | High
-35 | File | `/cwms/admin/?page=articles/view_article/` | High
-36 | File | `/cwms/classes/Master.php?f=save_contact` | High
-37 | File | `/editbrand.php` | High
-38 | File | `/film-rating.php` | High
-39 | File | `/front/roomtype-details.php` | High
-40 | File | `/goform/RgDdns` | High
-41 | File | `/goform/RgDhcp` | High
-42 | File | `/goform/RGFirewallEL` | High
-43 | File | `/goform/RgTime` | High
-44 | File | `/goform/RgUrlBlock.asp` | High
-45 | File | `/goform/wlanPrimaryNetwork` | High
-46 | File | `/horde/imp/search.php` | High
-47 | File | `/index.php` | Medium
-48 | File | `/librarian/bookdetails.php` | High
+20 | File | `/assets/php/upload.php` | High
+21 | File | `/backups/` | Medium
+22 | File | `/bcms/admin/?page=user/list` | High
+23 | File | `/cardo/api` | Medium
+24 | File | `/catcompany.php` | High
+25 | File | `/CCMAdmin/serverlist.asp` | High
+26 | File | `/cgi-bin/editBookmark` | High
+27 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
+28 | File | `/cgi-bin/nightled.cgi` | High
+29 | File | `/cgi-bin/touchlist_sync.cgi` | High
+30 | File | `/ci_hms/massage_room/edit/1` | High
+31 | File | `/ci_hms/search` | High
+32 | File | `/ci_spms/admin/category` | High
+33 | File | `/ci_spms/admin/search/searching/` | High
+34 | File | `/ci_ssms/index.php/orders/create` | High
+35 | File | `/classes/Users.php?f=save` | High
+36 | File | `/cwms/admin/?page=articles/view_article/` | High
+37 | File | `/cwms/classes/Master.php?f=save_contact` | High
+38 | File | `/editbrand.php` | High
+39 | File | `/film-rating.php` | High
+40 | File | `/front/roomtype-details.php` | High
+41 | File | `/goform/RgDdns` | High
+42 | File | `/goform/RgDhcp` | High
+43 | File | `/goform/RGFirewallEL` | High
+44 | File | `/goform/RgTime` | High
+45 | File | `/goform/RgUrlBlock.asp` | High
+46 | File | `/goform/wlanPrimaryNetwork` | High
+47 | File | `/horde/imp/search.php` | High
+48 | File | `/index.php` | Medium
 49 | ... | ... | ...
 
-There are 421 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 425 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -135,4 +135,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2024](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

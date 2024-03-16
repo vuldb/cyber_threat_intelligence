@@ -9,6 +9,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Fabookie:
 
 * [CN](https://vuldb.com/?country.cn)
+* [US](https://vuldb.com/?country.us)
 
 ## IOC - Indicator of Compromise
 
@@ -25,8 +26,8 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1059.007 | CWE-79 | Cross Site Scripting | High
-2 | T1068 | CWE-264 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
-3 | T1592 | CWE-200 | Configuration | High
+2 | T1068 | CWE-264 | Execution with Unnecessary Privileges | High
+3 | T1592 | CWE-200 | Invocation of Process Using Visible Sensitive Information | High
 4 | ... | ... | ... | ...
 
 There are 2 more TTP items available. Please use our online service to access the data.
@@ -38,8 +39,11 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/function/booksave.php` | High
-2 | File | `host-deny.sh` | Medium
-3 | File | `src/main/java/org/jenkinsci/plugins/scriptsecurity/sandbox/groovy/SecureGroovyScript.java` | High
+2 | File | `/X11/xedit/lisp` | High
+3 | File | `host-deny.sh` | Medium
+4 | ... | ... | ...
+
+There are 1 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

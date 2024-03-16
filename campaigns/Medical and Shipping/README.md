@@ -4,6 +4,12 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor](https://vuldb.com/?actor)
 
+## Countries
+
+These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Medical and Shipping:
+
+* [CN](https://vuldb.com/?country.cn)
+
 ## Actors
 
 These _actors_ are associated with Medical and Shipping or other actors linked to the campaign.
@@ -24,6 +30,14 @@ ID | IP address | Hostname | Actor | Confidence
 4 | ... | ... | ... | ...
 
 There are 1 more IOC items available. Please use our online service to access the data.
+
+## TTP - Tactics, Techniques, Procedures
+
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used within Medical and Shipping. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1202 | CWE-78 | Command Shell in Externally Accessible Directory | High
 
 ## References
 

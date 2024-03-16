@@ -8,8 +8,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Pakistan Unknown:
 
-* [US](https://vuldb.com/?country.us)
 * [PK](https://vuldb.com/?country.pk)
+* [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
@@ -237,14 +237,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-35, CWE-36 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-35, CWE-36 | Path Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -254,49 +254,51 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
 2 | File | `/?p=products` | Medium
-3 | File | `/admin/` | Low
-4 | File | `/admin/inquiries/view_inquiry.php` | High
-5 | File | `/admin/maintenance/view_designation.php` | High
-6 | File | `/admin/pages/edit_chicken.php` | High
-7 | File | `/admin/pages/student-print.php` | High
-8 | File | `/admin/report/index.php` | High
-9 | File | `/admin_route/inc_service_credits.php` | High
-10 | File | `/api/baskets/{name}` | High
-11 | File | `/api/runscript` | High
-12 | File | `/app/Http/Controllers/ImageController.php` | High
-13 | File | `/app/search/table` | High
-14 | File | `/author_posts.php` | High
-15 | File | `/bin/sh` | Low
-16 | File | `/boaform/device_reset.cgi` | High
-17 | File | `/boaform/wlan_basic_set.cgi` | High
-18 | File | `/cgi-bin/cstecgi.cgi` | High
-19 | File | `/cgi-bin/login.cgi` | High
-20 | File | `/cgi-bin/wlogin.cgi` | High
-21 | File | `/classes/Master.php?f=delete_service` | High
-22 | File | `/classes/Master.php?f=save_brand` | High
-23 | File | `/classes/Master.php?f=save_course` | High
-24 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
-25 | File | `/E-mobile/App/System/File/downfile.php` | High
-26 | File | `/Electron/download` | High
-27 | File | `/forum/away.php` | High
-28 | File | `/ghost/preview` | High
-29 | File | `/goform/AdvSetLanip` | High
-30 | File | `/goform/formDefault` | High
-31 | File | `/goform/set_LimitClient_cfg` | High
-32 | File | `/htdocs/cgibin` | High
-33 | File | `/inc/topBarNav.php` | High
-34 | File | `/index.php/client/message/message_read/xxxxxxxx[random-msg-hash]` | High
-35 | File | `/mhds/clinic/view_details.php` | High
-36 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-37 | File | `/oauth/idp/.well-known/openid-configuration` | High
-38 | File | `/out.php` | Medium
-39 | File | `/products/view_product.php` | High
-40 | File | `/proxy` | Low
-41 | File | `/register.do` | Medium
-42 | File | `/reviewer/system/system/admins/manage/users/user-update.php` | High
-43 | ... | ... | ...
+3 | File | `/admin/inquiries/view_inquiry.php` | High
+4 | File | `/admin/login.php` | High
+5 | File | `/Admin/login.php` | High
+6 | File | `/admin/maintenance/view_designation.php` | High
+7 | File | `/admin/pages/edit_chicken.php` | High
+8 | File | `/admin/pages/student-print.php` | High
+9 | File | `/admin/report/index.php` | High
+10 | File | `/admin/request-received-bydonar.php` | High
+11 | File | `/admin_route/inc_service_credits.php` | High
+12 | File | `/api/baskets/{name}` | High
+13 | File | `/api/runscript` | High
+14 | File | `/app/Http/Controllers/ImageController.php` | High
+15 | File | `/app/search/table` | High
+16 | File | `/application/index/controller/Icon.php` | High
+17 | File | `/apply/index.php` | High
+18 | File | `/author_posts.php` | High
+19 | File | `/bin/sh` | Low
+20 | File | `/boaform/device_reset.cgi` | High
+21 | File | `/boaform/wlan_basic_set.cgi` | High
+22 | File | `/cgi-bin/cstecgi.cgi` | High
+23 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+24 | File | `/cgi-bin/login.cgi` | High
+25 | File | `/cgi-bin/wlogin.cgi` | High
+26 | File | `/classes/Master.php?f=delete_service` | High
+27 | File | `/classes/Master.php?f=save_brand` | High
+28 | File | `/classes/Master.php?f=save_course` | High
+29 | File | `/core/config-revisions` | High
+30 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
+31 | File | `/E-mobile/App/System/File/downfile.php` | High
+32 | File | `/Electron/download` | High
+33 | File | `/forum/away.php` | High
+34 | File | `/general/attendance/manage/ask_duty/delete.php` | High
+35 | File | `/general/email/inbox/delete_webmail.php` | High
+36 | File | `/ghost/preview` | High
+37 | File | `/goform/AdvSetLanip` | High
+38 | File | `/goform/formDefault` | High
+39 | File | `/goform/setDeviceSettings` | High
+40 | File | `/goform/set_LimitClient_cfg` | High
+41 | File | `/htdocs/cgibin` | High
+42 | File | `/inc/topBarNav.php` | High
+43 | File | `/include/file.php` | High
+44 | File | `/index.php` | Medium
+45 | ... | ... | ...
 
-There are 368 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 393 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

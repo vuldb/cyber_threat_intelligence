@@ -40,10 +40,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-94 | Argument Injection | High
 5 | ... | ... | ... | ...
 
 There are 14 more TTP items available. Please use our online service to access the data.
@@ -66,12 +66,12 @@ ID | Type | Indicator | Confidence
 10 | File | `/librarian/bookdetails.php` | High
 11 | File | `/magnoliaPublic/travel/members/login.html` | High
 12 | File | `/Main_AdmStatus_Content.asp` | High
-13 | File | `/requests.php` | High
-14 | File | `/self.key` | Medium
-15 | File | `/uncpath/` | Medium
+13 | File | `/public/login.htm` | High
+14 | File | `/requests.php` | High
+15 | File | `/self.key` | Medium
 16 | ... | ... | ...
 
-There are 125 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 126 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

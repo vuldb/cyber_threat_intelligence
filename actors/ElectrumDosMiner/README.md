@@ -34,8 +34,8 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23 | Pathname Traversal | High
-2 | T1059 | CWE-94 | Cross Site Scripting | High
+1 | T1006 | CWE-22, CWE-23 | Path Traversal | High
+2 | T1059 | CWE-94 | Argument Injection | High
 3 | T1059.007 | CWE-79, CWE-80, CWE-84 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
@@ -51,20 +51,21 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin/maintenance/view_designation.php` | High
 3 | File | `/cgi-bin` | Medium
 4 | File | `/cgi-bin/ExportAllSettings.sh` | High
-5 | File | `/include/comm_post.inc.php` | High
-6 | File | `/magnoliaPublic/travel/members/login.html` | High
-7 | File | `/register.do` | Medium
-8 | File | `/secure/EditSubscription.jspa` | High
-9 | File | `/spip.php` | Medium
-10 | File | `addentry.php` | Medium
-11 | File | `admin.php` | Medium
-12 | File | `admin/admin.guestbook.php` | High
-13 | File | `admin/admin.php` | High
-14 | File | `admin/conf_users_edit.php` | High
-15 | File | `admin/index.php` | High
-16 | ... | ... | ...
+5 | File | `/forum/away.php` | High
+6 | File | `/include/comm_post.inc.php` | High
+7 | File | `/magnoliaPublic/travel/members/login.html` | High
+8 | File | `/register.do` | Medium
+9 | File | `/secure/EditSubscription.jspa` | High
+10 | File | `/spip.php` | Medium
+11 | File | `addentry.php` | Medium
+12 | File | `admin.php` | Medium
+13 | File | `admin/admin.guestbook.php` | High
+14 | File | `admin/admin.php` | High
+15 | File | `admin/conf_users_edit.php` | High
+16 | File | `admin/index.php` | High
+17 | ... | ... | ...
 
-There are 130 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 140 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

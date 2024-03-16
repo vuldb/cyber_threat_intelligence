@@ -49,12 +49,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+6 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+7 | ... | ... | ... | ...
 
 There are 22 more TTP items available. Please use our online service to access the data.
 
@@ -65,35 +66,35 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `%PROGRAMFILES(X86)%\Steam` | High
-2 | File | `/admin/add-category.php` | High
-3 | File | `/admin/edit.php` | High
-4 | File | `/admin/orders/update_status.php` | High
-5 | File | `/adminzone/index.php?page=admin-commandr` | High
+2 | File | `/admin/` | Low
+3 | File | `/admin/add-category.php` | High
+4 | File | `/admin/edit.php` | High
+5 | File | `/admin/orders/update_status.php` | High
 6 | File | `/ajax/networking/get_netcfg.php` | High
 7 | File | `/api/baskets/{name}` | High
-8 | File | `/api/v2/cli/commands` | High
-9 | File | `/billing/home.php` | High
-10 | File | `/cgi-bin/supervisor/CloudSetup.cgi` | High
-11 | File | `/cgi-bin/system_mgr.cgi` | High
-12 | File | `/cgi-bin/wapopen` | High
-13 | File | `/cgi-bin/wlogin.cgi` | High
-14 | File | `/cloud_config/router_post/reset_cloud_pwd` | High
-15 | File | `/etc/tomcat8/Catalina/attack` | High
-16 | File | `/filemanager/upload.php` | High
-17 | File | `/forum/away.php` | High
-18 | File | `/home/cavesConsole` | High
-19 | File | `/home/masterConsole` | High
-20 | File | `/home/playerOperate` | High
-21 | File | `/importexport.php` | High
-22 | File | `/items/search` | High
-23 | File | `/mgmt/tm/util/bash` | High
-24 | File | `/owa/auth/logon.aspx` | High
-25 | File | `/param.file.tgz` | High
-26 | File | `/product.php` | Medium
-27 | File | `/see_more_details.php` | High
+8 | File | `/api/filemanager` | High
+9 | File | `/api/v2/cli/commands` | High
+10 | File | `/billing/home.php` | High
+11 | File | `/cgi-bin/supervisor/CloudSetup.cgi` | High
+12 | File | `/cgi-bin/system_mgr.cgi` | High
+13 | File | `/cgi-bin/wapopen` | High
+14 | File | `/cgi-bin/wlogin.cgi` | High
+15 | File | `/cloud_config/router_post/reset_cloud_pwd` | High
+16 | File | `/etc/tomcat8/Catalina/attack` | High
+17 | File | `/filemanager/upload.php` | High
+18 | File | `/forum/away.php` | High
+19 | File | `/home/cavesConsole` | High
+20 | File | `/home/masterConsole` | High
+21 | File | `/home/playerOperate` | High
+22 | File | `/importexport.php` | High
+23 | File | `/items/search` | High
+24 | File | `/mgmt/tm/util/bash` | High
+25 | File | `/owa/auth/logon.aspx` | High
+26 | File | `/param.file.tgz` | High
+27 | File | `/pg_meta/default/query` | High
 28 | ... | ... | ...
 
-There are 235 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 238 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

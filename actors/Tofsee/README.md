@@ -173,15 +173,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Pathname Traversal | High
-2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-425 | Path Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
-7 | ... | ... | ... | ...
+6 | ... | ... | ... | ...
 
-There are 23 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -190,52 +189,47 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `//proc/kcore` | Medium
-2 | File | `/?p=products` | Medium
-3 | File | `/admin/about-us.php` | High
-4 | File | `/admin/action/delete-vaccine.php` | High
-5 | File | `/admin/add-category.php` | High
-6 | File | `/admin/controller/JobLogController.java` | High
-7 | File | `/admin/departments/view_department.php` | High
-8 | File | `/admin/index2.html` | High
-9 | File | `/admin/read.php?mudi=getSignal` | High
-10 | File | `/admin/userprofile.php` | High
-11 | File | `/api/baskets/{name}` | High
-12 | File | `/api/stl/actions/search` | High
-13 | File | `/api/sys/login` | High
-14 | File | `/api/sys/set_passwd` | High
-15 | File | `/api/trackedEntityInstances` | High
-16 | File | `/api/v2/cli/commands` | High
-17 | File | `/app/index/controller/Common.php` | High
-18 | File | `/aux` | Low
-19 | File | `/bin/ate` | Medium
-20 | File | `/bitrix/admin/ldap_server_edit.php` | High
-21 | File | `/booking/show_bookings/` | High
-22 | File | `/cgi-bin` | Medium
-23 | File | `/changePassword` | High
-24 | File | `/Content/Template/root/reverse-shell.aspx` | High
-25 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
-26 | File | `/dashboard/add-blog.php` | High
-27 | File | `/data/remove` | Medium
-28 | File | `/dcim/rack-roles/` | High
-29 | File | `/debug/pprof` | Medium
-30 | File | `/ecshop/admin/template.php` | High
-31 | File | `/env` | Low
-32 | File | `/forms/doLogin` | High
-33 | File | `/forum/away.php` | High
-34 | File | `/group1/uploa` | High
-35 | File | `/inc/topBarNav.php` | High
-36 | File | `/index.php` | Medium
-37 | File | `/index.php?app=main&func=passport&action=login` | High
-38 | File | `/kelas/data` | Medium
-39 | File | `/listplace/user/ticket/create` | High
-40 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-41 | File | `/php-sms/admin/?page=user/manage_user` | High
-42 | File | `/resources//../` | High
-43 | File | `/scripts/unlock_tasks.php` | High
-44 | File | `/squashfs-root/etc_ro/custom.conf` | High
-45 | ... | ... | ...
+2 | File | `/admin/about-us.php` | High
+3 | File | `/admin/action/delete-vaccine.php` | High
+4 | File | `/admin/add-category.php` | High
+5 | File | `/admin/controller/JobLogController.java` | High
+6 | File | `/admin/index2.html` | High
+7 | File | `/api/baskets/{name}` | High
+8 | File | `/api/sys/login` | High
+9 | File | `/api/sys/set_passwd` | High
+10 | File | `/api/trackedEntityInstances` | High
+11 | File | `/app/index/controller/Common.php` | High
+12 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
+13 | File | `/aux` | Low
+14 | File | `/bitrix/admin/ldap_server_edit.php` | High
+15 | File | `/cgi-bin/cstecgi.cgi` | High
+16 | File | `/changePassword` | High
+17 | File | `/Content/Template/root/reverse-shell.aspx` | High
+18 | File | `/dashboard/add-blog.php` | High
+19 | File | `/data/remove` | Medium
+20 | File | `/debug/pprof` | Medium
+21 | File | `/ecshop/admin/template.php` | High
+22 | File | `/etc/passwd` | Medium
+23 | File | `/forms/doLogin` | High
+24 | File | `/forum/away.php` | High
+25 | File | `/goform/net\_Web\_get_value` | High
+26 | File | `/group1/uploa` | High
+27 | File | `/index.php` | Medium
+28 | File | `/listplace/user/ticket/create` | High
+29 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
+30 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+31 | File | `/novel/author/list` | High
+32 | File | `/php/ping.php` | High
+33 | File | `/resources//../` | High
+34 | File | `/scripts/unlock_tasks.php` | High
+35 | File | `/squashfs-root/etc_ro/custom.conf` | High
+36 | File | `/staff/edit_book_details.php` | High
+37 | File | `/SysInfo1.htm` | High
+38 | File | `/sysinfo_json.cgi` | High
+39 | File | `/SysManage/AddUpdateRole.aspx` | High
+40 | ... | ... | ...
 
-There are 388 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 344 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

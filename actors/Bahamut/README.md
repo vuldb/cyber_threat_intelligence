@@ -17,6 +17,7 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [134.255.231.233](https://vuldb.com/?ip.134.255.231.233) | vps-zap930219-3.zap-srv.com | - | High
+2 | [134.255.252.185](https://vuldb.com/?ip.134.255.252.185) | vps-zap948630-2.zap-srv.com | - | High
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -24,13 +25,32 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1202 | CWE-77 | Command Injection | High
+1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+2 | T1202 | CWE-77 | Command Shell in Externally Accessible Directory | High
+3 | T1505 | CWE-89 | SQL Injection | High
+4 | ... | ... | ... | ...
+
+There are 2 more TTP items available. Please use our online service to access the data.
+
+## IOA - Indicator of Attack
+
+These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by Bahamut. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Type | Indicator | Confidence
+-- | ---- | --------- | ----------
+1 | File | `/see_more_details.php` | High
+2 | File | `calendar.php3` | High
+3 | File | `login_up.php3` | High
+4 | ... | ... | ...
+
+There are 10 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://search.censys.io/hosts/134.255.231.233
+* https://search.censys.io/hosts/134.255.252.185
 
 ## Literature
 

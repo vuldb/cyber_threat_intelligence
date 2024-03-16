@@ -4,6 +4,13 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.mirai_and_gafgyt](https://vuldb.com/?actor.mirai_and_gafgyt)
 
+## Countries
+
+These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Mirai and Gafgyt:
+
+* [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
+
 ## IOC - Indicator of Compromise
 
 These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of Mirai and Gafgyt.
@@ -11,11 +18,40 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [1.3.3.7](https://vuldb.com/?ip.1.3.3.7) | - | - | High
+2 | [45.95.146.93](https://vuldb.com/?ip.45.95.146.93) | hosted-by.alsycon.net | - | High
+3 | [94.103.188.167](https://vuldb.com/?ip.94.103.188.167) | node-2-md | - | High
+4 | ... | ... | ... | ...
+
+There are 1 more IOC items available. Please use our online service to access the data.
+
+## TTP - Tactics, Techniques, Procedures
+
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _Mirai and Gafgyt_. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1202 | CWE-77 | Command Shell in Externally Accessible Directory | High
+2 | T1505 | CWE-89 | SQL Injection | High
+3 | T1592 | CWE-208 | Invocation of Process Using Visible Sensitive Information | High
+4 | ... | ... | ... | ...
+
+There are 1 more TTP items available. Please use our online service to access the data.
+
+## IOA - Indicator of Attack
+
+These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by Mirai and Gafgyt. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Type | Indicator | Confidence
+-- | ---- | --------- | ----------
+1 | File | `chkisg.htm` | Medium
+2 | Argument | `content` | Low
+3 | Argument | `Sip` | Low
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://blog.xlab.qianxin.com/smargaft_abusing_binance-smart-contracts_en/
 * https://www.cyber45.com
 
 ## Literature

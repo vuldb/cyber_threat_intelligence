@@ -22,7 +22,7 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [5.181.156.137](https://vuldb.com/?ip.5.181.156.137) | 5-181-156-137.mivocloud.com | - | High
 4 | ... | ... | ... | ...
 
-There are 6 more IOC items available. Please use our online service to access the data.
+There are 7 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -31,8 +31,8 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1059.007 | CWE-79 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
-3 | T1202 | CWE-77 | Command Injection | High
+2 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+3 | T1202 | CWE-77 | Command Shell in Externally Accessible Directory | High
 4 | ... | ... | ... | ...
 
 There are 4 more TTP items available. Please use our online service to access the data.
@@ -57,6 +57,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/5.181.156.137
 * https://search.censys.io/hosts/8.218.170.109
 * https://search.censys.io/hosts/34.235.18.0
+* https://search.censys.io/hosts/91.92.242.137
 * https://search.censys.io/hosts/124.156.173.75
 * https://search.censys.io/hosts/137.175.19.209
 * https://search.censys.io/hosts/207.174.28.42

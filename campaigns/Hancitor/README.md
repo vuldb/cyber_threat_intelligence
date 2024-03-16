@@ -105,10 +105,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23 | Pathname Traversal | High
+1 | T1006 | CWE-22, CWE-23 | Path Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -142,26 +142,26 @@ ID | Type | Indicator | Confidence
 20 | File | `/owa/auth/logon.aspx` | High
 21 | File | `/rest/api/latest/projectvalidate/key` | High
 22 | File | `/rom-0` | Low
-23 | File | `/ServletAPI/accounts/login` | High
-24 | File | `/SVFE2/pages/feegroups/country_group.jsf` | High
-25 | File | `/textpattern/index.php` | High
-26 | File | `/upfile.cgi` | Medium
-27 | File | `/wordpress/wp-admin/admin.php` | High
-28 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-29 | File | `account_footer.php` | High
-30 | File | `adclick.php` | Medium
-31 | File | `add_edit_cat.asp` | High
-32 | File | `add_edit_user.asp` | High
-33 | File | `adm.cgi` | Low
-34 | File | `admin.cropcanvas.php` | High
-35 | File | `admin.jcomments.php` | High
-36 | File | `admin/editusertag.php` | High
-37 | File | `admin/edit_category.php` | High
-38 | File | `admin/index.php` | High
-39 | File | `adminAttachments.php` | High
+23 | File | `/rules/REQUEST-932-APPLICATION-ATTACK-RCE.conf` | High
+24 | File | `/ServletAPI/accounts/login` | High
+25 | File | `/SVFE2/pages/feegroups/country_group.jsf` | High
+26 | File | `/textpattern/index.php` | High
+27 | File | `/upfile.cgi` | Medium
+28 | File | `/wordpress/wp-admin/admin.php` | High
+29 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+30 | File | `account_footer.php` | High
+31 | File | `adclick.php` | Medium
+32 | File | `add_edit_cat.asp` | High
+33 | File | `add_edit_user.asp` | High
+34 | File | `adm.cgi` | Low
+35 | File | `admin.cropcanvas.php` | High
+36 | File | `admin.jcomments.php` | High
+37 | File | `admin/editusertag.php` | High
+38 | File | `admin/edit_category.php` | High
+39 | File | `admin/index.php` | High
 40 | ... | ... | ...
 
-There are 343 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 340 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

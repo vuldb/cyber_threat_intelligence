@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 15 more country items available. Please use our online service to access the data.
+There are 16 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -44,10 +44,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-22 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-94 | Argument Injection | High
 5 | ... | ... | ... | ...
 
 There are 17 more TTP items available. Please use our online service to access the data.
@@ -67,19 +67,20 @@ ID | Type | Indicator | Confidence
 7 | File | `/cgi-bin/webproc` | High
 8 | File | `/clinic/medical_records_view.php` | High
 9 | File | `/coreframe/app/pay/admin/index.php` | High
-10 | File | `/forum/away.php` | High
-11 | File | `/importexport.php` | High
-12 | File | `/index.php` | Medium
-13 | File | `/mobileredir/openApp.jsp` | High
-14 | File | `/ofrs/admin/?page=requests/manage_request` | High
-15 | File | `/search` | Low
-16 | File | `/spip.php` | Medium
-17 | File | `/usr/www/ja/mnt_cmd.cgi` | High
-18 | File | `/wp-admin/admin-ajax.php` | High
-19 | File | `active.log` | Medium
-20 | ... | ... | ...
+10 | File | `/dashboard/Cinvoice/manage_invoice` | High
+11 | File | `/forum/away.php` | High
+12 | File | `/importexport.php` | High
+13 | File | `/index.php` | Medium
+14 | File | `/mobileredir/openApp.jsp` | High
+15 | File | `/ofrs/admin/?page=requests/manage_request` | High
+16 | File | `/search` | Low
+17 | File | `/spip.php` | Medium
+18 | File | `/usr/www/ja/mnt_cmd.cgi` | High
+19 | File | `/wp-admin/admin-ajax.php` | High
+20 | File | `active.log` | Medium
+21 | ... | ... | ...
 
-There are 164 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 175 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

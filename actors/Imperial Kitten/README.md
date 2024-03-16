@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 26 more country items available. Please use our online service to access the data.
+There are 25 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -40,14 +40,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -56,63 +56,63 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/academy/tutor/filter` | High
-2 | File | `/app/options.py` | High
-3 | File | `/card_scan.php` | High
-4 | File | `/cgi-bin` | Medium
-5 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-6 | File | `/cgi-bin/wlogin.cgi` | High
-7 | File | `/ClickAndBanexDemo/admin/admin_dblayers.asp` | High
-8 | File | `/CMD_ACCOUNT_ADMIN` | High
+2 | File | `/admin/` | Low
+3 | File | `/app/options.py` | High
+4 | File | `/card_scan.php` | High
+5 | File | `/cgi-bin` | Medium
+6 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
+7 | File | `/cgi-bin/wlogin.cgi` | High
+8 | File | `/ClickAndBanexDemo/admin/admin_dblayers.asp` | High
 9 | File | `/cwc/login` | Medium
-10 | File | `/download` | Medium
-11 | File | `/etc/quagga` | Medium
-12 | File | `/fhconf/umconfig.txt` | High
-13 | File | `/forms/doLogin` | High
-14 | File | `/h/calendar` | Medium
-15 | File | `/inc/extensions.php` | High
-16 | File | `/include/chart_generator.php` | High
-17 | File | `/includes/login.php` | High
-18 | File | `/index.php` | Medium
-19 | File | `/members/view_member.php` | High
-20 | File | `/mhds/clinic/view_details.php` | High
-21 | File | `/nova/bin/console` | High
-22 | File | `/nova/bin/detnet` | High
-23 | File | `/oauth/idp/.well-known/openid-configuration` | High
-24 | File | `/out.php` | Medium
-25 | File | `/owa/auth/logon.aspx` | High
-26 | File | `/product_list.php` | High
-27 | File | `/req_password_user.php` | High
-28 | File | `/rest/api/latest/projectvalidate/key` | High
-29 | File | `/rom-0` | Low
-30 | File | `/secure/QueryComponent!Default.jspa` | High
-31 | File | `/ServletAPI/accounts/login` | High
-32 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
-33 | File | `/sysmanage/changelogo.php` | High
-34 | File | `/tmp/.uci/network` | High
-35 | File | `/uncpath/` | Medium
-36 | File | `/upload` | Low
-37 | File | `/usr/bin/pkexec` | High
-38 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
-39 | File | `/usr/syno/etc/mount.conf` | High
-40 | File | `/vdesk` | Low
-41 | File | `/WEB-INF/web.xml` | High
-42 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-43 | File | `/wp-json` | Medium
-44 | File | `aboutus.php` | Medium
-45 | File | `achat/produit_details.php` | High
-46 | File | `adclick.php` | Medium
-47 | File | `add_to_cart.php` | High
-48 | File | `adm.cgi` | Low
-49 | File | `admin.jcomments.php` | High
-50 | File | `admin/index.php` | High
-51 | File | `admin/modules/tools/ip_history_logs.php` | High
-52 | File | `admin/specials.php` | High
-53 | File | `announce.php` | Medium
-54 | File | `App/Ajax/ajax.php?action=mobile_upload_save` | High
-55 | File | `articles.php` | Medium
+10 | File | `/debuginfo.htm` | High
+11 | File | `/download` | Medium
+12 | File | `/etc/quagga` | Medium
+13 | File | `/fhconf/umconfig.txt` | High
+14 | File | `/forms/doLogin` | High
+15 | File | `/h/calendar` | Medium
+16 | File | `/inc/extensions.php` | High
+17 | File | `/include/chart_generator.php` | High
+18 | File | `/includes/login.php` | High
+19 | File | `/index.php` | Medium
+20 | File | `/members/view_member.php` | High
+21 | File | `/mhds/clinic/view_details.php` | High
+22 | File | `/nova/bin/console` | High
+23 | File | `/nova/bin/detnet` | High
+24 | File | `/oauth/idp/.well-known/openid-configuration` | High
+25 | File | `/out.php` | Medium
+26 | File | `/owa/auth/logon.aspx` | High
+27 | File | `/product_list.php` | High
+28 | File | `/req_password_user.php` | High
+29 | File | `/rest/api/latest/projectvalidate/key` | High
+30 | File | `/rom-0` | Low
+31 | File | `/secure/QueryComponent!Default.jspa` | High
+32 | File | `/ServletAPI/accounts/login` | High
+33 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
+34 | File | `/sysmanage/changelogo.php` | High
+35 | File | `/tmp/.uci/network` | High
+36 | File | `/uncpath/` | Medium
+37 | File | `/upload` | Low
+38 | File | `/usr/bin/pkexec` | High
+39 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
+40 | File | `/usr/syno/etc/mount.conf` | High
+41 | File | `/vdesk` | Low
+42 | File | `/WEB-INF/web.xml` | High
+43 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+44 | File | `/wp-json` | Medium
+45 | File | `aboutus.php` | Medium
+46 | File | `achat/produit_details.php` | High
+47 | File | `adclick.php` | Medium
+48 | File | `add_to_cart.php` | High
+49 | File | `adm.cgi` | Low
+50 | File | `admin.jcomments.php` | High
+51 | File | `admin/index.php` | High
+52 | File | `admin/modules/tools/ip_history_logs.php` | High
+53 | File | `admin/specials.php` | High
+54 | File | `announce.php` | Medium
+55 | File | `App/Ajax/ajax.php?action=mobile_upload_save` | High
 56 | ... | ... | ...
 
-There are 492 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 493 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

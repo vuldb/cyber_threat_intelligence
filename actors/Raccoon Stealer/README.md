@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [SH](https://vuldb.com/?country.sh)
 * [US](https://vuldb.com/?country.us)
-* [CN](https://vuldb.com/?country.cn)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 10 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -52,10 +52,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-22, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -68,48 +68,48 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `//proc/kcore` | Medium
-2 | File | `/?p=products` | Medium
-3 | File | `/academy/home/courses` | High
-4 | File | `/admin/about-us.php` | High
-5 | File | `/admin/action/delete-vaccine.php` | High
-6 | File | `/admin/del_feedback.php` | High
-7 | File | `/admin/index2.html` | High
-8 | File | `/admin/maintenance/brand.php` | High
-9 | File | `/admin/mechanics/manage_mechanic.php` | High
-10 | File | `/admin/modal_add_product.php` | High
-11 | File | `/admin/positions_add.php` | High
-12 | File | `/admin/user/manage_user.php` | High
-13 | File | `/admin/userprofile.php` | High
-14 | File | `/admin/voters_row.php` | High
-15 | File | `/ajax.php?action=save_company` | High
-16 | File | `/ajax.php?action=save_user` | High
-17 | File | `/ajax/myshop` | Medium
-18 | File | `/api/baskets/{name}` | High
-19 | File | `/api/database` | High
-20 | File | `/app/index/controller/Common.php` | High
-21 | File | `/App_Resource/UEditor/server/upload.aspx` | High
-22 | File | `/authenticationendpoint/login.do` | High
-23 | File | `/backup.pl` | Medium
-24 | File | `/bitrix/admin/ldap_server_edit.php` | High
-25 | File | `/c/PluginsController.php` | High
-26 | File | `/cas/logout` | Medium
-27 | File | `/category.php` | High
-28 | File | `/cgi-bin/system_mgr.cgi` | High
-29 | File | `/chaincity/user/ticket/create` | High
-30 | File | `/collection/all` | High
-31 | File | `/contactform/contactform.php` | High
-32 | File | `/Controller/Ajaxfileupload.ashx` | High
-33 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
-34 | File | `/dcim/rack-roles/` | High
-35 | File | `/ecommerce/support_ticket` | High
-36 | File | `/ecrire/exec/puce_statut.php` | High
-37 | File | `/files/` | Low
-38 | File | `/forms/doLogin` | High
-39 | File | `/forum/away.php` | High
-40 | File | `/friends/ajax_invite` | High
+2 | File | `/academy/home/courses` | High
+3 | File | `/admin/about-us.php` | High
+4 | File | `/admin/action/delete-vaccine.php` | High
+5 | File | `/admin/del_feedback.php` | High
+6 | File | `/admin/index2.html` | High
+7 | File | `/admin/modal_add_product.php` | High
+8 | File | `/admin/positions_add.php` | High
+9 | File | `/admin/user/manage_user.php` | High
+10 | File | `/ajax.php?action=save_company` | High
+11 | File | `/ajax.php?action=save_user` | High
+12 | File | `/ajax/myshop` | Medium
+13 | File | `/api/baskets/{name}` | High
+14 | File | `/api/database` | High
+15 | File | `/app/index/controller/Common.php` | High
+16 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
+17 | File | `/App_Resource/UEditor/server/upload.aspx` | High
+18 | File | `/authenticationendpoint/login.do` | High
+19 | File | `/backup.pl` | Medium
+20 | File | `/bitrix/admin/ldap_server_edit.php` | High
+21 | File | `/c/PluginsController.php` | High
+22 | File | `/cas/logout` | Medium
+23 | File | `/category.php` | High
+24 | File | `/cgi-bin/system_mgr.cgi` | High
+25 | File | `/chaincity/user/ticket/create` | High
+26 | File | `/collection/all` | High
+27 | File | `/contactform/contactform.php` | High
+28 | File | `/Controller/Ajaxfileupload.ashx` | High
+29 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
+30 | File | `/dcim/rack-roles/` | High
+31 | File | `/ecommerce/support_ticket` | High
+32 | File | `/ecrire/exec/puce_statut.php` | High
+33 | File | `/files/` | Low
+34 | File | `/forms/doLogin` | High
+35 | File | `/forum/away.php` | High
+36 | File | `/friends/ajax_invite` | High
+37 | File | `/goform/WifiGuestSet` | High
+38 | File | `/home/filter_listings` | High
+39 | File | `/index.php` | Medium
+40 | File | `/index.php/client/message/message_read/xxxxxxxx[random-msg-hash]` | High
 41 | ... | ... | ...
 
-There are 350 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 357 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

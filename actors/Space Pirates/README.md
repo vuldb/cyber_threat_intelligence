@@ -24,7 +24,8 @@ ID | IP address | Hostname | Campaign | Confidence
 1 | [45.76.145.22](https://vuldb.com/?ip.45.76.145.22) | 45.76.145.22.vultrusercontent.com | - | High
 2 | [45.77.16.91](https://vuldb.com/?ip.45.77.16.91) | 45.77.16.91.vultrusercontent.com | - | High
 3 | [47.108.89.169](https://vuldb.com/?ip.47.108.89.169) | - | - | High
-4 | ... | ... | ... | ...
+4 | [103.27.109.234](https://vuldb.com/?ip.103.27.109.234) | - | - | High
+5 | ... | ... | ... | ...
 
 There are 14 more IOC items available. Please use our online service to access the data.
 
@@ -34,9 +35,9 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
 2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94 | Cross Site Scripting | High
+3 | T1059 | CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
@@ -67,6 +68,7 @@ There are 81 more IOA items available (file, library, argument, input value, pat
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://1275.ru/ioc/224/space-pirates-p1rat-apt-iocs/
+* https://www.ptsecurity.com/ww-en/analytics/pt-esc-threat-intelligence/space-pirates-tools-and-connections/
 
 ## Literature
 

@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [ES](https://vuldb.com/?country.es)
 * [US](https://vuldb.com/?country.us)
-* [LA](https://vuldb.com/?country.la)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 21 more country items available. Please use our online service to access the data.
+There are 22 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -404,9 +404,11 @@ ID | IP address | Hostname | Actor | Confidence
 371 | [62.102.148.185](https://vuldb.com/?ip.62.102.148.185) | - | [Remcos](https://vuldb.com/?actor.remcos) | High
 372 | [62.197.136.163](https://vuldb.com/?ip.62.197.136.163) | kaiser-miles.joggingcourt.org.uk | [Remcos](https://vuldb.com/?actor.remcos) | High
 373 | [62.204.41.69](https://vuldb.com/?ip.62.204.41.69) | - | [Remcos](https://vuldb.com/?actor.remcos) | High
-374 | ... | ... | ... | ...
+374 | [64.44.102.244](https://vuldb.com/?ip.64.44.102.244) | 244-102-44-64.reverse-dns | [Remcos](https://vuldb.com/?actor.remcos) | High
+375 | [64.44.139.178](https://vuldb.com/?ip.64.44.139.178) | 178-139-44-64-.reverse-dns | [Remcos](https://vuldb.com/?actor.remcos) | High
+376 | ... | ... | ... | ...
 
-There are 1494 more IOC items available. Please use our online service to access the data.
+There are 1498 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -434,46 +436,50 @@ ID | Type | Indicator | Confidence
 3 | File | `/admin/action/delete-vaccine.php` | High
 4 | File | `/admin/action/new-father.php` | High
 5 | File | `/admin/general.cgi` | High
-6 | File | `/admin/index2.html` | High
-7 | File | `/admin/pages/subjects.php` | High
-8 | File | `/admin/students/manage_academic.php` | High
-9 | File | `/api/admin/system/store/order/list` | High
-10 | File | `/api/baskets/{name}` | High
-11 | File | `/api/v4/teams//channels/deleted` | High
-12 | File | `/app/index/controller/Common.php` | High
-13 | File | `/app/middleware/TokenVerify.php` | High
-14 | File | `/application/index/controller/Screen.php` | High
-15 | File | `/application/websocket/controller/Setting.php` | High
-16 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
-17 | File | `/bin/boa` | Medium
-18 | File | `/boafrm/formMapDelDevice` | High
-19 | File | `/cgi-bin/cstecgi.cgi` | High
-20 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-21 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
-22 | File | `/debug/pprof` | Medium
-23 | File | `/edit/server` | Medium
-24 | File | `/etc/shadow` | Medium
-25 | File | `/forms/doLogin` | High
-26 | File | `/forum/away.php` | High
-27 | File | `/goform/setAutoPing` | High
-28 | File | `/hedwig.cgi` | Medium
-29 | File | `/HNAP1/` | Low
-30 | File | `/icehrm/app/fileupload_page.php` | High
-31 | File | `/index.php` | Medium
-32 | File | `/listplace/user/ticket/create` | High
-33 | File | `/log/mailsendview.php` | High
-34 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
-35 | File | `/manage/IPSetup.php` | High
-36 | File | `/modules/projects/vw_files.php` | High
-37 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-38 | File | `/novel/author/list` | High
-39 | File | `/novel/bookSetting/list` | High
-40 | File | `/novel/userFeedback/list` | High
-41 | File | `/oauth/idp/.well-known/openid-configuration` | High
-42 | File | `/owa/auth/logon.aspx` | High
-43 | ... | ... | ...
+6 | File | `/admin/index/index.html#/admin/mall.goods/index.html` | High
+7 | File | `/admin/index2.html` | High
+8 | File | `/admin/ind_backstage.php` | High
+9 | File | `/admin/pages/subjects.php` | High
+10 | File | `/admin/students/manage_academic.php` | High
+11 | File | `/admin/user/manage_user.php` | High
+12 | File | `/api/admin/system/store/order/list` | High
+13 | File | `/api/baskets/{name}` | High
+14 | File | `/api/v4/teams//channels/deleted` | High
+15 | File | `/app/ajax/search_sales_report.php` | High
+16 | File | `/app/index/controller/Common.php` | High
+17 | File | `/app/middleware/TokenVerify.php` | High
+18 | File | `/application/index/controller/Screen.php` | High
+19 | File | `/application/websocket/controller/Setting.php` | High
+20 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
+21 | File | `/bin/boa` | Medium
+22 | File | `/boafrm/formMapDelDevice` | High
+23 | File | `/cgi-bin/cstecgi.cgi` | High
+24 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+25 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
+26 | File | `/debug/pprof` | Medium
+27 | File | `/edit/server` | Medium
+28 | File | `/endpoint/delete-computer.php` | High
+29 | File | `/endpoint/update-tracker.php` | High
+30 | File | `/etc/shadow` | Medium
+31 | File | `/forms/doLogin` | High
+32 | File | `/forum/away.php` | High
+33 | File | `/fos/admin/index.php?page=menu` | High
+34 | File | `/goform/setAutoPing` | High
+35 | File | `/hedwig.cgi` | Medium
+36 | File | `/HNAP1/` | Low
+37 | File | `/icehrm/app/fileupload_page.php` | High
+38 | File | `/index.php` | Medium
+39 | File | `/listplace/user/ticket/create` | High
+40 | File | `/log/mailsendview.php` | High
+41 | File | `/LoginRegistration.php` | High
+42 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
+43 | File | `/manage/IPSetup.php` | High
+44 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+45 | File | `/novel/author/list` | High
+46 | File | `/novel/bookSetting/list` | High
+47 | ... | ... | ...
 
-There are 372 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 408 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -667,6 +673,7 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://bazaar.abuse.ch/sample/39b4aba5e8641981ee7c36537c71403e038895c5699f172498fb99f51f994b85/
 * https://bazaar.abuse.ch/sample/39d5de9369e325dcd8f7a15ce88dd495295e87fa945682ae6f454f2f8d0130ad/
 * https://bazaar.abuse.ch/sample/40c6b25dd6c033fde6d303ee582875d841aa8512b687cc44239c9a3b02442b6b/
+* https://bazaar.abuse.ch/sample/41ef0c505a1a972c3aad53ec5df2391bebd7d80a10d61f26171f302cb3960a8f/
 * https://bazaar.abuse.ch/sample/42fcd49dbd2d31de1fa0844208b5e32b72708d7113328b5dfc3f57025807f17d/
 * https://bazaar.abuse.ch/sample/43e1f1635e1cca717e2d9598e708ded20f6e9236f68ab9d3a28b83e49c71fd32/
 * https://bazaar.abuse.ch/sample/45b0d876c0cd4f0d9f397f8a4029d71e55b4d13813ccea024dc492d2ae868214/
@@ -813,6 +820,7 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://bazaar.abuse.ch/sample/56795470a3bd1762459af050088e74f3a693ba31980aa545f7a0bca1024f457c/
 * https://bazaar.abuse.ch/sample/202577211d7d1710869244007ccb21c8fdf3140c3445481ca6e839da82fef962/
 * https://bazaar.abuse.ch/sample/290438510b39d1bed591f205153bcdd1eb5772610de350fbadb751afeb431b49/
+* https://bazaar.abuse.ch/sample/716560400b53cafcc395a9bdf7dcdc66d060804a893dcfe37ad4c2387f517c4c/
 * https://bazaar.abuse.ch/sample/811270243c45b2a937676be4f190c5558c5b208ea49cf28137b20ccfea01d33f/
 * https://bazaar.abuse.ch/sample/6534823922c1889047e2edc0aab14482758d7dbdd296941403ae7657cb248e05/
 * https://bazaar.abuse.ch/sample/9029634466c96a75b004ee2ad1de6188db1f20dc769aef7575c8c7dca382eb15/
@@ -997,6 +1005,7 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://bazaar.abuse.ch/sample/fc7b3d0e0c28d27d3e5ae2baffa0af9b36e63bbe541c72cb08554731b34d37fb/
 * https://bazaar.abuse.ch/sample/fca327a07db22999539c70fd7720c712e90780a04144bbb7fc3f27fd77d68a7c/
 * https://bazaar.abuse.ch/sample/fd252e29ab84fc92e2084a5b06e85015d3216c0dd8e1d972972b899cc6ae1200/
+* https://bazaar.abuse.ch/sample/feae9d776c408f1d5111f42a037cf5a16a3a558ce4ee801f17d9858d8e464cd7/
 * https://bazaar.abuse.ch/sample/ff9b3972b169896c9f9cbb757a31dee0a842a5fae8d58aa2c476a3fd1aafea31/
 * https://bazaar.abuse.ch/sample/ff7590bfb16d0f08b97d501412e4dc134957459b2ac81baaa6e419a609d80ddf/
 * https://blog.morphisec.com/remcos-trojan-analyzing-attack-chain

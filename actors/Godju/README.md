@@ -29,10 +29,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23 | Pathname Traversal | High
+1 | T1006 | CWE-22, CWE-23 | Path Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -62,16 +62,17 @@ ID | Type | Indicator | Confidence
 16 | File | `/collection/all` | High
 17 | File | `/config,admin.jsp` | High
 18 | File | `/config/list` | Medium
-19 | File | `/coreframe/app/guestbook/myissue.php` | High
-20 | File | `/dede/co_do.php` | High
-21 | File | `/DXR.axd` | Medium
-22 | File | `/etc/init.d/sshd_service` | High
-23 | File | `/fuel/sitevariables/delete/4` | High
-24 | File | `/goform/saveParentControlInfo` | High
-25 | File | `/goform/setBlackRule` | High
-26 | ... | ... | ...
+19 | File | `/core/config-revisions` | High
+20 | File | `/coreframe/app/guestbook/myissue.php` | High
+21 | File | `/dede/co_do.php` | High
+22 | File | `/DXR.axd` | Medium
+23 | File | `/etc/init.d/sshd_service` | High
+24 | File | `/fuel/sitevariables/delete/4` | High
+25 | File | `/goform/saveParentControlInfo` | High
+26 | File | `/goform/setBlackRule` | High
+27 | ... | ... | ...
 
-There are 219 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 226 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

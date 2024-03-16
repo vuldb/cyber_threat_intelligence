@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with LokiBot:
 
-* [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
+* [US](https://vuldb.com/?country.us)
 * [VN](https://vuldb.com/?country.vn)
 * ...
 
-There are 14 more country items available. Please use our online service to access the data.
+There are 8 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -121,14 +121,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-24 | Pathname Traversal | High
-2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-264, CWE-266, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+1 | T1006 | CWE-21, CWE-22, CWE-425 | Path Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -136,50 +136,49 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `$HOME/.terminfo` | High
-2 | File | `//proc/kcore` | Medium
-3 | File | `/admin/` | Low
-4 | File | `/admin/action/delete-vaccine.php` | High
-5 | File | `/admin/admin_user.php` | High
-6 | File | `/admin/category/save` | High
-7 | File | `/admin/controller/JobLogController.java` | High
-8 | File | `/admin/index2.html` | High
-9 | File | `/admin/subject.php` | High
-10 | File | `/api/sys/login` | High
-11 | File | `/api/sys/set_passwd` | High
-12 | File | `/api/trackedEntityInstances` | High
-13 | File | `/app/index/controller/Common.php` | High
-14 | File | `/auth/auth.php?user=1` | High
-15 | File | `/aux` | Low
-16 | File | `/bitrix/admin/ldap_server_edit.php` | High
-17 | File | `/boaform/device_reset.cgi` | High
-18 | File | `/cgi-bin/cstecgi.cgi` | High
-19 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-20 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
-21 | File | `/cgi-bin/wlogin.cgi` | High
-22 | File | `/cgi/cpaddons_report.pl` | High
-23 | File | `/changePassword` | High
-24 | File | `/data/remove` | Medium
-25 | File | `/debug/pprof` | Medium
-26 | File | `/DXR.axd` | Medium
-27 | File | `/ecshop/admin/template.php` | High
-28 | File | `/forms/doLogin` | High
-29 | File | `/forum/away.php` | High
-30 | File | `/goform/goform_get_cmd_process` | High
-31 | File | `/HNAP1/` | Low
-32 | File | `/importexport.php` | High
-33 | File | `/index.php` | Medium
-34 | File | `/listplace/user/ticket/create` | High
-35 | File | `/main/doctype.php` | High
-36 | File | `/main/webservices/additional_webservices.php` | High
-37 | File | `/mc` | Low
-38 | File | `/mgmt/` | Low
-39 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-40 | File | `/oauth/idp/.well-known/openid-configuration` | High
-41 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-42 | ... | ... | ...
+1 | File | `/admin/` | Low
+2 | File | `/admin/action/delete-vaccine.php` | High
+3 | File | `/admin/admin_user.php` | High
+4 | File | `/admin/index2.html` | High
+5 | File | `/admin/list_ipAddressPolicy.php` | High
+6 | File | `/admin/subject.php` | High
+7 | File | `/api/trackedEntityInstances` | High
+8 | File | `/app/index/controller/Common.php` | High
+9 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
+10 | File | `/auth/auth.php?user=1` | High
+11 | File | `/aux` | Low
+12 | File | `/boaform/device_reset.cgi` | High
+13 | File | `/cgi-bin/cstecgi.cgi` | High
+14 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+15 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
+16 | File | `/cgi-bin/wlogin.cgi` | High
+17 | File | `/cgi/cpaddons_report.pl` | High
+18 | File | `/common/dict/list` | High
+19 | File | `/data/remove` | Medium
+20 | File | `/debug/pprof` | Medium
+21 | File | `/DXR.axd` | Medium
+22 | File | `/etc/passwd` | Medium
+23 | File | `/forms/doLogin` | High
+24 | File | `/forum/away.php` | High
+25 | File | `/goform/goform_get_cmd_process` | High
+26 | File | `/HNAP1/` | Low
+27 | File | `/importexport.php` | High
+28 | File | `/index.php` | Medium
+29 | File | `/main/doctype.php` | High
+30 | File | `/main/webservices/additional_webservices.php` | High
+31 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
+32 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+33 | File | `/net/bluetooth/rfcomm/core.C` | High
+34 | File | `/novel/author/list` | High
+35 | File | `/pdf` | Low
+36 | File | `/register.php` | High
+37 | File | `/spip.php` | Medium
+38 | File | `/terminal/handle-command.php` | High
+39 | File | `/tmp/ppd.trace` | High
+40 | File | `/update-resource-data/` | High
+41 | ... | ... | ...
 
-There are 362 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 353 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

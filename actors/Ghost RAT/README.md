@@ -8,6 +8,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Ghost RAT:
 
+* [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
 
 ## IOC - Indicator of Compromise
@@ -17,36 +18,37 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [1.13.249.49](https://vuldb.com/?ip.1.13.249.49) | - | - | High
-2 | [2.58.64.219](https://vuldb.com/?ip.2.58.64.219) | - | - | High
-3 | [3.13.191.225](https://vuldb.com/?ip.3.13.191.225) | ec2-3-13-191-225.us-east-2.compute.amazonaws.com | - | Medium
-4 | [3.14.182.203](https://vuldb.com/?ip.3.14.182.203) | ec2-3-14-182-203.us-east-2.compute.amazonaws.com | - | Medium
-5 | [3.17.7.232](https://vuldb.com/?ip.3.17.7.232) | ec2-3-17-7-232.us-east-2.compute.amazonaws.com | - | Medium
-6 | [3.22.30.40](https://vuldb.com/?ip.3.22.30.40) | ec2-3-22-30-40.us-east-2.compute.amazonaws.com | - | Medium
-7 | [3.134.39.220](https://vuldb.com/?ip.3.134.39.220) | ec2-3-134-39-220.us-east-2.compute.amazonaws.com | - | Medium
-8 | [3.134.125.175](https://vuldb.com/?ip.3.134.125.175) | ec2-3-134-125-175.us-east-2.compute.amazonaws.com | - | Medium
-9 | [3.141.177.1](https://vuldb.com/?ip.3.141.177.1) | ec2-3-141-177-1.us-east-2.compute.amazonaws.com | - | Medium
-10 | [3.142.81.166](https://vuldb.com/?ip.3.142.81.166) | ec2-3-142-81-166.us-east-2.compute.amazonaws.com | - | Medium
-11 | [13.58.157.220](https://vuldb.com/?ip.13.58.157.220) | ec2-13-58-157-220.us-east-2.compute.amazonaws.com | - | Medium
-12 | [18.189.106.45](https://vuldb.com/?ip.18.189.106.45) | ec2-18-189-106-45.us-east-2.compute.amazonaws.com | - | Medium
-13 | [23.106.215.217](https://vuldb.com/?ip.23.106.215.217) | - | - | High
-14 | [23.225.73.110](https://vuldb.com/?ip.23.225.73.110) | - | - | High
-15 | [23.251.41.162](https://vuldb.com/?ip.23.251.41.162) | - | - | High
-16 | [38.47.204.154](https://vuldb.com/?ip.38.47.204.154) | - | - | High
-17 | [38.181.20.78](https://vuldb.com/?ip.38.181.20.78) | - | - | High
-18 | [38.181.58.21](https://vuldb.com/?ip.38.181.58.21) | uhn19.pm.com | - | High
-19 | [39.109.113.141](https://vuldb.com/?ip.39.109.113.141) | - | - | High
-20 | [43.129.192.59](https://vuldb.com/?ip.43.129.192.59) | - | - | High
-21 | [43.136.78.18](https://vuldb.com/?ip.43.136.78.18) | - | - | High
-22 | [43.142.38.153](https://vuldb.com/?ip.43.142.38.153) | - | - | High
-23 | [43.248.137.153](https://vuldb.com/?ip.43.248.137.153) | - | - | High
-24 | [43.249.195.178](https://vuldb.com/?ip.43.249.195.178) | - | - | High
-25 | [43.255.241.176](https://vuldb.com/?ip.43.255.241.176) | 43-255-241-176.static.bestidc.net | - | High
-26 | [45.153.241.207](https://vuldb.com/?ip.45.153.241.207) | - | - | High
-27 | [47.92.53.65](https://vuldb.com/?ip.47.92.53.65) | - | - | High
-28 | [47.97.103.217](https://vuldb.com/?ip.47.97.103.217) | - | - | High
-29 | ... | ... | ... | ...
+2 | [1.92.90.232](https://vuldb.com/?ip.1.92.90.232) | ecs-1-92-90-232.compute.hwclouds-dns.com | - | High
+3 | [2.58.64.219](https://vuldb.com/?ip.2.58.64.219) | - | - | High
+4 | [3.13.191.225](https://vuldb.com/?ip.3.13.191.225) | ec2-3-13-191-225.us-east-2.compute.amazonaws.com | - | Medium
+5 | [3.14.182.203](https://vuldb.com/?ip.3.14.182.203) | ec2-3-14-182-203.us-east-2.compute.amazonaws.com | - | Medium
+6 | [3.17.7.232](https://vuldb.com/?ip.3.17.7.232) | ec2-3-17-7-232.us-east-2.compute.amazonaws.com | - | Medium
+7 | [3.22.30.40](https://vuldb.com/?ip.3.22.30.40) | ec2-3-22-30-40.us-east-2.compute.amazonaws.com | - | Medium
+8 | [3.134.39.220](https://vuldb.com/?ip.3.134.39.220) | ec2-3-134-39-220.us-east-2.compute.amazonaws.com | - | Medium
+9 | [3.134.125.175](https://vuldb.com/?ip.3.134.125.175) | ec2-3-134-125-175.us-east-2.compute.amazonaws.com | - | Medium
+10 | [3.141.177.1](https://vuldb.com/?ip.3.141.177.1) | ec2-3-141-177-1.us-east-2.compute.amazonaws.com | - | Medium
+11 | [3.142.81.166](https://vuldb.com/?ip.3.142.81.166) | ec2-3-142-81-166.us-east-2.compute.amazonaws.com | - | Medium
+12 | [8.130.11.62](https://vuldb.com/?ip.8.130.11.62) | - | - | High
+13 | [13.58.157.220](https://vuldb.com/?ip.13.58.157.220) | ec2-13-58-157-220.us-east-2.compute.amazonaws.com | - | Medium
+14 | [18.189.106.45](https://vuldb.com/?ip.18.189.106.45) | ec2-18-189-106-45.us-east-2.compute.amazonaws.com | - | Medium
+15 | [23.106.215.217](https://vuldb.com/?ip.23.106.215.217) | - | - | High
+16 | [23.225.73.110](https://vuldb.com/?ip.23.225.73.110) | - | - | High
+17 | [23.251.41.162](https://vuldb.com/?ip.23.251.41.162) | - | - | High
+18 | [38.47.204.154](https://vuldb.com/?ip.38.47.204.154) | - | - | High
+19 | [38.181.20.78](https://vuldb.com/?ip.38.181.20.78) | - | - | High
+20 | [38.181.58.21](https://vuldb.com/?ip.38.181.58.21) | uhn19.pm.com | - | High
+21 | [39.109.113.141](https://vuldb.com/?ip.39.109.113.141) | - | - | High
+22 | [42.237.24.42](https://vuldb.com/?ip.42.237.24.42) | hn.kd.ny.adsl | - | High
+23 | [42.237.25.52](https://vuldb.com/?ip.42.237.25.52) | hn.kd.ny.adsl | - | High
+24 | [43.129.192.59](https://vuldb.com/?ip.43.129.192.59) | - | - | High
+25 | [43.136.78.18](https://vuldb.com/?ip.43.136.78.18) | - | - | High
+26 | [43.142.38.153](https://vuldb.com/?ip.43.142.38.153) | - | - | High
+27 | [43.248.137.153](https://vuldb.com/?ip.43.248.137.153) | - | - | High
+28 | [43.249.195.178](https://vuldb.com/?ip.43.249.195.178) | - | - | High
+29 | [43.255.241.176](https://vuldb.com/?ip.43.255.241.176) | 43-255-241-176.static.bestidc.net | - | High
+30 | ... | ... | ... | ...
 
-There are 110 more IOC items available. Please use our online service to access the data.
+There are 118 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -54,12 +56,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1055 | CWE-74 | Injection | High
-2 | T1059 | CWE-94 | Cross Site Scripting | High
-3 | T1059.007 | CWE-79 | Cross Site Scripting | High
+1 | T1006 | CWE-22, CWE-36 | Path Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
 
-There are 5 more TTP items available. Please use our online service to access the data.
+There are 13 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -67,12 +69,32 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/debug/pprof` | Medium
-2 | File | `/yxcms/index.php?r=admin/extendfield/mesedit&tabid=12&id=4` | High
-3 | File | `common.php` | Medium
-4 | ... | ... | ...
+1 | File | `/api /v3/auth` | High
+2 | File | `/app/index/controller/Common.php` | High
+3 | File | `/belegungsplan/wochenuebersicht.inc.php` | High
+4 | File | `/cgi-bin/nobody/VerifyCode.cgi` | High
+5 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
+6 | File | `/cgi.cgi` | Medium
+7 | File | `/counter/index2.php` | High
+8 | File | `/data/remove` | Medium
+9 | File | `/highlight/index.html` | High
+10 | File | `/iisadmin` | Medium
+11 | File | `/iissamples` | Medium
+12 | File | `/include/dialog/select_templets_post.php` | High
+13 | File | `/includes/js/admin.php` | High
+14 | File | `/modx/manager/index.php` | High
+15 | File | `/search-result/` | High
+16 | File | `/search.php` | Medium
+17 | File | `/server-status` | High
+18 | File | `/sgms/reports/scheduledreports/configure/scheduleProps.jsp` | High
+19 | File | `/templates/header.inc.php` | High
+20 | File | `/tmp` | Low
+21 | File | `a.jsp` | Low
+22 | File | `admin/comedit.php` | High
+23 | File | `admin/db.php` | Medium
+24 | ... | ... | ...
 
-There are 8 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 198 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -85,6 +107,8 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://bazaar.abuse.ch/sample/ca15a055b2e1d06a8fbd3a22341aeda29bbc19688b778dc3a15c615f0367bc21/
 * https://mobile.twitter.com/1ZRR4H/status/1523791593278345217
 * https://search.censys.io/hosts/1.13.249.49
+* https://search.censys.io/hosts/1.92.90.232
+* https://search.censys.io/hosts/8.130.11.62
 * https://search.censys.io/hosts/43.136.78.18
 * https://search.censys.io/hosts/43.248.137.153
 * https://search.censys.io/hosts/61.147.93.153
@@ -111,6 +135,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/180.97.238.254
 * https://search.censys.io/hosts/202.63.172.122
 * https://search.censys.io/hosts/211.101.247.155
+* https://search.censys.io/hosts/221.159.15.231
 * https://search.censys.io/hosts/222.222.106.47
 * https://threatfox.abuse.ch
 * https://www.virustotal.com/gui/file/d565948a3b1b0d86166b62553864a7739284a292cc9c832fddf696bb274f8166/detection

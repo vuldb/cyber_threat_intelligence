@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 31 more country items available. Please use our online service to access the data.
+There are 32 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -815,13 +815,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23, CWE-24, CWE-25 | Pathname Traversal | High
-2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94 | Cross Site Scripting | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+1 | T1006 | CWE-22, CWE-23, CWE-24, CWE-25, CWE-36 | Path Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 16 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -829,79 +830,74 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `%PROGRAMFILES(X86)%\TSplus-RemoteWork\Clients\www` | High
+1 | File | `/#ilang=DE&b=c_smartenergy_swgroups` | High
 2 | File | `/#ProductSerie/view/` | High
-3 | File | `/addbill.php` | Medium
-4 | File | `/admin` | Low
-5 | File | `/admin/` | Low
-6 | File | `/admin/action/edit_chicken.php` | High
-7 | File | `/admin/action/new-father.php` | High
-8 | File | `/admin/action/update-deworm.php` | High
-9 | File | `/admin/admin_login_process.php` | High
-10 | File | `/admin/admin_user.php` | High
+3 | File | `/Account/login.php` | High
+4 | File | `/add_classes.php` | High
+5 | File | `/admin.php?p=/Area/index#tab=t2` | High
+6 | File | `/admin/` | Low
+7 | File | `/admin/action/update-deworm.php` | High
+8 | File | `/admin/app/product.php` | High
+9 | File | `/admin/app/profile_crud.php` | High
+10 | File | `/admin/app/service_crud.php` | High
 11 | File | `/admin/article.php?action=write` | High
-12 | File | `/admin/book_add.php` | High
-13 | File | `/admin/book_row.php` | High
-14 | File | `/admin/borrow_add.php` | High
-15 | File | `/admin/bwdates-report-details.php` | High
-16 | File | `/admin/edit_teacher.php` | High
-17 | File | `/admin/index.php?act=reset_admin_psw` | High
-18 | File | `/admin/makehtml_freelist_action.php` | High
-19 | File | `/admin/pages/edit_chicken.php` | High
+12 | File | `/admin/edit-admin.php` | High
+13 | File | `/admin/edit_categories.php` | High
+14 | File | `/admin/edit_supplier.php` | High
+15 | File | `/admin/list_ipAddressPolicy.php` | High
+16 | File | `/admin/list_localuser.php` | High
+17 | File | `/admin/login.php` | High
+18 | File | `/Admin/login.php` | High
+19 | File | `/admin/makehtml_freelist_action.php` | High
 20 | File | `/admin/pages/student-print.php` | High
-21 | File | `/admin/pages/subjects.php` | High
-22 | File | `/admin/pages/update_go.php` | High
-23 | File | `/admin/pages/yearlevel.php` | High
-24 | File | `/admin/php/crud.php` | High
-25 | File | `/admin/regester.php` | High
-26 | File | `/admin/return_add.php` | High
-27 | File | `/admin/students.php` | High
-28 | File | `/admin/update-clients.php` | High
-29 | File | `/admin/upload/img` | High
-30 | File | `/admin/uploads/` | High
-31 | File | `/admin/users` | Medium
-32 | File | `/admin_ping.htm` | High
-33 | File | `/admin_route/dec_service_credits.php` | High
-34 | File | `/advanced-tools/nova/bin/netwatch` | High
-35 | File | `/ample/app/action/edit_product.php` | High
-36 | File | `/api.php` | Medium
-37 | File | `/api/log/killJob` | High
-38 | File | `/api2/html/` | Medium
-39 | File | `/app/api/controller/default/Sqlite.php` | High
-40 | File | `/app/Http/Controllers/ImageController.php` | High
-41 | File | `/application/index/common.php` | High
-42 | File | `/application/index/controller/Datament.php` | High
-43 | File | `/application/index/controller/File.php` | High
-44 | File | `/application/pay/controller/Api.php` | High
-45 | File | `/apply/index.php` | High
-46 | File | `/apps/reg_go.php` | High
-47 | File | `/assets/php/upload.php` | High
-48 | File | `/auth/user/all.api` | High
-49 | File | `/bin/boa` | Medium
-50 | File | `/bin/webs` | Medium
-51 | File | `/boaform/wlan_basic_set.cgi` | High
-52 | File | `/boafrm/formMapDelDevice` | High
-53 | File | `/ccm/system/dialogs/file/delete/1/submit` | High
-54 | File | `/cgi-bin/cstecgi.cgi` | High
-55 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-56 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
-57 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=ie8` | High
-58 | File | `/change-language/de_DE` | High
-59 | File | `/classes/Master.php? f=save_medicine` | High
-60 | File | `/classes/Users.php?f=save` | High
-61 | File | `/config,admin.jsp` | High
-62 | File | `/core/config-revisions` | High
-63 | File | `/devinfo` | Medium
-64 | File | `/dist/index.js` | High
-65 | File | `/file-manager/delete.php` | High
-66 | File | `/file-manager/upload.php` | High
-67 | File | `/filex/proxy-download` | High
-68 | File | `/forum/away.php` | High
-69 | File | `/front/admin/tenancyDetail.php` | High
-70 | File | `/general/email/inbox/delete_webmail.php` | High
-71 | ... | ... | ...
+21 | File | `/admin/pages/update_go.php` | High
+22 | File | `/admin/view_sendlist.php` | High
+23 | File | `/adminapi/system/crud` | High
+24 | File | `/adminapi/system/file/openfile` | High
+25 | File | `/admin_ping.htm` | High
+26 | File | `/admin_route/dec_service_credits.php` | High
+27 | File | `/advanced-tools/nova/bin/netwatch` | High
+28 | File | `/api.php` | Medium
+29 | File | `/api/controllers/admin/app/AppController.php` | High
+30 | File | `/api/controllers/admin/app/ComboController.php` | High
+31 | File | `/api/controllers/common/UploadsController.php` | High
+32 | File | `/api/controllers/merchant/app/ComboController.php` | High
+33 | File | `/api/controllers/merchant/design/MaterialController.php` | High
+34 | File | `/api/controllers/merchant/shop/PosterController.php` | High
+35 | File | `/api/v4/teams//channels/deleted` | High
+36 | File | `/app/ajax/search_sales_report.php` | High
+37 | File | `/app/api/controller/default/Sqlite.php` | High
+38 | File | `/application/index/common.php` | High
+39 | File | `/application/index/controller/Databasesource.php` | High
+40 | File | `/application/index/controller/Datament.php` | High
+41 | File | `/application/index/controller/File.php` | High
+42 | File | `/application/index/controller/Icon.php` | High
+43 | File | `/application/index/controller/Pay.php` | High
+44 | File | `/application/index/controller/Screen.php` | High
+45 | File | `/application/index/controller/Unity.php` | High
+46 | File | `/application/plugins/controller/Upload.php` | High
+47 | File | `/application/websocket/controller/Setting.php` | High
+48 | File | `/apply/index.php` | High
+49 | File | `/apps/reg_go.php` | High
+50 | File | `/assets/php/upload.php` | High
+51 | File | `/att_add.php` | Medium
+52 | File | `/bin/boa` | Medium
+53 | File | `/bin/webs` | Medium
+54 | File | `/boafrm/formMapDelDevice` | High
+55 | File | `/boafrm/formSystemCheck` | High
+56 | File | `/cancel.php` | Medium
+57 | File | `/cgi-bin/cstecgi.cgi` | High
+58 | File | `/classes/Master.php? f=save_medicine` | High
+59 | File | `/classes/Users.php?f=save` | High
+60 | File | `/core/config-revisions` | High
+61 | File | `/currentsetting.htm` | High
+62 | File | `/dashboard/message` | High
+63 | File | `/debuginfo.htm` | High
+64 | File | `/devinfo` | Medium
+65 | File | `/edit.php` | Medium
+66 | ... | ... | ...
 
-There are 626 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 578 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

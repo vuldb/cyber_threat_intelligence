@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 4 more country items available. Please use our online service to access the data.
+There are 5 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -36,7 +36,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Path Traversal | High
+1 | T1006 | CWE-22, CWE-24 | Path Traversal | High
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 4 | ... | ... | ... | ...
@@ -50,20 +50,23 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/?page=user/list` | High
-2 | File | `/admin/ajax.php?action=save_area` | High
-3 | File | `/admin1/file/download` | High
-4 | File | `/ajax.php?action=read_msg` | High
-5 | File | `/api/baskets/{name}` | High
-6 | File | `/api/public/register/family` | High
-7 | File | `/application/index/controller/Databasesource.php` | High
-8 | File | `/application/index/controller/Datament.php` | High
-9 | File | `/application/index/controller/File.php` | High
-10 | File | `/filex/proxy-download` | High
-11 | File | `/forum/away.php` | High
-12 | File | `/list.php` | Medium
-13 | ... | ... | ...
+2 | File | `/admin/action/delete-vaccine.php` | High
+3 | File | `/admin/action/new-feed.php` | High
+4 | File | `/admin/action/update-deworm.php` | High
+5 | File | `/admin/ajax.php?action=save_area` | High
+6 | File | `/admin/pages/yearlevel.php` | High
+7 | File | `/admin1/file/download` | High
+8 | File | `/ajax.php?action=read_msg` | High
+9 | File | `/api/baskets/{name}` | High
+10 | File | `/api/public/register/family` | High
+11 | File | `/application/index/controller/Databasesource.php` | High
+12 | File | `/application/index/controller/Datament.php` | High
+13 | File | `/application/index/controller/File.php` | High
+14 | File | `/application/index/controller/Pay.php` | High
+15 | File | `/ext/collect/filter_text.do` | High
+16 | ... | ... | ...
 
-There are 100 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 132 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

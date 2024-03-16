@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [FR](https://vuldb.com/?country.fr)
 * ...
 
-There are 5 more country items available. Please use our online service to access the data.
+There are 8 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -49,10 +49,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23, CWE-425 | Pathname Traversal | High
+1 | T1006 | CWE-22, CWE-23, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -67,43 +67,42 @@ ID | Type | Indicator | Confidence
 1 | File | `.htaccess` | Medium
 2 | File | `/.htpasswd` | Medium
 3 | File | `//etc/RT2870STA.dat` | High
-4 | File | `/api/user/{ID}` | High
-5 | File | `/bin/proc.cgi` | High
-6 | File | `/CFIDE/probe.cfm` | High
-7 | File | `/cgi-bin/login_action.cgi` | High
-8 | File | `/data/vendor/tcl` | High
-9 | File | `/download` | Medium
-10 | File | `/etc/tomcat8/Catalina/attack` | High
-11 | File | `/files.md5` | Medium
-12 | File | `/forum/away.php` | High
-13 | File | `/getcfg.php` | Medium
-14 | File | `/load.php` | Medium
-15 | File | `/modules/profile/index.php` | High
-16 | File | `/modules/registration_admission/patient_register.php` | High
-17 | File | `/news.dtl.php` | High
-18 | File | `/public/plugins/` | High
-19 | File | `/rapi/read_url` | High
-20 | File | `/rest/api/2/user/picker` | High
-21 | File | `/sbin/acos_service` | High
-22 | File | `/scripts/iisadmin/bdir.htr` | High
-23 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-24 | File | `/squashfs-root/www/HNAP1/control/SetWizardConfig.php` | High
-25 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
-26 | File | `/uncpath/` | Medium
-27 | File | `/usr/bin/pkexec` | High
-28 | File | `/ViewUserHover.jspa` | High
-29 | File | `/WEB-INF/web.xml` | High
-30 | File | `/wp-admin/admin-ajax.php` | High
-31 | File | `/wp-json/oembed/1.0/embed?url` | High
-32 | File | `/www/cgi-bin/popen.cgi` | High
-33 | File | `5.2.9\syscrb.exe` | High
-34 | File | `accountrecoveryendpoint/recoverpassword.do` | High
-35 | File | `ad.cgi` | Low
-36 | File | `adclick.php` | Medium
-37 | File | `add-category.php` | High
-38 | ... | ... | ...
+4 | File | `/admin_ping.htm` | High
+5 | File | `/api/user/{ID}` | High
+6 | File | `/application/index/controller/Screen.php` | High
+7 | File | `/bin/proc.cgi` | High
+8 | File | `/CFIDE/probe.cfm` | High
+9 | File | `/cgi-bin/login_action.cgi` | High
+10 | File | `/data/vendor/tcl` | High
+11 | File | `/download` | Medium
+12 | File | `/etc/tomcat8/Catalina/attack` | High
+13 | File | `/files.md5` | Medium
+14 | File | `/forum/away.php` | High
+15 | File | `/getcfg.php` | Medium
+16 | File | `/load.php` | Medium
+17 | File | `/modules/profile/index.php` | High
+18 | File | `/modules/registration_admission/patient_register.php` | High
+19 | File | `/news.dtl.php` | High
+20 | File | `/public/plugins/` | High
+21 | File | `/rapi/read_url` | High
+22 | File | `/rest/api/2/user/picker` | High
+23 | File | `/sbin/acos_service` | High
+24 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+25 | File | `/squashfs-root/www/HNAP1/control/SetWizardConfig.php` | High
+26 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
+27 | File | `/uncpath/` | Medium
+28 | File | `/usr/bin/pkexec` | High
+29 | File | `/ViewUserHover.jspa` | High
+30 | File | `/WEB-INF/web.xml` | High
+31 | File | `/wp-admin/admin-ajax.php` | High
+32 | File | `/wp-json/oembed/1.0/embed?url` | High
+33 | File | `/www/cgi-bin/popen.cgi` | High
+34 | File | `5.2.9\syscrb.exe` | High
+35 | File | `accountrecoveryendpoint/recoverpassword.do` | High
+36 | File | `ad.cgi` | Low
+37 | ... | ... | ...
 
-There are 324 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 321 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

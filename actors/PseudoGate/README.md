@@ -18,11 +18,11 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [5.23.54.158](https://vuldb.com/?ip.5.23.54.158) | 813555-cj16721.tmweb.ru | - | High
-2 | [176.57.208.166](https://vuldb.com/?ip.176.57.208.166) | 1105979-manvds.tmweb.ru | - | High
-3 | [185.17.122.166](https://vuldb.com/?ip.185.17.122.166) | ndevbox.example.com | - | High
+2 | [37.18.90.44](https://vuldb.com/?ip.37.18.90.44) | - | - | High
+3 | [37.18.90.119](https://vuldb.com/?ip.37.18.90.119) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 8 more IOC items available. Please use our online service to access the data.
+There are 10 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -31,7 +31,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1055 | CWE-74 | Injection | High
-2 | T1608.002 | CWE-434 | Unrestricted Upload | High
+2 | T1608.002 | CWE-434 | Incomplete Identification of Uploaded File Variables | High
 
 ## IOA - Indicator of Attack
 
@@ -50,6 +50,7 @@ There are 1 more IOA items available (file, library, argument, input value, patt
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://jp.security.ntt/tech_blog/102gsqj
 * https://www.cyber45.com
 
 ## Literature

@@ -30,9 +30,9 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Pathname Traversal | High
-2 | T1068 | CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
-3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
+1 | T1006 | CWE-22 | Path Traversal | High
+2 | T1068 | CWE-284 | Execution with Unnecessary Privileges | High
+3 | T1110.001 | CWE-798 | Hard-coded Credentials | High
 4 | ... | ... | ... | ...
 
 There are 3 more TTP items available. Please use our online service to access the data.
@@ -48,7 +48,7 @@ ID | Type | Indicator | Confidence
 3 | File | `App/Ajax/ajax.php?action=mobile_upload_save` | High
 4 | ... | ... | ...
 
-There are 7 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 8 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

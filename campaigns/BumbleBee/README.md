@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [US](https://vuldb.com/?country.us)
 * ...
 
-There are 3 more country items available. Please use our online service to access the data.
+There are 5 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -411,13 +411,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23 | Path Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
+4 | T1059 | CWE-94 | Argument Injection | High
 5 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -426,40 +426,31 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/.env` | Low
-2 | File | `/belegungsplan/wochenuebersicht.inc.php` | High
-3 | File | `/calendar/minimizer/index.php` | High
-4 | File | `/cgi-bin/mainfunction.cgi` | High
-5 | File | `/cgi-bin/nobody/VerifyCode.cgi` | High
-6 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-7 | File | `/cgi-bin/wlogin.cgi` | High
-8 | File | `/cgi.cgi` | Medium
-9 | File | `/counter/index2.php` | High
-10 | File | `/data/remove` | Medium
-11 | File | `/DXR.axd` | Medium
-12 | File | `/ECT_Provider/` | High
-13 | File | `/fax/fax_send.php` | High
-14 | File | `/forum/away.php` | High
-15 | File | `/goform/` | Medium
-16 | File | `/h/autoSaveDraft` | High
-17 | File | `/highlight/index.html` | High
-18 | File | `/iisadmin` | Medium
-19 | File | `/iissamples` | Medium
-20 | File | `/includes/js/admin.php` | High
-21 | File | `/install/` | Medium
-22 | File | `/modx/manager/index.php` | High
-23 | File | `/search-result/` | High
-24 | File | `/search.php` | Medium
-25 | File | `/server-status` | High
-26 | File | `/sgms/reports/scheduledreports/configure/scheduleProps.jsp` | High
-27 | File | `/templates/header.inc.php` | High
-28 | File | `/tmp` | Low
-29 | File | `/uncpath/` | Medium
-30 | File | `/webmail/` | Medium
-31 | File | `/webmail/server/webmail.php` | High
-32 | File | `a.jsp` | Low
-33 | ... | ... | ...
+2 | File | `/admin/app/service_crud.php` | High
+3 | File | `/admin/edit-admin.php` | High
+4 | File | `/admin/list_resource_icon.php?action=delete` | High
+5 | File | `/Admin/login.php` | High
+6 | File | `/admin/orders/view_order.php` | High
+7 | File | `/api /v3/auth` | High
+8 | File | `/app/admin/controller/Upload.php` | High
+9 | File | `/app/ajax/search_sales_report.php` | High
+10 | File | `/app/controller/Setup.php` | High
+11 | File | `/app/middleware/TokenVerify.php` | High
+12 | File | `/cgi-bin/cstecgi.cgi` | High
+13 | File | `/cgi-bin/wlogin.cgi` | High
+14 | File | `/data/remove` | Medium
+15 | File | `/DXR.axd` | Medium
+16 | File | `/ECT_Provider/` | High
+17 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+18 | File | `/Employer/EditProfile.php` | High
+19 | File | `/Employer/ManageWalkin.php` | High
+20 | File | `/endpoint/add-faq.php` | High
+21 | File | `/endpoint/delete-computer.php` | High
+22 | File | `/endpoint/update-resident.php` | High
+23 | File | `/endpoint/update-tracker.php` | High
+24 | ... | ... | ...
 
-There are 284 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 198 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

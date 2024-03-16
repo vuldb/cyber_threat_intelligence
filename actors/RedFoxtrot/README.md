@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
-* [ID](https://vuldb.com/?country.id)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
 There are 6 more country items available. Please use our online service to access the data.
@@ -70,10 +70,10 @@ ID | Type | Indicator | Confidence
 19 | File | `admin-ajax.php?action=get_wdtable order[0][dir]` | High
 20 | File | `admin/plib/api-rpc/Agent.php` | High
 21 | File | `applications/core/modules/front/system/content.php` | High
-22 | File | `auth-gss2.c` | Medium
+22 | File | `att_protocol.cc` | High
 23 | ... | ... | ...
 
-There are 187 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 188 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -31,10 +31,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-22 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 5 | ... | ... | ... | ...
 
 There are 17 more TTP items available. Please use our online service to access the data.
@@ -51,16 +51,16 @@ ID | Type | Indicator | Confidence
 4 | File | `/aya/module/admin/fst_del.inc.php` | High
 5 | File | `/aya/module/admin/fst_down.inc.php` | High
 6 | File | `/conf/` | Low
-7 | File | `/etc/sudoers` | Medium
-8 | File | `/forum/away.php` | High
-9 | File | `/goform/addressNat` | High
-10 | File | `/goform/addWifiMacFilter` | High
-11 | File | `/goform/DhcpListClient` | High
-12 | File | `/goform/exeCommand` | High
-13 | File | `/goform/fast_setting_wifi_set` | High
+7 | File | `/cupseasylive/countrylist.php` | High
+8 | File | `/etc/sudoers` | Medium
+9 | File | `/forum/away.php` | High
+10 | File | `/goform/addressNat` | High
+11 | File | `/goform/addWifiMacFilter` | High
+12 | File | `/goform/DhcpListClient` | High
+13 | File | `/goform/exeCommand` | High
 14 | ... | ... | ...
 
-There are 109 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 115 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -30,8 +30,8 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1059.007 | CWE-79 | Cross Site Scripting | High
-2 | T1552 | CWE-255 | ASP.NET Misconfiguration: Password in Configuration File | High
-3 | T1592 | CWE-200 | Configuration | High
+2 | T1552 | CWE-255 | Credentials Management | High
+3 | T1592 | CWE-200 | Invocation of Process Using Visible Sensitive Information | High
 
 ## References
 

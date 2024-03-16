@@ -48,10 +48,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-24, CWE-425 | Pathname Traversal | High
+1 | T1006 | CWE-22, CWE-24, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-94 | Argument Injection | High
 5 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
@@ -80,30 +80,33 @@ ID | Type | Indicator | Confidence
 16 | File | `/admin/renewaldue.php` | High
 17 | File | `/admin/sign/out` | High
 18 | File | `/admin/usermanagement.php` | High
-19 | File | `/aqpg/users/login.php` | High
-20 | File | `/artist-display.php` | High
-21 | File | `/backups/` | Medium
-22 | File | `/bcms/admin/?page=user/list` | High
-23 | File | `/cardo/api` | Medium
-24 | File | `/catcompany.php` | High
-25 | File | `/CCMAdmin/serverlist.asp` | High
-26 | File | `/cgi-bin/editBookmark` | High
-27 | File | `/cgi-bin/system_mgr.cgi` | High
-28 | File | `/cgi-bin/touchlist_sync.cgi` | High
-29 | File | `/cgi-bin/wlogin.cgi` | High
-30 | File | `/cimom` | Low
-31 | File | `/ci_spms/admin/category` | High
-32 | File | `/classes/Users.php?f=save` | High
-33 | File | `/cwms/admin/?page=articles/view_article/` | High
-34 | File | `/cwms/classes/Master.php?f=save_contact` | High
-35 | File | `/dashboard/add-blog.php` | High
-36 | File | `/dashboard/add-portfolio.php` | High
-37 | File | `/dashboard/settings` | High
-38 | File | `/downloadmaster/dm_apply.cgi?action_mode=initial&download_type=General&special_cgi=get_language` | High
-39 | File | `/env` | Low
-40 | ... | ... | ...
+19 | File | `/admin_route/inc_service_credits.php` | High
+20 | File | `/aqpg/users/login.php` | High
+21 | File | `/artist-display.php` | High
+22 | File | `/backups/` | Medium
+23 | File | `/bcms/admin/?page=user/list` | High
+24 | File | `/cardo/api` | Medium
+25 | File | `/catcompany.php` | High
+26 | File | `/CCMAdmin/serverlist.asp` | High
+27 | File | `/cgi-bin/cstecgi.cgi` | High
+28 | File | `/cgi-bin/editBookmark` | High
+29 | File | `/cgi-bin/system_mgr.cgi` | High
+30 | File | `/cgi-bin/touchlist_sync.cgi` | High
+31 | File | `/cgi-bin/wlogin.cgi` | High
+32 | File | `/cimom` | Low
+33 | File | `/ci_spms/admin/category` | High
+34 | File | `/classes/Users.php?f=save` | High
+35 | File | `/cwms/admin/?page=articles/view_article/` | High
+36 | File | `/cwms/classes/Master.php?f=save_contact` | High
+37 | File | `/dashboard/add-blog.php` | High
+38 | File | `/dashboard/add-portfolio.php` | High
+39 | File | `/dashboard/settings` | High
+40 | File | `/downloadmaster/dm_apply.cgi?action_mode=initial&download_type=General&special_cgi=get_language` | High
+41 | File | `/env` | Low
+42 | File | `/film-rating.php` | High
+43 | ... | ... | ...
 
-There are 348 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 367 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

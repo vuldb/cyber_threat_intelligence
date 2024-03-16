@@ -47,9 +47,10 @@ ID | Type | Indicator | Confidence
 1 | File | `/display/map` | Medium
 2 | File | `/forum/away.php` | High
 3 | File | `/oauth/idp/.well-known/openid-configuration` | High
-4 | ... | ... | ...
+4 | File | `/qsr_server/device/reboot` | High
+5 | ... | ... | ...
 
-There are 23 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 27 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

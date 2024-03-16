@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
-* [GB](https://vuldb.com/?country.gb)
+* [UA](https://vuldb.com/?country.ua)
 * ...
 
-There are 27 more country items available. Please use our online service to access the data.
+There are 28 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -824,15 +824,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-25, CWE-36 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
-7 | ... | ... | ... | ...
+6 | ... | ... | ... | ...
 
-There are 23 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -840,54 +839,56 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `%SYSTEMDRIVE%\node_modules\.bin\wmic.exe` | High
-2 | File | `/.env` | Low
-3 | File | `/admin/action/new-father.php` | High
-4 | File | `/admin/add-category.php` | High
-5 | File | `/admin/controller/JobLogController.java` | High
-6 | File | `/ajax/networking/get_netcfg.php` | High
-7 | File | `/ajax/networking/get_wgkey.php` | High
-8 | File | `/api/sys/login` | High
-9 | File | `/api/sys/set_passwd` | High
-10 | File | `/api/trackedEntityInstances` | High
-11 | File | `/api/upload.php` | High
-12 | File | `/api/v1/alerts` | High
-13 | File | `/api/v4/teams//channels/deleted` | High
-14 | File | `/aux` | Low
-15 | File | `/b2b-supermarket/shopping-cart` | High
-16 | File | `/base/ecma-helpers.c` | High
-17 | File | `/bin/boa` | Medium
-18 | File | `/cgi-bin/cstecgi.cgi` | High
-19 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-20 | File | `/change-language/de_DE` | High
-21 | File | `/changePassword` | High
-22 | File | `/data/remove` | Medium
-23 | File | `/debug/pprof` | Medium
-24 | File | `/dist/index.js` | High
-25 | File | `/ecshop/admin/template.php` | High
-26 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-27 | File | `/fcgi/scrut_fcgi.fcgi` | High
-28 | File | `/forum/away.php` | High
-29 | File | `/geoserver/gwc/rest.html` | High
-30 | File | `/goform/formSysCmd` | High
-31 | File | `/gracemedia-media-player/templates/files/ajax_controller.php` | High
-32 | File | `/HNAP1/` | Low
-33 | File | `/hosts/firewall/ip` | High
-34 | File | `/index.php` | Medium
-35 | File | `/index.php/ccm/system/file/upload` | High
-36 | File | `/log/decodmail.php` | High
-37 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-38 | File | `/oauth/idp/.well-known/openid-configuration` | High
-39 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
-40 | File | `/php/ping.php` | High
-41 | File | `/proxy` | Low
-42 | File | `/public/plugins/` | High
-43 | File | `/s/index.php?action=statistics` | High
-44 | File | `/setting` | Medium
-45 | File | `/showfile.php` | High
-46 | ... | ... | ...
+1 | File | `/#ilang=DE&b=c_smartenergy_swgroups` | High
+2 | File | `/Account/login.php` | High
+3 | File | `/admin/` | Low
+4 | File | `/admin/action/new-father.php` | High
+5 | File | `/adminapi/system/crud` | High
+6 | File | `/adminapi/system/file/openfile` | High
+7 | File | `/admin_route/dec_service_credits.php` | High
+8 | File | `/api/trackedEntityInstances` | High
+9 | File | `/api/v4/teams//channels/deleted` | High
+10 | File | `/application/index/controller/Screen.php` | High
+11 | File | `/application/websocket/controller/Setting.php` | High
+12 | File | `/aux` | Low
+13 | File | `/bin/boa` | Medium
+14 | File | `/boafrm/formMapDelDevice` | High
+15 | File | `/cgi-bin/cstecgi.cgi` | High
+16 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+17 | File | `/change-language/de_DE` | High
+18 | File | `/data/remove` | Medium
+19 | File | `/debug/pprof` | Medium
+20 | File | `/devinfo` | Medium
+21 | File | `/dist/index.js` | High
+22 | File | `/DXR.axd` | Medium
+23 | File | `/endpoint/delete-computer.php` | High
+24 | File | `/endpoint/update-tracker.php` | High
+25 | File | `/etc/passwd` | Medium
+26 | File | `/forum/away.php` | High
+27 | File | `/hedwig.cgi` | Medium
+28 | File | `/hosts/firewall/ip` | High
+29 | File | `/index.jsp#settings` | High
+30 | File | `/index.php` | Medium
+31 | File | `/index.php/ccm/system/file/upload` | High
+32 | File | `/log/decodmail.php` | High
+33 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+34 | File | `/oauth/idp/.well-known/openid-configuration` | High
+35 | File | `/owa/auth/logon.aspx` | High
+36 | File | `/php/ping.php` | High
+37 | File | `/pixman-combine-float.c` | High
+38 | File | `/s/index.php?action=statistics` | High
+39 | File | `/showfile.php` | High
+40 | File | `/signup.php` | Medium
+41 | File | `/student/bookdetails.php` | High
+42 | File | `/st_reg.php` | Medium
+43 | File | `/supplier.php` | High
+44 | File | `/system/role/list` | High
+45 | File | `/tmp/ppd.trace` | High
+46 | File | `/uploads/` | Medium
+47 | File | `/user/inc/workidajax.php` | High
+48 | ... | ... | ...
 
-There are 396 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 412 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

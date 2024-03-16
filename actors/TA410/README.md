@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 7 more country items available. Please use our online service to access the data.
+There are 8 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -26,7 +26,7 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [43.254.219.153](https://vuldb.com/?ip.43.254.219.153) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 10 more IOC items available. Please use our online service to access the data.
+There are 13 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -34,12 +34,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23 | Pathname Traversal | High
+1 | T1006 | CWE-22, CWE-23 | Path Traversal | High
 2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94 | Cross Site Scripting | High
+3 | T1059 | CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
 
-There are 12 more TTP items available. Please use our online service to access the data.
+There are 13 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -47,26 +47,29 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/api/RecordingList/DownloadRecord?file=` | High
-2 | File | `/apply.cgi` | Medium
-3 | File | `/gena.cgi` | Medium
-4 | File | `/MIME/INBOX-MM-1/` | High
-5 | File | `/netflow/jspui/editProfile.jsp` | High
-6 | File | `/rapi/read_url` | High
-7 | File | `/scripts/unlock_tasks.php` | High
-8 | File | `/sec/content/sec_asa_users_local_db_add.html` | High
-9 | File | `/see_more_details.php` | High
-10 | File | `/system/user/modules/mod_users/controller.php` | High
-11 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
-12 | ... | ... | ...
+1 | File | `/api/baskets/{name}` | High
+2 | File | `/api/RecordingList/DownloadRecord?file=` | High
+3 | File | `/api /v3/auth` | High
+4 | File | `/apply.cgi` | Medium
+5 | File | `/cgi-bin/wlogin.cgi` | High
+6 | File | `/gena.cgi` | Medium
+7 | File | `/MIME/INBOX-MM-1/` | High
+8 | File | `/netflow/jspui/editProfile.jsp` | High
+9 | File | `/php/ping.php` | High
+10 | File | `/rapi/read_url` | High
+11 | File | `/scripts/unlock_tasks.php` | High
+12 | File | `/sec/content/sec_asa_users_local_db_add.html` | High
+13 | File | `/see_more_details.php` | High
+14 | ... | ... | ...
 
-There are 96 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 108 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://github.com/eset/malware-ioc/tree/master/ta410
+* https://jp.security.ntt/tech_blog/102ifpu
 
 ## Literature
 

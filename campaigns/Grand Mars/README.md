@@ -59,22 +59,22 @@ ID | Type | Indicator | Confidence
 2 | File | `/cgi-bin/kerbynet` | High
 3 | File | `/endpoint/add-user.php` | High
 4 | File | `/endpoint/delete-user.php` | High
-5 | File | `/redbin/rpwebutilities.exe/text` | High
-6 | File | `/uncpath/` | Medium
-7 | File | `add_comment.php` | High
-8 | File | `admin-ajax.php` | High
-9 | File | `advertiser.php` | High
-10 | File | `ajax/render/widget_php` | High
-11 | File | `ardeaCore/lib/core/ardeaInit.php` | High
-12 | File | `at/create_job.cgi` | High
-13 | File | `aviso.php` | Medium
-14 | File | `awstats.pl` | Medium
-15 | File | `bar.phtml` | Medium
-16 | File | `cfg_op.ccp` | Medium
-17 | File | `channeledit.php` | High
+5 | File | `/index.php` | Medium
+6 | File | `/redbin/rpwebutilities.exe/text` | High
+7 | File | `/uncpath/` | Medium
+8 | File | `add_comment.php` | High
+9 | File | `admin-ajax.php` | High
+10 | File | `advertiser.php` | High
+11 | File | `ajax/render/widget_php` | High
+12 | File | `ardeaCore/lib/core/ardeaInit.php` | High
+13 | File | `at/create_job.cgi` | High
+14 | File | `aviso.php` | Medium
+15 | File | `awstats.pl` | Medium
+16 | File | `bar.phtml` | Medium
+17 | File | `cfg_op.ccp` | Medium
 18 | ... | ... | ...
 
-There are 144 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 146 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

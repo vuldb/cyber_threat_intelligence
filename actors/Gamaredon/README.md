@@ -85,7 +85,7 @@ ID | IP address | Hostname | Campaign | Confidence
 60 | [83.166.242.108](https://vuldb.com/?ip.83.166.242.108) | - | - | High
 61 | ... | ... | ... | ...
 
-There are 240 more IOC items available. Please use our online service to access the data.
+There are 242 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -93,9 +93,9 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-22 | Path Traversal | High
 2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94 | Cross Site Scripting | High
+3 | T1059 | CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
 
 There are 12 more TTP items available. Please use our online service to access the data.
@@ -132,6 +132,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://github.com/pan-unit42/iocs/blob/master/Gamaredon/Gamaredon_IoCs_JAN2022.txt
 * https://github.com/SentineLabs/Gamaredon-APT/blob/master/2020-02-04-gamaredon-blog-iocs-vk.misp.csv
 * https://github.com/stamparm/maltrail/blob/2d0339af3523b230d8e9a08efd22af032ec7a18e/trails/static/malware/apt_gamaredon.txt
+* https://intezer.com/blog/research/evilgnome-rare-malware-spying-on-linux-desktop-users/
 * https://pastebin.com/Vhb4KF5L
 * https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/shuckworm-gamaredon-espionage-ukraine
 * https://twitter.com/500mk500/status/1579822593053691906

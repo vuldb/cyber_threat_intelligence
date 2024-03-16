@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [LA](https://vuldb.com/?country.la)
 * ...
 
-There are 14 more country items available. Please use our online service to access the data.
+There are 13 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -83,9 +83,10 @@ ID | IP address | Hostname | Campaign | Confidence
 60 | [62.233.51.122](https://vuldb.com/?ip.62.233.51.122) | - | - | High
 61 | [65.21.101.233](https://vuldb.com/?ip.65.21.101.233) | - | - | High
 62 | [65.109.161.133](https://vuldb.com/?ip.65.109.161.133) | static.133.161.109.65.clients.your-server.de | - | High
-63 | ... | ... | ... | ...
+63 | [68.183.230.60](https://vuldb.com/?ip.68.183.230.60) | - | - | High
+64 | ... | ... | ... | ...
 
-There are 250 more IOC items available. Please use our online service to access the data.
+There are 251 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -93,15 +94,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Pathname Traversal | High
-2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-425 | Path Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
-7 | ... | ... | ... | ...
+6 | ... | ... | ... | ...
 
-There are 24 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -110,56 +110,47 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `//proc/kcore` | Medium
-2 | File | `/?p=products` | Medium
-3 | File | `/admin/about-us.php` | High
-4 | File | `/admin/action/delete-vaccine.php` | High
-5 | File | `/admin/controller/JobLogController.java` | High
-6 | File | `/admin/index2.html` | High
-7 | File | `/api/baskets/{name}` | High
-8 | File | `/api/stl/actions/search` | High
-9 | File | `/api/sys/login` | High
-10 | File | `/api/sys/set_passwd` | High
-11 | File | `/api/trackedEntityInstances` | High
-12 | File | `/app/index/controller/Common.php` | High
-13 | File | `/aux` | Low
-14 | File | `/bin/ate` | Medium
-15 | File | `/bitrix/admin/ldap_server_edit.php` | High
-16 | File | `/booking/show_bookings/` | High
-17 | File | `/cgi-bin` | Medium
-18 | File | `/changePassword` | High
-19 | File | `/Content/Template/root/reverse-shell.aspx` | High
-20 | File | `/dashboard/add-blog.php` | High
-21 | File | `/data/remove` | Medium
-22 | File | `/dcim/rack-roles/` | High
-23 | File | `/debug/pprof` | Medium
-24 | File | `/DXR.axd` | Medium
-25 | File | `/ecshop/admin/template.php` | High
-26 | File | `/env` | Low
-27 | File | `/forms/doLogin` | High
-28 | File | `/forum/away.php` | High
-29 | File | `/group1/uploa` | High
-30 | File | `/inc/parser/xhtml.php` | High
-31 | File | `/index.php` | Medium
-32 | File | `/index.php?app=main&func=passport&action=login` | High
-33 | File | `/kelas/data` | Medium
-34 | File | `/listplace/user/ticket/create` | High
-35 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-36 | File | `/novel/bookSetting/list` | High
-37 | File | `/php-sms/admin/?page=user/manage_user` | High
-38 | File | `/resources//../` | High
-39 | File | `/squashfs-root/etc_ro/custom.conf` | High
-40 | File | `/staff/edit_book_details.php` | High
-41 | File | `/SysManage/AddUpdateRole.aspx` | High
-42 | File | `/sysmanage/importconf.php` | High
-43 | File | `/testConnection` | High
-44 | File | `/tmp/ppd.trace` | High
-45 | File | `/user/profile` | High
-46 | File | `/user/updatePwd` | High
-47 | File | `/userLogin.asp` | High
-48 | File | `/vm/admin/doctors.php` | High
-49 | ... | ... | ...
+2 | File | `/admin/about-us.php` | High
+3 | File | `/admin/action/delete-vaccine.php` | High
+4 | File | `/admin/controller/JobLogController.java` | High
+5 | File | `/admin/index2.html` | High
+6 | File | `/api/baskets/{name}` | High
+7 | File | `/api/sys/login` | High
+8 | File | `/api/sys/set_passwd` | High
+9 | File | `/api/trackedEntityInstances` | High
+10 | File | `/app/index/controller/Common.php` | High
+11 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
+12 | File | `/aux` | Low
+13 | File | `/bitrix/admin/ldap_server_edit.php` | High
+14 | File | `/changePassword` | High
+15 | File | `/Content/Template/root/reverse-shell.aspx` | High
+16 | File | `/dashboard/add-blog.php` | High
+17 | File | `/data/remove` | Medium
+18 | File | `/debug/pprof` | Medium
+19 | File | `/ecshop/admin/template.php` | High
+20 | File | `/etc/passwd` | Medium
+21 | File | `/forms/doLogin` | High
+22 | File | `/forum/away.php` | High
+23 | File | `/group1/uploa` | High
+24 | File | `/inc/parser/xhtml.php` | High
+25 | File | `/index.php` | Medium
+26 | File | `/listplace/user/ticket/create` | High
+27 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
+28 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+29 | File | `/novel/author/list` | High
+30 | File | `/novel/bookSetting/list` | High
+31 | File | `/novel/userFeedback/list` | High
+32 | File | `/staff/edit_book_details.php` | High
+33 | File | `/SysManage/AddUpdateRole.aspx` | High
+34 | File | `/sysmanage/importconf.php` | High
+35 | File | `/testConnection` | High
+36 | File | `/tmp/ppd.trace` | High
+37 | File | `/user/inc/workidajax.php` | High
+38 | File | `/userLogin.asp` | High
+39 | File | `/vm/admin/doctors.php` | High
+40 | ... | ... | ...
 
-There are 424 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 343 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -261,6 +252,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://twitter.com/AttackTrends/status/1612477419461480448
 * https://twitter.com/crep1x/status/1623394701456859137
 * https://twitter.com/karol_paciorek/status/1703732303367672306
+* https://www.joesandbox.com/analysis/1391616
 * https://www.zscaler.com/blogs/security-research/technical-analysis-rhadamanthys-obfuscation-techniques
 
 ## Literature

@@ -15,8 +15,8 @@ The following _campaigns_ are known and can be associated with Polonium:
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Polonium:
 
 * [US](https://vuldb.com/?country.us)
-* [GB](https://vuldb.com/?country.gb)
 * [RU](https://vuldb.com/?country.ru)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
 There are 23 more country items available. Please use our online service to access the data.
@@ -41,13 +41,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
 2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94 | Cross Site Scripting | High
+3 | T1059 | CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -56,31 +57,31 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.htaccess` | Medium
-2 | File | `/classes/master.php?f=delete_order` | High
-3 | File | `/etc/gsissh/sshd_config` | High
-4 | File | `/etc/passwd` | Medium
-5 | File | `/forms/nslookupHandler` | High
-6 | File | `/h/autoSaveDraft` | High
-7 | File | `/index.php` | Medium
-8 | File | `/librarian/bookdetails.php` | High
-9 | File | `/modules/profile/index.php` | High
-10 | File | `/news.dtl.php` | High
-11 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-12 | File | `/out.php` | Medium
-13 | File | `/patient/appointment.php` | High
-14 | File | `/php-opos/index.php` | High
-15 | File | `/protocol/iscgwtunnel/uploadiscgwrouteconf.php` | High
-16 | File | `/ptms/?page=user` | High
-17 | File | `/sqfs/bin/sccd` | High
-18 | File | `/tmp` | Low
-19 | File | `/uncpath/` | Medium
-20 | File | `/upload/file.php` | High
-21 | File | `/usr/bin/at` | Medium
-22 | File | `/usr/local/www/pkg.php` | High
-23 | File | `/wp-admin/admin-ajax.php` | High
+2 | File | `/advanced-tools/nova/bin/netwatch` | High
+3 | File | `/classes/master.php?f=delete_order` | High
+4 | File | `/etc/gsissh/sshd_config` | High
+5 | File | `/etc/passwd` | Medium
+6 | File | `/forms/nslookupHandler` | High
+7 | File | `/h/autoSaveDraft` | High
+8 | File | `/index.php` | Medium
+9 | File | `/librarian/bookdetails.php` | High
+10 | File | `/modules/profile/index.php` | High
+11 | File | `/news.dtl.php` | High
+12 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+13 | File | `/out.php` | Medium
+14 | File | `/patient/appointment.php` | High
+15 | File | `/php-opos/index.php` | High
+16 | File | `/protocol/iscgwtunnel/uploadiscgwrouteconf.php` | High
+17 | File | `/ptms/?page=user` | High
+18 | File | `/sqfs/bin/sccd` | High
+19 | File | `/tmp` | Low
+20 | File | `/uncpath/` | Medium
+21 | File | `/upload/file.php` | High
+22 | File | `/usr/bin/at` | Medium
+23 | File | `/usr/local/www/pkg.php` | High
 24 | ... | ... | ...
 
-There are 203 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 205 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -95,27 +95,26 @@ ID | Type | Indicator | Confidence
 19 | File | `/dashboard/add-blog.php` | High
 20 | File | `/data/remove` | Medium
 21 | File | `/debug/pprof` | Medium
-22 | File | `/ecshop/admin/template.php` | High
-23 | File | `/env` | Low
-24 | File | `/etc/passwd` | Medium
-25 | File | `/forms/doLogin` | High
-26 | File | `/forum/away.php` | High
-27 | File | `/group1/uploa` | High
-28 | File | `/index.php` | Medium
-29 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-30 | File | `/php-sms/admin/?page=user/manage_user` | High
-31 | File | `/resources//../` | High
-32 | File | `/rom-0` | Low
-33 | File | `/ServletAPI/accounts/login` | High
-34 | File | `/testConnection` | High
-35 | File | `/tmp/ppd.trace` | High
-36 | File | `/uncpath/` | Medium
-37 | File | `/user/inc/workidajax.php` | High
-38 | File | `/user/updatePwd` | High
-39 | File | `/userLogin.asp` | High
-40 | ... | ... | ...
+22 | File | `/debuginfo.htm` | High
+23 | File | `/ecshop/admin/template.php` | High
+24 | File | `/env` | Low
+25 | File | `/etc/passwd` | Medium
+26 | File | `/forms/doLogin` | High
+27 | File | `/forum/away.php` | High
+28 | File | `/goform/net\_Web\_get_value` | High
+29 | File | `/group1/uploa` | High
+30 | File | `/index.php` | Medium
+31 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+32 | File | `/php-sms/admin/?page=user/manage_user` | High
+33 | File | `/resources//../` | High
+34 | File | `/rom-0` | Low
+35 | File | `/ServletAPI/accounts/login` | High
+36 | File | `/testConnection` | High
+37 | File | `/tmp/ppd.trace` | High
+38 | File | `/uncpath/` | Medium
+39 | ... | ... | ...
 
-There are 347 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 331 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

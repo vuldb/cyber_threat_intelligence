@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [VN](https://vuldb.com/?country.vn)
 * [US](https://vuldb.com/?country.us)
-* [TH](https://vuldb.com/?country.th)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
 There are 6 more country items available. Please use our online service to access the data.
@@ -57,7 +57,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-29, CWE-35, CWE-425 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-35, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
@@ -79,15 +79,15 @@ ID | Type | Indicator | Confidence
 5 | File | `/admin/index2.html` | High
 6 | File | `/admin/sales/view_details.php` | High
 7 | File | `/api/baskets/{name}` | High
-8 | File | `/aqpg/users/login.php` | High
-9 | File | `/b2b-supermarket/shopping-cart` | High
-10 | File | `/bin/login` | Medium
-11 | File | `/calendar/minimizer/index.php` | High
-12 | File | `/cgi-bin/cstecgi.cgi` | High
-13 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-14 | File | `/cgi-bin/vitogate.cgi` | High
-15 | File | `/cgi-bin/wlogin.cgi` | High
-16 | File | `/common/info.cgi` | High
+8 | File | `/apiadmin/upload/attach` | High
+9 | File | `/aqpg/users/login.php` | High
+10 | File | `/b2b-supermarket/shopping-cart` | High
+11 | File | `/bin/login` | Medium
+12 | File | `/calendar/minimizer/index.php` | High
+13 | File | `/cgi-bin/cstecgi.cgi` | High
+14 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+15 | File | `/cgi-bin/vitogate.cgi` | High
+16 | File | `/cgi-bin/wlogin.cgi` | High
 17 | File | `/core/conditions/AbstractWrapper.java` | High
 18 | File | `/core/tools/update_menu.php` | High
 19 | File | `/dayrui/My/Config/Install.txt` | High
@@ -95,25 +95,25 @@ ID | Type | Indicator | Confidence
 21 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
 22 | File | `/DXR.axd` | Medium
 23 | File | `/edit.php` | Medium
-24 | File | `/endpoint/add-user.php` | High
-25 | File | `/forum/away.php` | High
-26 | File | `/forums/editforum.php` | High
-27 | File | `/gracemedia-media-player/templates/files/ajax_controller.php` | High
-28 | File | `/home/courses` | High
-29 | File | `/hrm/controller/employee.php` | High
-30 | File | `/hrm/employeeview.php` | High
-31 | File | `/importexport.php` | High
-32 | File | `/include/file.php` | High
-33 | File | `/index.php?menu=asterisk_cli` | High
-34 | File | `/install/` | Medium
-35 | File | `/mc` | Low
-36 | File | `/modals/class_form.php` | High
-37 | File | `/modules/projects/vw_files.php` | High
-38 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
-39 | File | `/php-opos/index.php` | High
+24 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+25 | File | `/endpoint/add-user.php` | High
+26 | File | `/forum/away.php` | High
+27 | File | `/forums/editforum.php` | High
+28 | File | `/goform/` | Medium
+29 | File | `/gracemedia-media-player/templates/files/ajax_controller.php` | High
+30 | File | `/home/courses` | High
+31 | File | `/hrm/controller/employee.php` | High
+32 | File | `/hrm/employeeview.php` | High
+33 | File | `/importexport.php` | High
+34 | File | `/include/file.php` | High
+35 | File | `/index.php?menu=asterisk_cli` | High
+36 | File | `/install/` | Medium
+37 | File | `/ipms/imageConvert/image` | High
+38 | File | `/mc` | Low
+39 | File | `/modals/class_form.php` | High
 40 | ... | ... | ...
 
-There are 347 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 341 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

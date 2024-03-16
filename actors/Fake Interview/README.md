@@ -29,7 +29,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-22 | Path Traversal | High
 2 | T1059.007 | CWE-80 | Cross Site Scripting | High
 3 | T1505 | CWE-89 | SQL Injection | High
 4 | ... | ... | ... | ...

@@ -17,11 +17,11 @@ The following _campaigns_ are known and can be associated with TeamTNT:
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with TeamTNT:
 
 * [US](https://vuldb.com/?country.us)
+* [RU](https://vuldb.com/?country.ru)
 * [CN](https://vuldb.com/?country.cn)
-* [MO](https://vuldb.com/?country.mo)
 * ...
 
-There are 6 more country items available. Please use our online service to access the data.
+There are 18 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -34,9 +34,12 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [15.236.100.141](https://vuldb.com/?ip.15.236.100.141) | ec2-15-236-100-141.eu-west-3.compute.amazonaws.com | Amazon Web Services | Medium
 4 | [39.100.33.209](https://vuldb.com/?ip.39.100.33.209) | - | - | High
 5 | [45.9.148.35](https://vuldb.com/?ip.45.9.148.35) | - | - | High
-6 | ... | ... | ... | ...
+6 | [45.9.148.37](https://vuldb.com/?ip.45.9.148.37) | - | - | High
+7 | [45.9.148.108](https://vuldb.com/?ip.45.9.148.108) | mx1.dendrite.network | Hildegard | High
+8 | [45.9.148.182](https://vuldb.com/?ip.45.9.148.182) | - | Cryptomining | High
+9 | ... | ... | ... | ...
 
-There are 20 more IOC items available. Please use our online service to access the data.
+There are 33 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -44,13 +47,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-425 | Pathname Traversal | High
-2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94 | Cross Site Scripting | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+1 | T1006 | CWE-22, CWE-27, CWE-425 | Path Traversal | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -58,25 +62,61 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/ajax.php?action=read_msg` | High
-2 | File | `/change_password_process` | High
-3 | File | `/debug/pprof` | Medium
-4 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
-5 | File | `/env` | Low
-6 | File | `/goform/SetNetControlList` | High
-7 | File | `/Search-Results` | High
-8 | File | `/src/chatbotapp/chatWindow.java` | High
-9 | File | `/usr/bin/pkexec` | High
-10 | File | `admin/categories_industry.php` | High
-11 | ... | ... | ...
+1 | File | `.htaccess` | Medium
+2 | File | `/+CSCOE+/logon.html` | High
+3 | File | `/admin.php/appcenter/local.html?type=addon` | High
+4 | File | `/admin/?page=user/manage` | High
+5 | File | `/admin/assign/assign.php` | High
+6 | File | `/admin/config_save.php` | High
+7 | File | `/admin/contacts/organizations/edit/2` | High
+8 | File | `/admin/curriculum/view_curriculum.php` | High
+9 | File | `/admin/employee_row.php` | High
+10 | File | `/admin/login.php` | High
+11 | File | `/admin/mechanics/manage_mechanic.php` | High
+12 | File | `/admin/report/index.php` | High
+13 | File | `/admin/robot/approval/list` | High
+14 | File | `/admin/sales/index.php` | High
+15 | File | `/admin/sales/view_details.php` | High
+16 | File | `/admin/sys_sql_query.php` | High
+17 | File | `/admin/transactions/track_shipment.php` | High
+18 | File | `/ajax.php?action=read_msg` | High
+19 | File | `/api/browserextension/UpdatePassword/` | High
+20 | File | `/assets/components/gallery/connector.php` | High
+21 | File | `/bin/boa` | Medium
+22 | File | `/change_password_process` | High
+23 | File | `/churchcrm/v2/family/not-found` | High
+24 | File | `/classes/Login.php` | High
+25 | File | `/classes/Master.php` | High
+26 | File | `/classes/Master.php?f=update_order_status` | High
+27 | File | `/client/manage/ourphp_out.php` | High
+28 | File | `/config/api/v1/reboot` | High
+29 | File | `/debug/pprof` | Medium
+30 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
+31 | File | `/dotrace.asp` | Medium
+32 | File | `/ecrire` | Low
+33 | File | `/env` | Low
+34 | File | `/forum/away.php` | High
+35 | File | `/goform/SetNetControlList` | High
+36 | File | `/goform/SysToolRestoreSet` | High
+37 | File | `/goform/WifiBasicSet` | High
+38 | File | `/HNAP1/SetAccessPointMode` | High
+39 | File | `/index.php?page=category_list` | High
+40 | File | `/openvpn/pageswitch.htm` | High
+41 | File | `/operations/ecma-function-object.c` | High
+42 | File | `/param.file.tgz` | High
+43 | File | `/setting/setWanIeCfg` | High
+44 | File | `/src/chatbotapp/chatWindow.java` | High
+45 | File | `/system/sshkeys.js` | High
+46 | ... | ... | ...
 
-There are 87 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 394 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://blog.talosintelligence.com/2022/04/teamtnt-targeting-aws-alibaba.html
+* https://securitylabs.datadoghq.com/articles/analysis-of-teamtnt-doppelganger/
 * https://unit42.paloaltonetworks.com/hildegard-malware-teamtnt/
 * https://unit42.paloaltonetworks.com/teamtnt-cryptojacking-watchdog-operations/
 * https://vxug.fakedoma.in/archive/APTs/2021/2021.02.03/Hildegard.pdf

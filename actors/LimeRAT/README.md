@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [IN](https://vuldb.com/?country.in)
 * ...
 
-There are 17 more country items available. Please use our online service to access the data.
+There are 18 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -47,12 +47,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-29, CWE-36 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-29, CWE-36 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+6 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 7 | ... | ... | ... | ...
 
 There are 22 more TTP items available. Please use our online service to access the data.
@@ -71,49 +71,50 @@ ID | Type | Indicator | Confidence
 6 | File | `/admin/update_s6.php` | High
 7 | File | `/admin/users/index.php` | High
 8 | File | `/alphaware/details.php` | High
-9 | File | `/api/v2/cli/commands` | High
-10 | File | `/articles/welcome-to-your-site#comments-head` | High
-11 | File | `/batm/app/admin/standalone/deployments` | High
-12 | File | `/be/erpc.php` | Medium
-13 | File | `/binbloom-master/src/helpers.c` | High
-14 | File | `/blog` | Low
-15 | File | `/boafrm/formHomeWlanSetup` | High
-16 | File | `/cgi-bin/kerbynet` | High
-17 | File | `/ci_hms/massage_room/edit/1` | High
-18 | File | `/classes/Master.php?f=delete_reservation` | High
-19 | File | `/common/info.cgi` | High
-20 | File | `/core/kernels/ctc_decoder_ops.cc` | High
-21 | File | `/crmeb/app/admin/controller/store/CopyTaobao.php` | High
-22 | File | `/dashboard/settings` | High
-23 | File | `/dashboard/system/express/entities/forms/save_control/[GUID]` | High
-24 | File | `/diagnostic/login.php` | High
-25 | File | `/ecrire/tools/blogroll/index.php` | High
-26 | File | `/employeeview.php` | High
-27 | File | `/enterprise/www/student.php` | High
-28 | File | `/etc/config/image_sign` | High
-29 | File | `/etc/sudoers` | Medium
-30 | File | `/files/$username/Myfolder/Mysubfolder/shared.txt` | High
-31 | File | `/forum/away.php` | High
-32 | File | `/garage/editclient.php` | High
-33 | File | `/gasmark/assets/myimages/oneWord.php` | High
-34 | File | `/hocms/classes/Master.php?f=delete_phase` | High
-35 | File | `/hrm/controller/employee.php` | High
-36 | File | `/inventory/transactions_view.php` | High
-37 | File | `/lam/tmp/` | Medium
-38 | File | `/logs/sql-error.log` | High
-39 | File | `/ManageRoute/postRoute` | High
-40 | File | `/mkshop/Men/profile.php` | High
-41 | File | `/newVersion` | Medium
-42 | File | `/oauth/idp/.well-known/openid-configuration` | High
-43 | File | `/out.php` | Medium
-44 | File | `/PC/WebService.asmx` | High
-45 | File | `/preauth` | Medium
-46 | File | `/search.php` | Medium
-47 | File | `/Source/C++/Core/Ap4DataBuffer.cpp` | High
-48 | File | `/spip.php` | Medium
-49 | ... | ... | ...
+9 | File | `/api/sys/login` | High
+10 | File | `/api/v2/cli/commands` | High
+11 | File | `/articles/welcome-to-your-site#comments-head` | High
+12 | File | `/batm/app/admin/standalone/deployments` | High
+13 | File | `/be/erpc.php` | Medium
+14 | File | `/binbloom-master/src/helpers.c` | High
+15 | File | `/blog` | Low
+16 | File | `/boafrm/formHomeWlanSetup` | High
+17 | File | `/cgi-bin/kerbynet` | High
+18 | File | `/ci_hms/massage_room/edit/1` | High
+19 | File | `/classes/Master.php?f=delete_reservation` | High
+20 | File | `/common/info.cgi` | High
+21 | File | `/core/kernels/ctc_decoder_ops.cc` | High
+22 | File | `/crmeb/app/admin/controller/store/CopyTaobao.php` | High
+23 | File | `/dashboard/settings` | High
+24 | File | `/dashboard/system/express/entities/forms/save_control/[GUID]` | High
+25 | File | `/diagnostic/login.php` | High
+26 | File | `/ecrire/tools/blogroll/index.php` | High
+27 | File | `/employeeview.php` | High
+28 | File | `/enterprise/www/student.php` | High
+29 | File | `/etc/config/image_sign` | High
+30 | File | `/etc/sudoers` | Medium
+31 | File | `/files/$username/Myfolder/Mysubfolder/shared.txt` | High
+32 | File | `/forum/away.php` | High
+33 | File | `/garage/editclient.php` | High
+34 | File | `/gasmark/assets/myimages/oneWord.php` | High
+35 | File | `/hocms/classes/Master.php?f=delete_phase` | High
+36 | File | `/hrm/controller/employee.php` | High
+37 | File | `/inventory/transactions_view.php` | High
+38 | File | `/lam/tmp/` | Medium
+39 | File | `/logs/sql-error.log` | High
+40 | File | `/ManageRoute/postRoute` | High
+41 | File | `/mkshop/Men/profile.php` | High
+42 | File | `/newVersion` | Medium
+43 | File | `/oauth/idp/.well-known/openid-configuration` | High
+44 | File | `/out.php` | Medium
+45 | File | `/PC/WebService.asmx` | High
+46 | File | `/preauth` | Medium
+47 | File | `/search.php` | Medium
+48 | File | `/Source/C++/Core/Ap4DataBuffer.cpp` | High
+49 | File | `/spip.php` | Medium
+50 | ... | ... | ...
 
-There are 424 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 433 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

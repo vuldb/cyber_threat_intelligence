@@ -51,9 +51,10 @@ ID | IP address | Hostname | Campaign | Confidence
 32 | [35.203.111.228](https://vuldb.com/?ip.35.203.111.228) | 228.111.203.35.bc.googleusercontent.com | - | Medium
 33 | [35.220.142.90](https://vuldb.com/?ip.35.220.142.90) | 90.142.220.35.bc.googleusercontent.com | - | Medium
 34 | [35.220.149.58](https://vuldb.com/?ip.35.220.149.58) | 58.149.220.35.bc.googleusercontent.com | - | Medium
-35 | ... | ... | ... | ...
+35 | [35.226.27.224](https://vuldb.com/?ip.35.226.27.224) | 224.27.226.35.bc.googleusercontent.com | - | Medium
+36 | ... | ... | ... | ...
 
-There are 138 more IOC items available. Please use our online service to access the data.
+There are 141 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -61,9 +62,9 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-22 | Path Traversal | High
 2 | T1059.007 | CWE-79 | Cross Site Scripting | High
-3 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+3 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 4 | ... | ... | ... | ...
 
 There are 6 more TTP items available. Please use our online service to access the data.
@@ -90,6 +91,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://community.blueliv.com/#!/s/6220736782df413eb5358bf6
 * https://github.com/eset/malware-ioc/tree/master/danabot
 * https://isc.sans.edu/forums/diary/Example+of+Danabot+distributed+through+malspam/27744/
+* https://malware-traffic-analysis.net/2024/02/14/index.html
 * https://research.checkpoint.com/2019/danabot-demands-a-ransom-payment/
 * https://threatfox.abuse.ch
 * https://tria.ge/220106-qkhmeabcd2

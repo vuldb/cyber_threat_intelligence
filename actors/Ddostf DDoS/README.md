@@ -27,7 +27,7 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1059.007 | CWE-80 | Cross Site Scripting | High
 2 | T1505 | CWE-90 | SQL Injection | High
-3 | T1608.002 | CWE-434 | Unrestricted Upload | High
+3 | T1608.002 | CWE-434 | Incomplete Identification of Uploaded File Variables | High
 
 ## IOA - Indicator of Attack
 

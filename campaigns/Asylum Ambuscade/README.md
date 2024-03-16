@@ -74,16 +74,16 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/acms/classes/Master.php?f=delete_cargo` | High
-2 | File | `/admin.add` | Medium
-3 | File | `/admin.php/news/admin/topic/save` | High
-4 | File | `/admin/ajax.php` | High
-5 | File | `/admin/api/theme-edit/` | High
-6 | File | `/admin/comn/service/update.json` | High
-7 | File | `/admin/fst_upload.inc.php` | High
-8 | File | `/admin/index2.html` | High
-9 | File | `/admin/login.php` | High
-10 | File | `/admin/maintenance/view_designation.php` | High
-11 | File | `/admin/robot/approval/list` | High
+2 | File | `/admin.php/news/admin/topic/save` | High
+3 | File | `/admin/ajax.php` | High
+4 | File | `/admin/api/theme-edit/` | High
+5 | File | `/admin/comn/service/update.json` | High
+6 | File | `/admin/fst_upload.inc.php` | High
+7 | File | `/admin/index2.html` | High
+8 | File | `/admin/login.php` | High
+9 | File | `/admin/maintenance/view_designation.php` | High
+10 | File | `/admin/robot/approval/list` | High
+11 | File | `/api/controllers/merchant/shop/PosterController.php` | High
 12 | File | `/api/jolokia org.jolokia.http.HttpRequestHandler#handlePostRequest` | High
 13 | File | `/api/RecordingList/DownloadRecord?file=` | High
 14 | File | `/apply.cgi` | Medium
@@ -91,35 +91,36 @@ ID | Type | Indicator | Confidence
 16 | File | `/cgi-bin/go` | Medium
 17 | File | `/cgi-bin/uploadWeiXinPic` | High
 18 | File | `/cgi-bin/wapopen` | High
-19 | File | `/contact.php` | Medium
-20 | File | `/CPE` | Low
-21 | File | `/debug/pprof` | Medium
-22 | File | `/etc/gsissh/sshd_config` | High
-23 | File | `/face-recognition-php/facepay-master/camera.php` | High
-24 | File | `/forum/away.php` | High
-25 | File | `/forum/PostPrivateMessage` | High
-26 | File | `/home/masterConsole` | High
-27 | File | `/hrm/employeeadd.php` | High
-28 | File | `/hrm/employeeview.php` | High
-29 | File | `/librarian/bookdetails.php` | High
-30 | File | `/mgmt/tm/util/bash` | High
-31 | File | `/mics/j_spring_security_check` | High
-32 | File | `/ofcms/company-c-47` | High
-33 | File | `/opt/vyatta/share/vyatta-cfg/templates/system/static-host-mapping/host-name/node.def` | High
-34 | File | `/owa/auth/logon.aspx` | High
-35 | File | `/pms/update_user.php?user_id=1` | High
-36 | File | `/scripts/unlock_tasks.php` | High
-37 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-38 | File | `/secure/ViewCollectors` | High
-39 | File | `/Session` | Medium
-40 | File | `/spip.php` | Medium
-41 | File | `/staff_login.php` | High
-42 | File | `/system/user/modules/mod_users/controller.php` | High
-43 | File | `/uncpath/` | Medium
-44 | File | `/usr/bin/pkexec` | High
-45 | ... | ... | ...
+19 | File | `/cgi-bin/wlogin.cgi` | High
+20 | File | `/contact.php` | Medium
+21 | File | `/CPE` | Low
+22 | File | `/debug/pprof` | Medium
+23 | File | `/etc/gsissh/sshd_config` | High
+24 | File | `/face-recognition-php/facepay-master/camera.php` | High
+25 | File | `/forum/away.php` | High
+26 | File | `/forum/PostPrivateMessage` | High
+27 | File | `/home/masterConsole` | High
+28 | File | `/hrm/employeeadd.php` | High
+29 | File | `/hrm/employeeview.php` | High
+30 | File | `/librarian/bookdetails.php` | High
+31 | File | `/mgmt/tm/util/bash` | High
+32 | File | `/mics/j_spring_security_check` | High
+33 | File | `/ofcms/company-c-47` | High
+34 | File | `/opt/vyatta/share/vyatta-cfg/templates/system/static-host-mapping/host-name/node.def` | High
+35 | File | `/owa/auth/logon.aspx` | High
+36 | File | `/php/ping.php` | High
+37 | File | `/pms/update_user.php?user_id=1` | High
+38 | File | `/scripts/unlock_tasks.php` | High
+39 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+40 | File | `/secure/ViewCollectors` | High
+41 | File | `/Session` | Medium
+42 | File | `/spip.php` | Medium
+43 | File | `/staff_login.php` | High
+44 | File | `/SysInfo1.htm` | High
+45 | File | `/sysinfo_json.cgi` | High
+46 | ... | ... | ...
 
-There are 390 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 403 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

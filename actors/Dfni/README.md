@@ -30,9 +30,9 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059 | CWE-88 | Cross Site Scripting | High
+1 | T1059 | CWE-88 | Argument Injection | High
 2 | T1059.007 | CWE-79 | Cross Site Scripting | High
-3 | T1068 | CWE-269 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+3 | T1068 | CWE-269 | Execution with Unnecessary Privileges | High
 4 | ... | ... | ... | ...
 
 There are 7 more TTP items available. Please use our online service to access the data.

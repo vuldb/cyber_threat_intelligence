@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 8 more country items available. Please use our online service to access the data.
+There are 9 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -36,7 +36,7 @@ ID | IP address | Hostname | Campaign | Confidence
 13 | [37.0.8.225](https://vuldb.com/?ip.37.0.8.225) | avilalee.cartierevannucci.com | - | High
 14 | ... | ... | ... | ...
 
-There are 50 more IOC items available. Please use our online service to access the data.
+There are 51 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -44,9 +44,9 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
 2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94 | Cross Site Scripting | High
+3 | T1059 | CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
@@ -65,31 +65,39 @@ ID | Type | Indicator | Confidence
 5 | File | `/forum/away.php` | High
 6 | File | `/freelance/resume_list` | High
 7 | File | `/img/main.cgi` | High
-8 | File | `/pms/admin/crimes/manage_crime.php` | High
-9 | File | `/sitecore/shell/Invoke.aspx` | High
-10 | File | `/TemplateManager/indexExternalLocation.jsp` | High
-11 | File | `/uncpath/` | Medium
-12 | File | `/userman/inbox.php` | High
-13 | File | `/usr/sbin/nagios` | High
-14 | File | `/var/log/nginx` | High
-15 | File | `/var/run/docker.sock` | High
-16 | File | `/web/api/v1/upload/UploadHandler.php` | High
-17 | File | `/_vti_bin/_vti_log` | High
-18 | File | `adclick.php` | Medium
-19 | File | `addentry.php` | Medium
-20 | File | `add_bookmark.php` | High
-21 | File | `admin.php` | Medium
-22 | File | `admin/admin.shtml` | High
-23 | File | `admin/general.php` | High
-24 | File | `admincp.php?app=prop&do=add` | High
-25 | File | `administrator/components/com_media/helpers/media.php` | High
-26 | File | `adminlogin.asp` | High
-27 | File | `Adminstrator/Users/Edit/` | High
-28 | File | `advsearch.php` | High
-29 | File | `AppDMClient` | Medium
-30 | ... | ... | ...
+8 | File | `/index.php` | Medium
+9 | File | `/pms/admin/crimes/manage_crime.php` | High
+10 | File | `/sitecore/shell/Invoke.aspx` | High
+11 | File | `/spip.php` | Medium
+12 | File | `/TemplateManager/indexExternalLocation.jsp` | High
+13 | File | `/uncpath/` | Medium
+14 | File | `/userman/inbox.php` | High
+15 | File | `/usr/sbin/nagios` | High
+16 | File | `/var/log/nginx` | High
+17 | File | `/var/run/docker.sock` | High
+18 | File | `/web/api/v1/upload/UploadHandler.php` | High
+19 | File | `/_vti_bin/_vti_log` | High
+20 | File | `adclick.php` | Medium
+21 | File | `addentry.php` | Medium
+22 | File | `addtocart.asp` | High
+23 | File | `add_bookmark.php` | High
+24 | File | `admin.php` | Medium
+25 | File | `admin/adm/test.php` | High
+26 | File | `admin/admin.shtml` | High
+27 | File | `admin/general.php` | High
+28 | File | `admincp.php?app=prop&do=add` | High
+29 | File | `administrator/components/com_media/helpers/media.php` | High
+30 | File | `adminlogin.asp` | High
+31 | File | `Adminstrator/Users/Edit/` | High
+32 | File | `advsearch.php` | High
+33 | File | `agora.cgi` | Medium
+34 | File | `AppDMClient` | Medium
+35 | File | `append/override_content_security_policy_directives` | High
+36 | File | `authent.php4` | Medium
+37 | File | `base/ErrorHandler.php` | High
+38 | ... | ... | ...
 
-There are 250 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 326 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -37,10 +37,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-22 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 5 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
@@ -70,32 +70,32 @@ ID | Type | Indicator | Confidence
 17 | File | `/tmp/.deepin-clone.log` | High
 18 | File | `/users/{id}` | Medium
 19 | File | `/usr/bin/pkexec` | High
-20 | File | `/var/www/xms/application/controllers/verifyLogin.php` | High
-21 | File | `actions.cpp` | Medium
-22 | File | `adm1n/admin_config.php` | High
-23 | File | `admin-ajax.php` | High
-24 | File | `admin.php` | Medium
-25 | File | `admin/addpage.php` | High
-26 | File | `admin/admin_process.php` | High
-27 | File | `admin/checksum.php?__c` | High
-28 | File | `admin/editusertag.php` | High
-29 | File | `admin/eventlist.php` | High
-30 | File | `admin/reklam_detay.asp` | High
-31 | File | `admin/settings.php` | High
-32 | File | `admin/snacks_edit.php` | High
-33 | File | `admin/userview.php` | High
-34 | File | `all_calendars.asp` | High
-35 | File | `anniv.php` | Medium
-36 | File | `api.php` | Low
-37 | File | `app/search/search.app.php` | High
-38 | File | `appGet.cgi` | Medium
-39 | File | `apply.cgi` | Medium
-40 | File | `arch/arm/kernel/perf_event.c` | High
-41 | File | `ArticleType.php` | High
-42 | File | `attachment.php` | High
+20 | File | `/usr/sbin/httpd` | High
+21 | File | `/var/www/xms/application/controllers/verifyLogin.php` | High
+22 | File | `actions.cpp` | Medium
+23 | File | `adm1n/admin_config.php` | High
+24 | File | `admin-ajax.php` | High
+25 | File | `admin.php` | Medium
+26 | File | `admin/addpage.php` | High
+27 | File | `admin/admin_process.php` | High
+28 | File | `admin/checksum.php?__c` | High
+29 | File | `admin/editusertag.php` | High
+30 | File | `admin/eventlist.php` | High
+31 | File | `admin/reklam_detay.asp` | High
+32 | File | `admin/settings.php` | High
+33 | File | `admin/snacks_edit.php` | High
+34 | File | `admin/userview.php` | High
+35 | File | `all_calendars.asp` | High
+36 | File | `anniv.php` | Medium
+37 | File | `api.php` | Low
+38 | File | `app/search/search.app.php` | High
+39 | File | `appGet.cgi` | Medium
+40 | File | `apply.cgi` | Medium
+41 | File | `arch/arm/kernel/perf_event.c` | High
+42 | File | `ArticleType.php` | High
 43 | ... | ... | ...
 
-There are 367 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 369 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

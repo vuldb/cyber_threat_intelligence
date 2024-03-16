@@ -4,6 +4,12 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.scarcruft](https://vuldb.com/?actor.scarcruft)
 
+## Countries
+
+These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Scarcruft:
+
+* [US](https://vuldb.com/?country.us)
+
 ## IOC - Indicator of Compromise
 
 These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of Scarcruft.
@@ -11,14 +17,18 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [34.13.42.35](https://vuldb.com/?ip.34.13.42.35) | - | - | High
-2 | [120.192.73.202](https://vuldb.com/?ip.120.192.73.202) | - | - | High
-3 | [180.182.52.76](https://vuldb.com/?ip.180.182.52.76) | - | - | High
+2 | [84.32.129.32](https://vuldb.com/?ip.84.32.129.32) | - | - | High
+3 | [84.32.131.30](https://vuldb.com/?ip.84.32.131.30) | - | - | High
+4 | ... | ... | ... | ...
+
+There are 7 more IOC items available. Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://securelist.com/scarcruft-continues-to-evolve-introduces-bluetooth-harvester/90729/
+* https://www.sentinelone.com/labs/a-glimpse-into-future-scarcruft-campaigns-attackers-gather-strategic-intelligence-and-target-cybersecurity-professionals/
 
 ## Literature
 

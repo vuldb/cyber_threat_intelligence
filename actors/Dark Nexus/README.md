@@ -24,7 +24,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1592 | CWE-209 | Configuration | High
+1 | T1592 | CWE-209 | Invocation of Process Using Visible Sensitive Information | High
 
 ## IOA - Indicator of Attack
 

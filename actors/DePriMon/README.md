@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [BR](https://vuldb.com/?country.br)
 * ...
 
-There are 7 more country items available. Please use our online service to access the data.
+There are 8 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -53,15 +53,16 @@ ID | Type | Indicator | Confidence
 4 | File | `/apply/index.php` | High
 5 | File | `/include/file.php` | High
 6 | File | `/netflow/jspui/editProfile.jsp` | High
-7 | File | `/rapi/read_url` | High
-8 | File | `/scripts/unlock_tasks.php` | High
-9 | File | `/SysInfo1.htm` | High
-10 | File | `/sysinfo_json.cgi` | High
-11 | File | `/system/user/modules/mod_users/controller.php` | High
-12 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
-13 | ... | ... | ...
+7 | File | `/php/ping.php` | High
+8 | File | `/rapi/read_url` | High
+9 | File | `/scripts/unlock_tasks.php` | High
+10 | File | `/SysInfo1.htm` | High
+11 | File | `/sysinfo_json.cgi` | High
+12 | File | `/system/user/modules/mod_users/controller.php` | High
+13 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
+14 | ... | ... | ...
 
-There are 104 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 106 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

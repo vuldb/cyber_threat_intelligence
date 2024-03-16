@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [IO](https://vuldb.com/?country.io)
 * ...
 
-There are 13 more country items available. Please use our online service to access the data.
+There are 14 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -185,9 +185,10 @@ ID | IP address | Hostname | Campaign | Confidence
 162 | [45.144.29.99](https://vuldb.com/?ip.45.144.29.99) | vm467374.stark-industries.solutions | - | High
 163 | [45.144.179.23](https://vuldb.com/?ip.45.144.179.23) | zhaibingyeshishabi.xyz | - | High
 164 | [45.145.226.64](https://vuldb.com/?ip.45.145.226.64) | - | - | High
-165 | ... | ... | ... | ...
+165 | [45.148.10.76](https://vuldb.com/?ip.45.148.10.76) | - | - | High
+166 | ... | ... | ... | ...
 
-There are 658 more IOC items available. Please use our online service to access the data.
+There are 659 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -202,7 +203,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -224,31 +225,31 @@ ID | Type | Indicator | Confidence
 12 | File | `/aux` | Low
 13 | File | `/bitrix/admin/ldap_server_edit.php` | High
 14 | File | `/changePassword` | High
-15 | File | `/Content/Template/root/reverse-shell.aspx` | High
-16 | File | `/cupseasylive/companymodify.php` | High
-17 | File | `/cupseasylive/grnprint.php` | High
-18 | File | `/cupseasylive/stockissuancelinecreate.php` | High
-19 | File | `/dashboard/add-blog.php` | High
-20 | File | `/dashboard?controller=UserCollection::createUser` | High
-21 | File | `/data/remove` | Medium
-22 | File | `/debug/pprof` | Medium
-23 | File | `/ecshop/admin/template.php` | High
-24 | File | `/etc/passwd` | Medium
-25 | File | `/film-rating.php` | High
-26 | File | `/forms/doLogin` | High
-27 | File | `/forum/away.php` | High
-28 | File | `/goform/net\_Web\_get_value` | High
-29 | File | `/GponForm/usb_restore_Form?script/` | High
-30 | File | `/group1/uploa` | High
-31 | File | `/hedwig.cgi` | Medium
-32 | File | `/home/cavesConsole` | High
-33 | File | `/inc/parser/xhtml.php` | High
-34 | File | `/index.php` | Medium
-35 | File | `/investigation/delete/` | High
-36 | File | `/listplace/user/ticket/create` | High
-37 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
-38 | File | `/mhds/clinic/view_details.php` | High
-39 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+15 | File | `/cupseasylive/companymodify.php` | High
+16 | File | `/cupseasylive/grnprint.php` | High
+17 | File | `/cupseasylive/stockissuancelinecreate.php` | High
+18 | File | `/dashboard/add-blog.php` | High
+19 | File | `/dashboard?controller=UserCollection::createUser` | High
+20 | File | `/data/remove` | Medium
+21 | File | `/debug/pprof` | Medium
+22 | File | `/ecshop/admin/template.php` | High
+23 | File | `/etc/passwd` | Medium
+24 | File | `/film-rating.php` | High
+25 | File | `/forms/doLogin` | High
+26 | File | `/forum/away.php` | High
+27 | File | `/goform/net\_Web\_get_value` | High
+28 | File | `/GponForm/usb_restore_Form?script/` | High
+29 | File | `/group1/uploa` | High
+30 | File | `/hedwig.cgi` | Medium
+31 | File | `/inc/parser/xhtml.php` | High
+32 | File | `/index.php` | Medium
+33 | File | `/investigation/delete/` | High
+34 | File | `/listplace/user/ticket/create` | High
+35 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
+36 | File | `/mhds/clinic/view_details.php` | High
+37 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+38 | File | `/novel/author/list` | High
+39 | File | `/php/ping.php` | High
 40 | ... | ... | ...
 
 There are 346 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.

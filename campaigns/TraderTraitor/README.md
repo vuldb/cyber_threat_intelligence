@@ -60,33 +60,35 @@ ID | Type | Indicator | Confidence
 1 | File | `/?r=recruit/resume/edit&op=status` | High
 2 | File | `/admin.php/update/getFile.html` | High
 3 | File | `/admin/about-us.php` | High
-4 | File | `/admin/countrymanagement.php` | High
-5 | File | `/admin/del_category.php` | High
-6 | File | `/admin/del_service.php` | High
-7 | File | `/admin/edit-accepted-appointment.php` | High
-8 | File | `/admin/edit-services.php` | High
-9 | File | `/admin/edit_category.php` | High
-10 | File | `/admin/forgot-password.php` | High
-11 | File | `/admin/index.php` | High
-12 | File | `/admin/newsletter1.php` | High
-13 | File | `/admin/payment.php` | High
-14 | File | `/admin/reg.php` | High
-15 | File | `/admin/search-appointment.php` | High
-16 | File | `/bin/boa` | Medium
-17 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
-18 | File | `/collection/all` | High
-19 | File | `/core/config-revisions` | High
-20 | File | `/doc/packages` | High
-21 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-22 | File | `/forum/away.php` | High
-23 | File | `/general/attendance/manage/ask_duty/delete.php` | High
-24 | File | `/getcfg.php` | Medium
-25 | File | `/hrm/employeeview.php` | High
-26 | File | `/log/decodmail.php` | High
-27 | File | `/login` | Low
-28 | ... | ... | ...
+4 | File | `/admin/app/profile_crud.php` | High
+5 | File | `/admin/countrymanagement.php` | High
+6 | File | `/admin/del_category.php` | High
+7 | File | `/admin/del_service.php` | High
+8 | File | `/admin/edit-accepted-appointment.php` | High
+9 | File | `/admin/edit-services.php` | High
+10 | File | `/admin/edit_category.php` | High
+11 | File | `/admin/forgot-password.php` | High
+12 | File | `/admin/index.php` | High
+13 | File | `/admin/newsletter1.php` | High
+14 | File | `/admin/payment.php` | High
+15 | File | `/admin/reg.php` | High
+16 | File | `/admin/search-appointment.php` | High
+17 | File | `/ajax-api.php` | High
+18 | File | `/app/ajax/search_sales_report.php` | High
+19 | File | `/bin/boa` | Medium
+20 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
+21 | File | `/collection/all` | High
+22 | File | `/core/config-revisions` | High
+23 | File | `/doc/packages` | High
+24 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+25 | File | `/endpoint/delete-faq.php` | High
+26 | File | `/endpoint/update-computer.php` | High
+27 | File | `/endpoint/update-resident.php` | High
+28 | File | `/endpoint/update-tracker.php` | High
+29 | File | `/forum/away.php` | High
+30 | ... | ... | ...
 
-There are 232 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 258 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

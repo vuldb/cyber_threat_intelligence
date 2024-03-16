@@ -8,8 +8,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with LANDFALL:
 
-* [HU](https://vuldb.com/?country.hu)
 * [US](https://vuldb.com/?country.us)
+* [HU](https://vuldb.com/?country.hu)
 * [CO](https://vuldb.com/?country.co)
 
 ## IOC - Indicator of Compromise
@@ -31,8 +31,9 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059 | CWE-94 | Cross Site Scripting | High
-2 | T1600.001 | CWE-334 | Key Management Error | High
+1 | T1059 | CWE-94 | Argument Injection | High
+2 | T1204.001 | CWE-601 | Open Redirect | High
+3 | T1600.001 | CWE-334 | Key Management Error | High
 
 ## IOA - Indicator of Attack
 
@@ -41,11 +42,11 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/cgi-bin/nobody/VerifyCode.cgi` | High
-2 | File | `ext/soap/php_http.c` | High
-3 | File | `Util/PHP/eval-stdin.php` | High
+2 | File | `/vdesk` | Low
+3 | File | `ext/soap/php_http.c` | High
 4 | ... | ... | ...
 
-There are 2 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 4 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

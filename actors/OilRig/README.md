@@ -27,7 +27,7 @@ ID | IP address | Hostname | Campaign | Confidence
 4 | [33.33.94.94](https://vuldb.com/?ip.33.33.94.94) | - | - | High
 5 | ... | ... | ... | ...
 
-There are 14 more IOC items available. Please use our online service to access the data.
+There are 16 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -35,10 +35,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-37 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-37 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-94 | Argument Injection | High
 5 | ... | ... | ... | ...
 
 There are 17 more TTP items available. Please use our online service to access the data.
@@ -66,9 +66,10 @@ ID | Type | Indicator | Confidence
 15 | File | `/uncpath/` | Medium
 16 | File | `/xpdf/Stream.cc` | High
 17 | File | `actions.hsp` | Medium
-18 | ... | ... | ...
+18 | File | `adclick.php` | Medium
+19 | ... | ... | ...
 
-There are 151 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 153 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -79,6 +80,8 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://www.threatminer.org/report.php?q=OilRigTargetsTechnologyServiceProviderandGovernmentAgencywithQUADAGENT-PaloAltoNetworksBlog.pdf&y=2018
 * https://www.threatminer.org/report.php?q=OopsIE!OilRigusesThreeDollarstoDeliverNewTrojan.pdf&y=2018
 * https://www.threatminer.org/_reports/2019/DNSTunnelingintheWild_OverviewofOilRig%E2%80%99sDNSTunneling.pdf#viewer.action=download
+* https://www.welivesecurity.com/en/eset-research/oilrig-persistent-attacks-cloud-service-powered-downloaders/
+* https://www.welivesecurity.com/en/eset-research/oilrigs-outer-space-juicy-mix-same-ol-rig-new-drill-pipes/
 
 ## Literature
 

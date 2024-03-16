@@ -46,10 +46,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-94 | Argument Injection | High
 5 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
@@ -63,33 +63,35 @@ ID | Type | Indicator | Confidence
 1 | File | `.travis.yml` | Medium
 2 | File | `/.env` | Low
 3 | File | `/admin.php` | Medium
-4 | File | `/admin/subnets/ripe-query.php` | High
-5 | File | `/apply.cgi` | Medium
-6 | File | `/core/conditions/AbstractWrapper.java` | High
-7 | File | `/dashboard/updatelogo.php` | High
-8 | File | `/debug/pprof` | Medium
-9 | File | `/etc/openshift/server_priv.pem` | High
-10 | File | `/export` | Low
-11 | File | `/file?action=download&file` | High
-12 | File | `/hardware` | Medium
-13 | File | `/importexport.php` | High
-14 | File | `/index.php` | Medium
-15 | File | `/librarian/bookdetails.php` | High
-16 | File | `/medical/inventories.php` | High
-17 | File | `/mkshop/Men/profile.php` | High
-18 | File | `/monitoring` | Medium
-19 | File | `/Noxen-master/users.php` | High
-20 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-21 | File | `/plugin/LiveChat/getChat.json.php` | High
-22 | File | `/plugins/servlet/audit/resource` | High
-23 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
-24 | File | `/PreviewHandler.ashx` | High
-25 | File | `/recordings/index.php` | High
-26 | File | `/replication` | Medium
-27 | File | `/RestAPI` | Medium
-28 | ... | ... | ...
+4 | File | `/admin/app/product.php` | High
+5 | File | `/admin/subnets/ripe-query.php` | High
+6 | File | `/apply.cgi` | Medium
+7 | File | `/core/conditions/AbstractWrapper.java` | High
+8 | File | `/customer_support/index.php` | High
+9 | File | `/dashboard/updatelogo.php` | High
+10 | File | `/debug/pprof` | Medium
+11 | File | `/etc/openshift/server_priv.pem` | High
+12 | File | `/export` | Low
+13 | File | `/file?action=download&file` | High
+14 | File | `/hardware` | Medium
+15 | File | `/importexport.php` | High
+16 | File | `/index.php` | Medium
+17 | File | `/librarian/bookdetails.php` | High
+18 | File | `/medical/inventories.php` | High
+19 | File | `/mkshop/Men/profile.php` | High
+20 | File | `/monitoring` | Medium
+21 | File | `/Noxen-master/users.php` | High
+22 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+23 | File | `/plugin/LiveChat/getChat.json.php` | High
+24 | File | `/plugins/servlet/audit/resource` | High
+25 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
+26 | File | `/PreviewHandler.ashx` | High
+27 | File | `/recordings/index.php` | High
+28 | File | `/replication` | Medium
+29 | File | `/RestAPI` | Medium
+30 | ... | ... | ...
 
-There are 236 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 251 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

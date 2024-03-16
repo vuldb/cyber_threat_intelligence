@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with SocGholish:
 
 * [US](https://vuldb.com/?country.us)
+* [DE](https://vuldb.com/?country.de)
 * [RU](https://vuldb.com/?country.ru)
-* [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 8 more country items available. Please use our online service to access the data.
+There are 13 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -21,12 +21,18 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [5.53.125.173](https://vuldb.com/?ip.5.53.125.173) | authoremail.net | - | High
-2 | [77.223.98.12](https://vuldb.com/?ip.77.223.98.12) | cloud12915.coteseuplano1.com.br | - | High
-3 | [87.249.50.201](https://vuldb.com/?ip.87.249.50.201) | 832423-cv17319.tmweb.ru | - | High
-4 | ... | ... | ... | ...
+1 | [5.42.199.146](https://vuldb.com/?ip.5.42.199.146) | - | - | High
+2 | [5.53.125.173](https://vuldb.com/?ip.5.53.125.173) | authoremail.net | - | High
+3 | [45.9.190.217](https://vuldb.com/?ip.45.9.190.217) | - | - | High
+4 | [45.10.42.26](https://vuldb.com/?ip.45.10.42.26) | eggvpn.gw | - | High
+5 | [45.10.43.78](https://vuldb.com/?ip.45.10.43.78) | v1940286.hosted-by-vdsina.ru | - | High
+6 | [77.91.127.52](https://vuldb.com/?ip.77.91.127.52) | static.52.127.91.77.ip.webhost1.net | - | High
+7 | [77.223.98.12](https://vuldb.com/?ip.77.223.98.12) | cloud12915.coteseuplano1.com.br | - | High
+8 | [82.180.154.113](https://vuldb.com/?ip.82.180.154.113) | - | - | High
+9 | [84.32.188.27](https://vuldb.com/?ip.84.32.188.27) | - | - | High
+10 | ... | ... | ... | ...
 
-There are 3 more IOC items available. Please use our online service to access the data.
+There are 37 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -34,10 +40,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-21, CWE-22, CWE-425 | Path Traversal | High
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -49,34 +55,55 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/addnews.html` | High
-2 | File | `/addsrv` | Low
-3 | File | `/Admin/Views/FileEditor/` | High
-4 | File | `/adminlogin.asp` | High
-5 | File | `/article/add` | Medium
-6 | File | `/controller/pay.class.php` | High
-7 | File | `/dev/kmem` | Medium
-8 | File | `/dev/snd/seq` | Medium
-9 | File | `/device/device=140/tab=wifi/view` | High
-10 | File | `/goform/SetClientState` | High
-11 | File | `/goform/SysToolChangePwd` | High
-12 | File | `/jerry-core/ecma/base/ecma-gc.c` | High
-13 | File | `/product_list.php` | High
-14 | File | `/rrps/classes/Master.php?f=delete_category` | High
-15 | File | `/rukovoditel_2.4.1/index.php?module=configuration/save&redirect_to=configuration/application` | High
-16 | File | `/src/core/controllers/cm.php` | High
-17 | File | `/transmission/web/` | High
-18 | File | `/uncpath/` | Medium
-19 | File | `/usr/local` | Medium
-20 | ... | ... | ...
+1 | File | `//proc/kcore` | Medium
+2 | File | `/admin/` | Low
+3 | File | `/admin/about-us.php` | High
+4 | File | `/admin/action/delete-vaccine.php` | High
+5 | File | `/admin/index2.html` | High
+6 | File | `/admin/userprofile.php` | High
+7 | File | `/administrator/components/table_manager/` | High
+8 | File | `/api/baskets/{name}` | High
+9 | File | `/app/index/controller/Common.php` | High
+10 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
+11 | File | `/apply.cgi` | Medium
+12 | File | `/bitrix/admin/ldap_server_edit.php` | High
+13 | File | `/cgi-bin/system_mgr.cgi` | High
+14 | File | `/cgi-bin/wlogin.cgi` | High
+15 | File | `/College/admin/teacher.php` | High
+16 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
+17 | File | `/dcim/rack-roles/` | High
+18 | File | `/forms/doLogin` | High
+19 | File | `/forum/away.php` | High
+20 | File | `/goform/aspForm` | High
+21 | File | `/hotel.php` | Medium
+22 | File | `/inc/topBarNav.php` | High
+23 | File | `/index.php` | Medium
+24 | File | `/index.php?app=main&func=passport&action=login` | High
+25 | File | `/kelas/data` | Medium
+26 | File | `/listplace/user/ticket/create` | High
+27 | File | `/magnoliaPublic/travel/members/login.html` | High
+28 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
+29 | File | `/Moosikay/order.php` | High
+30 | File | `/novel/author/list` | High
+31 | File | `/spip.php` | Medium
+32 | File | `/squashfs-root/etc_ro/custom.conf` | High
+33 | File | `/staff/edit_book_details.php` | High
+34 | File | `/sys/attachment/uploaderServlet` | High
+35 | File | `/SysManage/AddUpdateRole.aspx` | High
+36 | File | `/sysmanage/importconf.php` | High
+37 | File | `/user/profile` | High
+38 | ... | ... | ...
 
-There are 169 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 323 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://www.cisecurity.org/insights/blog/ctas-leveraging-fake-browser-updates-in-malware-campaigns
 * https://www.cybereason.com/blog/threat-analysis-report-socgholish-and-zloader-from-fake-updates-and-installers-to-owning-your-systems
+* https://www.proofpoint.com/us/blog/threat-insight/are-you-sure-your-browser-date-current-landscape-fake-browser-updates
+* https://www.proofpoint.com/us/blog/threat-insight/ta569-socgholish-and-beyond
 
 ## Literature
 

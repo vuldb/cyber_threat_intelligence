@@ -8,9 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 The following _campaigns_ are known and can be associated with Kinsing:
 
+* CVE-2022-36804
 * CVE-2023-32315
 * CVE-2023-46604
-* Log4Shell
+* ...
+
+There are 1 more campaign items available. Please use our online service to access the data.
 
 ## Countries
 
@@ -21,7 +24,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 8 more country items available. Please use our online service to access the data.
+There are 9 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -51,9 +54,12 @@ ID | IP address | Hostname | Campaign | Confidence
 20 | [45.153.231.22](https://vuldb.com/?ip.45.153.231.22) | electacasper.example.com | - | High
 21 | [45.156.23.210](https://vuldb.com/?ip.45.156.23.210) | - | Log4Shell | High
 22 | [46.17.43.156](https://vuldb.com/?ip.46.17.43.156) | - | CVE-2023-46604 | High
-23 | ... | ... | ... | ...
+23 | [51.222.154.100](https://vuldb.com/?ip.51.222.154.100) | ns577710.ip-51-222-154.net | CVE-2023-32315 | High
+24 | [62.76.41.46](https://vuldb.com/?ip.62.76.41.46) | 392.mighost.ru | Log4Shell | High
+25 | [62.113.113.60](https://vuldb.com/?ip.62.113.113.60) | v2065801.hosted-by-vdsina.ru | CVE-2022-36804 | High
+26 | ... | ... | ... | ...
 
-There are 89 more IOC items available. Please use our online service to access the data.
+There are 100 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -61,10 +67,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 5 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
@@ -88,25 +94,26 @@ ID | Type | Indicator | Confidence
 11 | File | `/mgmt/tm/util/bash` | High
 12 | File | `/mifs/c/i/reg/reg.html` | High
 13 | File | `/novel/bookSetting/list` | High
-14 | File | `/owa/auth/logon.aspx` | High
-15 | File | `/requests.php` | High
-16 | File | `/secure/ViewCollectors` | High
-17 | File | `/Session` | Medium
-18 | File | `/spip.php` | Medium
-19 | File | `/usr/bin/pkexec` | High
-20 | File | `/wp-admin/admin.php?page=wp_file_manager_properties` | High
-21 | File | `/xAdmin/html/cm_doclist_view_uc.jsp` | High
-22 | File | `/zm/index.php` | High
-23 | File | `adclick.php` | Medium
-24 | File | `add.php` | Low
-25 | File | `add_comment.php` | High
-26 | File | `admin.jcomments.php` | High
-27 | File | `admin/content.php` | High
-28 | File | `admin\model\catalog\download.php` | High
-29 | File | `application/modules/admin/views/ecommerce/products.php` | High
-30 | ... | ... | ...
+14 | File | `/novel/userFeedback/list` | High
+15 | File | `/owa/auth/logon.aspx` | High
+16 | File | `/requests.php` | High
+17 | File | `/secure/ViewCollectors` | High
+18 | File | `/Session` | Medium
+19 | File | `/spip.php` | Medium
+20 | File | `/usr/bin/pkexec` | High
+21 | File | `/wp-admin/admin.php?page=wp_file_manager_properties` | High
+22 | File | `/xAdmin/html/cm_doclist_view_uc.jsp` | High
+23 | File | `/zm/index.php` | High
+24 | File | `adclick.php` | Medium
+25 | File | `add.php` | Low
+26 | File | `add_comment.php` | High
+27 | File | `admin.jcomments.php` | High
+28 | File | `admin/content.php` | High
+29 | File | `admin\model\catalog\download.php` | High
+30 | File | `application/modules/admin/views/ecommerce/products.php` | High
+31 | ... | ... | ...
 
-There are 250 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 263 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -124,6 +131,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://urlhaus.abuse.ch/url/2532766/
 * https://urlhaus.abuse.ch/url/2532772/
 * https://www.trendmicro.com/content/dam/trendmicro/global/en/research/21/l/patch-now-apache-log4j-vulnerability-called-log4shell-being-actively-exploited/IOCs-PatchNow-Log4Shell-Vulnerability.txt
+* https://www.trustwave.com/en-us/resources/blogs/spiderlabs-blog/honeypot-recon-enterprise-applications-honeypot-unveiling-findings-from-six-worldwide-locations/
 
 ## Literature
 

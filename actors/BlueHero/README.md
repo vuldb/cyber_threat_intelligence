@@ -10,7 +10,6 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [IN](https://vuldb.com/?country.in)
 * [CN](https://vuldb.com/?country.cn)
-* [US](https://vuldb.com/?country.us)
 
 ## IOC - Indicator of Compromise
 
@@ -31,10 +30,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-24 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -55,54 +54,54 @@ ID | Type | Indicator | Confidence
 7 | File | `/admin/admin_user.php` | High
 8 | File | `/admin/api/admin/articles/` | High
 9 | File | `/admin/api/theme-edit/` | High
-10 | File | `/Admin/createClass.php` | High
-11 | File | `/admin/edit.php` | High
-12 | File | `/admin/edit_product.php` | High
-13 | File | `/admin/settings.php` | High
-14 | File | `/admin/students/manage.php` | High
-15 | File | `/api/baskets/{name}` | High
-16 | File | `/api/public/signup` | High
-17 | File | `/api/v1/attack` | High
-18 | File | `/api/v1/bait/set` | High
-19 | File | `/api/v2/open/tablesInfo` | High
-20 | File | `/blog` | Low
-21 | File | `/boaform/device_reset.cgi` | High
-22 | File | `/boaform/wlan_basic_set.cgi` | High
-23 | File | `/category.php` | High
-24 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-25 | File | `/cgi-bin/upload_vpntar` | High
+10 | File | `/admin/borrow_add.php` | High
+11 | File | `/admin/category_row.php` | High
+12 | File | `/Admin/createClass.php` | High
+13 | File | `/admin/edit.php` | High
+14 | File | `/admin/login.php` | High
+15 | File | `/admin/request-received-bydonar.php` | High
+16 | File | `/admin/settings.php` | High
+17 | File | `/admin/students/manage.php` | High
+18 | File | `/api/public/signup` | High
+19 | File | `/api/v1/attack` | High
+20 | File | `/api/v1/bait/set` | High
+21 | File | `/api/v2/open/tablesInfo` | High
+22 | File | `/boaform/device_reset.cgi` | High
+23 | File | `/boaform/wlan_basic_set.cgi` | High
+24 | File | `/category.php` | High
+25 | File | `/classes/Users.php?f=save` | High
 26 | File | `/core/tools/customblock.php` | High
 27 | File | `/course/filterRecords/` | High
-28 | File | `/CPE` | Low
-29 | File | `/csms/?page=contact_us` | High
-30 | File | `/csms/admin/?page=user/list` | High
-31 | File | `/cwms/classes/Master.php?f=save_contact` | High
-32 | File | `/debug/pprof` | Medium
-33 | File | `/ebics-server/ebics.aspx` | High
-34 | File | `/edituser.php` | High
-35 | File | `/employeeview.php` | High
+28 | File | `/csms/?page=contact_us` | High
+29 | File | `/csms/admin/?page=user/list` | High
+30 | File | `/cwms/classes/Master.php?f=save_contact` | High
+31 | File | `/debug/pprof` | Medium
+32 | File | `/ebics-server/ebics.aspx` | High
+33 | File | `/edituser.php` | High
+34 | File | `/employeeview.php` | High
+35 | File | `/Employer/EditProfile.php` | High
 36 | File | `/forum/away.php` | High
 37 | File | `/FuguHub/cmsdocs/` | High
-38 | File | `/goform/Diagnosis` | High
-39 | File | `/home/search` | Medium
-40 | File | `/inc/jquery/uploadify/uploadify.php` | High
-41 | File | `/leaves/validate` | High
-42 | File | `/login.php` | Medium
-43 | File | `/loginVaLidation.php` | High
-44 | File | `/mail.php` | Medium
+38 | File | `/inc/jquery/uploadify/uploadify.php` | High
+39 | File | `/index.jsp#settings` | High
+40 | File | `/inquiries/view_inquiry.php` | High
+41 | File | `/install/` | Medium
+42 | File | `/leave_system/classes/SystemSettings.php?f=update_settings` | High
+43 | File | `/login.php` | Medium
+44 | File | `/loginVaLidation.php` | High
 45 | File | `/MicroStrategyWS/happyaxis.jsp` | High
 46 | File | `/mims/app/addcustomerHandler.php` | High
 47 | File | `/mkshope/login.php` | High
-48 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-49 | File | `/oauth/idp/.well-known/openid-configuration` | High
-50 | File | `/obs/bookPerPub.php` | High
-51 | File | `/omos/admin/?page=user/list` | High
-52 | File | `/one_church/churchprofile.php` | High
-53 | File | `/one_church/userregister.php` | High
-54 | File | `/out.php` | Medium
+48 | File | `/myprofile.php` | High
+49 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+50 | File | `/oauth/idp/.well-known/openid-configuration` | High
+51 | File | `/obs/bookPerPub.php` | High
+52 | File | `/omos/admin/?page=user/list` | High
+53 | File | `/one_church/churchprofile.php` | High
+54 | File | `/one_church/userregister.php` | High
 55 | ... | ... | ...
 
-There are 475 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 484 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

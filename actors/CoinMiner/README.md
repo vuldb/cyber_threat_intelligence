@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [DE](https://vuldb.com/?country.de)
 * [US](https://vuldb.com/?country.us)
-* [IM](https://vuldb.com/?country.im)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 15 more country items available. Please use our online service to access the data.
+There are 16 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -31,15 +31,17 @@ ID | IP address | Hostname | Campaign | Confidence
 8 | [23.21.126.66](https://vuldb.com/?ip.23.21.126.66) | ec2-23-21-126-66.compute-1.amazonaws.com | - | Medium
 9 | [23.21.140.41](https://vuldb.com/?ip.23.21.140.41) | ec2-23-21-140-41.compute-1.amazonaws.com | - | Medium
 10 | [23.21.252.4](https://vuldb.com/?ip.23.21.252.4) | ec2-23-21-252-4.compute-1.amazonaws.com | - | Medium
-11 | [49.12.80.38](https://vuldb.com/?ip.49.12.80.38) | static.38.80.12.49.clients.your-server.de | - | High
-12 | [49.12.80.40](https://vuldb.com/?ip.49.12.80.40) | static.40.80.12.49.clients.your-server.de | - | High
-13 | [50.19.48.59](https://vuldb.com/?ip.50.19.48.59) | ec2-50-19-48-59.compute-1.amazonaws.com | - | Medium
-14 | [50.19.96.218](https://vuldb.com/?ip.50.19.96.218) | ec2-50-19-96-218.compute-1.amazonaws.com | - | Medium
-15 | [50.19.252.36](https://vuldb.com/?ip.50.19.252.36) | ec2-50-19-252-36.compute-1.amazonaws.com | - | Medium
-16 | [51.15.54.102](https://vuldb.com/?ip.51.15.54.102) | 102-54-15-51.instances.scw.cloud | - | High
-17 | ... | ... | ... | ...
+11 | [47.103.63.1](https://vuldb.com/?ip.47.103.63.1) | - | - | High
+12 | [49.12.80.38](https://vuldb.com/?ip.49.12.80.38) | static.38.80.12.49.clients.your-server.de | - | High
+13 | [49.12.80.40](https://vuldb.com/?ip.49.12.80.40) | static.40.80.12.49.clients.your-server.de | - | High
+14 | [50.19.48.59](https://vuldb.com/?ip.50.19.48.59) | ec2-50-19-48-59.compute-1.amazonaws.com | - | Medium
+15 | [50.19.96.218](https://vuldb.com/?ip.50.19.96.218) | ec2-50-19-96-218.compute-1.amazonaws.com | - | Medium
+16 | [50.19.252.36](https://vuldb.com/?ip.50.19.252.36) | ec2-50-19-252-36.compute-1.amazonaws.com | - | Medium
+17 | [51.15.54.102](https://vuldb.com/?ip.51.15.54.102) | 102-54-15-51.instances.scw.cloud | - | High
+18 | [51.15.58.224](https://vuldb.com/?ip.51.15.58.224) | 224-58-15-51.instances.scw.cloud | - | High
+19 | ... | ... | ... | ...
 
-There are 63 more IOC items available. Please use our online service to access the data.
+There are 70 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -47,10 +49,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23 | Pathname Traversal | High
+1 | T1006 | CWE-22, CWE-23 | Path Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-94 | Argument Injection | High
 5 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
@@ -62,53 +64,52 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.plan` | Low
-2 | File | `.tin` | Low
-3 | File | `/admin/read.php?mudi=announContent` | High
-4 | File | `/advanced-tools/nova/bin/netwatch` | High
-5 | File | `/ajaxGetFileByPath.php` | High
+2 | File | `/admin/read.php?mudi=announContent` | High
+3 | File | `/advanced-tools/nova/bin/netwatch` | High
+4 | File | `/ajaxGetFileByPath.php` | High
+5 | File | `/api/stl/actions/search` | High
 6 | File | `/app/sys1.php` | High
-7 | File | `/cgi-bin/editBookmark` | High
-8 | File | `/cgi-bin/luci;stok=/locale` | High
-9 | File | `/classes/Login.php` | High
-10 | File | `/config/list` | Medium
-11 | File | `/configs/application.ini` | High
-12 | File | `/home/cavesConsole` | High
-13 | File | `/home/httpd/cgi-bin/cgi.cgi` | High
-14 | File | `/home/kickPlayer` | High
-15 | File | `/home/masterConsole` | High
-16 | File | `/home/sendBroadcast` | High
-17 | File | `/rapi/read_url` | High
-18 | File | `/services/Card/findUser` | High
-19 | File | `/spacecom/login.php` | High
-20 | File | `/student/bookdetails.php` | High
-21 | File | `/sys/dict/queryTableData` | High
-22 | File | `/Taier/API/tenant/listTenant` | High
-23 | File | `/ucenter/active.php` | High
-24 | File | `/uncpath/` | Medium
-25 | File | `/user/updatePwd` | High
-26 | File | `/userRpm/PingIframeRpm` | High
-27 | File | `/vm/admin/doctors.php` | High
-28 | File | `/xampp/guestbook-en.pl` | High
-29 | File | `/zm/index.php` | High
-30 | File | `abook_database.php` | High
-31 | File | `action.php` | Medium
-32 | File | `admin.php` | Medium
-33 | File | `admin/admin_process.php` | High
-34 | File | `admin/user.php` | High
-35 | File | `admin/vqmods.app/vqmods.inc.php` | High
-36 | File | `ad_manage.php` | High
-37 | File | `afd.sys` | Low
-38 | File | `akocomment.php` | High
-39 | File | `app/routes/research.js` | High
-40 | ... | ... | ...
+7 | File | `/back/index.php/user/User/?1` | High
+8 | File | `/cgi-bin/editBookmark` | High
+9 | File | `/cgi-bin/luci;stok=/locale` | High
+10 | File | `/classes/Login.php` | High
+11 | File | `/config/list` | Medium
+12 | File | `/debug/pprof` | Medium
+13 | File | `/doc/index.php` | High
+14 | File | `/home/cavesConsole` | High
+15 | File | `/home/httpd/cgi-bin/cgi.cgi` | High
+16 | File | `/home/kickPlayer` | High
+17 | File | `/home/masterConsole` | High
+18 | File | `/home/sendBroadcast` | High
+19 | File | `/index.jsp#settings` | High
+20 | File | `/MOXA\_CFG2.ini` | High
+21 | File | `/rapi/read_url` | High
+22 | File | `/services/Card/findUser` | High
+23 | File | `/spacecom/login.php` | High
+24 | File | `/student/bookdetails.php` | High
+25 | File | `/st_reg.php` | Medium
+26 | File | `/sys/dict/queryTableData` | High
+27 | File | `/Taier/API/tenant/listTenant` | High
+28 | File | `/ucenter/active.php` | High
+29 | File | `/user/updatePwd` | High
+30 | File | `/userRpm/PingIframeRpm` | High
+31 | File | `/vm/admin/doctors.php` | High
+32 | File | `/xampp/guestbook-en.pl` | High
+33 | File | `abook_database.php` | High
+34 | File | `action.php` | Medium
+35 | File | `adclick.php` | Medium
+36 | File | `add-testimonial.php` | High
+37 | File | `admin.php` | Medium
+38 | ... | ... | ...
 
-There are 345 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 331 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://asec.ahnlab.com/en/60440/
+* https://asec.ahnlab.com/en/61185/
 * https://blog.talosintelligence.com/2018/09/threat-roundup-0914-0921.html
 * https://blog.talosintelligence.com/2021/02/threat-roundup-0212-0219.html
 * https://blog.talosintelligence.com/2021/02/threat-roundup-0219-0226.html

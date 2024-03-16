@@ -49,14 +49,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -68,14 +68,14 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin/?page=orders/view_order` | High
 3 | File | `/admin/addemployee.php` | High
 4 | File | `/api/V2/internal/TaskPermissions/CheckTaskAccess` | High
-5 | File | `/appliance/users?action=edit` | High
-6 | File | `/bibliography/marcsru.php` | High
-7 | File | `/card_scan.php` | High
-8 | File | `/ci_ssms/index.php/orders/create` | High
-9 | File | `/claire_blake` | High
-10 | File | `/classes/Master.php?f=delete_payment` | High
-11 | File | `/com` | Low
-12 | File | `/com.biepie/shared_prefs/com.bitpie_preferences.xml` | High
+5 | File | `/bibliography/marcsru.php` | High
+6 | File | `/card_scan.php` | High
+7 | File | `/ci_ssms/index.php/orders/create` | High
+8 | File | `/claire_blake` | High
+9 | File | `/classes/Master.php?f=delete_payment` | High
+10 | File | `/com` | Low
+11 | File | `/com.biepie/shared_prefs/com.bitpie_preferences.xml` | High
+12 | File | `/data/nvram` | Medium
 13 | File | `/drivers/infiniband/core/cm.c` | High
 14 | File | `/feegroups/tgrt_group.jsf` | High
 15 | File | `/fm-data.lua` | Medium
@@ -117,7 +117,7 @@ ID | Type | Indicator | Confidence
 51 | File | `arch/x86/kvm/lapic.c` | High
 52 | ... | ... | ...
 
-There are 451 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 457 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -24,7 +24,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1600 | CWE-311 | J2EE Misconfiguration: Data Transmission Without Encryption | High
+1 | T1600 | CWE-311 | Cryptographic Issues | High
 
 ## References
 

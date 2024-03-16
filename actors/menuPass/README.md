@@ -17,8 +17,8 @@ The following _campaigns_ are known and can be associated with menuPass:
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with menuPass:
 
 * [US](https://vuldb.com/?country.us)
-* [UA](https://vuldb.com/?country.ua)
 * [CN](https://vuldb.com/?country.cn)
+* [UA](https://vuldb.com/?country.ua)
 * ...
 
 There are 5 more country items available. Please use our online service to access the data.

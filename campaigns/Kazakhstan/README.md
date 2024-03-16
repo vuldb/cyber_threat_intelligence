@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [US](https://vuldb.com/?country.us)
 * ...
 
-There are 15 more country items available. Please use our online service to access the data.
+There are 13 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -221,7 +221,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -229,46 +229,43 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/?p=products` | Medium
-2 | File | `/admin/controller/JobLogController.java` | High
-3 | File | `/api/baskets/{name}` | High
-4 | File | `/api/jolokia org.jolokia.http.HttpRequestHandler#handlePostRequest` | High
-5 | File | `/api/stl/actions/search` | High
-6 | File | `/api/sys/login` | High
-7 | File | `/api/sys/set_passwd` | High
-8 | File | `/api/trackedEntityInstances` | High
-9 | File | `/api/v2/cli/commands` | High
-10 | File | `/aux` | Low
-11 | File | `/bin/ate` | Medium
-12 | File | `/booking/show_bookings/` | High
-13 | File | `/cgi-bin` | Medium
-14 | File | `/changePassword` | High
-15 | File | `/Content/Template/root/reverse-shell.aspx` | High
-16 | File | `/dashboard/add-blog.php` | High
-17 | File | `/data/remove` | Medium
-18 | File | `/debug/pprof` | Medium
-19 | File | `/dottie.js` | Medium
-20 | File | `/ecshop/admin/template.php` | High
-21 | File | `/env` | Low
-22 | File | `/etc/passwd` | Medium
-23 | File | `/forum/away.php` | High
-24 | File | `/geoserver/rest/about/status` | High
-25 | File | `/group1/uploa` | High
-26 | File | `/index.php` | Medium
-27 | File | `/index.php?menu=asterisk_cli` | High
-28 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-29 | File | `/php-sms/admin/?page=user/manage_user` | High
-30 | File | `/plesk-site-preview/` | High
-31 | File | `/post.php` | Medium
-32 | File | `/resources//../` | High
-33 | File | `/testConnection` | High
-34 | File | `/tmp/ppd.trace` | High
-35 | File | `/uncpath/` | Medium
-36 | File | `/user/inc/workidajax.php` | High
-37 | File | `/user/ticket/create` | High
-38 | ... | ... | ...
+1 | File | `/admin/controller/JobLogController.java` | High
+2 | File | `/api/baskets/{name}` | High
+3 | File | `/api/jolokia org.jolokia.http.HttpRequestHandler#handlePostRequest` | High
+4 | File | `/api/sys/login` | High
+5 | File | `/api/sys/set_passwd` | High
+6 | File | `/api/trackedEntityInstances` | High
+7 | File | `/aux` | Low
+8 | File | `/bin/ate` | Medium
+9 | File | `/booking/show_bookings/` | High
+10 | File | `/changePassword` | High
+11 | File | `/Content/Template/root/reverse-shell.aspx` | High
+12 | File | `/dashboard/add-blog.php` | High
+13 | File | `/data/remove` | Medium
+14 | File | `/debug/pprof` | Medium
+15 | File | `/dottie.js` | Medium
+16 | File | `/ecshop/admin/template.php` | High
+17 | File | `/env` | Low
+18 | File | `/etc/passwd` | Medium
+19 | File | `/forum/away.php` | High
+20 | File | `/goform/net\_Web\_get_value` | High
+21 | File | `/group1/uploa` | High
+22 | File | `/index.php` | Medium
+23 | File | `/index.php?menu=asterisk_cli` | High
+24 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+25 | File | `/php-sms/admin/?page=user/manage_user` | High
+26 | File | `/post.php` | Medium
+27 | File | `/resources//../` | High
+28 | File | `/testConnection` | High
+29 | File | `/tmp/ppd.trace` | High
+30 | File | `/uncpath/` | Medium
+31 | File | `/user/inc/workidajax.php` | High
+32 | File | `/user/ticket/create` | High
+33 | File | `/userLogin.asp` | High
+34 | File | `/v1/sql-runner` | High
+35 | ... | ... | ...
 
-There are 326 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 304 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

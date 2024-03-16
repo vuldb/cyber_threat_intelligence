@@ -15,8 +15,8 @@ The following _campaigns_ are known and can be associated with OceanLotus:
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with OceanLotus:
 
 * [US](https://vuldb.com/?country.us)
-* [RU](https://vuldb.com/?country.ru)
 * [GB](https://vuldb.com/?country.gb)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
 There are 1 more country items available. Please use our online service to access the data.
@@ -60,8 +60,8 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Pathname Traversal | High
-2 | T1059 | CWE-94 | Cross Site Scripting | High
+1 | T1006 | CWE-22 | Path Traversal | High
+2 | T1059 | CWE-94 | Argument Injection | High
 3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
@@ -96,7 +96,8 @@ ID | Type | Indicator | Confidence
 21 | File | `add-family-member.php` | High
 22 | File | `admin/ajax.attachment.php` | High
 23 | File | `admin/languages.php` | High
-24 | ... | ... | ...
+24 | File | `admin/manage-categories.php` | High
+25 | ... | ... | ...
 
 There are 205 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 

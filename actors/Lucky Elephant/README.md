@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
-* [GB](https://vuldb.com/?country.gb)
+* [TR](https://vuldb.com/?country.tr)
 * ...
 
-There are 18 more country items available. Please use our online service to access the data.
+There are 19 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -34,12 +34,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | T1068 | CWE-264, CWE-266, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+6 | T1068 | CWE-264, CWE-266, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 7 | ... | ... | ... | ...
 
 There are 23 more TTP items available. Please use our online service to access the data.
@@ -55,14 +55,14 @@ ID | Type | Indicator | Confidence
 3 | File | `/admin/about-us.php` | High
 4 | File | `/admin/action/delete-vaccine.php` | High
 5 | File | `/Admin/add-student.php` | High
-6 | File | `/admin/index.php` | High
-7 | File | `/admin/index2.html` | High
-8 | File | `/Admin/News.php` | High
-9 | File | `/admin/settings/save.php` | High
-10 | File | `/admin/userprofile.php` | High
-11 | File | `/admin_route/inc_service_credits.php` | High
-12 | File | `/api/baskets/{name}` | High
-13 | File | `/app/index/controller/Common.php` | High
+6 | File | `/admin/index2.html` | High
+7 | File | `/Admin/News.php` | High
+8 | File | `/admin/settings/save.php` | High
+9 | File | `/admin/userprofile.php` | High
+10 | File | `/admin_route/inc_service_credits.php` | High
+11 | File | `/api/baskets/{name}` | High
+12 | File | `/app/index/controller/Common.php` | High
+13 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
 14 | File | `/apply.cgi` | Medium
 15 | File | `/bitrix/admin/ldap_server_edit.php` | High
 16 | File | `/cgi-bin/wlogin.cgi` | High
@@ -84,19 +84,17 @@ ID | Type | Indicator | Confidence
 32 | File | `/kelas/data` | Medium
 33 | File | `/listplace/user/ticket/create` | High
 34 | File | `/log/download.php` | High
-35 | File | `/Moosikay/order.php` | High
-36 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-37 | File | `/php-sms/admin/quotes/manage_remark.php` | High
-38 | File | `/php/ping.php` | High
-39 | File | `/products/details.asp` | High
-40 | File | `/secure/QueryComponent!Default.jspa` | High
-41 | File | `/shell` | Low
-42 | File | `/spcgi.cgi` | Medium
-43 | File | `/squashfs-root/etc_ro/custom.conf` | High
-44 | File | `/staff/edit_book_details.php` | High
-45 | ... | ... | ...
+35 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
+36 | File | `/Moosikay/order.php` | High
+37 | File | `/novel/author/list` | High
+38 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+39 | File | `/php-sms/admin/quotes/manage_remark.php` | High
+40 | File | `/php/ping.php` | High
+41 | File | `/products/details.asp` | High
+42 | File | `/secure/QueryComponent!Default.jspa` | High
+43 | ... | ... | ...
 
-There are 387 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 374 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

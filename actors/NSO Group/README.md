@@ -21,7 +21,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 13 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -49,13 +49,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-35 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-35 | Path Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
-7 | ... | ... | ... | ...
+6 | ... | ... | ... | ...
 
 There are 22 more TTP items available. Please use our online service to access the data.
 
@@ -77,38 +76,37 @@ ID | Type | Indicator | Confidence
 10 | File | `/admin/template.php` | High
 11 | File | `/alphaware/summary.php` | High
 12 | File | `/api/sys/login` | High
-13 | File | `/apply.cgi` | Medium
-14 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
-15 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-16 | File | `/classes/Users.php` | High
-17 | File | `/dashboard/updatelogo.php` | High
-18 | File | `/dipam/save-delegates.php` | High
-19 | File | `/ecommerce/support_ticket` | High
-20 | File | `/etc/controller-agent/agent.conf` | High
-21 | File | `/etc/openshift/server_priv.pem` | High
-22 | File | `/forms/web_importTFTP` | High
-23 | File | `/goform/SysToolReboot` | High
-24 | File | `/goform/SysToolRestoreSet` | High
-25 | File | `/graphql` | Medium
-26 | File | `/index.php` | Medium
-27 | File | `/jeecg-boot/jmreport/upload` | High
-28 | File | `/jeecg-boot/jmreport/view` | High
-29 | File | `/jsoa/hntdCustomDesktopActionContent` | High
-30 | File | `/localhost/u` | Medium
-31 | File | `/mkshop/Men/profile.php` | High
-32 | File | `/net` | Low
-33 | File | `/Noxen-master/users.php` | High
-34 | File | `/opt/bin/cli` | Medium
-35 | File | `/PluXml/core/admin/parametres_edittpl.php` | High
-36 | File | `/public/plugins/` | High
-37 | File | `/public_html/admin/plugins/bad_behavior2/blacklist.php` | High
-38 | File | `/root/run/adm.php?admin-ediy&part=exdiy` | High
-39 | File | `/setNTP.cgi` | Medium
-40 | File | `/setting/setWanIeCfg` | High
-41 | File | `/setup/diags_ir_learn.asp` | High
-42 | ... | ... | ...
+13 | File | `/application/index/controller/Unity.php` | High
+14 | File | `/apply.cgi` | Medium
+15 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
+16 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+17 | File | `/classes/Users.php` | High
+18 | File | `/cupseasylive/grndisplay.php` | High
+19 | File | `/dashboard/updatelogo.php` | High
+20 | File | `/dipam/save-delegates.php` | High
+21 | File | `/ecommerce/support_ticket` | High
+22 | File | `/etc/controller-agent/agent.conf` | High
+23 | File | `/etc/openshift/server_priv.pem` | High
+24 | File | `/forms/web_importTFTP` | High
+25 | File | `/front/admin/tenancyDetail.php` | High
+26 | File | `/goform/SysToolReboot` | High
+27 | File | `/goform/SysToolRestoreSet` | High
+28 | File | `/graphql` | Medium
+29 | File | `/index.php` | Medium
+30 | File | `/jeecg-boot/jmreport/upload` | High
+31 | File | `/jeecg-boot/jmreport/view` | High
+32 | File | `/jsoa/hntdCustomDesktopActionContent` | High
+33 | File | `/localhost/u` | Medium
+34 | File | `/mkshop/Men/profile.php` | High
+35 | File | `/net` | Low
+36 | File | `/Noxen-master/users.php` | High
+37 | File | `/opt/bin/cli` | Medium
+38 | File | `/PluXml/core/admin/parametres_edittpl.php` | High
+39 | File | `/public/plugins/` | High
+40 | File | `/public_html/admin/plugins/bad_behavior2/blacklist.php` | High
+41 | ... | ... | ...
 
-There are 362 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 356 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

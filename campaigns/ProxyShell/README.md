@@ -50,7 +50,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -77,35 +77,35 @@ ID | Type | Indicator | Confidence
 17 | File | `/ctcprotocol/Protocol` | High
 18 | File | `/dashboard/menu-list.php` | High
 19 | File | `/data/remove` | Medium
-20 | File | `/ebics-server/ebics.aspx` | High
-21 | File | `/ffos/classes/Master.php?f=save_category` | High
-22 | File | `/forum/away.php` | High
-23 | File | `/goform/net\_Web\_get_value` | High
-24 | File | `/goforms/rlminfo` | High
-25 | File | `/GponForm/usb_restore_Form?script/` | High
-26 | File | `/group1/uploa` | High
-27 | File | `/hedwig.cgi` | Medium
-28 | File | `/HNAP1` | Low
-29 | File | `/HNAP1/SetClientInfo` | High
-30 | File | `/Items/*/RemoteImages/Download` | High
-31 | File | `/menu.html` | Medium
-32 | File | `/modules/profile/index.php` | High
-33 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-34 | File | `/navigate/navigate_download.php` | High
-35 | File | `/ocwbs/admin/?page=user/manage_user` | High
-36 | File | `/ofrs/admin/?page=user/manage_user` | High
-37 | File | `/out.php` | Medium
-38 | File | `/password.html` | High
-39 | File | `/php_action/fetchSelectedUser.php` | High
-40 | File | `/plugin` | Low
-41 | File | `/property-list/property_view.php` | High
-42 | File | `/ptms/classes/Users.php` | High
-43 | File | `/resources//../` | High
-44 | File | `/rest/api/2/search` | High
-45 | File | `/s/` | Low
+20 | File | `/debug/pprof` | Medium
+21 | File | `/ebics-server/ebics.aspx` | High
+22 | File | `/ffos/classes/Master.php?f=save_category` | High
+23 | File | `/forum/away.php` | High
+24 | File | `/goform/net\_Web\_get_value` | High
+25 | File | `/goforms/rlminfo` | High
+26 | File | `/GponForm/usb_restore_Form?script/` | High
+27 | File | `/group1/uploa` | High
+28 | File | `/hedwig.cgi` | Medium
+29 | File | `/HNAP1` | Low
+30 | File | `/HNAP1/SetClientInfo` | High
+31 | File | `/Items/*/RemoteImages/Download` | High
+32 | File | `/menu.html` | Medium
+33 | File | `/modules/profile/index.php` | High
+34 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+35 | File | `/navigate/navigate_download.php` | High
+36 | File | `/ocwbs/admin/?page=user/manage_user` | High
+37 | File | `/ofrs/admin/?page=user/manage_user` | High
+38 | File | `/out.php` | Medium
+39 | File | `/password.html` | High
+40 | File | `/php_action/fetchSelectedUser.php` | High
+41 | File | `/plugin` | Low
+42 | File | `/prescription/prescription/delete/` | High
+43 | File | `/pro/common/download` | High
+44 | File | `/property-list/property_view.php` | High
+45 | File | `/ptms/classes/Users.php` | High
 46 | ... | ... | ...
 
-There are 400 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 398 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
