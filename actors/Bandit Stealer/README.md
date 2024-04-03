@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Bandit Stealer:
 
-* [US](https://vuldb.com/?country.us)
 * [SH](https://vuldb.com/?country.sh)
+* [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 7 more country items available. Please use our online service to access the data.
+There are 8 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -38,14 +38,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-35, CWE-36 | Path Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-35, CWE-36 | Path Traversal | High
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -54,59 +54,57 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.vscode/cody.json` | High
-2 | File | `/?r=email/api/mark&op=delFromSend` | High
+2 | File | `/3g/index.php` | High
 3 | File | `/accounts/login` | High
 4 | File | `/accounts_con/register_account` | High
-5 | File | `/admin.php` | Medium
-6 | File | `/admin/` | Low
-7 | File | `/admin/action/new-feed.php` | High
-8 | File | `/admin/book_add.php` | High
-9 | File | `/admin/content/data` | High
-10 | File | `/admin/courses/view_course.php` | High
-11 | File | `/admin/database/backup` | High
-12 | File | `/admin/file/edit.do` | High
-13 | File | `/admin/index.php?act=reset_admin_psw` | High
-14 | File | `/admin/list_onlineuser.php` | High
-15 | File | `/admin/sales/view_details.php` | High
-16 | File | `/admin/students/view_details.php` | High
-17 | File | `/adminapi/system/crud` | High
-18 | File | `/ajax/ajax_login.ashx` | High
-19 | File | `/api.php` | Medium
-20 | File | `/api/email/update` | High
-21 | File | `/application/index/controller/File.php` | High
-22 | File | `/application/index/controller/Icon.php` | High
-23 | File | `/Attachment/fromImageUrl` | High
-24 | File | `/b2b-supermarket/catalog/all-products` | High
-25 | File | `/b2b-supermarket/shopping-cart` | High
-26 | File | `/bin/boa` | Medium
-27 | File | `/catalog/compare` | High
-28 | File | `/cgi-bin/cstecgi.cgi` | High
-29 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-30 | File | `/cgi-bin/wlogin.cgi` | High
-31 | File | `/classes/Master.php? f=save_medicine` | High
-32 | File | `/classes/Users.php?f=save` | High
-33 | File | `/clinic/disease_symptoms_view.php` | High
-34 | File | `/common/log/list` | High
-35 | File | `/content/list.do` | High
-36 | File | `/cupseasylive/costcentermodify.php` | High
-37 | File | `/cupseasylive/itemmodify.php` | High
-38 | File | `/cupseasylive/statelist.php` | High
-39 | File | `/cupseasylive/stockissuancecreate.php` | High
-40 | File | `/cupseasylive/taxstructurelinecreate.php` | High
-41 | File | `/dataset/new` | Medium
-42 | File | `/devinfo` | Medium
-43 | File | `/edit_branch.php` | High
-44 | File | `/endpoint/add-user.php` | High
-45 | File | `/fcgi/scrut_fcgi.fcgi` | High
-46 | File | `/file` | Low
-47 | File | `/front/admin/tenancyDetail.php` | High
-48 | File | `/goform/setAutoPing` | High
-49 | File | `/goform/SetNetControlList` | High
-50 | File | `/goform/SetOnlineDevName` | High
-51 | File | `/index.php?c=install&m=index&step=2&is_install_db=0` | High
-52 | ... | ... | ...
+5 | File | `/add_members.php` | High
+6 | File | `/admin.php` | Medium
+7 | File | `/admin/` | Low
+8 | File | `/admin/action/new-feed.php` | High
+9 | File | `/admin/adminHome.php` | High
+10 | File | `/admin/book_add.php` | High
+11 | File | `/admin/content/data` | High
+12 | File | `/admin/courses/view_course.php` | High
+13 | File | `/admin/database/backup` | High
+14 | File | `/admin/file/edit.do` | High
+15 | File | `/admin/index.php?act=reset_admin_psw` | High
+16 | File | `/admin/list_onlineuser.php` | High
+17 | File | `/admin/reports/index.php` | High
+18 | File | `/admin/users.php` | High
+19 | File | `/admin/users_photo.php` | High
+20 | File | `/adminapi/system/crud` | High
+21 | File | `/adminpanel/admin/facebox_modal/updateExaminee.php` | High
+22 | File | `/api.php` | Medium
+23 | File | `/api/blade-user/export-user` | High
+24 | File | `/api/email/update` | High
+25 | File | `/application/index/controller/File.php` | High
+26 | File | `/application/index/controller/Icon.php` | High
+27 | File | `/apps/system/router/upload.go` | High
+28 | File | `/Attachment/fromImageUrl` | High
+29 | File | `/b2b-supermarket/catalog/all-products` | High
+30 | File | `/b2b-supermarket/shopping-cart` | High
+31 | File | `/bin/boa` | Medium
+32 | File | `/catalog/compare` | High
+33 | File | `/cgi-bin/cstecgi.cgi` | High
+34 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+35 | File | `/cgi-bin/wlogin.cgi` | High
+36 | File | `/classes/Master.php? f=save_medicine` | High
+37 | File | `/classes/Users.php?f=save` | High
+38 | File | `/clinic/disease_symptoms_view.php` | High
+39 | File | `/common/log/list` | High
+40 | File | `/content/list.do` | High
+41 | File | `/controller/company/Index.php#sendCompanyLogo` | High
+42 | File | `/cupseasylive/costcentermodify.php` | High
+43 | File | `/cupseasylive/itemmodify.php` | High
+44 | File | `/cupseasylive/statelist.php` | High
+45 | File | `/cupseasylive/stockissuancecreate.php` | High
+46 | File | `/cupseasylive/taxstructurelinecreate.php` | High
+47 | File | `/dataset/new` | Medium
+48 | File | `/dede/catalog_del.php` | High
+49 | File | `/devinfo` | Medium
+50 | ... | ... | ...
 
-There are 456 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 434 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

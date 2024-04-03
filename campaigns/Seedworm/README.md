@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [GB](https://vuldb.com/?country.gb)
-* [TR](https://vuldb.com/?country.tr)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
 There are 8 more country items available. Please use our online service to access the data.
@@ -43,7 +43,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22, CWE-23 | Path Traversal | High
-2 | T1055 | CWE-74 | Injection | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
 
@@ -55,29 +55,30 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/cgi-bin/wlogin.cgi` | High
-2 | File | `/DesignTools/CssEditor.aspx` | High
-3 | File | `/dev/tty` | Medium
-4 | File | `/Duty/AjaxHandle/UpLoadFloodPlanFile.ashx` | High
-5 | File | `/etc/passwd` | Medium
-6 | File | `/forum/away.php` | High
-7 | File | `/movie.php` | Medium
-8 | File | `/out.php` | Medium
-9 | File | `/pet_shop/admin/?page=inventory/manage_inventory` | High
-10 | File | `/phppath/php` | Medium
-11 | File | `/search_events.php` | High
-12 | File | `/StartingPage/link_req_2.php` | High
-13 | File | `/user/s.php` | Medium
-14 | File | `/vendor` | Low
-15 | File | `/ViewUserHover.jspa` | High
-16 | File | `admin.php` | Medium
-17 | File | `admin/AJAX_lookup_handler.php` | High
-18 | File | `admin/general.php` | High
-19 | File | `admin/index.php` | High
-20 | File | `admin/login.asp` | High
-21 | ... | ... | ...
+1 | File | `/cgi-bin/cstecgi.cgi` | High
+2 | File | `/cgi-bin/wlogin.cgi` | High
+3 | File | `/DesignTools/CssEditor.aspx` | High
+4 | File | `/dev/tty` | Medium
+5 | File | `/Duty/AjaxHandle/UpLoadFloodPlanFile.ashx` | High
+6 | File | `/etc/keystone/user-project-map.json` | High
+7 | File | `/etc/passwd` | Medium
+8 | File | `/forum/away.php` | High
+9 | File | `/movie.php` | Medium
+10 | File | `/out.php` | Medium
+11 | File | `/pet_shop/admin/?page=inventory/manage_inventory` | High
+12 | File | `/phppath/php` | Medium
+13 | File | `/search_events.php` | High
+14 | File | `/StartingPage/link_req_2.php` | High
+15 | File | `/user/s.php` | Medium
+16 | File | `/vendor` | Low
+17 | File | `/ViewUserHover.jspa` | High
+18 | File | `adclick.php` | Medium
+19 | File | `admin.php` | Medium
+20 | File | `admin/AJAX_lookup_handler.php` | High
+21 | File | `admin/general.php` | High
+22 | ... | ... | ...
 
-There are 177 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 186 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

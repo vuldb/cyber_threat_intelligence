@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 14 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -173,14 +173,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-425 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -194,42 +194,41 @@ ID | Type | Indicator | Confidence
 4 | File | `/admin/add-category.php` | High
 5 | File | `/admin/controller/JobLogController.java` | High
 6 | File | `/admin/index2.html` | High
-7 | File | `/api/baskets/{name}` | High
-8 | File | `/api/sys/login` | High
-9 | File | `/api/sys/set_passwd` | High
-10 | File | `/api/trackedEntityInstances` | High
-11 | File | `/app/index/controller/Common.php` | High
-12 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
-13 | File | `/aux` | Low
-14 | File | `/bitrix/admin/ldap_server_edit.php` | High
-15 | File | `/cgi-bin/cstecgi.cgi` | High
-16 | File | `/changePassword` | High
-17 | File | `/Content/Template/root/reverse-shell.aspx` | High
-18 | File | `/dashboard/add-blog.php` | High
-19 | File | `/data/remove` | Medium
-20 | File | `/debug/pprof` | Medium
-21 | File | `/ecshop/admin/template.php` | High
-22 | File | `/etc/passwd` | Medium
-23 | File | `/forms/doLogin` | High
-24 | File | `/forum/away.php` | High
-25 | File | `/goform/net\_Web\_get_value` | High
-26 | File | `/group1/uploa` | High
-27 | File | `/index.php` | Medium
-28 | File | `/listplace/user/ticket/create` | High
-29 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
-30 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-31 | File | `/novel/author/list` | High
-32 | File | `/php/ping.php` | High
-33 | File | `/resources//../` | High
-34 | File | `/scripts/unlock_tasks.php` | High
-35 | File | `/squashfs-root/etc_ro/custom.conf` | High
-36 | File | `/staff/edit_book_details.php` | High
-37 | File | `/SysInfo1.htm` | High
-38 | File | `/sysinfo_json.cgi` | High
-39 | File | `/SysManage/AddUpdateRole.aspx` | High
-40 | ... | ... | ...
+7 | File | `/api/sys/login` | High
+8 | File | `/api/sys/set_passwd` | High
+9 | File | `/api/trackedEntityInstances` | High
+10 | File | `/app/index/controller/Common.php` | High
+11 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
+12 | File | `/aux` | Low
+13 | File | `/bitrix/admin/ldap_server_edit.php` | High
+14 | File | `/cgi-bin/cstecgi.cgi` | High
+15 | File | `/changePassword` | High
+16 | File | `/Content/Template/root/reverse-shell.aspx` | High
+17 | File | `/dashboard/add-blog.php` | High
+18 | File | `/data/remove` | Medium
+19 | File | `/debug/pprof` | Medium
+20 | File | `/ecshop/admin/template.php` | High
+21 | File | `/etc/passwd` | Medium
+22 | File | `/forms/doLogin` | High
+23 | File | `/forum/away.php` | High
+24 | File | `/goform/net\_Web\_get_value` | High
+25 | File | `/index.php` | Medium
+26 | File | `/listplace/user/ticket/create` | High
+27 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
+28 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+29 | File | `/novel/author/list` | High
+30 | File | `/php/ping.php` | High
+31 | File | `/scripts/unlock_tasks.php` | High
+32 | File | `/src/dede/vote_edit.php` | High
+33 | File | `/SysInfo1.htm` | High
+34 | File | `/sysinfo_json.cgi` | High
+35 | File | `/SysManage/AddUpdateRole.aspx` | High
+36 | File | `/sysmanage/importconf.php` | High
+37 | File | `/system/user/modules/mod_users/controller.php` | High
+38 | File | `/testConnection` | High
+39 | ... | ... | ...
 
-There are 344 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 333 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

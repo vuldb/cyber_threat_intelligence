@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [VN](https://vuldb.com/?country.vn)
 * ...
 
-There are 17 more country items available. Please use our online service to access the data.
+There are 16 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -49,10 +49,12 @@ ID | IP address | Hostname | Actor | Confidence
 17 | [45.89.65.198](https://vuldb.com/?ip.45.89.65.198) | 2.server.com | [DarkGate](https://vuldb.com/?actor.darkgate) | High
 18 | [45.140.146.2](https://vuldb.com/?ip.45.140.146.2) | vm2099152.stark-industries.solutions | [DarkGate](https://vuldb.com/?actor.darkgate) | High
 19 | [45.141.87.89](https://vuldb.com/?ip.45.141.87.89) | - | [DarkGate](https://vuldb.com/?actor.darkgate) | High
-20 | [46.21.157.142](https://vuldb.com/?ip.46.21.157.142) | 142.157.21.46.inferno.name | [DarkGate](https://vuldb.com/?actor.darkgate) | High
-21 | ... | ... | ... | ...
+20 | [45.147.228.138](https://vuldb.com/?ip.45.147.228.138) | - | [DarkGate](https://vuldb.com/?actor.darkgate) | High
+21 | [46.21.157.142](https://vuldb.com/?ip.46.21.157.142) | 142.157.21.46.inferno.name | [DarkGate](https://vuldb.com/?actor.darkgate) | High
+22 | [46.173.215.132](https://vuldb.com/?ip.46.173.215.132) | - | [DarkGate](https://vuldb.com/?actor.darkgate) | High
+23 | ... | ... | ... | ...
 
-There are 80 more IOC items available. Please use our online service to access the data.
+There are 89 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -60,14 +62,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-25, CWE-36 | Path Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-25, CWE-29, CWE-36 | Path Traversal | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -75,21 +77,21 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `%SYSTEMDRIVE%\node_modules\.bin\wmic.exe` | High
-2 | File | `/#ilang=DE&b=c_smartenergy_swgroups` | High
-3 | File | `/Account/login.php` | High
-4 | File | `/admin/` | Low
-5 | File | `/admin/admin_user.php` | High
-6 | File | `/admin/category/save` | High
-7 | File | `/admin/list_ipAddressPolicy.php` | High
-8 | File | `/admin/subject.php` | High
-9 | File | `/adminapi/system/crud` | High
-10 | File | `/adminapi/system/file/openfile` | High
-11 | File | `/admin_route/dec_service_credits.php` | High
-12 | File | `/api/v4/teams//channels/deleted` | High
-13 | File | `/auth/auth.php?user=1` | High
-14 | File | `/b2b-supermarket/shopping-cart` | High
-15 | File | `/boaform/device_reset.cgi` | High
+1 | File | `/#ilang=DE&b=c_smartenergy_swgroups` | High
+2 | File | `/Account/login.php` | High
+3 | File | `/admin/` | Low
+4 | File | `/admin/admin_user.php` | High
+5 | File | `/admin/list_ipAddressPolicy.php` | High
+6 | File | `/admin/subject.php` | High
+7 | File | `/adminapi/system/crud` | High
+8 | File | `/adminapi/system/file/openfile` | High
+9 | File | `/admin_route/dec_service_credits.php` | High
+10 | File | `/api/v4/teams//channels/deleted` | High
+11 | File | `/auth/auth.php?user=1` | High
+12 | File | `/b2b-supermarket/shopping-cart` | High
+13 | File | `/boaform/device_reset.cgi` | High
+14 | File | `/cancel.php` | Medium
+15 | File | `/category.php` | High
 16 | File | `/cgi-bin/cstecgi.cgi` | High
 17 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
 18 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
@@ -100,41 +102,44 @@ ID | Type | Indicator | Confidence
 23 | File | `/debug/pprof` | Medium
 24 | File | `/devinfo` | Medium
 25 | File | `/dist/index.js` | High
-26 | File | `/DXR.axd` | Medium
-27 | File | `/forum/away.php` | High
-28 | File | `/goform/formSysCmd` | High
+26 | File | `/download` | Medium
+27 | File | `/DXR.axd` | Medium
+28 | File | `/forum/away.php` | High
 29 | File | `/goform/goform_get_cmd_process` | High
 30 | File | `/HNAP1/` | Low
 31 | File | `/hosts/firewall/ip` | High
 32 | File | `/importexport.php` | High
 33 | File | `/index.jsp#settings` | High
 34 | File | `/index.php/ccm/system/file/upload` | High
-35 | File | `/log/decodmail.php` | High
-36 | File | `/main/doctype.php` | High
-37 | File | `/main/webservices/additional_webservices.php` | High
-38 | File | `/mc` | Low
+35 | File | `/Interface/DevManage/VM.php` | High
+36 | File | `/log/decodmail.php` | High
+37 | File | `/main/doctype.php` | High
+38 | File | `/main/webservices/additional_webservices.php` | High
 39 | File | `/net/bluetooth/rfcomm/core.C` | High
 40 | File | `/novel/bookSetting/list` | High
 41 | File | `/novel/userFeedback/list` | High
 42 | File | `/oauth/idp/.well-known/openid-configuration` | High
-43 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-44 | File | `/pdf` | Low
-45 | File | `/php/ping.php` | High
-46 | File | `/register.php` | High
+43 | File | `/pdf` | Low
+44 | File | `/php/ping.php` | High
+45 | File | `/register.php` | High
+46 | File | `/remote/put_file` | High
 47 | File | `/s/index.php?action=statistics` | High
-48 | File | `/setting/NTPSyncWithHost` | High
-49 | File | `/signup.php` | Medium
-50 | ... | ... | ...
+48 | File | `/Setting/change_password_save` | High
+49 | File | `/setting/NTPSyncWithHost` | High
+50 | File | `/signup.php` | Medium
+51 | ... | ... | ...
 
-There are 434 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 447 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the campaign and the associated activities:
 
 * https://app.any.run/tasks/9b94c5e4-d5aa-4eaa-be23-a754f94a617b/
+* https://app.any.run/tasks/4437c29a-0bfc-40f2-84e5-9b51f7527289/
 * https://asec.ahnlab.com/en/61000/
 * https://bazaar.abuse.ch/sample/8a2edeef9978d454882bfb233d9cd77505618b854f7899b27aeb095ff8ebb3f4/
+* https://circleid.com/posts/20240308-darkgate-rat-comes-into-the-dns-spotlight
 * https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2023-10-25-IOCs-from-DarkGate-activity.txt
 * https://github.com/prodaft/malware-ioc/blob/master/PTI-66/DarkGate.md
 * https://github.com/stamparm/maltrail/blob/master/trails/static/malware/darkgate.txt
@@ -164,6 +169,10 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://tria.ge/231120-vg8fwahc22
 * https://tria.ge/240303-p2q5fabb93/behavioral2
 * https://tria.ge/240305-ze9y5shg65/behavioral2
+* https://tria.ge/240312-ygkatshg3z/behavioral1
+* https://tria.ge/240314-wb7stsae5w/behavioral2
+* https://tria.ge/240318-v6zv2aec55/behavioral1
+* https://tria.ge/240319-x76fbadb28/behavioral2
 * https://twitter.com/0xw4ifu/status/1714738953016746247
 * https://twitter.com/AnFam17/status/1701963227955945552
 * https://twitter.com/malwrhunterteam/status/1704231060865778097

@@ -8,12 +8,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with CoinMiner:
 
-* [DE](https://vuldb.com/?country.de)
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* ...
-
-There are 16 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -21,27 +17,32 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [4.4.0.0](https://vuldb.com/?ip.4.4.0.0) | - | - | High
-2 | [5.196.13.29](https://vuldb.com/?ip.5.196.13.29) | 29.ip-5-196-13.eu | - | High
-3 | [5.196.23.240](https://vuldb.com/?ip.5.196.23.240) | 240.ip-5-196-23.eu | - | High
-4 | [13.107.21.200](https://vuldb.com/?ip.13.107.21.200) | - | - | High
-5 | [18.210.126.40](https://vuldb.com/?ip.18.210.126.40) | ec2-18-210-126-40.compute-1.amazonaws.com | - | Medium
-6 | [23.21.48.44](https://vuldb.com/?ip.23.21.48.44) | ec2-23-21-48-44.compute-1.amazonaws.com | - | Medium
-7 | [23.21.76.253](https://vuldb.com/?ip.23.21.76.253) | ec2-23-21-76-253.compute-1.amazonaws.com | - | Medium
-8 | [23.21.126.66](https://vuldb.com/?ip.23.21.126.66) | ec2-23-21-126-66.compute-1.amazonaws.com | - | Medium
-9 | [23.21.140.41](https://vuldb.com/?ip.23.21.140.41) | ec2-23-21-140-41.compute-1.amazonaws.com | - | Medium
-10 | [23.21.252.4](https://vuldb.com/?ip.23.21.252.4) | ec2-23-21-252-4.compute-1.amazonaws.com | - | Medium
-11 | [47.103.63.1](https://vuldb.com/?ip.47.103.63.1) | - | - | High
-12 | [49.12.80.38](https://vuldb.com/?ip.49.12.80.38) | static.38.80.12.49.clients.your-server.de | - | High
-13 | [49.12.80.40](https://vuldb.com/?ip.49.12.80.40) | static.40.80.12.49.clients.your-server.de | - | High
-14 | [50.19.48.59](https://vuldb.com/?ip.50.19.48.59) | ec2-50-19-48-59.compute-1.amazonaws.com | - | Medium
-15 | [50.19.96.218](https://vuldb.com/?ip.50.19.96.218) | ec2-50-19-96-218.compute-1.amazonaws.com | - | Medium
-16 | [50.19.252.36](https://vuldb.com/?ip.50.19.252.36) | ec2-50-19-252-36.compute-1.amazonaws.com | - | Medium
-17 | [51.15.54.102](https://vuldb.com/?ip.51.15.54.102) | 102-54-15-51.instances.scw.cloud | - | High
-18 | [51.15.58.224](https://vuldb.com/?ip.51.15.58.224) | 224-58-15-51.instances.scw.cloud | - | High
-19 | ... | ... | ... | ...
+1 | [2.58.149.237](https://vuldb.com/?ip.2.58.149.237) | - | - | High
+2 | [4.4.0.0](https://vuldb.com/?ip.4.4.0.0) | - | - | High
+3 | [5.9.157.2](https://vuldb.com/?ip.5.9.157.2) | static.2.157.9.5.clients.your-server.de | - | High
+4 | [5.196.13.29](https://vuldb.com/?ip.5.196.13.29) | 29.ip-5-196-13.eu | - | High
+5 | [5.196.23.240](https://vuldb.com/?ip.5.196.23.240) | 240.ip-5-196-23.eu | - | High
+6 | [13.107.21.200](https://vuldb.com/?ip.13.107.21.200) | - | - | High
+7 | [18.210.126.40](https://vuldb.com/?ip.18.210.126.40) | ec2-18-210-126-40.compute-1.amazonaws.com | - | Medium
+8 | [23.21.48.44](https://vuldb.com/?ip.23.21.48.44) | ec2-23-21-48-44.compute-1.amazonaws.com | - | Medium
+9 | [23.21.76.253](https://vuldb.com/?ip.23.21.76.253) | ec2-23-21-76-253.compute-1.amazonaws.com | - | Medium
+10 | [23.21.126.66](https://vuldb.com/?ip.23.21.126.66) | ec2-23-21-126-66.compute-1.amazonaws.com | - | Medium
+11 | [23.21.140.41](https://vuldb.com/?ip.23.21.140.41) | ec2-23-21-140-41.compute-1.amazonaws.com | - | Medium
+12 | [23.21.252.4](https://vuldb.com/?ip.23.21.252.4) | ec2-23-21-252-4.compute-1.amazonaws.com | - | Medium
+13 | [23.224.232.68](https://vuldb.com/?ip.23.224.232.68) | - | - | High
+14 | [46.41.150.129](https://vuldb.com/?ip.46.41.150.129) | - | - | High
+15 | [47.103.63.1](https://vuldb.com/?ip.47.103.63.1) | - | - | High
+16 | [49.12.80.38](https://vuldb.com/?ip.49.12.80.38) | static.38.80.12.49.clients.your-server.de | - | High
+17 | [49.12.80.40](https://vuldb.com/?ip.49.12.80.40) | static.40.80.12.49.clients.your-server.de | - | High
+18 | [49.12.113.223](https://vuldb.com/?ip.49.12.113.223) | static.223.113.12.49.clients.your-server.de | - | High
+19 | [50.19.48.59](https://vuldb.com/?ip.50.19.48.59) | ec2-50-19-48-59.compute-1.amazonaws.com | - | Medium
+20 | [50.19.96.218](https://vuldb.com/?ip.50.19.96.218) | ec2-50-19-96-218.compute-1.amazonaws.com | - | Medium
+21 | [50.19.252.36](https://vuldb.com/?ip.50.19.252.36) | ec2-50-19-252-36.compute-1.amazonaws.com | - | Medium
+22 | [51.15.54.102](https://vuldb.com/?ip.51.15.54.102) | 102-54-15-51.instances.scw.cloud | - | High
+23 | [51.15.58.224](https://vuldb.com/?ip.51.15.58.224) | 224-58-15-51.instances.scw.cloud | - | High
+24 | ... | ... | ... | ...
 
-There are 70 more IOC items available. Please use our online service to access the data.
+There are 91 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -49,13 +50,9 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23 | Path Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94 | Argument Injection | High
-5 | ... | ... | ... | ...
-
-There are 18 more TTP items available. Please use our online service to access the data.
+1 | T1059 | CWE-94 | Argument Injection | High
+2 | T1505 | CWE-89, CWE-90 | SQL Injection | High
+3 | T1592 | CWE-200 | Invocation of Process Using Visible Sensitive Information | High
 
 ## IOA - Indicator of Attack
 
@@ -63,51 +60,21 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.plan` | Low
-2 | File | `/admin/read.php?mudi=announContent` | High
-3 | File | `/advanced-tools/nova/bin/netwatch` | High
-4 | File | `/ajaxGetFileByPath.php` | High
-5 | File | `/api/stl/actions/search` | High
-6 | File | `/app/sys1.php` | High
-7 | File | `/back/index.php/user/User/?1` | High
-8 | File | `/cgi-bin/editBookmark` | High
-9 | File | `/cgi-bin/luci;stok=/locale` | High
-10 | File | `/classes/Login.php` | High
-11 | File | `/config/list` | Medium
-12 | File | `/debug/pprof` | Medium
-13 | File | `/doc/index.php` | High
-14 | File | `/home/cavesConsole` | High
-15 | File | `/home/httpd/cgi-bin/cgi.cgi` | High
-16 | File | `/home/kickPlayer` | High
-17 | File | `/home/masterConsole` | High
-18 | File | `/home/sendBroadcast` | High
-19 | File | `/index.jsp#settings` | High
-20 | File | `/MOXA\_CFG2.ini` | High
-21 | File | `/rapi/read_url` | High
-22 | File | `/services/Card/findUser` | High
-23 | File | `/spacecom/login.php` | High
-24 | File | `/student/bookdetails.php` | High
-25 | File | `/st_reg.php` | Medium
-26 | File | `/sys/dict/queryTableData` | High
-27 | File | `/Taier/API/tenant/listTenant` | High
-28 | File | `/ucenter/active.php` | High
-29 | File | `/user/updatePwd` | High
-30 | File | `/userRpm/PingIframeRpm` | High
-31 | File | `/vm/admin/doctors.php` | High
-32 | File | `/xampp/guestbook-en.pl` | High
-33 | File | `abook_database.php` | High
-34 | File | `action.php` | Medium
-35 | File | `adclick.php` | Medium
-36 | File | `add-testimonial.php` | High
-37 | File | `admin.php` | Medium
-38 | ... | ... | ...
+1 | File | `inc/config.php` | High
+2 | File | `ItemInfo.asp` | Medium
+3 | File | `utilities/pspp-dump-sav.c` | High
+4 | ... | ... | ...
 
-There are 331 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 2 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://asec.ahnlab.com/en/40673/
+* https://asec.ahnlab.com/en/45182/
+* https://asec.ahnlab.com/en/46774/
+* https://asec.ahnlab.com/en/51908/
 * https://asec.ahnlab.com/en/60440/
 * https://asec.ahnlab.com/en/61185/
 * https://blog.talosintelligence.com/2018/09/threat-roundup-0914-0921.html
@@ -127,6 +94,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://isc.sans.edu/forums/diary/Pornographic+malspam+pushes+coin+miner+malware/23119/
 * https://threatfox.abuse.ch
 * https://tria.ge/220416-dv7casgchn
+* https://tria.ge/240318-xddhfafd78/behavioral1
 * https://urlhaus.abuse.ch/url/2739139/
 * https://www.trendmicro.com/en_us/research/22/i/a-post-exploitation-look-at-coinminers-abusing-weblogic-vulnerab.html
 

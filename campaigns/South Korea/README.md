@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [TR](https://vuldb.com/?country.tr)
 * ...
 
-There are 22 more country items available. Please use our online service to access the data.
+There are 21 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -360,12 +360,12 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-25, CWE-36, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -388,16 +388,16 @@ ID | Type | Indicator | Confidence
 13 | File | `/api/v1/terminal/sessions/?limit=1` | High
 14 | File | `/api/v4/teams//channels/deleted` | High
 15 | File | `/b2b-supermarket/shopping-cart` | High
-16 | File | `/category.php` | High
-17 | File | `/categorypage.php` | High
-18 | File | `/cgi-bin/cstecgi.cgi` | High
-19 | File | `/cgi-bin/luci/api/wireless` | High
+16 | File | `/cancel.php` | Medium
+17 | File | `/category.php` | High
+18 | File | `/categorypage.php` | High
+19 | File | `/cgi-bin/cstecgi.cgi` | High
 20 | File | `/cgi-bin/vitogate.cgi` | High
 21 | File | `/change-language/de_DE` | High
-22 | File | `/Content/Template/root/reverse-shell.aspx` | High
-23 | File | `/debug/pprof` | Medium
-24 | File | `/devinfo` | Medium
-25 | File | `/dist/index.js` | High
+22 | File | `/debug/pprof` | Medium
+23 | File | `/devinfo` | Medium
+24 | File | `/dist/index.js` | High
+25 | File | `/download` | Medium
 26 | File | `/fcgi/scrut_fcgi.fcgi` | High
 27 | File | `/forum/away.php` | High
 28 | File | `/geoserver/gwc/rest.html` | High
@@ -422,7 +422,7 @@ ID | Type | Indicator | Confidence
 47 | File | `/spip.php` | Medium
 48 | ... | ... | ...
 
-There are 421 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 419 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

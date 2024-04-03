@@ -69,7 +69,7 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 5 | ... | ... | ... | ...
 
@@ -81,39 +81,39 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/dl_sendmail.php` | High
-2 | File | `/admin/index2.html` | High
-3 | File | `/admin/login.php` | High
-4 | File | `/api/baskets/{name}` | High
-5 | File | `/api/v2/cli/commands` | High
-6 | File | `/app/Http/Controllers/Admin/NEditorController.php` | High
-7 | File | `/DXR.axd` | Medium
-8 | File | `/forum/away.php` | High
-9 | File | `/inc/parser/xhtml.php` | High
-10 | File | `/include/makecvs.php` | High
-11 | File | `/mgmt/tm/util/bash` | High
-12 | File | `/mifs/c/i/reg/reg.html` | High
-13 | File | `/novel/bookSetting/list` | High
-14 | File | `/novel/userFeedback/list` | High
-15 | File | `/owa/auth/logon.aspx` | High
-16 | File | `/requests.php` | High
-17 | File | `/secure/ViewCollectors` | High
-18 | File | `/Session` | Medium
-19 | File | `/spip.php` | Medium
-20 | File | `/usr/bin/pkexec` | High
-21 | File | `/wp-admin/admin.php?page=wp_file_manager_properties` | High
-22 | File | `/xAdmin/html/cm_doclist_view_uc.jsp` | High
-23 | File | `/zm/index.php` | High
-24 | File | `adclick.php` | Medium
-25 | File | `add.php` | Low
-26 | File | `add_comment.php` | High
-27 | File | `admin.jcomments.php` | High
-28 | File | `admin/content.php` | High
-29 | File | `admin\model\catalog\download.php` | High
-30 | File | `application/modules/admin/views/ecommerce/products.php` | High
+1 | File | `//proc/kcore` | Medium
+2 | File | `/admin/dl_sendmail.php` | High
+3 | File | `/admin/index2.html` | High
+4 | File | `/admin/login.php` | High
+5 | File | `/api/baskets/{name}` | High
+6 | File | `/api/v2/cli/commands` | High
+7 | File | `/app/Http/Controllers/Admin/NEditorController.php` | High
+8 | File | `/DXR.axd` | Medium
+9 | File | `/forum/away.php` | High
+10 | File | `/inc/parser/xhtml.php` | High
+11 | File | `/include/makecvs.php` | High
+12 | File | `/mgmt/tm/util/bash` | High
+13 | File | `/mifs/c/i/reg/reg.html` | High
+14 | File | `/novel/bookSetting/list` | High
+15 | File | `/novel/userFeedback/list` | High
+16 | File | `/owa/auth/logon.aspx` | High
+17 | File | `/requests.php` | High
+18 | File | `/secure/ViewCollectors` | High
+19 | File | `/Session` | Medium
+20 | File | `/spip.php` | Medium
+21 | File | `/usr/bin/pkexec` | High
+22 | File | `/wp-admin/admin.php?page=wp_file_manager_properties` | High
+23 | File | `/xAdmin/html/cm_doclist_view_uc.jsp` | High
+24 | File | `/zm/index.php` | High
+25 | File | `adclick.php` | Medium
+26 | File | `add.php` | Low
+27 | File | `add_comment.php` | High
+28 | File | `admin.jcomments.php` | High
+29 | File | `admin/content.php` | High
+30 | File | `admin\model\catalog\download.php` | High
 31 | ... | ... | ...
 
-There are 263 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 264 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

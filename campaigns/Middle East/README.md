@@ -64,11 +64,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-24 | Path Traversal | High
-2 | T1055 | CWE-74 | Injection | High
+1 | T1006 | CWE-22, CWE-24, CWE-29 | Path Traversal | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+6 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
 
@@ -106,29 +107,30 @@ ID | Type | Indicator | Confidence
 26 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
 27 | File | `/cgi-bin/wlogin.cgi` | High
 28 | File | `/cgi/cpaddons_report.pl` | High
-29 | File | `/classes/Master.php?f=delete_reminder` | High
-30 | File | `/common/dict/list` | High
-31 | File | `/debug/pprof` | Medium
-32 | File | `/DXR.axd` | Medium
-33 | File | `/Employer/EditProfile.php` | High
-34 | File | `/Employer/ManageWalkin.php` | High
-35 | File | `/endpoint/update-tracker.php` | High
-36 | File | `/forum/away.php` | High
-37 | File | `/goform/goform_get_cmd_process` | High
-38 | File | `/HNAP1/` | Low
-39 | File | `/im/user/` | Medium
-40 | File | `/importexport.php` | High
-41 | File | `/libsystem/login.php` | High
-42 | File | `/main/checkout.php` | High
-43 | File | `/main/doctype.php` | High
-44 | File | `/main/webservices/additional_webservices.php` | High
-45 | File | `/mc` | Low
-46 | File | `/mgmt/` | Low
-47 | File | `/net/bluetooth/rfcomm/core.C` | High
-48 | File | `/novel/bookSetting/list` | High
-49 | ... | ... | ...
+29 | File | `/check_availability.php` | High
+30 | File | `/classes/Master.php?f=delete_reminder` | High
+31 | File | `/common/dict/list` | High
+32 | File | `/debug/pprof` | Medium
+33 | File | `/DXR.axd` | Medium
+34 | File | `/Employer/EditProfile.php` | High
+35 | File | `/Employer/ManageWalkin.php` | High
+36 | File | `/endpoint/update-tracker.php` | High
+37 | File | `/forum/away.php` | High
+38 | File | `/general/email/outbox/delete.php` | High
+39 | File | `/goform/goform_get_cmd_process` | High
+40 | File | `/HNAP1/` | Low
+41 | File | `/importexport.php` | High
+42 | File | `/Interface/DevManage/VM.php` | High
+43 | File | `/libsystem/login.php` | High
+44 | File | `/main/checkout.php` | High
+45 | File | `/main/doctype.php` | High
+46 | File | `/main/webservices/additional_webservices.php` | High
+47 | File | `/mc` | Low
+48 | File | `/net/bluetooth/rfcomm/core.C` | High
+49 | File | `/novel/bookSetting/list` | High
+50 | ... | ... | ...
 
-There are 428 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 432 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

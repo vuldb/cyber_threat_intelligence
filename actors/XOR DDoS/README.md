@@ -24,9 +24,12 @@ ID | IP address | Hostname | Campaign | Confidence
 1 | [23.228.113.246](https://vuldb.com/?ip.23.228.113.246) | - | - | High
 2 | [23.248.237.29](https://vuldb.com/?ip.23.248.237.29) | - | - | High
 3 | [23.253.46.64](https://vuldb.com/?ip.23.253.46.64) | - | - | High
-4 | ... | ... | ... | ...
+4 | [43.229.113.27](https://vuldb.com/?ip.43.229.113.27) | - | - | High
+5 | [43.249.172.214](https://vuldb.com/?ip.43.249.172.214) | - | - | High
+6 | [54.36.15.96](https://vuldb.com/?ip.54.36.15.96) | ip96.ip-54-36-15.eu | - | High
+7 | ... | ... | ... | ...
 
-There are 13 more IOC items available. Please use our online service to access the data.
+There are 22 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -34,10 +37,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23 | Pathname Traversal | High
+1 | T1006 | CWE-22, CWE-23 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94 | Cross Site Scripting | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+4 | T1059 | CWE-94 | Argument Injection | High
 5 | ... | ... | ... | ...
 
 There are 15 more TTP items available. Please use our online service to access the data.
@@ -93,9 +96,11 @@ There are 313 more IOA items available (file, library, argument, input value, pa
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://bazaar.abuse.ch/browse/signature/XorDDoS/
+* https://bazaar.abuse.ch/sample/0e817a2325c215997de15851152a66924874739eeff5da4b434e5d36c83a76eb/
 * https://bazaar.abuse.ch/sample/0f00c2e074c6284c556040012ef23357853ccac4ad1373d1dea683562dc24bca/
 * https://bazaar.abuse.ch/sample/022e101f1d4671796972c9ae6eed81920a59003e751a0fd449b543f630ba36a8/
 * https://bazaar.abuse.ch/sample/5a7d7f1d53f039e7b69cf8d040cc043d1264b14107a8a73034e6b90d8e81f87a/
+* https://bazaar.abuse.ch/sample/76741721aede86e5d9a78da5dd349cc7f418a993eba77457c00b27aa627f9882/
 * https://bazaar.abuse.ch/sample/b1b32e4ca117a393ad2dec01b112819864f34261a56b0dbebe5263840f769076/
 * https://bazaar.abuse.ch/sample/b84cf164fde12dd07192aa44f1b943044610539fd979e0f9359d44062f21a612/
 * https://bazaar.abuse.ch/sample/b242c3eca68edc7c09505570455398cce9b02689287690971762899d1fb2b1a8/

@@ -106,7 +106,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-25, CWE-425 | Path Traversal | High
-2 | T1055 | CWE-74 | Injection | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | T1068 | CWE-250, CWE-264, CWE-266, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
@@ -139,31 +139,31 @@ ID | Type | Indicator | Confidence
 17 | File | `/Content/Template/root/reverse-shell.aspx` | High
 18 | File | `/ctcprotocol/Protocol` | High
 19 | File | `/dashboard/menu-list.php` | High
-20 | File | `/ebics-server/ebics.aspx` | High
-21 | File | `/ffos/classes/Master.php?f=save_category` | High
-22 | File | `/forum/away.php` | High
-23 | File | `/goform/net\_Web\_get_value` | High
-24 | File | `/goforms/rlminfo` | High
-25 | File | `/GponForm/usb_restore_Form?script/` | High
-26 | File | `/group1/uploa` | High
-27 | File | `/hedwig.cgi` | Medium
-28 | File | `/HNAP1` | Low
-29 | File | `/HNAP1/SetClientInfo` | High
-30 | File | `/Items/*/RemoteImages/Download` | High
-31 | File | `/menu.html` | Medium
-32 | File | `/modules/profile/index.php` | High
-33 | File | `/myprofile.php` | High
-34 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-35 | File | `/navigate/navigate_download.php` | High
-36 | File | `/ocwbs/admin/?page=user/manage_user` | High
-37 | File | `/ofrs/admin/?page=user/manage_user` | High
-38 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-39 | File | `/out.php` | Medium
-40 | File | `/php_action/fetchSelectedUser.php` | High
-41 | File | `/plugin` | Low
+20 | File | `/debug/pprof` | Medium
+21 | File | `/ebics-server/ebics.aspx` | High
+22 | File | `/ffos/classes/Master.php?f=save_category` | High
+23 | File | `/forum/away.php` | High
+24 | File | `/goform/net\_Web\_get_value` | High
+25 | File | `/goforms/rlminfo` | High
+26 | File | `/GponForm/usb_restore_Form?script/` | High
+27 | File | `/group1/uploa` | High
+28 | File | `/hedwig.cgi` | Medium
+29 | File | `/HNAP1` | Low
+30 | File | `/HNAP1/SetClientInfo` | High
+31 | File | `/Items/*/RemoteImages/Download` | High
+32 | File | `/menu.html` | Medium
+33 | File | `/modules/profile/index.php` | High
+34 | File | `/myprofile.php` | High
+35 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+36 | File | `/navigate/navigate_download.php` | High
+37 | File | `/ocwbs/admin/?page=user/manage_user` | High
+38 | File | `/ofrs/admin/?page=user/manage_user` | High
+39 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+40 | File | `/out.php` | Medium
+41 | File | `/patient/appointment.php` | High
 42 | ... | ... | ...
 
-There are 361 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 367 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

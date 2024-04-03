@@ -10,19 +10,58 @@ The following _campaigns_ are known and can be associated with BlueShell:
 
 * Korea / Thailand
 
+## Countries
+
+These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with BlueShell:
+
+* [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
+
 ## IOC - Indicator of Compromise
 
 These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of BlueShell.
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [20.214.201.166](https://vuldb.com/?ip.20.214.201.166) | - | Korea / Thailand | High
+1 | [20.200.213.72](https://vuldb.com/?ip.20.200.213.72) | - | - | High
+2 | [20.214.201.166](https://vuldb.com/?ip.20.214.201.166) | - | Korea / Thailand | High
+3 | [121.127.241.117](https://vuldb.com/?ip.121.127.241.117) | - | - | High
+4 | ... | ... | ... | ...
+
+There are 1 more IOC items available. Please use our online service to access the data.
+
+## TTP - Tactics, Techniques, Procedures
+
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _BlueShell_. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1006 | CWE-22 | Path Traversal | High
+2 | T1068 | CWE-284 | Execution with Unnecessary Privileges | High
+3 | T1505 | CWE-89 | SQL Injection | High
+4 | ... | ... | ... | ...
+
+There are 1 more TTP items available. Please use our online service to access the data.
+
+## IOA - Indicator of Attack
+
+These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by BlueShell. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Type | Indicator | Confidence
+-- | ---- | --------- | ----------
+1 | File | `assets/download.aspx` | High
+2 | File | `join.c` | Low
+3 | File | `njs_module.c` | Medium
+4 | ... | ... | ...
+
+There are 2 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://asec.ahnlab.com/en/56941/
+* https://asec.ahnlab.com/en/61549/
 
 ## Literature
 

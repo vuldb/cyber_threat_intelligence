@@ -110,14 +110,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -127,50 +127,48 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/controller/JobLogController.java` | High
 2 | File | `/admin/general.cgi` | High
-3 | File | `/api/baskets/{name}` | High
-4 | File | `/api/sys/login` | High
-5 | File | `/api/sys/set_passwd` | High
-6 | File | `/api/trackedEntityInstances` | High
-7 | File | `/app/options.py` | High
-8 | File | `/aux` | Low
-9 | File | `/CCMAdmin/serverlist.asp` | High
-10 | File | `/cgi/get_param.cgi` | High
-11 | File | `/changePassword` | High
-12 | File | `/Content/Template/root/reverse-shell.aspx` | High
-13 | File | `/csms/admin/inquiries/view_details.php` | High
-14 | File | `/cstecgi.cgi` | Medium
-15 | File | `/dashboard/add-blog.php` | High
-16 | File | `/data/remove` | Medium
-17 | File | `/debug/pprof` | Medium
-18 | File | `/ecshop/admin/template.php` | High
-19 | File | `/etc/passwd` | Medium
-20 | File | `/forum/away.php` | High
-21 | File | `/group1/uploa` | High
-22 | File | `/include/chart_generator.php` | High
-23 | File | `/index.php` | Medium
-24 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-25 | File | `/out.php` | Medium
-26 | File | `/owa/auth/logon.aspx` | High
-27 | File | `/resources//../` | High
-28 | File | `/SVFE2/pages/feegroups/country_group.jsf` | High
-29 | File | `/testConnection` | High
-30 | File | `/tmp/ppd.trace` | High
-31 | File | `/upfile.cgi` | Medium
-32 | File | `/user/inc/workidajax.php` | High
-33 | File | `/userLogin.asp` | High
-34 | File | `/vm/admin/doctors.php` | High
-35 | File | `/wordpress/wp-admin/admin.php` | High
-36 | File | `Access.app/Contents/Resources/kcproxy` | High
-37 | File | `account_footer.php` | High
-38 | File | `acs.exe` | Low
-39 | File | `action-visitor.php` | High
-40 | File | `adclick.php` | Medium
-41 | File | `addressbook.update.php` | High
-42 | File | `add_edit_cat.asp` | High
-43 | File | `add_edit_user.asp` | High
-44 | ... | ... | ...
+3 | File | `/api/sys/login` | High
+4 | File | `/api/sys/set_passwd` | High
+5 | File | `/api/trackedEntityInstances` | High
+6 | File | `/app/options.py` | High
+7 | File | `/aux` | Low
+8 | File | `/CCMAdmin/serverlist.asp` | High
+9 | File | `/cgi/get_param.cgi` | High
+10 | File | `/changePassword` | High
+11 | File | `/Content/Template/root/reverse-shell.aspx` | High
+12 | File | `/cstecgi.cgi` | Medium
+13 | File | `/dashboard/add-blog.php` | High
+14 | File | `/data/remove` | Medium
+15 | File | `/debug/pprof` | Medium
+16 | File | `/debuginfo.htm` | High
+17 | File | `/ecshop/admin/template.php` | High
+18 | File | `/etc/passwd` | Medium
+19 | File | `/forum/away.php` | High
+20 | File | `/goform/net\_Web\_get_value` | High
+21 | File | `/index.php` | Medium
+22 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+23 | File | `/owa/auth/logon.aspx` | High
+24 | File | `/testConnection` | High
+25 | File | `/tmp/ppd.trace` | High
+26 | File | `/upfile.cgi` | Medium
+27 | File | `/user/inc/workidajax.php` | High
+28 | File | `/userLogin.asp` | High
+29 | File | `/vm/admin/doctors.php` | High
+30 | File | `/wordpress/wp-admin/admin.php` | High
+31 | File | `Access.app/Contents/Resources/kcproxy` | High
+32 | File | `account_footer.php` | High
+33 | File | `action-visitor.php` | High
+34 | File | `adclick.php` | Medium
+35 | File | `addressbook.update.php` | High
+36 | File | `add_edit_cat.asp` | High
+37 | File | `add_edit_user.asp` | High
+38 | File | `admin.php` | Medium
+39 | File | `admin/booking_report.php` | High
+40 | File | `admin/editusertag.php` | High
+41 | File | `admin/edit_category.php` | High
+42 | ... | ... | ...
 
-There are 382 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 363 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -20,10 +20,10 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [43.138.76.102](https://vuldb.com/?ip.43.138.76.102) | - | - | High
 2 | [64.185.227.155](https://vuldb.com/?ip.64.185.227.155) | api64.ipify.org | - | High
-3 | [80.66.75.37](https://vuldb.com/?ip.80.66.75.37) | - | - | High
+3 | [80.66.75.36](https://vuldb.com/?ip.80.66.75.36) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 4 more IOC items available. Please use our online service to access the data.
+There are 5 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -45,6 +45,7 @@ ID | Type | Indicator | Confidence
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://asec.ahnlab.com/en/49366/
 * https://blog.cyble.com/2023/06/22/mallox-ransomware-implements-new-infection-strategy/
 * https://exchange.xforce.ibmcloud.com/report/details/guid:4d6f6e39c1b851d8882f5aaa5cb12209
 * https://www.sentinelone.com/blog/mallox-resurrected-ransomware-attacks-exploiting-ms-sql-continue-to-burden-enterprises/

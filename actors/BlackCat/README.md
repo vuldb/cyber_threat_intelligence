@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [SV](https://vuldb.com/?country.sv)
-* [RU](https://vuldb.com/?country.ru)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 14 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -21,13 +21,14 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [20.46.245.56](https://vuldb.com/?ip.20.46.245.56) | - | - | High
-2 | [23.106.223.97](https://vuldb.com/?ip.23.106.223.97) | - | - | High
-3 | [37.120.238.58](https://vuldb.com/?ip.37.120.238.58) | - | - | High
-4 | [45.134.20.66](https://vuldb.com/?ip.45.134.20.66) | - | - | High
-5 | ... | ... | ... | ...
+1 | [5.199.168.24](https://vuldb.com/?ip.5.199.168.24) | - | - | High
+2 | [5.199.168.233](https://vuldb.com/?ip.5.199.168.233) | - | - | High
+3 | [20.46.245.56](https://vuldb.com/?ip.20.46.245.56) | - | - | High
+4 | [23.106.223.97](https://vuldb.com/?ip.23.106.223.97) | - | - | High
+5 | [37.120.238.58](https://vuldb.com/?ip.37.120.238.58) | - | - | High
+6 | ... | ... | ... | ...
 
-There are 15 more IOC items available. Please use our online service to access the data.
+There are 22 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -37,8 +38,8 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-29 | Path Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94 | Argument Injection | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80, CWE-85 | Cross Site Scripting | High
 6 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 7 | ... | ... | ... | ...
@@ -78,44 +79,46 @@ ID | Type | Indicator | Confidence
 25 | File | `/ample/app/ajax/member_data.php` | High
 26 | File | `/app/index/controller/Common.php` | High
 27 | File | `/article/DelectArticleById/` | High
-28 | File | `/asms/classes/Master.php?f=delete_service` | High
-29 | File | `/auth/auth.php?user=1` | High
-30 | File | `/b2b-supermarket/shopping-cart` | High
-31 | File | `/blog` | Low
-32 | File | `/bsms_ci/index.php/user/edit_user/` | High
+28 | File | `/auth/auth.php?user=1` | High
+29 | File | `/b2b-supermarket/shopping-cart` | High
+30 | File | `/blog` | Low
+31 | File | `/bsms_ci/index.php/user/edit_user/` | High
+32 | File | `/category.php` | High
 33 | File | `/cgi-bin/cstecgi.cgi` | High
 34 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
 35 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=ie8` | High
-36 | File | `/classes/Master.php?f=delete_category` | High
-37 | File | `/classes/Master.php?f=delete_inquiry` | High
-38 | File | `/classes/Master.php?f=save_reminder` | High
-39 | File | `/clients/listclients.php` | High
-40 | File | `/cms/category/list` | High
-41 | File | `/collection/all` | High
-42 | File | `/company/store` | High
-43 | File | `/contacts/listcontacts.php` | High
-44 | File | `/Default/Bd` | Medium
-45 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-46 | File | `/ext/phar/phar_object.c` | High
-47 | File | `/file-manager/upload.php` | High
-48 | File | `/forum/away.php` | High
-49 | File | `/fos/admin/index.php?page=menu` | High
-50 | File | `/friends` | Medium
-51 | File | `/goform/AddSysLogRule` | High
-52 | File | `/goform/SafeEmailFilter` | High
-53 | File | `/goform/SetIpMacBind` | High
-54 | File | `/goform/setSnmpInfo` | High
-55 | File | `/goform/setUplinkInfo` | High
-56 | File | `/goform/SysToolReboot` | High
-57 | File | `/goform/WifiBasicSet` | High
-58 | File | `/graphql` | Medium
-59 | File | `/home/get_tasks_list` | High
-60 | File | `/hrm/employeeview.php` | High
-61 | File | `/hss/?page=categories` | High
-62 | File | `/hss/admin/brands/manage_brand.php` | High
-63 | ... | ... | ...
+36 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
+37 | File | `/classes/Master.php?f=delete_category` | High
+38 | File | `/classes/Master.php?f=delete_inquiry` | High
+39 | File | `/classes/Master.php?f=save_reminder` | High
+40 | File | `/clients/listclients.php` | High
+41 | File | `/cms/category/list` | High
+42 | File | `/collection/all` | High
+43 | File | `/company/store` | High
+44 | File | `/contacts/listcontacts.php` | High
+45 | File | `/Default/Bd` | Medium
+46 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+47 | File | `/ext/phar/phar_object.c` | High
+48 | File | `/file-manager/upload.php` | High
+49 | File | `/foms/place-order.php` | High
+50 | File | `/forum/away.php` | High
+51 | File | `/fos/admin/index.php?page=menu` | High
+52 | File | `/friends` | Medium
+53 | File | `/goform/AddSysLogRule` | High
+54 | File | `/goform/SafeEmailFilter` | High
+55 | File | `/goform/SetIpMacBind` | High
+56 | File | `/goform/setSnmpInfo` | High
+57 | File | `/goform/setUplinkInfo` | High
+58 | File | `/goform/SysToolReboot` | High
+59 | File | `/goform/WifiBasicSet` | High
+60 | File | `/graphql` | Medium
+61 | File | `/home/get_tasks_list` | High
+62 | File | `/hrm/employeeview.php` | High
+63 | File | `/hss/?page=categories` | High
+64 | File | `/hss/admin/brands/manage_brand.php` | High
+65 | ... | ... | ...
 
-There are 550 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 574 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -123,6 +126,7 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://blog.talosintelligence.com/2022/03/from-blackmatter-to-blackcat-analyzing.html
 * https://threatfox.abuse.ch
+* https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-353a
 * https://www.huntress.com/blog/blackcat-ransomware-affiliate-ttps
 * https://www.ic3.gov/Media/News/2022/220420.pdf
 

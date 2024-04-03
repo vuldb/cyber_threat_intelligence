@@ -43,7 +43,7 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22, CWE-23, CWE-25 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
@@ -78,10 +78,10 @@ ID | Type | Indicator | Confidence
 20 | File | `/pet_shop/admin/?page=maintenance/manage_category` | High
 21 | File | `/release-x64/otfccdump+0x6c0a32` | High
 22 | File | `/release-x64/otfccdump+0x703969` | High
-23 | File | `/settings/download-test-pdf` | High
+23 | File | `/sentrifugo/index.php/index/getdepartments/format/html` | High
 24 | ... | ... | ...
 
-There are 198 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 200 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

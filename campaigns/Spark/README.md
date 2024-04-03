@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Spark:
 
 * [US](https://vuldb.com/?country.us)
+* [SC](https://vuldb.com/?country.sc)
 * [RU](https://vuldb.com/?country.ru)
-* [HU](https://vuldb.com/?country.hu)
 * ...
 
-There are 5 more country items available. Please use our online service to access the data.
+There are 9 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -31,12 +31,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
-1 | [43.140.252.169](https://vuldb.com/?ip.43.140.252.169) | - | [SparkRAT](https://vuldb.com/?actor.sparkrat) | High
-2 | [54.180.27.29](https://vuldb.com/?ip.54.180.27.29) | ec2-54-180-27-29.ap-northeast-2.compute.amazonaws.com | [SparkRAT](https://vuldb.com/?actor.sparkrat) | Medium
-3 | [66.42.103.222](https://vuldb.com/?ip.66.42.103.222) | 66.42.103.222.vultrusercontent.com | [SparklingGoblin](https://vuldb.com/?actor.sparklinggoblin) | High
+1 | [38.54.94.13](https://vuldb.com/?ip.38.54.94.13) | - | [SparkRAT](https://vuldb.com/?actor.sparkrat) | High
+2 | [43.140.252.169](https://vuldb.com/?ip.43.140.252.169) | - | [SparkRAT](https://vuldb.com/?actor.sparkrat) | High
+3 | [54.180.27.29](https://vuldb.com/?ip.54.180.27.29) | ec2-54-180-27-29.ap-northeast-2.compute.amazonaws.com | [SparkRAT](https://vuldb.com/?actor.sparkrat) | Medium
 4 | ... | ... | ... | ...
 
-There are 6 more IOC items available. Please use our online service to access the data.
+There are 9 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -44,13 +44,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94 | Argument Injection | High
 5 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -60,41 +60,53 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.encfs6.xml` | Medium
 2 | File | `.htaccess` | Medium
-3 | File | `/admin/admin_manage/delete` | High
-4 | File | `/admin/video/list` | High
-5 | File | `/cgi-bin/supervisor/CloudSetup.cgi` | High
-6 | File | `/dl/dl_sendmail.php` | High
-7 | File | `/drivers/net/ethernet/broadcom/tg3.c` | High
-8 | File | `/etc/passwd` | Medium
-9 | File | `/etc/qci/answers` | High
-10 | File | `/function/booksave.php` | High
-11 | File | `/inc/campaign/campaign-delete.php` | High
-12 | File | `/sgmi/` | Low
-13 | File | `/SysInfo.htm` | Medium
-14 | File | `/tmp` | Low
-15 | File | `/usr/lib/print/conv_fix` | High
-16 | File | `AdClass.php` | Medium
-17 | File | `add_comment.php` | High
-18 | File | `admin.php` | Medium
-19 | File | `admin/plugin.php` | High
-20 | File | `admin/setleaves.php` | High
-21 | File | `admin/write-post.php` | High
-22 | File | `admin\addgroup.php` | High
-23 | File | `agents.php` | Medium
-24 | File | `app/View/Helper/CommandHelper.php` | High
-25 | ... | ... | ...
+3 | File | `/.vnc/sesman_${username}_passwd` | High
+4 | File | `/admin/admin_manage/delete` | High
+5 | File | `/admin/video/list` | High
+6 | File | `/asms/classes/Master.php?f=delete_transaction` | High
+7 | File | `/cgi-bin/editBookmark` | High
+8 | File | `/cgi-bin/supervisor/CloudSetup.cgi` | High
+9 | File | `/dl/dl_sendmail.php` | High
+10 | File | `/drivers/net/ethernet/broadcom/tg3.c` | High
+11 | File | `/etc/passwd` | Medium
+12 | File | `/etc/qci/answers` | High
+13 | File | `/function/booksave.php` | High
+14 | File | `/goform/addressNat` | High
+15 | File | `/goform/aspForm` | High
+16 | File | `/inc/campaign/campaign-delete.php` | High
+17 | File | `/include/menu_v.inc.php` | High
+18 | File | `/librarian/lab.php` | High
+19 | File | `/omos/admin/?page=user/list` | High
+20 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+21 | File | `/panel/fields/add` | High
+22 | File | `/patient/settings.php` | High
+23 | File | `/proc/*/cmdline"` | High
+24 | File | `/proc/pid/syscall` | High
+25 | File | `/sbin/acos_service` | High
+26 | File | `/sgmi/` | Low
+27 | File | `/SysInfo.htm` | Medium
+28 | File | `/tmp` | Low
+29 | File | `/uncpath/` | Medium
+30 | File | `/usr/lib/print/conv_fix` | High
+31 | File | `/var/log/pcp/configs.sh` | High
+32 | File | `AdClass.php` | Medium
+33 | File | `add_comment.php` | High
+34 | File | `admin.php` | Medium
+35 | ... | ... | ...
 
-There are 213 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 297 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the campaign and the associated activities:
 
+* https://asec.ahnlab.com/en/52899/
 * https://asec.ahnlab.com/en/53267/
 * https://github.com/eset/malware-ioc/tree/master/sparklinggoblin
 * https://twitter.com/suyog41/status/1655524692164214784
 * https://twitter.com/suyog41/status/1699438327508734306
 * https://unit42.paloaltonetworks.com/molerats-delivers-spark-backdoor/
+* https://www.trendmicro.com/en_us/research/24/c/teamcity-vulnerability-exploits-lead-to-jasmin-ransomware.html
 
 ## Literature
 

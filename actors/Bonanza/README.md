@@ -31,11 +31,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22 | Path Traversal | High
-2 | T1055 | CWE-74 | Injection | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
 
-There are 10 more TTP items available. Please use our online service to access the data.
+There are 11 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -48,34 +48,34 @@ ID | Type | Indicator | Confidence
 3 | File | `/advanced-tools/nova/bin/netwatch` | High
 4 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
 5 | File | `/film-rating.php` | High
-6 | File | `/index.php` | Medium
-7 | File | `/librarian/bookdetails.php` | High
-8 | File | `/pages/faculty_sched.php` | High
-9 | File | `/php_action/createUser.php` | High
-10 | File | `/spip.php` | Medium
-11 | File | `/student/bookdetails.php` | High
-12 | File | `account.asp` | Medium
-13 | File | `add_comment.php` | High
-14 | File | `admin.php` | Medium
-15 | File | `admin/admin_users.php` | High
-16 | File | `admin/conf_users_edit.php` | High
-17 | File | `Admin/edit-admin.php` | High
-18 | File | `admin/establishment/manage.php` | High
-19 | File | `admin/inquiries/view_details.php` | High
-20 | File | `admin/skins.php` | High
-21 | File | `admin/versions.html` | High
-22 | File | `admindocumentworker.jsp` | High
-23 | File | `admin_feature.php` | High
-24 | File | `album_portal.php` | High
-25 | File | `announce.php` | Medium
-26 | File | `apply.cgi` | Medium
-27 | File | `ardguest.php` | Medium
-28 | File | `bb_usage_stats.php` | High
-29 | File | `category.cfm` | Medium
-30 | File | `category_list.php` | High
+6 | File | `/forum/away.php` | High
+7 | File | `/index.php` | Medium
+8 | File | `/librarian/bookdetails.php` | High
+9 | File | `/pages/faculty_sched.php` | High
+10 | File | `/php_action/createUser.php` | High
+11 | File | `/spip.php` | Medium
+12 | File | `/student/bookdetails.php` | High
+13 | File | `account.asp` | Medium
+14 | File | `add_comment.php` | High
+15 | File | `admin.php` | Medium
+16 | File | `admin/admin_users.php` | High
+17 | File | `admin/conf_users_edit.php` | High
+18 | File | `Admin/edit-admin.php` | High
+19 | File | `admin/establishment/manage.php` | High
+20 | File | `admin/inquiries/view_details.php` | High
+21 | File | `admin/skins.php` | High
+22 | File | `admin/versions.html` | High
+23 | File | `admindocumentworker.jsp` | High
+24 | File | `admin_feature.php` | High
+25 | File | `album_portal.php` | High
+26 | File | `announce.php` | Medium
+27 | File | `apply.cgi` | Medium
+28 | File | `ardguest.php` | Medium
+29 | File | `bb_usage_stats.php` | High
+30 | File | `bwdates-report-result.php` | High
 31 | ... | ... | ...
 
-There are 265 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 267 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

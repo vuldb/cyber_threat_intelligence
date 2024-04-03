@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with PlugX:
 
 * [VN](https://vuldb.com/?country.vn)
-* [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
+* [US](https://vuldb.com/?country.us)
 * ...
 
-There are 4 more country items available. Please use our online service to access the data.
+There are 5 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -115,53 +115,50 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/.env` | Low
-2 | File | `/act/ActDao.xml` | High
-3 | File | `/admin/action/new-father.php` | High
-4 | File | `/admin/clientview.php` | High
-5 | File | `/admin/edit_teacher.php` | High
-6 | File | `/admin/fields/manage_field.php` | High
-7 | File | `/admin/orders/view_order.php` | High
-8 | File | `/admin/regester.php` | High
-9 | File | `/admin/update-clients.php` | High
-10 | File | `/admin_ping.htm` | High
-11 | File | `/admin_route/dec_service_credits.php` | High
-12 | File | `/admin_route/inc_service_credits.php` | High
-13 | File | `/api/cron/settings/setJob/` | High
-14 | File | `/api/sys/set_passwd` | High
-15 | File | `/api/v1/terminal/sessions/?limit=1` | High
-16 | File | `/app/api/controller/default/Sqlite.php` | High
-17 | File | `/application/index/controller/Databasesource.php` | High
-18 | File | `/application/index/controller/Icon.php` | High
-19 | File | `/application/index/controller/Screen.php` | High
-20 | File | `/application/plugins/controller/Upload.php` | High
-21 | File | `/apply.cgi` | Medium
-22 | File | `/arch/x86/mm/cpu_entry_area.c` | High
-23 | File | `/authenticationendpoint/login.do` | High
-24 | File | `/bin/boa` | Medium
-25 | File | `/boaform/device_reset.cgi` | High
-26 | File | `/boafrm/formMapDelDevice` | High
-27 | File | `/bsms_ci/index.php/user/edit_user/` | High
-28 | File | `/cgi-bin/cstecgi.cgi` | High
-29 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-30 | File | `/cgi-bin/kerbynet` | High
-31 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-32 | File | `/cgi-bin/mainfunction.cgi` | High
-33 | File | `/cgi-bin/R14.2/cgi-bin/R14.2/host.pl` | High
-34 | File | `/cgi-bin/R14.2/easy1350.pl` | High
-35 | File | `/cgi-bin/wlogin.cgi` | High
-36 | File | `/clinic/disease_symptoms_view.php` | High
-37 | File | `/config/getuser` | High
-38 | File | `/core/redirect` | High
-39 | File | `/dashboard/snapshot/*?orgId=0` | High
-40 | File | `/debug/pprof` | Medium
-41 | File | `/DXR.axd` | Medium
-42 | File | `/ECT_Provider/` | High
-43 | File | `/Employer/EditProfile.php` | High
-44 | File | `/fax/fax_send.php` | High
-45 | File | `/forum/away.php` | High
-46 | ... | ... | ...
+2 | File | `/admin/action/new-father.php` | High
+3 | File | `/admin/clientview.php` | High
+4 | File | `/admin/edit_teacher.php` | High
+5 | File | `/admin/fields/manage_field.php` | High
+6 | File | `/admin/orders/view_order.php` | High
+7 | File | `/admin/regester.php` | High
+8 | File | `/admin/update-clients.php` | High
+9 | File | `/admin_ping.htm` | High
+10 | File | `/admin_route/dec_service_credits.php` | High
+11 | File | `/admin_route/inc_service_credits.php` | High
+12 | File | `/api/cron/settings/setJob/` | High
+13 | File | `/api/sys/set_passwd` | High
+14 | File | `/api/v1/terminal/sessions/?limit=1` | High
+15 | File | `/app/api/controller/default/Sqlite.php` | High
+16 | File | `/application/index/controller/Databasesource.php` | High
+17 | File | `/application/index/controller/Icon.php` | High
+18 | File | `/application/index/controller/Screen.php` | High
+19 | File | `/application/plugins/controller/Upload.php` | High
+20 | File | `/apply.cgi` | Medium
+21 | File | `/arch/x86/mm/cpu_entry_area.c` | High
+22 | File | `/authenticationendpoint/login.do` | High
+23 | File | `/bin/boa` | Medium
+24 | File | `/boaform/device_reset.cgi` | High
+25 | File | `/boafrm/formMapDelDevice` | High
+26 | File | `/bsms_ci/index.php/user/edit_user/` | High
+27 | File | `/cgi-bin/cstecgi.cgi` | High
+28 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+29 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+30 | File | `/cgi-bin/mainfunction.cgi` | High
+31 | File | `/cgi-bin/R14.2/cgi-bin/R14.2/host.pl` | High
+32 | File | `/cgi-bin/R14.2/easy1350.pl` | High
+33 | File | `/cgi-bin/wlogin.cgi` | High
+34 | File | `/clinic/disease_symptoms_view.php` | High
+35 | File | `/config/getuser` | High
+36 | File | `/core/redirect` | High
+37 | File | `/dashboard/snapshot/*?orgId=0` | High
+38 | File | `/debug/pprof` | Medium
+39 | File | `/DXR.axd` | Medium
+40 | File | `/ECT_Provider/` | High
+41 | File | `/Employer/EditProfile.php` | High
+42 | File | `/fax/fax_send.php` | High
+43 | ... | ... | ...
 
-There are 394 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 368 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

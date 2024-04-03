@@ -17,6 +17,7 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [8.217.132.190](https://vuldb.com/?ip.8.217.132.190) | - | - | High
+2 | [46.137.201.254](https://vuldb.com/?ip.46.137.201.254) | ec2-46-137-201-254.ap-southeast-1.compute.amazonaws.com | - | Medium
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -24,9 +25,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79 | Cross Site Scripting | High
-2 | T1068 | CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
-3 | T1505 | CWE-91 | SQL Injection | High
+1 | T1006 | CWE-22 | Path Traversal | High
+2 | T1059.007 | CWE-79 | Cross Site Scripting | High
+3 | T1068 | CWE-284 | Execution with Unnecessary Privileges | High
+4 | ... | ... | ... | ...
+
+There are 1 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -42,6 +46,7 @@ ID | Type | Indicator | Confidence
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://www.jamf.com/blog/jtl-malware-pirated-applications/
+* https://www.sentinelone.com/blog/from-the-front-lines-new-macos-covid-malware-masquerades-as-apple-wears-face-of-apt/
 
 ## Literature
 

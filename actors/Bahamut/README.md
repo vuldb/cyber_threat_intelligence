@@ -16,8 +16,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [134.255.231.233](https://vuldb.com/?ip.134.255.231.233) | vps-zap930219-3.zap-srv.com | - | High
-2 | [134.255.252.185](https://vuldb.com/?ip.134.255.252.185) | vps-zap948630-2.zap-srv.com | - | High
+1 | [104.21.10.79](https://vuldb.com/?ip.104.21.10.79) | - | - | High
+2 | [134.255.231.233](https://vuldb.com/?ip.134.255.231.233) | vps-zap930219-3.zap-srv.com | - | High
+3 | [134.255.252.185](https://vuldb.com/?ip.134.255.252.185) | vps-zap948630-2.zap-srv.com | - | High
+4 | ... | ... | ... | ...
+
+There are 1 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -51,6 +55,7 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://search.censys.io/hosts/134.255.231.233
 * https://search.censys.io/hosts/134.255.252.185
+* https://www.welivesecurity.com/2022/11/23/bahamut-cybermercenary-group-targets-android-users-fake-vpn-apps/
 
 ## Literature
 

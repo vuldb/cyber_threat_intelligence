@@ -4,6 +4,12 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor](https://vuldb.com/?actor)
 
+## Countries
+
+These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with MuddyC2Go:
+
+* [IT](https://vuldb.com/?country.it)
+
 ## Actors
 
 These _actors_ are associated with MuddyC2Go or other actors linked to the campaign.
@@ -19,6 +25,14 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
 1 | [95.164.46.199](https://vuldb.com/?ip.95.164.46.199) | vm1766534.stark-industries.solutions | [MuddyWater](https://vuldb.com/?actor.muddywater) | High
+
+## TTP - Tactics, Techniques, Procedures
+
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used within MuddyC2Go. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1587.003 | CWE-295 | Improper Certificate Validation | High
 
 ## References
 

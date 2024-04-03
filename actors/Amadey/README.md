@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
-* [GB](https://vuldb.com/?country.gb)
+* [IL](https://vuldb.com/?country.il)
 * ...
 
-There are 20 more country items available. Please use our online service to access the data.
+There are 18 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -69,9 +69,11 @@ ID | IP address | Hostname | Campaign | Confidence
 46 | [49.12.117.51](https://vuldb.com/?ip.49.12.117.51) | static.51.117.12.49.clients.your-server.de | - | High
 47 | [49.13.60.242](https://vuldb.com/?ip.49.13.60.242) | static.242.60.13.49.clients.your-server.de | - | High
 48 | [51.15.226.0](https://vuldb.com/?ip.51.15.226.0) | 0-226-15-51.instances.scw.cloud | - | High
-49 | ... | ... | ... | ...
+49 | [51.81.69.127](https://vuldb.com/?ip.51.81.69.127) | ip127.ip-51-81-69.us | - | High
+50 | [62.182.156.152](https://vuldb.com/?ip.62.182.156.152) | - | - | High
+51 | ... | ... | ... | ...
 
-There are 194 more IOC items available. Please use our online service to access the data.
+There are 200 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -79,15 +81,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-25, CWE-425 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-25, CWE-36, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+4 | T1059 | CWE-94 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
-7 | ... | ... | ... | ...
+6 | ... | ... | ... | ...
 
-There are 23 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -95,52 +96,53 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `%SYSTEMDRIVE%\node_modules\.bin\wmic.exe` | High
-2 | File | `//proc/kcore` | Medium
-3 | File | `/admin/action/delete-vaccine.php` | High
-4 | File | `/admin/controller/JobLogController.java` | High
-5 | File | `/admin/index2.html` | High
-6 | File | `/admin_route/dec_service_credits.php` | High
-7 | File | `/api/admin/system/store/order/list` | High
+1 | File | `/#ilang=DE&b=c_smartenergy_swgroups` | High
+2 | File | `/Account/login.php` | High
+3 | File | `/admin/` | Low
+4 | File | `/admin/action/delete-vaccine.php` | High
+5 | File | `/adminapi/system/crud` | High
+6 | File | `/adminapi/system/file/openfile` | High
+7 | File | `/admin_route/dec_service_credits.php` | High
 8 | File | `/api/trackedEntityInstances` | High
 9 | File | `/api/v4/teams//channels/deleted` | High
 10 | File | `/app/index/controller/Common.php` | High
-11 | File | `/aux` | Low
-12 | File | `/b2b-supermarket/shopping-cart` | High
-13 | File | `/change-language/de_DE` | High
-14 | File | `/data/remove` | Medium
-15 | File | `/debug/pprof` | Medium
-16 | File | `/devinfo` | Medium
-17 | File | `/dist/index.js` | High
-18 | File | `/etc/passwd` | Medium
-19 | File | `/forms/doLogin` | High
-20 | File | `/forum/away.php` | High
-21 | File | `/geoserver/gwc/rest.html` | High
-22 | File | `/goform/formSysCmd` | High
-23 | File | `/hosts/firewall/ip` | High
-24 | File | `/index.php` | Medium
-25 | File | `/index.php/ccm/system/file/upload` | High
-26 | File | `/listplace/user/ticket/create` | High
-27 | File | `/log/decodmail.php` | High
-28 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
-29 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-30 | File | `/novel/author/list` | High
-31 | File | `/oauth/idp/.well-known/openid-configuration` | High
-32 | File | `/php/ping.php` | High
-33 | File | `/qsr_server/device/reboot` | High
-34 | File | `/s/index.php?action=statistics` | High
-35 | File | `/setting` | Medium
-36 | File | `/spip.php` | Medium
-37 | File | `/st_reg.php` | Medium
-38 | File | `/supplier.php` | High
-39 | File | `/system/role/list` | High
-40 | File | `/testConnection` | High
-41 | File | `/tmp/ppd.trace` | High
-42 | File | `/TMS/admin/setting/mail/createorupdate` | High
-43 | File | `/upload/ueditorConfig?action=config` | High
-44 | ... | ... | ...
+11 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
+12 | File | `/aux` | Low
+13 | File | `/b2b-supermarket/shopping-cart` | High
+14 | File | `/cancel.php` | Medium
+15 | File | `/category.php` | High
+16 | File | `/cgi-bin/cstecgi.cgi` | High
+17 | File | `/change-language/de_DE` | High
+18 | File | `/data/remove` | Medium
+19 | File | `/debug/pprof` | Medium
+20 | File | `/devinfo` | Medium
+21 | File | `/dist/index.js` | High
+22 | File | `/download` | Medium
+23 | File | `/etc/passwd` | Medium
+24 | File | `/forms/doLogin` | High
+25 | File | `/forum/away.php` | High
+26 | File | `/goform/net\_Web\_get_value` | High
+27 | File | `/hosts/firewall/ip` | High
+28 | File | `/index.jsp#settings` | High
+29 | File | `/index.php` | Medium
+30 | File | `/index.php/ccm/system/file/upload` | High
+31 | File | `/log/decodmail.php` | High
+32 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
+33 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+34 | File | `/novel/author/list` | High
+35 | File | `/oauth/idp/.well-known/openid-configuration` | High
+36 | File | `/php/ping.php` | High
+37 | File | `/protocol/log/listloginfo.php` | High
+38 | File | `/qsr_server/device/reboot` | High
+39 | File | `/s/index.php?action=statistics` | High
+40 | File | `/Setting/change_password_save` | High
+41 | File | `/signup.php` | Medium
+42 | File | `/src/dede/vote_edit.php` | High
+43 | File | `/st_reg.php` | Medium
+44 | File | `/supplier.php` | High
+45 | ... | ... | ...
 
-There are 377 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 390 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -161,6 +163,8 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://app.any.run/tasks/db77c945-c2ff-4e5f-9d37-b105606ed03b
 * https://app.any.run/tasks/dd17daee-32a4-494b-b8d9-c5e6d5b03cae
 * https://app.any.run/tasks/fe542fd3-fec4-468e-b9bf-48639f5e1d4a
+* https://asec.ahnlab.com/en/47925/
+* https://asec.ahnlab.com/en/50952/
 * https://cofense.com/new-phishing-campaign-targets-u-s-taxpayers-dropping-amadey-botnet/
 * https://exchange.xforce.ibmcloud.com/report/details/guid:ee0b820692aebf95a376e6deb70d0fa9
 * https://ioc.exchange/@GustyDusty@infosec.exchange/110978626602393961
@@ -240,10 +244,12 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://tracker.viriback.com/index.php?q=87.121.47.63
 * https://tracker.viriback.com/index.php?q=88.218.60.230
 * https://tracker.viriback.com/index.php?q=91.92.247.16
+* https://tracker.viriback.com/index.php?q=91.92.251.16
 * https://tracker.viriback.com/index.php?q=91.215.85.194
 * https://tracker.viriback.com/index.php?q=94.142.138.182
 * https://tracker.viriback.com/index.php?q=95.141.41.12
 * https://tracker.viriback.com/index.php?q=95.214.26.53
+* https://tracker.viriback.com/index.php?q=147.45.47.35
 * https://tracker.viriback.com/index.php?q=167.235.20.126
 * https://tracker.viriback.com/index.php?q=176.113.115.253
 * https://tracker.viriback.com/index.php?q=179.43.154.148
@@ -267,11 +273,14 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://tracker.viriback.com/index.php?q=193.233.20.29
 * https://tracker.viriback.com/index.php?q=193.233.20.36
 * https://tracker.viriback.com/index.php?q=193.233.132.73
+* https://tracker.viriback.com/index.php?q=194.87.71.43
 * https://tracker.viriback.com/index.php?q=212.113.119.255
 * https://tracker.viriback.com/index.php?q=212.118.43.106
 * https://tracker.viriback.com/index.php?q=213.226.123.14
 * https://tracker.viriback.com/index.php?q=213.226.123.16
 * https://tria.ge/230730-23lybsbf53/behavioral2
+* https://tria.ge/240324-x2sx2aac3w/behavioral1
+* https://twitter.com/banthisguy9349/status/1769999255228367090
 * https://urlhaus.abuse.ch/url/2739361/
 
 ## Literature

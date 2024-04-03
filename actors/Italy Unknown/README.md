@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [UA](https://vuldb.com/?country.ua)
 * ...
 
-There are 24 more country items available. Please use our online service to access the data.
+There are 26 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -1690,9 +1690,9 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-25, CWE-36 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-25, CWE-36 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
@@ -1708,53 +1708,46 @@ ID | Type | Indicator | Confidence
 1 | File | `/#ilang=DE&b=c_smartenergy_swgroups` | High
 2 | File | `/Account/login.php` | High
 3 | File | `/admin/` | Low
-4 | File | `/admin/action/delete-vaccine.php` | High
-5 | File | `/admin/action/new-father.php` | High
-6 | File | `/admin/borrow_add.php` | High
-7 | File | `/admin/edit-admin.php` | High
-8 | File | `/admin/edit_teacher.php` | High
-9 | File | `/admin/index2.html` | High
-10 | File | `/admin/operations/expense_category.php` | High
-11 | File | `/adminapi/system/crud` | High
-12 | File | `/adminapi/system/file/openfile` | High
-13 | File | `/admin_route/dec_service_credits.php` | High
-14 | File | `/api/v4/teams//channels/deleted` | High
-15 | File | `/application/index/controller/Screen.php` | High
-16 | File | `/application/websocket/controller/Setting.php` | High
-17 | File | `/aux` | Low
-18 | File | `/bin/boa` | Medium
+4 | File | `/admin/app/service_crud.php` | High
+5 | File | `/admin/edit-admin.php` | High
+6 | File | `/admin/index2.html` | High
+7 | File | `/Admin/login.php` | High
+8 | File | `/admin/operations/expense_category.php` | High
+9 | File | `/adminapi/system/crud` | High
+10 | File | `/adminapi/system/file/openfile` | High
+11 | File | `/admin_route/dec_service_credits.php` | High
+12 | File | `/api/v4/teams//channels/deleted` | High
+13 | File | `/app/admin/controller/Upload.php` | High
+14 | File | `/app/ajax/search_sales_report.php` | High
+15 | File | `/app/controller/Setup.php` | High
+16 | File | `/app/middleware/TokenVerify.php` | High
+17 | File | `/application/index/controller/Screen.php` | High
+18 | File | `/application/websocket/controller/Setting.php` | High
 19 | File | `/boafrm/formMapDelDevice` | High
-20 | File | `/cgi-bin/cstecgi.cgi` | High
-21 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-22 | File | `/change-language/de_DE` | High
-23 | File | `/dashboard/Cinvoice/manage_invoice` | High
-24 | File | `/data/remove` | Medium
-25 | File | `/debug/pprof` | Medium
-26 | File | `/devinfo` | Medium
-27 | File | `/DXR.axd` | Medium
-28 | File | `/endpoint/delete-computer.php` | High
-29 | File | `/endpoint/update-tracker.php` | High
-30 | File | `/etc/passwd` | Medium
-31 | File | `/forum/away.php` | High
-32 | File | `/hedwig.cgi` | Medium
-33 | File | `/index.jsp#settings` | High
-34 | File | `/index.php` | Medium
-35 | File | `/log/decodmail.php` | High
-36 | File | `/modules/profile/index.php` | High
-37 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-38 | File | `/oauth/idp/.well-known/openid-configuration` | High
-39 | File | `/owa/auth/logon.aspx` | High
-40 | File | `/pixman-combine-float.c` | High
-41 | File | `/showfile.php` | High
-42 | File | `/signup.php` | Medium
-43 | File | `/spip.php` | Medium
-44 | File | `/student/bookdetails.php` | High
-45 | File | `/st_reg.php` | Medium
-46 | File | `/supplier.php` | High
-47 | File | `/system/role/list` | High
-48 | ... | ... | ...
+20 | File | `/cancel.php` | Medium
+21 | File | `/category.php` | High
+22 | File | `/cgi-bin/cstecgi.cgi` | High
+23 | File | `/cgi-bin/luci` | High
+24 | File | `/check_availability.php` | High
+25 | File | `/dashboard/Cinvoice/manage_invoice` | High
+26 | File | `/debug/pprof` | Medium
+27 | File | `/devinfo` | Medium
+28 | File | `/download` | Medium
+29 | File | `/DXR.axd` | Medium
+30 | File | `/Employer/ManageWalkin.php` | High
+31 | File | `/endpoint/add-faq.php` | High
+32 | File | `/endpoint/delete-computer.php` | High
+33 | File | `/endpoint/update-resident.php` | High
+34 | File | `/endpoint/update-tracker.php` | High
+35 | File | `/etc/passwd` | Medium
+36 | File | `/forum/away.php` | High
+37 | File | `/goform/net\_Web\_get_value` | High
+38 | File | `/hardware` | Medium
+39 | File | `/hedwig.cgi` | Medium
+40 | File | `/index.jsp#settings` | High
+41 | ... | ... | ...
 
-There are 419 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 350 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -43,7 +43,7 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22, CWE-23 | Path Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | T1068 | CWE-250, CWE-264, CWE-269, CWE-274, CWE-284 | Execution with Unnecessary Privileges | High
@@ -91,16 +91,16 @@ ID | Type | Indicator | Confidence
 32 | File | `/foms/place-order.php` | High
 33 | File | `/framework/mod/db/DBMapper.xml` | High
 34 | File | `/FreshRSS/p/ext.php` | High
-35 | File | `/goform/SafeClientFilter` | High
-36 | File | `/goform/SetPptpServerCfg` | High
-37 | File | `/goform/setSysAdm` | High
-38 | File | `/goform/SetVirtualServerCfg` | High
-39 | File | `/goform/sysTools` | High
-40 | File | `/goform/WifiBasicSet` | High
-41 | File | `/include/Model/Upload.php` | High
+35 | File | `/goform/execCommand` | High
+36 | File | `/goform/SafeClientFilter` | High
+37 | File | `/goform/SetPptpServerCfg` | High
+38 | File | `/goform/setSysAdm` | High
+39 | File | `/goform/SetVirtualServerCfg` | High
+40 | File | `/goform/sysTools` | High
+41 | File | `/goform/WifiBasicSet` | High
 42 | ... | ... | ...
 
-There are 361 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 363 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

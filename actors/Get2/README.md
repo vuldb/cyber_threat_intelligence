@@ -35,9 +35,11 @@ ID | IP address | Hostname | Campaign | Confidence
 12 | [103.86.130.72](https://vuldb.com/?ip.103.86.130.72) | kedatangan.unimap.edu.my | - | High
 13 | [103.86.130.74](https://vuldb.com/?ip.103.86.130.74) | security.unimap.edu.my | - | High
 14 | [103.86.130.76](https://vuldb.com/?ip.103.86.130.76) | ofis.unimap.edu.my | - | High
-15 | ... | ... | ... | ...
+15 | [103.86.130.78](https://vuldb.com/?ip.103.86.130.78) | misos.unimap.edu.my | - | High
+16 | [103.86.130.79](https://vuldb.com/?ip.103.86.130.79) | opa.unimap.edu.my | - | High
+17 | ... | ... | ... | ...
 
-There are 57 more IOC items available. Please use our online service to access the data.
+There are 65 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -45,9 +47,9 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Pathname Traversal | High
-2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94 | Cross Site Scripting | High
+1 | T1006 | CWE-22 | Path Traversal | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
 
 There are 7 more TTP items available. Please use our online service to access the data.
@@ -63,7 +65,7 @@ ID | Type | Indicator | Confidence
 3 | File | `admin_add.php` | High
 4 | ... | ... | ...
 
-There are 16 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 17 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

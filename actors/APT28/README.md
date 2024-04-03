@@ -9,19 +9,19 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 The following _campaigns_ are known and can be associated with APT28:
 
 * Carberp
+* CVE-2020-35730 / CVE-2021-44026 / CVE-2020-12641
 * CVE-2022-30190
-* CVE-2023-23397
 * ...
 
-There are 6 more campaign items available. Please use our online service to access the data.
+There are 7 more campaign items available. Please use our online service to access the data.
 
 ## Countries
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with APT28:
 
 * [VN](https://vuldb.com/?country.vn)
+* [GB](https://vuldb.com/?country.gb)
 * [RO](https://vuldb.com/?country.ro)
-* [US](https://vuldb.com/?country.us)
 * ...
 
 There are 2 more country items available. Please use our online service to access the data.
@@ -40,62 +40,64 @@ ID | IP address | Hostname | Campaign | Confidence
 6 | [5.199.171.58](https://vuldb.com/?ip.5.199.171.58) | - | - | High
 7 | [12.94.8.230](https://vuldb.com/?ip.12.94.8.230) | - | - | High
 8 | [12.171.204.129](https://vuldb.com/?ip.12.171.204.129) | - | - | High
-9 | [14.198.168.140](https://vuldb.com/?ip.14.198.168.140) | 014198168140.ctinets.com | CVE-2023-23397 | High
-10 | [18.130.154.13](https://vuldb.com/?ip.18.130.154.13) | ec2-18-130-154-13.eu-west-2.compute.amazonaws.com | - | Medium
-11 | [18.133.205.135](https://vuldb.com/?ip.18.133.205.135) | ec2-18-133-205-135.eu-west-2.compute.amazonaws.com | - | Medium
-12 | [18.133.249.238](https://vuldb.com/?ip.18.133.249.238) | ec2-18-133-249-238.eu-west-2.compute.amazonaws.com | - | Medium
-13 | [23.24.68.109](https://vuldb.com/?ip.23.24.68.109) | 23-24-68-109-static.hfc.comcastbusiness.net | - | High
-14 | [23.88.228.248](https://vuldb.com/?ip.23.88.228.248) | - | - | High
-15 | [23.163.0.59](https://vuldb.com/?ip.23.163.0.59) | naomi.rem2d.com | - | High
-16 | [23.227.196.21](https://vuldb.com/?ip.23.227.196.21) | 23-227-196-21.static.hvvc.us | - | High
-17 | [23.227.196.215](https://vuldb.com/?ip.23.227.196.215) | 23-227-196-215.static.hvvc.us | - | High
-18 | [23.227.196.217](https://vuldb.com/?ip.23.227.196.217) | 23-227-196-217.static.hvvc.us | - | High
-19 | [24.11.70.85](https://vuldb.com/?ip.24.11.70.85) | c-24-11-70-85.hsd1.ut.comcast.net | - | High
-20 | [24.142.165.2](https://vuldb.com/?ip.24.142.165.2) | 024-142-165-002.biz.spectrum.com | CVE-2023-23397 | High
-21 | [31.184.198.23](https://vuldb.com/?ip.31.184.198.23) | - | - | High
-22 | [31.184.198.38](https://vuldb.com/?ip.31.184.198.38) | - | - | High
-23 | [31.220.43.99](https://vuldb.com/?ip.31.220.43.99) | - | Sednit | High
-24 | [31.220.61.251](https://vuldb.com/?ip.31.220.61.251) | - | - | High
-25 | [37.235.52.18](https://vuldb.com/?ip.37.235.52.18) | 18.52.235.37.in-addr.arpa | - | High
-26 | [42.98.5.225](https://vuldb.com/?ip.42.98.5.225) | 42-98-5-225.static.netvigator.com | CVE-2023-23397 | High
-27 | [45.32.129.185](https://vuldb.com/?ip.45.32.129.185) | 45.32.129.185.vultr.com | - | Medium
-28 | [45.32.227.21](https://vuldb.com/?ip.45.32.227.21) | 45.32.227.21.mobiltel.mx | - | High
-29 | [45.64.105.23](https://vuldb.com/?ip.45.64.105.23) | - | - | High
-30 | [45.83.90.11](https://vuldb.com/?ip.45.83.90.11) | - | CVE-2023-23397 | High
-31 | [45.91.95.181](https://vuldb.com/?ip.45.91.95.181) | sks3.simoxap.xyz | CVE-2023-23397 | High
-32 | [45.124.132.127](https://vuldb.com/?ip.45.124.132.127) | - | - | High
-33 | [46.19.138.66](https://vuldb.com/?ip.46.19.138.66) | ab2.alchibasystems.in.net | - | High
-34 | [46.21.147.55](https://vuldb.com/?ip.46.21.147.55) | 46-21-147-55.static.hvvc.us | - | High
-35 | [46.21.147.71](https://vuldb.com/?ip.46.21.147.71) | 46-21-147-71.static.hvvc.us | - | High
-36 | [46.21.147.76](https://vuldb.com/?ip.46.21.147.76) | 46-21-147-76.static.hvvc.us | - | High
-37 | [46.148.17.227](https://vuldb.com/?ip.46.148.17.227) | - | - | High
-38 | [46.166.162.90](https://vuldb.com/?ip.46.166.162.90) | - | Pawn Storm | High
-39 | [46.183.217.74](https://vuldb.com/?ip.46.183.217.74) | ip-217-74.dataclub.info | Pawn Storm | High
-40 | [50.173.136.70](https://vuldb.com/?ip.50.173.136.70) | c-50-173-136-70.unallocated.comcastbusiness.net | CVE-2023-23397 | High
-41 | [51.38.128.110](https://vuldb.com/?ip.51.38.128.110) | vps-0a3489af.vps.ovh.net | - | High
-42 | [51.254.76.54](https://vuldb.com/?ip.51.254.76.54) | - | - | High
-43 | [51.254.158.57](https://vuldb.com/?ip.51.254.158.57) | - | - | High
-44 | [54.37.104.106](https://vuldb.com/?ip.54.37.104.106) | piber.connectedlists.com | - | High
-45 | [58.49.58.58](https://vuldb.com/?ip.58.49.58.58) | - | - | High
-46 | [61.14.68.33](https://vuldb.com/?ip.61.14.68.33) | - | CVE-2023-23397 | High
-47 | [61.68.76.111](https://vuldb.com/?ip.61.68.76.111) | 61-68-76-111.tpgi.com.au | - | High
-48 | [62.4.36.126](https://vuldb.com/?ip.62.4.36.126) | - | CVE-2023-23397 | High
-49 | [62.113.232.197](https://vuldb.com/?ip.62.113.232.197) | - | - | High
-50 | [66.172.11.207](https://vuldb.com/?ip.66.172.11.207) | ip-66-172-11-207.chunkhost.com | Carberp | High
-51 | [66.172.12.133](https://vuldb.com/?ip.66.172.12.133) | - | - | High
-52 | [68.76.150.97](https://vuldb.com/?ip.68.76.150.97) | 68-76-150-97.lightspeed.hstntx.sbcglobal.net | - | High
-53 | [69.12.73.174](https://vuldb.com/?ip.69.12.73.174) | 69.12.73.174.static.quadranet.com | Sednit | High
-54 | [69.16.243.33](https://vuldb.com/?ip.69.16.243.33) | host.tecnode.com | - | High
-55 | [69.28.64.137](https://vuldb.com/?ip.69.28.64.137) | - | - | High
-56 | [69.51.2.106](https://vuldb.com/?ip.69.51.2.106) | - | CVE-2023-23397 | High
-57 | [69.162.253.21](https://vuldb.com/?ip.69.162.253.21) | 69-162-253-21.utopiafiber.com | CVE-2023-23397 | High
-58 | [70.85.221.10](https://vuldb.com/?ip.70.85.221.10) | server002.nilsson-it.dk | - | High
-59 | [70.85.221.20](https://vuldb.com/?ip.70.85.221.20) | 14.dd.5546.static.theplanet.com | Pawn Storm | High
-60 | [73.80.9.137](https://vuldb.com/?ip.73.80.9.137) | c-73-80-9-137.hsd1.nj.comcast.net | CVE-2023-23397 | High
-61 | [74.208.228.186](https://vuldb.com/?ip.74.208.228.186) | u17669945.onlinehome-server.com | CVE-2023-23397 | High
-62 | ... | ... | ... | ...
+9 | [13.40.77.34](https://vuldb.com/?ip.13.40.77.34) | ec2-13-40-77-34.eu-west-2.compute.amazonaws.com | - | Medium
+10 | [14.198.168.140](https://vuldb.com/?ip.14.198.168.140) | 014198168140.ctinets.com | CVE-2023-23397 | High
+11 | [18.130.154.13](https://vuldb.com/?ip.18.130.154.13) | ec2-18-130-154-13.eu-west-2.compute.amazonaws.com | - | Medium
+12 | [18.133.205.135](https://vuldb.com/?ip.18.133.205.135) | ec2-18-133-205-135.eu-west-2.compute.amazonaws.com | - | Medium
+13 | [18.133.249.238](https://vuldb.com/?ip.18.133.249.238) | ec2-18-133-249-238.eu-west-2.compute.amazonaws.com | - | Medium
+14 | [23.24.68.109](https://vuldb.com/?ip.23.24.68.109) | 23-24-68-109-static.hfc.comcastbusiness.net | - | High
+15 | [23.88.228.248](https://vuldb.com/?ip.23.88.228.248) | - | - | High
+16 | [23.163.0.59](https://vuldb.com/?ip.23.163.0.59) | naomi.rem2d.com | - | High
+17 | [23.227.196.21](https://vuldb.com/?ip.23.227.196.21) | 23-227-196-21.static.hvvc.us | - | High
+18 | [23.227.196.215](https://vuldb.com/?ip.23.227.196.215) | 23-227-196-215.static.hvvc.us | - | High
+19 | [23.227.196.217](https://vuldb.com/?ip.23.227.196.217) | 23-227-196-217.static.hvvc.us | - | High
+20 | [24.11.70.85](https://vuldb.com/?ip.24.11.70.85) | c-24-11-70-85.hsd1.ut.comcast.net | - | High
+21 | [24.142.165.2](https://vuldb.com/?ip.24.142.165.2) | 024-142-165-002.biz.spectrum.com | CVE-2023-23397 | High
+22 | [31.184.198.23](https://vuldb.com/?ip.31.184.198.23) | - | - | High
+23 | [31.184.198.38](https://vuldb.com/?ip.31.184.198.38) | - | - | High
+24 | [31.220.43.99](https://vuldb.com/?ip.31.220.43.99) | - | Sednit | High
+25 | [31.220.61.251](https://vuldb.com/?ip.31.220.61.251) | - | - | High
+26 | [37.191.122.186](https://vuldb.com/?ip.37.191.122.186) | no-reverse-dns.metronet-uk.com | - | High
+27 | [37.235.52.18](https://vuldb.com/?ip.37.235.52.18) | 18.52.235.37.in-addr.arpa | - | High
+28 | [42.98.5.225](https://vuldb.com/?ip.42.98.5.225) | 42-98-5-225.static.netvigator.com | CVE-2023-23397 | High
+29 | [45.32.129.185](https://vuldb.com/?ip.45.32.129.185) | 45.32.129.185.vultr.com | - | Medium
+30 | [45.32.227.21](https://vuldb.com/?ip.45.32.227.21) | 45.32.227.21.mobiltel.mx | - | High
+31 | [45.64.105.23](https://vuldb.com/?ip.45.64.105.23) | - | - | High
+32 | [45.83.90.11](https://vuldb.com/?ip.45.83.90.11) | - | CVE-2023-23397 | High
+33 | [45.91.95.181](https://vuldb.com/?ip.45.91.95.181) | sks3.simoxap.xyz | CVE-2023-23397 | High
+34 | [45.124.132.127](https://vuldb.com/?ip.45.124.132.127) | - | - | High
+35 | [46.19.138.66](https://vuldb.com/?ip.46.19.138.66) | ab2.alchibasystems.in.net | - | High
+36 | [46.21.147.55](https://vuldb.com/?ip.46.21.147.55) | 46-21-147-55.static.hvvc.us | - | High
+37 | [46.21.147.71](https://vuldb.com/?ip.46.21.147.71) | 46-21-147-71.static.hvvc.us | - | High
+38 | [46.21.147.76](https://vuldb.com/?ip.46.21.147.76) | 46-21-147-76.static.hvvc.us | - | High
+39 | [46.148.17.227](https://vuldb.com/?ip.46.148.17.227) | - | - | High
+40 | [46.166.162.90](https://vuldb.com/?ip.46.166.162.90) | - | Pawn Storm | High
+41 | [46.183.217.74](https://vuldb.com/?ip.46.183.217.74) | ip-217-74.dataclub.info | Pawn Storm | High
+42 | [50.173.136.70](https://vuldb.com/?ip.50.173.136.70) | c-50-173-136-70.unallocated.comcastbusiness.net | CVE-2023-23397 | High
+43 | [51.38.128.110](https://vuldb.com/?ip.51.38.128.110) | vps-0a3489af.vps.ovh.net | - | High
+44 | [51.254.76.54](https://vuldb.com/?ip.51.254.76.54) | - | - | High
+45 | [51.254.158.57](https://vuldb.com/?ip.51.254.158.57) | - | - | High
+46 | [54.37.104.106](https://vuldb.com/?ip.54.37.104.106) | piber.connectedlists.com | - | High
+47 | [58.49.58.58](https://vuldb.com/?ip.58.49.58.58) | - | - | High
+48 | [61.14.68.33](https://vuldb.com/?ip.61.14.68.33) | - | CVE-2023-23397 | High
+49 | [61.68.76.111](https://vuldb.com/?ip.61.68.76.111) | 61-68-76-111.tpgi.com.au | - | High
+50 | [62.4.36.126](https://vuldb.com/?ip.62.4.36.126) | - | CVE-2023-23397 | High
+51 | [62.113.232.197](https://vuldb.com/?ip.62.113.232.197) | - | - | High
+52 | [66.172.11.207](https://vuldb.com/?ip.66.172.11.207) | ip-66-172-11-207.chunkhost.com | Carberp | High
+53 | [66.172.12.133](https://vuldb.com/?ip.66.172.12.133) | - | - | High
+54 | [68.76.150.97](https://vuldb.com/?ip.68.76.150.97) | 68-76-150-97.lightspeed.hstntx.sbcglobal.net | - | High
+55 | [69.12.73.174](https://vuldb.com/?ip.69.12.73.174) | 69.12.73.174.static.quadranet.com | Sednit | High
+56 | [69.16.243.33](https://vuldb.com/?ip.69.16.243.33) | host.tecnode.com | - | High
+57 | [69.28.64.137](https://vuldb.com/?ip.69.28.64.137) | - | - | High
+58 | [69.51.2.106](https://vuldb.com/?ip.69.51.2.106) | - | CVE-2023-23397 | High
+59 | [69.162.253.21](https://vuldb.com/?ip.69.162.253.21) | 69-162-253-21.utopiafiber.com | CVE-2023-23397 | High
+60 | [70.85.221.10](https://vuldb.com/?ip.70.85.221.10) | server002.nilsson-it.dk | - | High
+61 | [70.85.221.20](https://vuldb.com/?ip.70.85.221.20) | 14.dd.5546.static.theplanet.com | Pawn Storm | High
+62 | [73.80.9.137](https://vuldb.com/?ip.73.80.9.137) | c-73-80-9-137.hsd1.nj.comcast.net | CVE-2023-23397 | High
+63 | [74.124.219.71](https://vuldb.com/?ip.74.124.219.71) | biz242.inmotionhosting.com | - | High
+64 | ... | ... | ... | ...
 
-There are 243 more IOC items available. Please use our online service to access the data.
+There are 250 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -103,8 +105,8 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-29 | Path Traversal | High
-2 | T1055 | CWE-74 | Injection | High
+1 | T1006 | CWE-22, CWE-23, CWE-24, CWE-29 | Path Traversal | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-271, CWE-284 | Execution with Unnecessary Privileges | High
@@ -125,44 +127,48 @@ ID | Type | Indicator | Confidence
 5 | File | `/admin/clientview.php` | High
 6 | File | `/admin/edit_teacher.php` | High
 7 | File | `/admin/fields/manage_field.php` | High
-8 | File | `/admin/orders/view_order.php` | High
-9 | File | `/admin/regester.php` | High
-10 | File | `/admin/update-clients.php` | High
-11 | File | `/admin_ping.htm` | High
-12 | File | `/admin_route/dec_service_credits.php` | High
-13 | File | `/admin_route/inc_service_credits.php` | High
-14 | File | `/api/cron/settings/setJob/` | High
-15 | File | `/api/sys/set_passwd` | High
-16 | File | `/api/v1/terminal/sessions/?limit=1` | High
-17 | File | `/app/api/controller/default/Sqlite.php` | High
-18 | File | `/application/index/controller/Databasesource.php` | High
-19 | File | `/application/index/controller/Icon.php` | High
-20 | File | `/application/index/controller/Screen.php` | High
-21 | File | `/application/plugins/controller/Upload.php` | High
-22 | File | `/apply.cgi` | Medium
-23 | File | `/arch/x86/mm/cpu_entry_area.c` | High
-24 | File | `/authenticationendpoint/login.do` | High
-25 | File | `/bin/boa` | Medium
-26 | File | `/boaform/device_reset.cgi` | High
-27 | File | `/boafrm/formMapDelDevice` | High
-28 | File | `/bsms_ci/index.php/user/edit_user/` | High
-29 | File | `/cgi-bin/cstecgi.cgi` | High
-30 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-31 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-32 | File | `/cgi-bin/mainfunction.cgi` | High
-33 | File | `/cgi-bin/R14.2/cgi-bin/R14.2/host.pl` | High
-34 | File | `/cgi-bin/R14.2/easy1350.pl` | High
-35 | File | `/cgi-bin/wlogin.cgi` | High
-36 | File | `/clinic/disease_symptoms_view.php` | High
-37 | File | `/config/getuser` | High
-38 | File | `/core/redirect` | High
-39 | File | `/dashboard/message` | High
-40 | File | `/dashboard/snapshot/*?orgId=0` | High
-41 | File | `/debug/pprof` | Medium
-42 | File | `/DXR.axd` | Medium
-43 | ... | ... | ...
+8 | File | `/admin/index.php` | High
+9 | File | `/admin/orders/view_order.php` | High
+10 | File | `/admin/regester.php` | High
+11 | File | `/admin/update-clients.php` | High
+12 | File | `/admin/user/controller.php` | High
+13 | File | `/admin_ping.htm` | High
+14 | File | `/admin_route/dec_service_credits.php` | High
+15 | File | `/admin_route/inc_service_credits.php` | High
+16 | File | `/api/cron/settings/setJob/` | High
+17 | File | `/api/sys/set_passwd` | High
+18 | File | `/api/v1/terminal/sessions/?limit=1` | High
+19 | File | `/app/api/controller/default/Sqlite.php` | High
+20 | File | `/application/index/controller/Databasesource.php` | High
+21 | File | `/application/index/controller/Icon.php` | High
+22 | File | `/application/index/controller/Screen.php` | High
+23 | File | `/application/plugins/controller/Upload.php` | High
+24 | File | `/apply.cgi` | Medium
+25 | File | `/apps/reg_go.php` | High
+26 | File | `/arch/x86/mm/cpu_entry_area.c` | High
+27 | File | `/authenticationendpoint/login.do` | High
+28 | File | `/billing/bill/edit/` | High
+29 | File | `/bin/boa` | Medium
+30 | File | `/boaform/device_reset.cgi` | High
+31 | File | `/boafrm/formMapDelDevice` | High
+32 | File | `/bsms_ci/index.php/user/edit_user/` | High
+33 | File | `/cgi-bin/cstecgi.cgi` | High
+34 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+35 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
+36 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+37 | File | `/cgi-bin/mainfunction.cgi` | High
+38 | File | `/cgi-bin/R14.2/cgi-bin/R14.2/host.pl` | High
+39 | File | `/cgi-bin/R14.2/easy1350.pl` | High
+40 | File | `/cgi-bin/system_mgr.cgi` | High
+41 | File | `/cgi-bin/wlogin.cgi` | High
+42 | File | `/classes/Login.php` | High
+43 | File | `/classes/Users.php` | High
+44 | File | `/config/getuser` | High
+45 | File | `/core/redirect` | High
+46 | File | `/dashboard/message` | High
+47 | ... | ... | ...
 
-There are 371 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 407 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -173,7 +179,11 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.malwarebytes.com/threat-intelligence/2022/06/russias-apt28-uses-fear-of-nuclear-war-to-spread-follina-docs-in-ukraine/
 * https://blog.sekoia.io/apt28-leverages-multiple-phishing-techniques-to-target-ukrainian-civil-society/
 * https://cert.gov.ua/article/40102
+* https://cert.gov.ua/article/4492467
+* https://cert.gov.ua/article/4905829
+* https://cert.gov.ua/article/5105791
 * https://cert.gov.ua/article/5702579
+* https://cert.gov.ua/article/6276894
 * https://community.blueliv.com/#!/s/5f6b482482df413eb5350d3b
 * https://documents.trendmicro.com/assets/wp/wp-two-years-of-pawn-storm.pdf
 * https://github.com/blackorbird/APT_REPORT/blob/master/APT28/IOC/2019-04-05-ioc-mark.txt

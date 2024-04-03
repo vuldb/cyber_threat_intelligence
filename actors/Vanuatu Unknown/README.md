@@ -43,9 +43,9 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-24 | Pathname Traversal | High
-2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94 | Cross Site Scripting | High
+1 | T1006 | CWE-22, CWE-24 | Path Traversal | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
@@ -70,50 +70,50 @@ ID | Type | Indicator | Confidence
 11 | File | `/admin/search-appointment.php` | High
 12 | File | `/anony/mjpg.cgi` | High
 13 | File | `/api/admin/store/product/list` | High
-14 | File | `/cgi-bin/cstecgi.cgi` | High
-15 | File | `/classes/Master.php?f=delete_sub_category` | High
-16 | File | `/common/info.cgi` | High
-17 | File | `/connectors/index.php` | High
-18 | File | `/devicegroups.jsp` | High
-19 | File | `/download` | Medium
-20 | File | `/ecrire/exec/info_plugin.php` | High
-21 | File | `/envato/codecanyon/demo/web-file-explorer/download.php` | High
-22 | File | `/forum/away.php` | High
-23 | File | `/home/httpd/cgi-bin/cgi.cgi` | High
-24 | File | `/include/file.php` | High
-25 | File | `/items/search` | High
-26 | File | `/maint/index.php` | High
-27 | File | `/obs/bookPerPub.php` | High
-28 | File | `/oews/classes/Master.php?f=update_cart` | High
-29 | File | `/pages/apply_vacancy.php` | High
-30 | File | `/proc` | Low
-31 | File | `/reviewer/system/system/admins/manage/users/user-update.php` | High
-32 | File | `/timeline2.php` | High
-33 | File | `/tmp/csman/0` | Medium
-34 | File | `/uncpath/` | Medium
-35 | File | `/vaccinated/admin/maintenance/manage_location.php` | High
-36 | File | `adclick.php` | Medium
-37 | File | `addentry.php` | Medium
-38 | File | `addtocart.asp` | High
-39 | File | `add_comment.php` | High
-40 | File | `admin.color.php` | High
-41 | File | `admin.php` | Medium
-42 | File | `admin.php?mod=db&act=del` | High
-43 | File | `admin.php?mod=user&act=del` | High
-44 | File | `admin.php?moduleid=2&action=add` | High
-45 | File | `admin/addons/archive/archive.php` | High
-46 | File | `admin/auth.php` | High
-47 | File | `admin/category.inc.php` | High
-48 | File | `admin/conf_users_edit.php` | High
-49 | File | `admin/languages.php` | High
-50 | File | `admin/login.asp` | High
-51 | File | `admincp/auth/checklogin.php` | High
-52 | File | `admin\setting.inc.php` | High
-53 | File | `album_portal.php` | High
-54 | File | `al_initialize.php` | High
+14 | File | `/application/index/controller/Screen.php` | High
+15 | File | `/cgi-bin/cstecgi.cgi` | High
+16 | File | `/classes/Master.php?f=delete_sub_category` | High
+17 | File | `/common/info.cgi` | High
+18 | File | `/connectors/index.php` | High
+19 | File | `/devicegroups.jsp` | High
+20 | File | `/download` | Medium
+21 | File | `/ecrire/exec/info_plugin.php` | High
+22 | File | `/envato/codecanyon/demo/web-file-explorer/download.php` | High
+23 | File | `/forum/away.php` | High
+24 | File | `/home/httpd/cgi-bin/cgi.cgi` | High
+25 | File | `/include/file.php` | High
+26 | File | `/items/search` | High
+27 | File | `/maint/index.php` | High
+28 | File | `/obs/bookPerPub.php` | High
+29 | File | `/oews/classes/Master.php?f=update_cart` | High
+30 | File | `/pages/apply_vacancy.php` | High
+31 | File | `/proc` | Low
+32 | File | `/reviewer/system/system/admins/manage/users/user-update.php` | High
+33 | File | `/timeline2.php` | High
+34 | File | `/tmp/csman/0` | Medium
+35 | File | `/uncpath/` | Medium
+36 | File | `/vaccinated/admin/maintenance/manage_location.php` | High
+37 | File | `adclick.php` | Medium
+38 | File | `addentry.php` | Medium
+39 | File | `addtocart.asp` | High
+40 | File | `add_comment.php` | High
+41 | File | `admin.color.php` | High
+42 | File | `admin.php` | Medium
+43 | File | `admin.php?mod=db&act=del` | High
+44 | File | `admin.php?mod=user&act=del` | High
+45 | File | `admin.php?moduleid=2&action=add` | High
+46 | File | `admin/addons/archive/archive.php` | High
+47 | File | `admin/auth.php` | High
+48 | File | `admin/category.inc.php` | High
+49 | File | `admin/conf_users_edit.php` | High
+50 | File | `admin/languages.php` | High
+51 | File | `admin/login.asp` | High
+52 | File | `admincp/auth/checklogin.php` | High
+53 | File | `admin\setting.inc.php` | High
+54 | File | `album_portal.php` | High
 55 | ... | ... | ...
 
-There are 478 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 483 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

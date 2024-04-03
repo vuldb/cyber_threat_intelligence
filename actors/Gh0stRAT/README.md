@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [VN](https://vuldb.com/?country.vn)
 * ...
 
-There are 6 more country items available. Please use our online service to access the data.
+There are 5 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -97,13 +97,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23, CWE-24, CWE-425 | Path Traversal | High
-2 | T1055 | CWE-74 | Injection | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-29 | Path Traversal | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 15 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -111,26 +111,32 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/list_ipAddressPolicy.php` | High
-2 | File | `/admin/list_resource_icon.php?action=delete` | High
-3 | File | `/api /v3/auth` | High
-4 | File | `/cgi-bin/nobody/VerifyCode.cgi` | High
-5 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-6 | File | `/cgi.cgi` | Medium
-7 | File | `/common/dict/list` | High
-8 | File | `/counter/index2.php` | High
+1 | File | `/admin.php` | Medium
+2 | File | `/admin/list_ipAddressPolicy.php` | High
+3 | File | `/admin/list_resource_icon.php?action=delete` | High
+4 | File | `/admin/singlelogin.php` | High
+5 | File | `/api /v3/auth` | High
+6 | File | `/bin/sh` | Low
+7 | File | `/cgi-bin/cstecgi.cgi` | High
+8 | File | `/common/dict/list` | High
 9 | File | `/data/remove` | Medium
 10 | File | `/debug/pprof` | Medium
 11 | File | `/forum/away.php` | High
-12 | File | `/iisadmin` | Medium
-13 | File | `/iissamples` | Medium
-14 | File | `/modx/manager/index.php` | High
-15 | File | `/pdf` | Low
-16 | File | `/prescription/prescription/delete/` | High
-17 | File | `/pro/common/download` | High
-18 | ... | ... | ...
+12 | File | `/goform/net\_Web\_get_value` | High
+13 | File | `/goform/SetStaticRouteCfg` | High
+14 | File | `/Interface/DevManage/VM.php` | High
+15 | File | `/Maintenance/configfile.cfg` | High
+16 | File | `/ossim/report/wizard_email.php` | High
+17 | File | `/patient/appointment.php` | High
+18 | File | `/pdf` | Low
+19 | File | `/prescription/prescription/delete/` | High
+20 | File | `/pro/common/download` | High
+21 | File | `/remote/put_file` | High
+22 | File | `/spip.php` | Medium
+23 | File | `/squashfs-root/etc_ro/custom.conf` | High
+24 | ... | ... | ...
 
-There are 144 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 202 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

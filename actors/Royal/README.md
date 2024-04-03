@@ -42,8 +42,8 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-29, CWE-425 | Path Traversal | High
-2 | T1055 | CWE-74 | Injection | High
+1 | T1006 | CWE-22, CWE-23, CWE-24, CWE-29, CWE-425 | Path Traversal | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-271, CWE-284 | Execution with Unnecessary Privileges | High
@@ -58,12 +58,12 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/.env` | Low
-2 | File | `/act/ActDao.xml` | High
-3 | File | `/admin/action/delete-vaccine.php` | High
-4 | File | `/admin/action/new-father.php` | High
-5 | File | `/admin/clientview.php` | High
-6 | File | `/admin/edit_teacher.php` | High
-7 | File | `/admin/fields/manage_field.php` | High
+2 | File | `/admin/action/delete-vaccine.php` | High
+3 | File | `/admin/action/new-father.php` | High
+4 | File | `/admin/clientview.php` | High
+5 | File | `/admin/edit_teacher.php` | High
+6 | File | `/admin/fields/manage_field.php` | High
+7 | File | `/admin/index.php` | High
 8 | File | `/admin/orders/view_order.php` | High
 9 | File | `/admin/regester.php` | High
 10 | File | `/admin/update-clients.php` | High
@@ -81,30 +81,31 @@ ID | Type | Indicator | Confidence
 22 | File | `/application/plugins/controller/Upload.php` | High
 23 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
 24 | File | `/apply.cgi` | Medium
-25 | File | `/arch/x86/mm/cpu_entry_area.c` | High
-26 | File | `/authenticationendpoint/login.do` | High
-27 | File | `/bin/boa` | Medium
-28 | File | `/boaform/device_reset.cgi` | High
-29 | File | `/boafrm/formMapDelDevice` | High
-30 | File | `/bsms_ci/index.php/user/edit_user/` | High
-31 | File | `/cgi-bin/cstecgi.cgi` | High
-32 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-33 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-34 | File | `/cgi-bin/mainfunction.cgi` | High
-35 | File | `/cgi-bin/R14.2/cgi-bin/R14.2/host.pl` | High
-36 | File | `/cgi-bin/R14.2/easy1350.pl` | High
-37 | File | `/cgi-bin/system_mgr.cgi` | High
-38 | File | `/cgi-bin/wlogin.cgi` | High
-39 | File | `/clinic/disease_symptoms_view.php` | High
-40 | File | `/config/getuser` | High
-41 | File | `/core/redirect` | High
-42 | File | `/dashboard/snapshot/*?orgId=0` | High
-43 | File | `/debug/pprof` | Medium
-44 | File | `/DXR.axd` | Medium
-45 | File | `/ECT_Provider/` | High
-46 | ... | ... | ...
+25 | File | `/apps/reg_go.php` | High
+26 | File | `/arch/x86/mm/cpu_entry_area.c` | High
+27 | File | `/authenticationendpoint/login.do` | High
+28 | File | `/billing/bill/edit/` | High
+29 | File | `/bin/boa` | Medium
+30 | File | `/boaform/device_reset.cgi` | High
+31 | File | `/boafrm/formMapDelDevice` | High
+32 | File | `/bsms_ci/index.php/user/edit_user/` | High
+33 | File | `/cgi-bin/cstecgi.cgi` | High
+34 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+35 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
+36 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+37 | File | `/cgi-bin/mainfunction.cgi` | High
+38 | File | `/cgi-bin/R14.2/cgi-bin/R14.2/host.pl` | High
+39 | File | `/cgi-bin/R14.2/easy1350.pl` | High
+40 | File | `/cgi-bin/system_mgr.cgi` | High
+41 | File | `/cgi-bin/wlogin.cgi` | High
+42 | File | `/classes/Login.php` | High
+43 | File | `/classes/Users.php` | High
+44 | File | `/config/getuser` | High
+45 | File | `/core/redirect` | High
+46 | File | `/dashboard/snapshot/*?orgId=0` | High
+47 | ... | ... | ...
 
-There are 402 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 404 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

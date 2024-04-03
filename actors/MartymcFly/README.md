@@ -20,13 +20,26 @@ ID | IP address | Hostname | Campaign | Confidence
 2 | [66.45.243.148](https://vuldb.com/?ip.66.45.243.148) | alpha.whostbox.com | - | High
 3 | [173.237.190.12](https://vuldb.com/?ip.173.237.190.12) | lord.vivawebhost.com | - | High
 
+## TTP - Tactics, Techniques, Procedures
+
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _MartymcFly_. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1505 | CWE-89 | SQL Injection | High
+
 ## IOA - Indicator of Attack
 
 These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by MartymcFly. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `options.cpp` | Medium
+1 | File | `email_registration.module` | High
+2 | File | `game.php` | Medium
+3 | File | `options.cpp` | Medium
+4 | ... | ... | ...
+
+There are 2 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

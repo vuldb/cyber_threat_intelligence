@@ -35,12 +35,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22, CWE-36 | Path Traversal | High
-2 | T1055 | CWE-74 | Injection | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 15 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -50,27 +50,34 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `%PROGRAMFILES%\MyQ\PHP\Sessions\` | High
 2 | File | `/.flatpak-info` | High
-3 | File | `/admin/edit.php` | High
-4 | File | `/admin/googleads.php` | High
-5 | File | `/admin/pages/update_go.php` | High
-6 | File | `/admin/reg.php` | High
-7 | File | `/admin/renewaldue.php` | High
-8 | File | `/ajax` | Low
-9 | File | `/analysisProject/pagingQueryData` | High
-10 | File | `/api/sys/login` | High
-11 | File | `/application/index/controller/Databasesource.php` | High
-12 | File | `/application/index/controller/Screen.php` | High
-13 | File | `/bin/boa` | Medium
-14 | File | `/booking/show_bookings/` | High
-15 | File | `/cgi-bin/adm.cgi` | High
-16 | File | `/cgi-bin/cstecgi.cgi` | High
-17 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-18 | File | `/collection/all` | High
-19 | File | `/dashboard/add-portfolio.php` | High
-20 | File | `/devinfo` | Medium
-21 | ... | ... | ...
+3 | File | `/Account/login.php` | High
+4 | File | `/admin/` | Low
+5 | File | `/admin/app/login_crud.php` | High
+6 | File | `/admin/app/product.php` | High
+7 | File | `/admin/app/service_crud.php` | High
+8 | File | `/admin/edit.php` | High
+9 | File | `/admin/googleads.php` | High
+10 | File | `/admin/list_ipAddressPolicy.php` | High
+11 | File | `/admin/login.php` | High
+12 | File | `/Admin/login.php` | High
+13 | File | `/admin/pages/update_go.php` | High
+14 | File | `/admin/reg.php` | High
+15 | File | `/admin/renewaldue.php` | High
+16 | File | `/admin/search.php` | High
+17 | File | `/ajax` | Low
+18 | File | `/analysisProject/pagingQueryData` | High
+19 | File | `/api/sys/login` | High
+20 | File | `/app/ajax/search_sales_report.php` | High
+21 | File | `/app/middleware/TokenVerify.php` | High
+22 | File | `/application/index/controller/Databasesource.php` | High
+23 | File | `/application/index/controller/Screen.php` | High
+24 | File | `/bin/boa` | Medium
+25 | File | `/booking/show_bookings/` | High
+26 | File | `/cancel.php` | Medium
+27 | File | `/cgi-bin/adm.cgi` | High
+28 | ... | ... | ...
 
-There are 178 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 238 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

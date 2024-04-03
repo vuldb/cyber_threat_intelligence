@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 13 more country items available. Please use our online service to access the data.
+There are 14 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -36,10 +36,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23, CWE-425 | Pathname Traversal | High
+1 | T1006 | CWE-22, CWE-23, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -75,16 +75,17 @@ ID | Type | Indicator | Confidence
 22 | File | `/goform/addRouting` | High
 23 | File | `/goform/aspForm` | High
 24 | File | `/goform/SetNetControlList` | High
-25 | File | `/include/menu_v.inc.php` | High
-26 | File | `/Interface/DevManage/EC.php?cmd=upload` | High
-27 | File | `/librarian/lab.php` | High
-28 | File | `/MagickCore/statistic.c` | High
-29 | File | `/omos/admin/?page=user/list` | High
-30 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-31 | File | `/panel/fields/add` | High
-32 | ... | ... | ...
+25 | File | `/goform/SetStaticRouteCfg` | High
+26 | File | `/include/menu_v.inc.php` | High
+27 | File | `/Interface/DevManage/EC.php?cmd=upload` | High
+28 | File | `/librarian/lab.php` | High
+29 | File | `/MagickCore/statistic.c` | High
+30 | File | `/omos/admin/?page=user/list` | High
+31 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+32 | File | `/panel/fields/add` | High
+33 | ... | ... | ...
 
-There are 277 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 280 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

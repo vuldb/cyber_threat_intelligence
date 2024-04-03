@@ -52,7 +52,7 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
@@ -80,29 +80,29 @@ ID | Type | Indicator | Confidence
 13 | File | `/config/netconf.cmd` | High
 14 | File | `/customer_support/ajax.php?action=save_ticket` | High
 15 | File | `/folder/list` | Medium
-16 | File | `/forms/nslookupHandler` | High
-17 | File | `/group/comment` | High
-18 | File | `/ipms/imageConvert/image` | High
-19 | File | `/librarian/bookdetails.php` | High
-20 | File | `/log/decodmail.php` | High
-21 | File | `/lookin/info` | Medium
-22 | File | `/plugins/servlet/jira-blockers/` | High
-23 | File | `/ptipupgrade.cgi` | High
-24 | File | `/public/login.htm` | High
-25 | File | `/register.do` | Medium
-26 | File | `/sessions/sess_<sessionid>` | High
-27 | File | `/sysmanage/edit_manageadmin.php` | High
-28 | File | `/themes/<php_file_name>` | High
-29 | File | `/tmp/speedtest_urls.xml` | High
-30 | File | `/uncpath/` | Medium
-31 | File | `/upload` | Low
-32 | File | `/var/log/nginx` | High
-33 | File | `/wbg/core/_includes/authorization.inc.php` | High
-34 | File | `/wp-admin/admin.php` | High
-35 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+16 | File | `/group/comment` | High
+17 | File | `/ipms/imageConvert/image` | High
+18 | File | `/librarian/bookdetails.php` | High
+19 | File | `/log/decodmail.php` | High
+20 | File | `/lookin/info` | Medium
+21 | File | `/plugins/servlet/jira-blockers/` | High
+22 | File | `/ptipupgrade.cgi` | High
+23 | File | `/public/login.htm` | High
+24 | File | `/register.do` | Medium
+25 | File | `/sessions/sess_<sessionid>` | High
+26 | File | `/sysmanage/edit_manageadmin.php` | High
+27 | File | `/themes/<php_file_name>` | High
+28 | File | `/tmp/speedtest_urls.xml` | High
+29 | File | `/uncpath/` | Medium
+30 | File | `/upload` | Low
+31 | File | `/var/log/nginx` | High
+32 | File | `/wbg/core/_includes/authorization.inc.php` | High
+33 | File | `/wp-admin/admin.php` | High
+34 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+35 | File | `adclick.php` | Medium
 36 | ... | ... | ...
 
-There are 305 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 304 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

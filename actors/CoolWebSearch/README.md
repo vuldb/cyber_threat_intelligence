@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [VN](https://vuldb.com/?country.vn)
 * ...
 
-There are 5 more country items available. Please use our online service to access the data.
+There are 4 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -152,14 +152,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-24 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-29 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -169,46 +169,44 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/` | Low
 2 | File | `/admin/admin_user.php` | High
-3 | File | `/admin/category/save` | High
-4 | File | `/admin/list_ipAddressPolicy.php` | High
-5 | File | `/admin/subject.php` | High
-6 | File | `/api/trackedEntityInstances` | High
-7 | File | `/auth/auth.php?user=1` | High
-8 | File | `/aux` | Low
-9 | File | `/boaform/device_reset.cgi` | High
-10 | File | `/cgi-bin/cstecgi.cgi` | High
-11 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-12 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
-13 | File | `/cgi-bin/wlogin.cgi` | High
-14 | File | `/cgi/cpaddons_report.pl` | High
-15 | File | `/common/dict/list` | High
-16 | File | `/data/remove` | Medium
-17 | File | `/debug/pprof` | Medium
-18 | File | `/DXR.axd` | Medium
-19 | File | `/etc/passwd` | Medium
-20 | File | `/forum/away.php` | High
-21 | File | `/goform/goform_get_cmd_process` | High
-22 | File | `/HNAP1/` | Low
-23 | File | `/importexport.php` | High
-24 | File | `/index.php` | Medium
-25 | File | `/main/doctype.php` | High
-26 | File | `/main/webservices/additional_webservices.php` | High
-27 | File | `/mc` | Low
-28 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-29 | File | `/net/bluetooth/rfcomm/core.C` | High
-30 | File | `/pdf` | Low
-31 | File | `/register.php` | High
-32 | File | `/setting/NTPSyncWithHost` | High
-33 | File | `/spip.php` | Medium
-34 | File | `/terminal/handle-command.php` | High
-35 | File | `/tmp/ppd.trace` | High
-36 | File | `/update-resource-data/` | High
-37 | File | `/uploads/tags.php` | High
-38 | File | `/user/inc/workidajax.php` | High
-39 | File | `/var/tmp/abrt/abrt-hax-coredump` | High
-40 | ... | ... | ...
+3 | File | `/admin/list_ipAddressPolicy.php` | High
+4 | File | `/aux` | Low
+5 | File | `/boaform/device_reset.cgi` | High
+6 | File | `/cgi-bin/cstecgi.cgi` | High
+7 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+8 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
+9 | File | `/cgi-bin/wlogin.cgi` | High
+10 | File | `/cgi/cpaddons_report.pl` | High
+11 | File | `/common/dict/list` | High
+12 | File | `/data/remove` | Medium
+13 | File | `/debug/pprof` | Medium
+14 | File | `/etc/passwd` | Medium
+15 | File | `/forum/away.php` | High
+16 | File | `/goform/goform_get_cmd_process` | High
+17 | File | `/goform/net\_Web\_get_value` | High
+18 | File | `/importexport.php` | High
+19 | File | `/index.php` | Medium
+20 | File | `/Interface/DevManage/VM.php` | High
+21 | File | `/main/webservices/additional_webservices.php` | High
+22 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+23 | File | `/net/bluetooth/rfcomm/core.C` | High
+24 | File | `/pdf` | Low
+25 | File | `/remote/put_file` | High
+26 | File | `/spip.php` | Medium
+27 | File | `/squashfs-root/etc_ro/custom.conf` | High
+28 | File | `/terminal/handle-command.php` | High
+29 | File | `/tmp/ppd.trace` | High
+30 | File | `/update-resource-data/` | High
+31 | File | `/uploads/tags.php` | High
+32 | File | `/user/inc/workidajax.php` | High
+33 | File | `/var/tmp/abrt/abrt-hax-coredump` | High
+34 | File | `2345MPCSafe.exe` | High
+35 | File | `adclick.php` | Medium
+36 | File | `add.php` | Low
+37 | File | `addressbook.update.php` | High
+38 | ... | ... | ...
 
-There are 349 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 322 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

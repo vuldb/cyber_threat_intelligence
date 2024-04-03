@@ -48,12 +48,12 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -66,38 +66,38 @@ ID | Type | Indicator | Confidence
 3 | File | `/addbill.php` | Medium
 4 | File | `/admin/admin_manage/delete` | High
 5 | File | `/admin/clientview.php` | High
-6 | File | `/admin/video/list` | High
-7 | File | `/adminlogin.asp` | High
-8 | File | `/application/index/controller/Icon.php` | High
-9 | File | `/apply/index.php` | High
-10 | File | `/boaform/device_reset.cgi` | High
-11 | File | `/cgi-bin/cstecgi.cgi` | High
-12 | File | `/cgi-bin/supervisor/CloudSetup.cgi` | High
-13 | File | `/collection/all` | High
-14 | File | `/config/php.ini` | High
-15 | File | `/dl/dl_sendmail.php` | High
-16 | File | `/drivers/net/ethernet/broadcom/tg3.c` | High
-17 | File | `/etc/passwd` | Medium
-18 | File | `/etc/qci/answers` | High
-19 | File | `/file-manager/rename.php` | High
-20 | File | `/forms/nslookupHandler` | High
-21 | File | `/forum/away.php` | High
-22 | File | `/function/booksave.php` | High
-23 | File | `/goform/form2userconfig.cgi` | High
-24 | File | `/gracemedia-media-player/templates/files/ajax_controller.php` | High
-25 | File | `/inc/campaign/campaign-delete.php` | High
-26 | File | `/include/file.php` | High
-27 | File | `/login` | Low
-28 | File | `/search.php` | Medium
-29 | File | `/sgmi/` | Low
-30 | File | `/sys/replicate/check` | High
-31 | File | `/SysInfo.htm` | Medium
-32 | File | `/tmp` | Low
-33 | File | `/uncpath/` | Medium
-34 | File | `/usr/lib/print/conv_fix` | High
+6 | File | `/admin/login.php` | High
+7 | File | `/admin/video/list` | High
+8 | File | `/adminlogin.asp` | High
+9 | File | `/application/index/controller/Icon.php` | High
+10 | File | `/apply/index.php` | High
+11 | File | `/boaform/device_reset.cgi` | High
+12 | File | `/cgi-bin/cstecgi.cgi` | High
+13 | File | `/cgi-bin/supervisor/CloudSetup.cgi` | High
+14 | File | `/collection/all` | High
+15 | File | `/config/php.ini` | High
+16 | File | `/dl/dl_sendmail.php` | High
+17 | File | `/drivers/net/ethernet/broadcom/tg3.c` | High
+18 | File | `/etc/passwd` | Medium
+19 | File | `/etc/qci/answers` | High
+20 | File | `/file-manager/rename.php` | High
+21 | File | `/forms/nslookupHandler` | High
+22 | File | `/forum/away.php` | High
+23 | File | `/function/booksave.php` | High
+24 | File | `/goform/form2userconfig.cgi` | High
+25 | File | `/goform/WifiWpsStart` | High
+26 | File | `/gracemedia-media-player/templates/files/ajax_controller.php` | High
+27 | File | `/inc/campaign/campaign-delete.php` | High
+28 | File | `/include/file.php` | High
+29 | File | `/login` | Low
+30 | File | `/search.php` | Medium
+31 | File | `/sgmi/` | Low
+32 | File | `/sys/replicate/check` | High
+33 | File | `/SysInfo.htm` | Medium
+34 | File | `/tmp` | Low
 35 | ... | ... | ...
 
-There are 295 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 299 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

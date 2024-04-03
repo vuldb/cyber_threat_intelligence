@@ -45,10 +45,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -64,36 +64,36 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin/products/controller.php?action=add` | High
 3 | File | `/admin/question/edit` | High
 4 | File | `/admin/students/manage.php` | High
-5 | File | `/api/` | Low
-6 | File | `/auth/register` | High
-7 | File | `/bifs/field_decode.c` | High
-8 | File | `/bin/proc.cgi` | High
-9 | File | `/bitrix/admin/ldap_server_edit.php` | High
-10 | File | `/book-services.php` | High
-11 | File | `/cgi-bin/system_mgr.cgi` | High
-12 | File | `/cgi-bin/wlogin.cgi` | High
-13 | File | `/common/run_cross_report.php` | High
-14 | File | `/Core/Ap4File.cpp` | High
-15 | File | `/csms/?page=contact_us` | High
-16 | File | `/dev/audio` | Medium
-17 | File | `/DS/LM_API/api/SelectionService/InsertQueryWithActiveRelationsReturnId` | High
-18 | File | `/DXR.axd` | Medium
-19 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-20 | File | `/en/blog-comment-4` | High
-21 | File | `/etc/crash` | Medium
-22 | File | `/etc/shadow` | Medium
-23 | File | `/EXCU_SHELL` | Medium
-24 | File | `/forum/away.php` | High
-25 | File | `/goform/addressNat` | High
-26 | File | `/goform/AddSysLogRule` | High
-27 | File | `/goform/NatStaticSetting` | High
-28 | File | `/goform/WifiBasicSet` | High
-29 | File | `/h/` | Low
-30 | File | `/index.php?module=configuration/application` | High
-31 | File | `/index.php?route=extension/module/so_filter_shop_by/filter_data` | High
+5 | File | `/advanced-tools/nova/bin/netwatch` | High
+6 | File | `/api/` | Low
+7 | File | `/auth/register` | High
+8 | File | `/bifs/field_decode.c` | High
+9 | File | `/bin/proc.cgi` | High
+10 | File | `/bitrix/admin/ldap_server_edit.php` | High
+11 | File | `/book-services.php` | High
+12 | File | `/cgi-bin/system_mgr.cgi` | High
+13 | File | `/cgi-bin/wlogin.cgi` | High
+14 | File | `/common/run_cross_report.php` | High
+15 | File | `/Core/Ap4File.cpp` | High
+16 | File | `/csms/?page=contact_us` | High
+17 | File | `/dev/audio` | Medium
+18 | File | `/DS/LM_API/api/SelectionService/InsertQueryWithActiveRelationsReturnId` | High
+19 | File | `/DXR.axd` | Medium
+20 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+21 | File | `/en/blog-comment-4` | High
+22 | File | `/etc/crash` | Medium
+23 | File | `/etc/shadow` | Medium
+24 | File | `/EXCU_SHELL` | Medium
+25 | File | `/forum/away.php` | High
+26 | File | `/goform/addressNat` | High
+27 | File | `/goform/AddSysLogRule` | High
+28 | File | `/goform/NatStaticSetting` | High
+29 | File | `/goform/WifiBasicSet` | High
+30 | File | `/h/` | Low
+31 | File | `/index.php?module=configuration/application` | High
 32 | ... | ... | ...
 
-There are 276 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 268 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

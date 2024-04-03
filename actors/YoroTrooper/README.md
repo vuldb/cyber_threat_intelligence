@@ -36,10 +36,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -76,17 +76,18 @@ ID | Type | Indicator | Confidence
 23 | File | `admin/moduleinterface.php` | High
 24 | File | `AdminViewError/AdminAddadmin` | High
 25 | File | `agentdisplay.php` | High
-26 | File | `and/or` | Low
-27 | File | `auction.cgi` | Medium
-28 | File | `authent.php4` | Medium
-29 | File | `autologin.jsp` | High
-30 | File | `axspawn.c` | Medium
-31 | File | `base_ag_main.php` | High
-32 | File | `base_qry_main.php` | High
-33 | File | `bigsam_guestbook.php` | High
-34 | ... | ... | ...
+26 | File | `agora.cgi` | Medium
+27 | File | `and/or` | Low
+28 | File | `auction.cgi` | Medium
+29 | File | `authent.php4` | Medium
+30 | File | `autologin.jsp` | High
+31 | File | `axspawn.c` | Medium
+32 | File | `base_ag_main.php` | High
+33 | File | `base_qry_main.php` | High
+34 | File | `bigsam_guestbook.php` | High
+35 | ... | ... | ...
 
-There are 295 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 297 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

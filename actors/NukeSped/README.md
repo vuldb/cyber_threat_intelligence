@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Nukesped:
 
 * [HK](https://vuldb.com/?country.hk)
+* [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [GB](https://vuldb.com/?country.gb)
 * ...
 
 There are 2 more country items available. Please use our online service to access the data.
@@ -34,10 +34,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-425 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -57,28 +57,28 @@ ID | Type | Indicator | Confidence
 6 | File | `/admin/login.php` | High
 7 | File | `/ad_js.php` | Medium
 8 | File | `/alerts/alertConfigField.php` | High
-9 | File | `/api/v1/terminal/sessions/?limit=1` | High
-10 | File | `/blog` | Low
-11 | File | `/config/myfield/test.php` | High
-12 | File | `/context/%2e/WEB-INF/web.xml` | High
-13 | File | `/core/conditions/AbstractWrapper.java` | High
-14 | File | `/data/remove` | Medium
-15 | File | `/debug/pprof` | Medium
-16 | File | `/etc/passwd` | Medium
-17 | File | `/face-recognition-php/facepay-master/camera.php` | High
-18 | File | `/forms/doLogin` | High
-19 | File | `/fuel/index.php/fuel/logs/items` | High
-20 | File | `/fuel/index.php/fuel/pages/items` | High
-21 | File | `/goform/aspForm` | High
-22 | File | `/image_zoom.php` | High
-23 | File | `/include/config.cache.php` | High
-24 | File | `/index.php` | Medium
-25 | File | `/lists/index.php` | High
-26 | File | `/mkshop/Men/profile.php` | High
-27 | File | `/param.file.tgz` | High
+9 | File | `/api/blade-log/api/list` | High
+10 | File | `/api/v1/terminal/sessions/?limit=1` | High
+11 | File | `/blog` | Low
+12 | File | `/config/myfield/test.php` | High
+13 | File | `/context/%2e/WEB-INF/web.xml` | High
+14 | File | `/core/conditions/AbstractWrapper.java` | High
+15 | File | `/data/remove` | Medium
+16 | File | `/debug/pprof` | Medium
+17 | File | `/etc/passwd` | Medium
+18 | File | `/face-recognition-php/facepay-master/camera.php` | High
+19 | File | `/forms/doLogin` | High
+20 | File | `/fuel/index.php/fuel/logs/items` | High
+21 | File | `/fuel/index.php/fuel/pages/items` | High
+22 | File | `/goform/aspForm` | High
+23 | File | `/image_zoom.php` | High
+24 | File | `/include/config.cache.php` | High
+25 | File | `/index.php` | Medium
+26 | File | `/lists/index.php` | High
+27 | File | `/mkshop/Men/profile.php` | High
 28 | ... | ... | ...
 
-There are 235 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 239 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

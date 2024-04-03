@@ -36,7 +36,7 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
@@ -57,31 +57,32 @@ ID | Type | Indicator | Confidence
 6 | File | `/admin/index2.html` | High
 7 | File | `/admin/project/update/2` | High
 8 | File | `/admin/upload/img` | High
-9 | File | `/api/authentication/login` | High
-10 | File | `/api/baskets/{name}` | High
-11 | File | `/api/jolokia org.jolokia.http.HttpRequestHandler#handlePostRequest` | High
-12 | File | `/api/wechat/app_auth` | High
-13 | File | `/api2/html/` | Medium
-14 | File | `/books` | Low
-15 | File | `/cas/logout` | Medium
-16 | File | `/cgi-bin/supervisor/CloudSetup.cgi` | High
-17 | File | `/cgi-bin/wlogin.cgi` | High
-18 | File | `/ckeditor/samples/old/ajax.html` | High
-19 | File | `/classes/Master.php` | High
-20 | File | `/classes/Master.php?f=delete_item` | High
-21 | File | `/classes/Master.php?f=delete_service` | High
-22 | File | `/classes/Master.php?f=save_service` | High
-23 | File | `/config/getuser` | High
-24 | File | `/contact.php` | Medium
-25 | File | `/controller/OnlinePreviewController.java` | High
-26 | File | `/controllers/api/user.php` | High
-27 | File | `/dayrui/My/Config/Install.txt` | High
-28 | File | `/debug/pprof` | Medium
-29 | File | `/designer/add/layout` | High
-30 | File | `/dialog/select_media.php` | High
-31 | ... | ... | ...
+9 | File | `/adminapi/system/crud` | High
+10 | File | `/api/authentication/login` | High
+11 | File | `/api/baskets/{name}` | High
+12 | File | `/api/jolokia org.jolokia.http.HttpRequestHandler#handlePostRequest` | High
+13 | File | `/api/wechat/app_auth` | High
+14 | File | `/api2/html/` | Medium
+15 | File | `/books` | Low
+16 | File | `/cas/logout` | Medium
+17 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
+18 | File | `/cgi-bin/supervisor/CloudSetup.cgi` | High
+19 | File | `/cgi-bin/wlogin.cgi` | High
+20 | File | `/ckeditor/samples/old/ajax.html` | High
+21 | File | `/classes/Master.php` | High
+22 | File | `/classes/Master.php?f=delete_item` | High
+23 | File | `/classes/Master.php?f=delete_service` | High
+24 | File | `/classes/Master.php?f=save_service` | High
+25 | File | `/config/getuser` | High
+26 | File | `/contact.php` | Medium
+27 | File | `/controller/OnlinePreviewController.java` | High
+28 | File | `/controllers/api/user.php` | High
+29 | File | `/dayrui/My/Config/Install.txt` | High
+30 | File | `/debug/pprof` | Medium
+31 | File | `/designer/add/layout` | High
+32 | ... | ... | ...
 
-There are 264 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 277 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

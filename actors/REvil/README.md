@@ -48,7 +48,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22, CWE-425 | Path Traversal | High
-2 | T1055 | CWE-74 | Injection | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
@@ -77,28 +77,28 @@ ID | Type | Indicator | Confidence
 13 | File | `/etc/shadow` | Medium
 14 | File | `/forum/away.php` | High
 15 | File | `/goform/SetNetControlList` | High
-16 | File | `/HNAP1` | Low
-17 | File | `/HNAP1/` | Low
-18 | File | `/hrm/controller/employee.php` | High
-19 | File | `/index.php/weblinks-categories` | High
-20 | File | `/modules/profile/index.php` | High
-21 | File | `/movie.php` | Medium
-22 | File | `/public/login.htm` | High
-23 | File | `/service/v1/createUser` | High
-24 | File | `/show_news.php` | High
-25 | File | `/src/chatbotapp/chatWindow.java` | High
-26 | File | `/system?action=ServiceAdmin` | High
-27 | File | `/uncpath/` | Medium
-28 | File | `/web/entry/en/address/adrsSetUserWizard.cgi` | High
-29 | File | `/_vti_bin/_vti_log` | High
-30 | File | `adclick.php` | Medium
-31 | File | `add_quiz.php` | Medium
-32 | File | `admin.asp` | Medium
-33 | File | `admin/categories_industry.php` | High
-34 | File | `admin/class-woo-popup-admin.php` | High
+16 | File | `/goform/SetStaticRouteCfg` | High
+17 | File | `/HNAP1` | Low
+18 | File | `/HNAP1/` | Low
+19 | File | `/hrm/controller/employee.php` | High
+20 | File | `/index.php/weblinks-categories` | High
+21 | File | `/modules/profile/index.php` | High
+22 | File | `/movie.php` | Medium
+23 | File | `/public/login.htm` | High
+24 | File | `/service/v1/createUser` | High
+25 | File | `/show_news.php` | High
+26 | File | `/src/chatbotapp/chatWindow.java` | High
+27 | File | `/system?action=ServiceAdmin` | High
+28 | File | `/uncpath/` | Medium
+29 | File | `/web/entry/en/address/adrsSetUserWizard.cgi` | High
+30 | File | `/_vti_bin/_vti_log` | High
+31 | File | `adclick.php` | Medium
+32 | File | `add_quiz.php` | Medium
+33 | File | `admin.asp` | Medium
+34 | File | `admin/categories_industry.php` | High
 35 | ... | ... | ...
 
-There are 296 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 298 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

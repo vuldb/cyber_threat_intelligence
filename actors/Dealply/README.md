@@ -11,6 +11,9 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [IT](https://vuldb.com/?country.it)
 * [DE](https://vuldb.com/?country.de)
 * [US](https://vuldb.com/?country.us)
+* ...
+
+There are 1 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -35,10 +38,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23, CWE-425 | Pathname Traversal | High
+1 | T1006 | CWE-22, CWE-23 | Path Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80, CWE-86 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -62,7 +65,7 @@ ID | Type | Indicator | Confidence
 10 | File | `/bin/webs` | Medium
 11 | File | `/boaform/device_reset.cgi` | High
 12 | File | `/boaform/wlan_basic_set.cgi` | High
-13 | File | `/boafrm/formFilter` | High
+13 | File | `/cgi-bin/cstecgi.cgi` | High
 14 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
 15 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
 16 | File | `/cgi-bin/ping.cgi` | High
@@ -77,13 +80,12 @@ ID | Type | Indicator | Confidence
 25 | File | `/file_manager/admin/save_user.php` | High
 26 | File | `/get-artifact` | High
 27 | File | `/goForm/aspForm` | High
-28 | File | `/goform/formTcpipSetup` | High
-29 | File | `/HNAP1/` | Low
-30 | File | `/inc/jquery/uploadify/uploadify.php` | High
-31 | File | `/index.php/archives/1/comment` | High
-32 | ... | ... | ...
+28 | File | `/goform/execCommand` | High
+29 | File | `/goform/formTcpipSetup` | High
+30 | File | `/goform/GetParentControlInfo` | High
+31 | ... | ... | ...
 
-There are 272 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 261 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

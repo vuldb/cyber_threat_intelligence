@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [GB](https://vuldb.com/?country.gb)
+* [TR](https://vuldb.com/?country.tr)
 * ...
 
-There are 21 more country items available. Please use our online service to access the data.
+There are 23 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -53,7 +53,7 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-25, CWE-36, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
@@ -75,12 +75,12 @@ ID | Type | Indicator | Confidence
 7 | File | `/adminapi/system/crud` | High
 8 | File | `/adminapi/system/file/openfile` | High
 9 | File | `/admin_route/dec_service_credits.php` | High
-10 | File | `/api/baskets/{name}` | High
-11 | File | `/api/download` | High
-12 | File | `/api/v1/alerts` | High
-13 | File | `/api/v1/terminal/sessions/?limit=1` | High
-14 | File | `/api/v4/teams//channels/deleted` | High
-15 | File | `/b2b-supermarket/shopping-cart` | High
+10 | File | `/api/download` | High
+11 | File | `/api/v1/alerts` | High
+12 | File | `/api/v1/terminal/sessions/?limit=1` | High
+13 | File | `/api/v4/teams//channels/deleted` | High
+14 | File | `/b2b-supermarket/shopping-cart` | High
+15 | File | `/cancel.php` | Medium
 16 | File | `/catalog/admin/categories.php?cPath=&action=new_product` | High
 17 | File | `/category.php` | High
 18 | File | `/categorypage.php` | High
@@ -89,10 +89,10 @@ ID | Type | Indicator | Confidence
 21 | File | `/cgi-bin/vitogate.cgi` | High
 22 | File | `/cgi-bin/wlogin.cgi` | High
 23 | File | `/change-language/de_DE` | High
-24 | File | `/Content/Template/root/reverse-shell.aspx` | High
-25 | File | `/debug/pprof` | Medium
-26 | File | `/devinfo` | Medium
-27 | File | `/dist/index.js` | High
+24 | File | `/debug/pprof` | Medium
+25 | File | `/devinfo` | Medium
+26 | File | `/dist/index.js` | High
+27 | File | `/download` | Medium
 28 | File | `/Duty/AjaxHandle/UploadFloodPlanFileUpdate.ashx` | High
 29 | File | `/fcgi/scrut_fcgi.fcgi` | High
 30 | File | `/forum/away.php` | High
@@ -117,7 +117,7 @@ ID | Type | Indicator | Confidence
 49 | File | `/spip.php` | Medium
 50 | ... | ... | ...
 
-There are 431 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 437 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

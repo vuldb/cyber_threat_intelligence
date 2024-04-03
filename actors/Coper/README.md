@@ -26,16 +26,17 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [2.57.149.175](https://vuldb.com/?ip.2.57.149.175) | - | - | High
 4 | [31.41.244.41](https://vuldb.com/?ip.31.41.244.41) | - | - | High
 5 | [31.41.244.178](https://vuldb.com/?ip.31.41.244.178) | - | - | High
-6 | [45.93.20.145](https://vuldb.com/?ip.45.93.20.145) | - | - | High
-7 | [62.122.184.165](https://vuldb.com/?ip.62.122.184.165) | - | - | High
-8 | [62.233.50.113](https://vuldb.com/?ip.62.233.50.113) | - | - | High
-9 | [83.97.73.144](https://vuldb.com/?ip.83.97.73.144) | - | - | High
-10 | [83.97.73.195](https://vuldb.com/?ip.83.97.73.195) | - | - | High
-11 | [83.97.73.246](https://vuldb.com/?ip.83.97.73.246) | - | - | High
-12 | [83.97.73.254](https://vuldb.com/?ip.83.97.73.254) | - | - | High
-13 | ... | ... | ... | ...
+6 | [45.9.74.60](https://vuldb.com/?ip.45.9.74.60) | - | - | High
+7 | [45.9.74.136](https://vuldb.com/?ip.45.9.74.136) | - | - | High
+8 | [45.9.74.166](https://vuldb.com/?ip.45.9.74.166) | - | - | High
+9 | [45.93.20.145](https://vuldb.com/?ip.45.93.20.145) | - | - | High
+10 | [62.122.184.165](https://vuldb.com/?ip.62.122.184.165) | - | - | High
+11 | [62.233.50.113](https://vuldb.com/?ip.62.233.50.113) | - | - | High
+12 | [83.97.73.125](https://vuldb.com/?ip.83.97.73.125) | - | - | High
+13 | [83.97.73.144](https://vuldb.com/?ip.83.97.73.144) | - | - | High
+14 | ... | ... | ... | ...
 
-There are 46 more IOC items available. Please use our online service to access the data.
+There are 51 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -45,7 +46,7 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
@@ -109,9 +110,10 @@ ID | Type | Indicator | Confidence
 49 | File | `/php-sms/admin/quotes/manage_remark.php` | High
 50 | File | `/products/details.asp` | High
 51 | File | `/secure/QueryComponent!Default.jspa` | High
-52 | ... | ... | ...
+52 | File | `/show_news.php` | High
+53 | ... | ... | ...
 
-There are 452 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 458 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

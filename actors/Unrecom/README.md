@@ -32,7 +32,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-2 | T1055 | CWE-74 | Injection | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
 
@@ -48,24 +48,26 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin/action/edit_chicken.php` | High
 3 | File | `/admin/action/new-feed.php` | High
 4 | File | `/admin/add-category.php` | High
-5 | File | `/admin/book_row.php` | High
-6 | File | `/admin/borrow_add.php` | High
-7 | File | `/admin/cms_admin.php` | High
-8 | File | `/admin/config/uploadicon.php` | High
-9 | File | `/admin/pages/update_go.php` | High
-10 | File | `/admin/return_add.php` | High
-11 | File | `/admin/students.php` | High
-12 | File | `/admin/students/manage_academic.php` | High
-13 | File | `/admin/subject.php` | High
-14 | File | `/ajax.php?action=read_msg` | High
-15 | File | `/api/authentication/login` | High
-16 | File | `/app/api/controller/collect.php` | High
-17 | File | `/application/index/controller/Databasesource.php` | High
-18 | File | `/apply/index.php` | High
-19 | File | `/apps/login_auth.php` | High
-20 | ... | ... | ...
+5 | File | `/admin/applicants/controller.php` | High
+6 | File | `/admin/booking-bwdates-reports-details.php` | High
+7 | File | `/admin/book_row.php` | High
+8 | File | `/admin/borrow_add.php` | High
+9 | File | `/admin/cms_admin.php` | High
+10 | File | `/admin/config/uploadicon.php` | High
+11 | File | `/admin/employee/controller.php` | High
+12 | File | `/admin/employee/index.php` | High
+13 | File | `/admin/forgot-password.php` | High
+14 | File | `/admin/pages/update_go.php` | High
+15 | File | `/admin/return_add.php` | High
+16 | File | `/admin/students.php` | High
+17 | File | `/admin/students/manage_academic.php` | High
+18 | File | `/admin/subject.php` | High
+19 | File | `/admin/user/controller.php` | High
+20 | File | `/ajax.php?action=read_msg` | High
+21 | File | `/api/authentication/login` | High
+22 | ... | ... | ...
 
-There are 163 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 183 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

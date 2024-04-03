@@ -43,7 +43,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22, CWE-24 | Path Traversal | High
-2 | T1055 | CWE-74 | Injection | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
@@ -101,14 +101,14 @@ ID | Type | Indicator | Confidence
 43 | File | `/donor-wall` | Medium
 44 | File | `/ebics-server/ebics.aspx` | High
 45 | File | `/esbus/servlet/GetSQLData` | High
-46 | File | `/film-rating.php` | High
-47 | File | `/forum/away.php` | High
-48 | File | `/friends/ajax_invite` | High
-49 | File | `/goform/aspForm` | High
-50 | File | `/goform/formLogin` | High
+46 | File | `/EXCU_SHELL` | Medium
+47 | File | `/film-rating.php` | High
+48 | File | `/forum/away.php` | High
+49 | File | `/friends/ajax_invite` | High
+50 | File | `/goform/aspForm` | High
 51 | ... | ... | ...
 
-There are 444 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 446 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

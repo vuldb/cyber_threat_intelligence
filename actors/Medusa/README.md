@@ -40,7 +40,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-425 | Path Traversal | High
-2 | T1055 | CWE-74 | Injection | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
 
@@ -56,29 +56,29 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin/delete_user.php` | High
 3 | File | `/admin/index.php` | High
 4 | File | `/admin/maintenance/view_designation.php` | High
-5 | File | `/alphaware/summary.php` | High
-6 | File | `/api/baskets/{name}` | High
-7 | File | `/cas/logout` | Medium
-8 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-9 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-10 | File | `/collection/all` | High
-11 | File | `/common/info.cgi` | High
-12 | File | `/cupseasylive/countrymodify.php` | High
-13 | File | `/cupseasylive/taxstructurelist.php` | High
-14 | File | `/filex/read-raw` | High
-15 | File | `/forum/away.php` | High
-16 | File | `/jeecg-boot/jmreport/show` | High
-17 | File | `/LoginRegistration.php` | High
-18 | File | `/member/ad.php?action=ad` | High
-19 | File | `/oauth/idp/.well-known/openid-configuration` | High
-20 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-21 | File | `/owa/auth/logon.aspx` | High
-22 | File | `/rest/api/latest/user/avatar/temporary` | High
-23 | File | `/spip.php` | Medium
-24 | File | `/src/admin/content_batchup_action.php` | High
+5 | File | `/admin/sales/view_details.php` | High
+6 | File | `/alphaware/summary.php` | High
+7 | File | `/api/baskets/{name}` | High
+8 | File | `/cas/logout` | Medium
+9 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+10 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
+11 | File | `/collection/all` | High
+12 | File | `/common/info.cgi` | High
+13 | File | `/cupseasylive/countrymodify.php` | High
+14 | File | `/cupseasylive/taxstructurelist.php` | High
+15 | File | `/filex/read-raw` | High
+16 | File | `/forum/away.php` | High
+17 | File | `/hardware` | Medium
+18 | File | `/jeecg-boot/jmreport/show` | High
+19 | File | `/LoginRegistration.php` | High
+20 | File | `/member/ad.php?action=ad` | High
+21 | File | `/oauth/idp/.well-known/openid-configuration` | High
+22 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+23 | File | `/owa/auth/logon.aspx` | High
+24 | File | `/protocol/index.php` | High
 25 | ... | ... | ...
 
-There are 206 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 213 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

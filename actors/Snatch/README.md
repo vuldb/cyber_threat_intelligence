@@ -37,11 +37,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-36 | Pathname Traversal | High
-2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-36 | Path Traversal | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
 There are 21 more TTP items available. Please use our online service to access the data.
@@ -73,36 +73,36 @@ ID | Type | Indicator | Confidence
 19 | File | `/change-language/de_DE` | High
 20 | File | `/cms/category/list` | High
 21 | File | `/College/admin/teacher.php` | High
-22 | File | `/dashboard/settings` | High
-23 | File | `/Default/Bd` | Medium
-24 | File | `/dipam/athlete-profile.php` | High
-25 | File | `/dipam/save-delegates.php` | High
-26 | File | `/Duty/AjaxHandle/Write/UploadFile.ashx` | High
-27 | File | `/editbrand.php` | High
-28 | File | `/employeeview.php` | High
-29 | File | `/etc/target` | Medium
-30 | File | `/export` | Low
-31 | File | `/getcfg.php` | Medium
-32 | File | `/goform/WriteFacMac` | High
-33 | File | `/home/kickPlayer` | High
-34 | File | `/home/masterConsole` | High
-35 | File | `/index.php` | Medium
-36 | File | `/lists/admin/user.php` | High
-37 | File | `/manager?action=getlogcat` | High
-38 | File | `/mkshop/Men/profile.php` | High
-39 | File | `/movie.php` | Medium
-40 | File | `/news-portal-script/information.php` | High
-41 | File | `/pages/apply_vacancy.php` | High
-42 | File | `/param.file.tgz` | High
-43 | File | `/paysystem/branch.php` | High
-44 | File | `/paysystem/datatable.php` | High
-45 | File | `/php-opos/index.php` | High
-46 | File | `/preview.php` | Medium
-47 | File | `/protocol/nsasg6.0.tgz` | High
-48 | File | `/rest/api/2/user/picker` | High
+22 | File | `/dashboard/message` | High
+23 | File | `/dashboard/settings` | High
+24 | File | `/Default/Bd` | Medium
+25 | File | `/dipam/athlete-profile.php` | High
+26 | File | `/dipam/save-delegates.php` | High
+27 | File | `/Duty/AjaxHandle/Write/UploadFile.ashx` | High
+28 | File | `/editbrand.php` | High
+29 | File | `/employeeview.php` | High
+30 | File | `/etc/target` | Medium
+31 | File | `/export` | Low
+32 | File | `/get.php` | Medium
+33 | File | `/getcfg.php` | Medium
+34 | File | `/goform/WriteFacMac` | High
+35 | File | `/home/kickPlayer` | High
+36 | File | `/home/masterConsole` | High
+37 | File | `/index.php` | Medium
+38 | File | `/lists/admin/user.php` | High
+39 | File | `/manager?action=getlogcat` | High
+40 | File | `/mkshop/Men/profile.php` | High
+41 | File | `/movie.php` | Medium
+42 | File | `/news-portal-script/information.php` | High
+43 | File | `/pages/apply_vacancy.php` | High
+44 | File | `/param.file.tgz` | High
+45 | File | `/paysystem/branch.php` | High
+46 | File | `/paysystem/datatable.php` | High
+47 | File | `/php-opos/index.php` | High
+48 | File | `/preview.php` | Medium
 49 | ... | ... | ...
 
-There are 424 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 428 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

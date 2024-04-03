@@ -4,16 +4,22 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.golang](https://vuldb.com/?actor.golang)
 
+## Campaigns
+
+The following _campaigns_ are known and can be associated with Golang:
+
+* CVE-2022-26134
+
 ## Countries
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Golang:
 
 * [RU](https://vuldb.com/?country.ru)
 * [US](https://vuldb.com/?country.us)
-* [IT](https://vuldb.com/?country.it)
+* [LU](https://vuldb.com/?country.lu)
 * ...
 
-There are 10 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -28,9 +34,10 @@ ID | IP address | Hostname | Campaign | Confidence
 5 | [34.138.96.23](https://vuldb.com/?ip.34.138.96.23) | 23.96.138.34.bc.googleusercontent.com | - | Medium
 6 | [34.141.146.114](https://vuldb.com/?ip.34.141.146.114) | 114.146.141.34.bc.googleusercontent.com | - | Medium
 7 | [34.141.245.25](https://vuldb.com/?ip.34.141.245.25) | 25.245.141.34.bc.googleusercontent.com | - | Medium
-8 | ... | ... | ... | ...
+8 | [34.145.89.174](https://vuldb.com/?ip.34.145.89.174) | 174.89.145.34.bc.googleusercontent.com | - | Medium
+9 | ... | ... | ... | ...
 
-There are 29 more IOC items available. Please use our online service to access the data.
+There are 31 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -38,13 +45,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23, CWE-35 | Path Traversal | High
-2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+1 | T1006 | CWE-22, CWE-35 | Path Traversal | High
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 16 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -53,30 +61,43 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `//proc/kcore` | Medium
-2 | File | `/admin.php/news/admin/topic/save` | High
-3 | File | `/admin/login.php` | High
-4 | File | `/admin/store.php` | High
-5 | File | `/admin_ping.htm` | High
-6 | File | `/ample/app/action/edit_product.php` | High
-7 | File | `/api/dashboard/activity` | High
-8 | File | `/app/index/controller/Common.php` | High
-9 | File | `/cgi-bin/cstecgi.cgi` | High
-10 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-11 | File | `/FTPDiag.asp` | Medium
-12 | File | `/goform/setAutoPing` | High
-13 | File | `/LandingPages/api/otp/send?id=[ID][ampersand]method=sms` | High
-14 | File | `/me` | Low
-15 | File | `/myprofile.php` | High
-16 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-17 | File | `/opennds_auth/` | High
-18 | ... | ... | ...
+2 | File | `/admin-manage-user.php` | High
+3 | File | `/admin/?page=product/manage_product&id=2` | High
+4 | File | `/admin/assign/assign.php` | High
+5 | File | `/admin/index.PHP` | High
+6 | File | `/admin/login.php` | High
+7 | File | `/Admin/News.php` | High
+8 | File | `/admin/store.php` | High
+9 | File | `/admin/view_sendlist.php` | High
+10 | File | `/admin_ping.htm` | High
+11 | File | `/ample/app/action/edit_product.php` | High
+12 | File | `/api/dashboard/activity` | High
+13 | File | `/api/sys/login` | High
+14 | File | `/app/index/controller/Common.php` | High
+15 | File | `/baseOpLog.do` | High
+16 | File | `/catalog_add.php` | High
+17 | File | `/cgi-bin/cstecgi.cgi` | High
+18 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+19 | File | `/classes/Users.php` | High
+20 | File | `/confirm` | Medium
+21 | File | `/debug/pprof` | Medium
+22 | File | `/dede/archives_do.php` | High
+23 | File | `/dede/group_store.php` | High
+24 | File | `/dialog/select_media.php` | High
+25 | File | `/ext/collect/filter_text.do` | High
+26 | File | `/foms/all-orders.php?status=Cancelled%20by%20Customer` | High
+27 | File | `/FTPDiag.asp` | Medium
+28 | File | `/goform/setAutoPing` | High
+29 | File | `/goform/setMacFilterCfg` | High
+30 | ... | ... | ...
 
-There are 143 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 252 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://www.cadosecurity.com/spinning-yarn-a-new-linux-malware-campaign-targets-docker-apache-hadoop-redis-and-confluence/
 * https://www.fortinet.com/blog/threat-research/new-golang-ransomware-targeting-linux-systems.html
 * https://www.trellix.com/about/newsroom/stories/research/skuld-the-infostealer-that-speaks-golang/
 

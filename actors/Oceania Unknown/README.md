@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [IO](https://vuldb.com/?country.io)
 * ...
 
-There are 19 more country items available. Please use our online service to access the data.
+There are 20 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -3765,8 +3765,8 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-25, CWE-36, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -3784,45 +3784,42 @@ ID | Type | Indicator | Confidence
 4 | File | `/admin.php/appcenter/local.html?type=addon` | High
 5 | File | `/admin.php?p=/Area/index#tab=t2` | High
 6 | File | `/admin/` | Low
-7 | File | `/admin/action/delete-vaccine.php` | High
-8 | File | `/admin/list_ipAddressPolicy.php` | High
-9 | File | `/admin/view_sendlist.php` | High
-10 | File | `/adminapi/system/crud` | High
-11 | File | `/adminapi/system/file/openfile` | High
-12 | File | `/admin_route/dec_service_credits.php` | High
-13 | File | `/api/blade-log/api/list` | High
-14 | File | `/api/controllers/admin/app/AppController.php` | High
-15 | File | `/api/controllers/common/UploadsController.php` | High
-16 | File | `/api/filemanager` | High
-17 | File | `/api/v4/teams//channels/deleted` | High
-18 | File | `/app/controller/Setup.php` | High
-19 | File | `/app/Http/Controllers/ImageController.php` | High
-20 | File | `/app/index/controller/Common.php` | High
-21 | File | `/application/index/common.php` | High
-22 | File | `/application/index/controller/Databasesource.php` | High
-23 | File | `/application/index/controller/Pay.php` | High
-24 | File | `/assets/php/upload.php` | High
-25 | File | `/aux` | Low
-26 | File | `/cgi-bin/cstecgi.cgi` | High
-27 | File | `/churchcrm/WhyCameEditor.php` | High
-28 | File | `/cupseasylive/stockissuancelinecreate.php` | High
-29 | File | `/debug/pprof` | Medium
-30 | File | `/devinfo` | Medium
-31 | File | `/DXR.axd` | Medium
-32 | File | `/etc/passwd` | Medium
-33 | File | `/forum/away.php` | High
-34 | File | `/general/email/outbox/delete.php` | High
-35 | File | `/geoserver/gwc/rest.html` | High
-36 | File | `/goform/setAutoPing` | High
-37 | File | `/home/kickPlayer` | High
-38 | File | `/importexport.php` | High
-39 | File | `/include/file.php` | High
-40 | File | `/index.jsp#settings` | High
-41 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-42 | File | `/oauth/idp/.well-known/openid-configuration` | High
-43 | ... | ... | ...
+7 | File | `/admin/list_ipAddressPolicy.php` | High
+8 | File | `/admin/view_sendlist.php` | High
+9 | File | `/adminapi/system/crud` | High
+10 | File | `/adminapi/system/file/openfile` | High
+11 | File | `/admin_route/dec_service_credits.php` | High
+12 | File | `/api/blade-log/api/list` | High
+13 | File | `/api/controllers/admin/app/AppController.php` | High
+14 | File | `/api/controllers/common/UploadsController.php` | High
+15 | File | `/api/filemanager` | High
+16 | File | `/api/v4/teams//channels/deleted` | High
+17 | File | `/app/controller/Setup.php` | High
+18 | File | `/application/index/common.php` | High
+19 | File | `/application/index/controller/Databasesource.php` | High
+20 | File | `/application/index/controller/Pay.php` | High
+21 | File | `/assets/php/upload.php` | High
+22 | File | `/cancel.php` | Medium
+23 | File | `/category.php` | High
+24 | File | `/cgi-bin/cstecgi.cgi` | High
+25 | File | `/cupseasylive/stockissuancelinecreate.php` | High
+26 | File | `/debug/pprof` | Medium
+27 | File | `/devinfo` | Medium
+28 | File | `/download` | Medium
+29 | File | `/DXR.axd` | Medium
+30 | File | `/etc/passwd` | Medium
+31 | File | `/forum/away.php` | High
+32 | File | `/general/email/outbox/delete.php` | High
+33 | File | `/geoserver/gwc/rest.html` | High
+34 | File | `/goform/net\_Web\_get_value` | High
+35 | File | `/goform/setAutoPing` | High
+36 | File | `/importexport.php` | High
+37 | File | `/include/file.php` | High
+38 | File | `/index.jsp#settings` | High
+39 | File | `/itbox_pi/networksafe.php?a=set` | High
+40 | ... | ... | ...
 
-There are 376 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 348 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

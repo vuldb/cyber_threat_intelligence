@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [US](https://vuldb.com/?country.us)
 * ...
 
-There are 13 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -405,9 +405,9 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-36 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94 | Argument Injection | High
 5 | ... | ... | ... | ...
 
@@ -419,33 +419,37 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/.env` | Low
-2 | File | `/Account/login.php` | High
-3 | File | `/admin/` | Low
-4 | File | `/admin/orders/view_order.php` | High
-5 | File | `/adminapi/system/crud` | High
-6 | File | `/adminapi/system/file/openfile` | High
-7 | File | `/api /v3/auth` | High
-8 | File | `/category.php` | High
-9 | File | `/cgi-bin/cstecgi.cgi` | High
-10 | File | `/cgi-bin/wlogin.cgi` | High
-11 | File | `/data/remove` | Medium
-12 | File | `/debuginfo.htm` | High
-13 | File | `/ECT_Provider/` | High
-14 | File | `/Employer/EditProfile.php` | High
-15 | File | `/fax/fax_send.php` | High
-16 | File | `/forum/away.php` | High
-17 | File | `/goform/` | Medium
-18 | File | `/goform/net\_Web\_get_value` | High
-19 | File | `/h/autoSaveDraft` | High
-20 | File | `/home.php` | Medium
-21 | File | `/index.jsp#settings` | High
-22 | File | `/investigation/delete/` | High
-23 | File | `/myprofile.php` | High
-24 | File | `/php/ping.php` | High
-25 | ... | ... | ...
+1 | File | `/admin.php` | Medium
+2 | File | `/admin/application-bwdates-reports-details.php` | High
+3 | File | `/admin/index.php` | High
+4 | File | `/admin/list_ipAddressPolicy.php` | High
+5 | File | `/admin/orders/view_order.php` | High
+6 | File | `/api /v3/auth` | High
+7 | File | `/apps/reg_go.php` | High
+8 | File | `/billing/bill/edit/` | High
+9 | File | `/cancel.php` | Medium
+10 | File | `/category.php` | High
+11 | File | `/cgi-bin/cstecgi.cgi` | High
+12 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
+13 | File | `/cgi-bin/wlogin.cgi` | High
+14 | File | `/classes/Login.php` | High
+15 | File | `/classes/Users.php` | High
+16 | File | `/debuginfo.htm` | High
+17 | File | `/Employer/EditProfile.php` | High
+18 | File | `/forum/away.php` | High
+19 | File | `/goform/` | Medium
+20 | File | `/goform/net\_Web\_get_value` | High
+21 | File | `/goform/SetStaticRouteCfg` | High
+22 | File | `/h/autoSaveDraft` | High
+23 | File | `/home.php` | Medium
+24 | File | `/Home/Index` | Medium
+25 | File | `/index.php` | Medium
+26 | File | `/investigation/delete/` | High
+27 | File | `/member/chat.php` | High
+28 | File | `/member/member_edit.php` | High
+29 | ... | ... | ...
 
-There are 209 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 241 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

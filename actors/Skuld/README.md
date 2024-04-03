@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Skuld:
 
 * [US](https://vuldb.com/?country.us)
-* [SV](https://vuldb.com/?country.sv)
-* [RU](https://vuldb.com/?country.ru)
+* [CN](https://vuldb.com/?country.cn)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 10 more country items available. Please use our online service to access the data.
+There are 3 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -36,14 +36,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-29, CWE-35 | Pathname Traversal | High
+1 | T1006 | CWE-22, CWE-23, CWE-29, CWE-35 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -63,38 +63,37 @@ ID | Type | Indicator | Confidence
 10 | File | `/admin/slide/update` | High
 11 | File | `/alumni/admin/ajax.php?action=save_settings` | High
 12 | File | `/ample/app/action/edit_product.php` | High
-13 | File | `/api/dashboard/activity` | High
-14 | File | `/appliance/users?action=edit` | High
-15 | File | `/apply.cgi` | Medium
-16 | File | `/blog` | Low
-17 | File | `/browse` | Low
-18 | File | `/bypass/config` | High
-19 | File | `/catalog/compare` | High
-20 | File | `/cgi-bin/cstecgi.cgi` | High
-21 | File | `/classes/Master.php?f=delete_brand` | High
-22 | File | `/classes/Master.php?f=delete_img` | High
-23 | File | `/classes/Master.php?f=save_category` | High
-24 | File | `/config/api/v1/reboot` | High
-25 | File | `/dev/audio` | Medium
-26 | File | `/dev/kmem` | Medium
-27 | File | `/DiscoveryProcess/Service/Admin.svc/getGridColumnStructure` | High
-28 | File | `/etc/hosts.deny` | High
-29 | File | `/forum/away.php` | High
-30 | File | `/goform/SetOnlineDevName` | High
-31 | File | `/goform/WifiBasicSet` | High
-32 | File | `/goform/WifiExtraSet` | High
-33 | File | `/items/search` | High
-34 | File | `/kelas/data` | Medium
-35 | File | `/kruxton/navbar.php` | High
-36 | File | `/load.php` | Medium
-37 | File | `/login/index.php` | High
-38 | File | `/metrics` | Medium
-39 | File | `/Moosikay/order.php` | High
-40 | File | `/objects/getSpiritsFromVideo.php` | High
-41 | File | `/opt/Citrix/ICAClient/util/ctxwebhelper` | High
-42 | ... | ... | ...
+13 | File | `/api/controllers/merchant/app/ComboController.php` | High
+14 | File | `/api/dashboard/activity` | High
+15 | File | `/api/system/sessions` | High
+16 | File | `/appliance/users?action=edit` | High
+17 | File | `/apply.cgi` | Medium
+18 | File | `/blog` | Low
+19 | File | `/browse` | Low
+20 | File | `/bypass/config` | High
+21 | File | `/catalog/compare` | High
+22 | File | `/cgi-bin/cstecgi.cgi` | High
+23 | File | `/classes/Master.php?f=delete_brand` | High
+24 | File | `/classes/Master.php?f=delete_img` | High
+25 | File | `/classes/Master.php?f=save_category` | High
+26 | File | `/config/api/v1/reboot` | High
+27 | File | `/cupseasylive/grnprint.php` | High
+28 | File | `/cupseasylive/stock.php` | High
+29 | File | `/cupseasylive/stockissuancedisplay.php` | High
+30 | File | `/cupseasylive/taxstructurelist.php` | High
+31 | File | `/dev/audio` | Medium
+32 | File | `/dev/kmem` | Medium
+33 | File | `/DiscoveryProcess/Service/Admin.svc/getGridColumnStructure` | High
+34 | File | `/etc/hosts.deny` | High
+35 | File | `/forum/away.php` | High
+36 | File | `/goform/SetOnlineDevName` | High
+37 | File | `/goform/WifiExtraSet` | High
+38 | File | `/include/file.php` | High
+39 | File | `/items/search` | High
+40 | File | `/kelas/data` | Medium
+41 | ... | ... | ...
 
-There are 361 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 354 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

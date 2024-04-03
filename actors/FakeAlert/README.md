@@ -49,11 +49,11 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/getcfg.php` | Medium
 2 | File | `/uncpath/` | Medium
-3 | File | `books.php` | Medium
-4 | File | `coders/tiff.c` | High
+3 | File | `arch/x86/kernel/cpu/bugs.c` | High
+4 | File | `books.php` | Medium
 5 | ... | ... | ...
 
-There are 31 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 32 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

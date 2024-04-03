@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 15 more country items available. Please use our online service to access the data.
+There are 16 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -42,7 +42,7 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
@@ -75,54 +75,54 @@ ID | Type | Indicator | Confidence
 18 | File | `/bl-plugins/backup/plugin.php` | High
 19 | File | `/catalog_add.php` | High
 20 | File | `/cgi-bin/nightled.cgi` | High
-21 | File | `/cgi/get_param.cgi` | High
-22 | File | `/classes/Users.php` | High
-23 | File | `/common/download_agent_installer.php` | High
-24 | File | `/common/info.cgi` | High
-25 | File | `/common/run_cross_report.php` | High
-26 | File | `/confirm` | Medium
-27 | File | `/controller/Index.php` | High
-28 | File | `/cupseasylive/countrymodify.php` | High
-29 | File | `/cwc/login` | Medium
-30 | File | `/debug/pprof` | Medium
-31 | File | `/dede/group_store.php` | High
-32 | File | `/dialog/select_media.php` | High
-33 | File | `/doorgets/app/requests/user/emailingRequest.php` | High
-34 | File | `/etc/master.passwd` | High
-35 | File | `/etc/passwd` | Medium
-36 | File | `/EXCU_SHELL` | Medium
-37 | File | `/ext/collect/filter_text.do` | High
-38 | File | `/fax/fax_send.php` | High
-39 | File | `/foms/all-orders.php?status=Cancelled%20by%20Customer` | High
-40 | File | `/forum/away.php` | High
-41 | File | `/goform/addressNat` | High
-42 | File | `/goform/NatStaticSetting` | High
-43 | File | `/goform/setMacFilterCfg` | High
-44 | File | `/goform/SysToolChangePwd` | High
-45 | File | `/goform/WifiBasicSet` | High
-46 | File | `/HNAP1` | Low
-47 | File | `/home/resume/index` | High
-48 | File | `/includes/lib/tree.php` | High
-49 | File | `/index.php` | Medium
-50 | File | `/index.php?action=seomatic/file/seo-file-link` | High
-51 | File | `/intern/controller.php` | High
-52 | File | `/LoginRegistration.php` | High
-53 | File | `/main?cmd=invalid_browser` | High
-54 | File | `/manager?action=getlogcat` | High
-55 | File | `/member/ad.php?action=ad` | High
-56 | File | `/my_photo_gallery/image.php` | High
-57 | File | `/ofrs/admin/?page=reports` | High
-58 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-59 | File | `/page.php` | Medium
-60 | File | `/pages/permit/permit.php` | High
-61 | File | `/patient/doctors.php` | High
-62 | File | `/pet_shop/classes/Master.php?f=delete_category` | High
-63 | File | `/php-sms/admin/?page=services/manage_service` | High
-64 | File | `/phpinventory/editcategory.php` | High
-65 | File | `/phpinventory/edituser.php` | High
+21 | File | `/cgi-bin/wlogin.cgi` | High
+22 | File | `/cgi/get_param.cgi` | High
+23 | File | `/classes/Users.php` | High
+24 | File | `/common/download_agent_installer.php` | High
+25 | File | `/common/info.cgi` | High
+26 | File | `/common/run_cross_report.php` | High
+27 | File | `/confirm` | Medium
+28 | File | `/controller/Index.php` | High
+29 | File | `/cupseasylive/countrymodify.php` | High
+30 | File | `/cwc/login` | Medium
+31 | File | `/debug/pprof` | Medium
+32 | File | `/dede/archives_do.php` | High
+33 | File | `/dede/group_store.php` | High
+34 | File | `/dialog/select_media.php` | High
+35 | File | `/doorgets/app/requests/user/emailingRequest.php` | High
+36 | File | `/etc/master.passwd` | High
+37 | File | `/etc/passwd` | Medium
+38 | File | `/EXCU_SHELL` | Medium
+39 | File | `/ext/collect/filter_text.do` | High
+40 | File | `/fax/fax_send.php` | High
+41 | File | `/foms/all-orders.php?status=Cancelled%20by%20Customer` | High
+42 | File | `/forum/away.php` | High
+43 | File | `/goform/addressNat` | High
+44 | File | `/goform/NatStaticSetting` | High
+45 | File | `/goform/setMacFilterCfg` | High
+46 | File | `/goform/SysToolChangePwd` | High
+47 | File | `/goform/WifiBasicSet` | High
+48 | File | `/goform/WifiWpsStart` | High
+49 | File | `/HNAP1` | Low
+50 | File | `/home/resume/index` | High
+51 | File | `/includes/lib/tree.php` | High
+52 | File | `/index.php` | Medium
+53 | File | `/index.php?action=seomatic/file/seo-file-link` | High
+54 | File | `/intern/controller.php` | High
+55 | File | `/LoginRegistration.php` | High
+56 | File | `/main?cmd=invalid_browser` | High
+57 | File | `/manager?action=getlogcat` | High
+58 | File | `/member/ad.php?action=ad` | High
+59 | File | `/my_photo_gallery/image.php` | High
+60 | File | `/ofrs/admin/?page=reports` | High
+61 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+62 | File | `/page.php` | Medium
+63 | File | `/pages/permit/permit.php` | High
+64 | File | `/patient/doctors.php` | High
+65 | File | `/pet_shop/classes/Master.php?f=delete_category` | High
 66 | ... | ... | ...
 
-There are 575 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 579 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

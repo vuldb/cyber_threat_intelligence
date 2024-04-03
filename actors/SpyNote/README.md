@@ -14,9 +14,9 @@ The following _campaigns_ are known and can be associated with SpyNote:
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with SpyNote:
 
-* [PL](https://vuldb.com/?country.pl)
 * [PT](https://vuldb.com/?country.pt)
 * [SV](https://vuldb.com/?country.sv)
+* [PL](https://vuldb.com/?country.pl)
 * ...
 
 There are 9 more country items available. Please use our online service to access the data.
@@ -34,7 +34,7 @@ ID | IP address | Hostname | Campaign | Confidence
 5 | [80.85.143.7](https://vuldb.com/?ip.80.85.143.7) | vm4714915.43ssd.had.wf | - | High
 6 | ... | ... | ... | ...
 
-There are 19 more IOC items available. Please use our online service to access the data.
+There are 20 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -44,12 +44,13 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22, CWE-23, CWE-24, CWE-36, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+6 | T1068 | CWE-250, CWE-264, CWE-269, CWE-271, CWE-284 | Execution with Unnecessary Privileges | High
+7 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -61,82 +62,84 @@ ID | Type | Indicator | Confidence
 2 | File | `/academy/tutor/filter` | High
 3 | File | `/admin.php/appcenter/local.html?type=addon` | High
 4 | File | `/admin.php/update/getFile.html` | High
-5 | File | `/admin/?page=user/manage` | High
-6 | File | `/admin/about-us.php` | High
-7 | File | `/admin/addemployee.php` | High
-8 | File | `/admin/addproduct.php` | High
-9 | File | `/admin/add_user_modal.php` | High
-10 | File | `/admin/ajax.php` | High
-11 | File | `/admin/api/theme-edit/` | High
-12 | File | `/admin/configure.php` | High
-13 | File | `/admin/content/index` | High
-14 | File | `/admin/edit-accepted-appointment.php` | High
-15 | File | `/admin/edit-doc.php` | High
-16 | File | `/admin/fields/manage_field.php` | High
-17 | File | `/admin/inquiries/view_inquiry.php` | High
-18 | File | `/admin/lab.php` | High
-19 | File | `/admin/list_addr_fwresource_ip.php` | High
-20 | File | `/admin/maintenance/brand.php` | High
-21 | File | `/admin/modal_add_product.php` | High
-22 | File | `/admin/positions_add.php` | High
-23 | File | `/admin/positions_delete.php` | High
-24 | File | `/admin/products/index.php` | High
-25 | File | `/admin/project/update/2` | High
-26 | File | `/admin/reminders/manage_reminder.php` | High
-27 | File | `/admin/reports/index.php` | High
-28 | File | `/admin/transactions/track_shipment.php` | High
-29 | File | `/admin/usermanagement.php` | High
-30 | File | `/adms/classes/Users.php` | High
-31 | File | `/alphaware/summary.php` | High
-32 | File | `/ample/app/action/edit_product.php` | High
-33 | File | `/api/admin/store/product/list` | High
-34 | File | `/api/browserextension/UpdatePassword/` | High
-35 | File | `/api/upload` | Medium
-36 | File | `/api/v1/bait/set` | High
-37 | File | `/api/v2/open/rowsInfo` | High
-38 | File | `/api/v2/open/tablesInfo` | High
-39 | File | `/bilal final/edit_stud.php` | High
-40 | File | `/blog` | Low
-41 | File | `/cardo/api` | Medium
-42 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
-43 | File | `/cgi-bin/touchlist_sync.cgi` | High
-44 | File | `/change-language/de_DE` | High
-45 | File | `/ci_spms/admin/category` | High
-46 | File | `/classes/Master.php?f=delete_img` | High
-47 | File | `/classes/Master.php?f=delete_inquiry` | High
-48 | File | `/classes/Master.php?f=save_category` | High
-49 | File | `/classes/Master.php?f=save_inquiry` | High
-50 | File | `/core/tools/customblock.php` | High
-51 | File | `/dashboard/contact` | High
-52 | File | `/dashboard/settings` | High
-53 | File | `/data/0/admin.txt` | High
-54 | File | `/dayrui/My/View/main.html` | High
-55 | File | `/Default/Bd` | Medium
-56 | File | `/diagnostic/login.php` | High
-57 | File | `/dipam/save-delegates.php` | High
-58 | File | `/ecommerce/admin/user/controller.php?action=edit` | High
-59 | File | `/editbrand.php` | High
-60 | File | `/edituser.php` | High
-61 | File | `/feeds/post/publish` | High
-62 | File | `/finance/help/en/frameset.htm` | High
-63 | File | `/gasmark/assets/myimages/oneWord.php` | High
-64 | File | `/goform/aspForm` | High
-65 | File | `/goForm/aspForm` | High
-66 | File | `/goform/RgDhcp` | High
-67 | File | `/goform/RgUrlBlock.asp` | High
-68 | File | `/home/cavesConsole` | High
-69 | File | `/home/courses` | High
-70 | File | `/hrm/employeeview.php` | High
-71 | File | `/hslist` | Low
-72 | File | `/importexport.php` | High
-73 | File | `/include/dialog/select_templets_post.php` | High
-74 | File | `/index.asp` | Medium
-75 | File | `/index.php` | Medium
-76 | File | `/index.php?controller=GzUser&action=edit&id=1` | High
-77 | File | `/index.php?zone=settings` | High
-78 | ... | ... | ...
+5 | File | `/admin/` | Low
+6 | File | `/admin/?page=user/manage` | High
+7 | File | `/admin/about-us.php` | High
+8 | File | `/admin/addemployee.php` | High
+9 | File | `/admin/addproduct.php` | High
+10 | File | `/admin/add_user_modal.php` | High
+11 | File | `/admin/ajax.php` | High
+12 | File | `/admin/api/theme-edit/` | High
+13 | File | `/admin/booking-search.php` | High
+14 | File | `/admin/company/index.php` | High
+15 | File | `/admin/configure.php` | High
+16 | File | `/admin/contactus.php` | High
+17 | File | `/admin/content/index` | High
+18 | File | `/admin/edit-accepted-appointment.php` | High
+19 | File | `/admin/edit-doc.php` | High
+20 | File | `/admin/edit-services.php` | High
+21 | File | `/admin/fields/manage_field.php` | High
+22 | File | `/admin/inquiries/view_inquiry.php` | High
+23 | File | `/admin/lab.php` | High
+24 | File | `/admin/list_addr_fwresource_ip.php` | High
+25 | File | `/admin/maintenance/brand.php` | High
+26 | File | `/admin/manage-users.php` | High
+27 | File | `/admin/modal_add_product.php` | High
+28 | File | `/admin/positions_add.php` | High
+29 | File | `/admin/positions_delete.php` | High
+30 | File | `/admin/products/index.php` | High
+31 | File | `/admin/project/update/2` | High
+32 | File | `/admin/regester.php` | High
+33 | File | `/admin/reminders/manage_reminder.php` | High
+34 | File | `/admin/reports/index.php` | High
+35 | File | `/admin/transactions/track_shipment.php` | High
+36 | File | `/admin/usermanagement.php` | High
+37 | File | `/admin/vacancy/index.php` | High
+38 | File | `/adminpanel/admin/facebox_modal/updateExaminee.php` | High
+39 | File | `/adms/classes/Users.php` | High
+40 | File | `/alphaware/summary.php` | High
+41 | File | `/ample/app/action/edit_product.php` | High
+42 | File | `/api/admin/store/product/list` | High
+43 | File | `/api/browserextension/UpdatePassword/` | High
+44 | File | `/api/client/editemedia.php` | High
+45 | File | `/api/upload` | Medium
+46 | File | `/api/v2/open/rowsInfo` | High
+47 | File | `/api/v2/open/tablesInfo` | High
+48 | File | `/app/api/controller/caiji.php` | High
+49 | File | `/app/api/controller/default/File.php` | High
+50 | File | `/bilal final/edit_stud.php` | High
+51 | File | `/blog` | Low
+52 | File | `/cgi-bin/cstecgi.cgi` | High
+53 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
+54 | File | `/cgi-bin/touchlist_sync.cgi` | High
+55 | File | `/change-language/de_DE` | High
+56 | File | `/ci_spms/admin/category` | High
+57 | File | `/classes/Master.php?f=delete_img` | High
+58 | File | `/classes/Master.php?f=delete_inquiry` | High
+59 | File | `/classes/Master.php?f=save_category` | High
+60 | File | `/classes/Master.php?f=save_inquiry` | High
+61 | File | `/clientLogin` | Medium
+62 | File | `/core/tools/customblock.php` | High
+63 | File | `/dashboard/settings` | High
+64 | File | `/data/0/admin.txt` | High
+65 | File | `/dayrui/My/View/main.html` | High
+66 | File | `/Default/Bd` | Medium
+67 | File | `/diagnostic/login.php` | High
+68 | File | `/dipam/save-delegates.php` | High
+69 | File | `/ecommerce/admin/user/controller.php?action=edit` | High
+70 | File | `/editbrand.php` | High
+71 | File | `/edituser.php` | High
+72 | File | `/feeds/post/publish` | High
+73 | File | `/gasmark/assets/myimages/oneWord.php` | High
+74 | File | `/goform/aspForm` | High
+75 | File | `/goForm/aspForm` | High
+76 | File | `/goform/execCommand` | High
+77 | File | `/goform/fromRouteStatic` | High
+78 | File | `/goform/RgDhcp` | High
+79 | File | `/goform/RgUrlBlock.asp` | High
+80 | ... | ... | ...
 
-There are 686 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 700 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -151,6 +154,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://www.cleafy.com/cleafy-labs/spynote-continues-to-attack-financial-institutions
 * https://www.threatfabric.com/blogs/spynote-rat-targeting-financial-institutions.html
 * https://www.virustotal.com/gui/file/0fb1e4edd3b9779a977d1987ead7978a44008deef70b0d92f3dc875ee5230371/detection
+* https://www.virustotal.com/gui/file/2d4d3b47a339aa24ab2d94ac549ce05f1a59eacf51697221517ed2d0364b87e9/detection
 * https://www.virustotal.com/gui/file/179eaaba880bb5b8371e2826aef9975f8f94df75f3d384fe581b0a296b943094/behavior
 
 ## Literature

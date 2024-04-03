@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [IL](https://vuldb.com/?country.il)
+* [TR](https://vuldb.com/?country.tr)
 * ...
 
-There are 19 more country items available. Please use our online service to access the data.
+There are 21 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -156,7 +156,7 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-25, CWE-36, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
@@ -188,37 +188,38 @@ ID | Type | Indicator | Confidence
 17 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
 18 | File | `/b2b-supermarket/shopping-cart` | High
 19 | File | `/bitrix/admin/ldap_server_edit.php` | High
-20 | File | `/category.php` | High
-21 | File | `/categorypage.php` | High
-22 | File | `/cgi-bin/cstecgi.cgi` | High
-23 | File | `/cgi-bin/vitogate.cgi` | High
-24 | File | `/change-language/de_DE` | High
-25 | File | `/debug/pprof` | Medium
-26 | File | `/devinfo` | Medium
-27 | File | `/dist/index.js` | High
-28 | File | `/fcgi/scrut_fcgi.fcgi` | High
-29 | File | `/forms/doLogin` | High
-30 | File | `/forum/away.php` | High
-31 | File | `/geoserver/gwc/rest.html` | High
-32 | File | `/goform/formSysCmd` | High
-33 | File | `/HNAP1` | Low
-34 | File | `/hosts/firewall/ip` | High
-35 | File | `/index.jsp#settings` | High
-36 | File | `/index.php/ccm/system/file/upload` | High
-37 | File | `/listplace/user/ticket/create` | High
-38 | File | `/log/decodmail.php` | High
-39 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
-40 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-41 | File | `/novel/author/list` | High
-42 | File | `/oauth/idp/.well-known/openid-configuration` | High
-43 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
-44 | File | `/php/ping.php` | High
-45 | File | `/proxy` | Low
-46 | File | `/RPS2019Service/status.html` | High
-47 | File | `/s/index.php?action=statistics` | High
-48 | ... | ... | ...
+20 | File | `/cancel.php` | Medium
+21 | File | `/category.php` | High
+22 | File | `/categorypage.php` | High
+23 | File | `/cgi-bin/cstecgi.cgi` | High
+24 | File | `/cgi-bin/vitogate.cgi` | High
+25 | File | `/change-language/de_DE` | High
+26 | File | `/debug/pprof` | Medium
+27 | File | `/devinfo` | Medium
+28 | File | `/dist/index.js` | High
+29 | File | `/download` | Medium
+30 | File | `/fcgi/scrut_fcgi.fcgi` | High
+31 | File | `/forms/doLogin` | High
+32 | File | `/forum/away.php` | High
+33 | File | `/geoserver/gwc/rest.html` | High
+34 | File | `/goform/formSysCmd` | High
+35 | File | `/HNAP1` | Low
+36 | File | `/hosts/firewall/ip` | High
+37 | File | `/index.jsp#settings` | High
+38 | File | `/index.php/ccm/system/file/upload` | High
+39 | File | `/listplace/user/ticket/create` | High
+40 | File | `/log/decodmail.php` | High
+41 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
+42 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+43 | File | `/novel/author/list` | High
+44 | File | `/oauth/idp/.well-known/openid-configuration` | High
+45 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
+46 | File | `/php/ping.php` | High
+47 | File | `/proxy` | Low
+48 | File | `/RPS2019Service/status.html` | High
+49 | ... | ... | ...
 
-There are 420 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 428 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

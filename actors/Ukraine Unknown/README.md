@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
-* [IL](https://vuldb.com/?country.il)
+* [FR](https://vuldb.com/?country.fr)
 * ...
 
-There are 12 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -1131,13 +1131,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-36 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
+3 | T1055 | CWE-74, CWE-643 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94 | Argument Injection | High
-5 | ... | ... | ... | ...
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -1145,30 +1146,38 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/#ilang=DE&b=c_smartenergy_swgroups` | High
-2 | File | `/Account/login.php` | High
-3 | File | `/admin` | Low
-4 | File | `/admin/` | Low
-5 | File | `/admin/edit-admin.php` | High
-6 | File | `/Admin/login.php` | High
-7 | File | `/admin/operations/expense_category.php` | High
-8 | File | `/adminapi/system/crud` | High
-9 | File | `/adminapi/system/file/openfile` | High
-10 | File | `/api /v3/auth` | High
-11 | File | `/app/controller/Setup.php` | High
-12 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
+1 | File | `/admin` | Low
+2 | File | `/admin-manage-user.php` | High
+3 | File | `/admin.php` | Medium
+4 | File | `/admin/edit-services.php` | High
+5 | File | `/admin/list_ipAddressPolicy.php` | High
+6 | File | `/admin/operations/expense_category.php` | High
+7 | File | `/admin/update-users.php` | High
+8 | File | `/amssplus/modules/book/main/select_send_2.php` | High
+9 | File | `/api /v3/auth` | High
+10 | File | `/bin/sh` | Low
+11 | File | `/cancel.php` | Medium
+12 | File | `/category.php` | High
 13 | File | `/cgi-bin/cstecgi.cgi` | High
-14 | File | `/cgi-bin/nobody/VerifyCode.cgi` | High
-15 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-16 | File | `/cgi.cgi` | Medium
-17 | File | `/classes/Users.php` | High
-18 | File | `/counter/index2.php` | High
-19 | File | `/dashboard/Cinvoice/manage_invoice` | High
-20 | File | `/data/remove` | Medium
-21 | File | `/edit.php` | Medium
-22 | ... | ... | ...
+14 | File | `/check_availability.php` | High
+15 | File | `/classes/Users.php` | High
+16 | File | `/conversation/ajax-html/send_log?folder_id=&thread_id=` | High
+17 | File | `/dashboard/Cinvoice/manage_invoice` | High
+18 | File | `/download` | Medium
+19 | File | `/edit-task.php` | High
+20 | File | `/endpoint/update-tracker.php` | High
+21 | File | `/forum/away.php` | High
+22 | File | `/goform/execCommand` | High
+23 | File | `/goform/net\_Web\_get_value` | High
+24 | File | `/goform/setcfm` | High
+25 | File | `/goform/SetFirewallCfg` | High
+26 | File | `/goform/setsambacfg` | High
+27 | File | `/goform/SetSpeedWan` | High
+28 | File | `/goform/SetStaticRouteCfg` | High
+29 | File | `/goform/SysToolRestoreSet` | High
+30 | ... | ... | ...
 
-There are 184 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 257 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

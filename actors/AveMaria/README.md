@@ -38,7 +38,7 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Path Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
@@ -69,44 +69,44 @@ ID | Type | Indicator | Confidence
 16 | File | `/application/plugins/controller/Upload.php` | High
 17 | File | `/assets/components/gallery/connector.php` | High
 18 | File | `/cgi-bin/cstecgi.cgi` | High
-19 | File | `/classes/master.php?f=delete_order` | High
-20 | File | `/course/filterRecords/` | High
-21 | File | `/ctcprotocol/Protocol` | High
-22 | File | `/device/device=140/tab=wifi/view` | High
-23 | File | `/download/image` | High
-24 | File | `/etc/sudoers` | Medium
-25 | File | `/ext/collect/find_text.do` | High
-26 | File | `/Forms/` | Low
-27 | File | `/framework/modules/users/models/user.php` | High
-28 | File | `/ghost/preview` | High
-29 | File | `/HNAP1/SetAccessPointMode` | High
-30 | File | `/index.php` | Medium
-31 | File | `/mcategory.php` | High
-32 | File | `/member/picture/album` | High
-33 | File | `/mysql/api/diags.php` | High
-34 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-35 | File | `/oauth/idp/.well-known/openid-configuration` | High
-36 | File | `/phpcollab/users/edituser.php` | High
-37 | File | `/plain` | Low
-38 | File | `/products/details.asp` | High
-39 | File | `/product_list.php` | High
-40 | File | `/public/login.htm` | High
-41 | File | `/replication` | Medium
-42 | File | `/service/upload` | High
-43 | File | `/services/details.asp` | High
-44 | File | `/showfile.php` | High
-45 | File | `/trx_addons/v2/get/sc_layout` | High
-46 | File | `/uncpath/` | Medium
-47 | File | `/upload/catalog/controller/account/password.php` | High
-48 | File | `/usr/bin/pkexec` | High
-49 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
-50 | File | `/wbms/classes/Master.php?f=delete_client` | High
-51 | File | `/web/api/app/Controller/HostController.php` | High
-52 | File | `/WebMstr7/servlet/mstrWeb` | High
-53 | File | `/wp-admin/admin-ajax.php` | High
+19 | File | `/cgi-bin/wlogin.cgi` | High
+20 | File | `/classes/master.php?f=delete_order` | High
+21 | File | `/course/filterRecords/` | High
+22 | File | `/ctcprotocol/Protocol` | High
+23 | File | `/device/device=140/tab=wifi/view` | High
+24 | File | `/download/image` | High
+25 | File | `/etc/sudoers` | Medium
+26 | File | `/ext/collect/find_text.do` | High
+27 | File | `/Forms/` | Low
+28 | File | `/framework/modules/users/models/user.php` | High
+29 | File | `/ghost/preview` | High
+30 | File | `/HNAP1/SetAccessPointMode` | High
+31 | File | `/index.php` | Medium
+32 | File | `/mcategory.php` | High
+33 | File | `/member/picture/album` | High
+34 | File | `/mysql/api/diags.php` | High
+35 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+36 | File | `/oauth/idp/.well-known/openid-configuration` | High
+37 | File | `/phpcollab/users/edituser.php` | High
+38 | File | `/plain` | Low
+39 | File | `/products/details.asp` | High
+40 | File | `/product_list.php` | High
+41 | File | `/public/login.htm` | High
+42 | File | `/replication` | Medium
+43 | File | `/service/upload` | High
+44 | File | `/services/details.asp` | High
+45 | File | `/showfile.php` | High
+46 | File | `/trx_addons/v2/get/sc_layout` | High
+47 | File | `/uncpath/` | Medium
+48 | File | `/upload/catalog/controller/account/password.php` | High
+49 | File | `/usr/bin/pkexec` | High
+50 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
+51 | File | `/wbms/classes/Master.php?f=delete_client` | High
+52 | File | `/web/api/app/Controller/HostController.php` | High
+53 | File | `/WebMstr7/servlet/mstrWeb` | High
 54 | ... | ... | ...
 
-There are 472 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 474 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [IL](https://vuldb.com/?country.il)
 * ...
 
-There are 19 more country items available. Please use our online service to access the data.
+There are 17 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -96,13 +96,12 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-25, CWE-36 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+4 | T1059 | CWE-94 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
-7 | ... | ... | ... | ...
+6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -110,27 +109,27 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `%SYSTEMDRIVE%\node_modules\.bin\wmic.exe` | High
-2 | File | `/#ilang=DE&b=c_smartenergy_swgroups` | High
-3 | File | `/Account/login.php` | High
-4 | File | `/admin/` | Low
-5 | File | `/adminapi/system/crud` | High
-6 | File | `/adminapi/system/file/openfile` | High
-7 | File | `/admin_route/dec_service_credits.php` | High
-8 | File | `/api/admin/system/store/order/list` | High
-9 | File | `/api/trackedEntityInstances` | High
-10 | File | `/api/v4/teams//channels/deleted` | High
-11 | File | `/aux` | Low
-12 | File | `/b2b-supermarket/shopping-cart` | High
+1 | File | `/#ilang=DE&b=c_smartenergy_swgroups` | High
+2 | File | `/Account/login.php` | High
+3 | File | `/admin/` | Low
+4 | File | `/adminapi/system/crud` | High
+5 | File | `/adminapi/system/file/openfile` | High
+6 | File | `/admin_route/dec_service_credits.php` | High
+7 | File | `/api/trackedEntityInstances` | High
+8 | File | `/api/v4/teams//channels/deleted` | High
+9 | File | `/aux` | Low
+10 | File | `/b2b-supermarket/shopping-cart` | High
+11 | File | `/cancel.php` | Medium
+12 | File | `/category.php` | High
 13 | File | `/cgi-bin/cstecgi.cgi` | High
 14 | File | `/change-language/de_DE` | High
 15 | File | `/data/remove` | Medium
 16 | File | `/debug/pprof` | Medium
 17 | File | `/devinfo` | Medium
 18 | File | `/dist/index.js` | High
-19 | File | `/etc/passwd` | Medium
-20 | File | `/forum/away.php` | High
-21 | File | `/goform/formSysCmd` | High
+19 | File | `/download` | Medium
+20 | File | `/etc/passwd` | Medium
+21 | File | `/forum/away.php` | High
 22 | File | `/goform/net\_Web\_get_value` | High
 23 | File | `/hosts/firewall/ip` | High
 24 | File | `/index.jsp#settings` | High
@@ -140,21 +139,25 @@ ID | Type | Indicator | Confidence
 28 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
 29 | File | `/oauth/idp/.well-known/openid-configuration` | High
 30 | File | `/php/ping.php` | High
-31 | File | `/s/index.php?action=statistics` | High
-32 | File | `/Setting/change_password_save` | High
-33 | File | `/signup.php` | Medium
-34 | File | `/st_reg.php` | Medium
-35 | File | `/supplier.php` | High
-36 | File | `/system/role/list` | High
-37 | File | `/tmp/ppd.trace` | High
-38 | File | `/TMS/admin/setting/mail/createorupdate` | High
+31 | File | `/product/savenewproduct.php?flag=1` | High
+32 | File | `/s/index.php?action=statistics` | High
+33 | File | `/Setting/change_password_save` | High
+34 | File | `/signup.php` | Medium
+35 | File | `/st_reg.php` | Medium
+36 | File | `/supplier.php` | High
+37 | File | `/system/role/list` | High
+38 | File | `/tmp/ppd.trace` | High
 39 | File | `/upload/ueditorConfig?action=config` | High
 40 | File | `/uploads/` | Medium
 41 | File | `/user/inc/workidajax.php` | High
 42 | File | `/user/index/findpass?do=4` | High
-43 | ... | ... | ...
+43 | File | `/view-pass-detail.php` | High
+44 | File | `/WebResource/resource` | High
+45 | File | `/ZHGXTV/index.php/admin/index/web_upload_template.html` | High
+46 | File | `ActBar.ocx` | Medium
+47 | ... | ... | ...
 
-There are 368 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 404 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

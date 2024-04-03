@@ -45,7 +45,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
-2 | T1055 | CWE-74 | Injection | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
@@ -59,45 +59,46 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `..\WWWRoot\CustomPages\aspshell.asp` | High
-2 | File | `/cgi-bin/viewcert` | High
-3 | File | `/console/ConsolePage/Master.html` | High
-4 | File | `/cstecgi.cgi` | Medium
-5 | File | `/forum/away.php` | High
-6 | File | `/freelance/resume_list` | High
-7 | File | `/img/main.cgi` | High
-8 | File | `/index.php` | Medium
-9 | File | `/pms/admin/crimes/manage_crime.php` | High
-10 | File | `/sitecore/shell/Invoke.aspx` | High
-11 | File | `/spip.php` | Medium
-12 | File | `/TemplateManager/indexExternalLocation.jsp` | High
-13 | File | `/uncpath/` | Medium
-14 | File | `/userman/inbox.php` | High
-15 | File | `/usr/sbin/nagios` | High
-16 | File | `/var/log/nginx` | High
-17 | File | `/var/run/docker.sock` | High
-18 | File | `/web/api/v1/upload/UploadHandler.php` | High
-19 | File | `/_vti_bin/_vti_log` | High
-20 | File | `adclick.php` | Medium
-21 | File | `addentry.php` | Medium
-22 | File | `addtocart.asp` | High
-23 | File | `add_bookmark.php` | High
-24 | File | `admin.php` | Medium
-25 | File | `admin/adm/test.php` | High
-26 | File | `admin/admin.shtml` | High
-27 | File | `admin/general.php` | High
-28 | File | `admincp.php?app=prop&do=add` | High
-29 | File | `administrator/components/com_media/helpers/media.php` | High
-30 | File | `adminlogin.asp` | High
-31 | File | `Adminstrator/Users/Edit/` | High
-32 | File | `advsearch.php` | High
-33 | File | `agora.cgi` | Medium
-34 | File | `AppDMClient` | Medium
-35 | File | `append/override_content_security_policy_directives` | High
-36 | File | `authent.php4` | Medium
-37 | File | `base/ErrorHandler.php` | High
-38 | ... | ... | ...
+2 | File | `/agc/vicidial.php` | High
+3 | File | `/cgi-bin/viewcert` | High
+4 | File | `/console/ConsolePage/Master.html` | High
+5 | File | `/cstecgi.cgi` | Medium
+6 | File | `/forum/away.php` | High
+7 | File | `/freelance/resume_list` | High
+8 | File | `/img/main.cgi` | High
+9 | File | `/index.php` | Medium
+10 | File | `/pms/admin/crimes/manage_crime.php` | High
+11 | File | `/sitecore/shell/Invoke.aspx` | High
+12 | File | `/spip.php` | Medium
+13 | File | `/TemplateManager/indexExternalLocation.jsp` | High
+14 | File | `/uncpath/` | Medium
+15 | File | `/userman/inbox.php` | High
+16 | File | `/usr/sbin/nagios` | High
+17 | File | `/var/log/nginx` | High
+18 | File | `/var/run/docker.sock` | High
+19 | File | `/web/api/v1/upload/UploadHandler.php` | High
+20 | File | `/_vti_bin/_vti_log` | High
+21 | File | `adclick.php` | Medium
+22 | File | `addentry.php` | Medium
+23 | File | `addtocart.asp` | High
+24 | File | `add_bookmark.php` | High
+25 | File | `admin.php` | Medium
+26 | File | `admin/adm/test.php` | High
+27 | File | `admin/admin.shtml` | High
+28 | File | `admin/general.php` | High
+29 | File | `admincp.php?app=prop&do=add` | High
+30 | File | `administrator/components/com_media/helpers/media.php` | High
+31 | File | `adminlogin.asp` | High
+32 | File | `Adminstrator/Users/Edit/` | High
+33 | File | `advsearch.php` | High
+34 | File | `agora.cgi` | Medium
+35 | File | `AppDMClient` | Medium
+36 | File | `append/override_content_security_policy_directives` | High
+37 | File | `authent.php4` | Medium
+38 | File | `base/ErrorHandler.php` | High
+39 | ... | ... | ...
 
-There are 326 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 334 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

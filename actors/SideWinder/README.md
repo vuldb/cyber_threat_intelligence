@@ -74,7 +74,7 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
@@ -127,14 +127,14 @@ ID | Type | Indicator | Confidence
 37 | File | `/novel/author/list` | High
 38 | File | `/php-sms/admin/quotes/manage_remark.php` | High
 39 | File | `/php/ping.php` | High
-40 | File | `/rapi/read_url` | High
-41 | File | `/scripts/unlock_tasks.php` | High
-42 | File | `/secure/QueryComponent!Default.jspa` | High
-43 | File | `/squashfs-root/etc_ro/custom.conf` | High
+40 | File | `/scripts/unlock_tasks.php` | High
+41 | File | `/secure/QueryComponent!Default.jspa` | High
+42 | File | `/squashfs-root/etc_ro/custom.conf` | High
+43 | File | `/src/dede/vote_edit.php` | High
 44 | File | `/staff/edit_book_details.php` | High
 45 | ... | ... | ...
 
-There are 387 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 390 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

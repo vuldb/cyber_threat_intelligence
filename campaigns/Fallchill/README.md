@@ -55,7 +55,7 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-29, CWE-35, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
@@ -79,35 +79,35 @@ ID | Type | Indicator | Confidence
 9 | File | `/cgi-bin/cstecgi.cgi` | High
 10 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
 11 | File | `/cgi-bin/wlogin.cgi` | High
-12 | File | `/common/info.cgi` | High
-13 | File | `/core/conditions/AbstractWrapper.java` | High
-14 | File | `/core/tools/update_menu.php` | High
-15 | File | `/dayrui/My/Config/Install.txt` | High
-16 | File | `/DesignTools/CssEditor.aspx` | High
-17 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
-18 | File | `/DXR.axd` | Medium
-19 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-20 | File | `/endpoint/add-user.php` | High
-21 | File | `/forum/away.php` | High
-22 | File | `/forums/editforum.php` | High
-23 | File | `/goform/` | Medium
-24 | File | `/gracemedia-media-player/templates/files/ajax_controller.php` | High
-25 | File | `/home/courses` | High
-26 | File | `/hrm/controller/employee.php` | High
-27 | File | `/hrm/employeeview.php` | High
-28 | File | `/importexport.php` | High
-29 | File | `/index.php?menu=asterisk_cli` | High
-30 | File | `/install/` | Medium
-31 | File | `/ipms/imageConvert/image` | High
-32 | File | `/mc` | Low
-33 | File | `/modals/class_form.php` | High
-34 | File | `/modules/projects/vw_files.php` | High
-35 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
-36 | File | `/php-opos/index.php` | High
-37 | File | `/project/tasks/list` | High
+12 | File | `/core/conditions/AbstractWrapper.java` | High
+13 | File | `/core/tools/update_menu.php` | High
+14 | File | `/dayrui/My/Config/Install.txt` | High
+15 | File | `/DesignTools/CssEditor.aspx` | High
+16 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
+17 | File | `/DXR.axd` | Medium
+18 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+19 | File | `/endpoint/add-user.php` | High
+20 | File | `/forum/away.php` | High
+21 | File | `/forums/editforum.php` | High
+22 | File | `/goform/` | Medium
+23 | File | `/gracemedia-media-player/templates/files/ajax_controller.php` | High
+24 | File | `/home/courses` | High
+25 | File | `/hrm/controller/employee.php` | High
+26 | File | `/hrm/employeeview.php` | High
+27 | File | `/importexport.php` | High
+28 | File | `/index.php?menu=asterisk_cli` | High
+29 | File | `/install/` | Medium
+30 | File | `/ipms/imageConvert/image` | High
+31 | File | `/mc` | Low
+32 | File | `/modals/class_form.php` | High
+33 | File | `/modules/projects/vw_files.php` | High
+34 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
+35 | File | `/php-opos/index.php` | High
+36 | File | `/project/tasks/list` | High
+37 | File | `/search.php` | Medium
 38 | ... | ... | ...
 
-There are 331 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 322 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

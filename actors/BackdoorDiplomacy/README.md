@@ -44,12 +44,12 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -76,34 +76,35 @@ ID | Type | Indicator | Confidence
 17 | File | `/ctcprotocol/Protocol` | High
 18 | File | `/dashboard/menu-list.php` | High
 19 | File | `/data/remove` | Medium
-20 | File | `/ebics-server/ebics.aspx` | High
-21 | File | `/ffos/classes/Master.php?f=save_category` | High
-22 | File | `/filemanager/upload/drop` | High
-23 | File | `/forum/away.php` | High
-24 | File | `/goform/net\_Web\_get_value` | High
-25 | File | `/goforms/rlminfo` | High
-26 | File | `/GponForm/usb_restore_Form?script/` | High
-27 | File | `/group1/uploa` | High
-28 | File | `/hedwig.cgi` | Medium
-29 | File | `/HNAP1` | Low
-30 | File | `/HNAP1/SetClientInfo` | High
-31 | File | `/index.php/newsletter/subscriber/new/` | High
-32 | File | `/Items/*/RemoteImages/Download` | High
-33 | File | `/menu.html` | Medium
-34 | File | `/mkshop/Men/profile.php` | High
-35 | File | `/modules/profile/index.php` | High
-36 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-37 | File | `/navigate/navigate_download.php` | High
-38 | File | `/novel/bookSetting/list` | High
-39 | File | `/ocwbs/admin/?page=user/manage_user` | High
-40 | File | `/ofrs/admin/?page=user/manage_user` | High
-41 | File | `/out.php` | Medium
-42 | File | `/password.html` | High
-43 | File | `/php_action/fetchSelectedUser.php` | High
-44 | File | `/plugin` | Low
-45 | ... | ... | ...
+20 | File | `/debug/pprof` | Medium
+21 | File | `/ebics-server/ebics.aspx` | High
+22 | File | `/ffos/classes/Master.php?f=save_category` | High
+23 | File | `/filemanager/upload/drop` | High
+24 | File | `/forum/away.php` | High
+25 | File | `/goform/net\_Web\_get_value` | High
+26 | File | `/goforms/rlminfo` | High
+27 | File | `/GponForm/usb_restore_Form?script/` | High
+28 | File | `/group1/uploa` | High
+29 | File | `/hedwig.cgi` | Medium
+30 | File | `/HNAP1` | Low
+31 | File | `/HNAP1/SetClientInfo` | High
+32 | File | `/index.php/newsletter/subscriber/new/` | High
+33 | File | `/Items/*/RemoteImages/Download` | High
+34 | File | `/menu.html` | Medium
+35 | File | `/mkshop/Men/profile.php` | High
+36 | File | `/modules/profile/index.php` | High
+37 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+38 | File | `/navigate/navigate_download.php` | High
+39 | File | `/novel/bookSetting/list` | High
+40 | File | `/ocwbs/admin/?page=user/manage_user` | High
+41 | File | `/ofrs/admin/?page=user/manage_user` | High
+42 | File | `/out.php` | Medium
+43 | File | `/password.html` | High
+44 | File | `/patient/appointment.php` | High
+45 | File | `/php_action/fetchSelectedUser.php` | High
+46 | ... | ... | ...
 
-There are 393 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 402 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

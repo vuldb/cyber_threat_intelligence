@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
-* [LA](https://vuldb.com/?country.la)
+* [IL](https://vuldb.com/?country.il)
 * ...
 
 There are 17 more country items available. Please use our online service to access the data.
@@ -273,15 +273,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-25, CWE-425 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-25, CWE-36, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
-7 | ... | ... | ... | ...
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
+5 | ... | ... | ... | ...
 
-There are 23 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -289,51 +287,54 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `%SYSTEMDRIVE%\node_modules\.bin\wmic.exe` | High
-2 | File | `//proc/kcore` | Medium
-3 | File | `/admin/action/delete-vaccine.php` | High
-4 | File | `/admin/index2.html` | High
-5 | File | `/api/trackedEntityInstances` | High
-6 | File | `/api/v4/teams//channels/deleted` | High
-7 | File | `/app/index/controller/Common.php` | High
-8 | File | `/app/options.py` | High
-9 | File | `/aux` | Low
-10 | File | `/b2b-supermarket/shopping-cart` | High
-11 | File | `/change-language/de_DE` | High
-12 | File | `/data/remove` | Medium
-13 | File | `/debug/pprof` | Medium
-14 | File | `/devinfo` | Medium
-15 | File | `/dist/index.js` | High
-16 | File | `/etc/passwd` | Medium
-17 | File | `/forms/doLogin` | High
-18 | File | `/forum/away.php` | High
-19 | File | `/geoserver/gwc/rest.html` | High
-20 | File | `/goform/formSysCmd` | High
-21 | File | `/hosts/firewall/ip` | High
-22 | File | `/index.php` | Medium
-23 | File | `/index.php/ccm/system/file/upload` | High
-24 | File | `/listplace/user/ticket/create` | High
-25 | File | `/log/decodmail.php` | High
-26 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
-27 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-28 | File | `/novel/author/list` | High
-29 | File | `/novel/bookSetting/list` | High
-30 | File | `/oauth/idp/.well-known/openid-configuration` | High
-31 | File | `/php/ping.php` | High
-32 | File | `/s/index.php?action=statistics` | High
-33 | File | `/setting` | Medium
-34 | File | `/spip.php` | Medium
-35 | File | `/st_reg.php` | Medium
-36 | File | `/supplier.php` | High
-37 | File | `/system/role/list` | High
-38 | File | `/testConnection` | High
-39 | File | `/tmp/ppd.trace` | High
-40 | File | `/TMS/admin/setting/mail/createorupdate` | High
-41 | File | `/upload/ueditorConfig?action=config` | High
-42 | File | `/user/inc/workidajax.php` | High
-43 | ... | ... | ...
+1 | File | `/#ilang=DE&b=c_smartenergy_swgroups` | High
+2 | File | `/Account/login.php` | High
+3 | File | `/admin/` | Low
+4 | File | `/admin/action/delete-vaccine.php` | High
+5 | File | `/adminapi/system/crud` | High
+6 | File | `/adminapi/system/file/openfile` | High
+7 | File | `/admin_route/dec_service_credits.php` | High
+8 | File | `/api/trackedEntityInstances` | High
+9 | File | `/api/v4/teams//channels/deleted` | High
+10 | File | `/app/index/controller/Common.php` | High
+11 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
+12 | File | `/aux` | Low
+13 | File | `/cancel.php` | Medium
+14 | File | `/category.php` | High
+15 | File | `/cgi-bin/cstecgi.cgi` | High
+16 | File | `/change-language/de_DE` | High
+17 | File | `/data/remove` | Medium
+18 | File | `/debug/pprof` | Medium
+19 | File | `/debuginfo.htm` | High
+20 | File | `/devinfo` | Medium
+21 | File | `/dist/index.js` | High
+22 | File | `/download` | Medium
+23 | File | `/etc/passwd` | Medium
+24 | File | `/forms/doLogin` | High
+25 | File | `/forum/away.php` | High
+26 | File | `/goform/net\_Web\_get_value` | High
+27 | File | `/index.jsp#settings` | High
+28 | File | `/index.php` | Medium
+29 | File | `/index.php/ccm/system/file/upload` | High
+30 | File | `/log/decodmail.php` | High
+31 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
+32 | File | `/manage-admin.php` | High
+33 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+34 | File | `/novel/author/list` | High
+35 | File | `/novel/bookSetting/list` | High
+36 | File | `/novel/userFeedback/list` | High
+37 | File | `/oauth/idp/.well-known/openid-configuration` | High
+38 | File | `/php/ping.php` | High
+39 | File | `/s/index.php?action=statistics` | High
+40 | File | `/Setting/change_password_save` | High
+41 | File | `/signup.php` | Medium
+42 | File | `/src/dede/vote_edit.php` | High
+43 | File | `/st_reg.php` | Medium
+44 | File | `/supplier.php` | High
+45 | File | `/SysInfo1.htm` | High
+46 | ... | ... | ...
 
-There are 370 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 401 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

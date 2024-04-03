@@ -60,7 +60,7 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
@@ -111,16 +111,16 @@ ID | Type | Indicator | Confidence
 36 | File | `/php/ping.php` | High
 37 | File | `/pms/update_user.php?user_id=1` | High
 38 | File | `/scripts/unlock_tasks.php` | High
-39 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-40 | File | `/secure/ViewCollectors` | High
-41 | File | `/Session` | Medium
-42 | File | `/spip.php` | Medium
-43 | File | `/staff_login.php` | High
-44 | File | `/SysInfo1.htm` | High
-45 | File | `/sysinfo_json.cgi` | High
+39 | File | `/secure/ViewCollectors` | High
+40 | File | `/Session` | Medium
+41 | File | `/spip.php` | Medium
+42 | File | `/staff_login.php` | High
+43 | File | `/SysInfo1.htm` | High
+44 | File | `/sysinfo_json.cgi` | High
+45 | File | `/system/user/modules/mod_users/controller.php` | High
 46 | ... | ... | ...
 
-There are 403 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 401 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

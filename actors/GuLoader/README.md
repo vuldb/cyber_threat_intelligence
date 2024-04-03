@@ -23,11 +23,13 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [5.2.75.164](https://vuldb.com/?ip.5.2.75.164) | - | - | High
 2 | [5.8.8.100](https://vuldb.com/?ip.5.8.8.100) | - | - | High
-3 | [23.254.227.202](https://vuldb.com/?ip.23.254.227.202) | client-23-254-227-202.hostwindsdns.com | - | High
-4 | [23.254.227.205](https://vuldb.com/?ip.23.254.227.205) | client-23-254-227-205.hostwindsdns.com | - | High
-5 | ... | ... | ... | ...
+3 | [5.255.110.224](https://vuldb.com/?ip.5.255.110.224) | - | - | High
+4 | [23.254.227.202](https://vuldb.com/?ip.23.254.227.202) | client-23-254-227-202.hostwindsdns.com | - | High
+5 | [23.254.227.205](https://vuldb.com/?ip.23.254.227.205) | client-23-254-227-205.hostwindsdns.com | - | High
+6 | [23.254.227.214](https://vuldb.com/?ip.23.254.227.214) | pornytop.com | - | High
+7 | ... | ... | ... | ...
 
-There are 17 more IOC items available. Please use our online service to access the data.
+There are 25 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -37,7 +39,7 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
@@ -55,39 +57,49 @@ ID | Type | Indicator | Confidence
 3 | File | `/admin/ajax.php?action=save_window` | High
 4 | File | `/admin/dl_sendmail.php` | High
 5 | File | `/admin/index2.html` | High
-6 | File | `/api/baskets/{name}` | High
-7 | File | `/api/v2/cli/commands` | High
-8 | File | `/cgi/get_param.cgi` | High
-9 | File | `/common/download_agent_installer.php` | High
-10 | File | `/common/run_cross_report.php` | High
-11 | File | `/connectors/index.php` | High
-12 | File | `/dashboard/add-portfolio.php` | High
-13 | File | `/DXR.axd` | Medium
-14 | File | `/EXCU_SHELL` | Medium
-15 | File | `/forum/away.php` | High
-16 | File | `/ghost/preview` | High
-17 | File | `/goform/addressNat` | High
-18 | File | `/goform/NatStaticSetting` | High
-19 | File | `/jerry-core/ecma/base/ecma-helpers-conversion.c` | High
-20 | File | `/login` | Low
-21 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-22 | File | `/novel/bookSetting/list` | High
-23 | File | `/novel/userFeedback/list` | High
-24 | File | `/opt/IBM/es/lib/libffq.cryptionjni.so` | High
-25 | File | `/opt/vyatta/share/vyatta-cfg/templates/system/static-host-mapping/host-name/node.def` | High
-26 | File | `/owa/auth/logon.aspx` | High
-27 | File | `/php-sms/admin/?page=services/manage_service` | High
-28 | File | `/sdm-ws-rest/preconfiguration` | High
-29 | File | `/settings` | Medium
-30 | File | `/spip.php` | Medium
-31 | File | `/uapi/doc` | Medium
-32 | File | `/uncpath/` | Medium
-33 | File | `/updownload/t.report` | High
-34 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
-35 | File | `/woocommerce-stock-manager/trunk/admin/views/import-export.php` | High
-36 | ... | ... | ...
+6 | File | `/admin_giant/add_team_member.php` | High
+7 | File | `/api/baskets/{name}` | High
+8 | File | `/api/v2/cli/commands` | High
+9 | File | `/cgi/get_param.cgi` | High
+10 | File | `/common/download_agent_installer.php` | High
+11 | File | `/common/info.cgi` | High
+12 | File | `/common/run_cross_report.php` | High
+13 | File | `/connectors/index.php` | High
+14 | File | `/dashboard/add-portfolio.php` | High
+15 | File | `/DXR.axd` | Medium
+16 | File | `/EXCU_SHELL` | Medium
+17 | File | `/forum/away.php` | High
+18 | File | `/get_getnetworkconf.cgi` | High
+19 | File | `/ghost/preview` | High
+20 | File | `/goform/addressNat` | High
+21 | File | `/goform/NatStaticSetting` | High
+22 | File | `/goform/setmac` | High
+23 | File | `/integrations.json` | High
+24 | File | `/jerry-core/ecma/base/ecma-helpers-conversion.c` | High
+25 | File | `/lists/admin/` | High
+26 | File | `/login` | Low
+27 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+28 | File | `/novel/bookSetting/list` | High
+29 | File | `/novel/userFeedback/list` | High
+30 | File | `/opt/IBM/es/lib/libffq.cryptionjni.so` | High
+31 | File | `/opt/vyatta/share/vyatta-cfg/templates/system/static-host-mapping/host-name/node.def` | High
+32 | File | `/owa/auth/logon.aspx` | High
+33 | File | `/php-sms/admin/?page=services/manage_service` | High
+34 | File | `/phppath/php` | Medium
+35 | File | `/sdm-ws-rest/preconfiguration` | High
+36 | File | `/services/details.asp` | High
+37 | File | `/settings` | Medium
+38 | File | `/spip.php` | Medium
+39 | File | `/uapi/doc` | Medium
+40 | File | `/uncpath/` | Medium
+41 | File | `/updownload/t.report` | High
+42 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
+43 | File | `/woocommerce-stock-manager/trunk/admin/views/import-export.php` | High
+44 | File | `/wp-admin/options.php` | High
+45 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+46 | ... | ... | ...
 
-There are 305 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 401 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -98,6 +110,10 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://asec.ahnlab.com/en/36294/
 * https://asec.ahnlab.com/en/36785/
 * https://asec.ahnlab.com/en/38942/
+* https://asec.ahnlab.com/en/40283/
+* https://asec.ahnlab.com/en/48640/
+* https://asec.ahnlab.com/en/51274/
+* https://asec.ahnlab.com/en/52488/
 * https://github.com/sophoslabs/IoCs/blob/master/Troj_GuLoader.csv
 * https://isc.sans.edu/diary/GuLoader+or+DBatLoaderModiLoaderstyle+infection+for+Remcos+RAT/29990
 * https://research.checkpoint.com/2023/unveiling-the-shadows-the-dark-alliance-between-guloader-and-remcos/

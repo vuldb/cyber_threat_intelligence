@@ -43,7 +43,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-24 | Path Traversal | High
-2 | T1055 | CWE-74 | Injection | High
+2 | T1055 | CWE-74, CWE-643 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 4 | ... | ... | ... | ...
 
@@ -61,36 +61,38 @@ ID | Type | Indicator | Confidence
 4 | File | `/admin/add_user_modal.php` | High
 5 | File | `/admin/admin-profile.php` | High
 6 | File | `/admin/ajax.php?action=confirm_order` | High
-7 | File | `/admin/ind_backstage.php` | High
-8 | File | `/admin/pages/student-print.php` | High
-9 | File | `/admin/pages/subjects.php` | High
-10 | File | `/admin/service.php` | High
-11 | File | `/admin/sys_sql_query.php` | High
-12 | File | `/admin/user/team` | High
-13 | File | `/admin_ping.htm` | High
-14 | File | `/adplanet/PlanetCommentList` | High
-15 | File | `/ajax.php?action=read_msg` | High
-16 | File | `/api/ping` | Medium
-17 | File | `/application/index/controller/Databasesource.php` | High
-18 | File | `/application/index/controller/Screen.php` | High
-19 | File | `/application/websocket/controller/Setting.php` | High
-20 | File | `/apply/index.php` | High
-21 | File | `/baseOpLog.do` | High
-22 | File | `/bcms/admin/?page=user/list` | High
-23 | File | `/blog` | Low
-24 | File | `/blog-single.php` | High
-25 | File | `/cgi-bin/adm.cgi` | High
-26 | File | `/cgi-bin/cstecgi.cgi` | High
-27 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
-28 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-29 | File | `/classes/Master.php?f=save_inquiry` | High
-30 | File | `/classes/Users.php?f=save` | High
-31 | File | `/collection/all` | High
-32 | File | `/Duty/AjaxHandle/UpLoadFloodPlanFile.ashx` | High
-33 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
-34 | ... | ... | ...
+7 | File | `/admin/applicants/controller.php` | High
+8 | File | `/admin/div_data/delete?divId=9` | High
+9 | File | `/admin/employee/controller.php` | High
+10 | File | `/admin/employee/index.php` | High
+11 | File | `/admin/ind_backstage.php` | High
+12 | File | `/admin/pages/student-print.php` | High
+13 | File | `/admin/pages/subjects.php` | High
+14 | File | `/admin/service.php` | High
+15 | File | `/admin/sys_sql_query.php` | High
+16 | File | `/admin/user/team` | High
+17 | File | `/admin/users.php` | High
+18 | File | `/admin/vacancy/index.php` | High
+19 | File | `/admin_ping.htm` | High
+20 | File | `/adplanet/PlanetCommentList` | High
+21 | File | `/ajax.php?action=read_msg` | High
+22 | File | `/api/client/editemedia.php` | High
+23 | File | `/api/ping` | Medium
+24 | File | `/application/index/controller/Databasesource.php` | High
+25 | File | `/application/index/controller/Screen.php` | High
+26 | File | `/application/websocket/controller/Setting.php` | High
+27 | File | `/apply/index.php` | High
+28 | File | `/baseOpLog.do` | High
+29 | File | `/bcms/admin/?page=user/list` | High
+30 | File | `/blog` | Low
+31 | File | `/blog-single.php` | High
+32 | File | `/cgi-bin/adm.cgi` | High
+33 | File | `/cgi-bin/cstecgi.cgi` | High
+34 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
+35 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+36 | ... | ... | ...
 
-There are 286 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 307 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

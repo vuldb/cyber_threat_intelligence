@@ -94,7 +94,7 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Path Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
@@ -137,22 +137,20 @@ ID | Type | Indicator | Confidence
 28 | File | `/env` | Low
 29 | File | `/etc/passwd` | Medium
 30 | File | `/forum/away.php` | High
-31 | File | `/group1/uploa` | High
-32 | File | `/index.php` | Medium
-33 | File | `/medicines/profile.php` | High
+31 | File | `/goform/net\_Web\_get_value` | High
+32 | File | `/group1/uploa` | High
+33 | File | `/index.php` | Medium
 34 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
 35 | File | `/php-sms/admin/?page=user/manage_user` | High
 36 | File | `/reservation/add_message.php` | High
 37 | File | `/resources//../` | High
-38 | File | `/spip.php` | Medium
-39 | File | `/testConnection` | High
-40 | File | `/tmp/ppd.trace` | High
-41 | File | `/user/inc/workidajax.php` | High
-42 | File | `/user/updatePwd` | High
-43 | File | `/userLogin.asp` | High
-44 | ... | ... | ...
+38 | File | `/testConnection` | High
+39 | File | `/tmp/ppd.trace` | High
+40 | File | `/user/inc/workidajax.php` | High
+41 | File | `/user/updatePwd` | High
+42 | ... | ... | ...
 
-There are 377 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 367 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

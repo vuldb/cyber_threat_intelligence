@@ -51,7 +51,7 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-35 | Path Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
@@ -89,24 +89,24 @@ ID | Type | Indicator | Confidence
 23 | File | `/etc/openshift/server_priv.pem` | High
 24 | File | `/forms/web_importTFTP` | High
 25 | File | `/front/admin/tenancyDetail.php` | High
-26 | File | `/goform/SysToolReboot` | High
-27 | File | `/goform/SysToolRestoreSet` | High
-28 | File | `/graphql` | Medium
-29 | File | `/index.php` | Medium
-30 | File | `/jeecg-boot/jmreport/upload` | High
-31 | File | `/jeecg-boot/jmreport/view` | High
-32 | File | `/jsoa/hntdCustomDesktopActionContent` | High
-33 | File | `/localhost/u` | Medium
-34 | File | `/mkshop/Men/profile.php` | High
-35 | File | `/net` | Low
-36 | File | `/Noxen-master/users.php` | High
-37 | File | `/opt/bin/cli` | Medium
-38 | File | `/PluXml/core/admin/parametres_edittpl.php` | High
-39 | File | `/public/plugins/` | High
-40 | File | `/public_html/admin/plugins/bad_behavior2/blacklist.php` | High
+26 | File | `/goform/GetParentControlInfo` | High
+27 | File | `/goform/SetSysTimeCfg` | High
+28 | File | `/goform/SysToolReboot` | High
+29 | File | `/goform/SysToolRestoreSet` | High
+30 | File | `/goform/WifiExtraSet` | High
+31 | File | `/graphql` | Medium
+32 | File | `/index.php` | Medium
+33 | File | `/jeecg-boot/jmreport/upload` | High
+34 | File | `/jeecg-boot/jmreport/view` | High
+35 | File | `/jsoa/hntdCustomDesktopActionContent` | High
+36 | File | `/localhost/u` | Medium
+37 | File | `/mkshop/Men/profile.php` | High
+38 | File | `/net` | Low
+39 | File | `/Noxen-master/users.php` | High
+40 | File | `/opt/bin/cli` | Medium
 41 | ... | ... | ...
 
-There are 356 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 355 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

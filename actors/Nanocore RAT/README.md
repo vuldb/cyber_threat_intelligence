@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [IL](https://vuldb.com/?country.il)
 * ...
 
-There are 18 more country items available. Please use our online service to access the data.
+There are 17 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -375,7 +375,7 @@ ID | IP address | Hostname | Campaign | Confidence
 352 | [52.28.112.211](https://vuldb.com/?ip.52.28.112.211) | ec2-52-28-112-211.eu-central-1.compute.amazonaws.com | - | Medium
 353 | ... | ... | ... | ...
 
-There are 1409 more IOC items available. Please use our online service to access the data.
+There are 1410 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -384,7 +384,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-25, CWE-36, CWE-425 | Path Traversal | High
-2 | T1055 | CWE-74 | Injection | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-271, CWE-284 | Execution with Unnecessary Privileges | High
@@ -402,51 +402,53 @@ ID | Type | Indicator | Confidence
 2 | File | `/.env` | Low
 3 | File | `/Account/login.php` | High
 4 | File | `/admin/` | Low
-5 | File | `/admin/action/new-father.php` | High
-6 | File | `/admin/edit_teacher.php` | High
-7 | File | `/admin/fields/manage_field.php` | High
+5 | File | `/admin/edit_teacher.php` | High
+6 | File | `/admin/fields/manage_field.php` | High
+7 | File | `/admin/index.php` | High
 8 | File | `/admin/orders/view_order.php` | High
 9 | File | `/adminapi/system/crud` | High
 10 | File | `/adminapi/system/file/openfile` | High
 11 | File | `/admin_ping.htm` | High
 12 | File | `/admin_route/dec_service_credits.php` | High
-13 | File | `/admin_route/inc_service_credits.php` | High
-14 | File | `/api/clusters/local/topics/{topic}/messages` | High
-15 | File | `/api/sys/set_passwd` | High
-16 | File | `/api/v4/teams//channels/deleted` | High
-17 | File | `/app/api/controller/default/Sqlite.php` | High
-18 | File | `/app/index/controller/Common.php` | High
-19 | File | `/application/index/controller/Databasesource.php` | High
-20 | File | `/application/index/controller/Icon.php` | High
-21 | File | `/application/index/controller/Screen.php` | High
-22 | File | `/application/plugins/controller/Upload.php` | High
-23 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
-24 | File | `/arch/x86/mm/cpu_entry_area.c` | High
-25 | File | `/bin/boa` | Medium
-26 | File | `/boafrm/formMapDelDevice` | High
-27 | File | `/category.php` | High
-28 | File | `/cgi-bin/cstecgi.cgi` | High
+13 | File | `/api/clusters/local/topics/{topic}/messages` | High
+14 | File | `/api/v4/teams//channels/deleted` | High
+15 | File | `/application/index/controller/Databasesource.php` | High
+16 | File | `/application/index/controller/Icon.php` | High
+17 | File | `/application/index/controller/Screen.php` | High
+18 | File | `/application/plugins/controller/Upload.php` | High
+19 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
+20 | File | `/apps/reg_go.php` | High
+21 | File | `/arch/x86/mm/cpu_entry_area.c` | High
+22 | File | `/billing/bill/edit/` | High
+23 | File | `/bin/boa` | Medium
+24 | File | `/boafrm/formMapDelDevice` | High
+25 | File | `/cancel.php` | Medium
+26 | File | `/category.php` | High
+27 | File | `/cgi-bin/cstecgi.cgi` | High
+28 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
 29 | File | `/cgi-bin/koha/catalogue/search.pl` | High
 30 | File | `/cgi-bin/mainfunction.cgi` | High
-31 | File | `/cgi-bin/wlogin.cgi` | High
-32 | File | `/core/redirect` | High
-33 | File | `/debug/pprof` | Medium
-34 | File | `/devinfo` | Medium
-35 | File | `/DXR.axd` | Medium
-36 | File | `/ECT_Provider/` | High
-37 | File | `/Employer/EditProfile.php` | High
-38 | File | `/fax/fax_send.php` | High
-39 | File | `/filex/proxy-download` | High
-40 | File | `/forum/away.php` | High
-41 | File | `/general/attendance/manage/ask_duty/delete.php` | High
-42 | File | `/goform/` | Medium
-43 | File | `/goform/WifiMacFilterGet` | High
-44 | File | `/goform/wifiSSIDset` | High
-45 | File | `/h/autoSaveDraft` | High
-46 | File | `/hedwig.cgi` | Medium
-47 | ... | ... | ...
+31 | File | `/cgi-bin/system_mgr.cgi` | High
+32 | File | `/cgi-bin/wlogin.cgi` | High
+33 | File | `/classes/Login.php` | High
+34 | File | `/classes/Users.php` | High
+35 | File | `/core/redirect` | High
+36 | File | `/debug/pprof` | Medium
+37 | File | `/devinfo` | Medium
+38 | File | `/download` | Medium
+39 | File | `/DXR.axd` | Medium
+40 | File | `/ECT_Provider/` | High
+41 | File | `/Employer/EditProfile.php` | High
+42 | File | `/fax/fax_send.php` | High
+43 | File | `/filex/proxy-download` | High
+44 | File | `/forum/away.php` | High
+45 | File | `/general/attendance/manage/ask_duty/delete.php` | High
+46 | File | `/goform/` | Medium
+47 | File | `/goform/WifiMacFilterGet` | High
+48 | File | `/goform/wifiSSIDset` | High
+49 | ... | ... | ...
 
-There are 407 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 427 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

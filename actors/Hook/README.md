@@ -145,9 +145,9 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
@@ -161,43 +161,43 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/.env` | Low
-2 | File | `/admin/action/new-father.php` | High
-3 | File | `/admin/edit_teacher.php` | High
-4 | File | `/admin/fields/manage_field.php` | High
-5 | File | `/admin/orders/view_order.php` | High
-6 | File | `/admin_ping.htm` | High
-7 | File | `/admin_route/dec_service_credits.php` | High
-8 | File | `/app/api/controller/default/Sqlite.php` | High
-9 | File | `/application/index/controller/Databasesource.php` | High
-10 | File | `/application/index/controller/Icon.php` | High
-11 | File | `/application/index/controller/Screen.php` | High
-12 | File | `/application/plugins/controller/Upload.php` | High
-13 | File | `/arch/x86/mm/cpu_entry_area.c` | High
-14 | File | `/bin/boa` | Medium
-15 | File | `/boafrm/formMapDelDevice` | High
-16 | File | `/cgi-bin/cstecgi.cgi` | High
-17 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-18 | File | `/cgi-bin/mainfunction.cgi` | High
-19 | File | `/cgi-bin/wlogin.cgi` | High
-20 | File | `/core/redirect` | High
-21 | File | `/debug/pprof` | Medium
-22 | File | `/debuginfo.htm` | High
-23 | File | `/DXR.axd` | Medium
-24 | File | `/ECT_Provider/` | High
-25 | File | `/Employer/EditProfile.php` | High
-26 | File | `/etc/passwd` | Medium
-27 | File | `/fax/fax_send.php` | High
-28 | File | `/forum/away.php` | High
-29 | File | `/general/attendance/manage/ask_duty/delete.php` | High
-30 | File | `/goform/` | Medium
-31 | File | `/goform/net\_Web\_get_value` | High
-32 | File | `/goform/WifiMacFilterGet` | High
-33 | File | `/goform/wifiSSIDset` | High
-34 | File | `/h/autoSaveDraft` | High
-35 | File | `/home.php` | Medium
+2 | File | `/admin/index.php` | High
+3 | File | `/admin/orders/view_order.php` | High
+4 | File | `/admin_ping.htm` | High
+5 | File | `/application/index/controller/Databasesource.php` | High
+6 | File | `/application/index/controller/Icon.php` | High
+7 | File | `/application/index/controller/Screen.php` | High
+8 | File | `/application/plugins/controller/Upload.php` | High
+9 | File | `/apps/reg_go.php` | High
+10 | File | `/billing/bill/edit/` | High
+11 | File | `/boafrm/formMapDelDevice` | High
+12 | File | `/cgi-bin/cstecgi.cgi` | High
+13 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
+14 | File | `/cgi-bin/mainfunction.cgi` | High
+15 | File | `/cgi-bin/system_mgr.cgi` | High
+16 | File | `/cgi-bin/wlogin.cgi` | High
+17 | File | `/classes/Login.php` | High
+18 | File | `/classes/Users.php` | High
+19 | File | `/core/redirect` | High
+20 | File | `/debug/pprof` | Medium
+21 | File | `/debuginfo.htm` | High
+22 | File | `/DXR.axd` | Medium
+23 | File | `/ECT_Provider/` | High
+24 | File | `/Employer/EditProfile.php` | High
+25 | File | `/etc/passwd` | Medium
+26 | File | `/fax/fax_send.php` | High
+27 | File | `/forum/away.php` | High
+28 | File | `/general/attendance/manage/ask_duty/delete.php` | High
+29 | File | `/goform/` | Medium
+30 | File | `/goform/net\_Web\_get_value` | High
+31 | File | `/goform/WifiMacFilterGet` | High
+32 | File | `/goform/wifiSSIDset` | High
+33 | File | `/h/autoSaveDraft` | High
+34 | File | `/home.php` | Medium
+35 | File | `/Home/Index` | Medium
 36 | ... | ... | ...
 
-There are 310 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 313 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

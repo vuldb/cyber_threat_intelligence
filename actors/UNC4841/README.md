@@ -51,7 +51,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Path Traversal | High
-2 | T1055 | CWE-74 | Injection | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
@@ -71,46 +71,47 @@ ID | Type | Indicator | Confidence
 4 | File | `/api/sys/login` | High
 5 | File | `/api/trackedEntityInstances` | High
 6 | File | `/app/options.py` | High
-7 | File | `/cgi-bin/luci;stok=/locale` | High
-8 | File | `/cgi-bin/wlogin.cgi` | High
-9 | File | `/cgi/sshcheck.cgi` | High
-10 | File | `/classes/Master.php` | High
-11 | File | `/classes/Users.php?f=save` | High
-12 | File | `/common/download?filename=1.jsp&delete=false` | High
-13 | File | `/context/%2e/WEB-INF/web.xml` | High
-14 | File | `/crmeb/crmeb/services/UploadService.php` | High
-15 | File | `/debug/pprof` | Medium
-16 | File | `/etc/postfix/sender_login` | High
-17 | File | `/example/editor` | High
-18 | File | `/filemanager/php/connector.php` | High
-19 | File | `/filemanager/upload.php` | High
-20 | File | `/forgetpassword.php` | High
-21 | File | `/forum/away.php` | High
-22 | File | `/ghost/preview` | High
-23 | File | `/home/www/cgi-bin/login.cgi` | High
-24 | File | `/Items/*/RemoteImages/Download` | High
-25 | File | `/items/view_item.php` | High
-26 | File | `/jeecg-boot/sys/common/upload` | High
-27 | File | `/librarian/bookdetails.php` | High
-28 | File | `/mail/index.html` | High
-29 | File | `/medical/inventories.php` | High
-30 | File | `/modules/profile/index.php` | High
-31 | File | `/out.php` | Medium
-32 | File | `/php-jms/updateTxtview.php` | High
-33 | File | `/proxy` | Low
-34 | File | `/question.php` | High
-35 | File | `/replication` | Medium
-36 | File | `/resources//../` | High
-37 | File | `/RestAPI` | Medium
-38 | File | `/secure/QueryComponent!Default.jspa` | High
-39 | File | `/start_apply.htm` | High
-40 | File | `/student/bookdetails.php` | High
-41 | File | `/templates/header.inc.php` | High
-42 | File | `/user/getuserprofile` | High
-43 | File | `/user/loader.php?api=1` | High
-44 | ... | ... | ...
+7 | File | `/cgi-bin/cstecgi.cgi` | High
+8 | File | `/cgi-bin/luci;stok=/locale` | High
+9 | File | `/cgi-bin/wlogin.cgi` | High
+10 | File | `/cgi/sshcheck.cgi` | High
+11 | File | `/classes/Master.php` | High
+12 | File | `/classes/Users.php?f=save` | High
+13 | File | `/common/download?filename=1.jsp&delete=false` | High
+14 | File | `/context/%2e/WEB-INF/web.xml` | High
+15 | File | `/crmeb/crmeb/services/UploadService.php` | High
+16 | File | `/debug/pprof` | Medium
+17 | File | `/etc/postfix/sender_login` | High
+18 | File | `/example/editor` | High
+19 | File | `/filemanager/php/connector.php` | High
+20 | File | `/filemanager/upload.php` | High
+21 | File | `/forgetpassword.php` | High
+22 | File | `/forum/away.php` | High
+23 | File | `/ghost/preview` | High
+24 | File | `/home/www/cgi-bin/login.cgi` | High
+25 | File | `/Items/*/RemoteImages/Download` | High
+26 | File | `/items/view_item.php` | High
+27 | File | `/jeecg-boot/sys/common/upload` | High
+28 | File | `/librarian/bookdetails.php` | High
+29 | File | `/mail/index.html` | High
+30 | File | `/medical/inventories.php` | High
+31 | File | `/modules/profile/index.php` | High
+32 | File | `/out.php` | Medium
+33 | File | `/php-jms/updateTxtview.php` | High
+34 | File | `/proxy` | Low
+35 | File | `/question.php` | High
+36 | File | `/replication` | Medium
+37 | File | `/resources//../` | High
+38 | File | `/RestAPI` | Medium
+39 | File | `/secure/QueryComponent!Default.jspa` | High
+40 | File | `/start_apply.htm` | High
+41 | File | `/student/bookdetails.php` | High
+42 | File | `/templates/header.inc.php` | High
+43 | File | `/user/getuserprofile` | High
+44 | File | `/user/loader.php?api=1` | High
+45 | ... | ... | ...
 
-There are 384 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 385 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

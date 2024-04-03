@@ -8,8 +8,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Dofoil:
 
-* [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
+* [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
@@ -43,13 +43,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94 | Argument Injection | High
 5 | ... | ... | ... | ...
 
-There are 16 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -66,30 +66,33 @@ ID | Type | Indicator | Confidence
 7 | File | `/debug/pprof` | Medium
 8 | File | `/etc/passwd` | Medium
 9 | File | `/forum/away.php` | High
-10 | File | `/index.php` | Medium
-11 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-12 | File | `/tmp/ppd.trace` | High
-13 | File | `/user/inc/workidajax.php` | High
-14 | File | `/userLogin.asp` | High
-15 | File | `Access.app/Contents/Resources/kcproxy` | High
-16 | File | `act.php` | Low
-17 | File | `addressbook.update.php` | High
-18 | File | `admin.php` | Medium
-19 | File | `admin/index.php` | High
-20 | File | `admin/password_reset.lua` | High
-21 | File | `apexec.pl` | Medium
-22 | File | `arch/arm/p2m.c` | High
-23 | File | `arch/arm64/kernel/sys.c` | High
-24 | File | `arch/x86/include/asm/uaccess.h` | High
-25 | File | `arch/x86/kernel/cpu/microcode/intel_early.c` | High
-26 | File | `Certificates.java` | High
-27 | File | `cloud.php` | Medium
-28 | File | `com_android_bluetooth_btservice_AdapterService.cpp` | High
-29 | File | `devices.common.ibm.atm.rte` | High
-30 | File | `download.php` | Medium
-31 | ... | ... | ...
+10 | File | `/goform/net\_Web\_get_value` | High
+11 | File | `/index.php` | Medium
+12 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+13 | File | `/tmp/ppd.trace` | High
+14 | File | `/user/inc/workidajax.php` | High
+15 | File | `/userLogin.asp` | High
+16 | File | `Access.app/Contents/Resources/kcproxy` | High
+17 | File | `act.php` | Low
+18 | File | `addressbook.update.php` | High
+19 | File | `admin.php` | Medium
+20 | File | `admin/index.php` | High
+21 | File | `admin/partials/wp-splashing-admin-main.php` | High
+22 | File | `admin/password_reset.lua` | High
+23 | File | `apexec.pl` | Medium
+24 | File | `app/profile/summary/` | High
+25 | File | `arch/arm/p2m.c` | High
+26 | File | `arch/arm64/kernel/sys.c` | High
+27 | File | `arch/x86/include/asm/uaccess.h` | High
+28 | File | `arch/x86/kernel/cpu/microcode/intel_early.c` | High
+29 | File | `Certificates.java` | High
+30 | File | `cgi-bin/gui.cgi` | High
+31 | File | `cloud.php` | Medium
+32 | File | `coders/png.c` | Medium
+33 | File | `com/mldong/modules/wf/engine/model/DecisionModel.java` | High
+34 | ... | ... | ...
 
-There are 268 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 289 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

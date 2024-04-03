@@ -161,13 +161,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23 | Pathname Traversal | High
-2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94 | Cross Site Scripting | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Path Traversal | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 16 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -175,40 +175,33 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin_ping.htm` | High
-2 | File | `/app/index/controller/Common.php` | High
-3 | File | `/application/index/controller/Databasesource.php` | High
-4 | File | `/application/index/controller/Icon.php` | High
-5 | File | `/application/index/controller/Screen.php` | High
-6 | File | `/application/plugins/controller/Upload.php` | High
-7 | File | `/boafrm/formMapDelDevice` | High
-8 | File | `/cgi-bin/cstecgi.cgi` | High
-9 | File | `/core/redirect` | High
-10 | File | `/forum/away.php` | High
-11 | File | `/goform/WifiMacFilterGet` | High
-12 | File | `/goform/wifiSSIDset` | High
-13 | File | `/index.php?app=main&func=passport&action=login` | High
-14 | File | `/login` | Low
-15 | File | `/obj/utilisateur.class.php` | High
-16 | File | `/opt/fs/redisraft/deps/hiredis/alloc.c` | High
-17 | File | `/public/login.htm` | High
-18 | File | `/resources//../` | High
-19 | File | `/SysInfo1.htm` | High
-20 | File | `/travel-journal/write-journal.php` | High
-21 | File | `/v1/sql-runner` | High
-22 | File | `admin-ajax.php` | High
-23 | File | `admin.php` | Medium
-24 | File | `admin/inc/auth.inc.php` | High
-25 | File | `admin/index.php` | High
-26 | File | `afd.sys` | Low
-27 | File | `ajax/telemetry.php` | High
-28 | File | `app/plug/controller/giftcontroller.php` | High
-29 | File | `apply.cgi` | Medium
-30 | File | `articlesdetails.php` | High
-31 | File | `AscoServer.exe` | High
-32 | ... | ... | ...
+1 | File | `/admin.php` | Medium
+2 | File | `/admin/index.php` | High
+3 | File | `/admin/list_ipAddressPolicy.php` | High
+4 | File | `/admin/orders/view_order.php` | High
+5 | File | `/api /v3/auth` | High
+6 | File | `/apps/reg_go.php` | High
+7 | File | `/billing/bill/edit/` | High
+8 | File | `/bin/sh` | Low
+9 | File | `/cgi-bin/cstecgi.cgi` | High
+10 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
+11 | File | `/cgi-bin/system_mgr.cgi` | High
+12 | File | `/cgi-bin/wlogin.cgi` | High
+13 | File | `/classes/Login.php` | High
+14 | File | `/classes/Users.php` | High
+15 | File | `/data/remove` | Medium
+16 | File | `/Employer/EditProfile.php` | High
+17 | File | `/goform/` | Medium
+18 | File | `/goform/SetStaticRouteCfg` | High
+19 | File | `/h/autoSaveDraft` | High
+20 | File | `/home.php` | Medium
+21 | File | `/Home/Index` | Medium
+22 | File | `/index.php` | Medium
+23 | File | `/member/chat.php` | High
+24 | File | `/member/member_edit.php` | High
+25 | ... | ... | ...
 
-There are 270 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 213 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

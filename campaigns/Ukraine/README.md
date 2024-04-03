@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Ukraine:
 
 * [CN](https://vuldb.com/?country.cn)
-* [US](https://vuldb.com/?country.us)
 * [VN](https://vuldb.com/?country.vn)
+* [US](https://vuldb.com/?country.us)
 * ...
 
-There are 15 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -1214,9 +1214,9 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-36 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Path Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
+3 | T1055 | CWE-74, CWE-643 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
@@ -1229,33 +1229,41 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/#ilang=DE&b=c_smartenergy_swgroups` | High
-2 | File | `/Account/login.php` | High
-3 | File | `/admin` | Low
-4 | File | `/admin/` | Low
-5 | File | `/admin/edit-admin.php` | High
-6 | File | `/Admin/login.php` | High
-7 | File | `/admin/operations/expense_category.php` | High
-8 | File | `/adminapi/system/crud` | High
-9 | File | `/adminapi/system/file/openfile` | High
-10 | File | `/api /v3/auth` | High
-11 | File | `/app/controller/Setup.php` | High
-12 | File | `/category.php` | High
-13 | File | `/cgi-bin/cstecgi.cgi` | High
+1 | File | `/admin-manage-user.php` | High
+2 | File | `/admin.php` | Medium
+3 | File | `/admin/edit-services.php` | High
+4 | File | `/admin/list_ipAddressPolicy.php` | High
+5 | File | `/admin/operations/expense_category.php` | High
+6 | File | `/admin/update-users.php` | High
+7 | File | `/amssplus/modules/book/main/select_send_2.php` | High
+8 | File | `/api /v3/auth` | High
+9 | File | `/bin/sh` | Low
+10 | File | `/cancel.php` | Medium
+11 | File | `/category.php` | High
+12 | File | `/cgi-bin/cstecgi.cgi` | High
+13 | File | `/check_availability.php` | High
 14 | File | `/classes/Users.php` | High
 15 | File | `/conversation/ajax-html/send_log?folder_id=&thread_id=` | High
 16 | File | `/dashboard/Cinvoice/manage_invoice` | High
-17 | File | `/data/remove` | Medium
+17 | File | `/download` | Medium
 18 | File | `/DXR.axd` | Medium
-19 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-20 | File | `/endpoint/update-tracker.php` | High
-21 | File | `/forum/away.php` | High
-22 | File | `/goform/` | Medium
-23 | File | `/goform/net\_Web\_get_value` | High
-24 | File | `/hedwig.cgi` | Medium
-25 | ... | ... | ...
+19 | File | `/edit-task.php` | High
+20 | File | `/forum/away.php` | High
+21 | File | `/goform/execCommand` | High
+22 | File | `/goform/net\_Web\_get_value` | High
+23 | File | `/goform/setcfm` | High
+24 | File | `/goform/SetFirewallCfg` | High
+25 | File | `/goform/setsambacfg` | High
+26 | File | `/goform/SetSpeedWan` | High
+27 | File | `/goform/SetStaticRouteCfg` | High
+28 | File | `/goform/SysToolRestoreSet` | High
+29 | File | `/goform/WriteFacMac` | High
+30 | File | `/hedwig.cgi` | Medium
+31 | File | `/index.php` | Medium
+32 | File | `/materializers/cloudpickle_materializer.py` | High
+33 | ... | ... | ...
 
-There are 207 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 279 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

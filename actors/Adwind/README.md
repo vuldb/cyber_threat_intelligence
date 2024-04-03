@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 21 more country items available. Please use our online service to access the data.
+There are 22 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -49,15 +49,15 @@ ID | IP address | Hostname | Campaign | Confidence
 26 | [45.147.231.41](https://vuldb.com/?ip.45.147.231.41) | - | - | High
 27 | [46.20.33.76](https://vuldb.com/?ip.46.20.33.76) | - | - | High
 28 | [46.183.220.114](https://vuldb.com/?ip.46.183.220.114) | ip-220-114.dataclub.info | - | High
-29 | [46.183.223.64](https://vuldb.com/?ip.46.183.223.64) | ip-223-64.dataclub.info | - | High
-30 | [50.7.199.164](https://vuldb.com/?ip.50.7.199.164) | - | - | High
-31 | [51.254.21.25](https://vuldb.com/?ip.51.254.21.25) | ip25.ip-51-254-21.eu | - | High
-32 | [65.99.225.111](https://vuldb.com/?ip.65.99.225.111) | hv36svg168.neubox.net | - | High
-33 | [66.154.111.3](https://vuldb.com/?ip.66.154.111.3) | - | - | High
-34 | [67.215.4.74](https://vuldb.com/?ip.67.215.4.74) | - | - | High
+29 | [46.183.222.88](https://vuldb.com/?ip.46.183.222.88) | ip-222-88.dataclub.info | - | High
+30 | [46.183.223.64](https://vuldb.com/?ip.46.183.223.64) | ip-223-64.dataclub.info | - | High
+31 | [50.7.199.164](https://vuldb.com/?ip.50.7.199.164) | - | - | High
+32 | [51.254.21.25](https://vuldb.com/?ip.51.254.21.25) | ip25.ip-51-254-21.eu | - | High
+33 | [65.99.225.111](https://vuldb.com/?ip.65.99.225.111) | hv36svg168.neubox.net | - | High
+34 | [66.154.111.3](https://vuldb.com/?ip.66.154.111.3) | - | - | High
 35 | ... | ... | ... | ...
 
-There are 135 more IOC items available. Please use our online service to access the data.
+There are 136 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -66,7 +66,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
-2 | T1055 | CWE-74 | Injection | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...

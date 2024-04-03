@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Brunei Unknown:
 
 * [US](https://vuldb.com/?country.us)
-* [JP](https://vuldb.com/?country.jp)
 * [CN](https://vuldb.com/?country.cn)
+* [JP](https://vuldb.com/?country.jp)
 * ...
 
 There are 24 more country items available. Please use our online service to access the data.
@@ -46,7 +46,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Path Traversal | High
-2 | T1055 | CWE-74 | Injection | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | T1068 | CWE-264, CWE-266, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
@@ -76,45 +76,45 @@ ID | Type | Indicator | Confidence
 14 | File | `/admin/show.php` | High
 15 | File | `/api/file_uploader.php` | High
 16 | File | `/api/RecordingList/DownloadRecord?file=` | High
-17 | File | `/api/v1/terminal/sessions/?limit=1` | High
-18 | File | `/Application/Admin/Controller/ConfigController.class.php` | High
-19 | File | `/bin/boa` | Medium
-20 | File | `/boat/login.php` | High
-21 | File | `/cimom` | Low
-22 | File | `/clinic/disease_symptoms_view.php` | High
-23 | File | `/default.php?idx=17` | High
-24 | File | `/dev/shm` | Medium
-25 | File | `/download` | Medium
-26 | File | `/env` | Low
-27 | File | `/forum/away.php` | High
-28 | File | `/GponForm/device_Form?script/` | High
-29 | File | `/login/index.php` | High
-30 | File | `/mgmt/tm/util/bash` | High
-31 | File | `/net` | Low
-32 | File | `/opt/bin/cli` | Medium
-33 | File | `/p` | Low
-34 | File | `/patient/doctors.php` | High
-35 | File | `/phpinventory/editcategory.php` | High
-36 | File | `/SASWebReportStudio/logonAndRender.do` | High
-37 | File | `/service/upload` | High
-38 | File | `/setup/finish` | High
-39 | File | `/spip.php` | Medium
-40 | File | `/sysmanage/edit_manageadmin.php` | High
-41 | File | `/uncpath/` | Medium
-42 | File | `/updown/upload.cgi` | High
-43 | File | `/user/del.php` | High
-44 | File | `/viewer/krpano.html` | High
-45 | File | `/wp-admin/admin-ajax.php` | High
-46 | File | `/_next` | Low
-47 | File | `/_vti_pvt/access.cnf` | High
-48 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-49 | File | `act.php` | Low
-50 | File | `ActionServlet.java` | High
-51 | File | `adclick.php` | Medium
-52 | File | `admin.php` | Medium
+17 | File | `/api/sys/login` | High
+18 | File | `/api/v1/terminal/sessions/?limit=1` | High
+19 | File | `/Application/Admin/Controller/ConfigController.class.php` | High
+20 | File | `/bin/boa` | Medium
+21 | File | `/boat/login.php` | High
+22 | File | `/cimom` | Low
+23 | File | `/clinic/disease_symptoms_view.php` | High
+24 | File | `/default.php?idx=17` | High
+25 | File | `/dev/shm` | Medium
+26 | File | `/download` | Medium
+27 | File | `/env` | Low
+28 | File | `/forum/away.php` | High
+29 | File | `/GponForm/device_Form?script/` | High
+30 | File | `/login/index.php` | High
+31 | File | `/mgmt/tm/util/bash` | High
+32 | File | `/net` | Low
+33 | File | `/opt/bin/cli` | Medium
+34 | File | `/p` | Low
+35 | File | `/patient/doctors.php` | High
+36 | File | `/phpinventory/editcategory.php` | High
+37 | File | `/SASWebReportStudio/logonAndRender.do` | High
+38 | File | `/service/upload` | High
+39 | File | `/setup/finish` | High
+40 | File | `/spip.php` | Medium
+41 | File | `/sysmanage/edit_manageadmin.php` | High
+42 | File | `/uncpath/` | Medium
+43 | File | `/updown/upload.cgi` | High
+44 | File | `/user/del.php` | High
+45 | File | `/viewer/krpano.html` | High
+46 | File | `/wp-admin/admin-ajax.php` | High
+47 | File | `/_next` | Low
+48 | File | `/_vti_pvt/access.cnf` | High
+49 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+50 | File | `act.php` | Low
+51 | File | `ActionServlet.java` | High
+52 | File | `adclick.php` | Medium
 53 | ... | ... | ...
 
-There are 465 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 466 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

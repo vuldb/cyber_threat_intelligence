@@ -44,7 +44,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-24 | Path Traversal | High
-2 | T1055 | CWE-74 | Injection | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-271, CWE-272, CWE-284 | Execution with Unnecessary Privileges | High
@@ -73,25 +73,26 @@ ID | Type | Indicator | Confidence
 13 | File | `/bin/boa` | Medium
 14 | File | `/bin/sh` | Low
 15 | File | `/bitrix/admin/ldap_server_edit.php` | High
-16 | File | `/cgi-bin/cstecgi.cgi` | High
-17 | File | `/collection/all` | High
-18 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
-19 | File | `/detail` | Low
-20 | File | `/devinfo` | Medium
-21 | File | `/edoc/doctor/patient.php` | High
-22 | File | `/endpoint/update-tracker.php` | High
-23 | File | `/general/email/outbox/delete.php` | High
-24 | File | `/get_membership_amount.php` | High
-25 | File | `/home/get_tasks_list` | High
-26 | File | `/index.php` | Medium
-27 | File | `/index.php/signin` | High
-28 | File | `/lists/admin/` | High
-29 | File | `/log/decodmail.php` | High
-30 | File | `/Main_AdmStatus_Content.asp` | High
-31 | File | `/mygym/admin/login.php` | High
-32 | ... | ... | ...
+16 | File | `/cancel.php` | Medium
+17 | File | `/cgi-bin/cstecgi.cgi` | High
+18 | File | `/collection/all` | High
+19 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
+20 | File | `/detail` | Low
+21 | File | `/devinfo` | Medium
+22 | File | `/edoc/doctor/patient.php` | High
+23 | File | `/endpoint/update-tracker.php` | High
+24 | File | `/general/email/outbox/delete.php` | High
+25 | File | `/get_membership_amount.php` | High
+26 | File | `/home/get_tasks_list` | High
+27 | File | `/index.php` | Medium
+28 | File | `/index.php/signin` | High
+29 | File | `/lists/admin/` | High
+30 | File | `/log/decodmail.php` | High
+31 | File | `/Main_AdmStatus_Content.asp` | High
+32 | File | `/my-calendar/v1/events` | High
+33 | ... | ... | ...
 
-There are 275 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 277 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

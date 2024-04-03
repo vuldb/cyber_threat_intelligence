@@ -33,9 +33,12 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `wiki.php` | Medium
-2 | File | `{webroot}/uno/central.php` | High
-3 | Argument | `g_wiki_enable` | High
+1 | File | `src/main/java/com/laker/admin/module/sys/controller/IndexController.java` | High
+2 | File | `wiki.php` | Medium
+3 | File | `{webroot}/uno/central.php` | High
+4 | ... | ... | ...
+
+There are 2 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

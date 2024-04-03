@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [IO](https://vuldb.com/?country.io)
 * ...
 
-There are 13 more country items available. Please use our online service to access the data.
+There are 14 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -2094,11 +2094,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-25, CWE-36 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-25, CWE-36 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94 | Argument Injection | High
-5 | ... | ... | ... | ...
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
 
@@ -2114,54 +2115,53 @@ ID | Type | Indicator | Confidence
 4 | File | `/admin.php/appcenter/local.html?type=addon` | High
 5 | File | `/admin/` | Low
 6 | File | `/admin/action/delete-vaccine.php` | High
-7 | File | `/admin/borrow_add.php` | High
-8 | File | `/admin/edit_teacher.php` | High
-9 | File | `/admin/list_ipAddressPolicy.php` | High
-10 | File | `/admin/pages/edit_chicken.php` | High
-11 | File | `/admin/pages/student-print.php` | High
-12 | File | `/admin/view_sendlist.php` | High
-13 | File | `/adminapi/system/crud` | High
-14 | File | `/adminapi/system/file/openfile` | High
-15 | File | `/admin_route/dec_service_credits.php` | High
-16 | File | `/admin_route/inc_service_credits.php` | High
-17 | File | `/api/controllers/admin/app/AppController.php` | High
-18 | File | `/api/controllers/common/UploadsController.php` | High
-19 | File | `/api/v4/teams//channels/deleted` | High
-20 | File | `/app/api/controller/caiji.php` | High
-21 | File | `/app/controller/Setup.php` | High
-22 | File | `/app/Http/Controllers/ImageController.php` | High
-23 | File | `/app/index/controller/Common.php` | High
-24 | File | `/application/index/common.php` | High
-25 | File | `/application/index/controller/Databasesource.php` | High
-26 | File | `/application/index/controller/Icon.php` | High
-27 | File | `/application/index/controller/Pay.php` | High
-28 | File | `/application/pay/controller/Api.php` | High
-29 | File | `/assets/php/upload.php` | High
-30 | File | `/aux` | Low
-31 | File | `/cgi-bin/cstecgi.cgi` | High
-32 | File | `/change-language/de_DE` | High
-33 | File | `/churchcrm/WhyCameEditor.php` | High
-34 | File | `/data/remove` | Medium
-35 | File | `/debug/pprof` | Medium
-36 | File | `/devinfo` | Medium
-37 | File | `/etc/passwd` | Medium
-38 | File | `/forum/away.php` | High
-39 | File | `/general/attendance/manage/ask_duty/delete.php` | High
-40 | File | `/general/email/outbox/delete.php` | High
-41 | File | `/goform/net\_Web\_get_value` | High
-42 | File | `/goform/setAutoPing` | High
-43 | File | `/importexport.php` | High
-44 | File | `/include/file.php` | High
-45 | File | `/index.jsp#settings` | High
-46 | File | `/index.php` | Medium
-47 | File | `/Interface/DevManage/VM.php` | High
-48 | File | `/log/decodmail.php` | High
-49 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-50 | File | `/oauth/idp/.well-known/openid-configuration` | High
-51 | File | `/Setting/change_password_save` | High
-52 | ... | ... | ...
+7 | File | `/admin/list_ipAddressPolicy.php` | High
+8 | File | `/admin/pages/edit_chicken.php` | High
+9 | File | `/admin/pages/student-print.php` | High
+10 | File | `/admin/view_sendlist.php` | High
+11 | File | `/adminapi/system/crud` | High
+12 | File | `/adminapi/system/file/openfile` | High
+13 | File | `/admin_route/dec_service_credits.php` | High
+14 | File | `/admin_route/inc_service_credits.php` | High
+15 | File | `/api/controllers/admin/app/AppController.php` | High
+16 | File | `/api/controllers/common/UploadsController.php` | High
+17 | File | `/api/v4/teams//channels/deleted` | High
+18 | File | `/app/controller/Setup.php` | High
+19 | File | `/app/Http/Controllers/ImageController.php` | High
+20 | File | `/app/index/controller/Common.php` | High
+21 | File | `/application/index/common.php` | High
+22 | File | `/application/index/controller/Databasesource.php` | High
+23 | File | `/application/index/controller/Icon.php` | High
+24 | File | `/application/index/controller/Pay.php` | High
+25 | File | `/assets/php/upload.php` | High
+26 | File | `/cancel.php` | Medium
+27 | File | `/category.php` | High
+28 | File | `/cgi-bin/cstecgi.cgi` | High
+29 | File | `/churchcrm/WhyCameEditor.php` | High
+30 | File | `/debug/pprof` | Medium
+31 | File | `/devinfo` | Medium
+32 | File | `/download` | Medium
+33 | File | `/etc/passwd` | Medium
+34 | File | `/forum/away.php` | High
+35 | File | `/general/attendance/manage/ask_duty/delete.php` | High
+36 | File | `/general/email/outbox/delete.php` | High
+37 | File | `/goform/net\_Web\_get_value` | High
+38 | File | `/goform/setAutoPing` | High
+39 | File | `/importexport.php` | High
+40 | File | `/include/file.php` | High
+41 | File | `/index.jsp#settings` | High
+42 | File | `/Interface/DevManage/VM.php` | High
+43 | File | `/itbox_pi/vpn_quickset_service.php?a=set_vpn` | High
+44 | File | `/login` | Low
+45 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+46 | File | `/oauth/idp/.well-known/openid-configuration` | High
+47 | File | `/pages` | Low
+48 | File | `/Setting/change_password_save` | High
+49 | File | `/signup.php` | Medium
+50 | File | `/st_reg.php` | Medium
+51 | ... | ... | ...
 
-There are 453 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 446 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

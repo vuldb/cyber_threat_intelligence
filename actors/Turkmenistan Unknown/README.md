@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 19 more country items available. Please use our online service to access the data.
+There are 20 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -37,10 +37,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 5 | ... | ... | ... | ...
 
 There are 14 more TTP items available. Please use our online service to access the data.
@@ -72,24 +72,24 @@ ID | Type | Indicator | Confidence
 19 | File | `/setup` | Low
 20 | File | `/spip.php` | Medium
 21 | File | `/uncpath/` | Medium
-22 | File | `/var/log/nginx` | High
-23 | File | `/VPortal/mgtconsole/Subscriptions.jsp` | High
-24 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-25 | File | `/zm/index.php` | High
-26 | File | `act.php` | Low
-27 | File | `adclick.php` | Medium
-28 | File | `admin` | Low
-29 | File | `admin.php` | Medium
-30 | File | `admin/adminsignin.html` | High
-31 | File | `admin/movieview.php` | High
-32 | File | `admin/staff-exec.php` | High
-33 | File | `admin/versions.html` | High
-34 | File | `agenda.php` | Medium
-35 | File | `ajax_calls.php` | High
-36 | File | `api.php` | Low
+22 | File | `/ureport/designer/saveReportFile` | High
+23 | File | `/var/log/nginx` | High
+24 | File | `/VPortal/mgtconsole/Subscriptions.jsp` | High
+25 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+26 | File | `/zm/index.php` | High
+27 | File | `act.php` | Low
+28 | File | `adclick.php` | Medium
+29 | File | `admin` | Low
+30 | File | `admin.php` | Medium
+31 | File | `admin/adminsignin.html` | High
+32 | File | `admin/movieview.php` | High
+33 | File | `admin/staff-exec.php` | High
+34 | File | `admin/versions.html` | High
+35 | File | `agenda.php` | Medium
+36 | File | `ajax_calls.php` | High
 37 | ... | ... | ...
 
-There are 319 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 322 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

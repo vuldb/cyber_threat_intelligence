@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [IL](https://vuldb.com/?country.il)
+* [TR](https://vuldb.com/?country.tr)
 * ...
 
-There are 20 more country items available. Please use our online service to access the data.
+There are 23 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -173,7 +173,7 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-25, CWE-36, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
@@ -197,46 +197,46 @@ ID | Type | Indicator | Confidence
 9 | File | `/adminapi/system/crud` | High
 10 | File | `/adminapi/system/file/openfile` | High
 11 | File | `/admin_route/dec_service_credits.php` | High
-12 | File | `/api/download` | High
-13 | File | `/api/v1/alerts` | High
-14 | File | `/api/v1/terminal/sessions/?limit=1` | High
-15 | File | `/api /v3/auth` | High
-16 | File | `/api/v4/teams//channels/deleted` | High
-17 | File | `/app/index/controller/Common.php` | High
-18 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
-19 | File | `/b2b-supermarket/shopping-cart` | High
-20 | File | `/bitrix/admin/ldap_server_edit.php` | High
-21 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+12 | File | `/api/v1/alerts` | High
+13 | File | `/api/v1/terminal/sessions/?limit=1` | High
+14 | File | `/api /v3/auth` | High
+15 | File | `/api/v4/teams//channels/deleted` | High
+16 | File | `/app/index/controller/Common.php` | High
+17 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
+18 | File | `/b2b-supermarket/shopping-cart` | High
+19 | File | `/bitrix/admin/ldap_server_edit.php` | High
+20 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+21 | File | `/cancel.php` | Medium
 22 | File | `/category.php` | High
 23 | File | `/categorypage.php` | High
 24 | File | `/cgi-bin/cstecgi.cgi` | High
 25 | File | `/cgi-bin/vitogate.cgi` | High
 26 | File | `/change-language/de_DE` | High
-27 | File | `/debug/pprof` | Medium
-28 | File | `/devinfo` | Medium
-29 | File | `/dist/index.js` | High
-30 | File | `/fcgi/scrut_fcgi.fcgi` | High
-31 | File | `/forms/doLogin` | High
-32 | File | `/forum/away.php` | High
-33 | File | `/geoserver/gwc/rest.html` | High
-34 | File | `/goform/formSysCmd` | High
-35 | File | `/HNAP1` | Low
-36 | File | `/hosts/firewall/ip` | High
-37 | File | `/index.jsp#settings` | High
-38 | File | `/index.php/ccm/system/file/upload` | High
-39 | File | `/listplace/user/ticket/create` | High
-40 | File | `/log/decodmail.php` | High
-41 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
-42 | File | `/novel/author/list` | High
-43 | File | `/oauth/idp/.well-known/openid-configuration` | High
-44 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
-45 | File | `/php/ping.php` | High
-46 | File | `/proxy` | Low
-47 | File | `/RPS2019Service/status.html` | High
-48 | File | `/s/index.php?action=statistics` | High
+27 | File | `/classes/Master.php?f=save_category` | High
+28 | File | `/debug/pprof` | Medium
+29 | File | `/devinfo` | Medium
+30 | File | `/dist/index.js` | High
+31 | File | `/download` | Medium
+32 | File | `/fcgi/scrut_fcgi.fcgi` | High
+33 | File | `/forms/doLogin` | High
+34 | File | `/forum/away.php` | High
+35 | File | `/geoserver/gwc/rest.html` | High
+36 | File | `/goform/formSysCmd` | High
+37 | File | `/HNAP1` | Low
+38 | File | `/hosts/firewall/ip` | High
+39 | File | `/index.jsp#settings` | High
+40 | File | `/index.php/ccm/system/file/upload` | High
+41 | File | `/listplace/user/ticket/create` | High
+42 | File | `/log/decodmail.php` | High
+43 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
+44 | File | `/novel/author/list` | High
+45 | File | `/oauth/idp/.well-known/openid-configuration` | High
+46 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
+47 | File | `/php/ping.php` | High
+48 | File | `/proxy` | Low
 49 | ... | ... | ...
 
-There are 423 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 429 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

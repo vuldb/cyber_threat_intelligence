@@ -55,7 +55,7 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-37 | Path Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
@@ -115,16 +115,16 @@ ID | Type | Indicator | Confidence
 44 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
 45 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
 46 | File | `/chaincity/user/ticket/create` | High
-47 | File | `/collection/all` | High
-48 | File | `/common/info.cgi` | High
-49 | File | `/core/conditions/AbstractWrapper.java` | High
-50 | File | `/core/config-revisions` | High
-51 | File | `/debug/pprof` | Medium
-52 | File | `/dipam/athlete-profile.php` | High
-53 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+47 | File | `/check_availability.php` | High
+48 | File | `/collection/all` | High
+49 | File | `/common/info.cgi` | High
+50 | File | `/core/conditions/AbstractWrapper.java` | High
+51 | File | `/core/config-revisions` | High
+52 | File | `/debug/pprof` | Medium
+53 | File | `/dipam/athlete-profile.php` | High
 54 | ... | ... | ...
 
-There are 472 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 474 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

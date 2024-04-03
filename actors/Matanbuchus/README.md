@@ -16,7 +16,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [TT](https://vuldb.com/?country.tt)
-* [DE](https://vuldb.com/?country.de)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
 There are 8 more country items available. Please use our online service to access the data.
@@ -32,7 +32,7 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [185.11.61.170](https://vuldb.com/?ip.185.11.61.170) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 5 more IOC items available. Please use our online service to access the data.
+There are 7 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -45,7 +45,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059 | CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
 
-There are 9 more TTP items available. Please use our online service to access the data.
+There are 10 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -54,16 +54,16 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/?page=user/manage_user&id=3` | High
-2 | File | `/admin/attendance_row.php` | High
-3 | File | `/admin/request-received-bydonar.php` | High
-4 | File | `/admin/test_status.php` | High
-5 | File | `/admin_route/inc_service_credits.php` | High
-6 | File | `/cgi-bin/cstecgi.cgi` | High
-7 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-8 | File | `/edituser.php` | High
+2 | File | `/Admin/add-student.php` | High
+3 | File | `/admin/attendance_row.php` | High
+4 | File | `/admin/request-received-bydonar.php` | High
+5 | File | `/admin/test_status.php` | High
+6 | File | `/admin_route/inc_service_credits.php` | High
+7 | File | `/cgi-bin/cstecgi.cgi` | High
+8 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
 9 | ... | ... | ...
 
-There are 61 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 65 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

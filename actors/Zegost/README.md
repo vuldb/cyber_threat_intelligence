@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [RU](https://vuldb.com/?country.ru)
+* [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 12 more country items available. Please use our online service to access the data.
+There are 13 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -63,7 +63,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-425 | Path Traversal | High
-2 | T1055 | CWE-74 | Injection | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
@@ -96,33 +96,33 @@ ID | Type | Indicator | Confidence
 18 | File | `/classes/Master.php?f=save_course` | High
 19 | File | `/csms/?page=contact_us` | High
 20 | File | `/ctcprotocol/Protocol` | High
-21 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
-22 | File | `/ebics-server/ebics.aspx` | High
-23 | File | `/ecommerce/admin/settings/setDiscount.php` | High
-24 | File | `/forum/away.php` | High
-25 | File | `/general/attendance/manage/ask_duty/delete.php` | High
-26 | File | `/goform/net\_Web\_get_value` | High
-27 | File | `/GponForm/usb_restore_Form?script/` | High
-28 | File | `/group1/uploa` | High
-29 | File | `/hedwig.cgi` | Medium
-30 | File | `/HNAP1` | Low
-31 | File | `/HNAP1/SetClientInfo` | High
-32 | File | `/inc/topBarNav.php` | High
-33 | File | `/Interface/DevManage/VM.php` | High
-34 | File | `/menu.html` | Medium
-35 | File | `/modules/profile/index.php` | High
-36 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-37 | File | `/oauth/idp/.well-known/openid-configuration` | High
-38 | File | `/out.php` | Medium
-39 | File | `/php-fusion/infusions/shoutbox_panel/shoutbox_archive.php` | High
-40 | File | `/plugin` | Low
-41 | File | `/register.do` | Medium
-42 | File | `/resources//../` | High
-43 | File | `/spip.php` | Medium
-44 | File | `/squashfs-root/www/HNAP1/control/SetMasterWLanSettings.php` | High
+21 | File | `/debug/pprof` | Medium
+22 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
+23 | File | `/ebics-server/ebics.aspx` | High
+24 | File | `/ecommerce/admin/settings/setDiscount.php` | High
+25 | File | `/forum/away.php` | High
+26 | File | `/general/attendance/manage/ask_duty/delete.php` | High
+27 | File | `/goform/net\_Web\_get_value` | High
+28 | File | `/GponForm/usb_restore_Form?script/` | High
+29 | File | `/group1/uploa` | High
+30 | File | `/hedwig.cgi` | Medium
+31 | File | `/HNAP1` | Low
+32 | File | `/HNAP1/SetClientInfo` | High
+33 | File | `/inc/topBarNav.php` | High
+34 | File | `/Interface/DevManage/VM.php` | High
+35 | File | `/menu.html` | Medium
+36 | File | `/modules/profile/index.php` | High
+37 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+38 | File | `/oauth/idp/.well-known/openid-configuration` | High
+39 | File | `/out.php` | Medium
+40 | File | `/patient/appointment.php` | High
+41 | File | `/php-fusion/infusions/shoutbox_panel/shoutbox_archive.php` | High
+42 | File | `/plugin` | Low
+43 | File | `/prescription/prescription/delete/` | High
+44 | File | `/pro/common/download` | High
 45 | ... | ... | ...
 
-There are 389 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 392 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

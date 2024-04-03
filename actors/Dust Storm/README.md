@@ -16,7 +16,6 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
-* [MS](https://vuldb.com/?country.ms)
 
 ## IOC - Indicator of Compromise
 
@@ -41,12 +40,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-36 | Path Traversal | High
-2 | T1055 | CWE-74 | Injection | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
 
-There are 13 more TTP items available. Please use our online service to access the data.
+There are 14 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -54,32 +53,25 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/api /v3/auth` | High
-2 | File | `/app/index/controller/Common.php` | High
-3 | File | `/belegungsplan/wochenuebersicht.inc.php` | High
-4 | File | `/cgi-bin/nobody/VerifyCode.cgi` | High
-5 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-6 | File | `/cgi.cgi` | Medium
-7 | File | `/counter/index2.php` | High
-8 | File | `/data/remove` | Medium
-9 | File | `/highlight/index.html` | High
-10 | File | `/iisadmin` | Medium
-11 | File | `/iissamples` | Medium
-12 | File | `/include/dialog/select_templets_post.php` | High
-13 | File | `/includes/js/admin.php` | High
-14 | File | `/modx/manager/index.php` | High
-15 | File | `/search-result/` | High
-16 | File | `/search.php` | Medium
-17 | File | `/server-status` | High
-18 | File | `/sgms/reports/scheduledreports/configure/scheduleProps.jsp` | High
-19 | File | `/templates/header.inc.php` | High
-20 | File | `/tmp` | Low
-21 | File | `a.jsp` | Low
-22 | File | `admin/comedit.php` | High
-23 | File | `admin/db.php` | Medium
-24 | ... | ... | ...
+1 | File | `/admin.php` | Medium
+2 | File | `/admin/list_ipAddressPolicy.php` | High
+3 | File | `/api /v3/auth` | High
+4 | File | `/bin/sh` | Low
+5 | File | `/cgi-bin/cstecgi.cgi` | High
+6 | File | `/cgi-bin/nobody/VerifyCode.cgi` | High
+7 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
+8 | File | `/cgi.cgi` | Medium
+9 | File | `/counter/index2.php` | High
+10 | File | `/data/remove` | Medium
+11 | File | `/goform/SetStaticRouteCfg` | High
+12 | File | `/modx/manager/index.php` | High
+13 | File | `/ossim/report/wizard_email.php` | High
+14 | File | `/search-result/` | High
+15 | File | `/search.php` | Medium
+16 | File | `/sgms/reports/scheduledreports/configure/scheduleProps.jsp` | High
+17 | ... | ... | ...
 
-There are 198 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 138 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

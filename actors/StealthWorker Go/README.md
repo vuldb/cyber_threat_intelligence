@@ -10,7 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [JP](https://vuldb.com/?country.jp)
-* [RU](https://vuldb.com/?country.ru)
+* [ES](https://vuldb.com/?country.es)
+* ...
+
+There are 1 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -18,8 +21,9 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [185.191.34.170](https://vuldb.com/?ip.185.191.34.170) | - | - | High
-2 | [194.26.29.184](https://vuldb.com/?ip.194.26.29.184) | - | - | High
+1 | [62.122.184.95](https://vuldb.com/?ip.62.122.184.95) | - | - | High
+2 | [185.191.34.170](https://vuldb.com/?ip.185.191.34.170) | - | - | High
+3 | [194.26.29.184](https://vuldb.com/?ip.194.26.29.184) | - | - | High
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -28,7 +32,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22 | Path Traversal | High
-2 | T1055 | CWE-74 | Injection | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
@@ -45,14 +49,15 @@ ID | Type | Indicator | Confidence
 3 | File | `/ajax-files/postComment.php` | High
 4 | File | `/categorypage.php` | High
 5 | File | `/home.php` | Medium
-6 | File | `/searchpin.php` | High
-7 | File | `/soap/server_sa` | High
-8 | File | `/TemplateManager/indexExternalLocation.jsp` | High
-9 | File | `/web/entry/en/address/adrsSetUserWizard.cgi` | High
-10 | File | `AdminByRequest.exe` | High
-11 | ... | ... | ...
+6 | File | `/products/details.asp` | High
+7 | File | `/searchpin.php` | High
+8 | File | `/soap/server_sa` | High
+9 | File | `/TemplateManager/indexExternalLocation.jsp` | High
+10 | File | `/web/entry/en/address/adrsSetUserWizard.cgi` | High
+11 | File | `admin/traveller_details.php` | High
+12 | ... | ... | ...
 
-There are 84 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 93 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -44,7 +44,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22, CWE-425 | Path Traversal | High
-2 | T1055 | CWE-74 | Injection | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
@@ -64,17 +64,18 @@ ID | Type | Indicator | Confidence
 5 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
 6 | File | `/env` | Low
 7 | File | `/goform/SetNetControlList` | High
-8 | File | `/modules/tasks/summary.inc.php` | High
-9 | File | `/rest/api/2/user/picker` | High
-10 | File | `/src/chatbotapp/chatWindow.java` | High
-11 | File | `/uncpath/` | Medium
-12 | File | `/wp-json` | Medium
-13 | File | `admin/categories_industry.php` | High
-14 | File | `admin/category.inc.php` | High
-15 | File | `admin/class-woo-popup-admin.php` | High
-16 | ... | ... | ...
+8 | File | `/goform/SetStaticRouteCfg` | High
+9 | File | `/modules/tasks/summary.inc.php` | High
+10 | File | `/rest/api/2/user/picker` | High
+11 | File | `/src/chatbotapp/chatWindow.java` | High
+12 | File | `/uncpath/` | Medium
+13 | File | `/wp-json` | Medium
+14 | File | `admin/categories_industry.php` | High
+15 | File | `admin/category.inc.php` | High
+16 | File | `admin/class-woo-popup-admin.php` | High
+17 | ... | ... | ...
 
-There are 133 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 134 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

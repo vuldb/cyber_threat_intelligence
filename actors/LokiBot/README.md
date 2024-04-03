@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [VN](https://vuldb.com/?country.vn)
 * ...
 
-There are 8 more country items available. Please use our online service to access the data.
+There are 6 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -113,7 +113,7 @@ ID | IP address | Hostname | Campaign | Confidence
 90 | [51.81.57.58](https://vuldb.com/?ip.51.81.57.58) | oxsus1lb01p.external.vadesecure.com | - | High
 91 | ... | ... | ... | ...
 
-There are 358 more IOC items available. Please use our online service to access the data.
+There are 359 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -121,14 +121,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-425 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-29, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+4 | T1059 | CWE-94 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -136,49 +136,46 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/` | Low
-2 | File | `/admin/action/delete-vaccine.php` | High
-3 | File | `/admin/admin_user.php` | High
-4 | File | `/admin/index2.html` | High
-5 | File | `/admin/list_ipAddressPolicy.php` | High
-6 | File | `/admin/subject.php` | High
-7 | File | `/api/trackedEntityInstances` | High
-8 | File | `/app/index/controller/Common.php` | High
-9 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
-10 | File | `/auth/auth.php?user=1` | High
-11 | File | `/aux` | Low
-12 | File | `/boaform/device_reset.cgi` | High
-13 | File | `/cgi-bin/cstecgi.cgi` | High
-14 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-15 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
-16 | File | `/cgi-bin/wlogin.cgi` | High
-17 | File | `/cgi/cpaddons_report.pl` | High
-18 | File | `/common/dict/list` | High
-19 | File | `/data/remove` | Medium
-20 | File | `/debug/pprof` | Medium
-21 | File | `/DXR.axd` | Medium
-22 | File | `/etc/passwd` | Medium
-23 | File | `/forms/doLogin` | High
-24 | File | `/forum/away.php` | High
-25 | File | `/goform/goform_get_cmd_process` | High
-26 | File | `/HNAP1/` | Low
-27 | File | `/importexport.php` | High
-28 | File | `/index.php` | Medium
-29 | File | `/main/doctype.php` | High
-30 | File | `/main/webservices/additional_webservices.php` | High
-31 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
-32 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-33 | File | `/net/bluetooth/rfcomm/core.C` | High
-34 | File | `/novel/author/list` | High
-35 | File | `/pdf` | Low
-36 | File | `/register.php` | High
-37 | File | `/spip.php` | Medium
-38 | File | `/terminal/handle-command.php` | High
-39 | File | `/tmp/ppd.trace` | High
-40 | File | `/update-resource-data/` | High
-41 | ... | ... | ...
+1 | File | `/admin/action/delete-vaccine.php` | High
+2 | File | `/admin/list_ipAddressPolicy.php` | High
+3 | File | `/app/index/controller/Common.php` | High
+4 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
+5 | File | `/aux` | Low
+6 | File | `/cgi-bin/cstecgi.cgi` | High
+7 | File | `/cgi-bin/wlogin.cgi` | High
+8 | File | `/cgi/cpaddons_report.pl` | High
+9 | File | `/common/dict/list` | High
+10 | File | `/data/remove` | Medium
+11 | File | `/debug/pprof` | Medium
+12 | File | `/etc/passwd` | Medium
+13 | File | `/forum/away.php` | High
+14 | File | `/goform/net\_Web\_get_value` | High
+15 | File | `/index.php` | Medium
+16 | File | `/Interface/DevManage/VM.php` | High
+17 | File | `/main/webservices/additional_webservices.php` | High
+18 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
+19 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+20 | File | `/net/bluetooth/rfcomm/core.C` | High
+21 | File | `/novel/author/list` | High
+22 | File | `/pdf` | Low
+23 | File | `/remote/put_file` | High
+24 | File | `/spip.php` | Medium
+25 | File | `/squashfs-root/etc_ro/custom.conf` | High
+26 | File | `/src/dede/vote_edit.php` | High
+27 | File | `/terminal/handle-command.php` | High
+28 | File | `/tmp/ppd.trace` | High
+29 | File | `/update-resource-data/` | High
+30 | File | `/uploads/tags.php` | High
+31 | File | `/user/inc/workidajax.php` | High
+32 | File | `/var/tmp/abrt/abrt-hax-coredump` | High
+33 | File | `adclick.php` | Medium
+34 | File | `add.php` | Low
+35 | File | `addressbook.update.php` | High
+36 | File | `admin.php` | Medium
+37 | File | `admin.php?m=backup&c=backup&a=doback` | High
+38 | ... | ... | ...
 
-There are 353 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 325 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -190,6 +187,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://asec.ahnlab.com/en/36294/
 * https://asec.ahnlab.com/en/36785/
 * https://asec.ahnlab.com/en/39332/
+* https://asec.ahnlab.com/en/52488/
 * https://blog.talosintelligence.com/2019/04/threat-source-april-18-new-attacks.html
 * https://blog.talosintelligence.com/2019/05/threat-roundup-0524-0531.html
 * https://blog.talosintelligence.com/2019/06/threat-roundup-0531-0607.html

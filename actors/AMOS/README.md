@@ -27,7 +27,7 @@ ID | IP address | Hostname | Campaign | Confidence
 4 | [5.42.65.108](https://vuldb.com/?ip.5.42.65.108) | - | - | High
 5 | ... | ... | ... | ...
 
-There are 14 more IOC items available. Please use our online service to access the data.
+There are 15 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -61,7 +61,7 @@ ID | Type | Indicator | Confidence
 11 | File | `bb_usage_stats.php` | High
 12 | ... | ... | ...
 
-There are 88 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 92 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -77,6 +77,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://tracker.viriback.com/index.php?q=5.182.86.8
 * https://tria.ge/240131-bq8nfsghb7/behavioral1
 * https://tria.ge/240204-mqbt9sfdg3
+* https://tria.ge/240310-nyz3hacd2y/behavioral1
 * https://twitter.com/phd_phuc/status/1651002681798926337
 * https://www.malwarebytes.com/blog/threat-intelligence/2024/01/atomic-stealer-rings-in-the-new-year-with-updated-version
 

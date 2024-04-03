@@ -53,7 +53,7 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-35 | Path Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
@@ -89,25 +89,26 @@ ID | Type | Indicator | Confidence
 21 | File | `/etc/controller-agent/agent.conf` | High
 22 | File | `/forms/web_importTFTP` | High
 23 | File | `/front/admin/tenancyDetail.php` | High
-24 | File | `/goform/SysToolReboot` | High
-25 | File | `/goform/SysToolRestoreSet` | High
-26 | File | `/graphql` | Medium
-27 | File | `/individual` | Medium
-28 | File | `/jeecg-boot/jmreport/upload` | High
-29 | File | `/jeecg-boot/jmreport/view` | High
-30 | File | `/jsoa/hntdCustomDesktopActionContent` | High
-31 | File | `/localhost/u` | Medium
-32 | File | `/net` | Low
-33 | File | `/opt/bin/cli` | Medium
-34 | File | `/PluXml/core/admin/parametres_edittpl.php` | High
-35 | File | `/public/plugins/` | High
-36 | File | `/public_html/admin/plugins/bad_behavior2/blacklist.php` | High
-37 | File | `/root/run/adm.php?admin-ediy&part=exdiy` | High
-38 | File | `/setNTP.cgi` | Medium
-39 | File | `/setting/setWanIeCfg` | High
-40 | ... | ... | ...
+24 | File | `/goform/GetParentControlInfo` | High
+25 | File | `/goform/SetSysTimeCfg` | High
+26 | File | `/goform/SysToolReboot` | High
+27 | File | `/goform/SysToolRestoreSet` | High
+28 | File | `/goform/WifiExtraSet` | High
+29 | File | `/graphql` | Medium
+30 | File | `/individual` | Medium
+31 | File | `/jeecg-boot/jmreport/upload` | High
+32 | File | `/jeecg-boot/jmreport/view` | High
+33 | File | `/jsoa/hntdCustomDesktopActionContent` | High
+34 | File | `/localhost/u` | Medium
+35 | File | `/net` | Low
+36 | File | `/opt/bin/cli` | Medium
+37 | File | `/PluXml/core/admin/parametres_edittpl.php` | High
+38 | File | `/public/plugins/` | High
+39 | File | `/public_html/admin/plugins/bad_behavior2/blacklist.php` | High
+40 | File | `/root/run/adm.php?admin-ediy&part=exdiy` | High
+41 | ... | ... | ...
 
-There are 345 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 352 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

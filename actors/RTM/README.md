@@ -48,7 +48,7 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94 | Argument Injection | High
 5 | ... | ... | ... | ...
 
@@ -62,36 +62,37 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.travis.yml` | Medium
 2 | File | `/.env` | Low
-3 | File | `/admin.php` | Medium
-4 | File | `/admin/app/product.php` | High
-5 | File | `/admin/subnets/ripe-query.php` | High
-6 | File | `/apply.cgi` | Medium
-7 | File | `/core/conditions/AbstractWrapper.java` | High
-8 | File | `/customer_support/index.php` | High
-9 | File | `/dashboard/updatelogo.php` | High
-10 | File | `/debug/pprof` | Medium
-11 | File | `/etc/openshift/server_priv.pem` | High
-12 | File | `/export` | Low
-13 | File | `/file?action=download&file` | High
-14 | File | `/hardware` | Medium
-15 | File | `/importexport.php` | High
-16 | File | `/index.php` | Medium
-17 | File | `/librarian/bookdetails.php` | High
-18 | File | `/medical/inventories.php` | High
-19 | File | `/mkshop/Men/profile.php` | High
-20 | File | `/monitoring` | Medium
-21 | File | `/Noxen-master/users.php` | High
-22 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-23 | File | `/plugin/LiveChat/getChat.json.php` | High
-24 | File | `/plugins/servlet/audit/resource` | High
-25 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
+3 | File | `/admin/app/product.php` | High
+4 | File | `/admin/subnets/ripe-query.php` | High
+5 | File | `/apply.cgi` | Medium
+6 | File | `/core/conditions/AbstractWrapper.java` | High
+7 | File | `/customer_support/index.php` | High
+8 | File | `/dashboard/updatelogo.php` | High
+9 | File | `/debug/pprof` | Medium
+10 | File | `/etc/openshift/server_priv.pem` | High
+11 | File | `/export` | Low
+12 | File | `/file?action=download&file` | High
+13 | File | `/hardware` | Medium
+14 | File | `/importexport.php` | High
+15 | File | `/index.php` | Medium
+16 | File | `/librarian/bookdetails.php` | High
+17 | File | `/medical/inventories.php` | High
+18 | File | `/mkshop/Men/profile.php` | High
+19 | File | `/monitoring` | Medium
+20 | File | `/Noxen-master/users.php` | High
+21 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+22 | File | `/plugin/LiveChat/getChat.json.php` | High
+23 | File | `/plugins/servlet/audit/resource` | High
+24 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
+25 | File | `/preview.php` | Medium
 26 | File | `/PreviewHandler.ashx` | High
-27 | File | `/recordings/index.php` | High
-28 | File | `/replication` | Medium
-29 | File | `/RestAPI` | Medium
-30 | ... | ... | ...
+27 | File | `/protocol/index.php` | High
+28 | File | `/recordings/index.php` | High
+29 | File | `/replication` | Medium
+30 | File | `/RestAPI` | Medium
+31 | ... | ... | ...
 
-There are 251 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 268 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Republic of Korea Unknown:
 
 * [IO](https://vuldb.com/?country.io)
-* [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
 There are 17 more country items available. Please use our online service to access the data.
@@ -1073,12 +1073,13 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-25, CWE-36, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+6 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+7 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -1106,29 +1107,29 @@ ID | Type | Indicator | Confidence
 18 | File | `/api/log/killJob` | High
 19 | File | `/api/snapshot and /api/get_log_file` | High
 20 | File | `/api/upload.php` | High
-21 | File | `/api/v1/alerts` | High
-22 | File | `/api/v4/teams//channels/deleted` | High
-23 | File | `/app/api/controller/caiji.php` | High
-24 | File | `/app/controller/Setup.php` | High
-25 | File | `/app/Http/Controllers/ImageController.php` | High
-26 | File | `/app/index/controller/Common.php` | High
-27 | File | `/application/index/common.php` | High
-28 | File | `/application/index/controller/Databasesource.php` | High
-29 | File | `/application/index/controller/Pay.php` | High
-30 | File | `/application/pay/controller/Api.php` | High
-31 | File | `/assets/php/upload.php` | High
-32 | File | `/b2b-supermarket/shopping-cart` | High
-33 | File | `/cgi-bin/cstecgi.cgi` | High
-34 | File | `/change-language/de_DE` | High
-35 | File | `/churchcrm/WhyCameEditor.php` | High
-36 | File | `/classes/Master.php?f=delete_category` | High
-37 | File | `/Content/Plugins/uploader/FileChoose.html?fileUrl=/Upload/File/Pics/&parent` | High
-38 | File | `/dashboard/add-blog.php` | High
-39 | File | `/data/remove` | Medium
+21 | File | `/api/v4/teams//channels/deleted` | High
+22 | File | `/app/api/controller/caiji.php` | High
+23 | File | `/app/controller/Setup.php` | High
+24 | File | `/app/Http/Controllers/ImageController.php` | High
+25 | File | `/app/index/controller/Common.php` | High
+26 | File | `/application/index/common.php` | High
+27 | File | `/application/index/controller/Databasesource.php` | High
+28 | File | `/application/index/controller/Pay.php` | High
+29 | File | `/application/pay/controller/Api.php` | High
+30 | File | `/assets/php/upload.php` | High
+31 | File | `/b2b-supermarket/shopping-cart` | High
+32 | File | `/cancel.php` | Medium
+33 | File | `/category.php` | High
+34 | File | `/cgi-bin/cstecgi.cgi` | High
+35 | File | `/change-language/de_DE` | High
+36 | File | `/churchcrm/WhyCameEditor.php` | High
+37 | File | `/classes/Master.php?f=delete_category` | High
+38 | File | `/Content/Plugins/uploader/FileChoose.html?fileUrl=/Upload/File/Pics/&parent` | High
+39 | File | `/dashboard/add-blog.php` | High
 40 | File | `/debug/pprof` | Medium
 41 | File | `/devinfo` | Medium
 42 | File | `/dist/index.js` | High
-43 | File | `/fcgi/scrut_fcgi.fcgi` | High
+43 | File | `/download` | Medium
 44 | File | `/forum/away.php` | High
 45 | File | `/general/email/outbox/delete.php` | High
 46 | File | `/geoserver/gwc/rest.html` | High
@@ -1136,7 +1137,7 @@ ID | Type | Indicator | Confidence
 48 | File | `/goform/setAutoPing` | High
 49 | ... | ... | ...
 
-There are 422 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 427 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

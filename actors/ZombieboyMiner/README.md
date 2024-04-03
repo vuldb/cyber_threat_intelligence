@@ -29,8 +29,8 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1068 | CWE-264 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
-2 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
+1 | T1068 | CWE-264 | Execution with Unnecessary Privileges | High
+2 | T1110.001 | CWE-798 | Hard-coded Credentials | High
 3 | T1222 | CWE-275 | Permission Issues | High
 4 | ... | ... | ... | ...
 

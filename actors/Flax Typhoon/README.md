@@ -42,7 +42,7 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-29, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
@@ -63,47 +63,47 @@ ID | Type | Indicator | Confidence
 6 | File | `/admin/del_service.php` | High
 7 | File | `/admin/index.php` | High
 8 | File | `/admin/index2.html` | High
-9 | File | `/admin/read.php?mudi=announContent` | High
-10 | File | `/admin/scripts/pi-hole/phpqueryads.php` | High
-11 | File | `/api/authentication/login` | High
-12 | File | `/api/upload.php` | High
-13 | File | `/api/v1/terminal/sessions/?limit=1` | High
-14 | File | `/api /v3/auth` | High
-15 | File | `/app/sys1.php` | High
-16 | File | `/application/common.php#action_log` | High
-17 | File | `/APR/signup.php` | High
-18 | File | `/assets/php/upload.php` | High
-19 | File | `/bin/ate` | Medium
-20 | File | `/bin/rc4_crypt` | High
-21 | File | `/bitrix/admin/ldap_server_edit.php` | High
-22 | File | `/cgi-bin/activate.cgi` | High
-23 | File | `/cgi-bin/kerbynet` | High
-24 | File | `/cgi-bin/login.cgi` | High
-25 | File | `/cgi-bin/luci/api/switch` | High
-26 | File | `/cgi-bin/luci/api/wireless` | High
-27 | File | `/cgi-bin/luci;stok=/locale` | High
-28 | File | `/cgi-bin/qcmap_auth` | High
-29 | File | `/cgi-bin/wapopen` | High
-30 | File | `/classes/Master.php?f=delete_category` | High
-31 | File | `/classes/Master.php?f=delete_inquiry` | High
-32 | File | `/classes/Master.php?f=delete_item` | High
-33 | File | `/classes/Master.php?f=delete_service` | High
-34 | File | `/classes/Master.php?f=save_service` | High
-35 | File | `/classes/Users.php` | High
-36 | File | `/classes/Users.php?f=save` | High
-37 | File | `/CMD_ACCOUNT_ADMIN` | High
-38 | File | `/conf/` | Low
-39 | File | `/config/getuser` | High
-40 | File | `/config/php.ini` | High
-41 | File | `/Content/Plugins/uploader/FileChoose.html?fileUrl=/Upload/File/Pics/&parent` | High
-42 | File | `/controller/OnlinePreviewController.java` | High
-43 | File | `/core/admin/categories.php` | High
-44 | File | `/cupseasylive/taxstructuredisplay.php` | High
-45 | File | `/dayrui/My/View/main.html` | High
-46 | File | `/dede/sys_sql_query.php` | High
+9 | File | `/admin/list_resource_icon.php?action=delete` | High
+10 | File | `/admin/read.php?mudi=announContent` | High
+11 | File | `/admin/scripts/pi-hole/phpqueryads.php` | High
+12 | File | `/api/authentication/login` | High
+13 | File | `/api/upload.php` | High
+14 | File | `/api/v1/terminal/sessions/?limit=1` | High
+15 | File | `/api /v3/auth` | High
+16 | File | `/app/sys1.php` | High
+17 | File | `/application/common.php#action_log` | High
+18 | File | `/APR/signup.php` | High
+19 | File | `/assets/php/upload.php` | High
+20 | File | `/bin/ate` | Medium
+21 | File | `/bin/rc4_crypt` | High
+22 | File | `/bitrix/admin/ldap_server_edit.php` | High
+23 | File | `/cgi-bin/activate.cgi` | High
+24 | File | `/cgi-bin/kerbynet` | High
+25 | File | `/cgi-bin/login.cgi` | High
+26 | File | `/cgi-bin/luci/api/switch` | High
+27 | File | `/cgi-bin/luci/api/wireless` | High
+28 | File | `/cgi-bin/luci;stok=/locale` | High
+29 | File | `/cgi-bin/qcmap_auth` | High
+30 | File | `/cgi-bin/wapopen` | High
+31 | File | `/classes/Master.php?f=delete_category` | High
+32 | File | `/classes/Master.php?f=delete_inquiry` | High
+33 | File | `/classes/Master.php?f=delete_item` | High
+34 | File | `/classes/Master.php?f=delete_service` | High
+35 | File | `/classes/Master.php?f=save_service` | High
+36 | File | `/classes/Users.php` | High
+37 | File | `/classes/Users.php?f=save` | High
+38 | File | `/CMD_ACCOUNT_ADMIN` | High
+39 | File | `/conf/` | Low
+40 | File | `/config/getuser` | High
+41 | File | `/config/php.ini` | High
+42 | File | `/Content/Plugins/uploader/FileChoose.html?fileUrl=/Upload/File/Pics/&parent` | High
+43 | File | `/controller/OnlinePreviewController.java` | High
+44 | File | `/core/admin/categories.php` | High
+45 | File | `/cupseasylive/taxstructuredisplay.php` | High
+46 | File | `/dayrui/My/View/main.html` | High
 47 | ... | ... | ...
 
-There are 407 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 409 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

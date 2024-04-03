@@ -50,14 +50,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-24 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
+3 | T1055 | CWE-74, CWE-643 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -74,64 +74,66 @@ ID | Type | Indicator | Confidence
 7 | File | `/admin/action/new-feed.php` | High
 8 | File | `/admin/add-category.php` | High
 9 | File | `/admin/admin-profile.php` | High
-10 | File | `/admin/article/article-edit-run.php` | High
-11 | File | `/admin/clientview.php` | High
-12 | File | `/admin/controller/JobLogController.java` | High
-13 | File | `/admin/del_feedback.php` | High
-14 | File | `/admin/edit-accepted-appointment.php` | High
-15 | File | `/admin/edit-services.php` | High
-16 | File | `/admin/invoice.php` | High
-17 | File | `/admin/makehtml_freelist_action.php` | High
-18 | File | `/admin/manage-users.php` | High
-19 | File | `/admin/pages/student-print.php` | High
-20 | File | `/admin/regester.php` | High
-21 | File | `/admin/suppliers/view_details.php` | High
-22 | File | `/admin/sys_sql_query.php` | High
-23 | File | `/admin_route/inc_service_credits.php` | High
-24 | File | `/api.php` | Medium
-25 | File | `/api/baskets/{name}` | High
-26 | File | `/api/sys/login` | High
-27 | File | `/api/sys/set_passwd` | High
-28 | File | `/api/trackedEntityInstances` | High
-29 | File | `/app/api/controller/default/Sqlite.php` | High
-30 | File | `/application/index/controller/Databasesource.php` | High
-31 | File | `/application/index/controller/File.php` | High
-32 | File | `/application/index/controller/Icon.php` | High
-33 | File | `/application/index/controller/Screen.php` | High
-34 | File | `/application/index/controller/Unity.php` | High
-35 | File | `/application/pay/controller/Api.php` | High
-36 | File | `/application/plugins/controller/Upload.php` | High
-37 | File | `/application/websocket/controller/Setting.php` | High
-38 | File | `/apply/index.php` | High
-39 | File | `/apps/login_auth.php` | High
-40 | File | `/assets/php/upload.php` | High
-41 | File | `/auth/auth.php?user=1` | High
-42 | File | `/author/list?limit=10&offset=0&order=desc` | High
-43 | File | `/aux` | Low
-44 | File | `/b2b-supermarket/shopping-cart` | High
-45 | File | `/bin/boa` | Medium
-46 | File | `/boafrm/formMapDelDevice` | High
-47 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-48 | File | `/cas/logout` | Medium
-49 | File | `/cgi-bin/cstecgi.cgi` | High
-50 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-51 | File | `/changePassword` | High
-52 | File | `/classes/Master.php?f=delete_category` | High
-53 | File | `/classes/Users.php?f=save` | High
-54 | File | `/collection/all` | High
-55 | File | `/company/store` | High
-56 | File | `/Content/Template/root/reverse-shell.aspx` | High
-57 | File | `/dashboard/add-blog.php` | High
-58 | File | `/data/remove` | Medium
-59 | File | `/debug/pprof` | Medium
-60 | File | `/devinfo` | Medium
-61 | File | `/ecshop/admin/template.php` | High
-62 | File | `/edit.php` | Medium
-63 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-64 | File | `/etc/passwd` | Medium
-65 | ... | ... | ...
+10 | File | `/admin/app/product.php` | High
+11 | File | `/admin/application-bwdates-reports-details.php` | High
+12 | File | `/admin/clientview.php` | High
+13 | File | `/admin/company/controller.php` | High
+14 | File | `/admin/controller/JobLogController.java` | High
+15 | File | `/admin/del_feedback.php` | High
+16 | File | `/admin/edit-accepted-appointment.php` | High
+17 | File | `/admin/edit-admin.php` | High
+18 | File | `/admin/edit-services.php` | High
+19 | File | `/admin/invoice.php` | High
+20 | File | `/admin/list_localuser.php` | High
+21 | File | `/admin/login.php` | High
+22 | File | `/admin/makehtml_freelist_action.php` | High
+23 | File | `/admin/manage-users.php` | High
+24 | File | `/admin/pages/student-print.php` | High
+25 | File | `/admin/regester.php` | High
+26 | File | `/admin/suppliers/view_details.php` | High
+27 | File | `/admin/sys_sql_query.php` | High
+28 | File | `/admin/vacancy/index.php` | High
+29 | File | `/admin_route/inc_service_credits.php` | High
+30 | File | `/api.php` | Medium
+31 | File | `/api/sys/login` | High
+32 | File | `/api/sys/set_passwd` | High
+33 | File | `/api/trackedEntityInstances` | High
+34 | File | `/app/api/controller/default/Sqlite.php` | High
+35 | File | `/app/middleware/TokenVerify.php` | High
+36 | File | `/application/index/controller/Databasesource.php` | High
+37 | File | `/application/index/controller/File.php` | High
+38 | File | `/application/index/controller/Icon.php` | High
+39 | File | `/application/index/controller/Screen.php` | High
+40 | File | `/application/index/controller/Unity.php` | High
+41 | File | `/application/pay/controller/Api.php` | High
+42 | File | `/application/plugins/controller/Upload.php` | High
+43 | File | `/application/websocket/controller/Setting.php` | High
+44 | File | `/apply/index.php` | High
+45 | File | `/apps/login_auth.php` | High
+46 | File | `/apps/system/api/user.go` | High
+47 | File | `/assets/php/upload.php` | High
+48 | File | `/auth/auth.php?user=1` | High
+49 | File | `/aux` | Low
+50 | File | `/b2b-supermarket/shopping-cart` | High
+51 | File | `/bin/boa` | Medium
+52 | File | `/boafrm/formMapDelDevice` | High
+53 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+54 | File | `/cancel.php` | Medium
+55 | File | `/cas/logout` | Medium
+56 | File | `/cgi-bin/cstecgi.cgi` | High
+57 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+58 | File | `/changePassword` | High
+59 | File | `/classes/Master.php?f=delete_category` | High
+60 | File | `/classes/Users.php?f=save` | High
+61 | File | `/company/store` | High
+62 | File | `/controller/company/Index.php#sendCompanyLogo` | High
+63 | File | `/data/remove` | Medium
+64 | File | `/debug/pprof` | Medium
+65 | File | `/devinfo` | Medium
+66 | File | `/ecshop/admin/template.php` | High
+67 | ... | ... | ...
 
-There are 567 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 584 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

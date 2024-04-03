@@ -11561,14 +11561,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-25, CWE-36 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-36 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -11581,61 +11581,57 @@ ID | Type | Indicator | Confidence
 3 | File | `/Account/login.php` | High
 4 | File | `/admin.php/appcenter/local.html?type=addon` | High
 5 | File | `/admin/` | Low
-6 | File | `/admin/action/delete-vaccine.php` | High
-7 | File | `/admin/app/product.php` | High
-8 | File | `/admin/app/service_crud.php` | High
-9 | File | `/admin/edit-admin.php` | High
-10 | File | `/admin/edit_supplier.php` | High
-11 | File | `/admin/list_ipAddressPolicy.php` | High
+6 | File | `/admin/app/product.php` | High
+7 | File | `/admin/app/service_crud.php` | High
+8 | File | `/admin/edit-admin.php` | High
+9 | File | `/admin/edit_supplier.php` | High
+10 | File | `/admin/list_ipAddressPolicy.php` | High
+11 | File | `/admin/login.php` | High
 12 | File | `/Admin/login.php` | High
-13 | File | `/admin/login.php` | High
-14 | File | `/admin/operations/expense_category.php` | High
-15 | File | `/admin/pages/edit_chicken.php` | High
-16 | File | `/admin/pages/student-print.php` | High
-17 | File | `/admin/view_sendlist.php` | High
-18 | File | `/adminapi/system/crud` | High
-19 | File | `/adminapi/system/file/openfile` | High
-20 | File | `/admin_route/dec_service_credits.php` | High
-21 | File | `/ajax-api.php` | High
-22 | File | `/api/controllers/admin/app/AppController.php` | High
-23 | File | `/api/controllers/common/UploadsController.php` | High
-24 | File | `/api/controllers/merchant/app/ComboController.php` | High
-25 | File | `/api/controllers/merchant/design/MaterialController.php` | High
-26 | File | `/api/controllers/merchant/shop/PosterController.php` | High
-27 | File | `/api/v4/teams//channels/deleted` | High
-28 | File | `/app/ajax/search_sales_report.php` | High
-29 | File | `/app/controller/Setup.php` | High
-30 | File | `/app/Http/Controllers/ImageController.php` | High
-31 | File | `/app/middleware/TokenVerify.php` | High
-32 | File | `/application/index/common.php` | High
-33 | File | `/application/index/controller/Databasesource.php` | High
-34 | File | `/application/index/controller/Icon.php` | High
-35 | File | `/application/index/controller/Pay.php` | High
-36 | File | `/application/index/controller/Screen.php` | High
-37 | File | `/application/index/controller/Service.php` | High
-38 | File | `/application/index/controller/Unity.php` | High
-39 | File | `/application/websocket/controller/Setting.php` | High
-40 | File | `/assets/php/upload.php` | High
-41 | File | `/boafrm/formMapDelDevice` | High
-42 | File | `/cancel.php` | Medium
-43 | File | `/cgi-bin/cstecgi.cgi` | High
-44 | File | `/customer_support/index.php` | High
-45 | File | `/dashboard/message` | High
-46 | File | `/debug/pprof` | Medium
-47 | File | `/devinfo` | Medium
-48 | File | `/Employer/EditProfile.php` | High
-49 | File | `/Employer/ManageWalkin.php` | High
-50 | File | `/endpoint/add-computer.php` | High
-51 | File | `/endpoint/add-faq.php` | High
-52 | File | `/endpoint/delete-computer.php` | High
-53 | File | `/endpoint/update-tracker.php` | High
-54 | File | `/etc/passwd` | Medium
-55 | File | `/filex/proxy-download` | High
-56 | File | `/forum/away.php` | High
-57 | File | `/general/attendance/manage/ask_duty/delete.php` | High
-58 | ... | ... | ...
+13 | File | `/admin/operations/expense_category.php` | High
+14 | File | `/admin/view_sendlist.php` | High
+15 | File | `/adminapi/system/crud` | High
+16 | File | `/adminapi/system/file/openfile` | High
+17 | File | `/admin_route/dec_service_credits.php` | High
+18 | File | `/ajax-api.php` | High
+19 | File | `/api/controllers/admin/app/AppController.php` | High
+20 | File | `/api/controllers/common/UploadsController.php` | High
+21 | File | `/api/controllers/merchant/app/ComboController.php` | High
+22 | File | `/api/controllers/merchant/design/MaterialController.php` | High
+23 | File | `/api/controllers/merchant/shop/PosterController.php` | High
+24 | File | `/api/v4/teams//channels/deleted` | High
+25 | File | `/app/admin/controller/Upload.php` | High
+26 | File | `/app/ajax/search_sales_report.php` | High
+27 | File | `/app/controller/Setup.php` | High
+28 | File | `/app/middleware/TokenVerify.php` | High
+29 | File | `/application/index/common.php` | High
+30 | File | `/application/index/controller/Databasesource.php` | High
+31 | File | `/application/index/controller/Icon.php` | High
+32 | File | `/application/index/controller/Pay.php` | High
+33 | File | `/application/index/controller/Screen.php` | High
+34 | File | `/application/index/controller/Unity.php` | High
+35 | File | `/application/websocket/controller/Setting.php` | High
+36 | File | `/assets/php/upload.php` | High
+37 | File | `/boafrm/formMapDelDevice` | High
+38 | File | `/cancel.php` | Medium
+39 | File | `/category.php` | High
+40 | File | `/cgi-bin/cstecgi.cgi` | High
+41 | File | `/customer_support/index.php` | High
+42 | File | `/dashboard/message` | High
+43 | File | `/devinfo` | Medium
+44 | File | `/download` | Medium
+45 | File | `/Employer/EditProfile.php` | High
+46 | File | `/Employer/ManageWalkin.php` | High
+47 | File | `/endpoint/add-computer.php` | High
+48 | File | `/endpoint/add-faq.php` | High
+49 | File | `/endpoint/delete-computer.php` | High
+50 | File | `/endpoint/update-resident.php` | High
+51 | File | `/endpoint/update-tracker.php` | High
+52 | File | `/etc/passwd` | Medium
+53 | File | `/filex/proxy-download` | High
+54 | ... | ... | ...
 
-There are 505 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 469 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

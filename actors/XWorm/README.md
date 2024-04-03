@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [VN](https://vuldb.com/?country.vn)
 * [LA](https://vuldb.com/?country.la)
-* [SG](https://vuldb.com/?country.sg)
+* [US](https://vuldb.com/?country.us)
 * ...
 
 There are 2 more country items available. Please use our online service to access the data.
@@ -54,9 +54,10 @@ ID | IP address | Hostname | Campaign | Confidence
 31 | [45.81.225.208](https://vuldb.com/?ip.45.81.225.208) | vm4424272.52ssd.had.wf | - | High
 32 | [45.88.67.75](https://vuldb.com/?ip.45.88.67.75) | - | - | High
 33 | [45.130.141.212](https://vuldb.com/?ip.45.130.141.212) | - | - | High
-34 | ... | ... | ... | ...
+34 | [45.139.105.105](https://vuldb.com/?ip.45.139.105.105) | - | - | High
+35 | ... | ... | ... | ...
 
-There are 132 more IOC items available. Please use our online service to access the data.
+There are 134 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -66,7 +67,7 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
@@ -79,45 +80,43 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/index2.html` | High
-2 | File | `/admin/sales/view_details.php` | High
-3 | File | `/aqpg/users/login.php` | High
-4 | File | `/b2b-supermarket/shopping-cart` | High
-5 | File | `/bin/login` | Medium
-6 | File | `/calendar/minimizer/index.php` | High
-7 | File | `/cgi-bin/cstecgi.cgi` | High
-8 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-9 | File | `/cgi-bin/qcmap_auth` | High
-10 | File | `/cgi-bin/wlogin.cgi` | High
-11 | File | `/core/conditions/AbstractWrapper.java` | High
-12 | File | `/core/tools/update_menu.php` | High
-13 | File | `/dayrui/My/Config/Install.txt` | High
-14 | File | `/DesignTools/CssEditor.aspx` | High
-15 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
-16 | File | `/DXR.axd` | Medium
-17 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-18 | File | `/endpoint/add-user.php` | High
-19 | File | `/forum/away.php` | High
-20 | File | `/forums/editforum.php` | High
-21 | File | `/goform/` | Medium
-22 | File | `/goform/goform_get_cmd_process` | High
-23 | File | `/h/autoSaveDraft` | High
-24 | File | `/home/courses` | High
-25 | File | `/index.php?menu=asterisk_cli` | High
-26 | File | `/install/` | Medium
-27 | File | `/ipms/imageConvert/image` | High
-28 | File | `/modals/class_form.php` | High
-29 | File | `/novel/bookSetting/list` | High
-30 | File | `/novel/userFeedback/list` | High
-31 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
-32 | File | `/php-opos/index.php` | High
-33 | File | `/project/tasks/list` | High
-34 | File | `/search.php` | Medium
-35 | File | `/secret_coder.sql` | High
-36 | File | `/setting` | Medium
-37 | ... | ... | ...
+1 | File | `/admin/applicants/index.php` | High
+2 | File | `/admin/category/index.php` | High
+3 | File | `/admin/index2.html` | High
+4 | File | `/admin/sales/view_details.php` | High
+5 | File | `/b2b-supermarket/shopping-cart` | High
+6 | File | `/bin/login` | Medium
+7 | File | `/calendar/minimizer/index.php` | High
+8 | File | `/cgi-bin/cstecgi.cgi` | High
+9 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+10 | File | `/cgi-bin/qcmap_auth` | High
+11 | File | `/cgi-bin/wlogin.cgi` | High
+12 | File | `/core/conditions/AbstractWrapper.java` | High
+13 | File | `/core/tools/update_menu.php` | High
+14 | File | `/dayrui/My/Config/Install.txt` | High
+15 | File | `/DesignTools/CssEditor.aspx` | High
+16 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
+17 | File | `/DXR.axd` | Medium
+18 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+19 | File | `/endpoint/add-user.php` | High
+20 | File | `/forum/away.php` | High
+21 | File | `/forums/editforum.php` | High
+22 | File | `/goform/` | Medium
+23 | File | `/goform/goform_get_cmd_process` | High
+24 | File | `/h/autoSaveDraft` | High
+25 | File | `/home/courses` | High
+26 | File | `/index.php?menu=asterisk_cli` | High
+27 | File | `/install/` | Medium
+28 | File | `/ipms/imageConvert/image` | High
+29 | File | `/modals/class_form.php` | High
+30 | File | `/novel/bookSetting/list` | High
+31 | File | `/novel/userFeedback/list` | High
+32 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
+33 | File | `/php-opos/index.php` | High
+34 | File | `/project/tasks/list` | High
+35 | ... | ... | ...
 
-There are 314 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 302 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

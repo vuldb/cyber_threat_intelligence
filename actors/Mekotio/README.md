@@ -39,7 +39,7 @@ ID | IP address | Hostname | Campaign | Confidence
 16 | [20.206.121.1](https://vuldb.com/?ip.20.206.121.1) | - | - | High
 17 | ... | ... | ... | ...
 
-There are 65 more IOC items available. Please use our online service to access the data.
+There are 66 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -48,12 +48,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22, CWE-23, CWE-37 | Path Traversal | High
-2 | T1055 | CWE-74 | Injection | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 16 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -101,13 +101,14 @@ ID | Type | Indicator | Confidence
 38 | File | `/video-sharing-script/watch-video.php` | High
 39 | ... | ... | ...
 
-There are 335 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 337 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://bazaar.abuse.ch/sample/cb5538b08c11ad4a004b1f5668ce77a38fe574c2fb8ccaf0ebf06a548ad4144d/
+* https://gblogs.cisco.com/jp/2024/02/talos-google-cloud-run-abuse/
 * https://research.checkpoint.com/2021/mekotio-banker-returns-with-improved-stealth-and-ancient-encryption/
 * https://threatfox.abuse.ch
 * https://twitter.com/Dkavalanche/status/1623456458464702468

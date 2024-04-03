@@ -8,12 +8,9 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with UAC-0010:
 
-* [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [RU](https://vuldb.com/?country.ru)
-* ...
-
-There are 5 more country items available. Please use our online service to access the data.
+* [GB](https://vuldb.com/?country.gb)
+* [US](https://vuldb.com/?country.us)
 
 ## IOC - Indicator of Compromise
 
@@ -21,14 +18,43 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [45.61.138.226](https://vuldb.com/?ip.45.61.138.226) | - | - | High
-2 | [45.61.139.22](https://vuldb.com/?ip.45.61.139.22) | - | - | High
-3 | [45.77.196.211](https://vuldb.com/?ip.45.77.196.211) | 45.77.196.211.vultrusercontent.com | - | High
-4 | [45.77.237.252](https://vuldb.com/?ip.45.77.237.252) | 45.77.237.252.vultrusercontent.com | - | High
-5 | [66.42.95.123](https://vuldb.com/?ip.66.42.95.123) | 66.42.95.123.vultrusercontent.com | - | High
-6 | ... | ... | ... | ...
+1 | [5.44.42.130](https://vuldb.com/?ip.5.44.42.130) | uaeser-1672132036.4server.io | - | High
+2 | [5.44.42.137](https://vuldb.com/?ip.5.44.42.137) | uaeser-1672132036.4server.io | - | High
+3 | [5.44.42.144](https://vuldb.com/?ip.5.44.42.144) | - | - | High
+4 | [5.44.42.145](https://vuldb.com/?ip.5.44.42.145) | - | - | High
+5 | [5.44.42.189](https://vuldb.com/?ip.5.44.42.189) | 4vps-ae-01.ip-ptr.tech | - | High
+6 | [5.44.42.198](https://vuldb.com/?ip.5.44.42.198) | uaetest.ip-ptr.tech | - | High
+7 | [5.44.42.203](https://vuldb.com/?ip.5.44.42.203) | - | - | High
+8 | [5.44.42.204](https://vuldb.com/?ip.5.44.42.204) | hostera-ae.ip-ptr.tech | - | High
+9 | [24.199.102.96](https://vuldb.com/?ip.24.199.102.96) | - | - | High
+10 | [24.199.106.158](https://vuldb.com/?ip.24.199.106.158) | - | - | High
+11 | [31.129.22.88](https://vuldb.com/?ip.31.129.22.88) | kfgb-kz-mail.ip-ptr.tech | - | High
+12 | [31.129.22.89](https://vuldb.com/?ip.31.129.22.89) | pt01.ip-ptr.tech | - | High
+13 | [31.129.22.94](https://vuldb.com/?ip.31.129.22.94) | portugaliya.ip-ptr.tech | - | High
+14 | [31.129.22.95](https://vuldb.com/?ip.31.129.22.95) | portugaliya.ip-ptr.tech | - | High
+15 | [31.129.22.98](https://vuldb.com/?ip.31.129.22.98) | pr-2.ip-ptr.tech | - | High
+16 | [31.129.22.99](https://vuldb.com/?ip.31.129.22.99) | pt-11-sep-1.ip-ptr.tech | - | High
+17 | [31.129.22.100](https://vuldb.com/?ip.31.129.22.100) | v408sktl0uv.servera.info | - | High
+18 | [31.129.22.101](https://vuldb.com/?ip.31.129.22.101) | - | - | High
+19 | [31.129.22.102](https://vuldb.com/?ip.31.129.22.102) | ptser-1671619506.4server.io | - | High
+20 | [31.129.22.105](https://vuldb.com/?ip.31.129.22.105) | - | - | High
+21 | [45.61.138.226](https://vuldb.com/?ip.45.61.138.226) | - | - | High
+22 | [45.61.139.22](https://vuldb.com/?ip.45.61.139.22) | - | - | High
+23 | [45.77.196.211](https://vuldb.com/?ip.45.77.196.211) | 45.77.196.211.vultrusercontent.com | - | High
+24 | [45.77.237.252](https://vuldb.com/?ip.45.77.237.252) | 45.77.237.252.vultrusercontent.com | - | High
+25 | [45.82.13.55](https://vuldb.com/?ip.45.82.13.55) | new-98.ip-ptr.tech | - | High
+26 | [45.82.13.60](https://vuldb.com/?ip.45.82.13.60) | 4s-4-tg-1706753462.ip-ptr.tech | - | High
+27 | [45.82.13.86](https://vuldb.com/?ip.45.82.13.86) | 4s-4-tg-1699346951.ip-ptr.tech | - | High
+28 | [45.95.232.102](https://vuldb.com/?ip.45.95.232.102) | 900dsw2.ip-ptr.tech | - | High
+29 | [45.95.232.147](https://vuldb.com/?ip.45.95.232.147) | ch-27_nov__2.ip-ptr.tech | - | High
+30 | [45.95.232.151](https://vuldb.com/?ip.45.95.232.151) | cisco-18-alma.msk.host | - | High
+31 | [45.95.233.145](https://vuldb.com/?ip.45.95.233.145) | fr-w8mchcwusxpkaym2.ip-ptr.tech | - | High
+32 | [45.95.233.161](https://vuldb.com/?ip.45.95.233.161) | alihanfranc.ip-ptr.tech | - | High
+33 | [45.95.233.163](https://vuldb.com/?ip.45.95.233.163) | fr-30-oct_2.ip-ptr.tech | - | High
+34 | [46.29.234.95](https://vuldb.com/?ip.46.29.234.95) | lvser.ip-ptr.tech | - | High
+35 | ... | ... | ... | ...
 
-There are 18 more IOC items available. Please use our online service to access the data.
+There are 137 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -36,13 +62,9 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94 | Argument Injection | High
-5 | ... | ... | ... | ...
-
-There are 16 more TTP items available. Please use our online service to access the data.
+1 | T1059 | CWE-94 | Argument Injection | High
+2 | T1059.007 | CWE-80 | Cross Site Scripting | High
+3 | T1505 | CWE-89 | SQL Injection | High
 
 ## IOA - Indicator of Attack
 
@@ -50,25 +72,12 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/api/database` | High
-2 | File | `/etc/keystone/user-project-map.json` | High
-3 | File | `/forum/away.php` | High
-4 | File | `/goform/formLogin` | High
-5 | File | `/html/portal/flash.jsp` | High
-6 | File | `/test/cookie/` | High
-7 | File | `/tmp/speedtest_urls.xml` | High
-8 | File | `/ui/login` | Medium
-9 | File | `/web/google_analytics.php` | High
-10 | File | `/wordpress/wp-admin/admin.php?page=weblib-circulation-desk&orderby=title&order=DESC` | High
-11 | File | `/wp-admin/options-general.php` | High
-12 | File | `adclick.php` | Medium
-13 | File | `addentry.php` | Medium
-14 | File | `add_comment.php` | High
-15 | File | `admin.php` | Medium
-16 | File | `admin/conf_users_edit.php` | High
-17 | ... | ... | ...
+1 | File | `/admin/students.php` | High
+2 | File | `/admin/theme-edit.php` | High
+3 | File | `ext/spl/spl_heap.c` | High
+4 | ... | ... | ...
 
-There are 140 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 2 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -79,6 +88,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://cert.gov.ua/article/39386
 * https://cert.gov.ua/article/40240
 * https://cert.gov.ua/article/1229152
+* https://cert.gov.ua/article/5160737
 
 ## Literature
 

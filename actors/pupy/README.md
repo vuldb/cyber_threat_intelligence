@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [HK](https://vuldb.com/?country.hk)
 * ...
 
-There are 4 more country items available. Please use our online service to access the data.
+There are 5 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -59,9 +59,10 @@ ID | IP address | Hostname | Campaign | Confidence
 36 | [35.220.154.238](https://vuldb.com/?ip.35.220.154.238) | 238.154.220.35.bc.googleusercontent.com | - | Medium
 37 | [35.241.106.118](https://vuldb.com/?ip.35.241.106.118) | 118.106.241.35.bc.googleusercontent.com | - | Medium
 38 | [37.59.239.17](https://vuldb.com/?ip.37.59.239.17) | olakar1.s454d.marketingbyjackie.com | - | High
-39 | ... | ... | ... | ...
+39 | [38.6.177.93](https://vuldb.com/?ip.38.6.177.93) | - | - | High
+40 | ... | ... | ... | ...
 
-There are 150 more IOC items available. Please use our online service to access the data.
+There are 158 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -69,11 +70,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-29, CWE-425 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-29, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+4 | T1059 | CWE-94 | Argument Injection | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
 
@@ -91,16 +93,16 @@ ID | Type | Indicator | Confidence
 6 | File | `/admin/del_service.php` | High
 7 | File | `/admin/index.php` | High
 8 | File | `/admin/index2.html` | High
-9 | File | `/admin/read.php?mudi=announContent` | High
-10 | File | `/api/authentication/login` | High
-11 | File | `/api/baskets/{name}` | High
-12 | File | `/api/upload.php` | High
-13 | File | `/api/v1/terminal/sessions/?limit=1` | High
-14 | File | `/api /v3/auth` | High
-15 | File | `/app/sys1.php` | High
-16 | File | `/application/common.php#action_log` | High
-17 | File | `/apply.cgi` | Medium
-18 | File | `/APR/signup.php` | High
+9 | File | `/admin/list_resource_icon.php?action=delete` | High
+10 | File | `/admin/read.php?mudi=announContent` | High
+11 | File | `/api/authentication/login` | High
+12 | File | `/api/baskets/{name}` | High
+13 | File | `/api/upload.php` | High
+14 | File | `/api/v1/terminal/sessions/?limit=1` | High
+15 | File | `/api /v3/auth` | High
+16 | File | `/app/sys1.php` | High
+17 | File | `/application/common.php#action_log` | High
+18 | File | `/assets/php/upload.php` | High
 19 | File | `/bin/ate` | Medium
 20 | File | `/bin/protest` | Medium
 21 | File | `/bin/rc4_crypt` | High
@@ -128,9 +130,10 @@ ID | Type | Indicator | Confidence
 43 | File | `/config/php.ini` | High
 44 | File | `/Content/Plugins/uploader/FileChoose.html?fileUrl=/Upload/File/Pics/&parent` | High
 45 | File | `/core/admin/categories.php` | High
-46 | ... | ... | ...
+46 | File | `/cupseasylive/taxstructuredisplay.php` | High
+47 | ... | ... | ...
 
-There are 395 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 408 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -175,12 +178,14 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/38.147.188.28
 * https://search.censys.io/hosts/38.147.188.61
 * https://search.censys.io/hosts/38.147.189.149
+* https://search.censys.io/hosts/38.147.189.157
 * https://search.censys.io/hosts/38.147.189.173
 * https://search.censys.io/hosts/38.147.189.199
 * https://search.censys.io/hosts/39.98.206.63
 * https://search.censys.io/hosts/39.107.32.219
 * https://search.censys.io/hosts/41.147.195.62
 * https://search.censys.io/hosts/41.147.196.64
+* https://search.censys.io/hosts/41.147.196.189
 * https://search.censys.io/hosts/41.147.198.27
 * https://search.censys.io/hosts/41.147.198.28
 * https://search.censys.io/hosts/41.147.199.163
@@ -196,7 +201,9 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/45.77.41.141
 * https://search.censys.io/hosts/45.77.68.13
 * https://search.censys.io/hosts/45.79.134.104
+* https://search.censys.io/hosts/45.136.15.139
 * https://search.censys.io/hosts/45.150.198.25
+* https://search.censys.io/hosts/45.150.198.28
 * https://search.censys.io/hosts/45.150.198.36
 * https://search.censys.io/hosts/45.150.198.47
 * https://search.censys.io/hosts/45.156.185.125
@@ -221,8 +228,10 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/65.20.84.238
 * https://search.censys.io/hosts/66.42.59.191
 * https://search.censys.io/hosts/77.91.101.173
+* https://search.censys.io/hosts/91.108.105.80
 * https://search.censys.io/hosts/91.149.203.236
 * https://search.censys.io/hosts/91.149.239.53
+* https://search.censys.io/hosts/92.38.176.164
 * https://search.censys.io/hosts/92.118.189.178
 * https://search.censys.io/hosts/92.118.189.197
 * https://search.censys.io/hosts/93.90.72.13
@@ -242,6 +251,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/104.168.163.200
 * https://search.censys.io/hosts/106.14.147.179
 * https://search.censys.io/hosts/106.75.24.63
+* https://search.censys.io/hosts/106.75.66.128
 * https://search.censys.io/hosts/107.152.44.183
 * https://search.censys.io/hosts/107.152.44.191
 * https://search.censys.io/hosts/108.61.242.65
@@ -263,6 +273,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/136.244.65.241
 * https://search.censys.io/hosts/136.244.98.14
 * https://search.censys.io/hosts/137.184.219.41
+* https://search.censys.io/hosts/138.197.56.161
 * https://search.censys.io/hosts/139.84.134.80
 * https://search.censys.io/hosts/139.84.140.110
 * https://search.censys.io/hosts/139.84.140.157
@@ -275,6 +286,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/139.180.199.249
 * https://search.censys.io/hosts/139.224.203.214
 * https://search.censys.io/hosts/141.164.39.232
+* https://search.censys.io/hosts/141.164.48.82
 * https://search.censys.io/hosts/143.42.74.25
 * https://search.censys.io/hosts/146.190.52.2
 * https://search.censys.io/hosts/149.28.19.155

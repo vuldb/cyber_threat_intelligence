@@ -35,9 +35,9 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
-2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
@@ -55,20 +55,22 @@ ID | Type | Indicator | Confidence
 4 | File | `/DXR.axd` | Medium
 5 | File | `/forum/away.php` | High
 6 | File | `/novel/bookSetting/list` | High
-7 | File | `/out.php` | Medium
-8 | File | `/owa/auth/logon.aspx` | High
-9 | File | `/phppath/php` | Medium
-10 | File | `/spip.php` | Medium
-11 | File | `/systemrw/` | Medium
-12 | File | `/zm/index.php` | High
-13 | File | `adclick.php` | Medium
-14 | File | `admin.jcomments.php` | High
-15 | File | `admin/gv_mail.php` | High
-16 | File | `application/modules/admin/views/ecommerce/products.php` | High
-17 | File | `base/ErrorHandler.php` | High
-18 | ... | ... | ...
+7 | File | `/novel/userFeedback/list` | High
+8 | File | `/out.php` | Medium
+9 | File | `/owa/auth/logon.aspx` | High
+10 | File | `/phppath/php` | Medium
+11 | File | `/spip.php` | Medium
+12 | File | `/systemrw/` | Medium
+13 | File | `/zm/index.php` | High
+14 | File | `adclick.php` | Medium
+15 | File | `admin.jcomments.php` | High
+16 | File | `admin/gv_mail.php` | High
+17 | File | `application/modules/admin/views/ecommerce/products.php` | High
+18 | File | `base/ErrorHandler.php` | High
+19 | File | `blog.php` | Medium
+20 | ... | ... | ...
 
-There are 150 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 160 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

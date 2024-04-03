@@ -38,7 +38,7 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-25, CWE-36, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
@@ -55,52 +55,53 @@ ID | Type | Indicator | Confidence
 2 | File | `/#ilang=DE&b=c_smartenergy_swgroups` | High
 3 | File | `/Account/login.php` | High
 4 | File | `/admin/` | Low
-5 | File | `/admin/save.php` | High
-6 | File | `/admin/singlelogin.php?submit=1` | High
-7 | File | `/admin/transactions/track_shipment.php` | High
-8 | File | `/adminapi/system/crud` | High
-9 | File | `/adminapi/system/file/openfile` | High
-10 | File | `/admin_route/dec_service_credits.php` | High
-11 | File | `/api/download` | High
-12 | File | `/api/snapshot and /api/get_log_file` | High
-13 | File | `/api/v1/alerts` | High
-14 | File | `/api/v1/terminal/sessions/?limit=1` | High
-15 | File | `/api/v2/cli/commands` | High
-16 | File | `/api/v4/teams//channels/deleted` | High
-17 | File | `/b2b-supermarket/shopping-cart` | High
-18 | File | `/cancel.php` | Medium
-19 | File | `/category.php` | High
-20 | File | `/categorypage.php` | High
-21 | File | `/cgi-bin/cstecgi.cgi` | High
-22 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-23 | File | `/cgi-bin/luci/api/wireless` | High
-24 | File | `/cgi-bin/vitogate.cgi` | High
-25 | File | `/change-language/de_DE` | High
-26 | File | `/debug/pprof` | Medium
-27 | File | `/devinfo` | Medium
-28 | File | `/dist/index.js` | High
-29 | File | `/fcgi/scrut_fcgi.fcgi` | High
-30 | File | `/filemanager/php/connector.php` | High
-31 | File | `/forum/away.php` | High
-32 | File | `/geoserver/gwc/rest.html` | High
-33 | File | `/goform/formSysCmd` | High
-34 | File | `/HNAP1` | Low
-35 | File | `/hosts/firewall/ip` | High
-36 | File | `/index.jsp#settings` | High
-37 | File | `/index.php/ccm/system/file/upload` | High
-38 | File | `/jeecg-boot/sys/common/upload` | High
-39 | File | `/log/decodmail.php` | High
-40 | File | `/oauth/idp/.well-known/openid-configuration` | High
-41 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
-42 | File | `/php/ping.php` | High
-43 | File | `/proxy` | Low
-44 | File | `/RPS2019Service/status.html` | High
-45 | File | `/s/index.php?action=statistics` | High
-46 | File | `/setting` | Medium
-47 | File | `/Setting/change_password_save` | High
-48 | ... | ... | ...
+5 | File | `/admin/booking-bwdates-reports-details.php` | High
+6 | File | `/admin/forgot-password.php` | High
+7 | File | `/admin/save.php` | High
+8 | File | `/admin/singlelogin.php?submit=1` | High
+9 | File | `/admin/transactions/track_shipment.php` | High
+10 | File | `/adminapi/system/crud` | High
+11 | File | `/adminapi/system/file/openfile` | High
+12 | File | `/admin_route/dec_service_credits.php` | High
+13 | File | `/api/download` | High
+14 | File | `/api/snapshot and /api/get_log_file` | High
+15 | File | `/api/v1/alerts` | High
+16 | File | `/api/v1/terminal/sessions/?limit=1` | High
+17 | File | `/api/v2/cli/commands` | High
+18 | File | `/api/v4/teams//channels/deleted` | High
+19 | File | `/b2b-supermarket/shopping-cart` | High
+20 | File | `/cancel.php` | Medium
+21 | File | `/category.php` | High
+22 | File | `/categorypage.php` | High
+23 | File | `/cgi-bin/cstecgi.cgi` | High
+24 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+25 | File | `/cgi-bin/vitogate.cgi` | High
+26 | File | `/change-language/de_DE` | High
+27 | File | `/debug/pprof` | Medium
+28 | File | `/devinfo` | Medium
+29 | File | `/dist/index.js` | High
+30 | File | `/download` | Medium
+31 | File | `/etc/keystone/user-project-map.json` | High
+32 | File | `/fcgi/scrut_fcgi.fcgi` | High
+33 | File | `/filemanager/php/connector.php` | High
+34 | File | `/forum/away.php` | High
+35 | File | `/geoserver/gwc/rest.html` | High
+36 | File | `/goform/formSysCmd` | High
+37 | File | `/HNAP1` | Low
+38 | File | `/hosts/firewall/ip` | High
+39 | File | `/index.jsp#settings` | High
+40 | File | `/index.php/ccm/system/file/upload` | High
+41 | File | `/jeecg-boot/sys/common/upload` | High
+42 | File | `/log/decodmail.php` | High
+43 | File | `/oauth/idp/.well-known/openid-configuration` | High
+44 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
+45 | File | `/php/ping.php` | High
+46 | File | `/proxy` | Low
+47 | File | `/RPS2019Service/status.html` | High
+48 | File | `/s/index.php?action=statistics` | High
+49 | ... | ... | ...
 
-There are 417 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 421 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

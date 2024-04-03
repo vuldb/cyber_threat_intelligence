@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 8 more country items available. Please use our online service to access the data.
+There are 9 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -250,12 +250,12 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-35, CWE-36 | Path Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -271,45 +271,45 @@ ID | Type | Indicator | Confidence
 6 | File | `/admin/maintenance/view_designation.php` | High
 7 | File | `/admin/pages/edit_chicken.php` | High
 8 | File | `/admin/pages/student-print.php` | High
-9 | File | `/admin/report/index.php` | High
-10 | File | `/admin/request-received-bydonar.php` | High
-11 | File | `/admin_route/inc_service_credits.php` | High
-12 | File | `/api/baskets/{name}` | High
-13 | File | `/api/runscript` | High
-14 | File | `/app/Http/Controllers/ImageController.php` | High
-15 | File | `/app/search/table` | High
-16 | File | `/application/index/controller/Icon.php` | High
-17 | File | `/apply/index.php` | High
-18 | File | `/author_posts.php` | High
-19 | File | `/bin/sh` | Low
-20 | File | `/boaform/device_reset.cgi` | High
-21 | File | `/boaform/wlan_basic_set.cgi` | High
-22 | File | `/cgi-bin/cstecgi.cgi` | High
-23 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-24 | File | `/cgi-bin/login.cgi` | High
-25 | File | `/cgi-bin/wlogin.cgi` | High
-26 | File | `/classes/Master.php?f=delete_service` | High
-27 | File | `/classes/Master.php?f=save_brand` | High
-28 | File | `/classes/Master.php?f=save_course` | High
-29 | File | `/core/config-revisions` | High
-30 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
-31 | File | `/E-mobile/App/System/File/downfile.php` | High
-32 | File | `/Electron/download` | High
-33 | File | `/forum/away.php` | High
-34 | File | `/general/attendance/manage/ask_duty/delete.php` | High
-35 | File | `/general/email/inbox/delete_webmail.php` | High
-36 | File | `/ghost/preview` | High
-37 | File | `/goform/AdvSetLanip` | High
-38 | File | `/goform/formDefault` | High
-39 | File | `/goform/setDeviceSettings` | High
-40 | File | `/goform/set_LimitClient_cfg` | High
-41 | File | `/htdocs/cgibin` | High
-42 | File | `/inc/topBarNav.php` | High
-43 | File | `/include/file.php` | High
-44 | File | `/index.php` | Medium
+9 | File | `/admin/request-received-bydonar.php` | High
+10 | File | `/admin_route/inc_service_credits.php` | High
+11 | File | `/api/baskets/{name}` | High
+12 | File | `/api/runscript` | High
+13 | File | `/app/Http/Controllers/ImageController.php` | High
+14 | File | `/app/search/table` | High
+15 | File | `/application/index/controller/Icon.php` | High
+16 | File | `/apply/index.php` | High
+17 | File | `/author_posts.php` | High
+18 | File | `/bin/sh` | Low
+19 | File | `/boaform/device_reset.cgi` | High
+20 | File | `/boaform/wlan_basic_set.cgi` | High
+21 | File | `/cgi-bin/cstecgi.cgi` | High
+22 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+23 | File | `/cgi-bin/login.cgi` | High
+24 | File | `/cgi-bin/wlogin.cgi` | High
+25 | File | `/classes/Master.php?f=delete_service` | High
+26 | File | `/classes/Master.php?f=save_brand` | High
+27 | File | `/classes/Master.php?f=save_course` | High
+28 | File | `/core/config-revisions` | High
+29 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
+30 | File | `/E-mobile/App/System/File/downfile.php` | High
+31 | File | `/Electron/download` | High
+32 | File | `/forum/away.php` | High
+33 | File | `/general/attendance/manage/ask_duty/delete.php` | High
+34 | File | `/general/email/inbox/delete_webmail.php` | High
+35 | File | `/ghost/preview` | High
+36 | File | `/goform/AdvSetLanip` | High
+37 | File | `/goform/formDefault` | High
+38 | File | `/goform/setDeviceSettings` | High
+39 | File | `/goform/set_LimitClient_cfg` | High
+40 | File | `/htdocs/cgibin` | High
+41 | File | `/include/file.php` | High
+42 | File | `/index.php` | Medium
+43 | File | `/index.php/client/message/message_read/xxxxxxxx[random-msg-hash]` | High
+44 | File | `/index.php?menu=asterisk_cli` | High
 45 | ... | ... | ...
 
-There are 392 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 385 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

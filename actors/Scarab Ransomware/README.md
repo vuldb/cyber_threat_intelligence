@@ -9,6 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Scarab Ransomware:
 
 * [US](https://vuldb.com/?country.us)
+* [RU](https://vuldb.com/?country.ru)
+* [CN](https://vuldb.com/?country.cn)
+* ...
+
+There are 4 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -16,15 +21,46 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [24.144.120.189](https://vuldb.com/?ip.24.144.120.189) | - | - | High
-2 | [103.61.225.186](https://vuldb.com/?ip.103.61.225.186) | 186.225.61.103.mum001.in.intechdc.com | - | High
-3 | [154.61.74.33](https://vuldb.com/?ip.154.61.74.33) | 33.74.61.154.mum001.in.intechdc.com | - | High
+1 | [3.76.107.228](https://vuldb.com/?ip.3.76.107.228) | ec2-3-76-107-228.eu-central-1.compute.amazonaws.com | - | Medium
+2 | [24.144.120.189](https://vuldb.com/?ip.24.144.120.189) | - | - | High
+3 | [87.251.64.19](https://vuldb.com/?ip.87.251.64.19) | - | - | High
+4 | ... | ... | ... | ...
+
+There are 12 more IOC items available. Please use our online service to access the data.
+
+## TTP - Tactics, Techniques, Procedures
+
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _Scarab Ransomware_. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1006 | CWE-22 | Path Traversal | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
+4 | ... | ... | ... | ...
+
+There are 9 more TTP items available. Please use our online service to access the data.
+
+## IOA - Indicator of Attack
+
+These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by Scarab Ransomware. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Type | Indicator | Confidence
+-- | ---- | --------- | ----------
+1 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
+2 | File | `add-category.php` | High
+3 | File | `admin/dashboard.php` | High
+4 | File | `detail.php` | Medium
+5 | ... | ... | ...
+
+There are 27 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://threatfox.abuse.ch
+* https://www.welivesecurity.com/en/eset-research/scarabs-colon-izing-vulnerable-servers/
 
 ## Literature
 

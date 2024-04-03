@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 12 more country items available. Please use our online service to access the data.
+There are 15 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -39,14 +39,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23, CWE-29, CWE-36, CWE-425 | Path Traversal | High
-2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
+1 | T1006 | CWE-22, CWE-23, CWE-24, CWE-29, CWE-36, CWE-425 | Path Traversal | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -55,45 +55,48 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.alerts-security.alerts-{space_id}` | High
-2 | File | `/admin/assign/assign.php` | High
-3 | File | `/admin/manage-users.php` | High
-4 | File | `/admin/pages/student-print.php` | High
-5 | File | `/admin/sys_sql_query.php` | High
-6 | File | `/admin/users` | Medium
-7 | File | `/admin_route/inc_service_credits.php` | High
-8 | File | `/alsdemo/ss/mediam.cgi` | High
-9 | File | `/Ant_Suxin.php` | High
-10 | File | `/api/admin/user/list` | High
-11 | File | `/api/authentication/login` | High
-12 | File | `/api/controllers/merchant/app/ComboController.php` | High
-13 | File | `/api/thumbnail` | High
-14 | File | `/api /v3/auth` | High
-15 | File | `/application/index/controller/Databasesource.php` | High
-16 | File | `/App_Resource/UEditor/server/upload.aspx` | High
-17 | File | `/assets/php/upload.php` | High
-18 | File | `/blog/blogpublish.php` | High
-19 | File | `/cgi-bin/cstecgi.cgi` | High
-20 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-21 | File | `/cgi-bin/R19.9/easy1350.pl` | High
-22 | File | `/cgi-bin/vitogate.cgi` | High
-23 | File | `/collection/all` | High
-24 | File | `/company/store` | High
-25 | File | `/config-manager/save` | High
-26 | File | `/config/getuser` | High
-27 | File | `/config/php.ini` | High
-28 | File | `/cupseasylive/itemlist.php` | High
-29 | File | `/cupseasylive/itempopup.php` | High
-30 | File | `/cupseasylive/unitofmeasurementmodify.php` | High
-31 | File | `/debug/pprof` | Medium
-32 | File | `/dede/tpl.php` | High
-33 | File | `/devinfo` | Medium
-34 | File | `/download/image` | High
-35 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-36 | File | `/endpoint/add-user.php` | High
-37 | File | `/etc/hosts.deny` | High
-38 | ... | ... | ...
+2 | File | `/admin-manage-user.php` | High
+3 | File | `/admin/assign/assign.php` | High
+4 | File | `/admin/booking-bwdates-reports-details.php` | High
+5 | File | `/admin/contact-us.php` | High
+6 | File | `/admin/index.php` | High
+7 | File | `/admin/manage-users.php` | High
+8 | File | `/admin/pages/student-print.php` | High
+9 | File | `/admin/users` | Medium
+10 | File | `/adminpanel/admin/query/deleteCourseExe.php` | High
+11 | File | `/admin_route/inc_service_credits.php` | High
+12 | File | `/alsdemo/ss/mediam.cgi` | High
+13 | File | `/Ant_Suxin.php` | High
+14 | File | `/api/admin/user/list` | High
+15 | File | `/api/authentication/login` | High
+16 | File | `/api/controllers/merchant/app/ComboController.php` | High
+17 | File | `/api/thumbnail` | High
+18 | File | `/api /v3/auth` | High
+19 | File | `/application/index/controller/Databasesource.php` | High
+20 | File | `/apps/system/api/user.go` | High
+21 | File | `/apps/system/router/upload.go` | High
+22 | File | `/apps/system/services/role_menu.go` | High
+23 | File | `/assets/php/upload.php` | High
+24 | File | `/billing/bill/edit/` | High
+25 | File | `/blog/blogpublish.php` | High
+26 | File | `/cgi-bin/cstecgi.cgi` | High
+27 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+28 | File | `/cgi-bin/R19.9/easy1350.pl` | High
+29 | File | `/cgi-bin/system_mgr.cgi` | High
+30 | File | `/cgi-bin/vitogate.cgi` | High
+31 | File | `/collection/all` | High
+32 | File | `/config-manager/save` | High
+33 | File | `/config/getuser` | High
+34 | File | `/config/php.ini` | High
+35 | File | `/cupseasylive/itemlist.php` | High
+36 | File | `/cupseasylive/itempopup.php` | High
+37 | File | `/cupseasylive/unitofmeasurementmodify.php` | High
+38 | File | `/debug/pprof` | Medium
+39 | File | `/dede/tpl.php` | High
+40 | File | `/devinfo` | Medium
+41 | ... | ... | ...
 
-There are 325 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 350 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

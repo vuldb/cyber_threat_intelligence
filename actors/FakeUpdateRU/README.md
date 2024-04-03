@@ -4,15 +4,42 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.fakeupdateru](https://vuldb.com/?actor.fakeupdateru)
 
+## Countries
+
+These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with FakeUpdateRU:
+
+* [CN](https://vuldb.com/?country.cn)
+
 ## IOC - Indicator of Compromise
 
 These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of FakeUpdateRU.
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [67.207.91.165](https://vuldb.com/?ip.67.207.91.165) | - | - | High
-2 | [157.245.111.60](https://vuldb.com/?ip.157.245.111.60) | - | - | High
-3 | [159.89.175.38](https://vuldb.com/?ip.159.89.175.38) | musicmania.co.in-vayuputrarudransh | - | High
+1 | [41.231.54.88](https://vuldb.com/?ip.41.231.54.88) | - | - | High
+2 | [67.207.91.165](https://vuldb.com/?ip.67.207.91.165) | - | - | High
+3 | [96.126.101.138](https://vuldb.com/?ip.96.126.101.138) | li334-138.members.linode.com | - | High
+4 | ... | ... | ... | ...
+
+There are 3 more IOC items available. Please use our online service to access the data.
+
+## TTP - Tactics, Techniques, Procedures
+
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _FakeUpdateRU_. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1006 | CWE-22 | Path Traversal | High
+2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
+3 | T1222 | CWE-275 | Permission Issues | High
+
+## IOA - Indicator of Attack
+
+These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by FakeUpdateRU. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Type | Indicator | Confidence
+-- | ---- | --------- | ----------
+1 | File | `User.java` | Medium
 
 ## References
 

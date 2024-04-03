@@ -39,7 +39,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22, CWE-23 | Path Traversal | High
-2 | T1055 | CWE-74 | Injection | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
@@ -68,14 +68,14 @@ ID | Type | Indicator | Confidence
 14 | File | `/endpoint/add-guest.php` | High
 15 | File | `/goform/addressNat` | High
 16 | File | `/goform/aspForm` | High
-17 | File | `/include/chart_generator.php` | High
-18 | File | `/include/menu_v.inc.php` | High
-19 | File | `/kubepi/api/v1/users/search?pageNum=1&&pageSize=10` | High
-20 | File | `/librarian/lab.php` | High
-21 | File | `/omos/admin/?page=user/list` | High
+17 | File | `/goform/SysToolRestoreSet` | High
+18 | File | `/include/chart_generator.php` | High
+19 | File | `/include/menu_v.inc.php` | High
+20 | File | `/kubepi/api/v1/users/search?pageNum=1&&pageSize=10` | High
+21 | File | `/librarian/lab.php` | High
 22 | ... | ... | ...
 
-There are 185 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 186 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

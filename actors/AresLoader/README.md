@@ -17,7 +17,9 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [193.233.134.57](https://vuldb.com/?ip.193.233.134.57) | instance25143.waicore.network | - | High
+1 | [45.80.69.193](https://vuldb.com/?ip.45.80.69.193) | - | - | High
+2 | [193.168.49.8](https://vuldb.com/?ip.193.168.49.8) | - | - | High
+3 | [193.233.134.57](https://vuldb.com/?ip.193.233.134.57) | instance25143.waicore.network | - | High
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -41,6 +43,7 @@ ID | Type | Indicator | Confidence
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://app.any.run/tasks/8533cc82-138a-4971-8bcf-a36656a14278
+* https://cyble.com/blog/citrix-users-at-risk-aresloader-spreading-through-disguised-gitlab-repo/
 
 ## Literature
 
