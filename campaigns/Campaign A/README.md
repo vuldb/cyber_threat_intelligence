@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Campaign A:
 
 * [US](https://vuldb.com/?country.us)
-* [IT](https://vuldb.com/?country.it)
 * [CN](https://vuldb.com/?country.cn)
+* [IT](https://vuldb.com/?country.it)
 
 ## Actors
 
@@ -50,7 +50,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 11 more TTP items available. Please use our online service to access the data.
+There are 12 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -59,34 +59,36 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/maintenance/view_designation.php` | High
-2 | File | `/forum/away.php` | High
-3 | File | `/oauth/idp/.well-known/openid-configuration` | High
-4 | File | `/resourceNode/jdbcResourceEdit.jsf` | High
-5 | File | `/resourceNode/resources.jsf` | High
-6 | File | `3.6.cpj` | Low
-7 | File | `404.php` | Low
-8 | File | `adclick.php` | Medium
-9 | File | `add-testimonial.php` | High
-10 | File | `admin.asp` | Medium
-11 | File | `admin.aspx` | Medium
-12 | File | `admin.php` | Medium
-13 | File | `admin/conf_users_edit.php` | High
-14 | File | `admin/member_details.php` | High
-15 | File | `admin_chatconfig.php` | High
-16 | File | `admin_iplog.php` | High
-17 | File | `ajaxp.php` | Medium
-18 | File | `alphabet.php` | Medium
-19 | File | `app/controllers/oauth.js` | High
-20 | File | `article2/comments.inc.php` | High
-21 | File | `articles/edit.php` | High
-22 | File | `assp.pl` | Low
-23 | File | `awstats.pl` | Medium
-24 | File | `be_config.php` | High
-25 | File | `bridge/yabbse.inc.php` | High
-26 | File | `calendar_Eventupdate.asp` | High
-27 | ... | ... | ...
+2 | File | `/cgi-bin/nas_sharing.cgi` | High
+3 | File | `/check_availability.php` | High
+4 | File | `/forum/away.php` | High
+5 | File | `/general/email/outbox/delete.php` | High
+6 | File | `/manage_sy.php` | High
+7 | File | `/oauth/idp/.well-known/openid-configuration` | High
+8 | File | `/resourceNode/jdbcResourceEdit.jsf` | High
+9 | File | `/resourceNode/resources.jsf` | High
+10 | File | `/spip.php` | Medium
+11 | File | `/view/student_exam_mark_insert_form1.php` | High
+12 | File | `3.6.cpj` | Low
+13 | File | `404.php` | Low
+14 | File | `adclick.php` | Medium
+15 | File | `add-testimonial.php` | High
+16 | File | `admin.asp` | Medium
+17 | File | `admin.aspx` | Medium
+18 | File | `admin.php` | Medium
+19 | File | `admin/conf_users_edit.php` | High
+20 | File | `admin/member_details.php` | High
+21 | File | `admin_chatconfig.php` | High
+22 | File | `admin_iplog.php` | High
+23 | File | `ajaxp.php` | Medium
+24 | File | `alphabet.php` | Medium
+25 | File | `app/controllers/oauth.js` | High
+26 | File | `appointment-bwdates-reports-details.php` | High
+27 | File | `article2/comments.inc.php` | High
+28 | File | `articles/edit.php` | High
+29 | ... | ... | ...
 
-There are 228 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 241 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

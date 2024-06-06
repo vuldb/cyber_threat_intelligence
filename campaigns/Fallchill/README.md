@@ -9,8 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Fallchill:
 
 * [VN](https://vuldb.com/?country.vn)
+* [ES](https://vuldb.com/?country.es)
 * [DK](https://vuldb.com/?country.dk)
-* [CL](https://vuldb.com/?country.cl)
+* ...
+
+There are 1 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -53,7 +56,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-29, CWE-35, CWE-425 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
@@ -68,46 +71,43 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/academy/tutor/filter` | High
-2 | File | `/admin/index2.html` | High
-3 | File | `/admin/sales/view_details.php` | High
-4 | File | `/api/baskets/{name}` | High
-5 | File | `/aqpg/users/login.php` | High
-6 | File | `/b2b-supermarket/shopping-cart` | High
-7 | File | `/bin/login` | Medium
-8 | File | `/calendar/minimizer/index.php` | High
-9 | File | `/cgi-bin/cstecgi.cgi` | High
-10 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-11 | File | `/cgi-bin/wlogin.cgi` | High
-12 | File | `/core/conditions/AbstractWrapper.java` | High
-13 | File | `/core/tools/update_menu.php` | High
-14 | File | `/dayrui/My/Config/Install.txt` | High
-15 | File | `/DesignTools/CssEditor.aspx` | High
-16 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
-17 | File | `/DXR.axd` | Medium
-18 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-19 | File | `/endpoint/add-user.php` | High
-20 | File | `/forum/away.php` | High
-21 | File | `/forums/editforum.php` | High
-22 | File | `/goform/` | Medium
-23 | File | `/gracemedia-media-player/templates/files/ajax_controller.php` | High
-24 | File | `/home/courses` | High
-25 | File | `/hrm/controller/employee.php` | High
-26 | File | `/hrm/employeeview.php` | High
-27 | File | `/importexport.php` | High
-28 | File | `/index.php?menu=asterisk_cli` | High
-29 | File | `/install/` | Medium
-30 | File | `/ipms/imageConvert/image` | High
-31 | File | `/mc` | Low
-32 | File | `/modals/class_form.php` | High
-33 | File | `/modules/projects/vw_files.php` | High
-34 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
-35 | File | `/php-opos/index.php` | High
-36 | File | `/project/tasks/list` | High
-37 | File | `/search.php` | Medium
-38 | ... | ... | ...
+1 | File | `/admin/index2.html` | High
+2 | File | `/admin/sales/view_details.php` | High
+3 | File | `/aqpg/users/login.php` | High
+4 | File | `/b2b-supermarket/shopping-cart` | High
+5 | File | `/bin/login` | Medium
+6 | File | `/calendar/minimizer/index.php` | High
+7 | File | `/cgi-bin/cstecgi.cgi` | High
+8 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+9 | File | `/cgi-bin/nas_sharing.cgi` | High
+10 | File | `/cgi-bin/wlogin.cgi` | High
+11 | File | `/core/conditions/AbstractWrapper.java` | High
+12 | File | `/core/tools/update_menu.php` | High
+13 | File | `/dayrui/My/Config/Install.txt` | High
+14 | File | `/DesignTools/CssEditor.aspx` | High
+15 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
+16 | File | `/DXR.axd` | Medium
+17 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+18 | File | `/endpoint/add-user.php` | High
+19 | File | `/forum/away.php` | High
+20 | File | `/forums/editforum.php` | High
+21 | File | `/goform/` | Medium
+22 | File | `/home/courses` | High
+23 | File | `/index.php?app=main&func=passport&action=login` | High
+24 | File | `/index.php?menu=asterisk_cli` | High
+25 | File | `/install/` | Medium
+26 | File | `/ipms/imageConvert/image` | High
+27 | File | `/modals/class_form.php` | High
+28 | File | `/ndmComponents.js` | High
+29 | File | `/newvehicle.php` | High
+30 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
+31 | File | `/php-opos/index.php` | High
+32 | File | `/project/tasks/list` | High
+33 | File | `/register.php` | High
+34 | File | `/search.php` | Medium
+35 | ... | ... | ...
 
-There are 322 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 300 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

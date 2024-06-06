@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 31 more country items available. Please use our online service to access the data.
+There are 32 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -63,58 +63,60 @@ ID | Type | Indicator | Confidence
 1 | File | `/Admin/add-student.php` | High
 2 | File | `/admin/add_user_modal.php` | High
 3 | File | `/admin/admin-profile.php` | High
-4 | File | `/admin/article/article-add.php` | High
-5 | File | `/admin/article/article-edit-run.php` | High
-6 | File | `/admin/category/cate-edit-run.php` | High
-7 | File | `/admin/index/index.html#/admin/mall.goods/index.html` | High
-8 | File | `/admin/inquiries/view_inquiry.php` | High
-9 | File | `/admin/modal_add_product.php` | High
-10 | File | `/admin/new-content` | High
-11 | File | `/admin/read.php?mudi=announContent` | High
-12 | File | `/admin/services/manage_service.php` | High
-13 | File | `/admin/suppliers/view_details.php` | High
-14 | File | `/admin/transactions/track_shipment.php` | High
-15 | File | `/admin/upload.php` | High
-16 | File | `/admin/user/manage_user.php` | High
-17 | File | `/alarm_pi/alarmService.php` | High
-18 | File | `/api/crontab` | Medium
-19 | File | `/api/es/admin/v3/security/user/1` | High
-20 | File | `/api/ping` | Medium
-21 | File | `/api/RecordingList/DownloadRecord?file=` | High
-22 | File | `/api/runscript` | High
-23 | File | `/api/sys/login` | High
-24 | File | `/api/sys/set_passwd` | High
-25 | File | `/application/common.php#action_log` | High
-26 | File | `/asms/admin/products/manage_product.php` | High
-27 | File | `/asms/products/view_product.php` | High
-28 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-29 | File | `/category.php` | High
-30 | File | `/changeimage.php` | High
-31 | File | `/classes/Master.php?f=delete_service` | High
-32 | File | `/config/getuser` | High
-33 | File | `/config/list` | Medium
-34 | File | `/dashboard/snapshot/*?orgId=0` | High
-35 | File | `/dosen/data` | Medium
-36 | File | `/E-mobile/App/System/File/downfile.php` | High
-37 | File | `/export` | Low
-38 | File | `/forum/away.php` | High
-39 | File | `/gena.cgi` | Medium
-40 | File | `/general/ipanel/menu_code.php?MENU_TYPE=FAV` | High
-41 | File | `/home/cavesConsole` | High
-42 | File | `/home/kickPlayer` | High
-43 | File | `/home/masterConsole` | High
-44 | File | `/home/sendBroadcast` | High
-45 | File | `/inc/jquery/uploadify/uploadify.php` | High
-46 | File | `/include/dialog/select_templets_post.php` | High
-47 | File | `/index.php/sysmanage/Login/login_auth/` | High
-48 | File | `/jurusanmatkul/data` | High
-49 | File | `/kelasdosen/data` | High
-50 | File | `/lan.asp` | Medium
-51 | File | `/login` | Low
-52 | File | `/Login/CheckLogin` | High
-53 | ... | ... | ...
+4 | File | `/admin/app/profile_crud.php` | High
+5 | File | `/admin/app/service_crud.php` | High
+6 | File | `/admin/article/article-add.php` | High
+7 | File | `/admin/article/article-edit-run.php` | High
+8 | File | `/admin/category/cate-edit-run.php` | High
+9 | File | `/admin/employee/index.php` | High
+10 | File | `/admin/index/index.html#/admin/mall.goods/index.html` | High
+11 | File | `/admin/inquiries/view_inquiry.php` | High
+12 | File | `/admin/modal_add_product.php` | High
+13 | File | `/admin/new-content` | High
+14 | File | `/admin/read.php?mudi=announContent` | High
+15 | File | `/admin/services/manage_service.php` | High
+16 | File | `/admin/suppliers/view_details.php` | High
+17 | File | `/admin/transactions/track_shipment.php` | High
+18 | File | `/admin/upload.php` | High
+19 | File | `/admin/user/manage_user.php` | High
+20 | File | `/alarm_pi/alarmService.php` | High
+21 | File | `/api/crontab` | Medium
+22 | File | `/api/es/admin/v3/security/user/1` | High
+23 | File | `/api/ping` | Medium
+24 | File | `/api/RecordingList/DownloadRecord?file=` | High
+25 | File | `/api/runscript` | High
+26 | File | `/api/sys/login` | High
+27 | File | `/api/sys/set_passwd` | High
+28 | File | `/application/common.php#action_log` | High
+29 | File | `/asms/admin/products/manage_product.php` | High
+30 | File | `/asms/products/view_product.php` | High
+31 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+32 | File | `/category.php` | High
+33 | File | `/changeimage.php` | High
+34 | File | `/classes/Master.php?f=delete_service` | High
+35 | File | `/config/getuser` | High
+36 | File | `/config/list` | Medium
+37 | File | `/controller/company/Index.php#sendCompanyLogo` | High
+38 | File | `/dashboard/snapshot/*?orgId=0` | High
+39 | File | `/dosen/data` | Medium
+40 | File | `/E-mobile/App/System/File/downfile.php` | High
+41 | File | `/export` | Low
+42 | File | `/forum/away.php` | High
+43 | File | `/gena.cgi` | Medium
+44 | File | `/general/ipanel/menu_code.php?MENU_TYPE=FAV` | High
+45 | File | `/goform/setcfm` | High
+46 | File | `/home/cavesConsole` | High
+47 | File | `/home/kickPlayer` | High
+48 | File | `/home/masterConsole` | High
+49 | File | `/home/sendBroadcast` | High
+50 | File | `/inc/jquery/uploadify/uploadify.php` | High
+51 | File | `/include/dialog/select_templets_post.php` | High
+52 | File | `/index.php/sysmanage/Login/login_auth/` | High
+53 | File | `/jurusanmatkul/data` | High
+54 | File | `/kelasdosen/data` | High
+55 | ... | ... | ...
 
-There are 462 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 478 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

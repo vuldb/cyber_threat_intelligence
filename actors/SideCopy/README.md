@@ -23,8 +23,9 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [109.236.85.152](https://vuldb.com/?ip.109.236.85.152) | customer.worldstream.nl | - | High
 2 | [144.91.65.100](https://vuldb.com/?ip.144.91.65.100) | vmi652772.contaboserver.net | - | High
-3 | [144.91.87.179](https://vuldb.com/?ip.144.91.87.179) | vmi778487.contaboserver.net | - | High
-4 | ... | ... | ... | ...
+3 | [144.91.72.17](https://vuldb.com/?ip.144.91.72.17) | vmi1717964.contaboserver.net | - | High
+4 | [144.91.87.179](https://vuldb.com/?ip.144.91.87.179) | vmi778487.contaboserver.net | - | High
+5 | ... | ... | ... | ...
 
 There are 14 more IOC items available. Please use our online service to access the data.
 
@@ -77,7 +78,7 @@ ID | Type | Indicator | Confidence
 27 | File | `/RestAPI` | Medium
 28 | ... | ... | ...
 
-There are 238 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 237 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -85,6 +86,7 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://blog.malwarebytes.com/threat-intelligence/2021/12/sidecopy-apt-connecting-lures-to-victims-payloads-to-infrastructure/
 * https://blog.talosintelligence.com/2021/07/sidecopy.html
+* https://cyble.com/blog/notorious-sidecopy-apt-group-sets-sights-on-indias-drdo/
 * https://nsfocusglobal.com/indian-government-agencies-targeted-in-phishing-attacks-by-apt-group-sidecopy/
 * https://twitter.com/ShadowChasing1/status/1491261131800780810
 * https://twitter.com/ShadowChasing1/status/1499704400670986240

@@ -36,7 +36,7 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22, CWE-23 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94 | Argument Injection | High
 5 | ... | ... | ... | ...
 
@@ -48,33 +48,33 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/addWhiteListDomain.imss` | High
-2 | File | `/admin/app/product.php` | High
-3 | File | `/anony/mjpg.cgi` | High
-4 | File | `/cgi-bin/wlogin.cgi` | High
-5 | File | `/cobbler-api` | Medium
-6 | File | `/customer_support/index.php` | High
-7 | File | `/forum/away.php` | High
-8 | File | `/inc/parser/xhtml.php` | High
-9 | File | `/include/makecvs.php` | High
-10 | File | `/index.php` | Medium
-11 | File | `/login/index.php` | High
-12 | File | `/preview.php` | Medium
-13 | File | `/protocol/index.php` | High
-14 | File | `/requests.php` | High
-15 | File | `/search-result.php` | High
-16 | File | `/secret_coder.sql` | High
-17 | File | `/shop.php` | Medium
-18 | File | `/uncpath/` | Medium
-19 | File | `/view_order.php` | High
-20 | File | `/wp-admin/admin.php?page=wp_file_manager_properties` | High
-21 | File | `add.php` | Low
-22 | File | `adminer.php` | Medium
-23 | File | `adm_config_report.php` | High
-24 | File | `ampie.swf` | Medium
+1 | File | `//proc/kcore` | Medium
+2 | File | `/addWhiteListDomain.imss` | High
+3 | File | `/admin/app/product.php` | High
+4 | File | `/anony/mjpg.cgi` | High
+5 | File | `/cgi-bin/wlogin.cgi` | High
+6 | File | `/cobbler-api` | Medium
+7 | File | `/customer_support/index.php` | High
+8 | File | `/forum/away.php` | High
+9 | File | `/inc/parser/xhtml.php` | High
+10 | File | `/include/makecvs.php` | High
+11 | File | `/index.php` | Medium
+12 | File | `/login/index.php` | High
+13 | File | `/preview.php` | Medium
+14 | File | `/protocol/index.php` | High
+15 | File | `/requests.php` | High
+16 | File | `/search-result.php` | High
+17 | File | `/secret_coder.sql` | High
+18 | File | `/shop.php` | Medium
+19 | File | `/uncpath/` | Medium
+20 | File | `/view_order.php` | High
+21 | File | `/wp-admin/admin.php?page=wp_file_manager_properties` | High
+22 | File | `/zms/admin/changeimage.php` | High
+23 | File | `add.php` | Low
+24 | File | `adminer.php` | Medium
 25 | ... | ... | ...
 
-There are 205 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 208 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

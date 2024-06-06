@@ -85,7 +85,7 @@ ID | Type | Indicator | Confidence
 24 | File | `/dms/admin/reports/daily_collection_report.php` | High
 25 | File | `/editprofile.php` | High
 26 | File | `/Employer/ManageWalkin.php` | High
-27 | File | `/etc/config/cameo` | High
+27 | File | `/endpoint/delete-computer.php` | High
 28 | File | `/food/admin/all_users.php` | High
 29 | File | `/forum/away.php` | High
 30 | File | `/goform/PowerSaveSet` | High
@@ -104,15 +104,16 @@ ID | Type | Indicator | Confidence
 43 | File | `/modules/projects/vw_files.php` | High
 44 | File | `/myprofile.php` | High
 45 | File | `/net/tls/tls_sw.c` | High
-46 | File | `/ofrs/admin/?page=teams/view_team` | High
-47 | File | `/ordering/index.php?q=category` | High
-48 | File | `/owa/auth/logon.aspx` | High
-49 | File | `/picturesPreview` | High
-50 | File | `/process/assignp.php` | High
-51 | File | `/production/admin_view_info.php` | High
-52 | ... | ... | ...
+46 | File | `/newdriver.php` | High
+47 | File | `/ofrs/admin/?page=teams/view_team` | High
+48 | File | `/ordering/index.php?q=category` | High
+49 | File | `/owa/auth/logon.aspx` | High
+50 | File | `/picturesPreview` | High
+51 | File | `/process/assignp.php` | High
+52 | File | `/production/admin_view_info.php` | High
+53 | ... | ... | ...
 
-There are 451 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 458 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

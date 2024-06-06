@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
-* [GB](https://vuldb.com/?country.gb)
+* [TR](https://vuldb.com/?country.tr)
 * ...
 
-There are 19 more country items available. Please use our online service to access the data.
+There are 18 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -34,15 +34,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | T1068 | CWE-264, CWE-266, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
-7 | ... | ... | ... | ...
+6 | ... | ... | ... | ...
 
-There are 23 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -55,47 +54,53 @@ ID | Type | Indicator | Confidence
 3 | File | `/admin/about-us.php` | High
 4 | File | `/admin/action/delete-vaccine.php` | High
 5 | File | `/Admin/add-student.php` | High
-6 | File | `/admin/index2.html` | High
-7 | File | `/Admin/News.php` | High
-8 | File | `/admin/settings/save.php` | High
-9 | File | `/admin/userprofile.php` | High
-10 | File | `/admin_route/inc_service_credits.php` | High
-11 | File | `/api/baskets/{name}` | High
-12 | File | `/app/index/controller/Common.php` | High
-13 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
-14 | File | `/apply.cgi` | Medium
-15 | File | `/bitrix/admin/ldap_server_edit.php` | High
-16 | File | `/cgi-bin/wlogin.cgi` | High
-17 | File | `/College/admin/teacher.php` | High
-18 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
-19 | File | `/dcim/rack-roles/` | High
-20 | File | `/forms/doLogin` | High
-21 | File | `/forum/away.php` | High
-22 | File | `/goform/addUserName` | High
-23 | File | `/goform/aspForm` | High
-24 | File | `/goform/delAd` | High
-25 | File | `/goform/wifiSSIDset` | High
-26 | File | `/gpac/src/bifs/unquantize.c` | High
-27 | File | `/inc/topBarNav.php` | High
-28 | File | `/index.asp` | Medium
-29 | File | `/index.php` | Medium
-30 | File | `/index.php?app=main&func=passport&action=login` | High
-31 | File | `/jfinal_cms/system/role/list` | High
-32 | File | `/kelas/data` | Medium
-33 | File | `/listplace/user/ticket/create` | High
-34 | File | `/log/download.php` | High
-35 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
-36 | File | `/Moosikay/order.php` | High
-37 | File | `/novel/author/list` | High
-38 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-39 | File | `/php-sms/admin/quotes/manage_remark.php` | High
-40 | File | `/php/ping.php` | High
-41 | File | `/products/details.asp` | High
-42 | File | `/secure/QueryComponent!Default.jspa` | High
-43 | File | `/shell` | Low
-44 | ... | ... | ...
+6 | File | `/admin/edit-post.php` | High
+7 | File | `/admin/index2.html` | High
+8 | File | `/Admin/News.php` | High
+9 | File | `/admin/settings/save.php` | High
+10 | File | `/admin/userprofile.php` | High
+11 | File | `/adminPage/conf/saveCmd` | High
+12 | File | `/admin_route/inc_service_credits.php` | High
+13 | File | `/api/baskets/{name}` | High
+14 | File | `/app/index/controller/Common.php` | High
+15 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
+16 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
+17 | File | `/applications/nexus/modules/front/store/store.php` | High
+18 | File | `/apply.cgi` | Medium
+19 | File | `/bitrix/admin/ldap_server_edit.php` | High
+20 | File | `/cgi-bin/nas_sharing.cgi` | High
+21 | File | `/cgi-bin/wlogin.cgi` | High
+22 | File | `/classes/Master.php?f=save_category` | High
+23 | File | `/classes/Users.php?f=save` | High
+24 | File | `/College/admin/teacher.php` | High
+25 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
+26 | File | `/dcim/rack-roles/` | High
+27 | File | `/fftools/ffmpeg_enc.c` | High
+28 | File | `/forms/doLogin` | High
+29 | File | `/forum/away.php` | High
+30 | File | `/goform/addUserName` | High
+31 | File | `/goform/aspForm` | High
+32 | File | `/goform/delAd` | High
+33 | File | `/goform/wifiSSIDset` | High
+34 | File | `/gpac/src/bifs/unquantize.c` | High
+35 | File | `/inc/topBarNav.php` | High
+36 | File | `/index.asp` | Medium
+37 | File | `/index.php` | Medium
+38 | File | `/index.php?app=main&func=passport&action=login` | High
+39 | File | `/install/` | Medium
+40 | File | `/jfinal_cms/system/role/list` | High
+41 | File | `/kelas/data` | Medium
+42 | File | `/listplace/user/ticket/create` | High
+43 | File | `/log/download.php` | High
+44 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
+45 | File | `/Moosikay/order.php` | High
+46 | File | `/novel/author/list` | High
+47 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+48 | File | `/php-sms/admin/quotes/manage_remark.php` | High
+49 | File | `/php/ping.php` | High
+50 | ... | ... | ...
 
-There are 380 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 430 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

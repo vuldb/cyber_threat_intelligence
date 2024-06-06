@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Stately Taurus:
 
+* [RU](https://vuldb.com/?country.ru)
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [IR](https://vuldb.com/?country.ir)
 * ...
 
-There are 1 more country items available. Please use our online service to access the data.
+There are 2 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -24,6 +24,9 @@ ID | IP address | Hostname | Campaign | Confidence
 1 | [37.120.222.19](https://vuldb.com/?ip.37.120.222.19) | - | - | High
 2 | [103.159.132.80](https://vuldb.com/?ip.103.159.132.80) | - | - | High
 3 | [123.253.32.15](https://vuldb.com/?ip.123.253.32.15) | vpm21.salarytransparentpay.com | - | High
+4 | ... | ... | ... | ...
+
+There are 2 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -31,12 +34,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79 | Cross Site Scripting | High
-2 | T1202 | CWE-77, CWE-78 | Command Injection | High
-3 | T1505 | CWE-89 | SQL Injection | High
+1 | T1006 | CWE-22 | Path Traversal | High
+2 | T1059 | CWE-94 | Argument Injection | High
+3 | T1059.007 | CWE-79 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 1 more TTP items available. Please use our online service to access the data.
+There are 5 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -44,18 +47,19 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/data/config.ftp.php` | High
-2 | File | `/mgmt/tm/util/bash` | High
-3 | File | `/uncpath/` | Medium
+1 | File | `/admin/index2.html` | High
+2 | File | `/data/config.ftp.php` | High
+3 | File | `/mgmt/tm/util/bash` | High
 4 | ... | ... | ...
 
-There are 8 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 18 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://csirt-cti.net/2024/01/23/stately-taurus-targets-myanmar/
+* https://unit42.paloaltonetworks.com/chinese-apts-target-asean-entities/
 
 ## Literature
 

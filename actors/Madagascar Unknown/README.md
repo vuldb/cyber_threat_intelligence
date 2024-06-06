@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [IL](https://vuldb.com/?country.il)
 * ...
 
-There are 16 more country items available. Please use our online service to access the data.
+There are 19 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -86,14 +86,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-25, CWE-36, CWE-425 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-25, CWE-36 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -114,44 +114,47 @@ ID | Type | Indicator | Confidence
 11 | File | `/adminapi/system/file/openfile` | High
 12 | File | `/admin_route/dec_service_credits.php` | High
 13 | File | `/api/authentication/login` | High
-14 | File | `/api/v1/alerts` | High
+14 | File | `/api/blade-user/export-user` | High
 15 | File | `/api /v3/auth` | High
 16 | File | `/api/v4/teams//channels/deleted` | High
-17 | File | `/assets/php/upload.php` | High
-18 | File | `/b2b-supermarket/shopping-cart` | High
-19 | File | `/bin/rc4_crypt` | High
-20 | File | `/cancel.php` | Medium
-21 | File | `/category.php` | High
-22 | File | `/cgi-bin/cstecgi.cgi` | High
-23 | File | `/cgi-bin/login.cgi` | High
-24 | File | `/cgi-bin/luci/api/switch` | High
-25 | File | `/cgi-bin/qcmap_auth` | High
-26 | File | `/change-language/de_DE` | High
-27 | File | `/CMD_ACCOUNT_ADMIN` | High
-28 | File | `/conf/` | Low
-29 | File | `/config/getuser` | High
-30 | File | `/Content/Plugins/uploader/FileChoose.html?fileUrl=/Upload/File/Pics/&parent` | High
-31 | File | `/core/admin/categories.php` | High
-32 | File | `/cupseasylive/taxstructuredisplay.php` | High
-33 | File | `/dayrui/My/View/main.html` | High
-34 | File | `/debug/pprof` | Medium
-35 | File | `/dede/sys_sql_query.php` | High
-36 | File | `/devinfo` | Medium
-37 | File | `/dist/index.js` | High
-38 | File | `/download` | Medium
-39 | File | `/edit.php` | Medium
-40 | File | `/etc/init.d/openfire` | High
-41 | File | `/forum/away.php` | High
-42 | File | `/geoserver/gwc/rest.html` | High
-43 | File | `/goform/formSysCmd` | High
-44 | File | `/hosts/firewall/ip` | High
-45 | File | `/index.jsp#settings` | High
-46 | File | `/index.php/ccm/system/file/upload` | High
-47 | File | `/index.php?pluginApp/to/yzOffice/getFile` | High
-48 | File | `/link/` | Low
-49 | ... | ... | ...
+17 | File | `/api/wechat/app_auth` | High
+18 | File | `/assets/php/upload.php` | High
+19 | File | `/b2b-supermarket/shopping-cart` | High
+20 | File | `/bin/rc4_crypt` | High
+21 | File | `/cancel.php` | Medium
+22 | File | `/category.php` | High
+23 | File | `/cgi-bin/cstecgi.cgi` | High
+24 | File | `/cgi-bin/kerbynet` | High
+25 | File | `/cgi-bin/login.cgi` | High
+26 | File | `/cgi-bin/luci/api/switch` | High
+27 | File | `/cgi-bin/qcmap_auth` | High
+28 | File | `/change-language/de_DE` | High
+29 | File | `/CMD_ACCOUNT_ADMIN` | High
+30 | File | `/config/getuser` | High
+31 | File | `/Content/Plugins/uploader/FileChoose.html?fileUrl=/Upload/File/Pics/&parent` | High
+32 | File | `/control/register_case.php` | High
+33 | File | `/core/admin/categories.php` | High
+34 | File | `/cupseasylive/taxstructuredisplay.php` | High
+35 | File | `/dayrui/My/View/main.html` | High
+36 | File | `/debug/pprof` | Medium
+37 | File | `/dede/sys_sql_query.php` | High
+38 | File | `/devinfo` | Medium
+39 | File | `/dist/index.js` | High
+40 | File | `/download` | Medium
+41 | File | `/dus/fotos_grafiken/index.php` | High
+42 | File | `/dus/shopliste/index.php` | High
+43 | File | `/dus_en/medieninfo_detail/index.php` | High
+44 | File | `/edit.php` | Medium
+45 | File | `/forum/away.php` | High
+46 | File | `/fudforum/adm/hlplist.php` | High
+47 | File | `/goform/formSysCmd` | High
+48 | File | `/hosts/firewall/ip` | High
+49 | File | `/index.jsp#settings` | High
+50 | File | `/index.php/ccm/system/file/upload` | High
+51 | File | `/index.php?pluginApp/to/yzOffice/getFile` | High
+52 | ... | ... | ...
 
-There are 426 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 450 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

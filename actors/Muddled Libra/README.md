@@ -116,21 +116,21 @@ ID | Type | Indicator | Confidence
 45 | File | `/patient/settings.php` | High
 46 | File | `/protocol/iscdevicestatus/deleteonlineuser.php` | High
 47 | File | `/REBOOTSYSTEM` | High
-48 | File | `/reports/rwservlet` | High
-49 | File | `/sbin/acos_service` | High
-50 | File | `/school/model/get_teacher.php` | High
-51 | File | `/scripts/unlock_tasks.php` | High
-52 | File | `/servlet/webacc` | High
-53 | File | `/simple_chat_bot/admin/?page=responses/view_response` | High
-54 | File | `/textpattern/index.php` | High
-55 | File | `/uncpath/` | Medium
-56 | File | `/usr/bin/at` | Medium
-57 | File | `/usr/bin/pkexec` | High
-58 | File | `/var/lib/dpkg/info/` | High
-59 | File | `/var/log/demisto/` | High
+48 | File | `/sbin/acos_service` | High
+49 | File | `/school/model/get_teacher.php` | High
+50 | File | `/scripts/unlock_tasks.php` | High
+51 | File | `/servlet/webacc` | High
+52 | File | `/simple_chat_bot/admin/?page=responses/view_response` | High
+53 | File | `/textpattern/index.php` | High
+54 | File | `/uncpath/` | Medium
+55 | File | `/usr/bin/at` | Medium
+56 | File | `/usr/bin/pkexec` | High
+57 | File | `/var/lib/dpkg/info/` | High
+58 | File | `/var/log/demisto/` | High
+59 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
 60 | ... | ... | ...
 
-There are 522 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 523 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

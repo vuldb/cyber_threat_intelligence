@@ -37,10 +37,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -57,49 +57,52 @@ ID | Type | Indicator | Confidence
 3 | File | `/admin/ajax.php?action=save_window` | High
 4 | File | `/admin/dl_sendmail.php` | High
 5 | File | `/admin/index2.html` | High
-6 | File | `/admin_giant/add_team_member.php` | High
-7 | File | `/api/baskets/{name}` | High
-8 | File | `/api/v2/cli/commands` | High
-9 | File | `/cgi/get_param.cgi` | High
-10 | File | `/common/download_agent_installer.php` | High
-11 | File | `/common/info.cgi` | High
-12 | File | `/common/run_cross_report.php` | High
-13 | File | `/connectors/index.php` | High
-14 | File | `/dashboard/add-portfolio.php` | High
-15 | File | `/DXR.axd` | Medium
-16 | File | `/EXCU_SHELL` | Medium
-17 | File | `/forum/away.php` | High
-18 | File | `/get_getnetworkconf.cgi` | High
-19 | File | `/ghost/preview` | High
-20 | File | `/goform/addressNat` | High
-21 | File | `/goform/NatStaticSetting` | High
-22 | File | `/goform/setmac` | High
-23 | File | `/integrations.json` | High
-24 | File | `/jerry-core/ecma/base/ecma-helpers-conversion.c` | High
-25 | File | `/lists/admin/` | High
-26 | File | `/login` | Low
-27 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-28 | File | `/novel/bookSetting/list` | High
-29 | File | `/novel/userFeedback/list` | High
-30 | File | `/opt/IBM/es/lib/libffq.cryptionjni.so` | High
-31 | File | `/opt/vyatta/share/vyatta-cfg/templates/system/static-host-mapping/host-name/node.def` | High
-32 | File | `/owa/auth/logon.aspx` | High
-33 | File | `/php-sms/admin/?page=services/manage_service` | High
-34 | File | `/phppath/php` | Medium
-35 | File | `/sdm-ws-rest/preconfiguration` | High
-36 | File | `/services/details.asp` | High
-37 | File | `/settings` | Medium
-38 | File | `/spip.php` | Medium
-39 | File | `/uapi/doc` | Medium
-40 | File | `/uncpath/` | Medium
-41 | File | `/updownload/t.report` | High
-42 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
-43 | File | `/woocommerce-stock-manager/trunk/admin/views/import-export.php` | High
-44 | File | `/wp-admin/options.php` | High
-45 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-46 | ... | ... | ...
+6 | File | `/adminPage/conf/reload` | High
+7 | File | `/admin_giant/add_team_member.php` | High
+8 | File | `/api/baskets/{name}` | High
+9 | File | `/api/v2/cli/commands` | High
+10 | File | `/cgi/get_param.cgi` | High
+11 | File | `/common/download_agent_installer.php` | High
+12 | File | `/common/info.cgi` | High
+13 | File | `/common/run_cross_report.php` | High
+14 | File | `/connectors/index.php` | High
+15 | File | `/dashboard/add-portfolio.php` | High
+16 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
+17 | File | `/DXR.axd` | Medium
+18 | File | `/EXCU_SHELL` | Medium
+19 | File | `/forum/away.php` | High
+20 | File | `/get_getnetworkconf.cgi` | High
+21 | File | `/ghost/preview` | High
+22 | File | `/goform/addressNat` | High
+23 | File | `/goform/NatStaticSetting` | High
+24 | File | `/goform/setmac` | High
+25 | File | `/integrations.json` | High
+26 | File | `/jerry-core/ecma/base/ecma-helpers-conversion.c` | High
+27 | File | `/lists/admin/` | High
+28 | File | `/login` | Low
+29 | File | `/mfsNotice/page` | High
+30 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+31 | File | `/novel/bookSetting/list` | High
+32 | File | `/novel/userFeedback/list` | High
+33 | File | `/opt/IBM/es/lib/libffq.cryptionjni.so` | High
+34 | File | `/opt/vyatta/share/vyatta-cfg/templates/system/static-host-mapping/host-name/node.def` | High
+35 | File | `/owa/auth/logon.aspx` | High
+36 | File | `/php-sms/admin/?page=services/manage_service` | High
+37 | File | `/phppath/php` | Medium
+38 | File | `/sdm-ws-rest/preconfiguration` | High
+39 | File | `/services/details.asp` | High
+40 | File | `/settings` | Medium
+41 | File | `/spip.php` | Medium
+42 | File | `/uapi/doc` | Medium
+43 | File | `/uncpath/` | Medium
+44 | File | `/updownload/t.report` | High
+45 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
+46 | File | `/woocommerce-stock-manager/trunk/admin/views/import-export.php` | High
+47 | File | `/wp-admin/options.php` | High
+48 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+49 | ... | ... | ...
 
-There are 401 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 422 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

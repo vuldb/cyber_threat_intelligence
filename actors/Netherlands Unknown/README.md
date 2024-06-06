@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Netherlands Unknown:
 
-* [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
-* [IO](https://vuldb.com/?country.io)
+* [RU](https://vuldb.com/?country.ru)
+* [PL](https://vuldb.com/?country.pl)
 * ...
 
-There are 20 more country items available. Please use our online service to access the data.
+There are 16 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -7454,9 +7454,197 @@ ID | IP address | Hostname | Campaign | Confidence
 7431 | [51.158.22.35](https://vuldb.com/?ip.51.158.22.35) | 51-158-22-35.rev.poneytelecom.eu | - | High
 7432 | [51.158.22.36](https://vuldb.com/?ip.51.158.22.36) | mail12.confirmbymail.com | - | High
 7433 | [51.158.22.39](https://vuldb.com/?ip.51.158.22.39) | 51-158-22-39.rev.poneytelecom.eu | - | High
-7434 | ... | ... | ... | ...
+7434 | [51.158.22.52](https://vuldb.com/?ip.51.158.22.52) | 51-158-22-52.rev.poneytelecom.eu | - | High
+7435 | [51.158.22.65](https://vuldb.com/?ip.51.158.22.65) | tika.sondages.pro | - | High
+7436 | [51.158.22.66](https://vuldb.com/?ip.51.158.22.66) | 51-158-22-66.rev.poneytelecom.eu | - | High
+7437 | [51.158.22.83](https://vuldb.com/?ip.51.158.22.83) | erptest.asva.nl | - | High
+7438 | [51.158.22.84](https://vuldb.com/?ip.51.158.22.84) | web01.lsvb.nl | - | High
+7439 | [51.158.22.86](https://vuldb.com/?ip.51.158.22.86) | relay3.tor.nozel.online | - | High
+7440 | [51.158.22.96](https://vuldb.com/?ip.51.158.22.96) | 51-158-22-96.rev.poneytelecom.eu | - | High
+7441 | [51.158.22.107](https://vuldb.com/?ip.51.158.22.107) | 51-158-22-107.rev.poneytelecom.eu | - | High
+7442 | [51.158.22.120](https://vuldb.com/?ip.51.158.22.120) | 51-158-22-120.rev.poneytelecom.eu | - | High
+7443 | [51.158.22.122](https://vuldb.com/?ip.51.158.22.122) | cesantarctical.com | - | High
+7444 | [51.158.22.130](https://vuldb.com/?ip.51.158.22.130) | wifi.bontuyau.net | - | High
+7445 | [51.158.22.138](https://vuldb.com/?ip.51.158.22.138) | 51-158-22-138.rev.poneytelecom.eu | - | High
+7446 | [51.158.22.157](https://vuldb.com/?ip.51.158.22.157) | expensetoday.net | - | High
+7447 | [51.158.22.193](https://vuldb.com/?ip.51.158.22.193) | 51-158-22-193.rev.poneytelecom.eu | - | High
+7448 | [51.158.22.206](https://vuldb.com/?ip.51.158.22.206) | 51-158-22-206.rev.poneytelecom.eu | - | High
+7449 | [51.158.22.209](https://vuldb.com/?ip.51.158.22.209) | mail.glassbeadcollective.org | - | High
+7450 | [51.158.22.235](https://vuldb.com/?ip.51.158.22.235) | mean-3400.astutemaker.store | - | High
+7451 | [51.158.22.244](https://vuldb.com/?ip.51.158.22.244) | rclmtn.apolariting.nl | - | High
+7452 | [51.158.22.249](https://vuldb.com/?ip.51.158.22.249) | 51-158-22-249.rev.poneytelecom.eu | - | High
+7453 | [51.158.22.254](https://vuldb.com/?ip.51.158.22.254) | 51-158-22-254.rev.poneytelecom.eu | - | High
+7454 | [51.158.23.7](https://vuldb.com/?ip.51.158.23.7) | 51-158-23-7.rev.poneytelecom.eu | - | High
+7455 | [51.158.23.13](https://vuldb.com/?ip.51.158.23.13) | 51-158-23-13.rev.poneytelecom.eu | - | High
+7456 | [51.158.23.28](https://vuldb.com/?ip.51.158.23.28) | 51-158-23-28.rev.poneytelecom.eu | - | High
+7457 | [51.158.23.30](https://vuldb.com/?ip.51.158.23.30) | vesta.laranjavt.com.br | - | High
+7458 | [51.158.23.41](https://vuldb.com/?ip.51.158.23.41) | sv.xvideoporno.blog | - | High
+7459 | [51.158.23.89](https://vuldb.com/?ip.51.158.23.89) | 51-158-23-89.rev.poneytelecom.eu | - | High
+7460 | [51.158.23.102](https://vuldb.com/?ip.51.158.23.102) | vmta01.s2.capitalreportsdailynews.com | - | High
+7461 | [51.158.23.111](https://vuldb.com/?ip.51.158.23.111) | tiposfx.com | - | High
+7462 | [51.158.23.123](https://vuldb.com/?ip.51.158.23.123) | annat.sadsdtain.com | - | High
+7463 | [51.158.23.159](https://vuldb.com/?ip.51.158.23.159) | kayoku.sadsdtain.com | - | High
+7464 | [51.158.23.187](https://vuldb.com/?ip.51.158.23.187) | 51-158-23-187.rev.poneytelecom.eu | - | High
+7465 | [51.158.23.193](https://vuldb.com/?ip.51.158.23.193) | mail.eldonroberts.org | - | High
+7466 | [51.158.23.210](https://vuldb.com/?ip.51.158.23.210) | 51-158-23-210.rev.poneytelecom.eu | - | High
+7467 | [51.158.23.218](https://vuldb.com/?ip.51.158.23.218) | 51-158-23-218.rev.poneytelecom.eu | - | High
+7468 | [51.158.23.243](https://vuldb.com/?ip.51.158.23.243) | 51-158-23-243.rev.poneytelecom.eu | - | High
+7469 | [51.158.23.248](https://vuldb.com/?ip.51.158.23.248) | 51-158-23-248.rev.poneytelecom.eu | - | High
+7470 | [51.158.23.250](https://vuldb.com/?ip.51.158.23.250) | 51-158-23-250.rev.poneytelecom.eu | - | High
+7471 | [51.158.24.1](https://vuldb.com/?ip.51.158.24.1) | 51-158-24-1.rev.poneytelecom.eu | - | High
+7472 | [51.158.24.3](https://vuldb.com/?ip.51.158.24.3) | 51-158-24-3.rev.poneytelecom.eu | - | High
+7473 | [51.158.24.4](https://vuldb.com/?ip.51.158.24.4) | 51-158-24-4.rev.poneytelecom.eu | - | High
+7474 | [51.158.24.6](https://vuldb.com/?ip.51.158.24.6) | 51-158-24-6.rev.poneytelecom.eu | - | High
+7475 | [51.158.24.8](https://vuldb.com/?ip.51.158.24.8) | 51-158-24-8.rev.poneytelecom.eu | - | High
+7476 | [51.158.24.15](https://vuldb.com/?ip.51.158.24.15) | 51-158-24-15.rev.poneytelecom.eu | - | High
+7477 | [51.158.24.32](https://vuldb.com/?ip.51.158.24.32) | 51-158-24-32.rev.poneytelecom.eu | - | High
+7478 | [51.158.24.54](https://vuldb.com/?ip.51.158.24.54) | 51-158-24-54.rev.poneytelecom.eu | - | High
+7479 | [51.158.24.66](https://vuldb.com/?ip.51.158.24.66) | 51-158-24-66.rev.poneytelecom.eu | - | High
+7480 | [51.158.24.73](https://vuldb.com/?ip.51.158.24.73) | 51-158-24-73.rev.poneytelecom.eu | - | High
+7481 | [51.158.24.92](https://vuldb.com/?ip.51.158.24.92) | 51-158-24-92.rev.poneytelecom.eu | - | High
+7482 | [51.158.24.96](https://vuldb.com/?ip.51.158.24.96) | 51-158-24-96.rev.poneytelecom.eu | - | High
+7483 | [51.158.24.98](https://vuldb.com/?ip.51.158.24.98) | 51-158-24-98.rev.poneytelecom.eu | - | High
+7484 | [51.158.24.115](https://vuldb.com/?ip.51.158.24.115) | 51-158-24-115.rev.poneytelecom.eu | - | High
+7485 | [51.158.24.118](https://vuldb.com/?ip.51.158.24.118) | 51-158-24-118.rev.poneytelecom.eu | - | High
+7486 | [51.158.24.120](https://vuldb.com/?ip.51.158.24.120) | 51-158-24-120.rev.poneytelecom.eu | - | High
+7487 | [51.158.24.122](https://vuldb.com/?ip.51.158.24.122) | 51-158-24-122.rev.poneytelecom.eu | - | High
+7488 | [51.158.24.128](https://vuldb.com/?ip.51.158.24.128) | 51-158-24-128.rev.poneytelecom.eu | - | High
+7489 | [51.158.24.136](https://vuldb.com/?ip.51.158.24.136) | 51-158-24-136.rev.poneytelecom.eu | - | High
+7490 | [51.158.24.140](https://vuldb.com/?ip.51.158.24.140) | smtp.decorekza.com.br | - | High
+7491 | [51.158.24.152](https://vuldb.com/?ip.51.158.24.152) | 51-158-24-152.rev.poneytelecom.eu | - | High
+7492 | [51.158.24.156](https://vuldb.com/?ip.51.158.24.156) | smtp.regularmei.com.br | - | High
+7493 | [51.158.24.169](https://vuldb.com/?ip.51.158.24.169) | 51-158-24-169.rev.poneytelecom.eu | - | High
+7494 | [51.158.24.184](https://vuldb.com/?ip.51.158.24.184) | smtp.crespoecairesadv.com.br | - | High
+7495 | [51.158.24.186](https://vuldb.com/?ip.51.158.24.186) | 51-158-24-186.rev.poneytelecom.eu | - | High
+7496 | [51.158.24.190](https://vuldb.com/?ip.51.158.24.190) | neu.3cx.fr | - | High
+7497 | [51.158.24.192](https://vuldb.com/?ip.51.158.24.192) | stokum.bokassavage.com | - | High
+7498 | [51.158.24.194](https://vuldb.com/?ip.51.158.24.194) | avs.a2stel.com | - | High
+7499 | [51.158.24.207](https://vuldb.com/?ip.51.158.24.207) | 51-158-24-207.rev.poneytelecom.eu | - | High
+7500 | [51.158.24.218](https://vuldb.com/?ip.51.158.24.218) | 51-158-24-218.rev.poneytelecom.eu | - | High
+7501 | [51.158.24.227](https://vuldb.com/?ip.51.158.24.227) | 51-158-24-227.rev.poneytelecom.eu | - | High
+7502 | [51.158.24.231](https://vuldb.com/?ip.51.158.24.231) | 51-158-24-231.rev.poneytelecom.eu | - | High
+7503 | [51.158.24.235](https://vuldb.com/?ip.51.158.24.235) | 51-158-24-235.rev.poneytelecom.eu | - | High
+7504 | [51.158.24.237](https://vuldb.com/?ip.51.158.24.237) | mail3.platformadmin.net | - | High
+7505 | [51.158.24.244](https://vuldb.com/?ip.51.158.24.244) | ev02.shake-list.com | - | High
+7506 | [51.158.24.247](https://vuldb.com/?ip.51.158.24.247) | 51-158-24-247.rev.poneytelecom.eu | - | High
+7507 | [51.158.24.252](https://vuldb.com/?ip.51.158.24.252) | 51-158-24-252.rev.poneytelecom.eu | - | High
+7508 | [51.158.25.7](https://vuldb.com/?ip.51.158.25.7) | 51-158-25-7.rev.poneytelecom.eu | - | High
+7509 | [51.158.25.9](https://vuldb.com/?ip.51.158.25.9) | 51-158-25-9.rev.poneytelecom.eu | - | High
+7510 | [51.158.25.10](https://vuldb.com/?ip.51.158.25.10) | 51-158-25-10.rev.poneytelecom.eu | - | High
+7511 | [51.158.25.13](https://vuldb.com/?ip.51.158.25.13) | 51-158-25-13.rev.poneytelecom.eu | - | High
+7512 | [51.158.25.46](https://vuldb.com/?ip.51.158.25.46) | 51-158-25-46.rev.poneytelecom.eu | - | High
+7513 | [51.158.25.58](https://vuldb.com/?ip.51.158.25.58) | 51-158-25-58.rev.poneytelecom.eu | - | High
+7514 | [51.158.25.60](https://vuldb.com/?ip.51.158.25.60) | pp-windows.intranet-inside.com | - | High
+7515 | [51.158.25.65](https://vuldb.com/?ip.51.158.25.65) | 51-158-25-65.rev.poneytelecom.eu | - | High
+7516 | [51.158.25.80](https://vuldb.com/?ip.51.158.25.80) | 51-158-25-80.rev.poneytelecom.eu | - | High
+7517 | [51.158.25.86](https://vuldb.com/?ip.51.158.25.86) | 51-158-25-86.rev.poneytelecom.eu | - | High
+7518 | [51.158.25.88](https://vuldb.com/?ip.51.158.25.88) | webitel.com | - | High
+7519 | [51.158.25.99](https://vuldb.com/?ip.51.158.25.99) | 51-158-25-99.rev.poneytelecom.eu | - | High
+7520 | [51.158.25.102](https://vuldb.com/?ip.51.158.25.102) | 51-158-25-102.rev.poneytelecom.eu | - | High
+7521 | [51.158.25.104](https://vuldb.com/?ip.51.158.25.104) | 51-158-25-104.rev.poneytelecom.eu | - | High
+7522 | [51.158.25.142](https://vuldb.com/?ip.51.158.25.142) | 51-158-25-142.rev.poneytelecom.eu | - | High
+7523 | [51.158.25.161](https://vuldb.com/?ip.51.158.25.161) | 51-158-25-161.rev.poneytelecom.eu | - | High
+7524 | [51.158.25.162](https://vuldb.com/?ip.51.158.25.162) | 51-158-25-162.rev.poneytelecom.eu | - | High
+7525 | [51.158.25.174](https://vuldb.com/?ip.51.158.25.174) | 51-158-25-174.rev.poneytelecom.eu | - | High
+7526 | [51.158.25.177](https://vuldb.com/?ip.51.158.25.177) | 51-158-25-177.rev.poneytelecom.eu | - | High
+7527 | [51.158.25.178](https://vuldb.com/?ip.51.158.25.178) | 51-158-25-178.rev.poneytelecom.eu | - | High
+7528 | [51.158.25.211](https://vuldb.com/?ip.51.158.25.211) | 51-158-25-211.rev.poneytelecom.eu | - | High
+7529 | [51.158.25.253](https://vuldb.com/?ip.51.158.25.253) | mail2.platformadmin.net | - | High
+7530 | [51.158.26.33](https://vuldb.com/?ip.51.158.26.33) | 51-158-26-33.rev.poneytelecom.eu | - | High
+7531 | [51.158.26.39](https://vuldb.com/?ip.51.158.26.39) | 51-158-26-39.rev.poneytelecom.eu | - | High
+7532 | [51.158.26.53](https://vuldb.com/?ip.51.158.26.53) | 51-158-26-53.rev.poneytelecom.eu | - | High
+7533 | [51.158.26.96](https://vuldb.com/?ip.51.158.26.96) | bahrawing.com | - | High
+7534 | [51.158.26.99](https://vuldb.com/?ip.51.158.26.99) | 51-158-26-99.rev.poneytelecom.eu | - | High
+7535 | [51.158.26.100](https://vuldb.com/?ip.51.158.26.100) | 51-158-26-100.rev.poneytelecom.eu | - | High
+7536 | [51.158.26.105](https://vuldb.com/?ip.51.158.26.105) | 51-158-26-105.rev.poneytelecom.eu | - | High
+7537 | [51.158.26.126](https://vuldb.com/?ip.51.158.26.126) | 51-158-26-126.rev.poneytelecom.eu | - | High
+7538 | [51.158.26.138](https://vuldb.com/?ip.51.158.26.138) | 51-158-26-138.rev.poneytelecom.eu | - | High
+7539 | [51.158.26.143](https://vuldb.com/?ip.51.158.26.143) | 51-158-26-143.rev.poneytelecom.eu | - | High
+7540 | [51.158.26.151](https://vuldb.com/?ip.51.158.26.151) | 51-158-26-151.rev.poneytelecom.eu | - | High
+7541 | [51.158.26.170](https://vuldb.com/?ip.51.158.26.170) | 51-158-26-170.rev.poneytelecom.eu | - | High
+7542 | [51.158.26.184](https://vuldb.com/?ip.51.158.26.184) | 51-158-26-184.rev.poneytelecom.eu | - | High
+7543 | [51.158.26.191](https://vuldb.com/?ip.51.158.26.191) | 51-158-26-191.rev.poneytelecom.eu | - | High
+7544 | [51.158.26.192](https://vuldb.com/?ip.51.158.26.192) | 51-158-26-192.rev.poneytelecom.eu | - | High
+7545 | [51.158.26.218](https://vuldb.com/?ip.51.158.26.218) | 51-158-26-218.rev.poneytelecom.eu | - | High
+7546 | [51.158.26.252](https://vuldb.com/?ip.51.158.26.252) | 51-158-26-252.rev.poneytelecom.eu | - | High
+7547 | [51.158.27.2](https://vuldb.com/?ip.51.158.27.2) | 51-158-27-2.rev.poneytelecom.eu | - | High
+7548 | [51.158.27.43](https://vuldb.com/?ip.51.158.27.43) | 51-158-27-43.rev.poneytelecom.eu | - | High
+7549 | [51.158.27.45](https://vuldb.com/?ip.51.158.27.45) | 51-158-27-45.rev.poneytelecom.eu | - | High
+7550 | [51.158.27.52](https://vuldb.com/?ip.51.158.27.52) | 51-158-27-52.rev.poneytelecom.eu | - | High
+7551 | [51.158.27.54](https://vuldb.com/?ip.51.158.27.54) | 51-158-27-54.rev.poneytelecom.eu | - | High
+7552 | [51.158.27.82](https://vuldb.com/?ip.51.158.27.82) | arca.a2stel.com | - | High
+7553 | [51.158.27.104](https://vuldb.com/?ip.51.158.27.104) | 51-158-27-104.rev.poneytelecom.eu | - | High
+7554 | [51.158.27.110](https://vuldb.com/?ip.51.158.27.110) | 51-158-27-110.rev.poneytelecom.eu | - | High
+7555 | [51.158.27.120](https://vuldb.com/?ip.51.158.27.120) | 51-158-27-120.rev.poneytelecom.eu | - | High
+7556 | [51.158.27.170](https://vuldb.com/?ip.51.158.27.170) | 51-158-27-170.rev.poneytelecom.eu | - | High
+7557 | [51.158.27.184](https://vuldb.com/?ip.51.158.27.184) | 51-158-27-184.rev.poneytelecom.eu | - | High
+7558 | [51.158.27.206](https://vuldb.com/?ip.51.158.27.206) | 51-158-27-206.rev.poneytelecom.eu | - | High
+7559 | [51.158.27.210](https://vuldb.com/?ip.51.158.27.210) | edrara.daughtened.com | - | High
+7560 | [51.158.28.11](https://vuldb.com/?ip.51.158.28.11) | 51-158-28-11.rev.poneytelecom.eu | - | High
+7561 | [51.158.28.49](https://vuldb.com/?ip.51.158.28.49) | 51-158-28-49.rev.poneytelecom.eu | - | High
+7562 | [51.158.28.71](https://vuldb.com/?ip.51.158.28.71) | 51-158-28-71.rev.poneytelecom.eu | - | High
+7563 | [51.158.28.73](https://vuldb.com/?ip.51.158.28.73) | 51-158-28-73.rev.poneytelecom.eu | - | High
+7564 | [51.158.28.116](https://vuldb.com/?ip.51.158.28.116) | 51-158-28-116.rev.poneytelecom.eu | - | High
+7565 | [51.158.28.120](https://vuldb.com/?ip.51.158.28.120) | 51-158-28-120.rev.poneytelecom.eu | - | High
+7566 | [51.158.28.122](https://vuldb.com/?ip.51.158.28.122) | acclaim.extreetro.net | - | High
+7567 | [51.158.28.124](https://vuldb.com/?ip.51.158.28.124) | 51-158-28-124.rev.poneytelecom.eu | - | High
+7568 | [51.158.28.127](https://vuldb.com/?ip.51.158.28.127) | 51-158-28-127.rev.poneytelecom.eu | - | High
+7569 | [51.158.28.128](https://vuldb.com/?ip.51.158.28.128) | 51-158-28-128.rev.poneytelecom.eu | - | High
+7570 | [51.158.28.132](https://vuldb.com/?ip.51.158.28.132) | 51-158-28-132.rev.poneytelecom.eu | - | High
+7571 | [51.158.28.135](https://vuldb.com/?ip.51.158.28.135) | 51-158-28-135.rev.poneytelecom.eu | - | High
+7572 | [51.158.28.136](https://vuldb.com/?ip.51.158.28.136) | 51-158-28-136.rev.poneytelecom.eu | - | High
+7573 | [51.158.28.152](https://vuldb.com/?ip.51.158.28.152) | 51-158-28-152.rev.poneytelecom.eu | - | High
+7574 | [51.158.28.167](https://vuldb.com/?ip.51.158.28.167) | 51-158-28-167.rev.poneytelecom.eu | - | High
+7575 | [51.158.28.186](https://vuldb.com/?ip.51.158.28.186) | 51-158-28-186.rev.poneytelecom.eu | - | High
+7576 | [51.158.28.195](https://vuldb.com/?ip.51.158.28.195) | 51-158-28-195.rev.poneytelecom.eu | - | High
+7577 | [51.158.28.211](https://vuldb.com/?ip.51.158.28.211) | mail03.vpn.ht | - | High
+7578 | [51.158.28.228](https://vuldb.com/?ip.51.158.28.228) | 51-158-28-228.rev.poneytelecom.eu | - | High
+7579 | [51.158.28.237](https://vuldb.com/?ip.51.158.28.237) | beyond.swordcoral.net | - | High
+7580 | [51.158.28.242](https://vuldb.com/?ip.51.158.28.242) | 51-158-28-242.rev.poneytelecom.eu | - | High
+7581 | [51.158.28.246](https://vuldb.com/?ip.51.158.28.246) | 51-158-28-246.rev.poneytelecom.eu | - | High
+7582 | [51.158.29.5](https://vuldb.com/?ip.51.158.29.5) | 51-158-29-5.rev.poneytelecom.eu | - | High
+7583 | [51.158.29.10](https://vuldb.com/?ip.51.158.29.10) | 51-158-29-10.rev.poneytelecom.eu | - | High
+7584 | [51.158.29.35](https://vuldb.com/?ip.51.158.29.35) | 51-158-29-35.rev.poneytelecom.eu | - | High
+7585 | [51.158.29.51](https://vuldb.com/?ip.51.158.29.51) | 51-158-29-51.rev.poneytelecom.eu | - | High
+7586 | [51.158.29.57](https://vuldb.com/?ip.51.158.29.57) | 51-158-29-57.rev.poneytelecom.eu | - | High
+7587 | [51.158.29.76](https://vuldb.com/?ip.51.158.29.76) | 51-158-29-76.rev.poneytelecom.eu | - | High
+7588 | [51.158.29.100](https://vuldb.com/?ip.51.158.29.100) | 51-158-29-100.rev.poneytelecom.eu | - | High
+7589 | [51.158.29.105](https://vuldb.com/?ip.51.158.29.105) | 51-158-29-105.rev.poneytelecom.eu | - | High
+7590 | [51.158.29.118](https://vuldb.com/?ip.51.158.29.118) | 51-158-29-118.rev.poneytelecom.eu | - | High
+7591 | [51.158.29.186](https://vuldb.com/?ip.51.158.29.186) | land186.curve.de.com | - | High
+7592 | [51.158.29.193](https://vuldb.com/?ip.51.158.29.193) | 51-158-29-193.rev.poneytelecom.eu | - | High
+7593 | [51.158.29.250](https://vuldb.com/?ip.51.158.29.250) | 51-158-29-250.rev.poneytelecom.eu | - | High
+7594 | [51.158.29.254](https://vuldb.com/?ip.51.158.29.254) | 51-158-29-254.rev.poneytelecom.eu | - | High
+7595 | [51.158.30.10](https://vuldb.com/?ip.51.158.30.10) | www.goudal.net | - | High
+7596 | [51.158.30.21](https://vuldb.com/?ip.51.158.30.21) | omnetwork.fr | - | High
+7597 | [51.158.30.50](https://vuldb.com/?ip.51.158.30.50) | im.goudal.net | - | High
+7598 | [51.158.30.65](https://vuldb.com/?ip.51.158.30.65) | enough-priority.jackpotyalert.com | - | High
+7599 | [51.158.30.93](https://vuldb.com/?ip.51.158.30.93) | overnmentary.com | - | High
+7600 | [51.158.30.101](https://vuldb.com/?ip.51.158.30.101) | 51-158-30-101.rev.poneytelecom.eu | - | High
+7601 | [51.158.30.113](https://vuldb.com/?ip.51.158.30.113) | 51-158-30-113.rev.poneytelecom.eu | - | High
+7602 | [51.158.30.125](https://vuldb.com/?ip.51.158.30.125) | 51-158-30-125.rev.poneytelecom.eu | - | High
+7603 | [51.158.30.153](https://vuldb.com/?ip.51.158.30.153) | toucanmain.com | - | High
+7604 | [51.158.30.166](https://vuldb.com/?ip.51.158.30.166) | 51-158-30-166.rev.poneytelecom.eu | - | High
+7605 | [51.158.30.204](https://vuldb.com/?ip.51.158.30.204) | nirvanapipe.com | - | High
+7606 | [51.158.30.209](https://vuldb.com/?ip.51.158.30.209) | 51-158-30-209.rev.poneytelecom.eu | - | High
+7607 | [51.158.31.4](https://vuldb.com/?ip.51.158.31.4) | 51-158-31-4.rev.poneytelecom.eu | - | High
+7608 | [51.158.31.21](https://vuldb.com/?ip.51.158.31.21) | 51-158-31-21.rev.poneytelecom.eu | - | High
+7609 | [51.158.31.32](https://vuldb.com/?ip.51.158.31.32) | 51-158-31-32.rev.poneytelecom.eu | - | High
+7610 | [51.158.31.37](https://vuldb.com/?ip.51.158.31.37) | 51-158-31-37.rev.poneytelecom.eu | - | High
+7611 | [51.158.31.38](https://vuldb.com/?ip.51.158.31.38) | 51-158-31-38.rev.poneytelecom.eu | - | High
+7612 | [51.158.31.40](https://vuldb.com/?ip.51.158.31.40) | 51-158-31-40.rev.poneytelecom.eu | - | High
+7613 | [51.158.31.42](https://vuldb.com/?ip.51.158.31.42) | 51-158-31-42.rev.poneytelecom.eu | - | High
+7614 | [51.158.31.51](https://vuldb.com/?ip.51.158.31.51) | 51-158-31-51.rev.poneytelecom.eu | - | High
+7615 | [51.158.31.65](https://vuldb.com/?ip.51.158.31.65) | lyra.vedrines.org | - | High
+7616 | [51.158.31.83](https://vuldb.com/?ip.51.158.31.83) | parisherbe.a2stel.com | - | High
+7617 | [51.158.31.90](https://vuldb.com/?ip.51.158.31.90) | 51-158-31-90.rev.poneytelecom.eu | - | High
+7618 | [51.158.31.93](https://vuldb.com/?ip.51.158.31.93) | 51-158-31-93.rev.poneytelecom.eu | - | High
+7619 | [51.158.31.94](https://vuldb.com/?ip.51.158.31.94) | 51-158-31-94.rev.poneytelecom.eu | - | High
+7620 | [51.158.31.138](https://vuldb.com/?ip.51.158.31.138) | smtp.teclift-financeiro.com.br | - | High
+7621 | [51.158.31.143](https://vuldb.com/?ip.51.158.31.143) | smtp.euroimobi.com | - | High
+7622 | ... | ... | ... | ...
 
-There are 29732 more IOC items available. Please use our online service to access the data.
+There are 30484 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -7464,13 +7652,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-25, CWE-36 | Path Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
+1 | T1006 | CWE-22, CWE-23 | Path Traversal | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-94 | Argument Injection | High
+4 | T1059.007 | CWE-79, CWE-80, CWE-85 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -7478,53 +7666,34 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.alerts-security.alerts-{space_id}` | High
-2 | File | `/#ilang=DE&b=c_smartenergy_swgroups` | High
-3 | File | `/Account/login.php` | High
-4 | File | `/admin.php/appcenter/local.html?type=addon` | High
-5 | File | `/admin/` | Low
-6 | File | `/admin/action/delete-vaccine.php` | High
-7 | File | `/admin/edit-admin.php` | High
-8 | File | `/admin/list_ipAddressPolicy.php` | High
-9 | File | `/admin/operations/expense_category.php` | High
-10 | File | `/admin/pages/edit_chicken.php` | High
-11 | File | `/admin/pages/student-print.php` | High
-12 | File | `/admin/view_sendlist.php` | High
-13 | File | `/adminapi/system/crud` | High
-14 | File | `/adminapi/system/file/openfile` | High
-15 | File | `/admin_route/dec_service_credits.php` | High
-16 | File | `/api/controllers/admin/app/AppController.php` | High
-17 | File | `/api/controllers/common/UploadsController.php` | High
-18 | File | `/api/sys/set_passwd` | High
-19 | File | `/api/v4/teams//channels/deleted` | High
-20 | File | `/app/controller/Setup.php` | High
-21 | File | `/app/Http/Controllers/ImageController.php` | High
-22 | File | `/application/index/common.php` | High
-23 | File | `/application/index/controller/Databasesource.php` | High
-24 | File | `/application/index/controller/Icon.php` | High
-25 | File | `/application/index/controller/Pay.php` | High
-26 | File | `/application/index/controller/Screen.php` | High
-27 | File | `/application/index/controller/Service.php` | High
-28 | File | `/application/websocket/controller/Setting.php` | High
-29 | File | `/assets/php/upload.php` | High
-30 | File | `/boafrm/formMapDelDevice` | High
-31 | File | `/cgi-bin/cstecgi.cgi` | High
-32 | File | `/cupseasylive/stockissuancelinecreate.php` | High
-33 | File | `/dashboard/Cinvoice/manage_invoice` | High
-34 | File | `/debug/pprof` | Medium
-35 | File | `/devinfo` | Medium
-36 | File | `/DXR.axd` | Medium
-37 | File | `/endpoint/delete-computer.php` | High
-38 | File | `/endpoint/update-tracker.php` | High
-39 | File | `/etc/passwd` | Medium
-40 | File | `/forum/away.php` | High
-41 | File | `/general/attendance/manage/ask_duty/delete.php` | High
-42 | File | `/general/email/outbox/delete.php` | High
-43 | File | `/goform/setAutoPing` | High
-44 | File | `/hedwig.cgi` | Medium
-45 | ... | ... | ...
+1 | File | `/+CSCOE+/logon.html` | High
+2 | File | `/admin/admin-profile.php` | High
+3 | File | `/Admin/changepassword.php` | High
+4 | File | `/admin/court` | Medium
+5 | File | `/Admin/createClass.php` | High
+6 | File | `/admin/edit_supplier.php` | High
+7 | File | `/admin/general-setting` | High
+8 | File | `/admin/maintenance/manage_brand.php` | High
+9 | File | `/admin/problem_judge.php` | High
+10 | File | `/admin/service` | High
+11 | File | `/bbdms/sign-up.php` | High
+12 | File | `/blog/blog.php` | High
+13 | File | `/catalog/admin/categories.php?cPath=&action=new_product` | High
+14 | File | `/catalog/all-products` | High
+15 | File | `/cgi-bin/nas_sharing.cgi` | High
+16 | File | `/changePassword` | High
+17 | File | `/classes/Master.php?f=view_item` | High
+18 | File | `/classes/Users.php?f=save` | High
+19 | File | `/College/admin/teacher.php` | High
+20 | File | `/conf/app.conf` | High
+21 | File | `/forum/away.php` | High
+22 | File | `/goform/SetRemoteWebCfg` | High
+23 | File | `/goform/SetSysTimeCfg` | High
+24 | File | `/importhtml.php` | High
+25 | File | `/index.php` | Medium
+26 | ... | ... | ...
 
-There are 394 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 223 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -7532,6 +7701,7 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://github.com/firehol/blocklist-ipsets/blob/master/geolite2_country/country_nl.netset
 * https://github.com/firehol/blocklist-ipsets/blob/master/ipip_country/ipip_country_nl.netset
+* https://github.com/scriptzteam/Private-Internet-Access-VPN-Servers/blob/main/export.csv
 * https://raw.githubusercontent.com/firehol/blocklist-ipsets/master/ip2location_country/ip2location_country_nl.netset
 * https://raw.githubusercontent.com/firehol/blocklist-ipsets/master/ipip_country/ipip_country_nl.netset
 

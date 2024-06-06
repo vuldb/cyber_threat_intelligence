@@ -48,8 +48,9 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | T1068 | CWE-250, CWE-264, CWE-266, CWE-269, CWE-273, CWE-284 | Execution with Unnecessary Privileges | High
-7 | ... | ... | ... | ...
+6 | T1068 | CWE-250, CWE-264, CWE-266, CWE-269, CWE-271, CWE-273, CWE-284 | Execution with Unnecessary Privileges | High
+7 | T1078.001 | CWE-259 | Use of Hard-coded Password | High
+8 | ... | ... | ... | ...
 
 There are 26 more TTP items available. Please use our online service to access the data.
 
@@ -64,38 +65,41 @@ ID | Type | Indicator | Confidence
 3 | File | `/acms/classes/Master.php?f=delete_cargo` | High
 4 | File | `/addnews.html` | High
 5 | File | `/admin.php/news/admin/topic/save` | High
-6 | File | `/admin/addemployee.php` | High
-7 | File | `/admin/comn/service/update.json` | High
-8 | File | `/Admin/Views/FileEditor/` | High
-9 | File | `/api/user/{ID}` | High
-10 | File | `/api/v4/teams/TEAM_ID/top/team_members` | High
-11 | File | `/article/add` | Medium
-12 | File | `/asms/classes/Master.php?f=delete_transaction` | High
-13 | File | `/auth/register` | High
-14 | File | `/cgi-bin/uploadWeiXinPic` | High
-15 | File | `/collection/all` | High
-16 | File | `/controller/pay.class.php` | High
-17 | File | `/ctpms/admin/?page=applications/view_application` | High
-18 | File | `/cupseasylive/grnlist.php` | High
-19 | File | `/cupseasylive/statemodify.php` | High
-20 | File | `/dl/dl_print.php` | High
-21 | File | `/etc/passwd` | Medium
-22 | File | `/getcfg.php` | Medium
-23 | File | `/goform/aspForm` | High
-24 | File | `/goform/SetClientState` | High
-25 | File | `/goform/set_LimitClient_cfg` | High
-26 | File | `/goform/SysToolChangePwd` | High
-27 | File | `/irj/servlet/prt/portal/prtroot/com.sap.portal.usermanagement.admin.UserMapping` | High
-28 | File | `/jerry-core/ecma/base/ecma-gc.c` | High
-29 | File | `/jerry-core/ecma/base/ecma-helpers-conversion.c` | High
-30 | File | `/librarian/bookdetails.php` | High
-31 | File | `/librarian/lab.php` | High
-32 | File | `/login` | Low
-33 | File | `/mngset/authset` | High
-34 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-35 | ... | ... | ...
+6 | File | `/admin/?page=user/list` | High
+7 | File | `/admin/addemployee.php` | High
+8 | File | `/admin/comn/service/update.json` | High
+9 | File | `/admin/template` | High
+10 | File | `/api/user/{ID}` | High
+11 | File | `/api/v4/teams/TEAM_ID/top/team_members` | High
+12 | File | `/article/add` | Medium
+13 | File | `/asms/classes/Master.php?f=delete_transaction` | High
+14 | File | `/auth/register` | High
+15 | File | `/cgi-bin/uploadWeiXinPic` | High
+16 | File | `/collection/all` | High
+17 | File | `/controller/pay.class.php` | High
+18 | File | `/ctpms/admin/?page=applications/view_application` | High
+19 | File | `/cupseasylive/grnlist.php` | High
+20 | File | `/cupseasylive/statemodify.php` | High
+21 | File | `/dashboard/add-service.php` | High
+22 | File | `/dl/dl_print.php` | High
+23 | File | `/etc/passwd` | Medium
+24 | File | `/etc/shadow.sample` | High
+25 | File | `/getcfg.php` | Medium
+26 | File | `/goform/aspForm` | High
+27 | File | `/goform/SetClientState` | High
+28 | File | `/goform/set_LimitClient_cfg` | High
+29 | File | `/goform/SysToolChangePwd` | High
+30 | File | `/irj/servlet/prt/portal/prtroot/com.sap.portal.usermanagement.admin.UserMapping` | High
+31 | File | `/jerry-core/ecma/base/ecma-gc.c` | High
+32 | File | `/jerry-core/ecma/base/ecma-helpers-conversion.c` | High
+33 | File | `/librarian/bookdetails.php` | High
+34 | File | `/librarian/lab.php` | High
+35 | File | `/login` | Low
+36 | File | `/login/` | Low
+37 | File | `/mngset/authset` | High
+38 | ... | ... | ...
 
-There are 304 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 331 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

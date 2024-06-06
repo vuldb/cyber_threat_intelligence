@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Raccoon:
 
-* [CN](https://vuldb.com/?country.cn)
-* [US](https://vuldb.com/?country.us)
-* [IL](https://vuldb.com/?country.il)
+* [PL](https://vuldb.com/?country.pl)
+* [RU](https://vuldb.com/?country.ru)
+* [AR](https://vuldb.com/?country.ar)
 * ...
 
-There are 17 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -263,9 +263,10 @@ ID | IP address | Hostname | Campaign | Confidence
 240 | [45.67.228.180](https://vuldb.com/?ip.45.67.228.180) | vm1330387.stark-industries.solutions | - | High
 241 | [45.67.231.132](https://vuldb.com/?ip.45.67.231.132) | ironfish.com | - | High
 242 | [45.77.137.24](https://vuldb.com/?ip.45.77.137.24) | - | - | High
-243 | ... | ... | ... | ...
+243 | [45.82.13.17](https://vuldb.com/?ip.45.82.13.17) | MSK-H-1674545172.msk.host | - | High
+244 | ... | ... | ... | ...
 
-There are 970 more IOC items available. Please use our online service to access the data.
+There are 971 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -273,13 +274,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-25, CWE-36, CWE-425 | Path Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
-5 | ... | ... | ... | ...
+1 | T1006 | CWE-22 | Path Traversal | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-94 | Argument Injection | High
+4 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 10 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -287,54 +287,17 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/#ilang=DE&b=c_smartenergy_swgroups` | High
-2 | File | `/Account/login.php` | High
-3 | File | `/admin/` | Low
-4 | File | `/admin/action/delete-vaccine.php` | High
-5 | File | `/adminapi/system/crud` | High
-6 | File | `/adminapi/system/file/openfile` | High
-7 | File | `/admin_route/dec_service_credits.php` | High
-8 | File | `/api/trackedEntityInstances` | High
-9 | File | `/api/v4/teams//channels/deleted` | High
-10 | File | `/app/index/controller/Common.php` | High
-11 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
-12 | File | `/aux` | Low
-13 | File | `/cancel.php` | Medium
-14 | File | `/category.php` | High
-15 | File | `/cgi-bin/cstecgi.cgi` | High
-16 | File | `/change-language/de_DE` | High
-17 | File | `/data/remove` | Medium
-18 | File | `/debug/pprof` | Medium
-19 | File | `/debuginfo.htm` | High
-20 | File | `/devinfo` | Medium
-21 | File | `/dist/index.js` | High
-22 | File | `/download` | Medium
-23 | File | `/etc/passwd` | Medium
-24 | File | `/forms/doLogin` | High
-25 | File | `/forum/away.php` | High
-26 | File | `/goform/net\_Web\_get_value` | High
-27 | File | `/index.jsp#settings` | High
-28 | File | `/index.php` | Medium
-29 | File | `/index.php/ccm/system/file/upload` | High
-30 | File | `/log/decodmail.php` | High
-31 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
-32 | File | `/manage-admin.php` | High
-33 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-34 | File | `/novel/author/list` | High
-35 | File | `/novel/bookSetting/list` | High
-36 | File | `/novel/userFeedback/list` | High
-37 | File | `/oauth/idp/.well-known/openid-configuration` | High
-38 | File | `/php/ping.php` | High
-39 | File | `/s/index.php?action=statistics` | High
-40 | File | `/Setting/change_password_save` | High
-41 | File | `/signup.php` | Medium
-42 | File | `/src/dede/vote_edit.php` | High
-43 | File | `/st_reg.php` | Medium
-44 | File | `/supplier.php` | High
-45 | File | `/SysInfo1.htm` | High
-46 | ... | ... | ...
+1 | File | `/catalog/all-products` | High
+2 | File | `/changePassword` | High
+3 | File | `/goform/addIpMacBind` | High
+4 | File | `/goform/DelDhcpRule` | High
+5 | File | `/goform/delIpMacBind` | High
+6 | File | `/goform/DelPortMapping` | High
+7 | File | `/goform/modifyDhcpRule` | High
+8 | File | `/goform/modifyIpMacBind` | High
+9 | ... | ... | ...
 
-There are 401 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 66 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

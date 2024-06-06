@@ -42,7 +42,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-24 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-24 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
@@ -88,27 +88,28 @@ ID | Type | Indicator | Confidence
 30 | File | `/boafrm/formMapDelDevice` | High
 31 | File | `/cgi-bin/cstecgi.cgi` | High
 32 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-33 | File | `/cgi-bin/system_mgr.cgi` | High
-34 | File | `/changeimage.php` | High
-35 | File | `/classes/Master.php?f=delete_sub_category` | High
-36 | File | `/classes/Users.php?f=save` | High
-37 | File | `/cms/category/list` | High
-38 | File | `/company/store` | High
-39 | File | `/debug/pprof` | Medium
-40 | File | `/Default/Bd` | Medium
-41 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
-42 | File | `/domain/add` | Medium
-43 | File | `/donor-wall` | Medium
-44 | File | `/ebics-server/ebics.aspx` | High
-45 | File | `/esbus/servlet/GetSQLData` | High
-46 | File | `/EXCU_SHELL` | Medium
-47 | File | `/film-rating.php` | High
-48 | File | `/forum/away.php` | High
-49 | File | `/friends/ajax_invite` | High
-50 | File | `/goform/aspForm` | High
-51 | ... | ... | ...
+33 | File | `/cgi-bin/nas_sharing.cgi` | High
+34 | File | `/cgi-bin/system_mgr.cgi` | High
+35 | File | `/changeimage.php` | High
+36 | File | `/classes/Master.php?f=delete_sub_category` | High
+37 | File | `/classes/Users.php?f=save` | High
+38 | File | `/cms/category/list` | High
+39 | File | `/company/store` | High
+40 | File | `/debug/pprof` | Medium
+41 | File | `/Default/Bd` | Medium
+42 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
+43 | File | `/domain/add` | Medium
+44 | File | `/donor-wall` | Medium
+45 | File | `/ebics-server/ebics.aspx` | High
+46 | File | `/esbus/servlet/GetSQLData` | High
+47 | File | `/EXCU_SHELL` | Medium
+48 | File | `/film-rating.php` | High
+49 | File | `/forum/away.php` | High
+50 | File | `/friends/ajax_invite` | High
+51 | File | `/goform/aspForm` | High
+52 | ... | ... | ...
 
-There are 446 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 452 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

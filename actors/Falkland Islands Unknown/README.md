@@ -115,9 +115,10 @@ ID | Type | Indicator | Confidence
 63 | File | `blocklayered-ajax.php` | High
 64 | File | `blogger-importer.php` | High
 65 | File | `bluegate_seo.inc.php` | High
-66 | ... | ... | ...
+66 | File | `book.cfm` | Medium
+67 | ... | ... | ...
 
-There are 582 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 584 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

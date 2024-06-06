@@ -29,35 +29,36 @@ ID | IP address | Hostname | Campaign | Confidence
 6 | [3.126.37.18](https://vuldb.com/?ip.3.126.37.18) | ec2-3-126-37-18.eu-central-1.compute.amazonaws.com | - | Medium
 7 | [3.127.59.75](https://vuldb.com/?ip.3.127.59.75) | ec2-3-127-59-75.eu-central-1.compute.amazonaws.com | - | Medium
 8 | [5.182.87.154](https://vuldb.com/?ip.5.182.87.154) | melodic-root.aeza.network | - | High
-9 | [13.48.68.245](https://vuldb.com/?ip.13.48.68.245) | ec2-13-48-68-245.eu-north-1.compute.amazonaws.com | - | Medium
-10 | [15.204.37.12](https://vuldb.com/?ip.15.204.37.12) | ip12.ip-15-204-37.us | - | High
-11 | [15.204.170.24](https://vuldb.com/?ip.15.204.170.24) | ip24.ip-15-204-170.us | - | High
-12 | [15.228.35.69](https://vuldb.com/?ip.15.228.35.69) | ec2-15-228-35-69.sa-east-1.compute.amazonaws.com | - | Medium
-13 | [16.16.96.108](https://vuldb.com/?ip.16.16.96.108) | ec2-16-16-96-108.eu-north-1.compute.amazonaws.com | - | Medium
-14 | [18.230.117.219](https://vuldb.com/?ip.18.230.117.219) | ec2-18-230-117-219.sa-east-1.compute.amazonaws.com | - | Medium
-15 | [18.231.156.119](https://vuldb.com/?ip.18.231.156.119) | ec2-18-231-156-119.sa-east-1.compute.amazonaws.com | - | Medium
-16 | [20.0.32.252](https://vuldb.com/?ip.20.0.32.252) | - | - | High
-17 | [20.25.157.149](https://vuldb.com/?ip.20.25.157.149) | - | - | High
-18 | [20.56.93.201](https://vuldb.com/?ip.20.56.93.201) | - | - | High
-19 | [20.125.118.35](https://vuldb.com/?ip.20.125.118.35) | - | - | High
-20 | [20.197.231.178](https://vuldb.com/?ip.20.197.231.178) | - | - | High
-21 | [20.219.15.124](https://vuldb.com/?ip.20.219.15.124) | - | - | High
-22 | [20.229.184.215](https://vuldb.com/?ip.20.229.184.215) | - | - | High
-23 | [23.106.215.7](https://vuldb.com/?ip.23.106.215.7) | - | - | High
-24 | [23.227.198.214](https://vuldb.com/?ip.23.227.198.214) | 23-227-198-214.static.hvvc.us | - | High
-25 | [31.220.76.124](https://vuldb.com/?ip.31.220.76.124) | ip-124-76-220-31.static.contabo.net | - | High
-26 | [34.130.82.241](https://vuldb.com/?ip.34.130.82.241) | 241.82.130.34.bc.googleusercontent.com | - | Medium
-27 | [35.220.199.19](https://vuldb.com/?ip.35.220.199.19) | 19.199.220.35.bc.googleusercontent.com | - | Medium
-28 | [41.216.188.29](https://vuldb.com/?ip.41.216.188.29) | - | - | High
-29 | [44.201.221.153](https://vuldb.com/?ip.44.201.221.153) | ec2-44-201-221-153.compute-1.amazonaws.com | - | Medium
-30 | [45.61.130.7](https://vuldb.com/?ip.45.61.130.7) | - | - | High
-31 | [45.81.225.208](https://vuldb.com/?ip.45.81.225.208) | vm4424272.52ssd.had.wf | - | High
-32 | [45.88.67.75](https://vuldb.com/?ip.45.88.67.75) | - | - | High
-33 | [45.130.141.212](https://vuldb.com/?ip.45.130.141.212) | - | - | High
-34 | [45.139.105.105](https://vuldb.com/?ip.45.139.105.105) | - | - | High
-35 | ... | ... | ... | ...
+9 | [12.221.146.138](https://vuldb.com/?ip.12.221.146.138) | - | - | High
+10 | [13.48.68.245](https://vuldb.com/?ip.13.48.68.245) | ec2-13-48-68-245.eu-north-1.compute.amazonaws.com | - | Medium
+11 | [15.204.37.12](https://vuldb.com/?ip.15.204.37.12) | ip12.ip-15-204-37.us | - | High
+12 | [15.204.170.24](https://vuldb.com/?ip.15.204.170.24) | ip24.ip-15-204-170.us | - | High
+13 | [15.228.35.69](https://vuldb.com/?ip.15.228.35.69) | ec2-15-228-35-69.sa-east-1.compute.amazonaws.com | - | Medium
+14 | [16.16.96.108](https://vuldb.com/?ip.16.16.96.108) | ec2-16-16-96-108.eu-north-1.compute.amazonaws.com | - | Medium
+15 | [18.230.117.219](https://vuldb.com/?ip.18.230.117.219) | ec2-18-230-117-219.sa-east-1.compute.amazonaws.com | - | Medium
+16 | [18.231.156.119](https://vuldb.com/?ip.18.231.156.119) | ec2-18-231-156-119.sa-east-1.compute.amazonaws.com | - | Medium
+17 | [20.0.32.252](https://vuldb.com/?ip.20.0.32.252) | - | - | High
+18 | [20.25.157.149](https://vuldb.com/?ip.20.25.157.149) | - | - | High
+19 | [20.56.93.201](https://vuldb.com/?ip.20.56.93.201) | - | - | High
+20 | [20.125.118.35](https://vuldb.com/?ip.20.125.118.35) | - | - | High
+21 | [20.197.231.178](https://vuldb.com/?ip.20.197.231.178) | - | - | High
+22 | [20.219.15.124](https://vuldb.com/?ip.20.219.15.124) | - | - | High
+23 | [20.229.184.215](https://vuldb.com/?ip.20.229.184.215) | - | - | High
+24 | [23.106.215.7](https://vuldb.com/?ip.23.106.215.7) | - | - | High
+25 | [23.227.198.214](https://vuldb.com/?ip.23.227.198.214) | 23-227-198-214.static.hvvc.us | - | High
+26 | [31.220.76.124](https://vuldb.com/?ip.31.220.76.124) | ip-124-76-220-31.static.contabo.net | - | High
+27 | [34.130.82.241](https://vuldb.com/?ip.34.130.82.241) | 241.82.130.34.bc.googleusercontent.com | - | Medium
+28 | [35.220.199.19](https://vuldb.com/?ip.35.220.199.19) | 19.199.220.35.bc.googleusercontent.com | - | Medium
+29 | [41.199.23.195](https://vuldb.com/?ip.41.199.23.195) | HOST-195-23.199.41.nile-online.net | - | High
+30 | [41.216.188.29](https://vuldb.com/?ip.41.216.188.29) | - | - | High
+31 | [44.201.221.153](https://vuldb.com/?ip.44.201.221.153) | ec2-44-201-221-153.compute-1.amazonaws.com | - | Medium
+32 | [45.61.130.7](https://vuldb.com/?ip.45.61.130.7) | - | - | High
+33 | [45.81.225.208](https://vuldb.com/?ip.45.81.225.208) | vm4424272.52ssd.had.wf | - | High
+34 | [45.88.67.75](https://vuldb.com/?ip.45.88.67.75) | - | - | High
+35 | [45.130.141.212](https://vuldb.com/?ip.45.130.141.212) | - | - | High
+36 | ... | ... | ... | ...
 
-There are 134 more IOC items available. Please use our online service to access the data.
+There are 140 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -65,14 +66,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -80,43 +81,45 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/applicants/index.php` | High
-2 | File | `/admin/category/index.php` | High
-3 | File | `/admin/index2.html` | High
-4 | File | `/admin/sales/view_details.php` | High
-5 | File | `/b2b-supermarket/shopping-cart` | High
-6 | File | `/bin/login` | Medium
+1 | File | `/?g=net_pro_keyword_import_save` | High
+2 | File | `/admin/applicants/index.php` | High
+3 | File | `/admin/category/index.php` | High
+4 | File | `/admin/service_requests/manage_inventory.php` | High
+5 | File | `/adminPage/conf/reload` | High
+6 | File | `/b2b-supermarket/shopping-cart` | High
 7 | File | `/calendar/minimizer/index.php` | High
 8 | File | `/cgi-bin/cstecgi.cgi` | High
 9 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-10 | File | `/cgi-bin/qcmap_auth` | High
-11 | File | `/cgi-bin/wlogin.cgi` | High
-12 | File | `/core/conditions/AbstractWrapper.java` | High
-13 | File | `/core/tools/update_menu.php` | High
-14 | File | `/dayrui/My/Config/Install.txt` | High
-15 | File | `/DesignTools/CssEditor.aspx` | High
-16 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
-17 | File | `/DXR.axd` | Medium
-18 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-19 | File | `/endpoint/add-user.php` | High
-20 | File | `/forum/away.php` | High
-21 | File | `/forums/editforum.php` | High
-22 | File | `/goform/` | Medium
-23 | File | `/goform/goform_get_cmd_process` | High
-24 | File | `/h/autoSaveDraft` | High
-25 | File | `/home/courses` | High
-26 | File | `/index.php?menu=asterisk_cli` | High
-27 | File | `/install/` | Medium
-28 | File | `/ipms/imageConvert/image` | High
-29 | File | `/modals/class_form.php` | High
-30 | File | `/novel/bookSetting/list` | High
-31 | File | `/novel/userFeedback/list` | High
-32 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
-33 | File | `/php-opos/index.php` | High
-34 | File | `/project/tasks/list` | High
-35 | ... | ... | ...
+10 | File | `/cgi-bin/nas_sharing.cgi` | High
+11 | File | `/cgi-bin/qcmap_auth` | High
+12 | File | `/cgi-bin/wlogin.cgi` | High
+13 | File | `/control/register_case.php` | High
+14 | File | `/core/conditions/AbstractWrapper.java` | High
+15 | File | `/core/tools/update_menu.php` | High
+16 | File | `/dayrui/My/Config/Install.txt` | High
+17 | File | `/DesignTools/CssEditor.aspx` | High
+18 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
+19 | File | `/DXR.axd` | Medium
+20 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+21 | File | `/endpoint/add-user.php` | High
+22 | File | `/forum/away.php` | High
+23 | File | `/forums/editforum.php` | High
+24 | File | `/goform/` | Medium
+25 | File | `/h/autoSaveDraft` | High
+26 | File | `/home/courses` | High
+27 | File | `/index.php?app=main&func=passport&action=login` | High
+28 | File | `/index.php?menu=asterisk_cli` | High
+29 | File | `/install/` | Medium
+30 | File | `/ipms/imageConvert/image` | High
+31 | File | `/mfsNotice/page` | High
+32 | File | `/modals/class_form.php` | High
+33 | File | `/ndmComponents.js` | High
+34 | File | `/newvehicle.php` | High
+35 | File | `/novel/bookSetting/list` | High
+36 | File | `/novel/userFeedback/list` | High
+37 | ... | ... | ...
 
-There are 302 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 314 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -132,6 +135,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://tria.ge/230908-y775ksfb85/behavioral2
 * https://tria.ge/240212-x7hz1sbb5x
 * https://twitter.com/ScumBots/status/1633119068986257413
+* https://www.esentire.com/blog/dont-take-the-bait-the-xworm-tax-scam
 * https://www.joesandbox.com/analysis/1321945/0/html
 
 ## Literature

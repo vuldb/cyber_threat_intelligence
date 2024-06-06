@@ -21,12 +21,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [27.124.47.147](https://vuldb.com/?ip.27.124.47.147) | - | - | High
-2 | [45.77.250.196](https://vuldb.com/?ip.45.77.250.196) | 45.77.250.196.vultrusercontent.com | - | High
-3 | [47.115.230.18](https://vuldb.com/?ip.47.115.230.18) | - | - | High
+1 | [8.134.126.121](https://vuldb.com/?ip.8.134.126.121) | - | - | High
+2 | [27.124.47.147](https://vuldb.com/?ip.27.124.47.147) | - | - | High
+3 | [45.77.250.196](https://vuldb.com/?ip.45.77.250.196) | 45.77.250.196.vultrusercontent.com | - | High
 4 | ... | ... | ... | ...
 
-There are 8 more IOC items available. Please use our online service to access the data.
+There are 9 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -58,6 +58,7 @@ There are 12 more IOA items available (file, library, argument, input value, pat
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://tracker.viriback.com/index.php?q=8.134.126.121
 * https://tracker.viriback.com/index.php?q=27.124.47.147
 * https://tracker.viriback.com/index.php?q=45.77.250.196
 * https://tracker.viriback.com/index.php?q=47.115.230.18

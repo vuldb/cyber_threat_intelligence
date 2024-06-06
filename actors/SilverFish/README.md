@@ -74,34 +74,35 @@ ID | Type | Indicator | Confidence
 11 | File | `/collection/all` | High
 12 | File | `/conf/` | Low
 13 | File | `/cupseasylive/statemodify.php` | High
-14 | File | `/dev/snd/seq` | Medium
-15 | File | `/etc/passwd` | Medium
-16 | File | `/goform/saveParentControlInfo` | High
-17 | File | `/goform/SetFirewallCfg` | High
-18 | File | `/goform/SysToolChangePwd` | High
-19 | File | `/nidp/app/login` | High
-20 | File | `/php/ping.php` | High
-21 | File | `/pms/admin/crimes/manage_crime.php` | High
-22 | File | `/proc` | Low
-23 | File | `/release-x64/otfccdump` | High
-24 | File | `/sbin/conf.d/SuSEconfig.javarunt` | High
-25 | File | `/scripts/unlock_tasks.php` | High
-26 | File | `/see_more_details.php` | High
-27 | File | `/sitecore/shell/Invoke.aspx` | High
-28 | File | `/SysInfo1.htm` | High
-29 | File | `/sysinfo_json.cgi` | High
-30 | File | `/system/user/modules/mod_users/controller.php` | High
-31 | File | `/tmp` | Low
-32 | File | `/uncpath/` | Medium
-33 | File | `/usr/lib/utmp_update` | High
-34 | File | `/usr/local` | Medium
-35 | File | `/wp-admin` | Medium
-36 | File | `2020\Messages\SDNotify.exe` | High
-37 | File | `adclick.php` | Medium
-38 | File | `admin/plugin-index.php` | High
-39 | ... | ... | ...
+14 | File | `/dashboard/add-service.php` | High
+15 | File | `/dev/snd/seq` | Medium
+16 | File | `/etc/passwd` | Medium
+17 | File | `/etc/shadow.sample` | High
+18 | File | `/goform/saveParentControlInfo` | High
+19 | File | `/goform/SetFirewallCfg` | High
+20 | File | `/goform/SysToolChangePwd` | High
+21 | File | `/nidp/app/login` | High
+22 | File | `/php/ping.php` | High
+23 | File | `/pms/admin/crimes/manage_crime.php` | High
+24 | File | `/proc` | Low
+25 | File | `/release-x64/otfccdump` | High
+26 | File | `/sbin/conf.d/SuSEconfig.javarunt` | High
+27 | File | `/scripts/unlock_tasks.php` | High
+28 | File | `/see_more_details.php` | High
+29 | File | `/sitecore/shell/Invoke.aspx` | High
+30 | File | `/SysInfo1.htm` | High
+31 | File | `/sysinfo_json.cgi` | High
+32 | File | `/system/user/modules/mod_users/controller.php` | High
+33 | File | `/tmp` | Low
+34 | File | `/uncpath/` | Medium
+35 | File | `/usr/lib/utmp_update` | High
+36 | File | `/usr/local` | Medium
+37 | File | `/wp-admin` | Medium
+38 | File | `2020\Messages\SDNotify.exe` | High
+39 | File | `adclick.php` | Medium
+40 | ... | ... | ...
 
-There are 334 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 349 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

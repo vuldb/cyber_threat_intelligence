@@ -88,16 +88,16 @@ ID | Type | Indicator | Confidence
 24 | File | `/orms/` | Low
 25 | File | `/plesk-site-preview/` | High
 26 | File | `/project/PROJECTNAME/reports/` | High
-27 | File | `/public/login.htm` | High
-28 | File | `/school/model/get_admin_profile.php` | High
-29 | File | `/show_news.php` | High
-30 | File | `/student-grading-system/rms.php?page=grade` | High
-31 | File | `/style/` | Low
-32 | File | `/timeline2.php` | High
-33 | File | `/uncpath/` | Medium
+27 | File | `/protocol/iscuser/uploadiscuser.php` | High
+28 | File | `/public/login.htm` | High
+29 | File | `/school/model/get_admin_profile.php` | High
+30 | File | `/show_news.php` | High
+31 | File | `/student-grading-system/rms.php?page=grade` | High
+32 | File | `/style/` | Low
+33 | File | `/timeline2.php` | High
 34 | ... | ... | ...
 
-There are 291 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 295 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

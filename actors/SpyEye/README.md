@@ -64,33 +64,34 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/maintenance/view_designation.php` | High
-2 | File | `/api/baskets/{name}` | High
-3 | File | `/forgetpassword.php` | High
-4 | File | `/forum/away.php` | High
-5 | File | `/modules/registration_admission/patient_register.php` | High
-6 | File | `/spip.php` | Medium
-7 | File | `/Tools/tools_admin.htm` | High
-8 | File | `/uncpath/` | Medium
-9 | File | `AccountManager.java` | High
-10 | File | `adclick.php` | Medium
-11 | File | `addentry.php` | Medium
-12 | File | `adm/krgourl.php` | High
-13 | File | `admin.php` | Medium
-14 | File | `admin/conf_users_edit.php` | High
-15 | File | `admin/index.php` | High
-16 | File | `administers` | Medium
-17 | File | `application\User\Controller\ProfileController.class.php` | High
-18 | File | `banner-edit.php` | High
-19 | File | `btif_hd.cc` | Medium
-20 | File | `catchsegv` | Medium
-21 | File | `category.cfm` | Medium
-22 | File | `cgi-bin/awstats.pl` | High
-23 | File | `classes/SystemSettings.php` | High
-24 | File | `classified.php` | High
-25 | ... | ... | ...
+1 | File | `/admin/admin-profile.php` | High
+2 | File | `/admin/maintenance/view_designation.php` | High
+3 | File | `/api/baskets/{name}` | High
+4 | File | `/forgetpassword.php` | High
+5 | File | `/forum/away.php` | High
+6 | File | `/modules/registration_admission/patient_register.php` | High
+7 | File | `/ndmComponents.js` | High
+8 | File | `/spip.php` | Medium
+9 | File | `/Tools/tools_admin.htm` | High
+10 | File | `/uncpath/` | Medium
+11 | File | `AccountManager.java` | High
+12 | File | `adclick.php` | Medium
+13 | File | `addentry.php` | Medium
+14 | File | `adm/krgourl.php` | High
+15 | File | `admin.php` | Medium
+16 | File | `admin/conf_users_edit.php` | High
+17 | File | `admin/index.php` | High
+18 | File | `administers` | Medium
+19 | File | `application\User\Controller\ProfileController.class.php` | High
+20 | File | `banner-edit.php` | High
+21 | File | `btif_hd.cc` | Medium
+22 | File | `catchsegv` | Medium
+23 | File | `category.cfm` | Medium
+24 | File | `cgi-bin/awstats.pl` | High
+25 | File | `classes/SystemSettings.php` | High
+26 | ... | ... | ...
 
-There are 211 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 218 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

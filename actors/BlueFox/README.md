@@ -47,22 +47,23 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/forum/away.php` | High
-2 | File | `/importexport.php` | High
-3 | File | `/index.php` | Medium
-4 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-5 | File | `adclick.php` | Medium
-6 | File | `addtocart.asp` | High
-7 | File | `admin/adm/test.php` | High
-8 | File | `agora.cgi` | Medium
-9 | File | `books.php` | Medium
-10 | File | `cat.asp` | Low
-11 | File | `catalog.php` | Medium
-12 | File | `categories.php` | High
-13 | File | `config.php` | Medium
-14 | ... | ... | ...
+1 | File | `/Employee/changepassword.php` | High
+2 | File | `/forum/away.php` | High
+3 | File | `/importexport.php` | High
+4 | File | `/index.php` | Medium
+5 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+6 | File | `/version.js` | Medium
+7 | File | `/view/dhcp/dhcpConfig/dhcp_relay_commit.php` | High
+8 | File | `adclick.php` | Medium
+9 | File | `addtocart.asp` | High
+10 | File | `admin/adm/test.php` | High
+11 | File | `agora.cgi` | Medium
+12 | File | `books.php` | Medium
+13 | File | `cat.asp` | Low
+14 | File | `catalog.php` | Medium
+15 | ... | ... | ...
 
-There are 108 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 115 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

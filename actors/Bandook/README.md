@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 20 more country items available. Please use our online service to access the data.
+There are 21 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -43,7 +43,7 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+5 | T1068 | CWE-250, CWE-264, CWE-266, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
 There are 19 more TTP items available. Please use our online service to access the data.
@@ -63,36 +63,38 @@ ID | Type | Indicator | Confidence
 7 | File | `/cgi-bin/cstecgi.cgi` | High
 8 | File | `/cgi-bin/editBookmark` | High
 9 | File | `/cgi-bin/kerbynet` | High
-10 | File | `/cgi-bin/supervisor/CloudSetup.cgi` | High
-11 | File | `/cgi-bin/wlogin.cgi` | High
-12 | File | `/cimom` | Low
-13 | File | `/debug/pprof` | Medium
-14 | File | `/domain/add` | Medium
-15 | File | `/etc/pki/pesign` | High
-16 | File | `/etc/sudoers` | Medium
-17 | File | `/goform/addressNat` | High
-18 | File | `/goform/aspForm` | High
-19 | File | `/group1/uploa` | High
-20 | File | `/Home/GetAttachment` | High
-21 | File | `/include/menu_v.inc.php` | High
-22 | File | `/index.php/weblinks-categories` | High
-23 | File | `/librarian/lab.php` | High
-24 | File | `/main?cmd=invalid_browser` | High
-25 | File | `/me` | Low
-26 | File | `/modules/projects/vw_files.php` | High
-27 | File | `/omos/admin/?page=user/list` | High
-28 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-29 | File | `/out.php` | Medium
-30 | File | `/panel/fields/add` | High
-31 | File | `/patient/settings.php` | High
-32 | File | `/plain` | Low
-33 | File | `/proc/*/cmdline"` | High
-34 | File | `/proc/pid/syscall` | High
-35 | File | `/sbin/acos_service` | High
-36 | File | `/search` | Low
-37 | ... | ... | ...
+10 | File | `/cgi-bin/nas_sharing.cgi` | High
+11 | File | `/cgi-bin/supervisor/CloudSetup.cgi` | High
+12 | File | `/cgi-bin/wlogin.cgi` | High
+13 | File | `/cimom` | Low
+14 | File | `/debug/pprof` | Medium
+15 | File | `/domain/add` | Medium
+16 | File | `/etc/pki/pesign` | High
+17 | File | `/etc/sudoers` | Medium
+18 | File | `/goform/addressNat` | High
+19 | File | `/goform/aspForm` | High
+20 | File | `/group1/uploa` | High
+21 | File | `/Home/GetAttachment` | High
+22 | File | `/include/menu_v.inc.php` | High
+23 | File | `/index.php/weblinks-categories` | High
+24 | File | `/librarian/lab.php` | High
+25 | File | `/login/` | Low
+26 | File | `/main?cmd=invalid_browser` | High
+27 | File | `/me` | Low
+28 | File | `/modules/projects/vw_files.php` | High
+29 | File | `/omos/admin/?page=user/list` | High
+30 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+31 | File | `/out.php` | Medium
+32 | File | `/panel/fields/add` | High
+33 | File | `/patient/settings.php` | High
+34 | File | `/plain` | Low
+35 | File | `/proc/*/cmdline"` | High
+36 | File | `/proc/pid/syscall` | High
+37 | File | `/sbin/acos_service` | High
+38 | File | `/search` | Low
+39 | ... | ... | ...
 
-There are 321 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 332 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Dridex:
 
-* [CN](https://vuldb.com/?country.cn)
-* [US](https://vuldb.com/?country.us)
+* [PL](https://vuldb.com/?country.pl)
 * [RU](https://vuldb.com/?country.ru)
+* [AR](https://vuldb.com/?country.ar)
 * ...
 
-There are 13 more country items available. Please use our online service to access the data.
+There are 8 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -222,14 +222,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-425 | Path Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+1 | T1006 | CWE-22 | Path Traversal | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-94 | Argument Injection | High
+4 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 11 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -237,47 +235,17 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `//proc/kcore` | Medium
-2 | File | `/admin/action/delete-vaccine.php` | High
-3 | File | `/admin/controller/JobLogController.java` | High
-4 | File | `/admin/index2.html` | High
-5 | File | `/api/sys/login` | High
-6 | File | `/api/sys/set_passwd` | High
-7 | File | `/api/trackedEntityInstances` | High
-8 | File | `/app/index/controller/Common.php` | High
-9 | File | `/application/index/controller/Service.php` | High
-10 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
-11 | File | `/aux` | Low
-12 | File | `/bitrix/admin/ldap_server_edit.php` | High
-13 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-14 | File | `/changePassword` | High
-15 | File | `/dashboard/add-blog.php` | High
-16 | File | `/data/remove` | Medium
-17 | File | `/debug/pprof` | Medium
-18 | File | `/ecshop/admin/template.php` | High
-19 | File | `/etc/passwd` | Medium
-20 | File | `/forms/doLogin` | High
-21 | File | `/forum/away.php` | High
-22 | File | `/goform/net\_Web\_get_value` | High
-23 | File | `/index.php` | Medium
-24 | File | `/listplace/user/ticket/create` | High
-25 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
-26 | File | `/mhds/clinic/view_details.php` | High
-27 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-28 | File | `/novel/author/list` | High
-29 | File | `/php/ping.php` | High
-30 | File | `/rest/api/latest/projectvalidate/key` | High
-31 | File | `/src/dede/vote_edit.php` | High
-32 | File | `/SysInfo1.htm` | High
-33 | File | `/sysinfo_json.cgi` | High
-34 | File | `/SysManage/AddUpdateRole.aspx` | High
-35 | File | `/sysmanage/importconf.php` | High
-36 | File | `/system/user/modules/mod_users/controller.php` | High
-37 | File | `/testConnection` | High
-38 | File | `/tmp/ppd.trace` | High
-39 | ... | ... | ...
+1 | File | `/catalog/all-products` | High
+2 | File | `/changePassword` | High
+3 | File | `/goform/addIpMacBind` | High
+4 | File | `/goform/DelDhcpRule` | High
+5 | File | `/goform/delIpMacBind` | High
+6 | File | `/goform/DelPortMapping` | High
+7 | File | `/goform/modifyDhcpRule` | High
+8 | File | `/goform/modifyIpMacBind` | High
+9 | ... | ... | ...
 
-There are 338 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 65 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

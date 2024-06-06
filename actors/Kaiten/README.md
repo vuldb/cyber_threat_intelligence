@@ -4,19 +4,27 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.kaiten](https://vuldb.com/?actor.kaiten)
 
+## Countries
+
+These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Kaiten:
+
+* [BG](https://vuldb.com/?country.bg)
+
 ## IOC - Indicator of Compromise
 
 These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of Kaiten.
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [222.175.244.226](https://vuldb.com/?ip.222.175.244.226) | - | - | High
+1 | [94.156.8.116](https://vuldb.com/?ip.94.156.8.116) | - | - | High
+2 | [222.175.244.226](https://vuldb.com/?ip.222.175.244.226) | - | - | High
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://bazaar.abuse.ch/sample/6de97f85f699d9b5cad1f236985f0d03439b01c82d364de4fa00b5ebbf5222a1/
+* https://twitter.com/redrabytes/status/1774918859339808843
 
 ## Literature
 

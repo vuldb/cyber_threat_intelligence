@@ -41,7 +41,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -53,55 +53,54 @@ ID | Type | Indicator | Confidence
 2 | File | `/#ilang=DE&b=c_smartenergy_swgroups` | High
 3 | File | `/Account/login.php` | High
 4 | File | `/admin/` | Low
-5 | File | `/admin/manage_academic.php` | High
-6 | File | `/admin/save.php` | High
-7 | File | `/adminapi/system/crud` | High
-8 | File | `/adminapi/system/file/openfile` | High
-9 | File | `/admin_route/dec_service_credits.php` | High
-10 | File | `/api/download` | High
-11 | File | `/api/v1/alerts` | High
-12 | File | `/api/v1/terminal/sessions/?limit=1` | High
-13 | File | `/api/v4/teams//channels/deleted` | High
-14 | File | `/b2b-supermarket/shopping-cart` | High
-15 | File | `/cancel.php` | Medium
-16 | File | `/category.php` | High
-17 | File | `/categorypage.php` | High
-18 | File | `/cgi-bin/cstecgi.cgi` | High
-19 | File | `/cgi-bin/luci/api/wireless` | High
-20 | File | `/cgi-bin/vitogate.cgi` | High
-21 | File | `/change-language/de_DE` | High
-22 | File | `/Content/Template/root/reverse-shell.aspx` | High
-23 | File | `/debug/pprof` | Medium
-24 | File | `/devinfo` | Medium
-25 | File | `/dist/index.js` | High
-26 | File | `/fcgi/scrut_fcgi.fcgi` | High
-27 | File | `/forum/away.php` | High
-28 | File | `/geoserver/gwc/rest.html` | High
-29 | File | `/goform/formSysCmd` | High
-30 | File | `/HNAP1` | Low
-31 | File | `/hosts/firewall/ip` | High
-32 | File | `/index.jsp#settings` | High
-33 | File | `/index.php/ccm/system/file/upload` | High
-34 | File | `/jeecg-boot/sys/common/upload` | High
-35 | File | `/log/decodmail.php` | High
-36 | File | `/oauth/idp/.well-known/openid-configuration` | High
-37 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
-38 | File | `/php/ping.php` | High
-39 | File | `/proxy` | Low
-40 | File | `/RPS2019Service/status.html` | High
-41 | File | `/s/index.php?action=statistics` | High
-42 | File | `/setting` | Medium
-43 | File | `/Setting/change_password_save` | High
-44 | File | `/sicweb-ajax/tmproot/` | High
-45 | File | `/signup.php` | Medium
-46 | File | `/spip.php` | Medium
-47 | File | `/student/bookdetails.php` | High
-48 | File | `/st_reg.php` | Medium
-49 | File | `/subsys/net/l2/wifi/wifi_shell.c` | High
-50 | File | `/supplier.php` | High
-51 | ... | ... | ...
+5 | File | `/Admin/changepassword.php` | High
+6 | File | `/admin/general-setting` | High
+7 | File | `/admin/manage_academic.php` | High
+8 | File | `/admin/save.php` | High
+9 | File | `/admin/service` | High
+10 | File | `/adminapi/system/crud` | High
+11 | File | `/adminapi/system/file/openfile` | High
+12 | File | `/admin_route/dec_service_credits.php` | High
+13 | File | `/api/download` | High
+14 | File | `/api/v1/alerts` | High
+15 | File | `/api/v1/terminal/sessions/?limit=1` | High
+16 | File | `/api/v4/teams//channels/deleted` | High
+17 | File | `/api/wechat/app_auth` | High
+18 | File | `/b2b-supermarket/shopping-cart` | High
+19 | File | `/cancel.php` | Medium
+20 | File | `/category.php` | High
+21 | File | `/categorypage.php` | High
+22 | File | `/cgi-bin/cstecgi.cgi` | High
+23 | File | `/cgi-bin/vitogate.cgi` | High
+24 | File | `/change-language/de_DE` | High
+25 | File | `/control/register_case.php` | High
+26 | File | `/debug/pprof` | Medium
+27 | File | `/devinfo` | Medium
+28 | File | `/dist/index.js` | High
+29 | File | `/download` | Medium
+30 | File | `/fcgi/scrut_fcgi.fcgi` | High
+31 | File | `/forum/away.php` | High
+32 | File | `/geoserver/gwc/rest.html` | High
+33 | File | `/goform/formSysCmd` | High
+34 | File | `/HNAP1` | Low
+35 | File | `/hosts/firewall/ip` | High
+36 | File | `/index.jsp#settings` | High
+37 | File | `/index.php` | Medium
+38 | File | `/index.php/ccm/system/file/upload` | High
+39 | File | `/log/decodmail.php` | High
+40 | File | `/ndmComponents.js` | High
+41 | File | `/oauth/idp/.well-known/openid-configuration` | High
+42 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
+43 | File | `/one_church/churchprofile.php` | High
+44 | File | `/php/ping.php` | High
+45 | File | `/proxy` | Low
+46 | File | `/register.php` | High
+47 | File | `/RPS2019Service/status.html` | High
+48 | File | `/s/index.php?action=statistics` | High
+49 | File | `/setting` | Medium
+50 | ... | ... | ...
 
-There are 441 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 433 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Azorult:
 
-* [CN](https://vuldb.com/?country.cn)
-* [US](https://vuldb.com/?country.us)
-* [LA](https://vuldb.com/?country.la)
+* [PL](https://vuldb.com/?country.pl)
+* [RU](https://vuldb.com/?country.ru)
+* [FR](https://vuldb.com/?country.fr)
 * ...
 
-There are 16 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -101,27 +101,27 @@ ID | IP address | Hostname | Actor | Confidence
 65 | [45.76.18.39](https://vuldb.com/?ip.45.76.18.39) | 45.76.18.39.vultrusercontent.com | [Azorult](https://vuldb.com/?actor.azorult) | High
 66 | [45.80.149.68](https://vuldb.com/?ip.45.80.149.68) | - | [Azorult](https://vuldb.com/?actor.azorult) | High
 67 | [45.81.226.17](https://vuldb.com/?ip.45.81.226.17) | vm4511296.34ssd.had.wf | [Azorult](https://vuldb.com/?actor.azorult) | High
-68 | [45.95.147.64](https://vuldb.com/?ip.45.95.147.64) | - | [Azorult](https://vuldb.com/?actor.azorult) | High
-69 | [45.95.168.162](https://vuldb.com/?ip.45.95.168.162) | server2.allianttgroup.com | [Azorult](https://vuldb.com/?actor.azorult) | High
-70 | [45.137.22.58](https://vuldb.com/?ip.45.137.22.58) | hosted-by.rootlayer.net | [Azorult](https://vuldb.com/?actor.azorult) | High
-71 | [45.139.236.14](https://vuldb.com/?ip.45.139.236.14) | - | [Azorult](https://vuldb.com/?actor.azorult) | High
-72 | [45.140.146.18](https://vuldb.com/?ip.45.140.146.18) | node.28 | [Azorult](https://vuldb.com/?actor.azorult) | High
-73 | [45.140.147.214](https://vuldb.com/?ip.45.140.147.214) | vm1329418.stark-industries.solutions | [Azorult](https://vuldb.com/?actor.azorult) | High
-74 | [45.145.185.26](https://vuldb.com/?ip.45.145.185.26) | - | [Azorult](https://vuldb.com/?actor.azorult) | High
-75 | [45.145.185.73](https://vuldb.com/?ip.45.145.185.73) | - | [Azorult](https://vuldb.com/?actor.azorult) | High
-76 | [45.145.185.111](https://vuldb.com/?ip.45.145.185.111) | - | [Azorult](https://vuldb.com/?actor.azorult) | High
-77 | [45.145.185.253](https://vuldb.com/?ip.45.145.185.253) | - | [Azorult](https://vuldb.com/?actor.azorult) | High
-78 | [45.147.228.74](https://vuldb.com/?ip.45.147.228.74) | - | [Azorult](https://vuldb.com/?actor.azorult) | High
-79 | [45.147.230.200](https://vuldb.com/?ip.45.147.230.200) | - | [Azorult](https://vuldb.com/?actor.azorult) | High
-80 | [45.153.203.81](https://vuldb.com/?ip.45.153.203.81) | - | [Azorult](https://vuldb.com/?actor.azorult) | High
-81 | [45.156.22.167](https://vuldb.com/?ip.45.156.22.167) | - | [Azorult](https://vuldb.com/?actor.azorult) | High
-82 | [46.17.43.102](https://vuldb.com/?ip.46.17.43.102) | - | [Azorult](https://vuldb.com/?actor.azorult) | High
-83 | [46.183.220.70](https://vuldb.com/?ip.46.183.220.70) | - | [Azorult](https://vuldb.com/?actor.azorult) | High
-84 | [46.183.221.76](https://vuldb.com/?ip.46.183.221.76) | ip-221-76.dataclub.info | [Azorult](https://vuldb.com/?actor.azorult) | High
-85 | [46.183.222.66](https://vuldb.com/?ip.46.183.222.66) | ip-222-66.dataclub.info | [Azorult](https://vuldb.com/?actor.azorult) | High
+68 | [45.90.58.1](https://vuldb.com/?ip.45.90.58.1) | vds1271478.hosted-by-itldc.com | [Azorult](https://vuldb.com/?actor.azorult) | High
+69 | [45.95.147.64](https://vuldb.com/?ip.45.95.147.64) | - | [Azorult](https://vuldb.com/?actor.azorult) | High
+70 | [45.95.168.162](https://vuldb.com/?ip.45.95.168.162) | server2.allianttgroup.com | [Azorult](https://vuldb.com/?actor.azorult) | High
+71 | [45.137.22.58](https://vuldb.com/?ip.45.137.22.58) | hosted-by.rootlayer.net | [Azorult](https://vuldb.com/?actor.azorult) | High
+72 | [45.139.236.14](https://vuldb.com/?ip.45.139.236.14) | - | [Azorult](https://vuldb.com/?actor.azorult) | High
+73 | [45.140.146.18](https://vuldb.com/?ip.45.140.146.18) | node.28 | [Azorult](https://vuldb.com/?actor.azorult) | High
+74 | [45.140.147.214](https://vuldb.com/?ip.45.140.147.214) | vm1329418.stark-industries.solutions | [Azorult](https://vuldb.com/?actor.azorult) | High
+75 | [45.145.185.26](https://vuldb.com/?ip.45.145.185.26) | - | [Azorult](https://vuldb.com/?actor.azorult) | High
+76 | [45.145.185.73](https://vuldb.com/?ip.45.145.185.73) | - | [Azorult](https://vuldb.com/?actor.azorult) | High
+77 | [45.145.185.111](https://vuldb.com/?ip.45.145.185.111) | - | [Azorult](https://vuldb.com/?actor.azorult) | High
+78 | [45.145.185.253](https://vuldb.com/?ip.45.145.185.253) | - | [Azorult](https://vuldb.com/?actor.azorult) | High
+79 | [45.147.228.74](https://vuldb.com/?ip.45.147.228.74) | - | [Azorult](https://vuldb.com/?actor.azorult) | High
+80 | [45.147.230.200](https://vuldb.com/?ip.45.147.230.200) | - | [Azorult](https://vuldb.com/?actor.azorult) | High
+81 | [45.153.203.81](https://vuldb.com/?ip.45.153.203.81) | - | [Azorult](https://vuldb.com/?actor.azorult) | High
+82 | [45.156.22.167](https://vuldb.com/?ip.45.156.22.167) | - | [Azorult](https://vuldb.com/?actor.azorult) | High
+83 | [46.17.43.102](https://vuldb.com/?ip.46.17.43.102) | - | [Azorult](https://vuldb.com/?actor.azorult) | High
+84 | [46.183.220.70](https://vuldb.com/?ip.46.183.220.70) | - | [Azorult](https://vuldb.com/?actor.azorult) | High
+85 | [46.183.221.76](https://vuldb.com/?ip.46.183.221.76) | ip-221-76.dataclub.info | [Azorult](https://vuldb.com/?actor.azorult) | High
 86 | ... | ... | ... | ...
 
-There are 340 more IOC items available. Please use our online service to access the data.
+There are 342 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -129,14 +129,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-94 | Argument Injection | High
+4 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 13 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -144,58 +142,20 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/.env` | Low
-2 | File | `/admin/action/new-father.php` | High
-3 | File | `/admin/app/service_crud.php` | High
-4 | File | `/admin/controller/JobLogController.java` | High
-5 | File | `/admin/edit-admin.php` | High
-6 | File | `/Admin/login.php` | High
-7 | File | `/admin/manage-users.php` | High
-8 | File | `/api/baskets/{name}` | High
-9 | File | `/api/sys/login` | High
-10 | File | `/api/sys/set_passwd` | High
-11 | File | `/api/trackedEntityInstances` | High
-12 | File | `/api/v4/teams//channels/deleted` | High
-13 | File | `/app/admin/controller/Upload.php` | High
-14 | File | `/app/ajax/search_sales_report.php` | High
-15 | File | `/app/controller/Setup.php` | High
-16 | File | `/app/middleware/TokenVerify.php` | High
-17 | File | `/appliance/users?action=edit` | High
-18 | File | `/application/index/controller/Screen.php` | High
-19 | File | `/application/websocket/controller/Setting.php` | High
-20 | File | `/aux` | Low
-21 | File | `/bin/boa` | Medium
-22 | File | `/boafrm/formMapDelDevice` | High
-23 | File | `/cgi-bin/cstecgi.cgi` | High
-24 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-25 | File | `/changePassword` | High
-26 | File | `/collection/all` | High
-27 | File | `/data/remove` | Medium
-28 | File | `/debug/pprof` | Medium
-29 | File | `/ecshop/admin/template.php` | High
-30 | File | `/Employer/ManageWalkin.php` | High
-31 | File | `/endpoint/add-faq.php` | High
-32 | File | `/endpoint/delete-computer.php` | High
-33 | File | `/endpoint/update-resident.php` | High
-34 | File | `/endpoint/update-tracker.php` | High
-35 | File | `/etc/passwd` | Medium
-36 | File | `/forum/away.php` | High
-37 | File | `/goform/net\_Web\_get_value` | High
-38 | File | `/hedwig.cgi` | Medium
-39 | File | `/HNAP1/` | Low
-40 | File | `/importexport.php` | High
-41 | File | `/index.php` | Medium
-42 | File | `/mhds/clinic/view_details.php` | High
-43 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-44 | File | `/novel/bookSetting/list` | High
-45 | File | `/novel/userFeedback/list` | High
-46 | File | `/rest/api/latest/projectvalidate/key` | High
-47 | File | `/showfile.php` | High
-48 | File | `/student/bookdetails.php` | High
-49 | File | `/testConnection` | High
-50 | ... | ... | ...
+1 | File | `/catalog/all-products` | High
+2 | File | `/changePassword` | High
+3 | File | `/forum/away.php` | High
+4 | File | `/goform/addIpMacBind` | High
+5 | File | `/goform/DelDhcpRule` | High
+6 | File | `/goform/delIpMacBind` | High
+7 | File | `/goform/DelPortMapping` | High
+8 | File | `/goform/modifyDhcpRule` | High
+9 | File | `/goform/modifyIpMacBind` | High
+10 | File | `/goform/setBlackRule` | High
+11 | File | `/goform/SetDDNSCfg` | High
+12 | ... | ... | ...
 
-There are 436 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 96 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -210,12 +170,14 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://blog.talosintelligence.com/threat-roundup-0630-0707-2/
 * https://blogs.blackberry.com/en/2020/01/threat-spotlight-amadey-bot
 * https://cert.gov.ua/article/2806
+* https://cyble.com/blog/sneaky-azorult-back-in-action-and-goes-undetected/
 * https://isc.sans.edu/forums/diary/More+malspam+pushing+passwordprotected+Word+docs+for+AZORult+and+Hermes+Ransomware/23992/
 * https://research.checkpoint.com/2018/new-ramnit-campaign-spreads-azorult-malware/
 * https://threatfox.abuse.ch
 * https://tracker.viriback.com/index.php?q=198.98.54.161
 * https://tria.ge/220314-ymactadghk
 * https://tria.ge/220602-c7n6tagcgn
+* https://www.rewterz.com/rewterz-news/rewterz-threat-alert-forged-google-sites-being-used-by-threat-actors-to-deliver-azorult-malware-active-iocs
 * https://www.zscaler.com/blogs/research/multistage-freedom-loader-used-spread-azorult-and-nanocore-rat
 
 ## Literature

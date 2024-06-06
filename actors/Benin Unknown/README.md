@@ -49,7 +49,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
-2 | T1055 | CWE-74 | Injection | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
@@ -77,37 +77,39 @@ ID | Type | Indicator | Confidence
 13 | File | `/admin/show.php` | High
 14 | File | `/advanced-tools/nova/bin/netwatch` | High
 15 | File | `/api/baskets/{name}` | High
-16 | File | `/boat/login.php` | High
-17 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-18 | File | `/clinic/disease_symptoms_view.php` | High
-19 | File | `/default.php?idx=17` | High
-20 | File | `/device/device=345/?tab=ports` | High
-21 | File | `/download` | Medium
-22 | File | `/env` | Low
-23 | File | `/forum/away.php` | High
-24 | File | `/index.php` | Medium
-25 | File | `/opt/bin/cli` | Medium
-26 | File | `/p` | Low
-27 | File | `/patient/doctors.php` | High
-28 | File | `/phpinventory/editcategory.php` | High
-29 | File | `/preview.php` | Medium
-30 | File | `/product-list.php` | High
-31 | File | `/proxy/` | Low
-32 | File | `/spip.php` | Medium
-33 | File | `/uncpath/` | Medium
-34 | File | `/updown/upload.cgi` | High
-35 | File | `/user/del.php` | High
-36 | File | `/wp-admin/admin-ajax.php` | High
-37 | File | `/_next` | Low
-38 | File | `123flashchat.php` | High
-39 | File | `act.php` | Low
-40 | File | `admin.php/pay` | High
-41 | File | `admin/admin_menu.php` | High
-42 | File | `admin/bad.php` | High
-43 | File | `admin/index.php` | High
-44 | ... | ... | ...
+16 | File | `/backend/register.php` | High
+17 | File | `/boat/login.php` | High
+18 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
+19 | File | `/clinic/disease_symptoms_view.php` | High
+20 | File | `/default.php?idx=17` | High
+21 | File | `/device/device=345/?tab=ports` | High
+22 | File | `/doctor/view-appointment-detail.php` | High
+23 | File | `/download` | Medium
+24 | File | `/edit-client-details.php` | High
+25 | File | `/env` | Low
+26 | File | `/forum/away.php` | High
+27 | File | `/index.php` | Medium
+28 | File | `/opt/bin/cli` | Medium
+29 | File | `/p` | Low
+30 | File | `/patient/doctors.php` | High
+31 | File | `/phpinventory/editcategory.php` | High
+32 | File | `/preview.php` | Medium
+33 | File | `/product-list.php` | High
+34 | File | `/proxy/` | Low
+35 | File | `/spip.php` | Medium
+36 | File | `/uncpath/` | Medium
+37 | File | `/updown/upload.cgi` | High
+38 | File | `/user/del.php` | High
+39 | File | `/wp-admin/admin-ajax.php` | High
+40 | File | `/_next` | Low
+41 | File | `123flashchat.php` | High
+42 | File | `act.php` | Low
+43 | File | `admin.php/pay` | High
+44 | File | `admin/admin_menu.php` | High
+45 | File | `admin/bad.php` | High
+46 | ... | ... | ...
 
-There are 383 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 396 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

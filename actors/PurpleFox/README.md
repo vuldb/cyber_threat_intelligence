@@ -19,11 +19,11 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [61.222.155.49](https://vuldb.com/?ip.61.222.155.49) | 61-222-155-49.hinet-ip.hinet.net | - | High
-2 | [103.94.108.114](https://vuldb.com/?ip.103.94.108.114) | - | - | High
-3 | [107.151.94.67](https://vuldb.com/?ip.107.151.94.67) | - | - | High
+2 | [64.227.152.193](https://vuldb.com/?ip.64.227.152.193) | - | - | High
+3 | [103.94.108.114](https://vuldb.com/?ip.103.94.108.114) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 11 more IOC items available. Please use our online service to access the data.
+There are 12 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -55,6 +55,7 @@ There are 9 more IOA items available (file, library, argument, input value, patt
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://asec.ahnlab.com/en/55492/
 * https://de.darktrace.com/blog/purplefox-in-a-henhouse-how-darktrace-hunted-down-a-persistent-and-dynamic-rootkit
 * https://threatfox.abuse.ch
 

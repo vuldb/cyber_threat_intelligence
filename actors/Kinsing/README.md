@@ -67,11 +67,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
-5 | ... | ... | ... | ...
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
 
@@ -85,35 +86,38 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin/dl_sendmail.php` | High
 3 | File | `/admin/index2.html` | High
 4 | File | `/admin/login.php` | High
-5 | File | `/api/baskets/{name}` | High
-6 | File | `/api/v2/cli/commands` | High
-7 | File | `/app/Http/Controllers/Admin/NEditorController.php` | High
-8 | File | `/DXR.axd` | Medium
-9 | File | `/forum/away.php` | High
-10 | File | `/inc/parser/xhtml.php` | High
-11 | File | `/include/makecvs.php` | High
-12 | File | `/mgmt/tm/util/bash` | High
-13 | File | `/mifs/c/i/reg/reg.html` | High
-14 | File | `/novel/bookSetting/list` | High
-15 | File | `/novel/userFeedback/list` | High
-16 | File | `/owa/auth/logon.aspx` | High
-17 | File | `/requests.php` | High
-18 | File | `/secure/ViewCollectors` | High
-19 | File | `/Session` | Medium
-20 | File | `/spip.php` | Medium
-21 | File | `/usr/bin/pkexec` | High
-22 | File | `/wp-admin/admin.php?page=wp_file_manager_properties` | High
-23 | File | `/xAdmin/html/cm_doclist_view_uc.jsp` | High
-24 | File | `/zm/index.php` | High
-25 | File | `adclick.php` | Medium
-26 | File | `add.php` | Low
-27 | File | `add_comment.php` | High
-28 | File | `admin.jcomments.php` | High
-29 | File | `admin/content.php` | High
-30 | File | `admin\model\catalog\download.php` | High
-31 | ... | ... | ...
+5 | File | `/adminPage/conf/reload` | High
+6 | File | `/api/baskets/{name}` | High
+7 | File | `/api/v2/cli/commands` | High
+8 | File | `/app/Http/Controllers/Admin/NEditorController.php` | High
+9 | File | `/application/index/controller/Databasesource.php` | High
+10 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
+11 | File | `/DXR.axd` | Medium
+12 | File | `/forum/away.php` | High
+13 | File | `/inc/parser/xhtml.php` | High
+14 | File | `/include/makecvs.php` | High
+15 | File | `/livesite/edit_designer_region.php` | High
+16 | File | `/mfsNotice/page` | High
+17 | File | `/mgmt/tm/util/bash` | High
+18 | File | `/mifs/c/i/reg/reg.html` | High
+19 | File | `/novel/bookSetting/list` | High
+20 | File | `/novel/userFeedback/list` | High
+21 | File | `/owa/auth/logon.aspx` | High
+22 | File | `/requests.php` | High
+23 | File | `/secure/ViewCollectors` | High
+24 | File | `/Session` | Medium
+25 | File | `/spip.php` | Medium
+26 | File | `/usr/bin/pkexec` | High
+27 | File | `/wp-admin/admin.php?page=wp_file_manager_properties` | High
+28 | File | `/xAdmin/html/cm_doclist_view_uc.jsp` | High
+29 | File | `/x_portal_assemble_surface/jaxrs/portal/list?v=8.2.3-4-43f4fe3` | High
+30 | File | `/zm/index.php` | High
+31 | File | `adclick.php` | Medium
+32 | File | `add.php` | Low
+33 | File | `add_comment.php` | High
+34 | ... | ... | ...
 
-There are 264 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 292 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

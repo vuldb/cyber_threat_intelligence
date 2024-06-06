@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Portugal Unknown:
 
-* [CN](https://vuldb.com/?country.cn)
-* [US](https://vuldb.com/?country.us)
-* [IL](https://vuldb.com/?country.il)
+* [PL](https://vuldb.com/?country.pl)
+* [RU](https://vuldb.com/?country.ru)
+* [FR](https://vuldb.com/?country.fr)
 * ...
 
-There are 17 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -422,9 +422,18 @@ ID | IP address | Hostname | Campaign | Confidence
 399 | [80.231.8.160](https://vuldb.com/?ip.80.231.8.160) | - | - | High
 400 | [80.231.8.192](https://vuldb.com/?ip.80.231.8.192) | - | - | High
 401 | [80.231.8.200](https://vuldb.com/?ip.80.231.8.200) | - | - | High
-402 | ... | ... | ... | ...
+402 | [80.231.8.208](https://vuldb.com/?ip.80.231.8.208) | - | - | High
+403 | [80.231.8.213](https://vuldb.com/?ip.80.231.8.213) | - | - | High
+404 | [80.231.8.214](https://vuldb.com/?ip.80.231.8.214) | - | - | High
+405 | [80.231.8.216](https://vuldb.com/?ip.80.231.8.216) | - | - | High
+406 | [80.231.8.224](https://vuldb.com/?ip.80.231.8.224) | - | - | High
+407 | [80.231.8.232](https://vuldb.com/?ip.80.231.8.232) | - | - | High
+408 | [80.231.8.236](https://vuldb.com/?ip.80.231.8.236) | - | - | High
+409 | [80.231.8.248](https://vuldb.com/?ip.80.231.8.248) | - | - | High
+410 | [80.231.10.0](https://vuldb.com/?ip.80.231.10.0) | - | - | High
+411 | ... | ... | ... | ...
 
-There are 1605 more IOC items available. Please use our online service to access the data.
+There are 1639 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -432,14 +441,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-25, CWE-36 | Path Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+1 | T1006 | CWE-22 | Path Traversal | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-94 | Argument Injection | High
+4 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 14 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -447,61 +454,23 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/#ilang=DE&b=c_smartenergy_swgroups` | High
-2 | File | `/Account/login.php` | High
-3 | File | `/admin/` | Low
-4 | File | `/admin/app/profile_crud.php` | High
-5 | File | `/admin/edit-admin.php` | High
-6 | File | `/admin/edit_categories.php` | High
-7 | File | `/admin/manage-users.php` | High
-8 | File | `/admin/pages/edit_chicken.php` | High
-9 | File | `/admin/pages/student-print.php` | High
-10 | File | `/admin/return_add.php` | High
-11 | File | `/admin/uploads/` | High
-12 | File | `/adminapi/system/crud` | High
-13 | File | `/adminapi/system/file/openfile` | High
-14 | File | `/admin_route/dec_service_credits.php` | High
-15 | File | `/admin_route/inc_service_credits.php` | High
-16 | File | `/api/controllers/admin/app/AppController.php` | High
-17 | File | `/api/controllers/common/UploadsController.php` | High
-18 | File | `/api/trackedEntityInstances` | High
-19 | File | `/api/v4/teams//channels/deleted` | High
-20 | File | `/app/Http/Controllers/ImageController.php` | High
-21 | File | `/app/index/controller/Common.php` | High
-22 | File | `/application/index/controller/Icon.php` | High
-23 | File | `/aux` | Low
-24 | File | `/b2b-supermarket/shopping-cart` | High
-25 | File | `/cgi-bin/cstecgi.cgi` | High
-26 | File | `/change-language/de_DE` | High
-27 | File | `/classes/Users.php?f=save` | High
-28 | File | `/data/remove` | Medium
-29 | File | `/debug/pprof` | Medium
-30 | File | `/devinfo` | Medium
-31 | File | `/dist/index.js` | High
-32 | File | `/etc/passwd` | Medium
-33 | File | `/filex/read-raw` | High
-34 | File | `/forum/away.php` | High
-35 | File | `/front/admin/tenancyDetail.php` | High
-36 | File | `/general/attendance/manage/ask_duty/delete.php` | High
-37 | File | `/general/email/outbox/delete.php` | High
-38 | File | `/hosts/firewall/ip` | High
-39 | File | `/index.jsp#settings` | High
-40 | File | `/index.php` | Medium
-41 | File | `/index.php/ccm/system/file/upload` | High
-42 | File | `/Interface/DevManage/VM.php` | High
-43 | File | `/log/decodmail.php` | High
-44 | File | `/LoginRegistration.php` | High
-45 | File | `/myprofile.php` | High
-46 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-47 | File | `/novel/bookComment/list` | High
-48 | File | `/oauth/idp/.well-known/openid-configuration` | High
-49 | File | `/pages/short_to_long.php` | High
-50 | File | `/php/ping.php` | High
-51 | File | `/production/designee_view_status.php` | High
-52 | File | `/register.do` | Medium
-53 | ... | ... | ...
+1 | File | `/admin/admin-profile.php` | High
+2 | File | `/Admin/changepassword.php` | High
+3 | File | `/admin/general-setting` | High
+4 | File | `/admin/service` | High
+5 | File | `/catalog/all-products` | High
+6 | File | `/changePassword` | High
+7 | File | `/forum/away.php` | High
+8 | File | `/goform/addIpMacBind` | High
+9 | File | `/goform/DelDhcpRule` | High
+10 | File | `/goform/delIpMacBind` | High
+11 | File | `/goform/DelPortMapping` | High
+12 | File | `/goform/modifyDhcpRule` | High
+13 | File | `/goform/modifyIpMacBind` | High
+14 | File | `/goform/setBlackRule` | High
+15 | ... | ... | ...
 
-There are 464 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 124 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -509,6 +478,7 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://github.com/firehol/blocklist-ipsets/blob/master/geolite2_country/country_pt.netset
 * https://github.com/firehol/blocklist-ipsets/blob/master/ip2location_country/ip2location_country_pt.netset
+* https://github.com/scriptzteam/Private-Internet-Access-VPN-Servers/blob/main/export.csv
 * https://raw.githubusercontent.com/firehol/blocklist-ipsets/master/ipip_country/ipip_country_pt.netset
 
 ## Literature

@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Cybergate:
 
+* [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
 * [VN](https://vuldb.com/?country.vn)
-* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 8 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -35,10 +35,11 @@ ID | IP address | Hostname | Campaign | Confidence
 12 | [69.65.19.115](https://vuldb.com/?ip.69.65.19.115) | ns3.no-ip.com | - | High
 13 | [78.159.135.230](https://vuldb.com/?ip.78.159.135.230) | - | - | High
 14 | [78.171.201.199](https://vuldb.com/?ip.78.171.201.199) | 78.171.201.199.dynamic.ttnet.com.tr | - | High
-15 | [86.18.99.199](https://vuldb.com/?ip.86.18.99.199) | cpc86441-seve24-2-0-cust198.13-3.cable.virginm.net | - | High
-16 | ... | ... | ... | ...
+15 | [81.214.136.253](https://vuldb.com/?ip.81.214.136.253) | 81.214.136.253.dynamic.ttnet.com.tr | - | High
+16 | [86.18.99.199](https://vuldb.com/?ip.86.18.99.199) | cpc86441-seve24-2-0-cust198.13-3.cable.virginm.net | - | High
+17 | ... | ... | ... | ...
 
-There are 61 more IOC items available. Please use our online service to access the data.
+There are 62 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -46,14 +47,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23, CWE-24 | Path Traversal | High
-2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-264, CWE-266, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+1 | T1006 | CWE-22, CWE-24, CWE-29 | Path Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -61,47 +62,48 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `$HOME/.terminfo` | High
-2 | File | `/admin/` | Low
-3 | File | `/admin/admin_user.php` | High
-4 | File | `/admin/category/save` | High
-5 | File | `/admin/list_ipAddressPolicy.php` | High
-6 | File | `/admin/subject.php` | High
-7 | File | `/auth/auth.php?user=1` | High
-8 | File | `/bin/login` | Medium
-9 | File | `/bin/mini_upnpd` | High
-10 | File | `/boaform/device_reset.cgi` | High
-11 | File | `/cgi-bin/cstecgi.cgi` | High
-12 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-13 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
-14 | File | `/cgi-bin/wlogin.cgi` | High
-15 | File | `/cgi/cpaddons_report.pl` | High
-16 | File | `/common/dict/list` | High
-17 | File | `/debug/pprof` | Medium
-18 | File | `/DXR.axd` | Medium
-19 | File | `/face-recognition-php/facepay-master/camera.php` | High
-20 | File | `/forum/away.php` | High
+1 | File | `/admin/` | Low
+2 | File | `/admin/admin_user.php` | High
+3 | File | `/admin/category/save` | High
+4 | File | `/admin/list_ipAddressPolicy.php` | High
+5 | File | `/admin/subject.php` | High
+6 | File | `/auth/auth.php?user=1` | High
+7 | File | `/boaform/device_reset.cgi` | High
+8 | File | `/cgi-bin/cstecgi.cgi` | High
+9 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+10 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
+11 | File | `/cgi-bin/nas_sharing.cgi` | High
+12 | File | `/cgi-bin/system_mgr.cgi` | High
+13 | File | `/cgi-bin/wlogin.cgi` | High
+14 | File | `/cgi/cpaddons_report.pl` | High
+15 | File | `/common/dict/list` | High
+16 | File | `/debug/pprof` | Medium
+17 | File | `/DXR.axd` | Medium
+18 | File | `/face-recognition-php/facepay-master/camera.php` | High
+19 | File | `/forum/away.php` | High
+20 | File | `/goform/DhcpListClient` | High
 21 | File | `/goform/goform_get_cmd_process` | High
-22 | File | `/h/autoSaveDraft` | High
-23 | File | `/h/search?action` | High
-24 | File | `/HNAP1/` | Low
-25 | File | `/importexport.php` | High
-26 | File | `/index.php?app=main&func=passport&action=login` | High
-27 | File | `/main/doctype.php` | High
-28 | File | `/main/webservices/additional_webservices.php` | High
-29 | File | `/mc` | Low
-30 | File | `/mgmt/` | Low
-31 | File | `/net/bluetooth/rfcomm/core.C` | High
-32 | File | `/oauth/idp/.well-known/openid-configuration` | High
-33 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-34 | File | `/pdf` | Low
-35 | File | `/preview.php` | Medium
-36 | File | `/register.php` | High
-37 | File | `/secure/ViewCollectors` | High
-38 | File | `/server-status` | High
-39 | ... | ... | ...
+22 | File | `/HNAP1/` | Low
+23 | File | `/importexport.php` | High
+24 | File | `/install/` | Medium
+25 | File | `/Interface/DevManage/VM.php` | High
+26 | File | `/main/doctype.php` | High
+27 | File | `/main/webservices/additional_webservices.php` | High
+28 | File | `/mc` | Low
+29 | File | `/ndmComponents.js` | High
+30 | File | `/net/bluetooth/rfcomm/core.C` | High
+31 | File | `/oauth/idp/.well-known/openid-configuration` | High
+32 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+33 | File | `/pdf` | Low
+34 | File | `/register.php` | High
+35 | File | `/remote/put_file` | High
+36 | File | `/setting/NTPSyncWithHost` | High
+37 | File | `/spip.php` | Medium
+38 | File | `/squashfs-root/etc_ro/custom.conf` | High
+39 | File | `/src/c-blosc2/plugins/codecs/ndlz/ndlz4x4.c` | High
+40 | ... | ... | ...
 
-There are 335 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 340 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

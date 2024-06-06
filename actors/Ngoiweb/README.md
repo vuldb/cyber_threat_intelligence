@@ -39,7 +39,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22, CWE-24 | Path Traversal | High
-2 | T1055 | CWE-74 | Injection | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
 
@@ -59,11 +59,11 @@ ID | Type | Indicator | Confidence
 6 | File | `/eclime/manufacturers.php` | High
 7 | File | `/forum/away.php` | High
 8 | File | `/include/file.php` | High
-9 | File | `/Login` | Low
-10 | File | `/uncpath/` | Medium
+9 | File | `/licenses` | Medium
+10 | File | `/Login` | Low
 11 | ... | ... | ...
 
-There are 80 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 83 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -35,7 +35,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-425 | Path Traversal | High
-2 | T1055 | CWE-74 | Injection | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
@@ -56,21 +56,21 @@ ID | Type | Indicator | Confidence
 6 | File | `/env` | Low
 7 | File | `/forum/away.php` | High
 8 | File | `/goform/SetNetControlList` | High
-9 | File | `/librarian/bookdetails.php` | High
-10 | File | `/ptipupgrade.cgi` | High
-11 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-12 | File | `/src/chatbotapp/chatWindow.java` | High
-13 | File | `/staff/bookdetails.php` | High
-14 | File | `about.php` | Medium
-15 | File | `admin.color.php` | High
-16 | File | `admin/addons/archive/archive.php` | High
-17 | File | `admin/categories_industry.php` | High
-18 | File | `admin/class-woo-popup-admin.php` | High
-19 | File | `admin/content/postcategory` | High
-20 | File | `admincp/auth/secure.php` | High
+9 | File | `/goform/SetStaticRouteCfg` | High
+10 | File | `/librarian/bookdetails.php` | High
+11 | File | `/ptipupgrade.cgi` | High
+12 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+13 | File | `/src/chatbotapp/chatWindow.java` | High
+14 | File | `/staff/bookdetails.php` | High
+15 | File | `about.php` | Medium
+16 | File | `admin.color.php` | High
+17 | File | `admin/addons/archive/archive.php` | High
+18 | File | `admin/categories_industry.php` | High
+19 | File | `admin/class-woo-popup-admin.php` | High
+20 | File | `admin/content/postcategory` | High
 21 | ... | ... | ...
 
-There are 172 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 175 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

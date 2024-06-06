@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Italy Unknown:
 
-* [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
-* [UA](https://vuldb.com/?country.ua)
+* [RU](https://vuldb.com/?country.ru)
+* [PL](https://vuldb.com/?country.pl)
 * ...
 
-There are 26 more country items available. Please use our online service to access the data.
+There are 16 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -1680,9 +1680,26 @@ ID | IP address | Hostname | Campaign | Confidence
 1657 | [81.200.224.0](https://vuldb.com/?ip.81.200.224.0) | - | - | High
 1658 | [81.201.0.0](https://vuldb.com/?ip.81.201.0.0) | - | - | High
 1659 | [81.201.80.172](https://vuldb.com/?ip.81.201.80.172) | - | - | High
-1660 | ... | ... | ... | ...
+1660 | [81.201.80.176](https://vuldb.com/?ip.81.201.80.176) | - | - | High
+1661 | [81.201.80.202](https://vuldb.com/?ip.81.201.80.202) | - | - | High
+1662 | [81.201.81.160](https://vuldb.com/?ip.81.201.81.160) | - | - | High
+1663 | [81.201.90.80](https://vuldb.com/?ip.81.201.90.80) | - | - | High
+1664 | [81.201.102.50](https://vuldb.com/?ip.81.201.102.50) | ae11.cor01.il2.eu.equinix.net | - | High
+1665 | [81.201.102.52](https://vuldb.com/?ip.81.201.102.52) | ae13.cor01.il2.eu.equinix.net | - | High
+1666 | [81.201.103.186](https://vuldb.com/?ip.81.201.103.186) | ae20.cor01.ml2.eu.equinix.net | - | High
+1667 | [81.201.103.188](https://vuldb.com/?ip.81.201.103.188) | ae20.cor01.ml3.eu.equinix.net | - | High
+1668 | [81.201.116.96](https://vuldb.com/?ip.81.201.116.96) | ae301.cor05.he6.eu.equinix.net | - | High
+1669 | [81.201.116.104](https://vuldb.com/?ip.81.201.116.104) | ae38.cor01.ml3.eu.equinix.net | - | High
+1670 | [81.201.117.14](https://vuldb.com/?ip.81.201.117.14) | ae31.cor01.ml2.eu.equinix.net | - | High
+1671 | [81.201.117.16](https://vuldb.com/?ip.81.201.117.16) | ae32.cor01.ml3.eu.equinix.net | - | High
+1672 | [81.201.117.236](https://vuldb.com/?ip.81.201.117.236) | ae40.cor03.gv2.eu.equinix.net | - | High
+1673 | [81.201.117.240](https://vuldb.com/?ip.81.201.117.240) | ae42.cor03.gv2.eu.equinix.net | - | High
+1674 | [81.201.124.0](https://vuldb.com/?ip.81.201.124.0) | - | - | High
+1675 | [81.208.0.0](https://vuldb.com/?ip.81.208.0.0) | - | - | High
+1676 | [81.208.64.0](https://vuldb.com/?ip.81.208.64.0) | - | - | High
+1677 | ... | ... | ... | ...
 
-There are 6634 more IOC items available. Please use our online service to access the data.
+There are 6704 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -1690,14 +1707,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-25, CWE-36 | Path Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-94 | Argument Injection | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 15 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -1705,54 +1721,39 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/#ilang=DE&b=c_smartenergy_swgroups` | High
-2 | File | `/Account/login.php` | High
-3 | File | `/admin/` | Low
-4 | File | `/admin/app/service_crud.php` | High
-5 | File | `/admin/edit-admin.php` | High
-6 | File | `/admin/index2.html` | High
-7 | File | `/Admin/login.php` | High
-8 | File | `/admin/operations/expense_category.php` | High
-9 | File | `/adminapi/system/crud` | High
-10 | File | `/adminapi/system/file/openfile` | High
-11 | File | `/admin_route/dec_service_credits.php` | High
-12 | File | `/api/v4/teams//channels/deleted` | High
-13 | File | `/app/admin/controller/Upload.php` | High
-14 | File | `/app/ajax/search_sales_report.php` | High
-15 | File | `/app/controller/Setup.php` | High
-16 | File | `/app/middleware/TokenVerify.php` | High
-17 | File | `/application/index/controller/Screen.php` | High
-18 | File | `/application/websocket/controller/Setting.php` | High
-19 | File | `/boafrm/formMapDelDevice` | High
-20 | File | `/cancel.php` | Medium
-21 | File | `/category.php` | High
-22 | File | `/cgi-bin/cstecgi.cgi` | High
-23 | File | `/cgi-bin/luci` | High
-24 | File | `/check_availability.php` | High
-25 | File | `/dashboard/Cinvoice/manage_invoice` | High
-26 | File | `/debug/pprof` | Medium
-27 | File | `/devinfo` | Medium
-28 | File | `/download` | Medium
-29 | File | `/DXR.axd` | Medium
-30 | File | `/Employer/ManageWalkin.php` | High
-31 | File | `/endpoint/add-faq.php` | High
-32 | File | `/endpoint/delete-computer.php` | High
-33 | File | `/endpoint/update-resident.php` | High
-34 | File | `/endpoint/update-tracker.php` | High
-35 | File | `/etc/passwd` | Medium
-36 | File | `/forum/away.php` | High
-37 | File | `/goform/net\_Web\_get_value` | High
-38 | File | `/hardware` | Medium
-39 | File | `/hedwig.cgi` | Medium
-40 | File | `/index.jsp#settings` | High
-41 | ... | ... | ...
+1 | File | `/Admin/changepassword.php` | High
+2 | File | `/admin/client_user` | High
+3 | File | `/admin/court` | Medium
+4 | File | `/Admin/createClass.php` | High
+5 | File | `/admin/general-setting` | High
+6 | File | `/admin/maintenance/manage_brand.php` | High
+7 | File | `/admin/problem_judge.php` | High
+8 | File | `/admin/service` | High
+9 | File | `/blog/blog.php` | High
+10 | File | `/catalog/admin/categories.php?cPath=&action=new_product` | High
+11 | File | `/catalog/all-products` | High
+12 | File | `/changePassword` | High
+13 | File | `/College/admin/teacher.php` | High
+14 | File | `/conf/app.conf` | High
+15 | File | `/forum/away.php` | High
+16 | File | `/goform/SetRemoteWebCfg` | High
+17 | File | `/goform/SetSysTimeCfg` | High
+18 | File | `/index.php` | Medium
+19 | File | `/lesson/controller.php` | High
+20 | File | `/mailcleaner.php/getStats` | High
+21 | File | `/manage_sy.php` | High
+22 | File | `/one_church/churchprofile.php` | High
+23 | File | `/onlinecourse/` | High
+24 | File | `/out.php` | Medium
+25 | ... | ... | ...
 
-There are 350 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 207 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://github.com/scriptzteam/Private-Internet-Access-VPN-Servers/blob/main/export.csv
 * https://raw.githubusercontent.com/firehol/blocklist-ipsets/master/ip2location_country/ip2location_country_it.netset
 * https://raw.githubusercontent.com/firehol/blocklist-ipsets/master/ipip_country/ipip_country_it.netset
 

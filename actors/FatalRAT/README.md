@@ -21,7 +21,7 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [103.119.44.152](https://vuldb.com/?ip.103.119.44.152) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 2 more IOC items available. Please use our online service to access the data.
+There are 9 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -29,7 +29,9 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1608.002 | CWE-434 | Incomplete Identification of Uploaded File Variables | High
+1 | T1068 | CWE-264 | Execution with Unnecessary Privileges | High
+2 | T1505 | CWE-89 | SQL Injection | High
+3 | T1608.002 | CWE-434 | Incomplete Identification of Uploaded File Variables | High
 
 ## IOA - Indicator of Attack
 
@@ -39,6 +41,7 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `json_reader.cpp` | High
 2 | File | `web/jquery/uploader/uploadify.php` | High
+3 | Argument | `capability_type` | High
 
 ## References
 
@@ -46,6 +49,7 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://1275.ru/ioc/66/fatalrat-backdoor-ioc/
 * https://community.blueliv.com/#!/s/6107d20982df4141693319a7
+* https://www.welivesecurity.com/2023/02/16/these-arent-apps-youre-looking-for-fake-installers/
 
 ## Literature
 

@@ -47,12 +47,12 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/link/` | Low
-2 | File | `/server-status` | High
-3 | File | `get_IFTTTTtoken.cgi` | High
+1 | File | `/cgi-bin/nas_sharing.cgi` | High
+2 | File | `/link/` | Low
+3 | File | `/server-status` | High
 4 | ... | ... | ...
 
-There are 5 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 7 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

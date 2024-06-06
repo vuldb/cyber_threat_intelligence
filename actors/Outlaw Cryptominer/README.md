@@ -35,7 +35,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22, CWE-425 | Path Traversal | High
-2 | T1055 | CWE-74 | Injection | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
@@ -53,13 +53,14 @@ ID | Type | Indicator | Confidence
 3 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
 4 | File | `/env` | Low
 5 | File | `/goform/SetNetControlList` | High
-6 | File | `/sns/classes/Users.php?f=save` | High
-7 | File | `/src/chatbotapp/chatWindow.java` | High
-8 | File | `/uncpath/` | Medium
-9 | File | `admin/categories_industry.php` | High
-10 | ... | ... | ...
+6 | File | `/goform/SetStaticRouteCfg` | High
+7 | File | `/sns/classes/Users.php?f=save` | High
+8 | File | `/src/chatbotapp/chatWindow.java` | High
+9 | File | `/uncpath/` | Medium
+10 | File | `admin/categories_industry.php` | High
+11 | ... | ... | ...
 
-There are 78 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 80 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

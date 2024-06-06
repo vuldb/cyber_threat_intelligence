@@ -79,16 +79,17 @@ ID | Type | Indicator | Confidence
 20 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
 21 | File | `/collection/all` | High
 22 | File | `/core/config-revisions` | High
-23 | File | `/doc/packages` | High
-24 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-25 | File | `/endpoint/delete-faq.php` | High
-26 | File | `/endpoint/update-computer.php` | High
-27 | File | `/endpoint/update-resident.php` | High
-28 | File | `/endpoint/update-tracker.php` | High
-29 | File | `/forum/away.php` | High
-30 | ... | ... | ...
+23 | File | `/deletefile.php` | High
+24 | File | `/doc/packages` | High
+25 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+26 | File | `/endpoint/delete-faq.php` | High
+27 | File | `/endpoint/update-computer.php` | High
+28 | File | `/endpoint/update-resident.php` | High
+29 | File | `/endpoint/update-tracker.php` | High
+30 | File | `/forum/away.php` | High
+31 | ... | ... | ...
 
-There are 258 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 267 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

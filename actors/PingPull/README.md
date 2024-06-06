@@ -58,7 +58,7 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
@@ -78,26 +78,27 @@ ID | Type | Indicator | Confidence
 5 | File | `/cgi-bin/wapopen` | High
 6 | File | `/cgi-bin/wlogin.cgi` | High
 7 | File | `/cwc/login` | Medium
-8 | File | `/download` | Medium
-9 | File | `/etc/quagga` | Medium
-10 | File | `/etc/shadow` | Medium
-11 | File | `/forms/doLogin` | High
-12 | File | `/h/calendar` | Medium
-13 | File | `/inc/extensions.php` | High
-14 | File | `/index.php` | Medium
-15 | File | `/Items/*/RemoteImages/Download` | High
-16 | File | `/members/view_member.php` | High
-17 | File | `/mhds/clinic/view_details.php` | High
-18 | File | `/mifs/c/i/reg/reg.html` | High
-19 | File | `/nova/bin/console` | High
-20 | File | `/nova/bin/detnet` | High
-21 | File | `/out.php` | Medium
-22 | File | `/owa/auth/logon.aspx` | High
-23 | File | `/req_password_user.php` | High
-24 | File | `/rest/api/latest/projectvalidate/key` | High
-25 | ... | ... | ...
+8 | File | `/debuginfo.htm` | High
+9 | File | `/download` | Medium
+10 | File | `/etc/quagga` | Medium
+11 | File | `/etc/shadow` | Medium
+12 | File | `/forms/doLogin` | High
+13 | File | `/h/calendar` | Medium
+14 | File | `/inc/extensions.php` | High
+15 | File | `/index.php` | Medium
+16 | File | `/Items/*/RemoteImages/Download` | High
+17 | File | `/members/view_member.php` | High
+18 | File | `/mhds/clinic/view_details.php` | High
+19 | File | `/mifs/c/i/reg/reg.html` | High
+20 | File | `/nova/bin/console` | High
+21 | File | `/nova/bin/detnet` | High
+22 | File | `/out.php` | Medium
+23 | File | `/owa/auth/logon.aspx` | High
+24 | File | `/req_password_user.php` | High
+25 | File | `/rest/api/latest/projectvalidate/key` | High
+26 | ... | ... | ...
 
-There are 211 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 220 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

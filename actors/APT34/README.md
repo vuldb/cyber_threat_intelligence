@@ -98,33 +98,36 @@ ID | Type | Indicator | Confidence
 27 | File | `/admin/search-appointment.php` | High
 28 | File | `/admin/students/update_status.php` | High
 29 | File | `/admin/subnets/ripe-query.php` | High
-30 | File | `/ajax-api.php` | High
-31 | File | `/api/sys/login` | High
-32 | File | `/api/sys/set_passwd` | High
-33 | File | `/app/ajax/search_sales_report.php` | High
-34 | File | `/app/controller/Setup.php` | High
-35 | File | `/apply.cgi` | Medium
-36 | File | `/App_Resource/UEditor/server/upload.aspx` | High
-37 | File | `/bin/boa` | Medium
-38 | File | `/boafrm/formMapDelDevice` | High
-39 | File | `/booking/show_bookings/` | High
-40 | File | `/cancel.php` | Medium
-41 | File | `/cgi-bin/adm.cgi` | High
-42 | File | `/cgi-bin/cstecgi.cgi` | High
-43 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-44 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
-45 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
-46 | File | `/chaincity/user/ticket/create` | High
-47 | File | `/check_availability.php` | High
-48 | File | `/collection/all` | High
-49 | File | `/common/info.cgi` | High
-50 | File | `/core/conditions/AbstractWrapper.java` | High
-51 | File | `/core/config-revisions` | High
-52 | File | `/debug/pprof` | Medium
-53 | File | `/dipam/athlete-profile.php` | High
-54 | ... | ... | ...
+30 | File | `/adminpanel/admin/facebox_modal/updateExaminee.php` | High
+31 | File | `/ajax-api.php` | High
+32 | File | `/api/sys/login` | High
+33 | File | `/api/sys/set_passwd` | High
+34 | File | `/app/ajax/search_sales_report.php` | High
+35 | File | `/app/controller/Setup.php` | High
+36 | File | `/apply.cgi` | Medium
+37 | File | `/App_Resource/UEditor/server/upload.aspx` | High
+38 | File | `/bin/boa` | Medium
+39 | File | `/boafrm/formMapDelDevice` | High
+40 | File | `/booking/show_bookings/` | High
+41 | File | `/cancel.php` | Medium
+42 | File | `/cgi-bin/adm.cgi` | High
+43 | File | `/cgi-bin/cstecgi.cgi` | High
+44 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+45 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
+46 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
+47 | File | `/cgi-bin/nas_sharing.cgi` | High
+48 | File | `/chaincity/user/ticket/create` | High
+49 | File | `/check_availability.php` | High
+50 | File | `/collection/all` | High
+51 | File | `/common/info.cgi` | High
+52 | File | `/core/conditions/AbstractWrapper.java` | High
+53 | File | `/core/config-revisions` | High
+54 | File | `/debug/pprof` | Medium
+55 | File | `/deletefile.php` | High
+56 | File | `/dipam/athlete-profile.php` | High
+57 | ... | ... | ...
 
-There are 474 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 500 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

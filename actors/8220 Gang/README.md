@@ -64,47 +64,49 @@ ID | Type | Indicator | Confidence
 4 | File | `/admin.php/Admin/adminadd.html` | High
 5 | File | `/admin/about-us.php` | High
 6 | File | `/admin/action/delete-vaccine.php` | High
-7 | File | `/Admin/add-student.php` | High
+7 | File | `/admin/edit-post.php` | High
 8 | File | `/admin/index2.html` | High
 9 | File | `/admin/settings/save.php` | High
 10 | File | `/admin/userprofile.php` | High
-11 | File | `/alphaware/summary.php` | High
-12 | File | `/api/baskets/{name}` | High
-13 | File | `/app/index/controller/Common.php` | High
-14 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
-15 | File | `/apply.cgi` | Medium
-16 | File | `/bitrix/admin/ldap_server_edit.php` | High
-17 | File | `/brand.php` | Medium
-18 | File | `/cgi-bin/wlogin.cgi` | High
-19 | File | `/College/admin/teacher.php` | High
-20 | File | `/common/info.cgi` | High
-21 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
-22 | File | `/cupseasylive/countrymodify.php` | High
-23 | File | `/dcim/rack-roles/` | High
-24 | File | `/domains/list` | High
-25 | File | `/forms/doLogin` | High
-26 | File | `/forum/away.php` | High
-27 | File | `/goform/addUserName` | High
-28 | File | `/goform/aspForm` | High
-29 | File | `/goform/delAd` | High
-30 | File | `/goform/wifiSSIDset` | High
-31 | File | `/gpac/src/bifs/unquantize.c` | High
-32 | File | `/inc/topBarNav.php` | High
-33 | File | `/index.asp` | Medium
-34 | File | `/index.php` | Medium
-35 | File | `/index.php/weblinks-categories` | High
-36 | File | `/index.php?app=main&func=passport&action=login` | High
-37 | File | `/kelas/data` | Medium
-38 | File | `/listplace/user/ticket/create` | High
-39 | File | `/LoginRegistration.php` | High
-40 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
-41 | File | `/member/ad.php?action=ad` | High
-42 | File | `/Moosikay/order.php` | High
-43 | File | `/novel/author/list` | High
-44 | File | `/oauth/idp/.well-known/openid-configuration` | High
-45 | ... | ... | ...
+11 | File | `/admin_class.php` | High
+12 | File | `/alphaware/summary.php` | High
+13 | File | `/api/baskets/{name}` | High
+14 | File | `/app/index/controller/Common.php` | High
+15 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
+16 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
+17 | File | `/applications/nexus/modules/front/store/store.php` | High
+18 | File | `/apply.cgi` | Medium
+19 | File | `/bitrix/admin/ldap_server_edit.php` | High
+20 | File | `/cgi-bin/nas_sharing.cgi` | High
+21 | File | `/cgi-bin/wlogin.cgi` | High
+22 | File | `/classes/Master.php?f=save_category` | High
+23 | File | `/classes/Users.php?f=save` | High
+24 | File | `/College/admin/teacher.php` | High
+25 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
+26 | File | `/cupseasylive/countrymodify.php` | High
+27 | File | `/dcim/rack-roles/` | High
+28 | File | `/domains/list` | High
+29 | File | `/fftools/ffmpeg_enc.c` | High
+30 | File | `/forms/doLogin` | High
+31 | File | `/forum/away.php` | High
+32 | File | `/goform/addUserName` | High
+33 | File | `/goform/aspForm` | High
+34 | File | `/goform/delAd` | High
+35 | File | `/goform/wifiSSIDset` | High
+36 | File | `/gpac/src/bifs/unquantize.c` | High
+37 | File | `/inc/topBarNav.php` | High
+38 | File | `/index.php` | Medium
+39 | File | `/index.php/weblinks-categories` | High
+40 | File | `/index.php?app=main&func=passport&action=login` | High
+41 | File | `/install/` | Medium
+42 | File | `/kelas/data` | Medium
+43 | File | `/listplace/user/ticket/create` | High
+44 | File | `/LoginRegistration.php` | High
+45 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
+46 | File | `/manager/ipconfig_new.php` | High
+47 | ... | ... | ...
 
-There are 394 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 412 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

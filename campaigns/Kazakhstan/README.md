@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Kazakhstan:
 
-* [CN](https://vuldb.com/?country.cn)
-* [KZ](https://vuldb.com/?country.kz)
-* [US](https://vuldb.com/?country.us)
+* [PL](https://vuldb.com/?country.pl)
+* [RU](https://vuldb.com/?country.ru)
+* [FR](https://vuldb.com/?country.fr)
 * ...
 
-There are 12 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -178,35 +178,39 @@ ID | IP address | Hostname | Actor | Confidence
 145 | [62.122.0.0](https://vuldb.com/?ip.62.122.0.0) | - | [Kazakhstan Unknown](https://vuldb.com/?actor.kazakhstan_unknown) | High
 146 | [62.122.104.0](https://vuldb.com/?ip.62.122.104.0) | - | [Kazakhstan Unknown](https://vuldb.com/?actor.kazakhstan_unknown) | High
 147 | [62.133.47.0](https://vuldb.com/?ip.62.133.47.0) | - | [Kazakhstan Unknown](https://vuldb.com/?actor.kazakhstan_unknown) | High
-148 | [62.141.111.58](https://vuldb.com/?ip.62.141.111.58) | - | [Kazakhstan Unknown](https://vuldb.com/?actor.kazakhstan_unknown) | High
-149 | [64.64.121.232](https://vuldb.com/?ip.64.64.121.232) | - | [Kazakhstan Unknown](https://vuldb.com/?actor.kazakhstan_unknown) | High
-150 | [66.102.46.192](https://vuldb.com/?ip.66.102.46.192) | - | [Kazakhstan Unknown](https://vuldb.com/?actor.kazakhstan_unknown) | High
-151 | [67.209.128.0](https://vuldb.com/?ip.67.209.128.0) | - | [Kazakhstan Unknown](https://vuldb.com/?actor.kazakhstan_unknown) | High
-152 | [77.73.128.0](https://vuldb.com/?ip.77.73.128.0) | - | [Kazakhstan Unknown](https://vuldb.com/?actor.kazakhstan_unknown) | High
-153 | [77.73.130.0](https://vuldb.com/?ip.77.73.130.0) | - | [Kazakhstan Unknown](https://vuldb.com/?actor.kazakhstan_unknown) | High
-154 | [77.73.135.0](https://vuldb.com/?ip.77.73.135.0) | - | [Kazakhstan Unknown](https://vuldb.com/?actor.kazakhstan_unknown) | High
-155 | [77.74.64.0](https://vuldb.com/?ip.77.74.64.0) | - | [Kazakhstan Unknown](https://vuldb.com/?actor.kazakhstan_unknown) | High
-156 | [77.81.177.0](https://vuldb.com/?ip.77.81.177.0) | - | [Kazakhstan Unknown](https://vuldb.com/?actor.kazakhstan_unknown) | High
-157 | [77.91.75.0](https://vuldb.com/?ip.77.91.75.0) | . | [Kazakhstan Unknown](https://vuldb.com/?actor.kazakhstan_unknown) | High
-158 | [77.94.3.0](https://vuldb.com/?ip.77.94.3.0) | - | [Kazakhstan Unknown](https://vuldb.com/?actor.kazakhstan_unknown) | High
-159 | [77.94.4.0](https://vuldb.com/?ip.77.94.4.0) | - | [Kazakhstan Unknown](https://vuldb.com/?actor.kazakhstan_unknown) | High
-160 | [77.94.8.0](https://vuldb.com/?ip.77.94.8.0) | - | [Kazakhstan Unknown](https://vuldb.com/?actor.kazakhstan_unknown) | High
-161 | [77.94.16.0](https://vuldb.com/?ip.77.94.16.0) | - | [Kazakhstan Unknown](https://vuldb.com/?actor.kazakhstan_unknown) | High
-162 | [77.220.206.0](https://vuldb.com/?ip.77.220.206.0) | - | [Kazakhstan Unknown](https://vuldb.com/?actor.kazakhstan_unknown) | High
-163 | [77.240.32.0](https://vuldb.com/?ip.77.240.32.0) | - | [Kazakhstan Unknown](https://vuldb.com/?actor.kazakhstan_unknown) | High
-164 | [77.245.96.0](https://vuldb.com/?ip.77.245.96.0) | - | [Kazakhstan Unknown](https://vuldb.com/?actor.kazakhstan_unknown) | High
-165 | [78.40.108.0](https://vuldb.com/?ip.78.40.108.0) | - | [Kazakhstan Unknown](https://vuldb.com/?actor.kazakhstan_unknown) | High
-166 | [78.109.144.0](https://vuldb.com/?ip.78.109.144.0) | - | [Kazakhstan Unknown](https://vuldb.com/?actor.kazakhstan_unknown) | High
-167 | [78.140.223.0](https://vuldb.com/?ip.78.140.223.0) | - | [Kazakhstan Unknown](https://vuldb.com/?actor.kazakhstan_unknown) | High
-168 | [78.140.244.0](https://vuldb.com/?ip.78.140.244.0) | - | [Kazakhstan Unknown](https://vuldb.com/?actor.kazakhstan_unknown) | High
-169 | [79.110.22.128](https://vuldb.com/?ip.79.110.22.128) | - | [Kazakhstan Unknown](https://vuldb.com/?actor.kazakhstan_unknown) | High
-170 | [79.133.184.0](https://vuldb.com/?ip.79.133.184.0) | - | [Kazakhstan Unknown](https://vuldb.com/?actor.kazakhstan_unknown) | High
-171 | [79.134.32.0](https://vuldb.com/?ip.79.134.32.0) | - | [Kazakhstan Unknown](https://vuldb.com/?actor.kazakhstan_unknown) | High
-172 | [79.137.170.0](https://vuldb.com/?ip.79.137.170.0) | - | [Kazakhstan Unknown](https://vuldb.com/?actor.kazakhstan_unknown) | High
-173 | [79.137.176.0](https://vuldb.com/?ip.79.137.176.0) | - | [Kazakhstan Unknown](https://vuldb.com/?actor.kazakhstan_unknown) | High
-174 | ... | ... | ... | ...
+148 | [62.133.47.4](https://vuldb.com/?ip.62.133.47.4) | - | [Kazakhstan Unknown](https://vuldb.com/?actor.kazakhstan_unknown) | High
+149 | [62.133.47.5](https://vuldb.com/?ip.62.133.47.5) | - | [Kazakhstan Unknown](https://vuldb.com/?actor.kazakhstan_unknown) | High
+150 | [62.133.47.6](https://vuldb.com/?ip.62.133.47.6) | - | [Kazakhstan Unknown](https://vuldb.com/?actor.kazakhstan_unknown) | High
+151 | [62.133.47.7](https://vuldb.com/?ip.62.133.47.7) | - | [Kazakhstan Unknown](https://vuldb.com/?actor.kazakhstan_unknown) | High
+152 | [62.133.47.8](https://vuldb.com/?ip.62.133.47.8) | - | [Kazakhstan Unknown](https://vuldb.com/?actor.kazakhstan_unknown) | High
+153 | [62.133.47.9](https://vuldb.com/?ip.62.133.47.9) | - | [Kazakhstan Unknown](https://vuldb.com/?actor.kazakhstan_unknown) | High
+154 | [62.133.47.10](https://vuldb.com/?ip.62.133.47.10) | - | [Kazakhstan Unknown](https://vuldb.com/?actor.kazakhstan_unknown) | High
+155 | [62.133.47.13](https://vuldb.com/?ip.62.133.47.13) | - | [Kazakhstan Unknown](https://vuldb.com/?actor.kazakhstan_unknown) | High
+156 | [62.133.47.16](https://vuldb.com/?ip.62.133.47.16) | - | [Kazakhstan Unknown](https://vuldb.com/?actor.kazakhstan_unknown) | High
+157 | [62.133.47.17](https://vuldb.com/?ip.62.133.47.17) | - | [Kazakhstan Unknown](https://vuldb.com/?actor.kazakhstan_unknown) | High
+158 | [62.133.47.19](https://vuldb.com/?ip.62.133.47.19) | - | [Kazakhstan Unknown](https://vuldb.com/?actor.kazakhstan_unknown) | High
+159 | [62.133.47.20](https://vuldb.com/?ip.62.133.47.20) | - | [Kazakhstan Unknown](https://vuldb.com/?actor.kazakhstan_unknown) | High
+160 | [62.133.47.21](https://vuldb.com/?ip.62.133.47.21) | - | [Kazakhstan Unknown](https://vuldb.com/?actor.kazakhstan_unknown) | High
+161 | [62.133.47.22](https://vuldb.com/?ip.62.133.47.22) | - | [Kazakhstan Unknown](https://vuldb.com/?actor.kazakhstan_unknown) | High
+162 | [62.133.47.23](https://vuldb.com/?ip.62.133.47.23) | - | [Kazakhstan Unknown](https://vuldb.com/?actor.kazakhstan_unknown) | High
+163 | [62.133.47.24](https://vuldb.com/?ip.62.133.47.24) | - | [Kazakhstan Unknown](https://vuldb.com/?actor.kazakhstan_unknown) | High
+164 | [62.133.47.25](https://vuldb.com/?ip.62.133.47.25) | - | [Kazakhstan Unknown](https://vuldb.com/?actor.kazakhstan_unknown) | High
+165 | [62.133.47.26](https://vuldb.com/?ip.62.133.47.26) | - | [Kazakhstan Unknown](https://vuldb.com/?actor.kazakhstan_unknown) | High
+166 | [62.141.111.58](https://vuldb.com/?ip.62.141.111.58) | - | [Kazakhstan Unknown](https://vuldb.com/?actor.kazakhstan_unknown) | High
+167 | [64.64.121.232](https://vuldb.com/?ip.64.64.121.232) | - | [Kazakhstan Unknown](https://vuldb.com/?actor.kazakhstan_unknown) | High
+168 | [66.102.46.192](https://vuldb.com/?ip.66.102.46.192) | - | [Kazakhstan Unknown](https://vuldb.com/?actor.kazakhstan_unknown) | High
+169 | [67.209.128.0](https://vuldb.com/?ip.67.209.128.0) | - | [Kazakhstan Unknown](https://vuldb.com/?actor.kazakhstan_unknown) | High
+170 | [77.73.128.0](https://vuldb.com/?ip.77.73.128.0) | - | [Kazakhstan Unknown](https://vuldb.com/?actor.kazakhstan_unknown) | High
+171 | [77.73.130.0](https://vuldb.com/?ip.77.73.130.0) | - | [Kazakhstan Unknown](https://vuldb.com/?actor.kazakhstan_unknown) | High
+172 | [77.73.135.0](https://vuldb.com/?ip.77.73.135.0) | - | [Kazakhstan Unknown](https://vuldb.com/?actor.kazakhstan_unknown) | High
+173 | [77.74.64.0](https://vuldb.com/?ip.77.74.64.0) | - | [Kazakhstan Unknown](https://vuldb.com/?actor.kazakhstan_unknown) | High
+174 | [77.81.177.0](https://vuldb.com/?ip.77.81.177.0) | - | [Kazakhstan Unknown](https://vuldb.com/?actor.kazakhstan_unknown) | High
+175 | [77.91.75.0](https://vuldb.com/?ip.77.91.75.0) | . | [Kazakhstan Unknown](https://vuldb.com/?actor.kazakhstan_unknown) | High
+176 | [77.94.3.0](https://vuldb.com/?ip.77.94.3.0) | - | [Kazakhstan Unknown](https://vuldb.com/?actor.kazakhstan_unknown) | High
+177 | [77.94.4.0](https://vuldb.com/?ip.77.94.4.0) | - | [Kazakhstan Unknown](https://vuldb.com/?actor.kazakhstan_unknown) | High
+178 | ... | ... | ... | ...
 
-There are 692 more IOC items available. Please use our online service to access the data.
+There are 706 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -214,14 +218,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Path Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+1 | T1006 | CWE-22 | Path Traversal | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-94 | Argument Injection | High
+4 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 14 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -229,42 +231,18 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/admin/controller/JobLogController.java` | High
-3 | File | `/api/baskets/{name}` | High
-4 | File | `/api/jolokia org.jolokia.http.HttpRequestHandler#handlePostRequest` | High
-5 | File | `/api/sys/login` | High
-6 | File | `/api/sys/set_passwd` | High
-7 | File | `/api/trackedEntityInstances` | High
-8 | File | `/aux` | Low
-9 | File | `/changePassword` | High
-10 | File | `/Content/Template/root/reverse-shell.aspx` | High
-11 | File | `/dashboard/add-blog.php` | High
-12 | File | `/data/remove` | Medium
-13 | File | `/debug/pprof` | Medium
-14 | File | `/ecshop/admin/template.php` | High
-15 | File | `/etc/passwd` | Medium
-16 | File | `/forum/away.php` | High
-17 | File | `/goform/net\_Web\_get_value` | High
-18 | File | `/group1/uploa` | High
-19 | File | `/index.php` | Medium
-20 | File | `/index.php?menu=asterisk_cli` | High
-21 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-22 | File | `/post.php` | Medium
-23 | File | `/resources//../` | High
-24 | File | `/testConnection` | High
-25 | File | `/tmp/ppd.trace` | High
-26 | File | `/uncpath/` | Medium
-27 | File | `/user/inc/workidajax.php` | High
-28 | File | `/user/ticket/create` | High
-29 | File | `/userLogin.asp` | High
-30 | File | `/v1/sql-runner` | High
-31 | File | `/var/run/chrony` | High
-32 | File | `/vm/admin/doctors.php` | High
-33 | File | `/wp-admin/options.php` | High
-34 | ... | ... | ...
+1 | File | `/catalog/all-products` | High
+2 | File | `/changePassword` | High
+3 | File | `/forum/away.php` | High
+4 | File | `/goform/addIpMacBind` | High
+5 | File | `/goform/DelDhcpRule` | High
+6 | File | `/goform/delIpMacBind` | High
+7 | File | `/goform/DelPortMapping` | High
+8 | File | `/goform/modifyDhcpRule` | High
+9 | File | `/goform/modifyIpMacBind` | High
+10 | ... | ... | ...
 
-There are 290 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 71 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -274,6 +252,7 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://github.com/firehol/blocklist-ipsets/blob/master/geolite2_country/country_kz.netset
 * https://github.com/firehol/blocklist-ipsets/blob/master/ip2location_country/ip2location_country_kz.netset
 * https://github.com/firehol/blocklist-ipsets/blob/master/ipip_country/ipip_country_kz.netset
+* https://github.com/scriptzteam/Private-Internet-Access-VPN-Servers/blob/main/export.csv
 * https://news.drweb.com/show/?i=14451
 * https://st.drweb.co.jp/static/new-www/news/2020/july/Study_of_the_APT_attacks_on_state_institutions_in_Kazakhstan_and_Kyrgyzstan_en.pdf
 * https://st.drweb.com/static/new-www/news/2022/march/telecom_research_en.pdf

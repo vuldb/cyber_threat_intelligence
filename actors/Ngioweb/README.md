@@ -34,10 +34,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-425 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -59,53 +59,56 @@ ID | Type | Indicator | Confidence
 8 | File | `/admin/maintenance/view_designation.php` | High
 9 | File | `/admin/offenses/view_details.php` | High
 10 | File | `/admin/search-appointment.php` | High
-11 | File | `/alarm_pi/alarmService.php` | High
-12 | File | `/Ap4RtpAtom.cpp` | High
-13 | File | `/api/baskets/{name}` | High
-14 | File | `/api/v2/cli/commands` | High
-15 | File | `/bcms/admin/?page=sales/view_details` | High
-16 | File | `/categorypage.php` | High
-17 | File | `/cgi-bin/hi3510/param.cgi` | High
-18 | File | `/cgi-bin/user/Config.cgi` | High
-19 | File | `/classes/Master.php?f=delete_student` | High
-20 | File | `/config/php.ini` | High
-21 | File | `/course/api/upload/pic` | High
-22 | File | `/DXR.axd` | Medium
-23 | File | `/forum/away.php` | High
-24 | File | `/htdocs/cgibin` | High
-25 | File | `/icingaweb2/navigation/add` | High
-26 | File | `/mkshop/Men/profile.php` | High
-27 | File | `/module/index.php` | High
-28 | File | `/Monitoring-History.php` | High
-29 | File | `/myprofile.php` | High
-30 | File | `/my_photo_gallery/image.php` | High
-31 | File | `/novel/bookSetting/list` | High
-32 | File | `/novel/userFeedback/list` | High
-33 | File | `/owa/auth/logon.aspx` | High
-34 | File | `/product.php` | Medium
-35 | File | `/ServletAPI/accounts/login` | High
-36 | File | `/spip.php` | Medium
-37 | File | `/uncpath/` | Medium
-38 | File | `/usr/bin/pkexec` | High
-39 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
-40 | File | `/videotalk` | Medium
-41 | File | `/vloggers_merch/?p=products` | High
-42 | File | `/vloggers_merch/classes/Master.php?f=delete_category` | High
-43 | File | `/vloggers_merch/classes/Master.php?f=delete_product` | High
-44 | File | `/web/MCmsAction.java` | High
-45 | File | `/wp-admin/options.php` | High
-46 | File | `/zm/index.php` | High
-47 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-48 | File | `activity_log.php` | High
-49 | File | `adclick.php` | Medium
-50 | File | `adm/systools.asp` | High
-51 | File | `admin.cropcanvas.php` | High
-52 | File | `admin.jcomments.php` | High
-53 | File | `admin/dashboard.php` | High
-54 | File | `admin/departments/manage_department.php` | High
-55 | ... | ... | ...
+11 | File | `/adminPage/conf/reload` | High
+12 | File | `/alarm_pi/alarmService.php` | High
+13 | File | `/Ap4RtpAtom.cpp` | High
+14 | File | `/api/baskets/{name}` | High
+15 | File | `/api/v2/cli/commands` | High
+16 | File | `/bcms/admin/?page=sales/view_details` | High
+17 | File | `/categorypage.php` | High
+18 | File | `/cgi-bin/hi3510/param.cgi` | High
+19 | File | `/cgi-bin/kerbynet` | High
+20 | File | `/cgi-bin/user/Config.cgi` | High
+21 | File | `/classes/Master.php?f=delete_student` | High
+22 | File | `/config/php.ini` | High
+23 | File | `/course/api/upload/pic` | High
+24 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
+25 | File | `/DXR.axd` | Medium
+26 | File | `/forum/away.php` | High
+27 | File | `/htdocs/cgibin` | High
+28 | File | `/icingaweb2/navigation/add` | High
+29 | File | `/mfsNotice/page` | High
+30 | File | `/mkshop/Men/profile.php` | High
+31 | File | `/module/index.php` | High
+32 | File | `/Monitoring-History.php` | High
+33 | File | `/myprofile.php` | High
+34 | File | `/my_photo_gallery/image.php` | High
+35 | File | `/novel/bookSetting/list` | High
+36 | File | `/novel/userFeedback/list` | High
+37 | File | `/owa/auth/logon.aspx` | High
+38 | File | `/product.php` | Medium
+39 | File | `/ServletAPI/accounts/login` | High
+40 | File | `/spip.php` | Medium
+41 | File | `/uncpath/` | Medium
+42 | File | `/usr/bin/pkexec` | High
+43 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
+44 | File | `/videotalk` | Medium
+45 | File | `/vloggers_merch/?p=products` | High
+46 | File | `/vloggers_merch/classes/Master.php?f=delete_category` | High
+47 | File | `/vloggers_merch/classes/Master.php?f=delete_product` | High
+48 | File | `/web/MCmsAction.java` | High
+49 | File | `/wp-admin/options.php` | High
+50 | File | `/x_portal_assemble_surface/jaxrs/portal/list?v=8.2.3-4-43f4fe3` | High
+51 | File | `/zm/index.php` | High
+52 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+53 | File | `activity_log.php` | High
+54 | File | `adclick.php` | Medium
+55 | File | `adm/systools.asp` | High
+56 | File | `admin.cropcanvas.php` | High
+57 | File | `admin.jcomments.php` | High
+58 | ... | ... | ...
 
-There are 477 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 504 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

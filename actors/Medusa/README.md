@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 12 more country items available. Please use our online service to access the data.
+There are 14 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -27,9 +27,10 @@ ID | IP address | Hostname | Campaign | Confidence
 4 | [8.217.23.144](https://vuldb.com/?ip.8.217.23.144) | - | - | High
 5 | [20.0.25.177](https://vuldb.com/?ip.20.0.25.177) | - | - | High
 6 | [45.15.157.16](https://vuldb.com/?ip.45.15.157.16) | scientific-group.aeza.network | - | High
-7 | [45.150.65.121](https://vuldb.com/?ip.45.150.65.121) | vm1757649.stark-industries.solutions | - | High
-8 | [64.52.80.13](https://vuldb.com/?ip.64.52.80.13) | - | - | High
-9 | ... | ... | ... | ...
+7 | [45.145.167.117](https://vuldb.com/?ip.45.145.167.117) | hms16304.hostmyservers.me | - | High
+8 | [45.150.65.121](https://vuldb.com/?ip.45.150.65.121) | vm1757649.stark-industries.solutions | - | High
+9 | [64.52.80.13](https://vuldb.com/?ip.64.52.80.13) | - | - | High
+10 | ... | ... | ... | ...
 
 There are 34 more IOC items available. Please use our online service to access the data.
 
@@ -70,20 +71,23 @@ ID | Type | Indicator | Confidence
 16 | File | `/forum/away.php` | High
 17 | File | `/hardware` | Medium
 18 | File | `/jeecg-boot/jmreport/show` | High
-19 | File | `/LoginRegistration.php` | High
-20 | File | `/member/ad.php?action=ad` | High
-21 | File | `/oauth/idp/.well-known/openid-configuration` | High
-22 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-23 | File | `/owa/auth/logon.aspx` | High
-24 | File | `/protocol/index.php` | High
-25 | ... | ... | ...
+19 | File | `/librarian/bookdetails.php` | High
+20 | File | `/LoginRegistration.php` | High
+21 | File | `/member/ad.php?action=ad` | High
+22 | File | `/oauth/idp/.well-known/openid-configuration` | High
+23 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+24 | File | `/owa/auth/logon.aspx` | High
+25 | File | `/protocol/index.php` | High
+26 | File | `/rest/api/latest/user/avatar/temporary` | High
+27 | ... | ... | ...
 
-There are 213 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 229 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://cyble.com/blog/new-medusa-botnet-emerging-via-mirai-botnet-targeting-linux-users/
 * https://threatfox.abuse.ch
 * https://tracker.viriback.com/index.php?q=5.42.78.61
 * https://tracker.viriback.com/index.php?q=5.61.49.177

@@ -52,7 +52,8 @@ ID | Type | Indicator | Confidence
 6 | File | `/goform/SetStaticRouteCfg` | High
 7 | File | `/src/chatbotapp/chatWindow.java` | High
 8 | File | `admin/categories_industry.php` | High
-9 | ... | ... | ...
+9 | File | `admin/class-woo-popup-admin.php` | High
+10 | ... | ... | ...
 
 There are 70 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 

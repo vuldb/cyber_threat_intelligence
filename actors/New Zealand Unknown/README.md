@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with New Zealand Unknown:
 
 * [US](https://vuldb.com/?country.us)
-* [CN](https://vuldb.com/?country.cn)
 * [NZ](https://vuldb.com/?country.nz)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 19 more country items available. Please use our online service to access the data.
+There are 23 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -631,9 +631,46 @@ ID | IP address | Hostname | Campaign | Confidence
 608 | [103.9.236.0](https://vuldb.com/?ip.103.9.236.0) | - | - | High
 609 | [103.9.239.0](https://vuldb.com/?ip.103.9.239.0) | - | - | High
 610 | [103.10.233.0](https://vuldb.com/?ip.103.10.233.0) | - | - | High
-611 | ... | ... | ... | ...
+611 | [103.11.124.0](https://vuldb.com/?ip.103.11.124.0) | - | - | High
+612 | [103.11.178.0](https://vuldb.com/?ip.103.11.178.0) | - | - | High
+613 | [103.11.240.0](https://vuldb.com/?ip.103.11.240.0) | 103-11-240-0.xtreme.net.nz | - | High
+614 | [103.13.8.0](https://vuldb.com/?ip.103.13.8.0) | - | - | High
+615 | [103.13.39.0](https://vuldb.com/?ip.103.13.39.0) | - | - | High
+616 | [103.13.116.0](https://vuldb.com/?ip.103.13.116.0) | - | - | High
+617 | [103.13.118.0](https://vuldb.com/?ip.103.13.118.0) | - | - | High
+618 | [103.13.118.64](https://vuldb.com/?ip.103.13.118.64) | - | - | High
+619 | [103.13.118.67](https://vuldb.com/?ip.103.13.118.67) | - | - | High
+620 | [103.13.118.68](https://vuldb.com/?ip.103.13.118.68) | - | - | High
+621 | [103.13.118.72](https://vuldb.com/?ip.103.13.118.72) | - | - | High
+622 | [103.13.118.80](https://vuldb.com/?ip.103.13.118.80) | - | - | High
+623 | [103.13.118.96](https://vuldb.com/?ip.103.13.118.96) | - | - | High
+624 | [103.13.118.128](https://vuldb.com/?ip.103.13.118.128) | - | - | High
+625 | [103.13.119.0](https://vuldb.com/?ip.103.13.119.0) | - | - | High
+626 | [103.14.3.0](https://vuldb.com/?ip.103.14.3.0) | - | - | High
+627 | [103.14.40.0](https://vuldb.com/?ip.103.14.40.0) | - | - | High
+628 | [103.14.68.0](https://vuldb.com/?ip.103.14.68.0) | ip-103-14-68-0.static.vorco.net | - | High
+629 | [103.14.140.0](https://vuldb.com/?ip.103.14.140.0) | 103-14-140-0.ip.cis.gen.nz | - | High
+630 | [103.14.216.0](https://vuldb.com/?ip.103.14.216.0) | - | - | High
+631 | [103.15.75.0](https://vuldb.com/?ip.103.15.75.0) | 103-15-75-0.eid.co.nz | - | High
+632 | [103.15.126.0](https://vuldb.com/?ip.103.15.126.0) | - | - | High
+633 | [103.15.152.0](https://vuldb.com/?ip.103.15.152.0) | - | - | High
+634 | [103.16.20.0](https://vuldb.com/?ip.103.16.20.0) | 103-16-20-0.static.ccl.net.nz | - | High
+635 | [103.16.172.0](https://vuldb.com/?ip.103.16.172.0) | - | - | High
+636 | [103.16.180.0](https://vuldb.com/?ip.103.16.180.0) | - | - | High
+637 | [103.17.220.41](https://vuldb.com/?ip.103.17.220.41) | po20-1101.dstr1.akl.nz.as58511.net | - | High
+638 | [103.17.221.208](https://vuldb.com/?ip.103.17.221.208) | 208-221-17-103.network.conit.com.au | - | High
+639 | [103.17.223.36](https://vuldb.com/?ip.103.17.223.36) | 36-223-17-103.network.conit.com.au | - | High
+640 | [103.18.56.0](https://vuldb.com/?ip.103.18.56.0) | - | - | High
+641 | [103.18.58.0](https://vuldb.com/?ip.103.18.58.0) | - | - | High
+642 | [103.18.118.0](https://vuldb.com/?ip.103.18.118.0) | 103-18-118-0.dynamic.lightwire.co.nz | - | High
+643 | [103.18.136.0](https://vuldb.com/?ip.103.18.136.0) | - | - | High
+644 | [103.18.200.0](https://vuldb.com/?ip.103.18.200.0) | - | - | High
+645 | [103.19.4.0](https://vuldb.com/?ip.103.19.4.0) | - | - | High
+646 | [103.19.10.0](https://vuldb.com/?ip.103.19.10.0) | 103-19-10-0.static.2talk.co.nz | - | High
+647 | [103.19.100.0](https://vuldb.com/?ip.103.19.100.0) | - | - | High
+648 | ... | ... | ... | ...
 
-There are 2440 more IOC items available. Please use our online service to access the data.
+There are 2586 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -641,14 +678,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-25, CWE-36, CWE-425 | Path Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+1 | T1006 | CWE-22, CWE-23, CWE-25, CWE-36, CWE-425 | Path Traversal | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -656,50 +692,58 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `%SYSTEMDRIVE%\node_modules\.bin\wmic.exe` | High
-2 | File | `/#ilang=DE&b=c_smartenergy_swgroups` | High
-3 | File | `/Account/login.php` | High
-4 | File | `/admin.php?p=/Area/index#tab=t2` | High
-5 | File | `/admin/` | Low
-6 | File | `/admin/?page=system_info` | High
-7 | File | `/admin/add-category.php` | High
-8 | File | `/admin/singlelogin.php?submit=1` | High
-9 | File | `/adminapi/system/crud` | High
-10 | File | `/adminapi/system/file/openfile` | High
-11 | File | `/admin_route/dec_service_credits.php` | High
-12 | File | `/api/filemanager` | High
-13 | File | `/api/v4/teams//channels/deleted` | High
-14 | File | `/b2b-supermarket/shopping-cart` | High
-15 | File | `/boaform/device_reset.cgi` | High
-16 | File | `/cgi-bin/cstecgi.cgi` | High
-17 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-18 | File | `/change-language/de_DE` | High
-19 | File | `/debug/pprof` | Medium
-20 | File | `/devinfo` | Medium
-21 | File | `/dist/index.js` | High
-22 | File | `/DXR.axd` | Medium
-23 | File | `/forum/away.php` | High
-24 | File | `/geoserver/gwc/rest.html` | High
-25 | File | `/goform/formSysCmd` | High
-26 | File | `/HNAP1/` | Low
-27 | File | `/home/kickPlayer` | High
-28 | File | `/hosts/firewall/ip` | High
-29 | File | `/index.jsp#settings` | High
-30 | File | `/index.php/ccm/system/file/upload` | High
-31 | File | `/log/decodmail.php` | High
-32 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-33 | File | `/oauth/idp/.well-known/openid-configuration` | High
-34 | File | `/owa/auth/logon.aspx` | High
-35 | File | `/pg_meta/default/query` | High
-36 | File | `/php/ping.php` | High
-37 | File | `/register.php` | High
-38 | File | `/rom-0` | Low
-39 | File | `/s/index.php?action=statistics` | High
-40 | File | `/scripts/unlock_tasks.php` | High
-41 | File | `/setting` | Medium
-42 | ... | ... | ...
+1 | File | `/#ilang=DE&b=c_smartenergy_swgroups` | High
+2 | File | `/Account/login.php` | High
+3 | File | `/admin.php?p=/Area/index#tab=t2` | High
+4 | File | `/admin/` | Low
+5 | File | `/Admin/changepassword.php` | High
+6 | File | `/admin/config_Anticrack.php` | High
+7 | File | `/admin/court` | Medium
+8 | File | `/Admin/createClass.php` | High
+9 | File | `/admin/general-setting` | High
+10 | File | `/admin/maintenance/manage_brand.php` | High
+11 | File | `/admin/orders/view_order.php` | High
+12 | File | `/admin/problem_judge.php` | High
+13 | File | `/admin/service` | High
+14 | File | `/admin/singlelogin.php?submit=1` | High
+15 | File | `/adminapi/system/crud` | High
+16 | File | `/adminapi/system/file/openfile` | High
+17 | File | `/admin_route/dec_service_credits.php` | High
+18 | File | `/api/filemanager` | High
+19 | File | `/api/v4/teams//channels/deleted` | High
+20 | File | `/api/wechat/app_auth` | High
+21 | File | `/b2b-supermarket/shopping-cart` | High
+22 | File | `/blog/blog.php` | High
+23 | File | `/boaform/device_reset.cgi` | High
+24 | File | `/cancel.php` | Medium
+25 | File | `/catalog/admin/categories.php?cPath=&action=new_product` | High
+26 | File | `/category.php` | High
+27 | File | `/cgi-bin/cstecgi.cgi` | High
+28 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+29 | File | `/cgi-bin/nas_sharing.cgi` | High
+30 | File | `/change-language/de_DE` | High
+31 | File | `/College/admin/teacher.php` | High
+32 | File | `/control/register_case.php` | High
+33 | File | `/devinfo` | Medium
+34 | File | `/dist/index.js` | High
+35 | File | `/download` | Medium
+36 | File | `/DXR.axd` | Medium
+37 | File | `/etc/shadow` | Medium
+38 | File | `/forum/away.php` | High
+39 | File | `/geoserver/gwc/rest.html` | High
+40 | File | `/goform/QuickIndex` | High
+41 | File | `/goform/wifiSSIDset` | High
+42 | File | `/home/kickPlayer` | High
+43 | File | `/hosts/firewall/ip` | High
+44 | File | `/index.jsp#settings` | High
+45 | File | `/index.php` | Medium
+46 | File | `/index.php/ccm/system/file/upload` | High
+47 | File | `/itbox_pi/networksafe.php?a=set` | High
+48 | File | `/log/decodmail.php` | High
+49 | File | `/manage_sy.php` | High
+50 | ... | ... | ...
 
-There are 359 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 436 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -707,6 +751,7 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://github.com/firehol/blocklist-ipsets/blob/master/geolite2_country/country_nz.netset
 * https://github.com/firehol/blocklist-ipsets/blob/master/ipip_country/ipip_country_nz.netset
+* https://github.com/scriptzteam/Private-Internet-Access-VPN-Servers/blob/main/export.csv
 * https://raw.githubusercontent.com/firehol/blocklist-ipsets/master/ip2location_country/ip2location_country_nz.netset
 
 ## Literature

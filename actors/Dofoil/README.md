@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Dofoil:
 
-* [CN](https://vuldb.com/?country.cn)
-* [US](https://vuldb.com/?country.us)
-* [RU](https://vuldb.com/?country.ru)
+* [DE](https://vuldb.com/?country.de)
+* [ES](https://vuldb.com/?country.es)
+* [IT](https://vuldb.com/?country.it)
 * ...
 
-There are 3 more country items available. Please use our online service to access the data.
+There are 6 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -43,13 +43,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-94 | Argument Injection | High
-5 | ... | ... | ... | ...
+1 | T1059.007 | CWE-79 | Cross Site Scripting | High
+2 | T1202 | CWE-77, CWE-78 | Command Shell in Externally Accessible Directory | High
+3 | T1505 | CWE-89 | SQL Injection | High
+4 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 4 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -57,42 +56,21 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/act/ActDao.xml` | High
-2 | File | `/api/clusters/local/topics/{topic}/messages` | High
-3 | File | `/api/trackedEntityInstances` | High
-4 | File | `/aux` | Low
-5 | File | `/dashboard/system/basics/name` | High
-6 | File | `/data/remove` | Medium
-7 | File | `/debug/pprof` | Medium
-8 | File | `/etc/passwd` | Medium
-9 | File | `/forum/away.php` | High
-10 | File | `/goform/net\_Web\_get_value` | High
-11 | File | `/index.php` | Medium
-12 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-13 | File | `/tmp/ppd.trace` | High
-14 | File | `/user/inc/workidajax.php` | High
-15 | File | `/userLogin.asp` | High
-16 | File | `Access.app/Contents/Resources/kcproxy` | High
-17 | File | `act.php` | Low
-18 | File | `addressbook.update.php` | High
-19 | File | `admin.php` | Medium
-20 | File | `admin/index.php` | High
-21 | File | `admin/partials/wp-splashing-admin-main.php` | High
-22 | File | `admin/password_reset.lua` | High
-23 | File | `apexec.pl` | Medium
-24 | File | `app/profile/summary/` | High
-25 | File | `arch/arm/p2m.c` | High
-26 | File | `arch/arm64/kernel/sys.c` | High
-27 | File | `arch/x86/include/asm/uaccess.h` | High
-28 | File | `arch/x86/kernel/cpu/microcode/intel_early.c` | High
-29 | File | `Certificates.java` | High
-30 | File | `cgi-bin/gui.cgi` | High
-31 | File | `cloud.php` | Medium
-32 | File | `coders/png.c` | Medium
-33 | File | `com/mldong/modules/wf/engine/model/DecisionModel.java` | High
-34 | ... | ... | ...
+1 | File | `/admin/admin_cl.php?mudi=revPwd` | High
+2 | File | `/cgi-bin/koha/opac-MARCdetail.pl` | High
+3 | File | `/doctor/view-appointment-detail.php` | High
+4 | File | `/goform/AddDnsForward` | High
+5 | File | `/goform/addIpMacBind` | High
+6 | File | `/goform/AdvSetMacMtuWan` | High
+7 | File | `/goform/DelDhcpRule` | High
+8 | File | `/goform/DelPortMapping` | High
+9 | File | `/goform/DhcpSetSe` | High
+10 | File | `/goform/DhcpSetSer` | High
+11 | File | `/goform/execCommand` | High
+12 | File | `/goform/modifyDhcpRule` | High
+13 | ... | ... | ...
 
-There are 289 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 105 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

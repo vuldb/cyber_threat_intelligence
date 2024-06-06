@@ -19,12 +19,12 @@ There are 2 more campaign items available. Please use our online service to acce
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with China Unknown:
 
-* [CN](https://vuldb.com/?country.cn)
-* [US](https://vuldb.com/?country.us)
-* [IL](https://vuldb.com/?country.il)
+* [DE](https://vuldb.com/?country.de)
+* [ES](https://vuldb.com/?country.es)
+* [IT](https://vuldb.com/?country.it)
 * ...
 
-There are 9 more country items available. Please use our online service to access the data.
+There are 8 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -1923,13 +1923,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-36 | Path Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-94 | Argument Injection | High
-5 | ... | ... | ... | ...
+1 | T1059.007 | CWE-79 | Cross Site Scripting | High
+2 | T1068 | CWE-284 | Execution with Unnecessary Privileges | High
+3 | T1202 | CWE-77, CWE-78 | Command Shell in Externally Accessible Directory | High
+4 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 5 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -1937,36 +1936,22 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/Account/login.php` | High
-2 | File | `/admin.php` | Medium
-3 | File | `/admin/` | Low
-4 | File | `/admin/index2.html` | High
-5 | File | `/admin/list_ipAddressPolicy.php` | High
-6 | File | `/admin/list_resource_icon.php?action=delete` | High
-7 | File | `/admin/singlelogin.php` | High
-8 | File | `/admin/users.php` | High
-9 | File | `/adminapi/system/crud` | High
-10 | File | `/adminapi/system/file/openfile` | High
-11 | File | `/api /v3/auth` | High
-12 | File | `/bin/sh` | Low
-13 | File | `/cancel.php` | Medium
-14 | File | `/category.php` | High
-15 | File | `/cgi-bin/cstecgi.cgi` | High
-16 | File | `/data/remove` | Medium
-17 | File | `/debug/pprof` | Medium
-18 | File | `/download` | Medium
-19 | File | `/forum/away.php` | High
-20 | File | `/goform/net\_Web\_get_value` | High
-21 | File | `/goform/SetStaticRouteCfg` | High
-22 | File | `/index.jsp#settings` | High
-23 | File | `/ossim/report/wizard_email.php` | High
-24 | File | `/patient/appointment.php` | High
-25 | File | `/prescription/prescription/delete/` | High
-26 | File | `/pro/common/download` | High
-27 | File | `/Setting/change_password_save` | High
-28 | ... | ... | ...
+1 | File | `/admin/admin_cl.php?mudi=revPwd` | High
+2 | File | `/cgi-bin/koha/opac-MARCdetail.pl` | High
+3 | File | `/doctor/view-appointment-detail.php` | High
+4 | File | `/goform/AddDnsForward` | High
+5 | File | `/goform/addIpMacBind` | High
+6 | File | `/goform/AdvSetMacMtuWan` | High
+7 | File | `/goform/DelDhcpRule` | High
+8 | File | `/goform/DelPortMapping` | High
+9 | File | `/goform/DhcpSetSe` | High
+10 | File | `/goform/DhcpSetSer` | High
+11 | File | `/goform/execCommand` | High
+12 | File | `/goform/modifyDhcpRule` | High
+13 | File | `/goform/modifyIpMacBind` | High
+14 | ... | ... | ...
 
-There are 241 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 107 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 3 more country items available. Please use our online service to access the data.
+There are 4 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -165,9 +165,13 @@ ID | IP address | Hostname | Campaign | Confidence
 142 | [103.14.11.122](https://vuldb.com/?ip.103.14.11.122) | sun-mx960-transit-intl-103-14-11-122.symphony.net.th | - | High
 143 | [103.14.248.0](https://vuldb.com/?ip.103.14.248.0) | - | - | High
 144 | [103.16.60.0](https://vuldb.com/?ip.103.16.60.0) | - | - | High
-145 | ... | ... | ... | ...
+145 | [103.17.212.0](https://vuldb.com/?ip.103.17.212.0) | - | - | High
+146 | [103.20.80.0](https://vuldb.com/?ip.103.20.80.0) | - | - | High
+147 | [103.20.157.0](https://vuldb.com/?ip.103.20.157.0) | unknown | - | High
+148 | [103.23.132.0](https://vuldb.com/?ip.103.23.132.0) | - | - | High
+149 | ... | ... | ... | ...
 
-There are 574 more IOC items available. Please use our online service to access the data.
+There are 594 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -177,7 +181,7 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22 | Path Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | ... | ... | ... | ...
 
 There are 11 more TTP items available. Please use our online service to access the data.
@@ -189,28 +193,29 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/AddNewCity/Add_City` | High
-2 | File | `/admin/subnets/ripe-query.php` | High
-3 | File | `/app/index/controller/Common.php` | High
-4 | File | `/food/admin/all_users.php` | High
-5 | File | `/forum/away.php` | High
-6 | File | `/index.php/client/message/message_read/xxxxxxxx[random-msg-hash]` | High
-7 | File | `/log/download.php` | High
-8 | File | `/mkshop/Men/profile.php` | High
-9 | File | `/modules/profile/index.php` | High
-10 | File | `/netflow/servlet/CReportPDFServlet` | High
-11 | File | `/nova/bin/console` | High
-12 | File | `/oauth/idp/.well-known/openid-configuration` | High
-13 | File | `/out.php` | Medium
-14 | File | `/spip.php` | Medium
-15 | File | `/uncpath/` | Medium
-16 | File | `/usr/bin/pkexec` | High
-17 | File | `adclick.php` | Medium
-18 | File | `add-testimonial.php` | High
-19 | File | `addentry.php` | Medium
-20 | File | `add_edit_user.asp` | High
-21 | ... | ... | ...
+2 | File | `/admin/index2.html` | High
+3 | File | `/admin/subnets/ripe-query.php` | High
+4 | File | `/app/index/controller/Common.php` | High
+5 | File | `/food/admin/all_users.php` | High
+6 | File | `/forum/away.php` | High
+7 | File | `/index.php/client/message/message_read/xxxxxxxx[random-msg-hash]` | High
+8 | File | `/log/download.php` | High
+9 | File | `/mkshop/Men/profile.php` | High
+10 | File | `/modules/profile/index.php` | High
+11 | File | `/netflow/servlet/CReportPDFServlet` | High
+12 | File | `/nova/bin/console` | High
+13 | File | `/oauth/idp/.well-known/openid-configuration` | High
+14 | File | `/out.php` | Medium
+15 | File | `/spip.php` | Medium
+16 | File | `/uncpath/` | Medium
+17 | File | `/usr/bin/pkexec` | High
+18 | File | `adclick.php` | Medium
+19 | File | `add-testimonial.php` | High
+20 | File | `addentry.php` | Medium
+21 | File | `add_edit_user.asp` | High
+22 | ... | ... | ...
 
-There are 174 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 180 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -219,6 +224,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://github.com/firehol/blocklist-ipsets/blob/master/geolite2_country/country_kh.netset
 * https://github.com/firehol/blocklist-ipsets/blob/master/ip2location_country/ip2location_country_kh.netset
 * https://github.com/firehol/blocklist-ipsets/blob/master/ipip_country/ipip_country_kh.netset
+* https://github.com/scriptzteam/Private-Internet-Access-VPN-Servers/blob/main/export.csv
 * https://go.recordedfuture.com/hubfs/reports/cta-2021-1208.pdf
 
 ## Literature

@@ -36,7 +36,7 @@ ID | IP address | Hostname | Actor | Confidence
 3 | [54.180.27.29](https://vuldb.com/?ip.54.180.27.29) | ec2-54-180-27-29.ap-northeast-2.compute.amazonaws.com | [SparkRAT](https://vuldb.com/?actor.sparkrat) | Medium
 4 | ... | ... | ... | ...
 
-There are 9 more IOC items available. Please use our online service to access the data.
+There are 10 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -76,25 +76,25 @@ ID | Type | Indicator | Confidence
 16 | File | `/inc/campaign/campaign-delete.php` | High
 17 | File | `/include/menu_v.inc.php` | High
 18 | File | `/librarian/lab.php` | High
-19 | File | `/omos/admin/?page=user/list` | High
-20 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-21 | File | `/panel/fields/add` | High
-22 | File | `/patient/settings.php` | High
-23 | File | `/proc/*/cmdline"` | High
-24 | File | `/proc/pid/syscall` | High
-25 | File | `/sbin/acos_service` | High
-26 | File | `/sgmi/` | Low
-27 | File | `/SysInfo.htm` | Medium
-28 | File | `/tmp` | Low
-29 | File | `/uncpath/` | Medium
-30 | File | `/usr/lib/print/conv_fix` | High
-31 | File | `/var/log/pcp/configs.sh` | High
-32 | File | `AdClass.php` | Medium
-33 | File | `add_comment.php` | High
-34 | File | `admin.php` | Medium
+19 | File | `/login/` | Low
+20 | File | `/manage_laundry.php` | High
+21 | File | `/omos/admin/?page=user/list` | High
+22 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+23 | File | `/panel/fields/add` | High
+24 | File | `/patient/settings.php` | High
+25 | File | `/proc/*/cmdline"` | High
+26 | File | `/proc/pid/syscall` | High
+27 | File | `/sbin/acos_service` | High
+28 | File | `/sgmi/` | Low
+29 | File | `/src/c-blosc2/plugins/codecs/ndlz/ndlz8x8.c` | High
+30 | File | `/SysInfo.htm` | Medium
+31 | File | `/tmp` | Low
+32 | File | `/uncpath/` | Medium
+33 | File | `/usr/lib/print/conv_fix` | High
+34 | File | `/var/log/pcp/configs.sh` | High
 35 | ... | ... | ...
 
-There are 297 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 302 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -103,6 +103,7 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://asec.ahnlab.com/en/52899/
 * https://asec.ahnlab.com/en/53267/
 * https://github.com/eset/malware-ioc/tree/master/sparklinggoblin
+* https://threatfox.abuse.ch
 * https://twitter.com/suyog41/status/1655524692164214784
 * https://twitter.com/suyog41/status/1699438327508734306
 * https://unit42.paloaltonetworks.com/molerats-delivers-spark-backdoor/

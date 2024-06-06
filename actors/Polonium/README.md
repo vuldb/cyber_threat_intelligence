@@ -48,7 +48,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -59,29 +59,30 @@ ID | Type | Indicator | Confidence
 1 | File | `.htaccess` | Medium
 2 | File | `/advanced-tools/nova/bin/netwatch` | High
 3 | File | `/classes/master.php?f=delete_order` | High
-4 | File | `/etc/gsissh/sshd_config` | High
-5 | File | `/etc/passwd` | Medium
-6 | File | `/forms/nslookupHandler` | High
-7 | File | `/h/autoSaveDraft` | High
-8 | File | `/index.php` | Medium
-9 | File | `/librarian/bookdetails.php` | High
-10 | File | `/modules/profile/index.php` | High
-11 | File | `/news.dtl.php` | High
-12 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-13 | File | `/out.php` | Medium
-14 | File | `/patient/appointment.php` | High
-15 | File | `/php-opos/index.php` | High
-16 | File | `/protocol/iscgwtunnel/uploadiscgwrouteconf.php` | High
-17 | File | `/ptms/?page=user` | High
-18 | File | `/sqfs/bin/sccd` | High
-19 | File | `/tmp` | Low
-20 | File | `/uncpath/` | Medium
-21 | File | `/upload/file.php` | High
-22 | File | `/usr/bin/at` | Medium
-23 | File | `/usr/local/www/pkg.php` | High
-24 | ... | ... | ...
+4 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
+5 | File | `/etc/gsissh/sshd_config` | High
+6 | File | `/etc/passwd` | Medium
+7 | File | `/forms/nslookupHandler` | High
+8 | File | `/h/autoSaveDraft` | High
+9 | File | `/index.php` | Medium
+10 | File | `/librarian/bookdetails.php` | High
+11 | File | `/model/update_grade.php` | High
+12 | File | `/modules/profile/index.php` | High
+13 | File | `/news.dtl.php` | High
+14 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+15 | File | `/out.php` | Medium
+16 | File | `/patient/appointment.php` | High
+17 | File | `/php-opos/index.php` | High
+18 | File | `/protocol/iscgwtunnel/uploadiscgwrouteconf.php` | High
+19 | File | `/ptms/?page=user` | High
+20 | File | `/sqfs/bin/sccd` | High
+21 | File | `/tmp` | Low
+22 | File | `/uncpath/` | Medium
+23 | File | `/upload/file.php` | High
+24 | File | `/usr/bin/at` | Medium
+25 | ... | ... | ...
 
-There are 205 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 212 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

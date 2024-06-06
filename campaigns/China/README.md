@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
-* [ES](https://vuldb.com/?country.es)
+* [IT](https://vuldb.com/?country.it)
 * ...
 
-There are 7 more country items available. Please use our online service to access the data.
+There are 15 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -1927,13 +1927,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Path Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-94 | Argument Injection | High
+1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -1941,33 +1941,34 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin.php` | Medium
-2 | File | `/admin/index2.html` | High
-3 | File | `/admin/list_ipAddressPolicy.php` | High
-4 | File | `/admin/list_resource_icon.php?action=delete` | High
-5 | File | `/admin/singlelogin.php` | High
-6 | File | `/admin/users.php` | High
-7 | File | `/api /v3/auth` | High
-8 | File | `/bin/sh` | Low
-9 | File | `/cancel.php` | Medium
-10 | File | `/category.php` | High
-11 | File | `/cgi-bin/cstecgi.cgi` | High
-12 | File | `/debug/pprof` | Medium
-13 | File | `/download` | Medium
-14 | File | `/forum/away.php` | High
-15 | File | `/goform/net\_Web\_get_value` | High
-16 | File | `/goform/SetStaticRouteCfg` | High
-17 | File | `/ossim/report/wizard_email.php` | High
-18 | File | `/patient/appointment.php` | High
-19 | File | `/prescription/prescription/delete/` | High
-20 | File | `/pro/common/download` | High
-21 | File | `/Setting/change_password_save` | High
-22 | File | `/spip.php` | Medium
-23 | File | `/src/dede/friendlink_edit.php` | High
-24 | File | `/tmp` | Low
-25 | ... | ... | ...
+1 | File | `/admin.php?p=/Area/index#tab=t2` | High
+2 | File | `/admin/admin_cl.php?mudi=revPwd` | High
+3 | File | `/adminPage/www/addOver` | High
+4 | File | `/api/wechat/app_auth` | High
+5 | File | `/api/{org_id}/users` | High
+6 | File | `/cgi-bin/koha/opac-MARCdetail.pl` | High
+7 | File | `/cgi-bin/nas_sharing.cgi` | High
+8 | File | `/control/register_case.php` | High
+9 | File | `/debug/pprof` | Medium
+10 | File | `/doctor/view-appointment-detail.php` | High
+11 | File | `/goform/AddDnsForward` | High
+12 | File | `/goform/addIpMacBind` | High
+13 | File | `/goform/AdvSetMacMtuWan` | High
+14 | File | `/goform/DelDhcpRule` | High
+15 | File | `/goform/delIpMacBind` | High
+16 | File | `/goform/DelPortMapping` | High
+17 | File | `/goform/DhcpSetSe` | High
+18 | File | `/goform/DhcpSetSer` | High
+19 | File | `/goform/execCommand` | High
+20 | File | `/goform/modifyDhcpRule` | High
+21 | File | `/goform/modifyIpMacBind` | High
+22 | File | `/goform/ModifyPppAuthWhiteMac` | High
+23 | File | `/goform/PowerSaveSet` | High
+24 | File | `/goform/setBlackRule` | High
+25 | File | `/goform/SetDDNSCfg` | High
+26 | ... | ... | ...
 
-There are 211 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 220 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

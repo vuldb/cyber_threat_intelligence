@@ -40,7 +40,7 @@ ID | IP address | Hostname | Campaign | Confidence
 6 | [27.102.107.230](https://vuldb.com/?ip.27.102.107.230) | - | - | High
 7 | ... | ... | ... | ...
 
-There are 24 more IOC items available. Please use our online service to access the data.
+There are 25 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -50,7 +50,7 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
@@ -71,34 +71,35 @@ ID | Type | Indicator | Confidence
 6 | File | `/admin/uesrs.php&action=type&userrole=Admin&userid=3` | High
 7 | File | `/api/v1/terminal/sessions/?limit=1` | High
 8 | File | `/assets/something/services/AppModule.class` | High
-9 | File | `/blog` | Low
-10 | File | `/cgi-bin/login.cgi` | High
-11 | File | `/cgi-bin/luci/api/wireless` | High
-12 | File | `/cgi-bin/system_mgr.cgi` | High
-13 | File | `/cgi-bin/webproc` | High
-14 | File | `/dist/index.js` | High
-15 | File | `/Duty/AjaxHandle/UploadFloodPlanFileUpdate.ashx` | High
-16 | File | `/etc/postfix/sender_login` | High
-17 | File | `/expert_wizard.php` | High
-18 | File | `/fax/fax_send.php` | High
-19 | File | `/files/list-file` | High
-20 | File | `/forum/away.php` | High
-21 | File | `/goform/RGFirewallEL` | High
-22 | File | `/inc/parser/xhtml.php` | High
-23 | File | `/index.php?menu=asterisk_cli` | High
-24 | File | `/jsoa/hntdCustomDesktopActionContent` | High
-25 | File | `/lists/index.php` | High
-26 | File | `/login.html` | Medium
-27 | File | `/medical/inventories.php` | High
-28 | File | `/mobilebroker/ServiceToBroker.svc/Json/Connect` | High
-29 | File | `/new` | Low
-30 | File | `/public/login.htm` | High
-31 | File | `/secure/QueryComponent!Default.jspa` | High
-32 | File | `/static/ueditor/php/controller.php` | High
-33 | File | `/system?action=ServiceAdmin` | High
-34 | ... | ... | ...
+9 | File | `/authenticate.php` | High
+10 | File | `/blog` | Low
+11 | File | `/cgi-bin/login.cgi` | High
+12 | File | `/cgi-bin/luci/api/wireless` | High
+13 | File | `/cgi-bin/system_mgr.cgi` | High
+14 | File | `/cgi-bin/webproc` | High
+15 | File | `/dist/index.js` | High
+16 | File | `/Duty/AjaxHandle/UploadFloodPlanFileUpdate.ashx` | High
+17 | File | `/etc/postfix/sender_login` | High
+18 | File | `/expert_wizard.php` | High
+19 | File | `/fax/fax_send.php` | High
+20 | File | `/files/list-file` | High
+21 | File | `/forum/away.php` | High
+22 | File | `/goform/RGFirewallEL` | High
+23 | File | `/inc/parser/xhtml.php` | High
+24 | File | `/index.php?menu=asterisk_cli` | High
+25 | File | `/jsoa/hntdCustomDesktopActionContent` | High
+26 | File | `/lists/index.php` | High
+27 | File | `/login.html` | Medium
+28 | File | `/medical/inventories.php` | High
+29 | File | `/mobilebroker/ServiceToBroker.svc/Json/Connect` | High
+30 | File | `/new` | Low
+31 | File | `/public/login.htm` | High
+32 | File | `/secure/QueryComponent!Default.jspa` | High
+33 | File | `/static/ueditor/php/controller.php` | High
+34 | File | `/system?action=ServiceAdmin` | High
+35 | ... | ... | ...
 
-There are 292 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 304 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -108,6 +109,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://asec.ahnlab.com/en/59073/
 * https://asec.ahnlab.com/en/59318/
 * https://asec.ahnlab.com/en/59904/
+* https://asec.ahnlab.com/en/63192/
 
 ## Literature
 

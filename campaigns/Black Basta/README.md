@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 33 more country items available. Please use our online service to access the data.
+There are 30 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -113,33 +113,32 @@ ID | Type | Indicator | Confidence
 37 | File | `/proc/self/environ` | High
 38 | File | `/protocol/iscgwtunnel/uploadiscgwrouteconf.php` | High
 39 | File | `/rest/api/2/user/picker` | High
-40 | File | `/s/` | Low
-41 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-42 | File | `/secure/QueryComponent!Default.jspa` | High
-43 | File | `/sendrcpackage?keyid=-2544&keysymbol=-4081` | High
-44 | File | `/SystemMng.ashx` | High
-45 | File | `/usr/bin/at` | Medium
-46 | File | `/var/WEB-GUI/cgi-bin/downloadfile.cgi` | High
-47 | File | `/vicidial/user_stats.php` | High
-48 | File | `/vm/admin/doctors.php` | High
-49 | File | `/websocket/exec` | High
-50 | File | `access.conf` | Medium
-51 | File | `action.php` | Medium
-52 | File | `actions.class.php` | High
-53 | File | `adclick.php` | Medium
-54 | File | `addsuppliers.php` | High
-55 | File | `admin.php` | Medium
-56 | File | `admin.remository.php` | High
-57 | File | `admin/admin_users.php` | High
-58 | File | `admin/login.php` | High
-59 | File | `administers` | Medium
-60 | File | `Administrator_list.php` | High
-61 | File | `advancedsetup_websiteblocking.html` | High
-62 | File | `affich.php` | Medium
-63 | File | `AffiliateLogin.asp` | High
-64 | ... | ... | ...
+40 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+41 | File | `/secure/QueryComponent!Default.jspa` | High
+42 | File | `/sendrcpackage?keyid=-2544&keysymbol=-4081` | High
+43 | File | `/SystemMng.ashx` | High
+44 | File | `/usr/bin/at` | Medium
+45 | File | `/var/WEB-GUI/cgi-bin/downloadfile.cgi` | High
+46 | File | `/vicidial/user_stats.php` | High
+47 | File | `/vm/admin/doctors.php` | High
+48 | File | `/websocket/exec` | High
+49 | File | `access.conf` | Medium
+50 | File | `action.php` | Medium
+51 | File | `actions.class.php` | High
+52 | File | `adclick.php` | Medium
+53 | File | `addsuppliers.php` | High
+54 | File | `admin.php` | Medium
+55 | File | `admin.remository.php` | High
+56 | File | `admin/admin_users.php` | High
+57 | File | `admin/login.php` | High
+58 | File | `administers` | Medium
+59 | File | `Administrator_list.php` | High
+60 | File | `advancedsetup_websiteblocking.html` | High
+61 | File | `affich.php` | Medium
+62 | File | `AffiliateLogin.asp` | High
+63 | ... | ... | ...
 
-There are 561 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 556 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

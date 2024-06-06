@@ -8,7 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Albania Unknown:
 
-* [AL](https://vuldb.com/?country.al)
+* [US](https://vuldb.com/?country.us)
+* [RU](https://vuldb.com/?country.ru)
+* [TR](https://vuldb.com/?country.tr)
+* ...
+
+There are 3 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -25,54 +30,62 @@ ID | IP address | Hostname | Campaign | Confidence
 7 | [31.22.48.0](https://vuldb.com/?ip.31.22.48.0) | - | - | High
 8 | [31.44.64.0](https://vuldb.com/?ip.31.44.64.0) | - | - | High
 9 | [31.171.152.0](https://vuldb.com/?ip.31.171.152.0) | - | - | High
-10 | [31.220.29.0](https://vuldb.com/?ip.31.220.29.0) | - | - | High
-11 | [31.220.29.159](https://vuldb.com/?ip.31.220.29.159) | - | - | High
-12 | [31.220.29.192](https://vuldb.com/?ip.31.220.29.192) | - | - | High
-13 | [31.222.40.0](https://vuldb.com/?ip.31.222.40.0) | - | - | High
-14 | [37.26.64.0](https://vuldb.com/?ip.37.26.64.0) | - | - | High
-15 | [37.26.67.0](https://vuldb.com/?ip.37.26.67.0) | - | - | High
-16 | [37.26.68.0](https://vuldb.com/?ip.37.26.68.0) | - | - | High
-17 | [37.26.80.0](https://vuldb.com/?ip.37.26.80.0) | - | - | High
-18 | [37.35.64.0](https://vuldb.com/?ip.37.35.64.0) | - | - | High
-19 | [37.139.112.0](https://vuldb.com/?ip.37.139.112.0) | - | - | High
-20 | [37.252.221.0](https://vuldb.com/?ip.37.252.221.0) | - | - | High
-21 | [45.10.192.0](https://vuldb.com/?ip.45.10.192.0) | - | - | High
-22 | [45.12.70.6](https://vuldb.com/?ip.45.12.70.6) | ptr.autonomoussystemssolutions.com | - | High
-23 | [45.12.71.6](https://vuldb.com/?ip.45.12.71.6) | - | - | High
-24 | [45.66.224.0](https://vuldb.com/?ip.45.66.224.0) | - | - | High
-25 | [45.66.252.0](https://vuldb.com/?ip.45.66.252.0) | 45-66-252-0.uptivities.eu | - | High
-26 | [45.67.0.0](https://vuldb.com/?ip.45.67.0.0) | - | - | High
-27 | [45.74.1.0](https://vuldb.com/?ip.45.74.1.0) | - | - | High
-28 | [45.80.48.0](https://vuldb.com/?ip.45.80.48.0) | - | - | High
-29 | [45.80.49.0](https://vuldb.com/?ip.45.80.49.0) | - | - | High
-30 | [45.80.50.0](https://vuldb.com/?ip.45.80.50.0) | - | - | High
-31 | [45.84.116.0](https://vuldb.com/?ip.45.84.116.0) | - | - | High
-32 | [45.84.236.0](https://vuldb.com/?ip.45.84.236.0) | - | - | High
-33 | [45.84.238.0](https://vuldb.com/?ip.45.84.238.0) | - | - | High
-34 | [45.90.80.0](https://vuldb.com/?ip.45.90.80.0) | - | - | High
-35 | [45.93.220.0](https://vuldb.com/?ip.45.93.220.0) | ip-45-93-220-0.digicom-al.net | - | High
-36 | [45.134.104.0](https://vuldb.com/?ip.45.134.104.0) | - | - | High
-37 | [45.142.24.0](https://vuldb.com/?ip.45.142.24.0) | - | - | High
-38 | [45.157.124.0](https://vuldb.com/?ip.45.157.124.0) | - | - | High
-39 | [46.19.224.0](https://vuldb.com/?ip.46.19.224.0) | - | - | High
-40 | [46.19.226.0](https://vuldb.com/?ip.46.19.226.0) | - | - | High
-41 | [46.19.228.0](https://vuldb.com/?ip.46.19.228.0) | - | - | High
-42 | [46.19.229.0](https://vuldb.com/?ip.46.19.229.0) | - | - | High
-43 | [46.19.230.0](https://vuldb.com/?ip.46.19.230.0) | - | - | High
-44 | [46.99.0.0](https://vuldb.com/?ip.46.99.0.0) | - | - | High
-45 | [46.183.120.0](https://vuldb.com/?ip.46.183.120.0) | - | - | High
-46 | [46.189.121.0](https://vuldb.com/?ip.46.189.121.0) | - | - | High
-47 | [46.243.224.0](https://vuldb.com/?ip.46.243.224.0) | - | - | High
-48 | [46.252.32.0](https://vuldb.com/?ip.46.252.32.0) | - | - | High
-49 | [46.255.144.0](https://vuldb.com/?ip.46.255.144.0) | - | - | High
-50 | [57.90.0.0](https://vuldb.com/?ip.57.90.0.0) | - | - | High
-51 | [62.75.65.0](https://vuldb.com/?ip.62.75.65.0) | - | - | High
-52 | [62.75.66.0](https://vuldb.com/?ip.62.75.66.0) | - | - | High
-53 | [63.160.2.0](https://vuldb.com/?ip.63.160.2.0) | - | - | High
-54 | [63.165.176.69](https://vuldb.com/?ip.63.165.176.69) | - | - | High
-55 | ... | ... | ... | ...
+10 | [31.171.154.67](https://vuldb.com/?ip.31.171.154.67) | - | - | High
+11 | [31.171.154.68](https://vuldb.com/?ip.31.171.154.68) | - | - | High
+12 | [31.171.154.69](https://vuldb.com/?ip.31.171.154.69) | - | - | High
+13 | [31.171.154.70](https://vuldb.com/?ip.31.171.154.70) | - | - | High
+14 | [31.171.154.71](https://vuldb.com/?ip.31.171.154.71) | - | - | High
+15 | [31.171.154.72](https://vuldb.com/?ip.31.171.154.72) | - | - | High
+16 | [31.171.154.73](https://vuldb.com/?ip.31.171.154.73) | - | - | High
+17 | [31.171.154.74](https://vuldb.com/?ip.31.171.154.74) | - | - | High
+18 | [31.171.154.75](https://vuldb.com/?ip.31.171.154.75) | - | - | High
+19 | [31.171.154.76](https://vuldb.com/?ip.31.171.154.76) | - | - | High
+20 | [31.171.154.77](https://vuldb.com/?ip.31.171.154.77) | - | - | High
+21 | [31.171.154.78](https://vuldb.com/?ip.31.171.154.78) | - | - | High
+22 | [31.171.154.115](https://vuldb.com/?ip.31.171.154.115) | - | - | High
+23 | [31.171.154.116](https://vuldb.com/?ip.31.171.154.116) | - | - | High
+24 | [31.171.154.117](https://vuldb.com/?ip.31.171.154.117) | - | - | High
+25 | [31.171.154.118](https://vuldb.com/?ip.31.171.154.118) | - | - | High
+26 | [31.171.154.119](https://vuldb.com/?ip.31.171.154.119) | - | - | High
+27 | [31.171.154.120](https://vuldb.com/?ip.31.171.154.120) | - | - | High
+28 | [31.171.154.121](https://vuldb.com/?ip.31.171.154.121) | - | - | High
+29 | [31.171.154.122](https://vuldb.com/?ip.31.171.154.122) | - | - | High
+30 | [31.171.154.123](https://vuldb.com/?ip.31.171.154.123) | - | - | High
+31 | [31.171.154.124](https://vuldb.com/?ip.31.171.154.124) | - | - | High
+32 | [31.171.154.125](https://vuldb.com/?ip.31.171.154.125) | - | - | High
+33 | [31.171.154.126](https://vuldb.com/?ip.31.171.154.126) | - | - | High
+34 | [31.171.154.131](https://vuldb.com/?ip.31.171.154.131) | - | - | High
+35 | [31.171.154.132](https://vuldb.com/?ip.31.171.154.132) | - | - | High
+36 | [31.171.154.133](https://vuldb.com/?ip.31.171.154.133) | - | - | High
+37 | [31.171.154.134](https://vuldb.com/?ip.31.171.154.134) | - | - | High
+38 | [31.171.154.135](https://vuldb.com/?ip.31.171.154.135) | - | - | High
+39 | [31.171.154.136](https://vuldb.com/?ip.31.171.154.136) | - | - | High
+40 | [31.171.154.137](https://vuldb.com/?ip.31.171.154.137) | - | - | High
+41 | [31.171.154.138](https://vuldb.com/?ip.31.171.154.138) | - | - | High
+42 | [31.171.154.139](https://vuldb.com/?ip.31.171.154.139) | - | - | High
+43 | [31.171.154.140](https://vuldb.com/?ip.31.171.154.140) | - | - | High
+44 | [31.171.154.141](https://vuldb.com/?ip.31.171.154.141) | - | - | High
+45 | [31.171.154.142](https://vuldb.com/?ip.31.171.154.142) | - | - | High
+46 | [31.220.29.0](https://vuldb.com/?ip.31.220.29.0) | - | - | High
+47 | [31.220.29.159](https://vuldb.com/?ip.31.220.29.159) | - | - | High
+48 | [31.220.29.192](https://vuldb.com/?ip.31.220.29.192) | - | - | High
+49 | [31.222.40.0](https://vuldb.com/?ip.31.222.40.0) | - | - | High
+50 | [37.26.64.0](https://vuldb.com/?ip.37.26.64.0) | - | - | High
+51 | [37.26.67.0](https://vuldb.com/?ip.37.26.67.0) | - | - | High
+52 | [37.26.68.0](https://vuldb.com/?ip.37.26.68.0) | - | - | High
+53 | [37.26.80.0](https://vuldb.com/?ip.37.26.80.0) | - | - | High
+54 | [37.35.64.0](https://vuldb.com/?ip.37.35.64.0) | - | - | High
+55 | [37.139.112.0](https://vuldb.com/?ip.37.139.112.0) | - | - | High
+56 | [37.252.221.0](https://vuldb.com/?ip.37.252.221.0) | - | - | High
+57 | [45.10.192.0](https://vuldb.com/?ip.45.10.192.0) | - | - | High
+58 | [45.12.70.6](https://vuldb.com/?ip.45.12.70.6) | ptr.autonomoussystemssolutions.com | - | High
+59 | [45.12.71.6](https://vuldb.com/?ip.45.12.71.6) | - | - | High
+60 | [45.66.224.0](https://vuldb.com/?ip.45.66.224.0) | - | - | High
+61 | [45.66.252.0](https://vuldb.com/?ip.45.66.252.0) | 45-66-252-0.uptivities.eu | - | High
+62 | [45.67.0.0](https://vuldb.com/?ip.45.67.0.0) | - | - | High
+63 | ... | ... | ... | ...
 
-There are 218 more IOC items available. Please use our online service to access the data.
+There are 246 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -80,7 +93,27 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1600 | CWE-326 | J2EE Misconfiguration: Data Transmission Without Encryption | High
+1 | T1006 | CWE-22, CWE-23 | Path Traversal | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-94 | Argument Injection | High
+4 | ... | ... | ... | ...
+
+There are 9 more TTP items available. Please use our online service to access the data.
+
+## IOA - Indicator of Attack
+
+These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by Albania Unknown. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Type | Indicator | Confidence
+-- | ---- | --------- | ----------
+1 | File | `/admin/maintenance/manage_brand.php` | High
+2 | File | `/cgi-bin/cstecgi.cgi` | High
+3 | File | `/cgi-bin/nas_sharing.cgi` | High
+4 | File | `/check_availability.php` | High
+5 | File | `/control/register_case.php` | High
+6 | ... | ... | ...
+
+There are 42 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -89,6 +122,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://github.com/firehol/blocklist-ipsets/blob/master/geolite2_country/country_al.netset
 * https://github.com/firehol/blocklist-ipsets/blob/master/ip2location_country/ip2location_country_al.netset
 * https://github.com/firehol/blocklist-ipsets/blob/master/ipip_country/ipip_country_al.netset
+* https://github.com/scriptzteam/Private-Internet-Access-VPN-Servers/blob/main/export.csv
 
 ## Literature
 

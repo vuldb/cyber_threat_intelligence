@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Poland Unknown:
 
-* [CN](https://vuldb.com/?country.cn)
-* [US](https://vuldb.com/?country.us)
-* [IL](https://vuldb.com/?country.il)
+* [DE](https://vuldb.com/?country.de)
+* [ES](https://vuldb.com/?country.es)
+* [IT](https://vuldb.com/?country.it)
 * ...
 
-There are 19 more country items available. Please use our online service to access the data.
+There are 15 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -1658,14 +1658,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-25, CWE-36 | Path Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-94 | Argument Injection | High
+4 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 13 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -1673,61 +1671,28 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/#ilang=DE&b=c_smartenergy_swgroups` | High
-2 | File | `/Account/login.php` | High
-3 | File | `/admin/` | Low
-4 | File | `/admin/action/delete-vaccine.php` | High
-5 | File | `/admin/action/new-father.php` | High
-6 | File | `/admin/app/service_crud.php` | High
-7 | File | `/admin/edit-admin.php` | High
-8 | File | `/Admin/login.php` | High
-9 | File | `/adminapi/system/crud` | High
-10 | File | `/adminapi/system/file/openfile` | High
-11 | File | `/admin_ping.htm` | High
-12 | File | `/admin_route/dec_service_credits.php` | High
-13 | File | `/api.php` | Medium
-14 | File | `/api/v4/teams//channels/deleted` | High
-15 | File | `/app/admin/controller/Upload.php` | High
-16 | File | `/app/ajax/search_sales_report.php` | High
-17 | File | `/app/controller/Setup.php` | High
-18 | File | `/app/middleware/TokenVerify.php` | High
-19 | File | `/application/index/controller/Icon.php` | High
-20 | File | `/application/index/controller/Screen.php` | High
-21 | File | `/application/websocket/controller/Setting.php` | High
-22 | File | `/apply/index.php` | High
-23 | File | `/aux` | Low
-24 | File | `/bin/boa` | Medium
-25 | File | `/boafrm/formMapDelDevice` | High
-26 | File | `/cancel.php` | Medium
-27 | File | `/category.php` | High
-28 | File | `/cgi-bin/cstecgi.cgi` | High
-29 | File | `/debug/pprof` | Medium
-30 | File | `/devinfo` | Medium
-31 | File | `/download` | Medium
-32 | File | `/Employer/ManageWalkin.php` | High
-33 | File | `/endpoint/add-faq.php` | High
-34 | File | `/endpoint/delete-computer.php` | High
-35 | File | `/endpoint/update-resident.php` | High
-36 | File | `/endpoint/update-tracker.php` | High
-37 | File | `/etc/passwd` | Medium
-38 | File | `/forum/away.php` | High
-39 | File | `/get.php` | Medium
-40 | File | `/goform/net\_Web\_get_value` | High
-41 | File | `/goform/SetSpeedWan` | High
-42 | File | `/hedwig.cgi` | Medium
-43 | File | `/index.jsp#settings` | High
-44 | File | `/index.php` | Medium
-45 | File | `/investigation/delete/` | High
-46 | File | `/log/download.php` | High
-47 | File | `/manage/IPSetup.php` | High
-48 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-49 | File | `/process/assignp.php` | High
-50 | File | `/psubmit.php` | Medium
-51 | File | `/Setting/change_password_save` | High
-52 | File | `/showfile.php` | High
-53 | ... | ... | ...
+1 | File | `/admin/action/update-deworm.php` | High
+2 | File | `/admin/admin_cl.php?mudi=revPwd` | High
+3 | File | `/apply/index.php` | High
+4 | File | `/cgi-bin/koha/opac-MARCdetail.pl` | High
+5 | File | `/cgi-bin/nas_sharing.cgi` | High
+6 | File | `/control/register_case.php` | High
+7 | File | `/doctor/view-appointment-detail.php` | High
+8 | File | `/edit-computer-detail.php` | High
+9 | File | `/goform/AddDnsForward` | High
+10 | File | `/goform/addIpMacBind` | High
+11 | File | `/goform/AdvSetMacMtuWan` | High
+12 | File | `/goform/DelDhcpRule` | High
+13 | File | `/goform/delIpMacBind` | High
+14 | File | `/goform/DelPortMapping` | High
+15 | File | `/goform/DhcpSetSe` | High
+16 | File | `/goform/DhcpSetSer` | High
+17 | File | `/goform/execCommand` | High
+18 | File | `/goform/modifyDhcpRule` | High
+19 | File | `/goform/modifyIpMacBind` | High
+20 | ... | ... | ...
 
-There are 457 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 161 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

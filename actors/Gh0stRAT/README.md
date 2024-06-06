@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [VN](https://vuldb.com/?country.vn)
 * ...
 
-There are 5 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -97,13 +97,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-29 | Path Traversal | High
-2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059 | CWE-94 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-29 | Path Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 16 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -111,32 +112,37 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin.php` | Medium
-2 | File | `/admin/list_ipAddressPolicy.php` | High
-3 | File | `/admin/list_resource_icon.php?action=delete` | High
-4 | File | `/admin/singlelogin.php` | High
-5 | File | `/api /v3/auth` | High
-6 | File | `/bin/sh` | Low
-7 | File | `/cgi-bin/cstecgi.cgi` | High
-8 | File | `/common/dict/list` | High
-9 | File | `/data/remove` | Medium
-10 | File | `/debug/pprof` | Medium
-11 | File | `/forum/away.php` | High
-12 | File | `/goform/net\_Web\_get_value` | High
-13 | File | `/goform/SetStaticRouteCfg` | High
-14 | File | `/Interface/DevManage/VM.php` | High
-15 | File | `/Maintenance/configfile.cfg` | High
-16 | File | `/ossim/report/wizard_email.php` | High
-17 | File | `/patient/appointment.php` | High
-18 | File | `/pdf` | Low
-19 | File | `/prescription/prescription/delete/` | High
-20 | File | `/pro/common/download` | High
-21 | File | `/remote/put_file` | High
-22 | File | `/spip.php` | Medium
-23 | File | `/squashfs-root/etc_ro/custom.conf` | High
-24 | ... | ... | ...
+1 | File | `/admin/students.php` | High
+2 | File | `/adminPage/www/addOver` | High
+3 | File | `/API/info` | Medium
+4 | File | `/api/runscript` | High
+5 | File | `/api/sys/login` | High
+6 | File | `/api/v1/snapshots` | High
+7 | File | `/bcms/admin/?page=user/manage_user` | High
+8 | File | `/cgi-bin/system_mgr.cgi` | High
+9 | File | `/cgi-bin/wlogin.cgi` | High
+10 | File | `/dataSet/testTransform;swagger-ui` | High
+11 | File | `/dayrui/Fcms/View/system_log.html` | High
+12 | File | `/dayrui/My/View/main.html` | High
+13 | File | `/forum/away.php` | High
+14 | File | `/goform/DhcpListClient` | High
+15 | File | `/goform/SetNetControlList` | High
+16 | File | `/goform/WriteFacMac` | High
+17 | File | `/hrm/leaverequest.php` | High
+18 | File | `/list` | Low
+19 | File | `/login.php?m=admin&c=Field&a=channel_edit` | High
+20 | File | `/manage/IPSetup.php` | High
+21 | File | `/module/comment/save` | High
+22 | File | `/ndmComponents.js` | High
+23 | File | `/new_item` | Medium
+24 | File | `/register.php` | High
+25 | File | `/registrar/` | Medium
+26 | File | `/registrar/?page=registration` | High
+27 | File | `/servicedesk/customer/portals` | High
+28 | File | `/staff/bookdetails.php` | High
+29 | ... | ... | ...
 
-There are 202 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 243 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

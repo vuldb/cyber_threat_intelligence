@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 12 more country items available. Please use our online service to access the data.
+There are 16 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -151,9 +151,18 @@ ID | IP address | Hostname | Campaign | Confidence
 128 | [64.116.131.128](https://vuldb.com/?ip.64.116.131.128) | - | - | High
 129 | [64.116.132.0](https://vuldb.com/?ip.64.116.132.0) | - | - | High
 130 | [64.116.134.0](https://vuldb.com/?ip.64.116.134.0) | - | - | High
-131 | ... | ... | ... | ...
+131 | [64.116.138.0](https://vuldb.com/?ip.64.116.138.0) | - | - | High
+132 | [64.210.65.0](https://vuldb.com/?ip.64.210.65.0) | - | - | High
+133 | [64.210.65.132](https://vuldb.com/?ip.64.210.65.132) | - | - | High
+134 | [64.210.65.136](https://vuldb.com/?ip.64.210.65.136) | - | - | High
+135 | [64.210.65.144](https://vuldb.com/?ip.64.210.65.144) | - | - | High
+136 | [64.210.65.160](https://vuldb.com/?ip.64.210.65.160) | - | - | High
+137 | [64.210.65.192](https://vuldb.com/?ip.64.210.65.192) | - | - | High
+138 | [64.210.67.16](https://vuldb.com/?ip.64.210.67.16) | - | - | High
+139 | [64.212.72.0](https://vuldb.com/?ip.64.212.72.0) | - | - | High
+140 | ... | ... | ... | ...
 
-There are 521 more IOC items available. Please use our online service to access the data.
+There are 557 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -163,7 +172,7 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | ... | ... | ... | ...
 
 There are 13 more TTP items available. Please use our online service to access the data.
@@ -175,14 +184,16 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/config/getuser` | High
-2 | File | `/KK_LS9ReportingPortal/GetData` | High
-3 | File | `/MRcgi/MRABLoad2.pl` | High
-4 | File | `/MRcgi/MRchat.pl` | High
-5 | File | `/out.php` | Medium
-6 | File | `/user/ticket/create` | High
-7 | ... | ... | ...
+2 | File | `/dashboard/addplan` | High
+3 | File | `/KK_LS9ReportingPortal/GetData` | High
+4 | File | `/LogInOut.php` | High
+5 | File | `/MRcgi/MRABLoad2.pl` | High
+6 | File | `/MRcgi/MRchat.pl` | High
+7 | File | `/out.php` | Medium
+8 | File | `/user/ticket/create` | High
+9 | ... | ... | ...
 
-There are 43 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 64 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -191,6 +202,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://github.com/firehol/blocklist-ipsets/blob/master/geolite2_country/country_ve.netset
 * https://github.com/firehol/blocklist-ipsets/blob/master/ip2location_country/ip2location_country_ve.netset
 * https://github.com/firehol/blocklist-ipsets/blob/master/ipip_country/ipip_country_ve.netset
+* https://github.com/scriptzteam/Private-Internet-Access-VPN-Servers/blob/main/export.csv
 
 ## Literature
 

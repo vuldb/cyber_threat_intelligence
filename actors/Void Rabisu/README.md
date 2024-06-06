@@ -10,6 +10,12 @@ The following _campaigns_ are known and can be associated with Void Rabisu:
 
 * RomCom
 
+## Countries
+
+These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Void Rabisu:
+
+* [RU](https://vuldb.com/?country.ru)
+
 ## IOC - Indicator of Compromise
 
 These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of Void Rabisu.
@@ -18,6 +24,22 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [51.195.49.215](https://vuldb.com/?ip.51.195.49.215) | ip215.ip-51-195-49.eu | RomCom | High
 2 | [94.142.138.244](https://vuldb.com/?ip.94.142.138.244) | - | RomCom | High
+
+## TTP - Tactics, Techniques, Procedures
+
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _Void Rabisu_. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1006 | CWE-22 | Path Traversal | High
+
+## IOA - Indicator of Attack
+
+These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by Void Rabisu. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Type | Indicator | Confidence
+-- | ---- | --------- | ----------
+1 | File | `~/.bitcoin` | Medium
 
 ## References
 

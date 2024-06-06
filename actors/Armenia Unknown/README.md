@@ -8,7 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Armenia Unknown:
 
+* [US](https://vuldb.com/?country.us)
 * [AM](https://vuldb.com/?country.am)
+* [RU](https://vuldb.com/?country.ru)
+* ...
+
+There are 2 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -88,9 +93,11 @@ ID | IP address | Hostname | Campaign | Confidence
 70 | [46.19.97.60](https://vuldb.com/?ip.46.19.97.60) | - | - | High
 71 | [46.19.97.63](https://vuldb.com/?ip.46.19.97.63) | - | - | High
 72 | [46.19.97.64](https://vuldb.com/?ip.46.19.97.64) | - | - | High
-73 | ... | ... | ... | ...
+73 | [46.19.97.128](https://vuldb.com/?ip.46.19.97.128) | - | - | High
+74 | [46.19.97.192](https://vuldb.com/?ip.46.19.97.192) | - | - | High
+75 | ... | ... | ... | ...
 
-There are 289 more IOC items available. Please use our online service to access the data.
+There are 294 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -98,8 +105,27 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
+1 | T1059 | CWE-94 | Argument Injection | High
+2 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+3 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
+4 | ... | ... | ... | ...
+
+There are 4 more TTP items available. Please use our online service to access the data.
+
+## IOA - Indicator of Attack
+
+These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by Armenia Unknown. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Type | Indicator | Confidence
+-- | ---- | --------- | ----------
+1 | File | `/admin/edit-admin.php` | High
+2 | File | `/manage_sy.php` | High
+3 | File | `/ndmComponents.js` | High
+4 | File | `/register.php` | High
+5 | File | `/stockmovment/stockmovment/delete/` | High
+6 | ... | ... | ...
+
+There are 37 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -108,6 +134,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://github.com/firehol/blocklist-ipsets/blob/master/geolite2_country/country_am.netset
 * https://github.com/firehol/blocklist-ipsets/blob/master/ip2location_country/ip2location_country_am.netset
 * https://github.com/firehol/blocklist-ipsets/blob/master/ipip_country/ipip_country_am.netset
+* https://github.com/scriptzteam/Private-Internet-Access-VPN-Servers/blob/main/export.csv
 
 ## Literature
 

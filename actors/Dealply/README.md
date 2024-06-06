@@ -55,37 +55,38 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/activate_hook.php` | High
 2 | File | `/admin/` | Low
-3 | File | `/admin/admin_admin.php` | High
-4 | File | `/admin/ajax.php` | High
-5 | File | `/admin/index.php` | High
-6 | File | `/admin/singlelogin.php?submit=1` | High
-7 | File | `/api/baskets/{name}` | High
-8 | File | `/apply/index.php` | High
-9 | File | `/bin/ate` | Medium
-10 | File | `/bin/webs` | Medium
-11 | File | `/boaform/device_reset.cgi` | High
-12 | File | `/boaform/wlan_basic_set.cgi` | High
-13 | File | `/cgi-bin/cstecgi.cgi` | High
-14 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-15 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
-16 | File | `/cgi-bin/ping.cgi` | High
-17 | File | `/classes/Master.php` | High
-18 | File | `/classes/Master.php?f=delete_item` | High
-19 | File | `/classes/Master.php?f=delete_service` | High
-20 | File | `/collection/all` | High
+3 | File | `/admin/index.php` | High
+4 | File | `/admin/singlelogin.php?submit=1` | High
+5 | File | `/api/baskets/{name}` | High
+6 | File | `/apply/index.php` | High
+7 | File | `/bin/ate` | Medium
+8 | File | `/bin/webs` | Medium
+9 | File | `/boaform/device_reset.cgi` | High
+10 | File | `/boaform/wlan_basic_set.cgi` | High
+11 | File | `/cgi-bin/cstecgi.cgi` | High
+12 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+13 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
+14 | File | `/cgi-bin/nas_sharing.cgi` | High
+15 | File | `/cgi-bin/ping.cgi` | High
+16 | File | `/classes/Master.php` | High
+17 | File | `/classes/Master.php?f=delete_item` | High
+18 | File | `/classes/Master.php?f=delete_service` | High
+19 | File | `/collection/all` | High
+20 | File | `/control/register_case.php` | High
 21 | File | `/dosen/data` | Medium
 22 | File | `/ecommerce/support_ticket` | High
 23 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-24 | File | `/Enclave.cpp` | Medium
-25 | File | `/file_manager/admin/save_user.php` | High
-26 | File | `/get-artifact` | High
+24 | File | `/file_manager/admin/save_user.php` | High
+25 | File | `/get-artifact` | High
+26 | File | `/goform/addressNat` | High
 27 | File | `/goForm/aspForm` | High
-28 | File | `/goform/execCommand` | High
-29 | File | `/goform/formTcpipSetup` | High
-30 | File | `/goform/GetParentControlInfo` | High
-31 | ... | ... | ...
+28 | File | `/goform/DhcpListClient` | High
+29 | File | `/goform/execCommand` | High
+30 | File | `/goform/formTcpipSetup` | High
+31 | File | `/goform/GetParentControlInfo` | High
+32 | ... | ... | ...
 
-There are 261 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 277 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

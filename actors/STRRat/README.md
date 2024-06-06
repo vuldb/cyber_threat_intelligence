@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with STRRAT:
 
-* [CN](https://vuldb.com/?country.cn)
-* [US](https://vuldb.com/?country.us)
-* [SH](https://vuldb.com/?country.sh)
+* [PL](https://vuldb.com/?country.pl)
+* [RU](https://vuldb.com/?country.ru)
+* [FR](https://vuldb.com/?country.fr)
 * ...
 
-There are 12 more country items available. Please use our online service to access the data.
+There are 9 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -54,32 +54,35 @@ ID | IP address | Hostname | Campaign | Confidence
 31 | [37.120.247.13](https://vuldb.com/?ip.37.120.247.13) | - | - | High
 32 | [37.139.129.115](https://vuldb.com/?ip.37.139.129.115) | - | - | High
 33 | [37.221.114.90](https://vuldb.com/?ip.37.221.114.90) | - | - | High
-34 | [45.9.168.40](https://vuldb.com/?ip.45.9.168.40) | - | - | High
-35 | [45.12.253.130](https://vuldb.com/?ip.45.12.253.130) | - | - | High
-36 | [45.61.168.73](https://vuldb.com/?ip.45.61.168.73) | - | - | High
-37 | [45.66.230.68](https://vuldb.com/?ip.45.66.230.68) | - | - | High
-38 | [45.66.230.138](https://vuldb.com/?ip.45.66.230.138) | - | - | High
-39 | [45.87.61.211](https://vuldb.com/?ip.45.87.61.211) | - | - | High
-40 | [45.88.67.63](https://vuldb.com/?ip.45.88.67.63) | - | - | High
-41 | [45.88.67.229](https://vuldb.com/?ip.45.88.67.229) | - | - | High
-42 | [45.95.169.160](https://vuldb.com/?ip.45.95.169.160) | - | - | High
-43 | [45.133.1.47](https://vuldb.com/?ip.45.133.1.47) | - | - | High
-44 | [45.133.1.72](https://vuldb.com/?ip.45.133.1.72) | - | - | High
-45 | [45.133.174.157](https://vuldb.com/?ip.45.133.174.157) | - | - | High
-46 | [45.137.22.62](https://vuldb.com/?ip.45.137.22.62) | hosted-by.rootlayer.net | - | High
-47 | [45.137.22.89](https://vuldb.com/?ip.45.137.22.89) | hosted-by.rootlayer.net | - | High
-48 | [45.137.22.108](https://vuldb.com/?ip.45.137.22.108) | hosted-by.rootlayer.net | - | High
-49 | [45.137.22.131](https://vuldb.com/?ip.45.137.22.131) | hosted-by.rootlayer.net | - | High
-50 | [45.137.22.141](https://vuldb.com/?ip.45.137.22.141) | hosted-by.rootlayer.net | - | High
-51 | [45.137.22.150](https://vuldb.com/?ip.45.137.22.150) | hosted-by.rootlayer.net | - | High
-52 | [45.137.22.170](https://vuldb.com/?ip.45.137.22.170) | hosted-by.rootlayer.net | - | High
-53 | [45.137.22.173](https://vuldb.com/?ip.45.137.22.173) | hosted-by.rootlayer.net | - | High
-54 | [45.137.22.182](https://vuldb.com/?ip.45.137.22.182) | hosted-by.rootlayer.net | - | High
-55 | [45.137.22.251](https://vuldb.com/?ip.45.137.22.251) | hosted-by.rootlayer.net | - | High
-56 | [45.138.16.101](https://vuldb.com/?ip.45.138.16.101) | - | - | High
-57 | ... | ... | ... | ...
+34 | [38.62.245.18](https://vuldb.com/?ip.38.62.245.18) | Seak.eleganceprettylook.com | - | High
+35 | [38.62.245.19](https://vuldb.com/?ip.38.62.245.19) | Milk.eleganceprettylook.com | - | High
+36 | [45.9.168.40](https://vuldb.com/?ip.45.9.168.40) | - | - | High
+37 | [45.12.253.130](https://vuldb.com/?ip.45.12.253.130) | - | - | High
+38 | [45.61.168.73](https://vuldb.com/?ip.45.61.168.73) | - | - | High
+39 | [45.66.230.68](https://vuldb.com/?ip.45.66.230.68) | - | - | High
+40 | [45.66.230.138](https://vuldb.com/?ip.45.66.230.138) | - | - | High
+41 | [45.87.61.211](https://vuldb.com/?ip.45.87.61.211) | - | - | High
+42 | [45.88.67.63](https://vuldb.com/?ip.45.88.67.63) | - | - | High
+43 | [45.88.67.229](https://vuldb.com/?ip.45.88.67.229) | - | - | High
+44 | [45.95.169.160](https://vuldb.com/?ip.45.95.169.160) | - | - | High
+45 | [45.95.169.162](https://vuldb.com/?ip.45.95.169.162) | - | - | High
+46 | [45.128.36.178](https://vuldb.com/?ip.45.128.36.178) | - | - | High
+47 | [45.133.1.47](https://vuldb.com/?ip.45.133.1.47) | - | - | High
+48 | [45.133.1.72](https://vuldb.com/?ip.45.133.1.72) | - | - | High
+49 | [45.133.174.157](https://vuldb.com/?ip.45.133.174.157) | - | - | High
+50 | [45.137.22.62](https://vuldb.com/?ip.45.137.22.62) | hosted-by.rootlayer.net | - | High
+51 | [45.137.22.89](https://vuldb.com/?ip.45.137.22.89) | hosted-by.rootlayer.net | - | High
+52 | [45.137.22.108](https://vuldb.com/?ip.45.137.22.108) | hosted-by.rootlayer.net | - | High
+53 | [45.137.22.131](https://vuldb.com/?ip.45.137.22.131) | hosted-by.rootlayer.net | - | High
+54 | [45.137.22.141](https://vuldb.com/?ip.45.137.22.141) | hosted-by.rootlayer.net | - | High
+55 | [45.137.22.150](https://vuldb.com/?ip.45.137.22.150) | hosted-by.rootlayer.net | - | High
+56 | [45.137.22.170](https://vuldb.com/?ip.45.137.22.170) | hosted-by.rootlayer.net | - | High
+57 | [45.137.22.173](https://vuldb.com/?ip.45.137.22.173) | hosted-by.rootlayer.net | - | High
+58 | [45.137.22.182](https://vuldb.com/?ip.45.137.22.182) | hosted-by.rootlayer.net | - | High
+59 | [45.137.22.251](https://vuldb.com/?ip.45.137.22.251) | hosted-by.rootlayer.net | - | High
+60 | ... | ... | ... | ...
 
-There are 226 more IOC items available. Please use our online service to access the data.
+There are 237 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -87,14 +90,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Path Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-94 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+1 | T1006 | CWE-22 | Path Traversal | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-94 | Argument Injection | High
+4 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 14 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -102,53 +103,30 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/controller/JobLogController.java` | High
-2 | File | `/api/admin/system/store/order/list` | High
-3 | File | `/api/sys/login` | High
-4 | File | `/api/sys/set_passwd` | High
-5 | File | `/api/trackedEntityInstances` | High
-6 | File | `/api/v4/users/ids` | High
-7 | File | `/application/index/controller/Service.php` | High
-8 | File | `/apply.cgi` | Medium
-9 | File | `/aux` | Low
-10 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-11 | File | `/cgi-bin/wlogin.cgi` | High
-12 | File | `/changePassword` | High
-13 | File | `/collection/all` | High
-14 | File | `/Content/Template/root/reverse-shell.aspx` | High
-15 | File | `/dashboard/add-blog.php` | High
-16 | File | `/data/remove` | Medium
-17 | File | `/debug/pprof` | Medium
-18 | File | `/ecrire/exec/puce_statut.php` | High
-19 | File | `/ecshop/admin/template.php` | High
-20 | File | `/etc/passwd` | Medium
-21 | File | `/etc/shadow` | Medium
-22 | File | `/files/` | Low
-23 | File | `/forum/away.php` | High
-24 | File | `/goform/net\_Web\_get_value` | High
-25 | File | `/index.php` | Medium
-26 | File | `/log/decodmail.php` | High
-27 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-28 | File | `/northstar/Portal/processlogin.jsp` | High
-29 | File | `/project/tasks/list` | High
-30 | File | `/system/dataPerm/list` | High
-31 | File | `/testConnection` | High
-32 | File | `/tmp/ppd.trace` | High
-33 | File | `/user/inc/workidajax.php` | High
-34 | File | `/userLogin.asp` | High
-35 | File | `/vm/admin/doctors.php` | High
-36 | File | `Access.app/Contents/Resources/kcproxy` | High
-37 | File | `action-visitor.php` | High
-38 | ... | ... | ...
+1 | File | `/bbdms/sign-up.php` | High
+2 | File | `/catalog/all-products` | High
+3 | File | `/changePassword` | High
+4 | File | `/forum/away.php` | High
+5 | File | `/goform/addIpMacBind` | High
+6 | File | `/goform/DelDhcpRule` | High
+7 | File | `/goform/delIpMacBind` | High
+8 | File | `/goform/DelPortMapping` | High
+9 | File | `/goform/modifyDhcpRule` | High
+10 | ... | ... | ...
 
-There are 328 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 73 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://bazaar.abuse.ch/sample/0661c14ba768362038628b03491d28010012a8078ec14d2c6428aec2e6b4ecde/
 * https://bazaar.abuse.ch/sample/7bd8097de078f21e7f97dc04fac6ed6a4d7bc042934e2ec179706838303efe2f/
 * https://bazaar.abuse.ch/sample/685549196c77e82e6273752a6fe522ee18da8076f0029ad8232c6e0d36853675/
+* https://bazaar.abuse.ch/sample/a98d9028b8f90a56e17743affb17f3ad95585e35c225714bec021330f7b9b2bd/
+* https://bazaar.abuse.ch/sample/e6e7a195132e49584dd2015d1dcb43e547cd55c1a772f3509b126fdc555a8374/
+* https://bazaar.abuse.ch/sample/e6f93fbf80cf48ca944fd053685061a3c512dcf83952fd440a0f882ebab76e9f/
+* https://bazaar.abuse.ch/sample/fe18922a4548bb9230c0fafe2e88b36c325b0a7e1e79f9c50a640b04966f0a81/
 * https://blogs.blackberry.com/en/2021/10/threat-thursday-strrat-malware
 * https://github.com/executemalware/Malware-IOCs/blob/main/2021-10-27%20STRRat%20IOCs
 * https://github.com/pan-unit42/tweets/blob/master/2023-04-05-IOCs-for-STRRAT-activity.txt

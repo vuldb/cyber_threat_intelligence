@@ -20,7 +20,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [SE](https://vuldb.com/?country.se)
 * ...
 
-There are 34 more country items available. Please use our online service to access the data.
+There are 35 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -95,46 +95,53 @@ ID | Type | Indicator | Confidence
 5 | File | `/.htpasswd` | Medium
 6 | File | `//etc/RT2870STA.dat` | High
 7 | File | `/admin/index.php` | High
-8 | File | `/api/addusers` | High
-9 | File | `/cgi-bin/hotspot-changepw.cgi` | High
-10 | File | `/ClickAndBanexDemo/admin/admin.asp` | High
-11 | File | `/config/getuser` | High
-12 | File | `/filemanager/ajax_calls.php` | High
-13 | File | `/forum/away.php` | High
-14 | File | `/items/manage_item.php` | High
-15 | File | `/login/index.php` | High
-16 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-17 | File | `/owa/auth/logon.aspx` | High
-18 | File | `/pharmacy-sales-and-inventory-system/manage_user.php` | High
-19 | File | `/php-sms/classes/SystemSettings.php` | High
-20 | File | `/phppath/php` | Medium
-21 | File | `/preview.php` | Medium
-22 | File | `/proc/self/exe` | High
-23 | File | `/public/login.htm` | High
-24 | File | `/server-info` | Medium
-25 | File | `/server-status` | High
-26 | File | `/shell` | Low
-27 | File | `/uncpath/` | Medium
-28 | File | `/user/jobmanage.php` | High
-29 | File | `/user/zs_elite.php` | High
-30 | File | `/usr/bin/enq` | Medium
-31 | File | `/web/jquery/uploader/multi_uploadify.php` | High
-32 | File | `/wp-admin/admin-ajax.php` | High
-33 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-34 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-35 | File | `/zhndnsdisplay.cmd` | High
-36 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-37 | File | `about.php` | Medium
-38 | File | `acl.c` | Low
-39 | File | `active.log` | Medium
-40 | File | `adclick.php` | Medium
-41 | File | `add_comment.php` | High
-42 | File | `add_vhost.php` | High
-43 | File | `admin.php` | Medium
-44 | File | `admin/conf_users_edit.php` | High
-45 | ... | ... | ...
+8 | File | `/adminPage/conf/saveCmd` | High
+9 | File | `/api/addusers` | High
+10 | File | `/car.php` | Medium
+11 | File | `/cgi-bin/hotspot-changepw.cgi` | High
+12 | File | `/ClickAndBanexDemo/admin/admin.asp` | High
+13 | File | `/config/getuser` | High
+14 | File | `/core/admin/categories.php` | High
+15 | File | `/filemanager/ajax_calls.php` | High
+16 | File | `/forum/away.php` | High
+17 | File | `/items/manage_item.php` | High
+18 | File | `/librarian/bookdetails.php` | High
+19 | File | `/login/index.php` | High
+20 | File | `/multi-vendor-shopping-script/product-list.php` | High
+21 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+22 | File | `/owa/auth/logon.aspx` | High
+23 | File | `/pharmacy-sales-and-inventory-system/manage_user.php` | High
+24 | File | `/php-sms/classes/SystemSettings.php` | High
+25 | File | `/phppath/php` | Medium
+26 | File | `/preview.php` | Medium
+27 | File | `/proc/self/exe` | High
+28 | File | `/psrs/admin/fields/manage_field.php` | High
+29 | File | `/public/login.htm` | High
+30 | File | `/server-info` | Medium
+31 | File | `/server-status` | High
+32 | File | `/shell` | Low
+33 | File | `/uncpath/` | Medium
+34 | File | `/user/jobmanage.php` | High
+35 | File | `/user/zs_elite.php` | High
+36 | File | `/usr/bin/enq` | Medium
+37 | File | `/web/jquery/uploader/multi_uploadify.php` | High
+38 | File | `/wp-admin/admin-ajax.php` | High
+39 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+40 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+41 | File | `/zhndnsdisplay.cmd` | High
+42 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+43 | File | `about.php` | Medium
+44 | File | `acl.c` | Low
+45 | File | `active.log` | Medium
+46 | File | `adclick.php` | Medium
+47 | File | `add_comment.php` | High
+48 | File | `add_vhost.php` | High
+49 | File | `admin.php` | Medium
+50 | File | `admin/admin.php` | High
+51 | File | `admin/conf_users_edit.php` | High
+52 | ... | ... | ...
 
-There are 392 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 454 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

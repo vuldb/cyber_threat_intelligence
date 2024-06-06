@@ -4,6 +4,17 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.montenegro_unknown](https://vuldb.com/?actor.montenegro_unknown)
 
+## Countries
+
+These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Montenegro Unknown:
+
+* [US](https://vuldb.com/?country.us)
+* [CH](https://vuldb.com/?country.ch)
+* [RU](https://vuldb.com/?country.ru)
+* ...
+
+There are 1 more country items available. Please use our online service to access the data.
+
 ## IOC - Indicator of Compromise
 
 These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of Montenegro Unknown.
@@ -31,9 +42,14 @@ ID | IP address | Hostname | Campaign | Confidence
 19 | [77.237.225.64](https://vuldb.com/?ip.77.237.225.64) | - | - | High
 20 | [78.155.32.0](https://vuldb.com/?ip.78.155.32.0) | adsl-new32-l1.crnagora.net | - | High
 21 | [79.140.144.0](https://vuldb.com/?ip.79.140.144.0) | - | - | High
-22 | ... | ... | ... | ...
+22 | [79.143.96.0](https://vuldb.com/?ip.79.143.96.0) | - | - | High
+23 | [81.17.234.0](https://vuldb.com/?ip.81.17.234.0) | - | - | High
+24 | [81.18.48.0](https://vuldb.com/?ip.81.18.48.0) | IP-48-0.zapadbanka.me | - | High
+25 | [81.28.248.0](https://vuldb.com/?ip.81.28.248.0) | - | - | High
+26 | [85.94.96.0](https://vuldb.com/?ip.85.94.96.0) | - | - | High
+27 | ... | ... | ... | ...
 
-There are 85 more IOC items available. Please use our online service to access the data.
+There are 104 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -41,12 +57,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1068 | CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
-2 | T1204.001 | CWE-601 | Open Redirect | High
-3 | T1505 | CWE-89 | SQL Injection | High
+1 | T1059 | CWE-94 | Argument Injection | High
+2 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+3 | T1068 | CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 4 | ... | ... | ... | ...
 
-There are 2 more TTP items available. Please use our online service to access the data.
+There are 8 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -54,12 +70,14 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `ahcache.sys` | Medium
-2 | Argument | `author` | Low
-3 | Argument | `employee_id` | Medium
-4 | ... | ... | ...
+1 | File | `/backend/register.php` | High
+2 | File | `/cgi-bin/gui.cgi` | High
+3 | File | `/cgi-bin/nas_sharing.cgi` | High
+4 | File | `/control/register_case.php` | High
+5 | File | `/forum/away.php` | High
+6 | ... | ... | ...
 
-There are 2 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 36 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -68,6 +86,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://github.com/firehol/blocklist-ipsets/blob/master/geolite2_country/country_me.netset
 * https://github.com/firehol/blocklist-ipsets/blob/master/ip2location_country/ip2location_country_me.netset
 * https://github.com/firehol/blocklist-ipsets/blob/master/ipip_country/ipip_country_me.netset
+* https://github.com/scriptzteam/Private-Internet-Access-VPN-Servers/blob/main/export.csv
 
 ## Literature
 

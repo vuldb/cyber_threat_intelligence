@@ -62,9 +62,10 @@ ID | Type | Indicator | Confidence
 5 | File | `/application/index/controller/Icon.php` | High
 6 | File | `/apply/index.php` | High
 7 | File | `/cgi-bin/cstecgi.cgi` | High
-8 | ... | ... | ...
+8 | File | `/classes/Master.php?f=save_category` | High
+9 | ... | ... | ...
 
-There are 53 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 68 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

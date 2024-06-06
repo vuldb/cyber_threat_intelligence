@@ -8,6 +8,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 The following _campaigns_ are known and can be associated with Black Basta:
 
+* CVE-2024-1708 / CVE-2024-1709
 * Qbot
 
 ## Countries
@@ -19,7 +20,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 32 more country items available. Please use our online service to access the data.
+There are 30 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -44,9 +45,10 @@ ID | IP address | Hostname | Campaign | Confidence
 15 | [46.176.222.241](https://vuldb.com/?ip.46.176.222.241) | ppp046176222241.access.hol.gr | - | High
 16 | [47.23.89.126](https://vuldb.com/?ip.47.23.89.126) | ool-2f17597e.static.optonline.net | - | High
 17 | [69.46.15.147](https://vuldb.com/?ip.69.46.15.147) | 69-46-15-147.static.hvvc.us | - | High
-18 | ... | ... | ... | ...
+18 | [70.50.3.214](https://vuldb.com/?ip.70.50.3.214) | bras-base-mtrlpq4809w-grc-15-70-50-3-214.dsl.bell.ca | Qbot | High
+19 | ... | ... | ... | ...
 
-There are 69 more IOC items available. Please use our online service to access the data.
+There are 71 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -56,12 +58,13 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+6 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+7 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -69,22 +72,22 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/admin/?page=user/manage_user&id=3` | High
-3 | File | `/admin/admin.php` | High
-4 | File | `/admin/attendance_row.php` | High
-5 | File | `/admin/maintenance/view_designation.php` | High
-6 | File | `/admin/request-received-bydonar.php` | High
-7 | File | `/admin/test_status.php` | High
-8 | File | `/admin/user/manage_user.php` | High
-9 | File | `/admin_route/inc_service_credits.php` | High
-10 | File | `/api/trackedEntityInstances` | High
-11 | File | `/bin/login.php` | High
-12 | File | `/cgi-bin/cstecgi.cgi` | High
-13 | File | `/cgi/sshcheck.cgi` | High
-14 | File | `/common/logViewer/logViewer.jsf` | High
-15 | File | `/ConsoleHelp/` | High
-16 | File | `/debug/pprof` | Medium
+1 | File | `/admin/?page=user/manage_user&id=3` | High
+2 | File | `/admin/admin.php` | High
+3 | File | `/admin/attendance_row.php` | High
+4 | File | `/admin/maintenance/view_designation.php` | High
+5 | File | `/admin/request-received-bydonar.php` | High
+6 | File | `/admin/test_status.php` | High
+7 | File | `/admin/user/manage_user.php` | High
+8 | File | `/admin_route/inc_service_credits.php` | High
+9 | File | `/api/trackedEntityInstances` | High
+10 | File | `/bin/login.php` | High
+11 | File | `/cgi-bin/cstecgi.cgi` | High
+12 | File | `/cgi/sshcheck.cgi` | High
+13 | File | `/common/logViewer/logViewer.jsf` | High
+14 | File | `/ConsoleHelp/` | High
+15 | File | `/debug/pprof` | Medium
+16 | File | `/Employer/ManageWalkin.php` | High
 17 | File | `/etc/sudoers` | Medium
 18 | File | `/export` | Low
 19 | File | `/forum/away.php` | High
@@ -108,33 +111,32 @@ ID | Type | Indicator | Confidence
 37 | File | `/proc/self/environ` | High
 38 | File | `/protocol/iscgwtunnel/uploadiscgwrouteconf.php` | High
 39 | File | `/rest/api/2/user/picker` | High
-40 | File | `/s/` | Low
-41 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-42 | File | `/secure/QueryComponent!Default.jspa` | High
-43 | File | `/sendrcpackage?keyid=-2544&keysymbol=-4081` | High
-44 | File | `/SystemMng.ashx` | High
-45 | File | `/usr/bin/at` | Medium
-46 | File | `/var/WEB-GUI/cgi-bin/downloadfile.cgi` | High
-47 | File | `/vicidial/user_stats.php` | High
-48 | File | `/vm/admin/doctors.php` | High
-49 | File | `/websocket/exec` | High
-50 | File | `access.conf` | Medium
-51 | File | `action.php` | Medium
-52 | File | `actions.class.php` | High
-53 | File | `adclick.php` | Medium
-54 | File | `addsuppliers.php` | High
-55 | File | `admin.php` | Medium
-56 | File | `admin.remository.php` | High
-57 | File | `admin/admin_users.php` | High
-58 | File | `admin/login.php` | High
-59 | File | `administers` | Medium
-60 | File | `Administrator_list.php` | High
-61 | File | `advancedsetup_websiteblocking.html` | High
-62 | File | `affich.php` | Medium
-63 | File | `ajax_mail_autoreply.php` | High
-64 | ... | ... | ...
+40 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+41 | File | `/secure/QueryComponent!Default.jspa` | High
+42 | File | `/sendrcpackage?keyid=-2544&keysymbol=-4081` | High
+43 | File | `/SystemMng.ashx` | High
+44 | File | `/usr/bin/at` | Medium
+45 | File | `/var/WEB-GUI/cgi-bin/downloadfile.cgi` | High
+46 | File | `/vicidial/user_stats.php` | High
+47 | File | `/vm/admin/doctors.php` | High
+48 | File | `/websocket/exec` | High
+49 | File | `access.conf` | Medium
+50 | File | `action.php` | Medium
+51 | File | `actions.class.php` | High
+52 | File | `adclick.php` | Medium
+53 | File | `addsuppliers.php` | High
+54 | File | `admin.php` | Medium
+55 | File | `admin.remository.php` | High
+56 | File | `admin/admin_users.php` | High
+57 | File | `admin/login.php` | High
+58 | File | `administers` | Medium
+59 | File | `Administrator_list.php` | High
+60 | File | `advancedsetup_websiteblocking.html` | High
+61 | File | `affich.php` | Medium
+62 | File | `AffiliateLogin.asp` | High
+63 | ... | ... | ...
 
-There are 560 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 554 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -146,6 +148,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://www.cybereason.com/blog/threat-alert-aggressive-qakbot-campaign-and-the-black-basta-ransomware-group-targeting-u.s.-companies
 * https://www.secureworks.com/blog/qakbot-campaign-delivered-black-basta-ransomware
 * https://www.trendmicro.com/de_de/research/22/f/black-basta-ransomware-operators-expand-their-attack-arsenal-wit.html
+* https://www.trendmicro.com/en_us/research/24/b/threat-actor-groups-including-black-basta-are-exploiting-recent-.html
 
 ## Literature
 

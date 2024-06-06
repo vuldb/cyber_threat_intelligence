@@ -74,30 +74,32 @@ ID | Type | Indicator | Confidence
 11 | File | `/boaform/device_reset.cgi` | High
 12 | File | `/cgi-bin/cstecgi.cgi` | High
 13 | File | `/cgi-bin/supervisor/CloudSetup.cgi` | High
-14 | File | `/collection/all` | High
-15 | File | `/config/php.ini` | High
-16 | File | `/dl/dl_sendmail.php` | High
-17 | File | `/drivers/net/ethernet/broadcom/tg3.c` | High
-18 | File | `/etc/passwd` | Medium
-19 | File | `/etc/qci/answers` | High
-20 | File | `/file-manager/rename.php` | High
-21 | File | `/forms/nslookupHandler` | High
-22 | File | `/forum/away.php` | High
-23 | File | `/function/booksave.php` | High
-24 | File | `/goform/form2userconfig.cgi` | High
-25 | File | `/goform/WifiWpsStart` | High
-26 | File | `/gracemedia-media-player/templates/files/ajax_controller.php` | High
-27 | File | `/inc/campaign/campaign-delete.php` | High
-28 | File | `/include/file.php` | High
-29 | File | `/login` | Low
-30 | File | `/search.php` | Medium
-31 | File | `/sgmi/` | Low
-32 | File | `/sys/replicate/check` | High
-33 | File | `/SysInfo.htm` | Medium
-34 | File | `/tmp` | Low
-35 | ... | ... | ...
+14 | File | `/classes/Master.php?f=save_category` | High
+15 | File | `/collection/all` | High
+16 | File | `/config/php.ini` | High
+17 | File | `/dl/dl_sendmail.php` | High
+18 | File | `/drivers/net/ethernet/broadcom/tg3.c` | High
+19 | File | `/etc/passwd` | Medium
+20 | File | `/etc/qci/answers` | High
+21 | File | `/file-manager/rename.php` | High
+22 | File | `/forms/nslookupHandler` | High
+23 | File | `/forum/away.php` | High
+24 | File | `/function/booksave.php` | High
+25 | File | `/goform/form2userconfig.cgi` | High
+26 | File | `/goform/setcfm` | High
+27 | File | `/goform/SetSysTimeCfg` | High
+28 | File | `/goform/WifiWpsStart` | High
+29 | File | `/goform/WizardHandle` | High
+30 | File | `/gracemedia-media-player/templates/files/ajax_controller.php` | High
+31 | File | `/inc/campaign/campaign-delete.php` | High
+32 | File | `/include/file.php` | High
+33 | File | `/login` | Low
+34 | File | `/manage_laundry.php` | High
+35 | File | `/search.php` | Medium
+36 | File | `/sgmi/` | Low
+37 | ... | ... | ...
 
-There are 299 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 316 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

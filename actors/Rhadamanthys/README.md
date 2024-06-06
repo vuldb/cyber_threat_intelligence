@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Rhadamanthys:
 
-* [CN](https://vuldb.com/?country.cn)
-* [US](https://vuldb.com/?country.us)
-* [LA](https://vuldb.com/?country.la)
+* [PL](https://vuldb.com/?country.pl)
+* [RU](https://vuldb.com/?country.ru)
+* [FR](https://vuldb.com/?country.fr)
 * ...
 
-There are 13 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -84,9 +84,10 @@ ID | IP address | Hostname | Campaign | Confidence
 61 | [65.21.101.233](https://vuldb.com/?ip.65.21.101.233) | - | - | High
 62 | [65.109.161.133](https://vuldb.com/?ip.65.109.161.133) | static.133.161.109.65.clients.your-server.de | - | High
 63 | [68.183.230.60](https://vuldb.com/?ip.68.183.230.60) | - | - | High
-64 | ... | ... | ... | ...
+64 | [77.91.68.146](https://vuldb.com/?ip.77.91.68.146) | hosted-by.aluxe-cloud.ru | - | High
+65 | ... | ... | ... | ...
 
-There are 251 more IOC items available. Please use our online service to access the data.
+There are 255 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -94,14 +95,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-425 | Path Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-94 | Argument Injection | High
+4 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 13 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -109,48 +108,19 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `//proc/kcore` | Medium
-2 | File | `/admin/about-us.php` | High
-3 | File | `/admin/action/delete-vaccine.php` | High
-4 | File | `/admin/controller/JobLogController.java` | High
-5 | File | `/admin/index2.html` | High
-6 | File | `/api/baskets/{name}` | High
-7 | File | `/api/sys/login` | High
-8 | File | `/api/sys/set_passwd` | High
-9 | File | `/api/trackedEntityInstances` | High
-10 | File | `/app/index/controller/Common.php` | High
-11 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
-12 | File | `/aux` | Low
-13 | File | `/bitrix/admin/ldap_server_edit.php` | High
-14 | File | `/changePassword` | High
-15 | File | `/Content/Template/root/reverse-shell.aspx` | High
-16 | File | `/dashboard/add-blog.php` | High
-17 | File | `/data/remove` | Medium
-18 | File | `/debug/pprof` | Medium
-19 | File | `/ecshop/admin/template.php` | High
-20 | File | `/etc/passwd` | Medium
-21 | File | `/forms/doLogin` | High
-22 | File | `/forum/away.php` | High
-23 | File | `/group1/uploa` | High
-24 | File | `/inc/parser/xhtml.php` | High
-25 | File | `/index.php` | Medium
-26 | File | `/listplace/user/ticket/create` | High
-27 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
-28 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-29 | File | `/novel/author/list` | High
-30 | File | `/novel/bookSetting/list` | High
-31 | File | `/novel/userFeedback/list` | High
-32 | File | `/staff/edit_book_details.php` | High
-33 | File | `/SysManage/AddUpdateRole.aspx` | High
-34 | File | `/sysmanage/importconf.php` | High
-35 | File | `/testConnection` | High
-36 | File | `/tmp/ppd.trace` | High
-37 | File | `/user/inc/workidajax.php` | High
-38 | File | `/userLogin.asp` | High
-39 | File | `/vm/admin/doctors.php` | High
-40 | ... | ... | ...
+1 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
+2 | File | `/applications/nexus/modules/front/store/store.php` | High
+3 | File | `/catalog/all-products` | High
+4 | File | `/changePassword` | High
+5 | File | `/forum/away.php` | High
+6 | File | `/goform/addIpMacBind` | High
+7 | File | `/goform/DelDhcpRule` | High
+8 | File | `/goform/delIpMacBind` | High
+9 | File | `/goform/DelPortMapping` | High
+10 | File | `/goform/modifyDhcpRule` | High
+11 | ... | ... | ...
 
-There are 343 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 82 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -169,6 +139,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://app.any.run/tasks/e856a354-7a1d-45dc-8edf-380743659fce
 * https://app.any.run/tasks/f3358280-53c7-43a6-9980-bcb59c2aa0ca
 * https://app.any.run/tasks/ff79a6bc-0eff-4012-b9eb-b22ab6de61c2
+* https://asec.ahnlab.com/en/63864/
 * https://bazaar.abuse.ch/sample/612580febe9bad2c60ab8ad8564a38680cf415581c542e5e6109e680dc5e9d15/
 * https://bazaar.abuse.ch/sample/cce775fce8c0f3cd92432b8a2ff4edee7a055c907b75aa15584a1c57a7925860/
 * https://bazaar.abuse.ch/sample/e0d8e7a12ffa3feb00814259a2ea750ab121c3f4b049ce82f5f3ec16579807c0/
@@ -247,12 +218,14 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://tracker.viriback.com/index.php?q=194.4.49.152
 * https://tracker.viriback.com/index.php?q=212.23.222.49
 * https://tracker.viriback.com/index.php?q=217.12.201.112
+* https://tria.ge/240318-wqytgaeg87/behavioral1
 * https://twitter.com/0xrb/status/1611241904917876737?s=20&t=sH2Pytyirk7WsFXEVumN7w
 * https://twitter.com/1ZRR4H/status/1612472092326346752
 * https://twitter.com/AttackTrends/status/1612477419461480448
 * https://twitter.com/crep1x/status/1623394701456859137
 * https://twitter.com/karol_paciorek/status/1703732303367672306
 * https://www.joesandbox.com/analysis/1391616
+* https://www.malwarebytes.com/blog/threat-intelligence/2024/03/new-go-loader-pushes-rhadamanthys
 * https://www.zscaler.com/blogs/security-research/technical-analysis-rhadamanthys-obfuscation-techniques
 
 ## Literature

@@ -57,14 +57,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-35, CWE-425 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -72,45 +72,44 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/academy/tutor/filter` | High
-2 | File | `/addbill.php` | Medium
-3 | File | `/admin/admin_user.php` | High
-4 | File | `/admin/bwdates-report-details.php` | High
-5 | File | `/admin/index2.html` | High
-6 | File | `/admin/sales/view_details.php` | High
-7 | File | `/apiadmin/upload/attach` | High
-8 | File | `/aqpg/users/login.php` | High
-9 | File | `/b2b-supermarket/shopping-cart` | High
-10 | File | `/bin/login` | Medium
-11 | File | `/calendar/minimizer/index.php` | High
-12 | File | `/cgi-bin/cstecgi.cgi` | High
-13 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-14 | File | `/cgi-bin/vitogate.cgi` | High
-15 | File | `/cgi-bin/wlogin.cgi` | High
-16 | File | `/core/conditions/AbstractWrapper.java` | High
-17 | File | `/core/tools/update_menu.php` | High
-18 | File | `/dayrui/My/Config/Install.txt` | High
-19 | File | `/DesignTools/CssEditor.aspx` | High
-20 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
-21 | File | `/DXR.axd` | Medium
-22 | File | `/edit.php` | Medium
-23 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-24 | File | `/endpoint/add-user.php` | High
-25 | File | `/forum/away.php` | High
-26 | File | `/forums/editforum.php` | High
-27 | File | `/goform/` | Medium
-28 | File | `/home/courses` | High
-29 | File | `/hrm/controller/employee.php` | High
-30 | File | `/hrm/employeeview.php` | High
-31 | File | `/include/file.php` | High
+1 | File | `/addbill.php` | Medium
+2 | File | `/admin/admin_user.php` | High
+3 | File | `/admin/bwdates-report-details.php` | High
+4 | File | `/admin/login.php` | High
+5 | File | `/apiadmin/upload/attach` | High
+6 | File | `/b2b-supermarket/shopping-cart` | High
+7 | File | `/bin/login` | Medium
+8 | File | `/calendar/minimizer/index.php` | High
+9 | File | `/cgi-bin/cstecgi.cgi` | High
+10 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+11 | File | `/cgi-bin/nas_sharing.cgi` | High
+12 | File | `/cgi-bin/wlogin.cgi` | High
+13 | File | `/control/register_case.php` | High
+14 | File | `/core/conditions/AbstractWrapper.java` | High
+15 | File | `/core/tools/update_menu.php` | High
+16 | File | `/dayrui/My/Config/Install.txt` | High
+17 | File | `/DesignTools/CssEditor.aspx` | High
+18 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
+19 | File | `/DXR.axd` | Medium
+20 | File | `/edit-task.php` | High
+21 | File | `/edit.php` | Medium
+22 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+23 | File | `/endpoint/add-user.php` | High
+24 | File | `/forum/away.php` | High
+25 | File | `/forums/editforum.php` | High
+26 | File | `/goform/` | Medium
+27 | File | `/goform/setcfm` | High
+28 | File | `/goform/SysToolReboot` | High
+29 | File | `/home/courses` | High
+30 | File | `/include/file.php` | High
+31 | File | `/index.php?app=main&func=passport&action=login` | High
 32 | File | `/index.php?menu=asterisk_cli` | High
 33 | File | `/install/` | Medium
 34 | File | `/ipms/imageConvert/image` | High
-35 | File | `/mc` | Low
-36 | File | `/modals/class_form.php` | High
-37 | ... | ... | ...
+35 | File | `/modals/class_form.php` | High
+36 | ... | ... | ...
 
-There are 321 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 313 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

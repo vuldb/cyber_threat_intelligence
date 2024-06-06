@@ -65,27 +65,27 @@ ID | Type | Indicator | Confidence
 12 | File | `/chat_im/chat_window.php` | High
 13 | File | `/cloud_config/router_post/get_reg_verify_code` | High
 14 | File | `/debug/pprof` | Medium
-15 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
-16 | File | `/env` | Low
-17 | File | `/etc/openstack-dashboard/local_settings` | High
-18 | File | `/etc/passwd` | Medium
-19 | File | `/filemanager/upload.php` | High
-20 | File | `/FreshRSS/p/ext.php` | High
-21 | File | `/goform/addressNat` | High
-22 | File | `/goform/addRouting` | High
-23 | File | `/goform/aspForm` | High
-24 | File | `/goform/SetNetControlList` | High
-25 | File | `/goform/SetStaticRouteCfg` | High
-26 | File | `/include/menu_v.inc.php` | High
-27 | File | `/Interface/DevManage/EC.php?cmd=upload` | High
-28 | File | `/librarian/lab.php` | High
-29 | File | `/MagickCore/statistic.c` | High
-30 | File | `/omos/admin/?page=user/list` | High
-31 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-32 | File | `/panel/fields/add` | High
+15 | File | `/designer/add/layout` | High
+16 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
+17 | File | `/env` | Low
+18 | File | `/etc/openstack-dashboard/local_settings` | High
+19 | File | `/etc/passwd` | Medium
+20 | File | `/filemanager/upload.php` | High
+21 | File | `/FreshRSS/p/ext.php` | High
+22 | File | `/goform/addressNat` | High
+23 | File | `/goform/addRouting` | High
+24 | File | `/goform/aspForm` | High
+25 | File | `/goform/SetNetControlList` | High
+26 | File | `/goform/SetStaticRouteCfg` | High
+27 | File | `/include/menu_v.inc.php` | High
+28 | File | `/Interface/DevManage/EC.php?cmd=upload` | High
+29 | File | `/librarian/lab.php` | High
+30 | File | `/login/` | Low
+31 | File | `/MagickCore/statistic.c` | High
+32 | File | `/omos/admin/?page=user/list` | High
 33 | ... | ... | ...
 
-There are 280 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 284 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

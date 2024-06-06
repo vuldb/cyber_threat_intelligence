@@ -19,12 +19,12 @@ There are 3 more campaign items available. Please use our online service to acce
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with FIN7:
 
-* [CN](https://vuldb.com/?country.cn)
-* [US](https://vuldb.com/?country.us)
-* [IL](https://vuldb.com/?country.il)
+* [PL](https://vuldb.com/?country.pl)
+* [RU](https://vuldb.com/?country.ru)
+* [FR](https://vuldb.com/?country.fr)
 * ...
 
-There are 14 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -35,60 +35,70 @@ ID | IP address | Hostname | Campaign | Confidence
 1 | [1.3.6.1](https://vuldb.com/?ip.1.3.6.1) | - | - | High
 2 | [2.16.840.1](https://vuldb.com/?ip.2.16.840.1) | - | - | High
 3 | [4.1.311.10](https://vuldb.com/?ip.4.1.311.10) | - | - | High
-4 | [5.8.88.64](https://vuldb.com/?ip.5.8.88.64) | - | - | High
-5 | [5.9.189.40](https://vuldb.com/?ip.5.9.189.40) | static.40.189.9.5.clients.your-server.de | - | High
-6 | [5.10.40.54](https://vuldb.com/?ip.5.10.40.54) | dsl-5-10-40-54.pool.bitel.net | - | High
-7 | [5.61.32.118](https://vuldb.com/?ip.5.61.32.118) | - | - | High
-8 | [5.61.38.52](https://vuldb.com/?ip.5.61.38.52) | - | - | High
-9 | [5.135.73.113](https://vuldb.com/?ip.5.135.73.113) | - | - | High
-10 | [5.149.250.235](https://vuldb.com/?ip.5.149.250.235) | snigist.co.uk | - | High
-11 | [5.149.250.241](https://vuldb.com/?ip.5.149.250.241) | flipveranda.co.uk | - | High
-12 | [5.149.252.144](https://vuldb.com/?ip.5.149.252.144) | - | - | High
-13 | [5.149.253.126](https://vuldb.com/?ip.5.149.253.126) | - | - | High
-14 | [5.188.10.102](https://vuldb.com/?ip.5.188.10.102) | - | - | High
-15 | [5.188.10.248](https://vuldb.com/?ip.5.188.10.248) | - | - | High
-16 | [5.199.169.188](https://vuldb.com/?ip.5.199.169.188) | - | - | High
-17 | [5.252.177.8](https://vuldb.com/?ip.5.252.177.8) | no-rdns.mivocloud.com | - | High
-18 | [5.252.177.15](https://vuldb.com/?ip.5.252.177.15) | no-rdns.mivocloud.com | - | High
-19 | [5.252.177.23](https://vuldb.com/?ip.5.252.177.23) | 5-252-177-23.mivocloud.com | OpBlueRaven | High
-20 | [5.252.177.37](https://vuldb.com/?ip.5.252.177.37) | no-rdns.mivocloud.com | OpBlueRaven | High
-21 | [8.28.175.68](https://vuldb.com/?ip.8.28.175.68) | phoenixartisanacoutrements.com | - | High
-22 | [15.235.156.105](https://vuldb.com/?ip.15.235.156.105) | ip105.ip-15-235-156.net | - | High
-23 | [15.235.156.115](https://vuldb.com/?ip.15.235.156.115) | ip115.ip-15-235-156.net | - | High
-24 | [23.83.133.119](https://vuldb.com/?ip.23.83.133.119) | - | OpBlueRaven | High
-25 | [23.249.162.161](https://vuldb.com/?ip.23.249.162.161) | - | - | High
-26 | [31.7.61.136](https://vuldb.com/?ip.31.7.61.136) | hosted-by.securefastserver.com | - | High
-27 | [31.18.219.133](https://vuldb.com/?ip.31.18.219.133) | ip1f12db85.dynamic.kabel-deutschland.de | - | High
-28 | [31.131.17.125](https://vuldb.com/?ip.31.131.17.125) | - | - | High
-29 | [31.131.17.127](https://vuldb.com/?ip.31.131.17.127) | automarinetechnology.com | - | High
-30 | [31.131.17.128](https://vuldb.com/?ip.31.131.17.128) | - | - | High
-31 | [31.148.219.18](https://vuldb.com/?ip.31.148.219.18) | - | - | High
-32 | [31.148.219.44](https://vuldb.com/?ip.31.148.219.44) | - | - | High
-33 | [31.148.219.126](https://vuldb.com/?ip.31.148.219.126) | - | - | High
-34 | [31.148.219.141](https://vuldb.com/?ip.31.148.219.141) | - | - | High
-35 | [31.148.220.107](https://vuldb.com/?ip.31.148.220.107) | - | - | High
-36 | [31.148.220.215](https://vuldb.com/?ip.31.148.220.215) | - | - | High
-37 | [31.184.234.66](https://vuldb.com/?ip.31.184.234.66) | - | - | High
-38 | [31.184.234.71](https://vuldb.com/?ip.31.184.234.71) | - | - | High
-39 | [37.1.211.239](https://vuldb.com/?ip.37.1.211.239) | ourdrops.org | OpBlueRaven | High
-40 | [37.1.215.4](https://vuldb.com/?ip.37.1.215.4) | - | OpBlueRaven | High
-41 | [37.1.215.72](https://vuldb.com/?ip.37.1.215.72) | - | OpBlueRaven | High
-42 | [37.235.54.48](https://vuldb.com/?ip.37.235.54.48) | 48.54.235.37.in-addr.arpa | - | High
-43 | [37.252.4.131](https://vuldb.com/?ip.37.252.4.131) | - | OpBlueRaven | High
-44 | [45.11.180.82](https://vuldb.com/?ip.45.11.180.82) | - | Cobalt Strike | High
-45 | [45.67.229.148](https://vuldb.com/?ip.45.67.229.148) | renoldgavrilov93.example.com | Black Basta | High
-46 | [45.77.60.230](https://vuldb.com/?ip.45.77.60.230) | 45.77.60.230.vultr.com | OpBlueRaven | Medium
-47 | [45.77.204.130](https://vuldb.com/?ip.45.77.204.130) | 45.77.204.130.vultr.com | OpBlueRaven | Medium
-48 | [45.87.152.64](https://vuldb.com/?ip.45.87.152.64) | free.pq.hosting | OpBlueRaven | High
-49 | [45.133.216.25](https://vuldb.com/?ip.45.133.216.25) | lisulisimp.example.com | OpBlueRaven | High
-50 | [45.133.216.89](https://vuldb.com/?ip.45.133.216.89) | rinattumarov.example.com | OpBlueRaven | High
-51 | [45.133.216.194](https://vuldb.com/?ip.45.133.216.194) | vm263790.pq.hosting | OpBlueRaven | High
-52 | [45.140.146.184](https://vuldb.com/?ip.45.140.146.184) | vm237488.pq.hosting | Carbanak | High
-53 | [45.142.212.82](https://vuldb.com/?ip.45.142.212.82) | vm843762.stark-industries.solutions | - | High
-54 | [45.142.213.56](https://vuldb.com/?ip.45.142.213.56) | leygaycurfort1989.example.com | OpBlueRaven | High
-55 | ... | ... | ... | ...
+4 | [5.8.63.105](https://vuldb.com/?ip.5.8.63.105) | 5-8-63-105.static.x5x.tech | - | High
+5 | [5.8.63.108](https://vuldb.com/?ip.5.8.63.108) | 5-8-63-108.static.x5x.tech | - | High
+6 | [5.8.63.139](https://vuldb.com/?ip.5.8.63.139) | 5-8-63-139.static.x5x.tech | - | High
+7 | [5.8.63.140](https://vuldb.com/?ip.5.8.63.140) | 5-8-63-140.static.x5x.tech | - | High
+8 | [5.8.63.245](https://vuldb.com/?ip.5.8.63.245) | 5-8-63-245.static.x5x.tech | - | High
+9 | [5.8.88.64](https://vuldb.com/?ip.5.8.88.64) | - | - | High
+10 | [5.9.189.40](https://vuldb.com/?ip.5.9.189.40) | static.40.189.9.5.clients.your-server.de | - | High
+11 | [5.10.40.54](https://vuldb.com/?ip.5.10.40.54) | dsl-5-10-40-54.pool.bitel.net | - | High
+12 | [5.61.32.118](https://vuldb.com/?ip.5.61.32.118) | - | - | High
+13 | [5.61.38.52](https://vuldb.com/?ip.5.61.38.52) | - | - | High
+14 | [5.61.39.157](https://vuldb.com/?ip.5.61.39.157) | - | - | High
+15 | [5.135.73.113](https://vuldb.com/?ip.5.135.73.113) | - | - | High
+16 | [5.149.250.235](https://vuldb.com/?ip.5.149.250.235) | snigist.co.uk | - | High
+17 | [5.149.250.241](https://vuldb.com/?ip.5.149.250.241) | flipveranda.co.uk | - | High
+18 | [5.149.252.144](https://vuldb.com/?ip.5.149.252.144) | - | - | High
+19 | [5.149.253.126](https://vuldb.com/?ip.5.149.253.126) | - | - | High
+20 | [5.181.159.11](https://vuldb.com/?ip.5.181.159.11) | no-rdns.mivocloud.com | - | High
+21 | [5.188.10.102](https://vuldb.com/?ip.5.188.10.102) | - | - | High
+22 | [5.188.10.248](https://vuldb.com/?ip.5.188.10.248) | - | - | High
+23 | [5.199.169.188](https://vuldb.com/?ip.5.199.169.188) | - | - | High
+24 | [5.252.177.8](https://vuldb.com/?ip.5.252.177.8) | no-rdns.mivocloud.com | - | High
+25 | [5.252.177.15](https://vuldb.com/?ip.5.252.177.15) | no-rdns.mivocloud.com | - | High
+26 | [5.252.177.23](https://vuldb.com/?ip.5.252.177.23) | 5-252-177-23.mivocloud.com | OpBlueRaven | High
+27 | [5.252.177.37](https://vuldb.com/?ip.5.252.177.37) | no-rdns.mivocloud.com | OpBlueRaven | High
+28 | [8.28.175.68](https://vuldb.com/?ip.8.28.175.68) | phoenixartisanacoutrements.com | - | High
+29 | [15.235.156.105](https://vuldb.com/?ip.15.235.156.105) | ip105.ip-15-235-156.net | - | High
+30 | [15.235.156.115](https://vuldb.com/?ip.15.235.156.115) | ip115.ip-15-235-156.net | - | High
+31 | [23.83.133.119](https://vuldb.com/?ip.23.83.133.119) | - | OpBlueRaven | High
+32 | [23.133.88.52](https://vuldb.com/?ip.23.133.88.52) | - | - | High
+33 | [23.249.162.161](https://vuldb.com/?ip.23.249.162.161) | - | - | High
+34 | [31.7.61.136](https://vuldb.com/?ip.31.7.61.136) | hosted-by.securefastserver.com | - | High
+35 | [31.18.219.133](https://vuldb.com/?ip.31.18.219.133) | ip1f12db85.dynamic.kabel-deutschland.de | - | High
+36 | [31.131.17.125](https://vuldb.com/?ip.31.131.17.125) | - | - | High
+37 | [31.131.17.127](https://vuldb.com/?ip.31.131.17.127) | automarinetechnology.com | - | High
+38 | [31.131.17.128](https://vuldb.com/?ip.31.131.17.128) | - | - | High
+39 | [31.148.219.18](https://vuldb.com/?ip.31.148.219.18) | - | - | High
+40 | [31.148.219.44](https://vuldb.com/?ip.31.148.219.44) | - | - | High
+41 | [31.148.219.126](https://vuldb.com/?ip.31.148.219.126) | - | - | High
+42 | [31.148.219.141](https://vuldb.com/?ip.31.148.219.141) | - | - | High
+43 | [31.148.220.107](https://vuldb.com/?ip.31.148.220.107) | - | - | High
+44 | [31.148.220.215](https://vuldb.com/?ip.31.148.220.215) | - | - | High
+45 | [31.184.234.66](https://vuldb.com/?ip.31.184.234.66) | - | - | High
+46 | [31.184.234.71](https://vuldb.com/?ip.31.184.234.71) | - | - | High
+47 | [37.1.211.239](https://vuldb.com/?ip.37.1.211.239) | ourdrops.org | OpBlueRaven | High
+48 | [37.1.215.4](https://vuldb.com/?ip.37.1.215.4) | - | OpBlueRaven | High
+49 | [37.1.215.72](https://vuldb.com/?ip.37.1.215.72) | - | OpBlueRaven | High
+50 | [37.235.54.48](https://vuldb.com/?ip.37.235.54.48) | 48.54.235.37.in-addr.arpa | - | High
+51 | [37.252.4.131](https://vuldb.com/?ip.37.252.4.131) | - | OpBlueRaven | High
+52 | [38.135.52.151](https://vuldb.com/?ip.38.135.52.151) | - | - | High
+53 | [38.180.1.17](https://vuldb.com/?ip.38.180.1.17) | - | - | High
+54 | [38.180.1.103](https://vuldb.com/?ip.38.180.1.103) | - | - | High
+55 | [38.180.14.240](https://vuldb.com/?ip.38.180.14.240) | - | - | High
+56 | [38.180.20.94](https://vuldb.com/?ip.38.180.20.94) | - | - | High
+57 | [38.180.40.23](https://vuldb.com/?ip.38.180.40.23) | - | - | High
+58 | [45.11.180.82](https://vuldb.com/?ip.45.11.180.82) | - | Cobalt Strike | High
+59 | [45.67.229.148](https://vuldb.com/?ip.45.67.229.148) | renoldgavrilov93.example.com | Black Basta | High
+60 | [45.77.60.230](https://vuldb.com/?ip.45.77.60.230) | 45.77.60.230.vultr.com | OpBlueRaven | Medium
+61 | [45.77.204.130](https://vuldb.com/?ip.45.77.204.130) | 45.77.204.130.vultr.com | OpBlueRaven | Medium
+62 | [45.87.152.64](https://vuldb.com/?ip.45.87.152.64) | free.pq.hosting | OpBlueRaven | High
+63 | [45.133.216.25](https://vuldb.com/?ip.45.133.216.25) | lisulisimp.example.com | OpBlueRaven | High
+64 | [45.133.216.89](https://vuldb.com/?ip.45.133.216.89) | rinattumarov.example.com | OpBlueRaven | High
+65 | ... | ... | ... | ...
 
-There are 215 more IOC items available. Please use our online service to access the data.
+There are 255 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -96,14 +106,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-25, CWE-36 | Path Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-94 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+1 | T1006 | CWE-22 | Path Traversal | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-94 | Argument Injection | High
+4 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 14 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -111,61 +119,33 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/#ilang=DE&b=c_smartenergy_swgroups` | High
-2 | File | `/Account/login.php` | High
-3 | File | `/admin/` | Low
-4 | File | `/adminapi/system/crud` | High
-5 | File | `/adminapi/system/file/openfile` | High
-6 | File | `/admin_route/dec_service_credits.php` | High
-7 | File | `/api/trackedEntityInstances` | High
-8 | File | `/api/v4/teams//channels/deleted` | High
-9 | File | `/aux` | Low
-10 | File | `/b2b-supermarket/shopping-cart` | High
-11 | File | `/cancel.php` | Medium
-12 | File | `/category.php` | High
-13 | File | `/cgi-bin/cstecgi.cgi` | High
-14 | File | `/change-language/de_DE` | High
-15 | File | `/data/remove` | Medium
-16 | File | `/debug/pprof` | Medium
-17 | File | `/devinfo` | Medium
-18 | File | `/dist/index.js` | High
-19 | File | `/download` | Medium
-20 | File | `/etc/passwd` | Medium
-21 | File | `/forum/away.php` | High
-22 | File | `/goform/net\_Web\_get_value` | High
-23 | File | `/hosts/firewall/ip` | High
-24 | File | `/index.jsp#settings` | High
-25 | File | `/index.php` | Medium
-26 | File | `/index.php/ccm/system/file/upload` | High
-27 | File | `/log/decodmail.php` | High
-28 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-29 | File | `/oauth/idp/.well-known/openid-configuration` | High
-30 | File | `/php/ping.php` | High
-31 | File | `/s/index.php?action=statistics` | High
-32 | File | `/Setting/change_password_save` | High
-33 | File | `/signup.php` | Medium
-34 | File | `/st_reg.php` | Medium
-35 | File | `/supplier.php` | High
-36 | File | `/SysInfo1.htm` | High
-37 | File | `/sysinfo_json.cgi` | High
-38 | File | `/system/role/list` | High
-39 | File | `/tmp/ppd.trace` | High
-40 | File | `/TMS/admin/setting/mail/createorupdate` | High
-41 | File | `/upload/ueditorConfig?action=config` | High
-42 | File | `/uploads/` | Medium
-43 | File | `/user/inc/workidajax.php` | High
-44 | File | `/user/index/findpass?do=4` | High
-45 | ... | ... | ...
+1 | File | `/Admin/changepassword.php` | High
+2 | File | `/admin/general-setting` | High
+3 | File | `/admin/service` | High
+4 | File | `/catalog/all-products` | High
+5 | File | `/changePassword` | High
+6 | File | `/forum/away.php` | High
+7 | File | `/goform/addIpMacBind` | High
+8 | File | `/goform/DelDhcpRule` | High
+9 | File | `/goform/delIpMacBind` | High
+10 | File | `/goform/DelPortMapping` | High
+11 | File | `/goform/modifyDhcpRule` | High
+12 | File | `/goform/modifyIpMacBind` | High
+13 | File | `/goform/setBlackRule` | High
+14 | File | `/goform/SetDDNSCfg` | High
+15 | ... | ... | ...
 
-There are 390 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 117 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://blogs.blackberry.com/en/2024/04/fin7-targets-the-united-states-automotive-industry
 * https://github.com/prodaft/malware-ioc/tree/master/OpBlueRaven
 * https://securelist.com/fin7-5-the-infamous-cybercrime-rig-fin7-continues-its-activities/90703/
 * https://www.anomali.com/blog/cybercrime-group-fin7-using-windows-11-alpha-themed-docs-to-drop-javascript-backdoor
+* https://www.esentire.com/blog/fin7-uses-trusted-brands-and-sponsored-google-ads-to-distribute-msix-payloads
 * https://www.fireeye.com/blog/threat-research/2017/04/fin7-phishing-lnk.html
 * https://www.fireeye.com/blog/threat-research/2018/08/fin7-pursuing-an-enigmatic-and-evasive-global-criminal-operation.html
 * https://www.flashpoint-intel.com/blog/fin7-revisited-inside-astra-panel-and-sqlrat-malware/

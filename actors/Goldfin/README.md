@@ -53,7 +53,7 @@ ID | Type | Indicator | Confidence
 4 | File | `/rules/REQUEST-932-APPLICATION-ATTACK-RCE.conf` | High
 5 | ... | ... | ...
 
-There are 25 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 26 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

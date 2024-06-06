@@ -39,7 +39,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23, CWE-24, CWE-29, CWE-36, CWE-425 | Path Traversal | High
+1 | T1006 | CWE-22, CWE-23, CWE-24, CWE-29, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
@@ -56,47 +56,53 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.alerts-security.alerts-{space_id}` | High
 2 | File | `/admin-manage-user.php` | High
-3 | File | `/admin/assign/assign.php` | High
-4 | File | `/admin/booking-bwdates-reports-details.php` | High
-5 | File | `/admin/contact-us.php` | High
-6 | File | `/admin/index.php` | High
+3 | File | `/admin/booking-bwdates-reports-details.php` | High
+4 | File | `/admin/contact-us.php` | High
+5 | File | `/admin/index.php` | High
+6 | File | `/admin/maintenance/manage_brand.php` | High
 7 | File | `/admin/manage-users.php` | High
-8 | File | `/admin/pages/student-print.php` | High
-9 | File | `/admin/users` | Medium
-10 | File | `/adminpanel/admin/query/deleteCourseExe.php` | High
-11 | File | `/admin_route/inc_service_credits.php` | High
-12 | File | `/alsdemo/ss/mediam.cgi` | High
-13 | File | `/Ant_Suxin.php` | High
-14 | File | `/api/admin/user/list` | High
-15 | File | `/api/authentication/login` | High
-16 | File | `/api/controllers/merchant/app/ComboController.php` | High
-17 | File | `/api/thumbnail` | High
-18 | File | `/api /v3/auth` | High
-19 | File | `/application/index/controller/Databasesource.php` | High
-20 | File | `/apps/system/api/user.go` | High
-21 | File | `/apps/system/router/upload.go` | High
-22 | File | `/apps/system/services/role_menu.go` | High
-23 | File | `/assets/php/upload.php` | High
-24 | File | `/billing/bill/edit/` | High
-25 | File | `/blog/blogpublish.php` | High
-26 | File | `/cgi-bin/cstecgi.cgi` | High
-27 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-28 | File | `/cgi-bin/R19.9/easy1350.pl` | High
-29 | File | `/cgi-bin/system_mgr.cgi` | High
-30 | File | `/cgi-bin/vitogate.cgi` | High
-31 | File | `/collection/all` | High
-32 | File | `/config-manager/save` | High
-33 | File | `/config/getuser` | High
-34 | File | `/config/php.ini` | High
-35 | File | `/cupseasylive/itemlist.php` | High
-36 | File | `/cupseasylive/itempopup.php` | High
-37 | File | `/cupseasylive/unitofmeasurementmodify.php` | High
-38 | File | `/debug/pprof` | Medium
-39 | File | `/dede/tpl.php` | High
-40 | File | `/devinfo` | Medium
-41 | ... | ... | ...
+8 | File | `/admin/normal-bwdates-reports-details.php` | High
+9 | File | `/admin/pages/student-print.php` | High
+10 | File | `/admin/service` | High
+11 | File | `/admin/twitter.php` | High
+12 | File | `/Admin/user-record.php` | High
+13 | File | `/admin/users` | Medium
+14 | File | `/adminpanel/admin/query/deleteCourseExe.php` | High
+15 | File | `/admin_class.php` | High
+16 | File | `/admin_route/inc_service_credits.php` | High
+17 | File | `/alsdemo/ss/mediam.cgi` | High
+18 | File | `/api/admin/user/list` | High
+19 | File | `/api/authentication/login` | High
+20 | File | `/api/controllers/merchant/app/ComboController.php` | High
+21 | File | `/api /v3/auth` | High
+22 | File | `/application/index/controller/Databasesource.php` | High
+23 | File | `/apps/system/api/user.go` | High
+24 | File | `/apps/system/router/upload.go` | High
+25 | File | `/apps/system/services/role_menu.go` | High
+26 | File | `/assets/php/upload.php` | High
+27 | File | `/billing/bill/edit/` | High
+28 | File | `/cap.js` | Low
+29 | File | `/cgi-bin/cstecgi.cgi` | High
+30 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+31 | File | `/cgi-bin/info.cgi` | High
+32 | File | `/cgi-bin/nas_sharing.cgi` | High
+33 | File | `/cgi-bin/R19.9/easy1350.pl` | High
+34 | File | `/cgi-bin/system_mgr.cgi` | High
+35 | File | `/cgi-bin/vitogate.cgi` | High
+36 | File | `/cgi-bin/webviewer_login_page` | High
+37 | File | `/classes/Master.php?f=load_registration` | High
+38 | File | `/classes/Users.php?f=save` | High
+39 | File | `/config-manager/save` | High
+40 | File | `/config/getuser` | High
+41 | File | `/config/php.ini` | High
+42 | File | `/cupseasylive/itemlist.php` | High
+43 | File | `/cupseasylive/itempopup.php` | High
+44 | File | `/cupseasylive/unitofmeasurementmodify.php` | High
+45 | File | `/dataSet/testTransform;swagger-ui` | High
+46 | File | `/de2api/engine/getEngine.js` | High
+47 | ... | ... | ...
 
-There are 350 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 407 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

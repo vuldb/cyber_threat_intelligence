@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [JP](https://vuldb.com/?country.jp)
-* [CN](https://vuldb.com/?country.cn)
+* [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 31 more country items available. Please use our online service to access the data.
+There are 29 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -299,307 +299,309 @@ ID | IP address | Hostname | Campaign | Confidence
 276 | [69.88.28.0](https://vuldb.com/?ip.69.88.28.0) | - | - | High
 277 | [74.80.104.0](https://vuldb.com/?ip.74.80.104.0) | - | - | High
 278 | [84.252.93.0](https://vuldb.com/?ip.84.252.93.0) | - | - | High
-279 | [89.35.126.0](https://vuldb.com/?ip.89.35.126.0) | - | - | High
-280 | [89.35.126.128](https://vuldb.com/?ip.89.35.126.128) | - | - | High
-281 | [91.149.248.0](https://vuldb.com/?ip.91.149.248.0) | - | - | High
-282 | [91.237.104.0](https://vuldb.com/?ip.91.237.104.0) | - | - | High
-283 | [101.2.160.0](https://vuldb.com/?ip.101.2.160.0) | - | - | High
-284 | [103.3.224.0](https://vuldb.com/?ip.103.3.224.0) | 103.3.224.0-static.reserve.tomatoweb.com.bd | - | High
-285 | [103.4.64.0](https://vuldb.com/?ip.103.4.64.0) | - | - | High
-286 | [103.4.108.0](https://vuldb.com/?ip.103.4.108.0) | - | - | High
-287 | [103.4.116.0](https://vuldb.com/?ip.103.4.116.0) | ASSIGNED-FOR-CLIENT.adnsl.com | - | High
-288 | [103.4.144.0](https://vuldb.com/?ip.103.4.144.0) | - | - | High
-289 | [103.5.216.0](https://vuldb.com/?ip.103.5.216.0) | - | - | High
-290 | [103.5.232.0](https://vuldb.com/?ip.103.5.232.0) | - | - | High
-291 | [103.6.250.0](https://vuldb.com/?ip.103.6.250.0) | - | - | High
-292 | [103.7.4.0](https://vuldb.com/?ip.103.7.4.0) | - | - | High
-293 | [103.7.112.0](https://vuldb.com/?ip.103.7.112.0) | - | - | High
-294 | [103.7.120.0](https://vuldb.com/?ip.103.7.120.0) | - | - | High
-295 | [103.7.192.0](https://vuldb.com/?ip.103.7.192.0) | - | - | High
-296 | [103.7.248.0](https://vuldb.com/?ip.103.7.248.0) | - | - | High
-297 | [103.7.248.64](https://vuldb.com/?ip.103.7.248.64) | - | - | High
-298 | [103.7.248.84](https://vuldb.com/?ip.103.7.248.84) | - | - | High
-299 | [103.7.248.88](https://vuldb.com/?ip.103.7.248.88) | - | - | High
-300 | [103.7.248.96](https://vuldb.com/?ip.103.7.248.96) | - | - | High
-301 | [103.7.248.128](https://vuldb.com/?ip.103.7.248.128) | - | - | High
-302 | [103.7.248.160](https://vuldb.com/?ip.103.7.248.160) | - | - | High
-303 | [103.7.248.162](https://vuldb.com/?ip.103.7.248.162) | - | - | High
-304 | [103.7.248.164](https://vuldb.com/?ip.103.7.248.164) | - | - | High
-305 | [103.7.248.168](https://vuldb.com/?ip.103.7.248.168) | - | - | High
-306 | [103.7.248.176](https://vuldb.com/?ip.103.7.248.176) | - | - | High
-307 | [103.7.248.188](https://vuldb.com/?ip.103.7.248.188) | - | - | High
-308 | [103.7.248.192](https://vuldb.com/?ip.103.7.248.192) | - | - | High
-309 | [103.7.249.0](https://vuldb.com/?ip.103.7.249.0) | - | - | High
-310 | [103.7.250.0](https://vuldb.com/?ip.103.7.250.0) | - | - | High
-311 | [103.7.250.32](https://vuldb.com/?ip.103.7.250.32) | - | - | High
-312 | [103.7.250.48](https://vuldb.com/?ip.103.7.250.48) | - | - | High
-313 | [103.7.250.56](https://vuldb.com/?ip.103.7.250.56) | - | - | High
-314 | [103.7.250.62](https://vuldb.com/?ip.103.7.250.62) | - | - | High
-315 | [103.7.250.64](https://vuldb.com/?ip.103.7.250.64) | - | - | High
-316 | [103.7.250.128](https://vuldb.com/?ip.103.7.250.128) | - | - | High
-317 | [103.7.251.0](https://vuldb.com/?ip.103.7.251.0) | - | - | High
-318 | [103.7.251.16](https://vuldb.com/?ip.103.7.251.16) | - | - | High
-319 | [103.7.251.24](https://vuldb.com/?ip.103.7.251.24) | - | - | High
-320 | [103.7.251.32](https://vuldb.com/?ip.103.7.251.32) | - | - | High
-321 | [103.7.251.64](https://vuldb.com/?ip.103.7.251.64) | - | - | High
-322 | [103.7.251.96](https://vuldb.com/?ip.103.7.251.96) | - | - | High
-323 | [103.7.251.112](https://vuldb.com/?ip.103.7.251.112) | - | - | High
-324 | [103.7.251.116](https://vuldb.com/?ip.103.7.251.116) | - | - | High
-325 | [103.7.251.119](https://vuldb.com/?ip.103.7.251.119) | - | - | High
-326 | [103.7.251.120](https://vuldb.com/?ip.103.7.251.120) | - | - | High
-327 | [103.7.251.128](https://vuldb.com/?ip.103.7.251.128) | - | - | High
-328 | [103.7.251.134](https://vuldb.com/?ip.103.7.251.134) | gi-cig-530.403-csg-0002.pico.net.bd | - | High
-329 | [103.7.251.136](https://vuldb.com/?ip.103.7.251.136) | - | - | High
-330 | [103.7.251.144](https://vuldb.com/?ip.103.7.251.144) | - | - | High
-331 | [103.7.251.156](https://vuldb.com/?ip.103.7.251.156) | - | - | High
-332 | [103.7.251.160](https://vuldb.com/?ip.103.7.251.160) | - | - | High
-333 | [103.7.251.192](https://vuldb.com/?ip.103.7.251.192) | - | - | High
-334 | [103.7.251.224](https://vuldb.com/?ip.103.7.251.224) | - | - | High
-335 | [103.7.251.240](https://vuldb.com/?ip.103.7.251.240) | lo1-bdix.pico.net.bd | - | High
-336 | [103.7.251.248](https://vuldb.com/?ip.103.7.251.248) | lo1-j-ggc.pico.net.bd | - | High
-337 | [103.7.251.250](https://vuldb.com/?ip.103.7.251.250) | lo1-ju2.pico.net.bd | - | High
-338 | [103.7.251.253](https://vuldb.com/?ip.103.7.251.253) | lo1-ig1.pico.net.bd | - | High
-339 | [103.7.251.254](https://vuldb.com/?ip.103.7.251.254) | lo1-ggc.pico.net.bd | - | High
-340 | [103.8.121.0](https://vuldb.com/?ip.103.8.121.0) | - | - | High
-341 | [103.9.104.0](https://vuldb.com/?ip.103.9.104.0) | - | - | High
-342 | [103.9.104.32](https://vuldb.com/?ip.103.9.104.32) | - | - | High
-343 | [103.9.104.40](https://vuldb.com/?ip.103.9.104.40) | - | - | High
-344 | [103.9.104.48](https://vuldb.com/?ip.103.9.104.48) | - | - | High
-345 | [103.9.104.64](https://vuldb.com/?ip.103.9.104.64) | - | - | High
-346 | [103.9.104.80](https://vuldb.com/?ip.103.9.104.80) | - | - | High
-347 | [103.9.104.84](https://vuldb.com/?ip.103.9.104.84) | - | - | High
-348 | [103.9.104.86](https://vuldb.com/?ip.103.9.104.86) | - | - | High
-349 | [103.9.104.88](https://vuldb.com/?ip.103.9.104.88) | - | - | High
-350 | [103.9.104.90](https://vuldb.com/?ip.103.9.104.90) | - | - | High
-351 | [103.9.104.92](https://vuldb.com/?ip.103.9.104.92) | - | - | High
-352 | [103.9.104.94](https://vuldb.com/?ip.103.9.104.94) | - | - | High
-353 | [103.9.104.96](https://vuldb.com/?ip.103.9.104.96) | - | - | High
-354 | [103.9.104.98](https://vuldb.com/?ip.103.9.104.98) | - | - | High
-355 | [103.9.104.100](https://vuldb.com/?ip.103.9.104.100) | - | - | High
-356 | [103.9.104.104](https://vuldb.com/?ip.103.9.104.104) | - | - | High
-357 | [103.9.104.112](https://vuldb.com/?ip.103.9.104.112) | - | - | High
-358 | [103.9.104.128](https://vuldb.com/?ip.103.9.104.128) | - | - | High
-359 | [103.9.104.192](https://vuldb.com/?ip.103.9.104.192) | - | - | High
-360 | [103.9.104.208](https://vuldb.com/?ip.103.9.104.208) | - | - | High
-361 | [103.9.104.220](https://vuldb.com/?ip.103.9.104.220) | - | - | High
-362 | [103.9.104.222](https://vuldb.com/?ip.103.9.104.222) | - | - | High
-363 | [103.9.104.224](https://vuldb.com/?ip.103.9.104.224) | - | - | High
-364 | [103.9.104.232](https://vuldb.com/?ip.103.9.104.232) | - | - | High
-365 | [103.9.104.235](https://vuldb.com/?ip.103.9.104.235) | - | - | High
-366 | [103.9.104.236](https://vuldb.com/?ip.103.9.104.236) | - | - | High
-367 | [103.9.104.240](https://vuldb.com/?ip.103.9.104.240) | - | - | High
-368 | [103.9.104.248](https://vuldb.com/?ip.103.9.104.248) | - | - | High
-369 | [103.9.105.0](https://vuldb.com/?ip.103.9.105.0) | - | - | High
-370 | [103.9.112.0](https://vuldb.com/?ip.103.9.112.0) | - | - | High
-371 | [103.9.112.2](https://vuldb.com/?ip.103.9.112.2) | 103-9-112-1.aamratechnologies.com | - | High
-372 | [103.9.112.4](https://vuldb.com/?ip.103.9.112.4) | 103-9-112-1.aamratechnologies.com | - | High
-373 | [103.9.112.6](https://vuldb.com/?ip.103.9.112.6) | 103-9-112-1.aamratechnologies.com | - | High
-374 | [103.9.112.8](https://vuldb.com/?ip.103.9.112.8) | drgw.aamratechnologies.com | - | High
-375 | [103.9.112.16](https://vuldb.com/?ip.103.9.112.16) | 103-9-112-1.aamratechnologies.com | - | High
-376 | [103.9.112.32](https://vuldb.com/?ip.103.9.112.32) | 103-9-112-1.aamratechnologies.com | - | High
-377 | [103.9.112.49](https://vuldb.com/?ip.103.9.112.49) | 103-9-112-1.aamratechnologies.com | - | High
-378 | [103.9.112.51](https://vuldb.com/?ip.103.9.112.51) | 103-9-112-1.aamratechnologies.com | - | High
-379 | [103.9.112.52](https://vuldb.com/?ip.103.9.112.52) | sggw1.as58601.net | - | High
-380 | [103.9.112.55](https://vuldb.com/?ip.103.9.112.55) | 103-9-112-1.aamratechnologies.com | - | High
-381 | [103.9.112.56](https://vuldb.com/?ip.103.9.112.56) | 103-9-112-1.aamratechnologies.com | - | High
-382 | [103.9.112.58](https://vuldb.com/?ip.103.9.112.58) | 103-9-112-1.aamratechnologies.com | - | High
-383 | [103.9.112.60](https://vuldb.com/?ip.103.9.112.60) | 103-9-112-1.aamratechnologies.com | - | High
-384 | [103.9.112.64](https://vuldb.com/?ip.103.9.112.64) | 103-9-112-1.aamratechnologies.com | - | High
-385 | [103.9.112.66](https://vuldb.com/?ip.103.9.112.66) | lnmain66.bol.net | - | High
-386 | [103.9.112.68](https://vuldb.com/?ip.103.9.112.68) | 103-9-112-1.aamratechnologies.com | - | High
-387 | [103.9.112.72](https://vuldb.com/?ip.103.9.112.72) | gw.aamranetworks.com | - | High
-388 | [103.9.112.80](https://vuldb.com/?ip.103.9.112.80) | 103-9-112-1.aamratechnologies.com | - | High
-389 | [103.9.112.82](https://vuldb.com/?ip.103.9.112.82) | 103-9-112-1.aamratechnologies.com | - | High
-390 | [103.9.112.84](https://vuldb.com/?ip.103.9.112.84) | 103-9-112-1.aamratechnologies.com | - | High
-391 | [103.9.112.88](https://vuldb.com/?ip.103.9.112.88) | 103-9-112-1.aamratechnologies.com | - | High
-392 | [103.9.112.100](https://vuldb.com/?ip.103.9.112.100) | 103-9-112-1.aamratechnologies.com | - | High
-393 | [103.9.112.104](https://vuldb.com/?ip.103.9.112.104) | 103-9-112-1.aamratechnologies.com | - | High
-394 | [103.9.112.112](https://vuldb.com/?ip.103.9.112.112) | 103-9-112-1.aamratechnologies.com | - | High
-395 | [103.9.112.116](https://vuldb.com/?ip.103.9.112.116) | 103-9-112-1.aamratechnologies.com | - | High
-396 | [103.9.112.118](https://vuldb.com/?ip.103.9.112.118) | 103-9-112-1.aamratechnologies.com | - | High
-397 | [103.9.112.121](https://vuldb.com/?ip.103.9.112.121) | 103-9-112-1.aamratechnologies.com | - | High
-398 | [103.9.112.122](https://vuldb.com/?ip.103.9.112.122) | 103-9-112-1.aamratechnologies.com | - | High
-399 | [103.9.112.124](https://vuldb.com/?ip.103.9.112.124) | 103-9-112-1.aamratechnologies.com | - | High
-400 | [103.9.112.127](https://vuldb.com/?ip.103.9.112.127) | 103-9-112-1.aamratechnologies.com | - | High
-401 | [103.9.112.128](https://vuldb.com/?ip.103.9.112.128) | cache.google.com | - | High
-402 | [103.9.112.192](https://vuldb.com/?ip.103.9.112.192) | 103-9-112-1.aamratechnologies.com | - | High
-403 | [103.9.112.208](https://vuldb.com/?ip.103.9.112.208) | 103-9-112-1.aamratechnologies.com | - | High
-404 | [103.9.112.210](https://vuldb.com/?ip.103.9.112.210) | 103-9-112-1.aamratechnologies.com | - | High
-405 | [103.9.112.212](https://vuldb.com/?ip.103.9.112.212) | 103-9-112-1.aamratechnologies.com | - | High
-406 | [103.9.112.215](https://vuldb.com/?ip.103.9.112.215) | 103-9-112-1.aamratechnologies.com | - | High
-407 | [103.9.112.216](https://vuldb.com/?ip.103.9.112.216) | 103-9-112-1.aamratechnologies.com | - | High
-408 | [103.9.112.224](https://vuldb.com/?ip.103.9.112.224) | 103-9-112-1.aamratechnologies.com | - | High
-409 | [103.9.113.0](https://vuldb.com/?ip.103.9.113.0) | - | - | High
-410 | [103.9.113.16](https://vuldb.com/?ip.103.9.113.16) | 103-9-112-1.aamratechnologies.com | - | High
-411 | [103.9.113.24](https://vuldb.com/?ip.103.9.113.24) | 103-9-112-1.aamratechnologies.com | - | High
-412 | [103.9.113.27](https://vuldb.com/?ip.103.9.113.27) | 103-9-112-1.aamratechnologies.com | - | High
-413 | [103.9.113.33](https://vuldb.com/?ip.103.9.113.33) | 103-9-112-1.aamratechnologies.com | - | High
-414 | [103.9.113.36](https://vuldb.com/?ip.103.9.113.36) | gw.aamranetworks.com | - | High
-415 | [103.9.113.40](https://vuldb.com/?ip.103.9.113.40) | gw.aamranetworks.com | - | High
-416 | [103.9.113.48](https://vuldb.com/?ip.103.9.113.48) | 103-9-112-1.aamratechnologies.com | - | High
-417 | [103.9.113.52](https://vuldb.com/?ip.103.9.113.52) | 103-9-112-1.aamratechnologies.com | - | High
-418 | [103.9.113.56](https://vuldb.com/?ip.103.9.113.56) | gw.aamranetworks.com | - | High
-419 | [103.9.113.72](https://vuldb.com/?ip.103.9.113.72) | gw.aamranetworks.com | - | High
-420 | [103.9.113.80](https://vuldb.com/?ip.103.9.113.80) | gw.aamranetworks.com | - | High
-421 | [103.9.113.96](https://vuldb.com/?ip.103.9.113.96) | 103-9-112-1.aamratechnologies.com | - | High
-422 | [103.9.113.104](https://vuldb.com/?ip.103.9.113.104) | gw.aamranetworks.com | - | High
-423 | [103.9.113.108](https://vuldb.com/?ip.103.9.113.108) | gw.aamranetworks.com | - | High
-424 | [103.9.113.112](https://vuldb.com/?ip.103.9.113.112) | gw.aamranetworks.com | - | High
-425 | [103.9.113.124](https://vuldb.com/?ip.103.9.113.124) | 103-9-112-1.aamratechnologies.com | - | High
-426 | [103.9.113.128](https://vuldb.com/?ip.103.9.113.128) | 103-9-112-1.aamratechnologies.com | - | High
-427 | [103.9.113.144](https://vuldb.com/?ip.103.9.113.144) | 103-9-112-1.aamratechnologies.com | - | High
-428 | [103.9.113.148](https://vuldb.com/?ip.103.9.113.148) | 103-9-112-1.aamratechnologies.com | - | High
-429 | [103.9.113.151](https://vuldb.com/?ip.103.9.113.151) | 103-9-112-1.aamratechnologies.com | - | High
-430 | [103.9.113.152](https://vuldb.com/?ip.103.9.113.152) | 103-9-112-1.aamratechnologies.com | - | High
-431 | [103.9.113.160](https://vuldb.com/?ip.103.9.113.160) | 103-9-112-1.aamratechnologies.com | - | High
-432 | [103.9.113.192](https://vuldb.com/?ip.103.9.113.192) | gw.aamranetworks.com | - | High
-433 | [103.9.113.225](https://vuldb.com/?ip.103.9.113.225) | 103-9-112-1.aamratechnologies.com | - | High
-434 | [103.9.113.226](https://vuldb.com/?ip.103.9.113.226) | 103-9-112-1.aamratechnologies.com | - | High
-435 | [103.9.113.229](https://vuldb.com/?ip.103.9.113.229) | 103-9-112-1.aamratechnologies.com | - | High
-436 | [103.9.113.230](https://vuldb.com/?ip.103.9.113.230) | 103-9-112-1.aamratechnologies.com | - | High
-437 | [103.9.113.233](https://vuldb.com/?ip.103.9.113.233) | 103-9-112-1.aamratechnologies.com | - | High
-438 | [103.9.113.235](https://vuldb.com/?ip.103.9.113.235) | 103-9-112-1.aamratechnologies.com | - | High
-439 | [103.9.113.236](https://vuldb.com/?ip.103.9.113.236) | 103-9-112-1.aamratechnologies.com | - | High
-440 | [103.9.113.240](https://vuldb.com/?ip.103.9.113.240) | 103-9-112-1.aamratechnologies.com | - | High
-441 | [103.9.113.242](https://vuldb.com/?ip.103.9.113.242) | 103-9-112-1.aamratechnologies.com | - | High
-442 | [103.9.113.244](https://vuldb.com/?ip.103.9.113.244) | 103-9-112-1.aamratechnologies.com | - | High
-443 | [103.9.114.0](https://vuldb.com/?ip.103.9.114.0) | - | - | High
-444 | [103.9.114.9](https://vuldb.com/?ip.103.9.114.9) | gw.aamranetworks.com | - | High
-445 | [103.9.114.10](https://vuldb.com/?ip.103.9.114.10) | gw.aamranetworks.com | - | High
-446 | [103.9.114.12](https://vuldb.com/?ip.103.9.114.12) | 103-9-114-1.aamratechnologies.com | - | High
-447 | [103.9.114.16](https://vuldb.com/?ip.103.9.114.16) | 103-9-114-1.aamratechnologies.com | - | High
-448 | [103.9.114.21](https://vuldb.com/?ip.103.9.114.21) | 103-9-114-1.aamratechnologies.com | - | High
-449 | [103.9.114.22](https://vuldb.com/?ip.103.9.114.22) | 103-9-114-1.aamratechnologies.com | - | High
-450 | [103.9.114.24](https://vuldb.com/?ip.103.9.114.24) | 103-9-114-1.aamratechnologies.com | - | High
-451 | [103.9.114.32](https://vuldb.com/?ip.103.9.114.32) | 103-9-114-1.aamratechnologies.com | - | High
-452 | [103.9.114.37](https://vuldb.com/?ip.103.9.114.37) | 103-9-114-1.aamratechnologies.com | - | High
-453 | [103.9.114.38](https://vuldb.com/?ip.103.9.114.38) | 103-9-114-1.aamratechnologies.com | - | High
-454 | [103.9.114.41](https://vuldb.com/?ip.103.9.114.41) | 103-9-114-1.aamratechnologies.com | - | High
-455 | [103.9.114.43](https://vuldb.com/?ip.103.9.114.43) | 103-9-114-1.aamratechnologies.com | - | High
-456 | [103.9.114.44](https://vuldb.com/?ip.103.9.114.44) | 103-9-114-1.aamratechnologies.com | - | High
-457 | [103.9.114.48](https://vuldb.com/?ip.103.9.114.48) | 103-9-114-1.aamratechnologies.com | - | High
-458 | [103.9.114.56](https://vuldb.com/?ip.103.9.114.56) | 103-9-114-1.aamratechnologies.com | - | High
-459 | [103.9.114.58](https://vuldb.com/?ip.103.9.114.58) | gw.aamranetworks.com | - | High
-460 | [103.9.114.60](https://vuldb.com/?ip.103.9.114.60) | 103-9-114-1.aamratechnologies.com | - | High
-461 | [103.9.114.64](https://vuldb.com/?ip.103.9.114.64) | 103-9-114-64.aamratechnologies.com | - | High
-462 | [103.9.114.81](https://vuldb.com/?ip.103.9.114.81) | 103-9-114-81.aamratechnologies.com | - | High
-463 | [103.9.114.83](https://vuldb.com/?ip.103.9.114.83) | 103-9-114-83.aamratechnologies.com | - | High
-464 | [103.9.114.84](https://vuldb.com/?ip.103.9.114.84) | 103-9-114-84.aamratechnologies.com | - | High
-465 | [103.9.114.88](https://vuldb.com/?ip.103.9.114.88) | 103-9-114-88.aamratechnologies.com | - | High
-466 | [103.9.114.90](https://vuldb.com/?ip.103.9.114.90) | 103-9-114-90.aamratechnologies.com | - | High
-467 | [103.9.114.92](https://vuldb.com/?ip.103.9.114.92) | 103-9-114-92.aamratechnologies.com | - | High
-468 | [103.9.114.96](https://vuldb.com/?ip.103.9.114.96) | 103-9-114-1.aamratechnologies.com | - | High
-469 | [103.9.114.104](https://vuldb.com/?ip.103.9.114.104) | 103-9-114-1.aamratechnologies.com | - | High
-470 | [103.9.114.106](https://vuldb.com/?ip.103.9.114.106) | 103-9-114-1.aamratechnologies.com | - | High
-471 | [103.9.114.109](https://vuldb.com/?ip.103.9.114.109) | 103-9-114-1.aamratechnologies.com | - | High
-472 | [103.9.114.110](https://vuldb.com/?ip.103.9.114.110) | 103-9-114-1.aamratechnologies.com | - | High
-473 | [103.9.114.112](https://vuldb.com/?ip.103.9.114.112) | - | - | High
-474 | [103.9.114.120](https://vuldb.com/?ip.103.9.114.120) | 103-9-114-1.aamratechnologies.com | - | High
-475 | [103.9.114.124](https://vuldb.com/?ip.103.9.114.124) | 103-9-114-1.aamratechnologies.com | - | High
-476 | [103.9.114.126](https://vuldb.com/?ip.103.9.114.126) | 103-9-114-1.aamratechnologies.com | - | High
-477 | [103.9.114.128](https://vuldb.com/?ip.103.9.114.128) | 103-9-114-1.aamratechnologies.com | - | High
-478 | [103.9.114.144](https://vuldb.com/?ip.103.9.114.144) | 103-9-114-1.aamratechnologies.com | - | High
-479 | [103.9.114.152](https://vuldb.com/?ip.103.9.114.152) | 103-9-114-1.aamratechnologies.com | - | High
-480 | [103.9.114.154](https://vuldb.com/?ip.103.9.114.154) | 103-9-114-1.aamratechnologies.com | - | High
-481 | [103.9.114.156](https://vuldb.com/?ip.103.9.114.156) | 103-9-114-1.aamratechnologies.com | - | High
-482 | [103.9.114.160](https://vuldb.com/?ip.103.9.114.160) | 103-9-114-1.aamratechnologies.com | - | High
-483 | [103.9.114.192](https://vuldb.com/?ip.103.9.114.192) | 103-9-114-1.aamratechnologies.com | - | High
-484 | [103.9.114.204](https://vuldb.com/?ip.103.9.114.204) | 103-9-114-1.aamratechnologies.com | - | High
-485 | [103.9.114.209](https://vuldb.com/?ip.103.9.114.209) | 103-9-114-1.aamratechnologies.com | - | High
-486 | [103.9.114.210](https://vuldb.com/?ip.103.9.114.210) | 103-9-114-1.aamratechnologies.com | - | High
-487 | [103.9.114.213](https://vuldb.com/?ip.103.9.114.213) | 103-9-114-1.aamratechnologies.com | - | High
-488 | [103.9.114.215](https://vuldb.com/?ip.103.9.114.215) | 103-9-114-1.aamratechnologies.com | - | High
-489 | [103.9.114.216](https://vuldb.com/?ip.103.9.114.216) | 103-9-114-1.aamratechnologies.com | - | High
-490 | [103.9.114.224](https://vuldb.com/?ip.103.9.114.224) | 103-9-114-1.aamratechnologies.com | - | High
-491 | [103.9.114.226](https://vuldb.com/?ip.103.9.114.226) | 103-9-114-1.aamratechnologies.com | - | High
-492 | [103.9.114.228](https://vuldb.com/?ip.103.9.114.228) | 103-9-114-1.aamratechnologies.com | - | High
-493 | [103.9.114.232](https://vuldb.com/?ip.103.9.114.232) | 103-9-114-1.aamratechnologies.com | - | High
-494 | [103.9.114.240](https://vuldb.com/?ip.103.9.114.240) | 103-9-114-1.aamratechnologies.com | - | High
-495 | [103.9.114.244](https://vuldb.com/?ip.103.9.114.244) | 103-9-114-1.aamratechnologies.com | - | High
-496 | [103.9.114.246](https://vuldb.com/?ip.103.9.114.246) | 103-9-114-1.aamratechnologies.com | - | High
-497 | [103.9.114.248](https://vuldb.com/?ip.103.9.114.248) | 103-9-114-1.aamratechnologies.com | - | High
-498 | [103.9.115.0](https://vuldb.com/?ip.103.9.115.0) | - | - | High
-499 | [103.9.115.2](https://vuldb.com/?ip.103.9.115.2) | 103-9-112-1.aamratechnologies.com | - | High
-500 | [103.9.115.4](https://vuldb.com/?ip.103.9.115.4) | 103-9-112-1.aamratechnologies.com | - | High
-501 | [103.9.115.8](https://vuldb.com/?ip.103.9.115.8) | 103-9-112-1.aamratechnologies.com | - | High
-502 | [103.9.115.16](https://vuldb.com/?ip.103.9.115.16) | 103-9-112-1.aamratechnologies.com | - | High
-503 | [103.9.115.26](https://vuldb.com/?ip.103.9.115.26) | gw.aamranetworks.com | - | High
-504 | [103.9.115.28](https://vuldb.com/?ip.103.9.115.28) | 103-9-112-1.aamratechnologies.com | - | High
-505 | [103.9.115.31](https://vuldb.com/?ip.103.9.115.31) | 103-9-112-1.aamratechnologies.com | - | High
-506 | [103.9.115.32](https://vuldb.com/?ip.103.9.115.32) | 103-9-112-1.aamratechnologies.com | - | High
-507 | [103.9.115.34](https://vuldb.com/?ip.103.9.115.34) | 103-9-112-1.aamratechnologies.com | - | High
-508 | [103.9.115.36](https://vuldb.com/?ip.103.9.115.36) | 103-9-112-1.aamratechnologies.com | - | High
-509 | [103.9.115.40](https://vuldb.com/?ip.103.9.115.40) | 103-9-112-1.aamratechnologies.com | - | High
-510 | [103.9.115.48](https://vuldb.com/?ip.103.9.115.48) | 103-9-112-1.aamratechnologies.com | - | High
-511 | [103.9.115.50](https://vuldb.com/?ip.103.9.115.50) | 103-9-112-1.aamratechnologies.com | - | High
-512 | [103.9.115.52](https://vuldb.com/?ip.103.9.115.52) | mail.knitwear-creator.com | - | High
-513 | [103.9.115.56](https://vuldb.com/?ip.103.9.115.56) | 103-9-112-1.aamratechnologies.com | - | High
-514 | [103.9.115.64](https://vuldb.com/?ip.103.9.115.64) | 103-9-112-1.aamratechnologies.com | - | High
-515 | [103.9.115.80](https://vuldb.com/?ip.103.9.115.80) | 103-9-112-1.aamratechnologies.com | - | High
-516 | [103.9.115.88](https://vuldb.com/?ip.103.9.115.88) | 103-9-112-1.aamratechnologies.com | - | High
-517 | [103.9.115.94](https://vuldb.com/?ip.103.9.115.94) | p2.as58601.net | - | High
-518 | [103.9.115.96](https://vuldb.com/?ip.103.9.115.96) | 103-9-112-1.aamratechnologies.com | - | High
-519 | [103.9.115.128](https://vuldb.com/?ip.103.9.115.128) | 103-9-112-1.aamratechnologies.com | - | High
-520 | [103.9.115.144](https://vuldb.com/?ip.103.9.115.144) | 103-9-112-1.aamratechnologies.com | - | High
-521 | [103.9.115.148](https://vuldb.com/?ip.103.9.115.148) | 103-9-112-1.aamratechnologies.com | - | High
-522 | [103.9.115.150](https://vuldb.com/?ip.103.9.115.150) | 103-9-112-1.aamratechnologies.com | - | High
-523 | [103.9.115.161](https://vuldb.com/?ip.103.9.115.161) | 103-9-112-1.aamratechnologies.com | - | High
-524 | [103.9.115.162](https://vuldb.com/?ip.103.9.115.162) | 103-9-112-1.aamratechnologies.com | - | High
-525 | [103.9.115.164](https://vuldb.com/?ip.103.9.115.164) | mail.bnslbd.net | - | High
-526 | [103.9.115.168](https://vuldb.com/?ip.103.9.115.168) | 103-9-112-1.aamratechnologies.com | - | High
-527 | [103.9.115.172](https://vuldb.com/?ip.103.9.115.172) | 103-9-112-1.aamratechnologies.com | - | High
-528 | [103.9.115.174](https://vuldb.com/?ip.103.9.115.174) | 103-9-112-1.aamratechnologies.com | - | High
-529 | [103.9.115.176](https://vuldb.com/?ip.103.9.115.176) | 103-9-112-1.aamratechnologies.com | - | High
-530 | [103.9.115.178](https://vuldb.com/?ip.103.9.115.178) | 103-9-112-1.aamratechnologies.com | - | High
-531 | [103.9.115.180](https://vuldb.com/?ip.103.9.115.180) | 103-9-112-1.aamratechnologies.com | - | High
-532 | [103.9.115.184](https://vuldb.com/?ip.103.9.115.184) | mail.intelliar-solutions.com | - | High
-533 | [103.9.115.192](https://vuldb.com/?ip.103.9.115.192) | 103-9-112-1.aamratechnologies.com | - | High
-534 | [103.9.115.224](https://vuldb.com/?ip.103.9.115.224) | 103-9-112-1.aamratechnologies.com | - | High
-535 | [103.9.115.232](https://vuldb.com/?ip.103.9.115.232) | 103-9-112-1.aamratechnologies.com | - | High
-536 | [103.9.115.236](https://vuldb.com/?ip.103.9.115.236) | 103-9-112-1.aamratechnologies.com | - | High
-537 | [103.9.115.238](https://vuldb.com/?ip.103.9.115.238) | 103-9-112-1.aamratechnologies.com | - | High
-538 | [103.9.115.240](https://vuldb.com/?ip.103.9.115.240) | 103-9-112-1.aamratechnologies.com | - | High
-539 | [103.9.132.0](https://vuldb.com/?ip.103.9.132.0) | - | - | High
-540 | [103.9.136.0](https://vuldb.com/?ip.103.9.136.0) | - | - | High
-541 | [103.9.136.6](https://vuldb.com/?ip.103.9.136.6) | - | - | High
-542 | [103.9.136.8](https://vuldb.com/?ip.103.9.136.8) | - | - | High
-543 | [103.9.136.16](https://vuldb.com/?ip.103.9.136.16) | - | - | High
-544 | [103.9.136.32](https://vuldb.com/?ip.103.9.136.32) | - | - | High
-545 | [103.9.136.64](https://vuldb.com/?ip.103.9.136.64) | - | - | High
-546 | [103.9.136.128](https://vuldb.com/?ip.103.9.136.128) | - | - | High
-547 | [103.9.137.0](https://vuldb.com/?ip.103.9.137.0) | - | - | High
-548 | [103.9.138.245](https://vuldb.com/?ip.103.9.138.245) | - | - | High
-549 | [103.9.138.250](https://vuldb.com/?ip.103.9.138.250) | p-0-1-0-core2-dhk.novocom-bd.com | - | High
-550 | [103.9.138.253](https://vuldb.com/?ip.103.9.138.253) | g-0-3-0-core-dhk.novocom-bd.com | - | High
-551 | [103.9.139.253](https://vuldb.com/?ip.103.9.139.253) | g-0-3-1-core-dhk.novocom-bd.com | - | High
-552 | [103.9.142.0](https://vuldb.com/?ip.103.9.142.0) | - | - | High
-553 | [103.9.181.0](https://vuldb.com/?ip.103.9.181.0) | - | - | High
-554 | [103.9.181.16](https://vuldb.com/?ip.103.9.181.16) | - | - | High
-555 | [103.9.181.24](https://vuldb.com/?ip.103.9.181.24) | - | - | High
-556 | [103.9.181.26](https://vuldb.com/?ip.103.9.181.26) | - | - | High
-557 | [103.9.181.28](https://vuldb.com/?ip.103.9.181.28) | - | - | High
-558 | [103.9.181.32](https://vuldb.com/?ip.103.9.181.32) | - | - | High
-559 | [103.9.181.64](https://vuldb.com/?ip.103.9.181.64) | - | - | High
-560 | [103.9.181.128](https://vuldb.com/?ip.103.9.181.128) | - | - | High
-561 | [103.9.181.192](https://vuldb.com/?ip.103.9.181.192) | - | - | High
-562 | [103.9.181.224](https://vuldb.com/?ip.103.9.181.224) | - | - | High
-563 | [103.9.181.240](https://vuldb.com/?ip.103.9.181.240) | - | - | High
-564 | [103.9.181.249](https://vuldb.com/?ip.103.9.181.249) | - | - | High
-565 | [103.9.181.250](https://vuldb.com/?ip.103.9.181.250) | - | - | High
-566 | [103.9.181.252](https://vuldb.com/?ip.103.9.181.252) | - | - | High
-567 | [103.9.184.0](https://vuldb.com/?ip.103.9.184.0) | - | - | High
-568 | [103.9.220.0](https://vuldb.com/?ip.103.9.220.0) | - | - | High
-569 | [103.9.224.0](https://vuldb.com/?ip.103.9.224.0) | - | - | High
-570 | [103.10.52.0](https://vuldb.com/?ip.103.10.52.0) | smtp0.opexgroup.com | - | High
-571 | [103.10.76.0](https://vuldb.com/?ip.103.10.76.0) | - | - | High
-572 | [103.10.194.0](https://vuldb.com/?ip.103.10.194.0) | - | - | High
-573 | [103.11.136.0](https://vuldb.com/?ip.103.11.136.0) | - | - | High
-574 | [103.11.196.0](https://vuldb.com/?ip.103.11.196.0) | - | - | High
-575 | [103.12.44.0](https://vuldb.com/?ip.103.12.44.0) | - | - | High
-576 | [103.12.44.64](https://vuldb.com/?ip.103.12.44.64) | - | - | High
-577 | ... | ... | ... | ...
+279 | [84.252.93.3](https://vuldb.com/?ip.84.252.93.3) | - | - | High
+280 | [84.252.93.4](https://vuldb.com/?ip.84.252.93.4) | - | - | High
+281 | [84.252.93.5](https://vuldb.com/?ip.84.252.93.5) | - | - | High
+282 | [84.252.93.6](https://vuldb.com/?ip.84.252.93.6) | - | - | High
+283 | [84.252.93.7](https://vuldb.com/?ip.84.252.93.7) | - | - | High
+284 | [84.252.93.8](https://vuldb.com/?ip.84.252.93.8) | - | - | High
+285 | [84.252.93.9](https://vuldb.com/?ip.84.252.93.9) | - | - | High
+286 | [84.252.93.10](https://vuldb.com/?ip.84.252.93.10) | - | - | High
+287 | [84.252.93.12](https://vuldb.com/?ip.84.252.93.12) | - | - | High
+288 | [84.252.93.14](https://vuldb.com/?ip.84.252.93.14) | - | - | High
+289 | [89.35.126.0](https://vuldb.com/?ip.89.35.126.0) | - | - | High
+290 | [89.35.126.128](https://vuldb.com/?ip.89.35.126.128) | - | - | High
+291 | [91.149.248.0](https://vuldb.com/?ip.91.149.248.0) | - | - | High
+292 | [91.237.104.0](https://vuldb.com/?ip.91.237.104.0) | - | - | High
+293 | [101.2.160.0](https://vuldb.com/?ip.101.2.160.0) | - | - | High
+294 | [103.3.224.0](https://vuldb.com/?ip.103.3.224.0) | 103.3.224.0-static.reserve.tomatoweb.com.bd | - | High
+295 | [103.4.64.0](https://vuldb.com/?ip.103.4.64.0) | - | - | High
+296 | [103.4.108.0](https://vuldb.com/?ip.103.4.108.0) | - | - | High
+297 | [103.4.116.0](https://vuldb.com/?ip.103.4.116.0) | ASSIGNED-FOR-CLIENT.adnsl.com | - | High
+298 | [103.4.144.0](https://vuldb.com/?ip.103.4.144.0) | - | - | High
+299 | [103.5.216.0](https://vuldb.com/?ip.103.5.216.0) | - | - | High
+300 | [103.5.232.0](https://vuldb.com/?ip.103.5.232.0) | - | - | High
+301 | [103.6.250.0](https://vuldb.com/?ip.103.6.250.0) | - | - | High
+302 | [103.7.4.0](https://vuldb.com/?ip.103.7.4.0) | - | - | High
+303 | [103.7.112.0](https://vuldb.com/?ip.103.7.112.0) | - | - | High
+304 | [103.7.120.0](https://vuldb.com/?ip.103.7.120.0) | - | - | High
+305 | [103.7.192.0](https://vuldb.com/?ip.103.7.192.0) | - | - | High
+306 | [103.7.248.0](https://vuldb.com/?ip.103.7.248.0) | - | - | High
+307 | [103.7.248.64](https://vuldb.com/?ip.103.7.248.64) | - | - | High
+308 | [103.7.248.84](https://vuldb.com/?ip.103.7.248.84) | - | - | High
+309 | [103.7.248.88](https://vuldb.com/?ip.103.7.248.88) | - | - | High
+310 | [103.7.248.96](https://vuldb.com/?ip.103.7.248.96) | - | - | High
+311 | [103.7.248.128](https://vuldb.com/?ip.103.7.248.128) | - | - | High
+312 | [103.7.248.160](https://vuldb.com/?ip.103.7.248.160) | - | - | High
+313 | [103.7.248.162](https://vuldb.com/?ip.103.7.248.162) | - | - | High
+314 | [103.7.248.164](https://vuldb.com/?ip.103.7.248.164) | - | - | High
+315 | [103.7.248.168](https://vuldb.com/?ip.103.7.248.168) | - | - | High
+316 | [103.7.248.176](https://vuldb.com/?ip.103.7.248.176) | - | - | High
+317 | [103.7.248.188](https://vuldb.com/?ip.103.7.248.188) | - | - | High
+318 | [103.7.248.192](https://vuldb.com/?ip.103.7.248.192) | - | - | High
+319 | [103.7.249.0](https://vuldb.com/?ip.103.7.249.0) | - | - | High
+320 | [103.7.250.0](https://vuldb.com/?ip.103.7.250.0) | - | - | High
+321 | [103.7.250.32](https://vuldb.com/?ip.103.7.250.32) | - | - | High
+322 | [103.7.250.48](https://vuldb.com/?ip.103.7.250.48) | - | - | High
+323 | [103.7.250.56](https://vuldb.com/?ip.103.7.250.56) | - | - | High
+324 | [103.7.250.62](https://vuldb.com/?ip.103.7.250.62) | - | - | High
+325 | [103.7.250.64](https://vuldb.com/?ip.103.7.250.64) | - | - | High
+326 | [103.7.250.128](https://vuldb.com/?ip.103.7.250.128) | - | - | High
+327 | [103.7.251.0](https://vuldb.com/?ip.103.7.251.0) | - | - | High
+328 | [103.7.251.16](https://vuldb.com/?ip.103.7.251.16) | - | - | High
+329 | [103.7.251.24](https://vuldb.com/?ip.103.7.251.24) | - | - | High
+330 | [103.7.251.32](https://vuldb.com/?ip.103.7.251.32) | - | - | High
+331 | [103.7.251.64](https://vuldb.com/?ip.103.7.251.64) | - | - | High
+332 | [103.7.251.96](https://vuldb.com/?ip.103.7.251.96) | - | - | High
+333 | [103.7.251.112](https://vuldb.com/?ip.103.7.251.112) | - | - | High
+334 | [103.7.251.116](https://vuldb.com/?ip.103.7.251.116) | - | - | High
+335 | [103.7.251.119](https://vuldb.com/?ip.103.7.251.119) | - | - | High
+336 | [103.7.251.120](https://vuldb.com/?ip.103.7.251.120) | - | - | High
+337 | [103.7.251.128](https://vuldb.com/?ip.103.7.251.128) | - | - | High
+338 | [103.7.251.134](https://vuldb.com/?ip.103.7.251.134) | gi-cig-530.403-csg-0002.pico.net.bd | - | High
+339 | [103.7.251.136](https://vuldb.com/?ip.103.7.251.136) | - | - | High
+340 | [103.7.251.144](https://vuldb.com/?ip.103.7.251.144) | - | - | High
+341 | [103.7.251.156](https://vuldb.com/?ip.103.7.251.156) | - | - | High
+342 | [103.7.251.160](https://vuldb.com/?ip.103.7.251.160) | - | - | High
+343 | [103.7.251.192](https://vuldb.com/?ip.103.7.251.192) | - | - | High
+344 | [103.7.251.224](https://vuldb.com/?ip.103.7.251.224) | - | - | High
+345 | [103.7.251.240](https://vuldb.com/?ip.103.7.251.240) | lo1-bdix.pico.net.bd | - | High
+346 | [103.7.251.248](https://vuldb.com/?ip.103.7.251.248) | lo1-j-ggc.pico.net.bd | - | High
+347 | [103.7.251.250](https://vuldb.com/?ip.103.7.251.250) | lo1-ju2.pico.net.bd | - | High
+348 | [103.7.251.253](https://vuldb.com/?ip.103.7.251.253) | lo1-ig1.pico.net.bd | - | High
+349 | [103.7.251.254](https://vuldb.com/?ip.103.7.251.254) | lo1-ggc.pico.net.bd | - | High
+350 | [103.8.121.0](https://vuldb.com/?ip.103.8.121.0) | - | - | High
+351 | [103.9.104.0](https://vuldb.com/?ip.103.9.104.0) | - | - | High
+352 | [103.9.104.32](https://vuldb.com/?ip.103.9.104.32) | - | - | High
+353 | [103.9.104.40](https://vuldb.com/?ip.103.9.104.40) | - | - | High
+354 | [103.9.104.48](https://vuldb.com/?ip.103.9.104.48) | - | - | High
+355 | [103.9.104.64](https://vuldb.com/?ip.103.9.104.64) | - | - | High
+356 | [103.9.104.80](https://vuldb.com/?ip.103.9.104.80) | - | - | High
+357 | [103.9.104.84](https://vuldb.com/?ip.103.9.104.84) | - | - | High
+358 | [103.9.104.86](https://vuldb.com/?ip.103.9.104.86) | - | - | High
+359 | [103.9.104.88](https://vuldb.com/?ip.103.9.104.88) | - | - | High
+360 | [103.9.104.90](https://vuldb.com/?ip.103.9.104.90) | - | - | High
+361 | [103.9.104.92](https://vuldb.com/?ip.103.9.104.92) | - | - | High
+362 | [103.9.104.94](https://vuldb.com/?ip.103.9.104.94) | - | - | High
+363 | [103.9.104.96](https://vuldb.com/?ip.103.9.104.96) | - | - | High
+364 | [103.9.104.98](https://vuldb.com/?ip.103.9.104.98) | - | - | High
+365 | [103.9.104.100](https://vuldb.com/?ip.103.9.104.100) | - | - | High
+366 | [103.9.104.104](https://vuldb.com/?ip.103.9.104.104) | - | - | High
+367 | [103.9.104.112](https://vuldb.com/?ip.103.9.104.112) | - | - | High
+368 | [103.9.104.128](https://vuldb.com/?ip.103.9.104.128) | - | - | High
+369 | [103.9.104.192](https://vuldb.com/?ip.103.9.104.192) | - | - | High
+370 | [103.9.104.208](https://vuldb.com/?ip.103.9.104.208) | - | - | High
+371 | [103.9.104.220](https://vuldb.com/?ip.103.9.104.220) | - | - | High
+372 | [103.9.104.222](https://vuldb.com/?ip.103.9.104.222) | - | - | High
+373 | [103.9.104.224](https://vuldb.com/?ip.103.9.104.224) | - | - | High
+374 | [103.9.104.232](https://vuldb.com/?ip.103.9.104.232) | - | - | High
+375 | [103.9.104.235](https://vuldb.com/?ip.103.9.104.235) | - | - | High
+376 | [103.9.104.236](https://vuldb.com/?ip.103.9.104.236) | - | - | High
+377 | [103.9.104.240](https://vuldb.com/?ip.103.9.104.240) | - | - | High
+378 | [103.9.104.248](https://vuldb.com/?ip.103.9.104.248) | - | - | High
+379 | [103.9.105.0](https://vuldb.com/?ip.103.9.105.0) | - | - | High
+380 | [103.9.112.0](https://vuldb.com/?ip.103.9.112.0) | - | - | High
+381 | [103.9.112.2](https://vuldb.com/?ip.103.9.112.2) | 103-9-112-1.aamratechnologies.com | - | High
+382 | [103.9.112.4](https://vuldb.com/?ip.103.9.112.4) | 103-9-112-1.aamratechnologies.com | - | High
+383 | [103.9.112.6](https://vuldb.com/?ip.103.9.112.6) | 103-9-112-1.aamratechnologies.com | - | High
+384 | [103.9.112.8](https://vuldb.com/?ip.103.9.112.8) | drgw.aamratechnologies.com | - | High
+385 | [103.9.112.16](https://vuldb.com/?ip.103.9.112.16) | 103-9-112-1.aamratechnologies.com | - | High
+386 | [103.9.112.32](https://vuldb.com/?ip.103.9.112.32) | 103-9-112-1.aamratechnologies.com | - | High
+387 | [103.9.112.49](https://vuldb.com/?ip.103.9.112.49) | 103-9-112-1.aamratechnologies.com | - | High
+388 | [103.9.112.51](https://vuldb.com/?ip.103.9.112.51) | 103-9-112-1.aamratechnologies.com | - | High
+389 | [103.9.112.52](https://vuldb.com/?ip.103.9.112.52) | sggw1.as58601.net | - | High
+390 | [103.9.112.55](https://vuldb.com/?ip.103.9.112.55) | 103-9-112-1.aamratechnologies.com | - | High
+391 | [103.9.112.56](https://vuldb.com/?ip.103.9.112.56) | 103-9-112-1.aamratechnologies.com | - | High
+392 | [103.9.112.58](https://vuldb.com/?ip.103.9.112.58) | 103-9-112-1.aamratechnologies.com | - | High
+393 | [103.9.112.60](https://vuldb.com/?ip.103.9.112.60) | 103-9-112-1.aamratechnologies.com | - | High
+394 | [103.9.112.64](https://vuldb.com/?ip.103.9.112.64) | 103-9-112-1.aamratechnologies.com | - | High
+395 | [103.9.112.66](https://vuldb.com/?ip.103.9.112.66) | lnmain66.bol.net | - | High
+396 | [103.9.112.68](https://vuldb.com/?ip.103.9.112.68) | 103-9-112-1.aamratechnologies.com | - | High
+397 | [103.9.112.72](https://vuldb.com/?ip.103.9.112.72) | gw.aamranetworks.com | - | High
+398 | [103.9.112.80](https://vuldb.com/?ip.103.9.112.80) | 103-9-112-1.aamratechnologies.com | - | High
+399 | [103.9.112.82](https://vuldb.com/?ip.103.9.112.82) | 103-9-112-1.aamratechnologies.com | - | High
+400 | [103.9.112.84](https://vuldb.com/?ip.103.9.112.84) | 103-9-112-1.aamratechnologies.com | - | High
+401 | [103.9.112.88](https://vuldb.com/?ip.103.9.112.88) | 103-9-112-1.aamratechnologies.com | - | High
+402 | [103.9.112.100](https://vuldb.com/?ip.103.9.112.100) | 103-9-112-1.aamratechnologies.com | - | High
+403 | [103.9.112.104](https://vuldb.com/?ip.103.9.112.104) | 103-9-112-1.aamratechnologies.com | - | High
+404 | [103.9.112.112](https://vuldb.com/?ip.103.9.112.112) | 103-9-112-1.aamratechnologies.com | - | High
+405 | [103.9.112.116](https://vuldb.com/?ip.103.9.112.116) | 103-9-112-1.aamratechnologies.com | - | High
+406 | [103.9.112.118](https://vuldb.com/?ip.103.9.112.118) | 103-9-112-1.aamratechnologies.com | - | High
+407 | [103.9.112.121](https://vuldb.com/?ip.103.9.112.121) | 103-9-112-1.aamratechnologies.com | - | High
+408 | [103.9.112.122](https://vuldb.com/?ip.103.9.112.122) | 103-9-112-1.aamratechnologies.com | - | High
+409 | [103.9.112.124](https://vuldb.com/?ip.103.9.112.124) | 103-9-112-1.aamratechnologies.com | - | High
+410 | [103.9.112.127](https://vuldb.com/?ip.103.9.112.127) | 103-9-112-1.aamratechnologies.com | - | High
+411 | [103.9.112.128](https://vuldb.com/?ip.103.9.112.128) | cache.google.com | - | High
+412 | [103.9.112.192](https://vuldb.com/?ip.103.9.112.192) | 103-9-112-1.aamratechnologies.com | - | High
+413 | [103.9.112.208](https://vuldb.com/?ip.103.9.112.208) | 103-9-112-1.aamratechnologies.com | - | High
+414 | [103.9.112.210](https://vuldb.com/?ip.103.9.112.210) | 103-9-112-1.aamratechnologies.com | - | High
+415 | [103.9.112.212](https://vuldb.com/?ip.103.9.112.212) | 103-9-112-1.aamratechnologies.com | - | High
+416 | [103.9.112.215](https://vuldb.com/?ip.103.9.112.215) | 103-9-112-1.aamratechnologies.com | - | High
+417 | [103.9.112.216](https://vuldb.com/?ip.103.9.112.216) | 103-9-112-1.aamratechnologies.com | - | High
+418 | [103.9.112.224](https://vuldb.com/?ip.103.9.112.224) | 103-9-112-1.aamratechnologies.com | - | High
+419 | [103.9.113.0](https://vuldb.com/?ip.103.9.113.0) | - | - | High
+420 | [103.9.113.16](https://vuldb.com/?ip.103.9.113.16) | 103-9-112-1.aamratechnologies.com | - | High
+421 | [103.9.113.24](https://vuldb.com/?ip.103.9.113.24) | 103-9-112-1.aamratechnologies.com | - | High
+422 | [103.9.113.27](https://vuldb.com/?ip.103.9.113.27) | 103-9-112-1.aamratechnologies.com | - | High
+423 | [103.9.113.33](https://vuldb.com/?ip.103.9.113.33) | 103-9-112-1.aamratechnologies.com | - | High
+424 | [103.9.113.36](https://vuldb.com/?ip.103.9.113.36) | gw.aamranetworks.com | - | High
+425 | [103.9.113.40](https://vuldb.com/?ip.103.9.113.40) | gw.aamranetworks.com | - | High
+426 | [103.9.113.48](https://vuldb.com/?ip.103.9.113.48) | 103-9-112-1.aamratechnologies.com | - | High
+427 | [103.9.113.52](https://vuldb.com/?ip.103.9.113.52) | 103-9-112-1.aamratechnologies.com | - | High
+428 | [103.9.113.56](https://vuldb.com/?ip.103.9.113.56) | gw.aamranetworks.com | - | High
+429 | [103.9.113.72](https://vuldb.com/?ip.103.9.113.72) | gw.aamranetworks.com | - | High
+430 | [103.9.113.80](https://vuldb.com/?ip.103.9.113.80) | gw.aamranetworks.com | - | High
+431 | [103.9.113.96](https://vuldb.com/?ip.103.9.113.96) | 103-9-112-1.aamratechnologies.com | - | High
+432 | [103.9.113.104](https://vuldb.com/?ip.103.9.113.104) | gw.aamranetworks.com | - | High
+433 | [103.9.113.108](https://vuldb.com/?ip.103.9.113.108) | gw.aamranetworks.com | - | High
+434 | [103.9.113.112](https://vuldb.com/?ip.103.9.113.112) | gw.aamranetworks.com | - | High
+435 | [103.9.113.124](https://vuldb.com/?ip.103.9.113.124) | 103-9-112-1.aamratechnologies.com | - | High
+436 | [103.9.113.128](https://vuldb.com/?ip.103.9.113.128) | 103-9-112-1.aamratechnologies.com | - | High
+437 | [103.9.113.144](https://vuldb.com/?ip.103.9.113.144) | 103-9-112-1.aamratechnologies.com | - | High
+438 | [103.9.113.148](https://vuldb.com/?ip.103.9.113.148) | 103-9-112-1.aamratechnologies.com | - | High
+439 | [103.9.113.151](https://vuldb.com/?ip.103.9.113.151) | 103-9-112-1.aamratechnologies.com | - | High
+440 | [103.9.113.152](https://vuldb.com/?ip.103.9.113.152) | 103-9-112-1.aamratechnologies.com | - | High
+441 | [103.9.113.160](https://vuldb.com/?ip.103.9.113.160) | 103-9-112-1.aamratechnologies.com | - | High
+442 | [103.9.113.192](https://vuldb.com/?ip.103.9.113.192) | gw.aamranetworks.com | - | High
+443 | [103.9.113.225](https://vuldb.com/?ip.103.9.113.225) | 103-9-112-1.aamratechnologies.com | - | High
+444 | [103.9.113.226](https://vuldb.com/?ip.103.9.113.226) | 103-9-112-1.aamratechnologies.com | - | High
+445 | [103.9.113.229](https://vuldb.com/?ip.103.9.113.229) | 103-9-112-1.aamratechnologies.com | - | High
+446 | [103.9.113.230](https://vuldb.com/?ip.103.9.113.230) | 103-9-112-1.aamratechnologies.com | - | High
+447 | [103.9.113.233](https://vuldb.com/?ip.103.9.113.233) | 103-9-112-1.aamratechnologies.com | - | High
+448 | [103.9.113.235](https://vuldb.com/?ip.103.9.113.235) | 103-9-112-1.aamratechnologies.com | - | High
+449 | [103.9.113.236](https://vuldb.com/?ip.103.9.113.236) | 103-9-112-1.aamratechnologies.com | - | High
+450 | [103.9.113.240](https://vuldb.com/?ip.103.9.113.240) | 103-9-112-1.aamratechnologies.com | - | High
+451 | [103.9.113.242](https://vuldb.com/?ip.103.9.113.242) | 103-9-112-1.aamratechnologies.com | - | High
+452 | [103.9.113.244](https://vuldb.com/?ip.103.9.113.244) | 103-9-112-1.aamratechnologies.com | - | High
+453 | [103.9.114.0](https://vuldb.com/?ip.103.9.114.0) | - | - | High
+454 | [103.9.114.9](https://vuldb.com/?ip.103.9.114.9) | gw.aamranetworks.com | - | High
+455 | [103.9.114.10](https://vuldb.com/?ip.103.9.114.10) | gw.aamranetworks.com | - | High
+456 | [103.9.114.12](https://vuldb.com/?ip.103.9.114.12) | 103-9-114-1.aamratechnologies.com | - | High
+457 | [103.9.114.16](https://vuldb.com/?ip.103.9.114.16) | 103-9-114-1.aamratechnologies.com | - | High
+458 | [103.9.114.21](https://vuldb.com/?ip.103.9.114.21) | 103-9-114-1.aamratechnologies.com | - | High
+459 | [103.9.114.22](https://vuldb.com/?ip.103.9.114.22) | 103-9-114-1.aamratechnologies.com | - | High
+460 | [103.9.114.24](https://vuldb.com/?ip.103.9.114.24) | 103-9-114-1.aamratechnologies.com | - | High
+461 | [103.9.114.32](https://vuldb.com/?ip.103.9.114.32) | 103-9-114-1.aamratechnologies.com | - | High
+462 | [103.9.114.37](https://vuldb.com/?ip.103.9.114.37) | 103-9-114-1.aamratechnologies.com | - | High
+463 | [103.9.114.38](https://vuldb.com/?ip.103.9.114.38) | 103-9-114-1.aamratechnologies.com | - | High
+464 | [103.9.114.41](https://vuldb.com/?ip.103.9.114.41) | 103-9-114-1.aamratechnologies.com | - | High
+465 | [103.9.114.43](https://vuldb.com/?ip.103.9.114.43) | 103-9-114-1.aamratechnologies.com | - | High
+466 | [103.9.114.44](https://vuldb.com/?ip.103.9.114.44) | 103-9-114-1.aamratechnologies.com | - | High
+467 | [103.9.114.48](https://vuldb.com/?ip.103.9.114.48) | 103-9-114-1.aamratechnologies.com | - | High
+468 | [103.9.114.56](https://vuldb.com/?ip.103.9.114.56) | 103-9-114-1.aamratechnologies.com | - | High
+469 | [103.9.114.58](https://vuldb.com/?ip.103.9.114.58) | gw.aamranetworks.com | - | High
+470 | [103.9.114.60](https://vuldb.com/?ip.103.9.114.60) | 103-9-114-1.aamratechnologies.com | - | High
+471 | [103.9.114.64](https://vuldb.com/?ip.103.9.114.64) | 103-9-114-64.aamratechnologies.com | - | High
+472 | [103.9.114.81](https://vuldb.com/?ip.103.9.114.81) | 103-9-114-81.aamratechnologies.com | - | High
+473 | [103.9.114.83](https://vuldb.com/?ip.103.9.114.83) | 103-9-114-83.aamratechnologies.com | - | High
+474 | [103.9.114.84](https://vuldb.com/?ip.103.9.114.84) | 103-9-114-84.aamratechnologies.com | - | High
+475 | [103.9.114.88](https://vuldb.com/?ip.103.9.114.88) | 103-9-114-88.aamratechnologies.com | - | High
+476 | [103.9.114.90](https://vuldb.com/?ip.103.9.114.90) | 103-9-114-90.aamratechnologies.com | - | High
+477 | [103.9.114.92](https://vuldb.com/?ip.103.9.114.92) | 103-9-114-92.aamratechnologies.com | - | High
+478 | [103.9.114.96](https://vuldb.com/?ip.103.9.114.96) | 103-9-114-1.aamratechnologies.com | - | High
+479 | [103.9.114.104](https://vuldb.com/?ip.103.9.114.104) | 103-9-114-1.aamratechnologies.com | - | High
+480 | [103.9.114.106](https://vuldb.com/?ip.103.9.114.106) | 103-9-114-1.aamratechnologies.com | - | High
+481 | [103.9.114.109](https://vuldb.com/?ip.103.9.114.109) | 103-9-114-1.aamratechnologies.com | - | High
+482 | [103.9.114.110](https://vuldb.com/?ip.103.9.114.110) | 103-9-114-1.aamratechnologies.com | - | High
+483 | [103.9.114.112](https://vuldb.com/?ip.103.9.114.112) | - | - | High
+484 | [103.9.114.120](https://vuldb.com/?ip.103.9.114.120) | 103-9-114-1.aamratechnologies.com | - | High
+485 | [103.9.114.124](https://vuldb.com/?ip.103.9.114.124) | 103-9-114-1.aamratechnologies.com | - | High
+486 | [103.9.114.126](https://vuldb.com/?ip.103.9.114.126) | 103-9-114-1.aamratechnologies.com | - | High
+487 | [103.9.114.128](https://vuldb.com/?ip.103.9.114.128) | 103-9-114-1.aamratechnologies.com | - | High
+488 | [103.9.114.144](https://vuldb.com/?ip.103.9.114.144) | 103-9-114-1.aamratechnologies.com | - | High
+489 | [103.9.114.152](https://vuldb.com/?ip.103.9.114.152) | 103-9-114-1.aamratechnologies.com | - | High
+490 | [103.9.114.154](https://vuldb.com/?ip.103.9.114.154) | 103-9-114-1.aamratechnologies.com | - | High
+491 | [103.9.114.156](https://vuldb.com/?ip.103.9.114.156) | 103-9-114-1.aamratechnologies.com | - | High
+492 | [103.9.114.160](https://vuldb.com/?ip.103.9.114.160) | 103-9-114-1.aamratechnologies.com | - | High
+493 | [103.9.114.192](https://vuldb.com/?ip.103.9.114.192) | 103-9-114-1.aamratechnologies.com | - | High
+494 | [103.9.114.204](https://vuldb.com/?ip.103.9.114.204) | 103-9-114-1.aamratechnologies.com | - | High
+495 | [103.9.114.209](https://vuldb.com/?ip.103.9.114.209) | 103-9-114-1.aamratechnologies.com | - | High
+496 | [103.9.114.210](https://vuldb.com/?ip.103.9.114.210) | 103-9-114-1.aamratechnologies.com | - | High
+497 | [103.9.114.213](https://vuldb.com/?ip.103.9.114.213) | 103-9-114-1.aamratechnologies.com | - | High
+498 | [103.9.114.215](https://vuldb.com/?ip.103.9.114.215) | 103-9-114-1.aamratechnologies.com | - | High
+499 | [103.9.114.216](https://vuldb.com/?ip.103.9.114.216) | 103-9-114-1.aamratechnologies.com | - | High
+500 | [103.9.114.224](https://vuldb.com/?ip.103.9.114.224) | 103-9-114-1.aamratechnologies.com | - | High
+501 | [103.9.114.226](https://vuldb.com/?ip.103.9.114.226) | 103-9-114-1.aamratechnologies.com | - | High
+502 | [103.9.114.228](https://vuldb.com/?ip.103.9.114.228) | 103-9-114-1.aamratechnologies.com | - | High
+503 | [103.9.114.232](https://vuldb.com/?ip.103.9.114.232) | 103-9-114-1.aamratechnologies.com | - | High
+504 | [103.9.114.240](https://vuldb.com/?ip.103.9.114.240) | 103-9-114-1.aamratechnologies.com | - | High
+505 | [103.9.114.244](https://vuldb.com/?ip.103.9.114.244) | 103-9-114-1.aamratechnologies.com | - | High
+506 | [103.9.114.246](https://vuldb.com/?ip.103.9.114.246) | 103-9-114-1.aamratechnologies.com | - | High
+507 | [103.9.114.248](https://vuldb.com/?ip.103.9.114.248) | 103-9-114-1.aamratechnologies.com | - | High
+508 | [103.9.115.0](https://vuldb.com/?ip.103.9.115.0) | - | - | High
+509 | [103.9.115.2](https://vuldb.com/?ip.103.9.115.2) | 103-9-112-1.aamratechnologies.com | - | High
+510 | [103.9.115.4](https://vuldb.com/?ip.103.9.115.4) | 103-9-112-1.aamratechnologies.com | - | High
+511 | [103.9.115.8](https://vuldb.com/?ip.103.9.115.8) | 103-9-112-1.aamratechnologies.com | - | High
+512 | [103.9.115.16](https://vuldb.com/?ip.103.9.115.16) | 103-9-112-1.aamratechnologies.com | - | High
+513 | [103.9.115.26](https://vuldb.com/?ip.103.9.115.26) | gw.aamranetworks.com | - | High
+514 | [103.9.115.28](https://vuldb.com/?ip.103.9.115.28) | 103-9-112-1.aamratechnologies.com | - | High
+515 | [103.9.115.31](https://vuldb.com/?ip.103.9.115.31) | 103-9-112-1.aamratechnologies.com | - | High
+516 | [103.9.115.32](https://vuldb.com/?ip.103.9.115.32) | 103-9-112-1.aamratechnologies.com | - | High
+517 | [103.9.115.34](https://vuldb.com/?ip.103.9.115.34) | 103-9-112-1.aamratechnologies.com | - | High
+518 | [103.9.115.36](https://vuldb.com/?ip.103.9.115.36) | 103-9-112-1.aamratechnologies.com | - | High
+519 | [103.9.115.40](https://vuldb.com/?ip.103.9.115.40) | 103-9-112-1.aamratechnologies.com | - | High
+520 | [103.9.115.48](https://vuldb.com/?ip.103.9.115.48) | 103-9-112-1.aamratechnologies.com | - | High
+521 | [103.9.115.50](https://vuldb.com/?ip.103.9.115.50) | 103-9-112-1.aamratechnologies.com | - | High
+522 | [103.9.115.52](https://vuldb.com/?ip.103.9.115.52) | mail.knitwear-creator.com | - | High
+523 | [103.9.115.56](https://vuldb.com/?ip.103.9.115.56) | 103-9-112-1.aamratechnologies.com | - | High
+524 | [103.9.115.64](https://vuldb.com/?ip.103.9.115.64) | 103-9-112-1.aamratechnologies.com | - | High
+525 | [103.9.115.80](https://vuldb.com/?ip.103.9.115.80) | 103-9-112-1.aamratechnologies.com | - | High
+526 | [103.9.115.88](https://vuldb.com/?ip.103.9.115.88) | 103-9-112-1.aamratechnologies.com | - | High
+527 | [103.9.115.94](https://vuldb.com/?ip.103.9.115.94) | p2.as58601.net | - | High
+528 | [103.9.115.96](https://vuldb.com/?ip.103.9.115.96) | 103-9-112-1.aamratechnologies.com | - | High
+529 | [103.9.115.128](https://vuldb.com/?ip.103.9.115.128) | 103-9-112-1.aamratechnologies.com | - | High
+530 | [103.9.115.144](https://vuldb.com/?ip.103.9.115.144) | 103-9-112-1.aamratechnologies.com | - | High
+531 | [103.9.115.148](https://vuldb.com/?ip.103.9.115.148) | 103-9-112-1.aamratechnologies.com | - | High
+532 | [103.9.115.150](https://vuldb.com/?ip.103.9.115.150) | 103-9-112-1.aamratechnologies.com | - | High
+533 | [103.9.115.161](https://vuldb.com/?ip.103.9.115.161) | 103-9-112-1.aamratechnologies.com | - | High
+534 | [103.9.115.162](https://vuldb.com/?ip.103.9.115.162) | 103-9-112-1.aamratechnologies.com | - | High
+535 | [103.9.115.164](https://vuldb.com/?ip.103.9.115.164) | mail.bnslbd.net | - | High
+536 | [103.9.115.168](https://vuldb.com/?ip.103.9.115.168) | 103-9-112-1.aamratechnologies.com | - | High
+537 | [103.9.115.172](https://vuldb.com/?ip.103.9.115.172) | 103-9-112-1.aamratechnologies.com | - | High
+538 | [103.9.115.174](https://vuldb.com/?ip.103.9.115.174) | 103-9-112-1.aamratechnologies.com | - | High
+539 | [103.9.115.176](https://vuldb.com/?ip.103.9.115.176) | 103-9-112-1.aamratechnologies.com | - | High
+540 | [103.9.115.178](https://vuldb.com/?ip.103.9.115.178) | 103-9-112-1.aamratechnologies.com | - | High
+541 | [103.9.115.180](https://vuldb.com/?ip.103.9.115.180) | 103-9-112-1.aamratechnologies.com | - | High
+542 | [103.9.115.184](https://vuldb.com/?ip.103.9.115.184) | mail.intelliar-solutions.com | - | High
+543 | [103.9.115.192](https://vuldb.com/?ip.103.9.115.192) | 103-9-112-1.aamratechnologies.com | - | High
+544 | [103.9.115.224](https://vuldb.com/?ip.103.9.115.224) | 103-9-112-1.aamratechnologies.com | - | High
+545 | [103.9.115.232](https://vuldb.com/?ip.103.9.115.232) | 103-9-112-1.aamratechnologies.com | - | High
+546 | [103.9.115.236](https://vuldb.com/?ip.103.9.115.236) | 103-9-112-1.aamratechnologies.com | - | High
+547 | [103.9.115.238](https://vuldb.com/?ip.103.9.115.238) | 103-9-112-1.aamratechnologies.com | - | High
+548 | [103.9.115.240](https://vuldb.com/?ip.103.9.115.240) | 103-9-112-1.aamratechnologies.com | - | High
+549 | [103.9.132.0](https://vuldb.com/?ip.103.9.132.0) | - | - | High
+550 | [103.9.136.0](https://vuldb.com/?ip.103.9.136.0) | - | - | High
+551 | [103.9.136.6](https://vuldb.com/?ip.103.9.136.6) | - | - | High
+552 | [103.9.136.8](https://vuldb.com/?ip.103.9.136.8) | - | - | High
+553 | [103.9.136.16](https://vuldb.com/?ip.103.9.136.16) | - | - | High
+554 | [103.9.136.32](https://vuldb.com/?ip.103.9.136.32) | - | - | High
+555 | [103.9.136.64](https://vuldb.com/?ip.103.9.136.64) | - | - | High
+556 | [103.9.136.128](https://vuldb.com/?ip.103.9.136.128) | - | - | High
+557 | [103.9.137.0](https://vuldb.com/?ip.103.9.137.0) | - | - | High
+558 | [103.9.138.245](https://vuldb.com/?ip.103.9.138.245) | - | - | High
+559 | [103.9.138.250](https://vuldb.com/?ip.103.9.138.250) | p-0-1-0-core2-dhk.novocom-bd.com | - | High
+560 | [103.9.138.253](https://vuldb.com/?ip.103.9.138.253) | g-0-3-0-core-dhk.novocom-bd.com | - | High
+561 | [103.9.139.253](https://vuldb.com/?ip.103.9.139.253) | g-0-3-1-core-dhk.novocom-bd.com | - | High
+562 | [103.9.142.0](https://vuldb.com/?ip.103.9.142.0) | - | - | High
+563 | [103.9.181.0](https://vuldb.com/?ip.103.9.181.0) | - | - | High
+564 | [103.9.181.16](https://vuldb.com/?ip.103.9.181.16) | - | - | High
+565 | [103.9.181.24](https://vuldb.com/?ip.103.9.181.24) | - | - | High
+566 | [103.9.181.26](https://vuldb.com/?ip.103.9.181.26) | - | - | High
+567 | [103.9.181.28](https://vuldb.com/?ip.103.9.181.28) | - | - | High
+568 | [103.9.181.32](https://vuldb.com/?ip.103.9.181.32) | - | - | High
+569 | [103.9.181.64](https://vuldb.com/?ip.103.9.181.64) | - | - | High
+570 | [103.9.181.128](https://vuldb.com/?ip.103.9.181.128) | - | - | High
+571 | [103.9.181.192](https://vuldb.com/?ip.103.9.181.192) | - | - | High
+572 | [103.9.181.224](https://vuldb.com/?ip.103.9.181.224) | - | - | High
+573 | [103.9.181.240](https://vuldb.com/?ip.103.9.181.240) | - | - | High
+574 | [103.9.181.249](https://vuldb.com/?ip.103.9.181.249) | - | - | High
+575 | [103.9.181.250](https://vuldb.com/?ip.103.9.181.250) | - | - | High
+576 | [103.9.181.252](https://vuldb.com/?ip.103.9.181.252) | - | - | High
+577 | [103.9.184.0](https://vuldb.com/?ip.103.9.184.0) | - | - | High
+578 | [103.9.220.0](https://vuldb.com/?ip.103.9.220.0) | - | - | High
+579 | ... | ... | ... | ...
 
-There are 2304 more IOC items available. Please use our online service to access the data.
+There are 2312 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -607,14 +609,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23, CWE-24, CWE-25, CWE-36 | Path Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+1 | T1006 | CWE-22, CWE-24 | Path Traversal | High
+2 | T1055 | CWE-74, CWE-643 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -622,72 +623,92 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/#ProductSerie/view/` | High
-2 | File | `/add_classes.php` | High
-3 | File | `/admin.php?p=/Area/index#tab=t2` | High
-4 | File | `/admin/action/edit_chicken.php` | High
-5 | File | `/admin/action/new-father.php` | High
-6 | File | `/admin/action/update-deworm.php` | High
-7 | File | `/admin/admin_login_process.php` | High
-8 | File | `/admin/article.php?action=write` | High
-9 | File | `/admin/index.php?act=reset_admin_psw` | High
-10 | File | `/Admin/login.php` | High
-11 | File | `/admin/makehtml_freelist_action.php` | High
-12 | File | `/admin/pages/edit_chicken.php` | High
-13 | File | `/admin/pages/student-print.php` | High
-14 | File | `/admin/pages/update_go.php` | High
-15 | File | `/admin/view_sendlist.php` | High
-16 | File | `/adminapi/system/crud` | High
-17 | File | `/adminapi/system/file/openfile` | High
-18 | File | `/admin_ping.htm` | High
-19 | File | `/admin_route/dec_service_credits.php` | High
-20 | File | `/admin_route/inc_service_credits.php` | High
-21 | File | `/advanced-tools/nova/bin/netwatch` | High
-22 | File | `/api.php` | Medium
-23 | File | `/api/controllers/admin/app/AppController.php` | High
-24 | File | `/api/controllers/admin/app/ComboController.php` | High
-25 | File | `/api/controllers/common/UploadsController.php` | High
-26 | File | `/api/controllers/merchant/app/ComboController.php` | High
-27 | File | `/api/controllers/merchant/design/MaterialController.php` | High
-28 | File | `/api/controllers/merchant/shop/PosterController.php` | High
-29 | File | `/api/v4/teams//channels/deleted` | High
-30 | File | `/app/api/controller/default/Sqlite.php` | High
-31 | File | `/app/Http/Controllers/ImageController.php` | High
-32 | File | `/application/index/common.php` | High
-33 | File | `/application/index/controller/Datament.php` | High
-34 | File | `/application/index/controller/File.php` | High
-35 | File | `/application/index/controller/Icon.php` | High
-36 | File | `/application/index/controller/Pay.php` | High
-37 | File | `/application/index/controller/Screen.php` | High
-38 | File | `/application/index/controller/Unity.php` | High
-39 | File | `/application/pay/controller/Api.php` | High
-40 | File | `/application/plugins/controller/Upload.php` | High
-41 | File | `/application/websocket/controller/Setting.php` | High
-42 | File | `/apply/index.php` | High
-43 | File | `/apps/reg_go.php` | High
-44 | File | `/assets/php/upload.php` | High
-45 | File | `/att_add.php` | Medium
-46 | File | `/auth/user/all.api` | High
-47 | File | `/bin/boa` | Medium
-48 | File | `/bin/webs` | Medium
-49 | File | `/boafrm/formMapDelDevice` | High
-50 | File | `/boafrm/formSystemCheck` | High
-51 | File | `/cgi-bin/cstecgi.cgi` | High
-52 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-53 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
-54 | File | `/classes/Master.php? f=save_medicine` | High
-55 | File | `/classes/Users.php?f=save` | High
-56 | File | `/core/config-revisions` | High
-57 | File | `/currentsetting.htm` | High
-58 | File | `/debuginfo.htm` | High
-59 | File | `/devinfo` | Medium
-60 | File | `/edit.php` | Medium
-61 | File | `/etc/shadow` | Medium
-62 | File | `/ext/collect/filter_text.do` | High
-63 | File | `/ext/collect/find_text.do` | High
-64 | ... | ... | ...
+1 | File | `/?g=net_pro_keyword_import_save` | High
+2 | File | `/?Page=Node&OBJ=/System/AdvancedSettings/DeviceSettings/MiscSettings` | High
+3 | File | `/Account/login.php` | High
+4 | File | `/actuator/heapdump` | High
+5 | File | `/admin-api/upload_image` | High
+6 | File | `/admin/aboutus.php` | High
+7 | File | `/Admin/add-admin.php` | High
+8 | File | `/admin/addgiving.php` | High
+9 | File | `/admin/addTithes.php` | High
+10 | File | `/admin/add_sundaysch.php` | High
+11 | File | `/admin/add_visitor.php` | High
+12 | File | `/admin/admin-profile.php` | High
+13 | File | `/admin/admin.php` | High
+14 | File | `/admin/admin_cl.php?mudi=revPwd` | High
+15 | File | `/admin/admin_user.php` | High
+16 | File | `/admin/applicants/controller.php` | High
+17 | File | `/admin/applicants/index.php` | High
+18 | File | `/admin/application-bwdates-reports-details.php` | High
+19 | File | `/admin/booking-bwdates-reports-details.php` | High
+20 | File | `/admin/case-type` | High
+21 | File | `/admin/category/view_category.php` | High
+22 | File | `/Admin/changepassword.php` | High
+23 | File | `/admin/company/controller.php` | High
+24 | File | `/admin/company/index.php` | High
+25 | File | `/admin/contact-us.php` | High
+26 | File | `/admin/delete_log.php` | High
+27 | File | `/Admin/edit-photo.php` | High
+28 | File | `/admin/edit-post.php` | High
+29 | File | `/Admin/edit_profile.php` | High
+30 | File | `/admin/employee/index.php` | High
+31 | File | `/admin/forgot-password.php` | High
+32 | File | `/admin/general-setting` | High
+33 | File | `/admin/index.php` | High
+34 | File | `/admin/list_crl_conf` | High
+35 | File | `/admin/login.php` | High
+36 | File | `/admin/manage-ambulance.php` | High
+37 | File | `/admin/orders/view_order.php` | High
+38 | File | `/admin/search.php` | High
+39 | File | `/admin/singlelogin.php` | High
+40 | File | `/admin/students/manage.php` | High
+41 | File | `/admin/tag.php` | High
+42 | File | `/admin/twitter.php` | High
+43 | File | `/Admin/user-record.php` | High
+44 | File | `/admin/users.php` | High
+45 | File | `/admin/vacancy/controller.php` | High
+46 | File | `/admin/vacancy/index.php` | High
+47 | File | `/adminPage/conf/saveCmd` | High
+48 | File | `/adminPage/main/upload` | High
+49 | File | `/adminPage/www/addOver` | High
+50 | File | `/adminpanel/admin/facebox_modal/updateCourse.php` | High
+51 | File | `/adminpanel/admin/facebox_modal/updateExaminee.php` | High
+52 | File | `/adminpanel/admin/query/deleteCourseExe.php` | High
+53 | File | `/adminpanel/admin/query/deleteExamExe.php` | High
+54 | File | `/adminpanel/admin/query/deleteQuestionExe.php` | High
+55 | File | `/adminpanel/admin/query/loginExe.php` | High
+56 | File | `/api/authentication/login` | High
+57 | File | `/api/blade-user/export-user` | High
+58 | File | `/api/client/editemedia.php` | High
+59 | File | `/api/process.php` | High
+60 | File | `/api/v2/open/rowsInfo` | High
+61 | File | `/api/v4/users/me/teams` | High
+62 | File | `/api/wechat/app_auth` | High
+63 | File | `/application/controller/Pelanggan.php` | High
+64 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
+65 | File | `/apps/system/router/upload.go` | High
+66 | File | `/bin/login` | Medium
+67 | File | `/boaform/getASPdata/formFirewall` | High
+68 | File | `/cart.php` | Medium
+69 | File | `/cgi-bin/debug_dump.cgi` | High
+70 | File | `/cgi-bin/ExportSettings.sh` | High
+71 | File | `/cgi-bin/nas_sharing.cgi` | High
+72 | File | `/cgi-bin/upload_config.cgi` | High
+73 | File | `/classes/Master.php?f=save_category` | High
+74 | File | `/classes/SystemSettings.php?f=update_settings` | High
+75 | File | `/classes/Users.php` | High
+76 | File | `/classes/Users.php?f=save` | High
+77 | File | `/command_port.ini` | High
+78 | File | `/control/activate_case.php` | High
+79 | File | `/control/deactivate_case.php` | High
+80 | File | `/control/register_case.php` | High
+81 | File | `/deletefile.php` | High
+82 | File | `/description.php` | High
+83 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
+84 | ... | ... | ...
 
-There are 565 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 738 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -696,6 +717,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://github.com/firehol/blocklist-ipsets/blob/master/geolite2_country/country_bd.netset
 * https://github.com/firehol/blocklist-ipsets/blob/master/ip2location_country/ip2location_country_bd.netset
 * https://github.com/firehol/blocklist-ipsets/blob/master/ipip_country/ipip_country_bd.netset
+* https://github.com/scriptzteam/Private-Internet-Access-VPN-Servers/blob/main/export.csv
 
 ## Literature
 

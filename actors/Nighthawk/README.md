@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [PL](https://vuldb.com/?country.pl)
 * ...
 
-There are 6 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -131,10 +131,9 @@ ID | Type | Indicator | Confidence
 76 | File | `/gasmark/assets/myimages/oneWord.php` | High
 77 | File | `/goform/aspForm` | High
 78 | File | `/goForm/aspForm` | High
-79 | File | `/goform/execCommand` | High
-80 | ... | ... | ...
+79 | ... | ... | ...
 
-There are 706 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 691 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

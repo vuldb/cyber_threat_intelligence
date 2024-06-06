@@ -44,7 +44,7 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
@@ -59,51 +59,52 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
 2 | File | `/act/ActDao.xml` | High
-3 | File | `/admin/return_add.php` | High
-4 | File | `/ajax.php?action=read_msg` | High
-5 | File | `/ajax/networking/get_netcfg.php` | High
-6 | File | `/api/clusters/local/topics/{topic}/messages` | High
-7 | File | `/api/gen/clients/{language}` | High
-8 | File | `/app/options.py` | High
-9 | File | `/apply/index.php` | High
-10 | File | `/bin/httpd` | Medium
-11 | File | `/cgi-bin/wapopen` | High
-12 | File | `/ci_spms/admin/category` | High
-13 | File | `/ci_spms/admin/search/searching/` | High
-14 | File | `/classes/Master.php?f=delete_appointment` | High
-15 | File | `/classes/Master.php?f=delete_train` | High
-16 | File | `/concat?/%2557EB-INF/web.xml` | High
-17 | File | `/Content/Template/root/reverse-shell.aspx` | High
-18 | File | `/ctcprotocol/Protocol` | High
-19 | File | `/dashboard/menu-list.php` | High
-20 | File | `/data/remove` | Medium
-21 | File | `/ebics-server/ebics.aspx` | High
-22 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-23 | File | `/ffos/classes/Master.php?f=save_category` | High
-24 | File | `/forum/away.php` | High
-25 | File | `/goform/net\_Web\_get_value` | High
-26 | File | `/goforms/rlminfo` | High
-27 | File | `/GponForm/usb_restore_Form?script/` | High
-28 | File | `/group1/uploa` | High
-29 | File | `/hedwig.cgi` | Medium
-30 | File | `/HNAP1` | Low
-31 | File | `/HNAP1/SetClientInfo` | High
-32 | File | `/include/file.php` | High
-33 | File | `/Items/*/RemoteImages/Download` | High
-34 | File | `/menu.html` | Medium
-35 | File | `/modules/profile/index.php` | High
-36 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-37 | File | `/navigate/navigate_download.php` | High
-38 | File | `/ocwbs/admin/?page=user/manage_user` | High
-39 | File | `/ofrs/admin/?page=user/manage_user` | High
-40 | File | `/out.php` | Medium
-41 | File | `/password.html` | High
-42 | File | `/php_action/fetchSelectedUser.php` | High
-43 | File | `/plugin` | Low
-44 | File | `/pms/index.php` | High
-45 | ... | ... | ...
+3 | File | `/admin/login.php` | High
+4 | File | `/admin/return_add.php` | High
+5 | File | `/ajax.php?action=read_msg` | High
+6 | File | `/ajax/networking/get_netcfg.php` | High
+7 | File | `/api/clusters/local/topics/{topic}/messages` | High
+8 | File | `/api/gen/clients/{language}` | High
+9 | File | `/API/info` | Medium
+10 | File | `/app/options.py` | High
+11 | File | `/apply/index.php` | High
+12 | File | `/bin/httpd` | Medium
+13 | File | `/cgi-bin/wapopen` | High
+14 | File | `/ci_spms/admin/category` | High
+15 | File | `/ci_spms/admin/search/searching/` | High
+16 | File | `/classes/Master.php?f=delete_appointment` | High
+17 | File | `/classes/Master.php?f=delete_train` | High
+18 | File | `/concat?/%2557EB-INF/web.xml` | High
+19 | File | `/Content/Template/root/reverse-shell.aspx` | High
+20 | File | `/ctcprotocol/Protocol` | High
+21 | File | `/dashboard/menu-list.php` | High
+22 | File | `/data/remove` | Medium
+23 | File | `/debug/pprof` | Medium
+24 | File | `/ebics-server/ebics.aspx` | High
+25 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+26 | File | `/ffos/classes/Master.php?f=save_category` | High
+27 | File | `/forum/away.php` | High
+28 | File | `/goform/execCommand` | High
+29 | File | `/goform/net\_Web\_get_value` | High
+30 | File | `/goforms/rlminfo` | High
+31 | File | `/GponForm/usb_restore_Form?script/` | High
+32 | File | `/group1/uploa` | High
+33 | File | `/hedwig.cgi` | Medium
+34 | File | `/HNAP1` | Low
+35 | File | `/HNAP1/SetClientInfo` | High
+36 | File | `/include/file.php` | High
+37 | File | `/Items/*/RemoteImages/Download` | High
+38 | File | `/manage/IPSetup.php` | High
+39 | File | `/menu.html` | Medium
+40 | File | `/modules/profile/index.php` | High
+41 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+42 | File | `/navigate/navigate_download.php` | High
+43 | File | `/ocwbs/admin/?page=user/manage_user` | High
+44 | File | `/ofrs/admin/?page=user/manage_user` | High
+45 | File | `/out.php` | Medium
+46 | ... | ... | ...
 
-There are 390 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 400 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

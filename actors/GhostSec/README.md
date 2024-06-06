@@ -18,7 +18,10 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [88.218.61.141](https://vuldb.com/?ip.88.218.61.141) | host-88-218-61-141.hosted-by-vdsina.ru | - | High
 2 | [88.218.62.219](https://vuldb.com/?ip.88.218.62.219) | v2188318.hosted-by-vdsina.ru | - | High
-3 | [195.2.79.117](https://vuldb.com/?ip.195.2.79.117) | host-195-2-79-117.hosted-by-vdsina.ru | - | High
+3 | [94.103.91.246](https://vuldb.com/?ip.94.103.91.246) | host-94-103-91-246.hosted-by-vdsina.ru | - | High
+4 | ... | ... | ... | ...
+
+There are 1 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -31,7 +34,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1068 | CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 4 | ... | ... | ... | ...
 
-There are 3 more TTP items available. Please use our online service to access the data.
+There are 4 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -40,16 +43,17 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/api/user/password/sent-reset-email` | High
-2 | File | `adminer.php` | Medium
-3 | File | `wp-cron.php` | Medium
+2 | File | `/forum/away.php` | High
+3 | File | `adminer.php` | Medium
 4 | ... | ... | ...
 
-There are 4 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 7 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://blog.talosintelligence.com/ghostsec-ghostlocker2-ransomware/
 * https://www.uptycs.com/blog/ghostlocker-ransomware-ghostsec
 
 ## Literature

@@ -26,7 +26,8 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [45.15.156.22](https://vuldb.com/?ip.45.15.156.22) | - | - | High
 4 | [45.15.156.33](https://vuldb.com/?ip.45.15.156.33) | - | - | High
 5 | [45.15.156.80](https://vuldb.com/?ip.45.15.156.80) | - | - | High
-6 | ... | ... | ... | ...
+6 | [45.15.156.97](https://vuldb.com/?ip.45.15.156.97) | - | - | High
+7 | ... | ... | ... | ...
 
 There are 22 more IOC items available. Please use our online service to access the data.
 
@@ -38,7 +39,7 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
@@ -96,6 +97,7 @@ There are 319 more IOA items available (file, library, argument, input value, pa
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://blog.sekoia.io/aurora-a-rising-stealer-flying-under-the-radar/
+* https://cyble.com/blog/aurora-a-stealer-using-shapeshifting-tactics/
 
 ## Literature
 

@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Indonesia Unknown:
 
-* [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
-* [IL](https://vuldb.com/?country.il)
+* [CN](https://vuldb.com/?country.cn)
+* [JP](https://vuldb.com/?country.jp)
 * ...
 
-There are 17 more country items available. Please use our online service to access the data.
+There are 19 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -1292,13 +1292,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-36 | Path Traversal | High
-2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94 | Argument Injection | High
+1 | T1006 | CWE-22 | Path Traversal | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -1306,36 +1306,63 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/#ilang=DE&b=c_smartenergy_swgroups` | High
-2 | File | `/Account/login.php` | High
-3 | File | `/admin/` | Low
-4 | File | `/admin/app/product.php` | High
-5 | File | `/admin/app/profile_crud.php` | High
-6 | File | `/admin/app/service_crud.php` | High
-7 | File | `/admin/edit-admin.php` | High
-8 | File | `/admin/edit_categories.php` | High
-9 | File | `/admin/edit_supplier.php` | High
-10 | File | `/admin/list_ipAddressPolicy.php` | High
-11 | File | `/admin/list_localuser.php` | High
-12 | File | `/admin/login.php` | High
-13 | File | `/Admin/login.php` | High
-14 | File | `/admin/view_sendlist.php` | High
-15 | File | `/adminapi/system/crud` | High
-16 | File | `/adminapi/system/file/openfile` | High
-17 | File | `/api /v3/auth` | High
-18 | File | `/app/ajax/search_sales_report.php` | High
-19 | File | `/application/index/controller/Databasesource.php` | High
-20 | File | `/application/index/controller/File.php` | High
-21 | File | `/application/index/controller/Icon.php` | High
-22 | File | `/application/index/controller/Screen.php` | High
-23 | File | `/application/index/controller/Unity.php` | High
-24 | File | `/application/websocket/controller/Setting.php` | High
-25 | File | `/cancel.php` | Medium
-26 | File | `/cgi-bin/cstecgi.cgi` | High
-27 | File | `/cgi-bin/nobody/VerifyCode.cgi` | High
-28 | ... | ... | ...
+1 | File | `.git/` | Low
+2 | File | `/actuator/heapdump` | High
+3 | File | `/admin-api/upload_image` | High
+4 | File | `/admin/admin_cl.php?mudi=revPwd` | High
+5 | File | `/admin/case-type` | High
+6 | File | `/Admin/changepassword.php` | High
+7 | File | `/admin/court` | Medium
+8 | File | `/admin/court-type` | High
+9 | File | `/Admin/createClass.php` | High
+10 | File | `/admin/edit-post.php` | High
+11 | File | `/admin/expense-type` | High
+12 | File | `/admin/general-setting` | High
+13 | File | `/admin/judge` | Medium
+14 | File | `/admin/maintenance/manage_brand.php` | High
+15 | File | `/admin/role` | Medium
+16 | File | `/admin/service` | High
+17 | File | `/admin/tag.php` | High
+18 | File | `/admin/twitter.php` | High
+19 | File | `/Admin/user-record.php` | High
+20 | File | `/adminPage/www/addOver` | High
+21 | File | `/api/v2/open/rowsInfo` | High
+22 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
+23 | File | `/bin/login` | Medium
+24 | File | `/boaform/getASPdata/formFirewall` | High
+25 | File | `/cgi-bin/cstecgi.cgi` | High
+26 | File | `/cgi-bin/debug_dump.cgi` | High
+27 | File | `/cgi-bin/nas_sharing.cgi` | High
+28 | File | `/cgi-bin/upload_config.cgi` | High
+29 | File | `/College/admin/teacher.php` | High
+30 | File | `/command_port.ini` | High
+31 | File | `/dayrui/Fcms/View/system_log.html` | High
+32 | File | `/dayrui/My/View/main.html` | High
+33 | File | `/edit-subject.php` | High
+34 | File | `/Employee/changepassword.php` | High
+35 | File | `/Employee/edit-profile.php` | High
+36 | File | `/endpoint/delete-bookmark.php?bookmark=1` | High
+37 | File | `/etc/shadow` | Medium
+38 | File | `/forum/away.php` | High
+39 | File | `/general/meeting/manage/delete.php` | High
+40 | File | `/goform/AddDnsForward` | High
+41 | File | `/goform/addIpMacBind` | High
+42 | File | `/goform/addressNat` | High
+43 | File | `/goform/AdvSetMacMtuWan` | High
+44 | File | `/goform/DelDhcpRule` | High
+45 | File | `/goform/DhcpListClient` | High
+46 | File | `/goform/execCommand` | High
+47 | File | `/goform/frmL7ProtForm` | High
+48 | File | `/goform/fromqossetting` | High
+49 | File | `/goform/modifyDhcpRule` | High
+50 | File | `/goform/modifyIpMacBind` | High
+51 | File | `/goform/ModifyPppAuthWhiteMac` | High
+52 | File | `/goform/Natlimit` | High
+53 | File | `/goform/NatStaticSetting` | High
+54 | File | `/goform/QuickIndex` | High
+55 | ... | ... | ...
 
-There are 238 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 483 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

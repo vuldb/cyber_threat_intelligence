@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 15 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -48,14 +48,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-425 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-29, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -63,53 +63,51 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/act/ActDao.xml` | High
-3 | File | `/admin/lab.php` | High
+1 | File | `/act/ActDao.xml` | High
+2 | File | `/admin/list_resource_icon.php?action=delete` | High
+3 | File | `/admin/singlelogin.php` | High
 4 | File | `/ajax.php?action=read_msg` | High
 5 | File | `/api/clusters/local/topics/{topic}/messages` | High
 6 | File | `/api/gen/clients/{language}` | High
 7 | File | `/api/geojson` | Medium
-8 | File | `/app/options.py` | High
-9 | File | `/bin/httpd` | Medium
-10 | File | `/cbs/system/ShowAdvanced.do` | High
-11 | File | `/cgi-bin/wapopen` | High
-12 | File | `/cgi/networkDiag.cgi` | High
-13 | File | `/ci_spms/admin/category` | High
-14 | File | `/ci_spms/admin/search/searching/` | High
-15 | File | `/classes/Master.php?f=delete_appointment` | High
-16 | File | `/classes/Master.php?f=delete_train` | High
-17 | File | `/ctcprotocol/Protocol` | High
-18 | File | `/dashboard/menu-list.php` | High
-19 | File | `/debug` | Low
-20 | File | `/debug/pprof` | Medium
-21 | File | `/ebics-server/ebics.aspx` | High
-22 | File | `/em/console/logon/logon` | High
-23 | File | `/env` | Low
-24 | File | `/ffos/classes/Master.php?f=save_category` | High
-25 | File | `/forum/away.php` | High
-26 | File | `/general/email/inbox/delete_webmail.php` | High
-27 | File | `/goform/net\_Web\_get_value` | High
-28 | File | `/goform/setmac` | High
-29 | File | `/goforms/rlminfo` | High
-30 | File | `/GponForm/usb_restore_Form?script/` | High
-31 | File | `/group1/uploa` | High
-32 | File | `/hedwig.cgi` | Medium
-33 | File | `/HNAP1` | Low
-34 | File | `/HNAP1/SetClientInfo` | High
-35 | File | `/Items/*/RemoteImages/Download` | High
-36 | File | `/menu.html` | Medium
-37 | File | `/modules/profile/index.php` | High
-38 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-39 | File | `/net/sched/cls_fw.c` | High
-40 | File | `/ocwbs/admin/?page=user/manage_user` | High
-41 | File | `/ofrs/admin/?page=user/manage_user` | High
-42 | File | `/out.php` | Medium
-43 | File | `/php_action/fetchSelectedUser.php` | High
-44 | File | `/plugin` | Low
-45 | ... | ... | ...
+8 | File | `/API/info` | Medium
+9 | File | `/api/sys/login` | High
+10 | File | `/bcms/admin/?page=user/manage_user` | High
+11 | File | `/cgi/networkDiag.cgi` | High
+12 | File | `/ctcprotocol/Protocol` | High
+13 | File | `/debug/pprof` | Medium
+14 | File | `/ebics-server/ebics.aspx` | High
+15 | File | `/em/console/logon/logon` | High
+16 | File | `/env` | Low
+17 | File | `/forum/away.php` | High
+18 | File | `/general/email/inbox/delete_webmail.php` | High
+19 | File | `/goform/net\_Web\_get_value` | High
+20 | File | `/goform/SetNetControlList` | High
+21 | File | `/GponForm/usb_restore_Form?script/` | High
+22 | File | `/group1/uploa` | High
+23 | File | `/hedwig.cgi` | Medium
+24 | File | `/HNAP1` | Low
+25 | File | `/HNAP1/SetClientInfo` | High
+26 | File | `/list` | Low
+27 | File | `/login.php?m=admin&c=Field&a=channel_edit` | High
+28 | File | `/manage/IPSetup.php` | High
+29 | File | `/menu.html` | Medium
+30 | File | `/modules/profile/index.php` | High
+31 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+32 | File | `/net/sched/cls_fw.c` | High
+33 | File | `/patient/appointment.php` | High
+34 | File | `/plugin` | Low
+35 | File | `/prescription/prescription/delete/` | High
+36 | File | `/pro/common/download` | High
+37 | File | `/registrar/?page=registration` | High
+38 | File | `/resources//../` | High
+39 | File | `/search.php` | Medium
+40 | File | `/secure/QueryComponent!Default.jspa` | High
+41 | File | `/ServiceContractDef.do` | High
+42 | File | `/spip.php` | Medium
+43 | ... | ... | ...
 
-There are 387 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 371 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

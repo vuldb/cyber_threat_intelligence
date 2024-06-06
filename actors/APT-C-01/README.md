@@ -4,6 +4,12 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.apt-c-01](https://vuldb.com/?actor.apt-c-01)
 
+## Countries
+
+These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with APT-C-01:
+
+* [RU](https://vuldb.com/?country.ru)
+
 ## IOC - Indicator of Compromise
 
 These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of APT-C-01.
@@ -112,7 +118,7 @@ ID | Type | Indicator | Confidence
 74 | File | `/classes/Users.php?f=save` | High
 75 | ... | ... | ...
 
-There are 659 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 657 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

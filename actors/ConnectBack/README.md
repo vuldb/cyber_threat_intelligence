@@ -9,6 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with ConnectBack:
 
 * [CN](https://vuldb.com/?country.cn)
+* [PL](https://vuldb.com/?country.pl)
+* [US](https://vuldb.com/?country.us)
 
 ## IOC - Indicator of Compromise
 
@@ -16,12 +18,30 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [205.234.200.26](https://vuldb.com/?ip.205.234.200.26) | - | - | High
+1 | [46.41.139.162](https://vuldb.com/?ip.46.41.139.162) | cart.madrepatria.org | - | High
+2 | [205.234.200.26](https://vuldb.com/?ip.205.234.200.26) | - | - | High
+
+## TTP - Tactics, Techniques, Procedures
+
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _ConnectBack_. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1059.007 | CWE-79 | Cross Site Scripting | High
+
+## IOA - Indicator of Attack
+
+These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by ConnectBack. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Type | Indicator | Confidence
+-- | ---- | --------- | ----------
+1 | File | `/hvm/hvm.c` | Medium
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://bazaar.abuse.ch/sample/4cc65461ef1448c99b90bc36767f164b06e8452c50cf10401cf353fcdb68544c/
 * https://bazaar.abuse.ch/sample/690f29dd425f7415ecb50986aa26750960c39a0ca8a02ddfd37ec4196993bd9e/
 
 ## Literature

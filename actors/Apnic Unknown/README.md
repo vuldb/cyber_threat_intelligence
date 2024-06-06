@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Apnic Unknown:
 
 * [VN](https://vuldb.com/?country.vn)
-* [IO](https://vuldb.com/?country.io)
 * [US](https://vuldb.com/?country.us)
+* [IO](https://vuldb.com/?country.io)
 * ...
 
-There are 13 more country items available. Please use our online service to access the data.
+There are 16 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -806,12 +806,12 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-25, CWE-36, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -823,55 +823,51 @@ ID | Type | Indicator | Confidence
 2 | File | `/#ilang=DE&b=c_smartenergy_swgroups` | High
 3 | File | `/Account/login.php` | High
 4 | File | `/admin.php/appcenter/local.html?type=addon` | High
-5 | File | `/admin.php?p=/Area/index#tab=t2` | High
-6 | File | `/admin/` | Low
-7 | File | `/admin/clientview.php` | High
+5 | File | `/admin.php?c=upload&f=zip&_noCache=0.1683794968` | High
+6 | File | `/admin.php?p=/Area/index#tab=t2` | High
+7 | File | `/admin/` | Low
 8 | File | `/admin/list_ipAddressPolicy.php` | High
 9 | File | `/admin/view_sendlist.php` | High
 10 | File | `/adminapi/system/crud` | High
 11 | File | `/adminapi/system/file/openfile` | High
-12 | File | `/admin_route/dec_service_credits.php` | High
-13 | File | `/api/controllers/admin/app/AppController.php` | High
-14 | File | `/api/controllers/common/UploadsController.php` | High
-15 | File | `/api/log/killJob` | High
-16 | File | `/api/snapshot and /api/get_log_file` | High
-17 | File | `/api/upload.php` | High
-18 | File | `/api/v4/teams//channels/deleted` | High
-19 | File | `/app/api/controller/caiji.php` | High
-20 | File | `/app/controller/Setup.php` | High
-21 | File | `/app/Http/Controllers/ImageController.php` | High
-22 | File | `/app/index/controller/Common.php` | High
-23 | File | `/application/index/common.php` | High
-24 | File | `/application/index/controller/Databasesource.php` | High
-25 | File | `/application/index/controller/Pay.php` | High
-26 | File | `/application/pay/controller/Api.php` | High
-27 | File | `/assets/php/upload.php` | High
-28 | File | `/b2b-supermarket/shopping-cart` | High
-29 | File | `/calendar/minimizer/index.php` | High
+12 | File | `/adminPage/conf/reload` | High
+13 | File | `/admin_route/dec_service_credits.php` | High
+14 | File | `/api/controllers/admin/app/AppController.php` | High
+15 | File | `/api/controllers/common/UploadsController.php` | High
+16 | File | `/api/v4/teams//channels/deleted` | High
+17 | File | `/api/wechat/app_auth` | High
+18 | File | `/app/controller/Setup.php` | High
+19 | File | `/app/Http/Controllers/ImageController.php` | High
+20 | File | `/app/index/controller/Common.php` | High
+21 | File | `/application/index/common.php` | High
+22 | File | `/application/index/controller/Databasesource.php` | High
+23 | File | `/application/index/controller/Pay.php` | High
+24 | File | `/application/pay/controller/Api.php` | High
+25 | File | `/assets/php/upload.php` | High
+26 | File | `/b2b-supermarket/shopping-cart` | High
+27 | File | `/calendar/minimizer/index.php` | High
+28 | File | `/cancel.php` | Medium
+29 | File | `/category.php` | High
 30 | File | `/cgi-bin/cstecgi.cgi` | High
 31 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-32 | File | `/cgi-bin/wlogin.cgi` | High
-33 | File | `/change-language/de_DE` | High
+32 | File | `/cgi-bin/nas_sharing.cgi` | High
+33 | File | `/cgi-bin/wlogin.cgi` | High
 34 | File | `/churchcrm/WhyCameEditor.php` | High
-35 | File | `/classes/Master.php?f=delete_category` | High
+35 | File | `/control/register_case.php` | High
 36 | File | `/core/conditions/AbstractWrapper.java` | High
 37 | File | `/core/tools/update_menu.php` | High
 38 | File | `/dayrui/My/Config/Install.txt` | High
-39 | File | `/debug/pprof` | Medium
-40 | File | `/DesignTools/CssEditor.aspx` | High
-41 | File | `/devinfo` | Medium
-42 | File | `/dist/index.js` | High
-43 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-44 | File | `/endpoint/add-user.php` | High
-45 | File | `/forum/away.php` | High
-46 | File | `/forums/editforum.php` | High
-47 | File | `/general/email/outbox/delete.php` | High
-48 | File | `/goform/` | Medium
-49 | File | `/goform/setAutoPing` | High
-50 | File | `/HNAP1/` | Low
-51 | ... | ... | ...
+39 | File | `/devinfo` | Medium
+40 | File | `/download` | Medium
+41 | File | `/DXR.axd` | Medium
+42 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+43 | File | `/endpoint/add-user.php` | High
+44 | File | `/forum/away.php` | High
+45 | File | `/forums/editforum.php` | High
+46 | File | `/general/email/outbox/delete.php` | High
+47 | ... | ... | ...
 
-There are 444 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 404 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

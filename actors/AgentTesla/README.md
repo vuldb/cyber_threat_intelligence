@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
-* [CN](https://vuldb.com/?country.cn)
+* [NL](https://vuldb.com/?country.nl)
 * ...
 
 There are 3 more country items available. Please use our online service to access the data.
@@ -22,11 +22,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [3.4.1.4](https://vuldb.com/?ip.3.4.1.4) | - | - | High
-2 | [45.67.228.51](https://vuldb.com/?ip.45.67.228.51) | vm1700022.stark-industries.solutions | - | High
-3 | [89.47.1.10](https://vuldb.com/?ip.89.47.1.10) | - | - | High
-4 | ... | ... | ... | ...
+2 | [23.94.239.89](https://vuldb.com/?ip.23.94.239.89) | 23-94-239-89-host.colocrossing.com | - | High
+3 | [45.67.228.51](https://vuldb.com/?ip.45.67.228.51) | vm1700022.stark-industries.solutions | - | High
+4 | [82.115.209.180](https://vuldb.com/?ip.82.115.209.180) | - | - | High
+5 | ... | ... | ... | ...
 
-There are 13 more IOC items available. Please use our online service to access the data.
+There are 18 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -35,12 +36,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22 | Path Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-94 | Argument Injection | High
-5 | ... | ... | ... | ...
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-94 | Argument Injection | High
+4 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 9 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -48,24 +48,26 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/cgi-bin/kerbynet` | High
-2 | File | `/cgi-bin/supervisor/CloudSetup.cgi` | High
-3 | File | `/domain/add` | Medium
-4 | File | `/etc/sudoers` | Medium
-5 | File | `/index.php/weblinks-categories` | High
-6 | File | `/plain` | Low
-7 | File | `/show_group_members.php` | High
-8 | File | `/show_news.php` | High
-9 | File | `/web/google_analytics.php` | High
-10 | File | `archive_endian.h` | High
-11 | File | `bmp.c` | Low
-12 | File | `browse.asp` | Medium
-13 | File | `burl.c` | Low
-14 | File | `cgi-bin/jc.cgi` | High
-15 | File | `checklogin.php` | High
-16 | ... | ... | ...
+1 | File | `/admin/maintenance/view_designation.php` | High
+2 | File | `/admin/save_teacher.php` | High
+3 | File | `/backend/register.php` | High
+4 | File | `/cgi-bin/login.cgi` | High
+5 | File | `/cgi-bin/nas_sharing.cgi` | High
+6 | File | `/cgi-bin/vitogate.cgi` | High
+7 | File | `/control/register_case.php` | High
+8 | File | `/netflow/servlet/CReportPDFServlet` | High
+9 | File | `/oauth/idp/.well-known/openid-configuration` | High
+10 | File | `/Setting/change_password_save` | High
+11 | File | `/show_news.php` | High
+12 | File | `/spip.php` | Medium
+13 | File | `/userLogin.asp` | High
+14 | File | `adclick.php` | Medium
+15 | File | `addentry.php` | Medium
+16 | File | `admin.php3` | Medium
+17 | File | `admin/conf_users_edit.php` | High
+18 | ... | ... | ...
 
-There are 127 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 143 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -73,6 +75,8 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://blog.malwarebytes.com/threat-analysis/2020/04/new-agenttesla-variant-steals-wifi-credentials/
 * https://blog.talosintelligence.com/threat-roundup-1013-1020/
+* https://cyble.com/blog/agenttesla-spreads-through-chm-and-pdf-files-in-recent-attacks/
+* https://cyble.com/blog/threat-actor-employs-powershell-backed-steganography-in-recent-spam-campaigns/
 * https://www.mcafee.com/blogs/other-blogs/mcafee-labs/from-email-to-rat-deciphering-a-vb-script-driven-campaign/
 
 ## Literature

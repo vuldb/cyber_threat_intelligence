@@ -57,15 +57,15 @@ ID | Type | Indicator | Confidence
 8 | File | `/spip.php` | Medium
 9 | File | `/userLogin.asp` | High
 10 | File | `ad.cgi` | Low
-11 | File | `admin/addProxyConnector_commit.action` | High
-12 | File | `admin/admin_index.php` | High
-13 | File | `aff_news.php` | Medium
-14 | File | `allmanageup.pl` | High
-15 | File | `amadmin.pl` | Medium
-16 | File | `arm-wt-22k/lib_src/eas_mdls.c` | High
+11 | File | `addguest.cgi` | Medium
+12 | File | `admin/addProxyConnector_commit.action` | High
+13 | File | `admin/admin_index.php` | High
+14 | File | `aff_news.php` | Medium
+15 | File | `allmanageup.pl` | High
+16 | File | `amadmin.pl` | Medium
 17 | ... | ... | ...
 
-There are 136 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 138 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

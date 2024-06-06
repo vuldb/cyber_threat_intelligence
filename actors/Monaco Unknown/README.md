@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [ES](https://vuldb.com/?country.es)
+* [NL](https://vuldb.com/?country.nl)
 * ...
 
 There are 5 more country items available. Please use our online service to access the data.
@@ -46,9 +46,12 @@ ID | IP address | Hostname | Campaign | Confidence
 23 | [82.113.2.216](https://vuldb.com/?ip.82.113.2.216) | - | - | High
 24 | [82.113.2.224](https://vuldb.com/?ip.82.113.2.224) | - | - | High
 25 | [82.113.3.0](https://vuldb.com/?ip.82.113.3.0) | 0.3.113.82.static.monaco.mc | - | High
-26 | ... | ... | ... | ...
+26 | [82.113.4.0](https://vuldb.com/?ip.82.113.4.0) | 0.4.113.82.dynamic.monaco.mc | - | High
+27 | [82.113.8.0](https://vuldb.com/?ip.82.113.8.0) | - | - | High
+28 | [82.113.12.0](https://vuldb.com/?ip.82.113.12.0) | 0.12.113.82.ls.monaco-telecom.mc | - | High
+29 | ... | ... | ... | ...
 
-There are 102 more IOC items available. Please use our online service to access the data.
+There are 113 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -57,11 +60,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-35, CWE-36 | Path Traversal | High
-2 | T1055 | CWE-74 | Injection | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
 
-There are 13 more TTP items available. Please use our online service to access the data.
+There are 14 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -70,36 +73,42 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/` | Low
-2 | File | `/admin/maintenance/view_designation.php` | High
-3 | File | `/APR/signup.php` | High
-4 | File | `/cgi-bin/wlogin.cgi` | High
-5 | File | `/E-mobile/App/System/File/downfile.php` | High
-6 | File | `/Electron/download` | High
-7 | File | `/mims/login.php` | High
-8 | File | `/php-scrm/login.php` | High
-9 | File | `/proxy` | Low
-10 | File | `/reviewer/system/system/admins/manage/users/user-update.php` | High
-11 | File | `/scripts/unlock_tasks.php` | High
-12 | File | `/send_order.cgi?parameter=access_detect` | High
-13 | File | `/text/pdf/PdfReader.java` | High
-14 | File | `/textpattern/index.php` | High
-15 | File | `/tmp` | Low
-16 | File | `/wp-admin/admin-ajax.php` | High
-17 | File | `account-signup.php` | High
-18 | File | `account/signup.php` | High
-19 | File | `addentry.php` | Medium
-20 | File | `addressbook/backends/ldap/e-book-backend-ldap.c` | High
-21 | File | `admin.jcomments.php` | High
-22 | File | `admin.php` | Medium
-23 | File | `admin/admin_editor.php` | High
-24 | File | `admin/conf_users_edit.php` | High
-25 | File | `admin/data.php` | High
-26 | File | `admin/edit_category.php` | High
-27 | File | `admin/operations/currency.php` | High
-28 | File | `awstats.pl` | Medium
-29 | ... | ... | ...
+2 | File | `/admin/booking-bwdates-reports-details.php` | High
+3 | File | `/Admin/changepassword.php` | High
+4 | File | `/admin/court` | Medium
+5 | File | `/admin/maintenance/manage_brand.php` | High
+6 | File | `/admin/maintenance/view_designation.php` | High
+7 | File | `/admin/orders/view_order.php` | High
+8 | File | `/APR/signup.php` | High
+9 | File | `/backend/register.php` | High
+10 | File | `/cgi-bin/nas_sharing.cgi` | High
+11 | File | `/cgi-bin/wlogin.cgi` | High
+12 | File | `/control/register_case.php` | High
+13 | File | `/E-mobile/App/System/File/downfile.php` | High
+14 | File | `/Electron/download` | High
+15 | File | `/forum/away.php` | High
+16 | File | `/goform/wifiSSIDset` | High
+17 | File | `/index.php` | Medium
+18 | File | `/mims/login.php` | High
+19 | File | `/ndmComponents.js` | High
+20 | File | `/onlinecourse/` | High
+21 | File | `/out.php` | Medium
+22 | File | `/php-scrm/login.php` | High
+23 | File | `/proxy` | Low
+24 | File | `/register.php` | High
+25 | File | `/reviewer/system/system/admins/manage/users/user-update.php` | High
+26 | File | `/scripts/unlock_tasks.php` | High
+27 | File | `/send_order.cgi?parameter=access_detect` | High
+28 | File | `/staff/bookdetails.php` | High
+29 | File | `/text/pdf/PdfReader.java` | High
+30 | File | `/textpattern/index.php` | High
+31 | File | `/tmp` | Low
+32 | File | `/view/student_payment_details3.php` | High
+33 | File | `/view/student_payment_details4.php` | High
+34 | File | `/wp-admin/admin-ajax.php` | High
+35 | ... | ... | ...
 
-There are 245 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 304 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -108,6 +117,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://github.com/firehol/blocklist-ipsets/blob/master/geolite2_country/country_mc.netset
 * https://github.com/firehol/blocklist-ipsets/blob/master/ip2location_country/ip2location_country_mc.netset
 * https://github.com/firehol/blocklist-ipsets/blob/master/ipip_country/ipip_country_mc.netset
+* https://github.com/scriptzteam/Private-Internet-Access-VPN-Servers/blob/main/export.csv
 
 ## Literature
 

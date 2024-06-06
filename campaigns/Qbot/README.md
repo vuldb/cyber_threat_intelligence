@@ -11,6 +11,9 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * [IN](https://vuldb.com/?country.in)
 * [US](https://vuldb.com/?country.us)
+* ...
+
+There are 1 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -110,13 +113,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
+1 | T1006 | CWE-22 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059 | CWE-94 | Argument Injection | High
+3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 15 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -124,28 +127,29 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/.vnc/sesman_${username}_passwd` | High
-2 | File | `/admin.php` | Medium
-3 | File | `/admin/admin-profile.php` | High
-4 | File | `/admin/communitymanagement.php` | High
-5 | File | `/admin/list_ipAddressPolicy.php` | High
-6 | File | `/admin/login.php` | High
-7 | File | `/admin/success_story.php` | High
-8 | File | `/api /v3/auth` | High
-9 | File | `/bin/sh` | Low
-10 | File | `/cgi-bin/cstecgi.cgi` | High
-11 | File | `/cgi.cgi` | Medium
-12 | File | `/data/remove` | Medium
-13 | File | `/Employer/EditProfile.php` | High
-14 | File | `/Employer/ManageJob.php` | High
-15 | File | `/forum/away.php` | High
-16 | File | `/goform/SetStaticRouteCfg` | High
-17 | File | `/install/` | Medium
-18 | File | `/investigation/delete/` | High
-19 | File | `/leave_system/classes/SystemSettings.php?f=update_settings` | High
-20 | ... | ... | ...
+1 | File | `/admin.php?p=/Area/index#tab=t2` | High
+2 | File | `/admin/index.php?page=categories` | High
+3 | File | `/admin/login.php` | High
+4 | File | `/admin/students.php` | High
+5 | File | `/admin/students/manage.php` | High
+6 | File | `/adminPage/www/addOver` | High
+7 | File | `/cgi-bin/nas_sharing.cgi` | High
+8 | File | `/dataSet/testTransform;swagger-ui` | High
+9 | File | `/dayrui/Fcms/View/system_log.html` | High
+10 | File | `/dayrui/My/View/main.html` | High
+11 | File | `/forum/away.php` | High
+12 | File | `/goform/SetSysTimeCfg` | High
+13 | File | `/goform/WriteFacMac` | High
+14 | File | `/mobilebroker/ServiceToBroker.svc/Json/Connect` | High
+15 | File | `/module/comment/save` | High
+16 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+17 | File | `/new_item` | Medium
+18 | File | `/root` | Low
+19 | File | `/server-status` | High
+20 | File | `/servicedesk/customer/portals` | High
+21 | ... | ... | ...
 
-There are 166 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 176 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -19,8 +19,11 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [5.42.64.13](https://vuldb.com/?ip.5.42.64.13) | - | - | High
-2 | [5.42.66.25](https://vuldb.com/?ip.5.42.66.25) | - | - | High
-3 | [91.103.252.17](https://vuldb.com/?ip.91.103.252.17) | - | - | High
+2 | [5.42.66.4](https://vuldb.com/?ip.5.42.66.4) | - | - | High
+3 | [5.42.66.25](https://vuldb.com/?ip.5.42.66.25) | - | - | High
+4 | ... | ... | ... | ...
+
+There are 1 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -33,7 +36,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 6 more TTP items available. Please use our online service to access the data.
+There are 8 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -44,11 +47,13 @@ ID | Type | Indicator | Confidence
 1 | File | `/forum/away.php` | High
 2 | File | `/oauth/idp/.well-known/openid-configuration` | High
 3 | File | `/settings/account` | High
-4 | File | `/spip.php` | Medium
-5 | File | `/userLogin.asp` | High
-6 | ... | ... | ...
+4 | File | `/simple-online-bidding-system/admin/index.php?page=manage_user` | High
+5 | File | `/spip.php` | Medium
+6 | File | `/userLogin.asp` | High
+7 | File | `/uupdate.php` | Medium
+8 | ... | ... | ...
 
-There are 41 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 59 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

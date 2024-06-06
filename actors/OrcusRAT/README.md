@@ -27,6 +27,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1505 | CWE-89 | SQL Injection | High
+2 | T1592 | CWE-200 | Invocation of Process Using Visible Sensitive Information | High
 
 ## IOA - Indicator of Attack
 
@@ -34,12 +35,12 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/wp-admin/admin-ajax.php` | High
-2 | File | `dede\co_do.php` | High
-3 | File | `Dynamiccontenttags.php` | High
+1 | File | `/ndmComponents.js` | High
+2 | File | `/wp-admin/admin-ajax.php` | High
+3 | File | `dede\co_do.php` | High
 4 | ... | ... | ...
 
-There are 6 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 7 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

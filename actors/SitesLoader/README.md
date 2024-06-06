@@ -30,7 +30,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1055 | CWE-74 | Injection | High
+1 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 2 | T1574 | CWE-427 | Untrusted Search Path | High
 3 | T1592 | CWE-208 | Invocation of Process Using Visible Sensitive Information | High
 4 | ... | ... | ... | ...

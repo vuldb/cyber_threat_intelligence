@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
-* [DE](https://vuldb.com/?country.de)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
 There are 7 more country items available. Please use our online service to access the data.
@@ -33,7 +33,8 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-22 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
-4 | ... | ... | ... | ...
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
 There are 14 more TTP items available. Please use our online service to access the data.
 
@@ -43,15 +44,17 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/bin/boa` | Medium
-2 | File | `1.user.php` | Medium
-3 | File | `admin.cgi?action=config_restore` | High
-4 | File | `admin.cgi?action=upgrade` | High
-5 | File | `binary/BinaryMapIndexReader.java` | High
-6 | File | `books.php` | Medium
-7 | ... | ... | ...
+1 | File | `/admin/booking-bwdates-reports-details.php` | High
+2 | File | `/admin/category_row.php` | High
+3 | File | `/bin/boa` | Medium
+4 | File | `1.user.php` | Medium
+5 | File | `admin.cgi?action=config_restore` | High
+6 | File | `admin.cgi?action=upgrade` | High
+7 | File | `admin/books/deweydecimal.php` | High
+8 | File | `admin/edit_admin.php` | High
+9 | ... | ... | ...
 
-There are 52 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 61 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

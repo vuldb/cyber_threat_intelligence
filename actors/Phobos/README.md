@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Phobos:
 
 * [US](https://vuldb.com/?country.us)
-* [RU](https://vuldb.com/?country.ru)
-* [VN](https://vuldb.com/?country.vn)
+* [CN](https://vuldb.com/?country.cn)
+* [TR](https://vuldb.com/?country.tr)
 * ...
 
-There are 2 more country items available. Please use our online service to access the data.
+There are 20 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -21,8 +21,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [179.43.140.168](https://vuldb.com/?ip.179.43.140.168) | securehosting.capital | - | High
-2 | [193.37.69.46](https://vuldb.com/?ip.193.37.69.46) | - | - | High
+1 | [45.9.74.14](https://vuldb.com/?ip.45.9.74.14) | - | - | High
+2 | [147.78.47.224](https://vuldb.com/?ip.147.78.47.224) | undefined.hostname.localhost | - | High
+3 | [179.43.140.168](https://vuldb.com/?ip.179.43.140.168) | securehosting.capital | - | High
+4 | ... | ... | ... | ...
+
+There are 3 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -30,12 +34,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Path Traversal | High
-2 | T1055 | CWE-74 | Injection | High
-3 | T1059.007 | CWE-79 | Cross Site Scripting | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-25, CWE-36, CWE-425 | Path Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 7 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -43,18 +49,63 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `advertiser.php` | High
-2 | File | `at/create_job.cgi` | High
-3 | File | `tiki-register.php` | High
-4 | ... | ... | ...
+1 | File | `%SYSTEMDRIVE%\node_modules\.bin\wmic.exe` | High
+2 | File | `/#ilang=DE&b=c_smartenergy_swgroups` | High
+3 | File | `/Account/login.php` | High
+4 | File | `/admin/` | Low
+5 | File | `/admin/save.php` | High
+6 | File | `/adminapi/system/crud` | High
+7 | File | `/adminapi/system/file/openfile` | High
+8 | File | `/admin_route/dec_service_credits.php` | High
+9 | File | `/api/download` | High
+10 | File | `/api/v1/alerts` | High
+11 | File | `/api/v1/terminal/sessions/?limit=1` | High
+12 | File | `/api/v4/teams//channels/deleted` | High
+13 | File | `/api/wechat/app_auth` | High
+14 | File | `/b2b-supermarket/shopping-cart` | High
+15 | File | `/cancel.php` | Medium
+16 | File | `/category.php` | High
+17 | File | `/categorypage.php` | High
+18 | File | `/cgi-bin/cstecgi.cgi` | High
+19 | File | `/cgi-bin/vitogate.cgi` | High
+20 | File | `/change-language/de_DE` | High
+21 | File | `/control/register_case.php` | High
+22 | File | `/debug/pprof` | Medium
+23 | File | `/devinfo` | Medium
+24 | File | `/dist/index.js` | High
+25 | File | `/download` | Medium
+26 | File | `/fcgi/scrut_fcgi.fcgi` | High
+27 | File | `/forum/away.php` | High
+28 | File | `/geoserver/gwc/rest.html` | High
+29 | File | `/goform/formSysCmd` | High
+30 | File | `/HNAP1` | Low
+31 | File | `/hosts/firewall/ip` | High
+32 | File | `/index.jsp#settings` | High
+33 | File | `/index.php/ccm/system/file/upload` | High
+34 | File | `/jeecg-boot/sys/common/upload` | High
+35 | File | `/log/decodmail.php` | High
+36 | File | `/ndmComponents.js` | High
+37 | File | `/oauth/idp/.well-known/openid-configuration` | High
+38 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
+39 | File | `/php/ping.php` | High
+40 | File | `/proxy` | Low
+41 | File | `/RPS2019Service/status.html` | High
+42 | File | `/s/index.php?action=statistics` | High
+43 | File | `/setting` | Medium
+44 | File | `/Setting/change_password_save` | High
+45 | File | `/sicweb-ajax/tmproot/` | High
+46 | File | `/signup.php` | Medium
+47 | File | `/spip.php` | Medium
+48 | ... | ... | ...
 
-There are 11 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 412 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://exchange.xforce.ibmcloud.com/threats/guid:71f873ec777c3c34917057ccd3b42ed9
+* https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-060a
 
 ## Literature
 

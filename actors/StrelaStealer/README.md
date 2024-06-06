@@ -27,8 +27,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [91.215.85.209](https://vuldb.com/?ip.91.215.85.209) | - | Spain | High
-2 | [193.109.85.77](https://vuldb.com/?ip.193.109.85.77) | - | - | High
+1 | [45.9.74.12](https://vuldb.com/?ip.45.9.74.12) | - | - | High
+2 | [91.215.85.209](https://vuldb.com/?ip.91.215.85.209) | - | Spain | High
+3 | [193.109.85.77](https://vuldb.com/?ip.193.109.85.77) | - | - | High
+4 | ... | ... | ... | ...
+
+There are 1 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -50,18 +54,20 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/uncpath/` | Medium
-2 | File | `ajax/include.php` | High
-3 | File | `app/admin/custom-fields/filter-result.php` | High
-4 | File | `boafrm/formSysCmd` | High
+2 | File | `admin\posts\view_post.php` | High
+3 | File | `ajax/include.php` | High
+4 | File | `app/admin/custom-fields/filter-result.php` | High
 5 | ... | ... | ...
 
-There are 32 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 33 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://asec.ahnlab.com/en/53158/
+* https://blog.sonicwall.com/en-us/2024/04/updated-strelastealer-targeting-european-countries/
+* https://gbhackers.com/strelastealer-malware-attacks-eu-us/
 * https://twitter.com/AgidCert/status/1695004388190806210
 
 ## Literature

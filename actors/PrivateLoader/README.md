@@ -21,18 +21,20 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [5.181.80.133](https://vuldb.com/?ip.5.181.80.133) | navbarlatino.alarmedbook.de | - | High
-2 | [5.182.36.101](https://vuldb.com/?ip.5.182.36.101) | vz.darytelecom.ru | - | High
-3 | [45.15.156.229](https://vuldb.com/?ip.45.15.156.229) | - | - | High
-4 | [77.105.147.130](https://vuldb.com/?ip.77.105.147.130) | aggressive-peace.aeza.network | - | High
-5 | [79.174.12.174](https://vuldb.com/?ip.79.174.12.174) | king420.lazy.fvds.ru | - | High
-6 | [85.208.136.10](https://vuldb.com/?ip.85.208.136.10) | - | - | High
-7 | [89.38.131.151](https://vuldb.com/?ip.89.38.131.151) | no-reverse-yet.local | - | High
-8 | [89.38.131.155](https://vuldb.com/?ip.89.38.131.155) | no-reverse-yet.local | - | High
-9 | [89.185.85.53](https://vuldb.com/?ip.89.185.85.53) | VPS91.lethost.network | - | High
-10 | ... | ... | ... | ...
+1 | [2.56.56.126](https://vuldb.com/?ip.2.56.56.126) | - | - | High
+2 | [2.56.59.42](https://vuldb.com/?ip.2.56.59.42) | - | - | High
+3 | [5.42.66.10](https://vuldb.com/?ip.5.42.66.10) | - | - | High
+4 | [5.181.80.133](https://vuldb.com/?ip.5.181.80.133) | navbarlatino.alarmedbook.de | - | High
+5 | [5.182.36.101](https://vuldb.com/?ip.5.182.36.101) | vz.darytelecom.ru | - | High
+6 | [45.15.156.229](https://vuldb.com/?ip.45.15.156.229) | - | - | High
+7 | [77.105.147.130](https://vuldb.com/?ip.77.105.147.130) | aggressive-peace.aeza.network | - | High
+8 | [79.174.12.174](https://vuldb.com/?ip.79.174.12.174) | king420.lazy.fvds.ru | - | High
+9 | [85.192.56.26](https://vuldb.com/?ip.85.192.56.26) | somber-health.aeza.network | - | High
+10 | [85.202.169.116](https://vuldb.com/?ip.85.202.169.116) | - | - | High
+11 | [85.208.136.10](https://vuldb.com/?ip.85.208.136.10) | - | - | High
+12 | ... | ... | ... | ...
 
-There are 38 more IOC items available. Please use our online service to access the data.
+There are 46 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -47,7 +49,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -57,7 +59,7 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
 2 | File | `/acms/admin/cargo_types/manage_cargo_type.php` | High
-3 | File | `/admin.php/singer/admin/singer/del` | High
+3 | File | `/admin-manage-user.php` | High
 4 | File | `/admin/?page=product/manage_product&id=2` | High
 5 | File | `/Admin/add-student.php` | High
 6 | File | `/admin/ajax/avatar.php` | High
@@ -67,62 +69,63 @@ ID | Type | Indicator | Confidence
 10 | File | `/admin/show.php` | High
 11 | File | `/admin/transactions/update_status.php` | High
 12 | File | `/admin/view_sendlist.php` | High
-13 | File | `/alphaware/summary.php` | High
-14 | File | `/api/index.php` | High
-15 | File | `/api/sys/login` | High
-16 | File | `/api/user/password/sent-reset-email` | High
-17 | File | `/baseOpLog.do` | High
-18 | File | `/bl-plugins/backup/plugin.php` | High
-19 | File | `/catalog_add.php` | High
-20 | File | `/cgi-bin/nightled.cgi` | High
-21 | File | `/cgi-bin/wlogin.cgi` | High
-22 | File | `/cgi/get_param.cgi` | High
-23 | File | `/classes/Users.php` | High
-24 | File | `/common/download_agent_installer.php` | High
-25 | File | `/common/info.cgi` | High
-26 | File | `/common/run_cross_report.php` | High
-27 | File | `/confirm` | Medium
-28 | File | `/controller/Index.php` | High
-29 | File | `/cupseasylive/countrymodify.php` | High
-30 | File | `/cwc/login` | Medium
-31 | File | `/debug/pprof` | Medium
-32 | File | `/dede/archives_do.php` | High
-33 | File | `/dede/group_store.php` | High
-34 | File | `/dialog/select_media.php` | High
-35 | File | `/doorgets/app/requests/user/emailingRequest.php` | High
-36 | File | `/etc/master.passwd` | High
-37 | File | `/etc/passwd` | Medium
-38 | File | `/EXCU_SHELL` | Medium
-39 | File | `/ext/collect/filter_text.do` | High
-40 | File | `/fax/fax_send.php` | High
-41 | File | `/foms/all-orders.php?status=Cancelled%20by%20Customer` | High
-42 | File | `/forum/away.php` | High
-43 | File | `/goform/addressNat` | High
-44 | File | `/goform/NatStaticSetting` | High
-45 | File | `/goform/setMacFilterCfg` | High
-46 | File | `/goform/SysToolChangePwd` | High
-47 | File | `/goform/WifiBasicSet` | High
-48 | File | `/goform/WifiWpsStart` | High
-49 | File | `/HNAP1` | Low
-50 | File | `/home/resume/index` | High
-51 | File | `/includes/lib/tree.php` | High
-52 | File | `/index.php` | Medium
-53 | File | `/index.php?action=seomatic/file/seo-file-link` | High
-54 | File | `/intern/controller.php` | High
-55 | File | `/LoginRegistration.php` | High
-56 | File | `/main?cmd=invalid_browser` | High
-57 | File | `/manager?action=getlogcat` | High
-58 | File | `/member/ad.php?action=ad` | High
-59 | File | `/my_photo_gallery/image.php` | High
-60 | File | `/ofrs/admin/?page=reports` | High
-61 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-62 | File | `/page.php` | Medium
-63 | File | `/pages/permit/permit.php` | High
-64 | File | `/patient/doctors.php` | High
-65 | File | `/pet_shop/classes/Master.php?f=delete_category` | High
-66 | ... | ... | ...
+13 | File | `/adminPage/main/upload` | High
+14 | File | `/admin_class.php` | High
+15 | File | `/alphaware/summary.php` | High
+16 | File | `/api/index.php` | High
+17 | File | `/api/sys/login` | High
+18 | File | `/api/user/password/sent-reset-email` | High
+19 | File | `/baseOpLog.do` | High
+20 | File | `/bl-plugins/backup/plugin.php` | High
+21 | File | `/catalog_add.php` | High
+22 | File | `/cgi-bin/nightled.cgi` | High
+23 | File | `/cgi-bin/wlogin.cgi` | High
+24 | File | `/cgi/get_param.cgi` | High
+25 | File | `/classes/Users.php` | High
+26 | File | `/classes/Users.php?f=save` | High
+27 | File | `/common/download_agent_installer.php` | High
+28 | File | `/common/info.cgi` | High
+29 | File | `/common/run_cross_report.php` | High
+30 | File | `/confirm` | Medium
+31 | File | `/crmeb/app/admin/controller/store/CopyTaobao.php` | High
+32 | File | `/cupseasylive/countrymodify.php` | High
+33 | File | `/cwc/login` | Medium
+34 | File | `/debug/pprof` | Medium
+35 | File | `/dede/archives_do.php` | High
+36 | File | `/dede/group_store.php` | High
+37 | File | `/dialog/select_media.php` | High
+38 | File | `/Employee/edit-profile.php` | High
+39 | File | `/etc/master.passwd` | High
+40 | File | `/etc/passwd` | Medium
+41 | File | `/EXCU_SHELL` | Medium
+42 | File | `/ext/collect/filter_text.do` | High
+43 | File | `/fax/fax_send.php` | High
+44 | File | `/foms/all-orders.php?status=Cancelled%20by%20Customer` | High
+45 | File | `/forum/away.php` | High
+46 | File | `/goform/addressNat` | High
+47 | File | `/goform/NatStaticSetting` | High
+48 | File | `/goform/setMacFilterCfg` | High
+49 | File | `/goform/SysToolChangePwd` | High
+50 | File | `/goform/WifiBasicSet` | High
+51 | File | `/goform/WifiWpsStart` | High
+52 | File | `/HNAP1` | Low
+53 | File | `/home/resume/index` | High
+54 | File | `/index.php` | Medium
+55 | File | `/index.php?action=seomatic/file/seo-file-link` | High
+56 | File | `/intern/controller.php` | High
+57 | File | `/LoginRegistration.php` | High
+58 | File | `/lua/set-passwd.lua` | High
+59 | File | `/member/ad.php?action=ad` | High
+60 | File | `/my_photo_gallery/image.php` | High
+61 | File | `/ofrs/admin/?page=reports` | High
+62 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+63 | File | `/page.php` | Medium
+64 | File | `/pages/permit/permit.php` | High
+65 | File | `/patient/doctors.php` | High
+66 | File | `/pet_shop/classes/Master.php?f=delete_category` | High
+67 | ... | ... | ...
 
-There are 579 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 584 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -136,6 +139,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://app.any.run/tasks/ee675dd9-ff6d-4f25-8163-193d4836bfb3
 * https://community.blueliv.com/#!/s/6274c2b082df417a00331684
 * https://community.blueliv.com/#!/s/63280e7d82df417ed0331974
+* https://de.darktrace.com/blog/privateloader-network-based-indicators-of-compromise
 * https://github.com/SEKOIA-IO/Community/blob/main/IOCs/20220914_privateloader_IOC.csv
 * https://malpedia.caad.fkie.fraunhofer.de/details/win.privateloader
 * https://threatfox.abuse.ch

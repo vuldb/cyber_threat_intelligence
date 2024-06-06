@@ -78,13 +78,13 @@ ID | Type | Indicator | Confidence
 25 | File | `agentdisplay.php` | High
 26 | File | `agora.cgi` | Medium
 27 | File | `and/or` | Low
-28 | File | `auction.cgi` | Medium
-29 | File | `authent.php4` | Medium
-30 | File | `autologin.jsp` | High
-31 | File | `axspawn.c` | Medium
-32 | File | `base_ag_main.php` | High
-33 | File | `base_qry_main.php` | High
-34 | File | `bigsam_guestbook.php` | High
+28 | File | `att_protocol.cc` | High
+29 | File | `auction.cgi` | Medium
+30 | File | `authent.php4` | Medium
+31 | File | `autologin.jsp` | High
+32 | File | `axspawn.c` | Medium
+33 | File | `base_ag_main.php` | High
+34 | File | `base_qry_main.php` | High
 35 | ... | ... | ...
 
 There are 297 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.

@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 15 more country items available. Please use our online service to access the data.
+There are 16 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -37,7 +37,7 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Path Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
@@ -57,36 +57,38 @@ ID | Type | Indicator | Confidence
 5 | File | `/application/common.php#action_log` | High
 6 | File | `/apply.cgi` | Medium
 7 | File | `/card_scan.php` | High
-8 | File | `/cgi-bin/wlogin.cgi` | High
-9 | File | `/changeimage.php` | High
-10 | File | `/cwc/login` | Medium
-11 | File | `/download` | Medium
-12 | File | `/etc/quagga` | Medium
-13 | File | `/etc/shadow` | Medium
-14 | File | `/forms/doLogin` | High
-15 | File | `/goform/L7Im` | Medium
-16 | File | `/h/calendar` | Medium
-17 | File | `/icingaweb2/navigation/add` | High
-18 | File | `/inc/extensions.php` | High
-19 | File | `/mhds/clinic/view_details.php` | High
-20 | File | `/netflow/jspui/editProfile.jsp` | High
-21 | File | `/nova/bin/console` | High
-22 | File | `/nova/bin/detnet` | High
-23 | File | `/out.php` | Medium
-24 | File | `/php-sms/classes/Master.php?f=save_quote` | High
-25 | File | `/php/ping.php` | High
-26 | File | `/rapi/read_url` | High
-27 | File | `/req_password_user.php` | High
-28 | File | `/rom-0` | Low
-29 | File | `/scripts/unlock_tasks.php` | High
-30 | File | `/secure/QueryComponent!Default.jspa` | High
-31 | File | `/ServletAPI/accounts/login` | High
-32 | File | `/setNTP.cgi` | Medium
-33 | File | `/student/bookdetails.php` | High
-34 | File | `/SysInfo1.htm` | High
-35 | ... | ... | ...
+8 | File | `/cgi-bin/kerbynet` | High
+9 | File | `/cgi-bin/wlogin.cgi` | High
+10 | File | `/changeimage.php` | High
+11 | File | `/cwc/login` | Medium
+12 | File | `/debuginfo.htm` | High
+13 | File | `/download` | Medium
+14 | File | `/etc/quagga` | Medium
+15 | File | `/etc/shadow` | Medium
+16 | File | `/forms/doLogin` | High
+17 | File | `/goform/L7Im` | Medium
+18 | File | `/h/calendar` | Medium
+19 | File | `/icingaweb2/navigation/add` | High
+20 | File | `/inc/extensions.php` | High
+21 | File | `/mhds/clinic/view_details.php` | High
+22 | File | `/netflow/jspui/editProfile.jsp` | High
+23 | File | `/nova/bin/console` | High
+24 | File | `/nova/bin/detnet` | High
+25 | File | `/out.php` | Medium
+26 | File | `/php-sms/classes/Master.php?f=save_quote` | High
+27 | File | `/php/ping.php` | High
+28 | File | `/rapi/read_url` | High
+29 | File | `/req_password_user.php` | High
+30 | File | `/rom-0` | Low
+31 | File | `/scripts/unlock_tasks.php` | High
+32 | File | `/secure/QueryComponent!Default.jspa` | High
+33 | File | `/ServletAPI/accounts/login` | High
+34 | File | `/setNTP.cgi` | Medium
+35 | File | `/student/bookdetails.php` | High
+36 | File | `/SysInfo1.htm` | High
+37 | ... | ... | ...
 
-There are 300 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 314 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

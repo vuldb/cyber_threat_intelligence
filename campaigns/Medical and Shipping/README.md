@@ -38,6 +38,15 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1202 | CWE-78 | Command Shell in Externally Accessible Directory | High
+2 | T1592 | CWE-200 | Invocation of Process Using Visible Sensitive Information | High
+
+## IOA - Indicator of Attack
+
+These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration during Medical and Shipping. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Type | Indicator | Confidence
+-- | ---- | --------- | ----------
+1 | File | `/ndmComponents.js` | High
 
 ## References
 

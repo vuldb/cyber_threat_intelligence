@@ -57,7 +57,7 @@ ID | IP address | Hostname | Campaign | Confidence
 34 | [66.154.111.3](https://vuldb.com/?ip.66.154.111.3) | - | - | High
 35 | ... | ... | ... | ...
 
-There are 136 more IOC items available. Please use our online service to access the data.
+There are 138 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -68,8 +68,9 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+4 | T1059.007 | CWE-79, CWE-80, CWE-85 | Cross Site Scripting | High
+5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+6 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
 
@@ -82,56 +83,60 @@ ID | Type | Indicator | Confidence
 1 | File | `/+CSCOE+/logon.html` | High
 2 | File | `/admin_giant/add_team_member.php` | High
 3 | File | `/api/admin/system/store/order/list` | High
-4 | File | `/cgi-bin/wapopen` | High
-5 | File | `/common/info.cgi` | High
-6 | File | `/csms/?page=contact_us` | High
-7 | File | `/etc/ajenti/config.yml` | High
-8 | File | `/forum/away.php` | High
-9 | File | `/get_getnetworkconf.cgi` | High
-10 | File | `/goform/setmac` | High
-11 | File | `/goform/telnet` | High
-12 | File | `/index.php/signin` | High
-13 | File | `/integrations.json` | High
-14 | File | `/lists/admin/` | High
-15 | File | `/modules/profile/index.php` | High
-16 | File | `/phppath/php` | Medium
-17 | File | `/rom-0` | Low
-18 | File | `/services/details.asp` | High
-19 | File | `/spip.php` | Medium
-20 | File | `/tmp/phpglibccheck` | High
-21 | File | `/uncpath/` | Medium
-22 | File | `/upload` | Low
-23 | File | `/var/tmp/sess_*` | High
-24 | File | `acl.c` | Low
-25 | File | `action.php` | Medium
-26 | File | `actionphp/download.File.php` | High
-27 | File | `Addmessage.php` | High
-28 | File | `add_comment.php` | High
-29 | File | `admin.php` | Medium
-30 | File | `admin.php?mod=user&act=del` | High
-31 | File | `admin/admin.php` | High
-32 | File | `admin/content.php` | High
-33 | File | `admin/index.php?id=users/action=edit/user_id=1` | High
-34 | File | `admin/index.php?n=ui_set&m=admin&c=index&a=doget_text_content&table=lang&field=1` | High
-35 | File | `admin/login.asp` | High
-36 | File | `admin_gallery.php3` | High
-37 | File | `admin_safe.php` | High
-38 | File | `affich.php` | Medium
-39 | File | `agent/Core/Controller/SendRequest.cpp` | High
-40 | File | `ajax/telemetry.php` | High
-41 | File | `akeyActivationLogin.do` | High
-42 | File | `album_portal.php` | High
-43 | File | `apache-auth.conf` | High
-44 | File | `app\contacts\contact_addresses.php` | High
-45 | ... | ... | ...
+4 | File | `/car.php` | Medium
+5 | File | `/cgi-bin/wapopen` | High
+6 | File | `/common/info.cgi` | High
+7 | File | `/core/admin/categories.php` | High
+8 | File | `/csms/?page=contact_us` | High
+9 | File | `/etc/ajenti/config.yml` | High
+10 | File | `/forum/away.php` | High
+11 | File | `/get_getnetworkconf.cgi` | High
+12 | File | `/goform/setmac` | High
+13 | File | `/goform/telnet` | High
+14 | File | `/index.php/signin` | High
+15 | File | `/integrations.json` | High
+16 | File | `/librarian/bookdetails.php` | High
+17 | File | `/lists/admin/` | High
+18 | File | `/modules/profile/index.php` | High
+19 | File | `/multi-vendor-shopping-script/product-list.php` | High
+20 | File | `/phppath/php` | Medium
+21 | File | `/rom-0` | Low
+22 | File | `/services/details.asp` | High
+23 | File | `/spip.php` | Medium
+24 | File | `/tmp/phpglibccheck` | High
+25 | File | `/uncpath/` | Medium
+26 | File | `/upload` | Low
+27 | File | `/var/tmp/sess_*` | High
+28 | File | `acl.c` | Low
+29 | File | `action.php` | Medium
+30 | File | `actionphp/download.File.php` | High
+31 | File | `Addmessage.php` | High
+32 | File | `add_comment.php` | High
+33 | File | `admin.php` | Medium
+34 | File | `admin.php?mod=user&act=del` | High
+35 | File | `admin/admin.php` | High
+36 | File | `admin/content.php` | High
+37 | File | `admin/download.php` | High
+38 | File | `admin/index.php?id=users/action=edit/user_id=1` | High
+39 | File | `admin/index.php?n=ui_set&m=admin&c=index&a=doget_text_content&table=lang&field=1` | High
+40 | File | `admin/login.asp` | High
+41 | File | `admin_gallery.php3` | High
+42 | File | `admin_safe.php` | High
+43 | File | `affich.php` | Medium
+44 | File | `agent/Core/Controller/SendRequest.cpp` | High
+45 | File | `ajax/telemetry.php` | High
+46 | File | `akeyActivationLogin.do` | High
+47 | File | `album_portal.php` | High
+48 | ... | ... | ...
 
-There are 393 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 413 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://app.any.run/tasks/c9885212-b5db-4784-845f-bedf7c6bcef0
+* https://bazaar.abuse.ch/sample/eab4de47bbafcc25413ea8c04856912f2a47a3cd2a32d1659d74c2f23e124f89/
 * https://threatfox.abuse.ch
 * https://twitter.com/ddash_ct/status/1560660561586982912
 * https://twitter.com/James_inthe_box/status/1656394858918195200

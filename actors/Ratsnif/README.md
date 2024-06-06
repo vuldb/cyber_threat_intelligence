@@ -8,6 +8,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Ratsnif:
 
+* [US](https://vuldb.com/?country.us)
 * [BR](https://vuldb.com/?country.br)
 
 ## IOC - Indicator of Compromise
@@ -33,8 +34,11 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `shop.php` | Medium
-2 | Library | `unrarlib.c` | Medium
-3 | Argument | `id` | Low
+2 | File | `tiki-login.php` | High
+3 | Library | `unrarlib.c` | Medium
+4 | ... | ... | ...
+
+There are 2 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

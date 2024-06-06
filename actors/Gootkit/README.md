@@ -36,7 +36,7 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94 | Argument Injection | High
 5 | ... | ... | ... | ...
 
@@ -50,15 +50,15 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.htaccess` | Medium
 2 | File | `/addnews.html` | High
-3 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-4 | File | `/download` | Medium
-5 | File | `/secure/admin/ImporterFinishedPage.jspa` | High
-6 | File | `/uncpath/` | Medium
-7 | File | `/_error` | Low
-8 | File | `/_next` | Low
+3 | File | `/api/runs/search/run/` | High
+4 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
+5 | File | `/download` | Medium
+6 | File | `/secure/admin/ImporterFinishedPage.jspa` | High
+7 | File | `/uncpath/` | Medium
+8 | File | `/_error` | Low
 9 | ... | ... | ...
 
-There are 69 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 70 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

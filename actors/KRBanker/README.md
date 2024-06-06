@@ -1,27 +1,50 @@
-# KRBanker - Cyber Threat Intelligence
+# KrBanker - Cyber Threat Intelligence
 
-These _indicators_ were reported, collected, and generated during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [KRBanker](https://vuldb.com/?actor.krbanker). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ uses _big data_ to forecast activities and their characteristics.
+These _indicators_ were reported, collected, and generated during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [KrBanker](https://vuldb.com/?actor.krbanker). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ uses _big data_ to forecast activities and their characteristics.
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.krbanker](https://vuldb.com/?actor.krbanker)
 
 ## Campaigns
 
-The following _campaigns_ are known and can be associated with KRBanker:
+The following _campaigns_ are known and can be associated with KrBanker:
 
 * KaiXin/NEWSPOT
 
+## Countries
+
+These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with KrBanker:
+
+* [CN](https://vuldb.com/?country.cn)
+
 ## IOC - Indicator of Compromise
 
-These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of KRBanker.
+These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of KrBanker.
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [23.107.204.38](https://vuldb.com/?ip.23.107.204.38) | - | KaiXin/NEWSPOT | High
+2 | [27.124.46.73](https://vuldb.com/?ip.27.124.46.73) | - | - | High
+3 | [38.181.20.8](https://vuldb.com/?ip.38.181.20.8) | - | - | High
+4 | ... | ... | ... | ...
+
+There are 2 more IOC items available. Please use our online service to access the data.
+
+## TTP - Tactics, Techniques, Procedures
+
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _KrBanker_. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1006 | CWE-22 | Path Traversal | High
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://threatfox.abuse.ch
+* https://tria.ge/240426-m4es3sfa2x
+* https://tria.ge/240426-m7x4tsfa95
+* https://tria.ge/240427-rw2ebscc65
 * https://unit42.paloaltonetworks.com/unit42-krbanker-targets-south-korea-through-adware-and-exploit-kits-2/
 
 ## Literature

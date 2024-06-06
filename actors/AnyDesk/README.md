@@ -8,8 +8,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with AnyDesk:
 
-* [RU](https://vuldb.com/?country.ru)
 * [US](https://vuldb.com/?country.us)
+* [RU](https://vuldb.com/?country.ru)
 * [TK](https://vuldb.com/?country.tk)
 * ...
 
@@ -22,7 +22,8 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [52.89.196.49](https://vuldb.com/?ip.52.89.196.49) | ec2-52-89-196-49.us-west-2.compute.amazonaws.com | - | Medium
-2 | [185.29.9.162](https://vuldb.com/?ip.185.29.9.162) | se1.encryptedconnection.info | - | High
+2 | [164.92.235.193](https://vuldb.com/?ip.164.92.235.193) | - | - | High
+3 | [185.29.9.162](https://vuldb.com/?ip.185.29.9.162) | se1.encryptedconnection.info | - | High
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -54,6 +55,7 @@ There are 19 more IOA items available (file, library, argument, input value, pat
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://cyble.com/blog/mitsu-stealer-distributed-via-anydesk-phishing-site/
 * https://thedfirreport.com/2024/04/01/from-onenote-to-ransomnote-an-ice-cold-intrusion/
 
 ## Literature

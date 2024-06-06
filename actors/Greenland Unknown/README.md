@@ -28,9 +28,20 @@ ID | IP address | Hostname | Campaign | Confidence
 5 | [37.230.214.0](https://vuldb.com/?ip.37.230.214.0) | host-37-230-214-000.adsl.gl | - | High
 6 | [37.230.216.0](https://vuldb.com/?ip.37.230.216.0) | host-37-230-216-000.adsl.gl | - | High
 7 | [37.230.220.0](https://vuldb.com/?ip.37.230.220.0) | host-37-230-220-000.adsl.gl | - | High
-8 | ... | ... | ... | ...
+8 | [45.12.70.85](https://vuldb.com/?ip.45.12.70.85) | end-cir.yourbandinc.com | - | High
+9 | [45.12.71.85](https://vuldb.com/?ip.45.12.71.85) | - | - | High
+10 | [46.16.16.0](https://vuldb.com/?ip.46.16.16.0) | - | - | High
+11 | [46.243.151.0](https://vuldb.com/?ip.46.243.151.0) | host-46-243-151-000.adsl.gl | - | High
+12 | [88.83.0.0](https://vuldb.com/?ip.88.83.0.0) | host-88-83-0-0.adsl.gl | - | High
+13 | [91.90.120.0](https://vuldb.com/?ip.91.90.120.0) | - | - | High
+14 | [91.90.120.131](https://vuldb.com/?ip.91.90.120.131) | - | - | High
+15 | [91.90.120.132](https://vuldb.com/?ip.91.90.120.132) | - | - | High
+16 | [91.90.120.133](https://vuldb.com/?ip.91.90.120.133) | - | - | High
+17 | [91.90.120.134](https://vuldb.com/?ip.91.90.120.134) | - | - | High
+18 | [91.90.120.135](https://vuldb.com/?ip.91.90.120.135) | - | - | High
+19 | ... | ... | ... | ...
 
-There are 29 more IOC items available. Please use our online service to access the data.
+There are 74 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -65,38 +76,40 @@ ID | Type | Indicator | Confidence
 11 | File | `/admin/payment.php` | High
 12 | File | `/admin/reportupload.aspx` | High
 13 | File | `/admin/show.php` | High
-14 | File | `/boat/login.php` | High
-15 | File | `/cgi-bin/cstecgi.cgi` | High
-16 | File | `/clinic/disease_symptoms_view.php` | High
-17 | File | `/default.php?idx=17` | High
-18 | File | `/download` | Medium
-19 | File | `/env` | Low
-20 | File | `/forum/away.php` | High
-21 | File | `/index.php` | Medium
-22 | File | `/opt/bin/cli` | Medium
-23 | File | `/p` | Low
-24 | File | `/patient/doctors.php` | High
-25 | File | `/phpinventory/editcategory.php` | High
-26 | File | `/product-list.php` | High
-27 | File | `/spip.php` | Medium
-28 | File | `/uncpath/` | Medium
-29 | File | `/updown/upload.cgi` | High
-30 | File | `/user/del.php` | High
-31 | File | `/wp-admin/admin-ajax.php` | High
-32 | File | `/_next` | Low
-33 | File | `123flashchat.php` | High
-34 | File | `act.php` | Low
-35 | File | `ActivityManagerService.java` | High
-36 | File | `add_comments.php` | High
-37 | File | `admin.php/pay` | High
-38 | File | `admin/bad.php` | High
-39 | File | `admin/index.php` | High
-40 | File | `admin/index.php/user/del/1` | High
-41 | File | `admin/index.php?id=themes&action=edit_chunk` | High
-42 | File | `admin/products/controller.php?action=add` | High
-43 | ... | ... | ...
+14 | File | `/backend/register.php` | High
+15 | File | `/boat/login.php` | High
+16 | File | `/cgi-bin/cstecgi.cgi` | High
+17 | File | `/clinic/disease_symptoms_view.php` | High
+18 | File | `/default.php?idx=17` | High
+19 | File | `/doctor/view-appointment-detail.php` | High
+20 | File | `/download` | Medium
+21 | File | `/edit-client-details.php` | High
+22 | File | `/env` | Low
+23 | File | `/forum/away.php` | High
+24 | File | `/index.php` | Medium
+25 | File | `/opt/bin/cli` | Medium
+26 | File | `/p` | Low
+27 | File | `/patient/doctors.php` | High
+28 | File | `/phpinventory/editcategory.php` | High
+29 | File | `/product-list.php` | High
+30 | File | `/spip.php` | Medium
+31 | File | `/uncpath/` | Medium
+32 | File | `/updown/upload.cgi` | High
+33 | File | `/user/del.php` | High
+34 | File | `/wp-admin/admin-ajax.php` | High
+35 | File | `/_next` | Low
+36 | File | `123flashchat.php` | High
+37 | File | `act.php` | Low
+38 | File | `ActivityManagerService.java` | High
+39 | File | `add_comments.php` | High
+40 | File | `admin.php/pay` | High
+41 | File | `admin/bad.php` | High
+42 | File | `admin/index.php` | High
+43 | File | `admin/index.php/user/del/1` | High
+44 | File | `admin/index.php?id=themes&action=edit_chunk` | High
+45 | ... | ... | ...
 
-There are 373 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 386 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -104,6 +117,8 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://github.com/firehol/blocklist-ipsets/blob/master/geolite2_country/country_gl.netset
 * https://github.com/firehol/blocklist-ipsets/blob/master/ip2location_country/ip2location_country_gl.netset
+* https://github.com/scriptzteam/Private-Internet-Access-VPN-Servers/blob/main/export.cs
+* https://github.com/scriptzteam/Private-Internet-Access-VPN-Servers/blob/main/export.csv
 
 ## Literature
 

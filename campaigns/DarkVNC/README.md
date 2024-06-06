@@ -32,10 +32,10 @@ ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
 1 | [2.152.208.135](https://vuldb.com/?ip.2.152.208.135) | 2.152.208.135.dyn.user.ono.com | [DarkVNC](https://vuldb.com/?actor.darkvnc) | High
 2 | [20.211.121.138](https://vuldb.com/?ip.20.211.121.138) | - | [DarkVNC](https://vuldb.com/?actor.darkvnc) | High
-3 | [91.238.50.80](https://vuldb.com/?ip.91.238.50.80) | - | [DarkVNC](https://vuldb.com/?actor.darkvnc) | High
+3 | [65.20.106.109](https://vuldb.com/?ip.65.20.106.109) | 65.20.106.109.vultrusercontent.com | [DarkVNC](https://vuldb.com/?actor.darkvnc) | High
 4 | ... | ... | ... | ...
 
-There are 3 more IOC items available. Please use our online service to access the data.
+There are 4 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -71,6 +71,7 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://isc.sans.edu/diary/28884
 * https://isc.sans.edu/diary/28934
 * https://isc.sans.edu/diary/IcedID+%28Bokbot%29+with+Dark+VNC+and+Cobalt+Strike/28884
+* https://threatfox.abuse.ch
 * https://twitter.com/fr0s7_/status/1712788618824106443
 * https://twitter.com/unit42_intel/status/1541888192802181120
 * https://twitter.com/Unit42_Intel/status/1587463493300719616

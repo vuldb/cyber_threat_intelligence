@@ -30,7 +30,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
-2 | T1055 | CWE-74 | Injection | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
@@ -45,16 +45,16 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.kss.pid` | Medium
 2 | File | `/admin.php?m=Config&a=add` | High
-3 | File | `/admin/login.php` | High
-4 | File | `/adminsys/index.php?load=admins&act=edit_info&act_type=add` | High
-5 | File | `/advance_push/public/login` | High
-6 | File | `/bin/goahead` | Medium
-7 | File | `/box_code_base.c` | High
-8 | File | `/cgi-bin` | Medium
-9 | File | `/cgi-bin/cstecgi.cgi` | High
-10 | File | `/cgi-bin/wlogin.cgi` | High
-11 | File | `/configs/application.ini` | High
-12 | File | `/core/MY_Security.php` | High
+3 | File | `/adminsys/index.php?load=admins&act=edit_info&act_type=add` | High
+4 | File | `/advance_push/public/login` | High
+5 | File | `/bin/goahead` | Medium
+6 | File | `/box_code_base.c` | High
+7 | File | `/cgi-bin` | Medium
+8 | File | `/cgi-bin/cstecgi.cgi` | High
+9 | File | `/cgi-bin/wlogin.cgi` | High
+10 | File | `/configs/application.ini` | High
+11 | File | `/core/MY_Security.php` | High
+12 | File | `/dede/freelist_edit.php` | High
 13 | File | `/download` | Medium
 14 | File | `/dus/shopliste/index.php` | High
 15 | File | `/egroupware/index.php` | High
@@ -79,9 +79,9 @@ ID | Type | Indicator | Confidence
 34 | File | `/navigate/navigate_download.php` | High
 35 | File | `/opensis/modules/users/Staff.php` | High
 36 | File | `/pay-with-paypal/{id}` | High
-37 | File | `/preferences/tags` | High
-38 | File | `/secure/QueryComponent!Default.jspa` | High
-39 | File | `/spacecom/login.php` | High
+37 | File | `/secure/QueryComponent!Default.jspa` | High
+38 | File | `/spacecom/login.php` | High
+39 | File | `/text/pdf/PdfReader.java` | High
 40 | File | `/var/run/jboss-eap/` | High
 41 | File | `/var/www/core/controller/index.php` | High
 42 | File | `/wp-json` | Medium
@@ -129,7 +129,7 @@ ID | Type | Indicator | Confidence
 84 | File | `comments.php` | Medium
 85 | ... | ... | ...
 
-There are 752 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 745 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

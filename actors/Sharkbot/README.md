@@ -23,17 +23,20 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [37.10.71.172](https://vuldb.com/?ip.37.10.71.172) | - | - | High
 2 | [45.11.180.20](https://vuldb.com/?ip.45.11.180.20) | help-extract.paststreak.net | - | High
-3 | [45.11.180.82](https://vuldb.com/?ip.45.11.180.82) | - | - | High
-4 | [45.11.180.179](https://vuldb.com/?ip.45.11.180.179) | - | - | High
-5 | [45.11.180.240](https://vuldb.com/?ip.45.11.180.240) | - | - | High
-6 | [45.11.182.33](https://vuldb.com/?ip.45.11.182.33) | - | - | High
-7 | [45.11.182.62](https://vuldb.com/?ip.45.11.182.62) | - | - | High
-8 | [67.223.117.90](https://vuldb.com/?ip.67.223.117.90) | - | - | High
-9 | [79.132.128.91](https://vuldb.com/?ip.79.132.128.91) | - | - | High
-10 | [79.132.131.131](https://vuldb.com/?ip.79.132.131.131) | - | - | High
-11 | ... | ... | ... | ...
+3 | [45.11.180.28](https://vuldb.com/?ip.45.11.180.28) | sftp.novacoral.com | - | High
+4 | [45.11.180.82](https://vuldb.com/?ip.45.11.180.82) | - | - | High
+5 | [45.11.180.179](https://vuldb.com/?ip.45.11.180.179) | - | - | High
+6 | [45.11.180.240](https://vuldb.com/?ip.45.11.180.240) | - | - | High
+7 | [45.11.182.33](https://vuldb.com/?ip.45.11.182.33) | - | - | High
+8 | [45.11.182.62](https://vuldb.com/?ip.45.11.182.62) | - | - | High
+9 | [45.11.183.78](https://vuldb.com/?ip.45.11.183.78) | - | - | High
+10 | [45.61.152.227](https://vuldb.com/?ip.45.61.152.227) | - | - | High
+11 | [45.147.229.134](https://vuldb.com/?ip.45.147.229.134) | - | - | High
+12 | [45.155.250.106](https://vuldb.com/?ip.45.155.250.106) | - | - | High
+13 | [45.155.250.207](https://vuldb.com/?ip.45.155.250.207) | - | - | High
+14 | ... | ... | ... | ...
 
-There are 42 more IOC items available. Please use our online service to access the data.
+There are 53 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -41,9 +44,9 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-425 | Path Traversal | High
+1 | T1006 | CWE-22, CWE-37, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94 | Argument Injection | High
 5 | ... | ... | ... | ...
 
@@ -58,16 +61,20 @@ ID | Type | Indicator | Confidence
 1 | File | `%PROGRAMFILES(X86)%\Teradici\PCoIP.exe` | High
 2 | File | `/.vnc/sesman_${username}_passwd` | High
 3 | File | `/api/RecordingList/DownloadRecord?file=` | High
-4 | File | `/api/v2/cli/commands` | High
-5 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-6 | File | `/Duty/AjaxHandle/UpLoadFloodPlanFile.ashx` | High
-7 | File | `/mics/j_spring_security_check` | High
-8 | File | `/oauth/token` | Medium
-9 | File | `/opt/bin/cli` | Medium
-10 | File | `/rom-0` | Low
-11 | ... | ... | ...
+4 | File | `/api/runs/search/run/` | High
+5 | File | `/api/v2/cli/commands` | High
+6 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
+7 | File | `/cgi/loginDefaultUser` | High
+8 | File | `/Duty/AjaxHandle/UpLoadFloodPlanFile.ashx` | High
+9 | File | `/mics/j_spring_security_check` | High
+10 | File | `/oauth/token` | Medium
+11 | File | `/opt/bin/cli` | Medium
+12 | File | `/rom-0` | Low
+13 | File | `/uncpath/` | Medium
+14 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
+15 | ... | ... | ...
 
-There are 88 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 124 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

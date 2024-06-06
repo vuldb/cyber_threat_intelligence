@@ -49,40 +49,41 @@ ID | Type | Indicator | Confidence
 2 | File | `/.htpasswd` | Medium
 3 | File | `//etc/RT2870STA.dat` | High
 4 | File | `/admin_ping.htm` | High
-5 | File | `/api/user/{ID}` | High
-6 | File | `/bin/proc.cgi` | High
-7 | File | `/CFIDE/probe.cfm` | High
-8 | File | `/cgi-bin/login_action.cgi` | High
-9 | File | `/data/vendor/tcl` | High
-10 | File | `/download` | Medium
-11 | File | `/etc/tomcat8/Catalina/attack` | High
-12 | File | `/files.md5` | Medium
-13 | File | `/forum/away.php` | High
-14 | File | `/getcfg.php` | Medium
-15 | File | `/modules/profile/index.php` | High
-16 | File | `/modules/registration_admission/patient_register.php` | High
-17 | File | `/news.dtl.php` | High
-18 | File | `/public/plugins/` | High
-19 | File | `/rapi/read_url` | High
-20 | File | `/rest/api/2/user/picker` | High
-21 | File | `/sbin/acos_service` | High
-22 | File | `/scripts/iisadmin/bdir.htr` | High
-23 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-24 | File | `/squashfs-root/www/HNAP1/control/SetWizardConfig.php` | High
-25 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
-26 | File | `/uncpath/` | Medium
-27 | File | `/usr/bin/pkexec` | High
-28 | File | `/ViewUserHover.jspa` | High
-29 | File | `/WEB-INF/web.xml` | High
-30 | File | `/wp-admin/admin-ajax.php` | High
-31 | File | `/wp-json/oembed/1.0/embed?url` | High
-32 | File | `/www/cgi-bin/popen.cgi` | High
-33 | File | `5.2.9\syscrb.exe` | High
-34 | File | `accountrecoveryendpoint/recoverpassword.do` | High
-35 | File | `ad.cgi` | Low
-36 | ... | ... | ...
+5 | File | `/api/sys/login` | High
+6 | File | `/api/user/{ID}` | High
+7 | File | `/bin/proc.cgi` | High
+8 | File | `/CFIDE/probe.cfm` | High
+9 | File | `/cgi-bin/login_action.cgi` | High
+10 | File | `/data/vendor/tcl` | High
+11 | File | `/download` | Medium
+12 | File | `/etc/tomcat8/Catalina/attack` | High
+13 | File | `/files.md5` | Medium
+14 | File | `/forum/away.php` | High
+15 | File | `/getcfg.php` | Medium
+16 | File | `/index.php?controller=GzUser&action=edit&id=1` | High
+17 | File | `/modules/profile/index.php` | High
+18 | File | `/modules/registration_admission/patient_register.php` | High
+19 | File | `/news.dtl.php` | High
+20 | File | `/public/plugins/` | High
+21 | File | `/rapi/read_url` | High
+22 | File | `/rest/api/2/user/picker` | High
+23 | File | `/sbin/acos_service` | High
+24 | File | `/scripts/iisadmin/bdir.htr` | High
+25 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+26 | File | `/squashfs-root/www/HNAP1/control/SetWizardConfig.php` | High
+27 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
+28 | File | `/sys/kernel/notes` | High
+29 | File | `/uncpath/` | Medium
+30 | File | `/usr/bin/pkexec` | High
+31 | File | `/ViewUserHover.jspa` | High
+32 | File | `/WEB-INF/web.xml` | High
+33 | File | `/wp-admin/admin-ajax.php` | High
+34 | File | `/wp-json/oembed/1.0/embed?url` | High
+35 | File | `/www/cgi-bin/popen.cgi` | High
+36 | File | `5.2.9\syscrb.exe` | High
+37 | ... | ... | ...
 
-There are 310 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 314 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -35,7 +35,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22 | Path Traversal | High
-2 | T1055 | CWE-74 | Injection | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
 
@@ -47,17 +47,17 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/etc/tomcat8/Catalina/attack` | High
-2 | File | `/ext/phar/phar_object.c` | High
-3 | File | `/inc/campaign/count_of_send.php` | High
-4 | File | `/rdms/admin/?page=user/manage_user` | High
-5 | File | `/TeleoptiWFM/Administration/GetOneTenant` | High
-6 | File | `/transmission/rpc` | High
-7 | File | `/uncpath/` | Medium
-8 | File | `admin/config/confmgr.php` | High
+1 | File | `/devinfo` | Medium
+2 | File | `/etc/tomcat8/Catalina/attack` | High
+3 | File | `/ext/phar/phar_object.c` | High
+4 | File | `/inc/campaign/count_of_send.php` | High
+5 | File | `/rdms/admin/?page=user/manage_user` | High
+6 | File | `/TeleoptiWFM/Administration/GetOneTenant` | High
+7 | File | `/transmission/rpc` | High
+8 | File | `/uncpath/` | Medium
 9 | ... | ... | ...
 
-There are 67 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 70 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -24,7 +24,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 29 more country items available. Please use our online service to access the data.
+There are 26 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -46,9 +46,10 @@ ID | IP address | Hostname | Campaign | Confidence
 12 | [45.142.213.139](https://vuldb.com/?ip.45.142.213.139) | jorrygo1.example.com | - | High
 13 | [45.142.214.119](https://vuldb.com/?ip.45.142.214.119) | vm293088.pq.hosting | - | High
 14 | [46.161.27.241](https://vuldb.com/?ip.46.161.27.241) | - | Servhelper/Flawedgrace | High
-15 | ... | ... | ... | ...
+15 | [66.42.45.55](https://vuldb.com/?ip.66.42.45.55) | 66.42.45.55.vultr.com | - | Medium
+16 | ... | ... | ... | ...
 
-There are 57 more IOC items available. Please use our online service to access the data.
+There are 58 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -57,10 +58,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-37 | Path Traversal | High
-2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-250, CWE-264, CWE-266, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
 There are 20 more TTP items available. Please use our online service to access the data.
@@ -72,74 +73,88 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/.ssh/authorized_keys` | High
-2 | File | `/admin/action/update-deworm.php` | High
-3 | File | `/admin/add-services.php` | High
-4 | File | `/admin/ajax.php?action=save_area` | High
-5 | File | `/admin/del_service.php` | High
-6 | File | `/admin/departments/manage_department.php` | High
-7 | File | `/admin/reportupload.aspx` | High
-8 | File | `/admin/sys_sql_query.php` | High
-9 | File | `/admin_ping.htm` | High
-10 | File | `/ample/app/action/edit_product.php` | High
-11 | File | `/api/` | Low
-12 | File | `/api/clusters/local/topics/{topic}/messages` | High
-13 | File | `/api/plugin/uninstall` | High
-14 | File | `/api/RecordingList/DownloadRecord?file=` | High
-15 | File | `/api/sys/login` | High
-16 | File | `/app/sys1.php` | High
-17 | File | `/application/index/controller/File.php` | High
-18 | File | `/apply.cgi` | Medium
-19 | File | `/apply/index.php` | High
-20 | File | `/assets/php/upload.php` | High
-21 | File | `/audimex/cgi-bin/wal.fcgi` | High
-22 | File | `/auth_pic.cgi` | High
-23 | File | `/blog` | Low
-24 | File | `/boaform/device_reset.cgi` | High
-25 | File | `/cgi-bin-sdb/` | High
-26 | File | `/cgi-bin-sdb/ExportSettings.sh` | High
-27 | File | `/cgi-bin/adm.cgi` | High
-28 | File | `/cgi-bin/cstecgi.cgi` | High
-29 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
-30 | File | `/cgi-bin/wlogin.cgi` | High
-31 | File | `/classes/Master.php?f=save_inquiry` | High
-32 | File | `/classes/Users.php?f=save` | High
-33 | File | `/collection/all` | High
-34 | File | `/common/ticket_associated_tickets.php` | High
-35 | File | `/crmeb/crmeb/services/UploadService.php` | High
-36 | File | `/dashboard/createblog` | High
-37 | File | `/debug/pprof` | Medium
-38 | File | `/dipam/athlete-profile.php` | High
-39 | File | `/dosen/data` | Medium
-40 | File | `/Duty/AjaxHandle/Write/UploadFile.ashx` | High
-41 | File | `/etc/pki/pesign` | High
-42 | File | `/etc/postfix/sender_login` | High
-43 | File | `/etc/puppetlabs/puppetserver/conf.d/ca.conf` | High
-44 | File | `/file-manager/rename.php` | High
-45 | File | `/filex/proxy-download` | High
-46 | File | `/home/filter_listings` | High
-47 | File | `/hrm/employeeadd.php` | High
-48 | File | `/im/user/` | Medium
-49 | File | `/include/chart_generator.php` | High
-50 | File | `/include/file.php` | High
-51 | File | `/index.php` | Medium
-52 | File | `/index.php?pluginApp/to/yzOffice/getFile` | High
-53 | File | `/jeecg-boot/jmreport/upload` | High
-54 | File | `/jeecg-boot/sys/common/upload` | High
-55 | File | `/listplace/user/ticket/create` | High
-56 | File | `/LoginRegistration.php` | High
-57 | File | `/mgmt/tm/util/bash` | High
-58 | File | `/modules/profile/index.php` | High
-59 | File | `/out.php` | Medium
-60 | File | `/pages/long_s_short.php` | High
-61 | ... | ... | ...
+2 | File | `/actuator/heapdump` | High
+3 | File | `/admin/action/update-deworm.php` | High
+4 | File | `/admin/add-services.php` | High
+5 | File | `/admin/add_postlogin.php` | High
+6 | File | `/admin/add_visitor.php` | High
+7 | File | `/admin/admin.php` | High
+8 | File | `/admin/adminHome.php` | High
+9 | File | `/admin/admin_user.php` | High
+10 | File | `/admin/ajax.php?action=save_area` | High
+11 | File | `/admin/applicants/controller.php` | High
+12 | File | `/admin/booking-search.php` | High
+13 | File | `/admin/category/view_category.php` | High
+14 | File | `/admin/company/index.php` | High
+15 | File | `/admin/course.php` | High
+16 | File | `/admin/del_service.php` | High
+17 | File | `/admin/departments/manage_department.php` | High
+18 | File | `/admin/div_data/delete?divId=9` | High
+19 | File | `/admin/employee/controller.php` | High
+20 | File | `/admin/login.php` | High
+21 | File | `/admin/reportupload.aspx` | High
+22 | File | `/admin/search.php` | High
+23 | File | `/admin/singlelogin.php` | High
+24 | File | `/admin/sys_sql_query.php` | High
+25 | File | `/adminPage/main/upload` | High
+26 | File | `/admin_class.php` | High
+27 | File | `/admin_ping.htm` | High
+28 | File | `/ample/app/action/edit_product.php` | High
+29 | File | `/api/` | Low
+30 | File | `/api/clusters/local/topics/{topic}/messages` | High
+31 | File | `/api/discoveries/` | High
+32 | File | `/api/plugin/uninstall` | High
+33 | File | `/api/RecordingList/DownloadRecord?file=` | High
+34 | File | `/api/sys/login` | High
+35 | File | `/app/sys1.php` | High
+36 | File | `/application/index/controller/File.php` | High
+37 | File | `/apply.cgi` | Medium
+38 | File | `/apply/index.php` | High
+39 | File | `/assets/php/upload.php` | High
+40 | File | `/audimex/cgi-bin/wal.fcgi` | High
+41 | File | `/auth_pic.cgi` | High
+42 | File | `/blog` | Low
+43 | File | `/boaform/device_reset.cgi` | High
+44 | File | `/boafrm/formMapDelDevice` | High
+45 | File | `/cgi-bin-sdb/` | High
+46 | File | `/cgi-bin-sdb/ExportSettings.sh` | High
+47 | File | `/cgi-bin/adm.cgi` | High
+48 | File | `/cgi-bin/cstecgi.cgi` | High
+49 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
+50 | File | `/cgi-bin/nas_sharing.cgi` | High
+51 | File | `/cgi-bin/wlogin.cgi` | High
+52 | File | `/classes/Master.php?f=save_inquiry` | High
+53 | File | `/classes/SystemSettings.php?f=update_settings` | High
+54 | File | `/classes/Users.php?f=save` | High
+55 | File | `/collection/all` | High
+56 | File | `/common/ticket_associated_tickets.php` | High
+57 | File | `/controller/company/Index.php#sendCompanyLogo` | High
+58 | File | `/crmeb/crmeb/services/UploadService.php` | High
+59 | File | `/dashboard/createblog` | High
+60 | File | `/debug/pprof` | Medium
+61 | File | `/Default/Bd` | Medium
+62 | File | `/dipam/athlete-profile.php` | High
+63 | File | `/dosen/data` | Medium
+64 | File | `/Duty/AjaxHandle/Write/UploadFile.ashx` | High
+65 | File | `/Employee/apply_leave.php` | High
+66 | File | `/Employee/edit-profile.php` | High
+67 | File | `/etc/pki/pesign` | High
+68 | File | `/etc/postfix/sender_login` | High
+69 | File | `/etc/puppetlabs/puppetserver/conf.d/ca.conf` | High
+70 | File | `/file-manager/rename.php` | High
+71 | File | `/filex/proxy-download` | High
+72 | File | `/goform/DhcpListClient` | High
+73 | File | `/goform/GetParentControlInfo` | High
+74 | ... | ... | ...
 
-There are 529 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 654 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://blog.fox-it.com/2021/12/02/tracking-a-p2p-network-related-to-ta505/
+* https://cyble.com/blog/rms-tools-sneaky-comeback-phishing-campaign-mirroring-banned-applications/
 * https://documents.trendmicro.com/assets/TA505_tactics_HTML_RATs_techniques_latest_campaigns_appendix.pdf
 * https://securityintelligence.com/posts/ta505-continues-to-infect-networks-with-sdbbot-rat/
 * https://www.cybereason.com/blog/threat-actor-ta505-targets-financial-enterprises-using-lolbins-and-a-new-backdoor-malware

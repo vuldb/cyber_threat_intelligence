@@ -25,30 +25,33 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [5.9.224.217](https://vuldb.com/?ip.5.9.224.217) | static.217.224.9.5.clients.your-server.de | - | High
-2 | [5.42.92.190](https://vuldb.com/?ip.5.42.92.190) | hosted-by.yeezyhost.net | - | High
-3 | [5.101.0.32](https://vuldb.com/?ip.5.101.0.32) | - | - | High
-4 | [5.135.183.146](https://vuldb.com/?ip.5.135.183.146) | freya.stelas.de | Tsunami | High
-5 | [5.196.8.173](https://vuldb.com/?ip.5.196.8.173) | vps-b5645e9a.vps.ovh.net | - | High
-6 | [13.107.21.200](https://vuldb.com/?ip.13.107.21.200) | - | - | High
-7 | [20.45.1.107](https://vuldb.com/?ip.20.45.1.107) | - | - | High
-8 | [23.0.48.75](https://vuldb.com/?ip.23.0.48.75) | a23-0-48-75.deploy.static.akamaitechnologies.com | - | High
-9 | [23.0.209.167](https://vuldb.com/?ip.23.0.209.167) | a23-0-209-167.deploy.static.akamaitechnologies.com | - | High
-10 | [23.3.13.154](https://vuldb.com/?ip.23.3.13.154) | a23-3-13-154.deploy.static.akamaitechnologies.com | - | High
-11 | [23.6.69.99](https://vuldb.com/?ip.23.6.69.99) | a23-6-69-99.deploy.static.akamaitechnologies.com | - | High
-12 | [23.13.211.142](https://vuldb.com/?ip.23.13.211.142) | a23-13-211-142.deploy.static.akamaitechnologies.com | - | High
-13 | [23.20.239.12](https://vuldb.com/?ip.23.20.239.12) | ec2-23-20-239-12.compute-1.amazonaws.com | - | Medium
-14 | [23.66.61.153](https://vuldb.com/?ip.23.66.61.153) | a23-66-61-153.deploy.static.akamaitechnologies.com | - | High
-15 | [23.193.177.127](https://vuldb.com/?ip.23.193.177.127) | a23-193-177-127.deploy.static.akamaitechnologies.com | - | High
-16 | [23.218.40.161](https://vuldb.com/?ip.23.218.40.161) | a23-218-40-161.deploy.static.akamaitechnologies.com | - | High
-17 | [23.221.48.201](https://vuldb.com/?ip.23.221.48.201) | a23-221-48-201.deploy.static.akamaitechnologies.com | - | High
-18 | [27.102.67.144](https://vuldb.com/?ip.27.102.67.144) | - | - | High
-19 | [31.13.65.36](https://vuldb.com/?ip.31.13.65.36) | edge-star-mini-shv-01-atl3.facebook.com | - | High
-20 | [31.210.170.195](https://vuldb.com/?ip.31.210.170.195) | vps16632.hosted-by.eurohoster.online | - | High
-21 | [36.38.34.230](https://vuldb.com/?ip.36.38.34.230) | - | - | High
-22 | ... | ... | ... | ...
+1 | [2.16.165.19](https://vuldb.com/?ip.2.16.165.19) | a2-16-165-19.deploy.static.akamaitechnologies.com | - | High
+2 | [5.9.224.217](https://vuldb.com/?ip.5.9.224.217) | static.217.224.9.5.clients.your-server.de | - | High
+3 | [5.42.92.190](https://vuldb.com/?ip.5.42.92.190) | hosted-by.yeezyhost.net | - | High
+4 | [5.101.0.32](https://vuldb.com/?ip.5.101.0.32) | - | - | High
+5 | [5.135.183.146](https://vuldb.com/?ip.5.135.183.146) | freya.stelas.de | Tsunami | High
+6 | [5.196.8.173](https://vuldb.com/?ip.5.196.8.173) | vps-b5645e9a.vps.ovh.net | - | High
+7 | [8.209.65.68](https://vuldb.com/?ip.8.209.65.68) | - | - | High
+8 | [10.1.105.117](https://vuldb.com/?ip.10.1.105.117) | - | - | High
+9 | [13.107.21.200](https://vuldb.com/?ip.13.107.21.200) | - | - | High
+10 | [20.45.1.107](https://vuldb.com/?ip.20.45.1.107) | - | - | High
+11 | [23.0.48.75](https://vuldb.com/?ip.23.0.48.75) | a23-0-48-75.deploy.static.akamaitechnologies.com | - | High
+12 | [23.0.209.167](https://vuldb.com/?ip.23.0.209.167) | a23-0-209-167.deploy.static.akamaitechnologies.com | - | High
+13 | [23.3.13.154](https://vuldb.com/?ip.23.3.13.154) | a23-3-13-154.deploy.static.akamaitechnologies.com | - | High
+14 | [23.6.69.99](https://vuldb.com/?ip.23.6.69.99) | a23-6-69-99.deploy.static.akamaitechnologies.com | - | High
+15 | [23.13.211.142](https://vuldb.com/?ip.23.13.211.142) | a23-13-211-142.deploy.static.akamaitechnologies.com | - | High
+16 | [23.20.239.12](https://vuldb.com/?ip.23.20.239.12) | ec2-23-20-239-12.compute-1.amazonaws.com | - | Medium
+17 | [23.48.95.144](https://vuldb.com/?ip.23.48.95.144) | a23-48-95-144.deploy.static.akamaitechnologies.com | - | High
+18 | [23.66.61.153](https://vuldb.com/?ip.23.66.61.153) | a23-66-61-153.deploy.static.akamaitechnologies.com | - | High
+19 | [23.193.177.127](https://vuldb.com/?ip.23.193.177.127) | a23-193-177-127.deploy.static.akamaitechnologies.com | - | High
+20 | [23.218.40.161](https://vuldb.com/?ip.23.218.40.161) | a23-218-40-161.deploy.static.akamaitechnologies.com | - | High
+21 | [23.221.48.201](https://vuldb.com/?ip.23.221.48.201) | a23-221-48-201.deploy.static.akamaitechnologies.com | - | High
+22 | [27.102.67.144](https://vuldb.com/?ip.27.102.67.144) | - | - | High
+23 | [31.13.65.36](https://vuldb.com/?ip.31.13.65.36) | edge-star-mini-shv-01-atl3.facebook.com | - | High
+24 | [31.44.185.182](https://vuldb.com/?ip.31.44.185.182) | - | - | High
+25 | ... | ... | ... | ...
 
-There are 82 more IOC items available. Please use our online service to access the data.
+There are 94 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -56,12 +59,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
 
-There are 12 more TTP items available. Please use our online service to access the data.
+There are 13 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -79,20 +82,20 @@ ID | Type | Indicator | Confidence
 8 | File | `/getcfg.php` | Medium
 9 | File | `/goform/telnet` | High
 10 | File | `/goform/WanParameterSetting` | High
-11 | File | `/include/makecvs.php` | High
-12 | File | `/index.php` | Medium
-13 | File | `/js/app.js` | Medium
-14 | File | `/librarian/bookdetails.php` | High
-15 | File | `/mgmt/tm/util/bash` | High
-16 | File | `/monitoring` | Medium
-17 | File | `/student/bookdetails.php` | High
-18 | File | `/ureport/designer/saveReportFile` | High
-19 | File | `account.asp` | Medium
-20 | File | `admin.php` | Medium
-21 | File | `admin/establishment/manage.php` | High
+11 | File | `/group1/uploa` | High
+12 | File | `/include/makecvs.php` | High
+13 | File | `/index.php` | Medium
+14 | File | `/js/app.js` | Medium
+15 | File | `/librarian/bookdetails.php` | High
+16 | File | `/mgmt/tm/util/bash` | High
+17 | File | `/monitoring` | Medium
+18 | File | `/student/bookdetails.php` | High
+19 | File | `/test/cookie/` | High
+20 | File | `/ureport/designer/saveReportFile` | High
+21 | File | `/users` | Low
 22 | ... | ... | ...
 
-There are 179 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 186 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -109,6 +112,9 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/2020/01/threat-roundup-0124-0131.html
 * https://blog.talosintelligence.com/2021/07/threat-roundup-0716-0723.html
 * https://community.blueliv.com/#!/s/6333fa0182df417ed0331a1d
+* https://ddanchev.blogspot.com/2022/11/smokeloader-themed-malware-serving.html
+* https://de.darktrace.com/blog/how-darktrace-extinguished-the-threat-of-smokeloader-malware
+* https://de.darktrace.com/blog/how-darktraces-ai-detects-metamorphic-malware
 * https://detect.fyi/demystification-8base-threat-hunting-and-detection-opportunities-44c55c4c5667
 * https://farghlymal.github.io/SmokeLoader-Analysis/
 * https://github.com/threatlabz/iocs/blob/main/smokeloader_tradingview_campaign/c2s.txt

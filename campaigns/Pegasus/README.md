@@ -95,20 +95,18 @@ ID | Type | Indicator | Confidence
 27 | File | `/goform/SysToolRestoreSet` | High
 28 | File | `/goform/WifiExtraSet` | High
 29 | File | `/graphql` | Medium
-30 | File | `/individual` | Medium
+30 | File | `/homePro_deal.php?mudi=add&nohrefStr=close` | High
 31 | File | `/jeecg-boot/jmreport/upload` | High
 32 | File | `/jeecg-boot/jmreport/view` | High
 33 | File | `/jsoa/hntdCustomDesktopActionContent` | High
 34 | File | `/localhost/u` | Medium
 35 | File | `/net` | Low
-36 | File | `/opt/bin/cli` | Medium
-37 | File | `/PluXml/core/admin/parametres_edittpl.php` | High
-38 | File | `/public/plugins/` | High
-39 | File | `/public_html/admin/plugins/bad_behavior2/blacklist.php` | High
-40 | File | `/root/run/adm.php?admin-ediy&part=exdiy` | High
-41 | ... | ... | ...
+36 | File | `/PluXml/core/admin/parametres_edittpl.php` | High
+37 | File | `/public/plugins/` | High
+38 | File | `/public_html/admin/plugins/bad_behavior2/blacklist.php` | High
+39 | ... | ... | ...
 
-There are 352 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 338 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

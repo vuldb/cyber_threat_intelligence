@@ -31,7 +31,7 @@ ID | IP address | Hostname | Campaign | Confidence
 8 | [20.197.199.136](https://vuldb.com/?ip.20.197.199.136) | - | - | High
 9 | ... | ... | ... | ...
 
-There are 32 more IOC items available. Please use our online service to access the data.
+There are 34 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -39,7 +39,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-37 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-37 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
@@ -70,22 +70,25 @@ ID | Type | Indicator | Confidence
 15 | File | `/goform/RouteStatic` | High
 16 | File | `/hrm/employeeadd.php` | High
 17 | File | `/hrm/employeeview.php` | High
-18 | File | `/login.php` | Medium
-19 | File | `/mkshop/Men/profile.php` | High
-20 | File | `/pms/admin/prisons/view_prison.php` | High
-21 | File | `/product` | Medium
-22 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-23 | File | `/services/Card/findUser` | High
-24 | File | `/spip.php` | Medium
-25 | File | `/TeleoptiWFM/Administration/GetOneTenant` | High
-26 | File | `/uncpath/` | Medium
-27 | File | `/wordpress/wp-admin/options-general.php` | High
-28 | File | `?r=recruit/interview/export&interviews=x` | High
-29 | File | `actions.hsp` | Medium
-30 | File | `adclick.php` | Medium
-31 | ... | ... | ...
+18 | File | `/index.php` | Medium
+19 | File | `/login.php` | Medium
+20 | File | `/mkshop/Men/profile.php` | High
+21 | File | `/pms/admin/prisons/view_prison.php` | High
+22 | File | `/product` | Medium
+23 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+24 | File | `/services/Card/findUser` | High
+25 | File | `/spip.php` | Medium
+26 | File | `/TeleoptiWFM/Administration/GetOneTenant` | High
+27 | File | `/uncpath/` | Medium
+28 | File | `/vm/doctor/doctors.php?action=view` | High
+29 | File | `/vm/login.php` | High
+30 | File | `/wordpress/wp-admin/options-general.php` | High
+31 | File | `?r=recruit/interview/export&interviews=x` | High
+32 | File | `actions.hsp` | Medium
+33 | File | `adclick.php` | Medium
+34 | ... | ... | ...
 
-There are 267 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 290 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -93,6 +96,7 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://bazaar.abuse.ch/sample/087fb94dc34cb66d30105933b33ab6517996e8dfd07fac4fa17e47900d3cd33c/
 * https://bazaar.abuse.ch/sample/50abd8e28534d77ae9fa85c016a0fb180e372f0284fd84014dc7fc9d42692883/
+* https://bazaar.abuse.ch/sample/52770b424a389e606b326221af03dbe770eac840d4f291f32df3deb6a4fc47db/
 * https://bazaar.abuse.ch/sample/ab46635a51c709b132e5245456e78a00c86c169c0aa24e56e557d574aa8c36d0/
 * https://bazaar.abuse.ch/sample/d39434517a7a7d6bc62fe68d8bd4e43b4132734bcf7abcd6f3eec8de3eb23fcf/
 * https://bazaar.abuse.ch/sample/efc9d49d3bea48fd72d09d1588d69af7c0eb61a0eb72568986116d4a205e4711/

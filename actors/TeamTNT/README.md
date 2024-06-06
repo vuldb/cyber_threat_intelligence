@@ -21,7 +21,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 18 more country items available. Please use our online service to access the data.
+There are 19 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -49,12 +49,12 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22, CWE-27, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -91,25 +91,25 @@ ID | Type | Indicator | Confidence
 27 | File | `/client/manage/ourphp_out.php` | High
 28 | File | `/config/api/v1/reboot` | High
 29 | File | `/debug/pprof` | Medium
-30 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
-31 | File | `/dotrace.asp` | Medium
-32 | File | `/ecrire` | Low
-33 | File | `/env` | Low
-34 | File | `/forum/away.php` | High
-35 | File | `/goform/SetNetControlList` | High
-36 | File | `/goform/SysToolRestoreSet` | High
-37 | File | `/goform/WifiBasicSet` | High
-38 | File | `/HNAP1/SetAccessPointMode` | High
-39 | File | `/index.php?page=category_list` | High
-40 | File | `/openvpn/pageswitch.htm` | High
-41 | File | `/operations/ecma-function-object.c` | High
-42 | File | `/param.file.tgz` | High
-43 | File | `/setting/setWanIeCfg` | High
-44 | File | `/src/chatbotapp/chatWindow.java` | High
-45 | File | `/system/sshkeys.js` | High
+30 | File | `/designer/add/layout` | High
+31 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
+32 | File | `/dotrace.asp` | Medium
+33 | File | `/ecrire` | Low
+34 | File | `/env` | Low
+35 | File | `/etc/shadow.sample` | High
+36 | File | `/forum/away.php` | High
+37 | File | `/goform/SetNetControlList` | High
+38 | File | `/goform/SetStaticRouteCfg` | High
+39 | File | `/goform/SysToolRestoreSet` | High
+40 | File | `/goform/WifiBasicSet` | High
+41 | File | `/HNAP1/SetAccessPointMode` | High
+42 | File | `/index.php?page=category_list` | High
+43 | File | `/omos/admin/?page=user/list` | High
+44 | File | `/openvpn/pageswitch.htm` | High
+45 | File | `/operations/ecma-function-object.c` | High
 46 | ... | ... | ...
 
-There are 394 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 398 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

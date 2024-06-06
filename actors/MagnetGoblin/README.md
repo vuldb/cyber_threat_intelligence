@@ -41,7 +41,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
-2 | T1055 | CWE-74 | Injection | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
@@ -55,14 +55,14 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/auth/callback` | High
-2 | File | `/etc/init.d/sshd_service` | High
-3 | File | `/forum/away.php` | High
-4 | File | `/index.jsp#settings` | High
-5 | File | `/plain` | Low
-6 | File | `/proc/self/environ` | High
+2 | File | `/control/register_case.php` | High
+3 | File | `/etc/init.d/sshd_service` | High
+4 | File | `/forum/away.php` | High
+5 | File | `/index.jsp#settings` | High
+6 | File | `/plain` | Low
 7 | ... | ... | ...
 
-There are 48 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 51 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

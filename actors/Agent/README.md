@@ -36,10 +36,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -58,47 +58,47 @@ ID | Type | Indicator | Confidence
 5 | File | `/api` | Low
 6 | File | `/api/clusters/local/topics/{topic}/messages` | High
 7 | File | `/api/gen/clients/{language}` | High
-8 | File | `/app/options.py` | High
-9 | File | `/bin/httpd` | Medium
-10 | File | `/cgi-bin/wapopen` | High
-11 | File | `/ci_spms/admin/category` | High
-12 | File | `/ci_spms/admin/search/searching/` | High
-13 | File | `/classes/Master.php?f=delete_appointment` | High
-14 | File | `/classes/Master.php?f=delete_train` | High
-15 | File | `/concat?/%2557EB-INF/web.xml` | High
-16 | File | `/Content/Template/root/reverse-shell.aspx` | High
-17 | File | `/Controller/Ajaxfileupload.ashx` | High
-18 | File | `/ctcprotocol/Protocol` | High
-19 | File | `/dashboard/menu-list.php` | High
-20 | File | `/dashboard/updatelogo.php` | High
-21 | File | `/data/remove` | Medium
-22 | File | `/ebics-server/ebics.aspx` | High
-23 | File | `/etc/openshift/server_priv.pem` | High
-24 | File | `/ffos/classes/Master.php?f=save_category` | High
-25 | File | `/forum/away.php` | High
-26 | File | `/goform/net\_Web\_get_value` | High
-27 | File | `/goforms/rlminfo` | High
-28 | File | `/GponForm/usb_restore_Form?script/` | High
-29 | File | `/group1/uploa` | High
-30 | File | `/hedwig.cgi` | Medium
-31 | File | `/HNAP1` | Low
-32 | File | `/HNAP1/SetClientInfo` | High
-33 | File | `/hospital/hms/admin/patient-search.php` | High
-34 | File | `/index.php` | Medium
-35 | File | `/Items/*/RemoteImages/Download` | High
-36 | File | `/jsoa/hntdCustomDesktopActionContent` | High
-37 | File | `/menu.html` | Medium
-38 | File | `/mkshop/Men/profile.php` | High
-39 | File | `/modules/announcement/index.php?view=edit` | High
-40 | File | `/modules/profile/index.php` | High
-41 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-42 | File | `/navigate/navigate_download.php` | High
-43 | File | `/Noxen-master/users.php` | High
-44 | File | `/ocwbs/admin/?page=user/manage_user` | High
-45 | File | `/ofrs/admin/?page=user/manage_user` | High
+8 | File | `/API/info` | Medium
+9 | File | `/app/options.py` | High
+10 | File | `/bin/httpd` | Medium
+11 | File | `/cgi-bin/wapopen` | High
+12 | File | `/ci_spms/admin/category` | High
+13 | File | `/ci_spms/admin/search/searching/` | High
+14 | File | `/classes/Master.php?f=delete_appointment` | High
+15 | File | `/classes/Master.php?f=delete_train` | High
+16 | File | `/concat?/%2557EB-INF/web.xml` | High
+17 | File | `/Content/Template/root/reverse-shell.aspx` | High
+18 | File | `/Controller/Ajaxfileupload.ashx` | High
+19 | File | `/ctcprotocol/Protocol` | High
+20 | File | `/dashboard/menu-list.php` | High
+21 | File | `/dashboard/updatelogo.php` | High
+22 | File | `/data/remove` | Medium
+23 | File | `/debug/pprof` | Medium
+24 | File | `/ebics-server/ebics.aspx` | High
+25 | File | `/etc/openshift/server_priv.pem` | High
+26 | File | `/ffos/classes/Master.php?f=save_category` | High
+27 | File | `/forum/away.php` | High
+28 | File | `/goform/net\_Web\_get_value` | High
+29 | File | `/goforms/rlminfo` | High
+30 | File | `/GponForm/usb_restore_Form?script/` | High
+31 | File | `/group1/uploa` | High
+32 | File | `/hedwig.cgi` | Medium
+33 | File | `/HNAP1` | Low
+34 | File | `/HNAP1/SetClientInfo` | High
+35 | File | `/hospital/hms/admin/patient-search.php` | High
+36 | File | `/index.php` | Medium
+37 | File | `/Items/*/RemoteImages/Download` | High
+38 | File | `/jsoa/hntdCustomDesktopActionContent` | High
+39 | File | `/manage/IPSetup.php` | High
+40 | File | `/menu.html` | Medium
+41 | File | `/mkshop/Men/profile.php` | High
+42 | File | `/modules/announcement/index.php?view=edit` | High
+43 | File | `/modules/profile/index.php` | High
+44 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+45 | File | `/navigate/navigate_download.php` | High
 46 | ... | ... | ...
 
-There are 400 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 397 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

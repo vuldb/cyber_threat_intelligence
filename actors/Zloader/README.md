@@ -45,9 +45,10 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-24 | Path Traversal | High
 2 | T1055 | CWE-74, CWE-643 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
-4 | ... | ... | ... | ...
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 15 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -55,44 +56,67 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/?page=user/list` | High
-2 | File | `/admin/action/edit_chicken.php` | High
-3 | File | `/admin/add-services.php` | High
-4 | File | `/admin/add_user_modal.php` | High
-5 | File | `/admin/admin-profile.php` | High
-6 | File | `/admin/ajax.php?action=confirm_order` | High
-7 | File | `/admin/applicants/controller.php` | High
-8 | File | `/admin/div_data/delete?divId=9` | High
-9 | File | `/admin/employee/controller.php` | High
-10 | File | `/admin/employee/index.php` | High
-11 | File | `/admin/ind_backstage.php` | High
-12 | File | `/admin/pages/student-print.php` | High
-13 | File | `/admin/pages/subjects.php` | High
-14 | File | `/admin/service.php` | High
-15 | File | `/admin/sys_sql_query.php` | High
-16 | File | `/admin/user/team` | High
-17 | File | `/admin/users.php` | High
-18 | File | `/admin/vacancy/index.php` | High
-19 | File | `/admin_ping.htm` | High
-20 | File | `/adplanet/PlanetCommentList` | High
-21 | File | `/ajax.php?action=read_msg` | High
-22 | File | `/api/client/editemedia.php` | High
-23 | File | `/api/ping` | Medium
-24 | File | `/application/index/controller/Databasesource.php` | High
-25 | File | `/application/index/controller/Screen.php` | High
-26 | File | `/application/websocket/controller/Setting.php` | High
-27 | File | `/apply/index.php` | High
-28 | File | `/baseOpLog.do` | High
-29 | File | `/bcms/admin/?page=user/list` | High
-30 | File | `/blog` | Low
-31 | File | `/blog-single.php` | High
-32 | File | `/cgi-bin/adm.cgi` | High
-33 | File | `/cgi-bin/cstecgi.cgi` | High
-34 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
-35 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-36 | ... | ... | ...
+1 | File | `/admin.php?p=/Area/index#tab=t2` | High
+2 | File | `/admin/?page=user/list` | High
+3 | File | `/admin/action/edit_chicken.php` | High
+4 | File | `/admin/add-services.php` | High
+5 | File | `/admin/add_user_modal.php` | High
+6 | File | `/admin/admin-profile.php` | High
+7 | File | `/admin/admin_user.php` | High
+8 | File | `/admin/ajax.php?action=confirm_order` | High
+9 | File | `/admin/applicants/controller.php` | High
+10 | File | `/admin/book_add.php` | High
+11 | File | `/admin/cms_content.php` | High
+12 | File | `/admin/conferences/list/` | High
+13 | File | `/admin/div_data/delete?divId=9` | High
+14 | File | `/admin/edit_teacher.php` | High
+15 | File | `/admin/employee/controller.php` | High
+16 | File | `/admin/employee/index.php` | High
+17 | File | `/admin/ind_backstage.php` | High
+18 | File | `/admin/login.php` | High
+19 | File | `/admin/pages/student-print.php` | High
+20 | File | `/admin/pages/subjects.php` | High
+21 | File | `/admin/return_add.php` | High
+22 | File | `/admin/search.php` | High
+23 | File | `/admin/service.php` | High
+24 | File | `/admin/students.php` | High
+25 | File | `/admin/sys_sql_query.php` | High
+26 | File | `/admin/update_s6.php` | High
+27 | File | `/admin/user/team` | High
+28 | File | `/admin/users.php` | High
+29 | File | `/admin/vacancy/index.php` | High
+30 | File | `/admin/view_sendlist.php` | High
+31 | File | `/adminpanel/admin/facebox_modal/updateCourse.php` | High
+32 | File | `/adminpanel/admin/facebox_modal/updateExaminee.php` | High
+33 | File | `/admin_ping.htm` | High
+34 | File | `/adplanet/PlanetCommentList` | High
+35 | File | `/ajax.php?action=read_msg` | High
+36 | File | `/api/client/editemedia.php` | High
+37 | File | `/api/controllers/common/UploadsController.php` | High
+38 | File | `/api/ping` | Medium
+39 | File | `/api/process.php` | High
+40 | File | `/application/controller/Pengeluaran.php` | High
+41 | File | `/application/index/controller/Databasesource.php` | High
+42 | File | `/application/index/controller/Pay.php` | High
+43 | File | `/application/index/controller/Screen.php` | High
+44 | File | `/application/websocket/controller/Setting.php` | High
+45 | File | `/apply/index.php` | High
+46 | File | `/att_add.php` | Medium
+47 | File | `/backend/register.php` | High
+48 | File | `/baseOpLog.do` | High
+49 | File | `/bcms/admin/?page=user/list` | High
+50 | File | `/blog` | Low
+51 | File | `/blog-single.php` | High
+52 | File | `/book-services.php` | High
+53 | File | `/cgi-bin/adm.cgi` | High
+54 | File | `/cgi-bin/cstecgi.cgi` | High
+55 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
+56 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+57 | File | `/classes/Master.php?f=save_inquiry` | High
+58 | File | `/classes/Users.php` | High
+59 | ... | ... | ...
 
-There are 307 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 519 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

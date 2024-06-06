@@ -60,38 +60,38 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `//proc/kcore` | Medium
-2 | File | `/admin-manage-user.php` | High
-3 | File | `/admin/?page=product/manage_product&id=2` | High
-4 | File | `/admin/assign/assign.php` | High
-5 | File | `/admin/index.PHP` | High
-6 | File | `/admin/login.php` | High
-7 | File | `/Admin/News.php` | High
-8 | File | `/admin/store.php` | High
-9 | File | `/admin/view_sendlist.php` | High
+1 | File | `/admin-manage-user.php` | High
+2 | File | `/admin/?page=product/manage_product&id=2` | High
+3 | File | `/admin/assign/assign.php` | High
+4 | File | `/admin/index.PHP` | High
+5 | File | `/admin/login.php` | High
+6 | File | `/Admin/News.php` | High
+7 | File | `/admin/store.php` | High
+8 | File | `/admin/view_sendlist.php` | High
+9 | File | `/adminPage/main/upload` | High
 10 | File | `/admin_ping.htm` | High
 11 | File | `/ample/app/action/edit_product.php` | High
 12 | File | `/api/dashboard/activity` | High
 13 | File | `/api/sys/login` | High
 14 | File | `/app/index/controller/Common.php` | High
-15 | File | `/baseOpLog.do` | High
-16 | File | `/catalog_add.php` | High
-17 | File | `/cgi-bin/cstecgi.cgi` | High
-18 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-19 | File | `/classes/Users.php` | High
+15 | File | `/catalog_add.php` | High
+16 | File | `/cgi-bin/cstecgi.cgi` | High
+17 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+18 | File | `/classes/Users.php` | High
+19 | File | `/classes/Users.php?f=save` | High
 20 | File | `/confirm` | Medium
 21 | File | `/debug/pprof` | Medium
 22 | File | `/dede/archives_do.php` | High
 23 | File | `/dede/group_store.php` | High
 24 | File | `/dialog/select_media.php` | High
-25 | File | `/ext/collect/filter_text.do` | High
-26 | File | `/foms/all-orders.php?status=Cancelled%20by%20Customer` | High
-27 | File | `/FTPDiag.asp` | Medium
-28 | File | `/goform/setAutoPing` | High
-29 | File | `/goform/setMacFilterCfg` | High
+25 | File | `/Employee/edit-profile.php` | High
+26 | File | `/ext/collect/filter_text.do` | High
+27 | File | `/foms/all-orders.php?status=Cancelled%20by%20Customer` | High
+28 | File | `/FTPDiag.asp` | Medium
+29 | File | `/goform/setAutoPing` | High
 30 | ... | ... | ...
 
-There are 252 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 255 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

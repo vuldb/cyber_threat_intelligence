@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [ES](https://vuldb.com/?country.es)
-* [FR](https://vuldb.com/?country.fr)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
 There are 18 more country items available. Please use our online service to access the data.
@@ -50,7 +50,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
-2 | T1055 | CWE-74 | Injection | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
@@ -76,38 +76,39 @@ ID | Type | Indicator | Confidence
 11 | File | `/admin/login.php` | High
 12 | File | `/admin/payment.php` | High
 13 | File | `/admin/show.php` | High
-14 | File | `/boat/login.php` | High
-15 | File | `/clinic/disease_symptoms_view.php` | High
-16 | File | `/default.php?idx=17` | High
-17 | File | `/download` | Medium
-18 | File | `/env` | Low
-19 | File | `/forum/away.php` | High
-20 | File | `/index.php` | Medium
-21 | File | `/opt/bin/cli` | Medium
-22 | File | `/p` | Low
-23 | File | `/patient/doctors.php` | High
-24 | File | `/phpinventory/editcategory.php` | High
-25 | File | `/php_action/createUser.php` | High
-26 | File | `/product-list.php` | High
-27 | File | `/spip.php` | Medium
-28 | File | `/uapi/doc` | Medium
-29 | File | `/uncpath/` | Medium
-30 | File | `/updown/upload.cgi` | High
-31 | File | `/user/del.php` | High
-32 | File | `/wp-admin/admin-ajax.php` | High
-33 | File | `/_next` | Low
-34 | File | `123flashchat.php` | High
-35 | File | `act.php` | Low
-36 | File | `admin.php/pay` | High
-37 | File | `admin/bad.php` | High
-38 | File | `admin/index.php` | High
-39 | File | `admin/index.php/user/del/1` | High
-40 | File | `admin/index.php?id=themes&action=edit_chunk` | High
-41 | File | `admin/products/controller.php?action=add` | High
-42 | File | `administrator/index.php` | High
-43 | ... | ... | ...
+14 | File | `/backend/register.php` | High
+15 | File | `/boat/login.php` | High
+16 | File | `/clinic/disease_symptoms_view.php` | High
+17 | File | `/default.php?idx=17` | High
+18 | File | `/doctor/view-appointment-detail.php` | High
+19 | File | `/download` | Medium
+20 | File | `/edit-client-details.php` | High
+21 | File | `/env` | Low
+22 | File | `/forum/away.php` | High
+23 | File | `/index.php` | Medium
+24 | File | `/opt/bin/cli` | Medium
+25 | File | `/p` | Low
+26 | File | `/patient/doctors.php` | High
+27 | File | `/phpinventory/editcategory.php` | High
+28 | File | `/php_action/createUser.php` | High
+29 | File | `/product-list.php` | High
+30 | File | `/spip.php` | Medium
+31 | File | `/uapi/doc` | Medium
+32 | File | `/uncpath/` | Medium
+33 | File | `/updown/upload.cgi` | High
+34 | File | `/user/del.php` | High
+35 | File | `/wp-admin/admin-ajax.php` | High
+36 | File | `/_next` | Low
+37 | File | `123flashchat.php` | High
+38 | File | `act.php` | Low
+39 | File | `admin.php/pay` | High
+40 | File | `admin/bad.php` | High
+41 | File | `admin/index.php` | High
+42 | File | `admin/index.php/user/del/1` | High
+43 | File | `admin/index.php?id=themes&action=edit_chunk` | High
+44 | ... | ... | ...
 
-There are 367 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 377 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

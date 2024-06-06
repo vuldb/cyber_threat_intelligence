@@ -80,10 +80,11 @@ ID | Type | Indicator | Confidence
 17 | File | `/debug/pprof` | Medium
 18 | File | `/file/upload/1` | High
 19 | File | `/goform/systemlog?cmd=set` | High
-20 | File | `/include/helpers/upload.helper.php` | High
-21 | ... | ... | ...
+20 | File | `/include/file.php` | High
+21 | File | `/include/helpers/upload.helper.php` | High
+22 | ... | ... | ...
 
-There are 177 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 178 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

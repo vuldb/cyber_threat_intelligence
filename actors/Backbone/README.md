@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Backbone:
 
-* [CN](https://vuldb.com/?country.cn)
-* [IO](https://vuldb.com/?country.io)
-* [US](https://vuldb.com/?country.us)
+* [AR](https://vuldb.com/?country.ar)
+* [FR](https://vuldb.com/?country.fr)
+* [IT](https://vuldb.com/?country.it)
 * ...
 
-There are 17 more country items available. Please use our online service to access the data.
+There are 8 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -3522,14 +3522,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Path Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+1 | T1059.007 | CWE-79 | Cross Site Scripting | High
+2 | T1068 | CWE-284 | Execution with Unnecessary Privileges | High
+3 | T1110.001 | CWE-798 | Hard-coded Credentials | High
+4 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 5 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -3537,58 +3535,21 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.alerts-security.alerts-{space_id}` | High
-2 | File | `/.env` | Low
-3 | File | `/admin.php/appcenter/local.html?type=addon` | High
-4 | File | `/admin.php?p=/Area/index#tab=t2` | High
-5 | File | `/admin/action/delete-vaccine.php` | High
-6 | File | `/admin/action/new-father.php` | High
-7 | File | `/admin/add-category.php` | High
-8 | File | `/admin/add-services.php` | High
-9 | File | `/admin/borrow_add.php` | High
-10 | File | `/admin/clientview.php` | High
-11 | File | `/admin/controller/JobLogController.java` | High
-12 | File | `/admin/edit_teacher.php` | High
-13 | File | `/admin/list_ipAddressPolicy.php` | High
-14 | File | `/admin/theme-edit.php` | High
-15 | File | `/admin/view_sendlist.php` | High
-16 | File | `/adminapi/system/crud` | High
-17 | File | `/api/controllers/admin/app/AppController.php` | High
-18 | File | `/api/controllers/common/UploadsController.php` | High
-19 | File | `/api/log/killJob` | High
-20 | File | `/api/snapshot and /api/get_log_file` | High
-21 | File | `/api/sys/set_passwd` | High
-22 | File | `/api/trackedEntityInstances` | High
-23 | File | `/api/upload.php` | High
-24 | File | `/api/v4/teams//channels/deleted` | High
-25 | File | `/app/api/controller/caiji.php` | High
-26 | File | `/app/controller/Setup.php` | High
-27 | File | `/app/Http/Controllers/ImageController.php` | High
-28 | File | `/app/index/controller/Common.php` | High
-29 | File | `/application/index/common.php` | High
-30 | File | `/application/index/controller/Databasesource.php` | High
-31 | File | `/application/index/controller/Pay.php` | High
-32 | File | `/application/index/controller/Screen.php` | High
-33 | File | `/application/pay/controller/Api.php` | High
-34 | File | `/application/websocket/controller/Setting.php` | High
-35 | File | `/assets/php/upload.php` | High
-36 | File | `/aux` | Low
-37 | File | `/b2b-supermarket/shopping-cart` | High
-38 | File | `/bin/boa` | Medium
-39 | File | `/boafrm/formMapDelDevice` | High
-40 | File | `/cgi-bin/cstecgi.cgi` | High
-41 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-42 | File | `/churchcrm/WhyCameEditor.php` | High
-43 | File | `/classes/Master.php?f=delete_category` | High
-44 | File | `/Content/Plugins/uploader/FileChoose.html?fileUrl=/Upload/File/Pics/&parent` | High
-45 | File | `/dashboard/add-blog.php` | High
-46 | File | `/data/remove` | Medium
-47 | File | `/debug/pprof` | Medium
-48 | File | `/ecshop/admin/template.php` | High
-49 | File | `/endpoint/delete-computer.php` | High
-50 | ... | ... | ...
+1 | File | `/admin.php?c=upload&f=zip&_noCache=0.1683794968` | High
+2 | File | `/admin/admin_cl.php?mudi=revPwd` | High
+3 | File | `/cgi-bin/nas_sharing.cgi` | High
+4 | File | `/goform/AddDnsForward` | High
+5 | File | `/goform/addIpMacBind` | High
+6 | File | `/goform/AdvSetMacMtuWan` | High
+7 | File | `/goform/DelDhcpRule` | High
+8 | File | `/goform/delIpMacBind` | High
+9 | File | `/goform/DelPortMapping` | High
+10 | File | `/goform/DhcpSetSe` | High
+11 | File | `/goform/DhcpSetSer` | High
+12 | File | `/goform/execCommand` | High
+13 | ... | ... | ...
 
-There are 432 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 103 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -32,7 +32,7 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22 | Path Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
@@ -46,30 +46,32 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/?p=products` | Medium
-2 | File | `/admin/api/theme-edit/` | High
-3 | File | `/admin/maintenance/view_designation.php` | High
-4 | File | `/admin/sales/manage_sale.php` | High
-5 | File | `/admin/sign/out` | High
-6 | File | `/adminui/history_log.php` | High
-7 | File | `/api/controllers/merchant/shop/PosterController.php` | High
-8 | File | `/api/v1/attack` | High
-9 | File | `/apply.cgi` | Medium
-10 | File | `/blog/edit` | Medium
-11 | File | `/clients/listclients.php` | High
-12 | File | `/common/run_cross_report.php` | High
-13 | File | `/common/user_profile.php` | High
-14 | File | `/etc/gsissh/sshd_config` | High
-15 | File | `/etc/shadow` | Medium
-16 | File | `/goForm/aspForm` | High
-17 | File | `/goform/delFileName` | High
-18 | File | `/goform/exeCommand` | High
-19 | File | `/goform/WifiBasicSet` | High
-20 | File | `/index.php` | Medium
-21 | File | `/libsystem/login.php` | High
-22 | File | `/login` | Low
-23 | ... | ... | ...
+2 | File | `/admin-manage-user.php` | High
+3 | File | `/Admin/add-admin.php` | High
+4 | File | `/admin/api/theme-edit/` | High
+5 | File | `/admin/maintenance/view_designation.php` | High
+6 | File | `/admin/sales/manage_sale.php` | High
+7 | File | `/admin/sign/out` | High
+8 | File | `/adminPage/conf/reload` | High
+9 | File | `/adminui/history_log.php` | High
+10 | File | `/api/controllers/merchant/shop/PosterController.php` | High
+11 | File | `/api/v1/attack` | High
+12 | File | `/apply.cgi` | Medium
+13 | File | `/blog/edit` | Medium
+14 | File | `/clients/listclients.php` | High
+15 | File | `/common/run_cross_report.php` | High
+16 | File | `/common/user_profile.php` | High
+17 | File | `/Employee/edit-profile.php` | High
+18 | File | `/etc/gsissh/sshd_config` | High
+19 | File | `/etc/shadow` | Medium
+20 | File | `/goForm/aspForm` | High
+21 | File | `/goform/delFileName` | High
+22 | File | `/goform/exeCommand` | High
+23 | File | `/goform/setcfm` | High
+24 | File | `/goform/setsambacfg` | High
+25 | ... | ... | ...
 
-There are 190 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 210 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -47,7 +47,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22 | Path Traversal | High
-2 | T1055 | CWE-74 | Injection | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
@@ -61,20 +61,20 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/.env` | Low
-2 | File | `/admin/store.php` | High
-3 | File | `/admin_system/api.php` | High
-4 | File | `/article/DelectArticleById/` | High
-5 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
-6 | File | `/cgi-bin/wapopen` | High
-7 | File | `/forum/away.php` | High
-8 | File | `/maint/index.php` | High
-9 | File | `/oauth/idp/.well-known/openid-configuration` | High
-10 | File | `/planet` | Low
-11 | File | `/see_more_details.php` | High
-12 | File | `/shopping/product.php` | High
+2 | File | `/admin.php?p=/Area/index#tab=t2` | High
+3 | File | `/admin/store.php` | High
+4 | File | `/admin_system/api.php` | High
+5 | File | `/article/DelectArticleById/` | High
+6 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
+7 | File | `/cgi-bin/wapopen` | High
+8 | File | `/forum/away.php` | High
+9 | File | `/maint/index.php` | High
+10 | File | `/oauth/idp/.well-known/openid-configuration` | High
+11 | File | `/planet` | Low
+12 | File | `/see_more_details.php` | High
 13 | ... | ... | ...
 
-There are 104 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 106 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -34,7 +34,7 @@ ID | IP address | Hostname | Campaign | Confidence
 5 | [46.36.203.81](https://vuldb.com/?ip.46.36.203.81) | - | - | High
 6 | ... | ... | ... | ...
 
-There are 18 more IOC items available. Please use our online service to access the data.
+There are 20 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -105,25 +105,27 @@ ID | Type | Indicator | Confidence
 46 | File | `admin/movieview.php` | High
 47 | File | `admin/versions.html` | High
 48 | File | `admin/y_admin.asp` | High
-49 | File | `adminer.php` | Medium
-50 | File | `administrator/components/com_media/helpers/media.php` | High
-51 | File | `admin_ok.asp` | Medium
-52 | File | `agenda.php` | Medium
-53 | File | `album_portal.php` | High
-54 | File | `app/Core/Paginator.php` | High
-55 | File | `app/index.php/accounts/default/details?id=2&kanbanBoard=1&openToTaskId=1` | High
-56 | File | `army.php` | Medium
-57 | File | `attendancy.php` | High
-58 | File | `AttributionSource.java` | High
-59 | File | `auth-gss2.c` | Medium
-60 | File | `auth.php` | Medium
-61 | File | `awstats.pl` | Medium
-62 | File | `bb-login.php` | Medium
-63 | File | `bb_admin.php` | Medium
-64 | File | `bb_functions.php` | High
-65 | ... | ... | ...
+49 | File | `adminBackupdatabase.php` | High
+50 | File | `adminer.php` | Medium
+51 | File | `administrator/components/com_media/helpers/media.php` | High
+52 | File | `adminSmileys.php` | High
+53 | File | `admin_ok.asp` | Medium
+54 | File | `agenda.php` | Medium
+55 | File | `album_portal.php` | High
+56 | File | `app/Core/Paginator.php` | High
+57 | File | `app/index.php/accounts/default/details?id=2&kanbanBoard=1&openToTaskId=1` | High
+58 | File | `army.php` | Medium
+59 | File | `attendancy.php` | High
+60 | File | `AttributionSource.java` | High
+61 | File | `auth-gss2.c` | Medium
+62 | File | `auth.php` | Medium
+63 | File | `awstats.pl` | Medium
+64 | File | `bb-login.php` | Medium
+65 | File | `bb_admin.php` | Medium
+66 | File | `bb_functions.php` | High
+67 | ... | ... | ...
 
-There are 569 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 585 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -132,6 +134,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://github.com/firehol/blocklist-ipsets/blob/master/geolite2_country/country_kp.netset
 * https://github.com/firehol/blocklist-ipsets/blob/master/ipip_country/ipip_country_kp.netset
 * https://www.microsoft.com/en-us/security/blog/2022/07/14/north-korean-threat-actor-targets-small-and-midsize-businesses-with-h0lygh0st-ransomware/
+* https://www.securonix.com/blog/analysis-of-devpopper-new-attack-campaign-targeting-software-developers-likely-associated-with-north-korean-threat-actors/
 
 ## Literature
 

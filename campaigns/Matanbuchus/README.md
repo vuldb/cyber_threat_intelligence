@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Matanbuchus:
 
 * [US](https://vuldb.com/?country.us)
+* [DE](https://vuldb.com/?country.de)
 * [TT](https://vuldb.com/?country.tt)
-* [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 8 more country items available. Please use our online service to access the data.
+There are 9 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -33,9 +33,11 @@ ID | IP address | Hostname | Actor | Confidence
 1 | [34.94.151.129](https://vuldb.com/?ip.34.94.151.129) | 129.151.94.34.bc.googleusercontent.com | [BelialDemon](https://vuldb.com/?actor.belialdemon) | Medium
 2 | [34.105.89.82](https://vuldb.com/?ip.34.105.89.82) | 82.89.105.34.bc.googleusercontent.com | [BelialDemon](https://vuldb.com/?actor.belialdemon) | Medium
 3 | [34.106.243.174](https://vuldb.com/?ip.34.106.243.174) | 174.243.106.34.bc.googleusercontent.com | [BelialDemon](https://vuldb.com/?actor.belialdemon) | Medium
-4 | ... | ... | ... | ...
+4 | [44.208.127.245](https://vuldb.com/?ip.44.208.127.245) | ec2-44-208-127-245.compute-1.amazonaws.com | [Matanbuchus](https://vuldb.com/?actor.matanbuchus) | Medium
+5 | [185.11.61.169](https://vuldb.com/?ip.185.11.61.169) | - | [Matanbuchus](https://vuldb.com/?actor.matanbuchus) | High
+6 | ... | ... | ... | ...
 
-There are 10 more IOC items available. Please use our online service to access the data.
+There are 18 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -45,10 +47,10 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1059 | CWE-94 | Argument Injection | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | ... | ... | ... | ...
 
-There are 10 more TTP items available. Please use our online service to access the data.
+There are 11 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 

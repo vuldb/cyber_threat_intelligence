@@ -8,9 +8,9 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Georgia Unknown:
 
-* [CN](https://vuldb.com/?country.cn)
-* [US](https://vuldb.com/?country.us)
-* [NL](https://vuldb.com/?country.nl)
+* [PL](https://vuldb.com/?country.pl)
+* [RU](https://vuldb.com/?country.ru)
+* [AR](https://vuldb.com/?country.ar)
 * ...
 
 There are 8 more country items available. Please use our online service to access the data.
@@ -92,9 +92,12 @@ ID | IP address | Hostname | Campaign | Confidence
 69 | [46.49.0.0](https://vuldb.com/?ip.46.49.0.0) | - | - | High
 70 | [46.175.134.0](https://vuldb.com/?ip.46.175.134.0) | - | - | High
 71 | [46.227.165.0](https://vuldb.com/?ip.46.227.165.0) | - | - | High
-72 | ... | ... | ... | ...
+72 | [57.88.64.0](https://vuldb.com/?ip.57.88.64.0) | - | - | High
+73 | [57.90.144.0](https://vuldb.com/?ip.57.90.144.0) | - | - | High
+74 | [62.3.30.0](https://vuldb.com/?ip.62.3.30.0) | - | - | High
+75 | ... | ... | ... | ...
 
-There are 282 more IOC items available. Please use our online service to access the data.
+There are 296 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -102,14 +105,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Path Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+1 | T1006 | CWE-22 | Path Traversal | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-94 | Argument Injection | High
+4 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 11 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -117,52 +118,17 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/?p=products` | Medium
-2 | File | `/admin.php/accessory/filesdel.html` | High
-3 | File | `/admin/?page=user/manage` | High
-4 | File | `/admin/add-new.php` | High
-5 | File | `/admin/controller/JobLogController.java` | High
-6 | File | `/admin/doctors.php` | High
-7 | File | `/alphaware/summary.php` | High
-8 | File | `/api/` | Low
-9 | File | `/api/admin/store/product/list` | High
-10 | File | `/api/baskets/{name}` | High
-11 | File | `/api/stl/actions/search` | High
-12 | File | `/api/sys/login` | High
-13 | File | `/api/sys/set_passwd` | High
-14 | File | `/api/trackedEntityInstances` | High
-15 | File | `/api/v2/cli/commands` | High
-16 | File | `/aux` | Low
-17 | File | `/bin/ate` | Medium
-18 | File | `/boat/login.php` | High
-19 | File | `/booking/show_bookings/` | High
-20 | File | `/bsms_ci/index.php/book` | High
-21 | File | `/cgi-bin` | Medium
-22 | File | `/cgi-bin/wlogin.cgi` | High
-23 | File | `/changePassword` | High
-24 | File | `/Content/Template/root/reverse-shell.aspx` | High
-25 | File | `/dashboard/add-blog.php` | High
-26 | File | `/data/remove` | Medium
-27 | File | `/debug/pprof` | Medium
-28 | File | `/ecshop/admin/template.php` | High
-29 | File | `/env` | Low
-30 | File | `/etc/passwd` | Medium
-31 | File | `/forum/away.php` | High
-32 | File | `/group1/uploa` | High
-33 | File | `/index.php` | Medium
-34 | File | `/medicines/profile.php` | High
-35 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-36 | File | `/php-sms/admin/?page=user/manage_user` | High
-37 | File | `/reservation/add_message.php` | High
-38 | File | `/resources//../` | High
-39 | File | `/spip.php` | Medium
-40 | File | `/testConnection` | High
-41 | File | `/tmp/ppd.trace` | High
-42 | File | `/user/inc/workidajax.php` | High
-43 | File | `/user/updatePwd` | High
-44 | ... | ... | ...
+1 | File | `/admin/maintenance/manage_brand.php` | High
+2 | File | `/catalog/all-products` | High
+3 | File | `/changePassword` | High
+4 | File | `/goform/addIpMacBind` | High
+5 | File | `/goform/DelDhcpRule` | High
+6 | File | `/goform/delIpMacBind` | High
+7 | File | `/goform/DelPortMapping` | High
+8 | File | `/goform/modifyDhcpRule` | High
+9 | ... | ... | ...
 
-There are 380 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 66 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -171,6 +137,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://github.com/firehol/blocklist-ipsets/blob/master/geolite2_country/country_ge.netset
 * https://github.com/firehol/blocklist-ipsets/blob/master/ip2location_country/ip2location_country_ge.netset
 * https://github.com/firehol/blocklist-ipsets/blob/master/ipip_country/ipip_country_ge.netset
+* https://github.com/scriptzteam/Private-Internet-Access-VPN-Servers/blob/main/export.csv
 
 ## Literature
 

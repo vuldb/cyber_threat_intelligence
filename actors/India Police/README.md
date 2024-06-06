@@ -47,7 +47,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22 | Path Traversal | High
-2 | T1055 | CWE-74 | Injection | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
 
@@ -61,18 +61,18 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `%PROGRAMDATA%\Razer Chroma\SDK\Apps` | High
 2 | File | `.htaccess` | Medium
-3 | File | `/cgi-bin/webviewer_login_page` | High
-4 | File | `/common/info.cgi` | High
-5 | File | `/mgmt/tm/util/bash` | High
-6 | File | `/recordings/index.php` | High
-7 | File | `/uncpath/` | Medium
-8 | File | `/webssh` | Low
-9 | File | `add_vhost.php` | High
-10 | File | `admin-ajax.php` | High
-11 | File | `and/or` | Low
+3 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+4 | File | `/cgi-bin/webviewer_login_page` | High
+5 | File | `/common/info.cgi` | High
+6 | File | `/mgmt/tm/util/bash` | High
+7 | File | `/recordings/index.php` | High
+8 | File | `/uncpath/` | Medium
+9 | File | `/webssh` | Low
+10 | File | `add_vhost.php` | High
+11 | File | `admin-ajax.php` | High
 12 | ... | ... | ...
 
-There are 91 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 93 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

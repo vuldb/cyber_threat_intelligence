@@ -74,21 +74,20 @@ ID | Type | Indicator | Confidence
 18 | File | `/forum/away.php` | High
 19 | File | `/modules/projects/vw_files.php` | High
 20 | File | `/nagiosxi/admin/graphtemplates.php` | High
-21 | File | `/oauth/idp/.well-known/openid-configuration` | High
-22 | File | `/pro-school/indexphp?student/message/send_reply/` | High
-23 | File | `/server-status` | High
-24 | File | `/squashfs-root/www/HNAP1/control/SetMasterWLanSettings.php` | High
-25 | File | `/tools/required/files/importers/imageeditor` | High
-26 | File | `/uncpath/` | Medium
-27 | File | `/usr/bin/pkexec` | High
-28 | File | `/usr/local/nagiosxi/html/admin/sshterm.php` | High
-29 | File | `/wp-admin/admin-ajax.php` | High
-30 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-31 | File | `/wp-json/wc/v3/webhooks` | High
-32 | File | `/xwiki/bin/view/AppWithinMinutes/CreateApplication?wizard=true` | High
-33 | File | `7za.exe` | Low
-34 | File | `?page=about` | Medium
-35 | ... | ... | ...
+21 | File | `/ndmComponents.js` | High
+22 | File | `/oauth/idp/.well-known/openid-configuration` | High
+23 | File | `/pro-school/indexphp?student/message/send_reply/` | High
+24 | File | `/server-status` | High
+25 | File | `/squashfs-root/www/HNAP1/control/SetMasterWLanSettings.php` | High
+26 | File | `/tools/required/files/importers/imageeditor` | High
+27 | File | `/uncpath/` | Medium
+28 | File | `/usr/bin/pkexec` | High
+29 | File | `/usr/local/nagiosxi/html/admin/sshterm.php` | High
+30 | File | `/wp-admin/admin-ajax.php` | High
+31 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+32 | File | `/wp-json/wc/v3/webhooks` | High
+33 | File | `/xwiki/bin/view/AppWithinMinutes/CreateApplication?wizard=true` | High
+34 | ... | ... | ...
 
 There are 295 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 

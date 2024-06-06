@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [GB](https://vuldb.com/?country.gb)
+* [TR](https://vuldb.com/?country.tr)
 * ...
 
-There are 14 more country items available. Please use our online service to access the data.
+There are 19 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -851,9 +851,17 @@ ID | IP address | Hostname | Campaign | Confidence
 828 | [103.44.233.43](https://vuldb.com/?ip.103.44.233.43) | 10001.0-1-7.rcbc-cor2.rise.as | - | High
 829 | [103.44.233.44](https://vuldb.com/?ip.103.44.233.44) | 51.0-1-7.rcbc-cor2.rise.as | - | High
 830 | [103.44.233.46](https://vuldb.com/?ip.103.44.233.46) | 103-44-233-46.static.rise.as | - | High
-831 | ... | ... | ... | ...
+831 | [103.44.233.48](https://vuldb.com/?ip.103.44.233.48) | 10800.0-1-3.vitp-cor1.rise.as | - | High
+832 | [103.44.233.50](https://vuldb.com/?ip.103.44.233.50) | 103-44-233-50.static.rise.as | - | High
+833 | [103.44.233.52](https://vuldb.com/?ip.103.44.233.52) | 103-44-233-52.static.rise.as | - | High
+834 | [103.44.233.56](https://vuldb.com/?ip.103.44.233.56) | 103-44-233-56.static.rise.as | - | High
+835 | [103.44.233.64](https://vuldb.com/?ip.103.44.233.64) | 103-44-233-64.static.rise.as | - | High
+836 | [103.44.233.128](https://vuldb.com/?ip.103.44.233.128) | 103-44-233-128.static.rise.as | - | High
+837 | [103.44.233.130](https://vuldb.com/?ip.103.44.233.130) | 103-44-233-130.static.rise.as | - | High
+838 | [103.44.233.132](https://vuldb.com/?ip.103.44.233.132) | 103-44-233-132.static.rise.as | - | High
+839 | ... | ... | ... | ...
 
-There are 3322 more IOC items available. Please use our online service to access the data.
+There are 3350 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -861,14 +869,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-25, CWE-425 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-25, CWE-36 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+4 | T1059 | CWE-94 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -877,51 +885,59 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `%SYSTEMDRIVE%\node_modules\.bin\wmic.exe` | High
-2 | File | `/admin/pages/edit_chicken.php` | High
-3 | File | `/admin/pages/student-print.php` | High
-4 | File | `/admin/save.php` | High
-5 | File | `/admin_route/inc_service_credits.php` | High
-6 | File | `/api/download` | High
-7 | File | `/api/runscript` | High
-8 | File | `/api/v1/alerts` | High
-9 | File | `/api/v1/terminal/sessions/?limit=1` | High
-10 | File | `/api/v4/teams//channels/deleted` | High
-11 | File | `/app/Http/Controllers/ImageController.php` | High
-12 | File | `/b2b-supermarket/shopping-cart` | High
-13 | File | `/category.php` | High
-14 | File | `/categorypage.php` | High
-15 | File | `/cgi-bin/cstecgi.cgi` | High
-16 | File | `/cgi-bin/vitogate.cgi` | High
-17 | File | `/change-language/de_DE` | High
-18 | File | `/debug/pprof` | Medium
-19 | File | `/devinfo` | Medium
-20 | File | `/dist/index.js` | High
-21 | File | `/fcgi/scrut_fcgi.fcgi` | High
-22 | File | `/forum/away.php` | High
-23 | File | `/geoserver/gwc/rest.html` | High
-24 | File | `/goform/formSysCmd` | High
-25 | File | `/HNAP1` | Low
-26 | File | `/hosts/firewall/ip` | High
-27 | File | `/index.php/ccm/system/file/upload` | High
-28 | File | `/Interface/DevManage/VM.php` | High
-29 | File | `/log/decodmail.php` | High
-30 | File | `/oauth/idp/.well-known/openid-configuration` | High
-31 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
-32 | File | `/out.php` | Medium
-33 | File | `/php/ping.php` | High
-34 | File | `/proxy` | Low
-35 | File | `/register.do` | Medium
-36 | File | `/RPS2019Service/status.html` | High
-37 | File | `/s/index.php?action=statistics` | High
-38 | File | `/scripts/unlock_tasks.php` | High
-39 | File | `/setting` | Medium
-40 | File | `/sicweb-ajax/tmproot/` | High
-41 | File | `/spip.php` | Medium
-42 | File | `/subsys/net/l2/wifi/wifi_shell.c` | High
-43 | File | `/sysmanage/edit_manageadmin.php` | High
-44 | ... | ... | ...
+2 | File | `/#ilang=DE&b=c_smartenergy_swgroups` | High
+3 | File | `/Account/login.php` | High
+4 | File | `/admin.php?p=/Area/index#tab=t2` | High
+5 | File | `/admin/` | Low
+6 | File | `/Admin/changepassword.php` | High
+7 | File | `/admin/court` | Medium
+8 | File | `/Admin/createClass.php` | High
+9 | File | `/admin/general-setting` | High
+10 | File | `/admin/maintenance/manage_brand.php` | High
+11 | File | `/admin/orders/view_order.php` | High
+12 | File | `/admin/pages/edit_chicken.php` | High
+13 | File | `/admin/pages/student-print.php` | High
+14 | File | `/admin/problem_judge.php` | High
+15 | File | `/admin/service` | High
+16 | File | `/adminapi/system/crud` | High
+17 | File | `/adminapi/system/file/openfile` | High
+18 | File | `/admin_route/dec_service_credits.php` | High
+19 | File | `/admin_route/inc_service_credits.php` | High
+20 | File | `/api/v4/teams//channels/deleted` | High
+21 | File | `/api/wechat/app_auth` | High
+22 | File | `/app/Http/Controllers/ImageController.php` | High
+23 | File | `/application/index/controller/Icon.php` | High
+24 | File | `/b2b-supermarket/shopping-cart` | High
+25 | File | `/blog/blog.php` | High
+26 | File | `/cancel.php` | Medium
+27 | File | `/catalog/admin/categories.php?cPath=&action=new_product` | High
+28 | File | `/category.php` | High
+29 | File | `/cgi-bin/cstecgi.cgi` | High
+30 | File | `/cgi-bin/nas_sharing.cgi` | High
+31 | File | `/change-language/de_DE` | High
+32 | File | `/College/admin/teacher.php` | High
+33 | File | `/control/register_case.php` | High
+34 | File | `/debug/pprof` | Medium
+35 | File | `/devinfo` | Medium
+36 | File | `/dist/index.js` | High
+37 | File | `/download` | Medium
+38 | File | `/forum/away.php` | High
+39 | File | `/general/attendance/manage/ask_duty/delete.php` | High
+40 | File | `/goform/formSysCmd` | High
+41 | File | `/goform/wifiSSIDset` | High
+42 | File | `/hosts/firewall/ip` | High
+43 | File | `/index.jsp#settings` | High
+44 | File | `/index.php` | Medium
+45 | File | `/index.php/ccm/system/file/upload` | High
+46 | File | `/Interface/DevManage/VM.php` | High
+47 | File | `/log/decodmail.php` | High
+48 | File | `/manage_sy.php` | High
+49 | File | `/ndmComponents.js` | High
+50 | File | `/oauth/idp/.well-known/openid-configuration` | High
+51 | File | `/onlinecourse/` | High
+52 | ... | ... | ...
 
-There are 380 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 450 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -930,6 +946,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://github.com/firehol/blocklist-ipsets/blob/master/geolite2_country/country_ph.netset
 * https://github.com/firehol/blocklist-ipsets/blob/master/ip2location_country/ip2location_country_ph.netset
 * https://github.com/firehol/blocklist-ipsets/blob/master/ipip_country/ipip_country_ph.netset
+* https://github.com/scriptzteam/Private-Internet-Access-VPN-Servers/blob/main/export.csv
 
 ## Literature
 

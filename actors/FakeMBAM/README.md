@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 5 more country items available. Please use our online service to access the data.
+There are 4 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -35,14 +35,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Path Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-94 | Argument Injection | High
+4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -50,49 +50,63 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.travis.yml` | Medium
-2 | File | `/admin/conferences/get-all-status/` | High
-3 | File | `/admin/conferences/list/` | High
-4 | File | `/admin/countrymanagement.php` | High
-5 | File | `/admin/general/change-lang` | High
-6 | File | `/admin/group/list/` | High
-7 | File | `/admin/renewaldue.php` | High
-8 | File | `/admin/subnets/ripe-query.php` | High
-9 | File | `/admin/usermanagement.php` | High
-10 | File | `/api/v1/attack` | High
-11 | File | `/api/v1/bait/set` | High
-12 | File | `/apply.cgi` | Medium
-13 | File | `/backups/` | Medium
-14 | File | `/CCMAdmin/serverlist.asp` | High
-15 | File | `/cgi-bin/editBookmark` | High
-16 | File | `/Config/SaveUploadedHotspotLogoFile` | High
-17 | File | `/core/conditions/AbstractWrapper.java` | High
-18 | File | `/cwms/admin/?page=articles/view_article/` | High
-19 | File | `/debug/pprof` | Medium
-20 | File | `/edituser.php` | High
-21 | File | `/export` | Low
-22 | File | `/file?action=download&file` | High
-23 | File | `/forum/away.php` | High
-24 | File | `/front/roomtype-details.php` | High
-25 | File | `/hardware` | Medium
-26 | File | `/horde/imp/search.php` | High
-27 | File | `/index.php` | Medium
-28 | File | `/librarian/bookdetails.php` | High
-29 | File | `/login` | Low
-30 | File | `/modules/tasks/gantt.php` | High
-31 | File | `/monitoring` | Medium
-32 | File | `/one_church/churchprofile.php` | High
-33 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-34 | File | `/plugin/LiveChat/getChat.json.php` | High
-35 | File | `/plugins/servlet/audit/resource` | High
-36 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
-37 | File | `/replication` | Medium
-38 | File | `/RestAPI` | Medium
-39 | File | `/sitemagic/index.php` | High
-40 | File | `/siteminderagent/pwcgi/smpwservicescgi.exe` | High
-41 | ... | ... | ...
+1 | File | `/about.php` | Medium
+2 | File | `/actuator/heapdump` | High
+3 | File | `/admin-manage-user.php` | High
+4 | File | `/admin/action/new-father.php` | High
+5 | File | `/admin/bookdate.php` | High
+6 | File | `/admin/booking-bwdates-reports-details.php` | High
+7 | File | `/admin/category/index.php` | High
+8 | File | `/admin/conferences/get-all-status/` | High
+9 | File | `/admin/conferences/list/` | High
+10 | File | `/admin/countrymanagement.php` | High
+11 | File | `/admin/general/change-lang` | High
+12 | File | `/admin/group/list/` | High
+13 | File | `/admin/orders/view_order.php` | High
+14 | File | `/admin/renewaldue.php` | High
+15 | File | `/admin/students.php` | High
+16 | File | `/admin/subnets/ripe-query.php` | High
+17 | File | `/admin/update-rooms.php` | High
+18 | File | `/admin/user-search.php` | High
+19 | File | `/admin/usermanagement.php` | High
+20 | File | `/admin/vacancy/controller.php` | High
+21 | File | `/adminapi/system/crud` | High
+22 | File | `/adminpanel/admin/query/deleteCourseExe.php` | High
+23 | File | `/api/controllers/merchant/design/MaterialController.php` | High
+24 | File | `/api/v1/attack` | High
+25 | File | `/api/v1/bait/set` | High
+26 | File | `/app/admin/controller/Upload.php` | High
+27 | File | `/app/controller/Setup.php` | High
+28 | File | `/application/index/controller/Screen.php` | High
+29 | File | `/apply.cgi` | Medium
+30 | File | `/apps/reg_go.php` | High
+31 | File | `/backups/` | Medium
+32 | File | `/CCMAdmin/serverlist.asp` | High
+33 | File | `/cgi-bin/cstecgi.cgi` | High
+34 | File | `/cgi-bin/editBookmark` | High
+35 | File | `/core/conditions/AbstractWrapper.java` | High
+36 | File | `/cwms/admin/?page=articles/view_article/` | High
+37 | File | `/debug/pprof` | Medium
+38 | File | `/edituser.php` | High
+39 | File | `/Employer/ManageWalkin.php` | High
+40 | File | `/endpoint/update-computer.php` | High
+41 | File | `/export` | Low
+42 | File | `/file?action=download&file` | High
+43 | File | `/filex/proxy-download` | High
+44 | File | `/forum/away.php` | High
+45 | File | `/front/roomtype-details.php` | High
+46 | File | `/goform/addressNat` | High
+47 | File | `/goform/delIpMacBind` | High
+48 | File | `/goform/DhcpListClient` | High
+49 | File | `/goform/setBlackRule` | High
+50 | File | `/goform/SetFirewallCfg` | High
+51 | File | `/goform/SetOnlineDevName` | High
+52 | File | `/goform/SetRebootTimer` | High
+53 | File | `/goform/WifiExtraSet` | High
+54 | File | `/goform/WifiWpsOOB` | High
+55 | ... | ... | ...
 
-There are 350 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 478 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

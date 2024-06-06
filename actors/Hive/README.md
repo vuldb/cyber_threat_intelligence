@@ -73,9 +73,10 @@ ID | Type | Indicator | Confidence
 19 | File | `/include/menu_v.inc.php` | High
 20 | File | `/kubepi/api/v1/users/search?pageNum=1&&pageSize=10` | High
 21 | File | `/librarian/lab.php` | High
-22 | ... | ... | ...
+22 | File | `/login/` | Low
+23 | ... | ... | ...
 
-There are 186 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 191 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

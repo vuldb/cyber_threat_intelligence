@@ -39,7 +39,7 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | T1068 | CWE-250, CWE-264, CWE-266, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
@@ -85,16 +85,16 @@ ID | Type | Indicator | Confidence
 30 | File | `/usr/bin/pkexec` | High
 31 | File | `/wp-admin/admin.php?page=cpabc_appointments.php` | High
 32 | File | `ActiveMQConnection.java` | High
-33 | File | `admin-ajax.php` | High
-34 | File | `admin.php` | Medium
-35 | File | `admin/ad_list.php` | High
-36 | File | `admin/panels/uploader/admin.uploader.php` | High
-37 | File | `admin/status/realtime/bandwidth_status` | High
-38 | File | `agent.c` | Low
-39 | File | `ajax_crons.php` | High
+33 | File | `addq.php` | Medium
+34 | File | `admin-ajax.php` | High
+35 | File | `admin.php` | Medium
+36 | File | `admin/ad_list.php` | High
+37 | File | `admin/panels/uploader/admin.uploader.php` | High
+38 | File | `admin/status/realtime/bandwidth_status` | High
+39 | File | `agent.c` | Low
 40 | ... | ... | ...
 
-There are 345 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 348 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

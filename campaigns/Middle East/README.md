@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Middle East:
 
-* [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
+* [US](https://vuldb.com/?country.us)
 * [VN](https://vuldb.com/?country.vn)
 * ...
 
-There are 13 more country items available. Please use our online service to access the data.
+There are 16 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -65,13 +65,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22, CWE-24, CWE-29 | Path Traversal | High
-2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -85,52 +85,57 @@ ID | Type | Indicator | Confidence
 4 | File | `/admin/app/product.php` | High
 5 | File | `/admin/category/save` | High
 6 | File | `/admin/category_row.php` | High
-7 | File | `/admin/ind_backstage.php` | High
-8 | File | `/admin/list_ipAddressPolicy.php` | High
-9 | File | `/admin/return_add.php` | High
-10 | File | `/admin/subject.php` | High
-11 | File | `/admin/upload/img` | High
-12 | File | `/admin_route/dec_service_credits.php` | High
-13 | File | `/api/controllers/merchant/design/MaterialController.php` | High
-14 | File | `/app/ajax/sell_return_data.php` | High
-15 | File | `/app/api/controller/default/File.php` | High
-16 | File | `/application/index/controller/Datament.php` | High
-17 | File | `/application/index/controller/File.php` | High
-18 | File | `/att_add.php` | Medium
-19 | File | `/auth/auth.php?user=1` | High
-20 | File | `/b2b-supermarket/catalog/all-products` | High
-21 | File | `/bin/boa` | Medium
-22 | File | `/boaform/device_reset.cgi` | High
-23 | File | `/boaform/wlan_basic_set.cgi` | High
-24 | File | `/cgi-bin/cstecgi.cgi` | High
-25 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-26 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
-27 | File | `/cgi-bin/wlogin.cgi` | High
-28 | File | `/cgi/cpaddons_report.pl` | High
-29 | File | `/check_availability.php` | High
-30 | File | `/classes/Master.php?f=delete_reminder` | High
-31 | File | `/common/dict/list` | High
-32 | File | `/debug/pprof` | Medium
-33 | File | `/DXR.axd` | Medium
-34 | File | `/Employer/EditProfile.php` | High
-35 | File | `/Employer/ManageWalkin.php` | High
-36 | File | `/endpoint/update-tracker.php` | High
-37 | File | `/forum/away.php` | High
-38 | File | `/general/email/outbox/delete.php` | High
-39 | File | `/goform/goform_get_cmd_process` | High
-40 | File | `/HNAP1/` | Low
-41 | File | `/importexport.php` | High
-42 | File | `/Interface/DevManage/VM.php` | High
-43 | File | `/libsystem/login.php` | High
-44 | File | `/main/checkout.php` | High
-45 | File | `/main/doctype.php` | High
-46 | File | `/main/webservices/additional_webservices.php` | High
-47 | File | `/mc` | Low
-48 | File | `/net/bluetooth/rfcomm/core.C` | High
-49 | File | `/novel/bookSetting/list` | High
-50 | ... | ... | ...
+7 | File | `/admin/index.php?page=manage_product` | High
+8 | File | `/admin/ind_backstage.php` | High
+9 | File | `/admin/list_ipAddressPolicy.php` | High
+10 | File | `/admin/return_add.php` | High
+11 | File | `/admin/subject.php` | High
+12 | File | `/admin/upload/img` | High
+13 | File | `/admin_route/dec_service_credits.php` | High
+14 | File | `/api/controllers/merchant/design/MaterialController.php` | High
+15 | File | `/API/info` | Medium
+16 | File | `/api/runscript` | High
+17 | File | `/api/v1/snapshots` | High
+18 | File | `/app/ajax/sell_return_data.php` | High
+19 | File | `/app/api/controller/default/File.php` | High
+20 | File | `/application/index/controller/Datament.php` | High
+21 | File | `/application/index/controller/File.php` | High
+22 | File | `/att_add.php` | Medium
+23 | File | `/auth/auth.php?user=1` | High
+24 | File | `/b2b-supermarket/catalog/all-products` | High
+25 | File | `/bin/boa` | Medium
+26 | File | `/boaform/device_reset.cgi` | High
+27 | File | `/boaform/wlan_basic_set.cgi` | High
+28 | File | `/cgi-bin/cstecgi.cgi` | High
+29 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+30 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
+31 | File | `/cgi-bin/nas_sharing.cgi` | High
+32 | File | `/cgi-bin/system_mgr.cgi` | High
+33 | File | `/cgi-bin/wlogin.cgi` | High
+34 | File | `/cgi/cpaddons_report.pl` | High
+35 | File | `/check_availability.php` | High
+36 | File | `/common/dict/list` | High
+37 | File | `/debug/pprof` | Medium
+38 | File | `/download.php?file=author.png` | High
+39 | File | `/DXR.axd` | Medium
+40 | File | `/Employer/EditProfile.php` | High
+41 | File | `/Employer/ManageWalkin.php` | High
+42 | File | `/endpoint/update-tracker.php` | High
+43 | File | `/forum/away.php` | High
+44 | File | `/general/email/outbox/delete.php` | High
+45 | File | `/goform/DhcpListClient` | High
+46 | File | `/goform/goform_get_cmd_process` | High
+47 | File | `/HNAP1/` | Low
+48 | File | `/hrm/leaverequest.php` | High
+49 | File | `/importexport.php` | High
+50 | File | `/install/` | Medium
+51 | File | `/Interface/DevManage/VM.php` | High
+52 | File | `/libsystem/login.php` | High
+53 | File | `/main/checkout.php` | High
+54 | File | `/main/doctype.php` | High
+55 | ... | ... | ...
 
-There are 432 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 476 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

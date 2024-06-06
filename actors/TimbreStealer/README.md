@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with TimbreStealer:
 
 * [US](https://vuldb.com/?country.us)
+* [DE](https://vuldb.com/?country.de)
 * [ES](https://vuldb.com/?country.es)
-* [CN](https://vuldb.com/?country.cn)
 * ...
 
 There are 5 more country items available. Please use our online service to access the data.
@@ -28,7 +28,7 @@ ID | IP address | Hostname | Campaign | Confidence
 5 | [104.131.67.109](https://vuldb.com/?ip.104.131.67.109) | - | - | High
 6 | ... | ... | ... | ...
 
-There are 19 more IOC items available. Please use our online service to access the data.
+There are 20 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -37,11 +37,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22, CWE-24 | Path Traversal | High
-2 | T1055 | CWE-74 | Injection | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 4 | ... | ... | ... | ...
 
-There are 12 more TTP items available. Please use our online service to access the data.
+There are 13 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -55,24 +55,28 @@ ID | Type | Indicator | Confidence
 4 | File | `/admin/action/update-deworm.php` | High
 5 | File | `/admin/ajax.php?action=save_area` | High
 6 | File | `/admin/pages/yearlevel.php` | High
-7 | File | `/admin1/file/download` | High
-8 | File | `/ajax.php?action=read_msg` | High
-9 | File | `/api/baskets/{name}` | High
-10 | File | `/api/public/register/family` | High
-11 | File | `/application/index/controller/Databasesource.php` | High
-12 | File | `/application/index/controller/Datament.php` | High
-13 | File | `/application/index/controller/File.php` | High
-14 | File | `/application/index/controller/Pay.php` | High
-15 | File | `/ext/collect/filter_text.do` | High
-16 | ... | ... | ...
+7 | File | `/admin/upload/img` | High
+8 | File | `/admin1/file/download` | High
+9 | File | `/ajax.php?action=read_msg` | High
+10 | File | `/api/baskets/{name}` | High
+11 | File | `/api/public/register/family` | High
+12 | File | `/application/index/controller/Databasesource.php` | High
+13 | File | `/application/index/controller/Datament.php` | High
+14 | File | `/application/index/controller/File.php` | High
+15 | File | `/application/index/controller/Pay.php` | High
+16 | File | `/ext/collect/filter_text.do` | High
+17 | File | `/file-manager/rename.php` | High
+18 | File | `/file-manager/upload.php` | High
+19 | ... | ... | ...
 
-There are 132 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 153 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://blog.talosintelligence.com/timbrestealer-campaign-targets-mexican-users/
+* https://circleid.com/posts/20240421-hunting-for-timbrestealer-malware-artifacts-in-the-dns
 
 ## Literature
 

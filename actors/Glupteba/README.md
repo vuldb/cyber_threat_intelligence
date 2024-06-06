@@ -31,28 +31,29 @@ ID | IP address | Hostname | Campaign | Confidence
 11 | [20.150.79.68](https://vuldb.com/?ip.20.150.79.68) | - | - | High
 12 | [20.209.34.36](https://vuldb.com/?ip.20.209.34.36) | - | - | High
 13 | [23.5.238.97](https://vuldb.com/?ip.23.5.238.97) | a23-5-238-97.deploy.static.akamaitechnologies.com | - | High
-14 | [37.48.81.151](https://vuldb.com/?ip.37.48.81.151) | - | - | High
-15 | [40.90.22.185](https://vuldb.com/?ip.40.90.22.185) | - | - | High
-16 | [40.112.72.205](https://vuldb.com/?ip.40.112.72.205) | - | - | High
-17 | [43.231.4.7](https://vuldb.com/?ip.43.231.4.7) | - | - | High
-18 | [45.15.156.202](https://vuldb.com/?ip.45.15.156.202) | - | - | High
-19 | [45.90.34.87](https://vuldb.com/?ip.45.90.34.87) | - | - | High
-20 | [46.165.244.129](https://vuldb.com/?ip.46.165.244.129) | - | - | High
-21 | [46.165.249.167](https://vuldb.com/?ip.46.165.249.167) | - | - | High
-22 | [46.165.249.195](https://vuldb.com/?ip.46.165.249.195) | - | - | High
-23 | [46.165.249.201](https://vuldb.com/?ip.46.165.249.201) | - | - | High
-24 | [46.165.249.203](https://vuldb.com/?ip.46.165.249.203) | - | - | High
-25 | [46.165.250.25](https://vuldb.com/?ip.46.165.250.25) | - | - | High
-26 | [51.159.136.111](https://vuldb.com/?ip.51.159.136.111) | 111-136-159-51.instances.scw.cloud | - | High
-27 | [62.204.41.159](https://vuldb.com/?ip.62.204.41.159) | - | - | High
-28 | [69.55.5.249](https://vuldb.com/?ip.69.55.5.249) | - | - | High
-29 | [69.64.46.27](https://vuldb.com/?ip.69.64.46.27) | dragon085.startdedicated.de | - | High
-30 | [72.21.81.240](https://vuldb.com/?ip.72.21.81.240) | - | - | High
-31 | [72.21.91.29](https://vuldb.com/?ip.72.21.91.29) | - | - | High
-32 | [74.67.240.204](https://vuldb.com/?ip.74.67.240.204) | cpe-74-67-240-204.twcny.res.rr.com | - | High
-33 | ... | ... | ... | ...
+14 | [34.94.245.237](https://vuldb.com/?ip.34.94.245.237) | 237.245.94.34.bc.googleusercontent.com | - | Medium
+15 | [34.143.166.163](https://vuldb.com/?ip.34.143.166.163) | 163.166.143.34.bc.googleusercontent.com | - | Medium
+16 | [34.168.225.46](https://vuldb.com/?ip.34.168.225.46) | 46.225.168.34.bc.googleusercontent.com | - | Medium
+17 | [37.48.81.151](https://vuldb.com/?ip.37.48.81.151) | - | - | High
+18 | [40.90.22.185](https://vuldb.com/?ip.40.90.22.185) | - | - | High
+19 | [40.112.72.205](https://vuldb.com/?ip.40.112.72.205) | - | - | High
+20 | [43.231.4.7](https://vuldb.com/?ip.43.231.4.7) | - | - | High
+21 | [45.15.156.202](https://vuldb.com/?ip.45.15.156.202) | - | - | High
+22 | [45.90.34.87](https://vuldb.com/?ip.45.90.34.87) | - | - | High
+23 | [46.165.244.129](https://vuldb.com/?ip.46.165.244.129) | - | - | High
+24 | [46.165.249.167](https://vuldb.com/?ip.46.165.249.167) | - | - | High
+25 | [46.165.249.195](https://vuldb.com/?ip.46.165.249.195) | - | - | High
+26 | [46.165.249.201](https://vuldb.com/?ip.46.165.249.201) | - | - | High
+27 | [46.165.249.203](https://vuldb.com/?ip.46.165.249.203) | - | - | High
+28 | [46.165.250.25](https://vuldb.com/?ip.46.165.250.25) | - | - | High
+29 | [51.159.136.111](https://vuldb.com/?ip.51.159.136.111) | 111-136-159-51.instances.scw.cloud | - | High
+30 | [62.204.41.159](https://vuldb.com/?ip.62.204.41.159) | - | - | High
+31 | [69.55.5.249](https://vuldb.com/?ip.69.55.5.249) | - | - | High
+32 | [69.64.46.27](https://vuldb.com/?ip.69.64.46.27) | dragon085.startdedicated.de | - | High
+33 | [72.21.81.240](https://vuldb.com/?ip.72.21.81.240) | - | - | High
+34 | ... | ... | ... | ...
 
-There are 129 more IOC items available. Please use our online service to access the data.
+There are 132 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -92,6 +93,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/threat-roundup-0526-0602/
 * https://blog.talosintelligence.com/threat-roundup-1013-1020/
 * https://blog.talosintelligence.com/threat-roundup-feb-24-march-3-2023/
+* https://circleid.com/posts/20240425-digging-deep-to-examine-the-roots-of-the-glupteba-uefi-bootkit
 * https://github.com/eset/malware-ioc/tree/master/glupteba
 * https://www.cyber45.com
 

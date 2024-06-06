@@ -52,12 +52,12 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/api/log/killJob` | High
-2 | File | `/language/lang` | High
-3 | File | `admin/conf_users_edit.php` | High
-4 | File | `c_rehash` | Medium
+2 | File | `/cgi-bin/nas_sharing.cgi` | High
+3 | File | `/language/lang` | High
+4 | File | `admin/conf_users_edit.php` | High
 5 | ... | ... | ...
 
-There are 31 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 33 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

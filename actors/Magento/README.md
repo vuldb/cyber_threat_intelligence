@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CO](https://vuldb.com/?country.co)
 * ...
 
-There are 13 more country items available. Please use our online service to access the data.
+There are 14 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -37,7 +37,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22 | Path Traversal | High
-2 | T1055 | CWE-74 | Injection | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
@@ -53,35 +53,36 @@ ID | Type | Indicator | Confidence
 1 | File | `/admin/index.php` | High
 2 | File | `/api/es/admin/v3/security/user/1` | High
 3 | File | `/api /v3/auth` | High
-4 | File | `/cgi-bin/webviewer_login_page` | High
-5 | File | `/cgi-bin/wlogin.cgi` | High
-6 | File | `/common/sysFile/list` | High
-7 | File | `/Content/Template/root/reverse-shell.aspx` | High
-8 | File | `/dede/group_store.php` | High
-9 | File | `/ebics-server/ebics.aspx` | High
-10 | File | `/forum/away.php` | High
-11 | File | `/fuel/index.php/fuel/logs/items` | High
-12 | File | `/monitoring` | Medium
-13 | File | `/ocwbs/classes/Master.php?f=get_vehicle_service` | High
-14 | File | `/one/getpassword.php` | High
-15 | File | `/out.php` | Medium
-16 | File | `/phppath/php` | Medium
-17 | File | `/preview.php` | Medium
-18 | File | `/sec/content/sec_asa_users_local_db_add.html` | High
-19 | File | `/secure/admin/AssociatedProjectsForCustomField.jspa` | High
-20 | File | `/secure/QueryComponent!Default.jspa` | High
-21 | File | `/servlet/webacc` | High
-22 | File | `/setNTP.cgi` | Medium
-23 | File | `/Side.php` | Medium
-24 | File | `/spip/ecrire/` | High
-25 | File | `/uncpath/` | Medium
-26 | File | `/uploads/tags.php` | High
-27 | File | `/userfs/bin/tcapi` | High
-28 | File | `/usr/bin/pkexec` | High
-29 | File | `/vendor/views/add_product.php` | High
-30 | ... | ... | ...
+4 | File | `/boaform/getASPdata/formFirewall` | High
+5 | File | `/cgi-bin/webviewer_login_page` | High
+6 | File | `/cgi-bin/wlogin.cgi` | High
+7 | File | `/common/sysFile/list` | High
+8 | File | `/Content/Template/root/reverse-shell.aspx` | High
+9 | File | `/dede/group_store.php` | High
+10 | File | `/ebics-server/ebics.aspx` | High
+11 | File | `/forum/away.php` | High
+12 | File | `/fuel/index.php/fuel/logs/items` | High
+13 | File | `/monitoring` | Medium
+14 | File | `/ocwbs/classes/Master.php?f=get_vehicle_service` | High
+15 | File | `/one/getpassword.php` | High
+16 | File | `/out.php` | Medium
+17 | File | `/phppath/php` | Medium
+18 | File | `/preview.php` | Medium
+19 | File | `/sec/content/sec_asa_users_local_db_add.html` | High
+20 | File | `/secure/admin/AssociatedProjectsForCustomField.jspa` | High
+21 | File | `/secure/QueryComponent!Default.jspa` | High
+22 | File | `/servlet/webacc` | High
+23 | File | `/setNTP.cgi` | Medium
+24 | File | `/Side.php` | Medium
+25 | File | `/spip/ecrire/` | High
+26 | File | `/uncpath/` | Medium
+27 | File | `/uploads/tags.php` | High
+28 | File | `/userfs/bin/tcapi` | High
+29 | File | `/usr/bin/pkexec` | High
+30 | File | `/vendor/views/add_product.php` | High
+31 | ... | ... | ...
 
-There are 258 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 259 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

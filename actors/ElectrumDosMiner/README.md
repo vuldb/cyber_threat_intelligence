@@ -39,7 +39,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059.007 | CWE-79, CWE-80, CWE-84 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 10 more TTP items available. Please use our online service to access the data.
+There are 11 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -49,23 +49,24 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/edit_member.php` | High
 2 | File | `/admin/maintenance/view_designation.php` | High
-3 | File | `/cgi-bin` | Medium
-4 | File | `/cgi-bin/ExportAllSettings.sh` | High
-5 | File | `/forum/away.php` | High
-6 | File | `/include/comm_post.inc.php` | High
-7 | File | `/magnoliaPublic/travel/members/login.html` | High
-8 | File | `/register.do` | Medium
-9 | File | `/secure/EditSubscription.jspa` | High
-10 | File | `/spip.php` | Medium
-11 | File | `addentry.php` | Medium
-12 | File | `admin.php` | Medium
-13 | File | `admin/admin.guestbook.php` | High
-14 | File | `admin/admin.php` | High
-15 | File | `admin/conf_users_edit.php` | High
-16 | File | `admin/index.php` | High
-17 | ... | ... | ...
+3 | File | `/backend/register.php` | High
+4 | File | `/cgi-bin` | Medium
+5 | File | `/cgi-bin/ExportAllSettings.sh` | High
+6 | File | `/forum/away.php` | High
+7 | File | `/include/comm_post.inc.php` | High
+8 | File | `/magnoliaPublic/travel/members/login.html` | High
+9 | File | `/register.do` | Medium
+10 | File | `/secure/EditSubscription.jspa` | High
+11 | File | `/spip.php` | Medium
+12 | File | `addentry.php` | Medium
+13 | File | `admin.php` | Medium
+14 | File | `admin/admin.guestbook.php` | High
+15 | File | `admin/admin.php` | High
+16 | File | `admin/conf_users_edit.php` | High
+17 | File | `admin/index.php` | High
+18 | ... | ... | ...
 
-There are 140 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 144 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

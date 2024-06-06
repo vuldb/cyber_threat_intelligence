@@ -32,12 +32,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-29 | Path Traversal | High
-2 | T1055 | CWE-74 | Injection | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 15 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -45,52 +45,54 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/category_view.php` | High
-2 | File | `/forum/away.php` | High
-3 | File | `/frontend/x3/cpanelpro/filelist-thumbs.html` | High
-4 | File | `/fs/cifs/file.c` | High
-5 | File | `/highlight/index.html` | High
-6 | File | `/hotel.php` | Medium
-7 | File | `/Login.do` | Medium
-8 | File | `/register.php` | High
-9 | File | `/var/etc/shadow` | High
-10 | File | `/var/log/cgred` | High
-11 | File | `/var/run/hostapd` | High
-12 | File | `add.php` | Low
-13 | File | `AddEvent.php` | Medium
-14 | File | `addlisting.asp` | High
-15 | File | `add_tmsp.php` | Medium
-16 | File | `admin.php` | Medium
-17 | File | `admin/handlers.php` | High
-18 | File | `admin/help.php` | High
-19 | File | `admin/modules/system/app_user.php` | High
-20 | File | `admin/tools/trackback/index.php` | High
-21 | File | `admin/users_edit.php` | High
-22 | File | `administrators/backups/` | High
-23 | File | `afmparse.c` | Medium
-24 | File | `ajax.php` | Medium
-25 | File | `answers.php` | Medium
-26 | File | `apsetup.php` | Medium
-27 | File | `arch/powerpc/kernel/process.c` | High
-28 | File | `arch/x86/kvm/vmx.c` | High
-29 | File | `ArchiveUtil.java` | High
-30 | File | `bmp.c` | Low
-31 | File | `browse.php` | Medium
-32 | File | `buy.php` | Low
-33 | File | `calendar.class.php` | High
-34 | File | `calendar/submit/` | High
-35 | File | `category.php` | Medium
-36 | File | `cc_guestbook.pl` | High
-37 | File | `centipaid_class.php` | High
-38 | File | `channel.c` | Medium
-39 | File | `chetcpasswd.cgi` | High
-40 | File | `clastree.htm` | Medium
-41 | File | `client-assist.php` | High
-42 | File | `coders/dds.c` | Medium
-43 | File | `coders/webp.c` | High
-44 | ... | ... | ...
+1 | File | `/adminpanel/admin/query/deleteCourseExe.php` | High
+2 | File | `/apps/system/services/role_menu.go` | High
+3 | File | `/cap.js` | Low
+4 | File | `/category_view.php` | High
+5 | File | `/cgi-bin/cgiServer.exx` | High
+6 | File | `/cgi-bin/info.cgi` | High
+7 | File | `/cgi-bin/nas_sharing.cgi` | High
+8 | File | `/cgi-bin/system_mgr.cgi` | High
+9 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
+10 | File | `/devinfo` | Medium
+11 | File | `/forum/away.php` | High
+12 | File | `/goform/GetParentControlInfo` | High
+13 | File | `/goform/SetNetControlList` | High
+14 | File | `/goform/SysToolRestoreSet` | High
+15 | File | `/highlight/index.html` | High
+16 | File | `/hotel.php` | Medium
+17 | File | `/Login.do` | Medium
+18 | File | `/register.php` | High
+19 | File | `/var/etc/shadow` | High
+20 | File | `/var/log/cgred` | High
+21 | File | `/var/run/hostapd` | High
+22 | File | `/version.js` | Medium
+23 | File | `add.php` | Low
+24 | File | `AddEvent.php` | Medium
+25 | File | `addlisting.asp` | High
+26 | File | `add_tmsp.php` | Medium
+27 | File | `admin.php` | Medium
+28 | File | `admin/handlers.php` | High
+29 | File | `admin/help.php` | High
+30 | File | `admin/modules/system/app_user.php` | High
+31 | File | `admin/tools/trackback/index.php` | High
+32 | File | `admin/update_room.php` | High
+33 | File | `admin/users_edit.php` | High
+34 | File | `administrators/backups/` | High
+35 | File | `afmparse.c` | Medium
+36 | File | `ajax.php` | Medium
+37 | File | `answers.php` | Medium
+38 | File | `apsetup.php` | Medium
+39 | File | `arch/powerpc/kernel/process.c` | High
+40 | File | `arch/x86/kvm/vmx.c` | High
+41 | File | `ArchiveUtil.java` | High
+42 | File | `bmp.c` | Low
+43 | File | `buy.php` | Low
+44 | File | `calendar.class.php` | High
+45 | File | `calendar/submit/` | High
+46 | ... | ... | ...
 
-There are 382 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 400 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

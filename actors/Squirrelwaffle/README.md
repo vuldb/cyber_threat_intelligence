@@ -63,17 +63,17 @@ ID | Type | Indicator | Confidence
 5 | File | `/etc/passwd` | Medium
 6 | File | `/include/chart_generator.php` | High
 7 | File | `/index.php` | Medium
-8 | File | `/product_list.php` | High
-9 | File | `/qsr_server/device/reboot` | High
-10 | File | `/resource/file/api/save?auto=1` | High
-11 | File | `/snmpGet` | Medium
-12 | File | `/tmp` | Low
-13 | File | `/uncpath/` | Medium
-14 | File | `/wp-admin/admin-ajax.php` | High
-15 | File | `administrator/components/com_media/helpers/media.php` | High
+8 | File | `/mobilebroker/ServiceToBroker.svc/Json/Connect` | High
+9 | File | `/product_list.php` | High
+10 | File | `/qsr_server/device/reboot` | High
+11 | File | `/resource/file/api/save?auto=1` | High
+12 | File | `/snmpGet` | Medium
+13 | File | `/tmp` | Low
+14 | File | `/uncpath/` | Medium
+15 | File | `/wp-admin/admin-ajax.php` | High
 16 | ... | ... | ...
 
-There are 131 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 132 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -4,6 +4,12 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.gplayed](https://vuldb.com/?actor.gplayed)
 
+## Countries
+
+These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with GPlayed:
+
+* [US](https://vuldb.com/?country.us)
+
 ## IOC - Indicator of Compromise
 
 These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of GPlayed.
@@ -13,6 +19,27 @@ ID | IP address | Hostname | Campaign | Confidence
 1 | [2.9.12.0](https://vuldb.com/?ip.2.9.12.0) | anantes-154-1-77-net.w2-9.abo.wanadoo.fr | - | High
 2 | [5.9.33.226](https://vuldb.com/?ip.5.9.33.226) | static.226.33.9.5.clients.your-server.de | - | High
 3 | [172.110.10.171](https://vuldb.com/?ip.172.110.10.171) | - | - | High
+
+## TTP - Tactics, Techniques, Procedures
+
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _GPlayed_. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1505 | CWE-89 | SQL Injection | High
+
+## IOA - Indicator of Attack
+
+These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by GPlayed. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Type | Indicator | Confidence
+-- | ---- | --------- | ----------
+1 | File | `/src/dede/vote_edit.php` | High
+2 | File | `/views/index.php` | High
+3 | Argument | `aid` | Low
+4 | ... | ... | ...
+
+There are 1 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

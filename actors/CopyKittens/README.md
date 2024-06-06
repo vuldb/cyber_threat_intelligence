@@ -54,7 +54,7 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
@@ -87,52 +87,54 @@ ID | Type | Indicator | Confidence
 18 | File | `/admin/upload/img` | High
 19 | File | `/admin_route/dec_service_credits.php` | High
 20 | File | `/api/controllers/merchant/design/MaterialController.php` | High
-21 | File | `/app/ajax/sell_return_data.php` | High
-22 | File | `/app/api/controller/default/File.php` | High
-23 | File | `/application/index/controller/Datament.php` | High
-24 | File | `/application/index/controller/File.php` | High
-25 | File | `/att_add.php` | Medium
-26 | File | `/b2b-supermarket/catalog/all-products` | High
-27 | File | `/bin/boa` | Medium
-28 | File | `/binbloom-master/src/helpers.c` | High
-29 | File | `/blog` | Low
-30 | File | `/boaform/wlan_basic_set.cgi` | High
-31 | File | `/category.php` | High
-32 | File | `/cgi-bin/cstecgi.cgi` | High
-33 | File | `/classes/Master.php?f=delete_reminder` | High
-34 | File | `/contacts/listcontacts.php` | High
-35 | File | `/Core/Ap4File.cpp` | High
-36 | File | `/data/app` | Medium
-37 | File | `/depotHead/list` | High
-38 | File | `/Employer/EditProfile.php` | High
-39 | File | `/Employer/ManageWalkin.php` | High
-40 | File | `/endpoint/update-tracker.php` | High
-41 | File | `/etc/os-release` | High
-42 | File | `/etc/pki/pulp/nodes/` | High
-43 | File | `/forms/web_runScript` | High
-44 | File | `/forum/away.php` | High
-45 | File | `/fs/nfsd/nfs4proc.c` | High
-46 | File | `/garage/php_action/createBrand.php` | High
-47 | File | `/general/search.php?searchtype=simple` | High
-48 | File | `/ghost/preview` | High
-49 | File | `/goform/AddSysLogRule` | High
-50 | File | `/goform/AdvSetWrlsafeset` | High
-51 | File | `/goform/qossetting` | High
-52 | File | `/goform/setAutoPing` | High
-53 | File | `/hrm/employeeview.php` | High
-54 | File | `/hss/?page=product_per_brand` | High
-55 | File | `/im/user/` | Medium
-56 | File | `/index.php` | Medium
-57 | File | `/index.php?page=member` | High
-58 | File | `/libsystem/login.php` | High
-59 | File | `/load.php` | Medium
-60 | File | `/main/checkout.php` | High
-61 | File | `/meetings/listmeetings.php` | High
-62 | File | `/novel/bookSetting/list` | High
-63 | File | `/oa/notify/edit` | High
-64 | ... | ... | ...
+21 | File | `/API/info` | Medium
+22 | File | `/app/ajax/sell_return_data.php` | High
+23 | File | `/app/api/controller/default/File.php` | High
+24 | File | `/application/index/controller/Datament.php` | High
+25 | File | `/application/index/controller/File.php` | High
+26 | File | `/att_add.php` | Medium
+27 | File | `/b2b-supermarket/catalog/all-products` | High
+28 | File | `/bin/boa` | Medium
+29 | File | `/binbloom-master/src/helpers.c` | High
+30 | File | `/blog` | Low
+31 | File | `/boaform/wlan_basic_set.cgi` | High
+32 | File | `/category.php` | High
+33 | File | `/cgi-bin/cstecgi.cgi` | High
+34 | File | `/cgi-bin/nas_sharing.cgi` | High
+35 | File | `/check_availability.php` | High
+36 | File | `/classes/Master.php?f=delete_reminder` | High
+37 | File | `/contacts/listcontacts.php` | High
+38 | File | `/Core/Ap4File.cpp` | High
+39 | File | `/data/app` | Medium
+40 | File | `/depotHead/list` | High
+41 | File | `/download.php?file=author.png` | High
+42 | File | `/Employer/EditProfile.php` | High
+43 | File | `/Employer/ManageWalkin.php` | High
+44 | File | `/endpoint/update-tracker.php` | High
+45 | File | `/etc/os-release` | High
+46 | File | `/etc/pki/pulp/nodes/` | High
+47 | File | `/forms/web_runScript` | High
+48 | File | `/forum/away.php` | High
+49 | File | `/fs/nfsd/nfs4proc.c` | High
+50 | File | `/garage/php_action/createBrand.php` | High
+51 | File | `/general/email/outbox/delete.php` | High
+52 | File | `/general/search.php?searchtype=simple` | High
+53 | File | `/ghost/preview` | High
+54 | File | `/goform/AddSysLogRule` | High
+55 | File | `/goform/AdvSetWrlsafeset` | High
+56 | File | `/goform/qossetting` | High
+57 | File | `/goform/setAutoPing` | High
+58 | File | `/hrm/employeeview.php` | High
+59 | File | `/hss/?page=product_per_brand` | High
+60 | File | `/im/user/` | Medium
+61 | File | `/index.php` | Medium
+62 | File | `/index.php?page=member` | High
+63 | File | `/libsystem/login.php` | High
+64 | File | `/load.php` | Medium
+65 | File | `/main/checkout.php` | High
+66 | ... | ... | ...
 
-There are 561 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 575 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

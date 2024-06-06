@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [GB](https://vuldb.com/?country.gb)
+* [TR](https://vuldb.com/?country.tr)
 * ...
 
-There are 21 more country items available. Please use our online service to access the data.
+There are 22 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -221,9 +221,32 @@ ID | IP address | Hostname | Campaign | Confidence
 198 | [85.92.119.0](https://vuldb.com/?ip.85.92.119.0) | - | - | High
 199 | [85.115.205.0](https://vuldb.com/?ip.85.115.205.0) | - | - | High
 200 | [85.115.206.0](https://vuldb.com/?ip.85.115.206.0) | - | - | High
-201 | ... | ... | ... | ...
+201 | [85.153.0.0](https://vuldb.com/?ip.85.153.0.0) | - | - | High
+202 | [85.153.6.0](https://vuldb.com/?ip.85.153.6.0) | - | - | High
+203 | [85.153.8.0](https://vuldb.com/?ip.85.153.8.0) | - | - | High
+204 | [85.153.48.0](https://vuldb.com/?ip.85.153.48.0) | - | - | High
+205 | [85.153.56.0](https://vuldb.com/?ip.85.153.56.0) | - | - | High
+206 | [85.153.64.0](https://vuldb.com/?ip.85.153.64.0) | - | - | High
+207 | [85.153.66.0](https://vuldb.com/?ip.85.153.66.0) | - | - | High
+208 | [85.153.68.0](https://vuldb.com/?ip.85.153.68.0) | - | - | High
+209 | [85.153.72.0](https://vuldb.com/?ip.85.153.72.0) | - | - | High
+210 | [85.153.80.0](https://vuldb.com/?ip.85.153.80.0) | - | - | High
+211 | [85.153.96.0](https://vuldb.com/?ip.85.153.96.0) | - | - | High
+212 | [85.153.104.0](https://vuldb.com/?ip.85.153.104.0) | 85-153-104-0.project-hosting.com | - | High
+213 | [85.153.113.0](https://vuldb.com/?ip.85.153.113.0) | - | - | High
+214 | [85.153.122.0](https://vuldb.com/?ip.85.153.122.0) | - | - | High
+215 | [85.153.127.0](https://vuldb.com/?ip.85.153.127.0) | - | - | High
+216 | [85.194.200.0](https://vuldb.com/?ip.85.194.200.0) | - | - | High
+217 | [85.194.243.243](https://vuldb.com/?ip.85.194.243.243) | ip-2.85-194-243-242.net.eco.atman.pl | - | High
+218 | [85.196.192.0](https://vuldb.com/?ip.85.196.192.0) | lan-192-0.tartu.stv.ee | - | High
+219 | [85.202.195.0](https://vuldb.com/?ip.85.202.195.0) | - | - | High
+220 | [85.222.232.0](https://vuldb.com/?ip.85.222.232.0) | - | - | High
+221 | [85.234.242.0](https://vuldb.com/?ip.85.234.242.0) | - | - | High
+222 | [85.234.244.0](https://vuldb.com/?ip.85.234.244.0) | - | - | High
+223 | [85.253.0.0](https://vuldb.com/?ip.85.253.0.0) | 85.253.0.0.bb.starman.ee | - | High
+224 | ... | ... | ... | ...
 
-There are 800 more IOC items available. Please use our online service to access the data.
+There are 894 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -250,52 +273,53 @@ ID | Type | Indicator | Confidence
 2 | File | `/#ilang=DE&b=c_smartenergy_swgroups` | High
 3 | File | `/Account/login.php` | High
 4 | File | `/admin/` | Low
-5 | File | `/admin/save.php` | High
-6 | File | `/adminapi/system/crud` | High
-7 | File | `/adminapi/system/file/openfile` | High
-8 | File | `/admin_route/dec_service_credits.php` | High
-9 | File | `/api/baskets/{name}` | High
-10 | File | `/api/download` | High
-11 | File | `/api/v1/alerts` | High
-12 | File | `/api/v1/terminal/sessions/?limit=1` | High
-13 | File | `/api/v4/teams//channels/deleted` | High
-14 | File | `/b2b-supermarket/shopping-cart` | High
-15 | File | `/cancel.php` | Medium
-16 | File | `/category.php` | High
-17 | File | `/categorypage.php` | High
-18 | File | `/cgi-bin/cstecgi.cgi` | High
-19 | File | `/cgi-bin/luci/api/wireless` | High
-20 | File | `/cgi-bin/vitogate.cgi` | High
-21 | File | `/change-language/de_DE` | High
-22 | File | `/Content/Template/root/reverse-shell.aspx` | High
-23 | File | `/core/conditions/AbstractWrapper.java` | High
-24 | File | `/debug/pprof` | Medium
-25 | File | `/devinfo` | Medium
-26 | File | `/dist/index.js` | High
-27 | File | `/download` | Medium
-28 | File | `/fcgi/scrut_fcgi.fcgi` | High
-29 | File | `/forum/away.php` | High
-30 | File | `/geoserver/gwc/rest.html` | High
-31 | File | `/goform/formSysCmd` | High
-32 | File | `/HNAP1` | Low
-33 | File | `/hosts/firewall/ip` | High
-34 | File | `/index.jsp#settings` | High
-35 | File | `/index.php/ccm/system/file/upload` | High
-36 | File | `/jeecg-boot/sys/common/upload` | High
-37 | File | `/log/decodmail.php` | High
-38 | File | `/oauth/idp/.well-known/openid-configuration` | High
-39 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
-40 | File | `/php/ping.php` | High
-41 | File | `/proxy` | Low
-42 | File | `/register.do` | Medium
-43 | File | `/RPS2019Service/status.html` | High
-44 | File | `/s/index.php?action=statistics` | High
-45 | File | `/setting` | Medium
-46 | File | `/Setting/change_password_save` | High
-47 | File | `/sicweb-ajax/tmproot/` | High
-48 | ... | ... | ...
+5 | File | `/Admin/changepassword.php` | High
+6 | File | `/admin/general-setting` | High
+7 | File | `/admin/index.php?page=manage_product` | High
+8 | File | `/admin/manage-ambulance.php` | High
+9 | File | `/admin/save.php` | High
+10 | File | `/admin/service` | High
+11 | File | `/adminapi/system/crud` | High
+12 | File | `/adminapi/system/file/openfile` | High
+13 | File | `/admin_route/dec_service_credits.php` | High
+14 | File | `/api/v1/alerts` | High
+15 | File | `/api/v4/teams//channels/deleted` | High
+16 | File | `/api/wechat/app_auth` | High
+17 | File | `/b2b-supermarket/shopping-cart` | High
+18 | File | `/backend/register.php` | High
+19 | File | `/cancel.php` | Medium
+20 | File | `/category.php` | High
+21 | File | `/cgi-bin/cstecgi.cgi` | High
+22 | File | `/cgi-bin/nas_sharing.cgi` | High
+23 | File | `/cgi-bin/vitogate.cgi` | High
+24 | File | `/cgi-bin/wlogin.cgi` | High
+25 | File | `/change-language/de_DE` | High
+26 | File | `/control/register_case.php` | High
+27 | File | `/dashboard/Cinvoice/manage_invoice` | High
+28 | File | `/debug/pprof` | Medium
+29 | File | `/devinfo` | Medium
+30 | File | `/dist/index.js` | High
+31 | File | `/download` | Medium
+32 | File | `/fcgi/scrut_fcgi.fcgi` | High
+33 | File | `/forum/away.php` | High
+34 | File | `/geoserver/gwc/rest.html` | High
+35 | File | `/goform/formSysCmd` | High
+36 | File | `/HNAP1` | Low
+37 | File | `/hosts/firewall/ip` | High
+38 | File | `/index.jsp#settings` | High
+39 | File | `/index.php` | Medium
+40 | File | `/index.php/ccm/system/file/upload` | High
+41 | File | `/lesson/controller.php` | High
+42 | File | `/log/decodmail.php` | High
+43 | File | `/manage_receiving.php` | High
+44 | File | `/manage_sy.php` | High
+45 | File | `/mobileredir/openApp.jsp` | High
+46 | File | `/ndmComponents.js` | High
+47 | File | `/oauth/idp/.well-known/openid-configuration` | High
+48 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
+49 | ... | ... | ...
 
-There are 421 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 428 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -304,6 +328,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://github.com/firehol/blocklist-ipsets/blob/master/geolite2_country/country_ee.netset
 * https://github.com/firehol/blocklist-ipsets/blob/master/ip2location_country/ip2location_country_ee.netset
 * https://github.com/firehol/blocklist-ipsets/blob/master/ipip_country/ipip_country_ee.netset
+* https://github.com/scriptzteam/Private-Internet-Access-VPN-Servers/blob/main/export.csv
 
 ## Literature
 

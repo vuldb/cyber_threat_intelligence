@@ -44,24 +44,24 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/edit_member.php` | High
-2 | File | `/cgi-bin` | Medium
-3 | File | `/cgi-bin/ExportAllSettings.sh` | High
-4 | File | `/forum/away.php` | High
-5 | File | `/include/comm_post.inc.php` | High
-6 | File | `/magnoliaPublic/travel/members/login.html` | High
-7 | File | `/register.do` | Medium
-8 | File | `/secure/EditSubscription.jspa` | High
-9 | File | `/spip.php` | Medium
-10 | File | `addentry.php` | Medium
-11 | File | `admin.php` | Medium
-12 | File | `admin/admin.guestbook.php` | High
-13 | File | `admin/admin.php` | High
-14 | File | `admin/conf_users_edit.php` | High
-15 | File | `admin/index.php` | High
-16 | File | `AppCompatCache.exe` | High
+2 | File | `/backend/register.php` | High
+3 | File | `/cgi-bin` | Medium
+4 | File | `/cgi-bin/ExportAllSettings.sh` | High
+5 | File | `/forum/away.php` | High
+6 | File | `/include/comm_post.inc.php` | High
+7 | File | `/magnoliaPublic/travel/members/login.html` | High
+8 | File | `/register.do` | Medium
+9 | File | `/secure/EditSubscription.jspa` | High
+10 | File | `/spip.php` | Medium
+11 | File | `addentry.php` | Medium
+12 | File | `admin.php` | Medium
+13 | File | `admin/admin.guestbook.php` | High
+14 | File | `admin/admin.php` | High
+15 | File | `admin/conf_users_edit.php` | High
+16 | File | `admin/index.php` | High
 17 | ... | ... | ...
 
-There are 138 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 141 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

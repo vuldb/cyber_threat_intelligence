@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [VN](https://vuldb.com/?country.vn)
 * [US](https://vuldb.com/?country.us)
-* [GB](https://vuldb.com/?country.gb)
+* [TR](https://vuldb.com/?country.tr)
 * ...
 
-There are 10 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -23,17 +23,19 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [14.198.168.140](https://vuldb.com/?ip.14.198.168.140) | 014198168140.ctinets.com | - | High
 2 | [24.11.70.85](https://vuldb.com/?ip.24.11.70.85) | c-24-11-70-85.hsd1.ut.comcast.net | - | High
-3 | [24.142.165.2](https://vuldb.com/?ip.24.142.165.2) | 024-142-165-002.biz.spectrum.com | - | High
-4 | [42.98.5.225](https://vuldb.com/?ip.42.98.5.225) | 42-98-5-225.static.netvigator.com | - | High
-5 | [45.83.90.11](https://vuldb.com/?ip.45.83.90.11) | - | - | High
-6 | [45.91.95.181](https://vuldb.com/?ip.45.91.95.181) | sks3.simoxap.xyz | - | High
-7 | [50.173.136.70](https://vuldb.com/?ip.50.173.136.70) | c-50-173-136-70.unallocated.comcastbusiness.net | - | High
-8 | [61.14.68.33](https://vuldb.com/?ip.61.14.68.33) | - | - | High
-9 | [62.4.36.126](https://vuldb.com/?ip.62.4.36.126) | - | - | High
-10 | [68.76.150.97](https://vuldb.com/?ip.68.76.150.97) | 68-76-150-97.lightspeed.hstntx.sbcglobal.net | - | High
-11 | ... | ... | ... | ...
+3 | [24.88.87.29](https://vuldb.com/?ip.24.88.87.29) | syn-024-088-087-029.res.spectrum.com | - | High
+4 | [24.142.165.2](https://vuldb.com/?ip.24.142.165.2) | 024-142-165-002.biz.spectrum.com | - | High
+5 | [32.143.50.222](https://vuldb.com/?ip.32.143.50.222) | - | - | High
+6 | [42.98.5.225](https://vuldb.com/?ip.42.98.5.225) | 42-98-5-225.static.netvigator.com | - | High
+7 | [45.83.90.11](https://vuldb.com/?ip.45.83.90.11) | - | - | High
+8 | [45.91.95.181](https://vuldb.com/?ip.45.91.95.181) | sks3.simoxap.xyz | - | High
+9 | [50.173.136.70](https://vuldb.com/?ip.50.173.136.70) | c-50-173-136-70.unallocated.comcastbusiness.net | - | High
+10 | [61.14.68.33](https://vuldb.com/?ip.61.14.68.33) | - | - | High
+11 | [62.4.36.126](https://vuldb.com/?ip.62.4.36.126) | - | - | High
+12 | [68.76.150.97](https://vuldb.com/?ip.68.76.150.97) | 68-76-150-97.lightspeed.hstntx.sbcglobal.net | - | High
+13 | ... | ... | ... | ...
 
-There are 38 more IOC items available. Please use our online service to access the data.
+There are 46 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -41,11 +43,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23, CWE-24, CWE-29 | Path Traversal | High
-2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-271, CWE-284 | Execution with Unnecessary Privileges | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Path Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
 There are 20 more TTP items available. Please use our online service to access the data.
@@ -56,60 +58,67 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/.env` | Low
-3 | File | `/adm/syscmd.asp` | High
-4 | File | `/admin/action/new-father.php` | High
-5 | File | `/admin/clientview.php` | High
-6 | File | `/admin/edit_teacher.php` | High
-7 | File | `/admin/fields/manage_field.php` | High
-8 | File | `/admin/index.php` | High
-9 | File | `/Admin/News.php` | High
-10 | File | `/admin/orders/view_order.php` | High
-11 | File | `/admin/regester.php` | High
-12 | File | `/admin/update-clients.php` | High
-13 | File | `/admin/view_order.php` | High
-14 | File | `/admin_ping.htm` | High
-15 | File | `/admin_route/dec_service_credits.php` | High
-16 | File | `/admin_route/inc_service_credits.php` | High
-17 | File | `/api/cron/settings/setJob/` | High
-18 | File | `/api/sys/set_passwd` | High
-19 | File | `/api/v1/terminal/sessions/?limit=1` | High
-20 | File | `/app/api/controller/default/Sqlite.php` | High
-21 | File | `/application/index/controller/Databasesource.php` | High
-22 | File | `/application/index/controller/Icon.php` | High
-23 | File | `/application/index/controller/Screen.php` | High
-24 | File | `/application/plugins/controller/Upload.php` | High
-25 | File | `/apply.cgi` | Medium
-26 | File | `/apps/reg_go.php` | High
-27 | File | `/arch/x86/mm/cpu_entry_area.c` | High
-28 | File | `/authenticationendpoint/login.do` | High
-29 | File | `/billing/bill/edit/` | High
-30 | File | `/bin/boa` | Medium
-31 | File | `/boaform/device_reset.cgi` | High
-32 | File | `/boafrm/formMapDelDevice` | High
-33 | File | `/bsms_ci/index.php/user/edit_user/` | High
-34 | File | `/cgi-bin/cstecgi.cgi` | High
-35 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-36 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
-37 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-38 | File | `/cgi-bin/mainfunction.cgi` | High
-39 | File | `/cgi-bin/R14.2/cgi-bin/R14.2/host.pl` | High
-40 | File | `/cgi-bin/R14.2/easy1350.pl` | High
-41 | File | `/cgi-bin/system_mgr.cgi` | High
-42 | File | `/cgi-bin/wlogin.cgi` | High
-43 | File | `/classes/Login.php` | High
-44 | File | `/classes/Users.php` | High
-45 | File | `/config/getuser` | High
-46 | ... | ... | ...
+1 | File | `/#/network?tab=network_node_list.html` | High
+2 | File | `/+CSCOE+/logon.html` | High
+3 | File | `/.env` | Low
+4 | File | `/adm/syscmd.asp` | High
+5 | File | `/admin/index.php` | High
+6 | File | `/admin/list_localuser.php` | High
+7 | File | `/Admin/News.php` | High
+8 | File | `/admin/orders/view_order.php` | High
+9 | File | `/admin/suppliers/view_details.php` | High
+10 | File | `/adminPage/main/upload` | High
+11 | File | `/admin_ping.htm` | High
+12 | File | `/api/v1` | Low
+13 | File | `/application/index/controller/Databasesource.php` | High
+14 | File | `/application/index/controller/Icon.php` | High
+15 | File | `/application/index/controller/Screen.php` | High
+16 | File | `/application/plugins/controller/Upload.php` | High
+17 | File | `/apps/reg_go.php` | High
+18 | File | `/billing/bill/edit/` | High
+19 | File | `/cgi-bin/cstecgi.cgi` | High
+20 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
+21 | File | `/cgi-bin/info.cgi` | High
+22 | File | `/cgi-bin/mainfunction.cgi` | High
+23 | File | `/cgi-bin/nas_sharing.cgi` | High
+24 | File | `/cgi-bin/system_mgr.cgi` | High
+25 | File | `/cgi-bin/wlogin.cgi` | High
+26 | File | `/classes/Login.php` | High
+27 | File | `/classes/Users.php` | High
+28 | File | `/config/getuser` | High
+29 | File | `/core/config-revisions` | High
+30 | File | `/core/redirect` | High
+31 | File | `/DesignTools/CssEditor.aspx` | High
+32 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
+33 | File | `/DXR.axd` | Medium
+34 | File | `/ECT_Provider/` | High
+35 | File | `/Employer/EditProfile.php` | High
+36 | File | `/EXCU_SHELL` | Medium
+37 | File | `/fax/fax_send.php` | High
+38 | File | `/finance/help/en/frameset.htm` | High
+39 | File | `/forum/away.php` | High
+40 | File | `/general/attendance/manage/ask_duty/delete.php` | High
+41 | File | `/goform/` | Medium
+42 | File | `/h/autoSaveDraft` | High
+43 | File | `/home.php` | Medium
+44 | File | `/Home/Index` | Medium
+45 | File | `/hrm/leaverequest.php` | High
+46 | File | `/inc/modules_install.php` | High
+47 | File | `/index.php` | Medium
+48 | File | `/index.php?app=main&func=passport&action=login` | High
+49 | File | `/itbox_pi/vpn_quickset_service.php?a=set_vpn` | High
+50 | File | `/Maintain/sprog_upstatus.php` | High
+51 | File | `/member/chat.php` | High
+52 | ... | ... | ...
 
-There are 397 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 451 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://www.trendmicro.com/content/dam/trendmicro/global/en/research/23/l/pawn-storm-uses-brute-force-and-stealth-against-high-value-targets-/iocs-pawn-storm-uses-brute-force-and-stealth-against-high-value-targets.txt
+* https://www.trendmicro.com/en_us/research/24/e/router-roulette.html
 
 ## Literature
 

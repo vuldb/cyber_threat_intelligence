@@ -42,7 +42,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
-2 | T1055 | CWE-74 | Injection | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
@@ -56,21 +56,22 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/maintenance/view_designation.php` | High
-2 | File | `/auth/register` | High
-3 | File | `/cgi-bin/kerbynet` | High
-4 | File | `/damicms-master/admin.php?s=/Article/doedit` | High
-5 | File | `/etc/quagga` | Medium
-6 | File | `/main?cmd=invalid_browser` | High
-7 | File | `/opt/IBM/es/lib/libffq.cryptionjni.so` | High
-8 | File | `/pdf/InfoOutputDev.cc` | High
-9 | File | `/plugins/Dashboard/Controller.php` | High
-10 | File | `/signup.php` | Medium
-11 | File | `/storage/app/media/evil.svg` | High
-12 | File | `/uncpath/` | Medium
-13 | File | `/usr/lpp/mmfs/bin/` | High
-14 | ... | ... | ...
+2 | File | `/admin/template` | High
+3 | File | `/auth/register` | High
+4 | File | `/cgi-bin/kerbynet` | High
+5 | File | `/damicms-master/admin.php?s=/Article/doedit` | High
+6 | File | `/etc/quagga` | Medium
+7 | File | `/main?cmd=invalid_browser` | High
+8 | File | `/opt/IBM/es/lib/libffq.cryptionjni.so` | High
+9 | File | `/pdf/InfoOutputDev.cc` | High
+10 | File | `/plugins/Dashboard/Controller.php` | High
+11 | File | `/signup.php` | Medium
+12 | File | `/storage/app/media/evil.svg` | High
+13 | File | `/uncpath/` | Medium
+14 | File | `/usr/lpp/mmfs/bin/` | High
+15 | ... | ... | ...
 
-There are 115 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 117 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

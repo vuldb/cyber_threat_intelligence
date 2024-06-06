@@ -4,6 +4,12 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.mexico_unknown](https://vuldb.com/?actor.mexico_unknown)
 
+## Campaigns
+
+The following _campaigns_ are known and can be associated with Mexico Unknown:
+
+* Suspended Domains
+
 ## Countries
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Mexico Unknown:
@@ -13,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 16 more country items available. Please use our online service to access the data.
+There are 19 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -744,9 +750,37 @@ ID | IP address | Hostname | Campaign | Confidence
 721 | [66.208.117.75](https://vuldb.com/?ip.66.208.117.75) | - | - | High
 722 | [66.208.117.144](https://vuldb.com/?ip.66.208.117.144) | - | - | High
 723 | [66.208.117.164](https://vuldb.com/?ip.66.208.117.164) | - | - | High
-724 | ... | ... | ... | ...
+724 | [66.208.117.172](https://vuldb.com/?ip.66.208.117.172) | - | - | High
+725 | [66.208.117.174](https://vuldb.com/?ip.66.208.117.174) | - | - | High
+726 | [66.208.117.176](https://vuldb.com/?ip.66.208.117.176) | - | - | High
+727 | [66.208.117.185](https://vuldb.com/?ip.66.208.117.185) | - | - | High
+728 | [66.208.117.202](https://vuldb.com/?ip.66.208.117.202) | - | - | High
+729 | [66.208.117.214](https://vuldb.com/?ip.66.208.117.214) | - | - | High
+730 | [66.208.117.216](https://vuldb.com/?ip.66.208.117.216) | - | - | High
+731 | [66.208.117.223](https://vuldb.com/?ip.66.208.117.223) | - | - | High
+732 | [66.208.117.224](https://vuldb.com/?ip.66.208.117.224) | - | - | High
+733 | [66.208.117.238](https://vuldb.com/?ip.66.208.117.238) | - | - | High
+734 | [66.208.118.128](https://vuldb.com/?ip.66.208.118.128) | 66-208-118-128.transtelco.net | - | High
+735 | [66.208.118.160](https://vuldb.com/?ip.66.208.118.160) | 66-208-118-160.transtelco.net | - | High
+736 | [66.208.118.184](https://vuldb.com/?ip.66.208.118.184) | 66-208-118-184.transtelco.net | - | High
+737 | [66.208.118.192](https://vuldb.com/?ip.66.208.118.192) | 66-208-118-192.transtelco.net | - | High
+738 | [66.208.119.36](https://vuldb.com/?ip.66.208.119.36) | 66-208-119-36.transtelco.net | - | High
+739 | [66.208.119.40](https://vuldb.com/?ip.66.208.119.40) | - | - | High
+740 | [66.208.119.48](https://vuldb.com/?ip.66.208.119.48) | - | - | High
+741 | [66.208.119.64](https://vuldb.com/?ip.66.208.119.64) | 66-208-119-64.transtelco.net | - | High
+742 | [66.208.119.72](https://vuldb.com/?ip.66.208.119.72) | 66-208-119-72.transtelco.net | - | High
+743 | [66.208.119.80](https://vuldb.com/?ip.66.208.119.80) | 66-208-119-80.transtelco.net | - | High
+744 | [66.208.119.89](https://vuldb.com/?ip.66.208.119.89) | 66-208-119-89.transtelco.net | - | High
+745 | [66.208.119.90](https://vuldb.com/?ip.66.208.119.90) | 66-208-119-90.transtelco.net | - | High
+746 | [66.208.119.92](https://vuldb.com/?ip.66.208.119.92) | 66-208-119-92.transtelco.net | - | High
+747 | [66.208.119.96](https://vuldb.com/?ip.66.208.119.96) | - | - | High
+748 | [66.208.119.103](https://vuldb.com/?ip.66.208.119.103) | - | - | High
+749 | [66.208.119.112](https://vuldb.com/?ip.66.208.119.112) | - | - | High
+750 | [66.208.119.172](https://vuldb.com/?ip.66.208.119.172) | 66-208-119-172.transtelco.net | - | High
+751 | [66.208.119.176](https://vuldb.com/?ip.66.208.119.176) | 66-208-119-176.transtelco.net | - | High
+752 | ... | ... | ... | ...
 
-There are 2890 more IOC items available. Please use our online service to access the data.
+There are 3003 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -754,14 +788,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-25, CWE-36, CWE-425 | Path Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+1 | T1006 | CWE-22, CWE-25, CWE-36 | Path Traversal | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -769,57 +802,65 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `%SYSTEMDRIVE%\node_modules\.bin\wmic.exe` | High
-2 | File | `/#ilang=DE&b=c_smartenergy_swgroups` | High
-3 | File | `/Account/login.php` | High
-4 | File | `/admin/` | Low
-5 | File | `/admin/sys_sql_query.php` | High
-6 | File | `/adminapi/system/crud` | High
-7 | File | `/adminapi/system/file/openfile` | High
-8 | File | `/admin_route/dec_service_credits.php` | High
-9 | File | `/api/v1/alerts` | High
-10 | File | `/api/v4/teams//channels/deleted` | High
-11 | File | `/b2b-supermarket/shopping-cart` | High
-12 | File | `/cgi-bin/cstecgi.cgi` | High
-13 | File | `/change-language/de_DE` | High
-14 | File | `/debug/pprof` | Medium
-15 | File | `/devinfo` | Medium
-16 | File | `/dist/index.js` | High
-17 | File | `/fcgi/scrut_fcgi.fcgi` | High
-18 | File | `/Forms/oadmin_1` | High
-19 | File | `/forum/away.php` | High
-20 | File | `/geoserver/gwc/rest.html` | High
-21 | File | `/goform/formSysCmd` | High
-22 | File | `/hosts/firewall/ip` | High
-23 | File | `/index.jsp#settings` | High
-24 | File | `/index.php/ccm/system/file/upload` | High
-25 | File | `/log/decodmail.php` | High
-26 | File | `/main/doctype.php` | High
-27 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-28 | File | `/oauth/idp/.well-known/openid-configuration` | High
-29 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
-30 | File | `/php/ping.php` | High
-31 | File | `/proxy` | Low
-32 | File | `/s/index.php?action=statistics` | High
-33 | File | `/scripts/unlock_tasks.php` | High
-34 | File | `/setting` | Medium
-35 | File | `/signup.php` | Medium
-36 | File | `/skyboxview-softwareupdate/services/CollectorSoftwareUpdate` | High
-37 | File | `/spip.php` | Medium
-38 | File | `/st_reg.php` | Medium
-39 | File | `/subsys/net/l2/wifi/wifi_shell.c` | High
-40 | File | `/supplier.php` | High
-41 | File | `/system/role/list` | High
-42 | ... | ... | ...
+1 | File | `/#ilang=DE&b=c_smartenergy_swgroups` | High
+2 | File | `/Account/login.php` | High
+3 | File | `/admin/` | Low
+4 | File | `/Admin/changepassword.php` | High
+5 | File | `/admin/court` | Medium
+6 | File | `/Admin/createClass.php` | High
+7 | File | `/admin/general-setting` | High
+8 | File | `/admin/login.php` | High
+9 | File | `/admin/maintenance/manage_brand.php` | High
+10 | File | `/admin/orders/view_order.php` | High
+11 | File | `/admin/problem_judge.php` | High
+12 | File | `/admin/service` | High
+13 | File | `/admin/sys_sql_query.php` | High
+14 | File | `/admin/update-users.php` | High
+15 | File | `/adminapi/system/crud` | High
+16 | File | `/adminapi/system/file/openfile` | High
+17 | File | `/admin_route/dec_service_credits.php` | High
+18 | File | `/api/v4/teams//channels/deleted` | High
+19 | File | `/api/wechat/app_auth` | High
+20 | File | `/api/{org_id}/users` | High
+21 | File | `/application/index/controller/Databasesource.php` | High
+22 | File | `/blog/blog.php` | High
+23 | File | `/cancel.php` | Medium
+24 | File | `/catalog/admin/categories.php?cPath=&action=new_product` | High
+25 | File | `/category.php` | High
+26 | File | `/cgi-bin/cstecgi.cgi` | High
+27 | File | `/cgi-bin/nas_sharing.cgi` | High
+28 | File | `/change-language/de_DE` | High
+29 | File | `/College/admin/teacher.php` | High
+30 | File | `/conf/app.conf` | High
+31 | File | `/control/register_case.php` | High
+32 | File | `/devinfo` | Medium
+33 | File | `/dist/index.js` | High
+34 | File | `/download` | Medium
+35 | File | `/forum/away.php` | High
+36 | File | `/goform/delIpMacBind` | High
+37 | File | `/goform/wifiSSIDset` | High
+38 | File | `/index.jsp#settings` | High
+39 | File | `/index.php` | Medium
+40 | File | `/index.php/ccm/system/file/upload` | High
+41 | File | `/livesite/edit_designer_region.php` | High
+42 | File | `/log/decodmail.php` | High
+43 | File | `/main/doctype.php` | High
+44 | File | `/manage_sy.php` | High
+45 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+46 | File | `/ndmComponents.js` | High
+47 | File | `/oauth/idp/.well-known/openid-configuration` | High
+48 | ... | ... | ...
 
-There are 359 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 419 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://cybersecuritynews.com/weaponize-suspended-domains/
 * https://github.com/firehol/blocklist-ipsets/blob/master/geolite2_country/country_mx.netset
 * https://github.com/firehol/blocklist-ipsets/blob/master/ip2location_country/ip2location_country_mx.netset
+* https://github.com/scriptzteam/Private-Internet-Access-VPN-Servers/blob/main/export.csv
 * https://raw.githubusercontent.com/firehol/blocklist-ipsets/master/ipip_country/ipip_country_mx.netset
 
 ## Literature

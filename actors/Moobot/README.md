@@ -8,6 +8,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 The following _campaigns_ are known and can be associated with MooBot:
 
+* CVE-2023-1389
 * DDoS Ukraine
 * UNIX CCTV DVR
 
@@ -24,37 +25,45 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [5.181.80.126](https://vuldb.com/?ip.5.181.80.126) | ip-80-126-bullethost.net | - | High
-2 | [14.225.208.190](https://vuldb.com/?ip.14.225.208.190) | static.vnpt.vn | - | High
-3 | [14.225.213.142](https://vuldb.com/?ip.14.225.213.142) | static.vnpt.vn | - | High
-4 | [23.94.104.16](https://vuldb.com/?ip.23.94.104.16) | 23-94-104-16-host.colocrossing.com | - | High
-5 | [31.13.195.56](https://vuldb.com/?ip.31.13.195.56) | - | - | High
-6 | [34.18.78.72](https://vuldb.com/?ip.34.18.78.72) | 72.78.18.34.bc.googleusercontent.com | - | Medium
-7 | [37.49.226.216](https://vuldb.com/?ip.37.49.226.216) | - | - | High
-8 | [40.83.122.109](https://vuldb.com/?ip.40.83.122.109) | - | - | High
-9 | [42.96.2.220](https://vuldb.com/?ip.42.96.2.220) | - | - | High
-10 | [42.112.76.107](https://vuldb.com/?ip.42.112.76.107) | - | - | High
-11 | [42.119.113.85](https://vuldb.com/?ip.42.119.113.85) | - | - | High
-12 | [45.11.93.150](https://vuldb.com/?ip.45.11.93.150) | - | - | High
-13 | [45.13.227.12](https://vuldb.com/?ip.45.13.227.12) | tube-hosting.com | - | High
-14 | [45.77.240.70](https://vuldb.com/?ip.45.77.240.70) | 45.77.240.70.vultrusercontent.com | - | High
-15 | [45.95.168.90](https://vuldb.com/?ip.45.95.168.90) | - | - | High
-16 | [45.95.169.14](https://vuldb.com/?ip.45.95.169.14) | - | - | High
-17 | [45.95.169.135](https://vuldb.com/?ip.45.95.169.135) | - | - | High
-18 | [45.118.146.123](https://vuldb.com/?ip.45.118.146.123) | - | - | High
-19 | [45.128.232.4](https://vuldb.com/?ip.45.128.232.4) | - | - | High
-20 | [45.128.232.82](https://vuldb.com/?ip.45.128.232.82) | - | - | High
-21 | [45.139.104.69](https://vuldb.com/?ip.45.139.104.69) | - | - | High
-22 | [45.152.86.86](https://vuldb.com/?ip.45.152.86.86) | - | - | High
-23 | [45.154.3.56](https://vuldb.com/?ip.45.154.3.56) | - | - | High
-24 | [51.250.71.111](https://vuldb.com/?ip.51.250.71.111) | - | - | High
-25 | [74.50.85.233](https://vuldb.com/?ip.74.50.85.233) | truepath.tomtech.co.za | - | High
-26 | [79.137.207.38](https://vuldb.com/?ip.79.137.207.38) | workable-moon.aeza.network | - | High
-27 | [84.54.51.103](https://vuldb.com/?ip.84.54.51.103) | nekololis.ovh | - | High
-28 | [85.204.116.119](https://vuldb.com/?ip.85.204.116.119) | - | - | High
-29 | ... | ... | ... | ...
+1 | [5.10.249.153](https://vuldb.com/?ip.5.10.249.153) | ptr.potenting.com | CVE-2023-1389 | High
+2 | [5.181.80.126](https://vuldb.com/?ip.5.181.80.126) | ip-80-126-bullethost.net | - | High
+3 | [5.182.211.142](https://vuldb.com/?ip.5.182.211.142) | 5-182-211-142.hosted-by.skb-enterprise.com | - | High
+4 | [14.225.203.65](https://vuldb.com/?ip.14.225.203.65) | static.vnpt.vn | - | High
+5 | [14.225.208.190](https://vuldb.com/?ip.14.225.208.190) | static.vnpt.vn | - | High
+6 | [14.225.213.142](https://vuldb.com/?ip.14.225.213.142) | static.vnpt.vn | - | High
+7 | [14.225.219.227](https://vuldb.com/?ip.14.225.219.227) | static.vnpt.vn | - | High
+8 | [14.225.219.252](https://vuldb.com/?ip.14.225.219.252) | static.vnpt.vn | - | High
+9 | [20.222.185.152](https://vuldb.com/?ip.20.222.185.152) | - | - | High
+10 | [23.94.104.16](https://vuldb.com/?ip.23.94.104.16) | 23-94-104-16-host.colocrossing.com | - | High
+11 | [31.13.195.56](https://vuldb.com/?ip.31.13.195.56) | - | - | High
+12 | [34.18.78.72](https://vuldb.com/?ip.34.18.78.72) | 72.78.18.34.bc.googleusercontent.com | - | Medium
+13 | [37.49.226.216](https://vuldb.com/?ip.37.49.226.216) | - | - | High
+14 | [40.83.122.109](https://vuldb.com/?ip.40.83.122.109) | - | - | High
+15 | [42.96.2.220](https://vuldb.com/?ip.42.96.2.220) | - | - | High
+16 | [42.112.76.107](https://vuldb.com/?ip.42.112.76.107) | - | - | High
+17 | [42.119.113.85](https://vuldb.com/?ip.42.119.113.85) | - | - | High
+18 | [45.11.93.150](https://vuldb.com/?ip.45.11.93.150) | - | - | High
+19 | [45.13.227.12](https://vuldb.com/?ip.45.13.227.12) | tube-hosting.com | - | High
+20 | [45.67.86.155](https://vuldb.com/?ip.45.67.86.155) | 155.86.67.45.ch.kuroit.com | - | High
+21 | [45.67.86.157](https://vuldb.com/?ip.45.67.86.157) | 157.86.67.45.ch.kuroit.com | - | High
+22 | [45.77.240.70](https://vuldb.com/?ip.45.77.240.70) | 45.77.240.70.vultrusercontent.com | - | High
+23 | [45.88.90.17](https://vuldb.com/?ip.45.88.90.17) | - | - | High
+24 | [45.88.90.30](https://vuldb.com/?ip.45.88.90.30) | - | - | High
+25 | [45.95.168.90](https://vuldb.com/?ip.45.95.168.90) | - | - | High
+26 | [45.95.169.14](https://vuldb.com/?ip.45.95.169.14) | - | - | High
+27 | [45.95.169.135](https://vuldb.com/?ip.45.95.169.135) | - | - | High
+28 | [45.118.146.123](https://vuldb.com/?ip.45.118.146.123) | - | - | High
+29 | [45.128.232.4](https://vuldb.com/?ip.45.128.232.4) | - | - | High
+30 | [45.128.232.8](https://vuldb.com/?ip.45.128.232.8) | - | - | High
+31 | [45.128.232.82](https://vuldb.com/?ip.45.128.232.82) | - | - | High
+32 | [45.128.232.90](https://vuldb.com/?ip.45.128.232.90) | 90.232.128.45.pfcloud.io | - | High
+33 | [45.128.232.130](https://vuldb.com/?ip.45.128.232.130) | - | - | High
+34 | [45.139.104.69](https://vuldb.com/?ip.45.139.104.69) | - | - | High
+35 | [45.152.86.86](https://vuldb.com/?ip.45.152.86.86) | - | - | High
+36 | [45.154.3.56](https://vuldb.com/?ip.45.154.3.56) | - | - | High
+37 | ... | ... | ... | ...
 
-There are 113 more IOC items available. Please use our online service to access the data.
+There are 144 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -62,14 +71,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-425 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Path Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -77,49 +86,53 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/.env` | Low
-2 | File | `/admin/edit_teacher.php` | High
-3 | File | `/admin/fields/manage_field.php` | High
-4 | File | `/admin/index.php` | High
+1 | File | `/#/network?tab=network_node_list.html` | High
+2 | File | `/.env` | Low
+3 | File | `/admin/index.php` | High
+4 | File | `/admin/list_localuser.php` | High
 5 | File | `/admin/orders/view_order.php` | High
-6 | File | `/admin_ping.htm` | High
-7 | File | `/application/index/controller/Databasesource.php` | High
-8 | File | `/application/index/controller/Icon.php` | High
-9 | File | `/application/index/controller/Screen.php` | High
-10 | File | `/application/plugins/controller/Upload.php` | High
-11 | File | `/apps/reg_go.php` | High
-12 | File | `/arch/x86/mm/cpu_entry_area.c` | High
-13 | File | `/billing/bill/edit/` | High
-14 | File | `/boafrm/formMapDelDevice` | High
-15 | File | `/calendar/minimizer/index.php` | High
-16 | File | `/cgi-bin/cstecgi.cgi` | High
-17 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
-18 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-19 | File | `/cgi-bin/mainfunction.cgi` | High
-20 | File | `/cgi-bin/system_mgr.cgi` | High
-21 | File | `/cgi-bin/wlogin.cgi` | High
-22 | File | `/classes/Login.php` | High
-23 | File | `/classes/Users.php` | High
-24 | File | `/core/conditions/AbstractWrapper.java` | High
-25 | File | `/core/redirect` | High
-26 | File | `/core/tools/update_menu.php` | High
-27 | File | `/dayrui/My/Config/Install.txt` | High
-28 | File | `/DXR.axd` | Medium
-29 | File | `/ECT_Provider/` | High
-30 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-31 | File | `/Employer/EditProfile.php` | High
-32 | File | `/fax/fax_send.php` | High
-33 | File | `/forum/away.php` | High
-34 | File | `/general/attendance/manage/ask_duty/delete.php` | High
-35 | File | `/goform/` | Medium
-36 | File | `/goform/WifiMacFilterGet` | High
-37 | File | `/goform/wifiSSIDset` | High
-38 | File | `/h/autoSaveDraft` | High
-39 | File | `/home.php` | Medium
-40 | File | `/Home/Index` | Medium
-41 | ... | ... | ...
+6 | File | `/admin/suppliers/view_details.php` | High
+7 | File | `/adminPage/main/upload` | High
+8 | File | `/apps/reg_go.php` | High
+9 | File | `/billing/bill/edit/` | High
+10 | File | `/cgi-bin/cstecgi.cgi` | High
+11 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
+12 | File | `/cgi-bin/info.cgi` | High
+13 | File | `/cgi-bin/mainfunction.cgi` | High
+14 | File | `/cgi-bin/nas_sharing.cgi` | High
+15 | File | `/cgi-bin/system_mgr.cgi` | High
+16 | File | `/cgi-bin/wlogin.cgi` | High
+17 | File | `/classes/Login.php` | High
+18 | File | `/classes/Users.php` | High
+19 | File | `/DesignTools/CssEditor.aspx` | High
+20 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
+21 | File | `/DXR.axd` | Medium
+22 | File | `/ECT_Provider/` | High
+23 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+24 | File | `/Employer/EditProfile.php` | High
+25 | File | `/EXCU_SHELL` | Medium
+26 | File | `/fax/fax_send.php` | High
+27 | File | `/finance/help/en/frameset.htm` | High
+28 | File | `/forum/away.php` | High
+29 | File | `/goform/` | Medium
+30 | File | `/h/autoSaveDraft` | High
+31 | File | `/home.php` | Medium
+32 | File | `/Home/Index` | Medium
+33 | File | `/hrm/leaverequest.php` | High
+34 | File | `/inc/modules_install.php` | High
+35 | File | `/index.php` | Medium
+36 | File | `/index.php?app=main&func=passport&action=login` | High
+37 | File | `/ipms/imageConvert/image` | High
+38 | File | `/itbox_pi/vpn_quickset_service.php?a=set_vpn` | High
+39 | File | `/Maintain/sprog_upstatus.php` | High
+40 | File | `/member/chat.php` | High
+41 | File | `/member/member_edit.php` | High
+42 | File | `/member/view.php` | High
+43 | File | `/movie.php` | Medium
+44 | File | `/myprofile.php` | High
+45 | ... | ... | ...
 
-There are 351 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 391 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -130,6 +143,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://bazaar.abuse.ch/sample/71d1ed5fba5b97dd00bc8d7c5c155cb45822c5b63f5162e3fddaa177d7fa76d7/
 * https://bazaar.abuse.ch/sample/90ee907f4847013a3c42e7f9292b27b0957e531556f2d610e81864beb6b7c663/
 * https://bazaar.abuse.ch/sample/907cc83a60ad4dce687274f158cf52e1f5f65f5ffc2916e391ec8f36982986dd/
+* https://bazaar.abuse.ch/sample/398800b2ce9591dc53bf2b29ab482abaab0da903ec99fd9288db04dbb88ba969/
 * https://bazaar.abuse.ch/sample/b3d25c49483da2433b6dd0888f2bef0d4a7528d5a30b3366e6be9d956815ff31/
 * https://bazaar.abuse.ch/sample/e09dfc1ba1052e4b5c2c3ff2d9985f6f5024b526aeb8ae4a1d28d8cd81bb0c1e/
 * https://blog.netlab.360.com/ddos-botnet-moobot-en/
@@ -179,6 +193,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/194.116.216.83
 * https://search.censys.io/hosts/210.211.117.205
 * https://threatfox.abuse.ch
+* https://www.fortinet.com/blog/threat-research/botnets-continue-exploiting-cve-2023-1389-for-wide-scale-spread
 
 ## Literature
 

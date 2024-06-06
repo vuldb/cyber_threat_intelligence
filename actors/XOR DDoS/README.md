@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with XOR DDoS:
 
 * [US](https://vuldb.com/?country.us)
-* [SG](https://vuldb.com/?country.sg)
 * [CN](https://vuldb.com/?country.cn)
+* [SG](https://vuldb.com/?country.sg)
 * ...
 
 There are 2 more country items available. Please use our online service to access the data.
@@ -29,7 +29,7 @@ ID | IP address | Hostname | Campaign | Confidence
 6 | [54.36.15.96](https://vuldb.com/?ip.54.36.15.96) | ip96.ip-54-36-15.eu | - | High
 7 | ... | ... | ... | ...
 
-There are 22 more IOC items available. Please use our online service to access the data.
+There are 26 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -53,43 +53,43 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/general.cgi` | High
 2 | File | `/admin/reminders/manage_reminder.php` | High
-3 | File | `/CCMAdmin/serverlist.asp` | High
-4 | File | `/cgi/get_param.cgi` | High
-5 | File | `/csms/admin/inquiries/view_details.php` | High
-6 | File | `/cstecgi.cgi` | Medium
-7 | File | `/files.md5` | Medium
-8 | File | `/forum/away.php` | High
-9 | File | `/hrm/employeeview.php` | High
-10 | File | `/images/` | Medium
-11 | File | `/include/chart_generator.php` | High
-12 | File | `/librarian/bookdetails.php` | High
-13 | File | `/login` | Low
-14 | File | `/messageboard/view.php` | High
-15 | File | `/modules/profile/index.php` | High
-16 | File | `/one_church/userregister.php` | High
-17 | File | `/out.php` | Medium
-18 | File | `/owa/auth/logon.aspx` | High
-19 | File | `/public/plugins/` | High
-20 | File | `/SAP_Information_System/controllers/add_admin.php` | High
-21 | File | `/SASWebReportStudio/logonAndRender.do` | High
-22 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-23 | File | `/secure/admin/ViewInstrumentation.jspa` | High
-24 | File | `/SVFE2/pages/feegroups/country_group.jsf` | High
-25 | File | `/textpattern/index.php` | High
-26 | File | `/tmp` | Low
-27 | File | `/upfile.cgi` | Medium
-28 | File | `/v2/quantum/save-data-upload-big-file` | High
-29 | File | `/wordpress/wp-admin/admin.php` | High
-30 | File | `4.edu.php` | Medium
-31 | File | `account_footer.php` | High
-32 | File | `adclick.php` | Medium
-33 | File | `add_edit_cat.asp` | High
-34 | File | `add_edit_user.asp` | High
-35 | File | `admin.cropcanvas.php` | High
-36 | File | `admin.jcomments.php` | High
+3 | File | `/API/info` | Medium
+4 | File | `/CCMAdmin/serverlist.asp` | High
+5 | File | `/cgi/get_param.cgi` | High
+6 | File | `/csms/admin/inquiries/view_details.php` | High
+7 | File | `/cstecgi.cgi` | Medium
+8 | File | `/files.md5` | Medium
+9 | File | `/forum/away.php` | High
+10 | File | `/home/search` | Medium
+11 | File | `/hrm/employeeview.php` | High
+12 | File | `/include/chart_generator.php` | High
+13 | File | `/librarian/bookdetails.php` | High
+14 | File | `/login` | Low
+15 | File | `/messageboard/view.php` | High
+16 | File | `/modules/profile/index.php` | High
+17 | File | `/one_church/userregister.php` | High
+18 | File | `/out.php` | Medium
+19 | File | `/owa/auth/logon.aspx` | High
+20 | File | `/public/plugins/` | High
+21 | File | `/SAP_Information_System/controllers/add_admin.php` | High
+22 | File | `/SASWebReportStudio/logonAndRender.do` | High
+23 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+24 | File | `/secure/admin/ViewInstrumentation.jspa` | High
+25 | File | `/SVFE2/pages/feegroups/country_group.jsf` | High
+26 | File | `/textpattern/index.php` | High
+27 | File | `/tmp` | Low
+28 | File | `/upfile.cgi` | Medium
+29 | File | `/v2/quantum/save-data-upload-big-file` | High
+30 | File | `/wordpress/wp-admin/admin.php` | High
+31 | File | `4.edu.php` | Medium
+32 | File | `account_footer.php` | High
+33 | File | `adclick.php` | Medium
+34 | File | `add_edit_cat.asp` | High
+35 | File | `add_edit_user.asp` | High
+36 | File | `admin.cropcanvas.php` | High
 37 | ... | ... | ...
 
-There are 313 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 318 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -111,6 +111,8 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://bazaar.abuse.ch/sample/ea40ecec0b30982fbb1662e67f97f0e9d6f43d2d587f2f588525fae683abea73/
 * https://bazaar.abuse.ch/sample/f4a25e8d960c631699e1b9adab8d29e5e4a2ae0d3be1c7739275a6a72b9b0876/
 * https://bazaar.abuse.ch/sample/f48d2e608faeb0747b32205489e8ca88a3b10ecfd3c2cc2ff31fabf11fac03b3/
+* https://de.darktrace.com/blog/to-be-xor-not-to-be-how-respond-could-have-stopped-a-surprise-ddos-incident
+* https://isc.sans.edu/diary/rss/30880
 * https://urlhaus.abuse.ch/url/1653849/
 
 ## Literature

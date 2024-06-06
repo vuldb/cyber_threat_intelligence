@@ -51,7 +51,7 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22, CWE-23, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
@@ -68,41 +68,41 @@ ID | Type | Indicator | Confidence
 2 | File | `/.htpasswd` | Medium
 3 | File | `//etc/RT2870STA.dat` | High
 4 | File | `/admin_ping.htm` | High
-5 | File | `/api/user/{ID}` | High
-6 | File | `/application/index/controller/Screen.php` | High
-7 | File | `/bin/proc.cgi` | High
-8 | File | `/CFIDE/probe.cfm` | High
-9 | File | `/cgi-bin/login_action.cgi` | High
-10 | File | `/data/vendor/tcl` | High
-11 | File | `/download` | Medium
-12 | File | `/etc/tomcat8/Catalina/attack` | High
-13 | File | `/files.md5` | Medium
-14 | File | `/forum/away.php` | High
-15 | File | `/getcfg.php` | Medium
-16 | File | `/load.php` | Medium
-17 | File | `/modules/profile/index.php` | High
-18 | File | `/modules/registration_admission/patient_register.php` | High
-19 | File | `/news.dtl.php` | High
-20 | File | `/public/plugins/` | High
-21 | File | `/rapi/read_url` | High
-22 | File | `/rest/api/2/user/picker` | High
-23 | File | `/sbin/acos_service` | High
-24 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-25 | File | `/squashfs-root/www/HNAP1/control/SetWizardConfig.php` | High
-26 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
-27 | File | `/uncpath/` | Medium
-28 | File | `/usr/bin/pkexec` | High
-29 | File | `/ViewUserHover.jspa` | High
-30 | File | `/WEB-INF/web.xml` | High
-31 | File | `/wp-admin/admin-ajax.php` | High
-32 | File | `/wp-json/oembed/1.0/embed?url` | High
-33 | File | `/www/cgi-bin/popen.cgi` | High
-34 | File | `5.2.9\syscrb.exe` | High
-35 | File | `accountrecoveryendpoint/recoverpassword.do` | High
-36 | File | `ad.cgi` | Low
+5 | File | `/api/sys/login` | High
+6 | File | `/api/user/{ID}` | High
+7 | File | `/application/index/controller/Screen.php` | High
+8 | File | `/bin/proc.cgi` | High
+9 | File | `/CFIDE/probe.cfm` | High
+10 | File | `/cgi-bin/login_action.cgi` | High
+11 | File | `/data/vendor/tcl` | High
+12 | File | `/download` | Medium
+13 | File | `/etc/tomcat8/Catalina/attack` | High
+14 | File | `/files.md5` | Medium
+15 | File | `/forum/away.php` | High
+16 | File | `/getcfg.php` | Medium
+17 | File | `/index.php?controller=GzUser&action=edit&id=1` | High
+18 | File | `/load.php` | Medium
+19 | File | `/modules/profile/index.php` | High
+20 | File | `/modules/registration_admission/patient_register.php` | High
+21 | File | `/news.dtl.php` | High
+22 | File | `/public/plugins/` | High
+23 | File | `/rapi/read_url` | High
+24 | File | `/rest/api/2/user/picker` | High
+25 | File | `/sbin/acos_service` | High
+26 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+27 | File | `/squashfs-root/www/HNAP1/control/SetWizardConfig.php` | High
+28 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
+29 | File | `/sys/kernel/notes` | High
+30 | File | `/uncpath/` | Medium
+31 | File | `/usr/bin/pkexec` | High
+32 | File | `/ViewUserHover.jspa` | High
+33 | File | `/WEB-INF/web.xml` | High
+34 | File | `/wp-admin/admin-ajax.php` | High
+35 | File | `/wp-json/oembed/1.0/embed?url` | High
+36 | File | `/www/cgi-bin/popen.cgi` | High
 37 | ... | ... | ...
 
-There are 321 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 318 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

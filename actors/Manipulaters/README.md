@@ -4,6 +4,12 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.manipulaters](https://vuldb.com/?actor.manipulaters)
 
+## Countries
+
+These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Manipulaters:
+
+* [US](https://vuldb.com/?country.us)
+
 ## IOC - Indicator of Compromise
 
 These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of Manipulaters.
@@ -12,6 +18,32 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [34.98.99.30](https://vuldb.com/?ip.34.98.99.30) | 30.99.98.34.bc.googleusercontent.com | - | Medium
 2 | [167.160.46.0](https://vuldb.com/?ip.167.160.46.0) | - | - | High
+3 | [185.11.145.254](https://vuldb.com/?ip.185.11.145.254) | - | - | High
+4 | ... | ... | ... | ...
+
+There are 1 more IOC items available. Please use our online service to access the data.
+
+## TTP - Tactics, Techniques, Procedures
+
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _Manipulaters_. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1059 | CWE-94 | Argument Injection | High
+2 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+
+## IOA - Indicator of Attack
+
+These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by Manipulaters. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Type | Indicator | Confidence
+-- | ---- | --------- | ----------
+1 | File | `addlink.php` | Medium
+2 | File | `guestbook.cgi` | High
+3 | File | `inc/config.php` | High
+4 | ... | ... | ...
+
+There are 3 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -19,6 +51,7 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://krebsonsecurity.com/2015/05/phishing-gang-is-audacious-manipulator/
 * https://krebsonsecurity.com/2021/09/fudco-spam-empire-tied-to-pakistani-software-firm/
+* https://www.domaintools.com/resources/blog/the-resurgence-of-the-manipulaters-team-breaking-heartsenders/
 
 ## Literature
 

@@ -8,9 +8,9 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Nemucod:
 
-* [CN](https://vuldb.com/?country.cn)
-* [US](https://vuldb.com/?country.us)
-* [NL](https://vuldb.com/?country.nl)
+* [PL](https://vuldb.com/?country.pl)
+* [RU](https://vuldb.com/?country.ru)
+* [AR](https://vuldb.com/?country.ar)
 * ...
 
 There are 8 more country items available. Please use our online service to access the data.
@@ -38,14 +38,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Path Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+1 | T1006 | CWE-22 | Path Traversal | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-94 | Argument Injection | High
+4 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 13 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -53,64 +51,19 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/?p=products` | Medium
-2 | File | `/ad-list` | Medium
-3 | File | `/admin.php/accessory/filesdel.html` | High
-4 | File | `/admin/?page=user/manage` | High
-5 | File | `/admin/add-new.php` | High
-6 | File | `/admin/attendance_row.php` | High
-7 | File | `/admin/categories/manage_category.php` | High
-8 | File | `/admin/categories/view_category.php` | High
-9 | File | `/admin/controller/JobLogController.java` | High
-10 | File | `/admin/courses/manage_course.php` | High
-11 | File | `/admin/departments/manage_department.php` | High
-12 | File | `/admin/doctors.php` | High
-13 | File | `/admin/edit-services.php` | High
-14 | File | `/admin/edit_subject.php` | High
-15 | File | `/admin/employee_row.php` | High
-16 | File | `/admin/maintenance/brand.php` | High
-17 | File | `/admin/maintenance/view_designation.php` | High
-18 | File | `/admin/mechanics/manage_mechanic.php` | High
-19 | File | `/admin/reportupload.aspx` | High
-20 | File | `/admin/service.php` | High
-21 | File | `/admin/students/manage_academic.php` | High
-22 | File | `/admin/transactions/track_shipment.php` | High
-23 | File | `/admin/user/manage_user.php` | High
-24 | File | `/alphaware/summary.php` | High
-25 | File | `/api/` | Low
-26 | File | `/api/admin/store/product/list` | High
-27 | File | `/api/baskets/{name}` | High
-28 | File | `/api/controllers/merchant/shop/PosterController.php` | High
-29 | File | `/api/log/killJob` | High
-30 | File | `/api/stl/actions/search` | High
-31 | File | `/api/sys/login` | High
-32 | File | `/api/sys/set_passwd` | High
-33 | File | `/api/trackedEntityInstances` | High
-34 | File | `/api/v2/cli/commands` | High
-35 | File | `/app/controller/Setup.php` | High
-36 | File | `/aux` | Low
-37 | File | `/bin/ate` | Medium
-38 | File | `/boat/login.php` | High
-39 | File | `/booking/show_bookings/` | High
-40 | File | `/cgi-bin` | Medium
-41 | File | `/cgi-bin/wlogin.cgi` | High
-42 | File | `/change-language/de_DE` | High
-43 | File | `/changePassword` | High
-44 | File | `/classes/Master.php?f=save_item` | High
-45 | File | `/collection/all` | High
-46 | File | `/Content/Template/root/reverse-shell.aspx` | High
-47 | File | `/dashboard/add-blog.php` | High
-48 | File | `/data/remove` | Medium
-49 | File | `/debug/pprof` | Medium
-50 | File | `/debuginfo.htm` | High
-51 | File | `/download.php?file=author.png` | High
-52 | File | `/ecshop/admin/template.php` | High
-53 | File | `/env` | Low
-54 | File | `/etc/passwd` | Medium
-55 | File | `/forum/away.php` | High
-56 | ... | ... | ...
+1 | File | `/admin/index.php` | High
+2 | File | `/admin/normal-bwdates-reports-details.php` | High
+3 | File | `/catalog/all-products` | High
+4 | File | `/changePassword` | High
+5 | File | `/forum/away.php` | High
+6 | File | `/goform/addIpMacBind` | High
+7 | File | `/goform/DelDhcpRule` | High
+8 | File | `/goform/delIpMacBind` | High
+9 | File | `/goform/DelPortMapping` | High
+10 | File | `/goform/modifyDhcpRule` | High
+11 | ... | ... | ...
 
-There are 486 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 83 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -62,26 +62,27 @@ ID | Type | Indicator | Confidence
 4 | File | `/classes/Master.php?f=delete_schedule` | High
 5 | File | `/controller/OnlinePreviewController.java` | High
 6 | File | `/dashboard/settings` | High
-7 | File | `/etc/init0.d/S80telnetd.sh` | High
-8 | File | `/etc/srapi/config/system.conf` | High
-9 | File | `/etc/sysconfig/tomcat` | High
-10 | File | `/goform/SafeEmailFilter` | High
-11 | File | `/goform/setMAC` | High
-12 | File | `/hrm/controller/employee.php` | High
-13 | File | `/htmldoc/htmldoc/html.cxx` | High
-14 | File | `/index.php` | Medium
-15 | File | `/index.php?module=help_pages/pages&entities_id=24` | High
-16 | File | `/index.php?pluginApp/to/yzOffice/getFile` | High
-17 | File | `/leave_system/classes/Users.php?f=save` | High
-18 | File | `/net-banking/manage_customers.php` | High
-19 | File | `/novel/bookSetting/list` | High
-20 | File | `/pet_shop/admin/?page=maintenance/manage_category` | High
-21 | File | `/release-x64/otfccdump+0x6c0a32` | High
-22 | File | `/release-x64/otfccdump+0x703969` | High
-23 | File | `/sentrifugo/index.php/index/getdepartments/format/html` | High
-24 | ... | ... | ...
+7 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
+8 | File | `/etc/init0.d/S80telnetd.sh` | High
+9 | File | `/etc/srapi/config/system.conf` | High
+10 | File | `/etc/sysconfig/tomcat` | High
+11 | File | `/goform/SafeEmailFilter` | High
+12 | File | `/goform/setMAC` | High
+13 | File | `/goform/wifiSSIDget` | High
+14 | File | `/hrm/controller/employee.php` | High
+15 | File | `/htmldoc/htmldoc/html.cxx` | High
+16 | File | `/index.php` | Medium
+17 | File | `/index.php?module=help_pages/pages&entities_id=24` | High
+18 | File | `/index.php?pluginApp/to/yzOffice/getFile` | High
+19 | File | `/leave_system/classes/Users.php?f=save` | High
+20 | File | `/net-banking/manage_customers.php` | High
+21 | File | `/novel/bookSetting/list` | High
+22 | File | `/pet_shop/admin/?page=maintenance/manage_category` | High
+23 | File | `/release-x64/otfccdump+0x6c0a32` | High
+24 | File | `/release-x64/otfccdump+0x703969` | High
+25 | ... | ... | ...
 
-There are 200 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 206 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

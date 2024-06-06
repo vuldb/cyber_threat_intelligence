@@ -68,13 +68,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
-2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
+1 | T1006 | CWE-21, CWE-22, CWE-24 | Path Traversal | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 16 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -84,29 +84,32 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/dl_sendmail.php` | High
 2 | File | `/admin/login.php` | High
-3 | File | `/api/baskets/{name}` | High
-4 | File | `/api/v2/cli/commands` | High
-5 | File | `/app/Http/Controllers/Admin/NEditorController.php` | High
-6 | File | `/DXR.axd` | Medium
-7 | File | `/forum/away.php` | High
-8 | File | `/mgmt/tm/util/bash` | High
-9 | File | `/mifs/c/i/reg/reg.html` | High
-10 | File | `/novel/bookSetting/list` | High
-11 | File | `/novel/userFeedback/list` | High
-12 | File | `/owa/auth/logon.aspx` | High
-13 | File | `/secure/ViewCollectors` | High
-14 | File | `/Session` | Medium
-15 | File | `/spip.php` | Medium
-16 | File | `/usr/bin/pkexec` | High
-17 | File | `/xAdmin/html/cm_doclist_view_uc.jsp` | High
-18 | File | `/zm/index.php` | High
-19 | File | `adclick.php` | Medium
-20 | File | `add_comment.php` | High
-21 | File | `admin.jcomments.php` | High
-22 | File | `admin/content.php` | High
-23 | ... | ... | ...
+3 | File | `/adminPage/conf/reload` | High
+4 | File | `/api/baskets/{name}` | High
+5 | File | `/api/v2/cli/commands` | High
+6 | File | `/app/Http/Controllers/Admin/NEditorController.php` | High
+7 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
+8 | File | `/DXR.axd` | Medium
+9 | File | `/forum/away.php` | High
+10 | File | `/mfsNotice/page` | High
+11 | File | `/mgmt/tm/util/bash` | High
+12 | File | `/mifs/c/i/reg/reg.html` | High
+13 | File | `/novel/bookSetting/list` | High
+14 | File | `/novel/userFeedback/list` | High
+15 | File | `/owa/auth/logon.aspx` | High
+16 | File | `/secure/ViewCollectors` | High
+17 | File | `/Session` | Medium
+18 | File | `/spip.php` | Medium
+19 | File | `/usr/bin/pkexec` | High
+20 | File | `/xAdmin/html/cm_doclist_view_uc.jsp` | High
+21 | File | `/x_portal_assemble_surface/jaxrs/portal/list?v=8.2.3-4-43f4fe3` | High
+22 | File | `/zm/index.php` | High
+23 | File | `adclick.php` | Medium
+24 | File | `add_comment.php` | High
+25 | File | `admin.jcomments.php` | High
+26 | ... | ... | ...
 
-There are 191 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 216 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

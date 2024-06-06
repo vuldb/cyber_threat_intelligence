@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [IL](https://vuldb.com/?country.il)
+* [TR](https://vuldb.com/?country.tr)
 * ...
 
-There are 27 more country items available. Please use our online service to access the data.
+There are 31 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -1140,9 +1140,23 @@ ID | IP address | Hostname | Campaign | Confidence
 1117 | [77.244.255.112](https://vuldb.com/?ip.77.244.255.112) | gr-1-0-0-vl1.edge03.ix.vie.nessus.at | - | High
 1118 | [77.244.255.114](https://vuldb.com/?ip.77.244.255.114) | ip077244255114.rev.nessus.at | - | High
 1119 | [77.244.255.116](https://vuldb.com/?ip.77.244.255.116) | ip077244255116.rev.nessus.at | - | High
-1120 | ... | ... | ... | ...
+1120 | [77.244.255.124](https://vuldb.com/?ip.77.244.255.124) | ip077244255124.rev.nessus.at | - | High
+1121 | [77.244.255.128](https://vuldb.com/?ip.77.244.255.128) | ip077244255128.rev.nessus.at | - | High
+1122 | [77.244.255.160](https://vuldb.com/?ip.77.244.255.160) | ip077244255160.rev.nessus.at | - | High
+1123 | [77.244.255.164](https://vuldb.com/?ip.77.244.255.164) | ip077244255164.rev.nessus.at | - | High
+1124 | [77.244.255.168](https://vuldb.com/?ip.77.244.255.168) | ip077244255168.rev.nessus.at | - | High
+1125 | [77.244.255.176](https://vuldb.com/?ip.77.244.255.176) | ip077244255176.rev.nessus.at | - | High
+1126 | [77.244.255.180](https://vuldb.com/?ip.77.244.255.180) | ip077244255180.rev.nessus.at | - | High
+1127 | [77.244.255.183](https://vuldb.com/?ip.77.244.255.183) | ip077244255183.rev.nessus.at | - | High
+1128 | [77.244.255.184](https://vuldb.com/?ip.77.244.255.184) | ip077244255184.rev.nessus.at | - | High
+1129 | [77.244.255.192](https://vuldb.com/?ip.77.244.255.192) | ip077244255192.rev.nessus.at | - | High
+1130 | [77.244.255.200](https://vuldb.com/?ip.77.244.255.200) | edge01.ndc2.vie.nessus.at | - | High
+1131 | [77.244.255.202](https://vuldb.com/?ip.77.244.255.202) | edge02.ix.vie.nessus.at | - | High
+1132 | [77.244.255.204](https://vuldb.com/?ip.77.244.255.204) | edge03.ndc.vie.nessus.at | - | High
+1133 | [77.244.255.208](https://vuldb.com/?ip.77.244.255.208) | ip077244255208.rev.nessus.at | - | High
+1134 | ... | ... | ... | ...
 
-There are 4477 more IOC items available. Please use our online service to access the data.
+There are 4534 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -1150,14 +1164,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-25, CWE-36 | Path Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-25, CWE-36 | Path Traversal | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -1165,64 +1179,73 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `%SYSTEMDRIVE%\node_modules\.bin\wmic.exe` | High
-2 | File | `/#ilang=DE&b=c_smartenergy_swgroups` | High
-3 | File | `/.env` | Low
-4 | File | `/Account/login.php` | High
-5 | File | `/admin/` | Low
-6 | File | `/admin/action/delete-vaccine.php` | High
-7 | File | `/admin/action/new-father.php` | High
-8 | File | `/admin/add-category.php` | High
-9 | File | `/admin/app/service_crud.php` | High
-10 | File | `/admin/borrow_add.php` | High
-11 | File | `/admin/edit-admin.php` | High
-12 | File | `/admin/edit_teacher.php` | High
-13 | File | `/Admin/login.php` | High
-14 | File | `/admin/pages/edit_chicken.php` | High
-15 | File | `/admin/pages/student-print.php` | High
-16 | File | `/adminapi/system/crud` | High
-17 | File | `/adminapi/system/file/openfile` | High
-18 | File | `/admin_route/dec_service_credits.php` | High
-19 | File | `/admin_route/inc_service_credits.php` | High
-20 | File | `/api/v4/teams//channels/deleted` | High
-21 | File | `/app/admin/controller/Upload.php` | High
-22 | File | `/app/ajax/search_sales_report.php` | High
-23 | File | `/app/controller/Setup.php` | High
-24 | File | `/app/Http/Controllers/ImageController.php` | High
-25 | File | `/app/middleware/TokenVerify.php` | High
-26 | File | `/application/index/controller/Icon.php` | High
-27 | File | `/application/index/controller/Screen.php` | High
-28 | File | `/application/websocket/controller/Setting.php` | High
-29 | File | `/b2b-supermarket/shopping-cart` | High
-30 | File | `/bin/boa` | Medium
-31 | File | `/boafrm/formMapDelDevice` | High
-32 | File | `/cancel.php` | Medium
-33 | File | `/category.php` | High
-34 | File | `/cgi-bin/cstecgi.cgi` | High
-35 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-36 | File | `/change-language/de_DE` | High
-37 | File | `/debug/pprof` | Medium
-38 | File | `/devinfo` | Medium
-39 | File | `/dist/index.js` | High
-40 | File | `/download` | Medium
-41 | File | `/Employer/EditProfile.php` | High
-42 | File | `/Employer/ManageWalkin.php` | High
-43 | File | `/endpoint/add-faq.php` | High
-44 | File | `/endpoint/delete-computer.php` | High
-45 | File | `/endpoint/update-resident.php` | High
-46 | File | `/endpoint/update-tracker.php` | High
-47 | File | `/forum/away.php` | High
-48 | File | `/general/attendance/manage/ask_duty/delete.php` | High
-49 | File | `/goform/formSysCmd` | High
-50 | File | `/hedwig.cgi` | Medium
-51 | File | `/HNAP1/` | Low
-52 | File | `/hosts/firewall/ip` | High
-53 | File | `/index.jsp#settings` | High
-54 | File | `/index.php/ccm/system/file/upload` | High
-55 | File | `/Interface/DevManage/VM.php` | High
-56 | ... | ... | ...
+1 | File | `/#ilang=DE&b=c_smartenergy_swgroups` | High
+2 | File | `/Account/login.php` | High
+3 | File | `/admin/` | Low
+4 | File | `/admin/action/delete-vaccine.php` | High
+5 | File | `/admin/action/new-father.php` | High
+6 | File | `/admin/action/update-deworm.php` | High
+7 | File | `/admin/app/service_crud.php` | High
+8 | File | `/admin/borrow_add.php` | High
+9 | File | `/Admin/changepassword.php` | High
+10 | File | `/admin/edit-admin.php` | High
+11 | File | `/admin/edit_teacher.php` | High
+12 | File | `/admin/general-setting` | High
+13 | File | `/admin/list_crl_conf` | High
+14 | File | `/Admin/login.php` | High
+15 | File | `/admin/pages/edit_chicken.php` | High
+16 | File | `/admin/pages/student-print.php` | High
+17 | File | `/admin/search.php` | High
+18 | File | `/admin/service` | High
+19 | File | `/adminapi/system/crud` | High
+20 | File | `/adminapi/system/file/openfile` | High
+21 | File | `/adminPage/main/upload` | High
+22 | File | `/adminPage/www/addOver` | High
+23 | File | `/admin_route/dec_service_credits.php` | High
+24 | File | `/admin_route/inc_service_credits.php` | High
+25 | File | `/api/v4/teams//channels/deleted` | High
+26 | File | `/api/wechat/app_auth` | High
+27 | File | `/app/admin/controller/Upload.php` | High
+28 | File | `/app/ajax/search_sales_report.php` | High
+29 | File | `/app/controller/Setup.php` | High
+30 | File | `/app/Http/Controllers/ImageController.php` | High
+31 | File | `/app/middleware/TokenVerify.php` | High
+32 | File | `/application/index/controller/Icon.php` | High
+33 | File | `/application/index/controller/Screen.php` | High
+34 | File | `/application/websocket/controller/Setting.php` | High
+35 | File | `/apply/index.php` | High
+36 | File | `/b2b-supermarket/shopping-cart` | High
+37 | File | `/bin/boa` | Medium
+38 | File | `/boafrm/formMapDelDevice` | High
+39 | File | `/cancel.php` | Medium
+40 | File | `/category.php` | High
+41 | File | `/cgi-bin/cstecgi.cgi` | High
+42 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+43 | File | `/cgi-bin/nas_sharing.cgi` | High
+44 | File | `/change-language/de_DE` | High
+45 | File | `/control/register_case.php` | High
+46 | File | `/debug/pprof` | Medium
+47 | File | `/description.php` | High
+48 | File | `/devinfo` | Medium
+49 | File | `/dist/index.js` | High
+50 | File | `/download` | Medium
+51 | File | `/Employer/EditProfile.php` | High
+52 | File | `/Employer/ManageWalkin.php` | High
+53 | File | `/endpoint/add-faq.php` | High
+54 | File | `/endpoint/delete-computer.php` | High
+55 | File | `/endpoint/update-resident.php` | High
+56 | File | `/endpoint/update-tracker.php` | High
+57 | File | `/forum/away.php` | High
+58 | File | `/general/attendance/manage/ask_duty/delete.php` | High
+59 | File | `/goform/execCommand` | High
+60 | File | `/goform/openSchedWifi` | High
+61 | File | `/goform/QuickIndex` | High
+62 | File | `/goform/saveParentControlInfo` | High
+63 | File | `/goform/SetNetControlList` | High
+64 | File | `/goform/SetPortMapping` | High
+65 | ... | ... | ...
 
-There are 489 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 565 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -1232,6 +1255,8 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://github.com/firehol/blocklist-ipsets/blob/master/ip2location_country/ip2location_country_at.netset
 * https://github.com/firehol/blocklist-ipsets/blob/master/ipdeny_country/id_country_at.netset
 * https://github.com/firehol/blocklist-ipsets/blob/master/ipip_country/ipip_country_at.netset
+* https://github.com/scriptzteam/Private-Internet-Access-VPN-Servers/blob/main/export.csv
+* ttps://github.com/scriptzteam/Private-Internet-Access-VPN-Servers/blob/main/export.csv
 
 ## Literature
 

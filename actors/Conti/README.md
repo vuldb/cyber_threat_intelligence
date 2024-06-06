@@ -15,12 +15,12 @@ The following _campaigns_ are known and can be associated with Conti:
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Conti:
 
-* [CN](https://vuldb.com/?country.cn)
-* [US](https://vuldb.com/?country.us)
+* [PL](https://vuldb.com/?country.pl)
 * [RU](https://vuldb.com/?country.ru)
+* [FR](https://vuldb.com/?country.fr)
 * ...
 
-There are 16 more country items available. Please use our online service to access the data.
+There are 8 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -522,14 +522,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-94 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+1 | T1006 | CWE-22 | Path Traversal | High
+2 | T1059.007 | CWE-79 | Cross Site Scripting | High
+3 | T1068 | CWE-284 | Execution with Unnecessary Privileges | High
+4 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 7 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -537,54 +535,17 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/.env` | Low
-2 | File | `/admin/action/new-father.php` | High
-3 | File | `/admin/app/service_crud.php` | High
-4 | File | `/admin/edit-admin.php` | High
-5 | File | `/Admin/login.php` | High
-6 | File | `/admin/users` | Medium
-7 | File | `/api/admin/system/store/order/list` | High
-8 | File | `/api/trackedEntityInstances` | High
-9 | File | `/api/v4/teams//channels/deleted` | High
-10 | File | `/app/admin/controller/Upload.php` | High
-11 | File | `/app/ajax/search_sales_report.php` | High
-12 | File | `/app/controller/Setup.php` | High
-13 | File | `/app/middleware/TokenVerify.php` | High
-14 | File | `/app/options.py` | High
-15 | File | `/application/index/controller/Screen.php` | High
-16 | File | `/application/websocket/controller/Setting.php` | High
-17 | File | `/aux` | Low
-18 | File | `/bin/boa` | Medium
-19 | File | `/boafrm/formMapDelDevice` | High
-20 | File | `/cgi-bin/cstecgi.cgi` | High
-21 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-22 | File | `/data/remove` | Medium
-23 | File | `/debug/pprof` | Medium
-24 | File | `/debuginfo.htm` | High
-25 | File | `/Employer/ManageWalkin.php` | High
-26 | File | `/endpoint/add-computer.php` | High
-27 | File | `/endpoint/add-faq.php` | High
-28 | File | `/endpoint/delete-computer.php` | High
-29 | File | `/endpoint/update-resident.php` | High
-30 | File | `/endpoint/update-tracker.php` | High
-31 | File | `/etc/passwd` | Medium
-32 | File | `/forum/away.php` | High
-33 | File | `/goform/net\_Web\_get_value` | High
-34 | File | `/hedwig.cgi` | Medium
-35 | File | `/HNAP1/` | Low
-36 | File | `/index.php` | Medium
-37 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-38 | File | `/novel/bookComment/list` | High
-39 | File | `/novel/bookSetting/list` | High
-40 | File | `/php/ping.php` | High
-41 | File | `/rules/REQUEST-932-APPLICATION-ATTACK-RCE.conf` | High
-42 | File | `/showfile.php` | High
-43 | File | `/student/bookdetails.php` | High
-44 | File | `/SysInfo1.htm` | High
-45 | File | `/sysinfo_json.cgi` | High
-46 | ... | ... | ...
+1 | File | `/catalog/all-products` | High
+2 | File | `/changePassword` | High
+3 | File | `/goform/addIpMacBind` | High
+4 | File | `/goform/DelDhcpRule` | High
+5 | File | `/goform/delIpMacBind` | High
+6 | File | `/goform/DelPortMapping` | High
+7 | File | `/goform/modifyDhcpRule` | High
+8 | File | `/goform/modifyIpMacBind` | High
+9 | ... | ... | ...
 
-There are 398 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 65 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

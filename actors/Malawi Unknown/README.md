@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Malawi Unknown:
 
 * [US](https://vuldb.com/?country.us)
+* [GB](https://vuldb.com/?country.gb)
 * [ES](https://vuldb.com/?country.es)
-* [MW](https://vuldb.com/?country.mw)
 * ...
 
 There are 19 more country items available. Please use our online service to access the data.
@@ -73,41 +73,42 @@ ID | Type | Indicator | Confidence
 10 | File | `/admin/login.php` | High
 11 | File | `/admin/payment.php` | High
 12 | File | `/admin/show.php` | High
-13 | File | `/boat/login.php` | High
-14 | File | `/clinic/disease_symptoms_view.php` | High
-15 | File | `/default.php?idx=17` | High
-16 | File | `/download` | Medium
-17 | File | `/env` | Low
-18 | File | `/exec/` | Low
-19 | File | `/forum/away.php` | High
-20 | File | `/index.php` | Medium
-21 | File | `/opt/bin/cli` | Medium
-22 | File | `/p` | Low
-23 | File | `/patient/doctors.php` | High
-24 | File | `/phpinventory/editcategory.php` | High
-25 | File | `/php_action/createUser.php` | High
-26 | File | `/product-list.php` | High
-27 | File | `/spip.php` | Medium
-28 | File | `/uncpath/` | Medium
-29 | File | `/updown/upload.cgi` | High
-30 | File | `/user/del.php` | High
-31 | File | `/wp-admin/admin-ajax.php` | High
-32 | File | `/_next` | Low
-33 | File | `123flashchat.php` | High
-34 | File | `act.php` | Low
-35 | File | `adclick.php` | Medium
-36 | File | `admin.php/pay` | High
-37 | File | `admin/bad.php` | High
-38 | File | `admin/index.php` | High
-39 | File | `admin/index.php/user/del/1` | High
-40 | File | `admin/index.php?id=themes&action=edit_chunk` | High
-41 | File | `admin/products/controller.php?action=add` | High
-42 | File | `administrator/index.php` | High
-43 | File | `agenda.php` | Medium
-44 | File | `ajax/render/widget_php` | High
-45 | ... | ... | ...
+13 | File | `/backend/register.php` | High
+14 | File | `/boat/login.php` | High
+15 | File | `/clinic/disease_symptoms_view.php` | High
+16 | File | `/default.php?idx=17` | High
+17 | File | `/doctor/view-appointment-detail.php` | High
+18 | File | `/download` | Medium
+19 | File | `/edit-client-details.php` | High
+20 | File | `/env` | Low
+21 | File | `/exec/` | Low
+22 | File | `/forum/away.php` | High
+23 | File | `/index.php` | Medium
+24 | File | `/opt/bin/cli` | Medium
+25 | File | `/p` | Low
+26 | File | `/patient/doctors.php` | High
+27 | File | `/phpinventory/editcategory.php` | High
+28 | File | `/php_action/createUser.php` | High
+29 | File | `/product-list.php` | High
+30 | File | `/spip.php` | Medium
+31 | File | `/uncpath/` | Medium
+32 | File | `/updown/upload.cgi` | High
+33 | File | `/user/del.php` | High
+34 | File | `/wp-admin/admin-ajax.php` | High
+35 | File | `/_next` | Low
+36 | File | `123flashchat.php` | High
+37 | File | `act.php` | Low
+38 | File | `adclick.php` | Medium
+39 | File | `admin.php/pay` | High
+40 | File | `admin/bad.php` | High
+41 | File | `admin/index.php` | High
+42 | File | `admin/index.php/user/del/1` | High
+43 | File | `admin/index.php?id=themes&action=edit_chunk` | High
+44 | File | `admin/products/controller.php?action=add` | High
+45 | File | `administrator/index.php` | High
+46 | ... | ... | ...
 
-There are 386 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 396 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

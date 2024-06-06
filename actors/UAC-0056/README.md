@@ -60,10 +60,10 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/edit_user.php` | High
-2 | File | `/admin/products/controller.php?action=add` | High
-3 | File | `/admin/question/edit` | High
-4 | File | `/admin/students/manage.php` | High
+1 | File | `/admin/products/controller.php?action=add` | High
+2 | File | `/admin/question/edit` | High
+3 | File | `/admin/students/manage.php` | High
+4 | File | `/adminPage/main/upload` | High
 5 | File | `/advanced-tools/nova/bin/netwatch` | High
 6 | File | `/api/` | Low
 7 | File | `/auth/register` | High
@@ -90,10 +90,9 @@ ID | Type | Indicator | Confidence
 28 | File | `/goform/NatStaticSetting` | High
 29 | File | `/goform/WifiBasicSet` | High
 30 | File | `/h/` | Low
-31 | File | `/index.php?module=configuration/application` | High
-32 | ... | ... | ...
+31 | ... | ... | ...
 
-There are 268 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 267 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

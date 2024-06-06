@@ -10,6 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
+* [AM](https://vuldb.com/?country.am)
 
 ## IOC - Indicator of Compromise
 
@@ -22,7 +23,7 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [5.181.156.137](https://vuldb.com/?ip.5.181.156.137) | 5-181-156-137.mivocloud.com | - | High
 4 | ... | ... | ... | ...
 
-There are 7 more IOC items available. Please use our online service to access the data.
+There are 12 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -48,7 +49,7 @@ ID | Type | Indicator | Confidence
 3 | File | `download.rsp` | Medium
 4 | ... | ... | ...
 
-There are 12 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 14 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -57,9 +58,14 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/5.181.156.137
 * https://search.censys.io/hosts/8.218.170.109
 * https://search.censys.io/hosts/34.235.18.0
+* https://search.censys.io/hosts/45.86.228.53
 * https://search.censys.io/hosts/91.92.242.137
+* https://search.censys.io/hosts/103.26.10.119
+* https://search.censys.io/hosts/103.113.70.71
 * https://search.censys.io/hosts/124.156.173.75
 * https://search.censys.io/hosts/137.175.19.209
+* https://search.censys.io/hosts/176.97.78.111
+* https://search.censys.io/hosts/194.87.252.224
 * https://search.censys.io/hosts/207.174.28.42
 * https://search.censys.io/search?resource=hosts&sort=RELEVANCE&per_page=25&virtual_hosts=EXCLUDE&q=services.software.product%3A+DeimosC2+and+not+labels%3A+tarpit
 

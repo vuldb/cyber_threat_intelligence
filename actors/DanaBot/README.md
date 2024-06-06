@@ -57,7 +57,7 @@ ID | IP address | Hostname | Campaign | Confidence
 38 | [35.199.103.5](https://vuldb.com/?ip.35.199.103.5) | 5.103.199.35.bc.googleusercontent.com | - | Medium
 39 | ... | ... | ... | ...
 
-There are 150 more IOC items available. Please use our online service to access the data.
+There are 151 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -90,6 +90,7 @@ There are 18 more IOA items available (file, library, argument, input value, pat
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://app.any.run/tasks/03df17a0-3267-4e12-aa3f-94288002d285
+* https://bazaar.abuse.ch/sample/12a68c94b4f0b13cca2a8b908bf674686a0ab331ec366d88baa2c192c33f236f/
 * https://blogs.blackberry.com/en/2021/11/threat-thursday-danabot-malware-as-a-service
 * https://community.blueliv.com/#!/s/6220736782df413eb5358bf6
 * https://github.com/eset/malware-ioc/tree/master/danabot

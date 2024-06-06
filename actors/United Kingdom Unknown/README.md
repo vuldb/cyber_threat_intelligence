@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with United Kingdom Unknown:
 
+* [PL](https://vuldb.com/?country.pl)
+* [RU](https://vuldb.com/?country.ru)
 * [US](https://vuldb.com/?country.us)
-* [CN](https://vuldb.com/?country.cn)
-* [IO](https://vuldb.com/?country.io)
 * ...
 
-There are 24 more country items available. Please use our online service to access the data.
+There are 18 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -10089,14 +10089,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-25 | Pathname Traversal | High
-2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
-6 | ... | ... | ... | ...
+5 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 14 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -10104,65 +10103,23 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/action/delete-vaccine.php` | High
-2 | File | `/admin/action/new-father.php` | High
-3 | File | `/admin/borrow_add.php` | High
-4 | File | `/admin/clientview.php` | High
-5 | File | `/admin/edit_teacher.php` | High
-6 | File | `/admin/index2.html` | High
-7 | File | `/admin/manage-users.php` | High
-8 | File | `/admin/pages/edit_chicken.php` | High
-9 | File | `/admin/pages/student-print.php` | High
-10 | File | `/admin/view_sendlist.php` | High
-11 | File | `/admin_route/dec_service_credits.php` | High
-12 | File | `/admin_route/inc_service_credits.php` | High
-13 | File | `/api.php` | Medium
-14 | File | `/api/0/api-tokens/` | High
-15 | File | `/api/v4/teams//channels/deleted` | High
-16 | File | `/app/api/controller/caiji.php` | High
-17 | File | `/app/api/controller/default/File.php` | High
-18 | File | `/app/Http/Controllers/ImageController.php` | High
-19 | File | `/app/index/controller/Common.php` | High
-20 | File | `/application/index/common.php` | High
-21 | File | `/application/index/controller/Databasesource.php` | High
-22 | File | `/application/index/controller/File.php` | High
-23 | File | `/application/index/controller/Pay.php` | High
-24 | File | `/application/index/controller/Service.php` | High
-25 | File | `/application/pay/controller/Api.php` | High
-26 | File | `/assets/php/upload.php` | High
-27 | File | `/aux` | Low
-28 | File | `/bin/boa` | Medium
-29 | File | `/boaform/device_reset.cgi` | High
-30 | File | `/boafrm/formMapDelDevice` | High
-31 | File | `/cgi-bin/cstecgi.cgi` | High
-32 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-33 | File | `/change-language/de_DE` | High
-34 | File | `/churchcrm/WhyCameEditor.php` | High
-35 | File | `/classes/Users.php?f=save` | High
-36 | File | `/core/config-revisions` | High
-37 | File | `/cupseasylive/stockissuancelinecreate.php` | High
-38 | File | `/data/remove` | Medium
-39 | File | `/debug/pprof` | Medium
-40 | File | `/devinfo` | Medium
-41 | File | `/dist/index.js` | High
-42 | File | `/etc/passwd` | Medium
-43 | File | `/forms/doLogin` | High
-44 | File | `/forum/away.php` | High
-45 | File | `/general/email/inbox/delete_webmail.php` | High
-46 | File | `/goform/setAutoPing` | High
-47 | File | `/goform/setBlackRule` | High
-48 | File | `/goform/setcfm` | High
-49 | File | `/goform/SetOnlineDevName` | High
-50 | File | `/goform/WifiExtraSet` | High
-51 | File | `/goform/WifiMacFilterGet` | High
-52 | File | `/hedwig.cgi` | Medium
-53 | File | `/hslist` | Low
-54 | File | `/include/file.php` | High
-55 | File | `/index.php` | Medium
-56 | File | `/index.php?c=api` | High
-57 | ... | ... | ...
+1 | File | `/admin.php?c=upload&f=zip&_noCache=0.1683794968` | High
+2 | File | `/Admin/changepassword.php` | High
+3 | File | `/catalog/all-products` | High
+4 | File | `/changePassword` | High
+5 | File | `/forum/away.php` | High
+6 | File | `/goform/addIpMacBind` | High
+7 | File | `/goform/DelDhcpRule` | High
+8 | File | `/goform/delIpMacBind` | High
+9 | File | `/goform/DelPortMapping` | High
+10 | File | `/goform/modifyIpMacBind` | High
+11 | File | `/goform/SetDDNSCfg` | High
+12 | File | `/goform/SetLEDCfg` | High
+13 | File | `/goform/SetOnlineDevName` | High
+14 | File | `/goform/SetRemoteWebCfg` | High
+15 | ... | ... | ...
 
-There are 499 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 115 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

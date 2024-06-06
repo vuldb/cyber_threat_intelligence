@@ -33,7 +33,7 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22, CWE-23 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94 | Argument Injection | High
 5 | ... | ... | ... | ...
 
@@ -47,43 +47,44 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/general.cgi` | High
 2 | File | `/admin/reminders/manage_reminder.php` | High
-3 | File | `/CCMAdmin/serverlist.asp` | High
-4 | File | `/cgi/get_param.cgi` | High
-5 | File | `/crmeb/app/admin/controller/store/CopyTaobao.php` | High
-6 | File | `/crmeb/crmeb/services/UploadService.php` | High
-7 | File | `/csms/admin/inquiries/view_details.php` | High
-8 | File | `/cstecgi.cgi` | Medium
-9 | File | `/files.md5` | Medium
-10 | File | `/forum/away.php` | High
-11 | File | `/hrm/employeeview.php` | High
-12 | File | `/images/` | Medium
-13 | File | `/include/chart_generator.php` | High
-14 | File | `/librarian/bookdetails.php` | High
-15 | File | `/login` | Low
-16 | File | `/messageboard/view.php` | High
-17 | File | `/modules/profile/index.php` | High
-18 | File | `/one_church/userregister.php` | High
-19 | File | `/out.php` | Medium
-20 | File | `/owa/auth/logon.aspx` | High
-21 | File | `/public/plugins/` | High
-22 | File | `/SAP_Information_System/controllers/add_admin.php` | High
-23 | File | `/SASWebReportStudio/logonAndRender.do` | High
-24 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-25 | File | `/secure/admin/ViewInstrumentation.jspa` | High
-26 | File | `/SVFE2/pages/feegroups/country_group.jsf` | High
-27 | File | `/textpattern/index.php` | High
-28 | File | `/upfile.cgi` | Medium
-29 | File | `/v2/quantum/save-data-upload-big-file` | High
-30 | File | `/wordpress/wp-admin/admin.php` | High
-31 | File | `4.edu.php` | Medium
-32 | File | `account_footer.php` | High
-33 | File | `adclick.php` | Medium
-34 | File | `add_edit_cat.asp` | High
-35 | File | `add_edit_user.asp` | High
-36 | File | `admin.cropcanvas.php` | High
-37 | ... | ... | ...
+3 | File | `/API/info` | Medium
+4 | File | `/CCMAdmin/serverlist.asp` | High
+5 | File | `/cgi/get_param.cgi` | High
+6 | File | `/crmeb/app/admin/controller/store/CopyTaobao.php` | High
+7 | File | `/crmeb/crmeb/services/UploadService.php` | High
+8 | File | `/csms/admin/inquiries/view_details.php` | High
+9 | File | `/cstecgi.cgi` | Medium
+10 | File | `/files.md5` | Medium
+11 | File | `/forum/away.php` | High
+12 | File | `/home/search` | Medium
+13 | File | `/hrm/employeeview.php` | High
+14 | File | `/images/` | Medium
+15 | File | `/include/chart_generator.php` | High
+16 | File | `/librarian/bookdetails.php` | High
+17 | File | `/login` | Low
+18 | File | `/messageboard/view.php` | High
+19 | File | `/modules/profile/index.php` | High
+20 | File | `/multi-vendor-shopping-script/product-list.php` | High
+21 | File | `/one_church/userregister.php` | High
+22 | File | `/out.php` | Medium
+23 | File | `/owa/auth/logon.aspx` | High
+24 | File | `/public/plugins/` | High
+25 | File | `/SAP_Information_System/controllers/add_admin.php` | High
+26 | File | `/SASWebReportStudio/logonAndRender.do` | High
+27 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+28 | File | `/secure/admin/ViewInstrumentation.jspa` | High
+29 | File | `/SVFE2/pages/feegroups/country_group.jsf` | High
+30 | File | `/textpattern/index.php` | High
+31 | File | `/upfile.cgi` | Medium
+32 | File | `/v2/quantum/save-data-upload-big-file` | High
+33 | File | `/wordpress/wp-admin/admin.php` | High
+34 | File | `4.edu.php` | Medium
+35 | File | `account_footer.php` | High
+36 | File | `adclick.php` | Medium
+37 | File | `add_edit_cat.asp` | High
+38 | ... | ... | ...
 
-There are 318 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 322 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

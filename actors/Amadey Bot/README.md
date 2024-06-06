@@ -17,10 +17,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [RU](https://vuldb.com/?country.ru)
 * [US](https://vuldb.com/?country.us)
-* [IT](https://vuldb.com/?country.it)
+* [FR](https://vuldb.com/?country.fr)
 * ...
 
-There are 1 more country items available. Please use our online service to access the data.
+There are 2 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -29,8 +29,11 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [2.59.42.63](https://vuldb.com/?ip.2.59.42.63) | vds-cw08597.timeweb.ru | Azorult | High
-2 | [185.17.0.52](https://vuldb.com/?ip.185.17.0.52) | physicalteam.aeza.network | SmokeLoader | High
-3 | [185.17.0.63](https://vuldb.com/?ip.185.17.0.63) | braveteeth.aeza.network | SmokeLoader | High
+2 | [62.204.41.242](https://vuldb.com/?ip.62.204.41.242) | - | - | High
+3 | [185.17.0.52](https://vuldb.com/?ip.185.17.0.52) | physicalteam.aeza.network | SmokeLoader | High
+4 | ... | ... | ... | ...
+
+There are 1 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -40,10 +43,10 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | ... | ... | ... | ...
 
-There are 10 more TTP items available. Please use our online service to access the data.
+There are 12 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -52,13 +55,19 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.ssh/authorized_keys` | High
-2 | File | `/m4pdf/pdf.php` | High
-3 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-4 | File | `admin.xml` | Medium
-5 | File | `carbon/admin/login.jsp` | High
-6 | ... | ... | ...
+2 | File | `/admin/api/theme-edit/` | High
+3 | File | `/face-recognition-php/facepay-master/camera.php` | High
+4 | File | `/forum/PostPrivateMessage` | High
+5 | File | `/home/masterConsole` | High
+6 | File | `/hrm/employeeadd.php` | High
+7 | File | `/hrm/employeeview.php` | High
+8 | File | `/m4pdf/pdf.php` | High
+9 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+10 | File | `action.php` | Medium
+11 | File | `admin.php&r=article/AdminContent/edit` | High
+12 | ... | ... | ...
 
-There are 37 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 97 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -66,6 +75,7 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://asec.ahnlab.com/en/36634/
 * https://blogs.blackberry.com/en/2020/01/threat-spotlight-amadey-bot
+* https://cyble.com/blog/the-rise-of-amadey-bot-a-growing-concern-for-internet-security/
 
 ## Literature
 

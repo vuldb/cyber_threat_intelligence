@@ -71,9 +71,10 @@ ID | Type | Indicator | Confidence
 25 | File | `/fuel/sitevariables/delete/4` | High
 26 | File | `/goform/saveParentControlInfo` | High
 27 | File | `/goform/setBlackRule` | High
-28 | ... | ... | ...
+28 | File | `/goform/setSnmpInfo` | High
+29 | ... | ... | ...
 
-There are 234 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 243 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

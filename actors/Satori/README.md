@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 13 more country items available. Please use our online service to access the data.
+There are 14 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -41,7 +41,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22 | Path Traversal | High
-2 | T1055 | CWE-74 | Injection | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
 
@@ -57,15 +57,15 @@ ID | Type | Indicator | Confidence
 2 | File | `/anony/mjpg.cgi` | High
 3 | File | `/plain` | Low
 4 | File | `/public/login.htm` | High
-5 | File | `/uncpath/` | Medium
-6 | File | `/wbms/classes/Master.php?f=delete_client` | High
-7 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-8 | File | `admin_add.php` | High
-9 | File | `awstats.pl` | Medium
-10 | File | `books.php` | Medium
+5 | File | `/spip.php` | Medium
+6 | File | `/uncpath/` | Medium
+7 | File | `/wbms/classes/Master.php?f=delete_client` | High
+8 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+9 | File | `admin_add.php` | High
+10 | File | `awstats.pl` | Medium
 11 | ... | ... | ...
 
-There are 81 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 88 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

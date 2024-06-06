@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Spain Unknown:
 
-* [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
-* [UA](https://vuldb.com/?country.ua)
+* [RU](https://vuldb.com/?country.ru)
+* [PL](https://vuldb.com/?country.pl)
 * ...
 
-There are 24 more country items available. Please use our online service to access the data.
+There are 17 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -2451,9 +2451,29 @@ ID | IP address | Hostname | Campaign | Confidence
 2428 | [62.185.66.224](https://vuldb.com/?ip.62.185.66.224) | - | - | High
 2429 | [62.185.93.0](https://vuldb.com/?ip.62.185.93.0) | - | - | High
 2430 | [62.185.93.96](https://vuldb.com/?ip.62.185.93.96) | - | - | High
-2431 | ... | ... | ... | ...
+2431 | [62.185.93.128](https://vuldb.com/?ip.62.185.93.128) | - | - | High
+2432 | [62.185.111.144](https://vuldb.com/?ip.62.185.111.144) | - | - | High
+2433 | [62.185.130.32](https://vuldb.com/?ip.62.185.130.32) | - | - | High
+2434 | [62.185.138.64](https://vuldb.com/?ip.62.185.138.64) | - | - | High
+2435 | [62.185.161.192](https://vuldb.com/?ip.62.185.161.192) | - | - | High
+2436 | [62.185.176.96](https://vuldb.com/?ip.62.185.176.96) | - | - | High
+2437 | [62.185.193.0](https://vuldb.com/?ip.62.185.193.0) | - | - | High
+2438 | [62.185.193.128](https://vuldb.com/?ip.62.185.193.128) | - | - | High
+2439 | [62.185.200.0](https://vuldb.com/?ip.62.185.200.0) | - | - | High
+2440 | [62.185.200.128](https://vuldb.com/?ip.62.185.200.128) | - | - | High
+2441 | [62.185.201.0](https://vuldb.com/?ip.62.185.201.0) | - | - | High
+2442 | [62.185.201.128](https://vuldb.com/?ip.62.185.201.128) | - | - | High
+2443 | [62.185.255.0](https://vuldb.com/?ip.62.185.255.0) | - | - | High
+2444 | [62.186.21.192](https://vuldb.com/?ip.62.186.21.192) | - | - | High
+2445 | [62.186.72.224](https://vuldb.com/?ip.62.186.72.224) | - | - | High
+2446 | [62.186.186.112](https://vuldb.com/?ip.62.186.186.112) | - | - | High
+2447 | [62.186.200.0](https://vuldb.com/?ip.62.186.200.0) | - | - | High
+2448 | [62.186.200.128](https://vuldb.com/?ip.62.186.200.128) | - | - | High
+2449 | [62.186.201.0](https://vuldb.com/?ip.62.186.201.0) | - | - | High
+2450 | [62.186.202.0](https://vuldb.com/?ip.62.186.202.0) | - | - | High
+2451 | ... | ... | ... | ...
 
-There are 9721 more IOC items available. Please use our online service to access the data.
+There are 9800 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -2461,14 +2481,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-25, CWE-36 | Path Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+1 | T1006 | CWE-22 | Path Traversal | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-94 | Argument Injection | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 15 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -2476,59 +2495,35 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/#ilang=DE&b=c_smartenergy_swgroups` | High
-2 | File | `/Account/login.php` | High
-3 | File | `/admin/` | Low
-4 | File | `/admin/action/delete-vaccine.php` | High
-5 | File | `/admin/index2.html` | High
-6 | File | `/admin/pages/edit_chicken.php` | High
-7 | File | `/admin/pages/student-print.php` | High
-8 | File | `/admin/request-received-bydonar.php` | High
-9 | File | `/adminapi/system/crud` | High
-10 | File | `/adminapi/system/file/openfile` | High
-11 | File | `/admin_route/dec_service_credits.php` | High
-12 | File | `/admin_route/inc_service_credits.php` | High
-13 | File | `/api/controllers/merchant/app/ComboController.php` | High
-14 | File | `/api/v4/teams//channels/deleted` | High
-15 | File | `/app/Http/Controllers/ImageController.php` | High
-16 | File | `/application/index/controller/Icon.php` | High
-17 | File | `/application/index/controller/Screen.php` | High
-18 | File | `/application/websocket/controller/Setting.php` | High
-19 | File | `/apply/index.php` | High
-20 | File | `/bin/boa` | Medium
-21 | File | `/boafrm/formMapDelDevice` | High
-22 | File | `/cgi-bin/cstecgi.cgi` | High
-23 | File | `/currentsetting.htm` | High
-24 | File | `/debug/pprof` | Medium
-25 | File | `/debuginfo.htm` | High
-26 | File | `/devinfo` | Medium
-27 | File | `/DXR.axd` | Medium
-28 | File | `/endpoint/add-computer.php` | High
-29 | File | `/endpoint/delete-computer.php` | High
-30 | File | `/endpoint/delete-faq.php` | High
-31 | File | `/endpoint/update-tracker.php` | High
-32 | File | `/etc/passwd` | Medium
-33 | File | `/ext/collect/filter_text.do` | High
-34 | File | `/ext/collect/find_text.do` | High
-35 | File | `/filex/read-raw` | High
-36 | File | `/forum/away.php` | High
-37 | File | `/front/admin/tenancyDetail.php` | High
-38 | File | `/general/attendance/manage/ask_duty/delete.php` | High
-39 | File | `/get_membership_amount.php` | High
-40 | File | `/goform/setAutoPing` | High
-41 | File | `/goform/setcfm` | High
-42 | File | `/goform/WifiMacFilterGet` | High
-43 | File | `/hedwig.cgi` | Medium
-44 | File | `/index.jsp#settings` | High
-45 | File | `/Interface/DevManage/VM.php` | High
-46 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-47 | File | `/owa/auth/logon.aspx` | High
-48 | File | `/pixman-combine-float.c` | High
-49 | File | `/process/assignp.php` | High
-50 | File | `/psubmit.php` | Medium
-51 | ... | ... | ...
+1 | File | `/Admin/changepassword.php` | High
+2 | File | `/admin/court` | Medium
+3 | File | `/Admin/createClass.php` | High
+4 | File | `/admin/general-setting` | High
+5 | File | `/admin/index.php?page=manage_product` | High
+6 | File | `/admin/maintenance/manage_brand.php` | High
+7 | File | `/admin/problem_judge.php` | High
+8 | File | `/admin/service` | High
+9 | File | `/blog/blog.php` | High
+10 | File | `/catalog/admin/categories.php?cPath=&action=new_product` | High
+11 | File | `/catalog/all-products` | High
+12 | File | `/cgi-bin/wlogin.cgi` | High
+13 | File | `/changePassword` | High
+14 | File | `/College/admin/teacher.php` | High
+15 | File | `/conf/app.conf` | High
+16 | File | `/forum/away.php` | High
+17 | File | `/goform/SetRemoteWebCfg` | High
+18 | File | `/goform/SetSysTimeCfg` | High
+19 | File | `/index.php` | Medium
+20 | File | `/lesson/controller.php` | High
+21 | File | `/login.php` | Medium
+22 | File | `/mailcleaner.php/getStats` | High
+23 | File | `/manage_sy.php` | High
+24 | File | `/one_church/churchprofile.php` | High
+25 | File | `/onlinecourse/` | High
+26 | File | `/out.php` | Medium
+27 | ... | ... | ...
 
-There are 448 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 224 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -2536,6 +2531,7 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://github.com/firehol/blocklist-ipsets/blob/master/geolite2_country/country_es.netset
 * https://github.com/firehol/blocklist-ipsets/blob/master/ip2location_country/ip2location_country_es.netset
+* https://github.com/scriptzteam/Private-Internet-Access-VPN-Servers/blob/main/export.csv
 * https://raw.githubusercontent.com/firehol/blocklist-ipsets/master/ipip_country/ipip_country_es.netset
 
 ## Literature

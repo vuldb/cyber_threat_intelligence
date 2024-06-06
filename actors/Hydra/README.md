@@ -43,7 +43,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22, CWE-23, CWE-425 | Path Traversal | High
-2 | T1055 | CWE-74 | Injection | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
@@ -67,52 +67,53 @@ ID | Type | Indicator | Confidence
 8 | File | `/admin/wlmultipleap.asp` | High
 9 | File | `/api/baskets/{name}` | High
 10 | File | `/be/erpc.php` | Medium
-11 | File | `/brand.php` | Medium
-12 | File | `/cas/logout` | Medium
-13 | File | `/category.php` | High
-14 | File | `/cgi-bin/` | Medium
-15 | File | `/classes/Master.php?f=delete_inquiry` | High
-16 | File | `/collection/all` | High
-17 | File | `/coreframe/app/member/admin/group.php` | High
-18 | File | `/Duty/AjaxHandle/UploadFloodPlanFileUpdate.ashx` | High
-19 | File | `/filemanager/php/connector.php` | High
-20 | File | `/filex/read-raw` | High
-21 | File | `/forum/away.php` | High
-22 | File | `/goform/L7Im` | Medium
-23 | File | `/hospital_activities/birth/form` | High
-24 | File | `/hoteldruid/interconnessioni.php` | High
-25 | File | `/include/chart_generator.php` | High
-26 | File | `/index.php?page=member` | High
-27 | File | `/investigation/delete/` | High
-28 | File | `/login/index.php` | High
-29 | File | `/medical/inventories.php` | High
-30 | File | `/mgmt/tm/util/bash` | High
-31 | File | `/modules/projects/vw_files.php` | High
-32 | File | `/owa/auth/logon.aspx` | High
-33 | File | `/rest/api/2/user/picker` | High
-34 | File | `/school/model/get_events.php` | High
-35 | File | `/scripts/cpan_config` | High
-36 | File | `/search/index` | High
-37 | File | `/secure/QueryComponent!Default.jspa` | High
-38 | File | `/spacecom/login.php` | High
-39 | File | `/spip.php` | Medium
-40 | File | `/src/admin/content_batchup_action.php` | High
-41 | File | `/uncpath/` | Medium
-42 | File | `/user/updatePwd` | High
-43 | File | `/wp-admin/admin-ajax.php` | High
-44 | File | `AbstractController.php` | High
-45 | File | `action.php` | Medium
-46 | File | `adclick.php` | Medium
-47 | File | `add-locker-form.php` | High
-48 | File | `addpost_newpoll.php` | High
-49 | File | `admin.cgi` | Medium
-50 | File | `admin.php` | Medium
-51 | File | `admin.remository.php` | High
-52 | File | `admin/news.php` | High
-53 | File | `admin/page.php` | High
-54 | ... | ... | ...
+11 | File | `/billing/bill/edit/` | High
+12 | File | `/brand.php` | Medium
+13 | File | `/cas/logout` | Medium
+14 | File | `/category.php` | High
+15 | File | `/cgi-bin/` | Medium
+16 | File | `/classes/Master.php?f=delete_inquiry` | High
+17 | File | `/collection/all` | High
+18 | File | `/coreframe/app/member/admin/group.php` | High
+19 | File | `/Duty/AjaxHandle/UploadFloodPlanFileUpdate.ashx` | High
+20 | File | `/filemanager/php/connector.php` | High
+21 | File | `/filex/read-raw` | High
+22 | File | `/forum/away.php` | High
+23 | File | `/goform/L7Im` | Medium
+24 | File | `/hardware` | Medium
+25 | File | `/hospital_activities/birth/form` | High
+26 | File | `/hoteldruid/interconnessioni.php` | High
+27 | File | `/include/chart_generator.php` | High
+28 | File | `/index.php?page=member` | High
+29 | File | `/investigation/delete/` | High
+30 | File | `/login/index.php` | High
+31 | File | `/medical/inventories.php` | High
+32 | File | `/mgmt/tm/util/bash` | High
+33 | File | `/modules/projects/vw_files.php` | High
+34 | File | `/owa/auth/logon.aspx` | High
+35 | File | `/rest/api/2/user/picker` | High
+36 | File | `/school/model/get_events.php` | High
+37 | File | `/scripts/cpan_config` | High
+38 | File | `/search/index` | High
+39 | File | `/secure/QueryComponent!Default.jspa` | High
+40 | File | `/spacecom/login.php` | High
+41 | File | `/spip.php` | Medium
+42 | File | `/src/admin/content_batchup_action.php` | High
+43 | File | `/uncpath/` | Medium
+44 | File | `/user/updatePwd` | High
+45 | File | `/wp-admin/admin-ajax.php` | High
+46 | File | `AbstractController.php` | High
+47 | File | `action.php` | Medium
+48 | File | `adclick.php` | Medium
+49 | File | `add-locker-form.php` | High
+50 | File | `addpost_newpoll.php` | High
+51 | File | `admin.cgi` | Medium
+52 | File | `admin.php` | Medium
+53 | File | `admin.remository.php` | High
+54 | File | `admin/news.php` | High
+55 | ... | ... | ...
 
-There are 473 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 479 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

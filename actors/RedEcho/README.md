@@ -60,36 +60,36 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin-panel1.php` | High
-2 | File | `/admin/academic/studenview_left.php` | High
-3 | File | `/admin/ajax.php` | High
-4 | File | `/admin/ajax.php?action=confirm_order` | High
-5 | File | `/admin/controller/JobLogController.java` | High
-6 | File | `/admin/login.php` | High
-7 | File | `/ad_js.php` | Medium
-8 | File | `/alerts/alertConfigField.php` | High
-9 | File | `/api/blade-log/api/list` | High
-10 | File | `/api/v1/terminal/sessions/?limit=1` | High
-11 | File | `/config/myfield/test.php` | High
-12 | File | `/context/%2e/WEB-INF/web.xml` | High
-13 | File | `/core/conditions/AbstractWrapper.java` | High
-14 | File | `/data/remove` | Medium
-15 | File | `/debug/pprof` | Medium
-16 | File | `/etc/passwd` | Medium
-17 | File | `/face-recognition-php/facepay-master/camera.php` | High
-18 | File | `/forms/doLogin` | High
-19 | File | `/fuel/index.php/fuel/logs/items` | High
-20 | File | `/fuel/index.php/fuel/pages/items` | High
-21 | File | `/goform/aspForm` | High
-22 | File | `/image_zoom.php` | High
-23 | File | `/include/config.cache.php` | High
-24 | File | `/index.php` | Medium
-25 | File | `/mkshop/Men/profile.php` | High
-26 | File | `/param.file.tgz` | High
-27 | File | `/php/exportrecord.php` | High
+1 | File | `/?g=net_pro_keyword_import_save` | High
+2 | File | `/admin-panel1.php` | High
+3 | File | `/admin/academic/studenview_left.php` | High
+4 | File | `/admin/ajax.php` | High
+5 | File | `/admin/ajax.php?action=confirm_order` | High
+6 | File | `/admin/controller/JobLogController.java` | High
+7 | File | `/admin/login.php` | High
+8 | File | `/ad_js.php` | Medium
+9 | File | `/alerts/alertConfigField.php` | High
+10 | File | `/api/blade-log/api/list` | High
+11 | File | `/api/v1/terminal/sessions/?limit=1` | High
+12 | File | `/config/myfield/test.php` | High
+13 | File | `/context/%2e/WEB-INF/web.xml` | High
+14 | File | `/core/conditions/AbstractWrapper.java` | High
+15 | File | `/data/remove` | Medium
+16 | File | `/debug/pprof` | Medium
+17 | File | `/etc/passwd` | Medium
+18 | File | `/face-recognition-php/facepay-master/camera.php` | High
+19 | File | `/forms/doLogin` | High
+20 | File | `/fuel/index.php/fuel/logs/items` | High
+21 | File | `/fuel/index.php/fuel/pages/items` | High
+22 | File | `/goform/aspForm` | High
+23 | File | `/image_zoom.php` | High
+24 | File | `/include/config.cache.php` | High
+25 | File | `/index.php` | Medium
+26 | File | `/mkshop/Men/profile.php` | High
+27 | File | `/param.file.tgz` | High
 28 | ... | ... | ...
 
-There are 234 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 236 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Andorra Unknown:
 
 * [US](https://vuldb.com/?country.us)
-* [ES](https://vuldb.com/?country.es)
 * [GB](https://vuldb.com/?country.gb)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 24 more country items available. Please use our online service to access the data.
+There are 5 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -32,9 +32,25 @@ ID | IP address | Hostname | Campaign | Confidence
 9 | [45.12.71.1](https://vuldb.com/?ip.45.12.71.1) | - | - | High
 10 | [45.42.161.0](https://vuldb.com/?ip.45.42.161.0) | - | - | High
 11 | [46.172.224.0](https://vuldb.com/?ip.46.172.224.0) | - | - | High
-12 | ... | ... | ... | ...
+12 | [46.175.156.0](https://vuldb.com/?ip.46.175.156.0) | - | - | High
+13 | [57.79.178.0](https://vuldb.com/?ip.57.79.178.0) | - | - | High
+14 | [57.79.240.0](https://vuldb.com/?ip.57.79.240.0) | - | - | High
+15 | [80.80.84.0](https://vuldb.com/?ip.80.80.84.0) | - | - | High
+16 | [80.80.92.0](https://vuldb.com/?ip.80.80.92.0) | - | - | High
+17 | [82.206.251.0](https://vuldb.com/?ip.82.206.251.0) | - | - | High
+18 | [85.94.160.0](https://vuldb.com/?ip.85.94.160.0) | static-85-94-160-0.andorpac.ad | - | High
+19 | [85.203.22.16](https://vuldb.com/?ip.85.203.22.16) | - | - | High
+20 | [88.218.18.0](https://vuldb.com/?ip.88.218.18.0) | - | - | High
+21 | [89.150.2.0](https://vuldb.com/?ip.89.150.2.0) | - | - | High
+22 | [89.150.4.0](https://vuldb.com/?ip.89.150.4.0) | - | - | High
+23 | [89.150.8.0](https://vuldb.com/?ip.89.150.8.0) | - | - | High
+24 | [91.187.64.0](https://vuldb.com/?ip.91.187.64.0) | m91-187-64-0.andorpac.ad | - | High
+25 | [94.125.138.0](https://vuldb.com/?ip.94.125.138.0) | - | - | High
+26 | [94.125.140.0](https://vuldb.com/?ip.94.125.140.0) | - | - | High
+27 | [94.142.206.0](https://vuldb.com/?ip.94.142.206.0) | - | - | High
+28 | ... | ... | ... | ...
 
-There are 42 more IOC items available. Please use our online service to access the data.
+There are 110 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -43,13 +59,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
-2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-94 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+2 | T1059 | CWE-94 | Argument Injection | High
+3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+4 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 13 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -57,65 +71,17 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.htaccess` | Medium
-2 | File | `.php.gif` | Medium
-3 | File | `/?Page=Node/OBJ=/System/DeviceFolder/DeviceFolder/DateTime/Action=Submit` | High
-4 | File | `/acms/admin/cargo_types/manage_cargo_type.php` | High
-5 | File | `/admin/add-services.php` | High
-6 | File | `/admin/admin.php` | High
-7 | File | `/admin/ajax/avatar.php` | High
-8 | File | `/admin/edit-services.php` | High
-9 | File | `/admin/forgot-password.php` | High
-10 | File | `/admin/index.php` | High
-11 | File | `/admin/lab.php` | High
-12 | File | `/admin/login.php` | High
-13 | File | `/admin/payment.php` | High
-14 | File | `/admin/show.php` | High
-15 | File | `/auth/register` | High
-16 | File | `/bin/boa` | Medium
-17 | File | `/boat/login.php` | High
-18 | File | `/classes/Master.php?f=save_inquiry` | High
-19 | File | `/clinic/disease_symptoms_view.php` | High
-20 | File | `/default.php?idx=17` | High
-21 | File | `/download` | Medium
-22 | File | `/env` | Low
-23 | File | `/forum/away.php` | High
-24 | File | `/index.php` | Medium
-25 | File | `/installer/test.php` | High
-26 | File | `/librarian/bookdetails.php` | High
-27 | File | `/opt/bin/cli` | Medium
-28 | File | `/p` | Low
-29 | File | `/patient/doctors.php` | High
-30 | File | `/phpinventory/editcategory.php` | High
-31 | File | `/product-list.php` | High
-32 | File | `/spip.php` | Medium
-33 | File | `/uncpath/` | Medium
-34 | File | `/updown/upload.cgi` | High
-35 | File | `/user/del.php` | High
-36 | File | `/vicidial/admin.php` | High
-37 | File | `/wp-admin/admin-ajax.php` | High
-38 | File | `/_next` | Low
-39 | File | `123flashchat.php` | High
-40 | File | `act.php` | Low
-41 | File | `admin.php/pay` | High
-42 | File | `admin/bad.php` | High
-43 | File | `admin/index.php` | High
-44 | File | `admin/index.php/user/del/1` | High
-45 | File | `admin/index.php?id=themes&action=edit_chunk` | High
-46 | File | `admin/products/controller.php?action=add` | High
-47 | File | `administrator/index.php` | High
-48 | File | `advertiser/login_confirm.asp` | High
-49 | File | `agenda.php` | Medium
-50 | File | `ajax/render/widget_php` | High
-51 | File | `akocomments.php` | High
-52 | File | `album_portal.php` | High
-53 | File | `api.php` | Low
-54 | File | `app/membership_signup.php` | High
-55 | File | `application/home/controller/debug.php` | High
-56 | File | `articulo.php` | Medium
-57 | ... | ... | ...
+1 | File | `/admin/manage-ambulance.php` | High
+2 | File | `/cgi-bin/nas_sharing.cgi` | High
+3 | File | `/control/register_case.php` | High
+4 | File | `/forum/away.php` | High
+5 | File | `/installer/test.php` | High
+6 | File | `/manage_sy.php` | High
+7 | File | `/mobileredir/openApp.jsp` | High
+8 | File | `/ndmComponents.js` | High
+9 | ... | ... | ...
 
-There are 500 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 68 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -124,6 +90,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://github.com/firehol/blocklist-ipsets/blob/master/geolite2_country/country_ad.netset
 * https://github.com/firehol/blocklist-ipsets/blob/master/ip2location_country/ip2location_country_ad.netset
 * https://github.com/firehol/blocklist-ipsets/blob/master/ipip_country/ipip_country_ad.netset
+* https://github.com/scriptzteam/Private-Internet-Access-VPN-Servers/blob/main/export.csv
 
 ## Literature
 

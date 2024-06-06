@@ -26,7 +26,7 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [45.88.66.118](https://vuldb.com/?ip.45.88.66.118) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 9 more IOC items available. Please use our online service to access the data.
+There are 10 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -57,27 +57,28 @@ ID | Type | Indicator | Confidence
 8 | File | `/admin/products/manage_product.php` | High
 9 | File | `/admin/products/view_product.php` | High
 10 | File | `/config/myfield/test.php` | High
-11 | File | `/forum/away.php` | High
-12 | File | `/horde/util/go.php` | High
-13 | File | `/index.php` | Medium
-14 | File | `/index.php?app=main&func=passport&action=login` | High
-15 | File | `/manage-apartment.php` | High
-16 | File | `/multi-vendor-shopping-script/product-list.php` | High
-17 | File | `/Noxen-master/users.php` | High
-18 | File | `/pages/animals.php` | High
-19 | File | `/reports/rwservlet` | High
-20 | File | `/reviewer/system/system/admins/manage/users/user-update.php` | High
-21 | File | `/Service/ImageStationDataService.asmx` | High
-22 | File | `/wp-admin/options-general.php` | High
-23 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-24 | File | `ad.cgi` | Low
-25 | File | `adclick.php` | Medium
-26 | File | `admin.color.php` | High
-27 | File | `admin.cropcanvas.php` | High
-28 | File | `admin.joomlaradiov5.php` | High
-29 | ... | ... | ...
+11 | File | `/eclime/manufacturers.php` | High
+12 | File | `/forum/away.php` | High
+13 | File | `/horde/util/go.php` | High
+14 | File | `/index.php` | Medium
+15 | File | `/index.php?app=main&func=passport&action=login` | High
+16 | File | `/manage-apartment.php` | High
+17 | File | `/multi-vendor-shopping-script/product-list.php` | High
+18 | File | `/Noxen-master/users.php` | High
+19 | File | `/pages/animals.php` | High
+20 | File | `/reports/rwservlet` | High
+21 | File | `/reviewer/system/system/admins/manage/users/user-update.php` | High
+22 | File | `/Service/ImageStationDataService.asmx` | High
+23 | File | `/wp-admin/options-general.php` | High
+24 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+25 | File | `ad.cgi` | Low
+26 | File | `adclick.php` | Medium
+27 | File | `admin.color.php` | High
+28 | File | `admin.cropcanvas.php` | High
+29 | File | `admin.joomlaradiov5.php` | High
+30 | ... | ... | ...
 
-There are 246 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 250 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -87,6 +88,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://app.any.run/tasks/6a23e4c0-1a85-4e9f-a322-19e10dd7d346
 * https://app.any.run/tasks/6cee07ce-6197-4507-bd68-5928b8247843
 * https://bazaar.abuse.ch/sample/4acddc15352051552d4684fff6d07d18305cf7276d208adf7e2f59c5a70c909a/
+* https://bazaar.abuse.ch/sample/97175f477ed70cb8ab8e64165325586111a3946433bbae9e03b8273ac0602e3e/
 * https://bazaar.abuse.ch/sample/cfa592b0128bc126fbf3fb66c551a8d87223b196f5e0cd87e60b88bdc688c6e0/
 * https://threatfox.abuse.ch
 * https://tria.ge/231112-thxkbsgg3s/behavioral2

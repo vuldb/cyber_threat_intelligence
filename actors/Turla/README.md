@@ -21,7 +21,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [AT](https://vuldb.com/?country.at)
 * ...
 
-There are 7 more country items available. Please use our online service to access the data.
+There are 9 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -30,18 +30,20 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [5.255.93.228](https://vuldb.com/?ip.5.255.93.228) | - | - | High
-2 | [45.153.241.162](https://vuldb.com/?ip.45.153.241.162) | - | - | High
-3 | [62.12.39.117](https://vuldb.com/?ip.62.12.39.117) | - | Waterbug | High
-4 | [62.68.73.57](https://vuldb.com/?ip.62.68.73.57) | - | Waterbug | High
-5 | [62.212.226.118](https://vuldb.com/?ip.62.212.226.118) | - | Waterbug | High
-6 | [66.178.107.140](https://vuldb.com/?ip.66.178.107.140) | - | Whitebear | High
-7 | [70.32.39.219](https://vuldb.com/?ip.70.32.39.219) | am-smartsales.com | - | High
-8 | [72.232.222.58](https://vuldb.com/?ip.72.232.222.58) | HOST.MJSHOSTING.COM | Waterbug | High
-9 | [77.232.99.77](https://vuldb.com/?ip.77.232.99.77) | - | - | High
-10 | [79.110.52.218](https://vuldb.com/?ip.79.110.52.218) | - | - | High
-11 | ... | ... | ... | ...
+2 | [45.33.24.145](https://vuldb.com/?ip.45.33.24.145) | 45-33-24-145.ip.linodeusercontent.com | - | High
+3 | [45.79.93.87](https://vuldb.com/?ip.45.79.93.87) | 45-79-93-87.ip.linodeusercontent.com | - | High
+4 | [45.153.241.162](https://vuldb.com/?ip.45.153.241.162) | - | - | High
+5 | [62.12.39.117](https://vuldb.com/?ip.62.12.39.117) | - | Waterbug | High
+6 | [62.68.73.57](https://vuldb.com/?ip.62.68.73.57) | - | Waterbug | High
+7 | [62.212.226.118](https://vuldb.com/?ip.62.212.226.118) | - | Waterbug | High
+8 | [65.109.179.67](https://vuldb.com/?ip.65.109.179.67) | static.67.179.109.65.clients.your-server.de | - | High
+9 | [66.178.107.140](https://vuldb.com/?ip.66.178.107.140) | - | Whitebear | High
+10 | [70.32.39.219](https://vuldb.com/?ip.70.32.39.219) | am-smartsales.com | - | High
+11 | [72.232.222.58](https://vuldb.com/?ip.72.232.222.58) | HOST.MJSHOSTING.COM | Waterbug | High
+12 | [74.50.80.35](https://vuldb.com/?ip.74.50.80.35) | vps2770870.trouble-free.net | - | High
+13 | ... | ... | ... | ...
 
-There are 38 more IOC items available. Please use our online service to access the data.
+There are 48 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -65,29 +67,31 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `%APPDATA%\Securepoint SSL VPN` | High
-2 | File | `/admin/index2.html` | High
-3 | File | `/Api/ASF` | Medium
-4 | File | `/etc/shadow` | Medium
-5 | File | `/etc/target/saveconfig.json` | High
-6 | File | `/exec` | Low
-7 | File | `/form/index.php?module=getjson` | High
-8 | File | `/hcms/admin/index.php/language/ajax` | High
-9 | File | `/jsonrpc` | Medium
-10 | File | `/pms/admin/crimes/manage_crime.php` | High
-11 | File | `/product.php` | Medium
-12 | File | `/ram/pckg/advanced-tools/nova/bin/netwatch` | High
-13 | File | `/redpass.cgi` | Medium
-14 | File | `/registerCpe` | Medium
-15 | File | `/rest/collectors/1.0/template/custom` | High
-16 | File | `/sitecore/shell/Invoke.aspx` | High
-17 | File | `/system?action=ServiceAdmin` | High
-18 | File | `/uncpath/` | Medium
-19 | File | `/Uploads` | Medium
-20 | File | `/User/saveUser` | High
-21 | File | `/webapps/Bb-sites-user-profile-BBLEARN/profile.form` | High
-22 | ... | ... | ...
+2 | File | `/about.php` | Medium
+3 | File | `/admin/index2.html` | High
+4 | File | `/Api/ASF` | Medium
+5 | File | `/etc/shadow` | Medium
+6 | File | `/etc/target/saveconfig.json` | High
+7 | File | `/exec` | Low
+8 | File | `/form/index.php?module=getjson` | High
+9 | File | `/hcms/admin/index.php/language/ajax` | High
+10 | File | `/jsonrpc` | Medium
+11 | File | `/pms/admin/crimes/manage_crime.php` | High
+12 | File | `/product.php` | Medium
+13 | File | `/ram/pckg/advanced-tools/nova/bin/netwatch` | High
+14 | File | `/redpass.cgi` | Medium
+15 | File | `/registerCpe` | Medium
+16 | File | `/rest/collectors/1.0/template/custom` | High
+17 | File | `/sitecore/shell/Invoke.aspx` | High
+18 | File | `/system?action=ServiceAdmin` | High
+19 | File | `/uncpath/` | Medium
+20 | File | `/Uploads` | Medium
+21 | File | `/User/saveUser` | High
+22 | File | `/webapps/Bb-sites-user-profile-BBLEARN/profile.form` | High
+23 | File | `/wp-admin/customization.php` | High
+24 | ... | ... | ...
 
-There are 186 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 201 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -103,6 +107,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://www.threatminer.org/report.php?q=waterbug-attack-group.pdf&y=2015#gsc.tab=0&gsc.q=waterbug-attack-group.pdf&gsc.page=1
 * https://www.threatminer.org/_reports/2016/Report_Ruag-Espionage-Case.pdf#viewer.action=download
 * https://www.welivesecurity.com/2018/05/22/turla-mosquito-shift-towards-generic-tools/
+* https://www.welivesecurity.com/en/eset-research/moon-backdoors-lunar-landing-diplomatic-missions/
 * https://www.welivesecurity.com/wp-content/uploads/2017/08/eset-gazer.pdf
 
 ## Literature

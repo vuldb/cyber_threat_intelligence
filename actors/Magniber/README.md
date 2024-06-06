@@ -21,12 +21,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [92.222.121.30](https://vuldb.com/?ip.92.222.121.30) | ip30.ip-92-222-121.eu | - | High
-2 | [94.23.165.192](https://vuldb.com/?ip.94.23.165.192) | ip192.ip-94-23-165.eu | - | High
-3 | [141.164.35.40](https://vuldb.com/?ip.141.164.35.40) | 141.164.35.40.vultrusercontent.com | - | High
+1 | [45.32.170.38](https://vuldb.com/?ip.45.32.170.38) | 45.32.170.38.vultrusercontent.com | - | High
+2 | [51.68.238.215](https://vuldb.com/?ip.51.68.238.215) | - | - | High
+3 | [51.254.147.171](https://vuldb.com/?ip.51.254.147.171) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 2 more IOC items available. Please use our online service to access the data.
+There are 7 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -39,7 +39,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059.007 | CWE-79 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 5 more TTP items available. Please use our online service to access the data.
+There are 6 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -48,17 +48,19 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/controller/Index.php` | High
-2 | File | `data/gbconfiguration.dat` | High
-3 | File | `shopprojectlogin.asp` | High
+2 | File | `/menu.html` | Medium
+3 | File | `cloud.php` | Medium
 4 | ... | ... | ...
 
-There are 3 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 9 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://1275.ru/ioc/163/magniber-ransomware-iocs/
+* https://asec.ahnlab.com/en/47909/
+* https://asec.ahnlab.com/en/55961/
 * https://threatfox.abuse.ch
 
 ## Literature

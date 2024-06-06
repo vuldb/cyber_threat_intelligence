@@ -80,9 +80,10 @@ ID | Type | Indicator | Confidence
 21 | File | `/xAdmin/html/cm_doclist_view_uc.jsp` | High
 22 | File | `adclick.php` | Medium
 23 | File | `add_comment.php` | High
-24 | ... | ... | ...
+24 | File | `admin/content.php` | High
+25 | ... | ... | ...
 
-There are 203 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 206 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

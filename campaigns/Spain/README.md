@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Spain:
 
-* [CN](https://vuldb.com/?country.cn)
-* [US](https://vuldb.com/?country.us)
-* [UA](https://vuldb.com/?country.ua)
+* [ES](https://vuldb.com/?country.es)
+* [DE](https://vuldb.com/?country.de)
+* [IT](https://vuldb.com/?country.it)
 * ...
 
-There are 28 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -2470,14 +2470,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-36 | Path Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+1 | T1059.007 | CWE-79 | Cross Site Scripting | High
+2 | T1068 | CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+3 | T1202 | CWE-77, CWE-78 | Command Shell in Externally Accessible Directory | High
+4 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 5 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -2485,53 +2483,22 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/#ilang=DE&b=c_smartenergy_swgroups` | High
-2 | File | `/Account/login.php` | High
-3 | File | `/admin/` | Low
-4 | File | `/admin/app/service_crud.php` | High
-5 | File | `/admin/edit-admin.php` | High
-6 | File | `/admin/index2.html` | High
-7 | File | `/Admin/login.php` | High
-8 | File | `/admin/request-received-bydonar.php` | High
-9 | File | `/adminapi/system/crud` | High
-10 | File | `/adminapi/system/file/openfile` | High
-11 | File | `/admin_route/dec_service_credits.php` | High
-12 | File | `/api/controllers/merchant/app/ComboController.php` | High
-13 | File | `/api/v4/teams//channels/deleted` | High
-14 | File | `/app/admin/controller/Upload.php` | High
-15 | File | `/app/ajax/search_sales_report.php` | High
-16 | File | `/app/controller/Setup.php` | High
-17 | File | `/app/middleware/TokenVerify.php` | High
-18 | File | `/application/index/controller/Icon.php` | High
-19 | File | `/application/index/controller/Screen.php` | High
-20 | File | `/application/websocket/controller/Setting.php` | High
-21 | File | `/boafrm/formMapDelDevice` | High
-22 | File | `/cancel.php` | Medium
-23 | File | `/category.php` | High
-24 | File | `/cgi-bin/cstecgi.cgi` | High
-25 | File | `/cgi-bin/luci` | High
-26 | File | `/currentsetting.htm` | High
-27 | File | `/debuginfo.htm` | High
-28 | File | `/devinfo` | Medium
-29 | File | `/download` | Medium
-30 | File | `/DXR.axd` | Medium
-31 | File | `/Employer/EditProfile.php` | High
-32 | File | `/Employer/ManageWalkin.php` | High
-33 | File | `/endpoint/add-computer.php` | High
-34 | File | `/endpoint/add-faq.php` | High
-35 | File | `/endpoint/delete-computer.php` | High
-36 | File | `/endpoint/delete-faq.php` | High
-37 | File | `/endpoint/update-resident.php` | High
-38 | File | `/endpoint/update-tracker.php` | High
-39 | File | `/etc/passwd` | Medium
-40 | File | `/ext/collect/filter_text.do` | High
-41 | File | `/ext/collect/find_text.do` | High
-42 | File | `/filex/read-raw` | High
-43 | File | `/forum/away.php` | High
-44 | File | `/front/admin/tenancyDetail.php` | High
-45 | ... | ... | ...
+1 | File | `/admin/admin_cl.php?mudi=revPwd` | High
+2 | File | `/cgi-bin/koha/opac-MARCdetail.pl` | High
+3 | File | `/doctor/view-appointment-detail.php` | High
+4 | File | `/goform/AddDnsForward` | High
+5 | File | `/goform/addIpMacBind` | High
+6 | File | `/goform/AdvSetMacMtuWan` | High
+7 | File | `/goform/DelDhcpRule` | High
+8 | File | `/goform/delIpMacBind` | High
+9 | File | `/goform/DelPortMapping` | High
+10 | File | `/goform/DhcpSetSe` | High
+11 | File | `/goform/DhcpSetSer` | High
+12 | File | `/goform/execCommand` | High
+13 | File | `/goform/modifyDhcpRule` | High
+14 | ... | ... | ...
 
-There are 385 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 109 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

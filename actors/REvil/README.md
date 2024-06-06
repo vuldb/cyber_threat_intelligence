@@ -63,42 +63,43 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/.htpasswd` | Medium
-2 | File | `/ajax.php?action=read_msg` | High
-3 | File | `/api/jolokia org.jolokia.http.HttpRequestHandler#handlePostRequest` | High
-4 | File | `/assets/something/services/AppModule.class` | High
-5 | File | `/category_view.php` | High
-6 | File | `/cgi-bin/nasset.cgi` | High
-7 | File | `/cgi-bin/webadminget.cgi` | High
-8 | File | `/cms/process.php` | High
-9 | File | `/debug/pprof` | Medium
-10 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
-11 | File | `/DXR.axd` | Medium
-12 | File | `/env` | Low
-13 | File | `/etc/shadow` | Medium
-14 | File | `/forum/away.php` | High
-15 | File | `/goform/SetNetControlList` | High
-16 | File | `/goform/SetStaticRouteCfg` | High
-17 | File | `/HNAP1` | Low
-18 | File | `/HNAP1/` | Low
-19 | File | `/hrm/controller/employee.php` | High
-20 | File | `/index.php/weblinks-categories` | High
-21 | File | `/modules/profile/index.php` | High
-22 | File | `/movie.php` | Medium
-23 | File | `/public/login.htm` | High
-24 | File | `/service/v1/createUser` | High
-25 | File | `/show_news.php` | High
-26 | File | `/src/chatbotapp/chatWindow.java` | High
-27 | File | `/system?action=ServiceAdmin` | High
-28 | File | `/uncpath/` | Medium
-29 | File | `/web/entry/en/address/adrsSetUserWizard.cgi` | High
-30 | File | `/_vti_bin/_vti_log` | High
-31 | File | `adclick.php` | Medium
-32 | File | `add_quiz.php` | Medium
-33 | File | `admin.asp` | Medium
-34 | File | `admin/categories_industry.php` | High
-35 | ... | ... | ...
+2 | File | `/admin/case-type` | High
+3 | File | `/ajax.php?action=read_msg` | High
+4 | File | `/api/jolokia org.jolokia.http.HttpRequestHandler#handlePostRequest` | High
+5 | File | `/assets/something/services/AppModule.class` | High
+6 | File | `/category_view.php` | High
+7 | File | `/cgi-bin/nasset.cgi` | High
+8 | File | `/cgi-bin/nas_sharing.cgi` | High
+9 | File | `/cgi-bin/webadminget.cgi` | High
+10 | File | `/cms/process.php` | High
+11 | File | `/debug/pprof` | Medium
+12 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
+13 | File | `/DXR.axd` | Medium
+14 | File | `/env` | Low
+15 | File | `/etc/shadow` | Medium
+16 | File | `/forum/away.php` | High
+17 | File | `/goform/SetNetControlList` | High
+18 | File | `/goform/SetStaticRouteCfg` | High
+19 | File | `/HNAP1` | Low
+20 | File | `/HNAP1/` | Low
+21 | File | `/hrm/controller/employee.php` | High
+22 | File | `/index.php/weblinks-categories` | High
+23 | File | `/modules/profile/index.php` | High
+24 | File | `/movie.php` | Medium
+25 | File | `/public/login.htm` | High
+26 | File | `/service/v1/createUser` | High
+27 | File | `/show_news.php` | High
+28 | File | `/src/chatbotapp/chatWindow.java` | High
+29 | File | `/system?action=ServiceAdmin` | High
+30 | File | `/uncpath/` | Medium
+31 | File | `/web/entry/en/address/adrsSetUserWizard.cgi` | High
+32 | File | `/_vti_bin/_vti_log` | High
+33 | File | `adclick.php` | Medium
+34 | File | `add_quiz.php` | Medium
+35 | File | `admin.asp` | Medium
+36 | ... | ... | ...
 
-There are 298 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 307 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

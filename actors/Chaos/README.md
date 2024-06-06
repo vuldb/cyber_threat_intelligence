@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [LU](https://vuldb.com/?country.lu)
 * ...
 
-There are 3 more country items available. Please use our online service to access the data.
+There are 6 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -42,11 +42,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-24 | Path Traversal | High
-2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
-6 | ... | ... | ... | ...
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+4 | T1059 | CWE-94 | Argument Injection | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+7 | ... | ... | ... | ...
 
 There are 22 more TTP items available. Please use our online service to access the data.
 
@@ -57,55 +58,55 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/add_post_sql.php` | High
-2 | File | `/admin/article.php` | High
-3 | File | `/admin/book_row.php` | High
-4 | File | `/admin/contact-us.php` | High
-5 | File | `/admin/general.cgi` | High
-6 | File | `/admin/index.php` | High
-7 | File | `/admin/reminders/manage_reminder.php` | High
-8 | File | `/admin/services/view_service.php` | High
-9 | File | `/admin/tag/delete` | High
-10 | File | `/adminpanel/admin/query/deleteCourseExe.php` | High
-11 | File | `/api/baskets/{name}` | High
-12 | File | `/api/jmeter/download/files` | High
-13 | File | `/api/v1/terminal/sessions/?limit=1` | High
-14 | File | `/api/wechat/app_auth` | High
-15 | File | `/application/index/controller/Screen.php` | High
-16 | File | `/apply.cgi` | Medium
-17 | File | `/CCMAdmin/serverlist.asp` | High
-18 | File | `/cgi-bin/luci/api/auth` | High
-19 | File | `/cgi-bin/system_mgr.cgi` | High
-20 | File | `/cgi-bin/wlogin.cgi` | High
-21 | File | `/cgi/get_param.cgi` | High
-22 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
-23 | File | `/csms/admin/inquiries/view_details.php` | High
-24 | File | `/cstecgi.cgi` | Medium
-25 | File | `/devinfo` | Medium
-26 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-27 | File | `/forum/away.php` | High
-28 | File | `/goform/openSchedWifi` | High
-29 | File | `/goform/SetStaticRouteCfg` | High
-30 | File | `/group1/uploa` | High
-31 | File | `/importexport.php` | High
-32 | File | `/include/chart_generator.php` | High
-33 | File | `/index.php` | Medium
-34 | File | `/index.php?page=member` | High
-35 | File | `/install.php` | Medium
-36 | File | `/librarian/bookdetails.php` | High
-37 | File | `/link/` | Low
-38 | File | `/manage/IPSetup.php` | High
-39 | File | `/matkul/data` | Medium
-40 | File | `/message/form/` | High
-41 | File | `/messageboard/view.php` | High
-42 | File | `/net/tls/tls_sw.c` | High
-43 | File | `/offersmail.php` | High
-44 | File | `/out.php` | Medium
-45 | File | `/owa/auth/logon.aspx` | High
-46 | File | `/process/assignp.php` | High
-47 | File | `/production/admin_view_info.php` | High
+2 | File | `/admin/` | Low
+3 | File | `/admin/add_ikev2.php` | High
+4 | File | `/admin/article.php` | High
+5 | File | `/admin/book_row.php` | High
+6 | File | `/admin/contact-us.php` | High
+7 | File | `/admin/general.cgi` | High
+8 | File | `/admin/index.php` | High
+9 | File | `/admin/reminders/manage_reminder.php` | High
+10 | File | `/admin/services/view_service.php` | High
+11 | File | `/admin/tag/delete` | High
+12 | File | `/adminpanel/admin/query/deleteCourseExe.php` | High
+13 | File | `/api/baskets/{name}` | High
+14 | File | `/api/jmeter/download/files` | High
+15 | File | `/api/v1/terminal/sessions/?limit=1` | High
+16 | File | `/api/wechat/app_auth` | High
+17 | File | `/application/index/controller/Screen.php` | High
+18 | File | `/apply.cgi` | Medium
+19 | File | `/cap.js` | Low
+20 | File | `/CCMAdmin/serverlist.asp` | High
+21 | File | `/cgi-bin/info.cgi` | High
+22 | File | `/cgi-bin/luci/api/auth` | High
+23 | File | `/cgi-bin/nas_sharing.cgi` | High
+24 | File | `/cgi-bin/system_mgr.cgi` | High
+25 | File | `/cgi-bin/webviewer_login_page` | High
+26 | File | `/cgi/get_param.cgi` | High
+27 | File | `/classes/Users.php?f=save` | High
+28 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
+29 | File | `/csms/admin/inquiries/view_details.php` | High
+30 | File | `/cstecgi.cgi` | Medium
+31 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
+32 | File | `/devinfo` | Medium
+33 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+34 | File | `/endpoint/delete-computer.php` | High
+35 | File | `/forum/away.php` | High
+36 | File | `/goform/openSchedWifi` | High
+37 | File | `/goform/SetStaticRouteCfg` | High
+38 | File | `/group1/uploa` | High
+39 | File | `/importexport.php` | High
+40 | File | `/include/chart_generator.php` | High
+41 | File | `/index.php` | Medium
+42 | File | `/index.php?page=member` | High
+43 | File | `/install.php` | Medium
+44 | File | `/link/` | Low
+45 | File | `/manage/IPSetup.php` | High
+46 | File | `/matkul/data` | Medium
+47 | File | `/message/form/` | High
 48 | ... | ... | ...
 
-There are 418 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 416 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

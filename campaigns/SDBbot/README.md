@@ -44,10 +44,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-37 | Path Traversal | High
-2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
 
@@ -58,42 +59,64 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/.ssh/authorized_keys` | High
-2 | File | `/admin/action/update-deworm.php` | High
-3 | File | `/admin/add-services.php` | High
-4 | File | `/admin/ajax.php?action=save_area` | High
-5 | File | `/admin/del_service.php` | High
-6 | File | `/admin/departments/manage_department.php` | High
-7 | File | `/admin/reportupload.aspx` | High
-8 | File | `/admin/sys_sql_query.php` | High
-9 | File | `/admin_ping.htm` | High
-10 | File | `/ample/app/action/edit_product.php` | High
-11 | File | `/api/clusters/local/topics/{topic}/messages` | High
-12 | File | `/api/plugin/uninstall` | High
-13 | File | `/api/sys/login` | High
-14 | File | `/app/sys1.php` | High
-15 | File | `/application/index/controller/File.php` | High
-16 | File | `/apply/index.php` | High
-17 | File | `/assets/php/upload.php` | High
-18 | File | `/audimex/cgi-bin/wal.fcgi` | High
-19 | File | `/auth_pic.cgi` | High
-20 | File | `/blog` | Low
-21 | File | `/boaform/device_reset.cgi` | High
-22 | File | `/cgi-bin/adm.cgi` | High
-23 | File | `/cgi-bin/cstecgi.cgi` | High
-24 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
-25 | File | `/cgi-bin/webproc` | High
-26 | File | `/classes/Master.php?f=save_inquiry` | High
-27 | File | `/classes/Users.php?f=save` | High
-28 | File | `/collection/all` | High
-29 | File | `/dashboard/createblog` | High
-30 | File | `/dipam/athlete-profile.php` | High
-31 | File | `/dosen/data` | Medium
-32 | File | `/Duty/AjaxHandle/Write/UploadFile.ashx` | High
-33 | File | `/etc/puppetlabs/puppetserver/conf.d/ca.conf` | High
-34 | File | `/file-manager/rename.php` | High
-35 | ... | ... | ...
+2 | File | `/actuator/heapdump` | High
+3 | File | `/admin/action/update-deworm.php` | High
+4 | File | `/admin/add-services.php` | High
+5 | File | `/admin/add_postlogin.php` | High
+6 | File | `/admin/add_visitor.php` | High
+7 | File | `/admin/admin.php` | High
+8 | File | `/admin/adminHome.php` | High
+9 | File | `/admin/admin_user.php` | High
+10 | File | `/admin/ajax.php?action=save_area` | High
+11 | File | `/admin/applicants/controller.php` | High
+12 | File | `/admin/booking-search.php` | High
+13 | File | `/admin/category/view_category.php` | High
+14 | File | `/admin/company/index.php` | High
+15 | File | `/admin/course.php` | High
+16 | File | `/admin/del_service.php` | High
+17 | File | `/admin/departments/manage_department.php` | High
+18 | File | `/admin/div_data/delete?divId=9` | High
+19 | File | `/admin/employee/controller.php` | High
+20 | File | `/admin/login.php` | High
+21 | File | `/admin/reportupload.aspx` | High
+22 | File | `/admin/search.php` | High
+23 | File | `/admin/singlelogin.php` | High
+24 | File | `/admin/sys_sql_query.php` | High
+25 | File | `/adminPage/main/upload` | High
+26 | File | `/admin_class.php` | High
+27 | File | `/admin_ping.htm` | High
+28 | File | `/ample/app/action/edit_product.php` | High
+29 | File | `/api/clusters/local/topics/{topic}/messages` | High
+30 | File | `/api/discoveries/` | High
+31 | File | `/api/plugin/uninstall` | High
+32 | File | `/api/sys/login` | High
+33 | File | `/app/sys1.php` | High
+34 | File | `/application/index/controller/File.php` | High
+35 | File | `/apply/index.php` | High
+36 | File | `/assets/php/upload.php` | High
+37 | File | `/audimex/cgi-bin/wal.fcgi` | High
+38 | File | `/auth_pic.cgi` | High
+39 | File | `/blog` | Low
+40 | File | `/boaform/device_reset.cgi` | High
+41 | File | `/boafrm/formMapDelDevice` | High
+42 | File | `/cgi-bin/adm.cgi` | High
+43 | File | `/cgi-bin/cstecgi.cgi` | High
+44 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
+45 | File | `/cgi-bin/nas_sharing.cgi` | High
+46 | File | `/cgi-bin/webproc` | High
+47 | File | `/classes/Master.php?f=save_inquiry` | High
+48 | File | `/classes/SystemSettings.php?f=update_settings` | High
+49 | File | `/classes/Users.php?f=save` | High
+50 | File | `/collection/all` | High
+51 | File | `/controller/company/Index.php#sendCompanyLogo` | High
+52 | File | `/dashboard/createblog` | High
+53 | File | `/Default/Bd` | Medium
+54 | File | `/dipam/athlete-profile.php` | High
+55 | File | `/dosen/data` | Medium
+56 | File | `/Duty/AjaxHandle/Write/UploadFile.ashx` | High
+57 | ... | ... | ...
 
-There are 295 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 500 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -36,7 +36,7 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
@@ -64,27 +64,28 @@ ID | Type | Indicator | Confidence
 13 | File | `/h/autoSaveDraft` | High
 14 | File | `/index.php` | Medium
 15 | File | `/librarian/bookdetails.php` | High
-16 | File | `/modules/profile/index.php` | High
-17 | File | `/news.dtl.php` | High
-18 | File | `/ofcms/company-c-47` | High
-19 | File | `/out.php` | Medium
-20 | File | `/patient/appointment.php` | High
-21 | File | `/protocol/iscgwtunnel/uploadiscgwrouteconf.php` | High
-22 | File | `/ptms/?page=user` | High
-23 | File | `/systemrw/` | Medium
-24 | File | `/uncpath/` | Medium
-25 | File | `/upload/file.php` | High
-26 | File | `/usr/sbin/httpd` | High
-27 | File | `/util/print.c` | High
-28 | File | `/web/MCmsAction.java` | High
-29 | File | `/wp-admin/admin-ajax.php` | High
-30 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-31 | File | `5.2.9\syscrb.exe` | High
-32 | File | `abc-pcie.c` | Medium
-33 | File | `accounts/payment_history.php` | High
-34 | ... | ... | ...
+16 | File | `/model/update_grade.php` | High
+17 | File | `/modules/profile/index.php` | High
+18 | File | `/news.dtl.php` | High
+19 | File | `/ofcms/company-c-47` | High
+20 | File | `/out.php` | Medium
+21 | File | `/patient/appointment.php` | High
+22 | File | `/protocol/iscgwtunnel/uploadiscgwrouteconf.php` | High
+23 | File | `/ptms/?page=user` | High
+24 | File | `/systemrw/` | Medium
+25 | File | `/uncpath/` | Medium
+26 | File | `/upload/file.php` | High
+27 | File | `/usr/sbin/httpd` | High
+28 | File | `/util/print.c` | High
+29 | File | `/web/MCmsAction.java` | High
+30 | File | `/wp-admin/admin-ajax.php` | High
+31 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+32 | File | `5.2.9\syscrb.exe` | High
+33 | File | `abc-pcie.c` | Medium
+34 | File | `accounts/payment_history.php` | High
+35 | ... | ... | ...
 
-There are 289 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 296 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

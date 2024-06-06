@@ -36,7 +36,7 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-37 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
@@ -67,22 +67,21 @@ ID | Type | Indicator | Confidence
 16 | File | `/goform/SysToolChangePwd` | High
 17 | File | `/horde/util/go.php` | High
 18 | File | `/login.html` | Medium
-19 | File | `/romfile.cfg` | Medium
-20 | File | `/see_more_details.php` | High
-21 | File | `/SysInfo.htm` | Medium
-22 | File | `/tmp` | Low
-23 | File | `/uncpath/` | Medium
-24 | File | `/usr/local` | Medium
-25 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-26 | File | `actions.hsp` | Medium
-27 | File | `adclick.php` | Medium
-28 | File | `add_comment.php` | High
-29 | File | `add_edit_user.asp` | High
-30 | File | `admin.php` | Medium
-31 | File | `admin/?page=reports` | High
-32 | ... | ... | ...
+19 | File | `/manage_laundry.php` | High
+20 | File | `/romfile.cfg` | Medium
+21 | File | `/see_more_details.php` | High
+22 | File | `/SysInfo.htm` | Medium
+23 | File | `/tmp` | Low
+24 | File | `/uncpath/` | Medium
+25 | File | `/usr/local` | Medium
+26 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+27 | File | `actions.hsp` | Medium
+28 | File | `adclick.php` | Medium
+29 | File | `add_comment.php` | High
+30 | File | `add_edit_user.asp` | High
+31 | ... | ... | ...
 
-There are 271 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 268 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

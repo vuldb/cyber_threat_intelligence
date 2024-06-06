@@ -40,7 +40,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22 | Path Traversal | High
-2 | T1055 | CWE-74 | Injection | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
@@ -116,7 +116,8 @@ ID | Type | Indicator | Confidence
 61 | File | `blank.php` | Medium
 62 | File | `blocklayered-ajax.php` | High
 63 | File | `blogger-importer.php` | High
-64 | ... | ... | ...
+64 | File | `bluegate_seo.inc.php` | High
+65 | ... | ... | ...
 
 There are 565 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 

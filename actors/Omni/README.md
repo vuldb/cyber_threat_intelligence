@@ -30,7 +30,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
@@ -44,16 +44,16 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/etc/skel` | Medium
-2 | File | `/novel/bookSetting/list` | High
-3 | File | `/rom-0` | Low
-4 | File | `/uncpath/` | Medium
-5 | File | `/uploads/tags.php` | High
-6 | File | `/user/upload/upload` | High
-7 | File | `/xxl-job-admin/jobcode/save` | High
+1 | File | `/dayrui/My/Config/Install.txt` | High
+2 | File | `/etc/skel` | Medium
+3 | File | `/novel/bookSetting/list` | High
+4 | File | `/php-opos/index.php` | High
+5 | File | `/rom-0` | Low
+6 | File | `/uncpath/` | Medium
+7 | File | `/uploads/tags.php` | High
 8 | ... | ... | ...
 
-There are 53 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 58 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

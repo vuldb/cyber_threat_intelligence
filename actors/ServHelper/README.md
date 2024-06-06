@@ -56,22 +56,22 @@ ID | Type | Indicator | Confidence
 6 | File | `/debug/pprof` | Medium
 7 | File | `/etc/config/rpcd` | High
 8 | File | `/hrm/employeeadd.php` | High
-9 | File | `/login` | Low
-10 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
-11 | File | `/php/ping.php` | High
-12 | File | `/public/login.htm` | High
-13 | File | `/rapi/read_url` | High
-14 | File | `/scripts/unlock_tasks.php` | High
-15 | File | `/sendKey` | Medium
-16 | File | `/setSystemAdmin` | High
-17 | File | `/signup_script.php` | High
-18 | File | `/SysInfo1.htm` | High
-19 | File | `/sysinfo_json.cgi` | High
-20 | File | `/system/user/modules/mod_users/controller.php` | High
-21 | File | `/tmp` | Low
+9 | File | `/licenses` | Medium
+10 | File | `/login` | Low
+11 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
+12 | File | `/php/ping.php` | High
+13 | File | `/public/login.htm` | High
+14 | File | `/rapi/read_url` | High
+15 | File | `/scripts/unlock_tasks.php` | High
+16 | File | `/sendKey` | Medium
+17 | File | `/setSystemAdmin` | High
+18 | File | `/signup_script.php` | High
+19 | File | `/SysInfo1.htm` | High
+20 | File | `/sysinfo_json.cgi` | High
+21 | File | `/system/user/modules/mod_users/controller.php` | High
 22 | ... | ... | ...
 
-There are 179 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 185 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

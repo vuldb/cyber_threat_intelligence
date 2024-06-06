@@ -24,9 +24,9 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | ... | ... | ... | ...
 
 There are 10 more TTP items available. Please use our online service to access the data.
@@ -37,13 +37,17 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/foms/place-order.php` | High
-2 | File | `adclick.php` | Medium
-3 | File | `admin/` | Low
-4 | File | `application/controllers/basedata/inventory.php` | High
-5 | ... | ... | ...
+1 | File | `/admin/admin_user.php` | High
+2 | File | `/adminPage/main/upload` | High
+3 | File | `/catalog/all-products` | High
+4 | File | `/control/deactivate_case.php` | High
+5 | File | `/foms/place-order.php` | High
+6 | File | `/goform/DhcpSetSer` | High
+7 | File | `/goform/wifiSSIDget` | High
+8 | File | `/public/index.php/Qbank/editCategory` | High
+9 | ... | ... | ...
 
-There are 27 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 63 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

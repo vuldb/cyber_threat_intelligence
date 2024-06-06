@@ -17,42 +17,44 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [2.56.99.150](https://vuldb.com/?ip.2.56.99.150) | valerie.mlenz.net | - | High
-2 | [3.7.236.116](https://vuldb.com/?ip.3.7.236.116) | ec2-3-7-236-116.ap-south-1.compute.amazonaws.com | - | Medium
-3 | [3.65.147.35](https://vuldb.com/?ip.3.65.147.35) | ec2-3-65-147-35.eu-central-1.compute.amazonaws.com | - | Medium
-4 | [3.125.130.75](https://vuldb.com/?ip.3.125.130.75) | ec2-3-125-130-75.eu-central-1.compute.amazonaws.com | - | Medium
-5 | [8.209.65.99](https://vuldb.com/?ip.8.209.65.99) | - | - | High
-6 | [8.209.78.200](https://vuldb.com/?ip.8.209.78.200) | - | - | High
-7 | [8.219.156.100](https://vuldb.com/?ip.8.219.156.100) | - | - | High
-8 | [8.222.212.126](https://vuldb.com/?ip.8.222.212.126) | - | - | High
-9 | [13.236.169.14](https://vuldb.com/?ip.13.236.169.14) | ec2-13-236-169-14.ap-southeast-2.compute.amazonaws.com | - | Medium
-10 | [15.236.233.211](https://vuldb.com/?ip.15.236.233.211) | ec2-15-236-233-211.eu-west-3.compute.amazonaws.com | - | Medium
-11 | [18.169.37.17](https://vuldb.com/?ip.18.169.37.17) | ec2-18-169-37-17.eu-west-2.compute.amazonaws.com | - | Medium
-12 | [18.177.44.29](https://vuldb.com/?ip.18.177.44.29) | ec2-18-177-44-29.ap-northeast-1.compute.amazonaws.com | - | Medium
-13 | [23.82.46.234](https://vuldb.com/?ip.23.82.46.234) | - | - | High
-14 | [23.82.75.184](https://vuldb.com/?ip.23.82.75.184) | - | - | High
-15 | [27.120.93.85](https://vuldb.com/?ip.27.120.93.85) | v-27-120-93-85.ub-freebit.net | - | High
-16 | [31.149.134.171](https://vuldb.com/?ip.31.149.134.171) | 31-149-134-171.biz.kpn.net | - | High
-17 | [31.186.82.215](https://vuldb.com/?ip.31.186.82.215) | ip-215.eco.atman.pl | - | High
-18 | [35.198.27.46](https://vuldb.com/?ip.35.198.27.46) | 46.27.198.35.bc.googleusercontent.com | - | Medium
-19 | [38.73.238.193](https://vuldb.com/?ip.38.73.238.193) | - | - | High
-20 | [38.132.103.114](https://vuldb.com/?ip.38.132.103.114) | - | - | High
-21 | [39.98.42.55](https://vuldb.com/?ip.39.98.42.55) | - | - | High
-22 | [42.157.162.70](https://vuldb.com/?ip.42.157.162.70) | - | - | High
-23 | [42.157.163.143](https://vuldb.com/?ip.42.157.163.143) | - | - | High
-24 | [42.157.163.219](https://vuldb.com/?ip.42.157.163.219) | - | - | High
-25 | [42.157.165.178](https://vuldb.com/?ip.42.157.165.178) | - | - | High
-26 | [45.79.178.114](https://vuldb.com/?ip.45.79.178.114) | li1277-114.members.linode.com | - | High
-27 | [45.130.141.161](https://vuldb.com/?ip.45.130.141.161) | - | - | High
-28 | [46.228.222.234](https://vuldb.com/?ip.46.228.222.234) | 46.228.222.234.ip.fost.sk | - | High
-29 | [47.52.117.253](https://vuldb.com/?ip.47.52.117.253) | - | - | High
-30 | [47.88.53.49](https://vuldb.com/?ip.47.88.53.49) | - | - | High
-31 | [47.91.89.136](https://vuldb.com/?ip.47.91.89.136) | - | - | High
-32 | [47.106.39.1](https://vuldb.com/?ip.47.106.39.1) | - | - | High
-33 | [47.241.35.83](https://vuldb.com/?ip.47.241.35.83) | - | - | High
-34 | [47.241.79.18](https://vuldb.com/?ip.47.241.79.18) | - | - | High
-35 | ... | ... | ... | ...
+2 | [2.224.144.191](https://vuldb.com/?ip.2.224.144.191) | 2-224-144-191.ip170.fastwebnet.it | - | High
+3 | [3.7.236.116](https://vuldb.com/?ip.3.7.236.116) | ec2-3-7-236-116.ap-south-1.compute.amazonaws.com | - | Medium
+4 | [3.65.147.35](https://vuldb.com/?ip.3.65.147.35) | ec2-3-65-147-35.eu-central-1.compute.amazonaws.com | - | Medium
+5 | [3.125.130.75](https://vuldb.com/?ip.3.125.130.75) | ec2-3-125-130-75.eu-central-1.compute.amazonaws.com | - | Medium
+6 | [8.209.65.99](https://vuldb.com/?ip.8.209.65.99) | - | - | High
+7 | [8.209.78.200](https://vuldb.com/?ip.8.209.78.200) | - | - | High
+8 | [8.219.156.100](https://vuldb.com/?ip.8.219.156.100) | - | - | High
+9 | [8.222.212.126](https://vuldb.com/?ip.8.222.212.126) | - | - | High
+10 | [13.236.169.14](https://vuldb.com/?ip.13.236.169.14) | ec2-13-236-169-14.ap-southeast-2.compute.amazonaws.com | - | Medium
+11 | [15.236.233.211](https://vuldb.com/?ip.15.236.233.211) | ec2-15-236-233-211.eu-west-3.compute.amazonaws.com | - | Medium
+12 | [18.169.37.17](https://vuldb.com/?ip.18.169.37.17) | ec2-18-169-37-17.eu-west-2.compute.amazonaws.com | - | Medium
+13 | [18.177.44.29](https://vuldb.com/?ip.18.177.44.29) | ec2-18-177-44-29.ap-northeast-1.compute.amazonaws.com | - | Medium
+14 | [23.82.46.234](https://vuldb.com/?ip.23.82.46.234) | - | - | High
+15 | [23.82.75.184](https://vuldb.com/?ip.23.82.75.184) | - | - | High
+16 | [27.120.93.85](https://vuldb.com/?ip.27.120.93.85) | v-27-120-93-85.ub-freebit.net | - | High
+17 | [31.149.134.171](https://vuldb.com/?ip.31.149.134.171) | 31-149-134-171.biz.kpn.net | - | High
+18 | [31.186.82.215](https://vuldb.com/?ip.31.186.82.215) | ip-215.eco.atman.pl | - | High
+19 | [35.198.27.46](https://vuldb.com/?ip.35.198.27.46) | 46.27.198.35.bc.googleusercontent.com | - | Medium
+20 | [38.73.238.193](https://vuldb.com/?ip.38.73.238.193) | - | - | High
+21 | [38.132.103.114](https://vuldb.com/?ip.38.132.103.114) | - | - | High
+22 | [39.98.42.55](https://vuldb.com/?ip.39.98.42.55) | - | - | High
+23 | [42.157.162.70](https://vuldb.com/?ip.42.157.162.70) | - | - | High
+24 | [42.157.163.42](https://vuldb.com/?ip.42.157.163.42) | - | - | High
+25 | [42.157.163.143](https://vuldb.com/?ip.42.157.163.143) | - | - | High
+26 | [42.157.163.219](https://vuldb.com/?ip.42.157.163.219) | - | - | High
+27 | [42.157.165.178](https://vuldb.com/?ip.42.157.165.178) | - | - | High
+28 | [45.79.178.114](https://vuldb.com/?ip.45.79.178.114) | li1277-114.members.linode.com | - | High
+29 | [45.130.141.161](https://vuldb.com/?ip.45.130.141.161) | - | - | High
+30 | [46.228.222.234](https://vuldb.com/?ip.46.228.222.234) | 46.228.222.234.ip.fost.sk | - | High
+31 | [47.52.117.253](https://vuldb.com/?ip.47.52.117.253) | - | - | High
+32 | [47.88.53.49](https://vuldb.com/?ip.47.88.53.49) | - | - | High
+33 | [47.91.89.136](https://vuldb.com/?ip.47.91.89.136) | - | - | High
+34 | [47.103.91.191](https://vuldb.com/?ip.47.103.91.191) | - | - | High
+35 | [47.106.39.1](https://vuldb.com/?ip.47.106.39.1) | - | - | High
+36 | [47.241.35.83](https://vuldb.com/?ip.47.241.35.83) | - | - | High
+37 | ... | ... | ... | ...
 
-There are 134 more IOC items available. Please use our online service to access the data.
+There are 145 more IOC items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 

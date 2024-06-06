@@ -128,7 +128,8 @@ ID | Type | Indicator | Confidence
 62 | File | `bin/named/query.c` | High
 63 | File | `blank.php` | Medium
 64 | File | `blocklayered-ajax.php` | High
-65 | ... | ... | ...
+65 | File | `blogger-importer.php` | High
+66 | ... | ... | ...
 
 There are 574 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 

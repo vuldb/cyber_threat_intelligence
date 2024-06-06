@@ -48,14 +48,14 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/etc/sudoers` | Medium
-2 | File | `/see_more_details.php` | High
-3 | File | `/showfile.php` | High
-4 | File | `/uncpath/` | Medium
-5 | File | `/wp-admin/admin-ajax.php` | High
-6 | File | `admin/news.php` | High
+2 | File | `/ndmComponents.js` | High
+3 | File | `/see_more_details.php` | High
+4 | File | `/showfile.php` | High
+5 | File | `/uncpath/` | Medium
+6 | File | `/wp-admin/admin-ajax.php` | High
 7 | ... | ... | ...
 
-There are 51 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 52 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

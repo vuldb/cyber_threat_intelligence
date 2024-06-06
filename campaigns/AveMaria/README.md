@@ -88,35 +88,36 @@ ID | Type | Indicator | Confidence
 25 | File | `/etc/sudoers` | Medium
 26 | File | `/ext/collect/find_text.do` | High
 27 | File | `/Forms/` | Low
-28 | File | `/framework/modules/users/models/user.php` | High
-29 | File | `/ghost/preview` | High
-30 | File | `/HNAP1/SetAccessPointMode` | High
-31 | File | `/index.php` | Medium
-32 | File | `/mcategory.php` | High
-33 | File | `/member/picture/album` | High
-34 | File | `/mysql/api/diags.php` | High
-35 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-36 | File | `/oauth/idp/.well-known/openid-configuration` | High
-37 | File | `/phpcollab/users/edituser.php` | High
-38 | File | `/plain` | Low
-39 | File | `/products/details.asp` | High
-40 | File | `/product_list.php` | High
-41 | File | `/public/login.htm` | High
-42 | File | `/replication` | Medium
-43 | File | `/service/upload` | High
-44 | File | `/services/details.asp` | High
-45 | File | `/showfile.php` | High
-46 | File | `/trx_addons/v2/get/sc_layout` | High
-47 | File | `/uncpath/` | Medium
-48 | File | `/upload/catalog/controller/account/password.php` | High
-49 | File | `/usr/bin/pkexec` | High
-50 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
-51 | File | `/wbms/classes/Master.php?f=delete_client` | High
-52 | File | `/web/api/app/Controller/HostController.php` | High
-53 | File | `/WebMstr7/servlet/mstrWeb` | High
-54 | ... | ... | ...
+28 | File | `/forum/away.php` | High
+29 | File | `/framework/modules/users/models/user.php` | High
+30 | File | `/ghost/preview` | High
+31 | File | `/HNAP1/SetAccessPointMode` | High
+32 | File | `/index.php` | Medium
+33 | File | `/mcategory.php` | High
+34 | File | `/member/picture/album` | High
+35 | File | `/mysql/api/diags.php` | High
+36 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+37 | File | `/ndmComponents.js` | High
+38 | File | `/oauth/idp/.well-known/openid-configuration` | High
+39 | File | `/phpcollab/users/edituser.php` | High
+40 | File | `/plain` | Low
+41 | File | `/products/details.asp` | High
+42 | File | `/product_list.php` | High
+43 | File | `/public/login.htm` | High
+44 | File | `/replication` | Medium
+45 | File | `/service/upload` | High
+46 | File | `/services/details.asp` | High
+47 | File | `/showfile.php` | High
+48 | File | `/spip.php` | Medium
+49 | File | `/trx_addons/v2/get/sc_layout` | High
+50 | File | `/uncpath/` | Medium
+51 | File | `/upload/catalog/controller/account/password.php` | High
+52 | File | `/usr/bin/pkexec` | High
+53 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
+54 | File | `/wbms/classes/Master.php?f=delete_client` | High
+55 | ... | ... | ...
 
-There are 474 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 479 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

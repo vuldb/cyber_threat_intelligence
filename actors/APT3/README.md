@@ -62,14 +62,14 @@ ID | Type | Indicator | Confidence
 4 | File | `/ajax/networking/get_netcfg.php` | High
 5 | File | `/api/clusters/local/topics/{topic}/messages` | High
 6 | File | `/api/gen/clients/{language}` | High
-7 | File | `/app/options.py` | High
-8 | File | `/bin/httpd` | Medium
-9 | File | `/cgi-bin/wapopen` | High
-10 | File | `/ci_spms/admin/category` | High
-11 | File | `/ci_spms/admin/search/searching/` | High
-12 | File | `/classes/Master.php?f=delete_appointment` | High
-13 | File | `/classes/Master.php?f=delete_train` | High
-14 | File | `/cms/print.php` | High
+7 | File | `/API/info` | Medium
+8 | File | `/app/options.py` | High
+9 | File | `/bin/httpd` | Medium
+10 | File | `/cgi-bin/wapopen` | High
+11 | File | `/ci_spms/admin/category` | High
+12 | File | `/ci_spms/admin/search/searching/` | High
+13 | File | `/classes/Master.php?f=delete_appointment` | High
+14 | File | `/classes/Master.php?f=delete_train` | High
 15 | File | `/concat?/%2557EB-INF/web.xml` | High
 16 | File | `/Content/Template/root/reverse-shell.aspx` | High
 17 | File | `/ctcprotocol/Protocol` | High
@@ -87,23 +87,22 @@ ID | Type | Indicator | Confidence
 29 | File | `/HNAP1` | Low
 30 | File | `/HNAP1/SetClientInfo` | High
 31 | File | `/Items/*/RemoteImages/Download` | High
-32 | File | `/menu.html` | Medium
-33 | File | `/modules/profile/index.php` | High
-34 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-35 | File | `/navigate/navigate_download.php` | High
-36 | File | `/ocwbs/admin/?page=user/manage_user` | High
-37 | File | `/ofrs/admin/?page=user/manage_user` | High
-38 | File | `/out.php` | Medium
-39 | File | `/password.html` | High
-40 | File | `/patient/appointment.php` | High
-41 | File | `/php_action/fetchSelectedUser.php` | High
-42 | File | `/plugin` | Low
-43 | File | `/prescription/prescription/delete/` | High
-44 | File | `/pro/common/download` | High
-45 | File | `/property-list/property_view.php` | High
-46 | ... | ... | ...
+32 | File | `/manage/IPSetup.php` | High
+33 | File | `/menu.html` | Medium
+34 | File | `/modules/profile/index.php` | High
+35 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+36 | File | `/navigate/navigate_download.php` | High
+37 | File | `/ocwbs/admin/?page=user/manage_user` | High
+38 | File | `/ofrs/admin/?page=user/manage_user` | High
+39 | File | `/out.php` | Medium
+40 | File | `/password.html` | High
+41 | File | `/patient/appointment.php` | High
+42 | File | `/php_action/fetchSelectedUser.php` | High
+43 | File | `/plugin` | Low
+44 | File | `/prescription/prescription/delete/` | High
+45 | ... | ... | ...
 
-There are 395 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 387 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

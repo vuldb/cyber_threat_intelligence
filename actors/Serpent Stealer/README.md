@@ -18,11 +18,12 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [3.210.242.78](https://vuldb.com/?ip.3.210.242.78) | ec2-3-210-242-78.compute-1.amazonaws.com | - | Medium
 2 | [3.213.37.39](https://vuldb.com/?ip.3.213.37.39) | ec2-3-213-37-39.compute-1.amazonaws.com | - | Medium
-3 | [18.204.80.51](https://vuldb.com/?ip.18.204.80.51) | ec2-18-204-80-51.compute-1.amazonaws.com | - | Medium
-4 | [34.197.122.235](https://vuldb.com/?ip.34.197.122.235) | ec2-34-197-122-235.compute-1.amazonaws.com | - | Medium
-5 | ... | ... | ... | ...
+3 | [3.219.159.186](https://vuldb.com/?ip.3.219.159.186) | ec2-3-219-159-186.compute-1.amazonaws.com | - | Medium
+4 | [18.204.80.51](https://vuldb.com/?ip.18.204.80.51) | ec2-18-204-80-51.compute-1.amazonaws.com | - | Medium
+5 | [34.197.122.235](https://vuldb.com/?ip.34.197.122.235) | ec2-34-197-122-235.compute-1.amazonaws.com | - | Medium
+6 | ... | ... | ... | ...
 
-There are 14 more IOC items available. Please use our online service to access the data.
+There are 18 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -31,7 +32,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22 | Path Traversal | High
-2 | T1055 | CWE-74 | Injection | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
@@ -55,33 +56,33 @@ ID | Type | Indicator | Confidence
 9 | File | `/cgi.cgi` | Medium
 10 | File | `/controllers/MgrDiagnosticTools.php` | High
 11 | File | `/designer/add/layout` | High
-12 | File | `/error` | Low
-13 | File | `/filemanager/upload/drop` | High
-14 | File | `/Forms/oadmin_1` | High
-15 | File | `/forms/web_runScript` | High
-16 | File | `/forum/away.php` | High
-17 | File | `/front/roomtype-details.php` | High
-18 | File | `/inc/lists/edit-list.php` | High
-19 | File | `/inc/lists/edit_member.php` | High
-20 | File | `/index.php` | Medium
-21 | File | `/KK_LS9ReportingPortal/GetData` | High
-22 | File | `/lists/admin/` | High
-23 | File | `/LogoStore/search.php` | High
-24 | File | `/mcategory.php` | High
-25 | File | `/opt/tms/bin/cli` | High
-26 | File | `/panel/uploads` | High
-27 | File | `/roomtype-details.php` | High
-28 | File | `/search-result/` | High
-29 | File | `/swms/ms.cgi` | Medium
-30 | File | `/system/www/pem/ck.pem` | High
-31 | File | `/TeleoptiWFM/Administration/GetOneTenant` | High
-32 | File | `/tmp` | Low
-33 | File | `/usr/local/contego/scripts/hostname.sh` | High
-34 | File | `/var/run/cloudera-scm-agent/process` | High
-35 | File | `/vmi/manager/engine/management/commands/apns_worker.py` | High
-36 | File | `/zm/index.php` | High
-37 | File | `4.7.0/4.7.1` | Medium
-38 | File | `aacplusenc.c` | Medium
+12 | File | `/filemanager/upload/drop` | High
+13 | File | `/Forms/oadmin_1` | High
+14 | File | `/forms/web_runScript` | High
+15 | File | `/forum/away.php` | High
+16 | File | `/front/roomtype-details.php` | High
+17 | File | `/inc/lists/edit-list.php` | High
+18 | File | `/inc/lists/edit_member.php` | High
+19 | File | `/index.php` | Medium
+20 | File | `/KK_LS9ReportingPortal/GetData` | High
+21 | File | `/lists/admin/` | High
+22 | File | `/LogoStore/search.php` | High
+23 | File | `/mcategory.php` | High
+24 | File | `/opt/tms/bin/cli` | High
+25 | File | `/panel/uploads` | High
+26 | File | `/roomtype-details.php` | High
+27 | File | `/search-result/` | High
+28 | File | `/swms/ms.cgi` | Medium
+29 | File | `/system/www/pem/ck.pem` | High
+30 | File | `/TeleoptiWFM/Administration/GetOneTenant` | High
+31 | File | `/tmp` | Low
+32 | File | `/usr/local/contego/scripts/hostname.sh` | High
+33 | File | `/var/run/cloudera-scm-agent/process` | High
+34 | File | `/vmi/manager/engine/management/commands/apns_worker.py` | High
+35 | File | `/zm/index.php` | High
+36 | File | `4.7.0/4.7.1` | Medium
+37 | File | `aacplusenc.c` | Medium
+38 | File | `aac_parser.c` | Medium
 39 | ... | ... | ...
 
 There are 333 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.

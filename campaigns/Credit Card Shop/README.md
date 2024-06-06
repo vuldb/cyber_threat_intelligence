@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Credit Card Shop:
 
-* [CN](https://vuldb.com/?country.cn)
-* [US](https://vuldb.com/?country.us)
+* [PL](https://vuldb.com/?country.pl)
 * [RU](https://vuldb.com/?country.ru)
+* [FR](https://vuldb.com/?country.fr)
 * ...
 
-There are 12 more country items available. Please use our online service to access the data.
+There are 8 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -53,14 +53,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Path Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+1 | T1006 | CWE-22 | Path Traversal | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-94 | Argument Injection | High
+4 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 13 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -68,47 +66,18 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/?ajax-request=jnews` | High
-2 | File | `/?p=products` | Medium
-3 | File | `/admin/controller/JobLogController.java` | High
-4 | File | `/api/baskets/{name}` | High
-5 | File | `/api/stl/actions/search` | High
-6 | File | `/api/sys/login` | High
-7 | File | `/api/sys/set_passwd` | High
-8 | File | `/api/trackedEntityInstances` | High
-9 | File | `/aux` | Low
-10 | File | `/bin/ate` | Medium
-11 | File | `/booking/show_bookings/` | High
-12 | File | `/cgi-bin` | Medium
-13 | File | `/changePassword` | High
-14 | File | `/Content/Template/root/reverse-shell.aspx` | High
-15 | File | `/dashboard/add-blog.php` | High
-16 | File | `/data/remove` | Medium
-17 | File | `/debug/pprof` | Medium
-18 | File | `/ecshop/admin/template.php` | High
-19 | File | `/env` | Low
-20 | File | `/etc/passwd` | Medium
-21 | File | `/etc/postfix/sender_login` | High
-22 | File | `/forum/away.php` | High
-23 | File | `/goform/net\_Web\_get_value` | High
-24 | File | `/group1/uploa` | High
-25 | File | `/index.php` | Medium
-26 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-27 | File | `/pharmacy-sales-and-inventory-system/manage_user.php` | High
-28 | File | `/php-sms/admin/?page=user/manage_user` | High
-29 | File | `/preview.php` | Medium
-30 | File | `/resources//../` | High
-31 | File | `/testConnection` | High
-32 | File | `/tmp/ppd.trace` | High
-33 | File | `/user/inc/workidajax.php` | High
-34 | File | `/user/updatePwd` | High
-35 | File | `/userLogin.asp` | High
-36 | File | `/usr/bin/pkexec` | High
-37 | File | `/vm/admin/doctors.php` | High
-38 | File | `Access.app/Contents/Resources/kcproxy` | High
-39 | ... | ... | ...
+1 | File | `/catalog/all-products` | High
+2 | File | `/changePassword` | High
+3 | File | `/forum/away.php` | High
+4 | File | `/goform/addIpMacBind` | High
+5 | File | `/goform/DelDhcpRule` | High
+6 | File | `/goform/delIpMacBind` | High
+7 | File | `/goform/DelPortMapping` | High
+8 | File | `/goform/modifyDhcpRule` | High
+9 | File | `/goform/modifyIpMacBind` | High
+10 | ... | ... | ...
 
-There are 333 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 74 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

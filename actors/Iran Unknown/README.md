@@ -41,9 +41,9 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Path Traversal | High
+1 | T1006 | CWE-22, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94 | Argument Injection | High
 5 | ... | ... | ... | ...
 
@@ -60,24 +60,26 @@ ID | Type | Indicator | Confidence
 3 | File | `/administration/theme.php` | High
 4 | File | `/api/index.php` | High
 5 | File | `/boafrm/formFilter` | High
-6 | File | `/cgi-bin/webproc` | High
-7 | File | `/clinic/medical_records_view.php` | High
-8 | File | `/coreframe/app/pay/admin/index.php` | High
-9 | File | `/dashboard/Cinvoice/manage_invoice` | High
-10 | File | `/forum/away.php` | High
-11 | File | `/importexport.php` | High
-12 | File | `/index.php` | Medium
-13 | File | `/mobileredir/openApp.jsp` | High
-14 | File | `/ofrs/admin/?page=requests/manage_request` | High
-15 | File | `/search` | Low
-16 | File | `/spip.php` | Medium
-17 | File | `/usr/www/ja/mnt_cmd.cgi` | High
-18 | File | `/wp-admin/admin-ajax.php` | High
-19 | File | `active.log` | Medium
-20 | File | `activenews_view.asp` | High
-21 | ... | ... | ...
+6 | File | `/cgi-bin/` | Medium
+7 | File | `/cgi-bin/webproc` | High
+8 | File | `/check_availability.php` | High
+9 | File | `/clinic/medical_records_view.php` | High
+10 | File | `/control/register_case.php` | High
+11 | File | `/coreframe/app/pay/admin/index.php` | High
+12 | File | `/dashboard/Cinvoice/manage_invoice` | High
+13 | File | `/forum/away.php` | High
+14 | File | `/importexport.php` | High
+15 | File | `/index.php` | Medium
+16 | File | `/manage_receiving.php` | High
+17 | File | `/mobileredir/openApp.jsp` | High
+18 | File | `/ndmComponents.js` | High
+19 | File | `/ofrs/admin/?page=requests/manage_request` | High
+20 | File | `/search` | Low
+21 | File | `/spip.php` | Medium
+22 | File | `/userLogin.asp` | High
+23 | ... | ... | ...
 
-There are 172 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 189 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

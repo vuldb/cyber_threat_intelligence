@@ -18,12 +18,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [3.86.255.88](https://vuldb.com/?ip.3.86.255.88) | ec2-3-86-255-88.compute-1.amazonaws.com | - | Medium
-2 | [45.32.132.166](https://vuldb.com/?ip.45.32.132.166) | - | - | High
-3 | [45.76.68.112](https://vuldb.com/?ip.45.76.68.112) | 45.76.68.112.vultrusercontent.com | - | High
+1 | [3.86.255.8](https://vuldb.com/?ip.3.86.255.8) | ec2-3-86-255-8.compute-1.amazonaws.com | - | Medium
+2 | [3.86.255.88](https://vuldb.com/?ip.3.86.255.88) | ec2-3-86-255-88.compute-1.amazonaws.com | - | Medium
+3 | [45.32.132.166](https://vuldb.com/?ip.45.32.132.166) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 3 more IOC items available. Please use our online service to access the data.
+There are 4 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -56,6 +56,7 @@ There are 19 more IOA items available (file, library, argument, input value, pat
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://blog.talosintelligence.com/alchimist-offensive-framework/
+* https://gblogs.cisco.com/jp/2022/10/talos-alchimist-offensive-framework/
 * https://github.com/Cisco-Talos/IOCs/blob/main/2022/10/alchimist-offensive-framework.txt
 
 ## Literature

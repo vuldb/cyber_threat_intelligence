@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Finland Unknown:
 
-* [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
-* [IL](https://vuldb.com/?country.il)
+* [RU](https://vuldb.com/?country.ru)
+* [PL](https://vuldb.com/?country.pl)
 * ...
 
-There are 18 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -1315,9 +1315,26 @@ ID | IP address | Hostname | Campaign | Confidence
 1292 | [80.239.137.128](https://vuldb.com/?ip.80.239.137.128) | - | - | High
 1293 | [80.239.142.128](https://vuldb.com/?ip.80.239.142.128) | - | - | High
 1294 | [80.239.144.80](https://vuldb.com/?ip.80.239.144.80) | - | - | High
-1295 | ... | ... | ... | ...
+1295 | [80.239.148.0](https://vuldb.com/?ip.80.239.148.0) | - | - | High
+1296 | [80.239.148.32](https://vuldb.com/?ip.80.239.148.32) | - | - | High
+1297 | [80.239.155.0](https://vuldb.com/?ip.80.239.155.0) | - | - | High
+1298 | [80.239.167.44](https://vuldb.com/?ip.80.239.167.44) | hls-b3-link.ip.twelve99.net | - | High
+1299 | [80.239.172.16](https://vuldb.com/?ip.80.239.172.16) | - | - | High
+1300 | [80.239.201.0](https://vuldb.com/?ip.80.239.201.0) | - | - | High
+1301 | [80.239.202.0](https://vuldb.com/?ip.80.239.202.0) | - | - | High
+1302 | [80.239.202.104](https://vuldb.com/?ip.80.239.202.104) | - | - | High
+1303 | [80.239.219.56](https://vuldb.com/?ip.80.239.219.56) | - | - | High
+1304 | [80.239.230.24](https://vuldb.com/?ip.80.239.230.24) | - | - | High
+1305 | [80.239.230.128](https://vuldb.com/?ip.80.239.230.128) | - | - | High
+1306 | [80.239.246.152](https://vuldb.com/?ip.80.239.246.152) | - | - | High
+1307 | [80.242.16.0](https://vuldb.com/?ip.80.242.16.0) | - | - | High
+1308 | [80.246.144.0](https://vuldb.com/?ip.80.246.144.0) | 80-246-144-0.dynamic.lounea.fi | - | High
+1309 | [80.246.160.0](https://vuldb.com/?ip.80.246.160.0) | 80-246-160-0.pks-ip.verkkopalvelut.com | - | High
+1310 | [80.247.240.0](https://vuldb.com/?ip.80.247.240.0) | 80-247-240-0.dynamic.lounea.fi | - | High
+1311 | [80.248.96.0](https://vuldb.com/?ip.80.248.96.0) | - | - | High
+1312 | ... | ... | ... | ...
 
-There are 5178 more IOC items available. Please use our online service to access the data.
+There are 5245 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -1325,14 +1342,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-25, CWE-36 | Path Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-94 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+1 | T1006 | CWE-22 | Path Traversal | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-94 | Argument Injection | High
+4 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 14 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -1340,60 +1355,29 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/#ilang=DE&b=c_smartenergy_swgroups` | High
-2 | File | `/Account/login.php` | High
-3 | File | `/admin/` | Low
-4 | File | `/admin/action/new-feed.php` | High
-5 | File | `/admin/admin_login_process.php` | High
-6 | File | `/admin/borrow_add.php` | High
-7 | File | `/admin/list_ipAddressPolicy.php` | High
-8 | File | `/admin/pages/subjects.php` | High
-9 | File | `/admin/pages/yearlevel.php` | High
-10 | File | `/admin/product/manage_product.php` | High
-11 | File | `/adminapi/system/crud` | High
-12 | File | `/adminapi/system/file/openfile` | High
-13 | File | `/admin_route/dec_service_credits.php` | High
-14 | File | `/api/controllers/merchant/app/ComboController.php` | High
-15 | File | `/api/log/killJob` | High
-16 | File | `/api/trackedEntityInstances` | High
-17 | File | `/api/v4/teams//channels/deleted` | High
-18 | File | `/app/controller/Setup.php` | High
-19 | File | `/app/middleware/TokenVerify.php` | High
-20 | File | `/att_add.php` | Medium
-21 | File | `/aux` | Low
-22 | File | `/b2b-supermarket/shopping-cart` | High
-23 | File | `/boaform/device_reset.cgi` | High
-24 | File | `/cancel.php` | Medium
-25 | File | `/category.php` | High
-26 | File | `/cgi-bin/cstecgi.cgi` | High
-27 | File | `/change-language/de_DE` | High
-28 | File | `/currentsetting.htm` | High
-29 | File | `/dashboard/Cinvoice/manage_invoice` | High
-30 | File | `/data/remove` | Medium
-31 | File | `/debug/pprof` | Medium
-32 | File | `/devinfo` | Medium
-33 | File | `/dist/index.js` | High
-34 | File | `/download` | Medium
-35 | File | `/endpoint/update-flashcard.php` | High
-36 | File | `/etc/passwd` | Medium
-37 | File | `/ext/collect/filter_text.do` | High
-38 | File | `/file-manager/rename.php` | High
-39 | File | `/forum/away.php` | High
-40 | File | `/general/email/outbox/delete.php` | High
-41 | File | `/goform/net\_Web\_get_value` | High
-42 | File | `/goform/setcfm` | High
-43 | File | `/hosts/firewall/ip` | High
-44 | File | `/index.jsp#settings` | High
-45 | File | `/index.php` | Medium
-46 | File | `/index.php/ccm/system/file/upload` | High
-47 | File | `/Interface/DevManage/VM.php` | High
-48 | File | `/log/decodmail.php` | High
-49 | File | `/log/download.php` | High
-50 | File | `/LoginRegistration.php` | High
-51 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-52 | ... | ... | ...
+1 | File | `/Admin/changepassword.php` | High
+2 | File | `/admin/court` | Medium
+3 | File | `/Admin/createClass.php` | High
+4 | File | `/admin/general-setting` | High
+5 | File | `/admin/maintenance/manage_brand.php` | High
+6 | File | `/admin/problem_judge.php` | High
+7 | File | `/admin/service` | High
+8 | File | `/blog/blog.php` | High
+9 | File | `/catalog/admin/categories.php?cPath=&action=new_product` | High
+10 | File | `/catalog/all-products` | High
+11 | File | `/changePassword` | High
+12 | File | `/College/admin/teacher.php` | High
+13 | File | `/control/register_case.php` | High
+14 | File | `/forum/away.php` | High
+15 | File | `/goform/delIpMacBind` | High
+16 | File | `/goform/SetDDNSCfg` | High
+17 | File | `/goform/SetSysTimeCfg` | High
+18 | File | `/goform/wifiSSIDget` | High
+19 | File | `/index.php` | Medium
+20 | File | `/lesson/controller.php` | High
+21 | ... | ... | ...
 
-There are 452 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 169 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -1401,6 +1385,7 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://github.com/firehol/blocklist-ipsets/blob/master/geolite2_country/country_fi.netset
 * https://github.com/firehol/blocklist-ipsets/blob/master/ip2location_country/ip2location_country_fi.netset
+* https://github.com/scriptzteam/Private-Internet-Access-VPN-Servers/blob/main/export.csv
 * https://raw.githubusercontent.com/firehol/blocklist-ipsets/master/ipip_country/ipip_country_fi.netset
 
 ## Literature

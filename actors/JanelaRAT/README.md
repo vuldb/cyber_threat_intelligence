@@ -51,41 +51,41 @@ ID | Type | Indicator | Confidence
 1 | File | `/admin/general.cgi` | High
 2 | File | `/Admin/login.php` | High
 3 | File | `/admin/reminders/manage_reminder.php` | High
-4 | File | `/CCMAdmin/serverlist.asp` | High
-5 | File | `/cgi/get_param.cgi` | High
-6 | File | `/csms/admin/inquiries/view_details.php` | High
-7 | File | `/cstecgi.cgi` | Medium
-8 | File | `/files.md5` | Medium
-9 | File | `/forum/away.php` | High
-10 | File | `/hrm/employeeview.php` | High
-11 | File | `/include/chart_generator.php` | High
-12 | File | `/index.php?menu=asterisk_cli` | High
-13 | File | `/librarian/bookdetails.php` | High
-14 | File | `/login` | Low
-15 | File | `/messageboard/view.php` | High
-16 | File | `/oauth/idp/.well-known/openid-configuration` | High
-17 | File | `/one_church/userregister.php` | High
-18 | File | `/out.php` | Medium
-19 | File | `/owa/auth/logon.aspx` | High
-20 | File | `/public/plugins/` | High
-21 | File | `/SAP_Information_System/controllers/add_admin.php` | High
-22 | File | `/SASWebReportStudio/logonAndRender.do` | High
-23 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-24 | File | `/secure/admin/ViewInstrumentation.jspa` | High
-25 | File | `/SVFE2/pages/feegroups/country_group.jsf` | High
-26 | File | `/SystemMng.ashx` | High
-27 | File | `/textpattern/index.php` | High
-28 | File | `/upfile.cgi` | Medium
-29 | File | `/v2/quantum/save-data-upload-big-file` | High
-30 | File | `/wordpress/wp-admin/admin.php` | High
-31 | File | `4.edu.php` | Medium
-32 | File | `AccountManagerService.java` | High
-33 | File | `account_footer.php` | High
-34 | File | `adclick.php` | Medium
-35 | File | `addlink.php` | Medium
+4 | File | `/API/info` | Medium
+5 | File | `/CCMAdmin/serverlist.asp` | High
+6 | File | `/cgi/get_param.cgi` | High
+7 | File | `/csms/admin/inquiries/view_details.php` | High
+8 | File | `/cstecgi.cgi` | Medium
+9 | File | `/files.md5` | Medium
+10 | File | `/forum/away.php` | High
+11 | File | `/home/search` | Medium
+12 | File | `/hrm/employeeview.php` | High
+13 | File | `/include/chart_generator.php` | High
+14 | File | `/index.php?menu=asterisk_cli` | High
+15 | File | `/librarian/bookdetails.php` | High
+16 | File | `/login` | Low
+17 | File | `/messageboard/view.php` | High
+18 | File | `/oauth/idp/.well-known/openid-configuration` | High
+19 | File | `/one_church/userregister.php` | High
+20 | File | `/out.php` | Medium
+21 | File | `/owa/auth/logon.aspx` | High
+22 | File | `/SAP_Information_System/controllers/add_admin.php` | High
+23 | File | `/SASWebReportStudio/logonAndRender.do` | High
+24 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+25 | File | `/secure/admin/ViewInstrumentation.jspa` | High
+26 | File | `/SVFE2/pages/feegroups/country_group.jsf` | High
+27 | File | `/SystemMng.ashx` | High
+28 | File | `/textpattern/index.php` | High
+29 | File | `/upfile.cgi` | Medium
+30 | File | `/v2/quantum/save-data-upload-big-file` | High
+31 | File | `/wordpress/wp-admin/admin.php` | High
+32 | File | `4.edu.php` | Medium
+33 | File | `AccountManagerService.java` | High
+34 | File | `account_footer.php` | High
+35 | File | `adclick.php` | Medium
 36 | ... | ... | ...
 
-There are 309 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 313 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

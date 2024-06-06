@@ -8,9 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with PupyRAT:
 
-* [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
+* [US](https://vuldb.com/?country.us)
 * [GB](https://vuldb.com/?country.gb)
+* ...
+
+There are 1 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -19,6 +22,7 @@ These _actors_ are associated with PupyRAT or other actors linked to the campaig
 ID | Actor | Confidence
 -- | ----- | ----------
 1 | [Magic Hound](https://vuldb.com/?actor.magic_hound) | High
+2 | [PupyRAT](https://vuldb.com/?actor.pupyrat) | High
 
 ## IOC - Indicator of Compromise
 
@@ -26,9 +30,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
-1 | [45.32.186.33](https://vuldb.com/?ip.45.32.186.33) | 45.32.186.33.vultr.com | [Magic Hound](https://vuldb.com/?actor.magic_hound) | Medium
-2 | [89.107.62.39](https://vuldb.com/?ip.89.107.62.39) | - | [Magic Hound](https://vuldb.com/?actor.magic_hound) | High
-3 | [139.59.46.154](https://vuldb.com/?ip.139.59.46.154) | - | [Magic Hound](https://vuldb.com/?actor.magic_hound) | High
+1 | [45.32.8.143](https://vuldb.com/?ip.45.32.8.143) | 45.32.8.143.vultrusercontent.com | [PupyRAT](https://vuldb.com/?actor.pupyrat) | High
+2 | [45.32.16.248](https://vuldb.com/?ip.45.32.16.248) | 45.32.16.248.vultrusercontent.com | [PupyRAT](https://vuldb.com/?actor.pupyrat) | High
+3 | [45.32.186.33](https://vuldb.com/?ip.45.32.186.33) | 45.32.186.33.vultr.com | [Magic Hound](https://vuldb.com/?actor.magic_hound) | Medium
+4 | ... | ... | ... | ...
+
+There are 2 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -36,9 +43,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79 | Cross Site Scripting | High
-2 | T1068 | CWE-269 | Execution with Unnecessary Privileges | High
-3 | T1600 | CWE-327 | Cryptographic Issues | High
+1 | T1006 | CWE-22 | Path Traversal | High
+2 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+3 | T1068 | CWE-264, CWE-269 | Execution with Unnecessary Privileges | High
+4 | ... | ... | ... | ...
+
+There are 5 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -46,17 +56,18 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `f_accessory.c` | High
-2 | File | `messages/sent?format=js` | High
-3 | File | `web-inf` | Low
+1 | File | `burl.c` | Low
+2 | File | `f_accessory.c` | High
+3 | File | `lib/curl_sasl.c` | High
 4 | ... | ... | ...
 
-There are 3 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 12 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the campaign and the associated activities:
 
+* https://asec.ahnlab.com/en/64258/
 * https://www.secureworks.com/blog/iranian-pupyrat-bites-middle-eastern-organizations
 
 ## Literature

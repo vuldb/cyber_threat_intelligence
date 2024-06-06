@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with PYSA:
 
 * [US](https://vuldb.com/?country.us)
+* [UA](https://vuldb.com/?country.ua)
 * [RU](https://vuldb.com/?country.ru)
-* [EG](https://vuldb.com/?country.eg)
 * ...
 
-There are 9 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -54,76 +54,85 @@ ID | Type | Indicator | Confidence
 3 | File | `/add_members.php` | High
 4 | File | `/admin-manage-user.php` | High
 5 | File | `/admin/` | Low
-6 | File | `/admin/?page=user/manage_user&id=3` | High
-7 | File | `/admin/action/add_con.php` | High
-8 | File | `/admin/app/profile_crud.php` | High
-9 | File | `/admin/applicants/controller.php` | High
-10 | File | `/admin/applicants/index.php` | High
-11 | File | `/admin/booking-bwdates-reports-details.php` | High
-12 | File | `/admin/book_row.php` | High
-13 | File | `/admin/edit_teacher.php` | High
-14 | File | `/admin/index/index.html#/admin/mall.goods/index.html` | High
-15 | File | `/admin/login.php` | High
-16 | File | `/admin/maintenance/manage_category.php` | High
-17 | File | `/admin/maintenance/view_designation.php` | High
-18 | File | `/admin/modal_add_product.php` | High
-19 | File | `/admin/php/crud.php` | High
-20 | File | `/admin/read.php?mudi=getSignal` | High
-21 | File | `/admin/reportupload.aspx` | High
-22 | File | `/admin/return_add.php` | High
-23 | File | `/admin/service.php` | High
-24 | File | `/admin/settings/` | High
-25 | File | `/admin/students.php` | High
-26 | File | `/admin/theme-edit.php` | High
-27 | File | `/admin/update_s6.php` | High
-28 | File | `/admin/user/controller.php` | High
-29 | File | `/admin/user/manage_user.php` | High
-30 | File | `/admin/users` | Medium
-31 | File | `/adminpanel/admin/facebox_modal/updateExaminee.php` | High
-32 | File | `/adplanet/PlanetUser` | High
-33 | File | `/ajax.php?action=read_msg` | High
-34 | File | `/ajax.php?action=save_company` | High
-35 | File | `/ample/app/action/edit_product.php` | High
-36 | File | `/api/client/editemedia.php` | High
-37 | File | `/api/controllers/merchant/design/MaterialController.php` | High
-38 | File | `/api/jolokia org.jolokia.http.HttpRequestHandler#handlePostRequest` | High
-39 | File | `/api/sys/login` | High
-40 | File | `/api/v1/policies/validation/condition/` | High
-41 | File | `/app/api/controller/default/File.php` | High
-42 | File | `/app/middleware/TokenVerify.php` | High
-43 | File | `/application/index/controller/Screen.php` | High
-44 | File | `/apps/login_auth.php` | High
-45 | File | `/apps/system/router/upload.go` | High
-46 | File | `/bin/sh` | Low
-47 | File | `/blog` | Low
-48 | File | `/ccm/system/dialogs/file/delete/1/submit` | High
-49 | File | `/cgi-bin/cstecgi.cgi` | High
-50 | File | `/cgi-bin/ping.cgi` | High
-51 | File | `/changeimage.php` | High
-52 | File | `/claire_blake` | High
-53 | File | `/classes/Master.php?f=delete_inquiry` | High
-54 | File | `/classes/Users.php` | High
-55 | File | `/core/config-revisions` | High
-56 | File | `/dashboard/Cinvoice/manage_invoice` | High
-57 | File | `/dashboard/message` | High
-58 | File | `/debug/pprof` | Medium
-59 | File | `/deletefile.php` | High
-60 | File | `/dipam/save-delegates.php` | High
-61 | File | `/edit-task.php` | High
-62 | File | `/edit_user.php` | High
-63 | File | `/Employer/EditProfile.php` | High
-64 | File | `/endpoint/add-guest.php` | High
-65 | File | `/endpoint/add-image.php` | High
-66 | File | `/endpoint/add-user.php` | High
-67 | File | `/etc/hosts.deny` | High
-68 | File | `/etc/init.d/update_notifications.sh` | High
-69 | File | `/file-manager/rename.php` | High
-70 | File | `/file-manager/upload.php` | High
-71 | File | `/file_manager/admin/save_user.php` | High
-72 | File | `/forum/away.php` | High
-73 | ... | ... | ...
+6 | File | `/admin/?page=user/list` | High
+7 | File | `/admin/?page=user/manage_user&id=3` | High
+8 | File | `/admin/action/add_con.php` | High
+9 | File | `/admin/app/profile_crud.php` | High
+10 | File | `/admin/applicants/controller.php` | High
+11 | File | `/admin/applicants/index.php` | High
+12 | File | `/admin/booking-bwdates-reports-details.php` | High
+13 | File | `/admin/book_row.php` | High
+14 | File | `/admin/court-type` | High
+15 | File | `/admin/edit_teacher.php` | High
+16 | File | `/admin/employee/controller.php` | High
+17 | File | `/admin/foreigner-search.php` | High
+18 | File | `/admin/index.php?page=categories` | High
+19 | File | `/admin/index/index.html#/admin/mall.goods/index.html` | High
+20 | File | `/admin/login.php` | High
+21 | File | `/admin/maintenance/manage_category.php` | High
+22 | File | `/admin/normal-bwdates-reports-details.php` | High
+23 | File | `/admin/php/crud.php` | High
+24 | File | `/admin/return_add.php` | High
+25 | File | `/admin/settings/` | High
+26 | File | `/admin/students.php` | High
+27 | File | `/admin/tasks` | Medium
+28 | File | `/admin/tax` | Medium
+29 | File | `/admin/template` | High
+30 | File | `/admin/theme-edit.php` | High
+31 | File | `/Admin/user-record.php` | High
+32 | File | `/admin/user/controller.php` | High
+33 | File | `/admin/user/manage_user.php` | High
+34 | File | `/admin/users` | Medium
+35 | File | `/admin/vendor` | High
+36 | File | `/adminPage/conf/saveCmd` | High
+37 | File | `/adminPage/www/addOver` | High
+38 | File | `/adminpanel/admin/facebox_modal/updateExaminee.php` | High
+39 | File | `/adplanet/PlanetUser` | High
+40 | File | `/ample/app/action/edit_product.php` | High
+41 | File | `/api/client/editemedia.php` | High
+42 | File | `/api/controllers/merchant/design/MaterialController.php` | High
+43 | File | `/api/cron/settings/setJob/` | High
+44 | File | `/api/jolokia org.jolokia.http.HttpRequestHandler#handlePostRequest` | High
+45 | File | `/api/sys/login` | High
+46 | File | `/api/v1/policies/validation/condition/` | High
+47 | File | `/app/api/controller/default/File.php` | High
+48 | File | `/app/middleware/TokenVerify.php` | High
+49 | File | `/application/index/controller/Screen.php` | High
+50 | File | `/apps/login_auth.php` | High
+51 | File | `/apps/system/router/upload.go` | High
+52 | File | `/backend/register.php` | High
+53 | File | `/bin/sh` | Low
+54 | File | `/blog` | Low
+55 | File | `/catalog/all-products` | High
+56 | File | `/ccm/system/dialogs/file/delete/1/submit` | High
+57 | File | `/cgi-bin/cstecgi.cgi` | High
+58 | File | `/cgi-bin/nas_sharing.cgi` | High
+59 | File | `/claire_blake` | High
+60 | File | `/classes/Master.php?f=delete_inquiry` | High
+61 | File | `/classes/Master.php?f=load_registration` | High
+62 | File | `/classes/Users.php` | High
+63 | File | `/control/deactivate_case.php` | High
+64 | File | `/control/register_case.php` | High
+65 | File | `/core/config-revisions` | High
+66 | File | `/dashboard/Cinvoice/manage_invoice` | High
+67 | File | `/dashboard/message` | High
+68 | File | `/debug/pprof` | Medium
+69 | File | `/deletefile.php` | High
+70 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
+71 | File | `/dipam/save-delegates.php` | High
+72 | File | `/doctor/view-appointment-detail.php` | High
+73 | File | `/edit-task.php` | High
+74 | File | `/edit_user.php` | High
+75 | File | `/Employer/EditProfile.php` | High
+76 | File | `/endpoint/add-guest.php` | High
+77 | File | `/endpoint/add-image.php` | High
+78 | File | `/endpoint/add-user.php` | High
+79 | File | `/endpoint/delete-mark.php` | High
+80 | File | `/etc/hosts.deny` | High
+81 | File | `/etc/init.d/update_notifications.sh` | High
+82 | ... | ... | ...
 
-There are 642 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 718 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

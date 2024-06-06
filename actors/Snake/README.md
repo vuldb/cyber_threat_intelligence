@@ -15,6 +15,11 @@ The following _campaigns_ are known and can be associated with Snake:
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Snake:
 
 * [US](https://vuldb.com/?country.us)
+* [GB](https://vuldb.com/?country.gb)
+* [AO](https://vuldb.com/?country.ao)
+* ...
+
+There are 5 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -38,8 +43,8 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22, CWE-23, CWE-24, CWE-36 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+4 | T1059 | CWE-94 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -51,56 +56,98 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/Account/login.php` | High
-2 | File | `/admin/` | Low
-3 | File | `/admin/action/add_con.php` | High
-4 | File | `/admin/app/product.php` | High
-5 | File | `/admin/app/service_crud.php` | High
-6 | File | `/admin/book_add.php` | High
-7 | File | `/admin/category_row.php` | High
-8 | File | `/admin/content/data` | High
-9 | File | `/admin/edit-admin.php` | High
-10 | File | `/admin/edit.php` | High
-11 | File | `/admin/edit_supplier.php` | High
-12 | File | `/admin/edit_teacher.php` | High
-13 | File | `/admin/file/edit.do` | High
-14 | File | `/Admin/login.php` | High
-15 | File | `/admin/orders/view_order.php` | High
-16 | File | `/admin/pages/student-print.php` | High
-17 | File | `/admin/pages/update_go.php` | High
-18 | File | `/admin/product/manage_product.php` | High
-19 | File | `/adminapi/system/crud` | High
-20 | File | `/adminapi/system/file/openfile` | High
-21 | File | `/alsdemo/ss/mediam.cgi` | High
-22 | File | `/ample/app/action/edit_product.php` | High
-23 | File | `/api/controllers/admin/app/AppController.php` | High
-24 | File | `/api/controllers/admin/app/ComboController.php` | High
-25 | File | `/api/controllers/common/UploadsController.php` | High
-26 | File | `/api/controllers/merchant/shop/PosterController.php` | High
-27 | File | `/api/dashboard/activity` | High
-28 | File | `/api/system/sessions` | High
-29 | File | `/app/api/controller/default/File.php` | High
-30 | File | `/app/Http/Controllers/ImageController.php` | High
-31 | File | `/application/index/controller/Datament.php` | High
-32 | File | `/application/index/controller/Pay.php` | High
-33 | File | `/application/index/controller/Screen.php` | High
-34 | File | `/application/pay/controller/Api.php` | High
-35 | File | `/apply/index.php` | High
-36 | File | `/att_add.php` | Medium
-37 | File | `/auth/user/all.api` | High
-38 | File | `/boafrm/formMapDelDevice` | High
-39 | File | `/cgi-bin/cstecgi.cgi` | High
-40 | File | `/cgi-bin/reader` | High
-41 | File | `/common/user_profile.php` | High
-42 | File | `/cupseasylive/currencycreate.php` | High
-43 | File | `/cupseasylive/currencymodify.php` | High
-44 | File | `/cupseasylive/itemlist.php` | High
-45 | File | `/cupseasylive/locationcreate.php` | High
-46 | File | `/currentsetting.htm` | High
-47 | File | `/dashboard/Cinvoice/manage_invoice` | High
-48 | ... | ... | ...
+1 | File | `/?Page=Node&OBJ=/System/AdvancedSettings/DeviceSettings/MiscSettings` | High
+2 | File | `/Account/login.php` | High
+3 | File | `/actuator/heapdump` | High
+4 | File | `/admin-manage-user.php` | High
+5 | File | `/admin/` | Low
+6 | File | `/admin/?page=user/list` | High
+7 | File | `/admin/add-ambulance.php` | High
+8 | File | `/admin/add_ikev2.php` | High
+9 | File | `/admin/admin-profile.php` | High
+10 | File | `/admin/app/product.php` | High
+11 | File | `/admin/app/service_crud.php` | High
+12 | File | `/admin/applicants/controller.php` | High
+13 | File | `/admin/bookdate.php` | High
+14 | File | `/admin/booktime.php` | High
+15 | File | `/admin/category/controller.php` | High
+16 | File | `/Admin/changepassword.php` | High
+17 | File | `/admin/clients` | High
+18 | File | `/admin/company/controller.php` | High
+19 | File | `/admin/company/index.php` | High
+20 | File | `/admin/config_ISCGroupNoCache.php` | High
+21 | File | `/admin/content` | High
+22 | File | `/admin/content/data` | High
+23 | File | `/admin/court` | Medium
+24 | File | `/admin/div_data/delete?divId=9` | High
+25 | File | `/admin/edit-admin.php` | High
+26 | File | `/admin/edit_supplier.php` | High
+27 | File | `/admin/employee/controller.php` | High
+28 | File | `/admin/employee/index.php` | High
+29 | File | `/admin/expense-type` | High
+30 | File | `/admin/file/edit.do` | High
+31 | File | `/admin/forgot-password.php` | High
+32 | File | `/admin/index.php` | High
+33 | File | `/admin/list_crl_conf` | High
+34 | File | `/admin/list_resource_icon.php?action=delete` | High
+35 | File | `/admin/login.php` | High
+36 | File | `/admin/maintenance/manage_brand.php` | High
+37 | File | `/admin/maintenance/manage_category.php` | High
+38 | File | `/admin/menu/toEdit` | High
+39 | File | `/admin/normal-search.php` | High
+40 | File | `/admin/operations/expense_category.php` | High
+41 | File | `/admin/orders/view_order.php` | High
+42 | File | `/admin/product/manage_product.php` | High
+43 | File | `/admin/role` | Medium
+44 | File | `/admin/rooms.php` | High
+45 | File | `/admin/search-directory.php.` | High
+46 | File | `/admin/search.php` | High
+47 | File | `/admin/tasks` | Medium
+48 | File | `/admin/tax` | Medium
+49 | File | `/admin/template` | High
+50 | File | `/admin/twitter.php` | High
+51 | File | `/admin/update-rooms.php` | High
+52 | File | `/admin/update-users.php` | High
+53 | File | `/admin/user-search.php` | High
+54 | File | `/admin/users.php` | High
+55 | File | `/adminapi/system/crud` | High
+56 | File | `/adminapi/system/file/openfile` | High
+57 | File | `/adminPage/conf/reload` | High
+58 | File | `/adminPage/conf/saveCmd` | High
+59 | File | `/adminPage/main/upload` | High
+60 | File | `/adminPage/www/addOver` | High
+61 | File | `/adminpanel/admin/query/deleteExamExe.php` | High
+62 | File | `/adminpanel/admin/query/loginExe.php` | High
+63 | File | `/admin_class.php` | High
+64 | File | `/alsdemo/ss/mediam.cgi` | High
+65 | File | `/api/controllers/admin/app/ComboController.php` | High
+66 | File | `/api/controllers/merchant/shop/PosterController.php` | High
+67 | File | `/api/system/sessions` | High
+68 | File | `/api/v1/toolbox/device/update/swap` | High
+69 | File | `/application/controller/Pelanggan.php` | High
+70 | File | `/application/controller/Pengeluaran.php` | High
+71 | File | `/apply/index.php` | High
+72 | File | `/apps/system/api/user.go` | High
+73 | File | `/apps/system/router/upload.go` | High
+74 | File | `/apps/system/services/role_menu.go` | High
+75 | File | `/assoc_table.php` | High
+76 | File | `/backend/register.php` | High
+77 | File | `/billing/bill/edit/` | High
+78 | File | `/bishe/register` | High
+79 | File | `/bsenordering/index.php` | High
+80 | File | `/cancel.php` | Medium
+81 | File | `/catalog/all-products` | High
+82 | File | `/cgi-bin/cstecgi.cgi` | High
+83 | File | `/cgi-bin/koha/opac-MARCdetail.pl` | High
+84 | File | `/cgi-bin/nas_sharing.cgi` | High
+85 | File | `/cgi-bin/reader` | High
+86 | File | `/change-password.php` | High
+87 | File | `/classes/Master.php?f=load_registration` | High
+88 | File | `/classes/SystemSettings.php?f=update_settings` | High
+89 | File | `/classes/Users.php?f=save` | High
+90 | ... | ... | ...
 
-There are 416 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 795 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

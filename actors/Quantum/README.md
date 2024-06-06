@@ -26,7 +26,7 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [179.43.175.187](https://vuldb.com/?ip.179.43.175.187) | securehosting.capital | - | High
 4 | ... | ... | ... | ...
 
-There are 2 more IOC items available. Please use our online service to access the data.
+There are 3 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -61,6 +61,7 @@ There are 43 more IOA items available (file, library, argument, input value, pat
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://de.darktrace.com/blog/when-speedy-attacks-arent-enough-prolonging-quantum-ransomware
 * https://github.com/threatlabz/iocs/blob/main/agenttesla/quantum.txt
 * https://thedfirreport.com/2022/04/25/quantum-ransomware/
 

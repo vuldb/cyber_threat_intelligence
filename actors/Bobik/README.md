@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [DE](https://vuldb.com/?country.de)
 * [US](https://vuldb.com/?country.us)
-* [PT](https://vuldb.com/?country.pt)
+* [FR](https://vuldb.com/?country.fr)
 * ...
 
-There are 1 more country items available. Please use our online service to access the data.
+There are 3 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -36,7 +36,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 15 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -47,13 +47,17 @@ ID | Type | Indicator | Confidence
 1 | File | `/admin/ajax.php?action=confirm_order` | High
 2 | File | `/admin/book_add.php` | High
 3 | File | `/admin/borrow_add.php` | High
-4 | File | `/admin/manage-pages.php` | High
-5 | File | `/admin/sys_sql_query.php` | High
-6 | File | `/api/snapshot and /api/get_log_file` | High
-7 | File | `/b2b-supermarket/catalog/all-products` | High
-8 | ... | ... | ...
+4 | File | `/admin/config_Anticrack.php` | High
+5 | File | `/admin/manage-pages.php` | High
+6 | File | `/admin/sys_sql_query.php` | High
+7 | File | `/api/snapshot and /api/get_log_file` | High
+8 | File | `/b2b-supermarket/catalog/all-products` | High
+9 | File | `/container/list` | High
+10 | File | `/dede/article_description_main.php` | High
+11 | File | `/general/email/inbox/delete_webmail.php` | High
+12 | ... | ... | ...
 
-There are 54 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 97 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

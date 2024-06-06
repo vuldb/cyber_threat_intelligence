@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with LokiBot:
 
-* [CN](https://vuldb.com/?country.cn)
-* [US](https://vuldb.com/?country.us)
-* [VN](https://vuldb.com/?country.vn)
+* [RU](https://vuldb.com/?country.ru)
+* [PL](https://vuldb.com/?country.pl)
+* [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 6 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -111,9 +111,10 @@ ID | IP address | Hostname | Campaign | Confidence
 88 | [50.31.174.86](https://vuldb.com/?ip.50.31.174.86) | single-priva16.privatednsorg.com | - | High
 89 | [50.63.202.52](https://vuldb.com/?ip.50.63.202.52) | ip-50-63-202-52.ip.secureserver.net | - | High
 90 | [51.81.57.58](https://vuldb.com/?ip.51.81.57.58) | oxsus1lb01p.external.vadesecure.com | - | High
-91 | ... | ... | ... | ...
+91 | [52.20.78.240](https://vuldb.com/?ip.52.20.78.240) | ec2-52-20-78-240.compute-1.amazonaws.com | - | Medium
+92 | ... | ... | ... | ...
 
-There are 359 more IOC items available. Please use our online service to access the data.
+There are 364 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -121,14 +122,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-29, CWE-425 | Path Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-94 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+1 | T1006 | CWE-22 | Path Traversal | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-94 | Argument Injection | High
+4 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 14 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -136,46 +135,21 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/action/delete-vaccine.php` | High
-2 | File | `/admin/list_ipAddressPolicy.php` | High
-3 | File | `/app/index/controller/Common.php` | High
-4 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
-5 | File | `/aux` | Low
-6 | File | `/cgi-bin/cstecgi.cgi` | High
-7 | File | `/cgi-bin/wlogin.cgi` | High
-8 | File | `/cgi/cpaddons_report.pl` | High
-9 | File | `/common/dict/list` | High
-10 | File | `/data/remove` | Medium
-11 | File | `/debug/pprof` | Medium
-12 | File | `/etc/passwd` | Medium
-13 | File | `/forum/away.php` | High
-14 | File | `/goform/net\_Web\_get_value` | High
-15 | File | `/index.php` | Medium
-16 | File | `/Interface/DevManage/VM.php` | High
-17 | File | `/main/webservices/additional_webservices.php` | High
-18 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
-19 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-20 | File | `/net/bluetooth/rfcomm/core.C` | High
-21 | File | `/novel/author/list` | High
-22 | File | `/pdf` | Low
-23 | File | `/remote/put_file` | High
-24 | File | `/spip.php` | Medium
-25 | File | `/squashfs-root/etc_ro/custom.conf` | High
-26 | File | `/src/dede/vote_edit.php` | High
-27 | File | `/terminal/handle-command.php` | High
-28 | File | `/tmp/ppd.trace` | High
-29 | File | `/update-resource-data/` | High
-30 | File | `/uploads/tags.php` | High
-31 | File | `/user/inc/workidajax.php` | High
-32 | File | `/var/tmp/abrt/abrt-hax-coredump` | High
-33 | File | `adclick.php` | Medium
-34 | File | `add.php` | Low
-35 | File | `addressbook.update.php` | High
-36 | File | `admin.php` | Medium
-37 | File | `admin.php?m=backup&c=backup&a=doback` | High
-38 | ... | ... | ...
+1 | File | `/api/runscript` | High
+2 | File | `/api/v1/snapshots` | High
+3 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
+4 | File | `/applications/nexus/modules/front/store/store.php` | High
+5 | File | `/catalog/all-products` | High
+6 | File | `/changePassword` | High
+7 | File | `/forum/away.php` | High
+8 | File | `/goform/addIpMacBind` | High
+9 | File | `/goform/DelDhcpRule` | High
+10 | File | `/goform/delIpMacBind` | High
+11 | File | `/goform/DelPortMapping` | High
+12 | File | `/goform/modifyIpMacBind` | High
+13 | ... | ... | ...
 
-There are 325 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 106 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -231,6 +205,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/threat-roundup-0602-0609-23/
 * https://blog.talosintelligence.com/threat-roundup-1209-1216/
 * https://blog.talosintelligence.com/threat-roundup-feb-24-march-3-2023/
+* https://embee-research.ghost.io/infrastructure-analysis-with-dns-pivoting/
 * https://github.com/executemalware/Malware-IOCs/blob/main/2021-10-20%20Lokibot%20IOCs
 * https://github.com/executemalware/Malware-IOCs/blob/main/2021-11-17%20Lokibot%20IOCs
 * https://github.com/executemalware/Malware-IOCs/blob/main/2022-05-16%20Lokibot%20IOCs
@@ -238,6 +213,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://isc.sans.edu/forums/diary/HSBCthemed+malspam+uses+ISO+attachments+to+push+Loki+Bot+malware/22942/
 * https://isc.sans.edu/forums/diary/Malspam+pushing+Lokibot+malware/24372/
 * https://isc.sans.edu/forums/diary/More+malspam+pushing+Lokibot/23754/
+* https://threatfox.abuse.ch
 * https://vxug.fakedoma.in/archive/APTs/2021/2021.01.06(1)/LokiBot%20Infection%20Chain.pdf
 * https://www.cyber45.com
 * https://www.fortinet.com/blog/threat-research/new-infostealer-attack-uses-lokibot.html

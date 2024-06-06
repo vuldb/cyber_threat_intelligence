@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with ERMAC:
 
-* [CN](https://vuldb.com/?country.cn)
-* [US](https://vuldb.com/?country.us)
-* [LA](https://vuldb.com/?country.la)
+* [PL](https://vuldb.com/?country.pl)
+* [RU](https://vuldb.com/?country.ru)
+* [AR](https://vuldb.com/?country.ar)
 * ...
 
-There are 7 more country items available. Please use our online service to access the data.
+There are 9 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -37,35 +37,38 @@ ID | IP address | Hostname | Campaign | Confidence
 14 | [18.139.243.205](https://vuldb.com/?ip.18.139.243.205) | ec2-18-139-243-205.ap-southeast-1.compute.amazonaws.com | - | Medium
 15 | [18.159.210.80](https://vuldb.com/?ip.18.159.210.80) | ec2-18-159-210-80.eu-central-1.compute.amazonaws.com | - | Medium
 16 | [20.0.153.70](https://vuldb.com/?ip.20.0.153.70) | - | - | High
-17 | [20.65.178.69](https://vuldb.com/?ip.20.65.178.69) | - | - | High
-18 | [20.77.71.31](https://vuldb.com/?ip.20.77.71.31) | - | - | High
-19 | [20.82.182.10](https://vuldb.com/?ip.20.82.182.10) | - | - | High
-20 | [20.108.0.165](https://vuldb.com/?ip.20.108.0.165) | - | - | High
-21 | [20.121.42.245](https://vuldb.com/?ip.20.121.42.245) | - | - | High
-22 | [20.151.153.84](https://vuldb.com/?ip.20.151.153.84) | - | - | High
-23 | [20.166.248.109](https://vuldb.com/?ip.20.166.248.109) | - | - | High
-24 | [20.199.14.181](https://vuldb.com/?ip.20.199.14.181) | - | - | High
-25 | [20.210.252.118](https://vuldb.com/?ip.20.210.252.118) | - | - | High
-26 | [20.241.69.111](https://vuldb.com/?ip.20.241.69.111) | - | - | High
-27 | [20.249.63.72](https://vuldb.com/?ip.20.249.63.72) | - | - | High
-28 | [20.251.169.136](https://vuldb.com/?ip.20.251.169.136) | - | - | High
-29 | [31.41.244.187](https://vuldb.com/?ip.31.41.244.187) | - | - | High
-30 | [31.129.99.52](https://vuldb.com/?ip.31.129.99.52) | - | - | High
-31 | [34.16.134.132](https://vuldb.com/?ip.34.16.134.132) | 132.134.16.34.bc.googleusercontent.com | - | Medium
-32 | [35.90.154.240](https://vuldb.com/?ip.35.90.154.240) | ec2-35-90-154-240.us-west-2.compute.amazonaws.com | - | Medium
-33 | [35.91.53.224](https://vuldb.com/?ip.35.91.53.224) | ec2-35-91-53-224.us-west-2.compute.amazonaws.com | - | Medium
-34 | [37.60.235.110](https://vuldb.com/?ip.37.60.235.110) | vmi1631602.contaboserver.net | - | High
-35 | [37.140.242.93](https://vuldb.com/?ip.37.140.242.93) | - | - | High
-36 | [38.180.94.161](https://vuldb.com/?ip.38.180.94.161) | - | - | High
-37 | [38.242.209.185](https://vuldb.com/?ip.38.242.209.185) | vmi1543263.contaboserver.net | - | High
-38 | [40.119.24.133](https://vuldb.com/?ip.40.119.24.133) | - | - | High
-39 | [43.129.215.239](https://vuldb.com/?ip.43.129.215.239) | - | - | High
-40 | [45.15.159.44](https://vuldb.com/?ip.45.15.159.44) | sore-direction.aeza.network | - | High
-41 | [45.77.68.120](https://vuldb.com/?ip.45.77.68.120) | 45.77.68.120.vultrusercontent.com | - | High
-42 | [45.93.201.92](https://vuldb.com/?ip.45.93.201.92) | - | - | High
-43 | ... | ... | ... | ...
+17 | [20.55.63.136](https://vuldb.com/?ip.20.55.63.136) | - | - | High
+18 | [20.65.178.69](https://vuldb.com/?ip.20.65.178.69) | - | - | High
+19 | [20.77.71.31](https://vuldb.com/?ip.20.77.71.31) | - | - | High
+20 | [20.82.182.10](https://vuldb.com/?ip.20.82.182.10) | - | - | High
+21 | [20.108.0.165](https://vuldb.com/?ip.20.108.0.165) | - | - | High
+22 | [20.121.42.245](https://vuldb.com/?ip.20.121.42.245) | - | - | High
+23 | [20.151.153.84](https://vuldb.com/?ip.20.151.153.84) | - | - | High
+24 | [20.166.248.109](https://vuldb.com/?ip.20.166.248.109) | - | - | High
+25 | [20.199.14.181](https://vuldb.com/?ip.20.199.14.181) | - | - | High
+26 | [20.210.252.118](https://vuldb.com/?ip.20.210.252.118) | - | - | High
+27 | [20.241.69.111](https://vuldb.com/?ip.20.241.69.111) | - | - | High
+28 | [20.249.63.72](https://vuldb.com/?ip.20.249.63.72) | - | - | High
+29 | [20.251.169.136](https://vuldb.com/?ip.20.251.169.136) | - | - | High
+30 | [31.41.244.187](https://vuldb.com/?ip.31.41.244.187) | - | - | High
+31 | [31.129.99.52](https://vuldb.com/?ip.31.129.99.52) | - | - | High
+32 | [34.16.134.132](https://vuldb.com/?ip.34.16.134.132) | 132.134.16.34.bc.googleusercontent.com | - | Medium
+33 | [35.90.154.240](https://vuldb.com/?ip.35.90.154.240) | ec2-35-90-154-240.us-west-2.compute.amazonaws.com | - | Medium
+34 | [35.91.53.224](https://vuldb.com/?ip.35.91.53.224) | ec2-35-91-53-224.us-west-2.compute.amazonaws.com | - | Medium
+35 | [37.60.235.110](https://vuldb.com/?ip.37.60.235.110) | vmi1631602.contaboserver.net | - | High
+36 | [37.60.245.93](https://vuldb.com/?ip.37.60.245.93) | vmi1774336.contaboserver.net | - | High
+37 | [37.140.242.93](https://vuldb.com/?ip.37.140.242.93) | - | - | High
+38 | [38.180.94.161](https://vuldb.com/?ip.38.180.94.161) | - | - | High
+39 | [38.242.209.185](https://vuldb.com/?ip.38.242.209.185) | vmi1543263.contaboserver.net | - | High
+40 | [40.119.24.133](https://vuldb.com/?ip.40.119.24.133) | - | - | High
+41 | [43.129.215.239](https://vuldb.com/?ip.43.129.215.239) | - | - | High
+42 | [45.15.159.44](https://vuldb.com/?ip.45.15.159.44) | sore-direction.aeza.network | - | High
+43 | [45.77.68.120](https://vuldb.com/?ip.45.77.68.120) | 45.77.68.120.vultrusercontent.com | - | High
+44 | [45.88.90.29](https://vuldb.com/?ip.45.88.90.29) | - | - | High
+45 | [45.88.91.227](https://vuldb.com/?ip.45.88.91.227) | - | - | High
+46 | ... | ... | ... | ...
 
-There are 167 more IOC items available. Please use our online service to access the data.
+There are 181 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -73,14 +76,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Path Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-94 | Argument Injection | High
+4 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 13 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -88,51 +89,25 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/controller/JobLogController.java` | High
-2 | File | `/api/baskets/{name}` | High
-3 | File | `/api/sys/login` | High
-4 | File | `/api/sys/set_passwd` | High
-5 | File | `/api/trackedEntityInstances` | High
-6 | File | `/app/options.py` | High
-7 | File | `/aux` | Low
-8 | File | `/bin/ate` | Medium
-9 | File | `/booking/show_bookings/` | High
-10 | File | `/changePassword` | High
-11 | File | `/Content/Template/root/reverse-shell.aspx` | High
-12 | File | `/dashboard/add-blog.php` | High
-13 | File | `/data/remove` | Medium
-14 | File | `/debug/pprof` | Medium
-15 | File | `/debuginfo.htm` | High
-16 | File | `/ecshop/admin/template.php` | High
-17 | File | `/etc/passwd` | Medium
-18 | File | `/forum/away.php` | High
-19 | File | `/goform/net\_Web\_get_value` | High
-20 | File | `/group1/uploa` | High
-21 | File | `/index.php` | Medium
-22 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-23 | File | `/novel/bookSetting/list` | High
-24 | File | `/novel/userFeedback/list` | High
-25 | File | `/php-sms/admin/?page=user/manage_user` | High
-26 | File | `/resources//../` | High
-27 | File | `/Setting/change_password_save` | High
-28 | File | `/testConnection` | High
-29 | File | `/tmp/ppd.trace` | High
-30 | File | `/user/inc/workidajax.php` | High
-31 | File | `/userLogin.asp` | High
-32 | File | `/vm/admin/doctors.php` | High
-33 | File | `Access.app/Contents/Resources/kcproxy` | High
-34 | File | `acs.exe` | Low
-35 | File | `action-visitor.php` | High
-36 | File | `adclick.php` | Medium
-37 | ... | ... | ...
+1 | File | `/catalog/all-products` | High
+2 | File | `/changePassword` | High
+3 | File | `/forum/away.php` | High
+4 | File | `/goform/addIpMacBind` | High
+5 | File | `/goform/DelDhcpRule` | High
+6 | File | `/goform/delIpMacBind` | High
+7 | File | `/goform/DelPortMapping` | High
+8 | File | `/goform/modifyDhcpRule` | High
+9 | File | `/goform/modifyIpMacBind` | High
+10 | ... | ... | ...
 
-There are 321 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 74 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://community.blueliv.com/#!/s/6290743382df41552632f5fe
+* https://cyble.com/blog/ermac-android-malware-increasingly-active/
 * https://research.nccgroup.com/2023/09/11/from-ermac-to-hook-investigating-the-technical-differences-between-two-android-malware-variants/
 * https://search.censys.io/hosts/3.68.135.109
 * https://search.censys.io/hosts/4.178.96.222
@@ -192,6 +167,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/89.23.100.205
 * https://search.censys.io/hosts/89.23.101.149
 * https://search.censys.io/hosts/89.23.102.60
+* https://search.censys.io/hosts/91.92.242.244
 * https://search.censys.io/hosts/91.92.244.23
 * https://search.censys.io/hosts/91.92.246.222
 * https://search.censys.io/hosts/91.92.252.193
@@ -273,14 +249,29 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://twitter.com/0xrb/status/1564222855830597632
 * https://twitter.com/ReBensk/status/1695321207766127094
 * https://urlscan.io/result/06f822ff-2548-451e-8e37-e62aa9891a4e/
+* https://urlscan.io/result/2cc7179d-6b7b-4818-97f5-9eee529927e0/
+* https://urlscan.io/result/3ad336c0-c99b-492f-bbc5-60c146a79409/
+* https://urlscan.io/result/4b2cd544-0a30-402b-9ca3-9047a9e2669c/
+* https://urlscan.io/result/5d20a06a-3cbd-410d-8cc1-3cc4dc7400e7/
 * https://urlscan.io/result/7dfe6ed7-9549-46fc-9a61-4ddd6cf46d67/
+* https://urlscan.io/result/9cd4c850-0002-4453-a2b2-99fb3c0a0b9a/
+* https://urlscan.io/result/37ae54eb-a79e-452f-aedb-daddbecd6cfb/
 * https://urlscan.io/result/38acf5f7-2a9e-4e8e-b530-cd6bf3cb02a2/
+* https://urlscan.io/result/68bf21ff-4c21-485c-8098-a839f3a8b89f/
+* https://urlscan.io/result/91c2cd35-6321-4e61-9720-d61ff6f69593/
 * https://urlscan.io/result/197e73cc-b819-4d66-a313-81402f6b417e/
 * https://urlscan.io/result/667e3154-5099-45e7-90a4-358ec41f0292/#summary
+* https://urlscan.io/result/932b5da3-74c4-4ee8-a9ef-1cc1eb719dd9/
+* https://urlscan.io/result/1508e1df-94c2-4d47-bc79-012909b23df4/
+* https://urlscan.io/result/2144fe1b-e305-4c23-bdd4-4a39f70bdf62/
 * https://urlscan.io/result/5811cf3c-4156-4aad-9939-36b48e8a5d8b/
 * https://urlscan.io/result/8588dff1-931f-41d3-b1a6-6e0306a23d95/
+* https://urlscan.io/result/a5ccb31e-c451-4627-9ce7-52f133cdffa8/
 * https://urlscan.io/result/a69e8543-c785-4c47-a2e8-76c2c5b91d0a/
 * https://urlscan.io/result/a512e831-dd94-458a-8183-04359ffcc64d/
+* https://urlscan.io/result/bc7baa33-1b2e-463d-885a-e7ed081d3efb/
+* https://urlscan.io/result/c6f893ce-6d87-4b79-ad6d-4154220f9733/
+* https://urlscan.io/result/d2466ad4-f25e-4f61-a1ca-65edd3250303/
 * https://urlscan.io/result/e25f123a-6517-49b7-9068-954d00317556/
 * https://urlscan.io/result/ebb52d6a-bc21-4bcc-8e4a-834b3ffc8e48/
 * https://www.threatfabric.com/blogs/ermac-another-cerberus-reborn.html

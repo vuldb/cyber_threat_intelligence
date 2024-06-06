@@ -11,6 +11,9 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
 * [IT](https://vuldb.com/?country.it)
+* ...
+
+There are 3 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -23,7 +26,7 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [81.177.22.179](https://vuldb.com/?ip.81.177.22.179) | cl.hostlix.ru | - | High
 4 | ... | ... | ... | ...
 
-There are 9 more IOC items available. Please use our online service to access the data.
+There are 11 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -64,9 +67,10 @@ ID | Type | Indicator | Confidence
 18 | File | `/myAccount` | Medium
 19 | File | `/real-estate-script/search_property.php` | High
 20 | File | `/SAAS/WEB-INF` | High
-21 | ... | ... | ...
+21 | File | `/searchpin.php` | High
+22 | ... | ... | ...
 
-There are 176 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 179 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

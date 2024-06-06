@@ -21,12 +21,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [0.0.0.0](https://vuldb.com/?ip.0.0.0.0) | - | - | High
-2 | [61.90.202.197](https://vuldb.com/?ip.61.90.202.197) | 61-90-202-197.static.asianet.co.th | - | High
-3 | [61.90.202.198](https://vuldb.com/?ip.61.90.202.198) | 61-90-202-198.static.asianet.co.th | - | High
+1 | [61.90.202.197](https://vuldb.com/?ip.61.90.202.197) | 61-90-202-197.static.asianet.co.th | - | High
+2 | [61.90.202.198](https://vuldb.com/?ip.61.90.202.198) | 61-90-202-198.static.asianet.co.th | - | High
+3 | [69.197.149.98](https://vuldb.com/?ip.69.197.149.98) | hounduni.net | - | High
 4 | ... | ... | ... | ...
 
-There are 5 more IOC items available. Please use our online service to access the data.
+There are 4 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -35,7 +35,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22 | Path Traversal | High
-2 | T1055 | CWE-74 | Injection | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
 

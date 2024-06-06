@@ -24,7 +24,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 26 more country items available. Please use our online service to access the data.
+There are 27 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -47,24 +47,26 @@ ID | IP address | Hostname | Campaign | Confidence
 13 | [37.120.237.248](https://vuldb.com/?ip.37.120.237.248) | - | - | High
 14 | [37.187.204.27](https://vuldb.com/?ip.37.187.204.27) | smtp1.hosterdaddy.com | - | High
 15 | [38.132.99.167](https://vuldb.com/?ip.38.132.99.167) | - | BlackWater | High
-16 | [45.67.230.91](https://vuldb.com/?ip.45.67.230.91) | vm1552984.stark-industries.solutions | - | High
-17 | [45.86.230.20](https://vuldb.com/?ip.45.86.230.20) | mta0.officeportal-centers.gq | PhonyC2 | High
-18 | [45.132.75.101](https://vuldb.com/?ip.45.132.75.101) | edc1.6nc051221c.co | - | High
-19 | [45.142.212.61](https://vuldb.com/?ip.45.142.212.61) | vm218389.pq.hosting | - | High
-20 | [45.142.213.17](https://vuldb.com/?ip.45.142.213.17) | vm218393.pq.hosting | - | High
-21 | [45.150.64.23](https://vuldb.com/?ip.45.150.64.23) | vm1804325.stark-industries.solutions | - | High
-22 | [45.150.64.39](https://vuldb.com/?ip.45.150.64.39) | vm1518947.stark-industries.solutions | - | High
-23 | [45.150.64.239](https://vuldb.com/?ip.45.150.64.239) | vm1715150.stark-industries.solutions | - | High
-24 | [45.153.231.104](https://vuldb.com/?ip.45.153.231.104) | vm218397.pq.hosting | - | High
-25 | [45.159.248.244](https://vuldb.com/?ip.45.159.248.244) | vm1355757.stark-industries.solutions | PhonyC2 | High
-26 | [46.99.148.96](https://vuldb.com/?ip.46.99.148.96) | - | Seedworm | High
-27 | [46.166.129.159](https://vuldb.com/?ip.46.166.129.159) | gcn.warrirge.com | - | High
-28 | [46.249.35.243](https://vuldb.com/?ip.46.249.35.243) | uhteronia.xyz | PhonyC2 | High
-29 | [51.77.97.65](https://vuldb.com/?ip.51.77.97.65) | ip65.ip-51-77-97.eu | - | High
-30 | [51.255.19.178](https://vuldb.com/?ip.51.255.19.178) | pru2.6nc110821hdb.co | - | High
-31 | ... | ... | ... | ...
+16 | [45.66.249.226](https://vuldb.com/?ip.45.66.249.226) | adbs.info.calculadoradecarbono.store | - | High
+17 | [45.67.230.91](https://vuldb.com/?ip.45.67.230.91) | vm1552984.stark-industries.solutions | - | High
+18 | [45.86.230.20](https://vuldb.com/?ip.45.86.230.20) | mta0.officeportal-centers.gq | PhonyC2 | High
+19 | [45.132.75.101](https://vuldb.com/?ip.45.132.75.101) | edc1.6nc051221c.co | - | High
+20 | [45.140.147.81](https://vuldb.com/?ip.45.140.147.81) | vm2128682.stark-industries.solutions | - | High
+21 | [45.142.212.61](https://vuldb.com/?ip.45.142.212.61) | vm218389.pq.hosting | - | High
+22 | [45.142.213.17](https://vuldb.com/?ip.45.142.213.17) | vm218393.pq.hosting | - | High
+23 | [45.150.64.23](https://vuldb.com/?ip.45.150.64.23) | vm1804325.stark-industries.solutions | - | High
+24 | [45.150.64.39](https://vuldb.com/?ip.45.150.64.39) | vm1518947.stark-industries.solutions | - | High
+25 | [45.150.64.239](https://vuldb.com/?ip.45.150.64.239) | vm1715150.stark-industries.solutions | - | High
+26 | [45.153.231.104](https://vuldb.com/?ip.45.153.231.104) | vm218397.pq.hosting | - | High
+27 | [45.159.248.244](https://vuldb.com/?ip.45.159.248.244) | vm1355757.stark-industries.solutions | PhonyC2 | High
+28 | [46.99.148.96](https://vuldb.com/?ip.46.99.148.96) | - | Seedworm | High
+29 | [46.166.129.159](https://vuldb.com/?ip.46.166.129.159) | gcn.warrirge.com | - | High
+30 | [46.249.35.243](https://vuldb.com/?ip.46.249.35.243) | uhteronia.xyz | PhonyC2 | High
+31 | [51.77.97.65](https://vuldb.com/?ip.51.77.97.65) | ip65.ip-51-77-97.eu | - | High
+32 | [51.255.19.178](https://vuldb.com/?ip.51.255.19.178) | pru2.6nc110821hdb.co | - | High
+33 | ... | ... | ... | ...
 
-There are 118 more IOC items available. Please use our online service to access the data.
+There are 129 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -72,14 +74,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23, CWE-24, CWE-36 | Path Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74, CWE-643 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-94 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+1 | T1006 | CWE-22, CWE-23, CWE-24 | Path Traversal | High
+2 | T1055 | CWE-74, CWE-643 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -87,80 +88,100 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/#ProductSerie/view/` | High
-2 | File | `/Account/login.php` | High
-3 | File | `/add_classes.php` | High
-4 | File | `/admin.php?p=/Area/index#tab=t2` | High
-5 | File | `/admin/` | Low
+1 | File | `/?g=net_pro_keyword_import_save` | High
+2 | File | `/?Page=Node&OBJ=/System/AdvancedSettings/DeviceSettings/MiscSettings` | High
+3 | File | `/Account/login.php` | High
+4 | File | `/actuator/heapdump` | High
+5 | File | `/admin-api/upload_image` | High
 6 | File | `/admin/aboutus.php` | High
-7 | File | `/admin/admin-profile.php` | High
-8 | File | `/admin/admin.php` | High
-9 | File | `/admin/app/product.php` | High
-10 | File | `/admin/app/profile_crud.php` | High
-11 | File | `/admin/app/service_crud.php` | High
-12 | File | `/admin/applicants/controller.php` | High
-13 | File | `/admin/applicants/index.php` | High
-14 | File | `/admin/application-bwdates-reports-details.php` | High
-15 | File | `/admin/article.php?action=write` | High
-16 | File | `/admin/booking-bwdates-reports-details.php` | High
-17 | File | `/admin/booking-search.php` | High
-18 | File | `/admin/category/controller.php` | High
-19 | File | `/admin/company/controller.php` | High
-20 | File | `/admin/company/index.php` | High
-21 | File | `/admin/contact-us.php` | High
-22 | File | `/admin/contactus.php` | High
-23 | File | `/admin/edit-admin.php` | High
-24 | File | `/admin/edit_categories.php` | High
-25 | File | `/admin/edit_supplier.php` | High
-26 | File | `/admin/employee/index.php` | High
-27 | File | `/admin/forgot-password.php` | High
-28 | File | `/admin/index.php` | High
-29 | File | `/admin/list_ipAddressPolicy.php` | High
-30 | File | `/admin/list_localuser.php` | High
-31 | File | `/admin/login.php` | High
-32 | File | `/Admin/login.php` | High
-33 | File | `/admin/makehtml_freelist_action.php` | High
-34 | File | `/admin/menu/toEdit` | High
-35 | File | `/admin/pages/update_go.php` | High
-36 | File | `/admin/search.php` | High
-37 | File | `/admin/singlelogin.php` | High
-38 | File | `/admin/update-users.php` | High
-39 | File | `/admin/user-search.php` | High
-40 | File | `/admin/users.php` | High
-41 | File | `/admin/vacancy/controller.php` | High
-42 | File | `/admin/vacancy/index.php` | High
-43 | File | `/admin/view_sendlist.php` | High
-44 | File | `/adminapi/system/crud` | High
-45 | File | `/adminapi/system/file/openfile` | High
-46 | File | `/adminpanel/admin/facebox_modal/updateCourse.php` | High
-47 | File | `/adminpanel/admin/facebox_modal/updateExaminee.php` | High
-48 | File | `/admin_ping.htm` | High
-49 | File | `/api.php` | Medium
-50 | File | `/api/client/editemedia.php` | High
-51 | File | `/api/controllers/admin/app/AppController.php` | High
-52 | File | `/api/controllers/admin/app/ComboController.php` | High
-53 | File | `/api/controllers/common/UploadsController.php` | High
-54 | File | `/api/controllers/merchant/app/ComboController.php` | High
-55 | File | `/api/controllers/merchant/design/MaterialController.php` | High
-56 | File | `/api/controllers/merchant/shop/PosterController.php` | High
-57 | File | `/app/admin/controller/Upload.php` | High
-58 | File | `/app/ajax/search_sales_report.php` | High
-59 | File | `/application/index/common.php` | High
-60 | File | `/application/index/controller/Databasesource.php` | High
-61 | File | `/application/index/controller/Datament.php` | High
-62 | File | `/application/index/controller/File.php` | High
-63 | File | `/application/index/controller/Icon.php` | High
-64 | File | `/application/index/controller/Pay.php` | High
-65 | File | `/application/index/controller/Screen.php` | High
-66 | File | `/application/index/controller/Unity.php` | High
-67 | File | `/application/plugins/controller/Upload.php` | High
-68 | File | `/application/websocket/controller/Setting.php` | High
-69 | File | `/apply/index.php` | High
-70 | File | `/apps/system/router/upload.go` | High
-71 | File | `/assets/php/upload.php` | High
-72 | ... | ... | ...
+7 | File | `/Admin/add-admin.php` | High
+8 | File | `/admin/addgiving.php` | High
+9 | File | `/admin/addTithes.php` | High
+10 | File | `/admin/add_sundaysch.php` | High
+11 | File | `/admin/add_visitor.php` | High
+12 | File | `/admin/admin-profile.php` | High
+13 | File | `/admin/admin.php` | High
+14 | File | `/admin/admin_cl.php?mudi=revPwd` | High
+15 | File | `/admin/admin_user.php` | High
+16 | File | `/admin/applicants/controller.php` | High
+17 | File | `/admin/applicants/index.php` | High
+18 | File | `/admin/application-bwdates-reports-details.php` | High
+19 | File | `/admin/booking-bwdates-reports-details.php` | High
+20 | File | `/admin/booking-search.php` | High
+21 | File | `/admin/case-type` | High
+22 | File | `/admin/category/controller.php` | High
+23 | File | `/admin/category/view_category.php` | High
+24 | File | `/admin/company/controller.php` | High
+25 | File | `/admin/company/index.php` | High
+26 | File | `/admin/contact-us.php` | High
+27 | File | `/admin/contactus.php` | High
+28 | File | `/admin/court-type` | High
+29 | File | `/admin/delete_log.php` | High
+30 | File | `/Admin/edit-photo.php` | High
+31 | File | `/admin/edit-post.php` | High
+32 | File | `/Admin/edit_profile.php` | High
+33 | File | `/admin/employee/index.php` | High
+34 | File | `/admin/expense-type` | High
+35 | File | `/admin/forgot-password.php` | High
+36 | File | `/admin/general-setting` | High
+37 | File | `/admin/index.php` | High
+38 | File | `/admin/judge` | Medium
+39 | File | `/admin/list_crl_conf` | High
+40 | File | `/admin/login.php` | High
+41 | File | `/admin/manage-ambulance.php` | High
+42 | File | `/admin/menu/toEdit` | High
+43 | File | `/admin/role` | Medium
+44 | File | `/admin/search.php` | High
+45 | File | `/admin/singlelogin.php` | High
+46 | File | `/admin/students/manage.php` | High
+47 | File | `/admin/tag.php` | High
+48 | File | `/admin/twitter.php` | High
+49 | File | `/admin/update-users.php` | High
+50 | File | `/Admin/user-record.php` | High
+51 | File | `/admin/user-search.php` | High
+52 | File | `/admin/users.php` | High
+53 | File | `/admin/vacancy/controller.php` | High
+54 | File | `/admin/vacancy/index.php` | High
+55 | File | `/adminPage/conf/saveCmd` | High
+56 | File | `/adminPage/main/upload` | High
+57 | File | `/adminPage/www/addOver` | High
+58 | File | `/adminpanel/admin/facebox_modal/updateCourse.php` | High
+59 | File | `/adminpanel/admin/facebox_modal/updateExaminee.php` | High
+60 | File | `/adminpanel/admin/query/deleteCourseExe.php` | High
+61 | File | `/adminpanel/admin/query/deleteExamExe.php` | High
+62 | File | `/adminpanel/admin/query/deleteQuestionExe.php` | High
+63 | File | `/adminpanel/admin/query/loginExe.php` | High
+64 | File | `/api/authentication/login` | High
+65 | File | `/api/blade-user/export-user` | High
+66 | File | `/api/client/editemedia.php` | High
+67 | File | `/api/process.php` | High
+68 | File | `/api/v2/open/rowsInfo` | High
+69 | File | `/api/v4/users/me/teams` | High
+70 | File | `/app/admin/controller/Upload.php` | High
+71 | File | `/application/controller/Pelanggan.php` | High
+72 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
+73 | File | `/apps/system/router/upload.go` | High
+74 | File | `/bin/login` | Medium
+75 | File | `/bishe/register` | High
+76 | File | `/boaform/getASPdata/formFirewall` | High
+77 | File | `/cart.php` | Medium
+78 | File | `/cgi-bin/cstecgi.cgi` | High
+79 | File | `/cgi-bin/debug_dump.cgi` | High
+80 | File | `/cgi-bin/ExportSettings.sh` | High
+81 | File | `/cgi-bin/nas_sharing.cgi` | High
+82 | File | `/cgi-bin/upload_config.cgi` | High
+83 | File | `/change-password.php` | High
+84 | File | `/classes/Master.php?f=save_category` | High
+85 | File | `/classes/SystemSettings.php?f=update_settings` | High
+86 | File | `/classes/Users.php` | High
+87 | File | `/classes/Users.php?f=save` | High
+88 | File | `/command_port.ini` | High
+89 | File | `/control/activate_case.php` | High
+90 | File | `/control/deactivate_case.php` | High
+91 | File | `/control/register_case.php` | High
+92 | ... | ... | ...
 
-There are 630 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 809 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -180,6 +201,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://unit42.paloaltonetworks.com/unit42-muddying-the-water-targeted-attacks-in-the-middle-east/
 * https://www.cisa.gov/uscert/ncas/alerts/aa22-055a
 * https://www.clearskysec.com/wp-content/uploads/2019/06/Clearsky-Iranian-APT-group-%E2%80%98MuddyWater%E2%80%99-Adds-Exploits-to-Their-Arsenal.pdf
+* https://www.deepinstinct.com/blog/darkbeatc2-the-latest-muddywater-attack-framework
 * https://www.deepinstinct.com/blog/muddyc2go-latest-c2-framework-used-by-iranian-apt-muddywater-spotted-in-israel
 * https://www.deepinstinct.com/blog/muddywater-en-able-spear-phishing-with-new-ttps
 * https://www.deepinstinct.com/blog/phonyc2-revealing-a-new-malicious-command-control-framework-by-muddywater

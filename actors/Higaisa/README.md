@@ -8,8 +8,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Higaisa:
 
-* [GB](https://vuldb.com/?country.gb)
 * [CN](https://vuldb.com/?country.cn)
+* [GB](https://vuldb.com/?country.gb)
 
 ## IOC - Indicator of Compromise
 
@@ -18,7 +18,8 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [3.4.1.6](https://vuldb.com/?ip.3.4.1.6) | - | - | High
-2 | [45.76.6.149](https://vuldb.com/?ip.45.76.6.149) | 45.76.6.149.vultrusercontent.com | - | High
+2 | [43.246.209.83](https://vuldb.com/?ip.43.246.209.83) | - | - | High
+3 | [45.76.6.149](https://vuldb.com/?ip.45.76.6.149) | 45.76.6.149.vultrusercontent.com | - | High
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -26,7 +27,9 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1055 | CWE-74 | Injection | High
+1 | T1006 | CWE-22 | Path Traversal | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1608.002 | CWE-434 | Incomplete Identification of Uploaded File Variables | High
 
 ## IOA - Indicator of Attack
 
@@ -34,14 +37,19 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `goform/setUsbUnload` | High
-2 | Argument | `deviceName` | Medium
+1 | File | `/ZHGXTV/index.php/admin/index/web_upload_template.html` | High
+2 | File | `goform/setUsbUnload` | High
+3 | Argument | `deviceName` | Medium
+4 | ... | ... | ...
+
+There are 1 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://blog.malwarebytes.com/threat-analysis/2020/06/higaisa/
+* https://cyble.com/blog/higaisa-apt-resurfaces-via-phishing-website-targeting-chinese-users/
 
 ## Literature
 

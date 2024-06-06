@@ -51,7 +51,7 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
@@ -70,11 +70,11 @@ ID | Type | Indicator | Confidence
 3 | File | `/admin/add-category.php` | High
 4 | File | `/admin/edit.php` | High
 5 | File | `/admin/orders/update_status.php` | High
-6 | File | `/ajax/networking/get_netcfg.php` | High
-7 | File | `/api/baskets/{name}` | High
-8 | File | `/api/filemanager` | High
-9 | File | `/api/v2/cli/commands` | High
-10 | File | `/billing/home.php` | High
+6 | File | `/api/baskets/{name}` | High
+7 | File | `/api/filemanager` | High
+8 | File | `/api/v2/cli/commands` | High
+9 | File | `/billing/home.php` | High
+10 | File | `/cgi-bin/nas_sharing.cgi` | High
 11 | File | `/cgi-bin/supervisor/CloudSetup.cgi` | High
 12 | File | `/cgi-bin/system_mgr.cgi` | High
 13 | File | `/cgi-bin/wapopen` | High
@@ -94,7 +94,7 @@ ID | Type | Indicator | Confidence
 27 | File | `/pg_meta/default/query` | High
 28 | ... | ... | ...
 
-There are 238 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 239 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

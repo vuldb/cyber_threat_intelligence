@@ -18,11 +18,11 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [5.161.23.233](https://vuldb.com/?ip.5.161.23.233) | static.233.23.161.5.clients.your-server.de | - | High
-2 | [5.161.201.122](https://vuldb.com/?ip.5.161.201.122) | static.122.201.161.5.clients.your-server.de | - | High
-3 | [45.88.66.217](https://vuldb.com/?ip.45.88.66.217) | - | - | High
+2 | [5.161.97.57](https://vuldb.com/?ip.5.161.97.57) | static.57.97.161.5.clients.your-server.de | - | High
+3 | [5.161.201.122](https://vuldb.com/?ip.5.161.201.122) | static.122.201.161.5.clients.your-server.de | - | High
 4 | ... | ... | ... | ...
 
-There are 9 more IOC items available. Please use our online service to access the data.
+There are 10 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -31,11 +31,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
-2 | T1059 | CWE-94 | Argument Injection | High
-3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-4 | ... | ... | ... | ...
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-94 | Argument Injection | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 11 more TTP items available. Please use our online service to access the data.
+There are 15 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -47,22 +48,41 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin/?page=user/manage_user&id=3` | High
 3 | File | `/admin/ajax/avatar.php` | High
 4 | File | `/admin/employee_edit.php` | High
-5 | File | `/admin/options` | High
-6 | File | `/admin/show.php` | High
-7 | File | `/be/erpc.php` | Medium
-8 | File | `/horde/util/go.php` | High
-9 | File | `/my_photo_gallery/image.php` | High
-10 | File | `/patient/doctors.php` | High
-11 | File | `/phpinventory/editcategory.php` | High
-12 | File | `/phpinventory/edituser.php` | High
-13 | ... | ... | ...
+5 | File | `/admin/fields/manage_field.php` | High
+6 | File | `/admin/options` | High
+7 | File | `/admin/pages/yearlevel.php` | High
+8 | File | `/admin/show.php` | High
+9 | File | `/be/erpc.php` | Medium
+10 | File | `/bin/sh` | Low
+11 | File | `/cgi-bin/system_mgr.cgi` | High
+12 | File | `/cgi-bin/vitogate.cgi` | High
+13 | File | `/ebics-server/ebics.aspx` | High
+14 | File | `/forum/away.php` | High
+15 | File | `/front/admin/tenancyDetail.php` | High
+16 | File | `/horde/util/go.php` | High
+17 | File | `/importexport.php` | High
+18 | File | `/mgmt/tm/util/bash` | High
+19 | File | `/my_photo_gallery/image.php` | High
+20 | File | `/oews/classes/Master.php?f=update_cart` | High
+21 | File | `/patient/doctors.php` | High
+22 | File | `/php-fusion/infusions/shoutbox_panel/shoutbox_archive.php` | High
+23 | File | `/phpinventory/editcategory.php` | High
+24 | File | `/phpinventory/edituser.php` | High
+25 | File | `/schedules/view_schedule.php` | High
+26 | File | `/Service/ImageStationDataService.asmx` | High
+27 | File | `/spip.php` | Medium
+28 | File | `/uncpath/` | Medium
+29 | File | `/useratte/inc/userattea.php` | High
+30 | File | `/var/log/cron` | High
+31 | ... | ... | ...
 
-There are 106 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 262 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://cyble.com/blog/nexus-the-latest-android-banking-trojan-with-sova-connections/
 * https://threatfox.abuse.ch
 * https://www.cleafy.com/cleafy-labs/nexus-a-new-android-botnet
 

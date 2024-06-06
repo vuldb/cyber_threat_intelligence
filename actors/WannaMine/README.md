@@ -66,9 +66,10 @@ ID | Type | Indicator | Confidence
 21 | File | `/application/index/controller/Unity.php` | High
 22 | File | `/apply/index.php` | High
 23 | File | `/auth/auth.php?user=1` | High
-24 | ... | ... | ...
+24 | File | `/b2b-supermarket/shopping-cart` | High
+25 | ... | ... | ...
 
-There are 201 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 209 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

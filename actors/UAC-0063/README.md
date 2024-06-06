@@ -34,12 +34,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23, CWE-24 | Path Traversal | High
-2 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-3 | T1068 | CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+1 |  | CWE-20, CWE-119, CWE-120, CWE-189, CWE-190, CWE-287, CWE-305, CWE-362, CWE-367, CWE-400, CWE-404, CWE-415, CWE-476, CWE-502, CWE-787, CWE-824, CWE-843, CWE-908, CWE-918 | Unknown Vulnerability | High
+2 | T1006 | CWE-22, CWE-23, CWE-24 | Path Traversal | High
+3 | T1059.007 | CWE-74, CWE-79, CWE-80, CWE-707 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 8 more TTP items available. Please use our online service to access the data.
+There are 9 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -53,7 +53,7 @@ ID | Type | Indicator | Confidence
 4 | File | `/tmp/csman/0` | Medium
 5 | ... | ... | ...
 
-There are 29 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 31 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

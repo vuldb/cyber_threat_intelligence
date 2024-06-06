@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 18 more country items available. Please use our online service to access the data.
+There are 19 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -136,20 +136,20 @@ ID | Type | Indicator | Confidence
 13 | File | `/eval/admin/manage_class.php` | High
 14 | File | `/importTool/preview` | High
 15 | File | `/mods/_core/courses/users/create_course.php` | High
-16 | File | `/oauth/idp/.well-known/openid-configuration` | High
-17 | File | `/phppath/php` | Medium
-18 | File | `/plugins/Dashboard/Controller.php` | High
-19 | File | `/server-status` | High
-20 | File | `/uncpath/` | Medium
-21 | File | `?page=about` | Medium
-22 | File | `adclick.php` | Medium
-23 | File | `add_comment.php` | High
-24 | File | `admin-ajax.php` | High
-25 | File | `admin.php` | Medium
-26 | File | `admin/add_user/UID` | High
+16 | File | `/ndmComponents.js` | High
+17 | File | `/oauth/idp/.well-known/openid-configuration` | High
+18 | File | `/phppath/php` | Medium
+19 | File | `/plugins/Dashboard/Controller.php` | High
+20 | File | `/server-status` | High
+21 | File | `/uncpath/` | Medium
+22 | File | `?page=about` | Medium
+23 | File | `adclick.php` | Medium
+24 | File | `add_comment.php` | High
+25 | File | `admin-ajax.php` | High
+26 | File | `admin.php` | Medium
 27 | ... | ... | ...
 
-There are 228 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 231 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

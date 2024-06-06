@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Cobalt Group:
 
+* [GB](https://vuldb.com/?country.gb)
 * [RU](https://vuldb.com/?country.ru)
 * [PL](https://vuldb.com/?country.pl)
-* [PT](https://vuldb.com/?country.pt)
 * ...
 
-There are 10 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -35,7 +35,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-36, CWE-425 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-36, CWE-425 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
@@ -50,69 +50,81 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/academy/home/courses` | High
-2 | File | `/action/import_https_cert_file/` | High
-3 | File | `/admin` | Low
-4 | File | `/admin/admin_login_process.php` | High
-5 | File | `/admin/borrow_add.php` | High
-6 | File | `/admin/contacts/organizations/edit/2` | High
-7 | File | `/admin/course.php` | High
-8 | File | `/admin/curriculum/view_curriculum.php` | High
-9 | File | `/Admin/dashboard.php` | High
-10 | File | `/admin/edit-accepted-appointment.php` | High
-11 | File | `/admin/edit.php` | High
-12 | File | `/admin/edit_category.php` | High
-13 | File | `/admin/edit_subject.php` | High
-14 | File | `/admin/index.php?act=reset_admin_psw` | High
-15 | File | `/admin/list_addr_fwresource_ip.php` | High
-16 | File | `/admin/manage-users.php` | High
-17 | File | `/admin/modal_add_product.php` | High
-18 | File | `/admin/order.php` | High
-19 | File | `/admin/pages/edit_chicken.php` | High
-20 | File | `/admin/pages/subjects.php` | High
-21 | File | `/admin/sales/view_details.php` | High
-22 | File | `/admin/service.php` | High
-23 | File | `/admin/test_status.php` | High
-24 | File | `/admin/theme-edit.php` | High
-25 | File | `/adminapi/system/file/openfile` | High
-26 | File | `/ample/app/ajax/member_data.php` | High
-27 | File | `/api/wechat/app_auth` | High
-28 | File | `/application/pay/controller/Api.php` | High
-29 | File | `/asms/classes/Master.php?f=delete_img` | High
-30 | File | `/assets/php/upload.php` | High
-31 | File | `/catcompany.php` | High
-32 | File | `/cgi-bin/cstecgi.cgi` | High
-33 | File | `/classes/Master.php?f=save_item` | High
-34 | File | `/classes/Users.php` | High
-35 | File | `/cms/notify` | Medium
-36 | File | `/dashboard/message` | High
-37 | File | `/depotHead/list` | High
-38 | File | `/device/signin` | High
-39 | File | `/devinfo` | Medium
-40 | File | `/fusiondirectory/index.php` | High
-41 | File | `/general/attendance/manage/ask_duty/delete.php` | High
-42 | File | `/general/ipanel/menu_code.php?MENU_TYPE=FAV` | High
-43 | File | `/goform/addressNat` | High
-44 | File | `/goform/RGFirewallEL` | High
-45 | File | `/goform/SetOnlineDevName` | High
-46 | File | `/goform/WifiBasicSet` | High
-47 | File | `/goform/wifiSSIDset` | High
-48 | File | `/h/` | Low
-49 | File | `/HNAP1` | Low
-50 | File | `/hslist` | Low
-51 | File | `/importexport.php` | High
-52 | File | `/include/dialog/select_templets_post.php` | High
-53 | File | `/index.jsp#settings` | High
-54 | File | `/index.php/sysmanage/Login/login_auth/` | High
-55 | File | `/index.php?page=member` | High
-56 | File | `/js/player/dmplayer/dmku/index.php` | High
-57 | File | `/lists/admin/` | High
-58 | File | `/log/decodmail.php` | High
-59 | File | `/login/index.php` | High
-60 | File | `/LoginRegistration.php` | High
-61 | ... | ... | ...
+1 | File | `.github/workflows/combine-prs.yml` | High
+2 | File | `/academy/home/courses` | High
+3 | File | `/action/import_https_cert_file/` | High
+4 | File | `/admin/action/new-feed.php` | High
+5 | File | `/admin/admin_login_process.php` | High
+6 | File | `/admin/book_add.php` | High
+7 | File | `/admin/borrow_add.php` | High
+8 | File | `/admin/cms_admin.php` | High
+9 | File | `/admin/conferences/list/` | High
+10 | File | `/admin/contacts/organizations/edit/2` | High
+11 | File | `/admin/course.php` | High
+12 | File | `/admin/curriculum/view_curriculum.php` | High
+13 | File | `/Admin/dashboard.php` | High
+14 | File | `/admin/edit-accepted-appointment.php` | High
+15 | File | `/admin/edit.php` | High
+16 | File | `/admin/edit_category.php` | High
+17 | File | `/admin/edit_subject.php` | High
+18 | File | `/admin/index.php` | High
+19 | File | `/admin/index.php?act=reset_admin_psw` | High
+20 | File | `/admin/index3.php` | High
+21 | File | `/admin/list_addr_fwresource_ip.php` | High
+22 | File | `/admin/manage-users.php` | High
+23 | File | `/admin/modal_add_product.php` | High
+24 | File | `/Admin/News.php` | High
+25 | File | `/admin/order.php` | High
+26 | File | `/admin/pages/edit_chicken.php` | High
+27 | File | `/admin/pages/subjects.php` | High
+28 | File | `/admin/sales/view_details.php` | High
+29 | File | `/admin/service.php` | High
+30 | File | `/admin/students/manage_academic.php` | High
+31 | File | `/admin/test_status.php` | High
+32 | File | `/admin/theme-edit.php` | High
+33 | File | `/admin/view_sendlist.php` | High
+34 | File | `/adminapi/system/crud` | High
+35 | File | `/adminapi/system/file/openfile` | High
+36 | File | `/ample/app/ajax/member_data.php` | High
+37 | File | `/api/wechat/app_auth` | High
+38 | File | `/app/index/controller/Common.php` | High
+39 | File | `/application/index/common.php` | High
+40 | File | `/application/index/controller/Databasesource.php` | High
+41 | File | `/application/index/controller/Icon.php` | High
+42 | File | `/application/pay/controller/Api.php` | High
+43 | File | `/asms/classes/Master.php?f=delete_img` | High
+44 | File | `/assets/php/upload.php` | High
+45 | File | `/auth/user/all.api` | High
+46 | File | `/blog` | Low
+47 | File | `/cgi-bin/cstecgi.cgi` | High
+48 | File | `/cgi-bin/vitogate.cgi` | High
+49 | File | `/classes/Master.php` | High
+50 | File | `/classes/Master.php?f=save_inquiry` | High
+51 | File | `/classes/Master.php?f=save_item` | High
+52 | File | `/classes/Users.php` | High
+53 | File | `/classes/Users.php?f=save` | High
+54 | File | `/cms/notify` | Medium
+55 | File | `/dashboard/message` | High
+56 | File | `/depotHead/list` | High
+57 | File | `/device/signin` | High
+58 | File | `/devinfo` | Medium
+59 | File | `/dipam/save-delegates.php` | High
+60 | File | `/fusiondirectory/index.php` | High
+61 | File | `/general/attendance/manage/ask_duty/delete.php` | High
+62 | File | `/general/email/outbox/delete.php` | High
+63 | File | `/general/ipanel/menu_code.php?MENU_TYPE=FAV` | High
+64 | File | `/goform/addressNat` | High
+65 | File | `/goform/RGFirewallEL` | High
+66 | File | `/goform/SetOnlineDevName` | High
+67 | File | `/goform/WifiBasicSet` | High
+68 | File | `/goform/wifiSSIDset` | High
+69 | File | `/h/` | Low
+70 | File | `/HNAP1` | Low
+71 | File | `/hslist` | Low
+72 | File | `/importexport.php` | High
+73 | ... | ... | ...
 
-There are 536 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 643 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

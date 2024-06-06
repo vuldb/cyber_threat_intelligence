@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with France Unknown:
 
-* [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
-* [IO](https://vuldb.com/?country.io)
+* [RU](https://vuldb.com/?country.ru)
+* [PL](https://vuldb.com/?country.pl)
 * ...
 
-There are 20 more country items available. Please use our online service to access the data.
+There are 15 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -11539,9 +11539,32 @@ ID | IP address | Hostname | Campaign | Confidence
 11516 | [51.159.88.90](https://vuldb.com/?ip.51.159.88.90) | box.ecirtap.xyz | - | High
 11517 | [51.159.88.92](https://vuldb.com/?ip.51.159.88.92) | wiv8qb.stackhero-network.com | - | High
 11518 | [51.159.88.96](https://vuldb.com/?ip.51.159.88.96) | yrx5xj.stackhero-network.com | - | High
-11519 | ... | ... | ... | ...
+11519 | [51.159.88.98](https://vuldb.com/?ip.51.159.88.98) | 7344jz.stackhero-network.com | - | High
+11520 | [51.159.88.100](https://vuldb.com/?ip.51.159.88.100) | 51-159-88-100.rev.poneytelecom.eu | - | High
+11521 | [51.159.88.104](https://vuldb.com/?ip.51.159.88.104) | 51-159-88-104.rev.poneytelecom.eu | - | High
+11522 | [51.159.88.112](https://vuldb.com/?ip.51.159.88.112) | 51-159-88-112.rev.poneytelecom.eu | - | High
+11523 | [51.159.88.128](https://vuldb.com/?ip.51.159.88.128) | 51-159-88-128.rev.poneytelecom.eu | - | High
+11524 | [51.159.88.144](https://vuldb.com/?ip.51.159.88.144) | 51-159-88-144.rev.poneytelecom.eu | - | High
+11525 | [51.159.88.147](https://vuldb.com/?ip.51.159.88.147) | 51-159-88-147.rev.poneytelecom.eu | - | High
+11526 | [51.159.88.148](https://vuldb.com/?ip.51.159.88.148) | 51-159-88-148.rev.poneytelecom.eu | - | High
+11527 | [51.159.88.152](https://vuldb.com/?ip.51.159.88.152) | 51-159-88-152.rev.poneytelecom.eu | - | High
+11528 | [51.159.88.160](https://vuldb.com/?ip.51.159.88.160) | 51-159-88-160.rev.poneytelecom.eu | - | High
+11529 | [51.159.88.192](https://vuldb.com/?ip.51.159.88.192) | 51-159-88-192.rev.poneytelecom.eu | - | High
+11530 | [51.159.88.200](https://vuldb.com/?ip.51.159.88.200) | 51-159-88-200.rev.poneytelecom.eu | - | High
+11531 | [51.159.88.202](https://vuldb.com/?ip.51.159.88.202) | 51-159-88-202.rev.poneytelecom.eu | - | High
+11532 | [51.159.88.204](https://vuldb.com/?ip.51.159.88.204) | 51-159-88-204.rev.poneytelecom.eu | - | High
+11533 | [51.159.88.208](https://vuldb.com/?ip.51.159.88.208) | dev01.dotsha.com | - | High
+11534 | [51.159.88.211](https://vuldb.com/?ip.51.159.88.211) | 51-159-88-211.rev.poneytelecom.eu | - | High
+11535 | [51.159.88.212](https://vuldb.com/?ip.51.159.88.212) | 51-159-88-212.rev.poneytelecom.eu | - | High
+11536 | [51.159.88.216](https://vuldb.com/?ip.51.159.88.216) | 51-159-88-216.rev.poneytelecom.eu | - | High
+11537 | [51.159.88.218](https://vuldb.com/?ip.51.159.88.218) | 51-159-88-218.rev.poneytelecom.eu | - | High
+11538 | [51.159.88.220](https://vuldb.com/?ip.51.159.88.220) | conf2.staging.livee.com | - | High
+11539 | [51.159.88.224](https://vuldb.com/?ip.51.159.88.224) | armoirelec.com | - | High
+11540 | [51.159.88.240](https://vuldb.com/?ip.51.159.88.240) | 51-159-88-240.rev.poneytelecom.eu | - | High
+11541 | [51.159.88.242](https://vuldb.com/?ip.51.159.88.242) | 51-159-88-242.rev.poneytelecom.eu | - | High
+11542 | ... | ... | ... | ...
 
-There are 46070 more IOC items available. Please use our online service to access the data.
+There are 46163 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -11549,14 +11572,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-36 | Path Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+1 | T1006 | CWE-22, CWE-23 | Path Traversal | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-94 | Argument Injection | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 15 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -11564,61 +11586,33 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.alerts-security.alerts-{space_id}` | High
-2 | File | `/#ilang=DE&b=c_smartenergy_swgroups` | High
-3 | File | `/Account/login.php` | High
-4 | File | `/admin.php/appcenter/local.html?type=addon` | High
-5 | File | `/admin/` | Low
-6 | File | `/admin/app/product.php` | High
-7 | File | `/admin/app/service_crud.php` | High
-8 | File | `/admin/edit-admin.php` | High
-9 | File | `/admin/edit_supplier.php` | High
-10 | File | `/admin/list_ipAddressPolicy.php` | High
-11 | File | `/admin/login.php` | High
-12 | File | `/Admin/login.php` | High
-13 | File | `/admin/operations/expense_category.php` | High
-14 | File | `/admin/view_sendlist.php` | High
-15 | File | `/adminapi/system/crud` | High
-16 | File | `/adminapi/system/file/openfile` | High
-17 | File | `/admin_route/dec_service_credits.php` | High
-18 | File | `/ajax-api.php` | High
-19 | File | `/api/controllers/admin/app/AppController.php` | High
-20 | File | `/api/controllers/common/UploadsController.php` | High
-21 | File | `/api/controllers/merchant/app/ComboController.php` | High
-22 | File | `/api/controllers/merchant/design/MaterialController.php` | High
-23 | File | `/api/controllers/merchant/shop/PosterController.php` | High
-24 | File | `/api/v4/teams//channels/deleted` | High
-25 | File | `/app/admin/controller/Upload.php` | High
-26 | File | `/app/ajax/search_sales_report.php` | High
-27 | File | `/app/controller/Setup.php` | High
-28 | File | `/app/middleware/TokenVerify.php` | High
-29 | File | `/application/index/controller/Databasesource.php` | High
-30 | File | `/application/index/controller/Icon.php` | High
-31 | File | `/application/index/controller/Pay.php` | High
-32 | File | `/application/index/controller/Screen.php` | High
-33 | File | `/application/index/controller/Unity.php` | High
-34 | File | `/application/websocket/controller/Setting.php` | High
-35 | File | `/assets/php/upload.php` | High
-36 | File | `/cancel.php` | Medium
-37 | File | `/category.php` | High
-38 | File | `/cgi-bin/cstecgi.cgi` | High
-39 | File | `/customer_support/index.php` | High
-40 | File | `/dashboard/message` | High
-41 | File | `/devinfo` | Medium
-42 | File | `/download` | Medium
-43 | File | `/Employer/EditProfile.php` | High
-44 | File | `/Employer/ManageWalkin.php` | High
-45 | File | `/endpoint/add-computer.php` | High
-46 | File | `/endpoint/add-faq.php` | High
-47 | File | `/endpoint/delete-computer.php` | High
-48 | File | `/endpoint/update-resident.php` | High
-49 | File | `/endpoint/update-tracker.php` | High
-50 | File | `/etc/passwd` | Medium
-51 | File | `/filex/proxy-download` | High
-52 | File | `/forum/away.php` | High
-53 | ... | ... | ...
+1 | File | `/+CSCOE+/logon.html` | High
+2 | File | `/Admin/changepassword.php` | High
+3 | File | `/admin/court` | Medium
+4 | File | `/Admin/createClass.php` | High
+5 | File | `/admin/general-setting` | High
+6 | File | `/admin/maintenance/manage_brand.php` | High
+7 | File | `/admin/problem_judge.php` | High
+8 | File | `/admin/service` | High
+9 | File | `/blog/blog.php` | High
+10 | File | `/catalog/admin/categories.php?cPath=&action=new_product` | High
+11 | File | `/catalog/all-products` | High
+12 | File | `/cgi-bin/nas_sharing.cgi` | High
+13 | File | `/cgi-bin/system_mgr.cgi` | High
+14 | File | `/changePassword` | High
+15 | File | `/classes/Master.php?f=view_item` | High
+16 | File | `/classes/Users.php?f=save` | High
+17 | File | `/College/admin/teacher.php` | High
+18 | File | `/conf/app.conf` | High
+19 | File | `/forum/away.php` | High
+20 | File | `/goform/SetRemoteWebCfg` | High
+21 | File | `/goform/SetSysTimeCfg` | High
+22 | File | `/importhtml.php` | High
+23 | File | `/index.php` | Medium
+24 | File | `/lesson/controller.php` | High
+25 | ... | ... | ...
 
-There are 461 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 213 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -11627,6 +11621,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://github.com/firehol/blocklist-ipsets/blob/master/geolite2_country/country_fr.netset
 * https://github.com/firehol/blocklist-ipsets/blob/master/geolite2_country/country_gb.netset
 * https://github.com/firehol/blocklist-ipsets/blob/master/ip2location_country/ip2location_country_fr.netset
+* https://github.com/scriptzteam/Private-Internet-Access-VPN-Servers/blob/main/export.csv
 * https://raw.githubusercontent.com/firehol/blocklist-ipsets/master/ipip_country/ipip_country_fr.netset
 
 ## Literature

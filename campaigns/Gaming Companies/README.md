@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [MS](https://vuldb.com/?country.ms)
 * [HK](https://vuldb.com/?country.hk)
-* [US](https://vuldb.com/?country.us)
+* [KR](https://vuldb.com/?country.kr)
 * ...
 
 There are 3 more country items available. Please use our online service to access the data.
@@ -59,7 +59,7 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94 | Argument Injection | High
 5 | ... | ... | ... | ...
 
@@ -73,26 +73,26 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/.ssh/authorized_keys` | High
 2 | File | `/adfs/ls` | Medium
-3 | File | `/baseOpLog.do` | High
-4 | File | `/bitrix/admin/ldap_server_edit.php` | High
-5 | File | `/cdsms/classes/Master.php?f=delete_enrollment` | High
-6 | File | `/cgi-bin/api-get_line_status` | High
-7 | File | `/cgi-bin/wapopen` | High
-8 | File | `/config/getuser` | High
-9 | File | `/controller/OnlinePreviewController.java` | High
-10 | File | `/export` | Low
-11 | File | `/getcfg.php` | Medium
-12 | File | `/includes/rrdtool.inc.php` | High
-13 | File | `/mifs/c/i/reg/reg.html` | High
-14 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-15 | File | `/pages/systemcall.php?command={COMMAND}` | High
-16 | File | `/server-info` | Medium
-17 | File | `/system/dept/edit` | High
-18 | File | `/uncpath/` | Medium
-19 | File | `/updown/upload.cgi` | High
+3 | File | `/admin.php?p=/Area/index#tab=t2` | High
+4 | File | `/baseOpLog.do` | High
+5 | File | `/bitrix/admin/ldap_server_edit.php` | High
+6 | File | `/cdsms/classes/Master.php?f=delete_enrollment` | High
+7 | File | `/cgi-bin/api-get_line_status` | High
+8 | File | `/cgi-bin/wapopen` | High
+9 | File | `/config/getuser` | High
+10 | File | `/controller/OnlinePreviewController.java` | High
+11 | File | `/export` | Low
+12 | File | `/getcfg.php` | Medium
+13 | File | `/includes/rrdtool.inc.php` | High
+14 | File | `/mifs/c/i/reg/reg.html` | High
+15 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+16 | File | `/pages/systemcall.php?command={COMMAND}` | High
+17 | File | `/server-info` | Medium
+18 | File | `/system/dept/edit` | High
+19 | File | `/uncpath/` | Medium
 20 | ... | ... | ...
 
-There are 164 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 167 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

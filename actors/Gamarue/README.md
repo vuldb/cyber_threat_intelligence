@@ -85,24 +85,24 @@ ID | Type | Indicator | Confidence
 18 | File | `/librarian/bookdetails.php` | High
 19 | File | `/log/decodmail.php` | High
 20 | File | `/lookin/info` | Medium
-21 | File | `/plugins/servlet/jira-blockers/` | High
-22 | File | `/ptipupgrade.cgi` | High
-23 | File | `/public/login.htm` | High
-24 | File | `/register.do` | Medium
-25 | File | `/sessions/sess_<sessionid>` | High
-26 | File | `/sysmanage/edit_manageadmin.php` | High
-27 | File | `/themes/<php_file_name>` | High
-28 | File | `/tmp/speedtest_urls.xml` | High
-29 | File | `/uncpath/` | Medium
-30 | File | `/upload` | Low
-31 | File | `/var/log/nginx` | High
-32 | File | `/wbg/core/_includes/authorization.inc.php` | High
-33 | File | `/wp-admin/admin.php` | High
+21 | File | `/manage_inv.php` | High
+22 | File | `/plugins/servlet/jira-blockers/` | High
+23 | File | `/ptipupgrade.cgi` | High
+24 | File | `/public/login.htm` | High
+25 | File | `/register.do` | Medium
+26 | File | `/sessions/sess_<sessionid>` | High
+27 | File | `/sysmanage/edit_manageadmin.php` | High
+28 | File | `/themes/<php_file_name>` | High
+29 | File | `/tmp/speedtest_urls.xml` | High
+30 | File | `/uncpath/` | Medium
+31 | File | `/upload` | Low
+32 | File | `/var/log/nginx` | High
+33 | File | `/wbg/core/_includes/authorization.inc.php` | High
 34 | File | `/wp-content/plugins/updraftplus/admin.php` | High
 35 | File | `adclick.php` | Medium
 36 | ... | ... | ...
 
-There are 304 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 305 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

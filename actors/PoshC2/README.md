@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with PoshC2:
 
 * [US](https://vuldb.com/?country.us)
-* [CN](https://vuldb.com/?country.cn)
 * [RU](https://vuldb.com/?country.ru)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 8 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -28,9 +28,10 @@ ID | IP address | Hostname | Campaign | Confidence
 5 | [18.134.14.164](https://vuldb.com/?ip.18.134.14.164) | ec2-18-134-14-164.eu-west-2.compute.amazonaws.com | - | Medium
 6 | [35.80.38.180](https://vuldb.com/?ip.35.80.38.180) | ec2-35-80-38-180.us-west-2.compute.amazonaws.com | - | Medium
 7 | [35.202.253.45](https://vuldb.com/?ip.35.202.253.45) | 45.253.202.35.bc.googleusercontent.com | - | Medium
-8 | ... | ... | ... | ...
+8 | [45.79.196.203](https://vuldb.com/?ip.45.79.196.203) | 45-79-196-203.ip.linodeusercontent.com | - | High
+9 | ... | ... | ... | ...
 
-There are 28 more IOC items available. Please use our online service to access the data.
+There are 32 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -41,9 +42,10 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
-4 | ... | ... | ... | ...
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -53,22 +55,33 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/config/uploadicon.php` | High
 2 | File | `/admin/del_feedback.php` | High
-3 | File | `/cms/category/list` | High
-4 | File | `/inquiries/view_inquiry.php` | High
-5 | File | `/Login` | Low
-6 | File | `/product/savenewproduct.php?flag=1` | High
-7 | File | `/search` | Low
-8 | File | `/start_apply.htm` | High
-9 | File | `/sysmanage/updatelib.php` | High
-10 | File | `/thruk/#cgi-bin/extinfo.cgi?type=2` | High
-11 | File | `/var/log/nginx` | High
-12 | File | `booking.php` | Medium
-13 | File | `browse-category.php` | High
-14 | File | `BSW_cxttongr.htm` | High
-15 | File | `cat.asp` | Low
-16 | ... | ... | ...
+3 | File | `/admin/login.php` | High
+4 | File | `/app/Http/Controllers/Admin/NEditorController.php` | High
+5 | File | `/cms/category/list` | High
+6 | File | `/inquiries/view_inquiry.php` | High
+7 | File | `/Login` | Low
+8 | File | `/mgmt/tm/util/bash` | High
+9 | File | `/mifs/c/i/reg/reg.html` | High
+10 | File | `/product/savenewproduct.php?flag=1` | High
+11 | File | `/search` | Low
+12 | File | `/secure/ViewCollectors` | High
+13 | File | `/Session` | Medium
+14 | File | `/start_apply.htm` | High
+15 | File | `/sysmanage/updatelib.php` | High
+16 | File | `/thruk/#cgi-bin/extinfo.cgi?type=2` | High
+17 | File | `/usr/bin/pkexec` | High
+18 | File | `/var/log/nginx` | High
+19 | File | `/xAdmin/html/cm_doclist_view_uc.jsp` | High
+20 | File | `adclick.php` | Medium
+21 | File | `add_comment.php` | High
+22 | File | `admin/content.php` | High
+23 | File | `booking.php` | Medium
+24 | File | `browse-category.php` | High
+25 | File | `BSW_cxttongr.htm` | High
+26 | File | `cat.asp` | Low
+27 | ... | ... | ...
 
-There are 129 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 224 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -85,12 +98,14 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/79.143.181.62
 * https://search.censys.io/hosts/88.210.9.139
 * https://search.censys.io/hosts/94.23.228.43
+* https://search.censys.io/hosts/139.84.149.193
 * https://search.censys.io/hosts/139.84.172.20
 * https://search.censys.io/hosts/157.245.128.27
 * https://search.censys.io/hosts/159.100.29.105
 * https://search.censys.io/hosts/161.35.21.152
 * https://search.censys.io/hosts/164.90.183.39
 * https://search.censys.io/hosts/165.227.246.129
+* https://search.censys.io/hosts/176.119.159.177
 * https://search.censys.io/hosts/184.72.153.18
 * https://search.censys.io/hosts/185.167.63.27
 * https://search.censys.io/hosts/185.234.216.64

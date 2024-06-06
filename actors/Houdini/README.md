@@ -28,7 +28,7 @@ ID | IP address | Hostname | Campaign | Confidence
 5 | [45.90.222.131](https://vuldb.com/?ip.45.90.222.131) | 45-90-222-131-hostedby.bcr.host | - | High
 6 | ... | ... | ... | ...
 
-There are 18 more IOC items available. Please use our online service to access the data.
+There are 22 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -37,7 +37,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
-2 | T1055 | CWE-74 | Injection | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
@@ -51,32 +51,40 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/Admin/add-student.php` | High
-2 | File | `/admin/inquiries/view_details.php` | High
-3 | File | `/Admin/login.php` | High
-4 | File | `/admin/maintenance/view_designation.php` | High
-5 | File | `/admin/transactions/update_status.php` | High
-6 | File | `/AdminDir` | Medium
-7 | File | `/api/user/password/sent-reset-email` | High
-8 | File | `/carbon/ndatasource/validateconnection/ajaxprocessor.jsp` | High
-9 | File | `/coreframe/app/order/admin/index.php` | High
-10 | File | `/debug/pprof` | Medium
-11 | File | `/dev/snd/seq` | Medium
-12 | File | `/etc/sudoers` | Medium
-13 | File | `/forum/away.php` | High
-14 | File | `/products/details.asp` | High
-15 | File | `/showfile.php` | High
-16 | File | `/uncpath/` | Medium
-17 | File | `/usr/www/ja/mnt_cmd.cgi` | High
-18 | File | `/Wedding-Management/package_detail.php` | High
-19 | File | `adclick.php` | Medium
-20 | File | `admin-ajax.php` | High
-21 | File | `admin/abc.php` | High
-22 | File | `admin/news.php` | High
-23 | File | `adminCons.php` | High
-24 | File | `apps\admin\controller\content\SingleController.php` | High
-25 | ... | ... | ...
+2 | File | `/admin/article.php` | High
+3 | File | `/admin/inquiries/view_details.php` | High
+4 | File | `/Admin/login.php` | High
+5 | File | `/admin/maintenance/view_designation.php` | High
+6 | File | `/admin/transactions/update_status.php` | High
+7 | File | `/admin/uesrs.php&action=type&userrole=Admin&userid=3` | High
+8 | File | `/AdminDir` | Medium
+9 | File | `/api/user/password/sent-reset-email` | High
+10 | File | `/carbon/ndatasource/validateconnection/ajaxprocessor.jsp` | High
+11 | File | `/cgi-bin/system_mgr.cgi` | High
+12 | File | `/control/register_case.php` | High
+13 | File | `/coreframe/app/order/admin/index.php` | High
+14 | File | `/debug/pprof` | Medium
+15 | File | `/dev/snd/seq` | Medium
+16 | File | `/etc/sudoers` | Medium
+17 | File | `/forum/away.php` | High
+18 | File | `/index.jsp#settings` | High
+19 | File | `/products/details.asp` | High
+20 | File | `/public/login.htm` | High
+21 | File | `/showfile.php` | High
+22 | File | `/st_reg.php` | Medium
+23 | File | `/uncpath/` | Medium
+24 | File | `/usr/www/ja/mnt_cmd.cgi` | High
+25 | File | `/Wedding-Management/package_detail.php` | High
+26 | File | `adclick.php` | Medium
+27 | File | `add-testimonial.php` | High
+28 | File | `add_edit_user.asp` | High
+29 | File | `admin-ajax.php` | High
+30 | File | `admin/abc.php` | High
+31 | File | `admin/conf_users_edit.php` | High
+32 | File | `admin/news.php` | High
+33 | ... | ... | ...
 
-There are 209 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 278 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

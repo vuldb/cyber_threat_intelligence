@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [DE](https://vuldb.com/?country.de)
 * ...
 
-There are 9 more country items available. Please use our online service to access the data.
+There are 5 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -43,14 +43,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-37 | Path Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-29, CWE-37 | Path Traversal | High
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -58,56 +58,51 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `%SYSTEMDRIVE%\totalcmd\TOTALCMD64.EXE` | High
-2 | File | `/+CSCOE+/logon.html` | High
-3 | File | `/admin/edit-admin.php` | High
-4 | File | `/admin/lab.php` | High
+1 | File | `/admin/edit-admin.php` | High
+2 | File | `/admin/lab.php` | High
+3 | File | `/admin/list_resource_icon.php?action=delete` | High
+4 | File | `/admin/singlelogin.php` | High
 5 | File | `/admin/update_s6.php` | High
-6 | File | `/api/collection/findone` | High
-7 | File | `/api/crontab` | Medium
-8 | File | `/api/geojson` | Medium
-9 | File | `/api/jolokia org.jolokia.http.HttpRequestHandler#handlePostRequest` | High
-10 | File | `/cbs/system/ShowAdvanced.do` | High
-11 | File | `/cgi-bin/editBookmark` | High
-12 | File | `/cgi-bin/loaddata.py` | High
+6 | File | `/api/crontab` | Medium
+7 | File | `/api/geojson` | Medium
+8 | File | `/api/jolokia org.jolokia.http.HttpRequestHandler#handlePostRequest` | High
+9 | File | `/api/sys/login` | High
+10 | File | `/bcms/admin/?page=user/manage_user` | High
+11 | File | `/cbs/system/ShowAdvanced.do` | High
+12 | File | `/cgi-bin/editBookmark` | High
 13 | File | `/cgi-bin/webviewer_login_page` | High
 14 | File | `/cgi/networkDiag.cgi` | High
 15 | File | `/cms/category/list` | High
 16 | File | `/debug` | Low
 17 | File | `/debug/pprof` | Medium
-18 | File | `/DXR.axd` | Medium
-19 | File | `/em/console/logon/logon` | High
-20 | File | `/env` | Low
-21 | File | `/etc/passwd` | Medium
+18 | File | `/designer/add/layout` | High
+19 | File | `/DXR.axd` | Medium
+20 | File | `/em/console/logon/logon` | High
+21 | File | `/env` | Low
 22 | File | `/forum/away.php` | High
 23 | File | `/general/email/inbox/delete_webmail.php` | High
 24 | File | `/goform/setmac` | High
-25 | File | `/goform/setportList` | High
-26 | File | `/goform/setVLAN` | High
-27 | File | `/goform/wlanPrimaryNetwork` | High
-28 | File | `/GponForm/usb_Form?script/` | High
-29 | File | `/inc/jquery/uploadify/uploadify.php` | High
+25 | File | `/goform/SetNetControlList` | High
+26 | File | `/goform/setportList` | High
+27 | File | `/goform/setVLAN` | High
+28 | File | `/inc/jquery/uploadify/uploadify.php` | High
+29 | File | `/list` | Low
 30 | File | `/login` | Low
-31 | File | `/login/index.php` | High
-32 | File | `/modules/profile/index.php` | High
-33 | File | `/net/sched/cls_fw.c` | High
-34 | File | `/search.php` | Medium
-35 | File | `/secure/QueryComponent!Default.jspa` | High
-36 | File | `/spip.php` | Medium
-37 | File | `/sys/dict/queryTableData` | High
-38 | File | `/tmp/before` | Medium
-39 | File | `/User/saveUser` | High
-40 | File | `/userLogin.asp` | High
-41 | File | `/var/WEB-GUI/cgi-bin/downloadfile.cgi` | High
-42 | File | `/WEB-INF/web.xml` | High
-43 | File | `/_vti_pvt/access.cnf` | High
-44 | File | `3/qq_connect2.0/API/class/ErrorCase.class.php` | High
-45 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-46 | File | `admin.php` | Medium
-47 | File | `admin.php?c=update&f=unzip` | High
-48 | ... | ... | ...
+31 | File | `/login.php?m=admin&c=Field&a=channel_edit` | High
+32 | File | `/login/index.php` | High
+33 | File | `/modules/profile/index.php` | High
+34 | File | `/net/sched/cls_fw.c` | High
+35 | File | `/nidp/idff/sso` | High
+36 | File | `/patient/appointment.php` | High
+37 | File | `/registrar/?page=registration` | High
+38 | File | `/search.php` | Medium
+39 | File | `/secure/QueryComponent!Default.jspa` | High
+40 | File | `/ServiceContractDef.do` | High
+41 | File | `/spip.php` | Medium
+42 | File | `/sys/dict/queryTableData` | High
+43 | ... | ... | ...
 
-There are 421 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 374 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

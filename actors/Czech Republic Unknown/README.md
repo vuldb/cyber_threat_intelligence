@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Czech Republic Unknown:
 
-* [CN](https://vuldb.com/?country.cn)
-* [US](https://vuldb.com/?country.us)
-* [CZ](https://vuldb.com/?country.cz)
+* [PL](https://vuldb.com/?country.pl)
+* [RU](https://vuldb.com/?country.ru)
+* [AR](https://vuldb.com/?country.ar)
 * ...
 
-There are 10 more country items available. Please use our online service to access the data.
+There are 8 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -550,9 +550,28 @@ ID | IP address | Hostname | Campaign | Confidence
 527 | [80.65.176.0](https://vuldb.com/?ip.80.65.176.0) | - | - | High
 528 | [80.74.32.0](https://vuldb.com/?ip.80.74.32.0) | - | - | High
 529 | [80.78.136.0](https://vuldb.com/?ip.80.78.136.0) | 0.136.78.80.client.nordic.tel | - | High
-530 | ... | ... | ... | ...
+530 | [80.78.144.0](https://vuldb.com/?ip.80.78.144.0) | - | - | High
+531 | [80.78.242.0](https://vuldb.com/?ip.80.78.242.0) | - | - | High
+532 | [80.79.0.0](https://vuldb.com/?ip.80.79.0.0) | - | - | High
+533 | [80.79.16.0](https://vuldb.com/?ip.80.79.16.0) | - | - | High
+534 | [80.82.144.0](https://vuldb.com/?ip.80.82.144.0) | - | - | High
+535 | [80.82.192.0](https://vuldb.com/?ip.80.82.192.0) | - | - | High
+536 | [80.83.64.0](https://vuldb.com/?ip.80.83.64.0) | - | - | High
+537 | [80.87.176.0](https://vuldb.com/?ip.80.87.176.0) | 80-87-176-0.static.oxid.cz | - | High
+538 | [80.90.128.0](https://vuldb.com/?ip.80.90.128.0) | 80-90-128-0.static.oxid.cz | - | High
+539 | [80.91.242.103](https://vuldb.com/?ip.80.91.242.103) | - | - | High
+540 | [80.92.240.0](https://vuldb.com/?ip.80.92.240.0) | - | - | High
+541 | [80.95.96.0](https://vuldb.com/?ip.80.95.96.0) | - | - | High
+542 | [80.95.240.0](https://vuldb.com/?ip.80.95.240.0) | - | - | High
+543 | [80.150.192.0](https://vuldb.com/?ip.80.150.192.0) | - | - | High
+544 | [80.150.192.8](https://vuldb.com/?ip.80.150.192.8) | - | - | High
+545 | [80.169.186.243](https://vuldb.com/?ip.80.169.186.243) | - | - | High
+546 | [80.188.0.0](https://vuldb.com/?ip.80.188.0.0) | - | - | High
+547 | [80.211.192.0](https://vuldb.com/?ip.80.211.192.0) | - | - | High
+548 | [80.231.214.0](https://vuldb.com/?ip.80.231.214.0) | - | - | High
+549 | ... | ... | ... | ...
 
-There are 2117 more IOC items available. Please use our online service to access the data.
+There are 2192 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -560,14 +579,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-25 | Path Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+1 | T1006 | CWE-22 | Path Traversal | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-94 | Argument Injection | High
+4 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 13 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -575,59 +592,25 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/?p=products` | Medium
-2 | File | `/admin.php/accessory/filesdel.html` | High
-3 | File | `/admin/?page=user/manage` | High
-4 | File | `/admin/add-new.php` | High
-5 | File | `/admin/controller/JobLogController.java` | High
-6 | File | `/admin/doctors.php` | High
-7 | File | `/alphaware/summary.php` | High
-8 | File | `/api/` | Low
-9 | File | `/api/admin/store/product/list` | High
-10 | File | `/api/baskets/{name}` | High
-11 | File | `/api/stl/actions/search` | High
-12 | File | `/api/sys/login` | High
-13 | File | `/api/sys/set_passwd` | High
-14 | File | `/api/trackedEntityInstances` | High
-15 | File | `/api/v2/cli/commands` | High
-16 | File | `/aux` | Low
-17 | File | `/bin/ate` | Medium
-18 | File | `/boat/login.php` | High
-19 | File | `/booking/show_bookings/` | High
-20 | File | `/cgi-bin` | Medium
-21 | File | `/cgi-bin/cstecgi.cgi` | High
-22 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-23 | File | `/cgi-bin/wlogin.cgi` | High
-24 | File | `/cgi/get_param.cgi` | High
-25 | File | `/changePassword` | High
-26 | File | `/Content/Template/root/reverse-shell.aspx` | High
-27 | File | `/dashboard/add-blog.php` | High
-28 | File | `/data/remove` | Medium
-29 | File | `/debug/pprof` | Medium
-30 | File | `/ecshop/admin/template.php` | High
-31 | File | `/env` | Low
-32 | File | `/etc/passwd` | Medium
-33 | File | `/forum/away.php` | High
-34 | File | `/group1/uploa` | High
-35 | File | `/index.php` | Medium
-36 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-37 | File | `/php-sms/admin/?page=user/manage_user` | High
-38 | File | `/reservation/add_message.php` | High
-39 | File | `/resources//../` | High
-40 | File | `/setup/finish` | High
-41 | File | `/shell` | Low
-42 | File | `/spip.php` | Medium
-43 | File | `/testConnection` | High
-44 | File | `/tmp/ppd.trace` | High
-45 | ... | ... | ...
+1 | File | `/catalog/all-products` | High
+2 | File | `/changePassword` | High
+3 | File | `/control/register_case.php` | High
+4 | File | `/forum/away.php` | High
+5 | File | `/goform/addIpMacBind` | High
+6 | File | `/goform/DelDhcpRule` | High
+7 | File | `/goform/delIpMacBind` | High
+8 | File | `/goform/DelPortMapping` | High
+9 | File | `/goform/modifyDhcpRule` | High
+10 | ... | ... | ...
 
-There are 386 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 78 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://github.com/firehol/blocklist-ipsets/blob/master/ipip_country/ipip_country_cz.netset
+* https://github.com/scriptzteam/Private-Internet-Access-VPN-Servers/blob/main/export.csv
 
 ## Literature
 

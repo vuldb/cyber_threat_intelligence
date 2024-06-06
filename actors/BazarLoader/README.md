@@ -72,11 +72,11 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1059 | CWE-94 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+4 | T1059 | CWE-94 | Argument Injection | High
 5 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 15 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -85,21 +85,22 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `//proc/kcore` | Medium
-2 | File | `/api` | Low
-3 | File | `/api/sys_username_passwd.cmd` | High
-4 | File | `/forum/away.php` | High
-5 | File | `/home/cavesConsole` | High
-6 | File | `/inc/parser/xhtml.php` | High
-7 | File | `/include/makecvs.php` | High
-8 | File | `/PluXml/core/admin/parametres_edittpl.php` | High
-9 | File | `/requests.php` | High
-10 | File | `/usr/local/psa/admin/sbin/wrapper` | High
-11 | File | `/wp-admin/admin.php?page=wp_file_manager_properties` | High
-12 | File | `add.php` | Low
-13 | File | `admin/admin.shtml` | High
-14 | ... | ... | ...
+2 | File | `/Admin/login.php` | High
+3 | File | `/api` | Low
+4 | File | `/api/sys_username_passwd.cmd` | High
+5 | File | `/forum/away.php` | High
+6 | File | `/home/cavesConsole` | High
+7 | File | `/inc/parser/xhtml.php` | High
+8 | File | `/include/makecvs.php` | High
+9 | File | `/PluXml/core/admin/parametres_edittpl.php` | High
+10 | File | `/requests.php` | High
+11 | File | `/usr/local/psa/admin/sbin/wrapper` | High
+12 | File | `/wp-admin/admin.php?page=wp_file_manager_properties` | High
+13 | File | `add.php` | Low
+14 | File | `admin/admin.shtml` | High
+15 | ... | ... | ...
 
-There are 115 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 117 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

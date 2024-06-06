@@ -31,27 +31,29 @@ ID | IP address | Hostname | Campaign | Confidence
 12 | [3.141.177.1](https://vuldb.com/?ip.3.141.177.1) | ec2-3-141-177-1.us-east-2.compute.amazonaws.com | - | Medium
 13 | [3.142.81.166](https://vuldb.com/?ip.3.142.81.166) | ec2-3-142-81-166.us-east-2.compute.amazonaws.com | - | Medium
 14 | [8.130.11.62](https://vuldb.com/?ip.8.130.11.62) | - | - | High
-15 | [13.58.157.220](https://vuldb.com/?ip.13.58.157.220) | ec2-13-58-157-220.us-east-2.compute.amazonaws.com | - | Medium
-16 | [18.158.249.75](https://vuldb.com/?ip.18.158.249.75) | ec2-18-158-249-75.eu-central-1.compute.amazonaws.com | - | Medium
-17 | [18.189.106.45](https://vuldb.com/?ip.18.189.106.45) | ec2-18-189-106-45.us-east-2.compute.amazonaws.com | - | Medium
-18 | [18.192.31.165](https://vuldb.com/?ip.18.192.31.165) | ec2-18-192-31-165.eu-central-1.compute.amazonaws.com | - | Medium
-19 | [23.106.215.217](https://vuldb.com/?ip.23.106.215.217) | - | - | High
-20 | [23.225.73.110](https://vuldb.com/?ip.23.225.73.110) | - | - | High
-21 | [23.251.41.162](https://vuldb.com/?ip.23.251.41.162) | - | - | High
-22 | [38.47.204.154](https://vuldb.com/?ip.38.47.204.154) | - | - | High
-23 | [38.181.20.78](https://vuldb.com/?ip.38.181.20.78) | - | - | High
-24 | [38.181.58.21](https://vuldb.com/?ip.38.181.58.21) | uhn19.pm.com | - | High
-25 | [39.109.113.141](https://vuldb.com/?ip.39.109.113.141) | - | - | High
-26 | [42.237.24.42](https://vuldb.com/?ip.42.237.24.42) | hn.kd.ny.adsl | - | High
-27 | [42.237.25.52](https://vuldb.com/?ip.42.237.25.52) | hn.kd.ny.adsl | - | High
-28 | [43.129.192.59](https://vuldb.com/?ip.43.129.192.59) | - | - | High
-29 | [43.136.78.18](https://vuldb.com/?ip.43.136.78.18) | - | - | High
-30 | [43.142.38.153](https://vuldb.com/?ip.43.142.38.153) | - | - | High
-31 | [43.248.129.152](https://vuldb.com/?ip.43.248.129.152) | - | - | High
-32 | [43.248.137.153](https://vuldb.com/?ip.43.248.137.153) | - | - | High
-33 | ... | ... | ... | ...
+15 | [8.210.206.52](https://vuldb.com/?ip.8.210.206.52) | - | - | High
+16 | [8.217.223.172](https://vuldb.com/?ip.8.217.223.172) | - | - | High
+17 | [13.58.157.220](https://vuldb.com/?ip.13.58.157.220) | ec2-13-58-157-220.us-east-2.compute.amazonaws.com | - | Medium
+18 | [18.158.249.75](https://vuldb.com/?ip.18.158.249.75) | ec2-18-158-249-75.eu-central-1.compute.amazonaws.com | - | Medium
+19 | [18.189.106.45](https://vuldb.com/?ip.18.189.106.45) | ec2-18-189-106-45.us-east-2.compute.amazonaws.com | - | Medium
+20 | [18.192.31.165](https://vuldb.com/?ip.18.192.31.165) | ec2-18-192-31-165.eu-central-1.compute.amazonaws.com | - | Medium
+21 | [23.106.215.217](https://vuldb.com/?ip.23.106.215.217) | - | - | High
+22 | [23.225.73.110](https://vuldb.com/?ip.23.225.73.110) | - | - | High
+23 | [23.251.41.162](https://vuldb.com/?ip.23.251.41.162) | - | - | High
+24 | [27.25.156.47](https://vuldb.com/?ip.27.25.156.47) | - | - | High
+25 | [38.47.204.154](https://vuldb.com/?ip.38.47.204.154) | - | - | High
+26 | [38.181.20.78](https://vuldb.com/?ip.38.181.20.78) | - | - | High
+27 | [38.181.58.21](https://vuldb.com/?ip.38.181.58.21) | uhn19.pm.com | - | High
+28 | [39.109.113.141](https://vuldb.com/?ip.39.109.113.141) | - | - | High
+29 | [42.237.24.42](https://vuldb.com/?ip.42.237.24.42) | hn.kd.ny.adsl | - | High
+30 | [42.237.25.52](https://vuldb.com/?ip.42.237.25.52) | hn.kd.ny.adsl | - | High
+31 | [43.129.192.59](https://vuldb.com/?ip.43.129.192.59) | - | - | High
+32 | [43.136.78.18](https://vuldb.com/?ip.43.136.78.18) | - | - | High
+33 | [43.139.48.143](https://vuldb.com/?ip.43.139.48.143) | - | - | High
+34 | [43.142.38.153](https://vuldb.com/?ip.43.142.38.153) | - | - | High
+35 | ... | ... | ... | ...
 
-There are 126 more IOC items available. Please use our online service to access the data.
+There are 136 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -59,12 +61,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059 | CWE-94 | Argument Injection | High
-4 | ... | ... | ... | ...
+3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -72,25 +75,27 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin.php` | Medium
-2 | File | `/admin/list_ipAddressPolicy.php` | High
-3 | File | `/api /v3/auth` | High
-4 | File | `/bin/sh` | Low
-5 | File | `/cgi-bin/cstecgi.cgi` | High
-6 | File | `/cgi-bin/nobody/VerifyCode.cgi` | High
-7 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-8 | File | `/cgi.cgi` | Medium
-9 | File | `/counter/index2.php` | High
-10 | File | `/data/remove` | Medium
-11 | File | `/goform/SetStaticRouteCfg` | High
-12 | File | `/modx/manager/index.php` | High
-13 | File | `/ossim/report/wizard_email.php` | High
-14 | File | `/search-result/` | High
-15 | File | `/search.php` | Medium
-16 | File | `/sgms/reports/scheduledreports/configure/scheduleProps.jsp` | High
-17 | ... | ... | ...
+1 | File | `/admin.php?p=/Area/index#tab=t2` | High
+2 | File | `/admin/students.php` | High
+3 | File | `/adminPage/www/addOver` | High
+4 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+5 | File | `/dataSet/testTransform;swagger-ui` | High
+6 | File | `/dayrui/Fcms/View/system_log.html` | High
+7 | File | `/dayrui/My/View/main.html` | High
+8 | File | `/goform/WriteFacMac` | High
+9 | File | `/htdocs/cgibin` | High
+10 | File | `/module/comment/save` | High
+11 | File | `/new_item` | Medium
+12 | File | `/root` | Low
+13 | File | `/scripts/unlock_tasks.php` | High
+14 | File | `/servicedesk/customer/portals` | High
+15 | File | `/sysmanage/sysmanageajax.php` | High
+16 | File | `/upload/localhost` | High
+17 | File | `/view/student_payment_details4.php` | High
+18 | File | `account/login.php` | High
+19 | ... | ... | ...
 
-There are 138 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 153 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -107,14 +112,17 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/8.130.11.62
 * https://search.censys.io/hosts/43.136.78.18
 * https://search.censys.io/hosts/43.248.137.153
+* https://search.censys.io/hosts/60.165.248.206
 * https://search.censys.io/hosts/61.147.93.153
 * https://search.censys.io/hosts/61.147.199.238
 * https://search.censys.io/hosts/85.214.255.25
 * https://search.censys.io/hosts/101.43.129.115
 * https://search.censys.io/hosts/103.45.128.143
 * https://search.censys.io/hosts/103.148.245.125
+* https://search.censys.io/hosts/103.149.92.234
 * https://search.censys.io/hosts/103.165.81.82
 * https://search.censys.io/hosts/106.52.216.65
+* https://search.censys.io/hosts/112.123.63.87
 * https://search.censys.io/hosts/116.63.35.42
 * https://search.censys.io/hosts/121.5.136.143
 * https://search.censys.io/hosts/121.22.243.241
@@ -128,6 +136,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/149.88.73.191
 * https://search.censys.io/hosts/154.23.141.34
 * https://search.censys.io/hosts/156.224.27.167
+* https://search.censys.io/hosts/180.97.238.152
 * https://search.censys.io/hosts/180.97.238.254
 * https://search.censys.io/hosts/202.63.172.122
 * https://search.censys.io/hosts/211.101.247.155

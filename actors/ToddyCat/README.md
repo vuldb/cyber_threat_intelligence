@@ -24,8 +24,11 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [45.76.78.237](https://vuldb.com/?ip.45.76.78.237) | 45.76.78.237.vultrusercontent.com | - | High
-2 | [137.220.40.10](https://vuldb.com/?ip.137.220.40.10) | 137.220.40.10.vultrusercontent.com | - | High
-3 | [149.28.28.159](https://vuldb.com/?ip.149.28.28.159) | 149.28.28.159.vultrusercontent.com | Ninja | High
+2 | [103.27.202.85](https://vuldb.com/?ip.103.27.202.85) | 103-27-202-85.static.bangmod-idc.com | - | High
+3 | [118.193.40.42](https://vuldb.com/?ip.118.193.40.42) | - | - | High
+4 | ... | ... | ... | ...
+
+There are 2 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -33,12 +36,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Pathname Traversal | High
-2 | T1059 | CWE-94 | Cross Site Scripting | High
-3 | T1068 | CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+1 | T1006 | CWE-22 | Path Traversal | High
+2 | T1059 | CWE-94 | Argument Injection | High
+3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 2 more TTP items available. Please use our online service to access the data.
+There are 6 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -46,18 +49,20 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `inc/config.php` | High
-2 | File | `list.php` | Medium
-3 | File | `plus/recommend.php` | High
-4 | ... | ... | ...
+1 | File | `/api/baskets/{name}` | High
+2 | File | `archiver\index.php` | High
+3 | File | `awstats.pl` | Medium
+4 | File | `classified_right.php` | High
+5 | ... | ... | ...
 
-There are 9 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 28 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://1275.ru/ioc/360/toddycat-apt-iocs/
+* https://securelist.com/toddycat-traffic-tunneling-data-extraction-tools/112443/
 * https://securelist.com/toddycat/106799/
 
 ## Literature

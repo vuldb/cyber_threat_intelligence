@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [FR](https://vuldb.com/?country.fr)
 * ...
 
-There are 7 more country items available. Please use our online service to access the data.
+There are 8 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -22,11 +22,11 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [85.209.176.46](https://vuldb.com/?ip.85.209.176.46) | - | - | High
-2 | [194.55.224.183](https://vuldb.com/?ip.194.55.224.183) | - | - | High
-3 | [194.180.48.211](https://vuldb.com/?ip.194.180.48.211) | - | - | High
+2 | [94.156.8.104](https://vuldb.com/?ip.94.156.8.104) | - | - | High
+3 | [194.55.224.183](https://vuldb.com/?ip.194.55.224.183) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 1 more IOC items available. Please use our online service to access the data.
+There are 2 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 

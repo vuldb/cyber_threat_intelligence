@@ -37,7 +37,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
-2 | T1055 | CWE-74 | Injection | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
@@ -62,38 +62,40 @@ ID | Type | Indicator | Confidence
 10 | File | `/admin/login.php` | High
 11 | File | `/admin/payment.php` | High
 12 | File | `/admin/show.php` | High
-13 | File | `/boat/login.php` | High
-14 | File | `/cgi-bin/kerbynet` | High
-15 | File | `/ckeditor/samples/old/ajax.html` | High
-16 | File | `/clinic/disease_symptoms_view.php` | High
-17 | File | `/default.php?idx=17` | High
-18 | File | `/download` | Medium
-19 | File | `/env` | Low
-20 | File | `/forum/away.php` | High
-21 | File | `/index.php` | Medium
-22 | File | `/opt/bin/cli` | Medium
-23 | File | `/p` | Low
-24 | File | `/patient/doctors.php` | High
-25 | File | `/phpinventory/editcategory.php` | High
-26 | File | `/product-list.php` | High
-27 | File | `/spip.php` | Medium
-28 | File | `/uncpath/` | Medium
-29 | File | `/updown/upload.cgi` | High
-30 | File | `/user/del.php` | High
-31 | File | `/wp-admin/admin-ajax.php` | High
-32 | File | `/_next` | Low
-33 | File | `123flashchat.php` | High
-34 | File | `act.php` | Low
-35 | File | `admin.php/pay` | High
-36 | File | `admin/bad.php` | High
-37 | File | `admin/index.php` | High
-38 | File | `admin/index.php/user/del/1` | High
-39 | File | `admin/index.php?id=themes&action=edit_chunk` | High
-40 | File | `admin/products/controller.php?action=add` | High
-41 | File | `administrator/index.php` | High
-42 | ... | ... | ...
+13 | File | `/backend/register.php` | High
+14 | File | `/boat/login.php` | High
+15 | File | `/cgi-bin/kerbynet` | High
+16 | File | `/ckeditor/samples/old/ajax.html` | High
+17 | File | `/clinic/disease_symptoms_view.php` | High
+18 | File | `/default.php?idx=17` | High
+19 | File | `/doctor/view-appointment-detail.php` | High
+20 | File | `/download` | Medium
+21 | File | `/edit-client-details.php` | High
+22 | File | `/env` | Low
+23 | File | `/forum/away.php` | High
+24 | File | `/index.php` | Medium
+25 | File | `/opt/bin/cli` | Medium
+26 | File | `/p` | Low
+27 | File | `/patient/doctors.php` | High
+28 | File | `/phpinventory/editcategory.php` | High
+29 | File | `/product-list.php` | High
+30 | File | `/spip.php` | Medium
+31 | File | `/uncpath/` | Medium
+32 | File | `/updown/upload.cgi` | High
+33 | File | `/user/del.php` | High
+34 | File | `/wp-admin/admin-ajax.php` | High
+35 | File | `/_next` | Low
+36 | File | `123flashchat.php` | High
+37 | File | `act.php` | Low
+38 | File | `admin.php/pay` | High
+39 | File | `admin/bad.php` | High
+40 | File | `admin/index.php` | High
+41 | File | `admin/index.php/user/del/1` | High
+42 | File | `admin/index.php?id=themes&action=edit_chunk` | High
+43 | File | `admin/products/controller.php?action=add` | High
+44 | ... | ... | ...
 
-There are 367 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 376 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

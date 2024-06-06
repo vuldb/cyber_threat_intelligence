@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [TR](https://vuldb.com/?country.tr)
 * ...
 
-There are 21 more country items available. Please use our online service to access the data.
+There are 24 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -25,49 +25,57 @@ ID | IP address | Hostname | Campaign | Confidence
 2 | [5.11.183.214](https://vuldb.com/?ip.5.11.183.214) | - | - | High
 3 | [5.79.66.100](https://vuldb.com/?ip.5.79.66.100) | - | - | High
 4 | [5.79.66.123](https://vuldb.com/?ip.5.79.66.123) | - | - | High
-5 | [5.181.156.235](https://vuldb.com/?ip.5.181.156.235) | 5-181-156-235.mivocloud.com | - | High
-6 | [5.182.207.83](https://vuldb.com/?ip.5.182.207.83) | hosted-by.ActionCloud.co | - | High
-7 | [5.188.88.177](https://vuldb.com/?ip.5.188.88.177) | - | - | High
-8 | [8.211.4.118](https://vuldb.com/?ip.8.211.4.118) | - | - | High
-9 | [13.79.72.214](https://vuldb.com/?ip.13.79.72.214) | - | - | High
-10 | [20.124.237.208](https://vuldb.com/?ip.20.124.237.208) | - | - | High
-11 | [23.92.208.54](https://vuldb.com/?ip.23.92.208.54) | - | - | High
-12 | [23.95.182.18](https://vuldb.com/?ip.23.95.182.18) | 23-95-182-18-host.colocrossing.com | - | High
-13 | [23.146.184.29](https://vuldb.com/?ip.23.146.184.29) | - | - | High
-14 | [23.146.184.71](https://vuldb.com/?ip.23.146.184.71) | - | - | High
-15 | [31.207.37.227](https://vuldb.com/?ip.31.207.37.227) | vps86601.serveur-vps.net | - | High
-16 | [35.176.231.198](https://vuldb.com/?ip.35.176.231.198) | ec2-35-176-231-198.eu-west-2.compute.amazonaws.com | - | Medium
-17 | [37.128.207.92](https://vuldb.com/?ip.37.128.207.92) | - | - | High
-18 | [37.187.1.37](https://vuldb.com/?ip.37.187.1.37) | ns3104352.ip-37-187-1.eu | - | High
-19 | [37.221.67.161](https://vuldb.com/?ip.37.221.67.161) | cryptogod.us | - | High
-20 | [37.228.129.15](https://vuldb.com/?ip.37.228.129.15) | - | - | High
-21 | [39.99.63.187](https://vuldb.com/?ip.39.99.63.187) | - | - | High
-22 | [45.11.27.62](https://vuldb.com/?ip.45.11.27.62) | - | - | High
-23 | [45.76.179.15](https://vuldb.com/?ip.45.76.179.15) | data-online.id | - | High
-24 | [45.77.45.237](https://vuldb.com/?ip.45.77.45.237) | 45.77.45.237.vultrusercontent.com | - | High
-25 | [45.77.52.227](https://vuldb.com/?ip.45.77.52.227) | 45.77.52.227.vultrusercontent.com | - | High
-26 | [45.77.195.105](https://vuldb.com/?ip.45.77.195.105) | 45.77.195.105.vultrusercontent.com | - | High
-27 | [45.90.57.160](https://vuldb.com/?ip.45.90.57.160) | khalasar.omega.spb.ru | - | High
-28 | [45.130.201.22](https://vuldb.com/?ip.45.130.201.22) | - | - | High
-29 | [45.130.201.23](https://vuldb.com/?ip.45.130.201.23) | - | - | High
-30 | [45.130.201.24](https://vuldb.com/?ip.45.130.201.24) | - | - | High
-31 | [45.146.252.6](https://vuldb.com/?ip.45.146.252.6) | - | - | High
-32 | [45.155.249.19](https://vuldb.com/?ip.45.155.249.19) | - | - | High
-33 | [46.4.107.174](https://vuldb.com/?ip.46.4.107.174) | server101.servera.info | - | High
-34 | [47.91.94.97](https://vuldb.com/?ip.47.91.94.97) | - | - | High
-35 | [47.251.55.14](https://vuldb.com/?ip.47.251.55.14) | - | - | High
-36 | [49.232.231.163](https://vuldb.com/?ip.49.232.231.163) | mx19.dns.com.cn | - | High
-37 | [51.81.69.81](https://vuldb.com/?ip.51.81.69.81) | ip81.ip-51-81-69.us | - | High
-38 | [51.222.51.145](https://vuldb.com/?ip.51.222.51.145) | ip145.ip-51-222-51.net | - | High
-39 | [51.222.51.146](https://vuldb.com/?ip.51.222.51.146) | ip146.ip-51-222-51.net | - | High
-40 | [51.222.51.147](https://vuldb.com/?ip.51.222.51.147) | ip147.ip-51-222-51.net | - | High
-41 | [51.222.51.148](https://vuldb.com/?ip.51.222.51.148) | ip148.ip-51-222-51.net | - | High
-42 | [51.222.51.149](https://vuldb.com/?ip.51.222.51.149) | ip149.ip-51-222-51.net | - | High
-43 | [51.222.51.150](https://vuldb.com/?ip.51.222.51.150) | ip150.ip-51-222-51.net | - | High
-44 | [51.222.51.151](https://vuldb.com/?ip.51.222.51.151) | ip151.ip-51-222-51.net | - | High
-45 | ... | ... | ... | ...
+5 | [5.180.154.53](https://vuldb.com/?ip.5.180.154.53) | - | - | High
+6 | [5.181.156.235](https://vuldb.com/?ip.5.181.156.235) | 5-181-156-235.mivocloud.com | - | High
+7 | [5.182.207.83](https://vuldb.com/?ip.5.182.207.83) | hosted-by.ActionCloud.co | - | High
+8 | [5.188.88.177](https://vuldb.com/?ip.5.188.88.177) | - | - | High
+9 | [8.211.4.118](https://vuldb.com/?ip.8.211.4.118) | - | - | High
+10 | [13.79.72.214](https://vuldb.com/?ip.13.79.72.214) | - | - | High
+11 | [20.124.237.208](https://vuldb.com/?ip.20.124.237.208) | - | - | High
+12 | [23.92.208.54](https://vuldb.com/?ip.23.92.208.54) | - | - | High
+13 | [23.95.182.18](https://vuldb.com/?ip.23.95.182.18) | 23-95-182-18-host.colocrossing.com | - | High
+14 | [23.95.182.33](https://vuldb.com/?ip.23.95.182.33) | 23-95-182-33-host.colocrossing.com | - | High
+15 | [23.137.253.76](https://vuldb.com/?ip.23.137.253.76) | - | - | High
+16 | [23.146.184.29](https://vuldb.com/?ip.23.146.184.29) | - | - | High
+17 | [23.146.184.71](https://vuldb.com/?ip.23.146.184.71) | - | - | High
+18 | [31.41.44.97](https://vuldb.com/?ip.31.41.44.97) | usojekabqga.example.com | - | High
+19 | [31.41.44.109](https://vuldb.com/?ip.31.41.44.109) | korzhaktenqh.example.com | - | High
+20 | [31.44.4.118](https://vuldb.com/?ip.31.44.4.118) | - | - | High
+21 | [31.184.253.65](https://vuldb.com/?ip.31.184.253.65) | samids.finateca.ru | - | High
+22 | [31.207.37.227](https://vuldb.com/?ip.31.207.37.227) | vps86601.serveur-vps.net | - | High
+23 | [35.176.231.198](https://vuldb.com/?ip.35.176.231.198) | ec2-35-176-231-198.eu-west-2.compute.amazonaws.com | - | Medium
+24 | [37.128.207.92](https://vuldb.com/?ip.37.128.207.92) | - | - | High
+25 | [37.187.1.37](https://vuldb.com/?ip.37.187.1.37) | ns3104352.ip-37-187-1.eu | - | High
+26 | [37.221.67.161](https://vuldb.com/?ip.37.221.67.161) | cryptogod.us | - | High
+27 | [37.228.129.15](https://vuldb.com/?ip.37.228.129.15) | - | - | High
+28 | [39.99.63.187](https://vuldb.com/?ip.39.99.63.187) | - | - | High
+29 | [45.11.27.62](https://vuldb.com/?ip.45.11.27.62) | - | - | High
+30 | [45.59.170.27](https://vuldb.com/?ip.45.59.170.27) | - | - | High
+31 | [45.66.248.122](https://vuldb.com/?ip.45.66.248.122) | - | - | High
+32 | [45.76.179.15](https://vuldb.com/?ip.45.76.179.15) | data-online.id | - | High
+33 | [45.77.45.237](https://vuldb.com/?ip.45.77.45.237) | 45.77.45.237.vultrusercontent.com | - | High
+34 | [45.77.52.227](https://vuldb.com/?ip.45.77.52.227) | 45.77.52.227.vultrusercontent.com | - | High
+35 | [45.77.195.105](https://vuldb.com/?ip.45.77.195.105) | 45.77.195.105.vultrusercontent.com | - | High
+36 | [45.88.186.159](https://vuldb.com/?ip.45.88.186.159) | - | - | High
+37 | [45.90.57.160](https://vuldb.com/?ip.45.90.57.160) | khalasar.omega.spb.ru | - | High
+38 | [45.128.232.135](https://vuldb.com/?ip.45.128.232.135) | 135.232.128.45.pfcloud.io | - | High
+39 | [45.130.201.22](https://vuldb.com/?ip.45.130.201.22) | - | - | High
+40 | [45.130.201.23](https://vuldb.com/?ip.45.130.201.23) | - | - | High
+41 | [45.130.201.24](https://vuldb.com/?ip.45.130.201.24) | - | - | High
+42 | [45.130.201.28](https://vuldb.com/?ip.45.130.201.28) | - | - | High
+43 | [45.146.252.6](https://vuldb.com/?ip.45.146.252.6) | - | - | High
+44 | [45.155.249.19](https://vuldb.com/?ip.45.155.249.19) | - | - | High
+45 | [46.4.107.174](https://vuldb.com/?ip.46.4.107.174) | server101.servera.info | - | High
+46 | [47.91.94.97](https://vuldb.com/?ip.47.91.94.97) | - | - | High
+47 | [47.251.55.14](https://vuldb.com/?ip.47.251.55.14) | - | - | High
+48 | [49.232.231.163](https://vuldb.com/?ip.49.232.231.163) | mx19.dns.com.cn | - | High
+49 | [50.114.177.189](https://vuldb.com/?ip.50.114.177.189) | - | - | High
+50 | [51.81.69.81](https://vuldb.com/?ip.51.81.69.81) | ip81.ip-51-81-69.us | - | High
+51 | [51.222.51.145](https://vuldb.com/?ip.51.222.51.145) | ip145.ip-51-222-51.net | - | High
+52 | [51.222.51.146](https://vuldb.com/?ip.51.222.51.146) | ip146.ip-51-222-51.net | - | High
+53 | ... | ... | ... | ...
 
-There are 178 more IOC items available. Please use our online service to access the data.
+There are 206 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -82,7 +90,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -96,51 +104,50 @@ ID | Type | Indicator | Confidence
 4 | File | `/Account/login.php` | High
 5 | File | `/admin/` | Low
 6 | File | `/admin/action/delete-vaccine.php` | High
-7 | File | `/admin/index2.html` | High
-8 | File | `/admin/save.php` | High
-9 | File | `/adminapi/system/crud` | High
-10 | File | `/adminapi/system/file/openfile` | High
-11 | File | `/admin_route/dec_service_credits.php` | High
-12 | File | `/api/download` | High
+7 | File | `/Admin/changepassword.php` | High
+8 | File | `/admin/edit-post.php` | High
+9 | File | `/admin/index2.html` | High
+10 | File | `/adminapi/system/crud` | High
+11 | File | `/adminapi/system/file/openfile` | High
+12 | File | `/admin_route/dec_service_credits.php` | High
 13 | File | `/api/v1/alerts` | High
-14 | File | `/api/v1/terminal/sessions/?limit=1` | High
-15 | File | `/api/v4/teams//channels/deleted` | High
+14 | File | `/api/v4/teams//channels/deleted` | High
+15 | File | `/api/wechat/app_auth` | High
 16 | File | `/app/index/controller/Common.php` | High
 17 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
 18 | File | `/b2b-supermarket/shopping-cart` | High
 19 | File | `/bitrix/admin/ldap_server_edit.php` | High
 20 | File | `/cancel.php` | Medium
 21 | File | `/category.php` | High
-22 | File | `/categorypage.php` | High
-23 | File | `/cgi-bin/cstecgi.cgi` | High
-24 | File | `/cgi-bin/vitogate.cgi` | High
-25 | File | `/change-language/de_DE` | High
-26 | File | `/debug/pprof` | Medium
-27 | File | `/devinfo` | Medium
-28 | File | `/dist/index.js` | High
-29 | File | `/download` | Medium
-30 | File | `/fcgi/scrut_fcgi.fcgi` | High
-31 | File | `/forms/doLogin` | High
-32 | File | `/forum/away.php` | High
-33 | File | `/geoserver/gwc/rest.html` | High
-34 | File | `/goform/formSysCmd` | High
-35 | File | `/HNAP1` | Low
-36 | File | `/hosts/firewall/ip` | High
-37 | File | `/index.jsp#settings` | High
-38 | File | `/index.php/ccm/system/file/upload` | High
-39 | File | `/listplace/user/ticket/create` | High
-40 | File | `/log/decodmail.php` | High
-41 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
-42 | File | `/novel/author/list` | High
-43 | File | `/oauth/idp/.well-known/openid-configuration` | High
-44 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
-45 | File | `/php/ping.php` | High
-46 | File | `/proxy` | Low
-47 | File | `/RPS2019Service/status.html` | High
-48 | File | `/s/index.php?action=statistics` | High
-49 | ... | ... | ...
+22 | File | `/cgi-bin/cstecgi.cgi` | High
+23 | File | `/cgi-bin/nas_sharing.cgi` | High
+24 | File | `/change-language/de_DE` | High
+25 | File | `/classes/Master.php?f=save_category` | High
+26 | File | `/control/register_case.php` | High
+27 | File | `/debug/pprof` | Medium
+28 | File | `/devinfo` | Medium
+29 | File | `/dist/index.js` | High
+30 | File | `/download` | Medium
+31 | File | `/fcgi/scrut_fcgi.fcgi` | High
+32 | File | `/fftools/ffmpeg_enc.c` | High
+33 | File | `/forms/doLogin` | High
+34 | File | `/forum/away.php` | High
+35 | File | `/geoserver/gwc/rest.html` | High
+36 | File | `/goform/formSysCmd` | High
+37 | File | `/hosts/firewall/ip` | High
+38 | File | `/index.jsp#settings` | High
+39 | File | `/index.php/ccm/system/file/upload` | High
+40 | File | `/install/` | Medium
+41 | File | `/listplace/user/ticket/create` | High
+42 | File | `/log/decodmail.php` | High
+43 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
+44 | File | `/ndmComponents.js` | High
+45 | File | `/novel/author/list` | High
+46 | File | `/oauth/idp/.well-known/openid-configuration` | High
+47 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
+48 | ... | ... | ...
 
-There are 425 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 420 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -166,15 +173,29 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://ioc.exchange/@monitorsg@infosec.exchange/111015295715515083
 * https://ioc.exchange/@monitorsg@infosec.exchange/111018596544634373
 * https://search.censys.io/hosts/23.92.208.54
+* https://search.censys.io/hosts/23.95.182.33
+* https://search.censys.io/hosts/23.137.253.76
 * https://search.censys.io/hosts/37.128.207.92
+* https://search.censys.io/hosts/45.59.170.27
+* https://search.censys.io/hosts/45.66.248.122
+* https://search.censys.io/hosts/45.88.186.159
+* https://search.censys.io/hosts/45.128.232.135
 * https://search.censys.io/hosts/54.145.152.164
+* https://search.censys.io/hosts/77.83.199.148
+* https://search.censys.io/hosts/77.221.149.184
+* https://search.censys.io/hosts/86.124.171.111
 * https://search.censys.io/hosts/88.119.175.92
 * https://search.censys.io/hosts/103.25.61.30
 * https://search.censys.io/hosts/104.161.32.84
 * https://search.censys.io/hosts/128.254.207.82
 * https://search.censys.io/hosts/146.19.254.43
 * https://search.censys.io/hosts/147.45.68.67
+* https://search.censys.io/hosts/147.45.78.74
+* https://search.censys.io/hosts/147.45.78.168
+* https://search.censys.io/hosts/162.252.175.197
+* https://search.censys.io/hosts/167.235.231.252
 * https://search.censys.io/hosts/193.26.115.80
+* https://search.censys.io/hosts/193.26.115.181
 * https://search.censys.io/hosts/213.252.232.161
 * https://search.censys.io/hosts/217.195.153.158
 * https://threatfox.abuse.ch

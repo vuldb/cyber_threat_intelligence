@@ -20,6 +20,14 @@ ID | IP address | Hostname | Campaign | Confidence
 2 | [88.99.48.65](https://vuldb.com/?ip.88.99.48.65) | static.65.48.99.88.clients.your-server.de | - | High
 3 | [193.70.73.251](https://vuldb.com/?ip.193.70.73.251) | - | - | High
 
+## TTP - Tactics, Techniques, Procedures
+
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _BlackTDS_. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1068 | CWE-284 | Execution with Unnecessary Privileges | High
+
 ## IOA - Indicator of Attack
 
 These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by BlackTDS. This data is unique as it uses our predictive model for actor profiling.
@@ -27,6 +35,7 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `ftp_parser.c` | Medium
+2 | File | `nvram.cgi` | Medium
 
 ## References
 

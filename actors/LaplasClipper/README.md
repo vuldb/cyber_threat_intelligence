@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with LaplasClipper:
 
 * [CN](https://vuldb.com/?country.cn)
-* [US](https://vuldb.com/?country.us)
-* [RU](https://vuldb.com/?country.ru)
+* [DE](https://vuldb.com/?country.de)
+* [IT](https://vuldb.com/?country.it)
 * ...
 
 There are 8 more country items available. Please use our online service to access the data.
@@ -22,12 +22,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [5.61.62.241](https://vuldb.com/?ip.5.61.62.241) | - | - | High
-2 | [45.84.121.44](https://vuldb.com/?ip.45.84.121.44) | - | - | High
-3 | [45.159.188.125](https://vuldb.com/?ip.45.159.188.125) | coinreborn24.com | - | High
-4 | [45.159.189.105](https://vuldb.com/?ip.45.159.189.105) | . | - | High
+2 | [45.83.122.33](https://vuldb.com/?ip.45.83.122.33) | mitchellgrimshaw121.sitesblog.com | - | High
+3 | [45.84.121.44](https://vuldb.com/?ip.45.84.121.44) | - | - | High
+4 | [45.159.188.125](https://vuldb.com/?ip.45.159.188.125) | coinreborn24.com | - | High
 5 | ... | ... | ... | ...
 
-There are 14 more IOC items available. Please use our online service to access the data.
+There are 15 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -35,14 +35,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Path Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-24 | Path Traversal | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-94 | Argument Injection | High
+4 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 13 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -50,49 +48,38 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/?p=products` | Medium
-2 | File | `/admin/controller/JobLogController.java` | High
-3 | File | `/admin/user/manage_user.php` | High
-4 | File | `/api/` | Low
-5 | File | `/api/admin/store/product/list` | High
-6 | File | `/api/baskets/{name}` | High
-7 | File | `/api/stl/actions/search` | High
-8 | File | `/api/sys/login` | High
-9 | File | `/api/sys/set_passwd` | High
-10 | File | `/api/trackedEntityInstances` | High
-11 | File | `/api/v2/cli/commands` | High
-12 | File | `/aux` | Low
-13 | File | `/bin/ate` | Medium
-14 | File | `/booking/show_bookings/` | High
-15 | File | `/cas/logout` | Medium
-16 | File | `/cgi-bin` | Medium
-17 | File | `/cgi-bin/wlogin.cgi` | High
-18 | File | `/changePassword` | High
-19 | File | `/collection/all` | High
-20 | File | `/Content/Template/root/reverse-shell.aspx` | High
-21 | File | `/dashboard/add-blog.php` | High
-22 | File | `/data/remove` | Medium
-23 | File | `/debug/pprof` | Medium
-24 | File | `/ecshop/admin/template.php` | High
-25 | File | `/env` | Low
-26 | File | `/etc/passwd` | Medium
-27 | File | `/filex/read-raw` | High
-28 | File | `/forum/away.php` | High
-29 | File | `/goform/aspForm` | High
-30 | File | `/goform/net\_Web\_get_value` | High
-31 | File | `/group1/uploa` | High
-32 | File | `/index.php` | Medium
-33 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-34 | File | `/php-sms/admin/?page=user/manage_user` | High
-35 | File | `/resources//../` | High
-36 | File | `/testConnection` | High
-37 | File | `/tmp/ppd.trace` | High
-38 | File | `/user/inc/workidajax.php` | High
-39 | File | `/user/updatePwd` | High
-40 | File | `/userLogin.asp` | High
-41 | ... | ... | ...
+1 | File | `/admin` | Low
+2 | File | `/admin-manage-user.php` | High
+3 | File | `/admin/admin_cl.php?mudi=revPwd` | High
+4 | File | `/admin/attendance_row.php` | High
+5 | File | `/admin/cashadvance_row.php` | High
+6 | File | `/admin/courses/view_course.php` | High
+7 | File | `/admin/edit-accepted-appointment.php` | High
+8 | File | `/admin/edit_category.php` | High
+9 | File | `/admin/edit_product.php` | High
+10 | File | `/admin/employee_row.php` | High
+11 | File | `/admin/forgot-password.php` | High
+12 | File | `/admin/info_deal.php` | High
+13 | File | `/admin/positions_row.php` | High
+14 | File | `/admin/regester.php` | High
+15 | File | `/admin/user/controller.php` | High
+16 | File | `/admin/vacancy/controller.php` | High
+17 | File | `/admin/vacancy/index.php` | High
+18 | File | `/api/` | Low
+19 | File | `/api/client/editemedia.php` | High
+20 | File | `/apps/system/router/upload.go` | High
+21 | File | `/cgi-bin/cstecgi.cgi` | High
+22 | File | `/cgi-bin/koha/opac-MARCdetail.pl` | High
+23 | File | `/ci_spms/admin/search/searching/` | High
+24 | File | `/classes/Login.php` | High
+25 | File | `/classes/Master.php` | High
+26 | File | `/debug/pprof` | Medium
+27 | File | `/doctor/view-appointment-detail.php` | High
+28 | File | `/goform/AddDnsForward` | High
+29 | File | `/goform/addIpMacBind` | High
+30 | ... | ... | ...
 
-There are 349 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 251 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -101,6 +88,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://app.any.run/tasks/6c910d55-f846-46f8-bfa5-b6af3986466c
 * https://app.any.run/tasks/47c2c5a4-d752-4ba2-a2d4-15665bd5aac3
 * https://bazaar.abuse.ch/sample/bd7b6f6ef2d0adfb9b2e058fc46ad29ff1edffc648f9d7408745916bb8a2f310/
+* https://cyble.com/blog/new-laplas-clipper-distributed-by-smokeloader/
 * https://de.darktrace.com/blog/laplas-clipper-defending-against-crypto-currency-thieves-with-detect-respond
 * https://github.com/Cisco-Talos/IOCs/blob/main/2023/02/new-mortalkombat-ransomware-and-laplas-clipper-malware-threats.txt
 * https://threatfox.abuse.ch

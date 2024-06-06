@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with COVID-19:
 
 * [VN](https://vuldb.com/?country.vn)
-* [CN](https://vuldb.com/?country.cn)
-* [US](https://vuldb.com/?country.us)
+* [RU](https://vuldb.com/?country.ru)
+* [PL](https://vuldb.com/?country.pl)
 * ...
 
-There are 5 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -149,14 +149,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+4 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 14 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -164,45 +162,26 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/.env` | Low
-2 | File | `/admin/index.php` | High
-3 | File | `/admin/orders/view_order.php` | High
-4 | File | `/admin_ping.htm` | High
-5 | File | `/application/index/controller/Databasesource.php` | High
-6 | File | `/application/index/controller/File.php` | High
-7 | File | `/application/index/controller/Icon.php` | High
-8 | File | `/application/index/controller/Screen.php` | High
-9 | File | `/application/index/controller/Unity.php` | High
-10 | File | `/application/plugins/controller/Upload.php` | High
-11 | File | `/application/websocket/controller/Setting.php` | High
-12 | File | `/apps/reg_go.php` | High
-13 | File | `/billing/bill/edit/` | High
-14 | File | `/bsms_ci/index.php/user/edit_user/` | High
-15 | File | `/cgi-bin/cstecgi.cgi` | High
-16 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
-17 | File | `/cgi-bin/mainfunction.cgi` | High
-18 | File | `/cgi-bin/system_mgr.cgi` | High
-19 | File | `/cgi-bin/wlogin.cgi` | High
-20 | File | `/classes/Login.php` | High
-21 | File | `/classes/Users.php` | High
-22 | File | `/DXR.axd` | Medium
-23 | File | `/ECT_Provider/` | High
-24 | File | `/Employer/EditProfile.php` | High
-25 | File | `/etc/passwd` | Medium
-26 | File | `/fax/fax_send.php` | High
-27 | File | `/forum/away.php` | High
-28 | File | `/general/attendance/manage/ask_duty/delete.php` | High
-29 | File | `/general/email/outbox/delete.php` | High
-30 | File | `/goform/` | Medium
-31 | File | `/goform/net\_Web\_get_value` | High
-32 | File | `/h/autoSaveDraft` | High
-33 | File | `/home.php` | Medium
-34 | File | `/Home/Index` | Medium
-35 | File | `/inc/modules_install.php` | High
-36 | File | `/index.php` | Medium
-37 | ... | ... | ...
+1 | File | `%APPDATA%\Securepoint SSL VPN` | High
+2 | File | `/+CSCOE+/logon.html` | High
+3 | File | `/adminPage/main/upload` | High
+4 | File | `/adms/admin/?page=vehicles/view_transaction` | High
+5 | File | `/api/sys/set_passwd` | High
+6 | File | `/api/v1` | Low
+7 | File | `/app/Http/Controllers/ImageController.php` | High
+8 | File | `/as/authorization.oauth2` | High
+9 | File | `/catalog/all-products` | High
+10 | File | `/cgi-bin/nas_sharing.cgi` | High
+11 | File | `/changePassword` | High
+12 | File | `/core/config-revisions` | High
+13 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
+14 | File | `/forum/away.php` | High
+15 | File | `/goform/SetDDNSCfg` | High
+16 | File | `/goform/SetSysTimeCfg` | High
+17 | File | `/goform/wifiSSIDget` | High
+18 | ... | ... | ...
 
-There are 317 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 145 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

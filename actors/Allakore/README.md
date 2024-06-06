@@ -10,7 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [DE](https://vuldb.com/?country.de)
-* [CA](https://vuldb.com/?country.ca)
+* [CN](https://vuldb.com/?country.cn)
+* ...
+
+There are 1 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -18,12 +21,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [144.91.65.100](https://vuldb.com/?ip.144.91.65.100) | vmi652772.contaboserver.net | - | High
-2 | [144.91.91.236](https://vuldb.com/?ip.144.91.91.236) | vmi512038.contaboserver.net | - | High
-3 | [161.97.142.96](https://vuldb.com/?ip.161.97.142.96) | vmi745943.contaboserver.net | - | High
+1 | [23.236.143.214](https://vuldb.com/?ip.23.236.143.214) | mail213.mailerview.tropicalstrength.com | - | High
+2 | [23.254.136.60](https://vuldb.com/?ip.23.254.136.60) | client-23-254-136-60.hostwindsdns.com | - | High
+3 | [23.254.138.211](https://vuldb.com/?ip.23.254.138.211) | box.adminco.lat | - | High
 4 | ... | ... | ... | ...
 
-There are 4 more IOC items available. Please use our online service to access the data.
+There are 13 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -36,7 +39,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059 | CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
 
-There are 7 more TTP items available. Please use our online service to access the data.
+There are 8 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -44,19 +47,21 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/forum/away.php` | High
-2 | File | `/wordpress/wp-admin/admin.php` | High
-3 | File | `admin/index.php` | High
-4 | File | `data/gbconfiguration.dat` | High
-5 | File | `filter.php` | Medium
-6 | ... | ... | ...
+1 | File | `/controller/company/Index.php#sendCompanyLogo` | High
+2 | File | `/forum/away.php` | High
+3 | File | `/wordpress/wp-admin/admin.php` | High
+4 | File | `adclick.php` | Medium
+5 | File | `admin/index.php` | High
+6 | File | `cloud.php` | Medium
+7 | ... | ... | ...
 
-There are 36 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 50 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://blogs.blackberry.com/en/2024/01/mexican-banks-and-cryptocurrency-platforms-targeted-with-allakore-rat
 * https://s3.amazonaws.com/talos-intelligence-site/production/document_files/files/000/095/594/original/Network_IOCs_list_for_coverage.txt?1625657479
 
 ## Literature

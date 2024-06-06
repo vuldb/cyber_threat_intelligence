@@ -68,14 +68,15 @@ ID | Type | Indicator | Confidence
 14 | File | `/GponForm/device_Form?script/` | High
 15 | File | `/includes/rrdtool.inc.php` | High
 16 | File | `/Main_AdmStatus_Content.asp` | High
-17 | File | `/NAGErrors` | Medium
-18 | File | `/sgms/TreeControl` | High
-19 | File | `/src/admin/content_batchup_action.php` | High
-20 | File | `/st_reg.php` | Medium
-21 | File | `/tmp` | Low
-22 | ... | ... | ...
+17 | File | `/manager/ipconfig_new.php` | High
+18 | File | `/NAGErrors` | Medium
+19 | File | `/registrar/?page=registration` | High
+20 | File | `/sgms/TreeControl` | High
+21 | File | `/src/admin/content_batchup_action.php` | High
+22 | File | `/st_reg.php` | Medium
+23 | ... | ... | ...
 
-There are 182 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 189 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

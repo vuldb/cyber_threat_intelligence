@@ -42,12 +42,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
+1 | T1006 | CWE-22 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059 | CWE-94 | Argument Injection | High
-4 | ... | ... | ... | ...
+3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -55,25 +56,28 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin.php` | Medium
-2 | File | `/admin/list_ipAddressPolicy.php` | High
-3 | File | `/api /v3/auth` | High
-4 | File | `/bin/sh` | Low
-5 | File | `/cgi-bin/cstecgi.cgi` | High
-6 | File | `/cgi-bin/nobody/VerifyCode.cgi` | High
-7 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-8 | File | `/cgi.cgi` | Medium
-9 | File | `/counter/index2.php` | High
-10 | File | `/data/remove` | Medium
-11 | File | `/goform/SetStaticRouteCfg` | High
-12 | File | `/modx/manager/index.php` | High
-13 | File | `/ossim/report/wizard_email.php` | High
-14 | File | `/search-result/` | High
-15 | File | `/search.php` | Medium
-16 | File | `/sgms/reports/scheduledreports/configure/scheduleProps.jsp` | High
-17 | ... | ... | ...
+1 | File | `.htaccess` | Medium
+2 | File | `/admin.php?p=/Area/index#tab=t2` | High
+3 | File | `/adminPage/www/addOver` | High
+4 | File | `/gateway/services/EdgeServiceImpl` | High
+5 | File | `/goform/net\_Web\_get_value` | High
+6 | File | `/goform/WriteFacMac` | High
+7 | File | `/HNAP1` | Low
+8 | File | `/Maintenance/configfile.cfg` | High
+9 | File | `/module/comment/save` | High
+10 | File | `/rest` | Low
+11 | File | `/root` | Low
+12 | File | `/scripts/unlock_tasks.php` | High
+13 | File | `/topic` | Low
+14 | File | `/upload/localhost` | High
+15 | File | `/wp-admin/admin-ajax.php` | High
+16 | File | `account/login.php` | High
+17 | File | `ActiveMQConnection.java` | High
+18 | File | `ActivityManagerService.java` | High
+19 | File | `admin/app/mediamanager` | High
+20 | ... | ... | ...
 
-There are 138 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 164 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

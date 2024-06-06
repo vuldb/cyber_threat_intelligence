@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [IL](https://vuldb.com/?country.il)
 * ...
 
-There are 17 more country items available. Please use our online service to access the data.
+There are 19 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -205,9 +205,29 @@ ID | IP address | Hostname | Actor | Confidence
 173 | [81.177.22.182](https://vuldb.com/?ip.81.177.22.182) | - | [Agrius](https://vuldb.com/?actor.agrius) | High
 174 | [81.199.120.0](https://vuldb.com/?ip.81.199.120.0) | - | [Israel Unknown](https://vuldb.com/?actor.israel_unknown) | High
 175 | [81.199.252.0](https://vuldb.com/?ip.81.199.252.0) | - | [Israel Unknown](https://vuldb.com/?actor.israel_unknown) | High
-176 | ... | ... | ... | ...
+176 | [81.218.0.0](https://vuldb.com/?ip.81.218.0.0) | - | [Israel Unknown](https://vuldb.com/?actor.israel_unknown) | High
+177 | [82.80.0.0](https://vuldb.com/?ip.82.80.0.0) | - | [Israel Unknown](https://vuldb.com/?actor.israel_unknown) | High
+178 | [82.102.128.0](https://vuldb.com/?ip.82.102.128.0) | - | [Israel Unknown](https://vuldb.com/?actor.israel_unknown) | High
+179 | [82.163.48.0](https://vuldb.com/?ip.82.163.48.0) | - | [Israel Unknown](https://vuldb.com/?actor.israel_unknown) | High
+180 | [82.163.136.0](https://vuldb.com/?ip.82.163.136.0) | - | [Israel Unknown](https://vuldb.com/?actor.israel_unknown) | High
+181 | [82.163.139.0](https://vuldb.com/?ip.82.163.139.0) | - | [Israel Unknown](https://vuldb.com/?actor.israel_unknown) | High
+182 | [82.163.140.0](https://vuldb.com/?ip.82.163.140.0) | - | [Israel Unknown](https://vuldb.com/?actor.israel_unknown) | High
+183 | [82.163.141.255](https://vuldb.com/?ip.82.163.141.255) | payoneer.com | [Israel Unknown](https://vuldb.com/?actor.israel_unknown) | High
+184 | [82.163.142.0](https://vuldb.com/?ip.82.163.142.0) | - | [Israel Unknown](https://vuldb.com/?actor.israel_unknown) | High
+185 | [82.163.249.0](https://vuldb.com/?ip.82.163.249.0) | - | [Israel Unknown](https://vuldb.com/?actor.israel_unknown) | High
+186 | [82.163.250.0](https://vuldb.com/?ip.82.163.250.0) | - | [Israel Unknown](https://vuldb.com/?actor.israel_unknown) | High
+187 | [82.166.0.0](https://vuldb.com/?ip.82.166.0.0) | - | [Israel Unknown](https://vuldb.com/?actor.israel_unknown) | High
+188 | [82.195.168.225](https://vuldb.com/?ip.82.195.168.225) | - | [Israel Unknown](https://vuldb.com/?actor.israel_unknown) | High
+189 | [83.130.0.0](https://vuldb.com/?ip.83.130.0.0) | - | [Israel Unknown](https://vuldb.com/?actor.israel_unknown) | High
+190 | [83.143.104.0](https://vuldb.com/?ip.83.143.104.0) | - | [Israel Unknown](https://vuldb.com/?actor.israel_unknown) | High
+191 | [83.151.199.0](https://vuldb.com/?ip.83.151.199.0) | - | [Israel Unknown](https://vuldb.com/?actor.israel_unknown) | High
+192 | [83.231.150.224](https://vuldb.com/?ip.83.231.150.224) | - | [Israel Unknown](https://vuldb.com/?actor.israel_unknown) | High
+193 | [84.94.0.0](https://vuldb.com/?ip.84.94.0.0) | 84.94.0.0.cable.012.net.il | [Israel Unknown](https://vuldb.com/?actor.israel_unknown) | High
+194 | [84.108.0.0](https://vuldb.com/?ip.84.108.0.0) | - | [Israel Unknown](https://vuldb.com/?actor.israel_unknown) | High
+195 | [84.228.0.0](https://vuldb.com/?ip.84.228.0.0) | - | [Israel Unknown](https://vuldb.com/?actor.israel_unknown) | High
+196 | ... | ... | ... | ...
 
-There are 702 more IOC items available. Please use our online service to access the data.
+There are 782 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -215,9 +235,9 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-25, CWE-36, CWE-425 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-25, CWE-36 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
@@ -234,58 +254,58 @@ ID | Type | Indicator | Confidence
 2 | File | `/#ilang=DE&b=c_smartenergy_swgroups` | High
 3 | File | `/Account/login.php` | High
 4 | File | `/admin/` | Low
-5 | File | `/admin/pages/edit_chicken.php` | High
-6 | File | `/admin/pages/student-print.php` | High
-7 | File | `/adminapi/system/crud` | High
-8 | File | `/adminapi/system/file/openfile` | High
-9 | File | `/admin_route/dec_service_credits.php` | High
-10 | File | `/admin_route/inc_service_credits.php` | High
-11 | File | `/api/v1/alerts` | High
-12 | File | `/api/v4/teams//channels/deleted` | High
-13 | File | `/app/Http/Controllers/ImageController.php` | High
-14 | File | `/application/index/controller/Icon.php` | High
-15 | File | `/b2b-supermarket/shopping-cart` | High
-16 | File | `/category.php` | High
-17 | File | `/cgi-bin/cstecgi.cgi` | High
-18 | File | `/change-language/de_DE` | High
-19 | File | `/debug/pprof` | Medium
-20 | File | `/devinfo` | Medium
-21 | File | `/dist/index.js` | High
-22 | File | `/fcgi/scrut_fcgi.fcgi` | High
-23 | File | `/forum/away.php` | High
-24 | File | `/general/attendance/manage/ask_duty/delete.php` | High
-25 | File | `/geoserver/gwc/rest.html` | High
-26 | File | `/goform/formSysCmd` | High
-27 | File | `/hosts/firewall/ip` | High
-28 | File | `/index.jsp#settings` | High
-29 | File | `/index.php/ccm/system/file/upload` | High
-30 | File | `/Interface/DevManage/VM.php` | High
-31 | File | `/log/decodmail.php` | High
-32 | File | `/oauth/idp/.well-known/openid-configuration` | High
-33 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
-34 | File | `/php/ping.php` | High
-35 | File | `/proxy` | Low
-36 | File | `/register.do` | Medium
-37 | File | `/s/index.php?action=statistics` | High
-38 | File | `/setting` | Medium
-39 | File | `/Setting/change_password_save` | High
-40 | File | `/sicweb-ajax/tmproot/` | High
-41 | File | `/signup.php` | Medium
-42 | File | `/spip.php` | Medium
-43 | File | `/st_reg.php` | Medium
-44 | File | `/subsys/net/l2/wifi/wifi_shell.c` | High
-45 | File | `/supplier.php` | High
-46 | File | `/system/role/list` | High
-47 | File | `/system/traceLog/page` | High
-48 | ... | ... | ...
+5 | File | `/Admin/changepassword.php` | High
+6 | File | `/admin/general-setting` | High
+7 | File | `/admin/pages/edit_chicken.php` | High
+8 | File | `/admin/pages/student-print.php` | High
+9 | File | `/admin/service` | High
+10 | File | `/adminapi/system/crud` | High
+11 | File | `/adminapi/system/file/openfile` | High
+12 | File | `/admin_route/dec_service_credits.php` | High
+13 | File | `/admin_route/inc_service_credits.php` | High
+14 | File | `/api/v4/teams//channels/deleted` | High
+15 | File | `/api/wechat/app_auth` | High
+16 | File | `/app/Http/Controllers/ImageController.php` | High
+17 | File | `/application/index/controller/Icon.php` | High
+18 | File | `/b2b-supermarket/shopping-cart` | High
+19 | File | `/cancel.php` | Medium
+20 | File | `/category.php` | High
+21 | File | `/cgi-bin/cstecgi.cgi` | High
+22 | File | `/cgi-bin/wlogin.cgi` | High
+23 | File | `/change-language/de_DE` | High
+24 | File | `/control/register_case.php` | High
+25 | File | `/debug/pprof` | Medium
+26 | File | `/devinfo` | Medium
+27 | File | `/dist/index.js` | High
+28 | File | `/download` | Medium
+29 | File | `/forum/away.php` | High
+30 | File | `/general/attendance/manage/ask_duty/delete.php` | High
+31 | File | `/goform/formSysCmd` | High
+32 | File | `/hosts/firewall/ip` | High
+33 | File | `/index.jsp#settings` | High
+34 | File | `/index.php` | Medium
+35 | File | `/index.php/ccm/system/file/upload` | High
+36 | File | `/Interface/DevManage/VM.php` | High
+37 | File | `/log/decodmail.php` | High
+38 | File | `/model/add_student_subject.php` | High
+39 | File | `/ndmComponents.js` | High
+40 | File | `/oauth/idp/.well-known/openid-configuration` | High
+41 | File | `/one_church/churchprofile.php` | High
+42 | File | `/php/ping.php` | High
+43 | File | `/register.do` | Medium
+44 | File | `/register.php` | High
+45 | File | `/s/index.php?action=statistics` | High
+46 | File | `/Setting/change_password_save` | High
+47 | ... | ... | ...
 
-There are 413 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 411 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the campaign and the associated activities:
 
 * https://github.com/firehol/blocklist-ipsets/blob/master/geolite2_country/country_il.netset
+* https://github.com/scriptzteam/Private-Internet-Access-VPN-Servers/blob/main/export.csv
 * https://unit42.paloaltonetworks.com/agonizing-serpens-targets-israeli-tech-higher-ed-sectors/
 
 ## Literature

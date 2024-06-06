@@ -47,7 +47,7 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | ... | ... | ... | ...
 
 There are 14 more TTP items available. Please use our online service to access the data.
@@ -69,37 +69,37 @@ ID | Type | Indicator | Confidence
 9 | File | `/forum/away.php` | High
 10 | File | `/healthcare/Admin/consulting_detail.php` | High
 11 | File | `/if.cgi` | Low
-12 | File | `/mifs/c/i/reg/reg.html` | High
-13 | File | `/modules/profile/index.php` | High
-14 | File | `/news.dtl.php` | High
-15 | File | `/php-jms/deductScores.php` | High
-16 | File | `/php_action/createUser.php` | High
-17 | File | `/see_more_details.php` | High
-18 | File | `/services/details.asp` | High
-19 | File | `/setup` | Low
-20 | File | `/spip.php` | Medium
-21 | File | `/uncpath/` | Medium
-22 | File | `/var/log/nginx` | High
-23 | File | `/VPortal/mgtconsole/Subscriptions.jsp` | High
-24 | File | `/wabt/bin/poc.wasm` | High
-25 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-26 | File | `/zm/index.php` | High
-27 | File | `act.php` | Low
-28 | File | `adclick.php` | Medium
-29 | File | `add_comment.php` | High
-30 | File | `admin` | Low
-31 | File | `admin.php` | Medium
-32 | File | `admin/adminsignin.html` | High
-33 | File | `admin/movieview.php` | High
-34 | File | `admin/versions.html` | High
-35 | File | `agenda.php` | Medium
-36 | File | `ajax_calls.php` | High
-37 | File | `api.php` | Low
-38 | File | `army.php` | Medium
-39 | File | `attendancy.php` | High
+12 | File | `/libsystem/login.php` | High
+13 | File | `/mifs/c/i/reg/reg.html` | High
+14 | File | `/modules/profile/index.php` | High
+15 | File | `/news.dtl.php` | High
+16 | File | `/php-jms/deductScores.php` | High
+17 | File | `/php_action/createUser.php` | High
+18 | File | `/see_more_details.php` | High
+19 | File | `/services/details.asp` | High
+20 | File | `/setup` | Low
+21 | File | `/spip.php` | Medium
+22 | File | `/uncpath/` | Medium
+23 | File | `/var/log/nginx` | High
+24 | File | `/VPortal/mgtconsole/Subscriptions.jsp` | High
+25 | File | `/wabt/bin/poc.wasm` | High
+26 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+27 | File | `/zm/index.php` | High
+28 | File | `act.php` | Low
+29 | File | `adclick.php` | Medium
+30 | File | `add_comment.php` | High
+31 | File | `admin` | Low
+32 | File | `admin.php` | Medium
+33 | File | `admin/adminsignin.html` | High
+34 | File | `admin/movieview.php` | High
+35 | File | `admin/versions.html` | High
+36 | File | `agenda.php` | Medium
+37 | File | `ajax_calls.php` | High
+38 | File | `api.php` | Low
+39 | File | `army.php` | Medium
 40 | ... | ... | ...
 
-There are 341 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 344 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

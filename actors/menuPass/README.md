@@ -58,15 +58,16 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/anony/mjpg.cgi` | High
 2 | File | `/debug/pprof` | Medium
-3 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-4 | File | `/uncpath/` | Medium
-5 | File | `ArchivesMapper.xml` | High
-6 | File | `blind\source\high.php` | High
-7 | File | `cart.php` | Medium
-8 | File | `cat.php` | Low
-9 | ... | ... | ...
+3 | File | `/login.php?m=admin&c=Field&a=channel_edit` | High
+4 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+5 | File | `/uncpath/` | Medium
+6 | File | `ArchivesMapper.xml` | High
+7 | File | `blind\source\high.php` | High
+8 | File | `cart.php` | Medium
+9 | File | `cat.php` | Low
+10 | ... | ... | ...
 
-There are 70 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 77 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -69,13 +69,13 @@ ID | Type | Indicator | Confidence
 13 | File | `/mgmt/tm/util/bash` | High
 14 | File | `/printers` | Medium
 15 | File | `/SASWebReportStudio/logonAndRender.do` | High
-16 | File | `/sysmanage/edit_manageadmin.php` | High
-17 | File | `/uncpath/` | Medium
-18 | File | `/viewer/krpano.html` | High
-19 | File | `/wp-json/oembed/1.0/embed?url` | High
+16 | File | `/src/dede/makehtml_js_action.php` | High
+17 | File | `/sysmanage/edit_manageadmin.php` | High
+18 | File | `/uncpath/` | Medium
+19 | File | `/viewer/krpano.html` | High
 20 | ... | ... | ...
 
-There are 163 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 164 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -55,18 +55,18 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
 2 | File | `/balance/service/list` | High
-3 | File | `/index.php` | Medium
-4 | File | `/members/view_member.php` | High
-5 | File | `/mhds/clinic/view_details.php` | High
-6 | File | `/owa/auth/logon.aspx` | High
-7 | File | `/rest/api/latest/projectvalidate/key` | High
-8 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-9 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
-10 | File | `/uncpath/` | Medium
-11 | File | `ActivityManagerService.java` | High
+3 | File | `/cgi-bin/nas_sharing.cgi` | High
+4 | File | `/index.php` | Medium
+5 | File | `/members/view_member.php` | High
+6 | File | `/mhds/clinic/view_details.php` | High
+7 | File | `/owa/auth/logon.aspx` | High
+8 | File | `/rest/api/latest/projectvalidate/key` | High
+9 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+10 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
+11 | File | `/uncpath/` | Medium
 12 | ... | ... | ...
 
-There are 90 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 95 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

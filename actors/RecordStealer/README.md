@@ -41,9 +41,10 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+6 | ... | ... | ... | ...
 
-There are 16 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -70,16 +71,18 @@ ID | Type | Indicator | Confidence
 17 | File | `/items/search` | High
 18 | File | `/jsonrpc` | Medium
 19 | File | `/load.php` | Medium
-20 | File | `/mims/login.php` | High
-21 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-22 | File | `/pages/animals.php` | High
-23 | File | `/php/ping.php` | High
-24 | File | `/rapi/read_url` | High
-25 | File | `/scripts/cpan_config` | High
-26 | File | `/scripts/unlock_tasks.php` | High
-27 | ... | ... | ...
+20 | File | `/lua/set-passwd.lua` | High
+21 | File | `/mims/login.php` | High
+22 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+23 | File | `/pages/animals.php` | High
+24 | File | `/php/ping.php` | High
+25 | File | `/rapi/read_url` | High
+26 | File | `/scripts/cpan_config` | High
+27 | File | `/scripts/unlock_tasks.php` | High
+28 | File | `/SetTriggerWPS/PIN` | High
+29 | ... | ... | ...
 
-There are 231 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 244 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

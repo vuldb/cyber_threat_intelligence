@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 8 more country items available. Please use our online service to access the data.
+There are 9 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -28,23 +28,24 @@ ID | IP address | Hostname | Campaign | Confidence
 5 | [5.253.114.102](https://vuldb.com/?ip.5.253.114.102) | - | - | High
 6 | [18.192.43.230](https://vuldb.com/?ip.18.192.43.230) | ec2-18-192-43-230.eu-central-1.compute.amazonaws.com | - | Medium
 7 | [18.222.96.210](https://vuldb.com/?ip.18.222.96.210) | ec2-18-222-96-210.us-east-2.compute.amazonaws.com | - | Medium
-8 | [23.101.205.83](https://vuldb.com/?ip.23.101.205.83) | - | - | High
-9 | [31.210.20.129](https://vuldb.com/?ip.31.210.20.129) | - | - | High
-10 | [37.0.8.115](https://vuldb.com/?ip.37.0.8.115) | brownfarmer.capitolreservations.com | - | High
-11 | [37.0.14.195](https://vuldb.com/?ip.37.0.14.195) | - | - | High
-12 | [37.0.14.201](https://vuldb.com/?ip.37.0.14.201) | - | - | High
-13 | [37.0.14.204](https://vuldb.com/?ip.37.0.14.204) | - | - | High
-14 | [37.0.14.211](https://vuldb.com/?ip.37.0.14.211) | - | - | High
-15 | [37.120.141.147](https://vuldb.com/?ip.37.120.141.147) | - | - | High
-16 | [37.120.141.190](https://vuldb.com/?ip.37.120.141.190) | - | - | High
-17 | [37.139.128.51](https://vuldb.com/?ip.37.139.128.51) | - | - | High
-18 | [40.121.49.138](https://vuldb.com/?ip.40.121.49.138) | - | - | High
-19 | [45.77.146.176](https://vuldb.com/?ip.45.77.146.176) | 45.77.146.176.vultrusercontent.com | - | High
-20 | [45.81.39.90](https://vuldb.com/?ip.45.81.39.90) | - | - | High
-21 | [45.81.233.69](https://vuldb.com/?ip.45.81.233.69) | 45.81.233.69.mc-host24.de | - | High
-22 | ... | ... | ... | ...
+8 | [23.95.6.204](https://vuldb.com/?ip.23.95.6.204) | 23-95-6-204-host.colocrossing.com | - | High
+9 | [23.101.205.83](https://vuldb.com/?ip.23.101.205.83) | - | - | High
+10 | [31.210.20.129](https://vuldb.com/?ip.31.210.20.129) | - | - | High
+11 | [37.0.8.115](https://vuldb.com/?ip.37.0.8.115) | brownfarmer.capitolreservations.com | - | High
+12 | [37.0.14.195](https://vuldb.com/?ip.37.0.14.195) | - | - | High
+13 | [37.0.14.201](https://vuldb.com/?ip.37.0.14.201) | - | - | High
+14 | [37.0.14.204](https://vuldb.com/?ip.37.0.14.204) | - | - | High
+15 | [37.0.14.211](https://vuldb.com/?ip.37.0.14.211) | - | - | High
+16 | [37.120.141.147](https://vuldb.com/?ip.37.120.141.147) | - | - | High
+17 | [37.120.141.190](https://vuldb.com/?ip.37.120.141.190) | - | - | High
+18 | [37.139.128.51](https://vuldb.com/?ip.37.139.128.51) | - | - | High
+19 | [40.121.49.138](https://vuldb.com/?ip.40.121.49.138) | - | - | High
+20 | [45.77.146.176](https://vuldb.com/?ip.45.77.146.176) | 45.77.146.176.vultrusercontent.com | - | High
+21 | [45.81.39.90](https://vuldb.com/?ip.45.81.39.90) | - | - | High
+22 | [45.81.233.69](https://vuldb.com/?ip.45.81.233.69) | 45.81.233.69.mc-host24.de | - | High
+23 | ... | ... | ... | ...
 
-There are 84 more IOC items available. Please use our online service to access the data.
+There are 88 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -53,12 +54,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22 | Path Traversal | High
-2 | T1055 | CWE-74 | Injection | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 15 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -73,23 +74,24 @@ ID | Type | Indicator | Confidence
 5 | File | `/api/baskets/{name}` | High
 6 | File | `/api/v4/users/ids` | High
 7 | File | `/apply.cgi` | Medium
-8 | File | `/cgi-bin/wlogin.cgi` | High
-9 | File | `/common/info.cgi` | High
-10 | File | `/debug/pprof` | Medium
-11 | File | `/etc/shadow` | Medium
-12 | File | `/forum/away.php` | High
-13 | File | `/get_getnetworkconf.cgi` | High
-14 | File | `/goform/setmac` | High
-15 | File | `/index.php?p=admin/actions/users/send-password-reset-email` | High
-16 | File | `/integrations.json` | High
-17 | File | `/lists/admin/` | High
-18 | File | `/phppath/php` | Medium
-19 | File | `/project/tasks/list` | High
-20 | File | `/services/details.asp` | High
-21 | File | `/spip.php` | Medium
-22 | ... | ... | ...
+8 | File | `/bbdms/sign-up.php` | High
+9 | File | `/cgi-bin/wlogin.cgi` | High
+10 | File | `/common/info.cgi` | High
+11 | File | `/debug/pprof` | Medium
+12 | File | `/etc/shadow` | Medium
+13 | File | `/forum/away.php` | High
+14 | File | `/get_getnetworkconf.cgi` | High
+15 | File | `/goform/setmac` | High
+16 | File | `/index.php?p=admin/actions/users/send-password-reset-email` | High
+17 | File | `/integrations.json` | High
+18 | File | `/lists/admin/` | High
+19 | File | `/oauth/idp/.well-known/openid-configuration` | High
+20 | File | `/phppath/php` | Medium
+21 | File | `/project/tasks/list` | High
+22 | File | `/services/details.asp` | High
+23 | ... | ... | ...
 
-There are 185 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 190 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -109,6 +111,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://tria.ge/220722-sb92eagbbm
 * https://tria.ge/220727-rxwv8segbr
 * https://twitter.com/petrovic082/status/1580612096152068099
+* https://www.deepinstinct.com/blog/understanding-the-windows-javascript-threat-landscape
 
 ## Literature
 

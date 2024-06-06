@@ -31,12 +31,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059 | CWE-94 | Argument Injection | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-36 | Path Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+4 | T1059 | CWE-94 | Argument Injection | High
+5 | ... | ... | ... | ...
 
-There are 12 more TTP items available. Please use our online service to access the data.
+There are 14 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -48,26 +49,52 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin/action/edit_chicken.php` | High
 3 | File | `/admin/action/new-feed.php` | High
 4 | File | `/admin/add-category.php` | High
-5 | File | `/admin/applicants/controller.php` | High
-6 | File | `/admin/booking-bwdates-reports-details.php` | High
-7 | File | `/admin/book_row.php` | High
-8 | File | `/admin/borrow_add.php` | High
-9 | File | `/admin/cms_admin.php` | High
-10 | File | `/admin/config/uploadicon.php` | High
-11 | File | `/admin/employee/controller.php` | High
-12 | File | `/admin/employee/index.php` | High
-13 | File | `/admin/forgot-password.php` | High
-14 | File | `/admin/pages/update_go.php` | High
-15 | File | `/admin/return_add.php` | High
-16 | File | `/admin/students.php` | High
-17 | File | `/admin/students/manage_academic.php` | High
-18 | File | `/admin/subject.php` | High
-19 | File | `/admin/user/controller.php` | High
-20 | File | `/ajax.php?action=read_msg` | High
-21 | File | `/api/authentication/login` | High
-22 | ... | ... | ...
+5 | File | `/admin/addgiving.php` | High
+6 | File | `/admin/add_ikev2.php` | High
+7 | File | `/admin/admin-profile.php` | High
+8 | File | `/admin/admin_user.php` | High
+9 | File | `/admin/applicants/controller.php` | High
+10 | File | `/admin/booking-bwdates-reports-details.php` | High
+11 | File | `/admin/book_add.php` | High
+12 | File | `/admin/book_row.php` | High
+13 | File | `/admin/borrow_add.php` | High
+14 | File | `/admin/category/view_category.php` | High
+15 | File | `/admin/cms_admin.php` | High
+16 | File | `/admin/config/uploadicon.php` | High
+17 | File | `/admin/content` | High
+18 | File | `/admin/edit.php` | High
+19 | File | `/admin/employee/controller.php` | High
+20 | File | `/admin/employee/index.php` | High
+21 | File | `/admin/forgot-password.php` | High
+22 | File | `/admin/index.php` | High
+23 | File | `/admin/lab.php` | High
+24 | File | `/admin/manage-pages.php` | High
+25 | File | `/admin/pages/update_go.php` | High
+26 | File | `/admin/return_add.php` | High
+27 | File | `/admin/students.php` | High
+28 | File | `/admin/students/manage_academic.php` | High
+29 | File | `/admin/subject.php` | High
+30 | File | `/admin/user/controller.php` | High
+31 | File | `/adminapi/system/file/openfile` | High
+32 | File | `/adminPage/main/upload` | High
+33 | File | `/adminpanel/admin/facebox_modal/updateCourse.php` | High
+34 | File | `/adminpanel/admin/query/deleteExamExe.php` | High
+35 | File | `/admin_ping.htm` | High
+36 | File | `/ajax.php?action=read_msg` | High
+37 | File | `/api/authentication/login` | High
+38 | File | `/api/controllers/admin/app/ComboController.php` | High
+39 | File | `/app/api/controller/collect.php` | High
+40 | File | `/application/index/controller/Databasesource.php` | High
+41 | File | `/application/index/controller/Screen.php` | High
+42 | File | `/apply/index.php` | High
+43 | File | `/apps/login_auth.php` | High
+44 | File | `/bin/boa` | Medium
+45 | File | `/boafrm/formMapDelDevice` | High
+46 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+47 | File | `/cgi-bin/cstecgi.cgi` | High
+48 | ... | ... | ...
 
-There are 183 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 412 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

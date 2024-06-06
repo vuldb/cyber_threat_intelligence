@@ -35,12 +35,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22, CWE-24 | Path Traversal | High
-2 | T1055 | CWE-74 | Injection | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -48,32 +48,34 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/about-us.php` | High
-2 | File | `/admin/article.php` | High
-3 | File | `/admin/countrymanagement.php` | High
-4 | File | `/admin/transactions/track_shipment.php` | High
-5 | File | `/admin/user/manage_user.php` | High
-6 | File | `/administration/settings_registration.php` | High
-7 | File | `/ajax-files/postComment.php` | High
-8 | File | `/application/index/controller/File.php` | High
-9 | File | `/application/index/controller/Screen.php` | High
-10 | File | `/application/websocket/controller/Setting.php` | High
-11 | File | `/auth/auth.php?user=1` | High
-12 | File | `/blog` | Low
-13 | File | `/categorypage.php` | High
-14 | File | `/cgi-bin/cstecgi.cgi` | High
-15 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-16 | File | `/classes/Master.php` | High
-17 | File | `/collection/all` | High
-18 | File | `/general/email/outbox/delete.php` | High
-19 | File | `/home.php` | Medium
-20 | File | `/list_temp_photo_pin_upload.php` | High
-21 | File | `/login` | Low
-22 | File | `/nova/bin/detnet` | High
-23 | File | `/print.php` | Medium
-24 | ... | ... | ...
+1 | File | `/?g=log_import_save` | High
+2 | File | `/admin/about-us.php` | High
+3 | File | `/admin/article.php` | High
+4 | File | `/admin/countrymanagement.php` | High
+5 | File | `/admin/expense-type` | High
+6 | File | `/admin/transactions/track_shipment.php` | High
+7 | File | `/admin/user/manage_user.php` | High
+8 | File | `/administration/settings_registration.php` | High
+9 | File | `/ajax-files/postComment.php` | High
+10 | File | `/application/index/controller/File.php` | High
+11 | File | `/application/index/controller/Screen.php` | High
+12 | File | `/application/websocket/controller/Setting.php` | High
+13 | File | `/auth/auth.php?user=1` | High
+14 | File | `/blog` | Low
+15 | File | `/categorypage.php` | High
+16 | File | `/cgi-bin/cstecgi.cgi` | High
+17 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+18 | File | `/classes/Master.php` | High
+19 | File | `/collection/all` | High
+20 | File | `/general/email/outbox/delete.php` | High
+21 | File | `/home.php` | Medium
+22 | File | `/list_temp_photo_pin_upload.php` | High
+23 | File | `/login` | Low
+24 | File | `/manage_laundry.php` | High
+25 | File | `/manage_receiving.php` | High
+26 | ... | ... | ...
 
-There are 204 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 218 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

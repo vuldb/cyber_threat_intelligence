@@ -36,8 +36,8 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
-2 | T1055 | CWE-74 | Injection | High
+1 | T1006 | CWE-21, CWE-22, CWE-24 | Path Traversal | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
@@ -50,34 +50,45 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/api/` | Low
-2 | File | `/api/addusers` | High
-3 | File | `/api/blade-log/api/list` | High
-4 | File | `/cgi-bin/editBookmark` | High
-5 | File | `/cgi-bin/go` | Medium
-6 | File | `/cgi-bin/system_mgr.cgi` | High
-7 | File | `/cgi-bin/webviewer_login_page` | High
-8 | File | `/client/api/json/v2/nfareports/compareReport` | High
-9 | File | `/dede/file_manage_control.php` | High
-10 | File | `/etc/services/DEVICE.TIME.php` | High
-11 | File | `/forum/away.php` | High
-12 | File | `/horde/imp/search.php` | High
-13 | File | `/index.php` | Medium
-14 | File | `/netflow/jspui/selectDevice.jsp` | High
-15 | File | `/public/login.htm` | High
-16 | File | `/public/login.htm?errormsg=&loginurl=%22%3E%3Csvg%20onload=prompt%28/XSS/%29%3E` | High
-17 | File | `/reports/rwservlet` | High
-18 | File | `/SASWebReportStudio/logonAndRender.do` | High
-19 | File | `/search.htm?searchtext=%22%3E%3Csvg%20onload=prompt%28/XSS/%29%3E` | High
-20 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-21 | File | `/secure/admin/ViewInstrumentation.jspa` | High
-22 | File | `/spip.php` | Medium
-23 | File | `/tab_tariffe.php` | High
-24 | File | `/tmp` | Low
-25 | File | `/tmp/app/.env` | High
-26 | ... | ... | ...
+1 | File | `/admin/edit-admin.php` | High
+2 | File | `/admin/view_sendlist.php` | High
+3 | File | `/adminapi/system/crud` | High
+4 | File | `/api/` | Low
+5 | File | `/api/addusers` | High
+6 | File | `/api/blade-log/api/list` | High
+7 | File | `/application/index/controller/Datament.php` | High
+8 | File | `/application/index/controller/File.php` | High
+9 | File | `/application/index/controller/Screen.php` | High
+10 | File | `/application/index/controller/Service.php` | High
+11 | File | `/att_add.php` | Medium
+12 | File | `/cancel.php` | Medium
+13 | File | `/cgi-bin/cstecgi.cgi` | High
+14 | File | `/cgi-bin/editBookmark` | High
+15 | File | `/cgi-bin/go` | Medium
+16 | File | `/cgi-bin/system_mgr.cgi` | High
+17 | File | `/cgi-bin/webviewer_login_page` | High
+18 | File | `/client/api/json/v2/nfareports/compareReport` | High
+19 | File | `/dede/file_manage_control.php` | High
+20 | File | `/edit.php` | Medium
+21 | File | `/etc/services/DEVICE.TIME.php` | High
+22 | File | `/ext/collect/find_text.do` | High
+23 | File | `/forum/away.php` | High
+24 | File | `/general/email/outbox/delete.php` | High
+25 | File | `/horde/imp/search.php` | High
+26 | File | `/index.php` | Medium
+27 | File | `/log/webmailattach.php` | High
+28 | File | `/myprofile.php` | High
+29 | File | `/netflow/jspui/selectDevice.jsp` | High
+30 | File | `/new_item` | Medium
+31 | File | `/public/login.htm` | High
+32 | File | `/public/login.htm?errormsg=&loginurl=%22%3E%3Csvg%20onload=prompt%28/XSS/%29%3E` | High
+33 | File | `/reports/rwservlet` | High
+34 | File | `/SASWebReportStudio/logonAndRender.do` | High
+35 | File | `/search.htm?searchtext=%22%3E%3Csvg%20onload=prompt%28/XSS/%29%3E` | High
+36 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+37 | ... | ... | ...
 
-There are 214 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 321 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

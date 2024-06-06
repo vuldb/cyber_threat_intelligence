@@ -56,26 +56,27 @@ ID | Type | Indicator | Confidence
 11 | File | `/spip.php` | Medium
 12 | File | `/student/bookdetails.php` | High
 13 | File | `account.asp` | Medium
-14 | File | `add_comment.php` | High
-15 | File | `admin.php` | Medium
-16 | File | `admin/admin_users.php` | High
-17 | File | `admin/conf_users_edit.php` | High
-18 | File | `Admin/edit-admin.php` | High
-19 | File | `admin/establishment/manage.php` | High
-20 | File | `admin/inquiries/view_details.php` | High
-21 | File | `admin/skins.php` | High
-22 | File | `admin/versions.html` | High
-23 | File | `admindocumentworker.jsp` | High
-24 | File | `admin_feature.php` | High
-25 | File | `album_portal.php` | High
-26 | File | `announce.php` | Medium
-27 | File | `apply.cgi` | Medium
-28 | File | `ardguest.php` | Medium
-29 | File | `bb_usage_stats.php` | High
-30 | File | `bwdates-report-result.php` | High
-31 | ... | ... | ...
+14 | File | `addguest.cgi` | Medium
+15 | File | `add_comment.php` | High
+16 | File | `admin.php` | Medium
+17 | File | `admin/admin_users.php` | High
+18 | File | `admin/conf_users_edit.php` | High
+19 | File | `Admin/edit-admin.php` | High
+20 | File | `admin/establishment/manage.php` | High
+21 | File | `admin/inquiries/view_details.php` | High
+22 | File | `admin/skins.php` | High
+23 | File | `admin/versions.html` | High
+24 | File | `admindocumentworker.jsp` | High
+25 | File | `admin_feature.php` | High
+26 | File | `album_portal.php` | High
+27 | File | `announce.php` | Medium
+28 | File | `apply.cgi` | Medium
+29 | File | `ardguest.php` | Medium
+30 | File | `bb_usage_stats.php` | High
+31 | File | `bwdates-report-result.php` | High
+32 | ... | ... | ...
 
-There are 267 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 269 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

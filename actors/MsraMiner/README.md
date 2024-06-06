@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [VN](https://vuldb.com/?country.vn)
 * ...
 
-There are 9 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -38,7 +38,7 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22, CWE-23, CWE-24 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 5 | ... | ... | ... | ...
 
@@ -63,22 +63,22 @@ ID | Type | Indicator | Confidence
 11 | File | `/getcfg.php` | Medium
 12 | File | `/goform/SystemCommand` | High
 13 | File | `/group1/uploa` | High
-14 | File | `/index.php` | Medium
-15 | File | `/jeecg-boot/sys/common/upload` | High
-16 | File | `/out.php` | Medium
-17 | File | `/owa/auth/logon.aspx` | High
-18 | File | `/proc/ioports` | High
-19 | File | `/rest/api/1.0/render` | High
-20 | File | `/rest/collectors/1.0/template/custom` | High
-21 | File | `/rom-0` | Low
-22 | File | `/scdmz.cmd` | Medium
-23 | File | `/ui/artifactimport/upload` | High
-24 | File | `/updown/upload.cgi` | High
-25 | File | `4.2.0.CP03` | Medium
-26 | File | `7786/tcp` | Medium
+14 | File | `/include/file.php` | High
+15 | File | `/index.php` | Medium
+16 | File | `/jeecg-boot/sys/common/upload` | High
+17 | File | `/out.php` | Medium
+18 | File | `/owa/auth/logon.aspx` | High
+19 | File | `/proc/ioports` | High
+20 | File | `/rest/api/1.0/render` | High
+21 | File | `/rest/collectors/1.0/template/custom` | High
+22 | File | `/rom-0` | Low
+23 | File | `/scdmz.cmd` | Medium
+24 | File | `/ui/artifactimport/upload` | High
+25 | File | `/updown/upload.cgi` | High
+26 | File | `/uploads/tags.php` | High
 27 | ... | ... | ...
 
-There are 223 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 229 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

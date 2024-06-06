@@ -62,33 +62,34 @@ ID | Type | Indicator | Confidence
 8 | File | `/forms/doLogin` | High
 9 | File | `/get_getnetworkconf.cgi` | High
 10 | File | `/index.php` | Medium
-11 | File | `/librarian/bookdetails.php` | High
-12 | File | `/messageboard/view.php` | High
-13 | File | `/nova/bin/detnet` | High
-14 | File | `/opensis/modules/users/Staff.php` | High
-15 | File | `/orrs/admin/reservations/view_details.php` | High
-16 | File | `/php_action/createUser.php` | High
-17 | File | `/plugins/servlet/gadgets/makeRequest` | High
-18 | File | `/REBOOTSYSTEM` | High
-19 | File | `/req_password_user.php` | High
-20 | File | `/services` | Medium
-21 | File | `/Setting/change_password_save` | High
-22 | File | `/tmp` | Low
-23 | File | `/uncpath/` | Medium
-24 | File | `/Uploads` | Medium
-25 | File | `/userRpm/MediaServerFoldersCfgRpm.htm` | High
-26 | File | `/WEB-INF/web.xml` | High
-27 | File | `/webconsole/APIController` | High
-28 | File | `/wp-admin/admin-ajax.php` | High
-29 | File | `account.asp` | Medium
-30 | File | `AccountStatus.jsp` | High
-31 | File | `addentry.php` | Medium
-32 | File | `admin.a6mambocredits.php` | High
-33 | File | `admin.cropcanvas.php` | High
-34 | File | `Admin.PHP` | Medium
-35 | ... | ... | ...
+11 | File | `/intrams_sams/manage_student.php` | High
+12 | File | `/librarian/bookdetails.php` | High
+13 | File | `/manage_sy.php` | High
+14 | File | `/messageboard/view.php` | High
+15 | File | `/nova/bin/detnet` | High
+16 | File | `/opensis/modules/users/Staff.php` | High
+17 | File | `/orrs/admin/reservations/view_details.php` | High
+18 | File | `/php_action/createUser.php` | High
+19 | File | `/plugins/servlet/gadgets/makeRequest` | High
+20 | File | `/REBOOTSYSTEM` | High
+21 | File | `/req_password_user.php` | High
+22 | File | `/services` | Medium
+23 | File | `/Setting/change_password_save` | High
+24 | File | `/stockmovment/stockmovment/delete/` | High
+25 | File | `/tmp` | Low
+26 | File | `/uncpath/` | Medium
+27 | File | `/Uploads` | Medium
+28 | File | `/userRpm/MediaServerFoldersCfgRpm.htm` | High
+29 | File | `/view/timetable_update_form.php` | High
+30 | File | `/WEB-INF/web.xml` | High
+31 | File | `/webconsole/APIController` | High
+32 | File | `/wp-admin/admin-ajax.php` | High
+33 | File | `account.asp` | Medium
+34 | File | `AccountStatus.jsp` | High
+35 | File | `addentry.php` | Medium
+36 | ... | ... | ...
 
-There are 298 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 311 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -17,11 +17,11 @@ The following _campaigns_ are known and can be associated with TrickBot:
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with TrickBot:
 
 * [VN](https://vuldb.com/?country.vn)
-* [CN](https://vuldb.com/?country.cn)
-* [US](https://vuldb.com/?country.us)
+* [PL](https://vuldb.com/?country.pl)
+* [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 6 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -427,9 +427,12 @@ ID | IP address | Hostname | Campaign | Confidence
 396 | [58.97.72.83](https://vuldb.com/?ip.58.97.72.83) | 58-97-72-83.static.asianet.co.th | - | High
 397 | [60.51.47.65](https://vuldb.com/?ip.60.51.47.65) | - | - | High
 398 | [61.19.116.53](https://vuldb.com/?ip.61.19.116.53) | - | - | High
-399 | ... | ... | ... | ...
+399 | [61.69.102.170](https://vuldb.com/?ip.61.69.102.170) | 61-69-102-170.mel.static-ipl.aapt.com.au | - | High
+400 | [62.64.9.237](https://vuldb.com/?ip.62.64.9.237) | clients-62.64.9.237.misp.ru | - | High
+401 | [62.69.241.103](https://vuldb.com/?ip.62.69.241.103) | 62-69-241-103.internetia.net.pl | - | High
+402 | ... | ... | ... | ...
 
-There are 1593 more IOC items available. Please use our online service to access the data.
+There are 1602 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -437,14 +440,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Path Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
+5 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 14 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -452,46 +454,30 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/.env` | Low
-2 | File | `/admin/applicants/index.php` | High
-3 | File | `/admin/category/index.php` | High
-4 | File | `/admin/index.php` | High
-5 | File | `/admin/orders/view_order.php` | High
-6 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
-7 | File | `/apps/reg_go.php` | High
-8 | File | `/billing/bill/edit/` | High
-9 | File | `/calendar/minimizer/index.php` | High
-10 | File | `/cgi-bin/cstecgi.cgi` | High
-11 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
-12 | File | `/cgi-bin/mainfunction.cgi` | High
-13 | File | `/cgi-bin/system_mgr.cgi` | High
-14 | File | `/cgi-bin/wlogin.cgi` | High
-15 | File | `/classes/Login.php` | High
-16 | File | `/classes/Users.php` | High
-17 | File | `/debuginfo.htm` | High
-18 | File | `/DXR.axd` | Medium
-19 | File | `/ECT_Provider/` | High
-20 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-21 | File | `/Employer/EditProfile.php` | High
-22 | File | `/fax/fax_send.php` | High
-23 | File | `/forum/away.php` | High
-24 | File | `/goform/` | Medium
-25 | File | `/goform/net\_Web\_get_value` | High
-26 | File | `/h/autoSaveDraft` | High
-27 | File | `/home.php` | Medium
-28 | File | `/Home/Index` | Medium
-29 | File | `/index.php` | Medium
-30 | File | `/install/` | Medium
-31 | File | `/ipms/imageConvert/image` | High
-32 | File | `/member/chat.php` | High
-33 | File | `/member/member_edit.php` | High
-34 | File | `/member/view.php` | High
-35 | File | `/php/ping.php` | High
-36 | File | `/prescription/prescription/delete/` | High
-37 | File | `/pro/common/download` | High
-38 | ... | ... | ...
+1 | File | `/?g=net_pro_keyword_import_save` | High
+2 | File | `/Admin/login.php` | High
+3 | File | `/admin/service_requests/manage_inventory.php` | High
+4 | File | `/adminPage/main/upload` | High
+5 | File | `/adms/admin/?page=vehicles/view_transaction` | High
+6 | File | `/api/v1` | Low
+7 | File | `/app/Http/Controllers/ImageController.php` | High
+8 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
+9 | File | `/applications/nexus/modules/front/store/store.php` | High
+10 | File | `/catalog/all-products` | High
+11 | File | `/changePassword` | High
+12 | File | `/classes/Users.php?f=save` | High
+13 | File | `/control/register_case.php` | High
+14 | File | `/core/config-revisions` | High
+15 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
+16 | File | `/DXR.axd` | Medium
+17 | File | `/forum/away.php` | High
+18 | File | `/goform/SetSysTimeCfg` | High
+19 | File | `/hrm/leaverequest.php` | High
+20 | File | `/lesson/controller.php` | High
+21 | File | `/mailcleaner.php/getStats` | High
+22 | ... | ... | ...
 
-There are 325 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 180 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -566,6 +552,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blogs.infoblox.com/cyber-threat-intelligence/ransomware-attacks-target-healthcare-sector/
 * https://community.blueliv.com/#!/s/611a51a282df413eb235470a
 * https://community.blueliv.com/#!/s/60414fc982df413eaf34607d
+* https://ddanchev.blogspot.com/2023/02/
 * https://ddanchev.blogspot.com/2023/02/exposing-trickbots-bitzlato.html
 * https://decoded.avast.io/martinhron/meris-and-trickbot-standing-on-the-shoulders-of-giants/
 * https://exchange.xforce.ibmcloud.com/report/details/guid:b5f95c5f2b6cfa6f560de99a1a2dd371
@@ -609,6 +596,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://unit42.paloaltonetworks.com/goodbye-mworm-hello-nworm-trickbot-updates-propagation-module/
 * https://viz.greynoise.io/tag/trickbot-scanner
 * https://www.cyber45.com
+* https://www.deepinstinct.com/blog/trickbooster-trickbots-email-based-infection-module
 * https://www.fortinet.com/blog/threat-research/new-variant-of-trickbot-being-spread-by-word-document.html
 
 ## Literature

@@ -62,9 +62,10 @@ ID | Type | Indicator | Confidence
 12 | File | `/user/settings` | High
 13 | File | `/usr/bin/pkexec` | High
 14 | File | `/xAdmin/html/cm_doclist_view_uc.jsp` | High
-15 | ... | ... | ...
+15 | File | `adclick.php` | Medium
+16 | ... | ... | ...
 
-There are 123 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 124 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

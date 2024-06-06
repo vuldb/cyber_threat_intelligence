@@ -4,6 +4,12 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.mongolia_unknown](https://vuldb.com/?actor.mongolia_unknown)
 
+## Countries
+
+These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Mongolia Unknown:
+
+* [JP](https://vuldb.com/?country.jp)
+
 ## IOC - Indicator of Compromise
 
 These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of Mongolia Unknown.
@@ -45,9 +51,10 @@ ID | IP address | Hostname | Campaign | Confidence
 33 | [43.242.240.0](https://vuldb.com/?ip.43.242.240.0) | - | - | High
 34 | [43.243.160.0](https://vuldb.com/?ip.43.243.160.0) | - | - | High
 35 | [43.250.124.0](https://vuldb.com/?ip.43.250.124.0) | sv190823124-0.wicom4pro.com | - | High
-36 | ... | ... | ... | ...
+36 | [45.12.70.148](https://vuldb.com/?ip.45.12.70.148) | shelling.alltieinc.com | - | High
+37 | ... | ... | ... | ...
 
-There are 141 more IOC items available. Please use our online service to access the data.
+There are 145 more IOC items available. Please use our online service to access the data.
 
 ## References
 
@@ -56,6 +63,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://github.com/firehol/blocklist-ipsets/blob/master/geolite2_country/country_mn.netset
 * https://github.com/firehol/blocklist-ipsets/blob/master/ip2location_country/ip2location_country_mn.netset
 * https://github.com/firehol/blocklist-ipsets/blob/master/ipip_country/ipip_country_mn.netset
+* https://github.com/scriptzteam/Private-Internet-Access-VPN-Servers/blob/main/export.csv
 
 ## Literature
 

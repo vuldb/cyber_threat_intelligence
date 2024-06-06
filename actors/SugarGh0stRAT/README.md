@@ -4,6 +4,12 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.sugargh0strat](https://vuldb.com/?actor.sugargh0strat)
 
+## Campaigns
+
+The following _campaigns_ are known and can be associated with SugarGh0stRAT:
+
+* American Artificial Intelligence Experts
+
 ## Countries
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with SugarGh0stRAT:
@@ -16,8 +22,9 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [103.108.67.191](https://vuldb.com/?ip.103.108.67.191) | - | - | High
-2 | [103.148.245.235](https://vuldb.com/?ip.103.148.245.235) | - | - | High
+1 | [43.242.203.115](https://vuldb.com/?ip.43.242.203.115) | - | American Artificial Intelligence Experts | High
+2 | [103.108.67.191](https://vuldb.com/?ip.103.108.67.191) | - | - | High
+3 | [103.148.245.235](https://vuldb.com/?ip.103.148.245.235) | - | - | High
 
 ## References
 
@@ -25,6 +32,7 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://blog.talosintelligence.com/new-sugargh0st-rat/
 * https://github.com/Cisco-Talos/IOCs/blob/main/2023/11/new-sugargh0st-rat.txt
+* https://www.proofpoint.com/us/blog/threat-insight/security-brief-artificial-sweetener-sugargh0st-rat-used-target-american
 
 ## Literature
 

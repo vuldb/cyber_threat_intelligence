@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -44,7 +44,7 @@ ID | IP address | Hostname | Campaign | Confidence
 21 | [45.142.215.92](https://vuldb.com/?ip.45.142.215.92) | vm586875.stark-industries.solutions | - | High
 22 | ... | ... | ... | ...
 
-There are 83 more IOC items available. Please use our online service to access the data.
+There are 85 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -72,33 +72,33 @@ ID | Type | Indicator | Confidence
 3 | File | `/admin/about-us.php` | High
 4 | File | `/admin/action/delete-vaccine.php` | High
 5 | File | `/admin/del_feedback.php` | High
-6 | File | `/admin/index2.html` | High
-7 | File | `/admin/modal_add_product.php` | High
-8 | File | `/admin/positions_add.php` | High
-9 | File | `/admin/user/manage_user.php` | High
+6 | File | `/admin/edit-post.php` | High
+7 | File | `/admin/index2.html` | High
+8 | File | `/admin/modal_add_product.php` | High
+9 | File | `/admin/positions_add.php` | High
 10 | File | `/ajax.php?action=save_company` | High
 11 | File | `/ajax.php?action=save_user` | High
-12 | File | `/ajax/myshop` | Medium
-13 | File | `/api/baskets/{name}` | High
-14 | File | `/api/database` | High
-15 | File | `/app/index/controller/Common.php` | High
-16 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
-17 | File | `/App_Resource/UEditor/server/upload.aspx` | High
-18 | File | `/authenticationendpoint/login.do` | High
-19 | File | `/backup.pl` | Medium
-20 | File | `/bitrix/admin/ldap_server_edit.php` | High
-21 | File | `/c/PluginsController.php` | High
-22 | File | `/cas/logout` | Medium
-23 | File | `/category.php` | High
-24 | File | `/cgi-bin/system_mgr.cgi` | High
-25 | File | `/chaincity/user/ticket/create` | High
+12 | File | `/api/baskets/{name}` | High
+13 | File | `/api/database` | High
+14 | File | `/app/index/controller/Common.php` | High
+15 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
+16 | File | `/App_Resource/UEditor/server/upload.aspx` | High
+17 | File | `/authenticationendpoint/login.do` | High
+18 | File | `/backup.pl` | Medium
+19 | File | `/bitrix/admin/ldap_server_edit.php` | High
+20 | File | `/c/PluginsController.php` | High
+21 | File | `/cas/logout` | Medium
+22 | File | `/category.php` | High
+23 | File | `/cgi-bin/nas_sharing.cgi` | High
+24 | File | `/chaincity/user/ticket/create` | High
+25 | File | `/classes/Master.php?f=save_category` | High
 26 | File | `/collection/all` | High
 27 | File | `/contactform/contactform.php` | High
 28 | File | `/Controller/Ajaxfileupload.ashx` | High
-29 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
-30 | File | `/dcim/rack-roles/` | High
-31 | File | `/ecommerce/support_ticket` | High
-32 | File | `/ecrire/exec/puce_statut.php` | High
+29 | File | `/dcim/rack-roles/` | High
+30 | File | `/ecommerce/support_ticket` | High
+31 | File | `/ecrire/exec/puce_statut.php` | High
+32 | File | `/fftools/ffmpeg_enc.c` | High
 33 | File | `/files/` | Low
 34 | File | `/forms/doLogin` | High
 35 | File | `/forum/away.php` | High
@@ -108,15 +108,17 @@ ID | Type | Indicator | Confidence
 39 | File | `/index.php` | Medium
 40 | File | `/index.php/client/message/message_read/xxxxxxxx[random-msg-hash]` | High
 41 | File | `/index.php?app=main&func=passport&action=login` | High
-42 | ... | ... | ...
+42 | File | `/index.php?s=/article/ApiAdminArticle/itemAdd` | High
+43 | ... | ... | ...
 
-There are 365 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 371 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://community.blueliv.com/#!/s/610bc7b082df417ed032f5f1
+* https://de.darktrace.com/blog/the-last-of-its-kind-analysis-of-a-raccoon-stealer-v1-infection-part-1
 * https://github.com/SEKOIA-IO/Community/blob/main/IOCs/raccoonstealer/raccoon_stealer_iocs_20220628.csv
 * https://www.zerofox.com/blog/brief-raccoon-stealer-version-2-0/
 

@@ -113,7 +113,7 @@ ID | Type | Indicator | Confidence
 63 | File | `blogger-importer.php` | High
 64 | ... | ... | ...
 
-There are 564 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 565 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -40,13 +40,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
-2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
+1 | T1006 | CWE-21, CWE-22, CWE-24 | Path Traversal | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -55,21 +55,22 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/dl_sendmail.php` | High
-2 | File | `/api/baskets/{name}` | High
-3 | File | `/api/v2/cli/commands` | High
-4 | File | `/DXR.axd` | Medium
-5 | File | `/forum/away.php` | High
-6 | File | `/novel/bookSetting/list` | High
-7 | File | `/novel/userFeedback/list` | High
-8 | File | `/owa/auth/logon.aspx` | High
-9 | File | `/spip.php` | Medium
-10 | File | `/zm/index.php` | High
-11 | File | `adclick.php` | Medium
-12 | File | `admin.jcomments.php` | High
-13 | File | `application/modules/admin/views/ecommerce/products.php` | High
-14 | ... | ... | ...
+2 | File | `/adminPage/conf/reload` | High
+3 | File | `/api/baskets/{name}` | High
+4 | File | `/api/v2/cli/commands` | High
+5 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
+6 | File | `/DXR.axd` | Medium
+7 | File | `/forum/away.php` | High
+8 | File | `/mfsNotice/page` | High
+9 | File | `/novel/bookSetting/list` | High
+10 | File | `/novel/userFeedback/list` | High
+11 | File | `/owa/auth/logon.aspx` | High
+12 | File | `/spip.php` | Medium
+13 | File | `/x_portal_assemble_surface/jaxrs/portal/list?v=8.2.3-4-43f4fe3` | High
+14 | File | `/zm/index.php` | High
+15 | ... | ... | ...
 
-There are 106 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 124 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

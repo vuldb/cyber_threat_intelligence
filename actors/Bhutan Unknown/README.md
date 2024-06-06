@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Bhutan Unknown:
 
 * [US](https://vuldb.com/?country.us)
+* [GB](https://vuldb.com/?country.gb)
 * [ES](https://vuldb.com/?country.es)
-* [FR](https://vuldb.com/?country.fr)
 * ...
 
 There are 24 more country items available. Please use our online service to access the data.
@@ -50,7 +50,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-24 | Path Traversal | High
-2 | T1055 | CWE-74 | Injection | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
@@ -77,44 +77,45 @@ ID | Type | Indicator | Confidence
 12 | File | `/admin/payment.php` | High
 13 | File | `/admin/show.php` | High
 14 | File | `/api/file_uploader.php` | High
-15 | File | `/boat/login.php` | High
-16 | File | `/clinic/disease_symptoms_view.php` | High
-17 | File | `/default.php?idx=17` | High
-18 | File | `/download` | Medium
-19 | File | `/env` | Low
-20 | File | `/forum/away.php` | High
-21 | File | `/include/commrecc.inc.php` | High
-22 | File | `/index.php` | Medium
-23 | File | `/Main_AdmStatus_Content.asp` | High
-24 | File | `/opt/bin/cli` | Medium
-25 | File | `/out.php` | Medium
-26 | File | `/p` | Low
-27 | File | `/patient/doctors.php` | High
-28 | File | `/phpinventory/editcategory.php` | High
-29 | File | `/product-list.php` | High
-30 | File | `/setup/finish` | High
-31 | File | `/spip.php` | Medium
-32 | File | `/system-info/health` | High
-33 | File | `/uncpath/` | Medium
-34 | File | `/updown/upload.cgi` | High
-35 | File | `/user/del.php` | High
-36 | File | `/wp-admin/admin-ajax.php` | High
-37 | File | `/_next` | Low
-38 | File | `123flashchat.php` | High
-39 | File | `act.php` | Low
-40 | File | `admin.php/pay` | High
-41 | File | `admin/bad.php` | High
-42 | File | `admin/index.php` | High
-43 | File | `admin/index.php/user/del/1` | High
-44 | File | `admin/index.php?id=themes&action=edit_chunk` | High
-45 | File | `admin/loginform.php` | High
-46 | File | `admin/products/controller.php?action=add` | High
-47 | File | `administrator/components/com_media/helpers/media.php` | High
-48 | File | `administrator/index.php` | High
-49 | File | `administrator/mail/download.cfm` | High
-50 | ... | ... | ...
+15 | File | `/backend/register.php` | High
+16 | File | `/boat/login.php` | High
+17 | File | `/clinic/disease_symptoms_view.php` | High
+18 | File | `/default.php?idx=17` | High
+19 | File | `/doctor/view-appointment-detail.php` | High
+20 | File | `/download` | Medium
+21 | File | `/edit-client-details.php` | High
+22 | File | `/env` | Low
+23 | File | `/forum/away.php` | High
+24 | File | `/include/commrecc.inc.php` | High
+25 | File | `/index.php` | Medium
+26 | File | `/Main_AdmStatus_Content.asp` | High
+27 | File | `/opt/bin/cli` | Medium
+28 | File | `/out.php` | Medium
+29 | File | `/p` | Low
+30 | File | `/patient/doctors.php` | High
+31 | File | `/phpinventory/editcategory.php` | High
+32 | File | `/product-list.php` | High
+33 | File | `/setup/finish` | High
+34 | File | `/spip.php` | Medium
+35 | File | `/system-info/health` | High
+36 | File | `/uncpath/` | Medium
+37 | File | `/updown/upload.cgi` | High
+38 | File | `/user/del.php` | High
+39 | File | `/wp-admin/admin-ajax.php` | High
+40 | File | `/_next` | Low
+41 | File | `123flashchat.php` | High
+42 | File | `act.php` | Low
+43 | File | `admin.php/pay` | High
+44 | File | `admin/bad.php` | High
+45 | File | `admin/index.php` | High
+46 | File | `admin/index.php/user/del/1` | High
+47 | File | `admin/index.php?id=themes&action=edit_chunk` | High
+48 | File | `admin/loginform.php` | High
+49 | File | `admin/products/controller.php?action=add` | High
+50 | File | `administrator/components/com_media/helpers/media.php` | High
+51 | ... | ... | ...
 
-There are 438 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 447 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

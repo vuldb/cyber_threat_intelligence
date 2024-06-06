@@ -124,7 +124,7 @@ ID | Type | Indicator | Confidence
 64 | File | `bluegate_seo.inc.php` | High
 65 | ... | ... | ...
 
-There are 567 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 568 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

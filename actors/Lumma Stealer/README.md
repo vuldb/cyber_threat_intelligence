@@ -43,9 +43,10 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+6 | ... | ... | ... | ...
 
-There are 16 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -72,23 +73,24 @@ ID | Type | Indicator | Confidence
 17 | File | `/pages/processlogin.php` | High
 18 | File | `/php/ping.php` | High
 19 | File | `/rapi/read_url` | High
-20 | File | `/scripts/unlock_tasks.php` | High
-21 | File | `/student/bookdetails.php` | High
-22 | File | `/SysInfo1.htm` | High
-23 | File | `/sysinfo_json.cgi` | High
-24 | File | `/system/user/modules/mod_users/controller.php` | High
-25 | File | `/uncpath/` | Medium
-26 | File | `/usr/local/psa/admin/sbin/wrapper` | High
-27 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
-28 | File | `123flashchat.php` | High
-29 | File | `account.asp` | Medium
-30 | File | `admin.jcomments.php` | High
-31 | File | `admin.php` | Medium
-32 | File | `admin/?page=system_info` | High
-33 | File | `admin/conf_users_edit.php` | High
-34 | ... | ... | ...
+20 | File | `/register.php` | High
+21 | File | `/scripts/unlock_tasks.php` | High
+22 | File | `/student/bookdetails.php` | High
+23 | File | `/SysInfo1.htm` | High
+24 | File | `/sysinfo_json.cgi` | High
+25 | File | `/system/user/modules/mod_users/controller.php` | High
+26 | File | `/uncpath/` | Medium
+27 | File | `/usr/local/psa/admin/sbin/wrapper` | High
+28 | File | `/version.js` | Medium
+29 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
+30 | File | `123flashchat.php` | High
+31 | File | `account.asp` | Medium
+32 | File | `addguest.cgi` | Medium
+33 | File | `admin.jcomments.php` | High
+34 | File | `admin.php` | Medium
+35 | ... | ... | ...
 
-There are 294 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 304 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

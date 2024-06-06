@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [IO](https://vuldb.com/?country.io)
 * ...
 
-There are 16 more country items available. Please use our online service to access the data.
+There are 18 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -3242,9 +3242,45 @@ ID | IP address | Hostname | Campaign | Confidence
 3219 | [45.148.173.194](https://vuldb.com/?ip.45.148.173.194) | lo1.icn1-cyclamen.net.rhe.jp | - | High
 3220 | [45.148.173.197](https://vuldb.com/?ip.45.148.173.197) | lo1.oft1-daisy.net.rhe.jp | - | High
 3221 | [45.148.173.198](https://vuldb.com/?ip.45.148.173.198) | lo1.oft1-marigold.net.rhe.jp | - | High
-3222 | ... | ... | ... | ...
+3222 | [45.148.173.200](https://vuldb.com/?ip.45.148.173.200) | - | - | High
+3223 | [45.148.173.204](https://vuldb.com/?ip.45.148.173.204) | - | - | High
+3224 | [45.148.173.206](https://vuldb.com/?ip.45.148.173.206) | lo1.tky8-indigo.net.rhe.jp | - | High
+3225 | [45.148.173.208](https://vuldb.com/?ip.45.148.173.208) | - | - | High
+3226 | [45.148.173.210](https://vuldb.com/?ip.45.148.173.210) | - | - | High
+3227 | [45.148.173.212](https://vuldb.com/?ip.45.148.173.212) | - | - | High
+3228 | [45.148.173.216](https://vuldb.com/?ip.45.148.173.216) | - | - | High
+3229 | [45.148.173.224](https://vuldb.com/?ip.45.148.173.224) | - | - | High
+3230 | [45.148.174.68](https://vuldb.com/?ip.45.148.174.68) | - | - | High
+3231 | [45.148.174.72](https://vuldb.com/?ip.45.148.174.72) | - | - | High
+3232 | [45.148.174.80](https://vuldb.com/?ip.45.148.174.80) | - | - | High
+3233 | [45.148.174.83](https://vuldb.com/?ip.45.148.174.83) | - | - | High
+3234 | [45.148.174.84](https://vuldb.com/?ip.45.148.174.84) | - | - | High
+3235 | [45.148.174.88](https://vuldb.com/?ip.45.148.174.88) | - | - | High
+3236 | [45.148.174.96](https://vuldb.com/?ip.45.148.174.96) | - | - | High
+3237 | [45.148.174.128](https://vuldb.com/?ip.45.148.174.128) | - | - | High
+3238 | [45.148.174.206](https://vuldb.com/?ip.45.148.174.206) | - | - | High
+3239 | [45.148.174.208](https://vuldb.com/?ip.45.148.174.208) | - | - | High
+3240 | [45.148.174.224](https://vuldb.com/?ip.45.148.174.224) | - | - | High
+3241 | [45.148.175.0](https://vuldb.com/?ip.45.148.175.0) | - | - | High
+3242 | [45.149.4.0](https://vuldb.com/?ip.45.149.4.0) | - | - | High
+3243 | [45.149.156.0](https://vuldb.com/?ip.45.149.156.0) | - | - | High
+3244 | [45.150.52.0](https://vuldb.com/?ip.45.150.52.0) | - | - | High
+3245 | [45.150.54.0](https://vuldb.com/?ip.45.150.54.0) | - | - | High
+3246 | [45.151.1.0](https://vuldb.com/?ip.45.151.1.0) | - | - | High
+3247 | [45.151.44.0](https://vuldb.com/?ip.45.151.44.0) | - | - | High
+3248 | [45.151.180.0](https://vuldb.com/?ip.45.151.180.0) | - | - | High
+3249 | [45.152.113.0](https://vuldb.com/?ip.45.152.113.0) | - | - | High
+3250 | [45.152.216.0](https://vuldb.com/?ip.45.152.216.0) | - | - | High
+3251 | [45.154.24.0](https://vuldb.com/?ip.45.154.24.0) | - | - | High
+3252 | [45.154.105.0](https://vuldb.com/?ip.45.154.105.0) | - | - | High
+3253 | [45.154.254.250](https://vuldb.com/?ip.45.154.254.250) | - | - | High
+3254 | [45.155.220.0](https://vuldb.com/?ip.45.155.220.0) | - | - | High
+3255 | [45.156.52.0](https://vuldb.com/?ip.45.156.52.0) | - | - | High
+3256 | [45.158.181.0](https://vuldb.com/?ip.45.158.181.0) | - | - | High
+3257 | [45.159.20.0](https://vuldb.com/?ip.45.159.20.0) | - | - | High
+3258 | ... | ... | ... | ...
 
-There are 12885 more IOC items available. Please use our online service to access the data.
+There are 13029 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -3252,13 +3288,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-25, CWE-36 | Path Traversal | High
-2 | T1055 | CWE-74 | Injection | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-36, CWE-425 | Path Traversal | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 16 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -3268,67 +3304,71 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.alerts-security.alerts-{space_id}` | High
 2 | File | `/#ilang=DE&b=c_smartenergy_swgroups` | High
-3 | File | `/Account/login.php` | High
-4 | File | `/admin.php/appcenter/local.html?type=addon` | High
-5 | File | `/admin.php?p=/Area/index#tab=t2` | High
-6 | File | `/admin/` | Low
-7 | File | `/admin/?setting-base.htm` | High
-8 | File | `/admin/action/delete-vaccine.php` | High
-9 | File | `/admin/borrow_add.php` | High
-10 | File | `/admin/clientview.php` | High
-11 | File | `/admin/controller/JobLogController.java` | High
-12 | File | `/admin/edit_teacher.php` | High
-13 | File | `/admin/index2.html` | High
-14 | File | `/admin/list_ipAddressPolicy.php` | High
-15 | File | `/admin/pages/edit_chicken.php` | High
-16 | File | `/admin/pages/student-print.php` | High
-17 | File | `/admin/read.php?mudi=announContent` | High
-18 | File | `/admin/slide/update` | High
-19 | File | `/admin/view_sendlist.php` | High
-20 | File | `/adminapi/system/crud` | High
-21 | File | `/adminapi/system/file/openfile` | High
-22 | File | `/admin_route/dec_service_credits.php` | High
-23 | File | `/admin_route/inc_service_credits.php` | High
-24 | File | `/api/controllers/admin/app/AppController.php` | High
-25 | File | `/api/controllers/common/UploadsController.php` | High
-26 | File | `/api/log/killJob` | High
-27 | File | `/api/snapshot and /api/get_log_file` | High
-28 | File | `/api /v3/auth` | High
-29 | File | `/api/v4/teams//channels/deleted` | High
-30 | File | `/app/api/controller/caiji.php` | High
-31 | File | `/app/controller/Setup.php` | High
-32 | File | `/app/Http/Controllers/ImageController.php` | High
-33 | File | `/app/index/controller/Common.php` | High
-34 | File | `/application/index/common.php` | High
+3 | File | `/+CSCOE+/logon.html` | High
+4 | File | `/Account/login.php` | High
+5 | File | `/admin.php/admin/art/data.html` | High
+6 | File | `/admin.php/appcenter/local.html?type=addon` | High
+7 | File | `/admin.php?c=upload&f=zip&_noCache=0.1683794968` | High
+8 | File | `/admin.php?p=/Area/index#tab=t2` | High
+9 | File | `/admin/` | Low
+10 | File | `/admin/action/update-deworm.php` | High
+11 | File | `/Admin/changepassword.php` | High
+12 | File | `/admin/court` | Medium
+13 | File | `/Admin/createClass.php` | High
+14 | File | `/admin/general-setting` | High
+15 | File | `/admin/list_ipAddressPolicy.php` | High
+16 | File | `/admin/list_resource_icon.php?action=delete` | High
+17 | File | `/admin/maintenance/manage_brand.php` | High
+18 | File | `/admin/orders/view_order.php` | High
+19 | File | `/admin/problem_judge.php` | High
+20 | File | `/admin/read.php?mudi=announContent` | High
+21 | File | `/admin/service` | High
+22 | File | `/admin/view_sendlist.php` | High
+23 | File | `/adminapi/system/crud` | High
+24 | File | `/adminapi/system/file/openfile` | High
+25 | File | `/adminPage/conf/reload` | High
+26 | File | `/admin_route/dec_service_credits.php` | High
+27 | File | `/api/blade-user/export-user` | High
+28 | File | `/api/controllers/admin/app/AppController.php` | High
+29 | File | `/api/controllers/common/UploadsController.php` | High
+30 | File | `/api/v4/teams//channels/deleted` | High
+31 | File | `/api/wechat/app_auth` | High
+32 | File | `/api/{org_id}/users` | High
+33 | File | `/app/controller/Setup.php` | High
+34 | File | `/app/middleware/TokenVerify.php` | High
 35 | File | `/application/index/controller/Databasesource.php` | High
 36 | File | `/application/index/controller/Icon.php` | High
 37 | File | `/application/index/controller/Pay.php` | High
-38 | File | `/application/pay/controller/Api.php` | High
-39 | File | `/assets/php/upload.php` | High
-40 | File | `/auth/auth.php?user=1` | High
-41 | File | `/b2b-supermarket/shopping-cart` | High
-42 | File | `/cgi-bin/cstecgi.cgi` | High
-43 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-44 | File | `/cgi-bin/login.cgi` | High
-45 | File | `/change-language/de_DE` | High
-46 | File | `/churchcrm/WhyCameEditor.php` | High
-47 | File | `/classes/Master.php?f=delete_category` | High
-48 | File | `/config/getuser` | High
-49 | File | `/Content/Plugins/uploader/FileChoose.html?fileUrl=/Upload/File/Pics/&parent` | High
-50 | File | `/core/admin/categories.php` | High
-51 | File | `/cupseasylive/taxstructuredisplay.php` | High
-52 | File | `/debug/pprof` | Medium
-53 | File | `/dede/sys_sql_query.php` | High
-54 | File | `/devinfo` | Medium
-55 | ... | ... | ...
+38 | File | `/assets/php/upload.php` | High
+39 | File | `/b2b-supermarket/shopping-cart` | High
+40 | File | `/blog/blog.php` | High
+41 | File | `/cancel.php` | Medium
+42 | File | `/catalog/admin/categories.php?cPath=&action=new_product` | High
+43 | File | `/category.php` | High
+44 | File | `/cgi-bin/cstecgi.cgi` | High
+45 | File | `/cgi-bin/kerbynet` | High
+46 | File | `/cgi-bin/nas_sharing.cgi` | High
+47 | File | `/classes/Master.php?f=view_item` | High
+48 | File | `/classes/Users.php?f=save` | High
+49 | File | `/College/admin/teacher.php` | High
+50 | File | `/config/myfield/test.php` | High
+51 | File | `/control/register_case.php` | High
+52 | File | `/dayrui/My/Config/Install.txt` | High
+53 | File | `/download` | Medium
+54 | File | `/dus/fotos_grafiken/index.php` | High
+55 | File | `/dus/shopliste/index.php` | High
+56 | File | `/dus_en/medieninfo_detail/index.php` | High
+57 | File | `/edit.php` | Medium
+58 | ... | ... | ...
 
-There are 479 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 502 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://github.com/firehol/blocklist-ipsets/blob/master/geolite2_country/country_jp.netset
+* https://github.com/scriptzteam/Private-Internet-Access-VPN-Servers/blob/main/export.csv
 * https://raw.githubusercontent.com/firehol/blocklist-ipsets/master/ip2location_country/ip2location_country_jp.netset
 * https://raw.githubusercontent.com/firehol/blocklist-ipsets/master/ipip_country/ipip_country_jp.netset
 

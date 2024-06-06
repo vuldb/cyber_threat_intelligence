@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ZA](https://vuldb.com/?country.za)
 * ...
 
-There are 3 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -238,9 +238,14 @@ ID | IP address | Hostname | Campaign | Confidence
 209 | [41.242.114.195](https://vuldb.com/?ip.41.242.114.195) | - | - | High
 210 | [41.242.114.196](https://vuldb.com/?ip.41.242.114.196) | - | - | High
 211 | [41.242.114.199](https://vuldb.com/?ip.41.242.114.199) | - | - | High
-212 | ... | ... | ... | ...
+212 | [41.242.114.200](https://vuldb.com/?ip.41.242.114.200) | - | - | High
+213 | [41.242.114.208](https://vuldb.com/?ip.41.242.114.208) | - | - | High
+214 | [41.242.114.224](https://vuldb.com/?ip.41.242.114.224) | - | - | High
+215 | [41.245.128.0](https://vuldb.com/?ip.41.245.128.0) | - | - | High
+216 | [45.12.70.165](https://vuldb.com/?ip.45.12.70.165) | operator-expr.alltieinc.com | - | High
+217 | ... | ... | ... | ...
 
-There are 842 more IOC items available. Please use our online service to access the data.
+There are 862 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -248,12 +253,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-2 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
-3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+1 | T1006 | CWE-22 | Path Traversal | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 4 | ... | ... | ... | ...
 
-There are 8 more TTP items available. Please use our online service to access the data.
+There are 10 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -261,12 +266,12 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `advsearch_h.asp` | High
-2 | File | `C:\Wamp64` | Medium
-3 | File | `comersus_optreviewreadexec.asp` | High
+1 | File | `/cgi-bin/cstecgi.cgi` | High
+2 | File | `advsearch_h.asp` | High
+3 | File | `app/api/songs.py` | High
 4 | ... | ... | ...
 
-There are 19 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 24 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -276,6 +281,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://github.com/firehol/blocklist-ipsets/blob/master/geolite2_country/country_ng.netset
 * https://github.com/firehol/blocklist-ipsets/blob/master/ip2location_country/ip2location_country_ng.netset
 * https://github.com/firehol/blocklist-ipsets/blob/master/ipip_country/ipip_country_ng.netset
+* https://github.com/scriptzteam/Private-Internet-Access-VPN-Servers/blob/main/export.csv
 
 ## Literature
 

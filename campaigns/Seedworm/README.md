@@ -55,30 +55,32 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/cgi-bin/cstecgi.cgi` | High
-2 | File | `/cgi-bin/wlogin.cgi` | High
-3 | File | `/DesignTools/CssEditor.aspx` | High
-4 | File | `/dev/tty` | Medium
-5 | File | `/Duty/AjaxHandle/UpLoadFloodPlanFile.ashx` | High
-6 | File | `/etc/keystone/user-project-map.json` | High
-7 | File | `/etc/passwd` | Medium
-8 | File | `/forum/away.php` | High
-9 | File | `/movie.php` | Medium
-10 | File | `/out.php` | Medium
-11 | File | `/pet_shop/admin/?page=inventory/manage_inventory` | High
-12 | File | `/phppath/php` | Medium
-13 | File | `/search_events.php` | High
-14 | File | `/StartingPage/link_req_2.php` | High
-15 | File | `/user/s.php` | Medium
-16 | File | `/vendor` | Low
-17 | File | `/ViewUserHover.jspa` | High
-18 | File | `adclick.php` | Medium
-19 | File | `admin.php` | Medium
-20 | File | `admin/AJAX_lookup_handler.php` | High
-21 | File | `admin/general.php` | High
-22 | ... | ... | ...
+1 | File | `/admin/maintenance/manage_brand.php` | High
+2 | File | `/api/admin` | Medium
+3 | File | `/cgi-bin/cstecgi.cgi` | High
+4 | File | `/cgi-bin/nas_sharing.cgi` | High
+5 | File | `/cgi-bin/wlogin.cgi` | High
+6 | File | `/check_availability.php` | High
+7 | File | `/control/register_case.php` | High
+8 | File | `/DesignTools/CssEditor.aspx` | High
+9 | File | `/dev/tty` | Medium
+10 | File | `/Duty/AjaxHandle/UpLoadFloodPlanFile.ashx` | High
+11 | File | `/etc/keystone/user-project-map.json` | High
+12 | File | `/etc/passwd` | Medium
+13 | File | `/forum/away.php` | High
+14 | File | `/manage/IPSetup.php` | High
+15 | File | `/movie.php` | Medium
+16 | File | `/ndmComponents.js` | High
+17 | File | `/newdriver.php` | High
+18 | File | `/out.php` | Medium
+19 | File | `/pet_shop/admin/?page=inventory/manage_inventory` | High
+20 | File | `/phppath/php` | Medium
+21 | File | `/register.php` | High
+22 | File | `/search_events.php` | High
+23 | File | `/StartingPage/link_req_2.php` | High
+24 | ... | ... | ...
 
-There are 186 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 204 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

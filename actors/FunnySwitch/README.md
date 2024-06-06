@@ -58,7 +58,8 @@ ID | Type | Indicator | Confidence
 9 | File | `addentry.php` | Medium
 10 | File | `admin/conf_users_edit.php` | High
 11 | File | `admin/write-post.php` | High
-12 | ... | ... | ...
+12 | File | `archiver\index.php` | High
+13 | ... | ... | ...
 
 There are 97 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 

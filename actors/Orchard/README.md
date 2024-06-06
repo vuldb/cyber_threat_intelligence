@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [IR](https://vuldb.com/?country.ir)
 * ...
 
-There are 4 more country items available. Please use our online service to access the data.
+There are 5 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -34,7 +34,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Path Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
@@ -53,32 +53,34 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin/bookings/view_details.php` | High
 3 | File | `/admin/edit.php` | High
 4 | File | `/admin/maintenance/view_designation.php` | High
-5 | File | `/admin/profile/save_profile` | High
-6 | File | `/admin/reports.php` | High
-7 | File | `/api/v1/chat.getThreadsList` | High
-8 | File | `/App_Resource/UEditor/server/upload.aspx` | High
-9 | File | `/bin/sh` | Low
-10 | File | `/cgi-bin/luci/api/diagnose` | High
-11 | File | `/cgi-bin/R19.9/easy1350.pl` | High
-12 | File | `/classes/conf/db.properties&config=filemanager.config.js` | High
-13 | File | `/coders/palm.c` | High
-14 | File | `/collection/all` | High
-15 | File | `/dcim/rack/` | Medium
-16 | File | `/EditEventTypes.php` | High
-17 | File | `/endpoint/add-user.php` | High
-18 | File | `/etc/groups` | Medium
-19 | File | `/file/upload/1` | High
-20 | File | `/formSetPortTr` | High
-21 | File | `/forum/away.php` | High
-22 | File | `/goform/wlanPrimaryNetwork` | High
-23 | File | `/index.php?module=help_pages/pages&entities_id=24` | High
-24 | File | `/index.php?zone=settings` | High
-25 | File | `/it-IT/splunkd/__raw/services/get_snapshot` | High
-26 | File | `/nova/bin/user` | High
-27 | File | `/novel-admin/src/main/java/com/java2nb/common/controller/FileController.java` | High
-28 | ... | ... | ...
+5 | File | `/admin/normal-bwdates-reports-details.php` | High
+6 | File | `/admin/profile/save_profile` | High
+7 | File | `/admin/reports.php` | High
+8 | File | `/api/v1/chat.getThreadsList` | High
+9 | File | `/App_Resource/UEditor/server/upload.aspx` | High
+10 | File | `/bin/sh` | Low
+11 | File | `/cgi-bin/luci/api/diagnose` | High
+12 | File | `/cgi-bin/R19.9/easy1350.pl` | High
+13 | File | `/classes/conf/db.properties&config=filemanager.config.js` | High
+14 | File | `/coders/palm.c` | High
+15 | File | `/collection/all` | High
+16 | File | `/dcim/rack/` | Medium
+17 | File | `/EditEventTypes.php` | High
+18 | File | `/endpoint/add-user.php` | High
+19 | File | `/etc/groups` | Medium
+20 | File | `/file/upload/1` | High
+21 | File | `/formSetPortTr` | High
+22 | File | `/forum/away.php` | High
+23 | File | `/general/system/interface/theme_set/save_image.php` | High
+24 | File | `/goform/exeCommand` | High
+25 | File | `/goform/SetDDNSCfg` | High
+26 | File | `/goform/setsambacfg` | High
+27 | File | `/goform/wlanPrimaryNetwork` | High
+28 | File | `/index.php?module=help_pages/pages&entities_id=24` | High
+29 | File | `/index.php?zone=settings` | High
+30 | ... | ... | ...
 
-There are 232 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 250 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -53,7 +53,8 @@ ID | Type | Indicator | Confidence
 4 | File | `/config/getuser` | High
 5 | File | `/h/` | Low
 6 | File | `/img/main.cgi` | High
-7 | ... | ... | ...
+7 | File | `/lan.asp` | Medium
+8 | ... | ... | ...
 
 There are 52 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 

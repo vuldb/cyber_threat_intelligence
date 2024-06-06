@@ -90,13 +90,14 @@ ID | Type | Indicator | Confidence
 7 | File | `/index.php` | Medium
 8 | File | `/libraries` | Medium
 9 | File | `/proc/pid/attr` | High
-10 | File | `/RestAPI` | Medium
-11 | File | `/service/upload` | High
-12 | File | `/wp-admin/admin-ajax.php` | High
-13 | File | `adclick.php` | Medium
-14 | ... | ... | ...
+10 | File | `/register.php` | High
+11 | File | `/RestAPI` | Medium
+12 | File | `/service/upload` | High
+13 | File | `/view/student_exam_mark_insert_form1.php` | High
+14 | File | `/wp-admin/admin-ajax.php` | High
+15 | ... | ... | ...
 
-There are 107 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 120 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

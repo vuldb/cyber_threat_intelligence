@@ -29,7 +29,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1055 | CWE-74 | Injection | High
+1 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 2 | T1562.006 | CWE-184 | Missing Protection for Mirrored Regions in On-Chip Fabric Firewall | High
 
 ## IOA - Indicator of Attack

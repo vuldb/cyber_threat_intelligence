@@ -101,7 +101,7 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
@@ -128,15 +128,16 @@ ID | Type | Indicator | Confidence
 12 | File | `/cgi-bin/webproc` | High
 13 | File | `/etc/passwd` | Medium
 14 | File | `/forum/away.php` | High
-15 | File | `/inc/extensions.php` | High
-16 | File | `/index.php/client/message/message_read/xxxxxxxx[random-msg-hash]` | High
-17 | File | `/login.php` | Medium
-18 | File | `/relax-order-checks` | High
-19 | File | `/server/api/v1/login` | High
-20 | File | `/ueditor/net/controller.ashx?action=catchimage` | High
-21 | ... | ... | ...
+15 | File | `/importhtml.php` | High
+16 | File | `/inc/extensions.php` | High
+17 | File | `/index.php/client/message/message_read/xxxxxxxx[random-msg-hash]` | High
+18 | File | `/login.php` | Medium
+19 | File | `/LogInOut.php` | High
+20 | File | `/relax-order-checks` | High
+21 | File | `/server/api/v1/login` | High
+22 | ... | ... | ...
 
-There are 173 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 181 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

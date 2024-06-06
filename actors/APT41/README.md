@@ -53,9 +53,10 @@ ID | IP address | Hostname | Campaign | Confidence
 19 | [45.138.157.78](https://vuldb.com/?ip.45.138.157.78) | srv1.fincantleri.co | - | High
 20 | [45.153.231.31](https://vuldb.com/?ip.45.153.231.31) | cheater.rehab | CVE-2021-44207 | High
 21 | [46.17.43.74](https://vuldb.com/?ip.46.17.43.74) | - | LightSpy | High
-22 | ... | ... | ... | ...
+22 | [54.80.67.241](https://vuldb.com/?ip.54.80.67.241) | ec2-54-80-67-241.compute-1.amazonaws.com | CVE-2021-44207 | Medium
+23 | ... | ... | ... | ...
 
-There are 83 more IOC items available. Please use our online service to access the data.
+There are 86 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -77,18 +78,18 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/csms/?page=contact_us` | High
-2 | File | `/goform/PowerSaveSet` | High
-3 | File | `/index.php` | Medium
-4 | File | `/members/view_member.php` | High
-5 | File | `/mhds/clinic/view_details.php` | High
-6 | File | `/owa/auth/logon.aspx` | High
-7 | File | `/rest/api/latest/projectvalidate/key` | High
-8 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
-9 | File | `/uncpath/` | Medium
-10 | File | `adclick.php` | Medium
+2 | File | `/forum/away.php` | High
+3 | File | `/goform/PowerSaveSet` | High
+4 | File | `/index.php` | Medium
+5 | File | `/members/view_member.php` | High
+6 | File | `/mhds/clinic/view_details.php` | High
+7 | File | `/owa/auth/logon.aspx` | High
+8 | File | `/rest/api/latest/projectvalidate/key` | High
+9 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
+10 | File | `/uncpath/` | Medium
 11 | ... | ... | ...
 
-There are 83 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 84 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -110,6 +111,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://www.threatminer.org/report.php?q=WinntiEvolution-GoingOpenSource-Protectwise.pdf&y=2017
 * https://www.welivesecurity.com/2020/05/21/no-game-over-winnti-group/
 * https://www.welivesecurity.com/2021/03/10/exchange-servers-under-siege-10-apt-groups/
+* https://yoroi.company/en/research/uncovering-an-undetected-keyplug-implant-attacking-industries-in-italy/
 
 ## Literature
 

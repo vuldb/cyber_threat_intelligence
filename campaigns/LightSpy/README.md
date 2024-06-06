@@ -19,6 +19,7 @@ These _actors_ are associated with LightSpy or other actors linked to the campai
 ID | Actor | Confidence
 -- | ----- | ----------
 1 | [APT41](https://vuldb.com/?actor.apt41) | High
+2 | [lightSpy](https://vuldb.com/?actor.lightspy) | High
 
 ## IOC - Indicator of Compromise
 
@@ -28,6 +29,7 @@ ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
 1 | [46.17.43.74](https://vuldb.com/?ip.46.17.43.74) | - | [APT41](https://vuldb.com/?actor.apt41) | High
 2 | [103.27.108.207](https://vuldb.com/?ip.103.27.108.207) | - | [APT41](https://vuldb.com/?actor.apt41) | High
+3 | [103.27.109.217](https://vuldb.com/?ip.103.27.109.217) | - | [lightSpy](https://vuldb.com/?actor.lightspy) | High
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -40,7 +42,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
 
-There are 8 more TTP items available. Please use our online service to access the data.
+There are 9 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -49,16 +51,18 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/example/editor` | High
-2 | File | `cgi-bin/webfile_mgr.cgi` | High
-3 | File | `DesktopEditor/fontengine/fontconverter/FontFileBase.h` | High
-4 | ... | ... | ...
+2 | File | `admin/killsource` | High
+3 | File | `cgi-bin/webfile_mgr.cgi` | High
+4 | File | `data/gbconfiguration.dat` | High
+5 | ... | ... | ...
 
-There are 14 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 26 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the campaign and the associated activities:
 
+* https://blogs.blackberry.com/en/2024/04/lightspy-returns-renewed-espionage-campaign-targets-southern-asia-possibly-india
 * https://www.threatfabric.com/blogs/lightspy-mapt-mobile-payment-system-attack
 
 ## Literature

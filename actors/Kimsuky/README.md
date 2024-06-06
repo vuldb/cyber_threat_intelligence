@@ -18,10 +18,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
-* [KR](https://vuldb.com/?country.kr)
+* [VN](https://vuldb.com/?country.vn)
 * ...
 
-There are 10 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -45,7 +45,7 @@ ID | IP address | Hostname | Campaign | Confidence
 14 | [27.255.81.71](https://vuldb.com/?ip.27.255.81.71) | - | - | High
 15 | ... | ... | ... | ...
 
-There are 55 more IOC items available. Please use our online service to access the data.
+There are 58 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -53,14 +53,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-29 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94 | Argument Injection | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -68,64 +68,59 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `%PROGRAMDATA%\Netwrix Auditor\Logs\ActiveDirectory\` | High
-2 | File | `/?/admin/snippet/add` | High
-3 | File | `/Admin/add-student.php` | High
-4 | File | `/admin/addemployee.php` | High
-5 | File | `/admin/categories/manage_category.php` | High
-6 | File | `/admin/categories/view_category.php` | High
-7 | File | `/admin/index.php` | High
-8 | File | `/admin/index2.html` | High
-9 | File | `/admin/inquiries/view_inquiry.php` | High
-10 | File | `/admin/manage_academic.php` | High
-11 | File | `/admin/orders/update_status.php` | High
-12 | File | `/admin/products/manage_product.php` | High
-13 | File | `/admin/products/view_product.php` | High
-14 | File | `/admin/reminders/manage_reminder.php` | High
-15 | File | `/admin/sales/manage_sale.php` | High
-16 | File | `/admin/sales/view_details.php` | High
-17 | File | `/admin/services/manage_service.php` | High
-18 | File | `/admin/user/manage_user.php` | High
-19 | File | `/api/` | Low
-20 | File | `/api/upload` | Medium
-21 | File | `/assets/something/services/AppModule.class` | High
-22 | File | `/bin/false` | Medium
-23 | File | `/blog` | Low
-24 | File | `/cgi-bin/ExportLogs.sh` | High
-25 | File | `/cgi-bin/luci/api/wireless` | High
-26 | File | `/cgi-bin/webproc` | High
-27 | File | `/classes/Master.php?f=delete_inquiry` | High
-28 | File | `/classes/Master.php?f=save_service` | High
-29 | File | `/classes/Users.php` | High
-30 | File | `/debug/pprof` | Medium
-31 | File | `/editsettings` | High
-32 | File | `/etc/postfix/sender_login` | High
-33 | File | `/export` | Low
-34 | File | `/forgetpassword.php` | High
-35 | File | `/forum/away.php` | High
-36 | File | `/function/login.php` | High
-37 | File | `/hrm/controller/employee.php` | High
-38 | File | `/images/browserslide.jpg` | High
-39 | File | `/inc/HTTPClient.php` | High
-40 | File | `/includes/lib/get.php` | High
-41 | File | `/language/lang` | High
-42 | File | `/lists/index.php` | High
-43 | File | `/login` | Low
-44 | File | `/main?cmd=invalid_browser` | High
-45 | File | `/manager?action=getlogcat` | High
-46 | File | `/mgmt/tm/util/bash` | High
-47 | ... | ... | ...
+1 | File | `/admin/` | Low
+2 | File | `/admin/admin_user.php` | High
+3 | File | `/admin/category/save` | High
+4 | File | `/admin/config_ISCGroupNoCache.php` | High
+5 | File | `/admin/index2.html` | High
+6 | File | `/admin/list_ipAddressPolicy.php` | High
+7 | File | `/admin/subject.php` | High
+8 | File | `/auth/auth.php?user=1` | High
+9 | File | `/blog` | Low
+10 | File | `/boaform/device_reset.cgi` | High
+11 | File | `/cgi-bin/cstecgi.cgi` | High
+12 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+13 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
+14 | File | `/cgi-bin/nas_sharing.cgi` | High
+15 | File | `/cgi-bin/system_mgr.cgi` | High
+16 | File | `/cgi-bin/wlogin.cgi` | High
+17 | File | `/cgi/cpaddons_report.pl` | High
+18 | File | `/common/dict/list` | High
+19 | File | `/debug/pprof` | Medium
+20 | File | `/DXR.axd` | Medium
+21 | File | `/etc/postfix/sender_login` | High
+22 | File | `/forum/away.php` | High
+23 | File | `/goform/DhcpListClient` | High
+24 | File | `/goform/goform_get_cmd_process` | High
+25 | File | `/HNAP1/` | Low
+26 | File | `/hrm/leaverequest.php` | High
+27 | File | `/importexport.php` | High
+28 | File | `/install/` | Medium
+29 | File | `/Interface/DevManage/VM.php` | High
+30 | File | `/language/lang` | High
+31 | File | `/main/doctype.php` | High
+32 | File | `/main/webservices/additional_webservices.php` | High
+33 | File | `/mc` | Low
+34 | File | `/ndmComponents.js` | High
+35 | File | `/net/bluetooth/rfcomm/core.C` | High
+36 | File | `/oauth/idp/.well-known/openid-configuration` | High
+37 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+38 | File | `/pdf` | Low
+39 | File | `/register.php` | High
+40 | ... | ... | ...
 
-There are 405 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 349 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://asec.ahnlab.com/en/30532/
+* https://asec.ahnlab.com/en/53046/
 * https://asec.ahnlab.com/en/57873/
 * https://asec.ahnlab.com/en/59590/
 * https://asec.ahnlab.com/en/60054/
+* https://asec.ahnlab.com/en/63396/
 * https://blog.alyac.co.kr/2234
 * https://blog.alyac.co.kr/4892
 * https://blog.malwarebytes.com/threat-analysis/2021/06/kimsuky-apt-continues-to-target-south-korean-government-using-appleseed-backdoor/

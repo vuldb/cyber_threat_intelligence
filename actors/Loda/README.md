@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [US](https://vuldb.com/?country.us)
 * ...
 
-There are 8 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -37,14 +37,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Path Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -57,47 +57,50 @@ ID | Type | Indicator | Confidence
 3 | File | `/admin/applicants/index.php` | High
 4 | File | `/admin/booking-bwdates-reports-details.php` | High
 5 | File | `/admin/category/index.php` | High
-6 | File | `/admin/config/uploadicon.php` | High
-7 | File | `/admin/course.php` | High
-8 | File | `/admin/general/change-lang` | High
-9 | File | `/admin/index2.html` | High
-10 | File | `/admin/list_resource_icon.php?action=delete` | High
-11 | File | `/admin/orders/view_order.php` | High
-12 | File | `/admin/plugin.php` | High
-13 | File | `/alogin.html` | Medium
-14 | File | `/api/authentication/login` | High
-15 | File | `/api/upload.php` | High
-16 | File | `/api/v1/terminal/sessions/?limit=1` | High
-17 | File | `/api/v4/opengraph` | High
-18 | File | `/api/{org_id}/users/{email_id}` | High
-19 | File | `/app/api/controller/default/Sqlite.php` | High
-20 | File | `/app/zentao/module/repo/model.php` | High
-21 | File | `/application/index/controller/Pay.php` | High
-22 | File | `/bookstore/bookPerPub.php` | High
-23 | File | `/cgi-bin/cstecgi.cgi` | High
-24 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-25 | File | `/cgi-bin/qcmap_auth` | High
-26 | File | `/cgi-bin/vitogate.cgi` | High
-27 | File | `/collection/all` | High
-28 | File | `/configs/application.ini` | High
-29 | File | `/course/filterRecords/` | High
-30 | File | `/cupseasylive/taxcodecreate.php` | High
-31 | File | `/download/image` | High
-32 | File | `/DXR.axd` | Medium
-33 | File | `/edit-task.php` | High
-34 | File | `/files/` | Low
-35 | File | `/forum/away.php` | High
-36 | File | `/getcfg.php` | Medium
-37 | File | `/goform/goform_get_cmd_process` | High
-38 | File | `/goform/saveParentControlInfo` | High
-39 | File | `/goform/setAutoPing` | High
-40 | File | `/goform/setModules` | High
-41 | File | `/goform/SetPptpServerCfg` | High
-42 | File | `/goform/setsambacfg` | High
-43 | File | `/goform/SetSysTimeCfg` | High
-44 | ... | ... | ...
+6 | File | `/admin/CloudAccounts` | High
+7 | File | `/admin/config/uploadicon.php` | High
+8 | File | `/admin/course.php` | High
+9 | File | `/admin/general/change-lang` | High
+10 | File | `/admin/index2.html` | High
+11 | File | `/admin/list_resource_icon.php?action=delete` | High
+12 | File | `/admin/orders/view_order.php` | High
+13 | File | `/admin/plugin.php` | High
+14 | File | `/admin/search.php` | High
+15 | File | `/admin/twitter.php` | High
+16 | File | `/adminPage/conf/saveCmd` | High
+17 | File | `/adminPage/main/upload` | High
+18 | File | `/alogin.html` | Medium
+19 | File | `/api/authentication/login` | High
+20 | File | `/api/upload.php` | High
+21 | File | `/api/v4/opengraph` | High
+22 | File | `/api/{org_id}/users/{email_id}` | High
+23 | File | `/app/api/controller/default/Sqlite.php` | High
+24 | File | `/app/zentao/module/repo/model.php` | High
+25 | File | `/application/index/controller/Pay.php` | High
+26 | File | `/bookstore/bookPerPub.php` | High
+27 | File | `/cgi-bin/cstecgi.cgi` | High
+28 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+29 | File | `/cgi-bin/koha/opac-MARCdetail.pl` | High
+30 | File | `/cgi-bin/nas_sharing.cgi` | High
+31 | File | `/cgi-bin/qcmap_auth` | High
+32 | File | `/cgi-bin/vitogate.cgi` | High
+33 | File | `/charts/api/charts/v1/` | High
+34 | File | `/classes/SystemSettings.php?f=update_settings` | High
+35 | File | `/configs/application.ini` | High
+36 | File | `/control/register_case.php` | High
+37 | File | `/course/filterRecords/` | High
+38 | File | `/cupseasylive/taxcodecreate.php` | High
+39 | File | `/dede/freelist_edit.php` | High
+40 | File | `/download/image` | High
+41 | File | `/DXR.axd` | Medium
+42 | File | `/edit-task.php` | High
+43 | File | `/forum/away.php` | High
+44 | File | `/getcfg.php` | Medium
+45 | File | `/goform/addressNat` | High
+46 | File | `/goform/goform_get_cmd_process` | High
+47 | ... | ... | ...
 
-There are 382 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 406 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

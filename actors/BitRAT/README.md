@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [LA](https://vuldb.com/?country.la)
 * ...
 
-There are 24 more country items available. Please use our online service to access the data.
+There are 22 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -118,9 +118,10 @@ ID | IP address | Hostname | Campaign | Confidence
 95 | [41.216.183.61](https://vuldb.com/?ip.41.216.183.61) | - | - | High
 96 | [41.225.46.176](https://vuldb.com/?ip.41.225.46.176) | - | - | High
 97 | [41.225.216.176](https://vuldb.com/?ip.41.225.216.176) | - | - | High
-98 | ... | ... | ... | ...
+98 | [41.227.43.76](https://vuldb.com/?ip.41.227.43.76) | - | - | High
+99 | ... | ... | ... | ...
 
-There are 389 more IOC items available. Please use our online service to access the data.
+There are 393 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -128,7 +129,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-25, CWE-36, CWE-425 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-25, CWE-36, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
@@ -149,48 +150,52 @@ ID | Type | Indicator | Confidence
 4 | File | `/Account/login.php` | High
 5 | File | `/admin/` | Low
 6 | File | `/admin/action/delete-vaccine.php` | High
-7 | File | `/admin/index2.html` | High
-8 | File | `/adminapi/system/crud` | High
-9 | File | `/adminapi/system/file/openfile` | High
-10 | File | `/admin_route/dec_service_credits.php` | High
-11 | File | `/api/v1/alerts` | High
-12 | File | `/api/v4/teams//channels/deleted` | High
-13 | File | `/api/v4/users/ids` | High
-14 | File | `/app/index/controller/Common.php` | High
-15 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
-16 | File | `/b2b-supermarket/shopping-cart` | High
-17 | File | `/bitrix/admin/ldap_server_edit.php` | High
-18 | File | `/cancel.php` | Medium
-19 | File | `/category.php` | High
-20 | File | `/cgi-bin/cstecgi.cgi` | High
-21 | File | `/change-language/de_DE` | High
-22 | File | `/debug/pprof` | Medium
-23 | File | `/devinfo` | Medium
-24 | File | `/dist/index.js` | High
-25 | File | `/download` | Medium
-26 | File | `/etc/shadow` | Medium
-27 | File | `/fcgi/scrut_fcgi.fcgi` | High
-28 | File | `/forms/doLogin` | High
-29 | File | `/forum/away.php` | High
-30 | File | `/geoserver/gwc/rest.html` | High
-31 | File | `/goform/formSysCmd` | High
-32 | File | `/hosts/firewall/ip` | High
-33 | File | `/index.jsp#settings` | High
-34 | File | `/index.php/ccm/system/file/upload` | High
-35 | File | `/listplace/user/ticket/create` | High
-36 | File | `/log/decodmail.php` | High
-37 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
-38 | File | `/novel/author/list` | High
-39 | File | `/novel/bookSetting/list` | High
-40 | File | `/novel/userFeedback/list` | High
-41 | File | `/oauth/idp/.well-known/openid-configuration` | High
-42 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
-43 | File | `/php/ping.php` | High
-44 | File | `/project/tasks/list` | High
-45 | File | `/protocol/iscgwtunnel/uploadiscgwrouteconf.php` | High
-46 | ... | ... | ...
+7 | File | `/Admin/changepassword.php` | High
+8 | File | `/admin/edit-post.php` | High
+9 | File | `/admin/general-setting` | High
+10 | File | `/admin/index2.html` | High
+11 | File | `/admin/service` | High
+12 | File | `/adminapi/system/crud` | High
+13 | File | `/adminapi/system/file/openfile` | High
+14 | File | `/adminPage/conf/reload` | High
+15 | File | `/admin_route/dec_service_credits.php` | High
+16 | File | `/api/v4/teams//channels/deleted` | High
+17 | File | `/api/wechat/app_auth` | High
+18 | File | `/app/index/controller/Common.php` | High
+19 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
+20 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
+21 | File | `/applications/nexus/modules/front/store/store.php` | High
+22 | File | `/b2b-supermarket/shopping-cart` | High
+23 | File | `/bbdms/sign-up.php` | High
+24 | File | `/cancel.php` | Medium
+25 | File | `/category.php` | High
+26 | File | `/cgi-bin/cstecgi.cgi` | High
+27 | File | `/cgi-bin/nas_sharing.cgi` | High
+28 | File | `/change-language/de_DE` | High
+29 | File | `/classes/Master.php?f=save_category` | High
+30 | File | `/classes/Users.php?f=save` | High
+31 | File | `/control/register_case.php` | High
+32 | File | `/debug/pprof` | Medium
+33 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
+34 | File | `/devinfo` | Medium
+35 | File | `/dist/index.js` | High
+36 | File | `/download` | Medium
+37 | File | `/fftools/ffmpeg_enc.c` | High
+38 | File | `/forms/doLogin` | High
+39 | File | `/forum/away.php` | High
+40 | File | `/goform/formSysCmd` | High
+41 | File | `/hosts/firewall/ip` | High
+42 | File | `/index.jsp#settings` | High
+43 | File | `/index.php` | Medium
+44 | File | `/index.php/ccm/system/file/upload` | High
+45 | File | `/install/` | Medium
+46 | File | `/log/decodmail.php` | High
+47 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
+48 | File | `/mfsNotice/page` | High
+49 | File | `/model/update_grade.php` | High
+50 | ... | ... | ...
 
-There are 401 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 431 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -205,6 +210,10 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/5.181.7.60
 * https://search.censys.io/hosts/20.25.180.188
 * https://search.censys.io/hosts/46.175.146.21
+* https://search.censys.io/hosts/51.195.145.87
+* https://search.censys.io/hosts/77.221.151.31
+* https://search.censys.io/hosts/116.122.95.74
+* https://search.censys.io/hosts/178.236.247.210
 * https://search.censys.io/hosts/193.42.32.25
 * https://search.censys.io/hosts/194.147.140.172
 * https://search.censys.io/hosts/213.142.151.240

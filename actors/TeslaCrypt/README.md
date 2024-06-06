@@ -89,7 +89,7 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80, CWE-85 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
@@ -112,44 +112,45 @@ ID | Type | Indicator | Confidence
 10 | File | `/admin/reminders/manage_reminder.php` | High
 11 | File | `/adms/admin/?page=vehicles/view_transaction` | High
 12 | File | `/api/admin/system/store/order/list` | High
-13 | File | `/catcompany.php` | High
-14 | File | `/CCMAdmin/serverlist.asp` | High
-15 | File | `/cgi/get_param.cgi` | High
-16 | File | `/cms/category/list` | High
-17 | File | `/csms/?page=contact_us` | High
-18 | File | `/csms/admin/inquiries/view_details.php` | High
-19 | File | `/cstecgi.cgi` | Medium
-20 | File | `/Default/Bd` | Medium
-21 | File | `/ebics-server/ebics.aspx` | High
-22 | File | `/egroupware/index.php` | High
-23 | File | `/files.md5` | Medium
-24 | File | `/forum/away.php` | High
-25 | File | `/hrm/employeeview.php` | High
-26 | File | `/importexport.php` | High
-27 | File | `/include/chart_generator.php` | High
-28 | File | `/index.php` | Medium
-29 | File | `/librarian/bookdetails.php` | High
-30 | File | `/loginsave.php` | High
-31 | File | `/messageboard/view.php` | High
-32 | File | `/out.php` | Medium
-33 | File | `/owa/auth/logon.aspx` | High
-34 | File | `/param.file.tgz` | High
-35 | File | `/public_html/users.php` | High
-36 | File | `/SVFE2/pages/feegroups/country_group.jsf` | High
-37 | File | `/textpattern/index.php` | High
-38 | File | `/upfile.cgi` | Medium
-39 | File | `/upload` | Low
-40 | File | `/user/s.php` | Medium
-41 | File | `/v2/quantum/save-data-upload-big-file` | High
-42 | File | `/wireless/guestnetwork.asp` | High
-43 | File | `/wordpress/wp-admin/admin.php` | High
-44 | File | `4.edu.php` | Medium
-45 | File | `?r=recruit/interview/export&interviews=x` | High
-46 | File | `account_footer.php` | High
-47 | File | `adclick.php` | Medium
-48 | ... | ... | ...
+13 | File | `/API/info` | Medium
+14 | File | `/catcompany.php` | High
+15 | File | `/CCMAdmin/serverlist.asp` | High
+16 | File | `/cgi/get_param.cgi` | High
+17 | File | `/cms/category/list` | High
+18 | File | `/csms/?page=contact_us` | High
+19 | File | `/csms/admin/inquiries/view_details.php` | High
+20 | File | `/cstecgi.cgi` | Medium
+21 | File | `/Default/Bd` | Medium
+22 | File | `/ebics-server/ebics.aspx` | High
+23 | File | `/egroupware/index.php` | High
+24 | File | `/files.md5` | Medium
+25 | File | `/forum/away.php` | High
+26 | File | `/home/search` | Medium
+27 | File | `/hrm/employeeview.php` | High
+28 | File | `/importexport.php` | High
+29 | File | `/include/chart_generator.php` | High
+30 | File | `/index.php` | Medium
+31 | File | `/librarian/bookdetails.php` | High
+32 | File | `/loginsave.php` | High
+33 | File | `/messageboard/view.php` | High
+34 | File | `/out.php` | Medium
+35 | File | `/owa/auth/logon.aspx` | High
+36 | File | `/param.file.tgz` | High
+37 | File | `/public_html/users.php` | High
+38 | File | `/SVFE2/pages/feegroups/country_group.jsf` | High
+39 | File | `/textpattern/index.php` | High
+40 | File | `/upfile.cgi` | Medium
+41 | File | `/upload` | Low
+42 | File | `/user/s.php` | Medium
+43 | File | `/v2/quantum/save-data-upload-big-file` | High
+44 | File | `/wireless/guestnetwork.asp` | High
+45 | File | `/wordpress/wp-admin/admin.php` | High
+46 | File | `4.edu.php` | Medium
+47 | File | `?r=recruit/interview/export&interviews=x` | High
+48 | File | `account_footer.php` | High
+49 | ... | ... | ...
 
-There are 419 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 422 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

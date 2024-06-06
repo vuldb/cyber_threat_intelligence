@@ -32,7 +32,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
-2 | T1055 | CWE-74 | Injection | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | T1068 | CWE-264, CWE-266, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
@@ -48,55 +48,56 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `%PROGRAMDATA%\checkmk\agent\local` | High
 2 | File | `.htaccess` | Medium
-3 | File | `/admin/featured.php` | High
-4 | File | `/api/email_accounts` | High
-5 | File | `/app/config/of` | High
-6 | File | `/APR/login.php` | High
-7 | File | `/artist-display.php` | High
-8 | File | `/bin/su` | Low
-9 | File | `/common/security/realms/realms.jsf` | High
-10 | File | `/configuration/auditModuleEdit.jsf` | High
-11 | File | `/configuration/configuration.jsf` | High
-12 | File | `/configuration/httpListenerEdit.jsf` | High
-13 | File | `/core/model/modx/modmanagerrequest.class.php` | High
-14 | File | `/easy-team-manager/inc/easy_team_manager_desc_edit.php` | High
-15 | File | `/etc/srapi/config/system.conf` | High
-16 | File | `/file_manager/login.php` | High
-17 | File | `/film-rating.php` | High
-18 | File | `/librarian/lab.php` | High
-19 | File | `/movie.php` | Medium
-20 | File | `/pet_shop/classes/Master.php?f=delete_order` | High
-21 | File | `/pineapple/ui` | High
-22 | File | `/resourceNode/jdbcResourceEdit.jsf` | High
-23 | File | `/resourceNode/resources.jsf` | High
-24 | File | `/show_news.php` | High
-25 | File | `/staff/bookdetails.php` | High
-26 | File | `/staff/edit_book_details.php` | High
-27 | File | `/staff/lab.php` | High
-28 | File | `/staff/studentdetails.php` | High
-29 | File | `/tmp/var/passwd` | High
-30 | File | `/users/admin/user_activity.php` | High
-31 | File | `/var/www/rhcert` | High
-32 | File | `/ViewUserHover.jspa` | High
-33 | File | `/webService/webServicesGeneral.jsf` | High
-34 | File | `802dot1xclientcert.cgi` | High
-35 | File | `acc_verify.php` | High
-36 | File | `activate.php` | Medium
-37 | File | `adclick.php` | Medium
-38 | File | `admin.a6mambohelpdesk.php` | High
-39 | File | `admin.php` | Medium
-40 | File | `admin/clients/manage_client.php` | High
-41 | File | `admin/clients/view_client.php` | High
-42 | File | `admin/customers.php` | High
-43 | File | `admin/index.php` | High
-44 | File | `admin/vqmods.app/vqmods.inc.php` | High
-45 | File | `admin/zones.php` | High
-46 | File | `admin_cs.php` | Medium
-47 | File | `admin_ok.asp` | Medium
-48 | File | `affich.php` | Medium
-49 | ... | ... | ...
+3 | File | `/admin/admin_cl.php?mudi=revPwd` | High
+4 | File | `/admin/featured.php` | High
+5 | File | `/api/email_accounts` | High
+6 | File | `/app/config/of` | High
+7 | File | `/APR/login.php` | High
+8 | File | `/artist-display.php` | High
+9 | File | `/bin/su` | Low
+10 | File | `/cgi-bin/cstecgi.cgi` | High
+11 | File | `/common/security/realms/realms.jsf` | High
+12 | File | `/configuration/auditModuleEdit.jsf` | High
+13 | File | `/configuration/configuration.jsf` | High
+14 | File | `/configuration/httpListenerEdit.jsf` | High
+15 | File | `/core/model/modx/modmanagerrequest.class.php` | High
+16 | File | `/easy-team-manager/inc/easy_team_manager_desc_edit.php` | High
+17 | File | `/etc/srapi/config/system.conf` | High
+18 | File | `/file_manager/login.php` | High
+19 | File | `/film-rating.php` | High
+20 | File | `/goform/modifyDhcpRule` | High
+21 | File | `/goform/ModifyPppAuthWhiteMac` | High
+22 | File | `/goform/SetSysTimeCfg` | High
+23 | File | `/goform/WizardHandle` | High
+24 | File | `/librarian/lab.php` | High
+25 | File | `/movie.php` | Medium
+26 | File | `/ndmComponents.js` | High
+27 | File | `/pet_shop/classes/Master.php?f=delete_order` | High
+28 | File | `/pineapple/ui` | High
+29 | File | `/resourceNode/jdbcResourceEdit.jsf` | High
+30 | File | `/resourceNode/resources.jsf` | High
+31 | File | `/show_news.php` | High
+32 | File | `/staff/bookdetails.php` | High
+33 | File | `/staff/edit_book_details.php` | High
+34 | File | `/staff/lab.php` | High
+35 | File | `/staff/studentdetails.php` | High
+36 | File | `/tmp/var/passwd` | High
+37 | File | `/users/admin/user_activity.php` | High
+38 | File | `/var/www/rhcert` | High
+39 | File | `/ViewUserHover.jspa` | High
+40 | File | `/webService/webServicesGeneral.jsf` | High
+41 | File | `802dot1xclientcert.cgi` | High
+42 | File | `acc_verify.php` | High
+43 | File | `activate.php` | Medium
+44 | File | `adclick.php` | Medium
+45 | File | `admin.a6mambohelpdesk.php` | High
+46 | File | `admin.php` | Medium
+47 | File | `admin/clients/manage_client.php` | High
+48 | File | `admin/clients/view_client.php` | High
+49 | File | `admin/customers.php` | High
+50 | ... | ... | ...
 
-There are 428 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 436 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

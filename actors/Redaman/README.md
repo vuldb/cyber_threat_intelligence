@@ -47,7 +47,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-425 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
@@ -72,19 +72,19 @@ ID | Type | Indicator | Confidence
 9 | File | `/sqfs/bin/sccd` | High
 10 | File | `/uncpath/` | Medium
 11 | File | `/var/WEB-GUI/cgi-bin/downloadfile.cgi` | High
-12 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-13 | File | `admin.php` | Medium
-14 | File | `admin.php?action=file&ctrl=download&path=../../1.txt` | High
-15 | File | `admin/google_search_console/class-gsc-table.php` | High
-16 | File | `ajax.php` | Medium
-17 | File | `akocomments.php` | High
-18 | File | `appGet.cgi` | Medium
-19 | File | `auth.inc.php` | Medium
-20 | File | `bgpd/bgp_aspath.c` | High
-21 | File | `bigdecimal.c` | Medium
+12 | File | `/wp-admin/admin-ajax.php` | High
+13 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+14 | File | `admin.php` | Medium
+15 | File | `admin.php?action=file&ctrl=download&path=../../1.txt` | High
+16 | File | `admin/google_search_console/class-gsc-table.php` | High
+17 | File | `ajax.php` | Medium
+18 | File | `akocomments.php` | High
+19 | File | `appGet.cgi` | Medium
+20 | File | `auth.inc.php` | Medium
+21 | File | `bgpd/bgp_aspath.c` | High
 22 | ... | ... | ...
 
-There are 181 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 185 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

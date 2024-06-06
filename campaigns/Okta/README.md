@@ -50,7 +50,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-271, CWE-272, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -58,41 +58,42 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/accounts_con/register_account` | High
-2 | File | `/admin/app/product.php` | High
-3 | File | `/admin/app/service_crud.php` | High
-4 | File | `/admin/edit_categories.php` | High
-5 | File | `/admin/list_ipAddressPolicy.php` | High
-6 | File | `/Admin/login.php` | High
-7 | File | `/admin/students/update_status.php` | High
-8 | File | `/api/baskets/{name}` | High
-9 | File | `/app/api/controller/default/File.php` | High
-10 | File | `/app/api/controller/default/Sqlite.php` | High
-11 | File | `/app/controller/Setup.php` | High
-12 | File | `/assets/php/upload.php` | High
-13 | File | `/bin/boa` | Medium
-14 | File | `/bin/sh` | Low
-15 | File | `/bitrix/admin/ldap_server_edit.php` | High
-16 | File | `/cancel.php` | Medium
-17 | File | `/cgi-bin/cstecgi.cgi` | High
-18 | File | `/collection/all` | High
-19 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
-20 | File | `/detail` | Low
-21 | File | `/devinfo` | Medium
-22 | File | `/edoc/doctor/patient.php` | High
-23 | File | `/endpoint/update-tracker.php` | High
-24 | File | `/general/email/outbox/delete.php` | High
-25 | File | `/get_membership_amount.php` | High
-26 | File | `/home/get_tasks_list` | High
-27 | File | `/index.php` | Medium
-28 | File | `/index.php/signin` | High
-29 | File | `/lists/admin/` | High
-30 | File | `/log/decodmail.php` | High
-31 | File | `/Main_AdmStatus_Content.asp` | High
-32 | File | `/my-calendar/v1/events` | High
-33 | ... | ... | ...
+1 | File | `//proc/kcore` | Medium
+2 | File | `/accounts_con/register_account` | High
+3 | File | `/admin/app/product.php` | High
+4 | File | `/admin/app/service_crud.php` | High
+5 | File | `/admin/edit_categories.php` | High
+6 | File | `/admin/list_ipAddressPolicy.php` | High
+7 | File | `/Admin/login.php` | High
+8 | File | `/admin/students/update_status.php` | High
+9 | File | `/api/baskets/{name}` | High
+10 | File | `/app/api/controller/default/File.php` | High
+11 | File | `/app/api/controller/default/Sqlite.php` | High
+12 | File | `/app/controller/Setup.php` | High
+13 | File | `/assets/php/upload.php` | High
+14 | File | `/bin/boa` | Medium
+15 | File | `/bin/sh` | Low
+16 | File | `/bitrix/admin/ldap_server_edit.php` | High
+17 | File | `/cancel.php` | Medium
+18 | File | `/cgi-bin/cstecgi.cgi` | High
+19 | File | `/cgi-bin/luci;stok=/locale` | High
+20 | File | `/cgi-bin/nas_sharing.cgi` | High
+21 | File | `/collection/all` | High
+22 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
+23 | File | `/detail` | Low
+24 | File | `/devinfo` | Medium
+25 | File | `/edoc/doctor/patient.php` | High
+26 | File | `/endpoint/update-tracker.php` | High
+27 | File | `/general/email/outbox/delete.php` | High
+28 | File | `/get_membership_amount.php` | High
+29 | File | `/goform/addIpMacBind` | High
+30 | File | `/goform/wifiSSIDset` | High
+31 | File | `/goform/WifiWpsOOB` | High
+32 | File | `/home/get_tasks_list` | High
+33 | File | `/index.php` | Medium
+34 | ... | ... | ...
 
-There are 277 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 289 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

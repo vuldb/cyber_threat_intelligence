@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Passwordstealera:
 
 * [US](https://vuldb.com/?country.us)
+* [GB](https://vuldb.com/?country.gb)
 * [RO](https://vuldb.com/?country.ro)
-* [ES](https://vuldb.com/?country.es)
 * ...
 
 There are 17 more country items available. Please use our online service to access the data.
@@ -42,11 +42,11 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94 | Argument Injection | High
 5 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -54,31 +54,43 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/cgi-bin/kerbynet` | High
-2 | File | `/cgi-bin/supervisor/CloudSetup.cgi` | High
-3 | File | `/domain/add` | Medium
-4 | File | `/download` | Medium
-5 | File | `/etc/sudoers` | Medium
-6 | File | `/index.php` | Medium
-7 | File | `/index.php/weblinks-categories` | High
-8 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-9 | File | `/plain` | Low
-10 | File | `/show_group_members.php` | High
-11 | File | `/status` | Low
-12 | File | `/uncpath/` | Medium
-13 | File | `/vdesk` | Low
-14 | File | `/web/google_analytics.php` | High
-15 | File | `addentry.php` | Medium
-16 | File | `admin/login.php` | High
-17 | File | `admin_component.php` | High
-18 | File | `app/views/journals/index.builder` | High
-19 | File | `archive_endian.h` | High
-20 | File | `auth-gss2.c` | Medium
-21 | File | `bmp.c` | Low
-22 | File | `boaform/admin/formPing` | High
-23 | ... | ... | ...
+1 | File | `/admin/` | Low
+2 | File | `/admin/doctors.php` | High
+3 | File | `/admin/pages/yearlevel.php` | High
+4 | File | `/admin/update_s6.php` | High
+5 | File | `/admin/upload/img` | High
+6 | File | `/admin_ping.htm` | High
+7 | File | `/ample/app/action/edit_product.php` | High
+8 | File | `/api/controllers/common/UploadsController.php` | High
+9 | File | `/app/api/controller/collect.php` | High
+10 | File | `/application/index/controller/Screen.php` | High
+11 | File | `/APR/login.php` | High
+12 | File | `/cgi-bin/cstecgi.cgi` | High
+13 | File | `/cgi-bin/kerbynet` | High
+14 | File | `/cgi-bin/supervisor/CloudSetup.cgi` | High
+15 | File | `/core/config-revisions` | High
+16 | File | `/devinfo` | Medium
+17 | File | `/domain/add` | Medium
+18 | File | `/download` | Medium
+19 | File | `/etc/sudoers` | Medium
+20 | File | `/get.php` | Medium
+21 | File | `/index.jsp#settings` | High
+22 | File | `/index.php` | Medium
+23 | File | `/index.php/weblinks-categories` | High
+24 | File | `/item/item_con` | High
+25 | File | `/log/download.php` | High
+26 | File | `/member/ad.php?action=ad` | High
+27 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+28 | File | `/plain` | Low
+29 | File | `/show_group_members.php` | High
+30 | File | `/status` | Low
+31 | File | `/SysInfo1.htm` | High
+32 | File | `/uncpath/` | Medium
+33 | File | `/user/manage-notes.php` | High
+34 | File | `/vdesk` | Low
+35 | ... | ... | ...
 
-There are 196 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 298 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

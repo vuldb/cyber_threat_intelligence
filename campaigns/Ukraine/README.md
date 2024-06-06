@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [US](https://vuldb.com/?country.us)
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 18 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -1204,9 +1204,19 @@ ID | IP address | Hostname | Actor | Confidence
 1163 | [80.93.127.147](https://vuldb.com/?ip.80.93.127.147) | uz0-fft0-bc.ett.ua | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
 1164 | [80.93.127.148](https://vuldb.com/?ip.80.93.127.148) | od0-kv0-nw.ett.ua | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
 1165 | [80.93.127.152](https://vuldb.com/?ip.80.93.127.152) | od0-kh0-sn-nw.ett.ua | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-1166 | ... | ... | ... | ...
+1166 | [80.93.127.160](https://vuldb.com/?ip.80.93.127.160) | kv0-lv2.ett.ua | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1167 | [80.93.127.164](https://vuldb.com/?ip.80.93.127.164) | od0-vol0-nw.ett.ua | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1168 | [80.93.127.168](https://vuldb.com/?ip.80.93.127.168) | lv0-uz0-nw.ett.ua | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1169 | [80.93.127.178](https://vuldb.com/?ip.80.93.127.178) | kv0-lv2.ett.ua | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1170 | [80.93.127.182](https://vuldb.com/?ip.80.93.127.182) | kv0-kh2.ett.ua | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1171 | [80.93.127.184](https://vuldb.com/?ip.80.93.127.184) | kh0-vol0-nw.ett.ua | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1172 | [80.93.127.188](https://vuldb.com/?ip.80.93.127.188) | od0-fft1.ett.ua | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1173 | [80.93.127.190](https://vuldb.com/?ip.80.93.127.190) | kv0-kh2.ett.ua | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1174 | [80.93.127.192](https://vuldb.com/?ip.80.93.127.192) | var1-var0.ett.ua | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1175 | [80.93.127.194](https://vuldb.com/?ip.80.93.127.194) | kv0-dp0.ett.ua | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+1176 | ... | ... | ... | ...
 
-There are 4658 more IOC items available. Please use our online service to access the data.
+There are 4702 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -1214,14 +1224,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Path Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74, CWE-643 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-94 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -1229,41 +1238,42 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin-manage-user.php` | High
-2 | File | `/admin.php` | Medium
-3 | File | `/admin/edit-services.php` | High
-4 | File | `/admin/list_ipAddressPolicy.php` | High
-5 | File | `/admin/operations/expense_category.php` | High
-6 | File | `/admin/update-users.php` | High
-7 | File | `/amssplus/modules/book/main/select_send_2.php` | High
-8 | File | `/api /v3/auth` | High
-9 | File | `/bin/sh` | Low
-10 | File | `/cancel.php` | Medium
-11 | File | `/category.php` | High
-12 | File | `/cgi-bin/cstecgi.cgi` | High
-13 | File | `/check_availability.php` | High
-14 | File | `/classes/Users.php` | High
-15 | File | `/conversation/ajax-html/send_log?folder_id=&thread_id=` | High
-16 | File | `/dashboard/Cinvoice/manage_invoice` | High
-17 | File | `/download` | Medium
-18 | File | `/DXR.axd` | Medium
-19 | File | `/edit-task.php` | High
-20 | File | `/forum/away.php` | High
-21 | File | `/goform/execCommand` | High
-22 | File | `/goform/net\_Web\_get_value` | High
-23 | File | `/goform/setcfm` | High
-24 | File | `/goform/SetFirewallCfg` | High
-25 | File | `/goform/setsambacfg` | High
-26 | File | `/goform/SetSpeedWan` | High
-27 | File | `/goform/SetStaticRouteCfg` | High
-28 | File | `/goform/SysToolRestoreSet` | High
-29 | File | `/goform/WriteFacMac` | High
-30 | File | `/hedwig.cgi` | Medium
-31 | File | `/index.php` | Medium
-32 | File | `/materializers/cloudpickle_materializer.py` | High
-33 | ... | ... | ...
+1 | File | `/admin/admin-profile.php` | High
+2 | File | `/Admin/changepassword.php` | High
+3 | File | `/admin/edit_supplier.php` | High
+4 | File | `/admin/forgot-password.php` | High
+5 | File | `/admin/general-setting` | High
+6 | File | `/admin/index.php` | High
+7 | File | `/admin/normal-bwdates-reports-details.php` | High
+8 | File | `/admin/normal-search.php` | High
+9 | File | `/admin/service` | High
+10 | File | `/admin/students.php` | High
+11 | File | `/admin/tax` | Medium
+12 | File | `/ajax.php` | Medium
+13 | File | `/application/index/controller/Screen.php` | High
+14 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
+15 | File | `/applications/nexus/modules/front/store/store.php` | High
+16 | File | `/audimex/cgi-bin/wal.fcgi` | High
+17 | File | `/catalog/all-products` | High
+18 | File | `/cgi-bin/system_mgr.cgi` | High
+19 | File | `/classes/Users.php?f=save` | High
+20 | File | `/dataSet/testTransform;swagger-ui` | High
+21 | File | `/dayrui/Fcms/View/system_log.html` | High
+22 | File | `/dayrui/My/View/main.html` | High
+23 | File | `/DXR.axd` | Medium
+24 | File | `/Forms/tools_test_1` | High
+25 | File | `/forum/away.php` | High
+26 | File | `/goform/SetRebootTimer` | High
+27 | File | `/goform/SetSysTimeCfg` | High
+28 | File | `/importhtml.php` | High
+29 | File | `/improve/home.php` | High
+30 | File | `/index.php` | Medium
+31 | File | `/lesson/controller.php` | High
+32 | File | `/manage_sy.php` | High
+33 | File | `/media/api` | Medium
+34 | ... | ... | ...
 
-There are 279 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 291 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -1287,6 +1297,7 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://github.com/Cisco-Talos/IOCs/blob/main/2022/07/attackers-target-ukraine-using-gomet.txt
 * https://github.com/CYBERCOM-Malware-Alert/IOCs/blob/main/Ukraine%20Network%20IOCs%20July%2020%202022.xlsx
 * https://github.com/firehol/blocklist-ipsets/blob/master/geolite2_country/country_ua.netset
+* https://github.com/scriptzteam/Private-Internet-Access-VPN-Servers/blob/main/export.csv
 * https://otx.alienvault.com/pulse/62552abdd7e44d9aba08636d
 * https://raw.githubusercontent.com/firehol/blocklist-ipsets/master/ip2location_country/ip2location_country_ua.netset
 * https://raw.githubusercontent.com/firehol/blocklist-ipsets/master/ipip_country/ipip_country_ua.netset
@@ -1299,6 +1310,7 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://www.welivesecurity.com/2017/06/30/telebots-back-supply-chain-attacks-against-ukraine/
 * https://www.wordfence.com/blog/2022/03/ukraine-universities-hacked-by-brazilian-via-finland-as-russian-invasion-started/
 * https://www.zscaler.com/blogs/security-research/hermeticwiper-resurgence-targeted-attacks-ukraine
+* ttps://github.com/scriptzteam/Private-Internet-Access-VPN-Servers/blob/main/export.csv
 
 ## Literature
 

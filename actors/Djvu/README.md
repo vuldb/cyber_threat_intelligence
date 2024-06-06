@@ -9,8 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Djvu:
 
 * [US](https://vuldb.com/?country.us)
-* [MX](https://vuldb.com/?country.mx)
 * [AR](https://vuldb.com/?country.ar)
+* [KR](https://vuldb.com/?country.kr)
+* ...
+
+There are 1 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -32,9 +35,9 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Pathname Traversal | High
-2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94 | Cross Site Scripting | High
+1 | T1006 | CWE-22 | Path Traversal | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
 
 There are 14 more TTP items available. Please use our online service to access the data.
@@ -53,14 +56,14 @@ ID | Type | Indicator | Confidence
 6 | File | `/plain` | Low
 7 | File | `/show_group_members.php` | High
 8 | File | `/uncpath/` | Medium
-9 | File | `/web/google_analytics.php` | High
-10 | File | `archive_endian.h` | High
-11 | File | `bmp.c` | Low
-12 | File | `cgi-bin/jc.cgi` | High
-13 | File | `checklogin.php` | High
+9 | File | `/view/show_student1.php` | High
+10 | File | `/web/google_analytics.php` | High
+11 | File | `archive_endian.h` | High
+12 | File | `bmp.c` | Low
+13 | File | `cgi-bin/jc.cgi` | High
 14 | ... | ... | ...
 
-There are 110 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 112 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

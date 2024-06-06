@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Swaziland Unknown:
 
 * [US](https://vuldb.com/?country.us)
-* [ZA](https://vuldb.com/?country.za)
 * [GB](https://vuldb.com/?country.gb)
+* [ZA](https://vuldb.com/?country.za)
 
 ## IOC - Indicator of Compromise
 
@@ -34,11 +34,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22 | Path Traversal | High
-2 | T1505 | CWE-89 | SQL Injection | High
-3 | T1552 | CWE-640 | Credentials Management | High
+2 | T1059.007 | CWE-79 | Cross Site Scripting | High
+3 | T1505 | CWE-89 | SQL Injection | High
 4 | ... | ... | ... | ...
 
-There are 1 more TTP items available. Please use our online service to access the data.
+There are 2 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 

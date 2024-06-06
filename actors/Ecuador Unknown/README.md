@@ -171,16 +171,16 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/etc/quantum/quantum.conf` | High
 2 | File | `/index.php?controller=calendar&format=raw&cat[0]=SQLi&task=events` | High
-3 | File | `/scheduler/index.php` | High
-4 | File | `/uncpath/` | Medium
-5 | File | `/var/log/nginx` | High
-6 | File | `/_uuids` | Low
-7 | File | `admin/dashboard.php` | High
-8 | File | `agent/Core/SpawningKit/Spawner.h` | High
-9 | File | `auth-gss2.c` | Medium
+3 | File | `/osm/REGISTER.cmd` | High
+4 | File | `/scheduler/index.php` | High
+5 | File | `/uncpath/` | Medium
+6 | File | `/var/log/nginx` | High
+7 | File | `/_uuids` | Low
+8 | File | `admin/dashboard.php` | High
+9 | File | `agent/Core/SpawningKit/Spawner.h` | High
 10 | ... | ... | ...
 
-There are 74 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 75 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

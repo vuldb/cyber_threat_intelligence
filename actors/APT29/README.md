@@ -19,12 +19,12 @@ There are 3 more campaign items available. Please use our online service to acce
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with APT29:
 
-* [CN](https://vuldb.com/?country.cn)
-* [US](https://vuldb.com/?country.us)
-* [LA](https://vuldb.com/?country.la)
+* [PL](https://vuldb.com/?country.pl)
+* [RU](https://vuldb.com/?country.ru)
+* [AR](https://vuldb.com/?country.ar)
 * ...
 
-There are 10 more country items available. Please use our online service to access the data.
+There are 9 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -70,14 +70,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-94 | Argument Injection | High
+4 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 13 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -85,44 +83,18 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/controller/JobLogController.java` | High
-2 | File | `/admin/sign/out` | High
-3 | File | `/api/baskets/{name}` | High
-4 | File | `/api/sys/login` | High
-5 | File | `/api/sys/set_passwd` | High
-6 | File | `/api/trackedEntityInstances` | High
-7 | File | `/api/v1/terminal/sessions/?limit=1` | High
-8 | File | `/aux` | Low
-9 | File | `/book-services.php` | High
-10 | File | `/changePassword` | High
-11 | File | `/data/remove` | Medium
-12 | File | `/debug/pprof` | Medium
-13 | File | `/ecshop/admin/template.php` | High
-14 | File | `/etc/passwd` | Medium
-15 | File | `/forum/away.php` | High
-16 | File | `/goform/net\_Web\_get_value` | High
-17 | File | `/index.php` | Medium
-18 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-19 | File | `/novel/bookSetting/list` | High
-20 | File | `/novel/userFeedback/list` | High
-21 | File | `/owa/auth/logon.aspx` | High
-22 | File | `/product/savenewproduct.php?flag=1` | High
-23 | File | `/testConnection` | High
-24 | File | `/tmp/ppd.trace` | High
-25 | File | `/user/inc/workidajax.php` | High
-26 | File | `/userLogin.asp` | High
-27 | File | `/vm/admin/doctors.php` | High
-28 | File | `Access.app/Contents/Resources/kcproxy` | High
-29 | File | `adclick.php` | Medium
-30 | File | `addressbook.update.php` | High
-31 | File | `admin.php` | Medium
-32 | File | `admin/booking_report.php` | High
-33 | File | `admin/index.php` | High
-34 | File | `admin/page-login.php` | High
-35 | File | `admin/partials/wp-splashing-admin-main.php` | High
-36 | ... | ... | ...
+1 | File | `/catalog/all-products` | High
+2 | File | `/changePassword` | High
+3 | File | `/forum/away.php` | High
+4 | File | `/goform/addIpMacBind` | High
+5 | File | `/goform/DelDhcpRule` | High
+6 | File | `/goform/delIpMacBind` | High
+7 | File | `/goform/DelPortMapping` | High
+8 | File | `/goform/modifyDhcpRule` | High
+9 | File | `/goform/modifyIpMacBind` | High
+10 | ... | ... | ...
 
-There are 304 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 77 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

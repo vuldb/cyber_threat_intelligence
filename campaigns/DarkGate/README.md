@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with DarkGate:
 
-* [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
+* [US](https://vuldb.com/?country.us)
 * [VN](https://vuldb.com/?country.vn)
 * ...
 
-There are 16 more country items available. Please use our online service to access the data.
+There are 21 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -34,27 +34,30 @@ ID | IP address | Hostname | Actor | Confidence
 2 | [5.2.68.77](https://vuldb.com/?ip.5.2.68.77) | - | [DarkGate](https://vuldb.com/?actor.darkgate) | High
 3 | [5.2.68.89](https://vuldb.com/?ip.5.2.68.89) | - | [DarkGate](https://vuldb.com/?actor.darkgate) | High
 4 | [5.34.178.21](https://vuldb.com/?ip.5.34.178.21) | udfurgqxmjzcc.pserver.ru | [DarkGate](https://vuldb.com/?actor.darkgate) | High
-5 | [5.181.159.29](https://vuldb.com/?ip.5.181.159.29) | no-rdns.mivocloud.com | [BattleRoyal](https://vuldb.com/?actor.battleroyal) | High
-6 | [5.181.159.49](https://vuldb.com/?ip.5.181.159.49) | no-rdns.mivocloud.com | [DarkGate](https://vuldb.com/?actor.darkgate) | High
-7 | [5.181.159.64](https://vuldb.com/?ip.5.181.159.64) | no-rdns.mivocloud.com | [DarkGate](https://vuldb.com/?actor.darkgate) | High
-8 | [5.181.159.76](https://vuldb.com/?ip.5.181.159.76) | no-rdns.mivocloud.com | [DarkGate](https://vuldb.com/?actor.darkgate) | High
-9 | [5.188.87.58](https://vuldb.com/?ip.5.188.87.58) | - | [DarkGate](https://vuldb.com/?actor.darkgate) | High
-10 | [5.252.178.193](https://vuldb.com/?ip.5.252.178.193) | 5-252-178-193.mivocloud.com | [DarkGate](https://vuldb.com/?actor.darkgate) | High
-11 | [8.209.99.230](https://vuldb.com/?ip.8.209.99.230) | - | [DarkGate](https://vuldb.com/?actor.darkgate) | High
-12 | [34.16.181.0](https://vuldb.com/?ip.34.16.181.0) | 0.181.16.34.bc.googleusercontent.com | [DarkGate](https://vuldb.com/?actor.darkgate) | Medium
-13 | [35.203.111.228](https://vuldb.com/?ip.35.203.111.228) | 228.111.203.35.bc.googleusercontent.com | [DarkGate](https://vuldb.com/?actor.darkgate) | Medium
-14 | [35.247.194.72](https://vuldb.com/?ip.35.247.194.72) | 72.194.247.35.bc.googleusercontent.com | [DarkGate](https://vuldb.com/?actor.darkgate) | Medium
-15 | [38.180.60.31](https://vuldb.com/?ip.38.180.60.31) | - | [DarkGate](https://vuldb.com/?actor.darkgate) | High
-16 | [45.67.34.69](https://vuldb.com/?ip.45.67.34.69) | vm2117880.stark-industries.solutions | [DarkGate](https://vuldb.com/?actor.darkgate) | High
-17 | [45.89.65.198](https://vuldb.com/?ip.45.89.65.198) | 2.server.com | [DarkGate](https://vuldb.com/?actor.darkgate) | High
-18 | [45.140.146.2](https://vuldb.com/?ip.45.140.146.2) | vm2099152.stark-industries.solutions | [DarkGate](https://vuldb.com/?actor.darkgate) | High
-19 | [45.141.87.89](https://vuldb.com/?ip.45.141.87.89) | - | [DarkGate](https://vuldb.com/?actor.darkgate) | High
-20 | [45.147.228.138](https://vuldb.com/?ip.45.147.228.138) | - | [DarkGate](https://vuldb.com/?actor.darkgate) | High
-21 | [46.21.157.142](https://vuldb.com/?ip.46.21.157.142) | 142.157.21.46.inferno.name | [DarkGate](https://vuldb.com/?actor.darkgate) | High
-22 | [46.173.215.132](https://vuldb.com/?ip.46.173.215.132) | - | [DarkGate](https://vuldb.com/?actor.darkgate) | High
-23 | ... | ... | ... | ...
+5 | [5.180.24.155](https://vuldb.com/?ip.5.180.24.155) | vm2303689.stark-industries.solutions | [DarkGate](https://vuldb.com/?actor.darkgate) | High
+6 | [5.181.159.29](https://vuldb.com/?ip.5.181.159.29) | no-rdns.mivocloud.com | [BattleRoyal](https://vuldb.com/?actor.battleroyal) | High
+7 | [5.181.159.49](https://vuldb.com/?ip.5.181.159.49) | no-rdns.mivocloud.com | [DarkGate](https://vuldb.com/?actor.darkgate) | High
+8 | [5.181.159.64](https://vuldb.com/?ip.5.181.159.64) | no-rdns.mivocloud.com | [DarkGate](https://vuldb.com/?actor.darkgate) | High
+9 | [5.181.159.76](https://vuldb.com/?ip.5.181.159.76) | no-rdns.mivocloud.com | [DarkGate](https://vuldb.com/?actor.darkgate) | High
+10 | [5.188.87.58](https://vuldb.com/?ip.5.188.87.58) | - | [DarkGate](https://vuldb.com/?actor.darkgate) | High
+11 | [5.252.178.193](https://vuldb.com/?ip.5.252.178.193) | 5-252-178-193.mivocloud.com | [DarkGate](https://vuldb.com/?actor.darkgate) | High
+12 | [8.209.99.230](https://vuldb.com/?ip.8.209.99.230) | - | [DarkGate](https://vuldb.com/?actor.darkgate) | High
+13 | [34.16.181.0](https://vuldb.com/?ip.34.16.181.0) | 0.181.16.34.bc.googleusercontent.com | [DarkGate](https://vuldb.com/?actor.darkgate) | Medium
+14 | [35.203.111.228](https://vuldb.com/?ip.35.203.111.228) | 228.111.203.35.bc.googleusercontent.com | [DarkGate](https://vuldb.com/?actor.darkgate) | Medium
+15 | [35.247.194.72](https://vuldb.com/?ip.35.247.194.72) | 72.194.247.35.bc.googleusercontent.com | [DarkGate](https://vuldb.com/?actor.darkgate) | Medium
+16 | [38.180.60.31](https://vuldb.com/?ip.38.180.60.31) | - | [DarkGate](https://vuldb.com/?actor.darkgate) | High
+17 | [45.63.52.184](https://vuldb.com/?ip.45.63.52.184) | 45.63.52.184.vultrusercontent.com | [DarkGate](https://vuldb.com/?actor.darkgate) | High
+18 | [45.67.34.69](https://vuldb.com/?ip.45.67.34.69) | vm2117880.stark-industries.solutions | [DarkGate](https://vuldb.com/?actor.darkgate) | High
+19 | [45.89.53.187](https://vuldb.com/?ip.45.89.53.187) | vm2338426.stark-industries.solutions | [DarkGate](https://vuldb.com/?actor.darkgate) | High
+20 | [45.89.65.198](https://vuldb.com/?ip.45.89.65.198) | 2.server.com | [DarkGate](https://vuldb.com/?actor.darkgate) | High
+21 | [45.140.146.2](https://vuldb.com/?ip.45.140.146.2) | vm2099152.stark-industries.solutions | [DarkGate](https://vuldb.com/?actor.darkgate) | High
+22 | [45.141.87.89](https://vuldb.com/?ip.45.141.87.89) | - | [DarkGate](https://vuldb.com/?actor.darkgate) | High
+23 | [45.147.228.138](https://vuldb.com/?ip.45.147.228.138) | - | [DarkGate](https://vuldb.com/?actor.darkgate) | High
+24 | [45.154.98.21](https://vuldb.com/?ip.45.154.98.21) | 45.154.98.21.powered.by.rdp.sh | [DarkGate](https://vuldb.com/?actor.darkgate) | High
+25 | [46.21.157.142](https://vuldb.com/?ip.46.21.157.142) | 142.157.21.46.inferno.name | [DarkGate](https://vuldb.com/?actor.darkgate) | High
+26 | ... | ... | ... | ...
 
-There are 89 more IOC items available. Please use our online service to access the data.
+There are 101 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -63,10 +66,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-25, CWE-29, CWE-36 | Path Traversal | High
-2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
@@ -80,56 +83,54 @@ ID | Type | Indicator | Confidence
 1 | File | `/#ilang=DE&b=c_smartenergy_swgroups` | High
 2 | File | `/Account/login.php` | High
 3 | File | `/admin/` | Low
-4 | File | `/admin/admin_user.php` | High
-5 | File | `/admin/list_ipAddressPolicy.php` | High
-6 | File | `/admin/subject.php` | High
-7 | File | `/adminapi/system/crud` | High
-8 | File | `/adminapi/system/file/openfile` | High
-9 | File | `/admin_route/dec_service_credits.php` | High
-10 | File | `/api/v4/teams//channels/deleted` | High
-11 | File | `/auth/auth.php?user=1` | High
-12 | File | `/b2b-supermarket/shopping-cart` | High
-13 | File | `/boaform/device_reset.cgi` | High
-14 | File | `/cancel.php` | Medium
-15 | File | `/category.php` | High
-16 | File | `/cgi-bin/cstecgi.cgi` | High
-17 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-18 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
-19 | File | `/cgi-bin/wlogin.cgi` | High
-20 | File | `/cgi/cpaddons_report.pl` | High
-21 | File | `/change-language/de_DE` | High
+4 | File | `/Admin/changepassword.php` | High
+5 | File | `/admin/general-setting` | High
+6 | File | `/admin/list_ipAddressPolicy.php` | High
+7 | File | `/admin/service` | High
+8 | File | `/adminapi/system/crud` | High
+9 | File | `/adminapi/system/file/openfile` | High
+10 | File | `/adminPage/conf/reload` | High
+11 | File | `/admin_route/dec_service_credits.php` | High
+12 | File | `/api/runscript` | High
+13 | File | `/api/v1/snapshots` | High
+14 | File | `/api/v4/teams//channels/deleted` | High
+15 | File | `/api/wechat/app_auth` | High
+16 | File | `/cancel.php` | Medium
+17 | File | `/category.php` | High
+18 | File | `/cgi-bin/cstecgi.cgi` | High
+19 | File | `/cgi-bin/nas_sharing.cgi` | High
+20 | File | `/cgi-bin/system_mgr.cgi` | High
+21 | File | `/cgi-bin/wlogin.cgi` | High
 22 | File | `/common/dict/list` | High
-23 | File | `/debug/pprof` | Medium
-24 | File | `/devinfo` | Medium
-25 | File | `/dist/index.js` | High
+23 | File | `/control/register_case.php` | High
+24 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
+25 | File | `/devinfo` | Medium
 26 | File | `/download` | Medium
-27 | File | `/DXR.axd` | Medium
-28 | File | `/forum/away.php` | High
-29 | File | `/goform/goform_get_cmd_process` | High
-30 | File | `/HNAP1/` | Low
-31 | File | `/hosts/firewall/ip` | High
-32 | File | `/importexport.php` | High
-33 | File | `/index.jsp#settings` | High
-34 | File | `/index.php/ccm/system/file/upload` | High
-35 | File | `/Interface/DevManage/VM.php` | High
-36 | File | `/log/decodmail.php` | High
-37 | File | `/main/doctype.php` | High
-38 | File | `/main/webservices/additional_webservices.php` | High
-39 | File | `/net/bluetooth/rfcomm/core.C` | High
-40 | File | `/novel/bookSetting/list` | High
-41 | File | `/novel/userFeedback/list` | High
-42 | File | `/oauth/idp/.well-known/openid-configuration` | High
-43 | File | `/pdf` | Low
-44 | File | `/php/ping.php` | High
-45 | File | `/register.php` | High
-46 | File | `/remote/put_file` | High
-47 | File | `/s/index.php?action=statistics` | High
-48 | File | `/Setting/change_password_save` | High
-49 | File | `/setting/NTPSyncWithHost` | High
-50 | File | `/signup.php` | Medium
-51 | ... | ... | ...
+27 | File | `/forum/away.php` | High
+28 | File | `/goform/DhcpListClient` | High
+29 | File | `/hrm/leaverequest.php` | High
+30 | File | `/index.jsp#settings` | High
+31 | File | `/index.php` | Medium
+32 | File | `/install/` | Medium
+33 | File | `/Interface/DevManage/VM.php` | High
+34 | File | `/main/webservices/additional_webservices.php` | High
+35 | File | `/mfsNotice/page` | High
+36 | File | `/ndmComponents.js` | High
+37 | File | `/net/bluetooth/rfcomm/core.C` | High
+38 | File | `/novel/bookSetting/list` | High
+39 | File | `/novel/userFeedback/list` | High
+40 | File | `/one_church/churchprofile.php` | High
+41 | File | `/pdf` | Low
+42 | File | `/php/ping.php` | High
+43 | File | `/register.php` | High
+44 | File | `/registrar/` | Medium
+45 | File | `/remote/put_file` | High
+46 | File | `/Setting/change_password_save` | High
+47 | File | `/signup.php` | Medium
+48 | File | `/spip.php` | Medium
+49 | ... | ... | ...
 
-There are 447 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 421 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -173,8 +174,15 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://tria.ge/240314-wb7stsae5w/behavioral2
 * https://tria.ge/240318-v6zv2aec55/behavioral1
 * https://tria.ge/240319-x76fbadb28/behavioral2
+* https://tria.ge/240402-1yzsysfa62/behavioral2
+* https://tria.ge/240403-bx56xaca99/behavioral2
+* https://tria.ge/240410-pgqm6sfc77/behavioral1
+* https://tria.ge/240410-w88fmagb53/behavioral1
+* https://tria.ge/240416-rnhbgsdg2x/behavioral3
 * https://twitter.com/0xw4ifu/status/1714738953016746247
+* https://twitter.com/500mk500/status/1786855945684787485
 * https://twitter.com/AnFam17/status/1701963227955945552
+* https://twitter.com/crep1x/status/1790002169472503946
 * https://twitter.com/malwrhunterteam/status/1704231060865778097
 * https://twitter.com/malwrhunterteam/status/1704483766461173984
 * https://twitter.com/r3dbU7z/status/1712256418483519885
@@ -184,7 +192,9 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://www.malware-traffic-analysis.net/2024/01/30/index.html
 * https://www.mandiant.com/resources/blog/detecting-disrupting-malvertising-backdoors
 * https://www.proofpoint.com/us/blog/threat-insight/battleroyal-darkgate-cluster-spreads-email-and-fake-browser-updates
+* https://www.virustotal.com/gui/domain/bdl.syscloud-systems.com/details
 * https://www.virustotal.com/gui/file/8ba5c6c94e016941464bc65bd697749e7a2c88fb3a5b420f23cd1aa1ab022eef
+* https://www.virustotal.com/gui/file/44ebb9846c88e7f3beb2af2d8bd656990a1d2bf1c7122a54e949d7b50945e284/relations
 * https://www.virustotal.com/gui/file/9921e057693d70d2f6bf13a04abf816c10fe209cff82cb533596ed313b9d2154/detection
 * https://www.virustotal.com/gui/file/c2e90c45911b7b6e9d46f4dae5bfefa47e50abddd75cc6d5297cddeee23dd002
 * https://www.virustotal.com/gui/file/f0f22f8f3b308b0d8fae34c9eb65ab1e8fde41f9933ef07d1e819163234adbee

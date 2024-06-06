@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Slovakia Unknown:
 
-* [CN](https://vuldb.com/?country.cn)
-* [US](https://vuldb.com/?country.us)
-* [IL](https://vuldb.com/?country.il)
+* [PL](https://vuldb.com/?country.pl)
+* [RU](https://vuldb.com/?country.ru)
+* [FR](https://vuldb.com/?country.fr)
 * ...
 
-There are 19 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -155,9 +155,19 @@ ID | IP address | Hostname | Campaign | Confidence
 132 | [87.197.138.0](https://vuldb.com/?ip.87.197.138.0) | static-dsl-0.87-197-138.telecom.sk | - | High
 133 | [87.197.140.0](https://vuldb.com/?ip.87.197.140.0) | static-dsl-0.87-197-140.telecom.sk | - | High
 134 | [87.197.144.0](https://vuldb.com/?ip.87.197.144.0) | static-dsl-0.87-197-144.telecom.sk | - | High
-135 | ... | ... | ... | ...
+135 | [87.197.160.0](https://vuldb.com/?ip.87.197.160.0) | static-bband-0.87-197-160.telecom.sk | - | High
+136 | [87.197.192.0](https://vuldb.com/?ip.87.197.192.0) | st-static-srk0.87-197-192.telecom.sk | - | High
+137 | [87.239.56.0](https://vuldb.com/?ip.87.239.56.0) | - | - | High
+138 | [87.244.192.0](https://vuldb.com/?ip.87.244.192.0) | - | - | High
+139 | [88.80.224.0](https://vuldb.com/?ip.88.80.224.0) | - | - | High
+140 | [88.83.229.0](https://vuldb.com/?ip.88.83.229.0) | - | - | High
+141 | [88.212.0.0](https://vuldb.com/?ip.88.212.0.0) | - | - | High
+142 | [89.41.224.0](https://vuldb.com/?ip.89.41.224.0) | - | - | High
+143 | [89.107.144.0](https://vuldb.com/?ip.89.107.144.0) | - | - | High
+144 | [89.173.0.0](https://vuldb.com/?ip.89.173.0.0) | - | - | High
+145 | ... | ... | ... | ...
 
-There are 535 more IOC items available. Please use our online service to access the data.
+There are 577 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -165,14 +175,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-25, CWE-36 | Path Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+1 | T1006 | CWE-22 | Path Traversal | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-94 | Argument Injection | High
+4 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 14 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -180,57 +188,23 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `%SYSTEMDRIVE%\node_modules\.bin\wmic.exe` | High
-2 | File | `/#ilang=DE&b=c_smartenergy_swgroups` | High
-3 | File | `/Account/login.php` | High
-4 | File | `/admin/` | Low
-5 | File | `/admin/action/new-father.php` | High
-6 | File | `/adminapi/system/crud` | High
-7 | File | `/adminapi/system/file/openfile` | High
-8 | File | `/admin_route/dec_service_credits.php` | High
-9 | File | `/api/trackedEntityInstances` | High
-10 | File | `/api/v4/teams//channels/deleted` | High
-11 | File | `/application/index/controller/Screen.php` | High
-12 | File | `/application/websocket/controller/Setting.php` | High
-13 | File | `/aux` | Low
-14 | File | `/b2b-supermarket/shopping-cart` | High
-15 | File | `/bin/boa` | Medium
-16 | File | `/boafrm/formMapDelDevice` | High
-17 | File | `/cgi-bin/cstecgi.cgi` | High
-18 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-19 | File | `/cgi-bin/system_mgr.cgi` | High
-20 | File | `/change-language/de_DE` | High
-21 | File | `/data/remove` | Medium
-22 | File | `/debug/pprof` | Medium
-23 | File | `/devinfo` | Medium
-24 | File | `/dist/index.js` | High
-25 | File | `/endpoint/delete-computer.php` | High
-26 | File | `/endpoint/update-tracker.php` | High
-27 | File | `/etc/passwd` | Medium
-28 | File | `/forum/away.php` | High
-29 | File | `/goform/formSysCmd` | High
-30 | File | `/hedwig.cgi` | Medium
-31 | File | `/HNAP1/` | Low
-32 | File | `/hosts/firewall/ip` | High
-33 | File | `/index.jsp#settings` | High
-34 | File | `/index.php` | Medium
-35 | File | `/index.php/ccm/system/file/upload` | High
-36 | File | `/log/decodmail.php` | High
-37 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-38 | File | `/oauth/idp/.well-known/openid-configuration` | High
-39 | File | `/php/ping.php` | High
-40 | File | `/s/index.php?action=statistics` | High
-41 | File | `/showfile.php` | High
-42 | File | `/signup.php` | Medium
-43 | File | `/student/bookdetails.php` | High
-44 | File | `/st_reg.php` | Medium
-45 | File | `/supplier.php` | High
-46 | File | `/system/role/list` | High
-47 | File | `/tmp/ppd.trace` | High
-48 | File | `/TMS/admin/setting/mail/createorupdate` | High
-49 | ... | ... | ...
+1 | File | `/Admin/changepassword.php` | High
+2 | File | `/admin/general-setting` | High
+3 | File | `/admin/service` | High
+4 | File | `/catalog/all-products` | High
+5 | File | `/changePassword` | High
+6 | File | `/forum/away.php` | High
+7 | File | `/goform/addIpMacBind` | High
+8 | File | `/goform/DelDhcpRule` | High
+9 | File | `/goform/delIpMacBind` | High
+10 | File | `/goform/DelPortMapping` | High
+11 | File | `/goform/modifyDhcpRule` | High
+12 | File | `/goform/modifyIpMacBind` | High
+13 | File | `/goform/setBlackRule` | High
+14 | File | `/goform/SetDDNSCfg` | High
+15 | ... | ... | ...
 
-There are 427 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 124 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -238,6 +212,7 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://github.com/firehol/blocklist-ipsets/blob/master/geolite2_country/country_sk.netset
 * https://github.com/firehol/blocklist-ipsets/blob/master/ip2location_country/ip2location_country_sk.netset
+* https://github.com/scriptzteam/Private-Internet-Access-VPN-Servers/blob/main/export.csv
 
 ## Literature
 

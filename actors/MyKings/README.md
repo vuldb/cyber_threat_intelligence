@@ -107,9 +107,10 @@ ID | Type | Indicator | Confidence
 36 | File | `admin/admin.shtml` | High
 37 | File | `admin/shophelp.php` | High
 38 | File | `ajax-actions.php` | High
-39 | ... | ... | ...
+39 | File | `ajax/api/hook/decodeArguments` | High
+40 | ... | ... | ...
 
-There are 336 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 340 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

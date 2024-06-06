@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with BumbleBee:
 
-* [CN](https://vuldb.com/?country.cn)
-* [VN](https://vuldb.com/?country.vn)
-* [US](https://vuldb.com/?country.us)
+* [SV](https://vuldb.com/?country.sv)
+* [AR](https://vuldb.com/?country.ar)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 3 more country items available. Please use our online service to access the data.
+There are 8 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -392,13 +392,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Path Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
-5 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-24 | Path Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74, CWE-643 | Improper Neutralization of Data within XPath Expressions | High
+4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -406,45 +407,111 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `//proc/kcore` | Medium
-2 | File | `/admin.php` | Medium
-3 | File | `/admin/app/service_crud.php` | High
-4 | File | `/admin/edit-admin.php` | High
-5 | File | `/admin/index.php` | High
-6 | File | `/admin/list_ipAddressPolicy.php` | High
-7 | File | `/admin/list_resource_icon.php?action=delete` | High
-8 | File | `/Admin/login.php` | High
-9 | File | `/admin/orders/view_order.php` | High
-10 | File | `/admin/singlelogin.php` | High
-11 | File | `/app/admin/controller/Upload.php` | High
-12 | File | `/app/ajax/search_sales_report.php` | High
-13 | File | `/app/controller/Setup.php` | High
-14 | File | `/app/middleware/TokenVerify.php` | High
-15 | File | `/apps/reg_go.php` | High
-16 | File | `/billing/bill/edit/` | High
-17 | File | `/bin/sh` | Low
-18 | File | `/cgi-bin/cstecgi.cgi` | High
-19 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
-20 | File | `/cgi-bin/system_mgr.cgi` | High
-21 | File | `/cgi-bin/wlogin.cgi` | High
-22 | File | `/classes/Login.php` | High
-23 | File | `/classes/Users.php` | High
-24 | File | `/DXR.axd` | Medium
-25 | File | `/Employer/EditProfile.php` | High
-26 | File | `/Employer/ManageWalkin.php` | High
-27 | File | `/endpoint/add-faq.php` | High
-28 | File | `/endpoint/delete-computer.php` | High
-29 | File | `/endpoint/update-resident.php` | High
-30 | File | `/endpoint/update-tracker.php` | High
-31 | File | `/forum/away.php` | High
-32 | File | `/goform/net\_Web\_get_value` | High
-33 | File | `/goform/SetStaticRouteCfg` | High
-34 | File | `/home.php` | Medium
-35 | File | `/Home/Index` | Medium
-36 | File | `/inc/modules_install.php` | High
-37 | ... | ... | ...
+1 | File | `/?p=products` | Medium
+2 | File | `/?Page=Node&OBJ=/System/AdvancedSettings/DeviceSettings/MiscSettings` | High
+3 | File | `/about.php` | Medium
+4 | File | `/addQuestion.php` | High
+5 | File | `/admin-manage-user.php` | High
+6 | File | `/admin.php?c=upload&f=zip&_noCache=0.1683794968` | High
+7 | File | `/admin/` | Low
+8 | File | `/admin/aboutus.php` | High
+9 | File | `/admin/action/delete-vaccine.php` | High
+10 | File | `/admin/action/update-deworm.php` | High
+11 | File | `/admin/add-category.php` | High
+12 | File | `/Admin/add-student.php` | High
+13 | File | `/admin/add_trainers.php` | High
+14 | File | `/admin/admin.php` | High
+15 | File | `/admin/adminHome.php` | High
+16 | File | `/admin/api/admin/articles/` | High
+17 | File | `/admin/app/product.php` | High
+18 | File | `/admin/application-bwdates-reports-details.php` | High
+19 | File | `/admin/bookdate.php` | High
+20 | File | `/admin/booking-search.php` | High
+21 | File | `/admin/booktime.php` | High
+22 | File | `/admin/category/controller.php` | High
+23 | File | `/admin/company/controller.php` | High
+24 | File | `/Admin/createClass.php` | High
+25 | File | `/admin/deduction_row.php` | High
+26 | File | `/admin/edit-admin.php` | High
+27 | File | `/admin/edit-doc.php` | High
+28 | File | `/admin/edit.php` | High
+29 | File | `/admin/edit_categories.php` | High
+30 | File | `/admin/edit_supplier.php` | High
+31 | File | `/admin/employee/controller.php` | High
+32 | File | `/admin/index.php?act=reset_admin_psw` | High
+33 | File | `/admin/list_crl_conf` | High
+34 | File | `/admin/list_resource_icon.php?action=delete` | High
+35 | File | `/Admin/login.php` | High
+36 | File | `/admin/login.php` | High
+37 | File | `/admin/media.php` | High
+38 | File | `/Admin/News.php` | High
+39 | File | `/admin/offenses/view_details.php` | High
+40 | File | `/admin/orders/view_order.php` | High
+41 | File | `/admin/pages/edit_chicken.php` | High
+42 | File | `/admin/positions_add.php` | High
+43 | File | `/admin/receipt.php` | High
+44 | File | `/admin/rooms.php` | High
+45 | File | `/admin/sign/out` | High
+46 | File | `/admin/singlelogin.php` | High
+47 | File | `/admin/singlelogin.php?submit=1` | High
+48 | File | `/admin/students/manage.php` | High
+49 | File | `/admin/update-rooms.php` | High
+50 | File | `/admin/update-users.php` | High
+51 | File | `/admin/users.php` | High
+52 | File | `/admin/vacancy/controller.php` | High
+53 | File | `/admin/voters_row.php` | High
+54 | File | `/adminpanel/admin/facebox_modal/updateExaminee.php` | High
+55 | File | `/admin_ping.htm` | High
+56 | File | `/ajax-api.php` | High
+57 | File | `/analysisProject/pagingQueryData` | High
+58 | File | `/api/browserextension/UpdatePassword/` | High
+59 | File | `/api/controllers/admin/app/ComboController.php` | High
+60 | File | `/api/ping` | Medium
+61 | File | `/api/v2/open/rowsInfo` | High
+62 | File | `/api/v2/open/tablesInfo` | High
+63 | File | `/app/admin/controller/Upload.php` | High
+64 | File | `/app/ajax/search_sales_report.php` | High
+65 | File | `/app/api/controller/caiji.php` | High
+66 | File | `/app/api/controller/default/File.php` | High
+67 | File | `/application/index/common.php` | High
+68 | File | `/application/index/controller/Datament.php` | High
+69 | File | `/application/index/controller/Screen.php` | High
+70 | File | `/application/index/controller/Unity.php` | High
+71 | File | `/apply/index.php` | High
+72 | File | `/apps/system/router/upload.go` | High
+73 | File | `/back/index.php/user/User/?1` | High
+74 | File | `/balance/service/list` | High
+75 | File | `/boafrm/formMapDelDevice` | High
+76 | File | `/bsms_ci/index.php` | High
+77 | File | `/cap.js` | Low
+78 | File | `/cardo/api` | Medium
+79 | File | `/cgi-bin/cstecgi.cgi` | High
+80 | File | `/cgi-bin/touchlist_sync.cgi` | High
+81 | File | `/check_availability.php` | High
+82 | File | `/ci_spms/admin/category` | High
+83 | File | `/classes/Master.php?f=delete_service` | High
+84 | File | `/classes/Users.php` | High
+85 | File | `/classes/Users.php?f=save` | High
+86 | File | `/collection/all` | High
+87 | File | `/cwms/admin/?page=articles/view_article/` | High
+88 | File | `/cwms/classes/Master.php?f=save_contact` | High
+89 | File | `/dashboard/Cinvoice/manage_invoice` | High
+90 | File | `/dashboard/contact` | High
+91 | File | `/debuginfo.htm` | High
+92 | File | `/depotHead/list` | High
+93 | File | `/ebics-server/ebics.aspx` | High
+94 | File | `/edit-task.php` | High
+95 | File | `/edit.php` | Medium
+96 | File | `/editbrand.php` | High
+97 | File | `/endpoint/add-computer.php` | High
+98 | File | `/endpoint/delete-faq.php` | High
+99 | File | `/endpoint/delete-todo.php` | High
+100 | File | `/endpoint/update-flashcard.php` | High
+101 | File | `/EXCU_SHELL` | Medium
+102 | File | `/filex/proxy-download` | High
+103 | ... | ... | ...
 
-There are 316 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 915 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

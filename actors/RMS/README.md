@@ -50,7 +50,8 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+6 | T1068 | CWE-264, CWE-269, CWE-271, CWE-284 | Execution with Unnecessary Privileges | High
+7 | ... | ... | ... | ...
 
 There are 22 more TTP items available. Please use our online service to access the data.
 
@@ -60,44 +61,43 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/options` | High
-2 | File | `/api/addusers` | High
-3 | File | `/api/baskets/{name}` | High
-4 | File | `/api/v11/users/sessions` | High
-5 | File | `/apply.cgi` | Medium
-6 | File | `/category.php` | High
-7 | File | `/cgi-bin/diagnostics` | High
-8 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
-9 | File | `/cgi-bin/pass` | High
-10 | File | `/cmf/process/<process_id>/logs` | High
-11 | File | `/config.cgi?webmin` | High
-12 | File | `/connectors/index.php` | High
-13 | File | `/data/wps.setup.json` | High
-14 | File | `/download` | Medium
-15 | File | `/edit/server` | Medium
-16 | File | `/index.php` | Medium
-17 | File | `/mcategory.php` | High
-18 | File | `/MIME/INBOX-MM-1/` | High
-19 | File | `/movie.php` | Medium
-20 | File | `/multi-vendor-shopping-script/product-list.php` | High
-21 | File | `/news-portal-script/information.php` | High
-22 | File | `/owa/auth/logon.aspx` | High
-23 | File | `/page.php` | Medium
-24 | File | `/public/login.htm` | High
-25 | File | `/public/plugins/` | High
-26 | File | `/real-estate-script/search_property.php` | High
-27 | File | `/recordings/index.php` | High
-28 | File | `/searchJob.php` | High
-29 | File | `/uncpath/` | Medium
-30 | File | `/user/loader.php?api=1` | High
-31 | File | `/var/miniupnpd.conf` | High
-32 | File | `/wp-admin/options-general.php` | High
-33 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-34 | File | `addentry.php` | Medium
-35 | File | `addrtoname.c` | Medium
-36 | ... | ... | ...
+1 | File | `/../../conf/template/uhttpd.json` | High
+2 | File | `/admin/modal_add_product.php` | High
+3 | File | `/admin/options` | High
+4 | File | `/api/addusers` | High
+5 | File | `/api/baskets/{name}` | High
+6 | File | `/api/v11/users/sessions` | High
+7 | File | `/apply.cgi` | Medium
+8 | File | `/category.php` | High
+9 | File | `/cgi-bin/diagnostics` | High
+10 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
+11 | File | `/cgi-bin/pass` | High
+12 | File | `/cmf/process/<process_id>/logs` | High
+13 | File | `/config.cgi?webmin` | High
+14 | File | `/connectors/index.php` | High
+15 | File | `/data/wps.setup.json` | High
+16 | File | `/download` | Medium
+17 | File | `/edit/server` | Medium
+18 | File | `/mcategory.php` | High
+19 | File | `/MIME/INBOX-MM-1/` | High
+20 | File | `/movie.php` | Medium
+21 | File | `/multi-vendor-shopping-script/product-list.php` | High
+22 | File | `/news-portal-script/information.php` | High
+23 | File | `/owa/auth/logon.aspx` | High
+24 | File | `/page.php` | Medium
+25 | File | `/php/ping.php` | High
+26 | File | `/preview.php` | Medium
+27 | File | `/public/login.htm` | High
+28 | File | `/public/plugins/` | High
+29 | File | `/real-estate-script/search_property.php` | High
+30 | File | `/recordings/index.php` | High
+31 | File | `/searchJob.php` | High
+32 | File | `/uncpath/` | Medium
+33 | File | `/user/loader.php?api=1` | High
+34 | File | `/var/miniupnpd.conf` | High
+35 | ... | ... | ...
 
-There are 311 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 302 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

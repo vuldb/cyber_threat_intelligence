@@ -56,21 +56,22 @@ ID | Type | Indicator | Confidence
 1 | File | `/admin/admin.php` | High
 2 | File | `/admin/index2.html` | High
 3 | File | `/api/baskets/{name}` | High
-4 | File | `/view-pass-detail.php` | High
-5 | File | `/wp-admin/options-general.php` | High
-6 | File | `admin.color.php` | High
-7 | File | `admin.cropcanvas.php` | High
-8 | File | `admin.joomlaradiov5.php` | High
-9 | File | `admin.php` | Medium
-10 | File | `admin/addons/archive/archive.php` | High
-11 | File | `administrator/components/com_media/helpers/media.php` | High
-12 | File | `admin\model\catalog\download.php` | High
-13 | File | `akocomments.php` | High
-14 | File | `album_portal.php` | High
-15 | File | `al_initialize.php` | High
-16 | ... | ... | ...
+4 | File | `/application/index/controller/Databasesource.php` | High
+5 | File | `/livesite/edit_designer_region.php` | High
+6 | File | `/view-pass-detail.php` | High
+7 | File | `/wp-admin/options-general.php` | High
+8 | File | `admin.color.php` | High
+9 | File | `admin.cropcanvas.php` | High
+10 | File | `admin.joomlaradiov5.php` | High
+11 | File | `admin.php` | Medium
+12 | File | `admin/addons/archive/archive.php` | High
+13 | File | `administrator/components/com_media/helpers/media.php` | High
+14 | File | `admin\model\catalog\download.php` | High
+15 | File | `akocomments.php` | High
+16 | File | `album_portal.php` | High
+17 | ... | ... | ...
 
-There are 133 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 136 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

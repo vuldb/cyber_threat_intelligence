@@ -20,7 +20,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 25 more country items available. Please use our online service to access the data.
+There are 14 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -35,22 +35,31 @@ ID | IP address | Hostname | Campaign | Confidence
 5 | [23.95.85.181](https://vuldb.com/?ip.23.95.85.181) | 23-95-85-181-host.colocrossing.com | - | High
 6 | [23.95.128.195](https://vuldb.com/?ip.23.95.128.195) | 23-95-128-195-host.colocrossing.com | - | High
 7 | [31.3.251.197](https://vuldb.com/?ip.31.3.251.197) | h31-3-251-197.host.redstation.co.uk | - | High
-8 | [31.209.137.12](https://vuldb.com/?ip.31.209.137.12) | smtp.vivaldi.net | - | High
-9 | [31.220.2.200](https://vuldb.com/?ip.31.220.2.200) | shared.swiftslots.com | - | High
-10 | [34.154.74.85](https://vuldb.com/?ip.34.154.74.85) | 85.74.154.34.bc.googleusercontent.com | - | Medium
-11 | [34.200.207.31](https://vuldb.com/?ip.34.200.207.31) | ec2-34-200-207-31.compute-1.amazonaws.com | - | Medium
-12 | [37.19.196.108](https://vuldb.com/?ip.37.19.196.108) | unn-37-19-196-108.datapacket.com | - | High
-13 | [37.49.228.234](https://vuldb.com/?ip.37.49.228.234) | - | - | High
-14 | [43.230.131.138](https://vuldb.com/?ip.43.230.131.138) | srv1.nusadatacenter.com | - | High
-15 | [45.33.8.30](https://vuldb.com/?ip.45.33.8.30) | 45-33-8-30.ip.linodeusercontent.com | - | High
-16 | [45.142.215.180](https://vuldb.com/?ip.45.142.215.180) | connectoms.host | - | High
-17 | [45.156.25.78](https://vuldb.com/?ip.45.156.25.78) | - | - | High
-18 | [46.166.133.164](https://vuldb.com/?ip.46.166.133.164) | cybersubtitles.com | - | High
-19 | [47.87.211.157](https://vuldb.com/?ip.47.87.211.157) | - | - | High
-20 | [50.17.5.224](https://vuldb.com/?ip.50.17.5.224) | ec2-50-17-5-224.compute-1.amazonaws.com | - | Medium
-21 | ... | ... | ... | ...
+8 | [31.155.119.217](https://vuldb.com/?ip.31.155.119.217) | - | - | High
+9 | [31.209.137.12](https://vuldb.com/?ip.31.209.137.12) | smtp.vivaldi.net | - | High
+10 | [31.220.2.200](https://vuldb.com/?ip.31.220.2.200) | shared.swiftslots.com | - | High
+11 | [34.154.74.85](https://vuldb.com/?ip.34.154.74.85) | 85.74.154.34.bc.googleusercontent.com | - | Medium
+12 | [34.200.207.31](https://vuldb.com/?ip.34.200.207.31) | ec2-34-200-207-31.compute-1.amazonaws.com | - | Medium
+13 | [37.19.196.108](https://vuldb.com/?ip.37.19.196.108) | unn-37-19-196-108.datapacket.com | - | High
+14 | [37.49.228.234](https://vuldb.com/?ip.37.49.228.234) | - | - | High
+15 | [41.90.176.165](https://vuldb.com/?ip.41.90.176.165) | - | - | High
+16 | [41.90.177.10](https://vuldb.com/?ip.41.90.177.10) | - | - | High
+17 | [41.90.179.140](https://vuldb.com/?ip.41.90.179.140) | - | - | High
+18 | [41.90.180.123](https://vuldb.com/?ip.41.90.180.123) | - | - | High
+19 | [41.90.180.219](https://vuldb.com/?ip.41.90.180.219) | - | - | High
+20 | [41.90.181.104](https://vuldb.com/?ip.41.90.181.104) | - | - | High
+21 | [41.90.185.44](https://vuldb.com/?ip.41.90.185.44) | - | - | High
+22 | [41.90.186.173](https://vuldb.com/?ip.41.90.186.173) | - | - | High
+23 | [41.90.186.247](https://vuldb.com/?ip.41.90.186.247) | - | - | High
+24 | [41.90.186.248](https://vuldb.com/?ip.41.90.186.248) | - | - | High
+25 | [41.90.188.113](https://vuldb.com/?ip.41.90.188.113) | - | - | High
+26 | [41.90.189.214](https://vuldb.com/?ip.41.90.189.214) | - | - | High
+27 | [43.230.131.138](https://vuldb.com/?ip.43.230.131.138) | srv1.nusadatacenter.com | - | High
+28 | [45.33.8.30](https://vuldb.com/?ip.45.33.8.30) | 45-33-8-30.ip.linodeusercontent.com | - | High
+29 | [45.38.135.112](https://vuldb.com/?ip.45.38.135.112) | - | - | High
+30 | ... | ... | ... | ...
 
-There are 80 more IOC items available. Please use our online service to access the data.
+There are 118 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -58,14 +67,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-36 | Path Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
+4 | T1059.007 | CWE-79, CWE-80, CWE-85 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -74,76 +82,52 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/admin/about-us.php` | High
-3 | File | `/admin/add-services.php` | High
-4 | File | `/admin/admin.php` | High
-5 | File | `/admin/ajax.php` | High
-6 | File | `/admin/ajax.php?action=save_window` | High
-7 | File | `/admin/edit.php` | High
-8 | File | `/admin/index3.php` | High
-9 | File | `/admin/maintenance/view_designation.php` | High
-10 | File | `/admin/reg.php` | High
-11 | File | `/admin/service.php` | High
-12 | File | `/admin/view_order.php` | High
-13 | File | `/api/admin/system/store/order/list` | High
-14 | File | `/api/baskets/{name}` | High
-15 | File | `/app/options.py` | High
-16 | File | `/apply.cgi` | Medium
-17 | File | `/artist-display.php` | High
-18 | File | `/be/erpc.php` | Medium
-19 | File | `/bin/ate` | Medium
-20 | File | `/bitrix/admin/ldap_server_edit.php` | High
-21 | File | `/booking/show_bookings/` | High
-22 | File | `/cgi-bin/ping.cgi` | High
-23 | File | `/config/list` | Medium
-24 | File | `/Controller/Ajaxfileupload.ashx` | High
-25 | File | `/controller/Index.php` | High
-26 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
-27 | File | `/coreframe/app/order/admin/card.php` | High
-28 | File | `/csms/?page=contact_us` | High
-29 | File | `/dashboard/add-portfolio.php` | High
-30 | File | `/dashboard/add-service.php` | High
-31 | File | `/data/app` | Medium
-32 | File | `/dede/group_store.php` | High
-33 | File | `/dipam/athlete-profile.php` | High
-34 | File | `/ecommerce/admin/category/controller.php` | High
-35 | File | `/edit-db.php` | Medium
-36 | File | `/etc/gsissh/sshd_config` | High
-37 | File | `/etc/sudoers` | Medium
-38 | File | `/forum/away.php` | High
-39 | File | `/forum/PostPrivateMessage` | High
-40 | File | `/forums.php?action=post` | High
-41 | File | `/general/attendance/manage/ask_duty/delete.php` | High
-42 | File | `/general/email/outbox/delete.php` | High
-43 | File | `/goform/WifiBasicSet` | High
-44 | File | `/include/chart_generator.php` | High
-45 | File | `/index1.html` | Medium
-46 | File | `/inxedu/demo_inxedu_open/src/main/resources/mybatis/inxedu/website/WebsiteImagesMapper.xml` | High
-47 | File | `/items/view_item.php` | High
-48 | File | `/LEPTON_stable_2.2.2/upload/admins/media/index.php` | High
-49 | File | `/lilac/main.php` | High
-50 | File | `/list.php` | Medium
-51 | File | `/login.php` | Medium
-52 | File | `/login/index.php` | High
-53 | File | `/mc` | Low
-54 | File | `/mims/login.php` | High
-55 | File | `/mkshop/Men/profile.php` | High
-56 | File | `/module/admin_bp/add_application.php` | High
-57 | File | `/module/report_event/index.php` | High
-58 | File | `/modules/profile/index.php` | High
-59 | File | `/Moosikay/order.php` | High
-60 | File | `/news-portal-script/information.php` | High
-61 | File | `/out.php` | Medium
-62 | File | `/php-opos/index.php` | High
-63 | File | `/preview.php` | Medium
-64 | File | `/public/launchNewWindow.jsp` | High
-65 | File | `/QueryView.php` | High
-66 | File | `/RestAPI` | Medium
-67 | File | `/reviewer/system/system/admins/manage/users/user-update.php` | High
-68 | File | `/royal_event/companyprofile.php` | High
-69 | ... | ... | ...
+2 | File | `/api/admin/system/store/order/list` | High
+3 | File | `/cgi-bin/wapopen` | High
+4 | File | `/csms/?page=contact_us` | High
+5 | File | `/etc/ajenti/config.yml` | High
+6 | File | `/etc/gsissh/sshd_config` | High
+7 | File | `/forum/away.php` | High
+8 | File | `/goform/telnet` | High
+9 | File | `/modules/profile/index.php` | High
+10 | File | `/out.php` | Medium
+11 | File | `/rom-0` | Low
+12 | File | `/tmp/phpglibccheck` | High
+13 | File | `/uncpath/` | Medium
+14 | File | `/upload` | Low
+15 | File | `/var/tmp/sess_*` | High
+16 | File | `action.php` | Medium
+17 | File | `actionphp/download.File.php` | High
+18 | File | `add_comment.php` | High
+19 | File | `admin.php3` | Medium
+20 | File | `admin.php?m=backup&c=backup&a=doback` | High
+21 | File | `admin/admin.php` | High
+22 | File | `admin/content.php` | High
+23 | File | `admin/index.php?id=users/action=edit/user_id=1` | High
+24 | File | `admin/memberviewdetails.php` | High
+25 | File | `admin_gallery.php3` | High
+26 | File | `affich.php` | Medium
+27 | File | `agent/Core/Controller/SendRequest.cpp` | High
+28 | File | `ajax/telemetry.php` | High
+29 | File | `akeyActivationLogin.do` | High
+30 | File | `album_portal.php` | High
+31 | File | `apache-auth.conf` | High
+32 | File | `askapache-firefox-adsense.php` | High
+33 | File | `attachment.cgi` | High
+34 | File | `blueprints/sections/edit/1` | High
+35 | File | `boaform/admin/formPing` | High
+36 | File | `books.php` | Medium
+37 | File | `cart_add.php` | Medium
+38 | File | `CFS.c` | Low
+39 | File | `checktransferstatus.php` | High
+40 | File | `checkuser.php` | High
+41 | File | `class.SystemAction.php` | High
+42 | File | `clientarea.php` | High
+43 | File | `collectivite.class.php` | High
+44 | File | `com_android_bluetooth_btservice_AdapterService.cpp` | High
+45 | ... | ... | ...
 
-There are 605 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 391 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -156,6 +140,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://app.any.run/tasks/91b72945-2a21-4e9e-98c5-132ed8d15714/
 * https://app.any.run/tasks/126973bd-0df8-408d-85ae-913ba5c53612/#
 * https://asec.ahnlab.com/en/31083/
+* https://bazaar.abuse.ch/sample/f0ec9d000de9e7f1ee91e824b1714854e1989cfa39c1b3c91471bf387f939d73/
 * https://blog.talosintelligence.com/2020/07/threat-roundup-0724-0731.html
 * https://blog.talosintelligence.com/2022/09/threat-roundup-0826-0902.html
 * https://blogs.blackberry.com/en/2020/04/threat-spotlight-secret-agent-tesla
@@ -172,6 +157,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://github.com/executemalware/Malware-IOCs/blob/main/2022-05-20%20Agent%20Tesla%20IOCs
 * https://github.com/netskopeoss/NetskopeThreatLabsIOCs/tree/main/AgentTesla/IOCs
 * https://malware-traffic-analysis.net/2023/11/22/index.html
+* https://research.checkpoint.com/2024/agent-tesla-targeting-united-states-and-australia/
 * https://services.global.ntt/en-us/insights/blog/discovering-a-new-agent-tesla-malware-sample
 * https://threatfox.abuse.ch
 * https://tracker.viriback.com/index.php?q=31.220.2.200
@@ -189,7 +175,9 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://tria.ge/221206-z6p32sgh4s
 * https://twitter.com/Tac_Mangusta/status/1659190159789916160
 * https://www.cyber45.com
+* https://www.deepinstinct.com/blog/the-hasty-agent-agent-tesla-attack-uses-hastebin
 * https://www.fortinet.com/blog/threat-research/phishing-campaign-targeting-korean-to-deliver-agent-tesla-new-variant
+* https://www.hyas.com/blog/agent-tesla-unmasked-revealing-interrelated-cyber-campaigns
 * https://www.virustotal.com/gui/file/6ade497b4a45a2c4688ac69fe2ae146c721db3cf8d82df9b5ca40b4614ad62b7/relations
 * https://www.zscaler.com/blogs/security-research/agent-tesla-rat-delivered-quantum-builder-new-ttps
 * https://www.zscaler.com/blogs/security-research/threat-actors-exploit-cve-2017-11882-deliver-agent-tesla

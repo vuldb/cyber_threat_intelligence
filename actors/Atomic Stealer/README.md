@@ -23,7 +23,10 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [5.42.65.108](https://vuldb.com/?ip.5.42.65.108) | - | - | High
 2 | [5.42.65.114](https://vuldb.com/?ip.5.42.65.114) | - | - | High
-3 | [185.106.93.154](https://vuldb.com/?ip.185.106.93.154) | - | - | High
+3 | [46.101.104.172](https://vuldb.com/?ip.46.101.104.172) | - | - | High
+4 | ... | ... | ... | ...
+
+There are 2 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -36,7 +39,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 5 more TTP items available. Please use our online service to access the data.
+There are 7 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -45,13 +48,14 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/manage-ambulance.php` | High
-2 | File | `/display/map` | Medium
-3 | File | `/forum/away.php` | High
-4 | File | `/oauth/idp/.well-known/openid-configuration` | High
-5 | File | `/protocol/log/listloginfo.php` | High
-6 | ... | ... | ...
+2 | File | `/cgi-bin/system_mgr.cgi` | High
+3 | File | `/display/map` | Medium
+4 | File | `/forum/away.php` | High
+5 | File | `/newdriver.php` | High
+6 | File | `/oauth/idp/.well-known/openid-configuration` | High
+7 | ... | ... | ...
 
-There are 35 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 51 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -59,6 +63,7 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://russianpanda.com/2024/01/15/Atomic-Stealer-AMOS/
 * https://www.bitdefender.com/blog/labs/when-stealers-converge-new-variant-of-atomic-stealer-in-the-wild/
+* https://www.jamf.com/blog/infostealers-pose-threat-to-macos/
 
 ## Literature
 

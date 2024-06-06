@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 10 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -40,9 +40,9 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
@@ -56,30 +56,32 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/addNotifyServlet` | High
-2 | File | `/Admin/createClass.php` | High
-3 | File | `/admin/manage-users.php` | High
-4 | File | `/alsdemo/ss/mediam.cgi` | High
-5 | File | `/api/authentication/login` | High
-6 | File | `/api/notify.php` | High
-7 | File | `/api/v2/cli/commands` | High
-8 | File | `/application/index/common.php` | High
-9 | File | `/asan/asan_interceptors_memintrinsics.cpp` | High
-10 | File | `/card_scan.php` | High
-11 | File | `/cgi-bin/uploadAccessCodePic` | High
-12 | File | `/config/getuser` | High
-13 | File | `/cupseasylive/stockissuancelist.php` | High
-14 | File | `/cupseasylive/unitofmeasurementmodify.php` | High
-15 | File | `/expense_action.php` | High
-16 | File | `/filemanager/php/connector.php` | High
-17 | File | `/goform/aspForm` | High
-18 | File | `/goform/telnet` | High
-19 | File | `/HNAP1/` | Low
-20 | File | `/home/filter_listings` | High
-21 | File | `/inc/jquery/uploadify/uploadify.php` | High
-22 | File | `/include/file.php` | High
-23 | ... | ... | ...
+2 | File | `/admin/booking-bwdates-reports-details.php` | High
+3 | File | `/Admin/createClass.php` | High
+4 | File | `/admin/manage-users.php` | High
+5 | File | `/Admin/user-record.php` | High
+6 | File | `/alsdemo/ss/mediam.cgi` | High
+7 | File | `/api/authentication/login` | High
+8 | File | `/api/notify.php` | High
+9 | File | `/api/v2/cli/commands` | High
+10 | File | `/application/index/common.php` | High
+11 | File | `/apps/system/router/upload.go` | High
+12 | File | `/asan/asan_interceptors_memintrinsics.cpp` | High
+13 | File | `/card_scan.php` | High
+14 | File | `/cgi-bin/uploadAccessCodePic` | High
+15 | File | `/config/getuser` | High
+16 | File | `/cupseasylive/stockissuancelist.php` | High
+17 | File | `/cupseasylive/unitofmeasurementmodify.php` | High
+18 | File | `/de2api/engine/getEngine.js` | High
+19 | File | `/expense_action.php` | High
+20 | File | `/filemanager/php/connector.php` | High
+21 | File | `/forum/away.php` | High
+22 | File | `/goform/aspForm` | High
+23 | File | `/goform/fromRouteStatic` | High
+24 | File | `/goform/setUsbUnload` | High
+25 | ... | ... | ...
 
-There are 187 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 213 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

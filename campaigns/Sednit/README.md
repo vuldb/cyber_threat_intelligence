@@ -61,9 +61,10 @@ ID | Type | Indicator | Confidence
 3 | File | `/home/httpd/cgi-bin/cgi.cgi` | High
 4 | File | `/htdocs/web/getcfg.php` | High
 5 | File | `/uncpath/` | Medium
-6 | ... | ... | ...
+6 | File | `admin/admin.shtml` | High
+7 | ... | ... | ...
 
-There are 42 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 43 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

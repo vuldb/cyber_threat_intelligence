@@ -58,23 +58,23 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/common/info.cgi` | High
-2 | File | `/medical/inventories.php` | High
-3 | File | `/module/admin_logs` | High
-4 | File | `/nova/bin/console` | High
-5 | File | `/public/plugins/` | High
-6 | File | `/replication` | Medium
-7 | File | `/start-stop` | Medium
-8 | File | `/subnet-masks/popup.php` | High
-9 | File | `/uncpath/` | Medium
-10 | File | `/usr/bin/pkexec` | High
-11 | File | `/WEB-INF/web.xml` | High
-12 | File | `adclick.php` | Medium
-13 | File | `addrating.php` | High
-14 | File | `adm.cgi` | Low
-15 | File | `adminpanel/admin/facebox_modal/updateCourse.php` | High
+2 | File | `/forum/away.php` | High
+3 | File | `/medical/inventories.php` | High
+4 | File | `/module/admin_logs` | High
+5 | File | `/nova/bin/console` | High
+6 | File | `/public/plugins/` | High
+7 | File | `/replication` | Medium
+8 | File | `/start-stop` | Medium
+9 | File | `/subnet-masks/popup.php` | High
+10 | File | `/uncpath/` | Medium
+11 | File | `/usr/bin/pkexec` | High
+12 | File | `/WEB-INF/web.xml` | High
+13 | File | `adclick.php` | Medium
+14 | File | `addrating.php` | High
+15 | File | `adm.cgi` | Low
 16 | ... | ... | ...
 
-There are 129 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 133 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

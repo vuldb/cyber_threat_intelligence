@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [UA](https://vuldb.com/?country.ua)
-* [CN](https://vuldb.com/?country.cn)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
 There are 29 more country items available. Please use our online service to access the data.
@@ -590,7 +590,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1068 | CWE-264, CWE-269, CWE-271, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -605,58 +605,54 @@ ID | Type | Indicator | Confidence
 5 | File | `/admin/` | Low
 6 | File | `/admin/action/new-father.php` | High
 7 | File | `/admin/admin_login_process.php` | High
-8 | File | `/admin/bwdates-report-details.php` | High
-9 | File | `/admin/edit-admin.php` | High
-10 | File | `/admin/index.php?act=reset_admin_psw` | High
-11 | File | `/Admin/login.php` | High
-12 | File | `/admin/login.php` | High
-13 | File | `/admin/manage-users.php` | High
-14 | File | `/Admin/News.php` | High
+8 | File | `/Admin/changepassword.php` | High
+9 | File | `/admin/config_ISCGroupNoCache.php` | High
+10 | File | `/admin/edit-admin.php` | High
+11 | File | `/Admin/edit-photo.php` | High
+12 | File | `/admin/index.php?act=reset_admin_psw` | High
+13 | File | `/Admin/login.php` | High
+14 | File | `/admin/login.php` | High
 15 | File | `/admin/operations/expense_category.php` | High
-16 | File | `/admin/pages/subjects.php` | High
-17 | File | `/admin/pages/yearlevel.php` | High
-18 | File | `/admin/php/crud.php` | High
-19 | File | `/admin/upload/img` | High
-20 | File | `/admin/uploads/` | High
-21 | File | `/adminapi/system/crud` | High
-22 | File | `/adminapi/system/file/openfile` | High
-23 | File | `/admin_route/dec_service_credits.php` | High
-24 | File | `/api/controllers/admin/app/AppController.php` | High
-25 | File | `/api/log/killJob` | High
-26 | File | `/api/v4/teams//channels/deleted` | High
-27 | File | `/app/ajax/search_sales_report.php` | High
-28 | File | `/apps/reg_go.php` | High
-29 | File | `/article/DelectArticleById/` | High
-30 | File | `/b2b-supermarket/shopping-cart` | High
-31 | File | `/cancel.php` | Medium
-32 | File | `/category.php` | High
-33 | File | `/cgi-bin/cstecgi.cgi` | High
-34 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-35 | File | `/cgi-bin/luci` | High
-36 | File | `/change-language/de_DE` | High
-37 | File | `/check_availability.php` | High
-38 | File | `/config,admin.jsp` | High
-39 | File | `/dashboard/Cinvoice/manage_invoice` | High
-40 | File | `/dashboard?controller=UserCollection::createUser` | High
-41 | File | `/debug/pprof` | Medium
-42 | File | `/devinfo` | Medium
-43 | File | `/dist/index.js` | High
-44 | File | `/download` | Medium
-45 | File | `/DXR.axd` | Medium
-46 | File | `/endpoint/delete-computer.php` | High
-47 | File | `/etc/shadow` | Medium
-48 | File | `/file-manager/rename.php` | High
-49 | File | `/filex/proxy-download` | High
-50 | File | `/forum/away.php` | High
-51 | File | `/goform/setcfm` | High
-52 | File | `/goform/setDeviceSettings` | High
-53 | File | `/goform/SetSpeedWan` | High
-54 | File | `/goform/WifiMacFilterGet` | High
-55 | File | `/gracemedia-media-player/templates/files/ajax_controller.php` | High
-56 | File | `/hardware` | Medium
-57 | ... | ... | ...
+16 | File | `/admin/orders/view_order.php` | High
+17 | File | `/adminapi/system/crud` | High
+18 | File | `/adminapi/system/file/openfile` | High
+19 | File | `/admin_route/dec_service_credits.php` | High
+20 | File | `/api/controllers/admin/app/AppController.php` | High
+21 | File | `/api/v4/teams//channels/deleted` | High
+22 | File | `/api/wechat/app_auth` | High
+23 | File | `/app/ajax/search_sales_report.php` | High
+24 | File | `/apps/reg_go.php` | High
+25 | File | `/cancel.php` | Medium
+26 | File | `/category.php` | High
+27 | File | `/cgi-bin/cstecgi.cgi` | High
+28 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+29 | File | `/cgi-bin/luci` | High
+30 | File | `/cgi-bin/nas_sharing.cgi` | High
+31 | File | `/change-language/de_DE` | High
+32 | File | `/check_availability.php` | High
+33 | File | `/control/register_case.php` | High
+34 | File | `/dashboard/Cinvoice/manage_invoice` | High
+35 | File | `/devinfo` | Medium
+36 | File | `/download` | Medium
+37 | File | `/DXR.axd` | Medium
+38 | File | `/edit-computer-detail.php` | High
+39 | File | `/endpoint/delete-computer.php` | High
+40 | File | `/etc/shadow` | Medium
+41 | File | `/filex/proxy-download` | High
+42 | File | `/forum/away.php` | High
+43 | File | `/goform/setcfm` | High
+44 | File | `/goform/setDeviceSettings` | High
+45 | File | `/goform/SetSpeedWan` | High
+46 | File | `/goform/WifiMacFilterGet` | High
+47 | File | `/goform/wifiSSIDset` | High
+48 | File | `/hardware` | Medium
+49 | File | `/hedwig.cgi` | Medium
+50 | File | `/index.jsp#settings` | High
+51 | File | `/index.php` | Medium
+52 | File | `/install/install.php` | High
+53 | ... | ... | ...
 
-There are 499 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 460 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

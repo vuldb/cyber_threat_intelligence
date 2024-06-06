@@ -47,7 +47,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -94,25 +94,25 @@ ID | Type | Indicator | Confidence
 37 | File | `/usr/bin/pkexec` | High
 38 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
 39 | File | `/usr/syno/etc/mount.conf` | High
-40 | File | `/vdesk` | Low
-41 | File | `/WEB-INF/web.xml` | High
-42 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-43 | File | `/wp-json` | Medium
-44 | File | `aboutus.php` | Medium
-45 | File | `achat/produit_details.php` | High
-46 | File | `adclick.php` | Medium
-47 | File | `add_to_cart.php` | High
-48 | File | `adm.cgi` | Low
-49 | File | `admin.jcomments.php` | High
-50 | File | `admin/index.php` | High
-51 | File | `admin/modules/tools/ip_history_logs.php` | High
-52 | File | `admin/specials.php` | High
-53 | File | `announce.php` | Medium
-54 | File | `App/Ajax/ajax.php?action=mobile_upload_save` | High
-55 | File | `articles.php` | Medium
+40 | File | `/WEB-INF/web.xml` | High
+41 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+42 | File | `/wp-json` | Medium
+43 | File | `aboutus.php` | Medium
+44 | File | `achat/produit_details.php` | High
+45 | File | `adclick.php` | Medium
+46 | File | `add_to_cart.php` | High
+47 | File | `adm.cgi` | Low
+48 | File | `admin.jcomments.php` | High
+49 | File | `admin/index.php` | High
+50 | File | `admin/modules/tools/ip_history_logs.php` | High
+51 | File | `admin/specials.php` | High
+52 | File | `announce.php` | Medium
+53 | File | `App/Ajax/ajax.php?action=mobile_upload_save` | High
+54 | File | `articles.php` | Medium
+55 | File | `auth-gss2.c` | Medium
 56 | ... | ... | ...
 
-There are 493 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 490 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

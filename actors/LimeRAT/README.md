@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [UA](https://vuldb.com/?country.ua)
-* [IN](https://vuldb.com/?country.in)
+* [FR](https://vuldb.com/?country.fr)
 * ...
 
-There are 18 more country items available. Please use our online service to access the data.
+There are 32 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -25,21 +25,22 @@ ID | IP address | Hostname | Campaign | Confidence
 2 | [3.17.7.232](https://vuldb.com/?ip.3.17.7.232) | ec2-3-17-7-232.us-east-2.compute.amazonaws.com | - | Medium
 3 | [3.22.30.40](https://vuldb.com/?ip.3.22.30.40) | ec2-3-22-30-40.us-east-2.compute.amazonaws.com | - | Medium
 4 | [3.124.142.205](https://vuldb.com/?ip.3.124.142.205) | ec2-3-124-142-205.eu-central-1.compute.amazonaws.com | - | Medium
-5 | [3.131.207.170](https://vuldb.com/?ip.3.131.207.170) | ec2-3-131-207-170.us-east-2.compute.amazonaws.com | - | Medium
-6 | [3.141.177.1](https://vuldb.com/?ip.3.141.177.1) | ec2-3-141-177-1.us-east-2.compute.amazonaws.com | - | Medium
-7 | [3.142.81.166](https://vuldb.com/?ip.3.142.81.166) | ec2-3-142-81-166.us-east-2.compute.amazonaws.com | - | Medium
-8 | [3.142.167.4](https://vuldb.com/?ip.3.142.167.4) | ec2-3-142-167-4.us-east-2.compute.amazonaws.com | - | Medium
-9 | [13.229.238.144](https://vuldb.com/?ip.13.229.238.144) | ec2-13-229-238-144.ap-southeast-1.compute.amazonaws.com | - | Medium
-10 | [20.199.13.167](https://vuldb.com/?ip.20.199.13.167) | - | - | High
-11 | [20.231.17.198](https://vuldb.com/?ip.20.231.17.198) | - | - | High
-12 | [27.3.162.17](https://vuldb.com/?ip.27.3.162.17) | - | - | High
-13 | [31.210.55.103](https://vuldb.com/?ip.31.210.55.103) | 31-210-55-103.hostlab.net.tr | - | High
-14 | [38.242.239.137](https://vuldb.com/?ip.38.242.239.137) | vmi1081127.contaboserver.net | - | High
-15 | [41.225.34.198](https://vuldb.com/?ip.41.225.34.198) | - | - | High
-16 | [45.88.79.224](https://vuldb.com/?ip.45.88.79.224) | free.example.com | - | High
-17 | ... | ... | ... | ...
+5 | [3.125.209.94](https://vuldb.com/?ip.3.125.209.94) | ec2-3-125-209-94.eu-central-1.compute.amazonaws.com | - | Medium
+6 | [3.131.207.170](https://vuldb.com/?ip.3.131.207.170) | ec2-3-131-207-170.us-east-2.compute.amazonaws.com | - | Medium
+7 | [3.141.177.1](https://vuldb.com/?ip.3.141.177.1) | ec2-3-141-177-1.us-east-2.compute.amazonaws.com | - | Medium
+8 | [3.142.81.166](https://vuldb.com/?ip.3.142.81.166) | ec2-3-142-81-166.us-east-2.compute.amazonaws.com | - | Medium
+9 | [3.142.167.4](https://vuldb.com/?ip.3.142.167.4) | ec2-3-142-167-4.us-east-2.compute.amazonaws.com | - | Medium
+10 | [13.229.238.144](https://vuldb.com/?ip.13.229.238.144) | ec2-13-229-238-144.ap-southeast-1.compute.amazonaws.com | - | Medium
+11 | [18.158.249.75](https://vuldb.com/?ip.18.158.249.75) | ec2-18-158-249-75.eu-central-1.compute.amazonaws.com | - | Medium
+12 | [18.192.31.165](https://vuldb.com/?ip.18.192.31.165) | ec2-18-192-31-165.eu-central-1.compute.amazonaws.com | - | Medium
+13 | [18.229.146.63](https://vuldb.com/?ip.18.229.146.63) | ec2-18-229-146-63.sa-east-1.compute.amazonaws.com | - | Medium
+14 | [20.199.13.167](https://vuldb.com/?ip.20.199.13.167) | - | - | High
+15 | [20.231.17.198](https://vuldb.com/?ip.20.231.17.198) | - | - | High
+16 | [27.3.162.17](https://vuldb.com/?ip.27.3.162.17) | - | - | High
+17 | [31.210.55.103](https://vuldb.com/?ip.31.210.55.103) | 31-210-55-103.hostlab.net.tr | - | High
+18 | ... | ... | ... | ...
 
-There are 64 more IOC items available. Please use our online service to access the data.
+There are 70 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -47,15 +48,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-29, CWE-36 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-29 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
-7 | ... | ... | ... | ...
+6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -63,63 +63,76 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.travis.yml` | Medium
-2 | File | `/admin/?n=logs&c=index&a=dode` | High
-3 | File | `/admin/?page=orders/manage_request` | High
-4 | File | `/admin/files` | Medium
-5 | File | `/admin/regester.php` | High
-6 | File | `/admin/update_s6.php` | High
-7 | File | `/admin/users/index.php` | High
-8 | File | `/alphaware/details.php` | High
+1 | File | `/?ajax-request=jnews` | High
+2 | File | `/Account/login.php` | High
+3 | File | `/admin/` | Low
+4 | File | `/admin/?page=user/list` | High
+5 | File | `/admin/category/view_category.php` | High
+6 | File | `/admin/index3.php` | High
+7 | File | `/admin/regester.php` | High
+8 | File | `/admin/update_s6.php` | High
 9 | File | `/api/sys/login` | High
-10 | File | `/api/v2/cli/commands` | High
-11 | File | `/articles/welcome-to-your-site#comments-head` | High
+10 | File | `/apps/system/api/user.go` | High
+11 | File | `/apps/system/router/upload.go` | High
 12 | File | `/batm/app/admin/standalone/deployments` | High
-13 | File | `/be/erpc.php` | Medium
-14 | File | `/binbloom-master/src/helpers.c` | High
+13 | File | `/bd_genie_create_account.cgi` | High
+14 | File | `/be/erpc.php` | Medium
 15 | File | `/blog` | Low
 16 | File | `/boafrm/formHomeWlanSetup` | High
-17 | File | `/cgi-bin/kerbynet` | High
-18 | File | `/ci_hms/massage_room/edit/1` | High
-19 | File | `/classes/Master.php?f=delete_reservation` | High
-20 | File | `/common/info.cgi` | High
-21 | File | `/core/kernels/ctc_decoder_ops.cc` | High
-22 | File | `/crmeb/app/admin/controller/store/CopyTaobao.php` | High
-23 | File | `/dashboard/settings` | High
-24 | File | `/dashboard/system/express/entities/forms/save_control/[GUID]` | High
-25 | File | `/diagnostic/login.php` | High
-26 | File | `/ecrire/tools/blogroll/index.php` | High
-27 | File | `/employeeview.php` | High
-28 | File | `/enterprise/www/student.php` | High
-29 | File | `/etc/config/image_sign` | High
-30 | File | `/etc/sudoers` | Medium
-31 | File | `/files/$username/Myfolder/Mysubfolder/shared.txt` | High
-32 | File | `/forum/away.php` | High
-33 | File | `/garage/editclient.php` | High
-34 | File | `/gasmark/assets/myimages/oneWord.php` | High
-35 | File | `/hocms/classes/Master.php?f=delete_phase` | High
-36 | File | `/hrm/controller/employee.php` | High
-37 | File | `/inventory/transactions_view.php` | High
-38 | File | `/lam/tmp/` | Medium
-39 | File | `/logs/sql-error.log` | High
-40 | File | `/ManageRoute/postRoute` | High
-41 | File | `/mkshop/Men/profile.php` | High
-42 | File | `/newVersion` | Medium
-43 | File | `/oauth/idp/.well-known/openid-configuration` | High
-44 | File | `/out.php` | Medium
-45 | File | `/PC/WebService.asmx` | High
-46 | File | `/preauth` | Medium
-47 | File | `/search.php` | Medium
-48 | File | `/Source/C++/Core/Ap4DataBuffer.cpp` | High
-49 | File | `/spip.php` | Medium
-50 | ... | ... | ...
+17 | File | `/cgi-bin-igd/sys_log_clean.cgi` | High
+18 | File | `/cgi-bin/nas_sharing.cgi` | High
+19 | File | `/cgi-bin/vitogate.cgi` | High
+20 | File | `/cgi-bin/wapopen` | High
+21 | File | `/common/info.cgi` | High
+22 | File | `/control/register_case.php` | High
+23 | File | `/customer_demo/index2.html` | High
+24 | File | `/customer_register.php` | High
+25 | File | `/dashboard/settings` | High
+26 | File | `/DXR.axd` | Medium
+27 | File | `/emloyee_akpoly/Account/login.php` | High
+28 | File | `/etc/tomcat8/Catalina/attack` | High
+29 | File | `/EXCU_SHELL` | Medium
+30 | File | `/forum/away.php` | High
+31 | File | `/garage/editclient.php` | High
+32 | File | `/HNAP1` | Low
+33 | File | `/inventory/transactions_view.php` | High
+34 | File | `/jfinal_cms/system/role/list` | High
+35 | File | `/librarian/bookdetails.php` | High
+36 | File | `/manage_receiving.php` | High
+37 | File | `/manage_sy.php` | High
+38 | File | `/mkshop/Men/profile.php` | High
+39 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+40 | File | `/ndmComponents.js` | High
+41 | File | `/net-banking/delete_beneficiary.php` | High
+42 | File | `/net-banking/edit_customer.php` | High
+43 | File | `/net-banking/manage_customers.php` | High
+44 | File | `/net-banking/send_funds.php` | High
+45 | File | `/net-banking/send_funds_action.php` | High
+46 | File | `/net-banking/transactions.php` | High
+47 | File | `/oauth/idp/.well-known/openid-configuration` | High
+48 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+49 | File | `/out.php` | Medium
+50 | File | `/owa/auth/logon.aspx` | High
+51 | File | `/path/to/uploads/` | High
+52 | File | `/plain` | Low
+53 | File | `/products/view_product.php` | High
+54 | File | `/register.php` | High
+55 | File | `/scripts/cpan_config` | High
+56 | File | `/search.php` | Medium
+57 | File | `/see_more_details.php` | High
+58 | File | `/server/ajax/user_manager.php` | High
+59 | File | `/Setting/change_password_save` | High
+60 | File | `/shell` | Low
+61 | ... | ... | ...
 
-There are 433 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 538 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://bazaar.abuse.ch/sample/5ec2650940db1e24271b84e5553d8454f17a7c99cbb36579aa843aa09798efe3/
+* https://bazaar.abuse.ch/sample/93a09a5ecefc75e6fda23d83deffeffddf544da2103a75422e768d26cfe9ee7f/
 * https://lab52.io/blog/apt-c-36-from-njrat-to-apt-c-36/
 * https://threatfox.abuse.ch
 

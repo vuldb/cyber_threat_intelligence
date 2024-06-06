@@ -14,9 +14,12 @@ The following _campaigns_ are known and can be associated with UAC-0099:
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with UAC-0099:
 
-* [US](https://vuldb.com/?country.us)
-* [RU](https://vuldb.com/?country.ru)
 * [GB](https://vuldb.com/?country.gb)
+* [US](https://vuldb.com/?country.us)
+* [JP](https://vuldb.com/?country.jp)
+* ...
+
+There are 5 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -25,8 +28,11 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [2.59.222.98](https://vuldb.com/?ip.2.59.222.98) | - | CVE-2023-38831 | High
-2 | [147.78.46.40](https://vuldb.com/?ip.147.78.46.40) | - | CVE-2023-38831 | High
-3 | [196.196.156.2](https://vuldb.com/?ip.196.196.156.2) | - | CVE-2023-38831 | High
+2 | [45.148.121.6](https://vuldb.com/?ip.45.148.121.6) | - | - | High
+3 | [62.210.204.94](https://vuldb.com/?ip.62.210.204.94) | 62-210-204-94.rev.poneytelecom.eu | - | High
+4 | ... | ... | ... | ...
+
+There are 5 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -34,12 +40,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Path Traversal | High
-2 | T1110.001 | CWE-798 | Hard-coded Credentials | High
-3 | T1204.001 | CWE-601 | Open Redirect | High
+1 | T1006 | CWE-22, CWE-24 | Path Traversal | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
 
-There are 2 more TTP items available. Please use our online service to access the data.
+There are 14 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -47,17 +53,21 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/forum/away.php` | High
-2 | File | `/psrs/admin/categories/manage_field_order.php` | High
-3 | File | `admin/conf_users_edit.php` | High
-4 | ... | ... | ...
+1 | File | `/.ssh/authorized_keys` | High
+2 | File | `/anony/mjpg.cgi` | High
+3 | File | `/common/down/file` | High
+4 | File | `/forum/away.php` | High
+5 | File | `/psrs/admin/categories/manage_field_order.php` | High
+6 | File | `/uncpath/` | Medium
+7 | ... | ... | ...
 
-There are 2 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 52 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://cert.gov.ua/article/4818341
 * https://www.deepinstinct.com/blog/threat-actor-uac-0099-continues-to-target-ukraine
 
 ## Literature

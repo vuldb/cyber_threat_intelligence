@@ -95,18 +95,18 @@ ID | Type | Indicator | Confidence
 29 | File | `/goform/SysToolRestoreSet` | High
 30 | File | `/goform/WifiExtraSet` | High
 31 | File | `/graphql` | Medium
-32 | File | `/index.php` | Medium
-33 | File | `/jeecg-boot/jmreport/upload` | High
-34 | File | `/jeecg-boot/jmreport/view` | High
-35 | File | `/jsoa/hntdCustomDesktopActionContent` | High
-36 | File | `/localhost/u` | Medium
-37 | File | `/mkshop/Men/profile.php` | High
-38 | File | `/net` | Low
+32 | File | `/homePro_deal.php?mudi=add&nohrefStr=close` | High
+33 | File | `/index.php` | Medium
+34 | File | `/jeecg-boot/jmreport/upload` | High
+35 | File | `/jeecg-boot/jmreport/view` | High
+36 | File | `/jsoa/hntdCustomDesktopActionContent` | High
+37 | File | `/localhost/u` | Medium
+38 | File | `/mkshop/Men/profile.php` | High
 39 | File | `/Noxen-master/users.php` | High
-40 | File | `/opt/bin/cli` | Medium
+40 | File | `/PluXml/core/admin/parametres_edittpl.php` | High
 41 | ... | ... | ...
 
-There are 355 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 349 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

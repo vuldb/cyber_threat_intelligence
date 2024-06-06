@@ -8,9 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Mallox:
 
-* [RU](https://vuldb.com/?country.ru)
 * [US](https://vuldb.com/?country.us)
-* [CN](https://vuldb.com/?country.cn)
+* [RU](https://vuldb.com/?country.ru)
+* [IE](https://vuldb.com/?country.ie)
+* ...
+
+There are 2 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -18,12 +21,13 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [43.138.76.102](https://vuldb.com/?ip.43.138.76.102) | - | - | High
-2 | [64.185.227.155](https://vuldb.com/?ip.64.185.227.155) | api64.ipify.org | - | High
-3 | [80.66.75.36](https://vuldb.com/?ip.80.66.75.36) | - | - | High
-4 | ... | ... | ... | ...
+1 | [5.188.86.237](https://vuldb.com/?ip.5.188.86.237) | - | - | High
+2 | [42.193.223.169](https://vuldb.com/?ip.42.193.223.169) | - | - | High
+3 | [43.138.76.102](https://vuldb.com/?ip.43.138.76.102) | - | - | High
+4 | [64.185.227.155](https://vuldb.com/?ip.64.185.227.155) | api64.ipify.org | - | High
+5 | ... | ... | ... | ...
 
-There are 5 more IOC items available. Please use our online service to access the data.
+There are 15 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -31,7 +35,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1592 | CWE-200 | Invocation of Process Using Visible Sensitive Information | High
+1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-94 | Argument Injection | High
+4 | ... | ... | ... | ...
+
+There are 10 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -39,14 +48,35 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `tiki-login.php` | High
+1 | File | `/attachments.php` | High
+2 | File | `/goform/RgUrlBlock.asp` | High
+3 | File | `/include/viewtagdb.psp` | High
+4 | File | `/includes/cart.inc.php` | High
+5 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+6 | File | `account.php` | Medium
+7 | File | `account/lost_password` | High
+8 | File | `admin/cal_login.php` | High
+9 | File | `admin/kfm/initialise.php` | High
+10 | File | `admin/password_forgotten.php` | High
+11 | File | `admin_options_manage.php` | High
+12 | File | `annonces-p-f.php` | High
+13 | File | `asp` | Low
+14 | File | `books.php` | Medium
+15 | File | `browse_videos.php` | High
+16 | ... | ... | ...
+
+There are 129 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://asec.ahnlab.com/en/49366/
+* https://asec.ahnlab.com/en/64921/
 * https://blog.cyble.com/2023/06/22/mallox-ransomware-implements-new-infection-strategy/
+* https://blog.sekoia.io/mallox-ransomware-affiliate-leverages-purecrypter-in-microsoft-sql-exploitation-campaigns/
+* https://cyble.com/blog/mallox-group-claims-ransomware-attack-on-ficci/
+* https://cyble.com/blog/mallox-ransomware-showing-signs-of-increased-activity/
 * https://exchange.xforce.ibmcloud.com/report/details/guid:4d6f6e39c1b851d8882f5aaa5cb12209
 * https://www.sentinelone.com/blog/mallox-resurrected-ransomware-attacks-exploiting-ms-sql-continue-to-burden-enterprises/
 

@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
-* [CN](https://vuldb.com/?country.cn)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
 There are 14 more country items available. Please use our online service to access the data.
@@ -54,46 +54,46 @@ ID | Type | Indicator | Confidence
 3 | File | `/admin/about-us.php` | High
 4 | File | `/admin/action/delete-vaccine.php` | High
 5 | File | `/Admin/add-student.php` | High
-6 | File | `/admin/index2.html` | High
-7 | File | `/admin/settings/save.php` | High
-8 | File | `/admin/userprofile.php` | High
-9 | File | `/api/baskets/{name}` | High
-10 | File | `/app/index/controller/Common.php` | High
-11 | File | `/app/options.py` | High
-12 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
-13 | File | `/apply.cgi` | Medium
-14 | File | `/bitrix/admin/ldap_server_edit.php` | High
-15 | File | `/card_scan.php` | High
-16 | File | `/cgi-bin/wlogin.cgi` | High
-17 | File | `/College/admin/teacher.php` | High
-18 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
-19 | File | `/cwc/login` | Medium
-20 | File | `/dcim/rack-roles/` | High
-21 | File | `/debuginfo.htm` | High
-22 | File | `/etc/quagga` | Medium
-23 | File | `/forms/doLogin` | High
-24 | File | `/forum/away.php` | High
-25 | File | `/goform/addUserName` | High
-26 | File | `/goform/aspForm` | High
-27 | File | `/goform/delAd` | High
-28 | File | `/goform/wifiSSIDset` | High
-29 | File | `/gpac/src/bifs/unquantize.c` | High
-30 | File | `/h/calendar` | Medium
-31 | File | `/inc/topBarNav.php` | High
-32 | File | `/index.asp` | Medium
-33 | File | `/index.php` | Medium
-34 | File | `/index.php?app=main&func=passport&action=login` | High
-35 | File | `/jfinal_cms/system/role/list` | High
-36 | File | `/kelas/data` | Medium
-37 | File | `/listplace/user/ticket/create` | High
-38 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
-39 | File | `/Moosikay/order.php` | High
-40 | File | `/nova/bin/detnet` | High
-41 | File | `/novel/author/list` | High
-42 | File | `/php-sms/admin/quotes/manage_remark.php` | High
+6 | File | `/admin/edit-post.php` | High
+7 | File | `/admin/index2.html` | High
+8 | File | `/admin/settings/save.php` | High
+9 | File | `/admin/userprofile.php` | High
+10 | File | `/api/baskets/{name}` | High
+11 | File | `/app/index/controller/Common.php` | High
+12 | File | `/app/options.py` | High
+13 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
+14 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
+15 | File | `/applications/nexus/modules/front/store/store.php` | High
+16 | File | `/apply.cgi` | Medium
+17 | File | `/bitrix/admin/ldap_server_edit.php` | High
+18 | File | `/cgi-bin/nas_sharing.cgi` | High
+19 | File | `/cgi-bin/wlogin.cgi` | High
+20 | File | `/classes/Master.php?f=save_category` | High
+21 | File | `/classes/Users.php?f=save` | High
+22 | File | `/College/admin/teacher.php` | High
+23 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
+24 | File | `/dcim/rack-roles/` | High
+25 | File | `/debuginfo.htm` | High
+26 | File | `/etc/quagga` | Medium
+27 | File | `/fftools/ffmpeg_enc.c` | High
+28 | File | `/forms/doLogin` | High
+29 | File | `/forum/away.php` | High
+30 | File | `/goform/addUserName` | High
+31 | File | `/goform/aspForm` | High
+32 | File | `/goform/delAd` | High
+33 | File | `/goform/wifiSSIDset` | High
+34 | File | `/gpac/src/bifs/unquantize.c` | High
+35 | File | `/h/calendar` | Medium
+36 | File | `/inc/topBarNav.php` | High
+37 | File | `/index.asp` | Medium
+38 | File | `/index.php` | Medium
+39 | File | `/index.php?app=main&func=passport&action=login` | High
+40 | File | `/install/` | Medium
+41 | File | `/kelas/data` | Medium
+42 | File | `/listplace/user/ticket/create` | High
 43 | ... | ... | ...
 
-There are 372 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 374 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

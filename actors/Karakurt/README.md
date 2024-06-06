@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Karakurt:
 
-* [CN](https://vuldb.com/?country.cn)
-* [US](https://vuldb.com/?country.us)
 * [ID](https://vuldb.com/?country.id)
+* [CN](https://vuldb.com/?country.cn)
+* [DE](https://vuldb.com/?country.de)
 * ...
 
-There are 8 more country items available. Please use our online service to access the data.
+There are 9 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -36,14 +36,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-425 | Path Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-24 | Path Traversal | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-94 | Argument Injection | High
+4 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 13 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -51,54 +49,52 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/?p=products` | Medium
-2 | File | `/admin/controller/JobLogController.java` | High
-3 | File | `/admin/course.php` | High
-4 | File | `/admin/departments/manage_department.php` | High
-5 | File | `/admin/maintenance/view_designation.php` | High
-6 | File | `/admin/manage-pages.php` | High
-7 | File | `/admin/manage-users.php` | High
-8 | File | `/admin/subject.php` | High
-9 | File | `/admin/success_story.php` | High
-10 | File | `/admin/usermanagement.php` | High
-11 | File | `/adplanet/PlanetCommentList` | High
-12 | File | `/adplanet/PlanetUser` | High
-13 | File | `/api/authentication/login` | High
-14 | File | `/api/baskets/{name}` | High
-15 | File | `/api/stl/actions/search` | High
-16 | File | `/api/sys/login` | High
-17 | File | `/api/sys/set_passwd` | High
-18 | File | `/api/trackedEntityInstances` | High
-19 | File | `/api/v2/cli/commands` | High
-20 | File | `/article/DelectArticleById/` | High
-21 | File | `/aux` | Low
-22 | File | `/bin/ate` | Medium
-23 | File | `/booking/show_bookings/` | High
-24 | File | `/cgi-bin` | Medium
-25 | File | `/cgi-bin/cstecgi.cgi` | High
-26 | File | `/changePassword` | High
-27 | File | `/classes/Master.php?f=delete_reminder` | High
-28 | File | `/config-manager/save` | High
-29 | File | `/Content/Template/root/reverse-shell.aspx` | High
-30 | File | `/core/tools/customblock.php` | High
-31 | File | `/dashboard/add-blog.php` | High
-32 | File | `/data/remove` | Medium
-33 | File | `/debug/pprof` | Medium
-34 | File | `/ecshop/admin/template.php` | High
-35 | File | `/env` | Low
-36 | File | `/etc/passwd` | Medium
-37 | File | `/forum/away.php` | High
-38 | File | `/geoserver/gwc/rest.html` | High
-39 | File | `/goform/net\_Web\_get_value` | High
-40 | File | `/group1/uploa` | High
-41 | File | `/importexport.php` | High
-42 | File | `/index.php` | Medium
-43 | File | `/libsystem/login.php` | High
-44 | File | `/login` | Low
-45 | File | `/manage/delete_query.php` | High
-46 | ... | ... | ...
+1 | File | `/?g=net_pro_keyword_import_save` | High
+2 | File | `/Account/login.php` | High
+3 | File | `/admin` | Low
+4 | File | `/admin-manage-user.php` | High
+5 | File | `/Admin/add-admin.php` | High
+6 | File | `/admin/addgiving.php` | High
+7 | File | `/admin/addTithes.php` | High
+8 | File | `/admin/add_ikev2.php` | High
+9 | File | `/admin/add_postlogin.php` | High
+10 | File | `/admin/add_sundaysch.php` | High
+11 | File | `/admin/add_visitor.php` | High
+12 | File | `/admin/admin_cl.php?mudi=revPwd` | High
+13 | File | `/admin/admin_user.php` | High
+14 | File | `/admin/attendance_row.php` | High
+15 | File | `/admin/cashadvance_row.php` | High
+16 | File | `/admin/config_Anticrack.php` | High
+17 | File | `/admin/config_ISCGroupNoCache.php` | High
+18 | File | `/admin/courses/view_course.php` | High
+19 | File | `/admin/delete_log.php` | High
+20 | File | `/admin/edit-accepted-appointment.php` | High
+21 | File | `/Admin/edit-photo.php` | High
+22 | File | `/admin/edit_category.php` | High
+23 | File | `/admin/edit_product.php` | High
+24 | File | `/Admin/edit_profile.php` | High
+25 | File | `/admin/forgot-password.php` | High
+26 | File | `/admin/index.php` | High
+27 | File | `/admin/info_deal.php` | High
+28 | File | `/Admin/login.php` | High
+29 | File | `/admin/positions_row.php` | High
+30 | File | `/admin/regester.php` | High
+31 | File | `/admin/user/controller.php` | High
+32 | File | `/admin/vacancy/index.php` | High
+33 | File | `/adminPage/conf/reload` | High
+34 | File | `/adminPage/conf/saveCmd` | High
+35 | File | `/adminPage/main/upload` | High
+36 | File | `/adminPage/www/addOver` | High
+37 | File | `/api/` | Low
+38 | File | `/api/client/editemedia.php` | High
+39 | File | `/api/process.php` | High
+40 | File | `/application/controller/Pelanggan.php` | High
+41 | File | `/application/controller/Pengeluaran.php` | High
+42 | File | `/application/controller/Transaki.php` | High
+43 | File | `/apps/system/router/upload.go` | High
+44 | ... | ... | ...
 
-There are 394 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 382 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

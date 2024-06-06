@@ -44,9 +44,11 @@ ID | IP address | Hostname | Campaign | Confidence
 21 | [57.91.176.0](https://vuldb.com/?ip.57.91.176.0) | - | - | High
 22 | [63.245.112.0](https://vuldb.com/?ip.63.245.112.0) | d-63-245-112-0.batelnet.bs | - | High
 23 | [63.245.120.0](https://vuldb.com/?ip.63.245.120.0) | - | - | High
-24 | ... | ... | ... | ...
+24 | [64.66.0.0](https://vuldb.com/?ip.64.66.0.0) | - | - | High
+25 | [64.150.192.0](https://vuldb.com/?ip.64.150.192.0) | - | - | High
+26 | ... | ... | ... | ...
 
-There are 94 more IOC items available. Please use our online service to access the data.
+There are 101 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -55,7 +57,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Path Traversal | High
-2 | T1055 | CWE-74 | Injection | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
@@ -107,9 +109,10 @@ ID | Type | Indicator | Confidence
 37 | File | `/outgoing.php` | High
 38 | File | `/php-fusion/infusions/shoutbox_panel/shoutbox_archive.php` | High
 39 | File | `/register.do` | Medium
-40 | ... | ... | ...
+40 | File | `/spip.php` | Medium
+41 | ... | ... | ...
 
-There are 346 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 351 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -118,6 +121,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://github.com/firehol/blocklist-ipsets/blob/master/geolite2_country/country_bs.netset
 * https://github.com/firehol/blocklist-ipsets/blob/master/ip2location_country/ip2location_country_bs.netset
 * https://github.com/firehol/blocklist-ipsets/blob/master/ipip_country/ipip_country_bs.netset
+* https://github.com/scriptzteam/Private-Internet-Access-VPN-Servers/blob/main/export.csv
 
 ## Literature
 

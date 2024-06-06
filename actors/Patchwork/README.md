@@ -20,7 +20,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 22 more country items available. Please use our online service to access the data.
+There are 25 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -125,45 +125,51 @@ ID | Type | Indicator | Confidence
 3 | File | `/act/ActDao.xml` | High
 4 | File | `/admin/maintenance/view_designation.php` | High
 5 | File | `/admin/search-appointment.php` | High
-6 | File | `/ajax.php?action=read_msg` | High
-7 | File | `/api/clusters/local/topics/{topic}/messages` | High
-8 | File | `/api/gen/clients/{language}` | High
-9 | File | `/app/options.py` | High
-10 | File | `/bin/httpd` | Medium
-11 | File | `/cgi-bin/wapopen` | High
-12 | File | `/ci_spms/admin/category` | High
-13 | File | `/ci_spms/admin/search/searching/` | High
-14 | File | `/classes/Master.php?f=delete_appointment` | High
-15 | File | `/classes/Master.php?f=delete_train` | High
-16 | File | `/config/php.ini` | High
-17 | File | `/Content/Template/root/reverse-shell.aspx` | High
-18 | File | `/ctcprotocol/Protocol` | High
-19 | File | `/dashboard/menu-list.php` | High
-20 | File | `/debug/pprof` | Medium
-21 | File | `/ebics-server/ebics.aspx` | High
-22 | File | `/ffos/classes/Master.php?f=save_category` | High
-23 | File | `/forum/away.php` | High
-24 | File | `/goform/net\_Web\_get_value` | High
-25 | File | `/goforms/rlminfo` | High
-26 | File | `/GponForm/usb_restore_Form?script/` | High
-27 | File | `/group1/uploa` | High
-28 | File | `/hedwig.cgi` | Medium
-29 | File | `/HNAP1` | Low
-30 | File | `/HNAP1/SetClientInfo` | High
-31 | File | `/Items/*/RemoteImages/Download` | High
-32 | File | `/menu.html` | Medium
-33 | File | `/modules/profile/index.php` | High
-34 | File | `/myprofile.php` | High
-35 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-36 | File | `/navigate/navigate_download.php` | High
-37 | File | `/ocwbs/admin/?page=user/manage_user` | High
-38 | File | `/ofrs/admin/?page=user/manage_user` | High
-39 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-40 | File | `/out.php` | Medium
-41 | File | `/patient/appointment.php` | High
-42 | ... | ... | ...
+6 | File | `/adminPage/conf/saveCmd` | High
+7 | File | `/ajax.php?action=read_msg` | High
+8 | File | `/api/clusters/local/topics/{topic}/messages` | High
+9 | File | `/api/gen/clients/{language}` | High
+10 | File | `/API/info` | Medium
+11 | File | `/app/options.py` | High
+12 | File | `/bin/httpd` | Medium
+13 | File | `/car.php` | Medium
+14 | File | `/cgi-bin/wapopen` | High
+15 | File | `/ci_spms/admin/category` | High
+16 | File | `/ci_spms/admin/search/searching/` | High
+17 | File | `/classes/Master.php?f=delete_appointment` | High
+18 | File | `/classes/Master.php?f=delete_train` | High
+19 | File | `/config/php.ini` | High
+20 | File | `/Content/Template/root/reverse-shell.aspx` | High
+21 | File | `/core/admin/categories.php` | High
+22 | File | `/ctcprotocol/Protocol` | High
+23 | File | `/dashboard/menu-list.php` | High
+24 | File | `/debug/pprof` | Medium
+25 | File | `/ebics-server/ebics.aspx` | High
+26 | File | `/ffos/classes/Master.php?f=save_category` | High
+27 | File | `/forum/away.php` | High
+28 | File | `/goform/net\_Web\_get_value` | High
+29 | File | `/goforms/rlminfo` | High
+30 | File | `/GponForm/usb_restore_Form?script/` | High
+31 | File | `/group1/uploa` | High
+32 | File | `/hedwig.cgi` | Medium
+33 | File | `/HNAP1` | Low
+34 | File | `/HNAP1/SetClientInfo` | High
+35 | File | `/Items/*/RemoteImages/Download` | High
+36 | File | `/librarian/bookdetails.php` | High
+37 | File | `/manage/IPSetup.php` | High
+38 | File | `/menu.html` | Medium
+39 | File | `/modules/profile/index.php` | High
+40 | File | `/multi-vendor-shopping-script/product-list.php` | High
+41 | File | `/myprofile.php` | High
+42 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+43 | File | `/ocwbs/admin/?page=user/manage_user` | High
+44 | File | `/ofrs/admin/?page=user/manage_user` | High
+45 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+46 | File | `/out.php` | Medium
+47 | File | `/patient/appointment.php` | High
+48 | ... | ... | ...
 
-There are 367 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 416 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

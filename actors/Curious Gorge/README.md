@@ -47,14 +47,15 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-2 | File | `/classes/Master.php` | High
-3 | File | `/classes/Master.php?f=delete_service` | High
-4 | File | `/etc/postfix/sender_login` | High
-5 | File | `/file/upload/1` | High
-6 | File | `/filemanager/ajax_calls.php` | High
-7 | File | `/Items/*/RemoteImages/Download` | High
-8 | ... | ... | ...
+1 | File | `/api/admin/user/list` | High
+2 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
+3 | File | `/classes/Master.php` | High
+4 | File | `/classes/Master.php?f=delete_service` | High
+5 | File | `/etc/postfix/sender_login` | High
+6 | File | `/file/upload/1` | High
+7 | File | `/filemanager/ajax_calls.php` | High
+8 | File | `/Items/*/RemoteImages/Download` | High
+9 | ... | ... | ...
 
 There are 61 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 

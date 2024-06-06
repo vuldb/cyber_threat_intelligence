@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Chile Unknown:
 
 * [US](https://vuldb.com/?country.us)
-* [CN](https://vuldb.com/?country.cn)
 * [ES](https://vuldb.com/?country.es)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 16 more country items available. Please use our online service to access the data.
+There are 19 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -389,14 +389,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-25, CWE-36 | Path Traversal | High
+1 | T1006 | CWE-22, CWE-24, CWE-25, CWE-36 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
-6 | ... | ... | ... | ...
+5 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 15 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -407,48 +406,53 @@ ID | Type | Indicator | Confidence
 1 | File | `/#ilang=DE&b=c_smartenergy_swgroups` | High
 2 | File | `/Account/login.php` | High
 3 | File | `/admin/` | Low
-4 | File | `/admin/pages/edit_chicken.php` | High
-5 | File | `/admin/pages/student-print.php` | High
-6 | File | `/admin/update-users.php` | High
-7 | File | `/adminapi/system/crud` | High
-8 | File | `/adminapi/system/file/openfile` | High
-9 | File | `/admin_route/dec_service_credits.php` | High
-10 | File | `/admin_route/inc_service_credits.php` | High
-11 | File | `/api/v4/teams//channels/deleted` | High
-12 | File | `/app/Http/Controllers/ImageController.php` | High
-13 | File | `/application/index/controller/Icon.php` | High
-14 | File | `/b2b-supermarket/shopping-cart` | High
-15 | File | `/cancel.php` | Medium
-16 | File | `/category.php` | High
-17 | File | `/cgi-bin/cstecgi.cgi` | High
-18 | File | `/change-language/de_DE` | High
-19 | File | `/debug/pprof` | Medium
-20 | File | `/devinfo` | Medium
-21 | File | `/dist/index.js` | High
-22 | File | `/download` | Medium
-23 | File | `/Employer/EditProfile.php` | High
-24 | File | `/file` | Low
-25 | File | `/forum/away.php` | High
-26 | File | `/general/attendance/manage/ask_duty/delete.php` | High
-27 | File | `/hosts/firewall/ip` | High
-28 | File | `/index.jsp#settings` | High
-29 | File | `/index.php/ccm/system/file/upload` | High
-30 | File | `/Interface/DevManage/VM.php` | High
-31 | File | `/log/decodmail.php` | High
-32 | File | `/main/doctype.php` | High
-33 | File | `/oauth/idp/.well-known/openid-configuration` | High
-34 | File | `/php/ping.php` | High
-35 | File | `/register.do` | Medium
-36 | File | `/s/index.php?action=statistics` | High
-37 | File | `/server-info` | Medium
-38 | File | `/server-status` | High
-39 | File | `/Setting/change_password_save` | High
-40 | File | `/shell` | Low
-41 | File | `/signup.php` | Medium
-42 | File | `/spip.php` | Medium
-43 | ... | ... | ...
+4 | File | `/Admin/changepassword.php` | High
+5 | File | `/admin/court` | Medium
+6 | File | `/admin/general-setting` | High
+7 | File | `/admin/maintenance/manage_brand.php` | High
+8 | File | `/admin/orders/view_order.php` | High
+9 | File | `/admin/pages/edit_chicken.php` | High
+10 | File | `/admin/pages/student-print.php` | High
+11 | File | `/admin/service` | High
+12 | File | `/admin/update-users.php` | High
+13 | File | `/adminapi/system/crud` | High
+14 | File | `/adminapi/system/file/openfile` | High
+15 | File | `/admin_route/dec_service_credits.php` | High
+16 | File | `/admin_route/inc_service_credits.php` | High
+17 | File | `/api/v4/teams//channels/deleted` | High
+18 | File | `/api/wechat/app_auth` | High
+19 | File | `/api/{org_id}/users` | High
+20 | File | `/app/admin/controller/Upload.php` | High
+21 | File | `/app/Http/Controllers/ImageController.php` | High
+22 | File | `/application/controller/Pelanggan.php` | High
+23 | File | `/application/index/controller/Icon.php` | High
+24 | File | `/cancel.php` | Medium
+25 | File | `/category.php` | High
+26 | File | `/cgi-bin/cstecgi.cgi` | High
+27 | File | `/cgi-bin/nas_sharing.cgi` | High
+28 | File | `/check_availability.php` | High
+29 | File | `/classes/SystemSettings.php?f=update_settings` | High
+30 | File | `/control/register_case.php` | High
+31 | File | `/devinfo` | Medium
+32 | File | `/download` | Medium
+33 | File | `/Employer/EditProfile.php` | High
+34 | File | `/file` | Low
+35 | File | `/forum/away.php` | High
+36 | File | `/general/attendance/manage/ask_duty/delete.php` | High
+37 | File | `/goform/NatStaticSetting` | High
+38 | File | `/goform/SetSysTimeCfg` | High
+39 | File | `/goform/wifiSSIDset` | High
+40 | File | `/index.jsp#settings` | High
+41 | File | `/index.php` | Medium
+42 | File | `/Interface/DevManage/VM.php` | High
+43 | File | `/log/decodmail.php` | High
+44 | File | `/main/doctype.php` | High
+45 | File | `/ndmComponents.js` | High
+46 | File | `/oauth/idp/.well-known/openid-configuration` | High
+47 | File | `/onlinecourse/` | High
+48 | ... | ... | ...
 
-There are 376 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 413 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

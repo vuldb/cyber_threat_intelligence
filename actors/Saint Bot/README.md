@@ -49,27 +49,27 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
 2 | File | `/admin/login.php` | High
-3 | File | `/cwc/login` | Medium
-4 | File | `/includes/rrdtool.inc.php` | High
-5 | File | `/intern/controller.php` | High
-6 | File | `/iwguestbook/admin/badwords_edit.asp` | High
-7 | File | `/iwguestbook/admin/messages_edit.asp` | High
-8 | File | `/usr/local/nagiosxi/html/includes/configwizards/windowswmi/windowswmi.inc.php` | High
-9 | File | `/www/ping_response.cgi` | High
-10 | File | `admin.php` | Medium
-11 | File | `admin/dashboard.php` | High
-12 | File | `admin/gallery.php` | High
-13 | File | `admin/manage-departments.php` | High
-14 | File | `admin/sellerupd.php` | High
-15 | File | `admin/vqmods.app/vqmods.inc.php` | High
-16 | File | `administrator/logviewer/searchlog.cfm` | High
-17 | File | `backend/utilities/terminal.js` | High
-18 | File | `bb_usage_stats.php` | High
-19 | File | `board.php` | Medium
-20 | File | `books.php` | Medium
+3 | File | `/adminPage/main/upload` | High
+4 | File | `/cwc/login` | Medium
+5 | File | `/includes/rrdtool.inc.php` | High
+6 | File | `/intern/controller.php` | High
+7 | File | `/iwguestbook/admin/badwords_edit.asp` | High
+8 | File | `/iwguestbook/admin/messages_edit.asp` | High
+9 | File | `/usr/local/nagiosxi/html/includes/configwizards/windowswmi/windowswmi.inc.php` | High
+10 | File | `/www/ping_response.cgi` | High
+11 | File | `admin.php` | Medium
+12 | File | `admin/dashboard.php` | High
+13 | File | `admin/gallery.php` | High
+14 | File | `admin/manage-departments.php` | High
+15 | File | `admin/sellerupd.php` | High
+16 | File | `admin/vqmods.app/vqmods.inc.php` | High
+17 | File | `administrator/logviewer/searchlog.cfm` | High
+18 | File | `backend/utilities/terminal.js` | High
+19 | File | `bb_usage_stats.php` | High
+20 | File | `board.php` | Medium
 21 | ... | ... | ...
 
-There are 170 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 173 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
