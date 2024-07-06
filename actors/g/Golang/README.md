@@ -91,7 +91,7 @@ ID | Type | Indicator | Confidence
 29 | File | `/goform/setAutoPing` | High
 30 | ... | ... | ...
 
-There are 256 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 258 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

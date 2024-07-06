@@ -34,7 +34,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
@@ -52,16 +52,16 @@ ID | Type | Indicator | Confidence
 3 | File | `/forum/away.php` | High
 4 | File | `/lists/admin/` | High
 5 | File | `/public/login.htm` | High
-6 | File | `/wp-admin/admin-ajax.php` | High
-7 | File | `/w_selfservice/oauthservlet/%2e./.%2e/general/inform/org/loadhistroyorgtree` | High
-8 | File | `/_next` | Low
-9 | File | `addentry.php` | Medium
-10 | File | `admin/conf_users_edit.php` | High
-11 | File | `admin/write-post.php` | High
-12 | File | `archiver\index.php` | High
+6 | File | `/upload` | Low
+7 | File | `/wp-admin/admin-ajax.php` | High
+8 | File | `/w_selfservice/oauthservlet/%2e./.%2e/general/inform/org/loadhistroyorgtree` | High
+9 | File | `/_next` | Low
+10 | File | `addentry.php` | Medium
+11 | File | `admin/conf_users_edit.php` | High
+12 | File | `admin/write-post.php` | High
 13 | ... | ... | ...
 
-There are 97 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 98 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

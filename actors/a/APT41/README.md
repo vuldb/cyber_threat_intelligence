@@ -32,31 +32,41 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [5.183.101.21](https://vuldb.com/?ip.5.183.101.21) | bestofgy.co.uk | MoonBounce | High
-2 | [5.183.101.114](https://vuldb.com/?ip.5.183.101.114) | - | MoonBounce | High
-3 | [5.183.103.122](https://vuldb.com/?ip.5.183.103.122) | - | MoonBounce | High
-4 | [5.188.93.132](https://vuldb.com/?ip.5.188.93.132) | gcorelabs.paris.vpn015 | MoonBounce | High
-5 | [5.188.108.22](https://vuldb.com/?ip.5.188.108.22) | pol1.htjsq.com | MoonBounce | High
-6 | [5.188.108.228](https://vuldb.com/?ip.5.188.108.228) | xc5.exclusivacondominios.com | MoonBounce | High
-7 | [5.189.222.33](https://vuldb.com/?ip.5.189.222.33) | spain466.es | MoonBounce | High
-8 | [18.118.56.237](https://vuldb.com/?ip.18.118.56.237) | ec2-18-118-56-237.us-east-2.compute.amazonaws.com | CVE-2021-44207 | Medium
-9 | [20.121.42.11](https://vuldb.com/?ip.20.121.42.11) | - | CVE-2021-44207 | High
-10 | [23.67.95.153](https://vuldb.com/?ip.23.67.95.153) | a23-67-95-153.deploy.static.akamaitechnologies.com | - | High
-11 | [34.139.13.46](https://vuldb.com/?ip.34.139.13.46) | 46.13.139.34.bc.googleusercontent.com | CVE-2021-44207 | Medium
-12 | [43.255.191.255](https://vuldb.com/?ip.43.255.191.255) | - | - | High
-13 | [45.61.136.199](https://vuldb.com/?ip.45.61.136.199) | - | ColunmTK | High
-14 | [45.76.6.149](https://vuldb.com/?ip.45.76.6.149) | 45.76.6.149.vultr.com | - | Medium
-15 | [45.76.75.219](https://vuldb.com/?ip.45.76.75.219) | 45.76.75.219.vultr.com | - | Medium
-16 | [45.84.1.181](https://vuldb.com/?ip.45.84.1.181) | vm372737.pq.hosting | CVE-2021-44207 | High
-17 | [45.128.132.6](https://vuldb.com/?ip.45.128.132.6) | - | MoonBounce | High
-18 | [45.128.135.15](https://vuldb.com/?ip.45.128.135.15) | - | MoonBounce | High
-19 | [45.138.157.78](https://vuldb.com/?ip.45.138.157.78) | srv1.fincantleri.co | - | High
-20 | [45.153.231.31](https://vuldb.com/?ip.45.153.231.31) | cheater.rehab | CVE-2021-44207 | High
-21 | [46.17.43.74](https://vuldb.com/?ip.46.17.43.74) | - | LightSpy | High
-22 | [54.80.67.241](https://vuldb.com/?ip.54.80.67.241) | ec2-54-80-67-241.compute-1.amazonaws.com | CVE-2021-44207 | Medium
-23 | ... | ... | ... | ...
+1 | [3.1.206.135](https://vuldb.com/?ip.3.1.206.135) | ec2-3-1-206-135.ap-southeast-1.compute.amazonaws.com | - | Medium
+2 | [5.183.101.21](https://vuldb.com/?ip.5.183.101.21) | bestofgy.co.uk | MoonBounce | High
+3 | [5.183.101.114](https://vuldb.com/?ip.5.183.101.114) | - | MoonBounce | High
+4 | [5.183.103.122](https://vuldb.com/?ip.5.183.103.122) | - | MoonBounce | High
+5 | [5.188.93.132](https://vuldb.com/?ip.5.188.93.132) | gcorelabs.paris.vpn015 | MoonBounce | High
+6 | [5.188.108.22](https://vuldb.com/?ip.5.188.108.22) | pol1.htjsq.com | MoonBounce | High
+7 | [5.188.108.228](https://vuldb.com/?ip.5.188.108.228) | xc5.exclusivacondominios.com | MoonBounce | High
+8 | [5.189.222.33](https://vuldb.com/?ip.5.189.222.33) | spain466.es | MoonBounce | High
+9 | [8.209.255.168](https://vuldb.com/?ip.8.209.255.168) | - | - | High
+10 | [8.218.156.56](https://vuldb.com/?ip.8.218.156.56) | - | - | High
+11 | [13.250.182.175](https://vuldb.com/?ip.13.250.182.175) | ec2-13-250-182-175.ap-southeast-1.compute.amazonaws.com | - | Medium
+12 | [16.162.24.214](https://vuldb.com/?ip.16.162.24.214) | ec2-16-162-24-214.ap-east-1.compute.amazonaws.com | - | Medium
+13 | [18.118.56.237](https://vuldb.com/?ip.18.118.56.237) | ec2-18-118-56-237.us-east-2.compute.amazonaws.com | CVE-2021-44207 | Medium
+14 | [18.143.183.217](https://vuldb.com/?ip.18.143.183.217) | ec2-18-143-183-217.ap-southeast-1.compute.amazonaws.com | - | Medium
+15 | [18.163.182.3](https://vuldb.com/?ip.18.163.182.3) | ec2-18-163-182-3.ap-east-1.compute.amazonaws.com | - | Medium
+16 | [20.121.42.11](https://vuldb.com/?ip.20.121.42.11) | - | CVE-2021-44207 | High
+17 | [23.67.95.153](https://vuldb.com/?ip.23.67.95.153) | a23-67-95-153.deploy.static.akamaitechnologies.com | - | High
+18 | [23.133.5.48](https://vuldb.com/?ip.23.133.5.48) | - | - | High
+19 | [23.225.199.162](https://vuldb.com/?ip.23.225.199.162) | - | - | High
+20 | [23.225.199.164](https://vuldb.com/?ip.23.225.199.164) | - | - | High
+21 | [23.225.199.165](https://vuldb.com/?ip.23.225.199.165) | - | - | High
+22 | [27.102.114.105](https://vuldb.com/?ip.27.102.114.105) | - | - | High
+23 | [27.124.37.62](https://vuldb.com/?ip.27.124.37.62) | - | - | High
+24 | [27.124.37.63](https://vuldb.com/?ip.27.124.37.63) | - | - | High
+25 | [27.124.37.65](https://vuldb.com/?ip.27.124.37.65) | - | - | High
+26 | [34.139.13.46](https://vuldb.com/?ip.34.139.13.46) | 46.13.139.34.bc.googleusercontent.com | CVE-2021-44207 | Medium
+27 | [36.255.220.179](https://vuldb.com/?ip.36.255.220.179) | - | - | High
+28 | [39.106.32.186](https://vuldb.com/?ip.39.106.32.186) | - | - | High
+29 | [43.229.155.38](https://vuldb.com/?ip.43.229.155.38) | - | - | High
+30 | [43.229.155.39](https://vuldb.com/?ip.43.229.155.39) | - | - | High
+31 | [43.229.155.40](https://vuldb.com/?ip.43.229.155.40) | - | - | High
+32 | [43.229.155.41](https://vuldb.com/?ip.43.229.155.41) | - | - | High
+33 | ... | ... | ... | ...
 
-There are 86 more IOC items available. Please use our online service to access the data.
+There are 127 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -83,13 +93,15 @@ ID | Type | Indicator | Confidence
 4 | File | `/index.php` | Medium
 5 | File | `/members/view_member.php` | High
 6 | File | `/mhds/clinic/view_details.php` | High
-7 | File | `/owa/auth/logon.aspx` | High
-8 | File | `/rest/api/latest/projectvalidate/key` | High
-9 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
-10 | File | `/uncpath/` | Medium
-11 | ... | ... | ...
+7 | File | `/out.php` | Medium
+8 | File | `/owa/auth/logon.aspx` | High
+9 | File | `/rest/api/latest/projectvalidate/key` | High
+10 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
+11 | File | `/uncpath/` | Medium
+12 | File | `adclick.php` | Medium
+13 | ... | ... | ...
 
-There are 84 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 100 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -98,6 +110,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://app.box.com/s/qtqlwejty7xz8wj8osz98webycgo5j9x
 * https://blog.group-ib.com/colunmtk_apt41
 * https://github.com/blackberry/threat-research-and-intelligence/blob/main/APT41.csv
+* https://github.com/blackorbird/APT_REPORT/blob/master/APT41/With%20KEYPLUG%2CChina%E2%80%99sRedGolf%20Spies%20On%2C%20Steals%20From%20Wide%20Field%20of%20Targets.pdf
 * https://github.com/eset/malware-ioc/tree/master/winnti_group
 * https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/20134508/winnti-more-than-just-a-game-130410.pdf
 * https://securelist.com/moonbounce-the-dark-side-of-uefi-firmware/105468/

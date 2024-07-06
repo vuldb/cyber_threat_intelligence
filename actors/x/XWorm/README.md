@@ -53,12 +53,13 @@ ID | IP address | Hostname | Campaign | Confidence
 30 | [41.216.188.29](https://vuldb.com/?ip.41.216.188.29) | - | - | High
 31 | [44.201.221.153](https://vuldb.com/?ip.44.201.221.153) | ec2-44-201-221-153.compute-1.amazonaws.com | - | Medium
 32 | [45.61.130.7](https://vuldb.com/?ip.45.61.130.7) | - | - | High
-33 | [45.81.225.208](https://vuldb.com/?ip.45.81.225.208) | vm4424272.52ssd.had.wf | - | High
-34 | [45.88.67.75](https://vuldb.com/?ip.45.88.67.75) | - | - | High
-35 | [45.130.141.212](https://vuldb.com/?ip.45.130.141.212) | - | - | High
-36 | ... | ... | ... | ...
+33 | [45.74.8.236](https://vuldb.com/?ip.45.74.8.236) | - | - | High
+34 | [45.81.225.208](https://vuldb.com/?ip.45.81.225.208) | vm4424272.52ssd.had.wf | - | High
+35 | [45.88.67.75](https://vuldb.com/?ip.45.88.67.75) | - | - | High
+36 | [45.130.141.212](https://vuldb.com/?ip.45.130.141.212) | - | - | High
+37 | ... | ... | ... | ...
 
-There are 141 more IOC items available. Please use our online service to access the data.
+There are 143 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -66,14 +67,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-425 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-29, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -91,35 +92,34 @@ ID | Type | Indicator | Confidence
 8 | File | `/cgi-bin/cstecgi.cgi` | High
 9 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
 10 | File | `/cgi-bin/nas_sharing.cgi` | High
-11 | File | `/cgi-bin/qcmap_auth` | High
-12 | File | `/cgi-bin/wlogin.cgi` | High
-13 | File | `/control/register_case.php` | High
-14 | File | `/core/conditions/AbstractWrapper.java` | High
-15 | File | `/core/tools/update_menu.php` | High
-16 | File | `/dayrui/My/Config/Install.txt` | High
-17 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
-18 | File | `/devinfo` | Medium
-19 | File | `/DXR.axd` | Medium
-20 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-21 | File | `/endpoint/add-user.php` | High
-22 | File | `/forum/away.php` | High
-23 | File | `/forums/editforum.php` | High
-24 | File | `/goform/` | Medium
-25 | File | `/h/autoSaveDraft` | High
-26 | File | `/home/courses` | High
-27 | File | `/index.php?app=main&func=passport&action=login` | High
-28 | File | `/index.php?menu=asterisk_cli` | High
-29 | File | `/install/` | Medium
-30 | File | `/ipms/imageConvert/image` | High
-31 | File | `/mfsNotice/page` | High
-32 | File | `/modals/class_form.php` | High
-33 | File | `/ndmComponents.js` | High
-34 | File | `/newvehicle.php` | High
-35 | File | `/novel/bookSetting/list` | High
-36 | File | `/novel/userFeedback/list` | High
-37 | ... | ... | ...
+11 | File | `/cgi-bin/wlogin.cgi` | High
+12 | File | `/control/register_case.php` | High
+13 | File | `/core/conditions/AbstractWrapper.java` | High
+14 | File | `/core/tools/update_menu.php` | High
+15 | File | `/dayrui/My/Config/Install.txt` | High
+16 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
+17 | File | `/devinfo` | Medium
+18 | File | `/DXR.axd` | Medium
+19 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+20 | File | `/endpoint/add-user.php` | High
+21 | File | `/forum/away.php` | High
+22 | File | `/forums/editforum.php` | High
+23 | File | `/goform/` | Medium
+24 | File | `/h/autoSaveDraft` | High
+25 | File | `/index.php?app=main&func=passport&action=login` | High
+26 | File | `/index.php?menu=asterisk_cli` | High
+27 | File | `/install/` | Medium
+28 | File | `/ipms/imageConvert/image` | High
+29 | File | `/mfsNotice/page` | High
+30 | File | `/modals/class_form.php` | High
+31 | File | `/ndmComponents.js` | High
+32 | File | `/newvehicle.php` | High
+33 | File | `/novel/bookSetting/list` | High
+34 | File | `/novel/userFeedback/list` | High
+35 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
+36 | ... | ... | ...
 
-There are 320 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 308 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -137,6 +137,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://twitter.com/ScumBots/status/1633119068986257413
 * https://www.esentire.com/blog/dont-take-the-bait-the-xworm-tax-scam
 * https://www.joesandbox.com/analysis/1321945/0/html
+* https://x.com/lontze7/status/1808013953710080351
 
 ## Literature
 

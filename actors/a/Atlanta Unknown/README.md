@@ -200,9 +200,11 @@ ID | Type | Indicator | Confidence
 15 | File | `/forum/away.php` | High
 16 | File | `/lesson/controller.php` | High
 17 | File | `/licenses` | Medium
-18 | ... | ... | ...
+18 | File | `/manager/ipconfig_new.php` | High
+19 | File | `/manage_receiving.php` | High
+20 | ... | ... | ...
 
-There are 150 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 162 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

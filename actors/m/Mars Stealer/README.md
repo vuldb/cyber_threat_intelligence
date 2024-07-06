@@ -97,24 +97,24 @@ ID | Type | Indicator | Confidence
 35 | File | `/getcfg.php` | Medium
 36 | File | `/goform/aspForm` | High
 37 | File | `/goform/RouteStatic` | High
-38 | File | `/home/masterConsole` | High
-39 | File | `/hrm/employeeadd.php` | High
-40 | File | `/hrm/employeeview.php` | High
-41 | File | `/htdocs/cgibin` | High
-42 | File | `/index.php` | Medium
-43 | File | `/lists/index.php` | High
-44 | File | `/login.php` | Medium
-45 | File | `/manage_laundry.php` | High
-46 | File | `/mifs/c/i/reg/reg.html` | High
-47 | File | `/model/update_subject.php` | High
-48 | File | `/netflow/jspui/editProfile.jsp` | High
-49 | File | `/portmap` | Medium
-50 | File | `/register.php` | High
-51 | File | `/search/index` | High
-52 | File | `/settings/download-test-pdf` | High
+38 | File | `/goform/SetOnlineDevName` | High
+39 | File | `/home/masterConsole` | High
+40 | File | `/hrm/employeeadd.php` | High
+41 | File | `/hrm/employeeview.php` | High
+42 | File | `/htdocs/cgibin` | High
+43 | File | `/index.php` | Medium
+44 | File | `/labvantage/rc?command=page&page=SampleHistoricalList&_iframename=list&__crc=crc_1701669816260` | High
+45 | File | `/lists/index.php` | High
+46 | File | `/login.php` | Medium
+47 | File | `/manage_laundry.php` | High
+48 | File | `/mifs/c/i/reg/reg.html` | High
+49 | File | `/model/update_subject.php` | High
+50 | File | `/netflow/jspui/editProfile.jsp` | High
+51 | File | `/portmap` | Medium
+52 | File | `/register.php` | High
 53 | ... | ... | ...
 
-There are 459 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 465 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

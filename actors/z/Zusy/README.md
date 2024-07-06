@@ -8,9 +8,9 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Zusy:
 
-* [PL](https://vuldb.com/?country.pl)
 * [RU](https://vuldb.com/?country.ru)
-* [FR](https://vuldb.com/?country.fr)
+* [PL](https://vuldb.com/?country.pl)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
 There are 9 more country items available. Please use our online service to access the data.
@@ -133,10 +133,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
-4 | ... | ... | ... | ...
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
 There are 14 more TTP items available. Please use our online service to access the data.
 
@@ -157,9 +158,10 @@ ID | Type | Indicator | Confidence
 9 | File | `/goform/delIpMacBind` | High
 10 | File | `/goform/DelPortMapping` | High
 11 | File | `/goform/modifyDhcpRule` | High
-12 | ... | ... | ...
+12 | File | `/goform/modifyIpMacBind` | High
+13 | ... | ... | ...
 
-There are 90 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 105 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

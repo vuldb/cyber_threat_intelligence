@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Grizzly Steppe:
 
+* [CN](https://vuldb.com/?country.cn)
 * [RU](https://vuldb.com/?country.ru)
 * [PL](https://vuldb.com/?country.pl)
-* [AR](https://vuldb.com/?country.ar)
 * ...
 
-There are 9 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -161,7 +161,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80, CWE-85 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 15 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -170,26 +170,29 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/add_job` | Medium
-2 | File | `/admin/clients` | High
-3 | File | `/admin/client_user` | High
-4 | File | `/admin/foreigner-bwdates-reports-details.php` | High
-5 | File | `/admin/index.php` | High
-6 | File | `/admin/mod_room/controller.php?action=add` | High
-7 | File | `/admin/normal-bwdates-reports-details.php` | High
-8 | File | `/api/v1/custom_component` | High
-9 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-10 | File | `/catalog/all-products` | High
-11 | File | `/changePassword` | High
-12 | File | `/channels//link` | High
-13 | File | `/classes/Users.php?f=delete` | High
-14 | File | `/etc/passwd` | Medium
-15 | File | `/etc/shadow.sample` | High
-16 | File | `/formSystemCheck` | High
-17 | File | `/forum/away.php` | High
-18 | File | `/goform/addIpMacBind` | High
-19 | ... | ... | ...
+2 | File | `/admin/ajax.php?action=save_settings` | High
+3 | File | `/admin/clients` | High
+4 | File | `/admin/client_user` | High
+5 | File | `/admin/foreigner-bwdates-reports-details.php` | High
+6 | File | `/admin/index.php` | High
+7 | File | `/admin/mod_room/controller.php?action=add` | High
+8 | File | `/admin/normal-bwdates-reports-details.php` | High
+9 | File | `/api/v1/custom_component` | High
+10 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+11 | File | `/catalog/all-products` | High
+12 | File | `/cgi-bin/wlogin.cgi` | High
+13 | File | `/changePassword` | High
+14 | File | `/channels//link` | High
+15 | File | `/classes/Users.php?f=delete` | High
+16 | File | `/etc/passwd` | Medium
+17 | File | `/etc/shadow.sample` | High
+18 | File | `/formSystemCheck` | High
+19 | File | `/forum/away.php` | High
+20 | File | `/goform/delIpMacBind` | High
+21 | File | `/goform/modifyIpMacBind` | High
+22 | ... | ... | ...
 
-There are 159 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 181 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

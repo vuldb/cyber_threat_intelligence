@@ -25,37 +25,40 @@ ID | IP address | Hostname | Campaign | Confidence
 6 | [5.42.77.121](https://vuldb.com/?ip.5.42.77.121) | repulsive-blow.aeza.network | - | High
 7 | [5.42.78.61](https://vuldb.com/?ip.5.42.78.61) | waggish-aftermath.aeza.network | - | High
 8 | [5.42.94.65](https://vuldb.com/?ip.5.42.94.65) | shrewd-sleet.aeza.network | - | High
-9 | [5.42.101.184](https://vuldb.com/?ip.5.42.101.184) | frightening-mask.aeza.network | - | High
-10 | [5.42.101.189](https://vuldb.com/?ip.5.42.101.189) | handsome-grip.aeza.network | - | High
-11 | [5.42.106.164](https://vuldb.com/?ip.5.42.106.164) | 5-42-106-164.colomna.net | - | High
-12 | [5.42.107.163](https://vuldb.com/?ip.5.42.107.163) | clean-trick.aeza.network | - | High
-13 | [5.182.86.32](https://vuldb.com/?ip.5.182.86.32) | general-scarecrow.aeza.network | - | High
-14 | [5.182.86.194](https://vuldb.com/?ip.5.182.86.194) | colorful-lake.aeza.network | - | High
-15 | [5.182.86.229](https://vuldb.com/?ip.5.182.86.229) | early-writer.aeza.network | - | High
-16 | [5.182.87.27](https://vuldb.com/?ip.5.182.87.27) | 0M.aeza.network | - | High
-17 | [5.182.87.130](https://vuldb.com/?ip.5.182.87.130) | TestCrypt.aeza.network | - | High
-18 | [5.182.87.145](https://vuldb.com/?ip.5.182.87.145) | careless-scarecrow.aeza.network | - | High
-19 | [5.182.87.160](https://vuldb.com/?ip.5.182.87.160) | DVD.aeza.network | - | High
-20 | [5.182.87.218](https://vuldb.com/?ip.5.182.87.218) | dark-icicle.aeza.network | - | High
-21 | [8.217.23.144](https://vuldb.com/?ip.8.217.23.144) | - | - | High
-22 | [20.0.25.177](https://vuldb.com/?ip.20.0.25.177) | - | - | High
-23 | [37.110.19.55](https://vuldb.com/?ip.37.110.19.55) | broadband-37-110-19-55.ip.moscow.rt.ru | - | High
-24 | [37.221.93.9](https://vuldb.com/?ip.37.221.93.9) | 9.93.221.37.in-addr.arpa | - | High
-25 | [45.15.158.144](https://vuldb.com/?ip.45.15.158.144) | disillusioned-eyes.aeza.network | - | High
-26 | [45.15.159.130](https://vuldb.com/?ip.45.15.159.130) | mundane-spade.aeza.network | - | High
-27 | [45.59.120.155](https://vuldb.com/?ip.45.59.120.155) | 155.120.59.45.static.cloudzy.com | - | High
-28 | [45.74.19.107](https://vuldb.com/?ip.45.74.19.107) | - | - | High
-29 | [45.93.20.207](https://vuldb.com/?ip.45.93.20.207) | - | - | High
-30 | [45.120.177.167](https://vuldb.com/?ip.45.120.177.167) | vpsmike123.example.com | - | High
-31 | [45.138.16.132](https://vuldb.com/?ip.45.138.16.132) | - | - | High
-32 | [45.138.74.228](https://vuldb.com/?ip.45.138.74.228) | shy-laborer.aeza.one | - | High
-33 | [45.141.215.44](https://vuldb.com/?ip.45.141.215.44) | - | - | High
-34 | [45.141.215.173](https://vuldb.com/?ip.45.141.215.173) | - | - | High
-35 | [45.150.64.135](https://vuldb.com/?ip.45.150.64.135) | vm2407211.stark-industries.solutions | - | High
-36 | [45.150.65.121](https://vuldb.com/?ip.45.150.65.121) | vm1757649.stark-industries.solutions | - | High
-37 | ... | ... | ... | ...
+9 | [5.42.99.0](https://vuldb.com/?ip.5.42.99.0) | - | - | High
+10 | [5.42.101.184](https://vuldb.com/?ip.5.42.101.184) | frightening-mask.aeza.network | - | High
+11 | [5.42.101.189](https://vuldb.com/?ip.5.42.101.189) | handsome-grip.aeza.network | - | High
+12 | [5.42.106.164](https://vuldb.com/?ip.5.42.106.164) | 5-42-106-164.colomna.net | - | High
+13 | [5.42.107.78](https://vuldb.com/?ip.5.42.107.78) | balmy-bird.aeza.network | - | High
+14 | [5.42.107.163](https://vuldb.com/?ip.5.42.107.163) | clean-trick.aeza.network | - | High
+15 | [5.182.86.32](https://vuldb.com/?ip.5.182.86.32) | general-scarecrow.aeza.network | - | High
+16 | [5.182.86.194](https://vuldb.com/?ip.5.182.86.194) | colorful-lake.aeza.network | - | High
+17 | [5.182.86.229](https://vuldb.com/?ip.5.182.86.229) | early-writer.aeza.network | - | High
+18 | [5.182.87.27](https://vuldb.com/?ip.5.182.87.27) | 0M.aeza.network | - | High
+19 | [5.182.87.130](https://vuldb.com/?ip.5.182.87.130) | TestCrypt.aeza.network | - | High
+20 | [5.182.87.145](https://vuldb.com/?ip.5.182.87.145) | careless-scarecrow.aeza.network | - | High
+21 | [5.182.87.160](https://vuldb.com/?ip.5.182.87.160) | DVD.aeza.network | - | High
+22 | [5.182.87.173](https://vuldb.com/?ip.5.182.87.173) | lewd-word.aeza.network | - | High
+23 | [5.182.87.218](https://vuldb.com/?ip.5.182.87.218) | dark-icicle.aeza.network | - | High
+24 | [8.217.23.144](https://vuldb.com/?ip.8.217.23.144) | - | - | High
+25 | [20.0.25.177](https://vuldb.com/?ip.20.0.25.177) | - | - | High
+26 | [31.177.108.30](https://vuldb.com/?ip.31.177.108.30) | - | - | High
+27 | [37.110.19.55](https://vuldb.com/?ip.37.110.19.55) | broadband-37-110-19-55.ip.moscow.rt.ru | - | High
+28 | [37.221.93.9](https://vuldb.com/?ip.37.221.93.9) | 9.93.221.37.in-addr.arpa | - | High
+29 | [45.15.158.144](https://vuldb.com/?ip.45.15.158.144) | disillusioned-eyes.aeza.network | - | High
+30 | [45.15.159.130](https://vuldb.com/?ip.45.15.159.130) | mundane-spade.aeza.network | - | High
+31 | [45.59.120.155](https://vuldb.com/?ip.45.59.120.155) | 155.120.59.45.static.cloudzy.com | - | High
+32 | [45.74.19.107](https://vuldb.com/?ip.45.74.19.107) | - | - | High
+33 | [45.93.20.207](https://vuldb.com/?ip.45.93.20.207) | - | - | High
+34 | [45.120.177.167](https://vuldb.com/?ip.45.120.177.167) | vpsmike123.example.com | - | High
+35 | [45.138.16.132](https://vuldb.com/?ip.45.138.16.132) | - | - | High
+36 | [45.138.74.228](https://vuldb.com/?ip.45.138.74.228) | shy-laborer.aeza.one | - | High
+37 | [45.141.215.44](https://vuldb.com/?ip.45.141.215.44) | - | - | High
+38 | [45.141.215.173](https://vuldb.com/?ip.45.141.215.173) | - | - | High
+39 | [45.150.64.135](https://vuldb.com/?ip.45.150.64.135) | vm2407211.stark-industries.solutions | - | High
+40 | ... | ... | ... | ...
 
-There are 142 more IOC items available. Please use our online service to access the data.
+There are 154 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -68,7 +71,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059 | CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
 
-There are 7 more TTP items available. Please use our online service to access the data.
+There are 8 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -101,15 +104,18 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/2.56.109.134
 * https://search.censys.io/hosts/5.42.73.251
 * https://search.censys.io/hosts/5.42.94.65
+* https://search.censys.io/hosts/5.42.99.0
 * https://search.censys.io/hosts/5.42.101.184
 * https://search.censys.io/hosts/5.42.101.189
 * https://search.censys.io/hosts/5.42.106.164
+* https://search.censys.io/hosts/5.42.107.78
 * https://search.censys.io/hosts/5.42.107.163
 * https://search.censys.io/hosts/5.182.86.32
 * https://search.censys.io/hosts/5.182.86.194
 * https://search.censys.io/hosts/5.182.86.229
 * https://search.censys.io/hosts/5.182.87.145
 * https://search.censys.io/hosts/5.182.87.218
+* https://search.censys.io/hosts/31.177.108.30
 * https://search.censys.io/hosts/37.110.19.55
 * https://search.censys.io/hosts/37.221.93.9
 * https://search.censys.io/hosts/45.15.159.130
@@ -121,15 +127,18 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/45.141.215.173
 * https://search.censys.io/hosts/45.150.64.135
 * https://search.censys.io/hosts/46.226.164.150
+* https://search.censys.io/hosts/46.226.167.205
 * https://search.censys.io/hosts/51.195.28.168
 * https://search.censys.io/hosts/77.73.131.73
 * https://search.censys.io/hosts/77.91.70.104
+* https://search.censys.io/hosts/77.105.146.8
 * https://search.censys.io/hosts/77.105.146.152
 * https://search.censys.io/hosts/77.105.147.23
 * https://search.censys.io/hosts/77.105.147.157
 * https://search.censys.io/hosts/77.221.148.13
 * https://search.censys.io/hosts/77.221.151.32
 * https://search.censys.io/hosts/77.221.157.6
+* https://search.censys.io/hosts/77.221.157.163
 * https://search.censys.io/hosts/77.232.142.8
 * https://search.censys.io/hosts/79.137.194.188
 * https://search.censys.io/hosts/79.137.195.24
@@ -163,6 +172,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/94.156.65.246
 * https://search.censys.io/hosts/94.228.162.3
 * https://search.censys.io/hosts/94.228.162.149
+* https://search.censys.io/hosts/94.228.166.50
 * https://search.censys.io/hosts/94.228.168.159
 * https://search.censys.io/hosts/95.181.173.126
 * https://search.censys.io/hosts/95.216.100.78+static.78.100.216.95.clients.your-server.de
@@ -170,6 +180,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/103.241.72.56
 * https://search.censys.io/hosts/109.107.181.48
 * https://search.censys.io/hosts/109.107.181.83
+* https://search.censys.io/hosts/109.120.176.15
 * https://search.censys.io/hosts/109.120.176.38
 * https://search.censys.io/hosts/109.120.177.43
 * https://search.censys.io/hosts/109.120.177.48
@@ -182,12 +193,15 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/147.45.40.99
 * https://search.censys.io/hosts/147.45.42.25
 * https://search.censys.io/hosts/147.45.69.114
+* https://search.censys.io/hosts/147.45.71.7
 * https://search.censys.io/hosts/154.26.130.199
+* https://search.censys.io/hosts/172.99.189.221
 * https://search.censys.io/hosts/175.110.115.65
 * https://search.censys.io/hosts/185.161.248.199
 * https://search.censys.io/hosts/185.225.200.120
 * https://search.censys.io/hosts/193.233.255.60
 * https://search.censys.io/hosts/198.44.171.3
+* https://search.censys.io/hosts/212.113.100.91
 * https://search.censys.io/hosts/217.196.98.138
 * https://search.censys.io/hosts/217.197.107.145
 * https://threatfox.abuse.ch

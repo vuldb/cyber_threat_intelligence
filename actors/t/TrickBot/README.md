@@ -440,13 +440,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-425 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-29, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 5 | ... | ... | ... | ...
 
-There are 15 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -467,22 +467,26 @@ ID | Type | Indicator | Confidence
 11 | File | `/applications/nexus/modules/front/store/store.php` | High
 12 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
 13 | File | `/catalog/all-products` | High
-14 | File | `/classes/Users.php?f=save` | High
-15 | File | `/control/register_case.php` | High
-16 | File | `/core/config-revisions` | High
-17 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
-18 | File | `/devinfo` | Medium
-19 | File | `/DXR.axd` | Medium
-20 | File | `/endpoint/delete-todo.php` | High
-21 | File | `/forum/away.php` | High
-22 | File | `/goform/SetSysTimeCfg` | High
-23 | File | `/hrm/leaverequest.php` | High
-24 | File | `/lesson/controller.php` | High
-25 | File | `/manage_sy.php` | High
-26 | File | `/MobileHandler.ashx` | High
-27 | ... | ... | ...
+14 | File | `/cgi-bin/wlogin.cgi` | High
+15 | File | `/classes/Users.php?f=save` | High
+16 | File | `/control/register_case.php` | High
+17 | File | `/core/config-revisions` | High
+18 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
+19 | File | `/devinfo` | Medium
+20 | File | `/DXR.axd` | Medium
+21 | File | `/edit/server` | Medium
+22 | File | `/endpoint/delete-todo.php` | High
+23 | File | `/formSysLog` | Medium
+24 | File | `/forum/away.php` | High
+25 | File | `/hrm/leaverequest.php` | High
+26 | File | `/index.php?pluginApp/to/yzOffice/getFile` | High
+27 | File | `/lesson/controller.php` | High
+28 | File | `/manage_sy.php` | High
+29 | File | `/MobileHandler.ashx` | High
+30 | File | `/newvehicle.php` | High
+31 | ... | ... | ...
 
-There are 225 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 266 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

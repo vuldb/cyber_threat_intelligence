@@ -122,9 +122,10 @@ ID | Type | Indicator | Confidence
 36 | File | `/wordpress/wp-admin/admin.php` | High
 37 | File | `4.edu.php` | Medium
 38 | File | `account_footer.php` | High
-39 | ... | ... | ...
+39 | File | `adclick.php` | Medium
+40 | ... | ... | ...
 
-There are 339 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 342 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

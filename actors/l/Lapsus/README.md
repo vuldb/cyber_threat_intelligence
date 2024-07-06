@@ -83,49 +83,49 @@ ID | Type | Indicator | Confidence
 32 | File | `/admin/user/manage_user.php` | High
 33 | File | `/admin/voters_row.php` | High
 34 | File | `/ajax.php?action=save_company` | High
-35 | File | `/api/wechat/app_auth` | High
-36 | File | `/appliance/users?action=edit` | High
-37 | File | `/APR/login.php` | High
-38 | File | `/author_posts.php` | High
-39 | File | `/bilal final/login.php` | High
-40 | File | `/blog` | Low
-41 | File | `/blog-single.php` | High
-42 | File | `/browse` | Low
-43 | File | `/bsms_ci/index.php` | High
-44 | File | `/bsms_ci/index.php/user/edit_user/` | High
-45 | File | `/catalog/admin/categories.php?cPath=&action=new_product` | High
-46 | File | `/category.php` | High
-47 | File | `/cbpos/` | Low
-48 | File | `/classes/Master.php` | High
-49 | File | `/classes/Master.php?f=delete_img` | High
-50 | File | `/classes/Master.php?f=delete_service` | High
-51 | File | `/classes/Master.php?f=save_item` | High
-52 | File | `/classes/Master.php?f=update_order_status` | High
-53 | File | `/classes/Users.php` | High
-54 | File | `/common/download?filename=1.jsp&delete=false` | High
-55 | File | `/config/getuser` | High
-56 | File | `/contact.php` | Medium
-57 | File | `/contact/store` | High
-58 | File | `/context/%2e/WEB-INF/web.xml` | High
-59 | File | `/Controller/Ajaxfileupload.ashx` | High
-60 | File | `/Default/Bd` | Medium
-61 | File | `/E-mobile/App/System/File/downfile.php` | High
-62 | File | `/ecommerce/admin/category/controller.php` | High
-63 | File | `/ecshop/admin/template.php` | High
-64 | File | `/event/admin/?page=user/list` | High
-65 | File | `/ffos/admin/menus/view_menu.php` | High
-66 | File | `/forum/away.php` | High
-67 | File | `/fos/admin/ajax.php?action=login` | High
-68 | File | `/getImage` | Medium
-69 | File | `/goform/formTcpipSetup` | High
-70 | File | `/group1/uploa` | High
-71 | File | `/horde/util/go.php` | High
-72 | File | `/hrm/controller/employee.php` | High
-73 | File | `/hrm/employeeadd.php` | High
-74 | File | `/hrm/employeeview.php` | High
+35 | File | `/api/blade-user/export-user` | High
+36 | File | `/api/wechat/app_auth` | High
+37 | File | `/appliance/users?action=edit` | High
+38 | File | `/APR/login.php` | High
+39 | File | `/author_posts.php` | High
+40 | File | `/bilal final/login.php` | High
+41 | File | `/blog` | Low
+42 | File | `/blog-single.php` | High
+43 | File | `/browse` | Low
+44 | File | `/bsms_ci/index.php` | High
+45 | File | `/bsms_ci/index.php/user/edit_user/` | High
+46 | File | `/catalog/admin/categories.php?cPath=&action=new_product` | High
+47 | File | `/category.php` | High
+48 | File | `/cbpos/` | Low
+49 | File | `/classes/Master.php` | High
+50 | File | `/classes/Master.php?f=delete_img` | High
+51 | File | `/classes/Master.php?f=delete_service` | High
+52 | File | `/classes/Master.php?f=save_item` | High
+53 | File | `/classes/Master.php?f=update_order_status` | High
+54 | File | `/classes/Users.php` | High
+55 | File | `/common/download?filename=1.jsp&delete=false` | High
+56 | File | `/config/getuser` | High
+57 | File | `/contact.php` | Medium
+58 | File | `/contact/store` | High
+59 | File | `/context/%2e/WEB-INF/web.xml` | High
+60 | File | `/Controller/Ajaxfileupload.ashx` | High
+61 | File | `/Default/Bd` | Medium
+62 | File | `/E-mobile/App/System/File/downfile.php` | High
+63 | File | `/ecommerce/admin/category/controller.php` | High
+64 | File | `/ecshop/admin/template.php` | High
+65 | File | `/event/admin/?page=user/list` | High
+66 | File | `/ffos/admin/menus/view_menu.php` | High
+67 | File | `/forum/away.php` | High
+68 | File | `/fos/admin/ajax.php?action=login` | High
+69 | File | `/getImage` | Medium
+70 | File | `/goform/formTcpipSetup` | High
+71 | File | `/group1/uploa` | High
+72 | File | `/horde/util/go.php` | High
+73 | File | `/hrm/controller/employee.php` | High
+74 | File | `/hrm/employeeadd.php` | High
 75 | ... | ... | ...
 
-There are 656 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 661 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

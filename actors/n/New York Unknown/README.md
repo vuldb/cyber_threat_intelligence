@@ -195,7 +195,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 15 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -223,11 +223,13 @@ ID | Type | Indicator | Confidence
 18 | File | `/coreframe/app/pay/admin/index.php` | High
 19 | File | `/dashboard/Cinvoice/manage_invoice` | High
 20 | File | `/etc/keystone/user-project-map.json` | High
-21 | File | `/forum/away.php` | High
-22 | File | `/importexport.php` | High
-23 | ... | ... | ...
+21 | File | `/forgot-password` | High
+22 | File | `/forum/away.php` | High
+23 | File | `/importexport.php` | High
+24 | File | `/index.jsp#settings` | High
+25 | ... | ... | ...
 
-There are 192 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 209 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

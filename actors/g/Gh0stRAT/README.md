@@ -4,6 +4,12 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.gh0strat](https://vuldb.com/?actor.gh0strat)
 
+## Campaigns
+
+The following _campaigns_ are known and can be associated with Gh0stRAT:
+
+* CVE-2024-23692
+
 ## Countries
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Gh0stRAT:
@@ -87,9 +93,10 @@ ID | IP address | Hostname | Campaign | Confidence
 64 | [58.218.67.245](https://vuldb.com/?ip.58.218.67.245) | - | - | High
 65 | [58.218.199.225](https://vuldb.com/?ip.58.218.199.225) | - | - | High
 66 | [58.221.47.41](https://vuldb.com/?ip.58.221.47.41) | - | - | High
-67 | ... | ... | ... | ...
+67 | [58.221.47.47](https://vuldb.com/?ip.58.221.47.47) | - | - | High
+68 | ... | ... | ... | ...
 
-There are 265 more IOC items available. Please use our online service to access the data.
+There are 269 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -97,7 +104,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-29 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-29, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
@@ -112,45 +119,47 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/students.php` | High
-2 | File | `/adminPage/www/addOver` | High
-3 | File | `/API/info` | Medium
-4 | File | `/api/runscript` | High
-5 | File | `/api/snapshots/` | High
-6 | File | `/api/sys/login` | High
-7 | File | `/api/v1/snapshots` | High
-8 | File | `/api/v2/maps` | Medium
-9 | File | `/application/index/controller/Screen.php` | High
-10 | File | `/bcms/admin/?page=user/manage_user` | High
-11 | File | `/cgi-bin/ExportAllSettings.sh` | High
-12 | File | `/cgi-bin/system_mgr.cgi` | High
-13 | File | `/cgi-bin/wlogin.cgi` | High
-14 | File | `/dataSet/testTransform;swagger-ui` | High
-15 | File | `/dayrui/Fcms/View/system_log.html` | High
-16 | File | `/dayrui/My/View/main.html` | High
-17 | File | `/forum/away.php` | High
-18 | File | `/goform/DhcpListClient` | High
-19 | File | `/goform/execCommand` | High
-20 | File | `/goform/SetNetControlList` | High
-21 | File | `/goform/SetRebootTimer` | High
-22 | File | `/goform/WriteFacMac` | High
-23 | File | `/hrm/leaverequest.php` | High
-24 | File | `/list` | Low
-25 | File | `/login.php?m=admin&c=Field&a=channel_edit` | High
-26 | File | `/manage/IPSetup.php` | High
-27 | File | `/module/comment/save` | High
-28 | File | `/ndmComponents.js` | High
-29 | File | `/new_item` | Medium
-30 | File | `/novel/bookSetting/list` | High
-31 | File | `/purchase.php` | High
-32 | ... | ... | ...
+1 | File | `/admin.php?p=/Area/index#tab=t2` | High
+2 | File | `/admin/students.php` | High
+3 | File | `/adminPage/www/addOver` | High
+4 | File | `/API/info` | Medium
+5 | File | `/api/runscript` | High
+6 | File | `/api/snapshots/` | High
+7 | File | `/api/sys/login` | High
+8 | File | `/api/v1/snapshots` | High
+9 | File | `/api/v2/maps` | Medium
+10 | File | `/application/index/controller/Screen.php` | High
+11 | File | `/bcms/admin/?page=user/manage_user` | High
+12 | File | `/cgi-bin/ExportAllSettings.sh` | High
+13 | File | `/cgi-bin/system_mgr.cgi` | High
+14 | File | `/cgi-bin/wlogin.cgi` | High
+15 | File | `/dataSet/testTransform;swagger-ui` | High
+16 | File | `/dayrui/Fcms/View/system_log.html` | High
+17 | File | `/dayrui/My/View/main.html` | High
+18 | File | `/forum/away.php` | High
+19 | File | `/goform/DhcpListClient` | High
+20 | File | `/goform/execCommand` | High
+21 | File | `/goform/SetNetControlList` | High
+22 | File | `/goform/SetRebootTimer` | High
+23 | File | `/goform/WriteFacMac` | High
+24 | File | `/hrm/leaverequest.php` | High
+25 | File | `/list` | Low
+26 | File | `/login-actions/authenticate` | High
+27 | File | `/login.php?m=admin&c=Field&a=channel_edit` | High
+28 | File | `/manage/IPSetup.php` | High
+29 | File | `/ndmComponents.js` | High
+30 | File | `/new_item` | Medium
+31 | File | `/novel/bookSetting/list` | High
+32 | File | `/purchase.php` | High
+33 | ... | ... | ...
 
-There are 277 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 283 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://asec.ahnlab.com/en/67650/
 * https://blog.talosintelligence.com/2019/06/threat-roundup-0607-0614.html
 * https://blog.talosintelligence.com/2019/06/threat-roundup-0621-0628.html
 * https://blog.talosintelligence.com/2019/07/threat-roundup-0628-0705.html

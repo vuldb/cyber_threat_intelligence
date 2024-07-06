@@ -40,7 +40,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-24, CWE-29 | Path Traversal | High
+1 | T1006 | CWE-22, CWE-24, CWE-29, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
@@ -97,9 +97,10 @@ ID | Type | Indicator | Confidence
 40 | File | `/remote/put_file` | High
 41 | File | `/setting/NTPSyncWithHost` | High
 42 | File | `/spip.php` | Medium
-43 | ... | ... | ...
+43 | File | `/squashfs-root/etc_ro/custom.conf` | High
+44 | ... | ... | ...
 
-There are 370 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 377 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

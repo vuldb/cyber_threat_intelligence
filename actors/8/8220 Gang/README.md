@@ -35,7 +35,7 @@ ID | IP address | Hostname | Campaign | Confidence
 5 | [79.110.62.23](https://vuldb.com/?ip.79.110.62.23) | - | CVE-2019-2725 | High
 6 | ... | ... | ... | ...
 
-There are 18 more IOC items available. Please use our online service to access the data.
+There are 19 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -61,38 +61,38 @@ ID | Type | Indicator | Confidence
 1 | File | `%PROGRAMFILES%\MyQ\PHP\Sessions\` | High
 2 | File | `.htaccess` | Medium
 3 | File | `//proc/kcore` | Medium
-4 | File | `/admin.php/Admin/adminadd.html` | High
-5 | File | `/admin/about-us.php` | High
-6 | File | `/admin/action/delete-vaccine.php` | High
-7 | File | `/admin/edit-post.php` | High
-8 | File | `/admin/index2.html` | High
-9 | File | `/admin/settings/save.php` | High
-10 | File | `/admin/userprofile.php` | High
-11 | File | `/admin_class.php` | High
-12 | File | `/alphaware/summary.php` | High
-13 | File | `/api/baskets/{name}` | High
-14 | File | `/app/index/controller/Common.php` | High
-15 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
-16 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
-17 | File | `/applications/nexus/modules/front/store/store.php` | High
-18 | File | `/apply.cgi` | Medium
-19 | File | `/bitrix/admin/ldap_server_edit.php` | High
-20 | File | `/cgi-bin/nas_sharing.cgi` | High
-21 | File | `/cgi-bin/wlogin.cgi` | High
-22 | File | `/classes/Master.php?f=save_category` | High
-23 | File | `/classes/Users.php?f=save` | High
-24 | File | `/College/admin/teacher.php` | High
-25 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
-26 | File | `/cupseasylive/countrymodify.php` | High
-27 | File | `/dcim/rack-roles/` | High
-28 | File | `/domains/list` | High
-29 | File | `/fftools/ffmpeg_enc.c` | High
-30 | File | `/forms/doLogin` | High
-31 | File | `/formSysLog` | Medium
-32 | File | `/forum/away.php` | High
-33 | File | `/goform/addUserName` | High
-34 | File | `/goform/aspForm` | High
-35 | File | `/goform/delAd` | High
+4 | File | `/admin/about-us.php` | High
+5 | File | `/admin/action/delete-vaccine.php` | High
+6 | File | `/admin/edit-post.php` | High
+7 | File | `/admin/index2.html` | High
+8 | File | `/admin/settings/save.php` | High
+9 | File | `/admin/userprofile.php` | High
+10 | File | `/admin_class.php` | High
+11 | File | `/alphaware/summary.php` | High
+12 | File | `/api/baskets/{name}` | High
+13 | File | `/app/index/controller/Common.php` | High
+14 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
+15 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
+16 | File | `/applications/nexus/modules/front/store/store.php` | High
+17 | File | `/apply.cgi` | Medium
+18 | File | `/bitrix/admin/ldap_server_edit.php` | High
+19 | File | `/cgi-bin/nas_sharing.cgi` | High
+20 | File | `/cgi-bin/wlogin.cgi` | High
+21 | File | `/classes/Master.php?f=save_category` | High
+22 | File | `/classes/Users.php?f=save` | High
+23 | File | `/College/admin/teacher.php` | High
+24 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
+25 | File | `/cupseasylive/countrymodify.php` | High
+26 | File | `/dcim/rack-roles/` | High
+27 | File | `/domains/list` | High
+28 | File | `/fftools/ffmpeg_enc.c` | High
+29 | File | `/forms/doLogin` | High
+30 | File | `/formSysLog` | Medium
+31 | File | `/forum/away.php` | High
+32 | File | `/goform/addUserName` | High
+33 | File | `/goform/aspForm` | High
+34 | File | `/goform/delAd` | High
+35 | File | `/goform/SetOnlineDevName` | High
 36 | File | `/goform/wifiSSIDset` | High
 37 | File | `/gpac/src/bifs/unquantize.c` | High
 38 | File | `/inc/topBarNav.php` | High
@@ -102,8 +102,8 @@ ID | Type | Indicator | Confidence
 42 | File | `/install/` | Medium
 43 | File | `/kelas/data` | Medium
 44 | File | `/listplace/user/ticket/create` | High
-45 | File | `/LoginRegistration.php` | High
-46 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
+45 | File | `/login` | Low
+46 | File | `/LoginRegistration.php` | High
 47 | ... | ... | ...
 
 There are 412 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
@@ -116,6 +116,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://asec.ahnlab.com/en/36820/
 * https://asec.ahnlab.com/en/51568/
 * https://blog.checkpoint.com/2022/06/09/crypto-miners-leveraging-atlassian-zero-day-vulnerability/
+* https://blog.xlab.qianxin.com/8220-k4spreader-new-tool-en/
 * https://github.com/uptycslabs/IOCs/blob/main/8220Gang
 * https://www.sentinelone.com/blog/8220-gang-cloud-botnet-targets-misconfigured-cloud-workloads/
 * https://www.sentinelone.com/blog/soc-team-essentials-how-to-investigate-and-track-the-8220-gang-cloud-threat/

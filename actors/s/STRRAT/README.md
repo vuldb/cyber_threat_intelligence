@@ -8,9 +8,9 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with STRRAT:
 
-* [PL](https://vuldb.com/?country.pl)
 * [RU](https://vuldb.com/?country.ru)
-* [FR](https://vuldb.com/?country.fr)
+* [PL](https://vuldb.com/?country.pl)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
 There are 9 more country items available. Please use our online service to access the data.
@@ -51,39 +51,40 @@ ID | IP address | Hostname | Campaign | Confidence
 28 | [37.0.14.195](https://vuldb.com/?ip.37.0.14.195) | - | - | High
 29 | [37.0.14.205](https://vuldb.com/?ip.37.0.14.205) | - | - | High
 30 | [37.120.141.147](https://vuldb.com/?ip.37.120.141.147) | - | - | High
-31 | [37.120.206.74](https://vuldb.com/?ip.37.120.206.74) | - | - | High
-32 | [37.120.247.13](https://vuldb.com/?ip.37.120.247.13) | - | - | High
-33 | [37.139.129.115](https://vuldb.com/?ip.37.139.129.115) | - | - | High
-34 | [37.221.114.90](https://vuldb.com/?ip.37.221.114.90) | - | - | High
-35 | [38.62.245.18](https://vuldb.com/?ip.38.62.245.18) | Seak.eleganceprettylook.com | - | High
-36 | [38.62.245.19](https://vuldb.com/?ip.38.62.245.19) | Milk.eleganceprettylook.com | - | High
-37 | [45.9.73.82](https://vuldb.com/?ip.45.9.73.82) | vm2618896.firstbyte.club | - | High
-38 | [45.9.168.40](https://vuldb.com/?ip.45.9.168.40) | - | - | High
-39 | [45.12.253.130](https://vuldb.com/?ip.45.12.253.130) | - | - | High
-40 | [45.61.168.73](https://vuldb.com/?ip.45.61.168.73) | - | - | High
-41 | [45.66.230.68](https://vuldb.com/?ip.45.66.230.68) | - | - | High
-42 | [45.66.230.138](https://vuldb.com/?ip.45.66.230.138) | - | - | High
-43 | [45.87.61.211](https://vuldb.com/?ip.45.87.61.211) | - | - | High
-44 | [45.88.67.63](https://vuldb.com/?ip.45.88.67.63) | - | - | High
-45 | [45.88.67.229](https://vuldb.com/?ip.45.88.67.229) | - | - | High
-46 | [45.95.169.160](https://vuldb.com/?ip.45.95.169.160) | - | - | High
-47 | [45.95.169.162](https://vuldb.com/?ip.45.95.169.162) | - | - | High
-48 | [45.128.36.178](https://vuldb.com/?ip.45.128.36.178) | - | - | High
-49 | [45.133.1.47](https://vuldb.com/?ip.45.133.1.47) | - | - | High
-50 | [45.133.1.72](https://vuldb.com/?ip.45.133.1.72) | - | - | High
-51 | [45.133.174.157](https://vuldb.com/?ip.45.133.174.157) | - | - | High
-52 | [45.137.22.62](https://vuldb.com/?ip.45.137.22.62) | hosted-by.rootlayer.net | - | High
-53 | [45.137.22.89](https://vuldb.com/?ip.45.137.22.89) | hosted-by.rootlayer.net | - | High
-54 | [45.137.22.108](https://vuldb.com/?ip.45.137.22.108) | hosted-by.rootlayer.net | - | High
-55 | [45.137.22.131](https://vuldb.com/?ip.45.137.22.131) | hosted-by.rootlayer.net | - | High
-56 | [45.137.22.141](https://vuldb.com/?ip.45.137.22.141) | hosted-by.rootlayer.net | - | High
-57 | [45.137.22.150](https://vuldb.com/?ip.45.137.22.150) | hosted-by.rootlayer.net | - | High
-58 | [45.137.22.170](https://vuldb.com/?ip.45.137.22.170) | hosted-by.rootlayer.net | - | High
-59 | [45.137.22.173](https://vuldb.com/?ip.45.137.22.173) | hosted-by.rootlayer.net | - | High
-60 | [45.137.22.182](https://vuldb.com/?ip.45.137.22.182) | hosted-by.rootlayer.net | - | High
-61 | ... | ... | ... | ...
+31 | [37.120.199.54](https://vuldb.com/?ip.37.120.199.54) | - | - | High
+32 | [37.120.206.74](https://vuldb.com/?ip.37.120.206.74) | - | - | High
+33 | [37.120.247.13](https://vuldb.com/?ip.37.120.247.13) | - | - | High
+34 | [37.139.129.115](https://vuldb.com/?ip.37.139.129.115) | - | - | High
+35 | [37.221.114.90](https://vuldb.com/?ip.37.221.114.90) | - | - | High
+36 | [38.62.245.18](https://vuldb.com/?ip.38.62.245.18) | Seak.eleganceprettylook.com | - | High
+37 | [38.62.245.19](https://vuldb.com/?ip.38.62.245.19) | Milk.eleganceprettylook.com | - | High
+38 | [45.9.73.82](https://vuldb.com/?ip.45.9.73.82) | vm2618896.firstbyte.club | - | High
+39 | [45.9.168.40](https://vuldb.com/?ip.45.9.168.40) | - | - | High
+40 | [45.12.253.130](https://vuldb.com/?ip.45.12.253.130) | - | - | High
+41 | [45.61.168.73](https://vuldb.com/?ip.45.61.168.73) | - | - | High
+42 | [45.66.230.68](https://vuldb.com/?ip.45.66.230.68) | - | - | High
+43 | [45.66.230.138](https://vuldb.com/?ip.45.66.230.138) | - | - | High
+44 | [45.87.61.211](https://vuldb.com/?ip.45.87.61.211) | - | - | High
+45 | [45.88.67.63](https://vuldb.com/?ip.45.88.67.63) | - | - | High
+46 | [45.88.67.229](https://vuldb.com/?ip.45.88.67.229) | - | - | High
+47 | [45.95.169.160](https://vuldb.com/?ip.45.95.169.160) | - | - | High
+48 | [45.95.169.162](https://vuldb.com/?ip.45.95.169.162) | - | - | High
+49 | [45.128.36.178](https://vuldb.com/?ip.45.128.36.178) | - | - | High
+50 | [45.133.1.47](https://vuldb.com/?ip.45.133.1.47) | - | - | High
+51 | [45.133.1.72](https://vuldb.com/?ip.45.133.1.72) | - | - | High
+52 | [45.133.174.157](https://vuldb.com/?ip.45.133.174.157) | - | - | High
+53 | [45.137.22.62](https://vuldb.com/?ip.45.137.22.62) | hosted-by.rootlayer.net | - | High
+54 | [45.137.22.89](https://vuldb.com/?ip.45.137.22.89) | hosted-by.rootlayer.net | - | High
+55 | [45.137.22.108](https://vuldb.com/?ip.45.137.22.108) | hosted-by.rootlayer.net | - | High
+56 | [45.137.22.131](https://vuldb.com/?ip.45.137.22.131) | hosted-by.rootlayer.net | - | High
+57 | [45.137.22.141](https://vuldb.com/?ip.45.137.22.141) | hosted-by.rootlayer.net | - | High
+58 | [45.137.22.150](https://vuldb.com/?ip.45.137.22.150) | hosted-by.rootlayer.net | - | High
+59 | [45.137.22.170](https://vuldb.com/?ip.45.137.22.170) | hosted-by.rootlayer.net | - | High
+60 | [45.137.22.173](https://vuldb.com/?ip.45.137.22.173) | hosted-by.rootlayer.net | - | High
+61 | [45.137.22.182](https://vuldb.com/?ip.45.137.22.182) | hosted-by.rootlayer.net | - | High
+62 | ... | ... | ... | ...
 
-There are 242 more IOC items available. Please use our online service to access the data.
+There are 243 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -91,13 +92,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80, CWE-85 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 15 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -108,22 +109,25 @@ ID | Type | Indicator | Confidence
 1 | File | `/bbdms/sign-up.php` | High
 2 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
 3 | File | `/catalog/all-products` | High
-4 | File | `/changePassword` | High
-5 | File | `/forum/away.php` | High
-6 | File | `/goform/addIpMacBind` | High
-7 | File | `/goform/DelDhcpRule` | High
-8 | File | `/goform/delIpMacBind` | High
-9 | File | `/goform/DelPortMapping` | High
-10 | File | `/goform/modifyDhcpRule` | High
-11 | File | `/goform/modifyIpMacBind` | High
-12 | ... | ... | ...
+4 | File | `/cgi-bin/wlogin.cgi` | High
+5 | File | `/changePassword` | High
+6 | File | `/forum/away.php` | High
+7 | File | `/goform/addIpMacBind` | High
+8 | File | `/goform/DelDhcpRule` | High
+9 | File | `/goform/delIpMacBind` | High
+10 | File | `/goform/DelPortMapping` | High
+11 | File | `/goform/modifyDhcpRule` | High
+12 | File | `/goform/modifyIpMacBind` | High
+13 | File | `/goform/setBlackRule` | High
+14 | ... | ... | ...
 
-There are 93 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 108 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://bazaar.abuse.ch/sample/0a830444a8c87e98ea93f7e726ecf1aa22aa07799bf6d374edc2c5dfdde511f9/
 * https://bazaar.abuse.ch/sample/0661c14ba768362038628b03491d28010012a8078ec14d2c6428aec2e6b4ecde/
 * https://bazaar.abuse.ch/sample/7bd8097de078f21e7f97dc04fac6ed6a4d7bc042934e2ec179706838303efe2f/
 * https://bazaar.abuse.ch/sample/685549196c77e82e6273752a6fe522ee18da8076f0029ad8232c6e0d36853675/

@@ -31,7 +31,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-24, CWE-29 | Path Traversal | High
+1 | T1006 | CWE-22, CWE-24, CWE-29, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
@@ -52,44 +52,46 @@ ID | Type | Indicator | Confidence
 4 | File | `/admin/list_ipAddressPolicy.php` | High
 5 | File | `/admin/subject.php` | High
 6 | File | `/api/runscript` | High
-7 | File | `/api/v1/snapshots` | High
-8 | File | `/auth/auth.php?user=1` | High
-9 | File | `/boaform/device_reset.cgi` | High
-10 | File | `/cgi-bin/cstecgi.cgi` | High
-11 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-12 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
-13 | File | `/cgi-bin/nas_sharing.cgi` | High
-14 | File | `/cgi-bin/system_mgr.cgi` | High
-15 | File | `/cgi-bin/wlogin.cgi` | High
-16 | File | `/cgi/cpaddons_report.pl` | High
-17 | File | `/common/dict/list` | High
-18 | File | `/debug/pprof` | Medium
-19 | File | `/DXR.axd` | Medium
-20 | File | `/forum/away.php` | High
-21 | File | `/goform/DhcpListClient` | High
-22 | File | `/goform/goform_get_cmd_process` | High
-23 | File | `/HNAP1/` | Low
-24 | File | `/hrm/leaverequest.php` | High
-25 | File | `/importexport.php` | High
-26 | File | `/install/` | Medium
-27 | File | `/Interface/DevManage/VM.php` | High
-28 | File | `/main/doctype.php` | High
-29 | File | `/main/webservices/additional_webservices.php` | High
-30 | File | `/mc` | Low
-31 | File | `/me` | Low
-32 | File | `/ndmComponents.js` | High
-33 | File | `/net/bluetooth/rfcomm/core.C` | High
-34 | File | `/oauth/idp/.well-known/openid-configuration` | High
-35 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-36 | File | `/pdf` | Low
-37 | File | `/register.php` | High
-38 | File | `/registrar/` | Medium
-39 | File | `/remote/put_file` | High
-40 | File | `/setting/NTPSyncWithHost` | High
-41 | File | `/spip.php` | Medium
-42 | ... | ... | ...
+7 | File | `/api/snapshots/` | High
+8 | File | `/api/v1/snapshots` | High
+9 | File | `/api/v2/maps` | Medium
+10 | File | `/auth/auth.php?user=1` | High
+11 | File | `/boaform/device_reset.cgi` | High
+12 | File | `/cgi-bin/cstecgi.cgi` | High
+13 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+14 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
+15 | File | `/cgi-bin/nas_sharing.cgi` | High
+16 | File | `/cgi-bin/system_mgr.cgi` | High
+17 | File | `/cgi-bin/wlogin.cgi` | High
+18 | File | `/cgi/cpaddons_report.pl` | High
+19 | File | `/common/dict/list` | High
+20 | File | `/debug/pprof` | Medium
+21 | File | `/DXR.axd` | Medium
+22 | File | `/forum/away.php` | High
+23 | File | `/goform/DhcpListClient` | High
+24 | File | `/goform/goform_get_cmd_process` | High
+25 | File | `/HNAP1/` | Low
+26 | File | `/hrm/leaverequest.php` | High
+27 | File | `/importexport.php` | High
+28 | File | `/install/` | Medium
+29 | File | `/Interface/DevManage/VM.php` | High
+30 | File | `/main/doctype.php` | High
+31 | File | `/main/webservices/additional_webservices.php` | High
+32 | File | `/mc` | Low
+33 | File | `/me` | Low
+34 | File | `/ndmComponents.js` | High
+35 | File | `/net/bluetooth/rfcomm/core.C` | High
+36 | File | `/oauth/idp/.well-known/openid-configuration` | High
+37 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+38 | File | `/pdf` | Low
+39 | File | `/register.php` | High
+40 | File | `/registrar/` | Medium
+41 | File | `/remote/put_file` | High
+42 | File | `/setting/NTPSyncWithHost` | High
+43 | File | `/spip.php` | Medium
+44 | ... | ... | ...
 
-There are 359 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 379 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

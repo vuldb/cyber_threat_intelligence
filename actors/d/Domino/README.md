@@ -75,9 +75,10 @@ ID | Type | Indicator | Confidence
 24 | File | `/scripts/unlock_tasks.php` | High
 25 | File | `/secure/QueryComponent!Default.jspa` | High
 26 | File | `/ServletAPI/accounts/login` | High
-27 | ... | ... | ...
+27 | File | `/setNTP.cgi` | Medium
+28 | ... | ... | ...
 
-There are 231 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 232 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

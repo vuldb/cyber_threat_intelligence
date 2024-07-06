@@ -46,9 +46,10 @@ ID | IP address | Hostname | Campaign | Confidence
 23 | [45.154.98.21](https://vuldb.com/?ip.45.154.98.21) | 45.154.98.21.powered.by.rdp.sh | - | High
 24 | [46.21.157.142](https://vuldb.com/?ip.46.21.157.142) | 142.157.21.46.inferno.name | - | High
 25 | [46.173.215.132](https://vuldb.com/?ip.46.173.215.132) | - | - | High
-26 | ... | ... | ... | ...
+26 | [47.252.33.131](https://vuldb.com/?ip.47.252.33.131) | - | - | High
+27 | ... | ... | ... | ...
 
-There are 100 more IOC items available. Please use our online service to access the data.
+There are 102 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -56,14 +57,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-25, CWE-29, CWE-36, CWE-425 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-29, CWE-36, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -72,55 +73,56 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/#ilang=DE&b=c_smartenergy_swgroups` | High
-2 | File | `/Account/login.php` | High
-3 | File | `/admin/` | Low
-4 | File | `/Admin/changepassword.php` | High
-5 | File | `/admin/general-setting` | High
-6 | File | `/admin/list_ipAddressPolicy.php` | High
-7 | File | `/admin/service` | High
-8 | File | `/adminapi/system/crud` | High
-9 | File | `/adminapi/system/file/openfile` | High
-10 | File | `/adminPage/conf/reload` | High
-11 | File | `/admin_route/dec_service_credits.php` | High
-12 | File | `/api/runscript` | High
-13 | File | `/api/v1/custom_component` | High
-14 | File | `/api/v1/snapshots` | High
-15 | File | `/api/v2/maps` | Medium
-16 | File | `/api/v4/teams//channels/deleted` | High
-17 | File | `/api/wechat/app_auth` | High
-18 | File | `/cancel.php` | Medium
-19 | File | `/category.php` | High
-20 | File | `/cgi-bin/cstecgi.cgi` | High
-21 | File | `/cgi-bin/nas_sharing.cgi` | High
-22 | File | `/cgi-bin/system_mgr.cgi` | High
-23 | File | `/cgi-bin/wlogin.cgi` | High
-24 | File | `/classes/Users.php?f=delete` | High
-25 | File | `/common/dict/list` | High
-26 | File | `/control/register_case.php` | High
-27 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
-28 | File | `/devinfo` | Medium
-29 | File | `/download` | Medium
-30 | File | `/forum/away.php` | High
-31 | File | `/goform/DhcpListClient` | High
-32 | File | `/hrm/leaverequest.php` | High
-33 | File | `/index.jsp#settings` | High
-34 | File | `/index.php` | Medium
-35 | File | `/install/` | Medium
-36 | File | `/Interface/DevManage/VM.php` | High
-37 | File | `/labvantage/rc?command=page&page=SampleList&_iframename=list` | High
-38 | File | `/main/webservices/additional_webservices.php` | High
-39 | File | `/mfsNotice/page` | High
-40 | File | `/ndmComponents.js` | High
-41 | File | `/net/bluetooth/rfcomm/core.C` | High
-42 | File | `/novel/userFeedback/list` | High
-43 | File | `/one_church/churchprofile.php` | High
-44 | File | `/pdf` | Low
-45 | File | `/php/ping.php` | High
-46 | File | `/register.php` | High
-47 | File | `/registrar/` | Medium
-48 | ... | ... | ...
+2 | File | `/.pomerium` | Medium
+3 | File | `/Account/login.php` | High
+4 | File | `/admin/` | Low
+5 | File | `/admin/ajax.php?action=delete_user` | High
+6 | File | `/Admin/changepassword.php` | High
+7 | File | `/admin/general-setting` | High
+8 | File | `/admin/inquiries/view_inquiry.php` | High
+9 | File | `/admin/list_ipAddressPolicy.php` | High
+10 | File | `/admin/projects/{projectname}/skills/{skillname}/video` | High
+11 | File | `/admin/service` | High
+12 | File | `/adminapi/system/crud` | High
+13 | File | `/adminapi/system/file/openfile` | High
+14 | File | `/adminPage/conf/reload` | High
+15 | File | `/admin_route/dec_service_credits.php` | High
+16 | File | `/api/runscript` | High
+17 | File | `/api/snapshots/` | High
+18 | File | `/api/v1/custom_component` | High
+19 | File | `/api/v1/snapshots` | High
+20 | File | `/api/v2/maps` | Medium
+21 | File | `/api/wechat/app_auth` | High
+22 | File | `/cancel.php` | Medium
+23 | File | `/category.php` | High
+24 | File | `/cgi-bin/cstecgi.cgi` | High
+25 | File | `/cgi-bin/nas_sharing.cgi` | High
+26 | File | `/cgi-bin/system_mgr.cgi` | High
+27 | File | `/cgi-bin/wlogin.cgi` | High
+28 | File | `/classes/Master.php?f=delete_category` | High
+29 | File | `/classes/Master.php?f=save_medicine` | High
+30 | File | `/classes/Users.php?f=delete` | High
+31 | File | `/common/dict/list` | High
+32 | File | `/control/register_case.php` | High
+33 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
+34 | File | `/download` | Medium
+35 | File | `/etc/shadow` | Medium
+36 | File | `/forum/away.php` | High
+37 | File | `/goform/DhcpListClient` | High
+38 | File | `/goform/WifiExtraSet` | High
+39 | File | `/hrm/leaverequest.php` | High
+40 | File | `/index.jsp#settings` | High
+41 | File | `/index.php` | Medium
+42 | File | `/install/` | Medium
+43 | File | `/Interface/DevManage/VM.php` | High
+44 | File | `/js/player/dmplayer/dmku/?ac=edit` | High
+45 | File | `/labvantage/rc?command=page&page=SampleHistoricalList&_iframename=list&__crc=crc_1701669816260` | High
+46 | File | `/labvantage/rc?command=page&page=SampleList&_iframename=list` | High
+47 | File | `/main/webservices/additional_webservices.php` | High
+48 | File | `/mfsNotice/page` | High
+49 | ... | ... | ...
 
-There are 413 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 425 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -169,6 +171,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://tria.ge/240410-pgqm6sfc77/behavioral1
 * https://tria.ge/240410-w88fmagb53/behavioral1
 * https://tria.ge/240416-rnhbgsdg2x/behavioral3
+* https://tria.ge/240627-byny1swama/behavioral2
 * https://twitter.com/0xw4ifu/status/1714738953016746247
 * https://twitter.com/500mk500/status/1786855945684787485
 * https://twitter.com/AnFam17/status/1701963227955945552

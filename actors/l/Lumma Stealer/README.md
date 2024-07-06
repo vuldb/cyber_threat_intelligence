@@ -78,20 +78,20 @@ ID | Type | Indicator | Confidence
 22 | File | `/student/bookdetails.php` | High
 23 | File | `/SysInfo1.htm` | High
 24 | File | `/sysinfo_json.cgi` | High
-25 | File | `/system/user/modules/mod_users/controller.php` | High
-26 | File | `/uncpath/` | Medium
-27 | File | `/usr/local/psa/admin/sbin/wrapper` | High
-28 | File | `/version.js` | Medium
-29 | File | `/view/vpn/autovpn/sub_commit.php` | High
-30 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
-31 | File | `123flashchat.php` | High
-32 | File | `account.asp` | Medium
-33 | File | `addguest.cgi` | Medium
-34 | File | `admin.jcomments.php` | High
-35 | File | `admin.php` | Medium
+25 | File | `/system/dictData/loadDictItem` | High
+26 | File | `/system/user/modules/mod_users/controller.php` | High
+27 | File | `/uncpath/` | Medium
+28 | File | `/usr/local/psa/admin/sbin/wrapper` | High
+29 | File | `/version.js` | Medium
+30 | File | `/view/vpn/autovpn/sub_commit.php` | High
+31 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
+32 | File | `123flashchat.php` | High
+33 | File | `account.asp` | Medium
+34 | File | `addguest.cgi` | Medium
+35 | File | `admin.jcomments.php` | High
 36 | ... | ... | ...
 
-There are 306 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 308 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

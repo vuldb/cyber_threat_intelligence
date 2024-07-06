@@ -33,8 +33,7 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+5 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
 
@@ -71,11 +70,11 @@ ID | Type | Indicator | Confidence
 25 | File | `/classes/Login.php` | High
 26 | File | `/classes/Users.php` | High
 27 | File | `/core/config-revisions` | High
-28 | File | `/core/redirect` | High
-29 | File | `/DesignTools/CssEditor.aspx` | High
-30 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
-31 | File | `/DXR.axd` | Medium
-32 | File | `/ECT_Provider/` | High
+28 | File | `/DesignTools/CssEditor.aspx` | High
+29 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
+30 | File | `/DXR.axd` | Medium
+31 | File | `/ECT_Provider/` | High
+32 | File | `/edit/server` | Medium
 33 | File | `/Employer/EditProfile.php` | High
 34 | File | `/endpoint/delete-todo.php` | High
 35 | File | `/EXCU_SHELL` | Medium
@@ -84,18 +83,18 @@ ID | Type | Indicator | Confidence
 38 | File | `/forum/away.php` | High
 39 | File | `/general/attendance/manage/ask_duty/delete.php` | High
 40 | File | `/goform/` | Medium
-41 | File | `/goform/WifiMacFilterGet` | High
-42 | File | `/goform/wifiSSIDset` | High
-43 | File | `/h/autoSaveDraft` | High
-44 | File | `/home.php` | Medium
-45 | File | `/Home/Index` | Medium
-46 | File | `/hrm/leaverequest.php` | High
-47 | File | `/inc/modules_install.php` | High
-48 | File | `/index.php` | Medium
-49 | File | `/index.php?app=main&func=passport&action=login` | High
+41 | File | `/h/autoSaveDraft` | High
+42 | File | `/home.php` | Medium
+43 | File | `/Home/Index` | Medium
+44 | File | `/hrm/leaverequest.php` | High
+45 | File | `/inc/modules_install.php` | High
+46 | File | `/index.php` | Medium
+47 | File | `/index.php?pluginApp/to/yzOffice/getFile` | High
+48 | File | `/itbox_pi/vpn_quickset_service.php?a=set_vpn` | High
+49 | File | `/librarian/bookdetails.php` | High
 50 | ... | ... | ...
 
-There are 432 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 434 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

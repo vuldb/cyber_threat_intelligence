@@ -63,11 +63,12 @@ ID | IP address | Hostname | Campaign | Confidence
 40 | [42.114.153.12](https://vuldb.com/?ip.42.114.153.12) | - | - | High
 41 | [42.114.153.115](https://vuldb.com/?ip.42.114.153.115) | - | - | High
 42 | [42.117.36.184](https://vuldb.com/?ip.42.117.36.184) | - | - | High
-43 | [45.94.31.205](https://vuldb.com/?ip.45.94.31.205) | - | - | High
-44 | [45.146.253.103](https://vuldb.com/?ip.45.146.253.103) | rs-zap868892-1.zap-srv.com | - | High
-45 | ... | ... | ... | ...
+43 | [45.88.91.213](https://vuldb.com/?ip.45.88.91.213) | - | - | High
+44 | [45.94.31.205](https://vuldb.com/?ip.45.94.31.205) | - | - | High
+45 | [45.146.253.103](https://vuldb.com/?ip.45.146.253.103) | rs-zap868892-1.zap-srv.com | - | High
+46 | ... | ... | ... | ...
 
-There are 174 more IOC items available. Please use our online service to access the data.
+There are 178 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -78,7 +79,8 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-22, CWE-23 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
-4 | ... | ... | ... | ...
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
 There are 14 more TTP items available. Please use our online service to access the data.
 
@@ -107,23 +109,23 @@ ID | Type | Indicator | Confidence
 17 | File | `/student/bookdetails.php` | High
 18 | File | `/SysInfo1.htm` | High
 19 | File | `/sysinfo_json.cgi` | High
-20 | File | `/system/user/modules/mod_users/controller.php` | High
-21 | File | `/view/vpn/autovpn/sub_commit.php` | High
-22 | File | `/whbs/?page=manage_account` | High
-23 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
-24 | File | `account.asp` | Medium
-25 | File | `admin.php` | Medium
-26 | File | `admin.php/comments/batchdel/` | High
-27 | File | `admin.php/User/del/ucode/` | High
-28 | File | `admin.php?c=a_adminuser&a=add&run=1` | High
-29 | File | `admin.php?m=Member&a=adminaddsave` | High
-30 | File | `admin/?/layout/edit/1` | High
-31 | File | `admin/?/page/edit/1` | High
-32 | File | `admin/?/plugin/file_manager` | High
-33 | File | `admin/?/snippet/edit/1` | High
+20 | File | `/system/dictData/loadDictItem` | High
+21 | File | `/system/user/modules/mod_users/controller.php` | High
+22 | File | `/view/vpn/autovpn/sub_commit.php` | High
+23 | File | `/whbs/?page=manage_account` | High
+24 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
+25 | File | `account.asp` | Medium
+26 | File | `admin.php` | Medium
+27 | File | `admin.php/comments/batchdel/` | High
+28 | File | `admin.php/User/del/ucode/` | High
+29 | File | `admin.php?c=a_adminuser&a=add&run=1` | High
+30 | File | `admin.php?m=Member&a=adminaddsave` | High
+31 | File | `admin/?/layout/edit/1` | High
+32 | File | `admin/?/page/edit/1` | High
+33 | File | `admin/?/plugin/file_manager` | High
 34 | ... | ... | ...
 
-There are 286 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 288 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

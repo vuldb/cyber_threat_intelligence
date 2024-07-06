@@ -34,7 +34,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-36 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-26, CWE-36 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
@@ -42,7 +42,7 @@ ID | Technique | Weakness | Description | Confidence
 6 | T1068 | CWE-250, CWE-264, CWE-269, CWE-272, CWE-284 | Execution with Unnecessary Privileges | High
 7 | ... | ... | ... | ...
 
-There are 23 more TTP items available. Please use our online service to access the data.
+There are 24 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -84,17 +84,17 @@ ID | Type | Indicator | Confidence
 32 | File | `/classes/Master.php?f=save_inquiry` | High
 33 | File | `/collection/all` | High
 34 | File | `/ConfigFile.ini` | High
-35 | File | `/Core/Ap4Descriptor.h` | High
-36 | File | `/core/tools/update_contact_form_settings.php` | High
-37 | File | `/dataSet/testTransform;swagger-ui` | High
-38 | File | `/dl/dl_sendmail.php` | High
-39 | File | `/ecommerce/support_ticket` | High
-40 | File | `/files` | Low
-41 | File | `/gasmark/assets/myimages/oneWord.php` | High
-42 | File | `/goform/aspForm` | High
+35 | File | `/core/tools/update_contact_form_settings.php` | High
+36 | File | `/dataSet/testTransform;swagger-ui` | High
+37 | File | `/dl/dl_sendmail.php` | High
+38 | File | `/ecommerce/support_ticket` | High
+39 | File | `/files` | Low
+40 | File | `/gasmark/assets/myimages/oneWord.php` | High
+41 | File | `/goform/aspForm` | High
+42 | File | `/goform/CertListInfo` | High
 43 | ... | ... | ...
 
-There are 367 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 368 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

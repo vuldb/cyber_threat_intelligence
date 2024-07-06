@@ -149,13 +149,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 5 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -171,11 +171,11 @@ ID | Type | Indicator | Confidence
 6 | File | `/api/sys/set_passwd` | High
 7 | File | `/api/v1` | Low
 8 | File | `/app/Http/Controllers/ImageController.php` | High
-9 | File | `/as/authorization.oauth2` | High
-10 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-11 | File | `/catalog/all-products` | High
-12 | File | `/cgi-bin/nas_sharing.cgi` | High
-13 | File | `/changePassword` | High
+9 | File | `/app/uploading/upload-mp3.php` | High
+10 | File | `/as/authorization.oauth2` | High
+11 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+12 | File | `/catalog/all-products` | High
+13 | File | `/cgi-bin/nas_sharing.cgi` | High
 14 | File | `/core/config-revisions` | High
 15 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
 16 | File | `/DXR.axd` | Medium
@@ -184,9 +184,13 @@ ID | Type | Indicator | Confidence
 19 | File | `/forum/away.php` | High
 20 | File | `/goform/SetSysTimeCfg` | High
 21 | File | `/hrm/leaverequest.php` | High
-22 | ... | ... | ...
+22 | File | `/index.php?pluginApp/to/yzOffice/getFile` | High
+23 | File | `/lesson/controller.php` | High
+24 | File | `/librarian/bookdetails.php` | High
+25 | File | `/manage_sy.php` | High
+26 | ... | ... | ...
 
-There are 187 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 219 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

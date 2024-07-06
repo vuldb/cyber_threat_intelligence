@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [LA](https://vuldb.com/?country.la)
 * ...
 
-There are 22 more country items available. Please use our online service to access the data.
+There are 21 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -83,10 +83,10 @@ ID | IP address | Hostname | Campaign | Confidence
 60 | [77.91.77.51](https://vuldb.com/?ip.77.91.77.51) | - | - | High
 61 | [77.91.77.65](https://vuldb.com/?ip.77.91.77.65) | - | - | High
 62 | [77.91.77.66](https://vuldb.com/?ip.77.91.77.66) | - | - | High
-63 | [77.91.77.95](https://vuldb.com/?ip.77.91.77.95) | - | - | High
+63 | [77.91.77.81](https://vuldb.com/?ip.77.91.77.81) | - | - | High
 64 | ... | ... | ... | ...
 
-There are 251 more IOC items available. Please use our online service to access the data.
+There are 254 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -94,7 +94,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-25, CWE-36, CWE-425 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-25, CWE-29, CWE-36, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
@@ -111,62 +111,63 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `%SYSTEMDRIVE%\node_modules\.bin\wmic.exe` | High
 2 | File | `/#ilang=DE&b=c_smartenergy_swgroups` | High
-3 | File | `/Account/login.php` | High
-4 | File | `/admin/` | Low
-5 | File | `/Admin/changepassword.php` | High
-6 | File | `/admin/general-setting` | High
-7 | File | `/admin/service` | High
-8 | File | `/adminapi/system/crud` | High
-9 | File | `/adminapi/system/file/openfile` | High
-10 | File | `/adminPage/conf/reload` | High
-11 | File | `/admin_route/dec_service_credits.php` | High
-12 | File | `/api/v1/custom_component` | High
-13 | File | `/api/v4/teams//channels/deleted` | High
-14 | File | `/api/wechat/app_auth` | High
-15 | File | `/app/api/controller/default/Sqlite.php` | High
-16 | File | `/b2b-supermarket/shopping-cart` | High
-17 | File | `/cancel.php` | Medium
-18 | File | `/category.php` | High
-19 | File | `/cgi-bin/cstecgi.cgi` | High
-20 | File | `/change-language/de_DE` | High
-21 | File | `/classes/Users.php?f=delete` | High
-22 | File | `/context/%2e/WEB-INF/web.xml` | High
-23 | File | `/control/register_case.php` | High
-24 | File | `/controller.php` | High
-25 | File | `/debug/pprof` | Medium
-26 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
-27 | File | `/devinfo` | Medium
-28 | File | `/dist/index.js` | High
-29 | File | `/download` | Medium
-30 | File | `/forum/away.php` | High
-31 | File | `/geoserver/gwc/rest.html` | High
-32 | File | `/goform/formSysCmd` | High
-33 | File | `/goform/WifiExtraSet` | High
-34 | File | `/hosts/firewall/ip` | High
-35 | File | `/idm/includes/helpServer.jsp` | High
-36 | File | `/index.jsp#settings` | High
-37 | File | `/index.php` | Medium
-38 | File | `/index.php/ccm/system/file/upload` | High
-39 | File | `/labvantage/rc?command=page&page=SampleList&_iframename=list` | High
-40 | File | `/lan.asp` | Medium
-41 | File | `/log/decodmail.php` | High
-42 | File | `/mfsNotice/page` | High
-43 | File | `/ndmComponents.js` | High
-44 | File | `/novel/bookSetting/list` | High
-45 | File | `/novel/userFeedback/list` | High
-46 | File | `/oauth/idp/.well-known/openid-configuration` | High
-47 | File | `/one_church/churchprofile.php` | High
-48 | File | `/php/ping.php` | High
-49 | File | `/process/aprocess.php` | High
-50 | File | `/process/eprocess.php` | High
-51 | File | `/register.php` | High
-52 | File | `/s/index.php?action=statistics` | High
-53 | File | `/setting` | Medium
-54 | File | `/Setting/change_password_save` | High
-55 | File | `/signup.php` | Medium
-56 | ... | ... | ...
+3 | File | `/.pomerium` | Medium
+4 | File | `/Account/login.php` | High
+5 | File | `/admin/` | Low
+6 | File | `/admin/ajax.php?action=delete_user` | High
+7 | File | `/Admin/changepassword.php` | High
+8 | File | `/admin/general-setting` | High
+9 | File | `/admin/inquiries/view_inquiry.php` | High
+10 | File | `/admin/projects/{projectname}/skills/{skillname}/video` | High
+11 | File | `/admin/service` | High
+12 | File | `/adminapi/system/crud` | High
+13 | File | `/adminapi/system/file/openfile` | High
+14 | File | `/adminPage/conf/reload` | High
+15 | File | `/admin_route/dec_service_credits.php` | High
+16 | File | `/api/v1/custom_component` | High
+17 | File | `/api/v4/teams//channels/deleted` | High
+18 | File | `/api/wechat/app_auth` | High
+19 | File | `/app/api/controller/default/Sqlite.php` | High
+20 | File | `/b2b-supermarket/shopping-cart` | High
+21 | File | `/cancel.php` | Medium
+22 | File | `/category.php` | High
+23 | File | `/cgi-bin/cstecgi.cgi` | High
+24 | File | `/change-language/de_DE` | High
+25 | File | `/classes/Master.php?f=delete_category` | High
+26 | File | `/classes/Master.php?f=save_medicine` | High
+27 | File | `/classes/Users.php?f=delete` | High
+28 | File | `/context/%2e/WEB-INF/web.xml` | High
+29 | File | `/control/register_case.php` | High
+30 | File | `/controller.php` | High
+31 | File | `/debug/pprof` | Medium
+32 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
+33 | File | `/devinfo` | Medium
+34 | File | `/dist/index.js` | High
+35 | File | `/download` | Medium
+36 | File | `/etc/shadow` | Medium
+37 | File | `/forum/away.php` | High
+38 | File | `/goform/formSysCmd` | High
+39 | File | `/goform/WifiExtraSet` | High
+40 | File | `/hosts/firewall/ip` | High
+41 | File | `/idm/includes/helpServer.jsp` | High
+42 | File | `/index.jsp#settings` | High
+43 | File | `/index.php` | Medium
+44 | File | `/index.php/ccm/system/file/upload` | High
+45 | File | `/js/player/dmplayer/dmku/?ac=edit` | High
+46 | File | `/labvantage/rc?command=page&page=SampleHistoricalList&_iframename=list&__crc=crc_1701669816260` | High
+47 | File | `/labvantage/rc?command=page&page=SampleList&_iframename=list` | High
+48 | File | `/lan.asp` | Medium
+49 | File | `/log/decodmail.php` | High
+50 | File | `/mfsNotice/page` | High
+51 | File | `/ndmComponents.js` | High
+52 | File | `/novel/bookSetting/list` | High
+53 | File | `/novel/userFeedback/list` | High
+54 | File | `/oauth/idp/.well-known/openid-configuration` | High
+55 | File | `/one_church/churchprofile.php` | High
+56 | File | `/php/ping.php` | High
+57 | ... | ... | ...
 
-There are 489 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 501 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -178,6 +179,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://app.any.run/tasks/2457181d-fa22-4ef3-b171-6711c7456570
 * https://app.any.run/tasks/a4b98e2a-4e47-436f-a50d-a5d1a0c520d1
 * https://app.any.run/tasks/d1a96aea-a514-4f86-acd7-e9391a8ec959/
+* https://blogs.blackberry.com/en/2024/06/threat-analysis-insight-risepro-information-stealer
 * https://search.censys.io/hosts/5.42.96.100
 * https://search.censys.io/hosts/5.188.159.44
 * https://search.censys.io/hosts/37.27.22.139
@@ -268,6 +270,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://tracker.viriback.com/index.php?q=45.15.159.248
 * https://tracker.viriback.com/index.php?q=65.21.21.176
 * https://tracker.viriback.com/index.php?q=77.91.77.117
+* https://tracker.viriback.com/index.php?q=77.91.77.180
 * https://tracker.viriback.com/index.php?q=91.92.244.67
 * https://tracker.viriback.com/index.php?q=91.92.252.212
 * https://tracker.viriback.com/index.php?q=91.103.253.146

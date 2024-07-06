@@ -21,7 +21,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [VN](https://vuldb.com/?country.vn)
 * [RO](https://vuldb.com/?country.ro)
-* [GB](https://vuldb.com/?country.gb)
+* [US](https://vuldb.com/?country.us)
 * ...
 
 There are 4 more country items available. Please use our online service to access the data.
@@ -111,7 +111,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 5 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -130,50 +130,49 @@ ID | Type | Indicator | Confidence
 9 | File | `/admin/suppliers/view_details.php` | High
 10 | File | `/admin/user/controller.php` | High
 11 | File | `/adminPage/main/upload` | High
-12 | File | `/admin_ping.htm` | High
-13 | File | `/api/sys/set_passwd` | High
-14 | File | `/api/v1` | Low
-15 | File | `/application/index/controller/Databasesource.php` | High
-16 | File | `/application/index/controller/Icon.php` | High
-17 | File | `/application/index/controller/Screen.php` | High
-18 | File | `/application/plugins/controller/Upload.php` | High
-19 | File | `/apps/reg_go.php` | High
-20 | File | `/billing/bill/edit/` | High
-21 | File | `/cgi-bin/cstecgi.cgi` | High
-22 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
-23 | File | `/cgi-bin/info.cgi` | High
-24 | File | `/cgi-bin/mainfunction.cgi` | High
-25 | File | `/cgi-bin/nas_sharing.cgi` | High
-26 | File | `/cgi-bin/system_mgr.cgi` | High
-27 | File | `/cgi-bin/wlogin.cgi` | High
-28 | File | `/classes/Login.php` | High
-29 | File | `/classes/Users.php` | High
-30 | File | `/classes/Users.php?f=delete` | High
-31 | File | `/core/config-revisions` | High
-32 | File | `/dashboard/message` | High
-33 | File | `/DesignTools/CssEditor.aspx` | High
-34 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
-35 | File | `/DXR.axd` | Medium
-36 | File | `/ECT_Provider/` | High
-37 | File | `/Employer/EditProfile.php` | High
-38 | File | `/endpoint/delete-todo.php` | High
-39 | File | `/EXCU_SHELL` | Medium
-40 | File | `/fax/fax_send.php` | High
-41 | File | `/finance/help/en/frameset.htm` | High
-42 | File | `/forum/away.php` | High
-43 | File | `/general/attendance/manage/ask_duty/delete.php` | High
-44 | File | `/goform/` | Medium
-45 | File | `/goform/execCommand` | High
-46 | File | `/goform/expandDlnaFile` | High
-47 | File | `/goform/fast_setting_wifi_set` | High
-48 | File | `/goform/SetSysTimeCfg` | High
-49 | File | `/goform/SysToolRestoreSet` | High
-50 | File | `/goform/WifiWpsStart` | High
-51 | File | `/h/autoSaveDraft` | High
-52 | File | `/home.php` | Medium
-53 | ... | ... | ...
+12 | File | `/api/sys/set_passwd` | High
+13 | File | `/api/v1` | Low
+14 | File | `/apps/reg_go.php` | High
+15 | File | `/billing/bill/edit/` | High
+16 | File | `/cgi-bin/cstecgi.cgi` | High
+17 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
+18 | File | `/cgi-bin/info.cgi` | High
+19 | File | `/cgi-bin/mainfunction.cgi` | High
+20 | File | `/cgi-bin/nas_sharing.cgi` | High
+21 | File | `/cgi-bin/system_mgr.cgi` | High
+22 | File | `/cgi-bin/wlogin.cgi` | High
+23 | File | `/classes/Login.php` | High
+24 | File | `/classes/Users.php` | High
+25 | File | `/classes/Users.php?f=delete` | High
+26 | File | `/core/config-revisions` | High
+27 | File | `/dashboard/message` | High
+28 | File | `/DesignTools/CssEditor.aspx` | High
+29 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
+30 | File | `/DXR.axd` | Medium
+31 | File | `/ECT_Provider/` | High
+32 | File | `/edit/server` | Medium
+33 | File | `/Employer/EditProfile.php` | High
+34 | File | `/endpoint/delete-todo.php` | High
+35 | File | `/EXCU_SHELL` | Medium
+36 | File | `/fax/fax_send.php` | High
+37 | File | `/finance/help/en/frameset.htm` | High
+38 | File | `/forum/away.php` | High
+39 | File | `/goform/` | Medium
+40 | File | `/goform/execCommand` | High
+41 | File | `/goform/expandDlnaFile` | High
+42 | File | `/goform/fast_setting_wifi_set` | High
+43 | File | `/goform/SetSysTimeCfg` | High
+44 | File | `/goform/SysToolRestoreSet` | High
+45 | File | `/goform/WifiWpsStart` | High
+46 | File | `/h/autoSaveDraft` | High
+47 | File | `/home.php` | Medium
+48 | File | `/Home/Index` | Medium
+49 | File | `/hrm/leaverequest.php` | High
+50 | File | `/inc/modules_install.php` | High
+51 | File | `/index.php` | Medium
+52 | ... | ... | ...
 
-There are 459 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 455 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

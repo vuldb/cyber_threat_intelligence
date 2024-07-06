@@ -72,27 +72,27 @@ ID | Type | Indicator | Confidence
 6 | File | `/forum/away.php` | High
 7 | File | `/modules/registration_admission/patient_register.php` | High
 8 | File | `/ndmComponents.js` | High
-9 | File | `/spip.php` | Medium
-10 | File | `/Tools/tools_admin.htm` | High
-11 | File | `/uncpath/` | Medium
-12 | File | `AccountManager.java` | High
-13 | File | `adclick.php` | Medium
-14 | File | `addentry.php` | Medium
-15 | File | `adm/krgourl.php` | High
-16 | File | `admin.php` | Medium
-17 | File | `admin/conf_users_edit.php` | High
-18 | File | `admin/index.php` | High
-19 | File | `administers` | Medium
-20 | File | `admin_index.php?page=settings` | High
-21 | File | `application\User\Controller\ProfileController.class.php` | High
-22 | File | `awstats.pl` | Medium
-23 | File | `banner-edit.php` | High
-24 | File | `btif_hd.cc` | Medium
-25 | File | `catchsegv` | Medium
-26 | File | `category.cfm` | Medium
+9 | File | `/out.php` | Medium
+10 | File | `/spip.php` | Medium
+11 | File | `/Tools/tools_admin.htm` | High
+12 | File | `/uncpath/` | Medium
+13 | File | `AccountManager.java` | High
+14 | File | `adclick.php` | Medium
+15 | File | `addentry.php` | Medium
+16 | File | `adm/krgourl.php` | High
+17 | File | `admin.php` | Medium
+18 | File | `admin/conf_users_edit.php` | High
+19 | File | `admin/index.php` | High
+20 | File | `administers` | Medium
+21 | File | `admin_index.php?page=settings` | High
+22 | File | `application\User\Controller\ProfileController.class.php` | High
+23 | File | `awstats.pl` | Medium
+24 | File | `banner-edit.php` | High
+25 | File | `btif_hd.cc` | Medium
+26 | File | `catchsegv` | Medium
 27 | ... | ... | ...
 
-There are 223 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 231 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

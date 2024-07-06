@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with NetSupportManager RAT:
 
 * [US](https://vuldb.com/?country.us)
+* [BR](https://vuldb.com/?country.br)
 * [CN](https://vuldb.com/?country.cn)
-* [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 12 more country items available. Please use our online service to access the data.
+There are 13 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -21,53 +21,60 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [5.39.110.142](https://vuldb.com/?ip.5.39.110.142) | ip142.ip-5-39-110.eu | - | High
-2 | [5.42.74.53](https://vuldb.com/?ip.5.42.74.53) | - | - | High
-3 | [5.42.82.229](https://vuldb.com/?ip.5.42.82.229) | - | - | High
-4 | [5.45.72.55](https://vuldb.com/?ip.5.45.72.55) | - | - | High
-5 | [5.45.74.233](https://vuldb.com/?ip.5.45.74.233) | zmta37.corpresponse.com | - | High
-6 | [5.45.83.127](https://vuldb.com/?ip.5.45.83.127) | - | - | High
-7 | [5.79.72.218](https://vuldb.com/?ip.5.79.72.218) | - | - | High
-8 | [5.180.24.160](https://vuldb.com/?ip.5.180.24.160) | vm2306515.stark-industries.solutions | - | High
-9 | [5.181.156.5](https://vuldb.com/?ip.5.181.156.5) | 5-181-156-5.mivocloud.com | - | High
-10 | [5.181.156.11](https://vuldb.com/?ip.5.181.156.11) | no-rdns.mivocloud.com | - | High
-11 | [5.181.156.36](https://vuldb.com/?ip.5.181.156.36) | no-rdns.mivocloud.com | - | High
-12 | [5.181.156.45](https://vuldb.com/?ip.5.181.156.45) | 5-181-156-45.mivocloud.com | - | High
-13 | [5.181.156.60](https://vuldb.com/?ip.5.181.156.60) | 5-181-156-60.mivocloud.com | - | High
-14 | [5.181.156.63](https://vuldb.com/?ip.5.181.156.63) | no-rdns.mivocloud.com | - | High
-15 | [5.181.156.118](https://vuldb.com/?ip.5.181.156.118) | 5-181-156-118.mivocloud.com | - | High
-16 | [5.181.156.177](https://vuldb.com/?ip.5.181.156.177) | no-rdns.mivocloud.com | - | High
-17 | [5.181.156.235](https://vuldb.com/?ip.5.181.156.235) | 5-181-156-235.mivocloud.com | - | High
-18 | [5.181.159.27](https://vuldb.com/?ip.5.181.159.27) | no-rdns.mivocloud.com | - | High
-19 | [5.252.176.69](https://vuldb.com/?ip.5.252.176.69) | 5-252-176-69.mivocloud.com | - | High
-20 | [5.252.177.111](https://vuldb.com/?ip.5.252.177.111) | no-rdns.mivocloud.com | - | High
-21 | [5.252.177.126](https://vuldb.com/?ip.5.252.177.126) | no-rdns.mivocloud.com | - | High
-22 | [5.252.177.214](https://vuldb.com/?ip.5.252.177.214) | no-rdns.mivocloud.com | - | High
-23 | [5.252.178.51](https://vuldb.com/?ip.5.252.178.51) | 5-252-178-51.mivocloud.com | - | High
-24 | [5.252.179.5](https://vuldb.com/?ip.5.252.179.5) | 5-252-179-5.mivocloud.com | - | High
-25 | [5.252.179.13](https://vuldb.com/?ip.5.252.179.13) | 5-252-179-13.mivocloud.com | - | High
-26 | [5.252.179.17](https://vuldb.com/?ip.5.252.179.17) | mail-good-treat.livewirearea.com | - | High
-27 | [5.252.179.50](https://vuldb.com/?ip.5.252.179.50) | no-rdns.mivocloud.com | - | High
-28 | [5.252.179.60](https://vuldb.com/?ip.5.252.179.60) | no-rdns.mivocloud.com | - | High
-29 | [5.252.179.89](https://vuldb.com/?ip.5.252.179.89) | no-rdns.mivocloud.com | - | High
-30 | [5.252.179.93](https://vuldb.com/?ip.5.252.179.93) | no-rdns.mivocloud.com | - | High
-31 | [5.252.179.97](https://vuldb.com/?ip.5.252.179.97) | 5-252-179-97.mivocloud.com | - | High
-32 | [5.252.179.111](https://vuldb.com/?ip.5.252.179.111) | 5-252-179-111.mivocloud.com | - | High
-33 | [23.133.88.190](https://vuldb.com/?ip.23.133.88.190) | - | - | High
-34 | [23.163.0.13](https://vuldb.com/?ip.23.163.0.13) | ht087348.fronews.com | - | High
-35 | [23.170.40.136](https://vuldb.com/?ip.23.170.40.136) | - | - | High
-36 | [23.227.193.80](https://vuldb.com/?ip.23.227.193.80) | 23-227-193-80.static.hvvc.us | - | High
-37 | [37.61.213.242](https://vuldb.com/?ip.37.61.213.242) | - | - | High
-38 | [45.11.180.120](https://vuldb.com/?ip.45.11.180.120) | - | - | High
-39 | [45.11.180.127](https://vuldb.com/?ip.45.11.180.127) | - | - | High
-40 | [45.15.157.144](https://vuldb.com/?ip.45.15.157.144) | - | - | High
-41 | [45.15.158.212](https://vuldb.com/?ip.45.15.158.212) | - | - | High
-42 | [45.61.136.72](https://vuldb.com/?ip.45.61.136.72) | - | - | High
-43 | [45.61.138.73](https://vuldb.com/?ip.45.61.138.73) | - | - | High
-44 | [45.61.147.162](https://vuldb.com/?ip.45.61.147.162) | - | - | High
-45 | ... | ... | ... | ...
+1 | [2.136.235.200](https://vuldb.com/?ip.2.136.235.200) | 200.red-2-136-235.staticip.rima-tde.net | - | High
+2 | [2.139.253.110](https://vuldb.com/?ip.2.139.253.110) | 110.red-2-139-253.staticip.rima-tde.net | - | High
+3 | [5.39.110.142](https://vuldb.com/?ip.5.39.110.142) | ip142.ip-5-39-110.eu | - | High
+4 | [5.42.74.53](https://vuldb.com/?ip.5.42.74.53) | - | - | High
+5 | [5.42.82.229](https://vuldb.com/?ip.5.42.82.229) | - | - | High
+6 | [5.45.72.55](https://vuldb.com/?ip.5.45.72.55) | - | - | High
+7 | [5.45.74.233](https://vuldb.com/?ip.5.45.74.233) | zmta37.corpresponse.com | - | High
+8 | [5.45.83.127](https://vuldb.com/?ip.5.45.83.127) | - | - | High
+9 | [5.79.72.218](https://vuldb.com/?ip.5.79.72.218) | - | - | High
+10 | [5.180.24.160](https://vuldb.com/?ip.5.180.24.160) | vm2306515.stark-industries.solutions | - | High
+11 | [5.181.156.5](https://vuldb.com/?ip.5.181.156.5) | 5-181-156-5.mivocloud.com | - | High
+12 | [5.181.156.11](https://vuldb.com/?ip.5.181.156.11) | no-rdns.mivocloud.com | - | High
+13 | [5.181.156.36](https://vuldb.com/?ip.5.181.156.36) | no-rdns.mivocloud.com | - | High
+14 | [5.181.156.45](https://vuldb.com/?ip.5.181.156.45) | 5-181-156-45.mivocloud.com | - | High
+15 | [5.181.156.60](https://vuldb.com/?ip.5.181.156.60) | 5-181-156-60.mivocloud.com | - | High
+16 | [5.181.156.63](https://vuldb.com/?ip.5.181.156.63) | no-rdns.mivocloud.com | - | High
+17 | [5.181.156.118](https://vuldb.com/?ip.5.181.156.118) | 5-181-156-118.mivocloud.com | - | High
+18 | [5.181.156.177](https://vuldb.com/?ip.5.181.156.177) | no-rdns.mivocloud.com | - | High
+19 | [5.181.156.235](https://vuldb.com/?ip.5.181.156.235) | 5-181-156-235.mivocloud.com | - | High
+20 | [5.181.159.27](https://vuldb.com/?ip.5.181.159.27) | no-rdns.mivocloud.com | - | High
+21 | [5.252.176.69](https://vuldb.com/?ip.5.252.176.69) | 5-252-176-69.mivocloud.com | - | High
+22 | [5.252.177.111](https://vuldb.com/?ip.5.252.177.111) | no-rdns.mivocloud.com | - | High
+23 | [5.252.177.126](https://vuldb.com/?ip.5.252.177.126) | no-rdns.mivocloud.com | - | High
+24 | [5.252.177.214](https://vuldb.com/?ip.5.252.177.214) | no-rdns.mivocloud.com | - | High
+25 | [5.252.178.51](https://vuldb.com/?ip.5.252.178.51) | 5-252-178-51.mivocloud.com | - | High
+26 | [5.252.179.5](https://vuldb.com/?ip.5.252.179.5) | 5-252-179-5.mivocloud.com | - | High
+27 | [5.252.179.13](https://vuldb.com/?ip.5.252.179.13) | 5-252-179-13.mivocloud.com | - | High
+28 | [5.252.179.17](https://vuldb.com/?ip.5.252.179.17) | mail-good-treat.livewirearea.com | - | High
+29 | [5.252.179.50](https://vuldb.com/?ip.5.252.179.50) | no-rdns.mivocloud.com | - | High
+30 | [5.252.179.60](https://vuldb.com/?ip.5.252.179.60) | no-rdns.mivocloud.com | - | High
+31 | [5.252.179.89](https://vuldb.com/?ip.5.252.179.89) | no-rdns.mivocloud.com | - | High
+32 | [5.252.179.93](https://vuldb.com/?ip.5.252.179.93) | no-rdns.mivocloud.com | - | High
+33 | [5.252.179.97](https://vuldb.com/?ip.5.252.179.97) | 5-252-179-97.mivocloud.com | - | High
+34 | [5.252.179.111](https://vuldb.com/?ip.5.252.179.111) | 5-252-179-111.mivocloud.com | - | High
+35 | [23.133.88.190](https://vuldb.com/?ip.23.133.88.190) | - | - | High
+36 | [23.163.0.13](https://vuldb.com/?ip.23.163.0.13) | ht087348.fronews.com | - | High
+37 | [23.170.40.136](https://vuldb.com/?ip.23.170.40.136) | - | - | High
+38 | [23.227.193.80](https://vuldb.com/?ip.23.227.193.80) | 23-227-193-80.static.hvvc.us | - | High
+39 | [37.61.213.242](https://vuldb.com/?ip.37.61.213.242) | - | - | High
+40 | [45.11.180.120](https://vuldb.com/?ip.45.11.180.120) | - | - | High
+41 | [45.11.180.127](https://vuldb.com/?ip.45.11.180.127) | - | - | High
+42 | [45.15.157.144](https://vuldb.com/?ip.45.15.157.144) | - | - | High
+43 | [45.15.158.212](https://vuldb.com/?ip.45.15.158.212) | - | - | High
+44 | [45.61.136.72](https://vuldb.com/?ip.45.61.136.72) | - | - | High
+45 | [45.61.138.73](https://vuldb.com/?ip.45.61.138.73) | - | - | High
+46 | [45.61.147.162](https://vuldb.com/?ip.45.61.147.162) | - | - | High
+47 | [45.67.229.73](https://vuldb.com/?ip.45.67.229.73) | vm2360547.stark-industries.solutions | - | High
+48 | [45.67.230.205](https://vuldb.com/?ip.45.67.230.205) | vm1977398.stark-industries.solutions | - | High
+49 | [45.76.172.113](https://vuldb.com/?ip.45.76.172.113) | 45.76.172.113.vultrusercontent.com | - | Medium
+50 | [45.77.31.210](https://vuldb.com/?ip.45.77.31.210) | 45.77.31.210.vultrusercontent.com | - | Medium
+51 | [45.89.53.223](https://vuldb.com/?ip.45.89.53.223) | vm2341473.stark-industries.solutions | - | High
+52 | ... | ... | ... | ...
 
-There are 177 more IOC items available. Please use our online service to access the data.
+There are 204 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -82,7 +89,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -95,28 +102,37 @@ ID | Type | Indicator | Confidence
 3 | File | `/api/baskets/{name}` | High
 4 | File | `/api/RecordingList/DownloadRecord?file=` | High
 5 | File | `/api/v4/users/ids` | High
-6 | File | `/apply.cgi` | Medium
-7 | File | `/bbdms/sign-up.php` | High
-8 | File | `/cgi-bin/wlogin.cgi` | High
-9 | File | `/debug/pprof` | Medium
-10 | File | `/etc/shadow` | Medium
-11 | File | `/forum/away.php` | High
-12 | File | `/inc/parser/xhtml.php` | High
-13 | File | `/include/makecvs.php` | High
-14 | File | `/index.php?p=admin/actions/users/send-password-reset-email` | High
-15 | File | `/oauth/idp/.well-known/openid-configuration` | High
-16 | File | `/out.php` | Medium
-17 | File | `/php/ping.php` | High
-18 | File | `/project/tasks/list` | High
-19 | File | `/rapi/read_url` | High
-20 | File | `/requests.php` | High
-21 | File | `/scripts/unlock_tasks.php` | High
-22 | File | `/SysInfo1.htm` | High
-23 | File | `/sysinfo_json.cgi` | High
-24 | File | `/system/dataPerm/list` | High
-25 | ... | ... | ...
+6 | File | `/applications/applications.jsf` | High
+7 | File | `/apply.cgi` | Medium
+8 | File | `/bbdms/sign-up.php` | High
+9 | File | `/cgi-bin/wlogin.cgi` | High
+10 | File | `/debug/pprof` | Medium
+11 | File | `/etc/shadow` | Medium
+12 | File | `/forum/away.php` | High
+13 | File | `/goform/WifiExtraSet` | High
+14 | File | `/inc/parser/xhtml.php` | High
+15 | File | `/include/makecvs.php` | High
+16 | File | `/index.php?p=admin/actions/users/send-password-reset-email` | High
+17 | File | `/member/index/login.html` | High
+18 | File | `/member/myfriend.php` | High
+19 | File | `/member/reg.asp` | High
+20 | File | `/oauth/idp/.well-known/openid-configuration` | High
+21 | File | `/out.php` | Medium
+22 | File | `/php/ping.php` | High
+23 | File | `/pms/admin/actions/view_action.php` | High
+24 | File | `/pms/admin/cells/view_cell.php` | High
+25 | File | `/pms/admin/crimes/manage_crime.php` | High
+26 | File | `/pms/admin/inmates/view_inmate.php` | High
+27 | File | `/pms/admin/prisons/view_prison.php` | High
+28 | File | `/pms/admin/visits/view_visit.php` | High
+29 | File | `/pms/index.php` | High
+30 | File | `/pms/update_medicine.php` | High
+31 | File | `/pms/update_patient.php` | High
+32 | File | `/pms/update_user.php` | High
+33 | File | `/project/tasks/list` | High
+34 | ... | ... | ...
 
-There are 213 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 291 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -157,6 +173,39 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://infosec.exchange/@monitorsg/112524315199018789
 * https://ioc.exchange/@monitorsg@infosec.exchange/111216539556327619
 * https://ioc.exchange/@rmceoin@infosec.exchange/110866235650646824
+* https://search.censys.io/hosts/2.136.235.200
+* https://search.censys.io/hosts/2.139.253.110
+* https://search.censys.io/hosts/61.96.204.117
+* https://search.censys.io/hosts/62.119.81.101
+* https://search.censys.io/hosts/62.156.170.137
+* https://search.censys.io/hosts/82.71.120.166
+* https://search.censys.io/hosts/83.48.66.207
+* https://search.censys.io/hosts/88.17.27.121
+* https://search.censys.io/hosts/93.188.122.139
+* https://search.censys.io/hosts/93.232.107.227
+* https://search.censys.io/hosts/95.189.100.119
+* https://search.censys.io/hosts/101.108.13.204
+* https://search.censys.io/hosts/109.195.102.70
+* https://search.censys.io/hosts/178.124.152.84
+* https://search.censys.io/hosts/178.188.188.212
+* https://search.censys.io/hosts/179.49.112.238
+* https://search.censys.io/hosts/179.159.167.251
+* https://search.censys.io/hosts/181.116.72.52
+* https://search.censys.io/hosts/185.23.192.33
+* https://search.censys.io/hosts/186.0.139.220
+* https://search.censys.io/hosts/186.225.10.251
+* https://search.censys.io/hosts/186.236.112.114
+* https://search.censys.io/hosts/189.115.194.186
+* https://search.censys.io/hosts/189.203.156.164
+* https://search.censys.io/hosts/198.244.197.118
+* https://search.censys.io/hosts/200.116.185.173
+* https://search.censys.io/hosts/200.152.101.176
+* https://search.censys.io/hosts/200.180.67.154
+* https://search.censys.io/hosts/200.243.0.50
+* https://search.censys.io/hosts/206.210.123.104
+* https://search.censys.io/hosts/210.249.114.153
+* https://search.censys.io/hosts/210.249.114.154
+* https://search.censys.io/hosts/212.170.14.98
 * https://threatfox.abuse.ch
 * https://twitter.com/AnFam17/status/1671789322259800064
 * https://twitter.com/BroadAnalysis/status/1544348111488929796

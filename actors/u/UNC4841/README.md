@@ -57,7 +57,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -74,44 +74,44 @@ ID | Type | Indicator | Confidence
 7 | File | `/api/trackedEntityInstances` | High
 8 | File | `/app/options.py` | High
 9 | File | `/cgi-bin/cstecgi.cgi` | High
-10 | File | `/cgi-bin/luci;stok=/locale` | High
-11 | File | `/cgi-bin/wlogin.cgi` | High
-12 | File | `/cgi/sshcheck.cgi` | High
-13 | File | `/classes/Master.php` | High
-14 | File | `/classes/Users.php?f=save` | High
-15 | File | `/common/download?filename=1.jsp&delete=false` | High
-16 | File | `/context/%2e/WEB-INF/web.xml` | High
-17 | File | `/crmeb/crmeb/services/UploadService.php` | High
-18 | File | `/debug/pprof` | Medium
-19 | File | `/etc/postfix/sender_login` | High
-20 | File | `/example/editor` | High
-21 | File | `/filemanager/php/connector.php` | High
-22 | File | `/filemanager/upload.php` | High
-23 | File | `/forgetpassword.php` | High
-24 | File | `/forum/away.php` | High
-25 | File | `/ghost/preview` | High
-26 | File | `/goForm/aspForm` | High
-27 | File | `/goform/aspForm` | High
-28 | File | `/home/www/cgi-bin/login.cgi` | High
-29 | File | `/Items/*/RemoteImages/Download` | High
-30 | File | `/items/view_item.php` | High
-31 | File | `/jeecg-boot/sys/common/upload` | High
-32 | File | `/librarian/bookdetails.php` | High
-33 | File | `/mail/index.html` | High
-34 | File | `/medical/inventories.php` | High
-35 | File | `/modules/profile/index.php` | High
-36 | File | `/out.php` | Medium
-37 | File | `/php-jms/updateTxtview.php` | High
-38 | File | `/proxy` | Low
-39 | File | `/question.php` | High
-40 | File | `/replication` | Medium
-41 | File | `/resources//../` | High
-42 | File | `/RestAPI` | Medium
-43 | File | `/secure/QueryComponent!Default.jspa` | High
-44 | File | `/start_apply.htm` | High
+10 | File | `/cgi-bin/luci` | High
+11 | File | `/cgi-bin/luci;stok=/locale` | High
+12 | File | `/cgi-bin/wlogin.cgi` | High
+13 | File | `/cgi/sshcheck.cgi` | High
+14 | File | `/classes/Master.php` | High
+15 | File | `/classes/Users.php?f=save` | High
+16 | File | `/common/download?filename=1.jsp&delete=false` | High
+17 | File | `/context/%2e/WEB-INF/web.xml` | High
+18 | File | `/crmeb/crmeb/services/UploadService.php` | High
+19 | File | `/debug/pprof` | Medium
+20 | File | `/etc/postfix/sender_login` | High
+21 | File | `/example/editor` | High
+22 | File | `/filemanager/php/connector.php` | High
+23 | File | `/filemanager/upload.php` | High
+24 | File | `/forgetpassword.php` | High
+25 | File | `/forum/away.php` | High
+26 | File | `/ghost/preview` | High
+27 | File | `/goForm/aspForm` | High
+28 | File | `/goform/aspForm` | High
+29 | File | `/home/www/cgi-bin/login.cgi` | High
+30 | File | `/Items/*/RemoteImages/Download` | High
+31 | File | `/items/view_item.php` | High
+32 | File | `/jeecg-boot/sys/common/upload` | High
+33 | File | `/librarian/bookdetails.php` | High
+34 | File | `/mail/index.html` | High
+35 | File | `/medical/inventories.php` | High
+36 | File | `/modules/profile/index.php` | High
+37 | File | `/out.php` | Medium
+38 | File | `/php-jms/updateTxtview.php` | High
+39 | File | `/proxy` | Low
+40 | File | `/question.php` | High
+41 | File | `/replication` | Medium
+42 | File | `/resources//../` | High
+43 | File | `/RestAPI` | Medium
+44 | File | `/secure/QueryComponent!Default.jspa` | High
 45 | ... | ... | ...
 
-There are 393 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 394 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

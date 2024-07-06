@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Phishing:
 
 * [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
 * [RU](https://vuldb.com/?country.ru)
-* [PL](https://vuldb.com/?country.pl)
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 14 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -94,13 +94,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-425 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-29, CWE-425 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80, CWE-85 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 15 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -108,26 +108,30 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/Admin/changepassword.php` | High
-2 | File | `/admin/general-setting` | High
-3 | File | `/admin/service` | High
-4 | File | `/api/v1/custom_component` | High
-5 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-6 | File | `/catalog/all-products` | High
-7 | File | `/changePassword` | High
-8 | File | `/classes/Users.php?f=delete` | High
-9 | File | `/forum/away.php` | High
-10 | File | `/goform/addIpMacBind` | High
-11 | File | `/goform/DelDhcpRule` | High
-12 | File | `/goform/delIpMacBind` | High
-13 | File | `/goform/DelPortMapping` | High
-14 | File | `/goform/modifyIpMacBind` | High
-15 | File | `/goform/SetDDNSCfg` | High
-16 | File | `/goform/SetLEDCfg` | High
-17 | File | `/goform/SetOnlineDevName` | High
-18 | ... | ... | ...
+1 | File | `/.pomerium` | Medium
+2 | File | `/admin/ajax.php?action=delete_user` | High
+3 | File | `/Admin/changepassword.php` | High
+4 | File | `/admin/general-setting` | High
+5 | File | `/admin/inquiries/view_inquiry.php` | High
+6 | File | `/admin/projects/{projectname}/skills/{skillname}/video` | High
+7 | File | `/admin/service` | High
+8 | File | `/api/v1/custom_component` | High
+9 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+10 | File | `/catalog/all-products` | High
+11 | File | `/cgi-bin/wlogin.cgi` | High
+12 | File | `/changePassword` | High
+13 | File | `/classes/Master.php?f=delete_category` | High
+14 | File | `/classes/Master.php?f=save_medicine` | High
+15 | File | `/classes/Users.php?f=delete` | High
+16 | File | `/etc/shadow` | Medium
+17 | File | `/forum/away.php` | High
+18 | File | `/goform/SetSysTimeCfg` | High
+19 | File | `/goform/WifiExtraSet` | High
+20 | File | `/goform/wifiSSIDget` | High
+21 | File | `/index.php` | Medium
+22 | ... | ... | ...
 
-There are 143 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 178 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

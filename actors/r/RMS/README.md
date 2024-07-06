@@ -37,7 +37,7 @@ ID | IP address | Hostname | Campaign | Confidence
 14 | [77.161.25.182](https://vuldb.com/?ip.77.161.25.182) | 77-161-25-182.fixed.kpn.net | - | High
 15 | ... | ... | ... | ...
 
-There are 56 more IOC items available. Please use our online service to access the data.
+There are 57 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -48,7 +48,7 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | T1068 | CWE-264, CWE-269, CWE-271, CWE-284 | Execution with Unnecessary Privileges | High
 7 | ... | ... | ... | ...
@@ -97,7 +97,7 @@ ID | Type | Indicator | Confidence
 34 | File | `/var/miniupnpd.conf` | High
 35 | ... | ... | ...
 
-There are 304 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 303 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

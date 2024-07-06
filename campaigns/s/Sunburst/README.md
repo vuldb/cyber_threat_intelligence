@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 26 more country items available. Please use our online service to access the data.
+There are 24 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -349,8 +349,8 @@ ID | Type | Indicator | Confidence
 13 | File | `/admin/add_visitor.php` | High
 14 | File | `/admin/admin_cl.php?mudi=revPwd` | High
 15 | File | `/admin/admin_user.php` | High
-16 | File | `/admin/case-type` | High
-17 | File | `/admin/category/view_category.php` | High
+16 | File | `/admin/ajax.php?action=save_settings` | High
+17 | File | `/admin/case-type` | High
 18 | File | `/admin/config_MT.php?action=delete` | High
 19 | File | `/admin/court-type` | High
 20 | File | `/admin/delete_log.php` | High
@@ -362,69 +362,65 @@ ID | Type | Indicator | Confidence
 26 | File | `/admin/index.php` | High
 27 | File | `/admin/index.php?page=categories` | High
 28 | File | `/admin/judge` | Medium
-29 | File | `/admin/list_crl_conf` | High
-30 | File | `/admin/login.php` | High
-31 | File | `/admin/manage-ambulance.php` | High
-32 | File | `/admin/modules/product/controller.php?action=add` | High
-33 | File | `/admin/role` | Medium
-34 | File | `/admin/students/manage.php` | High
-35 | File | `/admin/tag.php` | High
-36 | File | `/admin/twitter.php` | High
-37 | File | `/Admin/user-record.php` | High
-38 | File | `/adminPage/conf/saveCmd` | High
-39 | File | `/adminPage/main/upload` | High
-40 | File | `/adminPage/www/addOver` | High
-41 | File | `/adminpanel/admin/facebox_modal/updateExaminee.php` | High
-42 | File | `/adminpanel/admin/query/deleteCourseExe.php` | High
-43 | File | `/adminpanel/admin/query/deleteExamExe.php` | High
-44 | File | `/adminpanel/admin/query/deleteQuestionExe.php` | High
-45 | File | `/adminpanel/admin/query/loginExe.php` | High
-46 | File | `/api/blade-user/export-user` | High
-47 | File | `/api/process.php` | High
-48 | File | `/api/v1/toolbox/device/update/swap` | High
-49 | File | `/api/v2/maps` | Medium
-50 | File | `/api/v2/open/rowsInfo` | High
-51 | File | `/api/v4/users/me/teams` | High
-52 | File | `/application/controller/Pelanggan.php` | High
-53 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
-54 | File | `/assoc_table.php` | High
-55 | File | `/bin/login` | Medium
-56 | File | `/boaform/getASPdata/formFirewall` | High
-57 | File | `/cart.php` | Medium
-58 | File | `/cgi-bin/cstecgi.cgi` | High
-59 | File | `/cgi-bin/debug_dump.cgi` | High
-60 | File | `/cgi-bin/ExportSettings.sh` | High
-61 | File | `/cgi-bin/nas_sharing.cgi` | High
-62 | File | `/cgi-bin/upload_config.cgi` | High
-63 | File | `/classes/Master.php?f=load_registration` | High
-64 | File | `/classes/Master.php?f=log_employee` | High
-65 | File | `/classes/Master.php?f=log_visitor` | High
-66 | File | `/classes/Master.php?f=save_category` | High
-67 | File | `/classes/SystemSettings.php?f=update_settings` | High
-68 | File | `/classes/Users.php` | High
-69 | File | `/classes/Users.php?f=delete` | High
-70 | File | `/classes/Users.php?f=save` | High
-71 | File | `/cms/classes/Users.php?f=delete_client` | High
-72 | File | `/command_port.ini` | High
-73 | File | `/control/activate_case.php` | High
-74 | File | `/control/deactivate_case.php` | High
-75 | File | `/control/register_case.php` | High
-76 | File | `/deletefile.php` | High
-77 | File | `/description.php` | High
-78 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
-79 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
-80 | File | `/dolibarr/commande/list.php` | High
-81 | File | `/edit-subject.php` | High
-82 | File | `/emgui/rest/ums/messages` | High
-83 | File | `/Employee/apply_leave.php` | High
-84 | File | `/Employee/changepassword.php` | High
-85 | File | `/Employee/delete_leave.php` | High
-86 | File | `/Employee/edit-profile.php` | High
-87 | File | `/endpoint/add-image.php` | High
-88 | File | `/endpoint/delete-bill.php` | High
-89 | ... | ... | ...
+29 | File | `/admin/login.php` | High
+30 | File | `/admin/modules/product/controller.php?action=add` | High
+31 | File | `/admin/mod_room/controller.php?action=add` | High
+32 | File | `/admin/role` | Medium
+33 | File | `/admin/tag.php` | High
+34 | File | `/admin/twitter.php` | High
+35 | File | `/Admin/user-record.php` | High
+36 | File | `/adminPage/conf/saveCmd` | High
+37 | File | `/adminPage/main/upload` | High
+38 | File | `/adminPage/www/addOver` | High
+39 | File | `/api/process.php` | High
+40 | File | `/api/v1/toolbox/device/update/swap` | High
+41 | File | `/api/v2/maps` | Medium
+42 | File | `/api/v2/open/rowsInfo` | High
+43 | File | `/api/v4/users/me/teams` | High
+44 | File | `/app/uploading/upload-mp3.php` | High
+45 | File | `/application/controller/Pelanggan.php` | High
+46 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
+47 | File | `/assoc_table.php` | High
+48 | File | `/attendancelist.php` | High
+49 | File | `/bin/login` | Medium
+50 | File | `/boaform/getASPdata/formFirewall` | High
+51 | File | `/cgi-bin/cstecgi.cgi` | High
+52 | File | `/cgi-bin/debug_dump.cgi` | High
+53 | File | `/cgi-bin/ExportSettings.sh` | High
+54 | File | `/cgi-bin/nas_sharing.cgi` | High
+55 | File | `/cgi-bin/upload_config.cgi` | High
+56 | File | `/classes/Master.php?f=load_registration` | High
+57 | File | `/classes/Master.php?f=log_employee` | High
+58 | File | `/classes/Master.php?f=log_visitor` | High
+59 | File | `/classes/Master.php?f=save_category` | High
+60 | File | `/classes/SystemSettings.php?f=update_settings` | High
+61 | File | `/classes/Users.php?f=delete` | High
+62 | File | `/classes/Users.php?f=save` | High
+63 | File | `/cms/classes/Users.php?f=delete_client` | High
+64 | File | `/command_port.ini` | High
+65 | File | `/control/activate_case.php` | High
+66 | File | `/control/deactivate_case.php` | High
+67 | File | `/control/register_case.php` | High
+68 | File | `/deletefile.php` | High
+69 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
+70 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
+71 | File | `/dolibarr/commande/list.php` | High
+72 | File | `/edit-subject.php` | High
+73 | File | `/emgui/rest/preferences/PREF_HOME_PAGE/sponsor/3/` | High
+74 | File | `/emgui/rest/ums/messages` | High
+75 | File | `/Employee/apply_leave.php` | High
+76 | File | `/Employee/changepassword.php` | High
+77 | File | `/Employee/delete_leave.php` | High
+78 | File | `/Employee/edit-profile.php` | High
+79 | File | `/endpoint/add-image.php` | High
+80 | File | `/endpoint/delete-bill.php` | High
+81 | File | `/endpoint/delete-bookmark.php?bookmark=1` | High
+82 | File | `/etc/shadow` | Medium
+83 | File | `/formSystemCheck` | High
+84 | File | `/general/meeting/manage/delete.php` | High
+85 | ... | ... | ...
 
-There are 781 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 753 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -72,12 +72,13 @@ ID | Type | Indicator | Confidence
 11 | File | `/scripts/unlock_tasks.php` | High
 12 | File | `/SysInfo1.htm` | High
 13 | File | `/sysinfo_json.cgi` | High
-14 | File | `/system/user/modules/mod_users/controller.php` | High
-15 | File | `/uncpath/` | Medium
-16 | File | `/usr/bin/pkexec` | High
-17 | ... | ... | ...
+14 | File | `/system/dictData/loadDictItem` | High
+15 | File | `/system/user/modules/mod_users/controller.php` | High
+16 | File | `/uncpath/` | Medium
+17 | File | `/usr/bin/pkexec` | High
+18 | ... | ... | ...
 
-There are 141 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 142 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

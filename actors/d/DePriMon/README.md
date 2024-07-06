@@ -37,7 +37,8 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-22, CWE-23 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
-4 | ... | ... | ... | ...
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
 There are 14 more TTP items available. Please use our online service to access the data.
 
@@ -58,11 +59,11 @@ ID | Type | Indicator | Confidence
 9 | File | `/scripts/unlock_tasks.php` | High
 10 | File | `/SysInfo1.htm` | High
 11 | File | `/sysinfo_json.cgi` | High
-12 | File | `/system/user/modules/mod_users/controller.php` | High
-13 | File | `/view/vpn/autovpn/sub_commit.php` | High
+12 | File | `/system/dictData/loadDictItem` | High
+13 | File | `/system/user/modules/mod_users/controller.php` | High
 14 | ... | ... | ...
 
-There are 110 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 112 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

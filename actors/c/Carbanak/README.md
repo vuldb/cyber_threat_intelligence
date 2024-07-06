@@ -76,7 +76,7 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-94 | Argument Injection | High
+4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -120,28 +120,29 @@ ID | Type | Indicator | Confidence
 30 | File | `/server-info` | Medium
 31 | File | `/server-status` | High
 32 | File | `/shell` | Low
-33 | File | `/uncpath/` | Medium
-34 | File | `/user/jobmanage.php` | High
-35 | File | `/user/zs_elite.php` | High
-36 | File | `/usr/bin/enq` | Medium
-37 | File | `/web/jquery/uploader/multi_uploadify.php` | High
-38 | File | `/wp-admin/admin-ajax.php` | High
-39 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-40 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-41 | File | `/zhndnsdisplay.cmd` | High
-42 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-43 | File | `about.php` | Medium
-44 | File | `acl.c` | Low
-45 | File | `active.log` | Medium
-46 | File | `adclick.php` | Medium
-47 | File | `add_comment.php` | High
-48 | File | `add_vhost.php` | High
-49 | File | `admin.php` | Medium
-50 | File | `admin/admin.php` | High
-51 | File | `admin/conf_users_edit.php` | High
-52 | ... | ... | ...
+33 | File | `/subpage.php` | Medium
+34 | File | `/uncpath/` | Medium
+35 | File | `/user/jobmanage.php` | High
+36 | File | `/user/zs_elite.php` | High
+37 | File | `/usr/bin/enq` | Medium
+38 | File | `/vood/cgi-bin/vood_view.cgi?act=index&lang=EN#` | High
+39 | File | `/web/jquery/uploader/multi_uploadify.php` | High
+40 | File | `/wp-admin/admin-ajax.php` | High
+41 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+42 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+43 | File | `/zhndnsdisplay.cmd` | High
+44 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+45 | File | `about.php` | Medium
+46 | File | `acl.c` | Low
+47 | File | `active.log` | Medium
+48 | File | `adclick.php` | Medium
+49 | File | `add_comment.php` | High
+50 | File | `add_vhost.php` | High
+51 | File | `admin.php` | Medium
+52 | File | `admin/admin.php` | High
+53 | ... | ... | ...
 
-There are 454 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 460 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

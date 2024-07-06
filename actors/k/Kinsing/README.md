@@ -24,7 +24,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 9 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -97,27 +97,32 @@ ID | Type | Indicator | Confidence
 13 | File | `/inc/parser/xhtml.php` | High
 14 | File | `/include/makecvs.php` | High
 15 | File | `/livesite/edit_designer_region.php` | High
-16 | File | `/mfsNotice/page` | High
-17 | File | `/mgmt/tm/util/bash` | High
-18 | File | `/mifs/c/i/reg/reg.html` | High
-19 | File | `/novel/bookSetting/list` | High
-20 | File | `/novel/userFeedback/list` | High
-21 | File | `/owa/auth/logon.aspx` | High
-22 | File | `/requests.php` | High
-23 | File | `/secure/ViewCollectors` | High
-24 | File | `/Session` | Medium
-25 | File | `/spip.php` | Medium
-26 | File | `/usr/bin/pkexec` | High
-27 | File | `/wp-admin/admin.php?page=wp_file_manager_properties` | High
-28 | File | `/xAdmin/html/cm_doclist_view_uc.jsp` | High
-29 | File | `/x_portal_assemble_surface/jaxrs/portal/list?v=8.2.3-4-43f4fe3` | High
-30 | File | `/zm/index.php` | High
-31 | File | `adclick.php` | Medium
-32 | File | `add.php` | Low
-33 | File | `add_comment.php` | High
-34 | ... | ... | ...
+16 | File | `/member/index/login.html` | High
+17 | File | `/member/myfriend.php` | High
+18 | File | `/member/reg.asp` | High
+19 | File | `/mfsNotice/page` | High
+20 | File | `/mgmt/tm/util/bash` | High
+21 | File | `/mifs/c/i/reg/reg.html` | High
+22 | File | `/novel/bookSetting/list` | High
+23 | File | `/novel/userFeedback/list` | High
+24 | File | `/owa/auth/logon.aspx` | High
+25 | File | `/pms/admin/actions/view_action.php` | High
+26 | File | `/pms/admin/cells/view_cell.php` | High
+27 | File | `/pms/admin/crimes/manage_crime.php` | High
+28 | File | `/pms/admin/inmates/view_inmate.php` | High
+29 | File | `/pms/admin/prisons/view_prison.php` | High
+30 | File | `/pms/admin/visits/view_visit.php` | High
+31 | File | `/pms/index.php` | High
+32 | File | `/pms/update_medicine.php` | High
+33 | File | `/pms/update_patient.php` | High
+34 | File | `/pms/update_user.php` | High
+35 | File | `/requests.php` | High
+36 | File | `/secure/ViewCollectors` | High
+37 | File | `/Session` | Medium
+38 | File | `/spip.php` | Medium
+39 | ... | ... | ...
 
-There are 293 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 340 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

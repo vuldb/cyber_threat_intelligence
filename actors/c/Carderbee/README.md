@@ -18,9 +18,9 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [45.76.179.209](https://vuldb.com/?ip.45.76.179.209) | 45.76.179.209.vultrusercontent.com | - | High
+1 | [45.76.179.209](https://vuldb.com/?ip.45.76.179.209) | 45.76.179.209.vultrusercontent.com | - | Medium
 2 | [103.151.28.11](https://vuldb.com/?ip.103.151.28.11) | - | - | High
-3 | [104.238.151.104](https://vuldb.com/?ip.104.238.151.104) | 104.238.151.104.vultrusercontent.com | - | High
+3 | [104.238.151.104](https://vuldb.com/?ip.104.238.151.104) | 104.238.151.104.vultrusercontent.com | - | Medium
 4 | ... | ... | ... | ...
 
 There are 1 more IOC items available. Please use our online service to access the data.

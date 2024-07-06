@@ -88,24 +88,24 @@ ID | Type | Indicator | Confidence
 24 | File | `/sys/dict/loadTreeData` | High
 25 | File | `/SysInfo.htm` | Medium
 26 | File | `/syslog_rules` | High
-27 | File | `/Tool/uploadfile.php` | High
-28 | File | `/uncpath/` | Medium
-29 | File | `/upload` | Low
-30 | File | `/users/{id}` | Medium
-31 | File | `/var/tmp/sess_*` | High
-32 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
-33 | File | `/video` | Low
-34 | File | `actionphp/download.File.php` | High
-35 | File | `ActivityManagerService.java` | High
-36 | File | `adaptmap_reg.c` | High
-37 | File | `add_comment.php` | High
-38 | File | `admin.cgi` | Medium
-39 | File | `admin.php` | Medium
-40 | File | `admin.php?action=files` | High
-41 | File | `admin/admin.php` | High
+27 | File | `/tmp/out` | Medium
+28 | File | `/Tool/uploadfile.php` | High
+29 | File | `/uncpath/` | Medium
+30 | File | `/upload` | Low
+31 | File | `/users/{id}` | Medium
+32 | File | `/var/tmp/sess_*` | High
+33 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
+34 | File | `/video` | Low
+35 | File | `actionphp/download.File.php` | High
+36 | File | `ActivityManagerService.java` | High
+37 | File | `adaptmap_reg.c` | High
+38 | File | `add_comment.php` | High
+39 | File | `admin.cgi` | Medium
+40 | File | `admin.php` | Medium
+41 | File | `admin.php?action=files` | High
 42 | ... | ... | ...
 
-There are 359 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 362 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

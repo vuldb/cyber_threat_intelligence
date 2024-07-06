@@ -20,7 +20,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 5 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -92,15 +92,20 @@ ID | Type | Indicator | Confidence
 6 | File | `/home/cavesConsole` | High
 7 | File | `/inc/parser/xhtml.php` | High
 8 | File | `/include/makecvs.php` | High
-9 | File | `/PluXml/core/admin/parametres_edittpl.php` | High
-10 | File | `/requests.php` | High
-11 | File | `/usr/local/psa/admin/sbin/wrapper` | High
-12 | File | `/wp-admin/admin.php?page=wp_file_manager_properties` | High
-13 | File | `add.php` | Low
-14 | File | `admin/admin.shtml` | High
-15 | ... | ... | ...
+9 | File | `/member/index/login.html` | High
+10 | File | `/member/myfriend.php` | High
+11 | File | `/member/reg.asp` | High
+12 | File | `/PluXml/core/admin/parametres_edittpl.php` | High
+13 | File | `/pms/admin/actions/view_action.php` | High
+14 | File | `/pms/admin/cells/view_cell.php` | High
+15 | File | `/pms/admin/crimes/manage_crime.php` | High
+16 | File | `/pms/admin/inmates/view_inmate.php` | High
+17 | File | `/pms/admin/prisons/view_prison.php` | High
+18 | File | `/pms/admin/visits/view_visit.php` | High
+19 | File | `/pms/index.php` | High
+20 | ... | ... | ...
 
-There are 117 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 165 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

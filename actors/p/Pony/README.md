@@ -48,7 +48,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1068 | CWE-264, CWE-266, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -103,22 +103,23 @@ ID | Type | Indicator | Confidence
 45 | File | `/endpoint/add-guest.php` | High
 46 | File | `/file-manager/rename.php` | High
 47 | File | `/file-manager/upload.php` | High
-48 | File | `/forum/away.php` | High
-49 | File | `/geoserver/gwc/rest.html` | High
-50 | File | `/goform/RgTime` | High
-51 | File | `/goform/wifiSSIDset` | High
-52 | File | `/index.php` | Medium
-53 | File | `/index.php/coins/update_marketboxslider` | High
-54 | File | `/kelasdosen/data` | High
-55 | File | `/librarian/bookdetails.php` | High
-56 | File | `/libsystem/login.php` | High
-57 | File | `/manage_sy.php` | High
-58 | File | `/mims/login.php` | High
-59 | File | `/ndmComponents.js` | High
-60 | File | `/onlinecourse/` | High
-61 | ... | ... | ...
+48 | File | `/file/upload/1` | High
+49 | File | `/forum/away.php` | High
+50 | File | `/geoserver/gwc/rest.html` | High
+51 | File | `/goform/RgTime` | High
+52 | File | `/goform/wifiSSIDset` | High
+53 | File | `/index.php` | Medium
+54 | File | `/index.php/coins/update_marketboxslider` | High
+55 | File | `/kelasdosen/data` | High
+56 | File | `/librarian/bookdetails.php` | High
+57 | File | `/libsystem/login.php` | High
+58 | File | `/manage_sy.php` | High
+59 | File | `/mims/login.php` | High
+60 | File | `/ndmComponents.js` | High
+61 | File | `/onlinecourse/` | High
+62 | ... | ... | ...
 
-There are 533 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 539 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -108,9 +108,10 @@ ID | Type | Indicator | Confidence
 43 | File | `/film-rating.php` | High
 44 | File | `/forum/away.php` | High
 45 | File | `/front/roomtype-details.php` | High
-46 | ... | ... | ...
+46 | File | `/goform/fast_setting_wifi_set` | High
+47 | ... | ... | ...
 
-There are 400 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 405 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

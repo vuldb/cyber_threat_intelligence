@@ -68,10 +68,10 @@ ID | Type | Indicator | Confidence
 18 | File | `/signup_script.php` | High
 19 | File | `/SysInfo1.htm` | High
 20 | File | `/sysinfo_json.cgi` | High
-21 | File | `/system/user/modules/mod_users/controller.php` | High
+21 | File | `/system/dictData/loadDictItem` | High
 22 | ... | ... | ...
 
-There are 185 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 187 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

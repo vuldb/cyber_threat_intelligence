@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Latrodectus:
 
 * [US](https://vuldb.com/?country.us)
-* [RU](https://vuldb.com/?country.ru)
 * [CN](https://vuldb.com/?country.cn)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
 There are 4 more country items available. Please use our online service to access the data.
@@ -26,7 +26,7 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [77.91.73.187](https://vuldb.com/?ip.77.91.73.187) | vm2161390.stark-industries.solutions | - | High
 4 | ... | ... | ... | ...
 
-There are 5 more IOC items available. Please use our online service to access the data.
+There are 9 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -39,7 +39,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059 | CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
 
-There are 10 more TTP items available. Please use our online service to access the data.
+There are 11 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -49,24 +49,26 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/?ajax-request=jnews` | High
 2 | File | `/cgi-bin/luci/api/switch` | High
-3 | File | `/forum/away.php` | High
-4 | File | `/guest_auth/cfg/upLoadCfg.php` | High
-5 | File | `/jsonrpc` | Medium
-6 | File | `/mims/login.php` | High
-7 | File | `/SetTriggerWPS/PIN` | High
-8 | File | `/status/status_log.sys` | High
-9 | File | `/wp-admin/admin-ajax.php` | High
-10 | File | `/wp-json/wc/v3/webhooks` | High
-11 | File | `admin-ajax.php?action=get_wdtable order[0][dir]` | High
-12 | File | `admin.color.php` | High
-13 | ... | ... | ...
+3 | File | `/cgi-bin/wlogin.cgi` | High
+4 | File | `/forum/away.php` | High
+5 | File | `/guest_auth/cfg/upLoadCfg.php` | High
+6 | File | `/jsonrpc` | Medium
+7 | File | `/mims/login.php` | High
+8 | File | `/SetTriggerWPS/PIN` | High
+9 | File | `/status/status_log.sys` | High
+10 | File | `/wp-admin/admin-ajax.php` | High
+11 | File | `/wp-json/wc/v3/webhooks` | High
+12 | File | `admin-ajax.php?action=get_wdtable order[0][dir]` | High
+13 | File | `admin.color.php` | High
+14 | ... | ... | ...
 
-There are 100 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 112 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://blog.reveng.ai/latrodectus-distribution-via-brc4/
 * https://www.proofpoint.com/us/blog/threat-insight/latrodectus-spider-bytes-ice
 
 ## Literature

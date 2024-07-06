@@ -44,12 +44,12 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22, CWE-23, CWE-425 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
+3 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -87,35 +87,36 @@ ID | Type | Indicator | Confidence
 28 | File | `/include/chart_generator.php` | High
 29 | File | `/index.php?page=member` | High
 30 | File | `/investigation/delete/` | High
-31 | File | `/login/index.php` | High
-32 | File | `/manager/ipconfig_new.php` | High
-33 | File | `/medical/inventories.php` | High
-34 | File | `/mgmt/tm/util/bash` | High
-35 | File | `/modules/projects/vw_files.php` | High
-36 | File | `/owa/auth/logon.aspx` | High
-37 | File | `/rest/api/2/user/picker` | High
-38 | File | `/school/model/get_events.php` | High
-39 | File | `/scripts/cpan_config` | High
-40 | File | `/search/index` | High
-41 | File | `/secserver` | Medium
-42 | File | `/secure/QueryComponent!Default.jspa` | High
-43 | File | `/spacecom/login.php` | High
-44 | File | `/spip.php` | Medium
-45 | File | `/src/admin/content_batchup_action.php` | High
-46 | File | `/uncpath/` | Medium
-47 | File | `/user/updatePwd` | High
-48 | File | `/view/networkConfig/vlan/vlan_add_commit.php` | High
-49 | File | `/wp-admin/admin-ajax.php` | High
-50 | File | `AbstractController.php` | High
-51 | File | `action.php` | Medium
-52 | File | `adclick.php` | Medium
-53 | File | `add-locker-form.php` | High
-54 | File | `addpost_newpoll.php` | High
-55 | File | `admin.cgi` | Medium
-56 | File | `admin.php` | Medium
-57 | ... | ... | ...
+31 | File | `/labvantage/rc?command=file&file=WEB-OPAL/pagetypes/bulletins/sendbulletin.jsp` | High
+32 | File | `/login` | Low
+33 | File | `/login/index.php` | High
+34 | File | `/manager/ipconfig_new.php` | High
+35 | File | `/medical/inventories.php` | High
+36 | File | `/mgmt/tm/util/bash` | High
+37 | File | `/modules/projects/vw_files.php` | High
+38 | File | `/owa/auth/logon.aspx` | High
+39 | File | `/rest/api/2/user/picker` | High
+40 | File | `/school/model/get_events.php` | High
+41 | File | `/scripts/cpan_config` | High
+42 | File | `/search/index` | High
+43 | File | `/secserver` | Medium
+44 | File | `/secure/QueryComponent!Default.jspa` | High
+45 | File | `/spacecom/login.php` | High
+46 | File | `/spip.php` | Medium
+47 | File | `/src/admin/content_batchup_action.php` | High
+48 | File | `/uncpath/` | Medium
+49 | File | `/user/updatePwd` | High
+50 | File | `/view/networkConfig/vlan/vlan_add_commit.php` | High
+51 | File | `/wp-admin/admin-ajax.php` | High
+52 | File | `AbstractController.php` | High
+53 | File | `action.php` | Medium
+54 | File | `adclick.php` | Medium
+55 | File | `add-locker-form.php` | High
+56 | File | `addpost_newpoll.php` | High
+57 | File | `admin.cgi` | Medium
+58 | ... | ... | ...
 
-There are 499 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 504 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -26,8 +26,8 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [20.46.245.56](https://vuldb.com/?ip.20.46.245.56) | - | - | High
 4 | [23.106.223.97](https://vuldb.com/?ip.23.106.223.97) | - | - | High
 5 | [37.120.238.58](https://vuldb.com/?ip.37.120.238.58) | - | - | High
-6 | [45.32.141.168](https://vuldb.com/?ip.45.32.141.168) | 45.32.141.168.vultrusercontent.com | - | High
-7 | [45.77.0.92](https://vuldb.com/?ip.45.77.0.92) | 45.77.0.92.vultrusercontent.com | - | High
+6 | [45.32.141.168](https://vuldb.com/?ip.45.32.141.168) | 45.32.141.168.vultrusercontent.com | - | Medium
+7 | [45.77.0.92](https://vuldb.com/?ip.45.77.0.92) | 45.77.0.92.vultrusercontent.com | - | Medium
 8 | ... | ... | ... | ...
 
 There are 26 more IOC items available. Please use our online service to access the data.
@@ -123,7 +123,7 @@ ID | Type | Indicator | Confidence
 67 | File | `/my_photo_gallery/image.php` | High
 68 | ... | ... | ...
 
-There are 600 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 598 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

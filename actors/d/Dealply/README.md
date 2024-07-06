@@ -38,11 +38,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23 | Path Traversal | High
+1 | T1006 | CWE-22, CWE-23, CWE-29, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80, CWE-86 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
 There are 22 more TTP items available. Please use our online service to access the data.
@@ -55,39 +55,41 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/activate_hook.php` | High
 2 | File | `/admin/` | Low
-3 | File | `/admin/index.php` | High
-4 | File | `/admin/singlelogin.php?submit=1` | High
-5 | File | `/api/baskets/{name}` | High
-6 | File | `/apply/index.php` | High
-7 | File | `/bin/ate` | Medium
-8 | File | `/bin/webs` | Medium
-9 | File | `/boaform/device_reset.cgi` | High
-10 | File | `/boaform/wlan_basic_set.cgi` | High
-11 | File | `/cgi-bin/cstecgi.cgi` | High
-12 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-13 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
-14 | File | `/cgi-bin/nas_sharing.cgi` | High
-15 | File | `/cgi-bin/ping.cgi` | High
-16 | File | `/classes/Master.php` | High
-17 | File | `/classes/Master.php?f=delete_item` | High
-18 | File | `/classes/Master.php?f=delete_service` | High
-19 | File | `/collection/all` | High
-20 | File | `/control/register_case.php` | High
-21 | File | `/dosen/data` | Medium
-22 | File | `/ecommerce/support_ticket` | High
-23 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-24 | File | `/file_manager/admin/save_user.php` | High
-25 | File | `/get-artifact` | High
-26 | File | `/goform/addressNat` | High
-27 | File | `/goForm/aspForm` | High
-28 | File | `/goform/DhcpListClient` | High
-29 | File | `/goform/execCommand` | High
-30 | File | `/goform/formTcpipSetup` | High
-31 | File | `/goform/GetParentControlInfo` | High
-32 | File | `/goform/setBlackRule` | High
-33 | ... | ... | ...
+3 | File | `/admin/ajax.php?action=delete_user` | High
+4 | File | `/admin/ajax.php?action=save_settings` | High
+5 | File | `/admin/index.php` | High
+6 | File | `/admin/singlelogin.php?submit=1` | High
+7 | File | `/api/baskets/{name}` | High
+8 | File | `/apply/index.php` | High
+9 | File | `/bin/ate` | Medium
+10 | File | `/bin/webs` | Medium
+11 | File | `/boaform/device_reset.cgi` | High
+12 | File | `/boaform/wlan_basic_set.cgi` | High
+13 | File | `/cgi-bin/cstecgi.cgi` | High
+14 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+15 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
+16 | File | `/cgi-bin/nas_sharing.cgi` | High
+17 | File | `/cgi-bin/ping.cgi` | High
+18 | File | `/classes/Master.php` | High
+19 | File | `/classes/Master.php?f=delete_item` | High
+20 | File | `/classes/Master.php?f=delete_service` | High
+21 | File | `/classes/Master.php?f=save_medicine` | High
+22 | File | `/classes/Users.php?f=register_user` | High
+23 | File | `/collection/all` | High
+24 | File | `/control/register_case.php` | High
+25 | File | `/dosen/data` | Medium
+26 | File | `/ecommerce/support_ticket` | High
+27 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+28 | File | `/emgui/rest/preferences/PREF_HOME_PAGE/sponsor/3/` | High
+29 | File | `/file_manager/admin/save_user.php` | High
+30 | File | `/get-artifact` | High
+31 | File | `/goform/addressNat` | High
+32 | File | `/goForm/aspForm` | High
+33 | File | `/goform/DhcpListClient` | High
+34 | File | `/goform/execCommand` | High
+35 | ... | ... | ...
 
-There are 284 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 301 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

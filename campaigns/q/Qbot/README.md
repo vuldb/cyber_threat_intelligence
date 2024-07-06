@@ -117,7 +117,8 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+5 | T1068 | CWE-264, CWE-269, CWE-274, CWE-284 | Execution with Unnecessary Privileges | High
+6 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
 
@@ -135,24 +136,25 @@ ID | Type | Indicator | Confidence
 6 | File | `/admin/students/manage.php` | High
 7 | File | `/adminPage/www/addOver` | High
 8 | File | `/application/index/controller/Screen.php` | High
-9 | File | `/cgi-bin/nas_sharing.cgi` | High
-10 | File | `/dataSet/testTransform;swagger-ui` | High
-11 | File | `/dayrui/Fcms/View/system_log.html` | High
-12 | File | `/dayrui/My/View/main.html` | High
-13 | File | `/debug/pprof` | Medium
-14 | File | `/forum/away.php` | High
-15 | File | `/goform/execCommand` | High
-16 | File | `/goform/SetRebootTimer` | High
-17 | File | `/goform/SetSysTimeCfg` | High
-18 | File | `/goform/WriteFacMac` | High
-19 | File | `/lam/tmp/` | Medium
-20 | File | `/mobilebroker/ServiceToBroker.svc/Json/Connect` | High
-21 | File | `/module/comment/save` | High
-22 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-23 | File | `/new_item` | Medium
-24 | ... | ... | ...
+9 | File | `/cgi-bin/cstecgi.cgi` | High
+10 | File | `/cgi-bin/nas_sharing.cgi` | High
+11 | File | `/dataSet/testTransform;swagger-ui` | High
+12 | File | `/dayrui/Fcms/View/system_log.html` | High
+13 | File | `/dayrui/My/View/main.html` | High
+14 | File | `/debug/pprof` | Medium
+15 | File | `/download/image` | High
+16 | File | `/forum/away.php` | High
+17 | File | `/goform/execCommand` | High
+18 | File | `/goform/SetRebootTimer` | High
+19 | File | `/goform/SetSysTimeCfg` | High
+20 | File | `/goform/WriteFacMac` | High
+21 | File | `/hedwig.cgi` | Medium
+22 | File | `/lam/tmp/` | Medium
+23 | File | `/login-actions/authenticate` | High
+24 | File | `/mobilebroker/ServiceToBroker.svc/Json/Connect` | High
+25 | ... | ... | ...
 
-There are 202 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 213 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

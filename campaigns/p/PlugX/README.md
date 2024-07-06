@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [VN](https://vuldb.com/?country.vn)
 * [US](https://vuldb.com/?country.us)
-* [RU](https://vuldb.com/?country.ru)
+* [TR](https://vuldb.com/?country.tr)
 * ...
 
-There are 6 more country items available. Please use our online service to access the data.
+There are 4 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -136,47 +136,46 @@ ID | Type | Indicator | Confidence
 9 | File | `/admin_ping.htm` | High
 10 | File | `/api/sys/set_passwd` | High
 11 | File | `/api/v1` | Low
-12 | File | `/application/index/controller/Databasesource.php` | High
-13 | File | `/application/index/controller/Icon.php` | High
-14 | File | `/application/index/controller/Screen.php` | High
-15 | File | `/application/plugins/controller/Upload.php` | High
-16 | File | `/apps/reg_go.php` | High
-17 | File | `/billing/bill/edit/` | High
-18 | File | `/cgi-bin/cstecgi.cgi` | High
-19 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
-20 | File | `/cgi-bin/info.cgi` | High
-21 | File | `/cgi-bin/mainfunction.cgi` | High
-22 | File | `/cgi-bin/nas_sharing.cgi` | High
-23 | File | `/cgi-bin/system_mgr.cgi` | High
-24 | File | `/cgi-bin/wlogin.cgi` | High
-25 | File | `/classes/Login.php` | High
-26 | File | `/classes/Users.php` | High
-27 | File | `/core/config-revisions` | High
-28 | File | `/DesignTools/CssEditor.aspx` | High
-29 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
-30 | File | `/DXR.axd` | Medium
-31 | File | `/ECT_Provider/` | High
-32 | File | `/edit/server` | Medium
-33 | File | `/Employer/EditProfile.php` | High
-34 | File | `/endpoint/delete-todo.php` | High
-35 | File | `/EXCU_SHELL` | Medium
-36 | File | `/fax/fax_send.php` | High
-37 | File | `/finance/help/en/frameset.htm` | High
-38 | File | `/forum/away.php` | High
-39 | File | `/general/attendance/manage/ask_duty/delete.php` | High
-40 | File | `/goform/` | Medium
-41 | File | `/h/autoSaveDraft` | High
-42 | File | `/home.php` | Medium
-43 | File | `/Home/Index` | Medium
-44 | File | `/hrm/leaverequest.php` | High
-45 | File | `/inc/modules_install.php` | High
-46 | File | `/index.php` | Medium
-47 | File | `/index.php?app=main&func=passport&action=login` | High
-48 | File | `/itbox_pi/vpn_quickset_service.php?a=set_vpn` | High
-49 | File | `/log/decodmail.php` | High
-50 | ... | ... | ...
+12 | File | `/apps/reg_go.php` | High
+13 | File | `/billing/bill/edit/` | High
+14 | File | `/cgi-bin/cstecgi.cgi` | High
+15 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
+16 | File | `/cgi-bin/info.cgi` | High
+17 | File | `/cgi-bin/mainfunction.cgi` | High
+18 | File | `/cgi-bin/nas_sharing.cgi` | High
+19 | File | `/cgi-bin/system_mgr.cgi` | High
+20 | File | `/cgi-bin/wlogin.cgi` | High
+21 | File | `/classes/Login.php` | High
+22 | File | `/classes/Users.php` | High
+23 | File | `/core/config-revisions` | High
+24 | File | `/DesignTools/CssEditor.aspx` | High
+25 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
+26 | File | `/DXR.axd` | Medium
+27 | File | `/ECT_Provider/` | High
+28 | File | `/edit/server` | Medium
+29 | File | `/Employer/EditProfile.php` | High
+30 | File | `/endpoint/delete-todo.php` | High
+31 | File | `/EXCU_SHELL` | Medium
+32 | File | `/fax/fax_send.php` | High
+33 | File | `/finance/help/en/frameset.htm` | High
+34 | File | `/forum/away.php` | High
+35 | File | `/general/attendance/manage/ask_duty/delete.php` | High
+36 | File | `/goform/` | Medium
+37 | File | `/h/autoSaveDraft` | High
+38 | File | `/home.php` | Medium
+39 | File | `/Home/Index` | Medium
+40 | File | `/hrm/leaverequest.php` | High
+41 | File | `/inc/modules_install.php` | High
+42 | File | `/index.php` | Medium
+43 | File | `/index.php?pluginApp/to/yzOffice/getFile` | High
+44 | File | `/itbox_pi/vpn_quickset_service.php?a=set_vpn` | High
+45 | File | `/librarian/bookdetails.php` | High
+46 | File | `/log/decodmail.php` | High
+47 | File | `/Maintain/sprog_upstatus.php` | High
+48 | File | `/member/chat.php` | High
+49 | ... | ... | ...
 
-There are 433 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 429 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

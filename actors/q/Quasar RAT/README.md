@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 14 more country items available. Please use our online service to access the data.
+There are 15 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -304,9 +304,10 @@ ID | IP address | Hostname | Campaign | Confidence
 281 | [46.39.224.38](https://vuldb.com/?ip.46.39.224.38) | - | - | High
 282 | [46.55.218.169](https://vuldb.com/?ip.46.55.218.169) | - | - | High
 283 | [46.65.125.215](https://vuldb.com/?ip.46.65.125.215) | 2e417dd7.skybroadband.com | - | High
-284 | ... | ... | ... | ...
+284 | [46.69.66.108](https://vuldb.com/?ip.46.69.66.108) | - | - | High
+285 | ... | ... | ... | ...
 
-There are 1132 more IOC items available. Please use our online service to access the data.
+There are 1136 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -314,13 +315,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-29, CWE-425 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-29, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
-5 | ... | ... | ... | ...
+5 | T1059.007 | CWE-79, CWE-80, CWE-85 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -328,41 +330,50 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/Admin/changepassword.php` | High
-2 | File | `/admin/general-setting` | High
-3 | File | `/admin/index2.html` | High
-4 | File | `/admin/modules/product/controller.php?action=add` | High
-5 | File | `/admin/service` | High
-6 | File | `/api/sys/set_passwd` | High
-7 | File | `/api/v1` | Low
-8 | File | `/api/v1/custom_component` | High
-9 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
-10 | File | `/applications/nexus/modules/front/store/store.php` | High
-11 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-12 | File | `/catalog/all-products` | High
-13 | File | `/cgi-bin/wlogin.cgi` | High
-14 | File | `/classes/Users.php?f=delete` | High
-15 | File | `/classes/Users.php?f=save` | High
-16 | File | `/core/config-revisions` | High
-17 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
-18 | File | `/devinfo` | Medium
-19 | File | `/DXR.axd` | Medium
-20 | File | `/edit/server` | Medium
-21 | File | `/endpoint/delete-todo.php` | High
-22 | File | `/formSysLog` | Medium
-23 | File | `/forum/away.php` | High
-24 | File | `/goform/SetSysTimeCfg` | High
-25 | File | `/goform/WifiExtraSet` | High
-26 | File | `/hrm/leaverequest.php` | High
-27 | File | `/index.php` | Medium
-28 | File | `/labvantage/rc?command=page&page=SampleList&_iframename=list` | High
-29 | File | `/lesson/controller.php` | High
-30 | File | `/manage_sy.php` | High
-31 | File | `/MobileHandler.ashx` | High
-32 | File | `/newvehicle.php` | High
-33 | ... | ... | ...
+1 | File | `/.pomerium` | Medium
+2 | File | `/admin/ajax.php?action=delete_user` | High
+3 | File | `/Admin/changepassword.php` | High
+4 | File | `/admin/general-setting` | High
+5 | File | `/admin/index2.html` | High
+6 | File | `/admin/inquiries/view_inquiry.php` | High
+7 | File | `/admin/modules/product/controller.php?action=add` | High
+8 | File | `/admin/projects/{projectname}/skills/{skillname}/video` | High
+9 | File | `/admin/service` | High
+10 | File | `/api/sys/set_passwd` | High
+11 | File | `/api/v1` | Low
+12 | File | `/api/v1/custom_component` | High
+13 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
+14 | File | `/applications/nexus/modules/front/store/store.php` | High
+15 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+16 | File | `/catalog/all-products` | High
+17 | File | `/cgi-bin/wlogin.cgi` | High
+18 | File | `/classes/Master.php?f=delete_category` | High
+19 | File | `/classes/Master.php?f=save_medicine` | High
+20 | File | `/classes/Users.php?f=delete` | High
+21 | File | `/classes/Users.php?f=save` | High
+22 | File | `/core/config-revisions` | High
+23 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
+24 | File | `/devinfo` | Medium
+25 | File | `/DXR.axd` | Medium
+26 | File | `/edit/server` | Medium
+27 | File | `/endpoint/delete-todo.php` | High
+28 | File | `/etc/shadow` | Medium
+29 | File | `/formSysLog` | Medium
+30 | File | `/forum/away.php` | High
+31 | File | `/goform/SetOnlineDevName` | High
+32 | File | `/goform/WifiExtraSet` | High
+33 | File | `/hrm/leaverequest.php` | High
+34 | File | `/index.php` | Medium
+35 | File | `/index.php?pluginApp/to/yzOffice/getFile` | High
+36 | File | `/js/player/dmplayer/dmku/?ac=edit` | High
+37 | File | `/labvantage/rc?command=page&page=SampleHistoricalList&_iframename=list&__crc=crc_1701669816260` | High
+38 | File | `/labvantage/rc?command=page&page=SampleList&_iframename=list` | High
+39 | File | `/lesson/controller.php` | High
+40 | File | `/librarian/bookdetails.php` | High
+41 | File | `/manage_sy.php` | High
+42 | ... | ... | ...
 
-There are 281 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 361 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

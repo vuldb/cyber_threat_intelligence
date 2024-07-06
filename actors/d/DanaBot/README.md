@@ -9,7 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with DanaBot:
 
 * [US](https://vuldb.com/?country.us)
-* [DE](https://vuldb.com/?country.de)
+* [RU](https://vuldb.com/?country.ru)
+* [CN](https://vuldb.com/?country.cn)
+* ...
+
+There are 7 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -50,20 +54,22 @@ ID | IP address | Hostname | Campaign | Confidence
 31 | [34.73.147.86](https://vuldb.com/?ip.34.73.147.86) | 86.147.73.34.bc.googleusercontent.com | - | Medium
 32 | [34.77.22.163](https://vuldb.com/?ip.34.77.22.163) | 163.22.77.34.bc.googleusercontent.com | - | Medium
 33 | [34.83.108.106](https://vuldb.com/?ip.34.83.108.106) | 106.108.83.34.bc.googleusercontent.com | - | Medium
-34 | [34.90.104.246](https://vuldb.com/?ip.34.90.104.246) | 246.104.90.34.bc.googleusercontent.com | - | Medium
-35 | [34.95.4.102](https://vuldb.com/?ip.34.95.4.102) | 102.4.95.34.bc.googleusercontent.com | - | Medium
-36 | [34.105.203.100](https://vuldb.com/?ip.34.105.203.100) | 100.203.105.34.bc.googleusercontent.com | - | Medium
-37 | [34.125.56.40](https://vuldb.com/?ip.34.125.56.40) | 40.56.125.34.bc.googleusercontent.com | - | Medium
-38 | [34.125.95.100](https://vuldb.com/?ip.34.125.95.100) | 100.95.125.34.bc.googleusercontent.com | - | Medium
-39 | [34.129.5.173](https://vuldb.com/?ip.34.129.5.173) | 173.5.129.34.bc.googleusercontent.com | - | Medium
-40 | [34.130.217.52](https://vuldb.com/?ip.34.130.217.52) | 52.217.130.34.bc.googleusercontent.com | - | Medium
-41 | [34.130.221.34](https://vuldb.com/?ip.34.130.221.34) | 34.221.130.34.bc.googleusercontent.com | - | Medium
-42 | [34.168.202.91](https://vuldb.com/?ip.34.168.202.91) | 91.202.168.34.bc.googleusercontent.com | - | Medium
-43 | [34.247.234.201](https://vuldb.com/?ip.34.247.234.201) | ec2-34-247-234-201.eu-west-1.compute.amazonaws.com | - | Medium
-44 | [35.194.193.144](https://vuldb.com/?ip.35.194.193.144) | 144.193.194.35.bc.googleusercontent.com | - | Medium
-45 | ... | ... | ... | ...
+34 | [34.83.149.74](https://vuldb.com/?ip.34.83.149.74) | 74.149.83.34.bc.googleusercontent.com | - | Medium
+35 | [34.90.104.246](https://vuldb.com/?ip.34.90.104.246) | 246.104.90.34.bc.googleusercontent.com | - | Medium
+36 | [34.95.4.102](https://vuldb.com/?ip.34.95.4.102) | 102.4.95.34.bc.googleusercontent.com | - | Medium
+37 | [34.105.203.100](https://vuldb.com/?ip.34.105.203.100) | 100.203.105.34.bc.googleusercontent.com | - | Medium
+38 | [34.125.56.40](https://vuldb.com/?ip.34.125.56.40) | 40.56.125.34.bc.googleusercontent.com | - | Medium
+39 | [34.125.60.23](https://vuldb.com/?ip.34.125.60.23) | 23.60.125.34.bc.googleusercontent.com | - | Medium
+40 | [34.125.95.100](https://vuldb.com/?ip.34.125.95.100) | 100.95.125.34.bc.googleusercontent.com | - | Medium
+41 | [34.129.5.173](https://vuldb.com/?ip.34.129.5.173) | 173.5.129.34.bc.googleusercontent.com | - | Medium
+42 | [34.130.217.52](https://vuldb.com/?ip.34.130.217.52) | 52.217.130.34.bc.googleusercontent.com | - | Medium
+43 | [34.130.221.34](https://vuldb.com/?ip.34.130.221.34) | 34.221.130.34.bc.googleusercontent.com | - | Medium
+44 | [34.168.202.91](https://vuldb.com/?ip.34.168.202.91) | 91.202.168.34.bc.googleusercontent.com | - | Medium
+45 | [34.247.234.201](https://vuldb.com/?ip.34.247.234.201) | ec2-34-247-234-201.eu-west-1.compute.amazonaws.com | - | Medium
+46 | [35.194.193.144](https://vuldb.com/?ip.35.194.193.144) | 144.193.194.35.bc.googleusercontent.com | - | Medium
+47 | ... | ... | ... | ...
 
-There are 177 more IOC items available. Please use our online service to access the data.
+There are 182 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -71,12 +77,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Path Traversal | High
-2 | T1059 | CWE-94 | Argument Injection | High
-3 | T1059.007 | CWE-79 | Cross Site Scripting | High
+1 | T1006 | CWE-22, CWE-23 | Path Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1059 | CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
 
-There are 7 more TTP items available. Please use our online service to access the data.
+There are 13 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -84,12 +90,24 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/cgi-bin/kerbynet` | High
-2 | File | `/uncpath/` | Medium
-3 | File | `Deliver_SendMail.class.php` | High
-4 | ... | ... | ...
+1 | File | `//proc/kcore` | Medium
+2 | File | `/cgi-bin/kerbynet` | High
+3 | File | `/forum/away.php` | High
+4 | File | `/inc/parser/xhtml.php` | High
+5 | File | `/include/makecvs.php` | High
+6 | File | `/member/index/login.html` | High
+7 | File | `/member/myfriend.php` | High
+8 | File | `/member/reg.asp` | High
+9 | File | `/pms/admin/actions/view_action.php` | High
+10 | File | `/pms/admin/cells/view_cell.php` | High
+11 | File | `/pms/admin/crimes/manage_crime.php` | High
+12 | File | `/pms/admin/inmates/view_inmate.php` | High
+13 | File | `/pms/admin/prisons/view_prison.php` | High
+14 | File | `/pms/admin/visits/view_visit.php` | High
+15 | File | `/pms/index.php` | High
+16 | ... | ... | ...
 
-There are 20 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 133 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

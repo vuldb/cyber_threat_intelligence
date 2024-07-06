@@ -161,7 +161,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-425 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
@@ -178,18 +178,18 @@ ID | Type | Indicator | Confidence
 1 | File | `/#/network?tab=network_node_list.html` | High
 2 | File | `/admin/modules/product/controller.php?action=add` | High
 3 | File | `/admin/students.php` | High
-4 | File | `/admin/suppliers/view_details.php` | High
-5 | File | `/adminPage/www/addOver` | High
-6 | File | `/api/sys/set_passwd` | High
-7 | File | `/api/v1` | Low
-8 | File | `/application/index/controller/Screen.php` | High
-9 | File | `/cgi-bin/nas_sharing.cgi` | High
-10 | File | `/core/config-revisions` | High
-11 | File | `/dataSet/testTransform;swagger-ui` | High
-12 | File | `/dayrui/Fcms/View/system_log.html` | High
-13 | File | `/dayrui/My/View/main.html` | High
-14 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
-15 | File | `/DXR.axd` | Medium
+4 | File | `/adminPage/www/addOver` | High
+5 | File | `/api/sys/set_passwd` | High
+6 | File | `/api/v1` | Low
+7 | File | `/application/index/controller/Screen.php` | High
+8 | File | `/cgi-bin/nas_sharing.cgi` | High
+9 | File | `/core/config-revisions` | High
+10 | File | `/dataSet/testTransform;swagger-ui` | High
+11 | File | `/dayrui/Fcms/View/system_log.html` | High
+12 | File | `/dayrui/My/View/main.html` | High
+13 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
+14 | File | `/DXR.axd` | Medium
+15 | File | `/edit/server` | Medium
 16 | File | `/endpoint/delete-todo.php` | High
 17 | File | `/finance/help/en/frameset.htm` | High
 18 | File | `/forum/away.php` | High
@@ -197,22 +197,19 @@ ID | Type | Indicator | Confidence
 20 | File | `/goform/SetRebootTimer` | High
 21 | File | `/goform/WriteFacMac` | High
 22 | File | `/hrm/leaverequest.php` | High
-23 | File | `/Maintain/sprog_upstatus.php` | High
-24 | File | `/MobileHandler.ashx` | High
-25 | File | `/module/comment/save` | High
-26 | File | `/movie.php` | Medium
-27 | File | `/network_diagnostics.html` | High
-28 | File | `/new_item` | Medium
-29 | File | `/novel/bookSetting/list` | High
-30 | File | `/one_church/churchprofile.php` | High
-31 | File | `/one_church/userregister.php` | High
-32 | File | `/php/ping.php` | High
-33 | File | `/register.php` | High
-34 | File | `/rest/review-coverage-chart/1.0/data/<repository_name>/.json` | High
-35 | File | `/servicedesk/customer/portals` | High
-36 | ... | ... | ...
+23 | File | `/index.php?pluginApp/to/yzOffice/getFile` | High
+24 | File | `/librarian/bookdetails.php` | High
+25 | File | `/login-actions/authenticate` | High
+26 | File | `/Maintain/sprog_upstatus.php` | High
+27 | File | `/MobileHandler.ashx` | High
+28 | File | `/module/comment/save` | High
+29 | File | `/network_diagnostics.html` | High
+30 | File | `/new_item` | Medium
+31 | File | `/novel/bookSetting/list` | High
+32 | File | `/pg_meta/default/query` | High
+33 | ... | ... | ...
 
-There are 304 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 285 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

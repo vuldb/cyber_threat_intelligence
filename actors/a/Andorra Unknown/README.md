@@ -82,7 +82,7 @@ ID | Type | Indicator | Confidence
 9 | File | `/oauth/idp/.well-known/openid-configuration` | High
 10 | ... | ... | ...
 
-There are 70 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 76 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

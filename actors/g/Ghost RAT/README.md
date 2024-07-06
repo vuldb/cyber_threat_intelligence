@@ -51,9 +51,10 @@ ID | IP address | Hostname | Campaign | Confidence
 32 | [43.136.78.18](https://vuldb.com/?ip.43.136.78.18) | - | - | High
 33 | [43.139.48.143](https://vuldb.com/?ip.43.139.48.143) | - | - | High
 34 | [43.142.38.153](https://vuldb.com/?ip.43.142.38.153) | - | - | High
-35 | ... | ... | ... | ...
+35 | [43.248.129.152](https://vuldb.com/?ip.43.248.129.152) | - | - | High
+36 | ... | ... | ... | ...
 
-There are 137 more IOC items available. Please use our online service to access the data.
+There are 138 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -61,9 +62,9 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
+3 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
@@ -83,19 +84,20 @@ ID | Type | Indicator | Confidence
 6 | File | `/dataSet/testTransform;swagger-ui` | High
 7 | File | `/dayrui/Fcms/View/system_log.html` | High
 8 | File | `/dayrui/My/View/main.html` | High
-9 | File | `/goform/SetRebootTimer` | High
-10 | File | `/goform/WriteFacMac` | High
-11 | File | `/htdocs/cgibin` | High
-12 | File | `/module/comment/save` | High
-13 | File | `/new_item` | Medium
-14 | File | `/novel/bookSetting/list` | High
-15 | File | `/root` | Low
-16 | File | `/scripts/unlock_tasks.php` | High
-17 | File | `/servicedesk/customer/portals` | High
-18 | File | `/sysmanage/sysmanageajax.php` | High
-19 | ... | ... | ...
+9 | File | `/goform/execCommand` | High
+10 | File | `/goform/SetRebootTimer` | High
+11 | File | `/goform/WriteFacMac` | High
+12 | File | `/htdocs/cgibin` | High
+13 | File | `/module/comment/save` | High
+14 | File | `/new_item` | Medium
+15 | File | `/novel/bookSetting/list` | High
+16 | File | `/purchase.php` | High
+17 | File | `/root` | Low
+18 | File | `/scripts/unlock_tasks.php` | High
+19 | File | `/servicedesk/customer/portals` | High
+20 | ... | ... | ...
 
-There are 159 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 161 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

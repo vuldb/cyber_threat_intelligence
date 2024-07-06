@@ -82,7 +82,7 @@ ID | Type | Indicator | Confidence
 24 | File | `/release-x64/otfccdump+0x703969` | High
 25 | ... | ... | ...
 
-There are 211 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 214 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

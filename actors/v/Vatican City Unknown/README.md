@@ -113,12 +113,12 @@ ID | Type | Indicator | Confidence
 47 | File | `admin.html` | Medium
 48 | File | `admin/admin_users.php` | High
 49 | File | `admin/app/batch/csvup.php` | High
-50 | File | `agenda.php` | Medium
-51 | File | `alert.php` | Medium
-52 | File | `api.php` | Low
+50 | File | `admin/model.php` | High
+51 | File | `agenda.php` | Medium
+52 | File | `alert.php` | Medium
 53 | ... | ... | ...
 
-There are 461 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 463 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
