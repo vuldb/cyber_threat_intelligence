@@ -63,43 +63,44 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/.htpasswd` | Medium
-2 | File | `/admin/case-type` | High
-3 | File | `/ajax.php?action=read_msg` | High
-4 | File | `/api/jolokia org.jolokia.http.HttpRequestHandler#handlePostRequest` | High
-5 | File | `/assets/something/services/AppModule.class` | High
-6 | File | `/category_view.php` | High
-7 | File | `/cgi-bin/nasset.cgi` | High
-8 | File | `/cgi-bin/nas_sharing.cgi` | High
-9 | File | `/cgi-bin/webadminget.cgi` | High
-10 | File | `/cms/process.php` | High
-11 | File | `/debug/pprof` | Medium
-12 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
-13 | File | `/DXR.axd` | Medium
-14 | File | `/env` | Low
-15 | File | `/etc/shadow` | Medium
-16 | File | `/forum/away.php` | High
-17 | File | `/goform/SetNetControlList` | High
-18 | File | `/goform/SetStaticRouteCfg` | High
-19 | File | `/HNAP1` | Low
-20 | File | `/HNAP1/` | Low
-21 | File | `/hrm/controller/employee.php` | High
-22 | File | `/index.php/weblinks-categories` | High
-23 | File | `/modules/profile/index.php` | High
-24 | File | `/movie.php` | Medium
-25 | File | `/public/login.htm` | High
-26 | File | `/service/v1/createUser` | High
-27 | File | `/show_news.php` | High
-28 | File | `/src/chatbotapp/chatWindow.java` | High
-29 | File | `/system?action=ServiceAdmin` | High
-30 | File | `/uncpath/` | Medium
-31 | File | `/web/entry/en/address/adrsSetUserWizard.cgi` | High
-32 | File | `/_vti_bin/_vti_log` | High
-33 | File | `adclick.php` | Medium
-34 | File | `add_quiz.php` | Medium
-35 | File | `admin.asp` | Medium
-36 | ... | ... | ...
+2 | File | `/admin/ajax.php?action=save_settings` | High
+3 | File | `/admin/case-type` | High
+4 | File | `/admin/manage_complaint.php` | High
+5 | File | `/ajax.php?action=read_msg` | High
+6 | File | `/api/jolokia org.jolokia.http.HttpRequestHandler#handlePostRequest` | High
+7 | File | `/assets/something/services/AppModule.class` | High
+8 | File | `/category_view.php` | High
+9 | File | `/cgi-bin/nasset.cgi` | High
+10 | File | `/cgi-bin/nas_sharing.cgi` | High
+11 | File | `/cgi-bin/webadminget.cgi` | High
+12 | File | `/classes/Master.php` | High
+13 | File | `/classes/Users.php?f=save` | High
+14 | File | `/cms/process.php` | High
+15 | File | `/debug/pprof` | Medium
+16 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
+17 | File | `/DXR.axd` | Medium
+18 | File | `/env` | Low
+19 | File | `/etc/shadow` | Medium
+20 | File | `/forum/away.php` | High
+21 | File | `/goform/SetNetControlList` | High
+22 | File | `/goform/SetStaticRouteCfg` | High
+23 | File | `/HNAP1` | Low
+24 | File | `/HNAP1/` | Low
+25 | File | `/hrm/controller/employee.php` | High
+26 | File | `/index.php/weblinks-categories` | High
+27 | File | `/modules/profile/index.php` | High
+28 | File | `/movie.php` | Medium
+29 | File | `/public/login.htm` | High
+30 | File | `/service/v1/createUser` | High
+31 | File | `/show_news.php` | High
+32 | File | `/src/chatbotapp/chatWindow.java` | High
+33 | File | `/system?action=ServiceAdmin` | High
+34 | File | `/uncpath/` | Medium
+35 | File | `/web/entry/en/address/adrsSetUserWizard.cgi` | High
+36 | File | `/_vti_bin/_vti_log` | High
+37 | ... | ... | ...
 
-There are 307 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 317 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

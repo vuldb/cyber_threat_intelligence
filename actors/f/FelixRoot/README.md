@@ -68,10 +68,10 @@ ID | Type | Indicator | Confidence
 20 | File | `/plesk-site-preview/` | High
 21 | File | `/project/PROJECTNAME/reports/` | High
 22 | File | `/protocol/iscuser/uploadiscuser.php` | High
-23 | File | `/school/model/get_admin_profile.php` | High
+23 | File | `/report/printlogs.php` | High
 24 | ... | ... | ...
 
-There are 196 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 201 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

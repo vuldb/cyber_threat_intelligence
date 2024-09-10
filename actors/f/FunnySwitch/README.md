@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [GB](https://vuldb.com/?country.gb)
+* [IO](https://vuldb.com/?country.io)
 * ...
 
-There are 3 more country items available. Please use our online service to access the data.
+There are 4 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -47,21 +47,21 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/debug/pprof` | Medium
-2 | File | `/etc/config/rpcd` | High
-3 | File | `/forum/away.php` | High
-4 | File | `/lists/admin/` | High
-5 | File | `/public/login.htm` | High
-6 | File | `/upload` | Low
-7 | File | `/wp-admin/admin-ajax.php` | High
-8 | File | `/w_selfservice/oauthservlet/%2e./.%2e/general/inform/org/loadhistroyorgtree` | High
-9 | File | `/_next` | Low
-10 | File | `addentry.php` | Medium
-11 | File | `admin/conf_users_edit.php` | High
-12 | File | `admin/write-post.php` | High
+1 | File | `/data/remove` | Medium
+2 | File | `/debug/pprof` | Medium
+3 | File | `/etc/config/rpcd` | High
+4 | File | `/forum/away.php` | High
+5 | File | `/lists/admin/` | High
+6 | File | `/public/login.htm` | High
+7 | File | `/upload` | Low
+8 | File | `/wp-admin/admin-ajax.php` | High
+9 | File | `/w_selfservice/oauthservlet/%2e./.%2e/general/inform/org/loadhistroyorgtree` | High
+10 | File | `/_next` | Low
+11 | File | `addentry.php` | Medium
+12 | File | `admin/conf_users_edit.php` | High
 13 | ... | ... | ...
 
-There are 98 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 103 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

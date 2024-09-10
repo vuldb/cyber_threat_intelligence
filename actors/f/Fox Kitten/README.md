@@ -51,37 +51,37 @@ ID | Type | Indicator | Confidence
 1 | File | `.procmailrc` | Medium
 2 | File | `/admin/maintenance/manage_category.php` | High
 3 | File | `/admin/vacancy/index.php` | High
-4 | File | `/backend/system.html` | High
-5 | File | `/goform/QuickIndex` | High
-6 | File | `/include/stat/stat.php` | High
-7 | File | `/out.php` | Medium
-8 | File | `/redpass.cgi` | Medium
-9 | File | `/uncpath/` | Medium
-10 | File | `/user/profile` | High
-11 | File | `/user/zs_elite.php` | High
-12 | File | `/usr/bin/at` | Medium
-13 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
-14 | File | `/wp-admin/admin-ajax.php` | High
-15 | File | `5.2.9\syscrb.exe` | High
-16 | File | `accountrecoveryendpoint/recoverpassword.do` | High
-17 | File | `admin/review.php` | High
-18 | File | `admin_add.php` | High
-19 | File | `apps/app_article/controller/rating.php` | High
-20 | File | `attachment.do` | High
-21 | File | `auth2-gss.c` | Medium
-22 | File | `backupmgt/getAlias.php` | High
-23 | File | `board.php` | Medium
-24 | File | `books.php` | Medium
-25 | File | `buy.php` | Low
-26 | File | `calendar.php` | Medium
-27 | File | `cart.php` | Medium
-28 | File | `cat.asp` | Low
-29 | File | `category.cfm` | Medium
-30 | File | `category.php` | Medium
-31 | File | `category_list.php` | High
+4 | File | `/api/swaggerui/static` | High
+5 | File | `/backend/system.html` | High
+6 | File | `/goform/QuickIndex` | High
+7 | File | `/include/stat/stat.php` | High
+8 | File | `/out.php` | Medium
+9 | File | `/redpass.cgi` | Medium
+10 | File | `/uncpath/` | Medium
+11 | File | `/user/profile` | High
+12 | File | `/user/zs_elite.php` | High
+13 | File | `/usr/bin/at` | Medium
+14 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
+15 | File | `/wp-admin/admin-ajax.php` | High
+16 | File | `5.2.9\syscrb.exe` | High
+17 | File | `accountrecoveryendpoint/recoverpassword.do` | High
+18 | File | `admin/review.php` | High
+19 | File | `admin_add.php` | High
+20 | File | `apps/app_article/controller/rating.php` | High
+21 | File | `attachment.do` | High
+22 | File | `auth2-gss.c` | Medium
+23 | File | `backupmgt/getAlias.php` | High
+24 | File | `board.php` | Medium
+25 | File | `books.php` | Medium
+26 | File | `buy.php` | Low
+27 | File | `calendar.php` | Medium
+28 | File | `cart.php` | Medium
+29 | File | `cat.asp` | Low
+30 | File | `category.cfm` | Medium
+31 | File | `category.php` | Medium
 32 | ... | ... | ...
 
-There are 273 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 274 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

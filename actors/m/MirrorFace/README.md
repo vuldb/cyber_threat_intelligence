@@ -28,11 +28,11 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [5.8.95.174](https://vuldb.com/?ip.5.8.95.174) | free.ds | LiberalFace | High
-2 | [45.32.13.180](https://vuldb.com/?ip.45.32.13.180) | 45.32.13.180.vultrusercontent.com | LiberalFace | High
-3 | [103.175.16.39](https://vuldb.com/?ip.103.175.16.39) | - | LiberalFace | High
+2 | [45.32.13.180](https://vuldb.com/?ip.45.32.13.180) | 45.32.13.180.vultrusercontent.com | LiberalFace | Medium
+3 | [45.66.217.106](https://vuldb.com/?ip.45.66.217.106) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 2 more IOC items available. Please use our online service to access the data.
+There are 14 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -40,12 +40,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
-2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
+5 | ... | ... | ... | ...
 
-There are 12 more TTP items available. Please use our online service to access the data.
+There are 14 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -56,22 +57,29 @@ ID | Type | Indicator | Confidence
 1 | File | `/+CSCOE+/logon.html` | High
 2 | File | `/balance/service/list` | High
 3 | File | `/cgi-bin/nas_sharing.cgi` | High
-4 | File | `/index.php` | Medium
-5 | File | `/members/view_member.php` | High
-6 | File | `/mhds/clinic/view_details.php` | High
-7 | File | `/owa/auth/logon.aspx` | High
-8 | File | `/rest/api/latest/projectvalidate/key` | High
-9 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-10 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
-11 | File | `/uncpath/` | Medium
-12 | ... | ... | ...
+4 | File | `/cgi-bin/wapopen` | High
+5 | File | `/debug/pprof` | Medium
+6 | File | `/forum/away.php` | High
+7 | File | `/include/helpers/upload.helper.php` | High
+8 | File | `/index.php` | Medium
+9 | File | `/lam/tmp/` | Medium
+10 | File | `/lan.asp` | Medium
+11 | File | `/LDMS/frm_splitfrm.aspx` | High
+12 | File | `/members/view_member.php` | High
+13 | File | `/mhds/clinic/view_details.php` | High
+14 | File | `/NAGErrors` | Medium
+15 | File | `/new` | Low
+16 | File | `/owa/auth/logon.aspx` | High
+17 | File | `/rest/api/latest/projectvalidate/key` | High
+18 | ... | ... | ...
 
-There are 95 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 150 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://blogs.jpcert.or.jp/en/2024/07/mirrorface-attack-against-japanese-organisations.html
 * https://www.welivesecurity.com/2022/12/14/unmasking-mirrorface-operation-liberalface-targeting-japanese-political-entities/
 
 ## Literature

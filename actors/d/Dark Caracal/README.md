@@ -49,27 +49,28 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/dl_sendmail.php` | High
-2 | File | `/adminPage/conf/reload` | High
-3 | File | `/api/baskets/{name}` | High
-4 | File | `/api/v2/cli/commands` | High
-5 | File | `/apply.cgi` | Medium
-6 | File | `/dede/sys_sql_query.php` | High
-7 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
-8 | File | `/DXR.axd` | Medium
-9 | File | `/forum/away.php` | High
-10 | File | `/mfsNotice/page` | High
-11 | File | `/novel/bookSetting/list` | High
-12 | File | `/novel/userFeedback/list` | High
-13 | File | `/owa/auth/logon.aspx` | High
-14 | File | `/spip.php` | Medium
-15 | File | `/usr/bin/pkexec` | High
-16 | File | `/x_portal_assemble_surface/jaxrs/portal/list?v=8.2.3-4-43f4fe3` | High
-17 | File | `/zm/index.php` | High
-18 | File | `adclick.php` | Medium
-19 | File | `admin.jcomments.php` | High
-20 | ... | ... | ...
+2 | File | `/admin/index2.html` | High
+3 | File | `/adminPage/conf/reload` | High
+4 | File | `/api/baskets/{name}` | High
+5 | File | `/api/v2/cli/commands` | High
+6 | File | `/apply.cgi` | Medium
+7 | File | `/dede/sys_sql_query.php` | High
+8 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
+9 | File | `/DXR.axd` | Medium
+10 | File | `/forum/away.php` | High
+11 | File | `/log/decodmail.php` | High
+12 | File | `/mfsNotice/page` | High
+13 | File | `/novel/bookSetting/list` | High
+14 | File | `/novel/userFeedback/list` | High
+15 | File | `/owa/auth/logon.aspx` | High
+16 | File | `/register.php` | High
+17 | File | `/spip.php` | Medium
+18 | File | `/ueditor/net/controller.ashx?action=catchimage` | High
+19 | File | `/usr/bin/pkexec` | High
+20 | File | `/x_portal_assemble_surface/jaxrs/portal/list?v=8.2.3-4-43f4fe3` | High
+21 | ... | ... | ...
 
-There are 162 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 175 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

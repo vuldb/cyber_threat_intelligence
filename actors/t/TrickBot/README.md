@@ -440,13 +440,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-29, CWE-425 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-25, CWE-37 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
-5 | ... | ... | ... | ...
+4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 16 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -454,39 +455,54 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/?g=net_pro_keyword_import_save` | High
-2 | File | `/Admin/login.php` | High
-3 | File | `/admin/modules/product/controller.php?action=add` | High
-4 | File | `/admin/service_requests/manage_inventory.php` | High
-5 | File | `/adminPage/main/upload` | High
-6 | File | `/adms/admin/?page=vehicles/view_transaction` | High
-7 | File | `/api/sys/set_passwd` | High
-8 | File | `/api/v1` | Low
-9 | File | `/app/Http/Controllers/ImageController.php` | High
-10 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
-11 | File | `/applications/nexus/modules/front/store/store.php` | High
-12 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-13 | File | `/catalog/all-products` | High
-14 | File | `/cgi-bin/wlogin.cgi` | High
-15 | File | `/classes/Users.php?f=save` | High
-16 | File | `/control/register_case.php` | High
-17 | File | `/core/config-revisions` | High
-18 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
-19 | File | `/devinfo` | Medium
-20 | File | `/DXR.axd` | Medium
-21 | File | `/edit/server` | Medium
-22 | File | `/endpoint/delete-todo.php` | High
-23 | File | `/formSysLog` | Medium
-24 | File | `/forum/away.php` | High
-25 | File | `/hrm/leaverequest.php` | High
-26 | File | `/index.php?pluginApp/to/yzOffice/getFile` | High
-27 | File | `/lesson/controller.php` | High
-28 | File | `/manage_sy.php` | High
-29 | File | `/MobileHandler.ashx` | High
-30 | File | `/newvehicle.php` | High
-31 | ... | ... | ...
+1 | File | `/+CSCOE+/logon.html` | High
+2 | File | `/admin/add_ikev2.php` | High
+3 | File | `/admin/category_save.php` | High
+4 | File | `/admin/config_time_sync.php` | High
+5 | File | `/admin/contacts/organizations/edit/2` | High
+6 | File | `/admin/list_ipAddressPolicy.php` | High
+7 | File | `/admin/login.php` | High
+8 | File | `/admin/manage_model.php` | High
+9 | File | `/admin/manage_user.php` | High
+10 | File | `/admin/order.php` | High
+11 | File | `/admin/subject.php` | High
+12 | File | `/api/swaggerui/static` | High
+13 | File | `/category.php` | High
+14 | File | `/cgi-bin/alexserv` | High
+15 | File | `/cgi-bin/apkg_mgr.cgi` | High
+16 | File | `/cgi-bin/cstecgi.cgi` | High
+17 | File | `/cgi-bin/luci/api/auth` | High
+18 | File | `/cgi-bin/luci/api/diagnose` | High
+19 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+20 | File | `/classes/Master.php` | High
+21 | File | `/classes/Master.php?f=delete_record` | High
+22 | File | `/classes/SystemSettings.php?f=update_settings` | High
+23 | File | `/contact.php` | Medium
+24 | File | `/dcim/power-ports/add/` | High
+25 | File | `/debug/pprof` | Medium
+26 | File | `/download/image` | High
+27 | File | `/DXR.axd` | Medium
+28 | File | `/edit-subject.php` | High
+29 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+30 | File | `/endpoint/add-user.php` | High
+31 | File | `/endpoint/delete-account.php` | High
+32 | File | `/etc/asterisk/` | High
+33 | File | `/etc/passwd` | Medium
+34 | File | `/etc/postfix/sender_login` | High
+35 | File | `/etc/shadow` | Medium
+36 | File | `/forum/away.php` | High
+37 | File | `/guestbook` | Medium
+38 | File | `/h.php/page?ref=addtabs` | High
+39 | File | `/h/autoSaveDraft` | High
+40 | File | `/hardware` | Medium
+41 | File | `/html/portal/flash.jsp` | High
+42 | File | `/image.php` | Medium
+43 | File | `/includes/common/require_access_recovery.php` | High
+44 | File | `/index.php` | Medium
+45 | File | `/index.php?action=editManager` | High
+46 | ... | ... | ...
 
-There are 266 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 401 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 8 more country items available. Please use our online service to access the data.
+There are 9 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -42,10 +42,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23 | Path Traversal | High
+1 | T1006 | CWE-22, CWE-23, CWE-29 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
-4 | ... | ... | ... | ...
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
 There are 14 more TTP items available. Please use our online service to access the data.
 
@@ -55,34 +56,36 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/maintenance/manage_brand.php` | High
-2 | File | `/api/admin` | Medium
-3 | File | `/cgi-bin/cstecgi.cgi` | High
-4 | File | `/cgi-bin/nas_sharing.cgi` | High
-5 | File | `/cgi-bin/wlogin.cgi` | High
-6 | File | `/check_availability.php` | High
-7 | File | `/classes/Users.php?f=delete` | High
-8 | File | `/control/register_case.php` | High
-9 | File | `/DesignTools/CssEditor.aspx` | High
-10 | File | `/dev/tty` | Medium
-11 | File | `/Duty/AjaxHandle/UpLoadFloodPlanFile.ashx` | High
-12 | File | `/etc/keystone/user-project-map.json` | High
-13 | File | `/etc/passwd` | Medium
-14 | File | `/forum/away.php` | High
-15 | File | `/manage/IPSetup.php` | High
-16 | File | `/manage_sy.php` | High
-17 | File | `/movie.php` | Medium
-18 | File | `/ndmComponents.js` | High
-19 | File | `/newdriver.php` | High
-20 | File | `/out.php` | Medium
-21 | File | `/pet_shop/admin/?page=inventory/manage_inventory` | High
-22 | File | `/phppath/php` | Medium
-23 | File | `/register.php` | High
-24 | File | `/search_events.php` | High
-25 | File | `/StartingPage/link_req_2.php` | High
-26 | ... | ... | ...
+1 | File | `/add_reference_to_local_model` | High
+2 | File | `/admin/emp-profile-avatar.php` | High
+3 | File | `/admin/maintenance/manage_brand.php` | High
+4 | File | `/api/admin` | Medium
+5 | File | `/cgi-bin/cstecgi.cgi` | High
+6 | File | `/cgi-bin/nas_sharing.cgi` | High
+7 | File | `/cgi-bin/wlogin.cgi` | High
+8 | File | `/check` | Low
+9 | File | `/check_availability.php` | High
+10 | File | `/classes/Master.php` | High
+11 | File | `/classes/SystemSettings.php?f=update_settings` | High
+12 | File | `/classes/Users.php?f=delete` | High
+13 | File | `/control/register_case.php` | High
+14 | File | `/DesignTools/CssEditor.aspx` | High
+15 | File | `/dev/tty` | Medium
+16 | File | `/Duty/AjaxHandle/UpLoadFloodPlanFile.ashx` | High
+17 | File | `/etc/keystone/user-project-map.json` | High
+18 | File | `/etc/passwd` | Medium
+19 | File | `/foms/routers/place-order.php` | High
+20 | File | `/forum/away.php` | High
+21 | File | `/manage/IPSetup.php` | High
+22 | File | `/manage_sy.php` | High
+23 | File | `/movie.php` | Medium
+24 | File | `/ndmComponents.js` | High
+25 | File | `/newdriver.php` | High
+26 | File | `/out.php` | Medium
+27 | File | `/pet_shop/admin/?page=inventory/manage_inventory` | High
+28 | ... | ... | ...
 
-There are 214 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 235 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

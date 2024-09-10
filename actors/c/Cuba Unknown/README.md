@@ -99,29 +99,30 @@ ID | Type | Indicator | Confidence
 44 | File | `add_comment.php` | High
 45 | File | `adm/systools.asp` | High
 46 | File | `admin.php` | Medium
-47 | File | `admin/admin.shtml` | High
-48 | File | `Admin/ADM_Pagina.php` | High
-49 | File | `admin/category.inc.php` | High
-50 | File | `admin/main.asp` | High
-51 | File | `admin/param/param_func.inc.php` | High
-52 | File | `admin/y_admin.asp` | High
-53 | File | `adminer.php` | Medium
-54 | File | `administration/admins.php` | High
-55 | File | `administrator/components/com_media/helpers/media.php` | High
-56 | File | `admin_ok.asp` | Medium
-57 | File | `album_portal.php` | High
-58 | File | `app/Core/Paginator.php` | High
-59 | File | `app/index.php/accounts/default/details?id=2&kanbanBoard=1&openToTaskId=1` | High
-60 | File | `artlinks.dispnew.php` | High
-61 | File | `auth.php` | Medium
-62 | File | `auth_changepassword.php` | High
-63 | File | `awstats.pl` | Medium
-64 | File | `bin/named/query.c` | High
-65 | File | `blank.php` | Medium
-66 | File | `blocklayered-ajax.php` | High
-67 | ... | ... | ...
+47 | File | `admin/admin.php` | High
+48 | File | `admin/admin.shtml` | High
+49 | File | `Admin/ADM_Pagina.php` | High
+50 | File | `admin/category.inc.php` | High
+51 | File | `admin/main.asp` | High
+52 | File | `admin/param/param_func.inc.php` | High
+53 | File | `admin/y_admin.asp` | High
+54 | File | `adminer.php` | Medium
+55 | File | `administration/admins.php` | High
+56 | File | `administrator/components/com_media/helpers/media.php` | High
+57 | File | `admin_ok.asp` | Medium
+58 | File | `album_portal.php` | High
+59 | File | `app/Core/Paginator.php` | High
+60 | File | `app/index.php/accounts/default/details?id=2&kanbanBoard=1&openToTaskId=1` | High
+61 | File | `artlinks.dispnew.php` | High
+62 | File | `auth.php` | Medium
+63 | File | `auth_changepassword.php` | High
+64 | File | `awstats.pl` | Medium
+65 | File | `bin/named/query.c` | High
+66 | File | `blank.php` | Medium
+67 | File | `blocklayered-ajax.php` | High
+68 | ... | ... | ...
 
-There are 586 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 594 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

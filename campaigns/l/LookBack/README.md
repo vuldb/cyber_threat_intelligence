@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [VN](https://vuldb.com/?country.vn)
 * ...
 
-There are 12 more country items available. Please use our online service to access the data.
+There are 16 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -43,7 +43,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-24, CWE-29, CWE-425 | Path Traversal | High
+1 | T1006 | CWE-22, CWE-29, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
@@ -60,51 +60,52 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/` | Low
 2 | File | `/admin/admin_user.php` | High
-3 | File | `/admin/category/save` | High
-4 | File | `/admin/list_ipAddressPolicy.php` | High
-5 | File | `/admin/subject.php` | High
-6 | File | `/api/runscript` | High
-7 | File | `/api/snapshots/` | High
-8 | File | `/api/v1/snapshots` | High
-9 | File | `/api/v2/maps` | Medium
-10 | File | `/auth/auth.php?user=1` | High
-11 | File | `/boaform/device_reset.cgi` | High
-12 | File | `/cgi-bin/cstecgi.cgi` | High
-13 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-14 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
-15 | File | `/cgi-bin/kerbynet` | High
-16 | File | `/cgi-bin/nas_sharing.cgi` | High
-17 | File | `/cgi-bin/system_mgr.cgi` | High
-18 | File | `/cgi-bin/wlogin.cgi` | High
-19 | File | `/cgi/cpaddons_report.pl` | High
-20 | File | `/common/dict/list` | High
-21 | File | `/debug/pprof` | Medium
-22 | File | `/DXR.axd` | Medium
-23 | File | `/forum/away.php` | High
-24 | File | `/goform/DhcpListClient` | High
-25 | File | `/goform/goform_get_cmd_process` | High
-26 | File | `/HNAP1/` | Low
-27 | File | `/hrm/leaverequest.php` | High
-28 | File | `/importexport.php` | High
-29 | File | `/install/` | Medium
-30 | File | `/Interface/DevManage/VM.php` | High
-31 | File | `/main/doctype.php` | High
-32 | File | `/main/webservices/additional_webservices.php` | High
-33 | File | `/mc` | Low
-34 | File | `/ndmComponents.js` | High
-35 | File | `/net/bluetooth/rfcomm/core.C` | High
-36 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-37 | File | `/pdf` | Low
-38 | File | `/php/ping.php` | High
-39 | File | `/register.php` | High
-40 | File | `/registrar/` | Medium
-41 | File | `/remote/put_file` | High
-42 | File | `/setting/NTPSyncWithHost` | High
-43 | File | `/spip.php` | Medium
-44 | File | `/squashfs-root/etc_ro/custom.conf` | High
-45 | ... | ... | ...
+3 | File | `/admin/forgot-password.php` | High
+4 | File | `/admin/index2.html` | High
+5 | File | `/admin/list_ipAddressPolicy.php` | High
+6 | File | `/admin/subject.php` | High
+7 | File | `/adminPage/conf/reload` | High
+8 | File | `/api/runscript` | High
+9 | File | `/api/snapshots/` | High
+10 | File | `/api/v1/snapshots` | High
+11 | File | `/api/v2/maps` | Medium
+12 | File | `/auth/auth.php?user=1` | High
+13 | File | `/boaform/device_reset.cgi` | High
+14 | File | `/cgi-bin/cstecgi.cgi` | High
+15 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+16 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
+17 | File | `/cgi-bin/kerbynet` | High
+18 | File | `/cgi-bin/nas_sharing.cgi` | High
+19 | File | `/cgi-bin/system_mgr.cgi` | High
+20 | File | `/cgi-bin/wlogin.cgi` | High
+21 | File | `/cgi/cpaddons_report.pl` | High
+22 | File | `/common/dict/list` | High
+23 | File | `/debug/pprof` | Medium
+24 | File | `/DXR.axd` | Medium
+25 | File | `/etc/init.d/update_notifications.sh` | High
+26 | File | `/forum/away.php` | High
+27 | File | `/goform/DhcpListClient` | High
+28 | File | `/goform/goform_get_cmd_process` | High
+29 | File | `/hrm/leaverequest.php` | High
+30 | File | `/importexport.php` | High
+31 | File | `/index/ajax/lang` | High
+32 | File | `/install/` | Medium
+33 | File | `/Interface/DevManage/VM.php` | High
+34 | File | `/main/doctype.php` | High
+35 | File | `/main/webservices/additional_webservices.php` | High
+36 | File | `/ndmComponents.js` | High
+37 | File | `/net/bluetooth/rfcomm/core.C` | High
+38 | File | `/PC/WebService.asmx` | High
+39 | File | `/pdf` | Low
+40 | File | `/php/ping.php` | High
+41 | File | `/register.php` | High
+42 | File | `/registrar/` | Medium
+43 | File | `/remote/put_file` | High
+44 | File | `/smsa/add_class_submit.php` | High
+45 | File | `/spip.php` | Medium
+46 | ... | ... | ...
 
-There are 391 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 403 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

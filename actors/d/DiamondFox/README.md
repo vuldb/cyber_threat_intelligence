@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
-* [CN](https://vuldb.com/?country.cn)
+* [CA](https://vuldb.com/?country.ca)
 * ...
 
 There are 15 more country items available. Please use our online service to access the data.
@@ -45,7 +45,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -55,48 +55,49 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
 2 | File | `/admin` | Low
-3 | File | `/api/admin/system/store/order/list` | High
-4 | File | `/cgi-bin/wapopen` | High
-5 | File | `/csms/?page=contact_us` | High
-6 | File | `/ctpms/admin/?page=applications/view_application` | High
-7 | File | `/download` | Medium
-8 | File | `/etc/ajenti/config.yml` | High
-9 | File | `/forum/away.php` | High
-10 | File | `/goform/telnet` | High
-11 | File | `/HNAP1` | Low
-12 | File | `/menu.html` | Medium
-13 | File | `/modules/profile/index.php` | High
-14 | File | `/out.php` | Medium
-15 | File | `/rom-0` | Low
-16 | File | `/spip.php` | Medium
-17 | File | `/tmp/phpglibccheck` | High
-18 | File | `/uncpath/` | Medium
-19 | File | `/upload` | Low
-20 | File | `/usr/sbin/httpd` | High
-21 | File | `/var/tmp/sess_*` | High
-22 | File | `/view/student_exam_mark_update_form.php` | High
-23 | File | `/webconsole/APIController` | High
-24 | File | `/wordpress/wp-admin/admin.php` | High
-25 | File | `action.php` | Medium
-26 | File | `actionphp/download.File.php` | High
-27 | File | `adclick.php` | Medium
-28 | File | `add_comment.php` | High
-29 | File | `admin-ajax.php` | High
-30 | File | `admin.jcomments.php` | High
-31 | File | `admin/admin.php` | High
-32 | File | `admin/conf_users_edit.php` | High
-33 | File | `admin/content.php` | High
-34 | File | `admin/index.php` | High
-35 | File | `admin/index.php?id=users/action=edit/user_id=1` | High
-36 | File | `admin_gallery.php3` | High
-37 | File | `affich.php` | Medium
-38 | File | `agent/Core/Controller/SendRequest.cpp` | High
-39 | File | `ajax/telemetry.php` | High
-40 | File | `akeyActivationLogin.do` | High
-41 | File | `album_portal.php` | High
-42 | ... | ... | ...
+3 | File | `/admin/pages/` | High
+4 | File | `/admins` | Low
+5 | File | `/api/admin/system/store/order/list` | High
+6 | File | `/cgi-bin/cstecgi.cgi` | High
+7 | File | `/cgi-bin/wapopen` | High
+8 | File | `/cgi-bin/wlogin.cgi` | High
+9 | File | `/csms/?page=contact_us` | High
+10 | File | `/ctpms/admin/?page=applications/view_application` | High
+11 | File | `/department_viewmore.php` | High
+12 | File | `/download` | Medium
+13 | File | `/etc/ajenti/config.yml` | High
+14 | File | `/farm/product.php` | High
+15 | File | `/forum/away.php` | High
+16 | File | `/goform/telnet` | High
+17 | File | `/HNAP1` | Low
+18 | File | `/menu.html` | Medium
+19 | File | `/modules/profile/index.php` | High
+20 | File | `/out.php` | Medium
+21 | File | `/ptippage.cgi` | High
+22 | File | `/rom-0` | Low
+23 | File | `/slideeditor.php` | High
+24 | File | `/spip.php` | Medium
+25 | File | `/sysmanage/updatelib.php` | High
+26 | File | `/tmp/out` | Medium
+27 | File | `/tmp/phpglibccheck` | High
+28 | File | `/uncpath/` | Medium
+29 | File | `/upload` | Low
+30 | File | `/usr/sbin/httpd` | High
+31 | File | `/var/tmp/sess_*` | High
+32 | File | `/view/student_exam_mark_update_form.php` | High
+33 | File | `/webconsole/APIController` | High
+34 | File | `/wordpress/wp-admin/admin.php` | High
+35 | File | `action.php` | Medium
+36 | File | `actionphp/download.File.php` | High
+37 | File | `adclick.php` | Medium
+38 | File | `add_comment.php` | High
+39 | File | `admin-ajax.php` | High
+40 | File | `admin.jcomments.php` | High
+41 | File | `admin/admin.php` | High
+42 | File | `admin/conf_users_edit.php` | High
+43 | ... | ... | ...
 
-There are 361 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 369 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -50,7 +50,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -92,33 +92,36 @@ ID | Type | Indicator | Confidence
 32 | File | `/api/discoveries/` | High
 33 | File | `/api/plugin/uninstall` | High
 34 | File | `/api/sys/login` | High
-35 | File | `/app/sys1.php` | High
-36 | File | `/application/index/controller/File.php` | High
-37 | File | `/apply/index.php` | High
-38 | File | `/assets/php/upload.php` | High
-39 | File | `/audimex/cgi-bin/wal.fcgi` | High
-40 | File | `/auth_pic.cgi` | High
-41 | File | `/blog` | Low
-42 | File | `/boaform/device_reset.cgi` | High
-43 | File | `/boafrm/formMapDelDevice` | High
-44 | File | `/cgi-bin/adm.cgi` | High
-45 | File | `/cgi-bin/cstecgi.cgi` | High
-46 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
-47 | File | `/cgi-bin/nas_sharing.cgi` | High
-48 | File | `/cgi-bin/webproc` | High
-49 | File | `/checkout` | Medium
-50 | File | `/classes/Master.php?f=save_inquiry` | High
-51 | File | `/classes/SystemSettings.php?f=update_settings` | High
-52 | File | `/classes/Users.php?f=save` | High
-53 | File | `/cms/classes/Users.php?f=delete_client` | High
-54 | File | `/collection/all` | High
-55 | File | `/controller/company/Index.php#sendCompanyLogo` | High
-56 | File | `/dashboard/createblog` | High
-57 | File | `/Default/Bd` | Medium
-58 | File | `/dipam/athlete-profile.php` | High
-59 | ... | ... | ...
+35 | File | `/api/test/download` | High
+36 | File | `/app/sys1.php` | High
+37 | File | `/application/index/controller/File.php` | High
+38 | File | `/apply/index.php` | High
+39 | File | `/assets/php/upload.php` | High
+40 | File | `/audimex/cgi-bin/wal.fcgi` | High
+41 | File | `/auth_pic.cgi` | High
+42 | File | `/blog` | Low
+43 | File | `/boaform/device_reset.cgi` | High
+44 | File | `/boafrm/formMapDelDevice` | High
+45 | File | `/cgi-bin/adm.cgi` | High
+46 | File | `/cgi-bin/cstecgi.cgi` | High
+47 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
+48 | File | `/cgi-bin/nas_sharing.cgi` | High
+49 | File | `/cgi-bin/webproc` | High
+50 | File | `/checkout` | Medium
+51 | File | `/classes/Master.php?f=save_inquiry` | High
+52 | File | `/classes/SystemSettings.php?f=update_settings` | High
+53 | File | `/classes/Users.php?f=save` | High
+54 | File | `/cms/classes/Users.php?f=delete_client` | High
+55 | File | `/collection/all` | High
+56 | File | `/controller/company/Index.php#sendCompanyLogo` | High
+57 | File | `/dashboard/createblog` | High
+58 | File | `/Default/Bd` | Medium
+59 | File | `/dipam/athlete-profile.php` | High
+60 | File | `/dosen/data` | Medium
+61 | File | `/Duty/AjaxHandle/Write/UploadFile.ashx` | High
+62 | ... | ... | ...
 
-There are 517 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 542 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

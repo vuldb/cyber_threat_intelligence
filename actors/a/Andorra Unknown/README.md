@@ -72,17 +72,18 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/manage-ambulance.php` | High
-2 | File | `/cgi-bin/nas_sharing.cgi` | High
-3 | File | `/control/register_case.php` | High
-4 | File | `/forum/away.php` | High
-5 | File | `/installer/test.php` | High
-6 | File | `/manage_sy.php` | High
-7 | File | `/mobileredir/openApp.jsp` | High
-8 | File | `/ndmComponents.js` | High
-9 | File | `/oauth/idp/.well-known/openid-configuration` | High
-10 | ... | ... | ...
+2 | File | `/admin/manage_station.php` | High
+3 | File | `/cgi-bin/nas_sharing.cgi` | High
+4 | File | `/classes/Master.php` | High
+5 | File | `/control/register_case.php` | High
+6 | File | `/forum/away.php` | High
+7 | File | `/installer/test.php` | High
+8 | File | `/manage_sy.php` | High
+9 | File | `/mobileredir/openApp.jsp` | High
+10 | File | `/ndmComponents.js` | High
+11 | ... | ... | ...
 
-There are 76 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 81 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

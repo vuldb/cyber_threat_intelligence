@@ -67,26 +67,26 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin/admin.php` | High
 3 | File | `/admin/maintenance/view_designation.php` | High
 4 | File | `/adminlogin.asp` | High
-5 | File | `/cgi-bin/wapopen` | High
-6 | File | `/forum/away.php` | High
-7 | File | `/mc-admin/post.php?state=delete&delete` | High
-8 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-9 | File | `/proc/self/setgroups` | High
-10 | File | `/secure/QueryComponent!Default.jspa` | High
-11 | File | `/userRpm/PingIframeRpm.htm` | High
-12 | File | `/webman/info.cgi` | High
-13 | File | `/wp-admin/options.php` | High
-14 | File | `adclick.php` | Medium
-15 | File | `addentry.php` | Medium
-16 | File | `addmember.php` | High
-17 | File | `addtocart.asp` | High
-18 | File | `addtomylist.asp` | High
-19 | File | `admin.x-shop.php` | High
-20 | File | `admin/adminlogin.php` | High
-21 | File | `admin/article_save.php` | High
+5 | File | `/ajax.php` | Medium
+6 | File | `/cgi-bin/wapopen` | High
+7 | File | `/forum/away.php` | High
+8 | File | `/mc-admin/post.php?state=delete&delete` | High
+9 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+10 | File | `/proc/self/setgroups` | High
+11 | File | `/secure/QueryComponent!Default.jspa` | High
+12 | File | `/userRpm/PingIframeRpm.htm` | High
+13 | File | `/webman/info.cgi` | High
+14 | File | `/wp-admin/options.php` | High
+15 | File | `adclick.php` | Medium
+16 | File | `addentry.php` | Medium
+17 | File | `addmember.php` | High
+18 | File | `addtocart.asp` | High
+19 | File | `addtomylist.asp` | High
+20 | File | `admin.x-shop.php` | High
+21 | File | `admin/adminlogin.php` | High
 22 | ... | ... | ...
 
-There are 185 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 186 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

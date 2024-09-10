@@ -71,9 +71,10 @@ ID | Type | Indicator | Confidence
 13 | File | `/tmp` | Low
 14 | File | `/uncpath/` | Medium
 15 | File | `/wp-admin/admin-ajax.php` | High
-16 | ... | ... | ...
+16 | File | `administrator/components/com_media/helpers/media.php` | High
+17 | ... | ... | ...
 
-There are 132 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 133 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

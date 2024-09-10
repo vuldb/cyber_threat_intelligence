@@ -80,20 +80,20 @@ ID | Type | Indicator | Confidence
 29 | File | `/uncpath/` | Medium
 30 | File | `/updown/upload.cgi` | High
 31 | File | `/user/del.php` | High
-32 | File | `/wp-admin/admin-ajax.php` | High
-33 | File | `/_next` | Low
-34 | File | `123flashchat.php` | High
-35 | File | `act.php` | Low
-36 | File | `admin.php/pay` | High
-37 | File | `admin/bad.php` | High
-38 | File | `admin/index.php` | High
-39 | File | `admin/index.php/user/del/1` | High
-40 | File | `admin/index.php?id=themes&action=edit_chunk` | High
-41 | File | `admin/products/controller.php?action=add` | High
-42 | File | `administrator/index.php` | High
+32 | File | `/web_cste/cgi-bin/product.ini` | High
+33 | File | `/wp-admin/admin-ajax.php` | High
+34 | File | `/_next` | Low
+35 | File | `123flashchat.php` | High
+36 | File | `act.php` | Low
+37 | File | `admin.php/pay` | High
+38 | File | `admin/bad.php` | High
+39 | File | `admin/index.php` | High
+40 | File | `admin/index.php/user/del/1` | High
+41 | File | `admin/index.php?id=themes&action=edit_chunk` | High
+42 | File | `admin/products/controller.php?action=add` | High
 43 | ... | ... | ...
 
-There are 368 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 370 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

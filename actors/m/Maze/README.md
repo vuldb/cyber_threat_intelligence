@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 8 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -49,25 +49,26 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `//` | Low
 2 | File | `/admin/edit-admin.php` | High
-3 | File | `/ajax-files/postComment.php` | High
-4 | File | `/cgi-bin/login_action.cgi` | High
-5 | File | `/cgi-bin/webproc` | High
-6 | File | `/export` | Low
-7 | File | `/forum/away.php` | High
-8 | File | `/index.php` | Medium
-9 | File | `/index.php/weblinks-categories` | High
-10 | File | `/menu.html` | Medium
-11 | File | `/mics/j_spring_security_check` | High
-12 | File | `/mybb_1806/Upload/admin/index.php` | High
-13 | File | `/scp/directory.php` | High
-14 | File | `/uncpath/` | Medium
-15 | File | `/var/log/nginx` | High
-16 | File | `/view/student_payment_details2.php` | High
-17 | File | `account/gallery.php` | High
-18 | File | `adclick.php` | Medium
-19 | ... | ... | ...
+3 | File | `/admin/emp-profile-avatar.php` | High
+4 | File | `/admin/index2.html` | High
+5 | File | `/ajax-files/postComment.php` | High
+6 | File | `/cgi-bin/login_action.cgi` | High
+7 | File | `/cgi-bin/webproc` | High
+8 | File | `/export` | Low
+9 | File | `/forum/away.php` | High
+10 | File | `/index.php` | Medium
+11 | File | `/index.php/weblinks-categories` | High
+12 | File | `/menu.html` | Medium
+13 | File | `/mics/j_spring_security_check` | High
+14 | File | `/mybb_1806/Upload/admin/index.php` | High
+15 | File | `/scp/directory.php` | High
+16 | File | `/smsa/add_class_submit.php` | High
+17 | File | `/uncpath/` | Medium
+18 | File | `/var/log/nginx` | High
+19 | File | `/view/student_payment_details2.php` | High
+20 | ... | ... | ...
 
-There are 157 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 162 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

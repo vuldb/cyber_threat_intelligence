@@ -27,9 +27,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
-1 | [46.17.43.74](https://vuldb.com/?ip.46.17.43.74) | - | [APT41](https://vuldb.com/?actor.apt41) | High
-2 | [103.27.108.207](https://vuldb.com/?ip.103.27.108.207) | - | [APT41](https://vuldb.com/?actor.apt41) | High
-3 | [103.27.109.217](https://vuldb.com/?ip.103.27.109.217) | - | [lightSpy](https://vuldb.com/?actor.lightspy) | High
+1 | [38.55.97.178](https://vuldb.com/?ip.38.55.97.178) | - | [lightSpy](https://vuldb.com/?actor.lightspy) | High
+2 | [43.248.136.104](https://vuldb.com/?ip.43.248.136.104) | - | [lightSpy](https://vuldb.com/?actor.lightspy) | High
+3 | [43.248.136.110](https://vuldb.com/?ip.43.248.136.110) | - | [lightSpy](https://vuldb.com/?actor.lightspy) | High
+4 | ... | ... | ... | ...
+
+There are 11 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -37,12 +40,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
 
-There are 9 more TTP items available. Please use our online service to access the data.
+There are 12 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -51,18 +54,30 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/example/editor` | High
-2 | File | `admin/killsource` | High
-3 | File | `cgi-bin/webfile_mgr.cgi` | High
-4 | File | `data/gbconfiguration.dat` | High
-5 | ... | ... | ...
+2 | File | `/fcgi/scrut_fcgi.fcgi` | High
+3 | File | `/filemanager/php/connector.php` | High
+4 | File | `/index/ajax/lang` | High
+5 | File | `admin/killsource` | High
+6 | ... | ... | ...
 
-There are 26 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 37 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the campaign and the associated activities:
 
 * https://blogs.blackberry.com/en/2024/04/lightspy-returns-renewed-espionage-campaign-targets-southern-asia-possibly-india
+* https://search.censys.io/hosts/38.55.97.178
+* https://search.censys.io/hosts/43.248.136.104
+* https://search.censys.io/hosts/43.248.136.110
+* https://search.censys.io/hosts/43.248.136.215
+* https://search.censys.io/hosts/45.125.34.126
+* https://search.censys.io/hosts/45.155.220.194
+* https://search.censys.io/hosts/103.27.109.28
+* https://search.censys.io/hosts/103.43.17.99
+* https://search.censys.io/hosts/118.195.234.243
+* https://search.censys.io/hosts/154.91.196.185
+* https://search.censys.io/hosts/222.219.183.84
 * https://www.threatfabric.com/blogs/lightspy-mapt-mobile-payment-system-attack
 
 ## Literature

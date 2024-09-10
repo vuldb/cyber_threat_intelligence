@@ -53,32 +53,33 @@ ID | Type | Indicator | Confidence
 1 | File | `/+CSCOE+/logon.html` | High
 2 | File | `/admin` | Low
 3 | File | `/admin/update_s6.php` | High
-4 | File | `/baseOpLog.do` | High
-5 | File | `/category_view.php` | High
-6 | File | `/cgi-bin/luci;stok=/locale` | High
-7 | File | `/cgi-mod/lookup.cgi` | High
-8 | File | `/ClientLog/Document` | High
-9 | File | `/domains/list` | High
-10 | File | `/forum/away.php` | High
-11 | File | `/getcfg.php` | Medium
-12 | File | `/goform/SystemCommand` | High
-13 | File | `/group1/uploa` | High
-14 | File | `/include/file.php` | High
-15 | File | `/index.php` | Medium
-16 | File | `/jeecg-boot/sys/common/upload` | High
-17 | File | `/out.php` | Medium
-18 | File | `/owa/auth/logon.aspx` | High
-19 | File | `/proc/ioports` | High
-20 | File | `/rest/api/1.0/render` | High
-21 | File | `/rest/collectors/1.0/template/custom` | High
-22 | File | `/rom-0` | Low
-23 | File | `/scdmz.cmd` | Medium
-24 | File | `/ui/artifactimport/upload` | High
-25 | File | `/updown/upload.cgi` | High
-26 | File | `/uploads/tags.php` | High
-27 | ... | ... | ...
+4 | File | `/adminapi/system/crud` | High
+5 | File | `/api/admin/user/list` | High
+6 | File | `/api/wechat/app_auth` | High
+7 | File | `/baseOpLog.do` | High
+8 | File | `/category_view.php` | High
+9 | File | `/cgi-bin/luci;stok=/locale` | High
+10 | File | `/cgi-mod/lookup.cgi` | High
+11 | File | `/ClientLog/Document` | High
+12 | File | `/domains/list` | High
+13 | File | `/forum/away.php` | High
+14 | File | `/getcfg.php` | Medium
+15 | File | `/goform/SystemCommand` | High
+16 | File | `/group1/uploa` | High
+17 | File | `/include/file.php` | High
+18 | File | `/index.php` | Medium
+19 | File | `/jeecg-boot/sys/common/upload` | High
+20 | File | `/out.php` | Medium
+21 | File | `/owa/auth/logon.aspx` | High
+22 | File | `/proc/ioports` | High
+23 | File | `/rest/api/1.0/render` | High
+24 | File | `/rest/collectors/1.0/template/custom` | High
+25 | File | `/rom-0` | Low
+26 | File | `/scdmz.cmd` | Medium
+27 | File | `/ui/artifactimport/upload` | High
+28 | ... | ... | ...
 
-There are 229 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 234 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

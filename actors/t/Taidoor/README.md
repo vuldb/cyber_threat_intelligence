@@ -46,7 +46,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 5 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 15 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 

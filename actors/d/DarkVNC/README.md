@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with DarkVNC:
 
-* [IT](https://vuldb.com/?country.it)
+* [RU](https://vuldb.com/?country.ru)
 * [US](https://vuldb.com/?country.us)
-* [GB](https://vuldb.com/?country.gb)
+* [IT](https://vuldb.com/?country.it)
 * ...
 
-There are 3 more country items available. Please use our online service to access the data.
+There are 2 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -26,7 +26,7 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [65.20.106.109](https://vuldb.com/?ip.65.20.106.109) | 65.20.106.109.vultrusercontent.com | - | Medium
 4 | ... | ... | ... | ...
 
-There are 4 more IOC items available. Please use our online service to access the data.
+There are 6 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -34,12 +34,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059 | CWE-94 | Argument Injection | High
-2 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-3 | T1068 | CWE-264, CWE-269, CWE-274, CWE-284 | Execution with Unnecessary Privileges | High
+1 | T1006 | CWE-22 | Path Traversal | High
+2 | T1059 | CWE-94 | Argument Injection | High
+3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 4 more TTP items available. Please use our online service to access the data.
+There are 10 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -47,18 +47,111 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/cimom` | Low
-2 | File | `/my_photo_gallery/image.php` | High
-3 | File | `/reps/classes/Users.php?f=delete_agent` | High
-4 | File | `/uncpath/` | Medium
-5 | ... | ... | ...
+1 | File | `/admin/index.php` | High
+2 | File | `/cimom` | Low
+3 | File | `/config/` | Medium
+4 | File | `/dev/fd` | Low
+5 | File | `/doc/index.php` | High
+6 | File | `/index.php` | Medium
+7 | File | `/members/index.php` | High
+8 | File | `/my_photo_gallery/image.php` | High
+9 | File | `/net` | Low
+10 | File | `/proc` | Low
+11 | File | `/reps/classes/Users.php?f=delete_agent` | High
+12 | File | `/s/` | Low
+13 | File | `/services/details.asp` | High
+14 | File | `/uncpath/` | Medium
+15 | File | `389/tcp` | Low
+16 | File | `12122006-djtest.doc` | High
+17 | File | `abf_js.php` | Medium
+18 | File | `abitwhizzy.php` | High
+19 | File | `about.mgm.php` | High
+20 | File | `acc.php` | Low
+21 | File | `acc_verify.php` | High
+22 | File | `activate.php` | Medium
+23 | File | `activenews_search.asp` | High
+24 | File | `add.php` | Low
+25 | File | `addadmin.asp` | Medium
+26 | File | `addguest.cgi` | Medium
+27 | File | `addpost1.asp` | Medium
+28 | File | `addpost1.php` | Medium
+29 | File | `addressbook.update.php` | High
+30 | File | `addshowsform.php` | High
+31 | File | `addweblog.php` | High
+32 | File | `add_go.php` | Medium
+33 | File | `add_post.php3` | High
+34 | File | `admin.a6mambocredits.php` | High
+35 | File | `admin.loudmouth.php` | High
+36 | File | `admin.lurm_constructor.php` | High
+37 | File | `admin.php` | Medium
+38 | File | `admin.pl` | Medium
+39 | File | `admin/haber_ekle.asp` | High
+40 | File | `admin/index.php` | High
+41 | File | `admin/main.asp` | High
+42 | File | `admin/modules_data.php` | High
+43 | File | `admin/specials.php` | High
+44 | File | `admin_default.asp` | High
+45 | File | `admin_events.php` | High
+46 | File | `agencyprofile.asp` | High
+47 | File | `agenda.php3` | Medium
+48 | File | `agent_links.pl` | High
+49 | File | `agent_subaffiliates.pl` | High
+50 | File | `akocomment.php` | High
+51 | File | `anjel.index.php` | High
+52 | File | `api.php` | Low
+53 | File | `articleview.php` | High
+54 | File | `ascan_6.asp` | Medium
+55 | File | `ashnews.php` | Medium
+56 | File | `attributes_preview.php` | High
+57 | File | `auth.cookie.inc.php` | High
+58 | File | `authfiles/login.asp` | High
+59 | File | `authldap.php` | Medium
+60 | File | `authuser.php` | Medium
+61 | File | `bad_link.php` | Medium
+62 | File | `BaseLoader.php` | High
+63 | File | `bengine.exe` | Medium
+64 | File | `bigshow.php` | Medium
+65 | File | `bin/ftp` | Low
+66 | File | `blog.php` | Medium
+67 | File | `board.php` | Medium
+68 | File | `bottom.php` | Medium
+69 | File | `calendar.php` | Medium
+70 | File | `calendar_new.asp` | High
+71 | File | `cat.asp` | Low
+72 | File | `catalog.php` | Medium
+73 | File | `catalogue.asp` | High
+74 | File | `cgi.c` | Low
+75 | File | `change_pass.php` | High
+76 | File | `chan_skinny.c` | High
+77 | File | `check.php` | Medium
+78 | File | `checkprofile.asp` | High
+79 | File | `claro_init_global.inc.php` | High
+80 | File | `class` | Low
+81 | File | `class.definition.php` | High
+82 | File | `class.forumposts.php` | High
+83 | File | `class.inputfilter.php` | High
+84 | File | `class.novaAdmin.mysql.php` | High
+85 | File | `class_template.php` | High
+86 | File | `client.php` | Medium
+87 | File | `clients.php` | Medium
+88 | File | `clspack.exe` | Medium
+89 | File | `cmpro_header.inc.php` | High
+90 | File | `comadd.php` | Medium
+91 | File | `comment.php` | Medium
+92 | File | `common.php` | Medium
+93 | File | `components_modify_content.php` | High
+94 | File | `components_new_content.php` | High
+95 | File | `compteur.php` | Medium
+96 | File | `conf.pollxt.php` | High
+97 | ... | ... | ...
 
-There are 28 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 860 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://github.com/esThreatIntelligence/iocs/blob/main/DarkVNC/darkvnc_iocs-1-9-2024.txt
 * https://isc.sans.edu/diary/28884
 * https://isc.sans.edu/diary/28934
 * https://threatfox.abuse.ch

@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 13 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -65,7 +65,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -77,15 +77,15 @@ ID | Type | Indicator | Confidence
 2 | File | `/action/import_wireguard_cert_file/` | High
 3 | File | `/admin/ajax.php` | High
 4 | File | `/admin/bookings/view_booking.php` | High
-5 | File | `/admin/index/index.html#/admin/mall.goods/index.html` | High
-6 | File | `/admin/problem_judge.php` | High
-7 | File | `/admin/service_requests/manage_inventory.php` | High
-8 | File | `/api/v1/attack` | High
-9 | File | `/api/v1/bait/set` | High
-10 | File | `/app/options.py` | High
-11 | File | `/appinfo/save` | High
-12 | File | `/buspassms/download-pass.php` | High
-13 | File | `/cgi-bin/kerbynet` | High
+5 | File | `/admin/index.php` | High
+6 | File | `/admin/index/index.html#/admin/mall.goods/index.html` | High
+7 | File | `/admin/problem_judge.php` | High
+8 | File | `/admin/service_requests/manage_inventory.php` | High
+9 | File | `/api/v1/attack` | High
+10 | File | `/api/v1/bait/set` | High
+11 | File | `/app/options.py` | High
+12 | File | `/appinfo/save` | High
+13 | File | `/buspassms/download-pass.php` | High
 14 | File | `/cgi-bin/login.cgi` | High
 15 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
 16 | File | `/classes/Master.php?f=delete_appointment` | High
@@ -101,37 +101,37 @@ ID | Type | Indicator | Confidence
 26 | File | `/getcfg.php` | Medium
 27 | File | `/gfxpoly/stroke.c` | High
 28 | File | `/goform/form2Wan.cgi` | High
-29 | File | `/guest/s/default/` | High
-30 | File | `/h/compose` | Medium
-31 | File | `/index.php?module=entities/listing_types&entities_id=24` | High
-32 | File | `/index/jobfairol/show/` | High
-33 | File | `/investigation/delete/` | High
-34 | File | `/leave_system/classes/Master.php?f=delete_department` | High
-35 | File | `/leave_system/classes/Users.php?f=save` | High
-36 | File | `/messageboard/view.php` | High
-37 | File | `/mgmt/tm/util/bash` | High
-38 | File | `/mhds/clinic/view_details.php` | High
-39 | File | `/modules/projects/vw_files.php` | High
-40 | File | `/MTFWU` | Low
-41 | File | `/nova/bin/console` | High
-42 | File | `/ofrs/admin/?page=teams/manage_team` | High
-43 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-44 | File | `/panel/fields/add` | High
-45 | File | `/patient/settings.php` | High
-46 | File | `/protocol/iscdevicestatus/deleteonlineuser.php` | High
-47 | File | `/REBOOTSYSTEM` | High
-48 | File | `/sbin/acos_service` | High
-49 | File | `/school/model/get_teacher.php` | High
-50 | File | `/scripts/unlock_tasks.php` | High
-51 | File | `/servlet/webacc` | High
-52 | File | `/simple_chat_bot/admin/?page=responses/view_response` | High
-53 | File | `/textpattern/index.php` | High
-54 | File | `/uncpath/` | Medium
-55 | File | `/usr/bin/at` | Medium
-56 | File | `/usr/bin/pkexec` | High
-57 | File | `/var/lib/dpkg/info/` | High
-58 | File | `/var/log/demisto/` | High
-59 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+29 | File | `/goform/setMacFilter` | High
+30 | File | `/guest/s/default/` | High
+31 | File | `/h/compose` | Medium
+32 | File | `/index.php?module=entities/listing_types&entities_id=24` | High
+33 | File | `/index/jobfairol/show/` | High
+34 | File | `/investigation/delete/` | High
+35 | File | `/leave_system/classes/Master.php?f=delete_department` | High
+36 | File | `/leave_system/classes/Users.php?f=save` | High
+37 | File | `/messageboard/view.php` | High
+38 | File | `/mgmt/tm/util/bash` | High
+39 | File | `/mhds/clinic/view_details.php` | High
+40 | File | `/modules/projects/vw_files.php` | High
+41 | File | `/MTFWU` | Low
+42 | File | `/nova/bin/console` | High
+43 | File | `/ofrs/admin/?page=teams/manage_team` | High
+44 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+45 | File | `/panel/fields/add` | High
+46 | File | `/patient/settings.php` | High
+47 | File | `/protocol/iscdevicestatus/deleteonlineuser.php` | High
+48 | File | `/REBOOTSYSTEM` | High
+49 | File | `/sbin/acos_service` | High
+50 | File | `/school/model/get_teacher.php` | High
+51 | File | `/scripts/unlock_tasks.php` | High
+52 | File | `/servlet/webacc` | High
+53 | File | `/simple_chat_bot/admin/?page=responses/view_response` | High
+54 | File | `/sscdms/classes/Users.php?f=save` | High
+55 | File | `/textpattern/index.php` | High
+56 | File | `/uncpath/` | Medium
+57 | File | `/uploadimage` | Medium
+58 | File | `/usr/bin/at` | Medium
+59 | File | `/usr/bin/pkexec` | High
 60 | ... | ... | ...
 
 There are 525 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.

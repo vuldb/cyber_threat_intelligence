@@ -56,18 +56,19 @@ ID | Type | Indicator | Confidence
 5 | File | `/Core/Ap4Stz2Atom.cpp` | High
 6 | File | `/etc/config/cameo` | High
 7 | File | `/etc/fstab` | Medium
-8 | File | `/goform/aspForm` | High
-9 | File | `/ofrs/admin/?page=user/manage_user` | High
-10 | File | `/user/dls_download.php` | High
-11 | File | `/xxl-job-admin/jobinfo` | High
-12 | File | `AAVCAssembler.cpp` | High
-13 | File | `admin.php` | Medium
-14 | File | `Admin.php` | Medium
-15 | File | `admin/admin.guestbook.php` | High
-16 | File | `admin/comment.php` | High
-17 | ... | ... | ...
+8 | File | `/etc/hosts` | Medium
+9 | File | `/goform/aspForm` | High
+10 | File | `/ofrs/admin/?page=user/manage_user` | High
+11 | File | `/user/dls_download.php` | High
+12 | File | `/xxl-job-admin/jobinfo` | High
+13 | File | `AAVCAssembler.cpp` | High
+14 | File | `admin.php` | Medium
+15 | File | `Admin.php` | Medium
+16 | File | `admin/admin.guestbook.php` | High
+17 | File | `admin/comment.php` | High
+18 | ... | ... | ...
 
-There are 140 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 142 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -48,15 +48,16 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/config/getuser` | High
-2 | File | `/index.php?action=seomatic/file/seo-file-link` | High
-3 | File | `/librarian/bookdetails.php` | High
-4 | File | `/mgmt/tm/util/bash` | High
-5 | File | `/staff/bookdetails.php` | High
-6 | File | `/student/bookdetails.php` | High
-7 | File | `/text/pdf/PdfReader.java` | High
-8 | ... | ... | ...
+2 | File | `/endpoint/add-leads.php` | High
+3 | File | `/index.php?action=seomatic/file/seo-file-link` | High
+4 | File | `/librarian/bookdetails.php` | High
+5 | File | `/mgmt/tm/util/bash` | High
+6 | File | `/staff/bookdetails.php` | High
+7 | File | `/student/bookdetails.php` | High
+8 | File | `/text/pdf/PdfReader.java` | High
+9 | ... | ... | ...
 
-There are 55 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 70 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

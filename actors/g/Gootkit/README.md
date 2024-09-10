@@ -54,9 +54,10 @@ ID | Type | Indicator | Confidence
 4 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
 5 | File | `/download` | Medium
 6 | File | `/secure/admin/ImporterFinishedPage.jspa` | High
-7 | File | `/uncpath/` | Medium
-8 | File | `/_error` | Low
-9 | ... | ... | ...
+7 | File | `/sp/ListSp.php` | High
+8 | File | `/uncpath/` | Medium
+9 | File | `/_error` | Low
+10 | ... | ... | ...
 
 There are 70 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 

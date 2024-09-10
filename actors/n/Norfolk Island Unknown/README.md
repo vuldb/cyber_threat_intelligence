@@ -91,30 +91,31 @@ ID | Type | Indicator | Confidence
 41 | File | `adclick.php` | Medium
 42 | File | `adm/systools.asp` | High
 43 | File | `admin.php` | Medium
-44 | File | `admin/admin.shtml` | High
-45 | File | `Admin/ADM_Pagina.php` | High
-46 | File | `admin/category.inc.php` | High
-47 | File | `admin/main.asp` | High
-48 | File | `admin/param/param_func.inc.php` | High
-49 | File | `admin/y_admin.asp` | High
-50 | File | `adminer.php` | Medium
-51 | File | `administration/admins.php` | High
-52 | File | `administrator/components/com_media/helpers/media.php` | High
-53 | File | `admin_ok.asp` | Medium
-54 | File | `album_portal.php` | High
-55 | File | `app/Core/Paginator.php` | High
-56 | File | `app/index.php/accounts/default/details?id=2&kanbanBoard=1&openToTaskId=1` | High
-57 | File | `artlinks.dispnew.php` | High
-58 | File | `auth.php` | Medium
-59 | File | `awstats.pl` | Medium
-60 | File | `bin/named/query.c` | High
-61 | File | `blank.php` | Medium
-62 | File | `blocklayered-ajax.php` | High
-63 | File | `blogger-importer.php` | High
-64 | File | `bluegate_seo.inc.php` | High
-65 | ... | ... | ...
+44 | File | `admin/admin.php` | High
+45 | File | `admin/admin.shtml` | High
+46 | File | `Admin/ADM_Pagina.php` | High
+47 | File | `admin/category.inc.php` | High
+48 | File | `admin/main.asp` | High
+49 | File | `admin/param/param_func.inc.php` | High
+50 | File | `admin/y_admin.asp` | High
+51 | File | `adminer.php` | Medium
+52 | File | `administration/admins.php` | High
+53 | File | `administrator/components/com_media/helpers/media.php` | High
+54 | File | `admin_ok.asp` | Medium
+55 | File | `album_portal.php` | High
+56 | File | `app/Core/Paginator.php` | High
+57 | File | `app/index.php/accounts/default/details?id=2&kanbanBoard=1&openToTaskId=1` | High
+58 | File | `artlinks.dispnew.php` | High
+59 | File | `auth.php` | Medium
+60 | File | `awstats.pl` | Medium
+61 | File | `bin/named/query.c` | High
+62 | File | `blank.php` | Medium
+63 | File | `blocklayered-ajax.php` | High
+64 | File | `blogger-importer.php` | High
+65 | File | `bluegate_seo.inc.php` | High
+66 | ... | ... | ...
 
-There are 566 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 574 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

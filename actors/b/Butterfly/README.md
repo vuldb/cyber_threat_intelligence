@@ -37,7 +37,7 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-22 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-94 | Argument Injection | High
+4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 5 | ... | ... | ... | ...
 
 There are 16 more TTP items available. Please use our online service to access the data.
@@ -51,27 +51,27 @@ ID | Type | Indicator | Confidence
 1 | File | `/admin/broadcast.php` | High
 2 | File | `/admin/sysmon.php` | High
 3 | File | `/cgi-bin/webviewer_login_page` | High
-4 | File | `/ecrire` | Low
-5 | File | `/forum/away.php` | High
-6 | File | `/getcfg.php` | Medium
-7 | File | `/MicroStrategyWS/happyaxis.jsp` | High
-8 | File | `/owa/auth/logon.aspx` | High
-9 | File | `/proc/ioports` | High
-10 | File | `/search.php` | Medium
-11 | File | `/services/details.asp` | High
-12 | File | `/tmp` | Low
-13 | File | `/uncpath/` | Medium
-14 | File | `/Upload.ashx` | Medium
-15 | File | `/usr/sbin/suexec` | High
-16 | File | `/var/tmp/sess_*` | High
-17 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-18 | File | `activateuser.aspx` | High
-19 | File | `adclick.php` | Medium
-20 | File | `admin/killsource` | High
-21 | File | `admin/orion.extfeedbackform_efbf_forms.php` | High
+4 | File | `/devinfo` | Medium
+5 | File | `/ecrire` | Low
+6 | File | `/forum/away.php` | High
+7 | File | `/getcfg.php` | Medium
+8 | File | `/MicroStrategyWS/happyaxis.jsp` | High
+9 | File | `/owa/auth/logon.aspx` | High
+10 | File | `/proc/ioports` | High
+11 | File | `/search.php` | Medium
+12 | File | `/services/details.asp` | High
+13 | File | `/tmp` | Low
+14 | File | `/uncpath/` | Medium
+15 | File | `/Upload.ashx` | Medium
+16 | File | `/usr/sbin/suexec` | High
+17 | File | `/var/tmp/sess_*` | High
+18 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+19 | File | `activateuser.aspx` | High
+20 | File | `adclick.php` | Medium
+21 | File | `admin/killsource` | High
 22 | ... | ... | ...
 
-There are 178 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 184 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

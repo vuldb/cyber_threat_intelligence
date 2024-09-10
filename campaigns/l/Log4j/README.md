@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Log4j:
 
-* [BG](https://vuldb.com/?country.bg)
-* [US](https://vuldb.com/?country.us)
 * [VN](https://vuldb.com/?country.vn)
+* [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 17 more country items available. Please use our online service to access the data.
+There are 25 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -4852,7 +4852,7 @@ ID | IP address | Hostname | Actor | Confidence
 4820 | [45.133.119.241](https://vuldb.com/?ip.45.133.119.241) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
 4821 | ... | ... | ... | ...
 
-There are 19280 more IOC items available. Please use our online service to access the data.
+There are 19281 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -4860,14 +4860,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-425 | Path Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-25, CWE-27, CWE-35, CWE-425 | Path Traversal | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-94 | Argument Injection | High
+4 | T1059.007 | CWE-79, CWE-80, CWE-84 | Cross Site Scripting | High
+5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -4875,75 +4875,72 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/about.php` | Medium
-2 | File | `/admin/about-us.php` | High
-3 | File | `/admin/aboutus.php` | High
-4 | File | `/admin/add-services.php` | High
-5 | File | `/admin/app/product.php` | High
-6 | File | `/admin/applicants/index.php` | High
-7 | File | `/admin/bwdates-report-details.php` | High
-8 | File | `/admin/categories/view_category.php` | High
-9 | File | `/admin/category/cate-edit-run.php` | High
-10 | File | `/admin/cms.php` | High
-11 | File | `/admin/course.php` | High
-12 | File | `/admin/curriculum/view_curriculum.php` | High
-13 | File | `/admin/edit-services.php` | High
-14 | File | `/admin/index.php` | High
-15 | File | `/admin/index3.php` | High
-16 | File | `/admin/list_ipAddressPolicy.php` | High
-17 | File | `/admin/maintenance/brand.php` | High
-18 | File | `/admin/manage-pages.php` | High
-19 | File | `/admin/manage-users.php` | High
-20 | File | `/admin/mod_room/controller.php?action=add` | High
-21 | File | `/Admin/News.php` | High
-22 | File | `/admin/order.php` | High
-23 | File | `/admin/pages/student-print.php` | High
-24 | File | `/admin/products/view_product.php` | High
-25 | File | `/admin/project/update/2` | High
-26 | File | `/admin/sales/manage_sale.php` | High
-27 | File | `/admin/sales/view_details.php` | High
-28 | File | `/admin/service.php` | High
-29 | File | `/admin/success_story.php` | High
-30 | File | `/admin/update-clients.php` | High
-31 | File | `/admin/user/index.php` | High
-32 | File | `/admin/user/manage_user.php` | High
-33 | File | `/admin/userprofile.php` | High
-34 | File | `/alphaware/summary.php` | High
-35 | File | `/api/admin/attachments/upload` | High
-36 | File | `/api/snapshots/` | High
-37 | File | `/api/v1/terminal/sessions/?limit=1` | High
-38 | File | `/api/v2/maps` | Medium
-39 | File | `/application/index/controller/Service.php` | High
-40 | File | `/apply/index.php` | High
-41 | File | `/artist-display.php` | High
-42 | File | `/b2b-supermarket/shopping-cart` | High
-43 | File | `/blog-single.php` | High
-44 | File | `/book-services.php` | High
-45 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-46 | File | `/cart.php` | Medium
-47 | File | `/category.php` | High
-48 | File | `/cgi-bin/cstecgi.cgi` | High
-49 | File | `/cgi-bin/ExportAllSettings.sh` | High
-50 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-51 | File | `/cgi-bin/wlogin.cgi` | High
-52 | File | `/classes/Master.php?f=log_employee` | High
-53 | File | `/classes/Master.php?f=log_visitor` | High
-54 | File | `/classes/Users.php` | High
-55 | File | `/classes/Users.php?f=delete` | High
-56 | File | `/classes/Users.php?f=save` | High
-57 | File | `/cms/classes/Users.php?f=delete_client` | High
-58 | File | `/contact.php` | Medium
-59 | File | `/dashboard/add-portfolio.php` | High
-60 | File | `/debug/pprof` | Medium
-61 | ... | ... | ...
+1 | File | `/?import` | Medium
+2 | File | `/?page=tracks` | High
+3 | File | `/abcd/opac/php/otros_sitios.php` | High
+4 | File | `/Actions.php?a=login` | High
+5 | File | `/admin.php?m=Acquisi&a=testcj&lid=1` | High
+6 | File | `/admin/?page=musics/manage_music` | High
+7 | File | `/admin/about_edit.php?action=modify` | High
+8 | File | `/admin/categories/manage_category.php` | High
+9 | File | `/admin/edit_area.php` | High
+10 | File | `/admin/educloud/videobind.html` | High
+11 | File | `/admin/file_manager/export` | High
+12 | File | `/admin/file_manager/files` | High
+13 | File | `/Admin/Http/Controllers/FileManagerController.php` | High
+14 | File | `/admin/index.php?r=banner%2Fbanner-create` | High
+15 | File | `/admin/index.php?r=user%2Fcreate` | High
+16 | File | `/admin/login.php` | High
+17 | File | `/admin/notes/create` | High
+18 | File | `/admin/order.php` | High
+19 | File | `/Admin/registration.php` | High
+20 | File | `/admin/template/edit` | High
+21 | File | `/admin/user/user-move-run.php` | High
+22 | File | `/ajax.php?action=delete_deductions` | High
+23 | File | `/ajax/checkin.php` | High
+24 | File | `/ajax/chpwd.php` | High
+25 | File | `/ajax/getBasicInfo.php` | High
+26 | File | `/api/blade-system/menu/list?updatexml` | High
+27 | File | `/api/files/recipepictures/` | High
+28 | File | `/api/system/user?deptId=1&page=1&size=10` | High
+29 | File | `/api/v1/dashboards/export` | High
+30 | File | `/apply.cgi` | Medium
+31 | File | `/apply/index.php` | High
+32 | File | `/bin/boa` | Medium
+33 | File | `/buscar_integrada.php` | High
+34 | File | `/cgi-bin/apkg_mgr.cgi` | High
+35 | File | `/cgi-bin/cstecgi.cgi` | High
+36 | File | `/cgi-bin/discovery.cgi` | High
+37 | File | `/cgi-bin/hd_config.cgi` | High
+38 | File | `/cgi-bin/s3.cgi` | High
+39 | File | `/cgi-bin/webdav_mgr.cgi` | High
+40 | File | `/cgi-bin/webfile_mgr.cgi` | High
+41 | File | `/cgi-bin/widget_api.cgi` | High
+42 | File | `/cgi-bin/wlogin.cgi` | High
+43 | File | `/classes/Master.php?f=delete_category` | High
+44 | File | `/classes/Master.php?f=delete_record` | High
+45 | File | `/classes/SystemSettings.php?f=update_settings` | High
+46 | File | `/classes/Users.php?f=delete` | High
+47 | File | `/classes/Users.php?f=save_client` | High
+48 | File | `/clientdetails/admin/regester.php` | High
+49 | File | `/common/show_image.php` | High
+50 | File | `/controllers/add_client.php` | High
+51 | File | `/controllers/add_user.php` | High
+52 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
+53 | File | `/dist/index.js` | High
+54 | File | `/downloadFile.php` | High
+55 | File | `/ecommerce/admin/login.php` | High
+56 | File | `/ecommerce/admin/products/controller.php` | High
+57 | ... | ... | ...
 
-There are 538 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 498 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the campaign and the associated activities:
 
 * https://github.com/MelihOzturk/cyber-security-ip-blacklist/blob/main/log4j.txt
+* https://securitylabs.datadoghq.com/articles/the-gift-that-keeps-on-giving-a-new-opportunistic-log4j-campaign/
 * https://www.microsoft.com/security/blog/2022/08/25/mercury-leveraging-log4j-2-vulnerabilities-in-unpatched-systems-to-target-israeli-organizations/
 
 ## Literature

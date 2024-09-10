@@ -36,7 +36,7 @@ ID | IP address | Hostname | Campaign | Confidence
 7 | [54.39.18.111](https://vuldb.com/?ip.54.39.18.111) | orion.privatedns.com.br | - | High
 8 | ... | ... | ... | ...
 
-There are 28 more IOC items available. Please use our online service to access the data.
+There are 30 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -51,7 +51,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -75,29 +75,31 @@ ID | Type | Indicator | Confidence
 14 | File | `/HNAP1` | Low
 15 | File | `/Home/GetAttachment` | High
 16 | File | `/lesson/controller.php` | High
-17 | File | `/objects/getImageMP4.php` | High
-18 | File | `/objects/getSpiritsFromVideo.php` | High
-19 | File | `/payu/icpcheckout/` | High
-20 | File | `/php_action/createUser.php` | High
-21 | File | `/rest/review-coverage-chart/1.0/data/<repository_name>/.json` | High
-22 | File | `/src/jfif.c` | Medium
-23 | File | `/uncpath/` | Medium
-24 | File | `/usr/local/www/pkg.php` | High
-25 | File | `/v1/continue` | Medium
-26 | File | `/v1/tokens` | Medium
-27 | File | `/web/Public/Conn.php` | High
-28 | File | `adaptive-images-script.php` | High
-29 | File | `admin.php` | Medium
-30 | File | `admin/backupdb.php` | High
-31 | File | `admin/getparam.cgi` | High
-32 | File | `admin/index.php` | High
-33 | File | `admin/system_manage/user_config_add.html` | High
-34 | File | `admin_ajax.php?action=savexml&tab=vodplay` | High
-35 | File | `adm_config_report.php` | High
-36 | File | `aepx` | Low
-37 | ... | ... | ...
+17 | File | `/mkshope/login.php` | High
+18 | File | `/objects/getImageMP4.php` | High
+19 | File | `/objects/getSpiritsFromVideo.php` | High
+20 | File | `/payu/icpcheckout/` | High
+21 | File | `/php_action/createUser.php` | High
+22 | File | `/rest/review-coverage-chart/1.0/data/<repository_name>/.json` | High
+23 | File | `/see_more_details.php` | High
+24 | File | `/show_news.php` | High
+25 | File | `/src/jfif.c` | Medium
+26 | File | `/tracking/admin/view_itprofile.php` | High
+27 | File | `/tracking/nbproject/` | High
+28 | File | `/uncpath/` | Medium
+29 | File | `/usr/local/www/pkg.php` | High
+30 | File | `/v1/continue` | Medium
+31 | File | `/v1/tokens` | Medium
+32 | File | `/web/Public/Conn.php` | High
+33 | File | `/www/cgi-bin/cstecgi.cgi` | High
+34 | File | `adaptive-images-script.php` | High
+35 | File | `admin.php` | Medium
+36 | File | `admin/backupdb.php` | High
+37 | File | `admin/getparam.cgi` | High
+38 | File | `admin/index.php` | High
+39 | ... | ... | ...
 
-There are 313 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 332 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -107,6 +109,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://github.com/sophoslabs/IoCs/blob/master/Troj-gootloader.csv
 * https://socradar.io/new-gootloader-variant-gootbot-changes-the-game-in-malware-tactics/
 * https://thedfirreport.com/2022/05/09/seo-poisoning-a-gootloader-story/
+* https://threatfox.abuse.ch
 * https://tria.ge/220104-dp6htaadcn
 
 ## Literature

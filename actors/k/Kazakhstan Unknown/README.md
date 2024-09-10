@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Kazakhstan Unknown:
 
-* [PL](https://vuldb.com/?country.pl)
+* [CN](https://vuldb.com/?country.cn)
 * [RU](https://vuldb.com/?country.ru)
-* [FR](https://vuldb.com/?country.fr)
+* [KZ](https://vuldb.com/?country.kz)
 * ...
 
-There are 10 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -201,13 +201,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -215,20 +215,30 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-2 | File | `/catalog/all-products` | High
-3 | File | `/changePassword` | High
-4 | File | `/classes/Users.php?f=save` | High
-5 | File | `/forum/away.php` | High
-6 | File | `/goform/addIpMacBind` | High
-7 | File | `/goform/DelDhcpRule` | High
-8 | File | `/goform/delIpMacBind` | High
-9 | File | `/goform/DelPortMapping` | High
-10 | File | `/goform/modifyDhcpRule` | High
-11 | File | `/goform/modifyIpMacBind` | High
-12 | ... | ... | ...
+1 | File | `/+CSCOE+/logon.html` | High
+2 | File | `/adfs/ls` | Medium
+3 | File | `/admin/add_ikev2.php` | High
+4 | File | `/admin/category_save.php` | High
+5 | File | `/admin/list_ipAddressPolicy.php` | High
+6 | File | `/admin/manage_model.php` | High
+7 | File | `/admin/manage_user.php` | High
+8 | File | `/admin/subject.php` | High
+9 | File | `/api/baskets/{name}` | High
+10 | File | `/api/cron/settings/setJob/` | High
+11 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+12 | File | `/catalog/all-products` | High
+13 | File | `/cgi-bin/cstecgi.cgi` | High
+14 | File | `/changePassword` | High
+15 | File | `/classes/Users.php?f=save` | High
+16 | File | `/edit-subject.php` | High
+17 | File | `/endpoint/add-user.php` | High
+18 | File | `/etc/postfix/sender_login` | High
+19 | File | `/forum/away.php` | High
+20 | File | `/goform/SetSysTimeCfg` | High
+21 | File | `/goform/wifiSSIDget` | High
+22 | ... | ... | ...
 
-There are 90 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 178 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

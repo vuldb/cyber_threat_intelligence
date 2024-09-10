@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 5 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -54,22 +54,24 @@ ID | Type | Indicator | Confidence
 3 | File | `/admin/action/new-feed.php` | High
 4 | File | `/admin/action/update-deworm.php` | High
 5 | File | `/admin/ajax.php?action=save_area` | High
-6 | File | `/admin/pages/yearlevel.php` | High
-7 | File | `/admin/upload/img` | High
-8 | File | `/admin1/file/download` | High
-9 | File | `/ajax.php?action=read_msg` | High
-10 | File | `/api/baskets/{name}` | High
-11 | File | `/api/public/register/family` | High
-12 | File | `/application/index/controller/Databasesource.php` | High
-13 | File | `/application/index/controller/Datament.php` | High
-14 | File | `/application/index/controller/File.php` | High
-15 | File | `/application/index/controller/Pay.php` | High
-16 | File | `/ext/collect/filter_text.do` | High
-17 | File | `/file-manager/rename.php` | High
-18 | File | `/file-manager/upload.php` | High
-19 | ... | ... | ...
+6 | File | `/admin/order.php` | High
+7 | File | `/admin/pages/yearlevel.php` | High
+8 | File | `/admin/upload/img` | High
+9 | File | `/admin1/file/download` | High
+10 | File | `/ajax.php?action=read_msg` | High
+11 | File | `/api/baskets/{name}` | High
+12 | File | `/api/public/register/family` | High
+13 | File | `/application/index/controller/Databasesource.php` | High
+14 | File | `/application/index/controller/Datament.php` | High
+15 | File | `/application/index/controller/File.php` | High
+16 | File | `/application/index/controller/Pay.php` | High
+17 | File | `/ext/collect/filter_text.do` | High
+18 | File | `/file-manager/rename.php` | High
+19 | File | `/file-manager/upload.php` | High
+20 | File | `/filex/proxy-download` | High
+21 | ... | ... | ...
 
-There are 153 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 172 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

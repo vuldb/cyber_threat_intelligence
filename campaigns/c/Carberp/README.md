@@ -38,7 +38,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-24 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
@@ -58,62 +58,63 @@ ID | Type | Indicator | Confidence
 4 | File | `/admin/addemployee.php` | High
 5 | File | `/admin/budget/manage_budget.php` | High
 6 | File | `/admin/del_category.php` | High
-7 | File | `/admin/index.html` | High
-8 | File | `/admin/index.php?id=themes&action=edit_template&filename=blog` | High
-9 | File | `/admin/manage_academic.php` | High
-10 | File | `/admin/operations/expense_category.php` | High
-11 | File | `/admin/posts.php` | High
-12 | File | `/adms/admin/?page=vehicles/sell_vehicle` | High
-13 | File | `/ajax.php?action=read_msg` | High
-14 | File | `/ci_ssms/index.php/orders/create` | High
-15 | File | `/CPE` | Low
-16 | File | `/edoc/doctor/patient.php` | High
-17 | File | `/enterprise/www/student.php` | High
-18 | File | `/eval/admin/manage_subject.php` | High
-19 | File | `/forum/away.php` | High
-20 | File | `/front/actions.php` | High
-21 | File | `/fw.login.php` | High
-22 | File | `/h/autoSaveDraft` | High
-23 | File | `/home/masterConsole` | High
-24 | File | `/index.php` | Medium
-25 | File | `/membres/modif_profil.php` | High
-26 | File | `/ndmComponents.js` | High
-27 | File | `/NotrinosERP/sales/customer_delivery.php` | High
-28 | File | `/oauth/idp/.well-known/openid-configuration` | High
-29 | File | `/ordering/admin/category/index.php?view=edit` | High
-30 | File | `/pet_shop/admin/orders/update_status.php` | High
-31 | File | `/pms/index.php` | High
-32 | File | `/pms/update_user.php?user_id=1` | High
-33 | File | `/register.php` | High
-34 | File | `/SimpleBusTicket/index.php` | High
-35 | File | `/transcation.php` | High
-36 | File | `/uncpath/` | Medium
-37 | File | `/usr/bin/pkexec` | High
-38 | File | `/var/run/docker.sock` | High
-39 | File | `/view/emarks_range_grade_update_form.php` | High
-40 | File | `/wp-admin/admin-ajax.php` | High
-41 | File | `/xpdf/Stream.cc` | High
-42 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-43 | File | `adclick.php` | Medium
-44 | File | `addons/mediapool/pages/index.php` | High
-45 | File | `addpost_newpoll.php` | High
-46 | File | `adm-index.php` | High
-47 | File | `Admin.PHP` | Medium
-48 | File | `admin.php` | Medium
-49 | File | `admin.php&r=article/AdminContent/edit` | High
-50 | File | `admin/expense_report.php` | High
-51 | File | `admin/index.php` | High
-52 | File | `admin/ops/reports/ops/forum.php` | High
-53 | File | `admin/versions.html` | High
-54 | File | `admincp/attachment.php` | High
-55 | File | `adminedit.pl` | Medium
-56 | File | `admin_class.php` | High
-57 | File | `ajax.php` | Medium
-58 | File | `ajax/api/hook/getHookList` | High
-59 | File | `application/controllers/Leaves.php` | High
-60 | ... | ... | ...
+7 | File | `/admin/emp-profile-avatar.php` | High
+8 | File | `/admin/index.html` | High
+9 | File | `/admin/index.php?id=themes&action=edit_template&filename=blog` | High
+10 | File | `/admin/manage_academic.php` | High
+11 | File | `/admin/operations/expense_category.php` | High
+12 | File | `/admin/posts.php` | High
+13 | File | `/adms/admin/?page=vehicles/sell_vehicle` | High
+14 | File | `/ajax.php?action=read_msg` | High
+15 | File | `/cgi-bin/myMusic.cgi` | High
+16 | File | `/cgi-bin/p1_ftpserver.php` | High
+17 | File | `/ci_ssms/index.php/orders/create` | High
+18 | File | `/control/register_case.php` | High
+19 | File | `/CPE` | Low
+20 | File | `/edoc/doctor/patient.php` | High
+21 | File | `/enterprise/www/student.php` | High
+22 | File | `/eval/admin/manage_subject.php` | High
+23 | File | `/forum/away.php` | High
+24 | File | `/front/actions.php` | High
+25 | File | `/fw.login.php` | High
+26 | File | `/h/autoSaveDraft` | High
+27 | File | `/home/masterConsole` | High
+28 | File | `/index.php` | Medium
+29 | File | `/membres/modif_profil.php` | High
+30 | File | `/ndmComponents.js` | High
+31 | File | `/NotrinosERP/sales/customer_delivery.php` | High
+32 | File | `/oauth/idp/.well-known/openid-configuration` | High
+33 | File | `/ordering/admin/category/index.php?view=edit` | High
+34 | File | `/pet_shop/admin/orders/update_status.php` | High
+35 | File | `/pms/index.php` | High
+36 | File | `/pms/update_user.php?user_id=1` | High
+37 | File | `/register.php` | High
+38 | File | `/request.php` | Medium
+39 | File | `/SimpleBusTicket/index.php` | High
+40 | File | `/transcation.php` | High
+41 | File | `/uncpath/` | Medium
+42 | File | `/usr/bin/httpd` | High
+43 | File | `/usr/bin/pkexec` | High
+44 | File | `/var/run/docker.sock` | High
+45 | File | `/view/emarks_range_grade_update_form.php` | High
+46 | File | `/wp-admin/admin-ajax.php` | High
+47 | File | `/xpdf/Stream.cc` | High
+48 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+49 | File | `adclick.php` | Medium
+50 | File | `addons/mediapool/pages/index.php` | High
+51 | File | `addpost_newpoll.php` | High
+52 | File | `adm-index.php` | High
+53 | File | `Admin.PHP` | Medium
+54 | File | `admin.php` | Medium
+55 | File | `admin.php&r=article/AdminContent/edit` | High
+56 | File | `admin/expense_report.php` | High
+57 | File | `admin/index.php` | High
+58 | File | `admin/ops/reports/ops/forum.php` | High
+59 | File | `admin/versions.html` | High
+60 | File | `admincp/attachment.php` | High
+61 | ... | ... | ...
 
-There are 520 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 536 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

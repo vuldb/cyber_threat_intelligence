@@ -142,7 +142,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80, CWE-85 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -151,51 +151,51 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/api/admin/system/store/order/list` | High
-3 | File | `/cgi-bin/wapopen` | High
-4 | File | `/cgi-bin/wlogin.cgi` | High
-5 | File | `/csms/?page=contact_us` | High
-6 | File | `/etc/ajenti/config.yml` | High
-7 | File | `/forum/away.php` | High
-8 | File | `/goform/telnet` | High
-9 | File | `/modules/profile/index.php` | High
-10 | File | `/rom-0` | Low
-11 | File | `/tmp/out` | Medium
-12 | File | `/tmp/phpglibccheck` | High
-13 | File | `/uncpath/` | Medium
-14 | File | `/upload` | Low
-15 | File | `/var/tmp/sess_*` | High
-16 | File | `/whbs/?page=manage_account` | High
-17 | File | `action.php` | Medium
-18 | File | `actionphp/download.File.php` | High
-19 | File | `add_comment.php` | High
-20 | File | `admin/admin.php` | High
-21 | File | `admin/content.php` | High
-22 | File | `admin/index.php?id=users/action=edit/user_id=1` | High
-23 | File | `admin/memberviewdetails.php` | High
-24 | File | `admin_gallery.php3` | High
-25 | File | `affich.php` | Medium
-26 | File | `agent/Core/Controller/SendRequest.cpp` | High
-27 | File | `ajax/telemetry.php` | High
-28 | File | `akeyActivationLogin.do` | High
-29 | File | `album_portal.php` | High
-30 | File | `apache-auth.conf` | High
-31 | File | `askapache-firefox-adsense.php` | High
-32 | File | `attachment.cgi` | High
-33 | File | `blueprints/sections/edit/1` | High
-34 | File | `boaform/admin/formPing` | High
-35 | File | `books.php` | Medium
-36 | File | `cart_add.php` | Medium
-37 | File | `CFS.c` | Low
-38 | File | `checktransferstatus.php` | High
-39 | File | `class.SystemAction.php` | High
-40 | File | `clientarea.php` | High
-41 | File | `CMSInstall/install.aspx` | High
-42 | File | `collectivite.class.php` | High
-43 | File | `com_android_bluetooth_btservice_AdapterService.cpp` | High
+2 | File | `/admin/pages/` | High
+3 | File | `/admins` | Low
+4 | File | `/api/admin/system/store/order/list` | High
+5 | File | `/cgi-bin/cstecgi.cgi` | High
+6 | File | `/cgi-bin/wapopen` | High
+7 | File | `/cgi-bin/wlogin.cgi` | High
+8 | File | `/csms/?page=contact_us` | High
+9 | File | `/etc/ajenti/config.yml` | High
+10 | File | `/farm/product.php` | High
+11 | File | `/forum/away.php` | High
+12 | File | `/goform/telnet` | High
+13 | File | `/modules/profile/index.php` | High
+14 | File | `/ptippage.cgi` | High
+15 | File | `/rom-0` | Low
+16 | File | `/tmp/out` | Medium
+17 | File | `/tmp/phpglibccheck` | High
+18 | File | `/uncpath/` | Medium
+19 | File | `/upload` | Low
+20 | File | `/var/tmp/sess_*` | High
+21 | File | `/whbs/?page=manage_account` | High
+22 | File | `action.php` | Medium
+23 | File | `actionphp/download.File.php` | High
+24 | File | `add_comment.php` | High
+25 | File | `admin/admin.php` | High
+26 | File | `admin/content.php` | High
+27 | File | `admin/index.php?id=users/action=edit/user_id=1` | High
+28 | File | `admin/memberviewdetails.php` | High
+29 | File | `admin_gallery.php3` | High
+30 | File | `affich.php` | Medium
+31 | File | `agent/Core/Controller/SendRequest.cpp` | High
+32 | File | `ajax/telemetry.php` | High
+33 | File | `akeyActivationLogin.do` | High
+34 | File | `album_portal.php` | High
+35 | File | `apache-auth.conf` | High
+36 | File | `askapache-firefox-adsense.php` | High
+37 | File | `attachment.cgi` | High
+38 | File | `blueprints/sections/edit/1` | High
+39 | File | `boaform/admin/formPing` | High
+40 | File | `books.php` | Medium
+41 | File | `cart_add.php` | Medium
+42 | File | `CFS.c` | Low
+43 | File | `checktransferstatus.php` | High
 44 | ... | ... | ...
 
-There are 377 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 381 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

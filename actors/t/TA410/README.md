@@ -39,7 +39,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059 | CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
 
-There are 13 more TTP items available. Please use our online service to access the data.
+There are 14 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -51,18 +51,19 @@ ID | Type | Indicator | Confidence
 2 | File | `/api/RecordingList/DownloadRecord?file=` | High
 3 | File | `/api /v3/auth` | High
 4 | File | `/apply.cgi` | Medium
-5 | File | `/cgi-bin/wlogin.cgi` | High
-6 | File | `/gena.cgi` | Medium
-7 | File | `/MIME/INBOX-MM-1/` | High
-8 | File | `/netflow/jspui/editProfile.jsp` | High
-9 | File | `/php/ping.php` | High
-10 | File | `/rapi/read_url` | High
-11 | File | `/scripts/unlock_tasks.php` | High
-12 | File | `/sec/content/sec_asa_users_local_db_add.html` | High
-13 | File | `/see_more_details.php` | High
-14 | ... | ... | ...
+5 | File | `/cgi-bin/cstecgi.cgi` | High
+6 | File | `/cgi-bin/wlogin.cgi` | High
+7 | File | `/gena.cgi` | Medium
+8 | File | `/MIME/INBOX-MM-1/` | High
+9 | File | `/netflow/jspui/editProfile.jsp` | High
+10 | File | `/php/ping.php` | High
+11 | File | `/rapi/read_url` | High
+12 | File | `/scripts/unlock_tasks.php` | High
+13 | File | `/sec/content/sec_asa_users_local_db_add.html` | High
+14 | File | `/see_more_details.php` | High
+15 | ... | ... | ...
 
-There are 115 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 122 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

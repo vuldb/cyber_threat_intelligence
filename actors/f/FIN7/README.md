@@ -19,12 +19,12 @@ There are 3 more campaign items available. Please use our online service to acce
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with FIN7:
 
-* [PL](https://vuldb.com/?country.pl)
-* [RU](https://vuldb.com/?country.ru)
 * [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 10 more country items available. Please use our online service to access the data.
+There are 17 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -106,12 +106,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Path Traversal | High
-2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059 | CWE-94 | Argument Injection | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-29, CWE-425 | Path Traversal | High
+2 | T1055 | CWE-74, CWE-643 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -119,24 +120,44 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/Admin/changepassword.php` | High
-2 | File | `/admin/general-setting` | High
-3 | File | `/admin/service` | High
-4 | File | `/catalog/all-products` | High
-5 | File | `/changePassword` | High
-6 | File | `/forum/away.php` | High
-7 | File | `/goform/addIpMacBind` | High
-8 | File | `/goform/DelDhcpRule` | High
-9 | File | `/goform/delIpMacBind` | High
-10 | File | `/goform/DelPortMapping` | High
-11 | File | `/goform/modifyDhcpRule` | High
-12 | File | `/goform/modifyIpMacBind` | High
-13 | File | `/goform/setBlackRule` | High
-14 | File | `/goform/SetDDNSCfg` | High
-15 | File | `/goform/SetLEDCfg` | High
-16 | ... | ... | ...
+1 | File | `/.pomerium` | Medium
+2 | File | `/admin/add_ikev2.php` | High
+3 | File | `/admin/ajax.php?action=delete_user` | High
+4 | File | `/admin/category_save.php` | High
+5 | File | `/Admin/changepassword.php` | High
+6 | File | `/admin/general-setting` | High
+7 | File | `/admin/inquiries/view_inquiry.php` | High
+8 | File | `/admin/list_ipAddressPolicy.php` | High
+9 | File | `/admin/manage_model.php` | High
+10 | File | `/admin/manage_user.php` | High
+11 | File | `/admin/order.php` | High
+12 | File | `/admin/projects/{projectname}/skills/{skillname}/video` | High
+13 | File | `/admin/service` | High
+14 | File | `/admin/subject.php` | High
+15 | File | `/api/v1/custom_component` | High
+16 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+17 | File | `/catalog/all-products` | High
+18 | File | `/category.php` | High
+19 | File | `/cgi-bin/cstecgi.cgi` | High
+20 | File | `/cgi-bin/nas_sharing.cgi` | High
+21 | File | `/classes/Master.php` | High
+22 | File | `/classes/Master.php?f=delete_category` | High
+23 | File | `/classes/Master.php?f=save_medicine` | High
+24 | File | `/classes/Users.php?f=delete` | High
+25 | File | `/DXR.axd` | Medium
+26 | File | `/edit-subject.php` | High
+27 | File | `/endpoint/add-user.php` | High
+28 | File | `/etc/postfix/sender_login` | High
+29 | File | `/etc/shadow` | Medium
+30 | File | `/forum/away.php` | High
+31 | File | `/goform/SetIpMacBind` | High
+32 | File | `/goform/SetSysTimeCfg` | High
+33 | File | `/goform/set_ntp` | High
+34 | File | `/goform/WifiExtraSet` | High
+35 | File | `/guestbook` | Medium
+36 | ... | ... | ...
 
-There are 125 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 310 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

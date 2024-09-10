@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 13 more country items available. Please use our online service to access the data.
+There are 14 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -59,7 +59,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -86,17 +86,17 @@ ID | Type | Indicator | Confidence
 17 | File | `/applications/nexus/modules/front/store/store.php` | High
 18 | File | `/App_Resource/UEditor/server/upload.aspx` | High
 19 | File | `/authenticationendpoint/login.do` | High
-20 | File | `/backup.pl` | Medium
-21 | File | `/bitrix/admin/ldap_server_edit.php` | High
-22 | File | `/c/PluginsController.php` | High
-23 | File | `/cas/logout` | Medium
-24 | File | `/category.php` | High
-25 | File | `/cgi-bin/nas_sharing.cgi` | High
+20 | File | `/bitrix/admin/ldap_server_edit.php` | High
+21 | File | `/c/PluginsController.php` | High
+22 | File | `/category.php` | High
+23 | File | `/cgi-bin/cstecgi.cgi` | High
+24 | File | `/cgi-bin/nas_sharing.cgi` | High
+25 | File | `/cgi-bin/photocenter_mgr.cgi` | High
 26 | File | `/chaincity/user/ticket/create` | High
-27 | File | `/classes/Master.php?f=save_category` | High
-28 | File | `/classes/Users.php?f=save` | High
-29 | File | `/collection/all` | High
-30 | File | `/contactform/contactform.php` | High
+27 | File | `/classes/Master.php` | High
+28 | File | `/classes/Master.php?f=save_category` | High
+29 | File | `/classes/Users.php?f=save` | High
+30 | File | `/collection/all` | High
 31 | File | `/Controller/Ajaxfileupload.ashx` | High
 32 | File | `/dcim/rack-roles/` | High
 33 | File | `/ecommerce/support_ticket` | High
@@ -107,12 +107,13 @@ ID | Type | Indicator | Confidence
 38 | File | `/formSysLog` | Medium
 39 | File | `/forum/away.php` | High
 40 | File | `/friends/ajax_invite` | High
-41 | File | `/goform/WifiGuestSet` | High
-42 | File | `/home/filter_listings` | High
-43 | File | `/index.php` | Medium
-44 | ... | ... | ...
+41 | File | `/goform/SetOnlineDevName` | High
+42 | File | `/goform/WifiGuestSet` | High
+43 | File | `/home/filter_listings` | High
+44 | File | `/image.php` | Medium
+45 | ... | ... | ...
 
-There are 381 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 387 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -80,9 +80,10 @@ ID | Type | Indicator | Confidence
 22 | File | `/pet_shop/admin/?page=maintenance/manage_category` | High
 23 | File | `/release-x64/otfccdump+0x6c0a32` | High
 24 | File | `/release-x64/otfccdump+0x703969` | High
-25 | ... | ... | ...
+25 | File | `/sentrifugo/index.php/index/getdepartments/format/html` | High
+26 | ... | ... | ...
 
-There are 214 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 218 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

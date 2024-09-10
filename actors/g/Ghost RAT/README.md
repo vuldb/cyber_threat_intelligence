@@ -31,30 +31,35 @@ ID | IP address | Hostname | Campaign | Confidence
 12 | [3.141.177.1](https://vuldb.com/?ip.3.141.177.1) | ec2-3-141-177-1.us-east-2.compute.amazonaws.com | - | Medium
 13 | [3.142.81.166](https://vuldb.com/?ip.3.142.81.166) | ec2-3-142-81-166.us-east-2.compute.amazonaws.com | - | Medium
 14 | [8.130.11.62](https://vuldb.com/?ip.8.130.11.62) | - | - | High
-15 | [8.210.206.52](https://vuldb.com/?ip.8.210.206.52) | - | - | High
-16 | [8.217.223.172](https://vuldb.com/?ip.8.217.223.172) | - | - | High
-17 | [13.58.157.220](https://vuldb.com/?ip.13.58.157.220) | ec2-13-58-157-220.us-east-2.compute.amazonaws.com | - | Medium
-18 | [18.158.249.75](https://vuldb.com/?ip.18.158.249.75) | ec2-18-158-249-75.eu-central-1.compute.amazonaws.com | - | Medium
-19 | [18.189.106.45](https://vuldb.com/?ip.18.189.106.45) | ec2-18-189-106-45.us-east-2.compute.amazonaws.com | - | Medium
-20 | [18.192.31.165](https://vuldb.com/?ip.18.192.31.165) | ec2-18-192-31-165.eu-central-1.compute.amazonaws.com | - | Medium
-21 | [23.106.215.217](https://vuldb.com/?ip.23.106.215.217) | - | - | High
-22 | [23.225.73.110](https://vuldb.com/?ip.23.225.73.110) | - | - | High
-23 | [23.251.41.162](https://vuldb.com/?ip.23.251.41.162) | - | - | High
-24 | [27.25.156.47](https://vuldb.com/?ip.27.25.156.47) | - | - | High
-25 | [38.47.204.154](https://vuldb.com/?ip.38.47.204.154) | - | - | High
-26 | [38.181.20.78](https://vuldb.com/?ip.38.181.20.78) | - | - | High
-27 | [38.181.58.21](https://vuldb.com/?ip.38.181.58.21) | uhn19.pm.com | - | High
-28 | [39.109.113.141](https://vuldb.com/?ip.39.109.113.141) | - | - | High
-29 | [42.237.24.42](https://vuldb.com/?ip.42.237.24.42) | hn.kd.ny.adsl | - | High
-30 | [42.237.25.52](https://vuldb.com/?ip.42.237.25.52) | hn.kd.ny.adsl | - | High
-31 | [43.129.192.59](https://vuldb.com/?ip.43.129.192.59) | - | - | High
-32 | [43.136.78.18](https://vuldb.com/?ip.43.136.78.18) | - | - | High
-33 | [43.139.48.143](https://vuldb.com/?ip.43.139.48.143) | - | - | High
-34 | [43.142.38.153](https://vuldb.com/?ip.43.142.38.153) | - | - | High
-35 | [43.248.129.152](https://vuldb.com/?ip.43.248.129.152) | - | - | High
-36 | ... | ... | ... | ...
+15 | [8.210.22.92](https://vuldb.com/?ip.8.210.22.92) | - | - | High
+16 | [8.210.206.52](https://vuldb.com/?ip.8.210.206.52) | - | - | High
+17 | [8.217.223.172](https://vuldb.com/?ip.8.217.223.172) | - | - | High
+18 | [13.58.157.220](https://vuldb.com/?ip.13.58.157.220) | ec2-13-58-157-220.us-east-2.compute.amazonaws.com | - | Medium
+19 | [18.158.249.75](https://vuldb.com/?ip.18.158.249.75) | ec2-18-158-249-75.eu-central-1.compute.amazonaws.com | - | Medium
+20 | [18.189.106.45](https://vuldb.com/?ip.18.189.106.45) | ec2-18-189-106-45.us-east-2.compute.amazonaws.com | - | Medium
+21 | [18.192.31.165](https://vuldb.com/?ip.18.192.31.165) | ec2-18-192-31-165.eu-central-1.compute.amazonaws.com | - | Medium
+22 | [23.106.215.217](https://vuldb.com/?ip.23.106.215.217) | - | - | High
+23 | [23.225.73.110](https://vuldb.com/?ip.23.225.73.110) | - | - | High
+24 | [23.251.41.162](https://vuldb.com/?ip.23.251.41.162) | - | - | High
+25 | [27.25.156.47](https://vuldb.com/?ip.27.25.156.47) | - | - | High
+26 | [27.156.64.88](https://vuldb.com/?ip.27.156.64.88) | 88.64.156.27.broad.fz.fj.dynamic.163data.com.cn | - | High
+27 | [36.212.238.69](https://vuldb.com/?ip.36.212.238.69) | - | - | High
+28 | [38.47.204.154](https://vuldb.com/?ip.38.47.204.154) | - | - | High
+29 | [38.181.20.78](https://vuldb.com/?ip.38.181.20.78) | - | - | High
+30 | [38.181.58.21](https://vuldb.com/?ip.38.181.58.21) | uhn19.pm.com | - | High
+31 | [39.109.113.141](https://vuldb.com/?ip.39.109.113.141) | - | - | High
+32 | [42.237.24.42](https://vuldb.com/?ip.42.237.24.42) | hn.kd.ny.adsl | - | High
+33 | [42.237.25.52](https://vuldb.com/?ip.42.237.25.52) | hn.kd.ny.adsl | - | High
+34 | [43.129.192.59](https://vuldb.com/?ip.43.129.192.59) | - | - | High
+35 | [43.136.78.18](https://vuldb.com/?ip.43.136.78.18) | - | - | High
+36 | [43.139.48.143](https://vuldb.com/?ip.43.139.48.143) | - | - | High
+37 | [43.142.38.153](https://vuldb.com/?ip.43.142.38.153) | - | - | High
+38 | [43.248.129.152](https://vuldb.com/?ip.43.248.129.152) | - | - | High
+39 | [43.248.137.153](https://vuldb.com/?ip.43.248.137.153) | - | - | High
+40 | [43.249.195.178](https://vuldb.com/?ip.43.249.195.178) | - | - | High
+41 | ... | ... | ... | ...
 
-There are 138 more IOC items available. Please use our online service to access the data.
+There are 158 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -77,27 +82,32 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin.php?p=/Area/index#tab=t2` | High
-2 | File | `/admin/students.php` | High
-3 | File | `/adminPage/www/addOver` | High
-4 | File | `/application/index/controller/Screen.php` | High
-5 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-6 | File | `/dataSet/testTransform;swagger-ui` | High
-7 | File | `/dayrui/Fcms/View/system_log.html` | High
-8 | File | `/dayrui/My/View/main.html` | High
-9 | File | `/goform/execCommand` | High
-10 | File | `/goform/SetRebootTimer` | High
-11 | File | `/goform/WriteFacMac` | High
-12 | File | `/htdocs/cgibin` | High
-13 | File | `/module/comment/save` | High
-14 | File | `/new_item` | Medium
-15 | File | `/novel/bookSetting/list` | High
-16 | File | `/purchase.php` | High
-17 | File | `/root` | Low
-18 | File | `/scripts/unlock_tasks.php` | High
-19 | File | `/servicedesk/customer/portals` | High
-20 | ... | ... | ...
+2 | File | `/admin/index2.html` | High
+3 | File | `/admin/sql` | Medium
+4 | File | `/admin/students.php` | High
+5 | File | `/admin/students/manage.php` | High
+6 | File | `/admin/system.html` | High
+7 | File | `/adminPage/conf/reload` | High
+8 | File | `/adminPage/www/addOver` | High
+9 | File | `/api/Common/uploadFile` | High
+10 | File | `/application/index/controller/Icon.php` | High
+11 | File | `/application/index/controller/Screen.php` | High
+12 | File | `/bin/ate` | Medium
+13 | File | `/boaform/device_reset.cgi` | High
+14 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+15 | File | `/cgi-bin/cstecgi.cgi` | High
+16 | File | `/dataSet/testTransform;swagger-ui` | High
+17 | File | `/dayrui/Fcms/View/system_log.html` | High
+18 | File | `/dayrui/My/View/main.html` | High
+19 | File | `/goform/execCommand` | High
+20 | File | `/goform/goform_get_cmd_process` | High
+21 | File | `/goform/SetRebootTimer` | High
+22 | File | `/goform/WriteFacMac` | High
+23 | File | `/htdocs/cgibin` | High
+24 | File | `/index.php` | Medium
+25 | ... | ... | ...
 
-There are 161 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 209 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -105,6 +115,7 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://app.any.run/tasks/81b90352-c3d4-4094-8e38-86dc4110411d/
 * https://app.any.run/tasks/571ba149-8de2-4b77-af61-c7fc259eacc3
+* https://asec.ahnlab.com/en/67650/
 * https://bazaar.abuse.ch/sample/78be65f626e4a9e81c655b36c96dacc8898287d4954cbffd98788e602369f8ca/
 * https://bazaar.abuse.ch/sample/133224bb212564ed0b687341512fa57fe2a55e54defededb5517ac8d8b239677/
 * https://bazaar.abuse.ch/sample/ca15a055b2e1d06a8fbd3a22341aeda29bbc19688b778dc3a15c615f0367bc21/
@@ -112,6 +123,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/1.13.249.49
 * https://search.censys.io/hosts/1.92.90.232
 * https://search.censys.io/hosts/8.130.11.62
+* https://search.censys.io/hosts/27.156.64.88
 * https://search.censys.io/hosts/43.136.78.18
 * https://search.censys.io/hosts/43.248.137.153
 * https://search.censys.io/hosts/60.165.248.206
@@ -126,9 +138,13 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/106.52.216.65
 * https://search.censys.io/hosts/112.123.63.87
 * https://search.censys.io/hosts/116.63.35.42
+* https://search.censys.io/hosts/117.24.12.243
 * https://search.censys.io/hosts/121.5.136.143
 * https://search.censys.io/hosts/121.22.243.241
 * https://search.censys.io/hosts/121.62.16.112
+* https://search.censys.io/hosts/122.9.69.40
+* https://search.censys.io/hosts/122.51.35.39
+* https://search.censys.io/hosts/124.222.81.240
 * https://search.censys.io/hosts/124.222.227.63
 * https://search.censys.io/hosts/124.223.199.81
 * https://search.censys.io/hosts/125.229.22.79
@@ -140,11 +156,14 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/156.224.27.167
 * https://search.censys.io/hosts/180.97.238.152
 * https://search.censys.io/hosts/180.97.238.254
+* https://search.censys.io/hosts/202.63.172.119
+* https://search.censys.io/hosts/202.63.172.120
 * https://search.censys.io/hosts/202.63.172.122
 * https://search.censys.io/hosts/211.101.247.155
 * https://search.censys.io/hosts/221.159.15.231
 * https://search.censys.io/hosts/222.222.106.47
 * https://threatfox.abuse.ch
+* https://tria.ge/240827-w8tbpsxbkr/behavioral2
 * https://www.virustotal.com/gui/file/d565948a3b1b0d86166b62553864a7739284a292cc9c832fddf696bb274f8166/detection
 
 ## Literature

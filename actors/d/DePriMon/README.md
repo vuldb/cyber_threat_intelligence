@@ -52,18 +52,19 @@ ID | Type | Indicator | Confidence
 2 | File | `/api/RecordingList/DownloadRecord?file=` | High
 3 | File | `/apply.cgi` | Medium
 4 | File | `/apply/index.php` | High
-5 | File | `/include/file.php` | High
-6 | File | `/netflow/jspui/editProfile.jsp` | High
-7 | File | `/php/ping.php` | High
-8 | File | `/rapi/read_url` | High
-9 | File | `/scripts/unlock_tasks.php` | High
-10 | File | `/SysInfo1.htm` | High
-11 | File | `/sysinfo_json.cgi` | High
-12 | File | `/system/dictData/loadDictItem` | High
-13 | File | `/system/user/modules/mod_users/controller.php` | High
-14 | ... | ... | ...
+5 | File | `/cgi-bin/cstecgi.cgi` | High
+6 | File | `/include/file.php` | High
+7 | File | `/netflow/jspui/editProfile.jsp` | High
+8 | File | `/php/ping.php` | High
+9 | File | `/rapi/read_url` | High
+10 | File | `/scripts/unlock_tasks.php` | High
+11 | File | `/SysInfo1.htm` | High
+12 | File | `/sysinfo_json.cgi` | High
+13 | File | `/system/dictData/loadDictItem` | High
+14 | File | `/system/user/modules/mod_users/controller.php` | High
+15 | ... | ... | ...
 
-There are 112 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 115 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

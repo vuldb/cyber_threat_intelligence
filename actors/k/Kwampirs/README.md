@@ -139,12 +139,12 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-29, CWE-425 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
+3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-273, CWE-274, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -152,34 +152,46 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/students.php` | High
-2 | File | `/adminPage/www/addOver` | High
-3 | File | `/API/info` | Medium
-4 | File | `/api/sys/login` | High
-5 | File | `/api/sys/set_passwd` | High
-6 | File | `/application/index/controller/Screen.php` | High
-7 | File | `/bcms/admin/?page=user/manage_user` | High
-8 | File | `/cgi-bin/ExportAllSettings.sh` | High
-9 | File | `/cgi-bin/nas_sharing.cgi` | High
-10 | File | `/dataSet/testTransform;swagger-ui` | High
-11 | File | `/dayrui/Fcms/View/system_log.html` | High
-12 | File | `/dayrui/My/View/main.html` | High
-13 | File | `/goform/execCommand` | High
-14 | File | `/goform/SetNetControlList` | High
-15 | File | `/goform/SetRebootTimer` | High
-16 | File | `/goform/WriteFacMac` | High
-17 | File | `/list` | Low
-18 | File | `/login.php?m=admin&c=Field&a=channel_edit` | High
-19 | File | `/manage/IPSetup.php` | High
-20 | File | `/module/comment/save` | High
-21 | File | `/new_item` | Medium
-22 | File | `/novel/bookSetting/list` | High
-23 | File | `/registrar/?page=registration` | High
-24 | File | `/servicedesk/customer/portals` | High
-25 | File | `/sys/kernel/notes` | High
-26 | ... | ... | ...
+1 | File | `/admin.php?p=/Area/index#tab=t2` | High
+2 | File | `/admin/` | Low
+3 | File | `/admin/admin-update-employee.php` | High
+4 | File | `/admin/index2.html` | High
+5 | File | `/admin/sql` | Medium
+6 | File | `/admin/students.php` | High
+7 | File | `/admin/students/manage.php` | High
+8 | File | `/admin/system.html` | High
+9 | File | `/adminPage/conf/reload` | High
+10 | File | `/adminPage/www/addOver` | High
+11 | File | `/ajax/check_medicine_name.php` | High
+12 | File | `/api/1.0/rest/language_configuration` | High
+13 | File | `/API/info` | Medium
+14 | File | `/api/sys/login` | High
+15 | File | `/api/sys/set_passwd` | High
+16 | File | `/application/index/controller/Icon.php` | High
+17 | File | `/application/index/controller/Screen.php` | High
+18 | File | `/bcms/admin/?page=user/manage_user` | High
+19 | File | `/bin/ate` | Medium
+20 | File | `/boaform/device_reset.cgi` | High
+21 | File | `/cgi-bin/cstecgi.cgi` | High
+22 | File | `/cgi-bin/ExportAllSettings.sh` | High
+23 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+24 | File | `/cgi-bin/nas_sharing.cgi` | High
+25 | File | `/cgi-bin/supervisor/adcommand.cgi` | High
+26 | File | `/cgi-bin/tosei_kikai.php` | High
+27 | File | `/dataSet/testTransform;swagger-ui` | High
+28 | File | `/dayrui/Fcms/View/system_log.html` | High
+29 | File | `/dayrui/My/View/main.html` | High
+30 | File | `/DXR.axd` | Medium
+31 | File | `/EXCU_SHELL` | Medium
+32 | File | `/fileupload/upload.cfm` | High
+33 | File | `/goform/execCommand` | High
+34 | File | `/goform/goform_get_cmd_process` | High
+35 | File | `/goform/modifyDhcpRule` | High
+36 | File | `/goform/ModifyPppAuthWhiteMac` | High
+37 | File | `/goform/SetNetControlList` | High
+38 | ... | ... | ...
 
-There are 220 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 327 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

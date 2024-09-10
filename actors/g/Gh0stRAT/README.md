@@ -9,6 +9,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 The following _campaigns_ are known and can be associated with Gh0stRAT:
 
 * CVE-2024-23692
+* GH0stGambit
 
 ## Countries
 
@@ -19,7 +20,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [VN](https://vuldb.com/?country.vn)
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -56,47 +57,49 @@ ID | IP address | Hostname | Campaign | Confidence
 27 | [34.98.99.30](https://vuldb.com/?ip.34.98.99.30) | 30.99.98.34.bc.googleusercontent.com | - | Medium
 28 | [36.43.74.215](https://vuldb.com/?ip.36.43.74.215) | - | - | High
 29 | [36.46.114.54](https://vuldb.com/?ip.36.46.114.54) | - | - | High
-30 | [39.109.1.246](https://vuldb.com/?ip.39.109.1.246) | - | - | High
-31 | [39.109.5.112](https://vuldb.com/?ip.39.109.5.112) | - | - | High
-32 | [39.156.66.108](https://vuldb.com/?ip.39.156.66.108) | - | - | High
-33 | [42.51.192.3](https://vuldb.com/?ip.42.51.192.3) | - | - | High
-34 | [42.236.77.185](https://vuldb.com/?ip.42.236.77.185) | hn.kd.ny.adsl | - | High
-35 | [43.226.152.12](https://vuldb.com/?ip.43.226.152.12) | - | - | High
-36 | [43.226.152.24](https://vuldb.com/?ip.43.226.152.24) | - | - | High
-37 | [43.226.159.201](https://vuldb.com/?ip.43.226.159.201) | - | - | High
-38 | [43.248.129.49](https://vuldb.com/?ip.43.248.129.49) | - | - | High
-39 | [43.248.201.209](https://vuldb.com/?ip.43.248.201.209) | - | - | High
-40 | [45.66.164.37](https://vuldb.com/?ip.45.66.164.37) | 37.164-66-45.rdns.scalabledns.com | - | High
-41 | [45.114.11.137](https://vuldb.com/?ip.45.114.11.137) | - | - | High
-42 | [45.119.125.223](https://vuldb.com/?ip.45.119.125.223) | - | - | High
-43 | [45.195.203.97](https://vuldb.com/?ip.45.195.203.97) | - | - | High
-44 | [45.253.67.78](https://vuldb.com/?ip.45.253.67.78) | - | - | High
-45 | [46.82.174.69](https://vuldb.com/?ip.46.82.174.69) | p2e52ae45.dip0.t-ipconnect.de | - | High
-46 | [47.52.162.13](https://vuldb.com/?ip.47.52.162.13) | - | - | High
-47 | [47.93.52.188](https://vuldb.com/?ip.47.93.52.188) | - | - | High
-48 | [47.93.245.163](https://vuldb.com/?ip.47.93.245.163) | - | - | High
-49 | [47.94.138.49](https://vuldb.com/?ip.47.94.138.49) | - | - | High
-50 | [47.95.233.18](https://vuldb.com/?ip.47.95.233.18) | - | - | High
-51 | [47.98.248.205](https://vuldb.com/?ip.47.98.248.205) | - | - | High
-52 | [47.111.82.157](https://vuldb.com/?ip.47.111.82.157) | - | - | High
-53 | [47.112.30.91](https://vuldb.com/?ip.47.112.30.91) | - | - | High
-54 | [47.246.24.233](https://vuldb.com/?ip.47.246.24.233) | - | - | High
-55 | [47.246.24.234](https://vuldb.com/?ip.47.246.24.234) | - | - | High
-56 | [49.2.123.56](https://vuldb.com/?ip.49.2.123.56) | - | - | High
-57 | [49.7.37.126](https://vuldb.com/?ip.49.7.37.126) | - | - | High
-58 | [52.168.117.173](https://vuldb.com/?ip.52.168.117.173) | - | - | High
-59 | [52.182.143.212](https://vuldb.com/?ip.52.182.143.212) | - | - | High
-60 | [54.76.135.1](https://vuldb.com/?ip.54.76.135.1) | ec2-54-76-135-1.eu-west-1.compute.amazonaws.com | - | Medium
-61 | [58.55.149.231](https://vuldb.com/?ip.58.55.149.231) | - | - | High
-62 | [58.55.154.119](https://vuldb.com/?ip.58.55.154.119) | - | - | High
-63 | [58.218.66.21](https://vuldb.com/?ip.58.218.66.21) | - | - | High
-64 | [58.218.67.245](https://vuldb.com/?ip.58.218.67.245) | - | - | High
-65 | [58.218.199.225](https://vuldb.com/?ip.58.218.199.225) | - | - | High
-66 | [58.221.47.41](https://vuldb.com/?ip.58.221.47.41) | - | - | High
-67 | [58.221.47.47](https://vuldb.com/?ip.58.221.47.47) | - | - | High
-68 | ... | ... | ... | ...
+30 | [38.181.34.72](https://vuldb.com/?ip.38.181.34.72) | - | GH0stGambit | High
+31 | [38.181.34.153](https://vuldb.com/?ip.38.181.34.153) | - | GH0stGambit | High
+32 | [38.181.34.182](https://vuldb.com/?ip.38.181.34.182) | - | GH0stGambit | High
+33 | [38.181.35.71](https://vuldb.com/?ip.38.181.35.71) | - | GH0stGambit | High
+34 | [38.181.35.129](https://vuldb.com/?ip.38.181.35.129) | - | GH0stGambit | High
+35 | [39.109.1.246](https://vuldb.com/?ip.39.109.1.246) | - | - | High
+36 | [39.109.5.112](https://vuldb.com/?ip.39.109.5.112) | - | - | High
+37 | [39.156.66.108](https://vuldb.com/?ip.39.156.66.108) | - | - | High
+38 | [42.51.192.3](https://vuldb.com/?ip.42.51.192.3) | - | - | High
+39 | [42.236.77.185](https://vuldb.com/?ip.42.236.77.185) | hn.kd.ny.adsl | - | High
+40 | [43.226.152.12](https://vuldb.com/?ip.43.226.152.12) | - | - | High
+41 | [43.226.152.24](https://vuldb.com/?ip.43.226.152.24) | - | - | High
+42 | [43.226.159.201](https://vuldb.com/?ip.43.226.159.201) | - | - | High
+43 | [43.248.129.49](https://vuldb.com/?ip.43.248.129.49) | - | - | High
+44 | [43.248.201.209](https://vuldb.com/?ip.43.248.201.209) | - | - | High
+45 | [45.66.164.37](https://vuldb.com/?ip.45.66.164.37) | 37.164-66-45.rdns.scalabledns.com | - | High
+46 | [45.114.11.137](https://vuldb.com/?ip.45.114.11.137) | - | - | High
+47 | [45.119.125.223](https://vuldb.com/?ip.45.119.125.223) | - | - | High
+48 | [45.195.203.97](https://vuldb.com/?ip.45.195.203.97) | - | - | High
+49 | [45.253.67.78](https://vuldb.com/?ip.45.253.67.78) | - | - | High
+50 | [46.82.174.69](https://vuldb.com/?ip.46.82.174.69) | p2e52ae45.dip0.t-ipconnect.de | - | High
+51 | [47.52.162.13](https://vuldb.com/?ip.47.52.162.13) | - | - | High
+52 | [47.93.52.188](https://vuldb.com/?ip.47.93.52.188) | - | - | High
+53 | [47.93.245.163](https://vuldb.com/?ip.47.93.245.163) | - | - | High
+54 | [47.94.138.49](https://vuldb.com/?ip.47.94.138.49) | - | - | High
+55 | [47.95.233.18](https://vuldb.com/?ip.47.95.233.18) | - | - | High
+56 | [47.98.248.205](https://vuldb.com/?ip.47.98.248.205) | - | - | High
+57 | [47.111.82.157](https://vuldb.com/?ip.47.111.82.157) | - | - | High
+58 | [47.112.30.91](https://vuldb.com/?ip.47.112.30.91) | - | - | High
+59 | [47.246.24.233](https://vuldb.com/?ip.47.246.24.233) | - | - | High
+60 | [47.246.24.234](https://vuldb.com/?ip.47.246.24.234) | - | - | High
+61 | [49.2.123.56](https://vuldb.com/?ip.49.2.123.56) | - | - | High
+62 | [49.7.37.126](https://vuldb.com/?ip.49.7.37.126) | - | - | High
+63 | [52.168.117.173](https://vuldb.com/?ip.52.168.117.173) | - | - | High
+64 | [52.182.143.212](https://vuldb.com/?ip.52.182.143.212) | - | - | High
+65 | [54.76.135.1](https://vuldb.com/?ip.54.76.135.1) | ec2-54-76-135-1.eu-west-1.compute.amazonaws.com | - | Medium
+66 | [58.55.149.231](https://vuldb.com/?ip.58.55.149.231) | - | - | High
+67 | [58.55.154.119](https://vuldb.com/?ip.58.55.154.119) | - | - | High
+68 | [58.218.66.21](https://vuldb.com/?ip.58.218.66.21) | - | - | High
+69 | [58.218.67.245](https://vuldb.com/?ip.58.218.67.245) | - | - | High
+70 | ... | ... | ... | ...
 
-There are 269 more IOC items available. Please use our online service to access the data.
+There are 278 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -105,13 +108,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-29, CWE-425 | Path Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1068 | CWE-264, CWE-269, CWE-273, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -119,41 +122,51 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin.php?p=/Area/index#tab=t2` | High
-2 | File | `/admin/students.php` | High
-3 | File | `/adminPage/www/addOver` | High
-4 | File | `/API/info` | Medium
-5 | File | `/api/runscript` | High
-6 | File | `/api/snapshots/` | High
-7 | File | `/api/sys/login` | High
-8 | File | `/api/v1/snapshots` | High
-9 | File | `/api/v2/maps` | Medium
-10 | File | `/application/index/controller/Screen.php` | High
-11 | File | `/bcms/admin/?page=user/manage_user` | High
-12 | File | `/cgi-bin/ExportAllSettings.sh` | High
-13 | File | `/cgi-bin/system_mgr.cgi` | High
-14 | File | `/cgi-bin/wlogin.cgi` | High
-15 | File | `/dataSet/testTransform;swagger-ui` | High
-16 | File | `/dayrui/Fcms/View/system_log.html` | High
-17 | File | `/dayrui/My/View/main.html` | High
-18 | File | `/forum/away.php` | High
-19 | File | `/goform/DhcpListClient` | High
-20 | File | `/goform/execCommand` | High
-21 | File | `/goform/SetNetControlList` | High
-22 | File | `/goform/SetRebootTimer` | High
-23 | File | `/goform/WriteFacMac` | High
-24 | File | `/hrm/leaverequest.php` | High
-25 | File | `/list` | Low
-26 | File | `/login-actions/authenticate` | High
-27 | File | `/login.php?m=admin&c=Field&a=channel_edit` | High
-28 | File | `/manage/IPSetup.php` | High
-29 | File | `/ndmComponents.js` | High
-30 | File | `/new_item` | Medium
-31 | File | `/novel/bookSetting/list` | High
-32 | File | `/purchase.php` | High
-33 | ... | ... | ...
+1 | File | `/?import` | Medium
+2 | File | `/admin.php?p=/Area/index#tab=t2` | High
+3 | File | `/admin/` | Low
+4 | File | `/admin/?setting-base.htm` | High
+5 | File | `/admin/admin-update-employee.php` | High
+6 | File | `/admin/forgot-password.php` | High
+7 | File | `/admin/index2.html` | High
+8 | File | `/admin/sql` | Medium
+9 | File | `/admin/students.php` | High
+10 | File | `/admin/students/manage.php` | High
+11 | File | `/admin/system.html` | High
+12 | File | `/adminPage/conf/reload` | High
+13 | File | `/ajax/check_medicine_name.php` | High
+14 | File | `/api/runscript` | High
+15 | File | `/api/snapshots/` | High
+16 | File | `/api/sys/login` | High
+17 | File | `/api/v1/snapshots` | High
+18 | File | `/api/v2/maps` | Medium
+19 | File | `/application/index/controller/Icon.php` | High
+20 | File | `/application/index/controller/Screen.php` | High
+21 | File | `/bcms/admin/?page=user/manage_user` | High
+22 | File | `/bin/ate` | Medium
+23 | File | `/boaform/device_reset.cgi` | High
+24 | File | `/cgi-bin/cstecgi.cgi` | High
+25 | File | `/cgi-bin/ExportAllSettings.sh` | High
+26 | File | `/cgi-bin/supervisor/adcommand.cgi` | High
+27 | File | `/cgi-bin/tosei_kikai.php` | High
+28 | File | `/classes/SystemSettings.php?f=update_settings` | High
+29 | File | `/dataSet/testTransform;swagger-ui` | High
+30 | File | `/dayrui/Fcms/View/system_log.html` | High
+31 | File | `/dayrui/My/View/main.html` | High
+32 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
+33 | File | `/dist/index.js` | High
+34 | File | `/DXR.axd` | Medium
+35 | File | `/etc/init.d/update_notifications.sh` | High
+36 | File | `/EXCU_SHELL` | Medium
+37 | File | `/forum/away.php` | High
+38 | File | `/goform/execCommand` | High
+39 | File | `/goform/goform_get_cmd_process` | High
+40 | File | `/goform/modifyDhcpRule` | High
+41 | File | `/goform/ModifyPppAuthWhiteMac` | High
+42 | File | `/goform/SetRebootTimer` | High
+43 | ... | ... | ...
 
-There are 283 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 375 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -204,7 +217,9 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/threat-roundup-0922-0929/
 * https://blog.talosintelligence.com/threat-roundup-1202-1209/
 * https://blog.talosintelligence.com/threat-roundup-1209-1216/
+* https://github.com/esThreatIntelligence/iocs/blob/main/Gh0stGambit_Gh0stRAT/Gh0stGambit_Gh0stRAT.txt
 * https://www.alienvault.com/blogs/labs-research/the-odd-case-of-a-gh0strat-variant
+* https://www.esentire.com/blog/a-dropper-for-deploying-gh0st-rat
 
 ## Literature
 

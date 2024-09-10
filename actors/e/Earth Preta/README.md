@@ -80,7 +80,7 @@ ID | Type | Indicator | Confidence
 29 | File | `/secret_coder.sql` | High
 30 | ... | ... | ...
 
-There are 251 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 252 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

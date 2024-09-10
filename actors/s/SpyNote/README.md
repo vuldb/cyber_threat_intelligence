@@ -16,10 +16,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [PT](https://vuldb.com/?country.pt)
 * [SV](https://vuldb.com/?country.sv)
-* [PL](https://vuldb.com/?country.pl)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 10 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -29,14 +29,16 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [4.194.25.153](https://vuldb.com/?ip.4.194.25.153) | - | - | High
 2 | [8.219.143.100](https://vuldb.com/?ip.8.219.143.100) | - | - | High
-3 | [23.226.57.2](https://vuldb.com/?ip.23.226.57.2) | - | - | High
-4 | [37.120.141.140](https://vuldb.com/?ip.37.120.141.140) | - | - | High
-5 | [37.120.141.144](https://vuldb.com/?ip.37.120.141.144) | - | - | High
-6 | [47.57.7.44](https://vuldb.com/?ip.47.57.7.44) | - | - | High
-7 | [47.57.184.164](https://vuldb.com/?ip.47.57.184.164) | - | - | High
-8 | ... | ... | ... | ...
+3 | [18.229.146.63](https://vuldb.com/?ip.18.229.146.63) | ec2-18-229-146-63.sa-east-1.compute.amazonaws.com | - | Medium
+4 | [23.226.57.2](https://vuldb.com/?ip.23.226.57.2) | - | - | High
+5 | [37.120.141.140](https://vuldb.com/?ip.37.120.141.140) | - | - | High
+6 | [37.120.141.144](https://vuldb.com/?ip.37.120.141.144) | - | - | High
+7 | [45.130.151.211](https://vuldb.com/?ip.45.130.151.211) | server.com | - | High
+8 | [47.57.7.44](https://vuldb.com/?ip.47.57.7.44) | - | - | High
+9 | [47.57.184.164](https://vuldb.com/?ip.47.57.184.164) | - | - | High
+10 | ... | ... | ... | ...
 
-There are 29 more IOC items available. Please use our online service to access the data.
+There are 35 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -44,7 +46,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23, CWE-24, CWE-36, CWE-425 | Path Traversal | High
+1 | T1006 | CWE-22, CWE-23, CWE-24, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
@@ -52,7 +54,7 @@ ID | Technique | Weakness | Description | Confidence
 6 | T1068 | CWE-250, CWE-264, CWE-269, CWE-271, CWE-284 | Execution with Unnecessary Privileges | High
 7 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 23 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -79,26 +81,26 @@ ID | Type | Indicator | Confidence
 17 | File | `/admin/edit-accepted-appointment.php` | High
 18 | File | `/admin/edit-doc.php` | High
 19 | File | `/admin/edit-services.php` | High
-20 | File | `/admin/fields/manage_field.php` | High
-21 | File | `/admin/inquiries/view_inquiry.php` | High
-22 | File | `/admin/lab.php` | High
-23 | File | `/admin/list_addr_fwresource_ip.php` | High
-24 | File | `/admin/maintenance/brand.php` | High
-25 | File | `/admin/manage-users.php` | High
-26 | File | `/admin/modal_add_product.php` | High
-27 | File | `/admin/positions_add.php` | High
-28 | File | `/admin/positions_delete.php` | High
-29 | File | `/admin/products/index.php` | High
-30 | File | `/admin/project/update/2` | High
-31 | File | `/admin/regester.php` | High
-32 | File | `/admin/reminders/manage_reminder.php` | High
-33 | File | `/admin/reports/index.php` | High
-34 | File | `/admin/transactions/track_shipment.php` | High
-35 | File | `/admin/usermanagement.php` | High
-36 | File | `/admin/vacancy/index.php` | High
-37 | File | `/adminpanel/admin/facebox_modal/updateExaminee.php` | High
-38 | File | `/adminpanel/admin/query/deleteExamExe.php` | High
-39 | File | `/adms/classes/Users.php` | High
+20 | File | `/admin/inquiries/view_inquiry.php` | High
+21 | File | `/admin/lab.php` | High
+22 | File | `/admin/list_addr_fwresource_ip.php` | High
+23 | File | `/admin/maintenance/brand.php` | High
+24 | File | `/admin/manage-users.php` | High
+25 | File | `/admin/modal_add_product.php` | High
+26 | File | `/admin/positions_add.php` | High
+27 | File | `/admin/positions_delete.php` | High
+28 | File | `/admin/products/index.php` | High
+29 | File | `/admin/project/update/2` | High
+30 | File | `/admin/regester.php` | High
+31 | File | `/admin/reminders/manage_reminder.php` | High
+32 | File | `/admin/reports/index.php` | High
+33 | File | `/admin/transactions/track_shipment.php` | High
+34 | File | `/admin/usermanagement.php` | High
+35 | File | `/admin/vacancy/index.php` | High
+36 | File | `/adminpanel/admin/facebox_modal/updateExaminee.php` | High
+37 | File | `/adminpanel/admin/query/deleteExamExe.php` | High
+38 | File | `/adms/classes/Users.php` | High
+39 | File | `/advanced/adv_dns.xgi` | High
 40 | File | `/alphaware/summary.php` | High
 41 | File | `/ample/app/action/edit_product.php` | High
 42 | File | `/api/admin/store/product/list` | High
@@ -123,13 +125,13 @@ ID | Type | Indicator | Confidence
 61 | File | `/clientLogin` | Medium
 62 | File | `/core/tools/customblock.php` | High
 63 | File | `/cstecgi.cgi` | Medium
-64 | File | `/data/0/admin.txt` | High
-65 | File | `/dayrui/My/View/main.html` | High
-66 | File | `/debug/pprof` | Medium
-67 | File | `/Default/Bd` | Medium
-68 | File | `/diagnostic/login.php` | High
-69 | File | `/ecommerce/admin/user/controller.php?action=edit` | High
-70 | File | `/editbrand.php` | High
+64 | File | `/dashboard/Cinvoice/manage_invoice` | High
+65 | File | `/data/0/admin.txt` | High
+66 | File | `/dayrui/My/View/main.html` | High
+67 | File | `/debug/pprof` | Medium
+68 | File | `/Default/Bd` | Medium
+69 | File | `/diagnostic/login.php` | High
+70 | File | `/ecommerce/admin/user/controller.php?action=edit` | High
 71 | File | `/edituser.php` | High
 72 | File | `/endpoint/update-file.php` | High
 73 | File | `/feeds/post/publish` | High
@@ -137,17 +139,21 @@ ID | Type | Indicator | Confidence
 75 | File | `/goform/aspForm` | High
 76 | File | `/goForm/aspForm` | High
 77 | File | `/goform/execCommand` | High
-78 | File | `/goform/fromRouteStatic` | High
-79 | ... | ... | ...
+78 | ... | ... | ...
 
-There are 693 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 683 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://bazaar.abuse.ch/sample/1f3f2390836cab26d37d7da933060387f1ce1a9e4c42aa90f0783e2033b32e68/
+* https://bazaar.abuse.ch/sample/8c073deb8f9ac1a8f5eee6e9e632d272dccd292f42b515fd4453f192dedbc6f8/
 * https://bazaar.abuse.ch/sample/b31404188e071efe50919a8e37a4c65176d14c4da92bc1d302b00c97474c6dd2/
 * https://bazaar.abuse.ch/sample/bfc71fa8f865d6c05c02f4b94c8df31368abfa099f640bccafaba7c802ac3c78/
+* https://bazaar.abuse.ch/sample/d11d43f66a89e5c08ab3ddaec58ef74a73952c1dffa538b9349f387f8ef611fe/
+* https://bazaar.abuse.ch/sample/da6a1ad7547fe4f32f5e06ad13352066e8753e6afc60ebcebdb2510433584551/
+* https://bazaar.abuse.ch/sample/f4286863673358b6f7eb370d0a991475fd769bbe8b1bd789d8c07a574b57963d/
 * https://cert-agid.gov.it/news/in-crescita-la-diffusione-di-spyware-per-android-il-caso-di-spynote/
 * https://threatfox.abuse.ch
 * https://tracker.viriback.com/index.php?q=104.225.158.203.16clouds.com
@@ -155,6 +161,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://tria.ge/240525-tmycesab3x
 * https://tria.ge/240525-tpmzgaab8v
 * https://twitter.com/ReBensk/status/1696207430030393749
+* https://urlhaus.abuse.ch/url/3124362/
 * https://www.cleafy.com/cleafy-labs/spynote-continues-to-attack-financial-institutions
 * https://www.threatfabric.com/blogs/spynote-rat-targeting-financial-institutions.html
 * https://www.virustotal.com/gui/file/0fb1e4edd3b9779a977d1987ead7978a44008deef70b0d92f3dc875ee5230371/detection

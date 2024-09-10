@@ -115,10 +115,9 @@ ID | Type | Indicator | Confidence
 53 | File | `add-locker-form.php` | High
 54 | File | `addentry.php` | Medium
 55 | File | `admin.jcomments.php` | High
-56 | File | `admin.php` | Medium
-57 | ... | ... | ...
+56 | ... | ... | ...
 
-There are 496 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 492 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

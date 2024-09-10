@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [VN](https://vuldb.com/?country.vn)
 * ...
 
-There are 10 more country items available. Please use our online service to access the data.
+There are 13 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -38,7 +38,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -49,49 +49,50 @@ ID | Type | Indicator | Confidence
 1 | File | `/admin/` | Low
 2 | File | `/admin/admin_user.php` | High
 3 | File | `/admin/category/save` | High
-4 | File | `/admin/list_ipAddressPolicy.php` | High
-5 | File | `/admin/subject.php` | High
-6 | File | `/api/runscript` | High
-7 | File | `/api/snapshots/` | High
-8 | File | `/api/v1/snapshots` | High
-9 | File | `/api/v2/maps` | Medium
-10 | File | `/auth/auth.php?user=1` | High
-11 | File | `/boaform/device_reset.cgi` | High
-12 | File | `/cgi-bin/cstecgi.cgi` | High
-13 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-14 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
-15 | File | `/cgi-bin/nas_sharing.cgi` | High
-16 | File | `/cgi-bin/system_mgr.cgi` | High
-17 | File | `/cgi-bin/wlogin.cgi` | High
-18 | File | `/cgi/cpaddons_report.pl` | High
-19 | File | `/common/dict/list` | High
-20 | File | `/debug/pprof` | Medium
-21 | File | `/DXR.axd` | Medium
-22 | File | `/forum/away.php` | High
-23 | File | `/goform/DhcpListClient` | High
-24 | File | `/goform/goform_get_cmd_process` | High
-25 | File | `/HNAP1/` | Low
-26 | File | `/hrm/leaverequest.php` | High
-27 | File | `/importexport.php` | High
-28 | File | `/install/` | Medium
-29 | File | `/Interface/DevManage/VM.php` | High
-30 | File | `/main/doctype.php` | High
-31 | File | `/main/webservices/additional_webservices.php` | High
-32 | File | `/mc` | Low
-33 | File | `/me` | Low
-34 | File | `/ndmComponents.js` | High
-35 | File | `/net/bluetooth/rfcomm/core.C` | High
-36 | File | `/oauth/idp/.well-known/openid-configuration` | High
-37 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-38 | File | `/pdf` | Low
-39 | File | `/register.php` | High
-40 | File | `/registrar/` | Medium
-41 | File | `/remote/put_file` | High
-42 | File | `/setting/NTPSyncWithHost` | High
-43 | File | `/spip.php` | Medium
-44 | ... | ... | ...
+4 | File | `/admin/index2.html` | High
+5 | File | `/admin/list_ipAddressPolicy.php` | High
+6 | File | `/admin/subject.php` | High
+7 | File | `/adminPage/conf/reload` | High
+8 | File | `/api/runscript` | High
+9 | File | `/api/snapshots/` | High
+10 | File | `/api/v1/snapshots` | High
+11 | File | `/api/v2/maps` | Medium
+12 | File | `/auth/auth.php?user=1` | High
+13 | File | `/boaform/device_reset.cgi` | High
+14 | File | `/cgi-bin/cstecgi.cgi` | High
+15 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+16 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
+17 | File | `/cgi-bin/nas_sharing.cgi` | High
+18 | File | `/cgi-bin/system_mgr.cgi` | High
+19 | File | `/cgi-bin/wlogin.cgi` | High
+20 | File | `/cgi/cpaddons_report.pl` | High
+21 | File | `/common/dict/list` | High
+22 | File | `/debug/pprof` | Medium
+23 | File | `/DXR.axd` | Medium
+24 | File | `/etc/init.d/update_notifications.sh` | High
+25 | File | `/forum/away.php` | High
+26 | File | `/goform/DhcpListClient` | High
+27 | File | `/goform/goform_get_cmd_process` | High
+28 | File | `/HNAP1/` | Low
+29 | File | `/hrm/leaverequest.php` | High
+30 | File | `/importexport.php` | High
+31 | File | `/install/` | Medium
+32 | File | `/Interface/DevManage/VM.php` | High
+33 | File | `/main/doctype.php` | High
+34 | File | `/main/webservices/additional_webservices.php` | High
+35 | File | `/mc` | Low
+36 | File | `/me` | Low
+37 | File | `/ndmComponents.js` | High
+38 | File | `/net/bluetooth/rfcomm/core.C` | High
+39 | File | `/PC/WebService.asmx` | High
+40 | File | `/pdf` | Low
+41 | File | `/register.php` | High
+42 | File | `/registrar/` | Medium
+43 | File | `/remote/put_file` | High
+44 | File | `/setting/NTPSyncWithHost` | High
+45 | ... | ... | ...
 
-There are 379 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 388 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -67,21 +67,21 @@ ID | Type | Indicator | Confidence
 17 | File | `/config/getuser` | High
 18 | File | `/dayrui/My/Config/Install.txt` | High
 19 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
-20 | File | `/getcfg.php` | Medium
-21 | File | `/horde/util/go.php` | High
-22 | File | `/img/main.cgi` | High
-23 | File | `/index.asp` | Medium
-24 | File | `/mnotice.php?id=2` | High
-25 | File | `/opt/lighttpd/web/cgi/` | High
-26 | File | `/owa/auth/logon.aspx` | High
-27 | File | `/php-fusion/infusions/shoutbox_panel/shoutbox_archive.php` | High
-28 | File | `/php-opos/index.php` | High
-29 | File | `/sqlitemanager/main.php?dbsel=-1%20or%2072%20=%2072` | High
-30 | File | `/subpage.php` | Medium
-31 | File | `/SysManage/AddUpdateSites.aspx` | High
+20 | File | `/ecommerce/admin/products/controller.php` | High
+21 | File | `/getcfg.php` | Medium
+22 | File | `/horde/util/go.php` | High
+23 | File | `/img/main.cgi` | High
+24 | File | `/index.asp` | Medium
+25 | File | `/mnotice.php?id=2` | High
+26 | File | `/opt/lighttpd/web/cgi/` | High
+27 | File | `/owa/auth/logon.aspx` | High
+28 | File | `/php-fusion/infusions/shoutbox_panel/shoutbox_archive.php` | High
+29 | File | `/php-opos/index.php` | High
+30 | File | `/sqlitemanager/main.php?dbsel=-1%20or%2072%20=%2072` | High
+31 | File | `/subpage.php` | Medium
 32 | ... | ... | ...
 
-There are 273 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 276 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

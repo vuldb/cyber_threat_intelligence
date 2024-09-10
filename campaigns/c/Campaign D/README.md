@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [FR](https://vuldb.com/?country.fr)
 * ...
 
-There are 8 more country items available. Please use our online service to access the data.
+There are 9 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -49,14 +49,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23, CWE-425 | Path Traversal | High
+1 | T1006 | CWE-22, CWE-23, CWE-29, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -82,27 +82,27 @@ ID | Type | Indicator | Confidence
 16 | File | `/forum/away.php` | High
 17 | File | `/getcfg.php` | Medium
 18 | File | `/index.php?controller=GzUser&action=edit&id=1` | High
-19 | File | `/load.php` | Medium
-20 | File | `/modules/profile/index.php` | High
-21 | File | `/modules/registration_admission/patient_register.php` | High
-22 | File | `/news.dtl.php` | High
-23 | File | `/public/plugins/` | High
-24 | File | `/rapi/read_url` | High
-25 | File | `/rest/api/2/user/picker` | High
-26 | File | `/sbin/acos_service` | High
-27 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-28 | File | `/squashfs-root/www/HNAP1/control/SetWizardConfig.php` | High
-29 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
-30 | File | `/sys/kernel/notes` | High
-31 | File | `/uncpath/` | Medium
-32 | File | `/usr/bin/pkexec` | High
-33 | File | `/ViewUserHover.jspa` | High
-34 | File | `/WEB-INF/web.xml` | High
-35 | File | `/wp-admin/admin-ajax.php` | High
-36 | File | `/wp-json/oembed/1.0/embed?url` | High
+19 | File | `/install_extension` | High
+20 | File | `/load.php` | Medium
+21 | File | `/modules/profile/index.php` | High
+22 | File | `/modules/registration_admission/patient_register.php` | High
+23 | File | `/news.dtl.php` | High
+24 | File | `/public/plugins/` | High
+25 | File | `/rapi/read_url` | High
+26 | File | `/rest/api/2/user/picker` | High
+27 | File | `/sbin/acos_service` | High
+28 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+29 | File | `/squashfs-root/www/HNAP1/control/SetWizardConfig.php` | High
+30 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
+31 | File | `/sys/kernel/notes` | High
+32 | File | `/uncpath/` | Medium
+33 | File | `/usr/bin/pkexec` | High
+34 | File | `/ViewUserHover.jspa` | High
+35 | File | `/WEB-INF/web.xml` | High
+36 | File | `/wp-admin/admin-ajax.php` | High
 37 | ... | ... | ...
 
-There are 320 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 321 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

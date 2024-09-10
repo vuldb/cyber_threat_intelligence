@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 3 more country items available. Please use our online service to access the data.
+There are 9 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -470,7 +470,7 @@ ID | IP address | Hostname | Campaign | Confidence
 447 | [101.99.48.48](https://vuldb.com/?ip.101.99.48.48) | static.cmcti.vn | - | High
 448 | ... | ... | ... | ...
 
-There are 1786 more IOC items available. Please use our online service to access the data.
+There are 1787 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -478,13 +478,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-425 | Path Traversal | High
-2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-25, CWE-27, CWE-37, CWE-425 | Path Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
-5 | ... | ... | ... | ...
+4 | T1059 | CWE-94 | Argument Injection | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -492,97 +493,92 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/?g=log_import_save` | High
-2 | File | `/academy/tutor/filter` | High
-3 | File | `/actuator/heapdump` | High
-4 | File | `/admin` | Low
-5 | File | `/admin/?page=user/list` | High
-6 | File | `/admin/admin-profile.php` | High
-7 | File | `/admin/ajax.php?action=confirm_order` | High
-8 | File | `/admin/case-status` | High
-9 | File | `/admin/case-type` | High
-10 | File | `/Admin/changepassword.php` | High
-11 | File | `/admin/clients` | High
-12 | File | `/admin/client_user` | High
-13 | File | `/admin/config_MT.php?action=delete` | High
-14 | File | `/admin/content` | High
-15 | File | `/admin/court` | Medium
-16 | File | `/admin/court-type` | High
-17 | File | `/admin/edit-post.php` | High
-18 | File | `/admin/employee/controller.php` | High
-19 | File | `/admin/expense-type` | High
-20 | File | `/admin/foreigner-bwdates-reports-details.php` | High
-21 | File | `/admin/foreigner-search.php` | High
-22 | File | `/admin/forgot-password.php` | High
-23 | File | `/admin/index.php` | High
-24 | File | `/admin/judge` | Medium
-25 | File | `/admin/login.php` | High
-26 | File | `/admin/maintenance/manage_brand.php` | High
-27 | File | `/admin/modules/product/controller.php?action=add` | High
-28 | File | `/admin/normal-bwdates-reports-details.php` | High
-29 | File | `/admin/normal-search.php` | High
-30 | File | `/admin/receipt.php` | High
-31 | File | `/admin/role` | Medium
-32 | File | `/admin/search-directory.php.` | High
-33 | File | `/admin/service` | High
-34 | File | `/admin/service_requests/manage_inventory.php` | High
-35 | File | `/admin/tag.php` | High
-36 | File | `/admin/tasks` | Medium
-37 | File | `/admin/tax` | Medium
-38 | File | `/admin/template` | High
-39 | File | `/admin/user/controller.php` | High
-40 | File | `/admin/vendor` | High
-41 | File | `/adminPage/main/upload` | High
-42 | File | `/adminpanel/admin/facebox_modal/updateCourse.php` | High
-43 | File | `/admin_class.php` | High
-44 | File | `/adms/admin/?page=vehicles/view_transaction` | High
-45 | File | `/api/sys/set_passwd` | High
-46 | File | `/api/v1/custom_component` | High
-47 | File | `/api/v2/maps` | Medium
-48 | File | `/app/Http/Controllers/ImageController.php` | High
-49 | File | `/as/authorization.oauth2` | High
-50 | File | `/book-services.php` | High
-51 | File | `/catalog/all-products` | High
-52 | File | `/cgi-bin/cstecgi.cgi` | High
-53 | File | `/cgi-bin/koha/opac-MARCdetail.pl` | High
-54 | File | `/cgi-bin/nas_sharing.cgi` | High
-55 | File | `/classes/Master.php?f=load_registration` | High
-56 | File | `/classes/Master.php?f=log_employee` | High
-57 | File | `/classes/Master.php?f=log_visitor` | High
-58 | File | `/classes/SystemSettings.php?f=update_settings` | High
-59 | File | `/classes/Users.php?f=delete` | High
-60 | File | `/classes/Users.php?f=save` | High
-61 | File | `/cms/classes/Users.php?f=delete_client` | High
-62 | File | `/command_port.ini` | High
-63 | File | `/conf/app.conf` | High
-64 | File | `/control/activate_case.php` | High
-65 | File | `/control/adds.php` | High
-66 | File | `/control/deactivate_case.php` | High
-67 | File | `/core/config-revisions` | High
-68 | File | `/dataSet/testTransform;swagger-ui` | High
-69 | File | `/deletefile.php` | High
-70 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
-71 | File | `/devinfo` | Medium
-72 | File | `/DXR.axd` | Medium
-73 | File | `/edit_book.php` | High
-74 | File | `/Employee/changepassword.php` | High
-75 | File | `/Employee/edit-photo.php` | High
-76 | File | `/endpoint/delete-bill.php` | High
-77 | File | `/endpoint/delete-todo.php` | High
-78 | File | `/forum/away.php` | High
-79 | File | `/general/meeting/manage/delete.php` | High
-80 | File | `/goform/AddDnsForward` | High
-81 | File | `/goform/addIpMacBind` | High
-82 | File | `/goform/addressNat` | High
-83 | File | `/goform/AdvSetMacMtuWan` | High
-84 | ... | ... | ...
+1 | File | `/addcategory.php` | High
+2 | File | `/addclient1.php` | High
+3 | File | `/addproduct.php` | High
+4 | File | `/admin-cp/theme/editor/default` | High
+5 | File | `/admin/?page=categories/view_category` | High
+6 | File | `/admin/about_edit.php?action=modify` | High
+7 | File | `/admin/admin-add-employee.php` | High
+8 | File | `/admin/admin-update-employee.php` | High
+9 | File | `/admin/ajax.php?action=delete_user` | High
+10 | File | `/admin/ajax.php?action=login` | High
+11 | File | `/admin/ajax.php?action=save_settings` | High
+12 | File | `/admin/assets/` | High
+13 | File | `/admin/category_save.php` | High
+14 | File | `/admin/check_admin.php` | High
+15 | File | `/admin/class.php?dowhat=modifyclass` | High
+16 | File | `/admin/contacts/organizations/edit/2` | High
+17 | File | `/admin/dialog/select_images_post.php` | High
+18 | File | `/admin/emp-profile-avatar.php` | High
+19 | File | `/admin/forgot-password.php` | High
+20 | File | `/admin/index.php` | High
+21 | File | `/admin/index.php?page=manage_lot` | High
+22 | File | `/admin/inquiries/view_inquiry.php` | High
+23 | File | `/admin/login.php` | High
+24 | File | `/admin/manage_complaint.php` | High
+25 | File | `/admin/manage_model.php` | High
+26 | File | `/admin/manage_station.php` | High
+27 | File | `/admin/manage_user.php` | High
+28 | File | `/admin/member_save.php` | High
+29 | File | `/admin/menu.php` | High
+30 | File | `/admin/modules/product/controller.php?action=add` | High
+31 | File | `/admin/mod_room/controller.php?action=add` | High
+32 | File | `/admin/notes/create` | High
+33 | File | `/admin/system.php` | High
+34 | File | `/admin/team_save.php` | High
+35 | File | `/admin/users.php` | High
+36 | File | `/admin/view_reserved.php` | High
+37 | File | `/ajax.php` | Medium
+38 | File | `/ajax.php?action=delete_block` | High
+39 | File | `/ajax.php?action=load_answered` | High
+40 | File | `/ajax.php?action=login` | High
+41 | File | `/ajax.php?action=save_quiz` | High
+42 | File | `/ajax/check_medicine_name.php` | High
+43 | File | `/ajax/get_patient_history.php` | High
+44 | File | `/api/deploy/upload` | High
+45 | File | `/api/deploy/upload /api/database/upload` | High
+46 | File | `/api/dept` | Medium
+47 | File | `/api/file/downloadfile` | High
+48 | File | `/api/file/downloadUrl` | High
+49 | File | `/api/file/multiDownload` | High
+50 | File | `/api/test/download` | High
+51 | File | `/AttendanceMonitoring/report/index.php` | High
+52 | File | `/authMonitCallcenter` | High
+53 | File | `/bolt/editcontent/showcases` | High
+54 | File | `/branch_viewmore.php` | High
+55 | File | `/cgi-bin/alexserv` | High
+56 | File | `/cgi-bin/cstecgi.cgi` | High
+57 | File | `/cgi-bin/cstecgi.cgi?action=save&setting` | High
+58 | File | `/cgi-bin/ExportSettings.sh` | High
+59 | File | `/cgi-bin/luci/api/auth` | High
+60 | File | `/cgi-bin/luci/api/diagnose` | High
+61 | File | `/cgi-bin/myMusic.cgi` | High
+62 | File | `/cgi-bin/nas_sharing.cgi` | High
+63 | File | `/cgi-bin/p1_ftpserver.php` | High
+64 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+65 | File | `/cgi-bin/tosei_kikai.php` | High
+66 | File | `/classes/Master.php?f=log_employee` | High
+67 | File | `/classes/Master.php?f=save_medicine` | High
+68 | File | `/classes/Master.php?f=save_package` | High
+69 | File | `/classes/SystemSettings.php?f=update_settings` | High
+70 | File | `/classes/Users.php?f=delete` | High
+71 | File | `/classes/Users.php?f=register_user` | High
+72 | File | `/classes/Users.php?f=save` | High
+73 | File | `/cloudstore/ecode/setup/ecology_dev.zip` | High
+74 | File | `/cm/update_rows/page?id=2` | High
+75 | File | `/cms/classes/Users.php?f=delete_client` | High
+76 | File | `/contact.php` | Medium
+77 | File | `/control/add_act.php` | High
+78 | ... | ... | ...
 
-There are 743 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 691 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://github.com/blackorbird/APT_REPORT/blob/master/International%20Strategic/Vietnam/Docless%20Vietnam%20APT.pdf
 * https://github.com/firehol/blocklist-ipsets/blob/master/geolite2_country/country_vn.netset
 * https://github.com/firehol/blocklist-ipsets/blob/master/ip2location_country/ip2location_country_vn.netset
 * https://github.com/scriptzteam/Private-Internet-Access-VPN-Servers/blob/main/export.csv

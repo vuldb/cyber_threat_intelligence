@@ -15,12 +15,12 @@ The following _campaigns_ are known and can be associated with Conti:
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Conti:
 
-* [PL](https://vuldb.com/?country.pl)
+* [CN](https://vuldb.com/?country.cn)
+* [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
-* [FR](https://vuldb.com/?country.fr)
 * ...
 
-There are 14 more country items available. Please use our online service to access the data.
+There are 18 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -522,13 +522,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-25, CWE-425 | Path Traversal | High
-2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059 | CWE-94 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80, CWE-85 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-25, CWE-425 | Path Traversal | High
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+4 | T1059 | CWE-94 | Argument Injection | High
+5 | T1059.007 | CWE-79, CWE-80, CWE-85 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -536,22 +537,35 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/catalog/all-products` | High
-2 | File | `/changePassword` | High
-3 | File | `/dayrui/My/Config/Install.txt` | High
-4 | File | `/forum/away.php` | High
-5 | File | `/goform/addIpMacBind` | High
-6 | File | `/goform/DelDhcpRule` | High
-7 | File | `/goform/delIpMacBind` | High
-8 | File | `/goform/DelPortMapping` | High
-9 | File | `/goform/modifyDhcpRule` | High
-10 | File | `/goform/modifyIpMacBind` | High
-11 | File | `/goform/setBlackRule` | High
-12 | File | `/goform/SetDDNSCfg` | High
-13 | File | `/goform/SetLEDCfg` | High
-14 | ... | ... | ...
+1 | File | `/add-students.php` | High
+2 | File | `/admin/add_ikev2.php` | High
+3 | File | `/admin/category_save.php` | High
+4 | File | `/admin/list_ipAddressPolicy.php` | High
+5 | File | `/admin/manage_model.php` | High
+6 | File | `/admin/manage_user.php` | High
+7 | File | `/admin/pages/` | High
+8 | File | `/admin/pages/list` | High
+9 | File | `/admin/subject.php` | High
+10 | File | `/admins` | Low
+11 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+12 | File | `/carbon/ndatasource/validateconnection/ajaxprocessor.jsp` | High
+13 | File | `/catalog/all-products` | High
+14 | File | `/cgi-bin/cstecgi.cgi` | High
+15 | File | `/cgi-bin/wlogin.cgi` | High
+16 | File | `/changePassword` | High
+17 | File | `/classes/Master.php?f=save_medicine` | High
+18 | File | `/classes/Users.php?f=save` | High
+19 | File | `/dayrui/My/Config/Install.txt` | High
+20 | File | `/edit-subject.php` | High
+21 | File | `/endpoint/add-user.php` | High
+22 | File | `/etc/passwd` | Medium
+23 | File | `/etc/postfix/sender_login` | High
+24 | File | `/farm/product.php` | High
+25 | File | `/forum/away.php` | High
+26 | File | `/goform/SetRemoteWebCfg` | High
+27 | ... | ... | ...
 
-There are 111 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 232 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

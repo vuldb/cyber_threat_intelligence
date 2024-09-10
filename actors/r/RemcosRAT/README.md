@@ -23,14 +23,14 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [80.66.75.51](https://vuldb.com/?ip.80.66.75.51) | - | - | High
 2 | [89.23.98.22](https://vuldb.com/?ip.89.23.98.22) | - | - | High
-3 | [95.214.26.18](https://vuldb.com/?ip.95.214.26.18) | - | - | High
-4 | [95.214.26.25](https://vuldb.com/?ip.95.214.26.25) | - | - | High
-5 | [95.214.26.60](https://vuldb.com/?ip.95.214.26.60) | - | - | High
-6 | [95.214.26.79](https://vuldb.com/?ip.95.214.26.79) | - | - | High
-7 | [95.214.26.90](https://vuldb.com/?ip.95.214.26.90) | - | - | High
+3 | [94.156.66.67](https://vuldb.com/?ip.94.156.66.67) | - | - | High
+4 | [95.214.26.18](https://vuldb.com/?ip.95.214.26.18) | - | - | High
+5 | [95.214.26.25](https://vuldb.com/?ip.95.214.26.25) | - | - | High
+6 | [95.214.26.60](https://vuldb.com/?ip.95.214.26.60) | - | - | High
+7 | [95.214.26.79](https://vuldb.com/?ip.95.214.26.79) | - | - | High
 8 | ... | ... | ... | ...
 
-There are 29 more IOC items available. Please use our online service to access the data.
+There are 30 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -60,57 +60,58 @@ ID | Type | Indicator | Confidence
 4 | File | `/admin/deduction_row.php` | High
 5 | File | `/admin/departments/manage_department.php` | High
 6 | File | `/admin/edit_subject.php` | High
-7 | File | `/admin/invoice.php` | High
-8 | File | `/admin/login.php` | High
-9 | File | `/admin/maintenance/view_designation.php` | High
-10 | File | `/admin/reportupload.aspx` | High
-11 | File | `/admin/return_add.php` | High
-12 | File | `/admin/sales/view_details.php` | High
-13 | File | `/admin/service_requests/manage_inventory.php` | High
-14 | File | `/admin/sys_sql_query.php` | High
-15 | File | `/admin/transactions/track_shipment.php` | High
-16 | File | `/admin/upload.php` | High
-17 | File | `/adminPage/conf/reload` | High
-18 | File | `/afltest/gpac/src/media_tools/av_parsers.c` | High
-19 | File | `/ajax.php?action=read_msg` | High
-20 | File | `/api/baskets/{name}` | High
-21 | File | `/api/sys/login` | High
-22 | File | `/application/index/controller/Databasesource.php` | High
-23 | File | `/application/index/controller/File.php` | High
-24 | File | `/application/plugins/controller/Upload.php` | High
-25 | File | `/author_posts.php` | High
-26 | File | `/be/rpc.php` | Medium
-27 | File | `/blog` | Low
-28 | File | `/category/order/hits/copyright/46/finish/1/list/1` | High
-29 | File | `/cgi-bin/cstecgi.cgi` | High
-30 | File | `/cgi-bin/login.cgi` | High
-31 | File | `/cgi-bin/nas_sharing.cgi` | High
-32 | File | `/cgi-bin/nightled.cgi` | High
-33 | File | `/cgi-bin/vitogate.cgi` | High
-34 | File | `/classes/Login.php` | High
-35 | File | `/classes/Master.php?f=delete_category` | High
-36 | File | `/classes/Master.php?f=delete_inquiry` | High
-37 | File | `/classes/Master.php?f=delete_item` | High
-38 | File | `/classes/master.php?f=delete_order` | High
-39 | File | `/classes/Master.php? f=save_medicine` | High
-40 | File | `/classes/Master.php?f=save_service` | High
-41 | File | `/classes/Users.php?f=save` | High
-42 | File | `/collection/all` | High
-43 | File | `/config` | Low
-44 | File | `/control/register_case.php` | High
-45 | File | `/Controller/Ajaxfileupload.ashx` | High
-46 | File | `/core/config-revisions` | High
-47 | File | `/cupseasylive/currencylist.php` | High
-48 | File | `/cupseasylive/grnlist.php` | High
-49 | File | `/cupseasylive/locationmodify.php` | High
-50 | File | `/cupseasylive/unitofmeasurementcreate.php` | High
-51 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
-52 | File | `/dipam/save-delegates.php` | High
-53 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
-54 | File | `/DXR.axd` | Medium
-55 | ... | ... | ...
+7 | File | `/admin/index2.html` | High
+8 | File | `/admin/invoice.php` | High
+9 | File | `/admin/login.php` | High
+10 | File | `/admin/maintenance/view_designation.php` | High
+11 | File | `/admin/reportupload.aspx` | High
+12 | File | `/admin/return_add.php` | High
+13 | File | `/admin/sales/view_details.php` | High
+14 | File | `/admin/service_requests/manage_inventory.php` | High
+15 | File | `/admin/sys_sql_query.php` | High
+16 | File | `/admin/transactions/track_shipment.php` | High
+17 | File | `/admin/upload.php` | High
+18 | File | `/adminPage/conf/reload` | High
+19 | File | `/afltest/gpac/src/media_tools/av_parsers.c` | High
+20 | File | `/ajax.php?action=read_msg` | High
+21 | File | `/api/baskets/{name}` | High
+22 | File | `/api/sys/login` | High
+23 | File | `/application/index/controller/Databasesource.php` | High
+24 | File | `/application/index/controller/File.php` | High
+25 | File | `/application/plugins/controller/Upload.php` | High
+26 | File | `/author_posts.php` | High
+27 | File | `/be/rpc.php` | Medium
+28 | File | `/blog` | Low
+29 | File | `/category/order/hits/copyright/46/finish/1/list/1` | High
+30 | File | `/cgi-bin/cstecgi.cgi` | High
+31 | File | `/cgi-bin/login.cgi` | High
+32 | File | `/cgi-bin/nas_sharing.cgi` | High
+33 | File | `/cgi-bin/nightled.cgi` | High
+34 | File | `/cgi-bin/system_mgr.cgi` | High
+35 | File | `/cgi-bin/vitogate.cgi` | High
+36 | File | `/classes/Login.php` | High
+37 | File | `/classes/Master.php?f=delete_category` | High
+38 | File | `/classes/Master.php?f=delete_inquiry` | High
+39 | File | `/classes/Master.php?f=delete_item` | High
+40 | File | `/classes/master.php?f=delete_order` | High
+41 | File | `/classes/Master.php? f=save_medicine` | High
+42 | File | `/classes/Master.php?f=save_service` | High
+43 | File | `/classes/Users.php?f=save` | High
+44 | File | `/collection/all` | High
+45 | File | `/config` | Low
+46 | File | `/control/register_case.php` | High
+47 | File | `/Controller/Ajaxfileupload.ashx` | High
+48 | File | `/core/config-revisions` | High
+49 | File | `/cupseasylive/currencylist.php` | High
+50 | File | `/cupseasylive/grnlist.php` | High
+51 | File | `/cupseasylive/locationmodify.php` | High
+52 | File | `/cupseasylive/unitofmeasurementcreate.php` | High
+53 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
+54 | File | `/dipam/save-delegates.php` | High
+55 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
+56 | ... | ... | ...
 
-There are 481 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 492 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -122,6 +123,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.morphisec.com/unveiling-uac-0184-the-remcos-rat-steganography-saga
 * https://cert.gov.ua/article/6276567
 * https://www.esentire.com/blog/from-onlydcratfans-to-remcosrat
+* https://www.forcepoint.com/blog/x-labs/url-shortener-microsoft-word-remcos-rat-trojan
 * https://www.trustwave.com/en-us/resources/blogs/spiderlabs-blog/a-noteworthy-threat-how-cybercriminals-are-abusing-onenote-part-2/
 
 ## Literature

@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with RIS:
 
-* [RU](https://vuldb.com/?country.ru)
-* [PL](https://vuldb.com/?country.pl)
-* [AR](https://vuldb.com/?country.ar)
+* [CN](https://vuldb.com/?country.cn)
+* [US](https://vuldb.com/?country.us)
+* [FR](https://vuldb.com/?country.fr)
 * ...
 
-There are 9 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -151,13 +151,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-27 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80, CWE-85 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+6 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -166,25 +167,53 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/add_job` | Medium
-2 | File | `/admin/clients` | High
-3 | File | `/admin/client_user` | High
-4 | File | `/admin/foreigner-bwdates-reports-details.php` | High
-5 | File | `/admin/index.php` | High
-6 | File | `/admin/normal-bwdates-reports-details.php` | High
-7 | File | `/api/v1/custom_component` | High
-8 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-9 | File | `/catalog/all-products` | High
-10 | File | `/changePassword` | High
-11 | File | `/channels//link` | High
-12 | File | `/classes/Users.php?f=delete` | High
-13 | File | `/etc/passwd` | Medium
-14 | File | `/etc/shadow.sample` | High
-15 | File | `/forum/away.php` | High
-16 | File | `/goform/addIpMacBind` | High
-17 | File | `/goform/DelDhcpRule` | High
-18 | ... | ... | ...
+2 | File | `/admin-cp/theme/editor/default` | High
+3 | File | `/admin/add_ikev2.php` | High
+4 | File | `/admin/ajax.php?action=save_settings` | High
+5 | File | `/admin/category_save.php` | High
+6 | File | `/admin/class.php?dowhat=modifyclass` | High
+7 | File | `/admin/clients` | High
+8 | File | `/admin/client_user` | High
+9 | File | `/admin/cmsTemplate/doUpload` | High
+10 | File | `/admin/emp-profile-avatar.php` | High
+11 | File | `/admin/foreigner-bwdates-reports-details.php` | High
+12 | File | `/admin/get_balance.php` | High
+13 | File | `/admin/index.php` | High
+14 | File | `/admin/infoSys_deal.php?mudi=deal` | High
+15 | File | `/admin/list_ipAddressPolicy.php` | High
+16 | File | `/admin/manage_model.php` | High
+17 | File | `/admin/manage_user.php` | High
+18 | File | `/admin/mod_room/controller.php?action=add` | High
+19 | File | `/admin/normal-bwdates-reports-details.php` | High
+20 | File | `/admin/pages/` | High
+21 | File | `/admin/quizquestion.php` | High
+22 | File | `/admin/subject.php` | High
+23 | File | `/admin/system.php` | High
+24 | File | `/admins` | Low
+25 | File | `/ajax.php?action=login` | High
+26 | File | `/api/deploy/upload` | High
+27 | File | `/api/deploy/upload /api/database/upload` | High
+28 | File | `/api/dept/build` | High
+29 | File | `/api/role` | Medium
+30 | File | `/api/user` | Medium
+31 | File | `/api/v1/custom_component` | High
+32 | File | `/AttendanceMonitoring/student/controller.php` | High
+33 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+34 | File | `/catalog/all-products` | High
+35 | File | `/cgi-bin/cstecgi.cgi` | High
+36 | File | `/cgi-bin/cstecgi.cgi?action=save&setting` | High
+37 | File | `/cgi-bin/myMusic.cgi` | High
+38 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+39 | File | `/cgi-bin/wlogin.cgi` | High
+40 | File | `/change_password.php` | High
+41 | File | `/channels//link` | High
+42 | File | `/classes/Master.php` | High
+43 | File | `/classes/Master.php?f=save_package` | High
+44 | File | `/classes/Users.php?f=delete` | High
+45 | File | `/cm/update_rows/page?id=2` | High
+46 | ... | ... | ...
 
-There are 143 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 397 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

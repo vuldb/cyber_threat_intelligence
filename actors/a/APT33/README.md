@@ -17,8 +17,8 @@ The following _campaigns_ are known and can be associated with APT33:
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with APT33:
 
 * [US](https://vuldb.com/?country.us)
-* [FR](https://vuldb.com/?country.fr)
 * [ES](https://vuldb.com/?country.es)
+* [FR](https://vuldb.com/?country.fr)
 * ...
 
 There are 10 more country items available. Please use our online service to access the data.
@@ -99,56 +99,56 @@ ID | Type | Indicator | Confidence
 28 | File | `/admin/theme-edit.php` | High
 29 | File | `/admin/update-clients.php` | High
 30 | File | `/admin/userprofile.php` | High
-31 | File | `/api/controllers/admin/app/ComboController.php` | High
-32 | File | `/api/controllers/common/UploadsController.php` | High
-33 | File | `/api/log/killJob` | High
-34 | File | `/application/index/common.php` | High
-35 | File | `/application/index/controller/Pay.php` | High
-36 | File | `/application/index/controller/Screen.php` | High
-37 | File | `/application/index/controller/Unity.php` | High
-38 | File | `/apply/index.php` | High
-39 | File | `/author_posts.php` | High
-40 | File | `/blog` | Low
-41 | File | `/book-services.php` | High
-42 | File | `/booking/show_bookings/` | High
-43 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-44 | File | `/cas/logout` | Medium
-45 | File | `/category.php` | High
-46 | File | `/cgi-bin/cstecgi.cgi` | High
-47 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-48 | File | `/cgi-bin/mainfunction.cgi` | High
-49 | File | `/change-language/de_DE` | High
-50 | File | `/classes/Login.php` | High
-51 | File | `/classes/Master.php?f=delete_service` | High
-52 | File | `/classes/Master.php?f=save_inquiry` | High
-53 | File | `/classes/Master.php?f=save_item` | High
-54 | File | `/classes/Users.php?f=save` | High
-55 | File | `/cms/notify` | Medium
-56 | File | `/contact/store` | High
-57 | File | `/Duty/AjaxHandle/UploadFloodPlanFileUpdate.ashx` | High
-58 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
-59 | File | `/Duty/AjaxHandle/Write/UploadFile.ashx` | High
-60 | File | `/ecommerce/support_ticket` | High
-61 | File | `/edit.php` | Medium
-62 | File | `/Employer/ManageJob.php` | High
-63 | File | `/en/blog-comment-4` | High
-64 | File | `/endpoint/add-computer.php` | High
-65 | File | `/endpoint/add-guest.php` | High
-66 | File | `/endpoint/add-user.php` | High
-67 | File | `/ext/collect/filter_text.do` | High
-68 | File | `/file_manager/admin/save_user.php` | High
-69 | File | `/forum/away.php` | High
-70 | File | `/general/email/outbox/delete.php` | High
-71 | File | `/general/ipanel/menu_code.php?MENU_TYPE=FAV` | High
-72 | File | `/get.php` | Medium
-73 | File | `/goform/RgUrlBlock.asp` | High
-74 | File | `/goform/setDeviceSettings` | High
-75 | File | `/goform/SetOnlineDevName` | High
-76 | File | `/goform/WifiBasicSet` | High
-77 | File | `/goform/wifiSSIDset` | High
+31 | File | `/ajax.php?action=delete_block` | High
+32 | File | `/api/controllers/admin/app/ComboController.php` | High
+33 | File | `/api/controllers/common/UploadsController.php` | High
+34 | File | `/api/log/killJob` | High
+35 | File | `/application/index/common.php` | High
+36 | File | `/application/index/controller/Pay.php` | High
+37 | File | `/application/index/controller/Screen.php` | High
+38 | File | `/application/index/controller/Unity.php` | High
+39 | File | `/apply/index.php` | High
+40 | File | `/author_posts.php` | High
+41 | File | `/blog` | Low
+42 | File | `/book-services.php` | High
+43 | File | `/booking/show_bookings/` | High
+44 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+45 | File | `/cas/logout` | Medium
+46 | File | `/category.php` | High
+47 | File | `/cgi-bin/cstecgi.cgi` | High
+48 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+49 | File | `/cgi-bin/mainfunction.cgi` | High
+50 | File | `/change-language/de_DE` | High
+51 | File | `/classes/Login.php` | High
+52 | File | `/classes/Master.php?f=delete_service` | High
+53 | File | `/classes/Master.php?f=save_inquiry` | High
+54 | File | `/classes/Master.php?f=save_item` | High
+55 | File | `/classes/Users.php?f=save` | High
+56 | File | `/cms/notify` | Medium
+57 | File | `/contact/store` | High
+58 | File | `/Duty/AjaxHandle/UploadFloodPlanFileUpdate.ashx` | High
+59 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
+60 | File | `/Duty/AjaxHandle/Write/UploadFile.ashx` | High
+61 | File | `/ecommerce/support_ticket` | High
+62 | File | `/edit.php` | Medium
+63 | File | `/Employer/ManageJob.php` | High
+64 | File | `/en/blog-comment-4` | High
+65 | File | `/endpoint/add-computer.php` | High
+66 | File | `/endpoint/add-guest.php` | High
+67 | File | `/endpoint/add-user.php` | High
+68 | File | `/ext/collect/filter_text.do` | High
+69 | File | `/farm/product.php` | High
+70 | File | `/file_manager/admin/save_user.php` | High
+71 | File | `/forum/away.php` | High
+72 | File | `/general/email/outbox/delete.php` | High
+73 | File | `/general/ipanel/menu_code.php?MENU_TYPE=FAV` | High
+74 | File | `/get.php` | Medium
+75 | File | `/goform/RgUrlBlock.asp` | High
+76 | File | `/goform/setDeviceSettings` | High
+77 | File | `/goform/SetOnlineDevName` | High
 78 | ... | ... | ...
 
-There are 686 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 683 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

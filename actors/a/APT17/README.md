@@ -60,11 +60,11 @@ ID | Type | Indicator | Confidence
 3 | File | `/api/DownloadUrlResponse.ashx` | High
 4 | File | `/wbg/core/_includes/authorization.inc.php` | High
 5 | File | `addentry.php` | Medium
-6 | File | `data/gbconfiguration.dat` | High
-7 | File | `detail.php` | Medium
+6 | File | `burl.c` | Low
+7 | File | `data/gbconfiguration.dat` | High
 8 | ... | ... | ...
 
-There are 52 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 54 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -83,36 +83,36 @@ ID | Type | Indicator | Confidence
 32 | File | `/pms/index.php` | High
 33 | File | `/pms/update_user.php?user_id=1` | High
 34 | File | `/register.php` | High
-35 | File | `/SimpleBusTicket/index.php` | High
-36 | File | `/tmp` | Low
-37 | File | `/transcation.php` | High
-38 | File | `/uncpath/` | Medium
-39 | File | `/updown/upload.cgi` | High
-40 | File | `/usr/bin/pkexec` | High
-41 | File | `/var/run/docker.sock` | High
-42 | File | `/view/emarks_range_grade_update_form.php` | High
-43 | File | `/wp-admin/admin-ajax.php` | High
-44 | File | `/xpdf/Stream.cc` | High
-45 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-46 | File | `adclick.php` | Medium
-47 | File | `addons/mediapool/pages/index.php` | High
-48 | File | `addpost_newpoll.php` | High
-49 | File | `adm-index.php` | High
-50 | File | `Admin.PHP` | Medium
-51 | File | `admin.php` | Medium
-52 | File | `admin.php&r=article/AdminContent/edit` | High
-53 | File | `admin/expense_report.php` | High
-54 | File | `admin/index.php` | High
-55 | File | `admin/ops/reports/ops/forum.php` | High
-56 | File | `admin/versions.html` | High
-57 | File | `admincp/attachment.php` | High
-58 | File | `adminedit.pl` | Medium
-59 | File | `admin_class.php` | High
-60 | File | `ajax.php` | Medium
-61 | File | `ajax/api/hook/getHookList` | High
+35 | File | `/request.php` | Medium
+36 | File | `/SimpleBusTicket/index.php` | High
+37 | File | `/tmp` | Low
+38 | File | `/transcation.php` | High
+39 | File | `/uncpath/` | Medium
+40 | File | `/updown/upload.cgi` | High
+41 | File | `/usr/bin/pkexec` | High
+42 | File | `/var/run/docker.sock` | High
+43 | File | `/view/emarks_range_grade_update_form.php` | High
+44 | File | `/wp-admin/admin-ajax.php` | High
+45 | File | `/xpdf/Stream.cc` | High
+46 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+47 | File | `adclick.php` | Medium
+48 | File | `addons/mediapool/pages/index.php` | High
+49 | File | `addpost_newpoll.php` | High
+50 | File | `adm-index.php` | High
+51 | File | `Admin.PHP` | Medium
+52 | File | `admin.php` | Medium
+53 | File | `admin.php&r=article/AdminContent/edit` | High
+54 | File | `admin/expense_report.php` | High
+55 | File | `admin/index.php` | High
+56 | File | `admin/ops/reports/ops/forum.php` | High
+57 | File | `admin/versions.html` | High
+58 | File | `admincp/attachment.php` | High
+59 | File | `adminedit.pl` | Medium
+60 | File | `admin_class.php` | High
+61 | File | `ajax.php` | Medium
 62 | ... | ... | ...
 
-There are 540 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 542 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

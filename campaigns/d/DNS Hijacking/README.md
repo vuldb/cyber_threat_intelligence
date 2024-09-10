@@ -49,7 +49,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 15 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -73,13 +73,13 @@ ID | Type | Indicator | Confidence
 14 | File | `/dashboard/settings` | High
 15 | File | `/ebics-server/ebics.aspx` | High
 16 | File | `/etc/fstab` | Medium
-17 | File | `/EXCU_SHELL` | Medium
-18 | File | `/forum/away.php` | High
-19 | File | `/guestmanagement/front.php` | High
-20 | File | `/index.php/purchase_order/browse_data` | High
+17 | File | `/etc/shadow` | Medium
+18 | File | `/EXCU_SHELL` | Medium
+19 | File | `/forum/away.php` | High
+20 | File | `/guestmanagement/front.php` | High
 21 | ... | ... | ...
 
-There are 175 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 176 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

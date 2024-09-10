@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with SectopRAT:
 
-* [US](https://vuldb.com/?country.us)
 * [DE](https://vuldb.com/?country.de)
-* [GB](https://vuldb.com/?country.gb)
+* [US](https://vuldb.com/?country.us)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 10 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -37,9 +37,12 @@ ID | IP address | Hostname | Campaign | Confidence
 14 | [34.141.92.1](https://vuldb.com/?ip.34.141.92.1) | 1.92.141.34.bc.googleusercontent.com | - | Medium
 15 | [34.141.167.33](https://vuldb.com/?ip.34.141.167.33) | 33.167.141.34.bc.googleusercontent.com | - | Medium
 16 | [34.141.198.105](https://vuldb.com/?ip.34.141.198.105) | 105.198.141.34.bc.googleusercontent.com | - | Medium
-17 | ... | ... | ... | ...
+17 | [34.142.80.219](https://vuldb.com/?ip.34.142.80.219) | 219.80.142.34.bc.googleusercontent.com | - | Medium
+18 | [34.159.68.86](https://vuldb.com/?ip.34.159.68.86) | 86.68.159.34.bc.googleusercontent.com | - | Medium
+19 | [34.159.180.55](https://vuldb.com/?ip.34.159.180.55) | 55.180.159.34.bc.googleusercontent.com | - | Medium
+20 | ... | ... | ... | ...
 
-There are 62 more IOC items available. Please use our online service to access the data.
+There are 74 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -62,59 +65,62 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `//proc/kcore` | Medium
-3 | File | `/admin/searchview.php` | High
-4 | File | `/ajax-files/followBoard.php` | High
-5 | File | `/ajax-files/postComment.php` | High
-6 | File | `/api/v1/bait/set` | High
-7 | File | `/asms/classes/Master.php?f=delete_img` | High
-8 | File | `/banner/add.html` | High
-9 | File | `/categorypage.php` | High
-10 | File | `/cgi-bin/` | Medium
-11 | File | `/cgi-bin/system_mgr.cgi` | High
-12 | File | `/coreframe/app/pay/admin/index.php` | High
-13 | File | `/forum/away.php` | High
-14 | File | `/healthcare/Admin/consulting_detail.php` | High
-15 | File | `/home.php` | Medium
-16 | File | `/lawyer-list` | Medium
-17 | File | `/librarian/bookdetails.php` | High
-18 | File | `/login.php?recoverme=` | High
-19 | File | `/mics/j_spring_security_check` | High
-20 | File | `/opac/Actions.php?a=login` | High
-21 | File | `/protocol/iscuser/uploadiscuser.php` | High
-22 | File | `/public/launchNewWindow.jsp` | High
-23 | File | `/public/login.htm` | High
-24 | File | `/rpc/membership/setProfile` | High
-25 | File | `/search` | Low
-26 | File | `/searchpin.php` | High
-27 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-28 | File | `/sendKey` | Medium
-29 | File | `/setSystemAdmin` | High
-30 | File | `/simple_chat_bot/admin/?page=responses/manage_response` | High
-31 | File | `/soap/server_sa` | High
-32 | File | `/spip.php` | Medium
-33 | File | `/src/main/java/com/dotmarketing/filters/CMSFilter.java` | High
-34 | File | `/staff/bookdetails.php` | High
-35 | File | `/TemplateManager/indexExternalLocation.jsp` | High
-36 | File | `/tour/admin/file.php` | High
-37 | File | `/web/entry/en/address/adrsSetUserWizard.cgi` | High
-38 | File | `/_next` | Low
-39 | File | `5.php` | Low
-40 | File | `2345MPCSafe.exe/2345SafeTray.exe/2345Speedup.exe` | High
-41 | File | `about.php` | Medium
-42 | File | `adclick.php` | Medium
-43 | File | `add-phlebotomist.php` | High
+1 | File | `$HOME/.cdrdao` | High
+2 | File | `.imwheelrc` | Medium
+3 | File | `.jpilot` | Low
+4 | File | `.plan` | Low
+5 | File | `.tin` | Low
+6 | File | `/+CSCOE+/logon.html` | High
+7 | File | `//proc/kcore` | Medium
+8 | File | `/admin/emp-profile-avatar.php` | High
+9 | File | `/admin/searchview.php` | High
+10 | File | `/api/v1/bait/set` | High
+11 | File | `/asms/classes/Master.php?f=delete_img` | High
+12 | File | `/bolt/editcontent/showcases` | High
+13 | File | `/cgi-bin/` | Medium
+14 | File | `/cgi-bin/system_mgr.cgi` | High
+15 | File | `/configs/application.ini` | High
+16 | File | `/coreframe/app/pay/admin/index.php` | High
+17 | File | `/forum/away.php` | High
+18 | File | `/healthcare/Admin/consulting_detail.php` | High
+19 | File | `/librarian/bookdetails.php` | High
+20 | File | `/lists/index.php` | High
+21 | File | `/opac/Actions.php?a=login` | High
+22 | File | `/protocol/iscuser/uploadiscuser.php` | High
+23 | File | `/public/launchNewWindow.jsp` | High
+24 | File | `/public/login.htm` | High
+25 | File | `/resume_upload.php` | High
+26 | File | `/rpc/membership/setProfile` | High
+27 | File | `/simple_chat_bot/admin/?page=responses/manage_response` | High
+28 | File | `/spacecom/login.php` | High
+29 | File | `/spip.php` | Medium
+30 | File | `/staff/bookdetails.php` | High
+31 | File | `/tmp` | Low
+32 | File | `/tour/admin/file.php` | High
+33 | File | `/usr/bin/sonia` | High
+34 | File | `/usr/ucb/mail` | High
+35 | File | `/var/spool/fax/outgoing/.last_run` | High
+36 | File | `/_next` | Low
+37 | File | `5.php` | Low
+38 | File | `123flashchat.php` | High
+39 | File | `about.php` | Medium
+40 | File | `account.php` | Medium
+41 | File | `adclick.php` | Medium
+42 | File | `add-phlebotomist.php` | High
+43 | File | `add.php` | Low
 44 | File | `addtomylist.asp` | High
-45 | File | `add_bookmark.php` | High
-46 | File | `add_comment.php` | High
-47 | File | `admin.color.php` | High
-48 | File | `admin/addons/archive/archive.php` | High
-49 | File | `admin/admin.php` | High
-50 | File | `AdminByRequest.exe` | High
-51 | ... | ... | ...
+45 | File | `admin.color.php` | High
+46 | File | `admin/addons/archive/archive.php` | High
+47 | File | `admin/profile_settings_net.html` | High
+48 | File | `admincp/auth/secure.php` | High
+49 | File | `adminer.php` | Medium
+50 | File | `Administrator/add_pictures.php` | High
+51 | File | `advsearch.php` | High
+52 | File | `af_netlink.c` | Medium
+53 | File | `ajax_officebuilding.php` | High
+54 | ... | ... | ...
 
-There are 447 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 468 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -123,10 +129,14 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://app.any.run/tasks/20221a9d-bcf3-4ec4-bebd-6fdd18e783e5
 * https://community.blueliv.com/#!/s/602f934182df413eaf345e6a
 * https://de.darktrace.com/blog/not-your-average-rodent-darktraces-mitigation-of-the-sectop-remote-access-trojan-rat
+* https://search.censys.io/hosts/45.141.87.50
+* https://search.censys.io/hosts/94.181.229.249
+* https://search.censys.io/hosts/194.26.29.112
 * https://threatfox.abuse.ch
 * https://twitter.com/AnFam17/status/1658666291308163072
 * https://urlhaus.abuse.ch/url/2859573/
 * https://www.malwarebytes.com/blog/threat-intelligence/2024/04/bing-ad-for-nordvpn-leads-to-sectoprat
+* https://www.virustotal.com/gui/file/7dec8701bb5db7497c62ff78db7e5dd05b75a7b4e226d99992fcad3ceeab4ed6
 
 ## Literature
 

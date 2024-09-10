@@ -49,33 +49,35 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/?g=log_import_save` | High
-2 | File | `/admin/about-us.php` | High
-3 | File | `/admin/article.php` | High
-4 | File | `/admin/countrymanagement.php` | High
-5 | File | `/admin/expense-type` | High
-6 | File | `/admin/transactions/track_shipment.php` | High
-7 | File | `/admin/user/manage_user.php` | High
-8 | File | `/administration/settings_registration.php` | High
-9 | File | `/ajax-files/postComment.php` | High
-10 | File | `/application/index/controller/File.php` | High
-11 | File | `/application/index/controller/Screen.php` | High
-12 | File | `/application/websocket/controller/Setting.php` | High
-13 | File | `/auth/auth.php?user=1` | High
-14 | File | `/blog` | Low
-15 | File | `/categorypage.php` | High
-16 | File | `/cgi-bin/cstecgi.cgi` | High
-17 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-18 | File | `/cgi-bin/logo_extra_upload.cgi` | High
-19 | File | `/classes/Master.php` | High
-20 | File | `/collection/all` | High
-21 | File | `/general/email/outbox/delete.php` | High
-22 | File | `/home.php` | Medium
-23 | File | `/list_temp_photo_pin_upload.php` | High
-24 | File | `/login` | Low
-25 | File | `/manage_laundry.php` | High
-26 | ... | ... | ...
+2 | File | `/addproduct.php` | High
+3 | File | `/admin/about-us.php` | High
+4 | File | `/admin/article.php` | High
+5 | File | `/admin/countrymanagement.php` | High
+6 | File | `/admin/expense-type` | High
+7 | File | `/admin/transactions/track_shipment.php` | High
+8 | File | `/admin/user/manage_user.php` | High
+9 | File | `/administration/settings_registration.php` | High
+10 | File | `/ajax-files/postComment.php` | High
+11 | File | `/application/index/controller/File.php` | High
+12 | File | `/application/index/controller/Screen.php` | High
+13 | File | `/application/websocket/controller/Setting.php` | High
+14 | File | `/auth/auth.php?user=1` | High
+15 | File | `/blog` | Low
+16 | File | `/categorypage.php` | High
+17 | File | `/cgi-bin/cstecgi.cgi` | High
+18 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+19 | File | `/cgi-bin/logo_extra_upload.cgi` | High
+20 | File | `/classes/Master.php` | High
+21 | File | `/collection/all` | High
+22 | File | `/downloadFile.php` | High
+23 | File | `/endpoint/delete-account.php` | High
+24 | File | `/general/email/outbox/delete.php` | High
+25 | File | `/goform/setDebugCfg` | High
+26 | File | `/home.php` | Medium
+27 | File | `/list_temp_photo_pin_upload.php` | High
+28 | ... | ... | ...
 
-There are 220 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 232 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

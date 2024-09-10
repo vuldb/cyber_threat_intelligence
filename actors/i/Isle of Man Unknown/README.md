@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [FR](https://vuldb.com/?country.fr)
-* [RU](https://vuldb.com/?country.ru)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
 There are 2 more country items available. Please use our online service to access the data.
@@ -65,17 +65,19 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/balance/service/list` | High
-2 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-3 | File | `/cgi-bin/nas_sharing.cgi` | High
-4 | File | `/control/deactivate_case.php` | High
-5 | File | `/manage_sy.php` | High
-6 | File | `/ndmComponents.js` | High
-7 | File | `/register.php` | High
-8 | File | `/Setting/change_password_save` | High
-9 | ... | ... | ...
+1 | File | `/admin/admin-update-employee.php` | High
+2 | File | `/balance/service/list` | High
+3 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+4 | File | `/cgi-bin/nas_sharing.cgi` | High
+5 | File | `/classes/Master.php` | High
+6 | File | `/control/deactivate_case.php` | High
+7 | File | `/manage_sy.php` | High
+8 | File | `/ndmComponents.js` | High
+9 | File | `/register.php` | High
+10 | File | `/request.php` | Medium
+11 | ... | ... | ...
 
-There are 61 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 80 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

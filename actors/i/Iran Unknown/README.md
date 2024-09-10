@@ -96,9 +96,9 @@ ID | Type | Indicator | Confidence
 22 | File | `/cgi-bin/` | Medium
 23 | File | `/cgi-bin/go` | Medium
 24 | File | `/cgi-bin/touchlist_sync.cgi` | High
-25 | File | `/cgi-bin/webproc` | High
-26 | File | `/check_availability.php` | High
-27 | File | `/ci_spms/admin/category` | High
+25 | File | `/check_availability.php` | High
+26 | File | `/ci_spms/admin/category` | High
+27 | File | `/classes/Master.php` | High
 28 | File | `/classes/Users.php?f=save` | High
 29 | File | `/clinic/medical_records_view.php` | High
 30 | File | `/config/getuser` | High
@@ -110,34 +110,33 @@ ID | Type | Indicator | Confidence
 36 | File | `/dashboard/add-portfolio.php` | High
 37 | File | `/dashboard/Cinvoice/manage_invoice` | High
 38 | File | `/dashboard/settings` | High
-39 | File | `/ebics-server/ebics.aspx` | High
-40 | File | `/filemanager/upload/drop` | High
-41 | File | `/forum/away.php` | High
-42 | File | `/goform/RgDdns` | High
-43 | File | `/goform/RgDhcp` | High
-44 | File | `/goform/RGFirewallEL` | High
-45 | File | `/goform/RgTime` | High
-46 | File | `/goform/RgUrlBlock.asp` | High
-47 | File | `/goform/wlanPrimaryNetwork` | High
-48 | File | `/guestmanagement/front.php` | High
-49 | File | `/horde/imp/search.php` | High
-50 | File | `/importexport.php` | High
-51 | File | `/index.php` | Medium
-52 | File | `/index.php/purchase_order/browse_data` | High
-53 | File | `/librarian/bookdetails.php` | High
-54 | File | `/login.php` | Medium
-55 | File | `/login/index.php` | High
-56 | File | `/main.php` | Medium
-57 | File | `/manage-apartment.php` | High
-58 | File | `/management/api/rcx_management/global_config_query` | High
-59 | File | `/manage_receiving.php` | High
-60 | File | `/mgmt/tm/util/bash` | High
-61 | File | `/mims/app/addcustomerHandler.php` | High
-62 | File | `/mims/login.php` | High
-63 | File | `/mnotice.php?id=2` | High
-64 | ... | ... | ...
+39 | File | `/dcim/console-ports/add` | High
+40 | File | `/ebics-server/ebics.aspx` | High
+41 | File | `/filemanager/upload/drop` | High
+42 | File | `/forum/away.php` | High
+43 | File | `/goform/RgDdns` | High
+44 | File | `/goform/RgDhcp` | High
+45 | File | `/goform/RGFirewallEL` | High
+46 | File | `/goform/RgTime` | High
+47 | File | `/goform/RgUrlBlock.asp` | High
+48 | File | `/goform/wlanPrimaryNetwork` | High
+49 | File | `/guestmanagement/front.php` | High
+50 | File | `/horde/imp/search.php` | High
+51 | File | `/importexport.php` | High
+52 | File | `/index.php` | Medium
+53 | File | `/index.php/purchase_order/browse_data` | High
+54 | File | `/librarian/bookdetails.php` | High
+55 | File | `/login.php` | Medium
+56 | File | `/login/index.php` | High
+57 | File | `/main.php` | Medium
+58 | File | `/manage-apartment.php` | High
+59 | File | `/management/api/rcx_management/global_config_query` | High
+60 | File | `/manage_receiving.php` | High
+61 | File | `/mgmt/tm/util/bash` | High
+62 | File | `/mims/app/addcustomerHandler.php` | High
+63 | ... | ... | ...
 
-There are 564 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 554 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

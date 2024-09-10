@@ -63,9 +63,10 @@ ID | Type | Indicator | Confidence
 1 | File | `/common/ticket_associated_tickets.php` | High
 2 | File | `/licenses` | Medium
 3 | File | `/uncpath/` | Medium
-4 | ... | ... | ...
+4 | File | `/usr/local/psa/admin/sbin/wrapper` | High
+5 | ... | ... | ...
 
-There are 25 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 27 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

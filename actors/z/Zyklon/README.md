@@ -41,7 +41,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -50,22 +50,23 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `%PROGRAMFILES%\1E\Client\Tachyon.Performance.Metrics.exe` | High
-2 | File | `/ajaxGetFileByPath.php` | High
-3 | File | `/app/sys1.php` | High
-4 | File | `/config/list` | Medium
-5 | File | `/etc/passwd` | Medium
-6 | File | `/forum/away.php` | High
-7 | File | `/pharmacy-sales-and-inventory-system/manage_user.php` | High
-8 | File | `/uncpath/` | Medium
-9 | File | `/wbg/core/_includes/authorization.inc.php` | High
-10 | File | `active.log` | Medium
-11 | File | `adclick.php` | Medium
-12 | File | `admin/addons/uninstall/anomaly.module.blocks` | High
-13 | File | `admin/admin_process.php` | High
-14 | File | `admin/index.php` | High
-15 | ... | ... | ...
+2 | File | `/admin/order.php` | High
+3 | File | `/ajaxGetFileByPath.php` | High
+4 | File | `/app/sys1.php` | High
+5 | File | `/category.php` | High
+6 | File | `/config/list` | Medium
+7 | File | `/etc/passwd` | Medium
+8 | File | `/forum/away.php` | High
+9 | File | `/pharmacy-sales-and-inventory-system/manage_user.php` | High
+10 | File | `/uncpath/` | Medium
+11 | File | `/web/` | Low
+12 | File | `active.log` | Medium
+13 | File | `adclick.php` | Medium
+14 | File | `admin/addons/uninstall/anomaly.module.blocks` | High
+15 | File | `admin/admin_process.php` | High
+16 | ... | ... | ...
 
-There are 123 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 130 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

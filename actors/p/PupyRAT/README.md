@@ -4,6 +4,12 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.pupyrat](https://vuldb.com/?actor.pupyrat)
 
+## Campaigns
+
+The following _campaigns_ are known and can be associated with PupyRAT:
+
+* UTG-Q-010
+
 ## Countries
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with PupyRAT:
@@ -23,6 +29,7 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [45.32.8.143](https://vuldb.com/?ip.45.32.8.143) | 45.32.8.143.vultrusercontent.com | - | Medium
 2 | [45.32.16.248](https://vuldb.com/?ip.45.32.16.248) | 45.32.16.248.vultrusercontent.com | - | Medium
+3 | [103.79.76.40](https://vuldb.com/?ip.103.79.76.40) | - | UTG-Q-010 | High
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -35,7 +42,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1068 | CWE-264, CWE-269 | Execution with Unnecessary Privileges | High
 4 | ... | ... | ... | ...
 
-There are 5 more TTP items available. Please use our online service to access the data.
+There are 7 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -48,13 +55,14 @@ ID | Type | Indicator | Confidence
 3 | File | `lib/curl_sasl.c` | High
 4 | ... | ... | ...
 
-There are 12 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 20 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://asec.ahnlab.com/en/64258/
+* https://cyble.com/blog/analysing-the-utg-q-010-campaign/
 
 ## Literature
 

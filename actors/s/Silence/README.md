@@ -8,9 +8,9 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Silence:
 
+* [CN](https://vuldb.com/?country.cn)
 * [RU](https://vuldb.com/?country.ru)
 * [PL](https://vuldb.com/?country.pl)
-* [CN](https://vuldb.com/?country.cn)
 * ...
 
 There are 8 more country items available. Please use our online service to access the data.
@@ -74,18 +74,19 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
 2 | File | `/catalog/all-products` | High
-3 | File | `/changePassword` | High
-4 | File | `/forum/away.php` | High
-5 | File | `/goform/addIpMacBind` | High
-6 | File | `/goform/DelDhcpRule` | High
-7 | File | `/goform/delIpMacBind` | High
-8 | File | `/goform/DelPortMapping` | High
-9 | File | `/goform/modifyDhcpRule` | High
-10 | File | `/goform/modifyIpMacBind` | High
-11 | File | `/goform/setBlackRule` | High
-12 | ... | ... | ...
+3 | File | `/cgi-bin/cstecgi.cgi` | High
+4 | File | `/changePassword` | High
+5 | File | `/etc/passwd` | Medium
+6 | File | `/forum/away.php` | High
+7 | File | `/goform/addIpMacBind` | High
+8 | File | `/goform/DelDhcpRule` | High
+9 | File | `/goform/delIpMacBind` | High
+10 | File | `/goform/DelPortMapping` | High
+11 | File | `/goform/modifyDhcpRule` | High
+12 | File | `/goform/modifyIpMacBind` | High
+13 | ... | ... | ...
 
-There are 90 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 103 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [IR](https://vuldb.com/?country.ir)
-* [RU](https://vuldb.com/?country.ru)
+* [DE](https://vuldb.com/?country.de)
 * ...
 
 There are 7 more country items available. Please use our online service to access the data.
@@ -45,7 +45,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 16 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -65,38 +65,39 @@ ID | Type | Indicator | Confidence
 10 | File | `/admin/success_story.php` | High
 11 | File | `/admin/sys_sql_query.php` | High
 12 | File | `/admin/user/team` | High
-13 | File | `/adminpanel/admin/query/addCourseExe.php` | High
-14 | File | `/cgi-bin/login.cgi` | High
-15 | File | `/cm/delete` | Medium
-16 | File | `/dipam/athlete-profile.php` | High
-17 | File | `/dipam/save-delegates.php` | High
-18 | File | `/forum/away.php` | High
-19 | File | `/getcfg.php` | Medium
-20 | File | `/goform/RouteStatic` | High
-21 | File | `/hrm/employeeadd.php` | High
-22 | File | `/hrm/employeeview.php` | High
-23 | File | `/index.php` | Medium
-24 | File | `/login.php` | Medium
-25 | File | `/manage_receiving.php` | High
-26 | File | `/mkshop/Men/profile.php` | High
-27 | File | `/model/add_student_subject.php` | High
-28 | File | `/model/update_grade.php` | High
-29 | File | `/pms/admin/prisons/view_prison.php` | High
-30 | File | `/product` | Medium
-31 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-32 | File | `/services/Card/findUser` | High
-33 | File | `/simple-online-bidding-system/admin/ajax.php?action=save_product` | High
-34 | File | `/simple-online-bidding-system/admin/index.php?page=manage_product` | High
-35 | File | `/simple-online-bidding-system/admin/index.php?page=manage_user` | High
-36 | File | `/simple-online-bidding-system/index.php?page=view_prod` | High
-37 | File | `/spip.php` | Medium
-38 | File | `/src/jsiUtils.c` | High
-39 | File | `/TeleoptiWFM/Administration/GetOneTenant` | High
-40 | File | `/uncpath/` | Medium
-41 | File | `/view/exam_timetable_grade_wise.php` | High
-42 | ... | ... | ...
+13 | File | `/admin/vpsApiData_deal.php?mudi=rev&nohrefStr=close` | High
+14 | File | `/adminpanel/admin/query/addCourseExe.php` | High
+15 | File | `/cgi-bin/ExportSettings.sh` | High
+16 | File | `/cgi-bin/login.cgi` | High
+17 | File | `/cm/delete` | Medium
+18 | File | `/delete_members.php` | High
+19 | File | `/dipam/athlete-profile.php` | High
+20 | File | `/dipam/save-delegates.php` | High
+21 | File | `/etc/passwd` | Medium
+22 | File | `/forum/away.php` | High
+23 | File | `/getcfg.php` | Medium
+24 | File | `/goform/RouteStatic` | High
+25 | File | `/hrm/employeeadd.php` | High
+26 | File | `/hrm/employeeview.php` | High
+27 | File | `/index.php` | Medium
+28 | File | `/login.php` | Medium
+29 | File | `/manage_receiving.php` | High
+30 | File | `/mkshop/Men/profile.php` | High
+31 | File | `/model/add_student_subject.php` | High
+32 | File | `/model/update_grade.php` | High
+33 | File | `/pms/admin/prisons/view_prison.php` | High
+34 | File | `/print_patients_visits.php` | High
+35 | File | `/product` | Medium
+36 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+37 | File | `/services/Card/findUser` | High
+38 | File | `/simple-online-bidding-system/admin/ajax.php?action=save_product` | High
+39 | File | `/simple-online-bidding-system/admin/index.php?page=manage_product` | High
+40 | File | `/simple-online-bidding-system/admin/index.php?page=manage_user` | High
+41 | File | `/simple-online-bidding-system/index.php?page=view_prod` | High
+42 | File | `/spip.php` | Medium
+43 | ... | ... | ...
 
-There are 358 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 375 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

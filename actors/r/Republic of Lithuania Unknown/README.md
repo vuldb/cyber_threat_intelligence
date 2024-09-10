@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [ES](https://vuldb.com/?country.es)
+* [FR](https://vuldb.com/?country.fr)
 * ...
 
-There are 15 more country items available. Please use our online service to access the data.
+There are 19 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -332,12 +332,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-29, CWE-425 | Path Traversal | High
-2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+2 | T1055 | CWE-74, CWE-643 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+5 | T1068 | CWE-250, CWE-264, CWE-266, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+6 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -346,40 +347,60 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/.pomerium` | Medium
-2 | File | `/admin/ajax.php?action=delete_user` | High
-3 | File | `/Admin/changepassword.php` | High
-4 | File | `/admin/court` | Medium
-5 | File | `/Admin/createClass.php` | High
-6 | File | `/admin/general-setting` | High
-7 | File | `/admin/inquiries/view_inquiry.php` | High
-8 | File | `/admin/maintenance/manage_brand.php` | High
-9 | File | `/admin/problem_judge.php` | High
-10 | File | `/admin/projects/{projectname}/skills/{skillname}/video` | High
-11 | File | `/admin/service` | High
-12 | File | `/api/v1/custom_component` | High
-13 | File | `/blog/blog.php` | High
-14 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-15 | File | `/catalog/admin/categories.php?cPath=&action=new_product` | High
-16 | File | `/catalog/all-products` | High
-17 | File | `/classes/Master.php?f=delete_category` | High
-18 | File | `/classes/Master.php?f=save_medicine` | High
-19 | File | `/classes/Users.php?f=delete` | High
-20 | File | `/College/admin/teacher.php` | High
-21 | File | `/conf/app.conf` | High
-22 | File | `/etc/shadow` | Medium
-23 | File | `/file/upload/1` | High
-24 | File | `/forum/away.php` | High
-25 | File | `/goform/SetSysTimeCfg` | High
-26 | File | `/goform/WifiExtraSet` | High
-27 | File | `/index.php` | Medium
-28 | File | `/js/player/dmplayer/dmku/?ac=edit` | High
-29 | File | `/labvantage/rc?command=page&page=SampleHistoricalList&_iframename=list&__crc=crc_1701669816260` | High
-30 | File | `/labvantage/rc?command=page&page=SampleList&_iframename=list` | High
-31 | File | `/lesson/controller.php` | High
-32 | File | `/librarian/bookdetails.php` | High
-33 | ... | ... | ...
+2 | File | `/admin/add_ikev2.php` | High
+3 | File | `/admin/ajax.php?action=delete_user` | High
+4 | File | `/admin/category_save.php` | High
+5 | File | `/admin/court` | Medium
+6 | File | `/Admin/createClass.php` | High
+7 | File | `/admin/div_data/data` | High
+8 | File | `/admin/general-setting` | High
+9 | File | `/admin/inquiries/view_inquiry.php` | High
+10 | File | `/admin/list_ipAddressPolicy.php` | High
+11 | File | `/admin/maintenance/manage_brand.php` | High
+12 | File | `/admin/manage_model.php` | High
+13 | File | `/admin/manage_user.php` | High
+14 | File | `/admin/media_folders` | High
+15 | File | `/admin/memberOnline_deal.php?mudi=del&dataType=&dataID=6` | High
+16 | File | `/admin/problem_judge.php` | High
+17 | File | `/admin/projects/{projectname}/skills/{skillname}/video` | High
+18 | File | `/admin/service` | High
+19 | File | `/admin/subject.php` | High
+20 | File | `/ajax.php` | Medium
+21 | File | `/api/v1/custom_component` | High
+22 | File | `/AttendanceMonitoring/report/index.php` | High
+23 | File | `/authMonitCallcenter` | High
+24 | File | `/blog/blog.php` | High
+25 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+26 | File | `/catalog/admin/categories.php?cPath=&action=new_product` | High
+27 | File | `/cgi-bin/cstecgi.cgi` | High
+28 | File | `/cgi-bin/nas_sharing.cgi` | High
+29 | File | `/classes/Master.php` | High
+30 | File | `/classes/Master.php?f=delete_category` | High
+31 | File | `/classes/Master.php?f=log_employee` | High
+32 | File | `/classes/Master.php?f=save_medicine` | High
+33 | File | `/classes/Master.php?f=save_package` | High
+34 | File | `/classes/Users.php?f=delete` | High
+35 | File | `/classes/Users.php?f=save` | High
+36 | File | `/College/admin/teacher.php` | High
+37 | File | `/conf/app.conf` | High
+38 | File | `/DXR.axd` | Medium
+39 | File | `/edit-subject.php` | High
+40 | File | `/endpoint/add-user.php` | High
+41 | File | `/etc/postfix/sender_login` | High
+42 | File | `/etc/shadow` | Medium
+43 | File | `/file/upload/1` | High
+44 | File | `/forum/away.php` | High
+45 | File | `/goform/SafeEmailFilter` | High
+46 | File | `/goform/SetIpMacBind` | High
+47 | File | `/goform/VirtualSer` | High
+48 | File | `/goform/WifiExtraSet` | High
+49 | File | `/guestbook` | Medium
+50 | File | `/includes/common/require_access_recovery.php` | High
+51 | File | `/index.php` | Medium
+52 | File | `/index.php?action=profile;u=2;area=showalerts;do=read` | High
+53 | ... | ... | ...
 
-There are 277 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 462 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

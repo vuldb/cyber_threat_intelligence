@@ -34,12 +34,12 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/src/dede/vote_edit.php` | High
-2 | File | `/views/index.php` | High
-3 | Argument | `aid` | Low
+1 | File | `/classes/Master.php?f=delete_record` | High
+2 | File | `/src/dede/vote_edit.php` | High
+3 | File | `/tracking/admin/fetch_genderit.php` | High
 4 | ... | ... | ...
 
-There are 1 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 5 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

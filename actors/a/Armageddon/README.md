@@ -8,8 +8,9 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Armageddon:
 
-* [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
+* [RU](https://vuldb.com/?country.ru)
 
 ## IOC - Indicator of Compromise
 
@@ -17,12 +18,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [66.42.95.123](https://vuldb.com/?ip.66.42.95.123) | 66.42.95.123.vultrusercontent.com | - | High
-2 | [92.53.116.145](https://vuldb.com/?ip.92.53.116.145) | smtpout7.timeweb.ru | - | High
-3 | [194.58.121.198](https://vuldb.com/?ip.194.58.121.198) | 194-58-121-198.cloudvps.regruhosting.ru | - | High
+1 | [45.61.136.56](https://vuldb.com/?ip.45.61.136.56) | - | - | High
+2 | [66.42.95.123](https://vuldb.com/?ip.66.42.95.123) | 66.42.95.123.vultrusercontent.com | - | Medium
+3 | [92.53.116.145](https://vuldb.com/?ip.92.53.116.145) | smtpout7.timeweb.ru | - | High
 4 | ... | ... | ... | ...
 
-There are 1 more IOC items available. Please use our online service to access the data.
+There are 3 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -31,11 +32,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22 | Path Traversal | High
-2 | T1068 | CWE-264 | Execution with Unnecessary Privileges | High
-3 | T1505 | CWE-89 | SQL Injection | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
 
-There are 1 more TTP items available. Please use our online service to access the data.
+There are 8 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -43,18 +44,19 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `ngx_http_lua_subrequest.c` | High
-2 | File | `stream.h` | Medium
-3 | File | `utility.c` | Medium
+1 | File | `/jeecg-boot/sys/common/upload` | High
+2 | File | `/thruk/#cgi-bin/extinfo.cgi?type=2` | High
+3 | File | `authent.php4` | Medium
 4 | ... | ... | ...
 
-There are 1 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 11 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://1275.ru/ioc/220/armageddon-apt-iocs/
+* https://github.com/blackorbird/APT_REPORT/blob/master/Gamaredon/Beyond_Bullets_and_Bombs_An_Examination_of_Armageddon_Groups_Cyber.pdf
 
 ## Literature
 

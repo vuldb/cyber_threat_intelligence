@@ -46,20 +46,21 @@ ID | Type | Indicator | Confidence
 1 | File | `/account/details.php` | High
 2 | File | `/admin/subject.php` | High
 3 | File | `/cgi/get_param.cgi` | High
-4 | File | `/forum/away.php` | High
-5 | File | `/modules/registration_admission/patient_register.php` | High
-6 | File | `/oauth/idp/.well-known/openid-configuration` | High
-7 | File | `/out.php` | Medium
-8 | File | `/sbin/gs_config` | High
-9 | File | `adclick.php` | Medium
-10 | File | `add_comment.php` | High
-11 | File | `album_portal.php` | High
-12 | File | `browse-category.php` | High
-13 | File | `category.cfm` | Medium
-14 | File | `classified_right.php` | High
-15 | ... | ... | ...
+4 | File | `/classes/Master.php` | High
+5 | File | `/forum/away.php` | High
+6 | File | `/modules/registration_admission/patient_register.php` | High
+7 | File | `/oauth/idp/.well-known/openid-configuration` | High
+8 | File | `/out.php` | Medium
+9 | File | `/sbin/gs_config` | High
+10 | File | `adclick.php` | Medium
+11 | File | `add_comment.php` | High
+12 | File | `album_portal.php` | High
+13 | File | `browse-category.php` | High
+14 | File | `category.cfm` | Medium
+15 | File | `classified_right.php` | High
+16 | ... | ... | ...
 
-There are 117 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 124 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

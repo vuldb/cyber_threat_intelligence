@@ -41,7 +41,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-29, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94 | Argument Injection | High
@@ -57,54 +57,56 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/add_post_sql.php` | High
-2 | File | `/admin/` | Low
-3 | File | `/admin/add_ikev2.php` | High
-4 | File | `/admin/article.php` | High
-5 | File | `/admin/book_row.php` | High
-6 | File | `/admin/contact-us.php` | High
-7 | File | `/admin/general.cgi` | High
-8 | File | `/admin/index.php` | High
-9 | File | `/admin/reminders/manage_reminder.php` | High
-10 | File | `/admin/services/view_service.php` | High
-11 | File | `/admin/tag/delete` | High
-12 | File | `/adminpanel/admin/query/deleteCourseExe.php` | High
-13 | File | `/api/baskets/{name}` | High
-14 | File | `/API/info` | Medium
-15 | File | `/api/jmeter/download/files` | High
-16 | File | `/api/v1/terminal/sessions/?limit=1` | High
-17 | File | `/api/wechat/app_auth` | High
-18 | File | `/application/index/controller/Screen.php` | High
-19 | File | `/apply.cgi` | Medium
-20 | File | `/cap.js` | Low
-21 | File | `/CCMAdmin/serverlist.asp` | High
-22 | File | `/cgi-bin/info.cgi` | High
-23 | File | `/cgi-bin/luci/api/auth` | High
-24 | File | `/cgi-bin/nas_sharing.cgi` | High
-25 | File | `/cgi-bin/system_mgr.cgi` | High
-26 | File | `/cgi-bin/webviewer_login_page` | High
-27 | File | `/cgi/get_param.cgi` | High
-28 | File | `/classes/Users.php?f=save` | High
-29 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
-30 | File | `/csms/admin/inquiries/view_details.php` | High
-31 | File | `/cstecgi.cgi` | Medium
-32 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
-33 | File | `/devinfo` | Medium
-34 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-35 | File | `/endpoint/delete-computer.php` | High
-36 | File | `/forum/away.php` | High
-37 | File | `/goform/openSchedWifi` | High
-38 | File | `/goform/SetStaticRouteCfg` | High
-39 | File | `/group1/uploa` | High
-40 | File | `/home/search` | Medium
-41 | File | `/importexport.php` | High
-42 | File | `/include/chart_generator.php` | High
-43 | File | `/index.php` | Medium
-44 | File | `/index.php?page=member` | High
-45 | File | `/install.php` | Medium
-46 | ... | ... | ...
+1 | File | `/?import` | Medium
+2 | File | `/add_post_sql.php` | High
+3 | File | `/admin/` | Low
+4 | File | `/admin/add_ikev2.php` | High
+5 | File | `/admin/ajax.php?action=save_student` | High
+6 | File | `/admin/article.php` | High
+7 | File | `/admin/book_row.php` | High
+8 | File | `/admin/contact-us.php` | High
+9 | File | `/admin/general.cgi` | High
+10 | File | `/admin/index.php` | High
+11 | File | `/admin/reminders/manage_reminder.php` | High
+12 | File | `/admin/tag/delete` | High
+13 | File | `/adminpanel/admin/query/deleteCourseExe.php` | High
+14 | File | `/ajax.php?action=login` | High
+15 | File | `/api/baskets/{name}` | High
+16 | File | `/API/info` | Medium
+17 | File | `/api/jmeter/download/files` | High
+18 | File | `/api/v1/terminal/sessions/?limit=1` | High
+19 | File | `/api/wechat/app_auth` | High
+20 | File | `/application/index/controller/Screen.php` | High
+21 | File | `/apply.cgi` | Medium
+22 | File | `/authMonitCallcenter` | High
+23 | File | `/cap.js` | Low
+24 | File | `/CCMAdmin/serverlist.asp` | High
+25 | File | `/cgi-bin/cstecgi.cgi` | High
+26 | File | `/cgi-bin/info.cgi` | High
+27 | File | `/cgi-bin/luci/api/auth` | High
+28 | File | `/cgi-bin/nas_sharing.cgi` | High
+29 | File | `/cgi-bin/system_mgr.cgi` | High
+30 | File | `/cgi-bin/webviewer_login_page` | High
+31 | File | `/cgi/get_param.cgi` | High
+32 | File | `/classes/Master.php` | High
+33 | File | `/classes/Users.php?f=save` | High
+34 | File | `/csms/admin/inquiries/view_details.php` | High
+35 | File | `/cstecgi.cgi` | Medium
+36 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
+37 | File | `/devinfo` | Medium
+38 | File | `/downloadFile.php` | High
+39 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+40 | File | `/emgui/rest/preferences/PREF_HOME_PAGE/sponsor/3/` | High
+41 | File | `/endpoint/delete-computer.php` | High
+42 | File | `/endpoint/delete-expense.php` | High
+43 | File | `/forum/away.php` | High
+44 | File | `/goform/openSchedWifi` | High
+45 | File | `/goform/SetStaticRouteCfg` | High
+46 | File | `/group1/uploa` | High
+47 | File | `/home/search` | Medium
+48 | ... | ... | ...
 
-There are 396 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 420 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

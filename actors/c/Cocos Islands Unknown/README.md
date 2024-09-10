@@ -84,17 +84,17 @@ ID | Type | Indicator | Confidence
 34 | File | `/updown/upload.cgi` | High
 35 | File | `/user/del.php` | High
 36 | File | `/websocket/exec` | High
-37 | File | `/wp-admin/admin-ajax.php` | High
-38 | File | `/_next` | Low
-39 | File | `123flashchat.php` | High
-40 | File | `act.php` | Low
-41 | File | `add_vhost.php` | High
-42 | File | `admin.php/pay` | High
-43 | File | `admin/bad.php` | High
-44 | File | `admin/index.php` | High
+37 | File | `/web_cste/cgi-bin/product.ini` | High
+38 | File | `/wp-admin/admin-ajax.php` | High
+39 | File | `/_next` | Low
+40 | File | `123flashchat.php` | High
+41 | File | `act.php` | Low
+42 | File | `add_vhost.php` | High
+43 | File | `admin.php/pay` | High
+44 | File | `admin/bad.php` | High
 45 | ... | ... | ...
 
-There are 385 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 388 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

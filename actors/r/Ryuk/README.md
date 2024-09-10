@@ -63,7 +63,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -73,52 +73,52 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `//proc/kcore` | Medium
 2 | File | `/act/ActDao.xml` | High
-3 | File | `/admin/about-us.php` | High
-4 | File | `/admin/action/delete-vaccine.php` | High
-5 | File | `/admin/edit-post.php` | High
-6 | File | `/admin/index2.html` | High
-7 | File | `/admin/userprofile.php` | High
-8 | File | `/ajax.php?action=read_msg` | High
-9 | File | `/api/baskets/{name}` | High
-10 | File | `/api/clusters/local/topics/{topic}/messages` | High
-11 | File | `/api/gen/clients/{language}` | High
-12 | File | `/API/info` | Medium
-13 | File | `/app/index/controller/Common.php` | High
-14 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
-15 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
-16 | File | `/applications/nexus/modules/front/store/store.php` | High
-17 | File | `/bitrix/admin/ldap_server_edit.php` | High
-18 | File | `/cgi-bin/nas_sharing.cgi` | High
-19 | File | `/cgi-bin/wlogin.cgi` | High
-20 | File | `/classes/Master.php?f=save_category` | High
-21 | File | `/classes/Users.php?f=save` | High
-22 | File | `/College/admin/teacher.php` | High
-23 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
-24 | File | `/dcim/rack-roles/` | High
-25 | File | `/debug/pprof` | Medium
-26 | File | `/ebics-server/ebics.aspx` | High
-27 | File | `/fftools/ffmpeg_enc.c` | High
-28 | File | `/forms/doLogin` | High
-29 | File | `/formSysLog` | Medium
-30 | File | `/forum/away.php` | High
-31 | File | `/goform/aspForm` | High
-32 | File | `/goform/net\_Web\_get_value` | High
-33 | File | `/GponForm/usb_restore_Form?script/` | High
-34 | File | `/group1/uploa` | High
-35 | File | `/hedwig.cgi` | Medium
-36 | File | `/HNAP1` | Low
-37 | File | `/HNAP1/SetClientInfo` | High
-38 | File | `/inc/topBarNav.php` | High
-39 | File | `/index.php` | Medium
-40 | File | `/index.php?app=main&func=passport&action=login` | High
-41 | File | `/install/` | Medium
-42 | File | `/kelas/data` | Medium
-43 | File | `/listplace/user/ticket/create` | High
-44 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
-45 | File | `/manage/IPSetup.php` | High
+3 | File | `/admin.php?p=/Area/index#tab=t2` | High
+4 | File | `/admin/about-us.php` | High
+5 | File | `/admin/action/delete-vaccine.php` | High
+6 | File | `/admin/admin-update-employee.php` | High
+7 | File | `/admin/edit-post.php` | High
+8 | File | `/admin/index2.html` | High
+9 | File | `/admin/userprofile.php` | High
+10 | File | `/ajax.php?action=read_msg` | High
+11 | File | `/api/baskets/{name}` | High
+12 | File | `/api/clusters/local/topics/{topic}/messages` | High
+13 | File | `/api/gen/clients/{language}` | High
+14 | File | `/API/info` | Medium
+15 | File | `/app/index/controller/Common.php` | High
+16 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
+17 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
+18 | File | `/applications/nexus/modules/front/store/store.php` | High
+19 | File | `/bitrix/admin/ldap_server_edit.php` | High
+20 | File | `/cgi-bin/cstecgi.cgi` | High
+21 | File | `/cgi-bin/nas_sharing.cgi` | High
+22 | File | `/cgi-bin/supervisor/adcommand.cgi` | High
+23 | File | `/classes/Master.php` | High
+24 | File | `/classes/Master.php?f=save_category` | High
+25 | File | `/classes/Users.php?f=save` | High
+26 | File | `/College/admin/teacher.php` | High
+27 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
+28 | File | `/dcim/rack-roles/` | High
+29 | File | `/debug/pprof` | Medium
+30 | File | `/DXR.axd` | Medium
+31 | File | `/fftools/ffmpeg_enc.c` | High
+32 | File | `/forms/doLogin` | High
+33 | File | `/formSysLog` | Medium
+34 | File | `/forum/away.php` | High
+35 | File | `/goform/aspForm` | High
+36 | File | `/goform/net\_Web\_get_value` | High
+37 | File | `/goform/SetOnlineDevName` | High
+38 | File | `/GponForm/usb_restore_Form?script/` | High
+39 | File | `/group1/uploa` | High
+40 | File | `/hedwig.cgi` | Medium
+41 | File | `/HNAP1` | Low
+42 | File | `/HNAP1/SetClientInfo` | High
+43 | File | `/inc/topBarNav.php` | High
+44 | File | `/includes/common/require_access_recovery.php` | High
+45 | File | `/index.php` | Medium
 46 | ... | ... | ...
 
-There are 394 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 401 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

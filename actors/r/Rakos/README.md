@@ -52,29 +52,35 @@ ID | Type | Indicator | Confidence
 2 | File | `/addWhiteListDomain.imss` | High
 3 | File | `/admin/app/product.php` | High
 4 | File | `/anony/mjpg.cgi` | High
-5 | File | `/cgi-bin/wlogin.cgi` | High
-6 | File | `/cobbler-api` | Medium
-7 | File | `/customer_support/index.php` | High
-8 | File | `/forum/away.php` | High
-9 | File | `/inc/parser/xhtml.php` | High
-10 | File | `/include/makecvs.php` | High
-11 | File | `/index.php` | Medium
-12 | File | `/login/index.php` | High
-13 | File | `/preview.php` | Medium
-14 | File | `/protocol/index.php` | High
-15 | File | `/requests.php` | High
-16 | File | `/search-result.php` | High
-17 | File | `/secret_coder.sql` | High
-18 | File | `/shop.php` | Medium
-19 | File | `/uncpath/` | Medium
-20 | File | `/view_order.php` | High
-21 | File | `/wp-admin/admin.php?page=wp_file_manager_properties` | High
-22 | File | `/zms/admin/changeimage.php` | High
-23 | File | `add.php` | Low
-24 | File | `adminer.php` | Medium
-25 | ... | ... | ...
+5 | File | `/api/get-browser-snapshot` | High
+6 | File | `/cgi-bin/wlogin.cgi` | High
+7 | File | `/cobbler-api` | Medium
+8 | File | `/customer_support/index.php` | High
+9 | File | `/forum/away.php` | High
+10 | File | `/inc/parser/xhtml.php` | High
+11 | File | `/include/makecvs.php` | High
+12 | File | `/index.php` | Medium
+13 | File | `/login/index.php` | High
+14 | File | `/member/index/login.html` | High
+15 | File | `/member/myfriend.php` | High
+16 | File | `/member/reg.asp` | High
+17 | File | `/pms/admin/actions/view_action.php` | High
+18 | File | `/pms/admin/cells/view_cell.php` | High
+19 | File | `/pms/admin/crimes/manage_crime.php` | High
+20 | File | `/pms/admin/inmates/view_inmate.php` | High
+21 | File | `/pms/admin/prisons/view_prison.php` | High
+22 | File | `/pms/admin/visits/view_visit.php` | High
+23 | File | `/pms/index.php` | High
+24 | File | `/pms/update_medicine.php` | High
+25 | File | `/pms/update_patient.php` | High
+26 | File | `/pms/update_user.php` | High
+27 | File | `/preview.php` | Medium
+28 | File | `/protocol/index.php` | High
+29 | File | `/requests.php` | High
+30 | File | `/search-result.php` | High
+31 | ... | ... | ...
 
-There are 208 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 262 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -50,17 +50,17 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin.php?p=/Area/index#tab=t2` | High
-2 | File | `/cgi-bin/wapopen` | High
-3 | File | `/proc/self/setgroups` | High
-4 | File | `/secure/QueryComponent!Default.jspa` | High
-5 | File | `/userRpm/PingIframeRpm.htm` | High
-6 | File | `/webman/info.cgi` | High
-7 | File | `/wp-admin/options.php` | High
-8 | File | `adclick.php` | Medium
-9 | File | `addentry.php` | Medium
+2 | File | `/ajax.php` | Medium
+3 | File | `/cgi-bin/wapopen` | High
+4 | File | `/proc/self/setgroups` | High
+5 | File | `/secure/QueryComponent!Default.jspa` | High
+6 | File | `/userRpm/PingIframeRpm.htm` | High
+7 | File | `/webman/info.cgi` | High
+8 | File | `/wp-admin/options.php` | High
+9 | File | `adclick.php` | Medium
 10 | ... | ... | ...
 
-There are 77 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 78 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

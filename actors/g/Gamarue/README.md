@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 16 more country items available. Please use our online service to access the data.
+There are 17 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -81,28 +81,27 @@ ID | Type | Indicator | Confidence
 14 | File | `/customer_support/ajax.php?action=save_ticket` | High
 15 | File | `/folder/list` | Medium
 16 | File | `/group/comment` | High
-17 | File | `/ipms/imageConvert/image` | High
-18 | File | `/librarian/bookdetails.php` | High
-19 | File | `/log/decodmail.php` | High
-20 | File | `/lookin/info` | Medium
-21 | File | `/manage_inv.php` | High
-22 | File | `/plugins/servlet/jira-blockers/` | High
-23 | File | `/ptipupgrade.cgi` | High
-24 | File | `/public/login.htm` | High
-25 | File | `/register.do` | Medium
-26 | File | `/sessions/sess_<sessionid>` | High
-27 | File | `/sysmanage/edit_manageadmin.php` | High
-28 | File | `/themes/<php_file_name>` | High
-29 | File | `/tmp/speedtest_urls.xml` | High
-30 | File | `/uncpath/` | Medium
-31 | File | `/upload` | Low
-32 | File | `/var/log/nginx` | High
-33 | File | `/wbg/core/_includes/authorization.inc.php` | High
-34 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-35 | File | `adclick.php` | Medium
-36 | ... | ... | ...
+17 | File | `/index.php?r=admin/database/index/updatesurveylocalesettings_generalsettings` | High
+18 | File | `/index/ajax/lang` | High
+19 | File | `/ipms/imageConvert/image` | High
+20 | File | `/librarian/bookdetails.php` | High
+21 | File | `/log/decodmail.php` | High
+22 | File | `/lookin/info` | Medium
+23 | File | `/manage_inv.php` | High
+24 | File | `/plugins/servlet/jira-blockers/` | High
+25 | File | `/ptipupgrade.cgi` | High
+26 | File | `/public/login.htm` | High
+27 | File | `/register.do` | Medium
+28 | File | `/request.php` | Medium
+29 | File | `/sessions/sess_<sessionid>` | High
+30 | File | `/sysmanage/edit_manageadmin.php` | High
+31 | File | `/themes/<php_file_name>` | High
+32 | File | `/tmp/speedtest_urls.xml` | High
+33 | File | `/uncpath/` | Medium
+34 | File | `/upload` | Low
+35 | ... | ... | ...
 
-There are 304 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 303 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -79,27 +79,28 @@ ID | Type | Indicator | Confidence
 16 | File | `/config/php.ini` | High
 17 | File | `/dl/dl_sendmail.php` | High
 18 | File | `/drivers/net/ethernet/broadcom/tg3.c` | High
-19 | File | `/etc/passwd` | Medium
-20 | File | `/etc/qci/answers` | High
-21 | File | `/file-manager/rename.php` | High
-22 | File | `/forms/nslookupHandler` | High
-23 | File | `/forum/away.php` | High
-24 | File | `/function/booksave.php` | High
-25 | File | `/goform/form2userconfig.cgi` | High
-26 | File | `/goform/setcfm` | High
-27 | File | `/goform/SetSysTimeCfg` | High
-28 | File | `/goform/WifiWpsStart` | High
-29 | File | `/goform/WizardHandle` | High
-30 | File | `/gracemedia-media-player/templates/files/ajax_controller.php` | High
-31 | File | `/inc/campaign/campaign-delete.php` | High
-32 | File | `/include/file.php` | High
-33 | File | `/login` | Low
-34 | File | `/manage_laundry.php` | High
-35 | File | `/search.php` | Medium
-36 | File | `/sgmi/` | Low
-37 | ... | ... | ...
+19 | File | `/ecommerce/admin/products/controller.php` | High
+20 | File | `/etc/passwd` | Medium
+21 | File | `/etc/qci/answers` | High
+22 | File | `/file-manager/rename.php` | High
+23 | File | `/forms/nslookupHandler` | High
+24 | File | `/forum/away.php` | High
+25 | File | `/function/booksave.php` | High
+26 | File | `/goform/form2userconfig.cgi` | High
+27 | File | `/goform/setcfm` | High
+28 | File | `/goform/SetSysTimeCfg` | High
+29 | File | `/goform/WifiWpsStart` | High
+30 | File | `/goform/WizardHandle` | High
+31 | File | `/gracemedia-media-player/templates/files/ajax_controller.php` | High
+32 | File | `/inc/campaign/campaign-delete.php` | High
+33 | File | `/include/file.php` | High
+34 | File | `/login` | Low
+35 | File | `/manage_laundry.php` | High
+36 | File | `/proxy` | Low
+37 | File | `/search.php` | Medium
+38 | ... | ... | ...
 
-There are 316 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 327 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

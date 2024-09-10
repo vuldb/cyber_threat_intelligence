@@ -31,7 +31,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1068 | CWE-264 | Execution with Unnecessary Privileges | High
 4 | ... | ... | ... | ...
 
-There are 1 more TTP items available. Please use our online service to access the data.
+There are 3 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -39,12 +39,12 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/cms/classes/Users.php?f=delete_client` | High
-2 | File | `massage.php` | Medium
-3 | File | `print_payroll.php` | High
+1 | File | `/admin/team_save.php` | High
+2 | File | `/ajax.php?action=login` | High
+3 | File | `/classes/Users.php?f=save_user` | High
 4 | ... | ... | ...
 
-There are 7 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 15 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

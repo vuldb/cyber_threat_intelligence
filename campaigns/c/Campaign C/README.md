@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -50,11 +50,12 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-29, CWE-425 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
+3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-273, CWE-284 | Execution with Unnecessary Privileges | High
+6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -63,48 +64,50 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/act/ActDao.xml` | High
-2 | File | `/admin/list_resource_icon.php?action=delete` | High
-3 | File | `/admin/singlelogin.php` | High
-4 | File | `/ajax.php?action=read_msg` | High
-5 | File | `/api/clusters/local/topics/{topic}/messages` | High
-6 | File | `/api/gen/clients/{language}` | High
-7 | File | `/api/geojson` | Medium
-8 | File | `/API/info` | Medium
-9 | File | `/api/sys/login` | High
-10 | File | `/bcms/admin/?page=user/manage_user` | High
-11 | File | `/cgi-bin/ExportAllSettings.sh` | High
-12 | File | `/cgi/networkDiag.cgi` | High
-13 | File | `/debug/pprof` | Medium
-14 | File | `/ebics-server/ebics.aspx` | High
-15 | File | `/em/console/logon/logon` | High
-16 | File | `/env` | Low
-17 | File | `/forum/away.php` | High
-18 | File | `/general/email/inbox/delete_webmail.php` | High
-19 | File | `/goform/net\_Web\_get_value` | High
-20 | File | `/goform/SetNetControlList` | High
-21 | File | `/GponForm/usb_restore_Form?script/` | High
-22 | File | `/group1/uploa` | High
-23 | File | `/hedwig.cgi` | Medium
-24 | File | `/HNAP1` | Low
-25 | File | `/HNAP1/SetClientInfo` | High
-26 | File | `/list` | Low
-27 | File | `/login.php?m=admin&c=Field&a=channel_edit` | High
-28 | File | `/manage/IPSetup.php` | High
-29 | File | `/modules/profile/index.php` | High
-30 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-31 | File | `/net/sched/cls_fw.c` | High
-32 | File | `/patient/appointment.php` | High
-33 | File | `/plugin` | Low
-34 | File | `/prescription/prescription/delete/` | High
-35 | File | `/pro/common/download` | High
-36 | File | `/registrar/?page=registration` | High
-37 | File | `/search.php` | Medium
-38 | File | `/secure/QueryComponent!Default.jspa` | High
-39 | File | `/ServiceContractDef.do` | High
-40 | File | `/spip.php` | Medium
-41 | ... | ... | ...
+2 | File | `/admin.php?p=/Area/index#tab=t2` | High
+3 | File | `/admin/` | Low
+4 | File | `/admin/admin-update-employee.php` | High
+5 | File | `/admin/list_resource_icon.php?action=delete` | High
+6 | File | `/admin/singlelogin.php` | High
+7 | File | `/ajax.php?action=read_msg` | High
+8 | File | `/ajax/check_medicine_name.php` | High
+9 | File | `/api/clusters/local/topics/{topic}/messages` | High
+10 | File | `/api/geojson` | Medium
+11 | File | `/API/info` | Medium
+12 | File | `/api/sys/login` | High
+13 | File | `/bcms/admin/?page=user/manage_user` | High
+14 | File | `/cgi-bin/ExportAllSettings.sh` | High
+15 | File | `/cgi-bin/supervisor/adcommand.cgi` | High
+16 | File | `/cgi-bin/tosei_kikai.php` | High
+17 | File | `/cgi/networkDiag.cgi` | High
+18 | File | `/debug/pprof` | Medium
+19 | File | `/DXR.axd` | Medium
+20 | File | `/em/console/logon/logon` | High
+21 | File | `/env` | Low
+22 | File | `/EXCU_SHELL` | Medium
+23 | File | `/forum/away.php` | High
+24 | File | `/general/email/inbox/delete_webmail.php` | High
+25 | File | `/goform/modifyDhcpRule` | High
+26 | File | `/goform/ModifyPppAuthWhiteMac` | High
+27 | File | `/goform/net\_Web\_get_value` | High
+28 | File | `/goform/SetNetControlList` | High
+29 | File | `/goform/setStaOffline` | High
+30 | File | `/GponForm/usb_restore_Form?script/` | High
+31 | File | `/group1/uploa` | High
+32 | File | `/hedwig.cgi` | Medium
+33 | File | `/list` | Low
+34 | File | `/login.php?m=admin&c=Field&a=channel_edit` | High
+35 | File | `/manage/IPSetup.php` | High
+36 | File | `/modules/profile/index.php` | High
+37 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+38 | File | `/net/sched/cls_fw.c` | High
+39 | File | `/patient/appointment.php` | High
+40 | File | `/plugin` | Low
+41 | File | `/pms/index.php` | High
+42 | File | `/prescription/prescription/delete/` | High
+43 | ... | ... | ...
 
-There are 354 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 369 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

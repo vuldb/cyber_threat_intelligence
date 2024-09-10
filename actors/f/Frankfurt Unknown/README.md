@@ -119,42 +119,43 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin.php/accessory/filesdel.html` | High
-2 | File | `/admin/api/theme-edit/` | High
-3 | File | `/admin/cms.php` | High
-4 | File | `/admin/doctors.php` | High
-5 | File | `/admin/renewaldue.php` | High
-6 | File | `/admin/reports.php` | High
-7 | File | `/admin/success_story.php` | High
-8 | File | `/adms/admin/?page=vehicles/view_transaction` | High
-9 | File | `/apps/` | Low
-10 | File | `/back/index.php/user/User/?1` | High
-11 | File | `/backup.pl` | Medium
-12 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-13 | File | `/cgi-bin/nas_sharing.cgi` | High
-14 | File | `/classes/Users.php?f=delete` | High
-15 | File | `/common/info.cgi` | High
-16 | File | `/config/getuser` | High
-17 | File | `/debug/pprof` | Medium
-18 | File | `/Default/Bd` | Medium
-19 | File | `/forum/away.php` | High
-20 | File | `/HNAP1` | Low
-21 | File | `/manage_sy.php` | High
-22 | File | `/ndmComponents.js` | High
-23 | File | `/param.file.tgz` | High
-24 | File | `/php-opos/index.php` | High
-25 | File | `/register.php` | High
-26 | File | `/reservation/add_message.php` | High
-27 | File | `/scas/admin/` | Medium
-28 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-29 | File | `/sistema/flash/reboot` | High
-30 | File | `/static/` | Medium
-31 | File | `/st_reg.php` | Medium
-32 | File | `/user/s.php` | Medium
-33 | File | `/usr/bin/npcd` | High
-34 | ... | ... | ...
+1 | File | `/add-students.php` | High
+2 | File | `/admin.php/accessory/filesdel.html` | High
+3 | File | `/admin/api/theme-edit/` | High
+4 | File | `/admin/cms.php` | High
+5 | File | `/admin/doctors.php` | High
+6 | File | `/admin/manage_station.php` | High
+7 | File | `/admin/renewaldue.php` | High
+8 | File | `/admin/reports.php` | High
+9 | File | `/admin/success_story.php` | High
+10 | File | `/adms/admin/?page=vehicles/view_transaction` | High
+11 | File | `/apps/` | Low
+12 | File | `/back/index.php/user/User/?1` | High
+13 | File | `/backup.pl` | Medium
+14 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+15 | File | `/cgi-bin/nas_sharing.cgi` | High
+16 | File | `/classes/Master.php` | High
+17 | File | `/classes/Users.php?f=delete` | High
+18 | File | `/common/info.cgi` | High
+19 | File | `/config/getuser` | High
+20 | File | `/debug/pprof` | Medium
+21 | File | `/Default/Bd` | Medium
+22 | File | `/forum/away.php` | High
+23 | File | `/HNAP1` | Low
+24 | File | `/manage_sy.php` | High
+25 | File | `/ndmComponents.js` | High
+26 | File | `/param.file.tgz` | High
+27 | File | `/php-opos/index.php` | High
+28 | File | `/register.php` | High
+29 | File | `/reservation/add_message.php` | High
+30 | File | `/scas/admin/` | Medium
+31 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+32 | File | `/sistema/flash/reboot` | High
+33 | File | `/static/` | Medium
+34 | File | `/st_reg.php` | Medium
+35 | ... | ... | ...
 
-There are 289 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 301 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

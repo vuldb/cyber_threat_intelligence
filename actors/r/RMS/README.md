@@ -78,26 +78,27 @@ ID | Type | Indicator | Confidence
 15 | File | `/data/wps.setup.json` | High
 16 | File | `/download` | Medium
 17 | File | `/edit/server` | Medium
-18 | File | `/mcategory.php` | High
-19 | File | `/MIME/INBOX-MM-1/` | High
-20 | File | `/movie.php` | Medium
-21 | File | `/multi-vendor-shopping-script/product-list.php` | High
-22 | File | `/news-portal-script/information.php` | High
-23 | File | `/owa/auth/logon.aspx` | High
-24 | File | `/page.php` | Medium
-25 | File | `/php/ping.php` | High
-26 | File | `/preview.php` | Medium
-27 | File | `/public/login.htm` | High
-28 | File | `/public/plugins/` | High
-29 | File | `/real-estate-script/search_property.php` | High
-30 | File | `/recordings/index.php` | High
-31 | File | `/searchJob.php` | High
-32 | File | `/uncpath/` | Medium
-33 | File | `/user/loader.php?api=1` | High
-34 | File | `/var/miniupnpd.conf` | High
-35 | ... | ... | ...
+18 | File | `/index.php?menu=asterisk_cli` | High
+19 | File | `/mcategory.php` | High
+20 | File | `/MIME/INBOX-MM-1/` | High
+21 | File | `/movie.php` | Medium
+22 | File | `/multi-vendor-shopping-script/product-list.php` | High
+23 | File | `/news-portal-script/information.php` | High
+24 | File | `/owa/auth/logon.aspx` | High
+25 | File | `/page.php` | Medium
+26 | File | `/php/ping.php` | High
+27 | File | `/preview.php` | Medium
+28 | File | `/public/login.htm` | High
+29 | File | `/public/plugins/` | High
+30 | File | `/real-estate-script/search_property.php` | High
+31 | File | `/recordings/index.php` | High
+32 | File | `/searchJob.php` | High
+33 | File | `/uncpath/` | Medium
+34 | File | `/user/loader.php?api=1` | High
+35 | File | `/var/miniupnpd.conf` | High
+36 | ... | ... | ...
 
-There are 303 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 311 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

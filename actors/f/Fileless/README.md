@@ -50,16 +50,16 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/acms/classes/Master.php?f=delete_cargo` | High
 2 | File | `/admin/config_MT.php?action=delete` | High
-3 | File | `/domains/list` | High
-4 | File | `/sbin` | Low
-5 | File | `/sbin/orthrus` | High
-6 | File | `/sbin/rtspd` | Medium
-7 | File | `/sysmanage/changelogo.php` | High
-8 | File | `/var/www/video/mp4ts` | High
-9 | File | `admin/listMailConfiguration` | High
+3 | File | `/admin/inquiries/view_inquiry.php` | High
+4 | File | `/domains/list` | High
+5 | File | `/sbin` | Low
+6 | File | `/sbin/orthrus` | High
+7 | File | `/sbin/rtspd` | Medium
+8 | File | `/sysmanage/changelogo.php` | High
+9 | File | `/var/www/video/mp4ts` | High
 10 | ... | ... | ...
 
-There are 70 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 77 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

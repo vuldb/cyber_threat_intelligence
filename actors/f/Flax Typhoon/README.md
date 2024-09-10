@@ -55,16 +55,16 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/act/ActDao.xml` | High
-2 | File | `/admin/?page=product/manage_product&id=2` | High
-3 | File | `/admin/?setting-base.htm` | High
-4 | File | `/admin/bookings/manage_booking.php` | High
-5 | File | `/admin/controller/JobLogController.java` | High
-6 | File | `/admin/del_service.php` | High
-7 | File | `/admin/index.php` | High
-8 | File | `/admin/index2.html` | High
-9 | File | `/admin/list_resource_icon.php?action=delete` | High
-10 | File | `/admin/read.php?mudi=announContent` | High
-11 | File | `/adminapi/system/crud` | High
+2 | File | `/admin/?setting-base.htm` | High
+3 | File | `/admin/bookings/manage_booking.php` | High
+4 | File | `/admin/controller/JobLogController.java` | High
+5 | File | `/admin/del_service.php` | High
+6 | File | `/admin/index.php` | High
+7 | File | `/admin/index2.html` | High
+8 | File | `/admin/list_resource_icon.php?action=delete` | High
+9 | File | `/admin/read.php?mudi=announContent` | High
+10 | File | `/adminapi/system/crud` | High
+11 | File | `/analysisProject/pagingQueryData` | High
 12 | File | `/api/authentication/login` | High
 13 | File | `/api/blade-user/export-user` | High
 14 | File | `/api/upload.php` | High
@@ -105,7 +105,7 @@ ID | Type | Indicator | Confidence
 49 | File | `/dus/shopliste/index.php` | High
 50 | ... | ... | ...
 
-There are 436 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 438 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

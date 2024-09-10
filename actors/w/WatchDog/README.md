@@ -64,29 +64,31 @@ ID | Type | Indicator | Confidence
 11 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
 12 | File | `/cgi-bin/user/Config.cgi` | High
 13 | File | `/chat_im/chat_window.php` | High
-14 | File | `/cloud_config/router_post/get_reg_verify_code` | High
-15 | File | `/debug/pprof` | Medium
-16 | File | `/designer/add/layout` | High
-17 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
-18 | File | `/env` | Low
-19 | File | `/etc/openstack-dashboard/local_settings` | High
-20 | File | `/etc/passwd` | Medium
-21 | File | `/filemanager/upload.php` | High
-22 | File | `/forum/away.php` | High
-23 | File | `/FreshRSS/p/ext.php` | High
-24 | File | `/goform/addressNat` | High
-25 | File | `/goform/addRouting` | High
-26 | File | `/goform/aspForm` | High
-27 | File | `/goform/SetNetControlList` | High
-28 | File | `/goform/SetStaticRouteCfg` | High
-29 | File | `/include/menu_v.inc.php` | High
-30 | File | `/Interface/DevManage/EC.php?cmd=upload` | High
-31 | File | `/librarian/lab.php` | High
-32 | File | `/login/` | Low
-33 | File | `/MagickCore/statistic.c` | High
-34 | ... | ... | ...
+14 | File | `/classes/Master.php` | High
+15 | File | `/cloud_config/router_post/get_reg_verify_code` | High
+16 | File | `/debug/pprof` | Medium
+17 | File | `/designer/add/layout` | High
+18 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
+19 | File | `/env` | Low
+20 | File | `/etc/openstack-dashboard/local_settings` | High
+21 | File | `/etc/passwd` | Medium
+22 | File | `/filemanager/upload.php` | High
+23 | File | `/forum/away.php` | High
+24 | File | `/FreshRSS/p/ext.php` | High
+25 | File | `/goform/addressNat` | High
+26 | File | `/goform/addRouting` | High
+27 | File | `/goform/aspForm` | High
+28 | File | `/goform/SetNetControlList` | High
+29 | File | `/goform/SetStaticRouteCfg` | High
+30 | File | `/include/menu_v.inc.php` | High
+31 | File | `/Interface/DevManage/EC.php?cmd=upload` | High
+32 | File | `/librarian/lab.php` | High
+33 | File | `/login/` | Low
+34 | File | `/MagickCore/statistic.c` | High
+35 | File | `/omos/admin/?page=user/list` | High
+36 | ... | ... | ...
 
-There are 291 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 306 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

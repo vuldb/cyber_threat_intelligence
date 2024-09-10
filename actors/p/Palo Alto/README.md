@@ -35,11 +35,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22 | Path Traversal | High
-2 | T1059 | CWE-94 | Argument Injection | High
-3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 4 | ... | ... | ... | ...
 
-There are 7 more TTP items available. Please use our online service to access the data.
+There are 11 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -48,15 +48,17 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/action/import_authorized_keys/` | High
-2 | File | `/owa/auth/logon.aspx` | High
-3 | File | `/soap` | Low
-4 | File | `adclick.php` | Medium
-5 | File | `addentry.php` | Medium
-6 | File | `Admin.PHP` | Medium
-7 | File | `agora.cgi` | Medium
-8 | ... | ... | ...
+2 | File | `/admin/manage_model.php` | High
+3 | File | `/cgi-bin/cstecgi.cgi` | High
+4 | File | `/circuits/circuits/{id}/edit/` | High
+5 | File | `/dcim/console-server-ports/add/` | High
+6 | File | `/dcim/power-outlets/add` | High
+7 | File | `/owa/auth/logon.aspx` | High
+8 | File | `/soap` | Low
+9 | File | `/system/user/resetPwd` | High
+10 | ... | ... | ...
 
-There are 58 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 72 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -4,6 +4,12 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.blackbyte](https://vuldb.com/?actor.blackbyte)
 
+## Campaigns
+
+The following _campaigns_ are known and can be associated with BlackByte:
+
+* CVE-2024-37085
+
 ## Countries
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with BlackByte:
@@ -24,6 +30,9 @@ ID | IP address | Hostname | Campaign | Confidence
 1 | [45.9.148.114](https://vuldb.com/?ip.45.9.148.114) | - | - | High
 2 | [185.93.6.31](https://vuldb.com/?ip.185.93.6.31) | free.example.com | - | High
 3 | [185.225.73.244](https://vuldb.com/?ip.185.225.73.244) | - | - | High
+4 | ... | ... | ... | ...
+
+There are 1 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -64,6 +73,7 @@ There are 84 more IOA items available (file, library, argument, input value, pat
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://1275.ru/ioc/196/blackbyte-ransomware-iocs/
+* https://blog.talosintelligence.com/blackbyte-blends-tried-and-true-tradecraft-with-newly-disclosed-vulnerabilities-to-support-ongoing-attacks/
 * https://www.microsoft.com/en-us/security/blog/2023/07/06/the-five-day-job-a-blackbyte-ransomware-intrusion-case-study/
 * https://www.trustwave.com/en-us/resources/blogs/spiderlabs-blog/blackbyte-ransomware-pt-1-in-depth-analysis/
 

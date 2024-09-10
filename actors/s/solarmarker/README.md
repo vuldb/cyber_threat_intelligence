@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with SolarMarker:
 
 * [US](https://vuldb.com/?country.us)
-* [FR](https://vuldb.com/?country.fr)
 * [GB](https://vuldb.com/?country.gb)
+* [FR](https://vuldb.com/?country.fr)
 * ...
 
 There are 28 more country items available. Please use our online service to access the data.
@@ -28,11 +28,12 @@ ID | IP address | Hostname | Campaign | Confidence
 5 | [37.120.237.251](https://vuldb.com/?ip.37.120.237.251) | - | - | High
 6 | [45.42.201.248](https://vuldb.com/?ip.45.42.201.248) | - | - | High
 7 | [46.30.188.221](https://vuldb.com/?ip.46.30.188.221) | 46.30.188.221.static.quadranet.com | - | High
-8 | [68.233.238.115](https://vuldb.com/?ip.68.233.238.115) | 68-233-238-115.static.hvvc.us | - | High
-9 | [77.105.166.247](https://vuldb.com/?ip.77.105.166.247) | fleet-impulse.aeza.network | - | High
-10 | ... | ... | ... | ...
+8 | [50.19.154.168](https://vuldb.com/?ip.50.19.154.168) | ec2-50-19-154-168.compute-1.amazonaws.com | - | Medium
+9 | [52.7.205.182](https://vuldb.com/?ip.52.7.205.182) | ec2-52-7-205-182.compute-1.amazonaws.com | - | Medium
+10 | [52.23.58.125](https://vuldb.com/?ip.52.23.58.125) | ec2-52-23-58-125.compute-1.amazonaws.com | - | Medium
+11 | ... | ... | ... | ...
 
-There are 35 more IOC items available. Please use our online service to access the data.
+There are 42 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -55,54 +56,58 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/api/baskets/{name}` | High
-2 | File | `/api/RecordingList/DownloadRecord?file=` | High
-3 | File | `/api2/html/` | Medium
-4 | File | `/apiadmin/notice/add` | High
-5 | File | `/apply.cgi` | Medium
-6 | File | `/calendar/minimizer/index.php` | High
-7 | File | `/classes/master.php?f=delete_order` | High
-8 | File | `/cloud_config/router_post/register` | High
-9 | File | `/debug/pprof` | Medium
-10 | File | `/ecommerce/support_ticket` | High
-11 | File | `/Forms/tools_test_1` | High
-12 | File | `/forum/away.php` | High
-13 | File | `/forum/PostPrivateMessage` | High
-14 | File | `/h/autoSaveDraft` | High
-15 | File | `/h/calendar` | Medium
-16 | File | `/holiday.php` | Medium
-17 | File | `/home/cavesConsole` | High
-18 | File | `/include/chart_generator.php` | High
-19 | File | `/index.php` | Medium
-20 | File | `/lam/tmp/` | Medium
-21 | File | `/librarian/bookdetails.php` | High
-22 | File | `/login/index.php` | High
-23 | File | `/log_download.cgi` | High
-24 | File | `/manager?action=getlogcat` | High
-25 | File | `/mgmt/tm/util/bash` | High
-26 | File | `/model/update_grade.php` | High
-27 | File | `/modules/profile/index.php` | High
-28 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-29 | File | `/oauth/idp/.well-known/openid-configuration` | High
-30 | File | `/out.php` | Medium
-31 | File | `/p1/p2/:name` | Medium
-32 | File | `/param.file.tgz` | High
-33 | File | `/patient/appointment.php` | High
-34 | File | `/php-opos/index.php` | High
-35 | File | `/php/ping.php` | High
-36 | File | `/plesk-site-preview/` | High
-37 | File | `/proc/<PID>/mem` | High
-38 | File | `/product.php` | Medium
-39 | File | `/product_list.php` | High
-40 | File | `/protocol/iscgwtunnel/uploadiscgwrouteconf.php` | High
-41 | File | `/ptms/?page=user` | High
-42 | File | `/scripts/unlock_tasks.php` | High
-43 | File | `/Service/ImageStationDataService.asmx` | High
-44 | File | `/setup/finish` | High
-45 | File | `/spip.php` | Medium
-46 | ... | ... | ...
+1 | File | `/admin/index.PHP` | High
+2 | File | `/api/baskets/{name}` | High
+3 | File | `/api/RecordingList/DownloadRecord?file=` | High
+4 | File | `/api2/html/` | Medium
+5 | File | `/apiadmin/notice/add` | High
+6 | File | `/apply.cgi` | Medium
+7 | File | `/calendar/minimizer/index.php` | High
+8 | File | `/cgi-bin-sdb/` | High
+9 | File | `/cgi-bin/cstecgi.cgi` | High
+10 | File | `/cgi-bin/p1_ftpserver.php` | High
+11 | File | `/classes/master.php?f=delete_order` | High
+12 | File | `/cloud_config/router_post/register` | High
+13 | File | `/debug/pprof` | Medium
+14 | File | `/ecommerce/support_ticket` | High
+15 | File | `/Forms/tools_test_1` | High
+16 | File | `/forum/away.php` | High
+17 | File | `/forum/PostPrivateMessage` | High
+18 | File | `/h/autoSaveDraft` | High
+19 | File | `/h/calendar` | Medium
+20 | File | `/holiday.php` | Medium
+21 | File | `/home/cavesConsole` | High
+22 | File | `/include/chart_generator.php` | High
+23 | File | `/index.php` | Medium
+24 | File | `/lam/tmp/` | Medium
+25 | File | `/librarian/bookdetails.php` | High
+26 | File | `/login/index.php` | High
+27 | File | `/manager?action=getlogcat` | High
+28 | File | `/mgmt/tm/util/bash` | High
+29 | File | `/model/update_grade.php` | High
+30 | File | `/modules/profile/index.php` | High
+31 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+32 | File | `/oauth/idp/.well-known/openid-configuration` | High
+33 | File | `/out.php` | Medium
+34 | File | `/p1/p2/:name` | Medium
+35 | File | `/param.file.tgz` | High
+36 | File | `/patient/appointment.php` | High
+37 | File | `/php-opos/index.php` | High
+38 | File | `/php/exportrecord.php` | High
+39 | File | `/php/ping.php` | High
+40 | File | `/plesk-site-preview/` | High
+41 | File | `/proc/<PID>/mem` | High
+42 | File | `/product.php` | Medium
+43 | File | `/product_list.php` | High
+44 | File | `/protocol/iscgwtunnel/uploadiscgwrouteconf.php` | High
+45 | File | `/ptms/?page=user` | High
+46 | File | `/request.php` | Medium
+47 | File | `/scripts/unlock_tasks.php` | High
+48 | File | `/Service/ImageStationDataService.asmx` | High
+49 | File | `/setup/finish` | High
+50 | ... | ... | ...
 
-There are 398 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 430 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

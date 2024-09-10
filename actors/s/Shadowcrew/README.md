@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Shadowcrew:
 
-* [PL](https://vuldb.com/?country.pl)
+* [CN](https://vuldb.com/?country.cn)
 * [RU](https://vuldb.com/?country.ru)
-* [FR](https://vuldb.com/?country.fr)
+* [PL](https://vuldb.com/?country.pl)
 * ...
 
-There are 10 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -747,10 +747,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-425 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
-4 | ... | ... | ... | ...
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
 There are 14 more TTP items available. Please use our online service to access the data.
 
@@ -764,16 +765,19 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin/order.php` | High
 3 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
 4 | File | `/catalog/all-products` | High
-5 | File | `/changePassword` | High
-6 | File | `/download` | Medium
-7 | File | `/forum/away.php` | High
-8 | File | `/geoserver/gwc/rest.html` | High
-9 | File | `/goform/addIpMacBind` | High
-10 | File | `/goform/DelDhcpRule` | High
-11 | File | `/goform/delIpMacBind` | High
-12 | ... | ... | ...
+5 | File | `/cgi-bin/cstecgi.cgi` | High
+6 | File | `/cgi-bin/ping.cgi` | High
+7 | File | `/changePassword` | High
+8 | File | `/download` | Medium
+9 | File | `/forum/away.php` | High
+10 | File | `/geoserver/gwc/rest.html` | High
+11 | File | `/goform/addIpMacBind` | High
+12 | File | `/goform/DelDhcpRule` | High
+13 | File | `/goform/delIpMacBind` | High
+14 | File | `/goform/DelPortMapping` | High
+15 | ... | ... | ...
 
-There are 96 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 115 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -42,7 +42,7 @@ ID | Technique | Weakness | Description | Confidence
 6 | T1068 | CWE-250, CWE-264, CWE-269, CWE-272, CWE-284 | Execution with Unnecessary Privileges | High
 7 | ... | ... | ... | ...
 
-There are 24 more TTP items available. Please use our online service to access the data.
+There are 25 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -50,17 +50,17 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/account/register` | High
-2 | File | `/addbill.php` | Medium
+1 | File | `/addbill.php` | Medium
+2 | File | `/admin-cp/theme/editor/default` | High
 3 | File | `/admin.php?c=upload&f=zip&_noCache=0.1683794968` | High
 4 | File | `/admin.php?page=plugins&tab=new&installstatus=ok&plugin_id=[here` | High
-5 | File | `/admin/?n=logs&c=index&a=dolist` | High
-6 | File | `/admin/ajax.php?action=delete_transaction` | High
-7 | File | `/admin/custom/blog-plugin/add` | High
-8 | File | `/admin/gnssAutoAlign.php` | High
+5 | File | `/admin/ajax.php?action=delete_transaction` | High
+6 | File | `/admin/edit_area.php` | High
+7 | File | `/admin/gnssAutoAlign.php` | High
+8 | File | `/admin/idcProData_deal.php?mudi=del` | High
 9 | File | `/admin/inquiries/view_inquiry.php` | High
 10 | File | `/admin/login.php` | High
-11 | File | `/admin/maintenance/` | High
+11 | File | `/admin/pages/list` | High
 12 | File | `/admin/produts/controller.php` | High
 13 | File | `/admin/subnets/ripe-query.php` | High
 14 | File | `/admin/update-clients.php` | High
@@ -70,10 +70,10 @@ ID | Type | Indicator | Confidence
 18 | File | `/ajax.php` | Medium
 19 | File | `/ample/app/action/edit_product.php` | High
 20 | File | `/api/authentication/login` | High
-21 | File | `/appinfo/save` | High
-22 | File | `/application/controller/Transaki.php` | High
-23 | File | `/apply.cgi` | Medium
-24 | File | `/articles/welcome-to-your-site#comments-head` | High
+21 | File | `/api/v1/get-upload-file` | High
+22 | File | `/appinfo/save` | High
+23 | File | `/application/controller/Transaki.php` | High
+24 | File | `/apply.cgi` | Medium
 25 | File | `/assets` | Low
 26 | File | `/attachments` | Medium
 27 | File | `/author_posts.php` | High
@@ -81,20 +81,22 @@ ID | Type | Indicator | Confidence
 29 | File | `/blog` | Low
 30 | File | `/category.php` | High
 31 | File | `/cgi-bin/cstecgi.cgi` | High
-32 | File | `/classes/Master.php?f=save_inquiry` | High
-33 | File | `/collection/all` | High
-34 | File | `/ConfigFile.ini` | High
-35 | File | `/core/tools/update_contact_form_settings.php` | High
-36 | File | `/dataSet/testTransform;swagger-ui` | High
-37 | File | `/dl/dl_sendmail.php` | High
-38 | File | `/ecommerce/support_ticket` | High
-39 | File | `/files` | Low
-40 | File | `/gasmark/assets/myimages/oneWord.php` | High
-41 | File | `/goform/aspForm` | High
-42 | File | `/goform/CertListInfo` | High
-43 | ... | ... | ...
+32 | File | `/cgi-bin/discovery.cgi` | High
+33 | File | `/classes/Master.php?f=save_inquiry` | High
+34 | File | `/classes/Users.php?f=save_client` | High
+35 | File | `/collection/all` | High
+36 | File | `/ConfigFile.ini` | High
+37 | File | `/core/tools/update_contact_form_settings.php` | High
+38 | File | `/dataSet/testTransform;swagger-ui` | High
+39 | File | `/dl/dl_sendmail.php` | High
+40 | File | `/ecommerce/support_ticket` | High
+41 | File | `/files` | Low
+42 | File | `/gasmark/assets/myimages/oneWord.php` | High
+43 | File | `/goform/aspForm` | High
+44 | File | `/goform/CertListInfo` | High
+45 | ... | ... | ...
 
-There are 368 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 391 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

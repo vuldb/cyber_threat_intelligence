@@ -55,37 +55,38 @@ ID | Type | Indicator | Confidence
 4 | File | `/api/RecordingList/DownloadRecord?file=` | High
 5 | File | `/apply.cgi` | Medium
 6 | File | `/article/add` | Medium
-7 | File | `/controller/pay.class.php` | High
-8 | File | `/dev/kmem` | Medium
-9 | File | `/dev/snd/seq` | Medium
-10 | File | `/device/device=140/tab=wifi/view` | High
-11 | File | `/etc/passwd` | Medium
-12 | File | `/EXCU_SHELL` | Medium
-13 | File | `/forum/away.php` | High
-14 | File | `/gena.cgi` | Medium
-15 | File | `/goform/SetClientState` | High
-16 | File | `/goform/SysToolChangePwd` | High
-17 | File | `/jerry-core/ecma/base/ecma-gc.c` | High
-18 | File | `/jpg/image.jpg` | High
-19 | File | `/out.php` | Medium
-20 | File | `/php/ping.php` | High
-21 | File | `/product_list.php` | High
-22 | File | `/rapi/read_url` | High
-23 | File | `/rrps/classes/Master.php?f=delete_category` | High
-24 | File | `/rukovoditel_2.4.1/index.php?module=configuration/save&redirect_to=configuration/application` | High
-25 | File | `/scripts/unlock_tasks.php` | High
-26 | File | `/sec/content/sec_asa_users_local_db_add.html` | High
-27 | File | `/see_more_details.php` | High
-28 | File | `/src/core/controllers/cm.php` | High
-29 | File | `/SysInfo1.htm` | High
-30 | File | `/sysinfo_json.cgi` | High
-31 | File | `/system/dictData/loadDictItem` | High
-32 | File | `/system/user/modules/mod_users/controller.php` | High
-33 | File | `/transmission/web/` | High
-34 | File | `/uncpath/` | Medium
-35 | ... | ... | ...
+7 | File | `/cgi-bin/cstecgi.cgi` | High
+8 | File | `/controller/pay.class.php` | High
+9 | File | `/dev/kmem` | Medium
+10 | File | `/dev/snd/seq` | Medium
+11 | File | `/device/device=140/tab=wifi/view` | High
+12 | File | `/etc/passwd` | Medium
+13 | File | `/EXCU_SHELL` | Medium
+14 | File | `/forum/away.php` | High
+15 | File | `/gena.cgi` | Medium
+16 | File | `/goform/SetClientState` | High
+17 | File | `/goform/SysToolChangePwd` | High
+18 | File | `/jerry-core/ecma/base/ecma-gc.c` | High
+19 | File | `/jpg/image.jpg` | High
+20 | File | `/out.php` | Medium
+21 | File | `/php/ping.php` | High
+22 | File | `/product_list.php` | High
+23 | File | `/rapi/read_url` | High
+24 | File | `/rrps/classes/Master.php?f=delete_category` | High
+25 | File | `/rukovoditel_2.4.1/index.php?module=configuration/save&redirect_to=configuration/application` | High
+26 | File | `/scripts/unlock_tasks.php` | High
+27 | File | `/sec/content/sec_asa_users_local_db_add.html` | High
+28 | File | `/see_more_details.php` | High
+29 | File | `/src/core/controllers/cm.php` | High
+30 | File | `/SysInfo1.htm` | High
+31 | File | `/sysinfo_json.cgi` | High
+32 | File | `/system/dictData/loadDictItem` | High
+33 | File | `/system/user/modules/mod_users/controller.php` | High
+34 | File | `/transmission/web/` | High
+35 | File | `/uncpath/` | Medium
+36 | ... | ... | ...
 
-There are 304 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 308 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

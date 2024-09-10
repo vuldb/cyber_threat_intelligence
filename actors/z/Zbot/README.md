@@ -135,22 +135,23 @@ ID | Type | Indicator | Confidence
 12 | File | `/etc/ldap.conf` | High
 13 | File | `/eval/admin/manage_class.php` | High
 14 | File | `/importTool/preview` | High
-15 | File | `/mods/_core/courses/users/create_course.php` | High
-16 | File | `/ndmComponents.js` | High
-17 | File | `/oauth/idp/.well-known/openid-configuration` | High
-18 | File | `/phppath/php` | Medium
-19 | File | `/plugins/Dashboard/Controller.php` | High
-20 | File | `/server-status` | High
-21 | File | `/uncpath/` | Medium
-22 | File | `?page=about` | Medium
-23 | File | `adclick.php` | Medium
-24 | File | `add_comment.php` | High
-25 | File | `admin-ajax.php` | High
-26 | File | `admin.php` | Medium
-27 | File | `admin/add_user/UID` | High
-28 | ... | ... | ...
+15 | File | `/lms/classes/Master.php?f=save_record` | High
+16 | File | `/mods/_core/courses/users/create_course.php` | High
+17 | File | `/ndmComponents.js` | High
+18 | File | `/oauth/idp/.well-known/openid-configuration` | High
+19 | File | `/phppath/php` | Medium
+20 | File | `/plugins/Dashboard/Controller.php` | High
+21 | File | `/server-status` | High
+22 | File | `/uncpath/` | Medium
+23 | File | `/vpn/list_service_manage.php` | High
+24 | File | `/vpn/list_vpn_web_custom.php` | High
+25 | File | `/vpn/vpn_template_style.php` | High
+26 | File | `?page=about` | Medium
+27 | File | `adclick.php` | Medium
+28 | File | `add_comment.php` | High
+29 | ... | ... | ...
 
-There are 235 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 247 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

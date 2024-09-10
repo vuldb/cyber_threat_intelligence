@@ -146,11 +146,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
-2 | T1059 | CWE-94 | Argument Injection | High
-3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
 
-There are 12 more TTP items available. Please use our online service to access the data.
+There are 13 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -160,31 +160,33 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/booking-bwdates-reports-details.php` | High
 2 | File | `/admin/maintenance/view_designation.php` | High
-3 | File | `/admin/operations/expense_category.php` | High
-4 | File | `/app/Http/Controllers/ImageController.php` | High
-5 | File | `/backend/register.php` | High
-6 | File | `/boaform/device_reset.cgi` | High
-7 | File | `/cgi-bin/nas_sharing.cgi` | High
-8 | File | `/classes/Users.php?f=delete` | High
-9 | File | `/classes/Users.php?f=save` | High
-10 | File | `/config/myfield/test.php` | High
-11 | File | `/control/register_case.php` | High
-12 | File | `/dev/dri/card1` | High
-13 | File | `/download` | Medium
-14 | File | `/forgot-password` | High
-15 | File | `/forum/away.php` | High
-16 | File | `/manager/ipconfig_new.php` | High
-17 | File | `/manage_sy.php` | High
-18 | File | `/ndmComponents.js` | High
-19 | File | `/oauth/idp/.well-known/openid-configuration` | High
-20 | File | `/objects/getImage.php` | High
-21 | File | `/out.php` | Medium
-22 | File | `/protocol/iscuser/uploadiscuser.php` | High
-23 | File | `/public/plugins/` | High
-24 | File | `/register.php` | High
-25 | ... | ... | ...
+3 | File | `/admin/manage_station.php` | High
+4 | File | `/admin/operations/expense_category.php` | High
+5 | File | `/app/Http/Controllers/ImageController.php` | High
+6 | File | `/attendancelist.php` | High
+7 | File | `/backend/register.php` | High
+8 | File | `/boaform/device_reset.cgi` | High
+9 | File | `/cgi-bin/nas_sharing.cgi` | High
+10 | File | `/classes/Master.php` | High
+11 | File | `/classes/Master.php?f=delete_category` | High
+12 | File | `/classes/Users.php?f=delete` | High
+13 | File | `/classes/Users.php?f=save` | High
+14 | File | `/config/myfield/test.php` | High
+15 | File | `/control/register_case.php` | High
+16 | File | `/dev/dri/card1` | High
+17 | File | `/download` | Medium
+18 | File | `/forgot-password` | High
+19 | File | `/forum/away.php` | High
+20 | File | `/index.php?app=main&inc=feature_inboxgroup&op=list` | High
+21 | File | `/manager/ipconfig_new.php` | High
+22 | File | `/manage_sy.php` | High
+23 | File | `/ndmComponents.js` | High
+24 | File | `/oauth/idp/.well-known/openid-configuration` | High
+25 | File | `/objects/getImage.php` | High
+26 | File | `/out.php` | Medium
+27 | ... | ... | ...
 
-There are 209 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 229 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

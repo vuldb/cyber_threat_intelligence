@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 10 more country items available. Please use our online service to access the data.
+There are 16 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -21,7 +21,16 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [31.7.62.103](https://vuldb.com/?ip.31.7.62.103) | - | - | High
+1 | [5.135.183.154](https://vuldb.com/?ip.5.135.183.154) | ns3290077.ip-5-135-183.eu | - | High
+2 | [31.7.62.103](https://vuldb.com/?ip.31.7.62.103) | - | - | High
+3 | [31.220.43.99](https://vuldb.com/?ip.31.220.43.99) | nl-2.sa-irc.com | - | High
+4 | [46.102.152.127](https://vuldb.com/?ip.46.102.152.127) | mx8.facturation124596.site | - | High
+5 | [46.183.223.227](https://vuldb.com/?ip.46.183.223.227) | mx3.vehiculosycasas.com | - | High
+6 | [69.12.73.174](https://vuldb.com/?ip.69.12.73.174) | 69.12.73.174.static.quadranet.com | - | High
+7 | [80.255.6.5](https://vuldb.com/?ip.80.255.6.5) | - | - | High
+8 | ... | ... | ... | ...
+
+There are 30 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -29,12 +38,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
-2 | T1059 | CWE-94 | Argument Injection | High
-3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-425 | Path Traversal | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 8 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -42,20 +53,71 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/etc/config/image_sign` | High
-3 | File | `/home/httpd/cgi-bin/cgi.cgi` | High
-4 | File | `/htdocs/web/getcfg.php` | High
-5 | File | `/uncpath/` | Medium
-6 | File | `admin/admin.shtml` | High
-7 | ... | ... | ...
+1 | File | `//proc/kcore` | Medium
+2 | File | `/admin.php/Admin/adminadd.html` | High
+3 | File | `/admin/about-us.php` | High
+4 | File | `/admin/action/delete-vaccine.php` | High
+5 | File | `/admin/article.php` | High
+6 | File | `/admin/edit-post.php` | High
+7 | File | `/admin/edit.php` | High
+8 | File | `/admin/index2.html` | High
+9 | File | `/admin/settings/save.php` | High
+10 | File | `/admin/students/view_details.php` | High
+11 | File | `/admin/uesrs.php&action=type&userrole=Admin&userid=3` | High
+12 | File | `/admin/userprofile.php` | High
+13 | File | `/api/baskets/{name}` | High
+14 | File | `/app/index/controller/Common.php` | High
+15 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
+16 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
+17 | File | `/applications/nexus/modules/front/store/store.php` | High
+18 | File | `/apply.cgi` | Medium
+19 | File | `/bitrix/admin/ldap_server_edit.php` | High
+20 | File | `/cgi-bin/apkg_mgr.cgi` | High
+21 | File | `/cgi-bin/cstecgi.cgi` | High
+22 | File | `/cgi-bin/nas_sharing.cgi` | High
+23 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+24 | File | `/cgi-bin/system_mgr.cgi` | High
+25 | File | `/cgi-bin/wlogin.cgi` | High
+26 | File | `/classes/Master.php` | High
+27 | File | `/classes/master.php?f=delete_order` | High
+28 | File | `/classes/Master.php?f=save_category` | High
+29 | File | `/classes/Users.php?f=save` | High
+30 | File | `/College/admin/teacher.php` | High
+31 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
+32 | File | `/dcim/rack-roles/` | High
+33 | File | `/fftools/ffmpeg_enc.c` | High
+34 | File | `/forms/doLogin` | High
+35 | File | `/formSysLog` | Medium
+36 | File | `/forum/away.php` | High
+37 | File | `/goform/addUserName` | High
+38 | File | `/goform/aspForm` | High
+39 | File | `/goform/delAd` | High
+40 | File | `/goform/SetOnlineDevName` | High
+41 | File | `/goform/wifiSSIDset` | High
+42 | File | `/gpac/src/bifs/unquantize.c` | High
+43 | File | `/h/autoSaveDraft` | High
+44 | File | `/image.php` | Medium
+45 | File | `/inc/topBarNav.php` | High
+46 | File | `/includes/common/require_access_recovery.php` | High
+47 | File | `/index.php` | Medium
+48 | File | `/index.php?app=main&func=passport&action=login` | High
+49 | File | `/install/` | Medium
+50 | File | `/kelas/data` | Medium
+51 | File | `/librarian/bookdetails.php` | High
+52 | File | `/listplace/user/ticket/create` | High
+53 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
+54 | File | `/messageboard/view.php` | High
+55 | ... | ... | ...
 
-There are 43 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 479 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://github.com/blackorbird/APT_REPORT/blob/master/APT28/history-report-pdf/eset-sednit-part-2.pdf
+* https://github.com/blackorbird/APT_REPORT/blob/master/APT28/history-report-pdf/eset-sednit-part3.pdf
+* https://github.com/blackorbird/APT_REPORT/blob/master/APT28/history-report-pdf/sednit-update-analysis-zebrocy_.pdf
 * https://github.com/eset/malware-ioc/tree/master/quarterly_reports/2020_Q3
 
 ## Literature

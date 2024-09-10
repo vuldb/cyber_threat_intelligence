@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with BlackEnergy:
 
+* [CN](https://vuldb.com/?country.cn)
 * [RU](https://vuldb.com/?country.ru)
 * [PL](https://vuldb.com/?country.pl)
-* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 10 more country items available. Please use our online service to access the data.
+There are 9 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -48,10 +48,11 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059 | CWE-94 | Argument Injection | High
-4 | ... | ... | ... | ...
+3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 15 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -59,20 +60,30 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-2 | File | `/catalog/all-products` | High
-3 | File | `/changePassword` | High
-4 | File | `/forum/away.php` | High
-5 | File | `/goform/addIpMacBind` | High
-6 | File | `/goform/DelDhcpRule` | High
-7 | File | `/goform/delIpMacBind` | High
-8 | File | `/goform/DelPortMapping` | High
-9 | File | `/goform/modifyDhcpRule` | High
-10 | File | `/goform/modifyIpMacBind` | High
-11 | File | `/goform/setBlackRule` | High
-12 | ... | ... | ...
+1 | File | `/+CSCOE+/logon.html` | High
+2 | File | `/admin/add_ikev2.php` | High
+3 | File | `/admin/category_save.php` | High
+4 | File | `/admin/index2.html` | High
+5 | File | `/admin/list_ipAddressPolicy.php` | High
+6 | File | `/admin/manage_model.php` | High
+7 | File | `/admin/manage_user.php` | High
+8 | File | `/admin/subject.php` | High
+9 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+10 | File | `/catalog/all-products` | High
+11 | File | `/cgi-bin/cstecgi.cgi` | High
+12 | File | `/changePassword` | High
+13 | File | `/edit-subject.php` | High
+14 | File | `/endpoint/add-user.php` | High
+15 | File | `/etc/postfix/sender_login` | High
+16 | File | `/forum/away.php` | High
+17 | File | `/goform/delIpMacBind` | High
+18 | File | `/goform/SetDDNSCfg` | High
+19 | File | `/goform/SetSysTimeCfg` | High
+20 | File | `/goform/wifiSSIDget` | High
+21 | File | `/index/ajax/lang` | High
+22 | ... | ... | ...
 
-There are 94 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 185 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

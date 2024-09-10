@@ -49,10 +49,10 @@ ID | Type | Indicator | Confidence
 3 | File | `/objects/getImage.php` | High
 4 | File | `/secret_coder.sql` | High
 5 | File | `/services/details.asp` | High
-6 | File | `/uncpath/` | Medium
+6 | File | `/src/DumpTS.cpp` | High
 7 | ... | ... | ...
 
-There are 43 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 45 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

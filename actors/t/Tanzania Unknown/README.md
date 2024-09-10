@@ -108,24 +108,24 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/act/ActDao.xml` | High
-2 | File | `/admin/?page=product/manage_product&id=2` | High
-3 | File | `/admin/?setting-base.htm` | High
-4 | File | `/admin/bookings/manage_booking.php` | High
-5 | File | `/admin/controller/JobLogController.java` | High
-6 | File | `/admin/del_service.php` | High
-7 | File | `/admin/index.php` | High
-8 | File | `/admin/index2.html` | High
-9 | File | `/admin/list_resource_icon.php?action=delete` | High
-10 | File | `/admin/read.php?mudi=announContent` | High
-11 | File | `/adminapi/system/crud` | High
-12 | File | `/api/authentication/login` | High
-13 | File | `/api/blade-user/export-user` | High
-14 | File | `/api/upload.php` | High
-15 | File | `/api/v1/terminal/sessions/?limit=1` | High
-16 | File | `/api /v3/auth` | High
-17 | File | `/app/sys1.php` | High
-18 | File | `/application/common.php#action_log` | High
-19 | File | `/assets/php/upload.php` | High
+2 | File | `/admin/?setting-base.htm` | High
+3 | File | `/admin/bookings/manage_booking.php` | High
+4 | File | `/admin/controller/JobLogController.java` | High
+5 | File | `/admin/del_service.php` | High
+6 | File | `/admin/index.php` | High
+7 | File | `/admin/index2.html` | High
+8 | File | `/admin/list_resource_icon.php?action=delete` | High
+9 | File | `/admin/read.php?mudi=announContent` | High
+10 | File | `/adminapi/system/crud` | High
+11 | File | `/api/authentication/login` | High
+12 | File | `/api/blade-user/export-user` | High
+13 | File | `/api/upload.php` | High
+14 | File | `/api/v1/terminal/sessions/?limit=1` | High
+15 | File | `/api /v3/auth` | High
+16 | File | `/app/sys1.php` | High
+17 | File | `/application/common.php#action_log` | High
+18 | File | `/assets/php/upload.php` | High
+19 | File | `/b2b-supermarket/shopping-cart` | High
 20 | File | `/bin/ate` | Medium
 21 | File | `/bin/rc4_crypt` | High
 22 | File | `/bitrix/admin/ldap_server_edit.php` | High
@@ -136,29 +136,29 @@ ID | Type | Indicator | Confidence
 27 | File | `/cgi-bin/luci;stok=/locale` | High
 28 | File | `/cgi-bin/qcmap_auth` | High
 29 | File | `/cgi-bin/wapopen` | High
-30 | File | `/classes/Master.php?f=delete_category` | High
-31 | File | `/classes/Master.php?f=delete_inquiry` | High
-32 | File | `/classes/Master.php?f=delete_item` | High
-33 | File | `/classes/Master.php?f=delete_service` | High
-34 | File | `/classes/Master.php?f=save_service` | High
-35 | File | `/classes/Users.php` | High
-36 | File | `/classes/Users.php?f=save` | High
-37 | File | `/CMD_ACCOUNT_ADMIN` | High
-38 | File | `/conf/` | Low
-39 | File | `/config/getuser` | High
-40 | File | `/config/php.ini` | High
-41 | File | `/Content/Plugins/uploader/FileChoose.html?fileUrl=/Upload/File/Pics/&parent` | High
-42 | File | `/core/admin/categories.php` | High
-43 | File | `/cupseasylive/taxstructuredisplay.php` | High
-44 | File | `/dayrui/My/View/main.html` | High
-45 | File | `/dede/sys_sql_query.php` | High
-46 | File | `/dus/fotos_grafiken/index.php` | High
-47 | File | `/dus/shopliste/index.php` | High
-48 | File | `/dus_en/medieninfo_detail/index.php` | High
-49 | File | `/edit.php` | Medium
+30 | File | `/cgi-bin/wlogin.cgi` | High
+31 | File | `/classes/Master.php?f=delete_category` | High
+32 | File | `/classes/Master.php?f=delete_inquiry` | High
+33 | File | `/classes/Master.php?f=delete_item` | High
+34 | File | `/classes/Master.php?f=delete_service` | High
+35 | File | `/classes/Master.php?f=save_service` | High
+36 | File | `/classes/Users.php` | High
+37 | File | `/classes/Users.php?f=save` | High
+38 | File | `/CMD_ACCOUNT_ADMIN` | High
+39 | File | `/conf/` | Low
+40 | File | `/config/getuser` | High
+41 | File | `/config/php.ini` | High
+42 | File | `/Content/Plugins/uploader/FileChoose.html?fileUrl=/Upload/File/Pics/&parent` | High
+43 | File | `/core/admin/categories.php` | High
+44 | File | `/cupseasylive/taxstructuredisplay.php` | High
+45 | File | `/dayrui/My/View/main.html` | High
+46 | File | `/dede/sys_sql_query.php` | High
+47 | File | `/dus/fotos_grafiken/index.php` | High
+48 | File | `/dus/shopliste/index.php` | High
+49 | File | `/dus_en/medieninfo_detail/index.php` | High
 50 | ... | ... | ...
 
-There are 430 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 436 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

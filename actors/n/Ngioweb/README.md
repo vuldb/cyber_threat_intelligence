@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [WS](https://vuldb.com/?country.ws)
 * ...
 
-There are 13 more country items available. Please use our online service to access the data.
+There are 14 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -56,59 +56,62 @@ ID | Type | Indicator | Confidence
 5 | File | `/admin/bookings/view_booking.php` | High
 6 | File | `/admin/dl_sendmail.php` | High
 7 | File | `/admin/friendlylink/list` | High
-8 | File | `/admin/maintenance/view_designation.php` | High
-9 | File | `/admin/offenses/view_details.php` | High
-10 | File | `/admin/search-appointment.php` | High
-11 | File | `/adminPage/conf/reload` | High
-12 | File | `/alarm_pi/alarmService.php` | High
-13 | File | `/Ap4RtpAtom.cpp` | High
-14 | File | `/api/baskets/{name}` | High
-15 | File | `/api/v2/cli/commands` | High
-16 | File | `/bcms/admin/?page=sales/view_details` | High
-17 | File | `/categorypage.php` | High
-18 | File | `/cgi-bin/hi3510/param.cgi` | High
-19 | File | `/cgi-bin/kerbynet` | High
-20 | File | `/cgi-bin/user/Config.cgi` | High
-21 | File | `/classes/Master.php?f=delete_student` | High
-22 | File | `/config/php.ini` | High
-23 | File | `/course/api/upload/pic` | High
-24 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
-25 | File | `/DXR.axd` | Medium
-26 | File | `/forum/away.php` | High
-27 | File | `/htdocs/cgibin` | High
-28 | File | `/icingaweb2/navigation/add` | High
-29 | File | `/mfsNotice/page` | High
-30 | File | `/mkshop/Men/profile.php` | High
-31 | File | `/module/index.php` | High
-32 | File | `/Monitoring-History.php` | High
-33 | File | `/myprofile.php` | High
-34 | File | `/my_photo_gallery/image.php` | High
-35 | File | `/novel/bookSetting/list` | High
-36 | File | `/novel/userFeedback/list` | High
-37 | File | `/owa/auth/logon.aspx` | High
-38 | File | `/product.php` | Medium
-39 | File | `/ServletAPI/accounts/login` | High
-40 | File | `/spip.php` | Medium
-41 | File | `/uncpath/` | Medium
-42 | File | `/usr/bin/pkexec` | High
-43 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
-44 | File | `/videotalk` | Medium
-45 | File | `/vloggers_merch/?p=products` | High
-46 | File | `/vloggers_merch/classes/Master.php?f=delete_category` | High
-47 | File | `/vloggers_merch/classes/Master.php?f=delete_product` | High
-48 | File | `/web/MCmsAction.java` | High
-49 | File | `/wp-admin/options.php` | High
-50 | File | `/x_portal_assemble_surface/jaxrs/portal/list?v=8.2.3-4-43f4fe3` | High
-51 | File | `/zm/index.php` | High
-52 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-53 | File | `activity_log.php` | High
-54 | File | `adclick.php` | Medium
-55 | File | `adm/systools.asp` | High
-56 | File | `admin.cropcanvas.php` | High
-57 | File | `admin.jcomments.php` | High
-58 | ... | ... | ...
+8 | File | `/admin/index2.html` | High
+9 | File | `/admin/maintenance/view_designation.php` | High
+10 | File | `/admin/offenses/view_details.php` | High
+11 | File | `/admin/quizquestion.php` | High
+12 | File | `/admin/search-appointment.php` | High
+13 | File | `/adminPage/conf/reload` | High
+14 | File | `/alarm_pi/alarmService.php` | High
+15 | File | `/Ap4RtpAtom.cpp` | High
+16 | File | `/api/baskets/{name}` | High
+17 | File | `/api/v2/cli/commands` | High
+18 | File | `/bcms/admin/?page=sales/view_details` | High
+19 | File | `/categorypage.php` | High
+20 | File | `/cgi-bin/hi3510/param.cgi` | High
+21 | File | `/cgi-bin/kerbynet` | High
+22 | File | `/cgi-bin/user/Config.cgi` | High
+23 | File | `/classes/Master.php` | High
+24 | File | `/classes/Master.php?f=delete_student` | High
+25 | File | `/config/php.ini` | High
+26 | File | `/course/api/upload/pic` | High
+27 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
+28 | File | `/DXR.axd` | Medium
+29 | File | `/endpoint/add-calorie.php` | High
+30 | File | `/forum/away.php` | High
+31 | File | `/htdocs/cgibin` | High
+32 | File | `/icingaweb2/navigation/add` | High
+33 | File | `/index/ajax/lang` | High
+34 | File | `/log/decodmail.php` | High
+35 | File | `/mfsNotice/page` | High
+36 | File | `/mkshop/Men/profile.php` | High
+37 | File | `/module/index.php` | High
+38 | File | `/Monitoring-History.php` | High
+39 | File | `/myprofile.php` | High
+40 | File | `/my_photo_gallery/image.php` | High
+41 | File | `/novel/bookSetting/list` | High
+42 | File | `/novel/userFeedback/list` | High
+43 | File | `/owa/auth/logon.aspx` | High
+44 | File | `/product.php` | Medium
+45 | File | `/register.php` | High
+46 | File | `/ServletAPI/accounts/login` | High
+47 | File | `/spip.php` | Medium
+48 | File | `/ueditor/net/controller.ashx?action=catchimage` | High
+49 | File | `/uncpath/` | Medium
+50 | File | `/usr/bin/pkexec` | High
+51 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
+52 | File | `/videotalk` | Medium
+53 | File | `/vloggers_merch/?p=products` | High
+54 | File | `/vloggers_merch/classes/Master.php?f=delete_category` | High
+55 | File | `/vloggers_merch/classes/Master.php?f=delete_product` | High
+56 | File | `/web/MCmsAction.java` | High
+57 | File | `/wp-admin/options.php` | High
+58 | File | `/x_portal_assemble_surface/jaxrs/portal/list?v=8.2.3-4-43f4fe3` | High
+59 | File | `/zm/index.php` | High
+60 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+61 | ... | ... | ...
 
-There are 505 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 538 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

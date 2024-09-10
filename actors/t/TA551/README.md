@@ -168,13 +168,13 @@ ID | Type | Indicator | Confidence
 95 | File | `/boaform/wlan_basic_set.cgi` | High
 96 | File | `/book-services.php` | High
 97 | File | `/catalog/compare` | High
-98 | File | `/cgi-bin/adm.cgi` | High
-99 | File | `/cgi-bin/cstecgi.cgi` | High
-100 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-101 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+98 | File | `/cgi-bin/cstecgi.cgi` | High
+99 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+100 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+101 | File | `/cgi-bin/mainfunction.cgi` | High
 102 | ... | ... | ...
 
-There are 900 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 898 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -63,9 +63,10 @@ ID | IP address | Hostname | Campaign | Confidence
 33 | [65.19.141.199](https://vuldb.com/?ip.65.19.141.199) | - | - | High
 34 | [66.55.133.86](https://vuldb.com/?ip.66.55.133.86) | 66-55-133-86.choopa.net | - | High
 35 | [66.232.124.175](https://vuldb.com/?ip.66.232.124.175) | customer.hivelocity.net | - | High
-36 | ... | ... | ... | ...
+36 | [67.103.159.140](https://vuldb.com/?ip.67.103.159.140) | h-67-103-159-140.atln.ga.globalcapacity.com | - | High
+37 | ... | ... | ... | ...
 
-There are 141 more IOC items available. Please use our online service to access the data.
+There are 143 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -80,7 +81,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -95,54 +96,56 @@ ID | Type | Indicator | Confidence
 5 | File | `/.htpasswd` | Medium
 6 | File | `//etc/RT2870STA.dat` | High
 7 | File | `/admin/index.php` | High
-8 | File | `/adminPage/conf/saveCmd` | High
-9 | File | `/api/addusers` | High
-10 | File | `/car.php` | Medium
-11 | File | `/cgi-bin/hotspot-changepw.cgi` | High
-12 | File | `/ClickAndBanexDemo/admin/admin.asp` | High
-13 | File | `/config/getuser` | High
-14 | File | `/core/admin/categories.php` | High
-15 | File | `/filemanager/ajax_calls.php` | High
-16 | File | `/forum/away.php` | High
-17 | File | `/items/manage_item.php` | High
-18 | File | `/librarian/bookdetails.php` | High
-19 | File | `/login/index.php` | High
-20 | File | `/multi-vendor-shopping-script/product-list.php` | High
-21 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-22 | File | `/owa/auth/logon.aspx` | High
-23 | File | `/pharmacy-sales-and-inventory-system/manage_user.php` | High
-24 | File | `/php-sms/classes/SystemSettings.php` | High
-25 | File | `/phppath/php` | Medium
-26 | File | `/preview.php` | Medium
-27 | File | `/proc/self/exe` | High
-28 | File | `/psrs/admin/fields/manage_field.php` | High
-29 | File | `/public/login.htm` | High
-30 | File | `/server-info` | Medium
-31 | File | `/server-status` | High
-32 | File | `/shell` | Low
-33 | File | `/subpage.php` | Medium
-34 | File | `/uncpath/` | Medium
-35 | File | `/user/jobmanage.php` | High
-36 | File | `/user/zs_elite.php` | High
-37 | File | `/usr/bin/enq` | Medium
-38 | File | `/vood/cgi-bin/vood_view.cgi?act=index&lang=EN#` | High
-39 | File | `/web/jquery/uploader/multi_uploadify.php` | High
-40 | File | `/wp-admin/admin-ajax.php` | High
-41 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-42 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-43 | File | `/zhndnsdisplay.cmd` | High
-44 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-45 | File | `about.php` | Medium
-46 | File | `acl.c` | Low
-47 | File | `active.log` | Medium
-48 | File | `adclick.php` | Medium
-49 | File | `add_comment.php` | High
-50 | File | `add_vhost.php` | High
-51 | File | `admin.php` | Medium
-52 | File | `admin/admin.php` | High
-53 | ... | ... | ...
+8 | File | `/admin/order.php` | High
+9 | File | `/adminPage/conf/saveCmd` | High
+10 | File | `/api/addusers` | High
+11 | File | `/car.php` | Medium
+12 | File | `/category.php` | High
+13 | File | `/cgi-bin/hotspot-changepw.cgi` | High
+14 | File | `/ClickAndBanexDemo/admin/admin.asp` | High
+15 | File | `/config/getuser` | High
+16 | File | `/core/admin/categories.php` | High
+17 | File | `/filemanager/ajax_calls.php` | High
+18 | File | `/forum/away.php` | High
+19 | File | `/goform/set_ntp` | High
+20 | File | `/items/manage_item.php` | High
+21 | File | `/librarian/bookdetails.php` | High
+22 | File | `/login/index.php` | High
+23 | File | `/multi-vendor-shopping-script/product-list.php` | High
+24 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+25 | File | `/owa/auth/logon.aspx` | High
+26 | File | `/pharmacy-sales-and-inventory-system/manage_user.php` | High
+27 | File | `/php-sms/classes/SystemSettings.php` | High
+28 | File | `/phppath/php` | Medium
+29 | File | `/preview.php` | Medium
+30 | File | `/proc/self/exe` | High
+31 | File | `/psrs/admin/fields/manage_field.php` | High
+32 | File | `/public/login.htm` | High
+33 | File | `/see_more_details.php` | High
+34 | File | `/server-info` | Medium
+35 | File | `/server-status` | High
+36 | File | `/shell` | Low
+37 | File | `/subpage.php` | Medium
+38 | File | `/uncpath/` | Medium
+39 | File | `/user/jobmanage.php` | High
+40 | File | `/user/zs_elite.php` | High
+41 | File | `/usr/bin/enq` | Medium
+42 | File | `/vood/cgi-bin/vood_view.cgi?act=index&lang=EN#` | High
+43 | File | `/web/jquery/uploader/multi_uploadify.php` | High
+44 | File | `/wp-admin/admin-ajax.php` | High
+45 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+46 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+47 | File | `/zhndnsdisplay.cmd` | High
+48 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+49 | File | `about.php` | Medium
+50 | File | `acl.c` | Low
+51 | File | `active.log` | Medium
+52 | File | `adclick.php` | Medium
+53 | File | `add_comment.php` | High
+54 | File | `add_vhost.php` | High
+55 | ... | ... | ...
 
-There are 460 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 476 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -150,6 +153,7 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/08064518/Carbanak_APT_eng.pdf
 * https://securityintelligence.com/posts/ex-conti-fin7-actors-collaborate-new-backdoor/
+* https://threatfox.abuse.ch
 * https://www.forcepoint.com/blog/x-labs/carbanak-group-uses-google-malware-command-and-control
 * https://www.group-ib.com/resources/threat-research/Anunak_APT_against_financial_institutions.pdf
 * https://www.threatminer.org/report.php?q=Carbanak-Oraclebreach-KresonSecurity.pdf&y=2016

@@ -62,9 +62,10 @@ ID | Type | Indicator | Confidence
 6 | File | `/uncpath/` | Medium
 7 | File | `/webconsole/APIController` | High
 8 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-9 | ... | ... | ...
+9 | File | `AccountStatus.jsp` | High
+10 | ... | ... | ...
 
-There are 70 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 75 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

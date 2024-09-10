@@ -48,16 +48,16 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/download` | Medium
-3 | File | `/forum/away.php` | High
-4 | File | `/port_3480/data_request` | High
-5 | File | `/uncpath/` | Medium
-6 | File | `/userRpm/PingIframeRpm.htm` | High
-7 | File | `/wp-admin/options.php` | High
-8 | File | `adclick.php` | Medium
+2 | File | `/api/swaggerui/static` | High
+3 | File | `/download` | Medium
+4 | File | `/forum/away.php` | High
+5 | File | `/port_3480/data_request` | High
+6 | File | `/uncpath/` | Medium
+7 | File | `/userRpm/PingIframeRpm.htm` | High
+8 | File | `/wp-admin/options.php` | High
 9 | ... | ... | ...
 
-There are 66 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 67 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

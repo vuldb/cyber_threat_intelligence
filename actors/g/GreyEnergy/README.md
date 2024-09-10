@@ -8,9 +8,9 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with GreyEnergy:
 
-* [PL](https://vuldb.com/?country.pl)
+* [CN](https://vuldb.com/?country.cn)
 * [RU](https://vuldb.com/?country.ru)
-* [FR](https://vuldb.com/?country.fr)
+* [PL](https://vuldb.com/?country.pl)
 * ...
 
 There are 10 more country items available. Please use our online service to access the data.
@@ -38,7 +38,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
@@ -51,20 +51,27 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-2 | File | `/catalog/all-products` | High
-3 | File | `/changePassword` | High
-4 | File | `/forum/away.php` | High
-5 | File | `/goform/addIpMacBind` | High
-6 | File | `/goform/DelDhcpRule` | High
-7 | File | `/goform/delIpMacBind` | High
-8 | File | `/goform/DelPortMapping` | High
-9 | File | `/goform/modifyDhcpRule` | High
-10 | File | `/goform/modifyIpMacBind` | High
-11 | File | `/goform/setBlackRule` | High
-12 | ... | ... | ...
+1 | File | `/admin/add_ikev2.php` | High
+2 | File | `/admin/index2.html` | High
+3 | File | `/admin/list_ipAddressPolicy.php` | High
+4 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+5 | File | `/catalog/all-products` | High
+6 | File | `/cgi-bin/cstecgi.cgi` | High
+7 | File | `/changePassword` | High
+8 | File | `/endpoint/add-user.php` | High
+9 | File | `/forum/away.php` | High
+10 | File | `/goform/addIpMacBind` | High
+11 | File | `/goform/DelDhcpRule` | High
+12 | File | `/goform/delIpMacBind` | High
+13 | File | `/goform/DelPortMapping` | High
+14 | File | `/goform/modifyIpMacBind` | High
+15 | File | `/goform/SetDDNSCfg` | High
+16 | File | `/goform/SetLEDCfg` | High
+17 | File | `/goform/SetOnlineDevName` | High
+18 | File | `/goform/setStaticRoute` | High
+19 | ... | ... | ...
 
-There are 95 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 151 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

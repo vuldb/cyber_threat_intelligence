@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [LA](https://vuldb.com/?country.la)
 * ...
 
-There are 12 more country items available. Please use our online service to access the data.
+There are 13 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -90,7 +90,7 @@ ID | IP address | Hostname | Campaign | Confidence
 67 | [49.12.189.93](https://vuldb.com/?ip.49.12.189.93) | static.93.189.12.49.clients.your-server.de | - | High
 68 | ... | ... | ... | ...
 
-There are 269 more IOC items available. Please use our online service to access the data.
+There are 270 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -124,43 +124,43 @@ ID | Type | Indicator | Confidence
 8 | File | `/admin/modal_add_product.php` | High
 9 | File | `/admin/positions_add.php` | High
 10 | File | `/adminPage/conf/reload` | High
-11 | File | `/ajax.php?action=save_company` | High
-12 | File | `/ajax.php?action=save_user` | High
-13 | File | `/api/baskets/{name}` | High
-14 | File | `/api/database` | High
-15 | File | `/app/index/controller/Common.php` | High
-16 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
-17 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
-18 | File | `/applications/nexus/modules/front/store/store.php` | High
-19 | File | `/App_Resource/UEditor/server/upload.aspx` | High
-20 | File | `/bitrix/admin/ldap_server_edit.php` | High
-21 | File | `/c/PluginsController.php` | High
-22 | File | `/category.php` | High
-23 | File | `/cgi-bin/nas_sharing.cgi` | High
+11 | File | `/api/baskets/{name}` | High
+12 | File | `/api/database` | High
+13 | File | `/app/index/controller/Common.php` | High
+14 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
+15 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
+16 | File | `/applications/nexus/modules/front/store/store.php` | High
+17 | File | `/App_Resource/UEditor/server/upload.aspx` | High
+18 | File | `/bitrix/admin/ldap_server_edit.php` | High
+19 | File | `/c/PluginsController.php` | High
+20 | File | `/category.php` | High
+21 | File | `/cgi-bin/cstecgi.cgi` | High
+22 | File | `/cgi-bin/nas_sharing.cgi` | High
+23 | File | `/cgi-bin/photocenter_mgr.cgi` | High
 24 | File | `/chaincity/user/ticket/create` | High
-25 | File | `/classes/Master.php?f=save_category` | High
-26 | File | `/classes/Users.php?f=save` | High
-27 | File | `/collection/all` | High
-28 | File | `/Controller/Ajaxfileupload.ashx` | High
-29 | File | `/dcim/rack-roles/` | High
+25 | File | `/classes/Master.php` | High
+26 | File | `/classes/Master.php?f=save_category` | High
+27 | File | `/classes/Users.php?f=save` | High
+28 | File | `/collection/all` | High
+29 | File | `/Controller/Ajaxfileupload.ashx` | High
 30 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
-31 | File | `/DXR.axd` | Medium
-32 | File | `/ecommerce/support_ticket` | High
-33 | File | `/ecrire/exec/puce_statut.php` | High
-34 | File | `/fftools/ffmpeg_enc.c` | High
-35 | File | `/files/` | Low
-36 | File | `/forms/doLogin` | High
+31 | File | `/ecommerce/support_ticket` | High
+32 | File | `/ecrire/exec/puce_statut.php` | High
+33 | File | `/fftools/ffmpeg_enc.c` | High
+34 | File | `/files/` | Low
+35 | File | `/forms/doLogin` | High
+36 | File | `/formSysLog` | Medium
 37 | File | `/forum/away.php` | High
 38 | File | `/friends/ajax_invite` | High
-39 | File | `/goform/WifiGuestSet` | High
-40 | File | `/home/filter_listings` | High
-41 | File | `/index.php` | Medium
-42 | File | `/index.php/client/message/message_read/xxxxxxxx[random-msg-hash]` | High
-43 | File | `/index.php?app=main&func=passport&action=login` | High
-44 | File | `/index.php?s=/article/ApiAdminArticle/itemAdd` | High
+39 | File | `/goform/SetOnlineDevName` | High
+40 | File | `/goform/WifiGuestSet` | High
+41 | File | `/home/filter_listings` | High
+42 | File | `/includes/common/require_access_recovery.php` | High
+43 | File | `/index.php` | Medium
+44 | File | `/index.php/client/message/message_read/xxxxxxxx[random-msg-hash]` | High
 45 | ... | ... | ...
 
-There are 387 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 394 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -228,6 +228,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://github.com/executemalware/Malware-IOCs/blob/main/2022-05-09%20Redline%20IOCs
 * https://github.com/threatlabz/iocs/blob/main/onenote_attacks/network_indicators.txt
 * https://isc.sans.edu/forums/diary/RedLine+Stealer+Delivered+Through+FTP/28258/
+* https://research.checkpoint.com/2024/stargazers-ghost-network/
 * https://www.malwarebytes.com/blog/news/2022/09/2k-games-helpdesk-abused-to-spread-redline-malware
 * https://www.proofpoint.com/us/blog/threat-insight/onenote-documents-increasingly-used-to-deliver-malware
 

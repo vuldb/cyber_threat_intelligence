@@ -34,7 +34,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Path Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
@@ -54,31 +54,32 @@ ID | Type | Indicator | Confidence
 3 | File | `/app/options.py` | High
 4 | File | `/apply.cgi` | Medium
 5 | File | `/card_scan.php` | High
-6 | File | `/cgi-bin/wlogin.cgi` | High
-7 | File | `/cwc/login` | Medium
-8 | File | `/debuginfo.htm` | High
-9 | File | `/download` | Medium
-10 | File | `/etc/quagga` | Medium
-11 | File | `/etc/shadow` | Medium
-12 | File | `/forms/doLogin` | High
-13 | File | `/h/calendar` | Medium
-14 | File | `/inc/extensions.php` | High
-15 | File | `/mhds/clinic/view_details.php` | High
-16 | File | `/netflow/jspui/editProfile.jsp` | High
-17 | File | `/nova/bin/console` | High
-18 | File | `/nova/bin/detnet` | High
-19 | File | `/out.php` | Medium
-20 | File | `/php/ping.php` | High
-21 | File | `/rapi/read_url` | High
-22 | File | `/req_password_user.php` | High
-23 | File | `/rom-0` | Low
-24 | File | `/scripts/unlock_tasks.php` | High
-25 | File | `/secure/QueryComponent!Default.jspa` | High
-26 | File | `/ServletAPI/accounts/login` | High
-27 | File | `/setNTP.cgi` | Medium
-28 | ... | ... | ...
+6 | File | `/cgi-bin/cstecgi.cgi` | High
+7 | File | `/cgi-bin/wlogin.cgi` | High
+8 | File | `/cwc/login` | Medium
+9 | File | `/debuginfo.htm` | High
+10 | File | `/download` | Medium
+11 | File | `/etc/passwd` | Medium
+12 | File | `/etc/quagga` | Medium
+13 | File | `/etc/shadow` | Medium
+14 | File | `/forms/doLogin` | High
+15 | File | `/h/autoSaveDraft` | High
+16 | File | `/h/calendar` | Medium
+17 | File | `/inc/extensions.php` | High
+18 | File | `/mhds/clinic/view_details.php` | High
+19 | File | `/netflow/jspui/editProfile.jsp` | High
+20 | File | `/nova/bin/console` | High
+21 | File | `/nova/bin/detnet` | High
+22 | File | `/out.php` | Medium
+23 | File | `/php/ping.php` | High
+24 | File | `/rapi/read_url` | High
+25 | File | `/req_password_user.php` | High
+26 | File | `/rom-0` | Low
+27 | File | `/scripts/unlock_tasks.php` | High
+28 | File | `/secure/QueryComponent!Default.jspa` | High
+29 | ... | ... | ...
 
-There are 232 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 247 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -20,7 +20,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 19 more country items available. Please use our online service to access the data.
+There are 20 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -111,7 +111,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -121,46 +121,46 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
 2 | File | `/act/ActDao.xml` | High
-3 | File | `/admin/moduleinterface.php` | High
-4 | File | `/ajax.php?action=read_msg` | High
-5 | File | `/api/clusters/local/topics/{topic}/messages` | High
-6 | File | `/api/gen/clients/{language}` | High
-7 | File | `/API/info` | Medium
-8 | File | `/app/options.py` | High
-9 | File | `/bin/httpd` | Medium
-10 | File | `/cgi-bin/wapopen` | High
-11 | File | `/ci_spms/admin/category` | High
-12 | File | `/ci_spms/admin/search/searching/` | High
-13 | File | `/classes/Master.php?f=delete_appointment` | High
-14 | File | `/classes/Master.php?f=delete_train` | High
-15 | File | `/Content/Template/root/reverse-shell.aspx` | High
-16 | File | `/ctcprotocol/Protocol` | High
-17 | File | `/dashboard/menu-list.php` | High
-18 | File | `/debug/pprof` | Medium
-19 | File | `/ebics-server/ebics.aspx` | High
-20 | File | `/ffos/classes/Master.php?f=save_category` | High
-21 | File | `/forum/away.php` | High
-22 | File | `/goform/net\_Web\_get_value` | High
-23 | File | `/goforms/rlminfo` | High
-24 | File | `/GponForm/usb_restore_Form?script/` | High
-25 | File | `/group1/uploa` | High
-26 | File | `/hedwig.cgi` | Medium
-27 | File | `/HNAP1` | Low
-28 | File | `/HNAP1/SetClientInfo` | High
-29 | File | `/index.php` | Medium
-30 | File | `/Items/*/RemoteImages/Download` | High
-31 | File | `/manage/IPSetup.php` | High
-32 | File | `/members/view_member.php` | High
-33 | File | `/menu.html` | Medium
-34 | File | `/mhds/clinic/view_details.php` | High
-35 | File | `/modules/profile/index.php` | High
-36 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-37 | File | `/ocwbs/admin/?page=user/manage_user` | High
-38 | File | `/ofrs/admin/?page=user/manage_user` | High
-39 | File | `/out.php` | Medium
-40 | File | `/owa/auth/logon.aspx` | High
-41 | File | `/patient/appointment.php` | High
-42 | File | `/php_action/fetchSelectedUser.php` | High
+3 | File | `/admin.php?p=/Area/index#tab=t2` | High
+4 | File | `/admin/` | Low
+5 | File | `/admin/admin-update-employee.php` | High
+6 | File | `/admin/moduleinterface.php` | High
+7 | File | `/ajax.php?action=read_msg` | High
+8 | File | `/api/clusters/local/topics/{topic}/messages` | High
+9 | File | `/api/gen/clients/{language}` | High
+10 | File | `/API/info` | Medium
+11 | File | `/app/options.py` | High
+12 | File | `/bin/httpd` | Medium
+13 | File | `/cgi-bin/supervisor/adcommand.cgi` | High
+14 | File | `/cgi-bin/tosei_kikai.php` | High
+15 | File | `/cgi-bin/wapopen` | High
+16 | File | `/ci_spms/admin/category` | High
+17 | File | `/ci_spms/admin/search/searching/` | High
+18 | File | `/classes/Master.php?f=delete_appointment` | High
+19 | File | `/classes/Master.php?f=delete_train` | High
+20 | File | `/Content/Template/root/reverse-shell.aspx` | High
+21 | File | `/ctcprotocol/Protocol` | High
+22 | File | `/dashboard/menu-list.php` | High
+23 | File | `/debug/pprof` | Medium
+24 | File | `/DXR.axd` | Medium
+25 | File | `/ebics-server/ebics.aspx` | High
+26 | File | `/EXCU_SHELL` | Medium
+27 | File | `/ffos/classes/Master.php?f=save_category` | High
+28 | File | `/forum/away.php` | High
+29 | File | `/goform/modifyDhcpRule` | High
+30 | File | `/goform/ModifyPppAuthWhiteMac` | High
+31 | File | `/goform/net\_Web\_get_value` | High
+32 | File | `/goform/setStaOffline` | High
+33 | File | `/goforms/rlminfo` | High
+34 | File | `/GponForm/usb_restore_Form?script/` | High
+35 | File | `/group1/uploa` | High
+36 | File | `/hedwig.cgi` | Medium
+37 | File | `/HNAP1` | Low
+38 | File | `/HNAP1/SetClientInfo` | High
+39 | File | `/index.php` | Medium
+40 | File | `/Items/*/RemoteImages/Download` | High
+41 | File | `/manage/IPSetup.php` | High
+42 | File | `/members/view_member.php` | High
 43 | ... | ... | ...
 
 There are 371 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.

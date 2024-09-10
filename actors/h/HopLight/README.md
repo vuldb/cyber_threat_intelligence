@@ -66,19 +66,19 @@ ID | Type | Indicator | Confidence
 9 | File | `/alerts/alertConfigField.php` | High
 10 | File | `/api/blade-log/api/list` | High
 11 | File | `/api/v1/terminal/sessions/?limit=1` | High
-12 | File | `/config/myfield/test.php` | High
-13 | File | `/context/%2e/WEB-INF/web.xml` | High
-14 | File | `/core/conditions/AbstractWrapper.java` | High
-15 | File | `/data/remove` | Medium
-16 | File | `/debug/pprof` | Medium
-17 | File | `/etc/passwd` | Medium
-18 | File | `/face-recognition-php/facepay-master/camera.php` | High
-19 | File | `/forms/doLogin` | High
-20 | File | `/goform/aspForm` | High
-21 | File | `/index.php` | Medium
+12 | File | `/cgi-bin/nas_sharing.cgi` | High
+13 | File | `/config/myfield/test.php` | High
+14 | File | `/context/%2e/WEB-INF/web.xml` | High
+15 | File | `/core/conditions/AbstractWrapper.java` | High
+16 | File | `/data/remove` | Medium
+17 | File | `/debug/pprof` | Medium
+18 | File | `/etc/passwd` | Medium
+19 | File | `/face-recognition-php/facepay-master/camera.php` | High
+20 | File | `/forms/doLogin` | High
+21 | File | `/goform/aspForm` | High
 22 | ... | ... | ...
 
-There are 181 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 184 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

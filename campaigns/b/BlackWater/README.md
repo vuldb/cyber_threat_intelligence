@@ -60,35 +60,37 @@ ID | Type | Indicator | Confidence
 1 | File | `%PROGRAMFILES%\MyQ\PHP\Sessions\` | High
 2 | File | `/.flatpak-info` | High
 3 | File | `/Account/login.php` | High
-4 | File | `/admin/` | Low
-5 | File | `/admin/app/login_crud.php` | High
-6 | File | `/admin/app/product.php` | High
-7 | File | `/admin/app/service_crud.php` | High
-8 | File | `/admin/category/view_category.php` | High
-9 | File | `/admin/edit.php` | High
-10 | File | `/admin/googleads.php` | High
-11 | File | `/admin/list_ipAddressPolicy.php` | High
-12 | File | `/admin/login.php` | High
-13 | File | `/Admin/login.php` | High
-14 | File | `/admin/pages/update_go.php` | High
-15 | File | `/admin/reg.php` | High
-16 | File | `/admin/renewaldue.php` | High
-17 | File | `/admin/search.php` | High
-18 | File | `/adminpanel/admin/query/deleteQuestionExe.php` | High
-19 | File | `/ajax` | Low
-20 | File | `/analysisProject/pagingQueryData` | High
-21 | File | `/api/sys/login` | High
-22 | File | `/app/ajax/search_sales_report.php` | High
-23 | File | `/app/middleware/TokenVerify.php` | High
-24 | File | `/application/index/controller/Databasesource.php` | High
-25 | File | `/application/index/controller/Screen.php` | High
-26 | File | `/bin/boa` | Medium
-27 | File | `/booking/show_bookings/` | High
-28 | File | `/cancel.php` | Medium
-29 | File | `/cgi-bin/adm.cgi` | High
-30 | ... | ... | ...
+4 | File | `/Actions.php?a=login` | High
+5 | File | `/admin/` | Low
+6 | File | `/admin/app/login_crud.php` | High
+7 | File | `/admin/app/product.php` | High
+8 | File | `/admin/app/service_crud.php` | High
+9 | File | `/admin/category/view_category.php` | High
+10 | File | `/admin/edit.php` | High
+11 | File | `/admin/googleads.php` | High
+12 | File | `/admin/list_ipAddressPolicy.php` | High
+13 | File | `/admin/login.php` | High
+14 | File | `/Admin/login.php` | High
+15 | File | `/admin/pages/update_go.php` | High
+16 | File | `/admin/reg.php` | High
+17 | File | `/admin/renewaldue.php` | High
+18 | File | `/admin/search.php` | High
+19 | File | `/adminpanel/admin/query/deleteQuestionExe.php` | High
+20 | File | `/ajax` | Low
+21 | File | `/analysisProject/pagingQueryData` | High
+22 | File | `/api/sys/login` | High
+23 | File | `/app/ajax/search_sales_report.php` | High
+24 | File | `/app/middleware/TokenVerify.php` | High
+25 | File | `/application/index/controller/Databasesource.php` | High
+26 | File | `/application/index/controller/Screen.php` | High
+27 | File | `/bin/boa` | Medium
+28 | File | `/booking/show_bookings/` | High
+29 | File | `/cancel.php` | Medium
+30 | File | `/cgi-bin/adm.cgi` | High
+31 | File | `/cgi-bin/cstecgi.cgi` | High
+32 | ... | ... | ...
 
-There are 259 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 272 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

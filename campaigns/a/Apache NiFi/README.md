@@ -52,12 +52,13 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/forum/away.php` | High
-2 | File | `/includes/event-management/index.php` | High
-3 | File | `/lua/set-passwd.lua` | High
-4 | ... | ... | ...
+1 | File | `/admin/config_time_sync.php` | High
+2 | File | `/forum/away.php` | High
+3 | File | `/includes/event-management/index.php` | High
+4 | File | `/lua/set-passwd.lua` | High
+5 | ... | ... | ...
 
-There are 22 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 25 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

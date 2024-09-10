@@ -123,9 +123,10 @@ ID | Type | Indicator | Confidence
 72 | File | `/horde/util/go.php` | High
 73 | File | `/hrm/controller/employee.php` | High
 74 | File | `/hrm/employeeadd.php` | High
-75 | ... | ... | ...
+75 | File | `/hrm/employeeview.php` | High
+76 | ... | ... | ...
 
-There are 661 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 668 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

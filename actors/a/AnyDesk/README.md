@@ -36,7 +36,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 4 | ... | ... | ... | ...
 
-There are 8 more TTP items available. Please use our online service to access the data.
+There are 9 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -44,12 +44,13 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/goform/SetNetControlList` | High
-2 | File | `/index.php/newsletter/subscriber/new/` | High
-3 | File | `/sqlitemanager/main.php?dbsel=-1%20or%2072%20=%2072` | High
-4 | ... | ... | ...
+1 | File | `/forgot-password` | High
+2 | File | `/goform/setDeviceSettings` | High
+3 | File | `/goform/SetNetControlList` | High
+4 | File | `/index.php/newsletter/subscriber/new/` | High
+5 | ... | ... | ...
 
-There are 19 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 30 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

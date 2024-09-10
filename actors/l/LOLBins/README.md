@@ -30,10 +30,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Path Traversal | High
+1 | T1006 | CWE-22, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -59,19 +59,21 @@ ID | Type | Indicator | Confidence
 12 | File | `/api/v1/attack` | High
 13 | File | `/apply.cgi` | Medium
 14 | File | `/blog/edit` | Medium
-15 | File | `/clients/listclients.php` | High
-16 | File | `/common/run_cross_report.php` | High
-17 | File | `/common/user_profile.php` | High
-18 | File | `/Employee/edit-profile.php` | High
-19 | File | `/etc/gsissh/sshd_config` | High
-20 | File | `/etc/shadow` | Medium
-21 | File | `/goForm/aspForm` | High
-22 | File | `/goform/delFileName` | High
-23 | File | `/goform/exeCommand` | High
-24 | File | `/goform/setcfm` | High
-25 | ... | ... | ...
+15 | File | `/cgi-bin/p1_ftpserver.php` | High
+16 | File | `/clients/listclients.php` | High
+17 | File | `/common/run_cross_report.php` | High
+18 | File | `/common/user_profile.php` | High
+19 | File | `/Employee/edit-profile.php` | High
+20 | File | `/etc/gsissh/sshd_config` | High
+21 | File | `/etc/shadow` | Medium
+22 | File | `/goForm/aspForm` | High
+23 | File | `/goform/delFileName` | High
+24 | File | `/goform/exeCommand` | High
+25 | File | `/goform/setcfm` | High
+26 | File | `/goform/setsambacfg` | High
+27 | ... | ... | ...
 
-There are 214 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 227 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

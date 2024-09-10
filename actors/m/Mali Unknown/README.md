@@ -96,7 +96,8 @@ ID | Type | Indicator | Confidence
 39 | File | `album_portal.php` | High
 40 | File | `api.php` | Low
 41 | File | `application/home/controller/debug.php` | High
-42 | ... | ... | ...
+42 | File | `army.php` | Medium
+43 | ... | ... | ...
 
 There are 367 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 

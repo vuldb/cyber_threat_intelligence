@@ -37,14 +37,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -52,37 +52,39 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/agc/vicidial.php` | High
-2 | File | `/api/baskets/{name}` | High
-3 | File | `/api/RecordingList/DownloadRecord?file=` | High
-4 | File | `/apply.cgi` | Medium
-5 | File | `/cgi-bin/luci/api/switch` | High
-6 | File | `/cgi-bin/sm_changepassword.cgi` | High
-7 | File | `/classes/Master.php?f=delete_inquiry` | High
-8 | File | `/contact.php` | Medium
-9 | File | `/core/config-revisions` | High
-10 | File | `/debuginfo.htm` | High
-11 | File | `/Electron/download` | High
-12 | File | `/export` | Low
-13 | File | `/forum/away.php` | High
-14 | File | `/guest_auth/cfg/upLoadCfg.php` | High
-15 | File | `/include/chart_generator.php` | High
-16 | File | `/index.php` | Medium
-17 | File | `/items/search` | High
-18 | File | `/jsonrpc` | Medium
-19 | File | `/load.php` | Medium
-20 | File | `/lua/set-passwd.lua` | High
-21 | File | `/mims/login.php` | High
-22 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-23 | File | `/pages/animals.php` | High
-24 | File | `/php/ping.php` | High
-25 | File | `/rapi/read_url` | High
-26 | File | `/scripts/cpan_config` | High
-27 | File | `/scripts/unlock_tasks.php` | High
-28 | File | `/SetTriggerWPS/PIN` | High
-29 | ... | ... | ...
+1 | File | `/adfs/ls` | Medium
+2 | File | `/admin/scripts/pi-hole/phpqueryads.php` | High
+3 | File | `/agc/vicidial.php` | High
+4 | File | `/api/baskets/{name}` | High
+5 | File | `/api/RecordingList/DownloadRecord?file=` | High
+6 | File | `/apply.cgi` | Medium
+7 | File | `/cgi-bin/cstecgi.cgi` | High
+8 | File | `/cgi-bin/luci/api/switch` | High
+9 | File | `/cgi-bin/sm_changepassword.cgi` | High
+10 | File | `/classes/Master.php?f=delete_inquiry` | High
+11 | File | `/contact.php` | Medium
+12 | File | `/core/config-revisions` | High
+13 | File | `/debuginfo.htm` | High
+14 | File | `/Electron/download` | High
+15 | File | `/export` | Low
+16 | File | `/forum/away.php` | High
+17 | File | `/guest_auth/cfg/upLoadCfg.php` | High
+18 | File | `/include/chart_generator.php` | High
+19 | File | `/index.php` | Medium
+20 | File | `/items/search` | High
+21 | File | `/jsonrpc` | Medium
+22 | File | `/load.php` | Medium
+23 | File | `/lua/set-passwd.lua` | High
+24 | File | `/mims/login.php` | High
+25 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+26 | File | `/pages/animals.php` | High
+27 | File | `/php/ping.php` | High
+28 | File | `/rapi/read_url` | High
+29 | File | `/scripts/cpan_config` | High
+30 | File | `/scripts/unlock_tasks.php` | High
+31 | ... | ... | ...
 
-There are 250 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 267 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

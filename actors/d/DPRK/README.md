@@ -61,7 +61,8 @@ ID | IP address | Hostname | Campaign | Confidence
 27 | [46.36.203.81](https://vuldb.com/?ip.46.36.203.81) | - | - | High
 28 | [46.36.203.82](https://vuldb.com/?ip.46.36.203.82) | - | - | High
 29 | [47.206.4.145](https://vuldb.com/?ip.47.206.4.145) | static-47-206-4-145.srst.fl.frontiernet.net | HOPLIGHT | High
-30 | ... | ... | ... | ...
+30 | [51.68.152.96](https://vuldb.com/?ip.51.68.152.96) | ns3122934.ip-51-68-152.eu | BLINDINGCAN | High
+31 | ... | ... | ... | ...
 
 There are 118 more IOC items available. Please use our online service to access the data.
 
@@ -72,12 +73,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22, CWE-24, CWE-425 | Path Traversal | High
-2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -86,107 +88,89 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/?g=net_pro_keyword_import_save` | High
-2 | File | `/Account/login.php` | High
-3 | File | `/addbill.php` | Medium
-4 | File | `/addproduct.php` | High
-5 | File | `/add_members.php` | High
-6 | File | `/admin` | Low
-7 | File | `/admin-manage-user.php` | High
-8 | File | `/admin/` | Low
-9 | File | `/admin/action/add_con.php` | High
-10 | File | `/admin/action/delete-vaccine.php` | High
-11 | File | `/admin/action/edit_chicken.php` | High
-12 | File | `/admin/action/new-father.php` | High
-13 | File | `/admin/action/new-feed.php` | High
-14 | File | `/admin/action/update-deworm.php` | High
-15 | File | `/admin/admin_login_process.php` | High
-16 | File | `/admin/book_add.php` | High
-17 | File | `/admin/book_row.php` | High
-18 | File | `/admin/borrow_add.php` | High
-19 | File | `/admin/bwdates-report-details.php` | High
-20 | File | `/admin/category_row.php` | High
-21 | File | `/admin/clientview.php` | High
-22 | File | `/admin/edit-post.php` | High
-23 | File | `/admin/edit_supplier.php` | High
-24 | File | `/admin/forgot-password.php` | High
-25 | File | `/admin/index.php` | High
-26 | File | `/admin/index.php?page=manage_product` | High
-27 | File | `/admin/login.php` | High
-28 | File | `/Admin/login.php` | High
-29 | File | `/admin/manage-users.php` | High
-30 | File | `/admin/modules/product/controller.php?action=add` | High
-31 | File | `/admin/mod_room/controller.php?action=add` | High
-32 | File | `/admin/pages/edit_chicken.php` | High
-33 | File | `/admin/pages/student-print.php` | High
-34 | File | `/admin/pages/update_go.php` | High
-35 | File | `/admin/php/crud.php` | High
-36 | File | `/admin/regester.php` | High
-37 | File | `/admin/request-received-bydonar.php` | High
-38 | File | `/admin/return_add.php` | High
-39 | File | `/admin/singlelogin.php` | High
-40 | File | `/admin/singlelogin.php?submit=1` | High
-41 | File | `/admin/update-clients.php` | High
-42 | File | `/admin/upload/img` | High
-43 | File | `/adminPage/conf/saveCmd` | High
-44 | File | `/admin_route/dec_service_credits.php` | High
-45 | File | `/admin_route/inc_service_credits.php` | High
-46 | File | `/ample/app/action/edit_product.php` | High
-47 | File | `/api.php` | Medium
-48 | File | `/api/blade-log/api/list` | High
-49 | File | `/api/v2/maps` | Medium
-50 | File | `/app/ajax/sell_return_data.php` | High
-51 | File | `/app/index/controller/Common.php` | High
-52 | File | `/application/index/common.php` | High
-53 | File | `/application/index/controller/Databasesource.php` | High
-54 | File | `/application/index/controller/File.php` | High
-55 | File | `/application/index/controller/Icon.php` | High
-56 | File | `/application/index/controller/Pay.php` | High
-57 | File | `/application/index/controller/Screen.php` | High
-58 | File | `/application/index/controller/Service.php` | High
-59 | File | `/application/index/controller/Unity.php` | High
-60 | File | `/application/pay/controller/Api.php` | High
-61 | File | `/application/plugins/controller/Upload.php` | High
-62 | File | `/application/websocket/controller/Setting.php` | High
-63 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
-64 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
-65 | File | `/applications/nexus/modules/front/store/store.php` | High
-66 | File | `/apply/index.php` | High
-67 | File | `/apps/login_auth.php` | High
-68 | File | `/apps/reg_go.php` | High
-69 | File | `/assets/php/upload.php` | High
-70 | File | `/assoc_table.php` | High
-71 | File | `/auth/auth.php?user=1` | High
-72 | File | `/billing/bill/edit/` | High
-73 | File | `/cgi-bin/cstecgi.cgi` | High
-74 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-75 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=ie8` | High
-76 | File | `/cgi-bin/nas_sharing.cgi` | High
-77 | File | `/classes/Master.php?f=log_employee` | High
-78 | File | `/classes/Master.php?f=save_category` | High
-79 | File | `/classes/Users.php?f=save` | High
-80 | File | `/command_port.ini` | High
-81 | File | `/config,admin.jsp` | High
-82 | File | `/diag_s.php` | Medium
-83 | File | `/edit-computer-detail.php` | High
-84 | File | `/edit-task.php` | High
-85 | File | `/EXCU_SHELL` | Medium
-86 | File | `/fftools/ffmpeg_enc.c` | High
-87 | File | `/file-manager/delete.php` | High
-88 | File | `/file-manager/upload.php` | High
-89 | File | `/forms/doLogin` | High
-90 | File | `/formSysLog` | Medium
-91 | File | `/forum/away.php` | High
-92 | File | `/get.php` | Medium
-93 | File | `/goform/AddDnsForward` | High
-94 | File | `/goform/addIpMacBind` | High
-95 | File | `/goform/addressNat` | High
-96 | File | `/goform/addWifiMacFilter` | High
-97 | File | `/goform/AdvSetMacMtuWan` | High
-98 | File | `/goform/DelDhcpRule` | High
-99 | File | `/goform/delIpMacBind` | High
-100 | ... | ... | ...
+2 | File | `/abcd/opac/php/otros_sitios.php` | High
+3 | File | `/Account/login.php` | High
+4 | File | `/add-students.php` | High
+5 | File | `/addcategory.php` | High
+6 | File | `/addproduct.php` | High
+7 | File | `/admin/?page=musics/manage_music` | High
+8 | File | `/admin/ajax.php?action=login` | High
+9 | File | `/admin/categories/manage_category.php` | High
+10 | File | `/admin/config_time_sync.php` | High
+11 | File | `/admin/edit-post.php` | High
+12 | File | `/admin/edit_supplier.php` | High
+13 | File | `/admin/emp-profile-avatar.php` | High
+14 | File | `/admin/forgot-password.php` | High
+15 | File | `/admin/index.php` | High
+16 | File | `/admin/index.php?page=manage_product` | High
+17 | File | `/admin/index.php?r=banner%2Fbanner-create` | High
+18 | File | `/admin/index.php?r=friendly-link%2Fupdate` | High
+19 | File | `/admin/index.php?r=user%2Fcreate` | High
+20 | File | `/admin/login.php` | High
+21 | File | `/Admin/login.php` | High
+22 | File | `/admin/modules/product/controller.php?action=add` | High
+23 | File | `/admin/mod_room/controller.php?action=add` | High
+24 | File | `/Admin/registration.php` | High
+25 | File | `/admin/system.html` | High
+26 | File | `/adminPage/conf/saveCmd` | High
+27 | File | `/ajax.php?action=delete_deductions` | High
+28 | File | `/ajax.php?action=login` | High
+29 | File | `/ajax/checkin.php` | High
+30 | File | `/ajax/get_patient_history.php` | High
+31 | File | `/api/v2/maps` | Medium
+32 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
+33 | File | `/applications/nexus/modules/front/store/store.php` | High
+34 | File | `/apply.cgi` | Medium
+35 | File | `/assoc_table.php` | High
+36 | File | `/authMonitCallcenter` | High
+37 | File | `/cgi-bin/apkg_mgr.cgi` | High
+38 | File | `/cgi-bin/cstecgi.cgi` | High
+39 | File | `/cgi-bin/cstecgi.cgi?action=save&setting` | High
+40 | File | `/cgi-bin/hd_config.cgi` | High
+41 | File | `/cgi-bin/myMusic.cgi` | High
+42 | File | `/cgi-bin/nas_sharing.cgi` | High
+43 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+44 | File | `/classes/Master.php` | High
+45 | File | `/classes/Master.php?f=delete_category` | High
+46 | File | `/classes/Master.php?f=delete_record` | High
+47 | File | `/classes/Master.php?f=log_employee` | High
+48 | File | `/classes/SystemSettings.php?f=update_settings` | High
+49 | File | `/classes/Users.php?f=save` | High
+50 | File | `/command_port.ini` | High
+51 | File | `/common/show_image.php` | High
+52 | File | `/diag_s.php` | Medium
+53 | File | `/E-Insurance/` | High
+54 | File | `/edit-computer-detail.php` | High
+55 | File | `/employee_gatepass/admin/?page=employee/manage_employee` | High
+56 | File | `/employee_gatepass/classes/Master.php?f=delete_department` | High
+57 | File | `/endpoint/add-folder.php` | High
+58 | File | `/endpoint/delete-account.php` | High
+59 | File | `/etc/shadow.sample` | High
+60 | File | `/export` | Low
+61 | File | `/fftools/ffmpeg_enc.c` | High
+62 | File | `/forget.php` | Medium
+63 | File | `/formSysLog` | Medium
+64 | File | `/goform/AddDnsForward` | High
+65 | File | `/goform/addIpMacBind` | High
+66 | File | `/goform/addressNat` | High
+67 | File | `/goform/AdvSetMacMtuWan` | High
+68 | File | `/goform/apPortalAccessCodeAuth` | High
+69 | File | `/goform/apPortalAuth` | High
+70 | File | `/goform/apPortalOneKeyAuth` | High
+71 | File | `/goform/apPortalPhoneAuth` | High
+72 | File | `/goform/DelDhcpRule` | High
+73 | File | `/goform/delIpMacBind` | High
+74 | File | `/goform/DelPortMapping` | High
+75 | File | `/goform/DhcpListClient` | High
+76 | File | `/goform/DhcpSetSe` | High
+77 | File | `/goform/DhcpSetSer` | High
+78 | File | `/goform/execCommand` | High
+79 | File | `/goform/fast_setting_wifi_set` | High
+80 | File | `/goform/frmL7ProtForm` | High
+81 | File | `/goform/fromqossetting` | High
+82 | ... | ... | ...
 
-There are 882 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 724 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -198,6 +182,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://github.com/mandatoryprogrammer/NorthKoreaDNSLeak
 * https://jumpcloud.com/support/july-2023-iocs
 * https://raidforums.com/Thread-North-Korean-IP-Addresses-300
+* https://securitylabs.datadoghq.com/articles/stressed-pungsan-dprk-aligned-threat-actor-leverages-npm-for-initial-access/
 * https://stairwell.com/wp-content/uploads/2022/04/Stairwell-threat-report-The-ink-stained-trail-of-GOLDBACKDOOR.pdf
 * https://us-cert.cisa.gov/ncas/alerts/aa21-048a
 * https://us-cert.cisa.gov/ncas/analysis-reports/AR19-100A

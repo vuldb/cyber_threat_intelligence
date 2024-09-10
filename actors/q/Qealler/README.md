@@ -61,39 +61,40 @@ ID | Type | Indicator | Confidence
 9 | File | `/cas/logout` | Medium
 10 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
 11 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-12 | File | `/context.json` | High
-13 | File | `/core/vb/vurl.php` | High
-14 | File | `/dashboard/snapshot/*?orgId=0` | High
-15 | File | `/dl/dl_print.php` | High
-16 | File | `/export` | Low
-17 | File | `/file?action=download&file` | High
-18 | File | `/forum/away.php` | High
-19 | File | `/home.jsp` | Medium
-20 | File | `/hrm/controller/employee.php` | High
-21 | File | `/icingaweb2/navigation/add` | High
-22 | File | `/importexport.php` | High
-23 | File | `/include/chart_generator.php` | High
-24 | File | `/index.php` | Medium
-25 | File | `/iwgallery/pictures/details.asp` | High
-26 | File | `/librarian/bookdetails.php` | High
-27 | File | `/log/download.php` | High
-28 | File | `/loginsave.php` | High
-29 | File | `/LogoStore/search.php` | High
-30 | File | `/maint/index.php` | High
-31 | File | `/MTFWU` | Low
-32 | File | `/new` | Low
-33 | File | `/oauth/idp/.well-known/openid-configuration` | High
-34 | File | `/opt/teradata/gsctools/bin/t2a.pl` | High
-35 | File | `/pf/idprofile.ping` | High
-36 | File | `/php-scrm/login.php` | High
-37 | File | `/plesk-site-preview/` | High
-38 | File | `/ReleaseX64/ssl/openssl.cnf` | High
-39 | File | `/reports-viewScriptReport.view` | High
-40 | File | `/RestAPI` | Medium
-41 | File | `/rom-0` | Low
-42 | ... | ... | ...
+12 | File | `/cgi-bin/wlogin.cgi` | High
+13 | File | `/context.json` | High
+14 | File | `/core/vb/vurl.php` | High
+15 | File | `/dashboard/snapshot/*?orgId=0` | High
+16 | File | `/dl/dl_print.php` | High
+17 | File | `/export` | Low
+18 | File | `/file?action=download&file` | High
+19 | File | `/forum/away.php` | High
+20 | File | `/home.jsp` | Medium
+21 | File | `/hrm/controller/employee.php` | High
+22 | File | `/icingaweb2/navigation/add` | High
+23 | File | `/importexport.php` | High
+24 | File | `/include/chart_generator.php` | High
+25 | File | `/index.php` | Medium
+26 | File | `/iwgallery/pictures/details.asp` | High
+27 | File | `/librarian/bookdetails.php` | High
+28 | File | `/log/download.php` | High
+29 | File | `/loginsave.php` | High
+30 | File | `/LogoStore/search.php` | High
+31 | File | `/maint/index.php` | High
+32 | File | `/MTFWU` | Low
+33 | File | `/new` | Low
+34 | File | `/oauth/idp/.well-known/openid-configuration` | High
+35 | File | `/opt/teradata/gsctools/bin/t2a.pl` | High
+36 | File | `/pf/idprofile.ping` | High
+37 | File | `/php-scrm/login.php` | High
+38 | File | `/php/ping.php` | High
+39 | File | `/plesk-site-preview/` | High
+40 | File | `/ReleaseX64/ssl/openssl.cnf` | High
+41 | File | `/reports-viewScriptReport.view` | High
+42 | File | `/RestAPI` | Medium
+43 | ... | ... | ...
 
-There are 366 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 371 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

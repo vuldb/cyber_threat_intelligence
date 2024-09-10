@@ -113,16 +113,16 @@ ID | Type | Indicator | Confidence
 27 | File | `/SAP_Information_System/controllers/add_admin.php` | High
 28 | File | `/SASWebReportStudio/logonAndRender.do` | High
 29 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-30 | File | `/secure/admin/ViewInstrumentation.jspa` | High
-31 | File | `/SVFE2/pages/feegroups/country_group.jsf` | High
-32 | File | `/textpattern/index.php` | High
-33 | File | `/uncpath/` | Medium
-34 | File | `/upfile.cgi` | Medium
-35 | File | `/v2/quantum/save-data-upload-big-file` | High
-36 | File | `/wordpress/wp-admin/admin.php` | High
-37 | File | `4.edu.php` | Medium
-38 | File | `account_footer.php` | High
-39 | File | `adclick.php` | Medium
+30 | File | `/SVFE2/pages/feegroups/country_group.jsf` | High
+31 | File | `/textpattern/index.php` | High
+32 | File | `/uncpath/` | Medium
+33 | File | `/upfile.cgi` | Medium
+34 | File | `/v2/quantum/save-data-upload-big-file` | High
+35 | File | `/wordpress/wp-admin/admin.php` | High
+36 | File | `4.edu.php` | Medium
+37 | File | `account_footer.php` | High
+38 | File | `adclick.php` | Medium
+39 | File | `add_edit_cat.asp` | High
 40 | ... | ... | ...
 
 There are 342 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.

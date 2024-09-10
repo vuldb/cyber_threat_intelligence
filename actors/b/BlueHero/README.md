@@ -30,14 +30,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -45,67 +45,61 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/.vnc/sesman_${username}_passwd` | High
-2 | File | `/admin/` | Low
-3 | File | `/admin/addemployee.php` | High
-4 | File | `/admin/add_exercises.php` | High
-5 | File | `/admin/add_trainers.php` | High
-6 | File | `/admin/admin-profile.php` | High
-7 | File | `/admin/admin_user.php` | High
-8 | File | `/admin/api/admin/articles/` | High
-9 | File | `/admin/api/theme-edit/` | High
-10 | File | `/admin/borrow_add.php` | High
-11 | File | `/admin/category_row.php` | High
-12 | File | `/admin/communitymanagement.php` | High
-13 | File | `/Admin/createClass.php` | High
-14 | File | `/admin/edit.php` | High
-15 | File | `/admin/index.php?page=categories` | High
-16 | File | `/admin/login.php` | High
-17 | File | `/admin/project/update/2` | High
-18 | File | `/admin/request-received-bydonar.php` | High
-19 | File | `/admin/settings.php` | High
-20 | File | `/admin/students/manage.php` | High
-21 | File | `/admin/success_story.php` | High
-22 | File | `/api/public/signup` | High
-23 | File | `/api/v1/attack` | High
-24 | File | `/api/v1/bait/set` | High
-25 | File | `/api/v2/open/tablesInfo` | High
-26 | File | `/boaform/device_reset.cgi` | High
-27 | File | `/boaform/wlan_basic_set.cgi` | High
-28 | File | `/category.php` | High
-29 | File | `/cgi-bin/cstecgi.cgi` | High
-30 | File | `/cgi-bin/nas_sharing.cgi` | High
-31 | File | `/classes/Users.php?f=save` | High
-32 | File | `/course/filterRecords/` | High
-33 | File | `/csms/?page=contact_us` | High
-34 | File | `/csms/admin/?page=user/list` | High
-35 | File | `/cwms/classes/Master.php?f=save_contact` | High
-36 | File | `/debug/pprof` | Medium
-37 | File | `/download/image` | High
-38 | File | `/ebics-server/ebics.aspx` | High
-39 | File | `/edituser.php` | High
-40 | File | `/employeeview.php` | High
-41 | File | `/Employer/EditProfile.php` | High
-42 | File | `/Employer/ManageJob.php` | High
-43 | File | `/forum/away.php` | High
-44 | File | `/FuguHub/cmsdocs/` | High
-45 | File | `/goform/SetSysTimeCfg` | High
-46 | File | `/hedwig.cgi` | Medium
-47 | File | `/inc/jquery/uploadify/uploadify.php` | High
-48 | File | `/index.jsp#settings` | High
-49 | File | `/inquiries/view_inquiry.php` | High
-50 | File | `/install/` | Medium
-51 | File | `/investigation/delete/` | High
-52 | File | `/lam/tmp/` | Medium
-53 | File | `/leave_system/classes/SystemSettings.php?f=update_settings` | High
-54 | File | `/login.php` | Medium
-55 | File | `/loginVaLidation.php` | High
-56 | File | `/member/member_edit.php` | High
-57 | File | `/mims/app/addcustomerHandler.php` | High
-58 | File | `/mkshope/login.php` | High
-59 | ... | ... | ...
+1 | File | `%PROGRAMDATA%\Razer\Synapse3\Service\bin` | High
+2 | File | `/.vnc/sesman_${username}_passwd` | High
+3 | File | `/admin/` | Low
+4 | File | `/admin/addemployee.php` | High
+5 | File | `/admin/add_exercises.php` | High
+6 | File | `/admin/add_trainers.php` | High
+7 | File | `/admin/admin-profile.php` | High
+8 | File | `/admin/admin_user.php` | High
+9 | File | `/admin/api/admin/articles/` | High
+10 | File | `/admin/api/theme-edit/` | High
+11 | File | `/admin/borrow_add.php` | High
+12 | File | `/admin/category_row.php` | High
+13 | File | `/admin/communitymanagement.php` | High
+14 | File | `/Admin/createClass.php` | High
+15 | File | `/admin/edit.php` | High
+16 | File | `/admin/index.php?page=categories` | High
+17 | File | `/admin/login.php` | High
+18 | File | `/admin/project/update/2` | High
+19 | File | `/admin/request-received-bydonar.php` | High
+20 | File | `/admin/settings.php` | High
+21 | File | `/admin/students/manage.php` | High
+22 | File | `/admin/success_story.php` | High
+23 | File | `/api/public/signup` | High
+24 | File | `/api/v1/attack` | High
+25 | File | `/api/v1/bait/set` | High
+26 | File | `/api/v2/cli/commands` | High
+27 | File | `/api/v2/open/tablesInfo` | High
+28 | File | `/boaform/device_reset.cgi` | High
+29 | File | `/boaform/wlan_basic_set.cgi` | High
+30 | File | `/category.php` | High
+31 | File | `/cgi-bin/cstecgi.cgi` | High
+32 | File | `/cgi-bin/nas_sharing.cgi` | High
+33 | File | `/classes/Master.php` | High
+34 | File | `/classes/Users.php?f=save` | High
+35 | File | `/course/filterRecords/` | High
+36 | File | `/csms/?page=contact_us` | High
+37 | File | `/csms/admin/?page=user/list` | High
+38 | File | `/cwms/classes/Master.php?f=save_contact` | High
+39 | File | `/debug/pprof` | Medium
+40 | File | `/download/image` | High
+41 | File | `/ebics-server/ebics.aspx` | High
+42 | File | `/edituser.php` | High
+43 | File | `/employeeview.php` | High
+44 | File | `/Employer/EditProfile.php` | High
+45 | File | `/Employer/ManageJob.php` | High
+46 | File | `/forum/away.php` | High
+47 | File | `/FuguHub/cmsdocs/` | High
+48 | File | `/goform/SetSysTimeCfg` | High
+49 | File | `/hedwig.cgi` | Medium
+50 | File | `/ims/login.php` | High
+51 | File | `/inc/jquery/uploadify/uploadify.php` | High
+52 | File | `/includes/common/require_access_recovery.php` | High
+53 | ... | ... | ...
 
-There are 513 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 458 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

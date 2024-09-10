@@ -58,9 +58,10 @@ ID | Type | Indicator | Confidence
 11 | File | `/goform/addWifiMacFilter` | High
 12 | File | `/goform/DhcpListClient` | High
 13 | File | `/goform/exeCommand` | High
-14 | ... | ... | ...
+14 | File | `/goform/fast_setting_wifi_set` | High
+15 | ... | ... | ...
 
-There are 115 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 116 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

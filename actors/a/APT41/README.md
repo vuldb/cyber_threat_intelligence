@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 The following _campaigns_ are known and can be associated with APT41:
 
 * ColunmTK
+* CVE-2018-0824
 * CVE-2019-19781
-* CVE-2021-44207
 * ...
 
-There are 3 more campaign items available. Please use our online service to access the data.
+There are 5 more campaign items available. Please use our online service to access the data.
 
 ## Countries
 
@@ -64,9 +64,11 @@ ID | IP address | Hostname | Campaign | Confidence
 30 | [43.229.155.39](https://vuldb.com/?ip.43.229.155.39) | - | - | High
 31 | [43.229.155.40](https://vuldb.com/?ip.43.229.155.40) | - | - | High
 32 | [43.229.155.41](https://vuldb.com/?ip.43.229.155.41) | - | - | High
-33 | ... | ... | ... | ...
+33 | [43.229.155.42](https://vuldb.com/?ip.43.229.155.42) | - | - | High
+34 | [43.255.191.255](https://vuldb.com/?ip.43.255.191.255) | - | - | High
+35 | ... | ... | ... | ...
 
-There are 127 more IOC items available. Please use our online service to access the data.
+There are 136 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -109,6 +111,7 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://app.box.com/s/qtqlwejty7xz8wj8osz98webycgo5j9x
 * https://blog.group-ib.com/colunmtk_apt41
+* https://blog.talosintelligence.com/chinese-hacking-group-apt41-compromised-taiwanese-government-affiliated-research-institute-with-shadowpad-and-cobaltstrike-2/
 * https://github.com/blackberry/threat-research-and-intelligence/blob/main/APT41.csv
 * https://github.com/blackorbird/APT_REPORT/blob/master/APT41/With%20KEYPLUG%2CChina%E2%80%99sRedGolf%20Spies%20On%2C%20Steals%20From%20Wide%20Field%20of%20Targets.pdf
 * https://github.com/eset/malware-ioc/tree/master/winnti_group
@@ -116,6 +119,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://securelist.com/moonbounce-the-dark-side-of-uefi-firmware/105468/
 * https://vxug.fakedoma.in/archive/APTs/2021/2021.01.14/APT%2041.pdf
 * https://www.fireeye.com/blog/threat-research/2020/03/apt41-initiates-global-intrusion-campaign-using-multiple-exploits.html
+* https://www.fortinet.com/blog/threat-research/threat-actors-exploit-geoserver-vulnerability-cve-2024-36401
 * https://www.lookout.com/threat-intelligence/article/wyrmspy-dragonegg-surveillanceware-apt41
 * https://www.mandiant.com/resources/apt41-us-state-governments
 * https://www.threatfabric.com/blogs/lightspy-mapt-mobile-payment-system-attack

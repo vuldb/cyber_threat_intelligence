@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with STRRAT:
 
-* [RU](https://vuldb.com/?country.ru)
-* [PL](https://vuldb.com/?country.pl)
 * [CN](https://vuldb.com/?country.cn)
+* [RU](https://vuldb.com/?country.ru)
+* [US](https://vuldb.com/?country.us)
 * ...
 
-There are 9 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -82,9 +82,10 @@ ID | IP address | Hostname | Campaign | Confidence
 59 | [45.137.22.170](https://vuldb.com/?ip.45.137.22.170) | hosted-by.rootlayer.net | - | High
 60 | [45.137.22.173](https://vuldb.com/?ip.45.137.22.173) | hosted-by.rootlayer.net | - | High
 61 | [45.137.22.182](https://vuldb.com/?ip.45.137.22.182) | hosted-by.rootlayer.net | - | High
-62 | ... | ... | ... | ...
+62 | [45.137.22.251](https://vuldb.com/?ip.45.137.22.251) | hosted-by.rootlayer.net | - | High
+63 | ... | ... | ... | ...
 
-There are 243 more IOC items available. Please use our online service to access the data.
+There are 247 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -96,9 +97,10 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80, CWE-85 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+6 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -106,22 +108,33 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/bbdms/sign-up.php` | High
-2 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-3 | File | `/catalog/all-products` | High
-4 | File | `/cgi-bin/wlogin.cgi` | High
-5 | File | `/changePassword` | High
-6 | File | `/forum/away.php` | High
-7 | File | `/goform/addIpMacBind` | High
-8 | File | `/goform/DelDhcpRule` | High
-9 | File | `/goform/delIpMacBind` | High
-10 | File | `/goform/DelPortMapping` | High
-11 | File | `/goform/modifyDhcpRule` | High
-12 | File | `/goform/modifyIpMacBind` | High
-13 | File | `/goform/setBlackRule` | High
-14 | ... | ... | ...
+1 | File | `/+CSCOE+/logon.html` | High
+2 | File | `/admin/add_ikev2.php` | High
+3 | File | `/admin/category_save.php` | High
+4 | File | `/admin/list_ipAddressPolicy.php` | High
+5 | File | `/admin/manage_model.php` | High
+6 | File | `/admin/manage_user.php` | High
+7 | File | `/admin/pages/` | High
+8 | File | `/admin/subject.php` | High
+9 | File | `/admins` | Low
+10 | File | `/ajax/getBasicInfo.php` | High
+11 | File | `/bbdms/sign-up.php` | High
+12 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+13 | File | `/catalog/all-products` | High
+14 | File | `/cgi-bin/cstecgi.cgi` | High
+15 | File | `/cgi-bin/wlogin.cgi` | High
+16 | File | `/changePassword` | High
+17 | File | `/edit-subject.php` | High
+18 | File | `/endpoint/add-user.php` | High
+19 | File | `/etc/postfix/sender_login` | High
+20 | File | `/farm/product.php` | High
+21 | File | `/forum/away.php` | High
+22 | File | `/goform/SetSysTimeCfg` | High
+23 | File | `/goform/WifiExtraSet` | High
+24 | File | `/index.php?app=main&inc=feature_firewall&op=firewall_list` | High
+25 | ... | ... | ...
 
-There are 108 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 207 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -130,6 +143,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://bazaar.abuse.ch/sample/0a830444a8c87e98ea93f7e726ecf1aa22aa07799bf6d374edc2c5dfdde511f9/
 * https://bazaar.abuse.ch/sample/0661c14ba768362038628b03491d28010012a8078ec14d2c6428aec2e6b4ecde/
 * https://bazaar.abuse.ch/sample/7bd8097de078f21e7f97dc04fac6ed6a4d7bc042934e2ec179706838303efe2f/
+* https://bazaar.abuse.ch/sample/62271ce84033d4463bd6f753675466f45ccc6c3a063c78c2c5b0346c23d3c470/
 * https://bazaar.abuse.ch/sample/685549196c77e82e6273752a6fe522ee18da8076f0029ad8232c6e0d36853675/
 * https://bazaar.abuse.ch/sample/a98d9028b8f90a56e17743affb17f3ad95585e35c225714bec021330f7b9b2bd/
 * https://bazaar.abuse.ch/sample/df0b2c36101cbf09511ebfe27d85bf3436dd2f3597356a40eb743825633d6ac6/

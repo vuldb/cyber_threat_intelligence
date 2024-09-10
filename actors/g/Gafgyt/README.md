@@ -16,12 +16,12 @@ The following _campaigns_ are known and can be associated with Gafgyt:
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Gafgyt:
 
+* [LU](https://vuldb.com/?country.lu)
 * [US](https://vuldb.com/?country.us)
 * [SC](https://vuldb.com/?country.sc)
-* [LI](https://vuldb.com/?country.li)
 * ...
 
-There are 5 more country items available. Please use our online service to access the data.
+There are 6 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -30,11 +30,11 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [46.249.32.109](https://vuldb.com/?ip.46.249.32.109) | reverse.hostingbb.com | DDoS Ukraine | High
-2 | [172.245.6.134](https://vuldb.com/?ip.172.245.6.134) | 172-245-6-134-host.colocrossing.com | - | High
-3 | [185.10.68.127](https://vuldb.com/?ip.185.10.68.127) | 127.68.10.185.ro.ovo.sc | CVE-2017-5638 / CVE-2018-9866 | High
+2 | [107.189.5.210](https://vuldb.com/?ip.107.189.5.210) | - | - | High
+3 | [172.245.6.134](https://vuldb.com/?ip.172.245.6.134) | 172-245-6-134-host.colocrossing.com | - | High
 4 | ... | ... | ... | ...
 
-There are 5 more IOC items available. Please use our online service to access the data.
+There are 6 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -42,13 +42,15 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
-2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059 | CWE-94 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-36 | Path Traversal | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | T1068 | CWE-264, CWE-266, CWE-269, CWE-270, CWE-284 | Execution with Unnecessary Privileges | High
+7 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -56,23 +58,43 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/adfs/ls` | Medium
-2 | File | `/admin/general/change-lang` | High
-3 | File | `/admin/sysmon.php` | High
-4 | File | `/api/content/posts/comments` | High
-5 | File | `/cimom` | Low
-6 | File | `/debug/pprof` | Medium
-7 | File | `/forum/away.php` | High
-8 | File | `/Home/GetAttachment` | High
-9 | File | `/LogoStore/search.php` | High
-10 | File | `/MIME/INBOX-MM-1/` | High
-11 | File | `/modules/projects/vw_files.php` | High
-12 | File | `/sm/api/v1/firewall/zone/services` | High
-13 | File | `/usr/bin/pkexec` | High
-14 | File | `/var/run/zabbix` | High
-15 | ... | ... | ...
+1 | File | `/accounts/login` | High
+2 | File | `/adfs/ls` | Medium
+3 | File | `/admin/ajax.php` | High
+4 | File | `/admin/general/change-lang` | High
+5 | File | `/admin/index2.html` | High
+6 | File | `/admin/modal_add_product.php` | High
+7 | File | `/admin/offenses/view_details.php` | High
+8 | File | `/admin/sysmon.php` | High
+9 | File | `/Admin/user-record.php` | High
+10 | File | `/admin/users.php` | High
+11 | File | `/alarm_pi/alarmService.php` | High
+12 | File | `/api/content/posts/comments` | High
+13 | File | `/api/v2/events` | High
+14 | File | `/api/v4/teams` | High
+15 | File | `/appliance/users?action=edit` | High
+16 | File | `/apply.cgi` | Medium
+17 | File | `/auth/callback` | High
+18 | File | `/bcms/classes/Master.php?f=save_court_rental` | High
+19 | File | `/cgi-bin/cstecgi.cgi` | High
+20 | File | `/cgi-bin/cstecgi.cgi?action=save&setting` | High
+21 | File | `/cimom` | Low
+22 | File | `/ci_spms/admin/category` | High
+23 | File | `/ci_spms/admin/search/searching/` | High
+24 | File | `/classes/master.php?f=delete_facility` | High
+25 | File | `/cupseasylive/itemgroupcreate.php` | High
+26 | File | `/debug/pprof` | Medium
+27 | File | `/dev/kmem` | Medium
+28 | File | `/edit-db.php` | Medium
+29 | File | `/exponentcms/administration/configure_site` | High
+30 | File | `/forum/away.php` | High
+31 | File | `/goform/SetOnlineDevName` | High
+32 | File | `/goform/setsambacfg` | High
+33 | File | `/Home/GetAttachment` | High
+34 | File | `/index.php` | Medium
+35 | ... | ... | ...
 
-There are 123 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 303 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -82,6 +104,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.netlab.360.com/wo-men-kan-dao-de-wu-ke-lan-bei-ddosgong-ji-xi-jie/
 * https://unit42.paloaltonetworks.com/home-small-office-wireless-routers-exploited-to-attack-gaming-servers/
 * https://unit42.paloaltonetworks.com/unit42-multi-exploit-iotlinux-botnets-mirai-gafgyt-target-apache-struts-sonicwall/
+* https://www.aquasec.com/blog/gafgyt-malware-variant-exploits-gpu-power-and-cloud-native-environments/
 
 ## Literature
 

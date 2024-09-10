@@ -100,20 +100,21 @@ ID | Type | Indicator | Confidence
 3 | File | `/admin/mod_room/controller.php?action=add` | High
 4 | File | `/api/client/editemedia.php` | High
 5 | File | `/api/v2/maps` | Medium
-6 | File | `/backend/register.php` | High
-7 | File | `/cgi-bin/nas_sharing.cgi` | High
-8 | File | `/classes/Master.php?f=log_employee` | High
-9 | File | `/classes/Users.php?f=delete` | High
-10 | File | `/control/register_case.php` | High
-11 | File | `/forum/away.php` | High
-12 | File | `/index.jsp#settings` | High
-13 | File | `/librarian/bookdetails.php` | High
-14 | File | `/manager/ipconfig_new.php` | High
-15 | File | `/manage_receiving.php` | High
-16 | File | `/manage_sy.php` | High
-17 | ... | ... | ...
+6 | File | `/attendancelist.php` | High
+7 | File | `/backend/register.php` | High
+8 | File | `/cgi-bin/nas_sharing.cgi` | High
+9 | File | `/classes/Master.php` | High
+10 | File | `/classes/Master.php?f=log_employee` | High
+11 | File | `/classes/Users.php?f=delete` | High
+12 | File | `/control/register_case.php` | High
+13 | File | `/forum/away.php` | High
+14 | File | `/index.jsp#settings` | High
+15 | File | `/librarian/bookdetails.php` | High
+16 | File | `/manager/ipconfig_new.php` | High
+17 | File | `/manage_receiving.php` | High
+18 | ... | ... | ...
 
-There are 140 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 147 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

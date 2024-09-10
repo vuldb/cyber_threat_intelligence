@@ -79,7 +79,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 15 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -89,22 +89,23 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/api/RecordingList/DownloadRecord?file=` | High
 2 | File | `/apply.cgi` | Medium
-3 | File | `/index.php` | Medium
-4 | File | `/members/view_member.php` | High
-5 | File | `/mhds/clinic/view_details.php` | High
-6 | File | `/owa/auth/logon.aspx` | High
-7 | File | `/php/ping.php` | High
-8 | File | `/rapi/read_url` | High
-9 | File | `/rest/api/latest/projectvalidate/key` | High
-10 | File | `/scripts/unlock_tasks.php` | High
-11 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
-12 | File | `/SysInfo1.htm` | High
-13 | File | `/sysinfo_json.cgi` | High
-14 | File | `/system/user/modules/mod_users/controller.php` | High
-15 | File | `/uncpath/` | Medium
-16 | ... | ... | ...
+3 | File | `/cgi-bin/cstecgi.cgi` | High
+4 | File | `/index.php` | Medium
+5 | File | `/members/view_member.php` | High
+6 | File | `/mhds/clinic/view_details.php` | High
+7 | File | `/owa/auth/logon.aspx` | High
+8 | File | `/php/ping.php` | High
+9 | File | `/rapi/read_url` | High
+10 | File | `/rest/api/latest/projectvalidate/key` | High
+11 | File | `/scripts/unlock_tasks.php` | High
+12 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
+13 | File | `/SysInfo1.htm` | High
+14 | File | `/sysinfo_json.cgi` | High
+15 | File | `/system/dictData/loadDictItem` | High
+16 | File | `/system/user/modules/mod_users/controller.php` | High
+17 | ... | ... | ...
 
-There are 131 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 136 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

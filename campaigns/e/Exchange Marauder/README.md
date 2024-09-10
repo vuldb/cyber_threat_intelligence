@@ -71,7 +71,7 @@ ID | Type | Indicator | Confidence
 13 | File | `api_poller.php` | High
 14 | ... | ... | ...
 
-There are 113 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 115 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

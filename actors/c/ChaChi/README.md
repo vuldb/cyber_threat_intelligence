@@ -40,11 +40,11 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-94 | Argument Injection | High
+4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -54,42 +54,43 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.htaccess` | Medium
 2 | File | `//etc/RT2870STA.dat` | High
-3 | File | `/admin/students/view_details.php` | High
-4 | File | `/cgi-bin/activate.cgi` | High
-5 | File | `/cgi-bin/koha/acqui/supplier.pl?op=enter` | High
-6 | File | `/etc/quagga` | Medium
-7 | File | `/export` | Low
-8 | File | `/forms/doLogin` | High
-9 | File | `/get_getnetworkconf.cgi` | High
-10 | File | `/index.php` | Medium
-11 | File | `/intrams_sams/manage_student.php` | High
-12 | File | `/librarian/bookdetails.php` | High
-13 | File | `/manage_sy.php` | High
-14 | File | `/messageboard/view.php` | High
-15 | File | `/nova/bin/detnet` | High
-16 | File | `/opensis/modules/users/Staff.php` | High
-17 | File | `/orrs/admin/reservations/view_details.php` | High
-18 | File | `/php_action/createUser.php` | High
-19 | File | `/plugins/servlet/gadgets/makeRequest` | High
-20 | File | `/REBOOTSYSTEM` | High
-21 | File | `/req_password_user.php` | High
-22 | File | `/services` | Medium
-23 | File | `/Setting/change_password_save` | High
-24 | File | `/stockmovment/stockmovment/delete/` | High
-25 | File | `/tmp` | Low
-26 | File | `/uncpath/` | Medium
-27 | File | `/Uploads` | Medium
-28 | File | `/userRpm/MediaServerFoldersCfgRpm.htm` | High
-29 | File | `/view/timetable_update_form.php` | High
-30 | File | `/WEB-INF/web.xml` | High
-31 | File | `/webconsole/APIController` | High
-32 | File | `/wp-admin/admin-ajax.php` | High
-33 | File | `account.asp` | Medium
-34 | File | `AccountStatus.jsp` | High
-35 | File | `addentry.php` | Medium
-36 | ... | ... | ...
+3 | File | `/admin/emp-profile-avatar.php` | High
+4 | File | `/admin/students/view_details.php` | High
+5 | File | `/api/swaggerui/static` | High
+6 | File | `/cgi-bin/activate.cgi` | High
+7 | File | `/cgi-bin/koha/acqui/supplier.pl?op=enter` | High
+8 | File | `/classes/Master.php` | High
+9 | File | `/etc/quagga` | Medium
+10 | File | `/export` | Low
+11 | File | `/forms/doLogin` | High
+12 | File | `/get_getnetworkconf.cgi` | High
+13 | File | `/index.php` | Medium
+14 | File | `/intrams_sams/manage_student.php` | High
+15 | File | `/librarian/bookdetails.php` | High
+16 | File | `/manage_sy.php` | High
+17 | File | `/messageboard/view.php` | High
+18 | File | `/nova/bin/detnet` | High
+19 | File | `/opensis/modules/users/Staff.php` | High
+20 | File | `/orrs/admin/reservations/view_details.php` | High
+21 | File | `/php_action/createUser.php` | High
+22 | File | `/plugins/servlet/gadgets/makeRequest` | High
+23 | File | `/REBOOTSYSTEM` | High
+24 | File | `/req_password_user.php` | High
+25 | File | `/services` | Medium
+26 | File | `/Setting/change_password_save` | High
+27 | File | `/smsa/add_class_submit.php` | High
+28 | File | `/stockmovment/stockmovment/delete/` | High
+29 | File | `/tmp` | Low
+30 | File | `/uncpath/` | Medium
+31 | File | `/Uploads` | Medium
+32 | File | `/userRpm/MediaServerFoldersCfgRpm.htm` | High
+33 | File | `/view/timetable_update_form.php` | High
+34 | File | `/WEB-INF/web.xml` | High
+35 | File | `/webconsole/APIController` | High
+36 | File | `/wp-admin/admin-ajax.php` | High
+37 | ... | ... | ...
 
-There are 311 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 321 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

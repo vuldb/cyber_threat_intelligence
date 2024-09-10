@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 12 more country items available. Please use our online service to access the data.
+There are 14 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -22,11 +22,11 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [2.56.59.45](https://vuldb.com/?ip.2.56.59.45) | - | - | High
-2 | [104.129.12.141](https://vuldb.com/?ip.104.129.12.141) | 104.129.12.141.static.quadranet.com | - | High
-3 | [154.82.110.5](https://vuldb.com/?ip.154.82.110.5) | - | - | High
+2 | [45.61.184.84](https://vuldb.com/?ip.45.61.184.84) | - | - | High
+3 | [104.129.12.141](https://vuldb.com/?ip.104.129.12.141) | 104.129.12.141.static.quadranet.com | - | High
 4 | ... | ... | ... | ...
 
-There are 3 more IOC items available. Please use our online service to access the data.
+There are 4 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -38,9 +38,10 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80, CWE-85 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -49,53 +50,45 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/api/admin/system/store/order/list` | High
-3 | File | `/cgi-bin/wapopen` | High
-4 | File | `/csms/?page=contact_us` | High
-5 | File | `/etc/ajenti/config.yml` | High
-6 | File | `/forum/away.php` | High
-7 | File | `/goform/telnet` | High
-8 | File | `/modules/profile/index.php` | High
-9 | File | `/rom-0` | Low
-10 | File | `/tmp/phpglibccheck` | High
-11 | File | `/uncpath/` | Medium
-12 | File | `/upload` | Low
-13 | File | `/var/tmp/sess_*` | High
-14 | File | `action.php` | Medium
-15 | File | `actionphp/download.File.php` | High
-16 | File | `add_comment.php` | High
-17 | File | `admin/admin.php` | High
-18 | File | `admin/content.php` | High
-19 | File | `admin/index.php?id=users/action=edit/user_id=1` | High
-20 | File | `admin/memberviewdetails.php` | High
-21 | File | `admin_gallery.php3` | High
-22 | File | `affich.php` | Medium
-23 | File | `agent/Core/Controller/SendRequest.cpp` | High
-24 | File | `ajax/telemetry.php` | High
-25 | File | `akeyActivationLogin.do` | High
-26 | File | `album_portal.php` | High
-27 | File | `apache-auth.conf` | High
-28 | File | `askapache-firefox-adsense.php` | High
-29 | File | `attachment.cgi` | High
-30 | File | `blueprints/sections/edit/1` | High
-31 | File | `boaform/admin/formPing` | High
-32 | File | `books.php` | Medium
-33 | File | `cart_add.php` | Medium
-34 | File | `CFS.c` | Low
-35 | File | `cgi-bin/gnudip.cgi` | High
-36 | File | `checktransferstatus.php` | High
-37 | File | `checkuser.php` | High
-38 | File | `class.SystemAction.php` | High
-39 | File | `clientarea.php` | High
-40 | File | `cmdmon.c` | Medium
-41 | File | `collectivite.class.php` | High
-42 | File | `com_android_bluetooth_btservice_AdapterService.cpp` | High
-43 | File | `confirm.php` | Medium
-44 | File | `contact` | Low
-45 | File | `control.c` | Medium
-46 | ... | ... | ...
+2 | File | `/admin/pages/` | High
+3 | File | `/admin/reg.php` | High
+4 | File | `/admins` | Low
+5 | File | `/ajax/getBasicInfo.php` | High
+6 | File | `/api/admin/system/store/order/list` | High
+7 | File | `/cgi-bin/cstecgi.cgi` | High
+8 | File | `/cgi-bin/wapopen` | High
+9 | File | `/cgi-bin/wlogin.cgi` | High
+10 | File | `/clientdetails/admin/regester.php` | High
+11 | File | `/company/store` | High
+12 | File | `/csms/?page=contact_us` | High
+13 | File | `/etc/ajenti/config.yml` | High
+14 | File | `/etc/passwd` | Medium
+15 | File | `/farm/product.php` | High
+16 | File | `/forum/away.php` | High
+17 | File | `/goform/telnet` | High
+18 | File | `/modules/profile/index.php` | High
+19 | File | `/preview.php` | Medium
+20 | File | `/ptippage.cgi` | High
+21 | File | `/rom-0` | Low
+22 | File | `/src/chatbotapp/chatWindow.java` | High
+23 | File | `/start-apply.html` | High
+24 | File | `/tmp/out` | Medium
+25 | File | `/tmp/phpglibccheck` | High
+26 | File | `/uncpath/` | Medium
+27 | File | `/upload` | Low
+28 | File | `/var/tmp/sess_*` | High
+29 | File | `action.php` | Medium
+30 | File | `actionphp/download.File.php` | High
+31 | File | `add_comment.php` | High
+32 | File | `admin/admin.php` | High
+33 | File | `admin/content.php` | High
+34 | File | `admin/index.php?id=users/action=edit/user_id=1` | High
+35 | File | `admin_gallery.php3` | High
+36 | File | `affich.php` | Medium
+37 | File | `agent/Core/Controller/SendRequest.cpp` | High
+38 | ... | ... | ...
 
-There are 397 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 331 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -105,6 +98,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://bazaar.abuse.ch/sample/93baa3abd9795be2beaa8cacaeb26041882d4f1738ab70b9c703cc674a2117de/
 * https://bazaar.abuse.ch/sample/aa7807e6f0b7a0a5bb859b302b9eb2604040f5f4a84414ea1baa93b377b42ca8/
 * https://blog.netlab.360.com/ten-families-of-malicious-samples-are-spreading-using-the-log4j2-vulnerability-now/
+* https://threatfox.abuse.ch
 
 ## Literature
 

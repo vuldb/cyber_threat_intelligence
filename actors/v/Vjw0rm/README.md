@@ -45,7 +45,7 @@ ID | IP address | Hostname | Campaign | Confidence
 22 | [45.81.233.69](https://vuldb.com/?ip.45.81.233.69) | 45.81.233.69.mc-host24.de | - | High
 23 | ... | ... | ... | ...
 
-There are 89 more IOC items available. Please use our online service to access the data.
+There are 90 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -82,16 +82,18 @@ ID | Type | Indicator | Confidence
 13 | File | `/forum/away.php` | High
 14 | File | `/get_getnetworkconf.cgi` | High
 15 | File | `/goform/setmac` | High
-16 | File | `/index.php?p=admin/actions/users/send-password-reset-email` | High
-17 | File | `/integrations.json` | High
-18 | File | `/lists/admin/` | High
-19 | File | `/oauth/idp/.well-known/openid-configuration` | High
-20 | File | `/phppath/php` | Medium
-21 | File | `/project/tasks/list` | High
-22 | File | `/services/details.asp` | High
-23 | ... | ... | ...
+16 | File | `/goform/WifiExtraSet` | High
+17 | File | `/index.php?app=main&inc=feature_firewall&op=firewall_list` | High
+18 | File | `/index.php?p=admin/actions/users/send-password-reset-email` | High
+19 | File | `/integrations.json` | High
+20 | File | `/lists/admin/` | High
+21 | File | `/oauth/idp/.well-known/openid-configuration` | High
+22 | File | `/phppath/php` | Medium
+23 | File | `/project/tasks/list` | High
+24 | File | `/services/details.asp` | High
+25 | ... | ... | ...
 
-There are 190 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 212 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -65,47 +65,48 @@ ID | Type | Indicator | Confidence
 12 | File | `/controller/Index.php` | High
 13 | File | `/etc/master.passwd` | High
 14 | File | `/etc/passwd` | Medium
-15 | File | `/goform/WifiBasicSet` | High
-16 | File | `/inxedu/demo_inxedu_open/src/main/resources/mybatis/inxedu/website/WebsiteImagesMapper.xml` | High
-17 | File | `/iwgallery/pictures/details.asp` | High
-18 | File | `/login.php` | Medium
-19 | File | `/medianet/mail.aspx` | High
-20 | File | `/news-portal-script/information.php` | High
-21 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-22 | File | `/pages/faculty_sched.php` | High
-23 | File | `/php_action/createProduct.php` | High
-24 | File | `/reviewer/system/system/admins/manage/users/user-update.php` | High
-25 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-26 | File | `/secure/admin/RestoreDefaults.jspa` | High
-27 | File | `/showfile.php` | High
-28 | File | `/textpattern/index.php` | High
-29 | File | `/wmiwizard.jsp` | High
-30 | File | `/wp-admin/options-general.php` | High
-31 | File | `account.asp` | Medium
-32 | File | `accounts/inc/include.php` | High
-33 | File | `acrotxt.php` | Medium
-34 | File | `addpost_newpoll.php` | High
-35 | File | `admin.color.php` | High
-36 | File | `admin.cropcanvas.php` | High
-37 | File | `admin.joomlaradiov5.php` | High
-38 | File | `admin.php` | Medium
-39 | File | `admin.php/index/upload because app/common/service/UploadService.php` | High
-40 | File | `admin/?page=user/manage_user` | High
-41 | File | `admin/addons/archive/archive.php` | High
-42 | File | `admin/handlers.php` | High
-43 | File | `admin/page.php` | High
-44 | File | `admin/versions.html` | High
-45 | File | `adminAttachments.php` | High
-46 | File | `adminBoards.php` | High
-47 | File | `admincp/auth/secure.php` | High
-48 | File | `admindocumentworker.jsp` | High
-49 | File | `administrator/components/com_media/helpers/media.php` | High
-50 | File | `adminSmileys.php` | High
-51 | File | `akocomments.php` | High
-52 | File | `album_portal.php` | High
-53 | ... | ... | ...
+15 | File | `/gasmark/editbrand.php` | High
+16 | File | `/goform/WifiBasicSet` | High
+17 | File | `/inxedu/demo_inxedu_open/src/main/resources/mybatis/inxedu/website/WebsiteImagesMapper.xml` | High
+18 | File | `/iwgallery/pictures/details.asp` | High
+19 | File | `/login.php` | Medium
+20 | File | `/medianet/mail.aspx` | High
+21 | File | `/news-portal-script/information.php` | High
+22 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+23 | File | `/pages/faculty_sched.php` | High
+24 | File | `/php_action/createProduct.php` | High
+25 | File | `/reviewer/system/system/admins/manage/users/user-update.php` | High
+26 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+27 | File | `/secure/admin/RestoreDefaults.jspa` | High
+28 | File | `/showfile.php` | High
+29 | File | `/textpattern/index.php` | High
+30 | File | `/wmiwizard.jsp` | High
+31 | File | `/wp-admin/options-general.php` | High
+32 | File | `account.asp` | Medium
+33 | File | `accounts/inc/include.php` | High
+34 | File | `acrotxt.php` | Medium
+35 | File | `addpost_newpoll.php` | High
+36 | File | `admin.color.php` | High
+37 | File | `admin.cropcanvas.php` | High
+38 | File | `admin.joomlaradiov5.php` | High
+39 | File | `admin.php` | Medium
+40 | File | `admin.php/index/upload because app/common/service/UploadService.php` | High
+41 | File | `admin/?page=user/manage_user` | High
+42 | File | `admin/addons/archive/archive.php` | High
+43 | File | `admin/handlers.php` | High
+44 | File | `admin/page.php` | High
+45 | File | `admin/versions.html` | High
+46 | File | `adminAttachments.php` | High
+47 | File | `adminBoards.php` | High
+48 | File | `admincp/auth/secure.php` | High
+49 | File | `admindocumentworker.jsp` | High
+50 | File | `administrator/components/com_media/helpers/media.php` | High
+51 | File | `adminSmileys.php` | High
+52 | File | `akocomments.php` | High
+53 | File | `album_portal.php` | High
+54 | ... | ... | ...
 
-There are 466 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 468 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

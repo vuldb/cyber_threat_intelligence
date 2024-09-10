@@ -62,23 +62,23 @@ ID | Type | Indicator | Confidence
 1 | File | `/+CSCOE+/logon.html` | High
 2 | File | `/api/RecordingList/DownloadRecord?file=` | High
 3 | File | `/apply.cgi` | Medium
-4 | File | `/etc/openstack-dashboard/local_settings` | High
-5 | File | `/get_getnetworkconf.cgi` | High
-6 | File | `/goform/RgDhcp` | High
-7 | File | `/goform/RGFirewallEL` | High
-8 | File | `/horde/util/go.php` | High
-9 | File | `/php/ping.php` | High
-10 | File | `/rapi/read_url` | High
-11 | File | `/scripts/unlock_tasks.php` | High
-12 | File | `/SysInfo1.htm` | High
-13 | File | `/sysinfo_json.cgi` | High
-14 | File | `/system/dictData/loadDictItem` | High
-15 | File | `/system/user/modules/mod_users/controller.php` | High
-16 | File | `/uncpath/` | Medium
-17 | File | `/usr/bin/pkexec` | High
+4 | File | `/cgi-bin/cstecgi.cgi` | High
+5 | File | `/etc/openstack-dashboard/local_settings` | High
+6 | File | `/get_getnetworkconf.cgi` | High
+7 | File | `/goform/RgDhcp` | High
+8 | File | `/goform/RGFirewallEL` | High
+9 | File | `/horde/util/go.php` | High
+10 | File | `/php/ping.php` | High
+11 | File | `/rapi/read_url` | High
+12 | File | `/scripts/unlock_tasks.php` | High
+13 | File | `/SysInfo1.htm` | High
+14 | File | `/sysinfo_json.cgi` | High
+15 | File | `/system/dictData/loadDictItem` | High
+16 | File | `/system/user/modules/mod_users/controller.php` | High
+17 | File | `/uncpath/` | Medium
 18 | ... | ... | ...
 
-There are 142 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 146 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

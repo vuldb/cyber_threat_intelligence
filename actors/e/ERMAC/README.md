@@ -8,9 +8,9 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with ERMAC:
 
+* [CN](https://vuldb.com/?country.cn)
 * [RU](https://vuldb.com/?country.ru)
 * [PL](https://vuldb.com/?country.pl)
-* [CN](https://vuldb.com/?country.cn)
 * ...
 
 There are 9 more country items available. Please use our online service to access the data.
@@ -89,20 +89,27 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-2 | File | `/catalog/all-products` | High
-3 | File | `/changePassword` | High
-4 | File | `/forum/away.php` | High
-5 | File | `/goform/addIpMacBind` | High
-6 | File | `/goform/DelDhcpRule` | High
-7 | File | `/goform/delIpMacBind` | High
-8 | File | `/goform/DelPortMapping` | High
-9 | File | `/goform/modifyDhcpRule` | High
-10 | File | `/goform/modifyIpMacBind` | High
-11 | File | `/goform/setBlackRule` | High
-12 | ... | ... | ...
+1 | File | `/admin/add_ikev2.php` | High
+2 | File | `/admin/index2.html` | High
+3 | File | `/admin/list_ipAddressPolicy.php` | High
+4 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+5 | File | `/catalog/all-products` | High
+6 | File | `/cgi-bin/cstecgi.cgi` | High
+7 | File | `/changePassword` | High
+8 | File | `/endpoint/add-user.php` | High
+9 | File | `/etc/passwd` | Medium
+10 | File | `/etc/postfix/sender_login` | High
+11 | File | `/forum/away.php` | High
+12 | File | `/goform/addIpMacBind` | High
+13 | File | `/goform/DelDhcpRule` | High
+14 | File | `/goform/delIpMacBind` | High
+15 | File | `/goform/DelPortMapping` | High
+16 | File | `/goform/modifyIpMacBind` | High
+17 | File | `/goform/SetDDNSCfg` | High
+18 | File | `/goform/SetLEDCfg` | High
+19 | ... | ... | ...
 
-There are 97 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 157 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

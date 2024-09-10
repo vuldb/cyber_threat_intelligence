@@ -84,23 +84,24 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin/api/theme-edit/` | High
 3 | File | `/Admin/login.php` | High
 4 | File | `/admin/maintenance/view_designation.php` | High
-5 | File | `/backend/register.php` | High
-6 | File | `/category.php` | High
-7 | File | `/category_view.php` | High
-8 | File | `/cgi-bin/nas_sharing.cgi` | High
-9 | File | `/control/register_case.php` | High
-10 | File | `/csms/admin/?page=user/list` | High
-11 | File | `/employeeview.php` | High
-12 | File | `/forum/away.php` | High
-13 | File | `/manage_sy.php` | High
-14 | File | `/ndmComponents.js` | High
-15 | File | `/php-fusion/infusions/shoutbox_panel/shoutbox_archive.php` | High
-16 | File | `/register.php` | High
-17 | File | `/spip.php` | Medium
-18 | File | `/tableedit.php#page=editprice` | High
-19 | ... | ... | ...
+5 | File | `/admin/manage_complaint.php` | High
+6 | File | `/backend/register.php` | High
+7 | File | `/category.php` | High
+8 | File | `/category_view.php` | High
+9 | File | `/cgi-bin/nas_sharing.cgi` | High
+10 | File | `/classes/Master.php` | High
+11 | File | `/classes/Master.php?f=delete_category` | High
+12 | File | `/classes/Users.php?f=save` | High
+13 | File | `/control/register_case.php` | High
+14 | File | `/csms/admin/?page=user/list` | High
+15 | File | `/employeeview.php` | High
+16 | File | `/forum/away.php` | High
+17 | File | `/manage_sy.php` | High
+18 | File | `/ndmComponents.js` | High
+19 | File | `/php-fusion/infusions/shoutbox_panel/shoutbox_archive.php` | High
+20 | ... | ... | ...
 
-There are 152 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 161 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

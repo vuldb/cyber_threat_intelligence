@@ -74,11 +74,11 @@ ID | Type | Indicator | Confidence
 2 | File | `/backend/register.php` | High
 3 | File | `/cgi-bin/gui.cgi` | High
 4 | File | `/cgi-bin/nas_sharing.cgi` | High
-5 | File | `/control/register_case.php` | High
-6 | File | `/forum/away.php` | High
+5 | File | `/classes/Master.php` | High
+6 | File | `/control/register_case.php` | High
 7 | ... | ... | ...
 
-There are 48 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 50 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

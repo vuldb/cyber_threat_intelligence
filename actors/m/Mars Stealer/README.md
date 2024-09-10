@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [DE](https://vuldb.com/?country.de)
 * ...
 
-There are 16 more country items available. Please use our online service to access the data.
+There are 18 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -37,7 +37,7 @@ ID | IP address | Hostname | Campaign | Confidence
 14 | [62.204.41.70](https://vuldb.com/?ip.62.204.41.70) | - | - | High
 15 | ... | ... | ... | ...
 
-There are 55 more IOC items available. Please use our online service to access the data.
+There are 57 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -63,58 +63,62 @@ ID | Type | Indicator | Confidence
 1 | File | `/?g=log_import_save` | High
 2 | File | `/ad-list` | Medium
 3 | File | `/Admin/add-student.php` | High
-4 | File | `/admin/api/theme-edit/` | High
-5 | File | `/admin/client_user` | High
-6 | File | `/admin/communitymanagement.php` | High
-7 | File | `/admin/court-type` | High
-8 | File | `/admin/generalsettings.php` | High
-9 | File | `/admin/index.php?page=categories` | High
-10 | File | `/admin/inquiries/view_inquiry.php` | High
-11 | File | `/admin/login.php` | High
-12 | File | `/admin/payment.php` | High
-13 | File | `/admin/transactions/update_status.php` | High
-14 | File | `/api/controllers/admin/app/ComboController.php` | High
-15 | File | `/api/user/password/sent-reset-email` | High
-16 | File | `/application/plugins/controller/Upload.php` | High
-17 | File | `/aqpg/users/login.php` | High
-18 | File | `/bsms_ci/index.php/user/edit_user/` | High
-19 | File | `/cgi-bin/cstecgi.cgi` | High
-20 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-21 | File | `/cgi-bin/nas_sharing.cgi` | High
-22 | File | `/cgi-bin/wlogin.cgi` | High
-23 | File | `/classes/Master.php?f=save_inquiry` | High
-24 | File | `/control/register_case.php` | High
-25 | File | `/cstecgi.cgi` | Medium
-26 | File | `/dashboard/add-service.php` | High
-27 | File | `/dashboard/updatelogo.php` | High
-28 | File | `/Default/Bd` | Medium
-29 | File | `/download` | Medium
-30 | File | `/event/admin/?page=user/list` | High
-31 | File | `/face-recognition-php/facepay-master/camera.php` | High
-32 | File | `/filemanager/upload/drop` | High
-33 | File | `/forum/away.php` | High
-34 | File | `/forum/PostPrivateMessage` | High
-35 | File | `/getcfg.php` | Medium
-36 | File | `/goform/aspForm` | High
-37 | File | `/goform/RouteStatic` | High
-38 | File | `/goform/SetOnlineDevName` | High
-39 | File | `/home/masterConsole` | High
-40 | File | `/hrm/employeeadd.php` | High
-41 | File | `/hrm/employeeview.php` | High
-42 | File | `/htdocs/cgibin` | High
-43 | File | `/index.php` | Medium
-44 | File | `/labvantage/rc?command=page&page=SampleHistoricalList&_iframename=list&__crc=crc_1701669816260` | High
-45 | File | `/lists/index.php` | High
-46 | File | `/login.php` | Medium
-47 | File | `/manage_laundry.php` | High
-48 | File | `/mifs/c/i/reg/reg.html` | High
-49 | File | `/model/update_subject.php` | High
-50 | File | `/netflow/jspui/editProfile.jsp` | High
-51 | File | `/portmap` | Medium
-52 | File | `/register.php` | High
-53 | ... | ... | ...
+4 | File | `/admin/adduser.php` | High
+5 | File | `/admin/ajax.php?action=login` | High
+6 | File | `/admin/api/theme-edit/` | High
+7 | File | `/admin/client_user` | High
+8 | File | `/admin/communitymanagement.php` | High
+9 | File | `/admin/court-type` | High
+10 | File | `/admin/generalsettings.php` | High
+11 | File | `/admin/index.php?page=categories` | High
+12 | File | `/admin/inquiries/view_inquiry.php` | High
+13 | File | `/admin/login.php` | High
+14 | File | `/admin/payment.php` | High
+15 | File | `/admin/transactions/update_status.php` | High
+16 | File | `/ajax.php?action=login` | High
+17 | File | `/ajax/checkin.php` | High
+18 | File | `/api/controllers/admin/app/ComboController.php` | High
+19 | File | `/api/user/password/sent-reset-email` | High
+20 | File | `/application/plugins/controller/Upload.php` | High
+21 | File | `/aqpg/users/login.php` | High
+22 | File | `/bsms_ci/index.php/user/edit_user/` | High
+23 | File | `/cgi-bin/cstecgi.cgi` | High
+24 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+25 | File | `/cgi-bin/nas_sharing.cgi` | High
+26 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+27 | File | `/cgi-bin/wlogin.cgi` | High
+28 | File | `/classes/Master.php?f=save_inquiry` | High
+29 | File | `/control/register_case.php` | High
+30 | File | `/cstecgi.cgi` | Medium
+31 | File | `/dashboard/add-service.php` | High
+32 | File | `/dashboard/updatelogo.php` | High
+33 | File | `/Default/Bd` | Medium
+34 | File | `/download` | Medium
+35 | File | `/event/admin/?page=user/list` | High
+36 | File | `/face-recognition-php/facepay-master/camera.php` | High
+37 | File | `/filemanager/upload/drop` | High
+38 | File | `/forum/away.php` | High
+39 | File | `/forum/PostPrivateMessage` | High
+40 | File | `/getcfg.php` | Medium
+41 | File | `/goform/aspForm` | High
+42 | File | `/goform/RouteStatic` | High
+43 | File | `/goform/SetOnlineDevName` | High
+44 | File | `/home/masterConsole` | High
+45 | File | `/hrm/employeeadd.php` | High
+46 | File | `/hrm/employeeview.php` | High
+47 | File | `/htdocs/cgibin` | High
+48 | File | `/index.php` | Medium
+49 | File | `/labvantage/rc?command=page&page=SampleHistoricalList&_iframename=list&__crc=crc_1701669816260` | High
+50 | File | `/lists/index.php` | High
+51 | File | `/login.php` | Medium
+52 | File | `/manage_laundry.php` | High
+53 | File | `/mifs/c/i/reg/reg.html` | High
+54 | File | `/model/update_subject.php` | High
+55 | File | `/netflow/jspui/editProfile.jsp` | High
+56 | File | `/portmap` | Medium
+57 | ... | ... | ...
 
-There are 465 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 496 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -129,6 +133,8 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://tracker.viriback.com/index.php?q=91.92.246.39
 * https://tracker.viriback.com/index.php?q=91.92.250.149
 * https://tracker.viriback.com/index.php?q=91.92.254.204
+* https://tracker.viriback.com/index.php?q=94.232.249.206
+* https://tracker.viriback.com/index.php?q=95.164.47.211
 * https://tracker.viriback.com/index.php?q=152.89.218.27
 * https://tracker.viriback.com/index.php?q=152.89.218.84
 * https://tracker.viriback.com/index.php?q=152.89.218.97

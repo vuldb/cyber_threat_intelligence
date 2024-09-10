@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Serbia Unknown:
 
-* [PL](https://vuldb.com/?country.pl)
-* [RU](https://vuldb.com/?country.ru)
 * [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
+* [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 10 more country items available. Please use our online service to access the data.
+There are 16 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -221,12 +221,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Path Traversal | High
-2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059 | CWE-94 | Argument Injection | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-29, CWE-425 | Path Traversal | High
+2 | T1055 | CWE-74, CWE-643 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -234,24 +235,45 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/Admin/changepassword.php` | High
-2 | File | `/admin/general-setting` | High
-3 | File | `/admin/service` | High
-4 | File | `/catalog/all-products` | High
-5 | File | `/changePassword` | High
-6 | File | `/forum/away.php` | High
-7 | File | `/goform/addIpMacBind` | High
-8 | File | `/goform/DelDhcpRule` | High
-9 | File | `/goform/delIpMacBind` | High
-10 | File | `/goform/DelPortMapping` | High
-11 | File | `/goform/modifyDhcpRule` | High
-12 | File | `/goform/modifyIpMacBind` | High
-13 | File | `/goform/setBlackRule` | High
-14 | File | `/goform/SetDDNSCfg` | High
-15 | File | `/goform/SetLEDCfg` | High
-16 | ... | ... | ...
+1 | File | `/+CSCOE+/logon.html` | High
+2 | File | `/.pomerium` | Medium
+3 | File | `/admin/add_ikev2.php` | High
+4 | File | `/admin/ajax.php?action=delete_user` | High
+5 | File | `/admin/category_save.php` | High
+6 | File | `/Admin/changepassword.php` | High
+7 | File | `/admin/emp-profile-avatar.php` | High
+8 | File | `/admin/general-setting` | High
+9 | File | `/admin/inquiries/view_inquiry.php` | High
+10 | File | `/admin/list_ipAddressPolicy.php` | High
+11 | File | `/admin/manage_model.php` | High
+12 | File | `/admin/manage_user.php` | High
+13 | File | `/admin/projects/{projectname}/skills/{skillname}/video` | High
+14 | File | `/admin/service` | High
+15 | File | `/admin/subject.php` | High
+16 | File | `/api/v1/custom_component` | High
+17 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+18 | File | `/catalog/all-products` | High
+19 | File | `/cgi-bin/cstecgi.cgi` | High
+20 | File | `/cgi-bin/nas_sharing.cgi` | High
+21 | File | `/classes/Master.php` | High
+22 | File | `/classes/Master.php?f=delete_category` | High
+23 | File | `/classes/Master.php?f=save_medicine` | High
+24 | File | `/classes/Users.php?f=delete` | High
+25 | File | `/classes/Users.php?f=save` | High
+26 | File | `/control/register_case.php` | High
+27 | File | `/DXR.axd` | Medium
+28 | File | `/edit-subject.php` | High
+29 | File | `/endpoint/add-user.php` | High
+30 | File | `/etc/postfix/sender_login` | High
+31 | File | `/etc/shadow` | Medium
+32 | File | `/forum/away.php` | High
+33 | File | `/goform/SetIpMacBind` | High
+34 | File | `/goform/SetSysTimeCfg` | High
+35 | File | `/goform/WifiExtraSet` | High
+36 | File | `/guestbook` | Medium
+37 | ... | ... | ...
 
-There are 133 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 318 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

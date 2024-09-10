@@ -49,7 +49,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 10 more TTP items available. Please use our online service to access the data.
+There are 11 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -75,30 +75,31 @@ ID | Type | Indicator | Confidence
 16 | File | `/admin/lab.php` | High
 17 | File | `/admin/login.php` | High
 18 | File | `/admin/makehtml_freelist_action.php` | High
-19 | File | `/admin/patient.php` | High
-20 | File | `/admin/return_add.php` | High
-21 | File | `/admin/sys_sql_query.php` | High
-22 | File | `/admin/user/controller.php` | High
-23 | File | `/admin/user/index.php` | High
-24 | File | `/admin/vacancy/controller.php` | High
-25 | File | `/admin/vacancy/index.php` | High
-26 | File | `/admin/vote_edit.php` | High
-27 | File | `/adminPage/conf/reload` | High
-28 | File | `/adminPage/conf/saveCmd` | High
-29 | File | `/adminPage/main/upload` | High
-30 | File | `/adminPage/www/addOver` | High
-31 | File | `/adminpanel/admin/facebox_modal/updateCourse.php` | High
-32 | File | `/adminpanel/admin/facebox_modal/updateExaminee.php` | High
-33 | File | `/adminpanel/admin/query/loginExe.php` | High
-34 | File | `/api.php` | Medium
-35 | File | `/apply/index.php` | High
-36 | File | `/apps/system/api/user.go` | High
-37 | File | `/apps/system/router/upload.go` | High
-38 | File | `/apps/system/services/role_menu.go` | High
+19 | File | `/admin/mod_room/controller.php?action=add` | High
+20 | File | `/admin/patient.php` | High
+21 | File | `/admin/return_add.php` | High
+22 | File | `/admin/sys_sql_query.php` | High
+23 | File | `/admin/user/controller.php` | High
+24 | File | `/admin/user/index.php` | High
+25 | File | `/admin/vacancy/controller.php` | High
+26 | File | `/admin/vacancy/index.php` | High
+27 | File | `/admin/vote_edit.php` | High
+28 | File | `/adminPage/conf/reload` | High
+29 | File | `/adminPage/conf/saveCmd` | High
+30 | File | `/adminPage/main/upload` | High
+31 | File | `/adminPage/www/addOver` | High
+32 | File | `/adminpanel/admin/facebox_modal/updateCourse.php` | High
+33 | File | `/adminpanel/admin/facebox_modal/updateExaminee.php` | High
+34 | File | `/adminpanel/admin/query/loginExe.php` | High
+35 | File | `/api.php` | Medium
+36 | File | `/apply/index.php` | High
+37 | File | `/apps/system/api/user.go` | High
+38 | File | `/apps/system/router/upload.go` | High
 39 | File | `/boaform/wlan_basic_set.cgi` | High
-40 | ... | ... | ...
+40 | File | `/cgi-bin/cstecgi.cgi` | High
+41 | ... | ... | ...
 
-There are 347 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 352 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

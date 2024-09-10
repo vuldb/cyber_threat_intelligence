@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [IR](https://vuldb.com/?country.ir)
 * ...
 
-There are 21 more country items available. Please use our online service to access the data.
+There are 22 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -53,44 +53,45 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `%PROGRAMFILES(X86)%\TSplus\UserDesktop\themes.` | High
-2 | File | `.travis.yml` | Medium
-3 | File | `/admin-api/upload_image` | High
-4 | File | `/admin/maintenance/view_designation.php` | High
+2 | File | `/admin-api/upload_image` | High
+3 | File | `/admin/maintenance/view_designation.php` | High
+4 | File | `/admin/quizquestion.php` | High
 5 | File | `/admin/search-appointment.php` | High
 6 | File | `/admin/subnets/ripe-query.php` | High
 7 | File | `/apply.cgi` | Medium
 8 | File | `/cgi-bin/cstecgi.cgi` | High
-9 | File | `/classes/Users.php` | High
-10 | File | `/config/php.ini` | High
-11 | File | `/core/conditions/AbstractWrapper.java` | High
-12 | File | `/dcim/sites/add/` | High
-13 | File | `/debug/pprof` | Medium
-14 | File | `/devinfo` | Medium
-15 | File | `/ecrire` | Low
-16 | File | `/export` | Low
-17 | File | `/file?action=download&file` | High
-18 | File | `/forum/away.php` | High
-19 | File | `/goform/openSchedWifi` | High
-20 | File | `/hardware` | Medium
-21 | File | `/importexport.php` | High
-22 | File | `/include/makecvs.php` | High
-23 | File | `/index.php` | Medium
-24 | File | `/librarian/bookdetails.php` | High
-25 | File | `/mfsNotice/page` | High
-26 | File | `/MicroStrategyWS/happyaxis.jsp` | High
-27 | File | `/monitoring` | Medium
-28 | File | `/myprofile.php` | High
-29 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-30 | File | `/out.php` | Medium
-31 | File | `/owa/auth/logon.aspx` | High
-32 | File | `/php/busyscreenshotpush.php` | High
-33 | File | `/plugin/LiveChat/getChat.json.php` | High
-34 | File | `/plugins/servlet/audit/resource` | High
-35 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
-36 | File | `/products/view_product.php` | High
-37 | ... | ... | ...
+9 | File | `/classes/Master.php` | High
+10 | File | `/classes/Users.php` | High
+11 | File | `/config/php.ini` | High
+12 | File | `/core/conditions/AbstractWrapper.java` | High
+13 | File | `/dcim/sites/add/` | High
+14 | File | `/debug/pprof` | Medium
+15 | File | `/devinfo` | Medium
+16 | File | `/ecrire` | Low
+17 | File | `/export` | Low
+18 | File | `/file?action=download&file` | High
+19 | File | `/forum/away.php` | High
+20 | File | `/goform/openSchedWifi` | High
+21 | File | `/hardware` | Medium
+22 | File | `/importexport.php` | High
+23 | File | `/include/makecvs.php` | High
+24 | File | `/index.php` | Medium
+25 | File | `/librarian/bookdetails.php` | High
+26 | File | `/mfsNotice/page` | High
+27 | File | `/MicroStrategyWS/happyaxis.jsp` | High
+28 | File | `/monitoring` | Medium
+29 | File | `/myprofile.php` | High
+30 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+31 | File | `/out.php` | Medium
+32 | File | `/owa/auth/logon.aspx` | High
+33 | File | `/php/busyscreenshotpush.php` | High
+34 | File | `/plugin/LiveChat/getChat.json.php` | High
+35 | File | `/plugins/servlet/audit/resource` | High
+36 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
+37 | File | `/products/view_product.php` | High
+38 | ... | ... | ...
 
-There are 316 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 326 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

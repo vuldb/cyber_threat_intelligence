@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [PF](https://vuldb.com/?country.pf)
 * [US](https://vuldb.com/?country.us)
-* [AU](https://vuldb.com/?country.au)
+* [FR](https://vuldb.com/?country.fr)
 * ...
 
 There are 1 more country items available. Please use our online service to access the data.
@@ -43,7 +43,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059.007 | CWE-79 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 5 more TTP items available. Please use our online service to access the data.
+There are 6 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -56,7 +56,7 @@ ID | Type | Indicator | Confidence
 3 | File | `admin/downloadbackup.php` | High
 4 | ... | ... | ...
 
-There are 10 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 12 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -49,7 +49,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -60,63 +60,65 @@ ID | Type | Indicator | Confidence
 1 | File | `.cfm` | Low
 2 | File | `/+CSCOE+/logon.html` | High
 3 | File | `/.env` | Low
-4 | File | `/admin/cms_admin.php` | High
-5 | File | `/admin/delete_user.php` | High
-6 | File | `/admin/forgot-password.php` | High
-7 | File | `/admin/judge` | Medium
-8 | File | `/admin/maintenance/view_designation.php` | High
-9 | File | `/admin/wlmultipleap.asp` | High
-10 | File | `/api/baskets/{name}` | High
-11 | File | `/be/erpc.php` | Medium
-12 | File | `/billing/bill/edit/` | High
-13 | File | `/brand.php` | Medium
-14 | File | `/cas/logout` | Medium
-15 | File | `/category.php` | High
-16 | File | `/cgi-bin/` | Medium
-17 | File | `/classes/Master.php?f=delete_inquiry` | High
-18 | File | `/collection/all` | High
-19 | File | `/coreframe/app/member/admin/group.php` | High
-20 | File | `/Duty/AjaxHandle/UploadFloodPlanFileUpdate.ashx` | High
-21 | File | `/filemanager/php/connector.php` | High
-22 | File | `/filex/read-raw` | High
-23 | File | `/forum/away.php` | High
-24 | File | `/goform/L7Im` | Medium
-25 | File | `/hardware` | Medium
-26 | File | `/hospital_activities/birth/form` | High
-27 | File | `/hoteldruid/interconnessioni.php` | High
-28 | File | `/include/chart_generator.php` | High
-29 | File | `/index.php?page=member` | High
-30 | File | `/investigation/delete/` | High
-31 | File | `/labvantage/rc?command=file&file=WEB-OPAL/pagetypes/bulletins/sendbulletin.jsp` | High
-32 | File | `/login` | Low
-33 | File | `/login/index.php` | High
-34 | File | `/manager/ipconfig_new.php` | High
-35 | File | `/medical/inventories.php` | High
-36 | File | `/mgmt/tm/util/bash` | High
-37 | File | `/modules/projects/vw_files.php` | High
-38 | File | `/owa/auth/logon.aspx` | High
-39 | File | `/rest/api/2/user/picker` | High
-40 | File | `/school/model/get_events.php` | High
-41 | File | `/scripts/cpan_config` | High
-42 | File | `/search/index` | High
-43 | File | `/secserver` | Medium
-44 | File | `/secure/QueryComponent!Default.jspa` | High
-45 | File | `/spacecom/login.php` | High
-46 | File | `/spip.php` | Medium
-47 | File | `/src/admin/content_batchup_action.php` | High
-48 | File | `/uncpath/` | Medium
-49 | File | `/user/updatePwd` | High
-50 | File | `/view/networkConfig/vlan/vlan_add_commit.php` | High
-51 | File | `/wp-admin/admin-ajax.php` | High
-52 | File | `AbstractController.php` | High
-53 | File | `action.php` | Medium
-54 | File | `adclick.php` | Medium
-55 | File | `add-locker-form.php` | High
-56 | File | `addpost_newpoll.php` | High
-57 | File | `admin.cgi` | Medium
-58 | ... | ... | ...
+4 | File | `/add-students.php` | High
+5 | File | `/admin/cms_admin.php` | High
+6 | File | `/admin/delete_user.php` | High
+7 | File | `/admin/forgot-password.php` | High
+8 | File | `/admin/index2.html` | High
+9 | File | `/admin/judge` | Medium
+10 | File | `/admin/maintenance/view_designation.php` | High
+11 | File | `/admin/pages/list` | High
+12 | File | `/admin/wlmultipleap.asp` | High
+13 | File | `/api/baskets/{name}` | High
+14 | File | `/be/erpc.php` | Medium
+15 | File | `/billing/bill/edit/` | High
+16 | File | `/brand.php` | Medium
+17 | File | `/cas/logout` | Medium
+18 | File | `/category.php` | High
+19 | File | `/cgi-bin/` | Medium
+20 | File | `/classes/Master.php?f=delete_inquiry` | High
+21 | File | `/classes/Master.php?f=save_package` | High
+22 | File | `/collection/all` | High
+23 | File | `/coreframe/app/member/admin/group.php` | High
+24 | File | `/Duty/AjaxHandle/UploadFloodPlanFileUpdate.ashx` | High
+25 | File | `/filemanager/php/connector.php` | High
+26 | File | `/filex/read-raw` | High
+27 | File | `/forum/away.php` | High
+28 | File | `/goform/L7Im` | Medium
+29 | File | `/hardware` | Medium
+30 | File | `/hospital_activities/birth/form` | High
+31 | File | `/hoteldruid/interconnessioni.php` | High
+32 | File | `/include/chart_generator.php` | High
+33 | File | `/index.php?page=member` | High
+34 | File | `/investigation/delete/` | High
+35 | File | `/labvantage/rc?command=file&file=WEB-OPAL/pagetypes/bulletins/sendbulletin.jsp` | High
+36 | File | `/login` | Low
+37 | File | `/login/index.php` | High
+38 | File | `/manager/ipconfig_new.php` | High
+39 | File | `/medical/inventories.php` | High
+40 | File | `/mgmt/tm/util/bash` | High
+41 | File | `/modules/projects/vw_files.php` | High
+42 | File | `/owa/auth/logon.aspx` | High
+43 | File | `/rest/api/2/user/picker` | High
+44 | File | `/school/model/get_events.php` | High
+45 | File | `/scripts/cpan_config` | High
+46 | File | `/search/index` | High
+47 | File | `/secserver` | Medium
+48 | File | `/secure/QueryComponent!Default.jspa` | High
+49 | File | `/spacecom/login.php` | High
+50 | File | `/spip.php` | Medium
+51 | File | `/src/admin/content_batchup_action.php` | High
+52 | File | `/uncpath/` | Medium
+53 | File | `/user/updatePwd` | High
+54 | File | `/view/networkConfig/vlan/vlan_add_commit.php` | High
+55 | File | `/wp-admin/admin-ajax.php` | High
+56 | File | `AbstractController.php` | High
+57 | File | `action.php` | Medium
+58 | File | `adclick.php` | Medium
+59 | File | `add-locker-form.php` | High
+60 | ... | ... | ...
 
-There are 504 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 526 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -51,17 +51,18 @@ ID | Type | Indicator | Confidence
 2 | File | `/anony/mjpg.cgi` | High
 3 | File | `/assets/something/services/AppModule.class` | High
 4 | File | `/cgi-bin/wlogin.cgi` | High
-5 | File | `/classes/Users.php?f=delete` | High
-6 | File | `/control/register_case.php` | High
-7 | File | `/manage_sy.php` | High
-8 | File | `/ndmComponents.js` | High
-9 | File | `/oauth/idp/.well-known/openid-configuration` | High
-10 | File | `/owa/auth/logon.aspx` | High
-11 | File | `/student/bookdetails.php` | High
-12 | File | `/uncpath/` | Medium
-13 | ... | ... | ...
+5 | File | `/classes/Master.php` | High
+6 | File | `/classes/Users.php?f=delete` | High
+7 | File | `/control/register_case.php` | High
+8 | File | `/manage_sy.php` | High
+9 | File | `/ndmComponents.js` | High
+10 | File | `/oauth/idp/.well-known/openid-configuration` | High
+11 | File | `/owa/auth/logon.aspx` | High
+12 | File | `/request.php` | Medium
+13 | File | `/student/bookdetails.php` | High
+14 | ... | ... | ...
 
-There are 104 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 106 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

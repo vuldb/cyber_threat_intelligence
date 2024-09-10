@@ -78,7 +78,7 @@ ID | Type | Indicator | Confidence
 21 | File | `/pages/processlogin.php` | High
 22 | ... | ... | ...
 
-There are 180 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 181 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

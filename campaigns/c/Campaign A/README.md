@@ -60,35 +60,36 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/index.php?page=manage_product` | High
 2 | File | `/admin/maintenance/view_designation.php` | High
-3 | File | `/cgi-bin/nas_sharing.cgi` | High
-4 | File | `/check_availability.php` | High
-5 | File | `/forum/away.php` | High
-6 | File | `/general/email/outbox/delete.php` | High
-7 | File | `/manage_sy.php` | High
-8 | File | `/oauth/idp/.well-known/openid-configuration` | High
-9 | File | `/resourceNode/jdbcResourceEdit.jsf` | High
-10 | File | `/resourceNode/resources.jsf` | High
-11 | File | `/spip.php` | Medium
-12 | File | `/view/student_exam_mark_insert_form1.php` | High
-13 | File | `3.6.cpj` | Low
-14 | File | `404.php` | Low
-15 | File | `adclick.php` | Medium
-16 | File | `add-testimonial.php` | High
-17 | File | `admin.asp` | Medium
-18 | File | `admin.aspx` | Medium
-19 | File | `admin.php` | Medium
-20 | File | `admin/conf_users_edit.php` | High
-21 | File | `admin/member_details.php` | High
-22 | File | `admin_chatconfig.php` | High
-23 | File | `admin_iplog.php` | High
-24 | File | `ajaxp.php` | Medium
-25 | File | `alphabet.php` | Medium
-26 | File | `app/controllers/oauth.js` | High
-27 | File | `appointment-bwdates-reports-details.php` | High
-28 | File | `article2/comments.inc.php` | High
-29 | ... | ... | ...
+3 | File | `/apply/index.php` | High
+4 | File | `/cgi-bin/nas_sharing.cgi` | High
+5 | File | `/check_availability.php` | High
+6 | File | `/forum/away.php` | High
+7 | File | `/general/email/outbox/delete.php` | High
+8 | File | `/manage_sy.php` | High
+9 | File | `/oauth/idp/.well-known/openid-configuration` | High
+10 | File | `/resourceNode/jdbcResourceEdit.jsf` | High
+11 | File | `/resourceNode/resources.jsf` | High
+12 | File | `/Script/admin/core/update_policy` | High
+13 | File | `/spip.php` | Medium
+14 | File | `/view/student_exam_mark_insert_form1.php` | High
+15 | File | `3.6.cpj` | Low
+16 | File | `404.php` | Low
+17 | File | `adclick.php` | Medium
+18 | File | `add-testimonial.php` | High
+19 | File | `admin.asp` | Medium
+20 | File | `admin.aspx` | Medium
+21 | File | `admin.php` | Medium
+22 | File | `admin/conf_users_edit.php` | High
+23 | File | `admin/member_details.php` | High
+24 | File | `admin_chatconfig.php` | High
+25 | File | `admin_iplog.php` | High
+26 | File | `ajaxp.php` | Medium
+27 | File | `alphabet.php` | Medium
+28 | File | `app/controllers/oauth.js` | High
+29 | File | `appointment-bwdates-reports-details.php` | High
+30 | ... | ... | ...
 
-There are 242 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 250 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

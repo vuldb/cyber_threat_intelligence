@@ -20,11 +20,11 @@ There are 1 more campaign items available. Please use our online service to acce
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with TA505:
 
 * [US](https://vuldb.com/?country.us)
-* [CN](https://vuldb.com/?country.cn)
 * [GB](https://vuldb.com/?country.gb)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 25 more country items available. Please use our online service to access the data.
+There are 24 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -108,47 +108,48 @@ ID | Type | Indicator | Confidence
 34 | File | `/api/plugin/uninstall` | High
 35 | File | `/api/RecordingList/DownloadRecord?file=` | High
 36 | File | `/api/sys/login` | High
-37 | File | `/app/sys1.php` | High
-38 | File | `/application/index/controller/File.php` | High
-39 | File | `/apply.cgi` | Medium
-40 | File | `/apply/index.php` | High
-41 | File | `/assets/php/upload.php` | High
-42 | File | `/audimex/cgi-bin/wal.fcgi` | High
-43 | File | `/auth_pic.cgi` | High
-44 | File | `/blog` | Low
-45 | File | `/boaform/device_reset.cgi` | High
-46 | File | `/boafrm/formMapDelDevice` | High
-47 | File | `/cgi-bin-sdb/` | High
-48 | File | `/cgi-bin-sdb/ExportSettings.sh` | High
-49 | File | `/cgi-bin/adm.cgi` | High
-50 | File | `/cgi-bin/cstecgi.cgi` | High
-51 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
-52 | File | `/cgi-bin/nas_sharing.cgi` | High
-53 | File | `/cgi-bin/wlogin.cgi` | High
-54 | File | `/checkout` | Medium
-55 | File | `/classes/Master.php?f=save_inquiry` | High
-56 | File | `/classes/SystemSettings.php?f=update_settings` | High
-57 | File | `/classes/Users.php?f=save` | High
-58 | File | `/cms/classes/Users.php?f=delete_client` | High
-59 | File | `/collection/all` | High
-60 | File | `/controller/company/Index.php#sendCompanyLogo` | High
-61 | File | `/crmeb/crmeb/services/UploadService.php` | High
-62 | File | `/dashboard/createblog` | High
-63 | File | `/debug/pprof` | Medium
-64 | File | `/Default/Bd` | Medium
-65 | File | `/dipam/athlete-profile.php` | High
-66 | File | `/dosen/data` | Medium
-67 | File | `/Duty/AjaxHandle/Write/UploadFile.ashx` | High
-68 | File | `/Employee/apply_leave.php` | High
-69 | File | `/Employee/edit-profile.php` | High
-70 | File | `/etc/pki/pesign` | High
-71 | File | `/etc/postfix/sender_login` | High
-72 | File | `/etc/puppetlabs/puppetserver/conf.d/ca.conf` | High
-73 | File | `/file-manager/rename.php` | High
-74 | File | `/filex/proxy-download` | High
-75 | ... | ... | ...
+37 | File | `/api/test/download` | High
+38 | File | `/app/sys1.php` | High
+39 | File | `/application/index/controller/File.php` | High
+40 | File | `/apply.cgi` | Medium
+41 | File | `/apply/index.php` | High
+42 | File | `/assets/php/upload.php` | High
+43 | File | `/audimex/cgi-bin/wal.fcgi` | High
+44 | File | `/auth_pic.cgi` | High
+45 | File | `/blog` | Low
+46 | File | `/boaform/device_reset.cgi` | High
+47 | File | `/boafrm/formMapDelDevice` | High
+48 | File | `/cgi-bin-sdb/` | High
+49 | File | `/cgi-bin-sdb/ExportSettings.sh` | High
+50 | File | `/cgi-bin/adm.cgi` | High
+51 | File | `/cgi-bin/cstecgi.cgi` | High
+52 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
+53 | File | `/cgi-bin/nas_sharing.cgi` | High
+54 | File | `/cgi-bin/wlogin.cgi` | High
+55 | File | `/checkout` | Medium
+56 | File | `/classes/Master.php?f=save_inquiry` | High
+57 | File | `/classes/SystemSettings.php?f=update_settings` | High
+58 | File | `/classes/Users.php?f=save` | High
+59 | File | `/cms/classes/Users.php?f=delete_client` | High
+60 | File | `/collection/all` | High
+61 | File | `/controller/company/Index.php#sendCompanyLogo` | High
+62 | File | `/crmeb/crmeb/services/UploadService.php` | High
+63 | File | `/dashboard/createblog` | High
+64 | File | `/debug/pprof` | Medium
+65 | File | `/Default/Bd` | Medium
+66 | File | `/dipam/athlete-profile.php` | High
+67 | File | `/dosen/data` | Medium
+68 | File | `/Duty/AjaxHandle/Write/UploadFile.ashx` | High
+69 | File | `/Employee/apply_leave.php` | High
+70 | File | `/Employee/edit-profile.php` | High
+71 | File | `/employee_gatepass/admin/?page=employee/manage_employee` | High
+72 | File | `/etc/pki/pesign` | High
+73 | File | `/etc/postfix/sender_login` | High
+74 | File | `/etc/puppetlabs/puppetserver/conf.d/ca.conf` | High
+75 | File | `/file-manager/rename.php` | High
+76 | ... | ... | ...
 
-There are 659 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 665 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

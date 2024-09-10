@@ -65,7 +65,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Path Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
@@ -89,25 +89,27 @@ ID | Type | Indicator | Confidence
 7 | File | `/cwc/login` | Medium
 8 | File | `/debuginfo.htm` | High
 9 | File | `/download` | Medium
-10 | File | `/etc/quagga` | Medium
-11 | File | `/etc/shadow` | Medium
-12 | File | `/forms/doLogin` | High
-13 | File | `/h/calendar` | Medium
-14 | File | `/inc/extensions.php` | High
-15 | File | `/index.php` | Medium
-16 | File | `/Items/*/RemoteImages/Download` | High
-17 | File | `/members/view_member.php` | High
-18 | File | `/mhds/clinic/view_details.php` | High
-19 | File | `/mifs/c/i/reg/reg.html` | High
-20 | File | `/nova/bin/console` | High
-21 | File | `/nova/bin/detnet` | High
-22 | File | `/out.php` | Medium
-23 | File | `/owa/auth/logon.aspx` | High
-24 | File | `/req_password_user.php` | High
-25 | File | `/rest/api/latest/projectvalidate/key` | High
-26 | ... | ... | ...
+10 | File | `/etc/passwd` | Medium
+11 | File | `/etc/quagga` | Medium
+12 | File | `/etc/shadow` | Medium
+13 | File | `/forms/doLogin` | High
+14 | File | `/h/autoSaveDraft` | High
+15 | File | `/h/calendar` | Medium
+16 | File | `/inc/extensions.php` | High
+17 | File | `/index.php` | Medium
+18 | File | `/Items/*/RemoteImages/Download` | High
+19 | File | `/members/view_member.php` | High
+20 | File | `/mhds/clinic/view_details.php` | High
+21 | File | `/mifs/c/i/reg/reg.html` | High
+22 | File | `/nova/bin/console` | High
+23 | File | `/nova/bin/detnet` | High
+24 | File | `/out.php` | Medium
+25 | File | `/owa/auth/logon.aspx` | High
+26 | File | `/req_password_user.php` | High
+27 | File | `/rest/api/latest/projectvalidate/key` | High
+28 | ... | ... | ...
 
-There are 221 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 232 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

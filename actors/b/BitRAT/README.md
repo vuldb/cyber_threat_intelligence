@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with BitRAT:
 
 * [US](https://vuldb.com/?country.us)
-* [CN](https://vuldb.com/?country.cn)
 * [LA](https://vuldb.com/?country.la)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
 There are 22 more country items available. Please use our online service to access the data.
@@ -123,7 +123,7 @@ ID | IP address | Hostname | Campaign | Confidence
 100 | [41.227.43.76](https://vuldb.com/?ip.41.227.43.76) | - | - | High
 101 | ... | ... | ... | ...
 
-There are 399 more IOC items available. Please use our online service to access the data.
+There are 401 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -131,14 +131,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-25, CWE-29, CWE-36, CWE-425 | Path Traversal | High
-2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-29, CWE-36, CWE-425 | Path Traversal | High
+2 | T1055 | CWE-74, CWE-643 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -150,10 +150,10 @@ ID | Type | Indicator | Confidence
 2 | File | `/.pomerium` | Medium
 3 | File | `/Account/login.php` | High
 4 | File | `/admin/` | Low
-5 | File | `/admin/action/delete-vaccine.php` | High
-6 | File | `/admin/ajax.php?action=delete_user` | High
-7 | File | `/Admin/changepassword.php` | High
-8 | File | `/admin/edit-post.php` | High
+5 | File | `/admin/ajax.php?action=delete_user` | High
+6 | File | `/Admin/changepassword.php` | High
+7 | File | `/admin/edit-post.php` | High
+8 | File | `/admin/emp-profile-avatar.php` | High
 9 | File | `/admin/general-setting` | High
 10 | File | `/admin/index2.html` | High
 11 | File | `/admin/inquiries/view_inquiry.php` | High
@@ -166,17 +166,17 @@ ID | Type | Indicator | Confidence
 18 | File | `/api/v1/custom_component` | High
 19 | File | `/api/v4/teams//channels/deleted` | High
 20 | File | `/api/wechat/app_auth` | High
-21 | File | `/app/index/controller/Common.php` | High
-22 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
-23 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
-24 | File | `/applications/nexus/modules/front/store/store.php` | High
-25 | File | `/b2b-supermarket/shopping-cart` | High
-26 | File | `/bbdms/sign-up.php` | High
-27 | File | `/cancel.php` | Medium
-28 | File | `/category.php` | High
-29 | File | `/cgi-bin/cstecgi.cgi` | High
-30 | File | `/cgi-bin/nas_sharing.cgi` | High
-31 | File | `/change-language/de_DE` | High
+21 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
+22 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
+23 | File | `/applications/nexus/modules/front/store/store.php` | High
+24 | File | `/bbdms/sign-up.php` | High
+25 | File | `/cancel.php` | Medium
+26 | File | `/category.php` | High
+27 | File | `/cgi-bin/apkg_mgr.cgi` | High
+28 | File | `/cgi-bin/cstecgi.cgi` | High
+29 | File | `/cgi-bin/nas_sharing.cgi` | High
+30 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+31 | File | `/classes/Master.php` | High
 32 | File | `/classes/Master.php?f=delete_category` | High
 33 | File | `/classes/Master.php?f=save_category` | High
 34 | File | `/classes/Master.php?f=save_medicine` | High
@@ -186,22 +186,22 @@ ID | Type | Indicator | Confidence
 38 | File | `/debug/pprof` | Medium
 39 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
 40 | File | `/devinfo` | Medium
-41 | File | `/dist/index.js` | High
-42 | File | `/download` | Medium
+41 | File | `/download` | Medium
+42 | File | `/DXR.axd` | Medium
 43 | File | `/etc/shadow` | Medium
 44 | File | `/fftools/ffmpeg_enc.c` | High
-45 | File | `/forms/doLogin` | High
-46 | File | `/formSysLog` | Medium
-47 | File | `/forum/away.php` | High
+45 | File | `/formSysLog` | Medium
+46 | File | `/forum/away.php` | High
+47 | File | `/goform/SetIpMacBind` | High
 48 | File | `/goform/SetOnlineDevName` | High
 49 | File | `/goform/WifiExtraSet` | High
-50 | File | `/hosts/firewall/ip` | High
-51 | File | `/index.jsp#settings` | High
-52 | File | `/index.php` | Medium
-53 | File | `/index.php/ccm/system/file/upload` | High
+50 | File | `/guestbook` | Medium
+51 | File | `/image.php` | Medium
+52 | File | `/includes/common/require_access_recovery.php` | High
+53 | File | `/index.jsp#settings` | High
 54 | ... | ... | ...
 
-There are 470 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 474 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -215,6 +215,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/2.59.254.206
 * https://search.censys.io/hosts/5.181.7.60
 * https://search.censys.io/hosts/20.25.180.188
+* https://search.censys.io/hosts/45.207.52.74
 * https://search.censys.io/hosts/46.175.146.21
 * https://search.censys.io/hosts/51.195.145.87
 * https://search.censys.io/hosts/77.221.151.31
@@ -223,6 +224,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/193.42.32.25
 * https://search.censys.io/hosts/194.147.140.172
 * https://search.censys.io/hosts/213.142.151.240
+* https://search.censys.io/hosts/213.152.161.244
 * https://threatfox.abuse.ch
 * https://tria.ge/211011-szq87shfap
 * https://tria.ge/211027-ancmkaadg2

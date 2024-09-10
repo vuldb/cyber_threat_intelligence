@@ -26,7 +26,7 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [46.101.104.172](https://vuldb.com/?ip.46.101.104.172) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 2 more IOC items available. Please use our online service to access the data.
+There are 3 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -53,9 +53,10 @@ ID | Type | Indicator | Confidence
 4 | File | `/forum/away.php` | High
 5 | File | `/newdriver.php` | High
 6 | File | `/oauth/idp/.well-known/openid-configuration` | High
-7 | ... | ... | ...
+7 | File | `/protocol/iscuser/uploadiscuser.php` | High
+8 | ... | ... | ...
 
-There are 51 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 60 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -64,6 +65,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://russianpanda.com/2024/01/15/Atomic-Stealer-AMOS/
 * https://www.bitdefender.com/blog/labs/when-stealers-converge-new-variant-of-atomic-stealer-in-the-wild/
 * https://www.jamf.com/blog/infostealers-pose-threat-to-macos/
+* https://www.malwarebytes.com/blog/threat-intelligence/2024/07/fake-microsoft-teams-for-mac-delivers-atomic-stealer
 
 ## Literature
 

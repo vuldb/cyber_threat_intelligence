@@ -89,7 +89,7 @@ ID | Type | Indicator | Confidence
 36 | File | `admin.cropcanvas.php` | High
 37 | ... | ... | ...
 
-There are 321 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 319 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

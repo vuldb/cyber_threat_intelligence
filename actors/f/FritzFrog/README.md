@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with FritzFrog:
 
-* [CN](https://vuldb.com/?country.cn)
 * [VN](https://vuldb.com/?country.vn)
 * [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 12 more country items available. Please use our online service to access the data.
+There are 18 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -328,14 +328,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Path Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-29, CWE-425 | Path Traversal | High
+2 | T1055 | CWE-74, CWE-643 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1068 | CWE-250, CWE-264, CWE-266, CWE-269, CWE-273, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -343,52 +343,57 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/` | Low
-2 | File | `/Admin/changepassword.php` | High
-3 | File | `/admin/general-setting` | High
-4 | File | `/admin/index.php?page=categories` | High
-5 | File | `/admin/login.php` | High
-6 | File | `/admin/modules/product/controller.php?action=add` | High
-7 | File | `/admin/project/update/2` | High
-8 | File | `/admin/service` | High
-9 | File | `/admin/students.php` | High
-10 | File | `/adminapi/system/crud` | High
-11 | File | `/api/admin/attachments/upload` | High
-12 | File | `/api/runscript` | High
-13 | File | `/api/sys/set_passwd` | High
-14 | File | `/api/v1` | Low
-15 | File | `/api/v1/custom_component` | High
-16 | File | `/api/v1/snapshots` | High
-17 | File | `/api/v1/terminal/sessions/?limit=1` | High
-18 | File | `/api/v2/maps` | Medium
-19 | File | `/application/index/controller/Screen.php` | High
-20 | File | `/b2b-supermarket/shopping-cart` | High
-21 | File | `/cgi-bin/wlogin.cgi` | High
-22 | File | `/classes/Users.php?f=delete` | High
-23 | File | `/core/config-revisions` | High
-24 | File | `/dataSet/testTransform;swagger-ui` | High
-25 | File | `/dayrui/Fcms/View/system_log.html` | High
-26 | File | `/dayrui/My/View/main.html` | High
+1 | File | `%PROGRAMDATA%\Razer\Synapse3\Service\bin` | High
+2 | File | `/.pomerium` | Medium
+3 | File | `/admin/ajax.php?action=delete_user` | High
+4 | File | `/admin/config_time_sync.php` | High
+5 | File | `/admin/index2.html` | High
+6 | File | `/admin/inquiries/view_inquiry.php` | High
+7 | File | `/admin/projects/{projectname}/skills/{skillname}/video` | High
+8 | File | `/admin/scripts/pi-hole/phpqueryads.php` | High
+9 | File | `/admin/sql` | Medium
+10 | File | `/admin/students/manage.php` | High
+11 | File | `/adminPage/conf/reload` | High
+12 | File | `/api/swaggerui/static` | High
+13 | File | `/api/v2/cli/commands` | High
+14 | File | `/application/index/controller/Icon.php` | High
+15 | File | `/bin/ate` | Medium
+16 | File | `/boaform/device_reset.cgi` | High
+17 | File | `/cgi-bin/alexserv` | High
+18 | File | `/cgi-bin/cstecgi.cgi` | High
+19 | File | `/cgi-bin/nas_sharing.cgi` | High
+20 | File | `/classes/Master.php` | High
+21 | File | `/classes/Master.php?f=delete_category` | High
+22 | File | `/classes/Master.php?f=save_medicine` | High
+23 | File | `/classes/Users.php?f=register_user` | High
+24 | File | `/conf/app.conf` | High
+25 | File | `/dashboard/add-blog.php` | High
+26 | File | `/dcim/power-ports/add/` | High
 27 | File | `/debug/pprof` | Medium
-28 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
-29 | File | `/dolibarr/admin/dict.php` | High
-30 | File | `/dolibarr/commande/list.php` | High
-31 | File | `/DXR.axd` | Medium
-32 | File | `/endpoint/delete-todo.php` | High
+28 | File | `/download/image` | High
+29 | File | `/DXR.axd` | Medium
+30 | File | `/edit/server` | Medium
+31 | File | `/etc/init.d/update_notifications.sh` | High
+32 | File | `/etc/shadow` | Medium
 33 | File | `/forum/away.php` | High
-34 | File | `/goform/execCommand` | High
-35 | File | `/goform/SetRebootTimer` | High
-36 | File | `/goform/SetSysTimeCfg` | High
-37 | File | `/goform/WizardHandle` | High
-38 | File | `/hrm/leaverequest.php` | High
-39 | File | `/index.php` | Medium
-40 | File | `/labvantage/rc?command=page&page=SampleList&_iframename=list` | High
-41 | File | `/lam/tmp/` | Medium
-42 | File | `/librarian/bookdetails.php` | High
-43 | File | `/link/` | Low
-44 | ... | ... | ...
+34 | File | `/goform/goform_get_cmd_process` | High
+35 | File | `/goform/SetIpMacBind` | High
+36 | File | `/goform/WifiExtraSet` | High
+37 | File | `/guestbook` | Medium
+38 | File | `/hardware` | Medium
+39 | File | `/hedwig.cgi` | Medium
+40 | File | `/ims/login.php` | High
+41 | File | `/index.php` | Medium
+42 | File | `/index.php?app=main&inc=feature_phonebook&op=phonebook_list` | High
+43 | File | `/index.php?c=api` | High
+44 | File | `/index.php?pluginApp/to/yzOffice/getFile` | High
+45 | File | `/Interface/DevManage/VM.php` | High
+46 | File | `/js/player/dmplayer/dmku/?ac=edit` | High
+47 | File | `/jsoa/hntdCustomDesktopActionContent` | High
+48 | File | `/labvantage/rc?command=page&page=SampleHistoricalList&_iframename=list&__crc=crc_1701669816260` | High
+49 | ... | ... | ...
 
-There are 384 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 429 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

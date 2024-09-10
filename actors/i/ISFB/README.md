@@ -118,7 +118,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Path Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
@@ -139,23 +139,24 @@ ID | Type | Indicator | Confidence
 4 | File | `/cwc/login` | Medium
 5 | File | `/debuginfo.htm` | High
 6 | File | `/download` | Medium
-7 | File | `/etc/quagga` | Medium
-8 | File | `/etc/shadow` | Medium
-9 | File | `/forms/doLogin` | High
-10 | File | `/h/calendar` | Medium
-11 | File | `/inc/extensions.php` | High
-12 | File | `/index.php` | Medium
-13 | File | `/members/view_member.php` | High
-14 | File | `/mhds/clinic/view_details.php` | High
-15 | File | `/nova/bin/console` | High
-16 | File | `/nova/bin/detnet` | High
-17 | File | `/out.php` | Medium
-18 | File | `/owa/auth/logon.aspx` | High
-19 | File | `/req_password_user.php` | High
-20 | File | `/rest/api/latest/projectvalidate/key` | High
-21 | ... | ... | ...
+7 | File | `/etc/passwd` | Medium
+8 | File | `/etc/quagga` | Medium
+9 | File | `/etc/shadow` | Medium
+10 | File | `/forms/doLogin` | High
+11 | File | `/h/autoSaveDraft` | High
+12 | File | `/h/calendar` | Medium
+13 | File | `/inc/extensions.php` | High
+14 | File | `/index.php` | Medium
+15 | File | `/members/view_member.php` | High
+16 | File | `/mhds/clinic/view_details.php` | High
+17 | File | `/nova/bin/console` | High
+18 | File | `/nova/bin/detnet` | High
+19 | File | `/out.php` | Medium
+20 | File | `/owa/auth/logon.aspx` | High
+21 | File | `/req_password_user.php` | High
+22 | ... | ... | ...
 
-There are 169 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 180 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

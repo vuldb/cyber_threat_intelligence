@@ -50,7 +50,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -58,51 +58,51 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/edit-admin.php` | High
-2 | File | `/admin/lab.php` | High
-3 | File | `/admin/list_resource_icon.php?action=delete` | High
-4 | File | `/admin/singlelogin.php` | High
-5 | File | `/admin/update_s6.php` | High
-6 | File | `/api/crontab` | Medium
-7 | File | `/api/geojson` | Medium
-8 | File | `/api/jolokia org.jolokia.http.HttpRequestHandler#handlePostRequest` | High
-9 | File | `/api/sys/login` | High
-10 | File | `/bcms/admin/?page=user/manage_user` | High
-11 | File | `/cbs/system/ShowAdvanced.do` | High
-12 | File | `/cgi-bin/editBookmark` | High
-13 | File | `/cgi-bin/webviewer_login_page` | High
-14 | File | `/cgi/networkDiag.cgi` | High
-15 | File | `/cms/category/list` | High
-16 | File | `/debug` | Low
-17 | File | `/debug/pprof` | Medium
-18 | File | `/designer/add/layout` | High
-19 | File | `/DXR.axd` | Medium
-20 | File | `/em/console/logon/logon` | High
-21 | File | `/env` | Low
-22 | File | `/forum/away.php` | High
-23 | File | `/general/email/inbox/delete_webmail.php` | High
-24 | File | `/goform/setmac` | High
-25 | File | `/goform/SetNetControlList` | High
-26 | File | `/goform/setportList` | High
-27 | File | `/goform/setVLAN` | High
-28 | File | `/inc/jquery/uploadify/uploadify.php` | High
-29 | File | `/list` | Low
-30 | File | `/login` | Low
-31 | File | `/login.php?m=admin&c=Field&a=channel_edit` | High
-32 | File | `/login/index.php` | High
-33 | File | `/modules/profile/index.php` | High
-34 | File | `/net/sched/cls_fw.c` | High
-35 | File | `/nidp/idff/sso` | High
-36 | File | `/patient/appointment.php` | High
-37 | File | `/registrar/?page=registration` | High
-38 | File | `/search.php` | Medium
-39 | File | `/secure/QueryComponent!Default.jspa` | High
-40 | File | `/ServiceContractDef.do` | High
-41 | File | `/spip.php` | Medium
-42 | File | `/sys/dict/queryTableData` | High
+1 | File | `/?import` | Medium
+2 | File | `/admin-manage-user.php` | High
+3 | File | `/admin/edit-admin.php` | High
+4 | File | `/admin/lab.php` | High
+5 | File | `/admin/list_resource_icon.php?action=delete` | High
+6 | File | `/admin/singlelogin.php` | High
+7 | File | `/admin/update_s6.php` | High
+8 | File | `/api/geojson` | Medium
+9 | File | `/api/jolokia org.jolokia.http.HttpRequestHandler#handlePostRequest` | High
+10 | File | `/api/sys/login` | High
+11 | File | `/bcms/admin/?page=user/manage_user` | High
+12 | File | `/cbs/system/ShowAdvanced.do` | High
+13 | File | `/cgi-bin/editBookmark` | High
+14 | File | `/cgi-bin/ExportAllSettings.sh` | High
+15 | File | `/cgi-bin/nas_sharing.cgi` | High
+16 | File | `/cgi-bin/webviewer_login_page` | High
+17 | File | `/cgi/networkDiag.cgi` | High
+18 | File | `/cms/category/list` | High
+19 | File | `/cms/classes/Users.php?f=delete_client` | High
+20 | File | `/debug` | Low
+21 | File | `/debug/pprof` | Medium
+22 | File | `/designer/add/layout` | High
+23 | File | `/DXR.axd` | Medium
+24 | File | `/em/console/logon/logon` | High
+25 | File | `/env` | Low
+26 | File | `/forum/away.php` | High
+27 | File | `/general/email/inbox/delete_webmail.php` | High
+28 | File | `/goform/setmac` | High
+29 | File | `/goform/SetNetControlList` | High
+30 | File | `/inc/jquery/uploadify/uploadify.php` | High
+31 | File | `/list` | Low
+32 | File | `/login` | Low
+33 | File | `/login.php?m=admin&c=Field&a=channel_edit` | High
+34 | File | `/login/index.php` | High
+35 | File | `/net/sched/cls_fw.c` | High
+36 | File | `/nidp/idff/sso` | High
+37 | File | `/patient/appointment.php` | High
+38 | File | `/registrar/?page=registration` | High
+39 | File | `/search.php` | Medium
+40 | File | `/secure/QueryComponent!Default.jspa` | High
+41 | File | `/ServiceContractDef.do` | High
+42 | File | `/spip.php` | Medium
 43 | ... | ... | ...
 
-There are 374 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 376 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

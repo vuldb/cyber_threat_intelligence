@@ -111,7 +111,7 @@ ID | Type | Indicator | Confidence
 46 | File | `/goform/fast_setting_wifi_set` | High
 47 | ... | ... | ...
 
-There are 405 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 408 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

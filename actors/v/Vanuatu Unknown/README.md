@@ -96,26 +96,26 @@ ID | Type | Indicator | Confidence
 37 | File | `/tmp/csman/0` | Medium
 38 | File | `/uncpath/` | Medium
 39 | File | `/vaccinated/admin/maintenance/manage_location.php` | High
-40 | File | `adclick.php` | Medium
-41 | File | `addentry.php` | Medium
-42 | File | `addtocart.asp` | High
-43 | File | `add_comment.php` | High
-44 | File | `admin.color.php` | High
-45 | File | `admin.php` | Medium
-46 | File | `admin.php?mod=db&act=del` | High
-47 | File | `admin.php?mod=user&act=del` | High
-48 | File | `admin.php?moduleid=2&action=add` | High
-49 | File | `admin/addons/archive/archive.php` | High
-50 | File | `admin/auth.php` | High
-51 | File | `admin/category.inc.php` | High
-52 | File | `admin/conf_users_edit.php` | High
-53 | File | `admin/languages.php` | High
-54 | File | `admin/login.asp` | High
-55 | File | `admincp/auth/checklogin.php` | High
-56 | File | `admin\setting.inc.php` | High
+40 | File | `/vpn/list_vpn_web_custom.php` | High
+41 | File | `adclick.php` | Medium
+42 | File | `addentry.php` | Medium
+43 | File | `addtocart.asp` | High
+44 | File | `add_comment.php` | High
+45 | File | `admin.color.php` | High
+46 | File | `admin.php` | Medium
+47 | File | `admin.php?mod=db&act=del` | High
+48 | File | `admin.php?mod=user&act=del` | High
+49 | File | `admin.php?moduleid=2&action=add` | High
+50 | File | `admin/addons/archive/archive.php` | High
+51 | File | `admin/auth.php` | High
+52 | File | `admin/category.inc.php` | High
+53 | File | `admin/conf_users_edit.php` | High
+54 | File | `admin/languages.php` | High
+55 | File | `admin/login.asp` | High
+56 | File | `admincp/auth/checklogin.php` | High
 57 | ... | ... | ...
 
-There are 494 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 498 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

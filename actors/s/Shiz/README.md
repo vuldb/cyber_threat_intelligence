@@ -53,24 +53,24 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/.htpasswd` | Medium
-2 | File | `/admin/budget/manage_budget.php` | High
-3 | File | `/admin/case-type` | High
-4 | File | `/admin/edit_subject.php` | High
-5 | File | `/admin/save_teacher.php` | High
-6 | File | `/admin/service.php` | High
-7 | File | `/api/jolokia org.jolokia.http.HttpRequestHandler#handlePostRequest` | High
-8 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-9 | File | `/cas/logout` | Medium
-10 | File | `/cgi-bin/nasset.cgi` | High
-11 | File | `/changeimage.php` | High
-12 | File | `/dosen/data` | Medium
-13 | File | `/HNAP1` | Low
-14 | File | `/HNAP1/` | Low
-15 | File | `/index.php/weblinks-categories` | High
-16 | File | `/jurusan/data` | High
+2 | File | `/admin/ajax.php?action=save_settings` | High
+3 | File | `/admin/budget/manage_budget.php` | High
+4 | File | `/admin/case-type` | High
+5 | File | `/admin/edit_subject.php` | High
+6 | File | `/admin/save_teacher.php` | High
+7 | File | `/admin/service.php` | High
+8 | File | `/api/jolokia org.jolokia.http.HttpRequestHandler#handlePostRequest` | High
+9 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+10 | File | `/cas/logout` | Medium
+11 | File | `/cgi-bin/nasset.cgi` | High
+12 | File | `/changeimage.php` | High
+13 | File | `/classes/Users.php?f=save` | High
+14 | File | `/dosen/data` | Medium
+15 | File | `/HNAP1` | Low
+16 | File | `/HNAP1/` | Low
 17 | ... | ... | ...
 
-There are 134 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 138 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

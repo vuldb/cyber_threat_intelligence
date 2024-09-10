@@ -27,15 +27,17 @@ ID | IP address | Hostname | Campaign | Confidence
 4 | [5.42.99.177](https://vuldb.com/?ip.5.42.99.177) | gullible-stem.aeza.network | - | High
 5 | [5.181.80.133](https://vuldb.com/?ip.5.181.80.133) | navbarlatino.alarmedbook.de | - | High
 6 | [5.182.36.101](https://vuldb.com/?ip.5.182.36.101) | vz.darytelecom.ru | - | High
-7 | [45.15.156.229](https://vuldb.com/?ip.45.15.156.229) | - | - | High
-8 | [77.105.147.130](https://vuldb.com/?ip.77.105.147.130) | aggressive-peace.aeza.network | - | High
-9 | [79.174.12.174](https://vuldb.com/?ip.79.174.12.174) | king420.lazy.fvds.ru | - | High
-10 | [85.192.56.26](https://vuldb.com/?ip.85.192.56.26) | somber-health.aeza.network | - | High
-11 | [85.202.169.116](https://vuldb.com/?ip.85.202.169.116) | - | - | High
-12 | [85.208.136.10](https://vuldb.com/?ip.85.208.136.10) | - | - | High
-13 | ... | ... | ... | ...
+7 | [43.153.49.49](https://vuldb.com/?ip.43.153.49.49) | - | - | High
+8 | [45.15.156.229](https://vuldb.com/?ip.45.15.156.229) | - | - | High
+9 | [45.91.200.135](https://vuldb.com/?ip.45.91.200.135) | 45-91-200-135.netherlands-2.vps.ac | - | High
+10 | [62.133.61.172](https://vuldb.com/?ip.62.133.61.172) | 41013.ip-ptr.tech | - | High
+11 | [77.105.133.27](https://vuldb.com/?ip.77.105.133.27) | - | - | High
+12 | [77.105.147.130](https://vuldb.com/?ip.77.105.147.130) | aggressive-peace.aeza.network | - | High
+13 | [79.174.12.174](https://vuldb.com/?ip.79.174.12.174) | king420.lazy.fvds.ru | - | High
+14 | [85.192.56.26](https://vuldb.com/?ip.85.192.56.26) | somber-health.aeza.network | - | High
+15 | ... | ... | ... | ...
 
-There are 46 more IOC items available. Please use our online service to access the data.
+There are 55 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -43,7 +45,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-24 | Path Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
@@ -65,68 +67,77 @@ ID | Type | Indicator | Confidence
 5 | File | `/Admin/add-student.php` | High
 6 | File | `/admin/ajax/avatar.php` | High
 7 | File | `/admin/index.PHP` | High
-8 | File | `/Admin/News.php` | High
-9 | File | `/admin/options` | High
-10 | File | `/admin/show.php` | High
-11 | File | `/admin/transactions/update_status.php` | High
-12 | File | `/admin/view_sendlist.php` | High
-13 | File | `/adminPage/main/upload` | High
-14 | File | `/admin_class.php` | High
-15 | File | `/alphaware/summary.php` | High
-16 | File | `/api/index.php` | High
-17 | File | `/api/sys/login` | High
-18 | File | `/api/user/password/sent-reset-email` | High
-19 | File | `/baseOpLog.do` | High
-20 | File | `/bl-plugins/backup/plugin.php` | High
-21 | File | `/catalog_add.php` | High
-22 | File | `/cgi-bin/nightled.cgi` | High
-23 | File | `/cgi-bin/wlogin.cgi` | High
-24 | File | `/cgi/get_param.cgi` | High
-25 | File | `/classes/Users.php` | High
-26 | File | `/classes/Users.php?f=save` | High
-27 | File | `/common/download_agent_installer.php` | High
-28 | File | `/common/info.cgi` | High
-29 | File | `/common/run_cross_report.php` | High
-30 | File | `/confirm` | Medium
-31 | File | `/crmeb/app/admin/controller/store/CopyTaobao.php` | High
-32 | File | `/cupseasylive/countrymodify.php` | High
-33 | File | `/cwc/login` | Medium
-34 | File | `/debug/pprof` | Medium
-35 | File | `/dede/archives_do.php` | High
-36 | File | `/dede/group_store.php` | High
-37 | File | `/dialog/select_media.php` | High
-38 | File | `/Employee/edit-profile.php` | High
-39 | File | `/etc/master.passwd` | High
-40 | File | `/etc/passwd` | Medium
-41 | File | `/EXCU_SHELL` | Medium
-42 | File | `/ext/collect/filter_text.do` | High
-43 | File | `/fax/fax_send.php` | High
-44 | File | `/foms/all-orders.php?status=Cancelled%20by%20Customer` | High
-45 | File | `/forum/away.php` | High
-46 | File | `/goform/addressNat` | High
-47 | File | `/goform/NatStaticSetting` | High
-48 | File | `/goform/setMacFilterCfg` | High
-49 | File | `/goform/SetOnlineDevName` | High
-50 | File | `/goform/SysToolChangePwd` | High
-51 | File | `/goform/WifiBasicSet` | High
-52 | File | `/goform/WifiWpsStart` | High
-53 | File | `/HNAP1` | Low
-54 | File | `/index.php` | Medium
-55 | File | `/index.php?action=seomatic/file/seo-file-link` | High
-56 | File | `/intern/controller.php` | High
-57 | File | `/LoginRegistration.php` | High
-58 | File | `/lua/set-passwd.lua` | High
-59 | File | `/member/ad.php?action=ad` | High
-60 | File | `/my_photo_gallery/image.php` | High
-61 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-62 | File | `/page.php` | Medium
-63 | File | `/pages/permit/permit.php` | High
-64 | File | `/patient/doctors.php` | High
-65 | File | `/pet_shop/classes/Master.php?f=delete_category` | High
-66 | File | `/php-sms/admin/?page=services/manage_service` | High
-67 | ... | ... | ...
+8 | File | `/admin/manage_complaint.php` | High
+9 | File | `/Admin/News.php` | High
+10 | File | `/admin/options` | High
+11 | File | `/admin/show.php` | High
+12 | File | `/admin/transactions/update_status.php` | High
+13 | File | `/admin/view_sendlist.php` | High
+14 | File | `/adminPage/main/upload` | High
+15 | File | `/admin_class.php` | High
+16 | File | `/alphaware/summary.php` | High
+17 | File | `/api/index.php` | High
+18 | File | `/api/swaggerui/static` | High
+19 | File | `/api/sys/login` | High
+20 | File | `/api/system/user?deptId=1&page=1&size=10` | High
+21 | File | `/api/user/password/sent-reset-email` | High
+22 | File | `/app/uploading/upload-mp3.php` | High
+23 | File | `/bl-plugins/backup/plugin.php` | High
+24 | File | `/catalog_add.php` | High
+25 | File | `/cgi-bin/cstecgi.cgi` | High
+26 | File | `/cgi-bin/hd_config.cgi` | High
+27 | File | `/cgi-bin/nightled.cgi` | High
+28 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+29 | File | `/cgi-bin/wlogin.cgi` | High
+30 | File | `/classes/Users.php` | High
+31 | File | `/classes/Users.php?f=save` | High
+32 | File | `/common/info.cgi` | High
+33 | File | `/common/run_cross_report.php` | High
+34 | File | `/confirm` | Medium
+35 | File | `/crmeb/app/admin/controller/store/CopyTaobao.php` | High
+36 | File | `/cupseasylive/countrymodify.php` | High
+37 | File | `/debug/pprof` | Medium
+38 | File | `/dede/archives_do.php` | High
+39 | File | `/dede/group_store.php` | High
+40 | File | `/dialog/select_media.php` | High
+41 | File | `/Employee/edit-profile.php` | High
+42 | File | `/etc/master.passwd` | High
+43 | File | `/etc/passwd` | Medium
+44 | File | `/EXCU_SHELL` | Medium
+45 | File | `/ext/collect/filter_text.do` | High
+46 | File | `/fax/fax_send.php` | High
+47 | File | `/film-rating.php` | High
+48 | File | `/forum/away.php` | High
+49 | File | `/goform/addressNat` | High
+50 | File | `/goform/NatStaticSetting` | High
+51 | File | `/goform/setMacFilterCfg` | High
+52 | File | `/goform/SetOnlineDevName` | High
+53 | File | `/goform/SetSysTimeCfg` | High
+54 | File | `/goform/SysToolChangePwd` | High
+55 | File | `/goform/WifiBasicSet` | High
+56 | File | `/goform/WifiWpsStart` | High
+57 | File | `/HNAP1` | Low
+58 | File | `/index.php` | Medium
+59 | File | `/index.php?action=seomatic/file/seo-file-link` | High
+60 | File | `/intern/controller.php` | High
+61 | File | `/librarian/bookdetails.php` | High
+62 | File | `/log/decodmail.php` | High
+63 | File | `/LoginRegistration.php` | High
+64 | File | `/lua/set-passwd.lua` | High
+65 | File | `/manage/IPSetup.php` | High
+66 | File | `/manage_person.php` | High
+67 | File | `/member/ad.php?action=ad` | High
+68 | File | `/my_photo_gallery/image.php` | High
+69 | File | `/page.php` | Medium
+70 | File | `/patient/doctors.php` | High
+71 | File | `/php-sms/admin/?page=services/manage_service` | High
+72 | File | `/phpinventory/editcategory.php` | High
+73 | File | `/phpinventory/edituser.php` | High
+74 | File | `/Public/webuploader/0.1.5/server/fileupload.php` | High
+75 | File | `/query` | Low
+76 | ... | ... | ...
 
-There are 586 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 665 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -134,9 +145,11 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://app.any.run/tasks/1db5ea31-0daa-4a23-879d-2bd21bc818f4
 * https://app.any.run/tasks/3bfdcee7-1163-4cb5-a421-c89ebe581fb3
+* https://app.any.run/tasks/16d1541e-1c28-471f-a780-f5b70d2dd381?p=669122eb4357c379fd02f58c
 * https://app.any.run/tasks/107bbcf1-8d11-4f08-bcc0-56e6421de94b
 * https://app.any.run/tasks/994d4d9a-2b51-4b70-8146-a44c418dd9fd/
 * https://app.any.run/tasks/b558623f-6336-4912-88ce-a05c0bb1cd10
+* https://app.any.run/tasks/e9c2c08b-c4f4-45cb-a03f-b5bff299bd5c
 * https://app.any.run/tasks/ee675dd9-ff6d-4f25-8163-193d4836bfb3
 * https://community.blueliv.com/#!/s/6274c2b082df417a00331684
 * https://community.blueliv.com/#!/s/63280e7d82df417ed0331974

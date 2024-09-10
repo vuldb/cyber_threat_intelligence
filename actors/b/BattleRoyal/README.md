@@ -53,16 +53,16 @@ ID | Type | Indicator | Confidence
 1 | File | `/api/RecordingList/DownloadRecord?file=` | High
 2 | File | `/apply.cgi` | Medium
 3 | File | `/brand.php` | Medium
-4 | File | `/php/ping.php` | High
-5 | File | `/rapi/read_url` | High
-6 | File | `/scripts/unlock_tasks.php` | High
-7 | File | `/SysInfo1.htm` | High
-8 | File | `/sysinfo_json.cgi` | High
-9 | File | `/system/user/modules/mod_users/controller.php` | High
-10 | File | `/view/vpn/autovpn/sub_commit.php` | High
+4 | File | `/cgi-bin/cstecgi.cgi` | High
+5 | File | `/php/ping.php` | High
+6 | File | `/rapi/read_url` | High
+7 | File | `/scripts/unlock_tasks.php` | High
+8 | File | `/SysInfo1.htm` | High
+9 | File | `/sysinfo_json.cgi` | High
+10 | File | `/system/dictData/loadDictItem` | High
 11 | ... | ... | ...
 
-There are 84 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 88 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -15,11 +15,11 @@ The following _campaigns_ are known and can be associated with Brazil Unknown:
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Brazil Unknown:
 
 * [US](https://vuldb.com/?country.us)
-* [CN](https://vuldb.com/?country.cn)
 * [BR](https://vuldb.com/?country.br)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 20 more country items available. Please use our online service to access the data.
+There are 19 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -1790,9 +1790,11 @@ ID | IP address | Hostname | Campaign | Confidence
 1761 | [45.181.4.0](https://vuldb.com/?ip.45.181.4.0) | - | - | High
 1762 | [45.181.7.0](https://vuldb.com/?ip.45.181.7.0) | - | - | High
 1763 | [45.181.8.0](https://vuldb.com/?ip.45.181.8.0) | - | - | High
-1764 | ... | ... | ... | ...
+1764 | [45.181.16.0](https://vuldb.com/?ip.45.181.16.0) | ip-45-181-16-0.pluguetelecom.net.br | - | High
+1765 | [45.181.32.0](https://vuldb.com/?ip.45.181.32.0) | - | - | High
+1766 | ... | ... | ... | ...
 
-There are 7051 more IOC items available. Please use our online service to access the data.
+There are 7059 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -1800,14 +1802,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-24, CWE-25, CWE-36, CWE-425 | Path Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+1 | T1006 | CWE-22, CWE-23, CWE-29, CWE-425 | Path Traversal | High
+2 | T1055 | CWE-643 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1068 | CWE-250, CWE-264, CWE-266, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -1815,62 +1817,62 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/#ilang=DE&b=c_smartenergy_swgroups` | High
-2 | File | `/Account/login.php` | High
-3 | File | `/admin/` | Low
-4 | File | `/admin/action/delete-vaccine.php` | High
-5 | File | `/admin/action/update-deworm.php` | High
-6 | File | `/admin/borrow_add.php` | High
-7 | File | `/Admin/changepassword.php` | High
-8 | File | `/admin/court` | Medium
-9 | File | `/Admin/createClass.php` | High
-10 | File | `/admin/edit_teacher.php` | High
-11 | File | `/admin/general-setting` | High
-12 | File | `/admin/index.php` | High
-13 | File | `/admin/maintenance/manage_brand.php` | High
-14 | File | `/admin/orders/view_order.php` | High
-15 | File | `/admin/problem_judge.php` | High
-16 | File | `/admin/service` | High
-17 | File | `/adminapi/system/crud` | High
-18 | File | `/adminapi/system/file/openfile` | High
-19 | File | `/admin_route/dec_service_credits.php` | High
-20 | File | `/api/jolokia org.jolokia.http.HttpRequestHandler#handlePostRequest` | High
+1 | File | `/.pomerium` | Medium
+2 | File | `/addproduct.php` | High
+3 | File | `/admin/?page=categories/view_category` | High
+4 | File | `/admin/?page=musics/manage_music` | High
+5 | File | `/admin/ajax.php?action=delete_user` | High
+6 | File | `/admin/court` | Medium
+7 | File | `/Admin/createClass.php` | High
+8 | File | `/admin/div_data/data` | High
+9 | File | `/admin/emp-profile-avatar.php` | High
+10 | File | `/admin/general-setting` | High
+11 | File | `/admin/inquiries/view_inquiry.php` | High
+12 | File | `/admin/maintenance/manage_brand.php` | High
+13 | File | `/admin/media_folders` | High
+14 | File | `/admin/memberOnline_deal.php?mudi=del&dataType=&dataID=6` | High
+15 | File | `/admin/order.php` | High
+16 | File | `/admin/problem_judge.php` | High
+17 | File | `/admin/projects/{projectname}/skills/{skillname}/video` | High
+18 | File | `/admin/service` | High
+19 | File | `/admin/users.php` | High
+20 | File | `/ajax.php` | Medium
 21 | File | `/api/v1/custom_component` | High
-22 | File | `/api/v4/teams//channels/deleted` | High
-23 | File | `/api/wechat/app_auth` | High
+22 | File | `/AttendanceMonitoring/report/index.php` | High
+23 | File | `/authMonitCallcenter` | High
 24 | File | `/blog/blog.php` | High
-25 | File | `/cancel.php` | Medium
+25 | File | `/cap.js` | Low
 26 | File | `/catalog/admin/categories.php?cPath=&action=new_product` | High
-27 | File | `/category.php` | High
-28 | File | `/cgi-bin/cstecgi.cgi` | High
-29 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-30 | File | `/cgi-bin/nas_sharing.cgi` | High
-31 | File | `/change-language/de_DE` | High
-32 | File | `/classes/Users.php?f=delete` | High
-33 | File | `/College/admin/teacher.php` | High
-34 | File | `/conf/app.conf` | High
-35 | File | `/control/register_case.php` | High
-36 | File | `/devinfo` | Medium
-37 | File | `/dist/index.js` | High
-38 | File | `/download` | Medium
-39 | File | `/DXR.axd` | Medium
-40 | File | `/ecshop/admin/template.php` | High
-41 | File | `/etc/fwupd/redfish.conf` | High
-42 | File | `/etc/shadow` | Medium
-43 | File | `/forum/away.php` | High
-44 | File | `/goform/wifiSSIDset` | High
-45 | File | `/hosts/firewall/ip` | High
-46 | File | `/index.jsp#settings` | High
-47 | File | `/index.php` | Medium
-48 | File | `/index.php/ccm/system/file/upload` | High
-49 | File | `/labvantage/rc?command=page&page=SampleList&_iframename=list` | High
-50 | File | `/librarian/bookdetails.php` | High
-51 | File | `/log/decodmail.php` | High
-52 | File | `/login` | Low
-53 | File | `/manage-courses.php?del=1` | High
+27 | File | `/cgi-bin/cstecgi.cgi` | High
+28 | File | `/cgi-bin/hd_config.cgi` | High
+29 | File | `/cgi-bin/nas_sharing.cgi` | High
+30 | File | `/classes/Master.php` | High
+31 | File | `/classes/Master.php?f=delete_category` | High
+32 | File | `/classes/Master.php?f=log_employee` | High
+33 | File | `/classes/Master.php?f=save_medicine` | High
+34 | File | `/classes/Master.php?f=save_package` | High
+35 | File | `/classes/Users.php?f=delete` | High
+36 | File | `/classes/Users.php?f=save` | High
+37 | File | `/College/admin/teacher.php` | High
+38 | File | `/conf/app.conf` | High
+39 | File | `/downloadFile.php` | High
+40 | File | `/DXR.axd` | Medium
+41 | File | `/endpoint/add-folder.php` | High
+42 | File | `/endpoint/add-task.php` | High
+43 | File | `/endpoint/delete-calorie.php` | High
+44 | File | `/etc/shadow` | Medium
+45 | File | `/file/upload/1` | High
+46 | File | `/file_manager/login.php` | High
+47 | File | `/film-rating.php` | High
+48 | File | `/foms/routers/place-order.php` | High
+49 | File | `/forum/away.php` | High
+50 | File | `/goform/SetIpMacBind` | High
+51 | File | `/goform/VirtualSer` | High
+52 | File | `/goform/WifiExtraSet` | High
+53 | File | `/guestbook` | Medium
 54 | ... | ... | ...
 
-There are 471 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 473 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

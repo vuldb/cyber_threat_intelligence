@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 6 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -94,24 +94,25 @@ ID | Type | Indicator | Confidence
 27 | File | `/goForm/aspForm` | High
 28 | File | `/goform/aspForm` | High
 29 | File | `/home/www/cgi-bin/login.cgi` | High
-30 | File | `/Items/*/RemoteImages/Download` | High
-31 | File | `/items/view_item.php` | High
-32 | File | `/jeecg-boot/sys/common/upload` | High
-33 | File | `/librarian/bookdetails.php` | High
-34 | File | `/mail/index.html` | High
-35 | File | `/medical/inventories.php` | High
-36 | File | `/modules/profile/index.php` | High
-37 | File | `/out.php` | Medium
-38 | File | `/php-jms/updateTxtview.php` | High
-39 | File | `/proxy` | Low
-40 | File | `/question.php` | High
-41 | File | `/replication` | Medium
-42 | File | `/resources//../` | High
-43 | File | `/RestAPI` | Medium
-44 | File | `/secure/QueryComponent!Default.jspa` | High
-45 | ... | ... | ...
+30 | File | `/index/ajax/lang` | High
+31 | File | `/Items/*/RemoteImages/Download` | High
+32 | File | `/items/view_item.php` | High
+33 | File | `/jeecg-boot/sys/common/upload` | High
+34 | File | `/librarian/bookdetails.php` | High
+35 | File | `/mail/index.html` | High
+36 | File | `/medical/inventories.php` | High
+37 | File | `/modules/profile/index.php` | High
+38 | File | `/out.php` | Medium
+39 | File | `/php-jms/updateTxtview.php` | High
+40 | File | `/proxy` | Low
+41 | File | `/question.php` | High
+42 | File | `/replication` | Medium
+43 | File | `/resources//../` | High
+44 | File | `/RestAPI` | Medium
+45 | File | `/secure/QueryComponent!Default.jspa` | High
+46 | ... | ... | ...
 
-There are 394 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 400 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

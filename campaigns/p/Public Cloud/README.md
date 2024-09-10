@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
-* [CN](https://vuldb.com/?country.cn)
+* [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 6 more country items available. Please use our online service to access the data.
+There are 8 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -55,13 +55,19 @@ ID | Type | Indicator | Confidence
 3 | File | `/inc/parser/xhtml.php` | High
 4 | File | `/include/makecvs.php` | High
 5 | File | `/lua/set-passwd.lua` | High
-6 | File | `/requests.php` | High
-7 | File | `/spip.php` | Medium
-8 | File | `/wp-admin/admin.php?page=wp_file_manager_properties` | High
-9 | File | `add.php` | Low
-10 | ... | ... | ...
+6 | File | `/member/index/login.html` | High
+7 | File | `/member/myfriend.php` | High
+8 | File | `/member/reg.asp` | High
+9 | File | `/pms/admin/actions/view_action.php` | High
+10 | File | `/pms/admin/cells/view_cell.php` | High
+11 | File | `/pms/admin/crimes/manage_crime.php` | High
+12 | File | `/pms/admin/inmates/view_inmate.php` | High
+13 | File | `/pms/admin/prisons/view_prison.php` | High
+14 | File | `/pms/admin/visits/view_visit.php` | High
+15 | File | `/pms/index.php` | High
+16 | ... | ... | ...
 
-There are 76 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 130 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

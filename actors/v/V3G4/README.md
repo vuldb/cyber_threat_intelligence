@@ -31,7 +31,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-27 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
@@ -55,41 +55,41 @@ ID | Type | Indicator | Confidence
 6 | File | `/admin.php?id=siteoptions&social=display&value=0&sid=2` | High
 7 | File | `/admin/?page=orders/view_order` | High
 8 | File | `/admin/comn/service/update.json` | High
-9 | File | `/admin/siteoptions.php&action=displaygoal&value=1&roleid=1` | High
-10 | File | `/admin/transactions/update_status.php` | High
-11 | File | `/admin/uesrs.php&action=display&value=Hide` | High
-12 | File | `/administrator/components/menu/` | High
-13 | File | `/assets/php/upload.php` | High
-14 | File | `/auparse/auparse.c` | High
-15 | File | `/back/index.php/user/User/?1` | High
-16 | File | `/backups/` | Medium
-17 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-18 | File | `/cgi-bin/logs.ha` | High
-19 | File | `/claire_blake` | High
-20 | File | `/classes/Master.php?f=delete_service` | High
-21 | File | `/common/info.cgi` | High
-22 | File | `/core/table/query` | High
-23 | File | `/cupseasylive/costcentercreate.php` | High
-24 | File | `/damicms-master/admin.php?s=/Article/doedit` | High
-25 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
-26 | File | `/doctor/view-appointment-detail.php` | High
-27 | File | `/feedback/post/` | High
-28 | File | `/gaia-job-admin/user/add` | High
-29 | File | `/goform/dir_setWanWifi` | High
-30 | File | `/goform/login` | High
-31 | File | `/goform/SetInternetLanInfo` | High
-32 | File | `/goform/setportList` | High
-33 | File | `/goform/SetPptpServerCfg` | High
-34 | File | `/goform/WifiBasicSet` | High
-35 | File | `/group/apply` | Medium
-36 | File | `/gusetbook/save` | High
-37 | File | `/hdf5/src/H5Fint.c` | High
-38 | File | `/includes/login.php` | High
-39 | File | `/index.cfm/_api/asset/image/` | High
-40 | File | `/insurance/editClient.php` | High
+9 | File | `/admin/mod_room/controller.php?action=add` | High
+10 | File | `/admin/siteoptions.php&action=displaygoal&value=1&roleid=1` | High
+11 | File | `/admin/transactions/update_status.php` | High
+12 | File | `/admin/uesrs.php&action=display&value=Hide` | High
+13 | File | `/administrator/components/menu/` | High
+14 | File | `/api/deploy/upload` | High
+15 | File | `/api/deploy/upload /api/database/upload` | High
+16 | File | `/assets/php/upload.php` | High
+17 | File | `/auparse/auparse.c` | High
+18 | File | `/back/index.php/user/User/?1` | High
+19 | File | `/backups/` | Medium
+20 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+21 | File | `/cgi-bin/logs.ha` | High
+22 | File | `/claire_blake` | High
+23 | File | `/classes/Master.php?f=delete_service` | High
+24 | File | `/common/info.cgi` | High
+25 | File | `/core/table/query` | High
+26 | File | `/cupseasylive/costcentercreate.php` | High
+27 | File | `/damicms-master/admin.php?s=/Article/doedit` | High
+28 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
+29 | File | `/doctor/view-appointment-detail.php` | High
+30 | File | `/feedback/post/` | High
+31 | File | `/gaia-job-admin/user/add` | High
+32 | File | `/goform/dir_setWanWifi` | High
+33 | File | `/goform/login` | High
+34 | File | `/goform/SetInternetLanInfo` | High
+35 | File | `/goform/setportList` | High
+36 | File | `/goform/SetPptpServerCfg` | High
+37 | File | `/goform/WifiBasicSet` | High
+38 | File | `/group/apply` | Medium
+39 | File | `/gusetbook/save` | High
+40 | File | `/hdf5/src/H5Fint.c` | High
 41 | ... | ... | ...
 
-There are 350 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 355 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

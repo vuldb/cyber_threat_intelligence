@@ -52,32 +52,34 @@ ID | Type | Indicator | Confidence
 1 | File | `.python-version` | High
 2 | File | `/?r=email/api/mark&op=delFromSend` | High
 3 | File | `/admin/foreigner-bwdates-reports-details.php` | High
-4 | File | `/Applications/Utilities/Terminal` | High
-5 | File | `/cardo/api` | Medium
-6 | File | `/cgi-bin/wapopen` | High
-7 | File | `/cgi-bin/webproc` | High
-8 | File | `/classes/Master.php?f=delete_payment` | High
-9 | File | `/cms/category/list` | High
-10 | File | `/ctcprotocol/Protocol` | High
-11 | File | `/dashboard/contact` | High
-12 | File | `/edit_book.php` | High
-13 | File | `/etc/tomcat8/Catalina/attack` | High
-14 | File | `/etc/uci-defaults` | High
-15 | File | `/goform/setSnmpInfo` | High
-16 | File | `/goform/WifiBasicSet` | High
-17 | File | `/Home/debit_credit_p` | High
-18 | File | `/mgmt/tm/util/bash` | High
-19 | File | `/nova/bin/console` | High
-20 | File | `/ossn/administrator/com_installer` | High
-21 | File | `/Source/C++/Core/Ap4DataBuffer.cpp` | High
-22 | File | `/squashfs-root/www/HNAP1/control/SetWizardConfig.php` | High
-23 | File | `/src/helper.c` | High
-24 | File | `/uncpath/` | Medium
-25 | File | `/user-utils/users/md5.json` | High
-26 | File | `/user/check.php` | High
-27 | ... | ... | ...
+4 | File | `/ajax.php` | Medium
+5 | File | `/Applications/Utilities/Terminal` | High
+6 | File | `/cardo/api` | Medium
+7 | File | `/cgi-bin/cstecgi.cgi` | High
+8 | File | `/cgi-bin/wapopen` | High
+9 | File | `/cgi-bin/webproc` | High
+10 | File | `/classes/Master.php?f=delete_payment` | High
+11 | File | `/cms/category/list` | High
+12 | File | `/ctcprotocol/Protocol` | High
+13 | File | `/dashboard/contact` | High
+14 | File | `/edit_book.php` | High
+15 | File | `/etc/tomcat8/Catalina/attack` | High
+16 | File | `/etc/uci-defaults` | High
+17 | File | `/goform/setSnmpInfo` | High
+18 | File | `/goform/WifiBasicSet` | High
+19 | File | `/Home/debit_credit_p` | High
+20 | File | `/index.php?app=main&inc=feature_inboxgroup&op=list` | High
+21 | File | `/mgmt/tm/util/bash` | High
+22 | File | `/nova/bin/console` | High
+23 | File | `/ossn/administrator/com_installer` | High
+24 | File | `/php-music/classes/Master.php?f=delete_music` | High
+25 | File | `/quarantine.php?id=3` | High
+26 | File | `/Source/C++/Core/Ap4DataBuffer.cpp` | High
+27 | File | `/squashfs-root/www/HNAP1/control/SetWizardConfig.php` | High
+28 | File | `/src/helper.c` | High
+29 | ... | ... | ...
 
-There are 228 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 247 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

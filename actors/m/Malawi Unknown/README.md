@@ -106,7 +106,8 @@ ID | Type | Indicator | Confidence
 43 | File | `admin/index.php?id=themes&action=edit_chunk` | High
 44 | File | `admin/products/controller.php?action=add` | High
 45 | File | `administrator/index.php` | High
-46 | ... | ... | ...
+46 | File | `agenda.php` | Medium
+47 | ... | ... | ...
 
 There are 403 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 

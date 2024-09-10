@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 16 more country items available. Please use our online service to access the data.
+There are 18 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -41,7 +41,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -51,44 +51,49 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
 2 | File | `/.env` | Low
-3 | File | `/academy/tutor/filter` | High
-4 | File | `/add_reference_to_local_model` | High
-5 | File | `/admin/?page=user/manage_user&id=3` | High
-6 | File | `/admin/admin_user.php` | High
-7 | File | `/admin/category_row.php` | High
-8 | File | `/admin/index2.html` | High
-9 | File | `/admin/project/update/2` | High
-10 | File | `/admin/upload/img` | High
-11 | File | `/adminapi/system/crud` | High
-12 | File | `/api/authentication/login` | High
-13 | File | `/api/baskets/{name}` | High
-14 | File | `/api/jolokia org.jolokia.http.HttpRequestHandler#handlePostRequest` | High
-15 | File | `/api/wechat/app_auth` | High
-16 | File | `/api2/html/` | Medium
-17 | File | `/books` | Low
-18 | File | `/cas/logout` | Medium
-19 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
-20 | File | `/cgi-bin/supervisor/CloudSetup.cgi` | High
-21 | File | `/cgi-bin/wlogin.cgi` | High
-22 | File | `/ckeditor/samples/old/ajax.html` | High
-23 | File | `/classes/Master.php` | High
-24 | File | `/classes/Master.php?f=delete_item` | High
-25 | File | `/classes/Master.php?f=delete_service` | High
-26 | File | `/classes/Master.php?f=save_service` | High
-27 | File | `/config/getuser` | High
-28 | File | `/contact.php` | Medium
-29 | File | `/controller/OnlinePreviewController.java` | High
-30 | File | `/controllers/api/user.php` | High
-31 | File | `/dayrui/My/Config/Install.txt` | High
-32 | File | `/debug/pprof` | Medium
-33 | File | `/designer/add/layout` | High
-34 | File | `/dialog/select_media.php` | High
-35 | File | `/DXR.axd` | Medium
-36 | File | `/etc/quagga` | Medium
-37 | File | `/filemanager/upload/drop` | High
-38 | ... | ... | ...
+3 | File | `/?import` | Medium
+4 | File | `/academy/tutor/filter` | High
+5 | File | `/act/ActDao.xml` | High
+6 | File | `/add_reference_to_local_model` | High
+7 | File | `/admin.php/user/level_del` | High
+8 | File | `/admin/?page=user/manage_user&id=3` | High
+9 | File | `/admin/admin_user.php` | High
+10 | File | `/admin/category_row.php` | High
+11 | File | `/admin/index2.html` | High
+12 | File | `/admin/project/update/2` | High
+13 | File | `/admin/upload/img` | High
+14 | File | `/adminapi/system/crud` | High
+15 | File | `/api/authentication/login` | High
+16 | File | `/api/baskets/{name}` | High
+17 | File | `/api/jolokia org.jolokia.http.HttpRequestHandler#handlePostRequest` | High
+18 | File | `/api/wechat/app_auth` | High
+19 | File | `/api2/html/` | Medium
+20 | File | `/app/api/controller/default/Sqlite.php` | High
+21 | File | `/bin/boa` | Medium
+22 | File | `/bin/login` | Medium
+23 | File | `/books` | Low
+24 | File | `/cas/logout` | Medium
+25 | File | `/cgi-bin/logo_extra_upload.cgi` | High
+26 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
+27 | File | `/cgi-bin/supervisor/CloudSetup.cgi` | High
+28 | File | `/cgi-bin/wlogin.cgi` | High
+29 | File | `/ckeditor/samples/old/ajax.html` | High
+30 | File | `/classes/Master.php` | High
+31 | File | `/classes/Master.php?f=delete_item` | High
+32 | File | `/classes/Master.php?f=delete_service` | High
+33 | File | `/classes/Master.php?f=save_service` | High
+34 | File | `/config/getuser` | High
+35 | File | `/contact.php` | Medium
+36 | File | `/controller/OnlinePreviewController.java` | High
+37 | File | `/controller/publishHotel.php&amp` | High
+38 | File | `/controllers/api/user.php` | High
+39 | File | `/dayrui/My/Config/Install.txt` | High
+40 | File | `/debug/pprof` | Medium
+41 | File | `/designer/add/layout` | High
+42 | File | `/dialog/select_media.php` | High
+43 | ... | ... | ...
 
-There are 323 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 375 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

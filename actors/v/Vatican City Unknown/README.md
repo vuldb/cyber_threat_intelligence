@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [FR](https://vuldb.com/?country.fr)
 * ...
 
-There are 8 more country items available. Please use our online service to access the data.
+There are 6 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -49,14 +49,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-35 | Path Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
+4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -82,43 +82,44 @@ ID | Type | Indicator | Confidence
 16 | File | `/feegroups/tgrt_group.jsf` | High
 17 | File | `/fm-data.lua` | Medium
 18 | File | `/forum/away.php` | High
-19 | File | `/goform/SetLEDCfg` | High
-20 | File | `/goform/setMacFilterCfg` | High
-21 | File | `/goform/setSysAdm` | High
-22 | File | `/healthcare/Admin/consulting_detail.php` | High
-23 | File | `/inc/campaign_save.php` | High
-24 | File | `/jerry-core/ecma/operations/ecma-get-put-value.c` | High
-25 | File | `/leave_system/classes/Master.php?f=delete_department` | High
-26 | File | `/linux/main.cpp` | High
-27 | File | `/magick/quantize.c` | High
-28 | File | `/Monitoring-History.php` | High
-29 | File | `/plugin/rundeck/webhook/` | High
-30 | File | `/publisher` | Medium
-31 | File | `/release-x64/otfccdump` | High
-32 | File | `/sacco_shield/ajax.php?action=delete_plan` | High
-33 | File | `/SASWebReportStudio/logonAndRender.do` | High
-34 | File | `/SiteServer/Ajax/ajaxOtherService.aspx` | High
-35 | File | `/spip.php` | Medium
-36 | File | `/staff/delete.php` | High
-37 | File | `/sws/swsAlert.sws` | High
-38 | File | `/tiki-importer.php` | High
-39 | File | `/v1/sql-runner` | High
-40 | File | `/var/mail` | Medium
-41 | File | `/zm/index.php` | High
-42 | File | `actions.c` | Medium
-43 | File | `actions/doreport.php` | High
-44 | File | `adclick.php` | Medium
-45 | File | `addcustomer.asp/addprod.asp/process.asp` | High
-46 | File | `addressbookprovider.php` | High
-47 | File | `admin.html` | Medium
-48 | File | `admin/admin_users.php` | High
-49 | File | `admin/app/batch/csvup.php` | High
-50 | File | `admin/model.php` | High
-51 | File | `agenda.php` | Medium
-52 | File | `alert.php` | Medium
-53 | ... | ... | ...
+19 | File | `/FreshRSS/p/ext.php` | High
+20 | File | `/goform/SetLEDCfg` | High
+21 | File | `/goform/setMacFilterCfg` | High
+22 | File | `/goform/setSysAdm` | High
+23 | File | `/healthcare/Admin/consulting_detail.php` | High
+24 | File | `/inc/campaign_save.php` | High
+25 | File | `/jerry-core/ecma/operations/ecma-get-put-value.c` | High
+26 | File | `/leave_system/classes/Master.php?f=delete_department` | High
+27 | File | `/linux/main.cpp` | High
+28 | File | `/magick/quantize.c` | High
+29 | File | `/model/update_classroom.php` | High
+30 | File | `/Monitoring-History.php` | High
+31 | File | `/pages/systemcall.php?command={COMMAND}` | High
+32 | File | `/plugin/rundeck/webhook/` | High
+33 | File | `/publisher` | Medium
+34 | File | `/release-x64/otfccdump` | High
+35 | File | `/sacco_shield/ajax.php?action=delete_plan` | High
+36 | File | `/SASWebReportStudio/logonAndRender.do` | High
+37 | File | `/SiteServer/Ajax/ajaxOtherService.aspx` | High
+38 | File | `/spip.php` | Medium
+39 | File | `/staff/delete.php` | High
+40 | File | `/sws/swsAlert.sws` | High
+41 | File | `/tiki-importer.php` | High
+42 | File | `/v1/sql-runner` | High
+43 | File | `/var/mail` | Medium
+44 | File | `/zm/index.php` | High
+45 | File | `actions.c` | Medium
+46 | File | `actions/doreport.php` | High
+47 | File | `adclick.php` | Medium
+48 | File | `addcustomer.asp/addprod.asp/process.asp` | High
+49 | File | `addressbookprovider.php` | High
+50 | File | `admin.html` | Medium
+51 | File | `admin/admin_users.php` | High
+52 | File | `admin/app/batch/csvup.php` | High
+53 | File | `admin/article.php` | High
+54 | ... | ... | ...
 
-There are 463 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 474 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

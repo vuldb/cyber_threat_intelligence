@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [EG](https://vuldb.com/?country.eg)
 * ...
 
-There are 29 more country items available. Please use our online service to access the data.
+There are 28 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -62,11 +62,11 @@ ID | Type | Indicator | Confidence
 1 | File | `./clients/client` | High
 2 | File | `/+CSCOE+/logon.html` | High
 3 | File | `/acms/admin/cargo_types/view_cargo_type.php` | High
-4 | File | `/admin.php?action=themeinstall` | High
-5 | File | `/admin/addemployee.php` | High
-6 | File | `/admin/index.php` | High
-7 | File | `/admin/index2.html` | High
-8 | File | `/apilog.php` | Medium
+4 | File | `/addbill.php` | Medium
+5 | File | `/admin.php?action=themeinstall` | High
+6 | File | `/admin/addemployee.php` | High
+7 | File | `/admin/index.php` | High
+8 | File | `/admin/index2.html` | High
 9 | File | `/appliance/users?action=edit` | High
 10 | File | `/cgi-bin/webproc` | High
 11 | File | `/classes/Master.php?f=save_service` | High
@@ -74,42 +74,44 @@ ID | Type | Indicator | Confidence
 13 | File | `/filemanager/upload.php` | High
 14 | File | `/forum/away.php` | High
 15 | File | `/healthcare/Admin/consulting_detail.php` | High
-16 | File | `/if.cgi` | Low
-17 | File | `/login` | Low
-18 | File | `/mifs/c/i/reg/reg.html` | High
-19 | File | `/modules/profile/index.php` | High
-20 | File | `/news.dtl.php` | High
-21 | File | `/nova/bin/detnet` | High
-22 | File | `/nova/bin/igmp-proxy` | High
-23 | File | `/nova/bin/route` | High
-24 | File | `/pro-school/indexphp?student/message/send_reply/` | High
-25 | File | `/scas/admin/` | Medium
-26 | File | `/see_more_details.php` | High
-27 | File | `/services/details.asp` | High
-28 | File | `/setSystemAdmin` | High
-29 | File | `/setup` | Low
-30 | File | `/spip.php` | Medium
-31 | File | `/squashfs-root/etc_ro/custom.conf` | High
-32 | File | `/uncpath/` | Medium
-33 | File | `/usr/bin/pkexec` | High
-34 | File | `/var/log/nginx` | High
-35 | File | `/var/log/rkhunter.log` | High
-36 | File | `/VPortal/mgtconsole/Subscriptions.jsp` | High
-37 | File | `/wbms/classes/Users.php?f=save` | High
-38 | File | `/wp-admin/admin-ajax.php` | High
-39 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-40 | File | `/zm/index.php` | High
-41 | File | `3f.jsp` | Low
-42 | File | `123flashchat.php` | High
-43 | File | `a2dp_aac_decoder.cc` | High
-44 | File | `act.php` | Low
-45 | File | `adclick.php` | Medium
-46 | File | `addentry.php` | Medium
-47 | File | `admin` | Low
-48 | File | `admin-ajax.php` | High
-49 | ... | ... | ...
+16 | File | `/I/list.php` | Medium
+17 | File | `/if.cgi` | Low
+18 | File | `/login` | Low
+19 | File | `/mifs/c/i/reg/reg.html` | High
+20 | File | `/model/update_classroom.php` | High
+21 | File | `/modules/profile/index.php` | High
+22 | File | `/news.dtl.php` | High
+23 | File | `/nova/bin/detnet` | High
+24 | File | `/nova/bin/igmp-proxy` | High
+25 | File | `/nova/bin/route` | High
+26 | File | `/pro-school/indexphp?student/message/send_reply/` | High
+27 | File | `/royal_event/userregister.php` | High
+28 | File | `/scas/admin/` | Medium
+29 | File | `/see_more_details.php` | High
+30 | File | `/services/details.asp` | High
+31 | File | `/setSystemAdmin` | High
+32 | File | `/setup` | Low
+33 | File | `/signup.php` | Medium
+34 | File | `/spip.php` | Medium
+35 | File | `/squashfs-root/etc_ro/custom.conf` | High
+36 | File | `/uncpath/` | Medium
+37 | File | `/update-employee.php` | High
+38 | File | `/user/add-notes.php` | High
+39 | File | `/user/manage-notes.php` | High
+40 | File | `/usr/bin/pkexec` | High
+41 | File | `/var/log/rkhunter.log` | High
+42 | File | `/vpn/list_vpn_web_custom.php` | High
+43 | File | `/VPortal/mgtconsole/Subscriptions.jsp` | High
+44 | File | `/wbms/classes/Users.php?f=save` | High
+45 | File | `/wp-admin/admin-ajax.php` | High
+46 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+47 | File | `/zm/index.php` | High
+48 | File | `3/E_bak5.1/upload/eginfo.php` | High
+49 | File | `3f.jsp` | Low
+50 | File | `123flashchat.php` | High
+51 | ... | ... | ...
 
-There are 426 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 446 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

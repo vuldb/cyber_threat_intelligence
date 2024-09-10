@@ -87,7 +87,7 @@ ID | Type | Indicator | Confidence
 34 | File | `base_qry_main.php` | High
 35 | ... | ... | ...
 
-There are 297 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 298 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

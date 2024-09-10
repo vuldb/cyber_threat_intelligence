@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 17 more country items available. Please use our online service to access the data.
+There are 16 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -66,58 +66,60 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin.php/Admin/adminadd.html` | High
 3 | File | `/admin/about-us.php` | High
 4 | File | `/admin/action/delete-vaccine.php` | High
-5 | File | `/Admin/add-student.php` | High
-6 | File | `/admin/article.php` | High
-7 | File | `/admin/edit-post.php` | High
-8 | File | `/admin/edit.php` | High
-9 | File | `/admin/index2.html` | High
-10 | File | `/admin/settings/save.php` | High
-11 | File | `/admin/students/view_details.php` | High
-12 | File | `/admin/uesrs.php&action=type&userrole=Admin&userid=3` | High
-13 | File | `/admin/userprofile.php` | High
-14 | File | `/api/baskets/{name}` | High
-15 | File | `/app/index/controller/Common.php` | High
-16 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
-17 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
-18 | File | `/applications/nexus/modules/front/store/store.php` | High
-19 | File | `/apply.cgi` | Medium
-20 | File | `/bitrix/admin/ldap_server_edit.php` | High
-21 | File | `/cgi-bin/nas_sharing.cgi` | High
-22 | File | `/cgi-bin/system_mgr.cgi` | High
-23 | File | `/cgi-bin/wlogin.cgi` | High
-24 | File | `/classes/master.php?f=delete_order` | High
-25 | File | `/classes/Master.php?f=save_category` | High
-26 | File | `/classes/Users.php?f=save` | High
-27 | File | `/College/admin/teacher.php` | High
-28 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
-29 | File | `/dcim/rack-roles/` | High
-30 | File | `/fftools/ffmpeg_enc.c` | High
-31 | File | `/forms/doLogin` | High
-32 | File | `/formSysLog` | Medium
-33 | File | `/forum/away.php` | High
-34 | File | `/goform/addUserName` | High
-35 | File | `/goform/aspForm` | High
-36 | File | `/goform/delAd` | High
-37 | File | `/goform/SetOnlineDevName` | High
-38 | File | `/goform/wifiSSIDset` | High
-39 | File | `/gpac/src/bifs/unquantize.c` | High
-40 | File | `/h/autoSaveDraft` | High
-41 | File | `/inc/topBarNav.php` | High
-42 | File | `/index.asp` | Medium
-43 | File | `/index.php` | Medium
-44 | File | `/index.php?app=main&func=passport&action=login` | High
-45 | File | `/install/` | Medium
-46 | File | `/kelas/data` | Medium
-47 | File | `/librarian/bookdetails.php` | High
-48 | File | `/listplace/user/ticket/create` | High
-49 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
-50 | File | `/messageboard/view.php` | High
-51 | File | `/model/update_grade.php` | High
-52 | File | `/Moosikay/order.php` | High
-53 | File | `/novel/author/list` | High
-54 | ... | ... | ...
+5 | File | `/admin/article.php` | High
+6 | File | `/admin/edit-post.php` | High
+7 | File | `/admin/edit.php` | High
+8 | File | `/admin/index2.html` | High
+9 | File | `/admin/settings/save.php` | High
+10 | File | `/admin/students/view_details.php` | High
+11 | File | `/admin/uesrs.php&action=type&userrole=Admin&userid=3` | High
+12 | File | `/admin/userprofile.php` | High
+13 | File | `/api/baskets/{name}` | High
+14 | File | `/app/index/controller/Common.php` | High
+15 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
+16 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
+17 | File | `/applications/nexus/modules/front/store/store.php` | High
+18 | File | `/apply.cgi` | Medium
+19 | File | `/bitrix/admin/ldap_server_edit.php` | High
+20 | File | `/cgi-bin/apkg_mgr.cgi` | High
+21 | File | `/cgi-bin/cstecgi.cgi` | High
+22 | File | `/cgi-bin/nas_sharing.cgi` | High
+23 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+24 | File | `/cgi-bin/system_mgr.cgi` | High
+25 | File | `/cgi-bin/wlogin.cgi` | High
+26 | File | `/classes/Master.php` | High
+27 | File | `/classes/master.php?f=delete_order` | High
+28 | File | `/classes/Master.php?f=delete_record` | High
+29 | File | `/classes/Master.php?f=save_category` | High
+30 | File | `/classes/SystemSettings.php?f=update_settings` | High
+31 | File | `/classes/Users.php?f=save` | High
+32 | File | `/College/admin/teacher.php` | High
+33 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
+34 | File | `/dcim/rack-roles/` | High
+35 | File | `/etc/shadow.sample` | High
+36 | File | `/fftools/ffmpeg_enc.c` | High
+37 | File | `/forms/doLogin` | High
+38 | File | `/formSysLog` | Medium
+39 | File | `/forum/away.php` | High
+40 | File | `/goform/addUserName` | High
+41 | File | `/goform/aspForm` | High
+42 | File | `/goform/delAd` | High
+43 | File | `/goform/SetOnlineDevName` | High
+44 | File | `/goform/wifiSSIDset` | High
+45 | File | `/gpac/src/bifs/unquantize.c` | High
+46 | File | `/h.php/page?ref=addtabs` | High
+47 | File | `/h/autoSaveDraft` | High
+48 | File | `/image.php` | Medium
+49 | File | `/inc/topBarNav.php` | High
+50 | File | `/includes/common/require_access_recovery.php` | High
+51 | File | `/index.php` | Medium
+52 | File | `/index.php?action=editPharmacist` | High
+53 | File | `/index.php?app=main&func=passport&action=login` | High
+54 | File | `/install/` | Medium
+55 | File | `/kelas/data` | Medium
+56 | ... | ... | ...
 
-There are 466 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 484 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

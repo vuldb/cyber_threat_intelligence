@@ -19,8 +19,11 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [46.41.139.162](https://vuldb.com/?ip.46.41.139.162) | cart.madrepatria.org | - | High
-2 | [154.198.247.73](https://vuldb.com/?ip.154.198.247.73) | - | - | High
-3 | [205.234.200.26](https://vuldb.com/?ip.205.234.200.26) | - | - | High
+2 | [107.172.16.206](https://vuldb.com/?ip.107.172.16.206) | 107-172-16-206-host.colocrossing.com | - | High
+3 | [154.198.247.73](https://vuldb.com/?ip.154.198.247.73) | - | - | High
+4 | ... | ... | ... | ...
+
+There are 1 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -46,6 +49,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://bazaar.abuse.ch/sample/4cc65461ef1448c99b90bc36767f164b06e8452c50cf10401cf353fcdb68544c/
 * https://bazaar.abuse.ch/sample/690f29dd425f7415ecb50986aa26750960c39a0ca8a02ddfd37ec4196993bd9e/
 * https://bazaar.abuse.ch/sample/a46e386c540170f42b0815c151a2c6f87c53af3eb3126f1d1f6812be272e4004/
+* https://threatfox.abuse.ch
 
 ## Literature
 

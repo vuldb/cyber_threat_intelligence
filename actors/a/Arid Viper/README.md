@@ -76,25 +76,25 @@ ID | Type | Indicator | Confidence
 18 | File | `/admin/tasks` | Medium
 19 | File | `/admin/tax` | Medium
 20 | File | `/admin/vendor` | High
-21 | File | `/adminlogin.asp` | High
-22 | File | `/adminpanel/admin/query/addCourseExe.php` | High
-23 | File | `/admin_class.php` | High
-24 | File | `/ajax-files/followBoard.php` | High
-25 | File | `/ajax-files/postComment.php` | High
-26 | File | `/ajax.php` | Medium
-27 | File | `/apps/app_comment/controller/insert.php` | High
-28 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-29 | File | `/classes/SystemSettings.php?f=update_settings` | High
-30 | File | `/employee_gatepass/classes/Users.php?f=ssave` | High
-31 | File | `/endpoint/delete-mark.php` | High
-32 | File | `/forum/away.php` | High
-33 | File | `/general/meeting/manage/delete.php` | High
-34 | File | `/improve/home.php` | High
-35 | File | `/inc/parser/xhtml.php` | High
-36 | File | `/index.php` | Medium
+21 | File | `/admin/vpsApiData_deal.php?mudi=del` | High
+22 | File | `/adminlogin.asp` | High
+23 | File | `/adminpanel/admin/query/addCourseExe.php` | High
+24 | File | `/admin_class.php` | High
+25 | File | `/ajax-files/followBoard.php` | High
+26 | File | `/ajax-files/postComment.php` | High
+27 | File | `/ajax.php` | Medium
+28 | File | `/apps/app_comment/controller/insert.php` | High
+29 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
+30 | File | `/classes/SystemSettings.php?f=update_settings` | High
+31 | File | `/employee_gatepass/classes/Users.php?f=ssave` | High
+32 | File | `/endpoint/delete-mark.php` | High
+33 | File | `/forum/away.php` | High
+34 | File | `/general/meeting/manage/delete.php` | High
+35 | File | `/goform/WifiBasicSet` | High
+36 | File | `/improve/home.php` | High
 37 | ... | ... | ...
 
-There are 317 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 321 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

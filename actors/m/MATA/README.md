@@ -52,29 +52,31 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.procmailrc` | Medium
 2 | File | `/admin/dl_sendmail.php` | High
-3 | File | `/adminPage/conf/reload` | High
-4 | File | `/api/baskets/{name}` | High
-5 | File | `/api/v2/cli/commands` | High
-6 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
-7 | File | `/DXR.axd` | Medium
-8 | File | `/forum/away.php` | High
-9 | File | `/mfsNotice/page` | High
-10 | File | `/mgmt/tm/util/bash` | High
-11 | File | `/novel/bookSetting/list` | High
-12 | File | `/novel/userFeedback/list` | High
-13 | File | `/out.php` | Medium
-14 | File | `/owa/auth/logon.aspx` | High
-15 | File | `/phppath/php` | Medium
-16 | File | `/spip.php` | Medium
-17 | File | `/systemrw/` | Medium
-18 | File | `/uncpath/` | Medium
-19 | File | `/x_portal_assemble_surface/jaxrs/portal/list?v=8.2.3-4-43f4fe3` | High
-20 | File | `/zm/index.php` | High
-21 | File | `adclick.php` | Medium
-22 | File | `admin.jcomments.php` | High
-23 | ... | ... | ...
+3 | File | `/admin/index2.html` | High
+4 | File | `/adminPage/conf/reload` | High
+5 | File | `/api/baskets/{name}` | High
+6 | File | `/api/v2/cli/commands` | High
+7 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
+8 | File | `/DXR.axd` | Medium
+9 | File | `/forum/away.php` | High
+10 | File | `/log/decodmail.php` | High
+11 | File | `/mfsNotice/page` | High
+12 | File | `/mgmt/tm/util/bash` | High
+13 | File | `/novel/bookSetting/list` | High
+14 | File | `/novel/userFeedback/list` | High
+15 | File | `/out.php` | Medium
+16 | File | `/owa/auth/logon.aspx` | High
+17 | File | `/phppath/php` | Medium
+18 | File | `/register.php` | High
+19 | File | `/spip.php` | Medium
+20 | File | `/systemrw/` | Medium
+21 | File | `/ueditor/net/controller.ashx?action=catchimage` | High
+22 | File | `/uncpath/` | Medium
+23 | File | `/x_portal_assemble_surface/jaxrs/portal/list?v=8.2.3-4-43f4fe3` | High
+24 | File | `/zm/index.php` | High
+25 | ... | ... | ...
 
-There are 196 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 208 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

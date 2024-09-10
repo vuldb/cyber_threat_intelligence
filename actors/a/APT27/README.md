@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 18 more country items available. Please use our online service to access the data.
+There are 19 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -63,49 +63,49 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/api/admin/system/store/order/list` | High
-3 | File | `/cgi-bin/cstecgi.cgi` | High
-4 | File | `/cgi-bin/live_api.cgi` | High
-5 | File | `/cgi-bin/wapopen` | High
-6 | File | `/cgi-bin/wlogin.cgi` | High
-7 | File | `/config/getuser` | High
-8 | File | `/csms/?page=contact_us` | High
-9 | File | `/etc/ajenti/config.yml` | High
-10 | File | `/etc/shadow` | Medium
-11 | File | `/forum/away.php` | High
-12 | File | `/goform/telnet` | High
-13 | File | `/h/` | Low
-14 | File | `/infusions/shoutbox_panel/shoutbox_admin.php` | High
-15 | File | `/lan.asp` | Medium
-16 | File | `/modules/profile/index.php` | High
-17 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-18 | File | `/oscommerce/admin/currencies.php` | High
-19 | File | `/proc/pid/syscall` | High
-20 | File | `/public/launchNewWindow.jsp` | High
-21 | File | `/rapi/read_url` | High
-22 | File | `/rom-0` | Low
-23 | File | `/session/list/allActiveSession` | High
-24 | File | `/sys/dict/loadTreeData` | High
-25 | File | `/SysInfo.htm` | Medium
-26 | File | `/syslog_rules` | High
-27 | File | `/tmp/out` | Medium
-28 | File | `/Tool/uploadfile.php` | High
-29 | File | `/uncpath/` | Medium
-30 | File | `/upload` | Low
-31 | File | `/users/{id}` | Medium
-32 | File | `/var/tmp/sess_*` | High
-33 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
-34 | File | `/video` | Low
-35 | File | `actionphp/download.File.php` | High
-36 | File | `ActivityManagerService.java` | High
-37 | File | `adaptmap_reg.c` | High
-38 | File | `add_comment.php` | High
-39 | File | `admin.cgi` | Medium
-40 | File | `admin.php` | Medium
-41 | File | `admin.php?action=files` | High
+2 | File | `/admin/pages/` | High
+3 | File | `/admins` | Low
+4 | File | `/api/admin/system/store/order/list` | High
+5 | File | `/cgi-bin/cstecgi.cgi` | High
+6 | File | `/cgi-bin/live_api.cgi` | High
+7 | File | `/cgi-bin/wapopen` | High
+8 | File | `/cgi-bin/wlogin.cgi` | High
+9 | File | `/config/getuser` | High
+10 | File | `/csms/?page=contact_us` | High
+11 | File | `/etc/ajenti/config.yml` | High
+12 | File | `/etc/shadow` | Medium
+13 | File | `/farm/product.php` | High
+14 | File | `/forum/away.php` | High
+15 | File | `/goform/telnet` | High
+16 | File | `/h/` | Low
+17 | File | `/infusions/shoutbox_panel/shoutbox_admin.php` | High
+18 | File | `/lan.asp` | Medium
+19 | File | `/modules/profile/index.php` | High
+20 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+21 | File | `/oscommerce/admin/currencies.php` | High
+22 | File | `/proc/pid/syscall` | High
+23 | File | `/ptippage.cgi` | High
+24 | File | `/public/launchNewWindow.jsp` | High
+25 | File | `/rapi/read_url` | High
+26 | File | `/rom-0` | Low
+27 | File | `/session/list/allActiveSession` | High
+28 | File | `/sys/dict/loadTreeData` | High
+29 | File | `/SysInfo.htm` | Medium
+30 | File | `/syslog_rules` | High
+31 | File | `/tmp/out` | Medium
+32 | File | `/Tool/uploadfile.php` | High
+33 | File | `/uncpath/` | Medium
+34 | File | `/upload` | Low
+35 | File | `/users/{id}` | Medium
+36 | File | `/var/tmp/sess_*` | High
+37 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
+38 | File | `/video` | Low
+39 | File | `actionphp/download.File.php` | High
+40 | File | `ActivityManagerService.java` | High
+41 | File | `adaptmap_reg.c` | High
 42 | ... | ... | ...
 
-There are 362 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 365 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

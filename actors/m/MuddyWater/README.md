@@ -24,7 +24,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 27 more country items available. Please use our online service to access the data.
+There are 28 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -35,38 +35,42 @@ ID | IP address | Hostname | Campaign | Confidence
 1 | [1.5.1.1](https://vuldb.com/?ip.1.5.1.1) | - | - | High
 2 | [5.9.0.155](https://vuldb.com/?ip.5.9.0.155) | static.155.0.9.5.clients.your-server.de | - | High
 3 | [5.199.133.149](https://vuldb.com/?ip.5.199.133.149) | ve958.venus.servdiscount-customer.com | - | High
-4 | [7.236.212.22](https://vuldb.com/?ip.7.236.212.22) | - | - | High
-5 | [23.94.7.9](https://vuldb.com/?ip.23.94.7.9) | unsupervised.etcharb.com | - | High
-6 | [23.94.7.134](https://vuldb.com/?ip.23.94.7.134) | landau.etcharb.com | - | High
-7 | [23.94.24.76](https://vuldb.com/?ip.23.94.24.76) | 23-94-24-76-host.colocrossing.com | - | High
-8 | [23.94.24.77](https://vuldb.com/?ip.23.94.24.77) | 23-94-24-77-host.colocrossing.com | - | High
-9 | [23.94.24.78](https://vuldb.com/?ip.23.94.24.78) | 23-94-24-78-host.colocrossing.com | - | High
-10 | [23.95.8.149](https://vuldb.com/?ip.23.95.8.149) | 23-95-8-149-host.colocrossing.com | - | High
-11 | [31.171.154.67](https://vuldb.com/?ip.31.171.154.67) | - | Seedworm | High
-12 | [37.120.237.204](https://vuldb.com/?ip.37.120.237.204) | - | - | High
-13 | [37.120.237.248](https://vuldb.com/?ip.37.120.237.248) | - | - | High
-14 | [37.187.204.27](https://vuldb.com/?ip.37.187.204.27) | smtp1.hosterdaddy.com | - | High
-15 | [38.132.99.167](https://vuldb.com/?ip.38.132.99.167) | - | BlackWater | High
-16 | [45.66.249.226](https://vuldb.com/?ip.45.66.249.226) | adbs.info.calculadoradecarbono.store | - | High
-17 | [45.67.230.91](https://vuldb.com/?ip.45.67.230.91) | vm1552984.stark-industries.solutions | - | High
-18 | [45.86.230.20](https://vuldb.com/?ip.45.86.230.20) | mta0.officeportal-centers.gq | PhonyC2 | High
-19 | [45.132.75.101](https://vuldb.com/?ip.45.132.75.101) | edc1.6nc051221c.co | - | High
-20 | [45.140.147.81](https://vuldb.com/?ip.45.140.147.81) | vm2128682.stark-industries.solutions | - | High
-21 | [45.142.212.61](https://vuldb.com/?ip.45.142.212.61) | vm218389.pq.hosting | - | High
-22 | [45.142.213.17](https://vuldb.com/?ip.45.142.213.17) | vm218393.pq.hosting | - | High
-23 | [45.150.64.23](https://vuldb.com/?ip.45.150.64.23) | vm1804325.stark-industries.solutions | - | High
-24 | [45.150.64.39](https://vuldb.com/?ip.45.150.64.39) | vm1518947.stark-industries.solutions | - | High
-25 | [45.150.64.239](https://vuldb.com/?ip.45.150.64.239) | vm1715150.stark-industries.solutions | - | High
-26 | [45.153.231.104](https://vuldb.com/?ip.45.153.231.104) | vm218397.pq.hosting | - | High
-27 | [45.159.248.244](https://vuldb.com/?ip.45.159.248.244) | vm1355757.stark-industries.solutions | PhonyC2 | High
-28 | [46.99.148.96](https://vuldb.com/?ip.46.99.148.96) | - | Seedworm | High
-29 | [46.166.129.159](https://vuldb.com/?ip.46.166.129.159) | gcn.warrirge.com | - | High
-30 | [46.249.35.243](https://vuldb.com/?ip.46.249.35.243) | uhteronia.xyz | PhonyC2 | High
-31 | [51.77.97.65](https://vuldb.com/?ip.51.77.97.65) | ip65.ip-51-77-97.eu | - | High
-32 | [51.255.19.178](https://vuldb.com/?ip.51.255.19.178) | pru2.6nc110821hdb.co | - | High
-33 | ... | ... | ... | ...
+4 | [5.252.23.52](https://vuldb.com/?ip.5.252.23.52) | - | - | High
+5 | [7.236.212.22](https://vuldb.com/?ip.7.236.212.22) | - | - | High
+6 | [23.94.7.9](https://vuldb.com/?ip.23.94.7.9) | unsupervised.etcharb.com | - | High
+7 | [23.94.7.134](https://vuldb.com/?ip.23.94.7.134) | landau.etcharb.com | - | High
+8 | [23.94.24.76](https://vuldb.com/?ip.23.94.24.76) | 23-94-24-76-host.colocrossing.com | - | High
+9 | [23.94.24.77](https://vuldb.com/?ip.23.94.24.77) | 23-94-24-77-host.colocrossing.com | - | High
+10 | [23.94.24.78](https://vuldb.com/?ip.23.94.24.78) | 23-94-24-78-host.colocrossing.com | - | High
+11 | [23.95.8.149](https://vuldb.com/?ip.23.95.8.149) | 23-95-8-149-host.colocrossing.com | - | High
+12 | [31.171.154.54](https://vuldb.com/?ip.31.171.154.54) | - | - | High
+13 | [31.171.154.67](https://vuldb.com/?ip.31.171.154.67) | - | Seedworm | High
+14 | [37.120.237.204](https://vuldb.com/?ip.37.120.237.204) | - | - | High
+15 | [37.120.237.248](https://vuldb.com/?ip.37.120.237.248) | - | - | High
+16 | [37.187.204.27](https://vuldb.com/?ip.37.187.204.27) | smtp1.hosterdaddy.com | - | High
+17 | [38.132.99.167](https://vuldb.com/?ip.38.132.99.167) | - | BlackWater | High
+18 | [45.66.249.226](https://vuldb.com/?ip.45.66.249.226) | adbs.info.calculadoradecarbono.store | - | High
+19 | [45.67.230.91](https://vuldb.com/?ip.45.67.230.91) | vm1552984.stark-industries.solutions | - | High
+20 | [45.86.230.20](https://vuldb.com/?ip.45.86.230.20) | mta0.officeportal-centers.gq | PhonyC2 | High
+21 | [45.132.75.101](https://vuldb.com/?ip.45.132.75.101) | edc1.6nc051221c.co | - | High
+22 | [45.140.147.81](https://vuldb.com/?ip.45.140.147.81) | vm2128682.stark-industries.solutions | - | High
+23 | [45.142.212.61](https://vuldb.com/?ip.45.142.212.61) | vm218389.pq.hosting | - | High
+24 | [45.142.213.17](https://vuldb.com/?ip.45.142.213.17) | vm218393.pq.hosting | - | High
+25 | [45.150.64.23](https://vuldb.com/?ip.45.150.64.23) | vm1804325.stark-industries.solutions | - | High
+26 | [45.150.64.39](https://vuldb.com/?ip.45.150.64.39) | vm1518947.stark-industries.solutions | - | High
+27 | [45.150.64.239](https://vuldb.com/?ip.45.150.64.239) | vm1715150.stark-industries.solutions | - | High
+28 | [45.150.108.198](https://vuldb.com/?ip.45.150.108.198) | - | - | High
+29 | [45.153.231.104](https://vuldb.com/?ip.45.153.231.104) | vm218397.pq.hosting | - | High
+30 | [45.159.248.244](https://vuldb.com/?ip.45.159.248.244) | vm1355757.stark-industries.solutions | PhonyC2 | High
+31 | [46.99.148.96](https://vuldb.com/?ip.46.99.148.96) | - | Seedworm | High
+32 | [46.166.129.159](https://vuldb.com/?ip.46.166.129.159) | gcn.warrirge.com | - | High
+33 | [46.249.35.243](https://vuldb.com/?ip.46.249.35.243) | uhteronia.xyz | PhonyC2 | High
+34 | [51.77.97.65](https://vuldb.com/?ip.51.77.97.65) | ip65.ip-51-77-97.eu | - | High
+35 | [51.255.19.178](https://vuldb.com/?ip.51.255.19.178) | pru2.6nc110821hdb.co | - | High
+36 | [51.255.19.179](https://vuldb.com/?ip.51.255.19.179) | pru3.6nc110821hdb.co | - | High
+37 | ... | ... | ... | ...
 
-There are 129 more IOC items available. Please use our online service to access the data.
+There are 142 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -74,9 +78,9 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23, CWE-24, CWE-425 | Path Traversal | High
-2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-27, CWE-35, CWE-425 | Path Traversal | High
+2 | T1055 | CWE-74, CWE-643 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
@@ -88,97 +92,92 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.git/` | Low
-2 | File | `/?g=net_pro_keyword_import_save` | High
-3 | File | `/?Page=Node&OBJ=/System/AdvancedSettings/DeviceSettings/MiscSettings` | High
-4 | File | `/Account/login.php` | High
-5 | File | `/actuator/heapdump` | High
-6 | File | `/admin` | Low
-7 | File | `/admin-api/upload_image` | High
-8 | File | `/admin/?page=user/list` | High
-9 | File | `/Admin/add-admin.php` | High
-10 | File | `/admin/addgiving.php` | High
-11 | File | `/admin/addTithes.php` | High
-12 | File | `/admin/add_sundaysch.php` | High
-13 | File | `/admin/add_visitor.php` | High
-14 | File | `/admin/admin_cl.php?mudi=revPwd` | High
-15 | File | `/admin/admin_user.php` | High
-16 | File | `/admin/case-type` | High
-17 | File | `/admin/category/view_category.php` | High
-18 | File | `/admin/config_MT.php?action=delete` | High
-19 | File | `/admin/court-type` | High
-20 | File | `/admin/delete_log.php` | High
-21 | File | `/Admin/edit-photo.php` | High
-22 | File | `/admin/edit-post.php` | High
-23 | File | `/Admin/edit_profile.php` | High
-24 | File | `/admin/expense-type` | High
-25 | File | `/admin/general-setting` | High
-26 | File | `/admin/index.php` | High
-27 | File | `/admin/index.php?page=categories` | High
-28 | File | `/admin/judge` | Medium
-29 | File | `/admin/list_crl_conf` | High
-30 | File | `/admin/login.php` | High
-31 | File | `/admin/manage-ambulance.php` | High
-32 | File | `/admin/modules/product/controller.php?action=add` | High
-33 | File | `/admin/role` | Medium
-34 | File | `/admin/students/manage.php` | High
-35 | File | `/admin/tag.php` | High
-36 | File | `/admin/twitter.php` | High
-37 | File | `/Admin/user-record.php` | High
-38 | File | `/adminPage/conf/saveCmd` | High
-39 | File | `/adminPage/main/upload` | High
-40 | File | `/adminPage/www/addOver` | High
-41 | File | `/adminpanel/admin/facebox_modal/updateExaminee.php` | High
-42 | File | `/adminpanel/admin/query/deleteCourseExe.php` | High
-43 | File | `/adminpanel/admin/query/deleteExamExe.php` | High
-44 | File | `/adminpanel/admin/query/deleteQuestionExe.php` | High
-45 | File | `/adminpanel/admin/query/loginExe.php` | High
-46 | File | `/api/blade-user/export-user` | High
-47 | File | `/api/process.php` | High
-48 | File | `/api/v1/toolbox/device/update/swap` | High
-49 | File | `/api/v2/maps` | Medium
-50 | File | `/api/v2/open/rowsInfo` | High
-51 | File | `/api/v4/users/me/teams` | High
-52 | File | `/application/controller/Pelanggan.php` | High
-53 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
-54 | File | `/assoc_table.php` | High
-55 | File | `/bin/login` | Medium
-56 | File | `/boaform/getASPdata/formFirewall` | High
-57 | File | `/cart.php` | Medium
-58 | File | `/cgi-bin/cstecgi.cgi` | High
-59 | File | `/cgi-bin/debug_dump.cgi` | High
-60 | File | `/cgi-bin/ExportSettings.sh` | High
-61 | File | `/cgi-bin/nas_sharing.cgi` | High
-62 | File | `/cgi-bin/upload_config.cgi` | High
-63 | File | `/classes/Master.php?f=load_registration` | High
-64 | File | `/classes/Master.php?f=log_employee` | High
-65 | File | `/classes/Master.php?f=log_visitor` | High
-66 | File | `/classes/Master.php?f=save_category` | High
-67 | File | `/classes/SystemSettings.php?f=update_settings` | High
-68 | File | `/classes/Users.php` | High
-69 | File | `/classes/Users.php?f=delete` | High
-70 | File | `/classes/Users.php?f=save` | High
-71 | File | `/cms/classes/Users.php?f=delete_client` | High
-72 | File | `/command_port.ini` | High
-73 | File | `/control/activate_case.php` | High
-74 | File | `/control/deactivate_case.php` | High
-75 | File | `/control/register_case.php` | High
-76 | File | `/deletefile.php` | High
-77 | File | `/description.php` | High
-78 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
-79 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
-80 | File | `/dolibarr/commande/list.php` | High
-81 | File | `/edit-subject.php` | High
-82 | File | `/emgui/rest/ums/messages` | High
-83 | File | `/Employee/apply_leave.php` | High
-84 | File | `/Employee/changepassword.php` | High
-85 | File | `/Employee/delete_leave.php` | High
-86 | File | `/Employee/edit-profile.php` | High
-87 | File | `/endpoint/add-image.php` | High
-88 | File | `/endpoint/delete-bill.php` | High
-89 | ... | ... | ...
+1 | File | `/add-students.php` | High
+2 | File | `/addcategory.php` | High
+3 | File | `/admin` | Low
+4 | File | `/admin-cp/theme/editor/default` | High
+5 | File | `/admin/?action=home&do=shop:index&keyword=&kind=all` | High
+6 | File | `/admin/?page=user/list` | High
+7 | File | `/admin/about_edit.php?action=modify` | High
+8 | File | `/admin/ajax.php?action=login` | High
+9 | File | `/admin/ajax.php?action=save_settings` | High
+10 | File | `/admin/category_save.php` | High
+11 | File | `/admin/check_admin.php` | High
+12 | File | `/admin/config_MT.php?action=delete` | High
+13 | File | `/admin/config_time_sync.php` | High
+14 | File | `/admin/edit_area.php` | High
+15 | File | `/admin/emp-profile-avatar.php` | High
+16 | File | `/admin/file_manager/export` | High
+17 | File | `/admin/file_manager/files` | High
+18 | File | `/Admin/Http/Controllers/FileManagerController.php` | High
+19 | File | `/admin/index.php` | High
+20 | File | `/admin/index.php?page=categories` | High
+21 | File | `/admin/index.php?page=manage_lot` | High
+22 | File | `/admin/index.php?r=banner%2Fbanner-create` | High
+23 | File | `/admin/index.php?r=user%2Fcreate` | High
+24 | File | `/admin/login.php` | High
+25 | File | `/admin/manage_user.php` | High
+26 | File | `/admin/member_save.php` | High
+27 | File | `/admin/menu.php` | High
+28 | File | `/admin/modules/product/controller.php?action=add` | High
+29 | File | `/admin/mod_room/controller.php?action=add` | High
+30 | File | `/admin/notes/create` | High
+31 | File | `/admin/pages/` | High
+32 | File | `/admin/pages/list` | High
+33 | File | `/Admin/registration.php` | High
+34 | File | `/admin/settings/index.php?page=accounts` | High
+35 | File | `/admin/student.php` | High
+36 | File | `/admin/system.html` | High
+37 | File | `/admin/team_save.php` | High
+38 | File | `/admin/user/user-move-run.php` | High
+39 | File | `/adm_program/modules/ecards/ecard_send.php` | High
+40 | File | `/ajax.php?action=login` | High
+41 | File | `/ajax.php?action=save_establishment` | High
+42 | File | `/ajax/checkin.php` | High
+43 | File | `/ajax/get_patient_history.php` | High
+44 | File | `/api/blade-system/menu/list?updatexml` | High
+45 | File | `/api/dept` | Medium
+46 | File | `/api/dept/build` | High
+47 | File | `/api/file/downloadfile` | High
+48 | File | `/api/file/multiDownload` | High
+49 | File | `/api/files/recipepictures/` | High
+50 | File | `/api/test/download` | High
+51 | File | `/api/user` | Medium
+52 | File | `/api/v1/toolbox/device/update/swap` | High
+53 | File | `/api/v2/maps` | Medium
+54 | File | `/api/v2/open/rowsInfo` | High
+55 | File | `/app/uploading/upload-mp3.php` | High
+56 | File | `/apply.cgi` | Medium
+57 | File | `/attendancelist.php` | High
+58 | File | `/authMonitCallcenter` | High
+59 | File | `/bin/boa` | Medium
+60 | File | `/branch_viewmore.php` | High
+61 | File | `/cgi-bin/cstecgi.cgi` | High
+62 | File | `/cgi-bin/cstecgi.cgi?action=save&setting` | High
+63 | File | `/cgi-bin/hd_config.cgi` | High
+64 | File | `/cgi-bin/myMusic.cgi` | High
+65 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+66 | File | `/cgi-bin/s3.cgi` | High
+67 | File | `/cgi-bin/webdav_mgr.cgi` | High
+68 | File | `/cgi-bin/webfile_mgr.cgi` | High
+69 | File | `/classes/Master.php?f=delete_category` | High
+70 | File | `/classes/Master.php?f=delete_record` | High
+71 | File | `/classes/Master.php?f=log_employee` | High
+72 | File | `/classes/Master.php?f=log_visitor` | High
+73 | File | `/classes/Master.php?f=save_medicine` | High
+74 | File | `/classes/Master.php?f=save_package` | High
+75 | File | `/classes/SystemSettings.php?f=update_settings` | High
+76 | File | `/classes/Users.php?f=delete` | High
+77 | File | `/classes/Users.php?f=save` | High
+78 | File | `/classes/Users.php?f=save_client` | High
+79 | File | `/classes/Users.php?f=save_user` | High
+80 | File | `/cms/classes/Users.php?f=delete_client` | High
+81 | File | `/common/show_image.php` | High
+82 | File | `/controllers/add_user.php` | High
+83 | File | `/department_viewmore.php` | High
+84 | ... | ... | ...
 
-There are 782 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 740 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -191,6 +190,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://github.com/deepinstinct/Israel-Cyber-Warfare-Threat-Actors/blob/main/IOCs-MuddyC2GO.csv
 * https://jp.security.ntt/tech_blog/102hq2r
 * https://reaqta.com/2017/11/muddywater-apt-targeting-middle-east/
+* https://research.checkpoint.com/2024/new-bugsleep-backdoor-deployed-in-recent-muddywater-campaigns/
 * https://securelist.com/muddywater/88059/
 * https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/iran-apt-seedworm-africa-telecoms
 * https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/seedworm-espionage-group

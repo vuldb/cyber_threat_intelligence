@@ -63,26 +63,27 @@ ID | Type | Indicator | Confidence
 11 | File | `/ebics-server/ebics.aspx` | High
 12 | File | `/forum/away.php` | High
 13 | File | `/fuel/index.php/fuel/logs/items` | High
-14 | File | `/monitoring` | Medium
-15 | File | `/ocwbs/classes/Master.php?f=get_vehicle_service` | High
-16 | File | `/one/getpassword.php` | High
-17 | File | `/out.php` | Medium
-18 | File | `/phppath/php` | Medium
-19 | File | `/preview.php` | Medium
-20 | File | `/sec/content/sec_asa_users_local_db_add.html` | High
-21 | File | `/secure/admin/AssociatedProjectsForCustomField.jspa` | High
-22 | File | `/secure/QueryComponent!Default.jspa` | High
-23 | File | `/servlet/webacc` | High
-24 | File | `/setNTP.cgi` | Medium
-25 | File | `/Side.php` | Medium
-26 | File | `/spip/ecrire/` | High
-27 | File | `/uncpath/` | Medium
-28 | File | `/uploads/tags.php` | High
-29 | File | `/userfs/bin/tcapi` | High
-30 | File | `/usr/bin/pkexec` | High
-31 | ... | ... | ...
+14 | File | `/hedwig.cgi` | Medium
+15 | File | `/monitoring` | Medium
+16 | File | `/ocwbs/classes/Master.php?f=get_vehicle_service` | High
+17 | File | `/one/getpassword.php` | High
+18 | File | `/out.php` | Medium
+19 | File | `/phppath/php` | Medium
+20 | File | `/preview.php` | Medium
+21 | File | `/sec/content/sec_asa_users_local_db_add.html` | High
+22 | File | `/secure/admin/AssociatedProjectsForCustomField.jspa` | High
+23 | File | `/secure/QueryComponent!Default.jspa` | High
+24 | File | `/servlet/webacc` | High
+25 | File | `/setNTP.cgi` | Medium
+26 | File | `/Side.php` | Medium
+27 | File | `/spip/ecrire/` | High
+28 | File | `/uncpath/` | Medium
+29 | File | `/uploads/tags.php` | High
+30 | File | `/userfs/bin/tcapi` | High
+31 | File | `/usr/bin/pkexec` | High
+32 | ... | ... | ...
 
-There are 265 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 271 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

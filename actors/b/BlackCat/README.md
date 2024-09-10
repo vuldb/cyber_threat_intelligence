@@ -43,10 +43,9 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
-7 | ... | ... | ... | ...
+6 | ... | ... | ... | ...
 
-There are 23 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -55,49 +54,49 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.github/workflows/combine-prs.yml` | High
-2 | File | `.tin` | Low
-3 | File | `/acms/admin/cargo_types/manage_cargo_type.php` | High
-4 | File | `/admin/ajax.php` | High
-5 | File | `/admin/ajax.php?action=confirm_order` | High
-6 | File | `/admin/ajax.php?action=delete_user` | High
-7 | File | `/admin/ajax.php?action=delete_window` | High
-8 | File | `/admin/ajax.php?action=save_window` | High
-9 | File | `/admin/ajax/avatar.php` | High
-10 | File | `/admin/article/article-add.php` | High
-11 | File | `/admin/edit_subject.php` | High
-12 | File | `/admin/index.php` | High
-13 | File | `/admin/index/index.html#/admin/mall.goods/index.html` | High
-14 | File | `/admin/list_onlineuser.php` | High
-15 | File | `/admin/login.php` | High
-16 | File | `/admin/maintenance/view_designation.php` | High
-17 | File | `/admin/options` | High
-18 | File | `/admin/pages/update_go.php` | High
-19 | File | `/admin/report/index.php` | High
-20 | File | `/admin/services/manage_service.php` | High
-21 | File | `/admin/settings/` | High
-22 | File | `/admin/show.php` | High
-23 | File | `/admin/students/update_status.php` | High
-24 | File | `/admin/subject.php` | High
-25 | File | `/admin/user/manage_user.php` | High
-26 | File | `/ample/app/ajax/member_data.php` | High
-27 | File | `/app/index/controller/Common.php` | High
-28 | File | `/apply.cgi` | Medium
-29 | File | `/article/DelectArticleById/` | High
-30 | File | `/auth/auth.php?user=1` | High
-31 | File | `/b2b-supermarket/shopping-cart` | High
-32 | File | `/blog` | Low
-33 | File | `/category.php` | High
-34 | File | `/cgi-bin/cstecgi.cgi` | High
-35 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-36 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=ie8` | High
-37 | File | `/cgi-bin/nas_sharing.cgi` | High
-38 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-39 | File | `/classes/Master.php?f=delete_category` | High
-40 | File | `/classes/Master.php?f=delete_inquiry` | High
-41 | File | `/classes/Master.php?f=save_reminder` | High
-42 | File | `/collection/all` | High
-43 | File | `/company/store` | High
-44 | File | `/config/list` | Medium
+2 | File | `/acms/admin/cargo_types/manage_cargo_type.php` | High
+3 | File | `/admin/ajax.php` | High
+4 | File | `/admin/ajax.php?action=confirm_order` | High
+5 | File | `/admin/ajax.php?action=delete_user` | High
+6 | File | `/admin/ajax.php?action=delete_window` | High
+7 | File | `/admin/ajax.php?action=save_window` | High
+8 | File | `/admin/ajax/avatar.php` | High
+9 | File | `/admin/article/article-add.php` | High
+10 | File | `/admin/edit_subject.php` | High
+11 | File | `/admin/index.php` | High
+12 | File | `/admin/index/index.html#/admin/mall.goods/index.html` | High
+13 | File | `/admin/list_onlineuser.php` | High
+14 | File | `/admin/login.php` | High
+15 | File | `/admin/maintenance/view_designation.php` | High
+16 | File | `/admin/options` | High
+17 | File | `/admin/pages/update_go.php` | High
+18 | File | `/admin/report/index.php` | High
+19 | File | `/admin/services/manage_service.php` | High
+20 | File | `/admin/settings/` | High
+21 | File | `/admin/show.php` | High
+22 | File | `/admin/students/update_status.php` | High
+23 | File | `/admin/subject.php` | High
+24 | File | `/admin/user/manage_user.php` | High
+25 | File | `/ample/app/ajax/member_data.php` | High
+26 | File | `/app/index/controller/Common.php` | High
+27 | File | `/apply.cgi` | Medium
+28 | File | `/article/DelectArticleById/` | High
+29 | File | `/auth/auth.php?user=1` | High
+30 | File | `/b2b-supermarket/shopping-cart` | High
+31 | File | `/blog` | Low
+32 | File | `/category.php` | High
+33 | File | `/cgi-bin/cstecgi.cgi` | High
+34 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+35 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=ie8` | High
+36 | File | `/cgi-bin/nas_sharing.cgi` | High
+37 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
+38 | File | `/classes/Master.php?f=delete_category` | High
+39 | File | `/classes/Master.php?f=delete_inquiry` | High
+40 | File | `/classes/Master.php?f=save_reminder` | High
+41 | File | `/collection/all` | High
+42 | File | `/company/store` | High
+43 | File | `/config/list` | Medium
+44 | File | `/designation_viewmore.php` | High
 45 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
 46 | File | `/ext/phar/phar_object.c` | High
 47 | File | `/file-manager/upload.php` | High
@@ -109,21 +108,22 @@ ID | Type | Indicator | Confidence
 53 | File | `/goform/WifiBasicSet` | High
 54 | File | `/graphql` | Medium
 55 | File | `/home/get_tasks_list` | High
-56 | File | `/hss/?page=categories` | High
-57 | File | `/hss/admin/brands/manage_brand.php` | High
-58 | File | `/importexport.php` | High
-59 | File | `/index.php` | Medium
-60 | File | `/items/search` | High
-61 | File | `/jurusan/data` | High
-62 | File | `/listplace/user/coverPhotoUpdate` | High
-63 | File | `/login.php` | Medium
-64 | File | `/login/index.php` | High
-65 | File | `/menu.html` | Medium
-66 | File | `/multiarch/memmove-vec-unaligned-erms.S` | High
-67 | File | `/my_photo_gallery/image.php` | High
-68 | ... | ... | ...
+56 | File | `/importexport.php` | High
+57 | File | `/index.php` | Medium
+58 | File | `/items/search` | High
+59 | File | `/jurusan/data` | High
+60 | File | `/listplace/user/coverPhotoUpdate` | High
+61 | File | `/login.php` | Medium
+62 | File | `/login/index.php` | High
+63 | File | `/menu.html` | Medium
+64 | File | `/multiarch/memmove-vec-unaligned-erms.S` | High
+65 | File | `/my_photo_gallery/image.php` | High
+66 | File | `/news-portal-script/information.php` | High
+67 | File | `/patient/doctors.php` | High
+68 | File | `/php-sms/classes/Master.php?f=save_quote` | High
+69 | ... | ... | ...
 
-There are 598 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 602 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -48,11 +48,11 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/public/login.htm` | High
-2 | File | `/usr/bin/sonia` | High
-3 | File | `index.php` | Medium
+2 | File | `/spip.php` | Medium
+3 | File | `/usr/bin/sonia` | High
 4 | ... | ... | ...
 
-There are 14 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 15 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -8,9 +8,9 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Magecart:
 
+* [CN](https://vuldb.com/?country.cn)
 * [RU](https://vuldb.com/?country.ru)
 * [PL](https://vuldb.com/?country.pl)
-* [ES](https://vuldb.com/?country.es)
 * ...
 
 There are 8 more country items available. Please use our online service to access the data.
@@ -68,20 +68,29 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-2 | File | `/catalog/all-products` | High
-3 | File | `/changePassword` | High
-4 | File | `/forum/away.php` | High
-5 | File | `/goform/addIpMacBind` | High
-6 | File | `/goform/DelDhcpRule` | High
-7 | File | `/goform/delIpMacBind` | High
-8 | File | `/goform/DelPortMapping` | High
-9 | File | `/goform/modifyDhcpRule` | High
-10 | File | `/goform/modifyIpMacBind` | High
-11 | File | `/goform/setBlackRule` | High
-12 | ... | ... | ...
+1 | File | `/admin/add_ikev2.php` | High
+2 | File | `/admin/list_ipAddressPolicy.php` | High
+3 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+4 | File | `/catalog/all-products` | High
+5 | File | `/cgi-bin/cstecgi.cgi` | High
+6 | File | `/changePassword` | High
+7 | File | `/endpoint/add-user.php` | High
+8 | File | `/forum/away.php` | High
+9 | File | `/goform/addIpMacBind` | High
+10 | File | `/goform/DelDhcpRule` | High
+11 | File | `/goform/delIpMacBind` | High
+12 | File | `/goform/DelPortMapping` | High
+13 | File | `/goform/modifyIpMacBind` | High
+14 | File | `/goform/SetDDNSCfg` | High
+15 | File | `/goform/SetLEDCfg` | High
+16 | File | `/goform/SetOnlineDevName` | High
+17 | File | `/goform/setStaticRoute` | High
+18 | File | `/goform/SetSysTimeCfg` | High
+19 | File | `/goform/wifiSSIDget` | High
+20 | File | `/lesson/controller.php` | High
+21 | ... | ... | ...
 
-There are 89 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 178 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

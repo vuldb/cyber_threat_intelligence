@@ -66,23 +66,23 @@ ID | Type | Indicator | Confidence
 11 | File | `/modules/profile/index.php` | High
 12 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
 13 | File | `/out.php` | Medium
-14 | File | `/system/site.php` | High
-15 | File | `adb/adb_client.c` | High
-16 | File | `adclick.php` | Medium
-17 | File | `add_comment.php` | High
-18 | File | `adelogs.adobe.com` | High
-19 | File | `admin.php` | Medium
-20 | File | `admin/google_search_console/class-gsc-table.php` | High
-21 | File | `administrator/components/com_media/helpers/media.php` | High
-22 | File | `android/webkit/SearchBoxImpl.java` | High
-23 | File | `app-layer-ssh.c` | High
-24 | File | `arch_init.c` | Medium
-25 | File | `authenticate.c` | High
-26 | File | `awstats.pl` | Medium
-27 | File | `BKCLogSvr.exe` | High
+14 | File | `/secure/QueryComponent!Default.jspa` | High
+15 | File | `/system/site.php` | High
+16 | File | `adb/adb_client.c` | High
+17 | File | `adclick.php` | Medium
+18 | File | `add_comment.php` | High
+19 | File | `adelogs.adobe.com` | High
+20 | File | `admin.php` | Medium
+21 | File | `admin/google_search_console/class-gsc-table.php` | High
+22 | File | `administrator/components/com_media/helpers/media.php` | High
+23 | File | `android/webkit/SearchBoxImpl.java` | High
+24 | File | `app-layer-ssh.c` | High
+25 | File | `applicationContext-spring-security.xml` | High
+26 | File | `arch_init.c` | Medium
+27 | File | `authenticate.c` | High
 28 | ... | ... | ...
 
-There are 232 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 235 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

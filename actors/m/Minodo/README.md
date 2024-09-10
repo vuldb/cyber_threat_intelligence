@@ -57,38 +57,39 @@ ID | Type | Indicator | Confidence
 5 | File | `/application/common.php#action_log` | High
 6 | File | `/apply.cgi` | Medium
 7 | File | `/card_scan.php` | High
-8 | File | `/cgi-bin/kerbynet` | High
-9 | File | `/cgi-bin/wlogin.cgi` | High
-10 | File | `/changeimage.php` | High
-11 | File | `/cwc/login` | Medium
-12 | File | `/debuginfo.htm` | High
-13 | File | `/download` | Medium
-14 | File | `/etc/quagga` | Medium
-15 | File | `/etc/shadow` | Medium
-16 | File | `/forms/doLogin` | High
-17 | File | `/goform/L7Im` | Medium
-18 | File | `/h/calendar` | Medium
-19 | File | `/icingaweb2/navigation/add` | High
-20 | File | `/inc/extensions.php` | High
-21 | File | `/mhds/clinic/view_details.php` | High
-22 | File | `/netflow/jspui/editProfile.jsp` | High
-23 | File | `/nova/bin/console` | High
-24 | File | `/nova/bin/detnet` | High
-25 | File | `/out.php` | Medium
-26 | File | `/php-sms/classes/Master.php?f=save_quote` | High
-27 | File | `/php/ping.php` | High
-28 | File | `/rapi/read_url` | High
-29 | File | `/req_password_user.php` | High
-30 | File | `/rom-0` | Low
-31 | File | `/scripts/unlock_tasks.php` | High
-32 | File | `/secure/QueryComponent!Default.jspa` | High
-33 | File | `/ServletAPI/accounts/login` | High
-34 | File | `/setNTP.cgi` | Medium
-35 | File | `/student/bookdetails.php` | High
-36 | File | `/SysInfo1.htm` | High
-37 | ... | ... | ...
+8 | File | `/cgi-bin/cstecgi.cgi` | High
+9 | File | `/cgi-bin/kerbynet` | High
+10 | File | `/cgi-bin/wlogin.cgi` | High
+11 | File | `/changeimage.php` | High
+12 | File | `/cwc/login` | Medium
+13 | File | `/debuginfo.htm` | High
+14 | File | `/download` | Medium
+15 | File | `/etc/passwd` | Medium
+16 | File | `/etc/quagga` | Medium
+17 | File | `/etc/shadow` | Medium
+18 | File | `/forms/doLogin` | High
+19 | File | `/goform/L7Im` | Medium
+20 | File | `/h/autoSaveDraft` | High
+21 | File | `/h/calendar` | Medium
+22 | File | `/icingaweb2/navigation/add` | High
+23 | File | `/inc/extensions.php` | High
+24 | File | `/mhds/clinic/view_details.php` | High
+25 | File | `/netflow/jspui/editProfile.jsp` | High
+26 | File | `/nova/bin/console` | High
+27 | File | `/nova/bin/detnet` | High
+28 | File | `/out.php` | Medium
+29 | File | `/php-sms/classes/Master.php?f=save_quote` | High
+30 | File | `/php/ping.php` | High
+31 | File | `/rapi/read_url` | High
+32 | File | `/req_password_user.php` | High
+33 | File | `/rom-0` | Low
+34 | File | `/scripts/unlock_tasks.php` | High
+35 | File | `/secure/QueryComponent!Default.jspa` | High
+36 | File | `/ServletAPI/accounts/login` | High
+37 | File | `/setNTP.cgi` | Medium
+38 | ... | ... | ...
 
-There are 318 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 326 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

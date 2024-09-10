@@ -8,9 +8,9 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with AMOS:
 
+* [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
-* [PL](https://vuldb.com/?country.pl)
 * ...
 
 There are 9 more country items available. Please use our online service to access the data.
@@ -32,9 +32,10 @@ ID | IP address | Hostname | Campaign | Confidence
 9 | [5.42.67.1](https://vuldb.com/?ip.5.42.67.1) | - | - | High
 10 | [5.42.96.124](https://vuldb.com/?ip.5.42.96.124) | - | - | High
 11 | [5.42.96.184](https://vuldb.com/?ip.5.42.96.184) | - | - | High
-12 | ... | ... | ... | ...
+12 | [5.182.86.8](https://vuldb.com/?ip.5.182.86.8) | frequent-minute.aeza.network | - | High
+13 | ... | ... | ... | ...
 
-There are 42 more IOC items available. Please use our online service to access the data.
+There are 50 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -42,13 +43,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-27 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -56,22 +57,33 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/user/manage_user.php` | High
-2 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-3 | File | `/catalog/all-products` | High
-4 | File | `/changePassword` | High
-5 | File | `/Employee/changepassword.php` | High
-6 | File | `/forum/away.php` | High
-7 | File | `/goform/addIpMacBind` | High
-8 | File | `/goform/DelDhcpRule` | High
-9 | File | `/goform/delIpMacBind` | High
-10 | File | `/goform/DelPortMapping` | High
-11 | File | `/goform/modifyIpMacBind` | High
-12 | File | `/goform/SetDDNSCfg` | High
-13 | File | `/goform/SetLEDCfg` | High
-14 | ... | ... | ...
+1 | File | `/+CSCOE+/logon.html` | High
+2 | File | `/admin/add_ikev2.php` | High
+3 | File | `/admin/category_save.php` | High
+4 | File | `/admin/dialog/select_images_post.php` | High
+5 | File | `/admin/list_ipAddressPolicy.php` | High
+6 | File | `/admin/manage_model.php` | High
+7 | File | `/admin/manage_user.php` | High
+8 | File | `/admin/subject.php` | High
+9 | File | `/admin/user/manage_user.php` | High
+10 | File | `/api/deploy/upload` | High
+11 | File | `/api/deploy/upload /api/database/upload` | High
+12 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+13 | File | `/catalog/all-products` | High
+14 | File | `/cgi-bin/cstecgi.cgi` | High
+15 | File | `/changePassword` | High
+16 | File | `/edit-subject.php` | High
+17 | File | `/Employee/changepassword.php` | High
+18 | File | `/endpoint/add-user.php` | High
+19 | File | `/etc/postfix/sender_login` | High
+20 | File | `/forum/away.php` | High
+21 | File | `/goform/SetSysTimeCfg` | High
+22 | File | `/labvantage/rc?command=page&page=SampleList&_iframename=list` | High
+23 | File | `/lesson/controller.php` | High
+24 | File | `/mailcleaner.php/getStats` | High
+25 | ... | ... | ...
 
-There are 114 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 209 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -108,6 +120,13 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://tria.ge/240603-tdf2sabe7y
 * https://tria.ge/240614-r43blavelg/behavioral1
 * https://tria.ge/240618-mnmhzstfkp/behavioral1
+* https://tria.ge/240716-lvpfgswfrj/behavioral1
+* https://tria.ge/240720-lll9rszejc/behavioral1
+* https://tria.ge/240728-fxbphszdkq/behavioral3
+* https://tria.ge/240803-m8swhawdjc/behavioral1
+* https://tria.ge/240806-sahwjasark/behavioral1
+* https://tria.ge/240810-q2exvawdjb/behavioral1
+* https://tria.ge/240811-l2tnsavdkk/behavioral1
 * https://twitter.com/phd_phuc/status/1651002681798926337
 * https://www.infosecurity-magazine.com/news/russian-legitimate-services/
 * https://www.malwarebytes.com/blog/threat-intelligence/2024/01/atomic-stealer-rings-in-the-new-year-with-updated-version

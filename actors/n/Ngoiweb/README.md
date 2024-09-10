@@ -58,12 +58,13 @@ ID | Type | Indicator | Confidence
 5 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
 6 | File | `/eclime/manufacturers.php` | High
 7 | File | `/forum/away.php` | High
-8 | File | `/include/file.php` | High
-9 | File | `/licenses` | Medium
-10 | File | `/Login` | Low
-11 | ... | ... | ...
+8 | File | `/goform/DelDhcpRule` | High
+9 | File | `/include/file.php` | High
+10 | File | `/licenses` | Medium
+11 | File | `/Login` | Low
+12 | ... | ... | ...
 
-There are 83 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 94 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

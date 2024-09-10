@@ -44,7 +44,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -53,45 +53,46 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/admin/maintenance/view_designation.php` | High
-3 | File | `/admin/manage_academic.php` | High
-4 | File | `/admin/subnets/ripe-query.php` | High
-5 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-6 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
-7 | File | `/forum/away.php` | High
-8 | File | `/fw.login.php` | High
-9 | File | `/gfxpoly/convert.c` | High
-10 | File | `/GponForm/device_Form?script/` | High
-11 | File | `/index.php?/manage/channel/addchannel` | High
-12 | File | `/opac/Actions.php?a=login` | High
-13 | File | `/opt/tms/bin/cli` | High
-14 | File | `/out.php` | Medium
-15 | File | `/owa/auth/logon.aspx` | High
-16 | File | `/registrar/?page=registration` | High
-17 | File | `/settings/account` | High
-18 | File | `/spip.php` | Medium
-19 | File | `/st_reg.php` | Medium
-20 | File | `/var/log/nginx` | High
-21 | File | `/way4acs/enroll` | High
-22 | File | `/wp-admin/admin-ajax.php` | High
-23 | File | `action.php` | Medium
-24 | File | `actions/beats_uploader.php` | High
-25 | File | `actions/vote_channel.php` | High
-26 | File | `ad.cgi` | Low
-27 | File | `adclick.php` | Medium
-28 | File | `admin/admin.php` | High
-29 | File | `Admin/ADM_Pagina.php` | High
-30 | File | `admin/article.php` | High
-31 | File | `admin/dashboard.php` | High
-32 | File | `Admin/edit-admin.php` | High
-33 | File | `admin/partials/ajax/add_field_to_form.php` | High
-34 | File | `admin/show.php?rec=update` | High
-35 | File | `album.asp` | Medium
-36 | File | `allmanageup.pl` | High
-37 | File | `allow/block` | Medium
-38 | ... | ... | ...
+2 | File | `/admin/index2.html` | High
+3 | File | `/admin/maintenance/view_designation.php` | High
+4 | File | `/admin/manage_academic.php` | High
+5 | File | `/admin/subnets/ripe-query.php` | High
+6 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+7 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
+8 | File | `/classes/Master.php` | High
+9 | File | `/forum/away.php` | High
+10 | File | `/fw.login.php` | High
+11 | File | `/gfxpoly/convert.c` | High
+12 | File | `/GponForm/device_Form?script/` | High
+13 | File | `/index.php?/manage/channel/addchannel` | High
+14 | File | `/opac/Actions.php?a=login` | High
+15 | File | `/opt/tms/bin/cli` | High
+16 | File | `/out.php` | Medium
+17 | File | `/owa/auth/logon.aspx` | High
+18 | File | `/registrar/?page=registration` | High
+19 | File | `/secserver` | Medium
+20 | File | `/settings/account` | High
+21 | File | `/spip.php` | Medium
+22 | File | `/st_reg.php` | Medium
+23 | File | `/var/log/nginx` | High
+24 | File | `/way4acs/enroll` | High
+25 | File | `/wp-admin/admin-ajax.php` | High
+26 | File | `action.php` | Medium
+27 | File | `actions/beats_uploader.php` | High
+28 | File | `actions/vote_channel.php` | High
+29 | File | `ad.cgi` | Low
+30 | File | `adclick.php` | Medium
+31 | File | `add.php` | Low
+32 | File | `admin/admin.php` | High
+33 | File | `Admin/ADM_Pagina.php` | High
+34 | File | `admin/article.php` | High
+35 | File | `admin/dashboard.php` | High
+36 | File | `Admin/edit-admin.php` | High
+37 | File | `admin/partials/ajax/add_field_to_form.php` | High
+38 | File | `admin/show.php?rec=update` | High
+39 | ... | ... | ...
 
-There are 325 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 334 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

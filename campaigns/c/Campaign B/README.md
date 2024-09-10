@@ -70,31 +70,32 @@ ID | Type | Indicator | Confidence
 3 | File | `/admin/add-category.php` | High
 4 | File | `/admin/edit.php` | High
 5 | File | `/admin/orders/update_status.php` | High
-6 | File | `/api/baskets/{name}` | High
-7 | File | `/api/filemanager` | High
-8 | File | `/api/v2/cli/commands` | High
-9 | File | `/application/index/controller/Screen.php` | High
-10 | File | `/billing/home.php` | High
-11 | File | `/cgi-bin/nas_sharing.cgi` | High
-12 | File | `/cgi-bin/supervisor/CloudSetup.cgi` | High
-13 | File | `/cgi-bin/system_mgr.cgi` | High
-14 | File | `/cgi-bin/wapopen` | High
-15 | File | `/cgi-bin/wlogin.cgi` | High
-16 | File | `/cloud_config/router_post/reset_cloud_pwd` | High
-17 | File | `/etc/tomcat8/Catalina/attack` | High
-18 | File | `/filemanager/upload.php` | High
-19 | File | `/forum/away.php` | High
-20 | File | `/home/cavesConsole` | High
-21 | File | `/home/masterConsole` | High
-22 | File | `/home/playerOperate` | High
-23 | File | `/importexport.php` | High
-24 | File | `/items/search` | High
-25 | File | `/mgmt/tm/util/bash` | High
-26 | File | `/owa/auth/logon.aspx` | High
-27 | File | `/param.file.tgz` | High
-28 | ... | ... | ...
+6 | File | `/api/1.0/rest/language_configuration` | High
+7 | File | `/api/baskets/{name}` | High
+8 | File | `/api/filemanager` | High
+9 | File | `/api/v2/cli/commands` | High
+10 | File | `/application/index/controller/Screen.php` | High
+11 | File | `/billing/home.php` | High
+12 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+13 | File | `/cgi-bin/nas_sharing.cgi` | High
+14 | File | `/cgi-bin/supervisor/CloudSetup.cgi` | High
+15 | File | `/cgi-bin/system_mgr.cgi` | High
+16 | File | `/cgi-bin/wapopen` | High
+17 | File | `/cgi-bin/wlogin.cgi` | High
+18 | File | `/DXR.axd` | Medium
+19 | File | `/etc/tomcat8/Catalina/attack` | High
+20 | File | `/filemanager/upload.php` | High
+21 | File | `/fileupload/upload.cfm` | High
+22 | File | `/forum/away.php` | High
+23 | File | `/home/cavesConsole` | High
+24 | File | `/home/masterConsole` | High
+25 | File | `/home/playerOperate` | High
+26 | File | `/importexport.php` | High
+27 | File | `/items/search` | High
+28 | File | `/mgmt/tm/util/bash` | High
+29 | ... | ... | ...
 
-There are 233 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 244 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

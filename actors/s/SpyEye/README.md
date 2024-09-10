@@ -8,8 +8,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with SpyEye:
 
-* [CO](https://vuldb.com/?country.co)
 * [US](https://vuldb.com/?country.us)
+* [CO](https://vuldb.com/?country.co)
 * [IT](https://vuldb.com/?country.it)
 * ...
 
@@ -67,32 +67,34 @@ ID | Type | Indicator | Confidence
 1 | File | `/admin/admin-profile.php` | High
 2 | File | `/admin/maintenance/view_designation.php` | High
 3 | File | `/api/baskets/{name}` | High
-4 | File | `/classes/Master.php?f=log_employee` | High
-5 | File | `/forgetpassword.php` | High
-6 | File | `/forum/away.php` | High
-7 | File | `/modules/registration_admission/patient_register.php` | High
-8 | File | `/ndmComponents.js` | High
-9 | File | `/out.php` | Medium
-10 | File | `/spip.php` | Medium
-11 | File | `/Tools/tools_admin.htm` | High
-12 | File | `/uncpath/` | Medium
-13 | File | `AccountManager.java` | High
-14 | File | `adclick.php` | Medium
-15 | File | `addentry.php` | Medium
-16 | File | `adm/krgourl.php` | High
-17 | File | `admin.php` | Medium
-18 | File | `admin/conf_users_edit.php` | High
-19 | File | `admin/index.php` | High
-20 | File | `administers` | Medium
-21 | File | `admin_index.php?page=settings` | High
-22 | File | `application\User\Controller\ProfileController.class.php` | High
-23 | File | `awstats.pl` | Medium
-24 | File | `banner-edit.php` | High
-25 | File | `btif_hd.cc` | Medium
-26 | File | `catchsegv` | Medium
-27 | ... | ... | ...
+4 | File | `/classes/Master.php` | High
+5 | File | `/classes/Master.php?f=log_employee` | High
+6 | File | `/forgetpassword.php` | High
+7 | File | `/forum/away.php` | High
+8 | File | `/modules/registration_admission/patient_register.php` | High
+9 | File | `/ndmComponents.js` | High
+10 | File | `/out.php` | Medium
+11 | File | `/request.php` | Medium
+12 | File | `/spip.php` | Medium
+13 | File | `/Tools/tools_admin.htm` | High
+14 | File | `/uncpath/` | Medium
+15 | File | `AccountManager.java` | High
+16 | File | `adclick.php` | Medium
+17 | File | `addentry.php` | Medium
+18 | File | `adm/krgourl.php` | High
+19 | File | `admin.php` | Medium
+20 | File | `admin/conf_users_edit.php` | High
+21 | File | `admin/index.php` | High
+22 | File | `administers` | Medium
+23 | File | `admin_index.php?page=settings` | High
+24 | File | `application\User\Controller\ProfileController.class.php` | High
+25 | File | `awstats.pl` | Medium
+26 | File | `banner-edit.php` | High
+27 | File | `btif_hd.cc` | Medium
+28 | File | `catchsegv` | Medium
+29 | ... | ... | ...
 
-There are 231 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 242 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

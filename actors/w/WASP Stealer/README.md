@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [JP](https://vuldb.com/?country.jp)
 * ...
 
-There are 3 more country items available. Please use our online service to access the data.
+There are 4 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -57,21 +57,21 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin/index2.html` | High
 3 | File | `/api/baskets/{name}` | High
 4 | File | `/application/index/controller/Databasesource.php` | High
-5 | File | `/livesite/edit_designer_region.php` | High
-6 | File | `/view-pass-detail.php` | High
-7 | File | `/wp-admin/options-general.php` | High
-8 | File | `admin.color.php` | High
-9 | File | `admin.cropcanvas.php` | High
-10 | File | `admin.joomlaradiov5.php` | High
-11 | File | `admin.php` | Medium
-12 | File | `admin/addons/archive/archive.php` | High
-13 | File | `administrator/components/com_media/helpers/media.php` | High
-14 | File | `admin\model\catalog\download.php` | High
-15 | File | `akocomments.php` | High
-16 | File | `album_portal.php` | High
+5 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+6 | File | `/index.php` | Medium
+7 | File | `/livesite/edit_designer_region.php` | High
+8 | File | `/view-pass-detail.php` | High
+9 | File | `/wp-admin/options-general.php` | High
+10 | File | `admin.color.php` | High
+11 | File | `admin.cropcanvas.php` | High
+12 | File | `admin.joomlaradiov5.php` | High
+13 | File | `admin.php` | Medium
+14 | File | `admin/addons/archive/archive.php` | High
+15 | File | `administrator/components/com_media/helpers/media.php` | High
+16 | File | `admin\model\catalog\download.php` | High
 17 | ... | ... | ...
 
-There are 136 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 141 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

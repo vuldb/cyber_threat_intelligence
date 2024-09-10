@@ -175,7 +175,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059 | CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
 
-There are 13 more TTP items available. Please use our online service to access the data.
+There are 14 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -183,28 +183,32 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/edit-admin.php` | High
-2 | File | `/admin/maintenance/view_designation.php` | High
-3 | File | `/admin/mod_room/controller.php?action=add` | High
-4 | File | `/admin/operations/expense_category.php` | High
-5 | File | `/backend/register.php` | High
-6 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-7 | File | `/cgi-bin/cstecgi.cgi` | High
-8 | File | `/cgi-bin/nas_sharing.cgi` | High
-9 | File | `/classes/Users.php?f=delete` | High
-10 | File | `/classes/Users.php?f=save` | High
-11 | File | `/control/deactivate_case.php` | High
-12 | File | `/control/register_case.php` | High
-13 | File | `/dede/sys_sql_query.php` | High
-14 | File | `/forgot-password` | High
-15 | File | `/forum/away.php` | High
-16 | File | `/lesson/controller.php` | High
-17 | File | `/licenses` | Medium
-18 | File | `/manager/ipconfig_new.php` | High
-19 | File | `/manage_receiving.php` | High
-20 | ... | ... | ...
+1 | File | `/admin/?page=bike` | High
+2 | File | `/admin/booking-bwdates-reports-details.php` | High
+3 | File | `/admin/config/uploadicon.php` | High
+4 | File | `/admin/edit-admin.php` | High
+5 | File | `/admin/maintenance/view_designation.php` | High
+6 | File | `/admin/manage_station.php` | High
+7 | File | `/admin/mod_room/controller.php?action=add` | High
+8 | File | `/admin/operations/expense_category.php` | High
+9 | File | `/backend/register.php` | High
+10 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+11 | File | `/cgi-bin/cstecgi.cgi` | High
+12 | File | `/cgi-bin/nas_sharing.cgi` | High
+13 | File | `/classes/Master.php` | High
+14 | File | `/classes/Users.php?f=delete` | High
+15 | File | `/classes/Users.php?f=save` | High
+16 | File | `/control/deactivate_case.php` | High
+17 | File | `/control/register_case.php` | High
+18 | File | `/dede/sys_sql_query.php` | High
+19 | File | `/forgot-password` | High
+20 | File | `/forum/away.php` | High
+21 | File | `/goform/setMacFilter` | High
+22 | File | `/index.php` | Medium
+23 | File | `/lesson/controller.php` | High
+24 | ... | ... | ...
 
-There are 162 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 203 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

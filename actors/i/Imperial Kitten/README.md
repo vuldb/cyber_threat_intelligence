@@ -40,14 +40,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Path Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -66,53 +66,53 @@ ID | Type | Indicator | Confidence
 9 | File | `/debuginfo.htm` | High
 10 | File | `/dialog/select_media.php` | High
 11 | File | `/download` | Medium
-12 | File | `/etc/quagga` | Medium
-13 | File | `/fhconf/umconfig.txt` | High
-14 | File | `/forms/doLogin` | High
-15 | File | `/h/calendar` | Medium
-16 | File | `/inc/extensions.php` | High
-17 | File | `/include/chart_generator.php` | High
-18 | File | `/includes/login.php` | High
-19 | File | `/index.php` | Medium
-20 | File | `/members/view_member.php` | High
-21 | File | `/mhds/clinic/view_details.php` | High
-22 | File | `/nova/bin/console` | High
-23 | File | `/nova/bin/detnet` | High
-24 | File | `/oauth/idp/.well-known/openid-configuration` | High
-25 | File | `/out.php` | Medium
-26 | File | `/owa/auth/logon.aspx` | High
-27 | File | `/product_list.php` | High
-28 | File | `/req_password_user.php` | High
-29 | File | `/rest/api/latest/projectvalidate/key` | High
-30 | File | `/rom-0` | Low
-31 | File | `/secure/QueryComponent!Default.jspa` | High
-32 | File | `/ServletAPI/accounts/login` | High
-33 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
-34 | File | `/sysmanage/changelogo.php` | High
-35 | File | `/tmp/.uci/network` | High
-36 | File | `/uncpath/` | Medium
-37 | File | `/upload` | Low
-38 | File | `/usr/bin/pkexec` | High
-39 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
-40 | File | `/usr/syno/etc/mount.conf` | High
-41 | File | `/WEB-INF/web.xml` | High
-42 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-43 | File | `/wp-json` | Medium
-44 | File | `aboutus.php` | Medium
-45 | File | `achat/produit_details.php` | High
-46 | File | `adclick.php` | Medium
-47 | File | `add_to_cart.php` | High
-48 | File | `adm.cgi` | Low
-49 | File | `admin.jcomments.php` | High
-50 | File | `admin/index.php` | High
-51 | File | `admin/modules/tools/ip_history_logs.php` | High
-52 | File | `admin/specials.php` | High
-53 | File | `announce.php` | Medium
-54 | File | `App/Ajax/ajax.php?action=mobile_upload_save` | High
-55 | File | `articles.php` | Medium
+12 | File | `/etc/passwd` | Medium
+13 | File | `/etc/quagga` | Medium
+14 | File | `/fhconf/umconfig.txt` | High
+15 | File | `/forms/doLogin` | High
+16 | File | `/h/autoSaveDraft` | High
+17 | File | `/h/calendar` | Medium
+18 | File | `/inc/extensions.php` | High
+19 | File | `/include/chart_generator.php` | High
+20 | File | `/includes/login.php` | High
+21 | File | `/index.php` | Medium
+22 | File | `/members/view_member.php` | High
+23 | File | `/mhds/clinic/view_details.php` | High
+24 | File | `/nova/bin/console` | High
+25 | File | `/nova/bin/detnet` | High
+26 | File | `/oauth/idp/.well-known/openid-configuration` | High
+27 | File | `/out.php` | Medium
+28 | File | `/owa/auth/logon.aspx` | High
+29 | File | `/product_list.php` | High
+30 | File | `/request.php` | Medium
+31 | File | `/req_password_user.php` | High
+32 | File | `/rest/api/latest/projectvalidate/key` | High
+33 | File | `/rom-0` | Low
+34 | File | `/secure/QueryComponent!Default.jspa` | High
+35 | File | `/ServletAPI/accounts/login` | High
+36 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
+37 | File | `/sysmanage/changelogo.php` | High
+38 | File | `/tmp/.uci/network` | High
+39 | File | `/uncpath/` | Medium
+40 | File | `/upload` | Low
+41 | File | `/usr/bin/pkexec` | High
+42 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
+43 | File | `/WEB-INF/web.xml` | High
+44 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+45 | File | `/wp-json` | Medium
+46 | File | `aboutus.php` | Medium
+47 | File | `achat/produit_details.php` | High
+48 | File | `adclick.php` | Medium
+49 | File | `add_to_cart.php` | High
+50 | File | `adm.cgi` | Low
+51 | File | `admin.jcomments.php` | High
+52 | File | `admin/index.php` | High
+53 | File | `admin/modules/tools/ip_history_logs.php` | High
+54 | File | `admin/specials.php` | High
+55 | File | `announce.php` | Medium
 56 | ... | ... | ...
 
-There are 487 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 490 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

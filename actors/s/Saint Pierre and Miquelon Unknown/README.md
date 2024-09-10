@@ -65,41 +65,42 @@ ID | Type | Indicator | Confidence
 14 | File | `/forum/away.php` | High
 15 | File | `/homeaction.php` | High
 16 | File | `/if.cgi` | Low
-17 | File | `/modules/profile/index.php` | High
-18 | File | `/modules/tasks/summary.inc.php` | High
-19 | File | `/multi-vendor-shopping-script/product-list.php` | High
-20 | File | `/news.dtl.php` | High
-21 | File | `/out.php` | Medium
-22 | File | `/p` | Low
-23 | File | `/recordings/index.php` | High
-24 | File | `/see_more_details.php` | High
-25 | File | `/services/details.asp` | High
-26 | File | `/setup` | Low
-27 | File | `/show_news.php` | High
-28 | File | `/spip.php` | Medium
-29 | File | `/student/bookdetails.php` | High
-30 | File | `/tmp/before` | Medium
-31 | File | `/uncpath/` | Medium
-32 | File | `/wordpress/wp-admin/options-general.php` | High
-33 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-34 | File | `4.2.0.CP09` | Medium
-35 | File | `account.asp` | Medium
-36 | File | `act.php` | Low
-37 | File | `adclick.php` | Medium
-38 | File | `admin.php` | Medium
-39 | File | `admin/admin.php` | High
-40 | File | `admin/admin.shtml` | High
-41 | File | `Admin/ADM_Pagina.php` | High
-42 | File | `admin/category.inc.php` | High
-43 | File | `admin/param/param_func.inc.php` | High
-44 | File | `administration/admins.php` | High
-45 | File | `ajax_calls.php` | High
-46 | File | `api.php` | Low
-47 | File | `artlinks.dispnew.php` | High
-48 | File | `auth2-gss.c` | Medium
-49 | ... | ... | ...
+17 | File | `/model/update_classroom.php` | High
+18 | File | `/modules/profile/index.php` | High
+19 | File | `/modules/tasks/summary.inc.php` | High
+20 | File | `/multi-vendor-shopping-script/product-list.php` | High
+21 | File | `/news.dtl.php` | High
+22 | File | `/out.php` | Medium
+23 | File | `/p` | Low
+24 | File | `/recordings/index.php` | High
+25 | File | `/see_more_details.php` | High
+26 | File | `/services/details.asp` | High
+27 | File | `/setup` | Low
+28 | File | `/show_news.php` | High
+29 | File | `/spip.php` | Medium
+30 | File | `/student/bookdetails.php` | High
+31 | File | `/tmp/before` | Medium
+32 | File | `/uncpath/` | Medium
+33 | File | `/wordpress/wp-admin/options-general.php` | High
+34 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+35 | File | `4.2.0.CP09` | Medium
+36 | File | `account.asp` | Medium
+37 | File | `act.php` | Low
+38 | File | `adclick.php` | Medium
+39 | File | `admin.php` | Medium
+40 | File | `admin/admin.php` | High
+41 | File | `admin/admin.shtml` | High
+42 | File | `Admin/ADM_Pagina.php` | High
+43 | File | `admin/category.inc.php` | High
+44 | File | `admin/param/param_func.inc.php` | High
+45 | File | `administration/admins.php` | High
+46 | File | `ajax_calls.php` | High
+47 | File | `api.php` | Low
+48 | File | `artlinks.dispnew.php` | High
+49 | File | `auth2-gss.c` | Medium
+50 | ... | ... | ...
 
-There are 429 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 430 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

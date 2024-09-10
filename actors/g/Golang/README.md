@@ -15,11 +15,11 @@ The following _campaigns_ are known and can be associated with Golang:
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Golang:
 
 * [RU](https://vuldb.com/?country.ru)
-* [US](https://vuldb.com/?country.us)
 * [LU](https://vuldb.com/?country.lu)
+* [US](https://vuldb.com/?country.us)
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -45,14 +45,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-35 | Path Traversal | High
+1 | T1006 | CWE-22, CWE-24, CWE-35 | Path Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -65,33 +65,36 @@ ID | Type | Indicator | Confidence
 3 | File | `/admin/assign/assign.php` | High
 4 | File | `/admin/index.PHP` | High
 5 | File | `/admin/login.php` | High
-6 | File | `/Admin/News.php` | High
-7 | File | `/admin/store.php` | High
-8 | File | `/admin/view_sendlist.php` | High
-9 | File | `/adminPage/main/upload` | High
-10 | File | `/admin_ping.htm` | High
-11 | File | `/ample/app/action/edit_product.php` | High
-12 | File | `/api/dashboard/activity` | High
-13 | File | `/api/sys/login` | High
-14 | File | `/app/index/controller/Common.php` | High
-15 | File | `/catalog_add.php` | High
-16 | File | `/cgi-bin/cstecgi.cgi` | High
-17 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-18 | File | `/classes/Users.php` | High
-19 | File | `/classes/Users.php?f=save` | High
-20 | File | `/confirm` | Medium
-21 | File | `/debug/pprof` | Medium
-22 | File | `/dede/archives_do.php` | High
-23 | File | `/dede/group_store.php` | High
-24 | File | `/dialog/select_media.php` | High
-25 | File | `/Employee/edit-profile.php` | High
-26 | File | `/ext/collect/filter_text.do` | High
-27 | File | `/foms/all-orders.php?status=Cancelled%20by%20Customer` | High
-28 | File | `/FTPDiag.asp` | Medium
-29 | File | `/goform/setAutoPing` | High
-30 | ... | ... | ...
+6 | File | `/admin/manage_complaint.php` | High
+7 | File | `/Admin/News.php` | High
+8 | File | `/admin/store.php` | High
+9 | File | `/admin/view_sendlist.php` | High
+10 | File | `/adminPage/main/upload` | High
+11 | File | `/admin_ping.htm` | High
+12 | File | `/ample/app/action/edit_product.php` | High
+13 | File | `/api/dashboard/activity` | High
+14 | File | `/api/sys/login` | High
+15 | File | `/app/index/controller/Common.php` | High
+16 | File | `/catalog_add.php` | High
+17 | File | `/cgi-bin/cstecgi.cgi` | High
+18 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+19 | File | `/classes/Users.php` | High
+20 | File | `/classes/Users.php?f=save` | High
+21 | File | `/cm/update_rows/page?id=2` | High
+22 | File | `/confirm` | Medium
+23 | File | `/debug/pprof` | Medium
+24 | File | `/dede/archives_do.php` | High
+25 | File | `/dede/group_store.php` | High
+26 | File | `/dialog/select_media.php` | High
+27 | File | `/Employee/edit-profile.php` | High
+28 | File | `/ext/collect/filter_text.do` | High
+29 | File | `/FTPDiag.asp` | Medium
+30 | File | `/goform/setAutoPing` | High
+31 | File | `/goform/setMacFilterCfg` | High
+32 | File | `/goform/SetOnlineDevName` | High
+33 | ... | ... | ...
 
-There are 258 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 277 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

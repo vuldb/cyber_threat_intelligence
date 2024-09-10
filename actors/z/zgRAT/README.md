@@ -78,7 +78,7 @@ ID | Type | Indicator | Confidence
 29 | File | `admin.joomlaradiov5.php` | High
 30 | ... | ... | ...
 
-There are 250 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 253 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Rhadamanthys:
 
-* [RU](https://vuldb.com/?country.ru)
-* [PL](https://vuldb.com/?country.pl)
+* [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 18 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -85,9 +85,10 @@ ID | IP address | Hostname | Campaign | Confidence
 62 | [65.109.161.133](https://vuldb.com/?ip.65.109.161.133) | static.133.161.109.65.clients.your-server.de | - | High
 63 | [68.183.230.60](https://vuldb.com/?ip.68.183.230.60) | - | - | High
 64 | [77.91.68.146](https://vuldb.com/?ip.77.91.68.146) | hosted-by.aluxe-cloud.ru | - | High
-65 | ... | ... | ... | ...
+65 | [77.91.122.230](https://vuldb.com/?ip.77.91.122.230) | vm1230500.stark-industries.solutions | - | High
+66 | ... | ... | ... | ...
 
-There are 255 more IOC items available. Please use our online service to access the data.
+There are 259 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -95,13 +96,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
-2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-29, CWE-425 | Path Traversal | High
+2 | T1055 | CWE-74, CWE-643 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -109,22 +110,53 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/edit_supplier.php` | High
-2 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
-3 | File | `/applications/nexus/modules/front/store/store.php` | High
-4 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-5 | File | `/catalog/all-products` | High
-6 | File | `/changePassword` | High
-7 | File | `/classes/Users.php?f=save` | High
-8 | File | `/formSysLog` | Medium
-9 | File | `/forum/away.php` | High
-10 | File | `/goform/addIpMacBind` | High
-11 | File | `/goform/DelDhcpRule` | High
-12 | File | `/goform/delIpMacBind` | High
-13 | File | `/goform/DelPortMapping` | High
-14 | ... | ... | ...
+1 | File | `/.pomerium` | Medium
+2 | File | `/admin/add_ikev2.php` | High
+3 | File | `/admin/ajax.php?action=delete_user` | High
+4 | File | `/admin/category_save.php` | High
+5 | File | `/Admin/changepassword.php` | High
+6 | File | `/admin/edit_supplier.php` | High
+7 | File | `/admin/general-setting` | High
+8 | File | `/admin/index2.html` | High
+9 | File | `/admin/inquiries/view_inquiry.php` | High
+10 | File | `/admin/list_ipAddressPolicy.php` | High
+11 | File | `/admin/manage_model.php` | High
+12 | File | `/admin/manage_user.php` | High
+13 | File | `/admin/projects/{projectname}/skills/{skillname}/video` | High
+14 | File | `/admin/service` | High
+15 | File | `/admin/subject.php` | High
+16 | File | `/api/v1/custom_component` | High
+17 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
+18 | File | `/applications/nexus/modules/front/store/store.php` | High
+19 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+20 | File | `/catalog/all-products` | High
+21 | File | `/cgi-bin/cstecgi.cgi` | High
+22 | File | `/cgi-bin/nas_sharing.cgi` | High
+23 | File | `/classes/Master.php` | High
+24 | File | `/classes/Master.php?f=delete_category` | High
+25 | File | `/classes/Master.php?f=save_medicine` | High
+26 | File | `/classes/Users.php?f=delete` | High
+27 | File | `/classes/Users.php?f=save` | High
+28 | File | `/DXR.axd` | Medium
+29 | File | `/edit-subject.php` | High
+30 | File | `/endpoint/add-user.php` | High
+31 | File | `/etc/postfix/sender_login` | High
+32 | File | `/etc/shadow` | Medium
+33 | File | `/formSysLog` | Medium
+34 | File | `/forum/away.php` | High
+35 | File | `/goform/SetIpMacBind` | High
+36 | File | `/goform/SetOnlineDevName` | High
+37 | File | `/goform/WifiExtraSet` | High
+38 | File | `/guestbook` | Medium
+39 | File | `/includes/common/require_access_recovery.php` | High
+40 | File | `/index.php` | Medium
+41 | File | `/js/player/dmplayer/dmku/?ac=edit` | High
+42 | File | `/labvantage/rc?command=page&page=SampleHistoricalList&_iframename=list&__crc=crc_1701669816260` | High
+43 | File | `/labvantage/rc?command=page&page=SampleList&_iframename=list` | High
+44 | File | `/lesson/controller.php` | High
+45 | ... | ... | ...
 
-There are 112 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 392 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -149,6 +181,8 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://bazaar.abuse.ch/sample/e0d8e7a12ffa3feb00814259a2ea750ab121c3f4b049ce82f5f3ec16579807c0/
 * https://bazaar.abuse.ch/sample/e809a311f3bbfcfc796b37783b4bdbd76c4bd59657252ee3fd20150f8a76ccea/
 * https://github.com/IronNetCybersecurity/IronNetTR/blob/main/ironradar/rhadamanthys/ironradar_1d_rhadamanthys_2022_1_18.csv
+* https://maordayanofficial.medium.com/rhadamanthys-an-in-depth-analysis-of-a-sophisticated-stealer-targeting-israeli-users-330fbfd68f3b
+* https://research.checkpoint.com/2024/stargazers-ghost-network/
 * https://threatfox.abuse.ch
 * https://tracker.viriback.com/index.php?q=5.75.171.154
 * https://tracker.viriback.com/index.php?q=5.182.39.203
@@ -231,6 +265,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://www.joesandbox.com/analysis/1391616
 * https://www.malwarebytes.com/blog/threat-intelligence/2024/03/new-go-loader-pushes-rhadamanthys
 * https://www.zscaler.com/blogs/security-research/technical-analysis-rhadamanthys-obfuscation-techniques
+* https://x.com/NDA0E/status/1809288536983589288
 
 ## Literature
 

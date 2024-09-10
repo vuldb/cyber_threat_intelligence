@@ -35,11 +35,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22 | Path Traversal | High
-2 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-3 | T1068 | CWE-284 | Execution with Unnecessary Privileges | High
+2 | T1059 | CWE-88 | Argument Injection | High
+3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 6 more TTP items available. Please use our online service to access the data.
+There are 8 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -47,16 +47,17 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/maintenance/view_designation.php` | High
-2 | File | `/forum/away.php` | High
-3 | File | `/owa/auth/logon.aspx` | High
-4 | File | `/secserver` | Medium
-5 | File | `/spip.php` | Medium
-6 | File | `/wp-admin/admin-ajax.php` | High
-7 | File | `action.php` | Medium
-8 | ... | ... | ...
+1 | File | `/admin/index2.html` | High
+2 | File | `/admin/maintenance/view_designation.php` | High
+3 | File | `/forum/away.php` | High
+4 | File | `/owa/auth/logon.aspx` | High
+5 | File | `/secserver` | Medium
+6 | File | `/spip.php` | Medium
+7 | File | `/wp-admin/admin-ajax.php` | High
+8 | File | `action.php` | Medium
+9 | ... | ... | ...
 
-There are 61 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 64 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

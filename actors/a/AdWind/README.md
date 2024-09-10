@@ -50,12 +50,13 @@ ID | IP address | Hostname | Campaign | Confidence
 27 | [46.20.33.76](https://vuldb.com/?ip.46.20.33.76) | - | - | High
 28 | [46.183.220.114](https://vuldb.com/?ip.46.183.220.114) | ip-220-114.dataclub.info | - | High
 29 | [46.183.222.88](https://vuldb.com/?ip.46.183.222.88) | ip-222-88.dataclub.info | - | High
-30 | [46.183.223.64](https://vuldb.com/?ip.46.183.223.64) | ip-223-64.dataclub.info | - | High
-31 | [50.7.199.164](https://vuldb.com/?ip.50.7.199.164) | - | - | High
-32 | [51.254.21.25](https://vuldb.com/?ip.51.254.21.25) | ip25.ip-51-254-21.eu | - | High
-33 | [65.99.225.111](https://vuldb.com/?ip.65.99.225.111) | hv36svg168.neubox.net | - | High
-34 | [66.154.111.3](https://vuldb.com/?ip.66.154.111.3) | - | - | High
-35 | ... | ... | ... | ...
+30 | [46.183.223.47](https://vuldb.com/?ip.46.183.223.47) | ip-223-47.dataclub.info | - | High
+31 | [46.183.223.64](https://vuldb.com/?ip.46.183.223.64) | ip-223-64.dataclub.info | - | High
+32 | [50.7.199.164](https://vuldb.com/?ip.50.7.199.164) | - | - | High
+33 | [51.254.21.25](https://vuldb.com/?ip.51.254.21.25) | ip25.ip-51-254-21.eu | - | High
+34 | [65.99.225.111](https://vuldb.com/?ip.65.99.225.111) | hv36svg168.neubox.net | - | High
+35 | [66.154.111.3](https://vuldb.com/?ip.66.154.111.3) | - | - | High
+36 | ... | ... | ... | ...
 
 There are 138 more IOC items available. Please use our online service to access the data.
 
@@ -81,55 +82,56 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/admin_giant/add_team_member.php` | High
-3 | File | `/api/admin/system/store/order/list` | High
-4 | File | `/car.php` | Medium
-5 | File | `/cgi-bin/wapopen` | High
-6 | File | `/common/info.cgi` | High
-7 | File | `/core/admin/categories.php` | High
-8 | File | `/csms/?page=contact_us` | High
-9 | File | `/etc/ajenti/config.yml` | High
-10 | File | `/forum/away.php` | High
-11 | File | `/get_getnetworkconf.cgi` | High
-12 | File | `/goform/setmac` | High
-13 | File | `/goform/telnet` | High
-14 | File | `/index.php/signin` | High
-15 | File | `/integrations.json` | High
-16 | File | `/librarian/bookdetails.php` | High
-17 | File | `/lists/admin/` | High
-18 | File | `/modules/profile/index.php` | High
-19 | File | `/multi-vendor-shopping-script/product-list.php` | High
-20 | File | `/phppath/php` | Medium
-21 | File | `/rom-0` | Low
-22 | File | `/services/details.asp` | High
-23 | File | `/spip.php` | Medium
-24 | File | `/tmp/phpglibccheck` | High
-25 | File | `/uncpath/` | Medium
-26 | File | `/upload` | Low
-27 | File | `/var/tmp/sess_*` | High
-28 | File | `acl.c` | Low
-29 | File | `action.php` | Medium
-30 | File | `actionphp/download.File.php` | High
-31 | File | `Addmessage.php` | High
-32 | File | `add_comment.php` | High
-33 | File | `admin.php` | Medium
-34 | File | `admin.php?mod=user&act=del` | High
-35 | File | `admin/admin.php` | High
-36 | File | `admin/content.php` | High
-37 | File | `admin/download.php` | High
-38 | File | `admin/index.php?id=users/action=edit/user_id=1` | High
-39 | File | `admin/index.php?n=ui_set&m=admin&c=index&a=doget_text_content&table=lang&field=1` | High
-40 | File | `admin/login.asp` | High
-41 | File | `admin_gallery.php3` | High
-42 | File | `admin_safe.php` | High
-43 | File | `affich.php` | Medium
-44 | File | `agent/Core/Controller/SendRequest.cpp` | High
-45 | File | `ajax/telemetry.php` | High
-46 | File | `akeyActivationLogin.do` | High
-47 | File | `album_portal.php` | High
-48 | ... | ... | ...
+2 | File | `/admin/pages/` | High
+3 | File | `/admins` | Low
+4 | File | `/admin_giant/add_team_member.php` | High
+5 | File | `/ajax/getBasicInfo.php` | High
+6 | File | `/api/admin/system/store/order/list` | High
+7 | File | `/car.php` | Medium
+8 | File | `/cgi-bin/cstecgi.cgi` | High
+9 | File | `/cgi-bin/wapopen` | High
+10 | File | `/cgi-bin/wlogin.cgi` | High
+11 | File | `/common/info.cgi` | High
+12 | File | `/core/admin/categories.php` | High
+13 | File | `/csms/?page=contact_us` | High
+14 | File | `/etc/ajenti/config.yml` | High
+15 | File | `/farm/product.php` | High
+16 | File | `/forum/away.php` | High
+17 | File | `/get_getnetworkconf.cgi` | High
+18 | File | `/goform/setmac` | High
+19 | File | `/goform/set_ntp` | High
+20 | File | `/goform/telnet` | High
+21 | File | `/index.php/signin` | High
+22 | File | `/integrations.json` | High
+23 | File | `/librarian/bookdetails.php` | High
+24 | File | `/lists/admin/` | High
+25 | File | `/modules/profile/index.php` | High
+26 | File | `/multi-vendor-shopping-script/product-list.php` | High
+27 | File | `/phppath/php` | Medium
+28 | File | `/ptippage.cgi` | High
+29 | File | `/rom-0` | Low
+30 | File | `/services/details.asp` | High
+31 | File | `/spip.php` | Medium
+32 | File | `/tmp/out` | Medium
+33 | File | `/tmp/phpglibccheck` | High
+34 | File | `/uncpath/` | Medium
+35 | File | `/upload` | Low
+36 | File | `/var/tmp/sess_*` | High
+37 | File | `acl.c` | Low
+38 | File | `action.php` | Medium
+39 | File | `actionphp/download.File.php` | High
+40 | File | `Addmessage.php` | High
+41 | File | `add_comment.php` | High
+42 | File | `admin.php` | Medium
+43 | File | `admin.php?mod=user&act=del` | High
+44 | File | `admin/admin.php` | High
+45 | File | `admin/content.php` | High
+46 | File | `admin/download.php` | High
+47 | File | `admin/index.php?id=users/action=edit/user_id=1` | High
+48 | File | `admin/index.php?n=ui_set&m=admin&c=index&a=doget_text_content&table=lang&field=1` | High
+49 | ... | ... | ...
 
-There are 415 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 424 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

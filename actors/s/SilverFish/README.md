@@ -53,7 +53,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -64,47 +64,50 @@ ID | Type | Indicator | Confidence
 1 | File | `%PROGRAMDATA%\OpenVPN Connect\drivers\tap\amd64\win10` | High
 2 | File | `.htaccess` | Medium
 3 | File | `/.asp` | Low
-4 | File | `/advanced/adv_dns.xgi` | High
-5 | File | `/api/RecordingList/DownloadRecord?file=` | High
-6 | File | `/api/v4/teams/TEAM_ID/top/team_members` | High
-7 | File | `/apply.cgi` | Medium
-8 | File | `/CFIDE/probe.cfm` | High
-9 | File | `/cgi-bin/kerbynet` | High
-10 | File | `/cgi-bin/wlogin.cgi` | High
-11 | File | `/collection/all` | High
-12 | File | `/conf/` | Low
-13 | File | `/cupseasylive/statemodify.php` | High
-14 | File | `/dashboard/add-service.php` | High
-15 | File | `/dev/snd/seq` | Medium
-16 | File | `/etc/passwd` | Medium
-17 | File | `/etc/shadow.sample` | High
-18 | File | `/goform/saveParentControlInfo` | High
-19 | File | `/goform/SetFirewallCfg` | High
-20 | File | `/goform/SysToolChangePwd` | High
-21 | File | `/nidp/app/login` | High
-22 | File | `/php/ping.php` | High
-23 | File | `/pms/admin/crimes/manage_crime.php` | High
-24 | File | `/proc` | Low
-25 | File | `/release-x64/otfccdump` | High
-26 | File | `/sbin/conf.d/SuSEconfig.javarunt` | High
-27 | File | `/scripts/unlock_tasks.php` | High
-28 | File | `/see_more_details.php` | High
-29 | File | `/sitecore/shell/Invoke.aspx` | High
-30 | File | `/SysInfo1.htm` | High
-31 | File | `/sysinfo_json.cgi` | High
-32 | File | `/system/user/modules/mod_users/controller.php` | High
-33 | File | `/tmp` | Low
-34 | File | `/uncpath/` | Medium
-35 | File | `/usr/lib/utmp_update` | High
-36 | File | `/usr/local` | Medium
-37 | File | `/view/vpn/autovpn/sub_commit.php` | High
-38 | File | `/wp-admin` | Medium
-39 | File | `2020\Messages\SDNotify.exe` | High
-40 | File | `adclick.php` | Medium
-41 | File | `add-blog.php` | Medium
-42 | ... | ... | ...
+4 | File | `/admin/layout` | High
+5 | File | `/admin/success_story.php` | High
+6 | File | `/advanced/adv_dns.xgi` | High
+7 | File | `/api/RecordingList/DownloadRecord?file=` | High
+8 | File | `/api/v4/teams/TEAM_ID/top/team_members` | High
+9 | File | `/apply.cgi` | Medium
+10 | File | `/CFIDE/probe.cfm` | High
+11 | File | `/cgi-bin/cstecgi.cgi` | High
+12 | File | `/cgi-bin/kerbynet` | High
+13 | File | `/cgi-bin/wlogin.cgi` | High
+14 | File | `/collection/all` | High
+15 | File | `/conf/` | Low
+16 | File | `/cupseasylive/statemodify.php` | High
+17 | File | `/dashboard/add-service.php` | High
+18 | File | `/dev/snd/seq` | Medium
+19 | File | `/endpoint/add-leads.php` | High
+20 | File | `/etc/passwd` | Medium
+21 | File | `/etc/shadow.sample` | High
+22 | File | `/goform/saveParentControlInfo` | High
+23 | File | `/goform/SetFirewallCfg` | High
+24 | File | `/goform/setMacFilterList` | High
+25 | File | `/goform/SysToolChangePwd` | High
+26 | File | `/movie.php` | Medium
+27 | File | `/nidp/app/login` | High
+28 | File | `/php/ping.php` | High
+29 | File | `/pms/admin/crimes/manage_crime.php` | High
+30 | File | `/proc` | Low
+31 | File | `/release-x64/otfccdump` | High
+32 | File | `/roomtype-details.php` | High
+33 | File | `/sbin/conf.d/SuSEconfig.javarunt` | High
+34 | File | `/scripts/unlock_tasks.php` | High
+35 | File | `/see_more_details.php` | High
+36 | File | `/show_news.php` | High
+37 | File | `/sitecore/shell/Invoke.aspx` | High
+38 | File | `/subpage.php` | Medium
+39 | File | `/SysInfo1.htm` | High
+40 | File | `/sysinfo_json.cgi` | High
+41 | File | `/system/dictData/loadDictItem` | High
+42 | File | `/system/user/modules/mod_users/controller.php` | High
+43 | File | `/tmp` | Low
+44 | File | `/uncpath/` | Medium
+45 | ... | ... | ...
 
-There are 360 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 386 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

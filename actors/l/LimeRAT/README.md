@@ -50,10 +50,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Path Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
@@ -73,61 +73,60 @@ ID | Type | Indicator | Confidence
 7 | File | `/admin/index3.php` | High
 8 | File | `/admin/regester.php` | High
 9 | File | `/admin/update_s6.php` | High
-10 | File | `/api/sys/login` | High
-11 | File | `/apps/system/api/user.go` | High
-12 | File | `/apps/system/router/upload.go` | High
-13 | File | `/batm/app/admin/standalone/deployments` | High
-14 | File | `/bd_genie_create_account.cgi` | High
-15 | File | `/be/erpc.php` | Medium
-16 | File | `/blog` | Low
-17 | File | `/boafrm/formHomeWlanSetup` | High
-18 | File | `/cgi-bin-igd/sys_log_clean.cgi` | High
-19 | File | `/cgi-bin/nas_sharing.cgi` | High
-20 | File | `/cgi-bin/vitogate.cgi` | High
-21 | File | `/cgi-bin/wapopen` | High
-22 | File | `/common/info.cgi` | High
-23 | File | `/control/register_case.php` | High
-24 | File | `/customer_demo/index2.html` | High
-25 | File | `/customer_register.php` | High
-26 | File | `/DXR.axd` | Medium
-27 | File | `/emloyee_akpoly/Account/login.php` | High
-28 | File | `/EXCU_SHELL` | Medium
-29 | File | `/forum/away.php` | High
-30 | File | `/HNAP1` | Low
-31 | File | `/inventory/transactions_view.php` | High
-32 | File | `/jfinal_cms/system/role/list` | High
-33 | File | `/labvantage/rc?command=file&file=WEB-CORE/elements/files/filesembedded.jsp&size=32` | High
-34 | File | `/librarian/bookdetails.php` | High
-35 | File | `/manage_receiving.php` | High
-36 | File | `/manage_sy.php` | High
-37 | File | `/mhds/clinic/view_details.php` | High
-38 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-39 | File | `/ndmComponents.js` | High
-40 | File | `/net-banking/delete_beneficiary.php` | High
-41 | File | `/net-banking/edit_customer.php` | High
-42 | File | `/net-banking/manage_customers.php` | High
-43 | File | `/net-banking/send_funds.php` | High
-44 | File | `/net-banking/send_funds_action.php` | High
-45 | File | `/net-banking/transactions.php` | High
-46 | File | `/oauth/idp/.well-known/openid-configuration` | High
-47 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-48 | File | `/out.php` | Medium
-49 | File | `/owa/auth/logon.aspx` | High
-50 | File | `/path/to/uploads/` | High
-51 | File | `/plain` | Low
-52 | File | `/products/view_product.php` | High
-53 | File | `/register.php` | High
-54 | File | `/scripts/cpan_config` | High
-55 | File | `/search.php` | Medium
-56 | File | `/see_more_details.php` | High
-57 | File | `/server/ajax/user_manager.php` | High
-58 | File | `/Setting/change_password_save` | High
-59 | File | `/shell` | Low
-60 | File | `/spip.php` | Medium
-61 | File | `/st_reg.php` | Medium
-62 | ... | ... | ...
+10 | File | `/api/swaggerui/static` | High
+11 | File | `/api/sys/login` | High
+12 | File | `/apps/system/api/user.go` | High
+13 | File | `/apps/system/router/upload.go` | High
+14 | File | `/batm/app/admin/standalone/deployments` | High
+15 | File | `/bd_genie_create_account.cgi` | High
+16 | File | `/be/erpc.php` | Medium
+17 | File | `/blog` | Low
+18 | File | `/boafrm/formHomeWlanSetup` | High
+19 | File | `/cgi-bin-igd/sys_log_clean.cgi` | High
+20 | File | `/cgi-bin/nas_sharing.cgi` | High
+21 | File | `/cgi-bin/vitogate.cgi` | High
+22 | File | `/cgi-bin/wapopen` | High
+23 | File | `/classes/Master.php` | High
+24 | File | `/classes/Master.php?f=delete_category` | High
+25 | File | `/common/info.cgi` | High
+26 | File | `/control/register_case.php` | High
+27 | File | `/customer_demo/index2.html` | High
+28 | File | `/customer_register.php` | High
+29 | File | `/DXR.axd` | Medium
+30 | File | `/emloyee_akpoly/Account/login.php` | High
+31 | File | `/EXCU_SHELL` | Medium
+32 | File | `/forum/away.php` | High
+33 | File | `/HNAP1` | Low
+34 | File | `/inventory/transactions_view.php` | High
+35 | File | `/jfinal_cms/system/role/list` | High
+36 | File | `/labvantage/rc?command=file&file=WEB-CORE/elements/files/filesembedded.jsp&size=32` | High
+37 | File | `/librarian/bookdetails.php` | High
+38 | File | `/manage_receiving.php` | High
+39 | File | `/manage_sy.php` | High
+40 | File | `/mhds/clinic/view_details.php` | High
+41 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+42 | File | `/ndmComponents.js` | High
+43 | File | `/net-banking/delete_beneficiary.php` | High
+44 | File | `/net-banking/edit_customer.php` | High
+45 | File | `/net-banking/manage_customers.php` | High
+46 | File | `/net-banking/send_funds.php` | High
+47 | File | `/net-banking/send_funds_action.php` | High
+48 | File | `/net-banking/transactions.php` | High
+49 | File | `/oauth/idp/.well-known/openid-configuration` | High
+50 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+51 | File | `/owa/auth/logon.aspx` | High
+52 | File | `/path/to/uploads/` | High
+53 | File | `/plain` | Low
+54 | File | `/products/view_product.php` | High
+55 | File | `/register.php` | High
+56 | File | `/request.php` | Medium
+57 | File | `/scripts/cpan_config` | High
+58 | File | `/search.php` | Medium
+59 | File | `/see_more_details.php` | High
+60 | File | `/server/ajax/user_manager.php` | High
+61 | ... | ... | ...
 
-There are 542 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 530 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

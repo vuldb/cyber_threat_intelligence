@@ -804,10 +804,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-36, CWE-425 | Path Traversal | High
-2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-29, CWE-37, CWE-425 | Path Traversal | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74, CWE-643 | Improper Neutralization of Data within XPath Expressions | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -819,54 +819,48 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.alerts-security.alerts-{space_id}` | High
-2 | File | `/#ilang=DE&b=c_smartenergy_swgroups` | High
-3 | File | `/+CSCOE+/logon.html` | High
-4 | File | `/Account/login.php` | High
-5 | File | `/admin.php/appcenter/local.html?type=addon` | High
-6 | File | `/admin.php?c=upload&f=zip&_noCache=0.1683794968` | High
-7 | File | `/admin.php?p=/Area/index#tab=t2` | High
-8 | File | `/admin/` | Low
-9 | File | `/Admin/changepassword.php` | High
-10 | File | `/admin/general-setting` | High
-11 | File | `/admin/list_ipAddressPolicy.php` | High
-12 | File | `/admin/service` | High
-13 | File | `/admin/view_sendlist.php` | High
-14 | File | `/adminapi/system/crud` | High
-15 | File | `/adminapi/system/file/openfile` | High
-16 | File | `/adminPage/conf/reload` | High
-17 | File | `/admin_route/dec_service_credits.php` | High
-18 | File | `/api/controllers/admin/app/AppController.php` | High
-19 | File | `/api/controllers/common/UploadsController.php` | High
-20 | File | `/api/v1/custom_component` | High
-21 | File | `/api/v4/teams//channels/deleted` | High
-22 | File | `/api/wechat/app_auth` | High
-23 | File | `/app/controller/Setup.php` | High
-24 | File | `/application/index/controller/Databasesource.php` | High
-25 | File | `/application/index/controller/Pay.php` | High
-26 | File | `/assets/php/upload.php` | High
-27 | File | `/calendar/minimizer/index.php` | High
-28 | File | `/cancel.php` | Medium
-29 | File | `/category.php` | High
-30 | File | `/cgi-bin/cstecgi.cgi` | High
-31 | File | `/cgi-bin/nas_sharing.cgi` | High
-32 | File | `/cgi-bin/wlogin.cgi` | High
-33 | File | `/classes/Master.php?f=view_item` | High
-34 | File | `/classes/Users.php?f=save` | High
-35 | File | `/control/register_case.php` | High
-36 | File | `/core/conditions/AbstractWrapper.java` | High
-37 | File | `/core/tools/update_menu.php` | High
-38 | File | `/devinfo` | Medium
-39 | File | `/download` | Medium
-40 | File | `/DXR.axd` | Medium
-41 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-42 | File | `/forum/away.php` | High
-43 | File | `/general/email/outbox/delete.php` | High
-44 | File | `/goform/` | Medium
-45 | File | `/goform/exeCommand` | High
-46 | ... | ... | ...
+1 | File | `/+CSCOE+/logon.html` | High
+2 | File | `/.pomerium` | Medium
+3 | File | `/admin.php?c=upload&f=zip&_noCache=0.1683794968` | High
+4 | File | `/admin.php?p=/Area/index#tab=t2` | High
+5 | File | `/admin/ajax.php?action=delete_user` | High
+6 | File | `/Admin/changepassword.php` | High
+7 | File | `/admin/general-setting` | High
+8 | File | `/admin/inquiries/view_inquiry.php` | High
+9 | File | `/admin/menu/toEdit` | High
+10 | File | `/admin/projects/{projectname}/skills/{skillname}/video` | High
+11 | File | `/admin/service` | High
+12 | File | `/adminPage/conf/reload` | High
+13 | File | `/api/v1/custom_component` | High
+14 | File | `/api/v1/settings` | High
+15 | File | `/api/wechat/app_auth` | High
+16 | File | `/cancel.php` | Medium
+17 | File | `/cgi-bin/nas_sharing.cgi` | High
+18 | File | `/cgi-bin/wlogin.cgi` | High
+19 | File | `/classes/Master.php` | High
+20 | File | `/classes/Master.php?f=delete_category` | High
+21 | File | `/classes/Master.php?f=save_medicine` | High
+22 | File | `/classes/Master.php?f=view_item` | High
+23 | File | `/classes/Users.php?f=delete` | High
+24 | File | `/classes/Users.php?f=save` | High
+25 | File | `/control/register_case.php` | High
+26 | File | `/devinfo` | Medium
+27 | File | `/download` | Medium
+28 | File | `/DXR.axd` | Medium
+29 | File | `/etc/fwupd/redfish.conf` | High
+30 | File | `/etc/shadow` | Medium
+31 | File | `/forum/away.php` | High
+32 | File | `/goform/exeCommand` | High
+33 | File | `/goform/SetIpMacBind` | High
+34 | File | `/goform/WifiExtraSet` | High
+35 | File | `/goform/WriteFacMac` | High
+36 | File | `/guestbook` | Medium
+37 | File | `/index.php` | Medium
+38 | File | `/index.php?app=main&func=passport&action=login` | High
+39 | File | `/itbox_pi/vpn_quickset_service.php?a=set_vpn` | High
+40 | ... | ... | ...
 
-There are 394 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 348 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

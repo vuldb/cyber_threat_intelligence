@@ -11,6 +11,9 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
 * [GB](https://vuldb.com/?country.gb)
+* ...
+
+There are 2 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -23,7 +26,7 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [27.102.114.55](https://vuldb.com/?ip.27.102.114.55) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 4 more IOC items available. Please use our online service to access the data.
+There are 5 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -52,19 +55,22 @@ ID | Type | Indicator | Confidence
 6 | File | `/cgi-bin/login.cgi` | High
 7 | File | `/etc/postfix/sender_login` | High
 8 | File | `/forum/away.php` | High
-9 | File | `/lists/index.php` | High
-10 | File | `/login.html` | Medium
-11 | File | `/mobilebroker/ServiceToBroker.svc/Json/Connect` | High
-12 | File | `/new` | Low
-13 | ... | ... | ...
+9 | File | `/ghost/preview` | High
+10 | File | `/lists/index.php` | High
+11 | File | `/login.html` | Medium
+12 | File | `/mobilebroker/ServiceToBroker.svc/Json/Connect` | High
+13 | File | `/new` | Low
+14 | File | `/sdm-ws-rest/preconfiguration` | High
+15 | ... | ... | ...
 
-There are 104 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 121 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://securelist.com/ghostemperor-from-proxylogon-to-kernel-mode/104407/
+* https://www.sygnia.co/blog/ghost-emperor-demodex-rootkit/
 
 ## Literature
 

@@ -67,35 +67,39 @@ ID | Type | Indicator | Confidence
 10 | File | `/filemanager/upload.php` | High
 11 | File | `/forum/away.php` | High
 12 | File | `/healthcare/Admin/consulting_detail.php` | High
-13 | File | `/if.cgi` | Low
-14 | File | `/IISADMPWD` | Medium
-15 | File | `/mifs/c/i/reg/reg.html` | High
-16 | File | `/modules/profile/index.php` | High
-17 | File | `/news.dtl.php` | High
-18 | File | `/see_more_details.php` | High
-19 | File | `/services/details.asp` | High
-20 | File | `/setup` | Low
-21 | File | `/spip.php` | Medium
-22 | File | `/uncpath/` | Medium
-23 | File | `/var/log/nginx` | High
-24 | File | `/VPortal/mgtconsole/Subscriptions.jsp` | High
-25 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-26 | File | `/zm/index.php` | High
-27 | File | `0.php` | Low
-28 | File | `act.php` | Low
-29 | File | `adclick.php` | Medium
-30 | File | `admin` | Low
-31 | File | `admin.php` | Medium
-32 | File | `admin/adminsignin.html` | High
-33 | File | `admin/movieview.php` | High
-34 | File | `admin/versions.html` | High
-35 | File | `agenda.php` | Medium
-36 | File | `ajax_calls.php` | High
-37 | File | `api.php` | Low
-38 | File | `army.php` | Medium
-39 | ... | ... | ...
+13 | File | `/I/list.php` | Medium
+14 | File | `/if.cgi` | Low
+15 | File | `/IISADMPWD` | Medium
+16 | File | `/mifs/c/i/reg/reg.html` | High
+17 | File | `/model/update_classroom.php` | High
+18 | File | `/modules/profile/index.php` | High
+19 | File | `/news.dtl.php` | High
+20 | File | `/royal_event/userregister.php` | High
+21 | File | `/see_more_details.php` | High
+22 | File | `/services/details.asp` | High
+23 | File | `/setup` | Low
+24 | File | `/signup.php` | Medium
+25 | File | `/spip.php` | Medium
+26 | File | `/uncpath/` | Medium
+27 | File | `/update-employee.php` | High
+28 | File | `/user/add-notes.php` | High
+29 | File | `/user/manage-notes.php` | High
+30 | File | `/var/log/nginx` | High
+31 | File | `/VPortal/mgtconsole/Subscriptions.jsp` | High
+32 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+33 | File | `/zm/index.php` | High
+34 | File | `0.php` | Low
+35 | File | `3/E_bak5.1/upload/eginfo.php` | High
+36 | File | `act.php` | Low
+37 | File | `adclick.php` | Medium
+38 | File | `admin` | Low
+39 | File | `admin.php` | Medium
+40 | File | `admin/adminsignin.html` | High
+41 | File | `admin/movieview.php` | High
+42 | File | `admin/products/view_product.php` | High
+43 | ... | ... | ...
 
-There are 338 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 371 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

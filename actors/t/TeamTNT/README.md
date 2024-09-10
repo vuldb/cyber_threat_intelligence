@@ -62,46 +62,46 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.htaccess` | Medium
-2 | File | `/+CSCOE+/logon.html` | High
-3 | File | `/admin.php/appcenter/local.html?type=addon` | High
-4 | File | `/admin/?page=user/manage` | High
-5 | File | `/admin/assign/assign.php` | High
-6 | File | `/admin/config_save.php` | High
-7 | File | `/admin/contacts/organizations/edit/2` | High
-8 | File | `/admin/curriculum/view_curriculum.php` | High
-9 | File | `/admin/employee_row.php` | High
-10 | File | `/admin/login.php` | High
-11 | File | `/admin/mechanics/manage_mechanic.php` | High
-12 | File | `/admin/report/index.php` | High
-13 | File | `/admin/robot/approval/list` | High
-14 | File | `/admin/sales/index.php` | High
-15 | File | `/admin/sales/view_details.php` | High
-16 | File | `/admin/sys_sql_query.php` | High
-17 | File | `/admin/transactions/track_shipment.php` | High
-18 | File | `/ajax.php?action=read_msg` | High
-19 | File | `/api/browserextension/UpdatePassword/` | High
-20 | File | `/assets/components/gallery/connector.php` | High
-21 | File | `/bin/boa` | Medium
-22 | File | `/change_password_process` | High
-23 | File | `/churchcrm/v2/family/not-found` | High
-24 | File | `/classes/Login.php` | High
-25 | File | `/classes/Master.php` | High
-26 | File | `/classes/Master.php?f=update_order_status` | High
-27 | File | `/client/manage/ourphp_out.php` | High
-28 | File | `/config/api/v1/reboot` | High
-29 | File | `/debug/pprof` | Medium
-30 | File | `/designer/add/layout` | High
-31 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
-32 | File | `/dotrace.asp` | Medium
-33 | File | `/ecrire` | Low
-34 | File | `/env` | Low
-35 | File | `/etc/shadow.sample` | High
-36 | File | `/forum/away.php` | High
-37 | File | `/goform/SetNetControlList` | High
-38 | File | `/goform/SetStaticRouteCfg` | High
-39 | File | `/goform/SysToolRestoreSet` | High
-40 | File | `/goform/WifiBasicSet` | High
+1 | File | `/+CSCOE+/logon.html` | High
+2 | File | `/admin.php/appcenter/local.html?type=addon` | High
+3 | File | `/admin/?page=user/manage` | High
+4 | File | `/admin/assign/assign.php` | High
+5 | File | `/admin/config_save.php` | High
+6 | File | `/admin/contacts/organizations/edit/2` | High
+7 | File | `/admin/curriculum/view_curriculum.php` | High
+8 | File | `/admin/employee_row.php` | High
+9 | File | `/admin/login.php` | High
+10 | File | `/admin/mechanics/manage_mechanic.php` | High
+11 | File | `/admin/report/index.php` | High
+12 | File | `/admin/robot/approval/list` | High
+13 | File | `/admin/sales/index.php` | High
+14 | File | `/admin/sales/view_details.php` | High
+15 | File | `/admin/sys_sql_query.php` | High
+16 | File | `/admin/transactions/track_shipment.php` | High
+17 | File | `/ajax.php?action=read_msg` | High
+18 | File | `/api/browserextension/UpdatePassword/` | High
+19 | File | `/assets/components/gallery/connector.php` | High
+20 | File | `/bin/boa` | Medium
+21 | File | `/change_password_process` | High
+22 | File | `/churchcrm/v2/family/not-found` | High
+23 | File | `/classes/Login.php` | High
+24 | File | `/classes/Master.php` | High
+25 | File | `/classes/Master.php?f=update_order_status` | High
+26 | File | `/client/manage/ourphp_out.php` | High
+27 | File | `/config/api/v1/reboot` | High
+28 | File | `/debug/pprof` | Medium
+29 | File | `/designer/add/layout` | High
+30 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
+31 | File | `/dotrace.asp` | Medium
+32 | File | `/ecrire` | Low
+33 | File | `/env` | Low
+34 | File | `/etc/shadow.sample` | High
+35 | File | `/forum/away.php` | High
+36 | File | `/goform/SetNetControlList` | High
+37 | File | `/goform/SetStaticRouteCfg` | High
+38 | File | `/goform/SysToolRestoreSet` | High
+39 | File | `/goform/WifiBasicSet` | High
+40 | File | `/guestbook` | Medium
 41 | File | `/HNAP1/SetAccessPointMode` | High
 42 | File | `/index.php?page=category_list` | High
 43 | File | `/members/poster.php` | High
@@ -109,7 +109,7 @@ ID | Type | Indicator | Confidence
 45 | File | `/openvpn/pageswitch.htm` | High
 46 | ... | ... | ...
 
-There are 398 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 397 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

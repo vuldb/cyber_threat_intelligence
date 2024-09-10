@@ -8,8 +8,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with NPM:
 
-* [US](https://vuldb.com/?country.us)
 * [DE](https://vuldb.com/?country.de)
+* [US](https://vuldb.com/?country.us)
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
@@ -55,13 +55,13 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/blog/blog.php` | High
-2 | File | `/cgi-bin/pass` | High
-3 | File | `/horde/imp/search.php` | High
-4 | File | `/index.php` | Medium
+1 | File | `/admin/product/manage.php` | High
+2 | File | `/blog/blog.php` | High
+3 | File | `/cgi-bin/pass` | High
+4 | File | `/horde/imp/search.php` | High
 5 | ... | ... | ...
 
-There are 26 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 33 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

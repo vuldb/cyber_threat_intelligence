@@ -41,7 +41,8 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-22, CWE-23 | Path Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | ... | ... | ... | ...
+4 | T1059 | CWE-94 | Argument Injection | High
+5 | ... | ... | ... | ...
 
 There are 14 more TTP items available. Please use our online service to access the data.
 
@@ -53,21 +54,22 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/api/RecordingList/DownloadRecord?file=` | High
 2 | File | `/apply.cgi` | Medium
-3 | File | `/dashboard/system/express/entities/forms/save_control/[GUID]` | High
-4 | File | `/login` | Low
-5 | File | `/netflow/jspui/editProfile.jsp` | High
-6 | File | `/php/ajax.php` | High
-7 | File | `/php/ping.php` | High
-8 | File | `/rapi/read_url` | High
-9 | File | `/scripts/unlock_tasks.php` | High
-10 | File | `/sys/user/queryUserComponentData` | High
-11 | File | `/SysInfo1.htm` | High
-12 | File | `/sysinfo_json.cgi` | High
-13 | File | `/system/user/modules/mod_users/controller.php` | High
-14 | File | `/vicidial/user_stats.php` | High
-15 | ... | ... | ...
+3 | File | `/cgi-bin/cstecgi.cgi` | High
+4 | File | `/dashboard/system/express/entities/forms/save_control/[GUID]` | High
+5 | File | `/login` | Low
+6 | File | `/netflow/jspui/editProfile.jsp` | High
+7 | File | `/php/ajax.php` | High
+8 | File | `/php/ping.php` | High
+9 | File | `/rapi/read_url` | High
+10 | File | `/scripts/unlock_tasks.php` | High
+11 | File | `/sys/user/queryUserComponentData` | High
+12 | File | `/SysInfo1.htm` | High
+13 | File | `/sysinfo_json.cgi` | High
+14 | File | `/system/dictData/loadDictItem` | High
+15 | File | `/system/user/modules/mod_users/controller.php` | High
+16 | ... | ... | ...
 
-There are 121 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 126 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

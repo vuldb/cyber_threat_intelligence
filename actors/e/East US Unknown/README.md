@@ -98,8 +98,9 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059 | CWE-94 | Argument Injection | High
-4 | ... | ... | ... | ...
+3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
 There are 14 more TTP items available. Please use our online service to access the data.
 
@@ -112,23 +113,24 @@ ID | Type | Indicator | Confidence
 1 | File | `/admin` | Low
 2 | File | `/admin/book_row.php` | High
 3 | File | `/admin/category_row.php` | High
-4 | File | `/admin/index.php?page=manage_product` | High
-5 | File | `/admin/manage-ambulance.php` | High
-6 | File | `/assets/ctx` | Medium
-7 | File | `/cgi-bin/kerbynet` | High
-8 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-9 | File | `/cgi-bin/nas_sharing.cgi` | High
-10 | File | `/check_availability.php` | High
-11 | File | `/classes/Master.php?f=log_employee` | High
-12 | File | `/common/info.cgi` | High
-13 | File | `/config/getuser` | High
-14 | File | `/dashboard/Cinvoice/manage_invoice` | High
-15 | File | `/dashboard/message` | High
-16 | File | `/forum/away.php` | High
-17 | File | `/manage_receiving.php` | High
-18 | ... | ... | ...
+4 | File | `/admin/emp-profile-avatar.php` | High
+5 | File | `/admin/index.php?page=manage_product` | High
+6 | File | `/admin/manage-ambulance.php` | High
+7 | File | `/assets/ctx` | Medium
+8 | File | `/cgi-bin/kerbynet` | High
+9 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+10 | File | `/cgi-bin/nas_sharing.cgi` | High
+11 | File | `/cgi-bin/p1_ftpserver.php` | High
+12 | File | `/check_availability.php` | High
+13 | File | `/classes/Master.php` | High
+14 | File | `/classes/Master.php?f=log_employee` | High
+15 | File | `/classes/SystemSettings.php?f=update_settings` | High
+16 | File | `/common/info.cgi` | High
+17 | File | `/config/getuser` | High
+18 | File | `/dashboard/Cinvoice/manage_invoice` | High
+19 | ... | ... | ...
 
-There are 142 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 157 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -165,29 +165,31 @@ ID | Type | Indicator | Confidence
 4 | File | `/admin/booking-bwdates-reports-details.php` | High
 5 | File | `/admin/ind_backstage.php` | High
 6 | File | `/admin/manage-ambulance.php` | High
-7 | File | `/admin/mod_room/controller.php?action=add` | High
-8 | File | `/admin/students/manage.php` | High
-9 | File | `/api/client/editemedia.php` | High
-10 | File | `/bilal final/edit_stud.php` | High
-11 | File | `/cancel.php` | Medium
-12 | File | `/cgi-bin/cstecgi.cgi` | High
-13 | File | `/cgi-bin/nas_sharing.cgi` | High
-14 | File | `/classes/Users.php?f=delete` | High
-15 | File | `/control/deactivate_case.php` | High
-16 | File | `/control/register_case.php` | High
-17 | File | `/Default/Bd` | Medium
-18 | File | `/forum/away.php` | High
-19 | File | `/index.php` | Medium
-20 | File | `/manager/ipconfig_new.php` | High
-21 | File | `/manage_receiving.php` | High
-22 | File | `/manage_sy.php` | High
-23 | File | `/model/add_student_subject.php` | High
-24 | File | `/ndmComponents.js` | High
-25 | File | `/oauth/idp/.well-known/openid-configuration` | High
-26 | File | `/picturesPreview` | High
-27 | ... | ... | ...
+7 | File | `/admin/manage_complaint.php` | High
+8 | File | `/admin/mod_room/controller.php?action=add` | High
+9 | File | `/admin/students/manage.php` | High
+10 | File | `/api/client/editemedia.php` | High
+11 | File | `/attendancelist.php` | High
+12 | File | `/bilal final/edit_stud.php` | High
+13 | File | `/cancel.php` | Medium
+14 | File | `/cgi-bin/cstecgi.cgi` | High
+15 | File | `/cgi-bin/nas_sharing.cgi` | High
+16 | File | `/classes/Master.php` | High
+17 | File | `/classes/Users.php?f=delete` | High
+18 | File | `/control/deactivate_case.php` | High
+19 | File | `/control/register_case.php` | High
+20 | File | `/Default/Bd` | Medium
+21 | File | `/forum/away.php` | High
+22 | File | `/goform/AdvSetLanip` | High
+23 | File | `/index.php` | Medium
+24 | File | `/manager/ipconfig_new.php` | High
+25 | File | `/manage_receiving.php` | High
+26 | File | `/manage_sy.php` | High
+27 | File | `/model/add_student_subject.php` | High
+28 | File | `/ndmComponents.js` | High
+29 | ... | ... | ...
 
-There are 226 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 247 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

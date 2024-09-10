@@ -69,7 +69,7 @@ ID | IP address | Hostname | Campaign | Confidence
 46 | [35.194.193.144](https://vuldb.com/?ip.35.194.193.144) | 144.193.194.35.bc.googleusercontent.com | - | Medium
 47 | ... | ... | ... | ...
 
-There are 182 more IOC items available. Please use our online service to access the data.
+There are 184 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -105,9 +105,10 @@ ID | Type | Indicator | Confidence
 13 | File | `/pms/admin/prisons/view_prison.php` | High
 14 | File | `/pms/admin/visits/view_visit.php` | High
 15 | File | `/pms/index.php` | High
-16 | ... | ... | ...
+16 | File | `/pms/update_medicine.php` | High
+17 | ... | ... | ...
 
-There are 133 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 138 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -55,14 +55,15 @@ ID | Type | Indicator | Confidence
 10 | File | `/secure/EditSubscription.jspa` | High
 11 | File | `/spip.php` | Medium
 12 | File | `addentry.php` | Medium
-13 | File | `admin.php` | Medium
-14 | File | `admin/admin.guestbook.php` | High
-15 | File | `admin/admin.php` | High
-16 | File | `admin/conf_users_edit.php` | High
-17 | File | `admin/index.php` | High
-18 | ... | ... | ...
+13 | File | `admin.cgi/config.cgi` | High
+14 | File | `admin.php` | Medium
+15 | File | `admin/admin.guestbook.php` | High
+16 | File | `admin/admin.php` | High
+17 | File | `admin/conf_users_edit.php` | High
+18 | File | `admin/index.php` | High
+19 | ... | ... | ...
 
-There are 144 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 151 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

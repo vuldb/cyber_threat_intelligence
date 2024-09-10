@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Israel Unknown:
 
 * [US](https://vuldb.com/?country.us)
-* [CN](https://vuldb.com/?country.cn)
 * [IL](https://vuldb.com/?country.il)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 18 more country items available. Please use our online service to access the data.
+There are 17 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -225,14 +225,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-25, CWE-36, CWE-425 | Path Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+1 | T1006 | CWE-22, CWE-23, CWE-24, CWE-25, CWE-29, CWE-36, CWE-425 | Path Traversal | High
+2 | T1055 | CWE-74, CWE-643 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -240,55 +239,60 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `%SYSTEMDRIVE%\node_modules\.bin\wmic.exe` | High
-2 | File | `/#ilang=DE&b=c_smartenergy_swgroups` | High
+1 | File | `/#ilang=DE&b=c_smartenergy_swgroups` | High
+2 | File | `/.pomerium` | Medium
 3 | File | `/Account/login.php` | High
 4 | File | `/admin/` | Low
-5 | File | `/Admin/changepassword.php` | High
-6 | File | `/admin/general-setting` | High
-7 | File | `/admin/pages/edit_chicken.php` | High
-8 | File | `/admin/pages/student-print.php` | High
-9 | File | `/admin/service` | High
-10 | File | `/adminapi/system/crud` | High
-11 | File | `/adminapi/system/file/openfile` | High
-12 | File | `/admin_route/dec_service_credits.php` | High
-13 | File | `/admin_route/inc_service_credits.php` | High
-14 | File | `/api/v1/custom_component` | High
-15 | File | `/api/v4/teams//channels/deleted` | High
-16 | File | `/api/wechat/app_auth` | High
-17 | File | `/app/Http/Controllers/ImageController.php` | High
-18 | File | `/application/index/controller/Icon.php` | High
-19 | File | `/b2b-supermarket/shopping-cart` | High
-20 | File | `/cancel.php` | Medium
-21 | File | `/category.php` | High
-22 | File | `/cgi-bin/cstecgi.cgi` | High
-23 | File | `/cgi-bin/wlogin.cgi` | High
-24 | File | `/change-language/de_DE` | High
-25 | File | `/classes/Users.php?f=delete` | High
-26 | File | `/control/register_case.php` | High
-27 | File | `/debug/pprof` | Medium
-28 | File | `/devinfo` | Medium
-29 | File | `/dist/index.js` | High
-30 | File | `/download` | Medium
-31 | File | `/forum/away.php` | High
-32 | File | `/general/attendance/manage/ask_duty/delete.php` | High
-33 | File | `/goform/formSysCmd` | High
-34 | File | `/hosts/firewall/ip` | High
-35 | File | `/index.jsp#settings` | High
-36 | File | `/index.php` | Medium
-37 | File | `/index.php/ccm/system/file/upload` | High
-38 | File | `/Interface/DevManage/VM.php` | High
-39 | File | `/labvantage/rc?command=page&page=SampleList&_iframename=list` | High
-40 | File | `/log/decodmail.php` | High
-41 | File | `/members/poster.php` | High
-42 | File | `/model/add_student_subject.php` | High
-43 | File | `/ndmComponents.js` | High
-44 | File | `/oauth/idp/.well-known/openid-configuration` | High
-45 | File | `/one_church/churchprofile.php` | High
-46 | File | `/php/ping.php` | High
-47 | ... | ... | ...
+5 | File | `/admin/ajax.php?action=delete_user` | High
+6 | File | `/Admin/changepassword.php` | High
+7 | File | `/admin/general-setting` | High
+8 | File | `/admin/inquiries/view_inquiry.php` | High
+9 | File | `/admin/pages/` | High
+10 | File | `/admin/pages/edit_chicken.php` | High
+11 | File | `/admin/pages/student-print.php` | High
+12 | File | `/admin/projects/{projectname}/skills/{skillname}/video` | High
+13 | File | `/admin/service` | High
+14 | File | `/adminapi/system/crud` | High
+15 | File | `/adminapi/system/file/openfile` | High
+16 | File | `/admin_route/dec_service_credits.php` | High
+17 | File | `/admin_route/inc_service_credits.php` | High
+18 | File | `/api/v1/custom_component` | High
+19 | File | `/api/v4/teams//channels/deleted` | High
+20 | File | `/api/wechat/app_auth` | High
+21 | File | `/app/Http/Controllers/ImageController.php` | High
+22 | File | `/application/index/controller/Icon.php` | High
+23 | File | `/cancel.php` | Medium
+24 | File | `/category.php` | High
+25 | File | `/cgi-bin/cstecgi.cgi` | High
+26 | File | `/cgi-bin/nas_sharing.cgi` | High
+27 | File | `/change-language/de_DE` | High
+28 | File | `/classes/Master.php` | High
+29 | File | `/classes/Master.php?f=delete_category` | High
+30 | File | `/classes/Master.php?f=save_medicine` | High
+31 | File | `/classes/Users.php?f=delete` | High
+32 | File | `/classes/Users.php?f=save` | High
+33 | File | `/control/register_case.php` | High
+34 | File | `/devinfo` | Medium
+35 | File | `/dist/index.js` | High
+36 | File | `/download` | Medium
+37 | File | `/DXR.axd` | Medium
+38 | File | `/employee_gatepass/admin/?page=employee/manage_employee` | High
+39 | File | `/etc/shadow` | Medium
+40 | File | `/forum/away.php` | High
+41 | File | `/general/attendance/manage/ask_duty/delete.php` | High
+42 | File | `/goform/SetIpMacBind` | High
+43 | File | `/goform/WifiExtraSet` | High
+44 | File | `/guestbook` | Medium
+45 | File | `/hosts/firewall/ip` | High
+46 | File | `/index.jsp#settings` | High
+47 | File | `/index.php` | Medium
+48 | File | `/index.php/ccm/system/file/upload` | High
+49 | File | `/Interface/DevManage/VM.php` | High
+50 | File | `/js/player/dmplayer/dmku/?ac=edit` | High
+51 | File | `/labvantage/rc?command=file&file=WEB-OPAL/pagetypes/bulletins/sendbulletin.jsp` | High
+52 | ... | ... | ...
 
-There are 408 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 451 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

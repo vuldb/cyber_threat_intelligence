@@ -39,7 +39,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | ... | ... | ... | ...
 
-There are 11 more TTP items available. Please use our online service to access the data.
+There are 13 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -61,9 +61,10 @@ ID | Type | Indicator | Confidence
 12 | File | `/event/admin/?page=user/list` | High
 13 | File | `/include/file.php` | High
 14 | File | `/index.php` | Medium
-15 | ... | ... | ...
+15 | File | `/index.php?menu=asterisk_cli` | High
+16 | ... | ... | ...
 
-There are 123 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 127 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

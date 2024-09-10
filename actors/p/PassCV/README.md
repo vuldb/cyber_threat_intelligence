@@ -74,24 +74,24 @@ ID | Type | Indicator | Confidence
 3 | File | `/admin.php?p=/Area/index#tab=t2` | High
 4 | File | `/admin/index2.html` | High
 5 | File | `/admin/scripts/pi-hole/phpqueryads.php` | High
-6 | File | `/baseOpLog.do` | High
-7 | File | `/bitrix/admin/ldap_server_edit.php` | High
-8 | File | `/cdsms/classes/Master.php?f=delete_enrollment` | High
-9 | File | `/cgi-bin/api-get_line_status` | High
-10 | File | `/cgi-bin/wapopen` | High
-11 | File | `/config/getuser` | High
-12 | File | `/controller/OnlinePreviewController.java` | High
-13 | File | `/export` | Low
-14 | File | `/getcfg.php` | Medium
-15 | File | `/includes/rrdtool.inc.php` | High
-16 | File | `/mifs/c/i/reg/reg.html` | High
-17 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-18 | File | `/pages/systemcall.php?command={COMMAND}` | High
-19 | File | `/server-info` | Medium
-20 | File | `/system/dept/edit` | High
+6 | File | `/api/upload.php` | High
+7 | File | `/baseOpLog.do` | High
+8 | File | `/bitrix/admin/ldap_server_edit.php` | High
+9 | File | `/cdsms/classes/Master.php?f=delete_enrollment` | High
+10 | File | `/cgi-bin/api-get_line_status` | High
+11 | File | `/cgi-bin/wapopen` | High
+12 | File | `/config/getuser` | High
+13 | File | `/controller/OnlinePreviewController.java` | High
+14 | File | `/export` | Low
+15 | File | `/getcfg.php` | Medium
+16 | File | `/includes/rrdtool.inc.php` | High
+17 | File | `/mifs/c/i/reg/reg.html` | High
+18 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+19 | File | `/pages/systemcall.php?command={COMMAND}` | High
+20 | File | `/server-info` | Medium
 21 | ... | ... | ...
 
-There are 170 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 172 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

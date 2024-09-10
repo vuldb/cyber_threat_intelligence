@@ -90,9 +90,10 @@ ID | Type | Indicator | Confidence
 36 | File | `/members/view_member.php` | High
 37 | File | `/mgm_dev_reboot.asp` | High
 38 | File | `/MicroStrategyWS/happyaxis.jsp` | High
-39 | ... | ... | ...
+39 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+40 | ... | ... | ...
 
-There are 340 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 341 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

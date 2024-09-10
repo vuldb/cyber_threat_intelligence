@@ -25,7 +25,8 @@ ID | IP address | Hostname | Campaign | Confidence
 2 | [23.94.239.89](https://vuldb.com/?ip.23.94.239.89) | 23-94-239-89-host.colocrossing.com | - | High
 3 | [45.67.228.51](https://vuldb.com/?ip.45.67.228.51) | vm1700022.stark-industries.solutions | - | High
 4 | [82.115.209.180](https://vuldb.com/?ip.82.115.209.180) | - | - | High
-5 | ... | ... | ... | ...
+5 | [89.47.1.10](https://vuldb.com/?ip.89.47.1.10) | - | - | High
+6 | ... | ... | ... | ...
 
 There are 18 more IOC items available. Please use our online service to access the data.
 
@@ -40,7 +41,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059 | CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
 
-There are 10 more TTP items available. Please use our online service to access the data.
+There are 9 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -48,25 +49,26 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/backend/register.php` | High
-2 | File | `/cgi-bin/login.cgi` | High
-3 | File | `/cgi-bin/nas_sharing.cgi` | High
-4 | File | `/cgi-bin/vitogate.cgi` | High
-5 | File | `/control/register_case.php` | High
-6 | File | `/netflow/servlet/CReportPDFServlet` | High
-7 | File | `/oauth/idp/.well-known/openid-configuration` | High
-8 | File | `/Setting/change_password_save` | High
-9 | File | `/show_news.php` | High
-10 | File | `/spip.php` | Medium
-11 | File | `/userLogin.asp` | High
-12 | File | `adclick.php` | Medium
-13 | File | `addentry.php` | Medium
-14 | File | `admin.php3` | Medium
-15 | File | `admin/conf_users_edit.php` | High
-16 | File | `album_portal.php` | High
-17 | ... | ... | ...
+1 | File | `/admin/emp-profile-avatar.php` | High
+2 | File | `/admin/manage_complaint.php` | High
+3 | File | `/backend/register.php` | High
+4 | File | `/cgi-bin/login.cgi` | High
+5 | File | `/cgi-bin/nas_sharing.cgi` | High
+6 | File | `/cgi-bin/vitogate.cgi` | High
+7 | File | `/classes/Master.php` | High
+8 | File | `/classes/SystemSettings.php?f=update_settings` | High
+9 | File | `/control/register_case.php` | High
+10 | File | `/netflow/servlet/CReportPDFServlet` | High
+11 | File | `/oauth/idp/.well-known/openid-configuration` | High
+12 | File | `/request.php` | Medium
+13 | File | `/Script/admin/core/update_policy` | High
+14 | File | `/Setting/change_password_save` | High
+15 | File | `/show_news.php` | High
+16 | File | `/spip.php` | Medium
+17 | File | `/userLogin.asp` | High
+18 | ... | ... | ...
 
-There are 139 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 144 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -76,6 +78,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/threat-roundup-1013-1020/
 * https://cyble.com/blog/agenttesla-spreads-through-chm-and-pdf-files-in-recent-attacks/
 * https://cyble.com/blog/threat-actor-employs-powershell-backed-steganography-in-recent-spam-campaigns/
+* https://exchange.xforce.ibmcloud.com/
 * https://www.mcafee.com/blogs/other-blogs/mcafee-labs/from-email-to-rat-deciphering-a-vb-script-driven-campaign/
 
 ## Literature

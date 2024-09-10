@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [DE](https://vuldb.com/?country.de)
 * [US](https://vuldb.com/?country.us)
-* [PL](https://vuldb.com/?country.pl)
+* [HU](https://vuldb.com/?country.hu)
 * ...
 
-There are 3 more country items available. Please use our online service to access the data.
+There are 4 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -79,55 +79,55 @@ ID | Type | Indicator | Confidence
 19 | File | `/admin/pages/sections_save.php` | High
 20 | File | `/admin/read.php?mudi=announContent` | High
 21 | File | `/admin/service/stop/` | High
-22 | File | `/admin/settings.php` | High
-23 | File | `/admin/sys_sql_query.php` | High
-24 | File | `/admin/transactions/update_status.php` | High
-25 | File | `/admin/update_s6.php` | High
-26 | File | `/admin/upload.php` | High
-27 | File | `/admin/user/manage_user.php` | High
-28 | File | `/admin/vote_edit.php` | High
-29 | File | `/api/sys/login` | High
-30 | File | `/asms/admin/products/manage_product.php` | High
-31 | File | `/balance/service/list` | High
-32 | File | `/bin/ate` | Medium
-33 | File | `/blog` | Low
-34 | File | `/blog-single.php` | High
-35 | File | `/blog/comment` | High
-36 | File | `/boafrm/formFilter` | High
-37 | File | `/bsms_ci/index.php/book` | High
-38 | File | `/cgi-bin/adm.cgi` | High
-39 | File | `/change-language/de_DE` | High
-40 | File | `/classes/Master.php` | High
-41 | File | `/classes/Master.php?f=delete_category` | High
-42 | File | `/classes/Master.php?f=delete_inquiry` | High
-43 | File | `/classes/Master.php?f=delete_item` | High
-44 | File | `/classes/Master.php?f=delete_service` | High
-45 | File | `/classes/Master.php?f=save_course` | High
-46 | File | `/classes/Master.php?f=save_inquiry` | High
-47 | File | `/classes/Master.php?f=save_item` | High
-48 | File | `/cms/category/list` | High
-49 | File | `/collection/all` | High
-50 | File | `/company/store` | High
-51 | File | `/confirm` | Medium
-52 | File | `/depotHead/list` | High
-53 | File | `/dipam/athlete-profile.php` | High
-54 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-55 | File | `/etc/shadow.sample` | High
-56 | File | `/file_manager/admin/save_user.php` | High
-57 | File | `/find-a-match` | High
-58 | File | `/friends` | Medium
-59 | File | `/friends/ajax_invite` | High
-60 | File | `/front/roomtype-details.php` | High
-61 | File | `/garage/editorder.php` | High
-62 | File | `/goform/addressNat` | High
-63 | File | `/goform/AdvSetWrlsafeset` | High
-64 | File | `/goForm/aspForm` | High
-65 | File | `/goform/CertListInfo` | High
-66 | File | `/goform/delFileName` | High
-67 | File | `/goform/editFileName` | High
+22 | File | `/admin/sys_sql_query.php` | High
+23 | File | `/admin/transactions/update_status.php` | High
+24 | File | `/admin/update_s6.php` | High
+25 | File | `/admin/upload.php` | High
+26 | File | `/admin/user/manage_user.php` | High
+27 | File | `/admin/vote_edit.php` | High
+28 | File | `/api/sys/login` | High
+29 | File | `/asms/admin/products/manage_product.php` | High
+30 | File | `/balance/service/list` | High
+31 | File | `/bin/ate` | Medium
+32 | File | `/blog` | Low
+33 | File | `/blog-single.php` | High
+34 | File | `/blog/comment` | High
+35 | File | `/boafrm/formFilter` | High
+36 | File | `/bsms_ci/index.php/book` | High
+37 | File | `/cgi-bin/adm.cgi` | High
+38 | File | `/change-language/de_DE` | High
+39 | File | `/classes/Master.php` | High
+40 | File | `/classes/Master.php?f=delete_category` | High
+41 | File | `/classes/Master.php?f=delete_inquiry` | High
+42 | File | `/classes/Master.php?f=delete_item` | High
+43 | File | `/classes/Master.php?f=delete_service` | High
+44 | File | `/classes/Master.php?f=save_course` | High
+45 | File | `/classes/Master.php?f=save_inquiry` | High
+46 | File | `/classes/Master.php?f=save_item` | High
+47 | File | `/cms/category/list` | High
+48 | File | `/collection/all` | High
+49 | File | `/company/store` | High
+50 | File | `/confirm` | Medium
+51 | File | `/depotHead/list` | High
+52 | File | `/dipam/athlete-profile.php` | High
+53 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+54 | File | `/etc/shadow.sample` | High
+55 | File | `/file_manager/admin/save_user.php` | High
+56 | File | `/find-a-match` | High
+57 | File | `/friends` | Medium
+58 | File | `/friends/ajax_invite` | High
+59 | File | `/front/roomtype-details.php` | High
+60 | File | `/garage/editorder.php` | High
+61 | File | `/goform/addressNat` | High
+62 | File | `/goform/AdvSetWrlsafeset` | High
+63 | File | `/goForm/aspForm` | High
+64 | File | `/goform/CertListInfo` | High
+65 | File | `/goform/delFileName` | High
+66 | File | `/goform/editFileName` | High
+67 | File | `/goform/editUserName` | High
 68 | ... | ... | ...
 
-There are 599 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 597 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -8,8 +8,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with BadBazaar:
 
-* [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
 * [DE](https://vuldb.com/?country.de)
 * ...
 
@@ -26,7 +26,7 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [45.154.12.132](https://vuldb.com/?ip.45.154.12.132) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 12 more IOC items available. Please use our online service to access the data.
+There are 13 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -54,16 +54,23 @@ ID | Type | Indicator | Confidence
 5 | File | `/etc/postfix/sender_login` | High
 6 | File | `/file/upload/1` | High
 7 | File | `/filemanager/ajax_calls.php` | High
-8 | File | `/Items/*/RemoteImages/Download` | High
-9 | File | `/login.php` | Medium
-10 | ... | ... | ...
+8 | File | `/forum/away.php` | High
+9 | File | `/Items/*/RemoteImages/Download` | High
+10 | File | `/login.php` | Medium
+11 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+12 | File | `/secure/QueryComponent!Default.jspa` | High
+13 | File | `actions/CompanyDetailsSave.php` | High
+14 | File | `adclick.php` | Medium
+15 | File | `admin/index.php` | High
+16 | ... | ... | ...
 
-There are 72 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 128 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://www.embeeresearch.io/decoding-a-cobalt-strike-downloader-script-with-cyberchef/
 * https://www.welivesecurity.com/en/eset-research/badbazaar-espionage-tool-targets-android-users-trojanized-signal-telegram-apps/
 
 ## Literature

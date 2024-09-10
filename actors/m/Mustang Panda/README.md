@@ -79,22 +79,24 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/dl_sendmail.php` | High
-2 | File | `/adminPage/conf/reload` | High
-3 | File | `/api/baskets/{name}` | High
-4 | File | `/api/v2/cli/commands` | High
-5 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
-6 | File | `/dipam/athlete-profile.php` | High
-7 | File | `/DXR.axd` | Medium
-8 | File | `/forum/away.php` | High
-9 | File | `/mfsNotice/page` | High
-10 | File | `/novel/bookSetting/list` | High
-11 | File | `/novel/userFeedback/list` | High
-12 | File | `/owa/auth/logon.aspx` | High
-13 | File | `/spip.php` | Medium
-14 | File | `/x_portal_assemble_surface/jaxrs/portal/list?v=8.2.3-4-43f4fe3` | High
-15 | ... | ... | ...
+2 | File | `/admin/index2.html` | High
+3 | File | `/adminPage/conf/reload` | High
+4 | File | `/api/baskets/{name}` | High
+5 | File | `/api/v2/cli/commands` | High
+6 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
+7 | File | `/dipam/athlete-profile.php` | High
+8 | File | `/DXR.axd` | Medium
+9 | File | `/forum/away.php` | High
+10 | File | `/index/ajax/lang` | High
+11 | File | `/log/decodmail.php` | High
+12 | File | `/mfsNotice/page` | High
+13 | File | `/novel/bookSetting/list` | High
+14 | File | `/novel/userFeedback/list` | High
+15 | File | `/owa/auth/logon.aspx` | High
+16 | File | `/register.php` | High
+17 | ... | ... | ...
 
-There are 124 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 142 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

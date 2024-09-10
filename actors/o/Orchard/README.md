@@ -51,36 +51,38 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin` | Low
 2 | File | `/admin.php/news/admin/lists/zhuan` | High
-3 | File | `/admin/bookings/view_details.php` | High
-4 | File | `/admin/edit.php` | High
-5 | File | `/admin/maintenance/view_designation.php` | High
-6 | File | `/admin/normal-bwdates-reports-details.php` | High
-7 | File | `/admin/profile/save_profile` | High
-8 | File | `/admin/reports.php` | High
-9 | File | `/api/v1/chat.getThreadsList` | High
-10 | File | `/App_Resource/UEditor/server/upload.aspx` | High
-11 | File | `/bin/sh` | Low
-12 | File | `/cgi-bin/luci/api/diagnose` | High
-13 | File | `/cgi-bin/R19.9/easy1350.pl` | High
-14 | File | `/classes/conf/db.properties&config=filemanager.config.js` | High
-15 | File | `/coders/palm.c` | High
-16 | File | `/collection/all` | High
-17 | File | `/dcim/rack/` | Medium
-18 | File | `/EditEventTypes.php` | High
-19 | File | `/endpoint/add-user.php` | High
-20 | File | `/etc/groups` | Medium
-21 | File | `/file/upload/1` | High
-22 | File | `/formSetPortTr` | High
-23 | File | `/forum/away.php` | High
-24 | File | `/general/system/interface/theme_set/save_image.php` | High
-25 | File | `/goform/exeCommand` | High
-26 | File | `/goform/SetDDNSCfg` | High
-27 | File | `/goform/setsambacfg` | High
-28 | File | `/goform/wlanPrimaryNetwork` | High
-29 | File | `/index.php?module=help_pages/pages&entities_id=24` | High
-30 | ... | ... | ...
+3 | File | `/admin/action/delete-vaccine.php` | High
+4 | File | `/admin/bookings/view_details.php` | High
+5 | File | `/admin/edit.php` | High
+6 | File | `/admin/inquiries/view_inquiry.php` | High
+7 | File | `/admin/maintenance/view_designation.php` | High
+8 | File | `/admin/normal-bwdates-reports-details.php` | High
+9 | File | `/admin/profile/save_profile` | High
+10 | File | `/admin/reports.php` | High
+11 | File | `/api/v1/chat.getThreadsList` | High
+12 | File | `/App_Resource/UEditor/server/upload.aspx` | High
+13 | File | `/bin/sh` | Low
+14 | File | `/cgi-bin/luci/api/diagnose` | High
+15 | File | `/cgi-bin/R19.9/easy1350.pl` | High
+16 | File | `/cgi-bin/tosei_kikai.php` | High
+17 | File | `/classes/conf/db.properties&config=filemanager.config.js` | High
+18 | File | `/coders/palm.c` | High
+19 | File | `/collection/all` | High
+20 | File | `/dcim/rack/` | Medium
+21 | File | `/EditEventTypes.php` | High
+22 | File | `/endpoint/add-user.php` | High
+23 | File | `/endpoint/delete-expense.php` | High
+24 | File | `/etc/groups` | Medium
+25 | File | `/file/upload/1` | High
+26 | File | `/formSetPortTr` | High
+27 | File | `/forum/away.php` | High
+28 | File | `/general/system/interface/theme_set/save_image.php` | High
+29 | File | `/goform/exeCommand` | High
+30 | File | `/goform/SetDDNSCfg` | High
+31 | File | `/goform/setsambacfg` | High
+32 | ... | ... | ...
 
-There are 251 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 276 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

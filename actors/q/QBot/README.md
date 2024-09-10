@@ -100,7 +100,7 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-264, CWE-269, CWE-274, CWE-284 | Execution with Unnecessary Privileges | High
+5 | T1068 | CWE-264, CWE-266, CWE-269, CWE-273, CWE-274, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
@@ -111,33 +111,41 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin.php?p=/Area/index#tab=t2` | High
-2 | File | `/admin/index.php?page=categories` | High
-3 | File | `/admin/login.php` | High
-4 | File | `/admin/project/update/2` | High
-5 | File | `/admin/students.php` | High
-6 | File | `/admin/students/manage.php` | High
-7 | File | `/adminPage/www/addOver` | High
-8 | File | `/application/index/controller/Screen.php` | High
-9 | File | `/cgi-bin/cstecgi.cgi` | High
-10 | File | `/cgi-bin/nas_sharing.cgi` | High
-11 | File | `/dataSet/testTransform;swagger-ui` | High
-12 | File | `/dayrui/Fcms/View/system_log.html` | High
-13 | File | `/dayrui/My/View/main.html` | High
-14 | File | `/debug/pprof` | Medium
-15 | File | `/download/image` | High
-16 | File | `/forum/away.php` | High
-17 | File | `/goform/execCommand` | High
-18 | File | `/goform/SetRebootTimer` | High
-19 | File | `/goform/SetSysTimeCfg` | High
-20 | File | `/goform/WriteFacMac` | High
-21 | File | `/hedwig.cgi` | Medium
-22 | File | `/lam/tmp/` | Medium
-23 | File | `/login-actions/authenticate` | High
-24 | File | `/mobilebroker/ServiceToBroker.svc/Json/Connect` | High
-25 | ... | ... | ...
+1 | File | `%PROGRAMDATA%\Razer\Synapse3\Service\bin` | High
+2 | File | `/admin.php?p=/Area/index#tab=t2` | High
+3 | File | `/admin/index.php?page=categories` | High
+4 | File | `/admin/index2.html` | High
+5 | File | `/admin/login.php` | High
+6 | File | `/admin/project/update/2` | High
+7 | File | `/admin/sql` | Medium
+8 | File | `/admin/students.php` | High
+9 | File | `/admin/students/manage.php` | High
+10 | File | `/admin/system.html` | High
+11 | File | `/adminPage/www/addOver` | High
+12 | File | `/api/v2/cli/commands` | High
+13 | File | `/application/index/controller/Icon.php` | High
+14 | File | `/application/index/controller/Screen.php` | High
+15 | File | `/bin/ate` | Medium
+16 | File | `/boaform/device_reset.cgi` | High
+17 | File | `/cgi-bin/cstecgi.cgi` | High
+18 | File | `/classes/Master.php` | High
+19 | File | `/dataSet/testTransform;swagger-ui` | High
+20 | File | `/dayrui/Fcms/View/system_log.html` | High
+21 | File | `/dayrui/My/View/main.html` | High
+22 | File | `/debug/pprof` | Medium
+23 | File | `/download/image` | High
+24 | File | `/forum/away.php` | High
+25 | File | `/goform/execCommand` | High
+26 | File | `/goform/goform_get_cmd_process` | High
+27 | File | `/goform/SetRebootTimer` | High
+28 | File | `/goform/SetSysTimeCfg` | High
+29 | File | `/goform/WriteFacMac` | High
+30 | File | `/hedwig.cgi` | Medium
+31 | File | `/ims/login.php` | High
+32 | File | `/includes/common/require_access_recovery.php` | High
+33 | ... | ... | ...
 
-There are 213 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 277 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

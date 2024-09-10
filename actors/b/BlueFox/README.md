@@ -34,7 +34,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Path Traversal | High
+1 | T1006 | CWE-22, CWE-27 | Path Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1059 | CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
@@ -47,23 +47,24 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/Employee/changepassword.php` | High
-2 | File | `/forum/away.php` | High
-3 | File | `/importexport.php` | High
-4 | File | `/index.php` | Medium
-5 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-6 | File | `/version.js` | Medium
-7 | File | `/view/dhcp/dhcpConfig/dhcp_relay_commit.php` | High
-8 | File | `adclick.php` | Medium
-9 | File | `addtocart.asp` | High
-10 | File | `admin/adm/test.php` | High
-11 | File | `agora.cgi` | Medium
-12 | File | `books.php` | Medium
-13 | File | `cat.asp` | Low
-14 | File | `catalog.php` | Medium
-15 | ... | ... | ...
+1 | File | `/api/deploy/upload` | High
+2 | File | `/api/deploy/upload /api/database/upload` | High
+3 | File | `/Employee/changepassword.php` | High
+4 | File | `/forum/away.php` | High
+5 | File | `/importexport.php` | High
+6 | File | `/index.php` | Medium
+7 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+8 | File | `/show_news.php` | High
+9 | File | `/version.js` | Medium
+10 | File | `/view/dhcp/dhcpConfig/dhcp_relay_commit.php` | High
+11 | File | `/view_payment.php` | High
+12 | File | `/view_single_result.php?vr=123321&vn=mirage` | High
+13 | File | `adclick.php` | Medium
+14 | File | `addtocart.asp` | High
+15 | File | `admin/adm/test.php` | High
+16 | ... | ... | ...
 
-There are 115 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 128 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

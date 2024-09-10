@@ -199,16 +199,17 @@ ID | Type | Indicator | Confidence
 6 | File | `/application/index/controller/Databasesource.php` | High
 7 | File | `/backend/register.php` | High
 8 | File | `/cgi-bin/nas_sharing.cgi` | High
-9 | File | `/classes/Master.php?f=save_sub_category` | High
-10 | File | `/classes/Users.php?f=delete` | High
-11 | File | `/control/register_case.php` | High
-12 | File | `/dashboard/Cinvoice/manage_invoice` | High
-13 | File | `/forum/away.php` | High
-14 | File | `/index.jsp#settings` | High
-15 | File | `/lesson/controller.php` | High
-16 | ... | ... | ...
+9 | File | `/classes/Master.php` | High
+10 | File | `/classes/Master.php?f=save_sub_category` | High
+11 | File | `/classes/Users.php?f=delete` | High
+12 | File | `/control/register_case.php` | High
+13 | File | `/dashboard/Cinvoice/manage_invoice` | High
+14 | File | `/forum/away.php` | High
+15 | File | `/index.jsp#settings` | High
+16 | File | `/lesson/controller.php` | High
+17 | ... | ... | ...
 
-There are 131 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 138 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

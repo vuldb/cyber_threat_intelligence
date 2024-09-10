@@ -30,6 +30,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22 | Path Traversal | High
+2 | T1588.001 | CWE-912 | Backdoor | High
 
 ## IOA - Indicator of Attack
 

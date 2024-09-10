@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 6 more country items available. Please use our online service to access the data.
+There are 9 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -34,7 +34,8 @@ ID | IP address | Hostname | Campaign | Confidence
 11 | [8.147.105.128](https://vuldb.com/?ip.8.147.105.128) | - | - | High
 12 | [8.147.107.117](https://vuldb.com/?ip.8.147.107.117) | - | - | High
 13 | [8.147.108.206](https://vuldb.com/?ip.8.147.108.206) | - | - | High
-14 | ... | ... | ... | ...
+14 | [8.147.109.58](https://vuldb.com/?ip.8.147.109.58) | - | - | High
+15 | ... | ... | ... | ...
 
 There are 54 more IOC items available. Please use our online service to access the data.
 
@@ -57,37 +58,40 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/addemployee.php` | High
-2 | File | `/csms/?page=contact_us` | High
-3 | File | `/dev/mem` | Medium
-4 | File | `/download` | Medium
-5 | File | `/goform/setLang` | High
-6 | File | `/modules/registration_admission/patient_register.php` | High
-7 | File | `/obj/collectivite.class.php` | High
-8 | File | `/obj/reference.class.php` | High
-9 | File | `/opt/IBM/es/lib/libffq.cryptionjni.so` | High
-10 | File | `/out.php` | Medium
-11 | File | `/search.php` | Medium
-12 | File | `/userfs/bin/tcapi` | High
-13 | File | `adclick.php` | Medium
-14 | File | `add.php` | Low
-15 | File | `addentry.php` | Medium
-16 | File | `add_comment.php` | High
-17 | File | `adm-admlog.php` | High
-18 | File | `admin.php` | Medium
-19 | File | `admin/conf_users_edit.php` | High
-20 | File | `Advance/Premium/Standard` | High
-21 | File | `affiliates.php` | High
-22 | File | `ajax.php` | Medium
-23 | File | `app\destinations\destination_imports.php` | High
-24 | File | `audio.sec` | Medium
-25 | File | `auto_ftp.pl` | Medium
-26 | File | `bible.php` | Medium
-27 | File | `bsguest.cgi` | Medium
-28 | File | `case.filemanager.php` | High
-29 | ... | ... | ...
+1 | File | `/admin/add-services.php` | High
+2 | File | `/admin/addemployee.php` | High
+3 | File | `/admin/del_service.php` | High
+4 | File | `/admin/modal_add_product.php` | High
+5 | File | `/api/sys/login` | High
+6 | File | `/common/sysFile/list` | High
+7 | File | `/csms/?page=contact_us` | High
+8 | File | `/dev/mem` | Medium
+9 | File | `/download` | Medium
+10 | File | `/goform/setLang` | High
+11 | File | `/goform/SetSysTimeCfg` | High
+12 | File | `/index.php` | Medium
+13 | File | `/modules/registration_admission/patient_register.php` | High
+14 | File | `/obj/collectivite.class.php` | High
+15 | File | `/obj/reference.class.php` | High
+16 | File | `/opt/IBM/es/lib/libffq.cryptionjni.so` | High
+17 | File | `/oputilsServlet` | High
+18 | File | `/out.php` | Medium
+19 | File | `/preview.php` | Medium
+20 | File | `/search.php` | Medium
+21 | File | `/sysmanage/licence.php` | High
+22 | File | `/userfs/bin/tcapi` | High
+23 | File | `adclick.php` | Medium
+24 | File | `add.php` | Low
+25 | File | `addentry.php` | Medium
+26 | File | `add_comment.php` | High
+27 | File | `adm-admlog.php` | High
+28 | File | `admin.php` | Medium
+29 | File | `admin/conf_users_edit.php` | High
+30 | File | `admin/user/manage_user.php` | High
+31 | File | `admin_cs.php` | Medium
+32 | ... | ... | ...
 
-There are 241 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 271 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

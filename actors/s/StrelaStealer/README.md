@@ -28,11 +28,11 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [45.9.74.12](https://vuldb.com/?ip.45.9.74.12) | - | - | High
-2 | [91.215.85.209](https://vuldb.com/?ip.91.215.85.209) | - | Spain | High
-3 | [193.109.85.77](https://vuldb.com/?ip.193.109.85.77) | - | - | High
+2 | [45.9.74.13](https://vuldb.com/?ip.45.9.74.13) | - | - | High
+3 | [45.9.74.32](https://vuldb.com/?ip.45.9.74.32) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 1 more IOC items available. Please use our online service to access the data.
+There are 5 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -66,8 +66,11 @@ There are 33 more IOA items available (file, library, argument, input value, pat
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://asec.ahnlab.com/en/53158/
+* https://bazaar.abuse.ch/sample/3a948982d87b89fe3c05f1b6265d6435e19d51fd970bd773ab0b01e013e1a171/
+* https://bazaar.abuse.ch/sample/956c50d8878fc708f27dd53fca71ec874c4304d2a43e4ca939c4a0b26d87d6f8/
 * https://blog.sonicwall.com/en-us/2024/04/updated-strelastealer-targeting-european-countries/
 * https://gbhackers.com/strelastealer-malware-attacks-eu-us/
+* https://threatfox.abuse.ch
 * https://twitter.com/AgidCert/status/1695004388190806210
 
 ## Literature

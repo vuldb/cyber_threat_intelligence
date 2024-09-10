@@ -28,10 +28,16 @@ ID | IP address | Hostname | Campaign | Confidence
 5 | [45.8.146.213](https://vuldb.com/?ip.45.8.146.213) | vm1266137.stark-industries.solutions | - | High
 6 | [45.8.146.227](https://vuldb.com/?ip.45.8.146.227) | vm1266137.stark-industries.solutions | - | High
 7 | [45.15.25.190](https://vuldb.com/?ip.45.15.25.190) | - | - | High
-8 | [77.73.134.68](https://vuldb.com/?ip.77.73.134.68) | - | - | High
-9 | ... | ... | ... | ...
+8 | [76.76.21.164](https://vuldb.com/?ip.76.76.21.164) | - | - | High
+9 | [77.73.134.68](https://vuldb.com/?ip.77.73.134.68) | - | - | High
+10 | [77.91.124.14](https://vuldb.com/?ip.77.91.124.14) | - | - | High
+11 | [78.46.190.160](https://vuldb.com/?ip.78.46.190.160) | static.160.190.46.78.clients.your-server.de | - | High
+12 | [79.137.203.190](https://vuldb.com/?ip.79.137.203.190) | astonishing-bike.aeza.network | - | High
+13 | [80.66.87.148](https://vuldb.com/?ip.80.66.87.148) | vm77554.cloud.nuxt.network | - | High
+14 | [82.117.255.80](https://vuldb.com/?ip.82.117.255.80) | ywcfklba.fun | - | High
+15 | ... | ... | ... | ...
 
-There are 33 more IOC items available. Please use our online service to access the data.
+There are 55 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -60,38 +66,39 @@ ID | Type | Indicator | Confidence
 4 | File | `/api/RecordingList/DownloadRecord?file=` | High
 5 | File | `/apply.cgi` | Medium
 6 | File | `/cgi-bin-sdb/` | High
-7 | File | `/dataset/data/{id}` | High
-8 | File | `/debug/pprof` | Medium
-9 | File | `/etc/grafana/grafana.ini` | High
-10 | File | `/film-rating.php` | High
-11 | File | `/forum/away.php` | High
-12 | File | `/forum/PostPrivateMessage` | High
-13 | File | `/index.php` | Medium
-14 | File | `/librarian/bookdetails.php` | High
-15 | File | `/nova/bin/igmp-proxy` | High
-16 | File | `/orrs/admin/?page=user/manage_user` | High
-17 | File | `/pages/processlogin.php` | High
-18 | File | `/php/ping.php` | High
-19 | File | `/rapi/read_url` | High
-20 | File | `/register.php` | High
-21 | File | `/scripts/unlock_tasks.php` | High
-22 | File | `/student/bookdetails.php` | High
-23 | File | `/SysInfo1.htm` | High
-24 | File | `/sysinfo_json.cgi` | High
-25 | File | `/system/dictData/loadDictItem` | High
-26 | File | `/system/user/modules/mod_users/controller.php` | High
-27 | File | `/uncpath/` | Medium
-28 | File | `/usr/local/psa/admin/sbin/wrapper` | High
-29 | File | `/version.js` | Medium
-30 | File | `/view/vpn/autovpn/sub_commit.php` | High
-31 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
-32 | File | `123flashchat.php` | High
-33 | File | `account.asp` | Medium
-34 | File | `addguest.cgi` | Medium
-35 | File | `admin.jcomments.php` | High
-36 | ... | ... | ...
+7 | File | `/cgi-bin/cstecgi.cgi` | High
+8 | File | `/dataset/data/{id}` | High
+9 | File | `/debug/pprof` | Medium
+10 | File | `/etc/grafana/grafana.ini` | High
+11 | File | `/film-rating.php` | High
+12 | File | `/forum/away.php` | High
+13 | File | `/forum/PostPrivateMessage` | High
+14 | File | `/index.php` | Medium
+15 | File | `/librarian/bookdetails.php` | High
+16 | File | `/nova/bin/igmp-proxy` | High
+17 | File | `/orrs/admin/?page=user/manage_user` | High
+18 | File | `/pages/processlogin.php` | High
+19 | File | `/php/ping.php` | High
+20 | File | `/rapi/read_url` | High
+21 | File | `/register.php` | High
+22 | File | `/scripts/unlock_tasks.php` | High
+23 | File | `/student/bookdetails.php` | High
+24 | File | `/SysInfo1.htm` | High
+25 | File | `/sysinfo_json.cgi` | High
+26 | File | `/system/dictData/loadDictItem` | High
+27 | File | `/system/user/modules/mod_users/controller.php` | High
+28 | File | `/uncpath/` | Medium
+29 | File | `/usr/local/psa/admin/sbin/wrapper` | High
+30 | File | `/version.js` | Medium
+31 | File | `/view/vpn/autovpn/sub_commit.php` | High
+32 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
+33 | File | `123flashchat.php` | High
+34 | File | `account.asp` | Medium
+35 | File | `acs.exe` | Low
+36 | File | `addguest.cgi` | Medium
+37 | ... | ... | ...
 
-There are 308 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 316 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -116,6 +123,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://tracker.viriback.com/index.php?q=185.99.133.246
 * https://twitter.com/Ishusoka/status/1649716132822089728
 * https://twitter.com/sekoia_io/status/1572889505497223169
+* https://www.welivesecurity.com/en/eset-research/tap-estry-threats-targeting-hamster-kombat-players/
 * https://x.com/Gi7w0rm/status/1711900442899149240
 
 ## Literature

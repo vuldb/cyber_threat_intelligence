@@ -91,30 +91,32 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/add_reference_to_local_model` | High
 2 | File | `/admin/cms_admin.php` | High
-3 | File | `/admin/mod_room/controller.php?action=add` | High
-4 | File | `/admin/profile.php` | High
-5 | File | `/admin/renewaldue.php` | High
-6 | File | `/api/sys/login` | High
-7 | File | `/bsms_ci/index.php/user/edit_user/` | High
-8 | File | `/cgi-bin/cstecgi.cgi` | High
-9 | File | `/cgi-bin/nas_sharing.cgi` | High
-10 | File | `/classes/Master.php?f=log_employee` | High
-11 | File | `/control/register_case.php` | High
-12 | File | `/forum/PostPrivateMessage` | High
-13 | File | `/fos/admin/ajax.php?action=login` | High
-14 | File | `/home/kickPlayer` | High
-15 | File | `/index.php` | Medium
-16 | File | `/intrams_sams/manage_student.php` | High
-17 | File | `/manage_sy.php` | High
-18 | File | `/mims/login.php` | High
-19 | File | `/model/delete_student_grade_subject.php` | High
-20 | File | `/one_church/churchprofile.php` | High
-21 | File | `/param.file.tgz` | High
-22 | File | `/php_action/createUser.php` | High
-23 | File | `/public/plugins/` | High
-24 | ... | ... | ...
+3 | File | `/admin/manage_complaint.php` | High
+4 | File | `/admin/mod_room/controller.php?action=add` | High
+5 | File | `/admin/profile.php` | High
+6 | File | `/admin/renewaldue.php` | High
+7 | File | `/api/sys/login` | High
+8 | File | `/bsms_ci/index.php/user/edit_user/` | High
+9 | File | `/cgi-bin/cstecgi.cgi` | High
+10 | File | `/cgi-bin/nas_sharing.cgi` | High
+11 | File | `/classes/Master.php` | High
+12 | File | `/classes/Master.php?f=log_employee` | High
+13 | File | `/control/register_case.php` | High
+14 | File | `/forum/PostPrivateMessage` | High
+15 | File | `/fos/admin/ajax.php?action=login` | High
+16 | File | `/home/kickPlayer` | High
+17 | File | `/index.php` | Medium
+18 | File | `/intrams_sams/manage_student.php` | High
+19 | File | `/manage_sy.php` | High
+20 | File | `/mims/login.php` | High
+21 | File | `/model/delete_student_grade_subject.php` | High
+22 | File | `/one_church/churchprofile.php` | High
+23 | File | `/param.file.tgz` | High
+24 | File | `/php_action/createUser.php` | High
+25 | File | `/public/plugins/` | High
+26 | ... | ... | ...
 
-There are 202 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 216 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

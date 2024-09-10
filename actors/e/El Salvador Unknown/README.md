@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [TR](https://vuldb.com/?country.tr)
 * ...
 
-There are 19 more country items available. Please use our online service to access the data.
+There are 21 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -75,7 +75,7 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-25, CWE-29, CWE-36, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1055 | CWE-74, CWE-643 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
@@ -102,42 +102,42 @@ ID | Type | Indicator | Confidence
 12 | File | `/adminapi/system/crud` | High
 13 | File | `/adminapi/system/file/openfile` | High
 14 | File | `/admin_route/dec_service_credits.php` | High
-15 | File | `/api/v1/alerts` | High
-16 | File | `/api/v1/custom_component` | High
-17 | File | `/api/v4/teams//channels/deleted` | High
-18 | File | `/api/wechat/app_auth` | High
-19 | File | `/b2b-supermarket/shopping-cart` | High
-20 | File | `/cancel.php` | Medium
-21 | File | `/category.php` | High
-22 | File | `/cgi-bin/cstecgi.cgi` | High
+15 | File | `/api/v1/custom_component` | High
+16 | File | `/api/v4/teams//channels/deleted` | High
+17 | File | `/api/wechat/app_auth` | High
+18 | File | `/b2b-supermarket/shopping-cart` | High
+19 | File | `/cancel.php` | Medium
+20 | File | `/category.php` | High
+21 | File | `/cgi-bin/cstecgi.cgi` | High
+22 | File | `/cgi-bin/nas_sharing.cgi` | High
 23 | File | `/change-language/de_DE` | High
-24 | File | `/classes/Master.php?f=delete_category` | High
-25 | File | `/classes/Master.php?f=save_medicine` | High
-26 | File | `/classes/Users.php?f=delete` | High
-27 | File | `/control/register_case.php` | High
-28 | File | `/debug/pprof` | Medium
-29 | File | `/devinfo` | Medium
-30 | File | `/dist/index.js` | High
-31 | File | `/download` | Medium
-32 | File | `/etc/shadow` | Medium
-33 | File | `/fcgi/scrut_fcgi.fcgi` | High
-34 | File | `/forum/away.php` | High
-35 | File | `/geoserver/gwc/rest.html` | High
+24 | File | `/classes/Master.php` | High
+25 | File | `/classes/Master.php?f=delete_category` | High
+26 | File | `/classes/Master.php?f=save_medicine` | High
+27 | File | `/classes/Users.php?f=delete` | High
+28 | File | `/control/register_case.php` | High
+29 | File | `/debug/pprof` | Medium
+30 | File | `/devinfo` | Medium
+31 | File | `/dist/index.js` | High
+32 | File | `/download` | Medium
+33 | File | `/DXR.axd` | Medium
+34 | File | `/etc/shadow` | Medium
+35 | File | `/forum/away.php` | High
 36 | File | `/goform/formSysCmd` | High
-37 | File | `/goform/WifiExtraSet` | High
-38 | File | `/hosts/firewall/ip` | High
-39 | File | `/index.jsp#settings` | High
-40 | File | `/index.php` | Medium
-41 | File | `/index.php/ccm/system/file/upload` | High
-42 | File | `/js/player/dmplayer/dmku/?ac=edit` | High
-43 | File | `/labvantage/rc?command=page&page=SampleHistoricalList&_iframename=list&__crc=crc_1701669816260` | High
-44 | File | `/labvantage/rc?command=page&page=SampleList&_iframename=list` | High
-45 | File | `/log/decodmail.php` | High
-46 | File | `/ndmComponents.js` | High
-47 | File | `/oauth/idp/.well-known/openid-configuration` | High
+37 | File | `/goform/SetIpMacBind` | High
+38 | File | `/goform/WifiExtraSet` | High
+39 | File | `/guestbook` | Medium
+40 | File | `/hosts/firewall/ip` | High
+41 | File | `/index.jsp#settings` | High
+42 | File | `/index.php` | Medium
+43 | File | `/index.php/ccm/system/file/upload` | High
+44 | File | `/js/player/dmplayer/dmku/?ac=edit` | High
+45 | File | `/labvantage/rc?command=page&page=SampleHistoricalList&_iframename=list&__crc=crc_1701669816260` | High
+46 | File | `/labvantage/rc?command=page&page=SampleList&_iframename=list` | High
+47 | File | `/librarian/bookdetails.php` | High
 48 | ... | ... | ...
 
-There are 420 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 416 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

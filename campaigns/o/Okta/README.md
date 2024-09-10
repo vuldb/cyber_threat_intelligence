@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 23 more country items available. Please use our online service to access the data.
+There are 24 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -45,12 +45,12 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-425 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
+3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-271, CWE-272, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -65,35 +65,38 @@ ID | Type | Indicator | Confidence
 5 | File | `/admin/edit_categories.php` | High
 6 | File | `/admin/list_ipAddressPolicy.php` | High
 7 | File | `/Admin/login.php` | High
-8 | File | `/admin/service/stop/` | High
-9 | File | `/admin/students/update_status.php` | High
-10 | File | `/api/baskets/{name}` | High
-11 | File | `/app/api/controller/default/File.php` | High
-12 | File | `/app/api/controller/default/Sqlite.php` | High
-13 | File | `/app/controller/Setup.php` | High
-14 | File | `/assets/php/upload.php` | High
-15 | File | `/bin/boa` | Medium
-16 | File | `/bin/sh` | Low
-17 | File | `/bitrix/admin/ldap_server_edit.php` | High
-18 | File | `/cancel.php` | Medium
-19 | File | `/cgi-bin/cstecgi.cgi` | High
-20 | File | `/cgi-bin/luci;stok=/locale` | High
-21 | File | `/cgi-bin/nas_sharing.cgi` | High
-22 | File | `/collection/all` | High
-23 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
-24 | File | `/detail` | Low
-25 | File | `/devinfo` | Medium
-26 | File | `/edoc/doctor/patient.php` | High
-27 | File | `/endpoint/update-tracker.php` | High
-28 | File | `/general/email/outbox/delete.php` | High
-29 | File | `/get_membership_amount.php` | High
-30 | File | `/goform/addIpMacBind` | High
-31 | File | `/goform/wifiSSIDset` | High
-32 | File | `/goform/WifiWpsOOB` | High
-33 | File | `/home/get_tasks_list` | High
-34 | ... | ... | ...
+8 | File | `/admin/login.php` | High
+9 | File | `/admin/service/stop/` | High
+10 | File | `/admin/student.php` | High
+11 | File | `/admin/students/update_status.php` | High
+12 | File | `/admin/system.html` | High
+13 | File | `/api/baskets/{name}` | High
+14 | File | `/app/api/controller/default/File.php` | High
+15 | File | `/app/api/controller/default/Sqlite.php` | High
+16 | File | `/app/controller/Setup.php` | High
+17 | File | `/assets/php/upload.php` | High
+18 | File | `/bin/boa` | Medium
+19 | File | `/bin/sh` | Low
+20 | File | `/bitrix/admin/ldap_server_edit.php` | High
+21 | File | `/cancel.php` | Medium
+22 | File | `/cgi-bin/cstecgi.cgi` | High
+23 | File | `/cgi-bin/luci;stok=/locale` | High
+24 | File | `/cgi-bin/nas_sharing.cgi` | High
+25 | File | `/collection/all` | High
+26 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
+27 | File | `/devinfo` | Medium
+28 | File | `/edoc/doctor/patient.php` | High
+29 | File | `/endpoint/update-tracker.php` | High
+30 | File | `/general/email/outbox/delete.php` | High
+31 | File | `/get_membership_amount.php` | High
+32 | File | `/goform/addIpMacBind` | High
+33 | File | `/goform/execCommand` | High
+34 | File | `/goform/SetLEDCfg` | High
+35 | File | `/goform/SetOnlineDevName` | High
+36 | File | `/goform/set_lan_settings` | High
+37 | ... | ... | ...
 
-There are 294 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 318 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

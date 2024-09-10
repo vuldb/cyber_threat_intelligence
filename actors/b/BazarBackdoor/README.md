@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with BazarBackdoor:
 
 * [VN](https://vuldb.com/?country.vn)
-* [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 4 more country items available. Please use our online service to access the data.
+There are 3 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -174,13 +174,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-37 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 5 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -189,57 +189,59 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/#/network?tab=network_node_list.html` | High
-2 | File | `/.env` | Low
+2 | File | `/admin/config_time_sync.php` | High
 3 | File | `/admin/index.php` | High
 4 | File | `/admin/list_localuser.php` | High
 5 | File | `/Admin/login.php` | High
 6 | File | `/admin/modules/product/controller.php?action=add` | High
-7 | File | `/admin/orders/view_order.php` | High
-8 | File | `/admin/suppliers/view_details.php` | High
-9 | File | `/adminPage/main/upload` | High
-10 | File | `/admin_ping.htm` | High
-11 | File | `/api/sys/set_passwd` | High
-12 | File | `/api/v1` | Low
-13 | File | `/apps/reg_go.php` | High
-14 | File | `/billing/bill/edit/` | High
+7 | File | `/admin/suppliers/view_details.php` | High
+8 | File | `/adminPage/main/upload` | High
+9 | File | `/api/swaggerui/static` | High
+10 | File | `/api/sys/set_passwd` | High
+11 | File | `/api/v1` | Low
+12 | File | `/apps/reg_go.php` | High
+13 | File | `/billing/bill/edit/` | High
+14 | File | `/cgi-bin/alexserv` | High
 15 | File | `/cgi-bin/cstecgi.cgi` | High
 16 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
 17 | File | `/cgi-bin/info.cgi` | High
-18 | File | `/cgi-bin/mainfunction.cgi` | High
-19 | File | `/cgi-bin/nas_sharing.cgi` | High
-20 | File | `/cgi-bin/system_mgr.cgi` | High
-21 | File | `/cgi-bin/wlogin.cgi` | High
-22 | File | `/classes/Login.php` | High
-23 | File | `/classes/Users.php` | High
+18 | File | `/cgi-bin/nas_sharing.cgi` | High
+19 | File | `/cgi-bin/system_mgr.cgi` | High
+20 | File | `/classes/Login.php` | High
+21 | File | `/classes/Master.php` | High
+22 | File | `/classes/Users.php` | High
+23 | File | `/contact.php` | Medium
 24 | File | `/core/config-revisions` | High
-25 | File | `/DesignTools/CssEditor.aspx` | High
-26 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
-27 | File | `/DXR.axd` | Medium
-28 | File | `/ECT_Provider/` | High
-29 | File | `/edit/server` | Medium
-30 | File | `/Employer/EditProfile.php` | High
-31 | File | `/endpoint/delete-todo.php` | High
-32 | File | `/EXCU_SHELL` | Medium
-33 | File | `/fax/fax_send.php` | High
-34 | File | `/finance/help/en/frameset.htm` | High
-35 | File | `/forum/away.php` | High
-36 | File | `/general/attendance/manage/ask_duty/delete.php` | High
-37 | File | `/goform/` | Medium
-38 | File | `/h/autoSaveDraft` | High
+25 | File | `/dcim/power-ports/add/` | High
+26 | File | `/debug/pprof` | Medium
+27 | File | `/DesignTools/CssEditor.aspx` | High
+28 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
+29 | File | `/download/image` | High
+30 | File | `/DXR.axd` | Medium
+31 | File | `/edit/server` | Medium
+32 | File | `/endpoint/delete-account.php` | High
+33 | File | `/endpoint/delete-todo.php` | High
+34 | File | `/EXCU_SHELL` | Medium
+35 | File | `/finance/help/en/frameset.htm` | High
+36 | File | `/forum/away.php` | High
+37 | File | `/guestbook` | Medium
+38 | File | `/hardware` | Medium
 39 | File | `/home.php` | Medium
 40 | File | `/Home/Index` | Medium
 41 | File | `/hrm/leaverequest.php` | High
 42 | File | `/inc/modules_install.php` | High
 43 | File | `/index.php` | Medium
-44 | File | `/index.php?pluginApp/to/yzOffice/getFile` | High
-45 | File | `/itbox_pi/vpn_quickset_service.php?a=set_vpn` | High
-46 | File | `/librarian/bookdetails.php` | High
-47 | File | `/Maintain/sprog_upstatus.php` | High
-48 | File | `/member/chat.php` | High
-49 | File | `/member/member_edit.php` | High
-50 | ... | ... | ...
+44 | File | `/index.php?app=main&inc=feature_phonebook&op=phonebook_list` | High
+45 | File | `/index.php?pluginApp/to/yzOffice/getFile` | High
+46 | File | `/itbox_pi/vpn_quickset_service.php?a=set_vpn` | High
+47 | File | `/librarian/bookdetails.php` | High
+48 | File | `/Maintain/sprog_upstatus.php` | High
+49 | File | `/member/chat.php` | High
+50 | File | `/member/member_edit.php` | High
+51 | File | `/member/view.php` | High
+52 | ... | ... | ...
 
-There are 433 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 454 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

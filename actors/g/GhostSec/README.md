@@ -43,11 +43,11 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/api/user/password/sent-reset-email` | High
-2 | File | `/forum/away.php` | High
-3 | File | `adminer.php` | Medium
+2 | File | `/classes/Master.php` | High
+3 | File | `/forum/away.php` | High
 4 | ... | ... | ...
 
-There are 7 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 8 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

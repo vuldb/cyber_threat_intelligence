@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [FR](https://vuldb.com/?country.fr)
 * ...
 
-There are 6 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -195,7 +195,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 15 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -207,29 +207,31 @@ ID | Type | Indicator | Confidence
 2 | File | `//` | Low
 3 | File | `/adherents/note.php?id=1` | High
 4 | File | `/admin/admin-profile.php` | High
-5 | File | `/admin/booking-bwdates-reports-details.php` | High
-6 | File | `/admin/forgot-password.php` | High
-7 | File | `/admin/maintenance/manage_brand.php` | High
-8 | File | `/admin/manage-ambulance.php` | High
-9 | File | `/administration/theme.php` | High
-10 | File | `/api/index.php` | High
-11 | File | `/cancel.php` | Medium
-12 | File | `/cgi-bin/` | Medium
-13 | File | `/cgi-bin/adm.cgi` | High
-14 | File | `/cgi-bin/cstecgi.cgi` | High
-15 | File | `/cgi-bin/nas_sharing.cgi` | High
-16 | File | `/check_availability.php` | High
-17 | File | `/control/register_case.php` | High
-18 | File | `/coreframe/app/pay/admin/index.php` | High
-19 | File | `/dashboard/Cinvoice/manage_invoice` | High
-20 | File | `/etc/keystone/user-project-map.json` | High
-21 | File | `/forgot-password` | High
-22 | File | `/forum/away.php` | High
-23 | File | `/importexport.php` | High
-24 | File | `/index.jsp#settings` | High
-25 | ... | ... | ...
+5 | File | `/admin/ajax.php?action=login` | High
+6 | File | `/admin/booking-bwdates-reports-details.php` | High
+7 | File | `/admin/forgot-password.php` | High
+8 | File | `/admin/maintenance/manage_brand.php` | High
+9 | File | `/admin/manage-ambulance.php` | High
+10 | File | `/admin/manage_station.php` | High
+11 | File | `/administration/theme.php` | High
+12 | File | `/api/index.php` | High
+13 | File | `/cancel.php` | Medium
+14 | File | `/cgi-bin/` | Medium
+15 | File | `/cgi-bin/adm.cgi` | High
+16 | File | `/cgi-bin/cstecgi.cgi` | High
+17 | File | `/cgi-bin/nas_sharing.cgi` | High
+18 | File | `/check_availability.php` | High
+19 | File | `/classes/Master.php` | High
+20 | File | `/control/register_case.php` | High
+21 | File | `/coreframe/app/pay/admin/index.php` | High
+22 | File | `/dashboard/Cinvoice/manage_invoice` | High
+23 | File | `/dcim/console-ports/add` | High
+24 | File | `/etc/keystone/user-project-map.json` | High
+25 | File | `/forgot-password` | High
+26 | File | `/forum/away.php` | High
+27 | ... | ... | ...
 
-There are 209 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 225 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [LA](https://vuldb.com/?country.la)
 * [CN](https://vuldb.com/?country.cn)
-* [MY](https://vuldb.com/?country.my)
+* [US](https://vuldb.com/?country.us)
 * ...
 
-There are 1 more country items available. Please use our online service to access the data.
+There are 2 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -60,23 +60,25 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/dl_sendmail.php` | High
-2 | File | `/adminPage/conf/reload` | High
-3 | File | `/api/baskets/{name}` | High
-4 | File | `/api/v2/cli/commands` | High
-5 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
-6 | File | `/DXR.axd` | Medium
-7 | File | `/forum/away.php` | High
-8 | File | `/mfsNotice/page` | High
-9 | File | `/novel/bookSetting/list` | High
-10 | File | `/novel/userFeedback/list` | High
-11 | File | `/owa/auth/logon.aspx` | High
-12 | File | `/spip.php` | Medium
-13 | File | `/x_portal_assemble_surface/jaxrs/portal/list?v=8.2.3-4-43f4fe3` | High
-14 | File | `/zm/index.php` | High
-15 | File | `adclick.php` | Medium
-16 | ... | ... | ...
+2 | File | `/admin/index2.html` | High
+3 | File | `/adminPage/conf/reload` | High
+4 | File | `/api/baskets/{name}` | High
+5 | File | `/api/v2/cli/commands` | High
+6 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
+7 | File | `/DXR.axd` | Medium
+8 | File | `/forum/away.php` | High
+9 | File | `/index/ajax/lang` | High
+10 | File | `/log/decodmail.php` | High
+11 | File | `/LogInOut.php` | High
+12 | File | `/mfsNotice/page` | High
+13 | File | `/novel/bookSetting/list` | High
+14 | File | `/novel/userFeedback/list` | High
+15 | File | `/owa/auth/logon.aspx` | High
+16 | File | `/register.php` | High
+17 | File | `/request.php` | Medium
+18 | ... | ... | ...
 
-There are 124 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 151 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 27 more country items available. Please use our online service to access the data.
+There are 26 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -112,30 +112,31 @@ ID | Type | Indicator | Confidence
 45 | File | `adclick.php` | Medium
 46 | File | `adm/systools.asp` | High
 47 | File | `admin.php` | Medium
-48 | File | `admin/admin.shtml` | High
-49 | File | `Admin/ADM_Pagina.php` | High
-50 | File | `admin/category.inc.php` | High
-51 | File | `admin/main.asp` | High
-52 | File | `admin/param/param_func.inc.php` | High
-53 | File | `admin/y_admin.asp` | High
-54 | File | `adminer.php` | Medium
-55 | File | `administration/admins.php` | High
-56 | File | `administrator/components/com_media/helpers/media.php` | High
-57 | File | `admin_ok.asp` | Medium
-58 | File | `album_portal.php` | High
-59 | File | `app/Core/Paginator.php` | High
-60 | File | `app/index.php/accounts/default/details?id=2&kanbanBoard=1&openToTaskId=1` | High
-61 | File | `apps/yang/web/src/main/java/org/onosproject/yang/web/YangWebResource.java` | High
-62 | File | `artlinks.dispnew.php` | High
-63 | File | `auth.php` | Medium
-64 | File | `awstats.pl` | Medium
-65 | File | `bin/named/query.c` | High
+48 | File | `admin/admin.php` | High
+49 | File | `admin/admin.shtml` | High
+50 | File | `Admin/ADM_Pagina.php` | High
+51 | File | `admin/category.inc.php` | High
+52 | File | `admin/main.asp` | High
+53 | File | `admin/param/param_func.inc.php` | High
+54 | File | `admin/y_admin.asp` | High
+55 | File | `adminer.php` | Medium
+56 | File | `administration/admins.php` | High
+57 | File | `administrator/components/com_media/helpers/media.php` | High
+58 | File | `admin_ok.asp` | Medium
+59 | File | `album_portal.php` | High
+60 | File | `app/Core/Paginator.php` | High
+61 | File | `app/index.php/accounts/default/details?id=2&kanbanBoard=1&openToTaskId=1` | High
+62 | File | `apps/yang/web/src/main/java/org/onosproject/yang/web/YangWebResource.java` | High
+63 | File | `artlinks.dispnew.php` | High
+64 | File | `auth.php` | Medium
+65 | File | `awstats.pl` | Medium
 66 | File | `blank.php` | Medium
 67 | File | `blocklayered-ajax.php` | High
 68 | File | `blogger-importer.php` | High
-69 | ... | ... | ...
+69 | File | `bluegate_seo.inc.php` | High
+70 | ... | ... | ...
 
-There are 604 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 610 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

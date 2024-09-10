@@ -76,7 +76,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80, CWE-85 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -85,51 +85,51 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/api/admin/system/store/order/list` | High
-3 | File | `/api/sys/set_passwd` | High
-4 | File | `/bin/boa` | Medium
-5 | File | `/cgi-bin/wapopen` | High
-6 | File | `/cgi-bin/wlogin.cgi` | High
-7 | File | `/csms/?page=contact_us` | High
-8 | File | `/dev/urandom` | Medium
-9 | File | `/etc/ajenti/config.yml` | High
-10 | File | `/etc/quantum/quantum.conf` | High
-11 | File | `/exec/` | Low
-12 | File | `/forum/away.php` | High
-13 | File | `/getcfg.php` | Medium
-14 | File | `/goform/telnet` | High
-15 | File | `/HNAP1` | Low
-16 | File | `/mgmt/tm/util/bash` | High
-17 | File | `/modules/profile/index.php` | High
-18 | File | `/modules/projects/vw_files.php` | High
-19 | File | `/plain` | Low
-20 | File | `/rom-0` | Low
-21 | File | `/staff/tools/custom-fields` | High
-22 | File | `/tmp/phpglibccheck` | High
-23 | File | `/uncpath/` | Medium
-24 | File | `/upload` | Low
-25 | File | `/var/tmp/sess_*` | High
-26 | File | `/xyhai.php?s=/Auth/editUser` | High
-27 | File | `/_next` | Low
-28 | File | `action.php` | Medium
-29 | File | `actionHandler/ajax_managed_services.php` | High
-30 | File | `actionphp/download.File.php` | High
-31 | File | `add_comment.php` | High
-32 | File | `admin/admin.php` | High
-33 | File | `admin/admin.shtml` | High
-34 | File | `admin/content.php` | High
-35 | File | `admin/index.php?id=users/action=edit/user_id=1` | High
-36 | File | `admin_gallery.php3` | High
-37 | File | `affich.php` | Medium
-38 | File | `agent/Core/Controller/SendRequest.cpp` | High
-39 | File | `ajax-actions.php` | High
-40 | File | `ajax/telemetry.php` | High
-41 | File | `akeyActivationLogin.do` | High
-42 | File | `album_portal.php` | High
-43 | File | `alipay/alipayapi.php` | High
+2 | File | `/act/ActDao.xml` | High
+3 | File | `/admin/pages/` | High
+4 | File | `/admins` | Low
+5 | File | `/api/admin/system/store/order/list` | High
+6 | File | `/api/sys/set_passwd` | High
+7 | File | `/bin/boa` | Medium
+8 | File | `/cgi-bin/cstecgi.cgi` | High
+9 | File | `/cgi-bin/wapopen` | High
+10 | File | `/cgi-bin/wlogin.cgi` | High
+11 | File | `/csms/?page=contact_us` | High
+12 | File | `/dev/urandom` | Medium
+13 | File | `/etc/ajenti/config.yml` | High
+14 | File | `/etc/quantum/quantum.conf` | High
+15 | File | `/exec/` | Low
+16 | File | `/farm/product.php` | High
+17 | File | `/forum/away.php` | High
+18 | File | `/getcfg.php` | Medium
+19 | File | `/goform/telnet` | High
+20 | File | `/HNAP1` | Low
+21 | File | `/mgmt/tm/util/bash` | High
+22 | File | `/modules/profile/index.php` | High
+23 | File | `/modules/projects/vw_files.php` | High
+24 | File | `/plain` | Low
+25 | File | `/ptippage.cgi` | High
+26 | File | `/rom-0` | Low
+27 | File | `/staff/tools/custom-fields` | High
+28 | File | `/tmp/out` | Medium
+29 | File | `/tmp/phpglibccheck` | High
+30 | File | `/uncpath/` | Medium
+31 | File | `/upload` | Low
+32 | File | `/var/tmp/sess_*` | High
+33 | File | `/xyhai.php?s=/Auth/editUser` | High
+34 | File | `/_next` | Low
+35 | File | `action.php` | Medium
+36 | File | `actionHandler/ajax_managed_services.php` | High
+37 | File | `actionphp/download.File.php` | High
+38 | File | `add_comment.php` | High
+39 | File | `admin/admin.php` | High
+40 | File | `admin/admin.shtml` | High
+41 | File | `admin/content.php` | High
+42 | File | `admin/index.php?id=users/action=edit/user_id=1` | High
+43 | File | `admin_gallery.php3` | High
 44 | ... | ... | ...
 
-There are 377 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 378 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -9,8 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with ObserverStealer:
 
 * [US](https://vuldb.com/?country.us)
+* [RU](https://vuldb.com/?country.ru)
 * [DE](https://vuldb.com/?country.de)
-* [IT](https://vuldb.com/?country.it)
+* ...
+
+There are 1 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -44,17 +47,18 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/forum/away.php` | High
-2 | File | `/oauth/idp/.well-known/openid-configuration` | High
-3 | File | `/settings/account` | High
-4 | File | `/simple-online-bidding-system/admin/index.php?page=manage_user` | High
-5 | File | `/spip.php` | Medium
-6 | File | `/userLogin.asp` | High
-7 | File | `/uupdate.php` | Medium
-8 | File | `/view/student_exam_mark_insert_form1.php` | High
-9 | ... | ... | ...
+1 | File | `/admin/emp-profile-avatar.php` | High
+2 | File | `/ajax.php` | Medium
+3 | File | `/classes/SystemSettings.php?f=update_settings` | High
+4 | File | `/forum/away.php` | High
+5 | File | `/oauth/idp/.well-known/openid-configuration` | High
+6 | File | `/request.php` | Medium
+7 | File | `/settings/account` | High
+8 | File | `/simple-online-bidding-system/admin/index.php?page=manage_user` | High
+9 | File | `/spip.php` | Medium
+10 | ... | ... | ...
 
-There are 65 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 73 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -15,8 +15,8 @@ The following _campaigns_ are known and can be associated with CopyKittens:
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with CopyKittens:
 
 * [US](https://vuldb.com/?country.us)
-* [IT](https://vuldb.com/?country.it)
 * [PL](https://vuldb.com/?country.pl)
+* [IT](https://vuldb.com/?country.it)
 * ...
 
 There are 11 more country items available. Please use our online service to access the data.
@@ -93,46 +93,45 @@ ID | Type | Indicator | Confidence
 24 | File | `/app/api/controller/default/File.php` | High
 25 | File | `/application/index/controller/Datament.php` | High
 26 | File | `/application/index/controller/File.php` | High
-27 | File | `/att_add.php` | Medium
-28 | File | `/b2b-supermarket/catalog/all-products` | High
-29 | File | `/bin/boa` | Medium
-30 | File | `/binbloom-master/src/helpers.c` | High
-31 | File | `/blog` | Low
-32 | File | `/boaform/wlan_basic_set.cgi` | High
-33 | File | `/category.php` | High
-34 | File | `/cgi-bin/cstecgi.cgi` | High
-35 | File | `/cgi-bin/nas_sharing.cgi` | High
-36 | File | `/check_availability.php` | High
-37 | File | `/classes/Master.php?f=delete_reminder` | High
-38 | File | `/contacts/listcontacts.php` | High
-39 | File | `/Core/Ap4File.cpp` | High
-40 | File | `/data/app` | Medium
-41 | File | `/depotHead/list` | High
-42 | File | `/download.php?file=author.png` | High
-43 | File | `/Employer/EditProfile.php` | High
-44 | File | `/Employer/ManageWalkin.php` | High
-45 | File | `/endpoint/update-tracker.php` | High
-46 | File | `/etc/os-release` | High
-47 | File | `/etc/pki/pulp/nodes/` | High
-48 | File | `/forms/web_runScript` | High
-49 | File | `/forum/away.php` | High
-50 | File | `/fs/nfsd/nfs4proc.c` | High
-51 | File | `/garage/php_action/createBrand.php` | High
-52 | File | `/general/email/outbox/delete.php` | High
-53 | File | `/general/search.php?searchtype=simple` | High
-54 | File | `/ghost/preview` | High
-55 | File | `/goform/AddSysLogRule` | High
-56 | File | `/goform/AdvSetWrlsafeset` | High
-57 | File | `/goform/qossetting` | High
-58 | File | `/goform/setAutoPing` | High
-59 | File | `/hrm/employeeview.php` | High
-60 | File | `/hss/?page=product_per_brand` | High
-61 | File | `/im/user/` | Medium
-62 | File | `/index.php` | Medium
-63 | File | `/index.php?page=member` | High
-64 | File | `/libsystem/login.php` | High
-65 | File | `/load.php` | Medium
-66 | ... | ... | ...
+27 | File | `/apply/index.php` | High
+28 | File | `/att_add.php` | Medium
+29 | File | `/b2b-supermarket/catalog/all-products` | High
+30 | File | `/bin/boa` | Medium
+31 | File | `/binbloom-master/src/helpers.c` | High
+32 | File | `/blog` | Low
+33 | File | `/boaform/wlan_basic_set.cgi` | High
+34 | File | `/category.php` | High
+35 | File | `/cgi-bin/cstecgi.cgi` | High
+36 | File | `/cgi-bin/nas_sharing.cgi` | High
+37 | File | `/check_availability.php` | High
+38 | File | `/classes/Master.php` | High
+39 | File | `/classes/Master.php?f=delete_reminder` | High
+40 | File | `/contacts/listcontacts.php` | High
+41 | File | `/Core/Ap4File.cpp` | High
+42 | File | `/data/app` | Medium
+43 | File | `/depotHead/list` | High
+44 | File | `/download.php?file=author.png` | High
+45 | File | `/Employer/EditProfile.php` | High
+46 | File | `/Employer/ManageWalkin.php` | High
+47 | File | `/endpoint/update-tracker.php` | High
+48 | File | `/etc/os-release` | High
+49 | File | `/etc/pki/pulp/nodes/` | High
+50 | File | `/forms/web_runScript` | High
+51 | File | `/forum/away.php` | High
+52 | File | `/fs/nfsd/nfs4proc.c` | High
+53 | File | `/garage/php_action/createBrand.php` | High
+54 | File | `/general/email/outbox/delete.php` | High
+55 | File | `/general/search.php?searchtype=simple` | High
+56 | File | `/ghost/preview` | High
+57 | File | `/goform/AddSysLogRule` | High
+58 | File | `/goform/AdvSetWrlsafeset` | High
+59 | File | `/goform/qossetting` | High
+60 | File | `/goform/setAutoPing` | High
+61 | File | `/hrm/employeeview.php` | High
+62 | File | `/hss/?page=product_per_brand` | High
+63 | File | `/im/user/` | Medium
+64 | File | `/index.php` | Medium
+65 | ... | ... | ...
 
 There are 574 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 

@@ -16,10 +16,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
-* [ES](https://vuldb.com/?country.es)
+* [IN](https://vuldb.com/?country.in)
 * ...
 
-There are 14 more country items available. Please use our online service to access the data.
+There are 15 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -55,17 +55,18 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/user/manage_user.php` | High
 2 | File | `/anony/mjpg.cgi` | High
-3 | File | `/plain` | Low
-4 | File | `/public/login.htm` | High
-5 | File | `/spip.php` | Medium
-6 | File | `/uncpath/` | Medium
-7 | File | `/wbms/classes/Master.php?f=delete_client` | High
-8 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-9 | File | `admin_add.php` | High
-10 | File | `awstats.pl` | Medium
-11 | ... | ... | ...
+3 | File | `/cgi-bin/wlogin.cgi` | High
+4 | File | `/debug/pprof` | Medium
+5 | File | `/plain` | Low
+6 | File | `/public/login.htm` | High
+7 | File | `/spip.php` | Medium
+8 | File | `/uncpath/` | Medium
+9 | File | `/wbms/classes/Master.php?f=delete_client` | High
+10 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+11 | File | `admin_add.php` | High
+12 | ... | ... | ...
 
-There are 88 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 97 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

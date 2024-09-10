@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 21 more country items available. Please use our online service to access the data.
+There are 23 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -39,7 +39,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-36 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
@@ -78,23 +78,23 @@ ID | Type | Indicator | Confidence
 22 | File | `/Home/GetAttachment` | High
 23 | File | `/include/menu_v.inc.php` | High
 24 | File | `/index.php/weblinks-categories` | High
-25 | File | `/librarian/lab.php` | High
-26 | File | `/login/` | Low
-27 | File | `/main?cmd=invalid_browser` | High
-28 | File | `/me` | Low
-29 | File | `/modules/projects/vw_files.php` | High
-30 | File | `/omos/admin/?page=user/list` | High
-31 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-32 | File | `/out.php` | Medium
-33 | File | `/panel/fields/add` | High
-34 | File | `/patient/settings.php` | High
-35 | File | `/plain` | Low
-36 | File | `/proc/*/cmdline"` | High
-37 | File | `/proc/pid/syscall` | High
-38 | File | `/sbin/acos_service` | High
+25 | File | `/index.php?action=profile;u=2;area=showalerts;do=remove` | High
+26 | File | `/librarian/lab.php` | High
+27 | File | `/login/` | Low
+28 | File | `/main?cmd=invalid_browser` | High
+29 | File | `/me` | Low
+30 | File | `/modules/projects/vw_files.php` | High
+31 | File | `/omos/admin/?page=user/list` | High
+32 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+33 | File | `/out.php` | Medium
+34 | File | `/panel/fields/add` | High
+35 | File | `/patient/settings.php` | High
+36 | File | `/plain` | Low
+37 | File | `/proc/*/cmdline"` | High
+38 | File | `/proc/pid/syscall` | High
 39 | ... | ... | ...
 
-There are 334 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 339 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

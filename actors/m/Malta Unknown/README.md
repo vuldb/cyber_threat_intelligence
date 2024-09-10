@@ -100,19 +100,19 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/mod_room/controller.php?action=add` | High
-2 | File | `/api/RecordingList/DownloadRecord?file=` | High
-3 | File | `/auth/session` | High
-4 | File | `/backend/register.php` | High
-5 | File | `/cgi-bin/nas_sharing.cgi` | High
-6 | File | `/check_availability.php` | High
-7 | File | `/classes/Master.php?f=log_employee` | High
-8 | File | `/filex/proxy-download` | High
-9 | File | `/front/admin/tenancyDetail.php` | High
-10 | File | `/lists/admin/` | High
+1 | File | `/admin/manage_station.php` | High
+2 | File | `/admin/mod_room/controller.php?action=add` | High
+3 | File | `/api/RecordingList/DownloadRecord?file=` | High
+4 | File | `/auth/session` | High
+5 | File | `/backend/register.php` | High
+6 | File | `/cgi-bin/nas_sharing.cgi` | High
+7 | File | `/check_availability.php` | High
+8 | File | `/classes/Master.php` | High
+9 | File | `/classes/Master.php?f=log_employee` | High
+10 | File | `/filex/proxy-download` | High
 11 | ... | ... | ...
 
-There are 79 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 86 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

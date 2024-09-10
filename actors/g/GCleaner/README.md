@@ -22,11 +22,11 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [5.12.253.98](https://vuldb.com/?ip.5.12.253.98) | 5-12-253-98.residential.rdsnet.ro | - | High
-2 | [5.42.65.64](https://vuldb.com/?ip.5.42.65.64) | - | - | High
-3 | [45.12.253.51](https://vuldb.com/?ip.45.12.253.51) | - | - | High
+2 | [5.42.64.56](https://vuldb.com/?ip.5.42.64.56) | - | - | High
+3 | [5.42.65.64](https://vuldb.com/?ip.5.42.65.64) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 6 more IOC items available. Please use our online service to access the data.
+There are 8 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -53,15 +53,18 @@ ID | Type | Indicator | Confidence
 4 | File | `/newdriver.php` | High
 5 | File | `/oauth/idp/.well-known/openid-configuration` | High
 6 | File | `/protocol/iscuser/uploadiscuser.php` | High
-7 | ... | ... | ...
+7 | File | `/protocol/log/listloginfo.php` | High
+8 | File | `/qsr_server/device/reboot` | High
+9 | ... | ... | ...
 
-There are 49 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 65 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://app.any.run/tasks/18e8a2e2-b2f5-4ca3-af48-05807b85c704
+* https://bazaar.abuse.ch/sample/0b17198dfde8bc47f1f903dfe0a33b57abf6cbca31292ee1d526a3143a11d648/
 * https://bazaar.abuse.ch/sample/dee97c0c3d5ec6b18d68104fb7703b0457157751ee999ae44f388db055b854a7/
 * https://threatfox.abuse.ch
 * https://twitter.com/crep1x/status/1630992258584518656

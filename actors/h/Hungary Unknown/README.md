@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Hungary Unknown:
 
-* [PL](https://vuldb.com/?country.pl)
+* [CN](https://vuldb.com/?country.cn)
+* [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
-* [FR](https://vuldb.com/?country.fr)
 * ...
 
-There are 10 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -360,12 +360,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
-4 | ... | ... | ... | ...
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 15 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -373,22 +374,33 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/admin-profile.php` | High
-2 | File | `/admin/index.php?page=manage_product` | High
-3 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-4 | File | `/catalog/all-products` | High
-5 | File | `/changePassword` | High
-6 | File | `/classes/Users.php?f=delete` | High
-7 | File | `/forum/away.php` | High
-8 | File | `/goform/addIpMacBind` | High
-9 | File | `/goform/DelDhcpRule` | High
-10 | File | `/goform/delIpMacBind` | High
-11 | File | `/goform/DelPortMapping` | High
-12 | File | `/goform/modifyDhcpRule` | High
-13 | File | `/goform/modifyIpMacBind` | High
-14 | ... | ... | ...
+1 | File | `/add-students.php` | High
+2 | File | `/admin/add_ikev2.php` | High
+3 | File | `/admin/admin-profile.php` | High
+4 | File | `/admin/category_save.php` | High
+5 | File | `/admin/index.php?page=manage_product` | High
+6 | File | `/admin/list_ipAddressPolicy.php` | High
+7 | File | `/admin/manage_model.php` | High
+8 | File | `/admin/manage_user.php` | High
+9 | File | `/admin/pages/list` | High
+10 | File | `/admin/subject.php` | High
+11 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+12 | File | `/catalog/all-products` | High
+13 | File | `/cgi-bin/cstecgi.cgi` | High
+14 | File | `/changePassword` | High
+15 | File | `/classes/Master.php` | High
+16 | File | `/classes/Master.php?f=save_medicine` | High
+17 | File | `/classes/Users.php?f=delete` | High
+18 | File | `/classes/Users.php?f=save` | High
+19 | File | `/edit-subject.php` | High
+20 | File | `/endpoint/add-user.php` | High
+21 | File | `/etc/postfix/sender_login` | High
+22 | File | `/forum/away.php` | High
+23 | File | `/goform/SetRemoteWebCfg` | High
+24 | File | `/goform/SetSysTimeCfg` | High
+25 | ... | ... | ...
 
-There are 109 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 214 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

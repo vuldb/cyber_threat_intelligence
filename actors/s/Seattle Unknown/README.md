@@ -116,7 +116,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059 | CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
 
-There are 12 more TTP items available. Please use our online service to access the data.
+There are 13 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -140,14 +140,15 @@ ID | Type | Indicator | Confidence
 14 | File | `/billing/bill/edit/` | High
 15 | File | `/bsms_ci/index.php/user/edit_user/` | High
 16 | File | `/cgi-bin/nas_sharing.cgi` | High
-17 | File | `/classes/Users.php?f=delete` | High
-18 | File | `/edit.php` | Medium
-19 | File | `/feeds/post/publish` | High
-20 | File | `/forum/away.php` | High
-21 | File | `/goform/openSchedWifi` | High
-22 | ... | ... | ...
+17 | File | `/classes/Master.php` | High
+18 | File | `/classes/Users.php?f=delete` | High
+19 | File | `/edit.php` | Medium
+20 | File | `/feeds/post/publish` | High
+21 | File | `/forum/away.php` | High
+22 | File | `/goform/openSchedWifi` | High
+23 | ... | ... | ...
 
-There are 186 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 193 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

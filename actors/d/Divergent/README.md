@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Divergent:
 
 * [DE](https://vuldb.com/?country.de)
-* [US](https://vuldb.com/?country.us)
 * [TR](https://vuldb.com/?country.tr)
+* [US](https://vuldb.com/?country.us)
 * ...
 
 There are 5 more country items available. Please use our online service to access the data.
@@ -44,7 +44,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059 | CWE-94 | Argument Injection | High
 5 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -54,35 +54,36 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/.kedpm/history` | High
 2 | File | `/adfs/ls` | Medium
-3 | File | `/api/v11/users/sessions` | High
-4 | File | `/cmf/process/<process_id>/logs` | High
-5 | File | `/config/getuser` | High
-6 | File | `/etc/shadow` | Medium
-7 | File | `/Forms/oadmin_1` | High
-8 | File | `/goform/` | Medium
-9 | File | `/goform/formLogout` | High
-10 | File | `/home/dna/spool/.pfile` | High
-11 | File | `/includes/lib/tree.php` | High
-12 | File | `/index.php` | Medium
-13 | File | `/MagickCore/enhance.c` | High
-14 | File | `/MagickCore/quantize.c` | High
-15 | File | `/MagickCore/statistic.c` | High
-16 | File | `/onvif/device_service` | High
-17 | File | `/private/var` | Medium
-18 | File | `/sanadata/seo/index.asp` | High
-19 | File | `/secure/QueryComponent!Default.jspa` | High
-20 | File | `/travel-journal/write-journal.php` | High
-21 | File | `/uncpath/` | Medium
-22 | File | `/var/tmp/audacity-$USER` | High
-23 | File | `adclick.php` | Medium
-24 | File | `admin/components/menu/views/menuitems.php` | High
-25 | File | `admin/convertutf8/index.php` | High
-26 | File | `admin/download.php` | High
-27 | File | `admin/editusertag.php` | High
-28 | File | `adm_config_report.php` | High
-29 | ... | ... | ...
+3 | File | `/api/swaggerui/static` | High
+4 | File | `/api/v11/users/sessions` | High
+5 | File | `/cmf/process/<process_id>/logs` | High
+6 | File | `/config/getuser` | High
+7 | File | `/etc/shadow` | Medium
+8 | File | `/Forms/oadmin_1` | High
+9 | File | `/goform/` | Medium
+10 | File | `/goform/formLogout` | High
+11 | File | `/home/dna/spool/.pfile` | High
+12 | File | `/includes/lib/tree.php` | High
+13 | File | `/index.php` | Medium
+14 | File | `/MagickCore/enhance.c` | High
+15 | File | `/MagickCore/quantize.c` | High
+16 | File | `/MagickCore/statistic.c` | High
+17 | File | `/onvif/device_service` | High
+18 | File | `/private/var` | Medium
+19 | File | `/sanadata/seo/index.asp` | High
+20 | File | `/secure/QueryComponent!Default.jspa` | High
+21 | File | `/sscdms/classes/Users.php?f=save` | High
+22 | File | `/travel-journal/write-journal.php` | High
+23 | File | `/uncpath/` | Medium
+24 | File | `/var/tmp/audacity-$USER` | High
+25 | File | `/xds/deleteStudy.php` | High
+26 | File | `adclick.php` | Medium
+27 | File | `admin/components/menu/views/menuitems.php` | High
+28 | File | `admin/convertutf8/index.php` | High
+29 | File | `admin/download.php` | High
+30 | ... | ... | ...
 
-There are 246 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 252 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

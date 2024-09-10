@@ -235,16 +235,17 @@ ID | Type | Indicator | Confidence
 6 | File | `/api/v2/maps` | Medium
 7 | File | `/backend/register.php` | High
 8 | File | `/cgi-bin/nas_sharing.cgi` | High
-9 | File | `/classes/Master.php?f=log_employee` | High
-10 | File | `/classes/Users.php?f=delete` | High
-11 | File | `/control/register_case.php` | High
-12 | File | `/etc/keystone/user-project-map.json` | High
-13 | File | `/forum/away.php` | High
-14 | File | `/manager/ipconfig_new.php` | High
-15 | File | `/manage_sy.php` | High
-16 | ... | ... | ...
+9 | File | `/classes/Master.php` | High
+10 | File | `/classes/Master.php?f=log_employee` | High
+11 | File | `/classes/Users.php?f=delete` | High
+12 | File | `/control/register_case.php` | High
+13 | File | `/etc/keystone/user-project-map.json` | High
+14 | File | `/forum/away.php` | High
+15 | File | `/manager/ipconfig_new.php` | High
+16 | File | `/manage_sy.php` | High
+17 | ... | ... | ...
 
-There are 133 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 141 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

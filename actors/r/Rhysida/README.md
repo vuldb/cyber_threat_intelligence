@@ -8,8 +8,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Rhysida:
 
-* [DE](https://vuldb.com/?country.de)
 * [US](https://vuldb.com/?country.us)
+* [DE](https://vuldb.com/?country.de)
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
@@ -47,12 +47,12 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-36, CWE-37 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
+4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 7 | ... | ... | ... | ...
 
-There are 23 more TTP items available. Please use our online service to access the data.
+There are 24 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -62,8 +62,8 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.rhosts` | Low
 2 | File | `/+CSCOE+/logon.html` | High
-3 | File | `/.vnc/sesman_${username}_passwd` | High
-4 | File | `/?r=email/api/mark&op=delFromSend` | High
+3 | File | `/?r=email/api/mark&op=delFromSend` | High
+4 | File | `/add-students.php` | High
 5 | File | `/admin/action/edit_chicken.php` | High
 6 | File | `/admin/action/update-deworm.php` | High
 7 | File | `/admin/admin-profile.php` | High
@@ -73,46 +73,47 @@ ID | Type | Indicator | Confidence
 11 | File | `/admin/menu/toEdit` | High
 12 | File | `/admin/pages/edit_chicken.php` | High
 13 | File | `/admin/update-clients.php` | High
-14 | File | `/api/baskets/{name}` | High
-15 | File | `/api/plugin/uninstall` | High
-16 | File | `/api2/html/` | Medium
-17 | File | `/app/Http/Controllers/ImageController.php` | High
-18 | File | `/application/index/controller/File.php` | High
-19 | File | `/application/index/controller/Icon.php` | High
-20 | File | `/application/index/controller/Screen.php` | High
-21 | File | `/application/websocket/controller/Setting.php` | High
-22 | File | `/Applications/Utilities/Terminal` | High
-23 | File | `/Attachment/fromImageUrl` | High
-24 | File | `/b2b-supermarket/shopping-cart` | High
-25 | File | `/bin/boa` | Medium
-26 | File | `/cgi-bin/cstecgi.cgi` | High
-27 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-28 | File | `/cgi-bin/nas_sharing.cgi` | High
-29 | File | `/cgi-bin/system_mgr.cgi` | High
-30 | File | `/cms/category/list` | High
-31 | File | `/dev/shm` | Medium
-32 | File | `/edit.php` | Medium
-33 | File | `/edit_book.php` | High
-34 | File | `/edoc/doctor/patient.php` | High
-35 | File | `/Employer/EditProfile.php` | High
-36 | File | `/endpoint/update-tracker.php` | High
-37 | File | `/etc/passwd` | Medium
-38 | File | `/Forms/tools_test_1` | High
-39 | File | `/forum/away.php` | High
-40 | File | `/forum/PostPrivateMessage` | High
-41 | File | `/general/search.php?searchtype=simple` | High
-42 | File | `/goform/SetNetControlList` | High
-43 | File | `/goform/SetRebootTimer` | High
-44 | File | `/goform/setSnmpInfo` | High
-45 | File | `/goform/SysToolRestoreSet` | High
-46 | File | `/goform/WifiBasicSet` | High
-47 | File | `/HNAP1` | Low
-48 | File | `/home/cavesConsole` | High
-49 | File | `/index.php?app=main&inc=feature_inboxgroup&op=list` | High
-50 | File | `/irj/portal/` | Medium
-51 | ... | ... | ...
+14 | File | `/ajax.php` | Medium
+15 | File | `/api/baskets/{name}` | High
+16 | File | `/API/helm/verify` | High
+17 | File | `/api/plugin/uninstall` | High
+18 | File | `/api2/html/` | Medium
+19 | File | `/app/Http/Controllers/ImageController.php` | High
+20 | File | `/application/index/controller/File.php` | High
+21 | File | `/application/index/controller/Icon.php` | High
+22 | File | `/application/index/controller/Screen.php` | High
+23 | File | `/application/websocket/controller/Setting.php` | High
+24 | File | `/Applications/Utilities/Terminal` | High
+25 | File | `/Attachment/fromImageUrl` | High
+26 | File | `/b2b-supermarket/shopping-cart` | High
+27 | File | `/bin/boa` | Medium
+28 | File | `/cgi-bin/cstecgi.cgi` | High
+29 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+30 | File | `/cgi-bin/nas_sharing.cgi` | High
+31 | File | `/cgi-bin/system_mgr.cgi` | High
+32 | File | `/classes/Master.php?f=delete_category` | High
+33 | File | `/classes/Users.php?f=save` | High
+34 | File | `/cms/category/list` | High
+35 | File | `/dev/shm` | Medium
+36 | File | `/downloadFile.php` | High
+37 | File | `/edit.php` | Medium
+38 | File | `/edit_book.php` | High
+39 | File | `/edoc/doctor/patient.php` | High
+40 | File | `/Employer/EditProfile.php` | High
+41 | File | `/endpoint/update-tracker.php` | High
+42 | File | `/etc/passwd` | Medium
+43 | File | `/Forms/tools_test_1` | High
+44 | File | `/forum/away.php` | High
+45 | File | `/forum/PostPrivateMessage` | High
+46 | File | `/general/search.php?searchtype=simple` | High
+47 | File | `/goform/SetNetControlList` | High
+48 | File | `/goform/SetRebootTimer` | High
+49 | File | `/goform/setSnmpInfo` | High
+50 | File | `/goform/SysToolRestoreSet` | High
+51 | File | `/goform/WifiBasicSet` | High
+52 | ... | ... | ...
 
-There are 445 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 456 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [DE](https://vuldb.com/?country.de)
 * ...
 
-There are 19 more country items available. Please use our online service to access the data.
+There are 20 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -61,7 +61,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -79,44 +79,48 @@ ID | Type | Indicator | Confidence
 8 | File | `/admin/delete.php` | High
 9 | File | `/admin/div_data/delete?divId=9` | High
 10 | File | `/admin/edit-post.php` | High
-11 | File | `/admin/index2.html` | High
-12 | File | `/admin/sales/view_details.php` | High
-13 | File | `/admin/view_order.php` | High
-14 | File | `/api/baskets/{name}` | High
-15 | File | `/api/objects/recipes` | High
-16 | File | `/api/sys/set_passwd` | High
-17 | File | `/app/index/controller/Common.php` | High
-18 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
-19 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
-20 | File | `/applications/nexus/modules/front/store/store.php` | High
-21 | File | `/bitrix/admin/ldap_server_edit.php` | High
-22 | File | `/boaform/wlan_basic_set.cgi` | High
-23 | File | `/cgi-bin/nas_sharing.cgi` | High
-24 | File | `/cgi-bin/wlogin.cgi` | High
-25 | File | `/classes/Master.php?f=save_category` | High
-26 | File | `/classes/Master.php?f=save_item` | High
-27 | File | `/classes/Users.php?f=save` | High
-28 | File | `/cwp_{SESSION_HASH}/admin/loader_ajax.php` | High
-29 | File | `/dashboard/system/basics/name` | High
-30 | File | `/dcim/rack-roles/` | High
-31 | File | `/endpoint/update-computer.php` | High
-32 | File | `/fftools/ffmpeg_enc.c` | High
-33 | File | `/forms/doLogin` | High
-34 | File | `/formSysLog` | Medium
-35 | File | `/forum/away.php` | High
-36 | File | `/h/autoSaveDraft` | High
-37 | File | `/index.php` | Medium
-38 | File | `/index.php?app=main&func=passport&action=login` | High
-39 | File | `/install/` | Medium
-40 | File | `/inxedu/demo_inxedu_open/src/main/resources/mybatis/inxedu/website/WebsiteImagesMapper.xml` | High
-41 | File | `/iwgallery/pictures/details.asp` | High
-42 | File | `/kelas/data` | Medium
-43 | File | `/listplace/user/ticket/create` | High
-44 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
-45 | File | `/medianet/mail.aspx` | High
-46 | ... | ... | ...
+11 | File | `/admin/index.php` | High
+12 | File | `/admin/index2.html` | High
+13 | File | `/admin/sales/view_details.php` | High
+14 | File | `/admin/view_order.php` | High
+15 | File | `/api/cron/settings/setJob/` | High
+16 | File | `/api/objects/recipes` | High
+17 | File | `/api/sys/set_passwd` | High
+18 | File | `/app/index/controller/Common.php` | High
+19 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
+20 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
+21 | File | `/applications/nexus/modules/front/store/store.php` | High
+22 | File | `/bitrix/admin/ldap_server_edit.php` | High
+23 | File | `/boaform/wlan_basic_set.cgi` | High
+24 | File | `/cgi-bin/apkg_mgr.cgi` | High
+25 | File | `/cgi-bin/cstecgi.cgi` | High
+26 | File | `/cgi-bin/nas_sharing.cgi` | High
+27 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+28 | File | `/cgi-bin/wlogin.cgi` | High
+29 | File | `/classes/Master.php` | High
+30 | File | `/classes/Master.php?f=delete_record` | High
+31 | File | `/classes/Master.php?f=save_category` | High
+32 | File | `/classes/Master.php?f=save_item` | High
+33 | File | `/classes/SystemSettings.php?f=update_settings` | High
+34 | File | `/classes/Users.php?f=save` | High
+35 | File | `/cwp_{SESSION_HASH}/admin/loader_ajax.php` | High
+36 | File | `/dashboard/system/basics/name` | High
+37 | File | `/E-Insurance/` | High
+38 | File | `/employee_gatepass/classes/Master.php?f=delete_department` | High
+39 | File | `/endpoint/update-computer.php` | High
+40 | File | `/etc/shadow` | Medium
+41 | File | `/fftools/ffmpeg_enc.c` | High
+42 | File | `/forms/doLogin` | High
+43 | File | `/formSysLog` | Medium
+44 | File | `/forum/away.php` | High
+45 | File | `/goform/SetOnlineDevName` | High
+46 | File | `/goform/WifiExtraSet` | High
+47 | File | `/h.php/page?ref=addtabs` | High
+48 | File | `/h/autoSaveDraft` | High
+49 | File | `/I/list.php` | Medium
+50 | ... | ... | ...
 
-There are 402 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 430 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

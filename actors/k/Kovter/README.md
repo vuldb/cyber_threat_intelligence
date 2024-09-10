@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [US](https://vuldb.com/?country.us)
 * ...
 
-There are 1 more country items available. Please use our online service to access the data.
+There are 2 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -220,7 +220,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 5 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -231,40 +231,48 @@ ID | Type | Indicator | Confidence
 1 | File | `%APPDATA%\Securepoint SSL VPN` | High
 2 | File | `/+CSCOE+/logon.html` | High
 3 | File | `/?g=net_pro_keyword_import_save` | High
-4 | File | `/admin/modules/product/controller.php?action=add` | High
-5 | File | `/admin/service_requests/manage_inventory.php` | High
-6 | File | `/admin/students.php` | High
-7 | File | `/adminPage/www/addOver` | High
-8 | File | `/api/sys/set_passwd` | High
-9 | File | `/api/v1` | Low
-10 | File | `/app/uploading/upload-mp3.php` | High
-11 | File | `/application/index/controller/Screen.php` | High
-12 | File | `/as/authorization.oauth2` | High
-13 | File | `/cgi-bin/nas_sharing.cgi` | High
-14 | File | `/control/register_case.php` | High
-15 | File | `/core/config-revisions` | High
-16 | File | `/dataSet/testTransform;swagger-ui` | High
-17 | File | `/dayrui/Fcms/View/system_log.html` | High
-18 | File | `/dayrui/My/View/main.html` | High
-19 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
-20 | File | `/DXR.axd` | Medium
-21 | File | `/edit/server` | Medium
-22 | File | `/endpoint/delete-todo.php` | High
-23 | File | `/forum/away.php` | High
-24 | File | `/goform/execCommand` | High
-25 | File | `/goform/SetRebootTimer` | High
-26 | File | `/goform/WriteFacMac` | High
-27 | File | `/hrm/leaverequest.php` | High
-28 | File | `/index.php?pluginApp/to/yzOffice/getFile` | High
-29 | File | `/librarian/bookdetails.php` | High
-30 | File | `/login-actions/authenticate` | High
-31 | File | `/Maintain/sprog_upstatus.php` | High
-32 | File | `/MobileHandler.ashx` | High
-33 | File | `/newvehicle.php` | High
-34 | File | `/new_item` | Medium
-35 | ... | ... | ...
+4 | File | `/admin/config_time_sync.php` | High
+5 | File | `/admin/index2.html` | High
+6 | File | `/admin/modules/product/controller.php?action=add` | High
+7 | File | `/admin/service_requests/manage_inventory.php` | High
+8 | File | `/admin/sql` | Medium
+9 | File | `/admin/students.php` | High
+10 | File | `/admin/students/manage.php` | High
+11 | File | `/admin/system.html` | High
+12 | File | `/api/swaggerui/static` | High
+13 | File | `/api/sys/set_passwd` | High
+14 | File | `/api/v1` | Low
+15 | File | `/app/uploading/upload-mp3.php` | High
+16 | File | `/application/index/controller/Icon.php` | High
+17 | File | `/application/index/controller/Screen.php` | High
+18 | File | `/as/authorization.oauth2` | High
+19 | File | `/bin/ate` | Medium
+20 | File | `/boaform/device_reset.cgi` | High
+21 | File | `/cgi-bin/alexserv` | High
+22 | File | `/cgi-bin/cstecgi.cgi` | High
+23 | File | `/cgi-bin/nas_sharing.cgi` | High
+24 | File | `/classes/Master.php` | High
+25 | File | `/contact.php` | Medium
+26 | File | `/core/config-revisions` | High
+27 | File | `/dataSet/testTransform;swagger-ui` | High
+28 | File | `/dayrui/Fcms/View/system_log.html` | High
+29 | File | `/dayrui/My/View/main.html` | High
+30 | File | `/dcim/power-ports/add/` | High
+31 | File | `/debug/pprof` | Medium
+32 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
+33 | File | `/DXR.axd` | Medium
+34 | File | `/edit/server` | Medium
+35 | File | `/endpoint/delete-todo.php` | High
+36 | File | `/forum/away.php` | High
+37 | File | `/goform/execCommand` | High
+38 | File | `/goform/goform_get_cmd_process` | High
+39 | File | `/goform/SetRebootTimer` | High
+40 | File | `/guestbook` | Medium
+41 | File | `/hardware` | Medium
+42 | File | `/hrm/leaverequest.php` | High
+43 | ... | ... | ...
 
-There are 302 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 371 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

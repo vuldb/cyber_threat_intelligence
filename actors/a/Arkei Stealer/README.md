@@ -26,7 +26,7 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [93.174.93.178](https://vuldb.com/?ip.93.174.93.178) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 3 more IOC items available. Please use our online service to access the data.
+There are 4 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -39,10 +39,9 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | T1068 | CWE-264, CWE-266, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
-7 | ... | ... | ... | ...
+6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -73,18 +72,18 @@ ID | Type | Indicator | Confidence
 21 | File | `/appConfig/userDB.json` | High
 22 | File | `/aqpg/users/login.php` | High
 23 | File | `/bsms_ci/index.php/user/edit_user/` | High
-24 | File | `/catcompany.php` | High
-25 | File | `/cgi-bin/` | Medium
-26 | File | `/cgi-bin/activate.cgi` | High
-27 | File | `/classes/Login.php` | High
-28 | File | `/classes/Master.php` | High
-29 | File | `/classes/Users.php` | High
-30 | File | `/common/run_cross_report.php` | High
-31 | File | `/dashboard/contact` | High
-32 | File | `/dbhcms/ext/news/ext.news.be.php` | High
-33 | File | `/dcim/sites/add/` | High
-34 | File | `/Default/Bd` | Medium
-35 | File | `/dev/ptpX` | Medium
+24 | File | `/cancel.php` | Medium
+25 | File | `/catcompany.php` | High
+26 | File | `/cgi-bin/` | Medium
+27 | File | `/cgi-bin/luci;stok=/locale` | High
+28 | File | `/classes/Login.php` | High
+29 | File | `/classes/Master.php` | High
+30 | File | `/classes/Users.php` | High
+31 | File | `/common/run_cross_report.php` | High
+32 | File | `/dashboard/contact` | High
+33 | File | `/dbhcms/ext/news/ext.news.be.php` | High
+34 | File | `/dcim/sites/add/` | High
+35 | File | `/Default/Bd` | Medium
 36 | File | `/etc/passwd` | Medium
 37 | File | `/event/admin/?page=user/list` | High
 38 | File | `/file-manager/upload.php` | High
@@ -95,11 +94,14 @@ ID | Type | Indicator | Confidence
 43 | File | `/inc/topBarNav.php` | High
 44 | File | `/index.php` | Medium
 45 | File | `/index.php?case=table&act=add&table=archive&admin_dir=admin` | High
-46 | File | `/login.php` | Medium
-47 | File | `/manage_laundry.php` | High
-48 | ... | ... | ...
+46 | File | `/labvantage/rc?command=page&page=SampleHistoricalList&_iframename=list&__crc=crc_1701669816260` | High
+47 | File | `/login.php` | Medium
+48 | File | `/manage_laundry.php` | High
+49 | File | `/members/view_member.php` | High
+50 | File | `/mgm_dev_reboot.asp` | High
+51 | ... | ... | ...
 
-There are 415 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 441 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

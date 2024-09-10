@@ -21,9 +21,9 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [45.32.23.140](https://vuldb.com/?ip.45.32.23.140) | 45.32.23.140.vultrusercontent.com | - | High
-2 | [45.76.184.227](https://vuldb.com/?ip.45.76.184.227) | 45.76.184.227.vultrusercontent.com | - | High
-3 | [107.191.61.40](https://vuldb.com/?ip.107.191.61.40) | 107.191.61.40.vultrusercontent.com | - | High
+1 | [45.32.23.140](https://vuldb.com/?ip.45.32.23.140) | 45.32.23.140.vultrusercontent.com | - | Medium
+2 | [45.76.184.227](https://vuldb.com/?ip.45.76.184.227) | 45.76.184.227.vultrusercontent.com | - | Medium
+3 | [107.191.61.40](https://vuldb.com/?ip.107.191.61.40) | 107.191.61.40.vultrusercontent.com | - | Medium
 4 | ... | ... | ... | ...
 
 There are 2 more IOC items available. Please use our online service to access the data.
@@ -62,7 +62,7 @@ ID | Type | Indicator | Confidence
 12 | File | `arch/arm/kernel/perf_event.c` | High
 13 | ... | ... | ...
 
-There are 100 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 101 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

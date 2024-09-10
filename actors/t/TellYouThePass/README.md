@@ -16,10 +16,6 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [VN](https://vuldb.com/?country.vn)
 * [IT](https://vuldb.com/?country.it)
-* [AR](https://vuldb.com/?country.ar)
-* ...
-
-There are 1 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -40,14 +36,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-25, CWE-37 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+5 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -56,57 +51,56 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/#/network?tab=network_node_list.html` | High
-2 | File | `/.env` | Low
-3 | File | `/admin/index.php` | High
+2 | File | `/admin/config_time_sync.php` | High
+3 | File | `/admin/contacts/organizations/edit/2` | High
 4 | File | `/admin/list_localuser.php` | High
 5 | File | `/admin/modules/product/controller.php?action=add` | High
-6 | File | `/admin/orders/view_order.php` | High
-7 | File | `/admin/suppliers/view_details.php` | High
-8 | File | `/adminPage/main/upload` | High
-9 | File | `/admin_ping.htm` | High
-10 | File | `/api/sys/set_passwd` | High
-11 | File | `/api/v1` | Low
-12 | File | `/application/index/controller/Databasesource.php` | High
-13 | File | `/application/index/controller/Icon.php` | High
-14 | File | `/application/index/controller/Screen.php` | High
-15 | File | `/application/plugins/controller/Upload.php` | High
-16 | File | `/apps/reg_go.php` | High
-17 | File | `/billing/bill/edit/` | High
-18 | File | `/cgi-bin/cstecgi.cgi` | High
-19 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
-20 | File | `/cgi-bin/info.cgi` | High
-21 | File | `/cgi-bin/mainfunction.cgi` | High
-22 | File | `/cgi-bin/nas_sharing.cgi` | High
-23 | File | `/cgi-bin/system_mgr.cgi` | High
-24 | File | `/cgi-bin/wlogin.cgi` | High
-25 | File | `/classes/Login.php` | High
-26 | File | `/classes/Users.php` | High
-27 | File | `/core/config-revisions` | High
-28 | File | `/DesignTools/CssEditor.aspx` | High
-29 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
-30 | File | `/DXR.axd` | Medium
-31 | File | `/ECT_Provider/` | High
-32 | File | `/Employer/EditProfile.php` | High
-33 | File | `/endpoint/delete-todo.php` | High
-34 | File | `/EXCU_SHELL` | Medium
-35 | File | `/fax/fax_send.php` | High
-36 | File | `/files/list-file` | High
-37 | File | `/finance/help/en/frameset.htm` | High
-38 | File | `/forum/away.php` | High
-39 | File | `/general/attendance/manage/ask_duty/delete.php` | High
-40 | File | `/goform/` | Medium
-41 | File | `/h/autoSaveDraft` | High
-42 | File | `/home.php` | Medium
-43 | File | `/Home/Index` | Medium
-44 | File | `/hrm/leaverequest.php` | High
-45 | File | `/inc/modules_install.php` | High
-46 | File | `/index.php` | Medium
-47 | File | `/index.php?app=main&func=passport&action=login` | High
-48 | File | `/itbox_pi/vpn_quickset_service.php?a=set_vpn` | High
-49 | File | `/loginVaLidation.php` | High
-50 | ... | ... | ...
+6 | File | `/admin/suppliers/view_details.php` | High
+7 | File | `/adminPage/main/upload` | High
+8 | File | `/api/swaggerui/static` | High
+9 | File | `/api/sys/set_passwd` | High
+10 | File | `/api/v1` | Low
+11 | File | `/cgi-bin/alexserv` | High
+12 | File | `/cgi-bin/cstecgi.cgi` | High
+13 | File | `/cgi-bin/info.cgi` | High
+14 | File | `/cgi-bin/nas_sharing.cgi` | High
+15 | File | `/cgi-bin/system_mgr.cgi` | High
+16 | File | `/classes/Login.php` | High
+17 | File | `/classes/Master.php` | High
+18 | File | `/classes/Users.php` | High
+19 | File | `/contact.php` | Medium
+20 | File | `/core/config-revisions` | High
+21 | File | `/dcim/power-ports/add/` | High
+22 | File | `/debug/pprof` | Medium
+23 | File | `/DesignTools/CssEditor.aspx` | High
+24 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
+25 | File | `/DXR.axd` | Medium
+26 | File | `/edit/server` | Medium
+27 | File | `/endpoint/delete-account.php` | High
+28 | File | `/endpoint/delete-todo.php` | High
+29 | File | `/EXCU_SHELL` | Medium
+30 | File | `/finance/help/en/frameset.htm` | High
+31 | File | `/forum/away.php` | High
+32 | File | `/guestbook` | Medium
+33 | File | `/hardware` | Medium
+34 | File | `/hrm/leaverequest.php` | High
+35 | File | `/inc/modules_install.php` | High
+36 | File | `/index.php?app=main&inc=feature_phonebook&op=phonebook_list` | High
+37 | File | `/index.php?pluginApp/to/yzOffice/getFile` | High
+38 | File | `/index/ajax/lang` | High
+39 | File | `/Interface/DevManage/VM.php` | High
+40 | File | `/itbox_pi/vpn_quickset_service.php?a=set_vpn` | High
+41 | File | `/librarian/bookdetails.php` | High
+42 | File | `/Maintain/sprog_upstatus.php` | High
+43 | File | `/MobileHandler.ashx` | High
+44 | File | `/movie.php` | Medium
+45 | File | `/network_diagnostics.html` | High
+46 | File | `/novel/bookSetting/list` | High
+47 | File | `/one_church/churchprofile.php` | High
+48 | File | `/one_church/userregister.php` | High
+49 | ... | ... | ...
 
-There are 436 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 425 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

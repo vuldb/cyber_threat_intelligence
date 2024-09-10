@@ -42,7 +42,7 @@ ID | Technique | Weakness | Description | Confidence
 6 | T1068 | CWE-264, CWE-269, CWE-271, CWE-284 | Execution with Unnecessary Privileges | High
 7 | ... | ... | ... | ...
 
-There are 23 more TTP items available. Please use our online service to access the data.
+There are 24 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -51,44 +51,45 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/addemployee.php` | High
-2 | File | `/admin/edit_subject.php` | High
-3 | File | `/admin/foldernotice/list` | High
-4 | File | `/admin/transactions/track_shipment.php` | High
-5 | File | `/admin/weixin.php` | High
-6 | File | `/Ap4RtpAtom.cpp` | High
-7 | File | `/bcms/admin/?page=service_transactions/manage_service_transaction` | High
-8 | File | `/bcms/admin/?page=user/manage_user` | High
-9 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-10 | File | `/classes/Master.php?f=save_category` | High
-11 | File | `/College/admin/teacher.php` | High
-12 | File | `/common/run_cross_report.php` | High
-13 | File | `/confirm` | Medium
-14 | File | `/etc/ciel.cfg` | High
-15 | File | `/etc/gsissh/sshd_config` | High
-16 | File | `/exponent_constants.php` | High
-17 | File | `/geoserver/gwc/rest.html` | High
-18 | File | `/goform/addRouting` | High
-19 | File | `/goform/WifiBasicSet` | High
-20 | File | `/group/apply` | Medium
-21 | File | `/image_zoom.php` | High
-22 | File | `/index.php` | Medium
-23 | File | `/instance/detail` | High
-24 | File | `/it-IT/splunkd/__raw/services/get_snapshot` | High
-25 | File | `/jerry-core/ecma/base/ecma-gc.c` | High
-26 | File | `/master/core/PostHandler.php` | High
-27 | File | `/mdiy/dict/list` | High
-28 | File | `/ocwbs/admin/?page=bookings/view_details` | High
-29 | File | `/ofrs/admin/?page=requests/manage_request` | High
-30 | File | `/package_detail.php` | High
-31 | File | `/php-sms/classes/Master.php` | High
-32 | File | `/php_action/createUser.php` | High
-33 | File | `/plugin/dataDictionary/tableView.do` | High
-34 | File | `/preferences/tags` | High
-35 | File | `/release-x64/otfccdump+0x6b559f` | High
-36 | File | `/royal_event/companyprofile.php` | High
-37 | ... | ... | ...
+2 | File | `/admin/ajax.php?action=login` | High
+3 | File | `/admin/edit_subject.php` | High
+4 | File | `/admin/foldernotice/list` | High
+5 | File | `/admin/login.php` | High
+6 | File | `/admin/transactions/track_shipment.php` | High
+7 | File | `/admin/weixin.php` | High
+8 | File | `/ajax/get_patient_history.php` | High
+9 | File | `/Ap4RtpAtom.cpp` | High
+10 | File | `/bcms/admin/?page=service_transactions/manage_service_transaction` | High
+11 | File | `/bcms/admin/?page=user/manage_user` | High
+12 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+13 | File | `/classes/Master.php` | High
+14 | File | `/classes/Master.php?f=save_category` | High
+15 | File | `/College/admin/teacher.php` | High
+16 | File | `/common/run_cross_report.php` | High
+17 | File | `/confirm` | Medium
+18 | File | `/etc/ciel.cfg` | High
+19 | File | `/etc/gsissh/sshd_config` | High
+20 | File | `/exponent_constants.php` | High
+21 | File | `/geoserver/gwc/rest.html` | High
+22 | File | `/goform/addRouting` | High
+23 | File | `/goform/WifiBasicSet` | High
+24 | File | `/group/apply` | Medium
+25 | File | `/image_zoom.php` | High
+26 | File | `/index.php` | Medium
+27 | File | `/instance/detail` | High
+28 | File | `/it-IT/splunkd/__raw/services/get_snapshot` | High
+29 | File | `/jerry-core/ecma/base/ecma-gc.c` | High
+30 | File | `/master/core/PostHandler.php` | High
+31 | File | `/mdiy/dict/list` | High
+32 | File | `/ocwbs/admin/?page=bookings/view_details` | High
+33 | File | `/ofrs/admin/?page=requests/manage_request` | High
+34 | File | `/package_detail.php` | High
+35 | File | `/php-sms/classes/Master.php` | High
+36 | File | `/php_action/createUser.php` | High
+37 | File | `/plugin/dataDictionary/tableView.do` | High
+38 | ... | ... | ...
 
-There are 313 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 326 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

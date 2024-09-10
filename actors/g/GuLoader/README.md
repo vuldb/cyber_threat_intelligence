@@ -79,30 +79,31 @@ ID | Type | Indicator | Confidence
 25 | File | `/integrations.json` | High
 26 | File | `/jerry-core/ecma/base/ecma-helpers-conversion.c` | High
 27 | File | `/lists/admin/` | High
-28 | File | `/login` | Low
-29 | File | `/mfsNotice/page` | High
-30 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-31 | File | `/novel/bookSetting/list` | High
-32 | File | `/novel/userFeedback/list` | High
-33 | File | `/opt/IBM/es/lib/libffq.cryptionjni.so` | High
-34 | File | `/opt/vyatta/share/vyatta-cfg/templates/system/static-host-mapping/host-name/node.def` | High
-35 | File | `/owa/auth/logon.aspx` | High
-36 | File | `/php-sms/admin/?page=services/manage_service` | High
-37 | File | `/phppath/php` | Medium
-38 | File | `/sdm-ws-rest/preconfiguration` | High
-39 | File | `/services/details.asp` | High
-40 | File | `/settings` | Medium
-41 | File | `/spip.php` | Medium
-42 | File | `/uapi/doc` | Medium
-43 | File | `/uncpath/` | Medium
-44 | File | `/updownload/t.report` | High
-45 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
-46 | File | `/woocommerce-stock-manager/trunk/admin/views/import-export.php` | High
-47 | File | `/wp-admin/options.php` | High
-48 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-49 | ... | ... | ...
+28 | File | `/log/decodmail.php` | High
+29 | File | `/login` | Low
+30 | File | `/mfsNotice/page` | High
+31 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+32 | File | `/novel/bookSetting/list` | High
+33 | File | `/novel/userFeedback/list` | High
+34 | File | `/opt/IBM/es/lib/libffq.cryptionjni.so` | High
+35 | File | `/opt/vyatta/share/vyatta-cfg/templates/system/static-host-mapping/host-name/node.def` | High
+36 | File | `/owa/auth/logon.aspx` | High
+37 | File | `/php-sms/admin/?page=services/manage_service` | High
+38 | File | `/phppath/php` | Medium
+39 | File | `/register.php` | High
+40 | File | `/sdm-ws-rest/preconfiguration` | High
+41 | File | `/services/details.asp` | High
+42 | File | `/settings` | Medium
+43 | File | `/spip.php` | Medium
+44 | File | `/uapi/doc` | Medium
+45 | File | `/ueditor/net/controller.ashx?action=catchimage` | High
+46 | File | `/uncpath/` | Medium
+47 | File | `/updownload/t.report` | High
+48 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
+49 | File | `/woocommerce-stock-manager/trunk/admin/views/import-export.php` | High
+50 | ... | ... | ...
 
-There are 423 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 433 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

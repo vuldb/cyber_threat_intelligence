@@ -105,25 +105,25 @@ ID | Type | Indicator | Confidence
 60 | File | `/category/order/hits/copyright/46/finish/1/list/1` | High
 61 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
 62 | File | `/cgi-bin/nightled.cgi` | High
-63 | File | `/classes/Master.php` | High
-64 | File | `/classes/Master.php?f=delete_item` | High
-65 | File | `/classes/master.php?f=delete_order` | High
-66 | File | `/classes/Master.php?f=delete_service` | High
-67 | File | `/classes/Master.php?f=save_inquiry` | High
-68 | File | `/classes/Master.php?f=save_sub_category` | High
-69 | File | `/classes/Users.php` | High
-70 | File | `/cms/category/list` | High
-71 | File | `/collection/all` | High
-72 | File | `/config` | Low
-73 | File | `/config-manager/save` | High
-74 | File | `/config/myfield/test.php` | High
-75 | File | `/contact.php` | Medium
-76 | File | `/course/filterRecords/` | High
-77 | File | `/cwms/classes/Master.php?f=save_contact` | High
-78 | File | `/dashboard/contact` | High
+63 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+64 | File | `/classes/Master.php` | High
+65 | File | `/classes/Master.php?f=delete_item` | High
+66 | File | `/classes/master.php?f=delete_order` | High
+67 | File | `/classes/Master.php?f=delete_service` | High
+68 | File | `/classes/Master.php?f=save_inquiry` | High
+69 | File | `/classes/Master.php?f=save_sub_category` | High
+70 | File | `/classes/Users.php` | High
+71 | File | `/cms/category/list` | High
+72 | File | `/collection/all` | High
+73 | File | `/config` | Low
+74 | File | `/config-manager/save` | High
+75 | File | `/config/myfield/test.php` | High
+76 | File | `/contact.php` | Medium
+77 | File | `/course/filterRecords/` | High
+78 | File | `/cwms/classes/Master.php?f=save_contact` | High
 79 | ... | ... | ...
 
-There are 691 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 693 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

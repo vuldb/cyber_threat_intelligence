@@ -30,7 +30,8 @@ ID | IP address | Hostname | Campaign | Confidence
 7 | [77.223.98.12](https://vuldb.com/?ip.77.223.98.12) | cloud12915.coteseuplano1.com.br | - | High
 8 | [82.180.154.113](https://vuldb.com/?ip.82.180.154.113) | - | - | High
 9 | [84.32.188.27](https://vuldb.com/?ip.84.32.188.27) | - | - | High
-10 | ... | ... | ... | ...
+10 | [87.249.50.201](https://vuldb.com/?ip.87.249.50.201) | 832423-cv17319.tmweb.ru | - | High
+11 | ... | ... | ... | ...
 
 There are 38 more IOC items available. Please use our online service to access the data.
 
@@ -68,30 +69,31 @@ ID | Type | Indicator | Confidence
 11 | File | `/applications/nexus/modules/front/store/store.php` | High
 12 | File | `/backend/register.php` | High
 13 | File | `/bitrix/admin/ldap_server_edit.php` | High
-14 | File | `/cgi-bin/nas_sharing.cgi` | High
-15 | File | `/cgi-bin/system_mgr.cgi` | High
-16 | File | `/classes/Master.php?f=save_category` | High
-17 | File | `/classes/Users.php?f=save` | High
-18 | File | `/dcim/rack-roles/` | High
-19 | File | `/fftools/ffmpeg_enc.c` | High
-20 | File | `/forms/doLogin` | High
-21 | File | `/formSysLog` | Medium
-22 | File | `/forum/away.php` | High
-23 | File | `/hotel.php` | Medium
-24 | File | `/index.php` | Medium
-25 | File | `/index.php?app=main&func=passport&action=login` | High
-26 | File | `/install/` | Medium
-27 | File | `/kelas/data` | Medium
-28 | File | `/listplace/user/ticket/create` | High
-29 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
-30 | File | `/members/poster.php` | High
-31 | File | `/mhds/clinic/view_details.php` | High
-32 | File | `/novel/author/list` | High
-33 | File | `/spip.php` | Medium
-34 | File | `/squashfs-root/etc_ro/custom.conf` | High
-35 | ... | ... | ...
+14 | File | `/cgi-bin/cstecgi.cgi` | High
+15 | File | `/cgi-bin/nas_sharing.cgi` | High
+16 | File | `/cgi-bin/system_mgr.cgi` | High
+17 | File | `/classes/Master.php` | High
+18 | File | `/classes/Master.php?f=save_category` | High
+19 | File | `/classes/Users.php?f=save` | High
+20 | File | `/dcim/rack-roles/` | High
+21 | File | `/fftools/ffmpeg_enc.c` | High
+22 | File | `/forms/doLogin` | High
+23 | File | `/formSysLog` | Medium
+24 | File | `/forum/away.php` | High
+25 | File | `/goform/SetOnlineDevName` | High
+26 | File | `/hotel.php` | Medium
+27 | File | `/index.php` | Medium
+28 | File | `/index.php?app=main&func=passport&action=login` | High
+29 | File | `/install/` | Medium
+30 | File | `/listplace/user/ticket/create` | High
+31 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
+32 | File | `/members/poster.php` | High
+33 | File | `/mhds/clinic/view_details.php` | High
+34 | File | `/MIME/INBOX-MM-1/` | High
+35 | File | `/novel/author/list` | High
+36 | ... | ... | ...
 
-There are 301 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 304 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -100,6 +102,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://www.cisecurity.org/insights/blog/ctas-leveraging-fake-browser-updates-in-malware-campaigns
 * https://www.cybereason.com/blog/threat-analysis-report-socgholish-and-zloader-from-fake-updates-and-installers-to-owning-your-systems
 * https://www.esentire.com/blog/socgholish-sets-sights-on-victim-peers
+* https://www.gdatasoftware.com/blog/2024/07/37976-socgholish-fake-update
 * https://www.proofpoint.com/us/blog/threat-insight/are-you-sure-your-browser-date-current-landscape-fake-browser-updates
 * https://www.proofpoint.com/us/blog/threat-insight/ta569-socgholish-and-beyond
 

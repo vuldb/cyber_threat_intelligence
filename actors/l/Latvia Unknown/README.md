@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Latvia Unknown:
 
 * [US](https://vuldb.com/?country.us)
-* [RU](https://vuldb.com/?country.ru)
-* [PL](https://vuldb.com/?country.pl)
+* [CN](https://vuldb.com/?country.cn)
+* [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 10 more country items available. Please use our online service to access the data.
+There are 16 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -258,13 +258,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-425 | Path Traversal | High
-2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-29, CWE-425 | Path Traversal | High
+2 | T1055 | CWE-74, CWE-643 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -272,27 +272,45 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/Admin/changepassword.php` | High
-2 | File | `/admin/general-setting` | High
-3 | File | `/admin/service` | High
-4 | File | `/api/v1/custom_component` | High
-5 | File | `/api/v2/maps` | Medium
-6 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-7 | File | `/catalog/all-products` | High
-8 | File | `/changePassword` | High
-9 | File | `/classes/Users.php?f=delete` | High
-10 | File | `/forum/away.php` | High
-11 | File | `/goform/addIpMacBind` | High
-12 | File | `/goform/DelDhcpRule` | High
-13 | File | `/goform/delIpMacBind` | High
-14 | File | `/goform/DelPortMapping` | High
-15 | File | `/goform/modifyIpMacBind` | High
-16 | File | `/goform/SetDDNSCfg` | High
-17 | File | `/goform/SetLEDCfg` | High
-18 | File | `/goform/SetOnlineDevName` | High
-19 | ... | ... | ...
+1 | File | `/.pomerium` | Medium
+2 | File | `/admin/add_ikev2.php` | High
+3 | File | `/admin/ajax.php?action=delete_user` | High
+4 | File | `/admin/category_save.php` | High
+5 | File | `/Admin/changepassword.php` | High
+6 | File | `/admin/general-setting` | High
+7 | File | `/admin/inquiries/view_inquiry.php` | High
+8 | File | `/admin/list_ipAddressPolicy.php` | High
+9 | File | `/admin/manage_model.php` | High
+10 | File | `/admin/manage_user.php` | High
+11 | File | `/admin/projects/{projectname}/skills/{skillname}/video` | High
+12 | File | `/admin/service` | High
+13 | File | `/admin/subject.php` | High
+14 | File | `/api/v1/custom_component` | High
+15 | File | `/api/v2/maps` | Medium
+16 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+17 | File | `/catalog/all-products` | High
+18 | File | `/cgi-bin/cstecgi.cgi` | High
+19 | File | `/cgi-bin/nas_sharing.cgi` | High
+20 | File | `/classes/Master.php` | High
+21 | File | `/classes/Master.php?f=delete_category` | High
+22 | File | `/classes/Master.php?f=save_medicine` | High
+23 | File | `/classes/Users.php?f=delete` | High
+24 | File | `/DXR.axd` | Medium
+25 | File | `/edit-subject.php` | High
+26 | File | `/endpoint/add-user.php` | High
+27 | File | `/etc/postfix/sender_login` | High
+28 | File | `/etc/shadow` | Medium
+29 | File | `/forum/away.php` | High
+30 | File | `/goform/SetIpMacBind` | High
+31 | File | `/goform/SetSysTimeCfg` | High
+32 | File | `/goform/WifiExtraSet` | High
+33 | File | `/guestbook` | Medium
+34 | File | `/index.php` | Medium
+35 | File | `/js/player/dmplayer/dmku/?ac=edit` | High
+36 | File | `/labvantage/rc?command=page&page=SampleHistoricalList&_iframename=list&__crc=crc_1701669816260` | High
+37 | ... | ... | ...
 
-There are 153 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 317 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

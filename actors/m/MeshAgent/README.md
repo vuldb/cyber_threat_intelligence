@@ -4,19 +4,46 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.meshagent](https://vuldb.com/?actor.meshagent)
 
+## Countries
+
+These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with MeshAgent:
+
+* [US](https://vuldb.com/?country.us)
+* [GB](https://vuldb.com/?country.gb)
+
 ## IOC - Indicator of Compromise
 
 These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of MeshAgent.
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [54.180.27.29](https://vuldb.com/?ip.54.180.27.29) | ec2-54-180-27-29.ap-northeast-2.compute.amazonaws.com | - | Medium
+1 | [51.16.51.81](https://vuldb.com/?ip.51.16.51.81) | ec2-51-16-51-81.il-central-1.compute.amazonaws.com | - | Medium
+2 | [54.180.27.29](https://vuldb.com/?ip.54.180.27.29) | ec2-54-180-27-29.ap-northeast-2.compute.amazonaws.com | - | Medium
+3 | [78.141.238.182](https://vuldb.com/?ip.78.141.238.182) | 78.141.238.182.vultrusercontent.com | - | Medium
+
+## TTP - Tactics, Techniques, Procedures
+
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _MeshAgent_. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1505 | CWE-89 | SQL Injection | High
+
+## IOA - Indicator of Attack
+
+These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by MeshAgent. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Type | Indicator | Confidence
+-- | ---- | --------- | ----------
+1 | File | `shop.php` | Medium
+2 | Argument | `id` | Low
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://asec.ahnlab.com/en/53267/
+* https://hackerseye.net/all-blog-items/checkmesh/
 
 ## Literature
 

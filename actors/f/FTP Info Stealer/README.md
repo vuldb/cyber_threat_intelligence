@@ -39,7 +39,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
@@ -56,48 +56,49 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/acms/classes/Master.php?f=delete_cargo` | High
-2 | File | `/admin.php/news/admin/topic/save` | High
-3 | File | `/admin/comn/service/update.json` | High
-4 | File | `/admin/scripts/pi-hole/phpqueryads.php` | High
-5 | File | `/agc/vicidial.php` | High
-6 | File | `/api/baskets/{name}` | High
-7 | File | `/api/RecordingList/DownloadRecord?file=` | High
-8 | File | `/app/options.py` | High
-9 | File | `/apply.cgi` | Medium
-10 | File | `/card_scan.php` | High
-11 | File | `/cgi-bin/luci/api/switch` | High
-12 | File | `/cgi-bin/sm_changepassword.cgi` | High
-13 | File | `/cgi-bin/touchlist_sync.cgi` | High
-14 | File | `/cgi-bin/wlogin.cgi` | High
-15 | File | `/classes/Master.php?f=delete_inquiry` | High
-16 | File | `/contact.php` | Medium
-17 | File | `/core/config-revisions` | High
-18 | File | `/cwc/login` | Medium
-19 | File | `/debuginfo.htm` | High
-20 | File | `/dl/dl_print.php` | High
-21 | File | `/Electron/download` | High
-22 | File | `/etc/quagga` | Medium
-23 | File | `/export` | Low
-24 | File | `/forms/doLogin` | High
-25 | File | `/forum/away.php` | High
-26 | File | `/getcfg.php` | Medium
-27 | File | `/guest_auth/cfg/upLoadCfg.php` | High
-28 | File | `/h/calendar` | Medium
-29 | File | `/include/chart_generator.php` | High
-30 | File | `/index.php` | Medium
-31 | File | `/items/search` | High
-32 | File | `/load.php` | Medium
-33 | File | `/lua/set-passwd.lua` | High
-34 | File | `/mims/login.php` | High
-35 | File | `/nova/bin/console` | High
-36 | File | `/nova/bin/detnet` | High
-37 | File | `/ofcms/company-c-47` | High
-38 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-39 | File | `/out.php` | Medium
-40 | File | `/pages/animals.php` | High
-41 | ... | ... | ...
+2 | File | `/adfs/ls` | Medium
+3 | File | `/admin.php/news/admin/topic/save` | High
+4 | File | `/admin/comn/service/update.json` | High
+5 | File | `/admin/scripts/pi-hole/phpqueryads.php` | High
+6 | File | `/agc/vicidial.php` | High
+7 | File | `/api/baskets/{name}` | High
+8 | File | `/api/RecordingList/DownloadRecord?file=` | High
+9 | File | `/app/options.py` | High
+10 | File | `/apply.cgi` | Medium
+11 | File | `/card_scan.php` | High
+12 | File | `/cgi-bin/cstecgi.cgi` | High
+13 | File | `/cgi-bin/luci/api/switch` | High
+14 | File | `/cgi-bin/sm_changepassword.cgi` | High
+15 | File | `/cgi-bin/touchlist_sync.cgi` | High
+16 | File | `/cgi-bin/wlogin.cgi` | High
+17 | File | `/classes/Master.php?f=delete_inquiry` | High
+18 | File | `/contact.php` | Medium
+19 | File | `/core/config-revisions` | High
+20 | File | `/cwc/login` | Medium
+21 | File | `/debuginfo.htm` | High
+22 | File | `/dl/dl_print.php` | High
+23 | File | `/Electron/download` | High
+24 | File | `/etc/passwd` | Medium
+25 | File | `/etc/quagga` | Medium
+26 | File | `/export` | Low
+27 | File | `/forms/doLogin` | High
+28 | File | `/forum/away.php` | High
+29 | File | `/getcfg.php` | Medium
+30 | File | `/guest_auth/cfg/upLoadCfg.php` | High
+31 | File | `/h/autoSaveDraft` | High
+32 | File | `/h/calendar` | Medium
+33 | File | `/include/chart_generator.php` | High
+34 | File | `/index.php` | Medium
+35 | File | `/items/search` | High
+36 | File | `/load.php` | Medium
+37 | File | `/lua/set-passwd.lua` | High
+38 | File | `/mims/login.php` | High
+39 | File | `/nova/bin/console` | High
+40 | File | `/nova/bin/detnet` | High
+41 | File | `/ofcms/company-c-47` | High
+42 | ... | ... | ...
 
-There are 357 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 359 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

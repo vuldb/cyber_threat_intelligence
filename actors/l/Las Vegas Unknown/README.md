@@ -168,22 +168,25 @@ ID | Type | Indicator | Confidence
 1 | File | `/add_reference_to_local_model` | High
 2 | File | `/admin/admin-profile.php` | High
 3 | File | `/admin/booking-bwdates-reports-details.php` | High
-4 | File | `/admin/operations/expense_category.php` | High
-5 | File | `/api/RecordingList/DownloadRecord?file=` | High
-6 | File | `/backend/register.php` | High
-7 | File | `/cgi-bin/nas_sharing.cgi` | High
-8 | File | `/cgi-bin/wlogin.cgi` | High
-9 | File | `/classes/Master.php` | High
-10 | File | `/classes/Users.php?f=delete` | High
-11 | File | `/control/register_case.php` | High
-12 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
-13 | File | `/endpoint/delete-bill.php` | High
-14 | File | `/etc/keystone/user-project-map.json` | High
-15 | File | `/forgot-password` | High
-16 | File | `/forum/away.php` | High
-17 | ... | ... | ...
+4 | File | `/admin/emp-profile-avatar.php` | High
+5 | File | `/admin/operations/expense_category.php` | High
+6 | File | `/api/RecordingList/DownloadRecord?file=` | High
+7 | File | `/backend/register.php` | High
+8 | File | `/cgi-bin/nas_sharing.cgi` | High
+9 | File | `/cgi-bin/p1_ftpserver.php` | High
+10 | File | `/cgi-bin/tosei_kikai.php` | High
+11 | File | `/cgi-bin/wlogin.cgi` | High
+12 | File | `/classes/Master.php` | High
+13 | File | `/classes/SystemSettings.php?f=update_settings` | High
+14 | File | `/classes/Users.php?f=delete` | High
+15 | File | `/control/register_case.php` | High
+16 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
+17 | File | `/endpoint/delete-bill.php` | High
+18 | File | `/etc/keystone/user-project-map.json` | High
+19 | File | `/forgot-password` | High
+20 | ... | ... | ...
 
-There are 139 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 164 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -39,7 +39,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059 | CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
 
-There are 13 more TTP items available. Please use our online service to access the data.
+There are 14 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -48,47 +48,49 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/` | Low
-2 | File | `/admin/login.php` | High
-3 | File | `/admin/normal-bwdates-reports-details.php` | High
-4 | File | `/anony/mjpg.cgi` | High
-5 | File | `/APR/signup.php` | High
-6 | File | `/contact.php` | Medium
-7 | File | `/FreshRSS/p/ext.php` | High
-8 | File | `/goform/setStaticRoute` | High
-9 | File | `/HNAP1` | Low
-10 | File | `/index.php` | Medium
-11 | File | `/mgmt/tm/util/bash` | High
-12 | File | `/mims/login.php` | High
-13 | File | `/opt/IBM/es/lib/libffq.cryptionjni.so` | High
-14 | File | `/php-sms/classes/Master.php?f=save_quote` | High
-15 | File | `/product_list.php` | High
-16 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-17 | File | `/services/details.asp` | High
-18 | File | `/SystemMng.ashx` | High
-19 | File | `/uncpath/` | Medium
-20 | File | `account/signup.php` | High
-21 | File | `action/usermanager.htm` | High
-22 | File | `adb/adb_client.c` | High
-23 | File | `adclick.php` | Medium
-24 | File | `add-category.php` | High
-25 | File | `addentry.php` | Medium
-26 | File | `add_comment.php` | High
-27 | File | `add_edit_user.asp` | High
-28 | File | `adm-admlog.php` | High
-29 | File | `admin.php` | Medium
-30 | File | `admin.php3` | Medium
-31 | File | `admin.webring.docs.php` | High
-32 | File | `admin/admin_editor.php` | High
-33 | File | `admin/conf_users_edit.php` | High
-34 | File | `admin_login.asp` | High
-35 | File | `ajax.php` | Medium
-36 | File | `auth-gss2.c` | Medium
-37 | File | `blocks/block-Old_Articles.php` | High
-38 | File | `board.php` | Medium
-39 | File | `books.php` | Medium
-40 | ... | ... | ...
+2 | File | `/admin/emp-profile-avatar.php` | High
+3 | File | `/admin/login.php` | High
+4 | File | `/admin/manage_complaint.php` | High
+5 | File | `/admin/normal-bwdates-reports-details.php` | High
+6 | File | `/anony/mjpg.cgi` | High
+7 | File | `/APR/signup.php` | High
+8 | File | `/classes/SystemSettings.php?f=update_settings` | High
+9 | File | `/contact.php` | Medium
+10 | File | `/emgui/rest/preferences/PREF_HOME_PAGE/sponsor/3/` | High
+11 | File | `/emgui/rest/ums/messages` | High
+12 | File | `/forum/away.php` | High
+13 | File | `/FreshRSS/p/ext.php` | High
+14 | File | `/goform/setStaticRoute` | High
+15 | File | `/HNAP1` | Low
+16 | File | `/index.php` | Medium
+17 | File | `/mgmt/tm/util/bash` | High
+18 | File | `/mims/login.php` | High
+19 | File | `/opt/IBM/es/lib/libffq.cryptionjni.so` | High
+20 | File | `/php-sms/classes/Master.php?f=save_quote` | High
+21 | File | `/product_list.php` | High
+22 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+23 | File | `/services/details.asp` | High
+24 | File | `/SystemMng.ashx` | High
+25 | File | `/uncpath/` | Medium
+26 | File | `account/signup.php` | High
+27 | File | `action.php` | Medium
+28 | File | `action/usermanager.htm` | High
+29 | File | `adb/adb_client.c` | High
+30 | File | `adclick.php` | Medium
+31 | File | `add-category.php` | High
+32 | File | `addentry.php` | Medium
+33 | File | `add_comment.php` | High
+34 | File | `add_edit_user.asp` | High
+35 | File | `adm-admlog.php` | High
+36 | File | `admin.php` | Medium
+37 | File | `admin.php3` | Medium
+38 | File | `admin.webring.docs.php` | High
+39 | File | `admin/admin_editor.php` | High
+40 | File | `admin/conf_users_edit.php` | High
+41 | File | `admin_login.asp` | High
+42 | ... | ... | ...
 
-There are 348 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 360 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

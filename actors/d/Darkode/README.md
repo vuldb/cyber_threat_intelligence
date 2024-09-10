@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [IR](https://vuldb.com/?country.ir)
 * ...
 
-There are 8 more country items available. Please use our online service to access the data.
+There are 9 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -35,7 +35,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 16 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -45,23 +45,24 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `%PROGRAMFILES(X86)%\TSplus\UserDesktop\themes.` | High
 2 | File | `/admin/maintenance/view_designation.php` | High
-3 | File | `/admin/search-appointment.php` | High
-4 | File | `/cgi-bin/user/Config.cgi` | High
-5 | File | `/config/php.ini` | High
-6 | File | `/htdocs/cgibin` | High
-7 | File | `/myprofile.php` | High
-8 | File | `/uncpath/` | Medium
-9 | File | `/videotalk` | Medium
-10 | File | `/web/MCmsAction.java` | High
-11 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-12 | File | `activity_log.php` | High
-13 | File | `adm/systools.asp` | High
-14 | File | `admin/getparam.cgi` | High
-15 | File | `admin/media/index.php"` | High
-16 | File | `adminCons.php` | High
-17 | ... | ... | ...
+3 | File | `/admin/quizquestion.php` | High
+4 | File | `/admin/search-appointment.php` | High
+5 | File | `/cgi-bin/user/Config.cgi` | High
+6 | File | `/classes/Master.php` | High
+7 | File | `/config/php.ini` | High
+8 | File | `/htdocs/cgibin` | High
+9 | File | `/myprofile.php` | High
+10 | File | `/uncpath/` | Medium
+11 | File | `/videotalk` | Medium
+12 | File | `/web/MCmsAction.java` | High
+13 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+14 | File | `activity_log.php` | High
+15 | File | `adm/systools.asp` | High
+16 | File | `admin/getparam.cgi` | High
+17 | File | `admin/media/index.php"` | High
+18 | ... | ... | ...
 
-There are 137 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 150 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

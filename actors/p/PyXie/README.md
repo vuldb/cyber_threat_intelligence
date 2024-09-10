@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 23 more country items available. Please use our online service to access the data.
+There are 20 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -35,10 +35,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-425 | Path Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
 There are 21 more TTP items available. Please use our online service to access the data.
@@ -52,53 +52,53 @@ ID | Type | Indicator | Confidence
 1 | File | `/+CSCOE+/logon.html` | High
 2 | File | `/act/ActDao.xml` | High
 3 | File | `/addbill.php` | Medium
-4 | File | `/admin/clientview.php` | High
-5 | File | `/admin/login.php` | High
-6 | File | `/ajax.php?action=read_msg` | High
-7 | File | `/ajax/networking/get_netcfg.php` | High
-8 | File | `/api/clusters/local/topics/{topic}/messages` | High
-9 | File | `/api/gen/clients/{language}` | High
-10 | File | `/API/info` | Medium
-11 | File | `/app/options.py` | High
-12 | File | `/application/index/controller/Icon.php` | High
-13 | File | `/apply/index.php` | High
-14 | File | `/bin/httpd` | Medium
-15 | File | `/cgi-bin/cstecgi.cgi` | High
-16 | File | `/cgi-bin/wapopen` | High
-17 | File | `/ci_spms/admin/category` | High
-18 | File | `/ci_spms/admin/search/searching/` | High
-19 | File | `/classes/Master.php?f=delete_appointment` | High
-20 | File | `/classes/Master.php?f=delete_train` | High
-21 | File | `/classes/Master.php?f=save_category` | High
-22 | File | `/collection/all` | High
-23 | File | `/concat?/%2557EB-INF/web.xml` | High
-24 | File | `/config/php.ini` | High
-25 | File | `/Content/Template/root/reverse-shell.aspx` | High
-26 | File | `/ctcprotocol/Protocol` | High
-27 | File | `/dashboard/menu-list.php` | High
-28 | File | `/data/remove` | Medium
-29 | File | `/debug/pprof` | Medium
-30 | File | `/ebics-server/ebics.aspx` | High
-31 | File | `/ffos/classes/Master.php?f=save_category` | High
-32 | File | `/file-manager/rename.php` | High
-33 | File | `/forum/away.php` | High
-34 | File | `/goform/net\_Web\_get_value` | High
-35 | File | `/goform/setcfm` | High
-36 | File | `/goform/SetSysTimeCfg` | High
-37 | File | `/goform/WifiWpsStart` | High
-38 | File | `/goform/WizardHandle` | High
-39 | File | `/goforms/rlminfo` | High
-40 | File | `/GponForm/usb_restore_Form?script/` | High
-41 | File | `/group1/uploa` | High
-42 | File | `/hedwig.cgi` | Medium
-43 | File | `/HNAP1` | Low
-44 | File | `/HNAP1/SetClientInfo` | High
-45 | File | `/include/file.php` | High
-46 | File | `/Items/*/RemoteImages/Download` | High
-47 | File | `/login` | Low
+4 | File | `/admin.php?p=/Area/index#tab=t2` | High
+5 | File | `/admin/` | Low
+6 | File | `/admin/admin-update-employee.php` | High
+7 | File | `/admin/clientview.php` | High
+8 | File | `/admin/login.php` | High
+9 | File | `/ajax.php?action=read_msg` | High
+10 | File | `/api/clusters/local/topics/{topic}/messages` | High
+11 | File | `/api/gen/clients/{language}` | High
+12 | File | `/API/info` | Medium
+13 | File | `/app/options.py` | High
+14 | File | `/application/index/controller/Icon.php` | High
+15 | File | `/apply/index.php` | High
+16 | File | `/bin/httpd` | Medium
+17 | File | `/cgi-bin/cstecgi.cgi` | High
+18 | File | `/cgi-bin/supervisor/adcommand.cgi` | High
+19 | File | `/cgi-bin/tosei_kikai.php` | High
+20 | File | `/cgi-bin/wapopen` | High
+21 | File | `/ci_spms/admin/category` | High
+22 | File | `/ci_spms/admin/search/searching/` | High
+23 | File | `/classes/Master.php?f=delete_appointment` | High
+24 | File | `/classes/Master.php?f=delete_train` | High
+25 | File | `/classes/Master.php?f=save_category` | High
+26 | File | `/collection/all` | High
+27 | File | `/config/php.ini` | High
+28 | File | `/Content/Template/root/reverse-shell.aspx` | High
+29 | File | `/ctcprotocol/Protocol` | High
+30 | File | `/dashboard/menu-list.php` | High
+31 | File | `/debug/pprof` | Medium
+32 | File | `/DXR.axd` | Medium
+33 | File | `/ebics-server/ebics.aspx` | High
+34 | File | `/EXCU_SHELL` | Medium
+35 | File | `/ffos/classes/Master.php?f=save_category` | High
+36 | File | `/file-manager/rename.php` | High
+37 | File | `/forum/away.php` | High
+38 | File | `/goform/modifyDhcpRule` | High
+39 | File | `/goform/ModifyPppAuthWhiteMac` | High
+40 | File | `/goform/net\_Web\_get_value` | High
+41 | File | `/goform/setcfm` | High
+42 | File | `/goform/setStaOffline` | High
+43 | File | `/goform/SetSysTimeCfg` | High
+44 | File | `/goform/WifiWpsStart` | High
+45 | File | `/goform/WizardHandle` | High
+46 | File | `/goforms/rlminfo` | High
+47 | File | `/GponForm/usb_restore_Form?script/` | High
 48 | ... | ... | ...
 
-There are 421 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 420 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

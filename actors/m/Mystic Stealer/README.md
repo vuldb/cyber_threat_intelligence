@@ -8,9 +8,9 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Mystic Stealer:
 
+* [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
-* [PL](https://vuldb.com/?country.pl)
 * ...
 
 There are 9 more country items available. Please use our online service to access the data.
@@ -30,13 +30,18 @@ ID | IP address | Hostname | Campaign | Confidence
 7 | [5.42.92.211](https://vuldb.com/?ip.5.42.92.211) | . | - | High
 8 | [5.42.94.125](https://vuldb.com/?ip.5.42.94.125) | juicy-milk.aeza.network | - | High
 9 | [5.75.183.169](https://vuldb.com/?ip.5.75.183.169) | static.169.183.75.5.clients.your-server.de | - | High
-10 | [13.200.127.74](https://vuldb.com/?ip.13.200.127.74) | ec2-13-200-127-74.ap-south-1.compute.amazonaws.com | - | Medium
-11 | [13.208.166.206](https://vuldb.com/?ip.13.208.166.206) | ec2-13-208-166-206.ap-northeast-3.compute.amazonaws.com | - | Medium
-12 | [13.232.156.210](https://vuldb.com/?ip.13.232.156.210) | ec2-13-232-156-210.ap-south-1.compute.amazonaws.com | - | Medium
-13 | [23.163.0.179](https://vuldb.com/?ip.23.163.0.179) | mail.pnet-asp.tech | - | High
-14 | ... | ... | ... | ...
+10 | [5.188.87.45](https://vuldb.com/?ip.5.188.87.45) | - | - | High
+11 | [5.196.93.222](https://vuldb.com/?ip.5.196.93.222) | 934.gra.abcvg.ovh | - | High
+12 | [13.200.127.74](https://vuldb.com/?ip.13.200.127.74) | ec2-13-200-127-74.ap-south-1.compute.amazonaws.com | - | Medium
+13 | [13.208.166.206](https://vuldb.com/?ip.13.208.166.206) | ec2-13-208-166-206.ap-northeast-3.compute.amazonaws.com | - | Medium
+14 | [13.232.156.210](https://vuldb.com/?ip.13.232.156.210) | ec2-13-232-156-210.ap-south-1.compute.amazonaws.com | - | Medium
+15 | [23.163.0.179](https://vuldb.com/?ip.23.163.0.179) | mail.pnet-asp.tech | - | High
+16 | [34.88.245.41](https://vuldb.com/?ip.34.88.245.41) | 41.245.88.34.bc.googleusercontent.com | - | Medium
+17 | [37.139.129.70](https://vuldb.com/?ip.37.139.129.70) | - | - | High
+18 | [41.208.73.44](https://vuldb.com/?ip.41.208.73.44) | 41.208.73.44.static.ltt.ly | - | High
+19 | ... | ... | ... | ...
 
-There are 53 more IOC items available. Please use our online service to access the data.
+There are 70 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -47,9 +52,10 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
-4 | ... | ... | ... | ...
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -57,22 +63,31 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-2 | File | `/catalog/all-products` | High
-3 | File | `/changePassword` | High
-4 | File | `/forum/away.php` | High
-5 | File | `/goform/addIpMacBind` | High
-6 | File | `/goform/DelDhcpRule` | High
-7 | File | `/goform/delIpMacBind` | High
-8 | File | `/goform/DelPortMapping` | High
-9 | File | `/goform/modifyIpMacBind` | High
-10 | File | `/goform/SetDDNSCfg` | High
-11 | File | `/goform/SetLEDCfg` | High
-12 | File | `/goform/SetOnlineDevName` | High
-13 | File | `/goform/setStaticRoute` | High
-14 | ... | ... | ...
+1 | File | `/admin/add_ikev2.php` | High
+2 | File | `/admin/category_save.php` | High
+3 | File | `/admin/index2.html` | High
+4 | File | `/admin/list_ipAddressPolicy.php` | High
+5 | File | `/admin/manage_model.php` | High
+6 | File | `/admin/manage_user.php` | High
+7 | File | `/admin/subject.php` | High
+8 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+9 | File | `/catalog/all-products` | High
+10 | File | `/cgi-bin/cstecgi.cgi` | High
+11 | File | `/changePassword` | High
+12 | File | `/edit-subject.php` | High
+13 | File | `/endpoint/add-user.php` | High
+14 | File | `/etc/postfix/sender_login` | High
+15 | File | `/forum/away.php` | High
+16 | File | `/goform/SetSysTimeCfg` | High
+17 | File | `/lesson/controller.php` | High
+18 | File | `/log/decodmail.php` | High
+19 | File | `/mailcleaner.php/getStats` | High
+20 | File | `/manage_person.php` | High
+21 | File | `/manage_question.php` | High
+22 | File | `/manage_sy.php` | High
+23 | ... | ... | ...
 
-There are 106 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 192 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -84,6 +99,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://app.any.run/tasks/342f5538-7e82-4f54-908e-18efa2cc2669
 * https://app.any.run/tasks/b15ddaaf-9197-4310-af15-d2f45ef44c91
 * https://app.any.run/tasks/d1a96aea-a514-4f86-acd7-e9391a8ec959
+* https://blog.pulsedive.com/identifying-mystic-stealer-control-panels/
 * https://github.com/threatlabz/iocs/blob/main/mystic_stealer/c2s.txt
 * https://pulsedive.com/threat/Mystic%20Stealer
 * https://threatfox.abuse.ch

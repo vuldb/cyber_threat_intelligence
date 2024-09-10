@@ -76,32 +76,33 @@ ID | Type | Indicator | Confidence
 18 | File | `/etc/postfix/sender_login` | High
 19 | File | `/exec/` | Low
 20 | File | `/index.php` | Medium
-21 | File | `/items/view_item.php` | High
-22 | File | `/ldclient/ldprov.cgi` | High
-23 | File | `/librarian/bookdetails.php` | High
-24 | File | `/login` | Low
-25 | File | `/login/index.php` | High
-26 | File | `/mail/index.html` | High
-27 | File | `/mgmt/tm/util/bash` | High
-28 | File | `/mygym/admin/index.php?view_exercises` | High
-29 | File | `/plugin/extended-choice-parameter/js/` | High
-30 | File | `/plugins/servlet/gadgets/makeRequest` | High
-31 | File | `/PreviewHandler.ashx` | High
-32 | File | `/products/details.asp` | High
-33 | File | `/rest/api/2/user/picker` | High
-34 | File | `/rest/api/latest/groupuserpicker` | High
-35 | File | `/rom-0` | Low
-36 | File | `/secure/QueryComponent!Default.jspa` | High
-37 | File | `/services/details.asp` | High
-38 | File | `/ServletAPI/accounts/login` | High
-39 | File | `/student/bookdetails.php` | High
-40 | File | `/sys/replicate/check` | High
-41 | File | `/templates/header.inc.php` | High
-42 | File | `/uncpath/` | Medium
-43 | File | `/usr/bin/pkexec` | High
-44 | ... | ... | ...
+21 | File | `/index.php/client/message/message_read/xxxxxxxx[random-msg-hash]` | High
+22 | File | `/items/view_item.php` | High
+23 | File | `/ldclient/ldprov.cgi` | High
+24 | File | `/librarian/bookdetails.php` | High
+25 | File | `/login` | Low
+26 | File | `/login/index.php` | High
+27 | File | `/mail/index.html` | High
+28 | File | `/mgmt/tm/util/bash` | High
+29 | File | `/mygym/admin/index.php?view_exercises` | High
+30 | File | `/plugin/extended-choice-parameter/js/` | High
+31 | File | `/plugins/servlet/gadgets/makeRequest` | High
+32 | File | `/PreviewHandler.ashx` | High
+33 | File | `/products/details.asp` | High
+34 | File | `/rest/api/2/user/picker` | High
+35 | File | `/rest/api/latest/groupuserpicker` | High
+36 | File | `/rom-0` | Low
+37 | File | `/secure/QueryComponent!Default.jspa` | High
+38 | File | `/services/details.asp` | High
+39 | File | `/ServletAPI/accounts/login` | High
+40 | File | `/student/bookdetails.php` | High
+41 | File | `/sys/replicate/check` | High
+42 | File | `/templates/header.inc.php` | High
+43 | File | `/uncpath/` | Medium
+44 | File | `/usr/bin/pkexec` | High
+45 | ... | ... | ...
 
-There are 384 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 385 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

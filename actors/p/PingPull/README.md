@@ -80,25 +80,26 @@ ID | Type | Indicator | Confidence
 7 | File | `/cwc/login` | Medium
 8 | File | `/debuginfo.htm` | High
 9 | File | `/download` | Medium
-10 | File | `/etc/quagga` | Medium
-11 | File | `/etc/shadow` | Medium
-12 | File | `/forms/doLogin` | High
-13 | File | `/h/calendar` | Medium
-14 | File | `/inc/extensions.php` | High
-15 | File | `/index.php` | Medium
-16 | File | `/Items/*/RemoteImages/Download` | High
-17 | File | `/members/view_member.php` | High
-18 | File | `/mhds/clinic/view_details.php` | High
-19 | File | `/mifs/c/i/reg/reg.html` | High
-20 | File | `/nova/bin/console` | High
-21 | File | `/nova/bin/detnet` | High
-22 | File | `/out.php` | Medium
-23 | File | `/owa/auth/logon.aspx` | High
-24 | File | `/req_password_user.php` | High
-25 | File | `/rest/api/latest/projectvalidate/key` | High
-26 | ... | ... | ...
+10 | File | `/etc/passwd` | Medium
+11 | File | `/etc/quagga` | Medium
+12 | File | `/etc/shadow` | Medium
+13 | File | `/forms/doLogin` | High
+14 | File | `/h/calendar` | Medium
+15 | File | `/inc/extensions.php` | High
+16 | File | `/index.php` | Medium
+17 | File | `/Items/*/RemoteImages/Download` | High
+18 | File | `/members/view_member.php` | High
+19 | File | `/mhds/clinic/view_details.php` | High
+20 | File | `/mifs/c/i/reg/reg.html` | High
+21 | File | `/nova/bin/console` | High
+22 | File | `/nova/bin/detnet` | High
+23 | File | `/out.php` | Medium
+24 | File | `/owa/auth/logon.aspx` | High
+25 | File | `/req_password_user.php` | High
+26 | File | `/rest/api/latest/projectvalidate/key` | High
+27 | ... | ... | ...
 
-There are 221 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 225 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

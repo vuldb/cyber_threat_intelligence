@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 15 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -55,56 +55,65 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.alerts-security.alerts-{space_id}` | High
-2 | File | `/admin` | Low
-3 | File | `/admin-manage-user.php` | High
-4 | File | `/admin/ajax.php?action=delete_user` | High
-5 | File | `/admin/booking-bwdates-reports-details.php` | High
-6 | File | `/admin/contact-us.php` | High
-7 | File | `/admin/index.php` | High
-8 | File | `/admin/maintenance/manage_brand.php` | High
-9 | File | `/admin/manage-users.php` | High
-10 | File | `/admin/normal-bwdates-reports-details.php` | High
-11 | File | `/admin/pages/student-print.php` | High
-12 | File | `/admin/service` | High
-13 | File | `/admin/twitter.php` | High
-14 | File | `/Admin/user-record.php` | High
-15 | File | `/admin/users` | Medium
-16 | File | `/adminpanel/admin/query/deleteCourseExe.php` | High
-17 | File | `/admin_class.php` | High
-18 | File | `/admin_route/inc_service_credits.php` | High
-19 | File | `/alsdemo/ss/mediam.cgi` | High
-20 | File | `/api/admin/user/list` | High
-21 | File | `/api/authentication/login` | High
-22 | File | `/api/controllers/merchant/app/ComboController.php` | High
-23 | File | `/api /v3/auth` | High
-24 | File | `/application/index/controller/Databasesource.php` | High
-25 | File | `/apps/system/api/user.go` | High
-26 | File | `/apps/system/router/upload.go` | High
-27 | File | `/apps/system/services/role_menu.go` | High
-28 | File | `/assets/php/upload.php` | High
-29 | File | `/billing/bill/edit/` | High
-30 | File | `/cap.js` | Low
-31 | File | `/cgi-bin/cstecgi.cgi` | High
-32 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-33 | File | `/cgi-bin/info.cgi` | High
-34 | File | `/cgi-bin/nas_sharing.cgi` | High
-35 | File | `/cgi-bin/R19.9/easy1350.pl` | High
-36 | File | `/cgi-bin/system_mgr.cgi` | High
-37 | File | `/cgi-bin/vitogate.cgi` | High
-38 | File | `/cgi-bin/webviewer_login_page` | High
-39 | File | `/classes/Master.php?f=load_registration` | High
-40 | File | `/classes/Users.php?f=delete` | High
-41 | File | `/classes/Users.php?f=save` | High
-42 | File | `/cms/classes/Users.php?f=delete_client` | High
-43 | File | `/config-manager/save` | High
-44 | File | `/cupseasylive/itemlist.php` | High
-45 | File | `/cupseasylive/itempopup.php` | High
-46 | File | `/cupseasylive/unitofmeasurementmodify.php` | High
-47 | File | `/dataSet/testTransform;swagger-ui` | High
-48 | File | `/de2api/engine/getEngine.js` | High
-49 | ... | ... | ...
+2 | File | `/?import` | Medium
+3 | File | `/admin` | Low
+4 | File | `/admin-manage-user.php` | High
+5 | File | `/admin/?action=home&do=shop:index&keyword=&kind=all` | High
+6 | File | `/admin/action/delete-vaccine.php` | High
+7 | File | `/admin/ajax.php?action=delete_user` | High
+8 | File | `/admin/ajax.php?action=login` | High
+9 | File | `/admin/assets/` | High
+10 | File | `/admin/booking-bwdates-reports-details.php` | High
+11 | File | `/admin/contact-us.php` | High
+12 | File | `/admin/emp-profile-avatar.php` | High
+13 | File | `/Admin/Http/Controllers/FileManagerController.php` | High
+14 | File | `/admin/index.php` | High
+15 | File | `/admin/inquiries/view_inquiry.php` | High
+16 | File | `/admin/maintenance/manage_brand.php` | High
+17 | File | `/admin/manage-users.php` | High
+18 | File | `/admin/normal-bwdates-reports-details.php` | High
+19 | File | `/admin/pages/student-print.php` | High
+20 | File | `/admin/service` | High
+21 | File | `/admin/twitter.php` | High
+22 | File | `/Admin/user-record.php` | High
+23 | File | `/admin/users` | Medium
+24 | File | `/adminpanel/admin/query/deleteCourseExe.php` | High
+25 | File | `/admin_class.php` | High
+26 | File | `/admin_route/inc_service_credits.php` | High
+27 | File | `/alsdemo/ss/mediam.cgi` | High
+28 | File | `/api/admin/user/list` | High
+29 | File | `/api/admin/user?id` | High
+30 | File | `/api/controllers/merchant/app/ComboController.php` | High
+31 | File | `/api/file/downloadfile` | High
+32 | File | `/api/runscript` | High
+33 | File | `/api /v3/auth` | High
+34 | File | `/application/index/controller/Databasesource.php` | High
+35 | File | `/apps/system/api/user.go` | High
+36 | File | `/apps/system/router/upload.go` | High
+37 | File | `/apps/system/services/role_menu.go` | High
+38 | File | `/assets/php/upload.php` | High
+39 | File | `/billing/bill/edit/` | High
+40 | File | `/cap.js` | Low
+41 | File | `/cgi-bin/cstecgi.cgi` | High
+42 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+43 | File | `/cgi-bin/cstecgi.cgi?action=save&setting` | High
+44 | File | `/cgi-bin/info.cgi` | High
+45 | File | `/cgi-bin/myMusic.cgi` | High
+46 | File | `/cgi-bin/nas_sharing.cgi` | High
+47 | File | `/cgi-bin/R19.9/easy1350.pl` | High
+48 | File | `/cgi-bin/system_mgr.cgi` | High
+49 | File | `/cgi-bin/tosei_kikai.php` | High
+50 | File | `/cgi-bin/webviewer_login_page` | High
+51 | File | `/classes/Master.php` | High
+52 | File | `/classes/Master.php?f=load_registration` | High
+53 | File | `/classes/Users.php` | High
+54 | File | `/classes/Users.php?f=delete` | High
+55 | File | `/classes/Users.php?f=save` | High
+56 | File | `/cloudstore/ecode/setup/ecology_dev.zip` | High
+57 | File | `/cm/update_rows/page?id=2` | High
+58 | ... | ... | ...
 
-There are 421 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 509 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

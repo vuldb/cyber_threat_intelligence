@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [AT](https://vuldb.com/?country.at)
 * ...
 
-There are 30 more country items available. Please use our online service to access the data.
+There are 29 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -60,18 +60,18 @@ ID | Type | Indicator | Confidence
 4 | File | `/application/index/controller/Service.php` | High
 5 | File | `/categorypage.php` | High
 6 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-7 | File | `/cgi-bin/luci` | High
-8 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-9 | File | `/cgi-bin/user/Config.cgi` | High
-10 | File | `/cgi-bin/viewcert` | High
-11 | File | `/common/info.cgi` | High
-12 | File | `/config/getuser` | High
-13 | File | `/configs/application.ini` | High
-14 | File | `/core/vb/vurl.php` | High
-15 | File | `/debug/pprof` | Medium
-16 | File | `/defaultui/player/modern.html` | High
-17 | File | `/eval/admin/manage_class.php` | High
-18 | File | `/forum/away.php` | High
+7 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
+8 | File | `/cgi-bin/user/Config.cgi` | High
+9 | File | `/cgi-bin/viewcert` | High
+10 | File | `/common/info.cgi` | High
+11 | File | `/config/getuser` | High
+12 | File | `/configs/application.ini` | High
+13 | File | `/core/vb/vurl.php` | High
+14 | File | `/debug/pprof` | Medium
+15 | File | `/defaultui/player/modern.html` | High
+16 | File | `/eval/admin/manage_class.php` | High
+17 | File | `/forum/away.php` | High
+18 | File | `/lms/classes/Master.php?f=save_record` | High
 19 | File | `/modules/projects/vw_files.php` | High
 20 | File | `/nagiosxi/admin/graphtemplates.php` | High
 21 | File | `/ndmComponents.js` | High
@@ -83,13 +83,14 @@ ID | Type | Indicator | Confidence
 27 | File | `/uncpath/` | Medium
 28 | File | `/usr/bin/pkexec` | High
 29 | File | `/usr/local/nagiosxi/html/admin/sshterm.php` | High
-30 | File | `/wp-admin/admin-ajax.php` | High
-31 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-32 | File | `/wp-json/wc/v3/webhooks` | High
-33 | File | `/xwiki/bin/view/AppWithinMinutes/CreateApplication?wizard=true` | High
-34 | ... | ... | ...
+30 | File | `/vpn/list_service_manage.php` | High
+31 | File | `/vpn/list_vpn_web_custom.php` | High
+32 | File | `/vpn/vpn_template_style.php` | High
+33 | File | `/wp-admin/admin-ajax.php` | High
+34 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+35 | ... | ... | ...
 
-There are 294 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 301 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

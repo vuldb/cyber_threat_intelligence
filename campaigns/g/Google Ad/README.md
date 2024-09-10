@@ -8,8 +8,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Google Ad:
 
-* [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
+* [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
@@ -45,9 +45,10 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-22, CWE-23 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
-4 | ... | ... | ... | ...
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 15 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -58,21 +59,24 @@ ID | Type | Indicator | Confidence
 1 | File | `/admin/admin_login.php` | High
 2 | File | `/api/RecordingList/DownloadRecord?file=` | High
 3 | File | `/apply.cgi` | Medium
-4 | File | `/etc/config/rpcd` | High
-5 | File | `/php/ping.php` | High
-6 | File | `/rapi/read_url` | High
-7 | File | `/scripts/unlock_tasks.php` | High
-8 | File | `/setSystemAdmin` | High
-9 | File | `/SysInfo1.htm` | High
-10 | File | `/sysinfo_json.cgi` | High
-11 | File | `/system/user/modules/mod_users/controller.php` | High
-12 | File | `/view/vpn/autovpn/sub_commit.php` | High
-13 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
-14 | File | `admin/conf_users_edit.php` | High
-15 | File | `admin/Login.php` | High
-16 | ... | ... | ...
+4 | File | `/cgi-bin/cstecgi.cgi` | High
+5 | File | `/classes/Master.php` | High
+6 | File | `/etc/config/rpcd` | High
+7 | File | `/php/ping.php` | High
+8 | File | `/rapi/read_url` | High
+9 | File | `/Script/admin/core/update_policy` | High
+10 | File | `/scripts/unlock_tasks.php` | High
+11 | File | `/setSystemAdmin` | High
+12 | File | `/show_news.php` | High
+13 | File | `/spip.php` | Medium
+14 | File | `/SysInfo1.htm` | High
+15 | File | `/sysinfo_json.cgi` | High
+16 | File | `/system/dictData/loadDictItem` | High
+17 | File | `/system/user/modules/mod_users/controller.php` | High
+18 | File | `/view/vpn/autovpn/sub_commit.php` | High
+19 | ... | ... | ...
 
-There are 127 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 156 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -53,25 +53,26 @@ ID | Type | Indicator | Confidence
 3 | File | `/api/addusers` | High
 4 | File | `/api/RecordingList/DownloadRecord?file=` | High
 5 | File | `/apply.cgi` | Medium
-6 | File | `/debug/pprof` | Medium
-7 | File | `/etc/config/rpcd` | High
-8 | File | `/hrm/employeeadd.php` | High
-9 | File | `/licenses` | Medium
-10 | File | `/login` | Low
-11 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
-12 | File | `/php/ping.php` | High
-13 | File | `/public/login.htm` | High
-14 | File | `/rapi/read_url` | High
-15 | File | `/scripts/unlock_tasks.php` | High
-16 | File | `/sendKey` | Medium
-17 | File | `/setSystemAdmin` | High
-18 | File | `/signup_script.php` | High
-19 | File | `/SysInfo1.htm` | High
-20 | File | `/sysinfo_json.cgi` | High
-21 | File | `/system/dictData/loadDictItem` | High
-22 | ... | ... | ...
+6 | File | `/cgi-bin/cstecgi.cgi` | High
+7 | File | `/debug/pprof` | Medium
+8 | File | `/etc/config/rpcd` | High
+9 | File | `/hrm/employeeadd.php` | High
+10 | File | `/licenses` | Medium
+11 | File | `/login` | Low
+12 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
+13 | File | `/php/ping.php` | High
+14 | File | `/public/login.htm` | High
+15 | File | `/rapi/read_url` | High
+16 | File | `/scripts/unlock_tasks.php` | High
+17 | File | `/sendKey` | Medium
+18 | File | `/setSystemAdmin` | High
+19 | File | `/signup_script.php` | High
+20 | File | `/SysInfo1.htm` | High
+21 | File | `/sysinfo_json.cgi` | High
+22 | File | `/system/dictData/loadDictItem` | High
+23 | ... | ... | ...
 
-There are 187 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 192 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

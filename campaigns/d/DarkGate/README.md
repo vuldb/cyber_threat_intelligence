@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [VN](https://vuldb.com/?country.vn)
 * ...
 
-There are 20 more country items available. Please use our online service to access the data.
+There are 23 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -46,19 +46,21 @@ ID | IP address | Hostname | Actor | Confidence
 14 | [35.203.111.228](https://vuldb.com/?ip.35.203.111.228) | 228.111.203.35.bc.googleusercontent.com | [DarkGate](https://vuldb.com/?actor.darkgate) | Medium
 15 | [35.247.194.72](https://vuldb.com/?ip.35.247.194.72) | 72.194.247.35.bc.googleusercontent.com | [DarkGate](https://vuldb.com/?actor.darkgate) | Medium
 16 | [38.180.60.31](https://vuldb.com/?ip.38.180.60.31) | - | [DarkGate](https://vuldb.com/?actor.darkgate) | High
-17 | [45.63.52.184](https://vuldb.com/?ip.45.63.52.184) | 45.63.52.184.vultrusercontent.com | [DarkGate](https://vuldb.com/?actor.darkgate) | Medium
-18 | [45.67.34.69](https://vuldb.com/?ip.45.67.34.69) | vm2117880.stark-industries.solutions | [DarkGate](https://vuldb.com/?actor.darkgate) | High
-19 | [45.89.53.187](https://vuldb.com/?ip.45.89.53.187) | vm2338426.stark-industries.solutions | [DarkGate](https://vuldb.com/?actor.darkgate) | High
-20 | [45.89.65.198](https://vuldb.com/?ip.45.89.65.198) | 2.server.com | [DarkGate](https://vuldb.com/?actor.darkgate) | High
-21 | [45.140.146.2](https://vuldb.com/?ip.45.140.146.2) | vm2099152.stark-industries.solutions | [DarkGate](https://vuldb.com/?actor.darkgate) | High
-22 | [45.141.87.89](https://vuldb.com/?ip.45.141.87.89) | - | [DarkGate](https://vuldb.com/?actor.darkgate) | High
-23 | [45.147.228.138](https://vuldb.com/?ip.45.147.228.138) | - | [DarkGate](https://vuldb.com/?actor.darkgate) | High
-24 | [45.154.98.21](https://vuldb.com/?ip.45.154.98.21) | 45.154.98.21.powered.by.rdp.sh | [DarkGate](https://vuldb.com/?actor.darkgate) | High
-25 | [46.21.157.142](https://vuldb.com/?ip.46.21.157.142) | 142.157.21.46.inferno.name | [DarkGate](https://vuldb.com/?actor.darkgate) | High
-26 | [46.173.215.132](https://vuldb.com/?ip.46.173.215.132) | - | [DarkGate](https://vuldb.com/?actor.darkgate) | High
-27 | ... | ... | ... | ...
+17 | [45.11.59.87](https://vuldb.com/?ip.45.11.59.87) | mail2.hbmzubnihk.com | [DarkGate](https://vuldb.com/?actor.darkgate) | High
+18 | [45.11.59.161](https://vuldb.com/?ip.45.11.59.161) | mail.discover-rates.com | [DarkGate](https://vuldb.com/?actor.darkgate) | High
+19 | [45.63.52.184](https://vuldb.com/?ip.45.63.52.184) | 45.63.52.184.vultrusercontent.com | [DarkGate](https://vuldb.com/?actor.darkgate) | Medium
+20 | [45.67.34.69](https://vuldb.com/?ip.45.67.34.69) | vm2117880.stark-industries.solutions | [DarkGate](https://vuldb.com/?actor.darkgate) | High
+21 | [45.89.53.187](https://vuldb.com/?ip.45.89.53.187) | vm2338426.stark-industries.solutions | [DarkGate](https://vuldb.com/?actor.darkgate) | High
+22 | [45.89.65.198](https://vuldb.com/?ip.45.89.65.198) | 2.server.com | [DarkGate](https://vuldb.com/?actor.darkgate) | High
+23 | [45.140.146.2](https://vuldb.com/?ip.45.140.146.2) | vm2099152.stark-industries.solutions | [DarkGate](https://vuldb.com/?actor.darkgate) | High
+24 | [45.141.87.89](https://vuldb.com/?ip.45.141.87.89) | - | [DarkGate](https://vuldb.com/?actor.darkgate) | High
+25 | [45.147.228.138](https://vuldb.com/?ip.45.147.228.138) | - | [DarkGate](https://vuldb.com/?actor.darkgate) | High
+26 | [45.154.98.21](https://vuldb.com/?ip.45.154.98.21) | 45.154.98.21.powered.by.rdp.sh | [DarkGate](https://vuldb.com/?actor.darkgate) | High
+27 | [46.21.157.142](https://vuldb.com/?ip.46.21.157.142) | 142.157.21.46.inferno.name | [DarkGate](https://vuldb.com/?actor.darkgate) | High
+28 | [46.173.215.132](https://vuldb.com/?ip.46.173.215.132) | - | [DarkGate](https://vuldb.com/?actor.darkgate) | High
+29 | ... | ... | ... | ...
 
-There are 103 more IOC items available. Please use our online service to access the data.
+There are 111 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -66,14 +68,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-29, CWE-36, CWE-425 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-29, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1055 | CWE-74, CWE-643 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -81,57 +83,58 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/#ilang=DE&b=c_smartenergy_swgroups` | High
-2 | File | `/.pomerium` | Medium
-3 | File | `/Account/login.php` | High
-4 | File | `/admin/` | Low
-5 | File | `/admin/ajax.php?action=delete_user` | High
-6 | File | `/Admin/changepassword.php` | High
-7 | File | `/admin/general-setting` | High
-8 | File | `/admin/inquiries/view_inquiry.php` | High
-9 | File | `/admin/list_ipAddressPolicy.php` | High
-10 | File | `/admin/projects/{projectname}/skills/{skillname}/video` | High
-11 | File | `/admin/service` | High
-12 | File | `/adminapi/system/crud` | High
-13 | File | `/adminapi/system/file/openfile` | High
+1 | File | `/.pomerium` | Medium
+2 | File | `/admin/?page=musics/manage_music` | High
+3 | File | `/admin/ajax.php?action=delete_user` | High
+4 | File | `/Admin/changepassword.php` | High
+5 | File | `/admin/edit_supplier.php` | High
+6 | File | `/admin/emp-profile-avatar.php` | High
+7 | File | `/admin/forgot-password.php` | High
+8 | File | `/admin/general-setting` | High
+9 | File | `/admin/index2.html` | High
+10 | File | `/admin/inquiries/view_inquiry.php` | High
+11 | File | `/admin/order.php` | High
+12 | File | `/admin/projects/{projectname}/skills/{skillname}/video` | High
+13 | File | `/admin/service` | High
 14 | File | `/adminPage/conf/reload` | High
-15 | File | `/admin_route/dec_service_credits.php` | High
-16 | File | `/api/runscript` | High
-17 | File | `/api/snapshots/` | High
-18 | File | `/api/v1/custom_component` | High
-19 | File | `/api/v1/snapshots` | High
-20 | File | `/api/v2/maps` | Medium
-21 | File | `/api/wechat/app_auth` | High
-22 | File | `/cancel.php` | Medium
-23 | File | `/category.php` | High
-24 | File | `/cgi-bin/cstecgi.cgi` | High
-25 | File | `/cgi-bin/nas_sharing.cgi` | High
-26 | File | `/cgi-bin/system_mgr.cgi` | High
-27 | File | `/cgi-bin/wlogin.cgi` | High
-28 | File | `/classes/Master.php?f=delete_category` | High
-29 | File | `/classes/Master.php?f=save_medicine` | High
+15 | File | `/api/runscript` | High
+16 | File | `/api/snapshots/` | High
+17 | File | `/api/v1/custom_component` | High
+18 | File | `/api/v1/snapshots` | High
+19 | File | `/api/v2/maps` | Medium
+20 | File | `/api/wechat/app_auth` | High
+21 | File | `/cgi-bin/cstecgi.cgi` | High
+22 | File | `/cgi-bin/hd_config.cgi` | High
+23 | File | `/cgi-bin/nas_sharing.cgi` | High
+24 | File | `/cgi-bin/system_mgr.cgi` | High
+25 | File | `/cgi-bin/wlogin.cgi` | High
+26 | File | `/classes/Master.php` | High
+27 | File | `/classes/Master.php?f=delete_category` | High
+28 | File | `/classes/Master.php?f=save_medicine` | High
+29 | File | `/classes/SystemSettings.php?f=update_settings` | High
 30 | File | `/classes/Users.php?f=delete` | High
-31 | File | `/common/dict/list` | High
-32 | File | `/control/register_case.php` | High
-33 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
-34 | File | `/download` | Medium
-35 | File | `/etc/shadow` | Medium
-36 | File | `/forum/away.php` | High
-37 | File | `/goform/DhcpListClient` | High
-38 | File | `/goform/WifiExtraSet` | High
-39 | File | `/hrm/leaverequest.php` | High
-40 | File | `/index.jsp#settings` | High
-41 | File | `/index.php` | Medium
-42 | File | `/install/` | Medium
-43 | File | `/Interface/DevManage/VM.php` | High
-44 | File | `/js/player/dmplayer/dmku/?ac=edit` | High
-45 | File | `/labvantage/rc?command=page&page=SampleHistoricalList&_iframename=list&__crc=crc_1701669816260` | High
-46 | File | `/labvantage/rc?command=page&page=SampleList&_iframename=list` | High
-47 | File | `/main/webservices/additional_webservices.php` | High
-48 | File | `/mfsNotice/page` | High
-49 | ... | ... | ...
+31 | File | `/control/register_case.php` | High
+32 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
+33 | File | `/downloadFile.php` | High
+34 | File | `/DXR.axd` | Medium
+35 | File | `/edit-computer-detail.php` | High
+36 | File | `/endpoint/add-folder.php` | High
+37 | File | `/etc/init.d/update_notifications.sh` | High
+38 | File | `/etc/shadow` | Medium
+39 | File | `/export` | Low
+40 | File | `/file_manager/login.php` | High
+41 | File | `/film-rating.php` | High
+42 | File | `/forum/away.php` | High
+43 | File | `/goform/DhcpListClient` | High
+44 | File | `/goform/SetIpMacBind` | High
+45 | File | `/goform/WifiExtraSet` | High
+46 | File | `/guestbook` | Medium
+47 | File | `/hrm/leaverequest.php` | High
+48 | File | `/index.php` | Medium
+49 | File | `/index/ajax/lang` | High
+50 | ... | ... | ...
 
-There are 425 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 436 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -181,6 +184,12 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://tria.ge/240410-w88fmagb53/behavioral1
 * https://tria.ge/240416-rnhbgsdg2x/behavioral3
 * https://tria.ge/240627-byny1swama/behavioral2
+* https://tria.ge/240708-k4nd4svajh
+* https://tria.ge/240710-ec3rtsxakb/behavioral2
+* https://tria.ge/240719-gzw9nswelr
+* https://tria.ge/240816-a7g2dszenj/behavioral2
+* https://tria.ge/240826-y95r8stgrg/behavioral2
+* https://tria.ge/240828-b56sea1gln/behavioral2
 * https://twitter.com/0xw4ifu/status/1714738953016746247
 * https://twitter.com/500mk500/status/1786855945684787485
 * https://twitter.com/AnFam17/status/1701963227955945552
@@ -190,6 +199,7 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://twitter.com/r3dbU7z/status/1712256418483519885
 * https://twitter.com/ULTRAFRAUD/status/1702067641983119421
 * https://urlhaus.abuse.ch/url/2729402/
+* https://www.esentire.com/blog/the-gatekeepers-secrets-darkgate-malware-analysis
 * https://www.malware-traffic-analysis.net/2024/01/25/index.html
 * https://www.malware-traffic-analysis.net/2024/01/30/index.html
 * https://www.mandiant.com/resources/blog/detecting-disrupting-malvertising-backdoors

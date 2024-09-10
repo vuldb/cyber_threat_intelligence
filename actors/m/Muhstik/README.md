@@ -79,29 +79,29 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin/maintenance/view_designation.php` | High
 3 | File | `/ample/app/action/edit_product.php` | High
 4 | File | `/api/v2/open/rowsInfo` | High
-5 | File | `/cms/classes/Master.php?f=delete_service` | High
-6 | File | `/conf/` | Low
-7 | File | `/config/api/v1/reboot` | High
-8 | File | `/controller/AdminController.php` | High
-9 | File | `/ecommerce/support_ticket` | High
-10 | File | `/etc/shadow` | Medium
-11 | File | `/forum/away.php` | High
-12 | File | `/friends/ajax_invite` | High
-13 | File | `/graphStatus/displayServiceStatus.php` | High
-14 | File | `/inc/HTTPClient.php` | High
-15 | File | `/include/makecvs.php` | High
-16 | File | `/index.php` | Medium
-17 | File | `/Items/*/RemoteImages/Download` | High
-18 | File | `/librarian/bookdetails.php` | High
-19 | File | `/login/index.php` | High
-20 | File | `/modules/profile/index.php` | High
-21 | File | `/oauth/idp/.well-known/openid-configuration` | High
-22 | File | `/preview.php` | Medium
-23 | File | `/proc/pid/syscall` | High
-24 | File | `/scas/admin/` | Medium
+5 | File | `/classes/Master.php` | High
+6 | File | `/cms/classes/Master.php?f=delete_service` | High
+7 | File | `/conf/` | Low
+8 | File | `/config/api/v1/reboot` | High
+9 | File | `/controller/AdminController.php` | High
+10 | File | `/ecommerce/support_ticket` | High
+11 | File | `/etc/shadow` | Medium
+12 | File | `/forum/away.php` | High
+13 | File | `/friends/ajax_invite` | High
+14 | File | `/graphStatus/displayServiceStatus.php` | High
+15 | File | `/inc/HTTPClient.php` | High
+16 | File | `/include/makecvs.php` | High
+17 | File | `/index.php` | Medium
+18 | File | `/Items/*/RemoteImages/Download` | High
+19 | File | `/librarian/bookdetails.php` | High
+20 | File | `/login/index.php` | High
+21 | File | `/modules/profile/index.php` | High
+22 | File | `/oauth/idp/.well-known/openid-configuration` | High
+23 | File | `/preview.php` | Medium
+24 | File | `/proc/pid/syscall` | High
 25 | ... | ... | ...
 
-There are 206 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 207 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

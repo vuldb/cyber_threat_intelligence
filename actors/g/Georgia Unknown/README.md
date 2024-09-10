@@ -8,9 +8,9 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Georgia Unknown:
 
+* [CN](https://vuldb.com/?country.cn)
 * [RU](https://vuldb.com/?country.ru)
 * [PL](https://vuldb.com/?country.pl)
-* [FR](https://vuldb.com/?country.fr)
 * ...
 
 There are 8 more country items available. Please use our online service to access the data.
@@ -131,9 +131,10 @@ ID | Type | Indicator | Confidence
 10 | File | `/goform/delIpMacBind` | High
 11 | File | `/goform/DelPortMapping` | High
 12 | File | `/goform/modifyDhcpRule` | High
-13 | ... | ... | ...
+13 | File | `/goform/modifyIpMacBind` | High
+14 | ... | ... | ...
 
-There are 103 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 112 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

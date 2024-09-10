@@ -30,12 +30,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1068 | CWE-264 | Execution with Unnecessary Privileges | High
-2 | T1110.001 | CWE-798 | Hard-coded Credentials | High
-3 | T1202 | CWE-77, CWE-78 | Command Shell in Externally Accessible Directory | High
+1 | T1006 | CWE-22 | Path Traversal | High
+2 | T1068 | CWE-264 | Execution with Unnecessary Privileges | High
+3 | T1110.001 | CWE-798 | Hard-coded Credentials | High
 4 | ... | ... | ... | ...
 
-There are 1 more TTP items available. Please use our online service to access the data.
+There are 3 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 

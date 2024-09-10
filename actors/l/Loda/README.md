@@ -38,14 +38,15 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-425 | Path Traversal | High
-2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-25, CWE-425 | Path Traversal | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
+4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+6 | T1068 | CWE-264, CWE-267, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+7 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 26 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -59,50 +60,55 @@ ID | Type | Indicator | Confidence
 4 | File | `/admin/booking-bwdates-reports-details.php` | High
 5 | File | `/admin/category/index.php` | High
 6 | File | `/admin/CloudAccounts` | High
-7 | File | `/admin/course.php` | High
-8 | File | `/admin/general/change-lang` | High
-9 | File | `/admin/index.php` | High
-10 | File | `/admin/index2.html` | High
-11 | File | `/admin/list_resource_icon.php?action=delete` | High
-12 | File | `/admin/orders/view_order.php` | High
-13 | File | `/admin/search.php` | High
-14 | File | `/admin/service_requests/manage_inventory.php` | High
-15 | File | `/admin/twitter.php` | High
-16 | File | `/adminPage/conf/saveCmd` | High
-17 | File | `/adminPage/main/upload` | High
-18 | File | `/alogin.html` | Medium
-19 | File | `/api/authentication/login` | High
-20 | File | `/api/sys/set_passwd` | High
-21 | File | `/api/upload.php` | High
-22 | File | `/api/v2/maps` | Medium
-23 | File | `/api/{org_id}/users/{email_id}` | High
-24 | File | `/app/api/controller/default/Sqlite.php` | High
-25 | File | `/app/zentao/module/repo/model.php` | High
-26 | File | `/application/index/controller/Pay.php` | High
-27 | File | `/bookstore/bookPerPub.php` | High
-28 | File | `/category/list?limit=10&offset=0&order=desc` | High
-29 | File | `/cgi-bin/cstecgi.cgi` | High
-30 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-31 | File | `/cgi-bin/koha/opac-MARCdetail.pl` | High
-32 | File | `/cgi-bin/nas_sharing.cgi` | High
-33 | File | `/cgi-bin/qcmap_auth` | High
-34 | File | `/charts/api/charts/v1/` | High
-35 | File | `/classes/Master.php?f=log_employee` | High
-36 | File | `/classes/SystemSettings.php?f=update_settings` | High
-37 | File | `/classes/Users.php?f=save` | High
-38 | File | `/configs/application.ini` | High
-39 | File | `/control/register_case.php` | High
-40 | File | `/course/filterRecords/` | High
-41 | File | `/cupseasylive/taxcodecreate.php` | High
-42 | File | `/dede/freelist_edit.php` | High
-43 | File | `/download/image` | High
-44 | File | `/DXR.axd` | Medium
-45 | File | `/edit-task.php` | High
-46 | File | `/formSystemCheck` | High
-47 | File | `/forum/away.php` | High
-48 | ... | ... | ...
+7 | File | `/admin/cmsTemplate/savePlace` | High
+8 | File | `/admin/cmsWebFile/doUpload` | High
+9 | File | `/admin/config_ISCGroupNoCache.php` | High
+10 | File | `/admin/config_time_sync.php` | High
+11 | File | `/admin/edit_area.php` | High
+12 | File | `/admin/index.php` | High
+13 | File | `/admin/infoSys_deal.php?mudi=deal` | High
+14 | File | `/admin/item/view_item.php` | High
+15 | File | `/admin/list_resource_icon.php?action=delete` | High
+16 | File | `/admin/orders/view_order.php` | High
+17 | File | `/admin/pages/list` | High
+18 | File | `/admin/search.php` | High
+19 | File | `/admin/service_requests/manage_inventory.php` | High
+20 | File | `/admin/student.php` | High
+21 | File | `/admin/twitter.php` | High
+22 | File | `/adminPage/conf/saveCmd` | High
+23 | File | `/adminPage/main/upload` | High
+24 | File | `/alogin.html` | Medium
+25 | File | `/api/sys/set_passwd` | High
+26 | File | `/api/user` | Medium
+27 | File | `/api/v1/dashboards/export` | High
+28 | File | `/api/v2/maps` | Medium
+29 | File | `/api/{org_id}/users/{email_id}` | High
+30 | File | `/app/api/controller/default/Sqlite.php` | High
+31 | File | `/app/zentao/module/repo/model.php` | High
+32 | File | `/application/index/controller/Pay.php` | High
+33 | File | `/bookstore/bookPerPub.php` | High
+34 | File | `/category/list?limit=10&offset=0&order=desc` | High
+35 | File | `/cgi-bin/cstecgi.cgi` | High
+36 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+37 | File | `/cgi-bin/hd_config.cgi` | High
+38 | File | `/cgi-bin/koha/opac-MARCdetail.pl` | High
+39 | File | `/cgi-bin/nas_sharing.cgi` | High
+40 | File | `/cgi-bin/s3.cgi` | High
+41 | File | `/charts/api/charts/v1/` | High
+42 | File | `/classes/Master.php` | High
+43 | File | `/classes/Master.php?f=delete_category` | High
+44 | File | `/classes/Master.php?f=log_employee` | High
+45 | File | `/classes/SystemSettings.php?f=update_settings` | High
+46 | File | `/classes/Users.php?f=save` | High
+47 | File | `/classes/Users.php?f=save_client` | High
+48 | File | `/cm/update_rows/page?id=2` | High
+49 | File | `/configs/application.ini` | High
+50 | File | `/control/register_case.php` | High
+51 | File | `/cupseasylive/taxcodecreate.php` | High
+52 | File | `/dcim/console-ports/add` | High
+53 | ... | ... | ...
 
-There are 416 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 458 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

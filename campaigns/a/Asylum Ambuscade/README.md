@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 17 more country items available. Please use our online service to access the data.
+There are 18 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -82,43 +82,42 @@ ID | Type | Indicator | Confidence
 7 | File | `/admin/maintenance/view_designation.php` | High
 8 | File | `/admin/robot/approval/list` | High
 9 | File | `/api/controllers/merchant/shop/PosterController.php` | High
-10 | File | `/api/jolokia org.jolokia.http.HttpRequestHandler#handlePostRequest` | High
-11 | File | `/api/RecordingList/DownloadRecord?file=` | High
+10 | File | `/api/files/recipepictures/` | High
+11 | File | `/api/jolokia org.jolokia.http.HttpRequestHandler#handlePostRequest` | High
 12 | File | `/apply.cgi` | Medium
 13 | File | `/cgi-bin/adm.cgi` | High
-14 | File | `/cgi-bin/go` | Medium
-15 | File | `/cgi-bin/wapopen` | High
+14 | File | `/cgi-bin/cstecgi.cgi` | High
+15 | File | `/cgi-bin/go` | Medium
 16 | File | `/cgi-bin/wlogin.cgi` | High
-17 | File | `/contact.php` | Medium
-18 | File | `/CPE` | Low
-19 | File | `/debug/pprof` | Medium
-20 | File | `/etc/gsissh/sshd_config` | High
-21 | File | `/face-recognition-php/facepay-master/camera.php` | High
-22 | File | `/forum/away.php` | High
-23 | File | `/forum/PostPrivateMessage` | High
-24 | File | `/home/masterConsole` | High
-25 | File | `/hrm/employeeadd.php` | High
-26 | File | `/hrm/employeeview.php` | High
-27 | File | `/members/poster.php` | High
-28 | File | `/mics/j_spring_security_check` | High
-29 | File | `/opt/vyatta/share/vyatta-cfg/templates/system/static-host-mapping/host-name/node.def` | High
-30 | File | `/owa/auth/logon.aspx` | High
-31 | File | `/php/ping.php` | High
-32 | File | `/scripts/unlock_tasks.php` | High
-33 | File | `/secserver` | Medium
-34 | File | `/Session` | Medium
-35 | File | `/spip.php` | Medium
-36 | File | `/staff_login.php` | High
-37 | File | `/SysInfo1.htm` | High
-38 | File | `/sysinfo_json.cgi` | High
-39 | File | `/system/admin/add_group_save` | High
-40 | File | `/system/dictData/loadDictItem` | High
-41 | File | `/system/user/modules/mod_users/controller.php` | High
-42 | File | `/uncpath/` | Medium
-43 | File | `/usr/bin/pkexec` | High
-44 | ... | ... | ...
+17 | File | `/classes/Master.php` | High
+18 | File | `/contact.php` | Medium
+19 | File | `/CPE` | Low
+20 | File | `/debug/pprof` | Medium
+21 | File | `/etc/gsissh/sshd_config` | High
+22 | File | `/face-recognition-php/facepay-master/camera.php` | High
+23 | File | `/forum/away.php` | High
+24 | File | `/forum/PostPrivateMessage` | High
+25 | File | `/home/masterConsole` | High
+26 | File | `/hrm/employeeadd.php` | High
+27 | File | `/hrm/employeeview.php` | High
+28 | File | `/index/ajax/lang` | High
+29 | File | `/members/poster.php` | High
+30 | File | `/mics/j_spring_security_check` | High
+31 | File | `/opt/vyatta/share/vyatta-cfg/templates/system/static-host-mapping/host-name/node.def` | High
+32 | File | `/owa/auth/logon.aspx` | High
+33 | File | `/php/ping.php` | High
+34 | File | `/Script/admin/core/update_policy` | High
+35 | File | `/scripts/unlock_tasks.php` | High
+36 | File | `/secserver` | Medium
+37 | File | `/Session` | Medium
+38 | File | `/spip.php` | Medium
+39 | File | `/staff_login.php` | High
+40 | File | `/SysInfo1.htm` | High
+41 | File | `/sysinfo_json.cgi` | High
+42 | File | `/system/admin/add_group_save` | High
+43 | ... | ... | ...
 
-There are 379 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 372 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

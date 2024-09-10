@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Hancitor:
 
 * [US](https://vuldb.com/?country.us)
-* [RU](https://vuldb.com/?country.ru)
 * [CA](https://vuldb.com/?country.ca)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
 There are 12 more country items available. Please use our online service to access the data.
@@ -105,7 +105,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23, CWE-25 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-25 | Path Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
@@ -131,40 +131,42 @@ ID | Type | Indicator | Confidence
 8 | File | `/csms/admin/inquiries/view_details.php` | High
 9 | File | `/cstecgi.cgi` | Medium
 10 | File | `/debuginfo.htm` | High
-11 | File | `/forms/doLogin` | High
-12 | File | `/forum/away.php` | High
-13 | File | `/home/search` | Medium
-14 | File | `/include/chart_generator.php` | High
-15 | File | `/install/index.php` | High
-16 | File | `/lan.asp` | Medium
-17 | File | `/librarian/bookdetails.php` | High
-18 | File | `/messageboard/view.php` | High
-19 | File | `/mhds/clinic/view_details.php` | High
-20 | File | `/novel/bookComment/list` | High
-21 | File | `/out.php` | Medium
-22 | File | `/owa/auth/logon.aspx` | High
-23 | File | `/rest/api/latest/projectvalidate/key` | High
-24 | File | `/rom-0` | Low
-25 | File | `/rules/REQUEST-932-APPLICATION-ATTACK-RCE.conf` | High
-26 | File | `/server-status` | High
-27 | File | `/ServletAPI/accounts/login` | High
-28 | File | `/SVFE2/pages/feegroups/country_group.jsf` | High
-29 | File | `/textpattern/index.php` | High
-30 | File | `/upfile.cgi` | Medium
-31 | File | `/wlmdeu%2f%2e%2e%2f%2e%2e` | High
-32 | File | `/wordpress/wp-admin/admin.php` | High
-33 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-34 | File | `account_footer.php` | High
-35 | File | `adclick.php` | Medium
-36 | File | `add_edit_cat.asp` | High
-37 | File | `add_edit_user.asp` | High
-38 | File | `adm.cgi` | Low
-39 | File | `admin.cropcanvas.php` | High
-40 | File | `admin.jcomments.php` | High
-41 | File | `admin/editusertag.php` | High
-42 | ... | ... | ...
+11 | File | `/etc/passwd` | Medium
+12 | File | `/forms/doLogin` | High
+13 | File | `/forum/away.php` | High
+14 | File | `/h/autoSaveDraft` | High
+15 | File | `/home/search` | Medium
+16 | File | `/inc/tm_ajax.msw?func=UserfromUUID&uuid=` | High
+17 | File | `/include/chart_generator.php` | High
+18 | File | `/install/index.php` | High
+19 | File | `/lan.asp` | Medium
+20 | File | `/librarian/bookdetails.php` | High
+21 | File | `/messageboard/view.php` | High
+22 | File | `/mhds/clinic/view_details.php` | High
+23 | File | `/novel/bookComment/list` | High
+24 | File | `/out.php` | Medium
+25 | File | `/owa/auth/logon.aspx` | High
+26 | File | `/rest/api/latest/projectvalidate/key` | High
+27 | File | `/rom-0` | Low
+28 | File | `/rules/REQUEST-932-APPLICATION-ATTACK-RCE.conf` | High
+29 | File | `/server-status` | High
+30 | File | `/ServletAPI/accounts/login` | High
+31 | File | `/SVFE2/pages/feegroups/country_group.jsf` | High
+32 | File | `/textpattern/index.php` | High
+33 | File | `/upfile.cgi` | Medium
+34 | File | `/wlmdeu%2f%2e%2e%2f%2e%2e` | High
+35 | File | `/wordpress/wp-admin/admin.php` | High
+36 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+37 | File | `account_footer.php` | High
+38 | File | `adclick.php` | Medium
+39 | File | `add_edit_cat.asp` | High
+40 | File | `add_edit_user.asp` | High
+41 | File | `adm.cgi` | Low
+42 | File | `admin.cropcanvas.php` | High
+43 | File | `admin.jcomments.php` | High
+44 | ... | ... | ...
 
-There are 364 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 378 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

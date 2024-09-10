@@ -131,7 +131,7 @@ ID | Type | Indicator | Confidence
 80 | File | `/boafrm/formMapDelDevice` | High
 81 | ... | ... | ...
 
-There are 714 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 716 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

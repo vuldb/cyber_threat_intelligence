@@ -145,15 +145,17 @@ ID | Type | Indicator | Confidence
 20 | File | `/importTool/preview` | High
 21 | File | `/include/makecvs.php` | High
 22 | File | `/js/app.js` | Medium
-23 | File | `/mgmt/tm/util/bash` | High
-24 | File | `/mods/_core/courses/users/create_course.php` | High
-25 | File | `/monitoring` | Medium
-26 | File | `/ndmComponents.js` | High
-27 | File | `/server-status` | High
-28 | File | `/test/cookie/` | High
-29 | ... | ... | ...
+23 | File | `/lms/classes/Master.php?f=save_record` | High
+24 | File | `/mgmt/tm/util/bash` | High
+25 | File | `/mods/_core/courses/users/create_course.php` | High
+26 | File | `/monitoring` | Medium
+27 | File | `/ndmComponents.js` | High
+28 | File | `/server-status` | High
+29 | File | `/test/cookie/` | High
+30 | File | `/uncpath/` | Medium
+31 | ... | ... | ...
 
-There are 249 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 261 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

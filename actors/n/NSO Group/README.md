@@ -18,10 +18,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [DE](https://vuldb.com/?country.de)
 * [US](https://vuldb.com/?country.us)
-* [CN](https://vuldb.com/?country.cn)
+* [CH](https://vuldb.com/?country.ch)
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -65,48 +65,47 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.ssh/authorized_keys` | High
-2 | File | `/admin/action/add_con.php` | High
-3 | File | `/admin/action/new-feed.php` | High
-4 | File | `/admin/app` | Medium
-5 | File | `/admin/ballot_down.php` | High
-6 | File | `/admin/config_save.php` | High
-7 | File | `/admin/edit_visitor.php` | High
-8 | File | `/admin/info.php` | High
-9 | File | `/admin/plugin.php` | High
-10 | File | `/admin/template.php` | High
-11 | File | `/alphaware/summary.php` | High
-12 | File | `/api/sys/login` | High
-13 | File | `/application/index/controller/Unity.php` | High
-14 | File | `/apply.cgi` | Medium
-15 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
-16 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-17 | File | `/classes/Users.php` | High
-18 | File | `/cupseasylive/grndisplay.php` | High
-19 | File | `/dashboard/updatelogo.php` | High
-20 | File | `/dipam/save-delegates.php` | High
-21 | File | `/ecommerce/support_ticket` | High
-22 | File | `/etc/controller-agent/agent.conf` | High
-23 | File | `/etc/openshift/server_priv.pem` | High
-24 | File | `/forms/web_importTFTP` | High
-25 | File | `/front/admin/tenancyDetail.php` | High
-26 | File | `/goform/GetParentControlInfo` | High
-27 | File | `/goform/SetSysTimeCfg` | High
-28 | File | `/goform/SysToolReboot` | High
-29 | File | `/goform/SysToolRestoreSet` | High
-30 | File | `/goform/WifiExtraSet` | High
-31 | File | `/graphql` | Medium
-32 | File | `/homePro_deal.php?mudi=add&nohrefStr=close` | High
-33 | File | `/index.php` | Medium
-34 | File | `/jeecg-boot/jmreport/upload` | High
-35 | File | `/jeecg-boot/jmreport/view` | High
-36 | File | `/jsoa/hntdCustomDesktopActionContent` | High
-37 | File | `/localhost/u` | Medium
-38 | File | `/mkshop/Men/profile.php` | High
-39 | File | `/Noxen-master/users.php` | High
-40 | File | `/PluXml/core/admin/parametres_edittpl.php` | High
-41 | ... | ... | ...
+2 | File | `/admin/#maintenance_sysTask/edit` | High
+3 | File | `/admin/?/snippet/edit/3` | High
+4 | File | `/admin/action/add_con.php` | High
+5 | File | `/admin/action/new-feed.php` | High
+6 | File | `/admin/ajax.php?action=login` | High
+7 | File | `/admin/app` | Medium
+8 | File | `/admin/ballot_down.php` | High
+9 | File | `/admin/cmsWebFile/doUpload` | High
+10 | File | `/admin/config_save.php` | High
+11 | File | `/admin/domain_management.php?id=0&list=whitelist&remove=pligg.com` | High
+12 | File | `/admin/edit_visitor.php` | High
+13 | File | `/admin/info.php` | High
+14 | File | `/admin/plugin.php` | High
+15 | File | `/admin/template.php` | High
+16 | File | `/admin/userSys_deal.php?mudi=infoSet` | High
+17 | File | `/alphaware/summary.php` | High
+18 | File | `/api/monitors/import` | High
+19 | File | `/api/sys/login` | High
+20 | File | `/application/index/controller/Unity.php` | High
+21 | File | `/apply.cgi` | Medium
+22 | File | `/cgi-bin/cstecgi.cgi` | High
+23 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
+24 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+25 | File | `/cgi-bin/webdav_mgr.cgi` | High
+26 | File | `/classes/Master.php?f=delete_inquiry` | High
+27 | File | `/classes/Users.php` | High
+28 | File | `/cupseasylive/grndisplay.php` | High
+29 | File | `/dashboard/updatelogo.php` | High
+30 | File | `/dipam/save-delegates.php` | High
+31 | File | `/ecommerce/support_ticket` | High
+32 | File | `/etc/controller-agent/agent.conf` | High
+33 | File | `/etc/openshift/server_priv.pem` | High
+34 | File | `/forms/web_importTFTP` | High
+35 | File | `/forum/away.php` | High
+36 | File | `/front/admin/tenancyDetail.php` | High
+37 | File | `/goform/GetParentControlInfo` | High
+38 | File | `/goform/SetSysTimeCfg` | High
+39 | File | `/goform/SysToolReboot` | High
+40 | ... | ... | ...
 
-There are 351 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 349 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

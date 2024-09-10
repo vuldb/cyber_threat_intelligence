@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [RU](https://vuldb.com/?country.ru)
+* [PT](https://vuldb.com/?country.pt)
 * ...
 
 There are 7 more country items available. Please use our online service to access the data.
@@ -53,12 +53,13 @@ ID | Type | Indicator | Confidence
 6 | File | `/forum/away.php` | High
 7 | File | `/goform/SetNetControlList` | High
 8 | File | `/goform/SetStaticRouteCfg` | High
-9 | File | `/members/poster.php` | High
-10 | File | `/src/chatbotapp/chatWindow.java` | High
-11 | File | `adclick.php` | Medium
-12 | ... | ... | ...
+9 | File | `/guestbook` | Medium
+10 | File | `/members/poster.php` | High
+11 | File | `/src/chatbotapp/chatWindow.java` | High
+12 | File | `adclick.php` | Medium
+13 | ... | ... | ...
 
-There are 97 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 102 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

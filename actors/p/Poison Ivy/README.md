@@ -24,9 +24,10 @@ ID | IP address | Hostname | Campaign | Confidence
 4 | [45.76.228.61](https://vuldb.com/?ip.45.76.228.61) | 45.76.228.61.vultr.com | - | Medium
 5 | [94.49.168.110](https://vuldb.com/?ip.94.49.168.110) | - | - | High
 6 | [94.49.176.147](https://vuldb.com/?ip.94.49.176.147) | - | - | High
-7 | ... | ... | ... | ...
+7 | [94.49.178.155](https://vuldb.com/?ip.94.49.178.155) | - | - | High
+8 | ... | ... | ... | ...
 
-There are 25 more IOC items available. Please use our online service to access the data.
+There are 28 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -120,7 +121,7 @@ ID | Type | Indicator | Confidence
 71 | File | `/devinfo` | Medium
 72 | ... | ... | ...
 
-There are 633 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 630 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

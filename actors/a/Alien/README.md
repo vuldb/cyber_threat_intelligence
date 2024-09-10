@@ -8,8 +8,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Alien:
 
-* [CN](https://vuldb.com/?country.cn)
 * [VN](https://vuldb.com/?country.vn)
+* [CN](https://vuldb.com/?country.cn)
 * [NZ](https://vuldb.com/?country.nz)
 * ...
 
@@ -161,13 +161,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Path Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-25, CWE-37, CWE-425 | Path Traversal | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -175,41 +175,51 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/#/network?tab=network_node_list.html` | High
-2 | File | `/admin/modules/product/controller.php?action=add` | High
-3 | File | `/admin/students.php` | High
-4 | File | `/adminPage/www/addOver` | High
-5 | File | `/api/sys/set_passwd` | High
-6 | File | `/api/v1` | Low
-7 | File | `/application/index/controller/Screen.php` | High
-8 | File | `/cgi-bin/nas_sharing.cgi` | High
-9 | File | `/core/config-revisions` | High
-10 | File | `/dataSet/testTransform;swagger-ui` | High
-11 | File | `/dayrui/Fcms/View/system_log.html` | High
-12 | File | `/dayrui/My/View/main.html` | High
-13 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
-14 | File | `/DXR.axd` | Medium
-15 | File | `/edit/server` | Medium
-16 | File | `/endpoint/delete-todo.php` | High
-17 | File | `/finance/help/en/frameset.htm` | High
-18 | File | `/forum/away.php` | High
-19 | File | `/goform/execCommand` | High
-20 | File | `/goform/SetRebootTimer` | High
-21 | File | `/goform/WriteFacMac` | High
-22 | File | `/hrm/leaverequest.php` | High
-23 | File | `/index.php?pluginApp/to/yzOffice/getFile` | High
-24 | File | `/librarian/bookdetails.php` | High
-25 | File | `/login-actions/authenticate` | High
-26 | File | `/Maintain/sprog_upstatus.php` | High
-27 | File | `/MobileHandler.ashx` | High
-28 | File | `/module/comment/save` | High
-29 | File | `/network_diagnostics.html` | High
-30 | File | `/new_item` | Medium
-31 | File | `/novel/bookSetting/list` | High
-32 | File | `/pg_meta/default/query` | High
-33 | ... | ... | ...
+1 | File | `/admin/config_time_sync.php` | High
+2 | File | `/admin/contacts/organizations/edit/2` | High
+3 | File | `/admin/index2.html` | High
+4 | File | `/admin/modules/product/controller.php?action=add` | High
+5 | File | `/admin/sql` | Medium
+6 | File | `/admin/students.php` | High
+7 | File | `/admin/students/manage.php` | High
+8 | File | `/admin/system.html` | High
+9 | File | `/adminPage/conf/reload` | High
+10 | File | `/api/1.0/rest/language_configuration` | High
+11 | File | `/api/swaggerui/static` | High
+12 | File | `/api/sys/set_passwd` | High
+13 | File | `/application/index/controller/Icon.php` | High
+14 | File | `/application/index/controller/Screen.php` | High
+15 | File | `/bin/ate` | Medium
+16 | File | `/boaform/device_reset.cgi` | High
+17 | File | `/cgi-bin/alexserv` | High
+18 | File | `/cgi-bin/cstecgi.cgi` | High
+19 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+20 | File | `/cgi-bin/nas_sharing.cgi` | High
+21 | File | `/classes/Master.php` | High
+22 | File | `/contact.php` | Medium
+23 | File | `/core/config-revisions` | High
+24 | File | `/dataSet/testTransform;swagger-ui` | High
+25 | File | `/dcim/power-ports/add/` | High
+26 | File | `/debug/pprof` | Medium
+27 | File | `/DXR.axd` | Medium
+28 | File | `/edit/server` | Medium
+29 | File | `/endpoint/delete-account.php` | High
+30 | File | `/endpoint/delete-todo.php` | High
+31 | File | `/etc/passwd` | Medium
+32 | File | `/fileupload/upload.cfm` | High
+33 | File | `/film-rating.php` | High
+34 | File | `/forum/away.php` | High
+35 | File | `/goform/execCommand` | High
+36 | File | `/goform/goform_get_cmd_process` | High
+37 | File | `/goform/SetRebootTimer` | High
+38 | File | `/guestbook` | Medium
+39 | File | `/hardware` | Medium
+40 | File | `/index.php` | Medium
+41 | File | `/index.php/admin` | High
+42 | File | `/index.php?app=main&inc=feature_phonebook&op=phonebook_list` | High
+43 | ... | ... | ...
 
-There are 285 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 370 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

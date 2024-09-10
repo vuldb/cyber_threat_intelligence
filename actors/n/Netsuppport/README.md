@@ -62,38 +62,37 @@ ID | Type | Indicator | Confidence
 16 | File | `/bitrix/admin/ldap_server_edit.php` | High
 17 | File | `/cgi-bin/nas_sharing.cgi` | High
 18 | File | `/cgi-bin/wlogin.cgi` | High
-19 | File | `/classes/Master.php?f=save_category` | High
-20 | File | `/classes/Users.php?f=save` | High
-21 | File | `/College/admin/teacher.php` | High
-22 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
-23 | File | `/dcim/rack-roles/` | High
-24 | File | `/fftools/ffmpeg_enc.c` | High
-25 | File | `/forms/doLogin` | High
-26 | File | `/formSysLog` | Medium
-27 | File | `/forum/away.php` | High
-28 | File | `/getcfg.php` | Medium
-29 | File | `/get_getnetworkconf.cgi` | High
+19 | File | `/classes/Master.php` | High
+20 | File | `/classes/Master.php?f=save_category` | High
+21 | File | `/classes/Users.php?f=save` | High
+22 | File | `/College/admin/teacher.php` | High
+23 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
+24 | File | `/dcim/rack-roles/` | High
+25 | File | `/fftools/ffmpeg_enc.c` | High
+26 | File | `/forms/doLogin` | High
+27 | File | `/formSysLog` | Medium
+28 | File | `/forum/away.php` | High
+29 | File | `/getcfg.php` | Medium
 30 | File | `/goform/addUserName` | High
 31 | File | `/goform/aspForm` | High
 32 | File | `/goform/delAd` | High
 33 | File | `/goform/saveParentControlInfo` | High
-34 | File | `/goform/wifiSSIDset` | High
-35 | File | `/gpac/src/bifs/unquantize.c` | High
-36 | File | `/inc/topBarNav.php` | High
-37 | File | `/index.asp` | Medium
-38 | File | `/index.php` | Medium
-39 | File | `/index.php?app=main&func=passport&action=login` | High
-40 | File | `/install/` | Medium
-41 | File | `/jfinal_cms/system/role/list` | High
-42 | File | `/kelas/data` | Medium
-43 | File | `/listplace/user/ticket/create` | High
-44 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
-45 | File | `/Moosikay/order.php` | High
-46 | File | `/novel/author/list` | High
-47 | File | `/php-sms/admin/quotes/manage_remark.php` | High
-48 | ... | ... | ...
+34 | File | `/goform/SetOnlineDevName` | High
+35 | File | `/goform/wifiSSIDset` | High
+36 | File | `/gpac/src/bifs/unquantize.c` | High
+37 | File | `/inc/topBarNav.php` | High
+38 | File | `/index.asp` | Medium
+39 | File | `/index.php` | Medium
+40 | File | `/index.php?app=main&func=passport&action=login` | High
+41 | File | `/install/` | Medium
+42 | File | `/jfinal_cms/system/role/list` | High
+43 | File | `/kelas/data` | Medium
+44 | File | `/listplace/user/ticket/create` | High
+45 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
+46 | File | `/MIME/INBOX-MM-1/` | High
+47 | ... | ... | ...
 
-There are 416 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 405 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

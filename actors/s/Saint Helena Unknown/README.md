@@ -58,32 +58,33 @@ ID | Type | Indicator | Confidence
 9 | File | `/healthcare/Admin/consulting_detail.php` | High
 10 | File | `/if.cgi` | Low
 11 | File | `/mifs/c/i/reg/reg.html` | High
-12 | File | `/modules/profile/index.php` | High
-13 | File | `/news.dtl.php` | High
-14 | File | `/see_more_details.php` | High
-15 | File | `/services/details.asp` | High
-16 | File | `/setup` | Low
-17 | File | `/spip.php` | Medium
-18 | File | `/uncpath/` | Medium
-19 | File | `/var/log/nginx` | High
-20 | File | `/VPortal/mgtconsole/Subscriptions.jsp` | High
-21 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-22 | File | `/zm/index.php` | High
-23 | File | `act.php` | Low
-24 | File | `adclick.php` | Medium
-25 | File | `admin` | Low
-26 | File | `admin.php` | Medium
-27 | File | `admin/adminsignin.html` | High
-28 | File | `admin/movieview.php` | High
-29 | File | `admin/versions.html` | High
-30 | File | `agenda.php` | Medium
-31 | File | `ajax_calls.php` | High
-32 | File | `api.php` | Low
-33 | File | `army.php` | Medium
-34 | File | `attendancy.php` | High
-35 | ... | ... | ...
+12 | File | `/model/update_classroom.php` | High
+13 | File | `/modules/profile/index.php` | High
+14 | File | `/news.dtl.php` | High
+15 | File | `/see_more_details.php` | High
+16 | File | `/services/details.asp` | High
+17 | File | `/setup` | Low
+18 | File | `/spip.php` | Medium
+19 | File | `/uncpath/` | Medium
+20 | File | `/var/log/nginx` | High
+21 | File | `/VPortal/mgtconsole/Subscriptions.jsp` | High
+22 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+23 | File | `/zm/index.php` | High
+24 | File | `act.php` | Low
+25 | File | `adclick.php` | Medium
+26 | File | `admin` | Low
+27 | File | `admin.php` | Medium
+28 | File | `admin/adminsignin.html` | High
+29 | File | `admin/movieview.php` | High
+30 | File | `admin/versions.html` | High
+31 | File | `agenda.php` | Medium
+32 | File | `ajax_calls.php` | High
+33 | File | `api.php` | Low
+34 | File | `army.php` | Medium
+35 | File | `attendancy.php` | High
+36 | ... | ... | ...
 
-There are 304 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 305 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -16,8 +16,8 @@ The following _campaigns_ are known and can be associated with BlackTech:
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with BlackTech:
 
-* [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
+* [US](https://vuldb.com/?country.us)
 * [MS](https://vuldb.com/?country.ms)
 * ...
 
@@ -59,33 +59,33 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/administration/theme.php` | High
-2 | File | `/cdsms/classes/Master.php?f=delete_enrollment` | High
-3 | File | `/cgi-bin/portal` | High
-4 | File | `/cgi-mod/lookup.cgi` | High
-5 | File | `/forum/away.php` | High
-6 | File | `/mifs/c/i/reg/reg.html` | High
-7 | File | `/modules/profile/index.php` | High
-8 | File | `/RPC2` | Low
-9 | File | `/server-info` | Medium
-10 | File | `/service/upload` | High
-11 | File | `/services` | Medium
-12 | File | `/system/dept/edit` | High
-13 | File | `/tmp` | Low
-14 | File | `/uncpath/` | Medium
-15 | File | `/upload` | Low
-16 | File | `/user/updatePwd` | High
-17 | File | `/wp-json/oembed/1.0/embed?url` | High
-18 | File | `a2billing/customer/iridium_threed.php` | High
-19 | File | `additem.asp` | Medium
-20 | File | `admin.php` | Medium
-21 | File | `admin.php?s=/Channel/add.html` | High
-22 | File | `admin/class-bulk-editor-list-table.php` | High
-23 | File | `administrator/components/com_media/helpers/media.php` | High
-24 | File | `agora.cgi` | Medium
+1 | File | `/admin/foreigner-bwdates-reports-details.php` | High
+2 | File | `/administration/theme.php` | High
+3 | File | `/cdsms/classes/Master.php?f=delete_enrollment` | High
+4 | File | `/cgi-bin/portal` | High
+5 | File | `/cgi-mod/lookup.cgi` | High
+6 | File | `/forum/away.php` | High
+7 | File | `/mifs/c/i/reg/reg.html` | High
+8 | File | `/modules/profile/index.php` | High
+9 | File | `/pages/apply_vacancy.php` | High
+10 | File | `/RPC2` | Low
+11 | File | `/server-info` | Medium
+12 | File | `/service/upload` | High
+13 | File | `/services` | Medium
+14 | File | `/system/dept/edit` | High
+15 | File | `/tmp` | Low
+16 | File | `/uncpath/` | Medium
+17 | File | `/upload` | Low
+18 | File | `/user/updatePwd` | High
+19 | File | `/wp-json/oembed/1.0/embed?url` | High
+20 | File | `a2billing/customer/iridium_threed.php` | High
+21 | File | `additem.asp` | Medium
+22 | File | `admin.php` | Medium
+23 | File | `admin.php?s=/Channel/add.html` | High
+24 | File | `admin/class-bulk-editor-list-table.php` | High
 25 | ... | ... | ...
 
-There are 210 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 214 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

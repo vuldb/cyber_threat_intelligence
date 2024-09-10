@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with UAC-0006:
 
 * [US](https://vuldb.com/?country.us)
-* [GB](https://vuldb.com/?country.gb)
 * [RU](https://vuldb.com/?country.ru)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 9 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -27,9 +27,10 @@ ID | IP address | Hostname | Campaign | Confidence
 4 | [45.143.136.123](https://vuldb.com/?ip.45.143.136.123) | free.example.com | - | High
 5 | [45.144.28.76](https://vuldb.com/?ip.45.144.28.76) | vm1856696.stark-industries.solutions | - | High
 6 | [77.232.37.148](https://vuldb.com/?ip.77.232.37.148) | host-77-232-37-148.macloud.host | - | High
-7 | ... | ... | ... | ...
+7 | [78.24.222.162](https://vuldb.com/?ip.78.24.222.162) | mail.like.market | - | High
+8 | ... | ... | ... | ...
 
-There are 22 more IOC items available. Please use our online service to access the data.
+There are 27 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -41,7 +42,8 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
-5 | ... | ... | ... | ...
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
 
@@ -51,19 +53,26 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
-2 | File | `/forum/away.php` | High
-3 | File | `/goform/setmac` | High
-4 | File | `/include/chart_generator.php` | High
-5 | File | `/manager?action=getlogcat` | High
-6 | File | `/members/profiles.php` | High
-7 | File | `/version.js` | Medium
-8 | File | `/xAdmin/html/cm_doclist_view_uc.jsp` | High
-9 | File | `/_next` | Low
-10 | File | `addentry.php` | Medium
-11 | ... | ... | ...
+1 | File | `/admin/admin.php` | High
+2 | File | `/admin/comn/service/update.json` | High
+3 | File | `/api/0/api-tokens/` | High
+4 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
+5 | File | `/forum/away.php` | High
+6 | File | `/goform/setmac` | High
+7 | File | `/include/chart_generator.php` | High
+8 | File | `/manager?action=getlogcat` | High
+9 | File | `/members/profiles.php` | High
+10 | File | `/tmp` | Low
+11 | File | `/version.js` | Medium
+12 | File | `/xAdmin/html/cm_doclist_view_uc.jsp` | High
+13 | File | `/_next` | Low
+14 | File | `addentry.php` | Medium
+15 | File | `admin/adminlogin.php` | High
+16 | File | `ajax_officebuilding.php` | High
+17 | File | `arch/x86/kvm/svm/sev.c` | High
+18 | ... | ... | ...
 
-There are 79 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 142 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -75,6 +84,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://cert.gov.ua/article/5269451
 * https://cert.gov.ua/article/6032734
 * https://cert.gov.ua/article/6276584
+* https://github.com/blackorbird/APT_REPORT/blob/master/cybercrime/SmokeLoader/UAC0006_FC.pdf.pdf
 
 ## Literature
 

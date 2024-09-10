@@ -17,7 +17,8 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [3.22.97.180](https://vuldb.com/?ip.3.22.97.180) | ec2-3-22-97-180.us-east-2.compute.amazonaws.com | - | Medium
-2 | [18.209.171.232](https://vuldb.com/?ip.18.209.171.232) | ec2-18-209-171-232.compute-1.amazonaws.com | - | Medium
+2 | [5.9.87.28](https://vuldb.com/?ip.5.9.87.28) | mail.jamflix.co.uk | - | High
+3 | [18.209.171.232](https://vuldb.com/?ip.18.209.171.232) | ec2-18-209-171-232.compute-1.amazonaws.com | - | Medium
 
 ## TTP - Tactics, Techniques, Procedures
 

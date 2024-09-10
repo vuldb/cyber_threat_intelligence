@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 12 more country items available. Please use our online service to access the data.
+There are 13 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -70,38 +70,38 @@ ID | Type | Indicator | Confidence
 7 | File | `/admin/launch_time.php` | High
 8 | File | `/admin/moduleinterface.php` | High
 9 | File | `/admin/payment.php` | High
-10 | File | `/artist-display.php` | High
-11 | File | `/BRS_netgear_success.html` | High
-12 | File | `/controllers/MgrDiagnosticTools.php` | High
-13 | File | `/czarnews/cn_users.php` | High
-14 | File | `/designer/add/layout` | High
-15 | File | `/dev/zero` | Medium
-16 | File | `/etc/waipass` | Medium
-17 | File | `/index.php` | Medium
-18 | File | `/manager/index.php` | High
-19 | File | `/message/ajax/send/` | High
-20 | File | `/mgmt/tm/util/bash` | High
-21 | File | `/myAccount` | Medium
-22 | File | `/ndmComponents.js` | High
-23 | File | `/real-estate-script/search_property.php` | High
-24 | File | `/recordings/index.php` | High
-25 | File | `/roomtype-details.php` | High
-26 | File | `/search.php` | Medium
-27 | File | `/searchJob.php` | High
-28 | File | `/secure/QueryComponent!Default.jspa` | High
-29 | File | `/see_more_details.php` | High
-30 | File | `/StartingPage/link_req_2.php` | High
-31 | File | `/storage.html` | High
-32 | File | `/tools/required/files/importers/imageeditor` | High
-33 | File | `/uncpath/` | Medium
-34 | File | `/uploads/tags.php` | High
-35 | File | `/userman/inbox.php` | High
-36 | File | `/UserSelfServiceSettings.jsp` | High
-37 | File | `/usr/local/contego/scripts/hostname.sh` | High
-38 | File | `/var/run/docker.sock` | High
+10 | File | `/api/v1/snapshots` | High
+11 | File | `/artist-display.php` | High
+12 | File | `/BRS_netgear_success.html` | High
+13 | File | `/cgi-bin/cstecgi.cgi` | High
+14 | File | `/controllers/MgrDiagnosticTools.php` | High
+15 | File | `/czarnews/cn_users.php` | High
+16 | File | `/designer/add/layout` | High
+17 | File | `/dev/zero` | Medium
+18 | File | `/etc/waipass` | Medium
+19 | File | `/index.php` | Medium
+20 | File | `/manager/index.php` | High
+21 | File | `/message/ajax/send/` | High
+22 | File | `/mgmt/tm/util/bash` | High
+23 | File | `/myAccount` | Medium
+24 | File | `/ndmComponents.js` | High
+25 | File | `/real-estate-script/search_property.php` | High
+26 | File | `/recordings/index.php` | High
+27 | File | `/roomtype-details.php` | High
+28 | File | `/search.php` | Medium
+29 | File | `/searchJob.php` | High
+30 | File | `/secure/QueryComponent!Default.jspa` | High
+31 | File | `/see_more_details.php` | High
+32 | File | `/StartingPage/link_req_2.php` | High
+33 | File | `/storage.html` | High
+34 | File | `/tools/required/files/importers/imageeditor` | High
+35 | File | `/uncpath/` | Medium
+36 | File | `/uploads/tags.php` | High
+37 | File | `/userman/inbox.php` | High
+38 | File | `/UserSelfServiceSettings.jsp` | High
 39 | ... | ... | ...
 
-There are 336 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 337 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

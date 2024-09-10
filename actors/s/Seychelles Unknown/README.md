@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Seychelles Unknown:
 
 * [US](https://vuldb.com/?country.us)
-* [FR](https://vuldb.com/?country.fr)
 * [GB](https://vuldb.com/?country.gb)
+* [FR](https://vuldb.com/?country.fr)
 * ...
 
-There are 14 more country items available. Please use our online service to access the data.
+There are 15 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -591,40 +591,41 @@ ID | Type | Indicator | Confidence
 9 | File | `/admin/maintenance/view_designation.php` | High
 10 | File | `/admin/pages/edit_chicken.php` | High
 11 | File | `/admin/pages/student-print.php` | High
-12 | File | `/admin/report/index.php` | High
-13 | File | `/admin/search-appointment.php` | High
-14 | File | `/admin/users.php?source=edit_user&id=1` | High
-15 | File | `/administrator/alerts/alertLightbox.php` | High
-16 | File | `/administrator/templates/default/html/windows/right.php` | High
-17 | File | `/admin_route/inc_service_credits.php` | High
-18 | File | `/api/runscript` | High
-19 | File | `/app/Http/Controllers/ImageController.php` | High
-20 | File | `/application/index/controller/Icon.php` | High
-21 | File | `/cgi-bin/cstecgi.cgi` | High
-22 | File | `/cgi-bin/webadminget.cgi` | High
-23 | File | `/classes/Master.php?f=delete_service` | High
-24 | File | `/classes/Master.php?f=save_course` | High
-25 | File | `/config/php.ini` | High
-26 | File | `/demo/module/?module=HERE` | High
-27 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
-28 | File | `/forum/away.php` | High
-29 | File | `/general/attendance/manage/ask_duty/delete.php` | High
-30 | File | `/goform/SysToolReboot` | High
-31 | File | `/goform/WifiExtraSet` | High
-32 | File | `/inc/topBarNav.php` | High
-33 | File | `/index.php?m=admin&c=custom&a=plugindelhandle` | High
-34 | File | `/Interface/DevManage/VM.php` | High
-35 | File | `/mkshop/Men/profile.php` | High
-36 | File | `/mobile/downloadfile.aspx` | High
-37 | File | `/myprofile.php` | High
-38 | File | `/net/nfc/netlink.c` | High
-39 | File | `/oauth/idp/.well-known/openid-configuration` | High
-40 | File | `/out.php` | Medium
-41 | File | `/outgoing.php` | High
-42 | File | `/php-fusion/infusions/shoutbox_panel/shoutbox_archive.php` | High
-43 | ... | ... | ...
+12 | File | `/admin/quizquestion.php` | High
+13 | File | `/admin/report/index.php` | High
+14 | File | `/admin/search-appointment.php` | High
+15 | File | `/admin/users.php?source=edit_user&id=1` | High
+16 | File | `/administrator/alerts/alertLightbox.php` | High
+17 | File | `/administrator/templates/default/html/windows/right.php` | High
+18 | File | `/admin_route/inc_service_credits.php` | High
+19 | File | `/api/runscript` | High
+20 | File | `/app/Http/Controllers/ImageController.php` | High
+21 | File | `/application/index/controller/Icon.php` | High
+22 | File | `/cgi-bin/cstecgi.cgi` | High
+23 | File | `/cgi-bin/webadminget.cgi` | High
+24 | File | `/classes/Master.php` | High
+25 | File | `/classes/Master.php?f=delete_service` | High
+26 | File | `/classes/Master.php?f=save_course` | High
+27 | File | `/config/php.ini` | High
+28 | File | `/demo/module/?module=HERE` | High
+29 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
+30 | File | `/forum/away.php` | High
+31 | File | `/general/attendance/manage/ask_duty/delete.php` | High
+32 | File | `/goform/SysToolReboot` | High
+33 | File | `/goform/WifiExtraSet` | High
+34 | File | `/inc/topBarNav.php` | High
+35 | File | `/index.php?m=admin&c=custom&a=plugindelhandle` | High
+36 | File | `/Interface/DevManage/VM.php` | High
+37 | File | `/mkshop/Men/profile.php` | High
+38 | File | `/mobile/downloadfile.aspx` | High
+39 | File | `/myprofile.php` | High
+40 | File | `/net/nfc/netlink.c` | High
+41 | File | `/oauth/idp/.well-known/openid-configuration` | High
+42 | File | `/out.php` | Medium
+43 | File | `/outgoing.php` | High
+44 | ... | ... | ...
 
-There are 371 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 381 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
