@@ -87,7 +87,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 11 more TTP items available. Please use our online service to access the data.
+There are 12 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -97,24 +97,27 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/admin-profile.php` | High
 2 | File | `/admin/booking-bwdates-reports-details.php` | High
-3 | File | `/admin/mod_room/controller.php?action=add` | High
-4 | File | `/api/client/editemedia.php` | High
-5 | File | `/api/v2/maps` | Medium
-6 | File | `/attendancelist.php` | High
-7 | File | `/backend/register.php` | High
-8 | File | `/cgi-bin/nas_sharing.cgi` | High
-9 | File | `/classes/Master.php` | High
-10 | File | `/classes/Master.php?f=log_employee` | High
-11 | File | `/classes/Users.php?f=delete` | High
-12 | File | `/control/register_case.php` | High
-13 | File | `/forum/away.php` | High
-14 | File | `/index.jsp#settings` | High
-15 | File | `/librarian/bookdetails.php` | High
-16 | File | `/manager/ipconfig_new.php` | High
-17 | File | `/manage_receiving.php` | High
-18 | ... | ... | ...
+3 | File | `/admin/emp-profile-avatar.php` | High
+4 | File | `/admin/mod_room/controller.php?action=add` | High
+5 | File | `/api/client/editemedia.php` | High
+6 | File | `/api/v2/maps` | Medium
+7 | File | `/attendancelist.php` | High
+8 | File | `/backend/register.php` | High
+9 | File | `/cgi-bin/nas_sharing.cgi` | High
+10 | File | `/cgi-bin/p1_ftpserver.php` | High
+11 | File | `/cgi-bin/tosei_kikai.php` | High
+12 | File | `/classes/Master.php` | High
+13 | File | `/classes/Master.php?f=log_employee` | High
+14 | File | `/classes/SystemSettings.php?f=update_settings` | High
+15 | File | `/classes/Users.php?f=delete` | High
+16 | File | `/control/register_case.php` | High
+17 | File | `/foms/routers/place-order.php` | High
+18 | File | `/forum/away.php` | High
+19 | File | `/index.jsp#settings` | High
+20 | File | `/librarian/bookdetails.php` | High
+21 | ... | ... | ...
 
-There are 147 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 171 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

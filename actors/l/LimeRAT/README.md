@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [UA](https://vuldb.com/?country.ua)
-* [CN](https://vuldb.com/?country.cn)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 30 more country items available. Please use our online service to access the data.
+There are 31 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -51,12 +51,12 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
+3 | T1059 | CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -69,64 +69,65 @@ ID | Type | Indicator | Confidence
 3 | File | `/admin` | Low
 4 | File | `/admin/` | Low
 5 | File | `/admin/?page=user/list` | High
-6 | File | `/admin/category/view_category.php` | High
-7 | File | `/admin/index3.php` | High
-8 | File | `/admin/regester.php` | High
-9 | File | `/admin/update_s6.php` | High
-10 | File | `/api/swaggerui/static` | High
-11 | File | `/api/sys/login` | High
-12 | File | `/apps/system/api/user.go` | High
-13 | File | `/apps/system/router/upload.go` | High
-14 | File | `/batm/app/admin/standalone/deployments` | High
-15 | File | `/bd_genie_create_account.cgi` | High
-16 | File | `/be/erpc.php` | Medium
-17 | File | `/blog` | Low
-18 | File | `/boafrm/formHomeWlanSetup` | High
-19 | File | `/cgi-bin-igd/sys_log_clean.cgi` | High
-20 | File | `/cgi-bin/nas_sharing.cgi` | High
-21 | File | `/cgi-bin/vitogate.cgi` | High
-22 | File | `/cgi-bin/wapopen` | High
-23 | File | `/classes/Master.php` | High
-24 | File | `/classes/Master.php?f=delete_category` | High
-25 | File | `/common/info.cgi` | High
-26 | File | `/control/register_case.php` | High
-27 | File | `/customer_demo/index2.html` | High
-28 | File | `/customer_register.php` | High
-29 | File | `/DXR.axd` | Medium
-30 | File | `/emloyee_akpoly/Account/login.php` | High
-31 | File | `/EXCU_SHELL` | Medium
-32 | File | `/forum/away.php` | High
-33 | File | `/HNAP1` | Low
-34 | File | `/inventory/transactions_view.php` | High
-35 | File | `/jfinal_cms/system/role/list` | High
-36 | File | `/labvantage/rc?command=file&file=WEB-CORE/elements/files/filesembedded.jsp&size=32` | High
-37 | File | `/librarian/bookdetails.php` | High
-38 | File | `/manage_receiving.php` | High
-39 | File | `/manage_sy.php` | High
-40 | File | `/mhds/clinic/view_details.php` | High
-41 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-42 | File | `/ndmComponents.js` | High
-43 | File | `/net-banking/delete_beneficiary.php` | High
-44 | File | `/net-banking/edit_customer.php` | High
-45 | File | `/net-banking/manage_customers.php` | High
-46 | File | `/net-banking/send_funds.php` | High
-47 | File | `/net-banking/send_funds_action.php` | High
-48 | File | `/net-banking/transactions.php` | High
-49 | File | `/oauth/idp/.well-known/openid-configuration` | High
-50 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-51 | File | `/owa/auth/logon.aspx` | High
-52 | File | `/path/to/uploads/` | High
-53 | File | `/plain` | Low
-54 | File | `/products/view_product.php` | High
-55 | File | `/register.php` | High
-56 | File | `/request.php` | Medium
-57 | File | `/scripts/cpan_config` | High
-58 | File | `/search.php` | Medium
-59 | File | `/see_more_details.php` | High
-60 | File | `/server/ajax/user_manager.php` | High
-61 | ... | ... | ...
+6 | File | `/admin/assets/` | High
+7 | File | `/admin/category/view_category.php` | High
+8 | File | `/admin/emp-profile-avatar.php` | High
+9 | File | `/admin/foreigner-search.php` | High
+10 | File | `/admin/index3.php` | High
+11 | File | `/admin/regester.php` | High
+12 | File | `/admin/system.html` | High
+13 | File | `/admin/update_s6.php` | High
+14 | File | `/ajax.php?action=delete_deductions` | High
+15 | File | `/api/swaggerui/static` | High
+16 | File | `/api/sys/login` | High
+17 | File | `/apps/system/api/user.go` | High
+18 | File | `/apps/system/router/upload.go` | High
+19 | File | `/batm/app/admin/standalone/deployments` | High
+20 | File | `/be/erpc.php` | Medium
+21 | File | `/blog` | Low
+22 | File | `/boafrm/formHomeWlanSetup` | High
+23 | File | `/cap.js` | Low
+24 | File | `/cgi-bin-igd/sys_log_clean.cgi` | High
+25 | File | `/cgi-bin/nas_sharing.cgi` | High
+26 | File | `/cgi-bin/p1_ftpserver.php` | High
+27 | File | `/cgi-bin/s3.cgi` | High
+28 | File | `/cgi-bin/vitogate.cgi` | High
+29 | File | `/cgi-bin/wapopen` | High
+30 | File | `/classes/Master.php` | High
+31 | File | `/classes/Master.php?f=delete_category` | High
+32 | File | `/common/info.cgi` | High
+33 | File | `/control/register_case.php` | High
+34 | File | `/controllers/add_client.php` | High
+35 | File | `/customer_demo/index2.html` | High
+36 | File | `/customer_register.php` | High
+37 | File | `/DXR.axd` | Medium
+38 | File | `/emloyee_akpoly/Account/login.php` | High
+39 | File | `/EXCU_SHELL` | Medium
+40 | File | `/forum/away.php` | High
+41 | File | `/HNAP1` | Low
+42 | File | `/index/ajax/lang` | High
+43 | File | `/inventory/transactions_view.php` | High
+44 | File | `/jfinal_cms/system/role/list` | High
+45 | File | `/labvantage/rc?command=file&file=WEB-CORE/elements/files/filesembedded.jsp&size=32` | High
+46 | File | `/librarian/bookdetails.php` | High
+47 | File | `/manage_receiving.php` | High
+48 | File | `/manage_sy.php` | High
+49 | File | `/mhds/clinic/view_details.php` | High
+50 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+51 | File | `/ndmComponents.js` | High
+52 | File | `/net-banking/delete_beneficiary.php` | High
+53 | File | `/net-banking/edit_customer.php` | High
+54 | File | `/net-banking/manage_customers.php` | High
+55 | File | `/net-banking/send_funds.php` | High
+56 | File | `/net-banking/send_funds_action.php` | High
+57 | File | `/net-banking/transactions.php` | High
+58 | File | `/oauth/idp/.well-known/openid-configuration` | High
+59 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+60 | File | `/path/to/uploads/` | High
+61 | File | `/plain` | Low
+62 | ... | ... | ...
 
-There are 530 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 538 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -44,7 +44,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -52,33 +52,37 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/add_ikev2.php` | High
-2 | File | `/admin/category_save.php` | High
-3 | File | `/admin/index.php` | High
-4 | File | `/admin/list_ipAddressPolicy.php` | High
-5 | File | `/admin/manage_model.php` | High
-6 | File | `/admin/manage_user.php` | High
-7 | File | `/admin/member_save.php` | High
-8 | File | `/admin/normal-bwdates-reports-details.php` | High
-9 | File | `/admin/subject.php` | High
-10 | File | `/api/user` | Medium
-11 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-12 | File | `/catalog/all-products` | High
-13 | File | `/cgi-bin/cstecgi.cgi` | High
-14 | File | `/cgi-bin/cstecgi.cgi?action=save&setting` | High
-15 | File | `/changePassword` | High
-16 | File | `/classes/Master.php` | High
-17 | File | `/classes/Master.php?f=save_package` | High
-18 | File | `/edit-subject.php` | High
-19 | File | `/endpoint/add-user.php` | High
-20 | File | `/etc/postfix/sender_login` | High
-21 | File | `/forum/away.php` | High
-22 | File | `/goform/DelDhcpRule` | High
-23 | File | `/goform/delIpMacBind` | High
-24 | File | `/goform/modifyIpMacBind` | High
-25 | ... | ... | ...
+1 | File | `/+CSCOE+/logon.html` | High
+2 | File | `/admin/add_ikev2.php` | High
+3 | File | `/admin/category_save.php` | High
+4 | File | `/admin/emp-profile-avatar.php` | High
+5 | File | `/admin/index.php` | High
+6 | File | `/admin/list_ipAddressPolicy.php` | High
+7 | File | `/admin/manage_model.php` | High
+8 | File | `/admin/manage_user.php` | High
+9 | File | `/admin/member_save.php` | High
+10 | File | `/admin/normal-bwdates-reports-details.php` | High
+11 | File | `/admin/subject.php` | High
+12 | File | `/api/user` | Medium
+13 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+14 | File | `/catalog/all-products` | High
+15 | File | `/cgi-bin/cstecgi.cgi` | High
+16 | File | `/cgi-bin/cstecgi.cgi?action=save&setting` | High
+17 | File | `/cgi-bin/hd_config.cgi` | High
+18 | File | `/cgi-bin/webfile_mgr.cgi` | High
+19 | File | `/changePassword` | High
+20 | File | `/classes/Master.php` | High
+21 | File | `/classes/Master.php?f=save_package` | High
+22 | File | `/classes/SystemSettings.php?f=update_settings` | High
+23 | File | `/controllers/add_client.php` | High
+24 | File | `/edit-subject.php` | High
+25 | File | `/endpoint/add-user.php` | High
+26 | File | `/etc/postfix/sender_login` | High
+27 | File | `/foms/routers/cancel-order.php` | High
+28 | File | `/foms/routers/place-order.php` | High
+29 | ... | ... | ...
 
-There are 208 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 243 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

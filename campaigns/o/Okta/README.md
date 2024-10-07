@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 24 more country items available. Please use our online service to access the data.
+There are 26 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -50,7 +50,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-271, CWE-272, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -70,33 +70,33 @@ ID | Type | Indicator | Confidence
 10 | File | `/admin/student.php` | High
 11 | File | `/admin/students/update_status.php` | High
 12 | File | `/admin/system.html` | High
-13 | File | `/api/baskets/{name}` | High
-14 | File | `/app/api/controller/default/File.php` | High
-15 | File | `/app/api/controller/default/Sqlite.php` | High
-16 | File | `/app/controller/Setup.php` | High
-17 | File | `/assets/php/upload.php` | High
-18 | File | `/bin/boa` | Medium
-19 | File | `/bin/sh` | Low
-20 | File | `/bitrix/admin/ldap_server_edit.php` | High
-21 | File | `/cancel.php` | Medium
-22 | File | `/cgi-bin/cstecgi.cgi` | High
-23 | File | `/cgi-bin/luci;stok=/locale` | High
-24 | File | `/cgi-bin/nas_sharing.cgi` | High
-25 | File | `/collection/all` | High
-26 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
-27 | File | `/devinfo` | Medium
-28 | File | `/edoc/doctor/patient.php` | High
-29 | File | `/endpoint/update-tracker.php` | High
-30 | File | `/general/email/outbox/delete.php` | High
-31 | File | `/get_membership_amount.php` | High
-32 | File | `/goform/addIpMacBind` | High
-33 | File | `/goform/execCommand` | High
-34 | File | `/goform/SetLEDCfg` | High
-35 | File | `/goform/SetOnlineDevName` | High
-36 | File | `/goform/set_lan_settings` | High
+13 | File | `/advanced-tools/nova/bin/netwatch` | High
+14 | File | `/api/baskets/{name}` | High
+15 | File | `/app/api/controller/default/File.php` | High
+16 | File | `/app/api/controller/default/Sqlite.php` | High
+17 | File | `/app/controller/Setup.php` | High
+18 | File | `/assets/php/upload.php` | High
+19 | File | `/bin/boa` | Medium
+20 | File | `/bin/sh` | Low
+21 | File | `/bitrix/admin/ldap_server_edit.php` | High
+22 | File | `/cancel.php` | Medium
+23 | File | `/cgi-bin/cstecgi.cgi` | High
+24 | File | `/cgi-bin/luci;stok=/locale` | High
+25 | File | `/cgi-bin/nas_sharing.cgi` | High
+26 | File | `/collection/all` | High
+27 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
+28 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
+29 | File | `/devinfo` | Medium
+30 | File | `/edoc/doctor/patient.php` | High
+31 | File | `/endpoint/update-tracker.php` | High
+32 | File | `/general/email/outbox/delete.php` | High
+33 | File | `/get_membership_amount.php` | High
+34 | File | `/goform/addIpMacBind` | High
+35 | File | `/goform/execCommand` | High
+36 | File | `/goform/SetLEDCfg` | High
 37 | ... | ... | ...
 
-There are 318 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 315 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

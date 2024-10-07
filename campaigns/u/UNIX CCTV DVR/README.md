@@ -51,7 +51,7 @@ ID | Technique | Weakness | Description | Confidence
 6 | T1068 | CWE-250, CWE-264, CWE-266, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 7 | ... | ... | ... | ...
 
-There are 23 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -74,48 +74,49 @@ ID | Type | Indicator | Confidence
 13 | File | `/admin/user/manage_user.php` | High
 14 | File | `/ajax.php?action=login` | High
 15 | File | `/ajax.php?action=read_msg` | High
-16 | File | `/api/baskets/{name}` | High
-17 | File | `/bitrix/admin/ldap_server_edit.php` | High
-18 | File | `/blog/edit` | Medium
-19 | File | `/buscar_integrada.php` | High
-20 | File | `/cgi-bin/uploadWeiXinPic` | High
-21 | File | `/cgi-bin/wlogin.cgi` | High
-22 | File | `/classes/Master.php` | High
-23 | File | `/classes/Master.php?f=delete_category` | High
-24 | File | `/classes/Master.php?f=save_item` | High
-25 | File | `/config/php.ini` | High
-26 | File | `/data/remove` | Medium
-27 | File | `/debug/pprof` | Medium
-28 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
-29 | File | `/dms/admin/reports/daily_collection_report.php` | High
-30 | File | `/editprofile.php` | High
-31 | File | `/Employer/ManageWalkin.php` | High
-32 | File | `/endpoint/add-calorie.php` | High
-33 | File | `/endpoint/delete-computer.php` | High
-34 | File | `/export` | Low
-35 | File | `/food/admin/all_users.php` | High
-36 | File | `/forum/away.php` | High
-37 | File | `/goform/PowerSaveSet` | High
-38 | File | `/goform/SetClientState` | High
-39 | File | `/goform/SetFirewallCfg` | High
-40 | File | `/goform/setWorkmode` | High
-41 | File | `/goform/wizard_end` | High
-42 | File | `/home/get_tasks_list` | High
-43 | File | `/index.php` | Medium
-44 | File | `/isms/classes/Users.php` | High
-45 | File | `/lists/index.php` | High
-46 | File | `/MailAdmin_dll.htm` | High
-47 | File | `/members/view_member.php` | High
-48 | File | `/messageboard/view.php` | High
-49 | File | `/mhds/clinic/view_details.php` | High
-50 | File | `/modules/projects/vw_files.php` | High
-51 | File | `/myprofile.php` | High
-52 | File | `/net/tls/tls_sw.c` | High
-53 | File | `/newdriver.php` | High
-54 | File | `/ofrs/admin/?page=teams/view_team` | High
-55 | ... | ... | ...
+16 | File | `/ajax.php?action=save_category` | High
+17 | File | `/api/baskets/{name}` | High
+18 | File | `/bitrix/admin/ldap_server_edit.php` | High
+19 | File | `/blog/edit` | Medium
+20 | File | `/buscar_integrada.php` | High
+21 | File | `/cgi-bin/uploadWeiXinPic` | High
+22 | File | `/cgi-bin/wlogin.cgi` | High
+23 | File | `/classes/Master.php` | High
+24 | File | `/classes/Master.php?f=delete_category` | High
+25 | File | `/classes/Master.php?f=save_item` | High
+26 | File | `/config/php.ini` | High
+27 | File | `/data/remove` | Medium
+28 | File | `/debug/pprof` | Medium
+29 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
+30 | File | `/dms/admin/reports/daily_collection_report.php` | High
+31 | File | `/editprofile.php` | High
+32 | File | `/Employer/ManageWalkin.php` | High
+33 | File | `/endpoint/add-calorie.php` | High
+34 | File | `/endpoint/delete-computer.php` | High
+35 | File | `/endpoint/update.php` | High
+36 | File | `/export` | Low
+37 | File | `/food/admin/all_users.php` | High
+38 | File | `/forum/away.php` | High
+39 | File | `/goform/PowerSaveSet` | High
+40 | File | `/goform/SetClientState` | High
+41 | File | `/goform/SetFirewallCfg` | High
+42 | File | `/goform/setWorkmode` | High
+43 | File | `/goform/wizard_end` | High
+44 | File | `/home/get_tasks_list` | High
+45 | File | `/index.php` | Medium
+46 | File | `/isms/classes/Users.php` | High
+47 | File | `/jobportal/index.php` | High
+48 | File | `/lists/index.php` | High
+49 | File | `/MailAdmin_dll.htm` | High
+50 | File | `/members/view_member.php` | High
+51 | File | `/messageboard/view.php` | High
+52 | File | `/mhds/clinic/view_details.php` | High
+53 | File | `/modules/projects/vw_files.php` | High
+54 | File | `/myprofile.php` | High
+55 | File | `/net/tls/tls_sw.c` | High
+56 | ... | ... | ...
 
-There are 480 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 486 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -80,40 +80,40 @@ ID | Type | Indicator | Confidence
 15 | File | `/backend/register.php` | High
 16 | File | `/boat/login.php` | High
 17 | File | `/clinic/disease_symptoms_view.php` | High
-18 | File | `/dashboard/menu-list.php` | High
-19 | File | `/dashboard/table-list.php` | High
-20 | File | `/default.php?idx=17` | High
-21 | File | `/doctor/view-appointment-detail.php` | High
-22 | File | `/download` | Medium
-23 | File | `/downloadFile.php` | High
-24 | File | `/edit-client-details.php` | High
-25 | File | `/env` | Low
-26 | File | `/forum/away.php` | High
-27 | File | `/index.php` | Medium
-28 | File | `/member.php?action=chgpwdsubmit` | High
-29 | File | `/opt/bin/cli` | Medium
-30 | File | `/p` | Low
-31 | File | `/patient/doctors.php` | High
-32 | File | `/phpinventory/editcategory.php` | High
-33 | File | `/php_action/createUser.php` | High
-34 | File | `/product-list.php` | High
-35 | File | `/spip.php` | Medium
-36 | File | `/uapi/doc` | Medium
-37 | File | `/uncpath/` | Medium
-38 | File | `/updown/upload.cgi` | High
-39 | File | `/user/del.php` | High
-40 | File | `/web_cste/cgi-bin/product.ini` | High
-41 | File | `/wp-admin/admin-ajax.php` | High
-42 | File | `/_next` | Low
-43 | File | `123flashchat.php` | High
-44 | File | `act.php` | Low
-45 | File | `admin.php/pay` | High
-46 | File | `admin/bad.php` | High
-47 | File | `admin/index.php` | High
-48 | File | `admin/index.php/user/del/1` | High
+18 | File | `/config-manager/save` | High
+19 | File | `/dashboard/menu-list.php` | High
+20 | File | `/dashboard/table-list.php` | High
+21 | File | `/default.php?idx=17` | High
+22 | File | `/doctor/view-appointment-detail.php` | High
+23 | File | `/download` | Medium
+24 | File | `/downloadFile.php` | High
+25 | File | `/edit-client-details.php` | High
+26 | File | `/env` | Low
+27 | File | `/forum/away.php` | High
+28 | File | `/index.php` | Medium
+29 | File | `/member.php?action=chgpwdsubmit` | High
+30 | File | `/opt/bin/cli` | Medium
+31 | File | `/p` | Low
+32 | File | `/patient/doctors.php` | High
+33 | File | `/phpinventory/editcategory.php` | High
+34 | File | `/php_action/createUser.php` | High
+35 | File | `/product-list.php` | High
+36 | File | `/spip.php` | Medium
+37 | File | `/uapi/doc` | Medium
+38 | File | `/uncpath/` | Medium
+39 | File | `/updown/upload.cgi` | High
+40 | File | `/user/del.php` | High
+41 | File | `/web_cste/cgi-bin/product.ini` | High
+42 | File | `/wp-admin/admin-ajax.php` | High
+43 | File | `/_next` | Low
+44 | File | `123flashchat.php` | High
+45 | File | `act.php` | Low
+46 | File | `admin.php/pay` | High
+47 | File | `admin/bad.php` | High
+48 | File | `admin/index.php` | High
 49 | ... | ... | ...
 
-There are 425 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 427 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

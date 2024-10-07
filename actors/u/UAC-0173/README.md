@@ -34,12 +34,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Path Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-425 | Path Traversal | High
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+6 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+7 | ... | ... | ... | ...
 
 There are 22 more TTP items available. Please use our online service to access the data.
 
@@ -63,38 +64,37 @@ ID | Type | Indicator | Confidence
 12 | File | `/applications/nexus/modules/front/store/store.php` | High
 13 | File | `/apply.cgi` | Medium
 14 | File | `/bitrix/admin/ldap_server_edit.php` | High
-15 | File | `/cgi-bin/cstecgi.cgi` | High
-16 | File | `/cgi-bin/nas_sharing.cgi` | High
-17 | File | `/cgi-bin/photocenter_mgr.cgi` | High
-18 | File | `/cgi-bin/wlogin.cgi` | High
-19 | File | `/classes/Master.php` | High
-20 | File | `/classes/Master.php?f=save_category` | High
-21 | File | `/classes/Users.php?f=save` | High
-22 | File | `/College/admin/teacher.php` | High
-23 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
-24 | File | `/dcim/rack-roles/` | High
-25 | File | `/debuginfo.htm` | High
-26 | File | `/etc/passwd` | Medium
-27 | File | `/etc/quagga` | Medium
-28 | File | `/fftools/ffmpeg_enc.c` | High
-29 | File | `/forms/doLogin` | High
-30 | File | `/formSysLog` | Medium
-31 | File | `/forum/away.php` | High
-32 | File | `/goform/addUserName` | High
-33 | File | `/goform/aspForm` | High
-34 | File | `/goform/delAd` | High
-35 | File | `/goform/SetOnlineDevName` | High
-36 | File | `/goform/wifiSSIDset` | High
-37 | File | `/h/autoSaveDraft` | High
-38 | File | `/image.php` | Medium
-39 | File | `/inc/topBarNav.php` | High
-40 | File | `/includes/common/require_access_recovery.php` | High
-41 | File | `/index.php` | Medium
-42 | File | `/index.php?app=main&func=passport&action=login` | High
-43 | File | `/install/` | Medium
-44 | ... | ... | ...
+15 | File | `/cgi-bin/apkg_mgr.cgi` | High
+16 | File | `/cgi-bin/cstecgi.cgi` | High
+17 | File | `/cgi-bin/nas_sharing.cgi` | High
+18 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+19 | File | `/cgi-bin/wlogin.cgi` | High
+20 | File | `/classes/Master.php` | High
+21 | File | `/classes/Master.php?f=delete_record` | High
+22 | File | `/classes/Master.php?f=save_category` | High
+23 | File | `/classes/SystemSettings.php?f=update_settings` | High
+24 | File | `/classes/Users.php?f=save` | High
+25 | File | `/College/admin/teacher.php` | High
+26 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
+27 | File | `/dcim/rack-roles/` | High
+28 | File | `/debuginfo.htm` | High
+29 | File | `/detailed.php` | High
+30 | File | `/dtale/chart-data/1` | High
+31 | File | `/etc/passwd` | Medium
+32 | File | `/etc/shadow.sample` | High
+33 | File | `/fftools/ffmpeg_enc.c` | High
+34 | File | `/filter.php` | Medium
+35 | File | `/forms/doLogin` | High
+36 | File | `/formSysLog` | Medium
+37 | File | `/forum/away.php` | High
+38 | File | `/goform/aspForm` | High
+39 | File | `/goform/SetOnlineDevName` | High
+40 | File | `/h.php/page?ref=addtabs` | High
+41 | File | `/h/autoSaveDraft` | High
+42 | File | `/image.php` | Medium
+43 | ... | ... | ...
 
-There are 378 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 373 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

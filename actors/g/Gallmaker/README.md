@@ -47,21 +47,22 @@ ID | Type | Indicator | Confidence
 3 | File | `/adminPage/conf/reload` | High
 4 | File | `/api/baskets/{name}` | High
 5 | File | `/api/v2/cli/commands` | High
-6 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
-7 | File | `/DXR.axd` | Medium
-8 | File | `/forum/away.php` | High
-9 | File | `/log/decodmail.php` | High
-10 | File | `/mfsNotice/page` | High
-11 | File | `/novel/bookSetting/list` | High
-12 | File | `/novel/userFeedback/list` | High
-13 | File | `/owa/auth/logon.aspx` | High
-14 | File | `/register.php` | High
-15 | File | `/spip.php` | Medium
-16 | File | `/ueditor/net/controller.ashx?action=catchimage` | High
-17 | File | `/x_portal_assemble_surface/jaxrs/portal/list?v=8.2.3-4-43f4fe3` | High
-18 | ... | ... | ...
+6 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+7 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
+8 | File | `/DXR.axd` | Medium
+9 | File | `/forum/away.php` | High
+10 | File | `/index/ajax/lang` | High
+11 | File | `/log/decodmail.php` | High
+12 | File | `/mfsNotice/page` | High
+13 | File | `/novel/bookSetting/list` | High
+14 | File | `/novel/userFeedback/list` | High
+15 | File | `/owa/auth/logon.aspx` | High
+16 | File | `/register.php` | High
+17 | File | `/spip.php` | Medium
+18 | File | `/ueditor/net/controller.ashx?action=catchimage` | High
+19 | ... | ... | ...
 
-There are 151 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 158 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

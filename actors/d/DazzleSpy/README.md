@@ -29,7 +29,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1505 | CWE-89 | SQL Injection | High
 4 | ... | ... | ... | ...
 
-There are 2 more TTP items available. Please use our online service to access the data.
+There are 3 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -37,9 +37,12 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `myform.php` | Medium
-2 | Argument | `name` | Low
-3 | Argument | `nx_id` | Low
+1 | File | `/ueditor/php/controller.php?action=uploadfile&encode=utf-8` | High
+2 | File | `myform.php` | Medium
+3 | Argument | `name` | Low
+4 | ... | ... | ...
+
+There are 2 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

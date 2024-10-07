@@ -4,6 +4,12 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.powload](https://vuldb.com/?actor.powload)
 
+## Countries
+
+These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Powload:
+
+* [PL](https://vuldb.com/?country.pl)
+
 ## IOC - Indicator of Compromise
 
 These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of Powload.
@@ -161,7 +167,7 @@ ID | Type | Indicator | Confidence
 119 | File | `/endpoint/add-image.php` | High
 120 | ... | ... | ...
 
-There are 1064 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 1063 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

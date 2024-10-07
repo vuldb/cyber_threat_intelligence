@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -51,7 +51,7 @@ ID | IP address | Hostname | Actor | Confidence
 19 | [34.159.180.55](https://vuldb.com/?ip.34.159.180.55) | 55.180.159.34.bc.googleusercontent.com | [SectopRAT](https://vuldb.com/?actor.sectoprat) | Medium
 20 | ... | ... | ... | ...
 
-There are 74 more IOC items available. Please use our online service to access the data.
+There are 76 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -81,55 +81,62 @@ ID | Type | Indicator | Confidence
 5 | File | `.tin` | Low
 6 | File | `/+CSCOE+/logon.html` | High
 7 | File | `//proc/kcore` | Medium
-8 | File | `/admin/emp-profile-avatar.php` | High
-9 | File | `/admin/searchview.php` | High
-10 | File | `/api/v1/bait/set` | High
-11 | File | `/asms/classes/Master.php?f=delete_img` | High
-12 | File | `/bolt/editcontent/showcases` | High
-13 | File | `/cgi-bin/` | Medium
-14 | File | `/cgi-bin/system_mgr.cgi` | High
-15 | File | `/configs/application.ini` | High
-16 | File | `/coreframe/app/pay/admin/index.php` | High
-17 | File | `/forum/away.php` | High
-18 | File | `/healthcare/Admin/consulting_detail.php` | High
-19 | File | `/librarian/bookdetails.php` | High
-20 | File | `/lists/index.php` | High
-21 | File | `/opac/Actions.php?a=login` | High
-22 | File | `/protocol/iscuser/uploadiscuser.php` | High
-23 | File | `/public/launchNewWindow.jsp` | High
-24 | File | `/public/login.htm` | High
-25 | File | `/resume_upload.php` | High
-26 | File | `/rpc/membership/setProfile` | High
-27 | File | `/simple_chat_bot/admin/?page=responses/manage_response` | High
-28 | File | `/spacecom/login.php` | High
-29 | File | `/spip.php` | Medium
-30 | File | `/staff/bookdetails.php` | High
-31 | File | `/tmp` | Low
-32 | File | `/tour/admin/file.php` | High
-33 | File | `/usr/bin/sonia` | High
-34 | File | `/usr/ucb/mail` | High
-35 | File | `/var/spool/fax/outgoing/.last_run` | High
-36 | File | `/_next` | Low
-37 | File | `5.php` | Low
-38 | File | `123flashchat.php` | High
-39 | File | `about.php` | Medium
-40 | File | `account.php` | Medium
-41 | File | `adclick.php` | Medium
-42 | File | `add-phlebotomist.php` | High
-43 | File | `add.php` | Low
-44 | File | `addtomylist.asp` | High
-45 | File | `admin.color.php` | High
-46 | File | `admin/addons/archive/archive.php` | High
-47 | File | `admin/profile_settings_net.html` | High
-48 | File | `admincp/auth/secure.php` | High
-49 | File | `adminer.php` | Medium
-50 | File | `Administrator/add_pictures.php` | High
-51 | File | `advsearch.php` | High
-52 | File | `af_netlink.c` | Medium
-53 | File | `ajax_officebuilding.php` | High
-54 | ... | ... | ...
+8 | File | `/admin.php?m=Acquisi&a=testcj&lid=1` | High
+9 | File | `/admin/admin-update-employee.php` | High
+10 | File | `/admin/blood/update/o-.php` | High
+11 | File | `/admin/dialog/select_images_post.php` | High
+12 | File | `/admin/emp-profile-avatar.php` | High
+13 | File | `/admin/forms/add/step2.php?submission_type=direct` | High
+14 | File | `/admin/inventory/manage_stock.php` | High
+15 | File | `/admin/notes/create` | High
+16 | File | `/admin/searchview.php` | High
+17 | File | `/api/v1/bait/set` | High
+18 | File | `/asms/classes/Master.php?f=delete_img` | High
+19 | File | `/bolt/editcontent/showcases` | High
+20 | File | `/cgi-bin/` | Medium
+21 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+22 | File | `/cgi-bin/system_mgr.cgi` | High
+23 | File | `/classes/Master.php?f=delete_category` | High
+24 | File | `/classes/Users.php?f=save_client` | High
+25 | File | `/configs/application.ini` | High
+26 | File | `/coreframe/app/pay/admin/index.php` | High
+27 | File | `/download/file` | High
+28 | File | `/endpoint/delete-bookmark.php` | High
+29 | File | `/endpoint/delete-student.php` | High
+30 | File | `/foms/routers/cancel-order.php` | High
+31 | File | `/forget.php` | Medium
+32 | File | `/forum/away.php` | High
+33 | File | `/goform/formSetEnableWizard` | High
+34 | File | `/healthcare/Admin/consulting_detail.php` | High
+35 | File | `/index.php` | Medium
+36 | File | `/index.php?id=userProfileEdit` | High
+37 | File | `/librarian/bookdetails.php` | High
+38 | File | `/lists/index.php` | High
+39 | File | `/mfeedback.php` | High
+40 | File | `/opac/Actions.php?a=login` | High
+41 | File | `/php-ocls/classes/Master.php?f=pay_order` | High
+42 | File | `/php-ycrs/classes/SystemSettings.php` | High
+43 | File | `/pms/ajax/get_packings.php` | High
+44 | File | `/protocol/iscuser/uploadiscuser.php` | High
+45 | File | `/public/launchNewWindow.jsp` | High
+46 | File | `/public/login.htm` | High
+47 | File | `/rental_0/rental/ajax.php?action=save_tenant` | High
+48 | File | `/resume_upload.php` | High
+49 | File | `/rpc/membership/setProfile` | High
+50 | File | `/simple-online-bidding-system/bidding/admin/users.php` | High
+51 | File | `/simple_chat_bot/admin/?page=responses/manage_response` | High
+52 | File | `/spacecom/login.php` | High
+53 | File | `/spip.php` | Medium
+54 | File | `/staff/bookdetails.php` | High
+55 | File | `/tmp` | Low
+56 | File | `/tour/admin/file.php` | High
+57 | File | `/uploadImage/Profile/` | High
+58 | File | `/usr/bin/sonia` | High
+59 | File | `/usr/ucb/mail` | High
+60 | File | `/var/spool/fax/outgoing/.last_run` | High
+61 | ... | ... | ...
 
-There are 468 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 529 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -139,8 +146,10 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://community.blueliv.com/#!/s/602f934182df413eaf345e6a
 * https://de.darktrace.com/blog/not-your-average-rodent-darktraces-mitigation-of-the-sectop-remote-access-trojan-rat
 * https://github.com/esThreatIntelligence/iocs/blob/main/FakeBat/iocs_3-25-2024.txt
+* https://search.censys.io/hosts/45.88.104.78
 * https://search.censys.io/hosts/45.141.87.50
 * https://search.censys.io/hosts/94.181.229.249
+* https://search.censys.io/hosts/176.9.66.115
 * https://search.censys.io/hosts/194.26.29.112
 * https://threatfox.abuse.ch
 * https://twitter.com/AnFam17/status/1658666291308163072

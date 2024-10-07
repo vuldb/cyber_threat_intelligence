@@ -62,41 +62,43 @@ ID | Type | Indicator | Confidence
 10 | File | `/cgi-bin/system_mgr.cgi` | High
 11 | File | `/classes/Master.php?f=delete_message` | High
 12 | File | `/controller/pay.class.php` | High
-13 | File | `/forgetpassword.php` | High
-14 | File | `/goform/Diagnosis` | High
-15 | File | `/HNAP1` | Low
-16 | File | `/index.php` | Medium
-17 | File | `/insurance/clientStatus.php` | High
-18 | File | `/jart/prj3/solve_direct/main.jart` | High
-19 | File | `/linkedcontent/listfiles.php` | High
-20 | File | `/module/admin_notifiers/rules.php` | High
-21 | File | `/rapi/read_url` | High
-22 | File | `/service-list` | High
-23 | File | `/supervisor/procesa_carga.php` | High
-24 | File | `/test/cookie/` | High
-25 | File | `/timeline2.php` | High
-26 | File | `/tmp/foo2zjs` | Medium
-27 | File | `/tmp/kamailio_fifo` | High
-28 | File | `/usr/bin/tddp` | High
-29 | File | `add.php` | Low
-30 | File | `addtocart.asp` | High
-31 | File | `add_edit_event.php` | High
-32 | File | `admin.php` | Medium
-33 | File | `admin/graph_trend.php` | High
-34 | File | `admin/manage-comments.php` | High
-35 | File | `admin/moduleinterface.php` | High
-36 | File | `adminpanel/modules/pro/inc/ajax.php` | High
-37 | File | `admin\db\DoSql.php` | High
-38 | File | `admin_class.php` | High
-39 | File | `aide.php3` | Medium
-40 | File | `ajax/ph_save.php` | High
-41 | File | `all-offers/` | Medium
-42 | File | `ansible.cfg` | Medium
-43 | File | `Ap4EsDescriptor.cpp` | High
-44 | File | `app/plug/controller/giftcontroller.php` | High
-45 | ... | ... | ...
+13 | File | `/controllers/add_client.php` | High
+14 | File | `/forgetpassword.php` | High
+15 | File | `/goform/Diagnosis` | High
+16 | File | `/HNAP1` | Low
+17 | File | `/index.php` | Medium
+18 | File | `/insurance/clientStatus.php` | High
+19 | File | `/jart/prj3/solve_direct/main.jart` | High
+20 | File | `/linkedcontent/listfiles.php` | High
+21 | File | `/module/admin_notifiers/rules.php` | High
+22 | File | `/rapi/read_url` | High
+23 | File | `/service-list` | High
+24 | File | `/supervisor/procesa_carga.php` | High
+25 | File | `/test/cookie/` | High
+26 | File | `/timeline2.php` | High
+27 | File | `/tmp/foo2zjs` | Medium
+28 | File | `/tmp/kamailio_fifo` | High
+29 | File | `/usr/bin/tddp` | High
+30 | File | `add.php` | Low
+31 | File | `addtocart.asp` | High
+32 | File | `add_edit_event.php` | High
+33 | File | `admin.php` | Medium
+34 | File | `admin/graph_trend.php` | High
+35 | File | `admin/manage-comments.php` | High
+36 | File | `admin/moduleinterface.php` | High
+37 | File | `adminpanel/modules/pro/inc/ajax.php` | High
+38 | File | `admin\db\DoSql.php` | High
+39 | File | `admin_class.php` | High
+40 | File | `aide.php3` | Medium
+41 | File | `ajax/ph_save.php` | High
+42 | File | `all-offers/` | Medium
+43 | File | `ansible.cfg` | Medium
+44 | File | `Ap4EsDescriptor.cpp` | High
+45 | File | `app/plug/controller/giftcontroller.php` | High
+46 | File | `arch/arm/kernel/process.c` | High
+47 | ... | ... | ...
 
-There are 393 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 405 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

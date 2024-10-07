@@ -53,7 +53,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 15 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -69,23 +69,24 @@ ID | Type | Indicator | Confidence
 6 | File | `/admin/manage_model.php` | High
 7 | File | `/admin/manage_user.php` | High
 8 | File | `/admin/subject.php` | High
-9 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-10 | File | `/catalog/all-products` | High
-11 | File | `/cgi-bin/cstecgi.cgi` | High
-12 | File | `/changePassword` | High
-13 | File | `/edit-subject.php` | High
-14 | File | `/edit.php` | Medium
-15 | File | `/endpoint/add-user.php` | High
-16 | File | `/etc/postfix/sender_login` | High
-17 | File | `/file-manager/upload.php` | High
-18 | File | `/forum/away.php` | High
-19 | File | `/goform/SetDDNSCfg` | High
-20 | File | `/goform/SetSysTimeCfg` | High
-21 | File | `/goform/wifiSSIDget` | High
-22 | File | `/index/ajax/lang` | High
-23 | ... | ... | ...
+9 | File | `/api2/html/` | Medium
+10 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+11 | File | `/catalog/all-products` | High
+12 | File | `/cgi-bin/cstecgi.cgi` | High
+13 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+14 | File | `/changePassword` | High
+15 | File | `/classes/SystemSettings.php?f=update_settings` | High
+16 | File | `/cloudstore/ecode/setup/ecology_dev.zip` | High
+17 | File | `/edit-subject.php` | High
+18 | File | `/edit.php` | Medium
+19 | File | `/endpoint/add-user.php` | High
+20 | File | `/etc/postfix/sender_login` | High
+21 | File | `/file-manager/upload.php` | High
+22 | File | `/foms/routers/place-order.php` | High
+23 | File | `/forum/away.php` | High
+24 | ... | ... | ...
 
-There are 188 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 199 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

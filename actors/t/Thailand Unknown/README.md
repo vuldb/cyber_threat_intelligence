@@ -570,7 +570,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1068 | CWE-250, CWE-264, CWE-266, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -578,57 +578,66 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/.pomerium` | Medium
-2 | File | `/admin/add_ikev2.php` | High
-3 | File | `/admin/ajax.php?action=delete_user` | High
-4 | File | `/Admin/changepassword.php` | High
-5 | File | `/admin/court` | Medium
-6 | File | `/Admin/createClass.php` | High
-7 | File | `/admin/div_data/data` | High
-8 | File | `/admin/general-setting` | High
-9 | File | `/admin/inquiries/view_inquiry.php` | High
-10 | File | `/admin/list_ipAddressPolicy.php` | High
-11 | File | `/admin/maintenance/manage_brand.php` | High
-12 | File | `/admin/media_folders` | High
-13 | File | `/admin/memberOnline_deal.php?mudi=del&dataType=&dataID=6` | High
-14 | File | `/admin/problem_judge.php` | High
-15 | File | `/admin/projects/{projectname}/skills/{skillname}/video` | High
-16 | File | `/admin/service` | High
-17 | File | `/ajax.php` | Medium
-18 | File | `/api/v1/custom_component` | High
-19 | File | `/AttendanceMonitoring/report/index.php` | High
-20 | File | `/blog/blog.php` | High
-21 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-22 | File | `/catalog/admin/categories.php?cPath=&action=new_product` | High
-23 | File | `/catalog/all-products` | High
-24 | File | `/cgi-bin/cstecgi.cgi` | High
-25 | File | `/cgi-bin/nas_sharing.cgi` | High
-26 | File | `/classes/Master.php` | High
-27 | File | `/classes/Master.php?f=delete_category` | High
-28 | File | `/classes/Master.php?f=log_employee` | High
-29 | File | `/classes/Master.php?f=save_medicine` | High
-30 | File | `/classes/Master.php?f=save_package` | High
-31 | File | `/classes/Users.php?f=delete` | High
-32 | File | `/classes/Users.php?f=save` | High
-33 | File | `/College/admin/teacher.php` | High
-34 | File | `/conf/app.conf` | High
-35 | File | `/DXR.axd` | Medium
-36 | File | `/endpoint/add-user.php` | High
-37 | File | `/etc/postfix/sender_login` | High
-38 | File | `/etc/shadow` | Medium
-39 | File | `/file/upload/1` | High
-40 | File | `/forum/away.php` | High
-41 | File | `/goform/SetIpMacBind` | High
-42 | File | `/goform/VirtualSer` | High
-43 | File | `/goform/WifiExtraSet` | High
-44 | File | `/guestbook` | Medium
-45 | File | `/index.php` | Medium
-46 | File | `/index.php?action=profile;u=2;area=showalerts;do=read` | High
-47 | File | `/js/player/dmplayer/dmku/?ac=edit` | High
-48 | File | `/labvantage/rc?command=page&page=SampleHistoricalList&_iframename=list&__crc=crc_1701669816260` | High
-49 | ... | ... | ...
+1 | File | `/+CSCOE+/logon.html` | High
+2 | File | `/.pomerium` | Medium
+3 | File | `/admin/?page=bike` | High
+4 | File | `/admin/?page=categories/view_category` | High
+5 | File | `/admin/?page=musics/manage_music` | High
+6 | File | `/admin/add_ikev2.php` | High
+7 | File | `/admin/ajax.php?action=delete_user` | High
+8 | File | `/admin/category_save.php` | High
+9 | File | `/admin/div_data/data` | High
+10 | File | `/admin/emp-profile-avatar.php` | High
+11 | File | `/admin/inquiries/view_inquiry.php` | High
+12 | File | `/admin/list_ipAddressPolicy.php` | High
+13 | File | `/admin/login.php` | High
+14 | File | `/admin/manage_model.php` | High
+15 | File | `/admin/manage_user.php` | High
+16 | File | `/admin/media_folders` | High
+17 | File | `/admin/memberOnline_deal.php?mudi=del&dataType=&dataID=6` | High
+18 | File | `/admin/order.php` | High
+19 | File | `/admin/projects/{projectname}/skills/{skillname}/video` | High
+20 | File | `/admin/robot.php` | High
+21 | File | `/admin/subject.php` | High
+22 | File | `/admin/users.php` | High
+23 | File | `/ajax.php` | Medium
+24 | File | `/api/v1/custom_component` | High
+25 | File | `/AttendanceMonitoring/report/index.php` | High
+26 | File | `/authMonitCallcenter` | High
+27 | File | `/backend/register.php` | High
+28 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+29 | File | `/car-rental-management-system/admin/index.php?page=manage_car` | High
+30 | File | `/cgi-bin/cstecgi.cgi` | High
+31 | File | `/cgi-bin/hd_config.cgi` | High
+32 | File | `/cgi-bin/nas_sharing.cgi` | High
+33 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+34 | File | `/classes/Master.php` | High
+35 | File | `/classes/Master.php?f=delete_category` | High
+36 | File | `/classes/Master.php?f=log_employee` | High
+37 | File | `/classes/Master.php?f=save_medicine` | High
+38 | File | `/classes/Master.php?f=save_package` | High
+39 | File | `/classes/SystemSettings.php?f=update_settings` | High
+40 | File | `/classes/Users.php?f=delete` | High
+41 | File | `/classes/Users.php?f=save` | High
+42 | File | `/cloudstore/ecode/setup/ecology_dev.zip` | High
+43 | File | `/cms/category/list` | High
+44 | File | `/downloadFile.php` | High
+45 | File | `/dtale/chart-data/1` | High
+46 | File | `/DXR.axd` | Medium
+47 | File | `/edit-subject.php` | High
+48 | File | `/endpoint/add-folder.php` | High
+49 | File | `/endpoint/add-task.php` | High
+50 | File | `/endpoint/add-user.php` | High
+51 | File | `/endpoint/delete-calorie.php` | High
+52 | File | `/etc/postfix/sender_login` | High
+53 | File | `/etc/shadow` | Medium
+54 | File | `/file/upload/1` | High
+55 | File | `/file_manager/login.php` | High
+56 | File | `/film-rating.php` | High
+57 | File | `/filter.php` | Medium
+58 | ... | ... | ...
 
-There are 423 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 506 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

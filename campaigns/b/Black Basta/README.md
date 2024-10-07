@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 29 more country items available. Please use our online service to access the data.
+There are 31 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -96,36 +96,36 @@ ID | Type | Indicator | Confidence
 20 | File | `/home/filter_listings` | High
 21 | File | `/horde/imp/search.php` | High
 22 | File | `/ims/login.php` | High
-23 | File | `/index.php` | Medium
-24 | File | `/jsoa/hntdCustomDesktopActionContent` | High
-25 | File | `/LEPTON_stable_2.2.2/upload/admins/media/index.php` | High
-26 | File | `/login` | Low
-27 | File | `/messageboard/view.php` | High
-28 | File | `/modules/projects/vw_files.php` | High
-29 | File | `/netflow/servlet/CReportPDFServlet` | High
-30 | File | `/oauth/idp/.well-known/openid-configuration` | High
-31 | File | `/opensis/modules/grades/InputFinalGrades.php` | High
-32 | File | `/opensis/modules/users/Staff.php` | High
-33 | File | `/out.php` | Medium
-34 | File | `/pages/short_to_long.php` | High
-35 | File | `/php-opos/index.php` | High
-36 | File | `/plesk-site-preview/` | High
-37 | File | `/proc/self/environ` | High
-38 | File | `/protocol/iscgwtunnel/uploadiscgwrouteconf.php` | High
-39 | File | `/rest/api/2/user/picker` | High
+23 | File | `/inc/modules_install.php` | High
+24 | File | `/index.php` | Medium
+25 | File | `/jsoa/hntdCustomDesktopActionContent` | High
+26 | File | `/LEPTON_stable_2.2.2/upload/admins/media/index.php` | High
+27 | File | `/login` | Low
+28 | File | `/messageboard/view.php` | High
+29 | File | `/modules/projects/vw_files.php` | High
+30 | File | `/netflow/servlet/CReportPDFServlet` | High
+31 | File | `/oauth/idp/.well-known/openid-configuration` | High
+32 | File | `/opensis/modules/grades/InputFinalGrades.php` | High
+33 | File | `/opensis/modules/users/Staff.php` | High
+34 | File | `/out.php` | Medium
+35 | File | `/pages/short_to_long.php` | High
+36 | File | `/php-opos/index.php` | High
+37 | File | `/plesk-site-preview/` | High
+38 | File | `/proc/self/environ` | High
+39 | File | `/protocol/iscgwtunnel/uploadiscgwrouteconf.php` | High
 40 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-41 | File | `/secure/QueryComponent!Default.jspa` | High
-42 | File | `/sendrcpackage?keyid=-2544&keysymbol=-4081` | High
-43 | File | `/spip.php` | Medium
-44 | File | `/SystemMng.ashx` | High
-45 | File | `/usr/bin/at` | Medium
-46 | File | `/var/WEB-GUI/cgi-bin/downloadfile.cgi` | High
-47 | File | `/vicidial/user_stats.php` | High
-48 | File | `/vm/admin/doctors.php` | High
-49 | File | `/websocket/exec` | High
-50 | File | `access.conf` | Medium
-51 | File | `action.php` | Medium
-52 | File | `actions.class.php` | High
+41 | File | `/sendrcpackage?keyid=-2544&keysymbol=-4081` | High
+42 | File | `/spip.php` | Medium
+43 | File | `/SystemMng.ashx` | High
+44 | File | `/usr/bin/at` | Medium
+45 | File | `/var/WEB-GUI/cgi-bin/downloadfile.cgi` | High
+46 | File | `/vicidial/user_stats.php` | High
+47 | File | `/vm/admin/doctors.php` | High
+48 | File | `/websocket/exec` | High
+49 | File | `access.conf` | Medium
+50 | File | `action.php` | Medium
+51 | File | `actions.class.php` | High
+52 | File | `acu_web` | Low
 53 | File | `adclick.php` | Medium
 54 | File | `addsuppliers.php` | High
 55 | File | `admin.php` | Medium
@@ -137,7 +137,7 @@ ID | Type | Indicator | Confidence
 61 | File | `advancedsetup_websiteblocking.html` | High
 62 | ... | ... | ...
 
-There are 542 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 539 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -46,9 +46,10 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80, CWE-85 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -65,20 +66,22 @@ ID | Type | Indicator | Confidence
 7 | File | `/admin/pages/` | High
 8 | File | `/admin/subject.php` | High
 9 | File | `/admins` | Low
-10 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-11 | File | `/catalog/all-products` | High
-12 | File | `/cgi-bin/cstecgi.cgi` | High
-13 | File | `/cgi-bin/wlogin.cgi` | High
-14 | File | `/changePassword` | High
-15 | File | `/edit-subject.php` | High
-16 | File | `/endpoint/add-user.php` | High
-17 | File | `/etc/postfix/sender_login` | High
-18 | File | `/farm/product.php` | High
-19 | File | `/forum/away.php` | High
-20 | File | `/goform/DelDhcpRule` | High
-21 | ... | ... | ...
+10 | File | `/ajax/getBasicInfo.php` | High
+11 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+12 | File | `/catalog/all-products` | High
+13 | File | `/cgi-bin/cstecgi.cgi` | High
+14 | File | `/cgi-bin/wlogin.cgi` | High
+15 | File | `/changePassword` | High
+16 | File | `/clientdetails/admin/regester.php` | High
+17 | File | `/cloudstore/ecode/setup/ecology_dev.zip` | High
+18 | File | `/edit-subject.php` | High
+19 | File | `/endpoint/add-user.php` | High
+20 | File | `/etc/postfix/sender_login` | High
+21 | File | `/farm/product.php` | High
+22 | File | `/foms/routers/place-order.php` | High
+23 | ... | ... | ...
 
-There are 177 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 187 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

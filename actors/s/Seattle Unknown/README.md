@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 3 more country items available. Please use our online service to access the data.
+There are 4 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -129,26 +129,28 @@ ID | Type | Indicator | Confidence
 3 | File | `/admin/admin-profile.php` | High
 4 | File | `/admin/admin.php` | High
 5 | File | `/admin/bookdate.php` | High
-6 | File | `/admin/employee_add.php` | High
-7 | File | `/admin/manage-ambulance.php` | High
-8 | File | `/admin/manage-users.php` | High
-9 | File | `/admin/offenses/view_details.php` | High
-10 | File | `/admin/students/update_status.php` | High
-11 | File | `/api/controllers/merchant/design/MaterialController.php` | High
-12 | File | `/application/index/controller/Databasesource.php` | High
-13 | File | `/assets/something/services/AppModule.class` | High
-14 | File | `/billing/bill/edit/` | High
-15 | File | `/bsms_ci/index.php/user/edit_user/` | High
-16 | File | `/cgi-bin/nas_sharing.cgi` | High
-17 | File | `/classes/Master.php` | High
-18 | File | `/classes/Users.php?f=delete` | High
-19 | File | `/edit.php` | Medium
-20 | File | `/feeds/post/publish` | High
-21 | File | `/forum/away.php` | High
-22 | File | `/goform/openSchedWifi` | High
-23 | ... | ... | ...
+6 | File | `/admin/emp-profile-avatar.php` | High
+7 | File | `/admin/employee_add.php` | High
+8 | File | `/admin/manage-ambulance.php` | High
+9 | File | `/admin/manage-users.php` | High
+10 | File | `/admin/offenses/view_details.php` | High
+11 | File | `/admin/students/update_status.php` | High
+12 | File | `/api/controllers/merchant/design/MaterialController.php` | High
+13 | File | `/application/index/controller/Databasesource.php` | High
+14 | File | `/assets/something/services/AppModule.class` | High
+15 | File | `/billing/bill/edit/` | High
+16 | File | `/bsms_ci/index.php/user/edit_user/` | High
+17 | File | `/cgi-bin/nas_sharing.cgi` | High
+18 | File | `/cgi-bin/p1_ftpserver.php` | High
+19 | File | `/classes/Master.php` | High
+20 | File | `/classes/SystemSettings.php?f=update_settings` | High
+21 | File | `/classes/Users.php?f=delete` | High
+22 | File | `/devinfo` | Medium
+23 | File | `/edit.php` | Medium
+24 | File | `/endpoint/update-bookmark.php` | High
+25 | ... | ... | ...
 
-There are 193 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 209 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

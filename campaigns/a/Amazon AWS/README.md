@@ -58,10 +58,9 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+5 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -78,49 +77,49 @@ ID | Type | Indicator | Confidence
 7 | File | `/admin/action/delete-vaccine.php` | High
 8 | File | `/admin/delete.php` | High
 9 | File | `/admin/div_data/delete?divId=9` | High
-10 | File | `/admin/edit-post.php` | High
-11 | File | `/admin/index.php` | High
-12 | File | `/admin/index2.html` | High
-13 | File | `/admin/sales/view_details.php` | High
-14 | File | `/admin/view_order.php` | High
-15 | File | `/api/cron/settings/setJob/` | High
-16 | File | `/api/objects/recipes` | High
-17 | File | `/api/sys/set_passwd` | High
-18 | File | `/app/index/controller/Common.php` | High
-19 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
-20 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
-21 | File | `/applications/nexus/modules/front/store/store.php` | High
-22 | File | `/bitrix/admin/ldap_server_edit.php` | High
-23 | File | `/boaform/wlan_basic_set.cgi` | High
-24 | File | `/cgi-bin/apkg_mgr.cgi` | High
-25 | File | `/cgi-bin/cstecgi.cgi` | High
-26 | File | `/cgi-bin/nas_sharing.cgi` | High
-27 | File | `/cgi-bin/photocenter_mgr.cgi` | High
-28 | File | `/cgi-bin/wlogin.cgi` | High
-29 | File | `/classes/Master.php` | High
-30 | File | `/classes/Master.php?f=delete_record` | High
-31 | File | `/classes/Master.php?f=save_category` | High
-32 | File | `/classes/Master.php?f=save_item` | High
+10 | File | `/admin/doAdminAction.php?act=addCate` | High
+11 | File | `/admin/edit-post.php` | High
+12 | File | `/admin/index.php` | High
+13 | File | `/admin/index2.html` | High
+14 | File | `/admin/sales/view_details.php` | High
+15 | File | `/admin/view_order.php` | High
+16 | File | `/api/cron/settings/setJob/` | High
+17 | File | `/api/objects/recipes` | High
+18 | File | `/api/sys/set_passwd` | High
+19 | File | `/app/index/controller/Common.php` | High
+20 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
+21 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
+22 | File | `/applications/nexus/modules/front/store/store.php` | High
+23 | File | `/bitrix/admin/ldap_server_edit.php` | High
+24 | File | `/boaform/wlan_basic_set.cgi` | High
+25 | File | `/cgi-bin/apkg_mgr.cgi` | High
+26 | File | `/cgi-bin/cstecgi.cgi` | High
+27 | File | `/cgi-bin/nas_sharing.cgi` | High
+28 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+29 | File | `/cgi-bin/wlogin.cgi` | High
+30 | File | `/classes/Master.php` | High
+31 | File | `/classes/Master.php?f=delete_record` | High
+32 | File | `/classes/Master.php?f=save_category` | High
 33 | File | `/classes/SystemSettings.php?f=update_settings` | High
 34 | File | `/classes/Users.php?f=save` | High
 35 | File | `/cwp_{SESSION_HASH}/admin/loader_ajax.php` | High
 36 | File | `/dashboard/system/basics/name` | High
-37 | File | `/E-Insurance/` | High
-38 | File | `/employee_gatepass/classes/Master.php?f=delete_department` | High
-39 | File | `/endpoint/update-computer.php` | High
-40 | File | `/etc/shadow` | Medium
-41 | File | `/fftools/ffmpeg_enc.c` | High
-42 | File | `/forms/doLogin` | High
-43 | File | `/formSysLog` | Medium
-44 | File | `/forum/away.php` | High
-45 | File | `/goform/SetOnlineDevName` | High
-46 | File | `/goform/WifiExtraSet` | High
-47 | File | `/h.php/page?ref=addtabs` | High
-48 | File | `/h/autoSaveDraft` | High
-49 | File | `/I/list.php` | Medium
+37 | File | `/debug/pprof` | Medium
+38 | File | `/detailed.php` | High
+39 | File | `/dtale/chart-data/1` | High
+40 | File | `/E-Insurance/` | High
+41 | File | `/employee_gatepass/classes/Master.php?f=delete_department` | High
+42 | File | `/endpoint/update-computer.php` | High
+43 | File | `/etc/shadow` | Medium
+44 | File | `/etc/shadow.sample` | High
+45 | File | `/fftools/ffmpeg_enc.c` | High
+46 | File | `/filter.php` | Medium
+47 | File | `/forms/doLogin` | High
+48 | File | `/formSysLog` | Medium
+49 | File | `/forum/away.php` | High
 50 | ... | ... | ...
 
-There are 430 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 438 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

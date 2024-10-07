@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
-* [DE](https://vuldb.com/?country.de)
+* [IT](https://vuldb.com/?country.it)
 * ...
 
-There are 3 more country items available. Please use our online service to access the data.
+There are 8 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -23,10 +23,10 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [5.42.65.108](https://vuldb.com/?ip.5.42.65.108) | - | - | High
 2 | [5.42.65.114](https://vuldb.com/?ip.5.42.65.114) | - | - | High
-3 | [46.101.104.172](https://vuldb.com/?ip.46.101.104.172) | - | - | High
+3 | [41.216.183.214](https://vuldb.com/?ip.41.216.183.214) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 3 more IOC items available. Please use our online service to access the data.
+There are 6 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -35,11 +35,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22 | Path Traversal | High
-2 | T1059 | CWE-94 | Argument Injection | High
+2 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 7 more TTP items available. Please use our online service to access the data.
+There are 9 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -48,15 +48,25 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/manage-ambulance.php` | High
-2 | File | `/cgi-bin/system_mgr.cgi` | High
-3 | File | `/display/map` | Medium
-4 | File | `/forum/away.php` | High
-5 | File | `/newdriver.php` | High
-6 | File | `/oauth/idp/.well-known/openid-configuration` | High
-7 | File | `/protocol/iscuser/uploadiscuser.php` | High
-8 | ... | ... | ...
+2 | File | `/admin/suppliers/view_details.php` | High
+3 | File | `/admin/users.php` | High
+4 | File | `/api/baskets/{name}` | High
+5 | File | `/application/websocket/controller/Setting.php` | High
+6 | File | `/cgi-bin/system_mgr.cgi` | High
+7 | File | `/display/map` | Medium
+8 | File | `/forum/away.php` | High
+9 | File | `/hardware` | Medium
+10 | File | `/librarian/bookdetails.php` | High
+11 | File | `/member/chat.php` | High
+12 | File | `/newdriver.php` | High
+13 | File | `/oauth/idp/.well-known/openid-configuration` | High
+14 | File | `/owa/auth/logon.aspx` | High
+15 | File | `/protocol/iscuser/uploadiscuser.php` | High
+16 | File | `/protocol/log/listloginfo.php` | High
+17 | File | `/qsr_server/device/reboot` | High
+18 | ... | ... | ...
 
-There are 60 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 147 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -66,6 +76,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://www.bitdefender.com/blog/labs/when-stealers-converge-new-variant-of-atomic-stealer-in-the-wild/
 * https://www.jamf.com/blog/infostealers-pose-threat-to-macos/
 * https://www.malwarebytes.com/blog/threat-intelligence/2024/07/fake-microsoft-teams-for-mac-delivers-atomic-stealer
+* https://www.sentinelone.com/blog/from-amos-to-poseidon-a-soc-teams-guide-to-detecting-macos-atomic-stealers-2024/
 
 ## Literature
 

@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
-* [FR](https://vuldb.com/?country.fr)
+* [SV](https://vuldb.com/?country.sv)
 * ...
 
 There are 12 more country items available. Please use our online service to access the data.
@@ -162,7 +162,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -195,32 +195,41 @@ ID | Type | Indicator | Confidence
 23 | File | `/admin/subject.php` | High
 24 | File | `/admin/system.php` | High
 25 | File | `/admins` | Low
-26 | File | `/ajax.php?action=login` | High
-27 | File | `/api/deploy/upload` | High
-28 | File | `/api/deploy/upload /api/database/upload` | High
-29 | File | `/api/dept/build` | High
-30 | File | `/api/role` | Medium
-31 | File | `/api/user` | Medium
-32 | File | `/api/v1/custom_component` | High
-33 | File | `/AttendanceMonitoring/student/controller.php` | High
-34 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-35 | File | `/buscar_integrada.php` | High
-36 | File | `/catalog/all-products` | High
-37 | File | `/cgi-bin/cstecgi.cgi` | High
-38 | File | `/cgi-bin/cstecgi.cgi?action=save&setting` | High
-39 | File | `/cgi-bin/hd_config.cgi` | High
-40 | File | `/cgi-bin/myMusic.cgi` | High
-41 | File | `/cgi-bin/photocenter_mgr.cgi` | High
-42 | File | `/cgi-bin/webfile_mgr.cgi` | High
-43 | File | `/cgi-bin/wlogin.cgi` | High
-44 | File | `/change_password.php` | High
-45 | File | `/channels//link` | High
-46 | File | `/classes/Master.php` | High
-47 | File | `/classes/Master.php?f=save_package` | High
-48 | File | `/classes/SystemSettings.php?f=update_settings` | High
-49 | ... | ... | ...
+26 | File | `/ajax.php?action=delete_deductions` | High
+27 | File | `/ajax.php?action=login` | High
+28 | File | `/ajax.php?action=save_category` | High
+29 | File | `/ajax.php?action=update_account` | High
+30 | File | `/ajax/getBasicInfo.php` | High
+31 | File | `/api/deploy/upload` | High
+32 | File | `/api/deploy/upload /api/database/upload` | High
+33 | File | `/api/dept/build` | High
+34 | File | `/api/role` | Medium
+35 | File | `/api/user` | Medium
+36 | File | `/api/v1/custom_component` | High
+37 | File | `/AttendanceMonitoring/student/controller.php` | High
+38 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+39 | File | `/buscar_integrada.php` | High
+40 | File | `/catalog/all-products` | High
+41 | File | `/cgi-bin/cstecgi.cgi` | High
+42 | File | `/cgi-bin/cstecgi.cgi?action=save&setting` | High
+43 | File | `/cgi-bin/hd_config.cgi` | High
+44 | File | `/cgi-bin/myMusic.cgi` | High
+45 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+46 | File | `/cgi-bin/webfile_mgr.cgi` | High
+47 | File | `/cgi-bin/widget_api.cgi` | High
+48 | File | `/cgi-bin/wlogin.cgi` | High
+49 | File | `/change_password.php` | High
+50 | File | `/channels//link` | High
+51 | File | `/classes/Master.php` | High
+52 | File | `/classes/Master.php?f=save_package` | High
+53 | File | `/classes/SystemSettings.php?f=update_settings` | High
+54 | File | `/classes/Users.php?f=delete` | High
+55 | File | `/classes/Users.php?f=save_client` | High
+56 | File | `/clientdetails/admin/regester.php` | High
+57 | File | `/cloudstore/ecode/setup/ecology_dev.zip` | High
+58 | ... | ... | ...
 
-There are 429 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 502 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

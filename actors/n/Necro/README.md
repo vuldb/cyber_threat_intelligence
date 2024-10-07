@@ -4,6 +4,12 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.necro](https://vuldb.com/?actor.necro)
 
+## Campaigns
+
+The following _campaigns_ are known and can be associated with Necro:
+
+* Necro Trojan
+
 ## Countries
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Necro:
@@ -13,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [DE](https://vuldb.com/?country.de)
 * ...
 
-There are 12 more country items available. Please use our online service to access the data.
+There are 13 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -23,11 +29,12 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [45.145.185.83](https://vuldb.com/?ip.45.145.185.83) | - | - | High
 2 | [45.145.185.229](https://vuldb.com/?ip.45.145.185.229) | - | - | High
-3 | [52.3.115.71](https://vuldb.com/?ip.52.3.115.71) | ec2-52-3-115-71.compute-1.amazonaws.com | - | Medium
-4 | [54.161.239.214](https://vuldb.com/?ip.54.161.239.214) | ec2-54-161-239-214.compute-1.amazonaws.com | - | Medium
-5 | ... | ... | ... | ...
+3 | [47.88.3.73](https://vuldb.com/?ip.47.88.3.73) | - | Necro Trojan | High
+4 | [47.88.190.200](https://vuldb.com/?ip.47.88.190.200) | - | Necro Trojan | High
+5 | [47.88.245.162](https://vuldb.com/?ip.47.88.245.162) | - | Necro Trojan | High
+6 | ... | ... | ... | ...
 
-There are 16 more IOC items available. Please use our online service to access the data.
+There are 20 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -60,9 +67,10 @@ ID | Type | Indicator | Confidence
 9 | File | `/artist-display.php` | High
 10 | File | `/backups/` | Medium
 11 | File | `/catcompany.php` | High
-12 | ... | ... | ...
+12 | File | `/cgi-bin/editBookmark` | High
+13 | ... | ... | ...
 
-There are 91 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 98 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -70,6 +78,7 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://blog.netlab.360.com/necro-upgrades-again-using-tor-dynamic-domain-dga-and-aiming-at-both-windows-linux/
 * https://blog.netlab.360.com/necro/
+* https://securelist.com/necro-trojan-is-back-on-google-play/113881/
 
 ## Literature
 

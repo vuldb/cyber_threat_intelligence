@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [AT](https://vuldb.com/?country.at)
 * ...
 
-There are 29 more country items available. Please use our online service to access the data.
+There are 30 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -69,28 +69,29 @@ ID | Type | Indicator | Confidence
 13 | File | `/core/vb/vurl.php` | High
 14 | File | `/debug/pprof` | Medium
 15 | File | `/defaultui/player/modern.html` | High
-16 | File | `/eval/admin/manage_class.php` | High
-17 | File | `/forum/away.php` | High
-18 | File | `/lms/classes/Master.php?f=save_record` | High
-19 | File | `/modules/projects/vw_files.php` | High
-20 | File | `/nagiosxi/admin/graphtemplates.php` | High
-21 | File | `/ndmComponents.js` | High
-22 | File | `/oauth/idp/.well-known/openid-configuration` | High
-23 | File | `/pro-school/indexphp?student/message/send_reply/` | High
-24 | File | `/server-status` | High
-25 | File | `/squashfs-root/www/HNAP1/control/SetMasterWLanSettings.php` | High
-26 | File | `/tools/required/files/importers/imageeditor` | High
-27 | File | `/uncpath/` | Medium
-28 | File | `/usr/bin/pkexec` | High
-29 | File | `/usr/local/nagiosxi/html/admin/sshterm.php` | High
-30 | File | `/vpn/list_service_manage.php` | High
-31 | File | `/vpn/list_vpn_web_custom.php` | High
-32 | File | `/vpn/vpn_template_style.php` | High
-33 | File | `/wp-admin/admin-ajax.php` | High
-34 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-35 | ... | ... | ...
+16 | File | `/etc/shadow.sample` | High
+17 | File | `/eval/admin/manage_class.php` | High
+18 | File | `/forum/away.php` | High
+19 | File | `/lms/classes/Master.php?f=save_record` | High
+20 | File | `/modules/projects/vw_files.php` | High
+21 | File | `/nagiosxi/admin/graphtemplates.php` | High
+22 | File | `/ndmComponents.js` | High
+23 | File | `/oauth/idp/.well-known/openid-configuration` | High
+24 | File | `/pro-school/indexphp?student/message/send_reply/` | High
+25 | File | `/server-status` | High
+26 | File | `/squashfs-root/www/HNAP1/control/SetMasterWLanSettings.php` | High
+27 | File | `/tools/required/files/importers/imageeditor` | High
+28 | File | `/uncpath/` | Medium
+29 | File | `/usr/bin/pkexec` | High
+30 | File | `/usr/local/nagiosxi/html/admin/sshterm.php` | High
+31 | File | `/vpn/list_service_manage.php` | High
+32 | File | `/vpn/list_vpn_web_custom.php` | High
+33 | File | `/vpn/vpn_template_style.php` | High
+34 | File | `/wp-admin/admin-ajax.php` | High
+35 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+36 | ... | ... | ...
 
-There are 301 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 306 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

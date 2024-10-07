@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 14 more country items available. Please use our online service to access the data.
+There are 13 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -78,50 +78,52 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/act/ActDao.xml` | High
 2 | File | `/admin.php?p=/Area/index#tab=t2` | High
-3 | File | `/admin/inquiries/view_inquiry.php` | High
-4 | File | `/admin/maintenance/view_designation.php` | High
-5 | File | `/admin/pages/` | High
-6 | File | `/admin/pages/edit_chicken.php` | High
-7 | File | `/admin/pages/student-print.php` | High
-8 | File | `/admin/report/index.php` | High
-9 | File | `/admins` | Low
-10 | File | `/admin_route/inc_service_credits.php` | High
-11 | File | `/ajax.php?action=read_msg` | High
-12 | File | `/api/admin/system/store/order/list` | High
-13 | File | `/api/clusters/local/topics/{topic}/messages` | High
-14 | File | `/api/gen/clients/{language}` | High
-15 | File | `/API/info` | Medium
-16 | File | `/api/runscript` | High
-17 | File | `/app/Http/Controllers/ImageController.php` | High
-18 | File | `/application/index/controller/Icon.php` | High
-19 | File | `/cgi-bin/cstecgi.cgi` | High
-20 | File | `/cgi-bin/wlogin.cgi` | High
-21 | File | `/classes/Master.php?f=delete_service` | High
-22 | File | `/classes/Master.php?f=save_course` | High
-23 | File | `/csms/?page=contact_us` | High
-24 | File | `/debug/pprof` | Medium
-25 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
-26 | File | `/DXR.axd` | Medium
-27 | File | `/ebics-server/ebics.aspx` | High
-28 | File | `/ecommerce/admin/settings/setDiscount.php` | High
-29 | File | `/farm/product.php` | High
-30 | File | `/forum/away.php` | High
-31 | File | `/general/attendance/manage/ask_duty/delete.php` | High
-32 | File | `/goform/net\_Web\_get_value` | High
-33 | File | `/GponForm/usb_restore_Form?script/` | High
-34 | File | `/group1/uploa` | High
-35 | File | `/hedwig.cgi` | Medium
-36 | File | `/HNAP1` | Low
-37 | File | `/HNAP1/SetClientInfo` | High
-38 | File | `/inc/topBarNav.php` | High
-39 | File | `/Interface/DevManage/VM.php` | High
-40 | File | `/manage/IPSetup.php` | High
-41 | File | `/modules/profile/index.php` | High
-42 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-43 | File | `/oauth/idp/.well-known/openid-configuration` | High
-44 | ... | ... | ...
+3 | File | `/admin/` | Low
+4 | File | `/admin/admin-update-employee.php` | High
+5 | File | `/admin/inquiries/view_inquiry.php` | High
+6 | File | `/admin/maintenance/view_designation.php` | High
+7 | File | `/admin/pages/` | High
+8 | File | `/admin/pages/edit_chicken.php` | High
+9 | File | `/admin/pages/student-print.php` | High
+10 | File | `/admin/report/index.php` | High
+11 | File | `/admins` | Low
+12 | File | `/admin_route/inc_service_credits.php` | High
+13 | File | `/ajax.php?action=read_msg` | High
+14 | File | `/ajax/getBasicInfo.php` | High
+15 | File | `/api/admin/system/store/order/list` | High
+16 | File | `/api/clusters/local/topics/{topic}/messages` | High
+17 | File | `/api/gen/clients/{language}` | High
+18 | File | `/API/info` | Medium
+19 | File | `/api/runscript` | High
+20 | File | `/app/Http/Controllers/ImageController.php` | High
+21 | File | `/application/index/controller/Icon.php` | High
+22 | File | `/cgi-bin/cstecgi.cgi` | High
+23 | File | `/cgi-bin/supervisor/adcommand.cgi` | High
+24 | File | `/cgi-bin/tosei_kikai.php` | High
+25 | File | `/cgi-bin/wlogin.cgi` | High
+26 | File | `/classes/Master.php?f=delete_service` | High
+27 | File | `/classes/Master.php?f=save_course` | High
+28 | File | `/clientdetails/admin/regester.php` | High
+29 | File | `/controllers/add_client.php` | High
+30 | File | `/csms/?page=contact_us` | High
+31 | File | `/debug/pprof` | Medium
+32 | File | `/dist/index.js` | High
+33 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
+34 | File | `/DXR.axd` | Medium
+35 | File | `/ecommerce/admin/settings/setDiscount.php` | High
+36 | File | `/EXCU_SHELL` | Medium
+37 | File | `/farm/product.php` | High
+38 | File | `/foms/routers/place-order.php` | High
+39 | File | `/forum/away.php` | High
+40 | File | `/general/attendance/manage/ask_duty/delete.php` | High
+41 | File | `/goform/modifyDhcpRule` | High
+42 | File | `/goform/ModifyPppAuthWhiteMac` | High
+43 | File | `/goform/net\_Web\_get_value` | High
+44 | File | `/goform/setStaOffline` | High
+45 | File | `/goform/WizardHandle` | High
+46 | ... | ... | ...
 
-There are 383 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 400 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

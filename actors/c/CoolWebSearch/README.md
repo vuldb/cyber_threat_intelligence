@@ -8,9 +8,9 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with CoolWebSearch:
 
-* [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
-* [RU](https://vuldb.com/?country.ru)
+* [CN](https://vuldb.com/?country.cn)
+* [VN](https://vuldb.com/?country.vn)
 * ...
 
 There are 15 more country items available. Please use our online service to access the data.
@@ -156,9 +156,10 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+6 | ... | ... | ... | ...
 
-There are 16 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -166,36 +167,47 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/add_ikev2.php` | High
-2 | File | `/admin/category_save.php` | High
-3 | File | `/admin/index2.html` | High
-4 | File | `/admin/list_ipAddressPolicy.php` | High
-5 | File | `/admin/manage_model.php` | High
-6 | File | `/admin/manage_user.php` | High
-7 | File | `/admin/subject.php` | High
-8 | File | `/adminPage/conf/reload` | High
-9 | File | `/api/runscript` | High
-10 | File | `/api/snapshots/` | High
-11 | File | `/api/v1/snapshots` | High
-12 | File | `/api/v2/maps` | Medium
-13 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-14 | File | `/catalog/all-products` | High
-15 | File | `/cgi-bin/cstecgi.cgi` | High
-16 | File | `/changePassword` | High
-17 | File | `/edit-subject.php` | High
-18 | File | `/endpoint/add-user.php` | High
-19 | File | `/etc/init.d/update_notifications.sh` | High
-20 | File | `/etc/postfix/sender_login` | High
-21 | File | `/forum/away.php` | High
-22 | File | `/goform/SetSysTimeCfg` | High
-23 | File | `/hrm/leaverequest.php` | High
-24 | File | `/lesson/controller.php` | High
-25 | File | `/mailcleaner.php/getStats` | High
-26 | File | `/manage_person.php` | High
-27 | File | `/manage_question.php` | High
-28 | ... | ... | ...
+1 | File | `/+CSCOE+/logon.html` | High
+2 | File | `/admin/add_ikev2.php` | High
+3 | File | `/admin/admin_widgets.php?action=remove/widget=Statistics` | High
+4 | File | `/admin/ajax.php?action=login` | High
+5 | File | `/admin/category_save.php` | High
+6 | File | `/admin/forgot-password.php` | High
+7 | File | `/admin/index.php?r=banner%2Fbanner-create` | High
+8 | File | `/admin/index2.html` | High
+9 | File | `/admin/list_ipAddressPolicy.php` | High
+10 | File | `/admin/manage_model.php` | High
+11 | File | `/admin/manage_user.php` | High
+12 | File | `/admin/subject.php` | High
+13 | File | `/adminPage/conf/reload` | High
+14 | File | `/api/runscript` | High
+15 | File | `/api/snapshots/` | High
+16 | File | `/api/v1/snapshots` | High
+17 | File | `/api/v2/maps` | Medium
+18 | File | `/apply/index.php` | High
+19 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+20 | File | `/candidate/index.php` | High
+21 | File | `/catalog/all-products` | High
+22 | File | `/cgi-bin/cstecgi.cgi` | High
+23 | File | `/classes/SystemSettings.php?f=update_settings` | High
+24 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
+25 | File | `/edit-subject.php` | High
+26 | File | `/endpoint/add-calorie.php` | High
+27 | File | `/endpoint/add-user.php` | High
+28 | File | `/etc/init.d/update_notifications.sh` | High
+29 | File | `/etc/postfix/sender_login` | High
+30 | File | `/foms/routers/place-order.php` | High
+31 | File | `/forum/away.php` | High
+32 | File | `/goform/SetSysTimeCfg` | High
+33 | File | `/hrm/leaverequest.php` | High
+34 | File | `/index.php` | Medium
+35 | File | `/index/ajax/lang` | High
+36 | File | `/lesson/controller.php` | High
+37 | File | `/manage_person.php` | High
+38 | File | `/manage_question.php` | High
+39 | ... | ... | ...
 
-There are 237 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 332 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

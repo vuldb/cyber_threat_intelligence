@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 12 more country items available. Please use our online service to access the data.
+There are 15 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -366,7 +366,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 15 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -374,33 +374,37 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/add-students.php` | High
-2 | File | `/admin/add_ikev2.php` | High
-3 | File | `/admin/admin-profile.php` | High
-4 | File | `/admin/category_save.php` | High
-5 | File | `/admin/index.php?page=manage_product` | High
-6 | File | `/admin/list_ipAddressPolicy.php` | High
-7 | File | `/admin/manage_model.php` | High
-8 | File | `/admin/manage_user.php` | High
-9 | File | `/admin/pages/list` | High
-10 | File | `/admin/subject.php` | High
-11 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-12 | File | `/catalog/all-products` | High
-13 | File | `/cgi-bin/cstecgi.cgi` | High
-14 | File | `/changePassword` | High
-15 | File | `/classes/Master.php` | High
-16 | File | `/classes/Master.php?f=save_medicine` | High
-17 | File | `/classes/Users.php?f=delete` | High
-18 | File | `/classes/Users.php?f=save` | High
-19 | File | `/edit-subject.php` | High
-20 | File | `/endpoint/add-user.php` | High
-21 | File | `/etc/postfix/sender_login` | High
-22 | File | `/forum/away.php` | High
-23 | File | `/goform/SetRemoteWebCfg` | High
-24 | File | `/goform/SetSysTimeCfg` | High
-25 | ... | ... | ...
+1 | File | `/+CSCOE+/logon.html` | High
+2 | File | `/add-students.php` | High
+3 | File | `/admin/add_ikev2.php` | High
+4 | File | `/admin/admin-profile.php` | High
+5 | File | `/admin/category_save.php` | High
+6 | File | `/admin/emp-profile-avatar.php` | High
+7 | File | `/admin/index.php?page=manage_product` | High
+8 | File | `/admin/list_ipAddressPolicy.php` | High
+9 | File | `/admin/manage_model.php` | High
+10 | File | `/admin/manage_user.php` | High
+11 | File | `/admin/pages/list` | High
+12 | File | `/admin/subject.php` | High
+13 | File | `/admin/system.html` | High
+14 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+15 | File | `/catalog/all-products` | High
+16 | File | `/cgi-bin/cstecgi.cgi` | High
+17 | File | `/cgi-bin/myMusic.cgi` | High
+18 | File | `/cgi-bin/p1_ftpserver.php` | High
+19 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+20 | File | `/changePassword` | High
+21 | File | `/classes/Master.php` | High
+22 | File | `/classes/Master.php?f=save_medicine` | High
+23 | File | `/classes/SystemSettings.php?f=update_settings` | High
+24 | File | `/classes/Users.php?f=delete` | High
+25 | File | `/classes/Users.php?f=save` | High
+26 | File | `/edit-subject.php` | High
+27 | File | `/endpoint/add-user.php` | High
+28 | File | `/endpoint/delete-account.php` | High
+29 | ... | ... | ...
 
-There are 214 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 245 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

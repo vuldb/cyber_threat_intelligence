@@ -54,16 +54,17 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/auth/callback` | High
-2 | File | `/be/erpc.php` | Medium
-3 | File | `/be/rpc.php` | Medium
-4 | File | `/classes/Master.php` | High
-5 | File | `/control/register_case.php` | High
-6 | File | `/etc/init.d/sshd_service` | High
-7 | File | `/forum/away.php` | High
-8 | ... | ... | ...
+1 | File | `/admin/emp-profile-avatar.php` | High
+2 | File | `/auth/callback` | High
+3 | File | `/be/erpc.php` | Medium
+4 | File | `/be/rpc.php` | Medium
+5 | File | `/cgi-bin/cstecgi.cgi` | High
+6 | File | `/classes/Master.php` | High
+7 | File | `/control/register_case.php` | High
+8 | File | `/etc/init.d/sshd_service` | High
+9 | ... | ... | ...
 
-There are 59 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 66 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

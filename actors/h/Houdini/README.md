@@ -23,10 +23,11 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [2.59.254.111](https://vuldb.com/?ip.2.59.254.111) | - | - | High
 2 | [5.181.80.127](https://vuldb.com/?ip.5.181.80.127) | ip-80-127-bullethost.net | - | High
-3 | [41.216.188.103](https://vuldb.com/?ip.41.216.188.103) | - | - | High
-4 | [45.90.222.125](https://vuldb.com/?ip.45.90.222.125) | 45-90-222-125-hostedby.bcr.host | - | High
-5 | [45.90.222.131](https://vuldb.com/?ip.45.90.222.131) | 45-90-222-131-hostedby.bcr.host | - | High
-6 | ... | ... | ... | ...
+3 | [37.48.102.22](https://vuldb.com/?ip.37.48.102.22) | - | - | High
+4 | [41.216.188.103](https://vuldb.com/?ip.41.216.188.103) | - | - | High
+5 | [45.90.222.125](https://vuldb.com/?ip.45.90.222.125) | 45-90-222-125-hostedby.bcr.host | - | High
+6 | [45.90.222.131](https://vuldb.com/?ip.45.90.222.131) | 45-90-222-131-hostedby.bcr.host | - | High
+7 | ... | ... | ... | ...
 
 There are 22 more IOC items available. Please use our online service to access the data.
 
@@ -105,19 +106,19 @@ ID | Type | Indicator | Confidence
 52 | File | `/home/kickPlayer` | High
 53 | File | `/index.jsp#settings` | High
 54 | File | `/index.php/signin` | High
-55 | File | `/Log/Query?appid=0B736354-9473-4D66-B9C0-15CAC149EB05&tabid=tab_0B73635494734D66B9C015CAC149EB05` | High
-56 | File | `/login` | Low
-57 | File | `/login.php` | Medium
-58 | File | `/net-banking/beneficiary.php` | High
-59 | File | `/net-banking/delete_customer.php` | High
-60 | File | `/net-banking/edit_customer_action.php` | High
-61 | File | `/net-banking/transactions.php` | High
-62 | File | `/philosophy/admin/login.php` | High
-63 | File | `/pms/update_user.php?user_id=1` | High
-64 | File | `/portal/reports/account_statement` | High
+55 | File | `/index.php?action=editManager` | High
+56 | File | `/Log/Query?appid=0B736354-9473-4D66-B9C0-15CAC149EB05&tabid=tab_0B73635494734D66B9C015CAC149EB05` | High
+57 | File | `/login` | Low
+58 | File | `/login.php` | Medium
+59 | File | `/net-banking/beneficiary.php` | High
+60 | File | `/net-banking/delete_customer.php` | High
+61 | File | `/net-banking/edit_customer_action.php` | High
+62 | File | `/net-banking/transactions.php` | High
+63 | File | `/philosophy/admin/login.php` | High
+64 | File | `/pms/update_user.php?user_id=1` | High
 65 | ... | ... | ...
 
-There are 569 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 573 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -125,6 +126,7 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://app.any.run/tasks/568aac24-7631-4f8f-a89b-ff10adf6b875
 * https://app.any.run/tasks/8070f7cb-b7e2-4394-8898-cfcf9b52c332/
+* https://bazaar.abuse.ch/sample/aed8a6b3191c2097fcbadb520f5d0f7e30b578c23f9abc0ab52b63bbb7abc141/
 * https://bazaar.abuse.ch/sample/f0962774a22adb03e29c34fda016085f1fc99598f23562e5165474469f653bd0/
 * https://github.com/executemalware/Malware-IOCs/blob/main/2022-06-20%20Vjw0rm%20and%20Houdini%20IOCs
 * https://isc.sans.edu/forums/diary/Houdini+is+Back+Delivered+Through+a+JavaScript+Dropper/28746/

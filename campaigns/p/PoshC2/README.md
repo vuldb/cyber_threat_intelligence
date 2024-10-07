@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 12 more country items available. Please use our online service to access the data.
+There are 13 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -35,14 +35,15 @@ ID | IP address | Hostname | Actor | Confidence
 3 | [3.253.77.60](https://vuldb.com/?ip.3.253.77.60) | ec2-3-253-77-60.eu-west-1.compute.amazonaws.com | [PoshC2](https://vuldb.com/?actor.poshc2) | Medium
 4 | [13.48.77.144](https://vuldb.com/?ip.13.48.77.144) | ec2-13-48-77-144.eu-north-1.compute.amazonaws.com | [PoshC2](https://vuldb.com/?actor.poshc2) | Medium
 5 | [13.78.10.244](https://vuldb.com/?ip.13.78.10.244) | - | [PoshC2](https://vuldb.com/?actor.poshc2) | High
-6 | [18.134.14.164](https://vuldb.com/?ip.18.134.14.164) | ec2-18-134-14-164.eu-west-2.compute.amazonaws.com | [PoshC2](https://vuldb.com/?actor.poshc2) | Medium
-7 | [35.80.38.180](https://vuldb.com/?ip.35.80.38.180) | ec2-35-80-38-180.us-west-2.compute.amazonaws.com | [PoshC2](https://vuldb.com/?actor.poshc2) | Medium
-8 | [35.202.253.45](https://vuldb.com/?ip.35.202.253.45) | 45.253.202.35.bc.googleusercontent.com | [PoshC2](https://vuldb.com/?actor.poshc2) | Medium
-9 | [45.79.196.203](https://vuldb.com/?ip.45.79.196.203) | 45-79-196-203.ip.linodeusercontent.com | [PoshC2](https://vuldb.com/?actor.poshc2) | High
-10 | [46.101.126.207](https://vuldb.com/?ip.46.101.126.207) | - | [PoshC2](https://vuldb.com/?actor.poshc2) | High
-11 | ... | ... | ... | ...
+6 | [18.133.253.38](https://vuldb.com/?ip.18.133.253.38) | ec2-18-133-253-38.eu-west-2.compute.amazonaws.com | [PoshC2](https://vuldb.com/?actor.poshc2) | Medium
+7 | [18.134.14.164](https://vuldb.com/?ip.18.134.14.164) | ec2-18-134-14-164.eu-west-2.compute.amazonaws.com | [PoshC2](https://vuldb.com/?actor.poshc2) | Medium
+8 | [35.80.38.180](https://vuldb.com/?ip.35.80.38.180) | ec2-35-80-38-180.us-west-2.compute.amazonaws.com | [PoshC2](https://vuldb.com/?actor.poshc2) | Medium
+9 | [35.202.253.45](https://vuldb.com/?ip.35.202.253.45) | 45.253.202.35.bc.googleusercontent.com | [PoshC2](https://vuldb.com/?actor.poshc2) | Medium
+10 | [37.156.29.141](https://vuldb.com/?ip.37.156.29.141) | 141.mobinnet.net | [PoshC2](https://vuldb.com/?actor.poshc2) | High
+11 | [45.79.196.203](https://vuldb.com/?ip.45.79.196.203) | 45-79-196-203.ip.linodeusercontent.com | [PoshC2](https://vuldb.com/?actor.poshc2) | High
+12 | ... | ... | ... | ...
 
-There are 42 more IOC items available. Please use our online service to access the data.
+There are 43 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -66,41 +67,42 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `%PROGRAMFILES(X86)%\TSplus\Clients\www.` | High
-2 | File | `/admin/config/uploadicon.php` | High
-3 | File | `/admin/del_feedback.php` | High
-4 | File | `/admin/login.php` | High
-5 | File | `/adplanet/PlanetUser` | High
-6 | File | `/ajax.php?action=read_msg` | High
-7 | File | `/app/Http/Controllers/Admin/NEditorController.php` | High
-8 | File | `/cms/category/list` | High
-9 | File | `/controller/OnlinePreviewController.java` | High
-10 | File | `/debug/pprof` | Medium
-11 | File | `/etc/controller-agent/agent.conf` | High
-12 | File | `/HNAP1` | Low
-13 | File | `/importexport.php` | High
-14 | File | `/inquiries/view_inquiry.php` | High
-15 | File | `/Login` | Low
-16 | File | `/mgmt/tm/util/bash` | High
-17 | File | `/mifs/c/i/reg/reg.html` | High
-18 | File | `/ovirt-engine/webadmin/GenericApiGWTService` | High
-19 | File | `/picturesPreview` | High
-20 | File | `/product/savenewproduct.php?flag=1` | High
-21 | File | `/search` | Low
-22 | File | `/secure/ViewCollectors` | High
-23 | File | `/Session` | Medium
-24 | File | `/src/admin/makehtml_taglist_action.php` | High
-25 | File | `/start_apply.htm` | High
-26 | File | `/sysmanage/updatelib.php` | High
-27 | File | `/thruk/#cgi-bin/extinfo.cgi?type=2` | High
-28 | File | `/usr/bin/pkexec` | High
-29 | File | `/var/log/nginx` | High
-30 | File | `/xAdmin/html/cm_doclist_view_uc.jsp` | High
-31 | File | `/yxcms/index.php?r=admin/extendfield/mesedit&tabid=12&id=4` | High
-32 | File | `/ZHGXTV/index.php/admin/index/web_upload_template.html` | High
-33 | File | `adclick.php` | Medium
-34 | ... | ... | ...
+2 | File | `/admin/?page=user/manage_user&id=3` | High
+3 | File | `/admin/config/uploadicon.php` | High
+4 | File | `/admin/del_feedback.php` | High
+5 | File | `/admin/login.php` | High
+6 | File | `/adplanet/PlanetUser` | High
+7 | File | `/ajax.php?action=read_msg` | High
+8 | File | `/app/Http/Controllers/Admin/NEditorController.php` | High
+9 | File | `/cms/category/list` | High
+10 | File | `/controller/OnlinePreviewController.java` | High
+11 | File | `/debug/pprof` | Medium
+12 | File | `/etc/controller-agent/agent.conf` | High
+13 | File | `/forum/away.php` | High
+14 | File | `/HNAP1` | Low
+15 | File | `/importexport.php` | High
+16 | File | `/inquiries/view_inquiry.php` | High
+17 | File | `/Login` | Low
+18 | File | `/mgmt/tm/util/bash` | High
+19 | File | `/mifs/c/i/reg/reg.html` | High
+20 | File | `/oauth/idp/.well-known/openid-configuration` | High
+21 | File | `/ovirt-engine/webadmin/GenericApiGWTService` | High
+22 | File | `/picturesPreview` | High
+23 | File | `/product/savenewproduct.php?flag=1` | High
+24 | File | `/search` | Low
+25 | File | `/secure/ViewCollectors` | High
+26 | File | `/Session` | Medium
+27 | File | `/src/admin/makehtml_taglist_action.php` | High
+28 | File | `/start_apply.htm` | High
+29 | File | `/sysmanage/updatelib.php` | High
+30 | File | `/thruk/#cgi-bin/extinfo.cgi?type=2` | High
+31 | File | `/usr/bin/pkexec` | High
+32 | File | `/var/log/nginx` | High
+33 | File | `/xAdmin/html/cm_doclist_view_uc.jsp` | High
+34 | File | `/yxcms/index.php?r=admin/extendfield/mesedit&tabid=12&id=4` | High
+35 | ... | ... | ...
 
-There are 289 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 302 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -110,6 +112,7 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://search.censys.io/hosts/3.121.42.179
 * https://search.censys.io/hosts/3.253.77.60
 * https://search.censys.io/hosts/13.48.77.144
+* https://search.censys.io/hosts/18.133.253.38
 * https://search.censys.io/hosts/18.134.14.164
 * https://search.censys.io/hosts/45.79.196.203
 * https://search.censys.io/hosts/46.101.126.207

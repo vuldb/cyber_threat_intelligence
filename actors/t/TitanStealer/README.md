@@ -57,27 +57,28 @@ ID | Type | Indicator | Confidence
 3 | File | `/admin/pages/list` | High
 4 | File | `/category.php` | High
 5 | File | `/category/list?limit=10&offset=0&order=desc` | High
-6 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-7 | File | `/cgi-bin/delete_CA` | High
-8 | File | `/classes/Master.php` | High
-9 | File | `/classes/Master.php?f=delete_brand` | High
-10 | File | `/Config/SaveUploadedHotspotLogoFile` | High
-11 | File | `/display/map` | Medium
-12 | File | `/download` | Medium
-13 | File | `/endpoint/update-bookmark.php` | High
-14 | File | `/forum/away.php` | High
-15 | File | `/forum/PostPrivateMessage` | High
-16 | File | `/get_getnetworkconf.cgi` | High
-17 | File | `/GponForm/device_Form?script/` | High
-18 | File | `/includes/rrdtool.inc.php` | High
-19 | File | `/login` | Low
-20 | File | `/Main_AdmStatus_Content.asp` | High
-21 | File | `/manager/ipconfig_new.php` | High
-22 | File | `/NAGErrors` | Medium
-23 | File | `/registrar/?page=registration` | High
-24 | ... | ... | ...
+6 | File | `/cgi-bin/cstecgi.cgi` | High
+7 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+8 | File | `/cgi-bin/delete_CA` | High
+9 | File | `/classes/Master.php` | High
+10 | File | `/classes/Master.php?f=delete_brand` | High
+11 | File | `/Config/SaveUploadedHotspotLogoFile` | High
+12 | File | `/display/map` | Medium
+13 | File | `/download` | Medium
+14 | File | `/endpoint/update-bookmark.php` | High
+15 | File | `/forum/away.php` | High
+16 | File | `/forum/PostPrivateMessage` | High
+17 | File | `/get_getnetworkconf.cgi` | High
+18 | File | `/GponForm/device_Form?script/` | High
+19 | File | `/includes/rrdtool.inc.php` | High
+20 | File | `/login` | Low
+21 | File | `/Main_AdmStatus_Content.asp` | High
+22 | File | `/manager/ipconfig_new.php` | High
+23 | File | `/NAGErrors` | Medium
+24 | File | `/registrar/?page=registration` | High
+25 | ... | ... | ...
 
-There are 200 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 207 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

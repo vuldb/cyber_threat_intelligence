@@ -52,7 +52,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-425 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
@@ -85,35 +85,36 @@ ID | Type | Indicator | Confidence
 16 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
 17 | File | `/applications/nexus/modules/front/store/store.php` | High
 18 | File | `/App_Resource/UEditor/server/upload.aspx` | High
-19 | File | `/authenticationendpoint/login.do` | High
-20 | File | `/bitrix/admin/ldap_server_edit.php` | High
-21 | File | `/c/PluginsController.php` | High
-22 | File | `/category.php` | High
+19 | File | `/bitrix/admin/ldap_server_edit.php` | High
+20 | File | `/c/PluginsController.php` | High
+21 | File | `/category.php` | High
+22 | File | `/cgi-bin/apkg_mgr.cgi` | High
 23 | File | `/cgi-bin/cstecgi.cgi` | High
 24 | File | `/cgi-bin/nas_sharing.cgi` | High
 25 | File | `/cgi-bin/photocenter_mgr.cgi` | High
 26 | File | `/chaincity/user/ticket/create` | High
 27 | File | `/classes/Master.php` | High
-28 | File | `/classes/Master.php?f=save_category` | High
-29 | File | `/classes/Users.php?f=save` | High
-30 | File | `/collection/all` | High
-31 | File | `/Controller/Ajaxfileupload.ashx` | High
-32 | File | `/dcim/rack-roles/` | High
-33 | File | `/ecommerce/support_ticket` | High
-34 | File | `/ecrire/exec/puce_statut.php` | High
-35 | File | `/fftools/ffmpeg_enc.c` | High
-36 | File | `/files/` | Low
-37 | File | `/forms/doLogin` | High
-38 | File | `/formSysLog` | Medium
-39 | File | `/forum/away.php` | High
-40 | File | `/friends/ajax_invite` | High
-41 | File | `/goform/SetOnlineDevName` | High
-42 | File | `/goform/WifiGuestSet` | High
-43 | File | `/home/filter_listings` | High
-44 | File | `/image.php` | Medium
-45 | ... | ... | ...
+28 | File | `/classes/Master.php?f=delete_record` | High
+29 | File | `/classes/Master.php?f=save_category` | High
+30 | File | `/classes/SystemSettings.php?f=update_settings` | High
+31 | File | `/classes/Users.php?f=save` | High
+32 | File | `/collection/all` | High
+33 | File | `/Controller/Ajaxfileupload.ashx` | High
+34 | File | `/detailed.php` | High
+35 | File | `/dtale/chart-data/1` | High
+36 | File | `/ecommerce/support_ticket` | High
+37 | File | `/ecrire/exec/puce_statut.php` | High
+38 | File | `/etc/shadow.sample` | High
+39 | File | `/fftools/ffmpeg_enc.c` | High
+40 | File | `/files/` | Low
+41 | File | `/forms/doLogin` | High
+42 | File | `/formSysLog` | Medium
+43 | File | `/forum/away.php` | High
+44 | File | `/friends/ajax_invite` | High
+45 | File | `/goform/SetOnlineDevName` | High
+46 | ... | ... | ...
 
-There are 387 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 395 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

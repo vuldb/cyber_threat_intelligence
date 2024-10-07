@@ -128,34 +128,37 @@ ID | Type | Indicator | Confidence
 7 | File | `/admin/renewaldue.php` | High
 8 | File | `/admin/reports.php` | High
 9 | File | `/admin/success_story.php` | High
-10 | File | `/adms/admin/?page=vehicles/view_transaction` | High
-11 | File | `/apps/` | Low
-12 | File | `/back/index.php/user/User/?1` | High
-13 | File | `/backup.pl` | Medium
-14 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-15 | File | `/cgi-bin/nas_sharing.cgi` | High
-16 | File | `/classes/Master.php` | High
-17 | File | `/classes/Users.php?f=delete` | High
-18 | File | `/common/info.cgi` | High
-19 | File | `/config/getuser` | High
-20 | File | `/debug/pprof` | Medium
-21 | File | `/Default/Bd` | Medium
-22 | File | `/forum/away.php` | High
-23 | File | `/HNAP1` | Low
-24 | File | `/manage_sy.php` | High
-25 | File | `/ndmComponents.js` | High
-26 | File | `/param.file.tgz` | High
-27 | File | `/php-opos/index.php` | High
-28 | File | `/register.php` | High
-29 | File | `/reservation/add_message.php` | High
-30 | File | `/scas/admin/` | Medium
-31 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-32 | File | `/sistema/flash/reboot` | High
-33 | File | `/static/` | Medium
-34 | File | `/st_reg.php` | Medium
-35 | ... | ... | ...
+10 | File | `/admin/system.html` | High
+11 | File | `/adms/admin/?page=vehicles/view_transaction` | High
+12 | File | `/apps/` | Low
+13 | File | `/back/index.php/user/User/?1` | High
+14 | File | `/backup.pl` | Medium
+15 | File | `/cgi-bin/cstecgi.cgi` | High
+16 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+17 | File | `/cgi-bin/nas_sharing.cgi` | High
+18 | File | `/cgi-bin/p1_ftpserver.php` | High
+19 | File | `/classes/Master.php` | High
+20 | File | `/classes/Users.php?f=delete` | High
+21 | File | `/classes/Users.php?f=save_client` | High
+22 | File | `/common/info.cgi` | High
+23 | File | `/config/getuser` | High
+24 | File | `/debug/pprof` | Medium
+25 | File | `/Default/Bd` | Medium
+26 | File | `/endpoint/add-folder.php` | High
+27 | File | `/foms/routers/place-order.php` | High
+28 | File | `/forum/away.php` | High
+29 | File | `/HNAP1` | Low
+30 | File | `/manage_sy.php` | High
+31 | File | `/ndmComponents.js` | High
+32 | File | `/param.file.tgz` | High
+33 | File | `/php-opos/index.php` | High
+34 | File | `/register.php` | High
+35 | File | `/reservation/add_message.php` | High
+36 | File | `/scas/admin/` | Medium
+37 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+38 | ... | ... | ...
 
-There are 301 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 325 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

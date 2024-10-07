@@ -8,6 +8,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 The following _campaigns_ are known and can be associated with 8220 Gang:
 
+* CVE-2017-10271 / CVE-2020-14883
 * CVE-2019-2725
 * CVE-2022-26134
 
@@ -30,12 +31,13 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [5.42.67.29](https://vuldb.com/?ip.5.42.67.29) | - | - | High
 2 | [51.79.175.139](https://vuldb.com/?ip.51.79.175.139) | vps-dc8b0481.vps.ovh.ca | CVE-2022-26134 | High
-3 | [51.255.171.23](https://vuldb.com/?ip.51.255.171.23) | vps-fc1a1567.vps.ovh.net | CVE-2022-26134 | High
-4 | [77.91.84.42](https://vuldb.com/?ip.77.91.84.42) | goodvpn.aeza.network | - | High
-5 | [79.110.62.23](https://vuldb.com/?ip.79.110.62.23) | - | CVE-2019-2725 | High
-6 | ... | ... | ... | ...
+3 | [51.222.111.116](https://vuldb.com/?ip.51.222.111.116) | vps-373fb9eb.vps.ovh.ca | CVE-2017-10271 / CVE-2020-14883 | High
+4 | [51.255.171.23](https://vuldb.com/?ip.51.255.171.23) | vps-fc1a1567.vps.ovh.net | CVE-2022-26134 | High
+5 | [64.227.170.227](https://vuldb.com/?ip.64.227.170.227) | - | CVE-2017-10271 / CVE-2020-14883 | High
+6 | [77.91.84.42](https://vuldb.com/?ip.77.91.84.42) | goodvpn.aeza.network | - | High
+7 | ... | ... | ... | ...
 
-There are 19 more IOC items available. Please use our online service to access the data.
+There are 24 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -50,7 +52,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -63,19 +65,19 @@ ID | Type | Indicator | Confidence
 3 | File | `//proc/kcore` | Medium
 4 | File | `/admin/about-us.php` | High
 5 | File | `/admin/action/delete-vaccine.php` | High
-6 | File | `/admin/edit-post.php` | High
-7 | File | `/admin/index2.html` | High
-8 | File | `/admin/pages/list` | High
-9 | File | `/admin/userprofile.php` | High
-10 | File | `/admin_class.php` | High
-11 | File | `/alphaware/summary.php` | High
-12 | File | `/api/baskets/{name}` | High
-13 | File | `/api/swaggerui/static` | High
-14 | File | `/app/index/controller/Common.php` | High
-15 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
-16 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
-17 | File | `/applications/nexus/modules/front/store/store.php` | High
-18 | File | `/apply.cgi` | Medium
+6 | File | `/admin/doAdminAction.php?act=addCate` | High
+7 | File | `/admin/edit-post.php` | High
+8 | File | `/admin/index2.html` | High
+9 | File | `/admin/pages/list` | High
+10 | File | `/admin/userprofile.php` | High
+11 | File | `/admin_class.php` | High
+12 | File | `/alphaware/summary.php` | High
+13 | File | `/api/baskets/{name}` | High
+14 | File | `/api/swaggerui/static` | High
+15 | File | `/app/index/controller/Common.php` | High
+16 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
+17 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
+18 | File | `/applications/nexus/modules/front/store/store.php` | High
 19 | File | `/bitrix/admin/ldap_server_edit.php` | High
 20 | File | `/cgi-bin/apkg_mgr.cgi` | High
 21 | File | `/cgi-bin/cstecgi.cgi` | High
@@ -91,23 +93,24 @@ ID | Type | Indicator | Confidence
 31 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
 32 | File | `/cupseasylive/countrymodify.php` | High
 33 | File | `/dcim/rack-roles/` | High
-34 | File | `/domains/list` | High
-35 | File | `/fftools/ffmpeg_enc.c` | High
-36 | File | `/forms/doLogin` | High
-37 | File | `/formSysLog` | Medium
-38 | File | `/forum/away.php` | High
-39 | File | `/goform/aspForm` | High
-40 | File | `/goform/SetOnlineDevName` | High
-41 | File | `/h.php/page?ref=addtabs` | High
-42 | File | `/image.php` | Medium
-43 | File | `/inc/topBarNav.php` | High
-44 | File | `/includes/common/require_access_recovery.php` | High
-45 | File | `/index.php` | Medium
-46 | File | `/index.php/weblinks-categories` | High
-47 | File | `/index.php?action=editPharmacist` | High
-48 | ... | ... | ...
+34 | File | `/deal/{note_id}/note` | High
+35 | File | `/detailed.php` | High
+36 | File | `/domains/list` | High
+37 | File | `/dtale/chart-data/1` | High
+38 | File | `/etc/shadow.sample` | High
+39 | File | `/fftools/ffmpeg_enc.c` | High
+40 | File | `/filter.php` | Medium
+41 | File | `/forms/doLogin` | High
+42 | File | `/formSysLog` | Medium
+43 | File | `/forum/away.php` | High
+44 | File | `/goform/aspForm` | High
+45 | File | `/goform/SetOnlineDevName` | High
+46 | File | `/h.php/page?ref=addtabs` | High
+47 | File | `/image.php` | Medium
+48 | File | `/inc/topBarNav.php` | High
+49 | ... | ... | ...
 
-There are 415 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 422 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -117,7 +120,9 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://asec.ahnlab.com/en/36820/
 * https://asec.ahnlab.com/en/51568/
 * https://blog.checkpoint.com/2022/06/09/crypto-miners-leveraging-atlassian-zero-day-vulnerability/
+* https://blog.projectdiscovery.io/zimbra-remote-code-execution/
 * https://blog.xlab.qianxin.com/8220-k4spreader-new-tool-en/
+* https://github.com/SEKOIA-IO/Community/blob/main/IOCs/8220Gang/8220_Gang_iocs_20242409.csv
 * https://github.com/uptycslabs/IOCs/blob/main/8220Gang
 * https://www.sentinelone.com/blog/8220-gang-cloud-botnet-targets-misconfigured-cloud-workloads/
 * https://www.sentinelone.com/blog/soc-team-essentials-how-to-investigate-and-track-the-8220-gang-cloud-threat/

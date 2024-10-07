@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 6 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -150,7 +150,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059 | CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
 
-There are 13 more TTP items available. Please use our online service to access the data.
+There are 14 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -159,34 +159,37 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/booking-bwdates-reports-details.php` | High
-2 | File | `/admin/maintenance/view_designation.php` | High
-3 | File | `/admin/manage_station.php` | High
-4 | File | `/admin/operations/expense_category.php` | High
-5 | File | `/app/Http/Controllers/ImageController.php` | High
-6 | File | `/attendancelist.php` | High
-7 | File | `/backend/register.php` | High
-8 | File | `/boaform/device_reset.cgi` | High
-9 | File | `/cgi-bin/nas_sharing.cgi` | High
-10 | File | `/classes/Master.php` | High
-11 | File | `/classes/Master.php?f=delete_category` | High
-12 | File | `/classes/Users.php?f=delete` | High
-13 | File | `/classes/Users.php?f=save` | High
-14 | File | `/config/myfield/test.php` | High
-15 | File | `/control/register_case.php` | High
-16 | File | `/dev/dri/card1` | High
-17 | File | `/download` | Medium
-18 | File | `/forgot-password` | High
-19 | File | `/forum/away.php` | High
-20 | File | `/index.php?app=main&inc=feature_inboxgroup&op=list` | High
-21 | File | `/manager/ipconfig_new.php` | High
-22 | File | `/manage_sy.php` | High
-23 | File | `/ndmComponents.js` | High
-24 | File | `/oauth/idp/.well-known/openid-configuration` | High
-25 | File | `/objects/getImage.php` | High
-26 | File | `/out.php` | Medium
-27 | ... | ... | ...
+2 | File | `/admin/emp-profile-avatar.php` | High
+3 | File | `/admin/maintenance/view_designation.php` | High
+4 | File | `/admin/manage_station.php` | High
+5 | File | `/admin/operations/expense_category.php` | High
+6 | File | `/app/Http/Controllers/ImageController.php` | High
+7 | File | `/apply.cgi` | Medium
+8 | File | `/attendancelist.php` | High
+9 | File | `/backend/register.php` | High
+10 | File | `/boaform/device_reset.cgi` | High
+11 | File | `/cgi-bin/nas_sharing.cgi` | High
+12 | File | `/cgi-bin/p1_ftpserver.php` | High
+13 | File | `/cgi-bin/tosei_kikai.php` | High
+14 | File | `/classes/Master.php` | High
+15 | File | `/classes/Master.php?f=delete_category` | High
+16 | File | `/classes/SystemSettings.php?f=update_settings` | High
+17 | File | `/classes/Users.php?f=delete` | High
+18 | File | `/classes/Users.php?f=save` | High
+19 | File | `/config/myfield/test.php` | High
+20 | File | `/control/register_case.php` | High
+21 | File | `/dev/dri/card1` | High
+22 | File | `/download` | Medium
+23 | File | `/foms/routers/place-order.php` | High
+24 | File | `/forgot-password` | High
+25 | File | `/forum/away.php` | High
+26 | File | `/index.php?app=main&inc=feature_inboxgroup&op=list` | High
+27 | File | `/manager/ipconfig_new.php` | High
+28 | File | `/manage_sy.php` | High
+29 | File | `/ndmComponents.js` | High
+30 | ... | ... | ...
 
-There are 229 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 250 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

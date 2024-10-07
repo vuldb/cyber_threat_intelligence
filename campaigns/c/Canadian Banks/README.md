@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Canadian Banks:
 
 * [LA](https://vuldb.com/?country.la)
-* [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
 There are 2 more country items available. Please use our online service to access the data.
@@ -64,21 +64,22 @@ ID | Type | Indicator | Confidence
 3 | File | `/adminPage/conf/reload` | High
 4 | File | `/api/baskets/{name}` | High
 5 | File | `/api/v2/cli/commands` | High
-6 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
-7 | File | `/DXR.axd` | Medium
-8 | File | `/forum/away.php` | High
-9 | File | `/index/ajax/lang` | High
-10 | File | `/log/decodmail.php` | High
-11 | File | `/LogInOut.php` | High
-12 | File | `/mfsNotice/page` | High
-13 | File | `/novel/bookSetting/list` | High
-14 | File | `/novel/userFeedback/list` | High
-15 | File | `/owa/auth/logon.aspx` | High
-16 | File | `/register.php` | High
-17 | File | `/request.php` | Medium
-18 | ... | ... | ...
+6 | File | `/api2/html/` | Medium
+7 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+8 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
+9 | File | `/DXR.axd` | Medium
+10 | File | `/forum/away.php` | High
+11 | File | `/index/ajax/lang` | High
+12 | File | `/log/decodmail.php` | High
+13 | File | `/LogInOut.php` | High
+14 | File | `/mfsNotice/page` | High
+15 | File | `/novel/bookSetting/list` | High
+16 | File | `/novel/userFeedback/list` | High
+17 | File | `/owa/auth/logon.aspx` | High
+18 | File | `/register.php` | High
+19 | ... | ... | ...
 
-There are 151 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 155 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

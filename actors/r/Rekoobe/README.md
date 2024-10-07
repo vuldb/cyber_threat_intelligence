@@ -62,22 +62,22 @@ ID | Type | Indicator | Confidence
 19 | File | `/index.php?/manage/channel/addchannel` | High
 20 | File | `/index.php?m=member&f=index&v=profile&set_iframe=1` | High
 21 | File | `/index.php?m=tags&f=index&v=add` | High
-22 | File | `/install/index.php` | High
-23 | File | `/login` | Low
-24 | File | `/mics/j_spring_security_check` | High
-25 | File | `/mifs/c/i/reg/reg.html` | High
-26 | File | `/modules/DesignManager/action.ajax_get_templates.php` | High
-27 | File | `/pms/update_user.php?user_id=1` | High
-28 | File | `/programScopes` | High
-29 | File | `/userfs/bin/tcapi` | High
-30 | File | `/userLogin.asp` | High
-31 | File | `/usr/local/nagiosxi/html/admin/sshterm.php` | High
-32 | File | `/usr/local/nagiosxi/html/includes/configwizards/cloud-vm/cloud-vm.inc.php` | High
-33 | File | `/usr/local/nagiosxi/html/includes/configwizards/switch/switch.inc.php` | High
-34 | File | `/usr/local/nagiosxi/html/includes/configwizards/windowswmi/windowswmi.inc.php` | High
+22 | File | `/index/ajax/lang` | High
+23 | File | `/install/index.php` | High
+24 | File | `/login` | Low
+25 | File | `/mics/j_spring_security_check` | High
+26 | File | `/mifs/c/i/reg/reg.html` | High
+27 | File | `/modules/DesignManager/action.ajax_get_templates.php` | High
+28 | File | `/pms/update_user.php?user_id=1` | High
+29 | File | `/programScopes` | High
+30 | File | `/userfs/bin/tcapi` | High
+31 | File | `/userLogin.asp` | High
+32 | File | `/usr/local/nagiosxi/html/admin/sshterm.php` | High
+33 | File | `/usr/local/nagiosxi/html/includes/configwizards/cloud-vm/cloud-vm.inc.php` | High
+34 | File | `/usr/local/nagiosxi/html/includes/configwizards/switch/switch.inc.php` | High
 35 | ... | ... | ...
 
-There are 298 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 302 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

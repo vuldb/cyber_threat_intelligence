@@ -99,9 +99,10 @@ ID | Type | Indicator | Confidence
 32 | File | `/tmp/speedtest_urls.xml` | High
 33 | File | `/uncpath/` | Medium
 34 | File | `/upload` | Low
-35 | ... | ... | ...
+35 | File | `/var/log/nginx` | High
+36 | ... | ... | ...
 
-There are 303 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 305 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

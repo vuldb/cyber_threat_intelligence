@@ -26,7 +26,7 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [104.21.67.23](https://vuldb.com/?ip.104.21.67.23) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 6 more IOC items available. Please use our online service to access the data.
+There are 7 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -39,7 +39,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1505 | CWE-89 | SQL Injection | High
 4 | ... | ... | ... | ...
 
-There are 2 more TTP items available. Please use our online service to access the data.
+There are 3 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -52,7 +52,7 @@ ID | Type | Indicator | Confidence
 3 | File | `/htmlcode/html/system_reboot.asp` | High
 4 | ... | ... | ...
 
-There are 20 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 22 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

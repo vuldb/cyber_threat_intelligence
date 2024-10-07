@@ -53,31 +53,32 @@ ID | Type | Indicator | Confidence
 2 | File | `/api/content/posts/comments` | High
 3 | File | `/api/RecordingList/DownloadRecord?file=` | High
 4 | File | `/apply.cgi` | Medium
-5 | File | `/cgi-bin/koha/acqui/supplier.pl?op=enter` | High
-6 | File | `/debug/pprof` | Medium
-7 | File | `/Home/GetAttachment` | High
-8 | File | `/html/device-id` | High
-9 | File | `/html/devstat.html` | High
-10 | File | `/html/repository` | High
-11 | File | `/index.php` | Medium
-12 | File | `/members/view_member.php` | High
-13 | File | `/mhds/clinic/view_details.php` | High
-14 | File | `/modules/projects/vw_files.php` | High
-15 | File | `/nova/bin/console` | High
-16 | File | `/owa/auth/logon.aspx` | High
-17 | File | `/php/ping.php` | High
-18 | File | `/rapi/read_url` | High
-19 | File | `/rest/api/latest/projectvalidate/key` | High
-20 | File | `/scripts/unlock_tasks.php` | High
-21 | File | `/services/config/config.xml` | High
-22 | File | `/services/system/setup.json` | High
-23 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
-24 | File | `/SysInfo1.htm` | High
-25 | File | `/sysinfo_json.cgi` | High
-26 | File | `/system/dictData/loadDictItem` | High
-27 | ... | ... | ...
+5 | File | `/cgi-bin/cstecgi.cgi` | High
+6 | File | `/cgi-bin/koha/acqui/supplier.pl?op=enter` | High
+7 | File | `/debug/pprof` | Medium
+8 | File | `/Home/GetAttachment` | High
+9 | File | `/html/device-id` | High
+10 | File | `/html/devstat.html` | High
+11 | File | `/html/repository` | High
+12 | File | `/index.php` | Medium
+13 | File | `/members/view_member.php` | High
+14 | File | `/mhds/clinic/view_details.php` | High
+15 | File | `/modules/projects/vw_files.php` | High
+16 | File | `/nova/bin/console` | High
+17 | File | `/owa/auth/logon.aspx` | High
+18 | File | `/php/ping.php` | High
+19 | File | `/rapi/read_url` | High
+20 | File | `/rest/api/latest/projectvalidate/key` | High
+21 | File | `/scripts/unlock_tasks.php` | High
+22 | File | `/services/config/config.xml` | High
+23 | File | `/services/system/setup.json` | High
+24 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
+25 | File | `/SysInfo1.htm` | High
+26 | File | `/sysinfo_json.cgi` | High
+27 | File | `/system/dictData/loadDictItem` | High
+28 | ... | ... | ...
 
-There are 229 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 232 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

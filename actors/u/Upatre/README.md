@@ -99,12 +99,13 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/forum/away.php` | High
-2 | File | `drivers/media/video/videobuf-vmalloc.c` | High
-3 | File | `FileDownload.jsp` | High
-4 | ... | ... | ...
+1 | File | `/controllers/add_client.php` | High
+2 | File | `/forum/away.php` | High
+3 | File | `attendance-info.php` | High
+4 | File | `delete_user_query.php` | High
+5 | ... | ... | ...
 
-There are 14 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 28 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

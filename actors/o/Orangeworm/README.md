@@ -61,28 +61,28 @@ ID | Type | Indicator | Confidence
 14 | File | `/files.md5` | Medium
 15 | File | `/forum/away.php` | High
 16 | File | `/getcfg.php` | Medium
-17 | File | `/index.php?controller=GzUser&action=edit&id=1` | High
-18 | File | `/install_extension` | High
-19 | File | `/modules/profile/index.php` | High
-20 | File | `/modules/registration_admission/patient_register.php` | High
-21 | File | `/news.dtl.php` | High
-22 | File | `/public/plugins/` | High
-23 | File | `/rapi/read_url` | High
-24 | File | `/rest/api/2/user/picker` | High
-25 | File | `/sbin/acos_service` | High
-26 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-27 | File | `/squashfs-root/www/HNAP1/control/SetWizardConfig.php` | High
-28 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
-29 | File | `/sys/kernel/notes` | High
-30 | File | `/uncpath/` | Medium
-31 | File | `/usr/bin/pkexec` | High
-32 | File | `/ViewUserHover.jspa` | High
-33 | File | `/WEB-INF/web.xml` | High
-34 | File | `/wp-admin/admin-ajax.php` | High
-35 | File | `/wp-json/oembed/1.0/embed?url` | High
+17 | File | `/goform/` | Medium
+18 | File | `/index.php?controller=GzUser&action=edit&id=1` | High
+19 | File | `/install_extension` | High
+20 | File | `/modules/profile/index.php` | High
+21 | File | `/modules/registration_admission/patient_register.php` | High
+22 | File | `/news.dtl.php` | High
+23 | File | `/public/plugins/` | High
+24 | File | `/rapi/read_url` | High
+25 | File | `/rest/api/2/user/picker` | High
+26 | File | `/sbin/acos_service` | High
+27 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+28 | File | `/squashfs-root/www/HNAP1/control/SetWizardConfig.php` | High
+29 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
+30 | File | `/sys/kernel/notes` | High
+31 | File | `/uncpath/` | Medium
+32 | File | `/usr/bin/pkexec` | High
+33 | File | `/ViewUserHover.jspa` | High
+34 | File | `/WEB-INF/web.xml` | High
+35 | File | `/wp-admin/admin-ajax.php` | High
 36 | ... | ... | ...
 
-There are 310 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 312 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

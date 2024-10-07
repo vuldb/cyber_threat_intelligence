@@ -59,12 +59,12 @@ ID | Type | Indicator | Confidence
 8 | File | `/proc/self/environ` | High
 9 | File | `/sitecore/client/Applications/List Manager/Taskpages/Contact list` | High
 10 | File | `/v2/customerdb/operator.svc/a` | High
-11 | File | `add_comment.php` | High
-12 | File | `app/controllers/application_controller.rb` | High
-13 | File | `application\api\controller\User.php` | High
+11 | File | `/view/bugSolve/captureData/commit.php` | High
+12 | File | `add_comment.php` | High
+13 | File | `app/controllers/application_controller.rb` | High
 14 | ... | ... | ...
 
-There are 108 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 110 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

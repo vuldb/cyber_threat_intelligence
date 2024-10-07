@@ -29,17 +29,17 @@ ID | IP address | Hostname | Campaign | Confidence
 11 | [45.155.249.96](https://vuldb.com/?ip.45.155.249.96) | - | - | High
 12 | [45.155.250.89](https://vuldb.com/?ip.45.155.250.89) | - | - | High
 13 | [45.155.250.90](https://vuldb.com/?ip.45.155.250.90) | - | - | High
-14 | [45.155.250.229](https://vuldb.com/?ip.45.155.250.229) | - | - | High
-15 | [45.156.23.96](https://vuldb.com/?ip.45.156.23.96) | - | - | High
-16 | [51.159.66.125](https://vuldb.com/?ip.51.159.66.125) | 51-159-66-125.rev.poneytelecom.eu | - | High
-17 | [62.210.204.131](https://vuldb.com/?ip.62.210.204.131) | 62-210-204-131.rev.poneytelecom.eu | - | High
-18 | [65.109.80.185](https://vuldb.com/?ip.65.109.80.185) | static.185.80.109.65.clients.your-server.de | - | High
-19 | [69.30.215.106](https://vuldb.com/?ip.69.30.215.106) | lumpet.peardong.org.uk | - | High
-20 | [69.30.233.162](https://vuldb.com/?ip.69.30.233.162) | - | - | High
-21 | [69.30.253.122](https://vuldb.com/?ip.69.30.253.122) | - | - | High
+14 | [45.155.250.188](https://vuldb.com/?ip.45.155.250.188) | - | - | High
+15 | [45.155.250.229](https://vuldb.com/?ip.45.155.250.229) | - | - | High
+16 | [45.156.23.96](https://vuldb.com/?ip.45.156.23.96) | - | - | High
+17 | [51.159.66.125](https://vuldb.com/?ip.51.159.66.125) | 51-159-66-125.rev.poneytelecom.eu | - | High
+18 | [62.210.204.131](https://vuldb.com/?ip.62.210.204.131) | 62-210-204-131.rev.poneytelecom.eu | - | High
+19 | [65.109.80.185](https://vuldb.com/?ip.65.109.80.185) | static.185.80.109.65.clients.your-server.de | - | High
+20 | [69.30.215.106](https://vuldb.com/?ip.69.30.215.106) | lumpet.peardong.org.uk | - | High
+21 | [69.30.233.162](https://vuldb.com/?ip.69.30.233.162) | - | - | High
 22 | ... | ... | ... | ...
 
-There are 84 more IOC items available. Please use our online service to access the data.
+There are 85 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 

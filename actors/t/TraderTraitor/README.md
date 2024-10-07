@@ -79,9 +79,10 @@ ID | Type | Indicator | Confidence
 29 | File | `/endpoint/update-resident.php` | High
 30 | File | `/endpoint/update-tracker.php` | High
 31 | File | `/forum/away.php` | High
-32 | ... | ... | ...
+32 | File | `/general/attendance/manage/ask_duty/delete.php` | High
+33 | ... | ... | ...
 
-There are 272 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 277 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

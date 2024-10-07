@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 13 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -26,14 +26,15 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [3.253.77.60](https://vuldb.com/?ip.3.253.77.60) | ec2-3-253-77-60.eu-west-1.compute.amazonaws.com | - | Medium
 4 | [13.48.77.144](https://vuldb.com/?ip.13.48.77.144) | ec2-13-48-77-144.eu-north-1.compute.amazonaws.com | - | Medium
 5 | [13.78.10.244](https://vuldb.com/?ip.13.78.10.244) | - | - | High
-6 | [18.134.14.164](https://vuldb.com/?ip.18.134.14.164) | ec2-18-134-14-164.eu-west-2.compute.amazonaws.com | - | Medium
-7 | [35.80.38.180](https://vuldb.com/?ip.35.80.38.180) | ec2-35-80-38-180.us-west-2.compute.amazonaws.com | - | Medium
-8 | [35.202.253.45](https://vuldb.com/?ip.35.202.253.45) | 45.253.202.35.bc.googleusercontent.com | - | Medium
-9 | [45.79.196.203](https://vuldb.com/?ip.45.79.196.203) | 45-79-196-203.ip.linodeusercontent.com | - | High
-10 | [46.101.126.207](https://vuldb.com/?ip.46.101.126.207) | - | - | High
-11 | ... | ... | ... | ...
+6 | [18.133.253.38](https://vuldb.com/?ip.18.133.253.38) | ec2-18-133-253-38.eu-west-2.compute.amazonaws.com | - | Medium
+7 | [18.134.14.164](https://vuldb.com/?ip.18.134.14.164) | ec2-18-134-14-164.eu-west-2.compute.amazonaws.com | - | Medium
+8 | [35.80.38.180](https://vuldb.com/?ip.35.80.38.180) | ec2-35-80-38-180.us-west-2.compute.amazonaws.com | - | Medium
+9 | [35.202.253.45](https://vuldb.com/?ip.35.202.253.45) | 45.253.202.35.bc.googleusercontent.com | - | Medium
+10 | [37.156.29.141](https://vuldb.com/?ip.37.156.29.141) | 141.mobinnet.net | - | High
+11 | [45.79.196.203](https://vuldb.com/?ip.45.79.196.203) | 45-79-196-203.ip.linodeusercontent.com | - | High
+12 | ... | ... | ... | ...
 
-There are 39 more IOC items available. Please use our online service to access the data.
+There are 42 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -44,10 +45,11 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-94 | Argument Injection | High
-5 | ... | ... | ... | ...
+4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -55,40 +57,43 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/config/uploadicon.php` | High
-2 | File | `/admin/del_feedback.php` | High
-3 | File | `/admin/login.php` | High
-4 | File | `/ajax.php?action=read_msg` | High
-5 | File | `/app/Http/Controllers/Admin/NEditorController.php` | High
-6 | File | `/cms/category/list` | High
-7 | File | `/controller/OnlinePreviewController.java` | High
-8 | File | `/debug/pprof` | Medium
-9 | File | `/etc/controller-agent/agent.conf` | High
-10 | File | `/HNAP1` | Low
-11 | File | `/importexport.php` | High
-12 | File | `/inquiries/view_inquiry.php` | High
-13 | File | `/Login` | Low
-14 | File | `/mgmt/tm/util/bash` | High
-15 | File | `/mifs/c/i/reg/reg.html` | High
-16 | File | `/ovirt-engine/webadmin/GenericApiGWTService` | High
-17 | File | `/picturesPreview` | High
-18 | File | `/product/savenewproduct.php?flag=1` | High
-19 | File | `/search` | Low
-20 | File | `/secure/ViewCollectors` | High
-21 | File | `/Session` | Medium
-22 | File | `/src/admin/makehtml_taglist_action.php` | High
-23 | File | `/start_apply.htm` | High
-24 | File | `/sysmanage/updatelib.php` | High
-25 | File | `/thruk/#cgi-bin/extinfo.cgi?type=2` | High
-26 | File | `/usr/bin/pkexec` | High
-27 | File | `/var/log/nginx` | High
-28 | File | `/xAdmin/html/cm_doclist_view_uc.jsp` | High
-29 | File | `/yxcms/index.php?r=admin/extendfield/mesedit&tabid=12&id=4` | High
-30 | File | `/ZHGXTV/index.php/admin/index/web_upload_template.html` | High
-31 | File | `adclick.php` | Medium
-32 | ... | ... | ...
+1 | File | `%PROGRAMFILES(X86)%\TSplus\Clients\www.` | High
+2 | File | `/admin/?page=user/manage_user&id=3` | High
+3 | File | `/admin/config/uploadicon.php` | High
+4 | File | `/admin/del_feedback.php` | High
+5 | File | `/admin/login.php` | High
+6 | File | `/adplanet/PlanetUser` | High
+7 | File | `/ajax.php?action=read_msg` | High
+8 | File | `/app/Http/Controllers/Admin/NEditorController.php` | High
+9 | File | `/cms/category/list` | High
+10 | File | `/controller/OnlinePreviewController.java` | High
+11 | File | `/debug/pprof` | Medium
+12 | File | `/etc/controller-agent/agent.conf` | High
+13 | File | `/forum/away.php` | High
+14 | File | `/HNAP1` | Low
+15 | File | `/importexport.php` | High
+16 | File | `/inquiries/view_inquiry.php` | High
+17 | File | `/Login` | Low
+18 | File | `/mgmt/tm/util/bash` | High
+19 | File | `/mifs/c/i/reg/reg.html` | High
+20 | File | `/oauth/idp/.well-known/openid-configuration` | High
+21 | File | `/ovirt-engine/webadmin/GenericApiGWTService` | High
+22 | File | `/picturesPreview` | High
+23 | File | `/product/savenewproduct.php?flag=1` | High
+24 | File | `/search` | Low
+25 | File | `/secure/ViewCollectors` | High
+26 | File | `/Session` | Medium
+27 | File | `/src/admin/makehtml_taglist_action.php` | High
+28 | File | `/start_apply.htm` | High
+29 | File | `/sysmanage/updatelib.php` | High
+30 | File | `/thruk/#cgi-bin/extinfo.cgi?type=2` | High
+31 | File | `/usr/bin/pkexec` | High
+32 | File | `/var/log/nginx` | High
+33 | File | `/xAdmin/html/cm_doclist_view_uc.jsp` | High
+34 | File | `/yxcms/index.php?r=admin/extendfield/mesedit&tabid=12&id=4` | High
+35 | ... | ... | ...
 
-There are 275 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 302 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -97,9 +102,11 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/3.121.42.179
 * https://search.censys.io/hosts/3.253.77.60
 * https://search.censys.io/hosts/13.48.77.144
+* https://search.censys.io/hosts/18.133.253.38
 * https://search.censys.io/hosts/18.134.14.164
 * https://search.censys.io/hosts/45.79.196.203
 * https://search.censys.io/hosts/46.101.126.207
+* https://search.censys.io/hosts/51.38.113.64
 * https://search.censys.io/hosts/51.77.107.137
 * https://search.censys.io/hosts/51.250.38.28
 * https://search.censys.io/hosts/52.230.83.254
@@ -123,6 +130,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/185.234.216.64
 * https://search.censys.io/hosts/193.22.152.104
 * https://search.censys.io/hosts/213.219.37.158
+* https://search.censys.io/hosts/217.15.167.175
 * https://search.censys.io/search?resource=hosts&sort=RELEVANCE&per_page=25&virtual_hosts=EXCLUDE&q=services.software.product%3A+poshc2+and+not+labels%3A+tarpit
 * https://thedfirreport.com/2024/08/12/threat-actors-toolkit-leveraging-sliver-poshc2-batch-scripts/
 * https://threatfox.abuse.ch

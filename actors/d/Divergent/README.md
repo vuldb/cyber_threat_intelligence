@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Divergent:
 
 * [DE](https://vuldb.com/?country.de)
-* [TR](https://vuldb.com/?country.tr)
 * [US](https://vuldb.com/?country.us)
+* [TR](https://vuldb.com/?country.tr)
 * ...
 
 There are 5 more country items available. Please use our online service to access the data.
@@ -54,36 +54,36 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/.kedpm/history` | High
 2 | File | `/adfs/ls` | Medium
-3 | File | `/api/swaggerui/static` | High
-4 | File | `/api/v11/users/sessions` | High
-5 | File | `/cmf/process/<process_id>/logs` | High
-6 | File | `/config/getuser` | High
-7 | File | `/etc/shadow` | Medium
-8 | File | `/Forms/oadmin_1` | High
-9 | File | `/goform/` | Medium
-10 | File | `/goform/formLogout` | High
-11 | File | `/home/dna/spool/.pfile` | High
-12 | File | `/includes/lib/tree.php` | High
-13 | File | `/index.php` | Medium
-14 | File | `/MagickCore/enhance.c` | High
-15 | File | `/MagickCore/quantize.c` | High
-16 | File | `/MagickCore/statistic.c` | High
-17 | File | `/onvif/device_service` | High
-18 | File | `/private/var` | Medium
-19 | File | `/sanadata/seo/index.asp` | High
-20 | File | `/secure/QueryComponent!Default.jspa` | High
-21 | File | `/sscdms/classes/Users.php?f=save` | High
-22 | File | `/travel-journal/write-journal.php` | High
-23 | File | `/uncpath/` | Medium
-24 | File | `/var/tmp/audacity-$USER` | High
-25 | File | `/xds/deleteStudy.php` | High
-26 | File | `adclick.php` | Medium
-27 | File | `admin/components/menu/views/menuitems.php` | High
-28 | File | `admin/convertutf8/index.php` | High
-29 | File | `admin/download.php` | High
+3 | File | `/admin/settings/index.php?page=accounts` | High
+4 | File | `/api/swaggerui/static` | High
+5 | File | `/api/v11/users/sessions` | High
+6 | File | `/cmf/process/<process_id>/logs` | High
+7 | File | `/config/getuser` | High
+8 | File | `/etc/shadow` | Medium
+9 | File | `/Forms/oadmin_1` | High
+10 | File | `/goform/` | Medium
+11 | File | `/goform/formLogout` | High
+12 | File | `/home/dna/spool/.pfile` | High
+13 | File | `/includes/lib/tree.php` | High
+14 | File | `/index.php` | Medium
+15 | File | `/MagickCore/enhance.c` | High
+16 | File | `/MagickCore/quantize.c` | High
+17 | File | `/MagickCore/statistic.c` | High
+18 | File | `/onvif/device_service` | High
+19 | File | `/private/var` | Medium
+20 | File | `/sanadata/seo/index.asp` | High
+21 | File | `/secure/QueryComponent!Default.jspa` | High
+22 | File | `/sscdms/classes/Users.php?f=save` | High
+23 | File | `/travel-journal/write-journal.php` | High
+24 | File | `/uncpath/` | Medium
+25 | File | `/var/tmp/audacity-$USER` | High
+26 | File | `/xds/deleteStudy.php` | High
+27 | File | `adclick.php` | Medium
+28 | File | `admin/components/menu/views/menuitems.php` | High
+29 | File | `admin/convertutf8/index.php` | High
 30 | ... | ... | ...
 
-There are 252 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 254 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

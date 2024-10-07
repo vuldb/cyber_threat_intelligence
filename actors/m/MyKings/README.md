@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 26 more country items available. Please use our online service to access the data.
+There are 27 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -85,33 +85,34 @@ ID | Type | Indicator | Confidence
 14 | File | `/classes/Master.php` | High
 15 | File | `/dev/urandom` | Medium
 16 | File | `/DroboAccess/enable_user` | High
-17 | File | `/etc/quantum/quantum.conf` | High
-18 | File | `/exec/` | Low
-19 | File | `/forum/away.php` | High
-20 | File | `/getcfg.php` | Medium
-21 | File | `/HNAP1` | Low
-22 | File | `/jquery_file_upload/server/php/index.php` | High
-23 | File | `/mgmt/tm/util/bash` | High
-24 | File | `/modules/projects/vw_files.php` | High
-25 | File | `/mysql/api/drobo.php` | High
-26 | File | `/oauth/idp/.well-known/openid-configuration` | High
-27 | File | `/plain` | Low
-28 | File | `/rating.php` | Medium
-29 | File | `/rom-0` | Low
-30 | File | `/secure/admin/ConfigureBatching!default.jspa` | High
-31 | File | `/staff/tools/custom-fields` | High
-32 | File | `/uncpath/` | Medium
-33 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
-34 | File | `/var/log/nginx` | High
-35 | File | `/wordpress/wp-admin/admin.php` | High
-36 | File | `/xyhai.php?s=/Auth/editUser` | High
-37 | File | `/_next` | Low
-38 | File | `actionHandler/ajax_managed_services.php` | High
-39 | File | `actions.hsp` | Medium
-40 | File | `adclick.php` | Medium
-41 | ... | ... | ...
+17 | File | `/endpoint/delete-account.php` | High
+18 | File | `/etc/quantum/quantum.conf` | High
+19 | File | `/exec/` | Low
+20 | File | `/forum/away.php` | High
+21 | File | `/getcfg.php` | Medium
+22 | File | `/HNAP1` | Low
+23 | File | `/jquery_file_upload/server/php/index.php` | High
+24 | File | `/mgmt/tm/util/bash` | High
+25 | File | `/modules/projects/vw_files.php` | High
+26 | File | `/mysql/api/drobo.php` | High
+27 | File | `/oauth/idp/.well-known/openid-configuration` | High
+28 | File | `/plain` | Low
+29 | File | `/rating.php` | Medium
+30 | File | `/rom-0` | Low
+31 | File | `/secure/admin/ConfigureBatching!default.jspa` | High
+32 | File | `/staff/tools/custom-fields` | High
+33 | File | `/sysmanage/licence.php` | High
+34 | File | `/uncpath/` | Medium
+35 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
+36 | File | `/var/log/nginx` | High
+37 | File | `/wordpress/wp-admin/admin.php` | High
+38 | File | `/xyhai.php?s=/Auth/editUser` | High
+39 | File | `/_next` | Low
+40 | File | `actionHandler/ajax_managed_services.php` | High
+41 | File | `actions.hsp` | Medium
+42 | ... | ... | ...
 
-There are 352 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 362 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

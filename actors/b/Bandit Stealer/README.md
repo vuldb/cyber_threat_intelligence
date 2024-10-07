@@ -38,14 +38,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23, CWE-24, CWE-27, CWE-29, CWE-425 | Path Traversal | High
+1 | T1006 | CWE-22, CWE-23, CWE-24, CWE-27, CWE-29, CWE-35, CWE-41, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -55,7 +55,7 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/3g/index.php` | High
 2 | File | `/?import` | Medium
-3 | File | `/add_members.php` | High
+3 | File | `/Admin/add-admin.php` | High
 4 | File | `/admin/add_ikev2.php` | High
 5 | File | `/admin/adminHome.php` | High
 6 | File | `/admin/ajax.php?action=login` | High
@@ -76,13 +76,13 @@ ID | Type | Indicator | Confidence
 21 | File | `/admin/moneyRecord_deal.php?mudi=delRecord` | High
 22 | File | `/admin/normal-search.php` | High
 23 | File | `/admin/products/index.php` | High
-24 | File | `/admin/reports/index.php` | High
-25 | File | `/admin/role` | Medium
-26 | File | `/admin/suppliers/view_details.php` | High
-27 | File | `/admin/template` | High
-28 | File | `/admin/userGroup_deal.php?mudi=del` | High
-29 | File | `/admin/users.php` | High
-30 | File | `/admin/users_photo.php` | High
+24 | File | `/admin/role` | Medium
+25 | File | `/admin/suppliers/view_details.php` | High
+26 | File | `/admin/template` | High
+27 | File | `/admin/template/update` | High
+28 | File | `/admin/user/user-move-run.php` | High
+29 | File | `/admin/userGroup_deal.php?mudi=del` | High
+30 | File | `/admin/users.php` | High
 31 | File | `/admin/vendor` | High
 32 | File | `/adminpanel/admin/facebox_modal/updateExaminee.php` | High
 33 | File | `/adminpanel/admin/query/addCourseExe.php` | High
@@ -95,14 +95,14 @@ ID | Type | Indicator | Confidence
 40 | File | `/api/proxy` | Medium
 41 | File | `/app/uploading/upload-mp3.php` | High
 42 | File | `/application/websocket/controller/Setting.php` | High
-43 | File | `/apps/system/router/upload.go` | High
-44 | File | `/audio/transcriptions` | High
-45 | File | `/authMonitCallcenter` | High
-46 | File | `/b2b-supermarket/shopping-cart` | High
-47 | File | `/cap.js` | Low
-48 | File | `/cgi-bin/cstecgi.cgi` | High
-49 | File | `/cgi-bin/cstecgi.cgi?action=save&setting` | High
-50 | File | `/cgi-bin/ExportSettings.sh` | High
+43 | File | `/audio/transcriptions` | High
+44 | File | `/authMonitCallcenter` | High
+45 | File | `/b2b-supermarket/shopping-cart` | High
+46 | File | `/cap.js` | Low
+47 | File | `/cgi-bin/cstecgi.cgi` | High
+48 | File | `/cgi-bin/cstecgi.cgi?action=save&setting` | High
+49 | File | `/cgi-bin/ExportSettings.sh` | High
+50 | File | `/cgi-bin/hd_config.cgi` | High
 51 | File | `/cgi-bin/info.cgi` | High
 52 | File | `/cgi-bin/nas_sharing.cgi` | High
 53 | File | `/cgi-bin/photocenter_mgr.cgi` | High
@@ -113,9 +113,13 @@ ID | Type | Indicator | Confidence
 58 | File | `/classes/Master.php` | High
 59 | File | `/classes/Master.php?f=log_visitor` | High
 60 | File | `/classes/Master.php?f=view_category` | High
-61 | ... | ... | ...
+61 | File | `/classes/SystemSettings.php?f=update_settings` | High
+62 | File | `/classes/Users.php?f=save` | High
+63 | File | `/classes/Users.php?f=save_client` | High
+64 | File | `/cm/update_rows/page?id=2` | High
+65 | ... | ... | ...
 
-There are 536 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 568 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -66,30 +66,31 @@ ID | Type | Indicator | Confidence
 17 | File | `/auparse/auparse.c` | High
 18 | File | `/back/index.php/user/User/?1` | High
 19 | File | `/backups/` | Medium
-20 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-21 | File | `/cgi-bin/logs.ha` | High
-22 | File | `/claire_blake` | High
-23 | File | `/classes/Master.php?f=delete_service` | High
-24 | File | `/common/info.cgi` | High
-25 | File | `/core/table/query` | High
-26 | File | `/cupseasylive/costcentercreate.php` | High
-27 | File | `/damicms-master/admin.php?s=/Article/doedit` | High
-28 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
-29 | File | `/doctor/view-appointment-detail.php` | High
-30 | File | `/feedback/post/` | High
-31 | File | `/gaia-job-admin/user/add` | High
-32 | File | `/goform/dir_setWanWifi` | High
-33 | File | `/goform/login` | High
-34 | File | `/goform/SetInternetLanInfo` | High
-35 | File | `/goform/setportList` | High
-36 | File | `/goform/SetPptpServerCfg` | High
-37 | File | `/goform/WifiBasicSet` | High
-38 | File | `/group/apply` | Medium
-39 | File | `/gusetbook/save` | High
-40 | File | `/hdf5/src/H5Fint.c` | High
-41 | ... | ... | ...
+20 | File | `/cgi-bin/cstecgi.cgi` | High
+21 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+22 | File | `/cgi-bin/logs.ha` | High
+23 | File | `/cgi-bin/s3.cgi` | High
+24 | File | `/claire_blake` | High
+25 | File | `/classes/Master.php?f=delete_service` | High
+26 | File | `/classes/SystemSettings.php?f=update_settings` | High
+27 | File | `/common/info.cgi` | High
+28 | File | `/core/table/query` | High
+29 | File | `/cupseasylive/costcentercreate.php` | High
+30 | File | `/damicms-master/admin.php?s=/Article/doedit` | High
+31 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
+32 | File | `/doctor/view-appointment-detail.php` | High
+33 | File | `/feedback/post/` | High
+34 | File | `/gaia-job-admin/user/add` | High
+35 | File | `/goform/login` | High
+36 | File | `/goform/SetInternetLanInfo` | High
+37 | File | `/goform/setportList` | High
+38 | File | `/goform/SetPptpServerCfg` | High
+39 | File | `/goform/WifiBasicSet` | High
+40 | File | `/group/apply` | Medium
+41 | File | `/gusetbook/save` | High
+42 | ... | ... | ...
 
-There are 355 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 363 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

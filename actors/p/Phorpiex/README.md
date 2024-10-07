@@ -60,7 +60,7 @@ ID | IP address | Hostname | Campaign | Confidence
 31 | [66.218.85.151](https://vuldb.com/?ip.66.218.85.151) | unknown.yahoo.com | - | High
 32 | ... | ... | ... | ...
 
-There are 123 more IOC items available. Please use our online service to access the data.
+There are 125 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -88,17 +88,19 @@ ID | Type | Indicator | Confidence
 5 | File | `/classes/Master.php` | High
 6 | File | `/classes/Master.php?f=delete_category` | High
 7 | File | `/cloud_config/router_post/get_reset_pwd_veirfy_code` | High
-8 | File | `/etc/tomcat8/Catalina/attack` | High
-9 | File | `/index.php` | Medium
-10 | File | `/libraries` | Medium
-11 | File | `/proc/pid/attr` | High
-12 | File | `/register.php` | High
-13 | File | `/RestAPI` | Medium
-14 | File | `/service/upload` | High
-15 | File | `/view/student_exam_mark_insert_form1.php` | High
-16 | ... | ... | ...
+8 | File | `/controllers/add_client.php` | High
+9 | File | `/etc/tomcat8/Catalina/attack` | High
+10 | File | `/index.php` | Medium
+11 | File | `/libraries` | Medium
+12 | File | `/proc/pid/attr` | High
+13 | File | `/register.php` | High
+14 | File | `/RestAPI` | Medium
+15 | File | `/service/upload` | High
+16 | File | `/view/student_exam_mark_insert_form1.php` | High
+17 | File | `/vpn/list_vpn_web_custom.php` | High
+18 | ... | ... | ...
 
-There are 128 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 143 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -67,35 +67,36 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `%PROGRAMFILES(X86)%\Steam` | High
 2 | File | `/admin/` | Low
-3 | File | `/admin/add-category.php` | High
-4 | File | `/admin/edit.php` | High
-5 | File | `/admin/orders/update_status.php` | High
-6 | File | `/api/1.0/rest/language_configuration` | High
-7 | File | `/api/baskets/{name}` | High
-8 | File | `/api/filemanager` | High
-9 | File | `/api/v2/cli/commands` | High
-10 | File | `/application/index/controller/Screen.php` | High
-11 | File | `/billing/home.php` | High
-12 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-13 | File | `/cgi-bin/nas_sharing.cgi` | High
-14 | File | `/cgi-bin/supervisor/CloudSetup.cgi` | High
-15 | File | `/cgi-bin/system_mgr.cgi` | High
-16 | File | `/cgi-bin/wapopen` | High
-17 | File | `/cgi-bin/wlogin.cgi` | High
-18 | File | `/DXR.axd` | Medium
-19 | File | `/etc/tomcat8/Catalina/attack` | High
-20 | File | `/filemanager/upload.php` | High
-21 | File | `/fileupload/upload.cfm` | High
-22 | File | `/forum/away.php` | High
-23 | File | `/home/cavesConsole` | High
-24 | File | `/home/masterConsole` | High
-25 | File | `/home/playerOperate` | High
-26 | File | `/importexport.php` | High
-27 | File | `/items/search` | High
-28 | File | `/mgmt/tm/util/bash` | High
-29 | ... | ... | ...
+3 | File | `/admin/action/update-deworm.php` | High
+4 | File | `/admin/add-category.php` | High
+5 | File | `/admin/edit.php` | High
+6 | File | `/admin/orders/update_status.php` | High
+7 | File | `/api/1.0/rest/language_configuration` | High
+8 | File | `/api/baskets/{name}` | High
+9 | File | `/api/filemanager` | High
+10 | File | `/api/v2/cli/commands` | High
+11 | File | `/application/index/controller/Screen.php` | High
+12 | File | `/billing/home.php` | High
+13 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+14 | File | `/cgi-bin/nas_sharing.cgi` | High
+15 | File | `/cgi-bin/supervisor/CloudSetup.cgi` | High
+16 | File | `/cgi-bin/system_mgr.cgi` | High
+17 | File | `/cgi-bin/wapopen` | High
+18 | File | `/cgi-bin/wlogin.cgi` | High
+19 | File | `/DXR.axd` | Medium
+20 | File | `/etc/tomcat8/Catalina/attack` | High
+21 | File | `/filemanager/upload.php` | High
+22 | File | `/fileupload/upload.cfm` | High
+23 | File | `/forum/away.php` | High
+24 | File | `/home/cavesConsole` | High
+25 | File | `/home/masterConsole` | High
+26 | File | `/home/playerOperate` | High
+27 | File | `/importexport.php` | High
+28 | File | `/items/search` | High
+29 | File | `/mgmt/tm/util/bash` | High
+30 | ... | ... | ...
 
-There are 244 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 251 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

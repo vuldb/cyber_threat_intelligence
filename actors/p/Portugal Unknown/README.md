@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [ES](https://vuldb.com/?country.es)
+* [SV](https://vuldb.com/?country.sv)
 * ...
 
-There are 14 more country items available. Please use our online service to access the data.
+There are 17 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -445,9 +445,10 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1055 | CWE-74, CWE-643 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+6 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -455,40 +456,55 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/.pomerium` | Medium
-2 | File | `/admin/add_ikev2.php` | High
-3 | File | `/admin/admin-profile.php` | High
-4 | File | `/admin/ajax.php?action=delete_user` | High
-5 | File | `/Admin/changepassword.php` | High
-6 | File | `/admin/general-setting` | High
-7 | File | `/admin/inquiries/view_inquiry.php` | High
-8 | File | `/admin/list_ipAddressPolicy.php` | High
-9 | File | `/admin/projects/{projectname}/skills/{skillname}/video` | High
-10 | File | `/admin/service` | High
-11 | File | `/api/v1/custom_component` | High
-12 | File | `/attendancelist.php` | High
-13 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-14 | File | `/catalog/all-products` | High
-15 | File | `/cgi-bin/cstecgi.cgi` | High
-16 | File | `/cgi-bin/nas_sharing.cgi` | High
-17 | File | `/classes/Master.php` | High
-18 | File | `/classes/Master.php?f=delete_category` | High
-19 | File | `/classes/Master.php?f=log_employee` | High
-20 | File | `/classes/Master.php?f=save_medicine` | High
-21 | File | `/classes/Users.php?f=delete` | High
-22 | File | `/DXR.axd` | Medium
-23 | File | `/endpoint/add-user.php` | High
-24 | File | `/etc/shadow` | Medium
-25 | File | `/forum/away.php` | High
-26 | File | `/goform/SetIpMacBind` | High
-27 | File | `/goform/SetSysTimeCfg` | High
-28 | File | `/goform/WifiExtraSet` | High
-29 | File | `/guestbook` | Medium
-30 | File | `/index.php` | Medium
-31 | File | `/js/player/dmplayer/dmku/?ac=edit` | High
-32 | ... | ... | ...
+1 | File | `/+CSCOE+/logon.html` | High
+2 | File | `/.pomerium` | Medium
+3 | File | `/admin/?page=musics/manage_music` | High
+4 | File | `/admin/add_ikev2.php` | High
+5 | File | `/admin/admin-profile.php` | High
+6 | File | `/admin/ajax.php?action=delete_user` | High
+7 | File | `/admin/category_save.php` | High
+8 | File | `/Admin/changepassword.php` | High
+9 | File | `/admin/emp-profile-avatar.php` | High
+10 | File | `/admin/general-setting` | High
+11 | File | `/admin/inquiries/view_inquiry.php` | High
+12 | File | `/admin/list_ipAddressPolicy.php` | High
+13 | File | `/admin/manage_model.php` | High
+14 | File | `/admin/manage_user.php` | High
+15 | File | `/admin/order.php` | High
+16 | File | `/admin/projects/{projectname}/skills/{skillname}/video` | High
+17 | File | `/admin/service` | High
+18 | File | `/admin/subject.php` | High
+19 | File | `/api/v1/custom_component` | High
+20 | File | `/attendancelist.php` | High
+21 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+22 | File | `/catalog/all-products` | High
+23 | File | `/cgi-bin/cstecgi.cgi` | High
+24 | File | `/cgi-bin/nas_sharing.cgi` | High
+25 | File | `/cgi-bin/p1_ftpserver.php` | High
+26 | File | `/classes/Master.php` | High
+27 | File | `/classes/Master.php?f=delete_category` | High
+28 | File | `/classes/Master.php?f=log_employee` | High
+29 | File | `/classes/Master.php?f=save_medicine` | High
+30 | File | `/classes/SystemSettings.php?f=update_settings` | High
+31 | File | `/classes/Users.php?f=delete` | High
+32 | File | `/classes/Users.php?f=save_client` | High
+33 | File | `/controllers/add_client.php` | High
+34 | File | `/downloadFile.php` | High
+35 | File | `/DXR.axd` | Medium
+36 | File | `/edit-subject.php` | High
+37 | File | `/endpoint/add-folder.php` | High
+38 | File | `/endpoint/add-user.php` | High
+39 | File | `/etc/postfix/sender_login` | High
+40 | File | `/etc/shadow` | Medium
+41 | File | `/file_manager/login.php` | High
+42 | File | `/film-rating.php` | High
+43 | File | `/foms/routers/cancel-order.php` | High
+44 | File | `/foms/routers/place-order.php` | High
+45 | File | `/forum/away.php` | High
+46 | File | `/goform/SetIpMacBind` | High
+47 | ... | ... | ...
 
-There are 276 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 408 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -34,10 +34,14 @@ ID | IP address | Hostname | Campaign | Confidence
 5 | [185.11.61.172](https://vuldb.com/?ip.185.11.61.172) | - | - | High
 6 | [185.217.1.23](https://vuldb.com/?ip.185.217.1.23) | - | Cobalt Strike | High
 7 | [190.123.44.220](https://vuldb.com/?ip.190.123.44.220) | - | Cobalt Strike | High
-8 | [193.109.85.54](https://vuldb.com/?ip.193.109.85.54) | - | - | High
-9 | ... | ... | ... | ...
+8 | [193.109.85.27](https://vuldb.com/?ip.193.109.85.27) | - | - | High
+9 | [193.109.85.31](https://vuldb.com/?ip.193.109.85.31) | - | - | High
+10 | [193.109.85.43](https://vuldb.com/?ip.193.109.85.43) | - | - | High
+11 | [193.109.85.54](https://vuldb.com/?ip.193.109.85.54) | - | - | High
+12 | [193.109.85.61](https://vuldb.com/?ip.193.109.85.61) | - | - | High
+13 | ... | ... | ... | ...
 
-There are 33 more IOC items available. Please use our online service to access the data.
+There are 50 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -79,6 +83,14 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://circleid.com/posts/20220721-matanbuchus-with-cobalt-strike-not-your-favorite-combo
 * https://github.com/executemalware/Malware-IOCs/blob/main/2022-06-16%20Matanbuchus%20IOCs
+* https://search.censys.io/hosts/193.109.85.27
+* https://search.censys.io/hosts/193.109.85.31
+* https://search.censys.io/hosts/194.67.193.66
+* https://search.censys.io/hosts/194.67.193.68
+* https://search.censys.io/hosts/194.67.193.70
+* https://search.censys.io/hosts/194.67.193.71
+* https://search.censys.io/hosts/194.67.193.234
+* https://search.censys.io/hosts/194.67.193.235
 * https://threatfox.abuse.ch
 * https://tracker.viriback.com/index.php?q=193.109.85.54
 * https://tracker.viriback.com/index.php?q=193.109.85.61

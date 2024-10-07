@@ -21,12 +21,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [45.89.106.108](https://vuldb.com/?ip.45.89.106.108) | - | - | High
-2 | [80.82.67.184](https://vuldb.com/?ip.80.82.67.184) | - | - | High
-3 | [80.82.67.209](https://vuldb.com/?ip.80.82.67.209) | - | - | High
+1 | [5.59.249.236](https://vuldb.com/?ip.5.59.249.236) | - | - | High
+2 | [45.89.106.108](https://vuldb.com/?ip.45.89.106.108) | - | - | High
+3 | [80.82.67.184](https://vuldb.com/?ip.80.82.67.184) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 1 more IOC items available. Please use our online service to access the data.
+There are 2 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -59,6 +59,7 @@ There are 23 more IOA items available (file, library, argument, input value, pat
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://unit42.paloaltonetworks.com/mirai-variant-echobot-resurfaces-with-13-previously-unexploited-vulnerabilities/
+* https://urlhaus.abuse.ch/host/5.59.249.236/
 
 ## Literature
 

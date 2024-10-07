@@ -9,6 +9,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 The following _campaigns_ are known and can be associated with APT34:
 
 * SideTwist
+* Veaty and Spearal
 
 ## Countries
 
@@ -19,7 +20,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 10 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -31,21 +32,22 @@ ID | IP address | Hostname | Campaign | Confidence
 2 | [23.19.226.69](https://vuldb.com/?ip.23.19.226.69) | - | - | High
 3 | [23.106.215.76](https://vuldb.com/?ip.23.106.215.76) | - | - | High
 4 | [23.227.201.6](https://vuldb.com/?ip.23.227.201.6) | 23-227-201-6.static.hvvc.us | - | High
-5 | [38.132.124.153](https://vuldb.com/?ip.38.132.124.153) | - | - | High
-6 | [45.11.19.47](https://vuldb.com/?ip.45.11.19.47) | - | - | High
-7 | [46.4.69.52](https://vuldb.com/?ip.46.4.69.52) | static.52.69.4.46.clients.your-server.de | - | High
-8 | [46.105.221.247](https://vuldb.com/?ip.46.105.221.247) | - | - | High
-9 | [46.105.251.42](https://vuldb.com/?ip.46.105.251.42) | ip42.ip-46-105-251.eu | - | High
-10 | [46.165.246.196](https://vuldb.com/?ip.46.165.246.196) | - | - | High
-11 | [70.36.107.34](https://vuldb.com/?ip.70.36.107.34) | - | - | High
-12 | [74.91.19.108](https://vuldb.com/?ip.74.91.19.108) | - | - | High
-13 | [74.91.19.122](https://vuldb.com/?ip.74.91.19.122) | - | - | High
-14 | [78.47.218.106](https://vuldb.com/?ip.78.47.218.106) | static.106.218.47.78.clients.your-server.de | - | High
-15 | [80.82.79.221](https://vuldb.com/?ip.80.82.79.221) | - | - | High
-16 | [80.82.79.240](https://vuldb.com/?ip.80.82.79.240) | - | - | High
-17 | ... | ... | ... | ...
+5 | [37.1.213.152](https://vuldb.com/?ip.37.1.213.152) | - | Veaty and Spearal | High
+6 | [38.132.124.153](https://vuldb.com/?ip.38.132.124.153) | - | - | High
+7 | [45.11.19.47](https://vuldb.com/?ip.45.11.19.47) | - | - | High
+8 | [46.4.69.52](https://vuldb.com/?ip.46.4.69.52) | static.52.69.4.46.clients.your-server.de | - | High
+9 | [46.105.221.247](https://vuldb.com/?ip.46.105.221.247) | - | - | High
+10 | [46.105.251.42](https://vuldb.com/?ip.46.105.251.42) | ip42.ip-46-105-251.eu | - | High
+11 | [46.165.246.196](https://vuldb.com/?ip.46.165.246.196) | - | - | High
+12 | [70.36.107.34](https://vuldb.com/?ip.70.36.107.34) | - | - | High
+13 | [74.91.19.108](https://vuldb.com/?ip.74.91.19.108) | - | - | High
+14 | [74.91.19.122](https://vuldb.com/?ip.74.91.19.122) | - | - | High
+15 | [78.47.218.106](https://vuldb.com/?ip.78.47.218.106) | static.106.218.47.78.clients.your-server.de | - | High
+16 | [80.82.79.221](https://vuldb.com/?ip.80.82.79.221) | - | - | High
+17 | [80.82.79.240](https://vuldb.com/?ip.80.82.79.240) | - | - | High
+18 | ... | ... | ... | ...
 
-There are 64 more IOC items available. Please use our online service to access the data.
+There are 69 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -61,7 +63,7 @@ ID | Technique | Weakness | Description | Confidence
 6 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 7 | ... | ... | ... | ...
 
-There are 23 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -128,9 +130,10 @@ ID | Type | Indicator | Confidence
 57 | File | `/core/config-revisions` | High
 58 | File | `/dcim/power-feeds/add` | High
 59 | File | `/debug/pprof` | Medium
-60 | ... | ... | ...
+60 | File | `/deletefile.php` | High
+61 | ... | ... | ...
 
-There are 524 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 531 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -139,6 +142,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://1275.ru/ioc/204/apt34-apt-iocs/
 * https://github.com/blackorbird/APT_REPORT/tree/master/APT34
 * https://nsfocusglobal.com/apt34-unleashes-new-wave-of-phishing-attack-with-variant-of-sidetwist-trojan/
+* https://research.checkpoint.com/2024/iranian-malware-attacks-iraqi-government/
 * https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/crambus-middle-east-government
 * https://unit42.paloaltonetworks.com/unit42-oilrig-group-steps-attacks-new-delivery-documents-new-injector-trojan/
 * https://unit42.paloaltonetworks.com/unit42-oilrig-uses-ismdoor-variant-possibly-linked-greenbug-threat-group/

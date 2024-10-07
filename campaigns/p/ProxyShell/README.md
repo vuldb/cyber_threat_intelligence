@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 23 more country items available. Please use our online service to access the data.
+There are 22 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -83,30 +83,30 @@ ID | Type | Indicator | Confidence
 23 | File | `/dashboard/menu-list.php` | High
 24 | File | `/data/remove` | Medium
 25 | File | `/debug/pprof` | Medium
-26 | File | `/DXR.axd` | Medium
-27 | File | `/ebics-server/ebics.aspx` | High
-28 | File | `/EXCU_SHELL` | Medium
-29 | File | `/ffos/classes/Master.php?f=save_category` | High
-30 | File | `/forum/away.php` | High
-31 | File | `/goform/modifyDhcpRule` | High
-32 | File | `/goform/ModifyPppAuthWhiteMac` | High
-33 | File | `/goform/net\_Web\_get_value` | High
-34 | File | `/goform/setStaOffline` | High
-35 | File | `/goforms/rlminfo` | High
-36 | File | `/GponForm/usb_restore_Form?script/` | High
-37 | File | `/group1/uploa` | High
-38 | File | `/hedwig.cgi` | Medium
-39 | File | `/HNAP1` | Low
-40 | File | `/HNAP1/SetClientInfo` | High
-41 | File | `/Items/*/RemoteImages/Download` | High
-42 | File | `/manage/IPSetup.php` | High
-43 | File | `/menu.html` | Medium
-44 | File | `/modules/profile/index.php` | High
-45 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-46 | File | `/navigate/navigate_download.php` | High
+26 | File | `/detailed.php` | High
+27 | File | `/dist/index.js` | High
+28 | File | `/DXR.axd` | Medium
+29 | File | `/ebics-server/ebics.aspx` | High
+30 | File | `/EXCU_SHELL` | Medium
+31 | File | `/ffos/classes/Master.php?f=save_category` | High
+32 | File | `/forum/away.php` | High
+33 | File | `/goform/form2systime.cgi` | High
+34 | File | `/goform/modifyDhcpRule` | High
+35 | File | `/goform/ModifyPppAuthWhiteMac` | High
+36 | File | `/goform/net\_Web\_get_value` | High
+37 | File | `/goform/setStaOffline` | High
+38 | File | `/goform/WizardHandle` | High
+39 | File | `/goforms/rlminfo` | High
+40 | File | `/GponForm/usb_restore_Form?script/` | High
+41 | File | `/group1/uploa` | High
+42 | File | `/hedwig.cgi` | Medium
+43 | File | `/HNAP1` | Low
+44 | File | `/HNAP1/SetClientInfo` | High
+45 | File | `/Items/*/RemoteImages/Download` | High
+46 | File | `/login.php?m=admin&c=Field&a=channel_edit` | High
 47 | ... | ... | ...
 
-There are 406 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 411 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

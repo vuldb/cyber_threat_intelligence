@@ -4,12 +4,22 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.koi_loader](https://vuldb.com/?actor.koi_loader)
 
+## Campaigns
+
+The following _campaigns_ are known and can be associated with Koi Loader:
+
+* Koi Stealer
+
 ## Countries
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Koi Loader:
 
 * [US](https://vuldb.com/?country.us)
+* [NL](https://vuldb.com/?country.nl)
 * [GB](https://vuldb.com/?country.gb)
+* ...
+
+There are 4 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -17,7 +27,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [79.124.78.197](https://vuldb.com/?ip.79.124.78.197) | - | - | High
+1 | [45.90.58.1](https://vuldb.com/?ip.45.90.58.1) | vds1337517.hosted-by-itldc.com | Koi Stealer | High
+2 | [79.124.78.197](https://vuldb.com/?ip.79.124.78.197) | - | - | High
+3 | [91.202.233.209](https://vuldb.com/?ip.91.202.233.209) | - | Koi Stealer | High
+4 | ... | ... | ... | ...
+
+There are 2 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -26,8 +41,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22 | Path Traversal | High
-2 | T1505 | CWE-89 | SQL Injection | High
-3 | T1592 | CWE-200 | Invocation of Process Using Visible Sensitive Information | High
+2 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+3 | T1068 | CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+4 | ... | ... | ... | ...
+
+There are 4 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -35,17 +53,18 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/common/info.cgi` | High
-2 | File | `host.c` | Low
-3 | File | `ldms/sm_actionfrm.asp` | High
+1 | File | `/api /v3/auth` | High
+2 | File | `/common/info.cgi` | High
+3 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
 4 | ... | ... | ...
 
-There are 3 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 13 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://github.com/esThreatIntelligence/iocs/blob/main/Koi/iocs_4-4-2024.txt
 * https://tria.ge/240901-w33m7aygje
 
 ## Literature

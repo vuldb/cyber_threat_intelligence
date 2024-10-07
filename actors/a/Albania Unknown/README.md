@@ -113,10 +113,10 @@ ID | Type | Indicator | Confidence
 5 | File | `/cgi-bin/nas_sharing.cgi` | High
 6 | File | `/check_availability.php` | High
 7 | File | `/classes/Master.php` | High
-8 | File | `/classes/Users.php?f=delete` | High
+8 | File | `/classes/SystemSettings.php?f=update_settings` | High
 9 | ... | ... | ...
 
-There are 61 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 66 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

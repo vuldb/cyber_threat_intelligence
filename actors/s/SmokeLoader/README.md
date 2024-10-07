@@ -49,7 +49,8 @@ ID | IP address | Hostname | Campaign | Confidence
 22 | [23.227.203.30](https://vuldb.com/?ip.23.227.203.30) | 23-227-203-30.static.hvvc.us | - | High
 23 | [27.102.67.144](https://vuldb.com/?ip.27.102.67.144) | - | - | High
 24 | [31.13.65.36](https://vuldb.com/?ip.31.13.65.36) | edge-star-mini-shv-01-atl3.facebook.com | - | High
-25 | ... | ... | ... | ...
+25 | [31.44.6.123](https://vuldb.com/?ip.31.44.6.123) | - | - | High
+26 | ... | ... | ... | ...
 
 There are 98 more IOC items available. Please use our online service to access the data.
 
@@ -96,7 +97,7 @@ ID | Type | Indicator | Confidence
 22 | File | `account.asp` | Medium
 23 | ... | ... | ...
 
-There are 192 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 194 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

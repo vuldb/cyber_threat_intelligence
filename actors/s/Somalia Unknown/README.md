@@ -103,7 +103,7 @@ ID | Type | Indicator | Confidence
 43 | File | `admin/products/view_product.php` | High
 44 | ... | ... | ...
 
-There are 377 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 378 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

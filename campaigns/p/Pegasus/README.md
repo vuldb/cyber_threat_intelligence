@@ -81,33 +81,32 @@ ID | Type | Indicator | Confidence
 13 | File | `/admin/info.php` | High
 14 | File | `/admin/plugin.php` | High
 15 | File | `/admin/template.php` | High
-16 | File | `/admin/userSys_deal.php?mudi=infoSet` | High
-17 | File | `/alphaware/summary.php` | High
-18 | File | `/api/monitors/import` | High
-19 | File | `/api/sys/login` | High
-20 | File | `/application/index/controller/Unity.php` | High
-21 | File | `/apply.cgi` | Medium
-22 | File | `/cgi-bin/cstecgi.cgi` | High
-23 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
-24 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-25 | File | `/cgi-bin/webdav_mgr.cgi` | High
-26 | File | `/classes/Master.php?f=delete_inquiry` | High
-27 | File | `/classes/Users.php` | High
-28 | File | `/cupseasylive/grndisplay.php` | High
-29 | File | `/dipam/save-delegates.php` | High
-30 | File | `/ecommerce/support_ticket` | High
-31 | File | `/etc/controller-agent/agent.conf` | High
-32 | File | `/forms/web_importTFTP` | High
-33 | File | `/forum/away.php` | High
-34 | File | `/front/admin/tenancyDetail.php` | High
-35 | File | `/goform/GetParentControlInfo` | High
-36 | File | `/goform/SetSysTimeCfg` | High
-37 | File | `/goform/SysToolReboot` | High
-38 | File | `/goform/SysToolRestoreSet` | High
-39 | File | `/goform/WifiExtraSet` | High
-40 | ... | ... | ...
+16 | File | `/admin/template/update` | High
+17 | File | `/admin/userSys_deal.php?mudi=infoSet` | High
+18 | File | `/alphaware/summary.php` | High
+19 | File | `/api/monitors/import` | High
+20 | File | `/api/sys/login` | High
+21 | File | `/application/index/controller/Unity.php` | High
+22 | File | `/apply.cgi` | Medium
+23 | File | `/cgi-bin/cstecgi.cgi` | High
+24 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
+25 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+26 | File | `/cgi-bin/webdav_mgr.cgi` | High
+27 | File | `/classes/Master.php?f=delete_inquiry` | High
+28 | File | `/classes/Users.php` | High
+29 | File | `/cupseasylive/grndisplay.php` | High
+30 | File | `/dipam/save-delegates.php` | High
+31 | File | `/ecommerce/support_ticket` | High
+32 | File | `/etc/controller-agent/agent.conf` | High
+33 | File | `/forms/web_importTFTP` | High
+34 | File | `/forum/away.php` | High
+35 | File | `/front/admin/tenancyDetail.php` | High
+36 | File | `/goform/GetParentControlInfo` | High
+37 | File | `/goform/SetSysTimeCfg` | High
+38 | File | `/goform/SysToolReboot` | High
+39 | ... | ... | ...
 
-There are 344 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 337 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

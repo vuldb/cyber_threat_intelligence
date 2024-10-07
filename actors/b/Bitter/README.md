@@ -83,9 +83,11 @@ ID | Type | Indicator | Confidence
 32 | File | `/wp-admin/admin-ajax.php` | High
 33 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
 34 | File | `5.2.9\syscrb.exe` | High
-35 | ... | ... | ...
+35 | File | `abc-pcie.c` | Medium
+36 | File | `accounts/payment_history.php` | High
+37 | ... | ... | ...
 
-There are 301 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 314 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
-* [PL](https://vuldb.com/?country.pl)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
 There are 16 more country items available. Please use our online service to access the data.
@@ -49,7 +49,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -58,10 +58,10 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `//proc/kcore` | Medium
-2 | File | `/?ajax-request=jnews` | High
-3 | File | `/admin/about-us.php` | High
-4 | File | `/admin/action/delete-vaccine.php` | High
-5 | File | `/admin/div_data/delete?divId=9` | High
+2 | File | `/admin/about-us.php` | High
+3 | File | `/admin/action/delete-vaccine.php` | High
+4 | File | `/admin/div_data/delete?divId=9` | High
+5 | File | `/admin/doAdminAction.php?act=addCate` | High
 6 | File | `/admin/edit-post.php` | High
 7 | File | `/admin/index2.html` | High
 8 | File | `/admin/scripts/pi-hole/phpqueryads.php` | High
@@ -73,39 +73,39 @@ ID | Type | Indicator | Confidence
 14 | File | `/applications/nexus/modules/front/store/store.php` | High
 15 | File | `/apply.cgi` | Medium
 16 | File | `/bitrix/admin/ldap_server_edit.php` | High
-17 | File | `/cgi-bin/cstecgi.cgi` | High
-18 | File | `/cgi-bin/nas_sharing.cgi` | High
-19 | File | `/cgi-bin/wlogin.cgi` | High
-20 | File | `/classes/Master.php` | High
-21 | File | `/classes/Master.php?f=save_category` | High
-22 | File | `/classes/Users.php?f=save` | High
-23 | File | `/College/admin/teacher.php` | High
-24 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
-25 | File | `/dcim/rack-roles/` | High
-26 | File | `/Electron/download` | High
-27 | File | `/endpoint/update-computer.php` | High
-28 | File | `/fftools/ffmpeg_enc.c` | High
-29 | File | `/forms/doLogin` | High
-30 | File | `/formSysLog` | Medium
-31 | File | `/forum/away.php` | High
-32 | File | `/goform/aspForm` | High
-33 | File | `/goform/delAd` | High
-34 | File | `/goform/SetOnlineDevName` | High
-35 | File | `/inc/topBarNav.php` | High
-36 | File | `/index.php` | Medium
-37 | File | `/index.php?app=main&func=passport&action=login` | High
-38 | File | `/install/` | Medium
-39 | File | `/kelas/data` | Medium
-40 | File | `/listplace/user/ticket/create` | High
-41 | File | `/lua/set-passwd.lua` | High
-42 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
-43 | File | `/MIME/INBOX-MM-1/` | High
-44 | File | `/Moosikay/order.php` | High
-45 | File | `/novel/author/list` | High
-46 | File | `/pages/animals.php` | High
+17 | File | `/cgi-bin/apkg_mgr.cgi` | High
+18 | File | `/cgi-bin/cstecgi.cgi` | High
+19 | File | `/cgi-bin/nas_sharing.cgi` | High
+20 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+21 | File | `/cgi-bin/wlogin.cgi` | High
+22 | File | `/classes/Master.php` | High
+23 | File | `/classes/Master.php?f=delete_record` | High
+24 | File | `/classes/Master.php?f=save_category` | High
+25 | File | `/classes/SystemSettings.php?f=update_settings` | High
+26 | File | `/classes/Users.php?f=save` | High
+27 | File | `/College/admin/teacher.php` | High
+28 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
+29 | File | `/dcim/rack-roles/` | High
+30 | File | `/detailed.php` | High
+31 | File | `/dtale/chart-data/1` | High
+32 | File | `/Electron/download` | High
+33 | File | `/endpoint/update-computer.php` | High
+34 | File | `/etc/shadow.sample` | High
+35 | File | `/fftools/ffmpeg_enc.c` | High
+36 | File | `/filter.php` | Medium
+37 | File | `/forms/doLogin` | High
+38 | File | `/formSysLog` | Medium
+39 | File | `/forum/away.php` | High
+40 | File | `/goform/aspForm` | High
+41 | File | `/goform/SetOnlineDevName` | High
+42 | File | `/h.php/page?ref=addtabs` | High
+43 | File | `/image.php` | Medium
+44 | File | `/inc/topBarNav.php` | High
+45 | File | `/includes/common/require_access_recovery.php` | High
+46 | File | `/index.php` | Medium
 47 | ... | ... | ...
 
-There are 407 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 406 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

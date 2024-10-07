@@ -68,33 +68,34 @@ ID | Type | Indicator | Confidence
 8 | File | `/admin/sysmon.php` | High
 9 | File | `/Admin/user-record.php` | High
 10 | File | `/admin/users.php` | High
-11 | File | `/alarm_pi/alarmService.php` | High
-12 | File | `/api/content/posts/comments` | High
-13 | File | `/api/v2/events` | High
-14 | File | `/api/v4/teams` | High
-15 | File | `/appliance/users?action=edit` | High
-16 | File | `/apply.cgi` | Medium
-17 | File | `/auth/callback` | High
-18 | File | `/bcms/classes/Master.php?f=save_court_rental` | High
-19 | File | `/cgi-bin/cstecgi.cgi` | High
-20 | File | `/cgi-bin/cstecgi.cgi?action=save&setting` | High
-21 | File | `/cimom` | Low
-22 | File | `/ci_spms/admin/category` | High
-23 | File | `/ci_spms/admin/search/searching/` | High
-24 | File | `/classes/master.php?f=delete_facility` | High
-25 | File | `/cupseasylive/itemgroupcreate.php` | High
-26 | File | `/debug/pprof` | Medium
-27 | File | `/dev/kmem` | Medium
-28 | File | `/edit-db.php` | Medium
-29 | File | `/exponentcms/administration/configure_site` | High
-30 | File | `/forum/away.php` | High
-31 | File | `/goform/SetOnlineDevName` | High
-32 | File | `/goform/setsambacfg` | High
-33 | File | `/Home/GetAttachment` | High
-34 | File | `/index.php` | Medium
-35 | ... | ... | ...
+11 | File | `/admin_class.php` | High
+12 | File | `/alarm_pi/alarmService.php` | High
+13 | File | `/api/content/posts/comments` | High
+14 | File | `/api/v2/events` | High
+15 | File | `/api/v4/teams` | High
+16 | File | `/appliance/users?action=edit` | High
+17 | File | `/apply.cgi` | Medium
+18 | File | `/auth/callback` | High
+19 | File | `/bcms/classes/Master.php?f=save_court_rental` | High
+20 | File | `/cgi-bin/cstecgi.cgi` | High
+21 | File | `/cgi-bin/cstecgi.cgi?action=save&setting` | High
+22 | File | `/cgi-bin/hd_config.cgi` | High
+23 | File | `/cimom` | Low
+24 | File | `/ci_spms/admin/category` | High
+25 | File | `/ci_spms/admin/search/searching/` | High
+26 | File | `/classes/master.php?f=delete_facility` | High
+27 | File | `/classes/Master.php?f=delete_record` | High
+28 | File | `/cupseasylive/itemgroupcreate.php` | High
+29 | File | `/debug/pprof` | Medium
+30 | File | `/dev/kmem` | Medium
+31 | File | `/edit-db.php` | Medium
+32 | File | `/exponentcms/administration/configure_site` | High
+33 | File | `/forum/away.php` | High
+34 | File | `/goform/setMacFilterList` | High
+35 | File | `/goform/SetOnlineDevName` | High
+36 | ... | ... | ...
 
-There are 303 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 308 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

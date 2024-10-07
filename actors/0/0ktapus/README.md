@@ -93,24 +93,24 @@ ID | Type | Indicator | Confidence
 35 | File | `/changeimage.php` | High
 36 | File | `/classes/Master.php?f=delete_sub_category` | High
 37 | File | `/classes/Users.php?f=save` | High
-38 | File | `/cms/category/list` | High
-39 | File | `/company/store` | High
-40 | File | `/debug/pprof` | Medium
-41 | File | `/Default/Bd` | Medium
-42 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
-43 | File | `/domain/add` | Medium
-44 | File | `/donor-wall` | Medium
-45 | File | `/ebics-server/ebics.aspx` | High
-46 | File | `/esbus/servlet/GetSQLData` | High
-47 | File | `/EXCU_SHELL` | Medium
-48 | File | `/film-rating.php` | High
-49 | File | `/forum/away.php` | High
-50 | File | `/friends/ajax_invite` | High
-51 | File | `/goform/aspForm` | High
-52 | File | `/goform/formLogin` | High
+38 | File | `/classes/Users.php?f=save_client` | High
+39 | File | `/cms/category/list` | High
+40 | File | `/company/store` | High
+41 | File | `/debug/pprof` | Medium
+42 | File | `/Default/Bd` | Medium
+43 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
+44 | File | `/domain/add` | Medium
+45 | File | `/donor-wall` | Medium
+46 | File | `/ebics-server/ebics.aspx` | High
+47 | File | `/esbus/servlet/GetSQLData` | High
+48 | File | `/EXCU_SHELL` | Medium
+49 | File | `/film-rating.php` | High
+50 | File | `/forum/away.php` | High
+51 | File | `/friends/ajax_invite` | High
+52 | File | `/goform/aspForm` | High
 53 | ... | ... | ...
 
-There are 458 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 460 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

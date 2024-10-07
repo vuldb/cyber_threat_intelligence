@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [IR](https://vuldb.com/?country.ir)
 * ...
 
-There are 9 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -21,13 +21,14 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [45.9.74.135](https://vuldb.com/?ip.45.9.74.135) | - | - | High
-2 | [45.11.59.230](https://vuldb.com/?ip.45.11.59.230) | mail1.yhszxddb.com | - | High
-3 | [45.11.59.231](https://vuldb.com/?ip.45.11.59.231) | mail-bin-f985.stepupmarketting.com | - | High
-4 | [45.11.59.247](https://vuldb.com/?ip.45.11.59.247) | dedicated.sollutium.com | - | High
-5 | ... | ... | ... | ...
+1 | [38.180.91.117](https://vuldb.com/?ip.38.180.91.117) | - | - | High
+2 | [45.9.74.135](https://vuldb.com/?ip.45.9.74.135) | - | - | High
+3 | [45.11.59.230](https://vuldb.com/?ip.45.11.59.230) | mail1.yhszxddb.com | - | High
+4 | [45.11.59.231](https://vuldb.com/?ip.45.11.59.231) | mail-bin-f985.stepupmarketting.com | - | High
+5 | [45.11.59.247](https://vuldb.com/?ip.45.11.59.247) | dedicated.sollutium.com | - | High
+6 | ... | ... | ... | ...
 
-There are 16 more IOC items available. Please use our online service to access the data.
+There are 19 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -35,13 +36,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 15 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -53,15 +54,17 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin/emp-profile-avatar.php` | High
 3 | File | `/cgi-bin/hd_config.cgi` | High
 4 | File | `/cgi-bin/nas_sharing.cgi` | High
-5 | File | `/dataSet/testTransform;swagger-ui` | High
-6 | File | `/edit-computer-detail.php` | High
-7 | File | `/export` | Low
-8 | File | `/goform/SetSpeedWan` | High
-9 | File | `/index.php?app=main&inc=feature_phonebook&op=phonebook_list` | High
-10 | File | `/mgmt/tm/util/bash` | High
-11 | ... | ... | ...
+5 | File | `/cgi-bin/wlogin.cgi` | High
+6 | File | `/dataSet/testTransform;swagger-ui` | High
+7 | File | `/edit-computer-detail.php` | High
+8 | File | `/export` | Low
+9 | File | `/goform/SetSpeedWan` | High
+10 | File | `/index.php?app=main&inc=feature_phonebook&op=phonebook_list` | High
+11 | File | `/mgmt/tm/util/bash` | High
+12 | File | `/mhds/clinic/view_details.php` | High
+13 | ... | ... | ...
 
-There are 85 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 99 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

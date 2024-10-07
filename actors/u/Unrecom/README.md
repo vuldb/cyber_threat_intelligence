@@ -100,9 +100,10 @@ ID | Type | Indicator | Confidence
 50 | File | `/ci_hms/search` | High
 51 | File | `/classes/Master.php?f=delete_inquiry` | High
 52 | File | `/classes/Master.php?f=delete_item` | High
-53 | ... | ... | ...
+53 | File | `/classes/Master.php?f=save_category` | High
+54 | ... | ... | ...
 
-There are 462 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 466 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

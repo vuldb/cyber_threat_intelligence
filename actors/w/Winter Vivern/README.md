@@ -54,17 +54,17 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/scripts/pi-hole/phpqueryads.php` | High
-2 | File | `/etc/gsissh/sshd_config` | High
-3 | File | `/goform/WifiBasicSet` | High
-4 | File | `/importexport.php` | High
-5 | File | `/login/index.php` | High
-6 | File | `/out.php` | Medium
-7 | File | `/php/exportrecord.php` | High
-8 | File | `/php/ping.php` | High
-9 | File | `/spip.php` | Medium
+2 | File | `/classes/SystemSettings.php?f=update_settings` | High
+3 | File | `/etc/gsissh/sshd_config` | High
+4 | File | `/goform/WifiBasicSet` | High
+5 | File | `/importexport.php` | High
+6 | File | `/login/index.php` | High
+7 | File | `/out.php` | Medium
+8 | File | `/php/exportrecord.php` | High
+9 | File | `/php/ping.php` | High
 10 | ... | ... | ...
 
-There are 76 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 78 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

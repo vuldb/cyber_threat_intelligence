@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [NL](https://vuldb.com/?country.nl)
-* [RU](https://vuldb.com/?country.ru)
+* [TR](https://vuldb.com/?country.tr)
 * ...
 
 There are 24 more country items available. Please use our online service to access the data.
@@ -39,9 +39,10 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94 | Argument Injection | High
-5 | ... | ... | ... | ...
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -56,49 +57,47 @@ ID | Type | Indicator | Confidence
 5 | File | `/admin/login.php` | High
 6 | File | `/admin/vca/bia/addacph.cgi` | High
 7 | File | `/anony/mjpg.cgi` | High
-8 | File | `/api/v2/events` | High
-9 | File | `/cgi-bin/wlogin.cgi` | High
-10 | File | `/checkLogin.cgi` | High
-11 | File | `/common/logViewer/logViewer.jsf` | High
-12 | File | `/control/register_case.php` | High
-13 | File | `/core/vb/vurl.php` | High
-14 | File | `/CPE` | Low
-15 | File | `/dashboard/snapshot/*?orgId=0` | High
-16 | File | `/devinfo` | Medium
-17 | File | `/ecrire` | Low
-18 | File | `/forum/away.php` | High
-19 | File | `/HNAP1/SetAccessPointMode` | High
-20 | File | `/include/commrecc.inc.php` | High
-21 | File | `/include/comm_post.inc.php` | High
-22 | File | `/include/friends.inc.php` | High
-23 | File | `/include/menu_v.inc.php` | High
-24 | File | `/include/notify.inc.php` | High
-25 | File | `/index.php?menu=asterisk_cli` | High
-26 | File | `/magnoliaPublic/travel/members/login.html` | High
-27 | File | `/mhds/clinic/view_details.php` | High
-28 | File | `/MicroStrategyWS/happyaxis.jsp` | High
-29 | File | `/owa/auth/logon.aspx` | High
-30 | File | `/products/details.asp` | High
-31 | File | `/products/view_product.php` | High
-32 | File | `/rom-0` | Low
-33 | File | `/school/model/get_teacher.php` | High
-34 | File | `/search.php` | Medium
-35 | File | `/spip.php` | Medium
-36 | File | `/uncpath/` | Medium
-37 | File | `/user/loader.php?api=1` | High
-38 | File | `/usr/sbin/suexec` | High
-39 | File | `/viewer/krpano.html` | High
-40 | File | `/wp-admin/admin-ajax.php` | High
-41 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-42 | File | `/wp-json/oembed/1.0/embed?url` | High
-43 | File | `account.asp` | Medium
-44 | File | `activateuser.aspx` | High
-45 | File | `adclick.php` | Medium
-46 | File | `admin-ajax.php` | High
-47 | File | `admin.jcomments.php` | High
-48 | ... | ... | ...
+8 | File | `/api/cron/settings/setJob/` | High
+9 | File | `/api/v2/events` | High
+10 | File | `/cgi-bin/wlogin.cgi` | High
+11 | File | `/checkLogin.cgi` | High
+12 | File | `/common/logViewer/logViewer.jsf` | High
+13 | File | `/control/register_case.php` | High
+14 | File | `/core/vb/vurl.php` | High
+15 | File | `/CPE` | Low
+16 | File | `/dashboard/snapshot/*?orgId=0` | High
+17 | File | `/devinfo` | Medium
+18 | File | `/ecrire` | Low
+19 | File | `/forum/away.php` | High
+20 | File | `/HNAP1/SetAccessPointMode` | High
+21 | File | `/include/commrecc.inc.php` | High
+22 | File | `/include/comm_post.inc.php` | High
+23 | File | `/include/friends.inc.php` | High
+24 | File | `/include/menu_v.inc.php` | High
+25 | File | `/include/notify.inc.php` | High
+26 | File | `/index.php?menu=asterisk_cli` | High
+27 | File | `/magnoliaPublic/travel/members/login.html` | High
+28 | File | `/mhds/clinic/view_details.php` | High
+29 | File | `/MicroStrategyWS/happyaxis.jsp` | High
+30 | File | `/owa/auth/logon.aspx` | High
+31 | File | `/pg_meta/default/query` | High
+32 | File | `/proc//auxv` | Medium
+33 | File | `/proc/fs/nfsd/clients/2/states` | High
+34 | File | `/products/view_product.php` | High
+35 | File | `/rom-0` | Low
+36 | File | `/school/model/get_teacher.php` | High
+37 | File | `/search.php` | Medium
+38 | File | `/spip.php` | Medium
+39 | File | `/uncpath/` | Medium
+40 | File | `/user/loader.php?api=1` | High
+41 | File | `/usr/sbin/suexec` | High
+42 | File | `/viewer/krpano.html` | High
+43 | File | `/wp-admin/admin-ajax.php` | High
+44 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+45 | File | `/wp-json/oembed/1.0/embed?url` | High
+46 | ... | ... | ...
 
-There are 418 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 395 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

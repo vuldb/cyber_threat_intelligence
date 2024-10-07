@@ -4,13 +4,19 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.gru](https://vuldb.com/?actor.gru)
 
+## Campaigns
+
+The following _campaigns_ are known and can be associated with GRU:
+
+* Critical Infrastructure
+
 ## Countries
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with GRU:
 
-* [RU](https://vuldb.com/?country.ru)
 * [US](https://vuldb.com/?country.us)
-* [RO](https://vuldb.com/?country.ro)
+* [RU](https://vuldb.com/?country.ru)
+* [TR](https://vuldb.com/?country.tr)
 * ...
 
 There are 17 more country items available. Please use our online service to access the data.
@@ -26,7 +32,7 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [95.141.36.180](https://vuldb.com/?ip.95.141.36.180) | seflow9.neopoly.de | - | High
 4 | ... | ... | ... | ...
 
-There are 7 more IOC items available. Please use our online service to access the data.
+There are 8 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -34,13 +40,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
-2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059 | CWE-94 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-425 | Path Traversal | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -48,30 +55,59 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.htaccess` | Medium
+1 | File | `//proc/kcore` | Medium
 2 | File | `/?ajax-request=jnews` | High
-3 | File | `/admin/students/view_student.php` | High
-4 | File | `/admin_ping.htm` | High
-5 | File | `/CommunitySSORedirect.jsp` | High
-6 | File | `/loginLess/../../etc/passwd` | High
-7 | File | `/see_more_details.php` | High
-8 | File | `/system/proxy` | High
-9 | File | `/uncpath/` | Medium
-10 | File | `/usr/local/nagios/bin/npcd` | High
-11 | File | `accountancy/customer/card.php` | High
-12 | File | `addentry.php` | Medium
-13 | File | `add_comment.php` | High
-14 | File | `admin.php` | Medium
-15 | File | `admin/create-package.php` | High
-16 | ... | ... | ...
+3 | File | `/admin/about-us.php` | High
+4 | File | `/admin/action/delete-vaccine.php` | High
+5 | File | `/admin/doAdminAction.php?act=addCate` | High
+6 | File | `/admin/edit-post.php` | High
+7 | File | `/admin/index2.html` | High
+8 | File | `/admin/userprofile.php` | High
+9 | File | `/admin_ping.htm` | High
+10 | File | `/api/baskets/{name}` | High
+11 | File | `/app/index/controller/Common.php` | High
+12 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
+13 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
+14 | File | `/applications/nexus/modules/front/store/store.php` | High
+15 | File | `/apply.cgi` | Medium
+16 | File | `/bitrix/admin/ldap_server_edit.php` | High
+17 | File | `/cgi-bin/apkg_mgr.cgi` | High
+18 | File | `/cgi-bin/cstecgi.cgi` | High
+19 | File | `/cgi-bin/nas_sharing.cgi` | High
+20 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+21 | File | `/cgi-bin/wlogin.cgi` | High
+22 | File | `/classes/Master.php` | High
+23 | File | `/classes/Master.php?f=delete_record` | High
+24 | File | `/classes/Master.php?f=save_category` | High
+25 | File | `/classes/SystemSettings.php?f=update_settings` | High
+26 | File | `/classes/Users.php?f=save` | High
+27 | File | `/College/admin/teacher.php` | High
+28 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
+29 | File | `/dcim/rack-roles/` | High
+30 | File | `/detailed.php` | High
+31 | File | `/dtale/chart-data/1` | High
+32 | File | `/etc/shadow.sample` | High
+33 | File | `/fftools/ffmpeg_enc.c` | High
+34 | File | `/filter.php` | Medium
+35 | File | `/forms/doLogin` | High
+36 | File | `/formSysLog` | Medium
+37 | File | `/forum/away.php` | High
+38 | File | `/goform/addUserName` | High
+39 | File | `/goform/aspForm` | High
+40 | File | `/goform/delAd` | High
+41 | File | `/goform/SetOnlineDevName` | High
+42 | File | `/goform/wifiSSIDset` | High
+43 | File | `/h.php/page?ref=addtabs` | High
+44 | ... | ... | ...
 
-There are 128 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 376 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://media.defense.gov/2021/Jul/01/2002753896/-1/-1/1/CSA_GRU_GLOBAL_BRUTE_FORCE_CAMPAIGN_UOO158036-21.PDF
+* https://www.picussecurity.com/resource/blog/cisa-alert-aa24-249a-russian-military-cyber-actors-target-us-and-global-critical-infrastructure
 
 ## Literature
 

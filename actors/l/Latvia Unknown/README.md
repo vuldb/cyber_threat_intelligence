@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 16 more country items available. Please use our online service to access the data.
+There are 18 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -247,10 +247,9 @@ ID | IP address | Hostname | Campaign | Confidence
 224 | [85.254.31.0](https://vuldb.com/?ip.85.254.31.0) | - | - | High
 225 | [85.254.32.0](https://vuldb.com/?ip.85.254.32.0) | - | - | High
 226 | [85.254.40.0](https://vuldb.com/?ip.85.254.40.0) | 85-254-40-0.cloudtelek.com | - | High
-227 | [85.254.44.0](https://vuldb.com/?ip.85.254.44.0) | - | - | High
-228 | ... | ... | ... | ...
+227 | ... | ... | ... | ...
 
-There are 908 more IOC items available. Please use our online service to access the data.
+There are 906 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -262,9 +261,10 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1055 | CWE-74, CWE-643 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+6 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -272,51 +272,63 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/.pomerium` | Medium
-2 | File | `/admin/add_ikev2.php` | High
-3 | File | `/admin/ajax.php?action=delete_user` | High
-4 | File | `/admin/category_save.php` | High
-5 | File | `/Admin/changepassword.php` | High
-6 | File | `/admin/general-setting` | High
-7 | File | `/admin/inquiries/view_inquiry.php` | High
-8 | File | `/admin/list_ipAddressPolicy.php` | High
-9 | File | `/admin/manage_model.php` | High
-10 | File | `/admin/manage_user.php` | High
-11 | File | `/admin/projects/{projectname}/skills/{skillname}/video` | High
-12 | File | `/admin/service` | High
-13 | File | `/admin/subject.php` | High
-14 | File | `/api/v1/custom_component` | High
-15 | File | `/api/v2/maps` | Medium
-16 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-17 | File | `/catalog/all-products` | High
-18 | File | `/cgi-bin/cstecgi.cgi` | High
-19 | File | `/cgi-bin/nas_sharing.cgi` | High
-20 | File | `/classes/Master.php` | High
-21 | File | `/classes/Master.php?f=delete_category` | High
-22 | File | `/classes/Master.php?f=save_medicine` | High
-23 | File | `/classes/Users.php?f=delete` | High
-24 | File | `/DXR.axd` | Medium
-25 | File | `/edit-subject.php` | High
-26 | File | `/endpoint/add-user.php` | High
-27 | File | `/etc/postfix/sender_login` | High
-28 | File | `/etc/shadow` | Medium
-29 | File | `/forum/away.php` | High
-30 | File | `/goform/SetIpMacBind` | High
-31 | File | `/goform/SetSysTimeCfg` | High
-32 | File | `/goform/WifiExtraSet` | High
-33 | File | `/guestbook` | Medium
-34 | File | `/index.php` | Medium
-35 | File | `/js/player/dmplayer/dmku/?ac=edit` | High
-36 | File | `/labvantage/rc?command=page&page=SampleHistoricalList&_iframename=list&__crc=crc_1701669816260` | High
-37 | ... | ... | ...
+1 | File | `/+CSCOE+/logon.html` | High
+2 | File | `/.pomerium` | Medium
+3 | File | `/admin/?page=bike` | High
+4 | File | `/admin/?page=musics/manage_music` | High
+5 | File | `/admin/add_ikev2.php` | High
+6 | File | `/admin/ajax.php?action=delete_user` | High
+7 | File | `/admin/category_save.php` | High
+8 | File | `/Admin/changepassword.php` | High
+9 | File | `/admin/emp-profile-avatar.php` | High
+10 | File | `/admin/general-setting` | High
+11 | File | `/admin/inquiries/view_inquiry.php` | High
+12 | File | `/admin/list_ipAddressPolicy.php` | High
+13 | File | `/admin/manage_model.php` | High
+14 | File | `/admin/manage_user.php` | High
+15 | File | `/admin/order.php` | High
+16 | File | `/admin/projects/{projectname}/skills/{skillname}/video` | High
+17 | File | `/admin/service` | High
+18 | File | `/admin/subject.php` | High
+19 | File | `/api/v1/custom_component` | High
+20 | File | `/api/v2/maps` | Medium
+21 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+22 | File | `/car-rental-management-system/admin/index.php?page=manage_car` | High
+23 | File | `/catalog/all-products` | High
+24 | File | `/cgi-bin/cstecgi.cgi` | High
+25 | File | `/cgi-bin/nas_sharing.cgi` | High
+26 | File | `/classes/Master.php` | High
+27 | File | `/classes/Master.php?f=delete_category` | High
+28 | File | `/classes/Master.php?f=save_medicine` | High
+29 | File | `/classes/Master.php?f=save_package` | High
+30 | File | `/classes/SystemSettings.php?f=update_settings` | High
+31 | File | `/classes/Users.php?f=delete` | High
+32 | File | `/downloadFile.php` | High
+33 | File | `/dtale/chart-data/1` | High
+34 | File | `/DXR.axd` | Medium
+35 | File | `/edit-subject.php` | High
+36 | File | `/endpoint/add-folder.php` | High
+37 | File | `/endpoint/add-user.php` | High
+38 | File | `/etc/postfix/sender_login` | High
+39 | File | `/etc/shadow` | Medium
+40 | File | `/file_manager/login.php` | High
+41 | File | `/film-rating.php` | High
+42 | File | `/foms/routers/place-order.php` | High
+43 | File | `/forum/away.php` | High
+44 | File | `/goform/SetIpMacBind` | High
+45 | File | `/goform/WifiExtraSet` | High
+46 | File | `/guestbook` | Medium
+47 | File | `/index.php` | Medium
+48 | File | `/js/player/dmplayer/dmku/?ac=edit` | High
+49 | File | `/labvantage/rc?command=page&page=SampleHistoricalList&_iframename=list&__crc=crc_1701669816260` | High
+50 | ... | ... | ...
 
-There are 317 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 432 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
-* 196.196.53.94,Latvia,2023-11-18T08:05:18+01:00 196.196.53.101,Latvia,2023-11-18T12:32:16+01:00 196.196.53.135,Latvia,2023-11-18T12:54:18+01:00
 * https://github.com/firehol/blocklist-ipsets/blob/master/geolite2_country/country_lv.netset
 * https://github.com/firehol/blocklist-ipsets/blob/master/ip2location_country/ip2location_country_lv.netset
 * https://github.com/firehol/blocklist-ipsets/blob/master/ipip_country/ipip_country_lv.netset

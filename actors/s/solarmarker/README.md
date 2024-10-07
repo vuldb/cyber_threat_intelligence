@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [FR](https://vuldb.com/?country.fr)
 * ...
 
-There are 28 more country items available. Please use our online service to access the data.
+There are 29 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -31,7 +31,8 @@ ID | IP address | Hostname | Campaign | Confidence
 8 | [50.19.154.168](https://vuldb.com/?ip.50.19.154.168) | ec2-50-19-154-168.compute-1.amazonaws.com | - | Medium
 9 | [52.7.205.182](https://vuldb.com/?ip.52.7.205.182) | ec2-52-7-205-182.compute-1.amazonaws.com | - | Medium
 10 | [52.23.58.125](https://vuldb.com/?ip.52.23.58.125) | ec2-52-23-58-125.compute-1.amazonaws.com | - | Medium
-11 | ... | ... | ... | ...
+11 | [52.87.104.17](https://vuldb.com/?ip.52.87.104.17) | ec2-52-87-104-17.compute-1.amazonaws.com | - | Medium
+12 | ... | ... | ... | ...
 
 There are 42 more IOC items available. Please use our online service to access the data.
 
@@ -85,35 +86,36 @@ ID | Type | Indicator | Confidence
 27 | File | `/manager?action=getlogcat` | High
 28 | File | `/mgmt/tm/util/bash` | High
 29 | File | `/model/update_grade.php` | High
-30 | File | `/modules/profile/index.php` | High
-31 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-32 | File | `/oauth/idp/.well-known/openid-configuration` | High
-33 | File | `/out.php` | Medium
-34 | File | `/p1/p2/:name` | Medium
-35 | File | `/param.file.tgz` | High
-36 | File | `/patient/appointment.php` | High
-37 | File | `/php-opos/index.php` | High
-38 | File | `/php/exportrecord.php` | High
-39 | File | `/php/ping.php` | High
-40 | File | `/plesk-site-preview/` | High
-41 | File | `/proc/<PID>/mem` | High
-42 | File | `/product.php` | Medium
-43 | File | `/product_list.php` | High
-44 | File | `/protocol/iscgwtunnel/uploadiscgwrouteconf.php` | High
-45 | File | `/ptms/?page=user` | High
-46 | File | `/request.php` | Medium
-47 | File | `/scripts/unlock_tasks.php` | High
-48 | File | `/Service/ImageStationDataService.asmx` | High
-49 | File | `/setup/finish` | High
+30 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+31 | File | `/oauth/idp/.well-known/openid-configuration` | High
+32 | File | `/out.php` | Medium
+33 | File | `/p1/p2/:name` | Medium
+34 | File | `/param.file.tgz` | High
+35 | File | `/patient/appointment.php` | High
+36 | File | `/php-opos/index.php` | High
+37 | File | `/php/exportrecord.php` | High
+38 | File | `/php/ping.php` | High
+39 | File | `/plesk-site-preview/` | High
+40 | File | `/proc/<PID>/mem` | High
+41 | File | `/product.php` | Medium
+42 | File | `/product_list.php` | High
+43 | File | `/protocol/iscgwtunnel/uploadiscgwrouteconf.php` | High
+44 | File | `/ptms/?page=user` | High
+45 | File | `/request.php` | Medium
+46 | File | `/scripts/unlock_tasks.php` | High
+47 | File | `/Service/ImageStationDataService.asmx` | High
+48 | File | `/setup/finish` | High
+49 | File | `/simple-online-bidding-system/bidding/admin/ajax.php?action=login` | High
 50 | ... | ... | ...
 
-There are 430 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 432 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://1275.ru/ioc/184/solarmarker-malware-iocs/
+* https://github.com/esThreatIntelligence/iocs/blob/main/SolarMarker/iocs_4-8-2024.txt
 * https://ioc.exchange/@squiblydoo@infosec.exchange/110854242511709508
 * https://ioc.exchange/@squiblydoo@infosec.exchange/110952627273483306
 * https://threatfox.abuse.ch

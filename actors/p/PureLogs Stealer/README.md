@@ -18,6 +18,7 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [91.92.255.61](https://vuldb.com/?ip.91.92.255.61) | - | - | High
+2 | [147.45.50.214](https://vuldb.com/?ip.147.45.50.214) | - | - | High
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -49,6 +50,7 @@ There are 9 more IOA items available (file, library, argument, input value, patt
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://blog.sekoia.io/webdav-as-a-service-uncovering-the-infrastructure-behind-emmenhtal-loader-distribution/
 * https://threatfox.abuse.ch
 
 ## Literature

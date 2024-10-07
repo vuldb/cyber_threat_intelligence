@@ -187,28 +187,30 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin/booking-bwdates-reports-details.php` | High
 3 | File | `/admin/config/uploadicon.php` | High
 4 | File | `/admin/edit-admin.php` | High
-5 | File | `/admin/maintenance/view_designation.php` | High
-6 | File | `/admin/manage_station.php` | High
-7 | File | `/admin/mod_room/controller.php?action=add` | High
-8 | File | `/admin/operations/expense_category.php` | High
-9 | File | `/backend/register.php` | High
-10 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-11 | File | `/cgi-bin/cstecgi.cgi` | High
-12 | File | `/cgi-bin/nas_sharing.cgi` | High
-13 | File | `/classes/Master.php` | High
-14 | File | `/classes/Users.php?f=delete` | High
-15 | File | `/classes/Users.php?f=save` | High
-16 | File | `/control/deactivate_case.php` | High
-17 | File | `/control/register_case.php` | High
-18 | File | `/dede/sys_sql_query.php` | High
-19 | File | `/forgot-password` | High
-20 | File | `/forum/away.php` | High
-21 | File | `/goform/setMacFilter` | High
-22 | File | `/index.php` | Medium
-23 | File | `/lesson/controller.php` | High
-24 | ... | ... | ...
+5 | File | `/admin/emp-profile-avatar.php` | High
+6 | File | `/admin/maintenance/view_designation.php` | High
+7 | File | `/admin/manage_station.php` | High
+8 | File | `/admin/mod_room/controller.php?action=add` | High
+9 | File | `/admin/operations/expense_category.php` | High
+10 | File | `/admin/template/update` | High
+11 | File | `/api/system/dept/tree?sort=parentId%2Casc&sort=sort%2Casc` | High
+12 | File | `/backend/register.php` | High
+13 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+14 | File | `/cgi-bin/cstecgi.cgi` | High
+15 | File | `/cgi-bin/nas_sharing.cgi` | High
+16 | File | `/cgi-bin/p1_ftpserver.php` | High
+17 | File | `/classes/Master.php` | High
+18 | File | `/classes/SystemSettings.php?f=update_settings` | High
+19 | File | `/classes/Users.php?f=delete` | High
+20 | File | `/classes/Users.php?f=save` | High
+21 | File | `/control/deactivate_case.php` | High
+22 | File | `/control/register_case.php` | High
+23 | File | `/dede/sys_sql_query.php` | High
+24 | File | `/foms/routers/place-order.php` | High
+25 | File | `/forgot-password` | High
+26 | ... | ... | ...
 
-There are 203 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 223 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -29,12 +29,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059 | CWE-88, CWE-94 | Argument Injection | High
-2 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-3 | T1068 | CWE-284 | Execution with Unnecessary Privileges | High
+1 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+2 | T1059 | CWE-88, CWE-94 | Argument Injection | High
+3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 5 more TTP items available. Please use our online service to access the data.
+There are 6 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -42,12 +42,13 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/cgi-bin/cstecgi.cgi?action=save&setting` | High
-2 | File | `/jeecg-boot/jmreport/show` | High
-3 | File | `/main/webservices/additional_webservices.php` | High
-4 | ... | ... | ...
+1 | File | `/admin/edit_area.php` | High
+2 | File | `/api/dept` | Medium
+3 | File | `/cgi-bin/cstecgi.cgi?action=save&setting` | High
+4 | File | `/cgi-bin/login_action.cgi` | High
+5 | ... | ... | ...
 
-There are 16 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 29 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

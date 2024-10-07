@@ -51,8 +51,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80, CWE-85 | Cross Site Scripting | High
-6 | T1068 | CWE-264, CWE-269, CWE-270, CWE-284 | Execution with Unnecessary Privileges | High
-7 | ... | ... | ... | ...
+6 | ... | ... | ... | ...
 
 There are 22 more TTP items available. Please use our online service to access the data.
 
@@ -65,47 +64,48 @@ ID | Type | Indicator | Confidence
 1 | File | `/+CSCOE+/logon.html` | High
 2 | File | `/admin/pages/` | High
 3 | File | `/admins` | Low
-4 | File | `/api/admin/system/store/order/list` | High
-5 | File | `/cgi-bin/cstecgi.cgi` | High
-6 | File | `/cgi-bin/live_api.cgi` | High
-7 | File | `/cgi-bin/wapopen` | High
-8 | File | `/cgi-bin/wlogin.cgi` | High
-9 | File | `/config/getuser` | High
-10 | File | `/csms/?page=contact_us` | High
-11 | File | `/etc/ajenti/config.yml` | High
-12 | File | `/etc/shadow` | Medium
-13 | File | `/farm/product.php` | High
-14 | File | `/forum/away.php` | High
-15 | File | `/goform/telnet` | High
-16 | File | `/h/` | Low
-17 | File | `/infusions/shoutbox_panel/shoutbox_admin.php` | High
-18 | File | `/lan.asp` | Medium
-19 | File | `/modules/profile/index.php` | High
-20 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-21 | File | `/oscommerce/admin/currencies.php` | High
-22 | File | `/proc/pid/syscall` | High
-23 | File | `/ptippage.cgi` | High
-24 | File | `/public/launchNewWindow.jsp` | High
-25 | File | `/rapi/read_url` | High
-26 | File | `/rom-0` | Low
-27 | File | `/session/list/allActiveSession` | High
-28 | File | `/sys/dict/loadTreeData` | High
-29 | File | `/SysInfo.htm` | Medium
-30 | File | `/syslog_rules` | High
-31 | File | `/tmp/out` | Medium
-32 | File | `/Tool/uploadfile.php` | High
-33 | File | `/uncpath/` | Medium
-34 | File | `/upload` | Low
-35 | File | `/users/{id}` | Medium
-36 | File | `/var/tmp/sess_*` | High
-37 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
-38 | File | `/video` | Low
-39 | File | `actionphp/download.File.php` | High
-40 | File | `ActivityManagerService.java` | High
-41 | File | `adaptmap_reg.c` | High
-42 | ... | ... | ...
+4 | File | `/ajax/getBasicInfo.php` | High
+5 | File | `/api/admin/system/store/order/list` | High
+6 | File | `/cgi-bin/cstecgi.cgi` | High
+7 | File | `/cgi-bin/live_api.cgi` | High
+8 | File | `/cgi-bin/wapopen` | High
+9 | File | `/cgi-bin/wlogin.cgi` | High
+10 | File | `/clientdetails/admin/regester.php` | High
+11 | File | `/config/getuser` | High
+12 | File | `/csms/?page=contact_us` | High
+13 | File | `/etc/ajenti/config.yml` | High
+14 | File | `/etc/shadow` | Medium
+15 | File | `/farm/product.php` | High
+16 | File | `/forum/away.php` | High
+17 | File | `/goform/telnet` | High
+18 | File | `/h/` | Low
+19 | File | `/infusions/shoutbox_panel/shoutbox_admin.php` | High
+20 | File | `/lan.asp` | Medium
+21 | File | `/modules/profile/index.php` | High
+22 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+23 | File | `/oscommerce/admin/currencies.php` | High
+24 | File | `/proc/pid/syscall` | High
+25 | File | `/ptippage.cgi` | High
+26 | File | `/public/launchNewWindow.jsp` | High
+27 | File | `/rapi/read_url` | High
+28 | File | `/rom-0` | Low
+29 | File | `/session/list/allActiveSession` | High
+30 | File | `/sys/dict/loadTreeData` | High
+31 | File | `/SysInfo.htm` | Medium
+32 | File | `/syslog_rules` | High
+33 | File | `/tmp/out` | Medium
+34 | File | `/Tool/uploadfile.php` | High
+35 | File | `/uncpath/` | Medium
+36 | File | `/upload` | Low
+37 | File | `/users/{id}` | Medium
+38 | File | `/var/tmp/sess_*` | High
+39 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
+40 | File | `/video` | Low
+41 | File | `actionphp/download.File.php` | High
+42 | File | `ActivityManagerService.java` | High
+43 | ... | ... | ...
 
-There are 365 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 367 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

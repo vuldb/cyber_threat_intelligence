@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
-* [CN](https://vuldb.com/?country.cn)
+* [ES](https://vuldb.com/?country.es)
 * ...
 
 There are 7 more country items available. Please use our online service to access the data.
@@ -67,9 +67,10 @@ ID | IP address | Hostname | Campaign | Confidence
 44 | [34.168.202.91](https://vuldb.com/?ip.34.168.202.91) | 91.202.168.34.bc.googleusercontent.com | - | Medium
 45 | [34.247.234.201](https://vuldb.com/?ip.34.247.234.201) | ec2-34-247-234-201.eu-west-1.compute.amazonaws.com | - | Medium
 46 | [35.194.193.144](https://vuldb.com/?ip.35.194.193.144) | 144.193.194.35.bc.googleusercontent.com | - | Medium
-47 | ... | ... | ... | ...
+47 | [35.199.99.16](https://vuldb.com/?ip.35.199.99.16) | 16.99.199.35.bc.googleusercontent.com | - | Medium
+48 | ... | ... | ... | ...
 
-There are 184 more IOC items available. Please use our online service to access the data.
+There are 187 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -108,7 +109,7 @@ ID | Type | Indicator | Confidence
 16 | File | `/pms/update_medicine.php` | High
 17 | ... | ... | ...
 
-There are 138 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 140 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -116,6 +117,7 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://app.any.run/tasks/03df17a0-3267-4e12-aa3f-94288002d285
 * https://bazaar.abuse.ch/sample/12a68c94b4f0b13cca2a8b908bf674686a0ab331ec366d88baa2c192c33f236f/
+* https://blog.sekoia.io/webdav-as-a-service-uncovering-the-infrastructure-behind-emmenhtal-loader-distribution/
 * https://blogs.blackberry.com/en/2021/11/threat-thursday-danabot-malware-as-a-service
 * https://community.blueliv.com/#!/s/6220736782df413eb5358bf6
 * https://github.com/eset/malware-ioc/tree/master/danabot

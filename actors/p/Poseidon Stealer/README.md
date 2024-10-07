@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
-* [FR](https://vuldb.com/?country.fr)
+* [IR](https://vuldb.com/?country.ir)
 * ...
 
-There are 2 more country items available. Please use our online service to access the data.
+There are 3 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -21,7 +21,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [185.7.214.148](https://vuldb.com/?ip.185.7.214.148) | - | - | High
+1 | [45.93.20.174](https://vuldb.com/?ip.45.93.20.174) | - | - | High
+2 | [79.137.192.4](https://vuldb.com/?ip.79.137.192.4) | - | - | High
+3 | [147.45.47.170](https://vuldb.com/?ip.147.45.47.170) | - | - | High
+4 | ... | ... | ... | ...
+
+There are 3 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -30,11 +35,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22 | Path Traversal | High
-2 | T1059.007 | CWE-79 | Cross Site Scripting | High
-3 | T1068 | CWE-264, CWE-269 | Execution with Unnecessary Privileges | High
+2 | T1059 | CWE-88 | Argument Injection | High
+3 | T1059.007 | CWE-79 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 3 more TTP items available. Please use our online service to access the data.
+There are 6 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -44,16 +49,22 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/getcfg.php` | Medium
 2 | File | `admin.php` | Medium
-3 | File | `index.php` | Medium
-4 | ... | ... | ...
+3 | File | `discord.py` | Medium
+4 | File | `includes/settings/class-alg-download-plugins-settings.php` | High
+5 | ... | ... | ...
 
-There are 22 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 28 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://github.com/esThreatIntelligence/iocs/blob/main/PoseidonStealer/PoseidonStealer-9-1-2024.txt
+* https://search.censys.io/hosts/147.45.47.170
+* https://search.censys.io/hosts/185.28.119.85
+* https://search.censys.io/hosts/194.59.183.241
 * https://tria.ge/240810-n9yc2ssgjf/behavioral1
+* https://tria.ge/240816-ltppvssbpp/behavioral1
 
 ## Literature
 

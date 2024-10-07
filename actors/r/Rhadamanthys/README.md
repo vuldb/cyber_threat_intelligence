@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [ES](https://vuldb.com/?country.es)
+* [LA](https://vuldb.com/?country.la)
 * ...
 
 There are 18 more country items available. Please use our online service to access the data.
@@ -88,7 +88,7 @@ ID | IP address | Hostname | Campaign | Confidence
 65 | [77.91.122.230](https://vuldb.com/?ip.77.91.122.230) | vm1230500.stark-industries.solutions | - | High
 66 | ... | ... | ... | ...
 
-There are 259 more IOC items available. Please use our online service to access the data.
+There are 262 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -98,11 +98,12 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-29, CWE-425 | Path Traversal | High
 2 | T1055 | CWE-74, CWE-643 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
+3 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -110,53 +111,69 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/.pomerium` | Medium
-2 | File | `/admin/add_ikev2.php` | High
-3 | File | `/admin/ajax.php?action=delete_user` | High
-4 | File | `/admin/category_save.php` | High
-5 | File | `/Admin/changepassword.php` | High
-6 | File | `/admin/edit_supplier.php` | High
-7 | File | `/admin/general-setting` | High
-8 | File | `/admin/index2.html` | High
-9 | File | `/admin/inquiries/view_inquiry.php` | High
-10 | File | `/admin/list_ipAddressPolicy.php` | High
-11 | File | `/admin/manage_model.php` | High
-12 | File | `/admin/manage_user.php` | High
-13 | File | `/admin/projects/{projectname}/skills/{skillname}/video` | High
-14 | File | `/admin/service` | High
-15 | File | `/admin/subject.php` | High
-16 | File | `/api/v1/custom_component` | High
-17 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
-18 | File | `/applications/nexus/modules/front/store/store.php` | High
-19 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-20 | File | `/catalog/all-products` | High
-21 | File | `/cgi-bin/cstecgi.cgi` | High
-22 | File | `/cgi-bin/nas_sharing.cgi` | High
-23 | File | `/classes/Master.php` | High
-24 | File | `/classes/Master.php?f=delete_category` | High
-25 | File | `/classes/Master.php?f=save_medicine` | High
-26 | File | `/classes/Users.php?f=delete` | High
-27 | File | `/classes/Users.php?f=save` | High
-28 | File | `/DXR.axd` | Medium
-29 | File | `/edit-subject.php` | High
-30 | File | `/endpoint/add-user.php` | High
-31 | File | `/etc/postfix/sender_login` | High
-32 | File | `/etc/shadow` | Medium
-33 | File | `/formSysLog` | Medium
-34 | File | `/forum/away.php` | High
-35 | File | `/goform/SetIpMacBind` | High
-36 | File | `/goform/SetOnlineDevName` | High
-37 | File | `/goform/WifiExtraSet` | High
-38 | File | `/guestbook` | Medium
-39 | File | `/includes/common/require_access_recovery.php` | High
-40 | File | `/index.php` | Medium
-41 | File | `/js/player/dmplayer/dmku/?ac=edit` | High
-42 | File | `/labvantage/rc?command=page&page=SampleHistoricalList&_iframename=list&__crc=crc_1701669816260` | High
-43 | File | `/labvantage/rc?command=page&page=SampleList&_iframename=list` | High
-44 | File | `/lesson/controller.php` | High
-45 | ... | ... | ...
+1 | File | `/+CSCOE+/logon.html` | High
+2 | File | `/.pomerium` | Medium
+3 | File | `/admin/?page=bike` | High
+4 | File | `/admin/?page=musics/manage_music` | High
+5 | File | `/admin/add_ikev2.php` | High
+6 | File | `/admin/ajax.php?action=delete_user` | High
+7 | File | `/admin/category_save.php` | High
+8 | File | `/Admin/changepassword.php` | High
+9 | File | `/admin/edit_supplier.php` | High
+10 | File | `/admin/emp-profile-avatar.php` | High
+11 | File | `/admin/general-setting` | High
+12 | File | `/admin/index2.html` | High
+13 | File | `/admin/inquiries/view_inquiry.php` | High
+14 | File | `/admin/list_ipAddressPolicy.php` | High
+15 | File | `/admin/manage_model.php` | High
+16 | File | `/admin/manage_user.php` | High
+17 | File | `/admin/order.php` | High
+18 | File | `/admin/projects/{projectname}/skills/{skillname}/video` | High
+19 | File | `/admin/service` | High
+20 | File | `/admin/subject.php` | High
+21 | File | `/api/v1/custom_component` | High
+22 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
+23 | File | `/applications/nexus/modules/front/store/store.php` | High
+24 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+25 | File | `/catalog/all-products` | High
+26 | File | `/cgi-bin/apkg_mgr.cgi` | High
+27 | File | `/cgi-bin/cstecgi.cgi` | High
+28 | File | `/cgi-bin/hd_config.cgi` | High
+29 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+30 | File | `/cgi-bin/nas_sharing.cgi` | High
+31 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+32 | File | `/classes/Master.php` | High
+33 | File | `/classes/Master.php?f=delete_category` | High
+34 | File | `/classes/Master.php?f=delete_record` | High
+35 | File | `/classes/Master.php?f=save_medicine` | High
+36 | File | `/classes/SystemSettings.php?f=update_settings` | High
+37 | File | `/classes/Users.php?f=delete` | High
+38 | File | `/classes/Users.php?f=save` | High
+39 | File | `/downloadFile.php` | High
+40 | File | `/DXR.axd` | Medium
+41 | File | `/edit-subject.php` | High
+42 | File | `/endpoint/add-folder.php` | High
+43 | File | `/endpoint/add-user.php` | High
+44 | File | `/etc/postfix/sender_login` | High
+45 | File | `/etc/shadow` | Medium
+46 | File | `/etc/shadow.sample` | High
+47 | File | `/export` | Low
+48 | File | `/file_manager/login.php` | High
+49 | File | `/film-rating.php` | High
+50 | File | `/foms/routers/place-order.php` | High
+51 | File | `/formSysLog` | Medium
+52 | File | `/forum/away.php` | High
+53 | File | `/goform/SetIpMacBind` | High
+54 | File | `/goform/SetOnlineDevName` | High
+55 | File | `/goform/WifiExtraSet` | High
+56 | File | `/guestbook` | Medium
+57 | File | `/h.php/page?ref=addtabs` | High
+58 | File | `/image.php` | Medium
+59 | File | `/includes/common/require_access_recovery.php` | High
+60 | File | `/index.php` | Medium
+61 | ... | ... | ...
 
-There are 392 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 531 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -183,6 +200,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://github.com/IronNetCybersecurity/IronNetTR/blob/main/ironradar/rhadamanthys/ironradar_1d_rhadamanthys_2022_1_18.csv
 * https://maordayanofficial.medium.com/rhadamanthys-an-in-depth-analysis-of-a-sophisticated-stealer-targeting-israeli-users-330fbfd68f3b
 * https://research.checkpoint.com/2024/stargazers-ghost-network/
+* https://russianpanda.com/The-Abuse-of-ITarian-RMM-by-Dolphin-Loader
 * https://threatfox.abuse.ch
 * https://tracker.viriback.com/index.php?q=5.75.171.154
 * https://tracker.viriback.com/index.php?q=5.182.39.203
@@ -262,6 +280,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://twitter.com/AttackTrends/status/1612477419461480448
 * https://twitter.com/crep1x/status/1623394701456859137
 * https://twitter.com/karol_paciorek/status/1703732303367672306
+* https://urlhaus.abuse.ch/url/3129610/
 * https://www.joesandbox.com/analysis/1391616
 * https://www.malwarebytes.com/blog/threat-intelligence/2024/03/new-go-loader-pushes-rhadamanthys
 * https://www.zscaler.com/blogs/security-research/technical-analysis-rhadamanthys-obfuscation-techniques

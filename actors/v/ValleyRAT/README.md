@@ -23,7 +23,7 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [43.132.212.111](https://vuldb.com/?ip.43.132.212.111) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 5 more IOC items available. Please use our online service to access the data.
+There are 7 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -55,6 +55,7 @@ There are 4 more IOA items available (file, library, argument, input value, patt
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://asec.ahnlab.com/en/82707/
 * https://www.zscaler.com/blogs/security-research/technical-analysis-latest-variant-valleyrat
 
 ## Literature

@@ -43,7 +43,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059 | CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
 
-There are 10 more TTP items available. Please use our online service to access the data.
+There are 11 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -51,20 +51,21 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/apply/index.php` | High
-2 | File | `/catcompany.php` | High
-3 | File | `/cgi-bin/adm.cgi` | High
-4 | File | `/cgi-bin/cstecgi.cgi` | High
-5 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-6 | File | `/eclime/manufacturers.php` | High
-7 | File | `/forum/away.php` | High
-8 | File | `/goform/DelDhcpRule` | High
-9 | File | `/include/file.php` | High
-10 | File | `/licenses` | Medium
-11 | File | `/Login` | Low
-12 | ... | ... | ...
+1 | File | `/admin/template/update` | High
+2 | File | `/api/blade-system/menu/list?updatexml` | High
+3 | File | `/apply/index.php` | High
+4 | File | `/catcompany.php` | High
+5 | File | `/cgi-bin/adm.cgi` | High
+6 | File | `/cgi-bin/cstecgi.cgi` | High
+7 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+8 | File | `/cgi-bin/hd_config.cgi` | High
+9 | File | `/eclime/manufacturers.php` | High
+10 | File | `/forum/away.php` | High
+11 | File | `/goform/DelDhcpRule` | High
+12 | File | `/include/file.php` | High
+13 | ... | ... | ...
 
-There are 94 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 105 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

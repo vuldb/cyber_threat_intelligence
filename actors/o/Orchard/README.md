@@ -80,9 +80,10 @@ ID | Type | Indicator | Confidence
 29 | File | `/goform/exeCommand` | High
 30 | File | `/goform/SetDDNSCfg` | High
 31 | File | `/goform/setsambacfg` | High
-32 | ... | ... | ...
+32 | File | `/goform/wlanPrimaryNetwork` | High
+33 | ... | ... | ...
 
-There are 276 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 279 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

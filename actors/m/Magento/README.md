@@ -81,9 +81,10 @@ ID | Type | Indicator | Confidence
 29 | File | `/uploads/tags.php` | High
 30 | File | `/userfs/bin/tcapi` | High
 31 | File | `/usr/bin/pkexec` | High
-32 | ... | ... | ...
+32 | File | `/vendor/views/add_product.php` | High
+33 | ... | ... | ...
 
-There are 271 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 278 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -23,7 +23,10 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [64.95.10.243](https://vuldb.com/?ip.64.95.10.243) | - | - | High
 2 | [149.248.79.62](https://vuldb.com/?ip.149.248.79.62) | - | - | High
-3 | [206.166.251.114](https://vuldb.com/?ip.206.166.251.114) | - | - | High
+3 | [195.85.114.193](https://vuldb.com/?ip.195.85.114.193) | - | - | High
+4 | ... | ... | ... | ...
+
+There are 1 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -56,6 +59,7 @@ There are 16 more IOA items available (file, library, argument, input value, pat
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://www.rapid7.com/blog/post/2024/06/17/malvertising-campaign-leads-to-execution-of-oyster-backdoor/
+* https://www.reliaquest.com/blog/5-malware-variants-you-should-know/
 
 ## Literature
 

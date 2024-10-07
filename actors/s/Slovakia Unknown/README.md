@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 19 more country items available. Please use our online service to access the data.
+There are 21 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -179,9 +179,10 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1055 | CWE-74, CWE-643 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -189,49 +190,64 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/.pomerium` | Medium
-2 | File | `/add-students.php` | High
-3 | File | `/admin/add_ikev2.php` | High
-4 | File | `/admin/ajax.php?action=delete_user` | High
-5 | File | `/admin/category_save.php` | High
-6 | File | `/Admin/changepassword.php` | High
-7 | File | `/admin/general-setting` | High
-8 | File | `/admin/inquiries/view_inquiry.php` | High
-9 | File | `/admin/list_ipAddressPolicy.php` | High
-10 | File | `/admin/manage_model.php` | High
-11 | File | `/admin/manage_user.php` | High
-12 | File | `/admin/pages/list` | High
-13 | File | `/admin/projects/{projectname}/skills/{skillname}/video` | High
-14 | File | `/admin/service` | High
-15 | File | `/admin/subject.php` | High
-16 | File | `/api/v1/custom_component` | High
-17 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-18 | File | `/catalog/all-products` | High
-19 | File | `/cgi-bin/cstecgi.cgi` | High
-20 | File | `/cgi-bin/nas_sharing.cgi` | High
-21 | File | `/classes/Master.php` | High
-22 | File | `/classes/Master.php?f=delete_category` | High
-23 | File | `/classes/Master.php?f=save_medicine` | High
-24 | File | `/classes/Users.php?f=delete` | High
-25 | File | `/classes/Users.php?f=save` | High
-26 | File | `/DXR.axd` | Medium
-27 | File | `/edit-subject.php` | High
-28 | File | `/endpoint/add-user.php` | High
-29 | File | `/etc/postfix/sender_login` | High
-30 | File | `/etc/shadow` | Medium
-31 | File | `/forum/away.php` | High
-32 | File | `/goform/SetIpMacBind` | High
-33 | File | `/goform/SetSysTimeCfg` | High
-34 | File | `/goform/WifiExtraSet` | High
-35 | File | `/guestbook` | Medium
-36 | File | `/index.php` | Medium
-37 | File | `/js/player/dmplayer/dmku/?ac=edit` | High
-38 | File | `/labvantage/rc?command=page&page=SampleHistoricalList&_iframename=list&__crc=crc_1701669816260` | High
-39 | File | `/labvantage/rc?command=page&page=SampleList&_iframename=list` | High
-40 | File | `/lesson/controller.php` | High
-41 | ... | ... | ...
+1 | File | `/+CSCOE+/logon.html` | High
+2 | File | `/.pomerium` | Medium
+3 | File | `/add-students.php` | High
+4 | File | `/admin/?page=bike` | High
+5 | File | `/admin/?page=musics/manage_music` | High
+6 | File | `/admin/add_ikev2.php` | High
+7 | File | `/admin/ajax.php?action=delete_user` | High
+8 | File | `/admin/category_save.php` | High
+9 | File | `/Admin/changepassword.php` | High
+10 | File | `/admin/emp-profile-avatar.php` | High
+11 | File | `/admin/general-setting` | High
+12 | File | `/admin/inquiries/view_inquiry.php` | High
+13 | File | `/admin/list_ipAddressPolicy.php` | High
+14 | File | `/admin/manage_model.php` | High
+15 | File | `/admin/manage_user.php` | High
+16 | File | `/admin/order.php` | High
+17 | File | `/admin/pages/list` | High
+18 | File | `/admin/projects/{projectname}/skills/{skillname}/video` | High
+19 | File | `/admin/service` | High
+20 | File | `/admin/subject.php` | High
+21 | File | `/admin/system.html` | High
+22 | File | `/api/v1/custom_component` | High
+23 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+24 | File | `/car-rental-management-system/admin/index.php?page=manage_car` | High
+25 | File | `/catalog/all-products` | High
+26 | File | `/cgi-bin/cstecgi.cgi` | High
+27 | File | `/cgi-bin/myMusic.cgi` | High
+28 | File | `/cgi-bin/nas_sharing.cgi` | High
+29 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+30 | File | `/classes/Master.php` | High
+31 | File | `/classes/Master.php?f=delete_category` | High
+32 | File | `/classes/Master.php?f=save_medicine` | High
+33 | File | `/classes/SystemSettings.php?f=update_settings` | High
+34 | File | `/classes/Users.php?f=delete` | High
+35 | File | `/classes/Users.php?f=save` | High
+36 | File | `/downloadFile.php` | High
+37 | File | `/dtale/chart-data/1` | High
+38 | File | `/DXR.axd` | Medium
+39 | File | `/edit-subject.php` | High
+40 | File | `/endpoint/add-folder.php` | High
+41 | File | `/endpoint/add-user.php` | High
+42 | File | `/endpoint/delete-account.php` | High
+43 | File | `/etc/postfix/sender_login` | High
+44 | File | `/etc/shadow` | Medium
+45 | File | `/file_manager/login.php` | High
+46 | File | `/film-rating.php` | High
+47 | File | `/foms/routers/place-order.php` | High
+48 | File | `/forum/away.php` | High
+49 | File | `/goform/SetIpMacBind` | High
+50 | File | `/goform/WifiExtraSet` | High
+51 | File | `/guestbook` | Medium
+52 | File | `/inc/modules_install.php` | High
+53 | File | `/index.php` | Medium
+54 | File | `/index.php?controller=calendar&format=raw&cat[0]=SQLi&task=events` | High
+55 | File | `/js/player/dmplayer/dmku/?ac=edit` | High
+56 | ... | ... | ...
 
-There are 354 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 491 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

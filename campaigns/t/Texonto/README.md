@@ -63,17 +63,17 @@ ID | Type | Indicator | Confidence
 4 | File | `/change_password_process` | High
 5 | File | `/debug/pprof` | Medium
 6 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
-7 | File | `/env` | Low
-8 | File | `/etc/shadow.sample` | High
-9 | File | `/goform/SetNetControlList` | High
-10 | File | `/goform/SetStaticRouteCfg` | High
-11 | File | `/my_photo_gallery/image.php` | High
-12 | File | `/product.php` | Medium
-13 | File | `/src/chatbotapp/chatWindow.java` | High
-14 | File | `/uapi/doc` | Medium
+7 | File | `/devinfo` | Medium
+8 | File | `/env` | Low
+9 | File | `/etc/shadow.sample` | High
+10 | File | `/goform/SetNetControlList` | High
+11 | File | `/goform/SetStaticRouteCfg` | High
+12 | File | `/my_photo_gallery/image.php` | High
+13 | File | `/product.php` | Medium
+14 | File | `/src/chatbotapp/chatWindow.java` | High
 15 | ... | ... | ...
 
-There are 117 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 123 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

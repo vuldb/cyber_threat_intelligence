@@ -109,25 +109,26 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/api/sys/set_passwd` | High
-2 | File | `/bin/boa` | Medium
-3 | File | `/cgi-bin/wapopen` | High
-4 | File | `/cgi-bin/wlogin.cgi` | High
-5 | File | `/dev/urandom` | Medium
-6 | File | `/etc/quantum/quantum.conf` | High
-7 | File | `/exec/` | Low
-8 | File | `/getcfg.php` | Medium
-9 | File | `/HNAP1` | Low
-10 | File | `/mgmt/tm/util/bash` | High
-11 | File | `/modules/projects/vw_files.php` | High
-12 | File | `/plain` | Low
-13 | File | `/staff/tools/custom-fields` | High
-14 | File | `/uncpath/` | Medium
-15 | File | `/xyhai.php?s=/Auth/editUser` | High
-16 | File | `/_next` | Low
-17 | ... | ... | ...
+1 | File | `/act/ActDao.xml` | High
+2 | File | `/api/sys/set_passwd` | High
+3 | File | `/bin/boa` | Medium
+4 | File | `/cgi-bin/wapopen` | High
+5 | File | `/cgi-bin/wlogin.cgi` | High
+6 | File | `/dev/urandom` | Medium
+7 | File | `/endpoint/delete-account.php` | High
+8 | File | `/etc/quantum/quantum.conf` | High
+9 | File | `/exec/` | Low
+10 | File | `/getcfg.php` | Medium
+11 | File | `/HNAP1` | Low
+12 | File | `/index/ajax/lang` | High
+13 | File | `/mgmt/tm/util/bash` | High
+14 | File | `/modules/projects/vw_files.php` | High
+15 | File | `/plain` | Low
+16 | File | `/staff/tools/custom-fields` | High
+17 | File | `/uncpath/` | Medium
+18 | ... | ... | ...
 
-There are 136 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 143 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -53,14 +53,15 @@ ID | Type | Indicator | Confidence
 2 | File | `/alarm_pi/alarmService.php` | High
 3 | File | `/assets/components/gallery/connector.php` | High
 4 | File | `/cgi-bin/cstecgi.cgi` | High
-5 | File | `/classes/Master.php` | High
-6 | File | `/cloud_config/router_post/modify_account_pwd` | High
-7 | File | `/control/register_case.php` | High
-8 | File | `/forum/away.php` | High
-9 | File | `/index.php` | Medium
-10 | ... | ... | ...
+5 | File | `/cgi-bin/p1_ftpserver.php` | High
+6 | File | `/cgi-bin/tosei_kikai.php` | High
+7 | File | `/classes/Master.php` | High
+8 | File | `/cloud_config/router_post/modify_account_pwd` | High
+9 | File | `/control/register_case.php` | High
+10 | File | `/endpoint/delete-account.php` | High
+11 | ... | ... | ...
 
-There are 72 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 80 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

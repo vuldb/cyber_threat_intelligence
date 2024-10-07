@@ -58,16 +58,16 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin/ajax/avatar.php` | High
 3 | File | `/admin/uploads.php` | High
 4 | File | `/admin/users.php?source=edit_user&id=1` | High
-5 | File | `/cgi-bin/portal` | High
-6 | File | `/etc/passwd` | Medium
-7 | File | `/etc/shadow` | Medium
-8 | File | `/htmlcode/html/indexdefault.asp` | High
-9 | File | `/include/config.cache.php` | High
-10 | File | `/include/helpers/upload.helper.php` | High
-11 | File | `/patient/appointment.php` | High
+5 | File | `/cgi-bin/p1_ftpserver.php` | High
+6 | File | `/cgi-bin/portal` | High
+7 | File | `/cgi-bin/tosei_kikai.php` | High
+8 | File | `/etc/passwd` | Medium
+9 | File | `/etc/shadow` | Medium
+10 | File | `/htmlcode/html/indexdefault.asp` | High
+11 | File | `/include/config.cache.php` | High
 12 | ... | ... | ...
 
-There are 90 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 94 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

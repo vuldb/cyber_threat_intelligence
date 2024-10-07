@@ -110,8 +110,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | T1068 | CWE-264, CWE-269, CWE-270, CWE-284 | Execution with Unnecessary Privileges | High
-7 | ... | ... | ... | ...
+6 | ... | ... | ... | ...
 
 There are 22 more TTP items available. Please use our online service to access the data.
 
@@ -131,42 +130,42 @@ ID | Type | Indicator | Confidence
 8 | File | `/csms/admin/inquiries/view_details.php` | High
 9 | File | `/cstecgi.cgi` | Medium
 10 | File | `/debuginfo.htm` | High
-11 | File | `/etc/passwd` | Medium
-12 | File | `/forms/doLogin` | High
-13 | File | `/forum/away.php` | High
-14 | File | `/h/autoSaveDraft` | High
-15 | File | `/home/search` | Medium
-16 | File | `/inc/tm_ajax.msw?func=UserfromUUID&uuid=` | High
-17 | File | `/include/chart_generator.php` | High
-18 | File | `/install/index.php` | High
-19 | File | `/lan.asp` | Medium
-20 | File | `/librarian/bookdetails.php` | High
-21 | File | `/messageboard/view.php` | High
-22 | File | `/mhds/clinic/view_details.php` | High
-23 | File | `/novel/bookComment/list` | High
-24 | File | `/out.php` | Medium
-25 | File | `/owa/auth/logon.aspx` | High
-26 | File | `/rest/api/latest/projectvalidate/key` | High
-27 | File | `/rom-0` | Low
-28 | File | `/rules/REQUEST-932-APPLICATION-ATTACK-RCE.conf` | High
-29 | File | `/server-status` | High
-30 | File | `/ServletAPI/accounts/login` | High
-31 | File | `/SVFE2/pages/feegroups/country_group.jsf` | High
-32 | File | `/textpattern/index.php` | High
-33 | File | `/upfile.cgi` | Medium
-34 | File | `/wlmdeu%2f%2e%2e%2f%2e%2e` | High
-35 | File | `/wordpress/wp-admin/admin.php` | High
-36 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-37 | File | `account_footer.php` | High
-38 | File | `adclick.php` | Medium
-39 | File | `add_edit_cat.asp` | High
-40 | File | `add_edit_user.asp` | High
-41 | File | `adm.cgi` | Low
-42 | File | `admin.cropcanvas.php` | High
-43 | File | `admin.jcomments.php` | High
+11 | File | `/Employee/edit-profile.php` | High
+12 | File | `/etc/passwd` | Medium
+13 | File | `/forms/doLogin` | High
+14 | File | `/forum/away.php` | High
+15 | File | `/h/autoSaveDraft` | High
+16 | File | `/home/search` | Medium
+17 | File | `/inc/tm_ajax.msw?func=UserfromUUID&uuid=` | High
+18 | File | `/include/chart_generator.php` | High
+19 | File | `/install/index.php` | High
+20 | File | `/lan.asp` | Medium
+21 | File | `/librarian/bookdetails.php` | High
+22 | File | `/messageboard/view.php` | High
+23 | File | `/mhds/clinic/view_details.php` | High
+24 | File | `/novel/bookComment/list` | High
+25 | File | `/out.php` | Medium
+26 | File | `/owa/auth/logon.aspx` | High
+27 | File | `/rest/api/latest/projectvalidate/key` | High
+28 | File | `/rom-0` | Low
+29 | File | `/rules/REQUEST-932-APPLICATION-ATTACK-RCE.conf` | High
+30 | File | `/server-status` | High
+31 | File | `/ServletAPI/accounts/login` | High
+32 | File | `/SVFE2/pages/feegroups/country_group.jsf` | High
+33 | File | `/textpattern/index.php` | High
+34 | File | `/upfile.cgi` | Medium
+35 | File | `/wlmdeu%2f%2e%2e%2f%2e%2e` | High
+36 | File | `/wordpress/wp-admin/admin.php` | High
+37 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+38 | File | `account_footer.php` | High
+39 | File | `adclick.php` | Medium
+40 | File | `add_edit_cat.asp` | High
+41 | File | `add_edit_user.asp` | High
+42 | File | `adm.cgi` | Low
+43 | File | `admin.cropcanvas.php` | High
 44 | ... | ... | ...
 
-There are 378 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 377 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

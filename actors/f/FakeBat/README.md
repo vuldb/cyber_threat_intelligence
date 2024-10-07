@@ -44,8 +44,12 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | Argument | `Password` | Medium
-2 | Input Value | `TENmanUFactOryPOWER` | High
+1 | File | `comersus_optreviewreadexec.asp` | High
+2 | Argument | `idProduct` | Medium
+3 | Argument | `Password` | Medium
+4 | ... | ... | ...
+
+There are 1 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

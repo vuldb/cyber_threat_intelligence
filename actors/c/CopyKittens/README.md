@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [IT](https://vuldb.com/?country.it)
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 13 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -116,21 +116,21 @@ ID | Type | Indicator | Confidence
 47 | File | `/endpoint/update-tracker.php` | High
 48 | File | `/etc/os-release` | High
 49 | File | `/etc/pki/pulp/nodes/` | High
-50 | File | `/forms/web_runScript` | High
-51 | File | `/forum/away.php` | High
-52 | File | `/fs/nfsd/nfs4proc.c` | High
-53 | File | `/garage/php_action/createBrand.php` | High
-54 | File | `/general/email/outbox/delete.php` | High
-55 | File | `/general/search.php?searchtype=simple` | High
-56 | File | `/ghost/preview` | High
-57 | File | `/goform/AddSysLogRule` | High
-58 | File | `/goform/AdvSetWrlsafeset` | High
-59 | File | `/goform/qossetting` | High
-60 | File | `/goform/setAutoPing` | High
-61 | File | `/hrm/employeeview.php` | High
-62 | File | `/hss/?page=product_per_brand` | High
-63 | File | `/im/user/` | Medium
-64 | File | `/index.php` | Medium
+50 | File | `/foms/routers/place-order.php` | High
+51 | File | `/forms/web_runScript` | High
+52 | File | `/forum/away.php` | High
+53 | File | `/fs/nfsd/nfs4proc.c` | High
+54 | File | `/garage/php_action/createBrand.php` | High
+55 | File | `/general/email/outbox/delete.php` | High
+56 | File | `/general/search.php?searchtype=simple` | High
+57 | File | `/ghost/preview` | High
+58 | File | `/goform/AddSysLogRule` | High
+59 | File | `/goform/AdvSetWrlsafeset` | High
+60 | File | `/goform/qossetting` | High
+61 | File | `/goform/setAutoPing` | High
+62 | File | `/hrm/employeeview.php` | High
+63 | File | `/hss/?page=product_per_brand` | High
+64 | File | `/im/user/` | Medium
 65 | ... | ... | ...
 
 There are 574 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.

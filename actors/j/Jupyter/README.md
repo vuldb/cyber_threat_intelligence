@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 29 more country items available. Please use our online service to access the data.
+There are 30 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -36,7 +36,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-36, CWE-37, CWE-425 | Path Traversal | High
+1 | T1006 | CWE-22, CWE-24, CWE-36, CWE-37, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
@@ -79,57 +79,58 @@ ID | Type | Indicator | Confidence
 25 | File | `/admin/reg.php` | High
 26 | File | `/admin/search-appointment.php` | High
 27 | File | `/admin/search.php` | High
-28 | File | `/admin/sys_sql_query.php` | High
-29 | File | `/api/v4/teams//channels/deleted` | High
-30 | File | `/api2/html/` | Medium
-31 | File | `/apiadmin/notice/add` | High
-32 | File | `/app/admin/controller/Upload.php` | High
-33 | File | `/app/ajax/search_sales_report.php` | High
-34 | File | `/app/controller/Setup.php` | High
-35 | File | `/app/middleware/TokenVerify.php` | High
-36 | File | `/appliance/users?action=edit` | High
-37 | File | `/application/index/controller/Screen.php` | High
-38 | File | `/application/websocket/controller/Setting.php` | High
-39 | File | `/apply/index.php` | High
-40 | File | `/backup.pl` | Medium
-41 | File | `/bin/boa` | Medium
-42 | File | `/blog` | Low
-43 | File | `/boafrm/formMapDelDevice` | High
-44 | File | `/booking/show_bookings/` | High
-45 | File | `/cgi-bin/cstecgi.cgi` | High
-46 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-47 | File | `/cgi-bin/nas_sharing.cgi` | High
-48 | File | `/classes/Master.php` | High
-49 | File | `/classes/Master.php?f=save_medicine` | High
-50 | File | `/classes/Users.php?f=save` | High
-51 | File | `/collection/all` | High
-52 | File | `/description.php` | High
-53 | File | `/dipam/athlete-profile.php` | High
-54 | File | `/E-mobile/App/System/File/downfile.php` | High
-55 | File | `/ecommerce/support_ticket` | High
-56 | File | `/edoc/doctor/patient.php` | High
-57 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-58 | File | `/Employer/ManageWalkin.php` | High
-59 | File | `/endpoint/add-faq.php` | High
-60 | File | `/endpoint/delete-computer.php` | High
-61 | File | `/endpoint/update-resident.php` | High
-62 | File | `/endpoint/update-tracker.php` | High
-63 | File | `/etc/ldap.conf` | High
-64 | File | `/etc/shadow` | Medium
-65 | File | `/ext/phar/phar_object.c` | High
-66 | File | `/forum/away.php` | High
-67 | File | `/forum/PostPrivateMessage` | High
-68 | File | `/fusion/portal/action/Link` | High
-69 | File | `/goform/execCommand` | High
-70 | File | `/goform/openSchedWifi` | High
-71 | File | `/goform/QuickIndex` | High
-72 | File | `/goform/saveParentControlInfo` | High
-73 | File | `/goform/SetNetControlList` | High
-74 | File | `/goform/SetPortMapping` | High
-75 | File | `/goform/SetRemoteWebCfg` | High
-76 | ... | ... | ...
+28 | File | `/admin/system.html` | High
+29 | File | `/admin/sys_sql_query.php` | High
+30 | File | `/api/v4/teams//channels/deleted` | High
+31 | File | `/api2/html/` | Medium
+32 | File | `/apiadmin/notice/add` | High
+33 | File | `/app/admin/controller/Upload.php` | High
+34 | File | `/app/ajax/search_sales_report.php` | High
+35 | File | `/app/controller/Setup.php` | High
+36 | File | `/app/middleware/TokenVerify.php` | High
+37 | File | `/appliance/users?action=edit` | High
+38 | File | `/application/index/controller/Screen.php` | High
+39 | File | `/application/websocket/controller/Setting.php` | High
+40 | File | `/apply/index.php` | High
+41 | File | `/backup.pl` | Medium
+42 | File | `/bin/boa` | Medium
+43 | File | `/blog` | Low
+44 | File | `/boafrm/formMapDelDevice` | High
+45 | File | `/booking/show_bookings/` | High
+46 | File | `/cgi-bin/cstecgi.cgi` | High
+47 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+48 | File | `/cgi-bin/myMusic.cgi` | High
+49 | File | `/cgi-bin/nas_sharing.cgi` | High
+50 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+51 | File | `/classes/Master.php` | High
+52 | File | `/classes/Master.php?f=save_medicine` | High
+53 | File | `/classes/Users.php?f=save` | High
+54 | File | `/collection/all` | High
+55 | File | `/description.php` | High
+56 | File | `/dipam/athlete-profile.php` | High
+57 | File | `/E-mobile/App/System/File/downfile.php` | High
+58 | File | `/ecommerce/support_ticket` | High
+59 | File | `/edoc/doctor/patient.php` | High
+60 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+61 | File | `/Employer/ManageWalkin.php` | High
+62 | File | `/endpoint/add-faq.php` | High
+63 | File | `/endpoint/delete-account.php` | High
+64 | File | `/endpoint/delete-computer.php` | High
+65 | File | `/endpoint/update-resident.php` | High
+66 | File | `/endpoint/update-tracker.php` | High
+67 | File | `/etc/ldap.conf` | High
+68 | File | `/etc/shadow` | Medium
+69 | File | `/ext/phar/phar_object.c` | High
+70 | File | `/forum/away.php` | High
+71 | File | `/forum/PostPrivateMessage` | High
+72 | File | `/fusion/portal/action/Link` | High
+73 | File | `/goform/execCommand` | High
+74 | File | `/goform/openSchedWifi` | High
+75 | File | `/goform/QuickIndex` | High
+76 | File | `/goform/saveParentControlInfo` | High
+77 | ... | ... | ...
 
-There are 665 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 679 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

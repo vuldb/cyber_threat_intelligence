@@ -58,23 +58,23 @@ ID | Type | Indicator | Confidence
 5 | File | `/etc/path` | Medium
 6 | File | `/fax/fax_send.php` | High
 7 | File | `/hotel.php` | Medium
-8 | File | `/jeecg-boot/sys/common/upload` | High
-9 | File | `/lam/tmp/` | Medium
-10 | File | `/nagiosql/admin/checkcommands.php` | High
-11 | File | `/thruk/#cgi-bin/extinfo.cgi?type=2` | High
-12 | File | `/tmp` | Low
-13 | File | `/usr/5bin/su` | Medium
-14 | File | `/usr/bin/mail` | High
-15 | File | `/web/entry/en/address/adrsSetUserWizard.cgi` | High
-16 | File | `/zm/index.php` | High
-17 | File | `add_edit_download.asp` | High
-18 | File | `admin.asp` | Medium
-19 | File | `admin.php` | Medium
-20 | File | `admin/` | Low
-21 | File | `admin/admin.php` | High
-22 | File | `admin/manage-comments.php` | High
-23 | File | `admin/moduleinterface.php` | High
-24 | File | `AdminViewError/AdminAddadmin` | High
+8 | File | `/index/ajax/lang` | High
+9 | File | `/jeecg-boot/sys/common/upload` | High
+10 | File | `/lam/tmp/` | Medium
+11 | File | `/nagiosql/admin/checkcommands.php` | High
+12 | File | `/thruk/#cgi-bin/extinfo.cgi?type=2` | High
+13 | File | `/tmp` | Low
+14 | File | `/usr/5bin/su` | Medium
+15 | File | `/usr/bin/mail` | High
+16 | File | `/web/entry/en/address/adrsSetUserWizard.cgi` | High
+17 | File | `/zm/index.php` | High
+18 | File | `add_edit_download.asp` | High
+19 | File | `admin.asp` | Medium
+20 | File | `admin.php` | Medium
+21 | File | `admin/` | Low
+22 | File | `admin/admin.php` | High
+23 | File | `admin/manage-comments.php` | High
+24 | File | `admin/moduleinterface.php` | High
 25 | File | `agentdisplay.php` | High
 26 | File | `agora.cgi` | Medium
 27 | File | `and/or` | Low
@@ -84,10 +84,9 @@ ID | Type | Indicator | Confidence
 31 | File | `autologin.jsp` | High
 32 | File | `axspawn.c` | Medium
 33 | File | `base_ag_main.php` | High
-34 | File | `base_qry_main.php` | High
-35 | ... | ... | ...
+34 | ... | ... | ...
 
-There are 298 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 293 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

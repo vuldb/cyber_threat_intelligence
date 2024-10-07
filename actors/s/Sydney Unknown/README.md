@@ -122,13 +122,13 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/service_requests/manage_inventory.php` | High
-2 | File | `/northstar/Admin/changePassword.jsp` | High
-3 | File | `/siteminderagent/pwcgi/smpwservicescgi.exe` | High
-4 | File | `/Storage/Emulated/0/Telegram/Telegram` | High
-5 | File | `/uncpath/` | Medium
+2 | File | `/index.php?action=editManager` | High
+3 | File | `/northstar/Admin/changePassword.jsp` | High
+4 | File | `/siteminderagent/pwcgi/smpwservicescgi.exe` | High
+5 | File | `/Storage/Emulated/0/Telegram/Telegram` | High
 6 | ... | ... | ...
 
-There are 36 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 38 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

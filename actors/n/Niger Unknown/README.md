@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [SV](https://vuldb.com/?country.sv)
 * ...
 
-There are 19 more country items available. Please use our online service to access the data.
+There are 18 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -72,52 +72,53 @@ ID | Type | Indicator | Confidence
 17 | File | `/appliance/users?action=edit` | High
 18 | File | `/apply.cgi` | Medium
 19 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-20 | File | `/classes/Master.php?f=save_inquiry` | High
-21 | File | `/collection/all` | High
-22 | File | `/config,admin.jsp` | High
-23 | File | `/config/list` | Medium
-24 | File | `/conversation/upload` | High
-25 | File | `/core/config-revisions` | High
-26 | File | `/coreframe/app/guestbook/myissue.php` | High
-27 | File | `/dede/co_do.php` | High
-28 | File | `/DXR.axd` | Medium
-29 | File | `/etc/init.d/sshd_service` | High
-30 | File | `/filemanager/upload.php` | High
-31 | File | `/forum/away.php` | High
-32 | File | `/fuel/sitevariables/delete/4` | High
-33 | File | `/goform/saveParentControlInfo` | High
-34 | File | `/goform/setBlackRule` | High
-35 | File | `/goform/setMacFilter` | High
-36 | File | `/goform/setSnmpInfo` | High
-37 | File | `/healthcare/Admin/consulting_detail.php` | High
-38 | File | `/hospital_activities/birth/form` | High
-39 | File | `/I/list.php` | Medium
-40 | File | `/if.cgi` | Low
-41 | File | `/include/make.php` | High
-42 | File | `/index.php` | Medium
-43 | File | `/index.php/admins/Fields/get_fields.html` | High
-44 | File | `/login` | Low
-45 | File | `/mgm_dev_reset.asp` | High
-46 | File | `/mifs/c/i/reg/reg.html` | High
-47 | File | `/model/delete_student_grade_subject.php` | High
-48 | File | `/model/update_classroom.php` | High
-49 | File | `/modules/profile/index.php` | High
-50 | File | `/news.dtl.php` | High
-51 | File | `/odlms/classes/Master.php?f=delete_message` | High
-52 | File | `/php-sms/classes/SystemSettings.php` | High
-53 | File | `/php_action/createUser.php` | High
-54 | File | `/release-x64/otfccdump+0x6e7e3d` | High
-55 | File | `/reps/admin/?page=agents/manage_agent` | High
-56 | File | `/royal_event/userregister.php` | High
-57 | File | `/see_more_details.php` | High
-58 | File | `/services/Card/findUser` | High
-59 | File | `/services/details.asp` | High
-60 | File | `/setup` | Low
-61 | File | `/signup.php` | Medium
-62 | File | `/spip.php` | Medium
-63 | ... | ... | ...
+20 | File | `/cgi-bin/cstecgi.cgi` | High
+21 | File | `/classes/Master.php?f=save_inquiry` | High
+22 | File | `/collection/all` | High
+23 | File | `/config,admin.jsp` | High
+24 | File | `/config/list` | Medium
+25 | File | `/conversation/upload` | High
+26 | File | `/core/config-revisions` | High
+27 | File | `/coreframe/app/guestbook/myissue.php` | High
+28 | File | `/dede/co_do.php` | High
+29 | File | `/detailed.php` | High
+30 | File | `/DXR.axd` | Medium
+31 | File | `/endpoint/Add.php` | High
+32 | File | `/endpoint/delete.php` | High
+33 | File | `/etc/init.d/sshd_service` | High
+34 | File | `/filemanager/upload.php` | High
+35 | File | `/forum/away.php` | High
+36 | File | `/fuel/sitevariables/delete/4` | High
+37 | File | `/goform/saveParentControlInfo` | High
+38 | File | `/goform/setBlackRule` | High
+39 | File | `/goform/setMacFilter` | High
+40 | File | `/goform/setSnmpInfo` | High
+41 | File | `/healthcare/Admin/consulting_detail.php` | High
+42 | File | `/hospital_activities/birth/form` | High
+43 | File | `/I/list.php` | Medium
+44 | File | `/if.cgi` | Low
+45 | File | `/include/make.php` | High
+46 | File | `/index.php` | Medium
+47 | File | `/index.php/admins/Fields/get_fields.html` | High
+48 | File | `/login` | Low
+49 | File | `/mgm_dev_reset.asp` | High
+50 | File | `/mifs/c/i/reg/reg.html` | High
+51 | File | `/model/delete_student_grade_subject.php` | High
+52 | File | `/model/update_classroom.php` | High
+53 | File | `/modules/profile/index.php` | High
+54 | File | `/news.dtl.php` | High
+55 | File | `/odlms/classes/Master.php?f=delete_message` | High
+56 | File | `/php-sms/classes/SystemSettings.php` | High
+57 | File | `/php_action/createUser.php` | High
+58 | File | `/release-x64/otfccdump+0x6e7e3d` | High
+59 | File | `/reps/admin/?page=agents/manage_agent` | High
+60 | File | `/royal_event/userregister.php` | High
+61 | File | `/see_more_details.php` | High
+62 | File | `/services/Card/findUser` | High
+63 | File | `/services/details.asp` | High
+64 | ... | ... | ...
 
-There are 548 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 561 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

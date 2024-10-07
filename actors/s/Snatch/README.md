@@ -103,7 +103,7 @@ ID | Type | Indicator | Confidence
 49 | File | `/protocol/nsasg6.0.tgz` | High
 50 | ... | ... | ...
 
-There are 430 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 431 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

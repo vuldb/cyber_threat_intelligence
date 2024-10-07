@@ -40,7 +40,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -50,20 +50,21 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/ajax.php?action=read_msg` | High
 2 | File | `/api /v3/auth` | High
-3 | File | `/change_password_process` | High
-4 | File | `/debug/pprof` | Medium
-5 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
-6 | File | `/env` | Low
-7 | File | `/goform/SetNetControlList` | High
-8 | File | `/goform/SetStaticRouteCfg` | High
-9 | File | `/my_photo_gallery/image.php` | High
-10 | File | `/product.php` | Medium
-11 | File | `/src/chatbotapp/chatWindow.java` | High
-12 | File | `/uapi/doc` | Medium
-13 | File | `admin/categories_industry.php` | High
-14 | ... | ... | ...
+3 | File | `/cgi-bin/cstecgi.cgi` | High
+4 | File | `/change_password_process` | High
+5 | File | `/debug/pprof` | Medium
+6 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
+7 | File | `/devinfo` | Medium
+8 | File | `/env` | Low
+9 | File | `/etc/shadow.sample` | High
+10 | File | `/goform/SetNetControlList` | High
+11 | File | `/goform/SetStaticRouteCfg` | High
+12 | File | `/my_photo_gallery/image.php` | High
+13 | File | `/product.php` | Medium
+14 | File | `/src/chatbotapp/chatWindow.java` | High
+15 | ... | ... | ...
 
-There are 112 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 123 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

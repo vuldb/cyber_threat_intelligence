@@ -102,27 +102,27 @@ ID | Type | Indicator | Confidence
 20 | File | `/cgi-bin/webadminget.cgi` | High
 21 | File | `/classes/Master.php?f=delete_service` | High
 22 | File | `/classes/Master.php?f=save_course` | High
-23 | File | `/demo/module/?module=HERE` | High
-24 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
-25 | File | `/forum/away.php` | High
-26 | File | `/general/attendance/manage/ask_duty/delete.php` | High
-27 | File | `/goform/SysToolReboot` | High
-28 | File | `/goform/WifiExtraSet` | High
-29 | File | `/inc/topBarNav.php` | High
-30 | File | `/index.php?m=admin&c=custom&a=plugindelhandle` | High
-31 | File | `/Interface/DevManage/VM.php` | High
-32 | File | `/mkshop/Men/profile.php` | High
-33 | File | `/mobile/downloadfile.aspx` | High
-34 | File | `/net/nfc/netlink.c` | High
-35 | File | `/oauth/idp/.well-known/openid-configuration` | High
-36 | File | `/out.php` | Medium
-37 | File | `/outgoing.php` | High
-38 | File | `/php-fusion/infusions/shoutbox_panel/shoutbox_archive.php` | High
-39 | File | `/register.do` | Medium
-40 | File | `/spip.php` | Medium
+23 | File | `/controllers/add_client.php` | High
+24 | File | `/demo/module/?module=HERE` | High
+25 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
+26 | File | `/foms/routers/place-order.php` | High
+27 | File | `/forum/away.php` | High
+28 | File | `/general/attendance/manage/ask_duty/delete.php` | High
+29 | File | `/goform/SysToolReboot` | High
+30 | File | `/goform/WifiExtraSet` | High
+31 | File | `/inc/topBarNav.php` | High
+32 | File | `/index.php?m=admin&c=custom&a=plugindelhandle` | High
+33 | File | `/Interface/DevManage/VM.php` | High
+34 | File | `/mkshop/Men/profile.php` | High
+35 | File | `/mobile/downloadfile.aspx` | High
+36 | File | `/net/nfc/netlink.c` | High
+37 | File | `/oauth/idp/.well-known/openid-configuration` | High
+38 | File | `/out.php` | Medium
+39 | File | `/outgoing.php` | High
+40 | File | `/php-fusion/infusions/shoutbox_panel/shoutbox_archive.php` | High
 41 | ... | ... | ...
 
-There are 350 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 351 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

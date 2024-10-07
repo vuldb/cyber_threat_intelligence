@@ -4,6 +4,12 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.autoit](https://vuldb.com/?actor.autoit)
 
+## Campaigns
+
+The following _campaigns_ are known and can be associated with Autoit:
+
+* StealC/Amadey/Credential Flusher
+
 ## Countries
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Autoit:
@@ -30,9 +36,10 @@ ID | IP address | Hostname | Campaign | Confidence
 7 | [23.3.13.154](https://vuldb.com/?ip.23.3.13.154) | a23-3-13-154.deploy.static.akamaitechnologies.com | - | High
 8 | [23.63.245.19](https://vuldb.com/?ip.23.63.245.19) | a23-63-245-19.deploy.static.akamaitechnologies.com | - | High
 9 | [23.63.245.50](https://vuldb.com/?ip.23.63.245.50) | a23-63-245-50.deploy.static.akamaitechnologies.com | - | High
-10 | ... | ... | ... | ...
+10 | [23.199.71.136](https://vuldb.com/?ip.23.199.71.136) | a23-199-71-136.deploy.static.akamaitechnologies.com | - | High
+11 | ... | ... | ... | ...
 
-There are 38 more IOC items available. Please use our online service to access the data.
+There are 40 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -66,19 +73,20 @@ ID | Type | Indicator | Confidence
 9 | File | `/RPC2` | Low
 10 | File | `/rup` | Low
 11 | File | `/secure/QueryComponent!Default.jspa` | High
-12 | File | `/var/hnap/timestamp` | High
-13 | File | `Addons/file/mod.file.php` | High
-14 | File | `admin-ajax.php` | High
-15 | File | `admin.color.php` | High
-16 | File | `admin.php` | Medium
-17 | File | `admin/admin_login.php` | High
-18 | File | `admin/index.php?page=manage_car` | High
-19 | File | `admin/media.php` | High
-20 | File | `admin_events.php` | High
-21 | File | `affich.php` | Medium
-22 | ... | ... | ...
+12 | File | `/show_news.php` | High
+13 | File | `/var/hnap/timestamp` | High
+14 | File | `Addons/file/mod.file.php` | High
+15 | File | `admin-ajax.php` | High
+16 | File | `admin.color.php` | High
+17 | File | `admin.php` | Medium
+18 | File | `admin/admin_login.php` | High
+19 | File | `admin/index.php?page=manage_car` | High
+20 | File | `admin/media.php` | High
+21 | File | `admin_events.php` | High
+22 | File | `affich.php` | Medium
+23 | ... | ... | ...
 
-There are 186 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 189 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -92,7 +100,9 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/2021/09/threat-roundup-0910-0917.html
 * https://blog.talosintelligence.com/2022/03/threat-roundup-0318-0325.html
 * https://de.darktrace.com/blog/growing-your-onion-autoit-malware-in-the-darktrace-kill-chain
+* https://github.com/esThreatIntelligence/iocs/blob/main/AutoIT/AutoIT_VidarStealer-5-19-2024.txt
 * https://isc.sans.edu/forums/diary/Brazilian+malspam+sends+Autoitbased+malware/22081/
+* https://research.openanalysis.net/credflusher/kiosk/stealer/stealc/amadey/autoit/2024/09/11/cred-flusher.html
 
 ## Literature
 

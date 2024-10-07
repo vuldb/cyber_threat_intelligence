@@ -149,7 +149,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-25, CWE-37, CWE-425 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-25, CWE-37, CWE-425 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
@@ -165,51 +165,62 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/admin/add_ikev2.php` | High
-3 | File | `/admin/category_save.php` | High
-4 | File | `/admin/config_time_sync.php` | High
-5 | File | `/admin/contacts/organizations/edit/2` | High
-6 | File | `/admin/index2.html` | High
-7 | File | `/admin/list_ipAddressPolicy.php` | High
-8 | File | `/admin/manage_model.php` | High
-9 | File | `/admin/manage_user.php` | High
-10 | File | `/admin/modules/product/controller.php?action=add` | High
-11 | File | `/admin/subject.php` | High
-12 | File | `/api/swaggerui/static` | High
-13 | File | `/app/uploading/upload-mp3.php` | High
-14 | File | `/apply/index.php` | High
-15 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-16 | File | `/cgi-bin/alexserv` | High
-17 | File | `/cgi-bin/cstecgi.cgi` | High
-18 | File | `/cgi-bin/luci/api/auth` | High
-19 | File | `/cgi-bin/luci/api/diagnose` | High
-20 | File | `/cgi-bin/wlogin.cgi` | High
-21 | File | `/classes/Master.php` | High
-22 | File | `/contact.php` | Medium
-23 | File | `/dcim/power-ports/add/` | High
-24 | File | `/debug/pprof` | Medium
-25 | File | `/DXR.axd` | Medium
-26 | File | `/edit-subject.php` | High
-27 | File | `/edit/server` | Medium
-28 | File | `/endpoint/add-user.php` | High
-29 | File | `/endpoint/delete-account.php` | High
-30 | File | `/endpoint/delete-todo.php` | High
-31 | File | `/etc/asterisk/` | High
-32 | File | `/etc/passwd` | Medium
-33 | File | `/etc/postfix/sender_login` | High
-34 | File | `/film-rating.php` | High
-35 | File | `/forum/away.php` | High
-36 | File | `/guestbook` | Medium
-37 | File | `/hardware` | Medium
-38 | File | `/ims/login.php` | High
-39 | File | `/index.php?app=main&inc=feature_phonebook&op=phonebook_list` | High
-40 | File | `/index.php?pluginApp/to/yzOffice/getFile` | High
-41 | File | `/index/ajax/lang` | High
-42 | File | `/Interface/DevManage/VM.php` | High
-43 | File | `/librarian/bookdetails.php` | High
-44 | ... | ... | ...
+2 | File | `/abcd/opac/php/otros_sitios.php` | High
+3 | File | `/admin/aboutus.php` | High
+4 | File | `/admin/add_ikev2.php` | High
+5 | File | `/admin/admin_log.php?clear=1` | High
+6 | File | `/admin/admin_widgets.php?action=install/widget=akismet` | High
+7 | File | `/admin/category_save.php` | High
+8 | File | `/admin/config_time_sync.php` | High
+9 | File | `/admin/contacts/organizations/edit/2` | High
+10 | File | `/admin/dialog/select_images_post.php` | High
+11 | File | `/admin/list_ipAddressPolicy.php` | High
+12 | File | `/admin/login.php` | High
+13 | File | `/admin/manage_model.php` | High
+14 | File | `/admin/manage_user.php` | High
+15 | File | `/admin/robot.php` | High
+16 | File | `/admin/subject.php` | High
+17 | File | `/admin/system.php` | High
+18 | File | `/admins/{adminId}` | High
+19 | File | `/api/swaggerui/static` | High
+20 | File | `/api/sys/set_passwd` | High
+21 | File | `/api2/html/` | Medium
+22 | File | `/apply/index.php` | High
+23 | File | `/boafrm/formSystemCheck` | High
+24 | File | `/buscar_integrada.php` | High
+25 | File | `/cgi-bin/alexserv` | High
+26 | File | `/cgi-bin/cstecgi.cgi` | High
+27 | File | `/cgi-bin/hd_config.cgi` | High
+28 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+29 | File | `/cgi-bin/luci/api/auth` | High
+30 | File | `/cgi-bin/luci/api/diagnose` | High
+31 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+32 | File | `/cgi-bin/tosei_kikai.php` | High
+33 | File | `/cgi-bin/webfile_mgr.cgi` | High
+34 | File | `/cgi-bin/wlogin.cgi` | High
+35 | File | `/classes/Master.php?f=save_package` | High
+36 | File | `/cloudstore/ecode/setup/ecology_dev.zip` | High
+37 | File | `/contact.php` | Medium
+38 | File | `/controllers/add_user.php` | High
+39 | File | `/core/config-revisions` | High
+40 | File | `/core/tools/delete_place.php` | High
+41 | File | `/dcim/power-ports/add/` | High
+42 | File | `/DXR.axd` | Medium
+43 | File | `/ecommerce/admin/login.php` | High
+44 | File | `/edit-subject.php` | High
+45 | File | `/endpoint/add-calorie.php` | High
+46 | File | `/endpoint/add-user.php` | High
+47 | File | `/endpoint/delete-account.php` | High
+48 | File | `/endpoint/update.php` | High
+49 | File | `/etc/asterisk/` | High
+50 | File | `/etc/passwd` | Medium
+51 | File | `/etc/postfix/sender_login` | High
+52 | File | `/files/` | Low
+53 | File | `/film-rating.php` | High
+54 | File | `/foms/routers/place-order.php` | High
+55 | ... | ... | ...
 
-There are 385 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 476 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

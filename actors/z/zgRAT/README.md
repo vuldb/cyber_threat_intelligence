@@ -26,7 +26,7 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [45.88.66.118](https://vuldb.com/?ip.45.88.66.118) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 10 more IOC items available. Please use our online service to access the data.
+There are 11 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -90,6 +90,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://bazaar.abuse.ch/sample/4acddc15352051552d4684fff6d07d18305cf7276d208adf7e2f59c5a70c909a/
 * https://bazaar.abuse.ch/sample/97175f477ed70cb8ab8e64165325586111a3946433bbae9e03b8273ac0602e3e/
 * https://bazaar.abuse.ch/sample/cfa592b0128bc126fbf3fb66c551a8d87223b196f5e0cd87e60b88bdc688c6e0/
+* https://blog.sekoia.io/webdav-as-a-service-uncovering-the-infrastructure-behind-emmenhtal-loader-distribution/
 * https://threatfox.abuse.ch
 * https://tria.ge/231112-thxkbsgg3s/behavioral2
 

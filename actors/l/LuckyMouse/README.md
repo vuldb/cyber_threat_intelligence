@@ -121,18 +121,18 @@ ID | Type | Indicator | Confidence
 72 | File | `/users/check_availability.php` | High
 73 | File | `/vaccinated/admin/maintenance/manage_location.php` | High
 74 | File | `/var/yp` | Low
-75 | File | `/yxcms/index.php?r=admin/extendfield/mesedit&tabid=12&id=4` | High
-76 | File | `/_vti_pvt/access.cnf` | High
-77 | File | `14all.cgi` | Medium
-78 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-79 | File | `404Like.php` | Medium
-80 | File | `500error.jsp` | Medium
-81 | File | `a-forms.php` | Medium
-82 | File | `ab.c` | Low
-83 | File | `account_update.php` | High
+75 | File | `/way4acs/enroll` | High
+76 | File | `/yxcms/index.php?r=admin/extendfield/mesedit&tabid=12&id=4` | High
+77 | File | `/_vti_pvt/access.cnf` | High
+78 | File | `14all.cgi` | Medium
+79 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+80 | File | `404Like.php` | Medium
+81 | File | `500error.jsp` | Medium
+82 | File | `a-forms.php` | Medium
+83 | File | `ab.c` | Low
 84 | ... | ... | ...
 
-There are 738 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 739 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

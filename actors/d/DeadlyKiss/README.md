@@ -37,7 +37,10 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `graph_realtime.php` | High
 2 | File | `login.php` | Medium
-3 | Argument | `pid` | Low
+3 | Argument | `dboption` | Medium
+4 | ... | ... | ...
+
+There are 1 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

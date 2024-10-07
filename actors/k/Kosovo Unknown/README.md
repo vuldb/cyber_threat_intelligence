@@ -89,7 +89,7 @@ ID | Type | Indicator | Confidence
 26 | File | `/siteminderagent/pwcgi/smpwservicescgi.exe` | High
 27 | ... | ... | ...
 
-There are 230 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 231 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

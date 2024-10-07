@@ -145,13 +145,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-29 | Path Traversal | High
+1 | T1006 | CWE-22, CWE-24, CWE-29 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 15 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -163,33 +163,35 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin/` | Low
 3 | File | `/admin/add-new.php` | High
 4 | File | `/admin/booking-bwdates-reports-details.php` | High
-5 | File | `/admin/ind_backstage.php` | High
-6 | File | `/admin/manage-ambulance.php` | High
-7 | File | `/admin/manage_complaint.php` | High
-8 | File | `/admin/mod_room/controller.php?action=add` | High
-9 | File | `/admin/students/manage.php` | High
-10 | File | `/api/client/editemedia.php` | High
-11 | File | `/attendancelist.php` | High
-12 | File | `/bilal final/edit_stud.php` | High
-13 | File | `/cancel.php` | Medium
-14 | File | `/cgi-bin/cstecgi.cgi` | High
-15 | File | `/cgi-bin/nas_sharing.cgi` | High
-16 | File | `/classes/Master.php` | High
-17 | File | `/classes/Users.php?f=delete` | High
-18 | File | `/control/deactivate_case.php` | High
-19 | File | `/control/register_case.php` | High
-20 | File | `/Default/Bd` | Medium
-21 | File | `/forum/away.php` | High
-22 | File | `/goform/AdvSetLanip` | High
-23 | File | `/index.php` | Medium
-24 | File | `/manager/ipconfig_new.php` | High
-25 | File | `/manage_receiving.php` | High
-26 | File | `/manage_sy.php` | High
-27 | File | `/model/add_student_subject.php` | High
-28 | File | `/ndmComponents.js` | High
-29 | ... | ... | ...
+5 | File | `/admin/emp-profile-avatar.php` | High
+6 | File | `/admin/ind_backstage.php` | High
+7 | File | `/admin/manage-ambulance.php` | High
+8 | File | `/admin/manage_complaint.php` | High
+9 | File | `/admin/mod_room/controller.php?action=add` | High
+10 | File | `/admin/students/manage.php` | High
+11 | File | `/api/client/editemedia.php` | High
+12 | File | `/attendancelist.php` | High
+13 | File | `/bilal final/edit_stud.php` | High
+14 | File | `/cancel.php` | Medium
+15 | File | `/cgi-bin/cstecgi.cgi` | High
+16 | File | `/cgi-bin/nas_sharing.cgi` | High
+17 | File | `/cgi-bin/p1_ftpserver.php` | High
+18 | File | `/cgi-bin/tosei_kikai.php` | High
+19 | File | `/classes/Master.php` | High
+20 | File | `/classes/SystemSettings.php?f=update_settings` | High
+21 | File | `/classes/Users.php?f=delete` | High
+22 | File | `/common/show_image.php` | High
+23 | File | `/control/deactivate_case.php` | High
+24 | File | `/control/register_case.php` | High
+25 | File | `/Default/Bd` | Medium
+26 | File | `/foms/routers/place-order.php` | High
+27 | File | `/forum/away.php` | High
+28 | File | `/goform/AdvSetLanip` | High
+29 | File | `/index.php` | Medium
+30 | File | `/manager/ipconfig_new.php` | High
+31 | ... | ... | ...
 
-There are 247 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 268 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

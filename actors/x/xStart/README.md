@@ -65,44 +65,45 @@ ID | Type | Indicator | Confidence
 5 | File | `/admin/list_resource_icon.php?action=delete` | High
 6 | File | `/admin/singlelogin.php` | High
 7 | File | `/admin/update_s6.php` | High
-8 | File | `/api/geojson` | Medium
-9 | File | `/api/jolokia org.jolokia.http.HttpRequestHandler#handlePostRequest` | High
-10 | File | `/api/sys/login` | High
-11 | File | `/bcms/admin/?page=user/manage_user` | High
-12 | File | `/cbs/system/ShowAdvanced.do` | High
-13 | File | `/cgi-bin/editBookmark` | High
-14 | File | `/cgi-bin/ExportAllSettings.sh` | High
-15 | File | `/cgi-bin/nas_sharing.cgi` | High
-16 | File | `/cgi-bin/webviewer_login_page` | High
-17 | File | `/cgi/networkDiag.cgi` | High
-18 | File | `/cms/category/list` | High
-19 | File | `/cms/classes/Users.php?f=delete_client` | High
-20 | File | `/debug` | Low
-21 | File | `/debug/pprof` | Medium
-22 | File | `/designer/add/layout` | High
-23 | File | `/DXR.axd` | Medium
-24 | File | `/em/console/logon/logon` | High
-25 | File | `/env` | Low
-26 | File | `/forum/away.php` | High
-27 | File | `/general/email/inbox/delete_webmail.php` | High
-28 | File | `/goform/setmac` | High
-29 | File | `/goform/SetNetControlList` | High
-30 | File | `/inc/jquery/uploadify/uploadify.php` | High
-31 | File | `/list` | Low
-32 | File | `/login` | Low
+8 | File | `/ajax/check_medicine_name.php` | High
+9 | File | `/api/geojson` | Medium
+10 | File | `/api/jolokia org.jolokia.http.HttpRequestHandler#handlePostRequest` | High
+11 | File | `/api/sys/login` | High
+12 | File | `/bcms/admin/?page=user/manage_user` | High
+13 | File | `/cbs/system/ShowAdvanced.do` | High
+14 | File | `/cgi-bin/editBookmark` | High
+15 | File | `/cgi-bin/ExportAllSettings.sh` | High
+16 | File | `/cgi-bin/nas_sharing.cgi` | High
+17 | File | `/cgi-bin/webviewer_login_page` | High
+18 | File | `/cgi/networkDiag.cgi` | High
+19 | File | `/cms/category/list` | High
+20 | File | `/cms/classes/Users.php?f=delete_client` | High
+21 | File | `/debug` | Low
+22 | File | `/debug/pprof` | Medium
+23 | File | `/designer/add/layout` | High
+24 | File | `/DXR.axd` | Medium
+25 | File | `/em/console/logon/logon` | High
+26 | File | `/env` | Low
+27 | File | `/forum/away.php` | High
+28 | File | `/general/email/inbox/delete_webmail.php` | High
+29 | File | `/goform/setmac` | High
+30 | File | `/goform/SetNetControlList` | High
+31 | File | `/inc/jquery/uploadify/uploadify.php` | High
+32 | File | `/list` | Low
 33 | File | `/login.php?m=admin&c=Field&a=channel_edit` | High
 34 | File | `/login/index.php` | High
 35 | File | `/net/sched/cls_fw.c` | High
 36 | File | `/nidp/idff/sso` | High
 37 | File | `/patient/appointment.php` | High
-38 | File | `/registrar/?page=registration` | High
-39 | File | `/search.php` | Medium
-40 | File | `/secure/QueryComponent!Default.jspa` | High
-41 | File | `/ServiceContractDef.do` | High
-42 | File | `/spip.php` | Medium
-43 | ... | ... | ...
+38 | File | `/pms/index.php` | High
+39 | File | `/registrar/?page=registration` | High
+40 | File | `/search.php` | Medium
+41 | File | `/secure/QueryComponent!Default.jspa` | High
+42 | File | `/ServiceContractDef.do` | High
+43 | File | `/spip.php` | Medium
+44 | ... | ... | ...
 
-There are 376 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 377 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

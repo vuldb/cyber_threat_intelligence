@@ -57,14 +57,15 @@ ID | Type | Indicator | Confidence
 8 | File | `/api/v1/attack/falco` | High
 9 | File | `/application/websocket/controller/Setting.php` | High
 10 | File | `/cgi-bin/cstecgi.cgi` | High
-11 | File | `/cgi-bin/login_action.cgi` | High
-12 | File | `/event/admin/?page=user/list` | High
-13 | File | `/include/file.php` | High
-14 | File | `/index.php` | Medium
-15 | File | `/index.php?menu=asterisk_cli` | High
-16 | ... | ... | ...
+11 | File | `/cgi-bin/discovery.cgi` | High
+12 | File | `/cgi-bin/login_action.cgi` | High
+13 | File | `/event/admin/?page=user/list` | High
+14 | File | `/include/file.php` | High
+15 | File | `/index.php` | Medium
+16 | File | `/index.php?menu=asterisk_cli` | High
+17 | ... | ... | ...
 
-There are 127 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 136 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

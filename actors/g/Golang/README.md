@@ -74,27 +74,27 @@ ID | Type | Indicator | Confidence
 12 | File | `/ample/app/action/edit_product.php` | High
 13 | File | `/api/dashboard/activity` | High
 14 | File | `/api/sys/login` | High
-15 | File | `/app/index/controller/Common.php` | High
-16 | File | `/catalog_add.php` | High
-17 | File | `/cgi-bin/cstecgi.cgi` | High
-18 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-19 | File | `/classes/Users.php` | High
-20 | File | `/classes/Users.php?f=save` | High
-21 | File | `/cm/update_rows/page?id=2` | High
-22 | File | `/confirm` | Medium
-23 | File | `/debug/pprof` | Medium
-24 | File | `/dede/archives_do.php` | High
-25 | File | `/dede/group_store.php` | High
-26 | File | `/dialog/select_media.php` | High
-27 | File | `/Employee/edit-profile.php` | High
-28 | File | `/ext/collect/filter_text.do` | High
-29 | File | `/FTPDiag.asp` | Medium
-30 | File | `/goform/setAutoPing` | High
-31 | File | `/goform/setMacFilterCfg` | High
-32 | File | `/goform/SetOnlineDevName` | High
+15 | File | `/api/system/user?deptId=1&page=1&size=10` | High
+16 | File | `/app/index/controller/Common.php` | High
+17 | File | `/catalog_add.php` | High
+18 | File | `/cgi-bin/cstecgi.cgi` | High
+19 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+20 | File | `/cgi-bin/hd_config.cgi` | High
+21 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+22 | File | `/classes/Users.php` | High
+23 | File | `/classes/Users.php?f=save` | High
+24 | File | `/cm/update_rows/page?id=2` | High
+25 | File | `/confirm` | Medium
+26 | File | `/debug/pprof` | Medium
+27 | File | `/dede/archives_do.php` | High
+28 | File | `/dede/group_store.php` | High
+29 | File | `/dialog/select_media.php` | High
+30 | File | `/Employee/edit-profile.php` | High
+31 | File | `/endpoint/update.php` | High
+32 | File | `/ext/collect/filter_text.do` | High
 33 | ... | ... | ...
 
-There are 277 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 286 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

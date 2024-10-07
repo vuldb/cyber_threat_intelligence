@@ -50,10 +50,10 @@ ID | Type | Indicator | Confidence
 1 | File | `/admin-manage-user.php` | High
 2 | File | `/api /v3/auth` | High
 3 | File | `/debug/pprof` | Medium
-4 | File | `/film-rating.php` | High
+4 | File | `/devinfo` | Medium
 5 | ... | ... | ...
 
-There are 28 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 33 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

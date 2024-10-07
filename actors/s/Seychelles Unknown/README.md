@@ -601,31 +601,32 @@ ID | Type | Indicator | Confidence
 19 | File | `/api/runscript` | High
 20 | File | `/app/Http/Controllers/ImageController.php` | High
 21 | File | `/application/index/controller/Icon.php` | High
-22 | File | `/cgi-bin/cstecgi.cgi` | High
-23 | File | `/cgi-bin/webadminget.cgi` | High
-24 | File | `/classes/Master.php` | High
-25 | File | `/classes/Master.php?f=delete_service` | High
-26 | File | `/classes/Master.php?f=save_course` | High
-27 | File | `/config/php.ini` | High
-28 | File | `/demo/module/?module=HERE` | High
-29 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
-30 | File | `/forum/away.php` | High
-31 | File | `/general/attendance/manage/ask_duty/delete.php` | High
-32 | File | `/goform/SysToolReboot` | High
-33 | File | `/goform/WifiExtraSet` | High
-34 | File | `/inc/topBarNav.php` | High
-35 | File | `/index.php?m=admin&c=custom&a=plugindelhandle` | High
-36 | File | `/Interface/DevManage/VM.php` | High
-37 | File | `/mkshop/Men/profile.php` | High
-38 | File | `/mobile/downloadfile.aspx` | High
-39 | File | `/myprofile.php` | High
-40 | File | `/net/nfc/netlink.c` | High
-41 | File | `/oauth/idp/.well-known/openid-configuration` | High
-42 | File | `/out.php` | Medium
-43 | File | `/outgoing.php` | High
-44 | ... | ... | ...
+22 | File | `/buscar_integrada.php` | High
+23 | File | `/cgi-bin/cstecgi.cgi` | High
+24 | File | `/cgi-bin/webadminget.cgi` | High
+25 | File | `/classes/Master.php` | High
+26 | File | `/classes/Master.php?f=delete_service` | High
+27 | File | `/classes/Master.php?f=save_course` | High
+28 | File | `/config/php.ini` | High
+29 | File | `/controllers/add_client.php` | High
+30 | File | `/demo/module/?module=HERE` | High
+31 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
+32 | File | `/endpoint/add-calorie.php` | High
+33 | File | `/foms/routers/place-order.php` | High
+34 | File | `/forum/away.php` | High
+35 | File | `/general/attendance/manage/ask_duty/delete.php` | High
+36 | File | `/goform/SysToolReboot` | High
+37 | File | `/goform/WifiExtraSet` | High
+38 | File | `/inc/topBarNav.php` | High
+39 | File | `/index.php?m=admin&c=custom&a=plugindelhandle` | High
+40 | File | `/Interface/DevManage/VM.php` | High
+41 | File | `/mkshop/Men/profile.php` | High
+42 | File | `/mobile/downloadfile.aspx` | High
+43 | File | `/myprofile.php` | High
+44 | File | `/net/nfc/netlink.c` | High
+45 | ... | ... | ...
 
-There are 381 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 388 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

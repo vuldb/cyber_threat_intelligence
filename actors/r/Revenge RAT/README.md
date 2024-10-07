@@ -23,18 +23,19 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [3.138.180.119](https://vuldb.com/?ip.3.138.180.119) | ec2-3-138-180-119.us-east-2.compute.amazonaws.com | - | Medium
 2 | [5.39.19.8](https://vuldb.com/?ip.5.39.19.8) | - | - | High
-3 | [18.228.173.171](https://vuldb.com/?ip.18.228.173.171) | ec2-18-228-173-171.sa-east-1.compute.amazonaws.com | - | Medium
-4 | [18.228.214.231](https://vuldb.com/?ip.18.228.214.231) | ec2-18-228-214-231.sa-east-1.compute.amazonaws.com | - | Medium
-5 | [18.231.151.211](https://vuldb.com/?ip.18.231.151.211) | ec2-18-231-151-211.sa-east-1.compute.amazonaws.com | - | Medium
-6 | [23.237.25.123](https://vuldb.com/?ip.23.237.25.123) | - | - | High
-7 | [37.0.11.45](https://vuldb.com/?ip.37.0.11.45) | - | - | High
-8 | [38.132.101.45](https://vuldb.com/?ip.38.132.101.45) | - | - | High
-9 | [40.127.163.74](https://vuldb.com/?ip.40.127.163.74) | - | - | High
-10 | [42.118.133.241](https://vuldb.com/?ip.42.118.133.241) | - | - | High
-11 | [45.137.22.152](https://vuldb.com/?ip.45.137.22.152) | hosted-by.rootlayer.net | - | High
-12 | ... | ... | ... | ...
+3 | [18.228.165.84](https://vuldb.com/?ip.18.228.165.84) | ec2-18-228-165-84.sa-east-1.compute.amazonaws.com | - | Medium
+4 | [18.228.173.171](https://vuldb.com/?ip.18.228.173.171) | ec2-18-228-173-171.sa-east-1.compute.amazonaws.com | - | Medium
+5 | [18.228.214.231](https://vuldb.com/?ip.18.228.214.231) | ec2-18-228-214-231.sa-east-1.compute.amazonaws.com | - | Medium
+6 | [18.231.150.177](https://vuldb.com/?ip.18.231.150.177) | ec2-18-231-150-177.sa-east-1.compute.amazonaws.com | - | Medium
+7 | [18.231.151.211](https://vuldb.com/?ip.18.231.151.211) | ec2-18-231-151-211.sa-east-1.compute.amazonaws.com | - | Medium
+8 | [23.237.25.123](https://vuldb.com/?ip.23.237.25.123) | - | - | High
+9 | [37.0.11.45](https://vuldb.com/?ip.37.0.11.45) | - | - | High
+10 | [38.132.101.45](https://vuldb.com/?ip.38.132.101.45) | - | - | High
+11 | [40.127.163.74](https://vuldb.com/?ip.40.127.163.74) | - | - | High
+12 | [42.118.133.241](https://vuldb.com/?ip.42.118.133.241) | - | - | High
+13 | ... | ... | ... | ...
 
-There are 45 more IOC items available. Please use our online service to access the data.
+There are 46 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -61,50 +62,51 @@ ID | Type | Indicator | Confidence
 2 | File | `/?Key=PhoneRequestAuthorization` | High
 3 | File | `/account/ResetPassword` | High
 4 | File | `/admin/?/layout/add` | High
-5 | File | `/admin/access` | High
+5 | File | `/admin/dialog/select_images_post.php` | High
 6 | File | `/admin/index.html` | High
-7 | File | `/admin/syslog` | High
-8 | File | `/admin_giant/add_team_member.php` | High
-9 | File | `/ajax.php` | Medium
-10 | File | `/bin/login` | Medium
-11 | File | `/cgi-bin/ExportALLSettings.sh` | High
-12 | File | `/classes/Master.php` | High
-13 | File | `/common/info.cgi` | High
-14 | File | `/course/filterRecords/` | High
-15 | File | `/download/image` | High
-16 | File | `/DXR.axd` | Medium
-17 | File | `/etc/gsissh/sshd_config` | High
-18 | File | `/etc/sudoers` | Medium
-19 | File | `/fhconf/umconfig.txt` | High
-20 | File | `/forum/away.php` | High
-21 | File | `/get_getnetworkconf.cgi` | High
-22 | File | `/goform/setmac` | High
-23 | File | `/home` | Low
-24 | File | `/horde/util/go.php` | High
-25 | File | `/hrm/controller/employee.php` | High
-26 | File | `/include/chart_generator.php` | High
-27 | File | `/integrations.json` | High
-28 | File | `/manage_block.php` | High
-29 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
-30 | File | `/product.php` | Medium
-31 | File | `/public` | Low
-32 | File | `/public/login.htm` | High
-33 | File | `/spip.php` | Medium
-34 | File | `/uncpath/` | Medium
-35 | File | `/users/admin/user_activity.php` | High
-36 | File | `/usr/local/www/pkg.php` | High
-37 | File | `/var/www/rhcert` | High
-38 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
-39 | File | `/web/api/app/Controller/HostController.php` | High
-40 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-41 | File | `a2billing/customer/iridium_threed.php` | High
-42 | File | `adclick.php` | Medium
-43 | File | `addentry.php` | Medium
-44 | File | `Addmessage.php` | High
-45 | File | `admin.php` | Medium
-46 | ... | ... | ...
+7 | File | `/admin/pass-bwdates-reports-details.php` | High
+8 | File | `/admin/syslog` | High
+9 | File | `/admin_giant/add_team_member.php` | High
+10 | File | `/ajax.php` | Medium
+11 | File | `/bin/login` | Medium
+12 | File | `/cgi-bin/cstecgi.cgi` | High
+13 | File | `/cgi-bin/ExportALLSettings.sh` | High
+14 | File | `/cgi-bin/hd_config.cgi` | High
+15 | File | `/classes/Master.php` | High
+16 | File | `/classes/Master.php?f=delete_category` | High
+17 | File | `/common/info.cgi` | High
+18 | File | `/control/forgot_pass.php` | High
+19 | File | `/course/filterRecords/` | High
+20 | File | `/download/image` | High
+21 | File | `/DXR.axd` | Medium
+22 | File | `/endpoint/delete.php` | High
+23 | File | `/etc/sudoers` | Medium
+24 | File | `/fhconf/umconfig.txt` | High
+25 | File | `/forum/away.php` | High
+26 | File | `/get_getnetworkconf.cgi` | High
+27 | File | `/goform/setmac` | High
+28 | File | `/horde/util/go.php` | High
+29 | File | `/hrm/controller/employee.php` | High
+30 | File | `/include/chart_generator.php` | High
+31 | File | `/includes/` | Medium
+32 | File | `/index.php/admin` | High
+33 | File | `/integrations.json` | High
+34 | File | `/login/signOut` | High
+35 | File | `/manage_block.php` | High
+36 | File | `/nagiosxi/admin/banner_message-ajaxhelper.php` | High
+37 | File | `/product.php` | Medium
+38 | File | `/public` | Low
+39 | File | `/public/login.htm` | High
+40 | File | `/report/ParkChargeRecord/GetDataList` | High
+41 | File | `/spip.php` | Medium
+42 | File | `/uncpath/` | Medium
+43 | File | `/users/admin/user_activity.php` | High
+44 | File | `/usr/local/www/pkg.php` | High
+45 | File | `/var/www/rhcert` | High
+46 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
+47 | ... | ... | ...
 
-There are 394 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 411 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

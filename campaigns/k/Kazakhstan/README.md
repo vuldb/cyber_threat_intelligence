@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Kazakhstan:
 
 * [CN](https://vuldb.com/?country.cn)
-* [RU](https://vuldb.com/?country.ru)
 * [KZ](https://vuldb.com/?country.kz)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -222,7 +222,8 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+6 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
 
@@ -247,14 +248,16 @@ ID | Type | Indicator | Confidence
 13 | File | `/cgi-bin/cstecgi.cgi` | High
 14 | File | `/changePassword` | High
 15 | File | `/classes/Users.php?f=save` | High
-16 | File | `/edit-subject.php` | High
-17 | File | `/endpoint/add-user.php` | High
-18 | File | `/etc/postfix/sender_login` | High
-19 | File | `/forum/away.php` | High
-20 | File | `/goform/SetSysTimeCfg` | High
-21 | ... | ... | ...
+16 | File | `/cloudstore/ecode/setup/ecology_dev.zip` | High
+17 | File | `/edit-subject.php` | High
+18 | File | `/endpoint/add-user.php` | High
+19 | File | `/etc/postfix/sender_login` | High
+20 | File | `/foms/routers/place-order.php` | High
+21 | File | `/forum/away.php` | High
+22 | File | `/goform/SetSysTimeCfg` | High
+23 | ... | ... | ...
 
-There are 178 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 187 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -85,38 +85,39 @@ ID | Type | Indicator | Confidence
 17 | File | `/authMonitCallcenter` | High
 18 | File | `/b2b-supermarket/shopping-cart` | High
 19 | File | `/cgi-bin/cstecgi.cgi` | High
-20 | File | `/classes/Master.php?f=save_package` | High
-21 | File | `/cm/update_rows/page?id=2` | High
-22 | File | `/core/kernels/ctc_decoder_ops.cc` | High
-23 | File | `/etc/controller-agent/agent.conf` | High
-24 | File | `/etc/shadow` | Medium
-25 | File | `/etc/shadow.sample` | High
-26 | File | `/evaluate/index.php` | High
-27 | File | `/forum/away.php` | High
-28 | File | `/goform/apPortalAccessCodeAuth` | High
-29 | File | `/goform/apPortalOneKeyAuth` | High
-30 | File | `/goform/apPortalPhoneAuth` | High
-31 | File | `/goform/setmac` | High
-32 | File | `/goform/setVLAN` | High
+20 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+21 | File | `/classes/Master.php?f=save_package` | High
+22 | File | `/cm/update_rows/page?id=2` | High
+23 | File | `/core/kernels/ctc_decoder_ops.cc` | High
+24 | File | `/ecommerce/admin/products/controller.php` | High
+25 | File | `/etc/controller-agent/agent.conf` | High
+26 | File | `/etc/shadow` | Medium
+27 | File | `/etc/shadow.sample` | High
+28 | File | `/evaluate/index.php` | High
+29 | File | `/forum/away.php` | High
+30 | File | `/goform/apPortalAccessCodeAuth` | High
+31 | File | `/goform/apPortalOneKeyAuth` | High
+32 | File | `/goform/apPortalPhoneAuth` | High
 33 | File | `/goform/WifiBasicSet` | High
-34 | File | `/gofrom/setwanType` | High
-35 | File | `/hcms/admin/index.php/language/ajax` | High
-36 | File | `/index.class.php` | High
-37 | File | `/index.php` | Medium
+34 | File | `/hcms/admin/index.php/language/ajax` | High
+35 | File | `/index.class.php` | High
+36 | File | `/index.php` | Medium
+37 | File | `/index.php?action=editManager` | High
 38 | File | `/knowage/restful-services/documentnotes/saveNote` | High
 39 | File | `/labvantage/rc?command=file&file=WEB-OPAL/pagetypes/bulletins/sendbulletin.jsp` | High
 40 | File | `/labvantage/rc?command=page&sdcid=LV_ReagentLot` | High
 41 | File | `/lms/classes/Master.php?f=save_record` | High
-42 | File | `/manage_user.php` | High
-43 | File | `/members/poster.php` | High
-44 | File | `/mgmt/tm/util/bash` | High
-45 | File | `/MIME/INBOX-MM-1/` | High
-46 | File | `/new` | Low
-47 | File | `/new_prescription.php` | High
-48 | File | `/nova/bin/diskd` | High
-49 | ... | ... | ...
+42 | File | `/login/signOut` | High
+43 | File | `/manage_user.php` | High
+44 | File | `/members/poster.php` | High
+45 | File | `/mgmt/tm/util/bash` | High
+46 | File | `/MIME/INBOX-MM-1/` | High
+47 | File | `/new` | Low
+48 | File | `/new_prescription.php` | High
+49 | File | `/nova/bin/diskd` | High
+50 | ... | ... | ...
 
-There are 423 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 437 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

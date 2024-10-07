@@ -28,11 +28,11 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [3.76.107.228](https://vuldb.com/?ip.3.76.107.228) | ec2-3-76-107-228.eu-central-1.compute.amazonaws.com | Spacecolon | Medium
-2 | [87.251.64.19](https://vuldb.com/?ip.87.251.64.19) | - | Spacecolon | High
-3 | [87.251.64.57](https://vuldb.com/?ip.87.251.64.57) | - | Spacecolon | High
+2 | [66.29.141.245](https://vuldb.com/?ip.66.29.141.245) | premium301-3.web-hosting.com | - | High
+3 | [87.251.64.19](https://vuldb.com/?ip.87.251.64.19) | - | Spacecolon | High
 4 | ... | ... | ... | ...
 
-There are 9 more IOC items available. Please use our online service to access the data.
+There are 10 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -54,17 +54,18 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-2 | File | `add-category.php` | High
-3 | File | `admin/dashboard.php` | High
-4 | File | `att_protocol.cc` | High
+2 | File | `/index/ajax/lang` | High
+3 | File | `add-category.php` | High
+4 | File | `admin/dashboard.php` | High
 5 | ... | ... | ...
 
-There are 28 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 31 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://www.welivesecurity.com/en/eset-research/cosmicbeetle-steps-up-probation-period-ransomhub/
 * https://www.welivesecurity.com/en/eset-research/scarabs-colon-izing-vulnerable-servers/
 
 ## Literature

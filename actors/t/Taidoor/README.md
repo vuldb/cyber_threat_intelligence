@@ -56,14 +56,14 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/api/addusers` | High
 2 | File | `/api/baskets/{name}` | High
-3 | File | `Auth/Manager.php` | High
-4 | File | `awstats.pl` | Medium
-5 | File | `board.php` | Medium
-6 | File | `conf.c` | Low
-7 | File | `crc32.c` | Low
+3 | File | `/status.js` | Medium
+4 | File | `Auth/Manager.php` | High
+5 | File | `awstats.pl` | Medium
+6 | File | `board.php` | Medium
+7 | File | `conf.c` | Low
 8 | ... | ... | ...
 
-There are 56 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 59 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

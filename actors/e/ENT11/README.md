@@ -51,26 +51,26 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/cgi-bin/koha/acqui/supplier.pl?op=enter` | High
-2 | File | `/cgi-bin/system_mgr.cgi` | High
-3 | File | `/download` | Medium
-4 | File | `/forum/away.php` | High
-5 | File | `/include/helpers/upload.helper.php` | High
-6 | File | `/oauth/idp/.well-known/openid-configuration` | High
-7 | File | `/opt/IBM/es/lib/libffq.cryptionjni.so` | High
-8 | File | `/PROD_ar/twbkwbis.P_FirstMenu` | High
-9 | File | `/register.php` | High
-10 | File | `/rom-0` | Low
-11 | File | `/spip.php` | Medium
-12 | File | `/uncpath/` | Medium
-13 | File | `/WWW//app/admin/controller/admincontroller.php` | High
-14 | File | `adclick.php` | Medium
-15 | File | `add_comment.php` | High
-16 | File | `admin/cmsWebFile/list.html?path=../` | High
-17 | File | `adminBanned.php` | High
+1 | File | `/cgi-bin/cstecgi.cgi` | High
+2 | File | `/cgi-bin/koha/acqui/supplier.pl?op=enter` | High
+3 | File | `/cgi-bin/system_mgr.cgi` | High
+4 | File | `/download` | Medium
+5 | File | `/forum/away.php` | High
+6 | File | `/include/helpers/upload.helper.php` | High
+7 | File | `/oauth/idp/.well-known/openid-configuration` | High
+8 | File | `/opt/IBM/es/lib/libffq.cryptionjni.so` | High
+9 | File | `/PROD_ar/twbkwbis.P_FirstMenu` | High
+10 | File | `/register.php` | High
+11 | File | `/rom-0` | Low
+12 | File | `/spip.php` | Medium
+13 | File | `/uncpath/` | Medium
+14 | File | `/WWW//app/admin/controller/admincontroller.php` | High
+15 | File | `adclick.php` | Medium
+16 | File | `add_comment.php` | High
+17 | File | `admin/cmsWebFile/list.html?path=../` | High
 18 | ... | ... | ...
 
-There are 146 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 148 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

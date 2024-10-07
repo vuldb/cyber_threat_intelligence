@@ -47,22 +47,23 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/mod_room/controller.php?action=add` | High
-2 | File | `/anony/mjpg.cgi` | High
-3 | File | `/assets/something/services/AppModule.class` | High
-4 | File | `/cgi-bin/wlogin.cgi` | High
-5 | File | `/classes/Master.php` | High
-6 | File | `/classes/Users.php?f=delete` | High
-7 | File | `/control/register_case.php` | High
-8 | File | `/manage_sy.php` | High
-9 | File | `/ndmComponents.js` | High
-10 | File | `/oauth/idp/.well-known/openid-configuration` | High
-11 | File | `/owa/auth/logon.aspx` | High
-12 | File | `/request.php` | Medium
-13 | File | `/student/bookdetails.php` | High
-14 | ... | ... | ...
+1 | File | `/admin/admin-update-employee.php` | High
+2 | File | `/admin/emp-profile-avatar.php` | High
+3 | File | `/admin/mod_room/controller.php?action=add` | High
+4 | File | `/anony/mjpg.cgi` | High
+5 | File | `/assets/something/services/AppModule.class` | High
+6 | File | `/cgi-bin/wlogin.cgi` | High
+7 | File | `/classes/Master.php` | High
+8 | File | `/classes/SystemSettings.php?f=update_settings` | High
+9 | File | `/classes/Users.php?f=delete` | High
+10 | File | `/control/register_case.php` | High
+11 | File | `/manage_sy.php` | High
+12 | File | `/ndmComponents.js` | High
+13 | File | `/oauth/idp/.well-known/openid-configuration` | High
+14 | File | `/owa/auth/logon.aspx` | High
+15 | ... | ... | ...
 
-There are 106 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 116 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

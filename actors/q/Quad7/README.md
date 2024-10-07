@@ -9,6 +9,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Quad7:
 
 * [US](https://vuldb.com/?country.us)
+* [ES](https://vuldb.com/?country.es)
 
 ## IOC - Indicator of Compromise
 
@@ -16,12 +17,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [23.254.201.175](https://vuldb.com/?ip.23.254.201.175) | hwsrv-1226318.hostwindsdns.com | - | High
-2 | [142.11.205.164](https://vuldb.com/?ip.142.11.205.164) | hwsrv-1212779.hostwindsdns.com | - | High
-3 | [151.236.20.185](https://vuldb.com/?ip.151.236.20.185) | 185.20.236.151.in-addr.arpa | - | High
+1 | [23.227.196.73](https://vuldb.com/?ip.23.227.196.73) | 23-227-196-73.static.hvvc.us | - | High
+2 | [23.254.201.175](https://vuldb.com/?ip.23.254.201.175) | hwsrv-1226318.hostwindsdns.com | - | High
+3 | [23.254.209.118](https://vuldb.com/?ip.23.254.209.118) | hwsrv-1118704.hostwindsdns.com | - | High
 4 | ... | ... | ... | ...
 
-There are 1 more IOC items available. Please use our online service to access the data.
+There are 4 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -34,7 +35,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059.007 | CWE-79 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 6 more TTP items available. Please use our online service to access the data.
+There are 7 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -47,13 +48,14 @@ ID | Type | Indicator | Confidence
 3 | File | `/debug/pprof` | Medium
 4 | ... | ... | ...
 
-There are 10 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 14 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://blog.sekoia.io/solving-the-7777-botnet-enigma-a-cybersecurity-quest/
+* https://www.team-cymru.com/post/botnet-7777-are-you-betting-on-a-compromised-router
 
 ## Literature
 

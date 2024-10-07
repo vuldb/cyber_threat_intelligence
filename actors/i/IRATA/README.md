@@ -76,28 +76,29 @@ ID | Type | Indicator | Confidence
 21 | File | `/etc/passwd` | Medium
 22 | File | `/forum/away.php` | High
 23 | File | `/getcfg.php` | Medium
-24 | File | `/goform/RouteStatic` | High
-25 | File | `/hrm/employeeadd.php` | High
-26 | File | `/hrm/employeeview.php` | High
-27 | File | `/index.php` | Medium
-28 | File | `/login.php` | Medium
-29 | File | `/manage_receiving.php` | High
-30 | File | `/mkshop/Men/profile.php` | High
-31 | File | `/model/add_student_subject.php` | High
-32 | File | `/model/update_grade.php` | High
-33 | File | `/pms/admin/prisons/view_prison.php` | High
-34 | File | `/print_patients_visits.php` | High
-35 | File | `/product` | Medium
-36 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-37 | File | `/services/Card/findUser` | High
-38 | File | `/simple-online-bidding-system/admin/ajax.php?action=save_product` | High
-39 | File | `/simple-online-bidding-system/admin/index.php?page=manage_product` | High
-40 | File | `/simple-online-bidding-system/admin/index.php?page=manage_user` | High
-41 | File | `/simple-online-bidding-system/index.php?page=view_prod` | High
-42 | File | `/spip.php` | Medium
-43 | ... | ... | ...
+24 | File | `/goform/fromSetWirelessRepeat` | High
+25 | File | `/goform/RouteStatic` | High
+26 | File | `/hrm/employeeadd.php` | High
+27 | File | `/hrm/employeeview.php` | High
+28 | File | `/index.php` | Medium
+29 | File | `/login.php` | Medium
+30 | File | `/manage_receiving.php` | High
+31 | File | `/mkshop/Men/profile.php` | High
+32 | File | `/model/add_student_subject.php` | High
+33 | File | `/model/update_grade.php` | High
+34 | File | `/pms/admin/prisons/view_prison.php` | High
+35 | File | `/print_patients_visits.php` | High
+36 | File | `/product` | Medium
+37 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+38 | File | `/services/Card/findUser` | High
+39 | File | `/simple-online-bidding-system/admin/ajax.php?action=save_product` | High
+40 | File | `/simple-online-bidding-system/admin/index.php?page=manage_product` | High
+41 | File | `/simple-online-bidding-system/admin/index.php?page=manage_user` | High
+42 | File | `/simple-online-bidding-system/index.php?page=view_prod` | High
+43 | File | `/spip.php` | Medium
+44 | ... | ... | ...
 
-There are 375 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 378 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -55,30 +55,32 @@ ID | Type | Indicator | Confidence
 4 | File | `/admin/?page=inmates/view_inmate` | High
 5 | File | `/admin/subnets/ripe-query.php` | High
 6 | File | `/apply.cgi` | Medium
-7 | File | `/core/conditions/AbstractWrapper.java` | High
-8 | File | `/debug/pprof` | Medium
-9 | File | `/defaultui/player/modern.html` | High
-10 | File | `/dvcset/sysset/set.cgi` | High
-11 | File | `/edit-db.php` | Medium
-12 | File | `/export` | Low
-13 | File | `/file?action=download&file` | High
-14 | File | `/forum/away.php` | High
-15 | File | `/goform/aspForm` | High
-16 | File | `/hardware` | Medium
-17 | File | `/installers/common.sh` | High
-18 | File | `/librarian/bookdetails.php` | High
-19 | File | `/medical/inventories.php` | High
-20 | File | `/monitoring` | Medium
-21 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-22 | File | `/plugin/LiveChat/getChat.json.php` | High
-23 | File | `/plugins/servlet/audit/resource` | High
-24 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
-25 | File | `/proc` | Low
-26 | File | `/replication` | Medium
-27 | File | `/RestAPI` | Medium
-28 | ... | ... | ...
+7 | File | `/boaform/device_reset.cgi` | High
+8 | File | `/core/conditions/AbstractWrapper.java` | High
+9 | File | `/debug/pprof` | Medium
+10 | File | `/defaultui/player/modern.html` | High
+11 | File | `/dvcset/sysset/set.cgi` | High
+12 | File | `/edit-db.php` | Medium
+13 | File | `/export` | Low
+14 | File | `/file?action=download&file` | High
+15 | File | `/forum/away.php` | High
+16 | File | `/goform/aspForm` | High
+17 | File | `/hardware` | Medium
+18 | File | `/installers/common.sh` | High
+19 | File | `/librarian/bookdetails.php` | High
+20 | File | `/medical/inventories.php` | High
+21 | File | `/monitoring` | Medium
+22 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+23 | File | `/pincode-verification.php` | High
+24 | File | `/plugin/LiveChat/getChat.json.php` | High
+25 | File | `/plugins/servlet/audit/resource` | High
+26 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
+27 | File | `/proc` | Low
+28 | File | `/products/view_product.php` | High
+29 | File | `/replication` | Medium
+30 | ... | ... | ...
 
-There are 237 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 250 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

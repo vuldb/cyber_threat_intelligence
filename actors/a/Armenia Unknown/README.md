@@ -119,14 +119,15 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/edit-admin.php` | High
-2 | File | `/admin/manage_station.php` | High
-3 | File | `/classes/Master.php` | High
-4 | File | `/manage_sy.php` | High
-5 | File | `/ndmComponents.js` | High
-6 | File | `/register.php` | High
-7 | ... | ... | ...
+2 | File | `/admin/emp-profile-avatar.php` | High
+3 | File | `/admin/manage_station.php` | High
+4 | File | `/classes/Master.php` | High
+5 | File | `/classes/SystemSettings.php?f=update_settings` | High
+6 | File | `/foms/routers/place-order.php` | High
+7 | File | `/manage_sy.php` | High
+8 | ... | ... | ...
 
-There are 51 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 56 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

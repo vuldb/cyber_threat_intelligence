@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with New York Unknown:
 
 * [US](https://vuldb.com/?country.us)
-* [GB](https://vuldb.com/?country.gb)
 * [FR](https://vuldb.com/?country.fr)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 7 more country items available. Please use our online service to access the data.
+There are 8 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -209,29 +209,30 @@ ID | Type | Indicator | Confidence
 4 | File | `/admin/admin-profile.php` | High
 5 | File | `/admin/ajax.php?action=login` | High
 6 | File | `/admin/booking-bwdates-reports-details.php` | High
-7 | File | `/admin/forgot-password.php` | High
-8 | File | `/admin/maintenance/manage_brand.php` | High
-9 | File | `/admin/manage-ambulance.php` | High
-10 | File | `/admin/manage_station.php` | High
-11 | File | `/administration/theme.php` | High
-12 | File | `/api/index.php` | High
-13 | File | `/cancel.php` | Medium
-14 | File | `/cgi-bin/` | Medium
-15 | File | `/cgi-bin/adm.cgi` | High
-16 | File | `/cgi-bin/cstecgi.cgi` | High
-17 | File | `/cgi-bin/nas_sharing.cgi` | High
-18 | File | `/check_availability.php` | High
-19 | File | `/classes/Master.php` | High
-20 | File | `/control/register_case.php` | High
-21 | File | `/coreframe/app/pay/admin/index.php` | High
-22 | File | `/dashboard/Cinvoice/manage_invoice` | High
-23 | File | `/dcim/console-ports/add` | High
-24 | File | `/etc/keystone/user-project-map.json` | High
-25 | File | `/forgot-password` | High
-26 | File | `/forum/away.php` | High
-27 | ... | ... | ...
+7 | File | `/admin/emp-profile-avatar.php` | High
+8 | File | `/admin/forgot-password.php` | High
+9 | File | `/admin/maintenance/manage_brand.php` | High
+10 | File | `/admin/manage-ambulance.php` | High
+11 | File | `/admin/manage_station.php` | High
+12 | File | `/administration/theme.php` | High
+13 | File | `/api/index.php` | High
+14 | File | `/cancel.php` | Medium
+15 | File | `/cgi-bin/` | Medium
+16 | File | `/cgi-bin/adm.cgi` | High
+17 | File | `/cgi-bin/cstecgi.cgi` | High
+18 | File | `/cgi-bin/nas_sharing.cgi` | High
+19 | File | `/cgi-bin/p1_ftpserver.php` | High
+20 | File | `/cgi-bin/tosei_kikai.php` | High
+21 | File | `/check_availability.php` | High
+22 | File | `/classes/Master.php` | High
+23 | File | `/classes/SystemSettings.php?f=update_settings` | High
+24 | File | `/control/register_case.php` | High
+25 | File | `/coreframe/app/pay/admin/index.php` | High
+26 | File | `/dashboard/Cinvoice/manage_invoice` | High
+27 | File | `/dcim/console-ports/add` | High
+28 | ... | ... | ...
 
-There are 225 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 241 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

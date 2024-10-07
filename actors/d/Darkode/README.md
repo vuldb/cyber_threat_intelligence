@@ -47,22 +47,23 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin/maintenance/view_designation.php` | High
 3 | File | `/admin/quizquestion.php` | High
 4 | File | `/admin/search-appointment.php` | High
-5 | File | `/cgi-bin/user/Config.cgi` | High
-6 | File | `/classes/Master.php` | High
-7 | File | `/config/php.ini` | High
-8 | File | `/htdocs/cgibin` | High
-9 | File | `/myprofile.php` | High
-10 | File | `/uncpath/` | Medium
-11 | File | `/videotalk` | Medium
-12 | File | `/web/MCmsAction.java` | High
-13 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-14 | File | `activity_log.php` | High
-15 | File | `adm/systools.asp` | High
-16 | File | `admin/getparam.cgi` | High
-17 | File | `admin/media/index.php"` | High
-18 | ... | ... | ...
+5 | File | `/buscar_integrada.php` | High
+6 | File | `/cgi-bin/user/Config.cgi` | High
+7 | File | `/classes/Master.php` | High
+8 | File | `/config/php.ini` | High
+9 | File | `/endpoint/add-calorie.php` | High
+10 | File | `/htdocs/cgibin` | High
+11 | File | `/myprofile.php` | High
+12 | File | `/uncpath/` | Medium
+13 | File | `/videotalk` | Medium
+14 | File | `/web/MCmsAction.java` | High
+15 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+16 | File | `activity_log.php` | High
+17 | File | `adm/systools.asp` | High
+18 | File | `admin/getparam.cgi` | High
+19 | ... | ... | ...
 
-There are 150 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 153 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [DE](https://vuldb.com/?country.de)
 * ...
 
-There are 15 more country items available. Please use our online service to access the data.
+There are 16 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -57,21 +57,22 @@ ID | Type | Indicator | Confidence
 7 | File | `/getcfg.php` | Medium
 8 | File | `/MicroStrategyWS/happyaxis.jsp` | High
 9 | File | `/owa/auth/logon.aspx` | High
-10 | File | `/proc/ioports` | High
-11 | File | `/search.php` | Medium
-12 | File | `/services/details.asp` | High
-13 | File | `/tmp` | Low
-14 | File | `/uncpath/` | Medium
-15 | File | `/Upload.ashx` | Medium
-16 | File | `/usr/sbin/suexec` | High
-17 | File | `/var/tmp/sess_*` | High
-18 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-19 | File | `activateuser.aspx` | High
-20 | File | `adclick.php` | Medium
-21 | File | `admin/killsource` | High
-22 | ... | ... | ...
+10 | File | `/pg_meta/default/query` | High
+11 | File | `/proc//auxv` | Medium
+12 | File | `/proc/fs/nfsd/clients/2/states` | High
+13 | File | `/proc/ioports` | High
+14 | File | `/search.php` | Medium
+15 | File | `/services/details.asp` | High
+16 | File | `/tmp` | Low
+17 | File | `/uncpath/` | Medium
+18 | File | `/Upload.ashx` | Medium
+19 | File | `/usr/sbin/suexec` | High
+20 | File | `/var/tmp/sess_*` | High
+21 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+22 | File | `activateuser.aspx` | High
+23 | ... | ... | ...
 
-There are 184 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 188 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
-* [TR](https://vuldb.com/?country.tr)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 18 more country items available. Please use our online service to access the data.
+There are 17 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -68,37 +68,39 @@ ID | Type | Indicator | Confidence
 17 | File | `/applications/nexus/modules/front/store/store.php` | High
 18 | File | `/apply.cgi` | Medium
 19 | File | `/bitrix/admin/ldap_server_edit.php` | High
-20 | File | `/cgi-bin/cstecgi.cgi` | High
-21 | File | `/cgi-bin/nas_sharing.cgi` | High
-22 | File | `/cgi-bin/photocenter_mgr.cgi` | High
-23 | File | `/cgi-bin/wlogin.cgi` | High
-24 | File | `/classes/Master.php` | High
-25 | File | `/classes/Master.php?f=save_category` | High
-26 | File | `/classes/Users.php?f=save` | High
-27 | File | `/College/admin/teacher.php` | High
-28 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
-29 | File | `/dcim/rack-roles/` | High
-30 | File | `/fftools/ffmpeg_enc.c` | High
-31 | File | `/forms/doLogin` | High
-32 | File | `/formSysLog` | Medium
-33 | File | `/forum/away.php` | High
-34 | File | `/goform/addUserName` | High
-35 | File | `/goform/aspForm` | High
-36 | File | `/goform/delAd` | High
-37 | File | `/goform/SetOnlineDevName` | High
-38 | File | `/goform/wifiSSIDset` | High
-39 | File | `/gpac/src/bifs/unquantize.c` | High
-40 | File | `/guestbook` | Medium
-41 | File | `/inc/topBarNav.php` | High
-42 | File | `/includes/common/require_access_recovery.php` | High
-43 | File | `/index.asp` | Medium
-44 | File | `/index.php` | Medium
-45 | File | `/index.php?app=main&func=passport&action=login` | High
-46 | File | `/install/` | Medium
-47 | File | `/kelas/data` | Medium
-48 | ... | ... | ...
+20 | File | `/cgi-bin/apkg_mgr.cgi` | High
+21 | File | `/cgi-bin/cstecgi.cgi` | High
+22 | File | `/cgi-bin/nas_sharing.cgi` | High
+23 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+24 | File | `/cgi-bin/wlogin.cgi` | High
+25 | File | `/classes/Master.php` | High
+26 | File | `/classes/Master.php?f=delete_record` | High
+27 | File | `/classes/Master.php?f=save_category` | High
+28 | File | `/classes/SystemSettings.php?f=update_settings` | High
+29 | File | `/classes/Users.php?f=save` | High
+30 | File | `/College/admin/teacher.php` | High
+31 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
+32 | File | `/dcim/rack-roles/` | High
+33 | File | `/dtale/chart-data/1` | High
+34 | File | `/etc/shadow.sample` | High
+35 | File | `/fftools/ffmpeg_enc.c` | High
+36 | File | `/forms/doLogin` | High
+37 | File | `/formSysLog` | Medium
+38 | File | `/forum/away.php` | High
+39 | File | `/goform/addUserName` | High
+40 | File | `/goform/aspForm` | High
+41 | File | `/goform/delAd` | High
+42 | File | `/goform/SetOnlineDevName` | High
+43 | File | `/goform/wifiSSIDset` | High
+44 | File | `/gpac/src/bifs/unquantize.c` | High
+45 | File | `/guestbook` | Medium
+46 | File | `/h.php/page?ref=addtabs` | High
+47 | File | `/image.php` | Medium
+48 | File | `/inc/topBarNav.php` | High
+49 | File | `/includes/common/require_access_recovery.php` | High
+50 | ... | ... | ...
 
-There are 421 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 431 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

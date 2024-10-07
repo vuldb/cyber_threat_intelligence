@@ -67,17 +67,17 @@ ID | Type | Indicator | Confidence
 21 | File | `/core/config-revisions` | High
 22 | File | `/coreframe/app/guestbook/myissue.php` | High
 23 | File | `/dede/co_do.php` | High
-24 | File | `/DXR.axd` | Medium
-25 | File | `/endpoint/Add.php` | High
-26 | File | `/endpoint/delete.php` | High
-27 | File | `/etc/init.d/sshd_service` | High
-28 | File | `/fuel/sitevariables/delete/4` | High
-29 | File | `/goform/saveParentControlInfo` | High
-30 | File | `/goform/setBlackRule` | High
-31 | File | `/goform/setMacFilter` | High
+24 | File | `/detailed.php` | High
+25 | File | `/DXR.axd` | Medium
+26 | File | `/endpoint/Add.php` | High
+27 | File | `/endpoint/delete.php` | High
+28 | File | `/etc/init.d/sshd_service` | High
+29 | File | `/fuel/sitevariables/delete/4` | High
+30 | File | `/goform/saveParentControlInfo` | High
+31 | File | `/goform/setBlackRule` | High
 32 | ... | ... | ...
 
-There are 268 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 274 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

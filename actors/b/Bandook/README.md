@@ -40,13 +40,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-36 | Path Traversal | High
-2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059 | CWE-94 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-250, CWE-264, CWE-266, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+4 | T1059 | CWE-94 | Argument Injection | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -56,45 +56,45 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/.vnc/sesman_${username}_passwd` | High
 2 | File | `/adfs/ls` | Medium
-3 | File | `/admin/sysmon.php` | High
-4 | File | `/api/content/posts/comments` | High
-5 | File | `/asms/classes/Master.php?f=delete_transaction` | High
-6 | File | `/bin/posix/src/ports/POSIX/OpENer` | High
-7 | File | `/cgi-bin/cstecgi.cgi` | High
-8 | File | `/cgi-bin/editBookmark` | High
-9 | File | `/cgi-bin/kerbynet` | High
-10 | File | `/cgi-bin/nas_sharing.cgi` | High
-11 | File | `/cgi-bin/supervisor/CloudSetup.cgi` | High
-12 | File | `/cgi-bin/wlogin.cgi` | High
-13 | File | `/cimom` | Low
-14 | File | `/classes/SystemSettings.php?f=update_settings` | High
-15 | File | `/debug/pprof` | Medium
-16 | File | `/domain/add` | Medium
-17 | File | `/etc/pki/pesign` | High
-18 | File | `/etc/sudoers` | Medium
-19 | File | `/goform/addressNat` | High
-20 | File | `/goform/aspForm` | High
-21 | File | `/group1/uploa` | High
-22 | File | `/Home/GetAttachment` | High
-23 | File | `/include/menu_v.inc.php` | High
-24 | File | `/index.php/weblinks-categories` | High
-25 | File | `/index.php?action=profile;u=2;area=showalerts;do=remove` | High
-26 | File | `/librarian/lab.php` | High
-27 | File | `/login/` | Low
-28 | File | `/main?cmd=invalid_browser` | High
-29 | File | `/me` | Low
-30 | File | `/modules/projects/vw_files.php` | High
-31 | File | `/omos/admin/?page=user/list` | High
-32 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-33 | File | `/out.php` | Medium
-34 | File | `/panel/fields/add` | High
-35 | File | `/patient/settings.php` | High
-36 | File | `/plain` | Low
+3 | File | `/admin/settings/index.php?page=accounts` | High
+4 | File | `/admin/sysmon.php` | High
+5 | File | `/api/content/posts/comments` | High
+6 | File | `/asms/classes/Master.php?f=delete_transaction` | High
+7 | File | `/bin/posix/src/ports/POSIX/OpENer` | High
+8 | File | `/cgi-bin/cstecgi.cgi` | High
+9 | File | `/cgi-bin/editBookmark` | High
+10 | File | `/cgi-bin/kerbynet` | High
+11 | File | `/cgi-bin/nas_sharing.cgi` | High
+12 | File | `/cgi-bin/supervisor/CloudSetup.cgi` | High
+13 | File | `/cgi-bin/wlogin.cgi` | High
+14 | File | `/cimom` | Low
+15 | File | `/classes/SystemSettings.php?f=update_settings` | High
+16 | File | `/debug/pprof` | Medium
+17 | File | `/domain/add` | Medium
+18 | File | `/etc/pki/pesign` | High
+19 | File | `/etc/sudoers` | Medium
+20 | File | `/goform/addressNat` | High
+21 | File | `/goform/aspForm` | High
+22 | File | `/group1/uploa` | High
+23 | File | `/Home/GetAttachment` | High
+24 | File | `/include/menu_v.inc.php` | High
+25 | File | `/index.php/weblinks-categories` | High
+26 | File | `/index.php?action=profile;u=2;area=showalerts;do=remove` | High
+27 | File | `/librarian/lab.php` | High
+28 | File | `/login/` | Low
+29 | File | `/main?cmd=invalid_browser` | High
+30 | File | `/me` | Low
+31 | File | `/modules/projects/vw_files.php` | High
+32 | File | `/omos/admin/?page=user/list` | High
+33 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+34 | File | `/out.php` | Medium
+35 | File | `/panel/fields/add` | High
+36 | File | `/patient/settings.php` | High
 37 | File | `/proc/*/cmdline"` | High
 38 | File | `/proc/pid/syscall` | High
 39 | ... | ... | ...
 
-There are 339 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 335 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

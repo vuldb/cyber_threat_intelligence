@@ -42,7 +42,8 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-22 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
-4 | ... | ... | ... | ...
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
 There are 14 more TTP items available. Please use our online service to access the data.
 
@@ -55,18 +56,19 @@ ID | Type | Indicator | Confidence
 1 | File | `/.ssh/authorized_keys2` | High
 2 | File | `/admin/login.php` | High
 3 | File | `/anony/mjpg.cgi` | High
-4 | File | `/forms/doLogin` | High
-5 | File | `/html/device-id` | High
-6 | File | `/uncpath/` | Medium
-7 | File | `a2dp_aac_decoder.cc` | High
-8 | File | `actbar3.ocx` | Medium
-9 | File | `adclick.php` | Medium
-10 | File | `admin.jcomments.php` | High
-11 | File | `admin.php` | Medium
-12 | File | `admin/users/add` | High
-13 | ... | ... | ...
+4 | File | `/etc/shadow.sample` | High
+5 | File | `/forms/doLogin` | High
+6 | File | `/html/device-id` | High
+7 | File | `/uncpath/` | Medium
+8 | File | `a2dp_aac_decoder.cc` | High
+9 | File | `actbar3.ocx` | Medium
+10 | File | `adclick.php` | Medium
+11 | File | `admin.jcomments.php` | High
+12 | File | `admin.php` | Medium
+13 | File | `admin/users/add` | High
+14 | ... | ... | ...
 
-There are 104 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 107 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

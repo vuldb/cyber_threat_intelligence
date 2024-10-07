@@ -54,22 +54,24 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.htaccess` | Medium
 2 | File | `/ajax-files/followBoard.php` | High
-3 | File | `/DATAREPORTS` | Medium
-4 | File | `/etc/gsissh/sshd_config` | High
-5 | File | `/Forms/` | Low
-6 | File | `/forum/away.php` | High
-7 | File | `/getcfg.php` | Medium
-8 | File | `/maint/modules/home/index.php` | High
-9 | File | `/uncpath/` | Medium
-10 | File | `account.asp` | Medium
-11 | File | `addentry.php` | Medium
-12 | File | `admin/conf_users_edit.php` | High
-13 | File | `api.php` | Low
-14 | File | `awstats.pl` | Medium
-15 | File | `carbon/resources/add_collection_ajaxprocessor.jsp` | High
-16 | ... | ... | ...
+3 | File | `/controllers/add_client.php` | High
+4 | File | `/DATAREPORTS` | Medium
+5 | File | `/etc/gsissh/sshd_config` | High
+6 | File | `/Forms/` | Low
+7 | File | `/forum/away.php` | High
+8 | File | `/getcfg.php` | Medium
+9 | File | `/maint/modules/home/index.php` | High
+10 | File | `/uncpath/` | Medium
+11 | File | `account.asp` | Medium
+12 | File | `addentry.php` | Medium
+13 | File | `admin/conf_users_edit.php` | High
+14 | File | `api.php` | Low
+15 | File | `attendance-info.php` | High
+16 | File | `awstats.pl` | Medium
+17 | File | `carbon/resources/add_collection_ajaxprocessor.jsp` | High
+18 | ... | ... | ...
 
-There are 127 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 142 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

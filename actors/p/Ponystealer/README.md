@@ -80,27 +80,28 @@ ID | Type | Indicator | Confidence
 19 | File | `/ci_spms/admin/search/searching/` | High
 20 | File | `/classes/Master.php?f=delete_appointment` | High
 21 | File | `/classes/Master.php?f=delete_train` | High
-22 | File | `/Content/Template/root/reverse-shell.aspx` | High
-23 | File | `/ctcprotocol/Protocol` | High
-24 | File | `/dashboard/menu-list.php` | High
-25 | File | `/debug/pprof` | Medium
-26 | File | `/DXR.axd` | Medium
-27 | File | `/ebics-server/ebics.aspx` | High
-28 | File | `/EXCU_SHELL` | Medium
-29 | File | `/ffos/classes/Master.php?f=save_category` | High
-30 | File | `/forum/away.php` | High
-31 | File | `/goform/modifyDhcpRule` | High
-32 | File | `/goform/ModifyPppAuthWhiteMac` | High
-33 | File | `/goform/net\_Web\_get_value` | High
-34 | File | `/goform/setStaOffline` | High
-35 | File | `/goforms/rlminfo` | High
-36 | File | `/GponForm/usb_restore_Form?script/` | High
-37 | File | `/group1/uploa` | High
-38 | File | `/hedwig.cgi` | Medium
-39 | File | `/HNAP1` | Low
-40 | ... | ... | ...
+22 | File | `/ctcprotocol/Protocol` | High
+23 | File | `/dashboard/menu-list.php` | High
+24 | File | `/debug/pprof` | Medium
+25 | File | `/detailed.php` | High
+26 | File | `/dist/index.js` | High
+27 | File | `/DXR.axd` | Medium
+28 | File | `/ebics-server/ebics.aspx` | High
+29 | File | `/EXCU_SHELL` | Medium
+30 | File | `/ffos/classes/Master.php?f=save_category` | High
+31 | File | `/forum/away.php` | High
+32 | File | `/goform/form2systime.cgi` | High
+33 | File | `/goform/modifyDhcpRule` | High
+34 | File | `/goform/ModifyPppAuthWhiteMac` | High
+35 | File | `/goform/net\_Web\_get_value` | High
+36 | File | `/goform/setStaOffline` | High
+37 | File | `/goform/WizardHandle` | High
+38 | File | `/goforms/rlminfo` | High
+39 | File | `/GponForm/usb_restore_Form?script/` | High
+40 | File | `/group1/uploa` | High
+41 | ... | ... | ...
 
-There are 342 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 353 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

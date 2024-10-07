@@ -14,6 +14,7 @@ The following _campaigns_ are known and can be associated with Tortilla:
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Tortilla:
 
+* [RU](https://vuldb.com/?country.ru)
 * [IT](https://vuldb.com/?country.it)
 
 ## IOC - Indicator of Compromise
@@ -33,6 +34,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1068 | CWE-269 | Execution with Unnecessary Privileges | High
+2 | T1204.001 | CWE-601 | Open Redirect | High
 
 ## References
 

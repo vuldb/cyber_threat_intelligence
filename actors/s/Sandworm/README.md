@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Sandworm:
 
 * [VN](https://vuldb.com/?country.vn)
-* [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 19 more country items available. Please use our online service to access the data.
+There are 5 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -60,15 +60,15 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-37, CWE-425 | Path Traversal | High
-2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-264, CWE-269, CWE-273, CWE-284 | Execution with Unnecessary Privileges | High
-6 | T1078.001 | CWE-259 | Use of Hard-coded Password | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-25, CWE-35, CWE-41, CWE-425 | Path Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+4 | T1059 | CWE-94 | Argument Injection | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | T1068 | CWE-250, CWE-264, CWE-266, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 7 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 25 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -76,67 +76,68 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/add_ikev2.php` | High
-2 | File | `/admin/admin-update-employee.php` | High
-3 | File | `/admin/ajax.php?action=login` | High
-4 | File | `/admin/category_save.php` | High
-5 | File | `/admin/cmsTemplate/replace` | High
-6 | File | `/admin/cmsTemplate/savePlaceMetaData` | High
-7 | File | `/admin/config_time_sync.php` | High
-8 | File | `/admin/emp-profile-avatar.php` | High
-9 | File | `/admin/index.php?page=manage_lot` | High
-10 | File | `/admin/index2.html` | High
-11 | File | `/admin/list_ipAddressPolicy.php` | High
-12 | File | `/admin/manage_model.php` | High
-13 | File | `/admin/manage_station.php` | High
-14 | File | `/admin/manage_user.php` | High
-15 | File | `/admin/pages/list` | High
-16 | File | `/admin/print_barcode.php` | High
-17 | File | `/admin/quizquestion.php` | High
-18 | File | `/admin/sql` | Medium
-19 | File | `/admin/students/manage.php` | High
-20 | File | `/admin/subject.php` | High
-21 | File | `/admin/system.html` | High
-22 | File | `/admin/ueditor?action=catchimage` | High
-23 | File | `/admin/vpsApiData_deal.php?mudi=rev&nohrefStr=close` | High
-24 | File | `/adminPage/conf/reload` | High
-25 | File | `/ajax.php?action=login` | High
-26 | File | `/api/Common/uploadFile` | High
-27 | File | `/api/swaggerui/static` | High
-28 | File | `/api/user` | Medium
-29 | File | `/app/admin/widgets/edit.php` | High
-30 | File | `/application/index/controller/Icon.php` | High
-31 | File | `/AttendanceMonitoring/department/index.php` | High
-32 | File | `/bin/ate` | Medium
-33 | File | `/boaform/device_reset.cgi` | High
-34 | File | `/branch_viewmore.php` | High
-35 | File | `/cgi-bin/alexserv` | High
-36 | File | `/cgi-bin/cstecgi.cgi` | High
-37 | File | `/cgi-bin/cstecgi.cgi?action=save&setting` | High
-38 | File | `/cgi-bin/generateForm.cgi?formID=142` | High
-39 | File | `/cgi-bin/p1_ftpserver.php` | High
-40 | File | `/cgi-bin/photocenter_mgr.cgi` | High
-41 | File | `/cgi-bin/tosei_kikai.php` | High
-42 | File | `/classes/Master.php` | High
-43 | File | `/classes/Master.php?f=save_package` | High
-44 | File | `/classes/SystemSettings.php?f=update_settings` | High
-45 | File | `/contact.php` | Medium
-46 | File | `/dcim/console-ports/add` | High
-47 | File | `/dcim/power-ports/add/` | High
-48 | File | `/debug/pprof` | Medium
-49 | File | `/designation_viewmore.php` | High
-50 | File | `/detalheIdUra` | High
-51 | File | `/DXR.axd` | Medium
-52 | File | `/edit-subject.php` | High
-53 | File | `/edit_account.php` | High
-54 | File | `/endpoint/add-user.php` | High
-55 | File | `/endpoint/delete-account.php` | High
-56 | File | `/esm/qs.js` | Medium
-57 | File | `/etc/init.d/update_notifications.sh` | High
-58 | File | `/etc/postfix/sender_login` | High
-59 | ... | ... | ...
+1 | File | `/?page=tracks` | High
+2 | File | `/abcd/opac/php/otros_sitios.php` | High
+3 | File | `/admin/` | Low
+4 | File | `/admin/?setting-base.htm` | High
+5 | File | `/admin/aboutus.php` | High
+6 | File | `/Admin/add-admin.php` | High
+7 | File | `/admin/admin_log.php?clear=1` | High
+8 | File | `/admin/admin_widgets.php?action=install/widget=akismet` | High
+9 | File | `/admin/admin_widgets.php?action=remove/widget=Statistics` | High
+10 | File | `/admin/ajax.php?action=login` | High
+11 | File | `/admin/dialog/select_images_post.php` | High
+12 | File | `/admin/doAdminAction.php?act=addCate` | High
+13 | File | `/admin/doAdminAction.php?act=delCate&id=31` | High
+14 | File | `/admin/edit_manufacturer.php` | High
+15 | File | `/admin/index.php?r=banner%2Fbanner-create` | High
+16 | File | `/admin/login.php` | High
+17 | File | `/admin/robot.php` | High
+18 | File | `/admin/system.php` | High
+19 | File | `/admin/template/update` | High
+20 | File | `/admin/user/user-move-run.php` | High
+21 | File | `/admins/{adminId}` | High
+22 | File | `/ajax.php?action=delete_deductions` | High
+23 | File | `/ajax.php?action=save_category` | High
+24 | File | `/ajax/chpwd.php` | High
+25 | File | `/api/mob/instrucao/conta/destinatarios` | High
+26 | File | `/api /v3/auth` | High
+27 | File | `/apply/index.php` | High
+28 | File | `/boafrm/formSystemCheck` | High
+29 | File | `/buscar_integrada.php` | High
+30 | File | `/candidate/index.php` | High
+31 | File | `/cgi-bin/apkg_mgr.cgi` | High
+32 | File | `/cgi-bin/cstecgi.cgi` | High
+33 | File | `/cgi-bin/hd_config.cgi` | High
+34 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+35 | File | `/cgi-bin/s3.cgi` | High
+36 | File | `/cgi-bin/tosei_kikai.php` | High
+37 | File | `/cgi-bin/webfile_mgr.cgi` | High
+38 | File | `/classes/Master.php?f=delete_category` | High
+39 | File | `/classes/Master.php?f=delete_record` | High
+40 | File | `/classes/Master.php?f=save_package` | High
+41 | File | `/classes/SystemSettings.php?f=update_settings` | High
+42 | File | `/classes/Users.php?f=delete` | High
+43 | File | `/cloudstore/ecode/setup/ecology_dev.zip` | High
+44 | File | `/controllers/add_client.php` | High
+45 | File | `/controllers/add_user.php` | High
+46 | File | `/core/config-revisions` | High
+47 | File | `/core/config-revisions/` | High
+48 | File | `/core/tools/delete_place.php` | High
+49 | File | `/dcim/power-ports/add/` | High
+50 | File | `/deleteTicket.php` | High
+51 | File | `/detailed.php` | High
+52 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
+53 | File | `/dtale/chart-data/1` | High
+54 | File | `/ecommerce/admin/login.php` | High
+55 | File | `/edit1.php` | Medium
+56 | File | `/endpoint/add-bookmark.php` | High
+57 | File | `/endpoint/add-calorie.php` | High
+58 | File | `/endpoint/add-timesheet.php` | High
+59 | File | `/endpoint/delete-mark.php` | High
+60 | ... | ... | ...
 
-There are 512 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 523 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

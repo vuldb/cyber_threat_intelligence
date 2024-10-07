@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Cocos Islands Unknown:
 
 * [US](https://vuldb.com/?country.us)
-* [GB](https://vuldb.com/?country.gb)
 * [ES](https://vuldb.com/?country.es)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
 There are 18 more country items available. Please use our online service to access the data.
@@ -51,50 +51,54 @@ ID | Type | Indicator | Confidence
 1 | File | `.php.gif` | Medium
 2 | File | `/?Page=Node/OBJ=/System/DeviceFolder/DeviceFolder/DateTime/Action=Submit` | High
 3 | File | `/acms/admin/cargo_types/manage_cargo_type.php` | High
-4 | File | `/admin/add-services.php` | High
-5 | File | `/admin/ajax/avatar.php` | High
-6 | File | `/admin/edit-services.php` | High
-7 | File | `/admin/forgot-password.php` | High
-8 | File | `/admin/index.php` | High
-9 | File | `/admin/lab.php` | High
-10 | File | `/admin/login.php` | High
-11 | File | `/admin/payment.php` | High
-12 | File | `/admin/show.php` | High
-13 | File | `/backend/register.php` | High
-14 | File | `/boat/login.php` | High
-15 | File | `/clinic/disease_symptoms_view.php` | High
-16 | File | `/default.php?idx=17` | High
-17 | File | `/doctor/view-appointment-detail.php` | High
-18 | File | `/download` | Medium
-19 | File | `/edit-client-details.php` | High
-20 | File | `/env` | Low
-21 | File | `/forum/away.php` | High
-22 | File | `/index.php` | Medium
-23 | File | `/opt/bin/cli` | Medium
-24 | File | `/p` | Low
-25 | File | `/patient/doctors.php` | High
-26 | File | `/phpinventory/editcategory.php` | High
-27 | File | `/product-list.php` | High
-28 | File | `/public/login.htm` | High
-29 | File | `/server-info` | Medium
-30 | File | `/spip.php` | Medium
-31 | File | `/tmp` | Low
-32 | File | `/tmp/sysstat.run` | High
-33 | File | `/uncpath/` | Medium
-34 | File | `/updown/upload.cgi` | High
-35 | File | `/user/del.php` | High
-36 | File | `/websocket/exec` | High
-37 | File | `/web_cste/cgi-bin/product.ini` | High
-38 | File | `/wp-admin/admin-ajax.php` | High
-39 | File | `/_next` | Low
-40 | File | `123flashchat.php` | High
-41 | File | `act.php` | Low
-42 | File | `add_vhost.php` | High
-43 | File | `admin.php/pay` | High
-44 | File | `admin/bad.php` | High
-45 | ... | ... | ...
+4 | File | `/admin/aboutus.php` | High
+5 | File | `/admin/add-services.php` | High
+6 | File | `/admin/ajax/avatar.php` | High
+7 | File | `/admin/edit-services.php` | High
+8 | File | `/admin/forgot-password.php` | High
+9 | File | `/admin/index.php` | High
+10 | File | `/admin/lab.php` | High
+11 | File | `/admin/login.php` | High
+12 | File | `/admin/payment.php` | High
+13 | File | `/admin/show.php` | High
+14 | File | `/backend/register.php` | High
+15 | File | `/boat/login.php` | High
+16 | File | `/clinic/disease_symptoms_view.php` | High
+17 | File | `/config-manager/save` | High
+18 | File | `/dashboard/menu-list.php` | High
+19 | File | `/dashboard/table-list.php` | High
+20 | File | `/default.php?idx=17` | High
+21 | File | `/doctor/view-appointment-detail.php` | High
+22 | File | `/download` | Medium
+23 | File | `/downloadFile.php` | High
+24 | File | `/edit-client-details.php` | High
+25 | File | `/env` | Low
+26 | File | `/forum/away.php` | High
+27 | File | `/index.php` | Medium
+28 | File | `/member.php?action=chgpwdsubmit` | High
+29 | File | `/opt/bin/cli` | Medium
+30 | File | `/p` | Low
+31 | File | `/patient/doctors.php` | High
+32 | File | `/phpinventory/editcategory.php` | High
+33 | File | `/product-list.php` | High
+34 | File | `/public/login.htm` | High
+35 | File | `/server-info` | Medium
+36 | File | `/spip.php` | Medium
+37 | File | `/tmp` | Low
+38 | File | `/tmp/sysstat.run` | High
+39 | File | `/uncpath/` | Medium
+40 | File | `/updown/upload.cgi` | High
+41 | File | `/user/del.php` | High
+42 | File | `/websocket/exec` | High
+43 | File | `/web_cste/cgi-bin/product.ini` | High
+44 | File | `/wp-admin/admin-ajax.php` | High
+45 | File | `/_next` | Low
+46 | File | `123flashchat.php` | High
+47 | File | `act.php` | Low
+48 | File | `add_vhost.php` | High
+49 | ... | ... | ...
 
-There are 388 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 430 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

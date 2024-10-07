@@ -52,14 +52,15 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin/config_MT.php?action=delete` | High
 3 | File | `/admin/inquiries/view_inquiry.php` | High
 4 | File | `/domains/list` | High
-5 | File | `/sbin` | Low
-6 | File | `/sbin/orthrus` | High
-7 | File | `/sbin/rtspd` | Medium
-8 | File | `/sysmanage/changelogo.php` | High
-9 | File | `/var/www/video/mp4ts` | High
-10 | ... | ... | ...
+5 | File | `/save_invoice.php` | High
+6 | File | `/sbin` | Low
+7 | File | `/sbin/orthrus` | High
+8 | File | `/sbin/rtspd` | Medium
+9 | File | `/sysmanage/changelogo.php` | High
+10 | File | `/v1/operador/` | High
+11 | ... | ... | ...
 
-There are 77 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 80 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -71,29 +71,28 @@ ID | Type | Indicator | Confidence
 17 | File | `/appConfig/userDB.json` | High
 18 | File | `/catcompany.php` | High
 19 | File | `/cgi-bin/` | Medium
-20 | File | `/cgi-bin/activate.cgi` | High
-21 | File | `/classes/Login.php` | High
-22 | File | `/classes/Master.php` | High
-23 | File | `/classes/Users.php` | High
-24 | File | `/common/run_cross_report.php` | High
-25 | File | `/dashboard/contact` | High
-26 | File | `/dbhcms/ext/news/ext.news.be.php` | High
-27 | File | `/dcim/sites/add/` | High
-28 | File | `/dev/ptpX` | Medium
-29 | File | `/etc/passwd` | Medium
-30 | File | `/file-manager/upload.php` | High
-31 | File | `/forum/away.php` | High
-32 | File | `/goform/WifiBasicSet` | High
-33 | File | `/hrm/employeeview.php` | High
-34 | File | `/inc/topBarNav.php` | High
-35 | File | `/index.php?case=table&act=add&table=archive&admin_dir=admin` | High
-36 | File | `/members/view_member.php` | High
-37 | File | `/mgm_dev_reboot.asp` | High
-38 | File | `/MicroStrategyWS/happyaxis.jsp` | High
-39 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-40 | ... | ... | ...
+20 | File | `/classes/Login.php` | High
+21 | File | `/classes/Master.php` | High
+22 | File | `/classes/Users.php` | High
+23 | File | `/common/run_cross_report.php` | High
+24 | File | `/dashboard/contact` | High
+25 | File | `/dbhcms/ext/news/ext.news.be.php` | High
+26 | File | `/dcim/sites/add/` | High
+27 | File | `/dev/ptpX` | Medium
+28 | File | `/etc/passwd` | Medium
+29 | File | `/file-manager/upload.php` | High
+30 | File | `/forum/away.php` | High
+31 | File | `/goform/WifiBasicSet` | High
+32 | File | `/hrm/employeeview.php` | High
+33 | File | `/inc/topBarNav.php` | High
+34 | File | `/index.php?case=table&act=add&table=archive&admin_dir=admin` | High
+35 | File | `/members/view_member.php` | High
+36 | File | `/mgm_dev_reboot.asp` | High
+37 | File | `/MicroStrategyWS/happyaxis.jsp` | High
+38 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+39 | ... | ... | ...
 
-There are 341 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 340 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

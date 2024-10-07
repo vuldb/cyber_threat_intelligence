@@ -39,7 +39,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | ... | ... | ... | ...
 
-There are 8 more TTP items available. Please use our online service to access the data.
+There are 9 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -47,14 +47,15 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/mgmt/tm/util/bash` | High
-2 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-3 | File | `acme_certificate_edit.php` | High
-4 | File | `auth.php` | Medium
-5 | File | `books.php` | Medium
-6 | ... | ... | ...
+1 | File | `/forum/away.php` | High
+2 | File | `/mgmt/tm/util/bash` | High
+3 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+4 | File | `acme_certificate_edit.php` | High
+5 | File | `admin/index.php` | High
+6 | File | `auth.php` | Medium
+7 | ... | ... | ...
 
-There are 40 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 46 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

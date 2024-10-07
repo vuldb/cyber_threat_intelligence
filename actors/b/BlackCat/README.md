@@ -120,10 +120,9 @@ ID | Type | Indicator | Confidence
 65 | File | `/my_photo_gallery/image.php` | High
 66 | File | `/news-portal-script/information.php` | High
 67 | File | `/patient/doctors.php` | High
-68 | File | `/php-sms/classes/Master.php?f=save_quote` | High
-69 | ... | ... | ...
+68 | ... | ... | ...
 
-There are 602 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 601 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -49,11 +49,11 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/DbXmlInfo.xml` | High
 2 | File | `/deviceIP` | Medium
-3 | File | `/git-prereceive-callback` | High
-4 | File | `/inc/HTTPClient.php` | High
+3 | File | `/foms/routers/place-order.php` | High
+4 | File | `/git-prereceive-callback` | High
 5 | ... | ... | ...
 
-There are 26 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 29 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

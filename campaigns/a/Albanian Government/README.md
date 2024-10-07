@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
-* [ES](https://vuldb.com/?country.es)
+* [PW](https://vuldb.com/?country.pw)
 * ...
 
 There are 15 more country items available. Please use our online service to access the data.
@@ -57,21 +57,22 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `//etc/RT2870STA.dat` | High
-2 | File | `/admin/maintenance/view_designation.php` | High
-3 | File | `/boafrm/formFilter` | High
-4 | File | `/classes/Master.php` | High
-5 | File | `/clinic/medical_records_view.php` | High
-6 | File | `/forum/away.php` | High
-7 | File | `/index.php` | Medium
-8 | File | `/mobileredir/openApp.jsp` | High
-9 | File | `/onlinecourse/` | High
-10 | File | `/register.php` | High
-11 | File | `/search` | Low
-12 | File | `/wp-admin/admin-ajax.php` | High
-13 | File | `active.log` | Medium
-14 | ... | ... | ...
+2 | File | `/admin/emp-profile-avatar.php` | High
+3 | File | `/admin/maintenance/view_designation.php` | High
+4 | File | `/boafrm/formFilter` | High
+5 | File | `/classes/Master.php` | High
+6 | File | `/classes/SystemSettings.php?f=update_settings` | High
+7 | File | `/clinic/medical_records_view.php` | High
+8 | File | `/forum/away.php` | High
+9 | File | `/index.php` | Medium
+10 | File | `/mobileredir/openApp.jsp` | High
+11 | File | `/onlinecourse/` | High
+12 | File | `/register.php` | High
+13 | File | `/search` | Low
+14 | File | `/wp-admin/admin-ajax.php` | High
+15 | ... | ... | ...
 
-There are 115 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 121 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

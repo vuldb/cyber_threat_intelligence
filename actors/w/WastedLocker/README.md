@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 14 more country items available. Please use our online service to access the data.
+There are 15 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -54,34 +54,34 @@ ID | Type | Indicator | Confidence
 3 | File | `/admin/admin_manage/delete` | High
 4 | File | `/admin/index.php` | High
 5 | File | `/admin/video/list` | High
-6 | File | `/bdswebui/assignusers/` | High
-7 | File | `/cgi-bin-sdb/` | High
-8 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-9 | File | `/dev/snd/seq` | Medium
-10 | File | `/dl/dl_sendmail.php` | High
-11 | File | `/etc/passwd` | Medium
-12 | File | `/etc/qci/answers` | High
-13 | File | `/forum/away.php` | High
-14 | File | `/function/booksave.php` | High
-15 | File | `/GetCSSashx/?CP=%2fwebconfig` | High
-16 | File | `/goform/SysToolChangePwd` | High
-17 | File | `/horde/util/go.php` | High
-18 | File | `/login.html` | Medium
-19 | File | `/manage_laundry.php` | High
-20 | File | `/proxy` | Low
-21 | File | `/romfile.cfg` | Medium
-22 | File | `/see_more_details.php` | High
-23 | File | `/so.php` | Low
-24 | File | `/SysInfo.htm` | Medium
-25 | File | `/tmp` | Low
-26 | File | `/uncpath/` | Medium
-27 | File | `/usr/local` | Medium
-28 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-29 | File | `actions.hsp` | Medium
-30 | File | `adclick.php` | Medium
+6 | File | `/ajax.php?action=update_account` | High
+7 | File | `/bdswebui/assignusers/` | High
+8 | File | `/cgi-bin-sdb/` | High
+9 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
+10 | File | `/dev/snd/seq` | Medium
+11 | File | `/dl/dl_sendmail.php` | High
+12 | File | `/ecommerce/admin/products/controller.php` | High
+13 | File | `/etc/passwd` | Medium
+14 | File | `/etc/qci/answers` | High
+15 | File | `/forum/away.php` | High
+16 | File | `/function/booksave.php` | High
+17 | File | `/GetCSSashx/?CP=%2fwebconfig` | High
+18 | File | `/goform/SysToolChangePwd` | High
+19 | File | `/horde/util/go.php` | High
+20 | File | `/login.html` | Medium
+21 | File | `/manage_laundry.php` | High
+22 | File | `/proxy` | Low
+23 | File | `/romfile.cfg` | Medium
+24 | File | `/see_more_details.php` | High
+25 | File | `/so.php` | Low
+26 | File | `/SysInfo.htm` | Medium
+27 | File | `/tmp` | Low
+28 | File | `/uncpath/` | Medium
+29 | File | `/usr/local` | Medium
+30 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
 31 | ... | ... | ...
 
-There are 267 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 264 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

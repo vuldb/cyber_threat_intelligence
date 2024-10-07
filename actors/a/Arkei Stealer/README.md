@@ -78,30 +78,30 @@ ID | Type | Indicator | Confidence
 27 | File | `/cgi-bin/luci;stok=/locale` | High
 28 | File | `/classes/Login.php` | High
 29 | File | `/classes/Master.php` | High
-30 | File | `/classes/Users.php` | High
-31 | File | `/common/run_cross_report.php` | High
-32 | File | `/dashboard/contact` | High
-33 | File | `/dbhcms/ext/news/ext.news.be.php` | High
-34 | File | `/dcim/sites/add/` | High
-35 | File | `/Default/Bd` | Medium
-36 | File | `/etc/passwd` | Medium
-37 | File | `/event/admin/?page=user/list` | High
-38 | File | `/file-manager/upload.php` | High
-39 | File | `/filemanager/upload/drop` | High
-40 | File | `/getcfg.php` | Medium
-41 | File | `/goform/WifiBasicSet` | High
-42 | File | `/hrm/employeeview.php` | High
-43 | File | `/inc/topBarNav.php` | High
-44 | File | `/index.php` | Medium
-45 | File | `/index.php?case=table&act=add&table=archive&admin_dir=admin` | High
-46 | File | `/labvantage/rc?command=page&page=SampleHistoricalList&_iframename=list&__crc=crc_1701669816260` | High
-47 | File | `/login.php` | Medium
-48 | File | `/manage_laundry.php` | High
-49 | File | `/members/view_member.php` | High
-50 | File | `/mgm_dev_reboot.asp` | High
+30 | File | `/classes/Master.php?f=delete_category` | High
+31 | File | `/classes/Users.php` | High
+32 | File | `/common/run_cross_report.php` | High
+33 | File | `/dashboard/contact` | High
+34 | File | `/dbhcms/ext/news/ext.news.be.php` | High
+35 | File | `/dcim/sites/add/` | High
+36 | File | `/Default/Bd` | Medium
+37 | File | `/etc/passwd` | Medium
+38 | File | `/event/admin/?page=user/list` | High
+39 | File | `/file-manager/upload.php` | High
+40 | File | `/filemanager/upload/drop` | High
+41 | File | `/getcfg.php` | Medium
+42 | File | `/goform/WifiBasicSet` | High
+43 | File | `/hrm/employeeview.php` | High
+44 | File | `/inc/topBarNav.php` | High
+45 | File | `/index.php` | Medium
+46 | File | `/index.php?case=table&act=add&table=archive&admin_dir=admin` | High
+47 | File | `/labvantage/rc?command=page&page=SampleHistoricalList&_iframename=list&__crc=crc_1701669816260` | High
+48 | File | `/login.php` | Medium
+49 | File | `/manage_laundry.php` | High
+50 | File | `/members/view_member.php` | High
 51 | ... | ... | ...
 
-There are 441 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 443 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

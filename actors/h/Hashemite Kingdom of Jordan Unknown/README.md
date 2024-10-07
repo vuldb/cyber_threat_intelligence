@@ -85,8 +85,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1059 | CWE-94 | Argument Injection | High
-2 | T1068 | CWE-269 | Execution with Unnecessary Privileges | High
-3 | T1505 | CWE-89 | SQL Injection | High
+2 | T1059.007 | CWE-79 | Cross Site Scripting | High
+3 | T1068 | CWE-269 | Execution with Unnecessary Privileges | High
+4 | ... | ... | ... | ...
+
+There are 2 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -94,9 +97,12 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | Argument | `filter_order_Dir/cat/filter_letter` | High
-2 | Argument | `quesList` | Medium
-3 | Network Port | `tcp/3389 (rdp)` | High
+1 | File | `dji_sys` | Low
+2 | Argument | `filter_order_Dir/cat/filter_letter` | High
+3 | Argument | `loginname` | Medium
+4 | ... | ... | ...
+
+There are 2 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

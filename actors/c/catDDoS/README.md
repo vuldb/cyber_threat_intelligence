@@ -50,13 +50,14 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/advanced-tools/nova/bin/netwatch` | High
-2 | File | `/classes/Master.php` | High
-3 | File | `/forum/away.php` | High
-4 | File | `/proc/iomem` | Medium
-5 | File | `/spip.php` | Medium
-6 | File | `/uncpath/` | Medium
-7 | File | `admin/dashboard.php` | High
-8 | ... | ... | ...
+2 | File | `/arcgis/rest/services` | High
+3 | File | `/classes/Master.php` | High
+4 | File | `/forum/away.php` | High
+5 | File | `/proc/iomem` | Medium
+6 | File | `/spip.php` | Medium
+7 | File | `/uncpath/` | Medium
+8 | File | `admin/dashboard.php` | High
+9 | ... | ... | ...
 
 There are 61 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 

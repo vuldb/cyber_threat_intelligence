@@ -123,7 +123,7 @@ ID | Type | Indicator | Confidence
 78 | File | `/cwms/classes/Master.php?f=save_contact` | High
 79 | ... | ... | ...
 
-There are 693 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 695 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

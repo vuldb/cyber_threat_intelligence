@@ -14,8 +14,8 @@ The following _campaigns_ are known and can be associated with Water Sigbin:
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Water Sigbin:
 
-* [FR](https://vuldb.com/?country.fr)
 * [US](https://vuldb.com/?country.us)
+* [FR](https://vuldb.com/?country.fr)
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
@@ -45,7 +45,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1068 | CWE-269 | Execution with Unnecessary Privileges | High
 4 | ... | ... | ... | ...
 
-There are 3 more TTP items available. Please use our online service to access the data.
+There are 4 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -61,7 +61,7 @@ ID | Type | Indicator | Confidence
 6 | File | `/see_more_details.php` | High
 7 | ... | ... | ...
 
-There are 45 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 48 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

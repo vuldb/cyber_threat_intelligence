@@ -56,27 +56,28 @@ ID | Type | Indicator | Confidence
 4 | File | `/adminPage/conf/reload` | High
 5 | File | `/api/baskets/{name}` | High
 6 | File | `/api/v2/cli/commands` | High
-7 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
-8 | File | `/DXR.axd` | Medium
-9 | File | `/forum/away.php` | High
-10 | File | `/log/decodmail.php` | High
-11 | File | `/mfsNotice/page` | High
-12 | File | `/mgmt/tm/util/bash` | High
-13 | File | `/novel/bookSetting/list` | High
-14 | File | `/novel/userFeedback/list` | High
-15 | File | `/out.php` | Medium
-16 | File | `/owa/auth/logon.aspx` | High
-17 | File | `/phppath/php` | Medium
-18 | File | `/register.php` | High
-19 | File | `/spip.php` | Medium
-20 | File | `/systemrw/` | Medium
-21 | File | `/ueditor/net/controller.ashx?action=catchimage` | High
-22 | File | `/uncpath/` | Medium
-23 | File | `/x_portal_assemble_surface/jaxrs/portal/list?v=8.2.3-4-43f4fe3` | High
-24 | File | `/zm/index.php` | High
-25 | ... | ... | ...
+7 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+8 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
+9 | File | `/DXR.axd` | Medium
+10 | File | `/forum/away.php` | High
+11 | File | `/index/ajax/lang` | High
+12 | File | `/log/decodmail.php` | High
+13 | File | `/mfsNotice/page` | High
+14 | File | `/mgmt/tm/util/bash` | High
+15 | File | `/novel/bookSetting/list` | High
+16 | File | `/novel/userFeedback/list` | High
+17 | File | `/out.php` | Medium
+18 | File | `/owa/auth/logon.aspx` | High
+19 | File | `/phppath/php` | Medium
+20 | File | `/register.php` | High
+21 | File | `/spip.php` | Medium
+22 | File | `/systemrw/` | Medium
+23 | File | `/ueditor/net/controller.ashx?action=catchimage` | High
+24 | File | `/uncpath/` | Medium
+25 | File | `/usr/bin/pkexec` | High
+26 | ... | ... | ...
 
-There are 208 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 217 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -59,21 +59,23 @@ ID | Type | Indicator | Confidence
 12 | File | `/api/v1/attack` | High
 13 | File | `/apply.cgi` | Medium
 14 | File | `/blog/edit` | Medium
-15 | File | `/cgi-bin/p1_ftpserver.php` | High
-16 | File | `/clients/listclients.php` | High
-17 | File | `/common/run_cross_report.php` | High
-18 | File | `/common/user_profile.php` | High
-19 | File | `/Employee/edit-profile.php` | High
-20 | File | `/etc/gsissh/sshd_config` | High
-21 | File | `/etc/shadow` | Medium
-22 | File | `/goForm/aspForm` | High
-23 | File | `/goform/delFileName` | High
-24 | File | `/goform/exeCommand` | High
-25 | File | `/goform/setcfm` | High
-26 | File | `/goform/setsambacfg` | High
-27 | ... | ... | ...
+15 | File | `/cgi-bin/hd_config.cgi` | High
+16 | File | `/cgi-bin/p1_ftpserver.php` | High
+17 | File | `/cgi-bin/webfile_mgr.cgi` | High
+18 | File | `/classes/Master.php?f=delete_record` | High
+19 | File | `/classes/SystemSettings.php?f=update_settings` | High
+20 | File | `/clients/listclients.php` | High
+21 | File | `/common/run_cross_report.php` | High
+22 | File | `/common/user_profile.php` | High
+23 | File | `/Employee/edit-profile.php` | High
+24 | File | `/endpoint/update-bookmark.php` | High
+25 | File | `/etc/gsissh/sshd_config` | High
+26 | File | `/etc/shadow` | Medium
+27 | File | `/goForm/aspForm` | High
+28 | File | `/goform/delFileName` | High
+29 | ... | ... | ...
 
-There are 227 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 241 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

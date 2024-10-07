@@ -19,7 +19,10 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [46.19.143.153](https://vuldb.com/?ip.46.19.143.153) | greiatfamily.world | - | High
 2 | [51.91.35.147](https://vuldb.com/?ip.51.91.35.147) | ip147.ip-51-91-35.eu | - | High
-3 | [142.11.212.185](https://vuldb.com/?ip.142.11.212.185) | hwsrv-1240301.hostwindsdns.com | - | High
+3 | [51.161.207.175](https://vuldb.com/?ip.51.161.207.175) | - | - | High
+4 | ... | ... | ... | ...
+
+There are 2 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -40,12 +43,12 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `inc/config.php` | High
-2 | File | `show.php` | Medium
-3 | Argument | `basePath` | Medium
+1 | File | `/?r=email/api/mark&op=delFromSend` | High
+2 | File | `inc/config.php` | High
+3 | File | `show.php` | Medium
 4 | ... | ... | ...
 
-There are 1 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 3 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

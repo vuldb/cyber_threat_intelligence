@@ -19,9 +19,9 @@ There are 1 more campaign items available. Please use our online service to acce
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with TA551:
 
-* [RU](https://vuldb.com/?country.ru)
 * [DE](https://vuldb.com/?country.de)
 * [US](https://vuldb.com/?country.us)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
 There are 12 more country items available. Please use our online service to access the data.
@@ -174,7 +174,7 @@ ID | Type | Indicator | Confidence
 101 | File | `/cgi-bin/mainfunction.cgi` | High
 102 | ... | ... | ...
 
-There are 898 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 905 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

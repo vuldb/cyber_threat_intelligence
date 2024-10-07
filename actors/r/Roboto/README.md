@@ -8,8 +8,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Roboto:
 
-* [RU](https://vuldb.com/?country.ru)
 * [US](https://vuldb.com/?country.us)
+* [RU](https://vuldb.com/?country.ru)
 * [DE](https://vuldb.com/?country.de)
 * ...
 
@@ -34,9 +34,9 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-425 | Path Traversal | High
+1 | T1006 | CWE-22, CWE-425 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-3 | T1059.007 | CWE-79 | Cross Site Scripting | High
+3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
 There are 9 more TTP items available. Please use our online service to access the data.
@@ -50,11 +50,14 @@ ID | Type | Indicator | Confidence
 1 | File | `.htaccess` | Medium
 2 | File | `/Admin/createClass.php` | High
 3 | File | `/balance/service/list` | High
-4 | File | `/debug/pprof` | Medium
-5 | File | `/user/s.php` | Medium
-6 | ... | ... | ...
+4 | File | `/classes/SystemSettings.php?f=update_settings` | High
+5 | File | `/debug/pprof` | Medium
+6 | File | `/foms/routers/place-order.php` | High
+7 | File | `/model/viewProduct.php` | High
+8 | File | `/spip.php` | Medium
+9 | ... | ... | ...
 
-There are 43 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 62 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

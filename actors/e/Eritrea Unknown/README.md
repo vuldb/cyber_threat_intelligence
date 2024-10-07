@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Eritrea Unknown:
 
 * [US](https://vuldb.com/?country.us)
-* [GB](https://vuldb.com/?country.gb)
 * [ES](https://vuldb.com/?country.es)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
 There are 17 more country items available. Please use our online service to access the data.
@@ -64,40 +64,40 @@ ID | Type | Indicator | Confidence
 14 | File | `/backend/register.php` | High
 15 | File | `/boat/login.php` | High
 16 | File | `/clinic/disease_symptoms_view.php` | High
-17 | File | `/dashboard/menu-list.php` | High
-18 | File | `/dashboard/table-list.php` | High
-19 | File | `/default.php?idx=17` | High
-20 | File | `/doctor/view-appointment-detail.php` | High
-21 | File | `/download` | Medium
-22 | File | `/downloadFile.php` | High
-23 | File | `/edit-client-details.php` | High
-24 | File | `/env` | Low
-25 | File | `/forum/away.php` | High
-26 | File | `/index.php` | Medium
-27 | File | `/member.php?action=chgpwdsubmit` | High
-28 | File | `/opt/bin/cli` | Medium
-29 | File | `/p` | Low
-30 | File | `/patient/doctors.php` | High
-31 | File | `/phpinventory/editcategory.php` | High
-32 | File | `/product-list.php` | High
-33 | File | `/spip.php` | Medium
-34 | File | `/uncpath/` | Medium
-35 | File | `/updown/upload.cgi` | High
-36 | File | `/user/del.php` | High
-37 | File | `/web_cste/cgi-bin/product.ini` | High
-38 | File | `/wp-admin/admin-ajax.php` | High
-39 | File | `/_next` | Low
-40 | File | `123flashchat.php` | High
-41 | File | `act.php` | Low
-42 | File | `admin.php/pay` | High
-43 | File | `admin/bad.php` | High
-44 | File | `admin/index.php` | High
-45 | File | `admin/index.php/user/del/1` | High
-46 | File | `admin/index.php?id=themes&action=edit_chunk` | High
-47 | File | `admin/products/controller.php?action=add` | High
+17 | File | `/config-manager/save` | High
+18 | File | `/dashboard/menu-list.php` | High
+19 | File | `/dashboard/table-list.php` | High
+20 | File | `/default.php?idx=17` | High
+21 | File | `/doctor/view-appointment-detail.php` | High
+22 | File | `/download` | Medium
+23 | File | `/downloadFile.php` | High
+24 | File | `/edit-client-details.php` | High
+25 | File | `/env` | Low
+26 | File | `/forum/away.php` | High
+27 | File | `/index.php` | Medium
+28 | File | `/member.php?action=chgpwdsubmit` | High
+29 | File | `/opt/bin/cli` | Medium
+30 | File | `/p` | Low
+31 | File | `/patient/doctors.php` | High
+32 | File | `/phpinventory/editcategory.php` | High
+33 | File | `/product-list.php` | High
+34 | File | `/spip.php` | Medium
+35 | File | `/uncpath/` | Medium
+36 | File | `/updown/upload.cgi` | High
+37 | File | `/user/del.php` | High
+38 | File | `/web_cste/cgi-bin/product.ini` | High
+39 | File | `/wp-admin/admin-ajax.php` | High
+40 | File | `/_next` | Low
+41 | File | `123flashchat.php` | High
+42 | File | `act.php` | Low
+43 | File | `admin.php/pay` | High
+44 | File | `admin/bad.php` | High
+45 | File | `admin/index.php` | High
+46 | File | `admin/index.php/user/del/1` | High
+47 | File | `admin/index.php?id=themes&action=edit_chunk` | High
 48 | ... | ... | ...
 
-There are 413 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 415 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [VN](https://vuldb.com/?country.vn)
 * [US](https://vuldb.com/?country.us)
-* [CN](https://vuldb.com/?country.cn)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
 There are 7 more country items available. Please use our online service to access the data.
@@ -62,8 +62,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
-7 | ... | ... | ... | ...
+6 | ... | ... | ... | ...
 
 There are 22 more TTP items available. Please use our online service to access the data.
 
@@ -73,47 +72,50 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/index3.php` | High
-2 | File | `/admin/login.php` | High
-3 | File | `/admin/subject.php` | High
-4 | File | `/adminpanel/admin/query/addCourseExe.php` | High
-5 | File | `/apiadmin/upload/attach` | High
-6 | File | `/author_posts.php` | High
-7 | File | `/calendar/minimizer/index.php` | High
-8 | File | `/catalog/admin/categories.php?cPath=&action=new_product` | High
-9 | File | `/category.php` | High
-10 | File | `/cgi-bin/cstecgi.cgi` | High
-11 | File | `/cgi-bin/nas_sharing.cgi` | High
-12 | File | `/cgi-bin/wlogin.cgi` | High
-13 | File | `/classes/SystemSettings.php?f=update_settings` | High
-14 | File | `/control/register_case.php` | High
-15 | File | `/core/conditions/AbstractWrapper.java` | High
-16 | File | `/core/tools/update_menu.php` | High
-17 | File | `/dayrui/My/Config/Install.txt` | High
-18 | File | `/devinfo` | Medium
-19 | File | `/DXR.axd` | Medium
-20 | File | `/edit-task.php` | High
-21 | File | `/edit.php` | Medium
-22 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-23 | File | `/forum/away.php` | High
-24 | File | `/goform/` | Medium
-25 | File | `/goform/setcfm` | High
-26 | File | `/goform/SysToolReboot` | High
-27 | File | `/include/file.php` | High
-28 | File | `/index.php?app=main&func=passport&action=login` | High
-29 | File | `/index.php?menu=asterisk_cli` | High
-30 | File | `/install/` | Medium
-31 | File | `/ipms/imageConvert/image` | High
-32 | File | `/login` | Low
-33 | File | `/main/webservices/additional_webservices.php` | High
-34 | File | `/ndmComponents.js` | High
-35 | File | `/newdriver.php` | High
-36 | File | `/newvehicle.php` | High
-37 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
-38 | File | `/out.php` | Medium
-39 | ... | ... | ...
+1 | File | `/3/E_bak5.1/upload/eginfo.php` | High
+2 | File | `/admin/admin_group.php?mode=delete/group_id=3` | High
+3 | File | `/admin/index3.php` | High
+4 | File | `/admin/login.php` | High
+5 | File | `/admin/manage_user.php` | High
+6 | File | `/admin/subject.php` | High
+7 | File | `/adminpanel/admin/query/addCourseExe.php` | High
+8 | File | `/api/system/dept/tree?sort=parentId%2Casc&sort=sort%2Casc` | High
+9 | File | `/apiadmin/upload/attach` | High
+10 | File | `/author_posts.php` | High
+11 | File | `/bin/boa` | Medium
+12 | File | `/calendar/minimizer/index.php` | High
+13 | File | `/catalog/admin/categories.php?cPath=&action=new_product` | High
+14 | File | `/category.php` | High
+15 | File | `/cgi-bin/cstecgi.cgi` | High
+16 | File | `/cgi-bin/hd_config.cgi` | High
+17 | File | `/cgi-bin/nas_sharing.cgi` | High
+18 | File | `/cgi-bin/webfile_mgr.cgi` | High
+19 | File | `/cgi-bin/wlogin.cgi` | High
+20 | File | `/classes/SystemSettings.php?f=update_settings` | High
+21 | File | `/control/register_case.php` | High
+22 | File | `/devinfo` | Medium
+23 | File | `/DXR.axd` | Medium
+24 | File | `/ecommerce/popup_Item.php` | High
+25 | File | `/edit-task.php` | High
+26 | File | `/edit.php` | Medium
+27 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+28 | File | `/endpoint/delete-bookmark.php` | High
+29 | File | `/forum/away.php` | High
+30 | File | `/goform/` | Medium
+31 | File | `/goform/saveParentControlInfo` | High
+32 | File | `/goform/setcfm` | High
+33 | File | `/goform/SysToolReboot` | High
+34 | File | `/h.php/general/config?ref=addtabs` | High
+35 | File | `/includes/fileReceive.php` | High
+36 | File | `/index.php?action=editManager` | High
+37 | File | `/index.php?app=main&func=passport&action=login` | High
+38 | File | `/Interface/DevManage/VM.php` | High
+39 | File | `/ipms/imageConvert/image` | High
+40 | File | `/login` | Low
+41 | File | `/main/webservices/additional_webservices.php` | High
+42 | ... | ... | ...
 
-There are 332 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 365 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

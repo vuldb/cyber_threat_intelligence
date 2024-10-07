@@ -47,24 +47,24 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/api/deploy/upload` | High
-2 | File | `/api/deploy/upload /api/database/upload` | High
-3 | File | `/Employee/changepassword.php` | High
-4 | File | `/forum/away.php` | High
-5 | File | `/importexport.php` | High
-6 | File | `/index.php` | Medium
-7 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-8 | File | `/show_news.php` | High
-9 | File | `/version.js` | Medium
-10 | File | `/view/dhcp/dhcpConfig/dhcp_relay_commit.php` | High
-11 | File | `/view_payment.php` | High
-12 | File | `/view_single_result.php?vr=123321&vn=mirage` | High
-13 | File | `adclick.php` | Medium
-14 | File | `addtocart.asp` | High
-15 | File | `admin/adm/test.php` | High
+1 | File | `/admin/dialog/select_images_post.php` | High
+2 | File | `/api/deploy/upload` | High
+3 | File | `/api/deploy/upload /api/database/upload` | High
+4 | File | `/Employee/changepassword.php` | High
+5 | File | `/forum/away.php` | High
+6 | File | `/importexport.php` | High
+7 | File | `/index.php` | Medium
+8 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+9 | File | `/show_news.php` | High
+10 | File | `/version.js` | Medium
+11 | File | `/view/dhcp/dhcpConfig/dhcp_relay_commit.php` | High
+12 | File | `/view_payment.php` | High
+13 | File | `/view_single_result.php?vr=123321&vn=mirage` | High
+14 | File | `adclick.php` | Medium
+15 | File | `addtocart.asp` | High
 16 | ... | ... | ...
 
-There are 128 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 132 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

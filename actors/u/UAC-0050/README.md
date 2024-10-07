@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [LA](https://vuldb.com/?country.la)
 * ...
 
-There are 18 more country items available. Please use our online service to access the data.
+There are 19 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -73,45 +73,56 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
 2 | File | `/.pomerium` | Medium
-3 | File | `/admin/add_ikev2.php` | High
-4 | File | `/admin/ajax.php?action=delete_user` | High
-5 | File | `/admin/category_save.php` | High
-6 | File | `/Admin/changepassword.php` | High
-7 | File | `/admin/emp-profile-avatar.php` | High
-8 | File | `/admin/general-setting` | High
-9 | File | `/admin/index2.html` | High
-10 | File | `/admin/inquiries/view_inquiry.php` | High
-11 | File | `/admin/list_ipAddressPolicy.php` | High
-12 | File | `/admin/manage_model.php` | High
-13 | File | `/admin/manage_user.php` | High
-14 | File | `/admin/projects/{projectname}/skills/{skillname}/video` | High
-15 | File | `/admin/service` | High
-16 | File | `/admin/subject.php` | High
-17 | File | `/api/v1/custom_component` | High
-18 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-19 | File | `/catalog/all-products` | High
-20 | File | `/cgi-bin/cstecgi.cgi` | High
-21 | File | `/cgi-bin/nas_sharing.cgi` | High
-22 | File | `/classes/Master.php` | High
-23 | File | `/classes/Master.php?f=delete_category` | High
-24 | File | `/classes/Master.php?f=save_medicine` | High
-25 | File | `/classes/Users.php?f=delete` | High
-26 | File | `/DXR.axd` | Medium
-27 | File | `/edit-subject.php` | High
-28 | File | `/endpoint/add-user.php` | High
-29 | File | `/etc/postfix/sender_login` | High
-30 | File | `/etc/shadow` | Medium
-31 | File | `/forum/away.php` | High
-32 | File | `/goform/SetIpMacBind` | High
-33 | File | `/goform/SetSysTimeCfg` | High
-34 | File | `/goform/WifiExtraSet` | High
-35 | File | `/guestbook` | Medium
-36 | File | `/index.php` | Medium
-37 | File | `/index/ajax/lang` | High
-38 | File | `/js/player/dmplayer/dmku/?ac=edit` | High
-39 | ... | ... | ...
+3 | File | `/admin/?page=bike` | High
+4 | File | `/admin/?page=musics/manage_music` | High
+5 | File | `/admin/add_ikev2.php` | High
+6 | File | `/admin/ajax.php?action=delete_user` | High
+7 | File | `/admin/category_save.php` | High
+8 | File | `/Admin/changepassword.php` | High
+9 | File | `/admin/emp-profile-avatar.php` | High
+10 | File | `/admin/general-setting` | High
+11 | File | `/admin/index2.html` | High
+12 | File | `/admin/inquiries/view_inquiry.php` | High
+13 | File | `/admin/list_ipAddressPolicy.php` | High
+14 | File | `/admin/manage_model.php` | High
+15 | File | `/admin/manage_user.php` | High
+16 | File | `/admin/order.php` | High
+17 | File | `/admin/projects/{projectname}/skills/{skillname}/video` | High
+18 | File | `/admin/service` | High
+19 | File | `/admin/subject.php` | High
+20 | File | `/api/v1/custom_component` | High
+21 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+22 | File | `/catalog/all-products` | High
+23 | File | `/cgi-bin/cstecgi.cgi` | High
+24 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+25 | File | `/cgi-bin/nas_sharing.cgi` | High
+26 | File | `/classes/Master.php` | High
+27 | File | `/classes/Master.php?f=delete_category` | High
+28 | File | `/classes/Master.php?f=save_medicine` | High
+29 | File | `/classes/SystemSettings.php?f=update_settings` | High
+30 | File | `/classes/Users.php?f=delete` | High
+31 | File | `/devinfo` | Medium
+32 | File | `/downloadFile.php` | High
+33 | File | `/DXR.axd` | Medium
+34 | File | `/edit-subject.php` | High
+35 | File | `/endpoint/add-folder.php` | High
+36 | File | `/endpoint/add-user.php` | High
+37 | File | `/etc/postfix/sender_login` | High
+38 | File | `/etc/shadow` | Medium
+39 | File | `/file_manager/login.php` | High
+40 | File | `/film-rating.php` | High
+41 | File | `/foms/routers/place-order.php` | High
+42 | File | `/forum/away.php` | High
+43 | File | `/goform/SetIpMacBind` | High
+44 | File | `/goform/WifiExtraSet` | High
+45 | File | `/guestbook` | Medium
+46 | File | `/index.php` | Medium
+47 | File | `/index/ajax/lang` | High
+48 | File | `/js/player/dmplayer/dmku/?ac=edit` | High
+49 | File | `/labvantage/rc?command=page&page=SampleHistoricalList&_iframename=list&__crc=crc_1701669816260` | High
+50 | ... | ... | ...
 
-There are 339 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 435 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

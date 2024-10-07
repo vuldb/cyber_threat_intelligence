@@ -14,12 +14,12 @@ The following _campaigns_ are known and can be associated with SpyNote:
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with SpyNote:
 
-* [PT](https://vuldb.com/?country.pt)
-* [SV](https://vuldb.com/?country.sv)
 * [RU](https://vuldb.com/?country.ru)
+* [SV](https://vuldb.com/?country.sv)
+* [PT](https://vuldb.com/?country.pt)
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 15 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -33,12 +33,12 @@ ID | IP address | Hostname | Campaign | Confidence
 4 | [23.226.57.2](https://vuldb.com/?ip.23.226.57.2) | - | - | High
 5 | [37.120.141.140](https://vuldb.com/?ip.37.120.141.140) | - | - | High
 6 | [37.120.141.144](https://vuldb.com/?ip.37.120.141.144) | - | - | High
-7 | [45.130.151.211](https://vuldb.com/?ip.45.130.151.211) | server.com | - | High
-8 | [47.57.7.44](https://vuldb.com/?ip.47.57.7.44) | - | - | High
-9 | [47.57.184.164](https://vuldb.com/?ip.47.57.184.164) | - | - | High
+7 | [45.67.228.235](https://vuldb.com/?ip.45.67.228.235) | vm2817428.stark-industries.solutions | - | High
+8 | [45.130.151.211](https://vuldb.com/?ip.45.130.151.211) | server.com | - | High
+9 | [47.57.7.44](https://vuldb.com/?ip.47.57.7.44) | - | - | High
 10 | ... | ... | ... | ...
 
-There are 35 more IOC items available. Please use our online service to access the data.
+There are 37 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -119,29 +119,27 @@ ID | Type | Indicator | Confidence
 55 | File | `/change-language/de_DE` | High
 56 | File | `/classes/Master.php?f=delete_img` | High
 57 | File | `/classes/Master.php?f=delete_inquiry` | High
-58 | File | `/classes/Master.php?f=save_category` | High
-59 | File | `/classes/Master.php?f=save_inquiry` | High
-60 | File | `/classes/Users.php?f=save` | High
-61 | File | `/clientLogin` | Medium
-62 | File | `/core/tools/customblock.php` | High
-63 | File | `/cstecgi.cgi` | Medium
-64 | File | `/dashboard/Cinvoice/manage_invoice` | High
-65 | File | `/data/0/admin.txt` | High
-66 | File | `/dayrui/My/View/main.html` | High
-67 | File | `/debug/pprof` | Medium
-68 | File | `/Default/Bd` | Medium
-69 | File | `/diagnostic/login.php` | High
-70 | File | `/ecommerce/admin/user/controller.php?action=edit` | High
-71 | File | `/edituser.php` | High
-72 | File | `/endpoint/update-file.php` | High
-73 | File | `/feeds/post/publish` | High
-74 | File | `/gasmark/assets/myimages/oneWord.php` | High
-75 | File | `/goform/aspForm` | High
-76 | File | `/goForm/aspForm` | High
-77 | File | `/goform/execCommand` | High
-78 | ... | ... | ...
+58 | File | `/classes/Master.php?f=save_inquiry` | High
+59 | File | `/classes/Users.php?f=save` | High
+60 | File | `/clientLogin` | Medium
+61 | File | `/core/tools/customblock.php` | High
+62 | File | `/cstecgi.cgi` | Medium
+63 | File | `/dashboard/Cinvoice/manage_invoice` | High
+64 | File | `/data/0/admin.txt` | High
+65 | File | `/debug/pprof` | Medium
+66 | File | `/Default/Bd` | Medium
+67 | File | `/diagnostic/login.php` | High
+68 | File | `/ecommerce/admin/user/controller.php?action=edit` | High
+69 | File | `/edituser.php` | High
+70 | File | `/endpoint/update-file.php` | High
+71 | File | `/feeds/post/publish` | High
+72 | File | `/foms/routers/place-order.php` | High
+73 | File | `/gasmark/assets/myimages/oneWord.php` | High
+74 | File | `/goform/aspForm` | High
+75 | File | `/goForm/aspForm` | High
+76 | ... | ... | ...
 
-There are 683 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 668 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -162,6 +160,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://tria.ge/240525-tpmzgaab8v
 * https://twitter.com/ReBensk/status/1696207430030393749
 * https://urlhaus.abuse.ch/url/3124362/
+* https://urlhaus.abuse.ch/url/3136208/
 * https://www.cleafy.com/cleafy-labs/spynote-continues-to-attack-financial-institutions
 * https://www.threatfabric.com/blogs/spynote-rat-targeting-financial-institutions.html
 * https://www.virustotal.com/gui/file/0fb1e4edd3b9779a977d1987ead7978a44008deef70b0d92f3dc875ee5230371/detection

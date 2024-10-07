@@ -47,13 +47,14 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/ajax/openvpn/activate_ovpncfg.php` | High
-2 | File | `/cgi-bin/wlogin.cgi` | High
-3 | File | `/index.php` | Medium
-4 | File | `/uncpath/` | Medium
-5 | ... | ... | ...
+1 | File | `/admin/config_ISCGroupNoCache.php` | High
+2 | File | `/ajax/openvpn/activate_ovpncfg.php` | High
+3 | File | `/cgi-bin/wlogin.cgi` | High
+4 | File | `/index.php` | Medium
+5 | File | `/see_more_details.php` | High
+6 | ... | ... | ...
 
-There are 30 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 37 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

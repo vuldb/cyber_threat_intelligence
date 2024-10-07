@@ -74,7 +74,8 @@ ID | Type | Indicator | Confidence
 24 | File | `/philosophy/admin/user/controller.php?action=add` | High
 25 | File | `/secure/QueryComponent!Default.jspa` | High
 26 | File | `/service/upload` | High
-27 | ... | ... | ...
+27 | File | `/tmp/keepalived.data` | High
+28 | ... | ... | ...
 
 There are 232 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 

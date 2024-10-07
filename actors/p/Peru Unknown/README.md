@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 19 more country items available. Please use our online service to access the data.
+There are 22 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -186,7 +186,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1068 | CWE-250, CWE-264, CWE-266, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -195,56 +195,64 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/.pomerium` | Medium
-2 | File | `/admin/ajax.php?action=delete_user` | High
-3 | File | `/Admin/changepassword.php` | High
-4 | File | `/admin/court` | Medium
-5 | File | `/Admin/createClass.php` | High
-6 | File | `/admin/div_data/data` | High
-7 | File | `/admin/general-setting` | High
-8 | File | `/admin/inquiries/view_inquiry.php` | High
-9 | File | `/admin/maintenance/manage_brand.php` | High
-10 | File | `/admin/media_folders` | High
-11 | File | `/admin/memberOnline_deal.php?mudi=del&dataType=&dataID=6` | High
-12 | File | `/admin/orders/view_order.php` | High
-13 | File | `/admin/problem_judge.php` | High
-14 | File | `/admin/projects/{projectname}/skills/{skillname}/video` | High
-15 | File | `/admin/service` | High
-16 | File | `/ajax.php` | Medium
-17 | File | `/api/v1/custom_component` | High
-18 | File | `/api/wechat/app_auth` | High
-19 | File | `/AttendanceMonitoring/report/index.php` | High
-20 | File | `/authMonitCallcenter` | High
-21 | File | `/blog/blog.php` | High
-22 | File | `/cancel.php` | Medium
-23 | File | `/catalog/admin/categories.php?cPath=&action=new_product` | High
-24 | File | `/category.php` | High
-25 | File | `/cgi-bin/cstecgi.cgi` | High
-26 | File | `/cgi-bin/nas_sharing.cgi` | High
-27 | File | `/classes/Master.php` | High
-28 | File | `/classes/Master.php?f=delete_category` | High
-29 | File | `/classes/Master.php?f=log_employee` | High
-30 | File | `/classes/Master.php?f=save_medicine` | High
-31 | File | `/classes/Master.php?f=save_package` | High
-32 | File | `/classes/Users.php?f=delete` | High
-33 | File | `/classes/Users.php?f=save` | High
-34 | File | `/College/admin/teacher.php` | High
-35 | File | `/conf/app.conf` | High
-36 | File | `/control/register_case.php` | High
-37 | File | `/download` | Medium
-38 | File | `/DXR.axd` | Medium
-39 | File | `/etc/shadow` | Medium
-40 | File | `/file/upload/1` | High
-41 | File | `/forum/away.php` | High
-42 | File | `/goform/SetIpMacBind` | High
-43 | File | `/goform/VirtualSer` | High
-44 | File | `/goform/WifiExtraSet` | High
-45 | File | `/goform/wifiSSIDset` | High
-46 | File | `/guestbook` | Medium
-47 | File | `/index.php` | Medium
-48 | File | `/index.php?action=profile;u=2;area=showalerts;do=read` | High
-49 | ... | ... | ...
+2 | File | `/admin/?page=bike` | High
+3 | File | `/admin/?page=categories/view_category` | High
+4 | File | `/admin/?page=musics/manage_music` | High
+5 | File | `/admin/ajax.php?action=delete_user` | High
+6 | File | `/admin/court` | Medium
+7 | File | `/Admin/createClass.php` | High
+8 | File | `/admin/div_data/data` | High
+9 | File | `/admin/emp-profile-avatar.php` | High
+10 | File | `/admin/general-setting` | High
+11 | File | `/admin/inquiries/view_inquiry.php` | High
+12 | File | `/admin/maintenance/manage_brand.php` | High
+13 | File | `/admin/media_folders` | High
+14 | File | `/admin/memberOnline_deal.php?mudi=del&dataType=&dataID=6` | High
+15 | File | `/admin/mod_reports/printreport.php` | High
+16 | File | `/admin/order.php` | High
+17 | File | `/admin/problem_judge.php` | High
+18 | File | `/admin/projects/{projectname}/skills/{skillname}/video` | High
+19 | File | `/admin/robot.php` | High
+20 | File | `/admin/users.php` | High
+21 | File | `/ajax.php` | Medium
+22 | File | `/api/v1/custom_component` | High
+23 | File | `/AttendanceMonitoring/report/index.php` | High
+24 | File | `/authMonitCallcenter` | High
+25 | File | `/backend/register.php` | High
+26 | File | `/blog/blog.php` | High
+27 | File | `/car-rental-management-system/admin/index.php?page=manage_car` | High
+28 | File | `/catalog/admin/categories.php?cPath=&action=new_product` | High
+29 | File | `/cgi-bin/cstecgi.cgi` | High
+30 | File | `/cgi-bin/hd_config.cgi` | High
+31 | File | `/cgi-bin/nas_sharing.cgi` | High
+32 | File | `/classes/Master.php` | High
+33 | File | `/classes/Master.php?f=delete_category` | High
+34 | File | `/classes/Master.php?f=log_employee` | High
+35 | File | `/classes/Master.php?f=save_medicine` | High
+36 | File | `/classes/Master.php?f=save_package` | High
+37 | File | `/classes/SystemSettings.php?f=update_settings` | High
+38 | File | `/classes/Users.php?f=delete` | High
+39 | File | `/classes/Users.php?f=save` | High
+40 | File | `/College/admin/teacher.php` | High
+41 | File | `/conf/app.conf` | High
+42 | File | `/downloadFile.php` | High
+43 | File | `/dtale/chart-data/1` | High
+44 | File | `/DXR.axd` | Medium
+45 | File | `/endpoint/add-folder.php` | High
+46 | File | `/endpoint/add-task.php` | High
+47 | File | `/endpoint/delete-calorie.php` | High
+48 | File | `/etc/shadow` | Medium
+49 | File | `/file/upload/1` | High
+50 | File | `/file_manager/login.php` | High
+51 | File | `/film-rating.php` | High
+52 | File | `/foms/routers/place-order.php` | High
+53 | File | `/forum/away.php` | High
+54 | File | `/goform/SetIpMacBind` | High
+55 | File | `/goform/VirtualSer` | High
+56 | File | `/goform/WifiExtraSet` | High
+57 | ... | ... | ...
 
-There are 426 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 493 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [TR](https://vuldb.com/?country.tr)
+* [ES](https://vuldb.com/?country.es)
 * ...
 
 There are 20 more country items available. Please use our online service to access the data.
@@ -725,7 +725,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -737,56 +737,61 @@ ID | Type | Indicator | Confidence
 2 | File | `/.pomerium` | Medium
 3 | File | `/Account/login.php` | High
 4 | File | `/admin/` | Low
-5 | File | `/admin/ajax.php?action=delete_user` | High
-6 | File | `/Admin/changepassword.php` | High
-7 | File | `/admin/general-setting` | High
-8 | File | `/admin/inquiries/view_inquiry.php` | High
-9 | File | `/admin/pages/edit_chicken.php` | High
-10 | File | `/admin/pages/student-print.php` | High
-11 | File | `/admin/projects/{projectname}/skills/{skillname}/video` | High
-12 | File | `/admin/service` | High
-13 | File | `/adminapi/system/crud` | High
-14 | File | `/adminapi/system/file/openfile` | High
-15 | File | `/admin_route/dec_service_credits.php` | High
-16 | File | `/admin_route/inc_service_credits.php` | High
-17 | File | `/api/v1/custom_component` | High
-18 | File | `/api/v4/teams//channels/deleted` | High
-19 | File | `/api/wechat/app_auth` | High
-20 | File | `/app/Http/Controllers/ImageController.php` | High
-21 | File | `/application/index/controller/Icon.php` | High
-22 | File | `/b2b-supermarket/shopping-cart` | High
-23 | File | `/cancel.php` | Medium
-24 | File | `/category.php` | High
-25 | File | `/cgi-bin/cstecgi.cgi` | High
-26 | File | `/cgi-bin/nas_sharing.cgi` | High
-27 | File | `/change-language/de_DE` | High
-28 | File | `/classes/Master.php` | High
-29 | File | `/classes/Master.php?f=delete_category` | High
-30 | File | `/classes/Master.php?f=save_medicine` | High
-31 | File | `/classes/Users.php?f=delete` | High
-32 | File | `/control/register_case.php` | High
-33 | File | `/devinfo` | Medium
-34 | File | `/dist/index.js` | High
-35 | File | `/download` | Medium
-36 | File | `/DXR.axd` | Medium
-37 | File | `/etc/shadow` | Medium
-38 | File | `/forum/away.php` | High
-39 | File | `/general/attendance/manage/ask_duty/delete.php` | High
-40 | File | `/goform/SetIpMacBind` | High
-41 | File | `/goform/WifiExtraSet` | High
-42 | File | `/guestbook` | Medium
-43 | File | `/hosts/firewall/ip` | High
-44 | File | `/index.jsp#settings` | High
-45 | File | `/index.php` | Medium
-46 | File | `/index.php/ccm/system/file/upload` | High
-47 | File | `/Interface/DevManage/VM.php` | High
-48 | File | `/js/player/dmplayer/dmku/?ac=edit` | High
-49 | File | `/labvantage/rc?command=page&page=SampleHistoricalList&_iframename=list&__crc=crc_1701669816260` | High
-50 | File | `/labvantage/rc?command=page&page=SampleList&_iframename=list` | High
-51 | File | `/librarian/bookdetails.php` | High
-52 | ... | ... | ...
+5 | File | `/admin/?page=musics/manage_music` | High
+6 | File | `/admin/ajax.php?action=delete_user` | High
+7 | File | `/Admin/changepassword.php` | High
+8 | File | `/admin/emp-profile-avatar.php` | High
+9 | File | `/admin/general-setting` | High
+10 | File | `/admin/inquiries/view_inquiry.php` | High
+11 | File | `/admin/mod_reports/printreport.php` | High
+12 | File | `/admin/order.php` | High
+13 | File | `/admin/pages/edit_chicken.php` | High
+14 | File | `/admin/pages/student-print.php` | High
+15 | File | `/admin/projects/{projectname}/skills/{skillname}/video` | High
+16 | File | `/admin/service` | High
+17 | File | `/adminapi/system/crud` | High
+18 | File | `/adminapi/system/file/openfile` | High
+19 | File | `/admin_route/dec_service_credits.php` | High
+20 | File | `/admin_route/inc_service_credits.php` | High
+21 | File | `/api/v1/custom_component` | High
+22 | File | `/api/v4/teams//channels/deleted` | High
+23 | File | `/api/wechat/app_auth` | High
+24 | File | `/app/Http/Controllers/ImageController.php` | High
+25 | File | `/application/index/controller/Icon.php` | High
+26 | File | `/cancel.php` | Medium
+27 | File | `/category.php` | High
+28 | File | `/cgi-bin/cstecgi.cgi` | High
+29 | File | `/cgi-bin/nas_sharing.cgi` | High
+30 | File | `/change-language/de_DE` | High
+31 | File | `/classes/Master.php` | High
+32 | File | `/classes/Master.php?f=delete_category` | High
+33 | File | `/classes/Master.php?f=save_medicine` | High
+34 | File | `/classes/SystemSettings.php?f=update_settings` | High
+35 | File | `/classes/Users.php?f=delete` | High
+36 | File | `/control/register_case.php` | High
+37 | File | `/controllers/add_client.php` | High
+38 | File | `/devinfo` | Medium
+39 | File | `/download` | Medium
+40 | File | `/downloadFile.php` | High
+41 | File | `/DXR.axd` | Medium
+42 | File | `/endpoint/add-folder.php` | High
+43 | File | `/etc/shadow` | Medium
+44 | File | `/file_manager/login.php` | High
+45 | File | `/film-rating.php` | High
+46 | File | `/foms/routers/place-order.php` | High
+47 | File | `/forum/away.php` | High
+48 | File | `/general/attendance/manage/ask_duty/delete.php` | High
+49 | File | `/goform/SetIpMacBind` | High
+50 | File | `/goform/WifiExtraSet` | High
+51 | File | `/guestbook` | Medium
+52 | File | `/index.jsp#settings` | High
+53 | File | `/index.php` | Medium
+54 | File | `/Interface/DevManage/VM.php` | High
+55 | File | `/js/player/dmplayer/dmku/?ac=edit` | High
+56 | File | `/labvantage/rc?command=page&page=SampleHistoricalList&_iframename=list&__crc=crc_1701669816260` | High
+57 | ... | ... | ...
 
-There are 452 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 496 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

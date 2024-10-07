@@ -49,7 +49,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 16 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -57,30 +57,31 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/add_ikev2.php` | High
-2 | File | `/admin/category_save.php` | High
-3 | File | `/admin/list_ipAddressPolicy.php` | High
-4 | File | `/admin/manage_model.php` | High
-5 | File | `/admin/manage_user.php` | High
-6 | File | `/admin/subject.php` | High
-7 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-8 | File | `/catalog/all-products` | High
-9 | File | `/cgi-bin/cstecgi.cgi` | High
-10 | File | `/changePassword` | High
-11 | File | `/classes/Master.php` | High
-12 | File | `/edit-subject.php` | High
-13 | File | `/endpoint/add-user.php` | High
-14 | File | `/etc/postfix/sender_login` | High
-15 | File | `/forum/away.php` | High
-16 | File | `/goform/addIpMacBind` | High
-17 | File | `/goform/DelDhcpRule` | High
-18 | File | `/goform/delIpMacBind` | High
-19 | File | `/goform/DelPortMapping` | High
-20 | File | `/goform/modifyIpMacBind` | High
-21 | File | `/goform/SetDDNSCfg` | High
-22 | ... | ... | ...
+1 | File | `/+CSCOE+/logon.html` | High
+2 | File | `/admin/add_ikev2.php` | High
+3 | File | `/admin/category_save.php` | High
+4 | File | `/admin/emp-profile-avatar.php` | High
+5 | File | `/admin/list_ipAddressPolicy.php` | High
+6 | File | `/admin/manage_model.php` | High
+7 | File | `/admin/manage_user.php` | High
+8 | File | `/admin/subject.php` | High
+9 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+10 | File | `/catalog/all-products` | High
+11 | File | `/cgi-bin/cstecgi.cgi` | High
+12 | File | `/changePassword` | High
+13 | File | `/classes/Master.php` | High
+14 | File | `/edit-subject.php` | High
+15 | File | `/endpoint/add-user.php` | High
+16 | File | `/etc/postfix/sender_login` | High
+17 | File | `/foms/routers/place-order.php` | High
+18 | File | `/forum/away.php` | High
+19 | File | `/goform/delIpMacBind` | High
+20 | File | `/goform/SetDDNSCfg` | High
+21 | File | `/goform/SetSysTimeCfg` | High
+22 | File | `/goform/wifiSSIDget` | High
+23 | ... | ... | ...
 
-There are 179 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 190 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

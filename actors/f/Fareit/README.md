@@ -88,30 +88,30 @@ ID | Type | Indicator | Confidence
 4 | File | `/adminPage/conf/reload` | High
 5 | File | `/api/baskets/{name}` | High
 6 | File | `/api/v2/cli/commands` | High
-7 | File | `/app/Http/Controllers/Admin/NEditorController.php` | High
-8 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
-9 | File | `/DXR.axd` | Medium
-10 | File | `/forum/away.php` | High
-11 | File | `/index/ajax/lang` | High
-12 | File | `/log/decodmail.php` | High
-13 | File | `/mfsNotice/page` | High
-14 | File | `/mgmt/tm/util/bash` | High
-15 | File | `/mifs/c/i/reg/reg.html` | High
-16 | File | `/novel/bookSetting/list` | High
-17 | File | `/novel/userFeedback/list` | High
-18 | File | `/owa/auth/logon.aspx` | High
-19 | File | `/register.php` | High
-20 | File | `/secure/ViewCollectors` | High
-21 | File | `/Session` | Medium
-22 | File | `/spip.php` | Medium
-23 | File | `/ueditor/net/controller.ashx?action=catchimage` | High
-24 | File | `/usr/bin/pkexec` | High
-25 | File | `/xAdmin/html/cm_doclist_view_uc.jsp` | High
-26 | File | `/x_portal_assemble_surface/jaxrs/portal/list?v=8.2.3-4-43f4fe3` | High
-27 | File | `/zm/index.php` | High
+7 | File | `/api2/html/` | Medium
+8 | File | `/app/Http/Controllers/Admin/NEditorController.php` | High
+9 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+10 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
+11 | File | `/DXR.axd` | Medium
+12 | File | `/forum/away.php` | High
+13 | File | `/index/ajax/lang` | High
+14 | File | `/log/decodmail.php` | High
+15 | File | `/mfsNotice/page` | High
+16 | File | `/mgmt/tm/util/bash` | High
+17 | File | `/mifs/c/i/reg/reg.html` | High
+18 | File | `/novel/bookSetting/list` | High
+19 | File | `/novel/userFeedback/list` | High
+20 | File | `/owa/auth/logon.aspx` | High
+21 | File | `/register.php` | High
+22 | File | `/secure/ViewCollectors` | High
+23 | File | `/Session` | Medium
+24 | File | `/spip.php` | Medium
+25 | File | `/ueditor/net/controller.ashx?action=catchimage` | High
+26 | File | `/usr/bin/pkexec` | High
+27 | File | `/xAdmin/html/cm_doclist_view_uc.jsp` | High
 28 | ... | ... | ...
 
-There are 236 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 239 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

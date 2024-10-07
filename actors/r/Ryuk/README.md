@@ -56,7 +56,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-425 | Path Traversal | High
+1 | T1006 | CWE-22, CWE-23, CWE-24, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
@@ -74,51 +74,52 @@ ID | Type | Indicator | Confidence
 1 | File | `//proc/kcore` | Medium
 2 | File | `/act/ActDao.xml` | High
 3 | File | `/admin.php?p=/Area/index#tab=t2` | High
-4 | File | `/admin/about-us.php` | High
-5 | File | `/admin/action/delete-vaccine.php` | High
-6 | File | `/admin/admin-update-employee.php` | High
-7 | File | `/admin/edit-post.php` | High
-8 | File | `/admin/index2.html` | High
-9 | File | `/admin/userprofile.php` | High
-10 | File | `/ajax.php?action=read_msg` | High
-11 | File | `/api/baskets/{name}` | High
-12 | File | `/api/clusters/local/topics/{topic}/messages` | High
-13 | File | `/api/gen/clients/{language}` | High
+4 | File | `/admin/` | Low
+5 | File | `/admin/about-us.php` | High
+6 | File | `/admin/action/delete-vaccine.php` | High
+7 | File | `/admin/admin-update-employee.php` | High
+8 | File | `/admin/edit-post.php` | High
+9 | File | `/admin/index2.html` | High
+10 | File | `/admin/userprofile.php` | High
+11 | File | `/ajax.php?action=read_msg` | High
+12 | File | `/api/baskets/{name}` | High
+13 | File | `/api/clusters/local/topics/{topic}/messages` | High
 14 | File | `/API/info` | Medium
 15 | File | `/app/index/controller/Common.php` | High
 16 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
 17 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
 18 | File | `/applications/nexus/modules/front/store/store.php` | High
 19 | File | `/bitrix/admin/ldap_server_edit.php` | High
-20 | File | `/cgi-bin/cstecgi.cgi` | High
-21 | File | `/cgi-bin/nas_sharing.cgi` | High
-22 | File | `/cgi-bin/supervisor/adcommand.cgi` | High
-23 | File | `/classes/Master.php` | High
-24 | File | `/classes/Master.php?f=save_category` | High
-25 | File | `/classes/Users.php?f=save` | High
-26 | File | `/College/admin/teacher.php` | High
-27 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
-28 | File | `/dcim/rack-roles/` | High
-29 | File | `/debug/pprof` | Medium
-30 | File | `/DXR.axd` | Medium
-31 | File | `/fftools/ffmpeg_enc.c` | High
-32 | File | `/forms/doLogin` | High
-33 | File | `/formSysLog` | Medium
-34 | File | `/forum/away.php` | High
-35 | File | `/goform/aspForm` | High
-36 | File | `/goform/net\_Web\_get_value` | High
-37 | File | `/goform/SetOnlineDevName` | High
-38 | File | `/GponForm/usb_restore_Form?script/` | High
-39 | File | `/group1/uploa` | High
-40 | File | `/hedwig.cgi` | Medium
-41 | File | `/HNAP1` | Low
-42 | File | `/HNAP1/SetClientInfo` | High
-43 | File | `/inc/topBarNav.php` | High
-44 | File | `/includes/common/require_access_recovery.php` | High
-45 | File | `/index.php` | Medium
-46 | ... | ... | ...
+20 | File | `/cgi-bin/apkg_mgr.cgi` | High
+21 | File | `/cgi-bin/cstecgi.cgi` | High
+22 | File | `/cgi-bin/nas_sharing.cgi` | High
+23 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+24 | File | `/cgi-bin/supervisor/adcommand.cgi` | High
+25 | File | `/cgi-bin/tosei_kikai.php` | High
+26 | File | `/classes/Master.php` | High
+27 | File | `/classes/Master.php?f=delete_record` | High
+28 | File | `/classes/Master.php?f=save_category` | High
+29 | File | `/classes/SystemSettings.php?f=update_settings` | High
+30 | File | `/classes/Users.php?f=save` | High
+31 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
+32 | File | `/dcim/rack-roles/` | High
+33 | File | `/debug/pprof` | Medium
+34 | File | `/dist/index.js` | High
+35 | File | `/dtale/chart-data/1` | High
+36 | File | `/DXR.axd` | Medium
+37 | File | `/etc/shadow.sample` | High
+38 | File | `/EXCU_SHELL` | Medium
+39 | File | `/fftools/ffmpeg_enc.c` | High
+40 | File | `/forms/doLogin` | High
+41 | File | `/formSysLog` | Medium
+42 | File | `/forum/away.php` | High
+43 | File | `/goform/aspForm` | High
+44 | File | `/goform/modifyDhcpRule` | High
+45 | File | `/goform/ModifyPppAuthWhiteMac` | High
+46 | File | `/goform/net\_Web\_get_value` | High
+47 | ... | ... | ...
 
-There are 401 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 412 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

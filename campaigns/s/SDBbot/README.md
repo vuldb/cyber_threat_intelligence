@@ -121,7 +121,7 @@ ID | Type | Indicator | Confidence
 61 | File | `/Duty/AjaxHandle/Write/UploadFile.ashx` | High
 62 | ... | ... | ...
 
-There are 542 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 545 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

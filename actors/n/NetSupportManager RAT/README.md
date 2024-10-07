@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [BR](https://vuldb.com/?country.br)
-* [RU](https://vuldb.com/?country.ru)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
 There are 15 more country items available. Please use our online service to access the data.
@@ -66,28 +66,31 @@ ID | IP address | Hostname | Campaign | Confidence
 43 | [23.163.0.13](https://vuldb.com/?ip.23.163.0.13) | ht087348.fronews.com | - | High
 44 | [23.170.40.136](https://vuldb.com/?ip.23.170.40.136) | - | - | High
 45 | [23.227.193.80](https://vuldb.com/?ip.23.227.193.80) | 23-227-193-80.static.hvvc.us | - | High
-46 | [37.61.213.242](https://vuldb.com/?ip.37.61.213.242) | - | - | High
-47 | [37.74.45.12](https://vuldb.com/?ip.37.74.45.12) | 37-74-45-12.biz.kpn.net | - | High
-48 | [40.85.218.196](https://vuldb.com/?ip.40.85.218.196) | - | - | High
-49 | [41.142.248.254](https://vuldb.com/?ip.41.142.248.254) | - | - | High
-50 | [45.11.59.216](https://vuldb.com/?ip.45.11.59.216) | dedicated.sollutium.com | - | High
-51 | [45.11.59.217](https://vuldb.com/?ip.45.11.59.217) | dedicated.sollutium.com | - | High
-52 | [45.11.180.120](https://vuldb.com/?ip.45.11.180.120) | - | - | High
-53 | [45.11.180.127](https://vuldb.com/?ip.45.11.180.127) | - | - | High
-54 | [45.15.157.144](https://vuldb.com/?ip.45.15.157.144) | - | - | High
-55 | [45.15.158.212](https://vuldb.com/?ip.45.15.158.212) | - | - | High
-56 | [45.61.136.72](https://vuldb.com/?ip.45.61.136.72) | - | - | High
-57 | [45.61.138.73](https://vuldb.com/?ip.45.61.138.73) | - | - | High
-58 | [45.61.147.162](https://vuldb.com/?ip.45.61.147.162) | - | - | High
-59 | [45.67.229.73](https://vuldb.com/?ip.45.67.229.73) | vm2360547.stark-industries.solutions | - | High
-60 | [45.67.230.205](https://vuldb.com/?ip.45.67.230.205) | vm1977398.stark-industries.solutions | - | High
-61 | [45.76.172.113](https://vuldb.com/?ip.45.76.172.113) | 45.76.172.113.vultrusercontent.com | - | Medium
-62 | [45.77.31.210](https://vuldb.com/?ip.45.77.31.210) | 45.77.31.210.vultrusercontent.com | - | Medium
-63 | [45.82.84.13](https://vuldb.com/?ip.45.82.84.13) | 45.82.84.13.deltahost-ptr | - | High
-64 | [45.89.53.223](https://vuldb.com/?ip.45.89.53.223) | vm2341473.stark-industries.solutions | - | High
-65 | ... | ... | ... | ...
+46 | [37.1.209.225](https://vuldb.com/?ip.37.1.209.225) | - | - | High
+47 | [37.61.213.242](https://vuldb.com/?ip.37.61.213.242) | - | - | High
+48 | [37.74.45.12](https://vuldb.com/?ip.37.74.45.12) | 37-74-45-12.biz.kpn.net | - | High
+49 | [40.85.218.196](https://vuldb.com/?ip.40.85.218.196) | - | - | High
+50 | [41.142.248.254](https://vuldb.com/?ip.41.142.248.254) | - | - | High
+51 | [45.11.59.216](https://vuldb.com/?ip.45.11.59.216) | dedicated.sollutium.com | - | High
+52 | [45.11.59.217](https://vuldb.com/?ip.45.11.59.217) | dedicated.sollutium.com | - | High
+53 | [45.11.180.120](https://vuldb.com/?ip.45.11.180.120) | - | - | High
+54 | [45.11.180.127](https://vuldb.com/?ip.45.11.180.127) | - | - | High
+55 | [45.15.157.144](https://vuldb.com/?ip.45.15.157.144) | - | - | High
+56 | [45.15.158.212](https://vuldb.com/?ip.45.15.158.212) | - | - | High
+57 | [45.61.136.72](https://vuldb.com/?ip.45.61.136.72) | - | - | High
+58 | [45.61.138.73](https://vuldb.com/?ip.45.61.138.73) | - | - | High
+59 | [45.61.147.162](https://vuldb.com/?ip.45.61.147.162) | - | - | High
+60 | [45.67.229.73](https://vuldb.com/?ip.45.67.229.73) | vm2360547.stark-industries.solutions | - | High
+61 | [45.67.230.205](https://vuldb.com/?ip.45.67.230.205) | vm1977398.stark-industries.solutions | - | High
+62 | [45.76.172.113](https://vuldb.com/?ip.45.76.172.113) | 45.76.172.113.vultrusercontent.com | - | Medium
+63 | [45.77.31.210](https://vuldb.com/?ip.45.77.31.210) | 45.77.31.210.vultrusercontent.com | - | Medium
+64 | [45.82.84.13](https://vuldb.com/?ip.45.82.84.13) | 45.82.84.13.deltahost-ptr | - | High
+65 | [45.89.53.223](https://vuldb.com/?ip.45.89.53.223) | vm2341473.stark-industries.solutions | - | High
+66 | [45.89.53.244](https://vuldb.com/?ip.45.89.53.244) | vm2342957.stark-industries.solutions | - | High
+67 | [45.133.203.205](https://vuldb.com/?ip.45.133.203.205) | - | - | High
+68 | ... | ... | ... | ...
 
-There are 254 more IOC items available. Please use our online service to access the data.
+There are 270 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -150,15 +153,17 @@ ID | Type | Indicator | Confidence
 38 | File | `/pms/admin/cells/view_cell.php` | High
 39 | File | `/pms/admin/crimes/manage_crime.php` | High
 40 | File | `/pms/admin/inmates/view_inmate.php` | High
-41 | ... | ... | ...
+41 | File | `/pms/admin/prisons/view_prison.php` | High
+42 | ... | ... | ...
 
-There are 354 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 358 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://app.any.run/tasks/37401db6-5584-4f21-8cc5-73240c4ea2dc?p=66906b78ce78d9d6ac022bdc
+* https://bazaar.abuse.ch/sample/1a7f6f08cb6b0f7f741871bee40fe03708036025808ac63aa73b084062027168/
 * https://bazaar.abuse.ch/sample/1a9b3968a2f3a4ae0c9c51e6fc41a48829ac4a0fa118a7530c36715638ef0209/
 * https://bazaar.abuse.ch/sample/4a9f42167f399abfbb42a5ee4d52922eb3f7f1ce88d23824f01d13e50609b8b9/
 * https://bazaar.abuse.ch/sample/6fe2ea8db2edb522cd33b8d2539ed73cc708f086a65a0e6f8577b4a001d36bd5/
@@ -169,10 +174,12 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://bazaar.abuse.ch/sample/2174b4c58eb43aac8e5e0061ff0bc45125f4cb64404d552fe25ea6ac1777113d/
 * https://bazaar.abuse.ch/sample/38669dd5ccced3c29f3eb6bad7a04fbdc2cc81ea6f7c76b03cf1c4fee6c5f3f0/
 * https://bazaar.abuse.ch/sample/933861b75227a3f4727b5872fa9da1b049e420632f8a9198987e8bfbaf7da9e6/
+* https://bazaar.abuse.ch/sample/a179d25f0ca4b9f6b7b1b7b4376664e422a6341650f80ba58626881638b64d50/
 * https://bazaar.abuse.ch/sample/ae0d56f92f796a1ee12d0fcfca097f338c2479fb805804f70967e6b9aebd9d03/
 * https://bazaar.abuse.ch/sample/ae2a4c07177c85d3a2611ebbdf54dcee400b6ce6c3b91b2ab5917cdb5966e244/
 * https://bazaar.abuse.ch/sample/ae49d8d6d68069696428ebd3fce5a003af4a6ccaf4f67331eea37a0cd4dfbb77/
 * https://bazaar.abuse.ch/sample/c9e6dc44db59f1883e850babac21890e5723d2627a623c47f709e3bb7d073e35/
+* https://bazaar.abuse.ch/sample/ccb1996d2a2b57b943611a8928a5a05d69003b1225b9afef40e21017de70be52/
 * https://bazaar.abuse.ch/sample/cf4b26813e325da0c821da65e1417bea0045f8349204518b58381609b6662803/
 * https://bazaar.abuse.ch/sample/d4f6598a76b92b919bccac6394429a94e7e28da1a86d53e3cd5b204e9c9dc8a8/
 * https://bazaar.abuse.ch/sample/fbfec78acd4e7bdd01056de5d866e26db68430bbdc3e0c58f7e123f5b1f3edbe/
@@ -218,17 +225,22 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/62.119.81.101
 * https://search.censys.io/hosts/62.119.81.149
 * https://search.censys.io/hosts/62.156.170.137
+* https://search.censys.io/hosts/62.157.233.146
+* https://search.censys.io/hosts/79.241.100.193
 * https://search.censys.io/hosts/79.241.107.168
 * https://search.censys.io/hosts/82.71.120.166
 * https://search.censys.io/hosts/83.48.66.207
 * https://search.censys.io/hosts/84.28.36.114
+* https://search.censys.io/hosts/84.154.176.61
 * https://search.censys.io/hosts/86.53.241.21
 * https://search.censys.io/hosts/88.17.27.121
 * https://search.censys.io/hosts/88.17.122.156
 * https://search.censys.io/hosts/88.211.117.186
+* https://search.censys.io/hosts/89.130.137.6
 * https://search.censys.io/hosts/90.173.96.4
 * https://search.censys.io/hosts/91.196.170.88
 * https://search.censys.io/hosts/92.186.214.11
+* https://search.censys.io/hosts/92.187.191.119
 * https://search.censys.io/hosts/93.188.122.139
 * https://search.censys.io/hosts/93.198.179.203
 * https://search.censys.io/hosts/93.198.189.5
@@ -239,6 +251,8 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/101.108.9.24
 * https://search.censys.io/hosts/101.108.13.204
 * https://search.censys.io/hosts/101.108.135.200
+* https://search.censys.io/hosts/101.108.253.7
+* https://search.censys.io/hosts/101.109.165.137
 * https://search.censys.io/hosts/103.159.133.234
 * https://search.censys.io/hosts/107.22.165.49
 * https://search.censys.io/hosts/109.195.102.70
@@ -247,6 +261,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/120.25.239.36
 * https://search.censys.io/hosts/130.164.171.81
 * https://search.censys.io/hosts/130.164.171.194
+* https://search.censys.io/hosts/167.86.135.144
 * https://search.censys.io/hosts/178.124.152.84
 * https://search.censys.io/hosts/178.188.188.210
 * https://search.censys.io/hosts/178.188.188.211
@@ -254,7 +269,10 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/178.188.188.213
 * https://search.censys.io/hosts/178.188.188.214
 * https://search.censys.io/hosts/179.49.112.238
+* https://search.censys.io/hosts/179.95.125.28
+* https://search.censys.io/hosts/179.95.163.195
 * https://search.censys.io/hosts/179.95.173.13
+* https://search.censys.io/hosts/179.95.202.160
 * https://search.censys.io/hosts/179.159.167.251
 * https://search.censys.io/hosts/181.4.0.8
 * https://search.censys.io/hosts/181.116.72.52
@@ -266,14 +284,18 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/186.0.139.220
 * https://search.censys.io/hosts/186.225.10.251
 * https://search.censys.io/hosts/186.236.112.114
+* https://search.censys.io/hosts/187.173.200.31
 * https://search.censys.io/hosts/189.115.194.186
+* https://search.censys.io/hosts/189.115.194.189
 * https://search.censys.io/hosts/189.133.140.188
 * https://search.censys.io/hosts/189.203.156.164
 * https://search.censys.io/hosts/190.210.247.1
+* https://search.censys.io/hosts/190.231.88.140
 * https://search.censys.io/hosts/191.242.219.160
 * https://search.censys.io/hosts/193.19.242.55
 * https://search.censys.io/hosts/195.245.189.240
 * https://search.censys.io/hosts/196.117.164.141
+* https://search.censys.io/hosts/196.127.51.182
 * https://search.censys.io/hosts/198.244.197.118
 * https://search.censys.io/hosts/200.116.185.173
 * https://search.censys.io/hosts/200.152.101.176
@@ -295,6 +317,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://twitter.com/pollo290987/status/1562087034948386817
 * https://twitter.com/pollo290987/status/1654206717251530753
 * https://twitter.com/StopMalvertisin/status/1648223628067237890
+* https://urlhaus.abuse.ch/host/212.52.1.56/
 * https://urlhaus.abuse.ch/host/navitainer.net/
 * https://urlhaus.abuse.ch/url/2733214/
 * https://www.joesandbox.com/analysis/1489560/0/html

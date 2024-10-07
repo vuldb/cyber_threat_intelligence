@@ -84,16 +84,16 @@ ID | Type | Indicator | Confidence
 31 | File | `/dev/audio` | Medium
 32 | File | `/dev/kmem` | Medium
 33 | File | `/DiscoveryProcess/Service/Admin.svc/getGridColumnStructure` | High
-34 | File | `/etc/hosts.deny` | High
-35 | File | `/forum/away.php` | High
-36 | File | `/goform/SetOnlineDevName` | High
-37 | File | `/goform/WifiExtraSet` | High
-38 | File | `/include/file.php` | High
-39 | File | `/items/search` | High
-40 | File | `/kelas/data` | Medium
+34 | File | `/endpoint/delete-account.php` | High
+35 | File | `/etc/hosts.deny` | High
+36 | File | `/forum/away.php` | High
+37 | File | `/goform/SetOnlineDevName` | High
+38 | File | `/goform/WifiExtraSet` | High
+39 | File | `/include/file.php` | High
+40 | File | `/items/search` | High
 41 | ... | ... | ...
 
-There are 354 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 356 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

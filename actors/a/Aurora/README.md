@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 12 more country items available. Please use our online service to access the data.
+There are 13 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -57,42 +57,42 @@ ID | Type | Indicator | Confidence
 3 | File | `/admin/maintenance/view_designation.php` | High
 4 | File | `/admin/manage_academic.php` | High
 5 | File | `/admin/subnets/ripe-query.php` | High
-6 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-7 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
-8 | File | `/classes/Master.php` | High
-9 | File | `/forum/away.php` | High
-10 | File | `/fw.login.php` | High
-11 | File | `/gfxpoly/convert.c` | High
-12 | File | `/GponForm/device_Form?script/` | High
-13 | File | `/index.php?/manage/channel/addchannel` | High
-14 | File | `/opac/Actions.php?a=login` | High
-15 | File | `/opt/tms/bin/cli` | High
-16 | File | `/out.php` | Medium
-17 | File | `/owa/auth/logon.aspx` | High
-18 | File | `/registrar/?page=registration` | High
-19 | File | `/secserver` | Medium
-20 | File | `/settings/account` | High
-21 | File | `/spip.php` | Medium
-22 | File | `/st_reg.php` | Medium
-23 | File | `/var/log/nginx` | High
-24 | File | `/way4acs/enroll` | High
-25 | File | `/wp-admin/admin-ajax.php` | High
-26 | File | `action.php` | Medium
-27 | File | `actions/beats_uploader.php` | High
-28 | File | `actions/vote_channel.php` | High
-29 | File | `ad.cgi` | Low
-30 | File | `adclick.php` | Medium
-31 | File | `add.php` | Low
-32 | File | `admin/admin.php` | High
-33 | File | `Admin/ADM_Pagina.php` | High
-34 | File | `admin/article.php` | High
-35 | File | `admin/dashboard.php` | High
-36 | File | `Admin/edit-admin.php` | High
-37 | File | `admin/partials/ajax/add_field_to_form.php` | High
-38 | File | `admin/show.php?rec=update` | High
+6 | File | `/cgi-bin/cstecgi.cgi` | High
+7 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+8 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
+9 | File | `/classes/Master.php` | High
+10 | File | `/endpoint/update-bookmark.php` | High
+11 | File | `/forum/away.php` | High
+12 | File | `/fw.login.php` | High
+13 | File | `/gfxpoly/convert.c` | High
+14 | File | `/GponForm/device_Form?script/` | High
+15 | File | `/index.php?/manage/channel/addchannel` | High
+16 | File | `/opac/Actions.php?a=login` | High
+17 | File | `/opt/tms/bin/cli` | High
+18 | File | `/out.php` | Medium
+19 | File | `/owa/auth/logon.aspx` | High
+20 | File | `/registrar/?page=registration` | High
+21 | File | `/secserver` | Medium
+22 | File | `/settings/account` | High
+23 | File | `/spip.php` | Medium
+24 | File | `/st_reg.php` | Medium
+25 | File | `/var/log/nginx` | High
+26 | File | `/way4acs/enroll` | High
+27 | File | `/wp-admin/admin-ajax.php` | High
+28 | File | `action.php` | Medium
+29 | File | `actions/beats_uploader.php` | High
+30 | File | `actions/vote_channel.php` | High
+31 | File | `ad.cgi` | Low
+32 | File | `adclick.php` | Medium
+33 | File | `add.php` | Low
+34 | File | `admin/admin.php` | High
+35 | File | `Admin/ADM_Pagina.php` | High
+36 | File | `admin/article.php` | High
+37 | File | `admin/dashboard.php` | High
+38 | File | `Admin/edit-admin.php` | High
 39 | ... | ... | ...
 
-There are 334 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 340 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

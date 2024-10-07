@@ -62,35 +62,36 @@ ID | Type | Indicator | Confidence
 8 | File | `/classes/Master.php` | High
 9 | File | `/etc/quagga` | Medium
 10 | File | `/export` | Low
-11 | File | `/forms/doLogin` | High
-12 | File | `/get_getnetworkconf.cgi` | High
-13 | File | `/index.php` | Medium
-14 | File | `/intrams_sams/manage_student.php` | High
-15 | File | `/librarian/bookdetails.php` | High
-16 | File | `/manage_sy.php` | High
-17 | File | `/messageboard/view.php` | High
-18 | File | `/nova/bin/detnet` | High
-19 | File | `/opensis/modules/users/Staff.php` | High
-20 | File | `/orrs/admin/reservations/view_details.php` | High
-21 | File | `/php_action/createUser.php` | High
-22 | File | `/plugins/servlet/gadgets/makeRequest` | High
-23 | File | `/REBOOTSYSTEM` | High
-24 | File | `/req_password_user.php` | High
-25 | File | `/services` | Medium
-26 | File | `/Setting/change_password_save` | High
-27 | File | `/smsa/add_class_submit.php` | High
-28 | File | `/stockmovment/stockmovment/delete/` | High
-29 | File | `/tmp` | Low
-30 | File | `/uncpath/` | Medium
-31 | File | `/Uploads` | Medium
-32 | File | `/userRpm/MediaServerFoldersCfgRpm.htm` | High
-33 | File | `/view/timetable_update_form.php` | High
-34 | File | `/WEB-INF/web.xml` | High
-35 | File | `/webconsole/APIController` | High
-36 | File | `/wp-admin/admin-ajax.php` | High
-37 | ... | ... | ...
+11 | File | `/foms/routers/place-order.php` | High
+12 | File | `/forms/doLogin` | High
+13 | File | `/get_getnetworkconf.cgi` | High
+14 | File | `/index.php` | Medium
+15 | File | `/intrams_sams/manage_student.php` | High
+16 | File | `/librarian/bookdetails.php` | High
+17 | File | `/manage_sy.php` | High
+18 | File | `/messageboard/view.php` | High
+19 | File | `/nova/bin/detnet` | High
+20 | File | `/opensis/modules/users/Staff.php` | High
+21 | File | `/orrs/admin/reservations/view_details.php` | High
+22 | File | `/php_action/createUser.php` | High
+23 | File | `/plugins/servlet/gadgets/makeRequest` | High
+24 | File | `/REBOOTSYSTEM` | High
+25 | File | `/req_password_user.php` | High
+26 | File | `/services` | Medium
+27 | File | `/Setting/change_password_save` | High
+28 | File | `/smsa/add_class_submit.php` | High
+29 | File | `/stockmovment/stockmovment/delete/` | High
+30 | File | `/tmp` | Low
+31 | File | `/uncpath/` | Medium
+32 | File | `/Uploads` | Medium
+33 | File | `/userRpm/MediaServerFoldersCfgRpm.htm` | High
+34 | File | `/view/timetable_update_form.php` | High
+35 | File | `/WEB-INF/web.xml` | High
+36 | File | `/webconsole/APIController` | High
+37 | File | `/wp-admin/admin-ajax.php` | High
+38 | ... | ... | ...
 
-There are 321 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 326 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -20,8 +20,8 @@ There are 7 more campaign items available. Please use our online service to acce
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with APT28:
 
 * [VN](https://vuldb.com/?country.vn)
-* [RO](https://vuldb.com/?country.ro)
 * [US](https://vuldb.com/?country.us)
+* [RO](https://vuldb.com/?country.ro)
 * ...
 
 There are 5 more country items available. Please use our online service to access the data.
@@ -120,50 +120,51 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/?page=musics/manage_music` | High
-2 | File | `/admin/config_time_sync.php` | High
-3 | File | `/admin/contacts/organizations/edit/2` | High
-4 | File | `/admin/dialog/select_images_post.php` | High
-5 | File | `/admin/modules/product/controller.php?action=add` | High
-6 | File | `/api/swaggerui/static` | High
-7 | File | `/api/sys/set_passwd` | High
-8 | File | `/api/v1` | Low
-9 | File | `/cgi-bin/alexserv` | High
-10 | File | `/cgi-bin/cstecgi.cgi` | High
-11 | File | `/cgi-bin/nas_sharing.cgi` | High
-12 | File | `/classes/Master.php` | High
-13 | File | `/classes/SystemSettings.php?f=update_settings` | High
-14 | File | `/classes/Users.php?f=delete` | High
-15 | File | `/contact.php` | Medium
-16 | File | `/core/config-revisions` | High
-17 | File | `/dcim/power-ports/add/` | High
-18 | File | `/debug/pprof` | Medium
-19 | File | `/department_viewmore.php` | High
-20 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
-21 | File | `/DXR.axd` | Medium
-22 | File | `/edit/server` | Medium
-23 | File | `/endpoint/delete-account.php` | High
-24 | File | `/endpoint/delete-leads.php` | High
-25 | File | `/endpoint/delete-todo.php` | High
-26 | File | `/etc/passwd` | Medium
-27 | File | `/film-rating.php` | High
-28 | File | `/forum/away.php` | High
-29 | File | `/guestbook` | Medium
-30 | File | `/hardware` | Medium
-31 | File | `/hrm/leaverequest.php` | High
-32 | File | `/includes/common/require_access_recovery.php` | High
-33 | File | `/index.php` | Medium
-34 | File | `/index.php?action=profile;u=2;area=showalerts;do=remove` | High
-35 | File | `/index.php?app=main&inc=feature_phonebook&op=phonebook_list` | High
-36 | File | `/index.php?pluginApp/to/yzOffice/getFile` | High
-37 | File | `/index/ajax/lang` | High
-38 | File | `/Interface/DevManage/VM.php` | High
-39 | File | `/librarian/bookdetails.php` | High
-40 | File | `/Maintain/sprog_upstatus.php` | High
-41 | File | `/manage_quiz.php` | High
-42 | File | `/MobileHandler.ashx` | High
-43 | ... | ... | ...
+2 | File | `/admin/admin_log.php?clear=1` | High
+3 | File | `/admin/admin_widgets.php?action=install/widget=akismet` | High
+4 | File | `/admin/config_time_sync.php` | High
+5 | File | `/admin/contacts/organizations/edit/2` | High
+6 | File | `/admin/dialog/select_images_post.php` | High
+7 | File | `/admin/modules/product/controller.php?action=add` | High
+8 | File | `/api/swaggerui/static` | High
+9 | File | `/api/sys/set_passwd` | High
+10 | File | `/api/v1` | Low
+11 | File | `/cgi-bin/alexserv` | High
+12 | File | `/cgi-bin/cstecgi.cgi` | High
+13 | File | `/cgi-bin/nas_sharing.cgi` | High
+14 | File | `/classes/Master.php` | High
+15 | File | `/classes/SystemSettings.php?f=update_settings` | High
+16 | File | `/classes/Users.php?f=delete` | High
+17 | File | `/contact.php` | Medium
+18 | File | `/core/config-revisions` | High
+19 | File | `/dcim/power-ports/add/` | High
+20 | File | `/debug/pprof` | Medium
+21 | File | `/department_viewmore.php` | High
+22 | File | `/desktop_app/file.ajax.php?action=uploadfile` | High
+23 | File | `/DXR.axd` | Medium
+24 | File | `/edit/server` | Medium
+25 | File | `/endpoint/delete-account.php` | High
+26 | File | `/endpoint/delete-leads.php` | High
+27 | File | `/endpoint/delete-todo.php` | High
+28 | File | `/etc/passwd` | Medium
+29 | File | `/film-rating.php` | High
+30 | File | `/forum/away.php` | High
+31 | File | `/guestbook` | Medium
+32 | File | `/hardware` | Medium
+33 | File | `/hrm/leaverequest.php` | High
+34 | File | `/includes/common/require_access_recovery.php` | High
+35 | File | `/index.php` | Medium
+36 | File | `/index.php?action=profile;u=2;area=showalerts;do=remove` | High
+37 | File | `/index.php?app=main&inc=feature_phonebook&op=phonebook_list` | High
+38 | File | `/index.php?page=tenants` | High
+39 | File | `/index.php?pluginApp/to/yzOffice/getFile` | High
+40 | File | `/index/ajax/lang` | High
+41 | File | `/Interface/DevManage/VM.php` | High
+42 | File | `/librarian/bookdetails.php` | High
+43 | File | `/manage_quiz.php` | High
+44 | ... | ... | ...
 
-There are 374 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 384 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -37,7 +37,7 @@ ID | IP address | Hostname | Campaign | Confidence
 14 | [82.117.255.80](https://vuldb.com/?ip.82.117.255.80) | ywcfklba.fun | - | High
 15 | ... | ... | ... | ...
 
-There are 55 more IOC items available. Please use our online service to access the data.
+There are 58 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -69,36 +69,37 @@ ID | Type | Indicator | Confidence
 7 | File | `/cgi-bin/cstecgi.cgi` | High
 8 | File | `/dataset/data/{id}` | High
 9 | File | `/debug/pprof` | Medium
-10 | File | `/etc/grafana/grafana.ini` | High
-11 | File | `/film-rating.php` | High
-12 | File | `/forum/away.php` | High
-13 | File | `/forum/PostPrivateMessage` | High
-14 | File | `/index.php` | Medium
-15 | File | `/librarian/bookdetails.php` | High
-16 | File | `/nova/bin/igmp-proxy` | High
-17 | File | `/orrs/admin/?page=user/manage_user` | High
-18 | File | `/pages/processlogin.php` | High
-19 | File | `/php/ping.php` | High
-20 | File | `/rapi/read_url` | High
-21 | File | `/register.php` | High
-22 | File | `/scripts/unlock_tasks.php` | High
-23 | File | `/student/bookdetails.php` | High
-24 | File | `/SysInfo1.htm` | High
-25 | File | `/sysinfo_json.cgi` | High
-26 | File | `/system/dictData/loadDictItem` | High
-27 | File | `/system/user/modules/mod_users/controller.php` | High
-28 | File | `/uncpath/` | Medium
-29 | File | `/usr/local/psa/admin/sbin/wrapper` | High
-30 | File | `/version.js` | Medium
-31 | File | `/view/vpn/autovpn/sub_commit.php` | High
-32 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
-33 | File | `123flashchat.php` | High
-34 | File | `account.asp` | Medium
-35 | File | `acs.exe` | Low
-36 | File | `addguest.cgi` | Medium
-37 | ... | ... | ...
+10 | File | `/edit-subject.php` | High
+11 | File | `/etc/grafana/grafana.ini` | High
+12 | File | `/film-rating.php` | High
+13 | File | `/forum/away.php` | High
+14 | File | `/forum/PostPrivateMessage` | High
+15 | File | `/index.php` | Medium
+16 | File | `/librarian/bookdetails.php` | High
+17 | File | `/nova/bin/igmp-proxy` | High
+18 | File | `/orrs/admin/?page=user/manage_user` | High
+19 | File | `/pages/processlogin.php` | High
+20 | File | `/php/ping.php` | High
+21 | File | `/rapi/read_url` | High
+22 | File | `/register.php` | High
+23 | File | `/scripts/unlock_tasks.php` | High
+24 | File | `/student/bookdetails.php` | High
+25 | File | `/SysInfo1.htm` | High
+26 | File | `/sysinfo_json.cgi` | High
+27 | File | `/system/dictData/loadDictItem` | High
+28 | File | `/system/user/modules/mod_users/controller.php` | High
+29 | File | `/uncpath/` | Medium
+30 | File | `/usr/local/psa/admin/sbin/wrapper` | High
+31 | File | `/version.js` | Medium
+32 | File | `/view/vpn/autovpn/sub_commit.php` | High
+33 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
+34 | File | `123flashchat.php` | High
+35 | File | `account.asp` | Medium
+36 | File | `acs.exe` | Low
+37 | File | `addguest.cgi` | Medium
+38 | ... | ... | ...
 
-There are 316 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 322 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -112,8 +113,10 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://app.any.run/tasks/b80c5c12-9c12-414d-be8e-818ffdab1e74
 * https://search.censys.io/hosts/5.42.92.179
 * https://search.censys.io/hosts/95.217.74.243
+* https://search.censys.io/hosts/117.220.15.119
 * https://search.censys.io/hosts/195.211.97.9
 * https://threatfox.abuse.ch
+* https://tip.neiki.dev/file/d68fc909007ff005a9c41863f65641f288c3792fe2c3ba039299495911fd781e
 * https://tracker.viriback.com/index.php?q=45.8.146.130
 * https://tracker.viriback.com/index.php?q=45.8.146.213
 * https://tracker.viriback.com/index.php?q=45.8.146.227

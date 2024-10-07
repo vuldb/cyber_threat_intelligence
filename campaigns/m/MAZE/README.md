@@ -82,7 +82,7 @@ ID | Type | Indicator | Confidence
 19 | File | `/view/student_payment_details2.php` | High
 20 | ... | ... | ...
 
-There are 162 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 163 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

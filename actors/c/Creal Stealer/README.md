@@ -52,32 +52,36 @@ ID | Type | Indicator | Confidence
 1 | File | `.htaccess` | Medium
 2 | File | `/?r=recruit/resume/edit&op=status` | High
 3 | File | `/add-students.php` | High
-4 | File | `/admin/conferences/get-all-status/` | High
-5 | File | `/admin/store.php` | High
-6 | File | `/admin_ping.htm` | High
-7 | File | `/ample/app/action/edit_product.php` | High
-8 | File | `/api/dashboard/activity` | High
-9 | File | `/api/system/sessions` | High
-10 | File | `/app/api/controller/default/Sqlite.php` | High
-11 | File | `/BRS_netgear_success.html` | High
-12 | File | `/cgi-bin/cstecgi.cgi` | High
-13 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-14 | File | `/cgi-bin/system_mgr.cgi` | High
-15 | File | `/dana-admin/user/update.cgi` | High
-16 | File | `/dashboard/deposit` | High
-17 | File | `/goform/execCommand` | High
-18 | File | `/goform/setAutoPing` | High
-19 | File | `/home/<user>/SecurityOnion/setup/so-setup` | High
-20 | File | `/importexport.php` | High
-21 | File | `/login` | Low
-22 | File | `/LoginAdmin` | Medium
-23 | File | `/myprofile.php` | High
-24 | File | `/rom-0` | Low
-25 | File | `/scripts/uistrings.cgi` | High
-26 | File | `/Supply_Management_System/admin/edit_retailer.php` | High
-27 | ... | ... | ...
+4 | File | `/addcategory.php` | High
+5 | File | `/admin/conferences/get-all-status/` | High
+6 | File | `/admin/store.php` | High
+7 | File | `/admin/system.html` | High
+8 | File | `/admin_ping.htm` | High
+9 | File | `/ample/app/action/edit_product.php` | High
+10 | File | `/api/dashboard/activity` | High
+11 | File | `/api/system/sessions` | High
+12 | File | `/app/api/controller/default/Sqlite.php` | High
+13 | File | `/BRS_netgear_success.html` | High
+14 | File | `/cgi-bin/cstecgi.cgi` | High
+15 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+16 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+17 | File | `/cgi-bin/system_mgr.cgi` | High
+18 | File | `/dana-admin/user/update.cgi` | High
+19 | File | `/dashboard/deposit` | High
+20 | File | `/ecommerce/admin/products/controller.php` | High
+21 | File | `/endpoint/delete-account.php` | High
+22 | File | `/endpoint/delete-expense.php` | High
+23 | File | `/forget.php` | Medium
+24 | File | `/goform/execCommand` | High
+25 | File | `/goform/setAutoPing` | High
+26 | File | `/home/<user>/SecurityOnion/setup/so-setup` | High
+27 | File | `/importexport.php` | High
+28 | File | `/index.php?action=editManager` | High
+29 | File | `/index/ajax/lang` | High
+30 | File | `/login` | Low
+31 | ... | ... | ...
 
-There are 226 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 265 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -53,9 +53,10 @@ ID | Type | Indicator | Confidence
 8 | File | `/usr/sbin/httpd` | High
 9 | File | `/util/print.c` | High
 10 | File | `/web/MCmsAction.java` | High
-11 | ... | ... | ...
+11 | File | `abc-pcie.c` | Medium
+12 | ... | ... | ...
 
-There are 81 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 91 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

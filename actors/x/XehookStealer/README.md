@@ -9,6 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with XehookStealer:
 
 * [US](https://vuldb.com/?country.us)
+* [DE](https://vuldb.com/?country.de)
+* [IR](https://vuldb.com/?country.ir)
 
 ## IOC - Indicator of Compromise
 
@@ -16,8 +18,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [116.203.167.104](https://vuldb.com/?ip.116.203.167.104) | static.104.167.203.116.clients.your-server.de | - | High
-2 | [152.89.218.110](https://vuldb.com/?ip.152.89.218.110) | - | - | High
+1 | [49.12.115.241](https://vuldb.com/?ip.49.12.115.241) | static.241.115.12.49.clients.your-server.de | - | High
+2 | [65.109.218.88](https://vuldb.com/?ip.65.109.218.88) | static.88.218.109.65.clients.your-server.de | - | High
+3 | [65.109.242.248](https://vuldb.com/?ip.65.109.242.248) | static.248.242.109.65.clients.your-server.de | - | High
+4 | ... | ... | ... | ...
+
+There are 10 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -26,7 +32,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1059.007 | CWE-79 | Cross Site Scripting | High
-2 | T1505 | CWE-89 | SQL Injection | High
+2 | T1068 | CWE-268 | Execution with Unnecessary Privileges | High
+3 | T1202 | CWE-78 | Command Shell in Externally Accessible Directory | High
+4 | ... | ... | ... | ...
+
+There are 2 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -34,15 +44,26 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | Argument | `calendar_request_params[dates_ddmmyy_csv]'` | High
-2 | Argument | `SECRET_KEY` | Medium
+1 | File | `/ecshop/admin/template.php` | High
+2 | File | `my_profile.php` | High
+3 | File | `ZenSysSrv.exe` | High
+4 | ... | ... | ...
+
+There are 2 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://bazaar.abuse.ch/sample/51c043bdb6901b9b5afbc976286703158d5ac1d362666c0ae8101b92075e18e9/
+* https://search.censys.io/hosts/49.12.115.241
+* https://search.censys.io/hosts/49.12.115.241+static.241.115.12.49.clients.your-server.de
+* https://search.censys.io/hosts/116.202.4.145
+* https://search.censys.io/hosts/116.203.15.245
 * https://search.censys.io/hosts/116.203.167.104
 * https://search.censys.io/hosts/152.89.218.110
+* https://search.censys.io/hosts/159.69.246.30
+* https://threatfox.abuse.ch
 
 ## Literature
 

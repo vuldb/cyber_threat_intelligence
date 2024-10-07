@@ -56,15 +56,17 @@ ID | IP address | Hostname | Campaign | Confidence
 33 | [44.201.221.153](https://vuldb.com/?ip.44.201.221.153) | ec2-44-201-221-153.compute-1.amazonaws.com | - | Medium
 34 | [45.61.130.7](https://vuldb.com/?ip.45.61.130.7) | - | - | High
 35 | [45.74.8.236](https://vuldb.com/?ip.45.74.8.236) | - | - | High
-36 | [45.81.225.208](https://vuldb.com/?ip.45.81.225.208) | vm4424272.52ssd.had.wf | - | High
-37 | [45.88.67.75](https://vuldb.com/?ip.45.88.67.75) | - | - | High
-38 | [45.130.141.212](https://vuldb.com/?ip.45.130.141.212) | - | - | High
-39 | [45.139.105.105](https://vuldb.com/?ip.45.139.105.105) | - | - | High
-40 | [45.141.26.197](https://vuldb.com/?ip.45.141.26.197) | 45-141-26-197.static.cloudforest.co.th | - | High
-41 | [45.141.26.234](https://vuldb.com/?ip.45.141.26.234) | 45-141-26-234.static.cloudforest.co.th | - | High
-42 | ... | ... | ... | ...
+36 | [45.76.68.94](https://vuldb.com/?ip.45.76.68.94) | 45.76.68.94.vultrusercontent.com | - | Medium
+37 | [45.81.225.208](https://vuldb.com/?ip.45.81.225.208) | vm4424272.52ssd.had.wf | - | High
+38 | [45.88.67.75](https://vuldb.com/?ip.45.88.67.75) | - | - | High
+39 | [45.130.141.212](https://vuldb.com/?ip.45.130.141.212) | - | - | High
+40 | [45.139.105.105](https://vuldb.com/?ip.45.139.105.105) | - | - | High
+41 | [45.141.26.197](https://vuldb.com/?ip.45.141.26.197) | 45-141-26-197.static.cloudforest.co.th | - | High
+42 | [45.141.26.234](https://vuldb.com/?ip.45.141.26.234) | 45-141-26-234.static.cloudforest.co.th | - | High
+43 | [45.145.166.131](https://vuldb.com/?ip.45.145.166.131) | - | - | High
+44 | ... | ... | ... | ...
 
-There are 166 more IOC items available. Please use our online service to access the data.
+There are 173 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -72,12 +74,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-29, CWE-37, CWE-425 | Path Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-29, CWE-36, CWE-37, CWE-425 | Path Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+5 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
 
@@ -87,43 +88,53 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/?g=net_pro_keyword_import_save` | High
-2 | File | `/admin/applicants/index.php` | High
-3 | File | `/admin/category/index.php` | High
+1 | File | `/3/E_bak5.1/upload/eginfo.php` | High
+2 | File | `/?g=net_pro_keyword_import_save` | High
+3 | File | `/admin/admin_group.php?mode=delete/group_id=3` | High
 4 | File | `/admin/index2.html` | High
 5 | File | `/admin/login.php` | High
-6 | File | `/admin/service_requests/manage_inventory.php` | High
-7 | File | `/adminPage/conf/reload` | High
-8 | File | `/cgi-bin/nas_sharing.cgi` | High
-9 | File | `/cgi-bin/wlogin.cgi` | High
-10 | File | `/classes/SystemSettings.php?f=update_settings` | High
-11 | File | `/control/register_case.php` | High
-12 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
-13 | File | `/devinfo` | Medium
-14 | File | `/DXR.axd` | Medium
-15 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-16 | File | `/forum/away.php` | High
-17 | File | `/goform/` | Medium
-18 | File | `/html/portal/flash.jsp` | High
-19 | File | `/index.php` | Medium
-20 | File | `/index.php?app=main&func=passport&action=login` | High
-21 | File | `/index/ajax/lang` | High
-22 | File | `/Interface/DevManage/VM.php` | High
-23 | File | `/ipms/imageConvert/image` | High
-24 | File | `/log/decodmail.php` | High
-25 | File | `/main/webservices/additional_webservices.php` | High
-26 | File | `/mfsNotice/page` | High
-27 | File | `/ndmComponents.js` | High
-28 | File | `/newvehicle.php` | High
-29 | File | `/novel/userFeedback/list` | High
-30 | File | `/out.php` | Medium
-31 | File | `/PC/WebService.asmx` | High
-32 | File | `/project/tasks/list` | High
-33 | File | `/register.php` | High
-34 | File | `/secret_coder.sql` | High
-35 | ... | ... | ...
+6 | File | `/admin/manage_user.php` | High
+7 | File | `/admin/service_requests/manage_inventory.php` | High
+8 | File | `/adminPage/conf/reload` | High
+9 | File | `/api/Cdn/GetFile` | High
+10 | File | `/api/system/dept/tree?sort=parentId%2Casc&sort=sort%2Casc` | High
+11 | File | `/api2/html/` | Medium
+12 | File | `/bin/boa` | Medium
+13 | File | `/cgi-bin/cstecgi.cgi` | High
+14 | File | `/cgi-bin/hd_config.cgi` | High
+15 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+16 | File | `/cgi-bin/nas_sharing.cgi` | High
+17 | File | `/cgi-bin/webfile_mgr.cgi` | High
+18 | File | `/cgi-bin/wlogin.cgi` | High
+19 | File | `/classes/Master.php?f=delete_category` | High
+20 | File | `/classes/SystemSettings.php?f=update_settings` | High
+21 | File | `/control/register_case.php` | High
+22 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
+23 | File | `/devinfo` | Medium
+24 | File | `/DXR.axd` | Medium
+25 | File | `/ecommerce/admin/products/controller.php` | High
+26 | File | `/ecommerce/popup_Item.php` | High
+27 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+28 | File | `/endpoint/delete-bookmark.php` | High
+29 | File | `/forum/away.php` | High
+30 | File | `/goform/saveParentControlInfo` | High
+31 | File | `/goform/setDebugCfg` | High
+32 | File | `/h.php/general/config?ref=addtabs` | High
+33 | File | `/html/portal/flash.jsp` | High
+34 | File | `/include/dialog/select_templets_post.php` | High
+35 | File | `/includes/fileReceive.php` | High
+36 | File | `/index.php` | Medium
+37 | File | `/index.php?action=editManager` | High
+38 | File | `/index.php?app=main&func=passport&action=login` | High
+39 | File | `/index/ajax/lang` | High
+40 | File | `/Interface/DevManage/VM.php` | High
+41 | File | `/ipms/imageConvert/image` | High
+42 | File | `/log/decodmail.php` | High
+43 | File | `/login/signOut` | High
+44 | File | `/main/webservices/additional_webservices.php` | High
+45 | ... | ... | ...
 
-There are 300 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 389 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -136,7 +147,9 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://bazaar.abuse.ch/sample/1707efe35749f4477db431f041481a46dd48d22431e6846f4e13bff760dc4033/
 * https://bazaar.abuse.ch/sample/a19a8e6782f0008c3b10276c764962f6f27b27754d826f8d3679ef15bea122d5/
 * https://bazaar.abuse.ch/sample/d6c50d8b4d0a37b3ba41811faaedd5cd58d87fad30515bb3bf2d3f60810abb55/
+* https://blog.sekoia.io/webdav-as-a-service-uncovering-the-infrastructure-behind-emmenhtal-loader-distribution/
 * https://cert.pl/en/posts/2023/10/deworming-the-xworm/
+* https://github.com/netskopeoss/NetskopeThreatLabsIOCs/tree/main/Malware/XWorm/IOCs
 * https://isc.sans.edu/diary/rss/31112
 * https://isc.sans.edu/diary/rss/31204
 * https://threatfox.abuse.ch
@@ -149,12 +162,14 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://tria.ge/240906-azz71axcnb
 * https://tria.ge/240906-bvlpgsydpm
 * https://tria.ge/240906-e4rhwawhqc
+* https://tria.ge/reports/240911-gvwgksxbjh/
 * https://twitter.com/ScumBots/status/1633119068986257413
 * https://urlhaus.abuse.ch/url/3136177/
 * https://www.esentire.com/blog/dont-take-the-bait-the-xworm-tax-scam
 * https://www.joesandbox.com/analysis/1321945/0/html
 * https://www.proofpoint.com/us/blog/threat-insight/threat-actor-abuses-cloudflare-tunnels-deliver-rats
 * https://x.com/K_N1kolenko/status/1831975535389622601
+* https://x.com/K_N1kolenko/status/1838196091075908080
 * https://x.com/lontze7/status/1808013953710080351
 * https://x.com/lontze7/status/1813069414411214938
 

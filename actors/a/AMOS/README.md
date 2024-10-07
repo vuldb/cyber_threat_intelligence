@@ -49,7 +49,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 16 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -72,18 +72,19 @@ ID | Type | Indicator | Confidence
 13 | File | `/catalog/all-products` | High
 14 | File | `/cgi-bin/cstecgi.cgi` | High
 15 | File | `/changePassword` | High
-16 | File | `/edit-subject.php` | High
-17 | File | `/Employee/changepassword.php` | High
-18 | File | `/endpoint/add-user.php` | High
-19 | File | `/etc/postfix/sender_login` | High
-20 | File | `/forum/away.php` | High
-21 | File | `/goform/SetSysTimeCfg` | High
-22 | File | `/labvantage/rc?command=page&page=SampleList&_iframename=list` | High
-23 | File | `/lesson/controller.php` | High
-24 | File | `/mailcleaner.php/getStats` | High
-25 | ... | ... | ...
+16 | File | `/cloudstore/ecode/setup/ecology_dev.zip` | High
+17 | File | `/edit-subject.php` | High
+18 | File | `/Employee/changepassword.php` | High
+19 | File | `/endpoint/add-user.php` | High
+20 | File | `/etc/postfix/sender_login` | High
+21 | File | `/foms/routers/place-order.php` | High
+22 | File | `/forum/away.php` | High
+23 | File | `/goform/SetSysTimeCfg` | High
+24 | File | `/index.php` | Medium
+25 | File | `/labvantage/rc?command=page&page=SampleList&_iframename=list` | High
+26 | ... | ... | ...
 
-There are 209 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 219 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -74,9 +74,10 @@ ID | Type | Indicator | Confidence
 16 | File | `/system/dictData/loadDictItem` | High
 17 | File | `/system/user/modules/mod_users/controller.php` | High
 18 | File | `/view/vpn/autovpn/sub_commit.php` | High
-19 | ... | ... | ...
+19 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
+20 | ... | ... | ...
 
-There are 156 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 161 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

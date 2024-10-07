@@ -18,12 +18,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [5.83.162.24](https://vuldb.com/?ip.5.83.162.24) | cloud8732397.nitrado.cloud | - | High
-2 | [18.222.122.216](https://vuldb.com/?ip.18.222.122.216) | ec2-18-222-122-216.us-east-2.compute.amazonaws.com | - | Medium
-3 | [20.206.126.228](https://vuldb.com/?ip.20.206.126.228) | - | - | High
+1 | [3.145.213.63](https://vuldb.com/?ip.3.145.213.63) | ec2-3-145-213-63.us-east-2.compute.amazonaws.com | - | Medium
+2 | [5.83.162.24](https://vuldb.com/?ip.5.83.162.24) | cloud8732397.nitrado.cloud | - | High
+3 | [18.222.122.216](https://vuldb.com/?ip.18.222.122.216) | ec2-18-222-122-216.us-east-2.compute.amazonaws.com | - | Medium
 4 | ... | ... | ... | ...
 
-There are 2 more IOC items available. Please use our online service to access the data.
+There are 3 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -45,11 +45,11 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/launch_message.php` | High
-2 | File | `content/content.blueprintspages.php` | High
-3 | File | `ext/standard/var_unserializer.c` | High
+2 | File | `/endpoint/delete-account.php` | High
+3 | File | `content/content.blueprintspages.php` | High
 4 | ... | ... | ...
 
-There are 18 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 20 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -57,6 +57,7 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://bazaar.abuse.ch/sample/153a5a770e7594794ce3ac19121c1ad44edc6acdf4e4ae6d77adbd964ae6609e/
 * https://bazaar.abuse.ch/sample/951c2f341e914601140aa9ead05895f6957d5cbfda80b81be99015d2be02d44f/
+* https://bazaar.abuse.ch/sample/eb5ea730abf432d169a1560ef19f6100b96aecd4a18d41fd20f9a06e2d15077e/
 * https://github.com/jeFF0Falltrades/IoCs/blob/master/Broadbased/metamorfo.md
 * https://www.cyber45.com
 

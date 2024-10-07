@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [IL](https://vuldb.com/?country.il)
 * ...
 
-There are 18 more country items available. Please use our online service to access the data.
+There are 17 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -241,7 +241,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 16 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -251,60 +251,68 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/#ilang=DE&b=c_smartenergy_swgroups` | High
 2 | File | `/.pomerium` | Medium
-3 | File | `/Account/login.php` | High
-4 | File | `/admin/` | Low
-5 | File | `/admin/ajax.php?action=delete_user` | High
-6 | File | `/admin/ajax.php?action=save_settings` | High
-7 | File | `/Admin/changepassword.php` | High
-8 | File | `/admin/general-setting` | High
-9 | File | `/admin/inquiries/view_inquiry.php` | High
-10 | File | `/admin/manage_model.php` | High
-11 | File | `/admin/manage_station.php` | High
-12 | File | `/admin/pages/` | High
-13 | File | `/admin/pages/edit_chicken.php` | High
-14 | File | `/admin/pages/student-print.php` | High
-15 | File | `/admin/projects/{projectname}/skills/{skillname}/video` | High
-16 | File | `/admin/service` | High
-17 | File | `/adminapi/system/crud` | High
-18 | File | `/adminapi/system/file/openfile` | High
-19 | File | `/admin_route/dec_service_credits.php` | High
-20 | File | `/admin_route/inc_service_credits.php` | High
-21 | File | `/api/v1/custom_component` | High
-22 | File | `/api/v4/teams//channels/deleted` | High
-23 | File | `/api/wechat/app_auth` | High
-24 | File | `/app/Http/Controllers/ImageController.php` | High
-25 | File | `/application/index/controller/Icon.php` | High
-26 | File | `/apply/index.php` | High
-27 | File | `/cancel.php` | Medium
-28 | File | `/category.php` | High
-29 | File | `/cgi-bin/cstecgi.cgi` | High
-30 | File | `/cgi-bin/nas_sharing.cgi` | High
-31 | File | `/change-language/de_DE` | High
-32 | File | `/classes/Master.php` | High
-33 | File | `/classes/Master.php?f=delete_category` | High
-34 | File | `/classes/Master.php?f=save_medicine` | High
-35 | File | `/classes/Users.php?f=delete` | High
-36 | File | `/classes/Users.php?f=save` | High
-37 | File | `/control/register_case.php` | High
-38 | File | `/devinfo` | Medium
-39 | File | `/dist/index.js` | High
-40 | File | `/download` | Medium
-41 | File | `/DXR.axd` | Medium
-42 | File | `/employee_gatepass/admin/?page=employee/manage_employee` | High
-43 | File | `/etc/shadow` | Medium
-44 | File | `/forum/away.php` | High
-45 | File | `/general/attendance/manage/ask_duty/delete.php` | High
-46 | File | `/goform/apPortalOneKeyAuth` | High
-47 | File | `/goform/SetIpMacBind` | High
-48 | File | `/goform/WifiExtraSet` | High
-49 | File | `/guestbook` | Medium
-50 | File | `/index.jsp#settings` | High
-51 | File | `/index.php` | Medium
-52 | File | `/index.php/ccm/system/file/upload` | High
-53 | File | `/Interface/DevManage/VM.php` | High
-54 | ... | ... | ...
+3 | File | `/abcd/opac/php/otros_sitios.php` | High
+4 | File | `/Account/login.php` | High
+5 | File | `/admin/` | Low
+6 | File | `/admin/?page=categories/view_category` | High
+7 | File | `/admin/?page=musics/manage_music` | High
+8 | File | `/admin/ajax.php?action=delete_user` | High
+9 | File | `/admin/ajax.php?action=save_settings` | High
+10 | File | `/Admin/changepassword.php` | High
+11 | File | `/admin/emp-profile-avatar.php` | High
+12 | File | `/admin/general-setting` | High
+13 | File | `/admin/inquiries/view_inquiry.php` | High
+14 | File | `/admin/manage_model.php` | High
+15 | File | `/admin/manage_station.php` | High
+16 | File | `/admin/order.php` | High
+17 | File | `/admin/pages/` | High
+18 | File | `/admin/pages/edit_chicken.php` | High
+19 | File | `/admin/pages/student-print.php` | High
+20 | File | `/admin/projects/{projectname}/skills/{skillname}/video` | High
+21 | File | `/admin/service` | High
+22 | File | `/adminapi/system/crud` | High
+23 | File | `/adminapi/system/file/openfile` | High
+24 | File | `/admin_route/dec_service_credits.php` | High
+25 | File | `/admin_route/inc_service_credits.php` | High
+26 | File | `/api/file/downloadfile` | High
+27 | File | `/api/v1/custom_component` | High
+28 | File | `/api/v4/teams//channels/deleted` | High
+29 | File | `/api/wechat/app_auth` | High
+30 | File | `/app/Http/Controllers/ImageController.php` | High
+31 | File | `/application/index/controller/Icon.php` | High
+32 | File | `/apply/index.php` | High
+33 | File | `/cancel.php` | Medium
+34 | File | `/category.php` | High
+35 | File | `/cgi-bin/cstecgi.cgi` | High
+36 | File | `/cgi-bin/hd_config.cgi` | High
+37 | File | `/cgi-bin/nas_sharing.cgi` | High
+38 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+39 | File | `/classes/Master.php` | High
+40 | File | `/classes/Master.php?f=delete_category` | High
+41 | File | `/classes/Master.php?f=save_medicine` | High
+42 | File | `/classes/SystemSettings.php?f=update_settings` | High
+43 | File | `/classes/Users.php?f=delete` | High
+44 | File | `/classes/Users.php?f=save` | High
+45 | File | `/control/register_case.php` | High
+46 | File | `/controllers/add_client.php` | High
+47 | File | `/controllers/add_user.php` | High
+48 | File | `/devinfo` | Medium
+49 | File | `/download` | Medium
+50 | File | `/downloadFile.php` | High
+51 | File | `/DXR.axd` | Medium
+52 | File | `/employee_gatepass/admin/?page=employee/manage_employee` | High
+53 | File | `/endpoint/add-folder.php` | High
+54 | File | `/endpoint/delete-mark.php` | High
+55 | File | `/etc/shadow` | Medium
+56 | File | `/file_manager/login.php` | High
+57 | File | `/film-rating.php` | High
+58 | File | `/foms/routers/place-order.php` | High
+59 | File | `/forum/away.php` | High
+60 | File | `/general/attendance/manage/ask_duty/delete.php` | High
+61 | File | `/goform/apPortalOneKeyAuth` | High
+62 | ... | ... | ...
 
-There are 469 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 542 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -89,21 +89,21 @@ ID | Type | Indicator | Confidence
 5 | File | `/Application/Admin/Controller/ConfigController.class.php` | High
 6 | File | `/bin/boa` | Medium
 7 | File | `/cimom` | Low
-8 | File | `/etc/sysconfig/tomcat` | High
-9 | File | `/forum/away.php` | High
-10 | File | `/getcfg.php` | Medium
-11 | File | `/goform` | Low
-12 | File | `/login/index.php` | High
-13 | File | `/mgmt/tm/util/bash` | High
-14 | File | `/printers` | Medium
-15 | File | `/SASWebReportStudio/logonAndRender.do` | High
-16 | File | `/src/dede/makehtml_js_action.php` | High
-17 | File | `/sysmanage/edit_manageadmin.php` | High
-18 | File | `/uncpath/` | Medium
-19 | File | `/wp-json/oembed/1.0/embed?url` | High
+8 | File | `/cms/category/list` | High
+9 | File | `/etc/sysconfig/tomcat` | High
+10 | File | `/forum/away.php` | High
+11 | File | `/getcfg.php` | Medium
+12 | File | `/goform` | Low
+13 | File | `/login/index.php` | High
+14 | File | `/mgmt/tm/util/bash` | High
+15 | File | `/printers` | Medium
+16 | File | `/SASWebReportStudio/logonAndRender.do` | High
+17 | File | `/src/dede/makehtml_js_action.php` | High
+18 | File | `/sysmanage/edit_manageadmin.php` | High
+19 | File | `/uncpath/` | Medium
 20 | ... | ... | ...
 
-There are 162 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 169 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

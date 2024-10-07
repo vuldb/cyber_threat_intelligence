@@ -76,7 +76,7 @@ ID | Type | Indicator | Confidence
 1 | File | `//etc/RT2870STA.dat` | High
 2 | File | `/admin/ajax.php` | High
 3 | File | `/admin/api/theme-edit/` | High
-4 | File | `/admin/fst_upload.inc.php` | High
+4 | File | `/admin/blood/update/o-.php` | High
 5 | File | `/admin/index2.html` | High
 6 | File | `/admin/login.php` | High
 7 | File | `/admin/maintenance/view_designation.php` | High
@@ -84,40 +84,39 @@ ID | Type | Indicator | Confidence
 9 | File | `/api/controllers/merchant/shop/PosterController.php` | High
 10 | File | `/api/files/recipepictures/` | High
 11 | File | `/api/jolokia org.jolokia.http.HttpRequestHandler#handlePostRequest` | High
-12 | File | `/apply.cgi` | Medium
-13 | File | `/cgi-bin/adm.cgi` | High
-14 | File | `/cgi-bin/cstecgi.cgi` | High
-15 | File | `/cgi-bin/go` | Medium
-16 | File | `/cgi-bin/wlogin.cgi` | High
-17 | File | `/classes/Master.php` | High
-18 | File | `/contact.php` | Medium
-19 | File | `/CPE` | Low
-20 | File | `/debug/pprof` | Medium
-21 | File | `/etc/gsissh/sshd_config` | High
-22 | File | `/face-recognition-php/facepay-master/camera.php` | High
-23 | File | `/forum/away.php` | High
-24 | File | `/forum/PostPrivateMessage` | High
-25 | File | `/home/masterConsole` | High
-26 | File | `/hrm/employeeadd.php` | High
-27 | File | `/hrm/employeeview.php` | High
-28 | File | `/index/ajax/lang` | High
-29 | File | `/members/poster.php` | High
-30 | File | `/mics/j_spring_security_check` | High
-31 | File | `/opt/vyatta/share/vyatta-cfg/templates/system/static-host-mapping/host-name/node.def` | High
-32 | File | `/owa/auth/logon.aspx` | High
-33 | File | `/php/ping.php` | High
-34 | File | `/Script/admin/core/update_policy` | High
-35 | File | `/scripts/unlock_tasks.php` | High
-36 | File | `/secserver` | Medium
-37 | File | `/Session` | Medium
-38 | File | `/spip.php` | Medium
-39 | File | `/staff_login.php` | High
-40 | File | `/SysInfo1.htm` | High
-41 | File | `/sysinfo_json.cgi` | High
-42 | File | `/system/admin/add_group_save` | High
-43 | ... | ... | ...
+12 | File | `/app/uploading/upload-mp3.php` | High
+13 | File | `/apply.cgi` | Medium
+14 | File | `/bitrix/admin/ldap_server_edit.php` | High
+15 | File | `/cgi-bin/adm.cgi` | High
+16 | File | `/cgi-bin/cstecgi.cgi` | High
+17 | File | `/cgi-bin/go` | Medium
+18 | File | `/cgi-bin/wlogin.cgi` | High
+19 | File | `/classes/Master.php` | High
+20 | File | `/contact.php` | Medium
+21 | File | `/CPE` | Low
+22 | File | `/debug/pprof` | Medium
+23 | File | `/etc/gsissh/sshd_config` | High
+24 | File | `/forum/away.php` | High
+25 | File | `/forum/PostPrivateMessage` | High
+26 | File | `/home/masterConsole` | High
+27 | File | `/index/ajax/lang` | High
+28 | File | `/members/poster.php` | High
+29 | File | `/mics/j_spring_security_check` | High
+30 | File | `/opt/vyatta/share/vyatta-cfg/templates/system/static-host-mapping/host-name/node.def` | High
+31 | File | `/owa/auth/logon.aspx` | High
+32 | File | `/php/ping.php` | High
+33 | File | `/Script/admin/core/update_policy` | High
+34 | File | `/scripts/unlock_tasks.php` | High
+35 | File | `/secserver` | Medium
+36 | File | `/Session` | Medium
+37 | File | `/spip.php` | Medium
+38 | File | `/staff_login.php` | High
+39 | File | `/SysInfo1.htm` | High
+40 | File | `/sysinfo_json.cgi` | High
+41 | File | `/system/admin/add_group_save` | High
+42 | ... | ... | ...
 
-There are 372 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 364 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

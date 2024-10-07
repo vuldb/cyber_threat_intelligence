@@ -42,7 +42,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-29, CWE-425 | Path Traversal | High
-2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
@@ -58,55 +58,59 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/?import` | Medium
-2 | File | `/add_post_sql.php` | High
-3 | File | `/admin/` | Low
-4 | File | `/admin/add_ikev2.php` | High
-5 | File | `/admin/ajax.php?action=save_student` | High
-6 | File | `/admin/article.php` | High
-7 | File | `/admin/book_row.php` | High
-8 | File | `/admin/contact-us.php` | High
-9 | File | `/admin/general.cgi` | High
-10 | File | `/admin/index.php` | High
-11 | File | `/admin/reminders/manage_reminder.php` | High
-12 | File | `/admin/tag/delete` | High
-13 | File | `/adminpanel/admin/query/deleteCourseExe.php` | High
-14 | File | `/ajax.php?action=login` | High
-15 | File | `/api/baskets/{name}` | High
-16 | File | `/API/info` | Medium
-17 | File | `/api/jmeter/download/files` | High
-18 | File | `/api/v1/terminal/sessions/?limit=1` | High
-19 | File | `/api/wechat/app_auth` | High
-20 | File | `/application/index/controller/Screen.php` | High
-21 | File | `/apply.cgi` | Medium
-22 | File | `/authMonitCallcenter` | High
-23 | File | `/cap.js` | Low
-24 | File | `/CCMAdmin/serverlist.asp` | High
-25 | File | `/cgi-bin/cstecgi.cgi` | High
-26 | File | `/cgi-bin/info.cgi` | High
-27 | File | `/cgi-bin/luci/api/auth` | High
-28 | File | `/cgi-bin/nas_sharing.cgi` | High
-29 | File | `/cgi-bin/system_mgr.cgi` | High
-30 | File | `/cgi-bin/webviewer_login_page` | High
-31 | File | `/cgi/get_param.cgi` | High
-32 | File | `/classes/Master.php` | High
-33 | File | `/classes/Users.php?f=save` | High
-34 | File | `/csms/admin/inquiries/view_details.php` | High
-35 | File | `/cstecgi.cgi` | Medium
-36 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
-37 | File | `/devinfo` | Medium
-38 | File | `/downloadFile.php` | High
-39 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-40 | File | `/emgui/rest/preferences/PREF_HOME_PAGE/sponsor/3/` | High
-41 | File | `/endpoint/delete-computer.php` | High
-42 | File | `/endpoint/delete-expense.php` | High
-43 | File | `/forum/away.php` | High
-44 | File | `/goform/openSchedWifi` | High
-45 | File | `/goform/SetStaticRouteCfg` | High
-46 | File | `/group1/uploa` | High
-47 | File | `/home/search` | Medium
-48 | ... | ... | ...
+2 | File | `/?page=tracks` | High
+3 | File | `/addclient1.php` | High
+4 | File | `/add_post_sql.php` | High
+5 | File | `/admin/` | Low
+6 | File | `/admin/add_ikev2.php` | High
+7 | File | `/admin/ajax.php?action=save_student` | High
+8 | File | `/admin/article.php` | High
+9 | File | `/admin/book_row.php` | High
+10 | File | `/admin/contact-us.php` | High
+11 | File | `/admin/general.cgi` | High
+12 | File | `/admin/index.php` | High
+13 | File | `/admin/index.php?r=banner%2Fbanner-create` | High
+14 | File | `/admin/reminders/manage_reminder.php` | High
+15 | File | `/admin/tag/delete` | High
+16 | File | `/admin/user/user-move-run.php` | High
+17 | File | `/adminpanel/admin/query/deleteCourseExe.php` | High
+18 | File | `/ajax.php?action=login` | High
+19 | File | `/api/baskets/{name}` | High
+20 | File | `/API/info` | Medium
+21 | File | `/api/jmeter/download/files` | High
+22 | File | `/api/v1/get-upload-file` | High
+23 | File | `/api/v1/terminal/sessions/?limit=1` | High
+24 | File | `/api/wechat/app_auth` | High
+25 | File | `/application/index/controller/Screen.php` | High
+26 | File | `/apply.cgi` | Medium
+27 | File | `/authMonitCallcenter` | High
+28 | File | `/cap.js` | Low
+29 | File | `/CCMAdmin/serverlist.asp` | High
+30 | File | `/cgi-bin/cstecgi.cgi` | High
+31 | File | `/cgi-bin/hd_config.cgi` | High
+32 | File | `/cgi-bin/info.cgi` | High
+33 | File | `/cgi-bin/luci/api/auth` | High
+34 | File | `/cgi-bin/nas_sharing.cgi` | High
+35 | File | `/cgi-bin/system_mgr.cgi` | High
+36 | File | `/cgi-bin/webviewer_login_page` | High
+37 | File | `/cgi/get_param.cgi` | High
+38 | File | `/classes/Master.php` | High
+39 | File | `/classes/Users.php?f=save` | High
+40 | File | `/csms/admin/inquiries/view_details.php` | High
+41 | File | `/cstecgi.cgi` | Medium
+42 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
+43 | File | `/devinfo` | Medium
+44 | File | `/downloadFile.php` | High
+45 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+46 | File | `/emgui/rest/preferences/PREF_HOME_PAGE/sponsor/3/` | High
+47 | File | `/endpoint/delete-computer.php` | High
+48 | File | `/endpoint/delete-expense.php` | High
+49 | File | `/endpoint/delete-mark.php` | High
+50 | File | `/endpoint/update.php` | High
+51 | File | `/export` | Low
+52 | ... | ... | ...
 
-There are 420 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 454 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

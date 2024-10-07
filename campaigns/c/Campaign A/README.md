@@ -50,7 +50,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 12 more TTP items available. Please use our online service to access the data.
+There are 13 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -63,33 +63,33 @@ ID | Type | Indicator | Confidence
 3 | File | `/apply/index.php` | High
 4 | File | `/cgi-bin/nas_sharing.cgi` | High
 5 | File | `/check_availability.php` | High
-6 | File | `/forum/away.php` | High
-7 | File | `/general/email/outbox/delete.php` | High
-8 | File | `/manage_sy.php` | High
-9 | File | `/oauth/idp/.well-known/openid-configuration` | High
-10 | File | `/resourceNode/jdbcResourceEdit.jsf` | High
-11 | File | `/resourceNode/resources.jsf` | High
-12 | File | `/Script/admin/core/update_policy` | High
-13 | File | `/spip.php` | Medium
-14 | File | `/view/student_exam_mark_insert_form1.php` | High
-15 | File | `3.6.cpj` | Low
-16 | File | `404.php` | Low
-17 | File | `adclick.php` | Medium
-18 | File | `add-testimonial.php` | High
-19 | File | `admin.asp` | Medium
-20 | File | `admin.aspx` | Medium
-21 | File | `admin.php` | Medium
-22 | File | `admin/conf_users_edit.php` | High
-23 | File | `admin/member_details.php` | High
-24 | File | `admin_chatconfig.php` | High
-25 | File | `admin_iplog.php` | High
-26 | File | `ajaxp.php` | Medium
-27 | File | `alphabet.php` | Medium
-28 | File | `app/controllers/oauth.js` | High
-29 | File | `appointment-bwdates-reports-details.php` | High
+6 | File | `/foms/routers/place-order.php` | High
+7 | File | `/forum/away.php` | High
+8 | File | `/general/email/outbox/delete.php` | High
+9 | File | `/manage_sy.php` | High
+10 | File | `/oauth/idp/.well-known/openid-configuration` | High
+11 | File | `/resourceNode/jdbcResourceEdit.jsf` | High
+12 | File | `/resourceNode/resources.jsf` | High
+13 | File | `/Script/admin/core/update_policy` | High
+14 | File | `/spip.php` | Medium
+15 | File | `/view/student_exam_mark_insert_form1.php` | High
+16 | File | `3.6.cpj` | Low
+17 | File | `404.php` | Low
+18 | File | `adclick.php` | Medium
+19 | File | `add-testimonial.php` | High
+20 | File | `admin.asp` | Medium
+21 | File | `admin.aspx` | Medium
+22 | File | `admin.php` | Medium
+23 | File | `admin/conf_users_edit.php` | High
+24 | File | `admin/member_details.php` | High
+25 | File | `admin_chatconfig.php` | High
+26 | File | `admin_iplog.php` | High
+27 | File | `ajaxp.php` | Medium
+28 | File | `alphabet.php` | Medium
+29 | File | `app/controllers/oauth.js` | High
 30 | ... | ... | ...
 
-There are 250 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 253 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

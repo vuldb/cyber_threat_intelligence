@@ -88,7 +88,8 @@ ID | IP address | Hostname | Campaign | Confidence
 65 | [49.12.5.55](https://vuldb.com/?ip.49.12.5.55) | static.55.5.12.49.clients.your-server.de | - | High
 66 | [49.12.69.202](https://vuldb.com/?ip.49.12.69.202) | static.202.69.12.49.clients.your-server.de | - | High
 67 | [49.12.189.93](https://vuldb.com/?ip.49.12.189.93) | static.93.189.12.49.clients.your-server.de | - | High
-68 | ... | ... | ... | ...
+68 | [50.16.218.217](https://vuldb.com/?ip.50.16.218.217) | ec2-50-16-218-217.compute-1.amazonaws.com | - | Medium
+69 | ... | ... | ... | ...
 
 There are 270 more IOC items available. Please use our online service to access the data.
 
@@ -103,7 +104,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+6 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 7 | ... | ... | ... | ...
 
 There are 22 more TTP items available. Please use our online service to access the data.
@@ -122,45 +123,47 @@ ID | Type | Indicator | Confidence
 6 | File | `/admin/edit-post.php` | High
 7 | File | `/admin/index2.html` | High
 8 | File | `/admin/modal_add_product.php` | High
-9 | File | `/admin/positions_add.php` | High
-10 | File | `/adminPage/conf/reload` | High
-11 | File | `/api/baskets/{name}` | High
-12 | File | `/api/database` | High
-13 | File | `/app/index/controller/Common.php` | High
-14 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
-15 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
-16 | File | `/applications/nexus/modules/front/store/store.php` | High
-17 | File | `/App_Resource/UEditor/server/upload.aspx` | High
-18 | File | `/bitrix/admin/ldap_server_edit.php` | High
-19 | File | `/c/PluginsController.php` | High
-20 | File | `/category.php` | High
+9 | File | `/adminPage/conf/reload` | High
+10 | File | `/api/baskets/{name}` | High
+11 | File | `/api/database` | High
+12 | File | `/app/index/controller/Common.php` | High
+13 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
+14 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
+15 | File | `/applications/nexus/modules/front/store/store.php` | High
+16 | File | `/App_Resource/UEditor/server/upload.aspx` | High
+17 | File | `/bitrix/admin/ldap_server_edit.php` | High
+18 | File | `/c/PluginsController.php` | High
+19 | File | `/category.php` | High
+20 | File | `/cgi-bin/apkg_mgr.cgi` | High
 21 | File | `/cgi-bin/cstecgi.cgi` | High
-22 | File | `/cgi-bin/nas_sharing.cgi` | High
-23 | File | `/cgi-bin/photocenter_mgr.cgi` | High
-24 | File | `/chaincity/user/ticket/create` | High
-25 | File | `/classes/Master.php` | High
-26 | File | `/classes/Master.php?f=save_category` | High
-27 | File | `/classes/Users.php?f=save` | High
-28 | File | `/collection/all` | High
-29 | File | `/Controller/Ajaxfileupload.ashx` | High
-30 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
-31 | File | `/ecommerce/support_ticket` | High
-32 | File | `/ecrire/exec/puce_statut.php` | High
-33 | File | `/fftools/ffmpeg_enc.c` | High
-34 | File | `/files/` | Low
-35 | File | `/forms/doLogin` | High
-36 | File | `/formSysLog` | Medium
-37 | File | `/forum/away.php` | High
-38 | File | `/friends/ajax_invite` | High
-39 | File | `/goform/SetOnlineDevName` | High
-40 | File | `/goform/WifiGuestSet` | High
-41 | File | `/home/filter_listings` | High
-42 | File | `/includes/common/require_access_recovery.php` | High
-43 | File | `/index.php` | Medium
-44 | File | `/index.php/client/message/message_read/xxxxxxxx[random-msg-hash]` | High
-45 | ... | ... | ...
+22 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+23 | File | `/cgi-bin/nas_sharing.cgi` | High
+24 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+25 | File | `/chaincity/user/ticket/create` | High
+26 | File | `/classes/Master.php` | High
+27 | File | `/classes/Master.php?f=delete_record` | High
+28 | File | `/classes/Master.php?f=save_category` | High
+29 | File | `/classes/SystemSettings.php?f=update_settings` | High
+30 | File | `/classes/Users.php?f=save` | High
+31 | File | `/collection/all` | High
+32 | File | `/Controller/Ajaxfileupload.ashx` | High
+33 | File | `/detailed.php` | High
+34 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
+35 | File | `/dtale/chart-data/1` | High
+36 | File | `/ecommerce/support_ticket` | High
+37 | File | `/ecrire/exec/puce_statut.php` | High
+38 | File | `/etc/shadow.sample` | High
+39 | File | `/fftools/ffmpeg_enc.c` | High
+40 | File | `/files/` | Low
+41 | File | `/forms/doLogin` | High
+42 | File | `/formSysLog` | Medium
+43 | File | `/forum/away.php` | High
+44 | File | `/friends/ajax_invite` | High
+45 | File | `/goform/SetOnlineDevName` | High
+46 | File | `/h.php/page?ref=addtabs` | High
+47 | ... | ... | ...
 
-There are 394 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 409 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -216,6 +219,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://asec.ahnlab.com/en/51274/
 * https://asec.ahnlab.com/en/51444/
 * https://blog.morphisec.com/google-ppc-ads-deliver-redline-taurus-and-mini-redline-infostealers
+* https://blog.sekoia.io/webdav-as-a-service-uncovering-the-infrastructure-behind-emmenhtal-loader-distribution/
 * https://blog.talosintelligence.com/2021/01/threat-roundup-0108-0115.html
 * https://blog.talosintelligence.com/2021/02/threat-roundup-0212-0219.html
 * https://blog.talosintelligence.com/2021/06/threat-roundup-0528-0604.html

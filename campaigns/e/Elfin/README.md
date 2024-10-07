@@ -76,29 +76,30 @@ ID | Type | Indicator | Confidence
 12 | File | `/crmeb/app/admin/controller/store/CopyTaobao.php` | High
 13 | File | `/en/blog-comment-4` | High
 14 | File | `/export` | Low
-15 | File | `/forum/away.php` | High
-16 | File | `/goform/aspForm` | High
-17 | File | `/h/` | Low
-18 | File | `/hocms/classes/Master.php?f=delete_collection` | High
-19 | File | `/horde/util/go.php` | High
-20 | File | `/index.php` | Medium
-21 | File | `/mifs/c/i/reg/reg.html` | High
-22 | File | `/ms/cms/content/list.do` | High
-23 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-24 | File | `/orms/` | Low
-25 | File | `/plesk-site-preview/` | High
-26 | File | `/project/PROJECTNAME/reports/` | High
-27 | File | `/protocol/iscuser/uploadiscuser.php` | High
-28 | File | `/public/login.htm` | High
-29 | File | `/report/printlogs.php` | High
-30 | File | `/school/model/get_admin_profile.php` | High
-31 | File | `/show_news.php` | High
-32 | File | `/student-grading-system/rms.php?page=grade` | High
-33 | File | `/style/` | Low
-34 | File | `/timeline2.php` | High
-35 | ... | ... | ...
+15 | File | `/foms/routers/cancel-order.php` | High
+16 | File | `/forum/away.php` | High
+17 | File | `/goform/aspForm` | High
+18 | File | `/h/` | Low
+19 | File | `/hocms/classes/Master.php?f=delete_collection` | High
+20 | File | `/horde/util/go.php` | High
+21 | File | `/index.php` | Medium
+22 | File | `/mifs/c/i/reg/reg.html` | High
+23 | File | `/ms/cms/content/list.do` | High
+24 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+25 | File | `/orms/` | Low
+26 | File | `/plesk-site-preview/` | High
+27 | File | `/project/PROJECTNAME/reports/` | High
+28 | File | `/protocol/iscuser/uploadiscuser.php` | High
+29 | File | `/public/login.htm` | High
+30 | File | `/report/printlogs.php` | High
+31 | File | `/school/model/get_admin_profile.php` | High
+32 | File | `/show_news.php` | High
+33 | File | `/student-grading-system/rms.php?page=grade` | High
+34 | File | `/style/` | Low
+35 | File | `/timeline2.php` | High
+36 | ... | ... | ...
 
-There are 299 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 305 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

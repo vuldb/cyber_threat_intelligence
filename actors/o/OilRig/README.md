@@ -60,16 +60,16 @@ ID | Type | Indicator | Confidence
 9 | File | `/HNAP1` | Low
 10 | File | `/horde/util/go.php` | High
 11 | File | `/login.html` | Medium
-12 | File | `/proc/#####/fd/3` | High
-13 | File | `/squashfs-root/www/HNAP1/control/SetWizardConfig.php` | High
-14 | File | `/uir/` | Low
-15 | File | `/uncpath/` | Medium
-16 | File | `/xpdf/Stream.cc` | High
-17 | File | `actions.hsp` | Medium
-18 | File | `adclick.php` | Medium
+12 | File | `/models/management_model.php` | High
+13 | File | `/proc/#####/fd/3` | High
+14 | File | `/squashfs-root/www/HNAP1/control/SetWizardConfig.php` | High
+15 | File | `/uir/` | Low
+16 | File | `/uncpath/` | Medium
+17 | File | `/xpdf/Stream.cc` | High
+18 | File | `actions.hsp` | Medium
 19 | ... | ... | ...
 
-There are 155 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 158 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

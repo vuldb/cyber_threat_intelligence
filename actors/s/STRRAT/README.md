@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with STRRAT:
 
 * [CN](https://vuldb.com/?country.cn)
-* [RU](https://vuldb.com/?country.ru)
 * [US](https://vuldb.com/?country.us)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -85,7 +85,7 @@ ID | IP address | Hostname | Campaign | Confidence
 62 | [45.137.22.251](https://vuldb.com/?ip.45.137.22.251) | hosted-by.rootlayer.net | - | High
 63 | ... | ... | ... | ...
 
-There are 247 more IOC items available. Please use our online service to access the data.
+There are 248 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -124,17 +124,17 @@ ID | Type | Indicator | Confidence
 14 | File | `/cgi-bin/cstecgi.cgi` | High
 15 | File | `/cgi-bin/wlogin.cgi` | High
 16 | File | `/changePassword` | High
-17 | File | `/edit-subject.php` | High
-18 | File | `/endpoint/add-user.php` | High
-19 | File | `/etc/postfix/sender_login` | High
-20 | File | `/farm/product.php` | High
-21 | File | `/forum/away.php` | High
-22 | File | `/goform/SetSysTimeCfg` | High
-23 | File | `/goform/WifiExtraSet` | High
-24 | File | `/index.php?app=main&inc=feature_firewall&op=firewall_list` | High
+17 | File | `/clientdetails/admin/regester.php` | High
+18 | File | `/edit-subject.php` | High
+19 | File | `/endpoint/add-user.php` | High
+20 | File | `/etc/postfix/sender_login` | High
+21 | File | `/etc/shadow.sample` | High
+22 | File | `/farm/product.php` | High
+23 | File | `/foms/routers/place-order.php` | High
+24 | File | `/forum/away.php` | High
 25 | ... | ... | ...
 
-There are 207 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 213 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -159,6 +159,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://tria.ge/211019-reeh8sfhg7
 * https://tria.ge/220321-tln3cshddj
 * https://tria.ge/220512-vwlweshcaq
+* https://tria.ge/240906-zfcd9swhmm/behavioral2
 * https://twitter.com/0xToxin/status/1590357375311302656
 * https://twitter.com/James_inthe_box/status/1656306907030884352
 

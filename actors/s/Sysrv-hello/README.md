@@ -36,11 +36,11 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `install/update.php` | High
-2 | File | `twitter-liveblog.php` | High
-3 | Argument | `mashtlb_twitter_username` | High
+2 | File | `kernel/user_namespace.c` | High
+3 | File | `twitter-liveblog.php` | High
 4 | ... | ... | ...
 
-There are 1 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 2 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

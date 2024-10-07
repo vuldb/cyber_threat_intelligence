@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [CN](https://vuldb.com/?country.cn)
 * [RU](https://vuldb.com/?country.ru)
-* [PL](https://vuldb.com/?country.pl)
+* [DE](https://vuldb.com/?country.de)
 * ...
 
 There are 8 more country items available. Please use our online service to access the data.
@@ -36,13 +36,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Path Traversal | High
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -50,30 +50,40 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/add_ikev2.php` | High
-2 | File | `/admin/category_save.php` | High
-3 | File | `/admin/list_ipAddressPolicy.php` | High
-4 | File | `/admin/manage_model.php` | High
-5 | File | `/admin/manage_user.php` | High
-6 | File | `/admin/subject.php` | High
-7 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-8 | File | `/catalog/all-products` | High
-9 | File | `/cgi-bin/cstecgi.cgi` | High
-10 | File | `/changePassword` | High
-11 | File | `/edit-subject.php` | High
-12 | File | `/endpoint/add-user.php` | High
-13 | File | `/etc/postfix/sender_login` | High
-14 | File | `/forum/away.php` | High
-15 | File | `/goform/addIpMacBind` | High
-16 | File | `/goform/DelDhcpRule` | High
-17 | File | `/goform/delIpMacBind` | High
-18 | File | `/goform/DelPortMapping` | High
-19 | File | `/goform/modifyIpMacBind` | High
-20 | File | `/goform/SetDDNSCfg` | High
-21 | File | `/goform/SetLEDCfg` | High
-22 | ... | ... | ...
+1 | File | `/+CSCOE+/logon.html` | High
+2 | File | `/addcategory.php` | High
+3 | File | `/admin-manage-user.php` | High
+4 | File | `/admin/add_ikev2.php` | High
+5 | File | `/admin/category_save.php` | High
+6 | File | `/admin/forgot-password.php` | High
+7 | File | `/admin/list_ipAddressPolicy.php` | High
+8 | File | `/admin/login.php` | High
+9 | File | `/admin/manage_model.php` | High
+10 | File | `/admin/manage_user.php` | High
+11 | File | `/admin/subject.php` | High
+12 | File | `/admin/update-rooms.php` | High
+13 | File | `/ajax/openvpn/activate_ovpncfg.php` | High
+14 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+15 | File | `/catalog/all-products` | High
+16 | File | `/cgi-bin/cstecgi.cgi` | High
+17 | File | `/cgi-bin/p1_ftpserver.php` | High
+18 | File | `/cgi-bin/tosei_kikai.php` | High
+19 | File | `/change-password.php` | High
+20 | File | `/changePassword` | High
+21 | File | `/control/activate_case.php` | High
+22 | File | `/edit-subject.php` | High
+23 | File | `/endpoint/add-faq.php` | High
+24 | File | `/endpoint/add-user.php` | High
+25 | File | `/endpoint/delete-faq.php` | High
+26 | File | `/etc/postfix/sender_login` | High
+27 | File | `/foms/routers/place-order.php` | High
+28 | File | `/forum/away.php` | High
+29 | File | `/goform/SetSysTimeCfg` | High
+30 | File | `/index.php` | Medium
+31 | File | `/lesson/controller.php` | High
+32 | ... | ... | ...
 
-There are 180 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 274 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

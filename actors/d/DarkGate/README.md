@@ -15,11 +15,11 @@ The following _campaigns_ are known and can be associated with DarkGate:
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with DarkGate:
 
 * [US](https://vuldb.com/?country.us)
-* [CN](https://vuldb.com/?country.cn)
 * [VN](https://vuldb.com/?country.vn)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 23 more country items available. Please use our online service to access the data.
+There are 20 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -57,7 +57,7 @@ ID | IP address | Hostname | Campaign | Confidence
 28 | [47.252.33.131](https://vuldb.com/?ip.47.252.33.131) | - | - | High
 29 | ... | ... | ... | ...
 
-There are 110 more IOC items available. Please use our online service to access the data.
+There are 111 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -65,14 +65,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-29, CWE-425 | Path Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74, CWE-643 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-29, CWE-425 | Path Traversal | High
+2 | T1055 | CWE-74, CWE-643 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -81,57 +81,64 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/.pomerium` | Medium
-2 | File | `/admin/?page=musics/manage_music` | High
-3 | File | `/admin/ajax.php?action=delete_user` | High
-4 | File | `/Admin/changepassword.php` | High
-5 | File | `/admin/edit_supplier.php` | High
-6 | File | `/admin/emp-profile-avatar.php` | High
-7 | File | `/admin/forgot-password.php` | High
-8 | File | `/admin/general-setting` | High
-9 | File | `/admin/index2.html` | High
-10 | File | `/admin/inquiries/view_inquiry.php` | High
-11 | File | `/admin/order.php` | High
-12 | File | `/admin/projects/{projectname}/skills/{skillname}/video` | High
-13 | File | `/admin/service` | High
-14 | File | `/adminPage/conf/reload` | High
-15 | File | `/api/runscript` | High
-16 | File | `/api/snapshots/` | High
-17 | File | `/api/v1/custom_component` | High
-18 | File | `/api/v1/snapshots` | High
-19 | File | `/api/v2/maps` | Medium
-20 | File | `/api/wechat/app_auth` | High
-21 | File | `/cgi-bin/cstecgi.cgi` | High
-22 | File | `/cgi-bin/hd_config.cgi` | High
-23 | File | `/cgi-bin/nas_sharing.cgi` | High
-24 | File | `/cgi-bin/system_mgr.cgi` | High
-25 | File | `/cgi-bin/wlogin.cgi` | High
-26 | File | `/classes/Master.php` | High
-27 | File | `/classes/Master.php?f=delete_category` | High
-28 | File | `/classes/Master.php?f=save_medicine` | High
-29 | File | `/classes/SystemSettings.php?f=update_settings` | High
-30 | File | `/classes/Users.php?f=delete` | High
-31 | File | `/control/register_case.php` | High
-32 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
-33 | File | `/downloadFile.php` | High
-34 | File | `/DXR.axd` | Medium
-35 | File | `/edit-computer-detail.php` | High
-36 | File | `/endpoint/add-folder.php` | High
-37 | File | `/etc/init.d/update_notifications.sh` | High
-38 | File | `/etc/shadow` | Medium
-39 | File | `/export` | Low
-40 | File | `/file_manager/login.php` | High
-41 | File | `/film-rating.php` | High
-42 | File | `/forum/away.php` | High
-43 | File | `/goform/DhcpListClient` | High
-44 | File | `/goform/SetIpMacBind` | High
-45 | File | `/goform/WifiExtraSet` | High
-46 | File | `/guestbook` | Medium
-47 | File | `/hrm/leaverequest.php` | High
-48 | File | `/index.php` | Medium
-49 | File | `/index/ajax/lang` | High
-50 | ... | ... | ...
+2 | File | `/admin/?page=bike` | High
+3 | File | `/admin/?page=musics/manage_music` | High
+4 | File | `/admin/admin_widgets.php?action=remove/widget=Statistics` | High
+5 | File | `/admin/ajax.php?action=delete_user` | High
+6 | File | `/admin/ajax.php?action=login` | High
+7 | File | `/Admin/changepassword.php` | High
+8 | File | `/admin/edit_supplier.php` | High
+9 | File | `/admin/emp-profile-avatar.php` | High
+10 | File | `/admin/forgot-password.php` | High
+11 | File | `/admin/general-setting` | High
+12 | File | `/admin/index.php?r=banner%2Fbanner-create` | High
+13 | File | `/admin/index2.html` | High
+14 | File | `/admin/inquiries/view_inquiry.php` | High
+15 | File | `/admin/order.php` | High
+16 | File | `/admin/projects/{projectname}/skills/{skillname}/video` | High
+17 | File | `/admin/service` | High
+18 | File | `/adminPage/conf/reload` | High
+19 | File | `/api/runscript` | High
+20 | File | `/api/snapshots/` | High
+21 | File | `/api/v1/custom_component` | High
+22 | File | `/api/v1/snapshots` | High
+23 | File | `/api/v2/maps` | Medium
+24 | File | `/apply/index.php` | High
+25 | File | `/candidate/index.php` | High
+26 | File | `/car-rental-management-system/admin/index.php?page=manage_car` | High
+27 | File | `/cgi-bin/cstecgi.cgi` | High
+28 | File | `/cgi-bin/hd_config.cgi` | High
+29 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+30 | File | `/cgi-bin/nas_sharing.cgi` | High
+31 | File | `/cgi-bin/wlogin.cgi` | High
+32 | File | `/classes/Master.php` | High
+33 | File | `/classes/Master.php?f=delete_category` | High
+34 | File | `/classes/Master.php?f=save_medicine` | High
+35 | File | `/classes/SystemSettings.php?f=update_settings` | High
+36 | File | `/classes/Users.php?f=delete` | High
+37 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
+38 | File | `/downloadFile.php` | High
+39 | File | `/dtale/chart-data/1` | High
+40 | File | `/DXR.axd` | Medium
+41 | File | `/endpoint/add-calorie.php` | High
+42 | File | `/endpoint/add-folder.php` | High
+43 | File | `/etc/init.d/update_notifications.sh` | High
+44 | File | `/etc/shadow` | Medium
+45 | File | `/export` | Low
+46 | File | `/file_manager/login.php` | High
+47 | File | `/film-rating.php` | High
+48 | File | `/foms/routers/place-order.php` | High
+49 | File | `/forum/away.php` | High
+50 | File | `/goform/DhcpListClient` | High
+51 | File | `/goform/SetIpMacBind` | High
+52 | File | `/goform/WifiExtraSet` | High
+53 | File | `/guestbook` | Medium
+54 | File | `/hrm/leaverequest.php` | High
+55 | File | `/index.php` | Medium
+56 | File | `/index/ajax/lang` | High
+57 | ... | ... | ...
 
-There are 436 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 495 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -141,6 +148,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://app.any.run/tasks/4437c29a-0bfc-40f2-84e5-9b51f7527289/
 * https://asec.ahnlab.com/en/61000/
 * https://bazaar.abuse.ch/sample/8a2edeef9978d454882bfb233d9cd77505618b854f7899b27aeb095ff8ebb3f4/
+* https://blog.sekoia.io/webdav-as-a-service-uncovering-the-infrastructure-behind-emmenhtal-loader-distribution/
 * https://circleid.com/posts/20240308-darkgate-rat-comes-into-the-dns-spotlight
 * https://github.com/PaloAltoNetworks/Unit42-timely-threat-intel/blob/main/2023-10-25-IOCs-from-DarkGate-activity.txt
 * https://github.com/prodaft/malware-ioc/blob/master/PTI-66/DarkGate.md

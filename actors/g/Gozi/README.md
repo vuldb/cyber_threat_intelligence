@@ -60,9 +60,10 @@ ID | IP address | Hostname | Campaign | Confidence
 37 | [45.11.182.97](https://vuldb.com/?ip.45.11.182.97) | - | - | High
 38 | [45.11.183.24](https://vuldb.com/?ip.45.11.183.24) | - | - | High
 39 | [45.15.157.239](https://vuldb.com/?ip.45.15.157.239) | 02.aeza.network | - | High
-40 | ... | ... | ... | ...
+40 | [45.90.58.179](https://vuldb.com/?ip.45.90.58.179) | ipsec-an-pro-ch-20210909.com | - | High
+41 | ... | ... | ... | ...
 
-There are 158 more IOC items available. Please use our online service to access the data.
+There are 159 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -105,10 +106,12 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://de.darktrace.com/blog/gozi-isfb-darktraces-detection-of-the-malware-with-a-thousand-faces
 * https://search.censys.io/hosts/31.214.157.11
 * https://search.censys.io/hosts/45.93.139.24
+* https://search.censys.io/hosts/82.151.65.155
 * https://search.censys.io/hosts/83.217.9.90
 * https://search.censys.io/hosts/91.212.166.70
 * https://search.censys.io/hosts/91.218.114.34
 * https://search.censys.io/hosts/95.163.233.114
+* https://search.censys.io/hosts/103.217.150.171
 * https://search.censys.io/hosts/154.56.40.58
 * https://search.censys.io/hosts/176.10.111.79
 * https://search.censys.io/hosts/185.14.30.10

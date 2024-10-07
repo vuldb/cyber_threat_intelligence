@@ -37,7 +37,7 @@ ID | IP address | Hostname | Campaign | Confidence
 14 | [77.161.25.182](https://vuldb.com/?ip.77.161.25.182) | 77-161-25-182.fixed.kpn.net | - | High
 15 | ... | ... | ... | ...
 
-There are 57 more IOC items available. Please use our online service to access the data.
+There are 58 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -67,35 +67,35 @@ ID | Type | Indicator | Confidence
 4 | File | `/api/addusers` | High
 5 | File | `/api/baskets/{name}` | High
 6 | File | `/api/v11/users/sessions` | High
-7 | File | `/apply.cgi` | Medium
-8 | File | `/category.php` | High
-9 | File | `/cgi-bin/diagnostics` | High
-10 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
-11 | File | `/cgi-bin/pass` | High
-12 | File | `/cmf/process/<process_id>/logs` | High
-13 | File | `/config.cgi?webmin` | High
-14 | File | `/connectors/index.php` | High
-15 | File | `/data/wps.setup.json` | High
-16 | File | `/download` | Medium
-17 | File | `/edit/server` | Medium
-18 | File | `/index.php?menu=asterisk_cli` | High
-19 | File | `/mcategory.php` | High
-20 | File | `/MIME/INBOX-MM-1/` | High
-21 | File | `/movie.php` | Medium
-22 | File | `/multi-vendor-shopping-script/product-list.php` | High
-23 | File | `/news-portal-script/information.php` | High
-24 | File | `/owa/auth/logon.aspx` | High
-25 | File | `/page.php` | Medium
-26 | File | `/php/ping.php` | High
-27 | File | `/preview.php` | Medium
-28 | File | `/public/login.htm` | High
-29 | File | `/public/plugins/` | High
-30 | File | `/real-estate-script/search_property.php` | High
-31 | File | `/recordings/index.php` | High
-32 | File | `/searchJob.php` | High
-33 | File | `/uncpath/` | Medium
-34 | File | `/user/loader.php?api=1` | High
-35 | File | `/var/miniupnpd.conf` | High
+7 | File | `/application/index/controller/Screen.php` | High
+8 | File | `/apply.cgi` | Medium
+9 | File | `/category.php` | High
+10 | File | `/cgi-bin/diagnostics` | High
+11 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
+12 | File | `/cgi-bin/pass` | High
+13 | File | `/cmf/process/<process_id>/logs` | High
+14 | File | `/config.cgi?webmin` | High
+15 | File | `/connectors/index.php` | High
+16 | File | `/data/wps.setup.json` | High
+17 | File | `/download` | Medium
+18 | File | `/edit/server` | Medium
+19 | File | `/index.php?menu=asterisk_cli` | High
+20 | File | `/mcategory.php` | High
+21 | File | `/MIME/INBOX-MM-1/` | High
+22 | File | `/movie.php` | Medium
+23 | File | `/multi-vendor-shopping-script/product-list.php` | High
+24 | File | `/news-portal-script/information.php` | High
+25 | File | `/owa/auth/logon.aspx` | High
+26 | File | `/page.php` | Medium
+27 | File | `/php/ping.php` | High
+28 | File | `/preview.php` | Medium
+29 | File | `/public/login.htm` | High
+30 | File | `/public/plugins/` | High
+31 | File | `/real-estate-script/search_property.php` | High
+32 | File | `/recordings/index.php` | High
+33 | File | `/searchJob.php` | High
+34 | File | `/uncpath/` | Medium
+35 | File | `/user/loader.php?api=1` | High
 36 | ... | ... | ...
 
 There are 311 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.

@@ -112,7 +112,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 15 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -134,16 +134,17 @@ ID | Type | Indicator | Confidence
 12 | File | `/cgi-bin/cstecgi.cgi` | High
 13 | File | `/changePassword` | High
 14 | File | `/classes/Master.php` | High
-15 | File | `/edit-subject.php` | High
-16 | File | `/endpoint/add-calorie.php` | High
-17 | File | `/endpoint/add-user.php` | High
-18 | File | `/etc/postfix/sender_login` | High
-19 | File | `/forum/away.php` | High
-20 | File | `/goform/DelDhcpRule` | High
-21 | File | `/goform/delIpMacBind` | High
-22 | ... | ... | ...
+15 | File | `/cloudstore/ecode/setup/ecology_dev.zip` | High
+16 | File | `/edit-subject.php` | High
+17 | File | `/endpoint/add-calorie.php` | High
+18 | File | `/endpoint/add-user.php` | High
+19 | File | `/etc/postfix/sender_login` | High
+20 | File | `/foms/routers/place-order.php` | High
+21 | File | `/forum/away.php` | High
+22 | File | `/goform/delIpMacBind` | High
+23 | ... | ... | ...
 
-There are 186 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 190 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -46,7 +46,7 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
+4 | T1059 | CWE-94 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -70,66 +70,66 @@ ID | Type | Indicator | Confidence
 10 | File | `/admin/about-us.php` | High
 11 | File | `/admin/action/new-father.php` | High
 12 | File | `/Admin/add-student.php` | High
-13 | File | `/admin/app/service_crud.php` | High
-14 | File | `/admin/application-bwdates-reports-details.php` | High
-15 | File | `/admin/del_category.php` | High
-16 | File | `/admin/del_service.php` | High
-17 | File | `/admin/edit-accepted-appointment.php` | High
-18 | File | `/admin/edit-admin.php` | High
-19 | File | `/admin/edit-services.php` | High
-20 | File | `/admin/edit_category.php` | High
-21 | File | `/admin/forgot-password.php` | High
+13 | File | `/admin/admin-update-employee.php` | High
+14 | File | `/admin/app/service_crud.php` | High
+15 | File | `/admin/application-bwdates-reports-details.php` | High
+16 | File | `/admin/del_category.php` | High
+17 | File | `/admin/del_service.php` | High
+18 | File | `/admin/edit-accepted-appointment.php` | High
+19 | File | `/admin/edit-admin.php` | High
+20 | File | `/admin/edit-services.php` | High
+21 | File | `/admin/edit_category.php` | High
 22 | File | `/admin/index.php` | High
 23 | File | `/admin/ind_backstage.php` | High
 24 | File | `/admin/list_crl_conf` | High
 25 | File | `/Admin/login.php` | High
 26 | File | `/admin/pages/list` | High
-27 | File | `/admin/reg.php` | High
-28 | File | `/admin/search-appointment.php` | High
-29 | File | `/admin/search.php` | High
-30 | File | `/admin/sys_sql_query.php` | High
-31 | File | `/api/baskets/{name}` | High
-32 | File | `/api/process.php` | High
-33 | File | `/api/swaggerui/static` | High
-34 | File | `/api/sys/login` | High
-35 | File | `/api/v1/toolbox/device/update/swap` | High
-36 | File | `/api/v2/maps` | Medium
-37 | File | `/api/v4/teams//channels/deleted` | High
-38 | File | `/app/admin/controller/Upload.php` | High
-39 | File | `/app/ajax/search_sales_report.php` | High
-40 | File | `/app/controller/Setup.php` | High
-41 | File | `/app/middleware/TokenVerify.php` | High
-42 | File | `/appliance/users?action=edit` | High
-43 | File | `/application/index/controller/Screen.php` | High
-44 | File | `/application/websocket/controller/Setting.php` | High
-45 | File | `/apply/index.php` | High
-46 | File | `/auth/auth.php?user=1` | High
-47 | File | `/backend/register.php` | High
-48 | File | `/belegungsplan/monatsuebersicht.inc.php` | High
-49 | File | `/bin/boa` | Medium
-50 | File | `/blog` | Low
-51 | File | `/boafrm/formMapDelDevice` | High
-52 | File | `/booking/show_bookings/` | High
-53 | File | `/cgi-bin/cstecgi.cgi` | High
-54 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-55 | File | `/cgi-bin/luci;stok=/locale` | High
-56 | File | `/cgi-bin/nas_sharing.cgi` | High
+27 | File | `/admin/search.php` | High
+28 | File | `/admin/system.html` | High
+29 | File | `/admin/sys_sql_query.php` | High
+30 | File | `/api/baskets/{name}` | High
+31 | File | `/api/process.php` | High
+32 | File | `/api/swaggerui/static` | High
+33 | File | `/api/sys/login` | High
+34 | File | `/api/v1/toolbox/device/update/swap` | High
+35 | File | `/api/v2/maps` | Medium
+36 | File | `/api/v4/teams//channels/deleted` | High
+37 | File | `/app/admin/controller/Upload.php` | High
+38 | File | `/app/ajax/search_sales_report.php` | High
+39 | File | `/app/controller/Setup.php` | High
+40 | File | `/app/middleware/TokenVerify.php` | High
+41 | File | `/appliance/users?action=edit` | High
+42 | File | `/application/index/controller/Screen.php` | High
+43 | File | `/application/websocket/controller/Setting.php` | High
+44 | File | `/apply/index.php` | High
+45 | File | `/auth/auth.php?user=1` | High
+46 | File | `/backend/register.php` | High
+47 | File | `/bin/boa` | Medium
+48 | File | `/blog` | Low
+49 | File | `/boafrm/formMapDelDevice` | High
+50 | File | `/cgi-bin/cstecgi.cgi` | High
+51 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
+52 | File | `/cgi-bin/luci;stok=/locale` | High
+53 | File | `/cgi-bin/myMusic.cgi` | High
+54 | File | `/cgi-bin/nas_sharing.cgi` | High
+55 | File | `/cgi-bin/p1_ftpserver.php` | High
+56 | File | `/cgi-bin/photocenter_mgr.cgi` | High
 57 | File | `/cgi-bin/wlogin.cgi` | High
 58 | File | `/classes/Master.php` | High
 59 | File | `/classes/Master.php?f=save_category` | High
 60 | File | `/classes/Master.php?f=save_medicine` | High
-61 | File | `/classes/Users.php?f=save` | High
-62 | File | `/collection/all` | High
-63 | File | `/conf/app.conf` | High
-64 | File | `/control/register_case.php` | High
-65 | File | `/dashboard/settings` | High
-66 | File | `/dashboard/system/basics/name` | High
-67 | File | `/description.php` | High
-68 | File | `/dipam/athlete-profile.php` | High
+61 | File | `/classes/SystemSettings.php?f=update_settings` | High
+62 | File | `/classes/Users.php?f=save` | High
+63 | File | `/collection/all` | High
+64 | File | `/common/show_image.php` | High
+65 | File | `/conf/app.conf` | High
+66 | File | `/control/register_case.php` | High
+67 | File | `/dashboard/system/basics/name` | High
+68 | File | `/description.php` | High
 69 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
 70 | ... | ... | ...
 
-There are 618 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 611 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

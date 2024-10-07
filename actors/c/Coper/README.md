@@ -31,13 +31,13 @@ ID | IP address | Hostname | Campaign | Confidence
 8 | [45.9.74.166](https://vuldb.com/?ip.45.9.74.166) | - | - | High
 9 | [45.88.91.119](https://vuldb.com/?ip.45.88.91.119) | - | - | High
 10 | [45.93.20.145](https://vuldb.com/?ip.45.93.20.145) | - | - | High
-11 | [62.122.184.165](https://vuldb.com/?ip.62.122.184.165) | - | - | High
-12 | [62.233.50.113](https://vuldb.com/?ip.62.233.50.113) | - | - | High
-13 | [83.97.73.39](https://vuldb.com/?ip.83.97.73.39) | - | - | High
-14 | [83.97.73.125](https://vuldb.com/?ip.83.97.73.125) | - | - | High
+11 | [46.19.138.93](https://vuldb.com/?ip.46.19.138.93) | hostedby.privatelayer.com | - | High
+12 | [62.122.184.165](https://vuldb.com/?ip.62.122.184.165) | - | - | High
+13 | [62.233.50.113](https://vuldb.com/?ip.62.233.50.113) | - | - | High
+14 | [83.97.73.39](https://vuldb.com/?ip.83.97.73.39) | - | - | High
 15 | ... | ... | ... | ...
 
-There are 55 more IOC items available. Please use our online service to access the data.
+There are 56 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -50,8 +50,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
-7 | ... | ... | ... | ...
+6 | ... | ... | ... | ...
 
 There are 22 more TTP items available. Please use our online service to access the data.
 
@@ -80,45 +79,45 @@ ID | Type | Indicator | Confidence
 17 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
 18 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
 19 | File | `/applications/nexus/modules/front/store/store.php` | High
-20 | File | `/apply.cgi` | Medium
-21 | File | `/bitrix/admin/ldap_server_edit.php` | High
-22 | File | `/catalog/admin/categories.php?cPath=&action=new_product` | High
-23 | File | `/cgi-bin/` | Medium
+20 | File | `/bitrix/admin/ldap_server_edit.php` | High
+21 | File | `/catalog/admin/categories.php?cPath=&action=new_product` | High
+22 | File | `/cgi-bin/` | Medium
+23 | File | `/cgi-bin/apkg_mgr.cgi` | High
 24 | File | `/cgi-bin/cstecgi.cgi` | High
 25 | File | `/cgi-bin/downloadFile.cgi` | High
 26 | File | `/cgi-bin/nas_sharing.cgi` | High
 27 | File | `/cgi-bin/photocenter_mgr.cgi` | High
 28 | File | `/cgi-bin/wlogin.cgi` | High
 29 | File | `/classes/Master.php` | High
-30 | File | `/classes/Master.php?f=save_category` | High
-31 | File | `/classes/Users.php?f=save` | High
-32 | File | `/College/admin/teacher.php` | High
-33 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
-34 | File | `/dcim/rack-roles/` | High
-35 | File | `/Duty/AjaxHandle/UploadFloodPlanFileUpdate.ashx` | High
-36 | File | `/fftools/ffmpeg_enc.c` | High
-37 | File | `/forms/doLogin` | High
-38 | File | `/formSysLog` | Medium
-39 | File | `/forum/away.php` | High
-40 | File | `/goform/aspForm` | High
-41 | File | `/goform/delAd` | High
-42 | File | `/goform/SetOnlineDevName` | High
-43 | File | `/image.php` | Medium
-44 | File | `/inc/lists/edit-list.php` | High
-45 | File | `/inc/lists/view-list.php` | High
-46 | File | `/inc/topBarNav.php` | High
-47 | File | `/includes/common/require_access_recovery.php` | High
-48 | File | `/index.php` | Medium
-49 | File | `/index.php?app=main&func=passport&action=login` | High
-50 | File | `/index.php?controller=GzUser&action=edit&id=1` | High
-51 | File | `/inquiries/view_inquiry.php` | High
-52 | File | `/install/` | Medium
-53 | File | `/intern/controller.php` | High
-54 | File | `/kelas/data` | Medium
-55 | File | `/librarian/bookdetails.php` | High
+30 | File | `/classes/Master.php?f=delete_record` | High
+31 | File | `/classes/Master.php?f=save_category` | High
+32 | File | `/classes/SystemSettings.php?f=update_settings` | High
+33 | File | `/classes/Users.php?f=save` | High
+34 | File | `/College/admin/teacher.php` | High
+35 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
+36 | File | `/dcim/rack-roles/` | High
+37 | File | `/detailed.php` | High
+38 | File | `/dtale/chart-data/1` | High
+39 | File | `/Duty/AjaxHandle/UploadFloodPlanFileUpdate.ashx` | High
+40 | File | `/etc/shadow.sample` | High
+41 | File | `/fftools/ffmpeg_enc.c` | High
+42 | File | `/foms/routers/place-order.php` | High
+43 | File | `/forms/doLogin` | High
+44 | File | `/formSysLog` | Medium
+45 | File | `/forum/away.php` | High
+46 | File | `/goform/aspForm` | High
+47 | File | `/goform/SetOnlineDevName` | High
+48 | File | `/h.php/page?ref=addtabs` | High
+49 | File | `/image.php` | Medium
+50 | File | `/inc/lists/edit-list.php` | High
+51 | File | `/inc/lists/view-list.php` | High
+52 | File | `/inc/topBarNav.php` | High
+53 | File | `/includes/common/require_access_recovery.php` | High
+54 | File | `/index.php` | Medium
+55 | File | `/index.php?action=editPharmacist` | High
 56 | ... | ... | ...
 
-There are 486 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 485 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

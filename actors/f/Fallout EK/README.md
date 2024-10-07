@@ -29,10 +29,10 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 2 | T1068 | CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1592 | CWE-200 | Invocation of Process Using Visible Sensitive Information | High
+3 | T1505 | CWE-89 | SQL Injection | High
 4 | ... | ... | ... | ...
 
-There are 1 more TTP items available. Please use our online service to access the data.
+There are 3 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -40,12 +40,12 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `admin/config/confmgr.php` | High
-2 | File | `cgi-bin/hotspotlogin.cgi` | High
-3 | File | `mod_authz_svn/mod_authz_svn.c` | High
+1 | File | `/resume_upload.php` | High
+2 | File | `admin/config/confmgr.php` | High
+3 | File | `cgi-bin/hotspotlogin.cgi` | High
 4 | ... | ... | ...
 
-There are 1 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 5 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

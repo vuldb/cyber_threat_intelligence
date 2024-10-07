@@ -87,9 +87,10 @@ ID | Type | Indicator | Confidence
 35 | File | `/secure/QueryComponent!Default.jspa` | High
 36 | File | `/ServletAPI/accounts/login` | High
 37 | File | `/setNTP.cgi` | Medium
-38 | ... | ... | ...
+38 | File | `/student/bookdetails.php` | High
+39 | ... | ... | ...
 
-There are 326 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 332 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

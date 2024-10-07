@@ -61,31 +61,31 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.htaccess` | Medium
 2 | File | `/adfs/ls` | Medium
-3 | File | `/carbon/mediation_secure_vault/properties/ajaxprocessor.jsp` | High
-4 | File | `/cgi-bin/wlogin.cgi` | High
-5 | File | `/fos/admin/index.php?page=menu` | High
-6 | File | `/getcfg.php` | Medium
-7 | File | `/Home/debit_credit_p` | High
-8 | File | `/index.php/weblinks-categories` | High
-9 | File | `/iwguestbook/admin/messages_edit.asp` | High
-10 | File | `/login/index.php` | High
-11 | File | `/odfs/classes/Master.php?f=delete_team` | High
-12 | File | `/public/plugins/` | High
-13 | File | `/scripts/iisadmin/bdir.htr` | High
-14 | File | `/usr/bin/pkexec` | High
-15 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-16 | File | `add.php` | Low
-17 | File | `admin.cgi/config.cgi` | High
-18 | File | `admin.php` | Medium
-19 | File | `admin/admin.guestbook.php` | High
-20 | File | `admin/auth.php` | High
-21 | File | `admin/backupdb.php` | High
-22 | File | `admin/login.asp` | High
-23 | File | `admin/preview.php` | High
-24 | File | `administrator/components/com_media/helpers/media.php` | High
+3 | File | `/admin/settings/index.php?page=accounts` | High
+4 | File | `/carbon/mediation_secure_vault/properties/ajaxprocessor.jsp` | High
+5 | File | `/cgi-bin/wlogin.cgi` | High
+6 | File | `/fos/admin/index.php?page=menu` | High
+7 | File | `/getcfg.php` | Medium
+8 | File | `/Home/debit_credit_p` | High
+9 | File | `/index.php/weblinks-categories` | High
+10 | File | `/iwguestbook/admin/messages_edit.asp` | High
+11 | File | `/login/index.php` | High
+12 | File | `/odfs/classes/Master.php?f=delete_team` | High
+13 | File | `/public/plugins/` | High
+14 | File | `/scripts/iisadmin/bdir.htr` | High
+15 | File | `/usr/bin/pkexec` | High
+16 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+17 | File | `add.php` | Low
+18 | File | `admin.cgi/config.cgi` | High
+19 | File | `admin.php` | Medium
+20 | File | `admin/admin.guestbook.php` | High
+21 | File | `admin/auth.php` | High
+22 | File | `admin/backupdb.php` | High
+23 | File | `admin/login.asp` | High
+24 | File | `admin/preview.php` | High
 25 | ... | ... | ...
 
-There are 209 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 211 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

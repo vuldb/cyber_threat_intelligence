@@ -140,7 +140,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -159,26 +159,28 @@ ID | Type | Indicator | Confidence
 9 | File | `/admin/pages/list` | High
 10 | File | `/admin/subject.php` | High
 11 | File | `/admin/system.html` | High
-12 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-13 | File | `/catalog/all-products` | High
-14 | File | `/cgi-bin/cstecgi.cgi` | High
-15 | File | `/cgi-bin/myMusic.cgi` | High
-16 | File | `/cgi-bin/photocenter_mgr.cgi` | High
-17 | File | `/changePassword` | High
-18 | File | `/classes/Master.php?f=save_medicine` | High
-19 | File | `/classes/Users.php?f=save` | High
-20 | File | `/edit-subject.php` | High
-21 | File | `/endpoint/add-user.php` | High
-22 | File | `/endpoint/delete-account.php` | High
-23 | File | `/etc/postfix/sender_login` | High
-24 | File | `/forum/away.php` | High
-25 | File | `/goform/SetRemoteWebCfg` | High
-26 | File | `/goform/SetSysTimeCfg` | High
-27 | File | `/inc/modules_install.php` | High
-28 | File | `/index.php?controller=calendar&format=raw&cat[0]=SQLi&task=events` | High
-29 | ... | ... | ...
+12 | File | `/api2/html/` | Medium
+13 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+14 | File | `/catalog/all-products` | High
+15 | File | `/cgi-bin/cstecgi.cgi` | High
+16 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+17 | File | `/cgi-bin/myMusic.cgi` | High
+18 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+19 | File | `/changePassword` | High
+20 | File | `/classes/Master.php?f=save_medicine` | High
+21 | File | `/classes/Users.php?f=save` | High
+22 | File | `/cloudstore/ecode/setup/ecology_dev.zip` | High
+23 | File | `/edit-subject.php` | High
+24 | File | `/endpoint/add-user.php` | High
+25 | File | `/endpoint/delete-account.php` | High
+26 | File | `/etc/postfix/sender_login` | High
+27 | File | `/foms/routers/place-order.php` | High
+28 | File | `/forum/away.php` | High
+29 | File | `/goform/SetRemoteWebCfg` | High
+30 | File | `/goform/SetSysTimeCfg` | High
+31 | ... | ... | ...
 
-There are 245 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 264 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

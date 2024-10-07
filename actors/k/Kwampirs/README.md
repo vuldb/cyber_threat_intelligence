@@ -20,8 +20,8 @@ There are 5 more campaign items available. Please use our online service to acce
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Kwampirs:
 
 * [CN](https://vuldb.com/?country.cn)
-* [US](https://vuldb.com/?country.us)
 * [NZ](https://vuldb.com/?country.nz)
+* [US](https://vuldb.com/?country.us)
 * ...
 
 There are 7 more country items available. Please use our online service to access the data.
@@ -141,10 +141,11 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-273, CWE-274, CWE-284 | Execution with Unnecessary Privileges | High
-6 | ... | ... | ... | ...
+5 | T1068 | CWE-264, CWE-269, CWE-273, CWE-284 | Execution with Unnecessary Privileges | High
+6 | T1078.001 | CWE-259 | Use of Hard-coded Password | High
+7 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 23 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -152,46 +153,50 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin.php?p=/Area/index#tab=t2` | High
-2 | File | `/admin/` | Low
-3 | File | `/admin/admin-update-employee.php` | High
-4 | File | `/admin/index2.html` | High
-5 | File | `/admin/sql` | Medium
-6 | File | `/admin/students.php` | High
-7 | File | `/admin/students/manage.php` | High
-8 | File | `/admin/system.html` | High
-9 | File | `/adminPage/conf/reload` | High
-10 | File | `/adminPage/www/addOver` | High
-11 | File | `/ajax/check_medicine_name.php` | High
-12 | File | `/api/1.0/rest/language_configuration` | High
-13 | File | `/API/info` | Medium
-14 | File | `/api/sys/login` | High
-15 | File | `/api/sys/set_passwd` | High
-16 | File | `/application/index/controller/Icon.php` | High
-17 | File | `/application/index/controller/Screen.php` | High
-18 | File | `/bcms/admin/?page=user/manage_user` | High
-19 | File | `/bin/ate` | Medium
-20 | File | `/boaform/device_reset.cgi` | High
-21 | File | `/cgi-bin/cstecgi.cgi` | High
-22 | File | `/cgi-bin/ExportAllSettings.sh` | High
-23 | File | `/cgi-bin/koha/catalogue/search.pl` | High
-24 | File | `/cgi-bin/nas_sharing.cgi` | High
-25 | File | `/cgi-bin/supervisor/adcommand.cgi` | High
-26 | File | `/cgi-bin/tosei_kikai.php` | High
-27 | File | `/dataSet/testTransform;swagger-ui` | High
-28 | File | `/dayrui/Fcms/View/system_log.html` | High
-29 | File | `/dayrui/My/View/main.html` | High
-30 | File | `/DXR.axd` | Medium
-31 | File | `/EXCU_SHELL` | Medium
-32 | File | `/fileupload/upload.cfm` | High
-33 | File | `/goform/execCommand` | High
-34 | File | `/goform/goform_get_cmd_process` | High
-35 | File | `/goform/modifyDhcpRule` | High
-36 | File | `/goform/ModifyPppAuthWhiteMac` | High
-37 | File | `/goform/SetNetControlList` | High
-38 | ... | ... | ...
+1 | File | `/?import` | Medium
+2 | File | `/admin.php?p=/Area/index#tab=t2` | High
+3 | File | `/admin/` | Low
+4 | File | `/admin/?setting-base.htm` | High
+5 | File | `/admin/action/update-deworm.php` | High
+6 | File | `/admin/admin-update-employee.php` | High
+7 | File | `/admin/index2.html` | High
+8 | File | `/admin/sql` | Medium
+9 | File | `/admin/students.php` | High
+10 | File | `/admin/students/manage.php` | High
+11 | File | `/admin/system.html` | High
+12 | File | `/adminPage/conf/reload` | High
+13 | File | `/ajax/check_medicine_name.php` | High
+14 | File | `/api/1.0/rest/language_configuration` | High
+15 | File | `/api/sys/login` | High
+16 | File | `/api/sys/set_passwd` | High
+17 | File | `/api /v3/auth` | High
+18 | File | `/application/index/controller/Icon.php` | High
+19 | File | `/application/index/controller/Screen.php` | High
+20 | File | `/bcms/admin/?page=user/manage_user` | High
+21 | File | `/bin/ate` | Medium
+22 | File | `/boaform/device_reset.cgi` | High
+23 | File | `/cgi-bin/cstecgi.cgi` | High
+24 | File | `/cgi-bin/ExportAllSettings.sh` | High
+25 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+26 | File | `/cgi-bin/nas_sharing.cgi` | High
+27 | File | `/cgi-bin/supervisor/adcommand.cgi` | High
+28 | File | `/cgi-bin/tosei_kikai.php` | High
+29 | File | `/dataSet/testTransform;swagger-ui` | High
+30 | File | `/dayrui/Fcms/View/system_log.html` | High
+31 | File | `/dayrui/My/View/main.html` | High
+32 | File | `/detailed.php` | High
+33 | File | `/dist/index.js` | High
+34 | File | `/DXR.axd` | Medium
+35 | File | `/EXCU_SHELL` | Medium
+36 | File | `/fileupload/upload.cfm` | High
+37 | File | `/general/meeting/manage/delete.php` | High
+38 | File | `/goform/` | Medium
+39 | File | `/goform/execCommand` | High
+40 | File | `/goform/form2systime.cgi` | High
+41 | File | `/goform/goform_get_cmd_process` | High
+42 | ... | ... | ...
 
-There are 327 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 364 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

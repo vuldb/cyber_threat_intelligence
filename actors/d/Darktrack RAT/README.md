@@ -150,13 +150,13 @@ ID | Type | Indicator | Confidence
 6 | File | `/category_view.php` | High
 7 | File | `/cgi-bin` | Medium
 8 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-9 | File | `/cgi-bin/user/Config.cgi` | High
-10 | File | `/common/info.cgi` | High
-11 | File | `/concat?/%2557EB-INF/web.xml` | High
-12 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
+9 | File | `/common/info.cgi` | High
+10 | File | `/concat?/%2557EB-INF/web.xml` | High
+11 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
+12 | File | `/Employee/edit-profile.php` | High
 13 | File | `/forum/away.php` | High
-14 | File | `/getcfg.php` | Medium
-15 | File | `/guest/s/default/` | High
+14 | File | `/guest/s/default/` | High
+15 | File | `/inc/tm_ajax.msw?func=UserfromUUID&uuid=` | High
 16 | File | `/install/index.php` | High
 17 | File | `/lan.asp` | Medium
 18 | File | `/lists/index.php` | High
@@ -180,7 +180,7 @@ ID | Type | Indicator | Confidence
 36 | File | `add_vhost.php` | High
 37 | ... | ... | ...
 
-There are 319 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 313 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

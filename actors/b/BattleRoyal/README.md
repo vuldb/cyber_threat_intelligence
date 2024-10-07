@@ -60,9 +60,10 @@ ID | Type | Indicator | Confidence
 8 | File | `/SysInfo1.htm` | High
 9 | File | `/sysinfo_json.cgi` | High
 10 | File | `/system/dictData/loadDictItem` | High
-11 | ... | ... | ...
+11 | File | `/system/user/modules/mod_users/controller.php` | High
+12 | ... | ... | ...
 
-There are 88 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 90 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

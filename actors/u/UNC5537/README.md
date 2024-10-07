@@ -84,35 +84,34 @@ ID | Type | Indicator | Confidence
 33 | File | `/change_password.php` | High
 34 | File | `/classes/Master.php` | High
 35 | File | `/classes/Master.php?f=delete_category` | High
-36 | File | `/common/info.cgi` | High
-37 | File | `/dashboard/Cinvoice/manage_invoice` | High
-38 | File | `/dashboard/message` | High
-39 | File | `/dcim/console-server-ports/{id}/edit/` | High
-40 | File | `/debug/pprof` | Medium
-41 | File | `/Default/v6.53/CodeCheckerService@massStoreRun` | High
-42 | File | `/DXR.axd` | Medium
-43 | File | `/edit_account.php` | High
-44 | File | `/Electron/download` | High
-45 | File | `/employee_gatepass/admin/?page=employee/manage_employee` | High
-46 | File | `/file_manager/admin/save_user.php` | High
-47 | File | `/forum/away.php` | High
-48 | File | `/fos/admin/ajax.php?action=login` | High
-49 | File | `/goform/setsambacfg` | High
-50 | File | `/home/sendBroadcast` | High
-51 | File | `/jurusanmatkul/data` | High
-52 | File | `/kelas/data` | Medium
-53 | File | `/kelasdosen/data` | High
-54 | File | `/load.php` | Medium
-55 | File | `/Login/CheckLogin` | High
-56 | File | `/lua/set-passwd.lua` | High
-57 | File | `/mahasiswa/data` | High
-58 | File | `/manage_receiving.php` | High
-59 | File | `/manage_sy.php` | High
-60 | File | `/ndmComponents.js` | High
-61 | File | `/oauth/idp/.well-known/openid-configuration` | High
-62 | ... | ... | ...
+36 | File | `/classes/SystemSettings.php?f=update_settings` | High
+37 | File | `/common/info.cgi` | High
+38 | File | `/dashboard/Cinvoice/manage_invoice` | High
+39 | File | `/dashboard/message` | High
+40 | File | `/dcim/console-server-ports/{id}/edit/` | High
+41 | File | `/debug/pprof` | Medium
+42 | File | `/Default/v6.53/CodeCheckerService@massStoreRun` | High
+43 | File | `/DXR.axd` | Medium
+44 | File | `/edit_account.php` | High
+45 | File | `/Electron/download` | High
+46 | File | `/employee_gatepass/admin/?page=employee/manage_employee` | High
+47 | File | `/file_manager/admin/save_user.php` | High
+48 | File | `/foms/routers/place-order.php` | High
+49 | File | `/forum/away.php` | High
+50 | File | `/fos/admin/ajax.php?action=login` | High
+51 | File | `/goform/setsambacfg` | High
+52 | File | `/home/sendBroadcast` | High
+53 | File | `/jurusanmatkul/data` | High
+54 | File | `/kelas/data` | Medium
+55 | File | `/kelasdosen/data` | High
+56 | File | `/load.php` | Medium
+57 | File | `/Login/CheckLogin` | High
+58 | File | `/lua/set-passwd.lua` | High
+59 | File | `/mahasiswa/data` | High
+60 | File | `/manage_receiving.php` | High
+61 | ... | ... | ...
 
-There are 542 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 532 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

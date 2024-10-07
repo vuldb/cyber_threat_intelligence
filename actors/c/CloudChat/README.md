@@ -9,6 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with CloudChat:
 
 * [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
+* [MY](https://vuldb.com/?country.my)
 
 ## IOC - Indicator of Compromise
 
@@ -16,7 +18,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [45.77.179.89](https://vuldb.com/?ip.45.77.179.89) | 45.77.179.89.vultrusercontent.com | - | Medium
+1 | [5.181.132.169](https://vuldb.com/?ip.5.181.132.169) | box.grandmiillenniumbeijing.com | - | High
+2 | [45.77.179.89](https://vuldb.com/?ip.45.77.179.89) | 45.77.179.89.vultrusercontent.com | - | Medium
+3 | [45.121.147.227](https://vuldb.com/?ip.45.121.147.227) | - | - | High
+4 | ... | ... | ... | ...
+
+There are 2 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -24,12 +31,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-23 | Path Traversal | High
-2 | T1059.007 | CWE-80 | Cross Site Scripting | High
-3 | T1110.001 | CWE-798 | Hard-coded Credentials | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Path Traversal | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-94 | Argument Injection | High
 4 | ... | ... | ... | ...
 
-There are 3 more TTP items available. Please use our online service to access the data.
+There are 8 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -37,18 +44,19 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `awstats.pl` | Medium
-2 | File | `pearcmd.php` | Medium
-3 | File | `res.php` | Low
+1 | File | `audit/class.audit.php` | High
+2 | File | `awstats.pl` | Medium
+3 | File | `cgi-bin/awstats.pl` | High
 4 | ... | ... | ...
 
-There are 3 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 16 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://blog.kandji.io/cloudchat-infostealer
+* https://github.com/sophoslabs/IoCs/blob/master/CloudChat-IOCs.csv
 
 ## Literature
 

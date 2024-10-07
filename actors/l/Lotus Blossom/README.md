@@ -51,7 +51,8 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 3 | T1059 | CWE-88, CWE-94 | Argument Injection | High
 4 | T1059.007 | CWE-79, CWE-80, CWE-85 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+6 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
 
@@ -64,49 +65,49 @@ ID | Type | Indicator | Confidence
 1 | File | `/+CSCOE+/logon.html` | High
 2 | File | `/admin/pages/` | High
 3 | File | `/admins` | Low
-4 | File | `/analysisProject/pagingQueryData` | High
-5 | File | `/api/admin/system/store/order/list` | High
-6 | File | `/cgi-bin/cstecgi.cgi` | High
-7 | File | `/cgi-bin/wapopen` | High
-8 | File | `/cgi-bin/wlogin.cgi` | High
-9 | File | `/csms/?page=contact_us` | High
-10 | File | `/etc/ajenti/config.yml` | High
-11 | File | `/farm/product.php` | High
-12 | File | `/forum/away.php` | High
-13 | File | `/goform/telnet` | High
-14 | File | `/modules/profile/index.php` | High
-15 | File | `/ptippage.cgi` | High
-16 | File | `/rom-0` | Low
-17 | File | `/tmp/out` | Medium
-18 | File | `/tmp/phpglibccheck` | High
-19 | File | `/uncpath/` | Medium
-20 | File | `/upload` | Low
-21 | File | `/var/tmp/sess_*` | High
-22 | File | `/vmi/manager/engine/management/commands/apns_worker.py` | High
-23 | File | `action.php` | Medium
-24 | File | `actionphp/download.File.php` | High
-25 | File | `add_comment.php` | High
-26 | File | `admin/admin.php` | High
-27 | File | `admin/content.php` | High
-28 | File | `admin/index.php?id=users/action=edit/user_id=1` | High
-29 | File | `admin/memberviewdetails.php` | High
-30 | File | `admin/src/containers/InputModalStepperProvider/index.js` | High
-31 | File | `admin_gallery.php3` | High
-32 | File | `affich.php` | Medium
-33 | File | `agent/Core/Controller/SendRequest.cpp` | High
-34 | File | `ajax/telemetry.php` | High
-35 | File | `akeyActivationLogin.do` | High
-36 | File | `album_portal.php` | High
-37 | File | `apache-auth.conf` | High
-38 | File | `askapache-firefox-adsense.php` | High
-39 | File | `attachment.cgi` | High
-40 | File | `blueprints/sections/edit/1` | High
-41 | File | `boaform/admin/formPing` | High
-42 | File | `books.php` | Medium
-43 | File | `cart_add.php` | Medium
+4 | File | `/ajax/getBasicInfo.php` | High
+5 | File | `/analysisProject/pagingQueryData` | High
+6 | File | `/api/admin/system/store/order/list` | High
+7 | File | `/cgi-bin/cstecgi.cgi` | High
+8 | File | `/cgi-bin/wapopen` | High
+9 | File | `/cgi-bin/wlogin.cgi` | High
+10 | File | `/clientdetails/admin/regester.php` | High
+11 | File | `/csms/?page=contact_us` | High
+12 | File | `/etc/ajenti/config.yml` | High
+13 | File | `/farm/product.php` | High
+14 | File | `/forum/away.php` | High
+15 | File | `/goform/telnet` | High
+16 | File | `/modules/profile/index.php` | High
+17 | File | `/ptippage.cgi` | High
+18 | File | `/rom-0` | Low
+19 | File | `/tmp/out` | Medium
+20 | File | `/tmp/phpglibccheck` | High
+21 | File | `/uncpath/` | Medium
+22 | File | `/upload` | Low
+23 | File | `/v1/operador/` | High
+24 | File | `/var/tmp/sess_*` | High
+25 | File | `/vmi/manager/engine/management/commands/apns_worker.py` | High
+26 | File | `action.php` | Medium
+27 | File | `actionphp/download.File.php` | High
+28 | File | `add_comment.php` | High
+29 | File | `admin/admin.php` | High
+30 | File | `admin/content.php` | High
+31 | File | `admin/index.php?id=users/action=edit/user_id=1` | High
+32 | File | `admin/memberviewdetails.php` | High
+33 | File | `admin/src/containers/InputModalStepperProvider/index.js` | High
+34 | File | `admin_gallery.php3` | High
+35 | File | `affich.php` | Medium
+36 | File | `agent/Core/Controller/SendRequest.cpp` | High
+37 | File | `ajax/telemetry.php` | High
+38 | File | `akeyActivationLogin.do` | High
+39 | File | `album_portal.php` | High
+40 | File | `apache-auth.conf` | High
+41 | File | `askapache-firefox-adsense.php` | High
+42 | File | `attachment.cgi` | High
+43 | File | `blueprints/sections/edit/1` | High
 44 | ... | ... | ...
 
-There are 385 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 384 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

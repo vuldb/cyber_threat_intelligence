@@ -44,17 +44,17 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/dayrui/My/Config/Install.txt` | High
-2 | File | `/etc/skel` | Medium
-3 | File | `/novel/bookSetting/list` | High
-4 | File | `/php-opos/index.php` | High
-5 | File | `/rom-0` | Low
-6 | File | `/uncpath/` | Medium
-7 | File | `/uploads/tags.php` | High
-8 | File | `/user/upload/upload` | High
+1 | File | `/api/blade-system/menu/list?updatexml` | High
+2 | File | `/dayrui/My/Config/Install.txt` | High
+3 | File | `/etc/skel` | Medium
+4 | File | `/novel/bookSetting/list` | High
+5 | File | `/php-opos/index.php` | High
+6 | File | `/rom-0` | Low
+7 | File | `/uncpath/` | Medium
+8 | File | `/uploads/tags.php` | High
 9 | ... | ... | ...
 
-There are 61 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 63 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

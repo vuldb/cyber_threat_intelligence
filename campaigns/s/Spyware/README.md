@@ -68,13 +68,13 @@ ID | Type | Indicator | Confidence
 5 | File | `/common/info.cgi` | High
 6 | File | `/mgmt/tm/util/bash` | High
 7 | File | `/recordings/index.php` | High
-8 | File | `/uncpath/` | Medium
-9 | File | `/webssh` | Low
-10 | File | `add_vhost.php` | High
-11 | File | `admin-ajax.php` | High
+8 | File | `/scripts/cpan_config` | High
+9 | File | `/uncpath/` | Medium
+10 | File | `/webssh` | Low
+11 | File | `add_vhost.php` | High
 12 | ... | ... | ...
 
-There are 93 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 94 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

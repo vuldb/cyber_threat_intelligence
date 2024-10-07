@@ -8,8 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with XenoRAT:
 
-* [RU](https://vuldb.com/?country.ru)
+* [LA](https://vuldb.com/?country.la)
 * [US](https://vuldb.com/?country.us)
+* [RU](https://vuldb.com/?country.ru)
+* ...
+
+There are 3 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -17,12 +21,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [45.66.231.63](https://vuldb.com/?ip.45.66.231.63) | - | - | High
-2 | [45.133.174.133](https://vuldb.com/?ip.45.133.174.133) | - | - | High
-3 | [62.133.174.224](https://vuldb.com/?ip.62.133.174.224) | mail.nvtech.ru | - | High
+1 | [2.58.85.196](https://vuldb.com/?ip.2.58.85.196) | sunucuduragi.com | - | High
+2 | [45.66.231.63](https://vuldb.com/?ip.45.66.231.63) | - | - | High
+3 | [45.133.174.133](https://vuldb.com/?ip.45.133.174.133) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 3 more IOC items available. Please use our online service to access the data.
+There are 9 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -30,12 +34,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059 | CWE-94 | Argument Injection | High
-2 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-3 | T1068 | CWE-284 | Execution with Unnecessary Privileges | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-24 | Path Traversal | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 3 more TTP items available. Please use our online service to access the data.
+There are 15 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -44,17 +49,34 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/accounts_con/register_account` | High
-2 | File | `/admin/user/manage_user.php` | High
-3 | File | `/api/stl/actions/search` | High
-4 | File | `/app/ajax/sell_return_data.php` | High
-5 | File | `/classes/Master.php?f=delete_inquiry` | High
-6 | File | `/item/item_con` | High
-7 | File | `/manage-apartment.php` | High
-8 | File | `/mkshop/Men/profile.php` | High
-9 | File | `/mkshope/login.php` | High
-10 | ... | ... | ...
+2 | File | `/admin/dl_sendmail.php` | High
+3 | File | `/admin/index2.html` | High
+4 | File | `/admin/user/manage_user.php` | High
+5 | File | `/adminPage/conf/reload` | High
+6 | File | `/api/baskets/{name}` | High
+7 | File | `/api/stl/actions/search` | High
+8 | File | `/api/v2/cli/commands` | High
+9 | File | `/app/ajax/sell_return_data.php` | High
+10 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+11 | File | `/classes/Master.php?f=delete_inquiry` | High
+12 | File | `/classes/SystemSettings.php?f=update_settings` | High
+13 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
+14 | File | `/DXR.axd` | Medium
+15 | File | `/files/list-file` | High
+16 | File | `/forum/away.php` | High
+17 | File | `/index.php?menu=asterisk_cli` | High
+18 | File | `/index/ajax/lang` | High
+19 | File | `/item/item_con` | High
+20 | File | `/jsoa/hntdCustomDesktopActionContent` | High
+21 | File | `/log/decodmail.php` | High
+22 | File | `/manage-apartment.php` | High
+23 | File | `/mfsNotice/page` | High
+24 | File | `/mkshop/Men/profile.php` | High
+25 | File | `/mkshope/login.php` | High
+26 | File | `/new_item` | Medium
+27 | ... | ... | ...
 
-There are 72 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 228 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

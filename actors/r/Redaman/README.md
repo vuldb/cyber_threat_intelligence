@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Redaman:
 
 * [US](https://vuldb.com/?country.us)
-* [LV](https://vuldb.com/?country.lv)
 * [CN](https://vuldb.com/?country.cn)
+* [LV](https://vuldb.com/?country.lv)
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -53,7 +53,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 16 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -62,30 +62,32 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/edit.php` | High
-2 | File | `/api/index.php` | High
-3 | File | `/bin/goahead` | Medium
-4 | File | `/cgi-bin-sdb/` | High
-5 | File | `/cgi-bin/logo_extra_upload.cgi` | High
-6 | File | `/debug/pprof` | Medium
-7 | File | `/downloadFile.php` | High
-8 | File | `/etc/passwd` | Medium
-9 | File | `/inc/extensions.php` | High
-10 | File | `/MIME/INBOX-MM-1/` | High
-11 | File | `/ServletAPI/accounts/login` | High
-12 | File | `/sqfs/bin/sccd` | High
-13 | File | `/uncpath/` | Medium
-14 | File | `/var/WEB-GUI/cgi-bin/downloadfile.cgi` | High
-15 | File | `/wp-admin/admin-ajax.php` | High
-16 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-17 | File | `admin.php` | Medium
-18 | File | `admin.php?action=file&ctrl=download&path=../../1.txt` | High
-19 | File | `admin/google_search_console/class-gsc-table.php` | High
-20 | File | `ajax.php` | Medium
-21 | File | `akocomments.php` | High
-22 | File | `appGet.cgi` | Medium
-23 | ... | ... | ...
+2 | File | `/admin/index.php` | High
+3 | File | `/api/index.php` | High
+4 | File | `/bin/goahead` | Medium
+5 | File | `/cgi-bin-sdb/` | High
+6 | File | `/cgi-bin/cstecgi.cgi` | High
+7 | File | `/cgi-bin/logo_extra_upload.cgi` | High
+8 | File | `/debug/pprof` | Medium
+9 | File | `/downloadFile.php` | High
+10 | File | `/endpoint/delete-account.php` | High
+11 | File | `/etc/passwd` | Medium
+12 | File | `/etc/shadow.sample` | High
+13 | File | `/foms/routers/place-order.php` | High
+14 | File | `/inc/extensions.php` | High
+15 | File | `/index.php` | Medium
+16 | File | `/index.php?page=tenants` | High
+17 | File | `/mfeedback.php` | High
+18 | File | `/MIME/INBOX-MM-1/` | High
+19 | File | `/ServletAPI/accounts/login` | High
+20 | File | `/sqfs/bin/sccd` | High
+21 | File | `/uncpath/` | Medium
+22 | File | `/var/WEB-GUI/cgi-bin/downloadfile.cgi` | High
+23 | File | `/wp-admin/admin-ajax.php` | High
+24 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+25 | ... | ... | ...
 
-There are 190 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 206 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

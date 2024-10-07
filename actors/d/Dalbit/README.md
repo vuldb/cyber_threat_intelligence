@@ -16,6 +16,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
+* [CH](https://vuldb.com/?country.ch)
 
 ## IOC - Indicator of Compromise
 
@@ -41,7 +42,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059 | CWE-88 | Argument Injection | High
 4 | ... | ... | ... | ...
 
-There are 12 more TTP items available. Please use our online service to access the data.
+There are 13 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -49,14 +50,16 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/baseOpLog.do` | High
-2 | File | `/cgi-bin/luci/api/auth` | High
-3 | File | `/debug/pprof` | Medium
-4 | File | `/uncpath/` | Medium
-5 | File | `/upload` | Low
-6 | ... | ... | ...
+1 | File | `/Admin/add-admin.php` | High
+2 | File | `/baseOpLog.do` | High
+3 | File | `/cgi-bin/luci/api/auth` | High
+4 | File | `/debug/pprof` | Medium
+5 | File | `/pincode-verification.php` | High
+6 | File | `/uncpath/` | Medium
+7 | File | `/upload` | Low
+8 | ... | ... | ...
 
-There are 35 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 52 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

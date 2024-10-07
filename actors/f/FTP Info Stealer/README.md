@@ -39,7 +39,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
@@ -47,7 +47,7 @@ ID | Technique | Weakness | Description | Confidence
 6 | T1068 | CWE-264, CWE-269, CWE-271, CWE-284 | Execution with Unnecessary Privileges | High
 7 | ... | ... | ... | ...
 
-There are 24 more TTP items available. Please use our online service to access the data.
+There are 23 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -76,29 +76,30 @@ ID | Type | Indicator | Confidence
 19 | File | `/core/config-revisions` | High
 20 | File | `/cwc/login` | Medium
 21 | File | `/debuginfo.htm` | High
-22 | File | `/dl/dl_print.php` | High
-23 | File | `/Electron/download` | High
-24 | File | `/etc/passwd` | Medium
-25 | File | `/etc/quagga` | Medium
-26 | File | `/export` | Low
-27 | File | `/forms/doLogin` | High
-28 | File | `/forum/away.php` | High
-29 | File | `/getcfg.php` | Medium
-30 | File | `/guest_auth/cfg/upLoadCfg.php` | High
-31 | File | `/h/autoSaveDraft` | High
-32 | File | `/h/calendar` | Medium
-33 | File | `/include/chart_generator.php` | High
-34 | File | `/index.php` | Medium
-35 | File | `/items/search` | High
-36 | File | `/load.php` | Medium
-37 | File | `/lua/set-passwd.lua` | High
-38 | File | `/mims/login.php` | High
-39 | File | `/nova/bin/console` | High
-40 | File | `/nova/bin/detnet` | High
-41 | File | `/ofcms/company-c-47` | High
-42 | ... | ... | ...
+22 | File | `/Electron/download` | High
+23 | File | `/etc/passwd` | Medium
+24 | File | `/etc/quagga` | Medium
+25 | File | `/export` | Low
+26 | File | `/forms/doLogin` | High
+27 | File | `/forum/away.php` | High
+28 | File | `/guest_auth/cfg/upLoadCfg.php` | High
+29 | File | `/h/autoSaveDraft` | High
+30 | File | `/h/calendar` | Medium
+31 | File | `/include/chart_generator.php` | High
+32 | File | `/index.php` | Medium
+33 | File | `/items/search` | High
+34 | File | `/load.php` | Medium
+35 | File | `/lua/set-passwd.lua` | High
+36 | File | `/mims/login.php` | High
+37 | File | `/nova/bin/console` | High
+38 | File | `/nova/bin/detnet` | High
+39 | File | `/ofcms/company-c-47` | High
+40 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+41 | File | `/out.php` | Medium
+42 | File | `/pages/animals.php` | High
+43 | ... | ... | ...
 
-There are 359 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 369 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

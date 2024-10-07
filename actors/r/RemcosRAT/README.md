@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [LA](https://vuldb.com/?country.la)
-* [GB](https://vuldb.com/?country.gb)
+* [NL](https://vuldb.com/?country.nl)
 * ...
 
 There are 6 more country items available. Please use our online service to access the data.
@@ -76,42 +76,42 @@ ID | Type | Indicator | Confidence
 20 | File | `/ajax.php?action=read_msg` | High
 21 | File | `/api/baskets/{name}` | High
 22 | File | `/api/sys/login` | High
-23 | File | `/application/index/controller/Databasesource.php` | High
-24 | File | `/application/index/controller/File.php` | High
-25 | File | `/application/plugins/controller/Upload.php` | High
-26 | File | `/author_posts.php` | High
-27 | File | `/be/rpc.php` | Medium
-28 | File | `/blog` | Low
-29 | File | `/category/order/hits/copyright/46/finish/1/list/1` | High
-30 | File | `/cgi-bin/cstecgi.cgi` | High
-31 | File | `/cgi-bin/login.cgi` | High
-32 | File | `/cgi-bin/nas_sharing.cgi` | High
-33 | File | `/cgi-bin/nightled.cgi` | High
-34 | File | `/cgi-bin/system_mgr.cgi` | High
-35 | File | `/cgi-bin/vitogate.cgi` | High
-36 | File | `/classes/Login.php` | High
-37 | File | `/classes/Master.php?f=delete_category` | High
-38 | File | `/classes/Master.php?f=delete_inquiry` | High
-39 | File | `/classes/Master.php?f=delete_item` | High
-40 | File | `/classes/master.php?f=delete_order` | High
-41 | File | `/classes/Master.php? f=save_medicine` | High
-42 | File | `/classes/Master.php?f=save_service` | High
-43 | File | `/classes/Users.php?f=save` | High
-44 | File | `/collection/all` | High
-45 | File | `/config` | Low
-46 | File | `/control/register_case.php` | High
-47 | File | `/Controller/Ajaxfileupload.ashx` | High
-48 | File | `/core/config-revisions` | High
-49 | File | `/cupseasylive/currencylist.php` | High
-50 | File | `/cupseasylive/grnlist.php` | High
-51 | File | `/cupseasylive/locationmodify.php` | High
-52 | File | `/cupseasylive/unitofmeasurementcreate.php` | High
-53 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
-54 | File | `/dipam/save-delegates.php` | High
-55 | File | `/Duty/AjaxHandle/UploadHandler.ashx` | High
+23 | File | `/api2/html/` | Medium
+24 | File | `/application/index/controller/Databasesource.php` | High
+25 | File | `/application/index/controller/File.php` | High
+26 | File | `/application/plugins/controller/Upload.php` | High
+27 | File | `/author_posts.php` | High
+28 | File | `/be/rpc.php` | Medium
+29 | File | `/blog` | Low
+30 | File | `/category/order/hits/copyright/46/finish/1/list/1` | High
+31 | File | `/cgi-bin/cstecgi.cgi` | High
+32 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+33 | File | `/cgi-bin/login.cgi` | High
+34 | File | `/cgi-bin/nas_sharing.cgi` | High
+35 | File | `/cgi-bin/nightled.cgi` | High
+36 | File | `/cgi-bin/system_mgr.cgi` | High
+37 | File | `/cgi-bin/vitogate.cgi` | High
+38 | File | `/classes/Login.php` | High
+39 | File | `/classes/Master.php?f=delete_category` | High
+40 | File | `/classes/Master.php?f=delete_inquiry` | High
+41 | File | `/classes/Master.php?f=delete_item` | High
+42 | File | `/classes/master.php?f=delete_order` | High
+43 | File | `/classes/Master.php? f=save_medicine` | High
+44 | File | `/classes/Master.php?f=save_service` | High
+45 | File | `/classes/SystemSettings.php?f=update_settings` | High
+46 | File | `/classes/Users.php?f=save` | High
+47 | File | `/collection/all` | High
+48 | File | `/config` | Low
+49 | File | `/control/register_case.php` | High
+50 | File | `/Controller/Ajaxfileupload.ashx` | High
+51 | File | `/core/config-revisions` | High
+52 | File | `/cupseasylive/currencylist.php` | High
+53 | File | `/cupseasylive/grnlist.php` | High
+54 | File | `/cupseasylive/locationmodify.php` | High
+55 | File | `/cupseasylive/unitofmeasurementcreate.php` | High
 56 | ... | ... | ...
 
-There are 492 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 489 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -60,13 +60,13 @@ ID | Type | Indicator | Confidence
 4 | File | `/admin/ajax.php?action=save_settings` | High
 5 | File | `/admin/config_time_sync.php` | High
 6 | File | `/admin/index.php` | High
-7 | File | `/admin/singlelogin.php?submit=1` | High
-8 | File | `/admin/system.html` | High
-9 | File | `/api/baskets/{name}` | High
-10 | File | `/api/files/recipepictures/` | High
-11 | File | `/api/user` | Medium
-12 | File | `/apply/index.php` | High
-13 | File | `/bin/ate` | Medium
+7 | File | `/admin/robot.php` | High
+8 | File | `/admin/singlelogin.php?submit=1` | High
+9 | File | `/admin/system.html` | High
+10 | File | `/api/baskets/{name}` | High
+11 | File | `/api/files/recipepictures/` | High
+12 | File | `/api/user` | Medium
+13 | File | `/apply/index.php` | High
 14 | File | `/bin/webs` | Medium
 15 | File | `/boaform/device_reset.cgi` | High
 16 | File | `/boaform/wlan_basic_set.cgi` | High
@@ -78,26 +78,24 @@ ID | Type | Indicator | Confidence
 22 | File | `/cgi-bin/photocenter_mgr.cgi` | High
 23 | File | `/cgi-bin/ping.cgi` | High
 24 | File | `/classes/Master.php` | High
-25 | File | `/classes/Master.php?f=delete_item` | High
-26 | File | `/classes/Master.php?f=delete_service` | High
-27 | File | `/classes/Master.php?f=save_medicine` | High
-28 | File | `/classes/Master.php?f=save_package` | High
-29 | File | `/classes/SystemSettings.php?f=update_settings` | High
-30 | File | `/classes/Users.php?f=register_user` | High
-31 | File | `/collection/all` | High
-32 | File | `/control/register_case.php` | High
-33 | File | `/dosen/data` | Medium
-34 | File | `/ecommerce/support_ticket` | High
-35 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-36 | File | `/emgui/rest/preferences/PREF_HOME_PAGE/sponsor/3/` | High
+25 | File | `/classes/Master.php?f=save_medicine` | High
+26 | File | `/classes/Master.php?f=save_package` | High
+27 | File | `/classes/SystemSettings.php?f=update_settings` | High
+28 | File | `/classes/Users.php?f=register_user` | High
+29 | File | `/collection/all` | High
+30 | File | `/control/register_case.php` | High
+31 | File | `/dosen/data` | Medium
+32 | File | `/dtale/chart-data/1` | High
+33 | File | `/ecommerce/support_ticket` | High
+34 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
+35 | File | `/emgui/rest/preferences/PREF_HOME_PAGE/sponsor/3/` | High
+36 | File | `/etc/shadow.sample` | High
 37 | File | `/file_manager/admin/save_user.php` | High
-38 | File | `/get-artifact` | High
+38 | File | `/foms/routers/place-order.php` | High
 39 | File | `/goform/addressNat` | High
-40 | File | `/goForm/aspForm` | High
-41 | File | `/goform/DhcpListClient` | High
-42 | ... | ... | ...
+40 | ... | ... | ...
 
-There are 359 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 344 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

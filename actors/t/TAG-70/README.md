@@ -15,6 +15,7 @@ The following _campaigns_ are known and can be associated with TAG-70:
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with TAG-70:
 
 * [US](https://vuldb.com/?country.us)
+* [PT](https://vuldb.com/?country.pt)
 * [RU](https://vuldb.com/?country.ru)
 
 ## IOC - Indicator of Compromise
@@ -50,11 +51,11 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/scripts/pi-hole/phpqueryads.php` | High
-2 | File | `/importexport.php` | High
-3 | File | `/php/exportrecord.php` | High
+2 | File | `/classes/SystemSettings.php?f=update_settings` | High
+3 | File | `/importexport.php` | High
 4 | ... | ... | ...
 
-There are 6 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 8 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

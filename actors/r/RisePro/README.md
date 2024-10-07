@@ -87,7 +87,7 @@ ID | IP address | Hostname | Campaign | Confidence
 64 | [77.91.77.95](https://vuldb.com/?ip.77.91.77.95) | - | - | High
 65 | ... | ... | ... | ...
 
-There are 255 more IOC items available. Please use our online service to access the data.
+There are 256 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -113,68 +113,72 @@ ID | Type | Indicator | Confidence
 2 | File | `/.pomerium` | Medium
 3 | File | `/Account/login.php` | High
 4 | File | `/admin/` | Low
-5 | File | `/admin/?page=musics/manage_music` | High
-6 | File | `/admin/ajax.php?action=delete_user` | High
-7 | File | `/Admin/changepassword.php` | High
-8 | File | `/admin/emp-profile-avatar.php` | High
-9 | File | `/admin/general-setting` | High
-10 | File | `/admin/index2.html` | High
-11 | File | `/admin/inquiries/view_inquiry.php` | High
-12 | File | `/admin/order.php` | High
-13 | File | `/admin/projects/{projectname}/skills/{skillname}/video` | High
-14 | File | `/admin/service` | High
-15 | File | `/adminapi/system/crud` | High
-16 | File | `/adminapi/system/file/openfile` | High
-17 | File | `/adminPage/conf/reload` | High
-18 | File | `/admin_route/dec_service_credits.php` | High
-19 | File | `/api/v1/custom_component` | High
-20 | File | `/api/v4/teams//channels/deleted` | High
-21 | File | `/api/wechat/app_auth` | High
-22 | File | `/app/api/controller/default/Sqlite.php` | High
-23 | File | `/cancel.php` | Medium
-24 | File | `/category.php` | High
-25 | File | `/cgi-bin/cstecgi.cgi` | High
-26 | File | `/cgi-bin/nas_sharing.cgi` | High
-27 | File | `/change-language/de_DE` | High
-28 | File | `/classes/Master.php` | High
-29 | File | `/classes/Master.php?f=delete_category` | High
-30 | File | `/classes/Master.php?f=save_medicine` | High
-31 | File | `/classes/Users.php?f=delete` | High
-32 | File | `/context/%2e/WEB-INF/web.xml` | High
-33 | File | `/control/register_case.php` | High
-34 | File | `/controller.php` | High
-35 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
-36 | File | `/devinfo` | Medium
-37 | File | `/dist/index.js` | High
-38 | File | `/download` | Medium
-39 | File | `/downloadFile.php` | High
-40 | File | `/DXR.axd` | Medium
-41 | File | `/endpoint/add-folder.php` | High
-42 | File | `/etc/shadow` | Medium
-43 | File | `/file_manager/login.php` | High
-44 | File | `/film-rating.php` | High
-45 | File | `/foms/routers/place-order.php` | High
-46 | File | `/forum/away.php` | High
-47 | File | `/goform/SetIpMacBind` | High
-48 | File | `/goform/WifiExtraSet` | High
-49 | File | `/guestbook` | Medium
-50 | File | `/hosts/firewall/ip` | High
-51 | File | `/idm/includes/helpServer.jsp` | High
-52 | File | `/index.jsp#settings` | High
-53 | File | `/index.php` | Medium
-54 | File | `/index.php/ccm/system/file/upload` | High
-55 | File | `/index/ajax/lang` | High
-56 | File | `/js/player/dmplayer/dmku/?ac=edit` | High
-57 | File | `/labvantage/rc?command=page&page=SampleHistoricalList&_iframename=list&__crc=crc_1701669816260` | High
-58 | File | `/labvantage/rc?command=page&page=SampleList&_iframename=list` | High
-59 | File | `/lan.asp` | Medium
-60 | File | `/librarian/bookdetails.php` | High
-61 | File | `/log/decodmail.php` | High
-62 | File | `/manage_course.php` | High
-63 | File | `/mfsNotice/page` | High
-64 | ... | ... | ...
+5 | File | `/admin/?page=bike` | High
+6 | File | `/admin/?page=musics/manage_music` | High
+7 | File | `/admin/ajax.php?action=delete_user` | High
+8 | File | `/Admin/changepassword.php` | High
+9 | File | `/admin/cms_content.php` | High
+10 | File | `/admin/emp-profile-avatar.php` | High
+11 | File | `/admin/general-setting` | High
+12 | File | `/admin/index2.html` | High
+13 | File | `/admin/inquiries/view_inquiry.php` | High
+14 | File | `/admin/order.php` | High
+15 | File | `/admin/projects/{projectname}/skills/{skillname}/video` | High
+16 | File | `/admin/service` | High
+17 | File | `/adminapi/system/crud` | High
+18 | File | `/adminapi/system/file/openfile` | High
+19 | File | `/adminPage/conf/reload` | High
+20 | File | `/admin_route/dec_service_credits.php` | High
+21 | File | `/api/v1/custom_component` | High
+22 | File | `/api/v4/teams//channels/deleted` | High
+23 | File | `/api/wechat/app_auth` | High
+24 | File | `/api2/html/` | Medium
+25 | File | `/app/api/controller/default/Sqlite.php` | High
+26 | File | `/cancel.php` | Medium
+27 | File | `/car-rental-management-system/admin/index.php?page=manage_car` | High
+28 | File | `/category.php` | High
+29 | File | `/cgi-bin/cstecgi.cgi` | High
+30 | File | `/cgi-bin/koha/catalogue/search.pl` | High
+31 | File | `/cgi-bin/nas_sharing.cgi` | High
+32 | File | `/change-language/de_DE` | High
+33 | File | `/classes/Master.php` | High
+34 | File | `/classes/Master.php?f=delete_category` | High
+35 | File | `/classes/Master.php?f=save_medicine` | High
+36 | File | `/classes/SystemSettings.php?f=update_settings` | High
+37 | File | `/classes/Users.php?f=delete` | High
+38 | File | `/context/%2e/WEB-INF/web.xml` | High
+39 | File | `/control/register_case.php` | High
+40 | File | `/controller.php` | High
+41 | File | `/Device/Device/GetDeviceInfoList?deviceCode=&searchField=&deviceState=` | High
+42 | File | `/devinfo` | Medium
+43 | File | `/download` | Medium
+44 | File | `/downloadFile.php` | High
+45 | File | `/dtale/chart-data/1` | High
+46 | File | `/DXR.axd` | Medium
+47 | File | `/endpoint/add-folder.php` | High
+48 | File | `/etc/shadow` | Medium
+49 | File | `/file_manager/login.php` | High
+50 | File | `/film-rating.php` | High
+51 | File | `/foms/routers/place-order.php` | High
+52 | File | `/forum/away.php` | High
+53 | File | `/goform/SetIpMacBind` | High
+54 | File | `/goform/WifiExtraSet` | High
+55 | File | `/guestbook` | Medium
+56 | File | `/idm/includes/helpServer.jsp` | High
+57 | File | `/index.jsp#settings` | High
+58 | File | `/index.php` | Medium
+59 | File | `/index/ajax/lang` | High
+60 | File | `/js/player/dmplayer/dmku/?ac=edit` | High
+61 | File | `/labvantage/rc?command=page&page=SampleHistoricalList&_iframename=list&__crc=crc_1701669816260` | High
+62 | File | `/labvantage/rc?command=page&page=SampleList&_iframename=list` | High
+63 | File | `/lan.asp` | Medium
+64 | File | `/librarian/bookdetails.php` | High
+65 | File | `/log/decodmail.php` | High
+66 | File | `/manage_course.php` | High
+67 | File | `/mfsNotice/page` | High
+68 | ... | ... | ...
 
-There are 564 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 600 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

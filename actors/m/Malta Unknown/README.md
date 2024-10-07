@@ -100,19 +100,20 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/manage_station.php` | High
-2 | File | `/admin/mod_room/controller.php?action=add` | High
-3 | File | `/api/RecordingList/DownloadRecord?file=` | High
-4 | File | `/auth/session` | High
-5 | File | `/backend/register.php` | High
-6 | File | `/cgi-bin/nas_sharing.cgi` | High
-7 | File | `/check_availability.php` | High
-8 | File | `/classes/Master.php` | High
-9 | File | `/classes/Master.php?f=log_employee` | High
-10 | File | `/filex/proxy-download` | High
-11 | ... | ... | ...
+1 | File | `/admin/emp-profile-avatar.php` | High
+2 | File | `/admin/manage_station.php` | High
+3 | File | `/admin/mod_room/controller.php?action=add` | High
+4 | File | `/api/RecordingList/DownloadRecord?file=` | High
+5 | File | `/auth/session` | High
+6 | File | `/backend/register.php` | High
+7 | File | `/cgi-bin/nas_sharing.cgi` | High
+8 | File | `/check_availability.php` | High
+9 | File | `/classes/Master.php` | High
+10 | File | `/classes/Master.php?f=log_employee` | High
+11 | File | `/control/register_case.php` | High
+12 | ... | ... | ...
 
-There are 86 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 97 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

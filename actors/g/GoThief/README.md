@@ -15,6 +15,7 @@ The following _campaigns_ are known and can be associated with GoThief:
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with GoThief:
 
 * [CN](https://vuldb.com/?country.cn)
+* [US](https://vuldb.com/?country.us)
 
 ## IOC - Indicator of Compromise
 

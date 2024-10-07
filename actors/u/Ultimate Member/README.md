@@ -57,43 +57,46 @@ ID | Type | Indicator | Confidence
 6 | File | `/add_reference_to_local_model` | High
 7 | File | `/admin.php/user/level_del` | High
 8 | File | `/admin/?page=user/manage_user&id=3` | High
-9 | File | `/admin/admin_user.php` | High
-10 | File | `/admin/category_row.php` | High
-11 | File | `/admin/index2.html` | High
-12 | File | `/admin/project/update/2` | High
-13 | File | `/admin/upload/img` | High
-14 | File | `/adminapi/system/crud` | High
-15 | File | `/api/authentication/login` | High
-16 | File | `/api/baskets/{name}` | High
-17 | File | `/api/jolokia org.jolokia.http.HttpRequestHandler#handlePostRequest` | High
-18 | File | `/api/wechat/app_auth` | High
-19 | File | `/api2/html/` | Medium
-20 | File | `/app/api/controller/default/Sqlite.php` | High
-21 | File | `/bin/boa` | Medium
-22 | File | `/bin/login` | Medium
-23 | File | `/books` | Low
-24 | File | `/cas/logout` | Medium
-25 | File | `/cgi-bin/logo_extra_upload.cgi` | High
-26 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
-27 | File | `/cgi-bin/supervisor/CloudSetup.cgi` | High
-28 | File | `/cgi-bin/wlogin.cgi` | High
-29 | File | `/ckeditor/samples/old/ajax.html` | High
-30 | File | `/classes/Master.php` | High
-31 | File | `/classes/Master.php?f=delete_item` | High
-32 | File | `/classes/Master.php?f=delete_service` | High
-33 | File | `/classes/Master.php?f=save_service` | High
-34 | File | `/config/getuser` | High
-35 | File | `/contact.php` | Medium
-36 | File | `/controller/OnlinePreviewController.java` | High
-37 | File | `/controller/publishHotel.php&amp` | High
-38 | File | `/controllers/api/user.php` | High
-39 | File | `/dayrui/My/Config/Install.txt` | High
-40 | File | `/debug/pprof` | Medium
-41 | File | `/designer/add/layout` | High
-42 | File | `/dialog/select_media.php` | High
-43 | ... | ... | ...
+9 | File | `/admin/admin-profile.php` | High
+10 | File | `/admin/admin_user.php` | High
+11 | File | `/admin/category_row.php` | High
+12 | File | `/admin/index2.html` | High
+13 | File | `/admin/pages/list` | High
+14 | File | `/admin/project/update/2` | High
+15 | File | `/admin/upload/img` | High
+16 | File | `/adminapi/system/crud` | High
+17 | File | `/api/authentication/login` | High
+18 | File | `/api/baskets/{name}` | High
+19 | File | `/api/jolokia org.jolokia.http.HttpRequestHandler#handlePostRequest` | High
+20 | File | `/api/wechat/app_auth` | High
+21 | File | `/api2/html/` | Medium
+22 | File | `/app/api/controller/default/Sqlite.php` | High
+23 | File | `/bin/boa` | Medium
+24 | File | `/bin/login` | Medium
+25 | File | `/books` | Low
+26 | File | `/cas/logout` | Medium
+27 | File | `/cgi-bin/logo_extra_upload.cgi` | High
+28 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
+29 | File | `/cgi-bin/supervisor/CloudSetup.cgi` | High
+30 | File | `/cgi-bin/wlogin.cgi` | High
+31 | File | `/ckeditor/samples/old/ajax.html` | High
+32 | File | `/classes/Master.php` | High
+33 | File | `/classes/Master.php?f=delete_category` | High
+34 | File | `/classes/Master.php?f=delete_item` | High
+35 | File | `/classes/Master.php?f=delete_service` | High
+36 | File | `/classes/Master.php?f=save_service` | High
+37 | File | `/config/getuser` | High
+38 | File | `/contact.php` | Medium
+39 | File | `/controller/OnlinePreviewController.java` | High
+40 | File | `/controller/publishHotel.php&amp` | High
+41 | File | `/controllers/api/user.php` | High
+42 | File | `/dayrui/My/Config/Install.txt` | High
+43 | File | `/debug/pprof` | Medium
+44 | File | `/designer/add/layout` | High
+45 | File | `/dialog/select_media.php` | High
+46 | ... | ... | ...
 
-There are 375 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 399 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

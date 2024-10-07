@@ -78,36 +78,40 @@ ID | Type | Indicator | Confidence
 12 | File | `/forum/away.php` | High
 13 | File | `/goform/SetOnlineDevName` | High
 14 | File | `/healthcare/Admin/consulting_detail.php` | High
-15 | File | `/if.cgi` | Low
-16 | File | `/mifs/c/i/reg/reg.html` | High
-17 | File | `/modules/profile/index.php` | High
-18 | File | `/news.dtl.php` | High
-19 | File | `/public/plugins/` | High
-20 | File | `/see_more_details.php` | High
-21 | File | `/services/details.asp` | High
-22 | File | `/setup` | Low
-23 | File | `/spip.php` | Medium
-24 | File | `/uncpath/` | Medium
-25 | File | `/var/log/nginx` | High
-26 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
-27 | File | `/VPortal/mgtconsole/Subscriptions.jsp` | High
-28 | File | `/wbms/classes/Master.php?f=delete_client` | High
-29 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-30 | File | `/zm/index.php` | High
-31 | File | `?r=dashboard/roleadmin/edit&op=member` | High
-32 | File | `accessibility.js` | High
-33 | File | `act.php` | Low
-34 | File | `adclick.php` | Medium
-35 | File | `add_comment.php` | High
-36 | File | `admin` | Low
-37 | File | `admin.php` | Medium
-38 | File | `admin/adminsignin.html` | High
-39 | File | `admin/movieview.php` | High
-40 | File | `admin/versions.html` | High
-41 | File | `administrator/components/com_media/helpers/media.php` | High
-42 | ... | ... | ...
+15 | File | `/I/list.php` | Medium
+16 | File | `/if.cgi` | Low
+17 | File | `/mifs/c/i/reg/reg.html` | High
+18 | File | `/model/update_classroom.php` | High
+19 | File | `/modules/profile/index.php` | High
+20 | File | `/news.dtl.php` | High
+21 | File | `/public/plugins/` | High
+22 | File | `/royal_event/userregister.php` | High
+23 | File | `/see_more_details.php` | High
+24 | File | `/services/details.asp` | High
+25 | File | `/setup` | Low
+26 | File | `/signup.php` | Medium
+27 | File | `/spip.php` | Medium
+28 | File | `/uncpath/` | Medium
+29 | File | `/update-employee.php` | High
+30 | File | `/user/add-notes.php` | High
+31 | File | `/user/manage-notes.php` | High
+32 | File | `/var/log/nginx` | High
+33 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
+34 | File | `/VPortal/mgtconsole/Subscriptions.jsp` | High
+35 | File | `/wbms/classes/Master.php?f=delete_client` | High
+36 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+37 | File | `/zm/index.php` | High
+38 | File | `3/E_bak5.1/upload/eginfo.php` | High
+39 | File | `?r=dashboard/roleadmin/edit&op=member` | High
+40 | File | `accessibility.js` | High
+41 | File | `act.php` | Low
+42 | File | `adclick.php` | Medium
+43 | File | `add_comment.php` | High
+44 | File | `admin` | Low
+45 | File | `admin.php` | Medium
+46 | ... | ... | ...
 
-There are 359 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 394 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

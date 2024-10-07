@@ -99,12 +99,6 @@ ID | Type | Indicator | Confidence
 
 There are 435 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
-## References
-
-The following list contains _external sources_ which discuss the actor and the associated activities:
-
-* 146.70.80.123
-
 ## Literature
 
 The following _articles_ explain our unique predictive cyber threat intelligence:

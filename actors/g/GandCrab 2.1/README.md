@@ -47,17 +47,18 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/devinfo` | Medium
-2 | File | `/etc/tomcat8/Catalina/attack` | High
-3 | File | `/ext/phar/phar_object.c` | High
-4 | File | `/inc/campaign/count_of_send.php` | High
-5 | File | `/rdms/admin/?page=user/manage_user` | High
-6 | File | `/TeleoptiWFM/Administration/GetOneTenant` | High
-7 | File | `/transmission/rpc` | High
-8 | File | `/uncpath/` | Medium
-9 | ... | ... | ...
+1 | File | `/cgi-bin/nas_sharing.cgi` | High
+2 | File | `/devinfo` | Medium
+3 | File | `/etc/tomcat8/Catalina/attack` | High
+4 | File | `/ext/phar/phar_object.c` | High
+5 | File | `/goform/apPortalAuth` | High
+6 | File | `/inc/campaign/count_of_send.php` | High
+7 | File | `/rdms/admin/?page=user/manage_user` | High
+8 | File | `/TeleoptiWFM/Administration/GetOneTenant` | High
+9 | File | `/transmission/rpc` | High
+10 | ... | ... | ...
 
-There are 70 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 74 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

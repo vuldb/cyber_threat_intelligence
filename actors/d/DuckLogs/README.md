@@ -36,7 +36,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -60,40 +60,41 @@ ID | Type | Indicator | Confidence
 14 | File | `/applications/nexus/modules/front/store/store.php` | High
 15 | File | `/apply.cgi` | Medium
 16 | File | `/bitrix/admin/ldap_server_edit.php` | High
-17 | File | `/cgi-bin/cstecgi.cgi` | High
-18 | File | `/cgi-bin/nas_sharing.cgi` | High
-19 | File | `/cgi-bin/photocenter_mgr.cgi` | High
-20 | File | `/cgi-bin/wlogin.cgi` | High
-21 | File | `/classes/Master.php` | High
-22 | File | `/classes/Master.php?f=save_category` | High
-23 | File | `/classes/Users.php?f=save` | High
-24 | File | `/College/admin/teacher.php` | High
-25 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
-26 | File | `/dcim/rack-roles/` | High
-27 | File | `/fftools/ffmpeg_enc.c` | High
-28 | File | `/forms/doLogin` | High
-29 | File | `/formSysLog` | Medium
-30 | File | `/forum/away.php` | High
-31 | File | `/goform/addUserName` | High
-32 | File | `/goform/aspForm` | High
-33 | File | `/goform/delAd` | High
-34 | File | `/goform/SetOnlineDevName` | High
-35 | File | `/goform/WifiBasicSet` | High
-36 | File | `/goform/wifiSSIDset` | High
-37 | File | `/gpac/src/bifs/unquantize.c` | High
-38 | File | `/inc/topBarNav.php` | High
-39 | File | `/includes/common/require_access_recovery.php` | High
-40 | File | `/index.asp` | Medium
-41 | File | `/index.php` | Medium
-42 | File | `/index.php?app=main&func=passport&action=login` | High
-43 | File | `/install/` | Medium
-44 | File | `/jfinal_cms/system/role/list` | High
-45 | File | `/kelas/data` | Medium
-46 | File | `/listplace/user/ticket/create` | High
-47 | File | `/login/index.php` | High
-48 | ... | ... | ...
+17 | File | `/cgi-bin/apkg_mgr.cgi` | High
+18 | File | `/cgi-bin/cstecgi.cgi` | High
+19 | File | `/cgi-bin/nas_sharing.cgi` | High
+20 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+21 | File | `/cgi-bin/wlogin.cgi` | High
+22 | File | `/classes/Master.php` | High
+23 | File | `/classes/Master.php?f=delete_record` | High
+24 | File | `/classes/Master.php?f=save_category` | High
+25 | File | `/classes/SystemSettings.php?f=update_settings` | High
+26 | File | `/classes/Users.php?f=save` | High
+27 | File | `/College/admin/teacher.php` | High
+28 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
+29 | File | `/dcim/rack-roles/` | High
+30 | File | `/dtale/chart-data/1` | High
+31 | File | `/etc/shadow.sample` | High
+32 | File | `/fftools/ffmpeg_enc.c` | High
+33 | File | `/forms/doLogin` | High
+34 | File | `/formSysLog` | Medium
+35 | File | `/forum/away.php` | High
+36 | File | `/goform/addUserName` | High
+37 | File | `/goform/aspForm` | High
+38 | File | `/goform/delAd` | High
+39 | File | `/goform/SetOnlineDevName` | High
+40 | File | `/goform/WifiBasicSet` | High
+41 | File | `/goform/wifiSSIDset` | High
+42 | File | `/gpac/src/bifs/unquantize.c` | High
+43 | File | `/h.php/page?ref=addtabs` | High
+44 | File | `/image.php` | Medium
+45 | File | `/inc/topBarNav.php` | High
+46 | File | `/includes/common/require_access_recovery.php` | High
+47 | File | `/index.asp` | Medium
+48 | File | `/index.php` | Medium
+49 | ... | ... | ...
 
-There are 416 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 429 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

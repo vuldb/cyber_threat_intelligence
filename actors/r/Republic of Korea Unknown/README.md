@@ -1071,14 +1071,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23, CWE-24, CWE-25, CWE-29, CWE-36, CWE-425 | Path Traversal | High
+1 | T1006 | CWE-22, CWE-23, CWE-29, CWE-36, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74, CWE-643 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -1095,55 +1095,58 @@ ID | Type | Indicator | Confidence
 7 | File | `/admin.php?c=upload&f=zip&_noCache=0.1683794968` | High
 8 | File | `/admin.php?p=/Area/index#tab=t2` | High
 9 | File | `/admin/` | Low
-10 | File | `/admin/ajax.php?action=delete_user` | High
-11 | File | `/Admin/changepassword.php` | High
-12 | File | `/admin/clientview.php` | High
-13 | File | `/admin/general-setting` | High
-14 | File | `/admin/inquiries/view_inquiry.php` | High
-15 | File | `/admin/list_ipAddressPolicy.php` | High
-16 | File | `/admin/menu/toEdit` | High
-17 | File | `/admin/projects/{projectname}/skills/{skillname}/video` | High
-18 | File | `/admin/service` | High
-19 | File | `/admin/view_sendlist.php` | High
-20 | File | `/adminapi/system/crud` | High
-21 | File | `/adminapi/system/file/openfile` | High
-22 | File | `/adminPage/conf/reload` | High
-23 | File | `/admin_route/dec_service_credits.php` | High
-24 | File | `/api/controllers/admin/app/AppController.php` | High
-25 | File | `/api/controllers/common/UploadsController.php` | High
-26 | File | `/api/v1/custom_component` | High
-27 | File | `/api/v1/settings` | High
-28 | File | `/api/v1/toolbox/device/update/swap` | High
-29 | File | `/api/v4/teams//channels/deleted` | High
-30 | File | `/api/wechat/app_auth` | High
-31 | File | `/app/api/controller/caiji.php` | High
-32 | File | `/app/controller/Setup.php` | High
-33 | File | `/app/Http/Controllers/ImageController.php` | High
-34 | File | `/app/index/controller/Common.php` | High
-35 | File | `/application/index/common.php` | High
+10 | File | `/admin/?page=bike` | High
+11 | File | `/admin/?page=musics/manage_music` | High
+12 | File | `/admin/ajax.php?action=delete_user` | High
+13 | File | `/Admin/changepassword.php` | High
+14 | File | `/admin/emp-profile-avatar.php` | High
+15 | File | `/admin/general-setting` | High
+16 | File | `/admin/inquiries/view_inquiry.php` | High
+17 | File | `/admin/list_ipAddressPolicy.php` | High
+18 | File | `/admin/menu/toEdit` | High
+19 | File | `/admin/order.php` | High
+20 | File | `/admin/projects/{projectname}/skills/{skillname}/video` | High
+21 | File | `/admin/service` | High
+22 | File | `/admin/suppliers/view_details.php` | High
+23 | File | `/admin/view_sendlist.php` | High
+24 | File | `/adminapi/system/crud` | High
+25 | File | `/adminapi/system/file/openfile` | High
+26 | File | `/adminPage/conf/reload` | High
+27 | File | `/admin_route/dec_service_credits.php` | High
+28 | File | `/api/controllers/admin/app/AppController.php` | High
+29 | File | `/api/controllers/common/UploadsController.php` | High
+30 | File | `/api/v1/custom_component` | High
+31 | File | `/api/v1/settings` | High
+32 | File | `/api/v1/toolbox/device/update/swap` | High
+33 | File | `/api/v4/teams//channels/deleted` | High
+34 | File | `/api/wechat/app_auth` | High
+35 | File | `/app/controller/Setup.php` | High
 36 | File | `/application/index/controller/Databasesource.php` | High
 37 | File | `/application/index/controller/Pay.php` | High
-38 | File | `/application/pay/controller/Api.php` | High
-39 | File | `/assets/php/upload.php` | High
-40 | File | `/cancel.php` | Medium
+38 | File | `/assets/php/upload.php` | High
+39 | File | `/cancel.php` | Medium
+40 | File | `/car-rental-management-system/admin/index.php?page=manage_car` | High
 41 | File | `/category.php` | High
 42 | File | `/cgi-bin/cstecgi.cgi` | High
 43 | File | `/cgi-bin/nas_sharing.cgi` | High
-44 | File | `/change-language/de_DE` | High
-45 | File | `/churchcrm/WhyCameEditor.php` | High
-46 | File | `/classes/Master.php` | High
-47 | File | `/classes/Master.php?f=delete_category` | High
-48 | File | `/classes/Master.php?f=save_medicine` | High
-49 | File | `/classes/Master.php?f=view_item` | High
-50 | File | `/classes/Users.php?f=delete` | High
-51 | File | `/classes/Users.php?f=save` | High
+44 | File | `/classes/Master.php` | High
+45 | File | `/classes/Master.php?f=delete_category` | High
+46 | File | `/classes/Master.php?f=save_medicine` | High
+47 | File | `/classes/Master.php?f=view_item` | High
+48 | File | `/classes/SystemSettings.php?f=update_settings` | High
+49 | File | `/classes/Users.php?f=delete` | High
+50 | File | `/classes/Users.php?f=save` | High
+51 | File | `/cms/category/list` | High
 52 | File | `/control/register_case.php` | High
-53 | File | `/devinfo` | Medium
-54 | File | `/dist/index.js` | High
-55 | File | `/download` | Medium
-56 | ... | ... | ...
+53 | File | `/download` | Medium
+54 | File | `/downloadFile.php` | High
+55 | File | `/dtale/chart-data/1` | High
+56 | File | `/DXR.axd` | Medium
+57 | File | `/endpoint/add-folder.php` | High
+58 | File | `/etc/fwupd/redfish.conf` | High
+59 | ... | ... | ...
 
-There are 485 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 511 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

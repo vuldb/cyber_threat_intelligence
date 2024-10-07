@@ -72,7 +72,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 10 more TTP items available. Please use our online service to access the data.
+There are 11 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -82,26 +82,28 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/Admin/add-student.php` | High
 2 | File | `/admin/api/theme-edit/` | High
-3 | File | `/Admin/login.php` | High
-4 | File | `/admin/maintenance/view_designation.php` | High
-5 | File | `/admin/manage_complaint.php` | High
-6 | File | `/backend/register.php` | High
-7 | File | `/category.php` | High
-8 | File | `/category_view.php` | High
-9 | File | `/cgi-bin/nas_sharing.cgi` | High
-10 | File | `/classes/Master.php` | High
-11 | File | `/classes/Master.php?f=delete_category` | High
-12 | File | `/classes/Users.php?f=save` | High
-13 | File | `/control/register_case.php` | High
-14 | File | `/csms/admin/?page=user/list` | High
-15 | File | `/employeeview.php` | High
-16 | File | `/forum/away.php` | High
-17 | File | `/manage_sy.php` | High
-18 | File | `/ndmComponents.js` | High
-19 | File | `/php-fusion/infusions/shoutbox_panel/shoutbox_archive.php` | High
-20 | ... | ... | ...
+3 | File | `/admin/emp-profile-avatar.php` | High
+4 | File | `/Admin/login.php` | High
+5 | File | `/admin/maintenance/view_designation.php` | High
+6 | File | `/admin/manage_complaint.php` | High
+7 | File | `/backend/register.php` | High
+8 | File | `/category.php` | High
+9 | File | `/category_view.php` | High
+10 | File | `/cgi-bin/nas_sharing.cgi` | High
+11 | File | `/cgi-bin/p1_ftpserver.php` | High
+12 | File | `/cgi-bin/tosei_kikai.php` | High
+13 | File | `/classes/Master.php` | High
+14 | File | `/classes/Master.php?f=delete_category` | High
+15 | File | `/classes/SystemSettings.php?f=update_settings` | High
+16 | File | `/classes/Users.php?f=save` | High
+17 | File | `/control/register_case.php` | High
+18 | File | `/csms/admin/?page=user/list` | High
+19 | File | `/employeeview.php` | High
+20 | File | `/foms/routers/place-order.php` | High
+21 | File | `/forum/away.php` | High
+22 | ... | ... | ...
 
-There are 161 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 184 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

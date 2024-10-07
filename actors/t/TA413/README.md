@@ -52,7 +52,7 @@ ID | Type | Indicator | Confidence
 3 | File | `/usr/bin/sonia` | High
 4 | ... | ... | ...
 
-There are 15 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 18 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

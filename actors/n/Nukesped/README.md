@@ -74,13 +74,12 @@ ID | Type | Indicator | Confidence
 23 | File | `/fuel/index.php/fuel/logs/items` | High
 24 | File | `/fuel/index.php/fuel/pages/items` | High
 25 | File | `/goform/aspForm` | High
-26 | File | `/image_zoom.php` | High
-27 | File | `/index.php` | Medium
-28 | File | `/lists/index.php` | High
-29 | File | `/mkshop/Men/profile.php` | High
-30 | ... | ... | ...
+26 | File | `/index.php` | Medium
+27 | File | `/lists/index.php` | High
+28 | File | `/mkshop/Men/profile.php` | High
+29 | ... | ... | ...
 
-There are 257 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 250 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

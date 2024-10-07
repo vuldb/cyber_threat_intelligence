@@ -60,15 +60,15 @@ ID | Type | Indicator | Confidence
 9 | File | `/goform/aspForm` | High
 10 | File | `/ofrs/admin/?page=user/manage_user` | High
 11 | File | `/user/dls_download.php` | High
-12 | File | `/xxl-job-admin/jobinfo` | High
-13 | File | `AAVCAssembler.cpp` | High
-14 | File | `admin.php` | Medium
-15 | File | `Admin.php` | Medium
-16 | File | `admin/admin.guestbook.php` | High
-17 | File | `admin/comment.php` | High
+12 | File | `/users.php` | Medium
+13 | File | `/xxl-job-admin/jobinfo` | High
+14 | File | `AAVCAssembler.cpp` | High
+15 | File | `admin.php` | Medium
+16 | File | `Admin.php` | Medium
+17 | File | `admin/admin.guestbook.php` | High
 18 | ... | ... | ...
 
-There are 142 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 145 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

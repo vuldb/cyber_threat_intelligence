@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with SocGholish:
 
 * [US](https://vuldb.com/?country.us)
+* [GB](https://vuldb.com/?country.gb)
 * [DE](https://vuldb.com/?country.de)
-* [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 14 more country items available. Please use our online service to access the data.
+There are 15 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -33,7 +33,7 @@ ID | IP address | Hostname | Campaign | Confidence
 10 | [87.249.50.201](https://vuldb.com/?ip.87.249.50.201) | 832423-cv17319.tmweb.ru | - | High
 11 | ... | ... | ... | ...
 
-There are 38 more IOC items available. Please use our online service to access the data.
+There are 40 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -41,14 +41,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-425 | Path Traversal | High
-2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+1 | T1006 | CWE-22, CWE-23, CWE-29, CWE-425 | Path Traversal | High
+2 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
+3 | T1059 | CWE-88, CWE-94, CWE-1321 | Argument Injection | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -58,42 +57,45 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `//proc/kcore` | Medium
 2 | File | `/admin/` | Low
-3 | File | `/admin/about-us.php` | High
-4 | File | `/admin/action/delete-vaccine.php` | High
+3 | File | `/admin/action/delete-vaccine.php` | High
+4 | File | `/admin/del_service.php` | High
 5 | File | `/admin/edit-post.php` | High
-6 | File | `/admin/index2.html` | High
-7 | File | `/api/baskets/{name}` | High
-8 | File | `/app/index/controller/Common.php` | High
-9 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
-10 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
-11 | File | `/applications/nexus/modules/front/store/store.php` | High
-12 | File | `/backend/register.php` | High
-13 | File | `/bitrix/admin/ldap_server_edit.php` | High
-14 | File | `/cgi-bin/cstecgi.cgi` | High
-15 | File | `/cgi-bin/nas_sharing.cgi` | High
-16 | File | `/cgi-bin/system_mgr.cgi` | High
-17 | File | `/classes/Master.php` | High
-18 | File | `/classes/Master.php?f=save_category` | High
-19 | File | `/classes/Users.php?f=save` | High
-20 | File | `/dcim/rack-roles/` | High
-21 | File | `/fftools/ffmpeg_enc.c` | High
-22 | File | `/forms/doLogin` | High
-23 | File | `/formSysLog` | Medium
-24 | File | `/forum/away.php` | High
-25 | File | `/goform/SetOnlineDevName` | High
-26 | File | `/hotel.php` | Medium
-27 | File | `/index.php` | Medium
-28 | File | `/index.php?app=main&func=passport&action=login` | High
-29 | File | `/install/` | Medium
-30 | File | `/listplace/user/ticket/create` | High
-31 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
-32 | File | `/members/poster.php` | High
-33 | File | `/mhds/clinic/view_details.php` | High
-34 | File | `/MIME/INBOX-MM-1/` | High
-35 | File | `/novel/author/list` | High
-36 | ... | ... | ...
+6 | File | `/admin/edit_category.php` | High
+7 | File | `/admin/index2.html` | High
+8 | File | `/admin_ping.htm` | High
+9 | File | `/api/v1/steps` | High
+10 | File | `/app/index/controller/Common.php` | High
+11 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
+12 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
+13 | File | `/applications/nexus/modules/front/store/store.php` | High
+14 | File | `/backend/register.php` | High
+15 | File | `/bin/httpd` | Medium
+16 | File | `/bitrix/admin/ldap_server_edit.php` | High
+17 | File | `/cgi-bin/apkg_mgr.cgi` | High
+18 | File | `/cgi-bin/cstecgi.cgi` | High
+19 | File | `/cgi-bin/nas_sharing.cgi` | High
+20 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+21 | File | `/cgi-bin/system_mgr.cgi` | High
+22 | File | `/cgi-bin/wlogin.cgi` | High
+23 | File | `/classes/Master.php` | High
+24 | File | `/classes/Master.php?f=delete_record` | High
+25 | File | `/classes/Master.php?f=save_category` | High
+26 | File | `/classes/SystemSettings.php?f=update_settings` | High
+27 | File | `/classes/Users.php?f=save` | High
+28 | File | `/debug/pprof` | Medium
+29 | File | `/endpoint/add-task.php` | High
+30 | File | `/etc/shadow.sample` | High
+31 | File | `/fftools/ffmpeg_enc.c` | High
+32 | File | `/forms/doLogin` | High
+33 | File | `/formSysLog` | Medium
+34 | File | `/forum/away.php` | High
+35 | File | `/goform/goform_get_cmd_process` | High
+36 | File | `/goform/SetOnlineDevName` | High
+37 | File | `/goform/setsambacfg` | High
+38 | File | `/goform/WriteFacMac` | High
+39 | ... | ... | ...
 
-There are 304 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 332 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -105,6 +107,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://www.gdatasoftware.com/blog/2024/07/37976-socgholish-fake-update
 * https://www.proofpoint.com/us/blog/threat-insight/are-you-sure-your-browser-date-current-landscape-fake-browser-updates
 * https://www.proofpoint.com/us/blog/threat-insight/ta569-socgholish-and-beyond
+* https://www.reliaquest.com/blog/top-cyber-attacker-techniques/
 
 ## Literature
 

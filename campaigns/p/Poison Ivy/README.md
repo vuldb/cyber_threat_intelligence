@@ -134,7 +134,7 @@ ID | Type | Indicator | Confidence
 70 | File | `/devinfo` | Medium
 71 | ... | ... | ...
 
-There are 627 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 625 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

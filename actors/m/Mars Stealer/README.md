@@ -88,37 +88,38 @@ ID | Type | Indicator | Confidence
 26 | File | `/cgi-bin/photocenter_mgr.cgi` | High
 27 | File | `/cgi-bin/wlogin.cgi` | High
 28 | File | `/classes/Master.php?f=save_inquiry` | High
-29 | File | `/control/register_case.php` | High
-30 | File | `/cstecgi.cgi` | Medium
-31 | File | `/dashboard/add-service.php` | High
-32 | File | `/dashboard/updatelogo.php` | High
-33 | File | `/Default/Bd` | Medium
-34 | File | `/download` | Medium
-35 | File | `/event/admin/?page=user/list` | High
-36 | File | `/face-recognition-php/facepay-master/camera.php` | High
-37 | File | `/filemanager/upload/drop` | High
-38 | File | `/forum/away.php` | High
-39 | File | `/forum/PostPrivateMessage` | High
-40 | File | `/getcfg.php` | Medium
-41 | File | `/goform/aspForm` | High
-42 | File | `/goform/RouteStatic` | High
-43 | File | `/goform/SetOnlineDevName` | High
-44 | File | `/home/masterConsole` | High
-45 | File | `/hrm/employeeadd.php` | High
-46 | File | `/hrm/employeeview.php` | High
-47 | File | `/htdocs/cgibin` | High
-48 | File | `/index.php` | Medium
-49 | File | `/labvantage/rc?command=page&page=SampleHistoricalList&_iframename=list&__crc=crc_1701669816260` | High
-50 | File | `/lists/index.php` | High
-51 | File | `/login.php` | Medium
-52 | File | `/manage_laundry.php` | High
-53 | File | `/mifs/c/i/reg/reg.html` | High
-54 | File | `/model/update_subject.php` | High
-55 | File | `/netflow/jspui/editProfile.jsp` | High
-56 | File | `/portmap` | Medium
-57 | ... | ... | ...
+29 | File | `/classes/SystemSettings.php?f=update_settings` | High
+30 | File | `/control/register_case.php` | High
+31 | File | `/cstecgi.cgi` | Medium
+32 | File | `/dashboard/add-service.php` | High
+33 | File | `/dashboard/updatelogo.php` | High
+34 | File | `/Default/Bd` | Medium
+35 | File | `/download` | Medium
+36 | File | `/event/admin/?page=user/list` | High
+37 | File | `/face-recognition-php/facepay-master/camera.php` | High
+38 | File | `/filemanager/upload/drop` | High
+39 | File | `/forum/away.php` | High
+40 | File | `/forum/PostPrivateMessage` | High
+41 | File | `/getcfg.php` | Medium
+42 | File | `/goform/aspForm` | High
+43 | File | `/goform/RouteStatic` | High
+44 | File | `/goform/SetOnlineDevName` | High
+45 | File | `/home/masterConsole` | High
+46 | File | `/hrm/employeeadd.php` | High
+47 | File | `/hrm/employeeview.php` | High
+48 | File | `/htdocs/cgibin` | High
+49 | File | `/index.php` | Medium
+50 | File | `/labvantage/rc?command=page&page=SampleHistoricalList&_iframename=list&__crc=crc_1701669816260` | High
+51 | File | `/lists/index.php` | High
+52 | File | `/login.php` | Medium
+53 | File | `/manage_laundry.php` | High
+54 | File | `/mifs/c/i/reg/reg.html` | High
+55 | File | `/model/update_subject.php` | High
+56 | File | `/netflow/jspui/editProfile.jsp` | High
+57 | File | `/php-music/classes/Master.php?f=delete_music` | High
+58 | ... | ... | ...
 
-There are 496 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 504 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

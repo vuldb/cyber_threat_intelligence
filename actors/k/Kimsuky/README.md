@@ -54,7 +54,7 @@ ID | IP address | Hostname | Campaign | Confidence
 23 | [31.172.80.100](https://vuldb.com/?ip.31.172.80.100) | - | - | High
 24 | ... | ... | ... | ...
 
-There are 90 more IOC items available. Please use our online service to access the data.
+There are 92 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -62,14 +62,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-24, CWE-29, CWE-425 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-29, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
-4 | T1059 | CWE-94, CWE-1321 | Argument Injection | High
+4 | T1059 | CWE-94 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -77,53 +77,54 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/` | Low
-2 | File | `/admin/admin_user.php` | High
-3 | File | `/admin/category/save` | High
-4 | File | `/admin/index2.html` | High
-5 | File | `/admin/list_ipAddressPolicy.php` | High
-6 | File | `/admin/subject.php` | High
+1 | File | `/admin/admin_widgets.php?action=remove/widget=Statistics` | High
+2 | File | `/admin/ajax.php?action=login` | High
+3 | File | `/admin/forgot-password.php` | High
+4 | File | `/admin/index.php?r=banner%2Fbanner-create` | High
+5 | File | `/admin/index2.html` | High
+6 | File | `/admin/list_ipAddressPolicy.php` | High
 7 | File | `/adminPage/conf/reload` | High
 8 | File | `/api/runscript` | High
 9 | File | `/api/snapshots/` | High
 10 | File | `/api/v1/snapshots` | High
 11 | File | `/api/v2/maps` | Medium
-12 | File | `/auth/auth.php?user=1` | High
-13 | File | `/boaform/device_reset.cgi` | High
-14 | File | `/cgi-bin/cstecgi.cgi` | High
-15 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-16 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
-17 | File | `/cgi-bin/nas_sharing.cgi` | High
-18 | File | `/cgi-bin/system_mgr.cgi` | High
-19 | File | `/cgi-bin/wlogin.cgi` | High
-20 | File | `/cgi/cpaddons_report.pl` | High
-21 | File | `/common/dict/list` | High
-22 | File | `/debug/pprof` | Medium
-23 | File | `/DXR.axd` | Medium
+12 | File | `/apply/index.php` | High
+13 | File | `/candidate/index.php` | High
+14 | File | `/cgi-bin/nas_sharing.cgi` | High
+15 | File | `/cgi-bin/system_mgr.cgi` | High
+16 | File | `/cgi-bin/wlogin.cgi` | High
+17 | File | `/cgi/cpaddons_report.pl` | High
+18 | File | `/classes/SystemSettings.php?f=update_settings` | High
+19 | File | `/common/dict/list` | High
+20 | File | `/debug/pprof` | Medium
+21 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
+22 | File | `/endpoint/add-calorie.php` | High
+23 | File | `/endpoint/add-timesheet.php` | High
 24 | File | `/etc/init.d/update_notifications.sh` | High
-25 | File | `/forum/away.php` | High
-26 | File | `/goform/DhcpListClient` | High
-27 | File | `/goform/goform_get_cmd_process` | High
-28 | File | `/HNAP1/` | Low
-29 | File | `/hrm/leaverequest.php` | High
-30 | File | `/importexport.php` | High
+25 | File | `/foms/routers/place-order.php` | High
+26 | File | `/forum/away.php` | High
+27 | File | `/goform/DhcpListClient` | High
+28 | File | `/hrm/leaverequest.php` | High
+29 | File | `/index.php` | Medium
+30 | File | `/index/ajax/lang` | High
 31 | File | `/install/` | Medium
 32 | File | `/Interface/DevManage/VM.php` | High
-33 | File | `/main/doctype.php` | High
-34 | File | `/main/webservices/additional_webservices.php` | High
-35 | File | `/mc` | Low
-36 | File | `/ndmComponents.js` | High
-37 | File | `/net/bluetooth/rfcomm/core.C` | High
-38 | File | `/PC/WebService.asmx` | High
-39 | File | `/pdf` | Low
+33 | File | `/main/webservices/additional_webservices.php` | High
+34 | File | `/music/ajax.php?action=save_music` | High
+35 | File | `/ndmComponents.js` | High
+36 | File | `/net/bluetooth/rfcomm/core.C` | High
+37 | File | `/PC/WebService.asmx` | High
+38 | File | `/pdf` | Low
+39 | File | `/queue/join` | Medium
 40 | File | `/register.php` | High
 41 | File | `/registrar/` | Medium
 42 | File | `/remote/put_file` | High
-43 | File | `/setting/NTPSyncWithHost` | High
+43 | File | `/routers/add-ticket.php` | High
 44 | File | `/smsa/add_class_submit.php` | High
-45 | ... | ... | ...
+45 | File | `/smsa/admin_login.php` | High
+46 | ... | ... | ...
 
-There are 390 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 396 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -145,9 +146,11 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://github.com/blackorbird/APT_REPORT/blob/master/kimsuky/Kimsuky%20APT%20Group%20targeted%20on%20South%20Korean%20defense%20and%20security%20departments.pdf
 * https://github.com/blackorbird/APT_REPORT/tree/master/kimsuky
 * https://github.com/eset/malware-ioc/tree/master/kimsuky/hotdoge_donutcat_case
+* https://somedieyoungzz.github.io/posts/kimsuky-6/
 * https://threatfox.abuse.ch
 * https://twitter.com/shadowchasing1/status/1500778382966939653
 * https://twitter.com/souiten/status/1473862308132651011
+* https://unit42.paloaltonetworks.com/kimsuky-new-keylogger-backdoor-variant/
 * https://www.sentinelone.com/labs/kimsuky-new-social-engineering-campaign-aims-to-steal-credentials-and-gather-strategic-intelligence/
 
 ## Literature

@@ -28,10 +28,10 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22 | Path Traversal | High
 2 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-3 | T1068 | CWE-264 | Execution with Unnecessary Privileges | High
+3 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
 4 | ... | ... | ... | ...
 
-There are 3 more TTP items available. Please use our online service to access the data.
+There are 6 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -39,12 +39,13 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/team_save.php` | High
-2 | File | `/ajax.php?action=login` | High
-3 | File | `/classes/Users.php?f=save_user` | High
-4 | ... | ... | ...
+1 | File | `/admin/emp-profile-avatar.php` | High
+2 | File | `/admin/team_save.php` | High
+3 | File | `/admin/user/user-move-run.php` | High
+4 | File | `/ajax.php?action=login` | High
+5 | ... | ... | ...
 
-There are 15 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 25 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

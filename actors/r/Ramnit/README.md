@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 16 more country items available. Please use our online service to access the data.
+There are 17 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -136,7 +136,7 @@ ID | Type | Indicator | Confidence
 11 | File | `/core/vb/vurl.php` | High
 12 | File | `/debug/pprof` | Medium
 13 | File | `/etc/gsissh/sshd_config` | High
-14 | File | `/etc/ldap.conf` | High
+14 | File | `/etc/shadow.sample` | High
 15 | File | `/eval/admin/manage_class.php` | High
 16 | File | `/getcfg.php` | Medium
 17 | File | `/goform/telnet` | High
@@ -155,7 +155,7 @@ ID | Type | Indicator | Confidence
 30 | File | `/uncpath/` | Medium
 31 | ... | ... | ...
 
-There are 261 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 259 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

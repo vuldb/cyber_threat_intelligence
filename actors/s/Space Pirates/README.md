@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [JP](https://vuldb.com/?country.jp)
 * ...
 
-There are 3 more country items available. Please use our online service to access the data.
+There are 4 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -49,19 +49,19 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/controller/Index.php` | High
-2 | File | `/GetCSSashx/?CP=%2fwebconfig` | High
-3 | File | `/includes/rrdtool.inc.php` | High
-4 | File | `/login.php` | Medium
-5 | File | `/robots.txt` | Medium
-6 | File | `/rom` | Low
-7 | File | `/srv/www/htdocs` | High
-8 | File | `aa/../../uploads/blog/201811/attach_#.jpg` | High
-9 | File | `abook_database.php` | High
-10 | File | `admin/killsource` | High
+1 | File | `/admin_notify.php` | High
+2 | File | `/controller/Index.php` | High
+3 | File | `/GetCSSashx/?CP=%2fwebconfig` | High
+4 | File | `/includes/rrdtool.inc.php` | High
+5 | File | `/login.php` | Medium
+6 | File | `/robots.txt` | Medium
+7 | File | `/rom` | Low
+8 | File | `/srv/www/htdocs` | High
+9 | File | `aa/../../uploads/blog/201811/attach_#.jpg` | High
+10 | File | `abook_database.php` | High
 11 | ... | ... | ...
 
-There are 86 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 87 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

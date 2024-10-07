@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [ES](https://vuldb.com/?country.es)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 15 more country items available. Please use our online service to access the data.
+There are 16 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -46,41 +46,43 @@ ID | IP address | Hostname | Campaign | Confidence
 23 | [5.188.118.7](https://vuldb.com/?ip.5.188.118.7) | - | - | High
 24 | [8.208.15.65](https://vuldb.com/?ip.8.208.15.65) | - | - | High
 25 | [23.106.215.95](https://vuldb.com/?ip.23.106.215.95) | - | - | High
-26 | [31.41.244.15](https://vuldb.com/?ip.31.41.244.15) | - | - | High
-27 | [31.41.244.17](https://vuldb.com/?ip.31.41.244.17) | - | - | High
-28 | [31.41.244.60](https://vuldb.com/?ip.31.41.244.60) | - | - | High
-29 | [31.41.244.146](https://vuldb.com/?ip.31.41.244.146) | - | - | High
-30 | [31.41.244.158](https://vuldb.com/?ip.31.41.244.158) | - | - | High
-31 | [31.41.244.167](https://vuldb.com/?ip.31.41.244.167) | - | - | High
-32 | [31.41.244.200](https://vuldb.com/?ip.31.41.244.200) | - | - | High
-33 | [31.41.244.237](https://vuldb.com/?ip.31.41.244.237) | - | - | High
-34 | [37.220.87.85](https://vuldb.com/?ip.37.220.87.85) | ipn-37-220-87-85.artem-catv.ru | - | High
-35 | [45.9.74.5](https://vuldb.com/?ip.45.9.74.5) | - | - | High
-36 | [45.9.74.70](https://vuldb.com/?ip.45.9.74.70) | - | - | High
-37 | [45.9.74.80](https://vuldb.com/?ip.45.9.74.80) | - | - | High
-38 | [45.9.74.141](https://vuldb.com/?ip.45.9.74.141) | - | - | High
-39 | [45.9.74.164](https://vuldb.com/?ip.45.9.74.164) | - | - | High
-40 | [45.9.74.166](https://vuldb.com/?ip.45.9.74.166) | - | - | High
-41 | [45.9.74.182](https://vuldb.com/?ip.45.9.74.182) | - | - | High
-42 | [45.15.156.216](https://vuldb.com/?ip.45.15.156.216) | - | - | High
-43 | [45.32.200.113](https://vuldb.com/?ip.45.32.200.113) | 45.32.200.113.vultrusercontent.com | - | Medium
-44 | [45.66.230.123](https://vuldb.com/?ip.45.66.230.123) | - | - | High
-45 | [45.140.19.240](https://vuldb.com/?ip.45.140.19.240) | sendboxmailer.com | - | High
-46 | [45.155.7.60](https://vuldb.com/?ip.45.155.7.60) | 7-60.static.ipcserver.net | - | High
-47 | [45.155.205.172](https://vuldb.com/?ip.45.155.205.172) | - | - | High
-48 | [45.156.23.149](https://vuldb.com/?ip.45.156.23.149) | - | - | High
-49 | [45.156.23.186](https://vuldb.com/?ip.45.156.23.186) | - | - | High
-50 | [45.227.255.49](https://vuldb.com/?ip.45.227.255.49) | - | - | High
-51 | [46.17.96.36](https://vuldb.com/?ip.46.17.96.36) | - | - | High
-52 | [49.12.117.51](https://vuldb.com/?ip.49.12.117.51) | static.51.117.12.49.clients.your-server.de | - | High
-53 | [49.13.60.242](https://vuldb.com/?ip.49.13.60.242) | static.242.60.13.49.clients.your-server.de | - | High
-54 | [51.15.226.0](https://vuldb.com/?ip.51.15.226.0) | 0-226-15-51.instances.scw.cloud | - | High
-55 | [51.81.69.127](https://vuldb.com/?ip.51.81.69.127) | ip127.ip-51-81-69.us | - | High
-56 | [62.182.156.152](https://vuldb.com/?ip.62.182.156.152) | - | - | High
-57 | [62.204.41.4](https://vuldb.com/?ip.62.204.41.4) | - | - | High
-58 | ... | ... | ... | ...
+26 | [31.41.244.9](https://vuldb.com/?ip.31.41.244.9) | - | - | High
+27 | [31.41.244.10](https://vuldb.com/?ip.31.41.244.10) | - | - | High
+28 | [31.41.244.11](https://vuldb.com/?ip.31.41.244.11) | - | - | High
+29 | [31.41.244.12](https://vuldb.com/?ip.31.41.244.12) | - | - | High
+30 | [31.41.244.15](https://vuldb.com/?ip.31.41.244.15) | - | - | High
+31 | [31.41.244.17](https://vuldb.com/?ip.31.41.244.17) | - | - | High
+32 | [31.41.244.60](https://vuldb.com/?ip.31.41.244.60) | - | - | High
+33 | [31.41.244.146](https://vuldb.com/?ip.31.41.244.146) | - | - | High
+34 | [31.41.244.158](https://vuldb.com/?ip.31.41.244.158) | - | - | High
+35 | [31.41.244.167](https://vuldb.com/?ip.31.41.244.167) | - | - | High
+36 | [31.41.244.200](https://vuldb.com/?ip.31.41.244.200) | - | - | High
+37 | [31.41.244.237](https://vuldb.com/?ip.31.41.244.237) | - | - | High
+38 | [37.220.87.85](https://vuldb.com/?ip.37.220.87.85) | ipn-37-220-87-85.artem-catv.ru | - | High
+39 | [45.9.74.5](https://vuldb.com/?ip.45.9.74.5) | - | - | High
+40 | [45.9.74.70](https://vuldb.com/?ip.45.9.74.70) | - | - | High
+41 | [45.9.74.80](https://vuldb.com/?ip.45.9.74.80) | - | - | High
+42 | [45.9.74.141](https://vuldb.com/?ip.45.9.74.141) | - | - | High
+43 | [45.9.74.164](https://vuldb.com/?ip.45.9.74.164) | - | - | High
+44 | [45.9.74.166](https://vuldb.com/?ip.45.9.74.166) | - | - | High
+45 | [45.9.74.182](https://vuldb.com/?ip.45.9.74.182) | - | - | High
+46 | [45.15.156.216](https://vuldb.com/?ip.45.15.156.216) | - | - | High
+47 | [45.32.200.113](https://vuldb.com/?ip.45.32.200.113) | 45.32.200.113.vultrusercontent.com | - | Medium
+48 | [45.66.230.123](https://vuldb.com/?ip.45.66.230.123) | - | - | High
+49 | [45.80.158.31](https://vuldb.com/?ip.45.80.158.31) | - | - | High
+50 | [45.140.19.240](https://vuldb.com/?ip.45.140.19.240) | sendboxmailer.com | - | High
+51 | [45.155.7.60](https://vuldb.com/?ip.45.155.7.60) | 7-60.static.ipcserver.net | - | High
+52 | [45.155.205.172](https://vuldb.com/?ip.45.155.205.172) | - | - | High
+53 | [45.156.23.149](https://vuldb.com/?ip.45.156.23.149) | - | - | High
+54 | [45.156.23.186](https://vuldb.com/?ip.45.156.23.186) | - | - | High
+55 | [45.227.255.49](https://vuldb.com/?ip.45.227.255.49) | - | - | High
+56 | [46.8.229.59](https://vuldb.com/?ip.46.8.229.59) | - | - | High
+57 | [46.17.96.36](https://vuldb.com/?ip.46.17.96.36) | - | - | High
+58 | [49.12.117.51](https://vuldb.com/?ip.49.12.117.51) | static.51.117.12.49.clients.your-server.de | - | High
+59 | [49.13.60.242](https://vuldb.com/?ip.49.13.60.242) | static.242.60.13.49.clients.your-server.de | - | High
+60 | ... | ... | ... | ...
 
-There are 230 more IOC items available. Please use our online service to access the data.
+There are 236 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -95,7 +97,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -103,49 +105,63 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/.pomerium` | Medium
-2 | File | `/admin/add_ikev2.php` | High
-3 | File | `/admin/ajax.php?action=delete_user` | High
-4 | File | `/Admin/changepassword.php` | High
-5 | File | `/admin/general-setting` | High
-6 | File | `/admin/inquiries/view_inquiry.php` | High
-7 | File | `/admin/list_ipAddressPolicy.php` | High
-8 | File | `/admin/pages/` | High
-9 | File | `/admin/projects/{projectname}/skills/{skillname}/video` | High
-10 | File | `/admin/service` | High
-11 | File | `/admins` | Low
-12 | File | `/api/v1/custom_component` | High
-13 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
-14 | File | `/applications/nexus/modules/front/store/store.php` | High
-15 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-16 | File | `/catalog/all-products` | High
-17 | File | `/cgi-bin/cstecgi.cgi` | High
-18 | File | `/cgi-bin/nas_sharing.cgi` | High
-19 | File | `/cgi-bin/wlogin.cgi` | High
-20 | File | `/classes/Master.php` | High
-21 | File | `/classes/Master.php?f=delete_category` | High
-22 | File | `/classes/Master.php?f=save_medicine` | High
-23 | File | `/classes/Users.php?f=delete` | High
-24 | File | `/classes/Users.php?f=save` | High
-25 | File | `/DXR.axd` | Medium
-26 | File | `/endpoint/add-user.php` | High
-27 | File | `/etc/postfix/sender_login` | High
-28 | File | `/etc/shadow` | Medium
-29 | File | `/farm/product.php` | High
-30 | File | `/formSysLog` | Medium
-31 | File | `/forum/away.php` | High
-32 | File | `/goform/SetIpMacBind` | High
-33 | File | `/goform/SetOnlineDevName` | High
-34 | File | `/goform/SetSysTimeCfg` | High
-35 | ... | ... | ...
+1 | File | `/+CSCOE+/logon.html` | High
+2 | File | `/.pomerium` | Medium
+3 | File | `/admin/?page=musics/manage_music` | High
+4 | File | `/admin/add_ikev2.php` | High
+5 | File | `/admin/ajax.php?action=delete_user` | High
+6 | File | `/admin/category_save.php` | High
+7 | File | `/Admin/changepassword.php` | High
+8 | File | `/admin/emp-profile-avatar.php` | High
+9 | File | `/admin/general-setting` | High
+10 | File | `/admin/inquiries/view_inquiry.php` | High
+11 | File | `/admin/list_ipAddressPolicy.php` | High
+12 | File | `/admin/manage_model.php` | High
+13 | File | `/admin/manage_user.php` | High
+14 | File | `/admin/order.php` | High
+15 | File | `/admin/pages/` | High
+16 | File | `/admin/projects/{projectname}/skills/{skillname}/video` | High
+17 | File | `/admin/service` | High
+18 | File | `/admin/subject.php` | High
+19 | File | `/admins` | Low
+20 | File | `/ajax/getBasicInfo.php` | High
+21 | File | `/api/v1/custom_component` | High
+22 | File | `/applications/core/modules/admin/editor/toolbar.php` | High
+23 | File | `/applications/nexus/modules/front/store/store.php` | High
+24 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+25 | File | `/catalog/all-products` | High
+26 | File | `/cgi-bin/apkg_mgr.cgi` | High
+27 | File | `/cgi-bin/cstecgi.cgi` | High
+28 | File | `/cgi-bin/nas_sharing.cgi` | High
+29 | File | `/cgi-bin/photocenter_mgr.cgi` | High
+30 | File | `/cgi-bin/wlogin.cgi` | High
+31 | File | `/classes/Master.php` | High
+32 | File | `/classes/Master.php?f=delete_category` | High
+33 | File | `/classes/Master.php?f=delete_record` | High
+34 | File | `/classes/Master.php?f=save_medicine` | High
+35 | File | `/classes/SystemSettings.php?f=update_settings` | High
+36 | File | `/classes/Users.php?f=delete` | High
+37 | File | `/classes/Users.php?f=save` | High
+38 | File | `/clientdetails/admin/regester.php` | High
+39 | File | `/downloadFile.php` | High
+40 | File | `/DXR.axd` | Medium
+41 | File | `/edit-subject.php` | High
+42 | File | `/endpoint/add-folder.php` | High
+43 | File | `/endpoint/add-user.php` | High
+44 | File | `/etc/postfix/sender_login` | High
+45 | File | `/etc/shadow` | Medium
+46 | File | `/etc/shadow.sample` | High
+47 | File | `/farm/product.php` | High
+48 | File | `/file_manager/login.php` | High
+49 | File | `/film-rating.php` | High
+50 | ... | ... | ...
 
-There are 295 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 431 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
-* http://193.176.190.43
 * https://app.any.run/tasks/0b56b793-ed22-4d78-ae02-7ed46294f9cf/
 * https://app.any.run/tasks/02405064-4229-4b48-8db7-1ded39e68147
 * https://app.any.run/tasks/02899dcc-a26c-407a-b60c-3944a135f441
@@ -169,6 +185,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://exchange.xforce.ibmcloud.com/report/details/guid:ee0b820692aebf95a376e6deb70d0fa9
 * https://ioc.exchange/@GustyDusty@infosec.exchange/110978626602393961
 * https://research.checkpoint.com/2023/unveiling-the-shadows-the-dark-alliance-between-guloader-and-remcos/
+* https://search.censys.io/hosts/185.215.113.117
 * https://threatfox.abuse.ch
 * https://threatvector.cylance.com/en_us/home/threat-spotlight-amadey-bot.html
 * https://tracker.viriback.com/index.php?q=5.42.64.44

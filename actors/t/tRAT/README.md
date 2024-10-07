@@ -44,13 +44,13 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/api/contents` | High
 2 | File | `/emap/devicePoint_addImgIco?hasSubsystem=true` | High
-3 | File | `/sendrcpackage?keyid=-2544&keysymbol=-4081` | High
-4 | File | `/uncpath/` | Medium
-5 | File | `assets/misc/fallback-page.php` | High
-6 | File | `bfd/aoutx.h` | Medium
+3 | File | `/index/ajax/lang` | High
+4 | File | `/sendrcpackage?keyid=-2544&keysymbol=-4081` | High
+5 | File | `/uncpath/` | Medium
+6 | File | `assets/misc/fallback-page.php` | High
 7 | ... | ... | ...
 
-There are 44 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 46 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -192,24 +192,25 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/booking-bwdates-reports-details.php` | High
-2 | File | `/admin/index.php?page=manage_product` | High
-3 | File | `/admin/manage-ambulance.php` | High
-4 | File | `/api/client/editemedia.php` | High
-5 | File | `/api/v2/maps` | Medium
-6 | File | `/application/index/controller/Databasesource.php` | High
-7 | File | `/backend/register.php` | High
-8 | File | `/cgi-bin/nas_sharing.cgi` | High
-9 | File | `/classes/Master.php` | High
-10 | File | `/classes/Master.php?f=save_sub_category` | High
-11 | File | `/classes/Users.php?f=delete` | High
-12 | File | `/control/register_case.php` | High
-13 | File | `/dashboard/Cinvoice/manage_invoice` | High
-14 | File | `/forum/away.php` | High
-15 | File | `/index.jsp#settings` | High
-16 | File | `/lesson/controller.php` | High
-17 | ... | ... | ...
+2 | File | `/admin/emp-profile-avatar.php` | High
+3 | File | `/admin/index.php?page=manage_product` | High
+4 | File | `/admin/manage-ambulance.php` | High
+5 | File | `/api/client/editemedia.php` | High
+6 | File | `/api/v2/maps` | Medium
+7 | File | `/application/index/controller/Databasesource.php` | High
+8 | File | `/backend/register.php` | High
+9 | File | `/cgi-bin/nas_sharing.cgi` | High
+10 | File | `/cgi-bin/p1_ftpserver.php` | High
+11 | File | `/cgi-bin/tosei_kikai.php` | High
+12 | File | `/classes/Master.php` | High
+13 | File | `/classes/Master.php?f=save_sub_category` | High
+14 | File | `/classes/SystemSettings.php?f=update_settings` | High
+15 | File | `/classes/Users.php?f=delete` | High
+16 | File | `/control/register_case.php` | High
+17 | File | `/dashboard/Cinvoice/manage_invoice` | High
+18 | ... | ... | ...
 
-There are 138 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 148 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

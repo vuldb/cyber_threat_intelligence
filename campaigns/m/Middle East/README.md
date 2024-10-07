@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Middle East:
 
-* [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
 * [VN](https://vuldb.com/?country.vn)
 * ...
 
-There are 19 more country items available. Please use our online service to access the data.
+There are 21 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -64,14 +64,15 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-24, CWE-29, CWE-425 | Path Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-29, CWE-425 | Path Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Improper Neutralization of Data within XPath Expressions | High
 4 | T1059 | CWE-94 | Argument Injection | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+6 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+7 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -80,59 +81,56 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/addnews.html` | High
-2 | File | `/admin/` | Low
-3 | File | `/admin/admin_user.php` | High
+2 | File | `/admin/admin_widgets.php?action=remove/widget=Statistics` | High
+3 | File | `/admin/ajax.php?action=login` | High
 4 | File | `/admin/app/product.php` | High
 5 | File | `/admin/forgot-password.php` | High
 6 | File | `/admin/index.php?page=manage_product` | High
-7 | File | `/admin/index2.html` | High
-8 | File | `/admin/list_ipAddressPolicy.php` | High
-9 | File | `/adminPage/conf/reload` | High
-10 | File | `/admin_route/dec_service_credits.php` | High
+7 | File | `/admin/index.php?r=banner%2Fbanner-create` | High
+8 | File | `/admin/index2.html` | High
+9 | File | `/admin/list_ipAddressPolicy.php` | High
+10 | File | `/adminPage/conf/reload` | High
 11 | File | `/api/controllers/merchant/design/MaterialController.php` | High
 12 | File | `/API/info` | Medium
 13 | File | `/api/runscript` | High
 14 | File | `/api/snapshots/` | High
 15 | File | `/api/v1/snapshots` | High
 16 | File | `/api/v2/maps` | Medium
-17 | File | `/app/api/controller/default/File.php` | High
-18 | File | `/application/index/controller/Datament.php` | High
-19 | File | `/application/index/controller/File.php` | High
-20 | File | `/apply/index.php` | High
-21 | File | `/att_add.php` | Medium
-22 | File | `/bin/boa` | Medium
-23 | File | `/cgi-bin/cstecgi.cgi` | High
-24 | File | `/cgi-bin/cstecgi.cgi?action=login` | High
-25 | File | `/cgi-bin/cstecgi.cgi?action=login&flag=1` | High
-26 | File | `/cgi-bin/nas_sharing.cgi` | High
-27 | File | `/cgi-bin/system_mgr.cgi` | High
-28 | File | `/cgi-bin/wlogin.cgi` | High
-29 | File | `/cgi/cpaddons_report.pl` | High
-30 | File | `/check_availability.php` | High
-31 | File | `/classes/Master.php` | High
-32 | File | `/common/dict/list` | High
-33 | File | `/debug/pprof` | Medium
-34 | File | `/download.php?file=author.png` | High
-35 | File | `/Employer/EditProfile.php` | High
-36 | File | `/Employer/ManageWalkin.php` | High
-37 | File | `/endpoint/update-tracker.php` | High
-38 | File | `/etc/init.d/update_notifications.sh` | High
-39 | File | `/forum/away.php` | High
-40 | File | `/general/email/outbox/delete.php` | High
-41 | File | `/goform/DhcpListClient` | High
-42 | File | `/hrm/leaverequest.php` | High
-43 | File | `/index/ajax/lang` | High
-44 | File | `/install/` | Medium
-45 | File | `/Interface/DevManage/VM.php` | High
-46 | File | `/main/webservices/additional_webservices.php` | High
-47 | File | `/manage_sy.php` | High
+17 | File | `/application/index/controller/Datament.php` | High
+18 | File | `/application/index/controller/File.php` | High
+19 | File | `/apply/index.php` | High
+20 | File | `/att_add.php` | Medium
+21 | File | `/candidate/index.php` | High
+22 | File | `/cgi-bin/nas_sharing.cgi` | High
+23 | File | `/cgi-bin/system_mgr.cgi` | High
+24 | File | `/cgi-bin/wlogin.cgi` | High
+25 | File | `/check_availability.php` | High
+26 | File | `/classes/Master.php` | High
+27 | File | `/classes/SystemSettings.php?f=update_settings` | High
+28 | File | `/common/dict/list` | High
+29 | File | `/device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___` | High
+30 | File | `/download.php?file=author.png` | High
+31 | File | `/Employer/EditProfile.php` | High
+32 | File | `/Employer/ManageWalkin.php` | High
+33 | File | `/endpoint/add-calorie.php` | High
+34 | File | `/endpoint/update-tracker.php` | High
+35 | File | `/etc/init.d/update_notifications.sh` | High
+36 | File | `/foms/routers/place-order.php` | High
+37 | File | `/forum/away.php` | High
+38 | File | `/general/email/outbox/delete.php` | High
+39 | File | `/goform/DhcpListClient` | High
+40 | File | `/hrm/leaverequest.php` | High
+41 | File | `/index.php` | Medium
+42 | File | `/index/ajax/lang` | High
+43 | File | `/install/` | Medium
+44 | File | `/Interface/DevManage/VM.php` | High
+45 | File | `/main/webservices/additional_webservices.php` | High
+46 | File | `/manage_sy.php` | High
+47 | File | `/music/ajax.php?action=save_music` | High
 48 | File | `/ndmComponents.js` | High
-49 | File | `/net/bluetooth/rfcomm/core.C` | High
-50 | File | `/novel/bookSetting/list` | High
-51 | File | `/oa/notify/edit` | High
-52 | ... | ... | ...
+49 | ... | ... | ...
 
-There are 455 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 430 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

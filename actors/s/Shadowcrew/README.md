@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [PL](https://vuldb.com/?country.pl)
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -753,7 +753,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -761,23 +761,30 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/maintenance/manage_brand.php` | High
-2 | File | `/admin/order.php` | High
-3 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-4 | File | `/catalog/all-products` | High
-5 | File | `/cgi-bin/cstecgi.cgi` | High
-6 | File | `/cgi-bin/ping.cgi` | High
-7 | File | `/changePassword` | High
-8 | File | `/download` | Medium
-9 | File | `/forum/away.php` | High
-10 | File | `/geoserver/gwc/rest.html` | High
-11 | File | `/goform/addIpMacBind` | High
-12 | File | `/goform/DelDhcpRule` | High
-13 | File | `/goform/delIpMacBind` | High
-14 | File | `/goform/DelPortMapping` | High
-15 | ... | ... | ...
+1 | File | `/+CSCOE+/logon.html` | High
+2 | File | `/admin/add_ikev2.php` | High
+3 | File | `/admin/category_save.php` | High
+4 | File | `/admin/list_ipAddressPolicy.php` | High
+5 | File | `/admin/maintenance/manage_brand.php` | High
+6 | File | `/admin/manage_model.php` | High
+7 | File | `/admin/manage_user.php` | High
+8 | File | `/admin/order.php` | High
+9 | File | `/admin/subject.php` | High
+10 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+11 | File | `/catalog/all-products` | High
+12 | File | `/cgi-bin/cstecgi.cgi` | High
+13 | File | `/cgi-bin/ping.cgi` | High
+14 | File | `/changePassword` | High
+15 | File | `/download` | Medium
+16 | File | `/edit-subject.php` | High
+17 | File | `/endpoint/add-user.php` | High
+18 | File | `/etc/postfix/sender_login` | High
+19 | File | `/foms/routers/place-order.php` | High
+20 | File | `/forum/away.php` | High
+21 | File | `/geoserver/gwc/rest.html` | High
+22 | ... | ... | ...
 
-There are 115 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 182 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

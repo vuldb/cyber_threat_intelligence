@@ -55,15 +55,16 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/etc/postfix/sender_login` | High
 2 | File | `/goform/openSchedWifi` | High
-3 | File | `/services/details.asp` | High
-4 | File | `/tracking/nbproject/` | High
-5 | File | `admin/getparam.cgi` | High
-6 | File | `aepx` | Low
-7 | File | `app/Plugin/GrafanaModule/Controller/GrafanaConfigurationController.php` | High
-8 | File | `boafrm/formSysCmd` | High
-9 | ... | ... | ...
+3 | File | `/model/viewProduct.php` | High
+4 | File | `/services/details.asp` | High
+5 | File | `/tracking/nbproject/` | High
+6 | File | `admin/getparam.cgi` | High
+7 | File | `aepx` | Low
+8 | File | `app/Plugin/GrafanaModule/Controller/GrafanaConfigurationController.php` | High
+9 | File | `boafrm/formSysCmd` | High
+10 | ... | ... | ...
 
-There are 67 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 70 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

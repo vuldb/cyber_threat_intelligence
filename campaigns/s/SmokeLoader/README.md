@@ -54,7 +54,7 @@ ID | IP address | Hostname | Actor | Confidence
 25 | [31.44.6.123](https://vuldb.com/?ip.31.44.6.123) | - | [SmokeLoader](https://vuldb.com/?actor.smokeloader) | High
 26 | ... | ... | ... | ...
 
-There are 99 more IOC items available. Please use our online service to access the data.
+There are 100 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -99,7 +99,7 @@ ID | Type | Indicator | Confidence
 22 | File | `account.asp` | Medium
 23 | ... | ... | ...
 
-There are 192 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 194 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
